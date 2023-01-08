@@ -1,9 +1,0 @@
-Name=Easy Job - Part 1
-Trader=Prapor
-
-NeedTask=The Punisher - Part 2
-
-Task_Map=Lighthouse
-Task_Else=ヘリコプターにマーカーを設置
-
-Reward_Rep=Prapor+0.02

@@ -1,8 +1,0 @@
-Name=Jaeger
-Color=[255,128,0]
-LL2Rep=0.20
-LL3Rep=0.35
-LL4Rep=0.50
-LL2Lv=15
-LL3Lv=22
-LL4Lv=33

@@ -1,8 +1,0 @@
-Name=Peacekeeper
-Color=[0,0,255]
-LL2Rep=0.00
-LL3Rep=0.30
-LL4Rep=0.60
-LL2Lv=14
-LL3Lv=23
-LL4Lv=37

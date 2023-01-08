@@ -1,2 +1,0 @@
-Name=Tarcone Director's office key
-Itemtype=Key

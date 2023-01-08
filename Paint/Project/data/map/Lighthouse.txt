@@ -1,2 +1,0 @@
-Name=Lighthouse
-Color=[64,255,0]

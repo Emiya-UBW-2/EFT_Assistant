@@ -1,0 +1,2 @@
+Name=Portable bunkhouse key
+Itemtype=Key

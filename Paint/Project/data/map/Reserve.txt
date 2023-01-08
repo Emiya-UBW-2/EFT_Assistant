@@ -1,2 +1,0 @@
-Name=Reserve
-Color=[64,192,64]

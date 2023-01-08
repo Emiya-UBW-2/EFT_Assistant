@@ -1,0 +1,9 @@
+Name=Intimidator
+Trader=Prapor
+
+NeedTask=The Punisher - Part 6
+NeedLevel=45
+
+Task_Kill=[Scavx40]
+Task_Else=ヘッドショットのみ
+

@@ -1,0 +1,2 @@
+Name=Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle
+ItemType=Weapon

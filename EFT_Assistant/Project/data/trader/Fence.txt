@@ -1,0 +1,8 @@
+Name=Fence
+Color=[0,0,0]
+LL2Rep=6.00
+LL3Rep=6.00
+LL4Rep=6.00
+LL2Lv=1
+LL3Lv=1
+LL4Lv=1

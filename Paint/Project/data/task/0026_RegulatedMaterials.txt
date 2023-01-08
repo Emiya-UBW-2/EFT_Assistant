@@ -1,9 +1,0 @@
-Name=Regulated Materials
-Trader=Prapor
-
-NeedTask=Polikhim Hobo
-NeedLevel=25
-
-Task_FiR_HandOver=[6-STEN-140-M military batteryx1,OFZ 30x160mm shellx5]
-
-Reward_Rep=Prapor+0.02

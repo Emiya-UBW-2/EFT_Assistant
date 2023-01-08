@@ -1,0 +1,12 @@
+Name=The Punisher - Part 1
+Trader=Prapor
+
+NeedTask=Shaking up the Teller
+NeedLevel=17
+
+Task_Map=Shoreline
+Task_Kill=[Scavx15]
+Task_Else=AKM—Þ‚É‚æ‚éƒLƒ‹
+
+Reward_Rep=Prapor+0.02
+Reward_Item=[6B43 6A Zabralo-Sh body armorx1]

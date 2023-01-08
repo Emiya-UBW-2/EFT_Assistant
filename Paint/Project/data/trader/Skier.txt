@@ -1,8 +1,0 @@
-Name=Skier
-Color=[255,0,0]
-LL2Rep=0.20
-LL3Rep=0.40
-LL4Rep=0.75
-LL2Lv=15
-LL3Lv=28
-LL4Lv=38

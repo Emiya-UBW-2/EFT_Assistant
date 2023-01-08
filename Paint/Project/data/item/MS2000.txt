@@ -1,2 +1,0 @@
-Name=MS2000 Marker
-Itemtype=Special

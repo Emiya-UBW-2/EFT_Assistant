@@ -1,0 +1,11 @@
+Name=Test Drive - Part 1
+Trader=Prapor
+
+NeedTask=Grenadier
+
+Task_Kill=[AllPMCx5]
+Task_Else=46サプ、REAP-IRを付けたM1Aで
+Task_Else=60m以遠からキル
+
+Reward_Rep=Prapor+0.02
+Reward_Item=[Golden neck chainx5]

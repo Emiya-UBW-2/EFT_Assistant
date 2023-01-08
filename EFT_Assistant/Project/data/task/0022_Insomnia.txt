@@ -1,0 +1,11 @@
+Name=Insomnia
+Trader=Prapor
+
+NeedTask=Grenadier
+
+Task_Kill=[AllPMCx30]
+Task_Else=FactoryˆÈŠO‚Å
+Task_Else=22`5‚Ü‚Å‚ÌŠÔ“à‚ÉƒLƒ‹
+
+
+Reward_Rep=Prapor+0.02

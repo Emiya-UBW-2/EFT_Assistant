@@ -1,8 +1,0 @@
-Name=Therapist
-Color=[255,255,255]
-LL2Rep=0.15
-LL3Rep=0.30
-LL4Rep=0.60
-LL2Lv=13
-LL3Lv=24
-LL4Lv=35

@@ -1,2 +1,0 @@
-Name=Bars A-2607 95H18 knife
-Type=Weapon

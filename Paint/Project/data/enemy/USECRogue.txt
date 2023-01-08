@@ -1,2 +1,0 @@
-Name=USECRogue
-Color=[128,192,0]

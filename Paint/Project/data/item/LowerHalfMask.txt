@@ -1,2 +1,0 @@
-Name=Lower half-mask
-Itemtype=Mask

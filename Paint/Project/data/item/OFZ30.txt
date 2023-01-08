@@ -1,2 +1,0 @@
-Name=OFZ 30x160mm shell
-Itemtype=Others

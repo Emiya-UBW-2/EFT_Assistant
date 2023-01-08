@@ -1,8 +1,0 @@
-Name=Mechanic
-Color=[192,192,192]
-LL2Rep=0.15
-LL3Rep=0.30
-LL4Rep=0.60
-LL2Lv=20
-LL3Lv=30
-LL4Lv=40

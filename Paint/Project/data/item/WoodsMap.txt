@@ -1,2 +1,0 @@
-Name=Woods plan map
-Itemtype=Map

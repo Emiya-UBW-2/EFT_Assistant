@@ -1,2 +1,0 @@
-Name=Scav
-Color=[255,0,0]

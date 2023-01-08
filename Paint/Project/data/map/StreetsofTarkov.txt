@@ -1,2 +1,0 @@
-Name=Streets of Tarkov
-Color=[192,192,192]

@@ -1,2 +1,0 @@
-Name=Expeditionary fuel tank
-Itemtype=Flammable

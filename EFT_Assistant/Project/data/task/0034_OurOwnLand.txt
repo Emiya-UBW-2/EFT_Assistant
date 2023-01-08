@@ -1,0 +1,11 @@
+Name=Our Own Land
+Trader=Prapor
+
+NeedTask=The Punisher - Part 4
+
+Task_Map=Lighthouse
+Task_Kill=[USECPMCx20]
+Task_FiR_HandOver=[Dogtag (USEC)x20]
+Task_Else=Bear�ł̂݉\
+
+Reward_Rep=Prapor+0.02

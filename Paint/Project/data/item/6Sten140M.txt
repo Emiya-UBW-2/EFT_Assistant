@@ -1,2 +1,0 @@
-Name=6-STEN-140-M military battery
-Itemtype=Energy

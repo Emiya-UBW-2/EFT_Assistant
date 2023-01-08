@@ -1,8 +1,0 @@
-Name=Prapor
-Color=[192,192,0]
-LL2Rep=0.20
-LL3Rep=0.35
-LL4Rep=0.50
-LL2Lv=15
-LL3Lv=26
-LL4Lv=36
