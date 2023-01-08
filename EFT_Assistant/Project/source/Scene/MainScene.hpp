@@ -25,377 +25,306 @@ namespace FPS_n2 {
 	typedef int ItemID;
 	typedef int TaskID;
 	//
-	class MapList {
-		MapID		m_Map{ -1 };
-		std::string		m_MapName;
-		std::array<int, 3> m_MapColor{ 0,0,0 };
-	public:
-		void	Set(const char* FilePath, MapID id) {
-			m_Map = id;
-			int mdata = FileRead_open(FilePath, FALSE);
-			while (true) {
-				if (FileRead_eof(mdata) != 0) { break; }
-				auto ALL = getparams::Getstr(mdata);
-				if (ALL == "") { continue; }
-				auto LEFT = getparams::getleft(ALL);
-				auto RIGHT = getparams::getright(ALL);
-				std::vector<std::string> Args;
-				{
-					auto L = RIGHT.find("[");
-					auto R = RIGHT.find("]");
-					if (L != std::string::npos && R != std::string::npos) {
-						RIGHT = RIGHT.substr(L + 1);
-						while (true) {
-							auto div = RIGHT.find(",");
-							if (div != std::string::npos) {
-								Args.emplace_back(RIGHT.substr(0, div));
-								RIGHT = RIGHT.substr(div + 1);
-							}
-							else {
-								Args.emplace_back(RIGHT.substr(0, RIGHT.find("]")));
-								break;
-							}
-						}
-					}
-				}
-				if (LEFT == "Name") {
-					m_MapName = RIGHT;
-					continue;
-				}
-				if (LEFT == "Color") {
-					m_MapColor[0] = std::stoi(Args[0]);
-					m_MapColor[1] = std::stoi(Args[1]);
-					m_MapColor[2] = std::stoi(Args[2]);
-					continue;
-				}
-			}
-			FileRead_close(mdata);
-		}
-	public:
-		const auto& GetID() const noexcept { return m_Map; }
-		const auto& GetName() const noexcept { return m_MapName; }
-		const auto& GetColors() const noexcept { return m_MapColor; }
-	};
-	static std::vector<MapList>	g_MapList;
-	void	SetMapList() {
-		auto data_t = GetFileNamesInDirectory("data/map/");
-		std::vector<std::string> DirNames;
-		for (auto& d : data_t) {
-			if (d.cFileName[0] != '.') {
-				DirNames.emplace_back(d.cFileName);
-			}
-		}
-		g_MapList.resize(DirNames.size());
-		for (auto& d : DirNames) {
-			int ID = (int)(&d - &DirNames.front());
-			g_MapList[ID].Set(("data/map/" + d).c_str(), (MapID)ID);
-		}
-		DirNames.clear();
-	}
-	const MapID	FindMapID(const char* name) {
-		for (const auto&t : g_MapList) {
-			if (t.GetName() == name) {
-				return t.GetID();
-			}
-		}
-		return (MapID)-1;
-	}
-	const MapList&	FindMap(MapID ID) {
-		for (const auto&t : g_MapList) {
-			if (t.GetID() == ID) {
-				return t;
-			}
-		}
-		return g_MapList[0];
-	}
-	//
-	class ItemList {
-		ItemID		m_Item{ -1 };
-		std::string		m_ItemName;
-	public:
-		void	Set(const char* FilePath, ItemID id) {
-			m_Item = id;
-			int mdata = FileRead_open(FilePath, FALSE);
-			while (true) {
-				if (FileRead_eof(mdata) != 0) { break; }
-				auto ALL = getparams::Getstr(mdata);
-				if (ALL == "") { continue; }
-				auto LEFT = getparams::getleft(ALL);
-				auto RIGHT = getparams::getright(ALL);
-				std::vector<std::string> Args;
-				{
-					auto L = RIGHT.find("[");
-					auto R = RIGHT.find("]");
-					if (L != std::string::npos && R != std::string::npos) {
-						RIGHT = RIGHT.substr(L + 1);
-						while (true) {
-							auto div = RIGHT.find(",");
-							if (div != std::string::npos) {
-								Args.emplace_back(RIGHT.substr(0, div));
-								RIGHT = RIGHT.substr(div + 1);
-							}
-							else {
-								Args.emplace_back(RIGHT.substr(0, RIGHT.find("]")));
-								break;
-							}
-						}
-					}
-				}
-				if (LEFT == "Name") {
-					m_ItemName = RIGHT;
-					continue;
-				}
-				if (LEFT == "Itemtype") {
-					//m_ItemName = RIGHT;
-					continue;
-				}
-			}
-			FileRead_close(mdata);
-		}
-	public:
-		const auto& GetID() const noexcept { return m_Item; }
-		const auto& GetName() const noexcept { return m_ItemName; }
-	};
-	static std::vector<ItemList>	g_ItemList;
-	void	SetItemList() {
-		auto data_t = GetFileNamesInDirectory("data/item/");
-		std::vector<std::string> DirNames;
-		for (auto& d : data_t) {
-			if (d.cFileName[0] != '.') {
-				DirNames.emplace_back(d.cFileName);
-			}
-		}
-		g_ItemList.resize(DirNames.size());
-		for (auto& d : DirNames) {
-			int ID = (int)(&d - &DirNames.front());
-			g_ItemList[ID].Set(("data/item/" + d).c_str(), (ItemID)ID);
-		}
-		DirNames.clear();
-	}
-	const ItemID	FindItemID(const char* name) {
-		for (const auto&t : g_ItemList) {
-			if (t.GetName() == name) {
-				return t.GetID();
-			}
-		}
-		return (ItemID)-1;
-	}
-	const ItemList&	FindItem(ItemID ID) {
-		return g_ItemList[0];
-		for (const auto&t : g_ItemList) {
-			if (t.GetID() == ID) {
-				return t;
-			}
-		}
-		return g_ItemList[0];
-	}
-	//
-	class EnemyList {
-		EnemyID		m_Enemy{ -1 };
-		std::string		m_EnemyName;
-		std::array<int, 3> m_EnemyColor{ 0,0,0 };
-	public:
-		void	Set(const char* FilePath, EnemyID id) {
-			m_Enemy = id;
-			int mdata = FileRead_open(FilePath, FALSE);
-			while (true) {
-				if (FileRead_eof(mdata) != 0) { break; }
-				auto ALL = getparams::Getstr(mdata);
-				if (ALL == "") { continue; }
-				auto LEFT = getparams::getleft(ALL);
-				auto RIGHT = getparams::getright(ALL);
-				std::vector<std::string> Args;
-				{
-					auto L = RIGHT.find("[");
-					auto R = RIGHT.find("]");
-					if (L != std::string::npos && R != std::string::npos) {
-						RIGHT = RIGHT.substr(L + 1);
-						while (true) {
-							auto div = RIGHT.find(",");
-							if (div != std::string::npos) {
-								Args.emplace_back(RIGHT.substr(0, div));
-								RIGHT = RIGHT.substr(div + 1);
-							}
-							else {
-								Args.emplace_back(RIGHT.substr(0, RIGHT.find("]")));
-								break;
-							}
-						}
-					}
-				}
-				if (LEFT == "Name") {
-					m_EnemyName = RIGHT;
-					continue;
-				}
-				if (LEFT == "Color") {
-					m_EnemyColor[0] = std::stoi(Args[0]);
-					m_EnemyColor[1] = std::stoi(Args[1]);
-					m_EnemyColor[2] = std::stoi(Args[2]);
-					continue;
-				}
-			}
-			FileRead_close(mdata);
-		}
-	public:
-		const auto& GetID() const noexcept { return m_Enemy; }
-		const auto& GetName() const noexcept { return m_EnemyName; }
-		const auto& GetColors() const noexcept { return m_EnemyColor; }
-	};
-	static std::vector<EnemyList>	g_EnemyList;
-	void	SetEnemyList() {
-		auto data_t = GetFileNamesInDirectory("data/Enemy/");
-		std::vector<std::string> DirNames;
-		for (auto& d : data_t) {
-			if (d.cFileName[0] != '.') {
-				DirNames.emplace_back(d.cFileName);
-			}
-		}
-		g_EnemyList.resize(DirNames.size());
-		for (auto& d : DirNames) {
-			int ID = (int)(&d - &DirNames.front());
-			g_EnemyList[ID].Set(("data/enemy/" + d).c_str(), (EnemyID)ID);
-		}
-		DirNames.clear();
-	}
-	const EnemyID	FindEnemyID(const char* name) {
-		for (const auto&t : g_EnemyList) {
-			if (t.GetName() == name) {
-				return t.GetID();
-			}
-		}
-		return (EnemyID)-1;
-	}
-	const EnemyList&	FindEnemy(EnemyID ID) {
-		for (const auto&t : g_EnemyList) {
-			if (t.GetID() == ID) {
-				return t;
-			}
-		}
-		return g_EnemyList[0];
-	}
-	//
-	class TraderList {
-		TraderID		m_Trader{ -1 };
-		std::string		m_TraderName;
-		std::array<int, 3> m_TraderColor{ 0,0,0 };
-
-		std::array<int, 4> m_TraderLv{ 0,0,0,0 };
-		std::array<float, 4> m_TraderRep{ 0,0,0,0 };
-	public:
-		void	Set(const char* FilePath, TraderID id) {
-			m_Trader = id;
-			int mdata = FileRead_open(FilePath, FALSE);
-			while (true) {
-				if (FileRead_eof(mdata) != 0) { break; }
-				auto ALL = getparams::Getstr(mdata);
-				if (ALL == "") { continue; }
-				auto LEFT = getparams::getleft(ALL);
-				auto RIGHT = getparams::getright(ALL);
-				std::vector<std::string> Args;
-				{
-					auto L = RIGHT.find("[");
-					auto R = RIGHT.find("]");
-					if (L != std::string::npos && R != std::string::npos) {
-						RIGHT = RIGHT.substr(L + 1);
-						while (true) {
-							auto div = RIGHT.find(",");
-							if (div != std::string::npos) {
-								Args.emplace_back(RIGHT.substr(0, div));
-								RIGHT = RIGHT.substr(div + 1);
-							}
-							else {
-								Args.emplace_back(RIGHT.substr(0, RIGHT.find("]")));
-								break;
-							}
-						}
-					}
-				}
-				if (LEFT == "Name") {
-					m_TraderName = RIGHT;
-					continue;
-				}
-				if (LEFT == "Color") {
-					m_TraderColor[0] = std::stoi(Args[0]);
-					m_TraderColor[1] = std::stoi(Args[1]);
-					m_TraderColor[2] = std::stoi(Args[2]);
-					continue;
-				}
-				{
-					bool isHit = false;
-					for (int i = 0; i < 4; i++) {
-						if (i == 0) {
-							m_TraderLv[i] = 1;
-							m_TraderRep[i] = 0.f;
+	template <class ID>
+	class ListBase {
+	private:
+		ID				m_ID{ -1 };
+		std::string		m_Name;
+		std::array<int, 3> m_Color{ 0,0,0 };
+	protected:
+		void	SetID(ID value) noexcept { m_ID = value; }
+		auto	GetArgs(std::string RIGHT) {
+			std::vector<std::string> Args;
+			{
+				auto L = RIGHT.find("[");
+				auto R = RIGHT.find("]");
+				if (L != std::string::npos && R != std::string::npos) {
+					RIGHT = RIGHT.substr(L + 1);
+					while (true) {
+						auto div = RIGHT.find(",");
+						if (div != std::string::npos) {
+							Args.emplace_back(RIGHT.substr(0, div));
+							RIGHT = RIGHT.substr(div + 1);
 						}
 						else {
-							if (LEFT == "LL" + std::to_string(i + 1) + "Rep") {
-								m_TraderRep[i] = std::stof(RIGHT);
-								isHit = true;
-								break;
-							}
-							if (LEFT == "LL" + std::to_string(i + 1) + "Lv") {
-								m_TraderLv[i] = std::stoi(RIGHT);
-								isHit = true;
-								break;
-							}
+							Args.emplace_back(RIGHT.substr(0, RIGHT.find("]")));
+							break;
 						}
 					}
-					if (isHit) { continue; }
 				}
 			}
-			FileRead_close(mdata);
+			return Args;
+		}
+		void	SetBase(std::string LEFT, std::string RIGHT, const std::vector<std::string>& Args) {
+			if (LEFT == "Name") {
+				m_Name = RIGHT;
+			}
+			else if (LEFT == "Color") {
+				m_Color[0] = std::stoi(Args[0]);
+				m_Color[1] = std::stoi(Args[1]);
+				m_Color[2] = std::stoi(Args[2]);
+			}
 		}
 	public:
-		const auto& GetID() const noexcept { return m_Trader; }
-		const auto& GetName() const noexcept { return m_TraderName; }
-		const auto& GetColors() const noexcept { return m_TraderColor; }
+		const auto& GetID() const noexcept { return m_ID; }
+		const auto& GetName() const noexcept { return m_Name; }
+		const auto GetColors(int colorAdd) const noexcept {
+			return DxLib::GetColor(std::clamp(m_Color[0] - colorAdd, 0, 255), std::clamp(m_Color[1] - colorAdd, 0, 255), std::clamp(m_Color[2] - colorAdd, 0, 255));
+		}
 	};
-	static std::vector<TraderList>	g_TraderList;
-	static std::vector<float>	g_TraderRep;
-	void	SetTraderList() {
-		auto data_t = GetFileNamesInDirectory("data/trader/");
-		std::vector<std::string> DirNames;
-		for (auto& d : data_t) {
-			if (d.cFileName[0] != '.') {
-				DirNames.emplace_back(d.cFileName);
-			}
-		}
-		g_TraderList.resize(DirNames.size());
-		g_TraderRep.resize(DirNames.size());
-		for (auto& d : DirNames) {
-			int ID = (int)(&d - &DirNames.front());
-			g_TraderList[ID].Set(("data/trader/" + d).c_str(), (TraderID)ID);
-		}
-		DirNames.clear();
-	}
-	const TraderID	FindTraderID(const char* name) {
-		for (const auto&t : g_TraderList) {
-			if (t.GetName()==name) {
-				return t.GetID();
-			}
-		}
-		return (TraderID)-1;
-	}
-	const TraderList&	FindTrader(TraderID ID) {
-		for (const auto&t : g_TraderList) {
-			if (t.GetID() == ID) {
-				return t;
-			}
-		}
-		return g_TraderList[0];
-	}
-	float*	FindTraderRep(TraderID ID) {
-		for (const auto&t : g_TraderList) {
-			if (t.GetID() == ID) {
-				return &g_TraderRep[&t-&g_TraderList.front()];
-			}
-		}
-		return nullptr;
-	}
 	//
-	class TaskData {
+	namespace MapDatas {
+		class MapList : public ListBase<MapID> {
+		public:
+			void	Set(const char* FilePath, MapID id) {
+				SetID(id);
+				int mdata = FileRead_open(FilePath, FALSE);
+				while (true) {
+					if (FileRead_eof(mdata) != 0) { break; }
+					auto ALL = getparams::Getstr(mdata);
+					if (ALL == "") { continue; }
+					auto LEFT = getparams::getleft(ALL);
+					auto RIGHT = getparams::getright(ALL);
+					auto Args = GetArgs(RIGHT);
+					SetBase(LEFT, RIGHT, Args);
+				}
+				FileRead_close(mdata);
+			}
+		};
+		static std::vector<MapList>	g_MapList;
+		void	SetMapList() {
+			auto data_t = GetFileNamesInDirectory("data/map/");
+			std::vector<std::string> DirNames;
+			for (auto& d : data_t) {
+				if (d.cFileName[0] != '.') {
+					DirNames.emplace_back(d.cFileName);
+				}
+			}
+			g_MapList.resize(DirNames.size());
+			for (auto& d : DirNames) {
+				int ID = (int)(&d - &DirNames.front());
+				g_MapList[ID].Set(("data/map/" + d).c_str(), (MapID)ID);
+			}
+			DirNames.clear();
+		}
+		const MapID	FindMapID(const char* name) {
+			for (const auto&t : g_MapList) {
+				if (t.GetName() == name) {
+					return t.GetID();
+				}
+			}
+			return (MapID)-1;
+		}
+		const MapList&	FindMap(MapID ID) {
+			for (const auto&t : g_MapList) {
+				if (t.GetID() == ID) {
+					return t;
+				}
+			}
+			return g_MapList[0];
+		}
+	};
+	//
+	namespace ItemDatas {
+		class ItemList : public ListBase<ItemID> {
+		public:
+			void	Set(const char* FilePath, ItemID id) {
+				SetID(id);
+				int mdata = FileRead_open(FilePath, FALSE);
+				while (true) {
+					if (FileRead_eof(mdata) != 0) { break; }
+					auto ALL = getparams::Getstr(mdata);
+					if (ALL == "") { continue; }
+					auto LEFT = getparams::getleft(ALL);
+					auto RIGHT = getparams::getright(ALL);
+					auto Args = GetArgs(RIGHT);
+					SetBase(LEFT, RIGHT, Args);
+					//追加設定
+					if (LEFT == "Itemtype") {
+						// = RIGHT;
+						continue;
+					}
+				}
+				FileRead_close(mdata);
+			}
+		};
+		static std::vector<ItemList>	g_ItemList;
+		void	SetItemList() {
+			auto data_t = GetFileNamesInDirectory("data/item/");
+			std::vector<std::string> DirNames;
+			for (auto& d : data_t) {
+				if (d.cFileName[0] != '.') {
+					DirNames.emplace_back(d.cFileName);
+				}
+			}
+			g_ItemList.resize(DirNames.size());
+			for (auto& d : DirNames) {
+				int ID = (int)(&d - &DirNames.front());
+				g_ItemList[ID].Set(("data/item/" + d).c_str(), (ItemID)ID);
+			}
+			DirNames.clear();
+		}
+		const ItemID	FindItemID(const char* name) {
+			for (const auto&t : g_ItemList) {
+				if (t.GetName() == name) {
+					return t.GetID();
+				}
+			}
+			return (ItemID)-1;
+		}
+		const ItemList&	FindItem(ItemID ID) {
+			return g_ItemList[0];
+			for (const auto&t : g_ItemList) {
+				if (t.GetID() == ID) {
+					return t;
+				}
+			}
+			return g_ItemList[0];
+		}
+	};
+	//
+	namespace EnemyDatas {
+		class EnemyList : public ListBase<EnemyID> {
+		public:
+			void	Set(const char* FilePath, EnemyID id) {
+				SetID(id);
+				int mdata = FileRead_open(FilePath, FALSE);
+				while (true) {
+					if (FileRead_eof(mdata) != 0) { break; }
+					auto ALL = getparams::Getstr(mdata);
+					if (ALL == "") { continue; }
+					auto LEFT = getparams::getleft(ALL);
+					auto RIGHT = getparams::getright(ALL);
+					auto Args = GetArgs(RIGHT);
+					SetBase(LEFT, RIGHT, Args);
+				}
+				FileRead_close(mdata);
+			}
+		};
+		static std::vector<EnemyList>	g_EnemyList;
+		void	SetEnemyList() {
+			auto data_t = GetFileNamesInDirectory("data/Enemy/");
+			std::vector<std::string> DirNames;
+			for (auto& d : data_t) {
+				if (d.cFileName[0] != '.') {
+					DirNames.emplace_back(d.cFileName);
+				}
+			}
+			g_EnemyList.resize(DirNames.size());
+			for (auto& d : DirNames) {
+				int ID = (int)(&d - &DirNames.front());
+				g_EnemyList[ID].Set(("data/enemy/" + d).c_str(), (EnemyID)ID);
+			}
+			DirNames.clear();
+		}
+		const EnemyID	FindEnemyID(const char* name) {
+			for (const auto&t : g_EnemyList) {
+				if (t.GetName() == name) {
+					return t.GetID();
+				}
+			}
+			return (EnemyID)-1;
+		}
+		const EnemyList&	FindEnemy(EnemyID ID) {
+			for (const auto&t : g_EnemyList) {
+				if (t.GetID() == ID) {
+					return t;
+				}
+			}
+			return g_EnemyList[0];
+		}
+	};
+	//
+	namespace TraderDatas {
+		class TraderList : public ListBase<TraderID> {
+			std::array<int, 4> m_Lv{ 0,0,0,0 };
+			std::array<float, 4> m_Rep{ 0,0,0,0 };
+		public:
+			void	Set(const char* FilePath, TraderID id) {
+				SetID(id);
+				int mdata = FileRead_open(FilePath, FALSE);
+				while (true) {
+					if (FileRead_eof(mdata) != 0) { break; }
+					auto ALL = getparams::Getstr(mdata);
+					if (ALL == "") { continue; }
+					auto LEFT = getparams::getleft(ALL);
+					auto RIGHT = getparams::getright(ALL);
+					auto Args = GetArgs(RIGHT);
+					SetBase(LEFT, RIGHT, Args);
+					//追加設定
+					{
+						bool isHit = false;
+						for (int i = 0; i < 4; i++) {
+							if (i == 0) {
+								m_Lv[i] = 1;
+								m_Rep[i] = 0.f;
+							}
+							else {
+								if (LEFT == "LL" + std::to_string(i + 1) + "Rep") {
+									m_Rep[i] = std::stof(RIGHT);
+									isHit = true;
+									break;
+								}
+								if (LEFT == "LL" + std::to_string(i + 1) + "Lv") {
+									m_Lv[i] = std::stoi(RIGHT);
+									isHit = true;
+									break;
+								}
+							}
+						}
+						if (isHit) { continue; }
+					}
+				}
+				FileRead_close(mdata);
+			}
+		};
+		static std::vector<TraderList>	g_TraderList;
+		static std::vector<float>		g_TraderRep;
+		void	SetTraderList() {
+			auto data_t = GetFileNamesInDirectory("data/trader/");
+			std::vector<std::string> DirNames;
+			for (auto& d : data_t) {
+				if (d.cFileName[0] != '.') {
+					DirNames.emplace_back(d.cFileName);
+				}
+			}
+			g_TraderList.resize(DirNames.size());
+			g_TraderRep.resize(DirNames.size());
+			for (auto& d : DirNames) {
+				int ID = (int)(&d - &DirNames.front());
+				g_TraderList[ID].Set(("data/trader/" + d).c_str(), (TraderID)ID);
+			}
+			DirNames.clear();
+		}
+		const TraderID	FindTraderID(const char* name) {
+			for (const auto&t : g_TraderList) {
+				if (t.GetName() == name) {
+					return t.GetID();
+				}
+			}
+			return (TraderID)-1;
+		}
+		const TraderList&	FindTrader(TraderID ID) {
+			for (const auto&t : g_TraderList) {
+				if (t.GetID() == ID) {
+					return t;
+				}
+			}
+			return g_TraderList[0];
+		}
+		float*	FindTraderRep(TraderID ID) {
+			for (const auto&t : g_TraderList) {
+				if (t.GetID() == ID) {
+					return &g_TraderRep[&t - &g_TraderList.front()];
+				}
+			}
+			return nullptr;
+		}
+	};
+	//
+	class TaskData : public ListBase<TaskID> {
 		struct ItemGetData {
-			ItemID				m_ItemID{ -1 };
+			ItemID				m_ID{ -1 };
 			int					m_Count{ 0 };
 		};
 		struct TaskNeedData {
@@ -426,30 +355,26 @@ namespace FPS_n2 {
 			std::vector<ItemGetData>m_Item;
 		};
 	private:
-		TaskID			m_ID;
-		std::string		m_Name;
 		TraderID		m_Trader{ -1 };
 		TaskNeedData	m_TaskNeedData;
 		TaskWorkData	m_TaskWorkData;
 		TaskRewardData	m_TaskRewardData;
 	public:
-		const auto& GetID() const noexcept { return m_ID; }
-		const auto& GetName() const noexcept { return m_Name; }
 		const auto& GetTrader() const noexcept { return m_Trader; }
 		const auto& GetTaskNeedData() const noexcept { return m_TaskNeedData; }
 		const auto& GetTaskWorkData() const noexcept { return m_TaskWorkData; }
 		const auto& GetTaskRewardData() const noexcept { return m_TaskRewardData; }
 	public:
 		void		Set(const char* FilePath,TaskID id) {
-			m_ID = id;
+			SetID(id);
 			int mdata = FileRead_open(FilePath, FALSE);
 
-			auto SetItem = [&](std::vector<ItemGetData>* Data,const std::string& mes) {
+			auto SetItem = [&](std::vector<ItemGetData>* Data, const std::string& mes) {
 				auto L = mes.rfind("x");
 				if (L != std::string::npos) {
 					ItemGetData tmp;
 					std::string Left = mes.substr(0, L);
-					tmp.m_ItemID = FindItemID(Left.c_str());
+					tmp.m_ID = ItemDatas::FindItemID(Left.c_str());
 					tmp.m_Count = std::stoi(mes.substr(L + 1));
 					Data->emplace_back(tmp);
 				}
@@ -464,11 +389,11 @@ namespace FPS_n2 {
 					std::string Left = mes.substr(0, L);
 					auto MP = mes.rfind("-");
 					if (MP != std::string::npos) {
-						tmp.m_MapID = FindMapID(mes.substr(0, MP).c_str());
-						tmp.m_EnemyID = FindEnemyID(mes.substr(MP + 1, L - (MP + 1)).c_str());
+						tmp.m_MapID = MapDatas::FindMapID(mes.substr(0, MP).c_str());
+						tmp.m_EnemyID = EnemyDatas::FindEnemyID(mes.substr(MP + 1, L - (MP + 1)).c_str());
 					}
 					else {
-						tmp.m_EnemyID = FindEnemyID(Left.c_str());
+						tmp.m_EnemyID = EnemyDatas::FindEnemyID(Left.c_str());
 					}
 					tmp.m_KillCount = std::stoi(mes.substr(L + 1));
 					m_TaskWorkData.m_Kill.emplace_back(tmp);
@@ -484,35 +409,10 @@ namespace FPS_n2 {
 				if (ALL == "") { continue; }
 				auto LEFT = getparams::getleft(ALL);
 				auto RIGHT = getparams::getright(ALL);
-				std::vector<std::string> Args;
-				bool isMulti = false;
-				{
-					auto RIGHT2 = RIGHT;
-					auto L = RIGHT2.find("[");
-					auto R = RIGHT2.find("]");
-					if (L != std::string::npos && R != std::string::npos) {
-						isMulti = true;
-						RIGHT2 = RIGHT2.substr(L + 1);
-						while (true) {
-							auto div = RIGHT2.find(",");
-							if (div != std::string::npos) {
-								Args.emplace_back(RIGHT2.substr(0, div));
-								RIGHT2 = RIGHT2.substr(div + 1);
-							}
-							else {
-								Args.emplace_back(RIGHT2.substr(0, RIGHT2.find("]")));
-								break;
-							}
-						}
-					}
-				}
-
-				if (LEFT == "Name") {
-					m_Name = RIGHT;
-					continue;
-				}
+				auto Args = GetArgs(RIGHT);
+				SetBase(LEFT, RIGHT, Args);
 				if (LEFT == "Trader") {
-					m_Trader = FindTraderID(RIGHT.c_str());
+					m_Trader = TraderDatas::FindTraderID(RIGHT.c_str());
 					continue;
 				}
 				//Need
@@ -529,7 +429,7 @@ namespace FPS_n2 {
 					continue;
 				}
 				if (LEFT == "NeedItem") {
-					if (isMulti) {
+					if (Args.size() > 0) {
 						for (auto&a : Args) {
 							if (a == "or") {
 
@@ -546,11 +446,11 @@ namespace FPS_n2 {
 				}
 				//Work
 				if (LEFT == "Task_Map") {//ロケーション追加
-					m_TaskWorkData.m_Map.emplace_back(FindMapID(RIGHT.c_str()));
+					m_TaskWorkData.m_Map.emplace_back(MapDatas::FindMapID(RIGHT.c_str()));
 					continue;
 				}
 				if (LEFT == "Task_Kill") {
-					if (isMulti) {
+					if (Args.size() > 0) {
 						for (auto&a : Args) {
 							if (a == "or") {
 							}
@@ -565,7 +465,7 @@ namespace FPS_n2 {
 					continue;
 				}
 				if (LEFT == "Task_FiR_HandOver") {
-					if (isMulti) {
+					if (Args.size() > 0) {
 						for (auto&a : Args) {
 							if (a == "or") {
 
@@ -581,7 +481,7 @@ namespace FPS_n2 {
 					continue;
 				}
 				if (LEFT == "Task_NotFiR_HandOver") {
-					if (isMulti) {
+					if (Args.size() > 0) {
 						for (auto&a : Args) {
 							if (a == "or") {
 
@@ -606,20 +506,20 @@ namespace FPS_n2 {
 					auto minus = RIGHT.find("-");
 					if (plus != std::string::npos) {
 						TaskRewardData::LLAdd tmp;
-						tmp.m_TraderID = FindTraderID(RIGHT.substr(0, plus).c_str());
+						tmp.m_TraderID = TraderDatas::FindTraderID(RIGHT.substr(0, plus).c_str());
 						tmp.Add = std::stof(RIGHT.substr(plus + 1));
 						m_TaskRewardData.m_LLAdd.emplace_back(tmp);
 					}
 					if (minus != std::string::npos) {
 						TaskRewardData::LLAdd tmp;
-						tmp.m_TraderID = FindTraderID(RIGHT.substr(0, minus).c_str());
+						tmp.m_TraderID = TraderDatas::FindTraderID(RIGHT.substr(0, minus).c_str());
 						tmp.Add = std::stof(RIGHT.substr(minus));
 						m_TaskRewardData.m_LLAdd.emplace_back(tmp);
 					}
 					continue;
 				}
 				if (LEFT == "Reward_Item") {
-					if (isMulti) {
+					if (Args.size() > 0) {
 						for (auto&a : Args) {
 							if (a == "or") {
 
@@ -639,13 +539,12 @@ namespace FPS_n2 {
 		}
 		void		SetNeedTasktoID(const std::vector<TaskData>& taskList) {
 			for (const auto& t : taskList) {
-				if (m_TaskNeedData.m_task == t.m_Name) {
-					m_TaskNeedData.m_taskID = t.m_ID;
+				if (m_TaskNeedData.m_task == t.GetName()) {
+					m_TaskNeedData.m_taskID = t.GetID();
 					break;
 				}
 			}
 		}
-
 		void		DrawWindow(int xp, int yp, int xs, int* ys) {
 			int suby = LineHeight;
 			int sizy = LineHeight * 7 / 10;
@@ -653,7 +552,7 @@ namespace FPS_n2 {
 			if (m_TaskNeedData.m_Item.size() > 0) {
 				WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT, White, Black, "必要アイテム");				suby += sizy;
 				for (auto& LL : m_TaskNeedData.m_Item) {
-					auto& map = FindItem(LL.m_ItemID);
+					auto& map = ItemDatas::FindItem(LL.m_ID);
 					WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT,
 						White, Black, "└%s x%2d", map.GetName().c_str(), LL.m_Count);suby += sizy;
 				}
@@ -663,8 +562,8 @@ namespace FPS_n2 {
 			if (m_TaskWorkData.m_Map.size() > 0) {
 				WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT, White, Black, "マップ指定");suby += sizy;
 				for (auto& LL : m_TaskWorkData.m_Map) {
-					auto& map = FindMap(LL);
-					WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT, GetColor(map.GetColors()[0], map.GetColors()[1], map.GetColors()[2]), Black, "└%s", map.GetName().c_str());					suby += sizy;
+					auto& map = MapDatas::FindMap(LL);
+					WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT, map.GetColors(0), Black, "└%s", map.GetName().c_str());					suby += sizy;
 				}
 			}
 			else {
@@ -673,13 +572,13 @@ namespace FPS_n2 {
 			if (m_TaskWorkData.m_Kill.size() > 0) {
 				WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT, White, Black, "敵をキル");suby += sizy;
 				for (auto& LL : m_TaskWorkData.m_Kill) {
-					auto& eny = FindEnemy(LL.m_EnemyID);
-					WindowSystem::SetMsg(xp, yp + suby, xp, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT,
-						GetColor(eny.GetColors()[0], eny.GetColors()[1], eny.GetColors()[2]), Black, "└%s x%2d", eny.GetName().c_str(), LL.m_KillCount);
+					auto& eny = EnemyDatas::FindEnemy(LL.m_EnemyID);
+					WindowSystem::SetMsg(xp, yp + suby, xp, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT, eny.GetColors(0), Black,
+						"└%s x%2d", eny.GetName().c_str(), LL.m_KillCount);
 					if (LL.m_MapID != (MapID)-1) {
-						auto& map = FindMap(LL.m_MapID);
-						WindowSystem::SetMsg(xp + y_r(250), yp + suby, xp + y_r(250), yp + sizy + suby, LineHeight * 8 / 10, FontHandle::FontXCenter::LEFT,
-							GetColor(map.GetColors()[0], map.GetColors()[1], map.GetColors()[2]), Black, " in %s", map.GetName().c_str());
+						auto& map = MapDatas::FindMap(LL.m_MapID);
+						WindowSystem::SetMsg(xp + y_r(250), yp + suby, xp + y_r(250), yp + sizy + suby, LineHeight * 8 / 10, FontHandle::FontXCenter::LEFT, map.GetColors(0), Black,
+							" in %s", map.GetName().c_str());
 					}
 					suby += sizy;
 				}
@@ -742,25 +641,25 @@ namespace FPS_n2 {
 			for (auto& tasks : this->m_TaskList) {
 				if (ParentID == (TaskID)-1) {
 					if (true) {
-						for (auto&t : g_TraderRep) {
+						for (auto&t : TraderDatas::g_TraderRep) {
 							t = 0.f;
 						}
 					}
 					else {
-						for (auto&t : g_TraderRep) {
+						for (auto&t : TraderDatas::g_TraderRep) {
 							t = 0.2f;
 						}
 					}
 				}
 				if (tasks.GetTaskNeedData().m_taskID == ParentID) {
-					auto& trader = FindTrader(tasks.GetTrader());
+					auto& trader = TraderDatas::FindTrader(tasks.GetTrader());
 					auto parentCanDo_t = parentCanDo;
-					auto color = GetColor(trader.GetColors()[0], trader.GetColors()[1], trader.GetColors()[2]);
+					auto color = trader.GetColors(0);
 					//信頼度アップダウンを対応
 					std::vector<float> PrevRep;
 					PrevRep.resize(tasks.GetTaskRewardData().m_LLAdd.size());
 					for (auto& LL : tasks.GetTaskRewardData().m_LLAdd) {
-						float* traderRep = FindTraderRep(LL.m_TraderID);
+						float* traderRep = TraderDatas::FindTraderRep(LL.m_TraderID);
 						PrevRep[&LL - &tasks.GetTaskRewardData().m_LLAdd.front()] = *traderRep;
 						*traderRep += LL.Add;
 					}
@@ -769,10 +668,7 @@ namespace FPS_n2 {
 						(
 						(this->m_MyLevel < tasks.GetTaskNeedData().m_Level)
 							) || !parentCanDo) {
-						color = GetColor(
-							std::clamp(trader.GetColors()[0] - 100, 0, 255),
-							std::clamp(trader.GetColors()[1] - 100, 0, 255),
-							std::clamp(trader.GetColors()[2] - 100, 0, 255));
+						color = trader.GetColors(-100);
 						parentCanDo_t = false;
 					}
 					if (ParentID != (TaskID)-1) {
@@ -803,12 +699,10 @@ namespace FPS_n2 {
 					}
 					int suby = ys;
 					for (auto& LL : tasks.GetTaskRewardData().m_LLAdd) {
-						auto& trader2 = FindTrader(LL.m_TraderID);
-						float* traderRep = FindTraderRep(LL.m_TraderID);
-						WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + ys + suby, ys, FontHandle::FontXCenter::LEFT,
-							GetColor(trader2.GetColors()[0], trader2.GetColors()[1], trader2.GetColors()[2])
-							, Black, "[%4.2f->%4.2f]", PrevRep[&LL - &tasks.GetTaskRewardData().m_LLAdd.front()], *traderRep);
-						suby += ys;
+						auto& trader2 = TraderDatas::FindTrader(LL.m_TraderID);
+						float* traderRep = TraderDatas::FindTraderRep(LL.m_TraderID);
+						WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + ys + suby, ys, FontHandle::FontXCenter::LEFT, trader2.GetColors(0), Black,
+							"[%4.2f->%4.2f]", PrevRep[&LL - &tasks.GetTaskRewardData().m_LLAdd.front()], *traderRep); suby += ys;
 					}
 					m_posMaxBufx = std::max(m_posMaxBufx, xp + xs);
 					m_posMaxBufy = std::max(m_posMaxBufy, yp + ys + suby);
@@ -842,7 +736,7 @@ namespace FPS_n2 {
 					DrawChildTaskClickBox(tasks.GetID(), xp + xs, yp + ys / 2, P_Next.XStart, P_Next.YStart, xs, ys, parentCanDo_t);
 					//親なのでいったん信頼度を戻す
 					for (auto& LL : tasks.GetTaskRewardData().m_LLAdd) {
-						float* traderRep = FindTraderRep(LL.m_TraderID);
+						float* traderRep = TraderDatas::FindTraderRep(LL.m_TraderID);
 						*traderRep = PrevRep[&LL - &tasks.GetTaskRewardData().m_LLAdd.front()];
 					}
 					//
@@ -864,10 +758,10 @@ namespace FPS_n2 {
 			InputControl::Create();
 			m_Window = std::make_unique<WindowSystem::WindowManager>();
 			//
-			SetItemList();
-			SetEnemyList();
-			SetTraderList();
-			SetMapList();
+			ItemDatas::SetItemList();
+			EnemyDatas::SetEnemyList();
+			TraderDatas::SetTraderList();
+			MapDatas::SetMapList();
 			//
 			{
 				auto data_t = GetFileNamesInDirectory("data/task/");
