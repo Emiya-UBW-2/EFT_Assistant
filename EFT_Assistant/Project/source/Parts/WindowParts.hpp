@@ -75,6 +75,27 @@ namespace FPS_n2 {
 			SetMsg(xp1, yp1, xp2, yp2, std::min(LineHeight, yp2 - yp1) - y_r(6), FontHandle::FontXCenter::MIDDLE, White, Black, String, args...);
 			return isHit;
 		};
+
+		bool CloseButton(int xp1, int yp1) {
+			auto* Input = InputControl::Instance();
+			int xp3 = xp1 + EdgeSize;
+			int yp3 = yp1 + EdgeSize;
+			int xp4 = xp1 + LineHeight - EdgeSize;
+			int yp4 = yp1 + LineHeight - EdgeSize;
+			unsigned int color = Red25;
+			bool ans = false;
+			if (in2_(Input->GetMouseX(), Input->GetMouseY(), xp3 + EdgeSize, yp3 + EdgeSize, xp4 - EdgeSize, yp4 - EdgeSize)) {
+				color = Red;
+				if (Input->GetLeftClick().trigger()) {
+					ans = true;
+				}
+				HCURSOR hCursor = LoadCursor(NULL, IDC_HAND);
+				SetCursor(hCursor);
+			}
+			DrawBox(xp3 + EdgeSize, yp3 + EdgeSize, xp4 - EdgeSize, yp4 - EdgeSize, color, TRUE);
+			WindowSystem::SetMsg(xp3, yp3, xp4, yp4, LineHeight - EdgeSize * 2 - y_r(6), FontHandle::FontXCenter::MIDDLE, White, Black, "X");
+			return ans;
+		}
 		//
 		class ScrollBoxClass {
 			bool		m_IsChangeScrollY{ false };
@@ -278,24 +299,9 @@ namespace FPS_n2 {
 				}
 				//×ボタン
 				if (this->m_CanPressXButton) {
-					int xp3 = this->m_PosX + this->m_SizeX - LineHeight;
-					int yp3 = this->m_PosY + EdgeSize;
-					int xp4 = this->m_PosX + this->m_SizeX - EdgeSize;
-					int yp4 = this->m_PosY + LineHeight - EdgeSize;
-					unsigned int color = Red25;
-
-					if (in2_(Input->GetMouseX(), Input->GetMouseY(), xp3 + EdgeSize, yp3 + EdgeSize, xp4 - EdgeSize, yp4 - EdgeSize)) {
-						color = Red;
-						if (Input->GetLeftClick().trigger()) {
-							//color = Red50;
-							this->m_isDelete = true;
-						}
-						HCURSOR hCursor = LoadCursor(NULL, IDC_HAND);
-						SetCursor(hCursor);
+					if (CloseButton(this->m_PosX + this->m_SizeX - LineHeight, this->m_PosY)) {
+						this->m_isDelete = true;
 					}
-
-					DrawBox(xp3 + EdgeSize, yp3 + EdgeSize, xp4 - EdgeSize, yp4 - EdgeSize, color, TRUE);
-					SetMsg(xp3, yp3, xp4, yp4, LineHeight - EdgeSize * 2 - y_r(6), FontHandle::FontXCenter::MIDDLE, White, Black, "X");
 				}
 				if (this->m_CanChageSize && !this->m_isMaxSize && this->m_IsActive) {
 					//xyサイズ
