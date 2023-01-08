@@ -5,21 +5,22 @@
 #define LineHeight	y_r(48)
 
 namespace FPS_n2 {
+	//ÉJÉâÅ[éwíË
+	static const unsigned int Red{ GetColor(255, 0, 0) };
+	static const unsigned int Red25{ GetColor(192, 0, 0) };
+	static const unsigned int Red50{ GetColor(128, 0, 0) };
+	//static const unsigned int Blue{ GetColor(50, 50, 255) };
+	static const unsigned int Green{ GetColor(43, 255, 91) };
+	static const unsigned int White{ GetColor(255, 255, 255) };
+	static const unsigned int Gray10{ GetColor(230, 230, 230) };
+	static const unsigned int Gray15{ GetColor(218, 218, 218) };
+	static const unsigned int Gray25{ GetColor(192, 192, 192) };
+	static const unsigned int Gray50{ GetColor(128, 128, 128) };
+	static const unsigned int Gray75{ GetColor(64, 64, 64) };
+	static const unsigned int Black{ GetColor(1, 1, 1) };
+	static const unsigned int TransColor{ GetColor(0, 0, 0) };
+
 	namespace WindowSystem {
-
-		static const unsigned int Red{ GetColor(255, 0, 0) };
-		static const unsigned int Red25{ GetColor(192, 0, 0) };
-		static const unsigned int Red50{ GetColor(128, 0, 0) };
-
-		static const unsigned int Blue{ GetColor(50, 50, 255) };
-		static const unsigned int Green{ GetColor(43, 255, 91) };
-		static const unsigned int White{ GetColor(255, 255, 255) };
-		static const unsigned int Gray10{ GetColor(230, 230, 230) };
-		static const unsigned int Gray25{ GetColor(192, 192, 192) };
-		static const unsigned int Gray50{ GetColor(128, 128, 128) };
-		static const unsigned int Gray75{ GetColor(64, 64, 64) };
-		static const unsigned int Black{ GetColor(1, 1, 1) };
-
 		//î†
 		static void SetBox(int xp1, int yp1, int xp2, int yp2, unsigned int colorSet) {
 			DrawBox(xp1, yp1, xp2, yp2, Gray75, TRUE);

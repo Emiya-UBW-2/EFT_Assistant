@@ -4,20 +4,6 @@
 #define LineHeight	y_r(48)
 
 namespace FPS_n2 {
-
-	static const unsigned int Red{ GetColor(255, 0, 0) };
-	static const unsigned int Red25{ GetColor(192, 0, 0) };
-	static const unsigned int Red50{ GetColor(128, 0, 0) };
-
-	//static const unsigned int Blue{ GetColor(50, 50, 255) };
-	static const unsigned int Green{ GetColor(43, 255, 91) };
-	static const unsigned int White{ GetColor(255, 255, 255) };
-	//static const unsigned int Gray10{ GetColor(230, 230, 230) };
-	static const unsigned int Gray15{ GetColor(218, 218, 218) };
-	static const unsigned int Gray25{ GetColor(192, 192, 192) };
-	static const unsigned int Gray50{ GetColor(128, 128, 128) };
-	static const unsigned int Gray75{ GetColor(64, 64, 64) };
-	static const unsigned int Black{ GetColor(0, 0, 0) };
 	//
 	static const int InvalidID{ -1 };
 	//
@@ -764,10 +750,8 @@ namespace FPS_n2 {
 		}
 
 		bool Update_Sub(void) noexcept override {
-			bool isend = false;
 			//FirstDoing
 			if (GetIsFirstLoop()) {
-				SetMousePoint(DXDraw::Instance()->m_DispXSize / 2, DXDraw::Instance()->m_DispYSize / 2);
 				SetWindowPosition(0, 0);
 			}
 			auto* Input = InputControl::Instance();
@@ -778,15 +762,12 @@ namespace FPS_n2 {
 			mouse_moveY = Input->GetMouseY() - mouse_moveY;
 			//ドラッグ開始時の処理
 			if (Input->GetMiddleClick().press()) {
-				if (!Input->GetMiddleClick().trigger()) {
-					int start_windowX = 0, start_windowY = 0;
-					GetWindowPosition(&start_windowX, &start_windowY);			//ウィンドウの位置を格納
-					start_windowX += mouse_moveX;
-					start_windowY += mouse_moveY;
-					SetWindowPosition(start_windowX, start_windowY);			//マウス位置の差を算出し、ウィンドウを動かす
-					Input->SetMouse();
-				}
-
+				int start_windowX = 0, start_windowY = 0;
+				GetWindowPosition(&start_windowX, &start_windowY);			//ウィンドウの位置を格納
+				start_windowX += mouse_moveX;
+				start_windowY += mouse_moveY;
+				SetWindowPosition(start_windowX, start_windowY);			//マウス位置の差を算出し、ウィンドウを動かす
+				Input->SetMouse();
 				HCURSOR hCursor = LoadCursor(NULL, IDC_SIZEALL);
 				SetCursor(hCursor);
 			}
@@ -801,11 +782,8 @@ namespace FPS_n2 {
 				}
 			}
 			if (Input->GetRightClick().press()) {
-				if (!Input->GetRightClick().trigger()) {
-					this->m_posx += mouse_moveX;
-					this->m_posy += mouse_moveY;
-				}
-
+				this->m_posx += mouse_moveX;
+				this->m_posy += mouse_moveY;
 				HCURSOR hCursor = LoadCursor(NULL, IDC_SIZEALL);
 				SetCursor(hCursor);
 			}
@@ -821,7 +799,7 @@ namespace FPS_n2 {
 					m_TaskPtr.pop_back();
 				}
 			}
-			return !isend;
+			return true;
 		}
 		void Dispose_Sub(void) noexcept override {
 			m_Window.reset();
@@ -832,7 +810,6 @@ namespace FPS_n2 {
 		//UI表示
 		void DrawUI_Base_Sub(void) noexcept  override {
 			SetDrawMode(DX_DRAWMODE_NEAREST);
-			auto* Input = InputControl::Instance();
 			auto* DrawParts = DXDraw::Instance();
 			DrawBox(0, 0, DrawParts->m_DispXSize, (int)((float)DrawParts->m_DispYSize*m_PullDown), Gray15, TRUE);
 			if (m_PullDown >= 1.f) {
@@ -856,6 +833,7 @@ namespace FPS_n2 {
 			if (m_PullDown >= 0.95f) { m_PullDown = 1.f; }
 			if (m_PullDown <= 0.05f) { m_PullDown = 0.f; }
 			if (m_PullDown >= 1.f) {
+				//レベル操作
 				WindowSystem::SetMsg(y_r(0), y_r(1080) - y_r(36), y_r(0), y_r(1080), y_r(36), FontHandle::FontXCenter::LEFT, White, Black, "Level");
 				WindowSystem::SetMsg(y_r(200), y_r(1080) - y_r(48), y_r(200), y_r(1080), y_r(48), FontHandle::FontXCenter::RIGHT, White, Black, "%d", this->m_MyLevel);
 				if (WindowSystem::ClickCheckBox(y_r(0), y_r(1080) - y_r(48) - LineHeight, y_r(100), y_r(1080) - y_r(48), true, !m_Window->PosHitCheck(), Red, "DOWN")) {
@@ -879,13 +857,13 @@ namespace FPS_n2 {
 					int y_p2 = std::min(this->m_posyMaxBuffer * ys / DrawParts->m_DispYSize, ys + ys / 2);
 
 					SetDrawBlendMode(DX_BLENDMODE_ALPHA, 64);
-					DrawBox(xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, GetColor(0, 0, 0), TRUE);
+					DrawBox(xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Black, TRUE);
 					SetDrawBlendMode(DX_BLENDMODE_NOBLEND, 0);
-					DrawBox(xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, GetColor(0, 200, 0), FALSE);
+					DrawBox(xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Green, FALSE);
 					DrawBox(xp, yp, xp + xs, yp + ys, Red, FALSE);
 				}
 				//中央位置回避のための小円
-				DrawCircle(DrawParts->m_DispXSize, DrawParts->m_DispYSize, y_r(100), GetColor(0, 0, 0), TRUE);
+				DrawCircle(DrawParts->m_DispXSize, DrawParts->m_DispYSize, y_r(100), TransColor, TRUE);
 				//
 			}
 		}
