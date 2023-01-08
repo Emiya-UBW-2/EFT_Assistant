@@ -1,0 +1,13 @@
+Name=The Punisher - Part 2
+Trader=Prapor
+
+NeedTask=The Punisher - Part 1
+NeedLevel=18
+
+Task_Map=Shoreline
+Task_FiR_HandOver=[Lower half-maskx7]
+Task_Kill=[Scavx12]
+Task_Else=サプレッサー付きの武器
+
+Reward_Rep=Prapor+0.03
+Reward_Item=[Military cablex1]

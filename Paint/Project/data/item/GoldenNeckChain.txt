@@ -1,0 +1,2 @@
+Name=Golden neck chain
+Itemtype=Valuable

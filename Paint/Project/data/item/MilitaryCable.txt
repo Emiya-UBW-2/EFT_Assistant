@@ -1,0 +1,2 @@
+Name=Military cable
+Itemtype=Electronics

@@ -1,0 +1,13 @@
+Name=The Punisher - Part 3
+Trader=Prapor
+
+NeedTask=The Punisher - Part 2
+NeedLevel=19
+
+Task_Map=Customs
+Task_Kill=[Scavx25]
+Task_Else=AKS74UŒn‚Ì‚Ý‚ðŽg—p
+
+Reward_Rep=Prapor+0.04
+Reward_Rep=Skier+0.02
+Reward_Item=[Lobaev Arms DVL-10 7.62x51 bolt-action sniper riflex1]

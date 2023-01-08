@@ -1,0 +1,2 @@
+Name=M67 hand grenade
+ItemType=Weapon

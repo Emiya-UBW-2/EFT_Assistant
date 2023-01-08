@@ -1,0 +1,11 @@
+Name=The Bunker - Part 2
+Trader=Prapor
+
+NeedTask=The Bunker - Part 1
+NeedLevel=11
+NeedLL=1
+
+Task_Map=Reserve
+Task_Else=Reserve‚Ì’n‰º5‚©Š‚ğŠm”F‚µ‚Ä¶ŠÒ
+
+Reward_Rep=Prapor+0.03

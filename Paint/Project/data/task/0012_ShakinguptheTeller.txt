@@ -1,0 +1,12 @@
+Name=Shaking up the Teller
+Trader=Prapor
+
+NeedTask=Ice Cream Cones
+NeedLL=2
+NeedItem=[Dorm room 203 keyx1]
+
+Task_Map=Customs
+Task_Else=Customs3ŠK—¾203†º‚Å
+Task_Else=BankCase‚ğE‚¢”[•i
+
+Reward_Rep=Prapor+0.02

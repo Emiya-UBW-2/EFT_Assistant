@@ -1,0 +1,8 @@
+Name=Ragman
+Color=[64,255,64]
+LL2Rep=0.00
+LL3Rep=0.30
+LL4Rep=0.60
+LL2Lv=17
+LL3Lv=32
+LL4Lv=42

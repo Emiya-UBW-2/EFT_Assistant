@@ -1,0 +1,2 @@
+Name=Machinery key
+Itemtype=Key
