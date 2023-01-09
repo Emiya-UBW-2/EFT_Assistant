@@ -345,6 +345,8 @@ namespace FPS_n2 {
 		public:
 			const auto& GetMap() const noexcept { return m_Map; }
 			const auto& GetKill() const noexcept { return m_Kill; }
+			const auto& GetFiR_Item() const noexcept { return m_FiR_Item; }
+			const auto& GetNotFiR_Item() const noexcept { return m_NotFiR_Item; }
 			const auto& GetElseMsg() const noexcept { return m_ElseMsg; }
 		public:
 			void Set(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept {
@@ -441,6 +443,7 @@ namespace FPS_n2 {
 			std::vector<ItemDatas::ItemGetData>		m_Item;
 		public:
 			const auto& GetLLAdd() const noexcept { return m_LLAdd; }
+			const auto& GetItem() const noexcept { return m_Item; }
 		public:
 			void Set(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept {
 				if (LEFT == "Reward_Rep") {
@@ -495,50 +498,73 @@ namespace FPS_n2 {
 		void			SetNeedTasktoID(const std::vector<TaskList>& taskList) noexcept {
 			m_TaskNeedData.SetNeedTasktoID(taskList);
 		}
-		void			DrawWindow(int xp, int yp, int xs, int* ys) const noexcept {
-			int suby = LineHeight;
+		void			DrawWindow(int xp, int yp, int *xs, int* ys) const noexcept {
+			int xofs = 0;
+			int yofs = LineHeight;
 			int sizy = LineHeight * 7 / 10;
 			//
 			if (m_TaskNeedData.GetItem().size() > 0) {
-				WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT, White, Black, "必要アイテム");				suby += sizy;
+				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, FontHandle::FontXCenter::LEFT, White, Black, "必要アイテム")); yofs += sizy;
 				for (const auto& LL : m_TaskNeedData.GetItem()) {
 					auto* map = ItemData::Instance()->FindPtr(LL.GetID());
-					WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT, White, Black, "└%s x%2d", map->GetName().c_str(), LL.GetCount()); suby += sizy;
+					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, FontHandle::FontXCenter::LEFT, White, Black, "└%s x%2d", map->GetName().c_str(), LL.GetCount())); yofs += sizy;
 				}
-				suby += sizy;
+				yofs += sizy;
 			}
 			//
 			if (m_TaskWorkData.GetMap().size() > 0) {
-				WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT, White, Black, "マップ指定"); suby += sizy;
+				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, FontHandle::FontXCenter::LEFT, White, Black, "マップ指定")); yofs += sizy;
 				for (auto& LL : m_TaskWorkData.GetMap()) {
 					auto* map = MapData::Instance()->FindPtr(LL);
-					WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT, map->GetColors(0), Black, "└%s", map->GetName().c_str()); suby += sizy;
+					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, FontHandle::FontXCenter::LEFT, map->GetColors(0), Black, "└%s", map->GetName().c_str())); yofs += sizy;
 				}
-			}
-			else {
-				WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT, White, Black, "マップ指定なし"); suby += sizy;
 			}
 			if (m_TaskWorkData.GetKill().size() > 0) {
-				WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT, White, Black, "敵をキル"); suby += sizy;
+				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, FontHandle::FontXCenter::LEFT, White, Black, "敵をキル")); yofs += sizy;
 				for (auto& LL : m_TaskWorkData.GetKill()) {
 					auto* eny = EnemyData::Instance()->FindPtr(LL.GetEnemyID());
-					WindowSystem::SetMsg(xp, yp + suby, xp, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT, eny->GetColors(0), Black, "└%s x%2d", eny->GetName().c_str(), LL.GetKillCount());
+					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, FontHandle::FontXCenter::LEFT, eny->GetColors(0), Black, "└%s x%2d", eny->GetName().c_str(), LL.GetKillCount()));
 					if (LL.GetMapID() != InvalidID) {
 						auto* map = MapData::Instance()->FindPtr(LL.GetMapID());
-						WindowSystem::SetMsg(xp + y_r(250), yp + suby, xp + y_r(250), yp + sizy + suby, LineHeight * 8 / 10, FontHandle::FontXCenter::LEFT, map->GetColors(0), Black, " in %s", map->GetName().c_str());
+						xofs = std::max(xofs, WindowSystem::SetMsg(xp + y_r(250), yp + yofs, xp + y_r(250), yp + sizy + yofs, LineHeight * 8 / 10, FontHandle::FontXCenter::LEFT, map->GetColors(0), Black, " in %s", map->GetName().c_str()));
 					}
-					suby += sizy;
+					yofs += sizy;
 				}
 			}
-			//
-			//
+			if (m_TaskWorkData.GetFiR_Item().size() > 0) {
+				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, FontHandle::FontXCenter::LEFT, White, Black, "Firアイテムの納品")); yofs += sizy;
+				for (const auto& LL : m_TaskWorkData.GetFiR_Item()) {
+					auto* map = ItemData::Instance()->FindPtr(LL.GetID());
+					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, FontHandle::FontXCenter::LEFT, White, Black, "└%s x%2d", map->GetName().c_str(), LL.GetCount())); yofs += sizy;
+				}
+				yofs += sizy;
+			}
+			if (m_TaskWorkData.GetNotFiR_Item().size() > 0) {
+				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, FontHandle::FontXCenter::LEFT, White, Black, "Firでなくてよいアイテムの納品")); yofs += sizy;
+				for (const auto& LL : m_TaskWorkData.GetNotFiR_Item()) {
+					auto* map = ItemData::Instance()->FindPtr(LL.GetID());
+					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, FontHandle::FontXCenter::LEFT, White, Black, "└%s x%2d", map->GetName().c_str(), LL.GetCount())); yofs += sizy;
+				}
+				yofs += sizy;
+			}
 			if (m_TaskWorkData.GetElseMsg().size() > 0) {
-				WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT, White, Black, "メモ:"); suby += sizy;
+				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, FontHandle::FontXCenter::LEFT, White, Black, "メモ:")); yofs += sizy;
 				for (auto& m : m_TaskWorkData.GetElseMsg()) {
-					WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT, White, Black, m.c_str()); suby += sizy;
+					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, FontHandle::FontXCenter::LEFT, White, Black, m.c_str())); yofs += sizy;
 				}
 			}
-			*ys = std::max(*ys, suby + LineHeight / 10);
+			//
+			if (m_TaskRewardData.GetItem().size() > 0) {
+				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, FontHandle::FontXCenter::LEFT, White, Black, "報酬アイテム")); yofs += sizy;
+				for (const auto& LL : m_TaskRewardData.GetItem()) {
+					auto* map = ItemData::Instance()->FindPtr(LL.GetID());
+					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, FontHandle::FontXCenter::LEFT, White, Black, "└%s x%2d", map->GetName().c_str(), LL.GetCount())); yofs += sizy;
+				}
+				yofs += sizy;
+			}
+			//
+			*xs = std::max(*xs, xofs + LineHeight / 10);
+			*ys = std::max(*ys, yofs + LineHeight / 10);
 		}
 	};
 	class TaskData : public SingletonBase<TaskData>, public DataParent<TaskID, TaskList> {
@@ -607,11 +633,11 @@ namespace FPS_n2 {
 					if (WindowSystem::ClickCheckBox(xp, yp, xp + xs, yp + ys, false, !m_Window->PosHitCheck(), color, tasks.GetName())) {
 						auto sizeXBuf = y_r(640);
 						auto sizeYBuf = y_r(0);
-						tasks.DrawWindow(0, 0, sizeXBuf, &sizeYBuf);//試しにサイズ計測
+						tasks.DrawWindow(0, 0, &sizeXBuf, &sizeYBuf);//試しにサイズ計測
 						m_TaskGraph.emplace_back(GraphHandle::Make(sizeXBuf, sizeYBuf, true));
 						m_TaskGraph.back().SetDraw_Screen();
 						{
-							tasks.DrawWindow(0, 0, sizeXBuf, &sizeYBuf);
+							tasks.DrawWindow(0, 0, &sizeXBuf, &sizeYBuf);
 						}
 						SetDrawScreen(DX_SCREEN_BACK);
 						//
