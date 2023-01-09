@@ -5,8 +5,6 @@
 
 namespace FPS_n2 {
 	//
-	static const int InvalidID{ -1 };
-	//
 	class Rect2D {
 		int			m_PosX{ 0 };
 		int			m_PosY{ 0 };
@@ -30,8 +28,10 @@ namespace FPS_n2 {
 		}
 	};
 	//
+	static const int InvalidID{ -1 };
+	//
 	template <class ID>
-	class ListBase {
+	class ListParent {
 	private:
 		ID						m_ID{ InvalidID };
 		std::string				m_Name;
@@ -58,7 +58,7 @@ namespace FPS_n2 {
 			}
 			return Args;
 		}
-		void			SetCommon(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) {
+		void			SetCommon(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept {
 			if (LEFT == "Name") {
 				m_Name = RIGHT;
 			}
@@ -77,7 +77,7 @@ namespace FPS_n2 {
 			return DxLib::GetColor(std::clamp(m_Color[0] + colorAdd, 0, 255), std::clamp(m_Color[1] + colorAdd, 0, 255), std::clamp(m_Color[2] + colorAdd, 0, 255));
 		}
 	public:
-		void			Set(const char* FilePath, ID id) {
+		void			Set(const char* FilePath, ID id) noexcept {
 			m_ID = id;
 			int mdata = FileRead_open(FilePath, FALSE);
 			while (true) {
@@ -94,88 +94,80 @@ namespace FPS_n2 {
 		}
 	};
 	//
-	namespace MapDatas {
-		typedef int MapID;
-		class MapList : public ListBase<MapID> {
-			//追加設定
-			void			Set_Sub(const std::string&, const std::string&, const std::vector<std::string>&) noexcept override {}
-		};
-		static std::vector<MapList>	g_MapList;
-		void			SetMapList() {
-			auto data_t = GetFileNamesInDirectory("data/map/");
+	template <class ID, class List>
+	class DataParent {
+	protected:
+		std::vector<List>	m_List;
+	protected:
+		void SetList(const char* DirPath) noexcept {
+			auto data_t = GetFileNamesInDirectory(DirPath);
 			std::vector<std::string> DirNames;
 			for (auto& d : data_t) {
 				if (d.cFileName[0] != '.') {
 					DirNames.emplace_back(d.cFileName);
 				}
 			}
-			g_MapList.resize(DirNames.size());
+			m_List.resize(DirNames.size());
 			for (auto& d : DirNames) {
-				int ID = (int)(&d - &DirNames.front());
-				g_MapList[ID].Set(("data/map/" + d).c_str(), (MapID)ID);
+				int index = (int)(&d - &DirNames.front());
+				m_List[index].Set((DirPath + d).c_str(), (ID)index);
 			}
 			DirNames.clear();
 		}
-		const MapID		FindMapID(const char* name) {
-			for (const auto&t : g_MapList) {
+	public:
+		const ID		FindID(const char* name) const noexcept {
+			for (const auto&t : m_List) {
 				if (t.GetName() == name) {
 					return t.GetID();
 				}
 			}
 			return InvalidID;
 		}
-		const MapList&	FindMap(MapID ID) {
-			for (const auto&t : g_MapList) {
-				if (t.GetID() == ID) {
-					return t;
+		const List*		FindPtr(ID id) const noexcept {
+			for (const auto&t : m_List) {
+				if (t.GetID() == id) {
+					return &t;
 				}
 			}
-			return g_MapList[0];
+			return nullptr;
 		}
 	};
 	//
+	typedef int MapID;
+	class MapList : public ListParent<MapID> {
+		//追加設定
+		void			Set_Sub(const std::string&, const std::string&, const std::vector<std::string>&) noexcept override {}
+	};
+	class MapData : public SingletonBase<MapData>, public DataParent<MapID, MapList> {
+	private:
+		friend class SingletonBase<MapData>;
+	private:
+		MapData() noexcept {
+			SetList("data/map/");
+		}
+		~MapData() noexcept {}
+	};
+	//
+	typedef int ItemID;
+	class ItemList : public ListParent<ItemID> {
+		//追加設定
+		void			Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>&) noexcept override {
+			if (LEFT == "Itemtype") {
+				RIGHT;
+			}
+		}
+	};
+	class ItemData : public SingletonBase<ItemData>, public DataParent<ItemID, ItemList> {
+	private:
+		friend class SingletonBase<ItemData>;
+	private:
+		ItemData() noexcept {
+			SetList("data/item/");
+		}
+		~ItemData() noexcept {}
+	};
+	//
 	namespace ItemDatas {
-		typedef int ItemID;
-		class ItemList : public ListBase<ItemID> {
-			//追加設定
-			void			Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>&) noexcept override {
-				if (LEFT == "Itemtype") {
-					RIGHT;
-				}
-			}
-		};
-		static std::vector<ItemList>	g_ItemList;
-		void			SetItemList() {
-			auto data_t = GetFileNamesInDirectory("data/item/");
-			std::vector<std::string> DirNames;
-			for (auto& d : data_t) {
-				if (d.cFileName[0] != '.') {
-					DirNames.emplace_back(d.cFileName);
-				}
-			}
-			g_ItemList.resize(DirNames.size());
-			for (auto& d : DirNames) {
-				int ID = (int)(&d - &DirNames.front());
-				g_ItemList[ID].Set(("data/item/" + d).c_str(), (ItemID)ID);
-			}
-			DirNames.clear();
-		}
-		const ItemID	FindItemID(const char* name) {
-			for (const auto&t : g_ItemList) {
-				if (t.GetName() == name) {
-					return t.GetID();
-				}
-			}
-			return InvalidID;
-		}
-		const ItemList&	FindItem(ItemID ID) {
-			for (const auto&t : g_ItemList) {
-				if (t.GetID() == ID) {
-					return t;
-				}
-			}
-			return g_ItemList[0];
-		}
 		class ItemGetData {
 			ItemID				m_ID{ InvalidID };
 			int					m_Count{ 0 };
@@ -187,11 +179,11 @@ namespace FPS_n2 {
 				m_Count = count;
 			}
 		};
-		void			SetItem(std::vector<ItemGetData>* Data, const std::string& mes) {
+		void			SetItem(std::vector<ItemGetData>* Data, const std::string& mes) noexcept {
 			auto L = mes.rfind("x");
 			if (L != std::string::npos) {
 				ItemGetData tmp;
-				tmp.Set(FindItemID(mes.substr(0, L).c_str()), std::stoi(mes.substr(L + 1)));
+				tmp.Set(ItemData::Instance()->FindID(mes.substr(0, L).c_str()), std::stoi(mes.substr(L + 1)));
 				Data->emplace_back(tmp);
 			}
 			else {
@@ -200,413 +192,369 @@ namespace FPS_n2 {
 		};
 	};
 	//
-	namespace EnemyDatas {
-		typedef int EnemyID;
-		class EnemyList : public ListBase<EnemyID> {
-			//追加設定
-			void			Set_Sub(const std::string&, const std::string&, const std::vector<std::string>&) noexcept override {}
-		};
-		static std::vector<EnemyList>	g_EnemyList;
-		void			SetEnemyList() {
-			auto data_t = GetFileNamesInDirectory("data/Enemy/");
-			std::vector<std::string> DirNames;
-			for (auto& d : data_t) {
-				if (d.cFileName[0] != '.') {
-					DirNames.emplace_back(d.cFileName);
-				}
-			}
-			g_EnemyList.resize(DirNames.size());
-			for (auto& d : DirNames) {
-				int ID = (int)(&d - &DirNames.front());
-				g_EnemyList[ID].Set(("data/enemy/" + d).c_str(), (EnemyID)ID);
-			}
-			DirNames.clear();
+	typedef int EnemyID;
+	class EnemyList : public ListParent<EnemyID> {
+		//追加設定
+		void			Set_Sub(const std::string&, const std::string&, const std::vector<std::string>&) noexcept override {}
+	};
+	class EnemyData : public SingletonBase<EnemyData>, public DataParent<EnemyID, EnemyList> {
+	private:
+		friend class SingletonBase<EnemyData>;
+	private:
+		EnemyData() noexcept {
+			SetList("data/enemy/");
 		}
-		const EnemyID	FindEnemyID(const char* name) {
-			for (const auto&t : g_EnemyList) {
-				if (t.GetName() == name) {
-					return t.GetID();
-				}
-			}
-			return InvalidID;
-		}
-		const EnemyList&FindEnemy(EnemyID ID) {
-			for (const auto&t : g_EnemyList) {
-				if (t.GetID() == ID) {
-					return t;
-				}
-			}
-			return g_EnemyList[0];
-		}
+		~EnemyData() noexcept {}
 	};
 	//
-	namespace TraderDatas {
-		typedef int TraderID;
-		class TraderList : public ListBase<TraderID> {
-			std::array<int, 4>		m_Lv{ 0,0,0,0 };
-			std::array<float, 4>	m_Rep{ 0,0,0,0 };
-		public:
-			//追加設定
-			void			Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>&) noexcept override {
-				for (int i = 0; i < 4; i++) {
-					if (i == 0) {
-						m_Lv[i] = 1;
-						m_Rep[i] = 0.f;
+	typedef int TraderID;
+	class TraderList : public ListParent<TraderID> {
+		std::array<int, 4>		m_Lv{ 0,0,0,0 };
+		std::array<float, 4>	m_Rep{ 0,0,0,0 };
+	public:
+		//追加設定
+		void			Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>&) noexcept override {
+			for (int i = 0; i < 4; i++) {
+				if (i == 0) {
+					m_Lv[i] = 1;
+					m_Rep[i] = 0.f;
+				}
+				else {
+					if (LEFT == "LL" + std::to_string(i + 1) + "Rep") {
+						m_Rep[i] = std::stof(RIGHT);
+						break;
 					}
-					else {
-						if (LEFT == "LL" + std::to_string(i + 1) + "Rep") {
-							m_Rep[i] = std::stof(RIGHT);
-							break;
-						}
-						else if (LEFT == "LL" + std::to_string(i + 1) + "Lv") {
-							m_Lv[i] = std::stoi(RIGHT);
-							break;
-						}
+					else if (LEFT == "LL" + std::to_string(i + 1) + "Lv") {
+						m_Lv[i] = std::stoi(RIGHT);
+						break;
 					}
 				}
 			}
-		};
-		static std::vector<TraderList>	g_TraderList;
-		static std::vector<float>		g_TraderRep;
-		void			SetTraderList() {
-			auto data_t = GetFileNamesInDirectory("data/trader/");
-			std::vector<std::string> DirNames;
-			for (auto& d : data_t) {
-				if (d.cFileName[0] != '.') {
-					DirNames.emplace_back(d.cFileName);
+		}
+	};
+	class TraderData : public SingletonBase<TraderData>, public DataParent<TraderID, TraderList> {
+	private:
+		friend class SingletonBase<TraderData>;
+	private:
+		std::vector<float>		m_TraderRep;
+	private:
+		TraderData() noexcept {
+			SetList("data/trader/");
+			m_TraderRep.resize(m_List.size());
+		}
+		~TraderData() noexcept {
+		}
+	public:
+		void			ResetRep() noexcept {
+			if (true) {
+				for (auto&t : this->m_TraderRep) {
+					t = 0.f;
 				}
 			}
-			g_TraderList.resize(DirNames.size());
-			g_TraderRep.resize(DirNames.size());
-			for (auto& d : DirNames) {
-				int ID = (int)(&d - &DirNames.front());
-				g_TraderList[ID].Set(("data/trader/" + d).c_str(), (TraderID)ID);
-			}
-			DirNames.clear();
-		}
-		const TraderID	FindTraderID(const char* name) {
-			for (const auto&t : g_TraderList) {
-				if (t.GetName() == name) {
-					return t.GetID();
+			else {
+				for (auto&t : this->m_TraderRep) {
+					t = 0.2f;
 				}
 			}
-			return InvalidID;
 		}
-		const TraderList&FindTrader(TraderID ID) {
-			for (const auto&t : g_TraderList) {
+		float*			FindTraderRep(TraderID ID) noexcept {
+			for (const auto&t : m_List) {
 				if (t.GetID() == ID) {
-					return t;
-				}
-			}
-			return g_TraderList[0];
-		}
-		float*			FindTraderRep(TraderID ID) {
-			for (const auto&t : g_TraderList) {
-				if (t.GetID() == ID) {
-					return &g_TraderRep[&t - &g_TraderList.front()];
+					return &m_TraderRep[&t - &m_List.front()];
 				}
 			}
 			return nullptr;
 		}
 	};
 	//
-	namespace TaskDatas {
-		typedef int TaskID;
-		class TaskData : public ListBase<TaskID> {
-			class TaskNeedData {
-				TraderDatas::TraderID					m_Trader{ InvalidID };
-				int										m_Level{ -1 };
-				int										m_LL{ -1 };
-				std::string								m_task;
-				TaskID									m_taskID{ InvalidID };
-				std::vector<ItemDatas::ItemGetData>		m_Item;
-			public:
-				const auto& GetTrader() const noexcept { return m_Trader; }
-				const auto& GetLevel() const noexcept { return m_Level; }
-				const auto& GetLL() const noexcept { return m_LL; }
-				const auto& GettaskID() const noexcept { return m_taskID; }
-				const auto& GetItem() const noexcept { return m_Item; }
-			public:
-				void Set(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) {
-					if (LEFT == "Trader") {
-						m_Trader = TraderDatas::FindTraderID(RIGHT.c_str());
-					}
-					else if (LEFT == "NeedTask") {
-						this->m_task = RIGHT;
-					}
-					else if (LEFT == "NeedLevel") {
-						this->m_Level = std::stoi(RIGHT);
-					}
-					else if (LEFT == "NeedLL") {
-						this->m_LL = std::stoi(RIGHT);
-					}
-					else if (LEFT == "NeedItem") {
-						if (Args.size() > 0) {
-							for (auto&a : Args) {
-								if (a == "or") {
+	typedef int TaskID;
+	class TaskList : public ListParent<TaskID> {
+		class TaskNeedData {
+			TraderID								m_Trader{ InvalidID };
+			int										m_Level{ -1 };
+			int										m_LL{ -1 };
+			std::string								m_task;
+			TaskID									m_taskID{ InvalidID };
+			std::vector<ItemDatas::ItemGetData>		m_Item;
+		public:
+			const auto& GetTrader() const noexcept { return m_Trader; }
+			const auto& GetLevel() const noexcept { return m_Level; }
+			const auto& GetLL() const noexcept { return m_LL; }
+			const auto& GettaskID() const noexcept { return m_taskID; }
+			const auto& GetItem() const noexcept { return m_Item; }
+		public:
+			void Set(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept {
+				if (LEFT == "Trader") {
+					m_Trader = TraderData::Instance()->FindID(RIGHT.c_str());
+				}
+				else if (LEFT == "NeedTask") {
+					this->m_task = RIGHT;
+				}
+				else if (LEFT == "NeedLevel") {
+					this->m_Level = std::stoi(RIGHT);
+				}
+				else if (LEFT == "NeedLL") {
+					this->m_LL = std::stoi(RIGHT);
+				}
+				else if (LEFT == "NeedItem") {
+					if (Args.size() > 0) {
+						for (auto&a : Args) {
+							if (a == "or") {
 
-								}
-								else {
-									ItemDatas::SetItem(&this->m_Item, a);
-								}
-							}
-						}
-						else {
-							ItemDatas::SetItem(&this->m_Item, RIGHT);
-						}
-					}
-				}
-				void		SetNeedTasktoID(const std::vector<TaskData>& taskList) {
-					for (const auto& t : taskList) {
-						if (m_task == t.GetName()) {
-							m_taskID = t.GetID();
-							break;
-						}
-					}
-				}
-			};
-			class EnemyKill {
-				EnemyDatas::EnemyID					m_EnemyID{ InvalidID };
-				MapDatas::MapID						m_MapID{ InvalidID };
-				int									m_KillCount{ 0 };
-			public:
-				const auto& GetEnemyID() const noexcept { return m_EnemyID; }
-				const auto& GetMapID() const noexcept { return m_MapID; }
-				const auto& GetKillCount() const noexcept { return m_KillCount; }
-			public:
-				void	Set(EnemyDatas::EnemyID enemyID, MapDatas::MapID mapID, int count) noexcept {
-					this->m_EnemyID = enemyID;
-					this->m_MapID = mapID;
-					this->m_KillCount = count;
-				}
-			};
-			class TaskWorkData {
-				std::vector<MapDatas::MapID>			m_Map;
-				std::vector<EnemyKill>					m_Kill;
-				std::vector<ItemDatas::ItemGetData>		m_FiR_Item;
-				std::vector<ItemDatas::ItemGetData>		m_NotFiR_Item;
-				std::vector<std::string>				m_ElseMsg;
-			public:
-				const auto& GetMap() const noexcept { return m_Map; }
-				const auto& GetKill() const noexcept { return m_Kill; }
-				const auto& GetElseMsg() const noexcept { return m_ElseMsg; }
-			public:
-				void Set(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) {
-					auto SetKill = [&](const std::string& mes) {
-						auto L = mes.rfind("x");
-						if (L != std::string::npos) {
-							EnemyKill tmp;
-							auto MP = mes.rfind("-");
-							if (MP != std::string::npos) {
-								tmp.Set(
-									MapDatas::FindMapID(mes.substr(0, MP).c_str()),
-									EnemyDatas::FindEnemyID(mes.substr(MP + 1, L - (MP + 1)).c_str()),
-									std::stoi(mes.substr(L + 1)));
 							}
 							else {
-								tmp.Set(
-									InvalidID,
-									EnemyDatas::FindEnemyID(mes.substr(0, L).c_str()),
-									std::stoi(mes.substr(L + 1)));
-							}
-							this->m_Kill.emplace_back(tmp);
-						}
-						else {
-							//int a = 0;
-						}
-					};
-					if (LEFT == "Task_Map") {//ロケーション追加
-						this->m_Map.emplace_back(MapDatas::FindMapID(RIGHT.c_str()));
-					}
-					else if (LEFT == "Task_Kill") {
-						if (Args.size() > 0) {
-							for (auto&a : Args) {
-								if (a == "or") {
-								}
-								else {
-									SetKill(a);
-								}
+								ItemDatas::SetItem(&this->m_Item, a);
 							}
 						}
-						else {
-							SetKill(RIGHT);
-						}
 					}
-					else if (LEFT == "Task_FiR_HandOver") {
-						if (Args.size() > 0) {
-							for (auto&a : Args) {
-								if (a == "or") {
-
-								}
-								else {
-									ItemDatas::SetItem(&this->m_FiR_Item, a);
-								}
-							}
-						}
-						else {
-							ItemDatas::SetItem(&this->m_FiR_Item, RIGHT);
-						}
-					}
-					else if (LEFT == "Task_NotFiR_HandOver") {
-						if (Args.size() > 0) {
-							for (auto&a : Args) {
-								if (a == "or") {
-
-								}
-								else {
-									ItemDatas::SetItem(&this->m_NotFiR_Item, a);
-								}
-							}
-						}
-						else {
-							ItemDatas::SetItem(&this->m_NotFiR_Item, RIGHT);
-						}
-					}
-					else if (LEFT == "Task_Else") {//特殊　メッセージ
-						this->m_ElseMsg.emplace_back(RIGHT);
+					else {
+						ItemDatas::SetItem(&this->m_Item, RIGHT);
 					}
 				}
-			};
-			class TaskRewardData {
-				class LLAdd {
-					TraderDatas::TraderID				m_TraderID{ InvalidID };
-					float								m_Add{ 0.f };
-				public:
-					const auto& GetTraderID() const noexcept { return m_TraderID; }
-					const auto& GetAdd() const noexcept { return m_Add; }
-				public:
-					void	Set(TraderDatas::TraderID id, float add) noexcept {
-						this->m_TraderID = id;
-						this->m_Add = add;
+			}
+			void		SetNeedTasktoID(const std::vector<TaskList>& taskList) noexcept {
+				for (const auto& t : taskList) {
+					if (m_task == t.GetName()) {
+						m_taskID = t.GetID();
+						break;
 					}
-
+				}
+			}
+		};
+		class EnemyKill {
+			EnemyID								m_EnemyID{ InvalidID };
+			MapID								m_MapID{ InvalidID };
+			int									m_KillCount{ 0 };
+		public:
+			const auto& GetEnemyID() const noexcept { return m_EnemyID; }
+			const auto& GetMapID() const noexcept { return m_MapID; }
+			const auto& GetKillCount() const noexcept { return m_KillCount; }
+		public:
+			void	Set(MapID mapID, EnemyID enemyID, int count) noexcept {
+				this->m_EnemyID = enemyID;
+				this->m_MapID = mapID;
+				this->m_KillCount = count;
+			}
+		};
+		class TaskWorkData {
+			std::vector<MapID>						m_Map;
+			std::vector<EnemyKill>					m_Kill;
+			std::vector<ItemDatas::ItemGetData>		m_FiR_Item;
+			std::vector<ItemDatas::ItemGetData>		m_NotFiR_Item;
+			std::vector<std::string>				m_ElseMsg;
+		public:
+			const auto& GetMap() const noexcept { return m_Map; }
+			const auto& GetKill() const noexcept { return m_Kill; }
+			const auto& GetElseMsg() const noexcept { return m_ElseMsg; }
+		public:
+			void Set(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept {
+				auto SetKill = [&](const std::string& mes) {
+					auto L = mes.rfind("x");
+					if (L != std::string::npos) {
+						EnemyKill tmp;
+						auto MP = mes.rfind("-");
+						if (MP != std::string::npos) {
+							tmp.Set(
+								MapData::Instance()->FindID(mes.substr(0, MP).c_str()),
+								EnemyData::Instance()->FindID(mes.substr(MP + 1, L - (MP + 1)).c_str()),
+								std::stoi(mes.substr(L + 1)));
+						}
+						else {
+							tmp.Set(
+								InvalidID,
+								EnemyData::Instance()->FindID(mes.substr(0, L).c_str()),
+								std::stoi(mes.substr(L + 1)));
+						}
+						this->m_Kill.emplace_back(tmp);
+					}
+					else {
+						//int a = 0;
+					}
 				};
-				std::vector<LLAdd>						m_LLAdd;
-				std::vector<ItemDatas::ItemGetData>		m_Item;
-			public:
-				const auto& GetLLAdd() const noexcept { return m_LLAdd; }
-			public:
-				void Set(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) {
-					if (LEFT == "Reward_Rep") {
-						auto plus = RIGHT.find("+");
-						auto minus = RIGHT.find("-");
-						if (plus != std::string::npos) {
-							TaskRewardData::LLAdd tmp;
-							tmp.Set(TraderDatas::FindTraderID(RIGHT.substr(0, plus).c_str()), std::stof(RIGHT.substr(plus + 1)));
-							this->m_LLAdd.emplace_back(tmp);
-						}
-						if (minus != std::string::npos) {
-							TaskRewardData::LLAdd tmp;
-							tmp.Set(TraderDatas::FindTraderID(RIGHT.substr(0, minus).c_str()), std::stof(RIGHT.substr(minus)));
-							this->m_LLAdd.emplace_back(tmp);
-						}
-					}
-					else if (LEFT == "Reward_Item") {
-						if (Args.size() > 0) {
-							for (auto&a : Args) {
-								if (a == "or") {
-
-								}
-								else {
-									ItemDatas::SetItem(&this->m_Item, a);
-								}
+				if (LEFT == "Task_Map") {//ロケーション追加
+					this->m_Map.emplace_back(MapData::Instance()->FindID(RIGHT.c_str()));
+				}
+				else if (LEFT == "Task_Kill") {
+					if (Args.size() > 0) {
+						for (auto&a : Args) {
+							if (a == "or") {
+							}
+							else {
+								SetKill(a);
 							}
 						}
-						else {
-							ItemDatas::SetItem(&this->m_Item, RIGHT);
-						}
+					}
+					else {
+						SetKill(RIGHT);
 					}
 				}
+				else if (LEFT == "Task_FiR_HandOver") {
+					if (Args.size() > 0) {
+						for (auto&a : Args) {
+							if (a == "or") {
+
+							}
+							else {
+								ItemDatas::SetItem(&this->m_FiR_Item, a);
+							}
+						}
+					}
+					else {
+						ItemDatas::SetItem(&this->m_FiR_Item, RIGHT);
+					}
+				}
+				else if (LEFT == "Task_NotFiR_HandOver") {
+					if (Args.size() > 0) {
+						for (auto&a : Args) {
+							if (a == "or") {
+
+							}
+							else {
+								ItemDatas::SetItem(&this->m_NotFiR_Item, a);
+							}
+						}
+					}
+					else {
+						ItemDatas::SetItem(&this->m_NotFiR_Item, RIGHT);
+					}
+				}
+				else if (LEFT == "Task_Else") {//特殊　メッセージ
+					this->m_ElseMsg.emplace_back(RIGHT);
+				}
+			}
+		};
+		class TaskRewardData {
+			class LLAdd {
+				TraderID							m_TraderID{ InvalidID };
+				float								m_Add{ 0.f };
+			public:
+				const auto& GetTraderID() const noexcept { return m_TraderID; }
+				const auto& GetAdd() const noexcept { return m_Add; }
+			public:
+				void	Set(TraderID id, float add) noexcept {
+					this->m_TraderID = id;
+					this->m_Add = add;
+				}
+
 			};
-		private:
-			TaskNeedData				m_TaskNeedData;
-			TaskWorkData				m_TaskWorkData;
-			TaskRewardData				m_TaskRewardData;
+			std::vector<LLAdd>						m_LLAdd;
+			std::vector<ItemDatas::ItemGetData>		m_Item;
 		public:
-			const auto&		GetTrader() const noexcept { return m_TaskNeedData.GetTrader(); }
-			const auto&		GetTaskNeedData() const noexcept { return m_TaskNeedData; }
-			const auto&		GetTaskWorkData() const noexcept { return m_TaskWorkData; }
-			const auto&		GetTaskRewardData() const noexcept { return m_TaskRewardData; }
+			const auto& GetLLAdd() const noexcept { return m_LLAdd; }
 		public:
-			void			Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>&Args) noexcept override {
-				//Need
-				m_TaskNeedData.Set(LEFT, RIGHT, Args);
-				//Work
-				m_TaskWorkData.Set(LEFT, RIGHT, Args);
-				//Reward
-				m_TaskRewardData.Set(LEFT, RIGHT, Args);
+			void Set(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept {
+				if (LEFT == "Reward_Rep") {
+					auto plus = RIGHT.find("+");
+					auto minus = RIGHT.find("-");
+					if (plus != std::string::npos) {
+						TaskRewardData::LLAdd tmp;
+						tmp.Set(TraderData::Instance()->FindID(RIGHT.substr(0, plus).c_str()), std::stof(RIGHT.substr(plus + 1)));
+						this->m_LLAdd.emplace_back(tmp);
+					}
+					if (minus != std::string::npos) {
+						TaskRewardData::LLAdd tmp;
+						tmp.Set(TraderData::Instance()->FindID(RIGHT.substr(0, minus).c_str()), std::stof(RIGHT.substr(minus)));
+						this->m_LLAdd.emplace_back(tmp);
+					}
+				}
+				else if (LEFT == "Reward_Item") {
+					if (Args.size() > 0) {
+						for (auto&a : Args) {
+							if (a == "or") {
+
+							}
+							else {
+								ItemDatas::SetItem(&this->m_Item, a);
+							}
+						}
+					}
+					else {
+						ItemDatas::SetItem(&this->m_Item, RIGHT);
+					}
+				}
 			}
-			void			SetNeedTasktoID(const std::vector<TaskData>& taskList) {
-				m_TaskNeedData.SetNeedTasktoID(taskList);
+		};
+	private:
+		TaskNeedData				m_TaskNeedData;
+		TaskWorkData				m_TaskWorkData;
+		TaskRewardData				m_TaskRewardData;
+	public:
+		const auto&		GetTrader() const noexcept { return m_TaskNeedData.GetTrader(); }
+		const auto&		GetTaskNeedData() const noexcept { return m_TaskNeedData; }
+		const auto&		GetTaskWorkData() const noexcept { return m_TaskWorkData; }
+		const auto&		GetTaskRewardData() const noexcept { return m_TaskRewardData; }
+	public:
+		void			Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>&Args) noexcept override {
+			//Need
+			m_TaskNeedData.Set(LEFT, RIGHT, Args);
+			//Work
+			m_TaskWorkData.Set(LEFT, RIGHT, Args);
+			//Reward
+			m_TaskRewardData.Set(LEFT, RIGHT, Args);
+		}
+		void			SetNeedTasktoID(const std::vector<TaskList>& taskList) noexcept {
+			m_TaskNeedData.SetNeedTasktoID(taskList);
+		}
+		void			DrawWindow(int xp, int yp, int xs, int* ys) const noexcept {
+			int suby = LineHeight;
+			int sizy = LineHeight * 7 / 10;
+			//
+			if (m_TaskNeedData.GetItem().size() > 0) {
+				WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT, White, Black, "必要アイテム");				suby += sizy;
+				for (const auto& LL : m_TaskNeedData.GetItem()) {
+					auto* map = ItemData::Instance()->FindPtr(LL.GetID());
+					WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT, White, Black, "└%s x%2d", map->GetName().c_str(), LL.GetCount()); suby += sizy;
+				}
+				suby += sizy;
 			}
-			void			DrawWindow(int xp, int yp, int xs, int* ys) {
-				int suby = LineHeight;
-				int sizy = LineHeight * 7 / 10;
-				//
-				if (m_TaskNeedData.GetItem().size() > 0) {
-					WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT, White, Black, "必要アイテム");				suby += sizy;
-					for (const auto& LL : m_TaskNeedData.GetItem()) {
-						auto& map = ItemDatas::FindItem(LL.GetID());
-						WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT,
-							White, Black, "└%s x%2d", map.GetName().c_str(), LL.GetCount()); suby += sizy;
+			//
+			if (m_TaskWorkData.GetMap().size() > 0) {
+				WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT, White, Black, "マップ指定"); suby += sizy;
+				for (auto& LL : m_TaskWorkData.GetMap()) {
+					auto* map = MapData::Instance()->FindPtr(LL);
+					WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT, map->GetColors(0), Black, "└%s", map->GetName().c_str()); suby += sizy;
+				}
+			}
+			else {
+				WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT, White, Black, "マップ指定なし"); suby += sizy;
+			}
+			if (m_TaskWorkData.GetKill().size() > 0) {
+				WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT, White, Black, "敵をキル"); suby += sizy;
+				for (auto& LL : m_TaskWorkData.GetKill()) {
+					auto* eny = EnemyData::Instance()->FindPtr(LL.GetEnemyID());
+					WindowSystem::SetMsg(xp, yp + suby, xp, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT, eny->GetColors(0), Black, "└%s x%2d", eny->GetName().c_str(), LL.GetKillCount());
+					if (LL.GetMapID() != InvalidID) {
+						auto* map = MapData::Instance()->FindPtr(LL.GetMapID());
+						WindowSystem::SetMsg(xp + y_r(250), yp + suby, xp + y_r(250), yp + sizy + suby, LineHeight * 8 / 10, FontHandle::FontXCenter::LEFT, map->GetColors(0), Black, " in %s", map->GetName().c_str());
 					}
 					suby += sizy;
 				}
-				//
-				if (m_TaskWorkData.GetMap().size() > 0) {
-					WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT, White, Black, "マップ指定"); suby += sizy;
-					for (auto& LL : m_TaskWorkData.GetMap()) {
-						auto& map = MapDatas::FindMap(LL);
-						WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT, map.GetColors(0), Black, "└%s", map.GetName().c_str());					suby += sizy;
-					}
-				}
-				else {
-					WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT, White, Black, "マップ指定なし"); suby += sizy;
-				}
-				if (m_TaskWorkData.GetKill().size() > 0) {
-					WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT, White, Black, "敵をキル"); suby += sizy;
-					for (auto& LL : m_TaskWorkData.GetKill()) {
-						auto& eny = EnemyDatas::FindEnemy(LL.GetEnemyID());
-						WindowSystem::SetMsg(xp, yp + suby, xp, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT, eny.GetColors(0), Black,
-							"└%s x%2d", eny.GetName().c_str(), LL.GetKillCount());
-						if (LL.GetMapID() != InvalidID) {
-							auto& map = MapDatas::FindMap(LL.GetMapID());
-							WindowSystem::SetMsg(xp + y_r(250), yp + suby, xp + y_r(250), yp + sizy + suby, LineHeight * 8 / 10, FontHandle::FontXCenter::LEFT, map.GetColors(0), Black,
-								" in %s", map.GetName().c_str());
-						}
-						suby += sizy;
-					}
-				}
-				//
-				//
-				if (m_TaskWorkData.GetElseMsg().size() > 0) {
-					WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT, White, Black, "メモ:"); suby += sizy;
-					for (auto& m : m_TaskWorkData.GetElseMsg()) {
-						WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT, White, Black, m.c_str()); suby += sizy;
-					}
-				}
-				*ys = std::max(*ys, suby + LineHeight / 10);
 			}
-		};
-		static std::vector<TaskData>	g_TaskList;
-		void			SetTaskList() {
-			auto data_t = GetFileNamesInDirectory("data/task/");
-			std::vector<std::string> DirNames;
-			for (auto& d : data_t) {
-				if (d.cFileName[0] != '.') {
-					DirNames.emplace_back(d.cFileName);
+			//
+			//
+			if (m_TaskWorkData.GetElseMsg().size() > 0) {
+				WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT, White, Black, "メモ:"); suby += sizy;
+				for (auto& m : m_TaskWorkData.GetElseMsg()) {
+					WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + sizy + suby, sizy, FontHandle::FontXCenter::LEFT, White, Black, m.c_str()); suby += sizy;
 				}
 			}
-			g_TaskList.resize(DirNames.size());
-			for (auto& d : DirNames) {
-				int ID = (int)(&d - &DirNames.front());
-				g_TaskList[ID].Set(("data/task/" + d).c_str(), (TaskID)ID);
-			}
-			DirNames.clear();
-			for (auto& t : g_TaskList) {
-				t.SetNeedTasktoID(g_TaskList);
+			*ys = std::max(*ys, suby + LineHeight / 10);
+		}
+	};
+	class TaskData : public SingletonBase<TaskData>, public DataParent<TaskID, TaskList> {
+	private:
+		friend class SingletonBase<TaskData>;
+	private:
+		TaskData() noexcept {
+			SetList("data/task/");
+			for (auto& t : m_List) {
+				t.SetNeedTasktoID(m_List);
 			}
 		}
+		~TaskData() noexcept {
+		}
+	public:
+		const auto&		GetTaskList() const noexcept { return m_List; }
 	};
 	//
 	class MAINLOOP : public TEMPSCENE {
@@ -624,33 +572,24 @@ namespace FPS_n2 {
 		bool														m_IsPullDown{ false };
 		float														m_PullDown{ 1.f };
 	private:
-		void DrawChildTaskClickBox(TaskDatas::TaskID ParentID, int start_x, int start_y, int xp, int yp, int xs, int ys, bool parentCanDo = true) {
+		void DrawChildTaskClickBox(TaskID ParentID, int start_x, int start_y, int xp, int yp, int xs, int ys, bool parentCanDo = true) noexcept {
 			if (ParentID == InvalidID) {
 				m_posxMaxBuffer = 0;
 				m_posyMaxBuffer = 0;
 			}
-			for (auto& tasks : TaskDatas::g_TaskList) {
+			for (const auto& tasks : TaskData::Instance()->GetTaskList()) {
 				if (ParentID == InvalidID) {
-					if (true) {
-						for (auto&t : TraderDatas::g_TraderRep) {
-							t = 0.f;
-						}
-					}
-					else {
-						for (auto&t : TraderDatas::g_TraderRep) {
-							t = 0.2f;
-						}
-					}
+					TraderData::Instance()->ResetRep();
 				}
 				if (tasks.GetTaskNeedData().GettaskID() == ParentID) {
-					auto& trader = TraderDatas::FindTrader(tasks.GetTrader());
+					auto* trader = TraderData::Instance()->FindPtr(tasks.GetTrader());
 					auto parentCanDo_t = parentCanDo;
-					auto color = trader.GetColors(0);
+					auto color = trader->GetColors(0);
 					//信頼度アップダウンを対応
 					std::vector<float> PrevRep;
 					PrevRep.resize(tasks.GetTaskRewardData().GetLLAdd().size());
 					for (auto& LL : tasks.GetTaskRewardData().GetLLAdd()) {
-						float* traderRep = TraderDatas::FindTraderRep(LL.GetTraderID());
+						float* traderRep = TraderData::Instance()->FindTraderRep(LL.GetTraderID());
 						PrevRep[&LL - &tasks.GetTaskRewardData().GetLLAdd().front()] = *traderRep;
 						*traderRep += LL.GetAdd();
 					}
@@ -659,7 +598,7 @@ namespace FPS_n2 {
 						(
 						(this->m_MyLevel < tasks.GetTaskNeedData().GetLevel())
 							) || !parentCanDo) {
-						color = trader.GetColors(-100);
+						color = trader->GetColors(-100);
 						parentCanDo_t = false;
 					}
 					if (ParentID != InvalidID) {
@@ -688,10 +627,9 @@ namespace FPS_n2 {
 					}
 					int suby = ys;
 					for (auto& LL : tasks.GetTaskRewardData().GetLLAdd()) {
-						auto& trader2 = TraderDatas::FindTrader(LL.GetTraderID());
-						float* traderRep = TraderDatas::FindTraderRep(LL.GetTraderID());
-						WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + ys + suby, ys, FontHandle::FontXCenter::LEFT, trader2.GetColors(0), Black,
-							"[%4.2f->%4.2f]", PrevRep[&LL - &tasks.GetTaskRewardData().GetLLAdd().front()], *traderRep); suby += ys;
+						auto* trader2 = TraderData::Instance()->FindPtr(LL.GetTraderID());
+						float* traderRep = TraderData::Instance()->FindTraderRep(LL.GetTraderID());
+						WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + ys + suby, ys, FontHandle::FontXCenter::LEFT, trader2->GetColors(0), Black, "[%4.2f->%4.2f]", PrevRep[&LL - &tasks.GetTaskRewardData().GetLLAdd().front()], *traderRep); suby += ys;
 					}
 					m_posxMaxBuffer = std::max(m_posxMaxBuffer, xp + xs);
 					m_posyMaxBuffer = std::max(m_posyMaxBuffer, yp + ys + suby);
@@ -717,7 +655,7 @@ namespace FPS_n2 {
 					DrawChildTaskClickBox(tasks.GetID(), xp + xs, yp + ys / 2, P_Next.GetPosX(), P_Next.GetPosY(), xs, ys, parentCanDo_t);
 					//親なのでいったん信頼度を戻す
 					for (auto& LL : tasks.GetTaskRewardData().GetLLAdd()) {
-						float* traderRep = TraderDatas::FindTraderRep(LL.GetTraderID());
+						float* traderRep = TraderData::Instance()->FindTraderRep(LL.GetTraderID());
 						*traderRep = PrevRep[&LL - &tasks.GetTaskRewardData().GetLLAdd().front()];
 					}
 					//
@@ -741,11 +679,11 @@ namespace FPS_n2 {
 			InputControl::Create();
 			m_Window = std::make_unique<WindowSystem::WindowManager>();
 			//
-			ItemDatas::SetItemList();
-			EnemyDatas::SetEnemyList();
-			TraderDatas::SetTraderList();
-			MapDatas::SetMapList();
-			TaskDatas::SetTaskList();
+			ItemData::Create();
+			EnemyData::Create();
+			TraderData::Create();
+			MapData::Create();
+			TaskData::Create();
 			//
 		}
 
@@ -809,7 +747,6 @@ namespace FPS_n2 {
 
 		//UI表示
 		void DrawUI_Base_Sub(void) noexcept  override {
-			SetDrawMode(DX_DRAWMODE_NEAREST);
 			auto* DrawParts = DXDraw::Instance();
 			DrawBox(0, 0, DrawParts->m_DispXSize, (int)((float)DrawParts->m_DispYSize*m_PullDown), Gray15, TRUE);
 			if (m_PullDown >= 1.f) {
