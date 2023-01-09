@@ -36,6 +36,7 @@ namespace FPS_n2 {
 		ID						m_ID{ InvalidID };
 		std::string				m_Name;
 		std::array<int, 3>		m_Color{ 0,0,0 };
+		GraphHandle				m_Icon;
 	private:
 		const auto		GetArgs(const std::string& RIGHT) const noexcept {
 			std::vector<std::string> Args;
@@ -76,8 +77,9 @@ namespace FPS_n2 {
 		const auto		GetColors(int colorAdd) const noexcept {
 			return DxLib::GetColor(std::clamp(m_Color[0] + colorAdd, 0, 255), std::clamp(m_Color[1] + colorAdd, 0, 255), std::clamp(m_Color[2] + colorAdd, 0, 255));
 		}
+		const auto&		GetIcon() const noexcept { return m_Icon; }
 	public:
-		void			Set(const char* FilePath, ID id) noexcept {
+		void			Set(const char* FilePath, ID id, const char* IconPath = nullptr) noexcept {
 			m_ID = id;
 			int mdata = FileRead_open(FilePath, FALSE);
 			while (true) {
@@ -91,6 +93,9 @@ namespace FPS_n2 {
 				Set_Sub(LEFT, RIGHT, Args);
 			}
 			FileRead_close(mdata);
+			if (IconPath) {
+				m_Icon = GraphHandle::Load(IconPath);
+			}
 		}
 	};
 	//
@@ -101,16 +106,40 @@ namespace FPS_n2 {
 	protected:
 		void SetList(const char* DirPath) noexcept {
 			auto data_t = GetFileNamesInDirectory(DirPath);
-			std::vector<std::string> DirNames;
+			std::vector<std::pair<std::string, bool>> DirNames;
 			for (auto& d : data_t) {
 				if (d.cFileName[0] != '.') {
-					DirNames.emplace_back(d.cFileName);
+					std::string Tmp = d.cFileName;
+					auto txtpos = Tmp.find(".txt");
+					if (txtpos != std::string::npos) {
+						std::pair<std::string, bool> tmp;
+						tmp.first = Tmp.substr(0, txtpos);
+						tmp.second = false;
+						DirNames.emplace_back(tmp);
+					}
+				}
+			}
+			for (auto& d : data_t) {
+				if (d.cFileName[0] != '.') {
+					std::string Tmp = d.cFileName;
+					auto txtpos = Tmp.find(".txt");
+					if (txtpos == std::string::npos) {
+						auto pngpos = Tmp.find(".png");
+						if (pngpos != std::string::npos) {
+							for (auto& d2 : DirNames) {
+								if (d2.first == Tmp.substr(0, pngpos)) {
+									d2.second = true;
+									break;
+								}
+							}
+						}
+					}
 				}
 			}
 			m_List.resize(DirNames.size());
 			for (auto& d : DirNames) {
 				int index = (int)(&d - &DirNames.front());
-				m_List[index].Set((DirPath + d).c_str(), (ID)index);
+				m_List[index].Set((DirPath + d.first + ".txt").c_str(), (ID)index, d.second ? (DirPath + d.first + ".png").c_str() : nullptr);
 			}
 			DirNames.clear();
 		}
@@ -507,7 +536,16 @@ namespace FPS_n2 {
 				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, FontHandle::FontXCenter::LEFT, White, Black, "必要アイテム")); yofs += sizy;
 				for (const auto& LL : m_TaskNeedData.GetItem()) {
 					auto* map = ItemData::Instance()->FindPtr(LL.GetID());
-					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, FontHandle::FontXCenter::LEFT, White, Black, "└%s x%2d", map->GetName().c_str(), LL.GetCount())); yofs += sizy;
+					auto  Xsize = WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, FontHandle::FontXCenter::LEFT, White, Black, "└%s x%2d", map->GetName().c_str(), LL.GetCount());
+
+					int Xs, Ys;
+					map->GetIcon().GetSize(&Xs, &Ys);
+					int size = y_r(92);
+					map->GetIcon().DrawExtendGraph(
+						xp + Xsize, yp + yofs + sizy / 2 - size / 2,
+						xp + Xsize + size * Ys / Xs, yp + yofs + sizy / 2 + size / 2, false);
+					xofs = std::max(xofs, Xsize + size * Ys / Xs);
+					yofs += sizy;
 				}
 				yofs += sizy;
 			}
