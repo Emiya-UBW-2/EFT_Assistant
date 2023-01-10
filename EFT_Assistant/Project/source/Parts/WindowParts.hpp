@@ -235,7 +235,7 @@ namespace FPS_n2 {
 				int widthLimit = 0;
 				//”wŒi
 				{
-					int add = y_r(2);
+					int add = y_r(5);
 					DrawBox(xp1 + add, yp1 + add, xp2 + add, yp2 + add, Black, TRUE);
 					SetBox(xp1, yp1, xp2, yp2, Gray10);
 				}
@@ -554,6 +554,11 @@ namespace FPS_n2 {
 					}
 				}
 				return false;
+			}
+			void		DeleteAll() noexcept {
+				for (auto& w : m_WindowControl) {
+					w->SetIsActive(false);
+				}
 			}
 		public:
 			const auto&	Add() noexcept {

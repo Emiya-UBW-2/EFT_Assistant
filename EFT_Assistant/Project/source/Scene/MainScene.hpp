@@ -29,6 +29,9 @@ namespace FPS_n2 {
 	};
 	//
 	static const int InvalidID{ -1 };
+	static const auto STR_LEFT{ FontHandle::FontXCenter::LEFT };
+	static const auto STR_MID{ FontHandle::FontXCenter::MIDDLE };
+	static const auto STR_RIGHT{ FontHandle::FontXCenter::RIGHT };
 	//
 	template <class ID>
 	class ListParent {
@@ -96,6 +99,18 @@ namespace FPS_n2 {
 			if (IconPath) {
 				m_Icon = GraphHandle::Load(IconPath);
 			}
+		}
+
+		const auto		Draw(int xp, int yp,int ysize, int count) const noexcept {
+			auto  Xsize = WindowSystem::SetMsg(xp, yp, xp, yp + ysize, LineHeight * 7 / 10, STR_LEFT, White, Black, "└%s x%2d", this->GetName().c_str(), count);
+			xp += Xsize;
+			int Xs, Ys;
+			this->GetIcon().GetSize(&Xs, &Ys);
+			DrawBox(xp, yp, xp + ysize * Xs / Ys, yp + ysize, Black, TRUE);
+			SetDrawBlendMode(DX_BLENDMODE_ALPHA, 254);
+			this->GetIcon().DrawExtendGraph(xp, yp, xp + ysize * Xs / Ys, yp + ysize, false);
+			SetDrawBlendMode(DX_BLENDMODE_NOBLEND, 0);
+			return (int)(Xsize + ysize * Xs / Ys);
 		}
 	};
 	//
@@ -196,29 +211,27 @@ namespace FPS_n2 {
 		~ItemData() noexcept {}
 	};
 	//
-	namespace ItemDatas {
-		class ItemGetData {
-			ItemID				m_ID{ InvalidID };
-			int					m_Count{ 0 };
-		public:
-			const auto&		GetID() const noexcept { return m_ID; }
-			const auto&		GetCount() const noexcept { return m_Count; }
-			void			Set(ItemID id, int count) noexcept {
-				m_ID = id;
-				m_Count = count;
-			}
-		};
-		void			SetItem(std::vector<ItemGetData>* Data, const std::string& mes) noexcept {
-			auto L = mes.rfind("x");
-			if (L != std::string::npos) {
-				ItemGetData tmp;
-				tmp.Set(ItemData::Instance()->FindID(mes.substr(0, L).c_str()), std::stoi(mes.substr(L + 1)));
-				Data->emplace_back(tmp);
-			}
-			else {
-				//int a = 0;
-			}
-		};
+	class ItemGetData {
+		ItemID				m_ID{ InvalidID };
+		int					m_Count{ 0 };
+	public:
+		const auto&		GetID() const noexcept { return m_ID; }
+		const auto&		GetCount() const noexcept { return m_Count; }
+		void			Set(ItemID id, int count) noexcept {
+			m_ID = id;
+			m_Count = count;
+		}
+	};
+	void			SetItem(std::vector<ItemGetData>* Data, const std::string& mes) noexcept {
+		auto L = mes.rfind("x");
+		if (L != std::string::npos) {
+			ItemGetData tmp;
+			tmp.Set(ItemData::Instance()->FindID(mes.substr(0, L).c_str()), std::stoi(mes.substr(L + 1)));
+			Data->emplace_back(tmp);
+		}
+		else {
+			//int a = 0;
+		}
 	};
 	//
 	typedef int EnemyID;
@@ -304,7 +317,7 @@ namespace FPS_n2 {
 			int										m_LL{ -1 };
 			std::string								m_task;
 			TaskID									m_taskID{ InvalidID };
-			std::vector<ItemDatas::ItemGetData>		m_Item;
+			std::vector<ItemGetData>				m_Item;
 		public:
 			const auto& GetTrader() const noexcept { return m_Trader; }
 			const auto& GetLevel() const noexcept { return m_Level; }
@@ -332,12 +345,12 @@ namespace FPS_n2 {
 
 							}
 							else {
-								ItemDatas::SetItem(&this->m_Item, a);
+								SetItem(&this->m_Item, a);
 							}
 						}
 					}
 					else {
-						ItemDatas::SetItem(&this->m_Item, RIGHT);
+						SetItem(&this->m_Item, RIGHT);
 					}
 				}
 			}
@@ -368,8 +381,8 @@ namespace FPS_n2 {
 		class TaskWorkData {
 			std::vector<MapID>						m_Map;
 			std::vector<EnemyKill>					m_Kill;
-			std::vector<ItemDatas::ItemGetData>		m_FiR_Item;
-			std::vector<ItemDatas::ItemGetData>		m_NotFiR_Item;
+			std::vector<ItemGetData>				m_FiR_Item;
+			std::vector<ItemGetData>				m_NotFiR_Item;
 			std::vector<std::string>				m_ElseMsg;
 		public:
 			const auto& GetMap() const noexcept { return m_Map; }
@@ -426,12 +439,12 @@ namespace FPS_n2 {
 
 							}
 							else {
-								ItemDatas::SetItem(&this->m_FiR_Item, a);
+								SetItem(&this->m_FiR_Item, a);
 							}
 						}
 					}
 					else {
-						ItemDatas::SetItem(&this->m_FiR_Item, RIGHT);
+						SetItem(&this->m_FiR_Item, RIGHT);
 					}
 				}
 				else if (LEFT == "Task_NotFiR_HandOver") {
@@ -441,12 +454,12 @@ namespace FPS_n2 {
 
 							}
 							else {
-								ItemDatas::SetItem(&this->m_NotFiR_Item, a);
+								SetItem(&this->m_NotFiR_Item, a);
 							}
 						}
 					}
 					else {
-						ItemDatas::SetItem(&this->m_NotFiR_Item, RIGHT);
+						SetItem(&this->m_NotFiR_Item, RIGHT);
 					}
 				}
 				else if (LEFT == "Task_Else") {//特殊　メッセージ
@@ -469,7 +482,7 @@ namespace FPS_n2 {
 
 			};
 			std::vector<LLAdd>						m_LLAdd;
-			std::vector<ItemDatas::ItemGetData>		m_Item;
+			std::vector<ItemGetData>				m_Item;
 		public:
 			const auto& GetLLAdd() const noexcept { return m_LLAdd; }
 			const auto& GetItem() const noexcept { return m_Item; }
@@ -496,12 +509,12 @@ namespace FPS_n2 {
 
 							}
 							else {
-								ItemDatas::SetItem(&this->m_Item, a);
+								SetItem(&this->m_Item, a);
 							}
 						}
 					}
 					else {
-						ItemDatas::SetItem(&this->m_Item, RIGHT);
+						SetItem(&this->m_Item, RIGHT);
 					}
 				}
 			}
@@ -531,72 +544,75 @@ namespace FPS_n2 {
 			int xofs = 0;
 			int yofs = LineHeight;
 			int sizy = LineHeight * 7 / 10;
-			//
-			if (m_TaskNeedData.GetItem().size() > 0) {
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, FontHandle::FontXCenter::LEFT, White, Black, "必要アイテム")); yofs += sizy;
-				for (const auto& LL : m_TaskNeedData.GetItem()) {
-					auto* map = ItemData::Instance()->FindPtr(LL.GetID());
-					auto  Xsize = WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, FontHandle::FontXCenter::LEFT, White, Black, "└%s x%2d", map->GetName().c_str(), LL.GetCount());
-
-					int Xs, Ys;
-					map->GetIcon().GetSize(&Xs, &Ys);
-					int size = y_r(92);
-					map->GetIcon().DrawExtendGraph(
-						xp + Xsize, yp + yofs + sizy / 2 - size / 2,
-						xp + Xsize + size * Ys / Xs, yp + yofs + sizy / 2 + size / 2, false);
-					xofs = std::max(xofs, Xsize + size * Ys / Xs);
-					yofs += sizy;
-				}
-				yofs += sizy;
+			//必要
+			{
+				auto* trader = TraderData::Instance()->FindPtr(GetTrader());
+				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STR_LEFT, White, Black, "トレーダー:%s Lv %d", trader->GetName().c_str(), std::max(m_TaskNeedData.GetLL(), 1))); yofs += sizy;
 			}
-			//
+			if (m_TaskNeedData.GetLevel() >= 1) {
+				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STR_LEFT, White, Black, "必要レベル:%d", m_TaskNeedData.GetLevel())); yofs += sizy;
+			}
+			if (m_TaskNeedData.GetItem().size() > 0) {
+				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STR_LEFT, White, Black, "必要アイテム")); yofs += sizy;
+				for (const auto& LL : m_TaskNeedData.GetItem()) {
+					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
+					int total_size = y_r(92);
+					xofs = std::max(xofs, ptr->Draw(xp, yp + yofs, total_size, LL.GetCount()));
+					yofs += total_size;
+				}
+			}
+			//タスク内容
 			if (m_TaskWorkData.GetMap().size() > 0) {
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, FontHandle::FontXCenter::LEFT, White, Black, "マップ指定")); yofs += sizy;
+				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STR_LEFT, White, Black, "マップ指定")); yofs += sizy;
 				for (auto& LL : m_TaskWorkData.GetMap()) {
-					auto* map = MapData::Instance()->FindPtr(LL);
-					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, FontHandle::FontXCenter::LEFT, map->GetColors(0), Black, "└%s", map->GetName().c_str())); yofs += sizy;
+					auto* ptr = MapData::Instance()->FindPtr(LL);
+					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STR_LEFT, ptr->GetColors(0), Black, "└%s", ptr->GetName().c_str())); yofs += sizy;
 				}
 			}
 			if (m_TaskWorkData.GetKill().size() > 0) {
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, FontHandle::FontXCenter::LEFT, White, Black, "敵をキル")); yofs += sizy;
+				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STR_LEFT, White, Black, "敵をキル")); yofs += sizy;
 				for (auto& LL : m_TaskWorkData.GetKill()) {
 					auto* eny = EnemyData::Instance()->FindPtr(LL.GetEnemyID());
-					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, FontHandle::FontXCenter::LEFT, eny->GetColors(0), Black, "└%s x%2d", eny->GetName().c_str(), LL.GetKillCount()));
+					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STR_LEFT, eny->GetColors(0), Black, "└%s x%2d", eny->GetName().c_str(), LL.GetKillCount()));
 					if (LL.GetMapID() != InvalidID) {
-						auto* map = MapData::Instance()->FindPtr(LL.GetMapID());
-						xofs = std::max(xofs, WindowSystem::SetMsg(xp + y_r(250), yp + yofs, xp + y_r(250), yp + sizy + yofs, LineHeight * 8 / 10, FontHandle::FontXCenter::LEFT, map->GetColors(0), Black, " in %s", map->GetName().c_str()));
+						auto* ptr = MapData::Instance()->FindPtr(LL.GetMapID());
+						xofs = std::max(xofs, WindowSystem::SetMsg(xp + y_r(250), yp + yofs, xp + y_r(250), yp + sizy + yofs, LineHeight * 8 / 10, STR_LEFT, ptr->GetColors(0), Black, " in %s", ptr->GetName().c_str()));
 					}
 					yofs += sizy;
 				}
 			}
 			if (m_TaskWorkData.GetFiR_Item().size() > 0) {
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, FontHandle::FontXCenter::LEFT, White, Black, "Firアイテムの納品")); yofs += sizy;
+				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STR_LEFT, White, Black, "Firアイテムの納品")); yofs += sizy;
 				for (const auto& LL : m_TaskWorkData.GetFiR_Item()) {
-					auto* map = ItemData::Instance()->FindPtr(LL.GetID());
-					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, FontHandle::FontXCenter::LEFT, White, Black, "└%s x%2d", map->GetName().c_str(), LL.GetCount())); yofs += sizy;
+					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
+					int total_size = y_r(92);
+					xofs = std::max(xofs, ptr->Draw(xp, yp + yofs, total_size, LL.GetCount()));
+					yofs += total_size;
 				}
-				yofs += sizy;
 			}
 			if (m_TaskWorkData.GetNotFiR_Item().size() > 0) {
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, FontHandle::FontXCenter::LEFT, White, Black, "Firでなくてよいアイテムの納品")); yofs += sizy;
+				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STR_LEFT, White, Black, "Firでなくてよいアイテムの納品")); yofs += sizy;
 				for (const auto& LL : m_TaskWorkData.GetNotFiR_Item()) {
-					auto* map = ItemData::Instance()->FindPtr(LL.GetID());
-					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, FontHandle::FontXCenter::LEFT, White, Black, "└%s x%2d", map->GetName().c_str(), LL.GetCount())); yofs += sizy;
+					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
+					int total_size = y_r(92);
+					xofs = std::max(xofs, ptr->Draw(xp, yp + yofs, total_size, LL.GetCount()));
+					yofs += total_size;
 				}
-				yofs += sizy;
 			}
 			if (m_TaskWorkData.GetElseMsg().size() > 0) {
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, FontHandle::FontXCenter::LEFT, White, Black, "メモ:")); yofs += sizy;
+				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STR_LEFT, White, Black, "メモ:")); yofs += sizy;
 				for (auto& m : m_TaskWorkData.GetElseMsg()) {
-					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, FontHandle::FontXCenter::LEFT, White, Black, m.c_str())); yofs += sizy;
+					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STR_LEFT, White, Black, m.c_str())); yofs += sizy;
 				}
 			}
 			//
 			if (m_TaskRewardData.GetItem().size() > 0) {
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, FontHandle::FontXCenter::LEFT, White, Black, "報酬アイテム")); yofs += sizy;
+				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STR_LEFT, White, Black, "報酬アイテム")); yofs += sizy;
 				for (const auto& LL : m_TaskRewardData.GetItem()) {
-					auto* map = ItemData::Instance()->FindPtr(LL.GetID());
-					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, FontHandle::FontXCenter::LEFT, White, Black, "└%s x%2d", map->GetName().c_str(), LL.GetCount())); yofs += sizy;
+					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
+					int total_size = y_r(92);
+					xofs = std::max(xofs, ptr->Draw(xp, yp + yofs, total_size, LL.GetCount()));
+					yofs += total_size;
 				}
 				yofs += sizy;
 			}
@@ -621,22 +637,88 @@ namespace FPS_n2 {
 		const auto&		GetTaskList() const noexcept { return m_List; }
 	};
 	//
-	class MAINLOOP : public TEMPSCENE {
+	class BGParent {
 	private:
-		std::unique_ptr<WindowSystem::WindowManager>				m_Window;
-		std::vector<GraphHandle>									m_TaskGraph;
-		std::vector<std::shared_ptr<WindowSystem::WindowControl>>	m_TaskPtr;
+		bool					m_GoNextBG{ false };
+	protected:
+		virtual void Init_Sub(int *posx, int *posy, float* Scale) noexcept {}
+		virtual void LateExecute_Sub(void) noexcept {}
+		virtual void Draw_Back_Sub(std::unique_ptr<WindowSystem::WindowManager>& Windowup, int posx, int posy, float Scale) noexcept {}
+		virtual void DrawFront_Sub(std::unique_ptr<WindowSystem::WindowManager>& Windowup, int posx, int posy, float Scale) noexcept {}
+		virtual void Dispose_Sub(void) noexcept {}
+		void TurnOnGoNextBG() noexcept { m_GoNextBG = true; }
+	public:
+		const auto& IsGoNextBG() const noexcept { return m_GoNextBG; }
+	public:
+		void Init(int *posx, int *posy, float* Scale) noexcept {
+			*posx = y_r(50);
+			*posy = LineHeight + y_r(50);
+			*Scale = 0.6f;
+			m_GoNextBG = false;
+			Init_Sub(posx, posy, Scale);
+		}
+		void LateExecute(void) noexcept {
+			LateExecute_Sub();
+		}
+		void Draw_Back(std::unique_ptr<WindowSystem::WindowManager>& Windowup, int posx, int posy, float Scale) noexcept {
+			Draw_Back_Sub(Windowup, posx, posy, Scale);
+		}
+		void DrawFront(std::unique_ptr<WindowSystem::WindowManager>& Windowup, int posx, int posy, float Scale) noexcept {
+			DrawFront_Sub(Windowup, posx, posy, Scale);
+		}
+		void Dispose(void) noexcept {
+			Dispose_Sub();
+		}
+	};
+	//タイトル
+	enum class BGSelect {
+		Task,
+	};
+	class TitleBG :public BGParent {
+	private:
+		BGSelect m_Select{ (BGSelect)0 };
+	private:
+		void Init_Sub(int *posx, int *posy, float* Scale) noexcept override {
+			m_Select = (BGSelect)0;
+		}
+		void LateExecute_Sub(void) noexcept override {
+		}
+		void Draw_Back_Sub(std::unique_ptr<WindowSystem::WindowManager>& Windowup, int posx, int posy, float Scale) noexcept override {
+			int xsize = y_r(420);
+			int ysize = y_r(52);
+			int ypos = y_r(540);
+			if (WindowSystem::ClickCheckBox(y_r(960) - xsize / 2, ypos - ysize / 2, y_r(960) + xsize / 2, ypos + ysize / 2, false, true, Gray25, "タスク")) {
+				m_Select = BGSelect::Task;
+				TurnOnGoNextBG();
+			}
+			ypos += y_r(100);
+			if (WindowSystem::ClickCheckBox(y_r(960) - xsize / 2, ypos - ysize / 2, y_r(960) + xsize / 2, ypos + ysize / 2, false, true, Gray50, "ハイドアウト")) {
+
+			}
+			ypos += y_r(100);
+			if (WindowSystem::ClickCheckBox(y_r(960) - xsize / 2, ypos - ysize / 2, y_r(960) + xsize / 2, ypos + ysize / 2, false, true, Gray50, "アイテム")) {
+
+			}
+			ypos += y_r(100);
+		}
+		void DrawFront_Sub(std::unique_ptr<WindowSystem::WindowManager>& Windowup, int posx, int posy, float Scale) noexcept override {
+		}
+		void Dispose_Sub(void) noexcept override {
+		}
+	public:
+		const auto& GetNextSelect() const noexcept { return m_Select; }
+	};
+	//タスク
+	class TaskBG :public BGParent {
+	private:
 		int															m_MyLevel{ 1 };
-		int															m_posx{ 0 };
-		int															m_posy{ 0 };
 		int															m_posxMaxBuffer{ 0 };
 		int															m_posyMaxBuffer{ 0 };
-		float														m_Scale{ 0.6f };
 		std::vector<Rect2D>											m_TaskRect;
-		bool														m_IsPullDown{ false };
-		float														m_PullDown{ 1.f };
+		std::vector<GraphHandle>									m_TaskGraph;
+		std::vector<std::shared_ptr<WindowSystem::WindowControl>>	m_TaskPtr;
 	private:
-		void DrawChildTaskClickBox(TaskID ParentID, int start_x, int start_y, int xp, int yp, int xs, int ys, bool parentCanDo = true) noexcept {
+		void DrawChildTaskClickBox(std::unique_ptr<WindowSystem::WindowManager>& Windowup, float Scale,TaskID ParentID, int start_x, int start_y, int xp, int yp, int xs, int ys, bool parentCanDo = true) noexcept {
 			if (ParentID == InvalidID) {
 				m_posxMaxBuffer = 0;
 				m_posyMaxBuffer = 0;
@@ -666,9 +748,9 @@ namespace FPS_n2 {
 						parentCanDo_t = false;
 					}
 					if (ParentID != InvalidID) {
-						DrawLine(start_x, start_y, xp, yp + ys / 2, Red, (int)(5.f * m_Scale));
+						DrawLine(start_x, start_y, xp, yp + ys / 2, Red, (int)(5.f * Scale));
 					}
-					if (WindowSystem::ClickCheckBox(xp, yp, xp + xs, yp + ys, false, !m_Window->PosHitCheck(), color, tasks.GetName())) {
+					if (WindowSystem::ClickCheckBox(xp, yp, xp + xs, yp + ys, false, !Windowup->PosHitCheck(), color, tasks.GetName())) {
 						auto sizeXBuf = y_r(640);
 						auto sizeYBuf = y_r(0);
 						tasks.DrawWindow(0, 0, &sizeXBuf, &sizeYBuf);//試しにサイズ計測
@@ -679,7 +761,7 @@ namespace FPS_n2 {
 						}
 						SetDrawScreen(DX_SCREEN_BACK);
 						//
-						m_TaskPtr.emplace_back(this->m_Window->Add());
+						m_TaskPtr.emplace_back(Windowup->Add());
 						m_TaskPtr.back()->Set(xp + xs / 2 - sizeXBuf / 2, yp, sizeXBuf, sizeYBuf, 0, tasks.GetName().c_str(), false, true, [&](WindowSystem::WindowControl* win) {
 							for (auto& t : m_TaskPtr) {
 								if (t.get() == win) {
@@ -693,7 +775,7 @@ namespace FPS_n2 {
 					for (auto& LL : tasks.GetTaskRewardData().GetLLAdd()) {
 						auto* trader2 = TraderData::Instance()->FindPtr(LL.GetTraderID());
 						float* traderRep = TraderData::Instance()->FindTraderRep(LL.GetTraderID());
-						WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + ys + suby, ys, FontHandle::FontXCenter::LEFT, trader2->GetColors(0), Black, "[%4.2f->%4.2f]", PrevRep[&LL - &tasks.GetTaskRewardData().GetLLAdd().front()], *traderRep); suby += ys;
+						WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + ys + suby, ys, STR_LEFT, trader2->GetColors(0), Black, "[%4.2f->%4.2f]", PrevRep[&LL - &tasks.GetTaskRewardData().GetLLAdd().front()], *traderRep); suby += ys;
 					}
 					m_posxMaxBuffer = std::max(m_posxMaxBuffer, xp + xs);
 					m_posyMaxBuffer = std::max(m_posyMaxBuffer, yp + ys + suby);
@@ -702,7 +784,7 @@ namespace FPS_n2 {
 						m_TaskRect.emplace_back(tmp);
 					}
 					Rect2D P_Next;
-					P_Next.Set(xp + (xs + (int)((float)y_r(50) * m_Scale)), yp, xs, suby);
+					P_Next.Set(xp + (xs + (int)((float)y_r(50) * Scale)), yp, xs, suby);
 					//xs, ys
 					//被ってたら下に下げる
 					while (true) {
@@ -710,13 +792,13 @@ namespace FPS_n2 {
 						for (auto&r : m_TaskRect) {
 							if (r.IsHit(P_Next)) {
 								isHit = true;
-								P_Next.Set(xp + (xs + (int)((float)y_r(50) * m_Scale)), P_Next.GetPosY() + ys, xs, suby);
+								P_Next.Set(xp + (xs + (int)((float)y_r(50) * Scale)), P_Next.GetPosY() + ys, xs, suby);
 								break;
 							}
 						}
 						if (!isHit) { break; }
 					}
-					DrawChildTaskClickBox(tasks.GetID(), xp + xs, yp + ys / 2, P_Next.GetPosX(), P_Next.GetPosY(), xs, ys, parentCanDo_t);
+					DrawChildTaskClickBox(Windowup, Scale, tasks.GetID(), xp + xs, yp + ys / 2, P_Next.GetPosX(), P_Next.GetPosY(), xs, ys, parentCanDo_t);
 					//親なのでいったん信頼度を戻す
 					for (auto& LL : tasks.GetTaskRewardData().GetLLAdd()) {
 						float* traderRep = TraderData::Instance()->FindTraderRep(LL.GetTraderID());
@@ -724,7 +806,7 @@ namespace FPS_n2 {
 					}
 					//
 					if (ParentID == InvalidID) {
-						yp += (ys + (int)((float)y_r(400) * m_Scale));
+						yp += (ys + (int)((float)y_r(400) * Scale));
 					}
 					else {
 						yp += (ys + suby);
@@ -735,6 +817,88 @@ namespace FPS_n2 {
 				m_TaskRect.clear();
 			}
 		}
+	private:
+		void LateExecute_Sub(void) noexcept override {
+			//ウィンドウとの同期
+			for (int i = 0; i < m_TaskPtr.size(); i++) {
+				if (m_TaskPtr[i].use_count() <= 1) {
+					std::swap(m_TaskGraph[i], m_TaskGraph.back());
+					std::swap(m_TaskPtr[i], m_TaskPtr.back());
+					m_TaskGraph.back().Dispose();
+					m_TaskPtr.back().reset();
+					m_TaskGraph.pop_back();
+					m_TaskPtr.pop_back();
+					i--;
+				}
+			}
+		}
+		void Draw_Back_Sub(std::unique_ptr<WindowSystem::WindowManager>& Windowup, int posx, int posy, float Scale) noexcept override {
+			int xs = (int)((float)y_r(520) * Scale);
+			int ys = (int)((float)LineHeight * Scale);
+			DrawChildTaskClickBox(Windowup, Scale, InvalidID, posx + xs, posy + ys / 2, posx, posy, xs, ys);
+		}
+		void DrawFront_Sub(std::unique_ptr<WindowSystem::WindowManager>& Windowup, int posx, int posy, float Scale) noexcept override {
+			auto* DrawParts = DXDraw::Instance();
+			//レベル操作
+			WindowSystem::SetMsg(y_r(0), y_r(1080) - y_r(36), y_r(0), y_r(1080), y_r(36), STR_LEFT, White, Black, "Level");
+			WindowSystem::SetMsg(y_r(200), y_r(1080) - y_r(48), y_r(200), y_r(1080), y_r(48), STR_RIGHT, White, Black, "%d", this->m_MyLevel);
+			if (WindowSystem::ClickCheckBox(y_r(0), y_r(1080) - y_r(48) - LineHeight, y_r(100), y_r(1080) - y_r(48), true, !Windowup->PosHitCheck(), Red, "DOWN")) {
+				this->m_MyLevel--;
+			}
+			if (WindowSystem::ClickCheckBox(y_r(100), y_r(1080) - y_r(48) - LineHeight, y_r(200), y_r(1080) - y_r(48), true, !Windowup->PosHitCheck(), Green, "UP")) {
+				this->m_MyLevel++;
+			}
+			this->m_MyLevel = std::clamp(this->m_MyLevel, 1, 71);
+			//場所ガイド
+			{
+				int xp = y_r(1440);
+				int yp = y_r(820);
+
+				int xs = y_r(320);
+				int ys = y_r(180);
+
+				int x_p1 = std::max(posx * xs / DrawParts->m_DispXSize, -xs / 2);
+				int y_p1 = std::max(posy * ys / DrawParts->m_DispYSize, -ys / 2);
+				int x_p2 = std::min(this->m_posxMaxBuffer * xs / DrawParts->m_DispXSize, xs + xs / 2);
+				int y_p2 = std::min(this->m_posyMaxBuffer * ys / DrawParts->m_DispYSize, ys + ys / 2);
+
+				SetDrawBlendMode(DX_BLENDMODE_ALPHA, 64);
+				DrawBox(xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Black, TRUE);
+				SetDrawBlendMode(DX_BLENDMODE_NOBLEND, 0);
+				DrawBox(xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Green, FALSE);
+				DrawBox(xp, yp, xp + xs, yp + ys, Red, FALSE);
+			}
+			//
+			{
+				int xp = y_r(10);
+				int yp = y_r(10) + LineHeight;
+				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(200), yp + LineHeight, false, true,Gray25, "戻る")) {
+					TurnOnGoNextBG();
+				}
+			}
+		}
+		void Dispose_Sub(void) noexcept override {
+			for (int i = 0; i < m_TaskPtr.size(); i++) {
+				m_TaskGraph.back().Dispose();
+				m_TaskPtr.back().reset();
+				m_TaskGraph.pop_back();
+				m_TaskPtr.pop_back();
+			}
+		}
+	};
+	//
+	class MAINLOOP : public TEMPSCENE {
+	private:
+		std::unique_ptr<WindowSystem::WindowManager>				m_Window;
+		int															m_posx{ 0 };
+		int															m_posy{ 0 };
+		float														m_Scale{ 0.6f };
+		bool														m_IsPullDown{ false };
+		float														m_PullDown{ 1.f };
+
+		std::shared_ptr<BGParent>									m_BGPtr;
+		std::shared_ptr<TitleBG>									m_TitleBG;
+		std::shared_ptr<TaskBG>										m_TaskBG;
 	public:
 		void Load_Sub(void) noexcept override {}
 
@@ -749,6 +913,12 @@ namespace FPS_n2 {
 			MapData::Create();
 			TaskData::Create();
 			//
+			m_TaskBG = std::make_shared<TaskBG>();
+			m_TitleBG = std::make_shared<TitleBG>();
+			//
+			m_BGPtr = m_TitleBG;
+			//
+			m_BGPtr->Init(&this->m_posx, &this->m_posy, &this->m_Scale);
 		}
 
 		bool Update_Sub(void) noexcept override {
@@ -780,7 +950,7 @@ namespace FPS_n2 {
 				auto ScaleChange = (this->m_Scale - PrevScale);
 				if (ScaleChange != 0.f) {
 					this->m_posx -= (int)((float)(Input->GetMouseX() - this->m_posx) * ScaleChange / this->m_Scale);
-					this->m_posx -= (int)((float)(Input->GetMouseY() - this->m_posx) * ScaleChange / this->m_Scale);
+					this->m_posy -= (int)((float)(Input->GetMouseY() - this->m_posy) * ScaleChange / this->m_Scale);
 				}
 			}
 			if (Input->GetRightClick().press()) {
@@ -791,20 +961,31 @@ namespace FPS_n2 {
 			}
 			//
 			m_Window->Execute();
-			for (int i = 0; i < m_TaskPtr.size(); i++) {
-				if (m_TaskPtr[i].use_count() <= 1) {
-					std::swap(m_TaskGraph[i], m_TaskGraph.back());
-					m_TaskGraph.back().Dispose();
-					m_TaskGraph.pop_back();
-					std::swap(m_TaskPtr[i], m_TaskPtr.back());
-					m_TaskPtr.back().reset();
-					m_TaskPtr.pop_back();
+			m_BGPtr->LateExecute();
+			if (m_BGPtr->IsGoNextBG()) {
+				m_Window->DeleteAll();
+				m_BGPtr->Dispose();
+				if (m_BGPtr == m_TitleBG) {
+					switch (m_TitleBG->GetNextSelect()) {
+					case BGSelect::Task:
+						m_BGPtr = m_TaskBG;
+						break;
+					default:
+						m_BGPtr = m_TaskBG;
+						break;
+					}
 				}
+				else {
+					m_BGPtr = m_TitleBG;
+				}
+				m_BGPtr->Init(&this->m_posx, &this->m_posy, &this->m_Scale);
 			}
 			return true;
 		}
 		void Dispose_Sub(void) noexcept override {
 			m_Window.reset();
+			m_BGPtr.reset();
+			m_TaskBG.reset();
 		}
 	public:
 		void BG_Draw_Sub(void) noexcept override {}
@@ -812,61 +993,31 @@ namespace FPS_n2 {
 		//UI表示
 		void DrawUI_Base_Sub(void) noexcept  override {
 			auto* DrawParts = DXDraw::Instance();
-			DrawBox(0, 0, DrawParts->m_DispXSize, (int)((float)DrawParts->m_DispYSize*m_PullDown), Gray15, TRUE);
+			DrawBox(0, 0, DrawParts->m_DispXSize, (int)((float)DrawParts->m_DispYSize*m_PullDown), Gray75, TRUE);
 			if (m_PullDown >= 1.f) {
 				//
-				int xs = (int)((float)y_r(520) * m_Scale);
-				int ys = (int)((float)LineHeight * m_Scale);
-				DrawChildTaskClickBox(InvalidID, m_posx + xs, m_posy + ys / 2, m_posx, m_posy, xs, ys);
+				m_BGPtr->Draw_Back(this->m_Window, this->m_posx, this->m_posy, this->m_Scale);
 				//
 				m_Window->Draw();
 			}
 			//
 			WindowSystem::SetBox(y_r(0), y_r(0), y_r(1920), LineHeight, Gray50);
-			WindowSystem::SetMsg(y_r(0), y_r(0), y_r(1920), LineHeight, LineHeight, FontHandle::FontXCenter::MIDDLE, White, Black, "EFT Assistant");
-			if (WindowSystem::CloseButton(y_r(1920) - LineHeight, y_r(0))) {
-				SetisEnd(true);
-			}
-			if (WindowSystem::ClickCheckBox(y_r(0), y_r(0), y_r(320), LineHeight, false, true, Gray25, !m_IsPullDown ? "折りたたむ" : "展開")) {
-				m_IsPullDown ^= 1;
-			}
+			WindowSystem::SetMsg(y_r(0), y_r(0), y_r(1920), LineHeight, LineHeight, STR_MID, White, Black, "EFT Assistant");
+			WindowSystem::SetMsg(y_r(1280), LineHeight * 3 / 10, y_r(1280), LineHeight, LineHeight * 7 / 10, STR_LEFT, White, Black, "ver %d.%d.%d", 0, 0, 3);
+
+			if (WindowSystem::CloseButton(y_r(1920) - LineHeight, y_r(0))) { SetisEnd(true); }
+			if (WindowSystem::ClickCheckBox(y_r(0), y_r(0), y_r(320), LineHeight, false, true, Gray25, !m_IsPullDown ? "折りたたむ" : "展開")) { m_IsPullDown ^= 1; }
 			Easing(&m_PullDown, !m_IsPullDown ? 1.f : 0.f, 0.8f, EasingType::OutExpo);
 			if (m_PullDown >= 0.95f) { m_PullDown = 1.f; }
 			if (m_PullDown <= 0.05f) { m_PullDown = 0.f; }
+			//
 			if (m_PullDown >= 1.f) {
-				//レベル操作
-				WindowSystem::SetMsg(y_r(0), y_r(1080) - y_r(36), y_r(0), y_r(1080), y_r(36), FontHandle::FontXCenter::LEFT, White, Black, "Level");
-				WindowSystem::SetMsg(y_r(200), y_r(1080) - y_r(48), y_r(200), y_r(1080), y_r(48), FontHandle::FontXCenter::RIGHT, White, Black, "%d", this->m_MyLevel);
-				if (WindowSystem::ClickCheckBox(y_r(0), y_r(1080) - y_r(48) - LineHeight, y_r(100), y_r(1080) - y_r(48), true, !m_Window->PosHitCheck(), Red, "DOWN")) {
-					this->m_MyLevel--;
-				}
-				if (WindowSystem::ClickCheckBox(y_r(100), y_r(1080) - y_r(48) - LineHeight, y_r(200), y_r(1080) - y_r(48), true, !m_Window->PosHitCheck(), Green, "UP")) {
-					this->m_MyLevel++;
-				}
-				this->m_MyLevel = std::clamp(this->m_MyLevel, 1, 71);
-				//場所ガイド
-				{
-					int xp = y_r(1440);
-					int yp = y_r(820);
-
-					int xs = y_r(320);
-					int ys = y_r(180);
-
-					int x_p1 = std::max(this->m_posx * xs / DrawParts->m_DispXSize, -xs / 2);
-					int y_p1 = std::max(this->m_posy * ys / DrawParts->m_DispYSize, -ys / 2);
-					int x_p2 = std::min(this->m_posxMaxBuffer * xs / DrawParts->m_DispXSize, xs + xs / 2);
-					int y_p2 = std::min(this->m_posyMaxBuffer * ys / DrawParts->m_DispYSize, ys + ys / 2);
-
-					SetDrawBlendMode(DX_BLENDMODE_ALPHA, 64);
-					DrawBox(xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Black, TRUE);
-					SetDrawBlendMode(DX_BLENDMODE_NOBLEND, 0);
-					DrawBox(xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Green, FALSE);
-					DrawBox(xp, yp, xp + xs, yp + ys, Red, FALSE);
-				}
+				//
+				m_BGPtr->DrawFront(this->m_Window, this->m_posx, this->m_posy, this->m_Scale);
 				//中央位置回避のための小円
 				DrawCircle(DrawParts->m_DispXSize, DrawParts->m_DispYSize, y_r(100), TransColor, TRUE);
-				//
 			}
+			//
 		}
 	};
 };

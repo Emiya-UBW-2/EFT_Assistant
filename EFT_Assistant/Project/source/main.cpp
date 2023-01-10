@@ -6,7 +6,7 @@ int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 	SetWindowStyleMode(2);
 	SetUseBackBufferTransColorFlag(TRUE);
 	OPTION::Create();
-	DXDraw::Create("EFT_Assistant",960,540);		//汎用
+	DXDraw::Create("EFT_Assistant",950, 950*9/16);		//汎用
 	PostPassEffect::Create();						//シェーダー
 	//EffectResource::Create();						//エフェクト
 	//SoundPool::Create();							//サウンド
