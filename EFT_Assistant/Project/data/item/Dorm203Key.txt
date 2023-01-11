@@ -1,2 +1,2 @@
 Name=Dorm room 203 key
-ItemType=Key
+Itemtype=Key

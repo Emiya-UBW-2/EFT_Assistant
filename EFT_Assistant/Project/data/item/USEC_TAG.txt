@@ -1,2 +1,2 @@
 Name=Dogtag (USEC)
-ItemType=Others
+Itemtype=Others

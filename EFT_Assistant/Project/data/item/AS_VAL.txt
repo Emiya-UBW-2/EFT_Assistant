@@ -1,2 +1,2 @@
 Name=AS VAL 9x39 special assault rifle
-ItemType=Weapon
+Itemtype=Weapon

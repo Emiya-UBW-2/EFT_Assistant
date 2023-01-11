@@ -1,2 +1,2 @@
 Name=Dogtag (BEAR)
-ItemType=Others
+Itemtype=Others

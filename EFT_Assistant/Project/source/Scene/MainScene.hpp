@@ -40,6 +40,8 @@ namespace FPS_n2 {
 		std::string				m_Name;
 		std::array<int, 3>		m_Color{ 0,0,0 };
 		GraphHandle				m_Icon;
+		int						IconX{ -1 };
+		int						IconY{ -1 };
 	private:
 		const auto		GetArgs(const std::string& RIGHT) const noexcept {
 			std::vector<std::string> Args;
@@ -98,19 +100,27 @@ namespace FPS_n2 {
 			FileRead_close(mdata);
 			if (IconPath) {
 				m_Icon = GraphHandle::Load(IconPath);
+				GraphFilter(m_Icon.get(), DX_GRAPH_FILTER_BRIGHT_CLIP, DX_CMP_LESS, 1, TRUE, Black, 255);
+				this->m_Icon.GetSize(&IconX, &IconY);
 			}
 		}
 
 		const auto		Draw(int xp, int yp,int ysize, int count) const noexcept {
-			auto  Xsize = WindowSystem::SetMsg(xp, yp, xp, yp + ysize, LineHeight * 7 / 10, STR_LEFT, White, Black, "└%s x%2d", this->GetName().c_str(), count);
+			int  Xsize = 0;
+			if (count > 0) {
+				Xsize = WindowSystem::SetMsg(xp, yp, xp, yp + ysize, LineHeight * 7 / 10, STR_LEFT, White, Black, "└%s x%2d", this->GetName().c_str(), count);
+			}
+			else {
+				Xsize = WindowSystem::SetMsg(xp, yp, xp, yp + ysize, LineHeight * 7 / 10, STR_LEFT, White, Black, "└%s", this->GetName().c_str());
+			}
 			xp += Xsize;
-			int Xs, Ys;
-			this->GetIcon().GetSize(&Xs, &Ys);
-			DrawBox(xp, yp, xp + ysize * Xs / Ys, yp + ysize, Black, TRUE);
-			SetDrawBlendMode(DX_BLENDMODE_ALPHA, 254);
-			this->GetIcon().DrawExtendGraph(xp, yp, xp + ysize * Xs / Ys, yp + ysize, false);
-			SetDrawBlendMode(DX_BLENDMODE_NOBLEND, 0);
-			return (int)(Xsize + ysize * Xs / Ys);
+
+			float xi = (float)(ysize * IconX / IconY) / 2.f;
+			float yi = (float)ysize / 2.f;
+			float rad = (IconX >= IconY)?deg2rad(0) : deg2rad(90);
+
+			this->m_Icon.DrawRotaGraph(xp + (int)(xi*std::cos(rad) + yi * std::sin(rad)), yp + (int)yi, (float)ysize / (float)(std::min(IconX, IconY)), rad, false);
+			return (int)(Xsize + ysize * IconX / IconY);
 		}
 	};
 	//
@@ -175,6 +185,7 @@ namespace FPS_n2 {
 			}
 			return nullptr;
 		}
+		const auto&		GetList(void) const noexcept { return this->m_List; }
 	};
 	//
 	typedef int MapID;
@@ -192,14 +203,33 @@ namespace FPS_n2 {
 		~MapData() noexcept {}
 	};
 	//
+	typedef int ItemTypeID;
+	class ItemTypeList : public ListParent<ItemTypeID> {
+		//追加設定
+		void			Set_Sub(const std::string&, const std::string&, const std::vector<std::string>&) noexcept override {}
+	};
+	class ItemTypeData : public SingletonBase<ItemTypeData>, public DataParent<ItemTypeID, ItemTypeList> {
+	private:
+		friend class SingletonBase<ItemTypeData>;
+	private:
+		ItemTypeData() noexcept {
+			SetList("data/itemtype/");
+		}
+		~ItemTypeData() noexcept {}
+	};
+	//
 	typedef int ItemID;
 	class ItemList : public ListParent<ItemID> {
+		ItemTypeID	m_ID{ InvalidID };
+	private:
 		//追加設定
 		void			Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>&) noexcept override {
 			if (LEFT == "Itemtype") {
-				RIGHT;
+				m_ID = ItemTypeData::Instance()->FindID(RIGHT.c_str());
 			}
 		}
+	public:
+		const auto&	GetTypeID() const noexcept { return m_ID; }
 	};
 	class ItemData : public SingletonBase<ItemData>, public DataParent<ItemID, ItemList> {
 	private:
@@ -641,10 +671,10 @@ namespace FPS_n2 {
 	private:
 		bool					m_GoNextBG{ false };
 	protected:
-		virtual void Init_Sub(int *posx, int *posy, float* Scale) noexcept {}
+		virtual void Init_Sub(int *, int *, float*) noexcept {}
 		virtual void LateExecute_Sub(void) noexcept {}
-		virtual void Draw_Back_Sub(std::unique_ptr<WindowSystem::WindowManager>& Windowup, int posx, int posy, float Scale) noexcept {}
-		virtual void DrawFront_Sub(std::unique_ptr<WindowSystem::WindowManager>& Windowup, int posx, int posy, float Scale) noexcept {}
+		virtual void Draw_Back_Sub(std::unique_ptr<WindowSystem::WindowManager>&, int, int, float) noexcept {}
+		virtual void DrawFront_Sub(std::unique_ptr<WindowSystem::WindowManager>&, int, int, float) noexcept {}
 		virtual void Dispose_Sub(void) noexcept {}
 		void TurnOnGoNextBG() noexcept { m_GoNextBG = true; }
 	public:
@@ -670,20 +700,22 @@ namespace FPS_n2 {
 			Dispose_Sub();
 		}
 	};
-	//タイトル
+	//
 	enum class BGSelect {
 		Task,
+		Item,
 	};
+	//タイトル
 	class TitleBG :public BGParent {
 	private:
 		BGSelect m_Select{ (BGSelect)0 };
 	private:
-		void Init_Sub(int *posx, int *posy, float* Scale) noexcept override {
+		void Init_Sub(int*, int*, float*) noexcept override {
 			m_Select = (BGSelect)0;
 		}
 		void LateExecute_Sub(void) noexcept override {
 		}
-		void Draw_Back_Sub(std::unique_ptr<WindowSystem::WindowManager>& Windowup, int posx, int posy, float Scale) noexcept override {
+		void Draw_Back_Sub(std::unique_ptr<WindowSystem::WindowManager>&, int, int, float) noexcept override {
 			int xsize = y_r(420);
 			int ysize = y_r(52);
 			int ypos = y_r(540);
@@ -696,12 +728,13 @@ namespace FPS_n2 {
 
 			}
 			ypos += y_r(100);
-			if (WindowSystem::ClickCheckBox(y_r(960) - xsize / 2, ypos - ysize / 2, y_r(960) + xsize / 2, ypos + ysize / 2, false, true, Gray50, "アイテム")) {
-
+			if (WindowSystem::ClickCheckBox(y_r(960) - xsize / 2, ypos - ysize / 2, y_r(960) + xsize / 2, ypos + ysize / 2, false, true, Gray25, "アイテム")) {
+				m_Select = BGSelect::Item;
+				TurnOnGoNextBG();
 			}
 			ypos += y_r(100);
 		}
-		void DrawFront_Sub(std::unique_ptr<WindowSystem::WindowManager>& Windowup, int posx, int posy, float Scale) noexcept override {
+		void DrawFront_Sub(std::unique_ptr<WindowSystem::WindowManager>&, int, int, float) noexcept override {
 		}
 		void Dispose_Sub(void) noexcept override {
 		}
@@ -837,7 +870,7 @@ namespace FPS_n2 {
 			int ys = (int)((float)LineHeight * Scale);
 			DrawChildTaskClickBox(Windowup, Scale, InvalidID, posx + xs, posy + ys / 2, posx, posy, xs, ys);
 		}
-		void DrawFront_Sub(std::unique_ptr<WindowSystem::WindowManager>& Windowup, int posx, int posy, float Scale) noexcept override {
+		void DrawFront_Sub(std::unique_ptr<WindowSystem::WindowManager>& Windowup, int posx, int posy, float) noexcept override {
 			auto* DrawParts = DXDraw::Instance();
 			//レベル操作
 			WindowSystem::SetMsg(y_r(0), y_r(1080) - y_r(36), y_r(0), y_r(1080), y_r(36), STR_LEFT, White, Black, "Level");
@@ -886,6 +919,53 @@ namespace FPS_n2 {
 			}
 		}
 	};
+	//アイテム
+	class ItemBG :public BGParent {
+	private:
+		ItemTypeID m_TypeSel{ InvalidID };
+	private:
+		void Init_Sub(int *, int *, float*) noexcept override {
+		}
+		void LateExecute_Sub(void) noexcept override {
+		}
+		void Draw_Back_Sub(std::unique_ptr<WindowSystem::WindowManager>&, int posx, int posy, float Scale) noexcept override {
+			int xp = posx;
+			int yp = posy;
+			int ysize = (int)((float)y_r(96)*Scale);
+			for (auto& L : ItemData::Instance()->GetList()) {
+				if (L.GetTypeID() == m_TypeSel || m_TypeSel == InvalidID) {
+					L.Draw(xp, yp, ysize, 0);
+					yp += ysize;
+				}
+			}
+		}
+		void DrawFront_Sub(std::unique_ptr<WindowSystem::WindowManager>&, int, int, float) noexcept override {
+			//
+			{
+				int xp = y_r(1920 - 300 - 10);
+				int yp = y_r(10) + LineHeight;
+				for (auto& L : ItemTypeData::Instance()->GetList()) {
+					if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(300), yp + LineHeight, false, true, (m_TypeSel == L.GetID() || m_TypeSel == InvalidID) ? Gray25 : Gray50, L.GetName().c_str())) {
+						m_TypeSel = L.GetID();
+					}
+					yp += LineHeight + y_r(5);
+				}
+				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(300), yp + LineHeight, false, true, (m_TypeSel != InvalidID) ? Gray25 : Gray50, "ALL")) {
+					m_TypeSel = InvalidID;
+				}
+			}
+			//
+			{
+				int xp = y_r(10);
+				int yp = y_r(10) + LineHeight;
+				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(200), yp + LineHeight, false, true, Gray25, "戻る")) {
+					TurnOnGoNextBG();
+				}
+			}
+		}
+		void Dispose_Sub(void) noexcept override {
+		}
+	};
 	//
 	class MAINLOOP : public TEMPSCENE {
 	private:
@@ -899,6 +979,7 @@ namespace FPS_n2 {
 		std::shared_ptr<BGParent>									m_BGPtr;
 		std::shared_ptr<TitleBG>									m_TitleBG;
 		std::shared_ptr<TaskBG>										m_TaskBG;
+		std::shared_ptr<ItemBG>										m_ItemBG;
 	public:
 		void Load_Sub(void) noexcept override {}
 
@@ -913,8 +994,9 @@ namespace FPS_n2 {
 			MapData::Create();
 			TaskData::Create();
 			//
-			m_TaskBG = std::make_shared<TaskBG>();
 			m_TitleBG = std::make_shared<TitleBG>();
+			m_TaskBG = std::make_shared<TaskBG>();
+			m_ItemBG = std::make_shared<ItemBG>();
 			//
 			m_BGPtr = m_TitleBG;
 			//
@@ -970,6 +1052,9 @@ namespace FPS_n2 {
 					case BGSelect::Task:
 						m_BGPtr = m_TaskBG;
 						break;
+					case BGSelect::Item:
+						m_BGPtr = m_ItemBG;
+						break;
 					default:
 						m_BGPtr = m_TaskBG;
 						break;
@@ -986,6 +1071,7 @@ namespace FPS_n2 {
 			m_Window.reset();
 			m_BGPtr.reset();
 			m_TaskBG.reset();
+			m_ItemBG.reset();
 		}
 	public:
 		void BG_Draw_Sub(void) noexcept override {}
@@ -1003,7 +1089,7 @@ namespace FPS_n2 {
 			//
 			WindowSystem::SetBox(y_r(0), y_r(0), y_r(1920), LineHeight, Gray50);
 			WindowSystem::SetMsg(y_r(0), y_r(0), y_r(1920), LineHeight, LineHeight, STR_MID, White, Black, "EFT Assistant");
-			WindowSystem::SetMsg(y_r(1280), LineHeight * 3 / 10, y_r(1280), LineHeight, LineHeight * 7 / 10, STR_LEFT, White, Black, "ver %d.%d.%d", 0, 0, 3);
+			WindowSystem::SetMsg(y_r(1280), LineHeight * 3 / 10, y_r(1280), LineHeight, LineHeight * 7 / 10, STR_LEFT, White, Black, "ver %d.%d.%d", 0, 0, 4);
 
 			if (WindowSystem::CloseButton(y_r(1920) - LineHeight, y_r(0))) { SetisEnd(true); }
 			if (WindowSystem::ClickCheckBox(y_r(0), y_r(0), y_r(320), LineHeight, false, true, Gray25, !m_IsPullDown ? "折りたたむ" : "展開")) { m_IsPullDown ^= 1; }
