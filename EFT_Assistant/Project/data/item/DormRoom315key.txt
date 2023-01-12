@@ -1,0 +1,3 @@
+Name=Dorm room 315 key
+Itemtype=Key
+Map=Customs

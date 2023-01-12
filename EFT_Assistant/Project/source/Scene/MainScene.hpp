@@ -221,15 +221,20 @@ namespace FPS_n2 {
 	typedef int ItemID;
 	class ItemList : public ListParent<ItemID> {
 		ItemTypeID	m_ID{ InvalidID };
+		std::vector<MapID>	m_MapID;
 	private:
 		//追加設定
 		void			Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>&) noexcept override {
 			if (LEFT == "Itemtype") {
 				m_ID = ItemTypeData::Instance()->FindID(RIGHT.c_str());
 			}
+			if (LEFT == "Map") {
+				m_MapID.emplace_back(MapData::Instance()->FindID(RIGHT.c_str()));
+			}
 		}
 	public:
 		const auto&	GetTypeID() const noexcept { return m_ID; }
+		const auto&	GetMapID() const noexcept { return m_MapID; }
 	};
 	class ItemData : public SingletonBase<ItemData>, public DataParent<ItemID, ItemList> {
 	private:
@@ -923,6 +928,7 @@ namespace FPS_n2 {
 	class ItemBG :public BGParent {
 	private:
 		ItemTypeID m_TypeSel{ InvalidID };
+		MapID m_MapTypeSel{ InvalidID };
 	private:
 		void Init_Sub(int *, int *, float*) noexcept override {
 		}
@@ -934,24 +940,50 @@ namespace FPS_n2 {
 			int ysize = (int)((float)y_r(96)*Scale);
 			for (auto& L : ItemData::Instance()->GetList()) {
 				if (L.GetTypeID() == m_TypeSel || m_TypeSel == InvalidID) {
-					L.Draw(xp, yp, ysize, 0);
-					yp += ysize;
+					bool ishit = false;
+					for (auto& m : L.GetMapID()) {
+						if (m == m_MapTypeSel) {
+							ishit = true;
+							break;
+						}
+					}
+					if (ishit || m_MapTypeSel == InvalidID) {
+						L.Draw(xp, yp, ysize, 0);
+						yp += ysize;
+					}
 				}
 			}
 		}
 		void DrawFront_Sub(std::unique_ptr<WindowSystem::WindowManager>&, int, int, float) noexcept override {
 			//
 			{
-				int xp = y_r(1920 - 300 - 10);
+				int xp = y_r(1920 - 400 - 10);
 				int yp = y_r(10) + LineHeight;
 				for (auto& L : ItemTypeData::Instance()->GetList()) {
-					if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(300), yp + LineHeight, false, true, (m_TypeSel == L.GetID() || m_TypeSel == InvalidID) ? Gray25 : Gray50, L.GetName().c_str())) {
+					if (WindowSystem::ClickCheckBox(xp - ((m_TypeSel == L.GetID()) ? y_r(10) : 0), yp, xp + y_r(400), yp + LineHeight, false, true, (m_TypeSel == L.GetID() || m_TypeSel == InvalidID) ? Gray25 : Gray50, L.GetName().c_str())) {
 						m_TypeSel = L.GetID();
+					}
+					if ((m_TypeSel == L.GetID())) {
+						int xp2 = xp - y_r(400 + 10 + 10);
+						int yp2 = yp;
+						auto* ptr = ItemTypeData::Instance()->FindPtr(m_TypeSel);
+						if (ptr->GetName()=="Key") {
+							for (auto& L2 : MapData::Instance()->GetList()) {
+								if (WindowSystem::ClickCheckBox(xp2 - ((m_MapTypeSel == L2.GetID()) ? y_r(10) : 0), yp2, xp2 + y_r(400), yp2 + LineHeight, false, true, (m_MapTypeSel == L2.GetID() || m_MapTypeSel == InvalidID) ? Gray25 : Gray50, L2.GetName().c_str())) {
+									m_MapTypeSel = L2.GetID();
+								}
+								yp2 += LineHeight + y_r(5);
+							}
+							if (WindowSystem::ClickCheckBox(xp2, yp2, xp2 + y_r(400), yp2 + LineHeight, false, true, (m_MapTypeSel != InvalidID) ? Gray25 : Gray50, "ALL")) {
+								m_MapTypeSel = InvalidID;
+							}
+						}
 					}
 					yp += LineHeight + y_r(5);
 				}
-				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(300), yp + LineHeight, false, true, (m_TypeSel != InvalidID) ? Gray25 : Gray50, "ALL")) {
+				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(400), yp + LineHeight, false, true, (m_TypeSel != InvalidID) ? Gray25 : Gray50, "ALL")) {
 					m_TypeSel = InvalidID;
+					m_MapTypeSel = InvalidID;
 				}
 			}
 			//
@@ -1079,29 +1111,39 @@ namespace FPS_n2 {
 		//UI表示
 		void DrawUI_Base_Sub(void) noexcept  override {
 			auto* DrawParts = DXDraw::Instance();
-			DrawBox(0, 0, DrawParts->m_DispXSize, (int)((float)DrawParts->m_DispYSize*m_PullDown), Gray75, TRUE);
+
+			int Xsize = DrawParts->m_DispXSize;
+			int Ysize = DrawParts->m_DispYSize;
+
+			int Xmin = y_r(320);
+			int Ymin = LineHeight;
+
+			DrawBox(0, 0, (int)(Lerp((float)Xmin, (float)Xsize, m_PullDown)), (int)(Lerp((float)Ymin, (float)Ysize, m_PullDown)), Gray75, TRUE);
 			if (m_PullDown >= 1.f) {
-				//
+				//Back
 				m_BGPtr->Draw_Back(this->m_Window, this->m_posx, this->m_posy, this->m_Scale);
-				//
+				//ウィンドウ
 				m_Window->Draw();
 			}
-			//
-			WindowSystem::SetBox(y_r(0), y_r(0), y_r(1920), LineHeight, Gray50);
-			WindowSystem::SetMsg(y_r(0), y_r(0), y_r(1920), LineHeight, LineHeight, STR_MID, White, Black, "EFT Assistant");
-			WindowSystem::SetMsg(y_r(1280), LineHeight * 3 / 10, y_r(1280), LineHeight, LineHeight * 7 / 10, STR_LEFT, White, Black, "ver %d.%d.%d", 0, 0, 4);
-
-			if (WindowSystem::CloseButton(y_r(1920) - LineHeight, y_r(0))) { SetisEnd(true); }
-			if (WindowSystem::ClickCheckBox(y_r(0), y_r(0), y_r(320), LineHeight, false, true, Gray25, !m_IsPullDown ? "折りたたむ" : "展開")) { m_IsPullDown ^= 1; }
+			//タイトルバック
+			WindowSystem::SetBox(0, 0, (int)(Lerp((float)Xmin, (float)Xsize, m_PullDown)), LineHeight, Gray50);
+			//タイトル
+			if (m_PullDown >= 1.f) {
+				WindowSystem::SetMsg(0, 0, y_r(1920), LineHeight, LineHeight, STR_MID, White, Black, "EFT Assistant");
+				WindowSystem::SetMsg(y_r(1280), LineHeight * 3 / 10, y_r(1280), LineHeight, LineHeight * 7 / 10, STR_LEFT, White, Black, "ver %d.%d.%d", 0, 0, 4);
+				if (WindowSystem::CloseButton(y_r(1920) - LineHeight, 0)) { SetisEnd(true); }
+			}
+			//展開
+			if (WindowSystem::ClickCheckBox(0, 0, Xmin, Ymin, false, true, Gray25, !m_IsPullDown ? "折りたたむ" : "展開")) { m_IsPullDown ^= 1; }
 			Easing(&m_PullDown, !m_IsPullDown ? 1.f : 0.f, 0.8f, EasingType::OutExpo);
 			if (m_PullDown >= 0.95f) { m_PullDown = 1.f; }
 			if (m_PullDown <= 0.05f) { m_PullDown = 0.f; }
 			//
 			if (m_PullDown >= 1.f) {
-				//
+				//Front
 				m_BGPtr->DrawFront(this->m_Window, this->m_posx, this->m_posy, this->m_Scale);
 				//中央位置回避のための小円
-				DrawCircle(DrawParts->m_DispXSize, DrawParts->m_DispYSize, y_r(100), TransColor, TRUE);
+				DrawCircle(Xsize, Ysize, y_r(100), TransColor, TRUE);
 			}
 			//
 		}

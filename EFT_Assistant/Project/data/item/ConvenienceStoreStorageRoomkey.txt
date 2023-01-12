@@ -1,0 +1,3 @@
+Name=Construction site bunkhouse key
+Itemtype=Key
+Map=Lighthouse

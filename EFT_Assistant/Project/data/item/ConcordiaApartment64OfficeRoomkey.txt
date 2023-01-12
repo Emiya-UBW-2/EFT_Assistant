@@ -1,0 +1,3 @@
+Name=Concordia apartment 64 office room key
+Itemtype=Key
+Map=Streets of Tarkov

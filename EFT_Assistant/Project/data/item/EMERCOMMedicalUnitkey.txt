@@ -1,0 +1,3 @@
+Name=EMERCOM medical unit key
+Itemtype=Key
+Map=Interchange

@@ -1,0 +1,3 @@
+Name=Dorm room 314 marked key
+Itemtype=Key
+Map=Customs

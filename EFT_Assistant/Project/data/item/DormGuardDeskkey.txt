@@ -1,0 +1,3 @@
+Name=Dorm guard desk key
+Itemtype=Key
+Map=Customs

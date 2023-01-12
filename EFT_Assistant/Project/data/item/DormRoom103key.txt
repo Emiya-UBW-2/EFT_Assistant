@@ -1,0 +1,3 @@
+Name=Dorm room 103 key
+Itemtype=Key
+Map=Customs

@@ -1,0 +1,3 @@
+Name=Dorm room 206 key
+Itemtype=Key
+Map=Customs

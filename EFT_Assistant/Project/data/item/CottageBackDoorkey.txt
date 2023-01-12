@@ -1,0 +1,3 @@
+Name=Cottage back door key
+Itemtype=Key
+Map=Shoreline
