@@ -1,0 +1,3 @@
+Name=RB-KSM key
+Itemtype=Key
+Map=Reserve

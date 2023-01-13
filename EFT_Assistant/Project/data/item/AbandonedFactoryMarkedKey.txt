@@ -1,3 +1,5 @@
 Name=Abandoned factory marked key
 Itemtype=Key
 Map=Streets of Tarkov
+InRoom=[Weapon box (5x2)x2]
+InElse=ルート品 (複数のレアアイテム、武器、コンテナ)

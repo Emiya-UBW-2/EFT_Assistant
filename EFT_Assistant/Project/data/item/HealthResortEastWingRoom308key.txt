@@ -1,0 +1,7 @@
+Name=Health Resort east wing room 308 key
+Itemtype=Key
+Map=Shoreline
+InRoom=[Medcasex1]
+InElse=Weapon Rack
+InElse=ルート品(Weapon,Money,Food)
+InElse=Health Resort east wing room 306 keyでバルコニー越しに入れる

@@ -1,0 +1,3 @@
+Name=HEP station storage room key
+Itemtype=Key
+Map=Shoreline

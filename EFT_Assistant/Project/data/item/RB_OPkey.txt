@@ -1,0 +1,3 @@
+Name=RB-OP key
+Itemtype=Key
+Map=Reserve

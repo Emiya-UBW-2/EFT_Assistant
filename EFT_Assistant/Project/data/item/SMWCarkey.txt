@@ -1,0 +1,3 @@
+Name=SMW car key
+Itemtype=Key
+Map=Shoreline

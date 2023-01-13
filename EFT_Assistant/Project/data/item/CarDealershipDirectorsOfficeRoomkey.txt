@@ -1,3 +1,4 @@
 Name=Car dealership director's office room key
 Itemtype=Key
 Map=Streets of Tarkov
+InRoom=[Drawerx2,PC blockx1]

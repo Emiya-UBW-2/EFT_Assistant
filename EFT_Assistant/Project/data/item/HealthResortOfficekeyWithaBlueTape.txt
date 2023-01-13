@@ -1,0 +1,5 @@
+Name=Health Resort office key with a blue tape
+Itemtype=Key
+Map=Shoreline
+InRoom=[PC blockx1,Plastic suitcasex1]
+InElse=ルート品(風呂場に複数のLEDX,左デスクにGPU,Medical supplies,レア)

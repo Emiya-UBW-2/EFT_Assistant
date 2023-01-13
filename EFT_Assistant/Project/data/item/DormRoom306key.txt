@@ -1,3 +1,4 @@
 Name=Dorm room 306 key
 Itemtype=Key
 Map=Customs
+InElse=ƒ‹[ƒg•i(Roubles)

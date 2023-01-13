@@ -1,0 +1,3 @@
+Name=TerraGroup Labs manager's office room key
+Itemtype=Key
+Map=The Lab

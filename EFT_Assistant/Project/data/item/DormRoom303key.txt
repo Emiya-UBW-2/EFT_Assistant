@@ -1,3 +1,5 @@
 Name=Dorm room 303 key
 Itemtype=Key
 Map=Customs
+InRoom=[Wooden cratex1]
+InElse=ƒ‹[ƒg•i(Weapons)

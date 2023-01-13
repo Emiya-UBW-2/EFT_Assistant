@@ -1,0 +1,3 @@
+Name=Yotota car key
+Itemtype=Key
+Map=Woods

@@ -1,0 +1,3 @@
+Name=RB-ORB3 key
+Itemtype=Key
+Map=Reserve

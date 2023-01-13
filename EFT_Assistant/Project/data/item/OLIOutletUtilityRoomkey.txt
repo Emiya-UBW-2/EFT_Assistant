@@ -1,0 +1,3 @@
+Name=OLI outlet utility room key
+Itemtype=Key
+Map=Interchange

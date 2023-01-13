@@ -1,0 +1,3 @@
+Name=Water treatment plant storage room key
+Itemtype=Key
+Map=Lighthouse

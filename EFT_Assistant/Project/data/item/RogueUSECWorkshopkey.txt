@@ -1,0 +1,3 @@
+Name=Rogue USEC workshop key
+Itemtype=Key
+Map=Lighthouse

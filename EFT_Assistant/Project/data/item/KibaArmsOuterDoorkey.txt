@@ -1,0 +1,3 @@
+Name=Kiba Arms outer door key
+Itemtype=Key
+Map=Interchange

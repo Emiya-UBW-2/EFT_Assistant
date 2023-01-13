@@ -1,0 +1,3 @@
+Name=Portable cabin key
+Itemtype=Key
+Map=Customs

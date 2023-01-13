@@ -1,0 +1,5 @@
+Name=Health Resort west wing room 216 key
+Itemtype=Key
+Map=Shoreline
+InRoom=[Weapon box(5x2)x1,Weapon box(4x4)x1,Grenade boxx2]
+InElse=ƒ‹[ƒg•i(LEDX,weapon,Computer Parts,Meds,M4A1,loaded M4A1 Magazines)

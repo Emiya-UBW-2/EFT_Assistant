@@ -1,0 +1,3 @@
+Name=Kiba Arms inner grate door key
+Itemtype=Key
+Map=Interchange

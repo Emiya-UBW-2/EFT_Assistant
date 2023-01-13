@@ -1,0 +1,3 @@
+Name=Power substation utility cabin key
+Itemtype=Key
+Map=Interchange

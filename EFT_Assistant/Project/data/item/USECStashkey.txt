@@ -1,0 +1,3 @@
+Name=USEC stash key
+Itemtype=Key
+Map=Customs

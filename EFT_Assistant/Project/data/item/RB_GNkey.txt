@@ -1,0 +1,3 @@
+Name=RB-GN key
+Itemtype=Key
+Map=Reserve

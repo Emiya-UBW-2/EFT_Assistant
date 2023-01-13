@@ -1,0 +1,3 @@
+Name=RB-KPRL key
+Itemtype=Key
+Map=Reserve

@@ -1,0 +1,3 @@
+Name=RB-PKPM marked key
+Itemtype=Key
+Map=Reserve

@@ -1,0 +1,3 @@
+Name=Pumping station front door key
+Itemtype=Key
+Map=Factory

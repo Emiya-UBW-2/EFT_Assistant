@@ -1,3 +1,4 @@
 Name=Dorm room 104 key
 Itemtype=Key
 Map=Customs
+InRoom=[Toolboxx1,jacketx2]

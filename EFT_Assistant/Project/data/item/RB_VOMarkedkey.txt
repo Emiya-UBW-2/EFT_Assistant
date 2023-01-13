@@ -1,0 +1,3 @@
+Name=RB-VO marked key
+Itemtype=Key
+Map=Reserve

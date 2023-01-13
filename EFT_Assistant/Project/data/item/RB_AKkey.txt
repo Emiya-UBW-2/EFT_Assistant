@@ -1,0 +1,3 @@
+Name=RB-AK key
+Itemtype=Key
+Map=Reserve

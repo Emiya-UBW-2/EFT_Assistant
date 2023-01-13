@@ -1,0 +1,3 @@
+Name=ULTRA medical storage key
+Itemtype=Key
+Map=Interchange

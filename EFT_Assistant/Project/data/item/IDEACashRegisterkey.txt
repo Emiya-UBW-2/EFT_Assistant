@@ -1,0 +1,3 @@
+Name=IDEA cash register key
+Itemtype=Key
+Map=Interchange

@@ -1,3 +1,5 @@
 Name=Concordia apartment 64 office room key
 Itemtype=Key
 Map=Streets of Tarkov
+InRoom=[PC blockx1]
+InElse=ƒ‹[ƒg•i(Electronics, Other items)

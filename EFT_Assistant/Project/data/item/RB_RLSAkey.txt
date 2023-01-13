@@ -1,0 +1,3 @@
+Name=RB-RLSA key
+Itemtype=Key
+Map=Reserve

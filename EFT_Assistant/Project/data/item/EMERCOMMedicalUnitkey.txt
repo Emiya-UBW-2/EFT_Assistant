@@ -1,3 +1,6 @@
 Name=EMERCOM medical unit key
 Itemtype=Key
 Map=Interchange
+InRoom=[Medbagsx2,Sport bagx1,Jacketx1]
+InElse=ルート品(Medical,Rare Items)
+InElse=スポーン(Portable defibrillator,LEDX Skin Transilluminator,Graphics card)

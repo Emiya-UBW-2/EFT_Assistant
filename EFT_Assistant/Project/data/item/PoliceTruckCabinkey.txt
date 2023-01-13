@@ -1,0 +1,3 @@
+Name=Police truck cabin key
+Itemtype=Key
+Map=Lighthouse

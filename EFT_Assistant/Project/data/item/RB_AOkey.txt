@@ -1,0 +1,3 @@
+Name=RB-AO key
+Itemtype=Key
+Map=Reserve

@@ -1,0 +1,3 @@
+Name=OLI cash register key
+Itemtype=Key
+Map=Interchange

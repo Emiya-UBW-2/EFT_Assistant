@@ -1,3 +1,5 @@
 Name=Concordia apartment 64 key
 Itemtype=Key
 Map=Streets of Tarkov
+InElse=ルート品(Valuables, Provisions, Paper ammo boxes, Other items)
+InElse=Concordia apartment 64 office room keyを使う扉がある

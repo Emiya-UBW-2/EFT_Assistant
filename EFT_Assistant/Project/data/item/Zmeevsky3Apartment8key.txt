@@ -1,0 +1,3 @@
+Name=Zmeevsky 3 apartment 8 key
+Itemtype=Key
+Map=Streets of Tarkov

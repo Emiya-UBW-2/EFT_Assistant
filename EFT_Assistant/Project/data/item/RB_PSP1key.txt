@@ -1,0 +1,3 @@
+Name=RB-PSP1 key
+Itemtype=Key
+Map=Reserve

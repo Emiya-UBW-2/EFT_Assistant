@@ -1,0 +1,3 @@
+Name=RB-SMP key
+Itemtype=Key
+Map=Reserve

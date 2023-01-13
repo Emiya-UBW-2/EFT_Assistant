@@ -1,0 +1,6 @@
+Name=Health Resort west wing room 203 key
+Itemtype=Key
+Map=Shoreline
+InRoom=[Medbagx1,Medcasex1,Weapon box(5x2)x1,Toolboxx1,Sport bagx1]
+InElse=ルート品(Meds, Money,Weapon(AR),LEDX,Red keycard)
+InElse=Health Resort west wing room 205 keyでバルコニー越しに入れる

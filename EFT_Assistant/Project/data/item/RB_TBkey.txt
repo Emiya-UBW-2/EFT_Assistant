@@ -1,0 +1,3 @@
+Name=RB-TB key
+Itemtype=Key
+Map=Reserve

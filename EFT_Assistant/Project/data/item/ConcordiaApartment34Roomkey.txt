@@ -1,3 +1,4 @@
 Name=Concordia apartment 34 room key
 Itemtype=Key
 Map=Streets of Tarkov
+InElse=ƒ‹[ƒg•i(Valuables)

@@ -1,0 +1,3 @@
+Name=RB-AM key
+Itemtype=Key
+Map=Reserve

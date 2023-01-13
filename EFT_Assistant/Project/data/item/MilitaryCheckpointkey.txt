@@ -1,0 +1,3 @@
+Name=Military checkpoint key
+Itemtype=Key
+Map=Customs

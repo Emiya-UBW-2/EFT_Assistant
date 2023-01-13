@@ -1,3 +1,4 @@
 Name=Dorm room 203 key
 Itemtype=Key
 Map=Customs
+InRoom=[Sport bagx1]

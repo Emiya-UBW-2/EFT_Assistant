@@ -1,3 +1,6 @@
 Name=Dorm room 214 key
 Itemtype=Key
 Map=Customs
+InRoom=[Safex1]
+InElse=ルート品(Ammunition)
+InElse=Dorm room 203 key　が赤いマグカップの中にスポーン

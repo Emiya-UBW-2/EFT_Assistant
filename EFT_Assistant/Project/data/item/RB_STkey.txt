@@ -1,0 +1,3 @@
+Name=RB-ST key
+Itemtype=Key
+Map=Reserve

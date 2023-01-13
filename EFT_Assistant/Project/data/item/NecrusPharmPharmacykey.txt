@@ -1,0 +1,3 @@
+Name=NecrusPharm pharmacy key
+Itemtype=Key
+Map=Interchange

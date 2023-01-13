@@ -1,0 +1,3 @@
+Name=RB-MP11 key
+Itemtype=Key
+Map=Reserve

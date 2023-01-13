@@ -1,3 +1,3 @@
-Name=Dorm room 203 key
+Name=Unknown key
 Itemtype=Key
 Map=Customs
