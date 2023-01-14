@@ -1,0 +1,9 @@
+Name=Trust Regain
+Trader=Therapist
+
+NeedTask=Out of Curiosity
+
+Task_NotFiR_HandOver=[Dorm room 303 keyx1,ZB-014 keyx1,Military checkpoint keyx1,Gas station storage room keyx1]
+Task_Else=Out of Curiosityé∏îså„
+
+Reward_Rep=Therapist+0.25

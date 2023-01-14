@@ -1,0 +1,2 @@
+Name=Disposable syringe
+Itemtype=Medical supply

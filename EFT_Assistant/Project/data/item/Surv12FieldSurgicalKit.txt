@@ -1,0 +1,2 @@
+Name=Surv12 field surgical kit
+Itemtype=Injury treatment

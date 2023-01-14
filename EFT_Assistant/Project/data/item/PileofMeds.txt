@@ -1,0 +1,2 @@
+Name=Pile of meds
+Itemtype=Medical supply

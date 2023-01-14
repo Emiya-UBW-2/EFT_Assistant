@@ -1,0 +1,2 @@
+Name=eTG-change regenerative stimulant injector
+Itemtype=Injector

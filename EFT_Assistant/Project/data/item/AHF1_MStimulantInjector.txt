@@ -1,0 +1,2 @@
+Name=AHF1-M stimulant injector
+Itemtype=Injector

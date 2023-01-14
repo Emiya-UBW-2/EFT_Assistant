@@ -1,0 +1,2 @@
+Name=Spark plug
+Itemtype=Electronics

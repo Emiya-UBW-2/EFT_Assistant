@@ -1,0 +1,2 @@
+Name=Propital regenerative stimulant injector
+Itemtype=Injector

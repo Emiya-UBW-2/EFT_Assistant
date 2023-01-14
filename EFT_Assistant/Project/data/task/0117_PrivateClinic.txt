@@ -1,0 +1,9 @@
+Name=Private Clinic
+Trader=Therapist
+
+NeedTask=Health Care Privacy - Part 4
+
+Task_FiR_HandOver=[Ophthalmoscopex1,LEDX Skin Transilluminatorx1]
+
+Reward_Rep=Therapist+0.05
+Reward_Item=[Health Resort east wing room 306 keyx1,T H I C C item casex1]

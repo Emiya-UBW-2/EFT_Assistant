@@ -1,0 +1,8 @@
+Name=Postman Pat - Part 2
+Trader=Therapist
+
+NeedTask=Postman Pat - Part 1
+
+Task_Else=Postman Pat - Part 1をクリアでクリア
+
+Reward_Rep=Therapist+0.02

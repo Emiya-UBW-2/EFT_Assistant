@@ -1,0 +1,2 @@
+Name=TerraGroup Labs keycard (Blue)
+Itemtype=Keycard

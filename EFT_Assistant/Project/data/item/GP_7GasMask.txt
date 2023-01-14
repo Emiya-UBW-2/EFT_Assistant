@@ -1,0 +1,2 @@
+Name=GP-7 gas mask
+Itemtype=Mask

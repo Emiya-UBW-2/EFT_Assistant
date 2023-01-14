@@ -1,0 +1,12 @@
+Name=Painkiller
+Trader=Therapist
+
+NeedTask=Sanitary Standards - Part 2
+NeedLevel=8
+NeedLL=1
+
+Task_FiR_HandOver=[Morphine injectorx4]
+
+Reward_Rep=Therapist+0.03
+Reward_Item=[Disposable syringex5,Silicone tubex1,Analgin painkillersx2,Pile of medsx2]
+

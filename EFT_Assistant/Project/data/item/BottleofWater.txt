@@ -1,0 +1,2 @@
+Name=Bottle of water (0.6L)
+Itemtype=Drink

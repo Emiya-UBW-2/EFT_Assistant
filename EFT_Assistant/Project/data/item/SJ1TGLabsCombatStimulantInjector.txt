@@ -1,0 +1,2 @@
+Name=SJ1 TGLabs combat stimulant injector
+Itemtype=Injector

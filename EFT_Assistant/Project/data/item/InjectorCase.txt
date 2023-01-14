@@ -1,0 +1,2 @@
+Name=Injector case
+Itemtype=Container

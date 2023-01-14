@@ -1,0 +1,2 @@
+Name=LEDX Skin Transilluminator
+Itemtype=Medical supply

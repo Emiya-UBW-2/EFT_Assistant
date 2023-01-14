@@ -29,24 +29,36 @@ namespace FPS_n2 {
 		//文字
 		template <typename... Args>
 		static const auto SetMsg(int xp1, int yp1, int xp2, int yp2, int size, FontHandle::FontXCenter FontX, unsigned int Color, unsigned int EdleColor, std::string_view String, Args&&... args) {
+			if (String == "") { return 0; }
+			auto* DrawParts = DXDraw::Instance();
 			auto* Fonts = FontPool::Instance();
+
+			int xSize= Fonts->Get(FontPool::FontType::Nomal_Edge).GetStringWidth(size, ((std::string)String).c_str(), args...) + y_r(6) + 2;//エッジ分:
+
+			DrawParts->m_DispXSize;
+			DrawParts->m_DispYSize;
+
+			int xpos = 0;
+			int ypos = yp1 + (yp2 - yp1) / 2;
+			if ((ypos - size / 2) > DrawParts->m_DispYSize || (ypos + size / 2) < 0) { return 0; }				//画面外は表示しない
 			switch (FontX) {
 			case FontHandle::FontXCenter::LEFT:
-				Fonts->Get(FontPool::FontType::Nomal_Edge).DrawString(size, FontX, FontHandle::FontYCenter::MIDDLE,
-					xp1 + y_r(6), yp1 + (yp2 - yp1) / 2, Color, EdleColor, ((std::string)String).c_str(), args...);
+				xpos = xp1 + y_r(6);
+				if ((xpos) > DrawParts->m_DispXSize || (xpos + xSize) < 0) { return 0; }						//画面外は表示しない
 				break;
 			case FontHandle::FontXCenter::MIDDLE:
-				Fonts->Get(FontPool::FontType::Nomal_Edge).DrawString(size, FontX, FontHandle::FontYCenter::MIDDLE,
-					xp1 + (xp2 - xp1) / 2, yp1 + (yp2 - yp1) / 2, Color, EdleColor, ((std::string)String).c_str(), args...);
+				xpos = xp1 + (xp2 - xp1) / 2;
+				if ((xpos - xSize / 2) > DrawParts->m_DispXSize || (xpos + xSize / 2) < 0) { return 0; }		//画面外は表示しない
 				break;
 			case FontHandle::FontXCenter::RIGHT:
-				Fonts->Get(FontPool::FontType::Nomal_Edge).DrawString(size, FontX, FontHandle::FontYCenter::MIDDLE,
-					xp2 - y_r(6), yp1 + (yp2 - yp1) / 2, Color, EdleColor, ((std::string)String).c_str(), args...);
+				xpos = xp2 - y_r(6);
+				if ((xpos - xSize) > DrawParts->m_DispXSize || (xpos) < 0) { return 0; }						//画面外は表示しない
 				break;
 			default:
 				break;
 			}
-			return Fonts->Get(FontPool::FontType::Nomal_Edge).GetStringWidth(size, ((std::string)String).c_str(), args...) + y_r(6) + 2;//エッジ分
+			Fonts->Get(FontPool::FontType::Nomal_Edge).DrawString(size, FontX, FontHandle::FontYCenter::MIDDLE, xpos, ypos, Color, EdleColor, ((std::string)String).c_str(), args...);
+			return xSize;//エッジ分
 		};
 		//
 		template <typename... Args>
@@ -116,6 +128,11 @@ namespace FPS_n2 {
 
 				if (IsActive) {
 					if (in2_(Input->GetMouseX(), Input->GetMouseY(), xp1, yp1, xp2, yp2)) {
+						if (Input->GetWheelAdd() != 0.f) {
+							m_NowScrollYPer = std::clamp(m_NowScrollYPer + (float)(-Input->GetWheelAdd()) / std::max(100.f, Total), 0.f, 1.f);
+						}
+					}
+					if (in2_(Input->GetMouseX(), Input->GetMouseY(), xp2 - y_r(24), yp1, xp2, yp2)) {
 						if (Input->GetLeftClick().trigger()) {
 							m_IsChangeScrollY = true;
 						}
@@ -140,8 +157,8 @@ namespace FPS_n2 {
 						}
 					}
 				}
-				SetBox(xp1, yp1, xp2, yp2, Gray50);
-				SetBox(xp1 + y_r(1), Yp_s, xp2 - y_r(1), Yp_e, color);
+				SetBox(xp2 - y_r(24), yp1, xp2, yp2, Gray50);
+				SetBox(xp2 - y_r(24) + y_r(1), Yp_s, xp2 - y_r(1), Yp_e, color);
 			};
 		};
 		class WindowControl {

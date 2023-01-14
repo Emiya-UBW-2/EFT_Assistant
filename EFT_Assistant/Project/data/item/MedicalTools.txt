@@ -1,0 +1,2 @@
+Name=Medical tools
+Itemtype=Medical supply

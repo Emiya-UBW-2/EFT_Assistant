@@ -1,0 +1,2 @@
+Name=P22 (Product 22) stimulant injector
+Itemtype=Injector

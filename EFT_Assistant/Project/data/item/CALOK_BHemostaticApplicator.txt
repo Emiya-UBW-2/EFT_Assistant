@@ -1,0 +1,2 @@
+Name=CALOK-B hemostatic applicator
+Itemtype=Injury treatment

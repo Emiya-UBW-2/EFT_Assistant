@@ -1,0 +1,2 @@
+Name=Adrenaline injector
+Itemtype=Injector

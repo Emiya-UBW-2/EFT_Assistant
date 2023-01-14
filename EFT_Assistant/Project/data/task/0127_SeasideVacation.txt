@@ -1,0 +1,8 @@
+Name=Seaside Vacation
+Trader=Therapist
+
+NeedTask=Pharmacist
+NeedLevel=17
+
+Task_Map=Lighthouse
+Task_Else=Laptop with information‚ð‰ñŽû‚µ‚Ä”[•i

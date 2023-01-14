@@ -1,0 +1,2 @@
+Name=Portable defibrillator
+Itemtype=Medical supply

@@ -1,0 +1,2 @@
+Name=Ophthalmoscope
+Itemtype=Medical supply

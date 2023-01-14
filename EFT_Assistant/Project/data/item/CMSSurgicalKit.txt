@@ -1,0 +1,2 @@
+Name=CMS surgical kit
+Itemtype=Injury treatment

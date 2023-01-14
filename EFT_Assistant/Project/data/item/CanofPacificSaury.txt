@@ -1,0 +1,2 @@
+Name=Can of pacific saury
+Itemtype=Provisions

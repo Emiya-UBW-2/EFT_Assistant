@@ -1,0 +1,2 @@
+Name=Morphine injector
+Itemtype=Injector

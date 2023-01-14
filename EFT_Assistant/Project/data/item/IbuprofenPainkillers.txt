@@ -1,0 +1,2 @@
+Name=Ibuprofen painkillers
+Itemtype=Pills

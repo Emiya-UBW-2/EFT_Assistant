@@ -1,0 +1,2 @@
+Name=Esmarch tourniquet
+Itemtype=Injury treatment

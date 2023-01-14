@@ -1,0 +1,13 @@
+Name=Operation Aquarius - Part 2
+Trader=Therapist
+
+NeedTask=Operation Aquarius - Part 1
+NeedLevel=6
+NeedLL=1
+
+Task_Map=Customs
+Task_Kill=[Scavx15]
+
+Reward_Rep=Therapist+0.03
+Reward_Rep=Jaeger+0.01
+Reward_Item=[Esmarch tourniquetx3,Aluminum splintx1]

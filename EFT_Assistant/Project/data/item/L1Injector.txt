@@ -1,0 +1,2 @@
+Name=L1 (Norepinephrine) injector
+Itemtype=Injector

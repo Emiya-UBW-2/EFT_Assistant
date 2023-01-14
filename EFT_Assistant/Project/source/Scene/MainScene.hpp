@@ -688,7 +688,7 @@ namespace FPS_n2 {
 		void Init(int *posx, int *posy, float* Scale) noexcept {
 			*posx = y_r(50);
 			*posy = LineHeight + y_r(50);
-			*Scale = 0.6f;
+			*Scale = 0.8f;
 			m_GoNextBG = false;
 			Init_Sub(posx, posy, Scale);
 		}
@@ -788,7 +788,7 @@ namespace FPS_n2 {
 					if (ParentID != InvalidID) {
 						DrawLine(start_x, start_y, xp, yp + ys / 2, Red, (int)(5.f * Scale));
 					}
-					if (WindowSystem::ClickCheckBox(xp, yp, xp + xs, yp + ys, false, !Windowup->PosHitCheck(), color, tasks.GetName())) {
+					if (WindowSystem::ClickCheckBox(xp, yp, xp + xs, yp + ys, false, !Windowup->PosHitCheck(), color, (Scale > 0.5f) ? tasks.GetName() : "")) {
 						auto sizeXBuf = y_r(640);
 						auto sizeYBuf = y_r(0);
 						tasks.DrawWindow(0, 0, &sizeXBuf, &sizeYBuf);//試しにサイズ計測
@@ -813,7 +813,10 @@ namespace FPS_n2 {
 					for (auto& LL : tasks.GetTaskRewardData().GetLLAdd()) {
 						auto* trader2 = TraderData::Instance()->FindPtr(LL.GetTraderID());
 						float* traderRep = TraderData::Instance()->FindTraderRep(LL.GetTraderID());
-						WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + ys + suby, ys, STR_LEFT, trader2->GetColors(0), Black, "[%4.2f->%4.2f]", PrevRep[&LL - &tasks.GetTaskRewardData().GetLLAdd().front()], *traderRep); suby += ys;
+						if (Scale > 0.5f) {
+							WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + ys + suby, ys, STR_LEFT, trader2->GetColors(0), Black, "[%4.2f->%4.2f]", PrevRep[&LL - &tasks.GetTaskRewardData().GetLLAdd().front()], *traderRep);
+						}
+						suby += ys;
 					}
 					m_posxMaxBuffer = std::max(m_posxMaxBuffer, xp + xs);
 					m_posyMaxBuffer = std::max(m_posyMaxBuffer, yp + ys + suby);
@@ -822,7 +825,7 @@ namespace FPS_n2 {
 						m_TaskRect.emplace_back(tmp);
 					}
 					Rect2D P_Next;
-					P_Next.Set(xp + (xs + (int)((float)y_r(50) * Scale)), yp, xs, suby);
+					P_Next.Set(xp + (xs + (int)((float)y_r(100) * Scale)), yp, xs, suby);
 					//xs, ys
 					//被ってたら下に下げる
 					while (true) {
@@ -871,7 +874,7 @@ namespace FPS_n2 {
 			}
 		}
 		void Draw_Back_Sub(std::unique_ptr<WindowSystem::WindowManager>& Windowup, int posx, int posy, float Scale) noexcept override {
-			int xs = (int)((float)y_r(520) * Scale);
+			int xs = (int)((float)y_r(640) * Scale);
 			int ys = (int)((float)LineHeight * Scale);
 			DrawChildTaskClickBox(Windowup, Scale, InvalidID, posx + xs, posy + ys / 2, posx, posy, xs, ys);
 		}
@@ -927,18 +930,29 @@ namespace FPS_n2 {
 	//アイテム
 	class ItemBG :public BGParent {
 	private:
-		ItemTypeID	m_TypeSel{ InvalidID };
-		MapID		m_MapTypeSel{ InvalidID };
-		bool		m_NotUseInRaid{ false };
+		ItemTypeID						m_TypeSel{ InvalidID };
+		MapID							m_MapTypeSel{ InvalidID };
+		bool							m_NotUseInRaid{ false };
+		WindowSystem::ScrollBoxClass	m_Scroll;
+		float							m_YNow{ 0.f };
+
+		float							m_XChild{ 0.f };
 	private:
 		void Init_Sub(int *, int *, float*) noexcept override {
+			int xs = 320;
+			m_XChild = -y_r(xs + 10 + 10);
 		}
 		void LateExecute_Sub(void) noexcept override {
 		}
-		void Draw_Back_Sub(std::unique_ptr<WindowSystem::WindowManager>&, int posx, int posy, float Scale) noexcept override {
-			int xp = posx;
-			int yp = posy;
-			int ysize = (int)((float)y_r(96)*Scale);
+		void Draw_Back_Sub(std::unique_ptr<WindowSystem::WindowManager>&, int posx, int posy, float) noexcept override {
+			auto* DrawParts = DXDraw::Instance();
+
+			int xpos = y_r(40);
+			int ypos = LineHeight + y_r(10) + LineHeight;
+			int ysize = (int)((float)y_r(80));
+
+			int xp = xpos;
+			int yp = ypos - (int)m_YNow;
 			for (auto& L : ItemData::Instance()->GetList()) {
 				if (L.GetTypeID() == m_TypeSel || m_TypeSel == InvalidID) {
 					bool ishit = false;
@@ -957,47 +971,69 @@ namespace FPS_n2 {
 					}
 				}
 			}
+			yp -= ypos - (int)m_YNow;
+
+			int xs = 320;
+			int ScrPosX = y_r(1920 - xs - 10) - y_r(50);
+
+			int ScrSizY = (DrawParts->m_DispYSize - (y_r(10) + LineHeight)) - ypos;
+			m_Scroll.ScrollBox(xpos, ypos, ScrPosX, ypos + ScrSizY, (float)yp / (float)ScrSizY, true);
+
+			m_YNow = std::max(0.f, m_Scroll.GetNowScrollYPer()*(float)(yp - ScrSizY));
 		}
 		void DrawFront_Sub(std::unique_ptr<WindowSystem::WindowManager>&, int, int, float) noexcept override {
 			//
 			{
-				int xp = y_r(1920 - 400 - 10);
+				int xgoal = 0;
+
+				int xs = 320;
+				int xp = y_r(1920 - xs - 10) - m_XChild;
 				int yp = y_r(10) + LineHeight;
+				int ysize = y_r(36);
 				for (auto& L : ItemTypeData::Instance()->GetList()) {
-					if (WindowSystem::ClickCheckBox(xp - ((m_TypeSel == L.GetID()) ? y_r(10) : 0), yp, xp + y_r(400), yp + LineHeight, false, true, (m_TypeSel == L.GetID() || m_TypeSel == InvalidID) ? Gray25 : Gray50, L.GetName().c_str())) {
+					if (WindowSystem::ClickCheckBox(xp - ((m_TypeSel == L.GetID()) ? y_r(10) : 0), yp, xp + y_r(xs), yp + ysize, false, true, (m_TypeSel == L.GetID() || m_TypeSel == InvalidID) ? Gray25 : Gray50, L.GetName().c_str())) {
 						m_TypeSel = L.GetID();
 					}
 					if ((m_TypeSel == L.GetID())) {
-						int xp2 = xp - y_r(400 + 10 + 10);
-						int yp2 = yp;
+						int xp2 = xp - y_r(xs + 10 + 10);
+						int yp2 = y_r(10) + LineHeight;
 						auto* ptr = ItemTypeData::Instance()->FindPtr(m_TypeSel);
 						if (ptr->GetName()=="Key") {
+							xgoal = -y_r(xs + 10 + 10);
+
 							//マップ指定フィルター
 							for (auto& L2 : MapData::Instance()->GetList()) {
-								if (WindowSystem::ClickCheckBox(xp2 - ((m_MapTypeSel == L2.GetID()) ? y_r(10) : 0), yp2, xp2 + y_r(400), yp2 + LineHeight, false, true, (m_MapTypeSel == L2.GetID() || (!m_NotUseInRaid && (m_MapTypeSel == InvalidID))) ? Gray25 : Gray50, L2.GetName().c_str())) {
+								if (WindowSystem::ClickCheckBox(xp2 - ((m_MapTypeSel == L2.GetID()) ? y_r(10) : 0), yp2, xp2 + y_r(xs), yp2 + ysize, false, true, (m_MapTypeSel == L2.GetID() || (!m_NotUseInRaid && (m_MapTypeSel == InvalidID))) ? Gray25 : Gray50, L2.GetName().c_str())) {
 									m_MapTypeSel = L2.GetID();
 									m_NotUseInRaid = false;
 								}
-								yp2 += LineHeight + y_r(5);
+								yp2 += ysize + y_r(5);
 							}
-							if (WindowSystem::ClickCheckBox(xp2 - (m_NotUseInRaid ? y_r(10) : 0), yp2, xp2 + y_r(400), yp2 + LineHeight, false, true, (m_NotUseInRaid || (!m_NotUseInRaid && (m_MapTypeSel == InvalidID))) ? Gray25 : Gray50, "NotUseInRaid")) {
+							if (WindowSystem::ClickCheckBox(xp2 - (m_NotUseInRaid ? y_r(10) : 0), yp2, xp2 + y_r(xs), yp2 + ysize, false, true, (m_NotUseInRaid || (!m_NotUseInRaid && (m_MapTypeSel == InvalidID))) ? Gray25 : Gray50, "NotUseInRaid")) {
 								m_MapTypeSel = InvalidID;
 								m_NotUseInRaid = true;
 							}
-							yp2 += LineHeight + y_r(5);
-							if (WindowSystem::ClickCheckBox(xp2, yp2, xp2 + y_r(400), yp2 + LineHeight, false, true, (m_MapTypeSel != InvalidID) ? Gray25 : Gray50, "ALL")) {
+							yp2 += ysize + y_r(5);
+							if (WindowSystem::ClickCheckBox(xp2, yp2, xp2 + y_r(xs), yp2 + ysize, false, true, (m_MapTypeSel != InvalidID) ? Gray25 : Gray50, "ALL")) {
+								m_MapTypeSel = InvalidID;
+								m_NotUseInRaid = false;
+							}
+							yp2 += ysize + y_r(5);
+							if (WindowSystem::ClickCheckBox(xp2, yp2, xp2 + y_r(xs), yp2 + ysize, false, true, Gray25, "Back→")) {
+								m_TypeSel = InvalidID;
 								m_MapTypeSel = InvalidID;
 								m_NotUseInRaid = false;
 							}
 						}
 					}
-					yp += LineHeight + y_r(5);
+					yp += ysize + y_r(5);
 				}
-				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(400), yp + LineHeight, false, true, (m_TypeSel != InvalidID) ? Gray25 : Gray50, "ALL")) {
+				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(xs), yp + ysize, false, true, (m_TypeSel != InvalidID) ? Gray25 : Gray50, "ALL")) {
 					m_TypeSel = InvalidID;
 					m_MapTypeSel = InvalidID;
 					m_NotUseInRaid = false;
 				}
+				Easing(&m_XChild, (float)xgoal, 0.8f, EasingType::OutExpo);
 			}
 			//
 			{

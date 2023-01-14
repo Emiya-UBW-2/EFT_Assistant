@@ -1,0 +1,2 @@
+Name=Silicone tube
+Itemtype=Building material
