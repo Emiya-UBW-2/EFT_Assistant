@@ -1,3 +1,5 @@
 Name=USEC stash key
 Itemtype=Key
 Map=Customs
+InRoom=[Weapon box(5x2)x2,Weapon box(4x4)x3,Jacketx1]
+InElse=ƒ‹[ƒg•i(barter items)

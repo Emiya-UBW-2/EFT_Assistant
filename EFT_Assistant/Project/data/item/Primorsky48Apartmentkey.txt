@@ -1,3 +1,4 @@
 Name=Primorsky 48 apartment key
 Itemtype=Key
 Map=Streets of Tarkov
+InElse=ƒ‹[ƒg•i(Valuable, Electronic)

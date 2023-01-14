@@ -1,3 +1,4 @@
 Name=Portable bunkhouse key
 Itemtype=Key
 Map=Customs
+InRoom=[Weapon box(5x2)x1]

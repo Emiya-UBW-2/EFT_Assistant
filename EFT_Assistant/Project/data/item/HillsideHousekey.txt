@@ -1,3 +1,5 @@
 Name=Hillside house key
 Itemtype=Key
 Map=Lighthouse
+InRoom=[Jacketx1,Sport bagx1]
+InElse=‚¢‚ë‚ñ‚Èí—Ş‚Ìƒ‹[ƒg

@@ -1,3 +1,5 @@
 Name=RB-RS key
 Itemtype=Key
 Map=Reserve
+InRoom=[Toolboxx2]
+InElse=ƒ‹[ƒg•i(tech)

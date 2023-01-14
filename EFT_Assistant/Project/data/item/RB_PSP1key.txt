@@ -1,3 +1,5 @@
 Name=RB-PSP1 key
 Itemtype=Key
 Map=Reserve
+InRoom=[Ration supply cratex4,Medical supply cratex1,Technical supply cratex1,Toolboxx1]
+InElse=ƒ‹[ƒg•i(Food, Drinks, Fuel)

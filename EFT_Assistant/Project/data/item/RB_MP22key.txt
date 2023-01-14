@@ -1,3 +1,5 @@
 Name=RB-MP22 key
 Itemtype=Key
 Map=Reserve
+InRoom=[Wooden Ammo Boxx1,Toolboxx1]
+InElse=ÉãÅ[Égïi(Tool, Weapon mod,Weapon racks(AK-74N, AKS-74U, AKS-74N, AKS-74UB, AKS-74UN)x2,6-STEN-140-M military battery)

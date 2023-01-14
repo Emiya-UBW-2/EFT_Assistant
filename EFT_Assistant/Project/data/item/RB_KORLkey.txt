@@ -1,3 +1,5 @@
 Name=RB-KORL key
 Itemtype=Key
 Map=Reserve
+InRoom=[Drawerx2]
+InElse=ƒ‹[ƒg•i(Š÷‚ÆDrawerã‚ÉIntelligence folder)

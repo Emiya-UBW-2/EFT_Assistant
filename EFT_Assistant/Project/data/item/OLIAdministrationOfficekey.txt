@@ -1,3 +1,5 @@
 Name=OLI administration office key
 Itemtype=Key
 Map=Interchange
+InRoom=[PC blockx1]
+InElse=ƒ‹[ƒg•i

@@ -1,3 +1,4 @@
 Name=RB-PSP2 key
 Itemtype=Key
 Map=Reserve
+InRoom=[Medical Supply Cratex1,Ration Supply Cratex2,Technical Supply Cratex2]

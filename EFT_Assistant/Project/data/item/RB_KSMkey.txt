@@ -1,3 +1,5 @@
 Name=RB-KSM key
 Itemtype=Key
 Map=Reserve
+InRoom=[Sport bagx1]
+InElse=ƒ‹[ƒg•i(Medical Supply)

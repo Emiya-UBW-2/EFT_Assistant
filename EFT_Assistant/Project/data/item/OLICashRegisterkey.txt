@@ -1,3 +1,4 @@
 Name=OLI cash register key
 Itemtype=Key
 Map=Interchange
+InElse=OLI‚Ì18‚©Š‚ÌCash register TAR2-2‚ÌŠJù

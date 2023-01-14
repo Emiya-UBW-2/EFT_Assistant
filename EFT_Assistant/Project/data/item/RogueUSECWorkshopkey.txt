@@ -1,3 +1,5 @@
 Name=Rogue USEC workshop key
 Itemtype=Key
 Map=Lighthouse
+InRoom=[Toolboxx2,Jacketx1]
+InElse=ルート品(Weapon mods,テーブル下に6-STEN-140-M military battery)

@@ -1,3 +1,2 @@
 Name=RB-PP key
 Itemtype=Key
-Map=Reserve

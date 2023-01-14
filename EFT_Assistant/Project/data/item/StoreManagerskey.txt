@@ -1,3 +1,5 @@
 Name=Store manager's key
 Itemtype=Key
 Map=Streets of Tarkov
+InRoom=[Drawerx2,PC blockx2,Safex1,Sport bagx1]
+InElse=ƒ‹[ƒg•i(Flammable material, Household material)

@@ -927,8 +927,9 @@ namespace FPS_n2 {
 	//アイテム
 	class ItemBG :public BGParent {
 	private:
-		ItemTypeID m_TypeSel{ InvalidID };
-		MapID m_MapTypeSel{ InvalidID };
+		ItemTypeID	m_TypeSel{ InvalidID };
+		MapID		m_MapTypeSel{ InvalidID };
+		bool		m_NotUseInRaid{ false };
 	private:
 		void Init_Sub(int *, int *, float*) noexcept override {
 		}
@@ -947,7 +948,10 @@ namespace FPS_n2 {
 							break;
 						}
 					}
-					if (ishit || m_MapTypeSel == InvalidID) {
+					if (m_NotUseInRaid) {
+						ishit = (L.GetMapID().size() == 0);
+					}
+					if (ishit || (!m_NotUseInRaid && (m_MapTypeSel == InvalidID))) {
 						L.Draw(xp, yp, ysize, 0);
 						yp += ysize;
 					}
@@ -968,14 +972,22 @@ namespace FPS_n2 {
 						int yp2 = yp;
 						auto* ptr = ItemTypeData::Instance()->FindPtr(m_TypeSel);
 						if (ptr->GetName()=="Key") {
+							//マップ指定フィルター
 							for (auto& L2 : MapData::Instance()->GetList()) {
-								if (WindowSystem::ClickCheckBox(xp2 - ((m_MapTypeSel == L2.GetID()) ? y_r(10) : 0), yp2, xp2 + y_r(400), yp2 + LineHeight, false, true, (m_MapTypeSel == L2.GetID() || m_MapTypeSel == InvalidID) ? Gray25 : Gray50, L2.GetName().c_str())) {
+								if (WindowSystem::ClickCheckBox(xp2 - ((m_MapTypeSel == L2.GetID()) ? y_r(10) : 0), yp2, xp2 + y_r(400), yp2 + LineHeight, false, true, (m_MapTypeSel == L2.GetID() || (!m_NotUseInRaid && (m_MapTypeSel == InvalidID))) ? Gray25 : Gray50, L2.GetName().c_str())) {
 									m_MapTypeSel = L2.GetID();
+									m_NotUseInRaid = false;
 								}
 								yp2 += LineHeight + y_r(5);
 							}
+							if (WindowSystem::ClickCheckBox(xp2 - (m_NotUseInRaid ? y_r(10) : 0), yp2, xp2 + y_r(400), yp2 + LineHeight, false, true, (m_NotUseInRaid || (!m_NotUseInRaid && (m_MapTypeSel == InvalidID))) ? Gray25 : Gray50, "NotUseInRaid")) {
+								m_MapTypeSel = InvalidID;
+								m_NotUseInRaid = true;
+							}
+							yp2 += LineHeight + y_r(5);
 							if (WindowSystem::ClickCheckBox(xp2, yp2, xp2 + y_r(400), yp2 + LineHeight, false, true, (m_MapTypeSel != InvalidID) ? Gray25 : Gray50, "ALL")) {
 								m_MapTypeSel = InvalidID;
+								m_NotUseInRaid = false;
 							}
 						}
 					}
@@ -984,6 +996,7 @@ namespace FPS_n2 {
 				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(400), yp + LineHeight, false, true, (m_TypeSel != InvalidID) ? Gray25 : Gray50, "ALL")) {
 					m_TypeSel = InvalidID;
 					m_MapTypeSel = InvalidID;
+					m_NotUseInRaid = false;
 				}
 			}
 			//
@@ -1130,7 +1143,7 @@ namespace FPS_n2 {
 			//タイトル
 			if (m_PullDown >= 1.f) {
 				WindowSystem::SetMsg(0, 0, y_r(1920), LineHeight, LineHeight, STR_MID, White, Black, "EFT Assistant");
-				WindowSystem::SetMsg(y_r(1280), LineHeight * 3 / 10, y_r(1280), LineHeight, LineHeight * 7 / 10, STR_LEFT, White, Black, "ver %d.%d.%d", 0, 0, 4);
+				WindowSystem::SetMsg(y_r(1280), LineHeight * 3 / 10, y_r(1280), LineHeight, LineHeight * 7 / 10, STR_LEFT, White, Black, "ver %d.%d.%d", 0, 0, 6);
 				if (WindowSystem::CloseButton(y_r(1920) - LineHeight, 0)) { SetisEnd(true); }
 			}
 			//展開

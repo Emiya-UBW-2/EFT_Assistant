@@ -1,3 +1,4 @@
 Name=ULTRA medical storage key
 Itemtype=Key
 Map=Interchange
+InElse=ÉãÅ[Égïi(medical,Silver Badge,Portable defibrillator,LEDX Skin Transilluminator,Ophthalmoscope,Stimulators)

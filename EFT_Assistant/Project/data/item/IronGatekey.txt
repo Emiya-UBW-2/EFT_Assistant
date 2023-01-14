@@ -1,3 +1,5 @@
 Name=Iron gate key
 Itemtype=Key
 Map=Streets of Tarkov
+InRoom=[Dead Scavx2]
+InElse=ÉãÅ[Égïi(Valuable,Provision,Stimulant,Electronic,Paper ammo box,Other item)

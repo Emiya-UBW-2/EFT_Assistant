@@ -1,3 +1,5 @@
 Name=Portable cabin key
 Itemtype=Key
 Map=Customs
+InRoom=[Jacketx3]
+InElse=ƒ‹[ƒg•i

@@ -1,3 +1,5 @@
 Name=RB-KPRL key
 Itemtype=Key
 Map=Reserve
+InRoom=[Standing Weapon Safex1,Safex1,Weapon Cabinetx1,Weapon Box(5x2)x1]
+InElse=ルート品(机下にsmall safe,デスク上とsafe上にintelligence)

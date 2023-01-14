@@ -1,3 +1,5 @@
 Name=Supply department director's office key
 Itemtype=Key
 Map=Streets of Tarkov
+InRoom=[Drawerx1,Safe(locked)x1]
+InElse=ƒ‹[ƒg•i(Provision, Flammable material)
