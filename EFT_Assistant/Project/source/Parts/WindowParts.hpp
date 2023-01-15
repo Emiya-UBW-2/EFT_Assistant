@@ -129,18 +129,26 @@ namespace FPS_n2 {
 				if (IsActive) {
 					if (in2_(Input->GetMouseX(), Input->GetMouseY(), xp1, yp1, xp2, yp2)) {
 						if (Input->GetWheelAdd() != 0.f) {
-							m_NowScrollYPer = std::clamp(m_NowScrollYPer + (float)(-Input->GetWheelAdd()) / std::max(100.f, Total), 0.f, 1.f);
+							m_NowScrollYPer = std::clamp(m_NowScrollYPer + (float)(-Input->GetWheelAdd()*3) / Total, 0.f, 1.f);
 						}
 					}
 					if (in2_(Input->GetMouseX(), Input->GetMouseY(), xp2 - y_r(24), yp1, xp2, yp2)) {
 						if (Input->GetLeftClick().trigger()) {
 							m_IsChangeScrollY = true;
 						}
+
+						if (!m_IsChangeScrollY) {
+							HCURSOR hCursor = LoadCursor(NULL, IDC_HAND);
+							SetCursor(hCursor);
+						}
 					}
 					if (m_IsChangeScrollY) {
 						if (Input->GetLeftClick().press()) {
 							color = White;
 							m_NowScrollYPer = std::clamp((float)(Input->GetMouseY() - m_BaseScrollY) / Total, 0.f, 1.f);
+
+							HCURSOR hCursor = LoadCursor(NULL, IDC_SIZENS);
+							SetCursor(hCursor);
 						}
 						else {
 							m_IsChangeScrollY = false;

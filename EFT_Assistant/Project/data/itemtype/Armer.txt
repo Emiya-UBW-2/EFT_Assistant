@@ -1,1 +1,2 @@
 Name=Armer
+Category=Clothes

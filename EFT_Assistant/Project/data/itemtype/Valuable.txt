@@ -1,1 +1,2 @@
 Name=Valuable
+Category=Loot

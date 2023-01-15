@@ -1,1 +1,2 @@
 Name=Key
+Category=Keys_Intel

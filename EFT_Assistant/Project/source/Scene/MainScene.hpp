@@ -29,6 +29,7 @@ namespace FPS_n2 {
 	};
 	//
 	static const int InvalidID{ -1 };
+	static const int ElseSelectID{ -2 };
 	static const auto STR_LEFT{ FontHandle::FontXCenter::LEFT };
 	static const auto STR_MID{ FontHandle::FontXCenter::MIDDLE };
 	static const auto STR_RIGHT{ FontHandle::FontXCenter::RIGHT };
@@ -105,7 +106,7 @@ namespace FPS_n2 {
 			}
 		}
 
-		const auto		Draw(int xp, int yp,int ysize, int count) const noexcept {
+		const auto		Draw(int xp, int yp, int ysize, int count) const noexcept {
 			int  Xsize = 0;
 			if (count > 0) {
 				Xsize = WindowSystem::SetMsg(xp, yp, xp, yp + ysize, LineHeight * 7 / 10, STR_LEFT, White, Black, "└%s x%2d", this->GetName().c_str(), count);
@@ -115,11 +116,10 @@ namespace FPS_n2 {
 			}
 			xp += Xsize;
 
-			float xi = (float)(ysize * IconX / IconY) / 2.f;
-			float yi = (float)ysize / 2.f;
-			float rad = (IconX >= IconY)?deg2rad(0) : deg2rad(90);
+			float Scale = (float)ysize / (float)(std::min(IconX, IconY));
+			float rad = (IconX >= IconY) ? deg2rad(0) : deg2rad(90);
 
-			this->m_Icon.DrawRotaGraph(xp + (int)(xi*std::cos(rad) + yi * std::sin(rad)), yp + (int)yi, (float)ysize / (float)(std::min(IconX, IconY)), rad, false);
+			this->m_Icon.DrawRotaGraph(xp + (int)(((float)IconX * std::cos(rad) + (float)IconY * std::sin(rad)) / 2.f * Scale), yp + ysize / 2, Scale, rad, false);
 			return (int)(Xsize + ysize * IconX / IconY);
 		}
 	};
@@ -203,10 +203,33 @@ namespace FPS_n2 {
 		~MapData() noexcept {}
 	};
 	//
-	typedef int ItemTypeID;
-	class ItemTypeList : public ListParent<ItemTypeID> {
+	typedef int ItemCategoryID;
+	class ItemCategoryList : public ListParent<ItemCategoryID> {
 		//追加設定
 		void			Set_Sub(const std::string&, const std::string&, const std::vector<std::string>&) noexcept override {}
+	};
+	class ItemCategoryData : public SingletonBase<ItemCategoryData>, public DataParent<ItemCategoryID, ItemCategoryList> {
+	private:
+		friend class SingletonBase<ItemCategoryData>;
+	private:
+		ItemCategoryData() noexcept {
+			SetList("data/itemcategory/");
+		}
+		~ItemCategoryData() noexcept {}
+	};
+	//
+	typedef int ItemTypeID;
+	class ItemTypeList : public ListParent<ItemTypeID> {
+		ItemCategoryID	m_CategoryID{ InvalidID };
+	private:
+		//追加設定
+		void			Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>&) noexcept override {
+			if (LEFT == "Category") {
+				m_CategoryID = ItemCategoryData::Instance()->FindID(RIGHT.c_str());
+			}
+		}
+	public:
+		const auto&	GetCategoryID() const noexcept { return m_CategoryID; }
 	};
 	class ItemTypeData : public SingletonBase<ItemTypeData>, public DataParent<ItemTypeID, ItemTypeList> {
 	private:
@@ -756,7 +779,7 @@ namespace FPS_n2 {
 		std::vector<GraphHandle>									m_TaskGraph;
 		std::vector<std::shared_ptr<WindowSystem::WindowControl>>	m_TaskPtr;
 	private:
-		void DrawChildTaskClickBox(std::unique_ptr<WindowSystem::WindowManager>& Windowup, float Scale,TaskID ParentID, int start_x, int start_y, int xp, int yp, int xs, int ys, bool parentCanDo = true) noexcept {
+		void DrawChildTaskClickBox(std::unique_ptr<WindowSystem::WindowManager>& Windowup, float Scale, TaskID ParentID, int start_x, int start_y, int xp, int yp, int xs, int ys, bool parentCanDo = true) noexcept {
 			if (ParentID == InvalidID) {
 				m_posxMaxBuffer = 0;
 				m_posyMaxBuffer = 0;
@@ -912,8 +935,8 @@ namespace FPS_n2 {
 			//
 			{
 				int xp = y_r(10);
-				int yp = y_r(10) + LineHeight;
-				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(200), yp + LineHeight, false, true,Gray25, "戻る")) {
+				int yp = LineHeight + y_r(10);
+				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(200), yp + LineHeight, false, true, Gray25, "戻る")) {
 					TurnOnGoNextBG();
 				}
 			}
@@ -930,54 +953,122 @@ namespace FPS_n2 {
 	//アイテム
 	class ItemBG :public BGParent {
 	private:
-		ItemTypeID						m_TypeSel{ InvalidID };
+		std::vector<std::pair<int, bool>>	m_ItemIDs;
+		ItemTypeID						m_ItemTypeSel{ InvalidID };
 		MapID							m_MapTypeSel{ InvalidID };
-		bool							m_NotUseInRaid{ false };
 		WindowSystem::ScrollBoxClass	m_Scroll;
 		float							m_YNow{ 0.f };
-
 		float							m_XChild{ 0.f };
+
+		//bool							m_NotUseInRaid{ false };
+	private:
+		bool MakeLists(int Layer, bool AndNext, const std::function<void(std::pair<int, bool>*)>& ListSet) {
+			auto& NowSel = m_ItemIDs.at(Layer);
+			NowSel.second = ((NowSel.first != InvalidID) && AndNext);
+			if (Layer == 0 || (Layer >= 1 && m_ItemIDs.at(Layer - 1).second)) {
+				ListSet(&NowSel);
+			}
+			else {
+				NowSel.first = InvalidID;
+			}
+		}
+		template<class ListChild>
+		void MakeList(int xp1, int yp1, const std::vector<ListChild>& List, int*Select, bool isActive, bool isElseSelect, const std::function<bool(const ListChild*)>& CheckLocal) {
+			int xsize = y_r(400);
+			int ysize = LineHeight;
+			int count = 0;
+			int yp_t = yp1;
+			yp_t += ysize + y_r(5);
+			//
+			int IDBuf = InvalidID;
+			bool NotSelect = (*Select == InvalidID);
+			for (const auto& L2 : List) {
+				if (!CheckLocal(&L2)) { continue; }
+				IDBuf = L2.GetID();
+				bool SelectIt = (*Select == IDBuf);
+				auto color = NotSelect ? Gray25 : (SelectIt ? Gray10 : Gray50);
+				if (WindowSystem::ClickCheckBox(xp1 - (SelectIt ? y_r(25) : 0), yp_t, xp1 + xsize, yp_t + ysize, false, isActive || (!isActive && SelectIt), color, L2.GetName().c_str())) {
+					*Select = (isActive) ? IDBuf : InvalidID;
+				}
+				yp_t += ysize + y_r(5);
+				count++;
+			}
+			if (count > 0 && isElseSelect) {//その他
+				bool ElseSelect = (*Select == ElseSelectID);
+				auto color = ElseSelect ? Gray25 : Gray50;
+				if (WindowSystem::ClickCheckBox(xp1 - (ElseSelect ? y_r(25) : 0), yp_t, xp1 + xsize, yp_t + ysize, false, isActive, color, "Else")) {
+					*Select = ElseSelectID;
+				}
+			}
+			//全部選択
+			if (count > 1) {
+				auto color = NotSelect ? Gray10 : Gray50;
+				if (WindowSystem::ClickCheckBox(xp1 - (NotSelect ? y_r(25) : 0), yp1, xp1 + xsize, yp1 + ysize, false, isActive, color, "ALL")) {
+					*Select = InvalidID;
+				}
+			}
+			else {
+				if (IDBuf != InvalidID) {
+					*Select = IDBuf;
+				}
+			}
+			if (count == 0) {
+				if (WindowSystem::ClickCheckBox(xp1, yp1, xp1 + xsize, yp1 + ysize, false, false, Gray50, "None")) {}
+			}
+		};
 	private:
 		void Init_Sub(int *, int *, float*) noexcept override {
-			int xs = 320;
-			m_XChild = -y_r(xs + 10 + 10);
+			m_XChild = 0.f;
+			m_ItemIDs.clear();
+			m_ItemIDs.emplace_back(std::make_pair<int, bool>((int)InvalidID, false));
+			m_ItemIDs.emplace_back(std::make_pair<int, bool>((int)InvalidID, false));
+			m_ItemIDs.emplace_back(std::make_pair<int, bool>((int)InvalidID, false));
 		}
 		void LateExecute_Sub(void) noexcept override {
 		}
-		void Draw_Back_Sub(std::unique_ptr<WindowSystem::WindowManager>&, int posx, int posy, float) noexcept override {
+		void Draw_Back_Sub(std::unique_ptr<WindowSystem::WindowManager>&, int, int, float) noexcept override {
 			auto* DrawParts = DXDraw::Instance();
 
 			int xpos = y_r(40);
 			int ypos = LineHeight + y_r(10) + LineHeight;
 			int ysize = (int)((float)y_r(80));
 
-			int xp = xpos;
 			int yp = ypos - (int)m_YNow;
-			for (auto& L : ItemData::Instance()->GetList()) {
-				if (L.GetTypeID() == m_TypeSel || m_TypeSel == InvalidID) {
+			for (auto& L : ItemData::Instance()->GetList()) {//todo
+				if (m_ItemIDs[1].first == InvalidID) {
+					bool isHit = false;
+					for (auto& TL : ItemTypeData::Instance()->GetList()) {
+						if (TL.GetCategoryID() == m_ItemIDs[0].first || m_ItemIDs[0].first == InvalidID) {
+							isHit = (L.GetTypeID() == TL.GetID());
+							if (isHit) { break; }
+						}
+					}
+					if (!isHit) { continue; }
+				}
+				if (L.GetTypeID() == m_ItemIDs[1].first || m_ItemIDs[1].first == InvalidID) {
 					bool ishit = false;
 					for (auto& m : L.GetMapID()) {
-						if (m == m_MapTypeSel) {
+						if (m == m_ItemIDs[2].first) {
 							ishit = true;
 							break;
 						}
 					}
-					if (m_NotUseInRaid) {
+					if (m_ItemIDs[2].first == ElseSelectID) {
 						ishit = (L.GetMapID().size() == 0);
 					}
-					if (ishit || (!m_NotUseInRaid && (m_MapTypeSel == InvalidID))) {
-						L.Draw(xp, yp, ysize, 0);
+					if (ishit || m_ItemIDs[2].first == InvalidID) {
+						L.Draw(xpos, yp, ysize, 0);
 						yp += ysize;
 					}
 				}
 			}
 			yp -= ypos - (int)m_YNow;
 
-			int xs = 320;
-			int ScrPosX = y_r(1920 - xs - 10) - y_r(50);
+			int xs = 400;
+			int ScrPosX = y_r(1920 - xs * 3 / 2 - 10) - y_r(80);
 
 			int ScrSizY = (DrawParts->m_DispYSize - (y_r(10) + LineHeight)) - ypos;
-			m_Scroll.ScrollBox(xpos, ypos, ScrPosX, ypos + ScrSizY, (float)yp / (float)ScrSizY, true);
+			m_Scroll.ScrollBox(xpos, ypos, ScrPosX, ypos + ScrSizY, (float)std::max(yp, ScrSizY) / (float)ScrSizY, true);
 
 			m_YNow = std::max(0.f, m_Scroll.GetNowScrollYPer()*(float)(yp - ScrSizY));
 		}
@@ -985,60 +1076,56 @@ namespace FPS_n2 {
 			//
 			{
 				int xgoal = 0;
-
-				int xs = 320;
-				int xp = y_r(1920 - xs - 10) - m_XChild;
-				int yp = y_r(10) + LineHeight;
-				int ysize = y_r(36);
-				for (auto& L : ItemTypeData::Instance()->GetList()) {
-					if (WindowSystem::ClickCheckBox(xp - ((m_TypeSel == L.GetID()) ? y_r(10) : 0), yp, xp + y_r(xs), yp + ysize, false, true, (m_TypeSel == L.GetID() || m_TypeSel == InvalidID) ? Gray25 : Gray50, L.GetName().c_str())) {
-						m_TypeSel = L.GetID();
-					}
-					if ((m_TypeSel == L.GetID())) {
-						int xp2 = xp - y_r(xs + 10 + 10);
-						int yp2 = y_r(10) + LineHeight;
-						auto* ptr = ItemTypeData::Instance()->FindPtr(m_TypeSel);
-						if (ptr->GetName()=="Key") {
-							xgoal = -y_r(xs + 10 + 10);
-
-							//マップ指定フィルター
-							for (auto& L2 : MapData::Instance()->GetList()) {
-								if (WindowSystem::ClickCheckBox(xp2 - ((m_MapTypeSel == L2.GetID()) ? y_r(10) : 0), yp2, xp2 + y_r(xs), yp2 + ysize, false, true, (m_MapTypeSel == L2.GetID() || (!m_NotUseInRaid && (m_MapTypeSel == InvalidID))) ? Gray25 : Gray50, L2.GetName().c_str())) {
-									m_MapTypeSel = L2.GetID();
-									m_NotUseInRaid = false;
-								}
-								yp2 += ysize + y_r(5);
-							}
-							if (WindowSystem::ClickCheckBox(xp2 - (m_NotUseInRaid ? y_r(10) : 0), yp2, xp2 + y_r(xs), yp2 + ysize, false, true, (m_NotUseInRaid || (!m_NotUseInRaid && (m_MapTypeSel == InvalidID))) ? Gray25 : Gray50, "NotUseInRaid")) {
-								m_MapTypeSel = InvalidID;
-								m_NotUseInRaid = true;
-							}
-							yp2 += ysize + y_r(5);
-							if (WindowSystem::ClickCheckBox(xp2, yp2, xp2 + y_r(xs), yp2 + ysize, false, true, (m_MapTypeSel != InvalidID) ? Gray25 : Gray50, "ALL")) {
-								m_MapTypeSel = InvalidID;
-								m_NotUseInRaid = false;
-							}
-							yp2 += ysize + y_r(5);
-							if (WindowSystem::ClickCheckBox(xp2, yp2, xp2 + y_r(xs), yp2 + ysize, false, true, Gray25, "Back→")) {
-								m_TypeSel = InvalidID;
-								m_MapTypeSel = InvalidID;
-								m_NotUseInRaid = false;
-							}
+				int xsize = y_r(400);
+				int xs_add = -(xsize + y_r(50));
+				int xp = y_r(1920 - 10) - xsize - (int)m_XChild;
+				int yp = LineHeight + y_r(10);
+				bool isChild = false;
+				int Layer = 0;
+				//
+				{
+					Layer = 0;
+					MakeLists(Layer, true, [&](std::pair<int, bool>* IDs) {
+						isChild |= (Layer >= 1);
+						if (isChild) {
+							xgoal += xs_add;
 						}
-					}
-					yp += ysize + y_r(5);
+						MakeList<ItemCategoryList>(xp + xgoal, yp, ItemCategoryData::Instance()->GetList(), &IDs->first, !IDs->second, false, [&](const auto *) { return true; });
+					});
 				}
-				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(xs), yp + ysize, false, true, (m_TypeSel != InvalidID) ? Gray25 : Gray50, "ALL")) {
-					m_TypeSel = InvalidID;
-					m_MapTypeSel = InvalidID;
-					m_NotUseInRaid = false;
+				//
+				{
+					Layer = 1;
+					bool CanGoNext = ((m_ItemIDs.at(Layer).first != InvalidID) && (ItemTypeData::Instance()->FindPtr(m_ItemIDs.at(Layer).first)->GetName() == "Key"));
+					MakeLists(Layer, CanGoNext, [&](std::pair<int, bool>* IDs) {
+						isChild |= (Layer >= 1);
+						if (isChild) {
+							xgoal += xs_add;
+						}
+						MakeList<ItemTypeList>(xp + xgoal, yp, ItemTypeData::Instance()->GetList(), &IDs->first, !IDs->second, false, [&](const auto *ptr) { return (ptr->GetCategoryID() == m_ItemIDs.at(Layer - 1).first); });
+					});
+				}
+				//
+				{
+					Layer = 2;
+					MakeLists(Layer, false, [&](std::pair<int, bool>* IDs) {
+						isChild |= (Layer >= 1);
+						if (isChild) {
+							xgoal += xs_add;
+						}
+						MakeList<MapList>(xp + xgoal, yp, MapData::Instance()->GetList(), &IDs->first, !IDs->second, true, [&](const auto *) { return true; });
+					});
+				}
+				//
+				if (isChild) {
+					xgoal -= xs_add / 2;
 				}
 				Easing(&m_XChild, (float)xgoal, 0.8f, EasingType::OutExpo);
 			}
 			//
 			{
 				int xp = y_r(10);
-				int yp = y_r(10) + LineHeight;
+				int yp = LineHeight + y_r(10);
 				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(200), yp + LineHeight, false, true, Gray25, "戻る")) {
 					TurnOnGoNextBG();
 				}

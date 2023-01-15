@@ -1,1 +1,2 @@
 Name=Keycard
+Category=Keys_Intel

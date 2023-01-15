@@ -1,1 +1,2 @@
 Name=Container
+Category=Clothes
