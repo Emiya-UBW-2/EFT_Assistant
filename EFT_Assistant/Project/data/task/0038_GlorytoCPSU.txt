@@ -1,0 +1,11 @@
+Name=Glory to CPSU
+Trader=Prapor
+
+NeedTask=You've Got Mail
+NeedLevel=15
+
+Task_Map=Streets of Tarkov
+Task_Else=プレパーの友人のアパートを見つけて生還
+
+Reward_Rep=Prapor+0.02
+Reward_Item=[Bottle of Tarkovskaya vodkax2]

@@ -10,3 +10,4 @@ Task_Else=PMCキルは
 Task_Else=PACAアーマーと6B47ヘルメットを着用
 
 Reward_Rep=Prapor+0.03
+Reward_Item=[Pistol casex1,Documents casex1]

@@ -1,0 +1,2 @@
+Name=6B47 Ratnik-BSh helmet
+Itemtype=Helmet

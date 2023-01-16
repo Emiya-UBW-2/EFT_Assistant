@@ -7,3 +7,4 @@ Task_Map=Lighthouse
 Task_Else=3‰ÓŠ‚ğŠm”F‚µ‚Ä¶ŠÒ
 
 Reward_Rep=Prapor+0.03
+Reward_Item=[NPP KlASS Korund-VM body armorx1,NPP KlASS Condor glassesx1]

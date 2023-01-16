@@ -1,0 +1,2 @@
+Name=Springfield Armory M1A 7.62x51 rifle
+Type=Weapon

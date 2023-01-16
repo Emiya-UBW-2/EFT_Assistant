@@ -9,3 +9,4 @@ Task_Map=Woods
 Task_Map=Shoreline
 Task_Kill=[Customs-Scavx12,Woods-Scavx12,Shoreline-Scavx12]
 
+Reward_Item=[ASh-12 12.7x55 assault riflex1,RFARMY armbandx1]

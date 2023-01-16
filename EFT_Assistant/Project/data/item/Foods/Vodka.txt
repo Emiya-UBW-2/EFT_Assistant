@@ -1,0 +1,2 @@
+Name=Bottle of Tarkovskaya vodka
+Itemtype=Drink

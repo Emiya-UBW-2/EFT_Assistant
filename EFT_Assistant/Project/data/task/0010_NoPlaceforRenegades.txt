@@ -10,3 +10,4 @@ Task_Map=Reserve
 Task_Kill=[Raiderx5]
 
 Reward_Rep=Prapor+0.03
+Reward_Item=[Kalashnikov AK-103 7.62x39 assault riflex1,AK-103 7.62x39 30-round magazinex3,7.62x39mm PS gzhx150]

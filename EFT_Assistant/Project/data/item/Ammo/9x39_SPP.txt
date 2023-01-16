@@ -1,0 +1,2 @@
+Name=9x39mm SPP gs
+Itemtype=Round

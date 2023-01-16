@@ -1,0 +1,2 @@
+Name=Ammunition case
+Itemtype=Container

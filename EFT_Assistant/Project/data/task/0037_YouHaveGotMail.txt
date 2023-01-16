@@ -1,0 +1,10 @@
+Name=You've Got Mail
+Trader=Prapor
+
+NeedTask=Postman Pat - Part 1
+
+Task_Map=Streets of Tarkov
+Task_Else=マップの中でランダムに1つスポーンするRegistered letterを回収して納品
+
+Reward_Rep=Prapor+0.02
+Reward_Item=[6B47 Ratnik-BSh helmetx1,5.45x39mm BP gs ammo pack (30 pcs)x1]

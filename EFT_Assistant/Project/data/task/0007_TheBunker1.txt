@@ -9,4 +9,4 @@ Task_Map=Reserve
 Task_Else=Reserve‚Ì’n‰º1‚©Š‚ğŠm”F‚µ‚Ä¶ŠÒ
 
 Reward_Rep=Prapor+0.03
-Reward_Item=[Kalashnikov AK-105 5.45x39 assault riflex1]
+Reward_Item=[Kalashnikov AK-105 5.45x39 assault riflex1,5.45x39mm PPBS gs "Igolnik"x60,5.45x39mm BT gsx30]

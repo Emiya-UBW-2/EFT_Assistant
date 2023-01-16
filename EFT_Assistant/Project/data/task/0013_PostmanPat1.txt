@@ -10,3 +10,4 @@ Task_Else=Factoryで手紙を拾い
 Task_Else=セラピストに納品
 
 Reward_Rep=Prapor+0.02
+Reward_Item=[ANA Tactical Beta 2 Battle backpackx1,6B2 body armor (Flora)x1]

@@ -1,0 +1,2 @@
+Name=PNV-10T Night Vision Goggles
+Itemtype=Night vision

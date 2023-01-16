@@ -1,0 +1,2 @@
+Name=GSSh-01 active headset
+Itemtype=Headset

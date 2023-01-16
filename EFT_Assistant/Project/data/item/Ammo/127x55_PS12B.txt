@@ -1,0 +1,2 @@
+Name=12.7x55mm PS12B
+Itemtype=Round

@@ -1,0 +1,2 @@
+Name=RPK-16 5.45x39 light machine gun
+Itemtype=Weapon

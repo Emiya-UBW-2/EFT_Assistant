@@ -1,0 +1,2 @@
+Name=5.45x39mm BT gs
+Itemtype=Round

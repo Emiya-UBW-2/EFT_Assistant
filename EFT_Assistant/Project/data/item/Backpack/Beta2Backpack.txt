@@ -1,0 +1,3 @@
+Name=ANA Tactical Beta 2 Battle backpack
+Itemtype=Backpack
+

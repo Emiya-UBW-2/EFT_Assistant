@@ -34,6 +34,30 @@ namespace FPS_n2 {
 	static const auto STR_MID{ FontHandle::FontXCenter::MIDDLE };
 	static const auto STR_RIGHT{ FontHandle::FontXCenter::RIGHT };
 	//
+	class DataErrorLog : public SingletonBase<DataErrorLog> {
+	private:
+		friend class SingletonBase<DataErrorLog>;
+	private:
+		std::vector<std::string>	m_Mes;
+	private:
+		DataErrorLog() noexcept {
+			setPrintColorDx(GetColor(255, 0, 0), GetColor(218, 218, 218));
+		}
+		~DataErrorLog() noexcept {}
+	public:
+		void Draw() noexcept {
+			int xp = 0;
+			int yp = LineHeight;
+			for (auto& m : m_Mes) {
+				WindowSystem::SetMsg(xp, yp, xp, yp, LineHeight, STR_LEFT, GetColor(255, 50, 50), GetColor(0, 0, 0), m);
+				yp++;
+			}
+		}
+		void AddLog(const char* Mes) noexcept {
+			m_Mes.emplace_back(Mes);
+		}
+	};
+	//
 	template <class ID>
 	class ListParent {
 	private:
@@ -161,9 +185,10 @@ namespace FPS_n2 {
 					}
 				}
 			}
-			m_List.resize(DirNames.size());
+			int baseIndex = (int)m_List.size();
+			m_List.resize(baseIndex + DirNames.size());
 			for (auto& d : DirNames) {
-				int index = (int)(&d - &DirNames.front());
+				int index = (int)(&d - &DirNames.front()) + baseIndex;
 				m_List[index].Set((DirPath + d.first + ".txt").c_str(), (ID)index, d.second ? (DirPath + d.first + ".png").c_str() : nullptr);
 			}
 			DirNames.clear();
@@ -175,6 +200,9 @@ namespace FPS_n2 {
 					return t.GetID();
 				}
 			}
+			std::string ErrMes = "Error : Not Find Item : ";
+			ErrMes += name;
+			DataErrorLog::Instance()->AddLog(ErrMes.c_str());
 			return InvalidID;
 		}
 		const List*		FindPtr(ID id) const noexcept {
@@ -183,6 +211,9 @@ namespace FPS_n2 {
 					return &t;
 				}
 			}
+			std::string ErrMes = "Error : Not Find ID :";
+			ErrMes += std::to_string(id);
+			DataErrorLog::Instance()->AddLog(ErrMes.c_str());
 			return nullptr;
 		}
 		const auto&		GetList(void) const noexcept { return this->m_List; }
@@ -264,7 +295,13 @@ namespace FPS_n2 {
 		friend class SingletonBase<ItemData>;
 	private:
 		ItemData() noexcept {
-			SetList("data/item/");
+			std::string Path = "data/item/";
+			auto data_t = GetFileNamesInDirectory(Path.c_str());
+			for (auto& d : data_t) {
+				if (d.cFileName[0] != '.') {
+					SetList((Path + d.cFileName+"/").c_str());
+				}
+			}
 		}
 		~ItemData() noexcept {}
 	};
@@ -761,6 +798,10 @@ namespace FPS_n2 {
 				TurnOnGoNextBG();
 			}
 			ypos += y_r(100);
+			if (WindowSystem::ClickCheckBox(y_r(960) - xsize / 2, ypos - ysize / 2, y_r(960) + xsize / 2, ypos + ysize / 2, false, true, Gray50, "マップ")) {
+
+			}
+			ypos += y_r(100);
 		}
 		void DrawFront_Sub(std::unique_ptr<WindowSystem::WindowManager>&, int, int, float) noexcept override {
 		}
@@ -1154,6 +1195,7 @@ namespace FPS_n2 {
 		void Set_Sub(void) noexcept override {
 			//
 			InputControl::Create();
+			DataErrorLog::Create();
 			m_Window = std::make_unique<WindowSystem::WindowManager>();
 			//
 			ItemData::Create();
@@ -1266,7 +1308,7 @@ namespace FPS_n2 {
 			//タイトル
 			if (m_PullDown >= 1.f) {
 				WindowSystem::SetMsg(0, 0, y_r(1920), LineHeight, LineHeight, STR_MID, White, Black, "EFT Assistant");
-				WindowSystem::SetMsg(y_r(1280), LineHeight * 3 / 10, y_r(1280), LineHeight, LineHeight * 7 / 10, STR_LEFT, White, Black, "ver %d.%d.%d", 0, 0, 7);
+				WindowSystem::SetMsg(y_r(1280), LineHeight * 3 / 10, y_r(1280), LineHeight, LineHeight * 7 / 10, STR_LEFT, White, Black, "ver %d.%d.%d", 0, 0, 9);
 				if (WindowSystem::CloseButton(y_r(1920) - LineHeight, 0)) { SetisEnd(true); }
 			}
 			//展開
@@ -1282,6 +1324,8 @@ namespace FPS_n2 {
 				DrawCircle(Xsize, Ysize, y_r(100), TransColor, TRUE);
 			}
 			//
+
+			DataErrorLog::Instance()->Draw();
 		}
 	};
 };

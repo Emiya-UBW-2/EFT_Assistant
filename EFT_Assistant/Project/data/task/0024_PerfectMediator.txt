@@ -7,3 +7,4 @@ NeedLevel=35
 Task_Else=全てのトレーダーをLL4にする
 
 Reward_Rep=Prapor+0.02
+Reward_Item=[T H I C C Weapon casex1]

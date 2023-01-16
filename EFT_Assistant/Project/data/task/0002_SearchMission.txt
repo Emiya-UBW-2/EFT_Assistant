@@ -10,4 +10,4 @@ Task_Else=USECƒLƒƒƒ“ƒv‚ÆÔ—ñ‚ğŒ©‚Â‚¯
 Task_Else=¶ŠÒ‚·‚é
 
 Reward_Rep=Prapor+0.02
-Reward_Item=[Woods plan mapx1]
+Reward_Item=[Woods plan mapx1,EYE MK.2 professional hand-held compassx1]

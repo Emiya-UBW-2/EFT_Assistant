@@ -1,0 +1,2 @@
+Name=F-1 hand grenade
+Itemtype=Weapon

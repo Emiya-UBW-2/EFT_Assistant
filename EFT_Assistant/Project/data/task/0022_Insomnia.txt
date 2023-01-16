@@ -9,3 +9,4 @@ Task_Else=22`5‚Ü‚Å‚ÌŠÔ“à‚ÉƒLƒ‹
 
 
 Reward_Rep=Prapor+0.02
+Reward_Item=[PNV-10T Night Vision Gogglesx2]

@@ -9,4 +9,4 @@ Task_Map=Woods
 Task_FiR_HandOver=[AK-74 5.45x39 6L31 60-round magazinex3]
 
 Reward_Rep=Prapor+0.02
-Reward_Item=[AK-74 5.45x39 6L31 60-round magazinex1]
+Reward_Item=[RPK-16 5.45x39 light machine gunx1,5.45x39mm PP gsx200]

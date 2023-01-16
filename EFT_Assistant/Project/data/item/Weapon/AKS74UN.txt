@@ -1,0 +1,2 @@
+Name=Kalashnikov AKS-74UN 5.45x39 assault rifle
+Itemtype=Weapon

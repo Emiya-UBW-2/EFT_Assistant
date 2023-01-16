@@ -1,0 +1,2 @@
+Name=ASh-12 12.7x55 assault rifle
+Itemtype=Weapon

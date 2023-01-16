@@ -8,3 +8,4 @@ Task_Kill=[Scavx25]
 
 Reward_Rep=Prapor+0.02
 Reward_Rep=Jaeger+0.01
+Reward_Item=[F-1 hand grenadex3,RGD-5 hand grenadex3,"Zarya" stun grenadex1]

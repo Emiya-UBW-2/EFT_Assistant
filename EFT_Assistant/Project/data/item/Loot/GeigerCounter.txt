@@ -1,0 +1,2 @@
+Name=Geiger-Muller counter
+Itemtype=Electronics

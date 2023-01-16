@@ -1,0 +1,2 @@
+Name=SR-2M "Veresk" 9x21 submachine gun
+Itemtype=Weapon

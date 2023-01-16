@@ -1,0 +1,12 @@
+Name=Kings of the Rooftops
+Trader=Prapor
+
+NeedTask=The Punisher - Part 4
+NeedLevel=22
+
+Task_Map=Streets of Tarkov
+Task_Kill=[Scavx10]
+Task_Else=スナイパーScavをキル
+
+Reward_Rep=Prapor+0.03
+Reward_Item=[SR-2M "Veresk" 9x21 submachine gunx1,SR-2M 9x21 20-round magazinex3,9x21mm P gzhx80]

@@ -1,0 +1,2 @@
+Name=SR-2M KP-SR2 reflex sight
+Itemtype=WeaponMod

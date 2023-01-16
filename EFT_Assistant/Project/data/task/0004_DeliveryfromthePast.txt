@@ -12,3 +12,4 @@ Task_Else=Customs‚ÅSecure Folder 0022‚ğ“üè‚µ
 Task_Else=Factory‚Åİ’u
 
 Reward_Rep=Prapor+0.03
+Reward_Item=[Saiga 12ga ver.10 12/76 semi-automatic shotgunx1,SOK-12 12/76 sb.5 5-round magazinex4,12/70 7mm buckshotx40]

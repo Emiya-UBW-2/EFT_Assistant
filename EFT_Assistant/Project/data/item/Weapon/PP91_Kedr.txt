@@ -1,0 +1,2 @@
+Name=PP-91 "Kedr" 9x18PM submachine gun
+Itemtype=Weapon

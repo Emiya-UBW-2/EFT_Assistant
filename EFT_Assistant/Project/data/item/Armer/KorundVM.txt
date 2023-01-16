@@ -1,0 +1,2 @@
+Name=NPP KlASS Korund-VM body armor
+Itemtype=Armer

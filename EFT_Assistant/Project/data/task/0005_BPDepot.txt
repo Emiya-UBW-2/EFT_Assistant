@@ -12,4 +12,4 @@ Task_Else=ÇªÇÃå„ê∂ä“
 
 Reward_Rep=Prapor+0.03
 Reward_Rep=Jaeger-0.01
-Reward_Item=[Expeditionary fuel tankx1]
+Reward_Item=[Expeditionary fuel tankx2]

@@ -1,0 +1,2 @@
+Name=Night vision
+Category=Clothes

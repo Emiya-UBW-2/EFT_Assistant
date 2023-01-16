@@ -1,0 +1,2 @@
+Name=Helmet
+Category=Clothes

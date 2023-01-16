@@ -1,0 +1,2 @@
+Name=Simonov SKS 7.62x39 carbine
+Itemtype=Weapon

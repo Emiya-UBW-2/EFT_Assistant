@@ -1,0 +1,2 @@
+Name=RGD-5 hand grenade
+Itemtype=Weapon

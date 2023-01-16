@@ -1,6 +1,8 @@
 Name=No Offence
 Trader=Prapor
 
+NeedTask=Big Customer
+
 Task_NotFiR_HandOver=[M67 hand grenadex10]
 Task_Else=Big Customeré∏îså„
 

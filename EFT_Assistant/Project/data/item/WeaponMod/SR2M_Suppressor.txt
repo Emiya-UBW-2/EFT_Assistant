@@ -1,0 +1,2 @@
+Name=SR-2M 9x21 sound suppressor
+Itemtype=WeaponMod
