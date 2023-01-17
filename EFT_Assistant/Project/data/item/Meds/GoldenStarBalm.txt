@@ -1,0 +1,2 @@
+Name=Golden Star balm
+Itemtype=Injury treatment

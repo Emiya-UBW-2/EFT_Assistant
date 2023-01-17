@@ -1,0 +1,2 @@
+Name=Medical bloodset
+Itemtype=Medical supply

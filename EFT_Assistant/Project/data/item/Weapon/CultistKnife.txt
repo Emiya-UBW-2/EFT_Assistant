@@ -1,0 +1,2 @@
+Name=Cultist knife
+Itemtype=Weapon

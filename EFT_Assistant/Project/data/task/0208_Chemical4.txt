@@ -1,0 +1,18 @@
+Name=Chemical - Part 4
+Trader=Skier
+
+NeedTask=Chemical - Part 3
+NeedLevel=11
+NeedLL=1
+NeedItem=[MS2000 Markerx1]
+
+Task_Map=Customs
+//Task_Kill=[PMCx3]
+//Task_FiR_HandOver=[Secure Flash drivex2]
+//Task_NotFiR_HandOver=[Dorm room 220 keyx1]
+Task_Else=バンにマーカーを設置し、生還後スキヤに報告
+
+Reward_Rep=Skier+0.04
+Reward_Rep=Prapor-0.25
+Reward_Rep=Therapist-0.25
+Reward_Item=[Grenade casex1]

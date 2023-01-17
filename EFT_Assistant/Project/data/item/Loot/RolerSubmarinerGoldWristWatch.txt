@@ -1,0 +1,2 @@
+Name=Roler Submariner gold wrist watch
+Itemtype=Valuable

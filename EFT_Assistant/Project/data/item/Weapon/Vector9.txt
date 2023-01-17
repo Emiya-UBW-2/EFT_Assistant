@@ -1,0 +1,2 @@
+Name=TDI KRISS Vector Gen.2 9x19 submachine gun
+Type=Weapon

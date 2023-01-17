@@ -1,0 +1,16 @@
+Name=Supplier
+Trader=Skier
+
+//NeedTask=Debut
+NeedLevel=5
+NeedLL=1
+//NeedItem=[XXXx1]
+
+//Task_Map=Woods
+//Task_Kill=[XXXx1,Woods-XXXx1]
+Task_FiR_HandOver=[BNTI Module-3M body armorx1,TOZ-106 20ga bolt-action shotgunx1]
+//Task_NotFiR_HandOver=[XXXx1]
+//Task_Else=‚ ‚ ‚ ‚ ‚ 
+
+Reward_Rep=Skier+0.05
+Reward_Item=[Saiga-9 9x19 carbinex1]

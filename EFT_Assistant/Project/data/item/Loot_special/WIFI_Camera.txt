@@ -1,0 +1,2 @@
+Name=WI-FI Camera
+Itemtype=Special

@@ -1,0 +1,16 @@
+Name=Friend from the West - Part 1
+Trader=Skier
+
+NeedTask=The Extortionist
+//NeedLevel=8
+NeedLL=1
+//NeedItem=[Unknown keyx1]
+
+//Task_Map=Customs
+Task_Kill=[USECPMCx7]
+Task_FiR_HandOver=[Dogtag (USEC)x7]
+//Task_NotFiR_HandOver=[XXXx1]
+//Task_Else=ピストルのみを使用
+
+Reward_Rep=Skier+0.06
+Reward_Item=[ADAR 2-15 5.56x45 carbinex2,Roler Submariner gold wrist watchx1,5.56x45mm M855A1x60]

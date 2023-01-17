@@ -1,0 +1,16 @@
+Name=Debut
+Trader=Prapor
+
+//NeedTask=Debut
+//NeedLevel=1
+//NeedLL=1
+//NeedItem=[XXXx1]
+
+//Task_Map=Woods
+//Task_Kill=[XXXx1,Woods-XXXx1]
+//Task_FiR_HandOver=[XXXx1]
+//Task_NotFiR_HandOver=[XXXx1]
+//Task_Else=‚ ‚ ‚ ‚ ‚ 
+
+//Reward_Rep=XXX+0.02
+//Reward_Item=[XXXx1]

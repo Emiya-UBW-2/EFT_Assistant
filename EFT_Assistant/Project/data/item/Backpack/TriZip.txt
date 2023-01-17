@@ -1,0 +1,3 @@
+Name=Camelbak Tri-Zip assault backpack
+Itemtype=Backpack
+

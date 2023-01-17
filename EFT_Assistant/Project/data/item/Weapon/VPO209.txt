@@ -1,0 +1,2 @@
+Name=Molot VPO-209 .366 TKM carbine
+Type=Weapon

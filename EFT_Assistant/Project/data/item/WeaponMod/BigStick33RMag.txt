@@ -1,0 +1,2 @@
+Name=Glock 9x19 "Big Stick" 33-round magazine
+Itemtype=WeaponMod

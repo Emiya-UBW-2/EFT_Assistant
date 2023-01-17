@@ -50,7 +50,7 @@ namespace FPS_n2 {
 			int yp = LineHeight;
 			for (auto& m : m_Mes) {
 				WindowSystem::SetMsg(xp, yp, xp, yp, LineHeight, STR_LEFT, GetColor(255, 50, 50), GetColor(0, 0, 0), m);
-				yp++;
+				yp+= LineHeight;
 			}
 		}
 		void AddLog(const char* Mes) noexcept {
@@ -115,6 +115,11 @@ namespace FPS_n2 {
 			while (true) {
 				if (FileRead_eof(mdata) != 0) { break; }
 				auto ALL = getparams::Getstr(mdata);
+				//コメントアウト
+				if (ALL.find("//") != std::string::npos) {
+					ALL = ALL.substr(0, ALL.find("//"));
+				}
+				//
 				if (ALL == "") { continue; }
 				auto LEFT = getparams::getleft(ALL);
 				auto RIGHT = getparams::getright(ALL);
@@ -1308,7 +1313,7 @@ namespace FPS_n2 {
 			//タイトル
 			if (m_PullDown >= 1.f) {
 				WindowSystem::SetMsg(0, 0, y_r(1920), LineHeight, LineHeight, STR_MID, White, Black, "EFT Assistant");
-				WindowSystem::SetMsg(y_r(1280), LineHeight * 3 / 10, y_r(1280), LineHeight, LineHeight * 7 / 10, STR_LEFT, White, Black, "ver %d.%d.%d", 0, 0, 9);
+				WindowSystem::SetMsg(y_r(1280), LineHeight * 3 / 10, y_r(1280), LineHeight, LineHeight * 7 / 10, STR_LEFT, White, Black, "ver %d.%d.%d", 0, 0, 10);
 				if (WindowSystem::CloseButton(y_r(1920) - LineHeight, 0)) { SetisEnd(true); }
 			}
 			//展開

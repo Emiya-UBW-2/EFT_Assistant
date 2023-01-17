@@ -1,0 +1,2 @@
+Name=SV-98 7.62x54R bolt-action sniper rifle
+Itemtype=Weapon

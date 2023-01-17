@@ -1,0 +1,2 @@
+Name=Bottle of Pevko Light beer
+Itemtype=Drink

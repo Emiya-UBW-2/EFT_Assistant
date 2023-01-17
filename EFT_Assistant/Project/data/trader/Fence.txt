@@ -1,5 +1,5 @@
 Name=Fence
-Color=[0,0,0]
+Color=[1,1,1]
 LL2Rep=6.00
 LL3Rep=6.00
 LL4Rep=6.00

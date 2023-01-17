@@ -1,0 +1,2 @@
+Name=TP-200 TNT brick
+Itemtype=Flammable

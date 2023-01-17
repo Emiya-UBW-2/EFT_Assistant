@@ -1,0 +1,2 @@
+Name=MSA ACH TC-2002 MICH Series helmet
+Itemtype=Helmet

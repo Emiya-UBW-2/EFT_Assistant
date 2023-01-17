@@ -1,0 +1,16 @@
+Name=Golden Swag
+Trader=Skier
+
+NeedTask=What’s on the Flash Drive?
+NeedLevel=8
+NeedLL=1
+NeedItem=[Dorm room 303 keyx1]
+
+//Task_Map=Customs
+//Task_Kill=[PMCx3]
+//Task_FiR_HandOver=[Secure Flash drivex2]
+//Task_NotFiR_HandOver=[XXXx1]
+//Task_Else=アイテムを回収し納品
+
+Reward_Rep=Skier+0.04
+Reward_Item=[Trailer park portable cabin keyx1,Soyuz-TM STM-9 Gen.2 9x19 carbinex1,9x19mm Green Tracerx120,Glock 9x19 "Big Stick" 33-round magazinex2]

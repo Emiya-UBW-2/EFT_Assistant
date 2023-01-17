@@ -1,0 +1,2 @@
+Name=Saiga-9 9x19 carbine
+Type=Weapon

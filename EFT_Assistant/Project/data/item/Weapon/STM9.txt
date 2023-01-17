@@ -1,0 +1,2 @@
+Name=Soyuz-TM STM-9 Gen.2 9x19 carbine
+Type=Weapon
