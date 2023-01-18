@@ -64,7 +64,10 @@ namespace FPS_n2 {
 		ID						m_ID{ InvalidID };
 		std::string				m_Name;
 		std::array<int, 3>		m_Color{ 0,0,0 };
+
+		std::string				m_IconPath{ "" };
 		GraphHandle				m_Icon;
+		bool					m_IconLoaded{ false };
 		int						IconX{ -1 };
 		int						IconY{ -1 };
 	private:
@@ -101,6 +104,8 @@ namespace FPS_n2 {
 		}
 	protected:
 		virtual void	Set_Sub(const std::string&, const std::string&, const std::vector<std::string>&) noexcept {}
+		virtual void	Load_Sub() noexcept {}
+		virtual void	WhenAfterLoad_Sub() noexcept {}
 	public:
 		const auto&		GetID() const noexcept { return m_ID; }
 		const auto&		GetName() const noexcept { return m_Name; }
@@ -129,10 +134,23 @@ namespace FPS_n2 {
 			}
 			FileRead_close(mdata);
 			if (IconPath) {
-				m_Icon = GraphHandle::Load(IconPath);
-				GraphFilter(m_Icon.get(), DX_GRAPH_FILTER_BRIGHT_CLIP, DX_CMP_LESS, 1, TRUE, Black, 255);
-				this->m_Icon.GetSize(&IconX, &IconY);
+				m_IconPath = IconPath;
 			}
+		}
+		void			Load() noexcept {
+			if (m_IconPath != "") {
+				m_Icon = GraphHandle::Load(m_IconPath);
+				m_IconLoaded = false;
+			}
+			Load_Sub();
+		}
+		void			WhenAfterLoad() noexcept {
+			if (m_IconPath != "") {
+				GraphFilter(this->m_Icon.get(), DX_GRAPH_FILTER_BRIGHT_CLIP, DX_CMP_LESS, 1, TRUE, Black, 255);
+				this->m_Icon.GetSize(&IconX, &IconY);
+				m_IconLoaded = true;
+			}
+			WhenAfterLoad_Sub();
 		}
 
 		const auto		Draw(int xp, int yp, int ysize, int count) const noexcept {
@@ -144,12 +162,16 @@ namespace FPS_n2 {
 				Xsize = WindowSystem::SetMsg(xp, yp, xp, yp + ysize, LineHeight * 7 / 10, STR_LEFT, White, Black, "└%s", this->GetName().c_str());
 			}
 			xp += Xsize;
+			if (m_IconLoaded) {
+				float Scale = (float)ysize / (float)(std::min(IconX, IconY));
+				float rad = (IconX >= IconY) ? deg2rad(0) : deg2rad(90);
 
-			float Scale = (float)ysize / (float)(std::min(IconX, IconY));
-			float rad = (IconX >= IconY) ? deg2rad(0) : deg2rad(90);
-
-			this->m_Icon.DrawRotaGraph(xp + (int)(((float)IconX * std::cos(rad) + (float)IconY * std::sin(rad)) / 2.f * Scale), yp + ysize / 2, Scale, rad, false);
-			return (int)(Xsize + ysize * IconX / IconY);
+				this->m_Icon.DrawRotaGraph(xp + (int)(((float)IconX * std::cos(rad) + (float)IconY * std::sin(rad)) / 2.f * Scale), yp + ysize / 2, Scale, rad, false);
+				return (int)(Xsize + ysize * IconX / IconY);
+			}
+			else {
+				return (int)Xsize;
+			}
 		}
 	};
 	//
@@ -197,6 +219,18 @@ namespace FPS_n2 {
 				m_List[index].Set((DirPath + d.first + ".txt").c_str(), (ID)index, d.second ? (DirPath + d.first + ".png").c_str() : nullptr);
 			}
 			DirNames.clear();
+
+		}
+	public:
+		void LoadList(void) noexcept {
+			for (auto&t : m_List) {
+				t.Load();
+			}
+		}
+		void WhenAfterLoadList(void) noexcept {
+			for (auto&t : m_List) {
+				t.WhenAfterLoad();
+			}
 		}
 	public:
 		const ID		FindID(const char* name) const noexcept {
@@ -226,8 +260,35 @@ namespace FPS_n2 {
 	//
 	typedef int MapID;
 	class MapList : public ListParent<MapID> {
+		std::string				m_InGameMapPath{ "" };
+		GraphHandle				m_InGameMap;
+		bool					m_InGameMapLoaded{ false };
+		int						InGameMapX{ -1 };
+		int						InGameMapY{ -1 };
+	private:
 		//追加設定
-		void			Set_Sub(const std::string&, const std::string&, const std::vector<std::string>&) noexcept override {}
+		void			Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>&) noexcept override {
+			if (LEFT == "InGamePath") {
+				m_InGameMapPath = RIGHT;
+			}
+		}
+		void	Load_Sub() noexcept override {
+			if (m_InGameMapPath != "") {
+				m_InGameMap = GraphHandle::Load(m_InGameMapPath.c_str(), false);
+				m_InGameMapLoaded = false;
+			}
+		}
+		void	WhenAfterLoad_Sub() noexcept override {
+			if (m_InGameMapPath != "") {
+				GraphFilter(this->m_InGameMap.get(), DX_GRAPH_FILTER_BRIGHT_CLIP, DX_CMP_LESS, 1, TRUE, Black, 255);
+				this->m_InGameMap.GetSize(&InGameMapX, &InGameMapY);
+				m_InGameMapLoaded = true;
+			}
+		}
+	public:
+		const auto*	GetInGameMapGraph() const noexcept { return (m_InGameMapLoaded) ? &m_InGameMap : nullptr; }
+		const auto	GetInGameMapXSize() const noexcept { return (m_InGameMapLoaded) ? InGameMapX : -1; }
+		const auto	GetInGameMapYSize() const noexcept { return (m_InGameMapLoaded) ? InGameMapY : -1; }
 	};
 	class MapData : public SingletonBase<MapData>, public DataParent<MapID, MapList> {
 	private:
@@ -264,6 +325,10 @@ namespace FPS_n2 {
 				m_CategoryID = ItemCategoryData::Instance()->FindID(RIGHT.c_str());
 			}
 		}
+		void	Load_Sub() noexcept override {
+		}
+		void	WhenAfterLoad_Sub() noexcept override {
+		}
 	public:
 		const auto&	GetCategoryID() const noexcept { return m_CategoryID; }
 	};
@@ -290,6 +355,10 @@ namespace FPS_n2 {
 			if (LEFT == "Map") {
 				m_MapID.emplace_back(MapData::Instance()->FindID(RIGHT.c_str()));
 			}
+		}
+		void	Load_Sub() noexcept override {
+		}
+		void	WhenAfterLoad_Sub() noexcept override {
 		}
 	public:
 		const auto&	GetTypeID() const noexcept { return m_ID; }
@@ -338,6 +407,10 @@ namespace FPS_n2 {
 	class EnemyList : public ListParent<EnemyID> {
 		//追加設定
 		void			Set_Sub(const std::string&, const std::string&, const std::vector<std::string>&) noexcept override {}
+		void	Load_Sub() noexcept override {
+		}
+		void	WhenAfterLoad_Sub() noexcept override {
+		}
 	};
 	class EnemyData : public SingletonBase<EnemyData>, public DataParent<EnemyID, EnemyList> {
 	private:
@@ -372,6 +445,10 @@ namespace FPS_n2 {
 					}
 				}
 			}
+		}
+		void	Load_Sub() noexcept override {
+		}
+		void	WhenAfterLoad_Sub() noexcept override {
 		}
 	};
 	class TraderData : public SingletonBase<TraderData>, public DataParent<TraderID, TraderList> {
@@ -637,6 +714,11 @@ namespace FPS_n2 {
 			//Reward
 			m_TaskRewardData.Set(LEFT, RIGHT, Args);
 		}
+		void	Load_Sub() noexcept override {
+		}
+		void	WhenAfterLoad_Sub() noexcept override {
+		}
+
 		void			SetNeedTasktoID(const std::vector<TaskList>& taskList) noexcept {
 			m_TaskNeedData.SetNeedTasktoID(taskList);
 		}
@@ -773,7 +855,9 @@ namespace FPS_n2 {
 	//
 	enum class BGSelect {
 		Task,
+		HideOut,
 		Item,
+		Map,
 	};
 	//タイトル
 	class TitleBG :public BGParent {
@@ -795,7 +879,8 @@ namespace FPS_n2 {
 			}
 			ypos += y_r(100);
 			if (WindowSystem::ClickCheckBox(y_r(960) - xsize / 2, ypos - ysize / 2, y_r(960) + xsize / 2, ypos + ysize / 2, false, true, Gray50, "ハイドアウト")) {
-
+				//m_Select = BGSelect::HideOut;
+				//TurnOnGoNextBG();
 			}
 			ypos += y_r(100);
 			if (WindowSystem::ClickCheckBox(y_r(960) - xsize / 2, ypos - ysize / 2, y_r(960) + xsize / 2, ypos + ysize / 2, false, true, Gray25, "アイテム")) {
@@ -803,8 +888,9 @@ namespace FPS_n2 {
 				TurnOnGoNextBG();
 			}
 			ypos += y_r(100);
-			if (WindowSystem::ClickCheckBox(y_r(960) - xsize / 2, ypos - ysize / 2, y_r(960) + xsize / 2, ypos + ysize / 2, false, true, Gray50, "マップ")) {
-
+			if (WindowSystem::ClickCheckBox(y_r(960) - xsize / 2, ypos - ysize / 2, y_r(960) + xsize / 2, ypos + ysize / 2, false, true, Gray25, "マップ")) {
+				m_Select = BGSelect::Map;
+				TurnOnGoNextBG();
 			}
 			ypos += y_r(100);
 		}
@@ -996,6 +1082,29 @@ namespace FPS_n2 {
 			}
 		}
 	};
+	//マップ
+	class HideOutBG :public BGParent {
+	private:
+	private:
+		void Init_Sub(int*, int*, float*) noexcept override {
+		}
+		void LateExecute_Sub(void) noexcept override {
+		}
+		void Draw_Back_Sub(std::unique_ptr<WindowSystem::WindowManager>&, int, int, float) noexcept override {
+		}
+		void DrawFront_Sub(std::unique_ptr<WindowSystem::WindowManager>&, int, int, float) noexcept override {
+			//
+			{
+				int xp = y_r(10);
+				int yp = LineHeight + y_r(10);
+				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(200), yp + LineHeight, false, true, Gray25, "戻る")) {
+					TurnOnGoNextBG();
+				}
+			}
+		}
+		void Dispose_Sub(void) noexcept override {
+		}
+	};
 	//アイテム
 	class ItemBG :public BGParent {
 	private:
@@ -1180,6 +1289,42 @@ namespace FPS_n2 {
 		void Dispose_Sub(void) noexcept override {
 		}
 	};
+	//マップ
+	class MapBG :public BGParent {
+	private:
+		MapID	m_MapSelect{ InvalidID };
+	private:
+		void Init_Sub(int *posx, int *posy, float* Scale) noexcept override {
+			*posx = y_r(960);
+			*posy = y_r(540);
+			*Scale = 1.f;
+		}
+		void LateExecute_Sub(void) noexcept override {
+			if (m_MapSelect == InvalidID) {
+				m_MapSelect = MapData::Instance()->FindID("Customs");
+			}
+		}
+		void Draw_Back_Sub(std::unique_ptr<WindowSystem::WindowManager>& Windowup, int posx, int posy, float Scale) noexcept override {
+			if (m_MapSelect != InvalidID) {
+				auto* MapPtr = MapData::Instance()->FindPtr(m_MapSelect);
+				if (MapPtr->GetInGameMapGraph()) {
+					MapPtr->GetInGameMapGraph()->DrawRotaGraph(posx, posy, Scale / 2.f, 0.f, false);
+				}
+			}
+		}
+		void DrawFront_Sub(std::unique_ptr<WindowSystem::WindowManager>&, int, int, float) noexcept override {
+			//
+			{
+				int xp = y_r(10);
+				int yp = LineHeight + y_r(10);
+				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(200), yp + LineHeight, false, true, Gray25, "戻る")) {
+					TurnOnGoNextBG();
+				}
+			}
+		}
+		void Dispose_Sub(void) noexcept override {
+		}
+	};
 	//
 	class MAINLOOP : public TEMPSCENE {
 	private:
@@ -1193,7 +1338,11 @@ namespace FPS_n2 {
 		std::shared_ptr<BGParent>									m_BGPtr;
 		std::shared_ptr<TitleBG>									m_TitleBG;
 		std::shared_ptr<TaskBG>										m_TaskBG;
+		std::shared_ptr<HideOutBG>									m_HideOutBG;
 		std::shared_ptr<ItemBG>										m_ItemBG;
+		std::shared_ptr<MapBG>										m_MapBG;
+
+		bool														m_Loading{ false };
 	public:
 		void Load_Sub(void) noexcept override {}
 
@@ -1208,10 +1357,21 @@ namespace FPS_n2 {
 			TraderData::Create();
 			MapData::Create();
 			TaskData::Create();
+
+			SetUseASyncLoadFlag(TRUE);
+			ItemData::Instance()->LoadList();
+			EnemyData::Instance()->LoadList();
+			TraderData::Instance()->LoadList();
+			MapData::Instance()->LoadList();
+			TaskData::Instance()->LoadList();
+			SetUseASyncLoadFlag(FALSE);
+			m_Loading = true;
 			//
 			m_TitleBG = std::make_shared<TitleBG>();
 			m_TaskBG = std::make_shared<TaskBG>();
+			m_HideOutBG = std::make_shared<HideOutBG>();
 			m_ItemBG = std::make_shared<ItemBG>();
+			m_MapBG = std::make_shared<MapBG>();
 			//
 			m_BGPtr = m_TitleBG;
 			//
@@ -1219,6 +1379,16 @@ namespace FPS_n2 {
 		}
 
 		bool Update_Sub(void) noexcept override {
+			if (m_Loading) {
+				if (GetASyncLoadNum() == 0) {
+					ItemData::Instance()->WhenAfterLoadList();
+					EnemyData::Instance()->WhenAfterLoadList();
+					TraderData::Instance()->WhenAfterLoadList();
+					MapData::Instance()->WhenAfterLoadList();
+					TaskData::Instance()->WhenAfterLoadList();
+					m_Loading = false;
+				}
+			}
 			//FirstDoing
 			if (GetIsFirstLoop()) {
 				SetWindowPosition(0, 0);
@@ -1267,8 +1437,14 @@ namespace FPS_n2 {
 					case BGSelect::Task:
 						m_BGPtr = m_TaskBG;
 						break;
+					case BGSelect::HideOut:
+						m_BGPtr = m_HideOutBG;
+						break;
 					case BGSelect::Item:
 						m_BGPtr = m_ItemBG;
+						break;
+					case BGSelect::Map:
+						m_BGPtr = m_MapBG;
 						break;
 					default:
 						m_BGPtr = m_TaskBG;
@@ -1286,7 +1462,9 @@ namespace FPS_n2 {
 			m_Window.reset();
 			m_BGPtr.reset();
 			m_TaskBG.reset();
+			m_HideOutBG.reset();
 			m_ItemBG.reset();
+			m_MapBG.reset();
 		}
 	public:
 		void BG_Draw_Sub(void) noexcept override {}
@@ -1331,6 +1509,9 @@ namespace FPS_n2 {
 			//
 
 			DataErrorLog::Instance()->Draw();
+			if (GetASyncLoadNum() > 0) {
+				WindowSystem::SetMsg(0, y_r(1080) - LineHeight, y_r(0), y_r(1080), LineHeight, STR_LEFT, White, Black, "Loading...");
+			}
 		}
 	};
 };

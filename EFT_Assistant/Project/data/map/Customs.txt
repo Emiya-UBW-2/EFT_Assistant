@@ -1,2 +1,3 @@
 Name=Customs
 Color=[0,192,0]
+InGamePath=data/InGameMapPic/Customs.jpg

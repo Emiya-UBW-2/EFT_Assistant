@@ -1,0 +1,2 @@
+Name=MF-6B23-1 body armor (Digital Flora)
+Itemtype=Armer

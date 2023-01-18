@@ -1,0 +1,2 @@
+Name=5.11 Tactical Hexgrid plate carrier
+Itemtype=Armer

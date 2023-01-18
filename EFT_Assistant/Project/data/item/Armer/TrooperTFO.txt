@@ -1,0 +1,2 @@
+Name=HighCom Trooper TFO body armor (Multicam)
+Itemtype=Armer
