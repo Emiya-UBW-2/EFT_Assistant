@@ -1,0 +1,2 @@
+Name=DevTac Ronin ballistic helmet
+Itemtype=Helmet

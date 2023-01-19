@@ -1,0 +1,2 @@
+Name=UNTAR helmet
+Itemtype=Helmet

@@ -1,0 +1,2 @@
+Name=Vulkan-5 (LShZ-5) bulletproof helmet
+Itemtype=Helmet

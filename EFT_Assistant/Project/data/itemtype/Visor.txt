@@ -1,0 +1,2 @@
+Name=Visor
+Category=Clothes

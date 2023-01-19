@@ -344,24 +344,29 @@ namespace FPS_n2 {
 	//
 	typedef int ItemID;
 	class ItemList : public ListParent<ItemID> {
-		ItemTypeID	m_ID{ InvalidID };
+		ItemTypeID	m_TypeID{ InvalidID };
 		std::vector<MapID>	m_MapID;
 	private:
 		//í«â¡ê›íË
 		void			Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>&) noexcept override {
 			if (LEFT == "Itemtype") {
-				m_ID = ItemTypeData::Instance()->FindID(RIGHT.c_str());
+				m_TypeID = ItemTypeData::Instance()->FindID(RIGHT.c_str());
 			}
 			if (LEFT == "Map") {
 				m_MapID.emplace_back(MapData::Instance()->FindID(RIGHT.c_str()));
 			}
 		}
 		void	Load_Sub() noexcept override {
+			if (m_TypeID == InvalidID) {
+				std::string ErrMes = "Error : Not Setting ItemType in Item ";
+				ErrMes += GetName();
+				DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+			}
 		}
 		void	WhenAfterLoad_Sub() noexcept override {
 		}
 	public:
-		const auto&	GetTypeID() const noexcept { return m_ID; }
+		const auto&	GetTypeID() const noexcept { return m_TypeID; }
 		const auto&	GetMapID() const noexcept { return m_MapID; }
 	};
 	class ItemData : public SingletonBase<ItemData>, public DataParent<ItemID, ItemList> {

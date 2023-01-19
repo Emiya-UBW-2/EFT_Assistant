@@ -1,0 +1,2 @@
+Name=BNTI LShZ-2DTM helmet
+Itemtype=Helmet

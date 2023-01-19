@@ -1,0 +1,2 @@
+Name=Rys-T face shield
+Itemtype=Visor

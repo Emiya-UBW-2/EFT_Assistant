@@ -1,0 +1,2 @@
+Name=Tac-Kek FAST MT helmet (replica)
+Itemtype=Helmet

@@ -1,2 +1,2 @@
 Name=Simonov OP-SKS 7.62x39 carbine (Hunting Rifle Version)
-Type=Weapon
+Itemtype=Weapon

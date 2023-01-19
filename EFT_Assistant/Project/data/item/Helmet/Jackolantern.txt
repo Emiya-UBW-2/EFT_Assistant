@@ -1,0 +1,2 @@
+Name=Jack-o'-lantern tactical pumpkin helmet
+Itemtype=Helmet

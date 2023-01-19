@@ -1,0 +1,2 @@
+Name=ShPM Firefighter helmet
+Itemtype=Helmet

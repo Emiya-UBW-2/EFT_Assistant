@@ -1,0 +1,2 @@
+Name=MSA Gallet TC 800 High Cut combat helmet
+Itemtype=Helmet

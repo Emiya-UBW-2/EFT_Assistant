@@ -1,0 +1,2 @@
+Name=FORT Kiver-M bulletproof helmet
+Itemtype=Helmet

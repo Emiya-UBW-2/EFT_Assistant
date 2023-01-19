@@ -1,0 +1,2 @@
+Name=PNV-10T dovetail adapter
+Itemtype=Helmet mount

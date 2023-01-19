@@ -1,0 +1,2 @@
+Name=GPNVG-18 Night Vision goggles
+Itemtype=Night vision

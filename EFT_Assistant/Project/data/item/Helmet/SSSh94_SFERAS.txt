@@ -1,0 +1,2 @@
+Name=SSSh-94 SFERA-S helmet
+Itemtype=Helmet

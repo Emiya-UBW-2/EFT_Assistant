@@ -1,0 +1,2 @@
+Name=Maska-1SCh face shield(Olive Drab)
+Itemtype=Visor

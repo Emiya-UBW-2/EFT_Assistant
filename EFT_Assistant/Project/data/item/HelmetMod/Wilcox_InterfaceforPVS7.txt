@@ -1,0 +1,2 @@
+Name=Wilcox Interface for PVS-7
+Itemtype=Helmet mount

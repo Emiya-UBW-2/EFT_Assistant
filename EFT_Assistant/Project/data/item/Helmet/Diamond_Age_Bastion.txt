@@ -1,0 +1,2 @@
+Name=Diamond Age Bastion helmet
+Itemtype=Helmet

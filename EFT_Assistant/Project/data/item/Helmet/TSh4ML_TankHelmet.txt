@@ -1,0 +1,2 @@
+Name=TSh-4M-L soft tank crew helmet
+Itemtype=Helmet

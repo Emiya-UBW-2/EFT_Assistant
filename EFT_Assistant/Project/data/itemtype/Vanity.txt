@@ -1,0 +1,2 @@
+Name=Vanity gear component
+Category=Clothes

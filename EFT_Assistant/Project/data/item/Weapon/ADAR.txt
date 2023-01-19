@@ -1,2 +1,2 @@
 Name=ADAR 2-15 5.56x45 carbine
-Type=Weapon
+Itemtype=Weapon
