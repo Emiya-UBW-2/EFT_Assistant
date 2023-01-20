@@ -1,0 +1,2 @@
+Name=Peltor ComTac 4 Hybrid headset
+Itemtype=Headset
