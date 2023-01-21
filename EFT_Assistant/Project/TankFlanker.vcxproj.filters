@@ -19,6 +19,12 @@
     <Filter Include="ソース ファイル\Parts">
       <UniqueIdentifier>{97aef654-a241-4240-b12c-04ea48bc9671}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\Scene\Data">
+      <UniqueIdentifier>{be47f5af-941d-4200-bbce-fc9d53bc26e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Page">
+      <UniqueIdentifier>{803d0e13-8aeb-40d4-b019-42ec596ac865}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\sub.hpp">
@@ -41,6 +47,48 @@
     </ClInclude>
     <ClInclude Include="source\Parts\WindowParts.hpp">
       <Filter>ソース ファイル\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Scene\MainScene\Data\MainScene_Map.hpp">
+      <Filter>ソース ファイル\Scene\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Scene\MainScene\Data\MainScene_Parents.hpp">
+      <Filter>ソース ファイル\Scene\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Scene\MainScene\Data\MainScene_Task.hpp">
+      <Filter>ソース ファイル\Scene\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Scene\MainScene\Data\MainScene_Trader.hpp">
+      <Filter>ソース ファイル\Scene\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Scene\MainScene\Data\MainScene_Item.hpp">
+      <Filter>ソース ファイル\Scene\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Scene\MainScene\Data\MainScene_ItemCategory.hpp">
+      <Filter>ソース ファイル\Scene\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Scene\MainScene\Data\MainScene_ItemType.hpp">
+      <Filter>ソース ファイル\Scene\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Scene\MainScene\Data\MainScene_Enemy.hpp">
+      <Filter>ソース ファイル\Scene\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Scene\MainScene\Page\MainScene_PageParents.hpp">
+      <Filter>ソース ファイル\Scene\Page</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Scene\MainScene\Page\MainScene_PageTask.hpp">
+      <Filter>ソース ファイル\Scene\Page</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Scene\MainScene\Page\MainScene_PageTitle.hpp">
+      <Filter>ソース ファイル\Scene\Page</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Scene\MainScene\Page\MainScene_PageMap.hpp">
+      <Filter>ソース ファイル\Scene\Page</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Scene\MainScene\Page\MainScene_PageHideout.hpp">
+      <Filter>ソース ファイル\Scene\Page</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Scene\MainScene\Page\MainScene_PageItem.hpp">
+      <Filter>ソース ファイル\Scene\Page</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
