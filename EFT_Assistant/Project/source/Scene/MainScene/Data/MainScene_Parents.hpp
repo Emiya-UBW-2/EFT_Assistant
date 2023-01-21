@@ -26,6 +26,48 @@ namespace FPS_n2 {
 		}
 	};
 	//
+	class Graphs {
+		std::string				m_Path{ "" };
+		GraphHandle				m_Handle;
+		bool					m_Loaded{ false };
+		int						m_X{ -1 };
+		int						m_Y{ -1 };
+		bool					m_IsTrans{ false };
+	public:
+		void	SetPath(const char* path) noexcept { this->m_Path = path; }
+		void	SetIsTrans(bool isTrans) noexcept { this->m_IsTrans = isTrans; }
+		void	LoadByPath() noexcept {
+			if (this->m_Path != "") {
+				this->m_Handle = GraphHandle::Load(this->m_Path.c_str(), m_IsTrans);
+				this->m_Loaded = false;
+			}
+		}
+		void	WhenAfterLoad() noexcept {
+			if (this->m_Path != "") {
+				if (!m_IsTrans) {
+					GraphFilter(this->m_Handle.get(), DX_GRAPH_FILTER_BRIGHT_CLIP, DX_CMP_LESS, 1, TRUE, Black, 255);
+				}
+				this->m_Handle.GetSize(&this->m_X, &this->m_Y);
+				this->m_Loaded = true;
+			}
+		}
+
+		void	DisposeGraph() noexcept {
+			if (this->m_Loaded) {
+				this->m_Handle.Dispose();
+			}
+			else {
+				if (this->m_Handle.IsActive()) {
+					SetASyncLoadFinishDeleteFlag(this->m_Handle.get());
+				}
+			}
+		}
+	public:
+		const auto*	GetGraph() const noexcept { return (this->m_Loaded) ? &this->m_Handle : nullptr; }
+		const auto	GetXSize() const noexcept { return (this->m_Loaded) ? this->m_X : -1; }
+		const auto	GetYSize() const noexcept { return (this->m_Loaded) ? this->m_Y : -1; }
+	};
+	//
 	static const int InvalidID{ -1 };
 	static const int ElseSelectID{ -2 };
 	static const auto STR_LEFT{ FontHandle::FontXCenter::LEFT };
@@ -63,11 +105,7 @@ namespace FPS_n2 {
 		std::string				m_Name;
 		std::array<int, 3>		m_Color{ 0,0,0 };
 
-		std::string				m_IconPath{ "" };
-		GraphHandle				m_Icon;
-		bool					m_IconLoaded{ false };
-		int						IconX{ -1 };
-		int						IconY{ -1 };
+		Graphs					m_Icon;
 	private:
 		const auto		GetArgs(const std::string& RIGHT) const noexcept {
 			std::vector<std::string> Args;
@@ -110,7 +148,7 @@ namespace FPS_n2 {
 		const auto		GetColors(int colorAdd) const noexcept {
 			return DxLib::GetColor(std::clamp(m_Color[0] + colorAdd, 0, 255), std::clamp(m_Color[1] + colorAdd, 0, 255), std::clamp(m_Color[2] + colorAdd, 0, 255));
 		}
-		const auto&		GetIcon() const noexcept { return m_Icon; }
+		const auto*		GetIcon() const noexcept { return m_Icon.GetGraph(); }
 	public:
 		void			Set(const char* FilePath, ID id, const char* IconPath = nullptr) noexcept {
 			m_ID = id;
@@ -132,22 +170,15 @@ namespace FPS_n2 {
 			}
 			FileRead_close(mdata);
 			if (IconPath) {
-				m_IconPath = IconPath;
+				m_Icon.SetPath(IconPath);
 			}
 		}
 		void			Load() noexcept {
-			if (m_IconPath != "") {
-				m_Icon = GraphHandle::Load(m_IconPath);
-				m_IconLoaded = false;
-			}
+			m_Icon.LoadByPath();
 			Load_Sub();
 		}
 		void			WhenAfterLoad() noexcept {
-			if (m_IconPath != "") {
-				GraphFilter(this->m_Icon.get(), DX_GRAPH_FILTER_BRIGHT_CLIP, DX_CMP_LESS, 1, TRUE, Black, 255);
-				this->m_Icon.GetSize(&IconX, &IconY);
-				m_IconLoaded = true;
-			}
+			m_Icon.WhenAfterLoad();
 			WhenAfterLoad_Sub();
 		}
 
@@ -160,12 +191,12 @@ namespace FPS_n2 {
 				Xsize = WindowSystem::SetMsg(xp, yp, xp, yp + ysize, LineHeight * 7 / 10, STR_LEFT, White, Black, "„¤%s", this->GetName().c_str());
 			}
 			xp += Xsize;
-			if (m_IconLoaded) {
-				float Scale = (float)ysize / (float)(std::min(IconX, IconY));
-				float rad = (IconX >= IconY) ? deg2rad(0) : deg2rad(90);
+			if (m_Icon.GetGraph()) {
+				float Scale = (float)ysize / (float)(std::min(m_Icon.GetXSize(), m_Icon.GetYSize()));
+				float rad = (m_Icon.GetXSize() >= m_Icon.GetYSize()) ? deg2rad(0) : deg2rad(90);
 
-				this->m_Icon.DrawRotaGraph(xp + (int)(((float)IconX * std::cos(rad) + (float)IconY * std::sin(rad)) / 2.f * Scale), yp + ysize / 2, Scale, rad, false);
-				return (int)(Xsize + ysize * IconX / IconY);
+				m_Icon.GetGraph()->DrawRotaGraph(xp + (int)(((float)m_Icon.GetXSize() * std::cos(rad) + (float)m_Icon.GetYSize() * std::sin(rad)) / 2.f * Scale), yp + ysize / 2, Scale, rad, false);
+				return (int)(Xsize + ysize * m_Icon.GetXSize() / m_Icon.GetYSize());
 			}
 			else {
 				return (int)Xsize;
@@ -242,10 +273,10 @@ namespace FPS_n2 {
 			DataErrorLog::Instance()->AddLog(ErrMes.c_str());
 			return InvalidID;
 		}
-		const List*		FindPtr(ID id) const noexcept {
-			for (const auto&t : m_List) {
+		List*		FindPtr(ID id) const noexcept {
+			for (auto&t : m_List) {
 				if (t.GetID() == id) {
-					return &t;
+					return (List*)&t;
 				}
 			}
 			std::string ErrMes = "Error : Not Find ID :";

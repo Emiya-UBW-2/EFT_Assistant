@@ -1,2 +1,6 @@
 Name=Interchange
 Color=[0,0,255]
+InGamePath=data/InGameMapPic/OfficialInterchangePaperMap.jpg
+NorthDegree=180
+2DPath=data/2DMaspPic/Interchange2DMapLorathor.jpg
+NorthDegree=0

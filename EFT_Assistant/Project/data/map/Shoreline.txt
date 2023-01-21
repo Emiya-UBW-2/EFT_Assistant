@@ -1,2 +1,8 @@
 Name=Shoreline
 Color=[0,255,0]
+InGamePath=data/InGameMapPic/Map_Shoreline.jpg
+NorthDegree=180
+2DPath=data/2DMaspPic/Shoreline_Map_-_12.7.png
+NorthDegree=0
+ElsePath=data/InGameMapPic/Map_Shoreline_Resort.jpg
+NorthDegree=180

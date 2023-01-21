@@ -1,3 +1,8 @@
 Name=Customs
 Color=[0,192,0]
 InGamePath=data/InGameMapPic/Customs.jpg
+NorthDegree=180
+2DPath=data/2DMaspPic/CustomsLargeExpansionGloryMonki.png
+NorthDegree=0
+ElsePath=data/2DMaspPic/DormRoomsMap.jpg
+NorthDegree=0

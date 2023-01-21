@@ -13,7 +13,7 @@ namespace FPS_n2 {
 
 		//bool							m_NotUseInRaid{ false };
 	private:
-		bool MakeLists(int Layer, bool AndNext, const std::function<void(std::pair<int, bool>*)>& ListSet) {
+		void MakeLists(int Layer, bool AndNext, const std::function<void(std::pair<int, bool>*)>& ListSet) noexcept {
 			auto& NowSel = m_ItemIDs.at(Layer);
 			NowSel.second = ((NowSel.first != InvalidID) && AndNext);
 			if (Layer == 0 || (Layer >= 1 && m_ItemIDs.at(Layer - 1).second)) {
@@ -23,50 +23,6 @@ namespace FPS_n2 {
 				NowSel.first = InvalidID;
 			}
 		}
-		template<class ListChild>
-		void MakeList(int xp1, int yp1, const std::vector<ListChild>& List, int*Select, bool isActive, bool isElseSelect, const std::function<bool(const ListChild*)>& CheckLocal) {
-			int xsize = y_r(400);
-			int ysize = LineHeight;
-			int count = 0;
-			int yp_t = yp1;
-			yp_t += ysize + y_r(5);
-			//
-			int IDBuf = InvalidID;
-			bool NotSelect = (*Select == InvalidID);
-			for (const auto& L2 : List) {
-				if (!CheckLocal(&L2)) { continue; }
-				IDBuf = L2.GetID();
-				bool SelectIt = (*Select == IDBuf);
-				auto color = NotSelect ? Gray25 : (SelectIt ? Gray10 : Gray50);
-				if (WindowSystem::ClickCheckBox(xp1 - (SelectIt ? y_r(25) : 0), yp_t, xp1 + xsize, yp_t + ysize, false, isActive || (!isActive && SelectIt), color, L2.GetName().c_str())) {
-					*Select = (isActive) ? IDBuf : InvalidID;
-				}
-				yp_t += ysize + y_r(5);
-				count++;
-			}
-			if (count > 0 && isElseSelect) {//‚»‚Ì‘¼
-				bool ElseSelect = (*Select == ElseSelectID);
-				auto color = ElseSelect ? Gray25 : Gray50;
-				if (WindowSystem::ClickCheckBox(xp1 - (ElseSelect ? y_r(25) : 0), yp_t, xp1 + xsize, yp_t + ysize, false, isActive, color, "Else")) {
-					*Select = ElseSelectID;
-				}
-			}
-			//‘S•”‘I‘ð
-			if (count > 1) {
-				auto color = NotSelect ? Gray10 : Gray50;
-				if (WindowSystem::ClickCheckBox(xp1 - (NotSelect ? y_r(25) : 0), yp1, xp1 + xsize, yp1 + ysize, false, isActive, color, "ALL")) {
-					*Select = InvalidID;
-				}
-			}
-			else {
-				if (IDBuf != InvalidID) {
-					*Select = IDBuf;
-				}
-			}
-			if (count == 0) {
-				if (WindowSystem::ClickCheckBox(xp1, yp1, xp1 + xsize, yp1 + ysize, false, false, Gray50, "None")) {}
-			}
-		};
 	private:
 		void Init_Sub(int *, int *, float*) noexcept override {
 			m_XChild = 0.f;
@@ -141,7 +97,7 @@ namespace FPS_n2 {
 						if (isChild) {
 							xgoal += xs_add;
 						}
-						MakeList<ItemCategoryList>(xp + xgoal, yp, ItemCategoryData::Instance()->GetList(), &IDs->first, !IDs->second, false, [&](const auto *) { return true; });
+						MakeList<ItemCategoryList>(xp + xgoal, yp, ItemCategoryData::Instance()->GetList(), &IDs->first, !IDs->second, false, true, [&](const auto *) { return true; });
 					});
 				}
 				//
@@ -153,7 +109,7 @@ namespace FPS_n2 {
 						if (isChild) {
 							xgoal += xs_add;
 						}
-						MakeList<ItemTypeList>(xp + xgoal, yp, ItemTypeData::Instance()->GetList(), &IDs->first, !IDs->second, false, [&](const auto *ptr) { return (ptr->GetCategoryID() == m_ItemIDs.at(Layer - 1).first); });
+						MakeList<ItemTypeList>(xp + xgoal, yp, ItemTypeData::Instance()->GetList(), &IDs->first, !IDs->second, false, true, [&](const auto *ptr) { return (ptr->GetCategoryID() == m_ItemIDs.at(Layer - 1).first); });
 					});
 				}
 				//
@@ -164,7 +120,7 @@ namespace FPS_n2 {
 						if (isChild) {
 							xgoal += xs_add;
 						}
-						MakeList<MapList>(xp + xgoal, yp, MapData::Instance()->GetList(), &IDs->first, !IDs->second, true, [&](const auto *) { return true; });
+						MakeList<MapList>(xp + xgoal, yp, MapData::Instance()->GetList(), &IDs->first, !IDs->second, true, true, [&](const auto *) { return true; });
 					});
 				}
 				//

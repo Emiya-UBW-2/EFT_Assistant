@@ -35,4 +35,53 @@ namespace FPS_n2 {
 			Dispose_Sub();
 		}
 	};
+
+	template<class ListChild>
+	static void MakeList(int xp1, int yp1, const std::vector<ListChild>& List, int*Select, bool isActive, bool isElseSelect,bool isAllSelect, const std::function<bool(const ListChild*)>& CheckLocal) noexcept {
+		int xsize = y_r(400);
+		int ysize = LineHeight;
+		int count = 0;
+		int yp_t = yp1;
+		if (isAllSelect) {
+			yp_t += ysize + y_r(5);
+		}
+		//
+		int IDBuf = InvalidID;
+		bool NotSelect = (*Select == InvalidID);
+		for (const auto& L2 : List) {
+			if (!CheckLocal(&L2)) { continue; }
+			IDBuf = L2.GetID();
+			bool SelectIt = (*Select == IDBuf);
+			auto color = NotSelect ? Gray25 : (SelectIt ? Gray10 : Gray50);
+			if (WindowSystem::ClickCheckBox(xp1 - (SelectIt ? y_r(25) : 0), yp_t, xp1 + xsize, yp_t + ysize, false, isActive || (!isActive && SelectIt), color, L2.GetName().c_str())) {
+				*Select = (isActive) ? IDBuf : InvalidID;
+			}
+			yp_t += ysize + y_r(5);
+			count++;
+		}
+		if (count > 0 && isElseSelect) {//‚»‚Ì‘¼
+			bool ElseSelect = (*Select == ElseSelectID);
+			auto color = ElseSelect ? Gray25 : Gray50;
+			if (WindowSystem::ClickCheckBox(xp1 - (ElseSelect ? y_r(25) : 0), yp_t, xp1 + xsize, yp_t + ysize, false, isActive, color, "Else")) {
+				*Select = ElseSelectID;
+			}
+		}
+		//‘S•”‘I‘ð
+		if (isAllSelect) {
+			if (count > 1) {
+				auto color = NotSelect ? Gray10 : Gray50;
+				if (WindowSystem::ClickCheckBox(xp1 - (NotSelect ? y_r(25) : 0), yp1, xp1 + xsize, yp1 + ysize, false, isActive, color, "ALL")) {
+					*Select = InvalidID;
+				}
+			}
+			else {
+				if (IDBuf != InvalidID) {
+					*Select = IDBuf;
+				}
+			}
+		}
+		if (count == 0) {
+			if (WindowSystem::ClickCheckBox(xp1, yp1, xp1 + xsize, yp1 + ysize, false, false, Gray50, "None")) {}
+		}
+	};
 };

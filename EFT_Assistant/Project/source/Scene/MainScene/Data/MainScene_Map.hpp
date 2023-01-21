@@ -4,35 +4,54 @@
 namespace FPS_n2 {
 	typedef int MapID;
 	class MapList : public ListParent<MapID> {
-		std::string				m_InGameMapPath{ "" };
-		GraphHandle				m_InGameMap;
-		bool					m_InGameMapLoaded{ false };
-		int						InGameMapX{ -1 };
-		int						InGameMapY{ -1 };
+		std::vector<std::pair<Graphs,int>>		m_MapGraph;
 	private:
 		//追加設定
 		void			Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>&) noexcept override {
 			if (LEFT == "InGamePath") {
-				m_InGameMapPath = RIGHT;
+				m_MapGraph.resize(m_MapGraph.size() + 1);
+				m_MapGraph.back().first.SetPath(RIGHT.c_str());
+			}
+			if (LEFT == "2DPath") {
+				m_MapGraph.resize(m_MapGraph.size() + 1);
+				m_MapGraph.back().first.SetPath(RIGHT.c_str());
+			}
+			if (LEFT == "ElsePath") {
+				if (m_MapGraph.size() < 2) {
+					DataErrorLog::Instance()->AddLog(("必要なマップ画像を設定してません:" + GetName()).c_str());
+				}
+				m_MapGraph.resize(m_MapGraph.size() + 1);
+				m_MapGraph.back().first.SetPath(RIGHT.c_str());
+			}
+			if (LEFT == "NorthDegree") {
+				m_MapGraph.back().second = std::stoi(RIGHT);
 			}
 		}
 		void	Load_Sub() noexcept override {
-			if (m_InGameMapPath != "") {
-				m_InGameMap = GraphHandle::Load(m_InGameMapPath.c_str(), false);
-				m_InGameMapLoaded = false;
-			}
 		}
 		void	WhenAfterLoad_Sub() noexcept override {
-			if (m_InGameMapPath != "") {
-				GraphFilter(this->m_InGameMap.get(), DX_GRAPH_FILTER_BRIGHT_CLIP, DX_CMP_LESS, 1, TRUE, Black, 255);
-				this->m_InGameMap.GetSize(&InGameMapX, &InGameMapY);
-				m_InGameMapLoaded = true;
-			}
 		}
 	public:
-		const auto*	GetInGameMapGraph() const noexcept { return (m_InGameMapLoaded) ? &m_InGameMap : nullptr; }
-		const auto	GetInGameMapXSize() const noexcept { return (m_InGameMapLoaded) ? InGameMapX : -1; }
-		const auto	GetInGameMapYSize() const noexcept { return (m_InGameMapLoaded) ? InGameMapY : -1; }
+		void	LoadMapPics() noexcept {
+			for (auto& m : m_MapGraph) {
+				m.first.LoadByPath();
+			}
+		}
+		void	WhenAfterLoadMapPics() noexcept {
+			for (auto& m : m_MapGraph) {
+				m.first.WhenAfterLoad();
+			}
+		}
+		void	DisposeMapPics() noexcept {
+			for (auto& m : m_MapGraph) {
+				m.first.DisposeGraph();
+			}
+		}
+		const auto	GetMapPicNum() const noexcept { return m_MapGraph.size(); }
+		const auto*	GetMapGraph(int ID) const noexcept { return m_MapGraph.at(ID).first.GetGraph(); }
+		const auto	GetMapXSize(int ID) const noexcept { return m_MapGraph.at(ID).first.GetXSize(); }
+		const auto	GetMapYSize(int ID) const noexcept { return m_MapGraph.at(ID).first.GetYSize(); }
+		const auto	GetMapNorthRad(int ID) const noexcept { return deg2rad(m_MapGraph.at(ID).second); }
 	};
 	class MapData : public SingletonBase<MapData>, public DataParent<MapID, MapList> {
 	private:

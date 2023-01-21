@@ -38,6 +38,10 @@ namespace FPS_n2 {
 		std::shared_ptr<MapBG>										m_MapBG;
 
 		bool														m_Loading{ false };
+
+		bool														m_WindowMove{ false };
+
+		float														m_NoneActiveTimes{ 0.f };
 	public:
 		void Load_Sub(void) noexcept override {}
 
@@ -95,15 +99,26 @@ namespace FPS_n2 {
 			mouse_moveX = Input->GetMouseX() - mouse_moveX;
 			mouse_moveY = Input->GetMouseY() - mouse_moveY;
 			//ドラッグ開始時の処理
+			bool inMouse = in2_(Input->GetMouseX(), Input->GetMouseY(), 0, 0, y_r(1920), LineHeight);
 			if (Input->GetMiddleClick().press()) {
-				int start_windowX = 0, start_windowY = 0;
-				GetWindowPosition(&start_windowX, &start_windowY);			//ウィンドウの位置を格納
-				start_windowX += mouse_moveX;
-				start_windowY += mouse_moveY;
-				SetWindowPosition(start_windowX, start_windowY);			//マウス位置の差を算出し、ウィンドウを動かす
-				Input->SetMouse();
-				HCURSOR hCursor = LoadCursor(NULL, IDC_SIZEALL);
-				SetCursor(hCursor);
+				if (Input->GetMiddleClick().trigger()) {
+					m_WindowMove = false;
+					if (m_PullDown >= 1.f) {
+						if (inMouse) {
+							m_WindowMove = true;
+						}
+					}
+				}
+				if (m_WindowMove) {
+					int start_windowX = 0, start_windowY = 0;
+					GetWindowPosition(&start_windowX, &start_windowY);			//ウィンドウの位置を格納
+					start_windowX += mouse_moveX;
+					start_windowY += mouse_moveY;
+					SetWindowPosition(start_windowX, start_windowY);			//マウス位置の差を算出し、ウィンドウを動かす
+					Input->SetMouse();
+					HCURSOR hCursor = LoadCursor(NULL, IDC_SIZEALL);
+					SetCursor(hCursor);
+				}
 			}
 			//
 			if (Input->GetWheelAdd() != 0) {
@@ -151,6 +166,19 @@ namespace FPS_n2 {
 				}
 				m_BGPtr->Init(&this->m_posx, &this->m_posy, &this->m_Scale);
 			}
+
+			if (!GetWindowActiveFlag()) {
+				if (m_NoneActiveTimes > 0.f) {
+					m_NoneActiveTimes -= 1.f / FPS;
+				}
+				else {
+					m_NoneActiveTimes = 0.f;
+					m_IsPullDown = true;
+				}
+			}
+			else {
+				m_NoneActiveTimes = 5.f;
+			}
 			return true;
 		}
 		void Dispose_Sub(void) noexcept override {
@@ -182,11 +210,12 @@ namespace FPS_n2 {
 				m_Window->Draw();
 			}
 			//タイトルバック
-			WindowSystem::SetBox(0, 0, (int)(Lerp((float)Xmin, (float)Xsize, m_PullDown)), LineHeight, Gray50);
+			int DieCol = std::clamp((int)(Lerp(1.f, 128.f, m_NoneActiveTimes / 5.f)), 0, 255);
+			WindowSystem::SetBox(0, 0, (int)(Lerp((float)Xmin, (float)Xsize, m_PullDown)), LineHeight, GetColor(DieCol, DieCol, DieCol));
 			//タイトル
 			if (m_PullDown >= 1.f) {
 				WindowSystem::SetMsg(0, 0, y_r(1920), LineHeight, LineHeight, STR_MID, White, Black, "EFT Assistant");
-				WindowSystem::SetMsg(y_r(1280), LineHeight * 3 / 10, y_r(1280), LineHeight, LineHeight * 7 / 10, STR_LEFT, White, Black, "ver %d.%d.%d", 0, 0, 10);
+				WindowSystem::SetMsg(y_r(1280), LineHeight * 3 / 10, y_r(1280), LineHeight, LineHeight * 7 / 10, STR_LEFT, White, Black, "ver %d.%d.%d", 0, 0, 12);
 				if (WindowSystem::CloseButton(y_r(1920) - LineHeight, 0)) { SetisEnd(true); }
 			}
 			//展開
