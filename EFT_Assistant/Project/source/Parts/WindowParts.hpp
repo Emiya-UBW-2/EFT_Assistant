@@ -1,5 +1,5 @@
 #pragma once
-#include"Header.hpp"
+#include"../Header.hpp"
 
 #define EdgeSize	y_r(2)
 #define LineHeight	y_r(48)
@@ -23,8 +23,7 @@ namespace FPS_n2 {
 	namespace WindowSystem {
 		//箱
 		static void SetBox(int xp1, int yp1, int xp2, int yp2, unsigned int colorSet) {
-			DrawBox(xp1, yp1, xp2, yp2, Gray75, TRUE);
-			DrawBox(xp1 + EdgeSize, yp1 + EdgeSize, xp2 - EdgeSize, yp2 - EdgeSize, colorSet, TRUE);
+			DrawControl::Instance()->SetDrawBox(xp1, yp1, xp2, yp2, colorSet, true);
 		};
 		//文字
 		template <typename... Args>
@@ -32,12 +31,7 @@ namespace FPS_n2 {
 			if (String == "") { return 0; }
 			auto* DrawParts = DXDraw::Instance();
 			auto* Fonts = FontPool::Instance();
-
-			int xSize= Fonts->Get(FontPool::FontType::Nomal_Edge).GetStringWidth(size, ((std::string)String).c_str(), args...) + y_r(6) + 2;//エッジ分:
-
-			DrawParts->m_DispXSize;
-			DrawParts->m_DispYSize;
-
+			int xSize= Fonts->Get(FontPool::FontType::Nomal_Edge, size).GetStringWidth(-1, ((std::string)String).c_str(), args...) + y_r(6) + 2;//エッジ分:
 			int xpos = 0;
 			int ypos = yp1 + (yp2 - yp1) / 2;
 			if ((ypos - size / 2) > DrawParts->m_DispYSize || (ypos + size / 2) < 0) { return 0; }				//画面外は表示しない
@@ -57,7 +51,7 @@ namespace FPS_n2 {
 			default:
 				break;
 			}
-			Fonts->Get(FontPool::FontType::Nomal_Edge).DrawString(size, FontX, FontHandle::FontYCenter::MIDDLE, xpos, ypos, Color, EdleColor, ((std::string)String).c_str(), args...);
+			DrawControl::Instance()->SetString(FontPool::FontType::Nomal_Edge, size, FontX, FontHandle::FontYCenter::MIDDLE, xpos, ypos, Color, EdleColor, ((std::string)String).c_str(), args...);
 			return xSize;//エッジ分
 		};
 		//
@@ -105,7 +99,7 @@ namespace FPS_n2 {
 				HCURSOR hCursor = LoadCursor(NULL, IDC_HAND);
 				SetCursor(hCursor);
 			}
-			DrawBox(xp3 + EdgeSize, yp3 + EdgeSize, xp4 - EdgeSize, yp4 - EdgeSize, color, TRUE);
+			DrawControl::Instance()->SetDrawBox(xp3 + EdgeSize, yp3 + EdgeSize, xp4 - EdgeSize, yp4 - EdgeSize, color, true);
 			WindowSystem::SetMsg(xp3, yp3, xp4, yp4, LineHeight - EdgeSize * 2 - y_r(6), FontHandle::FontXCenter::MIDDLE, White, Black, "X");
 			return ans;
 		}
@@ -261,7 +255,7 @@ namespace FPS_n2 {
 				//背景
 				{
 					int add = y_r(5);
-					DrawBox(xp1 + add, yp1 + add, xp2 + add, yp2 + add, Black, TRUE);
+					DrawControl::Instance()->SetDrawBox(xp1 + add, yp1 + add, xp2 + add, yp2 + add, Black, TRUE);
 					SetBox(xp1, yp1, xp2, yp2, Gray10);
 				}
 
@@ -320,7 +314,7 @@ namespace FPS_n2 {
 						HCURSOR hCursor = LoadCursor(NULL, IDC_HAND);
 						SetCursor(hCursor);
 					}
-					DrawBox(xp3 + EdgeSize, yp3 + EdgeSize, xp4 - EdgeSize, yp4 - EdgeSize, color, TRUE);
+					DrawControl::Instance()->SetDrawBox(xp3 + EdgeSize, yp3 + EdgeSize, xp4 - EdgeSize, yp4 - EdgeSize, color, TRUE);
 					SetMsg(xp3, yp3, xp4, yp4, LineHeight - EdgeSize * 2 - y_r(6), FontHandle::FontXCenter::MIDDLE, White, Black, !this->m_isMaxSize ? "□" : "ﾛ");
 				}
 				//×ボタン
@@ -355,7 +349,7 @@ namespace FPS_n2 {
 							this->m_BaseScaleY = Input->GetMouseY() - (this->m_PosY + this->m_SizeY);
 						}
 						if (color != Gray25) {
-							DrawCircle(xp2 - EdgeSize, yp2 - EdgeSize, radius, color);
+							DrawControl::Instance()->SetDrawCircle(xp2 - EdgeSize, yp2 - EdgeSize, radius, color);
 						}
 					}
 					//yサイズ下
@@ -381,7 +375,7 @@ namespace FPS_n2 {
 							this->m_BaseScale2Y = Input->GetMouseY() - (this->m_PosY + this->m_SizeY);
 						}
 						if (color != Gray25) {
-							DrawBox(xp1 + EdgeSize, yp2 - EdgeSize - radius, xp2 - EdgeSize, yp2 - EdgeSize + radius, color, TRUE);
+							DrawControl::Instance()->SetDrawBox(xp1 + EdgeSize, yp2 - EdgeSize - radius, xp2 - EdgeSize, yp2 - EdgeSize + radius, color, TRUE);
 						}
 					}
 					//xサイズ右
@@ -407,7 +401,7 @@ namespace FPS_n2 {
 							this->m_BaseScale2X = Input->GetMouseX() - (this->m_PosX + this->m_SizeX);
 						}
 						if (color != Gray25) {
-							DrawBox(xp2 - EdgeSize, yp1, xp2 + EdgeSize, yp2 - EdgeSize + radius, color, TRUE);
+							DrawControl::Instance()->SetDrawBox(xp2 - EdgeSize, yp1, xp2 + EdgeSize, yp2 - EdgeSize + radius, color, TRUE);
 						}
 					}
 					//yサイズ上
@@ -435,7 +429,7 @@ namespace FPS_n2 {
 							this->m_BaseScale1Y = this->m_PosY + this->m_SizeY;
 						}
 						if (color != Gray25) {
-							DrawBox(xp1 + EdgeSize, yp1 - radius * 2, xp2 - EdgeSize, yp1, color, TRUE);
+							DrawControl::Instance()->SetDrawBox(xp1 + EdgeSize, yp1 - radius * 2, xp2 - EdgeSize, yp1, color, TRUE);
 						}
 					}
 					//xサイズ左
@@ -463,15 +457,15 @@ namespace FPS_n2 {
 							this->m_BaseScale1X = this->m_PosX + this->m_SizeX;
 						}
 						if (color != Gray25) {
-							DrawBox(xp1 - EdgeSize, yp1, xp1 + EdgeSize, yp2 - EdgeSize + radius, color, TRUE);
+							DrawControl::Instance()->SetDrawBox(xp1 - EdgeSize, yp1, xp1 + EdgeSize, yp2 - EdgeSize + radius, color, TRUE);
 						}
 					}
 				}
 				//非アクティブ
 				if (!this->m_IsActive) {
-					SetDrawBlendMode(DX_BLENDMODE_ALPHA, 24);
-					DrawBox(xp1, yp1, xp2, yp2, Black, TRUE);
-					SetDrawBlendMode(DX_BLENDMODE_NOBLEND, 0);
+					DrawControl::Instance()->SetAlpha(24);
+					DrawControl::Instance()->SetDrawBox(xp1, yp1, xp2, yp2, Black, TRUE);
+					DrawControl::Instance()->SetAlpha(255);
 				}
 
 				//タブ演算
@@ -537,18 +531,18 @@ namespace FPS_n2 {
 				}
 
 				if (this->m_CanChageSize && this->m_IsMoving && Input->GetLeftClick().press()) {
-					SetDrawBlendMode(DX_BLENDMODE_ALPHA, 24);
+					DrawControl::Instance()->SetAlpha(24);
 					if (y_r(10) < Input->GetMouseY() && Input->GetMouseY() < DrawParts->m_DispYSize - y_r(10)) {
 						if (Input->GetMouseX() < y_r(10)) {
-							DrawBox(0, 0, DrawParts->m_DispXSize / 2, DrawParts->m_DispYSize, Black, TRUE);
+							DrawControl::Instance()->SetDrawBox(0, 0, DrawParts->m_DispXSize / 2, DrawParts->m_DispYSize, Black, TRUE);
 						}
 						if (Input->GetMouseX() > DrawParts->m_DispXSize - y_r(10)) {
-							DrawBox(DrawParts->m_DispXSize / 2, 0, DrawParts->m_DispXSize, DrawParts->m_DispYSize, Black, TRUE);
+							DrawControl::Instance()->SetDrawBox(DrawParts->m_DispXSize / 2, 0, DrawParts->m_DispXSize, DrawParts->m_DispYSize, Black, TRUE);
 						}
 					}
 					else {
 						if (Input->GetMouseX() < y_r(10)) {
-							DrawBox(
+							DrawControl::Instance()->SetDrawBox(
 								y_r(0),
 								(Input->GetMouseY() < DrawParts->m_DispYSize / 2) ? y_r(0) : DrawParts->m_DispYSize / 2,
 								DrawParts->m_DispXSize / 2,
@@ -556,7 +550,7 @@ namespace FPS_n2 {
 								Black, TRUE);
 						}
 						if (Input->GetMouseX() > DrawParts->m_DispXSize - y_r(10)) {
-							DrawBox(
+							DrawControl::Instance()->SetDrawBox(
 								DrawParts->m_DispXSize / 2,
 								(Input->GetMouseY() < DrawParts->m_DispYSize / 2) ? y_r(0) : DrawParts->m_DispYSize / 2,
 								DrawParts->m_DispXSize,
@@ -564,7 +558,7 @@ namespace FPS_n2 {
 								Black, TRUE);
 						}
 					}
-					SetDrawBlendMode(DX_BLENDMODE_NOBLEND, 0);
+					DrawControl::Instance()->SetAlpha(255);
 				}
 			};
 		};
@@ -582,7 +576,7 @@ namespace FPS_n2 {
 			}
 			void		DeleteAll() noexcept {
 				for (auto& w : m_WindowControl) {
-					w->SetIsActive(false);
+					w->m_isDelete = true;
 				}
 			}
 		public:

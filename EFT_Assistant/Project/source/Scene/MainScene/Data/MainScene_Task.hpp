@@ -1,5 +1,5 @@
 #pragma once
-#include"Header.hpp"
+#include"../../../Header.hpp"
 
 namespace FPS_n2 {
 	typedef int TaskID;
@@ -238,7 +238,7 @@ namespace FPS_n2 {
 		void			SetNeedTasktoID(const std::vector<TaskList>& taskList) noexcept {
 			m_TaskNeedData.SetNeedTasktoID(taskList);
 		}
-		void			DrawWindow(int xp, int yp, int *xs, int* ys) const noexcept {
+		void			DrawWindow(int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept {
 			int xofs = 0;
 			int yofs = LineHeight;
 			int sizy = LineHeight * 7 / 10;
@@ -315,8 +315,12 @@ namespace FPS_n2 {
 				yofs += sizy;
 			}
 			//
-			*xs = std::max(*xs, xofs + LineHeight / 10);
-			*ys = std::max(*ys, yofs + LineHeight / 10);
+			if (xs) {
+				*xs = std::max(*xs, xofs + LineHeight / 10);
+			}
+			if (ys) {
+				*ys = std::max(*ys, yofs + LineHeight / 10);
+			}
 		}
 	};
 	class TaskData : public SingletonBase<TaskData>, public DataParent<TaskID, TaskList> {

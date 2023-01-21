@@ -1,5 +1,5 @@
 #pragma once
-#include"Header.hpp"
+#include"../../../Header.hpp"
 
 namespace FPS_n2 {
 	class TaskBG :public BGParent {
@@ -8,8 +8,8 @@ namespace FPS_n2 {
 		int															m_posxMaxBuffer{ 0 };
 		int															m_posyMaxBuffer{ 0 };
 		std::vector<Rect2D>											m_TaskRect;
-		std::vector<GraphHandle>									m_TaskGraph;
-		std::vector<std::shared_ptr<WindowSystem::WindowControl>>	m_TaskPtr;
+		std::vector<TaskID>											m_TaskID;
+		std::vector<std::shared_ptr<WindowSystem::WindowControl>>	m_TaskWindowPtr;
 	private:
 		void DrawChildTaskClickBox(std::unique_ptr<WindowSystem::WindowManager>& Windowup, float Scale, TaskID ParentID, int start_x, int start_y, int xp, int yp, int xs, int ys, bool parentCanDo = true) noexcept {
 			if (ParentID == InvalidID) {
@@ -41,24 +41,19 @@ namespace FPS_n2 {
 						parentCanDo_t = false;
 					}
 					if (ParentID != InvalidID) {
-						DrawLine(start_x, start_y, xp, yp + ys / 2, Red, (int)(5.f * Scale));
+						DrawControl::Instance()->SetDrawLine(start_x, start_y, xp, yp + ys / 2, Red, (int)(5.f * Scale));
 					}
 					if (WindowSystem::ClickCheckBox(xp, yp, xp + xs, yp + ys, false, !Windowup->PosHitCheck(), color, (Scale > 0.5f) ? tasks.GetName() : "")) {
-						auto sizeXBuf = y_r(640);
+						auto sizeXBuf = y_r(800);
 						auto sizeYBuf = y_r(0);
 						tasks.DrawWindow(0, 0, &sizeXBuf, &sizeYBuf);//試しにサイズ計測
-						m_TaskGraph.emplace_back(GraphHandle::Make(sizeXBuf, sizeYBuf, true));
-						m_TaskGraph.back().SetDraw_Screen();
-						{
-							tasks.DrawWindow(0, 0, &sizeXBuf, &sizeYBuf);
-						}
-						SetDrawScreen(DX_SCREEN_BACK);
+						m_TaskID.emplace_back(tasks.GetID());
 						//
-						m_TaskPtr.emplace_back(Windowup->Add());
-						m_TaskPtr.back()->Set(xp + xs / 2 - sizeXBuf / 2, yp, sizeXBuf, sizeYBuf, 0, tasks.GetName().c_str(), false, true, [&](WindowSystem::WindowControl* win) {
-							for (auto& t : m_TaskPtr) {
+						m_TaskWindowPtr.emplace_back(Windowup->Add());
+						m_TaskWindowPtr.back()->Set(xp + xs / 2 - sizeXBuf / 2, yp, sizeXBuf, sizeYBuf, 0, tasks.GetName().c_str(), false, true, [&](WindowSystem::WindowControl* win) {
+							for (auto& t : m_TaskWindowPtr) {
 								if (t.get() == win) {
-									m_TaskGraph[&t - &m_TaskPtr.front()].DrawGraph(win->GetPosX(), win->GetPosY(), true);
+									TaskData::Instance()->FindPtr(m_TaskID.at(&t - &m_TaskWindowPtr.front()))->DrawWindow(win->GetPosX(), win->GetPosY());
 									break;
 								}
 							}
@@ -116,20 +111,19 @@ namespace FPS_n2 {
 	private:
 		void LateExecute_Sub(void) noexcept override {
 			//ウィンドウとの同期
-			for (int i = 0; i < m_TaskPtr.size(); i++) {
-				if (m_TaskPtr[i].use_count() <= 1) {
-					std::swap(m_TaskGraph[i], m_TaskGraph.back());
-					std::swap(m_TaskPtr[i], m_TaskPtr.back());
-					m_TaskGraph.back().Dispose();
-					m_TaskPtr.back().reset();
-					m_TaskGraph.pop_back();
-					m_TaskPtr.pop_back();
+			for (int i = 0; i < m_TaskWindowPtr.size(); i++) {
+				if (m_TaskWindowPtr[i].use_count() <= 1) {
+					std::swap(m_TaskID[i], m_TaskID.back());
+					std::swap(m_TaskWindowPtr[i], m_TaskWindowPtr.back());
+					m_TaskWindowPtr.back().reset();
+					m_TaskID.pop_back();
+					m_TaskWindowPtr.pop_back();
 					i--;
 				}
 			}
 		}
 		void Draw_Back_Sub(std::unique_ptr<WindowSystem::WindowManager>& Windowup, int posx, int posy, float Scale) noexcept override {
-			int xs = (int)((float)y_r(640) * Scale);
+			int xs = (int)((float)y_r(800) * Scale);
 			int ys = (int)((float)LineHeight * Scale);
 			DrawChildTaskClickBox(Windowup, Scale, InvalidID, posx + xs, posy + ys / 2, posx, posy, xs, ys);
 		}
@@ -158,11 +152,11 @@ namespace FPS_n2 {
 				int x_p2 = std::min(this->m_posxMaxBuffer * xs / DrawParts->m_DispXSize, xs + xs / 2);
 				int y_p2 = std::min(this->m_posyMaxBuffer * ys / DrawParts->m_DispYSize, ys + ys / 2);
 
-				SetDrawBlendMode(DX_BLENDMODE_ALPHA, 64);
-				DrawBox(xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Black, TRUE);
-				SetDrawBlendMode(DX_BLENDMODE_NOBLEND, 0);
-				DrawBox(xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Green, FALSE);
-				DrawBox(xp, yp, xp + xs, yp + ys, Red, FALSE);
+				DrawControl::Instance()->SetAlpha(64);
+				DrawControl::Instance()->SetDrawBox(xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Black, TRUE);
+				DrawControl::Instance()->SetAlpha(255);
+				DrawControl::Instance()->SetDrawBox(xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Green, FALSE);
+				DrawControl::Instance()->SetDrawBox(xp, yp, xp + xs, yp + ys, Red, FALSE);
 			}
 			//
 			{
@@ -174,11 +168,10 @@ namespace FPS_n2 {
 			}
 		}
 		void Dispose_Sub(void) noexcept override {
-			for (int i = 0; i < m_TaskPtr.size(); i++) {
-				m_TaskGraph.back().Dispose();
-				m_TaskPtr.back().reset();
-				m_TaskGraph.pop_back();
-				m_TaskPtr.pop_back();
+			for (int i = 0; i < m_TaskWindowPtr.size(); i++) {
+				m_TaskWindowPtr.back().reset();
+				m_TaskID.pop_back();
+				m_TaskWindowPtr.pop_back();
 			}
 		}
 	};

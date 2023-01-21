@@ -1,5 +1,5 @@
 #pragma once
-#include"Header.hpp"
+#include"../../../Header.hpp"
 
 namespace FPS_n2 {
 	//
@@ -195,7 +195,7 @@ namespace FPS_n2 {
 				float Scale = (float)ysize / (float)(std::min(m_Icon.GetXSize(), m_Icon.GetYSize()));
 				float rad = (m_Icon.GetXSize() >= m_Icon.GetYSize()) ? deg2rad(0) : deg2rad(90);
 
-				m_Icon.GetGraph()->DrawRotaGraph(xp + (int)(((float)m_Icon.GetXSize() * std::cos(rad) + (float)m_Icon.GetYSize() * std::sin(rad)) / 2.f * Scale), yp + ysize / 2, Scale, rad, false);
+				DrawControl::Instance()->SetDrawRotaGraph(m_Icon.GetGraph(), xp + (int)(((float)m_Icon.GetXSize() * std::cos(rad) + (float)m_Icon.GetYSize() * std::sin(rad)) / 2.f * Scale), yp + ysize / 2, Scale, rad, false);
 				return (int)(Xsize + ysize * m_Icon.GetXSize() / m_Icon.GetYSize());
 			}
 			else {

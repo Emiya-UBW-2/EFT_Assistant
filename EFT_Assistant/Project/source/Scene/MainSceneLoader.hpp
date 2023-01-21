@@ -19,10 +19,8 @@ namespace FPS_n2 {
 		}
 	public:
 		//UI•\Ž¦
-		void DrawUI_Base_Sub(void) noexcept  override {
-			auto* Fonts = FontPool::Instance();
-
-			Fonts->Get(FontPool::FontType::Nomal_Edge).DrawString(y_r(24), FontHandle::FontXCenter::MIDDLE, FontHandle::FontYCenter::MIDDLE,
+		void DrawUI_In_Sub(void) noexcept  override {
+			FontPool::Instance()->Get(FontPool::FontType::Nomal_Edge).DrawString(y_r(24), FontHandle::FontXCenter::MIDDLE, FontHandle::FontYCenter::MIDDLE,
 				y_r(960), y_r(540), GetColor(255, 255, 255), GetColor(0, 0, 0), "Loading...");
 		}
 	};

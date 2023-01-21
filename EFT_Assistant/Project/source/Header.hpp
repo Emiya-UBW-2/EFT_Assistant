@@ -22,6 +22,7 @@ using namespace DXLib_ref;
 //
 #include "Scene/MainSceneLoader.hpp"
 
+#include "Parts/DrawSystem.hpp"
 #include "Parts/InputParts.hpp"
 #include "Parts/WindowParts.hpp"
 

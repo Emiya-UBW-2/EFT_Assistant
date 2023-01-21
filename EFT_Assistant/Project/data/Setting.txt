@@ -1,12 +1,12 @@
 grass_level=1
-DoF=true
-bloom=true
-shadow=true
+DoF=false
+bloom=false
+shadow=false
 usevr=false
 SSAO=false
 fov=65.000000
 vsync=true
-SE=0.980000
+SE=1.000000
 VOICE=1.000000
 BGM=1.000000
 AllWaysFront=true

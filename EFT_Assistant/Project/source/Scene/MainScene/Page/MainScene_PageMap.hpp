@@ -1,5 +1,5 @@
 #pragma once
-#include"Header.hpp"
+#include"../../../Header.hpp"
 
 namespace FPS_n2 {
 	static const char* WatchMapTypeStr[3] = {
@@ -89,12 +89,12 @@ namespace FPS_n2 {
 				//SetDrawMode(DX_DRAWMODE_BILINEAR);
 				auto* MapPtr = MapData::Instance()->FindPtr(m_MapSelect);
 				if (MapPtr->GetMapGraph((int)m_WatchMapSelect)) {
-					MapPtr->GetMapGraph((int)m_WatchMapSelect)->DrawRotaGraph(posx, posy, Scale / 2.f, m_Rad, false);
+					DrawControl::Instance()->SetDrawRotaGraph(MapPtr->GetMapGraph((int)m_WatchMapSelect), posx, posy, Scale / 2.f, m_Rad, false);
 				}
 				//SetDrawMode(DX_DRAWMODE_NEAREST);
 			}
 			if (ComPass.GetGraph()) {
-				ComPass.GetGraph()->DrawRotaGraph(y_r(100), y_r(1080 - 100), 1.f, m_ComPassRad, true);
+				DrawControl::Instance()->SetDrawRotaGraph(ComPass.GetGraph(), y_r(100), y_r(1080 - 100), 1.f, m_ComPassRad, true);
 			}
 		}
 		void DrawFront_Sub(std::unique_ptr<WindowSystem::WindowManager>&, int, int, float) noexcept override {

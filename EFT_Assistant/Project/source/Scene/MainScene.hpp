@@ -1,24 +1,22 @@
 #pragma once
-#include"Header.hpp"
-
-#define LineHeight	y_r(48)
+#include"../Header.hpp"
 
 //Datas
-#include "Scene/MainScene/Data/MainScene_Parents.hpp"
-#include "Scene/MainScene/Data/MainScene_Map.hpp"
-#include "Scene/MainScene/Data/MainScene_ItemCategory.hpp"
-#include "Scene/MainScene/Data/MainScene_ItemType.hpp"
-#include "Scene/MainScene/Data/MainScene_Item.hpp"
-#include "Scene/MainScene/Data/MainScene_Enemy.hpp"
-#include "Scene/MainScene/Data/MainScene_Trader.hpp"
-#include "Scene/MainScene/Data/MainScene_Task.hpp"
+#include "MainScene/Data/MainScene_Parents.hpp"
+#include "MainScene/Data/MainScene_Map.hpp"
+#include "MainScene/Data/MainScene_ItemCategory.hpp"
+#include "MainScene/Data/MainScene_ItemType.hpp"
+#include "MainScene/Data/MainScene_Item.hpp"
+#include "MainScene/Data/MainScene_Enemy.hpp"
+#include "MainScene/Data/MainScene_Trader.hpp"
+#include "MainScene/Data/MainScene_Task.hpp"
 //Pages
-#include "Scene/MainScene/Page/MainScene_PageParents.hpp"
-#include "Scene/MainScene/Page/MainScene_PageTitle.hpp"
-#include "Scene/MainScene/Page/MainScene_PageTask.hpp"
-#include "Scene/MainScene/Page/MainScene_PageHideout.hpp"
-#include "Scene/MainScene/Page/MainScene_PageItem.hpp"
-#include "Scene/MainScene/Page/MainScene_PageMap.hpp"
+#include "MainScene/Page/MainScene_PageParents.hpp"
+#include "MainScene/Page/MainScene_PageTitle.hpp"
+#include "MainScene/Page/MainScene_PageTask.hpp"
+#include "MainScene/Page/MainScene_PageHideout.hpp"
+#include "MainScene/Page/MainScene_PageItem.hpp"
+#include "MainScene/Page/MainScene_PageMap.hpp"
 
 namespace FPS_n2 {
 	class MAINLOOP : public TEMPSCENE {
@@ -49,6 +47,8 @@ namespace FPS_n2 {
 			//
 			InputControl::Create();
 			DataErrorLog::Create();
+			DrawControl::Create();
+			//
 			m_Window = std::make_unique<WindowSystem::WindowManager>();
 			//
 			ItemData::Create();
@@ -78,6 +78,10 @@ namespace FPS_n2 {
 		}
 
 		bool Update_Sub(void) noexcept override {
+			auto* DrawParts = DXDraw::Instance();
+
+			DrawControl::Instance()->ClearList();
+
 			if (m_Loading) {
 				if (GetASyncLoadNum() == 0) {
 					ItemData::Instance()->WhenAfterLoadList();
@@ -179,6 +183,49 @@ namespace FPS_n2 {
 			else {
 				m_NoneActiveTimes = 5.f;
 			}
+			//SetrDraw
+			{
+				int Xsize = DrawParts->m_DispXSize;
+				int Ysize = DrawParts->m_DispYSize;
+
+				int Xmin = y_r(320);
+				int Ymin = LineHeight;
+
+				DrawControl::Instance()->SetDrawBox(0, 0, (int)(Lerp((float)Xmin, (float)Xsize, m_PullDown)), (int)(Lerp((float)Ymin, (float)Ysize, m_PullDown)), Gray75, TRUE);
+				if (m_PullDown >= 1.f) {
+					//Back
+					m_BGPtr->Draw_Back(this->m_Window, this->m_posx, this->m_posy, this->m_Scale);
+					//ウィンドウ
+					m_Window->Draw();
+				}
+				//タイトルバック
+				int DieCol = std::clamp((int)(Lerp(1.f, 128.f, m_NoneActiveTimes / 5.f)), 0, 255);
+				WindowSystem::SetBox(0, 0, (int)(Lerp((float)Xmin, (float)Xsize, m_PullDown)), LineHeight, GetColor(DieCol, DieCol, DieCol));
+				//タイトル
+				if (m_PullDown >= 1.f) {
+					WindowSystem::SetMsg(0, 0, y_r(1920), LineHeight, LineHeight, STR_MID, White, Black, "EFT Assistant");
+					WindowSystem::SetMsg(y_r(1280), LineHeight * 3 / 10, y_r(1280), LineHeight, LineHeight * 7 / 10, STR_LEFT, White, Black, "ver %d.%d.%d", 0, 1, 0);
+					if (WindowSystem::CloseButton(y_r(1920) - LineHeight, 0)) { SetisEnd(true); }
+				}
+				//展開
+				if (WindowSystem::ClickCheckBox(0, 0, Xmin, Ymin, false, true, Gray25, !m_IsPullDown ? "折りたたむ" : "展開")) { m_IsPullDown ^= 1; }
+				Easing(&m_PullDown, !m_IsPullDown ? 1.f : 0.f, 0.8f, EasingType::OutExpo);
+				if (m_PullDown >= 0.95f) { m_PullDown = 1.f; }
+				if (m_PullDown <= 0.05f) { m_PullDown = 0.f; }
+				//
+				if (m_PullDown >= 1.f) {
+					//Front
+					m_BGPtr->DrawFront(this->m_Window, this->m_posx, this->m_posy, this->m_Scale);
+					//中央位置回避のための小円
+					DrawControl::Instance()->SetDrawCircle(Xsize, Ysize, y_r(100), TransColor, TRUE);
+				}
+
+				DataErrorLog::Instance()->Draw();
+				if (GetASyncLoadNum() > 0) {
+					WindowSystem::SetMsg(0, y_r(1080) - LineHeight, y_r(0), y_r(1080), LineHeight, STR_LEFT, White, Black, "Loading...");
+				}
+			}
+			//SetIsUpdateDraw(false);
 			return true;
 		}
 		void Dispose_Sub(void) noexcept override {
@@ -193,49 +240,8 @@ namespace FPS_n2 {
 		void BG_Draw_Sub(void) noexcept override {}
 
 		//UI表示
-		void DrawUI_Base_Sub(void) noexcept  override {
-			auto* DrawParts = DXDraw::Instance();
-
-			int Xsize = DrawParts->m_DispXSize;
-			int Ysize = DrawParts->m_DispYSize;
-
-			int Xmin = y_r(320);
-			int Ymin = LineHeight;
-
-			DrawBox(0, 0, (int)(Lerp((float)Xmin, (float)Xsize, m_PullDown)), (int)(Lerp((float)Ymin, (float)Ysize, m_PullDown)), Gray75, TRUE);
-			if (m_PullDown >= 1.f) {
-				//Back
-				m_BGPtr->Draw_Back(this->m_Window, this->m_posx, this->m_posy, this->m_Scale);
-				//ウィンドウ
-				m_Window->Draw();
-			}
-			//タイトルバック
-			int DieCol = std::clamp((int)(Lerp(1.f, 128.f, m_NoneActiveTimes / 5.f)), 0, 255);
-			WindowSystem::SetBox(0, 0, (int)(Lerp((float)Xmin, (float)Xsize, m_PullDown)), LineHeight, GetColor(DieCol, DieCol, DieCol));
-			//タイトル
-			if (m_PullDown >= 1.f) {
-				WindowSystem::SetMsg(0, 0, y_r(1920), LineHeight, LineHeight, STR_MID, White, Black, "EFT Assistant");
-				WindowSystem::SetMsg(y_r(1280), LineHeight * 3 / 10, y_r(1280), LineHeight, LineHeight * 7 / 10, STR_LEFT, White, Black, "ver %d.%d.%d", 0, 0, 12);
-				if (WindowSystem::CloseButton(y_r(1920) - LineHeight, 0)) { SetisEnd(true); }
-			}
-			//展開
-			if (WindowSystem::ClickCheckBox(0, 0, Xmin, Ymin, false, true, Gray25, !m_IsPullDown ? "折りたたむ" : "展開")) { m_IsPullDown ^= 1; }
-			Easing(&m_PullDown, !m_IsPullDown ? 1.f : 0.f, 0.8f, EasingType::OutExpo);
-			if (m_PullDown >= 0.95f) { m_PullDown = 1.f; }
-			if (m_PullDown <= 0.05f) { m_PullDown = 0.f; }
-			//
-			if (m_PullDown >= 1.f) {
-				//Front
-				m_BGPtr->DrawFront(this->m_Window, this->m_posx, this->m_posy, this->m_Scale);
-				//中央位置回避のための小円
-				DrawCircle(Xsize, Ysize, y_r(100), TransColor, TRUE);
-			}
-			//
-
-			DataErrorLog::Instance()->Draw();
-			if (GetASyncLoadNum() > 0) {
-				WindowSystem::SetMsg(0, y_r(1080) - LineHeight, y_r(0), y_r(1080), LineHeight, STR_LEFT, White, Black, "Loading...");
-			}
+		void DrawUI_In_Sub(void) noexcept  override {
+			DrawControl::Instance()->Draw();
 		}
 	};
 };
