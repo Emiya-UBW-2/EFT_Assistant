@@ -1,0 +1,14 @@
+Name=Pharmacist
+Trader=Therapist
+
+NeedTask=Painkiller
+NeedLevel=10
+NeedLL=1
+NeedItem=[Dorm room 114 keyx1]
+
+Task_Map=Customs
+Task_Else=2ŠK—¾114†º‚ÅCarbon case‚ğE‚¢”[•i
+
+Reward_Rep=Therapist+0.04
+Reward_Item=[AFAK tactical individual first aid kitx1,Pile of medsx3]
+

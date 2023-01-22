@@ -1,0 +1,16 @@
+Name=House Arrest - Part 1
+Trader=Skier
+
+NeedTask=Debtor
+//NeedLevel=50
+//NeedLL=1
+NeedItem=[Iron gate keyx1]
+
+Task_Map=Streets of Tarkov
+//Task_Kill=[Scavx15]
+//Task_FiR_HandOver=[Cultist knifex12]
+//Task_NotFiR_HandOver=[XXXx1]
+Task_Else=行方不明のグループが拘束されていた場所に行って生還
+
+Reward_Rep=Skier+0.03
+Reward_Item=[Kel-Tec RFB 7.62x51 riflex1]

@@ -2,5 +2,5 @@ Name=Lighthouse
 Color=[64,255,0]
 InGamePath=
 NorthDegree=0
-2DPath=data/2DMaspPic/Jindouz_Lighthouse_Map_V1.png
+2DPath=data/2DMaspPic/Jindouz_Lighthouse_Map_V1.jpg
 NorthDegree=270

@@ -2,5 +2,5 @@ Name=Factory
 Color=[128,128,128]
 InGamePath=data/InGameMapPic/Factory_Map_0.5.4.823.jpg
 NorthDegree=0
-2DPath=data/2DMaspPic/Factory_loot.png
+2DPath=data/2DMaspPic/Factory_loot.jpg
 NorthDegree=0

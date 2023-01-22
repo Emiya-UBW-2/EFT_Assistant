@@ -7,7 +7,7 @@ namespace FPS_n2 {
 		bool					m_GoNextBG{ false };
 	protected:
 		virtual void Init_Sub(int *, int *, float*) noexcept {}
-		virtual void LateExecute_Sub(void) noexcept {}
+		virtual void LateExecute_Sub(int *, int *, float*) noexcept {}
 		virtual void Draw_Back_Sub(std::unique_ptr<WindowSystem::WindowManager>&, int, int, float) noexcept {}
 		virtual void DrawFront_Sub(std::unique_ptr<WindowSystem::WindowManager>&, int, int, float) noexcept {}
 		virtual void Dispose_Sub(void) noexcept {}
@@ -22,8 +22,8 @@ namespace FPS_n2 {
 			m_GoNextBG = false;
 			Init_Sub(posx, posy, Scale);
 		}
-		void LateExecute(void) noexcept {
-			LateExecute_Sub();
+		void LateExecute(int *posx, int *posy, float* Scale) noexcept {
+			LateExecute_Sub(posx, posy, Scale);
 		}
 		void Draw_Back(std::unique_ptr<WindowSystem::WindowManager>& Windowup, int posx, int posy, float Scale) noexcept {
 			Draw_Back_Sub(Windowup, posx, posy, Scale);
@@ -38,7 +38,7 @@ namespace FPS_n2 {
 
 	template<class ListChild>
 	static void MakeList(int xp1, int yp1, const std::vector<ListChild>& List, int*Select, bool isActive, bool isElseSelect,bool isAllSelect, const std::function<bool(const ListChild*)>& CheckLocal) noexcept {
-		int xsize = y_r(400);
+		int xsize = y_r(450);
 		int ysize = LineHeight;
 		int count = 0;
 		int yp_t = yp1;

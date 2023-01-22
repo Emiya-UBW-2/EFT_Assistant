@@ -1,0 +1,13 @@
+Name=Private Clinic
+Trader=Therapist
+
+NeedTask=Private Clinic
+NeedTask=Health Care Privacy - Part 6
+
+Task_Map=Interchange
+Task_Kill=[Scavx40]
+Task_Else=Respirator/GP-5 gas mask/GP-7 gas mask‚Ì‚Ç‚ê‚©‚ğ•t‚¯‚½ó‘Ô‚Å60m‚æ‚è‹ß‚¢‹——£‚ÅƒLƒ‹
+Task_Else=todo:Private Clinic‚àğŒ
+
+Reward_Rep=Therapist+0.05
+Reward_Item=[Morphine injectorx3,IFAK individual first aid kitx3,GP-7 gas maskx3]

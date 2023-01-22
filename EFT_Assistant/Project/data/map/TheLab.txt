@@ -1,6 +1,6 @@
 Name=The Lab
 Color=[255,255,255]
-InGamePath=data/InGameMapPic/TheLabMapFull.png
+InGamePath=data/InGameMapPic/TheLabMapFull.jpg
 NorthDegree=0
-2DPath=data/2DMaspPic/LabsMapNehalemX.png
+2DPath=data/2DMaspPic/LabsMapNehalemX.jpg
 NorthDegree=0

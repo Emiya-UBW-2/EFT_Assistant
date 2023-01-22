@@ -1,0 +1,12 @@
+Name=Dangerous Road
+Trader=Therapist
+
+NeedTask=Supply Plans
+NeedLevel=15
+
+Task_Map=Streets of Tarkov
+Task_Else=¦Kind of Sabotage‚Å‚àoŒ»
+Task_Else=Ôçp’Eo‚ğ—p‚¢‚Ä¶ŠÒ
+
+Reward_Rep=Therapist+0.01
+Reward_Item=[Aluminum splintx2,CALOK-B hemostatic applicatorx2]

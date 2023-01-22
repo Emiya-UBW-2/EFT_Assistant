@@ -1,0 +1,12 @@
+Name=Checking
+Trader=Prapor
+
+NeedTask=Debut
+NeedLevel=2
+NeedLL=1
+NeedItem=[Machinery keyx1]
+
+Task_Map=Customs
+Task_Else=‰ù’†Œv‚ğE‚Á‚Ä”[•i
+
+Reward_Rep=Prapor+0.03

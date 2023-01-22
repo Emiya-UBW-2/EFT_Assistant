@@ -1,0 +1,17 @@
+Name=Safe Corridor
+Trader=Skier
+
+NeedTask=Chemical - Part 4
+NeedLevel=15
+//NeedLL=1
+//NeedItem=[MS2000 Markerx3]
+
+Task_Map=Reserve
+Task_Kill=[Scavx10]
+//Task_FiR_HandOver=[Dogtag (USEC)x7]
+//Task_NotFiR_HandOver=[XXXx1]
+Task_Else=Chemical - Part 4é∏îsÇ≈Ç‡î≠ê∂
+Task_Else=ínâ∫ëqå…Ç≈ÉLÉã
+
+Reward_Rep=Skier+0.04
+Reward_Item=[5.45x39mm BP gs ammo pack (120 pcs)x2,Expeditionary fuel tankx2]

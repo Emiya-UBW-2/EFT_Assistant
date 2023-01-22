@@ -142,7 +142,7 @@ namespace FPS_n2 {
 			}
 			//
 			m_Window->Execute();
-			m_BGPtr->LateExecute();
+			m_BGPtr->LateExecute(&this->m_posx, &this->m_posy, &this->m_Scale);
 			if (m_BGPtr->IsGoNextBG()) {
 				m_Window->DeleteAll();
 				m_BGPtr->Dispose();

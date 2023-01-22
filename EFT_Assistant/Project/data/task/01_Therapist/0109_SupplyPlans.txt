@@ -1,0 +1,10 @@
+Name=Supply Plans
+Trader=Therapist
+
+NeedTask=Pharmacist
+
+Task_Map=Woods
+Task_Else=Secure Folder 0052‚ğE‚¢Therapist‚É”[•i
+
+Reward_Rep=Therapist+0.04
+Reward_Item=[CMS surgical kitx1]

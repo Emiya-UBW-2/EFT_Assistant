@@ -1,0 +1,14 @@
+Name=Out of Curiosity
+Trader=Therapist
+
+NeedTask=Chemical - Part 3
+NeedItem=[MS2000 Markerx1]
+
+Task_Map=Customs
+Task_Else=バンにマーカーを設置し、
+Task_Else=生還後セラピストに報告
+
+Reward_Rep=Therapist+0.04
+Reward_Rep=Prapor-0.25
+Reward_Rep=Skier-0.25
+Reward_Item=[Injector casex1]

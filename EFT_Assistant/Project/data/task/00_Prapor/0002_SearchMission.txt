@@ -1,0 +1,12 @@
+Name=Search Mission
+Trader=Prapor
+
+NeedTask=Debut
+NeedLevel=5
+NeedLL=1
+
+Task_Map=Woods
+Task_Else=USECƒLƒƒƒ“ƒv‚ÆÔ—ñ‚ğŒ©‚Â‚¯¶ŠÒ‚·‚é
+
+Reward_Rep=Prapor+0.02
+Reward_Item=[Woods plan mapx1,EYE MK.2 professional hand-held compassx1]

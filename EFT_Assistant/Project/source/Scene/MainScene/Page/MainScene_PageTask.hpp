@@ -97,7 +97,7 @@ namespace FPS_n2 {
 					}
 					//
 					if (ParentID == InvalidID) {
-						yp += (ys + (int)((float)y_r(400) * Scale));
+						yp += (ys + (int)((float)y_r(450) * Scale));
 					}
 					else {
 						yp += (ys + suby);
@@ -109,7 +109,7 @@ namespace FPS_n2 {
 			}
 		}
 	private:
-		void LateExecute_Sub(void) noexcept override {
+		void LateExecute_Sub(int*, int*, float*) noexcept override {
 			//ウィンドウとの同期
 			for (int i = 0; i < m_TaskWindowPtr.size(); i++) {
 				if (m_TaskWindowPtr[i].use_count() <= 1) {

@@ -1,0 +1,18 @@
+Name=Bullshit
+Trader=Skier
+
+NeedTask=Silent Caliber
+//NeedLevel=30
+//NeedLL=1
+NeedItem=[Roler Submariner gold wrist watchx1,SV-98 7.62x54R bolt-action sniper riflex1]
+
+Task_Map=Customs
+//Task_Kill=[AllPMCx10,Scavx20]
+//Task_FiR_HandOver=[Dogtag (USEC)x7]
+//Task_NotFiR_HandOver=[XXXx1]
+Task_Else=CustomsでFlash drive with fake infoを入手し、他アイテムと一緒に寮に隠す
+Task_Else=報告するまでCustomsでScavをキルしてはいけない
+
+Reward_Rep=Skier+0.05
+Reward_Rep=Fence+0.05
+//Reward_Item=[Lobaev Arms DVL-10 7.62x51 bolt-action sniper riflex1]

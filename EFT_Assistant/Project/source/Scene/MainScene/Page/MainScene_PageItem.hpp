@@ -31,7 +31,7 @@ namespace FPS_n2 {
 			m_ItemIDs.emplace_back(std::make_pair<int, bool>((int)InvalidID, false));
 			m_ItemIDs.emplace_back(std::make_pair<int, bool>((int)InvalidID, false));
 		}
-		void LateExecute_Sub(void) noexcept override {
+		void LateExecute_Sub(int*, int*, float*) noexcept override {
 		}
 		void Draw_Back_Sub(std::unique_ptr<WindowSystem::WindowManager>&, int, int, float) noexcept override {
 			auto* DrawParts = DXDraw::Instance();
@@ -71,7 +71,7 @@ namespace FPS_n2 {
 			}
 			yp -= ypos - (int)m_YNow;
 
-			int xs = 400;
+			int xs = 450;
 			int ScrPosX = y_r(1920 - xs * 3 / 2 - 10) - y_r(80);
 
 			int ScrSizY = (DrawParts->m_DispYSize - (y_r(10) + LineHeight)) - ypos;
@@ -83,7 +83,7 @@ namespace FPS_n2 {
 			//
 			{
 				int xgoal = 0;
-				int xsize = y_r(400);
+				int xsize = y_r(450);
 				int xs_add = -(xsize + y_r(50));
 				int xp = y_r(1920 - 10) - xsize - (int)m_XChild;
 				int yp = LineHeight + y_r(10);

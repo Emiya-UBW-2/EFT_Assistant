@@ -7,7 +7,7 @@ namespace FPS_n2 {
 	private:
 		void Init_Sub(int*, int*, float*) noexcept override {
 		}
-		void LateExecute_Sub(void) noexcept override {
+		void LateExecute_Sub(int*, int*, float*) noexcept override {
 		}
 		void Draw_Back_Sub(std::unique_ptr<WindowSystem::WindowManager>&, int, int, float) noexcept override {
 		}

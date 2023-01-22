@@ -1,0 +1,17 @@
+Name=Vitamins - Part 2
+Trader=Skier
+
+NeedTask=Vitamins - Part 1
+//NeedLevel=22
+//NeedLL=1
+//NeedItem=[Health Resort west wing office room 112 keyx1,EMERCOM medical unit keyx1]
+
+//Task_Map=Shoreline
+//Task_Map=Interchange
+//Task_Kill=[PMCx3]
+Task_FiR_HandOver=[Respiratorx4,Medical bloodsetx3]
+//Task_NotFiR_HandOver=[Dorm room 220 keyx1]
+//Task_Else=Chemical container 1~3‚ğE‚Á‚Ä”[•i
+
+Reward_Rep=Skier+0.05
+Reward_Item=[Morphine injectorx4,Golden Star balmx1]

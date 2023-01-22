@@ -1,0 +1,7 @@
+Name=Lost Contact
+Trader=Therapist
+
+NeedTask=Health Care Privacy - Part 2
+
+Task_Map=Lighthouse
+Task_Else=ŠY“–ƒGƒŠƒA‚É–K‚ê‚Ä‚©‚ç¶ŠÒ

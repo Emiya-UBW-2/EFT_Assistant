@@ -1,0 +1,6 @@
+Name=An Apple a Day Keeps the Doctor Away
+Trader=Therapist
+
+NeedTask=Health Care Privacy - Part 3
+
+Task_Else=400,000ルーブル支払う(報酬でhealthスキル+2)

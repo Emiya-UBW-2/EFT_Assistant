@@ -255,7 +255,7 @@ namespace FPS_n2 {
 				for (const auto& LL : m_TaskNeedData.GetItem()) {
 					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
 					int total_size = y_r(92);
-					xofs = std::max(xofs, ptr->Draw(xp, yp + yofs, total_size, LL.GetCount()));
+					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, total_size, LL.GetCount()) + y_r(30));
 					yofs += total_size;
 				}
 			}
@@ -264,14 +264,14 @@ namespace FPS_n2 {
 				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STR_LEFT, White, Black, "マップ指定")); yofs += sizy;
 				for (auto& LL : m_TaskWorkData.GetMap()) {
 					auto* ptr = MapData::Instance()->FindPtr(LL);
-					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STR_LEFT, ptr->GetColors(0), Black, "└%s", ptr->GetName().c_str())); yofs += sizy;
+					xofs = std::max(xofs, WindowSystem::SetMsg(xp + y_r(30), yp + yofs, xp + y_r(30), yp + sizy + yofs, sizy, STR_LEFT, ptr->GetColors(0), Black, "%s", ptr->GetName().c_str()) + y_r(30)); yofs += sizy;
 				}
 			}
 			if (m_TaskWorkData.GetKill().size() > 0) {
 				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STR_LEFT, White, Black, "敵をキル")); yofs += sizy;
 				for (auto& LL : m_TaskWorkData.GetKill()) {
 					auto* eny = EnemyData::Instance()->FindPtr(LL.GetEnemyID());
-					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STR_LEFT, eny->GetColors(0), Black, "└%s x%2d", eny->GetName().c_str(), LL.GetKillCount()));
+					xofs = std::max(xofs, WindowSystem::SetMsg(xp + y_r(30), yp + yofs, xp + y_r(30), yp + sizy + yofs, sizy, STR_LEFT, eny->GetColors(0), Black, "%s x%2d", eny->GetName().c_str(), LL.GetKillCount()) + y_r(30));
 					if (LL.GetMapID() != InvalidID) {
 						auto* ptr = MapData::Instance()->FindPtr(LL.GetMapID());
 						xofs = std::max(xofs, WindowSystem::SetMsg(xp + y_r(250), yp + yofs, xp + y_r(250), yp + sizy + yofs, LineHeight * 8 / 10, STR_LEFT, ptr->GetColors(0), Black, " in %s", ptr->GetName().c_str()));
@@ -284,7 +284,7 @@ namespace FPS_n2 {
 				for (const auto& LL : m_TaskWorkData.GetFiR_Item()) {
 					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
 					int total_size = y_r(92);
-					xofs = std::max(xofs, ptr->Draw(xp, yp + yofs, total_size, LL.GetCount()));
+					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, total_size, LL.GetCount()) + y_r(30));
 					yofs += total_size;
 				}
 			}
@@ -293,7 +293,7 @@ namespace FPS_n2 {
 				for (const auto& LL : m_TaskWorkData.GetNotFiR_Item()) {
 					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
 					int total_size = y_r(92);
-					xofs = std::max(xofs, ptr->Draw(xp, yp + yofs, total_size, LL.GetCount()));
+					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, total_size, LL.GetCount()) + y_r(30));
 					yofs += total_size;
 				}
 			}
@@ -309,10 +309,10 @@ namespace FPS_n2 {
 				for (const auto& LL : m_TaskRewardData.GetItem()) {
 					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
 					int total_size = y_r(92);
-					xofs = std::max(xofs, ptr->Draw(xp, yp + yofs, total_size, LL.GetCount()));
+					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, total_size, LL.GetCount()) + y_r(30));
 					yofs += total_size;
 				}
-				yofs += sizy;
+				//yofs += sizy;
 			}
 			//
 			if (xs) {
@@ -328,7 +328,13 @@ namespace FPS_n2 {
 		friend class SingletonBase<TaskData>;
 	private:
 		TaskData() noexcept {
-			SetList("data/task/");
+			std::string Path = "data/task/";
+			auto data_t = GetFileNamesInDirectory(Path.c_str());
+			for (auto& d : data_t) {
+				if (d.cFileName[0] != '.') {
+					SetList((Path + d.cFileName + "/").c_str());
+				}
+			}
 			for (auto& t : m_List) {
 				t.SetNeedTasktoID(m_List);
 			}

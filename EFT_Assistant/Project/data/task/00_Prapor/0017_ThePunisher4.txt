@@ -1,0 +1,15 @@
+Name=The Punisher - Part 4
+Trader=Prapor
+
+NeedTask=The Punisher - Part 3
+NeedLevel=20
+
+Task_Map=Woods
+Task_Map=Shoreline
+Task_Kill=[Scavx10,AllPMCx10]
+Task_Else=ScavキルをWoods12ゲージショットガンで、
+Task_Else=PMCキルをバラクラバ、Scavベストを着てShorelineで
+Task_FiR_HandOver=[Bars A-2607 95H18 knifex5]
+
+Reward_Rep=Prapor+0.03
+Reward_Item=[Colt M4A1 5.56x45 assault riflex1]

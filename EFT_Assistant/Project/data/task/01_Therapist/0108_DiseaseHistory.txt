@@ -1,0 +1,13 @@
+Name=Disease History
+Trader=Therapist
+
+NeedTask=Pharmacist
+NeedLevel=15
+NeedLL=1
+NeedItem=[RB-KSM keyx1,RB-SMP keyx1]
+
+Task_Map=Reserve
+Task_Else=Medical record #1Ç∆ Medical record #2ÇèEÇ¢î[ïi
+
+Reward_Rep=Therapist+0.03
+Reward_Item=[Grizzly medical kitx1,Ibuprofen painkillersx1,CALOK-B hemostatic applicatorx5]

@@ -34,7 +34,7 @@ namespace FPS_n2 {
 	public:
 		void	LoadMapPics() noexcept {
 			for (auto& m : m_MapGraph) {
-				m.first.LoadByPath();
+				m.first.LoadByPath(true);
 			}
 		}
 		void	WhenAfterLoadMapPics() noexcept {

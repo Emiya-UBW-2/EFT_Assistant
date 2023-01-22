@@ -1,0 +1,16 @@
+Name=Chemical - Part 1
+Trader=Skier
+
+NeedTask=Golden Swag
+NeedLevel=10
+NeedLL=1
+//NeedItem=[Dorm room 303 keyx1]
+
+Task_Map=Customs
+//Task_Kill=[PMCx3]
+//Task_FiR_HandOver=[Secure Flash drivex2]
+Task_NotFiR_HandOver=[Dorm room 220 keyx1]
+Task_Else=Docs 0013‚ğE‚Á‚Ä”[•i
+
+Reward_Rep=Skier+0.04
+Reward_Item=[MSA ACH TC-2002 MICH Series helmetx1]

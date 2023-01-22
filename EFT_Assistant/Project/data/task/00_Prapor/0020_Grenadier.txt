@@ -1,0 +1,11 @@
+Name=Grenadier
+Trader=Prapor
+
+NeedTask=Shaking up the Teller
+NeedLevel=20
+
+Task_Kill=[AllPMCx8]
+Task_Else=キルはグレネードを用いて
+
+Reward_Rep=Prapor+0.02
+Reward_Item=[F-1 hand grenadex5,5.45x39mm BT gsx240]

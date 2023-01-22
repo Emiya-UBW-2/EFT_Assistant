@@ -1,0 +1,12 @@
+Name=Debut
+Trader=Prapor
+
+NeedLevel=1
+NeedLL=1
+
+Task_Kill=[Scavx5]
+Task_NotFiR_HandOver=[MP-133 12ga pump-action shotgunx2]
+
+Reward_Rep=Prapor+0.02
+Reward_Rep=Jaeger+0.01
+Reward_Item=[PP-91 "Kedr" 9x18PM submachine gunx1,9x18mm PM BZhT gzhx60]

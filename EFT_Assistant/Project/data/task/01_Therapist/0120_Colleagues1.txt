@@ -1,0 +1,11 @@
+Name=Colleagues - Part 1
+Trader=Therapist
+
+NeedTask=General Wares
+NeedLevel=21
+
+Task_Map=Shoreline
+Task_Else=3‚©Š‚ğ1ƒŒƒCƒh“à‚É–K‚êA¶ŠÒ‚·‚é
+
+Reward_Rep=Therapist+0.04
+Reward_Item=[SJ1 TGLabs combat stimulant injectorx2,SJ6 TGLabs combat stimulant injectorx2]

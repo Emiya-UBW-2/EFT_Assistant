@@ -36,9 +36,14 @@ namespace FPS_n2 {
 	public:
 		void	SetPath(const char* path) noexcept { this->m_Path = path; }
 		void	SetIsTrans(bool isTrans) noexcept { this->m_IsTrans = isTrans; }
-		void	LoadByPath() noexcept {
+		void	LoadByPath(bool isUseTex) noexcept {
 			if (this->m_Path != "") {
-				this->m_Handle = GraphHandle::Load(this->m_Path.c_str(), m_IsTrans);
+				if (isUseTex) {
+					this->m_Handle = GraphHandle::Load_Tex(this->m_Path.c_str());
+				}
+				else {
+					this->m_Handle = GraphHandle::Load(this->m_Path.c_str());
+				}
 				this->m_Loaded = false;
 			}
 		}
@@ -174,7 +179,7 @@ namespace FPS_n2 {
 			}
 		}
 		void			Load() noexcept {
-			m_Icon.LoadByPath();
+			m_Icon.LoadByPath(false);
 			Load_Sub();
 		}
 		void			WhenAfterLoad() noexcept {
@@ -185,10 +190,10 @@ namespace FPS_n2 {
 		const auto		Draw(int xp, int yp, int ysize, int count) const noexcept {
 			int  Xsize = 0;
 			if (count > 0) {
-				Xsize = WindowSystem::SetMsg(xp, yp, xp, yp + ysize, LineHeight * 7 / 10, STR_LEFT, White, Black, "„¤%s x%2d", this->GetName().c_str(), count);
+				Xsize = WindowSystem::SetMsg(xp, yp, xp, yp + ysize, LineHeight * 7 / 10, STR_LEFT, White, Black, "%s x%2d", this->GetName().c_str(), count);
 			}
 			else {
-				Xsize = WindowSystem::SetMsg(xp, yp, xp, yp + ysize, LineHeight * 7 / 10, STR_LEFT, White, Black, "„¤%s", this->GetName().c_str());
+				Xsize = WindowSystem::SetMsg(xp, yp, xp, yp + ysize, LineHeight * 7 / 10, STR_LEFT, White, Black, "%s", this->GetName().c_str());
 			}
 			xp += Xsize;
 			if (m_Icon.GetGraph()) {

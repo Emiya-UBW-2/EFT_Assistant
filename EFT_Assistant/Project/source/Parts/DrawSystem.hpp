@@ -53,7 +53,15 @@ namespace FPS_n2 {
 				break;
 			case DrawType::RotaGraph:
 				if (m_GraphHandleParam.at(0)) {
-					m_GraphHandleParam.at(0)->DrawRotaGraph(m_intParam[0], m_intParam[1], m_floatParam[0], m_floatParam[1], m_boolParam[0]);
+					if (m_floatParam[0] < 0.9f && 1.1f < m_floatParam[0]) {
+						auto prev = GetDrawMode();
+						SetDrawMode(DX_DRAWMODE_BILINEAR);
+						m_GraphHandleParam.at(0)->DrawRotaGraph(m_intParam[0], m_intParam[1], m_floatParam[0], m_floatParam[1], m_boolParam[0]);
+						SetDrawMode(prev);
+					}
+					else {
+						m_GraphHandleParam.at(0)->DrawRotaGraph(m_intParam[0], m_intParam[1], m_floatParam[0], m_floatParam[1], m_boolParam[0]);
+					}
 				}
 				break;
 			default:

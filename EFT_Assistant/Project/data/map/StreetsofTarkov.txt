@@ -2,5 +2,5 @@ Name=Streets of Tarkov
 Color=[192,192,192]
 InGamePath=
 NorthDegree=0
-2DPath=data/2DMaspPic/StreetsOfTarkov2DMapByJindouz.png
+2DPath=data/2DMaspPic/StreetsOfTarkov2DMapByJindouz.jpg
 NorthDegree=0

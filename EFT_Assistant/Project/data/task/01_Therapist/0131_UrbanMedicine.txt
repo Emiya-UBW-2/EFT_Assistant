@@ -1,0 +1,11 @@
+Name=Urban Medicine
+Trader=Therapist
+
+NeedTask=Population Census
+NeedLevel=17
+
+Task_Map=Streets of Tarkov
+Task_Else=マップの中でランダムに1つスポーンするChemical container with samplesを回収して納品
+
+Reward_Rep=Therapist+0.02
+Reward_Item=[Aluminum splintx2,CALOK-B hemostatic applicatorx2]

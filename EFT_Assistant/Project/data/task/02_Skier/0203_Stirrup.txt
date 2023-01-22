@@ -1,0 +1,18 @@
+Name=Stirrup
+Trader=Skier
+
+NeedTask=The Extortionist
+NeedLevel=8
+NeedLL=1
+//NeedItem=[Unknown keyx1]
+
+//Task_Map=Customs
+Task_Kill=[AllPMCx3]
+//Task_FiR_HandOver=[BNTI Module-3M body armorx1,TOZ-106 20ga bolt-action shotgunx1]
+//Task_NotFiR_HandOver=[XXXx1]
+Task_Else=ピストルのみを使用
+
+Reward_Rep=Skier+0.05
+Reward_Rep=Prapor-0.05
+Reward_Rep=Therapist-0.02
+Reward_Item=[Camelbak Tri-Zip assault backpackx1]

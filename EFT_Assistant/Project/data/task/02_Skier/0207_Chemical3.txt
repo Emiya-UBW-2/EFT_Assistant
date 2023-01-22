@@ -1,0 +1,17 @@
+Name=Chemical - Part 3
+Trader=Skier
+
+NeedTask=Chemical - Part 2
+NeedLevel=10
+NeedLL=1
+//NeedItem=[Dorm room 303 keyx1]
+
+Task_Map=Factory
+//Task_Kill=[PMCx3]
+//Task_FiR_HandOver=[Secure Flash drivex2]
+//Task_NotFiR_HandOver=[Dorm room 220 keyx1]
+Task_Else=Syringe with a chemical‚ğE‚Á‚Ä”[•i
+
+Reward_Rep=Skier+0.04
+Reward_Rep=Jaeger-0.01
+Reward_Item=[BelOMO PSO-1M2-1 4x24 scopex1,"Zarya" stun grenadex1]

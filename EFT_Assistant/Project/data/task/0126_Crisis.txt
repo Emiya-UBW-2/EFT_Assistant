@@ -1,8 +1,0 @@
-Name=Crisis
-Trader=Therapist
-
-NeedLevel=48
-
-Task_FiR_HandOver=[Portable defibrillatorx5,Ophthalmoscopex5,LEDX Skin Transilluminatorx5,Pile of medsx20,Bottle of OLOLO Multivitaminsx10]
-
-Reward_Item=[AFAK tactical individual first aid kitx5,SJ6 TGLabs combat stimulant injectorx5,Medicine casex1]
