@@ -1,0 +1,2 @@
+Name=Reflex sight
+Category=WeaponMods

@@ -1,0 +1,2 @@
+Name=NSPU-M night vision scope
+Itemtype=Special scope

@@ -1,0 +1,2 @@
+Name=Barrel
+Category=WeaponMods

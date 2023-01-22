@@ -1,2 +1,0 @@
-Name=SKS 7.62x39 ProMag SKS-A5 20-round magazine
-Itemtype=WeaponMod

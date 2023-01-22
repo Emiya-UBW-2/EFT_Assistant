@@ -1,0 +1,2 @@
+Name=AR-15 ADAR 2-15 charging handle
+Itemtype=Charging handle

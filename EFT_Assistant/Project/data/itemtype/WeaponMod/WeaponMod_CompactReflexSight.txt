@@ -1,0 +1,2 @@
+Name=Compact reflex sight
+Category=WeaponMods

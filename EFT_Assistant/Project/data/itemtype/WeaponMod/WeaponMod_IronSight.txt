@@ -1,0 +1,2 @@
+Name=Iron sight
+Category=WeaponMods

@@ -1,0 +1,2 @@
+Name=Assault scope
+Category=WeaponMods

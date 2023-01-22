@@ -1,0 +1,2 @@
+Name=AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine
+Itemtype=Magazine

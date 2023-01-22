@@ -94,7 +94,7 @@ namespace FPS_n2 {
 			int xp = 0;
 			int yp = LineHeight;
 			for (auto& m : m_Mes) {
-				WindowSystem::SetMsg(xp, yp, xp, yp, LineHeight, STR_LEFT, GetColor(255, 50, 50), GetColor(0, 0, 0), m);
+				WindowSystem::SetMsg(xp, yp, xp, yp, LineHeight, STR_LEFT, GetColor(255, 50, 50), GetColor(1, 1, 1), m);
 				yp += LineHeight;
 			}
 		}
@@ -153,7 +153,7 @@ namespace FPS_n2 {
 		const auto		GetColors(int colorAdd) const noexcept {
 			return DxLib::GetColor(std::clamp(m_Color[0] + colorAdd, 0, 255), std::clamp(m_Color[1] + colorAdd, 0, 255), std::clamp(m_Color[2] + colorAdd, 0, 255));
 		}
-		const auto*		GetIcon() const noexcept { return m_Icon.GetGraph(); }
+		const auto&		GetIcon() const noexcept { return m_Icon; }
 	public:
 		void			Set(const char* FilePath, ID id, const char* IconPath = nullptr) noexcept {
 			m_ID = id;
@@ -185,27 +185,6 @@ namespace FPS_n2 {
 		void			WhenAfterLoad() noexcept {
 			m_Icon.WhenAfterLoad();
 			WhenAfterLoad_Sub();
-		}
-
-		const auto		Draw(int xp, int yp, int ysize, int count) const noexcept {
-			int  Xsize = 0;
-			if (count > 0) {
-				Xsize = WindowSystem::SetMsg(xp, yp, xp, yp + ysize, LineHeight * 7 / 10, STR_LEFT, White, Black, "%s x%2d", this->GetName().c_str(), count);
-			}
-			else {
-				Xsize = WindowSystem::SetMsg(xp, yp, xp, yp + ysize, LineHeight * 7 / 10, STR_LEFT, White, Black, "%s", this->GetName().c_str());
-			}
-			xp += Xsize;
-			if (m_Icon.GetGraph()) {
-				float Scale = (float)ysize / (float)(std::min(m_Icon.GetXSize(), m_Icon.GetYSize()));
-				float rad = (m_Icon.GetXSize() >= m_Icon.GetYSize()) ? deg2rad(0) : deg2rad(90);
-
-				DrawControl::Instance()->SetDrawRotaGraph(m_Icon.GetGraph(), xp + (int)(((float)m_Icon.GetXSize() * std::cos(rad) + (float)m_Icon.GetYSize() * std::sin(rad)) / 2.f * Scale), yp + ysize / 2, Scale, rad, false);
-				return (int)(Xsize + ysize * m_Icon.GetXSize() / m_Icon.GetYSize());
-			}
-			else {
-				return (int)Xsize;
-			}
 		}
 	};
 	//

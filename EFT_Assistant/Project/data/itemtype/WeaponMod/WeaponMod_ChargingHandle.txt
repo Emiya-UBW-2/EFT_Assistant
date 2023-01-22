@@ -1,0 +1,2 @@
+Name=Charging handle
+Category=WeaponMods

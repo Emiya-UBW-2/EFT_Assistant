@@ -1,0 +1,2 @@
+Name=Tactical combo device
+Category=WeaponMods

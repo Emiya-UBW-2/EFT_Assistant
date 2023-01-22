@@ -43,7 +43,7 @@ namespace FPS_n2 {
 			mouse_moveX = Input->GetMouseX();							//ドラッグ前のマウス座標格納
 			mouse_moveY = Input->GetMouseY();
 		}
-		void LateExecute_Sub(int *posx, int *posy, float* Scale) noexcept override {
+		void LateExecute_Sub(int *, int *, float*) noexcept override {
 			auto* Input = InputControl::Instance();
 			if (m_MapSelect != m_SelectBuffer) {
 				if (m_MapSelect != InvalidID) {
@@ -86,7 +86,7 @@ namespace FPS_n2 {
 			Easing(&m_Rad, m_Rad_Goal, 0.8f, EasingType::OutExpo);
 			Easing(&m_ComPassRad, (m_BaseRad + m_Rad), 0.8f, EasingType::OutExpo);
 		}
-		void Draw_Back_Sub(std::unique_ptr<WindowSystem::WindowManager>&, int posx, int posy, float Scale) noexcept override {
+		void Draw_Back_Sub(int posx, int posy, float Scale) noexcept override {
 			if (m_MapSelect != InvalidID) {
 				auto* MapPtr = MapData::Instance()->FindPtr(m_MapSelect);
 				if (MapPtr->GetMapGraph((int)m_WatchMapSelect)) {
@@ -97,7 +97,7 @@ namespace FPS_n2 {
 				DrawControl::Instance()->SetDrawRotaGraph(ComPass.GetGraph(), y_r(100), y_r(1080 - 100), 1.f, m_ComPassRad, true);
 			}
 		}
-		void DrawFront_Sub(std::unique_ptr<WindowSystem::WindowManager>&, int, int, float) noexcept override {
+		void DrawFront_Sub(int, int, float) noexcept override {
 			//
 			{
 				int xp = y_r(1920 - 450 - 10);

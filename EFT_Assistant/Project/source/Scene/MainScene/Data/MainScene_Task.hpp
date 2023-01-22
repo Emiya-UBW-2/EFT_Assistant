@@ -239,6 +239,7 @@ namespace FPS_n2 {
 			m_TaskNeedData.SetNeedTasktoID(taskList);
 		}
 		void			DrawWindow(int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept {
+			auto* Windowup = WindowSystem::WindowManager::Instance();
 			int xofs = 0;
 			int yofs = LineHeight;
 			int sizy = LineHeight * 7 / 10;
@@ -255,7 +256,7 @@ namespace FPS_n2 {
 				for (const auto& LL : m_TaskNeedData.GetItem()) {
 					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
 					int total_size = y_r(92);
-					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, total_size, LL.GetCount()) + y_r(30));
+					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray15, !Windowup->PosHitCheck(nullptr)) + y_r(30));
 					yofs += total_size;
 				}
 			}
@@ -284,7 +285,7 @@ namespace FPS_n2 {
 				for (const auto& LL : m_TaskWorkData.GetFiR_Item()) {
 					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
 					int total_size = y_r(92);
-					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, total_size, LL.GetCount()) + y_r(30));
+					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray75, !Windowup->PosHitCheck(nullptr)) + y_r(30));
 					yofs += total_size;
 				}
 			}
@@ -293,7 +294,7 @@ namespace FPS_n2 {
 				for (const auto& LL : m_TaskWorkData.GetNotFiR_Item()) {
 					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
 					int total_size = y_r(92);
-					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, total_size, LL.GetCount()) + y_r(30));
+					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray75, !Windowup->PosHitCheck(nullptr)) + y_r(30));
 					yofs += total_size;
 				}
 			}
@@ -309,7 +310,7 @@ namespace FPS_n2 {
 				for (const auto& LL : m_TaskRewardData.GetItem()) {
 					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
 					int total_size = y_r(92);
-					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, total_size, LL.GetCount()) + y_r(30));
+					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray75, !Windowup->PosHitCheck(nullptr)) + y_r(30));
 					yofs += total_size;
 				}
 				//yofs += sizy;

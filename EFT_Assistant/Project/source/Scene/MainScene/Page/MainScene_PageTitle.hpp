@@ -17,7 +17,7 @@ namespace FPS_n2 {
 		}
 		void LateExecute_Sub(int*, int*, float*) noexcept override {
 		}
-		void Draw_Back_Sub(std::unique_ptr<WindowSystem::WindowManager>&, int, int, float) noexcept override {
+		void Draw_Back_Sub(int, int, float) noexcept override {
 			int xsize = y_r(420);
 			int ysize = y_r(52);
 			int ypos = y_r(540);
@@ -42,7 +42,7 @@ namespace FPS_n2 {
 			}
 			ypos += y_r(100);
 		}
-		void DrawFront_Sub(std::unique_ptr<WindowSystem::WindowManager>&, int, int, float) noexcept override {
+		void DrawFront_Sub(int, int, float) noexcept override {
 		}
 		void Dispose_Sub(void) noexcept override {
 		}

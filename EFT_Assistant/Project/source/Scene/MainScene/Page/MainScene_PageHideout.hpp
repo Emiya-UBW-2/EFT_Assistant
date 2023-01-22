@@ -9,9 +9,9 @@ namespace FPS_n2 {
 		}
 		void LateExecute_Sub(int*, int*, float*) noexcept override {
 		}
-		void Draw_Back_Sub(std::unique_ptr<WindowSystem::WindowManager>&, int, int, float) noexcept override {
+		void Draw_Back_Sub(int, int, float) noexcept override {
 		}
-		void DrawFront_Sub(std::unique_ptr<WindowSystem::WindowManager>&, int, int, float) noexcept override {
+		void DrawFront_Sub(int, int, float) noexcept override {
 			//
 			{
 				int xp = y_r(10);

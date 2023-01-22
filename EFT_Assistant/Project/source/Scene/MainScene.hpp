@@ -21,7 +21,6 @@
 namespace FPS_n2 {
 	class MAINLOOP : public TEMPSCENE {
 	private:
-		std::unique_ptr<WindowSystem::WindowManager>				m_Window;
 		int															m_posx{ 0 };
 		int															m_posy{ 0 };
 		float														m_Scale{ 0.6f };
@@ -48,8 +47,7 @@ namespace FPS_n2 {
 			InputControl::Create();
 			DataErrorLog::Create();
 			DrawControl::Create();
-			//
-			m_Window = std::make_unique<WindowSystem::WindowManager>();
+			WindowSystem::WindowManager::Create();
 			//
 			ItemData::Create();
 			EnemyData::Create();
@@ -78,6 +76,7 @@ namespace FPS_n2 {
 		}
 
 		bool Update_Sub(void) noexcept override {
+			auto* Windowup = WindowSystem::WindowManager::Instance();
 			auto* DrawParts = DXDraw::Instance();
 
 			DrawControl::Instance()->ClearList();
@@ -141,10 +140,10 @@ namespace FPS_n2 {
 				SetCursor(hCursor);
 			}
 			//
-			m_Window->Execute();
+			Windowup->Execute();
 			m_BGPtr->LateExecute(&this->m_posx, &this->m_posy, &this->m_Scale);
 			if (m_BGPtr->IsGoNextBG()) {
-				m_Window->DeleteAll();
+				Windowup->DeleteAll();
 				m_BGPtr->Dispose();
 				if (m_BGPtr == m_TitleBG) {
 					switch (m_TitleBG->GetNextSelect()) {
@@ -194,9 +193,9 @@ namespace FPS_n2 {
 				DrawControl::Instance()->SetDrawBox(0, 0, (int)(Lerp((float)Xmin, (float)Xsize, m_PullDown)), (int)(Lerp((float)Ymin, (float)Ysize, m_PullDown)), Gray75, TRUE);
 				if (m_PullDown >= 1.f) {
 					//Back
-					m_BGPtr->Draw_Back(this->m_Window, this->m_posx, this->m_posy, this->m_Scale);
+					m_BGPtr->Draw_Back(this->m_posx, this->m_posy, this->m_Scale);
 					//ウィンドウ
-					m_Window->Draw();
+					Windowup->Draw();
 				}
 				//タイトルバック
 				int DieCol = std::clamp((int)(Lerp(1.f, 128.f, m_NoneActiveTimes / 5.f)), 0, 255);
@@ -204,7 +203,7 @@ namespace FPS_n2 {
 				//タイトル
 				if (m_PullDown >= 1.f) {
 					WindowSystem::SetMsg(0, 0, y_r(1920), LineHeight, LineHeight, STR_MID, White, Black, "EFT Assistant");
-					WindowSystem::SetMsg(y_r(1280), LineHeight * 3 / 10, y_r(1280), LineHeight, LineHeight * 7 / 10, STR_LEFT, White, Black, "ver %d.%d.%d", 0, 1, 0);
+					WindowSystem::SetMsg(y_r(1280), LineHeight * 1 / 10, y_r(1280), LineHeight, LineHeight * 8 / 10, STR_LEFT, White, Black, "ver %d.%d.%d", 0, 1, 0);
 					if (WindowSystem::CloseButton(y_r(1920) - LineHeight, 0)) { SetisEnd(true); }
 				}
 				//展開
@@ -215,7 +214,7 @@ namespace FPS_n2 {
 				//
 				if (m_PullDown >= 1.f) {
 					//Front
-					m_BGPtr->DrawFront(this->m_Window, this->m_posx, this->m_posy, this->m_Scale);
+					m_BGPtr->DrawFront(this->m_posx, this->m_posy, this->m_Scale);
 					//中央位置回避のための小円
 					DrawControl::Instance()->SetDrawCircle(Xsize, Ysize, y_r(100), TransColor, TRUE);
 				}
@@ -229,7 +228,6 @@ namespace FPS_n2 {
 			return true;
 		}
 		void Dispose_Sub(void) noexcept override {
-			m_Window.reset();
 			m_BGPtr.reset();
 			m_TaskBG.reset();
 			m_HideOutBG.reset();

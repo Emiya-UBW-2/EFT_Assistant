@@ -1,2 +1,3 @@
 Name=Wilcox Interface for PVS-7
 Itemtype=Helmet mount
+ChildParts=[T-7 Thermal Goggles with a Night Vision mount]

@@ -1,0 +1,2 @@
+Name=AKM/AK-74 FAB Defense UAS stock
+Itemtype=Stock

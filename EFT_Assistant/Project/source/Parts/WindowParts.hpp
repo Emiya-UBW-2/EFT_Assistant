@@ -2,7 +2,7 @@
 #include"../Header.hpp"
 
 #define EdgeSize	y_r(2)
-#define LineHeight	y_r(48)
+#define LineHeight	y_r(36)
 
 namespace FPS_n2 {
 	//ƒJƒ‰[Žw’è
@@ -166,6 +166,7 @@ namespace FPS_n2 {
 		class WindowControl {
 		public:
 			bool				m_isDelete{ false };
+			unsigned long long	m_FreeID{ 0 };
 		private:
 			bool				m_ActiveSwitch{ false };
 			bool				m_IsActive{ false };
@@ -227,10 +228,12 @@ namespace FPS_n2 {
 			void			SetTotalSizeY(bool value) noexcept { this->m_TotalSizeY = value; }
 			const auto&		GetNowScrollPer(void) const noexcept { return this->m_Scroll.GetNowScrollYPer(); }
 		public:
-			void Set(int posx, int posy, int sizex, int sizey, int Totalsizey, const char* tabName, bool canChageSize, bool canPressXButton, const std::function<void(WindowControl*)>& DoingOnWindow) noexcept {
+			void Set(int posx, int posy, int sizex, int sizey, int Totalsizey, const char* tabName, bool canChageSize, bool canPressXButton,unsigned long long FreeID, const std::function<void(WindowControl*)>& DoingOnWindow) noexcept {
+
+				this->m_FreeID = FreeID;
+
 				this->m_PosX = posx;
 				this->m_PosY = posy;
-
 
 				this->m_SizeX = sizex;
 				SetSizeY(sizey);
@@ -260,7 +263,7 @@ namespace FPS_n2 {
 				}
 
 				m_ActiveSwitch = false;
-				if (in2_(Input->GetMouseX(), Input->GetMouseY(), xp1, yp1, xp2, yp2)) {
+				if (in2_(Input->GetMouseX(), Input->GetMouseY(), xp1, yp1, xp2, yp1 + LineHeight)) {
 					if (Input->GetLeftClick().trigger()) {
 						m_ActiveSwitch = true;
 					}
@@ -562,14 +565,26 @@ namespace FPS_n2 {
 				}
 			};
 		};
-		class WindowManager {
+		class WindowManager : public SingletonBase<WindowManager> {
+		private:
+			friend class SingletonBase<WindowManager>;
 		private:
 			std::vector<std::shared_ptr<WindowControl>> m_WindowControl;
+		private:
+			WindowManager() noexcept {}
+			~WindowManager() noexcept {}
 		public:
-			const auto	PosHitCheck() const noexcept {
+			const auto	PosHitCheck(WindowSystem::WindowControl* window) const noexcept {
+				auto res = std::find_if(m_WindowControl.begin(), m_WindowControl.end(), [&](const std::shared_ptr<WindowControl>& tgt) { return(tgt.get() == window); });
+				bool isSel = (window == nullptr);
 				for (auto& w : m_WindowControl) {
-					if (w->GetIsEditing()) {
-						return true;
+					if (isSel) {
+						if (w->GetIsEditing()) {
+							return true;
+						}
+					}
+					if (!isSel && (w == *res)) {
+						isSel = true;
 					}
 				}
 				return false;
@@ -580,6 +595,7 @@ namespace FPS_n2 {
 				}
 			}
 		public:
+			const auto&	Get() const noexcept { return m_WindowControl; }
 			const auto&	Add() noexcept {
 				m_WindowControl.emplace_back(std::make_shared<WindowControl>());
 				return m_WindowControl.back();
@@ -629,7 +645,9 @@ namespace FPS_n2 {
 			}
 			void		Draw(void) noexcept {
 				for (auto& w : m_WindowControl) {
-					w->Draw();
+					if (w.get()) {
+						w->Draw();
+					}
 				}
 			}
 			void		Dispose(void) noexcept {

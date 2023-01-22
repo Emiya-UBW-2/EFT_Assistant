@@ -1,2 +1,0 @@
-Name=AK-103 7.62x39 30-round magazine
-Itemtype=WeaponMod

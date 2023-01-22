@@ -1,2 +1,0 @@
-Name=SOK-12 12/76 sb.5 5-round magazine
-Itemtype=WeaponMod

@@ -1,2 +1,0 @@
-Name=AK-74 5.45x39 6L31 60-round magazine
-Itemtype=WeaponMod

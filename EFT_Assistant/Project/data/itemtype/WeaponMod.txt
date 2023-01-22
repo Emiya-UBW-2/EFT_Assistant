@@ -1,2 +1,0 @@
-Name=WeaponMod
-Category=WeaponMods

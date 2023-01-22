@@ -24,7 +24,13 @@ namespace FPS_n2 {
 		friend class SingletonBase<ItemTypeData>;
 	private:
 		ItemTypeData() noexcept {
-			SetList("data/itemtype/");
+			std::string Path = "data/itemtype/";
+			auto data_t = GetFileNamesInDirectory(Path.c_str());
+			for (auto& d : data_t) {
+				if (d.cFileName[0] != '.') {
+					SetList((Path + d.cFileName + "/").c_str());
+				}
+			}
 		}
 		~ItemTypeData() noexcept {}
 	};

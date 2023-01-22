@@ -1,2 +1,0 @@
-Name=AK-74M CAA AKTS AK74 buffer tube
-Itemtype=WeaponMod

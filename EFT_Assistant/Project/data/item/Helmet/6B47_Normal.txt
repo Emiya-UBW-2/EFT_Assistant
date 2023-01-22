@@ -1,2 +1,3 @@
 Name=6B47 Ratnik-BSh helmet
 Itemtype=Helmet
+ChildParts=[GPNVG-18 Night Vision goggles,or,Norotos Titanium Advanced Tactical Mount]

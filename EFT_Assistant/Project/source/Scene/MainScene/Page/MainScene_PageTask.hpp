@@ -8,10 +8,9 @@ namespace FPS_n2 {
 		int															m_posxMaxBuffer{ 0 };
 		int															m_posyMaxBuffer{ 0 };
 		std::vector<Rect2D>											m_TaskRect;
-		std::vector<TaskID>											m_TaskID;
-		std::vector<std::shared_ptr<WindowSystem::WindowControl>>	m_TaskWindowPtr;
 	private:
-		void DrawChildTaskClickBox(std::unique_ptr<WindowSystem::WindowManager>& Windowup, float Scale, TaskID ParentID, int start_x, int start_y, int xp, int yp, int xs, int ys, bool parentCanDo = true) noexcept {
+		void DrawChildTaskClickBox(float Scale, TaskID ParentID, int start_x, int start_y, int xp, int yp, int xs, int ys, bool parentCanDo = true) noexcept {
+			auto* Windowup = WindowSystem::WindowManager::Instance();
 			if (ParentID == InvalidID) {
 				m_posxMaxBuffer = 0;
 				m_posyMaxBuffer = 0;
@@ -43,20 +42,14 @@ namespace FPS_n2 {
 					if (ParentID != InvalidID) {
 						DrawControl::Instance()->SetDrawLine(start_x, start_y, xp, yp + ys / 2, Red, (int)(5.f * Scale));
 					}
-					if (WindowSystem::ClickCheckBox(xp, yp, xp + xs, yp + ys, false, !Windowup->PosHitCheck(), color, (Scale > 0.5f) ? tasks.GetName() : "")) {
+					if (WindowSystem::ClickCheckBox(xp, yp, xp + xs, yp + ys, false, !Windowup->PosHitCheck(nullptr), color, (Scale > 0.5f) ? tasks.GetName() : "")) {
 						auto sizeXBuf = y_r(800);
 						auto sizeYBuf = y_r(0);
 						tasks.DrawWindow(0, 0, &sizeXBuf, &sizeYBuf);//試しにサイズ計測
-						m_TaskID.emplace_back(tasks.GetID());
 						//
-						m_TaskWindowPtr.emplace_back(Windowup->Add());
-						m_TaskWindowPtr.back()->Set(xp + xs / 2 - sizeXBuf / 2, yp, sizeXBuf, sizeYBuf, 0, tasks.GetName().c_str(), false, true, [&](WindowSystem::WindowControl* win) {
-							for (auto& t : m_TaskWindowPtr) {
-								if (t.get() == win) {
-									TaskData::Instance()->FindPtr(m_TaskID.at(&t - &m_TaskWindowPtr.front()))->DrawWindow(win->GetPosX(), win->GetPosY());
-									break;
-								}
-							}
+						unsigned long long FreeID = tasks.GetID();
+						Windowup->Add()->Set(xp + xs / 2 - sizeXBuf / 2, yp, sizeXBuf, sizeYBuf, 0, tasks.GetName().c_str(), false, true, FreeID, [&](WindowSystem::WindowControl* win) {
+							TaskData::Instance()->FindPtr((TaskID)win->m_FreeID)->DrawWindow(win->GetPosX(), win->GetPosY());
 						});
 					}
 					int suby = ys;
@@ -89,7 +82,7 @@ namespace FPS_n2 {
 						}
 						if (!isHit) { break; }
 					}
-					DrawChildTaskClickBox(Windowup, Scale, tasks.GetID(), xp + xs, yp + ys / 2, P_Next.GetPosX(), P_Next.GetPosY(), xs, ys, parentCanDo_t);
+					DrawChildTaskClickBox(Scale, tasks.GetID(), xp + xs, yp + ys / 2, P_Next.GetPosX(), P_Next.GetPosY(), xs, ys, parentCanDo_t);
 					//親なのでいったん信頼度を戻す
 					for (auto& LL : tasks.GetTaskRewardData().GetLLAdd()) {
 						float* traderRep = TraderData::Instance()->FindTraderRep(LL.GetTraderID());
@@ -110,32 +103,22 @@ namespace FPS_n2 {
 		}
 	private:
 		void LateExecute_Sub(int*, int*, float*) noexcept override {
-			//ウィンドウとの同期
-			for (int i = 0; i < m_TaskWindowPtr.size(); i++) {
-				if (m_TaskWindowPtr[i].use_count() <= 1) {
-					std::swap(m_TaskID[i], m_TaskID.back());
-					std::swap(m_TaskWindowPtr[i], m_TaskWindowPtr.back());
-					m_TaskWindowPtr.back().reset();
-					m_TaskID.pop_back();
-					m_TaskWindowPtr.pop_back();
-					i--;
-				}
-			}
 		}
-		void Draw_Back_Sub(std::unique_ptr<WindowSystem::WindowManager>& Windowup, int posx, int posy, float Scale) noexcept override {
+		void Draw_Back_Sub(int posx, int posy, float Scale) noexcept override {
 			int xs = (int)((float)y_r(800) * Scale);
 			int ys = (int)((float)LineHeight * Scale);
-			DrawChildTaskClickBox(Windowup, Scale, InvalidID, posx + xs, posy + ys / 2, posx, posy, xs, ys);
+			DrawChildTaskClickBox(Scale, InvalidID, posx + xs, posy + ys / 2, posx, posy, xs, ys);
 		}
-		void DrawFront_Sub(std::unique_ptr<WindowSystem::WindowManager>& Windowup, int posx, int posy, float) noexcept override {
+		void DrawFront_Sub(int posx, int posy, float) noexcept override {
+			auto* Windowup = WindowSystem::WindowManager::Instance();
 			auto* DrawParts = DXDraw::Instance();
 			//レベル操作
 			WindowSystem::SetMsg(y_r(0), y_r(1080) - y_r(36), y_r(0), y_r(1080), y_r(36), STR_LEFT, White, Black, "Level");
 			WindowSystem::SetMsg(y_r(200), y_r(1080) - y_r(48), y_r(200), y_r(1080), y_r(48), STR_RIGHT, White, Black, "%d", this->m_MyLevel);
-			if (WindowSystem::ClickCheckBox(y_r(0), y_r(1080) - y_r(48) - LineHeight, y_r(100), y_r(1080) - y_r(48), true, !Windowup->PosHitCheck(), Red, "DOWN")) {
+			if (WindowSystem::ClickCheckBox(y_r(0), y_r(1080) - y_r(48) - LineHeight, y_r(100), y_r(1080) - y_r(48), true, !Windowup->PosHitCheck(nullptr), Red, "DOWN")) {
 				this->m_MyLevel--;
 			}
-			if (WindowSystem::ClickCheckBox(y_r(100), y_r(1080) - y_r(48) - LineHeight, y_r(200), y_r(1080) - y_r(48), true, !Windowup->PosHitCheck(), Green, "UP")) {
+			if (WindowSystem::ClickCheckBox(y_r(100), y_r(1080) - y_r(48) - LineHeight, y_r(200), y_r(1080) - y_r(48), true, !Windowup->PosHitCheck(nullptr), Green, "UP")) {
 				this->m_MyLevel++;
 			}
 			this->m_MyLevel = std::clamp(this->m_MyLevel, 1, 71);
@@ -168,11 +151,6 @@ namespace FPS_n2 {
 			}
 		}
 		void Dispose_Sub(void) noexcept override {
-			for (int i = 0; i < m_TaskWindowPtr.size(); i++) {
-				m_TaskWindowPtr.back().reset();
-				m_TaskID.pop_back();
-				m_TaskWindowPtr.pop_back();
-			}
 		}
 	};
 };

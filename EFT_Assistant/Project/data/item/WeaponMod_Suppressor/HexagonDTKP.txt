@@ -1,0 +1,2 @@
+Name=AK Hexagon DTKP MK.2 7.62x39 sound suppressor
+Itemtype=Suppressor

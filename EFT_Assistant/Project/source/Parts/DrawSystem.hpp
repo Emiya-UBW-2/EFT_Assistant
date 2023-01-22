@@ -68,10 +68,6 @@ namespace FPS_n2 {
 				break;
 			}
 		}
-
-		void operator==(const DrawData&tgt) const noexcept {
-
-		}
 	};
 
 	class DrawControl : public SingletonBase<DrawControl> {

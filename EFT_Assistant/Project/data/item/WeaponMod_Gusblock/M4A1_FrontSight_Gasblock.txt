@@ -1,0 +1,2 @@
+Name=M4A1 front sight with gas block
+Itemtype=Gas block

@@ -10,8 +10,6 @@ namespace FPS_n2 {
 		WindowSystem::ScrollBoxClass	m_Scroll;
 		float							m_YNow{ 0.f };
 		float							m_XChild{ 0.f };
-
-		//bool							m_NotUseInRaid{ false };
 	private:
 		void MakeLists(int Layer, bool AndNext, const std::function<void(std::pair<int, bool>*)>& ListSet) noexcept {
 			auto& NowSel = m_ItemIDs.at(Layer);
@@ -33,14 +31,18 @@ namespace FPS_n2 {
 		}
 		void LateExecute_Sub(int*, int*, float*) noexcept override {
 		}
-		void Draw_Back_Sub(std::unique_ptr<WindowSystem::WindowManager>&, int, int, float) noexcept override {
+		void Draw_Back_Sub(int, int, float) noexcept override {
+			auto* Windowup = WindowSystem::WindowManager::Instance();
 			auto* DrawParts = DXDraw::Instance();
 
 			int xpos = y_r(40);
 			int ypos = LineHeight + y_r(10) + LineHeight;
 			int ysize = (int)((float)y_r(80));
 
-			int yp = ypos - (int)m_YNow;
+			int xs = 450;
+			int ScrPosX = y_r(1920 - xs * 3 / 2 - 10) - y_r(80);
+
+			int yp0 = ypos - (int)m_YNow;
 			for (auto& L : ItemData::Instance()->GetList()) {//todo
 				if (m_ItemIDs[1].first == InvalidID) {
 					bool isHit = false;
@@ -64,22 +66,18 @@ namespace FPS_n2 {
 						ishit = (L.GetMapID().size() == 0);
 					}
 					if (ishit || m_ItemIDs[2].first == InvalidID) {
-						L.Draw(xpos, yp, ysize, 0);
-						yp += ysize;
+						L.Draw(xpos, yp0, ScrPosX - xpos, ysize, 0, Gray75, !Windowup->PosHitCheck(nullptr));
+						yp0 += ysize;
 					}
 				}
 			}
-			yp -= ypos - (int)m_YNow;
+			yp0 -= ypos - (int)m_YNow;
 
-			int xs = 450;
-			int ScrPosX = y_r(1920 - xs * 3 / 2 - 10) - y_r(80);
 
 			int ScrSizY = (DrawParts->m_DispYSize - (y_r(10) + LineHeight)) - ypos;
-			m_Scroll.ScrollBox(xpos, ypos, ScrPosX, ypos + ScrSizY, (float)std::max(yp, ScrSizY) / (float)ScrSizY, true);
+			m_Scroll.ScrollBox(xpos, ypos, ScrPosX, ypos + ScrSizY, (float)std::max(yp0, ScrSizY) / (float)ScrSizY, true);
 
-			m_YNow = std::max(0.f, m_Scroll.GetNowScrollYPer()*(float)(yp - ScrSizY));
-		}
-		void DrawFront_Sub(std::unique_ptr<WindowSystem::WindowManager>&, int, int, float) noexcept override {
+			m_YNow = std::max(0.f, m_Scroll.GetNowScrollYPer()*(float)(yp0 - ScrSizY));
 			//
 			{
 				int xgoal = 0;
@@ -129,6 +127,8 @@ namespace FPS_n2 {
 				}
 				Easing(&m_XChild, (float)xgoal, 0.8f, EasingType::OutExpo);
 			}
+		}
+		void DrawFront_Sub(int, int, float) noexcept override {
 			//
 			{
 				int xp = y_r(10);

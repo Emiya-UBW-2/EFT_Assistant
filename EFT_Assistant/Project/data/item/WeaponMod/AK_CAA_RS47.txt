@@ -1,2 +1,0 @@
-Name=AK CAA RS47 handguard
-Itemtype=WeaponMod

@@ -1,2 +1,0 @@
-Name=Holosun HS401G5 reflex sight
-Itemtype=WeaponMod

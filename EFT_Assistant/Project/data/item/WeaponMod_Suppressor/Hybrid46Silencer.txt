@@ -1,0 +1,2 @@
+Name=SilencerCo Hybrid 46 multi-caliber silencer
+Itemtype=Suppressor

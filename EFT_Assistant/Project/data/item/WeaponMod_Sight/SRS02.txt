@@ -1,0 +1,2 @@
+Name=Trijicon SRS-02 reflex sight
+Itemtype=Reflex sight
