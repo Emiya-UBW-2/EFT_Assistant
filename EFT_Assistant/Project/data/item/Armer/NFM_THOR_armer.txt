@@ -1,2 +1,0 @@
-Name=NFM THOR Concealable Reinforced Vest body armor
-Itemtype=Armer

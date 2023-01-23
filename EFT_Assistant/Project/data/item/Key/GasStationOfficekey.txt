@@ -1,6 +1,0 @@
-Name=Gas station office key
-Itemtype=Key
-Map=Customs
-InRoom=[Safex1]
-InElse=机に拳銃,テーブル下にGas station storage room keyがスポーン
-InElse=ルート品(currency, ammo)

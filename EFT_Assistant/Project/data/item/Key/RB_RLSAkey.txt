@@ -1,5 +1,0 @@
-Name=RB-RLSA key
-Itemtype=Key
-Map=Reserve
-InRoom=[Drawerx3]
-InElse=ƒ‹[ƒg•i(Weapon mods, Ammunition,Intelligence folder,military tech items)

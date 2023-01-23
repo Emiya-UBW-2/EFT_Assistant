@@ -1,5 +1,0 @@
-Name=Backup hideout key
-Itemtype=Key
-Map=Streets of Tarkov
-InRoom=[Wooden cratex1,Sport bagx1,Toolboxx1]
-InElse=ルート品 (電子機器、貴重品)

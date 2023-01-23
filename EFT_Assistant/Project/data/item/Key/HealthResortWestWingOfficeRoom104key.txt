@@ -1,4 +1,0 @@
-Name=Health Resort west wing office room 104 key
-Itemtype=Key
-Map=Shoreline
-InElse=ƒ‹[ƒg•i(Meds, Currency,LEDX,Blue keycard)

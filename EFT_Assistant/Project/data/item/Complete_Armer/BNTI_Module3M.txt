@@ -1,0 +1,2 @@
+Name=BNTI Module-3M body armor
+Itemtype=Armer

@@ -1,0 +1,5 @@
+Name=Hotel room 206 key
+Itemtype=Key
+Map=Streets of Tarkov
+InRoom=[Dead Scavx1,Safe(locked)x1]
+InElse=ÉãÅ[Égïi(Provision,Energy element,Flammable material)

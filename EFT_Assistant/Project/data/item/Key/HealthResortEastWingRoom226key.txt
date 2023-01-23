@@ -1,7 +1,0 @@
-Name=Health Resort east wing room 226 key
-Itemtype=Key
-Map=Shoreline
-InRoom=[Weapon Box(6x3)x1]
-InElse=バルコニーにGun Locker
-InElse=ルート品(Money, Food, Medical,MP-153 12ga semi-automatic shotgun,LEDX複数)
-InElse=Health Resort east wing room 222 keyでバルコニー越しに入れる

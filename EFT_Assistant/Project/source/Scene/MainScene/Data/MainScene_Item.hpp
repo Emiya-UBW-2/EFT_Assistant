@@ -7,7 +7,8 @@ namespace FPS_n2 {
 	class ItemList : public ListParent<ItemID> {
 		ItemTypeID	m_TypeID{ InvalidID };
 		std::vector<MapID>	m_MapID;
-		std::vector<std::pair<const ItemList*,std::string>>	m_ChildPartsID;
+		std::vector<std::pair<const ItemList*, std::string>>	m_ChildPartsID;
+		std::vector<const ItemList*>							m_ParentPartsID;
 	private:
 		//追加設定
 		void			Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept override {
@@ -42,25 +43,30 @@ namespace FPS_n2 {
 				DataErrorLog::Instance()->AddLog(ErrMes.c_str());
 			}
 		}
-		void	WhenAfterLoad_Sub() noexcept override {
-		}
+		void	WhenAfterLoad_Sub() noexcept override {}
 	public:
 		const auto&	GetTypeID() const noexcept { return m_TypeID; }
 		const auto&	GetMapID() const noexcept { return m_MapID; }
 	public:
 		const int		Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive) const noexcept;
 		void			DrawWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept {
-			auto* Windowup = WindowSystem::WindowManager::Instance();
+			auto* WindowMngr = WindowSystem::WindowManager::Instance();
 			int xofs = 0;
 			int yofs = LineHeight;
 			int yofs2 = yofs;
 			{
 				yofs += LineHeight;
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STR_LEFT, White, Black, "Mods:")); yofs += LineHeight;
+				if (m_ChildPartsID.size() > 0 || m_ParentPartsID.size() > 0) {
+					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STR_LEFT, White, Black, "Mods:") + y_r(30)); yofs += LineHeight;
+				}
 				int ysize = (int)((float)y_r(80));
 				for (const auto& c : m_ChildPartsID) {
 					auto* ptr = c.first;
-					xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, ysize, 0, defaultcolor, (!Windowup->PosHitCheck(window) && !(xp == 0 && yp == 0)))); yofs += ysize;
+					xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, y_r(800), ysize, 0, defaultcolor, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0))) + y_r(30)); yofs += ysize;
+				}
+				for (const auto& c : m_ParentPartsID) {
+					auto* ptr = c;
+					xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, y_r(800), ysize, 0, defaultcolor, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0))) + y_r(30)); yofs += ysize;
 				}
 			}
 			if (GetIcon().GetGraph()) {
@@ -73,6 +79,7 @@ namespace FPS_n2 {
 				DrawControl::Instance()->SetDrawRotaGraph(GetIcon().GetGraph(),
 					xp + (int)(((float)GetIcon().GetXSize() * std::cos(rad) + (float)GetIcon().GetYSize() * std::sin(rad)) / 2.f * Scale),
 					yp + LineHeight + ysize / 2, Scale, rad, false);
+				xofs = std::max<int>(xofs, GetIcon().GetXSize());
 				yofs2 += std::max(ysize, 64 * 2);
 				DrawControl::Instance()->SetAlpha(255);
 			}
@@ -82,13 +89,13 @@ namespace FPS_n2 {
 			yofs = std::max(yofs, yofs2);
 			//
 			if (xs) {
-				*xs = std::max(*xs, xofs + LineHeight / 10);
+				*xs = std::max(*xs, xofs);
 			}
 			if (ys) {
 				*ys = std::max(*ys, yofs - LineHeight);
 			}
 		}
-		void			SetNeedTasktoID(const std::vector<ItemList>& itemList) noexcept {
+		void			SetOtherPartsID(const std::vector<ItemList>& itemList) noexcept {
 			for (auto& c : m_ChildPartsID) {
 				for (const auto& t : itemList) {
 					if (c.second == t.GetName()) {
@@ -100,6 +107,14 @@ namespace FPS_n2 {
 					std::string ErrMes = "Error : Not Setting ChildPartsID in Item ";
 					ErrMes += GetName();
 					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+				}
+			}
+			m_ParentPartsID.clear();
+			for (const auto& t : itemList) {
+				for (auto& c : t.m_ChildPartsID) {
+					if (c.first == this) {
+						m_ParentPartsID.emplace_back(&t);
+					}
 				}
 			}
 		}
@@ -117,22 +132,24 @@ namespace FPS_n2 {
 				}
 			}
 			for (auto& t : m_List) {
-				t.SetNeedTasktoID(m_List);
+				t.SetOtherPartsID(m_List);
 			}
 		}
 		~ItemData() noexcept {}
 	};
 
 	const int		ItemList::Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive) const noexcept {
-		auto* Windowup = WindowSystem::WindowManager::Instance();
+		auto* WindowMngr = WindowSystem::WindowManager::Instance();
 		int xs = xsize;
+		int  Xsize = 0;
 		{
-			auto* Fonts = FontPool::Instance();
-			int xSize = Fonts->Get(FontPool::FontType::Nomal_Edge, LineHeight * 9 / 10).GetStringWidth(-1, "%s", this->GetName().c_str()) + y_r(6) + 2;//エッジ分:
-			if (GetIcon().GetGraph()) {
-				xSize += (ysize * GetIcon().GetXSize() / GetIcon().GetYSize());
+			if (count > 0) {
+				Xsize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, "%s x%2d", this->GetName().c_str(), count);
 			}
-			xs = std::max(xs, xSize);
+			else {
+				Xsize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, "%s", this->GetName().c_str());
+			}
+			xs = std::max(xs, Xsize);
 		}
 
 		if (WindowSystem::ClickCheckBox(xp, yp, xp + xs, yp + ysize, false, Clickactive, defaultcolor, "")) {
@@ -140,30 +157,40 @@ namespace FPS_n2 {
 			auto sizeYBuf = y_r(0);
 			DrawWindow(nullptr, 0, 0, 0, &sizeXBuf, &sizeYBuf);//試しにサイズ計測
 			//
-			unsigned long long FreeID = GetID();
-			Windowup->Add()->Set(xp + xs / 2 - sizeXBuf / 2, yp, sizeXBuf, sizeYBuf, 0, GetName().c_str(), false, true, FreeID, [&](WindowSystem::WindowControl* win) {
-				ItemData::Instance()->FindPtr((ItemID)win->m_FreeID)->DrawWindow(win, Gray10, win->GetPosX(), win->GetPosY());
-			});
+			signed long long FreeID = GetID() + 0xFFFF;
+			//同じIDの奴いたら消そうぜ
+			int Size = (int)WindowMngr->Get().size();
+			bool isHit = false;
+			for (int i = 0; i < Size; i++) {
+				if (WindowMngr->Get()[i]->m_FreeID == FreeID) {
+					isHit = true;
+					WindowMngr->Get()[i]->SetActiveSwitch(true);
+					break;
+				}
+			}
+			if (!isHit) {
+				//ウィンドウ追加
+				WindowMngr->Add()->Set(xp + xs / 2 - sizeXBuf / 2, yp, sizeXBuf, sizeYBuf, 0, GetName().c_str(), false, true, FreeID, [&](WindowSystem::WindowControl* win) {
+					ItemData::Instance()->FindPtr((ItemID)(win->m_FreeID - 0xFFFF))->DrawWindow(win, Gray10, win->GetPosX(), win->GetPosY());
+				});
+			}
 		}
-
-		int  Xsize = 0;
 		if (count > 0) {
-			Xsize = WindowSystem::SetMsg(xp, yp, xp, yp + ysize, LineHeight * 9 / 10, STR_LEFT, White, Black, "%s x%2d", this->GetName().c_str(), count);
+			WindowSystem::SetMsg(xp, yp, xp, yp + ysize, LineHeight * 9 / 10, STR_LEFT, White, Black, "%s x%2d", this->GetName().c_str(), count);
 		}
 		else {
-			Xsize = WindowSystem::SetMsg(xp, yp, xp, yp + ysize, LineHeight * 9 / 10, STR_LEFT, White, Black, "%s", this->GetName().c_str());
+			WindowSystem::SetMsg(xp, yp, xp, yp + ysize, LineHeight * 9 / 10, STR_LEFT, White, Black, "%s", this->GetName().c_str());
 		}
-		xp += Xsize;
 		if (GetIcon().GetGraph()) {
+			xp += Xsize;
 			float Scale = (float)ysize / (float)(std::min(GetIcon().GetXSize(), GetIcon().GetYSize()));
 			float rad = (GetIcon().GetXSize() >= GetIcon().GetYSize()) ? deg2rad(0) : deg2rad(90);
-
 			DrawControl::Instance()->SetDrawRotaGraph(GetIcon().GetGraph(), xp + (int)(((float)GetIcon().GetXSize() * std::cos(rad) + (float)GetIcon().GetYSize() * std::sin(rad)) / 2.f * Scale), yp + ysize / 2, Scale, rad, false);
-			return (int)(Xsize + ysize * GetIcon().GetXSize() / GetIcon().GetYSize());
+			if (GetIcon().GetGraph()) {
+				Xsize += (ysize * GetIcon().GetXSize() / GetIcon().GetYSize());
+			}
 		}
-		else {
-			return (int)Xsize;
-		}
+		return Xsize;
 	}
 
 

@@ -1,8 +1,0 @@
-Name=Factory emergency exit key
-Itemtype=Key
-Map=Factory
-Map=Customs
-Map=Interchange
-Map=Shoreline
-InElse=Factory3階Locked roomでのスポーン(Jacketx1)(Weapon,loot,Portable bunkhouse key)
-InElse=Customs中央Guard buildingでのスポーン(Drawerx4,Wooden cratex1)(loot,TerraGroup Labs arsenal storage room key)

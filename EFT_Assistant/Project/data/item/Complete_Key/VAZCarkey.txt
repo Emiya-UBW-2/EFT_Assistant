@@ -1,0 +1,2 @@
+Name=VAZ car key
+Itemtype=Key

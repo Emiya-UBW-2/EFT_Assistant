@@ -1,0 +1,2 @@
+Name=6B13 assault armor(Flora)
+Itemtype=Armer

@@ -1,2 +1,0 @@
-Name=Ops-Core FAST Gunsight Mandible
-Itemtype=Additional armor

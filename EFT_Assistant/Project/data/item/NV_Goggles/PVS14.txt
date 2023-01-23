@@ -1,2 +1,0 @@
-Name=AN/PVS-14 Night Vision Monocular
-Itemtype=Night vision

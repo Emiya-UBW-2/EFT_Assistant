@@ -1,0 +1,2 @@
+Name=T-7 Thermal Goggles with a Night Vision mount
+Itemtype=Thermal vision device

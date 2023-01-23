@@ -1,2 +1,0 @@
-Name=LShZ-2DTM aventail
-Itemtype=Additional armor

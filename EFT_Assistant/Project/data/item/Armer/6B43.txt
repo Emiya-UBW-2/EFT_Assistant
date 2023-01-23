@@ -1,2 +1,0 @@
-Name=6B43 6A Zabralo-Sh body armor
-Itemtype=Armer

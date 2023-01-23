@@ -1,2 +1,0 @@
-Name=Walker's Razor Digital headset
-Itemtype=Headset

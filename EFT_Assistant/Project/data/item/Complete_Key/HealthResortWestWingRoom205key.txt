@@ -1,0 +1,6 @@
+Name=Health Resort west wing room 205 key
+Itemtype=Key
+Map=Shoreline
+InRoom=[Toolboxx1,Medcasex1]
+InElse=ルート品(meds, food,LEDX,Graphics Card)
+InElse=Health Resort west wing room 203 keyでバルコニー越しに入れる

@@ -1,2 +1,0 @@
-Name=NFM THOR Integrated Carrier body armor
-Itemtype=Armer

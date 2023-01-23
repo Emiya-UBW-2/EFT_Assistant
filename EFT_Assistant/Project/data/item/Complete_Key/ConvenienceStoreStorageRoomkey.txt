@@ -1,0 +1,5 @@
+Name=Construction site bunkhouse key
+Itemtype=Key
+Map=Lighthouse
+InRoom=[Medcasex1,Dead Scavx1]
+InElse=‚¢‚ë‚ñ‚Èƒ‹[ƒg•i

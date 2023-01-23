@@ -1,4 +1,0 @@
-Name=Yotota car key
-Itemtype=Key
-Map=Woods
-InElse=ƒ‹[ƒg

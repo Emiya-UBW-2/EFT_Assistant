@@ -1,6 +1,0 @@
-Name=Health Resort east wing room 328 key
-Itemtype=Key
-Map=Shoreline
-InRoom=[PC Blockx1,Sport Bagx1]
-InElse=ルート品(LEDX,Graphics card,Electronic,Weapon,Weapon mods,Money)
-InElse=Health Resort universal utility room keyでバルコニー越しに入れる

@@ -1,2 +1,4 @@
 Name=ADAR 2-15 5.56x45 upper receiver
 Itemtype=Receiver
+ChildParts=[AR-15 ADAR 2-15 wooden handguard]
+ChildParts=[AR-15 5.56x45 Molot Arms 406mm barrel]

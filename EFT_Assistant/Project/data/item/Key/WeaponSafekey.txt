@@ -1,2 +1,0 @@
-Name=Weapon safe key
-Itemtype=Key

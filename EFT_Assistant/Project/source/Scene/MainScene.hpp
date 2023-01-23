@@ -76,8 +76,9 @@ namespace FPS_n2 {
 		}
 
 		bool Update_Sub(void) noexcept override {
-			auto* Windowup = WindowSystem::WindowManager::Instance();
+			auto* WindowMngr = WindowSystem::WindowManager::Instance();
 			auto* DrawParts = DXDraw::Instance();
+			auto* Input = InputControl::Instance();
 
 			DrawControl::Instance()->ClearList();
 
@@ -95,7 +96,6 @@ namespace FPS_n2 {
 			if (GetIsFirstLoop()) {
 				SetWindowPosition(0, 0);
 			}
-			auto* Input = InputControl::Instance();
 			auto mouse_moveX = Input->GetMouseX();							//ドラッグ前のマウス座標格納
 			auto mouse_moveY = Input->GetMouseY();
 			Input->Execute();
@@ -140,10 +140,10 @@ namespace FPS_n2 {
 				SetCursor(hCursor);
 			}
 			//
-			Windowup->Execute();
+			WindowMngr->Execute();
 			m_BGPtr->LateExecute(&this->m_posx, &this->m_posy, &this->m_Scale);
 			if (m_BGPtr->IsGoNextBG()) {
-				Windowup->DeleteAll();
+				WindowMngr->DeleteAll();
 				m_BGPtr->Dispose();
 				if (m_BGPtr == m_TitleBG) {
 					switch (m_TitleBG->GetNextSelect()) {
@@ -195,7 +195,7 @@ namespace FPS_n2 {
 					//Back
 					m_BGPtr->Draw_Back(this->m_posx, this->m_posy, this->m_Scale);
 					//ウィンドウ
-					Windowup->Draw();
+					WindowMngr->Draw();
 				}
 				//タイトルバック
 				int DieCol = std::clamp((int)(Lerp(1.f, 128.f, m_NoneActiveTimes / 5.f)), 0, 255);

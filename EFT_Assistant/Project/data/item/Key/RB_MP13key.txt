@@ -1,5 +1,0 @@
-Name=RB-MP13 key
-Itemtype=Key
-Map=Reserve
-InRoom=[drawerx1]
-InElse=ルート品(Tool6-STEN-140-M military battery,机と一緒の椅子にIntelligence folder)

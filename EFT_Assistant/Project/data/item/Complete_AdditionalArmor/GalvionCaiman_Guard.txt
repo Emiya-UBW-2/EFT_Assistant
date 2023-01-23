@@ -1,0 +1,2 @@
+Name=Galvion Caiman Hybrid Ballistic Mandible Guard
+Itemtype=Additional armor

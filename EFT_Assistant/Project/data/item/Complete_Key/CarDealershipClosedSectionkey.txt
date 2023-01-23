@@ -1,0 +1,6 @@
+Name=Car dealership closed section key
+Itemtype=Key
+Map=Streets of Tarkov
+InRoom=[Technical supply cratex1,Wooden cratex1,Weapon box (5x2)x1,Weapon box (5x5)x1,Weapon box (6x3)x1,PC blockx1]
+InElse=ルート品(武器改造、家庭用品、その他のアイテム)
+InElse=Car dealership director's office room keyで開く扉が中にある

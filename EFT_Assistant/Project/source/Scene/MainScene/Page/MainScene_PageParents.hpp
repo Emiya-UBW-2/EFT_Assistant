@@ -38,8 +38,8 @@ namespace FPS_n2 {
 
 	template<class ListChild>
 	static void MakeList(int xp1, int yp1, const std::vector<ListChild>& List, int*Select, bool isActive, bool isElseSelect,bool isAllSelect, const std::function<bool(const ListChild*)>& CheckLocal) noexcept {
-		auto* Windowup = WindowSystem::WindowManager::Instance();
-		int xsize = y_r(450);
+		auto* WindowMngr = WindowSystem::WindowManager::Instance();
+		int xsize = y_r(400);
 		int ysize = LineHeight;
 		int count = 0;
 		int yp_t = yp1;
@@ -54,7 +54,7 @@ namespace FPS_n2 {
 			IDBuf = L2.GetID();
 			bool SelectIt = (*Select == IDBuf);
 			auto color = NotSelect ? Gray25 : (SelectIt ? Gray10 : Gray50);
-			if (WindowSystem::ClickCheckBox(xp1 - (SelectIt ? y_r(25) : 0), yp_t, xp1 + xsize, yp_t + ysize, false, (isActive || (!isActive && SelectIt)) && !Windowup->PosHitCheck(nullptr), color, L2.GetName().c_str())) {
+			if (WindowSystem::ClickCheckBox(xp1 - (SelectIt ? y_r(25) : 0), yp_t, xp1 + xsize, yp_t + ysize, false, (isActive || (!isActive && SelectIt)) && !WindowMngr->PosHitCheck(nullptr), color, L2.GetName().c_str())) {
 				*Select = (isActive) ? IDBuf : InvalidID;
 			}
 			yp_t += ysize + y_r(5);
@@ -63,7 +63,7 @@ namespace FPS_n2 {
 		if (count > 0 && isElseSelect) {//‚»‚Ì‘¼
 			bool ElseSelect = (*Select == ElseSelectID);
 			auto color = ElseSelect ? Gray25 : Gray50;
-			if (WindowSystem::ClickCheckBox(xp1 - (ElseSelect ? y_r(25) : 0), yp_t, xp1 + xsize, yp_t + ysize, false, isActive && !Windowup->PosHitCheck(nullptr), color, "Else")) {
+			if (WindowSystem::ClickCheckBox(xp1 - (ElseSelect ? y_r(25) : 0), yp_t, xp1 + xsize, yp_t + ysize, false, isActive && !WindowMngr->PosHitCheck(nullptr), color, "Else")) {
 				*Select = ElseSelectID;
 			}
 		}
@@ -71,7 +71,7 @@ namespace FPS_n2 {
 		if (isAllSelect) {
 			if (count > 1) {
 				auto color = NotSelect ? Gray10 : Gray50;
-				if (WindowSystem::ClickCheckBox(xp1 - (NotSelect ? y_r(25) : 0), yp1, xp1 + xsize, yp1 + ysize, false, isActive && !Windowup->PosHitCheck(nullptr), color, "ALL")) {
+				if (WindowSystem::ClickCheckBox(xp1 - (NotSelect ? y_r(25) : 0), yp1, xp1 + xsize, yp1 + ysize, false, isActive && !WindowMngr->PosHitCheck(nullptr), color, "ALL")) {
 					*Select = InvalidID;
 				}
 			}

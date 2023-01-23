@@ -1,0 +1,7 @@
+Name=Health Resort west wing room 301 key
+Itemtype=Key
+Map=Shoreline
+InElse=West304にバルコニー越しに入れる
+
+InRoom=[Weapon box(5x5)x1,PC blockx2]
+InElse=ルート品(304Computer parts, 304Meds, 304Money,Graphics cardx2,304Weapon(SV-98),304コンピューター横の机にLEDXx2,301Graphics card,301白いクレート上にLEDX)

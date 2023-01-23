@@ -1,0 +1,2 @@
+Name=FORT Redut-M body armor
+Itemtype=Armer

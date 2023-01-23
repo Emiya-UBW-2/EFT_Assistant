@@ -1,0 +1,5 @@
+Name=Rogue USEC barrack key
+Itemtype=Key
+Map=Lighthouse
+InRoom=[Weapon box (5x2)x1,Weapon box (4x4)x1,Toolboxx1,Wooden ammo boxx1]
+InElse=ÉãÅ[Égïi(weapon mod)

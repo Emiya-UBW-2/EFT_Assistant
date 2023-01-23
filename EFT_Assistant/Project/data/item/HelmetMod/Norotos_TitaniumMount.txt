@@ -1,3 +1,0 @@
-Name=Norotos Titanium Advanced Tactical Mount
-Itemtype=Helmet mount
-ChildParts=[PNV-10T dovetail adapter,or,AN/PVS-14 Dual Dovetail Mount,or,Wilcox Interface for PVS-7]

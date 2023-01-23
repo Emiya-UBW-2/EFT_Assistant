@@ -1,2 +1,0 @@
-Name=Altyn face shield
-Itemtype=Visor

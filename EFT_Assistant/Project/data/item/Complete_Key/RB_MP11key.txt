@@ -1,0 +1,5 @@
+Name=RB-MP11 key
+Itemtype=Key
+Map=Reserve
+InRoom=[Jacketx1,Toolboxx1]
+InElse=ルート品(デスク上にIntelligence folder)

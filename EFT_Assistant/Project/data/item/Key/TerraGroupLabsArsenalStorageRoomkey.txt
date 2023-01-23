@@ -1,5 +1,0 @@
-Name=TerraGroup Labs arsenal storage room key
-Itemtype=Key
-Map=The Lab
-InRoom=[Drawerx1]
-InElse=ƒ‹[ƒg•i(Rare Item,Weapon Mods,Meds)

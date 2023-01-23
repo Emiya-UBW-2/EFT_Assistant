@@ -1,0 +1,2 @@
+Name=Tac-Kek Heavy Trooper mask for Ops-Core-type helmets
+Itemtype=Visor

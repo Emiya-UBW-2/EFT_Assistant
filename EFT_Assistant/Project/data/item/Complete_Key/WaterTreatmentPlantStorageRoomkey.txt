@@ -1,0 +1,5 @@
+Name=Water treatment plant storage room key
+Itemtype=Key
+Map=Lighthouse
+InRoom=[Technical Supply Cratex1,Toolboxx1]
+InElse=ƒ‹[ƒg•i(military tech)

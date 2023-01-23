@@ -1,0 +1,4 @@
+Name=Gas station storage room key
+Itemtype=Key
+Map=Customs
+InRoom=[Medbagx1,Medcasex1]

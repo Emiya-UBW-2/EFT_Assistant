@@ -1,0 +1,2 @@
+Name=Folding car key
+Itemtype=Key

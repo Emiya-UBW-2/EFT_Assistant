@@ -1,2 +1,0 @@
-Name=6B13 M modified assault armor (Tan)
-Itemtype=Armer

@@ -1,0 +1,5 @@
+Name=RB-PKPM marked key
+Itemtype=Key
+Map=Reserve
+InRoom=[Drawerx3]
+InElse=ƒ‹[ƒg•i(•¡”‚Ìvery rare loot item, weapon, container)

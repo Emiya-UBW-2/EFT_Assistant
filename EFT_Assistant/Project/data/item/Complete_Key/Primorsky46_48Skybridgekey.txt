@@ -1,0 +1,4 @@
+Name=Primorsky 46-48 skybridge key
+Itemtype=Key
+Map=Streets of Tarkov
+InElse=Primorsky 48 10番アパートメント内のドア、プリモルスキー46の階段と接続廊下。アパート10の入り口のドアは、内側から破って出ることができる

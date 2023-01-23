@@ -1,0 +1,5 @@
+Name=TerraGroup Labs manager's office room key
+Itemtype=Key
+Map=The Lab
+InRoom=[PC blockx1,Drawerx1,Safex1,Weapon box (6x3)x1]
+InElse=ƒ‹[ƒg•i(rare lootx4,Š÷‚ÉIntelligence folder)

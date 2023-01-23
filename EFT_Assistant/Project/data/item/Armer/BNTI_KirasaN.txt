@@ -1,2 +1,0 @@
-Name=BNTI Kirasa-N body armor
-Itemtype=Armer

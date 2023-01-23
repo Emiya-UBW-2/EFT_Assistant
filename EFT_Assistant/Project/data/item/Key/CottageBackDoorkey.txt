@@ -1,5 +1,0 @@
-Name=Cottage back door key
-Itemtype=Key
-Map=Shoreline
-InRoom=[PC blockx1,Gun Cabinetx1,Safesx1,Safes(locked)x1,Jacketx1]
-InElse=ƒ‹[ƒg•i(Roubles)

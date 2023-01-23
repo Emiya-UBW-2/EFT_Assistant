@@ -1,0 +1,5 @@
+Name=Dorm room 114 key
+Itemtype=Key
+Map=Customs
+InRoom=[Medcasex1,Safex1,PC blockx1]
+InElse=ƒ‹[ƒg•i

@@ -1,0 +1,6 @@
+Name=Health Resort east wing room 206 key
+Itemtype=Key
+Map=Shoreline
+InRoom=[Weapon Box(5x2)x2,Weapon Box(4x4)x1]
+InElse=ルート品(Rare,Meds,Weapon(AKM,AKS-74UB))
+InElse=Health Resort east wing room 205 keyでバルコニー越しに入れる

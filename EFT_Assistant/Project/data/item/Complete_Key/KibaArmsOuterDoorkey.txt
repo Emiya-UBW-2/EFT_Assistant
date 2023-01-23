@@ -1,0 +1,4 @@
+Name=Kiba Arms outer door key
+Itemtype=Key
+Map=Interchange
+InElse=Kiba Arms inner grate door key‚ÅŠJ‚¯‚é”à‚ª‚ ‚é

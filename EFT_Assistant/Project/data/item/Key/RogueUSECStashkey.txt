@@ -1,5 +1,0 @@
-Name=Rogue USEC stash key
-Itemtype=Key
-Map=Lighthouse
-InRoom=[Weapon box (5x2)x1,Weapon box (4x4)x1,Weapon box (5x5)x1]
-InElse=ÉãÅ[Égïi(Weapon mod)

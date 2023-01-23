@@ -1,0 +1,2 @@
+Name=6B23-2 body armor (Mountain Flora)
+Itemtype=Armer

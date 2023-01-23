@@ -1,0 +1,2 @@
+Name=Missam forklift key
+Itemtype=Key

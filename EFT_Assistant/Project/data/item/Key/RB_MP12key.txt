@@ -1,5 +1,0 @@
-Name=RB-MP12 key
-Itemtype=Key
-Map=Reserve
-InRoom=[Jacketx1,Wooden cratex1]
-InElse=ルート品(テーブル上、wooden crate左にIntelligence folder,One 6-STEN-140-M military battery,ammo)

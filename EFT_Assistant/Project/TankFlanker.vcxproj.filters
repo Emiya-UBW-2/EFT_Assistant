@@ -91,7 +91,7 @@
       <Filter>ソース ファイル\Scene\Page</Filter>
     </ClInclude>
     <ClInclude Include="source\Parts\DrawSystem.hpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\Parts</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

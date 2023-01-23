@@ -1,0 +1,5 @@
+Name=Concordia security room key
+Itemtype=Key
+Map=Streets of Tarkov
+InRoom=[PC blockx2,Safex1]
+InElse=ƒ‹[ƒg•i(Weapon mods)

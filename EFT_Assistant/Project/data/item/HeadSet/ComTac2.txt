@@ -1,2 +1,0 @@
-Name=Peltor ComTac 2 headset
-Itemtype=Headset

@@ -1,2 +1,0 @@
-Name=Health Resort west wing room 207 key
-Itemtype=Key

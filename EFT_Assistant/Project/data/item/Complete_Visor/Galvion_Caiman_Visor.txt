@@ -1,0 +1,2 @@
+Name=Galvion Caiman Fixed Arm Visor
+Itemtype=Visor

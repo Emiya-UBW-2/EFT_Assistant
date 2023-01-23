@@ -1,4 +1,0 @@
-Name=Merin car trunk key
-Itemtype=Key
-Map=Lighthouse
-InElse=ƒ‹[ƒg•i(Valuable,Electronic,Stimulator,Currency)

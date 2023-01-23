@@ -1,2 +1,0 @@
-Name=Ops-Core FAST multi-hit ballistic face shield
-Itemtype=Visor

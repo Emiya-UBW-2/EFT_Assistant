@@ -1,5 +1,0 @@
-Name=TerraGroup Labs weapon testing area key
-Itemtype=Key
-Map=The Lab
-InRoom=[Weapon box(4x4)x1,Weapon box(5x5)x1]
-InElse=ÉãÅ[Égïi(weapon,Weapon mod,Ammunition)

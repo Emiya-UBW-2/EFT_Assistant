@@ -100,26 +100,26 @@ namespace FPS_n2 {
 		void DrawFront_Sub(int, int, float) noexcept override {
 			//
 			{
-				int xp = y_r(1920 - 450 - 10);
+				int xp = y_r(1920 - 400 - 10);
 				int yp = LineHeight + y_r(10);
 				MakeList<MapList>(xp, yp, MapData::Instance()->GetList(), (int*)&m_SelectBuffer, true, false, false, [&](const auto *) { return true; });
 			}
 			//
 			if (m_MapSelect != InvalidID) {
-				int xp = y_r(1920 - 450 - 10 - 500);
+				int xp = y_r(1920 - 400 - 10 - 500);
 				int yp = LineHeight + y_r(10);
 
 				auto* MapPtr = MapData::Instance()->FindPtr(m_MapSelect);
 				int Max = (int)MapPtr->GetMapPicNum();
 				int NextID = (m_WatchMapSelect + 1) % Max;
-				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(450), yp + LineHeight, false, true, Gray25, "Select %s", WatchMapTypeStr[std::clamp(NextID, 0, 2)])) {
+				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(400), yp + LineHeight, false, true, Gray25, "Select %s", WatchMapTypeStr[std::clamp(NextID, 0, 2)])) {
 					m_WatchMapSelect = NextID;
 					m_BaseRad = MapPtr->GetMapNorthRad(m_WatchMapSelect);
 					m_Rad = 0.f;
 					m_Rad_Goal = 0.f;
 				}
 				yp += LineHeight + y_r(10);
-				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(450), yp + LineHeight, false, true, Gray25, "Reset Degree")) {
+				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(400), yp + LineHeight, false, true, Gray25, "Reset Degree")) {
 					m_Rad = 0.f;
 					m_Rad_Goal = 0.f;
 				}

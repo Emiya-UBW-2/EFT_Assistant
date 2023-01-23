@@ -1,2 +1,0 @@
-Name=Peltor Tactical Sport headset
-Itemtype=Headset

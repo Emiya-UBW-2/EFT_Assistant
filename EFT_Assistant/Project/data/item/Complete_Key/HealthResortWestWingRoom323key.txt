@@ -1,0 +1,2 @@
+Name=Health Resort west wing room 323 key
+Itemtype=Key

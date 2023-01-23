@@ -1,2 +1,0 @@
-Name=Diamond Age Bastion helmet armor plate
-Itemtype=Additional armor

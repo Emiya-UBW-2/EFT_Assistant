@@ -1,0 +1,2 @@
+Name=PACA Soft Armor
+Itemtype=Armer

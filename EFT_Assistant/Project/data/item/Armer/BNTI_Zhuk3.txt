@@ -1,2 +1,0 @@
-Name=BNTI Zhuk-3 body armor (Press)
-Itemtype=Armer

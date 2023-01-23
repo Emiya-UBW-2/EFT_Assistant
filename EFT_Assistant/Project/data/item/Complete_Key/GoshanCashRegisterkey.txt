@@ -1,0 +1,4 @@
+Name=Goshan cash register key
+Itemtype=Key
+Map=Interchange
+InElse=ƒSƒVƒƒƒ“‚É‚ ‚éƒŒƒW30‘ä‚ÌŠJù(Cash register TAR2-2)

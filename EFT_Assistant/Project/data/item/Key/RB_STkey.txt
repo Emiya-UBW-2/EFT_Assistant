@@ -1,5 +1,0 @@
-Name=RB-ST key
-Itemtype=Key
-Map=Reserve
-InRoom=[Weapon box(5x5)x1,Weapon box(5x2)x1,Weapon box(6x3)x1,Grenade boxx2]
-InElse=ÉãÅ[Égïi(Ammunition, Weapon mods and Electronics,6-STEN-140-M military batteryx2,OFZ 30x160mm shell,Phased array element,Military gyrotachometer,Military cable,TP-200 TNT brick)

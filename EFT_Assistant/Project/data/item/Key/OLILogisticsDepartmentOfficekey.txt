@@ -1,5 +1,0 @@
-Name=OLI logistics department office key
-Itemtype=Key
-Map=Interchange
-InRoom=[PC blockx1]
-InElse=ƒ‹[ƒg•i

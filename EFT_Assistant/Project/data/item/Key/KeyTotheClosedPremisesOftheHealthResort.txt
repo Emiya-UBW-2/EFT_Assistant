@@ -1,2 +1,0 @@
-Name=Key to the closed premises of the Health Resort
-Itemtype=Quest

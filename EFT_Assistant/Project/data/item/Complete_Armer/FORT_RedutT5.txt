@@ -1,0 +1,2 @@
+Name=FORT Redut-T5 body armor
+Itemtype=Armer

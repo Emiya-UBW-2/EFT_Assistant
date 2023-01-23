@@ -27,11 +27,15 @@ namespace FPS_n2 {
 		};
 		//文字
 		template <typename... Args>
+		static const auto GetMsgLen(int size, std::string_view String, Args&&... args) {
+			auto* Fonts = FontPool::Instance();
+			return Fonts->Get(FontPool::FontType::Nomal_Edge, size).GetStringWidth(-1, ((std::string)String).c_str(), args...) + y_r(6) + 2;//エッジ分:
+		}
+		template <typename... Args>
 		static const auto SetMsg(int xp1, int yp1, int xp2, int yp2, int size, FontHandle::FontXCenter FontX, unsigned int Color, unsigned int EdleColor, std::string_view String, Args&&... args) {
 			if (String == "") { return 0; }
 			auto* DrawParts = DXDraw::Instance();
-			auto* Fonts = FontPool::Instance();
-			int xSize= Fonts->Get(FontPool::FontType::Nomal_Edge, size).GetStringWidth(-1, ((std::string)String).c_str(), args...) + y_r(6) + 2;//エッジ分:
+			int xSize = GetMsgLen(size, String, args...);
 			int xpos = 0;
 			int ypos = yp1 + (yp2 - yp1) / 2;
 			if ((ypos - size / 2) > DrawParts->m_DispYSize || (ypos + size / 2) < 0) { return 0; }				//画面外は表示しない
@@ -166,7 +170,7 @@ namespace FPS_n2 {
 		class WindowControl {
 		public:
 			bool				m_isDelete{ false };
-			unsigned long long	m_FreeID{ 0 };
+			signed long long	m_FreeID{ 0 };
 		private:
 			bool				m_ActiveSwitch{ false };
 			bool				m_IsActive{ false };
@@ -221,14 +225,15 @@ namespace FPS_n2 {
 			const auto&		GetSizeY(void) const noexcept { return this->m_SizeY; }
 			void			SetSizeY(int value) noexcept { this->m_SizeY = LineHeight + value; }
 
+			void			SetActiveSwitch(bool value) noexcept { this->m_ActiveSwitch = value; }
 			const auto&		GetActiveSwitch(void) const noexcept { return this->m_ActiveSwitch; }
-			void			SetIsActive(bool value) noexcept { m_IsActive = value; }
+			void			SetIsActive(bool value) noexcept { this->m_IsActive = value; }
 			const auto&		GetIsActive(void) const noexcept { return this->m_IsActive; }
 
 			void			SetTotalSizeY(bool value) noexcept { this->m_TotalSizeY = value; }
 			const auto&		GetNowScrollPer(void) const noexcept { return this->m_Scroll.GetNowScrollYPer(); }
 		public:
-			void Set(int posx, int posy, int sizex, int sizey, int Totalsizey, const char* tabName, bool canChageSize, bool canPressXButton,unsigned long long FreeID, const std::function<void(WindowControl*)>& DoingOnWindow) noexcept {
+			void Set(int posx, int posy, int sizex, int sizey, int Totalsizey, const char* tabName, bool canChageSize, bool canPressXButton, signed long long FreeID, const std::function<void(WindowControl*)>& DoingOnWindow) noexcept {
 
 				this->m_FreeID = FreeID;
 
@@ -635,19 +640,18 @@ namespace FPS_n2 {
 						}
 					}
 				}
-				//4ウィンドウ以上はキル
+				//10ウィンドウ以上はキル
 				{
 					int Size = (int)m_WindowControl.size();
-					for (int i = 0; i < Size - 4; i++) {
+					for (int i = 0; i < Size - 10; i++) {
 						m_WindowControl.erase(m_WindowControl.begin());
 					}
 				}
 			}
 			void		Draw(void) noexcept {
-				for (auto& w : m_WindowControl) {
-					if (w.get()) {
-						w->Draw();
-					}
+				int Size = (int)m_WindowControl.size();
+				for (int i = 0; i < Size; i++) {
+					m_WindowControl[i]->Draw();
 				}
 			}
 			void		Dispose(void) noexcept {

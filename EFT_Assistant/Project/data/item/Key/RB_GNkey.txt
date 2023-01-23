@@ -1,5 +1,0 @@
-Name=RB-GN key
-Itemtype=Key
-Map=Reserve
-InRoom=[Toolboxx2]
-InElse=ƒ‹[ƒg•i(FP-100 filter absorber,6-STEN-140-M military battery,Old firesteel)

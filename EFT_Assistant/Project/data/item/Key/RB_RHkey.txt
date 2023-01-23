@@ -1,5 +1,0 @@
-Name=RB-RH key
-Itemtype=Key
-Map=Reserve
-InRoom=[Drawerx2]
-InElse=ルート品(Weapon rackx1,テーブルにWeapon)

@@ -1,2 +1,0 @@
-Name=Health Resort east wing room 322 key
-Itemtype=Key

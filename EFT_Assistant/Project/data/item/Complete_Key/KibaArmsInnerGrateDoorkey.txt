@@ -1,0 +1,7 @@
+Name=Kiba Arms inner grate door key
+Itemtype=Key
+Map=Interchange
+InRoom=[Weapon box(4x4)x1,Weapon box(5x5)x1,Cash registerx2
+InElse=ルート品(weapon,マネキンにMF-UNTAR body armor,マネキンにIOTV Gen4 body armor (high mobility kit),マネキンにSSSh-94 SFERA-S helmet)
+InElse=ルート品(weapon lockerにDVL-10,wooden crateの上や壊れたクレートの中に複数のF-1/M67,Currency stacks,大量のWeapon mods,いろんな場所の床にAmmunition)
+InElse=武器は一定のカスタム品

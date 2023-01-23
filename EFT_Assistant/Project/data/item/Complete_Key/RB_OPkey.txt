@@ -1,0 +1,5 @@
+Name=RB-OP key
+Itemtype=Key
+Map=Reserve
+InRoom=[Drawerx1]
+InElse=ルート品(デスクにIntelligence folder,shelf上にValuables)

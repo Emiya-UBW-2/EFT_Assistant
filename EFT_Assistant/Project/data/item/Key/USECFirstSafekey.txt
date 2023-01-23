@@ -1,4 +1,0 @@
-Name=USEC first safe key
-Itemtype=Key
-Map=Lighthouse
-InElse=ã‡å…

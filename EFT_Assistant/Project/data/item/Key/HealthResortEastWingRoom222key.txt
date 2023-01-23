@@ -1,9 +1,0 @@
-Name=Health Resort east wing room 222 key
-Itemtype=Key
-Map=Shoreline
-
-InRoom=[Weapon Box(6x3)x1,Weapon Rackx1,Grenade Boxx1,Toolboxx1]
-InElse=Rare item
-InElse=weapon(RSASS or SV-98 7.62x54R bolt-action sniper rifle or MP5)
-InElse=段ボール内にPhysical bitcoin
-InElse=Health Resort east wing room 226 keyでバルコニー越しに入れる

@@ -1,2 +1,0 @@
-Name=BNTI Gzhel-K body armor
-Itemtype=Armer

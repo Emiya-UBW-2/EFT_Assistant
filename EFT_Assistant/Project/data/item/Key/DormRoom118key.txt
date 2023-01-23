@@ -1,4 +1,0 @@
-Name=Dorm room 118 key
-Itemtype=Key
-Map=Customs
-InRoom=[Jacketx2]

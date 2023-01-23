@@ -10,7 +10,7 @@ namespace FPS_n2 {
 		std::vector<Rect2D>											m_TaskRect;
 	private:
 		void DrawChildTaskClickBox(float Scale, TaskID ParentID, int start_x, int start_y, int xp, int yp, int xs, int ys, bool parentCanDo = true) noexcept {
-			auto* Windowup = WindowSystem::WindowManager::Instance();
+			auto* WindowMngr = WindowSystem::WindowManager::Instance();
 			if (ParentID == InvalidID) {
 				m_posxMaxBuffer = 0;
 				m_posyMaxBuffer = 0;
@@ -20,9 +20,9 @@ namespace FPS_n2 {
 					TraderData::Instance()->ResetRep();
 				}
 				if (tasks.GetTaskNeedData().GettaskID() == ParentID) {
-					auto* trader = TraderData::Instance()->FindPtr(tasks.GetTrader());
+					auto* ptr = TraderData::Instance()->FindPtr(tasks.GetTrader());
 					auto parentCanDo_t = parentCanDo;
-					auto color = trader->GetColors(0);
+					auto color = ptr->GetColors(0);
 					//信頼度アップダウンを対応
 					std::vector<float> PrevRep;
 					PrevRep.resize(tasks.GetTaskRewardData().GetLLAdd().size());
@@ -36,20 +36,20 @@ namespace FPS_n2 {
 						(
 						(this->m_MyLevel < tasks.GetTaskNeedData().GetLevel())
 							) || !parentCanDo) {
-						color = trader->GetColors(-100);
+						color = ptr->GetColors(-100);
 						parentCanDo_t = false;
 					}
 					if (ParentID != InvalidID) {
 						DrawControl::Instance()->SetDrawLine(start_x, start_y, xp, yp + ys / 2, Red, (int)(5.f * Scale));
 					}
-					if (WindowSystem::ClickCheckBox(xp, yp, xp + xs, yp + ys, false, !Windowup->PosHitCheck(nullptr), color, (Scale > 0.5f) ? tasks.GetName() : "")) {
+					if (WindowSystem::ClickCheckBox(xp, yp, xp + xs, yp + ys, false, !WindowMngr->PosHitCheck(nullptr), color, (Scale > 0.5f) ? tasks.GetName() : "")) {
 						auto sizeXBuf = y_r(800);
 						auto sizeYBuf = y_r(0);
-						tasks.DrawWindow(0, 0, &sizeXBuf, &sizeYBuf);//試しにサイズ計測
+						tasks.DrawWindow(nullptr, 0, 0, &sizeXBuf, &sizeYBuf);//試しにサイズ計測
 						//
-						unsigned long long FreeID = tasks.GetID();
-						Windowup->Add()->Set(xp + xs / 2 - sizeXBuf / 2, yp, sizeXBuf, sizeYBuf, 0, tasks.GetName().c_str(), false, true, FreeID, [&](WindowSystem::WindowControl* win) {
-							TaskData::Instance()->FindPtr((TaskID)win->m_FreeID)->DrawWindow(win->GetPosX(), win->GetPosY());
+						signed long long FreeID = tasks.GetID();
+						WindowMngr->Add()->Set(xp + xs / 2 - sizeXBuf / 2, yp, sizeXBuf, sizeYBuf, 0, tasks.GetName().c_str(), false, true, FreeID, [&](WindowSystem::WindowControl* win) {
+							TaskData::Instance()->FindPtr((TaskID)win->m_FreeID)->DrawWindow(win, win->GetPosX(), win->GetPosY());
 						});
 					}
 					int suby = ys;
@@ -90,7 +90,7 @@ namespace FPS_n2 {
 					}
 					//
 					if (ParentID == InvalidID) {
-						yp += (ys + (int)((float)y_r(450) * Scale));
+						yp += (ys + (int)((float)y_r(400) * Scale));
 					}
 					else {
 						yp += (ys + suby);
@@ -110,15 +110,15 @@ namespace FPS_n2 {
 			DrawChildTaskClickBox(Scale, InvalidID, posx + xs, posy + ys / 2, posx, posy, xs, ys);
 		}
 		void DrawFront_Sub(int posx, int posy, float) noexcept override {
-			auto* Windowup = WindowSystem::WindowManager::Instance();
+			auto* WindowMngr = WindowSystem::WindowManager::Instance();
 			auto* DrawParts = DXDraw::Instance();
 			//レベル操作
 			WindowSystem::SetMsg(y_r(0), y_r(1080) - y_r(36), y_r(0), y_r(1080), y_r(36), STR_LEFT, White, Black, "Level");
 			WindowSystem::SetMsg(y_r(200), y_r(1080) - y_r(48), y_r(200), y_r(1080), y_r(48), STR_RIGHT, White, Black, "%d", this->m_MyLevel);
-			if (WindowSystem::ClickCheckBox(y_r(0), y_r(1080) - y_r(48) - LineHeight, y_r(100), y_r(1080) - y_r(48), true, !Windowup->PosHitCheck(nullptr), Red, "DOWN")) {
+			if (WindowSystem::ClickCheckBox(y_r(0), y_r(1080) - y_r(48) - LineHeight, y_r(100), y_r(1080) - y_r(48), true, !WindowMngr->PosHitCheck(nullptr), Red, "DOWN")) {
 				this->m_MyLevel--;
 			}
-			if (WindowSystem::ClickCheckBox(y_r(100), y_r(1080) - y_r(48) - LineHeight, y_r(200), y_r(1080) - y_r(48), true, !Windowup->PosHitCheck(nullptr), Green, "UP")) {
+			if (WindowSystem::ClickCheckBox(y_r(100), y_r(1080) - y_r(48) - LineHeight, y_r(200), y_r(1080) - y_r(48), true, !WindowMngr->PosHitCheck(nullptr), Green, "UP")) {
 				this->m_MyLevel++;
 			}
 			this->m_MyLevel = std::clamp(this->m_MyLevel, 1, 71);

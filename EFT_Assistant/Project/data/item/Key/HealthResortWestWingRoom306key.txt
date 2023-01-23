@@ -1,5 +1,0 @@
-Name=Health Resort west wing room 306 key
-Itemtype=Key
-Map=Shoreline
-InRoom=[dead scavx2]
-InElse=ƒ‹[ƒg•i(Money, Meds,Weapon(M4A1))

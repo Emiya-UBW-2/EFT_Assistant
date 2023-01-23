@@ -1,6 +1,0 @@
-Name=Dorm room 220 key
-Itemtype=Key
-Map=Customs
-InRoom=[Jacketx1,Duffle bagx1]
-InElse=ルート品(Roubles)
-InElse=テーブルにZB-014 key

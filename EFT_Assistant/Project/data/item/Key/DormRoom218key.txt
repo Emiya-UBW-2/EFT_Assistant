@@ -1,4 +1,0 @@
-Name=Dorm room 218 key
-Itemtype=Key
-Map=Customs
-InElse=ƒ‹[ƒg•i(Weapon, Weapon mods)

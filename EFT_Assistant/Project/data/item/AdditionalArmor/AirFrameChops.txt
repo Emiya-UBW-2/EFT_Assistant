@@ -1,2 +1,0 @@
-Name=Crye Precision AirFrame Chops
-Itemtype=Additional armor

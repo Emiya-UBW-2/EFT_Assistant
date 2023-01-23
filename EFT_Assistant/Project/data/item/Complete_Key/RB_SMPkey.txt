@@ -1,0 +1,4 @@
+Name=RB-SMP key
+Itemtype=Key
+Map=Reserve
+InElse=ƒ‹[ƒg•i(Medical supply items(Ophthalmoscope,LEDX Skin Transilluminator...))

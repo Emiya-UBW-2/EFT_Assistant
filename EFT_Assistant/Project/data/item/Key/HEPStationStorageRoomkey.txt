@@ -1,5 +1,0 @@
-Name=HEP station storage room key
-Itemtype=Key
-Map=Shoreline
-InRoom=[Weapon boxx1,Weapon box(4x4)x1,Weapon box(6x3)x1]
-InElse=ルート品(角の小さい木のデスクにIntelligence folder,角の小さい木のデスクにWeapon mods)

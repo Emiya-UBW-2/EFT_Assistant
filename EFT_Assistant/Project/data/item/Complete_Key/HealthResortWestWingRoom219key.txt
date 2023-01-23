@@ -1,0 +1,5 @@
+Name=Health Resort west wing room 219 key
+Itemtype=Key
+Map=Shoreline
+InRoom=[Weapon box (6x3)x1]
+InElse=ƒ‹[ƒg•i(Money, Ammo, Meds,Weapon Cabinetx1,Armor vest)

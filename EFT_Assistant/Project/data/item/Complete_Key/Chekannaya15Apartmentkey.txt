@@ -1,0 +1,4 @@
+Name=Chekannaya 15 apartment key
+Itemtype=Key
+Map=Streets of Tarkov
+InElse=ƒ‹[ƒg•i(Valuables, Electronics, Stimulants)

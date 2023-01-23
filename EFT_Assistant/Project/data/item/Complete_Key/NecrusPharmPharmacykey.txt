@@ -1,0 +1,4 @@
+Name=NecrusPharm pharmacy key
+Itemtype=Key
+Map=Interchange
+InElse=ÉãÅ[Égïi(medical,Bottle of hydrogen peroxide,Bottle of saline solution,LEDX Skin Transilluminator,Ophthalmoscope)

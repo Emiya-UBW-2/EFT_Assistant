@@ -1,4 +1,0 @@
-Name=Dorm room 308 key
-Itemtype=Key
-Map=Customs
-InElse=ƒ‹[ƒg•i(Roubles)

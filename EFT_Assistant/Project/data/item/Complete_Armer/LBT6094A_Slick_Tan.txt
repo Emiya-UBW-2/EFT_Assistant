@@ -1,0 +1,2 @@
+Name=LBT-6094A Slick Plate Carrier(Tan)
+Itemtype=Armer

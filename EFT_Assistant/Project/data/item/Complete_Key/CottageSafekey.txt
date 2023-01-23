@@ -1,0 +1,4 @@
+Name=Cottage safe key
+Itemtype=Key
+Map=Shoreline
+InElse=ã‡å…

@@ -1,0 +1,2 @@
+Name=Ops-Core FAST Side Armor
+Itemtype=Additional armor

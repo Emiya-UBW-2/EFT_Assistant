@@ -1,0 +1,5 @@
+Name=RB-AK key
+Itemtype=Key
+Map=Reserve
+InRoom=[PC blockx2,Sport Bagx1]
+InElse=ÉãÅ[Égïi(tech,Virtex programmable processor,Tetriz,Phased array element,Several ammo box)

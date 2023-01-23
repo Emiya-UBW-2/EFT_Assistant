@@ -1,4 +1,0 @@
-Name=Dorm room 206 key
-Itemtype=Key
-Map=Customs
-InElse=アイテムがスポーン(Bottle of water (0.6L),Water bottle with a filter Aquamari,Water filter)

@@ -1,0 +1,7 @@
+Name=Health Resort east wing room 306 key
+Itemtype=Key
+Map=Shoreline
+InRoom=[PC Blocksx4,Weapon Box(4x4)x1]
+InElse=レア spawn
+InElse=ルート品(Money,DVL-10,LEDX Skin Transilluminator,Flyye MBSS backpack)
+InElse=Health Resort east wing room 308 keyでバルコニー越しに入れる

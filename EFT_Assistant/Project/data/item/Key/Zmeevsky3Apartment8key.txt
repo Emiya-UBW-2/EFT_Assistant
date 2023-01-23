@@ -1,5 +1,0 @@
-Name=Zmeevsky 3 apartment 8 key
-Itemtype=Key
-Map=Streets of Tarkov
-InRoom=[Sport bagx1,Jacketx1]
-InElse=ƒ‹[ƒg•i(Valuables)

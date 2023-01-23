@@ -1,2 +1,0 @@
-Name=Store safe key
-Itemtype=Key

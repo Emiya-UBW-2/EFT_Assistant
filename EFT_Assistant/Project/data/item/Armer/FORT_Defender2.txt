@@ -1,2 +1,0 @@
-Name=FORT Defender-2 body armor
-Itemtype=Armer

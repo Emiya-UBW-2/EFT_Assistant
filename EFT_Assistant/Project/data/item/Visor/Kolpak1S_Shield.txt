@@ -1,2 +1,0 @@
-Name=Kolpak-1S face shield
-Itemtype=Visor

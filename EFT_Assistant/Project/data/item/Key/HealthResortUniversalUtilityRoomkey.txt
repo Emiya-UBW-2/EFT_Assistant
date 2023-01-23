@@ -1,8 +1,0 @@
-Name=Health Resort universal utility room key
-Itemtype=Key
-Map=Shoreline
-InElse=West227の隣の部屋(Jacketx1)(industrial shelfx1,key rackx1)
-InElse=West327の隣の部屋(industrial shelfx1)
-InElse=East328の隣の部屋(ルート品(レア))
-InElse=Health Resort east wing room 328 keyでバルコニー越しに入れる
-

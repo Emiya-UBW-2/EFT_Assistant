@@ -1,5 +1,0 @@
-Name=Dorm room 105 key
-Itemtype=Key
-Map=Customs
-InRoom=[Safex1]
-InElse=ルート品(ベッドにProvisions,床にbarter items)

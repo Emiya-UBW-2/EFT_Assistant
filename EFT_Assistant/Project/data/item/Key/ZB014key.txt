@@ -1,5 +1,0 @@
-Name=ZB-014 key
-Itemtype=Key
-Map=Woods
-InRoom=[Weapon box(5x5)x1]
-InElse=ルート品(樽の上や樽付近にAK-74 5.45x39 6L31 60-round magazine,ルート)

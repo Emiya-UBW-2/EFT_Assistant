@@ -1,2 +1,0 @@
-Name=Hexatac HPC Plate Carrier (Multicam Black)
-Itemtype=Armer

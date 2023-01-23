@@ -1,0 +1,5 @@
+Name=RB-MP21 key
+Itemtype=Key
+Map=Reserve
+InRoom=[Drawerx2,Toolboxx1,Weapon Box(4x4)x1]
+InElse=ルート品(Weapon mods, Ammunition,Weapon rack(AK-74N, AKS-74U, AKS-74N, AKS-74UB, AKS-74UN)x1,AKS-74N,デスクとキャビネット上にIntelligence folder,ドア右に6-STEN-140-M military battery)

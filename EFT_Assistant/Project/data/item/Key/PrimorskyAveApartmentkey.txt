@@ -1,2 +1,0 @@
-Name=Primorsky Ave apartment key
-Itemtype=Key

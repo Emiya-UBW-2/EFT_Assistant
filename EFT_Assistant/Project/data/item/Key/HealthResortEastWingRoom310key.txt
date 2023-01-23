@@ -1,5 +1,0 @@
-Name=Health Resort east wing room 310 key
-Itemtype=Key
-Map=Shoreline
-InRoom=[Sport Bagx2]
-InElse=ƒ‹[ƒg•i(Bitcoins, Gold Chains etc...)

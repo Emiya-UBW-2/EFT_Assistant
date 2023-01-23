@@ -1,2 +1,0 @@
-Name=Walker's XCEL 500BT Digital headset
-Itemtype=Headset

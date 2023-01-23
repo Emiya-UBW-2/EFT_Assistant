@@ -1,2 +1,0 @@
-Name=IOTV Gen4 body armor (high mobility kit)
-Itemtype=Armer

@@ -1,0 +1,5 @@
+Name=Tarcone Director's office key
+Itemtype=Key
+Map=Customs
+InRoom=[Sport bagx1,PC blockx3,Safex1,Jacketx1]
+InElse=ÉãÅ[Égïi(Flyye MBSS backpack,PACA Soft Armor,Intelligence folder)

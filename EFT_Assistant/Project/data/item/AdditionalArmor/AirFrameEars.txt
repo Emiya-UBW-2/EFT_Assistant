@@ -1,2 +1,0 @@
-Name=Crye Precision AirFrame Ears
-Itemtype=Additional armor

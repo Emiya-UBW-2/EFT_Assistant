@@ -1,2 +1,0 @@
-Name=Health Resort west wing room 309 key
-Itemtype=Key

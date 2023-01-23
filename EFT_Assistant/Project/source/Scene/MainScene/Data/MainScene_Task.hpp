@@ -238,38 +238,39 @@ namespace FPS_n2 {
 		void			SetNeedTasktoID(const std::vector<TaskList>& taskList) noexcept {
 			m_TaskNeedData.SetNeedTasktoID(taskList);
 		}
-		void			DrawWindow(int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept {
-			auto* Windowup = WindowSystem::WindowManager::Instance();
+		void			DrawWindow(WindowSystem::WindowControl* window, int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept {
+			auto* WindowMngr = WindowSystem::WindowManager::Instance();
 			int xofs = 0;
 			int yofs = LineHeight;
 			int sizy = LineHeight * 7 / 10;
 			//必要
 			{
-				auto* trader = TraderData::Instance()->FindPtr(GetTrader());
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STR_LEFT, White, Black, "トレーダー:%s Lv %d", trader->GetName().c_str(), std::max(m_TaskNeedData.GetLL(), 1))); yofs += sizy;
+				auto* ptr = TraderData::Instance()->FindPtr(GetTrader());
+				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STR_LEFT, White, Black, "トレーダー:%s Lv %d", ptr->GetName().c_str(), std::max(m_TaskNeedData.GetLL(), 1))); yofs += sizy;
 			}
 			if (m_TaskNeedData.GetLevel() >= 1) {
 				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STR_LEFT, White, Black, "必要レベル:%d", m_TaskNeedData.GetLevel())); yofs += sizy;
 			}
 			if (m_TaskNeedData.GetItem().size() > 0) {
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STR_LEFT, White, Black, "必要アイテム")); yofs += sizy;
+				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STR_LEFT, White, Black, "必要アイテム:")); yofs += sizy;
+				yofs += LineHeight;
 				for (const auto& LL : m_TaskNeedData.GetItem()) {
 					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
 					int total_size = y_r(92);
-					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray15, !Windowup->PosHitCheck(nullptr)) + y_r(30));
+					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window)) + y_r(30));
 					yofs += total_size;
 				}
 			}
 			//タスク内容
 			if (m_TaskWorkData.GetMap().size() > 0) {
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STR_LEFT, White, Black, "マップ指定")); yofs += sizy;
+				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STR_LEFT, White, Black, "マップ指定:")); yofs += sizy;
 				for (auto& LL : m_TaskWorkData.GetMap()) {
 					auto* ptr = MapData::Instance()->FindPtr(LL);
 					xofs = std::max(xofs, WindowSystem::SetMsg(xp + y_r(30), yp + yofs, xp + y_r(30), yp + sizy + yofs, sizy, STR_LEFT, ptr->GetColors(0), Black, "%s", ptr->GetName().c_str()) + y_r(30)); yofs += sizy;
 				}
 			}
 			if (m_TaskWorkData.GetKill().size() > 0) {
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STR_LEFT, White, Black, "敵をキル")); yofs += sizy;
+				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STR_LEFT, White, Black, "敵をキル:")); yofs += sizy;
 				for (auto& LL : m_TaskWorkData.GetKill()) {
 					auto* eny = EnemyData::Instance()->FindPtr(LL.GetEnemyID());
 					xofs = std::max(xofs, WindowSystem::SetMsg(xp + y_r(30), yp + yofs, xp + y_r(30), yp + sizy + yofs, sizy, STR_LEFT, eny->GetColors(0), Black, "%s x%2d", eny->GetName().c_str(), LL.GetKillCount()) + y_r(30));
@@ -281,20 +282,22 @@ namespace FPS_n2 {
 				}
 			}
 			if (m_TaskWorkData.GetFiR_Item().size() > 0) {
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STR_LEFT, White, Black, "Firアイテムの納品")); yofs += sizy;
+				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STR_LEFT, White, Black, "Firアイテムの納品:")); yofs += sizy;
+				yofs += LineHeight;
 				for (const auto& LL : m_TaskWorkData.GetFiR_Item()) {
 					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
 					int total_size = y_r(92);
-					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray75, !Windowup->PosHitCheck(nullptr)) + y_r(30));
+					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window)) + y_r(30));
 					yofs += total_size;
 				}
 			}
 			if (m_TaskWorkData.GetNotFiR_Item().size() > 0) {
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STR_LEFT, White, Black, "Firでなくてよいアイテムの納品")); yofs += sizy;
+				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STR_LEFT, White, Black, "Firでなくてよいアイテムの納品:")); yofs += sizy;
+				yofs += LineHeight;
 				for (const auto& LL : m_TaskWorkData.GetNotFiR_Item()) {
 					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
 					int total_size = y_r(92);
-					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray75, !Windowup->PosHitCheck(nullptr)) + y_r(30));
+					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window)) + y_r(30));
 					yofs += total_size;
 				}
 			}
@@ -306,11 +309,12 @@ namespace FPS_n2 {
 			}
 			//
 			if (m_TaskRewardData.GetItem().size() > 0) {
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STR_LEFT, White, Black, "報酬アイテム")); yofs += sizy;
+				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STR_LEFT, White, Black, "報酬アイテム:")); yofs += sizy;
+				yofs += LineHeight;
 				for (const auto& LL : m_TaskRewardData.GetItem()) {
 					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
 					int total_size = y_r(92);
-					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray75, !Windowup->PosHitCheck(nullptr)) + y_r(30));
+					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window)) + y_r(30));
 					yofs += total_size;
 				}
 				//yofs += sizy;

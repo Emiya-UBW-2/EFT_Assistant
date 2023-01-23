@@ -1,0 +1,2 @@
+Name=PACA Soft Armor (Rivals Edition)
+Itemtype=Armer

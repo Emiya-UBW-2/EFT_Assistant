@@ -1,0 +1,4 @@
+Name=Dorm room 314 marked key
+Itemtype=Key
+Map=Customs
+In_Else=ƒ‹[ƒg•i(multiple very rare loot items, weapons, containers)

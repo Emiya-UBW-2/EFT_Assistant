@@ -1,5 +1,0 @@
-Name=Dorm room 204 key
-Itemtype=Key
-Map=Customs
-InRoom=[WeaponSafex1]
-InElse=ƒ‹[ƒg•i

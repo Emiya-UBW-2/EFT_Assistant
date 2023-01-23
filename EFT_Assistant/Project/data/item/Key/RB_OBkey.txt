@@ -1,5 +1,0 @@
-Name=RB-OB key
-Itemtype=Key
-Map=Reserve
-InRoom=[Drawerx1]
-InElse=ルート品(デスク上にIntelligence folder,デスク上にPhysical Bitcoin)

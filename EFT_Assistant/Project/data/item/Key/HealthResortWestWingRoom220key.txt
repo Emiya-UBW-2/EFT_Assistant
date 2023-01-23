@@ -1,5 +1,0 @@
-Name=Health Resort west wing room 220 key
-Itemtype=Key
-Map=Shoreline
-InRoom=[Weapon box(4x4)x1,Weapon box(5x2)x2]
-InElse=ÉãÅ[Égïi(Bitcoins, Gold Chains etc...)

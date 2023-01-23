@@ -1,0 +1,3 @@
+Name=PNV-10T dovetail adapter
+Itemtype=Helmet mount
+ChildParts=[PNV-10T Night Vision Goggles]

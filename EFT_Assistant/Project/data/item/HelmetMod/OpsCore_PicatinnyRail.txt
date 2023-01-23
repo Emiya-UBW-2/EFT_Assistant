@@ -1,2 +1,0 @@
-Name=Ops-Core Picatinny Rail Adapter mount
-Itemtype=Helmet mount

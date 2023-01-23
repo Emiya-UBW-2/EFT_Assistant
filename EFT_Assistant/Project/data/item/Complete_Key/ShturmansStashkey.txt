@@ -1,0 +1,4 @@
+Name=Shturman's stash key
+Itemtype=Key
+Map=Woods
+InElse=Common fund stash

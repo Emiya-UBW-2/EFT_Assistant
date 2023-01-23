@@ -1,0 +1,2 @@
+Name=Ops-Core FAST RAC Headset
+Itemtype=Headset

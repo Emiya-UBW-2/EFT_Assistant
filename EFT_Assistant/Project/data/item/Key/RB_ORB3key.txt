@@ -1,5 +1,0 @@
-Name=RB-ORB3 key
-Itemtype=Key
-Map=Reserve
-InRoom=[Drawerx2]
-InElse=ÉãÅ[Égïi(Weapon mods, Ammunition,Weapon rack(AK-74N, AKS-74U, AKS-74N, AKS-74UB, AKS-74UN)x3)

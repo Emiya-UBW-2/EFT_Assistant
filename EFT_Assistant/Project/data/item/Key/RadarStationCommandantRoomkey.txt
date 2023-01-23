@@ -1,5 +1,0 @@
-Name=Radar station commandant room key
-Itemtype=Key
-Map=Lighthouse
-InRoom=[Jacketx1,Weapon box(4x4)x1,PC blockx1]
-InElse=ÉãÅ[Égïi(Tool, Weapon mod, valuable)

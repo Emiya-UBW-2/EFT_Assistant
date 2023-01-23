@@ -1,2 +1,0 @@
-Name=Weather station safe key
-Itemtype=Key

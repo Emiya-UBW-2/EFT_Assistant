@@ -1,0 +1,5 @@
+Name=RB-ORB1 key
+Itemtype=Key
+Map=Reserve
+InRoom=[Drawerx2]
+InElse=ÉãÅ[Égïi(Weapon racks (AK-74N, AKS-74U, AKS-74N, AKS-74UB, AKS-74UN)x3,Weapon mods, Ammunition,è∞Ç…Intelligence folder)

@@ -1,2 +1,0 @@
-Name=6B2 body armor (Flora)
-Itemtype=Armer

@@ -32,14 +32,14 @@ namespace FPS_n2 {
 		void LateExecute_Sub(int*, int*, float*) noexcept override {
 		}
 		void Draw_Back_Sub(int, int, float) noexcept override {
-			auto* Windowup = WindowSystem::WindowManager::Instance();
+			auto* WindowMngr = WindowSystem::WindowManager::Instance();
 			auto* DrawParts = DXDraw::Instance();
 
 			int xpos = y_r(40);
 			int ypos = LineHeight + y_r(10) + LineHeight;
 			int ysize = (int)((float)y_r(80));
 
-			int xs = 450;
+			int xs = 400;
 			int ScrPosX = y_r(1920 - xs * 3 / 2 - 10) - y_r(80);
 
 			int yp0 = ypos - (int)m_YNow;
@@ -66,7 +66,7 @@ namespace FPS_n2 {
 						ishit = (L.GetMapID().size() == 0);
 					}
 					if (ishit || m_ItemIDs[2].first == InvalidID) {
-						L.Draw(xpos, yp0, ScrPosX - xpos, ysize, 0, Gray75, !Windowup->PosHitCheck(nullptr));
+						L.Draw(xpos, yp0, ScrPosX - xpos, ysize, 0, Gray75, !WindowMngr->PosHitCheck(nullptr));
 						yp0 += ysize;
 					}
 				}
@@ -81,7 +81,7 @@ namespace FPS_n2 {
 			//
 			{
 				int xgoal = 0;
-				int xsize = y_r(450);
+				int xsize = y_r(400);
 				int xs_add = -(xsize + y_r(50));
 				int xp = y_r(1920 - 10) - xsize - (int)m_XChild;
 				int yp = LineHeight + y_r(10);

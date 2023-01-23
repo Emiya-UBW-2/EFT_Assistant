@@ -1,0 +1,5 @@
+Name=Shared bedroom marked key
+Itemtype=Key
+Map=Lighthouse
+InRoom=[Sport bagx1,Jacketx1,Medcasex1]
+InElse=ƒ‹[ƒg•i(Rare Loot(Bitcoins, Prokill medallions...))

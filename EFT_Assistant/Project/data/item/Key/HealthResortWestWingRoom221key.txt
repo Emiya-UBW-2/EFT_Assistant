@@ -1,6 +1,0 @@
-Name=Health Resort west wing room 221 key
-Itemtype=Key
-Map=Shoreline
-InRoom=[Weapon box (6x3)]
-InElse=ルート品(Money,Weapon(M4A1, M1A))
-InElse=Health Resort west wing room 218 key,Health Resort west wing room 222 keyでバルコニー越しに入れる

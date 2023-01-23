@@ -1,0 +1,5 @@
+Name=RB-AO key
+Itemtype=Key
+Map=Reserve
+InElse=Weapon racks(AK-74N, AKS-74U, AKS-74N, AKS-74UB, AKS-74UN)x5
+InElse=ÉãÅ[Égïi(Weapon mod)

@@ -1,5 +1,0 @@
-Name=Health Resort east wing office room 107 key
-Itemtype=Key
-Map=Shoreline
-InRoom=[Medbagx1,Medcasex1,Sport bagx1]
-InElse=ÉãÅ[Égïi(LEDX,Graphics Card,Money,Meds,Electronics)

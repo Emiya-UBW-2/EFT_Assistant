@@ -1,4 +1,0 @@
-Name=USEC second safe key
-Itemtype=Key
-Map=Lighthouse
-InElse=ã‡å…

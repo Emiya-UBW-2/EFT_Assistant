@@ -1,5 +1,0 @@
-Name=Cargo container mesh door key
-Itemtype=Key
-Map=Streets of Tarkov
-InRoom=[Grenade boxx1,Weapon box (5x5)x1,Weapon box (5x2)x1]
-InElse=ルート品(武器パーツ)

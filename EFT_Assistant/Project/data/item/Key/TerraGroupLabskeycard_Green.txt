@@ -1,2 +1,0 @@
-Name=TerraGroup Labs keycard (Green)
-Itemtype=Keycard

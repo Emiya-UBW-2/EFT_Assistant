@@ -1,2 +1,0 @@
-Name=OPSMEN Earmor M32 headset
-Itemtype=Headset

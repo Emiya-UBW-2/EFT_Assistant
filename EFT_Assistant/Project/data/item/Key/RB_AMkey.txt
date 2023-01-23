@@ -1,5 +1,0 @@
-Name=RB-AM key
-Itemtype=Key
-Map=Reserve
-InRoom=[Toolboxx3,Wooden Cratex1,Jacketx1]
-InElse=ƒ‹[ƒg•i(Building Material, Tool, Weapon mod,Intelligence folder,Old firesteel,FP-100 filter absorber)

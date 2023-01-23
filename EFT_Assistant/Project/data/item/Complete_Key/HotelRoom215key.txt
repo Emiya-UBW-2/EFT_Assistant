@@ -1,0 +1,5 @@
+Name=Hotel room 215 key
+Itemtype=Key
+Map=Streets of Tarkov
+InRoom=[Plastic suitcase(locked)x1]
+InElse=ÉãÅ[Égïi(Provision,Energy element,Flammable material)

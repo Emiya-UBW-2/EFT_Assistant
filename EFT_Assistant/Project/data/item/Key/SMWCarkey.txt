@@ -1,4 +1,0 @@
-Name=SMW car key
-Itemtype=Key
-Map=Shoreline
-InElse=ƒ‹[ƒg•i(Roubles, Provisions)

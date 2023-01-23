@@ -1,0 +1,6 @@
+Name=Health Resort east wing room 313 key
+Itemtype=Key
+Map=Shoreline
+InRoom=[Weapon box(6x3)x1,Medbagx1]
+InElse=ルート品(LEDX,Meds,Weapon mods,Money)
+InElse=Health Resort east wing room 314 keyでバルコニー越しに入れる

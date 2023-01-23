@@ -1,5 +1,0 @@
-Name=Power substation utility cabin key
-Itemtype=Key
-Map=Interchange
-InRoom=[Wooden cratex1,Weapon box(5x2)x1]
-InElse=ƒ‹[ƒg•i(MP-153)

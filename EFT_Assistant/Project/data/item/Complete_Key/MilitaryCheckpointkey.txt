@@ -1,0 +1,4 @@
+Name=Military checkpoint key
+Itemtype=Key
+Map=Customs
+InRoom=[Weapon rackx1,Grenade boxx1,Wooden ammo boxx2]

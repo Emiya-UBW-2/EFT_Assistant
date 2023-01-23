@@ -1,3 +1,0 @@
-Name=Machinery key
-Itemtype=Key
-Map=Customs

@@ -1,0 +1,5 @@
+Name=Health Resort west wing office room 112 key
+Itemtype=Key
+Map=Shoreline
+InRoom=[Sport bagx2]
+InElse=ルート品(左テーブルにProvisions,Blue keycard)

@@ -1,2 +1,0 @@
-Name=MSA Sordin Supreme PRO-X/L active headset
-Itemtype=Headset

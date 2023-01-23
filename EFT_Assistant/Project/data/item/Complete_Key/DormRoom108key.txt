@@ -1,0 +1,4 @@
+Name=Dorm room 108 key
+Itemtype=Key
+Map=Customs
+InRoom=[Drawerx1,PC blockx1]

@@ -1,2 +1,0 @@
-Name=Galvion Caiman Hybrid Ballistic Applique
-Itemtype=Additional armor

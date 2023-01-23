@@ -1,4 +1,0 @@
-Name=Stair landing key
-Itemtype=Key
-Map=Streets of Tarkov
-InElse=ƒ‹[ƒg–³‚µ

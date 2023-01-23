@@ -1,0 +1,4 @@
+Name=Trailer park portable cabin key
+Itemtype=Key
+Map=Customs
+InElse=ƒ‹[ƒg‚È‚µ

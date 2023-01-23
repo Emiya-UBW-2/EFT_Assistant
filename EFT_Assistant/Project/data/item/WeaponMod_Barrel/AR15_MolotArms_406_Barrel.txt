@@ -1,2 +1,4 @@
 Name=AR-15 5.56x45 Molot Arms 406mm barrel
 Itemtype=Barrel
+ChildParts=[AR-15 ADAR 2-15 5.56x45 flash hider]
+ChildParts=[M4A1 front sight with gas block]

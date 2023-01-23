@@ -1,2 +1,7 @@
 Name=ADAR 2-15 5.56x45 carbine
 Itemtype=Weapon
+ChildParts=[AR-15 ADAR 2-15 buffer tube]
+ChildParts=[ADAR 2-15 5.56x45 upper receiver]
+ChildParts=[5.56x45 Magpul PMAG 10 GEN M3 STANAG 10-round magazine]
+ChildParts=[AR-15 ADAR 2-15 charging handle]
+ChildParts=[AR-15 ADAR 2-15 wooden stock]

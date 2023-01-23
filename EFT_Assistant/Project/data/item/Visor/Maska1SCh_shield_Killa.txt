@@ -1,2 +1,0 @@
-Name=Maska-1SCh face shield(Killa)
-Itemtype=Visor

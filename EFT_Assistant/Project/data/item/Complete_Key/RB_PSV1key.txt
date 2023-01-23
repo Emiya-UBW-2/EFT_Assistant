@@ -1,0 +1,4 @@
+Name=RB-PSV1 key
+Itemtype=Key
+Map=Reserve
+InRoom=[Medical Supply Cratex2,Ration Supply Cratex1,Technical Supply Cratex1]

@@ -1,2 +1,0 @@
-Name=Kiver-M face shield
-Itemtype=Visor

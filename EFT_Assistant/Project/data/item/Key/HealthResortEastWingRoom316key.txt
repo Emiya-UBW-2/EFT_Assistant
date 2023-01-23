@@ -1,5 +1,0 @@
-Name=Health Resort east wing room 316 key
-Itemtype=Key
-Map=Shoreline
-InRoom=[Weapon Box(6x3)x1,Weapon Box(5x2)x1,Medbagx1]
-InElse=ÉãÅ[Égïi(SV-98,WeaponMod)

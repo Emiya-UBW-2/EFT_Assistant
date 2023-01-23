@@ -1,4 +1,0 @@
-Name=Archive room key
-Itemtype=Key
-Map=Streets of Tarkov
-InRoom=[Drawerx2,Safe(locked)x1]

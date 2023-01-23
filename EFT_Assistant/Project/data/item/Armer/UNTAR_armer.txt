@@ -1,2 +1,0 @@
-Name=MF-UNTAR body armor
-Itemtype=Armer

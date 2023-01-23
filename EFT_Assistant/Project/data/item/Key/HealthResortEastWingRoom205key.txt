@@ -1,6 +1,0 @@
-Name=Health Resort east wing room 205 key
-Itemtype=Key
-Map=Shoreline
-InRoom=[Medcasex1,Sport Bagx1]
-InElse=ルート品(Money,Weapon cabinet)
-InElse=Health Resort east wing room 206 keyでバルコニー越しに入れる

@@ -1,4 +1,0 @@
-Name=Health Resort west wing room 321 safe key
-Itemtype=Key
-Map=Shoreline
-InElse=ã‡å…

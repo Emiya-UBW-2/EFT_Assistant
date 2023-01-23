@@ -1,4 +1,0 @@
-Name=Financial institution small office key
-Itemtype=Key
-Map=Streets of Tarkov
-InRoom=[Jacketx1,Drawerx3,Safex1,PC blockx2]

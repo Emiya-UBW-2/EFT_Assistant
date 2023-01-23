@@ -1,2 +1,0 @@
-Name=DRD body armor
-Itemtype=Armer

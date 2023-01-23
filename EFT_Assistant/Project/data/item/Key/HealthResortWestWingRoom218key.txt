@@ -1,5 +1,0 @@
-Name=Health Resort west wing room 218 key
-Itemtype=Key
-Map=Shoreline
-InElse=ルート品(Money, Food, Ammo,RSASS,Red keycard,weapon cabinetsx2)
-InElse=Health Resort west wing room 221 key、Health Resort west wing room 222 keyでバルコニー越しに入れる

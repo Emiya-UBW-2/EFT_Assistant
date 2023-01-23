@@ -1,5 +1,0 @@
-Name=Dorm room 110 key
-Itemtype=Key
-Map=Customs
-InRoom=[Safex1]
-InElse=ベッドにスポーン(Fuel conditioner,Metal fuel tank,Secure Flash drive,Diary)、ベッドサイドテーブルにCar Battery

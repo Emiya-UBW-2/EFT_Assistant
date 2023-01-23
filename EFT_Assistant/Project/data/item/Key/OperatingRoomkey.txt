@@ -1,5 +1,0 @@
-Name=Operating room key
-Itemtype=Key
-Map=Lighthouse
-InRoom=[Medbagx1,Dead Scavx1]
-InElse=ƒ‹[ƒg•i(Electronic,Currency)

@@ -1,0 +1,6 @@
+Name=Dorm guard desk key
+Itemtype=Key
+Map=Customs
+InRoom=[Weapon rackx1,Weapon box (6x3)x1,Wooden ammo boxesx2]
+InElse=ルート品(Weapon mods on the table)
+InElse=Dorm room 104 key と Dorm room 105 key が壁のキーホルダーに湧く

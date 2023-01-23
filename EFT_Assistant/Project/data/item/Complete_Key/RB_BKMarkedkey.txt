@@ -1,0 +1,4 @@
+Name=RB-BK marked key
+Itemtype=Key
+Map=Reserve
+InElse=ƒ‹[ƒg•i(•¡”‚Ìvery rare loot item, weapon, container)

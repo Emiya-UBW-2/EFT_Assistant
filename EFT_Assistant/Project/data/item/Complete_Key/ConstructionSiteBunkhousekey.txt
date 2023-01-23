@@ -1,0 +1,5 @@
+Name=Construction site bunkhouse key
+Itemtype=Key
+Map=Streets of Tarkov
+InRoom=[Jacketx2,Medcasex1,Sport bagx1]
+InElse=ƒ‹[ƒg•i(Medical supplies)

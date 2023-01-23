@@ -1,0 +1,2 @@
+Name=Ops-Core SLAAP armor helmet plate (Tan)
+Itemtype=Additional armor

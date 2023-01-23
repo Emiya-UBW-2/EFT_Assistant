@@ -1,6 +1,0 @@
-Name=Conference room key
-Itemtype=Key
-Map=Lighthouse
-InRoom=[Safe(locked)x1,Drawerx1,PC blockx1,Weapon box (4x4)x1]
-InElse=ルート品(Ammo, Electronics, Provisions, Meds)
-InElse=オフィスの後ろの机の上にレアな戦利品がスポーン
