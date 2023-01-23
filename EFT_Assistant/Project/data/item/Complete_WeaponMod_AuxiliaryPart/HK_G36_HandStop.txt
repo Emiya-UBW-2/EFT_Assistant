@@ -1,0 +1,4 @@
+Name=HK G36 hand stop
+Itemtype=Auxiliary part
+Recoil=0
+Ergonomics=+1

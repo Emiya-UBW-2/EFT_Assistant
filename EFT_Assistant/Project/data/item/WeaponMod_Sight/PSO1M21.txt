@@ -1,2 +1,4 @@
 Name=BelOMO PSO-1M2-1 4x24 scope
 Itemtype=Scope
+Recoil=0
+Ergonomics=0

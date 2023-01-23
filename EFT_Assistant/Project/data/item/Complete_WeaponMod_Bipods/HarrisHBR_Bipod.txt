@@ -1,0 +1,4 @@
+Name=Harris HBR Bipod
+Itemtype=Bipod
+Recoil=-5
+Ergonomics=+10

@@ -1,0 +1,4 @@
+Name=AI AXMC padded handguard grip
+Itemtype=Foregrip
+Recoil=-1
+Ergonomics=+5

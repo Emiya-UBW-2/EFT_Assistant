@@ -1,0 +1,4 @@
+Name=Fortis Shift tactical foregrip
+Itemtype=Foregrip
+Recoil=-1.5
+Ergonomics=+8

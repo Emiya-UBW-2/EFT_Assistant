@@ -1,0 +1,4 @@
+Name=HK USP slide lock
+Itemtype=Auxiliary part
+Recoil=0
+Ergonomics=+2

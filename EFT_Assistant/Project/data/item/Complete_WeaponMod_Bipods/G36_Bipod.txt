@@ -1,0 +1,4 @@
+Name=HK G36 bipod
+Itemtype=Bipod
+Recoil=-2
+Ergonomics=+4

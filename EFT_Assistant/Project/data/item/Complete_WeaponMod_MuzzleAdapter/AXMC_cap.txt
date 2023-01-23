@@ -1,0 +1,4 @@
+Name=AI AXMC thread protection cap
+Itemtype=Muzzle adapter
+Recoil=0
+Ergonomics=+1

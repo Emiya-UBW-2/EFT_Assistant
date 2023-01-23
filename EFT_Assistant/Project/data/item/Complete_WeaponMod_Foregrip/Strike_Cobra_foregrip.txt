@@ -1,0 +1,4 @@
+Name=Strike Industries Cobra Tactical foregrip
+Itemtype=Foregrip
+Recoil=-1
+Ergonomics=+9

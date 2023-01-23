@@ -1,0 +1,4 @@
+Name=Glock GTL 21 tactical flashlight with laser
+Itemtype=Tactical combo device
+Recoil=0
+Ergonomics=-1

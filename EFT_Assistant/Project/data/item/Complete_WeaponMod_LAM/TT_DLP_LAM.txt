@@ -1,0 +1,4 @@
+Name=TT DLP Tactical Precision LAM-module
+Itemtype=Tactical combo device
+Recoil=0
+Ergonomics=-1

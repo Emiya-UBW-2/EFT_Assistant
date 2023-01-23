@@ -1,0 +1,4 @@
+Name=Zenit RK-1 tactical foregrip on B-25U mount
+Itemtype=Foregrip
+Recoil=-3
+Ergonomics=+2

@@ -1,0 +1,4 @@
+Name=AWC PSR muzzle brake protector
+Itemtype=Muzzle adapter
+Recoil=0
+Ergonomics=+2

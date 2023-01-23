@@ -1,0 +1,4 @@
+Name=MP-155 Ultima underbarrel mount
+Itemtype=Auxiliary part
+Recoil=0
+Ergonomics=+5

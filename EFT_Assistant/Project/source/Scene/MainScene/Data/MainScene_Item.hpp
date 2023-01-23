@@ -9,6 +9,9 @@ namespace FPS_n2 {
 		std::vector<MapID>	m_MapID;
 		std::vector<std::pair<const ItemList*, std::string>>	m_ChildPartsID;
 		std::vector<const ItemList*>							m_ParentPartsID;
+		float		m_Recoil{ 0.f };
+		float		m_Ergonomics{ 0.f };
+		bool		m_isWeaponMod{ false };
 	private:
 		//í«â¡ê›íË
 		void			Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept override {
@@ -35,6 +38,24 @@ namespace FPS_n2 {
 					m_ChildPartsID.back().second = RIGHT;
 				}
 			}
+			if (LEFT == "Recoil") {
+				if (RIGHT.find("+") != std::string::npos) {
+					m_Recoil = std::stof(RIGHT.substr(RIGHT.find("+") + 1));
+				}
+				else {
+					m_Recoil = std::stof(RIGHT);
+				}
+				m_isWeaponMod = true;
+			}
+			if (LEFT == "Ergonomics") {
+				if (RIGHT.find("+") != std::string::npos) {
+					m_Ergonomics = std::stof(RIGHT.substr(RIGHT.find("+") + 1));
+				}
+				else {
+					m_Ergonomics = std::stof(RIGHT);
+				}
+				m_isWeaponMod = true;
+			}
 		}
 		void	Load_Sub() noexcept override {
 			if (m_TypeID == InvalidID) {
@@ -56,6 +77,12 @@ namespace FPS_n2 {
 			int yofs2 = yofs;
 			{
 				yofs += LineHeight;
+				if (m_isWeaponMod) {
+					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STR_LEFT, (m_Recoil < 0.f) ? Green : Red, Black,
+						"Recoil:%s%3.1f %%", (m_Recoil > 0.f) ? "+" : "", m_Recoil) + y_r(30)); yofs += LineHeight;
+					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STR_LEFT, (m_Ergonomics >= 0.f) ? Green : Red, Black,
+						"Ergonomics:%s%3.1f", (m_Ergonomics > 0.f) ? "+" : "", m_Ergonomics) + y_r(30)); yofs += LineHeight;
+				}
 				if (m_ChildPartsID.size() > 0 || m_ParentPartsID.size() > 0) {
 					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STR_LEFT, White, Black, "Mods:") + y_r(30)); yofs += LineHeight;
 				}

@@ -1,0 +1,4 @@
+Name=SureFire XC1 tactical flashlight
+Itemtype=Tactical combo device
+Recoil=0
+Ergonomics=-1

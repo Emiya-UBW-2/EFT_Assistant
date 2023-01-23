@@ -1,0 +1,4 @@
+Name=SVDS Rotor 43 thread adapter
+Itemtype=Muzzle adapter
+Recoil=0
+Ergonomics=-1

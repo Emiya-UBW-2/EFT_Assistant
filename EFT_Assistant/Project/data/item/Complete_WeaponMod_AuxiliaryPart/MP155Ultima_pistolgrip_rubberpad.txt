@@ -1,0 +1,4 @@
+Name=MP-155 Ultima pistol grip rubber pad
+Itemtype=Auxiliary part
+Recoil=0
+Ergonomics=+5

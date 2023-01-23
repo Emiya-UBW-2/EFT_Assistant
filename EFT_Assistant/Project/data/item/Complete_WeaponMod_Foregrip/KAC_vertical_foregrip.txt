@@ -1,0 +1,4 @@
+Name=KAC vertical foregrip
+Itemtype=Foregrip
+Recoil=0
+Ergonomics=+7

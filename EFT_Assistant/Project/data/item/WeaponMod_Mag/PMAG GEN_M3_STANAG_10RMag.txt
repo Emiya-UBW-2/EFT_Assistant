@@ -1,2 +1,4 @@
 Name=5.56x45 Magpul PMAG 10 GEN M3 STANAG 10-round magazine
 Itemtype=Magazine
+Recoil=0
+Ergonomics=0

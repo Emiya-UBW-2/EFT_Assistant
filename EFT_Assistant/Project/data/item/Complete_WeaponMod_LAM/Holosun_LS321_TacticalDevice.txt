@@ -1,0 +1,4 @@
+Name=Holosun LS321 Tactical device
+Itemtype=Tactical combo device
+Recoil=0
+Ergonomics=-2

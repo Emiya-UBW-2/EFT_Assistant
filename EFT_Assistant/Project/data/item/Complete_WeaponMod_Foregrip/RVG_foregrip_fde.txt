@@ -1,0 +1,4 @@
+Name=Magpul RVG foregrip(FDE)
+Itemtype=Foregrip
+Recoil=-2
+Ergonomics=+7

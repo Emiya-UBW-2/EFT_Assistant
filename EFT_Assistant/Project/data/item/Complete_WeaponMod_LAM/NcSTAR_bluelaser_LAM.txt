@@ -1,0 +1,4 @@
+Name=NcSTAR Tactical blue laser LAM-module
+Itemtype=Tactical combo device
+Recoil=0
+Ergonomics=-1

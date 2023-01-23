@@ -1,0 +1,4 @@
+Name=Wilson Retro Commander hammer
+Itemtype=Auxiliary part
+Recoil=0
+Ergonomics=+2

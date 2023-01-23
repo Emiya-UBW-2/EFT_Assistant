@@ -1,2 +1,4 @@
 Name=Holosun HS401G5 reflex sight
 Itemtype=Reflex sight
+Recoil=0
+Ergonomics=0

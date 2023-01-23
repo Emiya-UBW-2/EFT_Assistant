@@ -1,0 +1,4 @@
+Name=KRISS Vector .45 ACP thread protection cap
+Itemtype=Muzzle adapter
+Recoil=0
+Ergonomics=0

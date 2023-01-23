@@ -1,2 +1,4 @@
 Name=SR-2M 9x21 sound suppressor
 Itemtype=Suppressor
+Recoil=0
+Ergonomics=0

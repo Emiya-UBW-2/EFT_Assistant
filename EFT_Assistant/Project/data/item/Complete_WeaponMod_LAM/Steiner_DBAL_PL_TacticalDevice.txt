@@ -1,0 +1,4 @@
+Name=Steiner DBAL-PL tactical device
+Itemtype=Tactical combo device
+Recoil=0
+Ergonomics=-1

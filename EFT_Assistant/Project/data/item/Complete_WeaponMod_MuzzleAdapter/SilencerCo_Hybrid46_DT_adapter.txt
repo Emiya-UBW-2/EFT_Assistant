@@ -1,0 +1,4 @@
+Name=SilencerCo Hybrid 46 Direct Thread Mount adapter
+Itemtype=Muzzle adapter
+Recoil=0
+Ergonomics=0

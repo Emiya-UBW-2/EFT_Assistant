@@ -1,2 +1,4 @@
 Name=Trijicon SRS-02 reflex sight
 Itemtype=Reflex sight
+Recoil=0
+Ergonomics=0

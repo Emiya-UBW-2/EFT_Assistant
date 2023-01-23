@@ -1,0 +1,4 @@
+Name=Wilcox RAPTAR ES Tactical Rangefinder
+Itemtype=Tactical combo device
+Recoil=0
+Ergonomics=-1

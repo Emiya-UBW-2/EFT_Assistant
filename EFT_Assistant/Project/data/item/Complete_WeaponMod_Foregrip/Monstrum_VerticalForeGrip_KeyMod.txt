@@ -1,0 +1,4 @@
+Name=Monstrum Tactical Vertical Fore Grip KeyMod
+Itemtype=Foregrip
+Recoil=-1
+Ergonomics=+8

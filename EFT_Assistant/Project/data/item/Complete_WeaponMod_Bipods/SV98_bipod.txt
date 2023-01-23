@@ -1,0 +1,4 @@
+Name=SV-98 bipod
+Itemtype=Bipod
+Recoil=-2
+Ergonomics=+4

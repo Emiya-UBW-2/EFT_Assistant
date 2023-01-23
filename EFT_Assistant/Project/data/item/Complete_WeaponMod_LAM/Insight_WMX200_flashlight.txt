@@ -1,0 +1,4 @@
+Name=Insight WMX200 tactical flashlight
+Itemtype=Tactical combo device
+Recoil=0
+Ergonomics=-2

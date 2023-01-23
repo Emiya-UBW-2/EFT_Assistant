@@ -1,0 +1,4 @@
+Name=M1911A1 Caspian Arms Trik Trigger
+Itemtype=Auxiliary part
+Recoil=0
+Ergonomics=+3

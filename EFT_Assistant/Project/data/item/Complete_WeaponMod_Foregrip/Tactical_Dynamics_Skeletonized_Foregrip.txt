@@ -1,0 +1,4 @@
+Name=Tactical Dynamics Skeletonized Foregrip
+Itemtype=Foregrip
+Recoil=-2
+Ergonomics=+6

@@ -1,0 +1,4 @@
+Name=Mosin Rifle Kiba Arms 7.62x54R custom thread adapter
+Itemtype=Muzzle adapter
+Recoil=0
+Ergonomics=0

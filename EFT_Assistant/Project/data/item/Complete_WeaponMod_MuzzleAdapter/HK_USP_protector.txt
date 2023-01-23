@@ -1,0 +1,4 @@
+Name=HK USP Tactical thread protector
+Itemtype=Muzzle adapter
+Recoil=0
+Ergonomics=+1

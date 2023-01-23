@@ -1,0 +1,4 @@
+Name=Zenit Klesch-2U tactical flashlight
+Itemtype=Tactical combo device
+Recoil=0
+Ergonomics=-2

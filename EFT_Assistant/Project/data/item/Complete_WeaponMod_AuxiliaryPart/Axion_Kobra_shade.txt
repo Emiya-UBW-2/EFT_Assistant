@@ -1,0 +1,4 @@
+Name=Axion Kobra sight shade
+Itemtype=Auxiliary part
+Recoil=0
+Ergonomics=+3

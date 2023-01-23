@@ -1,0 +1,4 @@
+Name=AK 7.62x39 Taktika Tula muzzle adapter
+Itemtype=Muzzle adapter
+Recoil=0
+Ergonomics=0

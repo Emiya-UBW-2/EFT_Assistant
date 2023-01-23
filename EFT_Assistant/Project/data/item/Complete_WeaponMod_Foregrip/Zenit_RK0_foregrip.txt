@@ -1,0 +1,4 @@
+Name=Zenit RK-0 tactical foregrip
+Itemtype=Foregrip
+Recoil=-2
+Ergonomics=+3

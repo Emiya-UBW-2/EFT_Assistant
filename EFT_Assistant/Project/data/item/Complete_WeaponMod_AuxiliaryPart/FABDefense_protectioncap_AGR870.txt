@@ -1,0 +1,4 @@
+Name=FAB Defense protection cap for AGR-870
+Itemtype=Auxiliary part
+Recoil=0
+Ergonomics=+2

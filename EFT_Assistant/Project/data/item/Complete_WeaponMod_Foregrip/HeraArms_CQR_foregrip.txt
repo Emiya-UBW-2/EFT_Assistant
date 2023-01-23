@@ -1,0 +1,4 @@
+Name=Hera Arms CQR tactical foregrip
+Itemtype=Foregrip
+Recoil=-3
+Ergonomics=+4

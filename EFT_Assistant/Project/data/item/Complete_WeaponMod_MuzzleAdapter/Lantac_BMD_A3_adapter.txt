@@ -1,0 +1,4 @@
+Name=Lantac BMD Blast Mitigation Device A3 direct thread adapter
+Itemtype=Muzzle adapter
+Recoil=-1
+Ergonomics=-1

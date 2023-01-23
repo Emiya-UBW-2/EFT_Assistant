@@ -1,2 +1,4 @@
 Name=SilencerCo Hybrid 46 multi-caliber silencer
 Itemtype=Suppressor
+Recoil=0
+Ergonomics=0

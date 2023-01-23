@@ -1,0 +1,4 @@
+Name=SV-98 anti-heat ribbon
+Itemtype=Auxiliary part
+Recoil=0
+Ergonomics=+2

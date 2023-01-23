@@ -1,0 +1,4 @@
+Name=Magpul AFG tactical foregrip(forest green)
+Itemtype=Foregrip
+Recoil=-2
+Ergonomics=+6

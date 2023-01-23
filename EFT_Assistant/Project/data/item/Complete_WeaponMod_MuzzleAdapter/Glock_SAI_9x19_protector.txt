@@ -1,0 +1,4 @@
+Name=Glock SAI 9x19 thread protector
+Itemtype=Muzzle adapter
+Recoil=0
+Ergonomics=+1

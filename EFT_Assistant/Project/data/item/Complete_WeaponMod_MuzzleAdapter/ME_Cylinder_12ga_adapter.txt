@@ -1,0 +1,4 @@
+Name=ME Cylinder 12ga muzzle adapter
+Itemtype=Muzzle adapter
+Recoil=0
+Ergonomics=-1

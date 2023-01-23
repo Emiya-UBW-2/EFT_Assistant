@@ -1,0 +1,4 @@
+Name=LA-5B/PEQ tactical device
+Itemtype=Tactical combo device
+Recoil=0
+Ergonomics=-2

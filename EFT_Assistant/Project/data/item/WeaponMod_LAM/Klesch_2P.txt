@@ -1,2 +1,0 @@
-Name=Zenit Klesch-2P flashlight with laser
-Itemtype=Tactical combo device

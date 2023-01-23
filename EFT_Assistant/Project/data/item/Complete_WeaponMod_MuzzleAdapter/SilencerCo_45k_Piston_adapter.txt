@@ -1,0 +1,4 @@
+Name=SilencerCo Omega 45k Piston Mount adapter
+Itemtype=Muzzle adapter
+Recoil=0
+Ergonomics=0

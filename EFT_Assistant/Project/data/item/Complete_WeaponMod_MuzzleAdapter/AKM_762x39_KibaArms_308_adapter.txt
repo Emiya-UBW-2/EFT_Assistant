@@ -1,0 +1,4 @@
+Name=AKM 7.62x39 Kiba Arms .308 muzzle device adapter
+Itemtype=Muzzle adapter
+Recoil=-1
+Ergonomics=-1

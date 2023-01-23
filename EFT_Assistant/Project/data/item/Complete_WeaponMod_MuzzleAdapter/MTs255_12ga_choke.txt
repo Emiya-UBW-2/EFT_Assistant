@@ -1,0 +1,4 @@
+Name=MTs-255-12 12ga choke
+Itemtype=Muzzle adapter
+Recoil=-2
+Ergonomics=0

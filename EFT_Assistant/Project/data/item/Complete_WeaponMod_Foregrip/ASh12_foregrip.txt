@@ -1,0 +1,4 @@
+Name=ASh-12 vertical foregrip
+Itemtype=Foregrip
+Recoil=0
+Ergonomics=+5

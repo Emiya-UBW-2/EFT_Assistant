@@ -1,0 +1,4 @@
+Name=Zenit Perst-3 tactical device
+Itemtype=Tactical combo device
+Recoil=0
+Ergonomics=-2

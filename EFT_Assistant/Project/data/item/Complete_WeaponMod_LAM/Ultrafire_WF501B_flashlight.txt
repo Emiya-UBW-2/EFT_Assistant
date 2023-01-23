@@ -1,0 +1,4 @@
+Name=Ultrafire WF-501B flashlight
+Itemtype=Flashlight
+Recoil=0
+Ergonomics=-2

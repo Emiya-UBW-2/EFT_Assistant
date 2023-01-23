@@ -1,0 +1,4 @@
+Name=Armytek Predator Pro v3 XHP35 HI flashlight
+Itemtype=Flashlight
+Recoil=0
+Ergonomics=-2

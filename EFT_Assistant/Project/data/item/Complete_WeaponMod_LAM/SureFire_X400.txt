@@ -1,0 +1,4 @@
+Name=SureFire X400 Ultra tactical flashlight with laser
+Itemtype=Tactical combo device
+Recoil=0
+Ergonomics=-1

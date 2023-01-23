@@ -1,0 +1,4 @@
+Name=A3 Tactical MVF001 KeyMod vertical foregrip (Black)
+Itemtype=Foregrip
+Recoil=0
+Ergonomics=+10

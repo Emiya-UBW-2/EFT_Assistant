@@ -1,0 +1,4 @@
+Name=HK MP5 3-lug thread protector
+Itemtype=Muzzle adapter
+Recoil=0
+Ergonomics=+1

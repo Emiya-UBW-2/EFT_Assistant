@@ -1,0 +1,4 @@
+Name=KRISS Vector 9x19 thread protection cap
+Itemtype=Muzzle adapter
+Recoil=0
+Ergonomics=0

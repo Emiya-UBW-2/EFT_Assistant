@@ -1,0 +1,4 @@
+Name=M45A1 trigger
+Itemtype=Auxiliary part
+Recoil=0
+Ergonomics=+2

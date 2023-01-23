@@ -1,0 +1,4 @@
+Name=Steiner LAS/TAC 2 tactical flashlight
+Itemtype=Tactical combo device
+Recoil=0
+Ergonomics=-1

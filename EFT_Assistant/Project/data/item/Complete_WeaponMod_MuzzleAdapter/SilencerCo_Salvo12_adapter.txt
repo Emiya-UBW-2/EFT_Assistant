@@ -1,0 +1,4 @@
+Name=SilencerCo Salvo 12 choke adapter
+Itemtype=Muzzle adapter
+Recoil=-1
+Ergonomics=0
