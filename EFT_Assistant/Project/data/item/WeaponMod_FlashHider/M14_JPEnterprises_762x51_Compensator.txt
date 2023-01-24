@@ -1,0 +1,4 @@
+Name=M14 JP Enterprises 7.62x51 Tactical Compensator
+Itemtype=Flash hider/muzzle brake
+Recoil=-15
+Ergonomics=-2

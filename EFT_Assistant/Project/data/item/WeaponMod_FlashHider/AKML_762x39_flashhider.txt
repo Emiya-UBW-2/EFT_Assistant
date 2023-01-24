@@ -1,0 +1,4 @@
+Name=AKML system 7.62x39 flash hider
+Itemtype=Flash hider/muzzle brake
+Recoil=-5
+Ergonomics=-2

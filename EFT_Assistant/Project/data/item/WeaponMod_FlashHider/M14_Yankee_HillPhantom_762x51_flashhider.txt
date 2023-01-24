@@ -1,0 +1,4 @@
+Name=M14 Yankee Hill Phantom 7.62x51 flash hider
+Itemtype=Flash hider/muzzle brake
+Recoil=-8
+Ergonomics=-1

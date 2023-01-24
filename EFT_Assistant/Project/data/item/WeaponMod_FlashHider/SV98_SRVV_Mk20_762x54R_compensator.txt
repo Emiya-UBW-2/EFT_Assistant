@@ -1,0 +1,4 @@
+Name=SV-98 SRVV Mk.2.0 7.62x54R muzzle brake-compensator
+Itemtype=Flash hider/muzzle brake
+Recoil=-19
+Ergonomics=-2

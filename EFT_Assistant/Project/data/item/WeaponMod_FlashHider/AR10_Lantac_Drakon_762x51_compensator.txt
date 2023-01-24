@@ -1,0 +1,4 @@
+Name=AR-10 Lantac Drakon 7.62x51 muzzle brake-compensator
+Itemtype=Flash hider/muzzle brake
+Recoil=-15
+Ergonomics=-2

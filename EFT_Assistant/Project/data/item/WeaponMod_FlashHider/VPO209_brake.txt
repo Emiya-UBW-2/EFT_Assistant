@@ -1,0 +1,4 @@
+Name=VPO-209 thread protector
+Itemtype=Flash hider/muzzle brake
+Recoil=0
+Ergonomics=+1

@@ -1,0 +1,4 @@
+Name=HK MP5 B&T QD 9x19 muzzle brake
+Itemtype=Flash hider/muzzle brake
+Recoil=-12
+Ergonomics=-1

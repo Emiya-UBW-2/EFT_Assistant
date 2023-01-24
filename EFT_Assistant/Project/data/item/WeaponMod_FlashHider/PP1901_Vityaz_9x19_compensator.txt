@@ -1,0 +1,4 @@
+Name=PP-19-01 "Vityaz" 9x19 muzzle brake-compensator
+Itemtype=Flash hider/muzzle brake
+Recoil=-6
+Ergonomics=-1

@@ -1,0 +1,4 @@
+Name=M1A Smith Enterprise SOCOM 16 7.62x51 threaded muzzle brake & gas block
+Itemtype=Flash hider/muzzle brake
+Recoil=-3
+Ergonomics=-1

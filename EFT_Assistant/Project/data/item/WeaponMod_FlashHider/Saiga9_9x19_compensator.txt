@@ -1,4 +1,4 @@
-Name=AR-15 ADAR 2-15 5.56x45 flash hider
+Name=Saiga-9 9x19 muzzle brake-compensator
 Itemtype=Flash hider/muzzle brake
 Recoil=-7
 Ergonomics=-1

@@ -1,0 +1,4 @@
+Name=ASh-12 12.7x55 muzzle brake-compensator
+Itemtype=Flash hider/muzzle brake
+Recoil=-24
+Ergonomics=-1

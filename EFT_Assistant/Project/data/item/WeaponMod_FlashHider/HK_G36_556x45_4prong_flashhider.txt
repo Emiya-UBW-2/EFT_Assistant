@@ -1,0 +1,4 @@
+Name=HK G36 5.56x45 4-prong flash hider
+Itemtype=Flash hider/muzzle brake
+Recoil=-8
+Ergonomics=-1

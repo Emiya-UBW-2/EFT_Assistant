@@ -1,0 +1,4 @@
+Name=TACCOM Carbine Brake multi-caliber muzzle brake
+Itemtype=Flash hider/muzzle brake
+Recoil=-12
+Ergonomics=-1

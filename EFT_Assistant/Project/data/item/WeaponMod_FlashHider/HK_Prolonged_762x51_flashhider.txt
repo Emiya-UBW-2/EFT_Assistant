@@ -1,0 +1,4 @@
+Name=HK Prolonged 7.62x51 flash hider
+Itemtype=Flash hider/muzzle brake
+Recoil=-5
+Ergonomics=-1

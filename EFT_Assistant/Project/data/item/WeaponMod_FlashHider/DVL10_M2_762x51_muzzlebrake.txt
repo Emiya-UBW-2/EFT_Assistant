@@ -1,0 +1,4 @@
+Name=DVL-10 M2 7.62x51 muzzle brake
+Itemtype=Flash hider/muzzle brake
+Recoil=-11
+Ergonomics=-2

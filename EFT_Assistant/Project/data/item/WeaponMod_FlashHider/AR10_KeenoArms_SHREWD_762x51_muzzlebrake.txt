@@ -1,0 +1,4 @@
+Name=AR-10 Keeno Arms SHREWD 7.62x51 muzzle brake
+Itemtype=Flash hider/muzzle brake
+Recoil=-11
+Ergonomics=-1

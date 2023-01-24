@@ -1,0 +1,4 @@
+Name=Mosin Rifle Tacfire Tanker Style muzzle brake
+Itemtype=Flash hider/muzzle brake
+Recoil=-13
+Ergonomics=-3

@@ -1,0 +1,4 @@
+Name=AR-10 Nordic Components Corvette 7.62x51 compensator
+Itemtype=Flash hider/muzzle brake
+Recoil=-10
+Ergonomics=-1

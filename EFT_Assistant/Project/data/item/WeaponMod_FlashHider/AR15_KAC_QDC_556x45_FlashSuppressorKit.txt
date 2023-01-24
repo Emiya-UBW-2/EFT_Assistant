@@ -1,0 +1,4 @@
+Name=AR-15 KAC QDC 5.56x45 Flash Suppressor Kit
+Itemtype=Flash hider/muzzle brake
+Recoil=-8
+Ergonomics=-1

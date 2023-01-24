@@ -1,0 +1,4 @@
+Name=AR-10 KAC QDC 7.62x51 Muzzle Brake Kit
+Itemtype=Flash hider/muzzle brake
+Recoil=-13
+Ergonomics=-1

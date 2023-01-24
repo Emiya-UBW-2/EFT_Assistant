@@ -1,0 +1,4 @@
+Name=GK-02 12ga muzzle brake
+Itemtype=Flash hider/muzzle brake
+Recoil=-14
+Ergonomics=-1

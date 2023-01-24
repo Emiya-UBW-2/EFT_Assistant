@@ -1,0 +1,4 @@
+Name=AK-101 5.56x45 muzzle brake-compensator
+Itemtype=Flash hider/muzzle brake
+Recoil=-10
+Ergonomics=-2

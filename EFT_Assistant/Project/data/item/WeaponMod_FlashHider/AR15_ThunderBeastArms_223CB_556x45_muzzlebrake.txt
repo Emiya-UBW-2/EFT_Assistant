@@ -1,0 +1,4 @@
+Name=AR-15 Thunder Beast Arms 223CB 5.56x45 muzzle brake
+Itemtype=Flash hider/muzzle brake
+Recoil=-8.5
+Ergonomics=-2

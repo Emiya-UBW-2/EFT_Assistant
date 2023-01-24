@@ -1,0 +1,4 @@
+Name=AR-15 SureFire SF3P 5.56x45 Flash hider
+Itemtype=Flash hider/muzzle brake
+Recoil=-8
+Ergonomics=-1

@@ -1,0 +1,4 @@
+Name=TT PM-Laser DTK-TT muzzle brake-compensator
+Itemtype=Flash hider/muzzle brake
+Recoil=-12
+Ergonomics=-1

@@ -1,0 +1,4 @@
+Name=AWC PSR .338 LM muzzle brake
+Itemtype=Flash hider/muzzle brake
+Recoil=-14
+Ergonomics=-1

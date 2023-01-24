@@ -1,0 +1,4 @@
+Name=AWC PSR 7.62x51 muzzle brake
+Itemtype=Flash hider/muzzle brake
+Recoil=-10
+Ergonomics=-1

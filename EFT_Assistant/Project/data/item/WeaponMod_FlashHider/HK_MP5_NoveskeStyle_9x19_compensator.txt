@@ -1,0 +1,4 @@
+Name=HK MP5 Noveske-style 9x19 muzzle brake-compensator
+Itemtype=Flash hider/muzzle brake
+Recoil=-15
+Ergonomics=-3

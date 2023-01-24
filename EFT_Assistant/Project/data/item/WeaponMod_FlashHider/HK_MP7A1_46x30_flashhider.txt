@@ -1,0 +1,4 @@
+Name=HK MP7A1 4.6x30 flash hider
+Itemtype=Flash hider/muzzle brake
+Recoil=-5
+Ergonomics=-1

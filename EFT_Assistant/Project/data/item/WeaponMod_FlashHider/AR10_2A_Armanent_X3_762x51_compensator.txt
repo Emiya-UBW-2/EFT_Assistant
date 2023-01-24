@@ -1,0 +1,4 @@
+Name=AR-10 2A Armanent X3 7.62x51 compensator
+Itemtype=Flash hider/muzzle brake
+Recoil=-9
+Ergonomics=-1

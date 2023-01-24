@@ -1,0 +1,4 @@
+Name=M1A National Match 7.62x51 flash suppressor
+Itemtype=Flash hider/muzzle brake
+Recoil=-7
+Ergonomics=-2

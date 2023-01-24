@@ -1,0 +1,4 @@
+Name=M1911 Anarchy Outdoors .45 ACP muzzle brake
+Itemtype=Flash hider/muzzle brake
+Recoil=-14
+Ergonomics=-2

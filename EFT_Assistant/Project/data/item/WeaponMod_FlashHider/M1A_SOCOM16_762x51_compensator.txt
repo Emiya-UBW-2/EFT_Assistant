@@ -1,0 +1,4 @@
+Name=M1A SOCOM 16 7.62x51 muzzle brake-compensator
+Itemtype=Flash hider/muzzle brake
+Recoil=-5
+Ergonomics=-1

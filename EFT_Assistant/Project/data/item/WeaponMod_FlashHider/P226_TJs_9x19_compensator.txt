@@ -1,0 +1,4 @@
+Name=P226 TJ's Custom 9x19 compensator
+Itemtype=Flash hider/muzzle brake
+Recoil=-12
+Ergonomics=-1

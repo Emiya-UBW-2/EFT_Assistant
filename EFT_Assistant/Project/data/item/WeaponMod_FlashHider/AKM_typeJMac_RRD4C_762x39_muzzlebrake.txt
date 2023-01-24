@@ -1,0 +1,4 @@
+Name=AKM thread type JMac Customs RRD-4C 7.62x39 muzzle brake
+Itemtype=Flash hider/muzzle brake
+Recoil=-20
+Ergonomics=-2

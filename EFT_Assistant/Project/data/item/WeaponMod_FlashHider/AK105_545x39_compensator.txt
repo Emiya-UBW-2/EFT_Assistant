@@ -1,0 +1,4 @@
+Name=AK-105 5.45x39 muzzle brake-compensator (6P44 0-20)
+Itemtype=Flash hider/muzzle brake
+Recoil=-8
+Ergonomics=-2

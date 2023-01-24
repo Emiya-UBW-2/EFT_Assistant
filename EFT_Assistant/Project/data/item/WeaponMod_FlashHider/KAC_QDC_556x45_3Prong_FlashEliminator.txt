@@ -1,0 +1,4 @@
+Name=KAC QDC 5.56x45 3-Prong Flash Eliminator
+Itemtype=Flash hider/muzzle brake
+Recoil=-6
+Ergonomics=-2

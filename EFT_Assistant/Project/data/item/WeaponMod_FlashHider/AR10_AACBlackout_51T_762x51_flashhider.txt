@@ -1,4 +1,4 @@
-Name=AR-15 ADAR 2-15 5.56x45 flash hider
+Name=AR-10 AAC Blackout 51T 7.62x51 flash hider
 Itemtype=Flash hider/muzzle brake
 Recoil=-7
 Ergonomics=-1

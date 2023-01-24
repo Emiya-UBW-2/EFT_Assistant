@@ -1,0 +1,4 @@
+Name=AR-10 Thunder Beast Arms 30CB 7.62x51 muzzle brake
+Itemtype=Flash hider/muzzle brake
+Recoil=-9
+Ergonomics=-1
