@@ -1,0 +1,4 @@
+Name=SilencerCo Omega 45k .45 ACP sound suppressor
+Itemtype=Suppressor
+Recoil=-10
+Ergonomics=-20

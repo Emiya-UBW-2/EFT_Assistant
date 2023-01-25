@@ -1,0 +1,4 @@
+Name=Glock 9x19 Fischer Development FD917 sound suppressor
+Itemtype=Suppressor
+Recoil=-20
+Ergonomics=-22

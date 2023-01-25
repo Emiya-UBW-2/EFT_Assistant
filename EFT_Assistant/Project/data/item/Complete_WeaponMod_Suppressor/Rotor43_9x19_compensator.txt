@@ -1,0 +1,4 @@
+Name=Rotor 43 9x19 muzzle brake-compensator
+Itemtype=Suppressor
+Recoil=-6.5
+Ergonomics=-17

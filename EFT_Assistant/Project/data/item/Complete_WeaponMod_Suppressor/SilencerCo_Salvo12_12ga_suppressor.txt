@@ -1,0 +1,4 @@
+Name=SilencerCo Salvo 12 12ga sound suppressor
+Itemtype=Suppressor
+Recoil=-18
+Ergonomics=-28

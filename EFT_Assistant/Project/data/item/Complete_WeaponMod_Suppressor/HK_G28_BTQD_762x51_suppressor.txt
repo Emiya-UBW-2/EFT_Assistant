@@ -1,0 +1,4 @@
+Name=HK G28 B&T QD 7.62x51 sound suppressor
+Itemtype=Suppressor
+Recoil=-14
+Ergonomics=-18

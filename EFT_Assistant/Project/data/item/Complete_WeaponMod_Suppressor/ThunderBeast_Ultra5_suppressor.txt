@@ -1,0 +1,4 @@
+Name=Thunder Beast Arms Ultra 5 sound suppressor
+Itemtype=Suppressor
+Recoil=-13
+Ergonomics=-23

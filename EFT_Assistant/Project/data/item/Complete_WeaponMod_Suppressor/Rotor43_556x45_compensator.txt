@@ -1,0 +1,4 @@
+Name=Rotor 43 5.56x45 muzzle brake-compensator
+Itemtype=Suppressor
+Recoil=-9
+Ergonomics=-22

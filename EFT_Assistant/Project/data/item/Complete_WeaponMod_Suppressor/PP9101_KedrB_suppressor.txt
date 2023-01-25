@@ -1,0 +1,4 @@
+Name=PP-91-01 "Kedr-B" 9x18PM sound suppressor
+Itemtype=Suppressor
+Recoil=-13
+Ergonomics=-14

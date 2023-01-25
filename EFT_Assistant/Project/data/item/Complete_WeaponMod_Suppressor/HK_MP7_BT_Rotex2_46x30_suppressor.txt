@@ -1,0 +1,4 @@
+Name=HK MP7 B&T Rotex 2 4.6x30 sound suppressor
+Itemtype=Suppressor
+Recoil=-10
+Ergonomics=-20

@@ -1,0 +1,4 @@
+Name=Alpha Dog Alpha 9 9x19 sound suppressor
+Itemtype=Suppressor
+Recoil=-8
+Ergonomics=-13

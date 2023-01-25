@@ -1,0 +1,4 @@
+Name=AK-74 Hexagon Wafflemaker 5.45x39 sound suppressor
+Itemtype=Suppressor
+Recoil=-7
+Ergonomics=-19

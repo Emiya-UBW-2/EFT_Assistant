@@ -1,0 +1,4 @@
+Name=Gemtech SFN-57 5.7x28 sound suppressor
+Itemtype=Suppressor
+Recoil=-9
+Ergonomics=-15

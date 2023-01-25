@@ -1,0 +1,4 @@
+Name=KAC PRS/QDC 7.62x51 sound suppressor
+Itemtype=Suppressor
+Recoil=-12
+Ergonomics=-23

@@ -1,0 +1,4 @@
+Name=KAC QDC 5.56x45 sound suppressor
+Itemtype=Suppressor
+Recoil=-14
+Ergonomics=-20

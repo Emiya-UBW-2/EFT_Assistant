@@ -1,0 +1,4 @@
+Name=HK MP5SD 9x19 sound suppressor
+Itemtype=Suppressor
+Recoil=-22
+Ergonomics=-8

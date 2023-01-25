@@ -1,0 +1,4 @@
+Name=SureFire SOCOM556-MONSTER 5.56x45 sound suppressor
+Itemtype=Suppressor
+Recoil=-9
+Ergonomics=-14

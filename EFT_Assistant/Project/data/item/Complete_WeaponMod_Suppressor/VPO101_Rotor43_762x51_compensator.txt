@@ -1,0 +1,4 @@
+Name=VPO-101 "Vepr-Hunter" Rotor 43 7.62x51 muzzle brake-compensator
+Itemtype=Suppressor
+Recoil=-14
+Ergonomics=-28

@@ -1,0 +1,4 @@
+Name=SilencerCo Osprey 9 9x19 sound suppressor
+Itemtype=Suppressor
+Recoil=-12
+Ergonomics=-17

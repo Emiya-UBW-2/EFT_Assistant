@@ -1,0 +1,4 @@
+Name=HK UMP B&T OEM .45 ACP sound suppressor
+Itemtype=Suppressor
+Recoil=-11
+Ergonomics=-16
