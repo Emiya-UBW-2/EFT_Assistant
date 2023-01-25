@@ -1,5 +1,5 @@
-Name=Trijicon SRS-02 reflex sight
+Name=Walther MRS reflex sight
 Itemtype=Reflex sight
 Recoil=0
-Ergonomics=1
+Ergonomics=-3
 SightRange=200

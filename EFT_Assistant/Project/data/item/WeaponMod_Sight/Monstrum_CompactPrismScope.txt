@@ -1,0 +1,5 @@
+Name=Monstrum Tactical Compact Prism Scope 2x32
+Itemtype=Assault scope
+Recoil=0
+Ergonomics=-3
+SightRange=500

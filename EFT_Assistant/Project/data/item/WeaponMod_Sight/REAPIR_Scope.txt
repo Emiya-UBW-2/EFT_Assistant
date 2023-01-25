@@ -1,4 +1,5 @@
 Name=Trijicon REAP-IR thermal scope
 Itemtype=Special scope
 Recoil=0
-Ergonomics=0
+Ergonomics=-13
+SightRange=500

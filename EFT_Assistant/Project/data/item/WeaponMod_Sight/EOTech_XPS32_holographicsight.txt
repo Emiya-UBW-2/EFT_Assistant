@@ -1,0 +1,5 @@
+Name=EOTech XPS3-2 holographic sight
+Itemtype=Reflex sight
+Recoil=0
+Ergonomics=-2
+SightRange=400

@@ -1,4 +1,5 @@
 Name=EOTech Vudu 1-6x24 30mm riflescope
 Itemtype=Scope
 Recoil=0
-Ergonomics=0
+Ergonomics=-3
+SightRange=1500

@@ -1,0 +1,5 @@
+Name=Aimpoint CompM4 reflex sight
+Itemtype=Reflex sight
+Recoil=0
+Ergonomics=-2
+SightRange=0

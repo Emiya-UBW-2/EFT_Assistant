@@ -1,0 +1,5 @@
+Name=Valday Krechet reflex sight
+Itemtype=Reflex sight
+Recoil=0
+Ergonomics=-4.5
+SightRange=200

@@ -1,4 +1,4 @@
-Name=Holosun HS401G5 reflex sight
+Name=Vortex Razor AMG UH-1 holographic sight
 Itemtype=Reflex sight
 Recoil=0
 Ergonomics=-4

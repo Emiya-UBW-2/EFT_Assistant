@@ -1,0 +1,5 @@
+Name=Milkor M2A1 grenade launcher reflex sight
+Itemtype=Reflex sight
+Recoil=0
+Ergonomics=-6
+SightRange=300

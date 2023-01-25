@@ -1,0 +1,5 @@
+Name=Axion Kobra EKP-8-18 reflex sight
+Itemtype=Reflex sight
+Recoil=0
+Ergonomics=-2
+SightRange=200

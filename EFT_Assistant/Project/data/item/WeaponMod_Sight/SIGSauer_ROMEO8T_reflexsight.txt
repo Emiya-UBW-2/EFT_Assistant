@@ -1,0 +1,5 @@
+Name=SIG Sauer ROMEO8T reflex sight
+Itemtype=Reflex sight
+Recoil=0
+Ergonomics=-3.5
+SightRange=200

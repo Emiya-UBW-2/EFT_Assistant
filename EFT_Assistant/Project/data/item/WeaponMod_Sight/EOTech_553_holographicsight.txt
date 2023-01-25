@@ -1,4 +1,4 @@
-Name=SR-2M KP-SR2 reflex sight
+Name=EOTech 553 holographic sight
 Itemtype=Reflex sight
 Recoil=0
 Ergonomics=-3

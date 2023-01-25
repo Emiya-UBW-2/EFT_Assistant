@@ -1,0 +1,5 @@
+Name=HK G36 Hensoldt HKV 3x carry handle
+Itemtype=Assault scope
+Recoil=0
+Ergonomics=-2
+SightRange=800

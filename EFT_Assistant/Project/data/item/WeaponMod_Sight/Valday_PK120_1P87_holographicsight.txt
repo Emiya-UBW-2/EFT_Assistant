@@ -1,0 +1,5 @@
+Name=Valday PK-120 (1P87) holographic sight
+Itemtype=Reflex sight
+Recoil=0
+Ergonomics=-4
+SightRange=200

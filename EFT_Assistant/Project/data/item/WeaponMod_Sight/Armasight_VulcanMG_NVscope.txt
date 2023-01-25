@@ -1,0 +1,5 @@
+Name=Armasight Vulcan MG 3.5x Bravo night vision scope
+Itemtype=Special scope
+Recoil=0
+Ergonomics=-15
+SightRange=500

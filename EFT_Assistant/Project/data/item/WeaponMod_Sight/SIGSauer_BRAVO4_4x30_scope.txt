@@ -1,0 +1,5 @@
+Name=SIG Sauer BRAVO4 4x30 scope
+Itemtype=Assault scope
+Recoil=0
+Ergonomics=-2
+SightRange=800

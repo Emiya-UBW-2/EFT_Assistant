@@ -1,0 +1,5 @@
+Name=ELCAN SpecterDR 1x/4x scope(black)
+Itemtype=Assault scope
+Recoil=0
+Ergonomics=-4
+SightRange=800
