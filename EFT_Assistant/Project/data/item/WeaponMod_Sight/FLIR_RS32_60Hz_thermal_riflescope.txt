@@ -1,0 +1,5 @@
+Name=FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescope
+Itemtype=Special scope
+Recoil=0
+Ergonomics=-11
+SightRange=500

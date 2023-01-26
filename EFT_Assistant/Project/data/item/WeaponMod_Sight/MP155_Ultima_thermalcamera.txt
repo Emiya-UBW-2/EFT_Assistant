@@ -1,0 +1,5 @@
+Name=MP-155 Ultima thermal camera
+Itemtype=Special scope
+Recoil=0
+Ergonomics=-3
+SightRange=300
