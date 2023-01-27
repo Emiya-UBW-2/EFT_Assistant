@@ -1,0 +1,5 @@
+Name=PU 3.5x riflescope
+Itemtype=Scope
+Recoil=0
+Ergonomics=-5
+SightRange=500

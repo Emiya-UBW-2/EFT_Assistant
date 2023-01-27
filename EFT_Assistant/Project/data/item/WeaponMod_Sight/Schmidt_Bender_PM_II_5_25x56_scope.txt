@@ -1,0 +1,5 @@
+Name=Schmidt & Bender PM II 5-25x56 34mm riflescope
+Itemtype=Scope
+Recoil=0
+Ergonomics=-8
+SightRange=2000

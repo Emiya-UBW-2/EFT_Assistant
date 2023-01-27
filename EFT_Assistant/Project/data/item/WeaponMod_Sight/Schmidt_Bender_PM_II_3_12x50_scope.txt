@@ -1,0 +1,5 @@
+Name=Schmidt & Bender PM II 3-12x50 34mm riflescope
+Itemtype=Scope
+Recoil=0
+Ergonomics=-6
+SightRange=1500

@@ -1,0 +1,5 @@
+Name=KMZ 1P69 3-10x riflescope
+Itemtype=Scope
+Recoil=0
+Ergonomics=-8
+SightRange=800

@@ -1,0 +1,5 @@
+Name=NPZ 1P78-1 2.8x scope
+Itemtype=Scope
+Recoil=0
+Ergonomics=-6
+SightRange=600

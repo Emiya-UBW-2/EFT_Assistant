@@ -1,0 +1,5 @@
+Name=VOMZ Pilad 4x32 24.5mm riflescope
+Itemtype=Scope
+Recoil=0
+Ergonomics=-4
+SightRange=800

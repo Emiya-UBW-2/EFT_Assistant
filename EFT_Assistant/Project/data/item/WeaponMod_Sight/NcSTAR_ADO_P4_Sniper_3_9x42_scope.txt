@@ -1,0 +1,5 @@
+Name=NcSTAR ADO P4 Sniper 3-9x42 riflescope
+Itemtype=Scope
+Recoil=0
+Ergonomics=-2
+SightRange=1000

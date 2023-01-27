@@ -1,0 +1,5 @@
+Name=Vortex Razor HD Gen.2 1-6x24 30mm riflescope
+Itemtype=Scope
+Recoil=0
+Ergonomics=-4
+SightRange=1500

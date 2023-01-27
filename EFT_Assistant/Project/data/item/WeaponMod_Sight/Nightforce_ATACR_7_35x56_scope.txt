@@ -1,0 +1,5 @@
+Name=Nightforce ATACR 7-35x56 34mm riflescope
+Itemtype=Scope
+Recoil=0
+Ergonomics=-8
+SightRange=2000

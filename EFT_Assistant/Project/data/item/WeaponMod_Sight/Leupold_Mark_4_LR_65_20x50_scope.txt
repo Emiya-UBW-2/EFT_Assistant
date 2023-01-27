@@ -1,0 +1,5 @@
+Name=Leupold Mark 4 LR 6.5-20x50 30mm riflescope
+Itemtype=Scope
+Recoil=0
+Ergonomics=-3
+SightRange=1500
