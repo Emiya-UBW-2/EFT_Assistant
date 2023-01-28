@@ -1,0 +1,4 @@
+Name=GP-25 "Kostyor" 40mm underbarrel grenade launcher
+Itemtype=Underbarrel grenade launcher
+Recoil=-8
+Ergonomics=-35

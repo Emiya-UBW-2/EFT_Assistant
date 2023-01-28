@@ -1,0 +1,4 @@
+Name=M203 40mm underbarrel grenade launcher
+Itemtype=Underbarrel grenade launcher
+Recoil=-10
+Ergonomics=-41
