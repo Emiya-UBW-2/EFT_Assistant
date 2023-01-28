@@ -1,0 +1,4 @@
+Name=AR-15 Colt A2 buffer tube
+Itemtype=Stock
+Recoil=-2
+Ergonomics=0

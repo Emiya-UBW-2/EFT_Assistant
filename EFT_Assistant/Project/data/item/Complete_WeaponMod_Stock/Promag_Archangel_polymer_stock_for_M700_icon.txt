@@ -1,0 +1,4 @@
+Name=M700 ProMag Archangel polymer stock
+Itemtype=Stock
+Recoil=-36
+Ergonomics=+28

@@ -1,0 +1,4 @@
+Name=AR-15 ADAR 2-15 wooden stock
+Itemtype=Stock
+Recoil=-28
+Ergonomics=+13

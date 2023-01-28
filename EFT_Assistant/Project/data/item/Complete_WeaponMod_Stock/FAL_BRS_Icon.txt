@@ -1,0 +1,4 @@
+Name=SA-58 BRS stock
+Itemtype=Stock
+Recoil=-37
+Ergonomics=+9

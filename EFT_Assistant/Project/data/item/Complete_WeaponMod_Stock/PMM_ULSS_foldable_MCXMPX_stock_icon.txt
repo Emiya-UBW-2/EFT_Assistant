@@ -1,0 +1,4 @@
+Name=MPX/MCX PMM ULSS foldable stock
+Itemtype=Stock
+Recoil=-33
+Ergonomics=+3

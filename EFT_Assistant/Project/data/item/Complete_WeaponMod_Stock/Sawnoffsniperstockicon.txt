@@ -1,0 +1,4 @@
+Name=Mosin Rifle sawn-off sniper stock
+Itemtype=Stock
+Recoil=-4
+Ergonomics=+16

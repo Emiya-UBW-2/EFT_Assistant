@@ -1,0 +1,4 @@
+Name=KRISS Vector Pistol Sling adapter
+Itemtype=Stock
+Recoil=0
+Ergonomics=+2

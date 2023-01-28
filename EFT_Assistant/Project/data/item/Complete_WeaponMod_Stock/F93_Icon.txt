@@ -1,0 +1,4 @@
+Name=ERGO F93 PRO stock
+Itemtype=Stock
+Recoil=-30
+Ergonomics=+10

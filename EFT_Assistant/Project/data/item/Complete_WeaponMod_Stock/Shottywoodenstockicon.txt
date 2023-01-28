@@ -1,0 +1,4 @@
+Name=MP-133/153 wooden stock
+Itemtype=Stock
+Recoil=-34
+Ergonomics=+6

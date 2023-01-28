@@ -1,0 +1,4 @@
+Name=AK-74 wooden stock (6P20 Sb.5)
+Itemtype=Stock
+Recoil=-33
+Ergonomics=+3

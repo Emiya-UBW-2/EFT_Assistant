@@ -1,0 +1,4 @@
+Name=HK UMP polymer stock
+Itemtype=Stock
+Recoil=-34
+Ergonomics=+2

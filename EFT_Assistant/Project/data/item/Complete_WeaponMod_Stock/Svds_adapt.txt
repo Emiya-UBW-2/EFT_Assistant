@@ -1,0 +1,4 @@
+Name=SVDS Lynx Arms Hinge buffer tube adapter
+Itemtype=Stock
+Recoil=-1
+Ergonomics=+1

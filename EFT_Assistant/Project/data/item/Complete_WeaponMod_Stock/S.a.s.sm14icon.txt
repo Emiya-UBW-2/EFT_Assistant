@@ -1,0 +1,4 @@
+Name=M14 TROY S.A.S.S. Chassis stock
+Itemtype=Stock
+Recoil=-10
+Ergonomics=+28

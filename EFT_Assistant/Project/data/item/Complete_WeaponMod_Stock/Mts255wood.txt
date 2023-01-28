@@ -1,0 +1,4 @@
+Name=MTs-255-12 wooden stock
+Itemtype=Stock
+Recoil=-33
+Ergonomics=+3

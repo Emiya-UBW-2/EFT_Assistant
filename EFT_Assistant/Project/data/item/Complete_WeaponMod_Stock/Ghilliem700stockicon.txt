@@ -1,0 +1,4 @@
+Name=M700 Hogue Overmolded Ghillie stock
+Itemtype=Stock
+Recoil=-30
+Ergonomics=+14

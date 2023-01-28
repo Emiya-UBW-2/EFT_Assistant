@@ -1,0 +1,4 @@
+Name=M870 Magpul SGA polymer stock
+Itemtype=Stock
+Recoil=-42
+Ergonomics=+10

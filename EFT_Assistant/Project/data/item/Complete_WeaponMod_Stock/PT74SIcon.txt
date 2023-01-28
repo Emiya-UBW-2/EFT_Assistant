@@ -1,0 +1,4 @@
+Name=AKS-74/AKS-74U Zenit PT Lock
+Itemtype=Stock
+Recoil=0
+Ergonomics=0

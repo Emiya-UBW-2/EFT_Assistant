@@ -1,0 +1,4 @@
+Name=SKS TAPCO Intrafuse stock
+Itemtype=Stock
+Recoil=-5
+Ergonomics=+17

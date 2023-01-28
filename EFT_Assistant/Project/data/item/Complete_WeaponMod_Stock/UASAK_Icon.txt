@@ -1,0 +1,4 @@
+Name=AKM/AK-74 FAB Defense UAS stock
+Itemtype=Stock
+Recoil=-38
+Ergonomics=+16

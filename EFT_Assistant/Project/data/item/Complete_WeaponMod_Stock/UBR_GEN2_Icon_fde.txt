@@ -1,0 +1,4 @@
+Name=Magpul UBR GEN2 stock(FDE)
+Itemtype=Stock
+Recoil=-33
+Ergonomics=+7

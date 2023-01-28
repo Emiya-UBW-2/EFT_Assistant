@@ -1,0 +1,4 @@
+Name=HK Adjustable Buttstock cheek rest
+Itemtype=Stock
+Recoil=0
+Ergonomics=+5

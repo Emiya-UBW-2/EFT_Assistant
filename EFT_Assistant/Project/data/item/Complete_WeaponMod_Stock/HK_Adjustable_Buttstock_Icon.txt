@@ -1,0 +1,4 @@
+Name=HK Adjustable Buttstock
+Itemtype=Stock
+Recoil=-33
+Ergonomics=+6

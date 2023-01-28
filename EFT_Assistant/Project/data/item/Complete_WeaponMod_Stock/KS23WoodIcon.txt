@@ -1,0 +1,4 @@
+Name=KS-23 wooden stock
+Itemtype=Stock
+Recoil=-34
+Ergonomics=+6

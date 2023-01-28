@@ -1,0 +1,4 @@
+Name=Mosin Rifle ATI Monte Carlo stock
+Itemtype=Stock
+Recoil=-34
+Ergonomics=+22

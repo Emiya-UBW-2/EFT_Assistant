@@ -1,0 +1,4 @@
+Name=MP-155 Ultima large recoil pad
+Itemtype=Stock
+Recoil=-7
+Ergonomics=-2

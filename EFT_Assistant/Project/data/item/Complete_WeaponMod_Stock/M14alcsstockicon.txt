@@ -1,0 +1,4 @@
+Name=M14 SAGE International M14ALCS chassis
+Itemtype=Stock
+Recoil=-9
+Ergonomics=+18

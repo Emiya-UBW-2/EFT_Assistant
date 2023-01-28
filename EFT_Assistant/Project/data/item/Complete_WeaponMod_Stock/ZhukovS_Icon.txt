@@ -1,0 +1,4 @@
+Name=AKM/AK-74 Magpul Zhukov-S stock
+Itemtype=Stock
+Recoil=-40
+Ergonomics=+15

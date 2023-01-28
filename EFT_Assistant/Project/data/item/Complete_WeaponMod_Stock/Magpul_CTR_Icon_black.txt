@@ -1,0 +1,4 @@
+Name=Magpul CTR Carbine stock(black)
+Itemtype=Stock
+Recoil=-32
+Ergonomics=+10

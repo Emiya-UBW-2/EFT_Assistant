@@ -1,0 +1,4 @@
+Name=VPO-209 wooden stock
+Itemtype=Stock
+Recoil=-33
+Ergonomics=+3

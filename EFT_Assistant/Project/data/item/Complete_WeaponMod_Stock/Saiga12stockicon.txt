@@ -1,0 +1,4 @@
+Name=SOK-12 AK-style stock
+Itemtype=Stock
+Recoil=-34
+Ergonomics=+6

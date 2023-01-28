@@ -1,0 +1,4 @@
+Name=FN SCAR retractable polymer stock(black)
+Itemtype=Stock
+Recoil=-24
+Ergonomics=+3

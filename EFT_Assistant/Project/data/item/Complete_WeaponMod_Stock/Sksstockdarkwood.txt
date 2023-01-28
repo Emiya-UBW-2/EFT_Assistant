@@ -1,0 +1,4 @@
+Name=SKS TOZ wooden stock (56-A-231 Sb.5)
+Itemtype=Stock
+Recoil=-15
+Ergonomics=+6

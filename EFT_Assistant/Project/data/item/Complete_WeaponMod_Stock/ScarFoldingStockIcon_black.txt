@@ -1,0 +1,4 @@
+Name=FN SCAR folding polymer stock(black)
+Itemtype=Stock
+Recoil=+5
+Ergonomics=0

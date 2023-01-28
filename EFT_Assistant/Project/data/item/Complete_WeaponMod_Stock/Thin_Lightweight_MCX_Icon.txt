@@ -1,0 +1,4 @@
+Name=MPX/MCX lightweight stock
+Itemtype=Stock
+Recoil=-31
+Ergonomics=+5

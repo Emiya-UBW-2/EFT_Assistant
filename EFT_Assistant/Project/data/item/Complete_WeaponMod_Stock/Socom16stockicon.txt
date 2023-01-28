@@ -1,0 +1,4 @@
+Name=M1A SOCOM 16 stock
+Itemtype=Stock
+Recoil=-35
+Ergonomics=+20

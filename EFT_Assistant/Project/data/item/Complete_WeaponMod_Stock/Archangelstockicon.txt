@@ -1,0 +1,4 @@
+Name=M1A ProMag Archangel stock
+Itemtype=Stock
+Recoil=-38
+Ergonomics=+32

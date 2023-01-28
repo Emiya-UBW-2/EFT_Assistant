@@ -1,0 +1,4 @@
+Name=FN SCAR rubber buttpad
+Itemtype=Stock
+Recoil=-4
+Ergonomics=+3

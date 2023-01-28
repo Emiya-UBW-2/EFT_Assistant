@@ -1,0 +1,4 @@
+Name=OP-SKS wooden stock
+Itemtype=Stock
+Recoil=-15
+Ergonomics=+6

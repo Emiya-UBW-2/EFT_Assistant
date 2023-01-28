@@ -1,0 +1,4 @@
+Name=Mosin Rifle Infantry stock
+Itemtype=Stock
+Recoil=-29
+Ergonomics=+9

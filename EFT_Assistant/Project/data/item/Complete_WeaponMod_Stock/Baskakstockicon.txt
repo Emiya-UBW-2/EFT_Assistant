@@ -1,0 +1,4 @@
+Name=Armacon Baskak stock
+Itemtype=Stock
+Recoil=-35
+Ergonomics=+2

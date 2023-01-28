@@ -1,0 +1,4 @@
+Name=AI AXMC .338 LM chassis
+Itemtype=Stock
+Recoil=-1
+Ergonomics=+4

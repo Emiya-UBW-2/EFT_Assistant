@@ -1,0 +1,4 @@
+Name=HK417 E2 buttstock
+Itemtype=Stock
+Recoil=-33
+Ergonomics=+4

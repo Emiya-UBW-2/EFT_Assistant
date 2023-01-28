@@ -1,0 +1,4 @@
+Name=Mossberg 590A1 polymer stock
+Itemtype=Stock
+Recoil=-33
+Ergonomics=+7

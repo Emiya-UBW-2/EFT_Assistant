@@ -1,0 +1,4 @@
+Name=FAB Defense buffer tube for AGR-870
+Itemtype=Stock
+Recoil=-2
+Ergonomics=0

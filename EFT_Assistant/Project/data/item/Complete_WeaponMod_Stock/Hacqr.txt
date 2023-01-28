@@ -1,0 +1,4 @@
+Name=AR-15 Hera Arms CQR pistol grip/buttstock
+Itemtype=Stock
+Recoil=-33
+Ergonomics=+20

@@ -1,0 +1,4 @@
+Name=AKMS shoulder piece (6P4 Sb.1-19)
+Itemtype=Stock
+Recoil=-30
+Ergonomics=+9

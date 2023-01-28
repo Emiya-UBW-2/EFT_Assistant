@@ -1,0 +1,4 @@
+Name=TOZ-106 FAB Defense GPCP cheek rest
+Itemtype=Stock
+Recoil=0
+Ergonomics=+5

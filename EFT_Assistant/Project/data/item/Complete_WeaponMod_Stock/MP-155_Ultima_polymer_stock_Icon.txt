@@ -1,0 +1,4 @@
+Name=MP-155 Ultima polymer stock
+Itemtype=Stock
+Recoil=-35
+Ergonomics=+9

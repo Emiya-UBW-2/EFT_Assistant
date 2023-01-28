@@ -1,0 +1,4 @@
+Name=FN P90 stock
+Itemtype=Stock
+Recoil=-9
+Ergonomics=+26

@@ -1,0 +1,4 @@
+Name=AKM/AK-74 Zenit PT Lock
+Itemtype=Stock
+Recoil=0
+Ergonomics=0

@@ -1,0 +1,4 @@
+Name=AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock
+Itemtype=Stock
+Recoil=-35
+Ergonomics=+16

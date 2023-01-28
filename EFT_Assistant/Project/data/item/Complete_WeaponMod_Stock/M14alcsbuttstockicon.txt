@@ -1,0 +1,4 @@
+Name=M14 SAGE International M14ALCS (MOD-0) stock
+Itemtype=Stock
+Recoil=-30
+Ergonomics=+17

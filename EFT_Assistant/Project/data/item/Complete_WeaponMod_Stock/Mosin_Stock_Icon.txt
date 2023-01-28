@@ -1,0 +1,4 @@
+Name=Mosin Rifle standard stock
+Itemtype=Stock
+Recoil=-29
+Ergonomics=+10

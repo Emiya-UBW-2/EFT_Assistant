@@ -1,0 +1,4 @@
+Name=Colt Carbine buffer tube
+Itemtype=Stock
+Recoil=-1
+Ergonomics=0

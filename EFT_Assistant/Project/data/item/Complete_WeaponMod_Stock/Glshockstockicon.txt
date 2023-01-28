@@ -1,0 +1,4 @@
+Name=FAB Defense GL-SHOCK buttstock
+Itemtype=Stock
+Recoil=-29
+Ergonomics=+13

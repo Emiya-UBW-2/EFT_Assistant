@@ -1,0 +1,4 @@
+Name=Strike Industries Advanced Receiver Extension buffer tube(Anodized Red)
+Itemtype=Stock
+Recoil=-4
+Ergonomics=+2

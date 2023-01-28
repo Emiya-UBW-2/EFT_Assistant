@@ -1,0 +1,4 @@
+Name=AKS-74U metal skeleton stock (6P26 Sb.5)
+Itemtype=Stock
+Recoil=-30
+Ergonomics=+10

@@ -1,0 +1,4 @@
+Name=M870 SPS polymer stock
+Itemtype=Stock
+Recoil=-34
+Ergonomics=+6

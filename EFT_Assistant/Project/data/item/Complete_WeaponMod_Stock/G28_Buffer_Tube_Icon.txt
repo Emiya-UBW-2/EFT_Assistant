@@ -1,0 +1,4 @@
+Name=HK G28 buffer tube
+Itemtype=Stock
+Recoil=-1
+Ergonomics=0

@@ -1,0 +1,4 @@
+Name=Mossberg 590A1 Magpul SGA stock
+Itemtype=Stock
+Recoil=-42
+Ergonomics=+10

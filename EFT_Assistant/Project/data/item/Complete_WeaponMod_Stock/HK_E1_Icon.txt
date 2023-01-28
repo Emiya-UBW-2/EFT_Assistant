@@ -1,0 +1,4 @@
+Name=AR-15 HK E1 buttstock
+Itemtype=Stock
+Recoil=-33
+Ergonomics=+4

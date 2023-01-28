@@ -1,0 +1,4 @@
+Name=SV-98 CNC Guns OV-SV98 chassis
+Itemtype=Stock
+Recoil=-6
+Ergonomics=+10

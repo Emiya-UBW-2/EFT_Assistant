@@ -1,0 +1,4 @@
+Name=AK GP-25 accessory kit recoil pad
+Itemtype=Stock
+Recoil=-5
+Ergonomics=+2

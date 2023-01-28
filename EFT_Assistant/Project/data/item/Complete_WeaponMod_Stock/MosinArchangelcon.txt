@@ -1,0 +1,4 @@
+Name=Mosin Rifle ProMag Archangel OPFOR PRS stock
+Itemtype=Stock
+Recoil=-38
+Ergonomics=+40

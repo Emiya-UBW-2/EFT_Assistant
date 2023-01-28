@@ -1,0 +1,4 @@
+Name=Mossberg 590A1 Mesa Tactical LEO gen.1 stock adapter
+Itemtype=Stock
+Recoil=-2
+Ergonomics=+10

@@ -1,0 +1,4 @@
+Name=AR-15 HK Slim Line buttstock
+Itemtype=Stock
+Recoil=-30
+Ergonomics=+5

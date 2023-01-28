@@ -1,0 +1,4 @@
+Name=MP-133/153 plastic pistol grip
+Itemtype=Stock
+Recoil=-9
+Ergonomics=+11

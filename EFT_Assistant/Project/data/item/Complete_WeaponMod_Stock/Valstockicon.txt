@@ -1,0 +1,4 @@
+Name=AS VAL skeleton stock
+Itemtype=Stock
+Recoil=-30
+Ergonomics=+8

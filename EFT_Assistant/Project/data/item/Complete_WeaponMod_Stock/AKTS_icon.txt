@@ -1,0 +1,4 @@
+Name=AKM/AK-74 CAA AKTS buffer tube
+Itemtype=Stock
+Recoil=-3
+Ergonomics=-1

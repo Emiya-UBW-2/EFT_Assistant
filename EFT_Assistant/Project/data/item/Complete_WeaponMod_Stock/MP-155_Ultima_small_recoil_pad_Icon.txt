@@ -1,0 +1,4 @@
+Name=MP-155 Ultima thin recoil pad
+Itemtype=Stock
+Recoil=-5
+Ergonomics=+2

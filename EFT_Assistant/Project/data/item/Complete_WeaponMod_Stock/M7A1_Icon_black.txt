@@ -1,0 +1,4 @@
+Name=TROY M7A1 PDW stock
+Itemtype=Stock
+Recoil=-26
+Ergonomics=+18

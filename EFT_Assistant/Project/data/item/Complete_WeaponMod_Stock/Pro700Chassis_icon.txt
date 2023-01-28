@@ -1,0 +1,4 @@
+Name=M700 Magpul Pro 700 chassis
+Itemtype=Stock
+Recoil=-7
+Ergonomics=+22

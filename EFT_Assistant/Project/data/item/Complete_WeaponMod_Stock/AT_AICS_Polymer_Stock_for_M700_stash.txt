@@ -1,0 +1,4 @@
+Name=M700 AI AT AICS polymer stock
+Itemtype=Stock
+Recoil=-34
+Ergonomics=+38

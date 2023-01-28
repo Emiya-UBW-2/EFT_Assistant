@@ -1,0 +1,4 @@
+Name=HK MP5 End Cap stock
+Itemtype=Stock
+Recoil=0
+Ergonomics=+3

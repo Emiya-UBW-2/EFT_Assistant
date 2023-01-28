@@ -1,0 +1,4 @@
+Name=MP-155 walnut stock
+Itemtype=Stock
+Recoil=-34
+Ergonomics=+6

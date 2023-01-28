@@ -1,0 +1,4 @@
+Name=HK MP5 A3 old model stock
+Itemtype=Stock
+Recoil=-33
+Ergonomics=+7

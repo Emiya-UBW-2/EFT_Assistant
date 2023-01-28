@@ -1,0 +1,4 @@
+Name=Strike Industries Viper PDW stock
+Itemtype=Stock
+Recoil=-25
+Ergonomics=+21

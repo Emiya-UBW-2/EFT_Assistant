@@ -1,0 +1,4 @@
+Name=ORSIS T-5000M aluminium body
+Itemtype=Stock
+Recoil=-2
+Ergonomics=+16

@@ -1,0 +1,4 @@
+Name=AI AXMC GTAC AR-type pistol grip adapter
+Itemtype=Stock
+Recoil=0
+Ergonomics=-1

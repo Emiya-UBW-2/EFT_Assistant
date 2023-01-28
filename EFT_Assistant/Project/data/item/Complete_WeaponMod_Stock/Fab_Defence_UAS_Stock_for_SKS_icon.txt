@@ -1,0 +1,4 @@
+Name=SKS FAB Defense UAS stock
+Itemtype=Stock
+Recoil=-38
+Ergonomics=+15

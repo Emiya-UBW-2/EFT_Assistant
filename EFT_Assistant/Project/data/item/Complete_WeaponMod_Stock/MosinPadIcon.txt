@@ -1,0 +1,4 @@
+Name=Mosin Rifle AIM Sports Recoil Pad
+Itemtype=Stock
+Recoil=-5
+Ergonomics=+6

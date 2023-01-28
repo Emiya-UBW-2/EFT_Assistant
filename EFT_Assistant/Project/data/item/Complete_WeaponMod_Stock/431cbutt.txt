@@ -1,0 +1,4 @@
+Name=MP-43-1C buttpad
+Itemtype=Stock
+Recoil=-4
+Ergonomics=+4

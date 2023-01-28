@@ -1,0 +1,4 @@
+Name=AK-74 polymer stock (6P20 Sb.7)(plum)
+Itemtype=Stock
+Recoil=-32
+Ergonomics=+5

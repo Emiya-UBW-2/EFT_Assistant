@@ -1,0 +1,4 @@
+Name=ORSIS T-5000M stock
+Itemtype=Stock
+Recoil=-25
+Ergonomics=+11

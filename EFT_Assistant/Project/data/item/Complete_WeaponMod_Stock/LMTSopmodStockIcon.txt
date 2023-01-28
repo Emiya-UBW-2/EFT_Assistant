@@ -1,0 +1,4 @@
+Name=LMT SOPMOD stock
+Itemtype=Stock
+Recoil=-29
+Ergonomics=+6

@@ -1,0 +1,4 @@
+Name=FAB Defense GL-CORE buttstock
+Itemtype=Stock
+Recoil=-27
+Ergonomics=+15

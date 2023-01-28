@@ -1,0 +1,4 @@
+Name=SA-58 folding stock
+Itemtype=Stock
+Recoil=-31
+Ergonomics=+3

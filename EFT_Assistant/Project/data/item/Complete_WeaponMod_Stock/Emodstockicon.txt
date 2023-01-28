@@ -1,0 +1,4 @@
+Name=Vltor EMOD stock
+Itemtype=Stock
+Recoil=-31
+Ergonomics=+9

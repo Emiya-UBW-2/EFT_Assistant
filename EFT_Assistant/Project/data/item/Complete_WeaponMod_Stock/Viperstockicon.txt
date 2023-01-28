@@ -1,0 +1,4 @@
+Name=Strike Industries Viper Mod 1 stock
+Itemtype=Stock
+Recoil=-30
+Ergonomics=+11

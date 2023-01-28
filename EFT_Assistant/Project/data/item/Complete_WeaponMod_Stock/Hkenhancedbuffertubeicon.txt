@@ -1,0 +1,4 @@
+Name=HK Enhanced Tube buffer tube
+Itemtype=Stock
+Recoil=-3
+Ergonomics=0

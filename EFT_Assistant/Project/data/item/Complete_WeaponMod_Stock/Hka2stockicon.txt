@@ -1,0 +1,4 @@
+Name=HK MP5 A2 stock
+Itemtype=Stock
+Recoil=-34
+Ergonomics=+6

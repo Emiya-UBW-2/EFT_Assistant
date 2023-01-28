@@ -1,0 +1,4 @@
+Name=AK Zenit PT-1 "Klassika" stock
+Itemtype=Stock
+Recoil=-37
+Ergonomics=+9

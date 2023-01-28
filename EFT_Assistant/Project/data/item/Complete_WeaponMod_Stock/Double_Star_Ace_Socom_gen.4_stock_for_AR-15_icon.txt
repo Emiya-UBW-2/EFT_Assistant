@@ -1,0 +1,4 @@
+Name=AR-15 DoubleStar ACE SOCOM Gen.4 stock
+Itemtype=Stock
+Recoil=-32
+Ergonomics=+4

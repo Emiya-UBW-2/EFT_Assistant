@@ -1,0 +1,4 @@
+Name=AK-74M polymer stock (6P34 Sb.15)
+Itemtype=Stock
+Recoil=-32
+Ergonomics=+5

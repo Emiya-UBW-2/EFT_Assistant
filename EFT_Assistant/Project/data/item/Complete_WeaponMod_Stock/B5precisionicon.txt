@@ -1,0 +1,4 @@
+Name=AR-15 B5 Systems Precision stock
+Itemtype=Stock
+Recoil=-34
+Ergonomics=+1

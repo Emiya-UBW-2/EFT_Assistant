@@ -1,0 +1,4 @@
+Name=Magpul MOE Carbine rubber buttpad
+Itemtype=Stock
+Recoil=-3
+Ergonomics=+2

@@ -1,0 +1,4 @@
+Name=MP9 stock
+Itemtype=Stock
+Recoil=-18
+Ergonomics=+3

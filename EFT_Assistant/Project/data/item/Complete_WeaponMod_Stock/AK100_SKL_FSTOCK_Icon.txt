@@ -1,0 +1,4 @@
+Name=AK 100-series metal skeletonized stock
+Itemtype=Stock
+Recoil=-30
+Ergonomics=+10

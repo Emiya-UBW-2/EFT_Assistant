@@ -1,0 +1,4 @@
+Name=AKM/AK-74 RD AK to M4 buffer tube adapter
+Itemtype=Stock
+Recoil=0
+Ergonomics=-1

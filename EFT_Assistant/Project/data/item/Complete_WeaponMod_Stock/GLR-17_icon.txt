@@ -1,0 +1,4 @@
+Name=Glock FAB Defense GLR-17 stock
+Itemtype=Stock
+Recoil=-33
+Ergonomics=+4
