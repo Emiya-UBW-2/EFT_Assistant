@@ -1,0 +1,4 @@
+Name=MP-133 12ga 660mm barrel with rib
+Itemtype=Stock
+Recoil=-6
+Ergonomics=-10

@@ -1,0 +1,4 @@
+Name=SR-25 7.62x51 16 inch barrel
+Itemtype=Stock
+Recoil=-5
+Ergonomics=-12

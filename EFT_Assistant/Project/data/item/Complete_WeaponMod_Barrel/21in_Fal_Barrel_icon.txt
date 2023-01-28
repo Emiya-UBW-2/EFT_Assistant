@@ -1,0 +1,4 @@
+Name=SA-58 7.62x51 21 inch barrel
+Itemtype=Stock
+Recoil=-8
+Ergonomics=-28

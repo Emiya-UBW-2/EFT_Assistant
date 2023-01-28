@@ -1,0 +1,4 @@
+Name=MTs-255-12 12ga 755mm barrel with rib
+Itemtype=Stock
+Recoil=-10
+Ergonomics=-18

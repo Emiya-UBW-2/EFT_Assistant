@@ -1,0 +1,4 @@
+Name=RFB 7.62x51 18 inch barrel
+Itemtype=Stock
+Recoil=-6
+Ergonomics=-11

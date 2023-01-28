@@ -1,0 +1,4 @@
+Name=MP-133 12ga 710mm barrel
+Itemtype=Stock
+Recoil=-9
+Ergonomics=-13

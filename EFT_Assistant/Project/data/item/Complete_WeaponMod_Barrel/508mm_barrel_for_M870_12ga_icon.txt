@@ -1,0 +1,4 @@
+Name=M870 12ga 508mm barrel with a fixed sight
+Itemtype=Stock
+Recoil=-6
+Ergonomics=-7

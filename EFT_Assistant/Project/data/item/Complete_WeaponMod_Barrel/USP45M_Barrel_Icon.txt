@@ -1,0 +1,4 @@
+Name=HK USP Match .45 ACP barrel
+Itemtype=Stock
+Recoil=-4
+Ergonomics=-7

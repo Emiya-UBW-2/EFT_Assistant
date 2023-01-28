@@ -1,0 +1,4 @@
+Name=MP-155 510mm barrel
+Itemtype=Stock
+Recoil=-3
+Ergonomics=-5

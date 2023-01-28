@@ -1,0 +1,4 @@
+Name=P226 9x19 threaded barrel
+Itemtype=Stock
+Recoil=-3
+Ergonomics=-4

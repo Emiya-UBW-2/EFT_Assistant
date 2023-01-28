@@ -1,0 +1,4 @@
+Name=Mosin Rifle 7.62x54R sawn-off 220mm threaded barrel
+Itemtype=Stock
+Recoil=-1
+Ergonomics=-1

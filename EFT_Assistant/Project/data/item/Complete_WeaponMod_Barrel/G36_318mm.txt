@@ -1,0 +1,4 @@
+Name=HK G36 5.56x45 318mm barrel
+Itemtype=Stock
+Recoil=-3
+Ergonomics=-12

@@ -1,0 +1,4 @@
+Name=Glock 9x19 Double Diamond threaded barrel
+Itemtype=Stock
+Recoil=-3
+Ergonomics=-5

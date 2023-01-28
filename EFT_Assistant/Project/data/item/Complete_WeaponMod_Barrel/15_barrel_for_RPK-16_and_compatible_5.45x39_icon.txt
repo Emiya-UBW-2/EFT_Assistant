@@ -1,0 +1,4 @@
+Name=RPK-16 5.45x39 15 inch barrel
+Itemtype=Stock
+Recoil=-3
+Ergonomics=-2

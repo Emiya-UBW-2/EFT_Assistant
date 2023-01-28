@@ -1,0 +1,4 @@
+Name=HK417 7.62x51 16.5 inch barrel
+Itemtype=Stock
+Recoil=-6
+Ergonomics=-13

@@ -1,0 +1,4 @@
+Name=MPX 9x19 203mm barrel
+Itemtype=Stock
+Recoil=-3
+Ergonomics=-6

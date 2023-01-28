@@ -1,0 +1,4 @@
+Name=HK USP Elite .45 ACP barrel
+Itemtype=Stock
+Recoil=-3
+Ergonomics=-6

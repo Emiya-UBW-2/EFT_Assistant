@@ -1,0 +1,4 @@
+Name=AR-10 7.62x51 18 inch barrel
+Itemtype=Stock
+Recoil=-5
+Ergonomics=-13

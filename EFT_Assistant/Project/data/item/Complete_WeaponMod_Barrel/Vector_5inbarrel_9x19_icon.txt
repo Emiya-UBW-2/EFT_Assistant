@@ -1,0 +1,4 @@
+Name=KRISS Vector 9x19 5 inch barrel
+Itemtype=Stock
+Recoil=-3
+Ergonomics=0

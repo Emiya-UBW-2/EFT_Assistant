@@ -1,0 +1,4 @@
+Name=MP-153 12ga 750mm barrel
+Itemtype=Stock
+Recoil=-10
+Ergonomics=-20

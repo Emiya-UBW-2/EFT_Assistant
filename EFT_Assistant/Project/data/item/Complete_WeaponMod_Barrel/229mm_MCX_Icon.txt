@@ -1,0 +1,4 @@
+Name=MCX .300 BLK 229mm barrel
+Itemtype=Stock
+Recoil=-5
+Ergonomics=-6

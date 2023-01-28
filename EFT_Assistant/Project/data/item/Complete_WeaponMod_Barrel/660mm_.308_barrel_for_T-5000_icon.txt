@@ -1,0 +1,4 @@
+Name=T-5000M 7.62x51 660mm barrel
+Itemtype=Stock
+Recoil=-5
+Ergonomics=-10

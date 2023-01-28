@@ -1,0 +1,4 @@
+Name=KRISS Vector .45 ACP 5 inch barrel
+Itemtype=Stock
+Recoil=-3
+Ergonomics=0

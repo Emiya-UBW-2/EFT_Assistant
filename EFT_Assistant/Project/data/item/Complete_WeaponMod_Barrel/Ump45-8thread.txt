@@ -1,0 +1,4 @@
+Name=HK UMP .45 ACP 8 inch threaded barrel
+Itemtype=Stock
+Recoil=-5
+Ergonomics=-5

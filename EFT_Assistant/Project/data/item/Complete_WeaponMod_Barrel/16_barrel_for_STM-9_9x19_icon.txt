@@ -1,0 +1,4 @@
+Name=STM-9 9x19 16 inch barrel
+Itemtype=Stock
+Recoil=-10
+Ergonomics=-19

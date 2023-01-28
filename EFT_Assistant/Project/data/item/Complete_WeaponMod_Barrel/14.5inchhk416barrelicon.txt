@@ -1,0 +1,4 @@
+Name=HK 416A5 5.56x45 14.5 inch barrel
+Itemtype=Stock
+Recoil=-3
+Ergonomics=-15

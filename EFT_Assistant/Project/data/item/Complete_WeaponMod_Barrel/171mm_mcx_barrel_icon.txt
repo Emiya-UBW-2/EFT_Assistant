@@ -1,0 +1,4 @@
+Name=MCX .300 BLK 171mm barrel
+Itemtype=Stock
+Recoil=-3
+Ergonomics=-4

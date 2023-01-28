@@ -1,0 +1,4 @@
+Name=M870 12ga 508mm barrel
+Itemtype=Stock
+Recoil=-6
+Ergonomics=-8

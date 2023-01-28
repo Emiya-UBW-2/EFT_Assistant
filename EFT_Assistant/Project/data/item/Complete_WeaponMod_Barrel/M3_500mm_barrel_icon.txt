@@ -1,0 +1,4 @@
+Name=Benelli M3 Super 90 12ga 500mm barrel
+Itemtype=Stock
+Recoil=-7
+Ergonomics=-8

@@ -1,0 +1,4 @@
+Name=Mosin Rifle 7.62x54R 730mm regular barrel
+Itemtype=Stock
+Recoil=-10
+Ergonomics=-13

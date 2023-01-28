@@ -1,0 +1,4 @@
+Name=PL-15 9x19 barrel
+Itemtype=Stock
+Recoil=-3
+Ergonomics=-5

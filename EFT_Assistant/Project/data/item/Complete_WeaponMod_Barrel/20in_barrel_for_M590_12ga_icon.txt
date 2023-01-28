@@ -1,0 +1,4 @@
+Name=Mossberg 590A1 12ga 20 inch barrel
+Itemtype=Stock
+Recoil=-6
+Ergonomics=-8

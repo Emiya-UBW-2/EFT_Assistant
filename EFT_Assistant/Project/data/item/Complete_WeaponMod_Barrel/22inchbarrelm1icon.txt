@@ -1,0 +1,4 @@
+Name=M1A 7.62x51 22 inch barrel
+Itemtype=Stock
+Recoil=-9
+Ergonomics=-17

@@ -1,0 +1,4 @@
+Name=MPX 9x19 14 inch barrel
+Itemtype=Stock
+Recoil=-7
+Ergonomics=-14

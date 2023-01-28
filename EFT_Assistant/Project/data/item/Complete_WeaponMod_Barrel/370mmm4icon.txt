@@ -1,0 +1,4 @@
+Name=AR-15 5.56x45 370mm barrel
+Itemtype=Stock
+Recoil=-3
+Ergonomics=-14

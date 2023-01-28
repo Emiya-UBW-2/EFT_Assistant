@@ -1,0 +1,4 @@
+Name=MPX 9x19 4.5 inch barrel
+Itemtype=Stock
+Recoil=0
+Ergonomics=-2

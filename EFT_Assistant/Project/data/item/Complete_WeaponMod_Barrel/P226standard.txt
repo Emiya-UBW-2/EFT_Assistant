@@ -1,0 +1,4 @@
+Name=P226 9x19 112mm barrel
+Itemtype=Stock
+Recoil=-3
+Ergonomics=-5

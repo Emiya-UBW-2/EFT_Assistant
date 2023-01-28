@@ -1,0 +1,4 @@
+Name=MP-153 12ga 660mm barrel
+Itemtype=Stock
+Recoil=-6
+Ergonomics=-12

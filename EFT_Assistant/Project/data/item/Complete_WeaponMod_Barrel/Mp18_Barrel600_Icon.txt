@@ -1,0 +1,4 @@
+Name=MP-18 7.62x54R 600mm barrel
+Itemtype=Stock
+Recoil=-8
+Ergonomics=-13

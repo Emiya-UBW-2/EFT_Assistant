@@ -1,0 +1,4 @@
+Name=FN SCAR-L 5.56x45 10 inch barrel
+Itemtype=Stock
+Recoil=-2
+Ergonomics=-5
