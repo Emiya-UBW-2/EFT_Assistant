@@ -1,0 +1,5 @@
+Name=Glock .45 ACP KRISS G30 MagEx 30-round magazine
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-5
+

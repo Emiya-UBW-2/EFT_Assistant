@@ -1,0 +1,5 @@
+Name=AI AXMC .338 LM 10-round magazine
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-3
+

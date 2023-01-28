@@ -1,0 +1,5 @@
+Name=AK-74 5.45x39 6L23 30-round magazine(Plum)
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-3
+

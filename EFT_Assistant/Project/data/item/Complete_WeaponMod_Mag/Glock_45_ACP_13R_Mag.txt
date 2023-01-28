@@ -1,0 +1,5 @@
+Name=Glock .45 ACP 13-round magazine
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-1
+

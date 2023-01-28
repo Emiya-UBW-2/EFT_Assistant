@@ -1,0 +1,5 @@
+Name=SA-58/FAL 7.62x51 MMW polymer 20-round magazine
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-2
+

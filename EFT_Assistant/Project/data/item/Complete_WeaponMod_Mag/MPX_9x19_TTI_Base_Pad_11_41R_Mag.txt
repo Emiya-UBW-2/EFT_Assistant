@@ -1,0 +1,5 @@
+Name=MPX 9x19 TTI "Base Pad +11" 41-round magazine
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-4
+

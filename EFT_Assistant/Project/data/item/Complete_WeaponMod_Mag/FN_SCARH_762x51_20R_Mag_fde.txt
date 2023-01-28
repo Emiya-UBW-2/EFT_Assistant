@@ -1,0 +1,5 @@
+Name=FN SCAR-H 7.62x51 20-round magazine(FDE)
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-4
+

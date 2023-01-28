@@ -1,0 +1,5 @@
+Name=5.56x45 TROY BattleMag STANAG 30-round magazine
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-2
+

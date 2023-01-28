@@ -1,0 +1,5 @@
+Name=AK-101 5.56x45 6L29 30-round magazine
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-3
+

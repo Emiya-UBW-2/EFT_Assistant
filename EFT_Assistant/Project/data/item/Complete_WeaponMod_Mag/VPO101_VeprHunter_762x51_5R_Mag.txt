@@ -1,0 +1,5 @@
+Name=VPO-101 "Vepr-Hunter" 7.62x51 5-round magazine
+Itemtype=Magazine
+Recoil=0
+Ergonomics=1
+

@@ -1,0 +1,5 @@
+Name=AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine(banana style)
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-1.5
+

@@ -1,0 +1,5 @@
+Name=AK 7.62x39 ribbed metal 10-round magazine
+Itemtype=Magazine
+Recoil=0
+Ergonomics=4
+

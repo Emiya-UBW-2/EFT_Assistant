@@ -1,0 +1,5 @@
+Name=AK-12 5.45x39 30-round magazine
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-2
+

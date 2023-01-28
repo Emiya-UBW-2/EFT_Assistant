@@ -1,0 +1,5 @@
+Name=M1911A1 .45 ACP Wilson Combat 7-round magazine
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-1
+

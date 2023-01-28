@@ -1,0 +1,5 @@
+Name=PPSh-41 7.62x25 71-round drum magazine
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-9
+

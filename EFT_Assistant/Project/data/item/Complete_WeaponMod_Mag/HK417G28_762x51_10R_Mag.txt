@@ -1,0 +1,5 @@
+Name=HK417/G28 7.62x51 10-round magazine
+Itemtype=Magazine
+Recoil=0
+Ergonomics=2
+

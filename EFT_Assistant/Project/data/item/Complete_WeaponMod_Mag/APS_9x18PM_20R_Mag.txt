@@ -1,0 +1,5 @@
+Name=APS 9x18PM 20-round magazine
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-3
+

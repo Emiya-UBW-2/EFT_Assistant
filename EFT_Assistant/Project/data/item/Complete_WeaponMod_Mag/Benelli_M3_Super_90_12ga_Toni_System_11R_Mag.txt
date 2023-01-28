@@ -1,0 +1,5 @@
+Name=Benelli M3 Super 90 12ga Toni System 11-shell magazine
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-3
+

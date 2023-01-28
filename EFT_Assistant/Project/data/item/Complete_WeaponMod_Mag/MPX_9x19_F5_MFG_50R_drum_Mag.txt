@@ -1,0 +1,5 @@
+Name=MPX 9x19 F5 MFG 50-round drum magazine
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-15
+

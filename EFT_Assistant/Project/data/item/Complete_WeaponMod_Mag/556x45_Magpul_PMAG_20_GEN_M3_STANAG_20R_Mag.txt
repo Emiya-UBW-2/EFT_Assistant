@@ -1,0 +1,5 @@
+Name=5.56x45 Magpul PMAG 20 GEN M3 STANAG 20-round magazine
+Itemtype=Magazine
+Recoil=0
+Ergonomics=3
+

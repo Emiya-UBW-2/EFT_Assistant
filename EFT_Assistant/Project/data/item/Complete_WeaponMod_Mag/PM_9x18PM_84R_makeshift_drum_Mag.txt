@@ -1,0 +1,5 @@
+Name=PM 9x18PM 84-round makeshift drum magazine
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-18
+

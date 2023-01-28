@@ -1,0 +1,5 @@
+Name=M9A3 9x19 17-round magazine
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-1
+

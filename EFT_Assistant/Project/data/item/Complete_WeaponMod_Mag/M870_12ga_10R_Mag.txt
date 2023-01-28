@@ -1,0 +1,5 @@
+Name=M870 12ga 10-shell magazine
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-6
+

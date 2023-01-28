@@ -1,0 +1,5 @@
+Name=VPO-215 "Gornostay" .366 TKM 4-round magazine
+Itemtype=Magazine
+Recoil=0
+Ergonomics=1
+

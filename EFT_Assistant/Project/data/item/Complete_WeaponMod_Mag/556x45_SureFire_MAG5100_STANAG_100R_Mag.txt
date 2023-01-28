@@ -1,0 +1,5 @@
+Name=5.56x45 SureFire MAG5-100 STANAG 100-round magazine
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-27
+

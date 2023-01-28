@@ -1,0 +1,5 @@
+Name=DVL-10 7.62x51 10-round magazine
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-3
+

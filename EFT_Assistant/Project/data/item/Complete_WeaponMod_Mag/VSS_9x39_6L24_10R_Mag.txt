@@ -1,0 +1,5 @@
+Name=VSS 9x39 6L24 10-round magazine
+Itemtype=Magazine
+Recoil=0
+Ergonomics=5
+

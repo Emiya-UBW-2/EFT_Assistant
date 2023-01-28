@@ -1,0 +1,5 @@
+Name=FN P90 5.7x28 50-round magazine
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-5
+

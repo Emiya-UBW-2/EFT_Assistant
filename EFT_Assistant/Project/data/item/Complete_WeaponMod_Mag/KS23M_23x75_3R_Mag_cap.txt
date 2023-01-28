@@ -1,0 +1,5 @@
+Name=KS-23M 23x75 3-shell magazine cap
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-6
+

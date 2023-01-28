@@ -1,0 +1,4 @@
+Name=Chiappa Rhino .357 6-round cylinder
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-2

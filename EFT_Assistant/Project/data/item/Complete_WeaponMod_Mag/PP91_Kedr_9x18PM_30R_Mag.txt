@@ -1,0 +1,5 @@
+Name=PP-91 "Kedr" 9x18PM 30-round magazine
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-2
+

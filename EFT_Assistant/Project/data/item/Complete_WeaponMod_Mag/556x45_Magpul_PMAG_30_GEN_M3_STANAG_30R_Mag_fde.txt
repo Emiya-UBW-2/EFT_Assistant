@@ -1,0 +1,5 @@
+Name=5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazine(FDE)
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-3
+

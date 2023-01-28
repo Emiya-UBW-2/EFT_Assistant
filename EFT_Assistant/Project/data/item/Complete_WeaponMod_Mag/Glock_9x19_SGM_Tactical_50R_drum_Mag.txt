@@ -1,0 +1,5 @@
+Name=Glock 9x19 SGM Tactical 50-round drum magazine
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-19
+

@@ -1,0 +1,5 @@
+Name=FN SCAR-L 5.56x45 30-round magazine(black)
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-3
+

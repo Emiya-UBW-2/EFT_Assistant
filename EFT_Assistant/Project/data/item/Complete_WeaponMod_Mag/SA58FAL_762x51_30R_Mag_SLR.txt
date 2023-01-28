@@ -1,0 +1,5 @@
+Name=SA-58/FAL 7.62x51 30-round magazine (SLR)
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-8
+

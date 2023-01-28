@@ -1,0 +1,5 @@
+Name=P226 9x19 15-round magazine
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-1
+

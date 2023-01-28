@@ -1,0 +1,5 @@
+Name=PM 9x18PM 90-93 8-round magazine
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-1
+

@@ -1,0 +1,5 @@
+Name=MTs-255-12 12ga cylinder
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-2
+

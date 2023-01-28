@@ -1,0 +1,5 @@
+Name=MP-153 12ga 4-shell magazine cap
+Itemtype=Magazine
+Recoil=0
+Ergonomics=1
+

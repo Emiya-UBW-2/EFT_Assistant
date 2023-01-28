@@ -1,0 +1,5 @@
+Name=HK UMP .45 ACP 25-round magazine
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-3
+

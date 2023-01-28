@@ -1,0 +1,5 @@
+Name=PL-15 9x19 16-round magazine
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-1
+

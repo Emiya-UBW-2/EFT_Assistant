@@ -1,0 +1,5 @@
+Name=5.56x45 SureFire MAG5-60 STANAG 60-round magazine
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-18
+
