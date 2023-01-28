@@ -1,0 +1,5 @@
+Name=AR-15 HK Extended Latch charging handle
+Itemtype=Charging handle
+Recoil=0
+Ergonomics=1
+

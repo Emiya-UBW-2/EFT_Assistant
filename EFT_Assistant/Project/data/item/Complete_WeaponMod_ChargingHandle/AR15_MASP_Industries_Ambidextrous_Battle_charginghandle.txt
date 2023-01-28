@@ -1,0 +1,4 @@
+Name=AR-15 MASP Industries Ambidextrous Battle Charging Handle
+Itemtype=Charging handle
+Recoil=0
+Ergonomics=1

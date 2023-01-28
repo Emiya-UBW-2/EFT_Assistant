@@ -1,0 +1,5 @@
+Name=FN P90 charging handle
+Itemtype=Charging handle
+Recoil=0
+Ergonomics=0
+

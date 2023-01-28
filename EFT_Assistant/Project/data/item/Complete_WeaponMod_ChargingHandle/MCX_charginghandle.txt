@@ -1,0 +1,5 @@
+Name=MCX charging handle
+Itemtype=Charging handle
+Recoil=0
+Ergonomics=0
+

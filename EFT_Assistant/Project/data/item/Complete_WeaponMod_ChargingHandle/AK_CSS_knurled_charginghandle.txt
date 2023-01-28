@@ -1,0 +1,5 @@
+Name=AK CSS knurled charging handle
+Itemtype=Charging handle
+Recoil=0
+Ergonomics=3
+

@@ -1,0 +1,5 @@
+Name=FN SCAR charging handle
+Itemtype=Charging handle
+Recoil=0
+Ergonomics=1
+

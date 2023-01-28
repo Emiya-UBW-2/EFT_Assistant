@@ -1,0 +1,5 @@
+Name=HK MP5K cocking handle
+Itemtype=Charging handle
+Recoil=0
+Ergonomics=0
+

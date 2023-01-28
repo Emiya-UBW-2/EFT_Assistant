@@ -1,0 +1,5 @@
+Name=AR-10 KAC charging handle
+Itemtype=Charging handle
+Recoil=0
+Ergonomics=0
+
