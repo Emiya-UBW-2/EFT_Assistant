@@ -1,0 +1,6 @@
+Name=AK-105 rear sight (6P44 Sb.1-30)
+Itemtype=Iron sight
+Recoil=0
+Ergonomics=0
+SightRange=500
+

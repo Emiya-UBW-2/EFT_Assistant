@@ -1,0 +1,6 @@
+Name=MCX flip-up front sight
+Itemtype=Iron sight
+Recoil=0
+Ergonomics=+1
+SightRange=300
+

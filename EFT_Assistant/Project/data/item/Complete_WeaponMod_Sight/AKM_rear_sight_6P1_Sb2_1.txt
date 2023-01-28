@@ -1,0 +1,6 @@
+Name=AKM rear sight (6P1 Sb.2-1)
+Itemtype=Iron sight
+Recoil=0
+Ergonomics=0
+SightRange=500
+

@@ -1,0 +1,6 @@
+Name=M1A SA XS Post .125 Blade front sight
+Itemtype=Iron sight
+Recoil=0
+Ergonomics=0
+SightRange=500
+

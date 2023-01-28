@@ -1,0 +1,6 @@
+Name=P226 Sight Mount 220-239 rear sight bearing
+Itemtype=Iron sight
+Recoil=0
+Ergonomics=-2
+SightRange=200
+

@@ -1,0 +1,6 @@
+Name=KAC Folding Micro rear sight
+Itemtype=Iron sight
+Recoil=0
+Ergonomics=+1
+SightRange=300
+

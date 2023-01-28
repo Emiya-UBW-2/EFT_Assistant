@@ -1,0 +1,6 @@
+Name=M14 SA Enlarged Military Aperture rear sight
+Itemtype=Iron sight
+Recoil=0
+Ergonomics=0
+SightRange=500
+

@@ -1,0 +1,6 @@
+Name=FN Five-seveN MK2 front sight
+Itemtype=Iron sight
+Recoil=0
+Ergonomics=0
+SightRange=200
+

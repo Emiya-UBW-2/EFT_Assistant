@@ -1,0 +1,6 @@
+Name=HK USP Red Dot sight mount
+Itemtype=Iron sight
+Recoil=0
+Ergonomics=-2
+SightRange=200
+

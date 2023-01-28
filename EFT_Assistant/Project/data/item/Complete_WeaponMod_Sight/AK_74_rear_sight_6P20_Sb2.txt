@@ -1,0 +1,6 @@
+Name=AK-74 rear sight (6P20 Sb.2)
+Itemtype=Iron sight
+Recoil=0
+Ergonomics=0
+SightRange=500
+

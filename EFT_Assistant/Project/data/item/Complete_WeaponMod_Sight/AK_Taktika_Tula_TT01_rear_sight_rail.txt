@@ -1,0 +1,6 @@
+Name=AK Taktika Tula TT01 rear sight rail
+Itemtype=Iron sight
+Recoil=0
+Ergonomics=-1
+SightRange=500
+
