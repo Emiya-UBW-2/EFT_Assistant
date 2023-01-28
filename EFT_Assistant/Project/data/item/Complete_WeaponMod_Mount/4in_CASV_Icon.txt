@@ -1,0 +1,4 @@
+Name=Vltor CASV 4 inch rail
+Itemtype=Mount
+Recoil=0
+Ergonomics=0

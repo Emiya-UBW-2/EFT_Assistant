@@ -1,0 +1,4 @@
+Name=Nightforce Magmount 34mm ring scope mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=-2

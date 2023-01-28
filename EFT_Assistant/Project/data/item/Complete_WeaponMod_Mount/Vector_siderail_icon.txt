@@ -1,0 +1,4 @@
+Name=KRISS Vector side rail
+Itemtype=Mount
+Recoil=0
+Ergonomics=0

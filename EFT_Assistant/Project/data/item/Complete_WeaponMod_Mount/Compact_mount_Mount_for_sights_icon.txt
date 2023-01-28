@@ -1,0 +1,4 @@
+Name=Primary Arms Compact Mount sight adapter
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

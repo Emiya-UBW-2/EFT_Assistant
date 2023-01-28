@@ -1,0 +1,4 @@
+Name=DeltaPoint Cross Slot Mount base
+Itemtype=Mount
+Recoil=0
+Ergonomics=0

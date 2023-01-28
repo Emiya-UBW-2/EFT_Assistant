@@ -1,0 +1,4 @@
+Name=MP-155 Ultima short rail
+Itemtype=Mount
+Recoil=0
+Ergonomics=0

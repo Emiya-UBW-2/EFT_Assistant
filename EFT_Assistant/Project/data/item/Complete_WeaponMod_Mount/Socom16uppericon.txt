@@ -1,0 +1,4 @@
+Name=M1A SOCOM 16 upper part
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

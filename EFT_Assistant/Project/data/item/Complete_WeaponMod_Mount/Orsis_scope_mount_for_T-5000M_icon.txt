@@ -1,0 +1,4 @@
+Name=ORSIS T-5000M scope mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

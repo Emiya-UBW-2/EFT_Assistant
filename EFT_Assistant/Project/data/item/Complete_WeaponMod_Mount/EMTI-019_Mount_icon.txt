@@ -1,0 +1,4 @@
+Name=ETMI-019 shotgun rail mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=0

@@ -1,0 +1,4 @@
+Name=MPX GEN1 handguard 4 inch rail
+Itemtype=Mount
+Recoil=0
+Ergonomics=0

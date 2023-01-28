@@ -1,0 +1,4 @@
+Name=Kiba Arms 25mm accessory ring mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

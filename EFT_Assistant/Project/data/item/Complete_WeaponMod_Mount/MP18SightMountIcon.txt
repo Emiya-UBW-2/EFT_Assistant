@@ -1,0 +1,4 @@
+Name=MP-18 sight mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=0

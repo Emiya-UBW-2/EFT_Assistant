@@ -1,0 +1,4 @@
+Name=Strike Industries TRAX bridge rail
+Itemtype=Mount
+Recoil=0
+Ergonomics=0

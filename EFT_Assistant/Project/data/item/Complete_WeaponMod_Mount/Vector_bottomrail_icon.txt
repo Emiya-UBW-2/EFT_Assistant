@@ -1,0 +1,4 @@
+Name=KRISS Vector bottom rail
+Itemtype=Mount
+Recoil=0
+Ergonomics=0

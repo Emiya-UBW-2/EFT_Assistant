@@ -1,0 +1,4 @@
+Name=M14 Leapers UTG 4-Point Locking Deluxe mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=-2

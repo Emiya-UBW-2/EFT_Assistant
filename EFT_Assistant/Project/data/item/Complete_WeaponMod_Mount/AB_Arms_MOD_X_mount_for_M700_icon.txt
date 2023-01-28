@@ -1,0 +1,4 @@
+Name=M700 AB Arms MOD*X rail mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=0

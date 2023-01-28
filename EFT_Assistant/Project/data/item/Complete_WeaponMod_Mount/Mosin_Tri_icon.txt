@@ -1,0 +1,4 @@
+Name=Mosin Rifle AIM Sports Tri-Rail mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=-2

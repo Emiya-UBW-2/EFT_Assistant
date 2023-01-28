@@ -1,0 +1,4 @@
+Name=PP-91 "Kedr" Rotor 43 RIS mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

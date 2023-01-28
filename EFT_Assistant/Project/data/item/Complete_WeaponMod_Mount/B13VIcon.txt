@@ -1,0 +1,4 @@
+Name=Zenit B-13V "Klassika" dovetail rail platform
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

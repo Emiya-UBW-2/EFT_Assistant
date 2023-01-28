@@ -1,0 +1,4 @@
+Name=B&T QD NAR mount for Aimpoint ACRO
+Itemtype=Mount
+Recoil=0
+Ergonomics=0

@@ -1,0 +1,4 @@
+Name=SKS Leapers UTG SOCOM rail mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=0

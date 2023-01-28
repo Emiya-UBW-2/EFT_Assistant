@@ -38,13 +38,18 @@ namespace FPS_n2 {
 		void	SetIsTrans(bool isTrans) noexcept { this->m_IsTrans = isTrans; }
 		void	LoadByPath(bool isUseTex) noexcept {
 			if (this->m_Path != "") {
-				if (isUseTex) {
-					this->m_Handle = GraphHandle::Load_Tex(this->m_Path.c_str());
+				if (GetFileAttributes(this->m_Path.c_str()) != INVALID_FILE_ATTRIBUTES) {
+					if (isUseTex) {
+						this->m_Handle = GraphHandle::Load_Tex(this->m_Path.c_str());
+					}
+					else {
+						this->m_Handle = GraphHandle::Load(this->m_Path.c_str());
+					}
+					this->m_Loaded = false;
 				}
 				else {
-					this->m_Handle = GraphHandle::Load(this->m_Path.c_str());
+					this->m_Path = "";
 				}
-				this->m_Loaded = false;
 			}
 		}
 		void	WhenAfterLoad() noexcept {

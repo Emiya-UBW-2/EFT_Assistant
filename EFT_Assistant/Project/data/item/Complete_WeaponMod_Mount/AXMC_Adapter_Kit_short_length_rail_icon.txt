@@ -1,0 +1,4 @@
+Name=AI AXMC Adapter Kit short length rail
+Itemtype=Mount
+Recoil=0
+Ergonomics=0

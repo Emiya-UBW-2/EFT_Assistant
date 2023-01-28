@@ -1,0 +1,4 @@
+Name=KMZ 1P69 Weaver mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

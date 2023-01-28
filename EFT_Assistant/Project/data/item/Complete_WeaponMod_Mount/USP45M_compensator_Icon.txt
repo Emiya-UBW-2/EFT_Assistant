@@ -1,0 +1,4 @@
+Name=HK USP .45 ACP Match compensator
+Itemtype=Mount
+Recoil=-15
+Ergonomics=-12

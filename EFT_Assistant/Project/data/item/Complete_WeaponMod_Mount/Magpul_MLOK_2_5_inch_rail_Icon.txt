@@ -1,0 +1,4 @@
+Name=Magpul M-LOK 2.5 inch rail
+Itemtype=Mount
+Recoil=0
+Ergonomics=0

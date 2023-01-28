@@ -1,0 +1,4 @@
+Name=M14 Vltor CASV-14 rail system
+Itemtype=Mount
+Recoil=0
+Ergonomics=0

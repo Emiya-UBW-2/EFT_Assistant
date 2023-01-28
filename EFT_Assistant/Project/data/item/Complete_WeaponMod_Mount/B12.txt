@@ -1,0 +1,4 @@
+Name=AK Zenit B-12 Mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

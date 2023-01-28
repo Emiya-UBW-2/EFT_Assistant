@@ -1,0 +1,4 @@
+Name=VSS/VAL TOZ 6P29M mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

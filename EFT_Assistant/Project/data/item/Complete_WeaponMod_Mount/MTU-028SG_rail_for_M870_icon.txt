@@ -1,0 +1,4 @@
+Name=M870 Leapers UTG PRO MTU-028SG rail
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

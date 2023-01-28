@@ -1,0 +1,4 @@
+Name=SVD modernization kit top rail
+Itemtype=Mount
+Recoil=-2
+Ergonomics=-1

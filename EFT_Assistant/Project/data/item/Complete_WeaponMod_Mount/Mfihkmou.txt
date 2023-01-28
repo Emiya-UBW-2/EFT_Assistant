@@ -1,0 +1,4 @@
+Name=HK MP5 MFI HK universal low profile scope mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=0

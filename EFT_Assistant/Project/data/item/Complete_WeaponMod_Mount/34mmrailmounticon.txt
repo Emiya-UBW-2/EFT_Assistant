@@ -1,0 +1,4 @@
+Name=Nightforce Magmount 34mm ring scope mount with Ruggedized Accessory Platform
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

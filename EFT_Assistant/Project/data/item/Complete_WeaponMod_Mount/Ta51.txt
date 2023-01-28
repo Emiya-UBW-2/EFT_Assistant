@@ -1,0 +1,4 @@
+Name=Trijicon TA51 sight mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

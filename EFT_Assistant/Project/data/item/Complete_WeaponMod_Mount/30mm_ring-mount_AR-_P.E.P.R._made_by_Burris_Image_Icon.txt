@@ -1,0 +1,4 @@
+Name=Burris AR-P.E.P.R. 30mm ring scope mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

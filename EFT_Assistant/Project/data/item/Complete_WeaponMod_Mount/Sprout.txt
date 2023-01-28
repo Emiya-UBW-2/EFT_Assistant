@@ -1,0 +1,4 @@
+Name=Delta-Tek Sprut mount for pump-action shotguns
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

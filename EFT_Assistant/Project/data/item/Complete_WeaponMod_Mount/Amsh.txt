@@ -1,0 +1,4 @@
+Name=Aimpoint Micro Spacer High
+Itemtype=Mount
+Recoil=0
+Ergonomics=0

@@ -1,0 +1,4 @@
+Name=FN SCAR bottom rail
+Itemtype=Mount
+Recoil=0
+Ergonomics=0

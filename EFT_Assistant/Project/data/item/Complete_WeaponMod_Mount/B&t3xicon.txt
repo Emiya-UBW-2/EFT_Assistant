@@ -1,0 +1,4 @@
+Name=HK MP5 B&T tri-rail receiver mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1.5

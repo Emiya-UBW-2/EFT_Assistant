@@ -1,0 +1,4 @@
+Name=M700 30mm integral ring scope mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1.5

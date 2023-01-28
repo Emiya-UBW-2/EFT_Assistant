@@ -1,0 +1,4 @@
+Name=Magpul M-LOK Offset Light Mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=0

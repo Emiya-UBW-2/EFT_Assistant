@@ -1,0 +1,4 @@
+Name=M14 UltiMAK M8 Forward Optic mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

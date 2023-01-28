@@ -1,0 +1,4 @@
+Name=SVD SAG low profile sidemount
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

@@ -1,0 +1,4 @@
+Name=SR-1MP sound suppressor mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

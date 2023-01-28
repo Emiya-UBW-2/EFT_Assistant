@@ -1,0 +1,4 @@
+Name=SVDS upper band
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

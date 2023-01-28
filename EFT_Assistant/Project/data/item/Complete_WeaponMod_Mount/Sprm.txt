@@ -1,0 +1,4 @@
+Name=Kiba Arms SPRM rail mount for pump-action shotguns
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

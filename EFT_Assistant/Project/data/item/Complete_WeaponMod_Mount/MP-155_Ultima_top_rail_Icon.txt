@@ -1,0 +1,4 @@
+Name=MP-155 Ultima top rail
+Itemtype=Mount
+Recoil=-2
+Ergonomics=-2

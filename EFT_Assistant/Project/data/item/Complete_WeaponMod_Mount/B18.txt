@@ -1,0 +1,4 @@
+Name=AKS-74U Zenit B-18 Mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

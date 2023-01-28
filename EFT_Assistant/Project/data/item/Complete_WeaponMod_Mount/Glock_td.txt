@@ -1,0 +1,4 @@
+Name=Glock TangoDown AAM-01 ACRO mount base
+Itemtype=Mount
+Recoil=0
+Ergonomics=0

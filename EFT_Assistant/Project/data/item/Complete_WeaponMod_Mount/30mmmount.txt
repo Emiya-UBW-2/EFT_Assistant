@@ -1,0 +1,4 @@
+Name=Lobaev Arms 30mm scope mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

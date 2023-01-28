@@ -1,0 +1,4 @@
+Name=M14 SAGE International DCSB mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

@@ -1,0 +1,4 @@
+Name=Aimpoint LRP mount for CompM4 sights
+Itemtype=Mount
+Recoil=0
+Ergonomics=0

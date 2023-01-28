@@ -1,0 +1,4 @@
+Name=M14 Amega Mini Scout Mount system
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

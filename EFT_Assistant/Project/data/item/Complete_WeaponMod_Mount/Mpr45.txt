@@ -1,0 +1,4 @@
+Name=NcSTAR MPR45 Backup mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

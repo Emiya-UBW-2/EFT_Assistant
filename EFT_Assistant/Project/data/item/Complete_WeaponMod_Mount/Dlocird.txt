@@ -1,0 +1,4 @@
+Name=UNV DLOC-IRD sight mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

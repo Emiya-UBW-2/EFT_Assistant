@@ -1,0 +1,4 @@
+Name=KRISS Vector Mk.5 modular rail
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

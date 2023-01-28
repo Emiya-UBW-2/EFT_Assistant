@@ -1,0 +1,4 @@
+Name=Magpul M-LOK Cantilever Mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=1

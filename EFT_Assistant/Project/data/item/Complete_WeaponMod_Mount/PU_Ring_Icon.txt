@@ -1,0 +1,4 @@
+Name=PU 3.5x ring scope mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

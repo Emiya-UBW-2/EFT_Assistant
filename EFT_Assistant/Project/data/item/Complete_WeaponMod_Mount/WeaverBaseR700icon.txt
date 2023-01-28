@@ -1,0 +1,4 @@
+Name=M700 extended multi-slot Weaver rail base
+Itemtype=Mount
+Recoil=0
+Ergonomics=0

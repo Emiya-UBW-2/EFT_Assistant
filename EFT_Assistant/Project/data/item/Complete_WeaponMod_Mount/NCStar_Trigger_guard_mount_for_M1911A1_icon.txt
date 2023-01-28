@@ -1,0 +1,4 @@
+Name=M1911A1 NcSTAR trigger guard mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

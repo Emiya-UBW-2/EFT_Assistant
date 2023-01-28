@@ -1,0 +1,4 @@
+Name=VPO-215 "Gornostay" scope rail mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

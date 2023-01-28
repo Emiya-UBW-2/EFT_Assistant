@@ -1,0 +1,4 @@
+Name=AI AX-50 34mm scope mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

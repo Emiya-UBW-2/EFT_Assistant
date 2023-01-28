@@ -1,0 +1,4 @@
+Name=Leapers UTG 25mm ring scope mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=-2

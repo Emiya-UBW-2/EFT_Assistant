@@ -1,0 +1,4 @@
+Name=RFB handguard rail mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=0

@@ -1,0 +1,4 @@
+Name=TOZ-106 rail scope mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=0

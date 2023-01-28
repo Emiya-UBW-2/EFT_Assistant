@@ -1,0 +1,4 @@
+Name=M870 Mesa Tactical magazine clamp
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

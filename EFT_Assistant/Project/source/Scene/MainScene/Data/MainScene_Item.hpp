@@ -43,6 +43,9 @@ namespace FPS_n2 {
 					m_Recoil = std::stof(RIGHT.substr(RIGHT.find("+") + 1));
 				}
 				else {
+					if (RIGHT == "") {
+						int a = 0;
+					}
 					m_Recoil = std::stof(RIGHT);
 				}
 				m_isWeaponMod = true;

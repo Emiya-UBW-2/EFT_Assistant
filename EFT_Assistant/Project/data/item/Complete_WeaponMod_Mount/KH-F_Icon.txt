@@ -1,0 +1,4 @@
+Name=IEA Mil-Optics KH/F 34mm one-piece magmount
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

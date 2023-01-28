@@ -1,0 +1,4 @@
+Name=ORSIS T-5000M long length rail
+Itemtype=Mount
+Recoil=0
+Ergonomics=0

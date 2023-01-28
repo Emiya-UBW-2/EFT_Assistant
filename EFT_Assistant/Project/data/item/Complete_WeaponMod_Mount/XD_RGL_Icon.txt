@@ -1,0 +1,4 @@
+Name=SVD CAA XD RGL receiver mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=-2

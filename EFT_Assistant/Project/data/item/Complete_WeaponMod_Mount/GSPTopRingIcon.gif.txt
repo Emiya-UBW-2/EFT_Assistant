@@ -1,0 +1,4 @@
+Name=Geissele Super Precision top ring cap
+Itemtype=Mount
+Recoil=0
+Ergonomics=0.5

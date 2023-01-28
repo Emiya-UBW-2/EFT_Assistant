@@ -1,0 +1,4 @@
+Name=M870 XS SHOTRAIL rail with Ghost Ring rear sight
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

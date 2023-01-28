@@ -1,0 +1,4 @@
+Name=UM Tactical UM3 pistol sight mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

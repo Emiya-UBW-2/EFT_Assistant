@@ -1,0 +1,4 @@
+Name=FN SCAR PWS SRX rail extension
+Itemtype=Mount
+Recoil=0
+Ergonomics=5

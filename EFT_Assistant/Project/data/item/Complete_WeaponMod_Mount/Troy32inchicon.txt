@@ -1,0 +1,4 @@
+Name=TROY QARS 3.2 inch rail
+Itemtype=Mount
+Recoil=0
+Ergonomics=0

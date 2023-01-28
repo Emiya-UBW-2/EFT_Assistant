@@ -1,0 +1,4 @@
+Name=Aimpoint QRP2 mount for CompM4/PRO reflex sights
+Itemtype=Mount
+Recoil=0
+Ergonomics=0

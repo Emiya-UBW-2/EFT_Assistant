@@ -1,0 +1,4 @@
+Name=AI AXMC AT X Top Rail
+Itemtype=Mount
+Recoil=0
+Ergonomics=0

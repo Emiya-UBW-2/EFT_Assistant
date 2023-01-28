@@ -1,0 +1,4 @@
+Name=VSS/VAL Zenit B-3 mount combo
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

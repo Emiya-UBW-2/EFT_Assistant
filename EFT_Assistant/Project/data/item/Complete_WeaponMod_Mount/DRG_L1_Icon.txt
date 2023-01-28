@@ -1,0 +1,4 @@
+Name=SVD CAA DRG L-1 barrel mount rail
+Itemtype=Mount
+Recoil=0
+Ergonomics=-1

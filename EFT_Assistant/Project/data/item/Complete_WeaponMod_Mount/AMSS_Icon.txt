@@ -1,0 +1,4 @@
+Name=Aimpoint Standard Spacer
+Itemtype=Mount
+Recoil=0
+Ergonomics=0

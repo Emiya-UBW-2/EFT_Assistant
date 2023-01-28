@@ -1,0 +1,4 @@
+Name=SIG Sauer ROMEO sight mount
+Itemtype=Mount
+Recoil=0
+Ergonomics=0

@@ -1,0 +1,4 @@
+Name=Magpul M-LOK 4.1 inch rail
+Itemtype=Mount
+Recoil=0
+Ergonomics=0
