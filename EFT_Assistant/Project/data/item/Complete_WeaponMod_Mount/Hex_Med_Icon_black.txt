@@ -1,0 +1,4 @@
+Name=Hexagon medium length rail(black)
+Itemtype=Mount
+Recoil=0
+Ergonomics=0

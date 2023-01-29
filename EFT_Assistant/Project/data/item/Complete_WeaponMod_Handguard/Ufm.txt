@@ -1,0 +1,4 @@
+Name=AK Krebs Custom UFM KeyMod handguard
+Itemtype=Handguard
+Recoil=-3
+Ergonomics=+11

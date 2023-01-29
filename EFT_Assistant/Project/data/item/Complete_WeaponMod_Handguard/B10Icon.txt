@@ -1,0 +1,4 @@
+Name=AK Zenit B-10 Handguard
+Itemtype=Handguard
+Recoil=-1
+Ergonomics=+3

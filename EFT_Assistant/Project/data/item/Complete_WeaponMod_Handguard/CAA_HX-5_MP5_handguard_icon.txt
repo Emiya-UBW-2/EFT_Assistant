@@ -1,0 +1,4 @@
+Name=HK MP5 CAA HX-5 handguard
+Itemtype=Handguard
+Recoil=-3
+Ergonomics=+13

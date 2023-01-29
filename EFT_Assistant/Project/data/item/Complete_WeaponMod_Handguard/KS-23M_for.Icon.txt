@@ -1,0 +1,4 @@
+Name=KS-23M forestock
+Itemtype=Handguard
+Recoil=0
+Ergonomics=+8

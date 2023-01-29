@@ -1,0 +1,4 @@
+Name=MP-443 "Grach" polymer pistol grip
+Itemtype=Pistol grip
+Recoil=0
+Ergonomics=+5

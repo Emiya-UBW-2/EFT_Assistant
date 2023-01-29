@@ -1,0 +1,4 @@
+Name=Mossberg 590A1 SpeedFeed short handguard
+Itemtype=Handguard
+Recoil=0
+Ergonomics=+7

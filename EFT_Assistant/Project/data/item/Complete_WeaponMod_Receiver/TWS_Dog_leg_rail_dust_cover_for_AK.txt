@@ -1,0 +1,4 @@
+Name=AK TWS Dog Leg Rail dust cover
+Itemtype=Receiver
+Recoil=0
+Ergonomics=+7

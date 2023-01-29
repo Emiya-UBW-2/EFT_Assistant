@@ -1,0 +1,4 @@
+Name=AR-15 Alexander Arms MK10 rifle length handguard
+Itemtype=Handguard
+Recoil=-3
+Ergonomics=+8

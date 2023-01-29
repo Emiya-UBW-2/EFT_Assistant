@@ -1,0 +1,4 @@
+Name=AR-15 KAC RIS handguard
+Itemtype=Handguard
+Recoil=0
+Ergonomics=+1

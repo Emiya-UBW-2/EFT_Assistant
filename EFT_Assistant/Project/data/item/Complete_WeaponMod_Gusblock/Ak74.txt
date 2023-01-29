@@ -1,0 +1,4 @@
+Name=AK-74 gas tube (6P20 Sb.1-2)
+Itemtype=Gas block
+Recoil=0
+Ergonomics=0

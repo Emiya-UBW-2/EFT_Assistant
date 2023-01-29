@@ -1,0 +1,4 @@
+Name=ASh-12 polymer handguard
+Itemtype=Handguard
+Recoil=0
+Ergonomics=+5

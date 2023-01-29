@@ -1,0 +1,4 @@
+Name=Glock 9x19 Moto Cut pistol slide
+Itemtype=Receiver
+Recoil=-1
+Ergonomics=+5

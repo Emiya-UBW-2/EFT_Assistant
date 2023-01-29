@@ -1,0 +1,4 @@
+Name=MPX GEN1 handguard
+Itemtype=Handguard
+Recoil=0
+Ergonomics=+7

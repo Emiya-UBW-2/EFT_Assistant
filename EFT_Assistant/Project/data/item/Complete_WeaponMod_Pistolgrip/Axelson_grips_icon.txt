@@ -1,0 +1,4 @@
+Name=P226 Axelson Tactical MK25 pistol grip
+Itemtype=Pistol grip
+Recoil=0
+Ergonomics=+7

@@ -1,0 +1,4 @@
+Name=SVD modernization kit handguard
+Itemtype=Handguard
+Recoil=-4
+Ergonomics=+7

@@ -1,0 +1,4 @@
+Name=HK USP Expert .45 ACP pistol slide
+Itemtype=Receiver
+Recoil=-2
+Ergonomics=+3

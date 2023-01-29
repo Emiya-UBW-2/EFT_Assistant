@@ -1,0 +1,4 @@
+Name=HK MP5 PTR Tri-Rail handguard
+Itemtype=Handguard
+Recoil=-1
+Ergonomics=+11

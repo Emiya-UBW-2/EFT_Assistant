@@ -1,0 +1,4 @@
+Name=SA-58/FAL AIM Sports Universal KeyMod handguard
+Itemtype=Handguard
+Recoil=0
+Ergonomics=+9

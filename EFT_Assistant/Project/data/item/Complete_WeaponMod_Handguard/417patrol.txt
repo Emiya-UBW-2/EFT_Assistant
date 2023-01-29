@@ -1,0 +1,4 @@
+Name=HK417 Patrol handguard with flip-up front sight
+Itemtype=Handguard
+Recoil=0
+Ergonomics=+4

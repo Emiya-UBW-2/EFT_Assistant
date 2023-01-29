@@ -1,0 +1,4 @@
+Name=APS bakelite side-pieces
+Itemtype=Pistol grip
+Recoil=0
+Ergonomics=+5

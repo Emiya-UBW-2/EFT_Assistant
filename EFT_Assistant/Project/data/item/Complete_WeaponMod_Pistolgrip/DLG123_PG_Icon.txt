@@ -1,0 +1,4 @@
+Name=AR-15 DLG Tactical DLG-123 pistol grip
+Itemtype=Pistol grip
+Recoil=0
+Ergonomics=+5.5

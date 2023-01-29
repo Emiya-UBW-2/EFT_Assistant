@@ -1,0 +1,4 @@
+Name=DVL-10 M2 handguard
+Itemtype=Handguard
+Recoil=0
+Ergonomics=+9

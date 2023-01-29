@@ -1,0 +1,4 @@
+Name=SA-58/FAL Vltor CASV-FAS handguard
+Itemtype=Handguard
+Recoil=-2
+Ergonomics=+14

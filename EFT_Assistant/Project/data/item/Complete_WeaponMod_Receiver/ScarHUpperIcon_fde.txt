@@ -1,0 +1,4 @@
+Name=FN SCAR-H 7.62x51 upper receiver(FDE)
+Itemtype=Receiver
+Recoil=-1
+Ergonomics=+2

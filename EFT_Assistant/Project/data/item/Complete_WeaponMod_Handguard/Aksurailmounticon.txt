@@ -1,0 +1,4 @@
+Name=AKS-74U CAA XRSU47SU tactical handguard
+Itemtype=Handguard
+Recoil=-3
+Ergonomics=+10

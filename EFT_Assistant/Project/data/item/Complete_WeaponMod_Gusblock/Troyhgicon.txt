@@ -1,0 +1,4 @@
+Name=AK TROY Full Length Rail handguard & gas tube combo
+Itemtype=Gas block
+Recoil=-4.5
+Ergonomics=+10

@@ -1,0 +1,4 @@
+Name=AI AXMC AX KeySlot 16 inch handguard
+Itemtype=Handguard
+Recoil=-2
+Ergonomics=+8

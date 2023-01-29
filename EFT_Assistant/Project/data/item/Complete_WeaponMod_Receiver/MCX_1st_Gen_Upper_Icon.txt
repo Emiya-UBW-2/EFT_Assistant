@@ -1,0 +1,4 @@
+Name=MCX GEN1 .300 BLK upper receiver
+Itemtype=Receiver
+Recoil=0
+Ergonomics=+5

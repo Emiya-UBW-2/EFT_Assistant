@@ -1,0 +1,4 @@
+Name=AR-10 KAC Low Profile Gas Block
+Itemtype=Gas block
+Recoil=-2
+Ergonomics=-1

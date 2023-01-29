@@ -1,0 +1,4 @@
+Name=MP9 9x19 upper receiver
+Itemtype=Receiver
+Recoil=0
+Ergonomics=+8

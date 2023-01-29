@@ -1,0 +1,4 @@
+Name=AR-10 CMMG low profile gas block
+Itemtype=Gas block
+Recoil=-3
+Ergonomics=-1

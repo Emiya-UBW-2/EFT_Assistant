@@ -1,0 +1,4 @@
+Name=AR-15 Vltor MUR-1S 5.56x45 upper receiver
+Itemtype=Receiver
+Recoil=-4
+Ergonomics=+8

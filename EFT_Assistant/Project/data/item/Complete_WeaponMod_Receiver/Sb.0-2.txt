@@ -1,0 +1,4 @@
+Name=SOK-12 dust cover (Sb.0-2)
+Itemtype=Receiver
+Recoil=0
+Ergonomics=+2

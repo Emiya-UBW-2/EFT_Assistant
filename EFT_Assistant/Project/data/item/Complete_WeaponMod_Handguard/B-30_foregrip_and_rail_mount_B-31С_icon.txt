@@ -1,0 +1,4 @@
+Name=AK Zenit B-30 handguard with B-31S upper handguard rail
+Itemtype=Handguard
+Recoil=-3
+Ergonomics=+7

@@ -1,0 +1,4 @@
+Name=VPO-101 "Vepr-Hunter" gas tube
+Itemtype=Gas block
+Recoil=0
+Ergonomics=0

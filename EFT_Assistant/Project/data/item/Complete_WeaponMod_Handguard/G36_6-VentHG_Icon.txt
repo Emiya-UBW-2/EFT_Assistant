@@ -1,0 +1,4 @@
+Name=HK G36 6-vent handguard
+Itemtype=Handguard
+Recoil=-2
+Ergonomics=+7

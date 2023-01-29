@@ -1,0 +1,4 @@
+Name=AK TDI X47 tactical handguard rail system
+Itemtype=Handguard
+Recoil=-3
+Ergonomics=+10

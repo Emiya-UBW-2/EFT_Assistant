@@ -1,0 +1,4 @@
+Name=AK Strike Industries TRAX 1 handguard
+Itemtype=Handguard
+Recoil=-2
+Ergonomics=+6

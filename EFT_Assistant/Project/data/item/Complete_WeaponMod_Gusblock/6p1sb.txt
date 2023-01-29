@@ -1,0 +1,4 @@
+Name=AKM gas tube (6P1 Sb.1-2)
+Itemtype=Gas block
+Recoil=0
+Ergonomics=0

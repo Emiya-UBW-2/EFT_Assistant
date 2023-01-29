@@ -1,0 +1,4 @@
+Name=AR-15 Tactical Dynamics Hexgrip pistol grip
+Itemtype=Pistol grip
+Recoil=0
+Ergonomics=+7

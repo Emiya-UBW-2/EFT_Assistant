@@ -1,0 +1,4 @@
+Name=AR-15 Geissele SMR MK16 9.5 inch M-LOK handguard
+Itemtype=Handguard
+Recoil=0
+Ergonomics=+8

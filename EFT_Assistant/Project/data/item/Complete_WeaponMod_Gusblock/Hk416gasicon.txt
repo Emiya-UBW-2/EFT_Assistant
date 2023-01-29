@@ -1,0 +1,4 @@
+Name=HK 416A5 low profile gas block
+Itemtype=Gas block
+Recoil=0
+Ergonomics=0

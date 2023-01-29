@@ -1,0 +1,4 @@
+Name=P226 Axelson Tactical MK25 pistol slide
+Itemtype=Receiver
+Recoil=-4
+Ergonomics=+4

@@ -1,0 +1,4 @@
+Name=AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo(white)
+Itemtype=Gas block
+Recoil=-4
+Ergonomics=+14

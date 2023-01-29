@@ -1,0 +1,4 @@
+Name=AK Magpul Zhukov-U handguard(plum)
+Itemtype=Handguard
+Recoil=-1
+Ergonomics=+14

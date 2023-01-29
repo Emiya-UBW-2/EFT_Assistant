@@ -1,0 +1,4 @@
+Name=SA-58 Extreme Duty dust cover
+Itemtype=Receiver
+Recoil=0
+Ergonomics=+4

@@ -1,4 +1,0 @@
-Name=AR-15 ADAR 2-15 wooden handguard
-Itemtype=Handguard
-Recoil=0
-Ergonomics=0

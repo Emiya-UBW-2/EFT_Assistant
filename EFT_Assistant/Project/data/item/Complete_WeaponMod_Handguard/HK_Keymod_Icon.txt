@@ -1,0 +1,4 @@
+Name=HK 416A5 MRS KeyMod 14 inch handguard
+Itemtype=Handguard
+Recoil=-3
+Ergonomics=+6

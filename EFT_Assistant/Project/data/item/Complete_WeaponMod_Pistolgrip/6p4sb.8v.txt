@@ -1,0 +1,4 @@
+Name=AK bakelite pistol grip (6P1 Sb.8V)
+Itemtype=Pistol grip
+Recoil=0
+Ergonomics=+6

@@ -1,0 +1,4 @@
+Name=SOK-12 Bravo-18 aluminium handguard
+Itemtype=Handguard
+Recoil=-3
+Ergonomics=+5

@@ -1,0 +1,4 @@
+Name=AK Hexagon tubular handguard(black)
+Itemtype=Handguard
+Recoil=-3
+Ergonomics=+15

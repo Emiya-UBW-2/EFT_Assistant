@@ -1,0 +1,4 @@
+Name=AK AKademia Bastion dust cover
+Itemtype=Receiver
+Recoil=-1
+Ergonomics=+5

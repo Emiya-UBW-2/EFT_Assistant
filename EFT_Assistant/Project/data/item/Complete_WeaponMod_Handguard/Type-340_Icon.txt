@@ -1,0 +1,4 @@
+Name=SOK-12 Custom Guns Type-340 handguard
+Itemtype=Handguard
+Recoil=-2
+Ergonomics=+10

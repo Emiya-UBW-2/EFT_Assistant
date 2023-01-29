@@ -1,4 +1,0 @@
-Name=Reptilia ROF-90 RMR mount for Geissele scope mounts
-Itemtype=Mount
-Recoil=0
-Ergonomics=0

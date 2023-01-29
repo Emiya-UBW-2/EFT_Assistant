@@ -1,0 +1,4 @@
+Name=MP-133 custom plastic forestock with rails
+Itemtype=Handguard
+Recoil=-1
+Ergonomics=+4

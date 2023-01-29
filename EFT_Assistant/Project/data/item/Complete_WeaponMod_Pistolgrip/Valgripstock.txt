@@ -1,0 +1,4 @@
+Name=AS VAL Rotor 43 pistol grip & buffer tube
+Itemtype=Pistol grip
+Recoil=0
+Ergonomics=+5

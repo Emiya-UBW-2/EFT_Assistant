@@ -1,0 +1,4 @@
+Name=AK TDI AKM-L handguard(Anodized Red)
+Itemtype=Handguard
+Recoil=0
+Ergonomics=+6

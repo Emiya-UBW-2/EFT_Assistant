@@ -1,0 +1,4 @@
+Name=SOK-12 Leapers UTG PRO MTU002 Short Top aluminum handguard
+Itemtype=Handguard
+Recoil=-3
+Ergonomics=+2

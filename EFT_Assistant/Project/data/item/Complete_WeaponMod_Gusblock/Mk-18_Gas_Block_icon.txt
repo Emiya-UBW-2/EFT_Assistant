@@ -1,0 +1,4 @@
+Name=Mk-18 gas block
+Itemtype=Gas block
+Recoil=0
+Ergonomics=0

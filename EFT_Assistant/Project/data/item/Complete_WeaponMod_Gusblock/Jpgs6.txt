@@ -1,0 +1,4 @@
+Name=AR-10 JP Enterprises Gas System-6
+Itemtype=Gas block
+Recoil=-4
+Ergonomics=-2

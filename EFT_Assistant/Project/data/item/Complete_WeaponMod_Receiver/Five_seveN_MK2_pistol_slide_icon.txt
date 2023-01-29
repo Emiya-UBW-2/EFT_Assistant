@@ -1,0 +1,4 @@
+Name=FN Five-seveN MK2 pistol slide
+Itemtype=Receiver
+Recoil=0
+Ergonomics=+3

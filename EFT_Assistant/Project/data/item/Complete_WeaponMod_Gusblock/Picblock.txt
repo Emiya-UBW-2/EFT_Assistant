@@ -1,0 +1,4 @@
+Name=AR-15 Windham Weaponry Rail Gas Block
+Itemtype=Gas block
+Recoil=-2
+Ergonomics=0

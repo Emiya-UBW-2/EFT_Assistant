@@ -1,0 +1,4 @@
+Name=MDR pistol grip(black)
+Itemtype=Pistol grip
+Recoil=0
+Ergonomics=+5

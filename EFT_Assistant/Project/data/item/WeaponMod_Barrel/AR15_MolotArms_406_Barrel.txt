@@ -1,4 +1,0 @@
-Name=AR-15 5.56x45 Molot Arms 406mm barrel
-Itemtype=Barrel
-Recoil=0
-Ergonomics=0

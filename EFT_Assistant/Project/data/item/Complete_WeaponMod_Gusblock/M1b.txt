@@ -1,0 +1,4 @@
+Name=AK UltiMAK M1-B gas tube & handguard
+Itemtype=Gas block
+Recoil=-1
+Ergonomics=+6

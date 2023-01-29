@@ -1,0 +1,4 @@
+Name=P226 Stainless Elite Wooden pistol grip
+Itemtype=Pistol grip
+Recoil=0
+Ergonomics=+8

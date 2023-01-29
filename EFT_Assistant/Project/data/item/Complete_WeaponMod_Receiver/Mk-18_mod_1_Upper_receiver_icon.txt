@@ -1,0 +1,4 @@
+Name=Mk-18 .338 LM upper receiver
+Itemtype=Receiver
+Recoil=-1
+Ergonomics=+6

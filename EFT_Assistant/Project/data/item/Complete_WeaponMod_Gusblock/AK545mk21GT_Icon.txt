@@ -1,0 +1,4 @@
+Name=AK-545 SAG Mk. 2.1 gas tube
+Itemtype=Gas block
+Recoil=0
+Ergonomics=0

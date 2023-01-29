@@ -1,0 +1,4 @@
+Name=AR-15 Magpul MOE pistol grip(FDE)
+Itemtype=Pistol grip
+Recoil=0
+Ergonomics=+10

@@ -1,0 +1,4 @@
+Name=MPX Midwest Industries 4.5 inch M-LOK handguard
+Itemtype=Handguard
+Recoil=0
+Ergonomics=+15

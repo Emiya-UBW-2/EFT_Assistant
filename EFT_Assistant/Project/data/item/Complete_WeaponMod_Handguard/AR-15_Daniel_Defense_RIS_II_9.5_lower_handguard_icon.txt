@@ -1,0 +1,4 @@
+Name=AR-15 Daniel Defense RIS II 9.5 lower handguard (Coyote Brown)
+Itemtype=Handguard
+Recoil=-1
+Ergonomics=+5

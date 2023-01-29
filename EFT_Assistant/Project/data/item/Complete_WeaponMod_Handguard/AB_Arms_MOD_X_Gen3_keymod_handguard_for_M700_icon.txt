@@ -1,0 +1,4 @@
+Name=M700 AB Arms MOD*X GEN 3 KeyMod handguard
+Itemtype=Handguard
+Recoil=-3
+Ergonomics=+10

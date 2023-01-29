@@ -1,0 +1,4 @@
+Name=AR-15 HK Ergo PSG-1 style pistol grip
+Itemtype=Pistol grip
+Recoil=0
+Ergonomics=+15

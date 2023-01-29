@@ -1,0 +1,4 @@
+Name=AR-15 War Sport LVOA-C handguard (Black)
+Itemtype=Handguard
+Recoil=-2
+Ergonomics=+10

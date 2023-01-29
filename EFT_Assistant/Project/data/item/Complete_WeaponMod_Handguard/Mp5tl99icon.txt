@@ -1,0 +1,4 @@
+Name=HK MP5 B&T TL-99 aluminum handguard
+Itemtype=Handguard
+Recoil=0
+Ergonomics=+6

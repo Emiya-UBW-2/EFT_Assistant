@@ -1,0 +1,4 @@
+Name=SV-98 CNC Guns OV-SV98 KeyMod handguard
+Itemtype=Handguard
+Recoil=-2
+Ergonomics=+9

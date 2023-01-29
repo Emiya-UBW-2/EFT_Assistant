@@ -1,0 +1,4 @@
+Name=AK 5.45 Design Aggressor handguard
+Itemtype=Handguard
+Recoil=-3
+Ergonomics=+5

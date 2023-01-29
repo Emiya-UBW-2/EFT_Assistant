@@ -1,0 +1,4 @@
+Name=HK 416A5 5.56x45 upper receiver
+Itemtype=Receiver
+Recoil=-1
+Ergonomics=+6

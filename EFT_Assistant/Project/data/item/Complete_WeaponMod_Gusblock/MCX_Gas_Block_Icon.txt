@@ -1,0 +1,4 @@
+Name=MCX gas block
+Itemtype=Gas block
+Recoil=-3
+Ergonomics=-1

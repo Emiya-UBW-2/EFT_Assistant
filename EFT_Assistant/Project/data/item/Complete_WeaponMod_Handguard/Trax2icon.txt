@@ -1,0 +1,4 @@
+Name=AK Strike Industries TRAX 2 handguard extension
+Itemtype=Handguard
+Recoil=-1
+Ergonomics=+5

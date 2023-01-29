@@ -1,0 +1,4 @@
+Name=HK 416A5 Midwest Industries 13.5 inch M-LOK handguard
+Itemtype=Handguard
+Recoil=-1
+Ergonomics=+10

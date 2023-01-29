@@ -1,0 +1,4 @@
+Name=AR-15 JP Enterprises Gas System-5B
+Itemtype=Gas block
+Recoil=-3
+Ergonomics=-1

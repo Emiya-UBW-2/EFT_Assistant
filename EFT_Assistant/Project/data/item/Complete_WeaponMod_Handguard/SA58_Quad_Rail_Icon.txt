@@ -1,0 +1,4 @@
+Name=SA-58 quad rail handguard
+Itemtype=Handguard
+Recoil=0
+Ergonomics=+7

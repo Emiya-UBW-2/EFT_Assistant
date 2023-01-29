@@ -1,0 +1,4 @@
+Name=AR-15 Daniel Defense MK12 Low Profile Gas Block
+Itemtype=Gas block
+Recoil=-2
+Ergonomics=+1

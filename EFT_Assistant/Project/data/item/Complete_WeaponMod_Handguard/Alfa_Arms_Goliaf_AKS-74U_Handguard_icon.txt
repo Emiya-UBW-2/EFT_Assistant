@@ -1,0 +1,4 @@
+Name=AKS-74U Alfa Arms Goliaf handguard
+Itemtype=Handguard
+Recoil=-1
+Ergonomics=+3

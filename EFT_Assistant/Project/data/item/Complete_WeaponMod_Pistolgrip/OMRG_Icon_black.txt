@@ -1,0 +1,4 @@
+Name=Hogue OverMolded Rubber Grip(black)
+Itemtype=Pistol grip
+Recoil=0
+Ergonomics=+9

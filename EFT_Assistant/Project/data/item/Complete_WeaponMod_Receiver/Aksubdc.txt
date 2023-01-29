@@ -1,0 +1,4 @@
+Name=AKS-74UB dust cover
+Itemtype=Receiver
+Recoil=0
+Ergonomics=+5

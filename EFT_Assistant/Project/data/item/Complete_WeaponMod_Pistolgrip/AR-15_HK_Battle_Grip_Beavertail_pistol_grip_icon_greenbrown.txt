@@ -1,0 +1,4 @@
+Name=AR-15 HK Battle Grip Beavertail pistol grip(green brown)
+Itemtype=Pistol grip
+Recoil=0
+Ergonomics=+7

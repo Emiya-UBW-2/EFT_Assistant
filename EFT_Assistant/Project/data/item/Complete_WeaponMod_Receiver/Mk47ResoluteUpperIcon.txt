@@ -1,0 +1,4 @@
+Name=Mk47 Resolute 7.62x39 upper receiver
+Itemtype=Receiver
+Recoil=-1
+Ergonomics=+4

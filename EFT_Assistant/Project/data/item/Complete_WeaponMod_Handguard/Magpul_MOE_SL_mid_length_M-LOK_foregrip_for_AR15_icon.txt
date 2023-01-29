@@ -1,0 +1,4 @@
+Name=AR-15 Magpul MOE SL medium length M-LOK handguard
+Itemtype=Handguard
+Recoil=-1
+Ergonomics=+10

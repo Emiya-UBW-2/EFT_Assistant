@@ -1,0 +1,4 @@
+Name=SVD SAG MK1 chassis
+Itemtype=Handguard
+Recoil=-3
+Ergonomics=+11

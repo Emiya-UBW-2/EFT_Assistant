@@ -1,0 +1,4 @@
+Name=AK Zenit B-33 dust cover
+Itemtype=Receiver
+Recoil=-1.5
+Ergonomics=+7

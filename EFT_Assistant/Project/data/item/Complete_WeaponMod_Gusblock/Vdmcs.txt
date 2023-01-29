@@ -1,0 +1,4 @@
+Name=AK Kiba Arms VDM CS gas tube
+Itemtype=Gas block
+Recoil=0
+Ergonomics=0

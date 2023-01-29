@@ -1,0 +1,4 @@
+Name=AR-15 Noveske Gen.3 5.56x45 upper receiver
+Itemtype=Receiver
+Recoil=-2
+Ergonomics=+13

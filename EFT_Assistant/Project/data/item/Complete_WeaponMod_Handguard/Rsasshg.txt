@@ -1,0 +1,4 @@
+Name=R11 RSASS handguard
+Itemtype=Handguard
+Recoil=-2
+Ergonomics=+5

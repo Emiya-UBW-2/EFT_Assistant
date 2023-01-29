@@ -1,0 +1,4 @@
+Name=SVDS gas tube
+Itemtype=Gas block
+Recoil=-2
+Ergonomics=0

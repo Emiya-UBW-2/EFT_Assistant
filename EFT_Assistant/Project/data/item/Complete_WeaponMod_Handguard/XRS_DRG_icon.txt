@@ -1,0 +1,4 @@
+Name=SVD CAA XRS-DRG handguard
+Itemtype=Handguard
+Recoil=-1
+Ergonomics=+7

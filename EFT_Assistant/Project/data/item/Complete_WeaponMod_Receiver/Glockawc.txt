@@ -1,0 +1,4 @@
+Name=Glock Lone Wolf AlphaWolf Custom pistol slide
+Itemtype=Receiver
+Recoil=-1
+Ergonomics=+4

@@ -1,0 +1,4 @@
+Name=AR-15 Soyuz-TM 12 inch M-LOK handguard
+Itemtype=Handguard
+Recoil=0
+Ergonomics=+6.5

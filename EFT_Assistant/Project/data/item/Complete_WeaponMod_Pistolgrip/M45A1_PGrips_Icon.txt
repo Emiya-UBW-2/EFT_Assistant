@@ -1,0 +1,4 @@
+Name=M45A1 Mil-Tac GVT G10 side grips
+Itemtype=Pistol grip
+Recoil=0
+Ergonomics=+5

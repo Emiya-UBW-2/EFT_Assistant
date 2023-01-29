@@ -1,0 +1,4 @@
+Name=Mk-18 18 inch handguard
+Itemtype=Handguard
+Recoil=0
+Ergonomics=+7

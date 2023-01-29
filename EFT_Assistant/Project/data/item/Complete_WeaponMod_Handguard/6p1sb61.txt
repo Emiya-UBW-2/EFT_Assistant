@@ -1,0 +1,4 @@
+Name=AKM wooden handguard (6P1 Sb.6-1)
+Itemtype=Handguard
+Recoil=0
+Ergonomics=+4

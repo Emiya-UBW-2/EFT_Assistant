@@ -1,0 +1,4 @@
+Name=PP-19-01 "Vityaz" gas tube
+Itemtype=Gas block
+Recoil=0
+Ergonomics=0

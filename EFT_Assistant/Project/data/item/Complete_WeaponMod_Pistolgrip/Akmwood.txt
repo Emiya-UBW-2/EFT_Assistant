@@ -1,0 +1,4 @@
+Name=AKM wooden pistol grip
+Itemtype=Pistol grip
+Recoil=0
+Ergonomics=+6

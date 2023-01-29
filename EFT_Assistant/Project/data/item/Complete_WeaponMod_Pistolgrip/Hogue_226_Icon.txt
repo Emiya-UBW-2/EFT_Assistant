@@ -1,0 +1,4 @@
+Name=P226 Hogue Rubberized pistol grip
+Itemtype=Pistol grip
+Recoil=0
+Ergonomics=+10

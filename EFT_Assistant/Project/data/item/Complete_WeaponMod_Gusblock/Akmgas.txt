@@ -1,0 +1,4 @@
+Name=Molot AKM-type gas tube
+Itemtype=Gas block
+Recoil=0
+Ergonomics=0

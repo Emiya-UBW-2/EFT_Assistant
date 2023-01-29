@@ -1,0 +1,4 @@
+Name=AR-15 Daniel Defense RIS II 9.5 handguard(black)
+Itemtype=Handguard
+Recoil=0
+Ergonomics=+2

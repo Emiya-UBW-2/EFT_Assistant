@@ -1,0 +1,4 @@
+Name=AK Zenit B-10M handguard with B-19 upper mount
+Itemtype=Handguard
+Recoil=-2
+Ergonomics=+9

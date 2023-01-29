@@ -1,0 +1,4 @@
+Name=PP-91 "Kedr" polymer pistol grip
+Itemtype=Pistol grip
+Recoil=0
+Ergonomics=+5

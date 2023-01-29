@@ -1,0 +1,4 @@
+Name=MP-133 beechwood forestock
+Itemtype=Handguard
+Recoil=0
+Ergonomics=+5

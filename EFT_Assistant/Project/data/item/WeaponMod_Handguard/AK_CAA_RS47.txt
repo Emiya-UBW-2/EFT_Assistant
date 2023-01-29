@@ -1,4 +1,0 @@
-Name=AK CAA RS47 handguard
-Itemtype=Handguard
-Recoil=0
-Ergonomics=0

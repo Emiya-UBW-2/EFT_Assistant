@@ -1,0 +1,4 @@
+Name=AK-74 dust cover (6P20 0-1)
+Itemtype=Receiver
+Recoil=0
+Ergonomics=+5

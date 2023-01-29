@@ -1,0 +1,4 @@
+Name=AR-15 Strike Industries Viper carbine length M-LOK handguard(FDE)
+Itemtype=Handguard
+Recoil=0
+Ergonomics=+3

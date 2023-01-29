@@ -1,0 +1,4 @@
+Name=MCX GEN1 KeyMod 12 inch handguard
+Itemtype=Handguard
+Recoil=-1
+Ergonomics=+6

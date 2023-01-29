@@ -1,0 +1,4 @@
+Name=HK MP5K polymer handguard
+Itemtype=Handguard
+Recoil=-3
+Ergonomics=+12

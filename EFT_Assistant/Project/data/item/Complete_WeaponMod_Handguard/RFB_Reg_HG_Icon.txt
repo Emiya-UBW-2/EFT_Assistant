@@ -1,0 +1,4 @@
+Name=RFB handguard
+Itemtype=Handguard
+Recoil=-2
+Ergonomics=+16

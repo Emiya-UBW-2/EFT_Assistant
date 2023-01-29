@@ -1,0 +1,4 @@
+Name=P226 Legion full size pistol slide
+Itemtype=Receiver
+Recoil=-1
+Ergonomics=+2

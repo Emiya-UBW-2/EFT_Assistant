@@ -1,0 +1,4 @@
+Name=RD-704 SLR ION Lite + Railed Gas Tube handguard & gas tube combo
+Itemtype=Gas block
+Recoil=-5
+Ergonomics=+9

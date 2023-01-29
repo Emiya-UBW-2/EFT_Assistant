@@ -1,0 +1,4 @@
+Name=MDR handguard(black)
+Itemtype=Handguard
+Recoil=-1
+Ergonomics=+9

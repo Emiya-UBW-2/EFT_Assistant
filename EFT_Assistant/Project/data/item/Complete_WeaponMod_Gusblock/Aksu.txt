@@ -1,0 +1,4 @@
+Name=AKS-74U gas tube (6P26 Sb.1-2)
+Itemtype=Gas block
+Recoil=0
+Ergonomics=0

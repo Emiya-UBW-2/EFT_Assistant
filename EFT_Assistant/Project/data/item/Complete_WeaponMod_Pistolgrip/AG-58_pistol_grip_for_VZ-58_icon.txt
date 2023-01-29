@@ -1,0 +1,4 @@
+Name=SKS/VZ-58 FAB Defense AG-58 pistol grip
+Itemtype=Pistol grip
+Recoil=0
+Ergonomics=+12

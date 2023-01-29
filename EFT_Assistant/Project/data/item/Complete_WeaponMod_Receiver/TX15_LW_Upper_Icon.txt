@@ -1,0 +1,4 @@
+Name=TX-15 5.56x45 Lightweight upper receiver
+Itemtype=Receiver
+Recoil=-2
+Ergonomics=+6

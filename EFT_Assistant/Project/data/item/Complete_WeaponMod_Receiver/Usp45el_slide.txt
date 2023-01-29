@@ -1,0 +1,4 @@
+Name=HK USP Elite .45 ACP pistol slide
+Itemtype=Receiver
+Recoil=-4
+Ergonomics=+2

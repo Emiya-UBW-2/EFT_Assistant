@@ -1,0 +1,4 @@
+Name=M870 FAB Defense PR-870 forestock
+Itemtype=Handguard
+Recoil=0
+Ergonomics=+5

@@ -1,0 +1,4 @@
+Name=Benelli M3 telescopic stock pistol grip
+Itemtype=Pistol grip
+Recoil=0
+Ergonomics=+10

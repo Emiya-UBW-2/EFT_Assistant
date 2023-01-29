@@ -1,0 +1,4 @@
+Name=ORSIS T-5000M handguard
+Itemtype=Handguard
+Recoil=-2
+Ergonomics=+11

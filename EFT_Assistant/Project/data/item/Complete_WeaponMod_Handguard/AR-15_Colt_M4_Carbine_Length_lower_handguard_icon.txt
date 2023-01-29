@@ -1,0 +1,4 @@
+Name=AR-15 Colt M4 Carbine Length lower handguard
+Itemtype=Handguard
+Recoil=0
+Ergonomics=+7

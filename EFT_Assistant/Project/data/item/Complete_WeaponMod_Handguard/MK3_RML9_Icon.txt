@@ -1,0 +1,4 @@
+Name=AR-10 CMMG MK3 RML9 9 inch M-LOK handguard
+Itemtype=Handguard
+Recoil=0
+Ergonomics=+6

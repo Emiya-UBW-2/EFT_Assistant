@@ -1,0 +1,4 @@
+Name=SVDS polymer handguard
+Itemtype=Handguard
+Recoil=0
+Ergonomics=+6

@@ -1,0 +1,4 @@
+Name=M4A1 front sight with gas block
+Itemtype=Gas block
+Recoil=0
+Ergonomics=-1

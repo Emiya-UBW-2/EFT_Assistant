@@ -1,0 +1,4 @@
+Name=P226 Stainless Elite pistol slide
+Itemtype=Receiver
+Recoil=-1
+Ergonomics=+3

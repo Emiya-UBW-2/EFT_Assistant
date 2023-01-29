@@ -1,0 +1,4 @@
+Name=AR-15 SAI 14.5 inch QD Rail handguard
+Itemtype=Handguard
+Recoil=-3
+Ergonomics=+12

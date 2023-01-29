@@ -1,0 +1,4 @@
+Name=AK Vltor CMRD KeyMod handguard
+Itemtype=Handguard
+Recoil=-4
+Ergonomics=+10

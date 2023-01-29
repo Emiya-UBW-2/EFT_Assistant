@@ -1,0 +1,4 @@
+Name=M9A3 polymer side grips
+Itemtype=Pistol grip
+Recoil=0
+Ergonomics=+4

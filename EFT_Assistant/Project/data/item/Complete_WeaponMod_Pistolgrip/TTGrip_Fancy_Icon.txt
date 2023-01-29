@@ -1,0 +1,4 @@
+Name=TT ornated side grips
+Itemtype=Pistol grip
+Recoil=0
+Ergonomics=+5

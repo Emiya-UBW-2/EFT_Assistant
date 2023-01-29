@@ -1,0 +1,4 @@
+Name=MCX GEN1 KeyMod 8 inch handguard
+Itemtype=Handguard
+Recoil=0
+Ergonomics=+9

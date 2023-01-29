@@ -1,0 +1,4 @@
+Name=PPSh-41 dust cover
+Itemtype=Receiver
+Recoil=-2
+Ergonomics=+3

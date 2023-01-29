@@ -1,0 +1,4 @@
+Name=AR-15 Aeroknox AX-15 10.5 inch M-LOK handguard
+Itemtype=Handguard
+Recoil=0
+Ergonomics=+9

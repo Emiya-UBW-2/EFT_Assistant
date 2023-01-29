@@ -1,0 +1,4 @@
+Name=AR-15 KAC URX 3 8 inch lower handguard
+Itemtype=Handguard
+Recoil=-1
+Ergonomics=+4
