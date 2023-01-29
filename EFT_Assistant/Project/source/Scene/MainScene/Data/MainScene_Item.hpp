@@ -175,12 +175,39 @@ namespace FPS_n2 {
 		auto* WindowMngr = WindowSystem::WindowManager::Instance();
 		int xs = xsize;
 		int  Xsize = 0;
+
+		int xg = 0;
+		if (GetIcon().GetGraph()) {
+			xg = (GetIcon().GetXSize() >= GetIcon().GetYSize())
+				? (ysize * GetIcon().GetXSize() / GetIcon().GetYSize())
+				: (ysize * GetIcon().GetYSize() / GetIcon().GetXSize());
+		}
+
+		auto Name = this->GetName();
 		{
-			if (count > 0) {
-				Xsize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, "%s x%2d", this->GetName().c_str(), count);
+			if (xsize > 0) {
+				while (true) {
+					if (count > 0) {
+						Xsize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, "%s x%2d", Name.c_str(), count);
+					}
+					else {
+						Xsize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, "%s", Name.c_str());
+					}
+					if ((xs - xg) < Xsize) {
+						Name = Name.substr(0, Name.size() * (xs - xg) / Xsize - 2) + "c";
+					}
+					else {
+						break;
+					}
+				}
 			}
 			else {
-				Xsize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, "%s", this->GetName().c_str());
+				if (count > 0) {
+					Xsize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, "%s x%2d", Name.c_str(), count);
+				}
+				else {
+					Xsize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, "%s", Name.c_str());
+				}
 			}
 			xs = std::max(xs, Xsize);
 		}
@@ -209,19 +236,17 @@ namespace FPS_n2 {
 			}
 		}
 		if (count > 0) {
-			WindowSystem::SetMsg(xp, yp, xp, yp + ysize, LineHeight * 9 / 10, STR_LEFT, White, Black, "%s x%2d", this->GetName().c_str(), count);
+			WindowSystem::SetMsg(xp, yp, xp, yp + ysize, LineHeight * 9 / 10, STR_LEFT, White, Black, "%s x%2d", Name.c_str(), count);
 		}
 		else {
-			WindowSystem::SetMsg(xp, yp, xp, yp + ysize, LineHeight * 9 / 10, STR_LEFT, White, Black, "%s", this->GetName().c_str());
+			WindowSystem::SetMsg(xp, yp, xp, yp + ysize, LineHeight * 9 / 10, STR_LEFT, White, Black, "%s", Name.c_str());
 		}
 		if (GetIcon().GetGraph()) {
 			xp += Xsize;
 			float Scale = (float)ysize / (float)(std::min(GetIcon().GetXSize(), GetIcon().GetYSize()));
 			float rad = (GetIcon().GetXSize() >= GetIcon().GetYSize()) ? deg2rad(0) : deg2rad(90);
 			DrawControl::Instance()->SetDrawRotaGraph(GetIcon().GetGraph(), xp + (int)(((float)GetIcon().GetXSize() * std::cos(rad) + (float)GetIcon().GetYSize() * std::sin(rad)) / 2.f * Scale), yp + ysize / 2, Scale, rad, false);
-			if (GetIcon().GetGraph()) {
-				Xsize += (ysize * GetIcon().GetXSize() / GetIcon().GetYSize());
-			}
+			Xsize += xg;
 		}
 		return Xsize;
 	}
