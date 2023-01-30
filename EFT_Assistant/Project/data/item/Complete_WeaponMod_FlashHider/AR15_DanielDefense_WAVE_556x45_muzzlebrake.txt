@@ -1,4 +1,5 @@
 Name=AR-15 Daniel Defense WAVE 5.56x45 muzzle brake
 Itemtype=Flash hider/muzzle brake
+ChildParts=[Daniel Defense WAVE QD sound suppressor]
 Recoil=-9
 Ergonomics=-1

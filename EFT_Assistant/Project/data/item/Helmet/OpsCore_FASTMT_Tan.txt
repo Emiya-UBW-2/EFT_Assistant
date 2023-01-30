@@ -1,2 +1,2 @@
-Name=Ops-Core FAST MT Super High Cut helmet(Tan)
+Name=Ops-Core FAST MT Super High Cut helmet (Tan)
 Itemtype=Helmet

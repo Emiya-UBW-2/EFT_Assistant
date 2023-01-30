@@ -1,4 +1,5 @@
 Name=AR-15 Colt M4 Carbine Length handguard
 Itemtype=Handguard
+ChildParts=[AR-15 Colt M4 Carbine Length lower handguard]
 Recoil=0
 Ergonomics=+2

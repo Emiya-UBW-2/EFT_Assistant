@@ -1,4 +1,5 @@
 Name=AR-15 KAC QDC 5.56x45 Flash Suppressor Kit
 Itemtype=Flash hider/muzzle brake
+ChildParts=[KAC QDSS NT-4 5.56x45 sound suppressor (Black),KAC QDSS NT-4 5.56x45 sound suppressor (FDE)]
 Recoil=-8
 Ergonomics=-1

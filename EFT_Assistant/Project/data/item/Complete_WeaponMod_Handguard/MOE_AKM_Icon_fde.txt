@@ -1,4 +1,4 @@
-Name=AK Magpul MOE AKM handguard(FDE)
+Name=AK Magpul MOE AKM handguard (FDE)
 Itemtype=Handguard
 Recoil=-2
 Ergonomics=+10

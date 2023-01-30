@@ -1,4 +1,6 @@
 Name=AR-15 Magpul MOE SL medium length M-LOK handguard
 Itemtype=Handguard
+ChildParts=[Magpul M-LOK 2.5 inch rail,Magpul M-LOK Cantilever Mount,Magpul M-LOK Offset Light Mount]
+ChildParts=[Magpul M-LOK AFG tactical foregrip (Black),Magpul M-LOK AFG tactical foregrip (FDE),Magpul M-LOK AFG tactical foregrip (Olive Drab),Magpul M-LOK AFG tactical foregrip (Stealth Gray),Magpul M-LOK 4.1 inch rail]
 Recoil=-1
 Ergonomics=+10

@@ -1,2 +1,2 @@
-Name=Maska-1SCh bulletproof helmet(Olive Drab)
+Name=Maska-1SCh bulletproof helmet (Olive Drab)
 Itemtype=Helmet

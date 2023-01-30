@@ -1,4 +1,4 @@
-Name=Magpul AFG tactical foregrip(black)
+Name=Magpul AFG tactical foregrip (Black)
 Itemtype=Foregrip
 Recoil=-2
 Ergonomics=+6

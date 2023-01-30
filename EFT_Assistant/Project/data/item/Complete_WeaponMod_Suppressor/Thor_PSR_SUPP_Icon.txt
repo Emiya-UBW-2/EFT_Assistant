@@ -1,0 +1,4 @@
+Name=AWC Thor PSR XL multi-caliber sound suppressor
+Itemtype=Suppressor
+Recoil=-13
+Ergonomics=-26

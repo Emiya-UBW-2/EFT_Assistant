@@ -1,4 +1,4 @@
-Name=Hogue OverMolded Rubber Grip(ghillie green)
+Name=Hogue OverMolded Rubber Grip (Ghillie Green)
 Itemtype=Pistol grip
 Recoil=0
 Ergonomics=+9

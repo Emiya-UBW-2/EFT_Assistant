@@ -1,4 +1,4 @@
-Name=Magpul CTR Carbine stock(FDE)
+Name=Magpul CTR Carbine stock (FDE)
 Itemtype=Stock
 Recoil=-32
 Ergonomics=+10

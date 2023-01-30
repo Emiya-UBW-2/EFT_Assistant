@@ -1,4 +1,4 @@
-Name=EOTech HHS-1 hybrid sight(tan)
+Name=EOTech HHS-1 hybrid sight (Tan)
 Itemtype=Reflex sight
 Recoil=0
 Ergonomics=-3

@@ -1,4 +1,5 @@
 Name=AWC PSR .338 LM muzzle brake
 Itemtype=Flash hider/muzzle brake
+ChildParts=[AWC Thor PSR XL multi-caliber sound suppressor]
 Recoil=-14
 Ergonomics=-1

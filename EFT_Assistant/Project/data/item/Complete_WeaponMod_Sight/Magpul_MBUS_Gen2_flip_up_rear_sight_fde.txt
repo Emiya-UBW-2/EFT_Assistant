@@ -1,4 +1,4 @@
-Name=Magpul MBUS Gen2 flip-up rear sight(FDE)
+Name=Magpul MBUS Gen2 flip-up rear sight (FDE)
 Itemtype=Iron sight
 Recoil=0
 Ergonomics=+1

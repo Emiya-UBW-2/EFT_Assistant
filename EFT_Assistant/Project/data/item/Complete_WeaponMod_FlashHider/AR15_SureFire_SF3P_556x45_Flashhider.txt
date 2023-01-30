@@ -1,4 +1,5 @@
 Name=AR-15 SureFire SF3P 5.56x45 Flash hider
 Itemtype=Flash hider/muzzle brake
+ChildParts=[SureFire SOCOM556-MONSTER 5.56x45 sound suppressor,SureFire SOCOM556-MINI MONSTER 5.56x45 sound suppressor,SureFire SOCOM556-RC2 5.56x45 sound suppressor]
 Recoil=-8
 Ergonomics=-1

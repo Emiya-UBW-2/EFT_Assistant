@@ -1,4 +1,4 @@
-Name=FN SCAR cheek rest(FDE)
+Name=FN SCAR cheek rest (FDE)
 Itemtype=Stock
 Recoil=0
 Ergonomics=+5

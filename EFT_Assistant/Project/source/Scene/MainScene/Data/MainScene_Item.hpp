@@ -137,8 +137,12 @@ namespace FPS_n2 {
 					}
 				}
 				if (c.first == nullptr) {
-					std::string ErrMes = "Error : Not Setting ChildPartsID in Item ";
+					std::string ErrMes = "Error : Invalid ChildPartsID[";
 					ErrMes += GetName();
+					ErrMes += "][";
+					ErrMes += c.second;
+					ErrMes += "]";
+
 					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
 				}
 			}

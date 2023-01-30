@@ -1,4 +1,4 @@
-Name=AK KGB MG-47 pistol grip(Anodized Red)
+Name=AK KGB MG-47 pistol grip (Anodized Red)
 Itemtype=Pistol grip
 Recoil=0
 Ergonomics=+10

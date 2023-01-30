@@ -1,4 +1,4 @@
-Name=Hogue OverMolded Rubber Grip(ghillie earth)
+Name=Hogue OverMolded Rubber Grip (Ghillie Earth)
 Itemtype=Pistol grip
 Recoil=0
 Ergonomics=+9

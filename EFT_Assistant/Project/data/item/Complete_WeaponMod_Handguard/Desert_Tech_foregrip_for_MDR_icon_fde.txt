@@ -1,4 +1,4 @@
-Name=MDR handguard(FDE)
+Name=MDR handguard (FDE)
 Itemtype=Handguard
 Recoil=-1
 Ergonomics=+9

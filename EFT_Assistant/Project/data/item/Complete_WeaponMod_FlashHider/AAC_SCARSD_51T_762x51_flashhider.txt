@@ -1,4 +1,5 @@
 Name=AAC SCAR-SD 51T 7.62x51 flash hider
 Itemtype=Flash hider/muzzle brake
+ChildParts=[AAC 762-SDN-6 multi-caliber sound suppressor]
 Recoil=-7
 Ergonomics=-2

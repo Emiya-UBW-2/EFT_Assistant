@@ -1,4 +1,4 @@
-Name=AK Hexagon tubular handguard(Anodized Red)
+Name=AK Hexagon tubular handguard (Anodized Red)
 Itemtype=Handguard
 Recoil=-3
 Ergonomics=+15

@@ -99,8 +99,8 @@ namespace FPS_n2 {
 			int xp = 0;
 			int yp = LineHeight;
 			for (auto& m : m_Mes) {
-				WindowSystem::SetMsg(xp, yp, xp, yp, LineHeight, STR_LEFT, GetColor(255, 50, 50), GetColor(1, 1, 1), m);
-				yp += LineHeight;
+				WindowSystem::SetMsg(xp, yp, xp, yp, LineHeight * 7 / 10, STR_LEFT, GetColor(255, 150, 150), GetColor(1, 1, 1), m);
+				yp += LineHeight * 7 / 10;
 			}
 		}
 		void AddLog(const char* Mes) noexcept {

@@ -1,4 +1,9 @@
 Name=AR-15 STNGR VYPR 10 inch M-LOK handguard
 Itemtype=Handguard
+ChildParts=[Magpul M-LOK 2.5 inch rail,Magpul M-LOK Cantilever Mount,Magpul M-LOK Offset Light Mount]
+ChildParts=[Holosun LS321 Tactical device,AN/PEQ-15 tactical device,AN/PEQ-2 tactical device,LA-5B/PEQ tactical device,SureFire XC1 tactical flashlight,Zenit Perst-3 tactical device]
+ChildParts=[NcSTAR MPR45 Backup mount]
+ChildParts=[Magpul M-LOK 4.1 inch rail,Magpul M-LOK AFG tactical foregrip (Black),Magpul M-LOK AFG tactical foregrip (FDE),Magpul M-LOK AFG tactical foregrip (Olive Drab),Magpul M-LOK AFG tactical foregrip (Stealth Gray)]
+ChildParts=[HK MP7 flip-up front sight,KAC Folding front sight,Magpul MBUS Gen2 flip-up front sight,Magpul MBUS Gen2 flip-up front sight (FDE),MPX flip-up front sight]
 Recoil=-1
 Ergonomics=+8

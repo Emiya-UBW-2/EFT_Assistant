@@ -1,4 +1,4 @@
-Name=AK Magpul MOE AKM handguard(stealth gray)
+Name=AK Magpul MOE AKM handguard (Stealth Gray)
 Itemtype=Handguard
 Recoil=-2
 Ergonomics=+10

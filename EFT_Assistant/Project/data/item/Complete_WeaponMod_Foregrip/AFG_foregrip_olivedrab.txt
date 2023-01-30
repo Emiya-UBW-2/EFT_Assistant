@@ -1,4 +1,4 @@
-Name=Magpul AFG tactical foregrip(olive drab)
+Name=Magpul AFG tactical foregrip (Olive Drab)
 Itemtype=Foregrip
 Recoil=-2
 Ergonomics=+6

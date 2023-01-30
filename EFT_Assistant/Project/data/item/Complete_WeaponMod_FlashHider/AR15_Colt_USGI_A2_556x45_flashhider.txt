@@ -1,4 +1,5 @@
 Name=AR-15 Colt USGI A2 5.56x45 flash hider
 Itemtype=Flash hider/muzzle brake
+ChildParts=[AR-15 Griffin Armament M4SD-K 5.56x45 sound suppressor]
 Recoil=-7
 Ergonomics=-1

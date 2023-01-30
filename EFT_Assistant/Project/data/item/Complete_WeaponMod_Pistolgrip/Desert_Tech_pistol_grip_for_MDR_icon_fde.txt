@@ -1,4 +1,4 @@
-Name=MDR pistol grip(FDE)
+Name=MDR pistol grip (FDE)
 Itemtype=Pistol grip
 Recoil=0
 Ergonomics=+5

@@ -1,4 +1,4 @@
-Name=AK Strike Industries Enhanced Pistol Grip(black)
+Name=AK Strike Industries Enhanced Pistol Grip (Black)
 Itemtype=Pistol grip
 Recoil=0
 Ergonomics=+8

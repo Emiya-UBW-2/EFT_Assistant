@@ -1,4 +1,4 @@
-Name=Hexagon short length rail(Anodized Red)
+Name=Hexagon short length rail (Anodized Red)
 Itemtype=Mount
 Recoil=0
 Ergonomics=0

@@ -1,4 +1,4 @@
-Name=AK TAPCO SAW-Style pistol grip(black)
+Name=AK TAPCO SAW-Style pistol grip (Black)
 Itemtype=Pistol grip
 Recoil=0
 Ergonomics=+11

@@ -13,15 +13,17 @@ namespace FPS_n2 {
 			SetUseASyncLoadFlag(FALSE);
 		}
 		bool Update_Sub(void) noexcept override {
-			return (GetASyncLoadNum() > 0);
+			
+			return !(!GetIsFirstLoop() && (GetASyncLoadNum() == 0));
 		}
 		void Dispose_Sub(void) noexcept override {
 		}
 	public:
 		//UI•\Ž¦
 		void DrawUI_In_Sub(void) noexcept  override {
-			FontPool::Instance()->Get(FontPool::FontType::Nomal_Edge).DrawString(y_r(24), FontHandle::FontXCenter::MIDDLE, FontHandle::FontYCenter::MIDDLE,
-				y_r(960), y_r(540), GetColor(255, 255, 255), GetColor(0, 0, 0), "Loading...");
+			DrawBox(0, 0, y_r(1920), y_r(1080), GetColor(1, 1, 1), TRUE);
+			FontPool::Instance()->Get(FontPool::FontType::Nomal_Edge, y_r(64)).DrawString(-1, FontHandle::FontXCenter::MIDDLE, FontHandle::FontYCenter::MIDDLE,
+				y_r(960), y_r(540), GetColor(255, 255, 255), GetColor(1, 1, 1), "‹N“®’†...");
 		}
 	};
 };

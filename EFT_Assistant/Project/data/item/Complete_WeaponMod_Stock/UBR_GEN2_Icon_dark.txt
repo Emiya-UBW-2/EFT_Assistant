@@ -1,4 +1,4 @@
-Name=Magpul UBR GEN2 stock(dark)
+Name=Magpul UBR GEN2 stock (Black)
 Itemtype=Stock
 Recoil=-33
 Ergonomics=+7

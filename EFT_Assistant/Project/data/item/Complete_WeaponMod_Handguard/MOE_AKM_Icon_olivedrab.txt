@@ -1,4 +1,4 @@
-Name=AK Magpul MOE AKM handguard(olive drab)
+Name=AK Magpul MOE AKM handguard (Olive Drab)
 Itemtype=Handguard
 Recoil=-2
 Ergonomics=+10

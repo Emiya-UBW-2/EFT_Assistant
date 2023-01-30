@@ -1,4 +1,8 @@
 Name=AR-15 Aeroknox AX-15 10.5 inch M-LOK handguard
 Itemtype=Handguard
+ChildParts=[Magpul M-LOK 2.5 inch rail,Magpul M-LOK Cantilever Mount,Magpul M-LOK Offset Light Mount]
+ChildParts=[NcSTAR MPR45 Backup mount]
+ChildParts=[Magpul M-LOK AFG tactical foregrip (Black),Magpul M-LOK AFG tactical foregrip (FDE),Magpul M-LOK AFG tactical foregrip (Olive Drab),Magpul M-LOK AFG tactical foregrip (Stealth Gray),Magpul M-LOK 4.1 inch rail]
+ChildParts=[HK MP7 flip-up front sight,KAC Folding Micro front sight,KAC Folding front sight,KRISS Defiance low profile flip-up front sight,Magpul MBUS Gen2 flip-up front sight,Magpul MBUS Gen2 flip-up front sight (FDE),MCX flip-up front sight,MPX flip-up front sight,AR-15 Leapers UTG Low Profile A2 front sight]
 Recoil=0
 Ergonomics=+9

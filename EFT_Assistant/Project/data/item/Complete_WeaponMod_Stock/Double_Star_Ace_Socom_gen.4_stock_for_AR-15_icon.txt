@@ -1,4 +1,5 @@
 Name=AR-15 DoubleStar ACE SOCOM Gen.4 stock
 Itemtype=Stock
+ChildParts=[DoubleStar ACE recoil pad]
 Recoil=-32
 Ergonomics=+4

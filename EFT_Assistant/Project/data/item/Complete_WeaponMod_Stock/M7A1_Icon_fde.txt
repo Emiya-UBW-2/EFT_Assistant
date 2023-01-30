@@ -1,4 +1,4 @@
-Name=TROY M7A1 PDW stock
+Name=TROY M7A1 PDW stock (FDE)
 Itemtype=Stock
 Recoil=-26
 Ergonomics=+18

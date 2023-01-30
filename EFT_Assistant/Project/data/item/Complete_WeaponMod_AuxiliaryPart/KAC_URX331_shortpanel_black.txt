@@ -1,4 +1,4 @@
-Name=KAC URX 3/3.1 short panel(black)
+Name=KAC URX 3/3.1 short panel
 Itemtype=Auxiliary part
 Recoil=0
 Ergonomics=+2

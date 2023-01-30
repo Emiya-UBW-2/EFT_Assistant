@@ -1,4 +1,4 @@
-Name=Olight Baldr Pro tactical flashlight with laser(black)
+Name=Olight Baldr Pro tactical flashlight with laser
 Itemtype=Tactical combo device
 Recoil=0
 Ergonomics=-1

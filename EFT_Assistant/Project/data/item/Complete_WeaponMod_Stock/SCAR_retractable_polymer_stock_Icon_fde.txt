@@ -1,4 +1,4 @@
-Name=FN SCAR retractable polymer stock(FDE)
+Name=FN SCAR retractable polymer stock (FDE)
 Itemtype=Stock
 Recoil=-24
 Ergonomics=+3

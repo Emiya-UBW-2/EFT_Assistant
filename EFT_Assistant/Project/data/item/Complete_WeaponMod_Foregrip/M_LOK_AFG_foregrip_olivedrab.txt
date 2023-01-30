@@ -1,4 +1,4 @@
-Name=Magpul M-LOK AFG tactical foregrip(Olive Drab)
+Name=Magpul M-LOK AFG tactical foregrip (Olive Drab)
 Itemtype=Foregrip
 Recoil=-2
 Ergonomics=+7
