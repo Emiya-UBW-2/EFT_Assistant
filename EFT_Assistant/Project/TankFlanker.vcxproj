@@ -26,6 +26,7 @@
     <ClInclude Include="source\Scene\MainScene\Data\MainScene_Parents.hpp" />
     <ClInclude Include="source\Scene\MainScene\Data\MainScene_Task.hpp" />
     <ClInclude Include="source\Scene\MainScene\Data\MainScene_Trader.hpp" />
+    <ClInclude Include="source\Scene\MainScene\Page\MainScene_PageCustom.hpp" />
     <ClInclude Include="source\Scene\MainScene\Page\MainScene_PageHideout.hpp" />
     <ClInclude Include="source\Scene\MainScene\Page\MainScene_PageItem.hpp" />
     <ClInclude Include="source\Scene\MainScene\Page\MainScene_PageMap.hpp" />

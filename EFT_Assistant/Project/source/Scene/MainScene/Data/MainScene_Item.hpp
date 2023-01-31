@@ -4,10 +4,20 @@
 namespace FPS_n2 {
 	typedef int ItemID;
 
+
 	class ItemList : public ListParent<ItemID> {
+		class ChildItemSettings {
+		public:
+			int xpos{ 0 };
+			int ypos{ 0 };
+			std::vector<std::pair<const ItemList*, std::string>> Data;
+		};
+
+		typedef std::vector<std::pair<const ItemList*, std::string>> ItemSettings;
+
 		ItemTypeID	m_TypeID{ InvalidID };
 		std::vector<MapID>	m_MapID;
-		std::vector<std::pair<const ItemList*, std::string>>	m_ChildPartsID;
+		std::vector<ChildItemSettings>							m_ChildPartsID;
 		std::vector<const ItemList*>							m_ParentPartsID;
 		float		m_Recoil{ 0.f };
 		float		m_Ergonomics{ 0.f };
@@ -22,20 +32,27 @@ namespace FPS_n2 {
 				m_MapID.emplace_back(MapData::Instance()->FindID(RIGHT.c_str()));
 			}
 			if (LEFT == "ChildParts") {
+				m_ChildPartsID.resize(m_ChildPartsID.size() + 1);
 				if (Args.size() > 0) {
 					for (auto&a : Args) {
 						if (a == "or") {
 
 						}
 						else {
-							m_ChildPartsID.resize(m_ChildPartsID.size() + 1);
-							m_ChildPartsID.back().second = a;
+							m_ChildPartsID.back().Data.resize(m_ChildPartsID.back().Data.size() + 1);
+							m_ChildPartsID.back().Data.back().second = a;
 						}
 					}
 				}
 				else {
-					m_ChildPartsID.resize(m_ChildPartsID.size() + 1);
-					m_ChildPartsID.back().second = RIGHT;
+					m_ChildPartsID.back().Data.resize(m_ChildPartsID.back().Data.size() + 1);
+					m_ChildPartsID.back().Data.back().second = RIGHT;
+				}
+			}
+			if (LEFT == "ChildPos") {
+				if (Args.size() > 0) {
+					m_ChildPartsID.back().xpos = std::stoi(Args.at(0));
+					m_ChildPartsID.back().ypos = std::stoi(Args.at(1));
 				}
 			}
 			if (LEFT == "Recoil") {
@@ -74,6 +91,7 @@ namespace FPS_n2 {
 	public:
 		const auto&	GetTypeID() const noexcept { return m_TypeID; }
 		const auto&	GetMapID() const noexcept { return m_MapID; }
+		const auto&	GetChildParts() const noexcept { return m_ChildPartsID; }
 	public:
 		const int		Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive) const noexcept;
 		void			DrawWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept {
@@ -93,9 +111,11 @@ namespace FPS_n2 {
 					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STR_LEFT, White, Black, "Mods:") + y_r(30)); yofs += LineHeight;
 				}
 				int ysize = (int)((float)y_r(80));
-				for (const auto& c : m_ChildPartsID) {
-					auto* ptr = c.first;
-					xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, y_r(800), ysize, 0, defaultcolor, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0))) + y_r(30)); yofs += ysize;
+				for (const auto& cp : m_ChildPartsID) {
+					for (const auto& c : cp.Data) {
+						auto* ptr = c.first;
+						xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, y_r(800), ysize, 0, defaultcolor, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0))) + y_r(30)); yofs += ysize;
+					}
 				}
 				for (const auto& c : m_ParentPartsID) {
 					auto* ptr = c;
@@ -129,28 +149,32 @@ namespace FPS_n2 {
 			}
 		}
 		void			SetOtherPartsID(const std::vector<ItemList>& itemList) noexcept {
-			for (auto& c : m_ChildPartsID) {
-				for (const auto& t : itemList) {
-					if (c.second == t.GetName()) {
-						c.first = &t;
-						break;
+			for (auto& cp : m_ChildPartsID) {
+				for (auto& c : cp.Data) {
+					for (const auto& t : itemList) {
+						if (c.second == t.GetName()) {
+							c.first = &t;
+							break;
+						}
 					}
-				}
-				if (c.first == nullptr) {
-					std::string ErrMes = "Error : Invalid ChildPartsID[";
-					ErrMes += GetName();
-					ErrMes += "][";
-					ErrMes += c.second;
-					ErrMes += "]";
+					if (c.first == nullptr) {
+						std::string ErrMes = "Error : Invalid ChildPartsID[";
+						ErrMes += GetName();
+						ErrMes += "][";
+						ErrMes += c.second;
+						ErrMes += "]";
 
-					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+						DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+					}
 				}
 			}
 			m_ParentPartsID.clear();
 			for (const auto& t : itemList) {
-				for (auto& c : t.m_ChildPartsID) {
-					if (c.first == this) {
-						m_ParentPartsID.emplace_back(&t);
+				for (auto& cp : t.m_ChildPartsID) {
+					for (auto& c : cp.Data) {
+						if (c.first == this) {
+							m_ParentPartsID.emplace_back(&t);
+						}
 					}
 				}
 			}

@@ -17,6 +17,7 @@
 #include "MainScene/Page/MainScene_PageHideout.hpp"
 #include "MainScene/Page/MainScene_PageItem.hpp"
 #include "MainScene/Page/MainScene_PageMap.hpp"
+#include "MainScene/Page/MainScene_PageCustom.hpp"
 
 namespace FPS_n2 {
 	class MAINLOOP : public TEMPSCENE {
@@ -33,6 +34,7 @@ namespace FPS_n2 {
 		std::shared_ptr<HideOutBG>									m_HideOutBG;
 		std::shared_ptr<ItemBG>										m_ItemBG;
 		std::shared_ptr<MapBG>										m_MapBG;
+		std::shared_ptr<CustomBG>									m_CustomBG;
 
 		bool														m_Loading{ false };
 
@@ -69,6 +71,7 @@ namespace FPS_n2 {
 			m_HideOutBG = std::make_shared<HideOutBG>();
 			m_ItemBG = std::make_shared<ItemBG>();
 			m_MapBG = std::make_shared<MapBG>();
+			m_CustomBG = std::make_shared<CustomBG>();
 			//
 			m_BGPtr = m_TitleBG;
 			//
@@ -159,6 +162,9 @@ namespace FPS_n2 {
 					case BGSelect::Map:
 						m_BGPtr = m_MapBG;
 						break;
+					case BGSelect::Custom:
+						m_BGPtr = m_CustomBG;
+						break;
 					default:
 						m_BGPtr = m_TaskBG;
 						break;
@@ -237,6 +243,7 @@ namespace FPS_n2 {
 			m_HideOutBG.reset();
 			m_ItemBG.reset();
 			m_MapBG.reset();
+			m_CustomBG.reset();
 		}
 	public:
 		void BG_Draw_Sub(void) noexcept override {}

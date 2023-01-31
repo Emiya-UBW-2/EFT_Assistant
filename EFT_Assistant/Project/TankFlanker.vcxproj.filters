@@ -93,6 +93,9 @@
     <ClInclude Include="source\Parts\DrawSystem.hpp">
       <Filter>ソース ファイル\Parts</Filter>
     </ClInclude>
+    <ClInclude Include="source\Scene\MainScene\Page\MainScene_PageCustom.hpp">
+      <Filter>ソース ファイル\Scene\Page</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\main.cpp">

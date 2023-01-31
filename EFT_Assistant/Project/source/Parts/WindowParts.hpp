@@ -10,6 +10,7 @@ namespace FPS_n2 {
 	static const unsigned int Red25{ GetColor(192, 0, 0) };
 	static const unsigned int Red50{ GetColor(128, 0, 0) };
 	//static const unsigned int Blue{ GetColor(50, 50, 255) };
+	static const unsigned int DarkGreen{ GetColor(21, 128, 45) };
 	static const unsigned int Green{ GetColor(43, 255, 91) };
 	static const unsigned int White{ GetColor(255, 255, 255) };
 	static const unsigned int Gray10{ GetColor(230, 230, 230) };
@@ -106,6 +107,26 @@ namespace FPS_n2 {
 			DrawControl::Instance()->SetDrawBox(xp3 + EdgeSize, yp3 + EdgeSize, xp4 - EdgeSize, yp4 - EdgeSize, color, true);
 			WindowSystem::SetMsg(xp3, yp3, xp4, yp4, LineHeight - EdgeSize * 2 - y_r(6), FontHandle::FontXCenter::MIDDLE, White, Black, "X");
 			return ans;
+		}
+
+		int	UpDownBar(int xmin, int xmax, int yp, int* value, int valueMin, int valueMax) {
+			int xp = 0;
+			{
+				int xpmin = xmin + LineHeight + 1;
+				int xpmax = xmax - 1;
+				WindowSystem::SetBox(xpmin, yp, xpmin + (xpmax - xpmin), yp + LineHeight, DarkGreen);
+				WindowSystem::SetBox(xpmin, yp, xpmin + (xpmax - xpmin)*std::clamp(*value - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), yp + LineHeight, Green);
+			}
+			xp = xmax;
+			if (WindowSystem::ClickCheckBox(xp, yp, xp + LineHeight, yp + LineHeight, true, true, Gray25, "Å¢")) {
+				*value = std::min(*value + 1, valueMax);
+			}
+			xp = (xmin + (xmax - xmin) / 2);
+			WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, FontHandle::FontXCenter::MIDDLE, White, Black, "%03d", *value);
+			xp = xmin;
+			if (WindowSystem::ClickCheckBox(xp, yp, xp + LineHeight, yp + LineHeight, true, true, Gray25, "Å§")) {
+				*value = std::max(*value - 1, valueMin);
+			}
 		}
 		//
 		class ScrollBoxClass {

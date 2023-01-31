@@ -7,6 +7,7 @@ namespace FPS_n2 {
 		HideOut,
 		Item,
 		Map,
+		Custom,
 	};
 	class TitleBG :public BGParent {
 	private:
@@ -38,6 +39,11 @@ namespace FPS_n2 {
 			ypos += y_r(100);
 			if (WindowSystem::ClickCheckBox(y_r(960) - xsize / 2, ypos - ysize / 2, y_r(960) + xsize / 2, ypos + ysize / 2, false, true, Gray25, "マップ")) {
 				m_Select = BGSelect::Map;
+				TurnOnGoNextBG();
+			}
+			ypos += y_r(100);
+			if (WindowSystem::ClickCheckBox(y_r(960) - xsize / 2, ypos - ysize / 2, y_r(960) + xsize / 2, ypos + ysize / 2, false, true, Gray25, "カスタマイズ")) {
+				m_Select = BGSelect::Custom;
 				TurnOnGoNextBG();
 			}
 			ypos += y_r(100);
