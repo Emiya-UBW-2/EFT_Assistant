@@ -1,6 +1,8 @@
 Name=AR-15 5.56x45 370mm barrel
 Itemtype=Barrel
 ChildParts=[Yankee Hill Annihilator multi-caliber flash hider,AR-15 AAC Blackout 51T 5.56x45 flash hider,AR-15 ADAR 2-15 5.56x45 flash hider,AR-15 AWC PSR 5.56x45 muzzle brake,AR-15 Bulletec ST-6012 5.56x45 muzzle brake,AR-15 Colt USGI A2 5.56x45 flash hider,AR-15 Daniel Defense WAVE 5.56x45 muzzle brake,Desert Tech 5.56x45 flash hider,AR-15 Ferfrans CQB 5.56x45 muzzle brake,AR-15 HK BLITZ 5.56x45 flash hider,AR-15 KAC QDC 5.56x45 Flash Suppressor Kit,AR-15 Nordic Components Corvette 5.56x45 compensator,AR-15 Noveske KX3 5.56x45 flash hider,AR-15 PWS CQB 5.56x45 muzzle brake,AR-15 SilencerCo ASR 5.56x45 flash hider,AR-15 SureFire SF3P 5.56x45 Flash hider,AR-15 SureFire SF4P FH556RC 5.56x45 flash hider,AR-15 SureFire WarComp 5.56x45 flash hider,AR-15 TAA ZK-23 5.56x45 muzzle brake,AR-15 Thunder Beast Arms 223CB 5.56x45 muzzle brake,AR-15 TROY Claymore 5.56x45 muzzle brake,AR-15 Vendetta Precision VP-09 Interceptor 5.56x45 muzzle brake,Gemtech ONE Direct Thread Mount adapter,SilencerCo Hybrid 46 Direct Thread Mount adapter,Rotor 43 5.56x45 muzzle brake-compensator,KAC QDC 5.56x45 3-Prong Flash Eliminator,AR-15 SureFire Warden 5.56x45 blast regulator,AR-15 Yankee Hill Phantom 5.56x45 flash hider]
+ChildPos=[-200,-5]
 ChildParts=[M4A1 front sight with gas block,AR-15 Daniel Defense MK12 Low Profile Gas Block,AR-15 JP Enterprises Gas System-5B,AR-15 Windham Weaponry Rail Gas Block]
+ChildPos=[-120,-5]
 Recoil=-3
 Ergonomics=-14

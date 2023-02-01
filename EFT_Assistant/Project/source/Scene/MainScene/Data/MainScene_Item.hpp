@@ -61,7 +61,7 @@ namespace FPS_n2 {
 				}
 				else {
 					if (RIGHT == "") {
-						int a = 0;
+						//int a = 0;
 					}
 					m_Recoil = std::stof(RIGHT);
 				}
@@ -73,7 +73,7 @@ namespace FPS_n2 {
 				}
 				else {
 					if (RIGHT == "") {
-						int a = 0;
+						//int a = 0;
 					}
 					m_Ergonomics = std::stof(RIGHT);
 				}

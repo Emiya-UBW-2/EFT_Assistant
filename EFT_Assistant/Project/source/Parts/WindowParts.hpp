@@ -109,6 +109,29 @@ namespace FPS_n2 {
 			return ans;
 		}
 
+		void CheckBox(int xp1, int yp1,bool* switchturn) {
+			auto* Input = InputControl::Instance();
+			int xp3 = xp1 + EdgeSize;
+			int yp3 = yp1 + EdgeSize;
+			int xp4 = xp1 + LineHeight * 2 - EdgeSize;
+			int yp4 = yp1 + LineHeight - EdgeSize;
+			unsigned int color = Gray25;
+			if (in2_(Input->GetMouseX(), Input->GetMouseY(), xp3 + EdgeSize, yp3 + EdgeSize, xp4 - EdgeSize, yp4 - EdgeSize)) {
+				color = White;
+				if (Input->GetLeftClick().trigger()) {
+					*switchturn ^= 1;
+				}
+				HCURSOR hCursor = LoadCursor(NULL, IDC_HAND);
+				SetCursor(hCursor);
+			}
+			DrawControl::Instance()->SetDrawBox(xp3 + y_r(5), yp3 + y_r(5), xp4 - y_r(5), yp4 - y_r(5), Black, true);
+			xp4 = xp1 + LineHeight * (*switchturn ? 1 : 0) - EdgeSize;
+			DrawControl::Instance()->SetDrawBox(xp3 + y_r(5), yp3 + y_r(5), xp4 + y_r(5), yp4 - y_r(5), Gray50, true);
+			xp3 = xp1 + LineHeight * (*switchturn ? 1 : 0) + EdgeSize;
+			xp4 = xp1 + LineHeight * (*switchturn ? 2 : 1) - EdgeSize;
+			DrawControl::Instance()->SetDrawBox(xp3, yp3, xp4, yp4, color, true);
+		}
+
 		int	UpDownBar(int xmin, int xmax, int yp, int* value, int valueMin, int valueMax) {
 			int xp = 0;
 			{

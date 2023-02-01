@@ -8,6 +8,8 @@ namespace FPS_n2 {
 		ItemList* m_BaseWeapon{ nullptr };
 		float xpos_add{ 0.f };
 
+		bool m_EnableMag = false;
+		bool m_EnableScope = false;
 		int m_Recoil = 50;
 		int m_Ergonomics = 50;
 
@@ -25,12 +27,43 @@ namespace FPS_n2 {
 			auto* WindowMngr = WindowSystem::WindowManager::Instance();
 			std::vector<int>	childID;
 			childID.resize(Ptr->GetChildParts().size());
+
+			int MagID = ItemTypeData::Instance()->FindID("Magazine");
+			int RefSightID = ItemTypeData::Instance()->FindID("Reflex sight");
+			int CompRefSightID = ItemTypeData::Instance()->FindID("Compact reflex sight");
+			int AsScopeID = ItemTypeData::Instance()->FindID("Assault scope");
+			int ScopeID = ItemTypeData::Instance()->FindID("Scope");
+			int SpScopeID = ItemTypeData::Instance()->FindID("Special scope");
+
+
 			for (const auto& c : Ptr->GetChildParts()) {
-				int xp = xpbase + Scale * c.xpos;
-				int yp = ypbase + Scale * c.ypos;
-				float len = std::hypotf(xp, yp);
-				int xp2 = xp + xp * (float)y_r(256) / len;
-				int yp2 = yp + yp * (float)y_r(256) / len;
+				const auto& cD = c.Data[childID.at(&c - &Ptr->GetChildParts().front())];
+
+				if (!m_EnableMag) {
+					if (
+						cD.first->GetTypeID() == MagID
+						) {
+						continue;
+					}
+				}
+				if (!m_EnableScope) {
+					if (
+						cD.first->GetTypeID() == RefSightID
+						|| cD.first->GetTypeID() == CompRefSightID
+						|| cD.first->GetTypeID() == AsScopeID
+						|| cD.first->GetTypeID() == ScopeID
+						|| cD.first->GetTypeID() == SpScopeID
+						) {
+						continue;
+					}
+				}
+
+
+				int xp = xpbase + (int)(Scale * c.xpos);
+				int yp = ypbase + (int)(Scale * c.ypos);
+				float len = std::hypotf((float)xp, (float)yp);
+				int xp2 = xp + (int)((float)xp * (float)y_r(384) / len);
+				int yp2 = yp + (int)((float)yp * (float)y_r(384) / len);
 
 				Rect2D P_Next;
 
@@ -42,30 +75,59 @@ namespace FPS_n2 {
 				if (xbase < 0) {
 					xp2 += (-xbase);
 					xbase += (-xbase);
+					//端にあるのではけさせる
+					if (ybase + ysize / 2 > y_r(540)) {
+						yp2 += ysize + y_r(5);
+					}
+					else {
+						yp2 -= ysize + y_r(5);
+					}
+					ybase = y_r(540) + yp2 - ysize / 2;
 				}
 				else if ((xbase + xsize - y_r(1920)) > 0) {
 					xp2 += (-(xbase + xsize - y_r(1920)));
 					xbase += (-(xbase + xsize - y_r(1920)));
 				}
-				if (ybase < 0) {
-					yp2 += (-ybase);
-					ybase += (-ybase);
+				if (ybase - LineHeight < 0) {
+					yp2 += (-(ybase - LineHeight));
+					ybase += (-(ybase - LineHeight));
 				}
 				else if ((ybase + ysize - y_r(1080)) > 0) {
 					yp2 += (-(ybase + ysize - y_r(1080)));
 					ybase += (-(ybase + ysize - y_r(1080)));
 				}
 
+				xbase = (xp2 > 0) ? (y_r(960) + xp2) : (y_r(960) + xp2 - xsize);
 				P_Next.Set(xbase, ybase, xsize, ysize);
+				int counter = 0;
 				while (true) {
 					bool isHit = false;
 					for (auto&r : m_ItemRect) {
 						if (r.IsHit(P_Next)) {
 							isHit = true;
-							yp2 += ysize;
-							ybase += ysize;
 
-							/*
+							if (counter < 100) {
+								//中央によるように配置
+								if (xbase + xsize / 2 > y_r(960)) {
+									xp2 -= xsize + y_r(5);
+								}
+								else {
+									xp2 += xsize + y_r(5);
+								}
+
+								if (ybase + ysize / 2 > y_r(540)) {
+									yp2 -= ysize + y_r(5);
+								}
+								else {
+									yp2 += ysize + y_r(5);
+								}
+							}
+							else {
+								xp2 -= xsize + y_r(5);
+							}
+							xbase = (xp2 > 0) ? (y_r(960) + xp2) : (y_r(960) + xp2 - xsize);
+							ybase = y_r(540) + yp2 - ysize / 2;
+
 							if (xbase < 0) {
 								xp2 += (-xbase);
 								xbase += (-xbase);
@@ -74,25 +136,29 @@ namespace FPS_n2 {
 								xp2 += (-(xbase + xsize - y_r(1920)));
 								xbase += (-(xbase + xsize - y_r(1920)));
 							}
-							if (ybase < 0) {
-								yp2 += (-ybase);
-								ybase += (-ybase);
+							if (ybase - LineHeight < 0) {
+								yp2 += (-(ybase - LineHeight));
+								ybase += (-(ybase - LineHeight));
 							}
 							else if ((ybase + ysize - y_r(1080)) > 0) {
 								yp2 += (-(ybase + ysize - y_r(1080)));
 								ybase += (-(ybase + ysize - y_r(1080)));
 							}
-							//*/
+
+							xbase = (xp2 > 0) ? (y_r(960) + xp2) : (y_r(960) + xp2 - xsize);
 							P_Next.Set(xbase, ybase, xsize, ysize);
 							break;
 						}
+					}
+					counter++;
+					if (counter > 200) {
+						break;
 					}
 					if (!isHit) { break; }
 				}
 				m_ItemRect.emplace_back(P_Next);
 
 				DrawControl::Instance()->SetDrawLine(y_r(960) + xp, y_r(540) + yp, y_r(960) + xp2, y_r(540) + yp2, Red, y_r(3));
-				const auto& cD = c.Data[childID.at(&c - &Ptr->GetChildParts().front())];
 				cD.first->Draw(P_Next.GetPosX(), P_Next.GetPosY(), xsize, ysize, 0, Gray10, !WindowMngr->PosHitCheck(nullptr));
 				DrawChild(xp, yp, cD.first, Scale);
 			}
@@ -139,9 +205,25 @@ namespace FPS_n2 {
 			//
 			{
 				int xp = y_r(50);
+				int yp = y_r(1080) - LineHeight - y_r(50) - y_r(80) - y_r(80) - y_r(50);
+				WindowSystem::CheckBox(xp, yp, &m_EnableMag);
+				xp += LineHeight * 3;
+				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, FontHandle::FontXCenter::LEFT, White, Black, "マガジンを含む");
+			}
+			//
+			{
+				int xp = y_r(50);
+				int yp = y_r(1080) - LineHeight - y_r(50) - y_r(80) - y_r(80);
+				WindowSystem::CheckBox(xp, yp, &m_EnableScope);
+				xp += LineHeight * 3;
+				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, FontHandle::FontXCenter::LEFT, White, Black, "スコープを含む");
+			}
+			//
+			{
+				int xp = y_r(50);
 				int yp = y_r(1080) - LineHeight - y_r(50) - y_r(80);
 				WindowSystem::UpDownBar(xp, y_r(360), yp, &m_Recoil, 10, 200);
-				yp -= LineHeight;
+				yp -= LineHeight + y_r(5);
 				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, FontHandle::FontXCenter::LEFT, White, Black, "縦リコイル");
 			}
 			//
@@ -149,9 +231,10 @@ namespace FPS_n2 {
 				int xp = y_r(50);
 				int yp = y_r(1080) - LineHeight - y_r(50);
 				WindowSystem::UpDownBar(xp, y_r(360), yp, &m_Ergonomics, 0, 100);
-				yp -= LineHeight;
+				yp -= LineHeight + y_r(5);
 				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, FontHandle::FontXCenter::LEFT, White, Black, "エルゴノミクス");
 			}
+			//
 		}
 		void Dispose_Sub(void) noexcept override {
 		}
