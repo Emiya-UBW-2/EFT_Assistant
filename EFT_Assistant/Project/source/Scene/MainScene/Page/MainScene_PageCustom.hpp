@@ -8,8 +8,9 @@ namespace FPS_n2 {
 		ItemList* m_BaseWeapon{ nullptr };
 		float xpos_add{ 0.f };
 
+		bool m_EnableMount = false;
 		bool m_EnableMag = false;
-		bool m_EnableScope = false;
+		bool m_EnableSight = false;
 		int m_Recoil = 50;
 		int m_Ergonomics = 50;
 
@@ -28,17 +29,27 @@ namespace FPS_n2 {
 			std::vector<int>	childID;
 			childID.resize(Ptr->GetChildParts().size());
 
+			int MountID = ItemTypeData::Instance()->FindID("Mount");
+
 			int MagID = ItemTypeData::Instance()->FindID("Magazine");
 			int RefSightID = ItemTypeData::Instance()->FindID("Reflex sight");
 			int CompRefSightID = ItemTypeData::Instance()->FindID("Compact reflex sight");
 			int AsScopeID = ItemTypeData::Instance()->FindID("Assault scope");
 			int ScopeID = ItemTypeData::Instance()->FindID("Scope");
 			int SpScopeID = ItemTypeData::Instance()->FindID("Special scope");
+			int IromSightID = ItemTypeData::Instance()->FindID("Iron sight");
 
 
 			for (const auto& c : Ptr->GetChildParts()) {
 				const auto& cD = c.Data[childID.at(&c - &Ptr->GetChildParts().front())];
 
+				if (!m_EnableMount) {
+					if (
+						cD.first->GetTypeID() == MountID
+						) {
+						continue;
+					}
+				}
 				if (!m_EnableMag) {
 					if (
 						cD.first->GetTypeID() == MagID
@@ -46,13 +57,14 @@ namespace FPS_n2 {
 						continue;
 					}
 				}
-				if (!m_EnableScope) {
+				if (!m_EnableSight) {
 					if (
 						cD.first->GetTypeID() == RefSightID
 						|| cD.first->GetTypeID() == CompRefSightID
 						|| cD.first->GetTypeID() == AsScopeID
 						|| cD.first->GetTypeID() == ScopeID
 						|| cD.first->GetTypeID() == SpScopeID
+						|| cD.first->GetTypeID() == IromSightID
 						) {
 						continue;
 					}
@@ -160,6 +172,11 @@ namespace FPS_n2 {
 
 				DrawControl::Instance()->SetDrawLine(y_r(960) + xp, y_r(540) + yp, y_r(960) + xp2, y_r(540) + yp2, Red, y_r(3));
 				cD.first->Draw(P_Next.GetPosX(), P_Next.GetPosY(), xsize, ysize, 0, Gray10, !WindowMngr->PosHitCheck(nullptr));
+
+				cD.first->GetRecoil();
+				cD.first->GetErgonomics();
+
+
 				DrawChild(xp, yp, cD.first, Scale);
 			}
 			return childID;
@@ -202,10 +219,11 @@ namespace FPS_n2 {
 				}
 			}
 			Easing(&xpos_add, (m_SelectBuffer != InvalidID) ? (float)(y_r(1000)) : 0.f, 0.9f, EasingType::OutExpo);
+			
 			//
 			{
 				int xp = y_r(50);
-				int yp = y_r(1080) - LineHeight - y_r(50) - y_r(80) - y_r(80) - y_r(50);
+				int yp = y_r(1080) - LineHeight - y_r(50) - y_r(80) - y_r(80) - y_r(50) - y_r(50);
 				WindowSystem::CheckBox(xp, yp, &m_EnableMag);
 				xp += LineHeight * 3;
 				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, FontHandle::FontXCenter::LEFT, White, Black, "マガジンを含む");
@@ -213,10 +231,21 @@ namespace FPS_n2 {
 			//
 			{
 				int xp = y_r(50);
-				int yp = y_r(1080) - LineHeight - y_r(50) - y_r(80) - y_r(80);
-				WindowSystem::CheckBox(xp, yp, &m_EnableScope);
+				int yp = y_r(1080) - LineHeight - y_r(50) - y_r(80) - y_r(80) - y_r(50);
+				WindowSystem::CheckBox(xp, yp, &m_EnableMount);
 				xp += LineHeight * 3;
-				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, FontHandle::FontXCenter::LEFT, White, Black, "スコープを含む");
+				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, FontHandle::FontXCenter::LEFT, White, Black, "マウントを含む");
+			}
+			//
+			{
+				int xp = y_r(50);
+				int yp = y_r(1080) - LineHeight - y_r(50) - y_r(80) - y_r(80);
+				WindowSystem::CheckBox(xp, yp, &m_EnableSight);
+				xp += LineHeight * 3;
+				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, FontHandle::FontXCenter::LEFT, White, Black, "サイトを含む");
+				if (m_EnableSight) {
+					m_EnableMount = true;
+				}
 			}
 			//
 			{

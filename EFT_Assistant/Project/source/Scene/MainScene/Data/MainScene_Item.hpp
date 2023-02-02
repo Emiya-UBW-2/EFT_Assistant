@@ -92,6 +92,9 @@ namespace FPS_n2 {
 		const auto&	GetTypeID() const noexcept { return m_TypeID; }
 		const auto&	GetMapID() const noexcept { return m_MapID; }
 		const auto&	GetChildParts() const noexcept { return m_ChildPartsID; }
+
+		const auto&	GetRecoil() const noexcept { return m_Recoil; }
+		const auto&	GetErgonomics() const noexcept { return m_Ergonomics; }
 	public:
 		const int		Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive) const noexcept;
 		void			DrawWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept {
