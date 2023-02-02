@@ -132,7 +132,7 @@ namespace FPS_n2 {
 			DrawControl::Instance()->SetDrawBox(xp3, yp3, xp4, yp4, color, true);
 		}
 
-		int	UpDownBar(int xmin, int xmax, int yp, int* value, int valueMin, int valueMax) {
+		void	UpDownBar(int xmin, int xmax, int yp, int* value, int valueMin, int valueMax) {
 			int xp = 0;
 			{
 				int xpmin = xmin + LineHeight + 1;

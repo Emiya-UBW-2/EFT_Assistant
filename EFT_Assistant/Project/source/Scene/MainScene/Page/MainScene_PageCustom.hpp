@@ -8,13 +8,14 @@ namespace FPS_n2 {
 		ItemList* m_BaseWeapon{ nullptr };
 		float xpos_add{ 0.f };
 
-		bool m_EnableMount = false;
 		bool m_EnableMag = false;
+		bool m_EnableMount = false;
 		bool m_EnableSight = false;
 		int m_Recoil = 50;
 		int m_Ergonomics = 50;
 
 		std::vector<Rect2D>								m_ItemRect;
+
 	private:
 		void Init_Sub(int*, int*, float*) noexcept override {
 			m_SelectBuffer = InvalidID;
@@ -24,52 +25,48 @@ namespace FPS_n2 {
 		void LateExecute_Sub(int*, int*, float*) noexcept override {
 		}
 
-		std::vector<int> DrawChild(int xpbase, int ypbase, const ItemList* Ptr, float Scale) noexcept {
+		class ChildData {
+		public:
+			const ItemList*	Ptr{ nullptr };
+			int				Slot{ 0 };
+			int				ChildSel{ 0 };
+		};
+		std::vector<ChildData> m_ChildData;
+
+		void CalcChild(const ItemList* Ptr) {
+			for (const auto& c : Ptr->GetChildParts()) {
+				int Select = -1;
+				for (const auto& cID : m_ChildData) {
+					if ((cID.Ptr == Ptr) && (cID.Slot == (int)(&c - &Ptr->GetChildParts().front()))) {
+						Select = cID.ChildSel;
+						break;
+					}
+				}
+				if (Select == -1) {
+					m_ChildData.resize(m_ChildData.size() + 1);
+					m_ChildData.back().Ptr = Ptr;
+					m_ChildData.back().Slot = (int)(&c - &Ptr->GetChildParts().front());
+					m_ChildData.back().ChildSel = 0;
+					Select = 0;
+				}
+				CalcChild(c.Data.at(Select).first);
+			}
+		}
+
+		void DrawChild(int xpbase, int ypbase, const ItemList* Ptr, float Scale) noexcept {
 			auto* WindowMngr = WindowSystem::WindowManager::Instance();
-			std::vector<int>	childID;
-			childID.resize(Ptr->GetChildParts().size());
-
-			int MountID = ItemTypeData::Instance()->FindID("Mount");
-
-			int MagID = ItemTypeData::Instance()->FindID("Magazine");
-			int RefSightID = ItemTypeData::Instance()->FindID("Reflex sight");
-			int CompRefSightID = ItemTypeData::Instance()->FindID("Compact reflex sight");
-			int AsScopeID = ItemTypeData::Instance()->FindID("Assault scope");
-			int ScopeID = ItemTypeData::Instance()->FindID("Scope");
-			int SpScopeID = ItemTypeData::Instance()->FindID("Special scope");
-			int IromSightID = ItemTypeData::Instance()->FindID("Iron sight");
-
 
 			for (const auto& c : Ptr->GetChildParts()) {
-				const auto& cD = c.Data[childID.at(&c - &Ptr->GetChildParts().front())];
+				int Select = -1;
+				for (const auto& cID : m_ChildData) {
+					if ((cID.Ptr == Ptr) && (cID.Slot == (int)(&c - &Ptr->GetChildParts().front()))) {
+						Select = cID.ChildSel;
+						break;
+					}
+				}
+				if (Select == -1) { continue; }
 
-				if (!m_EnableMount) {
-					if (
-						cD.first->GetTypeID() == MountID
-						) {
-						continue;
-					}
-				}
-				if (!m_EnableMag) {
-					if (
-						cD.first->GetTypeID() == MagID
-						) {
-						continue;
-					}
-				}
-				if (!m_EnableSight) {
-					if (
-						cD.first->GetTypeID() == RefSightID
-						|| cD.first->GetTypeID() == CompRefSightID
-						|| cD.first->GetTypeID() == AsScopeID
-						|| cD.first->GetTypeID() == ScopeID
-						|| cD.first->GetTypeID() == SpScopeID
-						|| cD.first->GetTypeID() == IromSightID
-						) {
-						continue;
-					}
-				}
-
+				const auto& cD = c.Data.at(Select);
 
 				int xp = xpbase + (int)(Scale * c.xpos);
 				int yp = ypbase + (int)(Scale * c.ypos);
@@ -176,10 +173,8 @@ namespace FPS_n2 {
 				cD.first->GetRecoil();
 				cD.first->GetErgonomics();
 
-
 				DrawChild(xp, yp, cD.first, Scale);
 			}
-			return childID;
 		}
 
 		void Draw_Back_Sub(int, int, float) noexcept override {
@@ -187,6 +182,56 @@ namespace FPS_n2 {
 				if (m_BaseWeapon->GetIcon().GetGraph()) {
 					float Scale = (float)y_r(1920) / m_BaseWeapon->GetIcon().GetXSize();
 					DrawControl::Instance()->SetDrawRotaGraph(m_BaseWeapon->GetIcon().GetGraph(), y_r(960), y_r(540), Scale, 0.f, false);
+
+					CalcChild(m_BaseWeapon);
+
+					{
+						int MountID = ItemTypeData::Instance()->FindID("Mount");
+						int MagID = ItemTypeData::Instance()->FindID("Magazine");
+						int RefSightID = ItemTypeData::Instance()->FindID("Reflex sight");
+						int CompRefSightID = ItemTypeData::Instance()->FindID("Compact reflex sight");
+						int AsScopeID = ItemTypeData::Instance()->FindID("Assault scope");
+						int ScopeID = ItemTypeData::Instance()->FindID("Scope");
+						int SpScopeID = ItemTypeData::Instance()->FindID("Special scope");
+						int IromSightID = ItemTypeData::Instance()->FindID("Iron sight");
+
+						for (int count = 0; count < m_ChildData.size(); count++) {
+							const auto& cID = m_ChildData[count];
+							auto* ptr = cID.Ptr->GetChildParts().at(cID.Slot).Data.at(cID.ChildSel).first;
+							if (!m_EnableMag) {
+								if (
+									ptr->GetTypeID() == MagID
+									) {
+									m_ChildData.erase(m_ChildData.begin() + count);
+									count--;
+									continue;
+								}
+							}
+							if (!m_EnableMount) {
+								if (
+									ptr->GetTypeID() == MountID
+									) {
+									m_ChildData.erase(m_ChildData.begin() + count);
+									count--;
+									continue;
+								}
+							}
+							if (!m_EnableSight) {
+								if (
+									ptr->GetTypeID() == RefSightID
+									|| ptr->GetTypeID() == CompRefSightID
+									|| ptr->GetTypeID() == AsScopeID
+									|| ptr->GetTypeID() == ScopeID
+									|| ptr->GetTypeID() == SpScopeID
+									|| ptr->GetTypeID() == IromSightID
+									) {
+									m_ChildData.erase(m_ChildData.begin() + count);
+									count--;
+									continue;
+								}
+							}
+						}
+					}
 
 					DrawChild(0, 0, m_BaseWeapon, Scale);
 					m_ItemRect.clear();
@@ -235,6 +280,9 @@ namespace FPS_n2 {
 				WindowSystem::CheckBox(xp, yp, &m_EnableMount);
 				xp += LineHeight * 3;
 				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, FontHandle::FontXCenter::LEFT, White, Black, "ƒ}ƒEƒ“ƒg‚ðŠÜ‚Þ");
+				if (!m_EnableMount) {
+					m_EnableSight = false;
+				}
 			}
 			//
 			{
