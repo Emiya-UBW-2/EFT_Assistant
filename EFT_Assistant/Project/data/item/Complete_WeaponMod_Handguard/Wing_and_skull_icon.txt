@@ -1,4 +1,5 @@
 Name=AR-15 Unique-ARs Wing & Skull 12 inch handguard
 Itemtype=Handguard
+Conflict=[AR-10 JP Enterprises Gas System-6,M4A1 front sight with gas block,AR-15 JP Enterprises Gas System-5B,AR-15 Windham Weaponry Rail Gas Block,AR-15 5.56x45 260mm barrel]
 Recoil=0
 Ergonomics=+15

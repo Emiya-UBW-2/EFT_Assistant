@@ -19,6 +19,7 @@ namespace FPS_n2 {
 		std::vector<MapID>	m_MapID;
 		std::vector<ChildItemSettings>							m_ChildPartsID;
 		std::vector<const ItemList*>							m_ParentPartsID;
+		std::vector<std::pair<const ItemList*, std::string>>	m_ConflictPartsID;
 		float		m_Recoil{ 0.f };
 		float		m_Ergonomics{ 0.f };
 		bool		m_isWeaponMod{ false };
@@ -55,6 +56,25 @@ namespace FPS_n2 {
 					m_ChildPartsID.back().ypos = std::stoi(Args.at(1));
 				}
 			}
+
+			if (LEFT == "Conflict") {
+				if (Args.size() > 0) {
+					for (auto&a : Args) {
+						if (a == "or") {
+
+						}
+						else {
+							m_ConflictPartsID.resize(m_ConflictPartsID.size() + 1);
+							m_ConflictPartsID.back().second = a;
+						}
+					}
+				}
+				else {
+					m_ConflictPartsID.resize(m_ConflictPartsID.size() + 1);
+					m_ConflictPartsID.back().second = RIGHT;
+				}
+			}
+
 			if (LEFT == "Recoil") {
 				if (RIGHT.find("+") != std::string::npos) {
 					m_Recoil = std::stof(RIGHT.substr(RIGHT.find("+") + 1));
@@ -92,6 +112,7 @@ namespace FPS_n2 {
 		const auto&	GetTypeID() const noexcept { return m_TypeID; }
 		const auto&	GetMapID() const noexcept { return m_MapID; }
 		const auto&	GetChildParts() const noexcept { return m_ChildPartsID; }
+		const auto&	GetConflictParts() const noexcept { return m_ConflictPartsID; }
 
 		const auto&	GetRecoil() const noexcept { return m_Recoil; }
 		const auto&	GetErgonomics() const noexcept { return m_Ergonomics; }
@@ -181,6 +202,36 @@ namespace FPS_n2 {
 					}
 				}
 			}
+			//
+			for (auto& cp : m_ConflictPartsID) {
+				for (const auto& t : itemList) {
+					if (cp.second == t.GetName()) {
+						cp.first = &t;
+						break;
+					}
+				}
+				if (cp.first == nullptr) {
+					std::string ErrMes = "Error : Invalid ConflictPartsID[";
+					ErrMes += GetName();
+					ErrMes += "][";
+					ErrMes += cp.second;
+					ErrMes += "]";
+
+					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+				}
+			}
+		}
+		void			SetOtherPartsID_After(const std::vector<ItemList>& itemList) noexcept {
+			//自分を干渉相手にしている奴を探してそいつもリストに入れる　相思相愛
+			for (const auto& t : itemList) {
+				for (auto& cp : t.GetConflictParts()) {
+					if (cp.first == this) {
+						m_ConflictPartsID.resize(m_ConflictPartsID.size() + 1);
+						m_ConflictPartsID.back().first = &t;
+						m_ConflictPartsID.back().second = t.GetName();
+					}
+				}
+			}
 		}
 	};
 	class ItemData : public SingletonBase<ItemData>, public DataParent<ItemID, ItemList> {
@@ -197,6 +248,9 @@ namespace FPS_n2 {
 			}
 			for (auto& t : m_List) {
 				t.SetOtherPartsID(m_List);
+			}
+			for (auto& t : m_List) {
+				t.SetOtherPartsID_After(m_List);
 			}
 		}
 		~ItemData() noexcept {}

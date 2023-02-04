@@ -1,0 +1,14 @@
+Name=M4A1_Normal
+Base=Colt M4A1 5.56x45 assault rifle
+Parts=Colt Carbine buffer tube
+Parts=High Standard M4SS Stock
+Parts=AR-15 Colt A2 pistol grip
+Parts=M4A1 5.56x45 upper receiver
+Parts=AR-15 Colt M4 Carbine Length handguard
+Parts=AR-15 Colt M4 Carbine Length lower handguard
+Parts=AR-15 5.56x45 370mm barrel
+Parts=AR-15 Colt USGI A2 5.56x45 flash hider
+Parts=M4A1 front sight with gas block
+Parts=5.56x45 Colt AR-15 STANAG 30-round magazine
+Parts=AR-15 Colt charging handle
+Parts=AR-15 rear sight carry handle

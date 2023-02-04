@@ -2,3 +2,4 @@ Name=AR-15 ADAR 2-15 wooden handguard
 Itemtype=Handguard
 Recoil=0
 Ergonomics=+7
+Conflict=[AR-15 5.56x45 260mm barrel,AR-15 5.56x45 370mm barrel]

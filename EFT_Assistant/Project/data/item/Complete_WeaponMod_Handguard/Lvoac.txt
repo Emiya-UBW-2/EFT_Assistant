@@ -4,5 +4,6 @@ ChildParts=[NcSTAR MPR45 Backup mount]
 ChildParts=[AN/PEQ-15 tactical device,Holosun LS321 Tactical device,LA-5B/PEQ tactical device,SureFire XC1 tactical flashlight,Zenit Perst-3 tactical device]
 ChildParts=[Vltor CASV KeyMod 2 inch rail,Vltor CASV KeyMod 4 inch rail,Vltor CASV KeyMod 6 inch rail]
 ChildParts=[KAC Folding front sight,Magpul MBUS Gen2 flip-up front sight,Magpul MBUS Gen2 flip-up front sight (FDE),HK MP7 flip-up front sight,MPX flip-up front sight,AR-15 Leapers UTG Low Profile A2 front sight]
+Conflict=[Rotor 43 5.56x45 muzzle brake-compensator,AR-15 5.56x45 260mm barrel]
 Recoil=-2
 Ergonomics=+10

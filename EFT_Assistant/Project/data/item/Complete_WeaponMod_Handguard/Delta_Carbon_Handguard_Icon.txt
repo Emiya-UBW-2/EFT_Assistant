@@ -1,0 +1,6 @@
+Name=AR-15 Precision Reflex GEN III Delta Carbon handguard
+Itemtype=Handguard
+ChildParts=[Precision Reflex handguard long top rail mount,Precision Reflex handguard short side rail mount,Precision Reflex handguard bottom rail mount]
+Conflict=[AR-10 JP Enterprises Gas System-6,AR-15 5.56x45 260mm barrel,M4A1 front sight with gas block,AR-15 Windham Weaponry Rail Gas Block]
+Recoil=-2
+Ergonomics=+14

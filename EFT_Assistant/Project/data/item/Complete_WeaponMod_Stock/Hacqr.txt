@@ -1,4 +1,5 @@
 Name=AR-15 Hera Arms CQR pistol grip/buttstock
 Itemtype=Stock
+Conflict=[SB Tactical SBA3 buttstock,AR-15 B5 Systems Precision stock,CMMG RipStock buttstock,AR-15 Colt A2 buffer tube,AR-15 DoubleStar ACE SOCOM Gen.4 stock,ERGO F93 PRO stock,FAB Defense GL-CORE buttstock,FAB Defense GL-SHOCK buttstock,FAB Defense GLR-16-S stock,High Standard M4SS Stock,AR-15 HK E1 buttstock,AR-15 HK Slim Line buttstock,AK-12 stock,KRISS Defiance DS150 stock (Black),KRISS Defiance DS150 stock (FDE),LMT SOPMOD stock,Magpul CTR Carbine stock (Black),Magpul CTR Carbine stock (FDE),Magpul MOE Carbine stock (Black),Magpul MOE Carbine stock (FDE),Magpul MOE Carbine stock (Foliage Green),Magpul MOE Carbine stock (Olive Drab),Magpul MOE Carbine stock (Stealth Gray),Magpul PRS GEN2 stock (FDE),Magpul PRS GEN3 stock (Black),Magpul PRS GEN3 stock (Grey),Magpul MOE Carbine rubber buttpad,Magpul UBR GEN2 stock (Black),Magpul UBR GEN2 stock (FDE),MFT BUS stock,Strike Industries Viper Mod 1 stock,TROY M7A1 PDW stock (Black),TROY M7A1 PDW stock (FDE),Vltor EMOD stock,HK Enhanced Tube buffer tube]
 Recoil=-33
 Ergonomics=+20

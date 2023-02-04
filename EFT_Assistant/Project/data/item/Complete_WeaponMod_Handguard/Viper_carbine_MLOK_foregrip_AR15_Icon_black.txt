@@ -2,5 +2,6 @@ Name=AR-15 Strike Industries Viper carbine length M-LOK handguard
 Itemtype=Handguard
 ChildParts=[Magpul M-LOK 2.5 inch rail,Magpul M-LOK Cantilever Mount,Magpul M-LOK Offset Light Mount]
 ChildParts=[AR-15 Strike Industries Viper carbine length M-LOK lower handguard]
+Conflict=[AR-15 5.56x45 Molot Arms 406mm barrel]
 Recoil=0
 Ergonomics=+3

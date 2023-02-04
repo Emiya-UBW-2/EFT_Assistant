@@ -10,3 +10,5 @@ ChildParts=[AR-15 ADAR 2-15 charging handle,AR-15 Badger Ordnance Tactical Charg
 ChildPos=[75,-30]
 ChildParts=[ADAR 2-15 5.56x45 upper receiver,M4A1 5.56x45 upper receiver,TX-15 5.56x45 Lightweight upper receiver,AR-15 Noveske Gen.3 5.56x45 upper receiver,AR-15 Vltor MUR-1S 5.56x45 upper receiver]
 ChildPos=[6,-11]
+Recoil=141
+Ergonomics=48

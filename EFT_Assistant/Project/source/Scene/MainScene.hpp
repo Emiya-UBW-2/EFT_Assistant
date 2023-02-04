@@ -7,6 +7,7 @@
 #include "MainScene/Data/MainScene_ItemCategory.hpp"
 #include "MainScene/Data/MainScene_ItemType.hpp"
 #include "MainScene/Data/MainScene_Item.hpp"
+#include "MainScene/Data/MainScene_Preset.hpp"
 #include "MainScene/Data/MainScene_Enemy.hpp"
 #include "MainScene/Data/MainScene_Trader.hpp"
 #include "MainScene/Data/MainScene_Task.hpp"
@@ -52,12 +53,14 @@ namespace FPS_n2 {
 			WindowSystem::WindowManager::Create();
 			//
 			ItemData::Create();
+			PresetData::Create();
 			EnemyData::Create();
 			TraderData::Create();
 			MapData::Create();
 			TaskData::Create();
 
 			SetUseASyncLoadFlag(TRUE);
+			PresetData::Instance()->LoadList();
 			ItemData::Instance()->LoadList();
 			EnemyData::Instance()->LoadList();
 			TraderData::Instance()->LoadList();
@@ -87,6 +90,7 @@ namespace FPS_n2 {
 
 			if (m_Loading) {
 				if (GetASyncLoadNum() == 0) {
+					PresetData::Instance()->WhenAfterLoadList();
 					ItemData::Instance()->WhenAfterLoadList();
 					EnemyData::Instance()->WhenAfterLoadList();
 					TraderData::Instance()->WhenAfterLoadList();
@@ -213,7 +217,7 @@ namespace FPS_n2 {
 					}
 
 					WindowSystem::SetMsg(0, 0, y_r(1920), LineHeight, LineHeight, STR_MID, White, Black, "EFT Assistant");
-					WindowSystem::SetMsg(y_r(1280), LineHeight * 1 / 10, y_r(1280), LineHeight, LineHeight * 8 / 10, STR_LEFT, White, Black, "ver %d.%d.%d", 0, 1, 2);
+					WindowSystem::SetMsg(y_r(1280), LineHeight * 1 / 10, y_r(1280), LineHeight, LineHeight * 8 / 10, STR_LEFT, White, Black, "ver %d.%d.%d", 0, 1, 3);
 					if (WindowSystem::CloseButton(y_r(1920) - LineHeight, 0)) { SetisEnd(true); }
 				}
 				//“WŠJ

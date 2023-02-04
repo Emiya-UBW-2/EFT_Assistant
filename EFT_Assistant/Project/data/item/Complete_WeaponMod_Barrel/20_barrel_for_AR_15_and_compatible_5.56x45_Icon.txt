@@ -4,5 +4,7 @@ ChildParts=[Yankee Hill Annihilator multi-caliber flash hider,AR-15 AAC Blackout
 ChildPos=[-200,-5]
 ChildParts=[M4A1 front sight with gas block,AR-15 Daniel Defense MK12 Low Profile Gas Block,AR-15 JP Enterprises Gas System-5B,AR-15 Windham Weaponry Rail Gas Block]
 ChildPos=[-120,-5]
+Conflict=[AR-15 ADAR 2-15 wooden handguard,AR-15 Colt M4 Carbine Length handguard,AR-15 KAC RIS handguard,AR-15 Magpul MOE SL carbine length M-LOK handguard,AR-15 Magpul MOE SL medium length M-LOK handguard,AR-15 Strike Industries Viper carbine length M-LOK handguard,AR-15 Strike Industries Viper carbine length M-LOK handguard (FDE)]
 Recoil=-6
 Ergonomics=-29
+
