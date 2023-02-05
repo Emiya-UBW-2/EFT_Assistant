@@ -1,2 +1,2 @@
 Name=Makarov PM 9x18PM pistol
-Itemtype=Weapon
+Itemtype=Pistol

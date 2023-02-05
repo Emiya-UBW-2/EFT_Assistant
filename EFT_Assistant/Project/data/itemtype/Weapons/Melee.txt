@@ -1,0 +1,2 @@
+Name=Melee
+Category=Weapons

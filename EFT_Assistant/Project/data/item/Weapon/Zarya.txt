@@ -1,2 +1,2 @@
 Name="Zarya" stun grenade
-Itemtype=Weapon
+Itemtype=Stun grenade

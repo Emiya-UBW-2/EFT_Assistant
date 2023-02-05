@@ -1,2 +1,2 @@
 Name=HK MP5K 9x19 submachine gun
-Itemtype=Weapon
+Itemtype=Submachine gun

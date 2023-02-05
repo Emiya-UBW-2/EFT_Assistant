@@ -1,0 +1,2 @@
+Name=Light machine gun
+Category=Weapons

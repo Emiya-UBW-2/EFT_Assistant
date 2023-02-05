@@ -1,2 +1,2 @@
 Name=PB 9x18PM silenced pistol
-Itemtype=Weapon
+Itemtype=Pistol

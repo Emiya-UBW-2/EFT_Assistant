@@ -1,2 +1,2 @@
 Name=MP-133 12ga pump-action shotgun
-Itemtype=Weapon
+Itemtype=Shotgun

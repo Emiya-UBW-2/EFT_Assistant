@@ -1,2 +1,2 @@
 Name=TOZ-106 20ga bolt-action shotgun
-Itemtype=Weapon
+Itemtype=Shotgun

@@ -1,0 +1,2 @@
+Name=Assault rifle
+Category=Weapons

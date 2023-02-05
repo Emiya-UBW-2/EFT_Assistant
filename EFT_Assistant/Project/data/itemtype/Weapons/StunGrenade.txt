@@ -1,0 +1,2 @@
+Name=Stun grenade
+Category=Weapons

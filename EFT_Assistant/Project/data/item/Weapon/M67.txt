@@ -1,2 +1,2 @@
 Name=M67 hand grenade
-Itemtype=Weapon
+Itemtype=Fragmentation grenade

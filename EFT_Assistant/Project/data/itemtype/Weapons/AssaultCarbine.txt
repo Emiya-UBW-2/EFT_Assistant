@@ -1,0 +1,2 @@
+Name=Assault carbine
+Category=Weapons

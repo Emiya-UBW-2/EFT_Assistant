@@ -1,2 +1,2 @@
 Name=Saiga-9 9x19 carbine
-Itemtype=Weapon
+Itemtype=Submachine gun
