@@ -8,9 +8,8 @@ namespace FPS_n2 {
 	class ItemList : public ListParent<ItemID> {
 		class ChildItemSettings {
 		public:
-			int xpos{ 0 };
-			int ypos{ 0 };
 			std::vector<std::pair<const ItemList*, std::string>> Data;
+			std::vector<ItemTypeID> TypeID;
 		};
 
 		typedef std::vector<std::pair<const ItemList*, std::string>> ItemSettings;
@@ -50,13 +49,6 @@ namespace FPS_n2 {
 					m_ChildPartsID.back().Data.back().second = RIGHT;
 				}
 			}
-			if (LEFT == "ChildPos") {
-				if (Args.size() > 0) {
-					m_ChildPartsID.back().xpos = std::stoi(Args.at(0));
-					m_ChildPartsID.back().ypos = std::stoi(Args.at(1));
-				}
-			}
-
 			if (LEFT == "Conflict") {
 				if (Args.size() > 0) {
 					for (auto&a : Args) {
@@ -199,6 +191,21 @@ namespace FPS_n2 {
 						if (c.first == this) {
 							m_ParentPartsID.emplace_back(&t);
 						}
+					}
+				}
+			}
+			//
+			for (auto& cp : m_ChildPartsID) {
+				for (const auto& c : cp.Data) {
+					bool isHit = false;
+					for (const auto& t : cp.TypeID) {
+						if (t == c.first->GetTypeID()) {
+							isHit = true;
+							break;
+						}
+					}
+					if (!isHit) {
+						cp.TypeID.emplace_back(c.first->GetTypeID());
 					}
 				}
 			}

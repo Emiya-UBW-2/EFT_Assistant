@@ -8,6 +8,7 @@ namespace FPS_n2 {
 			int				m_ParentSlot{ 0 };
 			int				ChildSel{ 0 };
 			int				watchCounter{ 0 };
+			int				m_PartsOn{ InvalidID };
 		public:
 			const auto& GetMySlotData() const noexcept { return this->m_ParentPtr->GetChildParts().at(this->m_ParentSlot); }
 			const auto GetPtrIsParentSlot(const ItemList* parentptr, int parentslot) const noexcept { return (this->m_ParentPtr == parentptr) && (this->m_ParentSlot == parentslot); }
@@ -17,8 +18,31 @@ namespace FPS_n2 {
 				}
 				return false;
 			}
+			void	OnOffSelect() noexcept {
+				if (this->m_PartsOn == InvalidID) {
+					if (GetIsSelected()) {
+						this->m_PartsOn = this->ChildSel;
+						this->ChildSel = (int)(GetMySlotData().Data.size());
+					}
+					else {
+						this->ChildSel = 0;
+					}
+				}
+				else {
+					this->ChildSel = this->m_PartsOn;
+					this->m_PartsOn = InvalidID;
+				}
+			}
 			void	AddSelect() noexcept {
+				this->m_PartsOn = InvalidID;
 				++this->ChildSel %= (GetMySlotData().Data.size() + 1);
+			}
+			void	SubSelect() noexcept {
+				this->m_PartsOn = InvalidID;
+				--this->ChildSel;
+				if (this->ChildSel < 0) {
+					this->ChildSel = (int)(GetMySlotData().Data.size());
+				}
 			}
 			const ItemList* GetChildPtr(int parentslot = -1) const noexcept {
 				if ((parentslot == -1) || ((parentslot != -1) && GetPtrIsParentSlot(this->m_ParentPtr, parentslot))) {
@@ -28,9 +52,8 @@ namespace FPS_n2 {
 				}
 				return nullptr;
 			}
-			const auto ChecktoBeFiltered(int parentslot, bool MagFilter, bool MountFilter, bool SightFilter) const noexcept {
+			static const auto ItemPtrChecktoBeFiltered(const ItemList* ptr, bool MagFilter, bool MountFilter, bool SightFilter) noexcept {
 				bool IsHit = false;
-				auto* ptr = GetChildPtr(parentslot);
 				if (ptr) {
 					if (MagFilter) {
 						if (
@@ -60,6 +83,9 @@ namespace FPS_n2 {
 					}
 				}
 				return IsHit;
+			}
+			const auto ChecktoBeFiltered(int parentslot, bool MagFilter, bool MountFilter, bool SightFilter) const noexcept {
+				return ItemPtrChecktoBeFiltered(GetChildPtr(parentslot), MagFilter, MountFilter, SightFilter);
 			}
 		public:
 		public:
@@ -94,11 +120,13 @@ namespace FPS_n2 {
 		bool m_EnableMag = true;
 		bool m_EnableMount = false;
 		bool m_EnableSight = false;
-		int m_Recoil = 50;
-		int m_Ergonomics = 50;
+		float m_Recoil = 50;
+		float m_Ergonomics = 50;
 
-		std::vector<Rect2D>				m_ItemRect;
 		std::vector<ChildData>			m_ChildData;
+
+		int															m_posxMaxBuffer{ 0 };
+		int															m_posyMaxBuffer{ 0 };
 	private:
 		//プリセットを適応
 		void AttachPreset(const PresetList& Preset, const ItemList* Ptr = nullptr) {
@@ -156,7 +184,7 @@ namespace FPS_n2 {
 			for (const auto& c : Ptr_Buf->GetChildParts()) {
 				auto Index = (int)(&c - &Ptr_Buf->GetChildParts().front());
 				for (const auto& cID : m_ChildData) {
-					if (cID.IsWatch() && cID.GetPtrIsParentSlot(Ptr_Buf, Index)) {
+					if (cID.GetPtrIsParentSlot(Ptr_Buf, Index)) {
 						if (cID.GetIsSelected() && CheckConflict(MyPtr, cID.GetChildPtr())) {
 							return true;
 						}
@@ -222,116 +250,104 @@ namespace FPS_n2 {
 							ErgonomicsPer += ChildPtr->GetErgonomics();
 						}
 					}
-					m_Recoil = (int)(m_BaseWeapon->GetRecoil()*(100.f + RecoilPer) / 100.f);
-					m_Ergonomics = (int)(m_BaseWeapon->GetErgonomics() + ErgonomicsPer);
+					m_Recoil = (m_BaseWeapon->GetRecoil()*(100.f + RecoilPer) / 100.f);
+					m_Ergonomics = (m_BaseWeapon->GetErgonomics() + ErgonomicsPer);
+				}
+			}
+		}
+
+		class ErgRecData {
+			class PartsBufferData {
+			public:
+				ItemID		m_PartsID;
+				float		m_RecoilPer{ 0.f };
+				float		m_ErgonomicsPer{ 0.f };
+			};
+		public:
+			std::vector<PartsBufferData>	m_Parts;
+		};
+
+		void CalcChildErgRec(std::vector<std::vector<ErgRecData>>* Data, int BaseID = 0, int BaseNest = 0, const ItemList* Ptr = nullptr) {
+			auto* Ptr_Buf = Ptr;
+			if (Ptr == nullptr) {
+				Ptr_Buf = m_BaseWeapon;
+				for (const auto& c : Ptr_Buf->GetChildParts()) {
+					Data->resize(Data->size() + 1);//こどもの分岐
+					for (auto& cptr : c.Data) {
+						//フィルターに引っかかってなければOK
+						if (!ChildData::ItemPtrChecktoBeFiltered(cptr.first, !m_EnableMag, !m_EnableMount, !m_EnableSight)) {
+							Data->back().resize(Data->back().size() + 1);
+							CalcChildErgRec(Data, (int)Data->back().size() - 1, (int)Data->back().back().m_Parts.size(), cptr.first);
+						}
+					}
+					if (Data->back().back().m_Parts.size() == 0) {
+						Data->back().pop_back();
+					}
+				}
+			}
+			if (Ptr != nullptr) {
+				Data->back().back().m_Parts.resize(Data->back().back().m_Parts.size()+1);
+				Data->back().back().m_Parts.back().m_PartsID = Ptr_Buf->GetID();
+				Data->back().back().m_Parts.back().m_RecoilPer = Data->back().at(BaseID).m_Parts.back().m_RecoilPer + Ptr_Buf->GetRecoil();
+				Data->back().back().m_Parts.back().m_ErgonomicsPer = Data->back().at(BaseID).m_Parts.back().m_ErgonomicsPer + Ptr_Buf->GetErgonomics();
+
+				bool IsChild = false;
+				for (const auto& c : Ptr_Buf->GetChildParts()) {
+					for (auto& cptr : c.Data) {
+						//フィルターに引っかかってなければOK
+						if (!ChildData::ItemPtrChecktoBeFiltered(cptr.first, !m_EnableMag, !m_EnableMount, !m_EnableSight)) {
+							IsChild = true;
+							CalcChildErgRec(Data, (int)Data->back().size() - 1, (int)Data->back().back().m_Parts.size(), cptr.first);
+						}
+					}
+				}
+				if (!IsChild) {//次のパターンへ
+					Data->back().resize(Data->back().size() + 1);
+					for (int i = 0; i < BaseNest; i++) {
+						Data->back().back().m_Parts.emplace_back(Data->back().at(BaseID).m_Parts[i]);
+					}
 				}
 			}
 		}
 		//描画
-		void DrawChild(int xpbase, int ypbase, const ItemList* Ptr, float Scale) noexcept {
-			auto* WindowMngr = WindowSystem::WindowManager::Instance();
-
-			for (const auto& c : Ptr->GetChildParts()) {
-				auto Index = (int)(&c - &Ptr->GetChildParts().front());
+		bool DrawChild(int xposbase, int yposbase, int xpos, int ypos, float Scale, int* Lane, int Nest = 0, const ItemList* Ptr = nullptr) noexcept {
+			bool HaveChild = false;
+			auto* Ptr_Buf = Ptr;
+			if (Ptr == nullptr) {
 				for (auto& cID : m_ChildData) {
-					if (cID.GetPtrIsParentSlot(Ptr, Index)) {
-						int xp = xpbase + (int)(Scale * c.xpos);
-						int yp = ypbase + (int)(Scale * c.ypos);
-						float len = std::hypotf((float)xp, (float)yp);
-						int xp2 = xp + (int)((float)xp * (float)y_r(384) / len);
-						int yp2 = yp + (int)((float)yp * (float)y_r(384) / len);
+					cID.ResetWatchCounter();
+				}
+				Ptr_Buf = m_BaseWeapon;
+				m_posxMaxBuffer = 0;
+				m_posyMaxBuffer = 0;
+			}
+			for (const auto& c : Ptr_Buf->GetChildParts()) {
+				auto Index = (int)(&c - &Ptr_Buf->GetChildParts().front());
+				for (auto& cID : m_ChildData) {
+					if (cID.GetPtrIsParentSlot(Ptr_Buf, Index)) {
+						HaveChild = true;
 
-						Rect2D P_Next;
-
-						int xsize = y_r(400);
-						int ysize = y_r(80);
-						int xbase = (xp2 > 0) ? (y_r(960) + xp2) : (y_r(960) + xp2 - xsize);
-						int ybase = y_r(540) + yp2 - ysize / 2;
-
-						if (xbase < 0) {
-							xp2 += (-xbase);
-							xbase += (-xbase);
+						int xsize = (int)((float)(600)*Scale);// y_r(400);
+						int xsizeMin = (int)((float)(30)*Scale);// y_r(400);
+						int ysize = (int)((float)(64) * Scale);// y_r(92);
+						int xbase = xposbase + Nest * (xsize + (int)((float)(y_r(30))*Scale / 0.2f));
+						int yp2 = yposbase + (*Lane) * (ysize + (int)((float)(y_r(10))*Scale / 0.2f));
+						int ybase = yp2 - ysize / 2;
+						if (Ptr != nullptr) {
+							DrawControl::Instance()->SetDrawLine(xpos, ypos, xbase, yp2, Red, y_r(3));
 						}
-						else if ((xbase + xsize - y_r(1920)) > 0) {
-							xp2 += (-(xbase + xsize - y_r(1920)));
-							xbase += (-(xbase + xsize - y_r(1920)));
-						}
-						if (ybase - LineHeight < 0) {
-							yp2 += (-(ybase - LineHeight));
-							ybase += (-(ybase - LineHeight));
-						}
-						else if ((ybase + ysize - y_r(1080)) > 0) {
-							yp2 += (-(ybase + ysize - y_r(1080)));
-							ybase += (-(ybase + ysize - y_r(1080)));
-						}
-
-						xbase = (xp2 > 0) ? (y_r(960) + xp2) : (y_r(960) + xp2 - xsize);
-						ybase = y_r(540) + yp2 - ysize / 2;
-						P_Next.Set(xbase, ybase, xsize, ysize);
-						int counter = 0;
-						while (true) {
-							bool isHit = false;
-							for (auto&r : m_ItemRect) {
-								if (r.IsHit(P_Next)) {
-									isHit = true;
-
-									if (counter < 100) {
-										//中央によるように配置
-										if (xbase + xsize / 2 > y_r(960)) {
-											xp2 -= xsize + y_r(5);
-										}
-										else {
-											xp2 += xsize + y_r(5);
-										}
-
-										if (ybase + ysize / 2 > y_r(540)) {
-											yp2 -= ysize + y_r(5);
-										}
-										else {
-											yp2 += ysize + y_r(5);
-										}
-									}
-									else {
-										xp2 -= xsize + y_r(5);
-										yp2 -= ysize + y_r(5);
-									}
-									xbase = (xp2 > 0) ? (y_r(960) + xp2) : (y_r(960) + xp2 - xsize);
-									ybase = y_r(540) + yp2 - ysize / 2;
-
-									if (xbase < 0) {
-										xp2 += (-xbase);
-										xbase += (-xbase);
-									}
-									else if ((xbase + xsize - y_r(1920)) > 0) {
-										xp2 += (-(xbase + xsize - y_r(1920)));
-										xbase += (-(xbase + xsize - y_r(1920)));
-									}
-									if (ybase - LineHeight < 0) {
-										yp2 += (-(ybase - LineHeight));
-										ybase += (-(ybase - LineHeight));
-									}
-									else if ((ybase + ysize - y_r(1080)) > 0) {
-										yp2 += (-(ybase + ysize - y_r(1080)));
-										ybase += (-(ybase + ysize - y_r(1080)));
-									}
-
-									xbase = (xp2 > 0) ? (y_r(960) + xp2) : (y_r(960) + xp2 - xsize);
-									ybase = y_r(540) + yp2 - ysize / 2;
-									P_Next.Set(xbase, ybase, xsize, ysize);
-									break;
+						auto* WindowMngr = WindowSystem::WindowManager::Instance();
+						if (WindowSystem::ClickCheckBox(xbase, ybase, xbase + xsizeMin, ybase + ysize, true, !WindowMngr->PosHitCheck(nullptr), Gray25, "<")) {
+							cID.SubSelect();
+							while (true) {
+								if (cID.GetIsSelected() && CheckConflict(cID.GetChildPtr())) {
+									cID.SubSelect();
+									continue;
 								}
-							}
-							counter++;
-							if (counter > 200) {
 								break;
 							}
-							if (!isHit) { break; }
 						}
-						m_ItemRect.emplace_back(P_Next);
-
-						DrawControl::Instance()->SetDrawLine(y_r(960) + xp, y_r(540) + yp, y_r(960) + xp2, y_r(540) + yp2, Red, y_r(3));
-
-						if (WindowSystem::ClickCheckBox(P_Next.GetPosX(), P_Next.GetPosY(), P_Next.GetPosX() + xsize, P_Next.GetPosY() + ysize, true, !WindowMngr->PosHitCheck(nullptr), Gray10, "None")) {
+						if (WindowSystem::ClickCheckBox(xbase + xsize - xsizeMin, ybase, xbase + xsize, ybase + ysize, true, !WindowMngr->PosHitCheck(nullptr), Gray25, ">")) {
 							cID.AddSelect();
 							while (true) {
 								if (cID.GetIsSelected() && CheckConflict(cID.GetChildPtr())) {
@@ -341,27 +357,54 @@ namespace FPS_n2 {
 								break;
 							}
 						}
-						if (cID.GetIsSelected()) {
-							cID.GetChildPtr()->Draw(P_Next.GetPosX(), P_Next.GetPosY(), xsize, ysize, 0, Gray10, false);
-							DrawChild(xp, yp, cID.GetChildPtr(), Scale);
+						if (WindowSystem::ClickCheckBox(xbase + xsizeMin, ybase, xbase + xsize - xsizeMin, ybase + ysize, true, !WindowMngr->PosHitCheck(nullptr), Gray10, "None")) {
+							cID.OnOffSelect();
 						}
+						m_posxMaxBuffer = std::max(m_posxMaxBuffer, xbase + xsize);
+						m_posyMaxBuffer = std::max(m_posyMaxBuffer, ybase + ysize);
+
+						//
+						if (cID.GetIsSelected()) {
+							cID.GetChildPtr()->Draw(xbase + xsizeMin, ybase, xsize - xsizeMin * 2, ysize, 0, Gray10, false);
+
+							if (DrawChild(xposbase, yposbase, xbase + xsize, yp2, Scale, Lane, Nest + 1, cID.GetChildPtr())) {
+								(*Lane)--;
+							}
+						}
+						//
+						int xOfset = xsizeMin;
+						int Hight = LineHeight * 3 / 4;
+						for (const auto& t : cID.GetMySlotData().TypeID) {
+							int xOfsetAdd = WindowSystem::GetMsgLen(Hight, "[%s]", ItemTypeData::Instance()->FindPtr(t)->GetName().c_str());
+							if (xOfset + xOfsetAdd > (xsize - xsizeMin * 2)) {
+								break;
+							}
+							WindowSystem::SetMsg(xbase + xOfset, ybase, xbase + xOfset, ybase + Hight, Hight, FontHandle::FontXCenter::LEFT, White, Black,
+								"[%s]", ItemTypeData::Instance()->FindPtr(t)->GetName().c_str());
+							xOfset += xOfsetAdd;
+						}
+
+						(*Lane)++;
 						break;
 					}
 				}
 			}
+			return HaveChild;
 		}
 	private:
-		void Init_Sub(int*, int*, float*) noexcept override {
+		void Init_Sub(int *posx, int *posy, float* Scale) noexcept override {
+			*posx = y_r(100);
+			*posy = LineHeight + y_r(100);
+			*Scale = 0.2f;
 			m_SelectBuffer = InvalidID;
 			m_BaseWeapon = nullptr;
 
 			m_EnableMag = true;
 			m_EnableMount = false;
 			m_EnableSight = false;
-			m_Recoil = 50;
-			m_Ergonomics = 50;
+			m_Recoil = 50.f;
+			m_Ergonomics = 50.f;
 
-			m_ItemRect.clear();
 			m_ChildData.clear();
 
 			m_XChild = 0.f;
@@ -382,20 +425,33 @@ namespace FPS_n2 {
 				}
 				//設定
 				CalcChild();
+				//パターンを検索
+				//*
+				{
+					float RecoilPer2 = m_Recoil * 100.f / m_BaseWeapon->GetRecoil() - 100.f;
+					float ErgonomicsPer2 = (m_Ergonomics - m_BaseWeapon->GetErgonomics());
+
+					std::vector<std::vector<ErgRecData>> Data;
+					CalcChildErgRec(&Data);
+
+					int a = 0;
+				}
+				//*/
 			}
 		}
 
-		void Draw_Back_Sub(int, int, float) noexcept override {
+		void Draw_Back_Sub(int xpos, int ypos, float scale) noexcept override {
 			if (m_BaseWeapon) {
 				if (m_BaseWeapon->GetIcon().GetGraph()) {
-					float Scale = (float)y_r(1920) / m_BaseWeapon->GetIcon().GetXSize();
-					DrawControl::Instance()->SetDrawRotaGraph(m_BaseWeapon->GetIcon().GetGraph(), y_r(960), y_r(540), Scale, 0.f, false);
-					DrawChild(0, 0, m_BaseWeapon, Scale);
-					m_ItemRect.clear();
+					float Scale = ((float)y_r(1920) / m_BaseWeapon->GetIcon().GetXSize()) * scale;
+					DrawControl::Instance()->SetDrawRotaGraph(m_BaseWeapon->GetIcon().GetGraph(), xpos + (int)((float)y_r(960)*scale / 0.2f), ypos + (int)((float)y_r(540)*scale / 0.2f), Scale, 0.f, false);
+					int Lane = 0;
+					DrawChild(xpos, ypos, 0, 0, Scale, &Lane);
 				}
 			}
 		}
-		void DrawFront_Sub(int, int, float) noexcept override {
+		void DrawFront_Sub(int posx, int posy, float) noexcept override {
+			auto* DrawParts = DXDraw::Instance();
 			//
 			{
 				int xp = y_r(10);
@@ -467,11 +523,17 @@ namespace FPS_n2 {
 				//
 				yp -= y_r(80);
 				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, FontHandle::FontXCenter::LEFT, White, Black, "エルゴノミクス");
-				WindowSystem::UpDownBar(xp, y_r(360), yp + LineHeight + y_r(5), &m_Ergonomics, 0, 100);
+				int Erg = (int)m_Ergonomics, OldE = Erg;
+				WindowSystem::UpDownBar(xp, y_r(360), yp + LineHeight + y_r(5), &Erg, 0, 100);
+				if (OldE != Erg) {
+					m_Ergonomics = (float)Erg;
+				}
 				//
 				yp -= y_r(80);
 				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, FontHandle::FontXCenter::LEFT, White, Black, "縦リコイル");
-				WindowSystem::UpDownBar(xp, y_r(360), yp + LineHeight + y_r(5), &m_Recoil, 10, 200);
+				int Rec = (int)m_Recoil, OldR = Rec;
+				WindowSystem::UpDownBar(xp, y_r(360), yp + LineHeight + y_r(5), &Rec, 10, 200);
+				if (OldR != Rec) { m_Recoil = (float)Rec; }
 				//
 				yp -= y_r(50);
 				WindowSystem::CheckBox(xp, yp, &m_EnableSight);
@@ -492,10 +554,30 @@ namespace FPS_n2 {
 					m_EnableSight = false;
 				}
 			}
+			//場所ガイド
+			if (m_BaseWeapon) {
+				if (m_BaseWeapon->GetIcon().GetGraph()) {
+					int xp = y_r(1440);
+					int yp = y_r(820);
+
+					int xs = y_r(320);
+					int ys = y_r(180);
+
+					int x_p1 = std::max(posx * xs / DrawParts->m_DispXSize, -xs / 2);
+					int y_p1 = std::max(posy * ys / DrawParts->m_DispYSize, -ys / 2);
+					int x_p2 = std::min(this->m_posxMaxBuffer * xs / DrawParts->m_DispXSize, xs + xs / 2);
+					int y_p2 = std::min(this->m_posyMaxBuffer * ys / DrawParts->m_DispYSize, ys + ys / 2);
+
+					DrawControl::Instance()->SetAlpha(64);
+					DrawControl::Instance()->SetDrawBox(xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Black, TRUE);
+					DrawControl::Instance()->SetAlpha(255);
+					DrawControl::Instance()->SetDrawBox(xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Green, FALSE);
+					DrawControl::Instance()->SetDrawBox(xp, yp, xp + xs, yp + ys, Red, FALSE);
+				}
+			}
 			//
 		}
 		void Dispose_Sub(void) noexcept override {
-			m_ItemRect.clear();
 			m_ChildData.clear();
 		}
 	};
