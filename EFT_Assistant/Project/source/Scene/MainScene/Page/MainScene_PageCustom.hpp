@@ -117,7 +117,7 @@ namespace FPS_n2 {
 		ItemID	m_SelectBuffer{ InvalidID };
 		ItemList* m_BaseWeapon{ nullptr };
 
-		bool m_EnableMag = true;
+		bool m_EnableMag = false;
 		bool m_EnableMount = false;
 		bool m_EnableSight = false;
 		float m_Recoil = 50;
@@ -127,6 +127,37 @@ namespace FPS_n2 {
 
 		int															m_posxMaxBuffer{ 0 };
 		int															m_posyMaxBuffer{ 0 };
+
+
+		class PartsBaseData {
+		public:
+			std::vector<std::string>	m_PartsID;
+			float				m_RecoilPer{ 0.f };
+			float				m_ErgonomicsPer{ 0.f };
+		};
+		class ErgRecData {
+			class PartsBufferData {
+			public:
+				std::string		m_PartsID;
+				float		m_RecoilPer{ 0.f };
+				float		m_ErgonomicsPer{ 0.f };
+			};
+		public:
+			std::vector<PartsBufferData>	m_Parts;
+		};
+		std::vector<std::vector<PartsBaseData>>	m_PartsBaseData;
+		std::vector<PartsBaseData>				m_PartsResultData;
+		std::vector<int>						m_PartsSeek;
+		bool									m_PartsChange{ true };
+		void AddPartsSeek(int i) noexcept {
+			if (i >= 0) {
+				m_PartsSeek[i]++;
+				if (m_PartsSeek[i] >= m_PartsBaseData[i].size()) {
+					m_PartsSeek[i] = 0;
+					AddPartsSeek(i - 1);
+				}
+			}
+		};
 	private:
 		//プリセットを適応
 		void AttachPreset(const PresetList& Preset, const ItemList* Ptr = nullptr) {
@@ -256,20 +287,10 @@ namespace FPS_n2 {
 			}
 		}
 
-		class ErgRecData {
-			class PartsBufferData {
-			public:
-				ItemID		m_PartsID;
-				float		m_RecoilPer{ 0.f };
-				float		m_ErgonomicsPer{ 0.f };
-			};
-		public:
-			std::vector<PartsBufferData>	m_Parts;
-		};
-
 		void CalcChildErgRec(std::vector<std::vector<ErgRecData>>* Data, int BaseID = 0, int BaseNest = 0, const ItemList* Ptr = nullptr) {
 			auto* Ptr_Buf = Ptr;
 			if (Ptr == nullptr) {
+				Data->clear();
 				Ptr_Buf = m_BaseWeapon;
 				for (const auto& c : Ptr_Buf->GetChildParts()) {
 					Data->resize(Data->size() + 1);//こどもの分岐
@@ -280,14 +301,18 @@ namespace FPS_n2 {
 							CalcChildErgRec(Data, (int)Data->back().size() - 1, (int)Data->back().back().m_Parts.size(), cptr.first);
 						}
 					}
-					if (Data->back().back().m_Parts.size() == 0) {
-						Data->back().pop_back();
+					for (int i = 0; i < Data->back().size(); i++) {
+						if (Data->back()[i].m_Parts.size() == 0) {
+							std::swap(Data->back()[i], Data->back().back());
+							Data->back().pop_back();
+							i--;
+						}
 					}
 				}
 			}
 			if (Ptr != nullptr) {
 				Data->back().back().m_Parts.resize(Data->back().back().m_Parts.size()+1);
-				Data->back().back().m_Parts.back().m_PartsID = Ptr_Buf->GetID();
+				Data->back().back().m_Parts.back().m_PartsID = Ptr_Buf->GetName();
 				Data->back().back().m_Parts.back().m_RecoilPer = Data->back().at(BaseID).m_Parts.back().m_RecoilPer + Ptr_Buf->GetRecoil();
 				Data->back().back().m_Parts.back().m_ErgonomicsPer = Data->back().at(BaseID).m_Parts.back().m_ErgonomicsPer + Ptr_Buf->GetErgonomics();
 
@@ -309,6 +334,31 @@ namespace FPS_n2 {
 				}
 			}
 		}
+
+		void CalcChildErgRec(std::vector<PartsBaseData>* AnsData, const ItemList* Ptr = nullptr) {
+			auto* Ptr_Buf = Ptr;
+			if (Ptr == nullptr) {
+				Ptr_Buf = m_BaseWeapon;
+				AnsData->resize(AnsData->size() + 1);
+			}
+			int Now = 0;
+			for (const auto& c : Ptr_Buf->GetChildParts()) {
+				for (auto& cptr : c.Data) {
+					//フィルターに引っかかってなければOK
+					if (!ChildData::ItemPtrChecktoBeFiltered(cptr.first, !m_EnableMag, !m_EnableMount, !m_EnableSight)) {
+						CalcChildErgRec(AnsData, cptr.first);
+						Now++;
+					}
+				}
+			}
+			AnsData->back().m_PartsID.emplace_back(Ptr_Buf->GetName());
+			AnsData->back().m_RecoilPer += Ptr_Buf->GetRecoil();
+			AnsData->back().m_ErgonomicsPer += Ptr_Buf->GetErgonomics();
+			if (Now == 0) {
+				AnsData->resize(AnsData->size() + 1);
+			}
+		}
+
 		//描画
 		bool DrawChild(int xposbase, int yposbase, int xpos, int ypos, float Scale, int* Lane, int Nest = 0, const ItemList* Ptr = nullptr) noexcept {
 			bool HaveChild = false;
@@ -426,17 +476,67 @@ namespace FPS_n2 {
 				//設定
 				CalcChild();
 				//パターンを検索
-				//*
-				{
+				m_PartsChange = false;//これで無効化
+				if (m_PartsChange) {
+					m_PartsChange = false;
 					float RecoilPer2 = m_Recoil * 100.f / m_BaseWeapon->GetRecoil() - 100.f;
 					float ErgonomicsPer2 = (m_Ergonomics - m_BaseWeapon->GetErgonomics());
 
-					std::vector<std::vector<ErgRecData>> Data;
-					CalcChildErgRec(&Data);
+					std::vector<std::vector<ErgRecData>>	m_PartsDatas;
+					CalcChildErgRec(&m_PartsDatas);
 
+					std::vector<PartsBaseData> Tmp;
+					CalcChildErgRec(&Tmp);
+
+					m_PartsBaseData.clear();
+					for (auto& parents : m_PartsDatas) {
+						m_PartsBaseData.resize(m_PartsBaseData.size() + 1);
+						auto& back = m_PartsBaseData.back();
+						for (auto& Base : parents) {
+							back.resize(back.size() + 1);
+							back.back().m_RecoilPer = 0.f;
+							back.back().m_ErgonomicsPer = 0.f;
+							for (auto& p : Base.m_Parts) {
+								back.back().m_PartsID.emplace_back(p.m_PartsID);
+								back.back().m_RecoilPer += p.m_RecoilPer;
+								back.back().m_ErgonomicsPer += p.m_ErgonomicsPer;
+							}
+						}
+					}
+					//*
+					m_PartsResultData.clear();
+					m_PartsResultData.reserve(5000000);
+					m_PartsSeek.resize(m_PartsBaseData.size());
+					for (auto& seeks : m_PartsSeek) { seeks = 0; }
+					while (true) {
+						m_PartsResultData.resize(m_PartsResultData.size() + 1);
+						m_PartsResultData.back().m_PartsID.clear();
+						m_PartsResultData.back().m_RecoilPer = 0.f;
+						m_PartsResultData.back().m_ErgonomicsPer = 0.f;
+
+						for (auto& parents : m_PartsBaseData) {
+							auto& Base = parents[m_PartsSeek[(int)(&parents - &m_PartsBaseData.front())]];
+							for (auto& p : Base.m_PartsID) {
+								m_PartsResultData.back().m_PartsID.emplace_back(p);
+							}
+							m_PartsResultData.back().m_RecoilPer += Base.m_RecoilPer;
+							m_PartsResultData.back().m_ErgonomicsPer += Base.m_ErgonomicsPer;
+						}
+						AddPartsSeek((int)(m_PartsSeek.size()) - 1);
+						int count = 0;
+						for (auto& seeks : m_PartsSeek) { count += seeks; }
+						if (count == 0) { break; }
+
+						ProcessMessage();
+					}
+					//*/
 					int a = 0;
+
 				}
-				//*/
+			}
+			else {
+				m_PartsResultData.clear();
+				m_PartsChange = false;
 			}
 		}
 
@@ -502,6 +602,7 @@ namespace FPS_n2 {
 					m_SelectBuffer = m_ItemIDs.back().first;
 					if (m_SelectBuffer != prev) {
 						m_BaseWeapon = (m_SelectBuffer != InvalidID) ? ItemData::Instance()->FindPtr(m_SelectBuffer) : nullptr;
+						m_PartsChange = true;
 					}
 					if (m_BaseWeapon == nullptr) {
 						m_ChildData.clear();
@@ -518,6 +619,11 @@ namespace FPS_n2 {
 			}
 			//下から上に
 			{
+				bool PrevSight = m_EnableSight;
+				bool PrevMount = m_EnableMount;
+				bool PrevMag = m_EnableMag;
+
+
 				int xp = LineHeight;
 				int yp = y_r(1080) - LineHeight;
 				//
@@ -553,6 +659,10 @@ namespace FPS_n2 {
 				if (!m_EnableMount) {
 					m_EnableSight = false;
 				}
+				if ((PrevSight != m_EnableSight) || (PrevMount != m_EnableMount) || (PrevMag != m_EnableMag)) {
+					m_PartsChange = true;
+				}
+
 			}
 			//場所ガイド
 			if (m_BaseWeapon) {

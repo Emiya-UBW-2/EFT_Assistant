@@ -101,7 +101,7 @@ namespace FPS_n2 {
 			}
 			//FirstDoing
 			if (GetIsFirstLoop()) {
-				SetWindowPosition(0, 0);
+				SetWindowPosition(-960, 0);//0,0
 			}
 			auto mouse_moveX = Input->GetMouseX();							//ドラッグ前のマウス座標格納
 			auto mouse_moveY = Input->GetMouseY();
