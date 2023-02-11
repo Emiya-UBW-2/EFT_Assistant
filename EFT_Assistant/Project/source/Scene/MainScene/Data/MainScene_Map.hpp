@@ -4,7 +4,7 @@
 namespace FPS_n2 {
 	typedef int MapID;
 	class MapList : public ListParent<MapID> {
-		std::vector<std::pair<Graphs,int>>		m_MapGraph;
+		std::vector<std::pair<Graphs, int>>		m_MapGraph;
 	private:
 		//í«â¡ê›íË
 		void			Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>&) noexcept override {

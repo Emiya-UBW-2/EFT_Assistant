@@ -29,7 +29,16 @@ namespace FPS_n2 {
 					}
 				}
 				else {
-					this->ChildSel = this->m_PartsOn;
+					bool IsHit = false;
+					int  Now = 0;
+					for (const auto& cID2 : GetMySlotData().Data) {
+						if (PlayerData::Instance()->GetItemLock(cID2.first->GetName().c_str())) {
+							IsHit = true;
+							break;
+						}
+						Now++;
+					}
+					this->ChildSel = IsHit ? Now : this->m_PartsOn;
 					this->m_PartsOn = InvalidID;
 				}
 			}
@@ -249,7 +258,23 @@ namespace FPS_n2 {
 				if (!IsHit) {
 					//設定vectorに追加
 					m_ChildData.resize(m_ChildData.size() + 1);
-					m_ChildData.back().Set(Ptr_Buf, Index, (int)(c.Data.size()));
+					m_ChildData.back().Set(Ptr_Buf, Index, 0);
+					//
+					auto& cID = m_ChildData.back();
+					for (const auto& cID2 : m_ChildData.back().GetMySlotData().Data) {
+						if (PlayerData::Instance()->GetItemLock(cID2.first->GetName().c_str())) {
+							break;
+						}
+						cID.AddSelect();
+					}
+					//
+					while (true) {
+						if (cID.GetIsSelected() && CheckConflict(cID.GetChildPtr())) {
+							cID.AddSelect();
+							continue;
+						}
+						break;
+					}
 				}
 			}
 			if (Ptr == nullptr) {
@@ -311,7 +336,7 @@ namespace FPS_n2 {
 				}
 			}
 			if (Ptr != nullptr) {
-				Data->back().back().m_Parts.resize(Data->back().back().m_Parts.size()+1);
+				Data->back().back().m_Parts.resize(Data->back().back().m_Parts.size() + 1);
 				Data->back().back().m_Parts.back().m_PartsID = Ptr_Buf->GetName();
 				Data->back().back().m_Parts.back().m_RecoilPer = Data->back().at(BaseID).m_Parts.back().m_RecoilPer + Ptr_Buf->GetRecoil();
 				Data->back().back().m_Parts.back().m_ErgonomicsPer = Data->back().at(BaseID).m_Parts.back().m_ErgonomicsPer + Ptr_Buf->GetErgonomics();
@@ -361,6 +386,8 @@ namespace FPS_n2 {
 
 		//描画
 		bool DrawChild(int xposbase, int yposbase, int xpos, int ypos, float Scale, int* Lane, int Nest = 0, const ItemList* Ptr = nullptr) noexcept {
+			auto* Input = InputControl::Instance();
+
 			bool HaveChild = false;
 			auto* Ptr_Buf = Ptr;
 			if (Ptr == nullptr) {
@@ -384,7 +411,7 @@ namespace FPS_n2 {
 						int yp2 = yposbase + (*Lane) * (ysize + (int)((float)(y_r(10))*Scale / 0.2f));
 						int ybase = yp2 - ysize / 2;
 						if (Ptr != nullptr) {
-							DrawControl::Instance()->SetDrawLine(xpos, ypos, xbase, yp2, Red, y_r(3));
+							DrawControl::Instance()->SetDrawLine(false, xpos, ypos, xbase, yp2, Red, y_r(3));
 						}
 						auto* WindowMngr = WindowSystem::WindowManager::Instance();
 						if (WindowSystem::ClickCheckBox(xbase, ybase, xbase + xsizeMin, ybase + ysize, true, !WindowMngr->PosHitCheck(nullptr), Gray25, "<")) {
@@ -409,16 +436,40 @@ namespace FPS_n2 {
 						}
 						if (WindowSystem::ClickCheckBox(xbase + xsizeMin, ybase, xbase + xsize - xsizeMin, ybase + ysize, true, !WindowMngr->PosHitCheck(nullptr), Gray10, "None")) {
 							cID.OnOffSelect();
+							while (true) {
+								if (cID.GetIsSelected() && CheckConflict(cID.GetChildPtr())) {
+									cID.AddSelect();
+									continue;
+								}
+								break;
+							}
 						}
+
 						m_posxMaxBuffer = std::max(m_posxMaxBuffer, xbase + xsize);
 						m_posyMaxBuffer = std::max(m_posyMaxBuffer, ybase + ysize);
 
 						//
 						if (cID.GetIsSelected()) {
-							cID.GetChildPtr()->Draw(xbase + xsizeMin, ybase, xsize - xsizeMin * 2, ysize, 0, Gray10, false);
+							cID.GetChildPtr()->Draw(xbase + xsizeMin, ybase, xsize - xsizeMin * 2, ysize, 0, Gray10, false, false);
 
 							if (DrawChild(xposbase, yposbase, xbase + xsize, yp2, Scale, Lane, Nest + 1, cID.GetChildPtr())) {
 								(*Lane)--;
+							}
+
+							if (in2_(Input->GetMouseX(), Input->GetMouseY(), xbase, ybase, xbase + xsize, ybase + ysize)) {
+								DrawControl::Instance()->SetDrawBox(false, xbase, ybase, xbase + xsize, ybase + ysize, RedPop, false);
+								if (Input->GetKey('L').trigger()) {
+									//ロックをかける
+									for (const auto& cID2 : cID.GetMySlotData().Data) {
+										PlayerData::Instance()->SetItemLock(cID2.first->GetName().c_str(), false);
+									}
+									PlayerData::Instance()->OnOffItemLock(cID.GetChildPtr()->GetName().c_str());
+								}
+								DrawControl::Instance()->SetString(true,
+									FontPool::FontType::Nomal_Edge, LineHeight,
+									FontHandle::FontXCenter::RIGHT, FontHandle::FontYCenter::BOTTOM, Input->GetMouseX(), Input->GetMouseY(), RedPop, Black,
+									"Lキーで優先パーツに設定"
+								);
 							}
 						}
 						//
@@ -479,8 +530,8 @@ namespace FPS_n2 {
 				m_PartsChange = false;//これで無効化
 				if (m_PartsChange) {
 					m_PartsChange = false;
-					float RecoilPer2 = m_Recoil * 100.f / m_BaseWeapon->GetRecoil() - 100.f;
-					float ErgonomicsPer2 = (m_Ergonomics - m_BaseWeapon->GetErgonomics());
+					//float RecoilPer2 = m_Recoil * 100.f / m_BaseWeapon->GetRecoil() - 100.f;
+					//float ErgonomicsPer2 = (m_Ergonomics - m_BaseWeapon->GetErgonomics());
 
 					std::vector<std::vector<ErgRecData>>	m_PartsDatas;
 					CalcChildErgRec(&m_PartsDatas);
@@ -503,7 +554,7 @@ namespace FPS_n2 {
 							}
 						}
 					}
-					//*
+					//
 					m_PartsResultData.clear();
 					m_PartsResultData.reserve(5000000);
 					m_PartsSeek.resize(m_PartsBaseData.size());
@@ -529,9 +580,6 @@ namespace FPS_n2 {
 
 						ProcessMessage();
 					}
-					//*/
-					int a = 0;
-
 				}
 			}
 			else {
@@ -544,7 +592,7 @@ namespace FPS_n2 {
 			if (m_BaseWeapon) {
 				if (m_BaseWeapon->GetIcon().GetGraph()) {
 					float Scale = ((float)y_r(1920) / m_BaseWeapon->GetIcon().GetXSize()) * scale;
-					DrawControl::Instance()->SetDrawRotaGraph(m_BaseWeapon->GetIcon().GetGraph(), xpos + (int)((float)y_r(960)*scale / 0.2f), ypos + (int)((float)y_r(540)*scale / 0.2f), Scale, 0.f, false);
+					DrawControl::Instance()->SetDrawRotaGraph(false, m_BaseWeapon->GetIcon().GetGraph(), xpos + (int)((float)y_r(960)*scale / 0.2f), ypos + (int)((float)y_r(540)*scale / 0.2f), Scale, 0.f, false);
 					int Lane = 0;
 					DrawChild(xpos, ypos, 0, 0, Scale, &Lane);
 				}
@@ -557,7 +605,7 @@ namespace FPS_n2 {
 				int xp = y_r(10);
 				int yp = LineHeight + y_r(10);
 				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(200), yp + LineHeight, false, true, Gray25, "戻る")) {
-					if (m_ItemIDs.back().first!= InvalidID) {
+					if (m_ItemIDs.back().first != InvalidID) {
 						m_ItemIDs.back().first = InvalidID;
 					}
 					else {
@@ -613,7 +661,7 @@ namespace FPS_n2 {
 					xgoal -= xs_add / 2;
 				}
 				if (m_SelectBuffer != InvalidID) {
-					xgoal += xs_add*2;
+					xgoal += xs_add * 2;
 				}
 				Easing(&m_XChild, (float)xgoal, 0.8f, EasingType::OutExpo);
 			}
@@ -678,11 +726,11 @@ namespace FPS_n2 {
 					int x_p2 = std::min(this->m_posxMaxBuffer * xs / DrawParts->m_DispXSize, xs + xs / 2);
 					int y_p2 = std::min(this->m_posyMaxBuffer * ys / DrawParts->m_DispYSize, ys + ys / 2);
 
-					DrawControl::Instance()->SetAlpha(64);
-					DrawControl::Instance()->SetDrawBox(xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Black, TRUE);
-					DrawControl::Instance()->SetAlpha(255);
-					DrawControl::Instance()->SetDrawBox(xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Green, FALSE);
-					DrawControl::Instance()->SetDrawBox(xp, yp, xp + xs, yp + ys, Red, FALSE);
+					DrawControl::Instance()->SetAlpha(false, 64);
+					DrawControl::Instance()->SetDrawBox(false, xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Black, TRUE);
+					DrawControl::Instance()->SetAlpha(false, 255);
+					DrawControl::Instance()->SetDrawBox(false, xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Green, FALSE);
+					DrawControl::Instance()->SetDrawBox(false, xp, yp, xp + xs, yp + ys, Red, FALSE);
 				}
 			}
 			//

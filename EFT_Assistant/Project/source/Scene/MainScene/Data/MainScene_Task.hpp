@@ -257,7 +257,7 @@ namespace FPS_n2 {
 				for (const auto& LL : m_TaskNeedData.GetItem()) {
 					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
 					int total_size = y_r(92);
-					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window)) + y_r(30));
+					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window), false) + y_r(30));
 					yofs += total_size;
 				}
 			}
@@ -287,7 +287,7 @@ namespace FPS_n2 {
 				for (const auto& LL : m_TaskWorkData.GetFiR_Item()) {
 					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
 					int total_size = y_r(92);
-					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window)) + y_r(30));
+					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window), true) + y_r(30));
 					yofs += total_size;
 				}
 			}
@@ -297,7 +297,7 @@ namespace FPS_n2 {
 				for (const auto& LL : m_TaskWorkData.GetNotFiR_Item()) {
 					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
 					int total_size = y_r(92);
-					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window)) + y_r(30));
+					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window), false) + y_r(30));
 					yofs += total_size;
 				}
 			}
@@ -314,7 +314,7 @@ namespace FPS_n2 {
 				for (const auto& LL : m_TaskRewardData.GetItem()) {
 					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
 					int total_size = y_r(92);
-					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window)) + y_r(30));
+					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window), true) + y_r(30));
 					yofs += total_size;
 				}
 				//yofs += sizy;

@@ -37,7 +37,7 @@ namespace FPS_n2 {
 	};
 
 	template<class ListChild>
-	static void MakeList(int xp1, int yp1, const std::vector<ListChild>& List, int*Select, bool isActive, bool isElseSelect,bool isAllSelect, const std::function<bool(const ListChild*)>& CheckLocal) noexcept {
+	static void MakeList(int xp1, int yp1, const std::vector<ListChild>& List, int*Select, bool isActive, bool isElseSelect, bool isAllSelect, const std::function<bool(const ListChild*)>& CheckLocal) noexcept {
 		auto* WindowMngr = WindowSystem::WindowManager::Instance();
 		int xsize = y_r(400);
 		int ysize = LineHeight;

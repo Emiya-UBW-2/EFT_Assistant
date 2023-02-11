@@ -90,11 +90,11 @@ namespace FPS_n2 {
 			if (m_MapSelect != InvalidID) {
 				auto* MapPtr = MapData::Instance()->FindPtr(m_MapSelect);
 				if (MapPtr->GetMapGraph((int)m_WatchMapSelect)) {
-					DrawControl::Instance()->SetDrawRotaGraph(MapPtr->GetMapGraph((int)m_WatchMapSelect), posx, posy, Scale / 2.f, m_Rad, false);
+					DrawControl::Instance()->SetDrawRotaGraph(false, MapPtr->GetMapGraph((int)m_WatchMapSelect), posx, posy, Scale / 2.f, m_Rad, false);
 				}
 			}
 			if (ComPass.GetGraph()) {
-				DrawControl::Instance()->SetDrawRotaGraph(ComPass.GetGraph(), y_r(100), y_r(1080 - 100), 1.f, m_ComPassRad, true);
+				DrawControl::Instance()->SetDrawRotaGraph(false, ComPass.GetGraph(), y_r(100), y_r(1080 - 100), 1.f, m_ComPassRad, true);
 			}
 		}
 		void DrawFront_Sub(int, int, float) noexcept override {

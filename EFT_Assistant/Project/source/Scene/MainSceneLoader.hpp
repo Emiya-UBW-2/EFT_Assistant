@@ -13,11 +13,9 @@ namespace FPS_n2 {
 			SetUseASyncLoadFlag(FALSE);
 		}
 		bool Update_Sub(void) noexcept override {
-			
 			return !(!GetIsFirstLoop() && (GetASyncLoadNum() == 0));
 		}
-		void Dispose_Sub(void) noexcept override {
-		}
+		void Dispose_Sub(void) noexcept override {}
 	public:
 		//UI•\Ž¦
 		void DrawUI_In_Sub(void) noexcept  override {

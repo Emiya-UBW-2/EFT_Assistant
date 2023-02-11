@@ -40,7 +40,7 @@ namespace FPS_n2 {
 						parentCanDo_t = false;
 					}
 					if (ParentID != InvalidID) {
-						DrawControl::Instance()->SetDrawLine(start_x, start_y, xp, yp + ys / 2, Red, (int)(5.f * Scale));
+						DrawControl::Instance()->SetDrawLine(false, start_x, start_y, xp, yp + ys / 2, Red, (int)(5.f * Scale));
 					}
 					if (WindowSystem::ClickCheckBox(xp, yp, xp + xs, yp + ys, false, !WindowMngr->PosHitCheck(nullptr), color, (Scale > 0.5f) ? tasks.GetName() : "")) {
 						auto sizeXBuf = y_r(800);
@@ -135,11 +135,11 @@ namespace FPS_n2 {
 				int x_p2 = std::min(this->m_posxMaxBuffer * xs / DrawParts->m_DispXSize, xs + xs / 2);
 				int y_p2 = std::min(this->m_posyMaxBuffer * ys / DrawParts->m_DispYSize, ys + ys / 2);
 
-				DrawControl::Instance()->SetAlpha(64);
-				DrawControl::Instance()->SetDrawBox(xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Black, TRUE);
-				DrawControl::Instance()->SetAlpha(255);
-				DrawControl::Instance()->SetDrawBox(xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Green, FALSE);
-				DrawControl::Instance()->SetDrawBox(xp, yp, xp + xs, yp + ys, Red, FALSE);
+				DrawControl::Instance()->SetAlpha(false, 64);
+				DrawControl::Instance()->SetDrawBox(false, xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Black, TRUE);
+				DrawControl::Instance()->SetAlpha(false, 255);
+				DrawControl::Instance()->SetDrawBox(false, xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Green, FALSE);
+				DrawControl::Instance()->SetDrawBox(false, xp, yp, xp + xs, yp + ys, Red, FALSE);
 			}
 			//
 			{

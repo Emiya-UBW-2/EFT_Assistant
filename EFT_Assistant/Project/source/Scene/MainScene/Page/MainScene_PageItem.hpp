@@ -66,7 +66,7 @@ namespace FPS_n2 {
 						ishit = (L.GetMapID().size() == 0);
 					}
 					if (ishit || m_ItemIDs[2].first == InvalidID) {
-						L.Draw(xpos, yp0, ScrPosX - xpos - y_r(36), ysize, 0, Gray75, !WindowMngr->PosHitCheck(nullptr));
+						L.Draw(xpos, yp0, ScrPosX - xpos - y_r(36), ysize, 0, Gray75, !WindowMngr->PosHitCheck(nullptr), false);
 						yp0 += ysize;
 					}
 				}

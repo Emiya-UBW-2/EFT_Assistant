@@ -8,23 +8,22 @@ namespace FPS_n2 {
 	class ItemList : public ListParent<ItemID> {
 		class ChildItemSettings {
 		public:
-			std::vector<std::pair<const ItemList*, std::string>> Data;
-			std::vector<ItemTypeID> TypeID;
+			std::vector<std::pair<const ItemList*, std::string>>	Data;
+			std::vector<ItemTypeID>									TypeID;
 		};
-
 		typedef std::vector<std::pair<const ItemList*, std::string>> ItemSettings;
 
-		ItemTypeID	m_TypeID{ InvalidID };
-		std::vector<MapID>	m_MapID;
+		ItemTypeID												m_TypeID{ InvalidID };
+		std::vector<MapID>										m_MapID;
 		std::vector<ChildItemSettings>							m_ChildPartsID;
 		std::vector<const ItemList*>							m_ParentPartsID;
 		std::vector<std::pair<const ItemList*, std::string>>	m_ConflictPartsID;
-		float		m_Recoil{ 0.f };
-		float		m_Ergonomics{ 0.f };
-		bool		m_isWeaponMod{ false };
+		float													m_Recoil{ 0.f };
+		float													m_Ergonomics{ 0.f };
+		bool													m_isWeaponMod{ false };
 	private:
 		//í«â¡ê›íË
-		void			Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept override {
+		void	Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept override {
 			if (LEFT == "Itemtype") {
 				m_TypeID = ItemTypeData::Instance()->FindID(RIGHT.c_str());
 			}
@@ -109,7 +108,7 @@ namespace FPS_n2 {
 		const auto&	GetRecoil() const noexcept { return m_Recoil; }
 		const auto&	GetErgonomics() const noexcept { return m_Ergonomics; }
 	public:
-		const int		Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive) const noexcept;
+		const int		Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive, bool IsFir) const noexcept;
 		void			DrawWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept {
 			auto* WindowMngr = WindowSystem::WindowManager::Instance();
 			int xofs = 0;
@@ -130,27 +129,27 @@ namespace FPS_n2 {
 				for (const auto& cp : m_ChildPartsID) {
 					for (const auto& c : cp.Data) {
 						auto* ptr = c.first;
-						xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, y_r(800), ysize, 0, defaultcolor, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0))) + y_r(30)); yofs += ysize;
+						xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, y_r(800), ysize, 0, defaultcolor, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0)), false) + y_r(30)); yofs += ysize;
 					}
 				}
 				for (const auto& c : m_ParentPartsID) {
 					auto* ptr = c;
-					xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, y_r(800), ysize, 0, defaultcolor, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0))) + y_r(30)); yofs += ysize;
+					xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, y_r(800), ysize, 0, defaultcolor, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0)), false) + y_r(30)); yofs += ysize;
 				}
 			}
 			if (GetIcon().GetGraph()) {
-				DrawControl::Instance()->SetAlpha(96);
+				DrawControl::Instance()->SetAlpha(false, 96);
 				int ysize = GetIcon().GetYSize();
 
 				float Scale = 1.f;
 				float rad = 0.f;
 
-				DrawControl::Instance()->SetDrawRotaGraph(GetIcon().GetGraph(),
+				DrawControl::Instance()->SetDrawRotaGraph(false, GetIcon().GetGraph(),
 					xp + (int)(((float)GetIcon().GetXSize() * std::cos(rad) + (float)GetIcon().GetYSize() * std::sin(rad)) / 2.f * Scale),
 					yp + LineHeight + ysize / 2, Scale, rad, false);
 				xofs = std::max<int>(xofs, GetIcon().GetXSize());
 				yofs2 += std::max(ysize, 64 * 2);
-				DrawControl::Instance()->SetAlpha(255);
+				DrawControl::Instance()->SetAlpha(false, 255);
 			}
 			else {
 				yofs2 += 64 * 2;
@@ -263,7 +262,7 @@ namespace FPS_n2 {
 		~ItemData() noexcept {}
 	};
 
-	const int		ItemList::Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive) const noexcept {
+	const int		ItemList::Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive, bool IsFir) const noexcept {
 		auto* WindowMngr = WindowSystem::WindowManager::Instance();
 		int xs = xsize;
 		int  Xsize = 0;
@@ -274,7 +273,9 @@ namespace FPS_n2 {
 				? (ysize * GetIcon().GetXSize() / GetIcon().GetYSize())
 				: (ysize * GetIcon().GetYSize() / GetIcon().GetXSize());
 		}
-
+		bool IsLocked = PlayerData::Instance()->GetItemLock(this->GetName().c_str());
+		int FirSize = (IsFir || IsLocked) ? 36 : 0;
+		xg += FirSize;
 		auto Name = this->GetName();
 		{
 			if (xsize > 0) {
@@ -328,17 +329,23 @@ namespace FPS_n2 {
 			}
 		}
 		if (count > 0) {
-			WindowSystem::SetMsg(xp, yp, xp, yp + ysize, LineHeight * 9 / 10, STR_LEFT, White, Black, "%s x%2d", Name.c_str(), count);
+			WindowSystem::SetMsg(xp + FirSize, yp, xp + FirSize, yp + ysize, LineHeight * 9 / 10, STR_LEFT, White, Black, "%s x%2d", Name.c_str(), count);
 		}
 		else {
-			WindowSystem::SetMsg(xp, yp, xp, yp + ysize, LineHeight * 9 / 10, STR_LEFT, White, Black, "%s", Name.c_str());
+			WindowSystem::SetMsg(xp + FirSize, yp, xp + FirSize, yp + ysize, LineHeight * 9 / 10, STR_LEFT, White, Black, "%s", Name.c_str());
 		}
 		if (GetIcon().GetGraph()) {
-			xp += Xsize;
 			float Scale = (float)ysize / (float)(std::min(GetIcon().GetXSize(), GetIcon().GetYSize()));
 			float rad = (GetIcon().GetXSize() >= GetIcon().GetYSize()) ? deg2rad(0) : deg2rad(90);
-			DrawControl::Instance()->SetDrawRotaGraph(GetIcon().GetGraph(), xp + (int)(((float)GetIcon().GetXSize() * std::cos(rad) + (float)GetIcon().GetYSize() * std::sin(rad)) / 2.f * Scale), yp + ysize / 2, Scale, rad, false);
+			DrawControl::Instance()->SetDrawRotaGraph(false, GetIcon().GetGraph(), xp + FirSize + Xsize + (int)(((float)GetIcon().GetXSize() * std::cos(rad) + (float)GetIcon().GetYSize() * std::sin(rad)) / 2.f * Scale), yp + ysize / 2, Scale, rad, false);
 			Xsize += xg;
+		}
+
+		if(PlayerData::Instance()->GetItemLock(this->GetName().c_str())) {
+			DrawControl::Instance()->SetDrawRotaLock(true, xp + FirSize / 2, yp + ysize / 2, 1.f, 0.f, true);
+		}
+		if (IsFir) {
+			DrawControl::Instance()->SetDrawRotaFiR(false, xp + FirSize / 2, yp + ysize / 2, 1.f, 0.f, true);
 		}
 		return Xsize;
 	}

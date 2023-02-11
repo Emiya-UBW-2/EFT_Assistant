@@ -27,9 +27,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="source\sub.hpp">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
     <ClInclude Include="source\Enums.hpp">
       <Filter>ソース ファイル</Filter>
     </ClInclude>
@@ -98,6 +95,9 @@
     </ClInclude>
     <ClInclude Include="source\Scene\MainScene\Data\MainScene_Preset.hpp">
       <Filter>ソース ファイル\Scene\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Parts\PlayerDataParts.hpp">
+      <Filter>ソース ファイル\Parts</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

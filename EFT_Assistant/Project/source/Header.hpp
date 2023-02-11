@@ -11,19 +11,34 @@
 //#define DEBUG
 
 #include "DXLib_ref/DXLib_ref.h"
-#include "Box2D/Box2D.h"
 
 using namespace DXLib_ref;
 
 #include "Enums.hpp"
-//
-#include "sub.hpp"
-//
-//
+//Load
 #include "Scene/MainSceneLoader.hpp"
-
+//Parts
 #include "Parts/DrawSystem.hpp"
 #include "Parts/InputParts.hpp"
 #include "Parts/WindowParts.hpp"
-
+#include "Parts/PlayerDataParts.hpp"
+//Datas
+#include "Scene/MainScene/Data/MainScene_Parents.hpp"
+#include "Scene/MainScene/Data/MainScene_Map.hpp"
+#include "Scene/MainScene/Data/MainScene_ItemCategory.hpp"
+#include "Scene/MainScene/Data/MainScene_ItemType.hpp"
+#include "Scene/MainScene/Data/MainScene_Item.hpp"
+#include "Scene/MainScene/Data/MainScene_Preset.hpp"
+#include "Scene/MainScene/Data/MainScene_Enemy.hpp"
+#include "Scene/MainScene/Data/MainScene_Trader.hpp"
+#include "Scene/MainScene/Data/MainScene_Task.hpp"
+//Pages
+#include "Scene/MainScene/Page/MainScene_PageParents.hpp"
+#include "Scene/MainScene/Page/MainScene_PageTitle.hpp"
+#include "Scene/MainScene/Page/MainScene_PageTask.hpp"
+#include "Scene/MainScene/Page/MainScene_PageHideout.hpp"
+#include "Scene/MainScene/Page/MainScene_PageItem.hpp"
+#include "Scene/MainScene/Page/MainScene_PageMap.hpp"
+#include "Scene/MainScene/Page/MainScene_PageCustom.hpp"
+//Main
 #include "Scene/MainScene.hpp"

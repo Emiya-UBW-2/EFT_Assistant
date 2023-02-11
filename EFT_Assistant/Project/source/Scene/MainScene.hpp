@@ -1,25 +1,6 @@
 #pragma once
 #include"../Header.hpp"
 
-//Datas
-#include "MainScene/Data/MainScene_Parents.hpp"
-#include "MainScene/Data/MainScene_Map.hpp"
-#include "MainScene/Data/MainScene_ItemCategory.hpp"
-#include "MainScene/Data/MainScene_ItemType.hpp"
-#include "MainScene/Data/MainScene_Item.hpp"
-#include "MainScene/Data/MainScene_Preset.hpp"
-#include "MainScene/Data/MainScene_Enemy.hpp"
-#include "MainScene/Data/MainScene_Trader.hpp"
-#include "MainScene/Data/MainScene_Task.hpp"
-//Pages
-#include "MainScene/Page/MainScene_PageParents.hpp"
-#include "MainScene/Page/MainScene_PageTitle.hpp"
-#include "MainScene/Page/MainScene_PageTask.hpp"
-#include "MainScene/Page/MainScene_PageHideout.hpp"
-#include "MainScene/Page/MainScene_PageItem.hpp"
-#include "MainScene/Page/MainScene_PageMap.hpp"
-#include "MainScene/Page/MainScene_PageCustom.hpp"
-
 namespace FPS_n2 {
 	class MAINLOOP : public TEMPSCENE {
 	private:
@@ -47,6 +28,7 @@ namespace FPS_n2 {
 
 		void Set_Sub(void) noexcept override {
 			//
+			PlayerData::Create();
 			InputControl::Create();
 			DataErrorLog::Create();
 			DrawControl::Create();
@@ -58,7 +40,7 @@ namespace FPS_n2 {
 			TraderData::Create();
 			MapData::Create();
 			TaskData::Create();
-
+			//
 			SetUseASyncLoadFlag(TRUE);
 			PresetData::Instance()->LoadList();
 			ItemData::Instance()->LoadList();
@@ -101,7 +83,8 @@ namespace FPS_n2 {
 			}
 			//FirstDoing
 			if (GetIsFirstLoop()) {
-				SetWindowPosition(-960, 0);//0,0
+				//SetWindowPosition(-960, 0);//0,0
+				SetWindowPosition(0, 0);//0,0
 			}
 			auto mouse_moveX = Input->GetMouseX();							//ドラッグ前のマウス座標格納
 			auto mouse_moveY = Input->GetMouseY();
@@ -200,7 +183,7 @@ namespace FPS_n2 {
 				int Xmin = y_r(320);
 				int Ymin = LineHeight;
 
-				DrawControl::Instance()->SetDrawBox(0, 0, (int)(Lerp((float)Xmin, (float)Xsize, m_PullDown)), (int)(Lerp((float)Ymin, (float)Ysize, m_PullDown)), Gray75, TRUE);
+				DrawControl::Instance()->SetDrawBox(false, 0, 0, (int)(Lerp((float)Xmin, (float)Xsize, m_PullDown)), (int)(Lerp((float)Ymin, (float)Ysize, m_PullDown)), Gray75, TRUE);
 				if (m_PullDown >= 1.f) {
 					//Back
 					m_BGPtr->Draw_Back(this->m_posx, this->m_posy, this->m_Scale);
@@ -217,7 +200,7 @@ namespace FPS_n2 {
 					}
 
 					WindowSystem::SetMsg(0, 0, y_r(1920), LineHeight, LineHeight, STR_MID, White, Black, "EFT Assistant");
-					WindowSystem::SetMsg(y_r(1280), LineHeight * 1 / 10, y_r(1280), LineHeight, LineHeight * 8 / 10, STR_LEFT, White, Black, "ver %d.%d.%d", 0, 1, 3);
+					WindowSystem::SetMsg(y_r(1280), LineHeight * 1 / 10, y_r(1280), LineHeight, LineHeight * 8 / 10, STR_LEFT, White, Black, "ver %d.%d.%d", 0, 1, 4);
 					if (WindowSystem::CloseButton(y_r(1920) - LineHeight, 0)) { SetisEnd(true); }
 				}
 				//展開
@@ -230,9 +213,8 @@ namespace FPS_n2 {
 					//Front
 					m_BGPtr->DrawFront(this->m_posx, this->m_posy, this->m_Scale);
 					//中央位置回避のための小円
-					DrawControl::Instance()->SetDrawCircle(Xsize, Ysize, y_r(100), TransColor, TRUE);
+					DrawControl::Instance()->SetDrawCircle(false, Xsize, Ysize, y_r(100), TransColor, TRUE);
 				}
-
 				DataErrorLog::Instance()->Draw();
 				if (GetASyncLoadNum() > 0) {
 					WindowSystem::SetMsg(0, y_r(1080) - LineHeight, y_r(0), y_r(1080), LineHeight, STR_LEFT, White, Black, "Loading...");
@@ -248,6 +230,8 @@ namespace FPS_n2 {
 			m_ItemBG.reset();
 			m_MapBG.reset();
 			m_CustomBG.reset();
+
+			PlayerData::Instance()->Save();
 		}
 	public:
 		void BG_Draw_Sub(void) noexcept override {}

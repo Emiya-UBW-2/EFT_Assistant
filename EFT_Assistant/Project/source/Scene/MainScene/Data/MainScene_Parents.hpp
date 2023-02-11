@@ -3,81 +3,6 @@
 
 namespace FPS_n2 {
 	//
-	class Rect2D {
-		int			m_PosX{ 0 };
-		int			m_PosY{ 0 };
-		int			m_SizeX{ 0 };
-		int			m_SizeY{ 0 };
-	public:
-		const auto&		GetPosX() const noexcept { return m_PosX; }
-		const auto&		GetPosY() const noexcept { return m_PosY; }
-		void			Set(int posx, int posy, int sizex, int sizey) noexcept {
-			m_PosX = posx;
-			m_PosY = posy;
-			m_SizeX = sizex;
-			m_SizeY = sizey;
-		}
-	public:
-		bool			IsHit(const Rect2D& target) noexcept {
-			return (
-				((this->m_PosX >= target.m_PosX && this->m_PosX < (target.m_PosX + target.m_SizeX)) || (target.m_PosX > this->m_PosX && target.m_PosX <= (this->m_PosX + this->m_SizeX))) &&
-				((this->m_PosY >= target.m_PosY && this->m_PosY < (target.m_PosY + target.m_SizeY)) || (target.m_PosY > this->m_PosY && target.m_PosY <= (this->m_PosY + this->m_SizeY)))
-				);
-		}
-	};
-	//
-	class Graphs {
-		std::string				m_Path{ "" };
-		GraphHandle				m_Handle;
-		bool					m_Loaded{ false };
-		int						m_X{ -1 };
-		int						m_Y{ -1 };
-		bool					m_IsTrans{ false };
-	public:
-		void	SetPath(const char* path) noexcept { this->m_Path = path; }
-		void	SetIsTrans(bool isTrans) noexcept { this->m_IsTrans = isTrans; }
-		void	LoadByPath(bool isUseTex) noexcept {
-			if (this->m_Path != "") {
-				if (GetFileAttributes(this->m_Path.c_str()) != INVALID_FILE_ATTRIBUTES) {
-					if (isUseTex) {
-						this->m_Handle = GraphHandle::Load_Tex(this->m_Path.c_str());
-					}
-					else {
-						this->m_Handle = GraphHandle::Load(this->m_Path.c_str());
-					}
-					this->m_Loaded = false;
-				}
-				else {
-					this->m_Path = "";
-				}
-			}
-		}
-		void	WhenAfterLoad() noexcept {
-			if (this->m_Path != "") {
-				if (!m_IsTrans) {
-					GraphFilter(this->m_Handle.get(), DX_GRAPH_FILTER_BRIGHT_CLIP, DX_CMP_LESS, 1, TRUE, Black, 255);
-				}
-				this->m_Handle.GetSize(&this->m_X, &this->m_Y);
-				this->m_Loaded = true;
-			}
-		}
-
-		void	DisposeGraph() noexcept {
-			if (this->m_Loaded) {
-				this->m_Handle.Dispose();
-			}
-			else {
-				if (this->m_Handle.IsActive()) {
-					SetASyncLoadFinishDeleteFlag(this->m_Handle.get());
-				}
-			}
-		}
-	public:
-		const auto*	GetGraph() const noexcept { return (this->m_Loaded) ? &this->m_Handle : nullptr; }
-		const auto	GetXSize() const noexcept { return (this->m_Loaded) ? this->m_X : -1; }
-		const auto	GetYSize() const noexcept { return (this->m_Loaded) ? this->m_Y : -1; }
-	};
-	//
 	static const int InvalidID{ -1 };
 	static const int ElseSelectID{ -2 };
 	static const auto STR_LEFT{ FontHandle::FontXCenter::LEFT };
@@ -117,27 +42,6 @@ namespace FPS_n2 {
 
 		Graphs					m_Icon;
 	private:
-		const auto		GetArgs(const std::string& RIGHT) const noexcept {
-			std::vector<std::string> Args;
-			auto L = RIGHT.find("[");
-			auto R = RIGHT.find("]");
-			if (L != std::string::npos && R != std::string::npos) {
-				std::string RIGHTBuf = RIGHT;
-				RIGHTBuf = RIGHTBuf.substr(L + 1);
-				while (true) {
-					auto div = RIGHTBuf.find(",");
-					if (div != std::string::npos) {
-						Args.emplace_back(RIGHTBuf.substr(0, div));
-						RIGHTBuf = RIGHTBuf.substr(div + 1);
-					}
-					else {
-						Args.emplace_back(RIGHTBuf.substr(0, RIGHTBuf.find("]")));
-						break;
-					}
-				}
-			}
-			return Args;
-		}
 		void			SetCommon(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept {
 			if (LEFT == "Name") {
 				m_Name = RIGHT;

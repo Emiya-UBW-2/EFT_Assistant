@@ -12,7 +12,7 @@ namespace FPS_n2 {
 	};
 	class DrawData {
 		DrawType								m_type{ DrawType::Box };
-		std::array<int,6>						m_intParam;
+		std::array<int, 6>						m_intParam;
 		std::array<unsigned int, 2>				m_UintParam;
 		std::array<float, 6>					m_floatParam;
 		std::array<bool, 1>						m_boolParam;
@@ -69,96 +69,251 @@ namespace FPS_n2 {
 			}
 		}
 	};
+	//
+	class Rect2D {
+		int			m_PosX{ 0 };
+		int			m_PosY{ 0 };
+		int			m_SizeX{ 0 };
+		int			m_SizeY{ 0 };
+	public:
+		const auto&		GetPosX() const noexcept { return m_PosX; }
+		const auto&		GetPosY() const noexcept { return m_PosY; }
+		void			Set(int posx, int posy, int sizex, int sizey) noexcept {
+			m_PosX = posx;
+			m_PosY = posy;
+			m_SizeX = sizex;
+			m_SizeY = sizey;
+		}
+	public:
+		bool			IsHit(const Rect2D& target) noexcept {
+			return (
+				((this->m_PosX >= target.m_PosX && this->m_PosX < (target.m_PosX + target.m_SizeX)) || (target.m_PosX > this->m_PosX && target.m_PosX <= (this->m_PosX + this->m_SizeX))) &&
+				((this->m_PosY >= target.m_PosY && this->m_PosY < (target.m_PosY + target.m_SizeY)) || (target.m_PosY > this->m_PosY && target.m_PosY <= (this->m_PosY + this->m_SizeY)))
+				);
+		}
+	};
+	//
+	class Graphs {
+		std::string				m_Path{ "" };
+		GraphHandle				m_Handle;
+		bool					m_Loaded{ false };
+		int						m_X{ -1 };
+		int						m_Y{ -1 };
+		bool					m_IsTrans{ false };
+	public:
+		void	SetPath(const char* path) noexcept { this->m_Path = path; }
+		void	SetIsTrans(bool isTrans) noexcept { this->m_IsTrans = isTrans; }
+		void	LoadByPath(bool isUseTex) noexcept {
+			if (this->m_Path != "") {
+				if (GetFileAttributes(this->m_Path.c_str()) != INVALID_FILE_ATTRIBUTES) {
+					if (isUseTex) {
+						this->m_Handle = GraphHandle::Load_Tex(this->m_Path.c_str());
+					}
+					else {
+						this->m_Handle = GraphHandle::Load(this->m_Path.c_str());
+					}
+					this->m_Loaded = false;
+				}
+				else {
+					this->m_Path = "";
+				}
+			}
+		}
+		void	WhenAfterLoad() noexcept {
+			if (this->m_Path != "") {
+				if (!m_IsTrans) {
+					GraphFilter(this->m_Handle.get(), DX_GRAPH_FILTER_BRIGHT_CLIP, DX_CMP_LESS, 1, TRUE, GetColor(1, 1, 1), 255);
+				}
+				this->m_Handle.GetSize(&this->m_X, &this->m_Y);
+				this->m_Loaded = true;
+			}
+		}
 
+		void	DisposeGraph() noexcept {
+			if (this->m_Loaded) {
+				this->m_Handle.Dispose();
+			}
+			else {
+				if (this->m_Handle.IsActive()) {
+					SetASyncLoadFinishDeleteFlag(this->m_Handle.get());
+				}
+			}
+		}
+	public:
+		const auto*	GetGraph() const noexcept { return (this->m_Loaded) ? &this->m_Handle : nullptr; }
+		const auto	GetXSize() const noexcept { return (this->m_Loaded) ? this->m_X : -1; }
+		const auto	GetYSize() const noexcept { return (this->m_Loaded) ? this->m_Y : -1; }
+	};
+	//
 	class DrawControl : public SingletonBase<DrawControl> {
 	private:
 		friend class SingletonBase<DrawControl>;
 	private:
-		std::vector<DrawData>	m_DrawData;
+		std::vector<DrawData>	m_DrawDataFront;
+		std::vector<DrawData>	m_DrawDataBack;
+
+		Graphs					FirGraph;
+		Graphs					LockGraph;
 	private:
 		DrawControl() noexcept {
+			FirGraph.SetPath("data/FiR.png");
+			FirGraph.SetIsTrans(true);
+			FirGraph.LoadByPath(false);
+			FirGraph.WhenAfterLoad();
 
+			LockGraph.SetPath("data/Lock.png");
+			LockGraph.SetIsTrans(true);
+			LockGraph.LoadByPath(false);
+			LockGraph.WhenAfterLoad();
 		}
 		~DrawControl() noexcept {
-			m_DrawData.clear();
+			m_DrawDataFront.clear();
+			m_DrawDataBack.clear();
+			FirGraph.DisposeGraph();
+
+			LockGraph.DisposeGraph();
 		}
 	public:
 		//
-		void	SetAlpha(int Alpha) {
-			m_DrawData.resize(m_DrawData.size() + 1);
-			m_DrawData.back().InputType(DrawType::Alpha);
-			m_DrawData.back().InputintParam(0, Alpha);
+		void	SetAlpha(bool IsFrontLayer, int Alpha) {
+			DrawData* Back = nullptr;
+			if (IsFrontLayer) {
+				m_DrawDataFront.resize(m_DrawDataFront.size() + 1);
+				Back = &m_DrawDataFront.back();
+			}
+			else {
+				m_DrawDataBack.resize(m_DrawDataBack.size() + 1);
+				Back = &m_DrawDataBack.back();
+			}
+			Back->InputType(DrawType::Alpha);
+			Back->InputintParam(0, Alpha);
 		}
 		//
-		void	SetDrawBox(int x1, int y1, int x2, int y2, unsigned int color1, bool IsFill) {
-			m_DrawData.resize(m_DrawData.size() + 1);
-			m_DrawData.back().InputType(DrawType::Box);
-			m_DrawData.back().InputintParam(0, x1);
-			m_DrawData.back().InputintParam(1, y1);
-			m_DrawData.back().InputintParam(2, x2);
-			m_DrawData.back().InputintParam(3, y2);
-			m_DrawData.back().InputUintParam(0, color1);
-			m_DrawData.back().InputboolParam(0, IsFill);
+		void	SetDrawBox(bool IsFrontLayer, int x1, int y1, int x2, int y2, unsigned int color1, bool IsFill) {
+			DrawData* Back = nullptr;
+			if (IsFrontLayer) {
+				m_DrawDataFront.resize(m_DrawDataFront.size() + 1);
+				Back = &m_DrawDataFront.back();
+			}
+			else {
+				m_DrawDataBack.resize(m_DrawDataBack.size() + 1);
+				Back = &m_DrawDataBack.back();
+			}
+			Back->InputType(DrawType::Box);
+			Back->InputintParam(0, x1);
+			Back->InputintParam(1, y1);
+			Back->InputintParam(2, x2);
+			Back->InputintParam(3, y2);
+			Back->InputUintParam(0, color1);
+			Back->InputboolParam(0, IsFill);
 		}
 		//
-		void	SetDrawCircle(int x1, int y1, int radius, unsigned int color1, bool IsFill = true, int LineThickness = 1) {
-			m_DrawData.resize(m_DrawData.size() + 1);
-			m_DrawData.back().InputType(DrawType::Circle);
-			m_DrawData.back().InputintParam(0, x1);
-			m_DrawData.back().InputintParam(1, y1);
-			m_DrawData.back().InputintParam(2, radius);
-			m_DrawData.back().InputUintParam(0, color1);
-			m_DrawData.back().InputboolParam(0, IsFill);
-			m_DrawData.back().InputintParam(3, LineThickness);
+		void	SetDrawCircle(bool IsFrontLayer, int x1, int y1, int radius, unsigned int color1, bool IsFill = true, int LineThickness = 1) {
+			DrawData* Back = nullptr;
+			if (IsFrontLayer) {
+				m_DrawDataFront.resize(m_DrawDataFront.size() + 1);
+				Back = &m_DrawDataFront.back();
+			}
+			else {
+				m_DrawDataBack.resize(m_DrawDataBack.size() + 1);
+				Back = &m_DrawDataBack.back();
+			}
+			Back->InputType(DrawType::Circle);
+			Back->InputintParam(0, x1);
+			Back->InputintParam(1, y1);
+			Back->InputintParam(2, radius);
+			Back->InputUintParam(0, color1);
+			Back->InputboolParam(0, IsFill);
+			Back->InputintParam(3, LineThickness);
 		}
 		//
-		void	SetDrawLine(int x1, int y1, int x2, int y2, unsigned int color1, int   Thickness = 1) {
-			m_DrawData.resize(m_DrawData.size() + 1);
-			m_DrawData.back().InputType(DrawType::Line);
-			m_DrawData.back().InputintParam(0, x1);
-			m_DrawData.back().InputintParam(1, y1);
-			m_DrawData.back().InputintParam(2, x2);
-			m_DrawData.back().InputintParam(3, y2);
-			m_DrawData.back().InputUintParam(0, color1);
-			m_DrawData.back().InputintParam(4, Thickness);
+		void	SetDrawLine(bool IsFrontLayer, int x1, int y1, int x2, int y2, unsigned int color1, int   Thickness = 1) {
+			DrawData* Back = nullptr;
+			if (IsFrontLayer) {
+				m_DrawDataFront.resize(m_DrawDataFront.size() + 1);
+				Back = &m_DrawDataFront.back();
+			}
+			else {
+				m_DrawDataBack.resize(m_DrawDataBack.size() + 1);
+				Back = &m_DrawDataBack.back();
+			}
+			Back->InputType(DrawType::Line);
+			Back->InputintParam(0, x1);
+			Back->InputintParam(1, y1);
+			Back->InputintParam(2, x2);
+			Back->InputintParam(3, y2);
+			Back->InputUintParam(0, color1);
+			Back->InputintParam(4, Thickness);
 		}
 		//
-		void SetDrawRotaGraph(const GraphHandle* pGraphHandle,int posx, int posy, float Exrate, float rad, bool trns) noexcept {
-			m_DrawData.resize(m_DrawData.size() + 1);
-			m_DrawData.back().InputType(DrawType::RotaGraph);
-			m_DrawData.back().InputGraphHandleParam(0, pGraphHandle);
-			m_DrawData.back().InputintParam(0, posx);
-			m_DrawData.back().InputintParam(1, posy);
-			m_DrawData.back().InputfloatParam(0, Exrate);
-			m_DrawData.back().InputfloatParam(1, rad);
-			m_DrawData.back().InputboolParam(0, trns);
+		void SetDrawRotaGraph(bool IsFrontLayer, const GraphHandle* pGraphHandle, int posx, int posy, float Exrate, float rad, bool trns) noexcept {
+			DrawData* Back = nullptr;
+			if (IsFrontLayer) {
+				m_DrawDataFront.resize(m_DrawDataFront.size() + 1);
+				Back = &m_DrawDataFront.back();
+			}
+			else {
+				m_DrawDataBack.resize(m_DrawDataBack.size() + 1);
+				Back = &m_DrawDataBack.back();
+			}
+			Back->InputType(DrawType::RotaGraph);
+			Back->InputGraphHandleParam(0, pGraphHandle);
+			Back->InputintParam(0, posx);
+			Back->InputintParam(1, posy);
+			Back->InputfloatParam(0, Exrate);
+			Back->InputfloatParam(1, rad);
+			Back->InputboolParam(0, trns);
+		}
+		//
+		void SetDrawRotaFiR(bool IsFrontLayer, int posx, int posy, float Exrate, float rad, bool trns) noexcept {
+			if (FirGraph.GetGraph()) {
+				SetDrawRotaGraph(IsFrontLayer, FirGraph.GetGraph(), posx, posy, Exrate, rad, trns);
+			}
+		}
+		//
+		void SetDrawRotaLock(bool IsFrontLayer, int posx, int posy, float Exrate, float rad, bool trns) noexcept {
+			if (LockGraph.GetGraph()) {
+				SetDrawRotaGraph(IsFrontLayer, LockGraph.GetGraph(), posx, posy, Exrate, rad, trns);
+			}
 		}
 		//
 		template <typename... Args>
-		void	SetString(FontPool::FontType type, int fontSize, FontHandle::FontXCenter FontX, FontHandle::FontYCenter FontY, int x, int y, unsigned int Color, unsigned int EdgeColor, const std::string& String, Args&&... args) noexcept {
-			m_DrawData.resize(m_DrawData.size() + 1);
-			m_DrawData.back().InputType(DrawType::String);
+		void	SetString(bool IsFrontLayer, FontPool::FontType type, int fontSize, FontHandle::FontXCenter FontX, FontHandle::FontYCenter FontY, int x, int y, unsigned int Color, unsigned int EdgeColor, const std::string& String, Args&&... args) noexcept {
+			DrawData* Back = nullptr;
+			if (IsFrontLayer) {
+				m_DrawDataFront.resize(m_DrawDataFront.size() + 1);
+				Back = &m_DrawDataFront.back();
+			}
+			else {
+				m_DrawDataBack.resize(m_DrawDataBack.size() + 1);
+				Back = &m_DrawDataBack.back();
+			}
+			Back->InputType(DrawType::String);
 
-			m_DrawData.back().InputintParam(0, (int)type);
-			m_DrawData.back().InputintParam(1, fontSize);
-			m_DrawData.back().InputintParam(2, (int)FontX);
-			m_DrawData.back().InputintParam(3, (int)FontY);
-			m_DrawData.back().InputintParam(4, x);
-			m_DrawData.back().InputintParam(5, y);
-			m_DrawData.back().InputUintParam(0, Color);
-			m_DrawData.back().InputUintParam(1, EdgeColor);
+			Back->InputintParam(0, (int)type);
+			Back->InputintParam(1, fontSize);
+			Back->InputintParam(2, (int)FontX);
+			Back->InputintParam(3, (int)FontY);
+			Back->InputintParam(4, x);
+			Back->InputintParam(5, y);
+			Back->InputUintParam(0, Color);
+			Back->InputUintParam(1, EdgeColor);
 
 			char ptr[1024];
 			snprintfDx(ptr, 1024, String.c_str(), args...);
-			m_DrawData.back().InputStringParam(ptr);
+			Back->InputStringParam(ptr);
 		}
 		//
 	public:
 		void	ClearList() noexcept {
-			m_DrawData.clear();
+			m_DrawDataBack.clear();
+			m_DrawDataFront.clear();
 		}
-		void	Draw() noexcept{
-			for (auto& d : m_DrawData) {
+		void	Draw() noexcept {
+			for (auto& d : m_DrawDataBack) {
+				d.Output();
+			}
+			for (auto& d : m_DrawDataFront) {
 				d.Output();
 			}
 		}
