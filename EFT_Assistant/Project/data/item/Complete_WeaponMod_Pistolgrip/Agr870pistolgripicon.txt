@@ -2,3 +2,4 @@ Name=M870 FAB Defense AGR-870 pistol grip
 Itemtype=Pistol grip
 Recoil=0
 Ergonomics=+9
+ChildParts=[FAB Defense protection cap for AGR-870,FAB Defense buffer tube for AGR-870]

@@ -2,3 +2,4 @@ Name=MP-133/153 Taktika Tula 12003 stock adapter
 Itemtype=Mount
 Recoil=0
 Ergonomics=-2
+ChildParts=[M870 FAB Defense AGR-870 pistol grip]

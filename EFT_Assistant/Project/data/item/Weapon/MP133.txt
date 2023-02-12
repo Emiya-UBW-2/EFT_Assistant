@@ -1,2 +1,10 @@
 Name=MP-133 12ga pump-action shotgun
 Itemtype=Shotgun
+ChildParts=[MP-133 12ga 510mm barrel,MP-133 12ga 510mm barrel with rib,MP-133 12ga 540mm barrel,MP-133 12ga 540mm barrel with rib,MP-133 12ga 610mm barrel,MP-133 12ga 610mm barrel with rib,MP-133 12ga 660mm barrel,MP-133 12ga 660mm barrel with rib,MP-133 12ga 710mm barrel,MP-133 12ga 710mm barrel with rib,MP-133 12ga 750mm barrel,MP-133 12ga 750mm barrel with rib]
+ChildParts=[MP-133 beechwood forestock,MP-133 custom plastic forestock with rails]
+ChildParts=[MP-133/153 wooden stock,MP-133/153 Taktika Tula 12003 stock adapter,MP-133/153 plastic pistol grip,MP-133/153 plastic stock]
+ChildParts=[MP-133 12ga 6-shell magazine,MP-133 12ga 8-shell magazine,MP-153 12ga 4-shell magazine cap,MP-153 12ga 5-shell magazine,MP-153 12ga 6-shell magazine,MP-153 12ga 7-shell magazine,MP-153 12ga 8-shell magazine]
+ChildParts=[Kiba Arms SPRM rail mount for pump-action shotguns]
+ChildParts=[Delta-Tek Sprut mount for pump-action shotguns]
+Recoil=520
+Ergonomics=40

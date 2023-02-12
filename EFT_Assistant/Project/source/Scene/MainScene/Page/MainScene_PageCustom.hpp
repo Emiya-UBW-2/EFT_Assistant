@@ -726,10 +726,6 @@ namespace FPS_n2 {
 					int valueMin = 0;
 					int valueMax = 100;
 
-					float RecoilPer2 = m_Recoil * 100.f / m_BaseWeapon->GetRecoil() - 100.f;
-
-					//(m_BaseWeapon->GetRecoil()*(100.f + RecoilPer2) / 100.f);
-
 					float ErgonomicsPer2 = (m_Ergonomics - m_BaseWeapon->GetErgonomics());
 					int ErgMin = (int)(m_BaseWeapon->GetErgonomics() + ErgonomicsPer2 + m_ErgAddMin);
 					int ErgMax = (int)(m_BaseWeapon->GetErgonomics() + ErgonomicsPer2 + m_ErgAddMax);

@@ -2,3 +2,4 @@ Name=SilencerCo Salvo 12 choke adapter
 Itemtype=Muzzle adapter
 Recoil=-1
 Ergonomics=0
+ChildParts=[SilencerCo Salvo 12 12ga sound suppressor]

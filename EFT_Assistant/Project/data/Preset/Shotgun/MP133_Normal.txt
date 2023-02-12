@@ -1,0 +1,6 @@
+Name=MP133_Normal
+Base=MP-133 12ga pump-action shotgun
+Parts=MP-133 12ga 510mm barrel
+Parts=MP-133 beechwood forestock
+Parts=MP-133/153 wooden stock
+Parts=MP-133 12ga 6-shell magazine

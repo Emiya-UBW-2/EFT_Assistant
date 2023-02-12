@@ -2,3 +2,5 @@ Name=MP-133 12ga 510mm barrel with rib
 Itemtype=Stock
 Recoil=-3
 Ergonomics=-3
+ChildParts=[ME Cylinder 12ga muzzle adapter,Remington Tactical Choke 12ga,SilencerCo Salvo 12 choke adapter]
+ChildParts=[VOMZ Pilad TargetRing reflex sight,ETMI-019 shotgun rail mount]

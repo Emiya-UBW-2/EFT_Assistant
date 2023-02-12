@@ -2,3 +2,4 @@ Name=MP-133 12ga 510mm barrel
 Itemtype=Stock
 Recoil=-3
 Ergonomics=-5
+ChildParts=[ME Cylinder 12ga muzzle adapter,Remington Tactical Choke 12ga,SilencerCo Salvo 12 choke adapter]

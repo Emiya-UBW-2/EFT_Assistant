@@ -2,3 +2,4 @@ Name=MP-133/153 plastic pistol grip
 Itemtype=Stock
 Recoil=-9
 Ergonomics=+11
+ChildParts=[Aimpoint Micro Standard Mount,BelOMO PK-06 reflex sight,Burris FastFire Weaver Base,DeltaPoint Cross Slot Mount base,Trijicon RMR low profile mount]
