@@ -10,7 +10,7 @@ namespace FPS_n2 {
 	static const unsigned int Red25{ GetColor(192, 0, 0) };
 	static const unsigned int Red50{ GetColor(128, 0, 0) };
 	static const unsigned int RedPop{ GetColor(255, 50, 50) };
-	//static const unsigned int Blue{ GetColor(50, 50, 255) };
+	static const unsigned int Blue{ GetColor(50, 50, 255) };
 	static const unsigned int DarkGreen{ GetColor(21, 128, 45) };
 	static const unsigned int Green{ GetColor(43, 255, 91) };
 	static const unsigned int White{ GetColor(255, 255, 255) };

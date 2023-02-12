@@ -132,6 +132,13 @@ namespace FPS_n2 {
 		float m_Recoil = 50;
 		float m_Ergonomics = 50;
 
+		float m_RecAddMin{ 0 };
+		float m_RecAddMax{ 0 };
+		float m_ErgAddMin{ 0 };
+		float m_ErgAddMax{ 0 };
+		bool m_SpecChange = false;
+
+
 		std::vector<ChildData>			m_ChildData;
 
 		int															m_posxMaxBuffer{ 0 };
@@ -473,6 +480,37 @@ namespace FPS_n2 {
 							}
 						}
 						//
+						if (in2_(Input->GetMouseX(), Input->GetMouseY(), xbase, ybase, xbase + xsize, ybase + ysize)) {
+							m_SpecChange = false;
+							m_RecAddMin = 1000.f;
+							m_RecAddMax = -1000.f;
+							m_ErgAddMin = 1000.f;
+							m_ErgAddMax = -1000.f;
+							for (const auto& cID2 : cID.GetMySlotData().Data) {
+								if (!CheckConflict(cID2.first)) {
+									if (m_RecAddMin > cID2.first->GetRecoil()) {
+										m_RecAddMin = cID2.first->GetRecoil();
+									}
+									if (m_RecAddMax < cID2.first->GetRecoil()) {
+										m_RecAddMax = cID2.first->GetRecoil();
+									}
+									if (m_ErgAddMin > cID2.first->GetErgonomics()) {
+										m_ErgAddMin = cID2.first->GetErgonomics();
+									}
+									if (m_ErgAddMax < cID2.first->GetErgonomics()) {
+										m_ErgAddMax = cID2.first->GetErgonomics();
+									}
+									m_SpecChange = true;
+								}
+							}
+							if (cID.GetIsSelected()) {
+								m_RecAddMin -= cID.GetChildPtr()->GetRecoil();
+								m_RecAddMax -= cID.GetChildPtr()->GetRecoil();
+								m_ErgAddMin -= cID.GetChildPtr()->GetErgonomics();
+								m_ErgAddMax -= cID.GetChildPtr()->GetErgonomics();
+							}
+						}
+						//
 						int xOfset = xsizeMin;
 						int Hight = LineHeight * 3 / 4;
 						for (const auto& t : cID.GetMySlotData().TypeID) {
@@ -524,6 +562,8 @@ namespace FPS_n2 {
 						}
 					}
 				}
+				//
+				m_SpecChange = false;
 				//設定
 				CalcChild();
 				//パターンを検索
@@ -666,7 +706,7 @@ namespace FPS_n2 {
 				Easing(&m_XChild, (float)xgoal, 0.8f, EasingType::OutExpo);
 			}
 			//下から上に
-			{
+			if (m_BaseWeapon) {
 				bool PrevSight = m_EnableSight;
 				bool PrevMount = m_EnableMount;
 				bool PrevMag = m_EnableMag;
@@ -678,7 +718,63 @@ namespace FPS_n2 {
 				yp -= y_r(80);
 				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, FontHandle::FontXCenter::LEFT, White, Black, "エルゴノミクス");
 				int Erg = (int)m_Ergonomics, OldE = Erg;
-				WindowSystem::UpDownBar(xp, y_r(360), yp + LineHeight + y_r(5), &Erg, 0, 100);
+				//WindowSystem::UpDownBar(xp, y_r(640), yp + LineHeight + y_r(5), &Erg, 0, 100);
+				if (m_BaseWeapon) {
+					int xmin = xp;
+					int xmax = y_r(640);
+					int ypos = yp + LineHeight + y_r(5);
+					int valueMin = 0;
+					int valueMax = 100;
+
+					float RecoilPer2 = m_Recoil * 100.f / m_BaseWeapon->GetRecoil() - 100.f;
+
+					//(m_BaseWeapon->GetRecoil()*(100.f + RecoilPer2) / 100.f);
+
+					float ErgonomicsPer2 = (m_Ergonomics - m_BaseWeapon->GetErgonomics());
+					int ErgMin = (int)(m_BaseWeapon->GetErgonomics() + ErgonomicsPer2 + m_ErgAddMin);
+					int ErgMax = (int)(m_BaseWeapon->GetErgonomics() + ErgonomicsPer2 + m_ErgAddMax);
+
+					int xp_t = 0;
+					{
+						int xpmin = xmin + LineHeight + 1;
+						int xpmax = xmax - 1;
+						WindowSystem::SetBox(xpmin, ypos, xpmin + (xpmax - xpmin), ypos + LineHeight, DarkGreen);
+						WindowSystem::SetBox(xpmin, ypos, xpmin + (xpmax - xpmin)*std::clamp(Erg - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Green);
+						if (m_SpecChange) {
+							WindowSystem::SetBox(
+								xpmin + (xpmax - xpmin)*std::clamp(ErgMin - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos,
+								xpmin + (xpmax - xpmin)*std::clamp(Erg - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Red);
+							WindowSystem::SetBox(
+								xpmin + (xpmax - xpmin)*std::clamp(Erg - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos,
+								xpmin + (xpmax - xpmin)*std::clamp(ErgMax - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Blue);
+						}
+
+						DrawControl::Instance()->SetDrawLine(false,
+							xpmin + (xpmax - xpmin)*std::clamp(Erg - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos,
+							xpmin + (xpmax - xpmin)*std::clamp(Erg - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Black, 3);
+						DrawControl::Instance()->SetDrawLine(false,
+							xpmin + (xpmax - xpmin)*std::clamp(Erg - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos,
+							xpmin + (xpmax - xpmin)*std::clamp(Erg - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Gray15, 1);
+					}
+					/*
+					xp_t = xmax;
+					if (WindowSystem::ClickCheckBox(xp_t, ypos, xp_t + LineHeight, ypos + LineHeight, true, true, Gray25, "△")) {
+						Erg = std::min(Erg + 1, valueMax);
+					}
+					//*/
+					xp_t = (xmin + (xmax - xmin) / 2);
+					if (m_SpecChange) {
+						WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, FontHandle::FontXCenter::MIDDLE, White, Black, "%d<      <%d", ErgMin, ErgMax);
+					}
+					WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight, FontHandle::FontXCenter::MIDDLE, White, Black, "%d", Erg);
+					/*
+					xp_t = xmin;
+					if (WindowSystem::ClickCheckBox(xp_t, ypos, xp_t + LineHeight, ypos + LineHeight, true, true, Gray25, "▽")) {
+						Erg = std::max(Erg - 1, valueMin);
+					}
+					//*/
+				}
+
 				if (OldE != Erg) {
 					m_Ergonomics = (float)Erg;
 				}
@@ -686,7 +782,58 @@ namespace FPS_n2 {
 				yp -= y_r(80);
 				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, FontHandle::FontXCenter::LEFT, White, Black, "縦リコイル");
 				int Rec = (int)m_Recoil, OldR = Rec;
-				WindowSystem::UpDownBar(xp, y_r(360), yp + LineHeight + y_r(5), &Rec, 10, 200);
+				//WindowSystem::UpDownBar(xp, y_r(640), yp + LineHeight + y_r(5), &Rec, 10, 200);
+				if (m_BaseWeapon) {
+					int xmin = xp;
+					int xmax = y_r(640);
+					int ypos = yp + LineHeight + y_r(5);
+					int valueMin = 0;
+					int valueMax = 100;
+
+					float RecoilPer2 = m_Recoil * 100.f / m_BaseWeapon->GetRecoil() - 100.f;
+					int RecMin = (int)(m_BaseWeapon->GetRecoil()*(100.f + RecoilPer2 + m_RecAddMin) / 100.f);
+					int RecMax = (int)(m_BaseWeapon->GetRecoil()*(100.f + RecoilPer2 + m_RecAddMax) / 100.f);
+
+					int xp_t = 0;
+					{
+						int xpmin = xmin + LineHeight + 1;
+						int xpmax = xmax - 1;
+						WindowSystem::SetBox(xpmin, ypos, xpmin + (xpmax - xpmin), ypos + LineHeight, DarkGreen);
+						WindowSystem::SetBox(xpmin, ypos, xpmin + (xpmax - xpmin)*std::clamp(Rec - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Green);
+						if (m_SpecChange) {
+							WindowSystem::SetBox(
+								xpmin + (xpmax - xpmin)*std::clamp(RecMin - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos,
+								xpmin + (xpmax - xpmin)*std::clamp(Rec - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Blue);
+							WindowSystem::SetBox(
+								xpmin + (xpmax - xpmin)*std::clamp(Rec - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos,
+								xpmin + (xpmax - xpmin)*std::clamp(RecMax - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Red);
+						}
+
+						DrawControl::Instance()->SetDrawLine(false,
+							xpmin + (xpmax - xpmin)*std::clamp(Rec - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos,
+							xpmin + (xpmax - xpmin)*std::clamp(Rec - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Black, 3);
+						DrawControl::Instance()->SetDrawLine(false,
+							xpmin + (xpmax - xpmin)*std::clamp(Rec - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos,
+							xpmin + (xpmax - xpmin)*std::clamp(Rec - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Gray15, 1);
+					}
+					/*
+					xp_t = xmax;
+					if (WindowSystem::ClickCheckBox(xp_t, ypos, xp_t + LineHeight, ypos + LineHeight, true, true, Gray25, "△")) {
+						Rec = std::min(Rec + 1, valueMax);
+					}
+					//*/
+					xp_t = (xmin + (xmax - xmin) / 2);
+					if (m_SpecChange) {
+						WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, FontHandle::FontXCenter::MIDDLE, White, Black, "%d<      <%d", RecMin, RecMax);
+					}
+					WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight, FontHandle::FontXCenter::MIDDLE, White, Black, "%d", Rec);
+					/*
+					xp_t = xmin;
+					if (WindowSystem::ClickCheckBox(xp_t, ypos, xp_t + LineHeight, ypos + LineHeight, true, true, Gray25, "▽")) {
+						Rec = std::max(Rec - 1, valueMin);
+					}
+					//*/
+				}
 				if (OldR != Rec) { m_Recoil = (float)Rec; }
 				//
 				yp -= y_r(50);
