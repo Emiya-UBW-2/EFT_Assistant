@@ -1,0 +1,6 @@
+Name=MP153_Normal
+Base=MP-153 12ga semi-automatic shotgun
+Parts=MP-153 12ga 750mm barrel
+Parts=MP-153 polymer forestock
+Parts=MP-133/153 plastic stock
+Parts=MP-153 12ga 4-shell magazine cap

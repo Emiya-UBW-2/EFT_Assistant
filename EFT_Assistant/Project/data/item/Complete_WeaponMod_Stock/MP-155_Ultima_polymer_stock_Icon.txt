@@ -2,3 +2,5 @@ Name=MP-155 Ultima polymer stock
 Itemtype=Stock
 Recoil=-35
 Ergonomics=+9
+ChildParts=[MP-155 Ultima large recoil pad,MP-155 Ultima medium recoil pad,MP-155 Ultima thin recoil pad]
+ChildParts=[MP-155 Ultima thermal camera]

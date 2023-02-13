@@ -2,3 +2,5 @@ Name=MP-155 Ultima pistol grip
 Itemtype=Pistol grip
 Recoil=0
 Ergonomics=+9
+ChildParts=[MP-155 Ultima polymer stock,MP-155 Ultima pistol grip rubber pad]
+Conflict=[Kiba Arms SPRM rail mount for pump-action shotguns,MP-155 walnut forestock]

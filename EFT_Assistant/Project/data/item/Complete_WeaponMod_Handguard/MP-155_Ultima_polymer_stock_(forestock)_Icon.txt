@@ -2,3 +2,4 @@ Name=MP-155 Ultima polymer forestock
 Itemtype=Handguard
 Recoil=0
 Ergonomics=+9
+ChildParts=[MP-155 Ultima short rail]
