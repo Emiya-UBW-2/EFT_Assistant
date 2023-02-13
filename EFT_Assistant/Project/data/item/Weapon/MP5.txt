@@ -1,0 +1,7 @@
+Name=HK MP5 9x19 submachine gun (Navy 3 Round Burst)
+Itemtype=Submachine gun
+ChildParts=[HK MP5 9x19 upper receiver,HK MP5SD 9x19 upper receiver]
+ChildParts=[HK MP5 9x19 20-round magazine,HK MP5 9x19 30-round magazine,HK MP5 9x19 X Products X-5 50-round drum magazine]
+ChildParts=[HK MP5 cocking handle]
+Recoil=65
+Ergonomics=50
