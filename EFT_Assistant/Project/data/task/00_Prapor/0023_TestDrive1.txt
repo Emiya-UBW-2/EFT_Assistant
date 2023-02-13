@@ -2,7 +2,7 @@ Name=Test Drive - Part 1
 Trader=Prapor
 
 NeedTask=Grenadier
-NeedItem=[SilencerCo Hybrid 46 multi-caliber silencerx1,Trijicon REAP-IR thermal scopex1]
+NeedItem=[SilencerCo Hybrid 46 multi-caliber sound suppressorx1,Trijicon REAP-IR thermal scopex1]
 
 Task_Kill=[AllPMCx5]
 Task_Else=46サプ、REAP-IRを付けたM1Aで60m以遠からキル

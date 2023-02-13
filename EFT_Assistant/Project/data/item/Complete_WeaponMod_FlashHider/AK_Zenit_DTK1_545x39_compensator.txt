@@ -1,4 +1,4 @@
-Name=AK Zenit DTK-1 7.62x395.45x39 muzzle brake-compensator
+Name=AK Zenit DTK-1 7.62x39/5.45x39 muzzle brake-compensator
 Itemtype=Flash hider/muzzle brake
 Recoil=-13
 Ergonomics=-2

@@ -2,3 +2,4 @@ Name=AKM/AK-74 Zenit PT Lock
 Itemtype=Stock
 Recoil=0
 Ergonomics=0
+ChildParts=[AK Zenit PT-1 "Klassika" stock]

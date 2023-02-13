@@ -2,3 +2,4 @@ Name=AKS-74 metal skeletonized stock (6P21 Sb.5)
 Itemtype=Stock
 Recoil=-30
 Ergonomics=+10
+ChildParts=[AK GP-25 accessory kit recoil pad]

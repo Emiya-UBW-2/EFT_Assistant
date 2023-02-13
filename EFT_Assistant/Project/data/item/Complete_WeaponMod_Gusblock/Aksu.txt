@@ -2,3 +2,4 @@ Name=AKS-74U gas tube (6P26 Sb.1-2)
 Itemtype=Gas block
 Recoil=0
 Ergonomics=0
+ChildParts=[AKS-74U Alfa Arms Goliaf handguard,AKS-74U Zenit B-11 handguard,AKS-74U wooden handguard (6P26 Sb.6),AKS-74U CAA XRSU47SU tactical handguard]

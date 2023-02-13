@@ -198,12 +198,12 @@ namespace FPS_n2 {
 				for (const auto& c : cp.Data) {
 					bool isHit = false;
 					for (const auto& t : cp.TypeID) {
-						if (t == c.first->GetTypeID()) {
+						if (c.first && t == c.first->GetTypeID()) {
 							isHit = true;
 							break;
 						}
 					}
-					if (!isHit) {
+					if (!isHit && c.first) {
 						cp.TypeID.emplace_back(c.first->GetTypeID());
 					}
 				}

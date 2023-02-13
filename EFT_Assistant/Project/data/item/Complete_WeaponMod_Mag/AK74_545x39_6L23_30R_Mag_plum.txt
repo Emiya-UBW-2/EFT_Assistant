@@ -1,4 +1,4 @@
-Name=AK-74 5.45x39 6L23 30-round magazine(Plum)
+Name=AK-74 5.45x39 6L23 "Plum" 30-round magazine
 Itemtype=Magazine
 Recoil=0
 Ergonomics=-3
