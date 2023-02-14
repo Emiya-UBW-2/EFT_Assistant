@@ -1,2 +1,8 @@
 Name=Simonov SKS 7.62x39 carbine
 Itemtype=Assault carbine
+ChildParts=[SKS Weapon Tuning 7.62x39 thread adapter,SKS Hexagon 7.62x39 sound suppressor]
+ChildParts=[SKS rear sight]
+ChildParts=[SKS FAB Defense UAS stock,OP-SKS wooden stock,SKS TAPCO Intrafuse stock,SKS TOZ wooden stock (56-A-231 Sb.5)]
+ChildParts=[SKS 7.62x39 10-round internal box magazine,SKS 7.62x39 ProMag SKS-A5 20-round magazine,SKS 7.62x39 ProMag AALVX 35-round magazine,SKS 7.62x39 KCI 75-round drum magazine]
+Recoil=182
+Ergonomics=40

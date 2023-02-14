@@ -1,0 +1,6 @@
+Name=OPSKS_Normal
+Base=Simonov OP-SKS 7.62x39 carbine (Hunting Rifle Version)
+Parts=SKS rear sight
+Parts=OP-SKS wooden stock
+Parts=SKS 7.62x39 10-round internal box magazine
+Parts=OP-SKS dovetail mount
