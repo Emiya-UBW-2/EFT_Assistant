@@ -760,9 +760,9 @@ namespace FPS_n2 {
 					//*/
 					xp_t = (xmin + (xmax - xmin) / 2);
 					if (m_SpecChange) {
-						WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, FontHandle::FontXCenter::MIDDLE, White, Black, "%d<      <%d", ErgMin, ErgMax);
+						WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, FontHandle::FontXCenter::MIDDLE, White, Black, "%d<          <%d", ErgMin, ErgMax);
 					}
-					WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight, FontHandle::FontXCenter::MIDDLE, White, Black, "%d", Erg);
+					WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight, FontHandle::FontXCenter::MIDDLE, White, Black, "%5.2f", m_Ergonomics);
 					/*
 					xp_t = xmin;
 					if (WindowSystem::ClickCheckBox(xp_t, ypos, xp_t + LineHeight, ypos + LineHeight, true, true, Gray25, "¤")) {
@@ -820,9 +820,9 @@ namespace FPS_n2 {
 					//*/
 					xp_t = (xmin + (xmax - xmin) / 2);
 					if (m_SpecChange) {
-						WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, FontHandle::FontXCenter::MIDDLE, White, Black, "%d<      <%d", RecMin, RecMax);
+						WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, FontHandle::FontXCenter::MIDDLE, White, Black, "%d<          <%d", RecMin, RecMax);
 					}
-					WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight, FontHandle::FontXCenter::MIDDLE, White, Black, "%d", Rec);
+					WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight, FontHandle::FontXCenter::MIDDLE, White, Black, "%5.2f", m_Recoil);
 					/*
 					xp_t = xmin;
 					if (WindowSystem::ClickCheckBox(xp_t, ypos, xp_t + LineHeight, ypos + LineHeight, true, true, Gray25, "¤")) {

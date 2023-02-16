@@ -1,0 +1,9 @@
+Name=Remington Model 870 12ga pump-action shotgun
+Itemtype=Shotgun
+ChildParts=[M870 12ga sawn-off 325mm barrel,M870 12ga 355mm barrel,M870 12ga 508mm barrel,M870 12ga 508mm barrel with a fixed sight,M870 12ga 660mm vent rib barrel]
+ChildParts=[M870 FAB Defense PR-870 forestock,M870 Magpul MOE handguard,M870 SpeedFeed Short handguard]
+ChildParts=[M870 FAB Defense AGR-870 pistol grip,M870 Mesa Tactical LEO stock adapter,M870 Shockwave Raptor grip,M870 SPS polymer stock,M870 Magpul SGA polymer stock]
+ChildParts=[M870 12ga 4-shell magazine cap,M870 12ga 7-shell magazine,M870 12ga 10-shell magazine]
+ChildParts=[M870 Leapers UTG PRO MTU-028SG rail,M870 XS SHOTRAIL rail with Ghost Ring rear sight]
+Recoil=520
+Ergonomics=45

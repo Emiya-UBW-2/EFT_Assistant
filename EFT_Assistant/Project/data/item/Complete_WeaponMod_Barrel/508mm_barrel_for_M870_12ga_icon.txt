@@ -2,3 +2,5 @@ Name=M870 12ga 508mm barrel with a fixed sight
 Itemtype=Stock
 Recoil=-6
 Ergonomics=-7
+ChildParts=[Remington Tactical Choke 12ga,SilencerCo Salvo 12 choke adapter]
+ChildParts=[M870 Mesa Tactical magazine clamp]
