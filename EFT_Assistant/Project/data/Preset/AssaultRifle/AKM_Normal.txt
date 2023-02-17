@@ -1,0 +1,10 @@
+Name=AKM_Normal
+Base=Kalashnikov AKM 7.62x39 assault rifle
+Parts=AKM gas tube (6P1 Sb.1-2)
+Parts=AKM wooden handguard (6P1 Sb.6-1)
+Parts=AKM 7.62x39 muzzle brake-compensator (6P1 0-14)
+Parts=AKM rear sight (6P1 Sb.2-1)
+Parts=AKM dust cover (6P1 0-1)
+Parts=AKM wooden stock (6P1 Sb.5)
+Parts=AK 7.62x39 30-round magazine (issued '55 or later)
+Parts=AKM bakelite pistol grip

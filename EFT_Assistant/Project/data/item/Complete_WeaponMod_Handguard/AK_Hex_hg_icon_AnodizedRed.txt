@@ -2,3 +2,6 @@ Name=AK Hexagon tubular handguard (Anodized Red)
 Itemtype=Handguard
 Recoil=-3
 Ergonomics=+15
+ChildParts=[Hexagon short length rail,Hexagon short length rail (Anodized Red)]
+ChildParts=[Hexagon medium length rail,Hexagon medium length rail (Anodized Red)]
+Conflict=[Kalashnikov AK-102 5.56x45 assault rifle,Kalashnikov AK-104 7.62x39 assault rifle,Kalashnikov AK-105 5.45x39 assault rifle]

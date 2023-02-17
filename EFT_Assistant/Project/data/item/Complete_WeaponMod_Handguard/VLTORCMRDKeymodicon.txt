@@ -2,3 +2,6 @@ Name=AK Vltor CMRD KeyMod handguard
 Itemtype=Handguard
 Recoil=-4
 Ergonomics=+10
+ChildParts=[Monstrum Tactical Vertical Fore Grip KeyMod,SIG Sauer Vertical Foregrip KeyMod (Black),A3 Tactical MVF001 KeyMod vertical foregrip (Black),Strike Industries KeyMod 6 inch rail,Vltor CASV KeyMod 6 inch rail]
+ChildParts=[Strike Industries KeyMod 4 inch rail,Vltor CASV KeyMod 2 inch rail,Vltor CASV KeyMod 4 inch rail]
+Conflict=[Kalashnikov AK-102 5.56x45 assault rifle,Kalashnikov AK-104 7.62x39 assault rifle,Kalashnikov AK-105 5.45x39 assault rifle]

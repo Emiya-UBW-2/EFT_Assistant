@@ -1,4 +1,4 @@
-Name=Hexagon short length rail(black)
+Name=Hexagon short length rail
 Itemtype=Mount
 Recoil=0
 Ergonomics=0

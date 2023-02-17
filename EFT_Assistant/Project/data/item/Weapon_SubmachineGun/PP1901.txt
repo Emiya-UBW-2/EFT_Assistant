@@ -1,0 +1,2 @@
+Name=PP-19-01 "Vityaz" 9x19 submachine gun
+Itemtype=Submachine gun

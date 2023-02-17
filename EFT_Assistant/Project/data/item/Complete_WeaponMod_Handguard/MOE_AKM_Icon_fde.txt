@@ -2,3 +2,6 @@ Name=AK Magpul MOE AKM handguard (FDE)
 Itemtype=Handguard
 Recoil=-2
 Ergonomics=+10
+ChildParts=[Magpul M-LOK AFG tactical foregrip (Black),Magpul M-LOK AFG tactical foregrip (FDE),Magpul M-LOK AFG tactical foregrip (Olive Drab),Magpul M-LOK AFG tactical foregrip (Stealth Gray),Magpul M-LOK 4.1 inch rail]
+ChildParts=[Magpul M-LOK 2.5 inch rail,Magpul M-LOK Cantilever Mount]
+ChildParts=[Magpul M-LOK 2.5 inch rail,Magpul M-LOK Cantilever Mount]

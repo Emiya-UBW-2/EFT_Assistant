@@ -1,0 +1,2 @@
+Name=Kalashnikov AK-102 5.56x45 assault rifle
+Itemtype=Assault rifle

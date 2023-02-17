@@ -1,4 +1,7 @@
-Name=AK TDI AKM-L handguard(Anodized Rronze)
+Name=AK TDI AKM-L handguard (Anodized Bronze)
 Itemtype=Handguard
 Recoil=0
 Ergonomics=+6
+ChildParts=[Magpul M-LOK 4.1 inch rail,Magpul M-LOK AFG tactical foregrip (Black),Magpul M-LOK AFG tactical foregrip (FDE),Magpul M-LOK AFG tactical foregrip (Olive Drab),Magpul M-LOK AFG tactical foregrip (Stealth Gray)]
+ChildParts=[Magpul M-LOK 2.5 inch rail,Magpul M-LOK Cantilever Mount]
+ChildParts=[Magpul M-LOK 2.5 inch rail,Magpul M-LOK Cantilever Mount]
