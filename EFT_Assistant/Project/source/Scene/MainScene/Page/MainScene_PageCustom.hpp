@@ -631,7 +631,7 @@ namespace FPS_n2 {
 		void Draw_Back_Sub(int xpos, int ypos, float scale) noexcept override {
 			if (m_BaseWeapon) {
 				if (m_BaseWeapon->GetIcon().GetGraph()) {
-					float Scale = ((float)y_r(1920) / m_BaseWeapon->GetIcon().GetXSize()) * scale;
+					float Scale = ((float)y_r(1080) / 128) * scale;
 					DrawControl::Instance()->SetDrawRotaGraph(false, m_BaseWeapon->GetIcon().GetGraph(), xpos + (int)((float)y_r(960)*scale / 0.2f), ypos + (int)((float)y_r(540)*scale / 0.2f), Scale, 0.f, false);
 					int Lane = 0;
 					DrawChild(xpos, ypos, 0, 0, Scale, &Lane);

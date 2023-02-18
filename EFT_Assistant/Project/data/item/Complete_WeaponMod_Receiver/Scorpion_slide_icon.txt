@@ -2,3 +2,5 @@ Name=P226 Emperor Scorpion pistol slide
 Itemtype=Receiver
 Recoil=-3
 Ergonomics=+2
+ChildParts=[P226 Meprolight TRU-DOT Night rear sight,P226 rear sight,P226 Sight Mount 220-239 rear sight bearing,P226 Trijicon RMR mount]
+ChildParts=[P226 Meprolight TRU-DOT Night front sight,P226 front sight]

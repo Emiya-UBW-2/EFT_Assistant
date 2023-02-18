@@ -2,3 +2,5 @@ Name=P226 Axelson Tactical MK25 pistol slide
 Itemtype=Receiver
 Recoil=-4
 Ergonomics=+4
+ChildParts=[P226 Meprolight TRU-DOT Night rear sight,P226 rear sight,P226 Sight Mount 220-239 rear sight bearing,P226 Trijicon RMR mount]
+ChildParts=[P226 Meprolight TRU-DOT Night front sight,P226 front sight]

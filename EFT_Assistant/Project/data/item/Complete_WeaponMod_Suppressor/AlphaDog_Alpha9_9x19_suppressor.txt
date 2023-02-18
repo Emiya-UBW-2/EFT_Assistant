@@ -2,3 +2,4 @@ Name=Alpha Dog Alpha 9 9x19 sound suppressor
 Itemtype=Suppressor
 Recoil=-8
 Ergonomics=-13
+ChildParts=[Aimpoint Micro Standard Mount,Aimpoint Micro H-2 Standard Mount,B&T QD NAR mount for Aimpoint ACRO,Burris FastFire Weaver Base,DeltaPoint Cross Slot Mount base,Trijicon RMR low profile mount]

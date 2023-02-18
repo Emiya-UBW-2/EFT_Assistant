@@ -1,0 +1,7 @@
+Name=P226R_Normal
+Base=SIG P226R 9x19 pistol
+Parts=P226 9x19 112mm barrel
+Parts=P226R MK25 pistol slide
+Parts=P226 9x19 15-round magazine
+Parts=P226 rear sight
+Parts=P226 front sight
