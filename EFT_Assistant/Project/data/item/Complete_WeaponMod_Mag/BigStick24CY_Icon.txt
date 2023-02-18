@@ -1,0 +1,5 @@
+Name=Glock 9x19 "Big Stick" 24-round magazine (Coyote)
+Itemtype=Magazine
+Recoil=0
+Ergonomics=-4
+
