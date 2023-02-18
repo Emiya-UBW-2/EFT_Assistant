@@ -1,0 +1,10 @@
+Name=Vector45_Normal
+Base=TDI KRISS Vector Gen.2 .45 ACP submachine gun
+Parts=Glock .45 ACP 13-round magazine
+Parts=KRISS Defiance low profile flip-up front sight
+Parts=KRISS Defiance low profile flip-up rear sight
+Parts=KRISS Vector .45 ACP 5 inch barrel
+Parts=KRISS Vector .45 ACP flash hider
+Parts=KRISS Vector bottom rail
+Parts=KRISS Vector side rail
+Parts=KRISS Vector side rail

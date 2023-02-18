@@ -2,3 +2,4 @@ Name=MPX 9x19 14 inch barrel
 Itemtype=Stock
 Recoil=-7
 Ergonomics=-14
+ChildParts=[TACCOM Carbine Brake multi-caliber muzzle brake,Yankee Hill Annihilator multi-caliber flash hider,MPX A2 9x19 flash hider,SilencerCo Hybrid 46 Direct Thread Mount adapter,AAC Illusion 9 9x19 sound suppressor,Rotor 43 9x19 muzzle brake-compensator,SIG Sauer SRD9 9x19 sound suppressor,SilencerCo Osprey 9 9x19 sound suppressor]

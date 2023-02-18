@@ -2,3 +2,5 @@ Name=MPX 9x19 10.5 inch barrel
 Itemtype=Stock
 Recoil=-4
 Ergonomics=-9
+ChildParts=[MPX A2 9x19 flash hider,AAC Illusion 9 9x19 sound suppressor,Yankee Hill Annihilator multi-caliber flash hider,SilencerCo Hybrid 46 Direct Thread Mount adapter,Rotor 43 9x19 muzzle brake-compensator,SIG Sauer SRD9 9x19 sound suppressor,SilencerCo Osprey 9 9x19 sound suppressor]
+Conflict=[MPX Lancer OEM 14 inch M-LOK handguard]

@@ -2,3 +2,4 @@ Name=KRISS Vector 9x19 5 inch barrel
 Itemtype=Stock
 Recoil=-3
 Ergonomics=0
+ChildParts=[TACCOM Carbine Brake multi-caliber muzzle brake,KRISS Vector 9x19 flash hider,Gemtech ONE Direct Thread Mount adapter,KRISS Vector 9x19 thread protection cap,Rotor 43 9x19 muzzle brake-compensator,SIG Sauer SRD9 9x19 sound suppressor,SilencerCo Osprey 9 9x19 sound suppressor]

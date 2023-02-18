@@ -2,3 +2,6 @@ Name=MPX Midwest Industries 4.5 inch M-LOK handguard
 Itemtype=Handguard
 Recoil=0
 Ergonomics=+15
+ChildParts=[Magpul M-LOK 2.5 inch rail,Magpul M-LOK Cantilever Mount,Magpul M-LOK Offset Light Mount]
+ChildParts=[Magpul M-LOK 2.5 inch rail,Magpul M-LOK Cantilever Mount,Magpul M-LOK Offset Light Mount]
+ChildParts=[HK MP7 flip-up front sight,KAC Folding Micro front sight,KAC Folding front sight,KRISS Defiance low profile flip-up front sight,Magpul MBUS Gen2 flip-up front sight,Magpul MBUS Gen2 flip-up front sight (FDE),MCX flip-up front sight,MPX flip-up front sight]

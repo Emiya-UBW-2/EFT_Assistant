@@ -2,3 +2,4 @@ Name=KRISS Vector .45 ACP 6 inch barrel
 Itemtype=Stock
 Recoil=-4
 Ergonomics=-2
+ChildParts=[KRISS Vector .45 ACP flash hider,SilencerCo Omega 45k Direct Thread Mount adapter,KRISS Vector .45 ACP thread protection cap]

@@ -1,0 +1,12 @@
+Name=MPX_Normal
+Base=SIG MPX 9x19 submachine gun
+Parts=MPX pistol grip
+Parts=MPX GEN1 9x19 upper receiver
+Parts=MPX flip-up front sight
+Parts=MPX 9x19 203mm barrel
+Parts=MPX A2 9x19 flash hider
+Parts=MPX flip-up rear sight
+Parts=MPX GEN1 handguard
+Parts=MPX/MCX collapsing/telescoping stock
+Parts=MPX 9x19 30-round magazine
+Parts=MPX single latch charging handle
