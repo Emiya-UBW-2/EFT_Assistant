@@ -1,4 +1,4 @@
-Name=AS VAL 9x39 special assault rifle
+Name=VSS Vintorez 9x39 special sniper rifle
 Itemtype=Designated marksman rifle
 ChildParts=[AS VAL 9x39 integral barrel-suppressor,VSS 9x39 integral barrel-suppressor]
 ChildParts=[AS VAL dust cover,VSS dust cover]

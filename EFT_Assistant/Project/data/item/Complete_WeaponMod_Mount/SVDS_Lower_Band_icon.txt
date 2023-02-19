@@ -2,3 +2,5 @@ Name=SVDS upper band
 Itemtype=Mount
 Recoil=0
 Ergonomics=-1
+ChildParts=[SVD modernization kit handguard,SVDS polymer handguard,SVD CAA XRS-DRG handguard]
+ChildParts=[AK Taktika Tula TT01 rear sight rail,SVDS rear sight]

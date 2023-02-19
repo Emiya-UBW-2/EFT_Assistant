@@ -2,3 +2,5 @@ Name=SVDS 7.62x54R muzzle brake-compensator
 Itemtype=Flash hider/muzzle brake
 Recoil=-7
 Ergonomics=-1
+ChildParts=[SVDS front sight]
+ChildParts=[SVDS Rotor 43 thread adapter]

@@ -1,0 +1,5 @@
+Name=
+Itemtype=Sniper rifle
+ChildParts=[]
+Recoil=234
+Ergonomics=33

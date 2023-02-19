@@ -1,4 +1,4 @@
-Name=AK TangoDown Battle Grip pistol grip (Black)
+Name=AK TangoDown Battle Grip pistol grip
 Itemtype=Pistol grip
 Recoil=0
 Ergonomics=+12

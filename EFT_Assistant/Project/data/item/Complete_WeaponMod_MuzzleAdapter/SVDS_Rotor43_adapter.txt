@@ -2,3 +2,4 @@ Name=SVDS Rotor 43 thread adapter
 Itemtype=Muzzle adapter
 Recoil=0
 Ergonomics=-1
+ChildParts=[Rotor 43 7.62x54R muzzle brake-compensator]

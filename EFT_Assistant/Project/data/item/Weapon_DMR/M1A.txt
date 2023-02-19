@@ -1,2 +1,5 @@
 Name=Springfield Armory M1A 7.62x51 rifle
 Itemtype=Designated marksman rifle
+ChildParts=[]
+Recoil=296
+Ergonomics=28

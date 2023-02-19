@@ -2,3 +2,5 @@ Name=DVL-10 M2 7.62x51 660mm barrel
 Itemtype=Stock
 Recoil=-5
 Ergonomics=-13
+ChildParts=[DVL-10 M2 7.62x51 muzzle brake]
+ChildParts=[DVL-10 M2 handguard]

@@ -1,0 +1,5 @@
+Name=1911
+Itemtype=Pistol
+ChildParts=[]
+Recoil=0
+Ergonomics=0

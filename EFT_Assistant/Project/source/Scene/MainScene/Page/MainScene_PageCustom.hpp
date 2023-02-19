@@ -539,8 +539,8 @@ namespace FPS_n2 {
 			m_BaseWeapon = nullptr;
 
 			m_EnableMag = true;
-			m_EnableMount = false;
-			m_EnableSight = false;
+			m_EnableMount = true;
+			m_EnableSight = true;
 			m_Recoil = 50.f;
 			m_Ergonomics = 50.f;
 

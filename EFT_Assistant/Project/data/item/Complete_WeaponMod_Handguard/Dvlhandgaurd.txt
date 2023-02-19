@@ -2,3 +2,4 @@ Name=DVL-10 M2 handguard
 Itemtype=Handguard
 Recoil=0
 Ergonomics=+9
+ChildParts=[Kiba Arms 25mm accessory ring mount,Zenit Klesch-2IKS IR illuminator with laser,Zenit Klesch-2P flashlight with laser,Zenit Klesch-2U tactical flashlight,AN/PEQ-15 tactical device,AN/PEQ-2 tactical device,Glock GTL 21 tactical flashlight with laser,Holosun LS321 Tactical device,LA-5B/PEQ tactical device,Steiner LAS/TAC 2 tactical flashlight,NcSTAR Tactical blue laser LAM-module,Steiner DBAL-PL tactical device,SureFire XC1 tactical flashlight,SureFire X400 Ultra tactical flashlight with laser,Zenit Perst-3 tactical device]
