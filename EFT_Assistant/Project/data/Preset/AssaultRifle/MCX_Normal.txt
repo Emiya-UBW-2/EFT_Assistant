@@ -1,0 +1,14 @@
+Name=MCX_Normal
+Base=SIG MCX .300 Blackout assault rifle
+Parts=MCX GEN1 .300 BLK upper receiver
+Parts=MCX .300 BLK 229mm barrel
+Parts=MCX gas block
+Parts=SIG Sauer Taper-LOK 7.62x51/.300 BLK muzzle adapter
+Parts=SIG Sauer Two Port Brake 7.62x51 muzzle brake
+Parts=MCX flip-up rear sight
+Parts=MCX GEN1 KeyMod 12 inch handguard
+Parts=MCX flip-up front sight
+Parts=MCX pistol grip
+Parts=5.56x45 Colt AR-15 STANAG 30-round magazine
+Parts=MPX/MCX lightweight stock
+Parts=MCX charging handle

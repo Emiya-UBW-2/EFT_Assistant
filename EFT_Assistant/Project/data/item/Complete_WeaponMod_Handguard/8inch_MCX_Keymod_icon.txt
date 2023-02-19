@@ -2,3 +2,7 @@ Name=MCX GEN1 KeyMod 8 inch handguard
 Itemtype=Handguard
 Recoil=0
 Ergonomics=+9
+ChildParts=[Strike Industries KeyMod 4 inch rail,Vltor CASV KeyMod 2 inch rail,Vltor CASV KeyMod 4 inch rail,CNC Guns KeyMod 2 inch rail]
+ChildParts=[Strike Industries KeyMod 4 inch rail,Vltor CASV KeyMod 2 inch rail,Vltor CASV KeyMod 4 inch rail,CNC Guns KeyMod 2 inch rail]
+ChildParts=[HK MP7 flip-up front sight,KAC Folding Micro front sight,KAC Folding front sight,KRISS Defiance low profile flip-up front sight,Magpul MBUS Gen2 flip-up front sight,Magpul MBUS Gen2 flip-up front sight (FDE),MCX flip-up front sight,MPX flip-up front sight,AR-15 Leapers UTG Low Profile A2 front sight]
+ChildParts=[Monstrum Tactical Vertical Fore Grip KeyMod,A3 Tactical MVF001 KeyMod vertical foregrip (Black),SIG Sauer Vertical Foregrip KeyMod (Black),Strike Industries KeyMod 6 inch rail,Vltor CASV KeyMod 6 inch rail,CNC Guns KeyMod 4 inch rail]

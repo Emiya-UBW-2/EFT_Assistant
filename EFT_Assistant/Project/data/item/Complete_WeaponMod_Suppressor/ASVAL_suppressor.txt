@@ -2,3 +2,5 @@ Name=AS VAL 9x39 integral barrel-suppressor
 Itemtype=Suppressor
 Recoil=-20
 Ergonomics=-5
+ChildParts=[AS VAL rear sight,VSS rear sight]
+ChildParts=[VSS/VAL Zenit B-3 ring mount,VSS/VAL Zenit B-3 mount combo,VSS/VAL TOZ 6P29M mount]

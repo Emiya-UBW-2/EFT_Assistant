@@ -2,3 +2,5 @@ Name=AR-10 JP Enterprises Gas System-6
 Itemtype=Gas block
 Recoil=-4
 Ergonomics=-2
+ChildParts=[KAC Folding front sight,Magpul MBUS Gen2 flip-up front sight,Magpul MBUS Gen2 flip-up front sight (FDE),HK MP7 flip-up front sight,MPX flip-up front sight]
+Conflict=[AR-15 Alexander Arms MK10 rifle length handguard,AR-15 War Sport LVOA-C handguard (Black),AR-15 War Sport LVOA-S handguard (Black)]
