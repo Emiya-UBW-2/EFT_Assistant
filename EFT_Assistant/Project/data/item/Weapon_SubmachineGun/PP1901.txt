@@ -1,2 +1,13 @@
 Name=PP-19-01 "Vityaz" 9x19 submachine gun
 Itemtype=Submachine gun
+ChildParts=[PP-19-01 "Vityaz" gas tube]
+ChildParts=[SilencerCo Hybrid 46 Direct Thread Mount adapter,PP-19-01 "Vityaz" 9x19 muzzle brake-compensator,Saiga-9 9x19 muzzle brake-compensator,Rotor 43 9x19 muzzle brake-compensator,SIG Sauer SRD9 9x19 sound suppressor,SilencerCo Osprey 9 9x19 sound suppressor,PP-19-01 "Vityaz" 9x19 sound suppressor]
+ChildParts=[AK-12 pistol grip,AK bakelite pistol grip (6P1 Sb.8V),AK polymer pistol grip (6P1 Sb.8),AKM bakelite pistol grip,AKM wooden pistol grip,AK bakelite pistol grip (6P4 Sb.9),AK KGB MG-47 pistol grip,AK Magpul MOE pistol grip (Black),AK bakelite pistol grip,AK Strike Industries Enhanced Pistol Grip (Black),AK Strike Industries Enhanced Pistol Grip (FDE),AK TAPCO SAW-Style pistol grip (Black),AK TAPCO SAW-Style pistol grip (FDE),AK US Palm pistol grip,AK Zenit RK-3 pistol grip,PP-19-01 "Vityaz" pistol grip,AK Aeroknox Scorpius pistol grip]
+ChildParts=[PP-19-01 "Vityaz-SN" dust cover,PP-19-01 "Vityaz" dust cover]
+ChildParts=[PP-19-01 "Vityaz" rear sight]
+ChildParts=[AK-74M/AK-100 Zenit PT Lock,PP-19-01 "Vityaz" metal skeleton stock,AK-74M CAA AKTS AK74 buffer tube]
+ChildParts=[Saiga-9 9x19 sb.7 10-round magazine,PP-19-01 "Vityaz" 9x19 30-round magazine,PP-19-01 "Vityaz" 9x19 PUFGUN SG-919 20 20-round magazine,PP-19-01 "Vityaz" 9x19 PUFGUN SG-919 30 30-round magazine]
+ChildParts=[SAG Bit low profile dovetail sidemount,Axion Kobra EKP-8-02 reflex sight (Dovetail),BelOMO PK-AA dovetail reflex sight,OKP-7 reflex sight (Dovetail),NPZ PK1 "Obzor" reflex sight,BelOMO PSO-1 4x24 scope,BelOMO PSO-1M2-1 4x24 scope,BelOMO PSO-1M2 4x24 scope,NPZ USP-1 "Tyulpan" 4x scope,NSPU-M night vision scope,Axion Kobra dovetail mount,KMZ 1P59 dovetail mount,NPZ 1P78-1 dovetail mount,VOMZ Pilad 043-02 dovetail mount,Zenit B-13V "Klassika" dovetail rail platform]
+ChildParts=[AK CSS knurled charging handle,AK Zenit RP-1 charging handle]
+Recoil=68
+Ergonomics=35

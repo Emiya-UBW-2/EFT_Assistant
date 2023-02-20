@@ -1,0 +1,7 @@
+Name=PP-9 "Klin" 9x18PMM submachine gun
+Itemtype=Submachine gun
+ChildParts=[PP-91 "Kedr" polymer pistol grip]
+ChildParts=[PP-91 "Kedr" 9x18PM 20-round magazine,PP-91 "Kedr" 9x18PM 30-round magazine]
+ChildParts=[PP-91 "Kedr" Rotor 43 RIS mount]
+Recoil=58
+Ergonomics=65

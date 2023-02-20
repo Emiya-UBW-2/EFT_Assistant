@@ -1,0 +1,4 @@
+Name=SR-2M 9x21 hand stopper
+Itemtype=Muzzle adapter
+Recoil=0
+Ergonomics=3

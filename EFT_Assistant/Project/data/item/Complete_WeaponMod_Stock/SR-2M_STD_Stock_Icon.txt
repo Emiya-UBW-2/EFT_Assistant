@@ -1,0 +1,4 @@
+Name=SR-2M folding stock
+Itemtype=Stock
+Recoil=-27
+Ergonomics=+7

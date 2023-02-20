@@ -2,3 +2,4 @@ Name=PP-19-01 "Vityaz" metal skeleton stock
 Itemtype=Stock
 Recoil=-34
 Ergonomics=+6
+ChildParts=[AK GP-25 accessory kit recoil pad]

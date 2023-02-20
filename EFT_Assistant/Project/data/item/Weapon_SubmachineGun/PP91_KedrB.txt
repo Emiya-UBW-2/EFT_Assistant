@@ -1,2 +1,7 @@
 Name=PP-91-01 "Kedr-B" 9x18PM submachine gun
 Itemtype=Submachine gun
+ChildParts=[PP-91 "Kedr" polymer pistol grip]
+ChildParts=[PP-91 "Kedr" 9x18PM 20-round magazine,PP-91 "Kedr" 9x18PM 30-round magazine]
+ChildParts=[PP-91-01 "Kedr-B" threaded suppressor adapter]
+Recoil=58
+Ergonomics=65

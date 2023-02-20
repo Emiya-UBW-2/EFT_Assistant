@@ -1,0 +1,8 @@
+Name=SR2M_Normal
+Base=SR-2M "Veresk" 9x21 submachine gun
+Parts=SR-2M 9x21 30-round magazine
+Parts=SR-2M 9x21 hand stopper
+Parts=SR-2M pistol grip
+Parts=SR-2M dust cover
+Parts=SR-2M polymer handguard
+Parts=SR-2M folding stock

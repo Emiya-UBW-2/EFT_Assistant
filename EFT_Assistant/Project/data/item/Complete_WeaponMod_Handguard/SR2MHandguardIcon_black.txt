@@ -1,0 +1,5 @@
+Name=SR-2M polymer handguard (Black)
+Itemtype=Handguard
+Recoil=0
+Ergonomics=+5
+ChildParts=[SR-2M side rail,SR-2M short side rail]

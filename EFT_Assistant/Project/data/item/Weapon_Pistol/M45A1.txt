@@ -1,0 +1,11 @@
+Name=Colt M45A1 .45 ACP pistol
+Itemtype=Pistol
+ChildParts=[M1911A1 .45 ACP 127mm barrel,M1911A1 .45 ACP National Match barrel,M1911A1 .45 ACP threaded barrel]
+ChildParts=[M45A1 Mil-Tac GVT G10 side grips]
+ChildParts=[M1911A1 .45 ACP pistol slide,M45A1 .45 ACP pistol slide]
+ChildParts=[M1911A1 .45 ACP 7-round magazine,M1911A1 .45 ACP Wilson Combat 7-round magazine,M1911A1 .45 ACP Mec-Gar 11-round magazine]
+ChildParts=[M1911A1 Caspian Arms Trik Trigger,M1911A1 trigger,M45A1 trigger]
+ChildParts=[M45A1 hammer,M1911A1 STI HEX hammer,M1911A1 Wilson Retro Commander hammer,M1911A1 Wilson Ultralight skeletonized hammer]
+ChildParts=[M1911A1 slide stop,M45A1 slide lock,M1911A1 Wilson Extended slide stop]
+Recoil=78
+Ergonomics=515

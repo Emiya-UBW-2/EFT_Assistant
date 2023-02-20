@@ -1,0 +1,6 @@
+Name=Makarov PM (t) 9x18PM pistol
+Itemtype=Pistol
+ChildParts=[PM 9x18PM 90-93 8-round magazine,PM 9x18PM 84-round makeshift drum magazine]
+ChildParts=[AAC Illusion 9 9x19 sound suppressor,Alpha Dog Alpha 9 9x19 sound suppressor,SilencerCo Hybrid 46 Direct Thread Mount adapter,SIG Sauer SRD9 9x19 sound suppressor,SilencerCo Osprey 9 9x19 sound suppressor]
+Recoil=78
+Ergonomics=515

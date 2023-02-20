@@ -1,4 +1,4 @@
-Name=M700 thread protection cap(black)
+Name=M700 thread protection cap
 Itemtype=Muzzle adapter
 Recoil=0
 Ergonomics=+1

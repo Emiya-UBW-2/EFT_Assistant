@@ -1,4 +1,4 @@
-Name=Wilson Retro Commander hammer
+Name=M1911A1 Wilson Retro Commander hammer
 Itemtype=Auxiliary part
 Recoil=0
 Ergonomics=+2

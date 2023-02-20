@@ -1,0 +1,4 @@
+Name=SR-2M pistol grip
+Itemtype=Pistol grip
+Recoil=0
+Ergonomics=+6

@@ -2,3 +2,4 @@ Name=SilencerCo Omega 45k Piston Mount adapter
 Itemtype=Muzzle adapter
 Recoil=0
 Ergonomics=0
+ChildParts=[SilencerCo Omega 45k .45 ACP sound suppressor]

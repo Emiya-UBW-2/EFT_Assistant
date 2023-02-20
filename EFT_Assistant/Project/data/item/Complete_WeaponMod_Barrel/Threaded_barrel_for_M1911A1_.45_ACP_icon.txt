@@ -2,3 +2,4 @@ Name=M1911A1 .45 ACP threaded barrel
 Itemtype=Stock
 Recoil=-3
 Ergonomics=-4
+ChildParts=[SilencerCo Omega 45k Piston Mount adapter]
