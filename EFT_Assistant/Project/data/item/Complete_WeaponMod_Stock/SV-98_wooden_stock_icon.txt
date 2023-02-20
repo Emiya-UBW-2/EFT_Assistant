@@ -2,3 +2,4 @@ Name=SV-98 wooden stock
 Itemtype=Stock
 Recoil=-28
 Ergonomics=+6
+ChildParts=[SV-98 bipod]

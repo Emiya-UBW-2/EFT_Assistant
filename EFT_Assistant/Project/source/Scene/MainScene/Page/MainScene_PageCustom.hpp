@@ -727,8 +727,8 @@ namespace FPS_n2 {
 					int valueMax = 100;
 
 					float ErgonomicsPer2 = (m_Ergonomics - m_BaseWeapon->GetErgonomics());
-					int ErgMin = (int)(m_BaseWeapon->GetErgonomics() + ErgonomicsPer2 + m_ErgAddMin);
-					int ErgMax = (int)(m_BaseWeapon->GetErgonomics() + ErgonomicsPer2 + m_ErgAddMax);
+					float ErgMin = (m_BaseWeapon->GetErgonomics() + ErgonomicsPer2 + m_ErgAddMin);
+					float ErgMax = (m_BaseWeapon->GetErgonomics() + ErgonomicsPer2 + m_ErgAddMax);
 
 					int xp_t = 0;
 					{
@@ -738,11 +738,11 @@ namespace FPS_n2 {
 						WindowSystem::SetBox(xpmin, ypos, xpmin + (xpmax - xpmin)*std::clamp(Erg - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Green);
 						if (m_SpecChange) {
 							WindowSystem::SetBox(
-								xpmin + (xpmax - xpmin)*std::clamp(ErgMin - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos,
+								xpmin + (xpmax - xpmin)*std::clamp((int)ErgMin - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos,
 								xpmin + (xpmax - xpmin)*std::clamp(Erg - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Red);
 							WindowSystem::SetBox(
 								xpmin + (xpmax - xpmin)*std::clamp(Erg - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos,
-								xpmin + (xpmax - xpmin)*std::clamp(ErgMax - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Blue);
+								xpmin + (xpmax - xpmin)*std::clamp((int)ErgMax - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Blue);
 						}
 
 						DrawControl::Instance()->SetDrawLine(false,
@@ -760,7 +760,15 @@ namespace FPS_n2 {
 					//*/
 					xp_t = (xmin + (xmax - xmin) / 2);
 					if (m_SpecChange) {
-						WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, FontHandle::FontXCenter::MIDDLE, White, Black, "%d<          <%d", ErgMin, ErgMax);
+						if ((int)ErgMin == (int)m_Ergonomics) {
+							WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, FontHandle::FontXCenter::MIDDLE, White, Black, "               <%5.2f", ErgMax);
+						}
+						else if ((int)ErgMax == (int)m_Ergonomics) {
+							WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, FontHandle::FontXCenter::MIDDLE, White, Black, "%5.2f<               ", ErgMin);
+						}
+						else {
+							WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, FontHandle::FontXCenter::MIDDLE, White, Black, "%5.2f<            <%5.2f", ErgMin, ErgMax);
+						}
 					}
 					WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight, FontHandle::FontXCenter::MIDDLE, White, Black, "%5.2f", m_Ergonomics);
 					/*
@@ -787,8 +795,8 @@ namespace FPS_n2 {
 					int valueMax = 100;
 
 					float RecoilPer2 = m_Recoil * 100.f / m_BaseWeapon->GetRecoil() - 100.f;
-					int RecMin = (int)(m_BaseWeapon->GetRecoil()*(100.f + RecoilPer2 + m_RecAddMin) / 100.f);
-					int RecMax = (int)(m_BaseWeapon->GetRecoil()*(100.f + RecoilPer2 + m_RecAddMax) / 100.f);
+					float RecMin = (m_BaseWeapon->GetRecoil()*(100.f + RecoilPer2 + m_RecAddMin) / 100.f);
+					float RecMax = (m_BaseWeapon->GetRecoil()*(100.f + RecoilPer2 + m_RecAddMax) / 100.f);
 
 					int xp_t = 0;
 					{
@@ -798,11 +806,11 @@ namespace FPS_n2 {
 						WindowSystem::SetBox(xpmin, ypos, xpmin + (xpmax - xpmin)*std::clamp(Rec - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Green);
 						if (m_SpecChange) {
 							WindowSystem::SetBox(
-								xpmin + (xpmax - xpmin)*std::clamp(RecMin - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos,
+								xpmin + (xpmax - xpmin)*std::clamp((int)RecMin - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos,
 								xpmin + (xpmax - xpmin)*std::clamp(Rec - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Blue);
 							WindowSystem::SetBox(
 								xpmin + (xpmax - xpmin)*std::clamp(Rec - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos,
-								xpmin + (xpmax - xpmin)*std::clamp(RecMax - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Red);
+								xpmin + (xpmax - xpmin)*std::clamp((int)RecMax - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Red);
 						}
 
 						DrawControl::Instance()->SetDrawLine(false,
@@ -820,7 +828,15 @@ namespace FPS_n2 {
 					//*/
 					xp_t = (xmin + (xmax - xmin) / 2);
 					if (m_SpecChange) {
-						WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, FontHandle::FontXCenter::MIDDLE, White, Black, "%d<          <%d", RecMin, RecMax);
+						if ((int)RecMin == (int)m_Recoil) {
+							WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, FontHandle::FontXCenter::MIDDLE, White, Black, "               <%5.2f", RecMax);
+						}
+						else if ((int)RecMax == (int)m_Recoil) {
+							WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, FontHandle::FontXCenter::MIDDLE, White, Black, "%5.2f<               ", RecMin);
+						}
+						else {
+							WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, FontHandle::FontXCenter::MIDDLE, White, Black, "%5.2f<            <%5.2f", RecMin, RecMax);
+						}
 					}
 					WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight, FontHandle::FontXCenter::MIDDLE, White, Black, "%5.2f", m_Recoil);
 					/*

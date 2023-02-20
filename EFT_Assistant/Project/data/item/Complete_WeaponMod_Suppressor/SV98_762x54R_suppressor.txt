@@ -2,3 +2,4 @@ Name=SV-98 7.62x54R sound suppressor
 Itemtype=Suppressor
 Recoil=-12
 Ergonomics=-22
+ChildParts=[SV-98 sound suppressor heat shield]

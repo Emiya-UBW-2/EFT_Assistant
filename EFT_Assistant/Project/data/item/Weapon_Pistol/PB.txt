@@ -3,5 +3,5 @@ Itemtype=Pistol
 ChildParts=[PB 9x18PM sound suppressor]
 ChildParts=[PB bakilte side grips]
 ChildParts=[PM 9x18PM 90-93 8-round magazine,PM 9x18PM 84-round makeshift drum magazine]
-Recoil=78
-Ergonomics=515
+Recoil=80
+Ergonomics=455
