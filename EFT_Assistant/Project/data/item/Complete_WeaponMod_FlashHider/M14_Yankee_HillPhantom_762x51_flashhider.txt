@@ -2,3 +2,4 @@ Name=M14 Yankee Hill Phantom 7.62x51 flash hider
 Itemtype=Flash hider/muzzle brake
 Recoil=-8
 Ergonomics=-1
+ChildParts=[M1A SA National Match .062 Blade front sight,M1A SA XS Post .125 Blade front sight]

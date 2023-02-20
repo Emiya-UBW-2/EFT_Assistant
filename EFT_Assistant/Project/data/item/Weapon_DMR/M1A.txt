@@ -1,5 +1,9 @@
 Name=Springfield Armory M1A 7.62x51 rifle
 Itemtype=Designated marksman rifle
-ChildParts=[]
+ChildParts=[M1A 7.62x51 16 inch barrel,M1A 7.62x51 22 inch barrel]
+ChildParts=[M14 SA Enlarged Military Aperture rear sight]
+ChildParts=[M14 SAGE International M14ALCS chassis,M14 TROY S.A.S.S. Chassis stock,M1A ProMag Archangel stock,M1A SOCOM 16 stock]
+ChildParts=[M1A 7.62x51 20-round magazine,M14 7.62x51 30-round magazine,M14 7.62x51 X Products X-14 50-round drum magazine]
+ChildParts=[M14 A.R.M.S. 18 scope mount,M14 Leapers UTG 4-Point Locking Deluxe mount]
 Recoil=296
 Ergonomics=28

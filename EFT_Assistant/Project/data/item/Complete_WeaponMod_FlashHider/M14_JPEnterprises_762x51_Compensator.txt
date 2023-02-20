@@ -2,3 +2,4 @@ Name=M14 JP Enterprises 7.62x51 Tactical Compensator
 Itemtype=Flash hider/muzzle brake
 Recoil=-15
 Ergonomics=-2
+ChildParts=[M1A SA National Match .062 Blade front sight,M1A SA XS Post .125 Blade front sight]

@@ -2,3 +2,5 @@ Name=M1A Smith Enterprise SOCOM 16 7.62x51 threaded muzzle brake & gas block
 Itemtype=Flash hider/muzzle brake
 Recoil=-3
 Ergonomics=-1
+ChildParts=[M1A SA National Match .062 Blade front sight,M1A SA XS Post .125 Blade front sight]
+ChildParts=[AR-10 2A Armanent X3 7.62x51 compensator,Gemtech ONE Direct Thread Mount adapter,SilencerCo Hybrid 46 Direct Thread Mount adapter,AR-10 Lantac Drakon 7.62x51 muzzle brake-compensator,AR-10 Odin Works ATLAS-7 7.62x51 muzzle brake,M14 Smith Enterprise Vortex 7.62x51 muzzle brake]

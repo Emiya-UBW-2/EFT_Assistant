@@ -2,3 +2,4 @@ Name=M1A SOCOM 16 stock
 Itemtype=Stock
 Recoil=-35
 Ergonomics=+20
+ChildParts=[M14 Vltor CASV-14 rail system,M14 Amega Mini Scout Mount system,M14 UltiMAK M8 Forward Optic mount,M1A SOCOM 16 upper part]
