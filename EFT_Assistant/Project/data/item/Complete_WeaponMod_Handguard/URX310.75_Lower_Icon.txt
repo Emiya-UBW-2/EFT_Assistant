@@ -1,5 +1,33 @@
 Name=AR-15 KAC URX 3.1 10.75 inch lower handguard
 Itemtype=Handguard
-ChildParts=[BCM GUNFIGHTER MOD 3 vertical foregrip,ASh-12 vertical foregrip,Fortis Shift tactical foregrip,Hera Arms CQR tactical foregrip,HK Sturmgriff foregrip,KAC vertical foregrip,Magpul AFG tactical foregrip (Black),Magpul AFG tactical foregrip (FDE),Magpul AFG tactical foregrip (Forest Green),Magpul AFG tactical foregrip (Olive Drab),Magpul RVG foregrip (Black),Magpul RVG foregrip (FDE),RTM Pillau tactical foregrip,Stark SE-5 Express Forward foregrip,Strike Industries Cobra Tactical foregrip,TangoDown Stubby BGV-MK46K foregrip (Black),TangoDown Stubby BGV-MK46K foregrip (FDE),TangoDown Stubby BGV-MK46K foregrip (Stealth Gray),Tactical Dynamics Skeletonized Foregrip,Viking Tactics UVG tactical foregrip,Zenit RK-1 tactical foregrip on B-25U mount,Zenit RK-0 tactical foregrip,Zenit RK-1 tactical foregrip,Zenit RK-2 tactical foregrip,Zenit RK-4 tactical foregrip,Zenit RK-5 tactical foregrip,Zenit RK-6 tactical foregrip]
+ChildParts=[
+	BCM GUNFIGHTER MOD 3 vertical foregrip,
+	ASh-12 vertical foregrip,
+	Fortis Shift tactical foregrip,
+	Hera Arms CQR tactical foregrip,
+	HK Sturmgriff foregrip,
+	KAC vertical foregrip,
+	Magpul AFG tactical foregrip (Black),
+	Magpul AFG tactical foregrip (FDE),
+	Magpul AFG tactical foregrip (Forest Green),
+	Magpul AFG tactical foregrip (Olive Drab),
+	Magpul RVG foregrip (Black),
+	Magpul RVG foregrip (FDE),
+	RTM Pillau tactical foregrip,
+	Stark SE-5 Express Forward foregrip,
+	Strike Industries Cobra Tactical foregrip,
+	TangoDown Stubby BGV-MK46K foregrip (Black),
+	TangoDown Stubby BGV-MK46K foregrip (FDE),
+	TangoDown Stubby BGV-MK46K foregrip (Stealth Gray),
+	Tactical Dynamics Skeletonized Foregrip,
+	Viking Tactics UVG tactical foregrip,
+	Zenit RK-1 tactical foregrip on B-25U mount,
+	Zenit RK-0 tactical foregrip,
+	Zenit RK-1 tactical foregrip,
+	Zenit RK-2 tactical foregrip,
+	Zenit RK-4 tactical foregrip,
+	Zenit RK-5 tactical foregrip,
+	Zenit RK-6 tactical foregrip
+]
 Recoil=-2
 Ergonomics=+4

@@ -2,9 +2,37 @@ Name=HK 416A5 Midwest Industries 9 inch M-LOK handguard
 Itemtype=Handguard
 Recoil=0
 Ergonomics=+8
-ChildParts=[Holosun LS321 Tactical device,AN/PEQ-15 tactical device,AN/PEQ-2 tactical device,LA-5B/PEQ tactical device,SureFire XC1 tactical flashlight,Zenit Perst-3 tactical device]
-ChildParts=[Magpul M-LOK 2.5 inch rail,Magpul M-LOK Cantilever Mount,Magpul M-LOK Offset Light Mount]
-ChildParts=[Magpul M-LOK 2.5 inch rail,Magpul M-LOK Cantilever Mount,Magpul M-LOK Offset Light Mount]
+ChildParts=[
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	AN/PEQ-2 tactical device,
+	LA-5B/PEQ tactical device,
+	SureFire XC1 tactical flashlight,
+	Zenit Perst-3 tactical device
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK Offset Light Mount
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK Offset Light Mount
+]
 ChildParts=[NcSTAR MPR45 Backup mount]
-ChildParts=[Magpul M-LOK 4.1 inch rail,Magpul M-LOK AFG tactical foregrip (Black),Magpul M-LOK AFG tactical foregrip (FDE),Magpul M-LOK AFG tactical foregrip (Olive Drab),Magpul M-LOK AFG tactical foregrip (Stealth Gray)]
-ChildParts=[KAC Folding front sight,Magpul MBUS Gen2 flip-up front sight,Magpul MBUS Gen2 flip-up front sight (FDE),HK MP7 flip-up front sight,MPX flip-up front sight,AR-15 Leapers UTG Low Profile A2 front sight]
+ChildParts=[
+	Magpul M-LOK 4.1 inch rail,
+	Magpul M-LOK AFG tactical foregrip (Black),
+	Magpul M-LOK AFG tactical foregrip (FDE),
+	Magpul M-LOK AFG tactical foregrip (Olive Drab),
+	Magpul M-LOK AFG tactical foregrip (Stealth Gray)
+]
+ChildParts=[
+	KAC Folding front sight,
+	Magpul MBUS Gen2 flip-up front sight,
+	Magpul MBUS Gen2 flip-up front sight (FDE),
+	HK MP7 flip-up front sight,
+	MPX flip-up front sight,
+	AR-15 Leapers UTG Low Profile A2 front sight
+]

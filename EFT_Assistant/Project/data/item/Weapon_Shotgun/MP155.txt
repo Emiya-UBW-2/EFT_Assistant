@@ -1,9 +1,27 @@
 Name=MP-155 12ga semi-automatic shotgun
 Itemtype=Shotgun
 ChildParts=[MP-155 510mm barrel]
-ChildParts=[MP-155 walnut forestock,MP-155 Ultima polymer forestock]
-ChildParts=[MP-155 walnut stock,MP-155 Ultima pistol grip]
-ChildParts=[MP-155 12ga 6-shell magazine,MP-133 12ga 6-shell magazine,MP-133 12ga 8-shell magazine,MP-153 12ga 4-shell magazine cap,MP-153 12ga 5-shell magazine,MP-153 12ga 6-shell magazine,MP-153 12ga 7-shell magazine,MP-153 12ga 8-shell magazine]
-ChildParts=[Kiba Arms SPRM rail mount for pump-action shotguns,MP-155 Ultima top rail]
+ChildParts=[
+	MP-155 walnut forestock,
+	MP-155 Ultima polymer forestock
+]
+ChildParts=[
+	MP-155 walnut stock,
+	MP-155 Ultima pistol grip
+]
+ChildParts=[
+	MP-155 12ga 6-shell magazine,
+	MP-133 12ga 6-shell magazine,
+	MP-133 12ga 8-shell magazine,
+	MP-153 12ga 4-shell magazine cap,
+	MP-153 12ga 5-shell magazine,
+	MP-153 12ga 6-shell magazine,
+	MP-153 12ga 7-shell magazine,
+	MP-153 12ga 8-shell magazine
+]
+ChildParts=[
+	Kiba Arms SPRM rail mount for pump-action shotguns,
+	MP-155 Ultima top rail
+]
 Recoil=445
 Ergonomics=48

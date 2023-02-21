@@ -1,5 +1,12 @@
 Name=AR-15 Windham Weaponry Rail Gas Block
 Itemtype=Gas block
-ChildParts=[KAC Folding front sight,Magpul MBUS Gen2 flip-up front sight,Magpul MBUS Gen2 flip-up front sight (FDE),HK MP7 flip-up front sight,MPX flip-up front sight,AR-15 Leapers UTG Low Profile A2 front sight]
+ChildParts=[
+	KAC Folding front sight,
+	Magpul MBUS Gen2 flip-up front sight,
+	Magpul MBUS Gen2 flip-up front sight (FDE),
+	HK MP7 flip-up front sight,
+	MPX flip-up front sight,
+	AR-15 Leapers UTG Low Profile A2 front sight
+]
 Recoil=-2
 Ergonomics=0

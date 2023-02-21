@@ -2,4 +2,12 @@ Name=M700 ProMag Archangel polymer stock
 Itemtype=Stock
 Recoil=-36
 Ergonomics=+28
-Conflict=[M700 7.62x51 AI AICS 5-round magazine,M700 7.62x51 AI AICS 10-round magazine,M700 7.62x51 MDT AICS 12-round magazine,M700 7.62x51 Wyatt's Outdoor 5-round magazine,M700 7.62x51 Wyatt's Outdoor 10-round magazine,M700 7.62x51 Magpul PMAG AC 5-round magazine,M700 7.62x51 Magpul PMAG AC 10-round magazine]
+Conflict=[
+	M700 7.62x51 AI AICS 5-round magazine,
+	M700 7.62x51 AI AICS 10-round magazine,
+	M700 7.62x51 MDT AICS 12-round magazine,
+	M700 7.62x51 Wyatt's Outdoor 5-round magazine,
+	M700 7.62x51 Wyatt's Outdoor 10-round magazine,
+	M700 7.62x51 Magpul PMAG AC 5-round magazine,
+	M700 7.62x51 Magpul PMAG AC 10-round magazine
+]

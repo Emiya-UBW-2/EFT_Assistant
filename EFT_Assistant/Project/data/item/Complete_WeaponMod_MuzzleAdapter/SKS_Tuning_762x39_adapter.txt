@@ -2,4 +2,10 @@ Name=SKS Weapon Tuning 7.62x39 thread adapter
 Itemtype=Muzzle adapter
 Recoil=0
 Ergonomics=0
-ChildParts=[AK-103 7.62x39 muzzle brake-compensator,AK-104 7.62x39 muzzle brake-compensator (6P46 0-20),AK SRVV 7.62x39 muzzle brake-compensator,AK Zenit DTK-1 7.62x39/5.45x39 muzzle brake-compensator,AKM Zenit DTK-4M 7.62x39 sound suppressor]
+ChildParts=[
+	AK-103 7.62x39 muzzle brake-compensator,
+	AK-104 7.62x39 muzzle brake-compensator (6P46 0-20),
+	AK SRVV 7.62x39 muzzle brake-compensator,
+	AK Zenit DTK-1 7.62x39/5.45x39 muzzle brake-compensator,
+	AKM Zenit DTK-4M 7.62x39 sound suppressor
+]

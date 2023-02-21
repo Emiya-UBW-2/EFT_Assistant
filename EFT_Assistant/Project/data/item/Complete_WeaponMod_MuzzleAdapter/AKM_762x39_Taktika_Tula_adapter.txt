@@ -2,4 +2,12 @@ Name=AK 7.62x39 Taktika Tula muzzle adapter
 Itemtype=Muzzle adapter
 Recoil=0
 Ergonomics=0
-ChildParts=[AK-104 7.62x39 muzzle brake-compensator (6P46 0-20),AK-103 7.62x39 muzzle brake-compensator,AK Zenit DTK-1 7.62x39/5.45x39 muzzle brake-compensator,AKM Zenit DTK-4M 7.62x39 sound suppressor,AK SRVV 7.62x39 muzzle brake-compensator,AK Hexagon DTKP MK.2 7.62x39 sound suppressor,AK-74 thread type JMac Customs RRD-4C multi-caliber muzzle brake]
+ChildParts=[
+	AK-104 7.62x39 muzzle brake-compensator (6P46 0-20),
+	AK-103 7.62x39 muzzle brake-compensator,
+	AK Zenit DTK-1 7.62x39/5.45x39 muzzle brake-compensator,
+	AKM Zenit DTK-4M 7.62x39 sound suppressor,
+	AK SRVV 7.62x39 muzzle brake-compensator,
+	AK Hexagon DTKP MK.2 7.62x39 sound suppressor,
+	AK-74 thread type JMac Customs RRD-4C multi-caliber muzzle brake
+]

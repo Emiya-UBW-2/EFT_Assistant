@@ -1,12 +1,53 @@
 Name=Saiga-9 9x19 carbine
 Itemtype=Submachine gun
 ChildParts=[PP-19-01 "Vityaz" gas tube]
-ChildParts=[SilencerCo Hybrid 46 Direct Thread Mount adapter,PP-19-01 "Vityaz" 9x19 muzzle brake-compensator,Saiga-9 9x19 muzzle brake-compensator,Rotor 43 9x19 muzzle brake-compensator,SIG Sauer SRD9 9x19 sound suppressor,SilencerCo Osprey 9 9x19 sound suppressor,PP-19-01 "Vityaz" 9x19 sound suppressor]
-ChildParts=[AK-12 pistol grip,AK bakelite pistol grip (6P1 Sb.8V),AK polymer pistol grip (6P1 Sb.8),AKM bakelite pistol grip,AKM wooden pistol grip,AK bakelite pistol grip (6P4 Sb.9),AK KGB MG-47 pistol grip,AK Magpul MOE pistol grip (Black),AK bakelite pistol grip,AK Strike Industries Enhanced Pistol Grip (Black),AK Strike Industries Enhanced Pistol Grip (FDE),AK TAPCO SAW-Style pistol grip (Black),AK TAPCO SAW-Style pistol grip (FDE),AK US Palm pistol grip,AK Zenit RK-3 pistol grip,PP-19-01 "Vityaz" pistol grip,AK Aeroknox Scorpius pistol grip]
-ChildParts=[PP-19-01 "Vityaz-SN" dust cover,PP-19-01 "Vityaz" dust cover]
+ChildParts=[
+	SilencerCo Hybrid 46 Direct Thread Mount adapter,
+	PP-19-01 "Vityaz" 9x19 muzzle brake-compensator,
+	Saiga-9 9x19 muzzle brake-compensator,
+	Rotor 43 9x19 muzzle brake-compensator,
+	SIG Sauer SRD9 9x19 sound suppressor,
+	SilencerCo Osprey 9 9x19 sound suppressor,
+	PP-19-01 "Vityaz" 9x19 sound suppressor
+]
+ChildParts=[
+	AK-12 pistol grip,
+	AK bakelite pistol grip (6P1 Sb.8V),
+	AK polymer pistol grip (6P1 Sb.8),
+	AKM bakelite pistol grip,
+	AKM wooden pistol grip,
+	AK bakelite pistol grip (6P4 Sb.9),
+	AK KGB MG-47 pistol grip,
+	AK Magpul MOE pistol grip (Black),
+	AK bakelite pistol grip,
+	AK Strike Industries Enhanced Pistol Grip (Black),
+	AK Strike Industries Enhanced Pistol Grip (FDE),
+	AK TAPCO SAW-Style pistol grip (Black),
+	AK TAPCO SAW-Style pistol grip (FDE),
+	AK US Palm pistol grip,
+	AK Zenit RK-3 pistol grip,
+	PP-19-01 "Vityaz" pistol grip,
+	AK Aeroknox Scorpius pistol grip
+]
+ChildParts=[
+	PP-19-01 "Vityaz-SN" dust cover,
+	PP-19-01 "Vityaz" dust cover
+]
 ChildParts=[PP-19-01 "Vityaz" rear sight]
-ChildParts=[AK-74M/AK-100 Zenit PT Lock,PP-19-01 "Vityaz" metal skeleton stock,AK-74M CAA AKTS AK74 buffer tube]
-ChildParts=[Saiga-9 9x19 sb.7 10-round magazine,PP-19-01 "Vityaz" 9x19 30-round magazine,PP-19-01 "Vityaz" 9x19 PUFGUN SG-919 20 20-round magazine,PP-19-01 "Vityaz" 9x19 PUFGUN SG-919 30 30-round magazine]
-ChildParts=[AK CSS knurled charging handle,AK Zenit RP-1 charging handle]
+ChildParts=[
+	AK-74M/AK-100 Zenit PT Lock,
+	PP-19-01 "Vityaz" metal skeleton stock,
+	AK-74M CAA AKTS AK74 buffer tube
+]
+ChildParts=[
+	Saiga-9 9x19 sb.7 10-round magazine,
+	PP-19-01 "Vityaz" 9x19 30-round magazine,
+	PP-19-01 "Vityaz" 9x19 PUFGUN SG-919 20 20-round magazine,
+	PP-19-01 "Vityaz" 9x19 PUFGUN SG-919 30 30-round magazine
+]
+ChildParts=[
+	AK CSS knurled charging handle,
+	AK Zenit RP-1 charging handle
+]
 Recoil=49
 Ergonomics=32

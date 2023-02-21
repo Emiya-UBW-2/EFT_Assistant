@@ -78,9 +78,34 @@ namespace FPS_n2 {
 				if (ALL == "") { continue; }
 				auto LEFT = getparams::getleft(ALL);
 				auto RIGHT = getparams::getright(ALL);
-				auto Args = GetArgs(RIGHT);
-				SetCommon(LEFT, RIGHT, Args);
-				Set_Sub(LEFT, RIGHT, Args);
+				if (RIGHT == "[") {
+					std::vector<std::string> Args;
+					while (true) {
+						if (FileRead_eof(mdata) != 0) { break; }
+						auto ALL2 = getparams::Getstr(mdata);
+						if (ALL2.find("]") != std::string::npos) { break; }
+						{
+							auto ALL2Len = ALL2.find("\t");
+							if (ALL2Len != std::string::npos) {
+								ALL2 = ALL2.substr(0, ALL2Len) + ALL2.substr(ALL2Len + 1);
+							}
+						}
+						{
+							auto ALL2Len = ALL2.find(",");
+							if (ALL2Len != std::string::npos) {
+								ALL2 = ALL2.substr(0, ALL2Len) + ALL2.substr(ALL2Len + 1);
+							}
+						}
+						Args.emplace_back(ALL2);
+					}
+					SetCommon(LEFT, RIGHT, Args);
+					Set_Sub(LEFT, RIGHT, Args);
+				}
+				else {
+					auto Args = GetArgs(RIGHT);
+					SetCommon(LEFT, RIGHT, Args);
+					Set_Sub(LEFT, RIGHT, Args);
+				}
 			}
 			FileRead_close(mdata);
 			if (IconPath) {

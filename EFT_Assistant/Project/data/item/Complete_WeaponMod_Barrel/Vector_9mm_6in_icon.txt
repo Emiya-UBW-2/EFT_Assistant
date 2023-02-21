@@ -2,4 +2,10 @@ Name=KRISS Vector 9x19 6 inch barrel
 Itemtype=Stock
 Recoil=-4
 Ergonomics=-2
-ChildParts=[KRISS Vector 9x19 flash hider,KRISS Vector 9x19 thread protection cap,Rotor 43 9x19 muzzle brake-compensator,SIG Sauer SRD9 9x19 sound suppressor,SilencerCo Osprey 9 9x19 sound suppressor]
+ChildParts=[
+	KRISS Vector 9x19 flash hider,
+	KRISS Vector 9x19 thread protection cap,
+	Rotor 43 9x19 muzzle brake-compensator,
+	SIG Sauer SRD9 9x19 sound suppressor,
+	SilencerCo Osprey 9 9x19 sound suppressor
+]

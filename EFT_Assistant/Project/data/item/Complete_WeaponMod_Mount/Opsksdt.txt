@@ -2,4 +2,17 @@ Name=OP-SKS dovetail mount
 Itemtype=Mount
 Recoil=0
 Ergonomics=-1
-ChildParts=[SAG Bit low profile dovetail sidemount,Axion Kobra EKP-8-02 reflex sight (Dovetail),BelOMO PK-AA dovetail reflex sight,OKP-7 reflex sight (Dovetail),BelOMO PSO-1 4x24 scope,BelOMO PSO-1M2-1 4x24 scope,BelOMO PSO-1M2 4x24 scope,NPZ USP-1 "Tyulpan" 4x scope,NSPU-M night vision scope,Axion Kobra dovetail mount,NPZ 1P78-1 dovetail mount,VOMZ Pilad 043-02 dovetail mount]
+ChildParts=[
+	SAG Bit low profile dovetail sidemount,
+	Axion Kobra EKP-8-02 reflex sight (Dovetail),
+	BelOMO PK-AA dovetail reflex sight,
+	OKP-7 reflex sight (Dovetail),
+	BelOMO PSO-1 4x24 scope,
+	BelOMO PSO-1M2-1 4x24 scope,
+	BelOMO PSO-1M2 4x24 scope,
+	NPZ USP-1 "Tyulpan" 4x scope,
+	NSPU-M night vision scope,
+	Axion Kobra dovetail mount,
+	NPZ 1P78-1 dovetail mount,
+	VOMZ Pilad 043-02 dovetail mount
+]

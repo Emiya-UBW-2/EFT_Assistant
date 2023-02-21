@@ -2,5 +2,9 @@ Name=M870 12ga 508mm barrel
 Itemtype=Stock
 Recoil=-6
 Ergonomics=-8
-ChildParts=[ME Cylinder 12ga muzzle adapter,Remington Tactical Choke 12ga,SilencerCo Salvo 12 choke adapter]
+ChildParts=[
+	ME Cylinder 12ga muzzle adapter,
+	Remington Tactical Choke 12ga,
+	SilencerCo Salvo 12 choke adapter
+]
 ChildParts=[M870 Mesa Tactical magazine clamp]

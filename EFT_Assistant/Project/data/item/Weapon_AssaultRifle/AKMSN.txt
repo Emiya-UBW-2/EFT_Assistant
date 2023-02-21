@@ -1,15 +1,113 @@
 Name=Kalashnikov AKMSN 7.62x39 assault rifle
 Itemtype=Assault rifle
-ChildParts=[AK Kiba Arms VDM CS gas tube,AK-74 gas tube (6P20 Sb.1-2),AKM gas tube (6P1 Sb.1-2),Molot AKM-type gas tube,AK TROY Full Length Rail handguard & gas tube combo,AK UltiMAK M1-B gas tube & handguard,AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo,AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo (White)]
-ChildParts=[AKM 7.62x39 muzzle brake-compensator (6P1 0-14),AKML system 7.62x39 flash hider,AKM thread type JMac Customs RRD-4C 7.62x39 muzzle brake,AK Lantac Drakon 7.62x39 muzzle brake,VPO-136 "Vepr-KM" 7.62x39 muzzle brake-compensator,VPO-209 thread protector,AK Spikes Tactical Dynacomp 7.62x39 muzzle brake-compensator,AK SRVV 7.62x39 muzzle brake-compensator,AK Venom Tactical Antidote 7.62x39 muzzle brake-compensator,AKM 7.62x39 Kiba Arms .308 muzzle device adapter,AK 7.62x39 Taktika Tula muzzle adapter,SilencerCo Hybrid 46 Direct Thread Mount adapter,AKM Hexagon 7.62x39 sound suppressor,AKM PBS-1 7.62x39 sound suppressor,Rotor 43 7.62x39 muzzle brake-compensator]
-ChildParts=[AK Aeroknox Scorpius pistol grip,AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip,AK-12 pistol grip,AK bakelite pistol grip (6P1 Sb.8V),AK polymer pistol grip (6P1 Sb.8),AKM bakelite pistol grip,AKM wooden pistol grip,AK bakelite pistol grip (6P4 Sb.9),AK KGB MG-47 pistol grip,AK KGB MG-47 pistol grip (Anodized Red),AK Magpul MOE pistol grip (Black),AK bakelite pistol grip,AK Strike Industries Enhanced Pistol Grip (Black),AK Strike Industries Enhanced Pistol Grip (FDE),AK TAPCO SAW-Style pistol grip (Black),AK TAPCO SAW-Style pistol grip (FDE),AK US Palm pistol grip,AK Zenit RK-3 pistol grip,PP-19-01 "Vityaz" pistol grip]
-ChildParts=[RD-704 dust cover,AK AKademia Bastion dust cover,AK FAB Defense PDC dust cover,AKM dust cover (6P1 0-1),Molot AKM-type dust cover,AK TWS Dog Leg Rail dust cover,AK Zenit B-33 dust cover]
-ChildParts=[AKM rear sight (6P1 Sb.2-1),AKMB system rear sight,AK RD Enhanced V2 Rear Sight,AK Taktika Tula TT01 rear sight rail]
+ChildParts=[
+	AK Kiba Arms VDM CS gas tube,
+	AK-74 gas tube (6P20 Sb.1-2),
+	AKM gas tube (6P1 Sb.1-2),
+	Molot AKM-type gas tube,
+	AK TROY Full Length Rail handguard & gas tube combo,
+	AK UltiMAK M1-B gas tube & handguard,
+	AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo,
+	AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo (White)
+]
+ChildParts=[
+	AKM 7.62x39 muzzle brake-compensator (6P1 0-14),
+	AKML system 7.62x39 flash hider,
+	AKM thread type JMac Customs RRD-4C 7.62x39 muzzle brake,
+	AK Lantac Drakon 7.62x39 muzzle brake,
+	VPO-136 "Vepr-KM" 7.62x39 muzzle brake-compensator,
+	VPO-209 thread protector,
+	AK Spikes Tactical Dynacomp 7.62x39 muzzle brake-compensator,
+	AK SRVV 7.62x39 muzzle brake-compensator,
+	AK Venom Tactical Antidote 7.62x39 muzzle brake-compensator,
+	AKM 7.62x39 Kiba Arms .308 muzzle device adapter,
+	AK 7.62x39 Taktika Tula muzzle adapter,
+	SilencerCo Hybrid 46 Direct Thread Mount adapter,
+	AKM Hexagon 7.62x39 sound suppressor,
+	AKM PBS-1 7.62x39 sound suppressor,
+	Rotor 43 7.62x39 muzzle brake-compensator
+]
+ChildParts=[
+	AK Aeroknox Scorpius pistol grip,
+	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip,
+	AK-12 pistol grip,
+	AK bakelite pistol grip (6P1 Sb.8V),
+	AK polymer pistol grip (6P1 Sb.8),
+	AKM bakelite pistol grip,
+	AKM wooden pistol grip,
+	AK bakelite pistol grip (6P4 Sb.9),
+	AK KGB MG-47 pistol grip,
+	AK KGB MG-47 pistol grip (Anodized Red),
+	AK Magpul MOE pistol grip (Black),
+	AK bakelite pistol grip,
+	AK Strike Industries Enhanced Pistol Grip (Black),
+	AK Strike Industries Enhanced Pistol Grip (FDE),
+	AK TAPCO SAW-Style pistol grip (Black),
+	AK TAPCO SAW-Style pistol grip (FDE),
+	AK US Palm pistol grip,
+	AK Zenit RK-3 pistol grip,
+	PP-19-01 "Vityaz" pistol grip
+]
+ChildParts=[
+	RD-704 dust cover,
+	AK AKademia Bastion dust cover,
+	AK FAB Defense PDC dust cover,
+	AKM dust cover (6P1 0-1),
+	Molot AKM-type dust cover,
+	AK TWS Dog Leg Rail dust cover,
+	AK Zenit B-33 dust cover
+]
+ChildParts=[
+	AKM rear sight (6P1 Sb.2-1),
+	AKMB system rear sight,
+	AK RD Enhanced V2 Rear Sight,
+	AK Taktika Tula TT01 rear sight rail
+]
 ChildParts=[AKMP system front sight device]
-ChildParts=[AKMS shoulder piece (6P4 Sb.1-19),AKMSN shoulder piece (6P4N Sb.1-19)]
-ChildParts=[AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine,AK 7.62x39 ribbed metal 10-round magazine,AK 7.62x39 6L10 30-round magazine,AK-103 7.62x39 30-round magazine,AK 7.62x39 30-round magazine (issued '55 or later),AK 7.62x39 aluminium 10-round magazine,AKMS 7.62x39 aluminium 30-round magazine,AK 7.62x39 Molot 40-round magazine (6P2.Sb-11),AK 7.62x39 bakelite 40-round magazine,AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine,AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine (Banana),AK 7.62x39 Molot 75-round drum magazine,AK 7.62x39 ProMag AK-A-16 73-round drum magazine,AK 7.62x39 US Palm "AK30" 30-round magazine (Black),AK 7.62x39 US Palm "AK30" 30-round magazine (FDE),AK 7.62x39 X Products X-47 50-round drum magazine]
-ChildParts=[SAG Bit low profile dovetail sidemount,Axion Kobra EKP-8-02 reflex sight (Dovetail),BelOMO PK-AA dovetail reflex sight,OKP-7 reflex sight (Dovetail),NPZ PK1 "Obzor" reflex sight,BelOMO PSO-1 4x24 scope,BelOMO PSO-1M2-1 4x24 scope,BelOMO PSO-1M2 4x24 scope,NPZ USP-1 "Tyulpan" 4x scope,NSPU-M night vision scope,Axion Kobra dovetail mount,KMZ 1P59 dovetail mount,NPZ 1P78-1 dovetail mount,VOMZ Pilad 043-02 dovetail mount,Zenit B-13 "Klassika" dovetail rail platform,Zenit B-13V "Klassika" dovetail rail platform]
-ChildParts=[AK CSS knurled charging handle,AK Zenit RP-1 charging handle]
+ChildParts=[
+	AKMS shoulder piece (6P4 Sb.1-19),
+	AKMSN shoulder piece (6P4N Sb.1-19)
+]
+ChildParts=[
+	AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine,
+	AK 7.62x39 ribbed metal 10-round magazine,
+	AK 7.62x39 6L10 30-round magazine,
+	AK-103 7.62x39 30-round magazine,
+	AK 7.62x39 30-round magazine (issued '55 or later),
+	AK 7.62x39 aluminium 10-round magazine,
+	AKMS 7.62x39 aluminium 30-round magazine,
+	AK 7.62x39 Molot 40-round magazine (6P2.Sb-11),
+	AK 7.62x39 bakelite 40-round magazine,
+	AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine,
+	AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine (Banana),
+	AK 7.62x39 Molot 75-round drum magazine,
+	AK 7.62x39 ProMag AK-A-16 73-round drum magazine,
+	AK 7.62x39 US Palm "AK30" 30-round magazine (Black),
+	AK 7.62x39 US Palm "AK30" 30-round magazine (FDE),
+	AK 7.62x39 X Products X-47 50-round drum magazine
+]
+ChildParts=[
+	SAG Bit low profile dovetail sidemount,
+	Axion Kobra EKP-8-02 reflex sight (Dovetail),
+	BelOMO PK-AA dovetail reflex sight,
+	OKP-7 reflex sight (Dovetail),
+	NPZ PK1 "Obzor" reflex sight,
+	BelOMO PSO-1 4x24 scope,
+	BelOMO PSO-1M2-1 4x24 scope,
+	BelOMO PSO-1M2 4x24 scope,
+	NPZ USP-1 "Tyulpan" 4x scope,
+	NSPU-M night vision scope,
+	Axion Kobra dovetail mount,
+	KMZ 1P59 dovetail mount,
+	NPZ 1P78-1 dovetail mount,
+	VOMZ Pilad 043-02 dovetail mount,
+	Zenit B-13 "Klassika" dovetail rail platform,
+	Zenit B-13V "Klassika" dovetail rail platform
+]
+ChildParts=[
+	AK CSS knurled charging handle,
+	AK Zenit RP-1 charging handle
+]
 ChildParts=[GP-25 "Kostyor" 40mm underbarrel grenade launcher]
 Recoil=190
 Ergonomics=24

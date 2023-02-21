@@ -1,9 +1,39 @@
 Name=SIG P226R 9x19 pistol
 Itemtype=Pistol
-ChildParts=[P226 9x19 112mm barrel,P226 9x19 threaded barrel]
-ChildParts=[P226 Axelson Tactical MK25 pistol grip,P226 polymer pistol grip (Black),P226 Emperor Scorpion pistol grip,P226 Hogue G10 Chain Link pistol grip,P226 Hogue Rubberized pistol grip,P226 Combat pistol grip (FDE),P226 Stainless Elite Wooden pistol grip]
-ChildParts=[P226 Axelson Tactical MK25 pistol slide,P226 Emperor Scorpion pistol slide,P226 Legion full size pistol slide,P226 Stainless Elite pistol slide,P226R MK25 pistol slide]
-ChildParts=[P226 9x19 20-round extended magazine,P226 9x19 15-round magazine]
-ChildParts=[Glock GTL 21 tactical flashlight with laser,NcSTAR Tactical blue laser LAM-module,Steiner LAS/TAC 2 tactical flashlight,SureFire X400 Ultra tactical flashlight with laser,SureFire XC1 tactical flashlight,Zenit Klesch-2IKS IR illuminator with laser,Zenit Klesch-2P flashlight with laser,UM Tactical UM3 pistol sight mount,P226 Bridge sight mount]
+ChildParts=[
+	P226 9x19 112mm barrel,
+	P226 9x19 threaded barrel
+]
+ChildParts=[
+	P226 Axelson Tactical MK25 pistol grip,
+	P226 polymer pistol grip (Black),
+	P226 Emperor Scorpion pistol grip,
+	P226 Hogue G10 Chain Link pistol grip,
+	P226 Hogue Rubberized pistol grip,
+	P226 Combat pistol grip (FDE),
+	P226 Stainless Elite Wooden pistol grip
+]
+ChildParts=[
+	P226 Axelson Tactical MK25 pistol slide,
+	P226 Emperor Scorpion pistol slide,
+	P226 Legion full size pistol slide,
+	P226 Stainless Elite pistol slide,
+	P226R MK25 pistol slide
+]
+ChildParts=[
+	P226 9x19 20-round extended magazine,
+	P226 9x19 15-round magazine
+]
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser,
+	NcSTAR Tactical blue laser LAM-module,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	UM Tactical UM3 pistol sight mount,
+	P226 Bridge sight mount
+]
 Recoil=450
 Ergonomics=80

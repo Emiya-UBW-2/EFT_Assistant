@@ -2,4 +2,22 @@ Name=KRISS Vector non-folding stock adapter
 Itemtype=Stock
 Recoil=0
 Ergonomics=-2
-ChildParts=[Armacon Baskak stock,AR-15 Colt A2 buffer tube,AR-15 ADAR 2-15 buffer tube,Colt Carbine buffer tube,AR-15 DoubleStar ACE SOCOM Gen.4 stock,ERGO F93 PRO stock,HK Enhanced Tube buffer tube,Magpul UBR GEN2 stock (Black),Magpul UBR GEN2 stock (FDE),Soyuz-TM buffer tube,Strike Industries Advanced Receiver Extension buffer tube,Strike Industries Advanced Receiver Extension buffer tube (Anodized Red),KRISS Vector Pistol Sling adapter,TROY M7A1 PDW stock (FDE),TROY M7A1 PDW stock (Black),Strike Industries Viper PDW stock,AR-15 RTM ATP buffer tube]
+ChildParts=[
+	Armacon Baskak stock,
+	AR-15 Colt A2 buffer tube,
+	AR-15 ADAR 2-15 buffer tube,
+	Colt Carbine buffer tube,
+	AR-15 DoubleStar ACE SOCOM Gen.4 stock,
+	ERGO F93 PRO stock,
+	HK Enhanced Tube buffer tube,
+	Magpul UBR GEN2 stock (Black),
+	Magpul UBR GEN2 stock (FDE),
+	Soyuz-TM buffer tube,
+	Strike Industries Advanced Receiver Extension buffer tube,
+	Strike Industries Advanced Receiver Extension buffer tube (Anodized Red),
+	KRISS Vector Pistol Sling adapter,
+	TROY M7A1 PDW stock (FDE),
+	TROY M7A1 PDW stock (Black),
+	Strike Industries Viper PDW stock,
+	AR-15 RTM ATP buffer tube
+]

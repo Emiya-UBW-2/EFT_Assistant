@@ -2,6 +2,24 @@ Name=M1A ProMag Archangel stock
 Itemtype=Stock
 Recoil=-38
 Ergonomics=+32
-ChildParts=[M14 Amega Mini Scout Mount system,M14 UltiMAK M8 Forward Optic mount,M14 Vltor CASV-14 rail system,M1A SOCOM 16 upper part]
-ChildParts=[Glock GTL 21 tactical flashlight with laser,Holosun LS321 Tactical device,AN/PEQ-15 tactical device,LA-5B/PEQ tactical device,NcSTAR Tactical blue laser LAM-module,Steiner LAS/TAC 2 tactical flashlight,SureFire X400 Ultra tactical flashlight with laser,SureFire XC1 tactical flashlight,Zenit Klesch-2IKS IR illuminator with laser,Zenit Klesch-2P flashlight with laser,Zenit Klesch-2U tactical flashlight,Kiba Arms 25mm accessory ring mount]
+ChildParts=[
+	M14 Amega Mini Scout Mount system,
+	M14 UltiMAK M8 Forward Optic mount,
+	M14 Vltor CASV-14 rail system,
+	M1A SOCOM 16 upper part
+]
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser,
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	LA-5B/PEQ tactical device,
+	NcSTAR Tactical blue laser LAM-module,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Kiba Arms 25mm accessory ring mount
+]
 Conflict=[M14 7.62x51 X Products X-14 50-round drum magazine]

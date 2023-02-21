@@ -2,8 +2,22 @@ Name=M700 Magpul Pro 700 chassis
 Itemtype=Stock
 Recoil=-7
 Ergonomics=+22
-ChildParts=[Magpul M-LOK 4.1 inch rail,Magpul M-LOK AFG tactical foregrip (FDE),Magpul M-LOK AFG tactical foregrip (Olive Drab),Magpul M-LOK AFG tactical foregrip (Stealth Gray),Magpul M-LOK AFG tactical foregrip (Black)]
-ChildParts=[M700 Magpul Pro 700 chassis inline mount,Magpul M-LOK 2.5 inch rail]
+ChildParts=[
+	Magpul M-LOK 4.1 inch rail,
+	Magpul M-LOK AFG tactical foregrip (FDE),
+	Magpul M-LOK AFG tactical foregrip (Olive Drab),
+	Magpul M-LOK AFG tactical foregrip (Stealth Gray),
+	Magpul M-LOK AFG tactical foregrip (Black)
+]
+ChildParts=[
+	M700 Magpul Pro 700 chassis inline mount,
+	Magpul M-LOK 2.5 inch rail
+]
 ChildParts=[M700 Magpul Pro 700 pistol grip]
 ChildParts=[M700 Magpul Pro 700 folding stock]
-Conflict=[M700 7.62x51 Wyatt's Outdoor 5-round magazine,M700 7.62x51 Wyatt's Outdoor 10-round magazine,M700 7.62x51 ProMag AA-70 10-round magazine,M700 7.62x51 ProMag AA-70 20-round magazine]
+Conflict=[
+	M700 7.62x51 Wyatt's Outdoor 5-round magazine,
+	M700 7.62x51 Wyatt's Outdoor 10-round magazine,
+	M700 7.62x51 ProMag AA-70 10-round magazine,
+	M700 7.62x51 ProMag AA-70 20-round magazine
+]
