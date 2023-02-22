@@ -1,4 +1,5 @@
 Name=The Lab
+ShortName=Lab
 Color=[255,255,255]
 InGamePath=data/InGameMapPic/TheLabMapFull.jpg
 NorthDegree=0

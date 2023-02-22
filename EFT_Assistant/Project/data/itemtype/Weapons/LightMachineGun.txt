@@ -1,2 +1,3 @@
 Name=Light machine gun
+ShortName=LMG
 Category=Weapons

@@ -1,2 +1,3 @@
 Name=Special scope
+ShortName=SP Scope
 Category=WeaponMods

@@ -38,6 +38,7 @@ namespace FPS_n2 {
 	private:
 		ID						m_ID{ InvalidID };
 		std::string				m_Name;
+		std::string				m_ShortName;
 		std::array<int, 3>		m_Color{ 0,0,0 };
 
 		Graphs					m_Icon;
@@ -45,11 +46,15 @@ namespace FPS_n2 {
 		void			SetCommon(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept {
 			if (LEFT == "Name") {
 				m_Name = RIGHT;
+				m_ShortName = RIGHT;
 			}
 			else if (LEFT == "Color") {
 				m_Color[0] = std::stoi(Args[0]);
 				m_Color[1] = std::stoi(Args[1]);
 				m_Color[2] = std::stoi(Args[2]);
+			}
+			else if (LEFT == "ShortName") {
+				m_ShortName = RIGHT;
 			}
 		}
 	protected:
@@ -59,6 +64,7 @@ namespace FPS_n2 {
 	public:
 		const auto&		GetID() const noexcept { return m_ID; }
 		const auto&		GetName() const noexcept { return m_Name; }
+		const auto&		GetShortName() const noexcept { return m_ShortName; }
 		const auto		GetColors(int colorAdd) const noexcept {
 			return DxLib::GetColor(std::clamp(m_Color[0] + colorAdd, 0, 255), std::clamp(m_Color[1] + colorAdd, 0, 255), std::clamp(m_Color[2] + colorAdd, 0, 255));
 		}

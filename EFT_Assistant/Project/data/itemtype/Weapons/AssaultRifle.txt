@@ -1,2 +1,3 @@
 Name=Assault rifle
+ShortName=AR
 Category=Weapons

@@ -94,7 +94,7 @@ namespace FPS_n2 {
 		void	Load_Sub() noexcept override {
 			if (m_TypeID == InvalidID) {
 				std::string ErrMes = "Error : Not Setting ItemType in Item ";
-				ErrMes += GetName();
+				ErrMes += GetShortName();
 				DataErrorLog::Instance()->AddLog(ErrMes.c_str());
 			}
 		}
@@ -174,7 +174,7 @@ namespace FPS_n2 {
 					}
 					if (c.first == nullptr) {
 						std::string ErrMes = "Error : Invalid ChildPartsID[";
-						ErrMes += GetName();
+						ErrMes += GetShortName();
 						ErrMes += "][";
 						ErrMes += c.second;
 						ErrMes += "]";
@@ -218,7 +218,7 @@ namespace FPS_n2 {
 				}
 				if (cp.first == nullptr) {
 					std::string ErrMes = "Error : Invalid ConflictPartsID[";
-					ErrMes += GetName();
+					ErrMes += GetShortName();
 					ErrMes += "][";
 					ErrMes += cp.second;
 					ErrMes += "]";
@@ -276,7 +276,7 @@ namespace FPS_n2 {
 		bool IsLocked = PlayerData::Instance()->GetItemLock(this->GetName().c_str());
 		int FirSize = (IsFir || IsLocked) ? 36 : 0;
 		xg += FirSize;
-		auto Name = this->GetName();
+		auto Name = this->GetShortName();
 		{
 			if (xsize > 0) {
 				while (true) {

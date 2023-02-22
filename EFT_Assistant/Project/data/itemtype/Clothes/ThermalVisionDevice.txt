@@ -1,2 +1,3 @@
 Name=Thermal vision device
+ShortName=IR Goggle
 Category=Clothes

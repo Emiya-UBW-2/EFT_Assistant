@@ -1,2 +1,3 @@
 Name=Compact reflex sight
+ShortName=CompactReflex
 Category=WeaponMods

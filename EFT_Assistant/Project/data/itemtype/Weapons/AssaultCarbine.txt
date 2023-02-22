@@ -1,2 +1,3 @@
 Name=Assault carbine
+ShortName=Carbine
 Category=Weapons

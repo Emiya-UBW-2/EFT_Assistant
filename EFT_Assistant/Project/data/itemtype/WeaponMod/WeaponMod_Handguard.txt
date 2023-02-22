@@ -1,2 +1,3 @@
 Name=Handguard
+ShortName=HandGuard
 Category=WeaponMods

@@ -1,2 +1,3 @@
 Name=Provisions
+ShortName=Food
 Category=Provisions

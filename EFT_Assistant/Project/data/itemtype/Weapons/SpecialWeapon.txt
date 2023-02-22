@@ -1,2 +1,3 @@
 Name=Special weapon
+ShortName=SP Weapon
 Category=Weapons

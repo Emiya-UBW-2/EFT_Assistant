@@ -1,2 +1,3 @@
 Name=Pistol grip
+ShortName=Grip
 Category=WeaponMods

@@ -1,2 +1,3 @@
 Name=Flash hider/muzzle brake
+ShortName=FlashHider
 Category=WeaponMods

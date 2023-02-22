@@ -1,2 +1,3 @@
 Name=Magazine
+ShortName=Magazine
 Category=WeaponMods

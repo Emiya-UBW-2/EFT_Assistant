@@ -1,2 +1,3 @@
 Name=Receiver
+ShortName=Receiver
 Category=WeaponMods

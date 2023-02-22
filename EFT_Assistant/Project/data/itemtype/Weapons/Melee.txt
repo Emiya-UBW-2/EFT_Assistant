@@ -1,2 +1,3 @@
 Name=Melee
+ShortName=Melee
 Category=Weapons

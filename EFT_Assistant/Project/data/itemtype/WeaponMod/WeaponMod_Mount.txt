@@ -1,2 +1,3 @@
 Name=Mount
+ShortName=Mount
 Category=WeaponMods

@@ -1,2 +1,3 @@
 Name=Stock
+ShortName=Stock
 Category=WeaponMods

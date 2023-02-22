@@ -1,2 +1,3 @@
 Name=Auxiliary part
+ShortName=AuxiliaryParts
 Category=WeaponMods

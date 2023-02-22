@@ -1,2 +1,3 @@
 Name=Shotgun
+ShortName=ShotGun
 Category=Weapons

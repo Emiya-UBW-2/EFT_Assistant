@@ -1,2 +1,3 @@
 Name=Sniper rifle
+ShortName=SR
 Category=Weapons

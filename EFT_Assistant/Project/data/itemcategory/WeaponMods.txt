@@ -1,1 +1,2 @@
 Name=WeaponMods
+ShortName=Mods

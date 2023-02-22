@@ -1,2 +1,3 @@
 Name=Vanity gear component
+ShortName=Cover
 Category=Clothes

@@ -1,2 +1,3 @@
 Name=SecureContainer
+ShortName=SecureContainer
 Category=Clothes

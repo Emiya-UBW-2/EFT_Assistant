@@ -1,2 +1,3 @@
 Name=Muzzle adapter
+ShortName=Adapter
 Category=WeaponMods

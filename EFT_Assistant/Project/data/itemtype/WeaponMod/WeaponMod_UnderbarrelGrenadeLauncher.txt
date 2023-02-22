@@ -1,2 +1,3 @@
 Name=Underbarrel grenade launcher
+ShortName=UBGL
 Category=WeaponMods

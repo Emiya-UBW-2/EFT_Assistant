@@ -1,2 +1,3 @@
 Name=Assault scope
+ShortName=AssaultScope
 Category=WeaponMods

@@ -54,7 +54,7 @@ namespace FPS_n2 {
 			IDBuf = L2.GetID();
 			bool SelectIt = (*Select == IDBuf);
 			auto color = NotSelect ? Gray25 : (SelectIt ? Gray10 : Gray50);
-			if (WindowSystem::ClickCheckBox(xp1 - (SelectIt ? y_r(25) : 0), yp_t, xp1 + xsize, yp_t + ysize, false, (isActive || (!isActive && SelectIt)) && !WindowMngr->PosHitCheck(nullptr), color, L2.GetName().c_str())) {
+			if (WindowSystem::ClickCheckBox(xp1 - (SelectIt ? y_r(25) : 0), yp_t, xp1 + xsize, yp_t + ysize, false, (isActive || (!isActive && SelectIt)) && !WindowMngr->PosHitCheck(nullptr), color, L2.GetShortName().c_str())) {
 				*Select = (isActive) ? IDBuf : InvalidID;
 			}
 			yp_t += ysize + y_r(5);

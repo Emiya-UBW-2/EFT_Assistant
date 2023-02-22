@@ -1,2 +1,3 @@
 Name=Fragmentation grenade
+ShortName=FLAG
 Category=Weapons
