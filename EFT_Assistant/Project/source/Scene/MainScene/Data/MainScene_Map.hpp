@@ -27,10 +27,8 @@ namespace FPS_n2 {
 				m_MapGraph.back().second = std::stoi(RIGHT);
 			}
 		}
-		void	Load_Sub() noexcept override {
-		}
-		void	WhenAfterLoad_Sub() noexcept override {
-		}
+		void	Load_Sub() noexcept override {}
+		void	WhenAfterLoad_Sub() noexcept override {}
 	public:
 		void	LoadMapPics() noexcept {
 			for (auto& m : m_MapGraph) {

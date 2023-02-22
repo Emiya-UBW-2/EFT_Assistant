@@ -71,6 +71,12 @@ namespace FPS_n2 {
 			DrawControl::Instance()->ClearList();
 
 			if (m_Loading) {
+				PresetData::Instance()->WhenAfterLoadListCommon();
+				ItemData::Instance()->WhenAfterLoadListCommon();
+				EnemyData::Instance()->WhenAfterLoadListCommon();
+				TraderData::Instance()->WhenAfterLoadListCommon();
+				MapData::Instance()->WhenAfterLoadListCommon();
+				TaskData::Instance()->WhenAfterLoadListCommon();
 				if (GetASyncLoadNum() == 0) {
 					PresetData::Instance()->WhenAfterLoadList();
 					ItemData::Instance()->WhenAfterLoadList();

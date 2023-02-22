@@ -8,8 +8,7 @@ namespace FPS_n2 {
 		void			Set_Sub(const std::string&, const std::string&, const std::vector<std::string>&) noexcept override {}
 		void	Load_Sub() noexcept override {
 		}
-		void	WhenAfterLoad_Sub() noexcept override {
-		}
+		void	WhenAfterLoad_Sub() noexcept override {}
 	};
 	class EnemyData : public SingletonBase<EnemyData>, public DataParent<EnemyID, EnemyList> {
 	private:

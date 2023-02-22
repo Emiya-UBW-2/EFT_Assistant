@@ -102,10 +102,16 @@ namespace FPS_n2 {
 			}
 		}
 	private:
+		void Init_Sub(int *posx, int *posy, float* Scale) noexcept override {
+			*posx = y_r(50);
+			*posy = LineHeight + y_r(50);
+			*Scale = 1.f;
+		}
+
 		void LateExecute_Sub(int*, int*, float*) noexcept override {
 		}
 		void Draw_Back_Sub(int posx, int posy, float Scale) noexcept override {
-			int xs = (int)((float)y_r(800) * Scale);
+			int xs = (int)((float)y_r(600) * Scale);
 			int ys = (int)((float)LineHeight * Scale);
 			DrawChildTaskClickBox(Scale, InvalidID, posx + xs, posy + ys / 2, posx, posy, xs, ys);
 		}

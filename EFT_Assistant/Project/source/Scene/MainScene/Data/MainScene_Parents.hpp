@@ -122,8 +122,10 @@ namespace FPS_n2 {
 			m_Icon.LoadByPath(false);
 			Load_Sub();
 		}
-		void			WhenAfterLoad() noexcept {
+		void			WhenAfterLoadCommon() noexcept {
 			m_Icon.WhenAfterLoad();
+		}
+		void			WhenAfterLoad() noexcept {
 			WhenAfterLoad_Sub();
 		}
 	};
@@ -178,6 +180,11 @@ namespace FPS_n2 {
 		void LoadList(void) noexcept {
 			for (auto&t : m_List) {
 				t.Load();
+			}
+		}
+		void WhenAfterLoadListCommon(void) noexcept {
+			for (auto&t : m_List) {
+				t.WhenAfterLoadCommon();
 			}
 		}
 		void WhenAfterLoadList(void) noexcept {

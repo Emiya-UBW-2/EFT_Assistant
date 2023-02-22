@@ -120,12 +120,16 @@ namespace FPS_n2 {
 			}
 		}
 		void	WhenAfterLoad() noexcept {
-			if (this->m_Path != "") {
-				if (!m_IsTrans) {
-					GraphFilter(this->m_Handle.get(), DX_GRAPH_FILTER_BRIGHT_CLIP, DX_CMP_LESS, 1, TRUE, GetColor(1, 1, 1), 255);
+			if (!this->m_Loaded) {
+				if (CheckHandleASyncLoad(this->m_Handle.get()) == FALSE) {
+					if (this->m_Path != "") {
+						if (!m_IsTrans) {
+							GraphFilter(this->m_Handle.get(), DX_GRAPH_FILTER_BRIGHT_CLIP, DX_CMP_LESS, 1, TRUE, GetColor(1, 1, 1), 255);
+						}
+						this->m_Handle.GetSize(&this->m_X, &this->m_Y);
+						this->m_Loaded = true;
+					}
 				}
-				this->m_Handle.GetSize(&this->m_X, &this->m_Y);
-				this->m_Loaded = true;
 			}
 		}
 

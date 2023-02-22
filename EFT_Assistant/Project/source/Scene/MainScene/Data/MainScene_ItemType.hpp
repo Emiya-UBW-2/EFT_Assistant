@@ -12,10 +12,8 @@ namespace FPS_n2 {
 				m_CategoryID = ItemCategoryData::Instance()->FindID(RIGHT.c_str());
 			}
 		}
-		void	Load_Sub() noexcept override {
-		}
-		void	WhenAfterLoad_Sub() noexcept override {
-		}
+		void	Load_Sub() noexcept override {}
+		void	WhenAfterLoad_Sub() noexcept override {}
 	public:
 		const auto&	GetCategoryID() const noexcept { return m_CategoryID; }
 	};
