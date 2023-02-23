@@ -1,4 +1,5 @@
 Name=Remington R11 RSASS 7.62x51 marksman rifle
+ShortName=RSASS
 Itemtype=Designated marksman rifle
 ChildParts=[
 	AR-10 7.62x51 18 inch barrel,

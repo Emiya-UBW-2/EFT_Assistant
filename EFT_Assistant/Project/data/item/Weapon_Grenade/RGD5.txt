@@ -1,2 +1,3 @@
 Name=RGD-5 hand grenade
+ShortName=RGD-5
 Itemtype=Fragmentation grenade

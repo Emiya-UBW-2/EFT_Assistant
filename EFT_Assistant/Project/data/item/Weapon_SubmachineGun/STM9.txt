@@ -1,4 +1,5 @@
 Name=Soyuz-TM STM-9 Gen.2 9x19 carbine
+ShortName=STM-9
 Itemtype=Submachine gun
 ChildParts=[
 	AR-15 ADAR 2-15 wooden stock,

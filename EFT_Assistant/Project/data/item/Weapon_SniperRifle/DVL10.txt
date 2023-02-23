@@ -1,4 +1,5 @@
 Name=Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle
+ShortName=DVL-10
 Itemtype=Sniper rifle
 ChildParts=[
 	DVL-10 7.62x51 500mm barrel,

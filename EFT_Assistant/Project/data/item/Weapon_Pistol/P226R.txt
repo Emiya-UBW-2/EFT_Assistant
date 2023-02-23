@@ -1,4 +1,5 @@
 Name=SIG P226R 9x19 pistol
+ShortName=SIG P226R
 Itemtype=Pistol
 ChildParts=[
 	P226 9x19 112mm barrel,

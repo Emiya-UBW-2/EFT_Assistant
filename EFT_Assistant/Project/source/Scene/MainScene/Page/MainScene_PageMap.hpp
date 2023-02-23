@@ -102,7 +102,7 @@ namespace FPS_n2 {
 			{
 				int xp = y_r(1920 - 400 - 10);
 				int yp = LineHeight + y_r(10);
-				MakeList<MapList>(xp, yp, MapData::Instance()->GetList(), (int*)&m_SelectBuffer, true, false, false, [&](const auto *) { return true; });
+				MakeList<MapList>(xp, yp, MapData::Instance()->GetList(), "Map", (int*)&m_SelectBuffer, true, false, false, [&](const auto *) { return true; });
 			}
 			//
 			if (m_MapSelect != InvalidID) {

@@ -1,4 +1,5 @@
 Name=SIG MCX .300 Blackout assault rifle
+ShortName=SIG MCX
 Itemtype=Assault rifle
 ChildParts=[
 	AR-15 Colt A2 pistol grip,

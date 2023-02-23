@@ -1,2 +1,3 @@
 Name=M67 hand grenade
+ShortName=M67
 Itemtype=Fragmentation grenade

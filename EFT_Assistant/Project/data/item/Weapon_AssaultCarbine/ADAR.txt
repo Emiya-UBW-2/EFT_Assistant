@@ -1,4 +1,5 @@
 Name=ADAR 2-15 5.56x45 carbine
+ShortName=ADAR
 Itemtype=Assault carbine
 ChildParts=[
 	AR-15 ADAR 2-15 buffer tube,

@@ -1,2 +1,3 @@
 Name=RPK-16 5.45x39 light machine gun
+ShortName=RPK-16
 Itemtype=Light machine gun

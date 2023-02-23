@@ -1,4 +1,5 @@
 Name=VSS Vintorez 9x39 special sniper rifle
+ShortName=VSS
 Itemtype=Designated marksman rifle
 ChildParts=[
 	AS VAL 9x39 integral barrel-suppressor,

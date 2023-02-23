@@ -1,2 +1,3 @@
 Name=Kel-Tec RFB 7.62x51 rifle
+ShortName=RFB
 Itemtype=Assault carbine

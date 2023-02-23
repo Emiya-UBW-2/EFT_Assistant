@@ -1,4 +1,5 @@
 Name=Kalashnikov AKMN 7.62x39 assault rifle
+ShortName=AKMN
 Itemtype=Assault rifle
 ChildParts=[
 	AK Kiba Arms VDM CS gas tube,

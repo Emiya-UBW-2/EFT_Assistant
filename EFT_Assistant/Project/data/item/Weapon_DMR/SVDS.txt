@@ -1,4 +1,5 @@
 Name=SVDS 7.62x54R sniper rifle
+ShortName=SVDS
 Itemtype=Designated marksman rifle
 ChildParts=[SVDS 7.62x54R 22 inch barrel]
 ChildParts=[

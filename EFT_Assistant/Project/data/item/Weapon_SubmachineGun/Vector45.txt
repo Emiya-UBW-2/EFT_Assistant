@@ -1,4 +1,5 @@
 Name=TDI KRISS Vector Gen.2 .45 ACP submachine gun
+ShortName=KRISS Vector 45ACP
 Itemtype=Submachine gun
 ChildParts=[
 	Glock .45 ACP 13-round magazine,

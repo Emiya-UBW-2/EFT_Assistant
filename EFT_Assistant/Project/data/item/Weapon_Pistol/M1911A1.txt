@@ -1,4 +1,5 @@
 Name=Colt M1911A1 .45 ACP pistol
+ShortName=M1911A1
 Itemtype=Pistol
 ChildParts=[M1911A1 .45 ACP 127mm barrel,M1911A1 .45 ACP National Match barrel,M1911A1 .45 ACP threaded barrel]
 ChildParts=[M1911A1 side grips,M1911 Pachmayr American Legend Grip 423,M1911 Kiba Arms Geneburn custom side grips]

@@ -1,4 +1,5 @@
 Name=Colt M4A1 5.56x45 assault rifle
+ShortName=M4A1
 Itemtype=Assault rifle
 ChildParts=[
 	AR-15 Colt A2 pistol grip,

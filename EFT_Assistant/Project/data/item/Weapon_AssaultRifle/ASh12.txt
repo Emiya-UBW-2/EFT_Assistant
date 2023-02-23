@@ -1,2 +1,3 @@
 Name=ASh-12 12.7x55 assault rifle
+ShortName=ASh-12
 Itemtype=Assault rifle

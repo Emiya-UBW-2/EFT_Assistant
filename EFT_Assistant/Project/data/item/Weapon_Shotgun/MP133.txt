@@ -1,4 +1,5 @@
 Name=MP-133 12ga pump-action shotgun
+ShortName=MP-133
 Itemtype=Shotgun
 ChildParts=[
 	MP-133 12ga 510mm barrel,

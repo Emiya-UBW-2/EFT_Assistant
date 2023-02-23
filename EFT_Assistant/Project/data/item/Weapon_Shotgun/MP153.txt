@@ -1,4 +1,5 @@
 Name=MP-153 12ga semi-automatic shotgun
+ShortName=MP-153
 Itemtype=Shotgun
 ChildParts=[
 	MP-153 12ga 610mm barrel,

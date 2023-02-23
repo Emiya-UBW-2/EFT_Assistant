@@ -1,4 +1,5 @@
 Name=Makarov PM (t) 9x18PM pistol
+ShortName=PM(t)
 Itemtype=Pistol
 ChildParts=[
 	PM 9x18PM 90-93 8-round magazine,

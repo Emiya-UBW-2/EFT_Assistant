@@ -1,4 +1,5 @@
 Name=Remington Model 700 7.62x51 bolt-action sniper rifle
+ShortName=M700
 Itemtype=Sniper rifle
 ChildParts=[
 	M700 7.62x51 20 inch stainless steel threaded barrel,

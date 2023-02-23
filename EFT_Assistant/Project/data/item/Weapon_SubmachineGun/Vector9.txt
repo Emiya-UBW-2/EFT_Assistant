@@ -1,4 +1,5 @@
 Name=TDI KRISS Vector Gen.2 9x19 submachine gun
+ShortName=KRISS Vector 9x19
 Itemtype=Submachine gun
 ChildParts=[
 	Glock 9x19 "Big Stick" 33-round magazine,

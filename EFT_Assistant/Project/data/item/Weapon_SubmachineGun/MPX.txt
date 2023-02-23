@@ -1,4 +1,5 @@
 Name=SIG MPX 9x19 submachine gun
+ShortName=SIG MPX
 Itemtype=Submachine gun
 ChildParts=[
 	AR-15 Colt A2 pistol grip,

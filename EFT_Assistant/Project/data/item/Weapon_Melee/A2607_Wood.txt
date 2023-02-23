@@ -1,2 +1,3 @@
 Name=Bars A-2607 95H18 knife
+ShortName=A-2607 Wood
 Itemtype=Melee

@@ -1,4 +1,5 @@
 Name=Colt M45A1 .45 ACP pistol
+ShortName=M45A1
 Itemtype=Pistol
 ChildParts=[M1911A1 .45 ACP 127mm barrel,M1911A1 .45 ACP National Match barrel,M1911A1 .45 ACP threaded barrel]
 ChildParts=[M45A1 Mil-Tac GVT G10 side grips]

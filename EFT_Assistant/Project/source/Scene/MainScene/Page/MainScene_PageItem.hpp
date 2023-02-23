@@ -97,7 +97,7 @@ namespace FPS_n2 {
 						if (isChild) {
 							xgoal += xs_add;
 						}
-						MakeList<ItemCategoryList>(xp + xgoal, yp, ItemCategoryData::Instance()->GetList(), &IDs->first, !IDs->second, false, true, [&](const auto *) { return true; });
+						MakeList<ItemCategoryList>(xp + xgoal, yp, ItemCategoryData::Instance()->GetList(), "ItemCategory", &IDs->first, !IDs->second, false, true, [&](const auto *) { return true; });
 					});
 				}
 				//
@@ -109,7 +109,7 @@ namespace FPS_n2 {
 						if (isChild) {
 							xgoal += xs_add;
 						}
-						MakeList<ItemTypeList>(xp + xgoal, yp, ItemTypeData::Instance()->GetList(), &IDs->first, !IDs->second, false, true, [&](const auto *ptr) { return (ptr->GetCategoryID() == m_ItemIDs.at(Layer - 1).first); });
+						MakeList<ItemTypeList>(xp + xgoal, yp, ItemTypeData::Instance()->GetList(), "ItemType", &IDs->first, !IDs->second, false, true, [&](const auto *ptr) { return (ptr->GetCategoryID() == m_ItemIDs.at(Layer - 1).first); });
 					});
 				}
 				//
@@ -120,7 +120,7 @@ namespace FPS_n2 {
 						if (isChild) {
 							xgoal += xs_add;
 						}
-						MakeList<MapList>(xp + xgoal, yp, MapData::Instance()->GetList(), &IDs->first, !IDs->second, true, true, [&](const auto *) { return true; });
+						MakeList<MapList>(xp + xgoal, yp, MapData::Instance()->GetList(), "Map", &IDs->first, !IDs->second, true, true, [&](const auto *) { return true; });
 					});
 				}
 				//
@@ -136,7 +136,17 @@ namespace FPS_n2 {
 				int xp = y_r(10);
 				int yp = LineHeight + y_r(10);
 				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(200), yp + LineHeight, false, true, Gray25, "–ß‚é")) {
-					TurnOnGoNextBG();
+					bool isHit = false;
+					for (auto it = m_ItemIDs.rbegin(); it != m_ItemIDs.rend(); ++it) {
+						if (it->first != InvalidID) {
+							it->first = InvalidID;
+							isHit = true;
+							break;
+						}
+					}
+					if (!isHit) {
+						TurnOnGoNextBG();
+					}
 				}
 			}
 		}

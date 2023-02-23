@@ -1,4 +1,5 @@
 Name=Kalashnikov AK-74M 5.45x39 assault rifle
+ShortName=AK-74M
 Itemtype=Assault rifle
 ChildParts=[
 	AK Kiba Arms VDM CS gas tube,

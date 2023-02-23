@@ -1,2 +1,3 @@
 Name=TOZ-106 20ga bolt-action shotgun
+ShortName=TOZ-106
 Itemtype=Shotgun

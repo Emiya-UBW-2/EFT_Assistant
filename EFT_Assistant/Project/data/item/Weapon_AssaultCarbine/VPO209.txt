@@ -1,4 +1,5 @@
 Name=Molot VPO-209 .366 TKM carbine
+ShortName=VPO-209
 Itemtype=Assault carbine
 ChildParts=[
 	AK Kiba Arms VDM CS gas tube,

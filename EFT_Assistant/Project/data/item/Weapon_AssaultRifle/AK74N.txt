@@ -1,2 +1,3 @@
 Name=Kalashnikov AK-74N 5.45x39 assault rifle
+ShortName=AK-74N
 Itemtype=Assault rifle

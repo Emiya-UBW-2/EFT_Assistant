@@ -1,4 +1,5 @@
 Name=Remington Model 870 12ga pump-action shotgun
+ShortName=M870
 Itemtype=Shotgun
 ChildParts=[
 	M870 12ga sawn-off 325mm barrel,

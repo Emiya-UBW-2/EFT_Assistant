@@ -1,4 +1,5 @@
 Name=Makarov PM 9x18PM pistol
+ShortName=PM
 Itemtype=Pistol
 ChildParts=[PM 9x18PM 90-93 8-round magazine,PM 9x18PM 84-round makeshift drum magazine]
 Recoil=80

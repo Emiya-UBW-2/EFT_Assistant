@@ -1,4 +1,5 @@
 Name=PP-19-01 "Vityaz" 9x19 submachine gun
+ShortName=PP-19-01 Vityaz
 Itemtype=Submachine gun
 ChildParts=[PP-19-01 "Vityaz" gas tube]
 ChildParts=[

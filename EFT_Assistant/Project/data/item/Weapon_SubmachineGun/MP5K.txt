@@ -1,4 +1,5 @@
 Name=HK MP5K 9x19 submachine gun
+ShortName=HK MP5K
 Itemtype=Submachine gun
 ChildParts=[HK MP5 9x19 20-round magazine,HK MP5 9x19 30-round magazine,HK MP5 9x19 X Products X-5 50-round drum magazine]
 ChildParts=[HK MP5K 9x19 upper receiver]

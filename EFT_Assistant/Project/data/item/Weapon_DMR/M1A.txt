@@ -1,4 +1,5 @@
 Name=Springfield Armory M1A 7.62x51 rifle
+ShortName=M1A
 Itemtype=Designated marksman rifle
 ChildParts=[M1A 7.62x51 16 inch barrel,M1A 7.62x51 22 inch barrel]
 ChildParts=[M14 SA Enlarged Military Aperture rear sight]

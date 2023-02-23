@@ -1,4 +1,5 @@
 Name=HK 416A5 5.56x45 assault rifle
+ShortName=HK 416A5
 Itemtype=Assault rifle
 ChildParts=[
 	AR-15 Colt A2 pistol grip,

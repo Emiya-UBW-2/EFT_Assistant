@@ -1,2 +1,3 @@
 Name="Zarya" stun grenade
+ShortName=Zarya
 Itemtype=Stun grenade

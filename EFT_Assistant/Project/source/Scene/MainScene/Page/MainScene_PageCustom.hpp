@@ -123,8 +123,9 @@ namespace FPS_n2 {
 			}
 		}
 	private:
-		ItemID	m_SelectBuffer{ InvalidID };
-		ItemList* m_BaseWeapon{ nullptr };
+		PresetID	m_SelectPreset{ InvalidID };
+		ItemID		m_SelectBuffer{ InvalidID };
+		ItemList*	m_BaseWeapon{ nullptr };
 
 		bool m_EnableMag = false;
 		bool m_EnableMount = false;
@@ -535,6 +536,7 @@ namespace FPS_n2 {
 			*posx = y_r(100);
 			*posy = LineHeight + y_r(100);
 			*Scale = 0.2f;
+			m_SelectPreset = InvalidID;
 			m_SelectBuffer = InvalidID;
 			m_BaseWeapon = nullptr;
 
@@ -550,16 +552,14 @@ namespace FPS_n2 {
 			m_ItemIDs.clear();
 			m_ItemIDs.emplace_back(std::make_pair<int, bool>((int)InvalidID, false));
 			m_ItemIDs.emplace_back(std::make_pair<int, bool>((int)InvalidID, false));
+			m_ItemIDs.emplace_back(std::make_pair<int, bool>((int)InvalidID, false));
 		}
 		void LateExecute_Sub(int*, int*, float*) noexcept override {
 			if (m_BaseWeapon) {
 				//プリセットを適応
 				if (m_ChildData.size() == 0) {
-					for (const auto& L : PresetData::Instance()->GetList()) {
-						if (m_BaseWeapon == L.GetBase()) {
-							AttachPreset(L);
-							break;
-						}
+					if (m_SelectPreset != InvalidID) {
+						AttachPreset(*PresetData::Instance()->FindPtr(m_SelectPreset));
 					}
 				}
 				//
@@ -645,10 +645,15 @@ namespace FPS_n2 {
 				int xp = y_r(10);
 				int yp = LineHeight + y_r(10);
 				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(200), yp + LineHeight, false, true, Gray25, "戻る")) {
-					if (m_ItemIDs.back().first != InvalidID) {
-						m_ItemIDs.back().first = InvalidID;
+					bool isHit = false;
+					for (auto it = m_ItemIDs.rbegin(); it != m_ItemIDs.rend(); ++it) {
+						if (it->first != InvalidID) {
+							it->first = InvalidID;
+							isHit = true;
+							break;
+						}
 					}
-					else {
+					if (!isHit) {
 						TurnOnGoNextBG();
 					}
 				}
@@ -670,38 +675,55 @@ namespace FPS_n2 {
 						if (isChild) {
 							xgoal += xs_add;
 						}
-						MakeList<ItemTypeList>(xp + xgoal, yp, ItemTypeData::Instance()->GetList(), &IDs->first, !IDs->second, false, true, [&](const auto *ptr) { return (ptr->GetCategoryID() == ItemCategoryData::Instance()->FindID("Weapons")); });
+						MakeList<ItemTypeList>(xp + xgoal, yp, ItemTypeData::Instance()->GetList(), "ItemType", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (ptr->GetCategoryID() == ItemCategoryData::Instance()->FindID("Weapons")); });
 					});
 				}
 				//
 				{
 					Layer = 1;
+					MakeLists(Layer, true, [&](std::pair<int, bool>* IDs) {
+						isChild |= (Layer >= 1);
+						if (isChild) {
+							xgoal += xs_add;
+						}
+						MakeList<ItemList>(xp + xgoal, yp, ItemData::Instance()->GetList(), "Item", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (ptr->GetTypeID() == m_ItemIDs.at(Layer - 1).first); });
+					});
+				}
+				//
+				{
+					Layer = 2;
 					MakeLists(Layer, false, [&](std::pair<int, bool>* IDs) {
 						isChild |= (Layer >= 1);
 						if (isChild) {
 							xgoal += xs_add;
 						}
-						MakeList<ItemList>(xp + xgoal, yp, ItemData::Instance()->GetList(), &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (ptr->GetTypeID() == m_ItemIDs.at(Layer - 1).first); });
+						MakeList<PresetList>(xp + xgoal, yp, PresetData::Instance()->GetList(), "Preset", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (ptr->GetBase()->GetID() == m_ItemIDs.at(Layer - 1).first); });
 					});
 				}
 				//決定
 				{
+					auto prev = m_SelectPreset;
+					m_SelectPreset = m_ItemIDs.at(2).first;
+					if ((m_SelectPreset != InvalidID) && (m_SelectPreset != prev)) {
+						m_ChildData.clear();
+					}
+				}
+				{
 					auto prev = m_SelectBuffer;
-					m_SelectBuffer = m_ItemIDs.back().first;
+					m_SelectBuffer = m_ItemIDs.at(1).first;
 					if (m_SelectBuffer != prev) {
 						m_BaseWeapon = (m_SelectBuffer != InvalidID) ? ItemData::Instance()->FindPtr(m_SelectBuffer) : nullptr;
-						m_PartsChange = true;
-					}
-					if (m_BaseWeapon == nullptr) {
-						m_ChildData.clear();
+						if (m_BaseWeapon == nullptr) {
+							m_ChildData.clear();
+						}
 					}
 				}
 				//
 				if (isChild) {
 					xgoal -= xs_add / 2;
 				}
-				if (m_SelectBuffer != InvalidID) {
-					xgoal += xs_add * 2;
+				if ((m_SelectBuffer != InvalidID) && (m_SelectPreset != InvalidID)) {
+					xgoal += xs_add * 3;
 				}
 				Easing(&m_XChild, (float)xgoal, 0.8f, EasingType::OutExpo);
 			}

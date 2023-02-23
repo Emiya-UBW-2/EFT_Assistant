@@ -1,4 +1,5 @@
 Name=Simonov SKS 7.62x39 carbine
+ShortName=SKS
 Itemtype=Assault carbine
 ChildParts=[SKS Weapon Tuning 7.62x39 thread adapter,SKS Hexagon 7.62x39 sound suppressor]
 ChildParts=[SKS rear sight]

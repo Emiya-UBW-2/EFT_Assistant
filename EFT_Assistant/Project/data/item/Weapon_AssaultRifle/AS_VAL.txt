@@ -1,4 +1,5 @@
 Name=AS VAL 9x39 special assault rifle
+ShortName=AS VAL
 Itemtype=Assault rifle
 ChildParts=[
 	AS VAL 9x39 integral barrel-suppressor,
