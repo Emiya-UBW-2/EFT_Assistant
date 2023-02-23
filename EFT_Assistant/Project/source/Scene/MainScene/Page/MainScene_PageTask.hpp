@@ -8,6 +8,18 @@ namespace FPS_n2 {
 		int															m_posxMaxBuffer{ 0 };
 		int															m_posyMaxBuffer{ 0 };
 		std::vector<Rect2D>											m_TaskRect;
+		struct LinePos {
+			TaskID	m_ID{ InvalidID };
+			int		m_XPos{ 0 };
+			int		m_YPos{ 0 };
+		public:
+			LinePos(TaskID ID, int xp, int yp) noexcept {
+				this->m_ID = ID;
+				this->m_XPos = xp;
+				this->m_YPos = yp;
+			}
+		};
+		std::vector<LinePos>										m_ParentLinePos;
 	private:
 		void DrawChildTaskClickBox(float Scale, TaskID ParentID, int start_x, int start_y, int xp, int yp, int xs, int ys, bool parentCanDo = true) noexcept {
 			auto* WindowMngr = WindowSystem::WindowManager::Instance();
@@ -19,7 +31,20 @@ namespace FPS_n2 {
 				if (ParentID == InvalidID) {
 					TraderData::Instance()->ResetRep();
 				}
-				if (tasks.GetTaskNeedData().GettaskID() == ParentID) {
+				bool IsTrue = false;
+				if (!IsTrue && tasks.GetTaskNeedData().GetParenttaskID().size() == 0 && ParentID == InvalidID) {
+					IsTrue = true;
+				}
+				if (!IsTrue && tasks.GetTaskNeedData().GetParenttaskID().size() > 0) {
+					for (const auto& p : tasks.GetTaskNeedData().GetParenttaskID()) {
+						if (p.GetParenttaskID() == ParentID) {
+							IsTrue = true;
+							break;
+						}
+					}
+				}
+
+				if (IsTrue) {
 					auto* ptr = TraderData::Instance()->FindPtr(tasks.GetTrader());
 					auto parentCanDo_t = parentCanDo;
 					auto color = ptr->GetColors(0);
@@ -40,7 +65,25 @@ namespace FPS_n2 {
 						parentCanDo_t = false;
 					}
 					if (ParentID != InvalidID) {
+						auto XAddLine = (int)((float)y_r(50) * Scale);
+						//
 						DrawControl::Instance()->SetDrawLine(false, start_x, start_y, xp, yp + ys / 2, Red, (int)(5.f * Scale));
+						//
+						if (tasks.GetTaskNeedData().GetParenttaskID().size() > 1) {//2つ以上親がある場合
+							for (const auto& p : tasks.GetTaskNeedData().GetParenttaskID()) {
+								if (p.GetParenttaskID() != ParentID) {
+									for (auto& ppos : m_ParentLinePos) {
+										if (p.GetParenttaskID() == ppos.m_ID) {
+											//
+											DrawControl::Instance()->SetDrawLine(false, ppos.m_XPos, ppos.m_YPos, ppos.m_XPos + XAddLine, ppos.m_YPos, Red, (int)(5.f * Scale));
+											DrawControl::Instance()->SetDrawLine(false, ppos.m_XPos + XAddLine, ppos.m_YPos, xp - XAddLine, yp + ys / 2, Red, (int)(5.f * Scale));
+											DrawControl::Instance()->SetDrawLine(false, xp - XAddLine, yp + ys / 2, xp, yp + ys / 2, Red, (int)(5.f * Scale));
+											//
+										}
+									}
+								}
+							}
+						}
 					}
 					if (WindowSystem::ClickCheckBox(xp, yp, xp + xs, yp + ys, false, !WindowMngr->PosHitCheck(nullptr), color, (Scale > 0.5f) ? tasks.GetName() : "")) {
 						auto sizeXBuf = y_r(800);
@@ -68,7 +111,7 @@ namespace FPS_n2 {
 						m_TaskRect.emplace_back(tmp);
 					}
 					Rect2D P_Next;
-					P_Next.Set(xp + (xs + (int)((float)y_r(100) * Scale)), yp, xs, suby);
+					P_Next.Set(xp + (xs + (int)((float)y_r(200) * Scale)), yp, xs, suby);
 					//xs, ys
 					//被ってたら下に下げる
 					while (true) {
@@ -76,12 +119,13 @@ namespace FPS_n2 {
 						for (auto&r : m_TaskRect) {
 							if (r.IsHit(P_Next)) {
 								isHit = true;
-								P_Next.Set(xp + (xs + (int)((float)y_r(50) * Scale)), P_Next.GetPosY() + ys, xs, suby);
+								P_Next.Set(xp + (xs + (int)((float)y_r(200) * Scale)), P_Next.GetPosY() + ys, xs, suby);
 								break;
 							}
 						}
 						if (!isHit) { break; }
 					}
+					m_ParentLinePos.emplace_back(tasks.GetID(), xp + xs, yp + ys / 2);
 					DrawChildTaskClickBox(Scale, tasks.GetID(), xp + xs, yp + ys / 2, P_Next.GetPosX(), P_Next.GetPosY(), xs, ys, parentCanDo_t);
 					//親なのでいったん信頼度を戻す
 					for (auto& LL : tasks.GetTaskRewardData().GetLLAdd()) {
@@ -113,6 +157,7 @@ namespace FPS_n2 {
 		void Draw_Back_Sub(int posx, int posy, float Scale) noexcept override {
 			int xs = (int)((float)y_r(600) * Scale);
 			int ys = (int)((float)LineHeight * Scale);
+			m_ParentLinePos.clear();
 			DrawChildTaskClickBox(Scale, InvalidID, posx + xs, posy + ys / 2, posx, posy, xs, ys);
 		}
 		void DrawFront_Sub(int posx, int posy, float) noexcept override {

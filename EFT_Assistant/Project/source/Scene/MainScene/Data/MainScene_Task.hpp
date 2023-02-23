@@ -4,18 +4,32 @@
 namespace FPS_n2 {
 	typedef int TaskID;
 	class TaskList : public ListParent<TaskID> {
+		class TaskParents {
+			std::string								m_Parenttask;
+			TaskID									m_ParenttaskID{ InvalidID };
+		public:
+			void	SetParentName(const char* value) noexcept { m_Parenttask = value; }
+			const auto& GetParenttaskID() const noexcept { return m_ParenttaskID; }
+			void		SetNeedTasktoID(const std::vector<TaskList>& taskList) noexcept {
+				for (const auto& t : taskList) {
+					if (m_Parenttask == t.GetName()) {
+						m_ParenttaskID = t.GetID();
+						break;
+					}
+				}
+			}
+		};
 		class TaskNeedData {
 			TraderID								m_Trader{ InvalidID };
 			int										m_Level{ -1 };
 			int										m_LL{ -1 };
-			std::string								m_task;
-			TaskID									m_taskID{ InvalidID };
+			std::vector<TaskParents>				m_Parenttask;
 			std::vector<ItemGetData>				m_Item;
 		public:
 			const auto& GetTrader() const noexcept { return m_Trader; }
 			const auto& GetLevel() const noexcept { return m_Level; }
 			const auto& GetLL() const noexcept { return m_LL; }
-			const auto& GettaskID() const noexcept { return m_taskID; }
+			const auto& GetParenttaskID() const noexcept { return this->m_Parenttask; }
 			const auto& GetItem() const noexcept { return m_Item; }
 		public:
 			void Set(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept {
@@ -23,7 +37,8 @@ namespace FPS_n2 {
 					m_Trader = TraderData::Instance()->FindID(RIGHT.c_str());
 				}
 				else if (LEFT == "NeedTask") {
-					this->m_task = RIGHT;
+					this->m_Parenttask.resize(this->m_Parenttask.size() + 1);
+					this->m_Parenttask.back().SetParentName(RIGHT.c_str());
 				}
 				else if (LEFT == "NeedLevel") {
 					this->m_Level = std::stoi(RIGHT);
@@ -48,11 +63,8 @@ namespace FPS_n2 {
 				}
 			}
 			void		SetNeedTasktoID(const std::vector<TaskList>& taskList) noexcept {
-				for (const auto& t : taskList) {
-					if (m_task == t.GetName()) {
-						m_taskID = t.GetID();
-						break;
-					}
+				for (auto& t : m_Parenttask) {
+					t.SetNeedTasktoID(taskList);
 				}
 			}
 		};

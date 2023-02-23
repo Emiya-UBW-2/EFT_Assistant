@@ -1,8 +1,8 @@
 Name=Worst Job in the World
 Trader=Peacekeeper
 
-NeedTask=Wet Job - Part 6
 NeedTask=Revision - Streets of Tarkov
+NeedTask=Wet Job - Part 6
 NeedLevel=25
 //NeedLL=1
 //NeedItem=[Health Resort east wing room 328 keyx0,Health Resort universal utility room keyx0]
