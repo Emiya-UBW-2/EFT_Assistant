@@ -1,0 +1,16 @@
+Name=Wet Job - Part 2
+Trader=Peacekeeper
+
+NeedTask=Wet Job - Part 1
+NeedLevel=14
+//NeedLL=1
+NeedItem=[MS2000 Markerx1]
+
+Task_Map=Shoreline
+//Task_Kill=[Shoreline-Scavx10]
+//Task_FiR_HandOver=[Morphine injectorx4,Alkaline cleaner for heat exchangersx2,Corrugated hosex2,Propane tank (5L)x2]
+//Task_NotFiR_HandOver=[MRE ration packx5]
+Task_Else=離島の家にマーカーを設置
+
+Reward_Rep=Peacekeeper+0.03
+Reward_Item=[Ushanka ear flap hatx2,Lower half-maskx2,Eberlestock F5 Switchblade backpack (Dry Earth)x1]

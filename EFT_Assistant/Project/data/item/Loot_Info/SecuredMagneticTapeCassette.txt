@@ -1,0 +1,2 @@
+Name=Secured magnetic tape cassette
+Itemtype=Info

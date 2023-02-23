@@ -104,6 +104,9 @@ namespace FPS_n2 {
 		const auto GetItemLock(const char* Name) noexcept {
 			auto Point = std::find_if(m_ItemLockData.begin(), m_ItemLockData.end(), [&](const ItemLockData& Data) {return (Data.GetName() == Name); });
 			if (Point != m_ItemLockData.end()) {
+				if (Point->GetIsLock()) {
+					int as = 0;
+				}
 				return Point->GetIsLock();
 			}
 			else {

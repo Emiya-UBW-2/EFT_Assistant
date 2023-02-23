@@ -1,0 +1,2 @@
+Name=MRE ration pack
+Itemtype=Provisions

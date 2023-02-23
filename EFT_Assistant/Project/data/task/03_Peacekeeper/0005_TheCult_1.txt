@@ -1,0 +1,17 @@
+Name=The Cult - Part 1
+Trader=Peacekeeper
+
+NeedTask=Friend from the West - Part 2
+NeedTask=Humanitarian Supplies
+NeedLevel=12
+//NeedLL=1
+//NeedItem=[MS2000 Markerx2,UNTAR helmetx0,MF-UNTAR body armorx0]
+
+Task_Map=Shoreline
+//Task_Kill=[XXXx1,Woods-XXXx1]
+//Task_FiR_HandOver=[XXXx1]
+//Task_NotFiR_HandOver=[MRE ration packx5]
+Task_Else=‹³‰ï•t‹ß‚Ì€‘Ì‚ğŒ©‚Â‚¯¶ŠÒ
+
+Reward_Rep=Peacekeeper+0.02
+Reward_Item=[Golden neck chainx3]

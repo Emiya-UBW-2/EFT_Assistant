@@ -1,0 +1,5 @@
+Name=DS Arms SA-58 7.62x51 assault rifle
+ShortName=SA-58
+Itemtype=Assault rifle
+Recoil=325
+Ergonomics=34

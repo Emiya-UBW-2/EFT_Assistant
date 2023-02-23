@@ -1,0 +1,2 @@
+Name=Direct Action Thunderbolt compact chest rig
+Itemtype=Chest rig

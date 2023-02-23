@@ -1,0 +1,3 @@
+Name=Eberlestock F5 Switchblade backpack (Dry Earth)
+Itemtype=Backpack
+

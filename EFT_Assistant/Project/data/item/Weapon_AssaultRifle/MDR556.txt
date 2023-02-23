@@ -1,0 +1,5 @@
+Name=Desert Tech MDR 5.56x45 assault rifle
+ShortName=MDR556
+Itemtype=Assault rifle
+Recoil=87
+Ergonomics=72

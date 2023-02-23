@@ -1,0 +1,2 @@
+Name=Military COFDM Wireless Signal Transmitter
+Itemtype=Electronics

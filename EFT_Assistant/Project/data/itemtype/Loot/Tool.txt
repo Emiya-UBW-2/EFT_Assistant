@@ -1,0 +1,2 @@
+Name=Tool
+Category=Loot

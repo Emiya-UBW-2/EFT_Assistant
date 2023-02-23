@@ -1,0 +1,2 @@
+Name=Gingy keychain
+Itemtype=Container

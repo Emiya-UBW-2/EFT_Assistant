@@ -1,0 +1,2 @@
+Name=Iridium military thermal vision module
+Itemtype=Electronics

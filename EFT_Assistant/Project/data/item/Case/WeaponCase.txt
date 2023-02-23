@@ -1,0 +1,2 @@
+Name=Weapon case
+Itemtype=Container

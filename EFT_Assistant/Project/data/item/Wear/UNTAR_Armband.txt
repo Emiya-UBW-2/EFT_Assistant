@@ -1,0 +1,2 @@
+Name=UNTAR armband
+Itemtype=Armband

@@ -1,0 +1,16 @@
+Name=Eagle Eye
+Trader=Peacekeeper
+
+NeedTask=Scrap Metal
+NeedLevel=11
+//NeedLL=1
+//NeedItem=[MS2000 Markerx3]
+
+Task_Map=Shoreline
+//Task_Kill=[XXXx1,Woods-XXXx1]
+//Task_FiR_HandOver=[XXXx1]
+//Task_NotFiR_HandOver=[XXXx1]
+Task_Else=UAV‚É“‹Ú‚³‚ê‚½SASƒhƒ‰ƒCƒu‚ğ2‚Â‰üC
+
+Reward_Rep=Peacekeeper+0.03
+Reward_Item=[ELCAN SpecterDR 1x/4x scope (FDE)x1,Leupold Mark 4 HAMR 4x24 DeltaPoint hybrid assault scopex1]

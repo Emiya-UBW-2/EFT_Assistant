@@ -1,0 +1,2 @@
+Name=Weapon parts
+Itemtype=Others

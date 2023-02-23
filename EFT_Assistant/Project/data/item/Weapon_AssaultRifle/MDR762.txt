@@ -1,0 +1,5 @@
+Name=Desert Tech MDR 7.62x51 assault rifle
+ShortName=MDR762
+Itemtype=Assault rifle
+Recoil=148
+Ergonomics=72

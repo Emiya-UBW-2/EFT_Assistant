@@ -1,0 +1,2 @@
+Name=Keycard holder case
+Itemtype=Container

@@ -1,0 +1,17 @@
+Name=Classified Technologies
+Trader=Peacekeeper
+
+NeedTask=Revision - Reserve
+NeedLevel=14
+//NeedLL=1
+//NeedItem=[UN helmetx0,MF-UNTAR body armorx0]
+
+Task_Map=Reserve
+//Task_Kill=[Woods-Scavx12,Customs-Scavx12,Interchange-Scavx12,Shoreline-Scavx12,Streets of Tarkov-Scavx12]
+//Task_FiR_HandOver=[Virtex programmable processorx2,Military COFDM Wireless Signal Transmitterx1]
+//Task_NotFiR_HandOver=[MRE ration packx5]
+Task_Else=package with T-90M Commander control panel‚ð‰ñŽû‚µ”[•i
+
+Reward_Rep=Peacekeeper+0.02
+Reward_Item=[5.7x28mm R37.Fx200]
+

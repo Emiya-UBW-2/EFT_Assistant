@@ -1,0 +1,17 @@
+Name=Spa Tour - Part 6
+Trader=Peacekeeper
+
+NeedTask=Spa Tour - Part 5
+NeedLevel=12
+//NeedLL=1
+//NeedItem=[Health Resort west wing room 219 keyx0,Health Resort west wing room 220 keyx0]
+
+//Task_Map=Shoreline
+//Task_Kill=[Shoreline-Scavx7]
+//Task_FiR_HandOver=[the key to the closed premises of the Sanatoriumx1]
+//Task_NotFiR_HandOver=[MRE ration packx5]
+Task_Else=8000ƒhƒ‹‚ð“n‚·
+
+Reward_Rep=Peacekeeper+0.04
+//Reward_Item=[RB-AO keyx1]
+

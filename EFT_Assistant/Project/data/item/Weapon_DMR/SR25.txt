@@ -1,0 +1,5 @@
+Name=Knight's Armament Company SR-25 7.62x51 marksman rifle
+ShortName=SR-25
+Itemtype=Designated marksman rifle
+Recoil=255
+Ergonomics=47

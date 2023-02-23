@@ -1,0 +1,2 @@
+Name=M.U.L.E. stimulant injector
+Itemtype=Injector

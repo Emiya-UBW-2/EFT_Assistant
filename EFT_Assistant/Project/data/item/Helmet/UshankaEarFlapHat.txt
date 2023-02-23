@@ -1,0 +1,2 @@
+Name=Ushanka ear flap hat
+Itemtype=Helmet

@@ -1,0 +1,17 @@
+Name=Humanitarian Supplies
+Trader=Peacekeeper
+
+NeedTask=Eagle Eye
+NeedLevel=11
+//NeedLL=1
+NeedItem=[MS2000 Markerx2,UNTAR helmetx0,MF-UNTAR body armorx0]
+
+Task_Map=Shoreline
+//Task_Kill=[XXXx1,Woods-XXXx1]
+//Task_FiR_HandOver=[XXXx1]
+Task_NotFiR_HandOver=[MRE ration packx5]
+Task_Else=トラック2台にマーカーを設置。
+Task_Else=UN装備でScavキル
+
+Reward_Rep=Peacekeeper+0.03
+Reward_Item=[Weapon partsx1]

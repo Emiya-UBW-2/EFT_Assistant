@@ -1,0 +1,16 @@
+Name=Cargo X - Part 3
+Trader=Peacekeeper
+
+NeedTask=Cargo X - Part 2
+NeedLevel=12
+//NeedLL=1
+//NeedItem=[Health Resort east wing room 306 keyx0,Health Resort east wing room 308 keyx0]
+
+Task_Map=Shoreline
+//Task_Kill=[Shoreline-Scavx7]
+//Task_FiR_HandOver=[Morphine injectorx4,Alkaline cleaner for heat exchangersx2,Corrugated hosex2,Propane tank (5L)x2]
+//Task_NotFiR_HandOver=[MRE ration packx5]
+Task_Else=西棟地下プール壁にある割れ目を確認して生還
+
+Reward_Rep=Peacekeeper+0.03
+Reward_Item=[HK MP7A1 4.6x30 submachine gunx3]

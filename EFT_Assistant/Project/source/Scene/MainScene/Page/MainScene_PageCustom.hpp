@@ -469,7 +469,9 @@ namespace FPS_n2 {
 								if (Input->GetKey('L').trigger()) {
 									//ƒƒbƒN‚ð‚©‚¯‚é
 									for (const auto& cID2 : cID.GetMySlotData().Data) {
-										PlayerData::Instance()->SetItemLock(cID2.first->GetName().c_str(), false);
+										if (cID.GetChildPtr() != cID2.first) {
+											PlayerData::Instance()->SetItemLock(cID2.first->GetName().c_str(), false);
+										}
 									}
 									PlayerData::Instance()->OnOffItemLock(cID.GetChildPtr()->GetName().c_str());
 								}

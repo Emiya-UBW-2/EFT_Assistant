@@ -1,0 +1,2 @@
+Name=5.56x45mm M995
+Itemtype=Round

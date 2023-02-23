@@ -1,0 +1,2 @@
+Name=Shoreline Health Resort plan map
+Itemtype=Map

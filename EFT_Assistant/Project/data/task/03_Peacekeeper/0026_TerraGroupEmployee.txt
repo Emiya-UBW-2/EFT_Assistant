@@ -1,0 +1,17 @@
+Name=TerraGroup Employee
+Trader=Peacekeeper
+
+NeedTask=The Huntsman Path - Sadist
+NeedTask=Samples
+NeedLevel=23
+//NeedLL=1
+NeedItem=[Keycard with a blue markingx0]
+
+Task_Map=The Lab
+//Task_Kill=[Shoreline-Scavx10]
+//Task_FiR_HandOver=[M.U.L.E. stimulant injectorx1,"Obdolbos" cocktail injectorx1,Meldonin injectorx1,AHF1-M stimulant injectorx1,P22 (Product 22) stimulant injectorx1,L1 (Norepinephrine) injectorx1,3-(b-TG) stimulant injectorx1]
+//Task_NotFiR_HandOver=[MRE ration packx5]
+Task_Else=Flash drive marked with blue tape‚ð‰ñŽû‚µ”[•i
+
+Reward_Rep=Peacekeeper+0.04
+Reward_Item=[Desert Tech MDR 7.62x51 assault riflex4,AR-10 7.62x51 Magpul PMAG 20 SR-LR GEN M3 20-round magazinex3,7.62x51mm M80x80]

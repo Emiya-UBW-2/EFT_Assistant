@@ -1,0 +1,5 @@
+Name=FN40GL Mk2 40mm grenade launcher
+ShortName=FN40GL
+Itemtype=Grenade launcher
+Recoil=270
+Ergonomics=56.5

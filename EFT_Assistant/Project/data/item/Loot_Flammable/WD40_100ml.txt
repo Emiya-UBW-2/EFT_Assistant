@@ -1,0 +1,2 @@
+Name=WD-40 (100ml)
+Itemtype=Flammable

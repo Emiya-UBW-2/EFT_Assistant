@@ -1,0 +1,5 @@
+Name=HK MP7A2 4.6x30 submachine gun
+ShortName=MP7A2
+Itemtype=Submachine gun
+Recoil=58
+Ergonomics=65

@@ -1,0 +1,16 @@
+Name=The Cult - Part 2
+Trader=Peacekeeper
+
+NeedTask=The Cult - Part 1
+NeedLevel=12
+//NeedLL=1
+NeedItem=[MS2000 Markerx4,Dorm room 314 marked keyx1]
+
+Task_Map=[Shoreline,Customs,Woods]
+//Task_Kill=[XXXx1,Woods-XXXx1]
+//Task_FiR_HandOver=[XXXx1]
+//Task_NotFiR_HandOver=[MRE ration packx5]
+Task_Else=該当マップの魔法陣4か所にマーカー設置
+
+Reward_Rep=Peacekeeper+0.03
+Reward_Item=[Knight's Armament Company SR-25 7.62x51 marksman riflex3]

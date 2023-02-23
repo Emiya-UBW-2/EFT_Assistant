@@ -341,7 +341,7 @@ namespace FPS_n2 {
 			Xsize += xg;
 		}
 
-		if(PlayerData::Instance()->GetItemLock(this->GetName().c_str())) {
+		if(IsLocked) {
 			DrawControl::Instance()->SetDrawRotaLock(true, xp + FirSize / 2, yp + ysize / 2, 1.f, 0.f, true);
 		}
 		if (IsFir) {

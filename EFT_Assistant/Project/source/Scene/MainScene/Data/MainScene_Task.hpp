@@ -109,7 +109,19 @@ namespace FPS_n2 {
 					}
 				};
 				if (LEFT == "Task_Map") {//ƒƒP[ƒVƒ‡ƒ“’Ç‰Á
-					this->m_Map.emplace_back(MapData::Instance()->FindID(RIGHT.c_str()));
+					if (Args.size() > 0) {
+						for (auto&a : Args) {
+							if (a == "or") {
+
+							}
+							else {
+								this->m_Map.emplace_back(MapData::Instance()->FindID(a.c_str()));
+							}
+						}
+					}
+					else {
+						this->m_Map.emplace_back(MapData::Instance()->FindID(RIGHT.c_str()));
+					}
 				}
 				else if (LEFT == "Task_Kill") {
 					if (Args.size() > 0) {

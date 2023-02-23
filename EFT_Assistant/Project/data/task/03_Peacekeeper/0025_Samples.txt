@@ -1,0 +1,18 @@
+Name=Samples
+Trader=Peacekeeper
+
+NeedTask=Friend from the West - Part 2
+NeedTask=Anesthesia
+//NeedLevel=40
+//NeedLL=1
+//NeedItem=[Health Resort east wing room 328 keyx0,Health Resort universal utility room keyx0]
+
+//Task_Map=[Woods,Coutoms,Interchange,Shoreline,Factory,The Lab,Reserve,Lighthouse,Streets of Tarkov]
+//Task_Kill=[Shoreline-Scavx10]
+Task_FiR_HandOver=[M.U.L.E. stimulant injectorx1,"Obdolbos" cocktail injectorx1,Meldonin injectorx1,AHF1-M stimulant injectorx1,P22 (Product 22) stimulant injectorx1,L1 (Norepinephrine) injectorx1,3-(b-TG) stimulant injectorx1]
+//Task_NotFiR_HandOver=[MRE ration packx5]
+//Task_Else=全てのマップで生還　死ぬかランスルーでリセット
+
+Reward_Rep=Peacekeeper+0.04
+Reward_Item=[Ammunition casex1,DS Arms SA-58 7.62x51 assault riflex1]
+

@@ -1,0 +1,18 @@
+Name=Revision - Reserve
+Trader=Peacekeeper
+
+NeedTask=Friend from the West - Part 2
+NeedTask=Humanitarian Supplies
+NeedLevel=14
+//NeedLL=1
+//NeedItem=[MS2000 Markerx5,RB-ST keyx0]
+
+Task_Map=Reserve
+//Task_Kill=[Woods-Scavx12,Customs-Scavx12,Interchange-Scavx12,Shoreline-Scavx12,Streets of Tarkov-Scavx12]
+//Task_FiR_HandOver=[Virtex programmable processorx2,Military COFDM Wireless Signal Transmitterx1]
+//Task_NotFiR_HandOver=[MRE ration packx5]
+Task_Else=BMP-2x4,LAVIIIx1にマーカーを設置、LAVIII,T-90を発見
+
+Reward_Rep=Peacekeeper+0.03
+Reward_Item=[5.56x45mm Warmageddon ammo pack (20 pcs)x15]
+

@@ -1,0 +1,16 @@
+Name=Cargo X - Part 1
+Trader=Peacekeeper
+
+NeedTask=Spa Tour - Part 7
+NeedLevel=12
+//NeedLL=1
+NeedItem=[Health Resort east wing room 306 keyx0,Health Resort east wing room 308 keyx0]
+
+Task_Map=Shoreline
+//Task_Kill=[Shoreline-Scavx7]
+Task_FiR_HandOver=[Morphine injectorx4,Alkaline cleaner for heat exchangersx2,Corrugated hosex2,Propane tank (5L)x2]
+//Task_NotFiR_HandOver=[MRE ration packx5]
+//Task_Else=Toughbook reinforced laptop‚ğE‚Á‚Ä”[•i@Œ®‚Í‚Ç‚¿‚ç‚©‚Å—Ç‚¢
+
+Reward_Rep=Peacekeeper+0.03
+Reward_Item=[Pistol casex1,Colt M45A1 .45 ACP pistolx2,M1911A1 .45 ACP Wilson Combat 7-round magazinex6]

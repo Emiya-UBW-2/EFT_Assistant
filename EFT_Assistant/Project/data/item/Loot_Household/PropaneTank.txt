@@ -1,0 +1,2 @@
+Name=Propane tank (5L)
+Itemtype=Household

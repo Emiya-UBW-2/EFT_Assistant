@@ -1,0 +1,2 @@
+Name=Keycard with a blue marking
+Itemtype=Keycard

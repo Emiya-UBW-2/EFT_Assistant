@@ -1,0 +1,16 @@
+Name=Cargo X - Part 2
+Trader=Peacekeeper
+
+NeedTask=Cargo X - Part 1
+NeedLevel=12
+//NeedLL=1
+//NeedItem=[Health Resort east wing room 306 keyx0,Health Resort east wing room 308 keyx0]
+
+Task_Map=Shoreline
+//Task_Kill=[Shoreline-Scavx7]
+//Task_FiR_HandOver=[Morphine injectorx4,Alkaline cleaner for heat exchangersx2,Corrugated hosex2,Propane tank (5L)x2]
+//Task_NotFiR_HandOver=[MRE ration packx5]
+Task_Else=“Œ“108†º‚Ìƒ^ƒ“ƒNã‚É‚ ‚éSecure Folder 0013‚ğE‚Á‚Ä”[•i
+
+Reward_Rep=Peacekeeper+0.03
+Reward_Item=[Colt M4A1 5.56x45 assault riflex1,5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazinex3]

@@ -1,0 +1,16 @@
+Name=Fishing Gear
+Trader=Peacekeeper
+
+NeedTask=Friend from the West - Part 1
+NeedLevel=10
+//NeedLL=1
+NeedItem=[SV-98 7.62x54R bolt-action sniper riflex1,Leatherman Multitoolx1]
+
+Task_Map=Shoreline
+//Task_Kill=[XXXx1,Woods-XXXx1]
+//Task_FiR_HandOver=[XXXx1]
+//Task_NotFiR_HandOver=[XXXx1]
+Task_Else=スナイパーライフルとマルチツールを海沿いのボートに設置して脱出
+
+Reward_Rep=Peacekeeper+0.02
+Reward_Item=[UNTAR helmetx1]

@@ -1,0 +1,2 @@
+Name=Corrugated hose
+Itemtype=Building material

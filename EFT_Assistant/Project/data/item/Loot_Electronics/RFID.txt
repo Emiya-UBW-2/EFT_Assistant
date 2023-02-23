@@ -1,0 +1,2 @@
+Name=UHF RFID Reader
+Itemtype=Electronics

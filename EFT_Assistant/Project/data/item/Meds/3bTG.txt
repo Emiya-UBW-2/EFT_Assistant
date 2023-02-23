@@ -1,0 +1,2 @@
+Name=3-(b-TG) stimulant injector
+Itemtype=Injector

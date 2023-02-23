@@ -1,0 +1,2 @@
+Name=Alkaline cleaner for heat exchangers
+Itemtype=Household
