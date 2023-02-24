@@ -189,7 +189,7 @@ namespace FPS_n2 {
 				int Xmin = y_r(320);
 				int Ymin = LineHeight;
 
-				DrawControl::Instance()->SetDrawBox(false, 0, 0, (int)(Lerp((float)Xmin, (float)Xsize, m_PullDown)), (int)(Lerp((float)Ymin, (float)Ysize, m_PullDown)), Gray75, TRUE);
+				DrawControl::Instance()->SetDrawBox(DrawLayer::BackGround, 0, 0, (int)(Lerp((float)Xmin, (float)Xsize, m_PullDown)), (int)(Lerp((float)Ymin, (float)Ysize, m_PullDown)), Gray75, TRUE);
 				if (m_PullDown >= 1.f) {
 					//Back
 					m_BGPtr->Draw_Back(this->m_posx, this->m_posy, this->m_Scale);
@@ -219,7 +219,7 @@ namespace FPS_n2 {
 					//Front
 					m_BGPtr->DrawFront(this->m_posx, this->m_posy, this->m_Scale);
 					//’†‰›ˆÊ’u‰ñ”ð‚Ì‚½‚ß‚Ì¬‰~
-					DrawControl::Instance()->SetDrawCircle(false, Xsize, Ysize, y_r(100), TransColor, TRUE);
+					DrawControl::Instance()->SetDrawCircle(DrawLayer::Front, Xsize, Ysize, y_r(100), TransColor, TRUE);
 				}
 				DataErrorLog::Instance()->Draw();
 				if (GetASyncLoadNum() > 0) {

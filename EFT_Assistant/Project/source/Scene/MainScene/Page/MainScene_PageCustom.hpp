@@ -419,7 +419,7 @@ namespace FPS_n2 {
 						int yp2 = yposbase + (*Lane) * (ysize + (int)((float)(y_r(10))*Scale / 0.2f));
 						int ybase = yp2 - ysize / 2;
 						if (Ptr != nullptr) {
-							DrawControl::Instance()->SetDrawLine(false, xpos, ypos, xbase, yp2, Red, y_r(3));
+							DrawControl::Instance()->SetDrawLine(DrawLayer::Normal, xpos, ypos, xbase, yp2, Red, y_r(3));
 						}
 						auto* WindowMngr = WindowSystem::WindowManager::Instance();
 						if (WindowSystem::ClickCheckBox(xbase, ybase, xbase + xsizeMin, ybase + ysize, true, !WindowMngr->PosHitCheck(nullptr), Gray25, "<")) {
@@ -465,7 +465,7 @@ namespace FPS_n2 {
 							}
 
 							if (in2_(Input->GetMouseX(), Input->GetMouseY(), xbase, ybase, xbase + xsize, ybase + ysize)) {
-								DrawControl::Instance()->SetDrawBox(false, xbase, ybase, xbase + xsize, ybase + ysize, RedPop, false);
+								DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xbase, ybase, xbase + xsize, ybase + ysize, RedPop, false);
 								if (Input->GetKey('L').trigger()) {
 									//ロックをかける
 									for (const auto& cID2 : cID.GetMySlotData().Data) {
@@ -475,7 +475,7 @@ namespace FPS_n2 {
 									}
 									PlayerData::Instance()->OnOffItemLock(cID.GetChildPtr()->GetName().c_str());
 								}
-								DrawControl::Instance()->SetString(true,
+								DrawControl::Instance()->SetString(DrawLayer::Front,
 									FontPool::FontType::Nomal_Edge, LineHeight,
 									FontHandle::FontXCenter::RIGHT, FontHandle::FontYCenter::BOTTOM, Input->GetMouseX(), Input->GetMouseY(), RedPop, Black,
 									"Lキーで優先パーツに設定"
@@ -634,7 +634,7 @@ namespace FPS_n2 {
 			if (m_BaseWeapon) {
 				if (m_BaseWeapon->GetIcon().GetGraph()) {
 					float Scale = ((float)y_r(1080) / 128) * scale;
-					DrawControl::Instance()->SetDrawRotaGraph(false, m_BaseWeapon->GetIcon().GetGraph(), xpos + (int)((float)y_r(960)*scale / 0.2f), ypos + (int)((float)y_r(540)*scale / 0.2f), Scale, 0.f, false);
+					DrawControl::Instance()->SetDrawRotaGraph(DrawLayer::Normal, m_BaseWeapon->GetIcon().GetGraph(), xpos + (int)((float)y_r(960)*scale / 0.2f), ypos + (int)((float)y_r(540)*scale / 0.2f), Scale, 0.f, false);
 					int Lane = 0;
 					DrawChild(xpos, ypos, 0, 0, Scale, &Lane);
 				}
@@ -769,10 +769,10 @@ namespace FPS_n2 {
 								xpmin + (xpmax - xpmin)*std::clamp((int)ErgMax - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Blue);
 						}
 
-						DrawControl::Instance()->SetDrawLine(false,
+						DrawControl::Instance()->SetDrawLine(DrawLayer::Normal,
 							xpmin + (xpmax - xpmin)*std::clamp(Erg - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos,
 							xpmin + (xpmax - xpmin)*std::clamp(Erg - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Black, 3);
-						DrawControl::Instance()->SetDrawLine(false,
+						DrawControl::Instance()->SetDrawLine(DrawLayer::Normal,
 							xpmin + (xpmax - xpmin)*std::clamp(Erg - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos,
 							xpmin + (xpmax - xpmin)*std::clamp(Erg - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Gray15, 1);
 					}
@@ -837,10 +837,10 @@ namespace FPS_n2 {
 								xpmin + (xpmax - xpmin)*std::clamp((int)RecMax - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Red);
 						}
 
-						DrawControl::Instance()->SetDrawLine(false,
+						DrawControl::Instance()->SetDrawLine(DrawLayer::Normal,
 							xpmin + (xpmax - xpmin)*std::clamp(Rec - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos,
 							xpmin + (xpmax - xpmin)*std::clamp(Rec - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Black, 3);
-						DrawControl::Instance()->SetDrawLine(false,
+						DrawControl::Instance()->SetDrawLine(DrawLayer::Normal,
 							xpmin + (xpmax - xpmin)*std::clamp(Rec - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos,
 							xpmin + (xpmax - xpmin)*std::clamp(Rec - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Gray15, 1);
 					}
@@ -909,11 +909,11 @@ namespace FPS_n2 {
 					int x_p2 = std::min(this->m_posxMaxBuffer * xs / DrawParts->m_DispXSize, xs + xs / 2);
 					int y_p2 = std::min(this->m_posyMaxBuffer * ys / DrawParts->m_DispYSize, ys + ys / 2);
 
-					DrawControl::Instance()->SetAlpha(false, 64);
-					DrawControl::Instance()->SetDrawBox(false, xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Black, TRUE);
-					DrawControl::Instance()->SetAlpha(false, 255);
-					DrawControl::Instance()->SetDrawBox(false, xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Green, FALSE);
-					DrawControl::Instance()->SetDrawBox(false, xp, yp, xp + xs, yp + ys, Red, FALSE);
+					DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 64);
+					DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Black, TRUE);
+					DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255);
+					DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Green, FALSE);
+					DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xp, yp, xp + xs, yp + ys, Red, FALSE);
 				}
 			}
 			//

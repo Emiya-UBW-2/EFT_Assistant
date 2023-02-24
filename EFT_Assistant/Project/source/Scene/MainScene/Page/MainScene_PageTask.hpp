@@ -65,9 +65,19 @@ namespace FPS_n2 {
 						parentCanDo_t = false;
 					}
 					if (ParentID != InvalidID) {
-						auto XAddLine = (int)((float)y_r(50) * Scale);
+						auto XAddLine = (int)((float)y_r(25) * Scale);
 						//
-						DrawControl::Instance()->SetDrawLine(false, start_x, start_y, xp, yp + ys / 2, Red, (int)(5.f * Scale));
+						//DrawControl::Instance()->SetDrawLine(DrawLayer::Back, start_x, start_y, xp, yp + ys / 2, Black, (int)(15.f * Scale));
+						//DrawControl::Instance()->SetDrawLine(DrawLayer::Back2, start_x, start_y, xp, yp + ys / 2, Red, (int)(5.f * Scale));
+
+						if (Scale > 0.6f) {
+							DrawControl::Instance()->SetDrawLine(DrawLayer::Back, start_x, start_y, start_x + XAddLine, start_y, Black, (int)(15.f * Scale));
+							DrawControl::Instance()->SetDrawLine(DrawLayer::Back, start_x + XAddLine, start_y, xp - XAddLine, yp + ys / 2, Black, (int)(15.f * Scale));
+							DrawControl::Instance()->SetDrawLine(DrawLayer::Back, xp - XAddLine, yp + ys / 2, xp, yp + ys / 2, Black, (int)(15.f * Scale));
+						}
+						DrawControl::Instance()->SetDrawLine(DrawLayer::Back2, start_x, start_y, start_x + XAddLine, start_y, Red, (int)(5.f * Scale));
+						DrawControl::Instance()->SetDrawLine(DrawLayer::Back2, start_x + XAddLine, start_y, xp - XAddLine, yp + ys / 2, Red, (int)(5.f * Scale));
+						DrawControl::Instance()->SetDrawLine(DrawLayer::Back2, xp - XAddLine, yp + ys / 2, xp, yp + ys / 2, Red, (int)(5.f * Scale));
 						//
 						if (tasks.GetTaskNeedData().GetParenttaskID().size() > 1) {//2つ以上親がある場合
 							for (const auto& p : tasks.GetTaskNeedData().GetParenttaskID()) {
@@ -75,9 +85,14 @@ namespace FPS_n2 {
 									for (auto& ppos : m_ParentLinePos) {
 										if (p.GetParenttaskID() == ppos.m_ID) {
 											//
-											DrawControl::Instance()->SetDrawLine(false, ppos.m_XPos, ppos.m_YPos, ppos.m_XPos + XAddLine, ppos.m_YPos, Red, (int)(5.f * Scale));
-											DrawControl::Instance()->SetDrawLine(false, ppos.m_XPos + XAddLine, ppos.m_YPos, xp - XAddLine, yp + ys / 2, Red, (int)(5.f * Scale));
-											DrawControl::Instance()->SetDrawLine(false, xp - XAddLine, yp + ys / 2, xp, yp + ys / 2, Red, (int)(5.f * Scale));
+											if (Scale > 0.6f) {
+												DrawControl::Instance()->SetDrawLine(DrawLayer::Back3, ppos.m_XPos, ppos.m_YPos, ppos.m_XPos + XAddLine, ppos.m_YPos, Black, (int)(15.f * Scale));
+												DrawControl::Instance()->SetDrawLine(DrawLayer::Back3, ppos.m_XPos + XAddLine, ppos.m_YPos, xp - XAddLine, yp + ys / 2, Black, (int)(15.f * Scale));
+												DrawControl::Instance()->SetDrawLine(DrawLayer::Back3, xp - XAddLine, yp + ys / 2, xp, yp + ys / 2, Black, (int)(15.f * Scale));
+											}
+											DrawControl::Instance()->SetDrawLine(DrawLayer::Back4, ppos.m_XPos, ppos.m_YPos, ppos.m_XPos + XAddLine, ppos.m_YPos, Red, (int)(5.f * Scale));
+											DrawControl::Instance()->SetDrawLine(DrawLayer::Back4, ppos.m_XPos + XAddLine, ppos.m_YPos, xp - XAddLine, yp + ys / 2, Red, (int)(5.f * Scale));
+											DrawControl::Instance()->SetDrawLine(DrawLayer::Back4, xp - XAddLine, yp + ys / 2, xp, yp + ys / 2, Red, (int)(5.f * Scale));
 											//
 										}
 									}
@@ -85,7 +100,7 @@ namespace FPS_n2 {
 							}
 						}
 					}
-					if (WindowSystem::ClickCheckBox(xp, yp, xp + xs, yp + ys, false, !WindowMngr->PosHitCheck(nullptr), color, (Scale > 0.5f) ? tasks.GetName() : "")) {
+					if (WindowSystem::ClickCheckBox(xp, yp, xp + xs, yp + ys, false, !WindowMngr->PosHitCheck(nullptr), color, (Scale > 0.2f) ? tasks.GetName() : "")) {
 						auto sizeXBuf = y_r(800);
 						auto sizeYBuf = y_r(0);
 						tasks.DrawWindow(nullptr, 0, 0, &sizeXBuf, &sizeYBuf);//試しにサイズ計測
@@ -99,7 +114,7 @@ namespace FPS_n2 {
 					for (auto& LL : tasks.GetTaskRewardData().GetLLAdd()) {
 						auto* trader2 = TraderData::Instance()->FindPtr(LL.GetTraderID());
 						float* traderRep = TraderData::Instance()->FindTraderRep(LL.GetTraderID());
-						if (Scale > 0.5f) {
+						if (Scale > 0.2f) {
 							WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + ys + suby, ys, STR_LEFT, trader2->GetColors(0), Black, "[%4.2f->%4.2f]", PrevRep[&LL - &tasks.GetTaskRewardData().GetLLAdd().front()], *traderRep);
 						}
 						suby += ys;
@@ -111,7 +126,7 @@ namespace FPS_n2 {
 						m_TaskRect.emplace_back(tmp);
 					}
 					Rect2D P_Next;
-					P_Next.Set(xp + (xs + (int)((float)y_r(200) * Scale)), yp, xs, suby);
+					P_Next.Set(xp + (xs + (int)((float)y_r(400) * Scale)), yp, xs, suby);
 					//xs, ys
 					//被ってたら下に下げる
 					while (true) {
@@ -119,7 +134,7 @@ namespace FPS_n2 {
 						for (auto&r : m_TaskRect) {
 							if (r.IsHit(P_Next)) {
 								isHit = true;
-								P_Next.Set(xp + (xs + (int)((float)y_r(200) * Scale)), P_Next.GetPosY() + ys, xs, suby);
+								P_Next.Set(xp + (xs + (int)((float)y_r(400) * Scale)), P_Next.GetPosY() + ys * 3 / 2, xs, suby);
 								break;
 							}
 						}
@@ -134,7 +149,7 @@ namespace FPS_n2 {
 					}
 					//
 					if (ParentID == InvalidID) {
-						yp += (ys + (int)((float)y_r(400) * Scale));
+						yp += (ys + (int)((float)y_r(800) * Scale));
 					}
 					else {
 						yp += (ys + suby);
@@ -147,16 +162,19 @@ namespace FPS_n2 {
 		}
 	private:
 		void Init_Sub(int *posx, int *posy, float* Scale) noexcept override {
-			*posx = y_r(50);
-			*posy = LineHeight + y_r(50);
-			*Scale = 1.f;
+			*Scale = 0.3f;
+			int xs = (int)((float)y_r(800) * *Scale);
+			int ys = (int)((float)LineHeight * 2 * *Scale);
+
+			*posx = y_r(1920 / 2) - xs / 2;
+			*posy = LineHeight + y_r(1080 / 2) - ys / 2;
 		}
 
 		void LateExecute_Sub(int*, int*, float*) noexcept override {
 		}
 		void Draw_Back_Sub(int posx, int posy, float Scale) noexcept override {
-			int xs = (int)((float)y_r(600) * Scale);
-			int ys = (int)((float)LineHeight * Scale);
+			int xs = (int)((float)y_r(800) * Scale);
+			int ys = (int)((float)LineHeight * 2 * Scale);
 			m_ParentLinePos.clear();
 			DrawChildTaskClickBox(Scale, InvalidID, posx + xs, posy + ys / 2, posx, posy, xs, ys);
 		}
@@ -186,11 +204,11 @@ namespace FPS_n2 {
 				int x_p2 = std::min(this->m_posxMaxBuffer * xs / DrawParts->m_DispXSize, xs + xs / 2);
 				int y_p2 = std::min(this->m_posyMaxBuffer * ys / DrawParts->m_DispYSize, ys + ys / 2);
 
-				DrawControl::Instance()->SetAlpha(false, 64);
-				DrawControl::Instance()->SetDrawBox(false, xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Black, TRUE);
-				DrawControl::Instance()->SetAlpha(false, 255);
-				DrawControl::Instance()->SetDrawBox(false, xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Green, FALSE);
-				DrawControl::Instance()->SetDrawBox(false, xp, yp, xp + xs, yp + ys, Red, FALSE);
+				DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 64);
+				DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Black, TRUE);
+				DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255);
+				DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Green, FALSE);
+				DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xp, yp, xp + xs, yp + ys, Red, FALSE);
 			}
 			//
 			{

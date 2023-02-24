@@ -149,12 +149,23 @@ namespace FPS_n2 {
 		const auto	GetYSize() const noexcept { return (this->m_Loaded) ? this->m_Y : -1; }
 	};
 	//
+	enum class DrawLayer : int {
+		BackGround,
+		Back,
+		Back2,
+		Back3,
+		Back4,
+		Normal,
+		Front,
+
+		Max,
+	};
+	//
 	class DrawControl : public SingletonBase<DrawControl> {
 	private:
 		friend class SingletonBase<DrawControl>;
 	private:
-		std::vector<DrawData>	m_DrawDataFront;
-		std::vector<DrawData>	m_DrawDataBack;
+		std::vector<std::vector<DrawData>>	m_DrawDatas;
 
 		Graphs					FirGraph;
 		Graphs					LockGraph;
@@ -171,38 +182,30 @@ namespace FPS_n2 {
 			LockGraph.WhenAfterLoad();
 		}
 		~DrawControl() noexcept {
-			m_DrawDataFront.clear();
-			m_DrawDataBack.clear();
-			FirGraph.DisposeGraph();
+			ClearList();
 
+			FirGraph.DisposeGraph();
 			LockGraph.DisposeGraph();
+		}
+
+		DrawData* GetBack(DrawLayer Layer) noexcept {
+			m_DrawDatas.at((int)Layer).resize(m_DrawDatas.at((int)Layer).size() + 1);
+			return &m_DrawDatas.at((int)Layer).back();
 		}
 	public:
 		//
-		void	SetAlpha(bool IsFrontLayer, int Alpha) {
-			DrawData* Back = nullptr;
-			if (IsFrontLayer) {
-				m_DrawDataFront.resize(m_DrawDataFront.size() + 1);
-				Back = &m_DrawDataFront.back();
-			}
-			else {
-				m_DrawDataBack.resize(m_DrawDataBack.size() + 1);
-				Back = &m_DrawDataBack.back();
-			}
+		void	SetAlpha(DrawLayer Layer, int Alpha) {
+			DrawData*Back = GetBack(Layer);
 			Back->InputType(DrawType::Alpha);
 			Back->InputintParam(0, Alpha);
 		}
 		//
-		void	SetDrawBox(bool IsFrontLayer, int x1, int y1, int x2, int y2, unsigned int color1, bool IsFill) {
-			DrawData* Back = nullptr;
-			if (IsFrontLayer) {
-				m_DrawDataFront.resize(m_DrawDataFront.size() + 1);
-				Back = &m_DrawDataFront.back();
-			}
-			else {
-				m_DrawDataBack.resize(m_DrawDataBack.size() + 1);
-				Back = &m_DrawDataBack.back();
-			}
+		void	SetDrawBox(DrawLayer Layer, int x1, int y1, int x2, int y2, unsigned int color1, bool IsFill) {
+			auto* DrawParts = DXDraw::Instance();
+			if (!(0 <= std::max(x1, x2) && std::min(x1, x2) <= DrawParts->m_DispXSize && 0 <= std::max(y1, y2) && std::min(y1, y2) <= DrawParts->m_DispYSize)) { return; }				//画面外は表示しない
+
+
+			DrawData*Back = GetBack(Layer);
 			Back->InputType(DrawType::Box);
 			Back->InputintParam(0, x1);
 			Back->InputintParam(1, y1);
@@ -212,16 +215,8 @@ namespace FPS_n2 {
 			Back->InputboolParam(0, IsFill);
 		}
 		//
-		void	SetDrawCircle(bool IsFrontLayer, int x1, int y1, int radius, unsigned int color1, bool IsFill = true, int LineThickness = 1) {
-			DrawData* Back = nullptr;
-			if (IsFrontLayer) {
-				m_DrawDataFront.resize(m_DrawDataFront.size() + 1);
-				Back = &m_DrawDataFront.back();
-			}
-			else {
-				m_DrawDataBack.resize(m_DrawDataBack.size() + 1);
-				Back = &m_DrawDataBack.back();
-			}
+		void	SetDrawCircle(DrawLayer Layer, int x1, int y1, int radius, unsigned int color1, bool IsFill = true, int LineThickness = 1) {
+			DrawData*Back = GetBack(Layer);
 			Back->InputType(DrawType::Circle);
 			Back->InputintParam(0, x1);
 			Back->InputintParam(1, y1);
@@ -231,16 +226,12 @@ namespace FPS_n2 {
 			Back->InputintParam(3, LineThickness);
 		}
 		//
-		void	SetDrawLine(bool IsFrontLayer, int x1, int y1, int x2, int y2, unsigned int color1, int   Thickness = 1) {
-			DrawData* Back = nullptr;
-			if (IsFrontLayer) {
-				m_DrawDataFront.resize(m_DrawDataFront.size() + 1);
-				Back = &m_DrawDataFront.back();
-			}
-			else {
-				m_DrawDataBack.resize(m_DrawDataBack.size() + 1);
-				Back = &m_DrawDataBack.back();
-			}
+		void	SetDrawLine(DrawLayer Layer, int x1, int y1, int x2, int y2, unsigned int color1, int   Thickness = 1) {
+			auto* DrawParts = DXDraw::Instance();
+			if(!(0 <= std::max(x1, x2) && std::min(x1, x2) <= DrawParts->m_DispXSize && 0 <= std::max(y1, y2) && std::min(y1, y2) <= DrawParts->m_DispYSize)) { return; }				//画面外は表示しない
+
+
+			DrawData*Back = GetBack(Layer);
 			Back->InputType(DrawType::Line);
 			Back->InputintParam(0, x1);
 			Back->InputintParam(1, y1);
@@ -250,16 +241,8 @@ namespace FPS_n2 {
 			Back->InputintParam(4, Thickness);
 		}
 		//
-		void SetDrawRotaGraph(bool IsFrontLayer, const GraphHandle* pGraphHandle, int posx, int posy, float Exrate, float rad, bool trns) noexcept {
-			DrawData* Back = nullptr;
-			if (IsFrontLayer) {
-				m_DrawDataFront.resize(m_DrawDataFront.size() + 1);
-				Back = &m_DrawDataFront.back();
-			}
-			else {
-				m_DrawDataBack.resize(m_DrawDataBack.size() + 1);
-				Back = &m_DrawDataBack.back();
-			}
+		void SetDrawRotaGraph(DrawLayer Layer, const GraphHandle* pGraphHandle, int posx, int posy, float Exrate, float rad, bool trns) noexcept {
+			DrawData*Back = GetBack(Layer);
 			Back->InputType(DrawType::RotaGraph);
 			Back->InputGraphHandleParam(0, pGraphHandle);
 			Back->InputintParam(0, posx);
@@ -269,29 +252,45 @@ namespace FPS_n2 {
 			Back->InputboolParam(0, trns);
 		}
 		//
-		void SetDrawRotaFiR(bool IsFrontLayer, int posx, int posy, float Exrate, float rad, bool trns) noexcept {
+		void SetDrawRotaFiR(DrawLayer Layer, int posx, int posy, float Exrate, float rad, bool trns) noexcept {
 			if (FirGraph.GetGraph()) {
-				SetDrawRotaGraph(IsFrontLayer, FirGraph.GetGraph(), posx, posy, Exrate, rad, trns);
+				SetDrawRotaGraph(Layer, FirGraph.GetGraph(), posx, posy, Exrate, rad, trns);
 			}
 		}
 		//
-		void SetDrawRotaLock(bool IsFrontLayer, int posx, int posy, float Exrate, float rad, bool trns) noexcept {
+		void SetDrawRotaLock(DrawLayer Layer, int posx, int posy, float Exrate, float rad, bool trns) noexcept {
 			if (LockGraph.GetGraph()) {
-				SetDrawRotaGraph(IsFrontLayer, LockGraph.GetGraph(), posx, posy, Exrate, rad, trns);
+				SetDrawRotaGraph(Layer, LockGraph.GetGraph(), posx, posy, Exrate, rad, trns);
 			}
 		}
 		//
 		template <typename... Args>
-		void	SetString(bool IsFrontLayer, FontPool::FontType type, int fontSize, FontHandle::FontXCenter FontX, FontHandle::FontYCenter FontY, int x, int y, unsigned int Color, unsigned int EdgeColor, const std::string& String, Args&&... args) noexcept {
-			DrawData* Back = nullptr;
-			if (IsFrontLayer) {
-				m_DrawDataFront.resize(m_DrawDataFront.size() + 1);
-				Back = &m_DrawDataFront.back();
+		void	SetString(DrawLayer Layer, FontPool::FontType type, int fontSize, FontHandle::FontXCenter FontX, FontHandle::FontYCenter FontY, int x, int y, unsigned int Color, unsigned int EdgeColor, const std::string& String, Args&&... args) noexcept {
+			if (String == "") { return; }
+			auto* DrawParts = DXDraw::Instance();
+			auto* Fonts = FontPool::Instance();
+
+			int xSize = Fonts->Get(type, fontSize).GetStringWidth(-1, String.c_str(), args...);
+
+			if ((y - fontSize) > DrawParts->m_DispYSize || (y + fontSize) < 0) { return; }				//画面外は表示しない
+
+			switch (FontX) {
+			case FontHandle::FontXCenter::LEFT:
+				if ((x) > DrawParts->m_DispXSize || (x + xSize) < 0) { return; }						//画面外は表示しない
+				break;
+			case FontHandle::FontXCenter::MIDDLE:
+				if ((x - xSize / 2) > DrawParts->m_DispXSize || (x + xSize / 2) < 0) { return; }		//画面外は表示しない
+				break;
+			case FontHandle::FontXCenter::RIGHT:
+				if ((x - xSize) > DrawParts->m_DispXSize || (x) < 0) { return; }						//画面外は表示しない
+				break;
+			default:
+				break;
 			}
-			else {
-				m_DrawDataBack.resize(m_DrawDataBack.size() + 1);
-				Back = &m_DrawDataBack.back();
-			}
+
+
+
+			DrawData*Back = GetBack(Layer);
 			Back->InputType(DrawType::String);
 
 			Back->InputintParam(0, (int)type);
@@ -310,15 +309,17 @@ namespace FPS_n2 {
 		//
 	public:
 		void	ClearList() noexcept {
-			m_DrawDataBack.clear();
-			m_DrawDataFront.clear();
+			for (auto& d : m_DrawDatas) {
+				d.clear();
+			}
+			m_DrawDatas.clear();
+			m_DrawDatas.resize((int)DrawLayer::Max);
 		}
 		void	Draw() noexcept {
-			for (auto& d : m_DrawDataBack) {
-				d.Output();
-			}
-			for (auto& d : m_DrawDataFront) {
-				d.Output();
+			for (auto& ds : m_DrawDatas) {
+				for (auto& da : ds) {
+					da.Output();
+				}
 			}
 		}
 	};

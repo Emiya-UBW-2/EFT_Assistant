@@ -138,18 +138,18 @@ namespace FPS_n2 {
 				}
 			}
 			if (GetIcon().GetGraph()) {
-				DrawControl::Instance()->SetAlpha(false, 96);
+				DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 96);
 				int ysize = GetIcon().GetYSize();
 
 				float Scale = 1.f;
 				float rad = 0.f;
 
-				DrawControl::Instance()->SetDrawRotaGraph(false, GetIcon().GetGraph(),
+				DrawControl::Instance()->SetDrawRotaGraph(DrawLayer::Normal, GetIcon().GetGraph(),
 					xp + (int)(((float)GetIcon().GetXSize() * std::cos(rad) + (float)GetIcon().GetYSize() * std::sin(rad)) / 2.f * Scale),
 					yp + LineHeight + ysize / 2, Scale, rad, false);
 				xofs = std::max<int>(xofs, GetIcon().GetXSize());
 				yofs2 += std::max(ysize, 64 * 2);
-				DrawControl::Instance()->SetAlpha(false, 255);
+				DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255);
 			}
 			else {
 				yofs2 += 64 * 2;
@@ -337,15 +337,15 @@ namespace FPS_n2 {
 		if (GetIcon().GetGraph()) {
 			float Scale = (float)ysize / (float)(std::min(GetIcon().GetXSize(), GetIcon().GetYSize()));
 			float rad = (GetIcon().GetXSize() >= GetIcon().GetYSize()) ? deg2rad(0) : deg2rad(90);
-			DrawControl::Instance()->SetDrawRotaGraph(false, GetIcon().GetGraph(), xp + FirSize + Xsize + (int)(((float)GetIcon().GetXSize() * std::cos(rad) + (float)GetIcon().GetYSize() * std::sin(rad)) / 2.f * Scale), yp + ysize / 2, Scale, rad, false);
+			DrawControl::Instance()->SetDrawRotaGraph(DrawLayer::Normal, GetIcon().GetGraph(), xp + FirSize + Xsize + (int)(((float)GetIcon().GetXSize() * std::cos(rad) + (float)GetIcon().GetYSize() * std::sin(rad)) / 2.f * Scale), yp + ysize / 2, Scale, rad, false);
 			Xsize += xg;
 		}
 
 		if(IsLocked) {
-			DrawControl::Instance()->SetDrawRotaLock(true, xp + FirSize / 2, yp + ysize / 2, 1.f, 0.f, true);
+			DrawControl::Instance()->SetDrawRotaLock(DrawLayer::Front, xp + FirSize / 2, yp + ysize / 2, 1.f, 0.f, true);
 		}
 		if (IsFir) {
-			DrawControl::Instance()->SetDrawRotaFiR(false, xp + FirSize / 2, yp + ysize / 2, 1.f, 0.f, true);
+			DrawControl::Instance()->SetDrawRotaFiR(DrawLayer::Normal, xp + FirSize / 2, yp + ysize / 2, 1.f, 0.f, true);
 		}
 		return Xsize;
 	}
