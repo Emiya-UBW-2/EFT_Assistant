@@ -1,0 +1,36 @@
+Name=Gunsmith - Part 9
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 8
+NeedLevel=19
+//NeedLL=1
+NeedItem=[
+	P226 Stainless Elite pistol slidex1,
+	P226 Stainless Elite Wooden pistol gripx1,
+	P226 9x19 20-round extended magazinex1
+]
+
+//Task_Map=Woods
+//Task_Kill=[XXXx1,Woods-XXXx1]
+//Task_FiR_HandOver=[XXXx1]
+//Task_NotFiR_HandOver=[XXXx1]
+Task_WeaponPreset_HandOver=P226R_Gunsmith9
+Task_Else=前回のタスクから24時間後
+Task_Else=耐久性60以上
+Task_Else=エルゴノミクス80以上
+Task_Else=反動610未満
+//Task_Else=800m以遠のサイトレンジ
+//Task_Else=10マスに収める
+//Task_Else=スコープ装着
+//Task_Else=60発以上のマガジン
+//Task_Else=3.8キロ以内
+Task_Else=任意のタクティカルコンボデバイスを装着
+//Task_Else=フォアグリップ装着
+Task_Else=P226 Stainless Elite pistol slide
+Task_Else=P226 Stainless Elite Wooden pistol grip
+Task_Else=P226 9x19 20-round extended magazine
+//Task_Else=サプレッサー装着
+
+
+Reward_Rep=Mechanic+0.02
+Reward_Item=[Gunpowder "Hawk"x2]

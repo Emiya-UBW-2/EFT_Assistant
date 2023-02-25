@@ -1,0 +1,8 @@
+Name=P226R_Gunsmith9
+Base=SIG P226R 9x19 pistol
+Parts=P226 9x19 threaded barrel
+Parts=P226 TJ's Custom 9x19 compensator
+Parts=P226 Stainless Elite Wooden pistol grip
+Parts=P226 Stainless Elite pistol slide
+Parts=P226 9x19 20-round extended magazine
+Parts=NcSTAR Tactical blue laser LAM-module

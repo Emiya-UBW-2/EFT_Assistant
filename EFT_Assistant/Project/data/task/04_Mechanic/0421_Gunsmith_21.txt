@@ -1,0 +1,40 @@
+Name=Gunsmith - Part 21
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 20
+NeedLevel=38
+//NeedLL=1
+NeedItem=[
+	M700 AB Arms MOD*X GEN 3 chassisx1,
+	M700 AB Arms MOD*X GEN 3 KeyMod handguardx1,
+	M700 AB Arms MOD*X rail mountx1,
+	M1911 Pachmayr American Legend Grip #423x1,
+	M1911 Anarchy Outdoors .45 ACP muzzle brakex1
+]
+
+//Task_Map=Woods
+//Task_Kill=[XXXx1,Woods-XXXx1]
+//Task_FiR_HandOver=[XXXx1]
+//Task_NotFiR_HandOver=[XXXx1]
+Task_WeaponPreset_HandOver=[M700_Gunsmith21,M1911A1_Gunsmith21]
+//Task_Else=前回のタスクから24時間後
+
+Task_Else=[M700]
+Task_Else=耐久性60以上
+Task_Else=エルゴノミクス35以上
+Task_Else=反動400未満
+Task_Else=1500m以遠のサイトレンジ
+Task_Else=サプレッサー装着
+Task_Else=マガジンなし
+Task_Else=M700 AB Arms MOD*X GEN 3 chassis
+Task_Else=M700 AB Arms MOD*X GEN 3 KeyMod handguard
+Task_Else=M700 AB Arms MOD*X rail mount
+Task_Else=[M1911A1]
+Task_Else=耐久性60以上
+Task_Else=任意のタクティカルコンボデバイスを装着
+Task_Else=M1911 Pachmayr American Legend Grip #423
+Task_Else=M1911 Anarchy Outdoors .45 ACP muzzle brake
+
+
+Reward_Rep=Mechanic+0.03
+Reward_Item=[Pistol casex1,7.62x51mm M993x50]

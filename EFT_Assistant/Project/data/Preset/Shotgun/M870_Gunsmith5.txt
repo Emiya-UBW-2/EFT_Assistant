@@ -1,0 +1,12 @@
+Name=M870_Gunsmith5
+Base=Remington Model 870 12ga pump-action shotgun
+Parts=M870 12ga 508mm barrel with a fixed sight
+Parts=ME Cylinder 12ga muzzle adapter
+Parts=GK-02 12ga muzzle brake
+Parts=M870 Magpul MOE handguard
+Parts=Magpul M-LOK 4.1 inch rail
+Parts=KAC vertical foregrip
+Parts=Magpul M-LOK 2.5 inch rail
+Parts=NcSTAR Tactical blue laser LAM-module
+Parts=M870 Magpul SGA polymer stock
+Parts=M870 12ga 4-shell magazine cap

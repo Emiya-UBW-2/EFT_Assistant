@@ -1,0 +1,2 @@
+Name=Phase control relay
+Itemtype=Electronics

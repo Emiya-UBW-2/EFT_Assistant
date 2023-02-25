@@ -15,6 +15,7 @@
     <ClInclude Include="source\Header.hpp" />
     <ClInclude Include="source\Parts\DrawSystem.hpp" />
     <ClInclude Include="source\Parts\InputParts.hpp" />
+    <ClInclude Include="source\Parts\InterruptParts.hpp" />
     <ClInclude Include="source\Parts\PlayerDataParts.hpp" />
     <ClInclude Include="source\Parts\WindowParts.hpp" />
     <ClInclude Include="source\Scene\MainScene.hpp" />

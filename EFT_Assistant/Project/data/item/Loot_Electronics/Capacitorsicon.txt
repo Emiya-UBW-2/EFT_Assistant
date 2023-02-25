@@ -1,0 +1,2 @@
+Name=Capacitors
+Itemtype=Electronics

@@ -1,0 +1,2 @@
+Name=Gunpowder "Hawk"
+Itemtype=Others

@@ -1,0 +1,2 @@
+Name=Screw nuts
+Itemtype=Building material

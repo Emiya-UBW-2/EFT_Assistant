@@ -1,0 +1,40 @@
+Name=Gunsmith - Part 19
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 18
+NeedLevel=36
+//NeedLL=1
+NeedItem=[
+	Magpul UBR GEN2 stock (Black)x1,
+	SVD SAG MK1 chassisx1,
+	AK Magpul MOE pistol grip (Black)x1,
+	March Tactical 3-24x42 FFP 30mm riflescopex1
+]
+
+//Task_Map=Woods
+//Task_Kill=[XXXx1,Woods-XXXx1]
+//Task_FiR_HandOver=[XXXx1]
+//Task_NotFiR_HandOver=[XXXx1]
+Task_WeaponPreset_HandOver=SVDS_Gunsmith19
+Task_Else=前回のタスクから24時間後
+Task_Else=耐久性60以上
+Task_Else=エルゴノミクス15以上
+Task_Else=反動400未満
+//Task_Else=500m以遠のサイトレンジ
+//Task_Else=8マスに収める
+//Task_Else=スコープ装着
+//Task_Else=60発以上のマガジン
+//Task_Else=6.7キロ以内
+//Task_Else=任意のタクティカルコンボデバイスを装着
+//Task_Else=フォアグリップ装着
+//Task_Else=サイト装着
+Task_Else=サプレッサー装着
+//Task_Else=マガジン装着
+Task_Else=Magpul UBR GEN2 stock (Black)
+Task_Else=SVD SAG MK1 chassis
+Task_Else=AK Magpul MOE pistol grip (Black)
+Task_Else=March Tactical 3-24x42 FFP 30mm riflescope
+
+
+Reward_Rep=Mechanic+0.03
+Reward_Item=[Ratchet wrenchx1,Bulbex cable cutterx1]

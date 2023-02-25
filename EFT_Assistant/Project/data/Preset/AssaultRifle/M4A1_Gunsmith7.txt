@@ -1,0 +1,17 @@
+Name=M4A1_Gunsmith7
+Base=Colt M4A1 5.56x45 assault rifle
+Parts=Colt Carbine buffer tube
+Parts=KRISS Defiance DS150 stock (Black)
+Parts=AR-15 Colt A2 pistol grip
+Parts=M4A1 5.56x45 upper receiver
+Parts=AR-15 Magpul MOE SL carbine length M-LOK handguard
+Parts=Magpul M-LOK 4.1 inch rail
+Parts=KAC vertical foregrip
+Parts=AR-15 5.56x45 260mm barrel
+Parts=AR-15 SureFire WarComp 5.56x45 flash hider
+Parts=SureFire SOCOM556-MINI MONSTER 5.56x45 sound suppressor
+Parts=AR-15 Windham Weaponry Rail Gas Block
+Parts=5.56x45 SureFire MAG5-60 STANAG 60-round magazine
+Parts=AR-15 Colt charging handle
+Parts=AR-15 rear sight carry handle
+Parts=Primary Arms Compact Prism scope 2.5x

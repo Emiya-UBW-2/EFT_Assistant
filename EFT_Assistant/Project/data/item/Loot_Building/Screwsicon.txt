@@ -1,0 +1,2 @@
+Name=Pack of screws
+Itemtype=Building material

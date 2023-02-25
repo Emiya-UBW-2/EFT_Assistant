@@ -1,0 +1,20 @@
+Name=M4A1_Gunsmith22
+Base=Colt M4A1 5.56x45 assault rifle
+
+Parts=Colt Carbine buffer tube
+Parts=FAB Defense GLR-16-S stock
+Parts=M4A1 5.56x45 upper receiver
+Parts=KRISS Defiance low profile flip-up rear sight
+Parts=AR-15 5.56x45 260mm barrel
+Parts=AR-15 KAC QDC 5.56x45 Flash Suppressor Kit
+Parts=KAC QDSS NT-4 5.56x45 sound suppressor (FDE)
+Parts=AR-15 Daniel Defense MK12 Low Profile Gas Block
+Parts=AR-15 Alexander Arms MK10 rifle length handguard
+Parts=Alexander Arms 10 inch rail
+Parts=KAC vertical foregrip
+Parts=AR-15 Radian Weapons Raptor charging handle
+Parts=UNV DLOC-IRD sight mount
+Parts=Trijicon REAP-IR thermal scope
+Parts=Trijicon REAP-IR scope eyecup
+Parts=AR-15 Magpul MOE pistol grip (Black)
+Parts=5.56x45 SureFire MAG5-60 STANAG 60-round magazine

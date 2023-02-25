@@ -1,0 +1,16 @@
+Name=SVDS_Gunsmith19
+Base=SVDS 7.62x54R sniper rifle
+Parts=SVDS 7.62x54R 22 inch barrel
+Parts=SVDS 7.62x54R muzzle brake-compensator
+Parts=SVDS front sight
+Parts=SVDS gas tube
+Parts=AK Magpul MOE pistol grip (Black)
+Parts=SVD SAG MK1 chassis
+Parts=Monstrum Tactical Vertical Fore Grip KeyMod
+Parts=SVDS custom cut dust cover
+Parts=SVDS Lynx Arms Hinge buffer tube adapter
+Parts=Magpul UBR GEN2 stock (Black)
+Parts=SVDS Rotor 43 thread adapter
+Parts=Rotor 43 7.62x54R muzzle brake-compensator
+Parts=Nightforce Magmount 30mm ring scope mount
+Parts=March Tactical 3-24x42 FFP 30mm riflescope

@@ -1,0 +1,2 @@
+Name=Metal spare parts
+Itemtype=Building material

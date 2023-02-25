@@ -1,0 +1,15 @@
+Name=M1A_Gunsmith20
+Base=Springfield Armory M1A 7.62x51 rifle
+Parts=M1A 7.62x51 16 inch barrel
+Parts=M1A Smith Enterprise SOCOM 16 7.62x51 threaded muzzle brake & gas block
+Parts=AR-10 2A Armanent X3 7.62x51 compensator
+Parts=M1A ProMag Archangel stock
+Parts=M14 UltiMAK M8 Forward Optic mount
+Parts=Aimpoint Micro Standard Mount
+Parts=Aimpoint Micro T-1 reflex sight
+Parts=Holosun LS321 Tactical device
+Parts=M1A 7.62x51 20-round magazine
+Parts=M14 Leapers UTG 4-Point Locking Deluxe mount
+Parts=IEA Mil-Optics KH/F 34mm one-piece magmount
+Parts=Nightforce ATACR 7-35x56 34mm riflescope
+

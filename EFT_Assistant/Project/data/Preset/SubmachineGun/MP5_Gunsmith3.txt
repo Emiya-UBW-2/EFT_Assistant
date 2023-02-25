@@ -1,0 +1,11 @@
+Name=MP5_Gunsmith3
+Base=HK MP5 9x19 submachine gun (Navy 3 Round Burst)
+Parts=HK MP5SD 9x19 upper receiver
+Parts=HK MP5SD polymer handguard
+Parts=HK MP5SD 9x19 sound suppressor
+Parts=HK MP5SD B&T tri-rail ring mount
+Parts=NcSTAR Tactical blue laser LAM-module
+Parts=HK MP5 A3 old model stock
+Parts=HK MP5 Drum rear sight
+Parts=HK MP5 9x19 X Products X-5 50-round drum magazine
+Parts=HK MP5 cocking handle

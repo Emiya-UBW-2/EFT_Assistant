@@ -1,0 +1,11 @@
+Name=ASVAL_Gunsmith15
+Base=AS VAL 9x39 special assault rifle
+Parts=AS VAL 9x39 integral barrel-suppressor
+Parts=AS VAL rear sight
+Parts=AS VAL Rotor 43 pistol grip & buffer tube
+Parts=FAB Defense GL-SHOCK buttstock
+Parts=AS VAL dust cover
+Parts=9x39 SR3M.130 30-round magazine
+Parts=NSPU-M night vision scope
+Parts=VSS/VAL Zenit B-3 ring mount
+Parts=AN/PEQ-15 tactical device

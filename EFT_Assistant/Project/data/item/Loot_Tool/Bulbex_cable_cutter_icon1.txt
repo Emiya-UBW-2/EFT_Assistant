@@ -1,0 +1,2 @@
+Name=Bulbex cable cutter
+Itemtype=Tool

@@ -88,12 +88,14 @@ namespace FPS_n2 {
 			std::vector<EnemyKill>					m_Kill;
 			std::vector<ItemGetData>				m_FiR_Item;
 			std::vector<ItemGetData>				m_NotFiR_Item;
+			std::vector<PresetID>					m_PresetID;
 			std::vector<std::string>				m_ElseMsg;
 		public:
 			const auto& GetMap() const noexcept { return m_Map; }
 			const auto& GetKill() const noexcept { return m_Kill; }
 			const auto& GetFiR_Item() const noexcept { return m_FiR_Item; }
 			const auto& GetNotFiR_Item() const noexcept { return m_NotFiR_Item; }
+			const auto& GetWeaponPreset() const noexcept { return m_PresetID; }
 			const auto& GetElseMsg() const noexcept { return m_ElseMsg; }
 		public:
 			void Set(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept {
@@ -177,6 +179,21 @@ namespace FPS_n2 {
 					}
 					else {
 						SetItem(&this->m_NotFiR_Item, RIGHT);
+					}
+				}
+				else if (LEFT == "Task_WeaponPreset_HandOver") {
+					if (Args.size() > 0) {
+						for (auto&a : Args) {
+							if (a == "or") {
+
+							}
+							else {
+								m_PresetID.emplace_back(PresetData::Instance()->FindID(a.c_str()));
+							}
+						}
+					}
+					else {
+						m_PresetID.emplace_back(PresetData::Instance()->FindID(RIGHT.c_str()));
 					}
 				}
 				else if (LEFT == "Task_Else") {//特殊　メッセージ
@@ -264,6 +281,7 @@ namespace FPS_n2 {
 		}
 		void			DrawWindow(WindowSystem::WindowControl* window, int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept {
 			auto* WindowMngr = WindowSystem::WindowManager::Instance();
+			auto* InterParts = InterruptParts::Instance();
 			int xofs = 0;
 			int yofs = LineHeight;
 			int sizy = LineHeight * 7 / 10;
@@ -322,6 +340,25 @@ namespace FPS_n2 {
 					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
 					int total_size = y_r(92);
 					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window), false) + y_r(30));
+					yofs += total_size;
+				}
+			}
+			
+			if (m_TaskWorkData.GetWeaponPreset().size() > 0) {
+				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STR_LEFT, White, Black, "カスタム品の納品:")); yofs += sizy;
+				yofs += LineHeight;
+				//
+				for (const auto& LL : m_TaskWorkData.GetWeaponPreset()) {
+					auto* ptr = PresetData::Instance()->FindPtr(LL);
+					int total_size = LineHeight;
+					int XSize = WindowSystem::GetMsgLen(total_size, ptr->GetName());
+
+					if (WindowSystem::ClickCheckBox(xp + y_r(30), yp + yofs, xp + y_r(30) + XSize, yp + yofs + total_size, false, true, Gray10, ptr->GetName())) {
+						InterParts->GotoNext(BGSelect::Custom);
+						InterParts->SetInitParam(0, (int)ptr->GetBase()->GetID());//武器ID
+						InterParts->SetInitParam(1, (int)ptr->GetID());//プリセットID
+					}
+					xofs = std::max(xofs, XSize + y_r(30));
 					yofs += total_size;
 				}
 			}

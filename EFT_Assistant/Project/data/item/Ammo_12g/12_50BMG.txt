@@ -1,0 +1,2 @@
+Name=12/70 makeshift .50 BMG slug
+Itemtype=Round

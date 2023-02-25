@@ -1,0 +1,15 @@
+Name=AKM_Gunsmith6
+Base=Kalashnikov AKM 7.62x39 assault rifle
+Parts=AKM gas tube (6P1 Sb.1-2)
+Parts=AK 100-series polymer handguard
+Parts=Fortis Shift tactical foregrip
+Parts=SilencerCo Hybrid 46 Direct Thread Mount adapter
+Parts=SilencerCo Hybrid 46 multi-caliber sound suppressor
+Parts=AK AKademia Bastion dust cover
+Parts=Primary Arms Compact Mount sight adapter
+Parts=Primary Arms Compact Prism scope 2.5x
+Parts=AKM/AK-74 Zenit PT Lock
+Parts=AK Zenit PT-1 "Klassika" stock
+Parts=AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine
+Parts=AK TAPCO SAW-Style pistol grip (Black)
+Parts=AK Zenit RP-1 charging handle

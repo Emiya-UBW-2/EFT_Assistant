@@ -1,0 +1,13 @@
+Name=AKS74N_Gunsmith8
+Base=Kalashnikov AKS-74N 5.45x39 assault rifle
+Parts=AK-74 gas tube (6P20 Sb.1-2)
+Parts=AK Zenit B-30 handguard with B-31S upper handguard rail
+Parts=Zenit Klesch-2IKS IR illuminator with laser
+Parts=Zenit RK-0 tactical foregrip
+Parts=AK Zenit DTK-1 7.62x39/5.45x39 muzzle brake-compensator
+Parts=AK Zenit RK-3 pistol grip
+Parts=AK Zenit B-33 dust cover
+Parts=AK-74 rear sight (6P20 Sb.2)
+Parts=AKS-74/AKS-74U Zenit PT Lock
+Parts=AK Zenit PT-3 "Klassika" stock
+Parts=AK-12 5.45x39 30-round magazine

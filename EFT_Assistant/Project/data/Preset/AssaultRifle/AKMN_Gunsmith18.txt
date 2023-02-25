@@ -1,0 +1,11 @@
+Name=AKMN_Gunsmith18
+Base=Kalashnikov AKMN 7.62x39 assault rifle
+Parts=AKM gas tube (6P1 Sb.1-2)
+Parts=AK Magpul MOE AKM handguard (Black)
+Parts=Magpul M-LOK AFG tactical foregrip (Black)
+Parts=Rotor 43 7.62x39 muzzle brake-compensator
+Parts=AK AKademia Bastion dust cover
+Parts=EOTech HHS-1 hybrid sight
+Parts=AKM/AK-74 Magpul Zhukov-S stock
+Parts=AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine
+Parts=AK Magpul MOE pistol grip (Black)

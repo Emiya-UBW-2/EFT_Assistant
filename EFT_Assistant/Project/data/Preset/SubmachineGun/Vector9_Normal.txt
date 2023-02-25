@@ -8,3 +8,4 @@ Parts=KRISS Vector 9x19 flash hider
 Parts=KRISS Vector bottom rail
 Parts=KRISS Vector side rail
 Parts=KRISS Vector side rail
+Parts=KRISS Vector Gen.2 folding stock

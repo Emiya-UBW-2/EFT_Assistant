@@ -37,6 +37,7 @@ ChildParts=[
 	SureFire X400 Ultra tactical flashlight with laser,
 	Zenit Klesch-2U tactical flashlight,
 	Kiba Arms 25mm accessory ring mount
+	NcSTAR Tactical blue laser LAM-module
 ]
 ChildParts=[
 	Zenit Klesch-2IKS IR illuminator with laser,
@@ -47,4 +48,5 @@ ChildParts=[
 	SureFire X400 Ultra tactical flashlight with laser,
 	Zenit Klesch-2U tactical flashlight,
 	Kiba Arms 25mm accessory ring mount
+	NcSTAR Tactical blue laser LAM-module
 ]

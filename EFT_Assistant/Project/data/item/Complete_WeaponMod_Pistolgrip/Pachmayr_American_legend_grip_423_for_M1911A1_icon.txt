@@ -1,4 +1,4 @@
-Name=M1911 Pachmayr American Legend Grip 423
+Name=M1911 Pachmayr American Legend Grip #423
 Itemtype=Pistol grip
 Recoil=0
 Ergonomics=+8

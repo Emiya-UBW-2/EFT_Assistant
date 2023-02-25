@@ -1,0 +1,30 @@
+Name=Gunsmith - Part 10
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 9
+NeedLevel=20
+//NeedLL=1
+NeedItem=[AK-74 5.45x39 6L31 60-round magazinex1]
+
+//Task_Map=Woods
+//Task_Kill=[XXXx1,Woods-XXXx1]
+//Task_FiR_HandOver=[XXXx1]
+//Task_NotFiR_HandOver=[XXXx1]
+Task_WeaponPreset_HandOver=AK105_Gunsmith10
+//Task_Else=前回のタスクから24時間後
+Task_Else=耐久性60以上
+Task_Else=エルゴノミクス38以上
+Task_Else=反動500未満
+Task_Else=800m以遠のサイトレンジ
+Task_Else=8マスに収める(折りたたまなくても渡せる?)
+//Task_Else=スコープ装着
+//Task_Else=60発以上のマガジン
+Task_Else=4.8キロ以内
+//Task_Else=任意のタクティカルコンボデバイスを装着
+//Task_Else=フォアグリップ装着
+Task_Else=AK-74 5.45x39 6L31 60-round magazine
+Task_Else=サプレッサー装着
+
+
+Reward_Rep=Mechanic+0.02
+Reward_Item=[Bundle of wiresx5,Metal spare partsx2]

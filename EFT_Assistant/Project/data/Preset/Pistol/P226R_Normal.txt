@@ -5,3 +5,4 @@ Parts=P226R MK25 pistol slide
 Parts=P226 9x19 15-round magazine
 Parts=P226 rear sight
 Parts=P226 front sight
+Parts=P226 Axelson Tactical MK25 pistol grip

@@ -533,6 +533,21 @@ namespace FPS_n2 {
 			}
 			return HaveChild;
 		}
+	public:
+		void SetSubparam(int WeaponID, int PresetID) noexcept {
+			m_SelectBuffer = WeaponID;
+			m_BaseWeapon = (m_SelectBuffer != InvalidID) ? ItemData::Instance()->FindPtr(m_SelectBuffer) : nullptr;
+			m_SelectPreset = PresetID;
+
+			m_ItemIDs.at(0).first = m_BaseWeapon->GetTypeID();
+			m_ItemIDs.at(0).second = true;
+
+			m_ItemIDs.at(1).first = m_SelectBuffer;
+			m_ItemIDs.at(1).second = true;
+
+			m_ItemIDs.at(2).first = m_SelectPreset;
+			m_ItemIDs.at(2).second = true;
+		}
 	private:
 		void Init_Sub(int *posx, int *posy, float* Scale) noexcept override {
 			*posx = y_r(100);
@@ -556,6 +571,7 @@ namespace FPS_n2 {
 			m_ItemIDs.emplace_back(std::make_pair<int, bool>((int)InvalidID, false));
 			m_ItemIDs.emplace_back(std::make_pair<int, bool>((int)InvalidID, false));
 		}
+
 		void LateExecute_Sub(int*, int*, float*) noexcept override {
 			if (m_BaseWeapon) {
 				//プリセットを適応

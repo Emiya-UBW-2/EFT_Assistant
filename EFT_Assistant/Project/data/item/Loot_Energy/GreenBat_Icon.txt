@@ -1,0 +1,2 @@
+Name=GreenBat lithium battery
+Itemtype=Energy

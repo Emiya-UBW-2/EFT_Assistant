@@ -1,0 +1,45 @@
+Name=Gunsmith - Part 14
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 13
+NeedLevel=27
+//NeedLL=1
+NeedItem=[
+	SureFire SOCOM556-RC2 5.56x45 sound suppressorx1,
+	Magpul RVG foregrip (FDE)x1,
+	EOTech EXPS3 holographic sight (Tan)x1,
+	Magpul UBR GEN2 stock (FDE)x1,
+	AR-15 Magpul MOE pistol grip (FDE)x1,
+	LA-5B/PEQ tactical devicex1,
+]
+
+//Task_Map=Woods
+//Task_Kill=[XXXx1,Woods-XXXx1]
+//Task_FiR_HandOver=[XXXx1]
+//Task_NotFiR_HandOver=[XXXx1]
+Task_WeaponPreset_HandOver=HK416A5_Gunsmith14
+Task_Else=前回のタスクから24時間後
+Task_Else=耐久性80以上
+Task_Else=エルゴノミクス60以上
+Task_Else=反動250未満
+//Task_Else=1500m以遠のサイトレンジ
+//Task_Else=8マスに収める(折りたたまなくても渡せる?)
+//Task_Else=スコープ装着
+//Task_Else=60発以上のマガジン
+Task_Else=4.0キロ以内
+//Task_Else=任意のタクティカルコンボデバイスを装着
+//Task_Else=フォアグリップ装着
+//Task_Else=サイト装着
+//Task_Else=サプレッサー装着
+Task_Else=マガジン装着
+Task_Else=SureFire SOCOM556-RC2 5.56x45 sound suppressor
+Task_Else=Magpul RVG foregrip (FDE)
+Task_Else=EOTech EXPS3 holographic sight (Tan)
+Task_Else=Magpul UBR GEN2 stock (FDE)
+Task_Else=AR-15 Magpul MOE pistol grip (FDE)
+Task_Else=LA-5B/PEQ tactical device
+
+
+
+Reward_Rep=Mechanic+0.02
+Reward_Item=[Torrey Pines Logic T12W 30Hz thermal reflex sightx1,Gunpowder "Eagle"x3]

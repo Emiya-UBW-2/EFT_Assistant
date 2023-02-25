@@ -1,0 +1,29 @@
+Name=Gunsmith - Part 7
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 6
+NeedLevel=15
+//NeedLL=1
+//NeedItem=[Fortis Shift tactical foregrip,AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine (Black)x1]
+
+//Task_Map=Woods
+//Task_Kill=[XXXx1,Woods-XXXx1]
+//Task_FiR_HandOver=[XXXx1]
+//Task_NotFiR_HandOver=[XXXx1]
+Task_WeaponPreset_HandOver=M4A1_Gunsmith7
+//Task_Else=前回のタスクから24時間後
+Task_Else=耐久性60以上
+Task_Else=エルゴノミクス47以上
+Task_Else=反動300未満
+Task_Else=800m以遠のサイトレンジ
+//Task_Else=スコープ装着
+Task_Else=60発以上のマガジン
+Task_Else=3.8キロ以内
+//Task_Else=任意のタクティカルコンボデバイスを装着
+//Task_Else=フォアグリップ装着
+//Task_Else=Fortis Shift tactical foregrip
+Task_Else=サプレッサー装着
+
+
+Reward_Rep=Mechanic+0.01
+Reward_Item=[Pliers Elitex1,Electric drillx1]

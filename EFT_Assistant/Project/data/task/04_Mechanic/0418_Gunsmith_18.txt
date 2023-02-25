@@ -1,0 +1,47 @@
+Name=Gunsmith - Part 18
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 17
+NeedLevel=33
+//NeedLL=1
+NeedItem=[
+	AK Magpul MOE AKM handguard (Black)x1,
+	AKM/AK-74 Magpul Zhukov-S stockx1,
+	AK Magpul MOE pistol grip (Black)x1,
+	AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazinex1,
+	Magpul M-LOK AFG tactical foregrip (Black)x1,
+	Rotor 43 7.62x39 muzzle brake-compensatorx1,
+	EOTech HHS-1 hybrid sightx1
+]
+
+//Task_Map=Woods
+//Task_Kill=[XXXx1,Woods-XXXx1]
+//Task_FiR_HandOver=[XXXx1]
+//Task_NotFiR_HandOver=[XXXx1]
+Task_WeaponPreset_HandOver=AKMN_Gunsmith18
+//Task_Else=前回のタスクから24時間後
+Task_Else=耐久性60以上
+Task_Else=エルゴノミクス50以上
+Task_Else=反動300未満
+Task_Else=500m以遠のサイトレンジ
+//Task_Else=8マスに収める
+//Task_Else=スコープ装着
+//Task_Else=60発以上のマガジン
+//Task_Else=6.7キロ以内
+//Task_Else=任意のタクティカルコンボデバイスを装着
+//Task_Else=フォアグリップ装着
+//Task_Else=サイト装着
+//Task_Else=サプレッサー装着
+//Task_Else=マガジン装着
+Task_Else=AK Magpul MOE AKM handguard (Black)
+Task_Else=AKM/AK-74 Magpul Zhukov-S stock
+Task_Else=AK Magpul MOE pistol grip (Black)
+Task_Else=AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine (Black)
+Task_Else=Magpul M-LOK AFG tactical foregrip (Black)
+Task_Else=Rotor 43 7.62x39 muzzle brake-compensator
+Task_Else=EOTech HHS-1 hybrid sight (Black)
+
+
+
+Reward_Rep=Mechanic+0.03
+Reward_Item=[EOTech Vudu 1-6x24 30mm riflescopex1,AK-74 Hexagon Wafflemaker 5.45x39 sound suppressorx1,AK Hexagon Reactor 5.45x39 muzzle brakex1]

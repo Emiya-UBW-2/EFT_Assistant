@@ -1,0 +1,10 @@
+Name=MP133_Gunsmith1
+Base=MP-133 12ga pump-action shotgun
+Parts=MP-133 12ga 510mm barrel
+Parts=ME Cylinder 12ga muzzle adapter
+Parts=GK-02 12ga muzzle brake
+Parts=MP-133 12ga 6-shell magazine
+Parts=MP-133 custom plastic forestock with rails
+Parts=NcSTAR Tactical blue laser LAM-module
+Parts=Zenit RK-6 tactical foregrip
+Parts=MP-133/153 plastic pistol grip

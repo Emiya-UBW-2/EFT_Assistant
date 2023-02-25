@@ -2,13 +2,6 @@
 #include"../../../Header.hpp"
 
 namespace FPS_n2 {
-	enum class BGSelect {
-		Task,
-		HideOut,
-		Item,
-		Map,
-		Custom,
-	};
 	class TitleBG :public BGParent {
 	private:
 		BGSelect m_Select{ (BGSelect)0 };

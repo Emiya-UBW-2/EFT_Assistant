@@ -1,0 +1,27 @@
+Name=Gunsmith - Part 5
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 4
+NeedLevel=10
+//NeedLL=1
+//NeedItem=[M870 Magpul MOE handguardx1]
+
+//Task_Map=Woods
+//Task_Kill=[XXXx1,Woods-XXXx1]
+//Task_FiR_HandOver=[XXXx1]
+//Task_NotFiR_HandOver=[XXXx1]
+Task_WeaponPreset_HandOver=M870_Gunsmith5
+Task_Else=耐久性60以上
+Task_Else=エルゴノミクス60以上
+Task_Else=反動500未満
+//Task_Else=スコープ装着
+//Task_Else=20発以上のマガジン
+//Task_Else=4.0キロ以内
+Task_Else=任意のタクティカルコンボデバイスを装着
+Task_Else=フォアグリップ装着
+Task_Else=M870 Magpul MOE handguard
+//Task_Else=サプレッサー装着
+
+
+Reward_Rep=Mechanic+0.01
+Reward_Item=[Weapon partsx3]

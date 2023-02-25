@@ -22,6 +22,7 @@ using namespace DXLib_ref;
 #include "Parts/InputParts.hpp"
 #include "Parts/WindowParts.hpp"
 #include "Parts/PlayerDataParts.hpp"
+#include "Parts/InterruptParts.hpp"
 //Datas
 #include "Scene/MainScene/Data/MainScene_Parents.hpp"
 #include "Scene/MainScene/Data/MainScene_Map.hpp"

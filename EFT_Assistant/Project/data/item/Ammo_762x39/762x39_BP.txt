@@ -1,0 +1,2 @@
+Name=7.62x39mm BP gzh
+Itemtype=Round

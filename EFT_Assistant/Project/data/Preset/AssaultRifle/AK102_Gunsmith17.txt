@@ -1,0 +1,17 @@
+Name=AK102_Gunsmith17
+Base=Kalashnikov AK-102 5.56x45 assault rifle
+Parts=AK-74 gas tube (6P20 Sb.1-2)
+Parts=AK Zenit B-10M handguard with B-19 upper mount
+Parts=Zenit Klesch-2U tactical flashlight
+Parts=Magpul AFG tactical foregrip (Olive Drab)
+Parts=AK CNC Warrior 5.56x45 muzzle device adapter
+Parts=Ferfrans CRD 5.56x45 Concussion Reduction Device
+Parts=AR-15 Ferfrans CQB 5.56x45 muzzle brake
+Parts=AK Zenit B-33 dust cover
+Parts=AK-74M rear sight (6P20 Sb.2)
+Parts=RPK-16 buffer tube
+Parts=KRISS Defiance DS150 stock (Black)
+Parts=SLR-106/AK 5.56x45 Circle 10 30-round magazine
+Parts=AK TAPCO SAW-Style pistol grip (Black)
+Parts=AK CSS knurled charging handle
+Parts=ELCAN SpecterDR 1x/4x scope

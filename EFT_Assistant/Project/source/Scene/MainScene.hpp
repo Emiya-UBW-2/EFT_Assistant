@@ -32,6 +32,7 @@ namespace FPS_n2 {
 			InputControl::Create();
 			DataErrorLog::Create();
 			DrawControl::Create();
+			InterruptParts::Create();
 			WindowSystem::WindowManager::Create();
 			//
 			ItemData::Create();
@@ -67,6 +68,7 @@ namespace FPS_n2 {
 			auto* WindowMngr = WindowSystem::WindowManager::Instance();
 			auto* DrawParts = DXDraw::Instance();
 			auto* Input = InputControl::Instance();
+			auto* InterParts = InterruptParts::Instance();
 
 			DrawControl::Instance()->ClearList();
 
@@ -138,6 +140,7 @@ namespace FPS_n2 {
 			//
 			WindowMngr->Execute();
 			m_BGPtr->LateExecute(&this->m_posx, &this->m_posy, &this->m_Scale);
+			//
 			if (m_BGPtr->IsGoNextBG()) {
 				WindowMngr->DeleteAll();
 				m_BGPtr->Dispose();
@@ -168,7 +171,50 @@ namespace FPS_n2 {
 				}
 				m_BGPtr->Init(&this->m_posx, &this->m_posy, &this->m_Scale);
 			}
-
+			//
+			if (InterParts->IsActive()) {
+				WindowMngr->DeleteAll();
+				m_BGPtr->Dispose();
+				switch ((BGSelect)InterParts->GetNextScene()) {
+				case BGSelect::Task:
+					m_BGPtr = m_TaskBG;
+					break;
+				case BGSelect::HideOut:
+					m_BGPtr = m_HideOutBG;
+					break;
+				case BGSelect::Item:
+					m_BGPtr = m_ItemBG;
+					break;
+				case BGSelect::Map:
+					m_BGPtr = m_MapBG;
+					break;
+				case BGSelect::Custom:
+					m_BGPtr = m_CustomBG;
+					break;
+				default:
+					break;
+				}
+				m_BGPtr->Init(&this->m_posx, &this->m_posy, &this->m_Scale);
+				switch ((BGSelect)InterParts->GetNextScene()) {
+				case BGSelect::Task:
+					break;
+				case BGSelect::HideOut:
+					break;
+				case BGSelect::Item:
+					break;
+				case BGSelect::Map:
+					break;
+				case BGSelect::Custom:
+					m_CustomBG->SetSubparam(
+						InterParts->GetInitParam(0),//アイテム名
+						InterParts->GetInitParam(1)//プリセット名
+					);
+					break;
+				default:
+					break;
+				}
+				InterParts->Complete();
+			}
 			if (!GetWindowActiveFlag()) {
 				if (m_NoneActiveTimes > 0.f) {
 					m_NoneActiveTimes -= 1.f / FPS;
