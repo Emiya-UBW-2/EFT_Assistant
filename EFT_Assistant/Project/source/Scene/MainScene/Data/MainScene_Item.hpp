@@ -111,34 +111,47 @@ namespace FPS_n2 {
 		const int		Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive, bool IsFir) const noexcept;
 		void			DrawWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept {
 			auto* WindowMngr = WindowSystem::WindowManager::Instance();
+			auto* InterParts = InterruptParts::Instance();
 			int xofs = 0;
 			int yofs = LineHeight;
 			int yofs2 = yofs;
 			{
 				yofs += LineHeight;
-				if (m_isWeaponMod) {
-					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STR_LEFT, (m_Recoil < 0.f) ? Green : Red, Black,
-						"Recoil:%s%3.1f %%", (m_Recoil > 0.f) ? "+" : "", m_Recoil) + y_r(30)); yofs += LineHeight;
-					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STR_LEFT, (m_Ergonomics >= 0.f) ? Green : Red, Black,
-						"Ergonomics:%s%3.1f", (m_Ergonomics > 0.f) ? "+" : "", m_Ergonomics) + y_r(30)); yofs += LineHeight;
+
+				auto* typePtr = ItemTypeData::Instance()->FindPtr(GetTypeID());
+				auto* catPtr = ItemCategoryData::Instance()->FindPtr(typePtr->GetCategoryID());
+				if (catPtr ->GetName()=="Weapons") {
+					if (WindowSystem::ClickCheckBox(xp, yp + yofs, xp + WindowSystem::GetMsgLen(LineHeight, "GotoPreset"), yp + LineHeight + yofs, false, true, Gray10, "GotoPreset")) {
+						InterParts->GotoNext(BGSelect::Custom);
+						InterParts->SetInitParam(0, GetID());//武器ID
+						InterParts->SetInitParam(1, InvalidID);//プリセットID
+					}
 				}
-				if (m_ChildPartsID.size() > 0 || m_ParentPartsID.size() > 0) {
-					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STR_LEFT, White, Black, "Mods:") + y_r(30)); yofs += LineHeight;
-				}
-				int ysize = (int)((float)y_r(80));
-				for (const auto& cp : m_ChildPartsID) {
-					for (const auto& c : cp.Data) {
-						auto* ptr = c.first;
+				else {
+					if (m_isWeaponMod) {
+						xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STR_LEFT, (m_Recoil < 0.f) ? Green : Red, Black,
+							"Recoil:%s%3.1f %%", (m_Recoil > 0.f) ? "+" : "", m_Recoil) + y_r(30)); yofs += LineHeight;
+						xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STR_LEFT, (m_Ergonomics >= 0.f) ? Green : Red, Black,
+							"Ergonomics:%s%3.1f", (m_Ergonomics > 0.f) ? "+" : "", m_Ergonomics) + y_r(30)); yofs += LineHeight;
+					}
+					if (m_ChildPartsID.size() > 0 || m_ParentPartsID.size() > 0) {
+						xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STR_LEFT, White, Black, "Mods:") + y_r(30)); yofs += LineHeight;
+					}
+					int ysize = (int)((float)y_r(80));
+					for (const auto& cp : m_ChildPartsID) {
+						for (const auto& c : cp.Data) {
+							auto* ptr = c.first;
+							xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, y_r(800), ysize, 0, defaultcolor, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0)), false) + y_r(30)); yofs += ysize;
+						}
+					}
+					for (const auto& c : m_ParentPartsID) {
+						auto* ptr = c;
 						xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, y_r(800), ysize, 0, defaultcolor, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0)), false) + y_r(30)); yofs += ysize;
 					}
 				}
-				for (const auto& c : m_ParentPartsID) {
-					auto* ptr = c;
-					xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, y_r(800), ysize, 0, defaultcolor, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0)), false) + y_r(30)); yofs += ysize;
-				}
 			}
 			if (GetIcon().GetGraph()) {
-				DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 96);
+				DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 64);
 				int ysize = GetIcon().GetYSize();
 
 				float Scale = 1.f;
