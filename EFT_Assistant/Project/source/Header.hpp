@@ -15,6 +15,7 @@
 using namespace DXLib_ref;
 
 #include "Enums.hpp"
+#include "HttpReq.hpp"
 //Load
 #include "Scene/MainSceneLoader.hpp"
 //Parts

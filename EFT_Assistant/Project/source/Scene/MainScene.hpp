@@ -2,6 +2,9 @@
 #include"../Header.hpp"
 
 namespace FPS_n2 {
+
+
+
 	class MAINLOOP : public TEMPSCENE {
 	private:
 		int															m_posx{ 0 };
@@ -25,6 +28,8 @@ namespace FPS_n2 {
 		float														m_NoneActiveTimes{ 0.f };
 	public:
 		void Load_Sub(void) noexcept override {}
+
+		std::string strResult;
 
 		void Set_Sub(void) noexcept override {
 			//
@@ -62,6 +67,16 @@ namespace FPS_n2 {
 			m_BGPtr = m_TitleBG;
 			//
 			m_BGPtr->Init(&this->m_posx, &this->m_posy, &this->m_Scale);
+
+			//
+			if (!HttpRequest(
+				"EFT_Assistant",
+				"https://api.tarkov.dev/graphql",
+				"{\"query\": \"{ items(name: \\\"m855a1\\\") { avg24hPrice basePrice } }\"}",
+				strResult)) {
+			}
+			setlocale(LC_ALL, "Japanese");
+			//strResult = utf8_to_multi_cppapi(strResult);
 		}
 
 		bool Update_Sub(void) noexcept override {
@@ -291,6 +306,8 @@ namespace FPS_n2 {
 		//UI•\Ž¦
 		void DrawUI_In_Sub(void) noexcept  override {
 			DrawControl::Instance()->Draw();
+
+			printfDx(strResult.c_str());
 		}
 	};
 };
