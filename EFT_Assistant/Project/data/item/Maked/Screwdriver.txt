@@ -1,0 +1,17 @@
+Name=Screwdriver
+ShortName=Scdr.
+Itemtype=Tool
+Information_Eng=A manual bench work tool designed for screwing and unscrewing threaded fasteners, most commonly screws that have spline on their heads. Usually it’s a metal rod with a tip and grip (plastic or wood).
+basePrice=3500
+width=1
+height=1
+avg24hPrice=10846
+low24hPrice=7777
+lastOfferCount=27
+Sell_Prapor=1750
+Sell_Therapist=2205
+Sell_Fence=1400
+Sell_Mechanic=1960
+Sell_Flea Market=10998
+weight=0.150000
+fleaMarketFee=1328

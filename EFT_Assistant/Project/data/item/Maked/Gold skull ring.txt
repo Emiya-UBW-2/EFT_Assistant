@@ -1,0 +1,17 @@
+Name=Gold skull ring
+ShortName=Skull
+Itemtype=Jewelry
+Information_Eng=A ring in the shape of a skull, a real attribute of a goon who has reached success.
+basePrice=55000
+width=1
+height=1
+avg24hPrice=58956
+low24hPrice=40500
+lastOfferCount=39
+Sell_Therapist=34650
+Sell_Fence=22000
+Sell_Skier=26950
+Sell_Peacekeeper=217
+Sell_Flea Market=55555
+weight=0.006000
+fleaMarketFee=5260

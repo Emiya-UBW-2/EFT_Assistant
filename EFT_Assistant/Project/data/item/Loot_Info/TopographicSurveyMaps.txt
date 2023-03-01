@@ -1,2 +1,15 @@
 Name=Topographic survey maps
+ShortName=Maps
 Itemtype=Info
+Information_Eng=A set of various maps of the area with applied schemes, which are of high value as reconnaissance materials.
+basePrice=72000
+width=2
+height=1
+avg24hPrice=42704
+low24hPrice=29888
+lastOfferCount=29
+Sell_Fence=28800
+Sell_Peacekeeper=284
+Sell_Flea Market=40000
+weight=0.270000
+fleaMarketFee=5146

@@ -1,2 +1,2 @@
 Name=EYE MK.2 professional hand-held compass
-Itemtype=Special
+Itemtype=Special item

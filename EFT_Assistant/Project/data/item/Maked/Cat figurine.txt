@@ -1,0 +1,17 @@
+Name=Cat figurine
+ShortName=Cat
+Itemtype=Jewelry
+Information_Eng=An antique statuette of a cat, made of a rare sort of wood called Makassar Ebony.
+basePrice=62308
+width=1
+height=3
+avg24hPrice=39999
+low24hPrice=38666
+lastOfferCount=37
+Sell_Therapist=39254
+Sell_Fence=24923
+Sell_Skier=30530
+Sell_Peacekeeper=246
+Sell_Flea Market=39666
+weight=3.100000
+fleaMarketFee=4582

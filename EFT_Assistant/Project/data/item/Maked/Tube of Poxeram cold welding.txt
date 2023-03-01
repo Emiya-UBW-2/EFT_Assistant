@@ -1,0 +1,17 @@
+Name=Tube of Poxeram cold welding
+ShortName=Poxeram
+Itemtype=Building material
+Information_Eng=An adhesive composition that has a high degree of plasticity. It consists of epoxy resin and is a two-component substance with metal dust.
+basePrice=19400
+width=1
+height=1
+avg24hPrice=12323
+low24hPrice=12000
+lastOfferCount=43
+Sell_Prapor=9700
+Sell_Therapist=12222
+Sell_Fence=7760
+Sell_Jaeger=11640
+Sell_Flea Market=12500
+weight=0.020000
+fleaMarketFee=1432

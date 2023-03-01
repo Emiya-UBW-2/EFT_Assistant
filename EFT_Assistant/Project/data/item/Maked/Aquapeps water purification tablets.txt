@@ -1,0 +1,16 @@
+Name=Aquapeps water purification tablets
+ShortName=Aquapeps
+Itemtype=Medical supplies
+Information_Eng=These tablets are used to prepare drinking water potentially contaminated with pathogens.
+basePrice=30090
+width=1
+height=1
+avg24hPrice=18960
+low24hPrice=17000
+lastOfferCount=35
+Sell_Therapist=18956
+Sell_Fence=12036
+Sell_Jaeger=18054
+Sell_Flea Market=18888
+weight=1.100000
+fleaMarketFee=2204

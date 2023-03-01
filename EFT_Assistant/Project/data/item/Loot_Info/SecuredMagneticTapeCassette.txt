@@ -1,2 +1,15 @@
 Name=Secured magnetic tape cassette
+ShortName=SMT
 Itemtype=Info
+Information_Eng=The SMT special secured magnetic tape. Most likely contains important and valuable information. Magnetic media are still valued in information technology, including due to the high analog data reliability factor.
+basePrice=145000
+width=1
+height=1
+avg24hPrice=69754
+low24hPrice=61999
+lastOfferCount=67
+Sell_Fence=58000
+Sell_Peacekeeper=572
+Sell_Flea Market=68000
+weight=0.250000
+fleaMarketFee=10288

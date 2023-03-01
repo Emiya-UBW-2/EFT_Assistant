@@ -1,0 +1,15 @@
+Name=Soap
+ShortName=Soap
+Itemtype=Household goods
+Information_Eng=A piece of usual soap. Do not eat!
+basePrice=3890
+width=1
+height=1
+avg24hPrice=9756
+low24hPrice=8000
+lastOfferCount=19
+Sell_Therapist=2450
+Sell_Fence=1556
+Sell_Flea Market=9600
+weight=0.080000
+fleaMarketFee=1033

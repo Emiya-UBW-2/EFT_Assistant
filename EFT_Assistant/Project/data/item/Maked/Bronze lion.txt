@@ -1,0 +1,17 @@
+Name=Bronze lion
+ShortName=Lion
+Itemtype=Jewelry
+Information_Eng=A collectible bronze lion figure. The thing is heavy, seemingly beautiful. Useful either for sale or aesthetic pleasure.
+basePrice=162935
+width=3
+height=2
+avg24hPrice=121772
+low24hPrice=99999
+lastOfferCount=56
+Sell_Therapist=102649
+Sell_Fence=65174
+Sell_Skier=79838
+Sell_Peacekeeper=643
+Sell_Flea Market=113988
+weight=7.200000
+fleaMarketFee=12379

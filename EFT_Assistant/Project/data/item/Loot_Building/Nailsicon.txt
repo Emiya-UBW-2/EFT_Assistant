@@ -1,2 +1,17 @@
 Name=Pack of nails
+ShortName=Nails
 Itemtype=Building material
+Information_Eng=A package of construction nails. In conditions of continuing crisis they are used for construction of temporary shelters, bunkhouses, and other assembly.
+basePrice=4105
+width=1
+height=1
+avg24hPrice=15038
+low24hPrice=4950
+lastOfferCount=56
+Sell_Prapor=2052
+Sell_Therapist=2586
+Sell_Fence=1642
+Sell_Jaeger=2463
+Sell_Flea Market=8000
+weight=0.600000
+fleaMarketFee=787

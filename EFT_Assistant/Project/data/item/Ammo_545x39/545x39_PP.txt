@@ -1,2 +1,2 @@
 Name=5.45x39mm PP gs
-Itemtype=Round
+Itemtype=Ammo

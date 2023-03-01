@@ -1,2 +1,2 @@
 Name=7.62x39mm MAI AP
-Itemtype=Round
+Itemtype=Ammo

@@ -1,2 +1,16 @@
 Name=MS2000 Marker
-Itemtype=Special
+ShortName=MS2000
+Itemtype=Special item
+Information_Eng=A strobe marker light that is used during nighttime operations. It emits signals in the IR region which are visible through NVGs. Uses a special filter when operating in the IR mode. If the filter is removed, it appears as a bright flash in the visible spectrum. In the extended mode operates with a blue flash.
+basePrice=13923
+width=1
+height=1
+avg24hPrice=30219
+low24hPrice=22000
+lastOfferCount=2
+Sell_Fence=5569
+Sell_Peacekeeper=55
+Sell_Mechanic=7796
+Sell_Flea Market=33333
+weight=0.150000
+fleaMarketFee=3541

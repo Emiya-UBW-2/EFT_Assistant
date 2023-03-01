@@ -1,0 +1,16 @@
+Name=Christmas tree ornament (Silver)
+ShortName=Ornament
+Itemtype=Jewelry
+Information_Eng=A silver ornament ball for decorating the Christmas tree.
+basePrice=10000
+width=1
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Therapist=6300
+Sell_Fence=4000
+Sell_Skier=4900
+Sell_Peacekeeper=39
+weight=0.050000
+fleaMarketFee=0

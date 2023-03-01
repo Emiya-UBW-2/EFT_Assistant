@@ -1,2 +1,2 @@
 Name=Key tool
-Itemtype=Container
+Itemtype=Common container

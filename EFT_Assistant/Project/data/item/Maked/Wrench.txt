@@ -1,0 +1,17 @@
+Name=Wrench
+ShortName=Wrench
+Itemtype=Tool
+Information_Eng=A twin-head wrench. Despite the simplicity of design, the wrench is used in almost all areas of technology to build mechanisms of various levels of difficulty.
+basePrice=3544
+width=1
+height=1
+avg24hPrice=10843
+low24hPrice=6000
+lastOfferCount=31
+Sell_Prapor=1772
+Sell_Therapist=2232
+Sell_Fence=1417
+Sell_Mechanic=1984
+Sell_Flea Market=9999
+weight=0.500000
+fleaMarketFee=1144

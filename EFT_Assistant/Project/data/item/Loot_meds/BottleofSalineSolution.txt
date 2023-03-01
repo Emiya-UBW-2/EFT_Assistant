@@ -1,2 +1,16 @@
 Name=Bottle of saline solution
-Itemtype=Medical supply
+ShortName=NaCl
+Itemtype=Medical supplies
+Information_Eng=Physiological saline solution, whose osmotic pressure is equal to the osmotic pressure of the blood. There are several types of physiological solutions, the composition of which depends on the purposes for which they are applied.
+basePrice=8508
+width=1
+height=1
+avg24hPrice=17018
+low24hPrice=10500
+lastOfferCount=55
+Sell_Therapist=5360
+Sell_Fence=3403
+Sell_Jaeger=5104
+Sell_Flea Market=13000
+weight=0.500000
+fleaMarketFee=1205

@@ -1,2 +1,2 @@
 Name=9x19mm Luger CCI
-Itemtype=Round
+Itemtype=Ammo

@@ -1,2 +1,16 @@
 Name=Leatherman Multitool
-Itemtype=Special
+ShortName=MultiTool
+Itemtype=Special item
+Information_Eng=With this compact and versatile multitool there is no need to be worried about having no tools on you at the right time.
+basePrice=21032
+width=1
+height=1
+avg24hPrice=22282
+low24hPrice=17902
+lastOfferCount=26
+Sell_Fence=8412
+Sell_Peacekeeper=83
+Sell_Mechanic=11777
+Sell_Flea Market=17902
+weight=0.142000
+fleaMarketFee=1771

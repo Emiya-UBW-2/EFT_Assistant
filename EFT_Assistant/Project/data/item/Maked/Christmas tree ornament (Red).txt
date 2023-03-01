@@ -1,0 +1,16 @@
+Name=Christmas tree ornament (Red)
+ShortName=Ornament
+Itemtype=Jewelry
+Information_Eng=A red ornament ball for decorating the Christmas tree.
+basePrice=7000
+width=1
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Therapist=4410
+Sell_Fence=2800
+Sell_Skier=3430
+Sell_Peacekeeper=28
+weight=0.050000
+fleaMarketFee=0

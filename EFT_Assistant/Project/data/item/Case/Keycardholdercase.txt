@@ -1,2 +1,2 @@
 Name=Keycard holder case
-Itemtype=Container
+Itemtype=Common container

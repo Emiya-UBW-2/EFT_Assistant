@@ -1,0 +1,17 @@
+Name=Malboro Cigarettes
+ShortName=Malboro
+Itemtype=Other
+Information_Eng=Malboro Cigarettes are a big hit with the wealthier part of the local smoking populace.
+basePrice=2210
+width=1
+height=1
+avg24hPrice=17327
+low24hPrice=9900
+lastOfferCount=24
+Sell_Prapor=1105
+Sell_Therapist=1392
+Sell_Fence=884
+Sell_Skier=1082
+Sell_Flea Market=19998
+weight=0.020000
+fleaMarketFee=4519

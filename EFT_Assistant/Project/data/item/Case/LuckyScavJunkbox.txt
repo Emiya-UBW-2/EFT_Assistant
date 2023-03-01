@@ -1,2 +1,2 @@
 Name=Lucky Scav Junk box
-Itemtype=Container
+Itemtype=Common container

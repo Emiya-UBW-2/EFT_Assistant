@@ -1,2 +1,2 @@
 Name=9x18mm PM BZhT gzh
-Itemtype=Round
+Itemtype=Ammo

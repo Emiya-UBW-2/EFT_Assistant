@@ -1,0 +1,17 @@
+Name=Military corrugated tube
+ShortName=MTube
+Itemtype=Building material
+Information_Eng=A military-issued corrugated tube for ventilation systems of military equipment or air purification systems.
+basePrice=25000
+width=1
+height=1
+avg24hPrice=25327
+low24hPrice=17111
+lastOfferCount=30
+Sell_Prapor=12500
+Sell_Therapist=15750
+Sell_Fence=10000
+Sell_Jaeger=15000
+Sell_Flea Market=26666
+weight=0.400000
+fleaMarketFee=2489

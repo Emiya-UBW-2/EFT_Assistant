@@ -1,2 +1,16 @@
 Name=TP-200 TNT brick
-Itemtype=Flammable
+ShortName=TP-200
+Itemtype=Lubricant
+Information_Eng=TP-200 is intended for use as charges in the production of seismic surveys, intermediate detonators when initiating borehole explosive charges, crushing oversized items and performing special blasting operations.
+basePrice=35000
+width=1
+height=1
+avg24hPrice=24179
+low24hPrice=21555
+lastOfferCount=60
+Sell_Therapist=22050
+Sell_Fence=14000
+Sell_Jaeger=21000
+Sell_Flea Market=23000
+weight=0.200000
+fleaMarketFee=2599

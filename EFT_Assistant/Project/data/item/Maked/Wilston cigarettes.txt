@@ -1,0 +1,17 @@
+Name=Wilston cigarettes
+ShortName=Wilston
+Itemtype=Other
+Information_Eng=The image of a typical street punk would not be complete without Wilston cigarettes.
+basePrice=7984
+width=1
+height=1
+avg24hPrice=7015
+low24hPrice=4800
+lastOfferCount=27
+Sell_Prapor=3992
+Sell_Therapist=5029
+Sell_Fence=3193
+Sell_Skier=3912
+Sell_Flea Market=4800
+weight=0.020000
+fleaMarketFee=579

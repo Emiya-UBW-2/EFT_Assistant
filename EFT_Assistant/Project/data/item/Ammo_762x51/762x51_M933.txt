@@ -1,2 +1,2 @@
 Name=7.62x51mm M993
-Itemtype=Round
+Itemtype=Ammo

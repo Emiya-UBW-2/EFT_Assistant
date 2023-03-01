@@ -1,0 +1,17 @@
+Name=Golden rooster
+ShortName=Rooster
+Itemtype=Jewelry
+Information_Eng=A golden rooster on an acrylic platform with an engraved "ChickenPrism" logo.
+basePrice=90566
+width=2
+height=2
+avg24hPrice=57781
+low24hPrice=55000
+lastOfferCount=55
+Sell_Therapist=57056
+Sell_Fence=36226
+Sell_Skier=44377
+Sell_Peacekeeper=357
+Sell_Flea Market=57000
+weight=3.800000
+fleaMarketFee=6639

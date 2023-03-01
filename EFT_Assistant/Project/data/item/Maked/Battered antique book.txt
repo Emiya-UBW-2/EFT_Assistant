@@ -1,0 +1,17 @@
+Name=Battered antique book
+ShortName=Book
+Itemtype=Other
+Information_Eng=An old, battered antique book. Will definitely be of interest to collectors of old and rare things. Wait, is that a sock used as a bookmark?
+basePrice=63029
+width=1
+height=2
+avg24hPrice=39999
+low24hPrice=36666
+lastOfferCount=36
+Sell_Prapor=31514
+Sell_Therapist=39708
+Sell_Fence=25211
+Sell_Skier=30884
+Sell_Flea Market=39700
+weight=0.400000
+fleaMarketFee=4621

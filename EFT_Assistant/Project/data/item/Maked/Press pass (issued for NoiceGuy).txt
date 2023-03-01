@@ -1,0 +1,17 @@
+Name=Press pass (issued for NoiceGuy)
+ShortName=Pass
+Itemtype=Other
+Information_Eng=A press pass issued to the famous journalist and reporter of Tarkov - NoiceGuy.
+basePrice=50000
+width=1
+height=2
+avg24hPrice=31550
+low24hPrice=30000
+lastOfferCount=19
+Sell_Prapor=25000
+Sell_Therapist=31500
+Sell_Fence=20000
+Sell_Skier=24500
+Sell_Flea Market=31800
+weight=0.120000
+fleaMarketFee=3676

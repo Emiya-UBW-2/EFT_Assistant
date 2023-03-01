@@ -1,0 +1,33 @@
+{"query" : "{
+ items(type:barter){
+   name
+   shortName
+   description
+   basePrice
+   width
+   height
+   types
+   avg24hPrice
+   low24hPrice
+   lastOfferCount
+
+   sellFor{
+    vendor{name}
+    price
+   }
+   buyFor{
+    vendor{name}
+    price
+   }
+   category{name}
+   weight
+   usedInTasks{name}
+   receivedFromTasks{name}
+   bartersFor{trader{name}}
+   bartersUsing{trader{name}}
+   craftsFor{station{name}}
+   craftsUsing{station{name}}
+
+   fleaMarketFee
+ }
+}"}

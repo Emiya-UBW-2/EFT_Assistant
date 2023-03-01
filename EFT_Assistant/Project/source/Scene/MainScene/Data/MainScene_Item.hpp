@@ -21,6 +21,18 @@ namespace FPS_n2 {
 		float													m_Recoil{ 0.f };
 		float													m_Ergonomics{ 0.f };
 		bool													m_isWeaponMod{ false };
+
+
+		int											m_basePrice{ 0 };
+		int											m_width{ 0 };
+		int											m_height{ 0 };
+		std::vector<std::string>					m_types;
+		int											m_avg24hPrice{ 0 };
+		int											m_low24hPrice{ 0 };
+		int											m_lastOfferCount{ 0 };
+		std::vector<std::pair<TraderID, int>>		m_sellFor;
+		float										m_weight{ 0.f };
+		int											m_fleaMarketFee{ 0 };
 	private:
 		//追加設定
 		void	Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept override {
@@ -90,6 +102,25 @@ namespace FPS_n2 {
 				}
 				m_isWeaponMod = true;
 			}
+
+
+			if (LEFT == "basePrice") { m_basePrice = std::stoi(RIGHT); }
+			if (LEFT == "width") { m_width = std::stoi(RIGHT); }
+			if (LEFT == "height") { m_height = std::stoi(RIGHT); }
+			if (LEFT == "avg24hPrice") { m_avg24hPrice = std::stoi(RIGHT); }
+			if (LEFT == "low24hPrice") { m_low24hPrice = std::stoi(RIGHT); }
+			if (LEFT == "lastOfferCount") { m_lastOfferCount = std::stoi(RIGHT); }
+			for (auto& sf : TraderData::Instance()->GetList()) {
+				if (LEFT == "Sell_" + sf.GetName()) {
+					m_sellFor.emplace_back(std::make_pair(sf.GetID(), std::stoi(RIGHT)));
+				}
+			}
+			if (LEFT == "Sell_Flea Market") {
+				m_sellFor.emplace_back(std::make_pair(InvalidID, std::stoi(RIGHT)));
+			}
+
+			if (LEFT == "weight") { m_weight = std::stof(RIGHT); }
+			if (LEFT == "fleaMarketFee") { m_fleaMarketFee = std::stoi(RIGHT); }
 		}
 		void	Load_Sub() noexcept override {
 			if (m_TypeID == InvalidID) {
@@ -107,6 +138,19 @@ namespace FPS_n2 {
 
 		const auto&	GetRecoil() const noexcept { return m_Recoil; }
 		const auto&	GetErgonomics() const noexcept { return m_Ergonomics; }
+
+
+
+		const auto&	GetbasePrice() const noexcept { return m_basePrice; }
+		const auto&	Getwidth() const noexcept { return m_width; }
+		const auto&	Getheight() const noexcept { return m_height; }
+		const auto&	Gettypes() const noexcept { return m_types; }
+		const auto&	Getavg24hPrice() const noexcept { return m_avg24hPrice; }
+		const auto&	Getlow24hPrice() const noexcept { return m_low24hPrice; }
+		const auto&	GetlastOfferCount() const noexcept { return m_lastOfferCount; }
+		const auto&	GetsellFor() const noexcept { return m_sellFor; }
+		const auto&	Getweight() const noexcept { return m_weight; }
+		const auto&	GetfleaMarketFee() const noexcept { return m_fleaMarketFee; }
 	public:
 		const int		Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive, bool IsFir) const noexcept;
 		void			DrawWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept {
@@ -253,6 +297,105 @@ namespace FPS_n2 {
 			}
 		}
 	};
+
+	class ItemJsonData {
+	public:
+		bool										m_IsFileOpened{ false };
+	public:
+		std::string									name;
+		std::string									shortName;
+		std::string									description;
+		int											basePrice{ 0 };
+		int											width{ 0 };
+		int											height{ 0 };
+		std::vector<std::string>					types;
+		int											avg24hPrice{ 0 };
+		int											low24hPrice{ 0 };
+		int											lastOfferCount{ 0 };
+		std::vector<std::pair<std::string, int>>	sellFor;
+		std::vector<std::pair<std::string, int>>	buyFor;
+		std::string									categorytypes;
+		float										weight{ 0.f };
+		std::vector<std::string>					usedInTasks;
+		std::vector<std::string>					receivedFromTasks;
+		std::vector<std::string>					bartersFor;
+		std::vector<std::string>					bartersUsing;
+		std::vector<std::string>					craftsFor;
+		std::vector<std::string>					craftsUsing;
+		int											fleaMarketFee{ 0 };
+	public:
+		void GetJsonData(const nlohmann::json& data) {
+			name = data["name"];
+			shortName = data["shortName"];
+			if (data.contains("description")) {
+				description = data["description"];
+			}
+			if (data.contains("basePrice")) {
+				basePrice = data["basePrice"];
+			}
+			if (data.contains("width")) {
+				width = data["width"];
+			}
+			if (data.contains("height")) {
+				height = data["height"];
+			}
+			if (data.contains("types")) {
+				for (const auto& ts : data["types"]) {
+					types.emplace_back((std::string)ts);
+				}
+			}
+			if (data.contains("avg24hPrice")) {
+				avg24hPrice = data["avg24hPrice"];
+			}
+
+			if (data.contains("low24hPrice")) {
+				if (!data["low24hPrice"].is_null()) {
+					low24hPrice = data["low24hPrice"];
+				}
+			}
+			if (data.contains("lastOfferCount")) {
+				if (!data["lastOfferCount"].is_null()) {
+					lastOfferCount = data["lastOfferCount"];
+				}
+			}
+			for (const auto& sf : data["sellFor"]) {
+				std::string vendor = sf["vendor"]["name"];
+				int price = sf["price"];
+				sellFor.emplace_back(std::make_pair(vendor, price));
+			}
+			for (const auto& sf : data["buyFor"]) {
+				std::string vendor = sf["vendor"]["name"];
+				int price = sf["price"];
+				buyFor.emplace_back(std::make_pair(vendor, price));
+			}
+			categorytypes = data["category"]["name"];
+			weight = data["weight"];
+			for (const auto& ts : data["usedInTasks"]) {
+				usedInTasks.emplace_back((std::string)ts["name"]);
+			}
+			for (const auto& ts : data["receivedFromTasks"]) {
+				receivedFromTasks.emplace_back((std::string)ts["name"]);
+			}
+			for (const auto& ts : data["bartersFor"]) {
+				bartersFor.emplace_back((std::string)ts["trader"]["name"]);
+			}
+			for (const auto& ts : data["bartersUsing"]) {
+				bartersUsing.emplace_back((std::string)ts["trader"]["name"]);
+			}
+			for (const auto& ts : data["craftsFor"]) {
+				craftsFor.emplace_back((std::string)ts["station"]["name"]);
+			}
+			for (const auto& ts : data["craftsUsing"]) {
+				craftsUsing.emplace_back((std::string)ts["station"]["name"]);
+			}
+			if (data.contains("fleaMarketFee")) {
+				if (!data["fleaMarketFee"].is_null()) {
+					fleaMarketFee = data["fleaMarketFee"];
+				}
+			}
+		}
+	};
+
 	class ItemData : public SingletonBase<ItemData>, public DataParent<ItemID, ItemList> {
 	private:
 		friend class SingletonBase<ItemData>;
@@ -273,10 +416,85 @@ namespace FPS_n2 {
 			}
 		}
 		~ItemData() noexcept {}
+	private:
+		std::vector<ItemJsonData> m_ItemJsonData;
+	public:
+		void GetJsonData(nlohmann::json& data) {
+			for (const auto& d : data["data"]["items"]) {
+				m_ItemJsonData.resize(m_ItemJsonData.size() + 1);
+				m_ItemJsonData.back().GetJsonData(d);
+				m_ItemJsonData.back().m_IsFileOpened = false;
+			}
+		}
+		void SaveDatabyJson() noexcept {
+			for (auto& L : m_List) {
+				for (auto& jd : m_ItemJsonData) {
+					if (L.GetName() == jd.name) {
+						jd.m_IsFileOpened = true;
+
+						std::ofstream outputfile(L.GetFilePath());
+						outputfile << "Name=" + jd.name + "\n";
+						outputfile << "ShortName=" + jd.shortName + "\n";
+						outputfile << "Itemtype=" + jd.categorytypes + "\n";
+						outputfile << "Information_Eng=" + jd.description + "\n";
+						outputfile << "basePrice=" + std::to_string(jd.basePrice) + "\n";
+						outputfile << "width=" + std::to_string(jd.width) + "\n";
+						outputfile << "height=" + std::to_string(jd.height) + "\n";
+						outputfile << "avg24hPrice=" + std::to_string(jd.avg24hPrice) + "\n";
+						outputfile << "low24hPrice=" + std::to_string(jd.low24hPrice) + "\n";
+						outputfile << "lastOfferCount=" + std::to_string(jd.lastOfferCount) + "\n";
+						for (auto& sf : jd.sellFor) {
+							outputfile << "Sell_" + sf.first + "=" + std::to_string(sf.second) + "\n";
+						}
+						//for (auto& bf : jd.buyFor) { outputfile << "Buy_" + bf.first + "=" + std::to_string(bf.second) + "\n"; }
+						outputfile << "weight=" + std::to_string(jd.weight) + "\n";
+						//std::vector<std::string>					usedInTasks;
+						//std::vector<std::string>					receivedFromTasks;
+						//std::vector<std::string>					bartersFor;
+						//std::vector<std::string>					bartersUsing;
+						//std::vector<std::string>					craftsFor;
+						//std::vector<std::string>					craftsUsing;
+						outputfile << "fleaMarketFee=" + std::to_string(jd.fleaMarketFee) + "\n";
+						outputfile.close();
+						break;
+					}
+				}
+			}
+			for (auto& jd : m_ItemJsonData) {
+				if (!jd.m_IsFileOpened) {
+					std::string Name = "data/item/Maked/" + jd.name + ".txt";
+					std::ofstream outputfile(Name);
+					outputfile << "Name=" + jd.name + "\n";
+					outputfile << "ShortName=" + jd.shortName + "\n";
+					outputfile << "Itemtype=" + jd.categorytypes + "\n";
+					outputfile << "Information_Eng=" + jd.description + "\n";
+					outputfile << "basePrice=" + std::to_string(jd.basePrice) + "\n";
+					outputfile << "width=" + std::to_string(jd.width) + "\n";
+					outputfile << "height=" + std::to_string(jd.height) + "\n";
+					outputfile << "avg24hPrice=" + std::to_string(jd.avg24hPrice) + "\n";
+					outputfile << "low24hPrice=" + std::to_string(jd.low24hPrice) + "\n";
+					outputfile << "lastOfferCount=" + std::to_string(jd.lastOfferCount) + "\n";
+					for (auto& sf : jd.sellFor) {
+						outputfile << "Sell_" + sf.first + "=" + std::to_string(sf.second) + "\n";
+					}
+					//for (auto& bf : jd.buyFor) { outputfile << "Buy_" + bf.first + "=" + std::to_string(bf.second) + "\n"; }
+					outputfile << "lastOfferCount=" + std::to_string(jd.weight) + "\n";
+					//std::vector<std::string>					usedInTasks;
+					//std::vector<std::string>					receivedFromTasks;
+					//std::vector<std::string>					bartersFor;
+					//std::vector<std::string>					bartersUsing;
+					//std::vector<std::string>					craftsFor;
+					//std::vector<std::string>					craftsUsing;
+					outputfile << "lastOfferCount=" + std::to_string(jd.fleaMarketFee) + "\n";
+					outputfile.close();
+				}
+			}
+		}
 	};
 
 	const int		ItemList::Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive, bool IsFir) const noexcept {
 		auto* WindowMngr = WindowSystem::WindowManager::Instance();
+		auto* Input = InputControl::Instance();
 		int xs = xsize;
 		int  Xsize = 0;
 
@@ -360,6 +578,43 @@ namespace FPS_n2 {
 		if (IsFir) {
 			DrawControl::Instance()->SetDrawRotaFiR(DrawLayer::Normal, xp + FirSize / 2, yp + ysize / 2, 1.f, 0.f, true);
 		}
+
+		if (in2_(Input->GetMouseX(), Input->GetMouseY(), xp, yp, xp + xs, yp + ysize)) {
+			TraderID ID = InvalidID;
+			int Value = -1;
+			for (const auto& sf : GetsellFor()) {
+				auto basev = sf.second;
+				if (sf.first == InvalidID) {
+					basev -= GetfleaMarketFee();
+				}
+				if (Value < basev) {
+					Value = basev;
+					ID = sf.first;
+				}
+			}
+			if (Value >= 0) {
+				auto Color = Green;
+				std::string TraderName = "Flea Market";
+				if (ID != InvalidID) {
+					auto* ptr = TraderData::Instance()->FindPtr(ID);
+					if (ptr) {
+						TraderName = ptr->GetName();
+						Color = ptr->GetColors(50);
+					}
+				}
+				DrawControl::Instance()->SetString(DrawLayer::Front,
+					FontPool::FontType::Nomal_Edge, LineHeight,
+					FontHandle::FontXCenter::RIGHT, FontHandle::FontYCenter::BOTTOM, Input->GetMouseX(), Input->GetMouseY(), Color, Black,
+					"最高値:%s = %d", TraderName.c_str(), Value
+				);
+				DrawControl::Instance()->SetString(DrawLayer::Front,
+					FontPool::FontType::Nomal_Edge, LineHeight,
+					FontHandle::FontXCenter::RIGHT, FontHandle::FontYCenter::TOP, Input->GetMouseX(), Input->GetMouseY(), Color, Black,
+					"マス単価: %d", Value / (Getwidth()*Getheight())
+				);
+			}
+		}
+
 		return Xsize;
 	}
 

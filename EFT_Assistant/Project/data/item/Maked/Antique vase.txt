@@ -1,0 +1,17 @@
+Name=Antique vase
+ShortName=Vase
+Itemtype=Jewelry
+Information_Eng=A porcelain vase from a private collection. In theory, can serve as a beer pitcher.
+basePrice=67800
+width=2
+height=2
+avg24hPrice=43328
+low24hPrice=40999
+lastOfferCount=50
+Sell_Therapist=42714
+Sell_Fence=27120
+Sell_Skier=33222
+Sell_Peacekeeper=268
+Sell_Flea Market=41000
+weight=2.000000
+fleaMarketFee=4920

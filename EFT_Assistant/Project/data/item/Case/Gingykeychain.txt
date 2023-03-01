@@ -1,2 +1,2 @@
 Name=Gingy keychain
-Itemtype=Container
+Itemtype=Common container

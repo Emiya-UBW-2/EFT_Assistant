@@ -1,2 +1,15 @@
 Name=SSD drive
+ShortName=SSD
 Itemtype=Info
+Information_Eng=A solid state drive. Used to store data with enhanced read and write performance.
+basePrice=80000
+width=1
+height=1
+avg24hPrice=37951
+low24hPrice=32000
+lastOfferCount=55
+Sell_Fence=32000
+Sell_Peacekeeper=316
+Sell_Flea Market=37900
+weight=0.040000
+fleaMarketFee=5674

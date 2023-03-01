@@ -1,0 +1,17 @@
+Name=Pack of Arseniy buckwheat
+ShortName=Buckwheat
+Itemtype=Other
+Information_Eng=There is nothing more valuable in a difficult time than buckwheat. Granular gold, food of the gods.
+basePrice=22300
+width=1
+height=2
+avg24hPrice=25932
+low24hPrice=17000
+lastOfferCount=31
+Sell_Prapor=11150
+Sell_Therapist=14049
+Sell_Fence=8920
+Sell_Skier=10927
+Sell_Flea Market=23300
+weight=0.800000
+fleaMarketFee=2185

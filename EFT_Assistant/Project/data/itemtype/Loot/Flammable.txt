@@ -1,2 +1,2 @@
-Name=Flammable
+Name=Fuel
 Category=Loot

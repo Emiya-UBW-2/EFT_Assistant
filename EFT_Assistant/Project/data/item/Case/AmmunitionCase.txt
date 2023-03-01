@@ -1,2 +1,16 @@
 Name=Ammunition case
-Itemtype=Container
+ShortName=Ammo
+Itemtype=Common container
+Information_Eng=The Kiba Arms International ammunition storage case.
+basePrice=162552
+width=2
+height=2
+avg24hPrice=435363
+low24hPrice=380000
+lastOfferCount=22
+Sell_Therapist=102407
+Sell_Ragman=100782
+Sell_Jaeger=97531
+Sell_Flea Market=433333
+weight=3.000000
+fleaMarketFee=48278

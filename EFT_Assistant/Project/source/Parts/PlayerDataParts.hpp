@@ -39,6 +39,7 @@ namespace FPS_n2 {
 	private:
 		friend class SingletonBase<PlayerData>;
 	private:
+		std::string					m_LastDataReceive;
 		std::vector<ItemLockData> m_ItemLockData;
 	private:
 		PlayerData() noexcept {
@@ -63,6 +64,9 @@ namespace FPS_n2 {
 				auto RIGHT = getparams::getright(ALL);
 				auto Args = GetArgs(RIGHT);
 				//アイテムデータ読みとり
+				if (LEFT == "LastDataReceive") {
+					m_LastDataReceive = RIGHT;
+				}
 				if (LEFT == "ItemData") {
 					SetItemLock(Args.at(0).c_str(), Args.at(1) == "true");
 				}
@@ -72,6 +76,8 @@ namespace FPS_n2 {
 		}
 		void			Save(void) noexcept {
 			std::ofstream outputfile("data/PlayerData.txt");
+			outputfile << "LastDataReceive=" + m_LastDataReceive + "\n";
+
 			for (auto& LD : m_ItemLockData) {
 				outputfile << "ItemData=[" + LD.GetName() + "," + (LD.GetIsLock() ? "true" : "false") + "]\n";
 			}
@@ -113,5 +119,8 @@ namespace FPS_n2 {
 				return m_ItemLockData.back().GetIsLock();
 			}
 		}
+
+		void SetLastDataReceive(const char* date) noexcept { m_LastDataReceive = date; }
+		const auto& GetLastDataReceive() const noexcept { return m_LastDataReceive; }
 	};
 };

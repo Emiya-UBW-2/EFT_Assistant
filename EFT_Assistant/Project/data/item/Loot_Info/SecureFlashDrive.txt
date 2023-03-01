@@ -1,2 +1,15 @@
 Name=Secure Flash drive
+ShortName=Flash drive
 Itemtype=Info
+Information_Eng=A secure flash drive. Such USB sticks are frequently used by TerraGroup employees. They can definitely contain sensitive data.
+basePrice=40152
+width=1
+height=1
+avg24hPrice=19981
+low24hPrice=15555
+lastOfferCount=37
+Sell_Fence=16060
+Sell_Peacekeeper=158
+Sell_Flea Market=16999
+weight=0.080000
+fleaMarketFee=2875

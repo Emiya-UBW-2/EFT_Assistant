@@ -1,2 +1,17 @@
 Name=Pliers Elite
+ShortName=Elite
 Itemtype=Tool
+Information_Eng=A high-quality tool for capturing, manipulating, and cutting wire.
+basePrice=29000
+width=1
+height=1
+avg24hPrice=31238
+low24hPrice=15000
+lastOfferCount=31
+Sell_Prapor=14500
+Sell_Therapist=18270
+Sell_Fence=11600
+Sell_Mechanic=16240
+Sell_Flea Market=35998
+weight=0.250000
+fleaMarketFee=3297

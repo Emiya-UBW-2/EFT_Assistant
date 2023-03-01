@@ -1,2 +1,16 @@
 Name=Medical tools
-Itemtype=Medical supply
+ShortName=MedTools
+Itemtype=Medical supplies
+Information_Eng=A set of various medical instruments required for surgeries.
+basePrice=7500
+width=1
+height=1
+avg24hPrice=10885
+low24hPrice=7000
+lastOfferCount=41
+Sell_Therapist=4725
+Sell_Fence=3000
+Sell_Jaeger=4500
+Sell_Flea Market=8500
+weight=0.250000
+fleaMarketFee=785

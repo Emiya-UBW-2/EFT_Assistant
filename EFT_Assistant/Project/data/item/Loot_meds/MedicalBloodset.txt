@@ -1,2 +1,16 @@
 Name=Medical bloodset
-Itemtype=Medical supply
+ShortName=Bloodset
+Itemtype=Medical supplies
+Information_Eng=A set of medical instruments necessary for blood transfusion.
+basePrice=9765
+width=1
+height=1
+avg24hPrice=11789
+low24hPrice=6000
+lastOfferCount=46
+Sell_Therapist=6151
+Sell_Fence=3906
+Sell_Jaeger=5859
+Sell_Flea Market=10888
+weight=0.200000
+fleaMarketFee=1008

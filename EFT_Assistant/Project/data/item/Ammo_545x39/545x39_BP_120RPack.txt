@@ -1,2 +1,2 @@
 Name=5.45x39mm BP gs ammo pack (120 pcs)
-Itemtype=Round
+Itemtype=Ammo

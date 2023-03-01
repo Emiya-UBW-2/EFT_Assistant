@@ -1,0 +1,17 @@
+Name=Sewing kit
+ShortName=Krasavch.
+Itemtype=Tool
+Information_Eng=The simple "Krasavchik" sewing kit made to patch up clothes or create something new in the fashion world.
+basePrice=38000
+width=1
+height=1
+avg24hPrice=26465
+low24hPrice=22999
+lastOfferCount=50
+Sell_Prapor=19000
+Sell_Therapist=23940
+Sell_Fence=15200
+Sell_Mechanic=21280
+Sell_Flea Market=24998
+weight=0.360000
+fleaMarketFee=2823

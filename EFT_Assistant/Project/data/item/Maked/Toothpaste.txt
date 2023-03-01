@@ -1,0 +1,15 @@
+Name=Toothpaste
+ShortName=Toothpaste
+Itemtype=Household goods
+Information_Eng=Not that teeth hygiene is so essential in the city these days, but why not, if a chance is here.
+basePrice=1927
+width=1
+height=1
+avg24hPrice=10692
+low24hPrice=4000
+lastOfferCount=13
+Sell_Therapist=1214
+Sell_Fence=770
+Sell_Flea Market=12000
+weight=0.200000
+fleaMarketFee=2145

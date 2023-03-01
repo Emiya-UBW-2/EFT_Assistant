@@ -1,2 +1,16 @@
 Name=WI-FI Camera
-Itemtype=Special
+ShortName=Camera
+Itemtype=Special item
+Information_Eng=A remote-controlled WI-FI camera.
+basePrice=35092
+width=1
+height=1
+avg24hPrice=381569
+low24hPrice=149020
+lastOfferCount=13
+Sell_Fence=14036
+Sell_Peacekeeper=139
+Sell_Mechanic=19651
+Sell_Flea Market=248000
+weight=0.500000
+fleaMarketFee=47940

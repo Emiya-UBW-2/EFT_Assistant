@@ -1,0 +1,16 @@
+Name=#FireKlean gun lube
+ShortName=#FireKlean
+Itemtype=Lubricant
+Information_Eng=The FireKlean gun lube is considered one of the highest quality in the world. Can also be used in some other cases!
+basePrice=36428
+width=1
+height=1
+avg24hPrice=26009
+low24hPrice=22222
+lastOfferCount=28
+Sell_Therapist=22949
+Sell_Fence=14571
+Sell_Jaeger=21856
+Sell_Flea Market=24400
+weight=0.200000
+fleaMarketFee=2723

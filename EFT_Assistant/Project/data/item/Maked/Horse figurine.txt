@@ -1,0 +1,17 @@
+Name=Horse figurine
+ShortName=Horse
+Itemtype=Jewelry
+Information_Eng=A horrendously kitsch horse figurine is useless in Tarkov - just as anywhere else - but somewhere out there, there are dealers still willing to buy such things. Something is not right about this.
+basePrice=11448
+width=1
+height=2
+avg24hPrice=16692
+low24hPrice=10000
+lastOfferCount=57
+Sell_Therapist=7212
+Sell_Fence=4579
+Sell_Skier=5609
+Sell_Peacekeeper=45
+Sell_Flea Market=18000
+weight=0.500000
+fleaMarketFee=1677

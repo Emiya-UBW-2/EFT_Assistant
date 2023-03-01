@@ -68,10 +68,26 @@ namespace FPS_n2 {
 			//
 			m_BGPtr->Init(&this->m_posx, &this->m_posy, &this->m_Scale);
 
-			//
-			if (!ItemDataRequest("855a1", strResult)) {
+			//データ取得(アップデートごとにオン)
+			/*
+			if (BarterDatasRequest(strResult)) {
+				auto data = nlohmann::json::parse(strResult);
+				ItemData::Instance()->GetJsonData(data);
+				ItemData::Instance()->SaveDatabyJson();
+
+				// 現在日時を取得する
+				time_t t = time(NULL);
+				// 日時情報を格納する変数を用意する
+				struct tm local;
+				// ローカル日時を変数に格納する
+				localtime_s(&local, &t);
+
+				char buffer[256];
+				strftime(buffer, sizeof(buffer), "%Y %m/%d %H:%M", &local);
+
+				PlayerData::Instance()->SetLastDataReceive(buffer);
 			}
-			//strResult = utf8_to_multi_cppapi(strResult);
+			//*/
 		}
 
 		bool Update_Sub(void) noexcept override {
@@ -263,6 +279,9 @@ namespace FPS_n2 {
 
 					WindowSystem::SetMsg(0, 0, y_r(1920), LineHeight, LineHeight, STR_MID, White, Black, "EFT Assistant");
 					WindowSystem::SetMsg(y_r(1280), LineHeight * 1 / 10, y_r(1280), LineHeight, LineHeight * 8 / 10, STR_LEFT, White, Black, "ver %d.%d.%d", 0, 1, 7);
+
+					WindowSystem::SetMsg(y_r(960), LineHeight + LineHeight * 1 / 10, y_r(960), LineHeight + LineHeight, LineHeight * 8 / 10, STR_MID, White, Black, "最終更新:%s", PlayerData::Instance()->GetLastDataReceive().c_str());
+
 					if (WindowSystem::CloseButton(y_r(1920) - LineHeight, 0)) { SetisEnd(true); }
 				}
 				//展開
@@ -301,8 +320,6 @@ namespace FPS_n2 {
 		//UI表示
 		void DrawUI_In_Sub(void) noexcept  override {
 			DrawControl::Instance()->Draw();
-
-			printfDx(strResult.c_str());
 		}
 	};
 };

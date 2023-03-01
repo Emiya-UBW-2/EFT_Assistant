@@ -1,2 +1,2 @@
 Name=T H I C C Weapon case
-Itemtype=Container
+Itemtype=Common container

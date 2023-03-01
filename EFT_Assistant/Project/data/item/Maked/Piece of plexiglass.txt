@@ -1,0 +1,17 @@
+Name=Piece of plexiglass
+ShortName=Plexiglass
+Itemtype=Building material
+Information_Eng=Organic glass is an acrylic resin, synthetic vinyl polymer of methyl methacrylate, thermoplastic transparent plastic, also known as plexiglass.
+basePrice=8658
+width=1
+height=1
+avg24hPrice=6826
+low24hPrice=3000
+lastOfferCount=45
+Sell_Prapor=4329
+Sell_Therapist=5454
+Sell_Fence=3463
+Sell_Jaeger=5194
+Sell_Flea Market=4991
+weight=0.700000
+fleaMarketFee=622

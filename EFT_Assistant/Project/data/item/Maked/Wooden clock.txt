@@ -1,0 +1,17 @@
+Name=Wooden clock
+ShortName=Clock
+Itemtype=Jewelry
+Information_Eng=Extremely artfully made wooden clock in the form of a two-headed eagle. A rare and expensive thing.
+basePrice=83316
+width=2
+height=2
+avg24hPrice=60274
+low24hPrice=50000
+lastOfferCount=60
+Sell_Therapist=52489
+Sell_Fence=33326
+Sell_Skier=40824
+Sell_Peacekeeper=329
+Sell_Flea Market=54000
+weight=3.000000
+fleaMarketFee=6160

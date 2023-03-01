@@ -1,2 +1,2 @@
 Name=.366 TKM EKO
-Itemtype=Round
+Itemtype=Ammo

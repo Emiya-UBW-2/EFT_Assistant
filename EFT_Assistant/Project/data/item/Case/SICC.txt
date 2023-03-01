@@ -1,2 +1,2 @@
 Name=S I C C organizational pouch
-Itemtype=Container
+Itemtype=Common container

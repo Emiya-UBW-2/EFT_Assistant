@@ -1,2 +1,2 @@
 Name=5.45x39mm PPBS gs "Igolnik"
-Itemtype=Round
+Itemtype=Ammo

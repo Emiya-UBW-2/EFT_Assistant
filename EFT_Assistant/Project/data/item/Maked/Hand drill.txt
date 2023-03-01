@@ -1,0 +1,17 @@
+Name=Hand drill
+ShortName=Hand drill
+Itemtype=Tool
+Information_Eng=A rare and old instrument, almost was out of use before the conflict. However, it's especially useful in current times.
+basePrice=60000
+width=3
+height=2
+avg24hPrice=37999
+low24hPrice=37120
+lastOfferCount=73
+Sell_Prapor=30000
+Sell_Therapist=37800
+Sell_Fence=24000
+Sell_Mechanic=33600
+Sell_Flea Market=37888
+weight=2.300000
+fleaMarketFee=4402

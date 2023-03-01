@@ -1,2 +1,2 @@
 Name=Weapon case
-Itemtype=Container
+Itemtype=Common container

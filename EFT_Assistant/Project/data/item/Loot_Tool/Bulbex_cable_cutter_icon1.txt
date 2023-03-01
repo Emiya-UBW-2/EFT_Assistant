@@ -1,2 +1,17 @@
 Name=Bulbex cable cutter
+ShortName=Bulbex
 Itemtype=Tool
+Information_Eng=A high-quality lever cable cutting tool. It is used for the installation and laying of cable routes and power lines.
+basePrice=105000
+width=1
+height=2
+avg24hPrice=71000
+low24hPrice=67000
+lastOfferCount=33
+Sell_Prapor=52500
+Sell_Therapist=66150
+Sell_Fence=42000
+Sell_Mechanic=58800
+Sell_Flea Market=71111
+weight=0.550000
+fleaMarketFee=7879

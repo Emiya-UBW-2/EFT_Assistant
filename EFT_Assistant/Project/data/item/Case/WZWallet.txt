@@ -1,2 +1,2 @@
 Name=WZ Wallet
-Itemtype=Container
+Itemtype=Common container

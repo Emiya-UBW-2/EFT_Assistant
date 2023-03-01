@@ -1,0 +1,17 @@
+Name=Chainlet
+ShortName=Chainlet
+Itemtype=Jewelry
+Information_Eng=A small piece of jewelry worn around the neck. Depending on the materials and weight, can be quite valuable even now.
+basePrice=7235
+width=1
+height=1
+avg24hPrice=9561
+low24hPrice=5999
+lastOfferCount=42
+Sell_Therapist=4558
+Sell_Fence=2894
+Sell_Skier=3545
+Sell_Peacekeeper=29
+Sell_Flea Market=7500
+weight=0.100000
+fleaMarketFee=705

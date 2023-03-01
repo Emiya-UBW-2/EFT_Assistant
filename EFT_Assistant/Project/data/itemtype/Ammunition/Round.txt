@@ -1,2 +1,2 @@
-Name=Round
+Name=Ammo
 Category=Ammunition

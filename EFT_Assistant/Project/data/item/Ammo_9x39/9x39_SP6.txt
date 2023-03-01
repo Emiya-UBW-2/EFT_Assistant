@@ -1,2 +1,2 @@
 Name=9x39mm SP-6 gs
-Itemtype=Round
+Itemtype=Ammo

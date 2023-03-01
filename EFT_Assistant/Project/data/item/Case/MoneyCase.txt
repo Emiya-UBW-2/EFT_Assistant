@@ -1,2 +1,2 @@
 Name=Money case
-Itemtype=Container
+Itemtype=Common container

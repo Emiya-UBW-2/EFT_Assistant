@@ -1,2 +1,16 @@
 Name=WD-40 (100ml)
-Itemtype=Flammable
+ShortName=WD-40
+Itemtype=Lubricant
+Information_Eng=Initially, this agent was developed for industrial consumers as an anti-corrosive water repellent. It was later discovered that it also had plenty of domestic use applications. According to the legend, the product's formula was developed on the fortieth attempt (WD-40 as short for Water Displacement - 40th Attempt). The product consists mostly of various hydrocarbons.
+basePrice=6958
+width=1
+height=1
+avg24hPrice=8099
+low24hPrice=4999
+lastOfferCount=26
+Sell_Therapist=4383
+Sell_Fence=2783
+Sell_Jaeger=4174
+Sell_Flea Market=6700
+weight=0.200000
+fleaMarketFee=641

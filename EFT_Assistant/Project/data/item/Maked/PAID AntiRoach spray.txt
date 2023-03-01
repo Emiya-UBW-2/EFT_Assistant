@@ -1,0 +1,15 @@
+Name=PAID AntiRoach spray
+ShortName=PAID
+Itemtype=Household goods
+Information_Eng=Tactical combat spray for annihilating cockroaches and ants. An indispensable thing for Hideout maintenance.
+basePrice=5892
+width=1
+height=2
+avg24hPrice=18453
+low24hPrice=13333
+lastOfferCount=12
+Sell_Therapist=3711
+Sell_Fence=2356
+Sell_Flea Market=18000
+weight=0.500000
+fleaMarketFee=2142

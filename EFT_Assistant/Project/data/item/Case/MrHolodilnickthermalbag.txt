@@ -1,2 +1,2 @@
 Name=Mr. Holodilnick thermal bag
-Itemtype=Container
+Itemtype=Common container

@@ -1,2 +1,3 @@
-Name=Valuable
+Name=Jewelry
+ShortName=Valuable
 Category=Loot

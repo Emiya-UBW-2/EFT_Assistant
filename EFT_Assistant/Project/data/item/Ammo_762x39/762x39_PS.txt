@@ -1,2 +1,2 @@
 Name=7.62x39mm PS gzh
-Itemtype=Round
+Itemtype=Ammo

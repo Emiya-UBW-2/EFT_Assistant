@@ -1,2 +1,2 @@
 Name=9x21mm P gzh
-Itemtype=Round
+Itemtype=Ammo

@@ -1,0 +1,17 @@
+Name=Axel parrot figurine
+ShortName=Axel
+Itemtype=Jewelry
+Information_Eng=A figurine of Axel - the Lab Parrot.
+basePrice=51000
+width=1
+height=2
+avg24hPrice=32180
+low24hPrice=29878
+lastOfferCount=36
+Sell_Therapist=32130
+Sell_Fence=20400
+Sell_Skier=24990
+Sell_Peacekeeper=201
+Sell_Flea Market=32111
+weight=0.330000
+fleaMarketFee=3739

@@ -1,2 +1,16 @@
 Name=Physical bitcoin
-Itemtype=Valuable
+ShortName=0.2BTC
+Itemtype=Jewelry
+Information_Eng=A physical equivalent of the Bitcoin cryptocurrency (0.2 BTC value).
+basePrice=240458
+width=1
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Therapist=151488
+Sell_Fence=96183
+Sell_Skier=117824
+Sell_Peacekeeper=949
+weight=0.050000
+fleaMarketFee=0

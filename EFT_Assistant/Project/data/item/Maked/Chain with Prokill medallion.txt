@@ -1,0 +1,17 @@
+Name=Chain with Prokill medallion
+ShortName=Prokill
+Itemtype=Jewelry
+Information_Eng=A chain with the Prokill medallion. An attribute of the Contract Wars, and now - a relic.
+basePrice=85000
+width=1
+height=1
+avg24hPrice=67552
+low24hPrice=59999
+lastOfferCount=27
+Sell_Therapist=53550
+Sell_Fence=34000
+Sell_Skier=41650
+Sell_Peacekeeper=336
+Sell_Flea Market=63999
+weight=0.100000
+fleaMarketFee=6674

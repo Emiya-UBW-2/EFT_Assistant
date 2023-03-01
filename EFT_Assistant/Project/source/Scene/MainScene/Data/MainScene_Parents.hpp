@@ -39,6 +39,7 @@ namespace FPS_n2 {
 		ID						m_ID{ InvalidID };
 		std::string				m_Name;
 		std::string				m_ShortName;
+		std::string				m_FilePath;
 		std::array<int, 3>		m_Color{ 0,0,0 };
 
 		Graphs					m_Icon;
@@ -65,6 +66,8 @@ namespace FPS_n2 {
 		const auto&		GetID() const noexcept { return m_ID; }
 		const auto&		GetName() const noexcept { return m_Name; }
 		const auto&		GetShortName() const noexcept { return m_ShortName; }
+		const auto&		GetFilePath() const noexcept { return m_FilePath; }
+		
 		const auto		GetColors(int colorAdd) const noexcept {
 			return DxLib::GetColor(std::clamp(m_Color[0] + colorAdd, 0, 255), std::clamp(m_Color[1] + colorAdd, 0, 255), std::clamp(m_Color[2] + colorAdd, 0, 255));
 		}
@@ -73,6 +76,7 @@ namespace FPS_n2 {
 		void			Set(const char* FilePath, ID id, const char* IconPath = nullptr) noexcept {
 			m_ID = id;
 			int mdata = FileRead_open(FilePath, FALSE);
+			m_FilePath = FilePath;
 			while (true) {
 				if (FileRead_eof(mdata) != 0) { break; }
 				auto ALL = getparams::Getstr(mdata);

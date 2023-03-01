@@ -1,2 +1,3 @@
-Name=Household
+Name=Household goods
+ShortName=Household
 Category=Loot

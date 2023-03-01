@@ -1,0 +1,16 @@
+Name=Zibbo lighter
+ShortName=Zibbo
+Itemtype=Lubricant
+Information_Eng=A metal gasoline Zibbo lighter, renowned for being reliable and windproof.
+basePrice=9617
+width=1
+height=1
+avg24hPrice=11019
+low24hPrice=7000
+lastOfferCount=38
+Sell_Therapist=6058
+Sell_Fence=3846
+Sell_Jaeger=5770
+Sell_Flea Market=9700
+weight=0.100000
+fleaMarketFee=919

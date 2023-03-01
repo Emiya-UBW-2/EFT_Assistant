@@ -1,0 +1,17 @@
+Name=Flat screwdriver
+ShortName=F scdr.
+Itemtype=Tool
+Information_Eng=A flathead screwdriver for installation work in hard to reach places.
+basePrice=14000
+width=1
+height=1
+avg24hPrice=9217
+low24hPrice=7000
+lastOfferCount=13
+Sell_Prapor=7000
+Sell_Therapist=8820
+Sell_Fence=5600
+Sell_Mechanic=7840
+Sell_Flea Market=9000
+weight=0.300000
+fleaMarketFee=1033

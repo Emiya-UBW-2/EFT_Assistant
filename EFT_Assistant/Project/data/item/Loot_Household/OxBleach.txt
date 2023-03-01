@@ -1,2 +1,15 @@
 Name=Ox bleach
-Itemtype=Household
+ShortName=Bleach
+Itemtype=Household goods
+Information_Eng=The "Ox" special bleach and stain remover. The bleaching agent destroys chemical bonds, which is actively used in chemical production.
+basePrice=5988
+width=1
+height=2
+avg24hPrice=10602
+low24hPrice=9999
+lastOfferCount=46
+Sell_Therapist=3772
+Sell_Fence=2395
+Sell_Flea Market=11000
+weight=1.200000
+fleaMarketFee=1063

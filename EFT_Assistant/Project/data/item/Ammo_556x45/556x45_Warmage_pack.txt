@@ -1,2 +1,2 @@
 Name=5.56x45mm Warmageddon ammo pack (20 pcs)
-Itemtype=Round
+Itemtype=Ammo

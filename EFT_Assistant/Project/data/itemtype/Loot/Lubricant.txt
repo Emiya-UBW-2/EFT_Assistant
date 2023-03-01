@@ -1,0 +1,2 @@
+Name=Lubricant
+Category=Loot

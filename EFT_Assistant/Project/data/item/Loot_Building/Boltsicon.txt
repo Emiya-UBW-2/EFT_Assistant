@@ -1,2 +1,17 @@
 Name=Bolts
+ShortName=Bolts
 Itemtype=Building material
+Information_Eng=Bolts, together with screw nuts, are used to fasten things in place. An essential item for organizing a Hideout.
+basePrice=11000
+width=1
+height=1
+avg24hPrice=19671
+low24hPrice=14444
+lastOfferCount=99
+Sell_Prapor=5500
+Sell_Therapist=6930
+Sell_Fence=4400
+Sell_Jaeger=6600
+Sell_Flea Market=17420
+weight=0.400000
+fleaMarketFee=1625

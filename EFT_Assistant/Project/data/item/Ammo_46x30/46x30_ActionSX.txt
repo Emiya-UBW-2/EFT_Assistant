@@ -1,2 +1,2 @@
 Name=4.6x30mm Action SX
-Itemtype=Round
+Itemtype=Ammo

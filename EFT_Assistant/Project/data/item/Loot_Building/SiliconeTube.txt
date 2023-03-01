@@ -1,2 +1,17 @@
 Name=Silicone tube
+ShortName=Tube
 Itemtype=Building material
+Information_Eng=A silicone 20mm diameter tube. An indispensable thing in the chemical industry and, in particular, moonshine production.
+basePrice=18900
+width=1
+height=1
+avg24hPrice=14747
+low24hPrice=10666
+lastOfferCount=33
+Sell_Prapor=9450
+Sell_Therapist=11907
+Sell_Fence=7560
+Sell_Jaeger=11340
+Sell_Flea Market=10666
+weight=0.220000
+fleaMarketFee=1354

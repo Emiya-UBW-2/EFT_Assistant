@@ -1,2 +1,2 @@
-Name=Container
+Name=Common container
 Category=Clothes

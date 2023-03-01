@@ -1,0 +1,16 @@
+{"query" : "{
+ items(type:any){
+   name
+   shortName
+   basePrice
+   width
+   height
+   sellFor{
+    vendor{name}
+    price
+   }
+   category{name}
+   weight
+   fleaMarketFee
+ }
+}"}

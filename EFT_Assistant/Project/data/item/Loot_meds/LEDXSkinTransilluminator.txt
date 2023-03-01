@@ -1,2 +1,16 @@
 Name=LEDX Skin Transilluminator
-Itemtype=Medical supply
+ShortName=LEDX
+Itemtype=Medical supplies
+Information_Eng=A medical device designed to accurately determine the position of the veins under the skin.
+basePrice=485000
+width=1
+height=1
+avg24hPrice=1220476
+low24hPrice=1100000
+lastOfferCount=39
+Sell_Therapist=305550
+Sell_Fence=194000
+Sell_Jaeger=291000
+Sell_Flea Market=1150000
+weight=0.083000
+fleaMarketFee=121666

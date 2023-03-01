@@ -1,2 +1,16 @@
 Name=Pile of meds
-Itemtype=Medical supply
+ShortName=Meds
+Itemtype=Medical supplies
+Information_Eng=Various medicines and drugs, necessary for the production of meds and filling the contents of individual first-aid kits.
+basePrice=6500
+width=1
+height=1
+avg24hPrice=10984
+low24hPrice=10000
+lastOfferCount=121
+Sell_Therapist=4095
+Sell_Fence=2600
+Sell_Jaeger=3900
+Sell_Flea Market=11000
+weight=0.200000
+fleaMarketFee=1040

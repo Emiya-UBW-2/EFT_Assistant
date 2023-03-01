@@ -1,0 +1,17 @@
+Name=Apollo Soyuz cigarettes
+ShortName=Apollo
+Itemtype=Other
+Information_Eng=Apollo Soyuz cigarettes. Inhaling those will potentially make you cough up to the stars in your eyes.
+basePrice=2500
+width=1
+height=1
+avg24hPrice=7869
+low24hPrice=4000
+lastOfferCount=17
+Sell_Prapor=1250
+Sell_Therapist=1575
+Sell_Fence=1000
+Sell_Skier=1225
+Sell_Flea Market=6000
+weight=0.020000
+fleaMarketFee=638

@@ -1,0 +1,17 @@
+Name=Microcontroller board
+ShortName=MB
+Itemtype=Electronics
+Information_Eng=A printed circuit board from microcontrollers. A consumable in the production of various advanced far-forward electronics components.
+basePrice=100000
+width=1
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Therapist=63000
+Sell_Fence=40000
+Sell_Skier=49000
+Sell_Peacekeeper=395
+Sell_Mechanic=56000
+weight=0.025000
+fleaMarketFee=0

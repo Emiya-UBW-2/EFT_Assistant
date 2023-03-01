@@ -1,2 +1,2 @@
-Name=Special
+Name=Special item
 Category=Loot

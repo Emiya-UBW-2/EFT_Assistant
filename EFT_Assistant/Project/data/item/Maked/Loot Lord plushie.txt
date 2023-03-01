@@ -1,0 +1,17 @@
+Name=Loot Lord plushie
+ShortName=Loot Lord
+Itemtype=Other
+Information_Eng=The "Loot Lord" plush toy from a famous Tarkov resident - AquaFPS. A very rare collectible!
+basePrice=83029
+width=2
+height=2
+avg24hPrice=59722
+low24hPrice=51444
+lastOfferCount=20
+Sell_Prapor=41514
+Sell_Therapist=52308
+Sell_Fence=33211
+Sell_Skier=40684
+Sell_Flea Market=63000
+weight=0.300000
+fleaMarketFee=6545

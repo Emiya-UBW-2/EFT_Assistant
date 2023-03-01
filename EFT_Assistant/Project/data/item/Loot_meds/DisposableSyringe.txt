@@ -1,2 +1,16 @@
 Name=Disposable syringe
-Itemtype=Medical supply
+ShortName=Syringe
+Itemtype=Medical supplies
+Information_Eng=A disposable syringe in individual sterile packaging.
+basePrice=3000
+width=1
+height=1
+avg24hPrice=25105
+low24hPrice=15420
+lastOfferCount=47
+Sell_Therapist=1890
+Sell_Fence=1200
+Sell_Jaeger=1800
+Sell_Flea Market=22000
+weight=0.060000
+fleaMarketFee=4352

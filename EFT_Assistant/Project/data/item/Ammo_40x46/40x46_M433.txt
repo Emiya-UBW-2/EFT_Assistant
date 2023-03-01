@@ -1,2 +1,2 @@
 Name=40x46mm M433 (HEDP) grenade
-Itemtype=Round
+Itemtype=Ammo

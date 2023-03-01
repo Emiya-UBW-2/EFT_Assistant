@@ -1,0 +1,17 @@
+Name=BEAR Buddy plush toy
+ShortName=BEAR Buddy
+Itemtype=Other
+Information_Eng=The "BEAR Buddy" toy from a famous Tarkov resident - Annemunition. A very rare collectible!
+basePrice=86700
+width=2
+height=2
+avg24hPrice=59673
+low24hPrice=52000
+lastOfferCount=29
+Sell_Prapor=43350
+Sell_Therapist=54621
+Sell_Fence=34680
+Sell_Skier=42483
+Sell_Flea Market=55000
+weight=0.380000
+fleaMarketFee=6369

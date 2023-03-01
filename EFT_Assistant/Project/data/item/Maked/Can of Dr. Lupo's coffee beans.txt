@@ -1,0 +1,17 @@
+Name=Can of Dr. Lupo's coffee beans
+ShortName=DrLupo's
+Itemtype=Other
+Information_Eng=The famous Dr.Lupo's huge coffee beans. They are humongous! The roasting is as hardcore as possible, definitely will hit hard.
+basePrice=52000
+width=1
+height=1
+avg24hPrice=32989
+low24hPrice=31212
+lastOfferCount=30
+Sell_Prapor=26000
+Sell_Therapist=32760
+Sell_Fence=20800
+Sell_Skier=25480
+Sell_Flea Market=32700
+weight=0.600000
+fleaMarketFee=3811

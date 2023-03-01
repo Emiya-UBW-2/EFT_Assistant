@@ -1,0 +1,17 @@
+Name=UZRGM grenade fuze
+ShortName=Fuze
+Itemtype=Other
+Information_Eng=UZRGM (Universalny Zapal Ruchnoy Granaty Modernizirovanny - "Universal Hand Grenade Fuze Modified") - unlike UZRG, it contains a slow-burned pyrotechnic composition with high combustion stability and an azide detonator capsule in an aluminum sleeve inside the aluminum bushings. A vital component for the production of grenades.
+basePrice=8100
+width=1
+height=1
+avg24hPrice=14261
+low24hPrice=10000
+lastOfferCount=31
+Sell_Prapor=4050
+Sell_Therapist=5103
+Sell_Fence=3240
+Sell_Skier=3969
+Sell_Flea Market=11000
+weight=0.055000
+fleaMarketFee=1008

@@ -1,2 +1,2 @@
 Name=Dogtag case
-Itemtype=Container
+Itemtype=Common container
