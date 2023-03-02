@@ -10,6 +10,12 @@ namespace FPS_n2 {
 		WindowSystem::ScrollBoxClass	m_Scroll;
 		float							m_YNow{ 0.f };
 		float							m_XChild{ 0.f };
+		bool							m_RaidMode{ false };
+
+		std::vector<const ItemList*>	Items;
+		bool							m_TraderSort{ false };
+		bool							m_ValueSort{ false };
+		bool							m_ValuePerSort{ false };
 	private:
 		void MakeLists(int Layer, bool AndNext, const std::function<void(std::pair<int, bool>*)>& ListSet) noexcept {
 			auto& NowSel = m_ItemIDs.at(Layer);
@@ -28,12 +34,23 @@ namespace FPS_n2 {
 			m_ItemIDs.emplace_back(std::make_pair<int, bool>((int)InvalidID, false));
 			m_ItemIDs.emplace_back(std::make_pair<int, bool>((int)InvalidID, false));
 			m_ItemIDs.emplace_back(std::make_pair<int, bool>((int)InvalidID, false));
+
+			m_RaidMode = false;
+
+			Items.clear();
+			for (auto& L : ItemData::Instance()->GetList()) {//todo
+				Items.emplace_back(&L);
+			}
+			m_TraderSort = true;
+			m_ValueSort = true;
+			m_ValuePerSort = true;
 		}
 		void LateExecute_Sub(int*, int*, float*) noexcept override {
 		}
 		void Draw_Back_Sub(int, int, float) noexcept override {
 			auto* WindowMngr = WindowSystem::WindowManager::Instance();
 			auto* DrawParts = DXDraw::Instance();
+			auto* Input = InputControl::Instance();
 
 			int xpos = y_r(40);
 			int ypos = LineHeight + y_r(10) + LineHeight;
@@ -42,32 +59,126 @@ namespace FPS_n2 {
 			int xs = 400;
 			int ScrPosX = y_r(1920 - xs * 3 / 2 - 10) - y_r(80);
 
+			int ScrPxItem = m_RaidMode ? (xpos + y_r(400)): ScrPosX;
+
 			int yp0 = ypos - (int)m_YNow;
-			for (auto& L : ItemData::Instance()->GetList()) {//todo
+			if (m_RaidMode) {
+				int PrevSize = y_r(400);
+				int PerSize = PrevSize + y_r(250);
+				if (WindowSystem::ClickCheckBox(xpos + PrevSize, yp0, xpos + PerSize, DrawParts->m_DispYSize, false, true, Gray75, "")) {
+					std::sort(Items.begin(), Items.end(), [&](const ItemList* a, const ItemList* b) {
+						TraderID IDA = InvalidID;
+						int ValueA = -1;
+						if (a->GetSellValue(&IDA, &ValueA)) {}
+						TraderID IDB = InvalidID;
+						int ValueB = -1;
+						if (b->GetSellValue(&IDB, &ValueB)) {}
+						return m_TraderSort ? (IDA > IDB) : (IDA < IDB);
+					});
+					m_TraderSort ^= 1;
+
+				}
+				if (in2_(Input->GetMouseX(), Input->GetMouseY(), xpos + PrevSize, yp0, xpos + PerSize, DrawParts->m_DispYSize)) {
+					DrawControl::Instance()->SetString(DrawLayer::Front,
+						FontPool::FontType::Nomal_Edge, LineHeight,
+						FontHandle::FontXCenter::RIGHT, FontHandle::FontYCenter::BOTTOM, Input->GetMouseX(), Input->GetMouseY(), RedPop, Black,
+						"トレーダー"
+					);
+				}
+
+				PrevSize = PerSize + y_r(25);
+				PerSize += y_r(250);
+				if (WindowSystem::ClickCheckBox(xpos + PrevSize, yp0, xpos + PerSize, DrawParts->m_DispYSize, false, true, Gray75, "")) {
+					std::sort(Items.begin(), Items.end(), [&](const ItemList* a, const ItemList* b) {
+						TraderID IDA = InvalidID;
+						int ValueA = -1;
+						if (a->GetSellValue(&IDA, &ValueA)) {}
+						TraderID IDB = InvalidID;
+						int ValueB = -1;
+						if (b->GetSellValue(&IDB, &ValueB)) {}
+						return m_ValueSort ? (ValueA > ValueB) : (ValueA < ValueB);
+					});
+					m_ValueSort ^= 1;
+				}
+				if (in2_(Input->GetMouseX(), Input->GetMouseY(), xpos + PrevSize, yp0, xpos + PerSize, DrawParts->m_DispYSize)) {
+					DrawControl::Instance()->SetString(DrawLayer::Front,
+						FontPool::FontType::Nomal_Edge, LineHeight,
+						FontHandle::FontXCenter::RIGHT, FontHandle::FontYCenter::BOTTOM, Input->GetMouseX(), Input->GetMouseY(), RedPop, Black,
+						"売値"
+					);
+				}
+
+				PrevSize = PerSize + y_r(25);
+				PerSize += y_r(250);
+				if (WindowSystem::ClickCheckBox(xpos + PrevSize, yp0, xpos + PerSize, DrawParts->m_DispYSize, false, true, Gray75, "")) {
+					std::sort(Items.begin(), Items.end(), [&](const ItemList* a, const ItemList* b) {
+						TraderID IDA = InvalidID;
+						int ValueA = -1;
+						if (a->GetSellValue(&IDA, &ValueA)) {}
+						int ValueAP = ((a->Getwidth()*a->Getheight()) > 0) ? (ValueA / (a->Getwidth()*a->Getheight())) : 0;
+
+						TraderID IDB = InvalidID;
+						int ValueB = -1;
+						if (b->GetSellValue(&IDB, &ValueB)) {}
+						int ValueBP = ((b->Getwidth()*b->Getheight()) > 0) ? (ValueB / (b->Getwidth()*b->Getheight())) : 0;
+						return m_ValuePerSort ? (ValueAP > ValueBP) : (ValueAP < ValueBP);
+					});
+					m_ValuePerSort ^= 1;
+				}
+				if (in2_(Input->GetMouseX(), Input->GetMouseY(), xpos + PrevSize, yp0, xpos + PerSize, DrawParts->m_DispYSize)) {
+					DrawControl::Instance()->SetString(DrawLayer::Front,
+						FontPool::FontType::Nomal_Edge, LineHeight,
+						FontHandle::FontXCenter::RIGHT, FontHandle::FontYCenter::BOTTOM, Input->GetMouseX(), Input->GetMouseY(), RedPop, Black,
+						"マス単価"
+					);
+				}
+			}
+			for (auto& L : Items) {//todo
 				if (m_ItemIDs[1].first == InvalidID) {
 					bool isHit = false;
 					for (auto& TL : ItemTypeData::Instance()->GetList()) {
 						if (TL.GetCategoryID() == m_ItemIDs[0].first || m_ItemIDs[0].first == InvalidID) {
-							isHit = (L.GetTypeID() == TL.GetID());
+							isHit = (L->GetTypeID() == TL.GetID());
 							if (isHit) { break; }
 						}
 					}
 					if (!isHit) { continue; }
 				}
-				if (L.GetTypeID() == m_ItemIDs[1].first || m_ItemIDs[1].first == InvalidID) {
+				if (L->GetTypeID() == m_ItemIDs[1].first || m_ItemIDs[1].first == InvalidID) {
 					bool ishit = false;
-					for (auto& m : L.GetMapID()) {
+					for (auto& m : L->GetMapID()) {
 						if (m == m_ItemIDs[2].first) {
 							ishit = true;
 							break;
 						}
 					}
 					if (m_ItemIDs[2].first == ElseSelectID) {
-						ishit = (L.GetMapID().size() == 0);
+						ishit = (L->GetMapID().size() == 0);
 					}
 					if (ishit || m_ItemIDs[2].first == InvalidID) {
 						if (((0 - ysize) < yp0) && (yp0 < DrawParts->m_DispYSize)) {
-							L.Draw(xpos, yp0, ScrPosX - xpos - y_r(36), ysize, 0, Gray75, !WindowMngr->PosHitCheck(nullptr), false);
+							L->Draw(xpos, yp0, ScrPxItem - xpos - y_r(36), ysize, 0, Gray75, !WindowMngr->PosHitCheck(nullptr), false, m_RaidMode);
+							if (m_RaidMode) {
+								TraderID ID = InvalidID;
+								int Value = -1;
+								if (L->GetSellValue(&ID, &Value)) {
+									auto Color = Green;
+									std::string TraderName = "Flea Market";
+									if (ID != InvalidID) {
+										auto* ptr = TraderData::Instance()->FindPtr(ID);
+										if (ptr) {
+											TraderName = ptr->GetName();
+											Color = ptr->GetColors(50);
+										}
+									}
+									int PerSize = y_r(400) + y_r(250);
+									WindowSystem::SetMsg(xpos + PerSize, yp0, xpos + PerSize, yp0 + ysize, LineHeight * 9 / 10, STR_RIGHT, Color, Black, "%s", TraderName.c_str());
+									PerSize += y_r(250);
+									WindowSystem::SetMsg(xpos + PerSize, yp0, xpos + PerSize, yp0 + ysize, LineHeight * 9 / 10, STR_RIGHT, Color, Black, "%6d", Value);
+									PerSize += y_r(250);
+									WindowSystem::SetMsg(xpos + PerSize, yp0, xpos + PerSize, yp0 + ysize, LineHeight * 9 / 10, STR_RIGHT, Color, Black, "%6d", Value / (L->Getwidth()*L->Getheight()));
+								}
+							}
 						}
 						yp0 += ysize;
 					}
@@ -137,16 +248,30 @@ namespace FPS_n2 {
 				int yp = LineHeight + y_r(10);
 				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(200), yp + LineHeight, false, true, Gray25, "戻る")) {
 					bool isHit = false;
-					for (auto it = m_ItemIDs.rbegin(); it != m_ItemIDs.rend(); ++it) {
-						if (it->first != InvalidID) {
-							it->first = InvalidID;
-							isHit = true;
-							break;
+					if (!m_RaidMode) {
+						for (auto it = m_ItemIDs.rbegin(); it != m_ItemIDs.rend(); ++it) {
+							if (it->first != InvalidID) {
+								it->first = InvalidID;
+								isHit = true;
+								break;
+							}
 						}
 					}
 					if (!isHit) {
 						TurnOnGoNextBG();
 					}
+				}
+			}
+			//
+			auto LootID = ItemCategoryData::Instance()->FindID("Loot");
+			if (m_ItemIDs.at(0).first == InvalidID || m_ItemIDs.at(0).first == LootID) {
+				int xp = y_r(1910) - LineHeight * 3;
+				int yp = y_r(900);
+				WindowSystem::CheckBox(xp, yp, &m_RaidMode);
+				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, FontHandle::FontXCenter::RIGHT, White, Black, "レイドモード(ルート品のみ)");
+				if (m_RaidMode) {
+					m_ItemIDs.at(0).first = LootID;
+					m_ItemIDs.at(0).second = true;
 				}
 			}
 		}

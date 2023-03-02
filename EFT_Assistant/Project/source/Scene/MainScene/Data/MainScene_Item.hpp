@@ -152,7 +152,23 @@ namespace FPS_n2 {
 		const auto&	Getweight() const noexcept { return m_weight; }
 		const auto&	GetfleaMarketFee() const noexcept { return m_fleaMarketFee; }
 	public:
-		const int		Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive, bool IsFir) const noexcept;
+		const auto GetSellValue(TraderID* ID, int* pValue) const noexcept {
+			*ID = InvalidID;
+			*pValue = -1;
+			for (const auto& sf : GetsellFor()) {
+				auto basev = sf.second;
+				if (sf.first == InvalidID) {
+					basev -= GetfleaMarketFee();
+				}
+				if (*pValue < basev) {
+					*pValue = basev;
+					*ID = sf.first;
+				}
+			}
+			return (*pValue != -1);
+		}
+	public:
+		const int		Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive, bool IsFir, bool RaidMode) const noexcept;
 		void			DrawWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept {
 			auto* WindowMngr = WindowSystem::WindowManager::Instance();
 			auto* InterParts = InterruptParts::Instance();
@@ -185,12 +201,12 @@ namespace FPS_n2 {
 					for (const auto& cp : m_ChildPartsID) {
 						for (const auto& c : cp.Data) {
 							auto* ptr = c.first;
-							xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, y_r(800), ysize, 0, defaultcolor, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0)), false) + y_r(30)); yofs += ysize;
+							xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, y_r(800), ysize, 0, defaultcolor, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0)), false, false) + y_r(30)); yofs += ysize;
 						}
 					}
 					for (const auto& c : m_ParentPartsID) {
 						auto* ptr = c;
-						xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, y_r(800), ysize, 0, defaultcolor, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0)), false) + y_r(30)); yofs += ysize;
+						xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, y_r(800), ysize, 0, defaultcolor, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0)), false, false) + y_r(30)); yofs += ysize;
 					}
 				}
 			}
@@ -492,7 +508,7 @@ namespace FPS_n2 {
 		}
 	};
 
-	const int		ItemList::Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive, bool IsFir) const noexcept {
+	const int		ItemList::Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive, bool IsFir, bool RaidMode) const noexcept {
 		auto* WindowMngr = WindowSystem::WindowManager::Instance();
 		auto* Input = InputControl::Instance();
 		int xs = xsize;
@@ -579,42 +595,33 @@ namespace FPS_n2 {
 			DrawControl::Instance()->SetDrawRotaFiR(DrawLayer::Normal, xp + FirSize / 2, yp + ysize / 2, 1.f, 0.f, true);
 		}
 
-		if (in2_(Input->GetMouseX(), Input->GetMouseY(), xp, yp, xp + xs, yp + ysize)) {
-			TraderID ID = InvalidID;
-			int Value = -1;
-			for (const auto& sf : GetsellFor()) {
-				auto basev = sf.second;
-				if (sf.first == InvalidID) {
-					basev -= GetfleaMarketFee();
-				}
-				if (Value < basev) {
-					Value = basev;
-					ID = sf.first;
-				}
-			}
-			if (Value >= 0) {
-				auto Color = Green;
-				std::string TraderName = "Flea Market";
-				if (ID != InvalidID) {
-					auto* ptr = TraderData::Instance()->FindPtr(ID);
-					if (ptr) {
-						TraderName = ptr->GetName();
-						Color = ptr->GetColors(50);
+		if (!RaidMode) {
+			if (in2_(Input->GetMouseX(), Input->GetMouseY(), xp, yp, xp + xs, yp + ysize)) {
+				TraderID ID = InvalidID;
+				int Value = -1;
+				if (GetSellValue(&ID, &Value)) {
+					auto Color = Green;
+					std::string TraderName = "Flea Market";
+					if (ID != InvalidID) {
+						auto* ptr = TraderData::Instance()->FindPtr(ID);
+						if (ptr) {
+							TraderName = ptr->GetName();
+							Color = ptr->GetColors(50);
+						}
 					}
+					DrawControl::Instance()->SetString(DrawLayer::Front,
+						FontPool::FontType::Nomal_Edge, LineHeight,
+						FontHandle::FontXCenter::RIGHT, FontHandle::FontYCenter::BOTTOM, Input->GetMouseX(), Input->GetMouseY(), Color, Black,
+						"最高値:%s = %d", TraderName.c_str(), Value
+					);
+					DrawControl::Instance()->SetString(DrawLayer::Front,
+						FontPool::FontType::Nomal_Edge, LineHeight,
+						FontHandle::FontXCenter::RIGHT, FontHandle::FontYCenter::TOP, Input->GetMouseX(), Input->GetMouseY(), Color, Black,
+						"マス単価: %d", Value / (Getwidth()*Getheight())
+					);
 				}
-				DrawControl::Instance()->SetString(DrawLayer::Front,
-					FontPool::FontType::Nomal_Edge, LineHeight,
-					FontHandle::FontXCenter::RIGHT, FontHandle::FontYCenter::BOTTOM, Input->GetMouseX(), Input->GetMouseY(), Color, Black,
-					"最高値:%s = %d", TraderName.c_str(), Value
-				);
-				DrawControl::Instance()->SetString(DrawLayer::Front,
-					FontPool::FontType::Nomal_Edge, LineHeight,
-					FontHandle::FontXCenter::RIGHT, FontHandle::FontYCenter::TOP, Input->GetMouseX(), Input->GetMouseY(), Color, Black,
-					"マス単価: %d", Value / (Getwidth()*Getheight())
-				);
 			}
 		}
-
 		return Xsize;
 	}
 
