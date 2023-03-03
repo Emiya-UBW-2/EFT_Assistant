@@ -1,0 +1,16 @@
+Name=Dogtag USEC
+ShortName=USEC
+Itemtype=Other
+Information_Eng=Army dogtags serve the purpose of quickly identifying the wounded and deceased in combat. This one belonged to a USEC PMC operator.
+basePrice=600
+width=1
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Prapor=300
+Sell_Therapist=378
+Sell_Fence=240
+Sell_Skier=294
+weight=0.010000
+fleaMarketFee=0

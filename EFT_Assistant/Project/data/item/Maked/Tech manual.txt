@@ -1,0 +1,15 @@
+Name=Tech manual
+ShortName=Manual
+Itemtype=Info
+Information_Eng=A manual with technical documentation.
+basePrice=3900
+width=1
+height=2
+avg24hPrice=18621
+low24hPrice=9999
+lastOfferCount=59
+Sell_Fence=1560
+Sell_Peacekeeper=15
+Sell_Flea Market=9999
+weight=0.200000
+fleaMarketFee=1094

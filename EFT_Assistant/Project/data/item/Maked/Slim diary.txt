@@ -1,0 +1,15 @@
+Name=Slim diary
+ShortName=SDiary
+Itemtype=Info
+Information_Eng=A diary with a leather cover. Covered with various names, addresses and phone numbers. Somebody might find it particularly useful.
+basePrice=71000
+width=1
+height=1
+avg24hPrice=36765
+low24hPrice=28000
+lastOfferCount=26
+Sell_Fence=28400
+Sell_Peacekeeper=278
+Sell_Flea Market=34888
+weight=0.100000
+fleaMarketFee=5033

@@ -1,0 +1,16 @@
+Name=Can of RatCola soda
+ShortName=RatCola
+Itemtype=Drink
+Information_Eng=Limited edition RatCola from the General Sam brand. The secret recipe of this cola still remains a mystery.
+basePrice=23980
+width=1
+height=1
+avg24hPrice=16390
+low24hPrice=11500
+lastOfferCount=22
+Sell_Therapist=15107
+Sell_Fence=9592
+Sell_Jaeger=14388
+Sell_Flea Market=15555
+weight=0.360000
+fleaMarketFee=1773

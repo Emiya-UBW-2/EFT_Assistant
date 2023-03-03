@@ -1,0 +1,15 @@
+Name=Video cassette with the Cyborg Killer movie
+ShortName=VHS
+Itemtype=Info
+Information_Eng=A VHS video cassette with a 1990s action movie about a killer cyborg from the future.
+basePrice=69000
+width=2
+height=1
+avg24hPrice=44225
+low24hPrice=36000
+lastOfferCount=36
+Sell_Fence=27600
+Sell_Peacekeeper=270
+Sell_Flea Market=42996
+weight=0.150000
+fleaMarketFee=5044

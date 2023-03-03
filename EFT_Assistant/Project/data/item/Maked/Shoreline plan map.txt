@@ -1,0 +1,15 @@
+Name=Shoreline plan map
+ShortName=Shoreline
+Itemtype=Map
+Information_Eng=A detailed plan map of the Shoreline area.
+basePrice=19950
+width=1
+height=1
+avg24hPrice=22145
+low24hPrice=22144
+lastOfferCount=3
+Sell_Therapist=12568
+Sell_Fence=7980
+Sell_Flea Market=22145
+weight=0.045000
+fleaMarketFee=2051
