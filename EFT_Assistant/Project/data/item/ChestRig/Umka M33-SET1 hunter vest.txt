@@ -1,0 +1,17 @@
+Name=Umka M33-SET1 hunter vest
+ShortName=Umka
+Itemtype=Chest rig
+Information_Eng=The Umka M33-SET1 vest is designed for hunters, travelers, field professionals and security officers.
+basePrice=25700
+width=3
+height=4
+avg24hPrice=20565
+low24hPrice=14000
+lastOfferCount=37
+Sell_Fence=10280
+Sell_Skier=12593
+Sell_Ragman=15934
+Sell_Jaeger=15420
+Sell_Flea Market=15000
+weight=1.200000
+fleaMarketFee=1851

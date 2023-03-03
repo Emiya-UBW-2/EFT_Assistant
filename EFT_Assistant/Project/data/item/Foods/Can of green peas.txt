@@ -1,0 +1,16 @@
+Name=Can of green peas
+ShortName=Peas
+Itemtype=Food
+Information_Eng=Can of green peas, rich in vitamins and selenium, which makes it especially valuable in the dubious environmental conditions of the Norvinsk region.
+basePrice=6521
+width=1
+height=1
+avg24hPrice=12218
+low24hPrice=8000
+lastOfferCount=51
+Sell_Therapist=4108
+Sell_Fence=2608
+Sell_Jaeger=3912
+Sell_Flea Market=9300
+weight=0.462000
+fleaMarketFee=855

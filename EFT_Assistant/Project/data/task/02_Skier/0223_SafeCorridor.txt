@@ -8,7 +8,7 @@ NeedLevel=15
 
 Task_Map=Reserve
 Task_Kill=[Scavx10]
-//Task_FiR_HandOver=[Dogtag (USEC)x7]
+//Task_FiR_HandOver=[Dogtag USECx7]
 //Task_NotFiR_HandOver=[XXXx1]
 Task_Else=Chemical - Part 4é∏îsÇ≈Ç‡î≠ê∂
 Task_Else=ínâ∫ëqå…Ç≈ÉLÉã

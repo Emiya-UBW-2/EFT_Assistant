@@ -1,2 +1,15 @@
 Name=Health Resort east wing room 209 key
-Itemtype=Key
+ShortName=E209 San
+Itemtype=Mechanical Key
+Information_Eng=A key to the Azure Coast sanatorium east wing room 209.
+basePrice=24600
+width=1
+height=1
+avg24hPrice=21854
+low24hPrice=14500
+lastOfferCount=10
+Sell_Prapor=12300
+Sell_Therapist=15498
+Sell_Flea Market=15998
+weight=0.010000
+fleaMarketFee=1821

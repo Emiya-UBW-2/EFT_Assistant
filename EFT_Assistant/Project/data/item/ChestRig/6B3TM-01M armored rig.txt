@@ -1,0 +1,17 @@
+Name=6B3TM-01M armored rig
+ShortName=6B3TM-01M
+Itemtype=Chest rig
+Information_Eng=The 6B3 modified general army body armor under the index 6B3TM-01M. Actively used during the war in Afghanistan. It has a comprehensive titanium class 4 (Russian GOST) protection and a set of several pouches for magazines and grenades.
+basePrice=45300
+width=3
+height=4
+avg24hPrice=80367
+low24hPrice=65000
+lastOfferCount=11
+Sell_Fence=18120
+Sell_Skier=22197
+Sell_Ragman=28086
+Sell_Jaeger=27180
+Sell_Flea Market=65000
+weight=9.200000
+fleaMarketFee=5980

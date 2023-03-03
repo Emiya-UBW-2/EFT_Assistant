@@ -1,0 +1,2 @@
+Name=Compass
+Category=Clothes

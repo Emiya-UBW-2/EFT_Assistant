@@ -1,0 +1,15 @@
+Name=RGN hand grenade
+ShortName=RGN
+Itemtype=Throwable weapon
+Information_Eng=RGN (Ruchnaya Granata Nastupatel'naya - "Offensive Hand Grenade") is an offensive anti-personnel fragmentation hand grenade of impact action.
+basePrice=13900
+width=1
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Prapor=6950
+Sell_Fence=5560
+Sell_Skier=6811
+lastOfferCount=0.310000
+lastOfferCount=0

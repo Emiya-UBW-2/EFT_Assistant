@@ -1,0 +1,16 @@
+Name=TerraGroup armband
+ShortName=TG
+Itemtype=Arm Band
+Information_Eng=An armband for the TerraGroup security detail.
+basePrice=52000
+width=1
+height=1
+avg24hPrice=143379
+low24hPrice=90000
+lastOfferCount=6
+Sell_Fence=20800
+Sell_Skier=25480
+Sell_Ragman=32240
+Sell_Flea Market=111111
+weight=0.050000
+fleaMarketFee=11282

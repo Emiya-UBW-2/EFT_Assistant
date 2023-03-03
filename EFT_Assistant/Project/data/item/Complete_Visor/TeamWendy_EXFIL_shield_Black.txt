@@ -1,2 +1,0 @@
-Name=Team Wendy EXFIL Ballistic face shield(Black)
-Itemtype=Visor

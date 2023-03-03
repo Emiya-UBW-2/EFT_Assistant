@@ -1,3 +1,16 @@
 Name=RGD-5 hand grenade
 ShortName=RGD-5
-Itemtype=Fragmentation grenade
+Itemtype=Throwable weapon
+Information_Eng=RGD-5 (GAU index - 57-G-717) is an antipersonnel fragmentation time-delayed offensive hand grenade. The grenade's UZRGM fuze insures a time delay of 3.2 - 4.2 seconds. Due to the offensive type of the grenade, its fragments are relatively light and have a smaller dispersion radius.
+basePrice=7230
+width=1
+height=1
+avg24hPrice=14193
+low24hPrice=10000
+lastOfferCount=19
+Sell_Prapor=3615
+Sell_Fence=2892
+Sell_Skier=3542
+Sell_Flea Market=11888
+weight=0.310000
+fleaMarketFee=1117

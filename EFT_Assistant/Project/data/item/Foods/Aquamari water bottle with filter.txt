@@ -1,0 +1,16 @@
+Name=Aquamari water bottle with filter
+ShortName=Aquamari
+Itemtype=Drink
+Information_Eng=Purified and enriched bottled water with a CR-100 filter, 0.6L.
+basePrice=31612
+width=1
+height=2
+avg24hPrice=24279
+low24hPrice=19123
+lastOfferCount=41
+Sell_Therapist=19915
+Sell_Fence=12644
+Sell_Jaeger=18967
+Sell_Flea Market=19123
+weight=0.600000
+fleaMarketFee=2294

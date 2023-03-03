@@ -1,0 +1,17 @@
+Name=4.6x30mm AP SX
+ShortName=AP SX
+Itemtype=Ammo
+Information_Eng=A 4.6x30mm HK AP SX cartridge with a 2 gram copper-plated steel core armor-piercing bullet in a brass case. The AP SX cartridge provides the highest penetration capability of the 4.6x30mm caliber, allowing the shooter to pierce basic and intermediate ballistic body protections in addition to providing outstanding results against some specialized protection models, however, due to its design, it has a high bounce probability off various surfaces.
+basePrice=1275
+width=1
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Prapor=637
+Sell_Fence=510
+Sell_Skier=624
+Sell_Peacekeeper=5
+Sell_Mechanic=714
+weight=0.007000
+fleaMarketFee=0

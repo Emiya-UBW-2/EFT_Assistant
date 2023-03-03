@@ -1,4 +1,15 @@
 Name=Chekannaya 15 apartment key
-Itemtype=Key
+ShortName=Chek 15
 Map=Streets of Tarkov
-InElse=ÉãÅ[Égïi(Valuables, Electronics, Stimulants)
+Itemtype=Mechanical Key
+Information_Eng=A key to one of the apartments located at Chekannaya 15.
+basePrice=125249
+width=1
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Prapor=62624
+Sell_Therapist=78906
+weight=0.010000
+fleaMarketFee=11899

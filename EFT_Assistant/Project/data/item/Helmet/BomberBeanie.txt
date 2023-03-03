@@ -1,2 +1,0 @@
-Name=Bomber beanie
-Itemtype=Helmet

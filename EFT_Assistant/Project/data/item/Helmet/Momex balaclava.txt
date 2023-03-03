@@ -1,0 +1,17 @@
+Name=Momex balaclava
+ShortName=Momex
+Itemtype=Face Cover
+Information_Eng=A tactical balaclava with a single hole for eyes.
+basePrice=3211
+width=1
+height=1
+avg24hPrice=10749
+low24hPrice=4200
+lastOfferCount=8
+Sell_Fence=1284
+Sell_Skier=1573
+Sell_Peacekeeper=13
+Sell_Ragman=1990
+Sell_Flea Market=4200
+weight=0.100000
+fleaMarketFee=384

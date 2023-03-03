@@ -1,2 +1,17 @@
 Name=Direct Action Thunderbolt compact chest rig
+ShortName=Thunderbolt
 Itemtype=Chest rig
+Information_Eng=The Thunderbolt fixed chest rig, containing all the basic utility pouches you'd need. Manufactured by Direct Action.
+basePrice=29600
+width=3
+height=3
+avg24hPrice=25297
+low24hPrice=20000
+lastOfferCount=24
+Sell_Fence=11840
+Sell_Skier=14504
+Sell_Ragman=18352
+Sell_Jaeger=17760
+Sell_Flea Market=24444
+weight=0.620000
+fleaMarketFee=2446

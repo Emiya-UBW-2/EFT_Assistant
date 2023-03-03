@@ -1,9 +1,16 @@
 Name=Health Resort east wing room 222 key
-Itemtype=Key
+ShortName=E222 San
 Map=Shoreline
-
-InRoom=[Weapon Box(6x3)x1,Weapon Rackx1,Grenade Boxx1,Toolboxx1]
-InElse=Rare item
-InElse=weapon(RSASS or SV-98 7.62x54R bolt-action sniper rifle or MP5)
-InElse=段ボール内にPhysical bitcoin
-InElse=Health Resort east wing room 226 keyでバルコニー越しに入れる
+Itemtype=Mechanical Key
+Information_Eng=A key to the Azure Coast sanatorium east wing room 222.
+basePrice=78040
+width=1
+height=1
+avg24hPrice=302580
+low24hPrice=225888
+lastOfferCount=4
+Sell_Prapor=39020
+Sell_Therapist=49165
+Sell_Flea Market=348000
+weight=0.010000
+fleaMarketFee=50924

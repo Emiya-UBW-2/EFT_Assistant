@@ -1,0 +1,16 @@
+Name=Rye croutons
+ShortName=Croutons
+Itemtype=Food
+Information_Eng=Croutons from the traditional Russian sourdough rye Borodinskiy bread.
+basePrice=3128
+width=1
+height=1
+avg24hPrice=18537
+low24hPrice=10000
+lastOfferCount=44
+Sell_Therapist=1970
+Sell_Fence=1251
+Sell_Jaeger=1876
+Sell_Flea Market=10000
+weight=0.040000
+fleaMarketFee=1218

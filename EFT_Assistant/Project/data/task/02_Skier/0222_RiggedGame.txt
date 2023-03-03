@@ -8,7 +8,7 @@ NeedItem=[MS2000 Markerx3]
 
 Task_Map=Shoreline
 //Task_Kill=[AllPMCx15]
-//Task_FiR_HandOver=[Dogtag (USEC)x7]
+//Task_FiR_HandOver=[Dogtag USECx7]
 //Task_NotFiR_HandOver=[XXXx1]
 Task_Else=MS2000‚ğ3‚©Š‚É‰B‚·(’·‰Ÿ‚µ)
 

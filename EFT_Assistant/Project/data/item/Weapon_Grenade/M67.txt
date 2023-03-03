@@ -1,3 +1,16 @@
 Name=M67 hand grenade
 ShortName=M67
-Itemtype=Fragmentation grenade
+Itemtype=Throwable weapon
+Information_Eng=M67 Fragmentation Hand Grenade is an American hand grenade, designed for antipersonnel combat purposes and adopted in 1969 by the army of the United States.
+basePrice=8020
+width=1
+height=1
+avg24hPrice=18097
+low24hPrice=8999
+lastOfferCount=40
+Sell_Prapor=4010
+Sell_Fence=3208
+Sell_Skier=3929
+Sell_Flea Market=17498
+weight=0.396000
+fleaMarketFee=1791

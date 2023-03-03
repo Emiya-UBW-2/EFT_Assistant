@@ -1,0 +1,16 @@
+Name=VKBO army bag
+ShortName=VKBO
+Itemtype=Backpack
+Information_Eng=Included in the all-season basic equipment kit (VKBO). Designed for transportation and storage of personal items of soldiers.
+basePrice=2440
+width=3
+height=4
+avg24hPrice=17406
+low24hPrice=8666
+lastOfferCount=17
+Sell_Fence=976
+Sell_Ragman=1512
+Sell_Jaeger=1464
+Sell_Flea Market=50000
+weight=0.960000
+fleaMarketFee=19249

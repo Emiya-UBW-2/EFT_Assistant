@@ -1,0 +1,17 @@
+Name=Ded Moroz hat
+ShortName=Hat
+Itemtype=Headwear
+Information_Eng=A headpiece of the famous Ded Moroz ("Grandfather Frost"). A traditional Russian hat, if you want to get hammered hardcore style in the New Year's Eve.
+basePrice=500
+width=1
+height=1
+avg24hPrice=16444
+low24hPrice=12888
+lastOfferCount=1
+Sell_Fence=200
+Sell_Skier=245
+Sell_Peacekeeper=2
+Sell_Ragman=310
+Sell_Flea Market=20000
+weight=0.100000
+fleaMarketFee=12046

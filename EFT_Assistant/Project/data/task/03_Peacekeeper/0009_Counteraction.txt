@@ -8,7 +8,7 @@ NeedTask=Spa Tour - Part 3
 
 Task_Map=Lighthouse
 Task_Kill=[Lighthouse-BEARPMCx20]
-Task_FiR_HandOver=[Dogtag (BEAR)x20]
+Task_FiR_HandOver=[Dogtag BEARx20]
 //Task_NotFiR_HandOver=[MRE ration packx5]
 Task_Else=USEC�̂ݎ󒍉\
 

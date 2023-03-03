@@ -4,7 +4,7 @@ Trader=Prapor
 NeedTask=The Punisher - Part 5
 NeedLevel=21
 
-Task_FiR_HandOver=[Dogtag (USEC)x7,Dogtag (BEAR)x7]
+Task_FiR_HandOver=[Dogtag USECx7,Dogtag BEARx7]
 Task_Kill=[AllPMCx15]
 Task_Else=ƒLƒ‹‚ÍSVDS‚ÅFactoryˆÈŠO‚Å
 

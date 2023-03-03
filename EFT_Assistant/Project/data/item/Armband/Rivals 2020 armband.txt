@@ -1,0 +1,16 @@
+Name=Rivals 2020 armband
+ShortName=Rivals
+Itemtype=Arm Band
+Information_Eng=An exclusive armband from the Twitch Rivals 2020 event.
+basePrice=20000
+width=1
+height=1
+avg24hPrice=896666
+low24hPrice=600000
+lastOfferCount=4
+Sell_Fence=8000
+Sell_Skier=9800
+Sell_Ragman=12400
+Sell_Flea Market=600000
+weight=0.050000
+fleaMarketFee=297811

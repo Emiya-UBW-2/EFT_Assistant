@@ -1,2 +1,16 @@
 Name=TerraGroup Labs keycard (Red)
+ShortName=Red
 Itemtype=Keycard
+Information_Eng=A United Security-issued TerraGroup Labs keycard for support staff.
+basePrice=2600000
+width=1
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
+Sell_Therapist=1638000
+Sell_Peacekeeper=10174
+Sell_Mechanic=1456000
+Sell_Flea Market=89999999
+weight=0.010000
+fleaMarketFee=49176305

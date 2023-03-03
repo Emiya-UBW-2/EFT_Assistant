@@ -1,0 +1,15 @@
+Name=Pilgrim tourist backpack
+ShortName=Pilgrim
+Itemtype=Backpack
+Information_Eng=A large and brightly colored backpack that is perfect for the tourist on a raid.
+basePrice=43565
+width=5
+height=7
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Fence=17426
+Sell_Ragman=27010
+Sell_Jaeger=26139
+weight=3.480000
+fleaMarketFee=0

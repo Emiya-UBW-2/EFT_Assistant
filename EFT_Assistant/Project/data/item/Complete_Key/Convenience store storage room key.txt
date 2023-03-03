@@ -1,0 +1,15 @@
+Name=Convenience store storage room key
+ShortName=Store
+Itemtype=Mechanical Key
+Information_Eng=A key that opens a storage room inside the roadside convenience store.
+basePrice=15703
+width=1
+height=1
+avg24hPrice=15459
+low24hPrice=9000
+lastOfferCount=15
+Sell_Prapor=7851
+Sell_Therapist=9892
+Sell_Flea Market=12888
+weight=0.010000
+fleaMarketFee=1293

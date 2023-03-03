@@ -1,2 +1,15 @@
 Name=Health Resort west wing room 303 key
-Itemtype=Key
+ShortName=W303 San
+Itemtype=Mechanical Key
+Information_Eng=A key to the Azure Coast sanatorium west wing room 303.
+basePrice=8100
+width=1
+height=1
+avg24hPrice=36031
+low24hPrice=19999
+lastOfferCount=22
+Sell_Prapor=4050
+Sell_Therapist=5103
+Sell_Flea Market=34000
+weight=0.010000
+fleaMarketFee=4805

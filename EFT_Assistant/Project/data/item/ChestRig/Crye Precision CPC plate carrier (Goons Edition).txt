@@ -1,0 +1,16 @@
+Name=Crye Precision CPC plate carrier (Goons Edition)
+ShortName=CPC GE
+Itemtype=Chest rig
+Information_Eng=The CAGE PLATE CARRIER (CPC) offers unrivaled comfort and load support in a low profile plate carrier configuration. The system supports a range of different pouches. In this case, the configuration is made for conducting assault operations with increased mobility.
+basePrice=195000
+width=4
+height=3
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Fence=78000
+Sell_Skier=95550
+Sell_Ragman=120900
+Sell_Jaeger=117000
+weight=9.600000
+fleaMarketFee=0

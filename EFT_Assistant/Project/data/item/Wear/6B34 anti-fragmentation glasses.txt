@@ -1,0 +1,17 @@
+Name=6B34 anti-fragmentation glasses
+ShortName=6B34
+Itemtype=Vis. observ. device
+Information_Eng=A pair of 6B34 anti-fragmentation glasses from the Ratnik Russian military gear set.
+basePrice=2755
+width=2
+height=1
+avg24hPrice=6995
+low24hPrice=2999
+lastOfferCount=8
+Sell_Fence=1102
+Sell_Skier=1349
+Sell_Peacekeeper=11
+Sell_Ragman=1708
+Sell_Flea Market=2999
+weight=0.120000
+fleaMarketFee=279

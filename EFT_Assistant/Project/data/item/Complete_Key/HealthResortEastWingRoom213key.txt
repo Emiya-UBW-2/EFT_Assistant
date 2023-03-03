@@ -1,2 +1,15 @@
 Name=Health Resort east wing room 213 key
-Itemtype=Key
+ShortName=E213 San
+Itemtype=Mechanical Key
+Information_Eng=A key to the Azure Coast sanatorium east wing room 213.
+basePrice=6000
+width=1
+height=1
+avg24hPrice=19692
+low24hPrice=8000
+lastOfferCount=25
+Sell_Prapor=3000
+Sell_Therapist=3780
+Sell_Flea Market=11111
+weight=0.010000
+fleaMarketFee=1076

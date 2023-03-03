@@ -1,0 +1,16 @@
+Name=Salty Dog beef sausage
+ShortName=Sausage
+Itemtype=Food
+Information_Eng=The legendary and rare smoked sausage "Salty Dog". No, it's not made of dogs, it's just the name.
+basePrice=20000
+width=2
+height=1
+avg24hPrice=19341
+low24hPrice=14000
+lastOfferCount=57
+Sell_Therapist=12600
+Sell_Fence=8000
+Sell_Jaeger=12000
+Sell_Flea Market=15444
+weight=0.600000
+fleaMarketFee=1591

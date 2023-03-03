@@ -1,7 +1,16 @@
 Name=Health Resort west wing room 301 key
-Itemtype=Key
+ShortName=W301 San
 Map=Shoreline
-InElse=West304にバルコニー越しに入れる
-
-InRoom=[Weapon box(5x5)x1,PC blockx2]
-InElse=ルート品(304Computer parts, 304Meds, 304Money,Graphics cardx2,304Weapon(SV-98),304コンピューター横の机にLEDXx2,301Graphics card,301白いクレート上にLEDX)
+Itemtype=Mechanical Key
+Information_Eng=A key to the Azure Coast sanatorium west wing room 301.
+basePrice=87000
+width=1
+height=1
+avg24hPrice=275341
+low24hPrice=190420
+lastOfferCount=8
+Sell_Prapor=43500
+Sell_Therapist=54810
+Sell_Flea Market=298000
+weight=0.010000
+fleaMarketFee=37639

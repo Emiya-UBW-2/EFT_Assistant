@@ -1,0 +1,17 @@
+Name=Shemagh (Green)
+ShortName=Shemagh
+Itemtype=Face Cover
+Information_Eng=A favorite headpiece of PMCs around the globe.
+basePrice=4258
+width=1
+height=1
+avg24hPrice=21244
+low24hPrice=12000
+lastOfferCount=23
+Sell_Fence=1703
+Sell_Skier=2086
+Sell_Peacekeeper=17
+Sell_Ragman=2639
+Sell_Flea Market=12000
+weight=0.100000
+fleaMarketFee=1373

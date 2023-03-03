@@ -1,0 +1,16 @@
+Name=Pack of sugar
+ShortName=Sugar
+Itemtype=Food
+Information_Eng=A packet of lump sugar. A rare thing in conditions of total food shortage. It is also used in brewing.
+basePrice=21489
+width=1
+height=1
+avg24hPrice=48831
+low24hPrice=44000
+lastOfferCount=308
+Sell_Therapist=13538
+Sell_Fence=8595
+Sell_Jaeger=12893
+Sell_Flea Market=44000
+weight=0.500000
+fleaMarketFee=4399

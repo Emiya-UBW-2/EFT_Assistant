@@ -1,2 +1,0 @@
-Name=NFM "HJELM" helmet
-Itemtype=Helmet

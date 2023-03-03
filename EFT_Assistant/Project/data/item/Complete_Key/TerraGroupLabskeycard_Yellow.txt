@@ -1,2 +1,16 @@
 Name=TerraGroup Labs keycard (Yellow)
+ShortName=Yellow
 Itemtype=Keycard
+Information_Eng=A United Security-issued TerraGroup Labs keycard for technicians in the Yellow sector.
+basePrice=900000
+width=1
+height=1
+avg24hPrice=11602296
+low24hPrice=9999999
+lastOfferCount=7
+Sell_Therapist=567000
+Sell_Peacekeeper=3522
+Sell_Mechanic=504000
+Sell_Flea Market=11000000
+weight=0.010000
+fleaMarketFee=3016266

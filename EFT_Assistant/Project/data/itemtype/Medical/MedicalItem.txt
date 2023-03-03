@@ -1,0 +1,2 @@
+Name=Medical item
+Category=Medical

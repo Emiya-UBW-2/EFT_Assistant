@@ -1,0 +1,17 @@
+Name=Neoprene mask
+ShortName=Mask
+Itemtype=Face Cover
+Information_Eng=Neoprene light mask for the face with a creative image of a fiery flame. With such a mask, you're not just cool, you're dangerous.
+basePrice=5244
+width=1
+height=1
+avg24hPrice=15942
+low24hPrice=9500
+lastOfferCount=31
+Sell_Fence=2097
+Sell_Skier=2569
+Sell_Peacekeeper=21
+Sell_Ragman=3251
+Sell_Flea Market=13887
+weight=0.250000
+fleaMarketFee=1542

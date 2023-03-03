@@ -1,2 +1,16 @@
 Name=Grenade case
+ShortName=Grenades
 Itemtype=Common container
+Information_Eng=A large case for storing various hand grenades.
+basePrice=510000
+width=3
+height=3
+avg24hPrice=321361
+low24hPrice=317500
+lastOfferCount=66
+Sell_Therapist=321300
+Sell_Ragman=316200
+Sell_Jaeger=306000
+Sell_Flea Market=321299
+weight=3.000000
+fleaMarketFee=37394

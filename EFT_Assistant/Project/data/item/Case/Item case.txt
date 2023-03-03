@@ -1,0 +1,15 @@
+Name=Item case
+ShortName=Items
+Itemtype=Common container
+Information_Eng=A storage case for various items.
+basePrice=1229994
+width=4
+height=4
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
+Sell_Therapist=774896
+Sell_Ragman=762596
+Sell_Jaeger=737996
+lastOfferCount=7.000000
+lastOfferCount=116849

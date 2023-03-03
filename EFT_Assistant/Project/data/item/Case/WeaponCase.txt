@@ -1,2 +1,16 @@
 Name=Weapon case
+ShortName=Weapons
 Itemtype=Common container
+Information_Eng=A storage case for weapons, ammunition, and weapon parts.
+basePrice=874566
+width=5
+height=2
+avg24hPrice=8140925
+low24hPrice=6420000
+lastOfferCount=8
+Sell_Therapist=550976
+Sell_Ragman=542230
+Sell_Jaeger=524739
+Sell_Flea Market=7666665
+weight=9.000000
+fleaMarketFee=1697637

@@ -1,2 +1,15 @@
 Name=Health Resort west wing room 325 key
-Itemtype=Key
+ShortName=W325 San
+Itemtype=Mechanical Key
+Information_Eng=A key to the Azure Coast sanatorium west wing room 325.
+basePrice=4200
+width=1
+height=1
+avg24hPrice=15034
+low24hPrice=6300
+lastOfferCount=32
+Sell_Prapor=2100
+Sell_Therapist=2646
+Sell_Flea Market=9000
+weight=0.010000
+fleaMarketFee=915

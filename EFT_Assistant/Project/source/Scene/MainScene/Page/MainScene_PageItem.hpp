@@ -214,7 +214,7 @@ namespace FPS_n2 {
 				//
 				{
 					Layer = 1;
-					bool CanGoNext = ((m_ItemIDs.at(Layer).first != InvalidID) && (ItemTypeData::Instance()->FindPtr(m_ItemIDs.at(Layer).first)->GetName() == "Key"));
+					bool CanGoNext = ((m_ItemIDs.at(Layer).first != InvalidID) && (ItemTypeData::Instance()->FindPtr(m_ItemIDs.at(Layer).first)->GetName() == "Mechanical Key"));
 					MakeLists(Layer, CanGoNext, [&](std::pair<int, bool>* IDs) {
 						isChild |= (Layer >= 1);
 						if (isChild) {
@@ -263,16 +263,11 @@ namespace FPS_n2 {
 				}
 			}
 			//
-			auto LootID = ItemCategoryData::Instance()->FindID("Loot");
-			if (m_ItemIDs.at(0).first == InvalidID || m_ItemIDs.at(0).first == LootID) {
+			{
 				int xp = y_r(1910) - LineHeight * 3;
 				int yp = y_r(900);
 				WindowSystem::CheckBox(xp, yp, &m_RaidMode);
 				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, FontHandle::FontXCenter::RIGHT, White, Black, "レイドモード(ルート品のみ)");
-				if (m_RaidMode) {
-					m_ItemIDs.at(0).first = LootID;
-					m_ItemIDs.at(0).second = true;
-				}
 			}
 		}
 		void Dispose_Sub(void) noexcept override {

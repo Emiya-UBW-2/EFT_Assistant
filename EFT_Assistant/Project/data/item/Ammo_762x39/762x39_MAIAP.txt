@@ -1,2 +1,17 @@
 Name=7.62x39mm MAI AP
+ShortName=MAI AP
 Itemtype=Ammo
+Information_Eng=A 7.62x39mm MAI AP cartridge with a two-part armor-piercing projectile, the bullet consists of a sabot and a tungsten carbide penetrator body, in a steel case. This bullet was designed by MAI to increase the penetration capabilities of the 7.62x39mm caliber, thanks to its muzzle velocity and peculiar design, it is capable of piercing basic and intermediate ballistic body protections, in addition to providing outstanding results against some modern specialized protection models, however, it has a high bounce probability on various surfaces.
+basePrice=2594
+width=1
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Prapor=1297
+Sell_Fence=1037
+Sell_Skier=1271
+Sell_Peacekeeper=10
+Sell_Mechanic=1452
+weight=0.012000
+fleaMarketFee=0

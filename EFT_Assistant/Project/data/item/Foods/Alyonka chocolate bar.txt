@@ -1,0 +1,16 @@
+Name=Alyonka chocolate bar
+ShortName=Alyonka
+Itemtype=Food
+Information_Eng=The famous milk chocolate of post-Soviet times, sweet and creamy.
+basePrice=10483
+width=1
+height=1
+avg24hPrice=28121
+low24hPrice=23000
+lastOfferCount=35
+Sell_Therapist=6604
+Sell_Fence=4193
+Sell_Jaeger=6289
+Sell_Flea Market=23800
+weight=0.100000
+fleaMarketFee=2474

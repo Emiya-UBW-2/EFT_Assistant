@@ -1,0 +1,16 @@
+Name=Rivals 2020 cap
+ShortName=Rivals
+Itemtype=Headwear
+Information_Eng=A special cap from the Twitch Rivals 2020 event.
+basePrice=20000
+width=1
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Fence=8000
+Sell_Skier=9800
+Sell_Peacekeeper=78
+Sell_Ragman=12400
+weight=0.100000
+fleaMarketFee=1900

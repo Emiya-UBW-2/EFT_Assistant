@@ -1,2 +1,0 @@
-Name=HighCom Striker ACHHC IIIA helmet
-Itemtype=Helmet

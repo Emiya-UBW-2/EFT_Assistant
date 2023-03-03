@@ -1,0 +1,17 @@
+Name=BEAR baseball cap (Black)
+ShortName=BEAR
+Itemtype=Headwear
+Information_Eng=A tactical BEAR PMC baseball cap. Black version.
+basePrice=1827
+width=1
+height=1
+avg24hPrice=12875
+low24hPrice=5000
+lastOfferCount=2
+Sell_Fence=730
+Sell_Skier=895
+Sell_Peacekeeper=7
+Sell_Ragman=1132
+Sell_Flea Market=5000
+weight=0.100000
+fleaMarketFee=564

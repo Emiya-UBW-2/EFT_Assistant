@@ -1,2 +1,14 @@
 Name=Pistol case
-Itemtype=Common container
+ShortName=Pistols
+Itemtype=Locking container
+Information_Eng=A small case for pistol and ammunition storage.
+basePrice=11000
+width=2
+height=2
+avg24hPrice=190185
+low24hPrice=140000
+lastOfferCount=33
+Sell_Jaeger=6600
+Sell_Flea Market=179500
+weight=0.500000
+fleaMarketFee=59455

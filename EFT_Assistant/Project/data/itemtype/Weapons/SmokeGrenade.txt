@@ -1,3 +1,0 @@
-Name=Smoke grenade
-ShortName=SMOKE
-Category=Weapons

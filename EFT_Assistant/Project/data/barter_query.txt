@@ -1,5 +1,5 @@
 {"query" : "{
- items(type:barter){
+ items(categoryNames:FoodAndDrink){
    name
    shortName
    description

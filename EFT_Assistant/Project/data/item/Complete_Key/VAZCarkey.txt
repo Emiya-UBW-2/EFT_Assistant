@@ -1,2 +1,15 @@
 Name=VAZ car key
-Itemtype=Key
+ShortName=Shestyorka
+Itemtype=Mechanical Key
+Information_Eng=A key to one of the VAZ cars commonly known as Shestyorka ("the sixth one").
+basePrice=1920
+width=1
+height=1
+avg24hPrice=11331
+low24hPrice=5999
+lastOfferCount=8
+Sell_Prapor=960
+Sell_Therapist=1209
+Sell_Flea Market=6996
+weight=0.010000
+fleaMarketFee=914

@@ -1,0 +1,17 @@
+Name=Oakley SI M Frame safety glasses
+ShortName=M Frame
+Itemtype=Vis. observ. device
+Information_Eng=Ballistic glasses with impact-resistant polycarbonate lenses.
+basePrice=4700
+width=2
+height=1
+avg24hPrice=10254
+low24hPrice=4780
+lastOfferCount=8
+Sell_Fence=1880
+Sell_Skier=2303
+Sell_Peacekeeper=18
+Sell_Ragman=2914
+Sell_Flea Market=4999
+weight=0.032000
+fleaMarketFee=467

@@ -1,0 +1,17 @@
+Name=Scav Vest
+ShortName=Scav Vest
+Itemtype=Chest rig
+Information_Eng=A fisherman's vest can more or less replace the chest rig, if the need is pressing enough.
+basePrice=4199
+width=2
+height=3
+avg24hPrice=20241
+low24hPrice=11111
+lastOfferCount=43
+Sell_Fence=1679
+Sell_Skier=2057
+Sell_Ragman=2603
+Sell_Jaeger=2519
+Sell_Flea Market=12222
+weight=0.400000
+fleaMarketFee=1420

@@ -1,0 +1,17 @@
+Name=Twitch Rivals 2021 balaclava
+ShortName=TR2021
+Itemtype=Face Cover
+Information_Eng=A custom balaclava in Twitch Rivals colors.
+basePrice=30454
+width=1
+height=1
+avg24hPrice=24637
+low24hPrice=18888
+lastOfferCount=5
+Sell_Fence=12181
+Sell_Skier=14922
+Sell_Peacekeeper=119
+Sell_Ragman=18881
+Sell_Flea Market=19999
+weight=0.100000
+fleaMarketFee=2261

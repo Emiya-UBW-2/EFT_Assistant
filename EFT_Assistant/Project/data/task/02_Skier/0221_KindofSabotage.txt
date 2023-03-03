@@ -8,7 +8,7 @@ NeedTask=Pharmacist
 
 Task_Map=Woods
 //Task_Kill=[AllPMCx15]
-//Task_FiR_HandOver=[Dogtag (USEC)x7]
+//Task_FiR_HandOver=[Dogtag USECx7]
 //Task_NotFiR_HandOver=[XXXx1]
 Task_Else=Secure Folder 0052‚ğE‚Á‚ÄƒXƒLƒ„‚É”[•i
 

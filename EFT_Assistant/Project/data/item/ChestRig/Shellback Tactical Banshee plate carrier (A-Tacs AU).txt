@@ -1,0 +1,16 @@
+Name=Shellback Tactical Banshee plate carrier (A-Tacs AU)
+ShortName=Banshee
+Itemtype=Chest rig
+Information_Eng=The Banshee Rifle Plate Carrier was designed to meet and exceed the needs of law enforcement, military, and tactical operators. This ultra lightweight, low profile, high-quality plate carrier has great load carrying capacity. Ideal for law enforcement patrol officers for use in high threat active shooter situations, multi-assault counter terrorism action capabilities (MACTAC) and counter terrorism direct actions.
+basePrice=80000
+width=3
+height=3
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Fence=32000
+Sell_Skier=39200
+Sell_Ragman=49600
+Sell_Jaeger=48000
+weight=6.900000
+fleaMarketFee=0

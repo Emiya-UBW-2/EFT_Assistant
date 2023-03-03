@@ -9,7 +9,7 @@ NeedItem=[Health Resort west wing room 216 keyx1,Health Resort east wing room 30
 Task_Map=Woods
 Task_Map=Shoreline
 //Task_Kill=[AllPMCx15]
-//Task_FiR_HandOver=[Dogtag (USEC)x7]
+//Task_FiR_HandOver=[Dogtag USECx7]
 //Task_NotFiR_HandOver=[XXXx1]
 Task_Else=Motor Controller #1~3‚ÆSingle-axis Fiber Optic Gyroscope #1~2‚ğE‚Á‚Ä”[•i
 

@@ -1,0 +1,17 @@
+Name=Army cap (Flora)
+ShortName=Cap
+Itemtype=Headwear
+Information_Eng=A regular army cap, colored in flora camouflage.
+basePrice=1353
+width=1
+height=1
+avg24hPrice=5928
+low24hPrice=3111
+lastOfferCount=1
+Sell_Fence=541
+Sell_Skier=662
+Sell_Peacekeeper=5
+Sell_Ragman=838
+Sell_Flea Market=6500
+weight=0.100000
+fleaMarketFee=993

@@ -1,0 +1,17 @@
+Name=Tactical fleece beanie
+ShortName=Fleece
+Itemtype=Headwear
+Information_Eng=Operate properly only in the tactical fleece hat. It's tactical.
+basePrice=4510
+width=1
+height=1
+avg24hPrice=10849
+low24hPrice=3443
+lastOfferCount=6
+Sell_Fence=1804
+Sell_Skier=2209
+Sell_Peacekeeper=18
+Sell_Ragman=2796
+Sell_Flea Market=4000
+weight=0.100000
+fleaMarketFee=390

@@ -1,0 +1,17 @@
+Name=Belt-A + Belt-B gear rig
+ShortName=Belt combo
+Itemtype=Chest rig
+Information_Eng=Belt-A is the legendary rig from the Afghan war era. This rig was adopted in 1989 and was used by the GRU Special Forces until the beginning of the 21st century. It comes equipped with an added Belt-B that has 10 pouches for VOG grenades.
+basePrice=55100
+width=4
+height=4
+avg24hPrice=34777
+low24hPrice=30000
+lastOfferCount=32
+Sell_Fence=22040
+Sell_Skier=26999
+Sell_Ragman=34162
+Sell_Jaeger=33060
+Sell_Flea Market=34400
+weight=1.700000
+fleaMarketFee=4030

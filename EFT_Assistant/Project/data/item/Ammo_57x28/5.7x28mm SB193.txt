@@ -1,0 +1,17 @@
+Name=5.7x28mm SB193
+ShortName=SB193
+Itemtype=Ammo
+Information_Eng=A 5.7x28mm FN SB193 cartridge with a 4 gram lead core subsonic bullet with a reinforced copper jacket, in a brass case with a reduced charge. The powder load in this cartridge is adjusted to ensure the weapon's fire cycling when fired from the FN Five-seveN pistol and the FN P90 submachine gun, achieving excellent noise reduction when used in conjunction with a suppressor, and despite its low muzzle velocity, the bullet has ballistic capabilities to pierce basic ballistic body protections and provides excellent results against intermediate protection models, however, due to its design, it has a significant bounce probability off various surfaces.
+basePrice=143
+width=1
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
+Sell_Prapor=71
+Sell_Fence=57
+Sell_Skier=70
+Sell_Peacekeeper=1
+Sell_Mechanic=80
+weight=0.007000
+fleaMarketFee=0

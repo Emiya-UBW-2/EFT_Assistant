@@ -1,2 +1,15 @@
 Name=Store safe key
-Itemtype=Key
+ShortName=Safe
+Itemtype=Mechanical Key
+Information_Eng=A key to the safe inside one of the village stores, located somewhere near the Azure Coast sanatorium.
+basePrice=3100
+width=1
+height=1
+avg24hPrice=16344
+low24hPrice=6000
+lastOfferCount=35
+Sell_Prapor=1550
+Sell_Therapist=1953
+Sell_Flea Market=10000
+weight=0.010000
+fleaMarketFee=1224

@@ -1,0 +1,16 @@
+Name=Army crackers
+ShortName=Crackers
+Itemtype=Food
+Information_Eng=A small pack of saltine crackers usually found in Russian army combat rations.
+basePrice=2402
+width=1
+height=1
+avg24hPrice=14069
+low24hPrice=10000
+lastOfferCount=9
+Sell_Therapist=1513
+Sell_Fence=960
+Sell_Jaeger=1441
+Sell_Flea Market=11111
+weight=0.200000
+fleaMarketFee=1661

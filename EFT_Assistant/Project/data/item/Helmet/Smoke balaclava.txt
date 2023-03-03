@@ -1,0 +1,17 @@
+Name=Smoke balaclava
+ShortName=Smoke
+Itemtype=Face Cover
+Information_Eng=The signature balaclava of the famous hip-hop artist of Tarkov - Smoke.
+basePrice=44300
+width=1
+height=1
+avg24hPrice=28711
+low24hPrice=26000
+lastOfferCount=26
+Sell_Fence=17720
+Sell_Skier=21707
+Sell_Peacekeeper=173
+Sell_Ragman=27466
+Sell_Flea Market=27498
+weight=0.100000
+fleaMarketFee=3235

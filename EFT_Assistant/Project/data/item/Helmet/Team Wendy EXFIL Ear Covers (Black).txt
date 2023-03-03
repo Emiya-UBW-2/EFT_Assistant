@@ -1,0 +1,17 @@
+Name=Team Wendy EXFIL Ear Covers (Black)
+ShortName=EXFIL Ears
+Itemtype=Armored equipment
+Information_Eng=Additional armored ear covers for the Team Wendy EXFIL helmet to ensure a bigger protection area. Black version.
+basePrice=39200
+width=2
+height=2
+avg24hPrice=65366
+low24hPrice=45999
+lastOfferCount=21
+Sell_Fence=15680
+Sell_Skier=19208
+Sell_Peacekeeper=153
+Sell_Ragman=24304
+Sell_Flea Market=45999
+weight=0.172000
+fleaMarketFee=4229

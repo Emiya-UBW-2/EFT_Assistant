@@ -1,2 +1,16 @@
 Name=Bottle of water (0.6L)
+ShortName=Water
 Itemtype=Drink
+Information_Eng=A 0.6 liter bottle of water. The bottle itself might be a bit dirty, but the water is clean. Hopefully.
+basePrice=2450
+width=1
+height=2
+avg24hPrice=18369
+low24hPrice=12500
+lastOfferCount=29
+Sell_Therapist=1543
+Sell_Fence=980
+Sell_Jaeger=1470
+Sell_Flea Market=12500
+weight=0.650000
+fleaMarketFee=1980

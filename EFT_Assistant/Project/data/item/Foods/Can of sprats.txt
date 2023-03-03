@@ -1,0 +1,16 @@
+Name=Can of sprats
+ShortName=Sprats
+Itemtype=Food
+Information_Eng=Delicacy sprats from the Alconafter company.
+basePrice=8912
+width=1
+height=1
+avg24hPrice=11766
+low24hPrice=7000
+lastOfferCount=31
+Sell_Therapist=5614
+Sell_Fence=3564
+Sell_Jaeger=5347
+Sell_Flea Market=7000
+weight=0.280000
+fleaMarketFee=715

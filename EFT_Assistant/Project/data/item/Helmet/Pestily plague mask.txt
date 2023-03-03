@@ -1,0 +1,17 @@
+Name=Pestily plague mask
+ShortName=Plague mask
+Itemtype=Face Cover
+Information_Eng=A restored mask of the plague doctor Pestily. A rare and terrifying thing used by cultists in Tarkov.
+basePrice=94900
+width=2
+height=2
+avg24hPrice=59020
+low24hPrice=44000
+lastOfferCount=20
+Sell_Fence=37960
+Sell_Skier=46501
+Sell_Peacekeeper=371
+Sell_Ragman=58838
+Sell_Flea Market=56000
+weight=0.180000
+fleaMarketFee=6850

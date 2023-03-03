@@ -1,0 +1,17 @@
+Name=5.45x39mm 7N40
+ShortName=7N40
+Itemtype=Ammo
+Information_Eng=The newest legendary 5.45x39mm 7N40 cartridge with a 4.2 gram armor-piercing bullet with a pointed hardened carbon steel core over a lead base with a bimetallic jacket, in a steel case. Made as part of the Ratnik program together with 7N39 PPBS "Igolnik". It is capable of piercing through basic and intermediate ballistic body protections, however, due to its design, it has a significant bounce probability on various surfaces.
+basePrice=2122
+width=1
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Prapor=1061
+Sell_Fence=848
+Sell_Skier=1039
+Sell_Peacekeeper=8
+Sell_Mechanic=1188
+weight=0.011000
+fleaMarketFee=0

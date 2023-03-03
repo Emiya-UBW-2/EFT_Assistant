@@ -1,0 +1,16 @@
+Name=Emergency Water Ration
+ShortName=EWR
+Itemtype=Drink
+Information_Eng=Drinking water for use in case of emergency and other circumstances where an emergency supply of liquid is needed, ready to be stored for several years.
+basePrice=17200
+width=1
+height=1
+avg24hPrice=17141
+low24hPrice=13333
+lastOfferCount=46
+Sell_Therapist=10836
+Sell_Fence=6880
+Sell_Jaeger=10320
+Sell_Flea Market=16000
+weight=0.128000
+fleaMarketFee=1541

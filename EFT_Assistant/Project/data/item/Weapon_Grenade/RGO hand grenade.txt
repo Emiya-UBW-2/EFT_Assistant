@@ -1,0 +1,15 @@
+Name=RGO hand grenade
+ShortName=RGO
+Itemtype=Throwable weapon
+Information_Eng=RGO (Ruchnaya Granata Oboronitel'naya - "Defensive Hand Grenade") is a defensive anti-personnel fragmentation hand grenade of impact action.
+basePrice=10800
+width=1
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Prapor=5400
+Sell_Fence=4320
+Sell_Skier=5292
+lastOfferCount=0.530000
+lastOfferCount=0

@@ -1,0 +1,17 @@
+Name=Jack Pyke Hunting LLCS boonie hat
+ShortName=LLCS
+Itemtype=Headwear
+Information_Eng=The Jack Pyke Hunting LLCS camouflage boonie hat from the 3D Concealment Suit. Equipped with a masking net for the face.
+basePrice=9556
+width=2
+height=2
+avg24hPrice=14703
+low24hPrice=8500
+lastOfferCount=20
+Sell_Fence=3822
+Sell_Skier=4682
+Sell_Peacekeeper=37
+Sell_Ragman=5924
+Sell_Flea Market=8500
+weight=0.180000
+fleaMarketFee=829

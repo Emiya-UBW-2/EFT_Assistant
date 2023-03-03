@@ -1,0 +1,2 @@
+Name=Armored equipment
+Category=Clothes

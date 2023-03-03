@@ -1,2 +1,16 @@
 Name=Ops-Core FAST MT Super High Cut helmet (Black)
-Itemtype=Helmet
+ShortName=FAST MT
+Itemtype=Headwear
+Information_Eng=The Ops-Core FAST ballistic helmet is popular in special forces all around the world. Can be modified with different components. Black version.
+basePrice=130976
+width=2
+height=2
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
+Sell_Fence=52390
+Sell_Skier=64178
+Sell_Peacekeeper=513
+Sell_Ragman=81205
+weight=0.900000
+fleaMarketFee=0

@@ -1,0 +1,16 @@
+Name=Ars Arma A18 Skanda plate carrier
+ShortName=A18
+Itemtype=Chest rig
+Information_Eng=A plate carrier with armor plates (Russian GOST class 4 protection) with chest and back protection. Equipped with a set of pouches. Manufactured by Ars Arma.
+basePrice=107000
+width=4
+height=3
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Fence=42800
+Sell_Skier=52430
+Sell_Ragman=66340
+Sell_Jaeger=64200
+weight=8.200000
+fleaMarketFee=0

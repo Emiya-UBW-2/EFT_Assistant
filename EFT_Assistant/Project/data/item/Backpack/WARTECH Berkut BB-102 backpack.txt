@@ -1,0 +1,16 @@
+Name=WARTECH Berkut BB-102 backpack
+ShortName=Berkut
+Itemtype=Backpack
+Information_Eng=A tactical backpack with front loading capabilities. Suitable for use by military and security forces, or for military tactical games. Manufactured in WARTECH.
+basePrice=19200
+width=4
+height=5
+avg24hPrice=27675
+low24hPrice=19123
+lastOfferCount=6
+Sell_Fence=7680
+Sell_Ragman=11904
+Sell_Jaeger=11520
+Sell_Flea Market=24777
+weight=0.960000
+fleaMarketFee=2267

@@ -344,10 +344,14 @@ namespace FPS_n2 {
 			name = data["name"];
 			shortName = data["shortName"];
 			if (data.contains("description")) {
-				description = data["description"];
+				if (!data["description"].is_null()) {
+					description = data["description"];
+				}
 			}
 			if (data.contains("basePrice")) {
-				basePrice = data["basePrice"];
+				if (!data["basePrice"].is_null()) {
+					basePrice = data["basePrice"];
+				}
 			}
 			if (data.contains("width")) {
 				width = data["width"];
@@ -451,6 +455,17 @@ namespace FPS_n2 {
 						std::ofstream outputfile(L.GetFilePath());
 						outputfile << "Name=" + jd.name + "\n";
 						outputfile << "ShortName=" + jd.shortName + "\n";
+						for (auto& m : L.GetMapID()) {
+							auto* ptr = MapData::Instance()->FindPtr(m);
+							if (ptr) {
+								outputfile << "Map=" + ptr->GetName() + "\n";
+							}
+						}
+						//if (LEFT == "ChildParts") {}
+						//if (LEFT == "Conflict") {}
+						//if (LEFT == "Recoil") {}
+						//if (LEFT == "Ergonomics") {}
+
 						outputfile << "Itemtype=" + jd.categorytypes + "\n";
 						outputfile << "Information_Eng=" + jd.description + "\n";
 						outputfile << "basePrice=" + std::to_string(jd.basePrice) + "\n";
@@ -526,6 +541,7 @@ namespace FPS_n2 {
 		auto Name = this->GetShortName();
 		{
 			if (xsize > 0) {
+				int countbuf = 0;
 				while (true) {
 					if (count > 0) {
 						Xsize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, "%s x%2d", Name.c_str(), count);
@@ -537,6 +553,11 @@ namespace FPS_n2 {
 						Name = Name.substr(0, Name.size() * (xs - xg) / Xsize - 2) + "Åc";
 					}
 					else {
+						break;
+					}
+					countbuf++;
+					if (countbuf > 100) {
+						Name = "Åc";
 						break;
 					}
 				}

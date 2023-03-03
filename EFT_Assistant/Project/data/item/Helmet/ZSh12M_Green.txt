@@ -1,2 +1,0 @@
-Name=ZSh-1-2M helmet(Green)
-Itemtype=Helmet

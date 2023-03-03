@@ -1,2 +1,0 @@
-Name=Maska-1SCh bulletproof helmet(Killa)
-Itemtype=Helmet

@@ -1,2 +1,15 @@
 Name=Weapon safe key
-Itemtype=Key
+ShortName=WSafe
+Itemtype=Mechanical Key
+Information_Eng=A key to some weapon safe.
+basePrice=1162
+width=1
+height=1
+avg24hPrice=11963
+low24hPrice=5888
+lastOfferCount=11
+Sell_Prapor=581
+Sell_Therapist=732
+Sell_Flea Market=6000
+weight=0.010000
+fleaMarketFee=957

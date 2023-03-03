@@ -1,0 +1,17 @@
+Name=Spooky skull mask
+ShortName=Skull
+Itemtype=Face Cover
+Information_Eng=A really scary skull mask, worn only by the spookiest operators.
+basePrice=21125
+width=2
+height=2
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
+Sell_Fence=8450
+Sell_Skier=10351
+Sell_Peacekeeper=83
+Sell_Ragman=13097
+Sell_Flea Market=650000
+weight=0.200000
+fleaMarketFee=328151

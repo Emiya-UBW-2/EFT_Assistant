@@ -1,0 +1,16 @@
+Name=Tactical sling bag
+ShortName=Sling
+Itemtype=Backpack
+Information_Eng=An original sling bag for everyday wear or for active rest.
+basePrice=1843
+width=3
+height=3
+avg24hPrice=5639
+low24hPrice=3333
+lastOfferCount=3
+Sell_Fence=737
+Sell_Ragman=1142
+Sell_Jaeger=1105
+Sell_Flea Market=3333
+weight=0.480000
+fleaMarketFee=321

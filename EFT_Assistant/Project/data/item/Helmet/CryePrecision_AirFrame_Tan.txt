@@ -1,2 +1,0 @@
-Name=Crye Precision AirFrame helmet(Tan)
-Itemtype=Helmet

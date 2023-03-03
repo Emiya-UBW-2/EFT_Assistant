@@ -1,0 +1,17 @@
+Name=EMERCOM cap
+ShortName=EMERCOM
+Itemtype=Headwear
+Information_Eng=A cap of Emergency Committee (EMERCOM of Russian Federation), usually worn by patrol units.
+basePrice=1445
+width=1
+height=1
+avg24hPrice=6028
+low24hPrice=2900
+lastOfferCount=7
+Sell_Fence=578
+Sell_Skier=708
+Sell_Peacekeeper=6
+Sell_Ragman=895
+Sell_Flea Market=2900
+weight=0.100000
+fleaMarketFee=288

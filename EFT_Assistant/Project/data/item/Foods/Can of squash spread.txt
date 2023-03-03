@@ -1,0 +1,16 @@
+Name=Can of squash spread
+ShortName=Squash
+Itemtype=Food
+Information_Eng=A can of squash spread, a little vegetable treasure that goes well with almost anything and boasts an impressive set of vitamins and minerals.
+basePrice=16168
+width=1
+height=1
+avg24hPrice=17464
+low24hPrice=11000
+lastOfferCount=40
+Sell_Therapist=10185
+Sell_Fence=6467
+Sell_Jaeger=9700
+Sell_Flea Market=13999
+weight=0.430000
+fleaMarketFee=1377

@@ -1,2 +1,0 @@
-Name=Injury treatment
-Category=Medical

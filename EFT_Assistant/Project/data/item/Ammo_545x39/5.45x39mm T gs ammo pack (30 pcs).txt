@@ -1,0 +1,14 @@
+Name=5.45x39mm T gs ammo pack (30 pcs)
+ShortName=T
+Itemtype=Ammo container
+Information_Eng=A paper package of 5.45x39 T gs cartridges, 30 pieces.
+basePrice=1000
+width=1
+height=1
+avg24hPrice=9166
+low24hPrice=8999
+lastOfferCount=1
+Sell_Fence=400
+Sell_Flea Market=9000
+weight=0.015000
+fleaMarketFee=2027

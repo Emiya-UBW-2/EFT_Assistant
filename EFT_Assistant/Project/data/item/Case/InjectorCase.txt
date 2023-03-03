@@ -1,2 +1,16 @@
 Name=Injector case
+ShortName=Injectors
 Itemtype=Common container
+Information_Eng=A case for storing injectors, stimulants, and other specialized medications.
+basePrice=415000
+width=1
+height=1
+avg24hPrice=1233286
+low24hPrice=1000000
+lastOfferCount=10
+Sell_Therapist=261450
+Sell_Ragman=257300
+Sell_Jaeger=249000
+Sell_Flea Market=1240000
+weight=0.350000
+fleaMarketFee=145950

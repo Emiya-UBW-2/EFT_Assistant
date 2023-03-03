@@ -1,0 +1,17 @@
+Name=Cold Fear infrared balaclava
+ShortName=CF
+Itemtype=Face Cover
+Information_Eng=A quality balaclava with a special technological material, which ensures maximum warmth in the most severe frosts. But we do not need it for warmth. We need it to look tactical.
+basePrice=3454
+width=1
+height=1
+avg24hPrice=14045
+low24hPrice=6000
+lastOfferCount=12
+Sell_Fence=1381
+Sell_Skier=1692
+Sell_Peacekeeper=14
+Sell_Ragman=2141
+Sell_Flea Market=7228
+weight=0.100000
+fleaMarketFee=728

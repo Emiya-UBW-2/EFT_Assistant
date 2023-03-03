@@ -1,2 +1,15 @@
 Name=TerraGroup Labs access keycard
+ShortName=Access
 Itemtype=Keycard
+Information_Eng=A single-use United Security-issued TerraGroup Labs access keycard.
+basePrice=100000
+width=1
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
+Sell_Therapist=63000
+Sell_Peacekeeper=391
+Sell_Mechanic=56000
+weight=0.010000
+fleaMarketFee=0

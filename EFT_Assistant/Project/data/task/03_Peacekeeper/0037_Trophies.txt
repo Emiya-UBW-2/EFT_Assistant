@@ -8,7 +8,7 @@ NeedLevel=55
 
 Task_Map=Reserve
 Task_Kill=[USECPMCx20,BEARPMCx20]
-Task_FiR_HandOver=[Dogtag (USEC)x20,Dogtag (BEAR)x20]
+Task_FiR_HandOver=[Dogtag USECx20,Dogtag BEARx20]
 //Task_NotFiR_HandOver=[MRE ration packx5]
 //Task_Else=報酬はDMRスキル40ポイント、SMGスキル40ポイント
 

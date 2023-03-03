@@ -1,2 +1,16 @@
 Name=TerraGroup Labs keycard (Black)
+ShortName=Black
 Itemtype=Keycard
+Information_Eng=A United Security-issued TerraGroup Labs top-level administration keycard.
+basePrice=1000000
+width=1
+height=1
+avg24hPrice=30000000
+low24hPrice=30000000
+lastOfferCount=1
+Sell_Therapist=630000
+Sell_Peacekeeper=3913
+Sell_Mechanic=560000
+Sell_Flea Market=30000000
+weight=0.010000
+fleaMarketFee=14890554

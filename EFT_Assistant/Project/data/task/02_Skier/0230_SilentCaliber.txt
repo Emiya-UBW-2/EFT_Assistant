@@ -10,7 +10,7 @@ NeedLL=1
 //Task_Map=Customs
 //Task_Map=Woods
 Task_Kill=[AllPMCx10,Scavx20]
-//Task_FiR_HandOver=[Dogtag (USEC)x7]
+//Task_FiR_HandOver=[Dogtag USECx7]
 //Task_NotFiR_HandOver=[XXXx1]
 Task_Else=サプレッサー付き12ゲージショットガンで
 

@@ -1,2 +1,16 @@
 Name=MRE ration pack
-Itemtype=Provisions
+ShortName=MRE
+Itemtype=Food
+Information_Eng=MRE (Meal, Ready-to-Eat) is an individual daily food ration developed for the United States Army. MRE packaging is designed for harsh operating conditions and protection from weather exposure, which allows not to worry about storage conditions. Contains a lot of different products to quench your hunger in the field conditions.
+basePrice=17061
+width=1
+height=2
+avg24hPrice=15639
+low24hPrice=10420
+lastOfferCount=33
+Sell_Therapist=10748
+Sell_Fence=6824
+Sell_Jaeger=10236
+Sell_Flea Market=12222
+weight=0.740000
+fleaMarketFee=1309

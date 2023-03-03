@@ -1,0 +1,16 @@
+Name=Emelya rye croutons
+ShortName=Emelya
+Itemtype=Food
+Information_Eng=Emelya rye croutons with assorted flavors were a favorite snack for kids and "cracking open a cold one while watching movies" enjoyers. Although, these days you won't find either the kids or any movies in Tarkov.
+basePrice=2980
+width=1
+height=1
+avg24hPrice=10897
+low24hPrice=7000
+lastOfferCount=51
+Sell_Therapist=1877
+Sell_Fence=1192
+Sell_Jaeger=1788
+Sell_Flea Market=8999
+weight=0.040000
+fleaMarketFee=1065

@@ -1,2 +1,15 @@
 Name=Health Resort west wing room 207 key
-Itemtype=Key
+ShortName=W207 San
+Itemtype=Mechanical Key
+Information_Eng=A key to the Azure Coast sanatorium west wing room 207.
+basePrice=7499
+width=1
+height=1
+avg24hPrice=18919
+low24hPrice=7500
+lastOfferCount=23
+Sell_Prapor=3749
+Sell_Therapist=4724
+Sell_Flea Market=11111
+weight=0.010000
+fleaMarketFee=1026

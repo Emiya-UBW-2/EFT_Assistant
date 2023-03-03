@@ -8,7 +8,7 @@ NeedLL=1
 
 //Task_Map=Customs
 Task_Kill=[USECPMCx7]
-Task_FiR_HandOver=[Dogtag (USEC)x7]
+Task_FiR_HandOver=[Dogtag USECx7]
 //Task_NotFiR_HandOver=[XXXx1]
 //Task_Else=ピストルのみを使用
 

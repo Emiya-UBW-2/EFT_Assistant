@@ -1,2 +1,16 @@
 Name=Walker's XCEL 500BT Digital headset
-Itemtype=Headset
+ShortName=XCEL
+Itemtype=Headphones
+Information_Eng=Active hearing protection with optimum electronic processing of ambient sounds without unnecessary distortion.
+basePrice=48100
+width=2
+height=2
+avg24hPrice=42810
+low24hPrice=37000
+lastOfferCount=41
+Sell_Fence=19240
+Sell_Skier=23569
+Sell_Ragman=29822
+Sell_Flea Market=38000
+weight=0.490000
+fleaMarketFee=3873

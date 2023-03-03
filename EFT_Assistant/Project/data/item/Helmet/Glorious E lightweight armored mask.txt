@@ -1,0 +1,17 @@
+Name=Glorious E lightweight armored mask
+ShortName=Glorious
+Itemtype=Face Cover
+Information_Eng=The "Glorious E" face protection mask, reinforced with aramid fibers.
+basePrice=35000
+width=2
+height=2
+avg24hPrice=29272
+low24hPrice=19798
+lastOfferCount=9
+Sell_Fence=14000
+Sell_Skier=17150
+Sell_Peacekeeper=137
+Sell_Ragman=21700
+Sell_Flea Market=20999
+weight=0.280000
+fleaMarketFee=2535

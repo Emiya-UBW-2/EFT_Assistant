@@ -1,2 +1,0 @@
-Name=Armasight NVG head strap
-Itemtype=Helmet

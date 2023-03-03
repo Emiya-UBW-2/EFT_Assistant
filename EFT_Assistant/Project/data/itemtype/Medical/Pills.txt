@@ -1,2 +1,0 @@
-Name=Pills
-Category=Medical

@@ -1,0 +1,17 @@
+Name=MSA ACH TC-2001 MICH Series helmet
+ShortName=TC-2001
+Itemtype=Headwear
+Information_Eng=The MSA Advanced Combat Helmet (ACH) delivers advanced ballistic, fragmentation, and impact head protection, with comfort for long-term use. The helmet’s low-profile design reduces the risk of interference in target acquisition and ensures compatibility with NVGs and headsets.
+basePrice=46200
+width=2
+height=2
+avg24hPrice=50411
+low24hPrice=40000
+lastOfferCount=4
+Sell_Fence=18480
+Sell_Skier=22638
+Sell_Peacekeeper=181
+Sell_Ragman=28644
+Sell_Flea Market=45323
+weight=1.400000
+fleaMarketFee=4318

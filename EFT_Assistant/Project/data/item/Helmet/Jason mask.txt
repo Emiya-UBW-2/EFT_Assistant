@@ -1,0 +1,17 @@
+Name=Jason mask
+ShortName=Mask
+Itemtype=Face Cover
+Information_Eng=A scary mask from some famous horror movie.
+basePrice=15000
+width=2
+height=2
+avg24hPrice=13022
+low24hPrice=9887
+lastOfferCount=16
+Sell_Fence=6000
+Sell_Skier=7350
+Sell_Peacekeeper=59
+Sell_Ragman=9300
+Sell_Flea Market=9887
+weight=0.100000
+fleaMarketFee=1115

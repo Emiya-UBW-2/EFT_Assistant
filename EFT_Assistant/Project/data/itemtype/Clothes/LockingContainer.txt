@@ -1,0 +1,2 @@
+Name=Locking container
+Category=Clothes

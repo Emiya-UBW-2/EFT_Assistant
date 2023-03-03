@@ -1,2 +1,2 @@
-Name=Armer
+Name=Armor
 Category=Clothes

@@ -1,0 +1,16 @@
+Name=Can of Ice Green tea
+ShortName=IceGreen
+Itemtype=Drink
+Information_Eng=A sweetened green tea drink, for ice-cold consumption.
+basePrice=2429
+width=1
+height=1
+avg24hPrice=9273
+low24hPrice=5420
+lastOfferCount=37
+Sell_Therapist=1530
+Sell_Fence=971
+Sell_Jaeger=1457
+Sell_Flea Market=9000
+weight=0.300000
+fleaMarketFee=1186

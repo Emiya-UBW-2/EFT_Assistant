@@ -1,0 +1,17 @@
+Name=AI-2 medkit
+ShortName=AI-2
+Itemtype=Medikit
+Information_Eng=The AI-2 medkit was developed as a standard service first aid kit for various defense and law enforcement agencies and civil defense forces of USSR. In case of all-out conflict with the use of weapons of mass destruction it should have been distributed to the population of the affected and surrounding areas.
+basePrice=5200
+width=1
+height=1
+avg24hPrice=4288
+low24hPrice=3888
+lastOfferCount=41
+Sell_Prapor=2600
+Sell_Therapist=3276
+Sell_Fence=2080
+Sell_Jaeger=3120
+Sell_Flea Market=4111
+weight=0.135000
+fleaMarketFee=419

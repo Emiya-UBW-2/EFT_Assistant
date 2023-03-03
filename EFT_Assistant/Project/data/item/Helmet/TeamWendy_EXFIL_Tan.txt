@@ -1,2 +1,0 @@
-Name=Team Wendy EXFIL Ballistic Helmet (Tan)
-Itemtype=Helmet

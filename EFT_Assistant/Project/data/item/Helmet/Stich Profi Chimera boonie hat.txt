@@ -1,0 +1,17 @@
+Name=Stich Profi Chimera boonie hat
+ShortName=Chimera
+Itemtype=Headwear
+Information_Eng=A boonie hat with artificial camouflage leaves, manufactured by Stich Profi.
+basePrice=3170
+width=2
+height=2
+avg24hPrice=9209
+low24hPrice=4000
+lastOfferCount=2
+Sell_Fence=1268
+Sell_Skier=1553
+Sell_Peacekeeper=12
+Sell_Ragman=1965
+Sell_Flea Market=9000
+weight=0.150000
+fleaMarketFee=1033

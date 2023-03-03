@@ -1,0 +1,16 @@
+Name=Pack of Grand juice
+ShortName=Grand
+Itemtype=Drink
+Information_Eng=The "Grand" grapefruit juice, great drink for those who lack bitterness in their lives.
+basePrice=3412
+width=1
+height=2
+avg24hPrice=9628
+low24hPrice=6200
+lastOfferCount=20
+Sell_Therapist=2149
+Sell_Fence=1364
+Sell_Jaeger=2047
+Sell_Flea Market=8777
+weight=1.000000
+fleaMarketFee=962

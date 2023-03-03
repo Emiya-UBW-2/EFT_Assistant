@@ -1,0 +1,16 @@
+Name=Gruppa 99 T30 backpack
+ShortName=T30
+Itemtype=Backpack
+Information_Eng=A thirty-liter assault backpack from Gruppa 99. A high-quality solution for conducting special raid operations.
+basePrice=49000
+width=5
+height=6
+avg24hPrice=109653
+low24hPrice=69420
+lastOfferCount=11
+Sell_Fence=19600
+Sell_Ragman=30380
+Sell_Jaeger=29400
+Sell_Flea Market=99999
+weight=2.220000
+fleaMarketFee=9987

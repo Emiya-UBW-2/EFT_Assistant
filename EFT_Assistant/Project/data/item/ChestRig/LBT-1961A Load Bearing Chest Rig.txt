@@ -1,0 +1,17 @@
+Name=LBT-1961A Load Bearing Chest Rig
+ShortName=LBCR
+Itemtype=Chest rig
+Information_Eng=A tactical load-bearing system designed to carry magazines, grenades, and special equipment, while using low-profile body armor. Manufactured by London Bridge Trading.
+basePrice=45000
+width=3
+height=3
+avg24hPrice=45810
+low24hPrice=33333
+lastOfferCount=31
+Sell_Fence=18000
+Sell_Skier=22050
+Sell_Ragman=27900
+Sell_Jaeger=27000
+Sell_Flea Market=36000
+weight=1.360000
+fleaMarketFee=3649

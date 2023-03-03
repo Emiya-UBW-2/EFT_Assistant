@@ -1,0 +1,2 @@
+Name=Stimulant
+Category=Medical

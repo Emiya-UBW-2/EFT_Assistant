@@ -1,0 +1,16 @@
+Name=VOG-17 Khattabka improvised hand grenade
+ShortName=VOG-17
+Itemtype=Throwable weapon
+Information_Eng=The "Khattabka" hand-made hand grenade based on the VOG-17 grenade launcher shell. The grenade is a VOG-17 shell with a removed head part containing a detonator and self-destructor. A short fuse has been installed to speed up the ignition. An extremely deadly grenade.
+basePrice=9230
+width=1
+height=1
+avg24hPrice=19846
+low24hPrice=13999
+lastOfferCount=25
+Sell_Prapor=4615
+Sell_Fence=3692
+Sell_Skier=4522
+Sell_Flea Market=14555
+weight=0.280000
+fleaMarketFee=1357

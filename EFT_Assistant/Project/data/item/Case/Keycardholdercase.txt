@@ -1,2 +1,16 @@
 Name=Keycard holder case
+ShortName=Keycards
 Itemtype=Common container
+Information_Eng=A special small case for storing plastic cards, including key cards.
+basePrice=458453
+width=1
+height=1
+avg24hPrice=382598
+low24hPrice=300000
+lastOfferCount=17
+Sell_Therapist=288825
+Sell_Ragman=284240
+Sell_Jaeger=275071
+Sell_Flea Market=328000
+weight=0.095000
+fleaMarketFee=35159

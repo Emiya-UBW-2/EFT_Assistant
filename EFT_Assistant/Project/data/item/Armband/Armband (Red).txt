@@ -1,0 +1,15 @@
+Name=Armband (Red)
+ShortName=Armband
+Itemtype=Arm Band
+Information_Eng=A red identification armband.
+basePrice=894
+width=1
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
+Sell_Fence=357
+Sell_Skier=438
+Sell_Ragman=554
+weight=0.050000
+fleaMarketFee=85

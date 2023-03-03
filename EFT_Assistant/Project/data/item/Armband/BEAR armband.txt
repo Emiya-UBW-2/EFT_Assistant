@@ -1,0 +1,16 @@
+Name=BEAR armband
+ShortName=BEAR
+Itemtype=Arm Band
+Information_Eng=An armband for hardened BEAR operators.
+basePrice=50000
+width=1
+height=1
+avg24hPrice=57213
+low24hPrice=35000
+lastOfferCount=33
+Sell_Fence=20000
+Sell_Skier=24500
+Sell_Ragman=31000
+Sell_Flea Market=44500
+weight=0.050000
+fleaMarketFee=4339

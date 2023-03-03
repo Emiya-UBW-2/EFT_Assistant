@@ -1,2 +1,15 @@
 Name=Weather station safe key
-Itemtype=Key
+ShortName=Safe
+Itemtype=Mechanical Key
+Information_Eng=A key to the safe inside the weather station, located somewhere near the Azure Coast sanatorium.
+basePrice=19102
+width=1
+height=1
+avg24hPrice=15387
+low24hPrice=12000
+lastOfferCount=15
+Sell_Prapor=9551
+Sell_Therapist=12034
+Sell_Flea Market=12999
+weight=0.010000
+fleaMarketFee=1436

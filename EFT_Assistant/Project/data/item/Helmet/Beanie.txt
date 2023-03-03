@@ -1,0 +1,17 @@
+Name=Beanie
+ShortName=Beanie
+Itemtype=Headwear
+Information_Eng=A warm knitted beanie, traditionally made for skiers but worn by everyone.
+basePrice=1070
+width=1
+height=1
+avg24hPrice=7188
+low24hPrice=3999
+lastOfferCount=17
+Sell_Fence=428
+Sell_Skier=524
+Sell_Peacekeeper=4
+Sell_Ragman=663
+Sell_Flea Market=3999
+weight=0.100000
+fleaMarketFee=530

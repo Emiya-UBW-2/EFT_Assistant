@@ -1,0 +1,17 @@
+Name=Misha Mayorov mask
+ShortName=Mask
+Itemtype=Face Cover
+Information_Eng=A spooky mask of the famous "The Scary Movie" horror movie anti-hero - Misha Mayorov.
+basePrice=15000
+width=2
+height=2
+avg24hPrice=11376
+low24hPrice=7500
+lastOfferCount=12
+Sell_Fence=6000
+Sell_Skier=7350
+Sell_Peacekeeper=59
+Sell_Ragman=9300
+Sell_Flea Market=8000
+weight=0.100000
+fleaMarketFee=1067

@@ -1,2 +1,3 @@
-Name=Goggles
+Name=Vis. observ. device
+ShortName=Goggles
 Category=Clothes

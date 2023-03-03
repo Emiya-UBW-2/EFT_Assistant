@@ -1,0 +1,17 @@
+Name=DIY IDEA chest rig
+ShortName=IDEA Rig
+Itemtype=Chest rig
+Information_Eng=A handcrafted chest rig made from IDEA store bags. It's impossible to say that it's reliable and suitable for a wide range of military and tactical applications, but at least it's a good example of a hobo-style rig.
+basePrice=5000
+width=3
+height=2
+avg24hPrice=11611
+low24hPrice=8888
+lastOfferCount=12
+Sell_Fence=2000
+Sell_Skier=2450
+Sell_Ragman=3100
+Sell_Jaeger=3000
+Sell_Flea Market=8888
+weight=0.220000
+fleaMarketFee=851

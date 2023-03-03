@@ -1,0 +1,17 @@
+Name=Wilcox Skull Lock head mount
+ShortName=Skull Lock
+Itemtype=Headwear
+Information_Eng=Scull Lock Head Mount-Lite is a lightweight, low profile fixing system for NVG or other optical attachments, completely made of fabric, with increased comfort and versatility in use and storage. The system allows the use of various attachments without the use of a heavy ballistic helmet.
+basePrice=19724
+width=2
+height=2
+avg24hPrice=14408
+low24hPrice=11111
+lastOfferCount=18
+Sell_Fence=7889
+Sell_Skier=9664
+Sell_Peacekeeper=77
+Sell_Ragman=12228
+Sell_Flea Market=13110
+weight=0.500000
+fleaMarketFee=1470

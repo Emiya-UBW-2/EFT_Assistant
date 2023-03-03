@@ -1,4 +1,15 @@
 Name=Primorsky 46-48 skybridge key
-Itemtype=Key
+ShortName=Skybridge 46-48
 Map=Streets of Tarkov
-InElse=Primorsky 48 10番アパートメント内のドア、プリモルスキー46の階段と接続廊下。アパート10の入り口のドアは、内側から破って出ることができる
+Itemtype=Mechanical Key
+Information_Eng=A key to the skybridge linking Primorsky 46-48, leading to the apartment of the ballet master.
+basePrice=5136
+width=1
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=25
+Sell_Prapor=2568
+Sell_Therapist=3235
+weight=0.010000
+fleaMarketFee=0

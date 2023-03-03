@@ -1,2 +1,2 @@
-Name=Medkit
+Name=Medikit
 Category=Medical

@@ -1,8 +1,16 @@
 Name=Health Resort universal utility room key
-Itemtype=Key
+ShortName=San util.
 Map=Shoreline
-InElse=West227の隣の部屋(Jacketx1)(industrial shelfx1,key rackx1)
-InElse=West327の隣の部屋(industrial shelfx1)
-InElse=East328の隣の部屋(ルート品(レア))
-InElse=Health Resort east wing room 328 keyでバルコニー越しに入れる
-
+Itemtype=Mechanical Key
+Information_Eng=A universal key to all Azure Coast health resort utility storerooms.
+basePrice=27000
+width=1
+height=1
+avg24hPrice=70955
+low24hPrice=44444
+lastOfferCount=9
+Sell_Prapor=13500
+Sell_Therapist=17010
+Sell_Flea Market=44444
+weight=0.010000
+fleaMarketFee=4177

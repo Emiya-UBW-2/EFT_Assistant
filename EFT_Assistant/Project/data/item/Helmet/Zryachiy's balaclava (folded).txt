@@ -1,0 +1,17 @@
+Name=Zryachiy's balaclava (folded)
+ShortName=Zryachiy
+Itemtype=Headwear
+Information_Eng=An intimidating face mask with a skull print, worn by Zryachiy. Folded to be worn as a hat.
+basePrice=20000
+width=1
+height=1
+avg24hPrice=317850
+low24hPrice=155555
+lastOfferCount=3
+Sell_Fence=8000
+Sell_Skier=9800
+Sell_Peacekeeper=78
+Sell_Ragman=12400
+Sell_Flea Market=249999
+weight=0.100000
+fleaMarketFee=69559

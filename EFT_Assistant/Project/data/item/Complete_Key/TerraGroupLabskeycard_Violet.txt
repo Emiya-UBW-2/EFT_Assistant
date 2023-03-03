@@ -1,2 +1,16 @@
 Name=TerraGroup Labs keycard (Violet)
+ShortName=Violet
 Itemtype=Keycard
+Information_Eng=A United Security-issued TerraGroup Labs keycard for laboratory staff.
+basePrice=600000
+width=1
+height=1
+avg24hPrice=9440537
+low24hPrice=8750000
+lastOfferCount=7
+Sell_Therapist=378000
+Sell_Peacekeeper=2348
+Sell_Mechanic=336000
+Sell_Flea Market=9000000
+weight=0.010000
+fleaMarketFee=2820672

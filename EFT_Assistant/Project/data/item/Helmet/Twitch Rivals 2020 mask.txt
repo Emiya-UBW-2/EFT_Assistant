@@ -1,0 +1,17 @@
+Name=Twitch Rivals 2020 mask
+ShortName=Rivals
+Itemtype=Face Cover
+Information_Eng=A special mask from the Twitch Rivals 2020 event.
+basePrice=24000
+width=1
+height=1
+avg24hPrice=278284
+low24hPrice=94444
+lastOfferCount=2
+Sell_Fence=9600
+Sell_Skier=11760
+Sell_Peacekeeper=94
+Sell_Ragman=14880
+Sell_Flea Market=250000
+weight=0.200000
+fleaMarketFee=61820

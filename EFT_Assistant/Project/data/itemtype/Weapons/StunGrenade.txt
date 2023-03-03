@@ -1,3 +1,0 @@
-Name=Stun grenade
-ShortName=STUN
-Category=Weapons

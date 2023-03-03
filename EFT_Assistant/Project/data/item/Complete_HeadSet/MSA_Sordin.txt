@@ -1,2 +1,16 @@
 Name=MSA Sordin Supreme PRO-X/L active headset
-Itemtype=Headset
+ShortName=Sordin
+Itemtype=Headphones
+Information_Eng=The Sordin Supreme PRO-X/L headset amplifies low-level sounds while suppressing impulse noises. Water resistant for outdoor usage.
+basePrice=39154
+width=2
+height=2
+avg24hPrice=39941
+low24hPrice=29998
+lastOfferCount=24
+Sell_Fence=15661
+Sell_Skier=19185
+Sell_Ragman=24275
+Sell_Flea Market=34999
+weight=0.650000
+fleaMarketFee=3408

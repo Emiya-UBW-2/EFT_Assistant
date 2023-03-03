@@ -1,0 +1,17 @@
+Name=Fake white beard
+ShortName=Beard
+Itemtype=Face Cover
+Information_Eng=An artificial white beard. Christmas spirit? Maybe...
+basePrice=7500
+width=1
+height=2
+avg24hPrice=84086
+low24hPrice=45000
+lastOfferCount=6
+Sell_Fence=3000
+Sell_Skier=3675
+Sell_Peacekeeper=29
+Sell_Ragman=4650
+Sell_Flea Market=45000
+weight=0.100000
+fleaMarketFee=7862
