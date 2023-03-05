@@ -26,6 +26,8 @@ namespace FPS_n2 {
 		bool														m_WindowMove{ false };
 
 		float														m_NoneActiveTimes{ 0.f };
+
+		int ttt = -1;
 	public:
 		void Load_Sub(void) noexcept override {}
 
@@ -67,151 +69,6 @@ namespace FPS_n2 {
 			m_BGPtr = m_TitleBG;
 			//
 			m_BGPtr->Init(&this->m_posx, &this->m_posy, &this->m_Scale);
-
-			//データ取得(アップデートごとにオン)
-			{
-				//tm local;
-				//strptime(PlayerData::Instance()->GetLastDataReceive().c_str(), "%Y %m/%d %H:%M", &local);
-			}
-			{
-				const char* Names[] = {
-					//"Weapon",
-					"AssaultCarbine",
-					"AssaultRifle",
-					"GrenadeLauncher",
-					"Handgun",
-					"Machinegun",
-					"MarksmanRifle",
-					"Revolver",
-					"SMG",
-					"Shotgun",
-					"SniperRifle",
-					"ThrowableWeapon",
-					"Knife",
-
-					//"WeaponMod",
-					//"EssentialMod",
-					//"FunctionalMod",
-					//"GearMod",
-					"Barrel",
-					"GasBlock",
-					"MuzzleDevice",
-					//"Flashhider",
-					//"CombMuzzleDevice",
-					//"Silencer",
-					"Sights",
-					//"Ironsight",
-					//"AssaultScope",
-					//"Scope",
-					//"ReflexSight",
-					//"CompactReflexSight",
-					//"SpecialScope",
-					//"NightVision",
-					//"TermalVision",
-					"Magazine",
-					//"CylinderMagazine",
-					//"SpringDrivenCylinder",
-					"Handguard",
-					"Flashlight",
-					"CombTactDevice",
-					"Foregrip",
-					"AuxiliaryMod",
-					"Bipod",
-					"ChargingHandle",
-					"Mount",
-					"PistolGrip",
-					"Receiver",
-					"Stock",
-					"UBGL",
-					//ルート品
-					//"Item",
-					//"CompoundItem",
-					//"StackableItem",
-					//"SearchableItem",
-					//"RepairKits",
-					//"Money",
-					//"PortableRangeFinder",
-					//"RadioTransmitter",
-					//"BarterItem",
-					//"Fuel",
-					//"Compass",
-					"BuildingMaterial",
-					"Battery",
-					"Electronics",
-					"HouseholdGoods",
-					"Info",
-					"Jewelry",
-					"Lubricant",
-					"Map",
-					"SpecialItem",
-					"Other",
-					"Tool",
-					"MedicalSupplies",
-					//服
-					"Equipment",
-					//"ArmBand",
-					//"Armor",
-					//"Headwear",
-					//"Headphones",
-					//"ArmoredEquipment",
-					//"FaceCover",
-					//"VisObservDevice",
-					"Backpack",
-					"ChestRig",
-					"CommonContainer",
-					//食べ物
-					"FoodAndDrink",
-					//"Food",
-					//"Drink",
-					//弾
-					"Ammo",
-					"AmmoContainer",
-					//
-					"Key",
-					//"MechanicalKey",
-					//"Keycard",
-					//
-					"Meds",
-					//"MedicalItem",
-					//"Drug",
-					//"Medikit",
-					//"Stimulant",
-					//
-					"PortContainer",
-					"RandomLootContainer",
-					"LockingContainer",
-				};
-
-				/*
-				for (int i = 0; i < sizeof(Names) / sizeof(Names[0]); i++) {
-					if (ItemDataRequest(Names[i], strResult)) {
-						ProcessMessage();
-						auto data = nlohmann::json::parse(strResult);
-						ItemData::Instance()->GetJsonData(data);
-						ItemData::Instance()->SaveDatabyJson(Names[i]);
-						if ((i % 5) == (5 - 1)) {
-							printfDx("Comp[%s/%s/%s/%s/%s]\n", Names[i - 4], Names[i - 3], Names[i - 2], Names[i - 1], Names[i]);
-						}
-						ScreenFlip();
-						DxLib::WaitTimer(100);
-					}
-					//空フォルダ削除
-					{
-						std::string Path = "data/item/Maked/";
-						Path += Names[i];
-						RemoveDirectory(Path.c_str());
-					}
-				}
-				ItemData::Instance()->CheckThroughJson();
-				//
-				time_t t = time(NULL);				// 現在日時を取得する
-				tm local;							// 日時情報を格納する変数を用意する
-				localtime_s(&local, &t);			// ローカル日時を変数に格納する
-				char buffer[256];
-				strftime(buffer, sizeof(buffer), "%Y %m/%d %H:%M", &local);
-				PlayerData::Instance()->SetLastDataReceive(buffer);
-				//*/
-			}
 		}
 
 		bool Update_Sub(void) noexcept override {
@@ -397,8 +254,156 @@ namespace FPS_n2 {
 				WindowSystem::SetBox(0, 0, (int)(Lerp((float)Xmin, (float)Xsize, m_PullDown)), LineHeight, GetColor(DieCol, DieCol, DieCol));
 				//タイトル
 				if (m_PullDown >= 1.f) {
-					if (WindowSystem::ClickCheckBox(Xmin + y_r(10), 0, Xmin + y_r(10 + 460), Ymin, false, true, Gray25, "全てのウィンドウを閉じる")) {
+					if (WindowSystem::ClickCheckBox(Xmin + y_r(10), 0, Xmin + y_r(10 + 220), Ymin, false, true, Gray25, "全窓を閉じる")) {
 						WindowMngr->DeleteAll();
+					}
+
+					if (ttt != -1) {
+						if ((GetNowCount() - ttt) > 1000 * 60 * 5) {
+							ttt = -1;
+						}
+					}
+
+					if (WindowSystem::ClickCheckBox(Xmin + y_r(10 + 230), 0, Xmin + y_r(10 + 450), Ymin, false, (ttt == -1), Gray25, "アイテム更新")) {
+						const char* Names[] = {
+							//"Weapon",
+							"AssaultCarbine",
+							"AssaultRifle",
+							"GrenadeLauncher",
+							"Handgun",
+							"Machinegun",
+							"MarksmanRifle",
+							"Revolver",
+							"SMG",
+							"Shotgun",
+							"SniperRifle",
+							"ThrowableWeapon",
+							"Knife",
+
+							//"WeaponMod",
+							//"EssentialMod",
+							//"FunctionalMod",
+							//"GearMod",
+							"Barrel",
+							"GasBlock",
+							"MuzzleDevice",
+							//"Flashhider",
+							//"CombMuzzleDevice",
+							//"Silencer",
+							"Sights",
+							//"Ironsight",
+							//"AssaultScope",
+							//"Scope",
+							//"ReflexSight",
+							//"CompactReflexSight",
+							//"SpecialScope",
+							//"NightVision",
+							//"TermalVision",
+							"Magazine",
+							//"CylinderMagazine",
+							//"SpringDrivenCylinder",
+							"Handguard",
+							"Flashlight",
+							"CombTactDevice",
+							"Foregrip",
+							"AuxiliaryMod",
+							"Bipod",
+							"ChargingHandle",
+							"Mount",
+							"PistolGrip",
+							"Receiver",
+							"Stock",
+							"UBGL",
+							//ルート品
+							//"Item",
+							//"CompoundItem",
+							//"StackableItem",
+							//"SearchableItem",
+							//"RepairKits",
+							//"Money",
+							//"PortableRangeFinder",
+							//"RadioTransmitter",
+							//"BarterItem",
+							//"Fuel",
+							//"Compass",
+							"BuildingMaterial",
+							"Battery",
+							"Electronics",
+							"HouseholdGoods",
+							"Info",
+							"Jewelry",
+							"Lubricant",
+							"Map",
+							"SpecialItem",
+							"Other",
+							"Tool",
+							"MedicalSupplies",
+							//服
+							"Equipment",
+							//"ArmBand",
+							//"Armor",
+							//"Headwear",
+							//"Headphones",
+							//"ArmoredEquipment",
+							//"FaceCover",
+							//"VisObservDevice",
+							"Backpack",
+							"ChestRig",
+							"CommonContainer",
+							//食べ物
+							"FoodAndDrink",
+							//"Food",
+							//"Drink",
+							//弾
+							"Ammo",
+							"AmmoContainer",
+							//
+							"Key",
+							//"MechanicalKey",
+							//"Keycard",
+							//
+							"Meds",
+							//"MedicalItem",
+							//"Drug",
+							//"Medikit",
+							//"Stimulant",
+							//
+							"PortContainer",
+							"RandomLootContainer",
+							"LockingContainer",
+						};
+						printfDx("通信開始...\n");
+						ScreenFlip();
+						int SIZE = sizeof(Names) / sizeof(Names[0]);
+						for (int i = 0; i < SIZE; i++) {
+							if (ItemDataRequest(Names[i], strResult)) {
+								ProcessMessage();
+								auto data = nlohmann::json::parse(strResult);
+								ItemData::Instance()->GetJsonData(data);
+								ItemData::Instance()->SaveDatabyJson(Names[i]);
+								if ((i % 5) == (5 - 1)) {
+									//printfDx("Comp[%s/%s/%s/%s/%s]\n", Names[i - 4], Names[i - 3], Names[i - 2], Names[i - 1], Names[i]);
+									printfDx("[%d %%]\n", 100 * (i + 1) / SIZE);
+								}
+								ScreenFlip();
+								DxLib::WaitTimer(100);
+							}
+							//空フォルダ削除
+							{
+								std::string Path = "data/item/Maked/";
+								Path += Names[i];
+								RemoveDirectory(Path.c_str());
+							}
+						}
+						ItemData::Instance()->CheckThroughJson();
+
+						time_t t = time(NULL);				// 現在日時を取得する
+						tm local;							// 日時情報を格納する変数を用意する
+						localtime_s(&local, &t);			// ローカル日時を変数に格納する
+						char buffer[256];
+						strftime(buffer, sizeof(buffer), "%Y %m/%d %H:%M", &local);
+						PlayerData::Instance()->SetLastDataReceive(buffer);
+						ttt = GetNowCount();
 					}
 
 					WindowSystem::SetMsg(0, 0, y_r(1920), LineHeight, LineHeight, STR_MID, White, Black, "EFT Assistant");
