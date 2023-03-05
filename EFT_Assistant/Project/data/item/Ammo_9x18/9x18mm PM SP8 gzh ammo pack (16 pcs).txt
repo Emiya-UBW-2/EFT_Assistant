@@ -1,3 +1,4 @@
+IDstr=573728f324597765e5728561
 Name=9x18mm PM SP8 gzh ammo pack (16 pcs)
 ShortName=SP8
 Itemtype=Ammo container

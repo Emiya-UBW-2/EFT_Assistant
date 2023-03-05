@@ -1,3 +1,4 @@
+IDstr=59e6658b86f77411d949b250
 Name=.366 TKM Geksa
 ShortName=Geksa
 Itemtype=Ammo

@@ -1,3 +1,4 @@
+IDstr=5cde7afdd7f00c000d36b89d
 Name=M700 AB Arms MOD*X GEN 3 KeyMod handguard
 ShortName=MOD*X
 Itemtype=Handguard
@@ -32,7 +33,7 @@ ChildParts=[
 	Zenit Perst-3 tactical device
 ]
 Conflict=[
-	M700 extended multi-slot Weaver rail base,
+	M700 extended multi-slot Weaver rail base
 ]
 Recoil=-3.000000
 Ergonomics=10.000000
@@ -40,14 +41,14 @@ Information_Eng=The AB Arms MOD*X GEN 3 KeyMod handguard for M700 sniper rifles 
 basePrice=9900
 width=3
 height=1
-avg24hPrice=33956
+avg24hPrice=36500
 low24hPrice=12000
-lastOfferCount=18
+lastOfferCount=11
 Sell_Prapor=4950
 Sell_Fence=3960
 Sell_Skier=4851
 Sell_Peacekeeper=39
 Sell_Mechanic=5544
-Sell_Flea Market=33333
+Sell_Flea Market=45000
 weight=0.390000
-fleaMarketFee=4172
+fleaMarketFee=6659

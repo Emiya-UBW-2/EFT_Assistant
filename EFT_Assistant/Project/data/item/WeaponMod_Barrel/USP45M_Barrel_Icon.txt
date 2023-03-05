@@ -1,13 +1,17 @@
+IDstr=6194f02d9bb3d20b0946d2f0
 Name=HK USP Match .45 ACP barrel
 ShortName=USP45M
 Itemtype=Barrel
+Conflict=[
+	HK USP Elite .45 ACP pistol slide,
+]
 Recoil=-4.000000
 Ergonomics=-7.000000
 Information_Eng=A 153mm barrel for the special version of the USP pistol - USP Match, chambered in .45 ACP. Manufactured by Heckler & Koch.
 basePrice=6000
 width=1
 height=1
-avg24hPrice=28062
+avg24hPrice=25454
 low24hPrice=13000
 lastOfferCount=3
 Sell_Prapor=3000

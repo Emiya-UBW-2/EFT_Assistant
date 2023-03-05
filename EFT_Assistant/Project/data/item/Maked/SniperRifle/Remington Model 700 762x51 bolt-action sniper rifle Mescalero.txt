@@ -1,3 +1,4 @@
+IDstr=628751e6af0a053a6672c261
 Name=Remington Model 700 7.62x51 bolt-action sniper rifle Mescalero
 ShortName=M700 Mescalero
 Itemtype=Sniper rifle

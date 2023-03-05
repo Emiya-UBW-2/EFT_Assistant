@@ -1,3 +1,4 @@
+IDstr=5649d9a14bdc2d79388b4580
 Name=AK Taktika Tula TT01 rear sight rail
 ShortName=TT01
 Itemtype=Ironsight
@@ -28,13 +29,7 @@ Conflict=[
 	NSPU-M night vision scope,
 	Zenit B-13 "Klassika" dovetail rail platform,
 	Zenit B-13V "Klassika" dovetail rail platform,
-	AK Zenit B-33 dust cover,
-	AK CNC Guns OV GP handguard,
-	AK TDI X47 tactical handguard rail system,
-	SVD modernization kit top rail,
-	AK AKademia Bastion dust cover,
-	AK FAB Defense PDC dust cover,
-	AK TWS Dog Leg Rail dust cover,
+	AK Zenit B-33 dust cover
 ]
 Recoil=0.000000
 Ergonomics=-1.000000
@@ -42,7 +37,7 @@ Information_Eng=The TT01 rear sight adapter, designed by Taktika Tula for AK fam
 basePrice=2698
 width=1
 height=1
-avg24hPrice=15092
+avg24hPrice=14636
 low24hPrice=8000
 lastOfferCount=1
 Sell_Prapor=1349

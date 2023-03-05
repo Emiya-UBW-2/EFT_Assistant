@@ -1,3 +1,4 @@
+IDstr=5cc700d4e4a949000f0f0f28
 Name=FN P90 Damage Industries buttpad
 ShortName=P90 DI
 Itemtype=Stock

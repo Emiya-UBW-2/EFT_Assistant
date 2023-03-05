@@ -1,15 +1,24 @@
+IDstr=5bd0716d86f774171822ef4b
 Name=Misha Mayorov mask
 ShortName=Mask
 Itemtype=Face Cover
+Conflict=[
+	Army cap,
+	Baseball cap,
+	BEAR baseball cap (Green),
+	USEC baseball cap (Tan),
+	EMERCOM cap,
+	Police cap
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A spooky mask of the famous "The Scary Movie" horror movie anti-hero - Misha Mayorov.
 basePrice=15000
 width=2
 height=2
-avg24hPrice=11374
+avg24hPrice=11595
 low24hPrice=9211
-lastOfferCount=15
+lastOfferCount=21
 Sell_Fence=6000
 Sell_Skier=7350
 Sell_Peacekeeper=59

@@ -1,3 +1,4 @@
+IDstr=59136e1e86f774432f15d133
 Name=Dorm room 110 key
 ShortName=Dorm 110
 Itemtype=Mechanical Key
@@ -8,9 +9,9 @@ Information_Eng=A key to the two-story dormitory with a tag reading "110" on it.
 basePrice=16302
 width=1
 height=1
-avg24hPrice=29306
+avg24hPrice=27576
 low24hPrice=17777
-lastOfferCount=35
+lastOfferCount=24
 Sell_Prapor=8151
 Sell_Therapist=10270
 Sell_Flea Market=20000

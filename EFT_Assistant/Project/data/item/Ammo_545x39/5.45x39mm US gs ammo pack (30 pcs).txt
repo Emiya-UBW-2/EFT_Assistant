@@ -1,3 +1,4 @@
+IDstr=5737300424597769942d5a01
 Name=5.45x39mm US gs ammo pack (30 pcs)
 ShortName=US
 Itemtype=Ammo container

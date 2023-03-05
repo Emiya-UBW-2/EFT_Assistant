@@ -1,3 +1,4 @@
+IDstr=637b6251104668754b72f8f9
 Name=Perfotoran (Blue Blood) stimulant injector
 ShortName=Perfotoran
 Itemtype=Stimulant
@@ -7,9 +8,9 @@ Information_Eng=A blood substitute with the function of oxygen transfer, used as
 basePrice=36000
 width=1
 height=1
-avg24hPrice=27385
-low24hPrice=20888
-lastOfferCount=18
+avg24hPrice=27475
+low24hPrice=21000
+lastOfferCount=21
 Sell_Prapor=18000
 Sell_Therapist=22680
 Sell_Fence=14400

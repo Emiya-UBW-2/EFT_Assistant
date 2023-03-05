@@ -1,3 +1,4 @@
+IDstr=5fd2517dbdd50d684f73a474
 Name=HK UMP .45 ACP submachine gun Default
 ShortName=UMP 45 Default
 Itemtype=SMG
@@ -5,9 +6,9 @@ Information_Eng=
 basePrice=45839
 width=3
 height=2
-avg24hPrice=35621
+avg24hPrice=35636
 low24hPrice=30000
-lastOfferCount=19
+lastOfferCount=15
 Sell_Prapor=22919
 Sell_Fence=18335
 Sell_Skier=22461

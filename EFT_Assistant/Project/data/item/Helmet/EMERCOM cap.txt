@@ -1,19 +1,33 @@
+IDstr=5aa2b89be5b5b0001569311f
 Name=EMERCOM cap
 ShortName=EMERCOM
 Itemtype=Headwear
+Conflict=[
+	Faceless mask,
+	Ghoul mask,
+	GP-5 gas mask,
+	Jason mask,
+	Misha Mayorov mask,
+	Neoprene mask,
+	Pestily plague mask,
+	Shemagh (Green),
+	Shemagh (Tan),
+	Slender mask,
+	GP-7 gas mask,
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A cap of Emergency Committee (EMERCOM of Russian Federation), usually worn by patrol units.
 basePrice=1445
 width=1
 height=1
-avg24hPrice=4751
+avg24hPrice=4656
 low24hPrice=2000
-lastOfferCount=4
+lastOfferCount=1
 Sell_Fence=578
 Sell_Skier=708
 Sell_Peacekeeper=6
 Sell_Ragman=895
-Sell_Flea Market=2000
+Sell_Flea Market=3222
 weight=0.100000
-fleaMarketFee=183
+fleaMarketFee=332

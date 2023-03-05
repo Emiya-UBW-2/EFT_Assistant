@@ -1,20 +1,10 @@
+IDstr=5947db3f86f77447880cf76f
 Name=Axion Kobra EKP-8-02 reflex sight (Dovetail)
 ShortName=EKP-8-02 DT
 Itemtype=Reflex sight
 SightRange=200
 Conflict=[
-	AKS-74U CAA XRSU47SU tactical handguard,
-	AK CNC Guns OV GP handguard,
-	SVD SAG MK1 chassis,
-	AK TDI X47 tactical handguard rail system,
-	SAG Bit low profile dovetail sidemount,
-	SVD modernization kit top rail,
-	AK AKademia Bastion dust cover,
-	AK Zenit B-33 dust cover,
-	AK FAB Defense PDC dust cover,
-	PP-19-01 "Vityaz-SN" dust cover,
-	AK TWS Dog Leg Rail dust cover,
-	AK Taktika Tula TT01 rear sight rail,
+	SOK-12 Leapers UTG PRO MTU002 Long Top aluminum handguard
 ]
 Recoil=0.000000
 Ergonomics=-3.000000
@@ -22,14 +12,14 @@ Information_Eng=Kobra is a very popular reflex sight among security agencies and
 basePrice=9352
 width=1
 height=1
-avg24hPrice=11584
+avg24hPrice=11922
 low24hPrice=8800
-lastOfferCount=8
+lastOfferCount=13
 Sell_Prapor=4676
 Sell_Fence=3740
 Sell_Skier=4582
 Sell_Peacekeeper=37
 Sell_Mechanic=5237
-Sell_Flea Market=10000
+Sell_Flea Market=10193
 weight=0.273000
-fleaMarketFee=933
+fleaMarketFee=947

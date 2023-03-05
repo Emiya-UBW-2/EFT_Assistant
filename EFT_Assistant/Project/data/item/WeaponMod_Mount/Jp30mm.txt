@@ -1,21 +1,30 @@
+IDstr=5a37ca54c4a282000d72296a
 Name=JP Enterprises Flat-Top 30mm ring scope mount
 ShortName=JP 30mm
 Itemtype=Mount
+Conflict=[
+	AR-15 Colt A2 rear sight,
+	AR-15 rear sight carry handle,
+	HK G36 front sight,
+	Mosin Rifle carbine rear sight,
+	NSPU-M night vision scope,
+	SV-98 rear sight,
+]
 Recoil=0.000000
 Ergonomics=-1.000000
 Information_Eng=A universal 30mm scope base mount for installation on Picatinny rails. Manufactured by JP Enterprises.
 basePrice=9294
 width=2
 height=1
-avg24hPrice=26937
+avg24hPrice=26298
 low24hPrice=12222
-lastOfferCount=15
+lastOfferCount=25
 Sell_Prapor=4647
 Sell_Fence=3717
 Sell_Skier=4554
 Sell_Peacekeeper=36
 Sell_Mechanic=5204
 Sell_Jaeger=5576
-Sell_Flea Market=20000
+Sell_Flea Market=16555
 weight=0.194000
-fleaMarketFee=2036
+fleaMarketFee=1586

@@ -1,3 +1,4 @@
+IDstr=5cf50fc5d7f00c056c53f83c
 Name=AK-74M CAA AKTS AK74 buffer tube
 ShortName=AKTS AK74
 Itemtype=Stock
@@ -26,21 +27,24 @@ ChildParts=[
 	Strike Industries Viper Mod 1 stock,
 	Vltor EMOD stock
 ]
+Conflict=[
+	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock,
+]
 Recoil=-3.000000
 Ergonomics=-1.000000
 Information_Eng=CAA Receiver Extension Buffer Tube, 6-position, Mil-Spec diameter will fit any modern AK-based rifles with a side-folding stock.
 basePrice=6200
 width=2
 height=1
-avg24hPrice=23329
-low24hPrice=12222
-lastOfferCount=9
+avg24hPrice=23948
+low24hPrice=15000
+lastOfferCount=15
 Sell_Prapor=3100
 Sell_Fence=2480
 Sell_Skier=3038
 Sell_Peacekeeper=24
 Sell_Mechanic=3472
 Sell_Jaeger=3720
-Sell_Flea Market=20000
+Sell_Flea Market=21999
 weight=0.250000
-fleaMarketFee=2448
+fleaMarketFee=2832

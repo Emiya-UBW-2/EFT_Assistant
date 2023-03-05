@@ -1,15 +1,20 @@
+IDstr=628a7b23b0f75035732dd565
 Name=AK RD Enhanced V2 Rear Sight
 ShortName=V2 ERS
 Itemtype=Ironsight
 SightRange=500
+Conflict=[
+	AK AKademia Bastion dust cover,
+	AK TWS Dog Leg Rail dust cover,
+]
 Recoil=0.000000
 Ergonomics=1.000000
 Information_Eng=The V2 Enhanced rear sight for AK automatic rifles, manufactured by Rifle Dynamics.
 basePrice=1800
 width=1
 height=1
-avg24hPrice=35000
-low24hPrice=20000
+avg24hPrice=0
+low24hPrice=0
 lastOfferCount=1
 Sell_Prapor=900
 Sell_Fence=720

@@ -1,3 +1,4 @@
+IDstr=5e8708d4ae379e67d22e0102
 Name=Mossberg 590 Ghost Ring front sight
 ShortName=590 GR FS
 Itemtype=Ironsight

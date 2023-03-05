@@ -1,3 +1,4 @@
+IDstr=63a39e1d234195315d4020bd
 Name=Primorsky 46-48 skybridge key
 ShortName=Skybridge 46-48
 Itemtype=Mechanical Key

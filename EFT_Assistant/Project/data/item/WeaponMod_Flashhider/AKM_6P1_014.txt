@@ -1,3 +1,4 @@
+IDstr=59d64fc686f774171b243fe2
 Name=AKM 7.62x39 muzzle brake-compensator (6P1 0-14)
 ShortName=6P1 0-14
 Itemtype=Flashhider

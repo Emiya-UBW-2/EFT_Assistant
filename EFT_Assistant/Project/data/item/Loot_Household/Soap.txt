@@ -1,3 +1,4 @@
+IDstr=5c13cd2486f774072c757944
 Name=Soap
 ShortName=Soap
 Itemtype=Household goods
@@ -7,9 +8,9 @@ Information_Eng=A piece of usual soap. Do not eat!
 basePrice=3890
 width=1
 height=1
-avg24hPrice=9187
+avg24hPrice=9370
 low24hPrice=7998
-lastOfferCount=42
+lastOfferCount=23
 Sell_Therapist=2450
 Sell_Fence=1556
 Sell_Flea Market=9500

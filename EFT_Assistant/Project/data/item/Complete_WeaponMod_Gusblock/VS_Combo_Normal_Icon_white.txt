@@ -1,3 +1,4 @@
+IDstr=5d4aab30a4b9365435358c55
 Name=AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo (White)
 ShortName=VS Combo
 Itemtype=Gas block
@@ -39,6 +40,7 @@ ChildParts=[
 ]
 Conflict=[
 	AK Zenit B-33 dust cover,
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
 ]
 Recoil=-4.000000
 Ergonomics=14.000000
@@ -46,7 +48,7 @@ Information_Eng=A combined kit of the VS-24 handguard with the VS-33c gas tube, 
 basePrice=29600
 width=2
 height=1
-avg24hPrice=51300
+avg24hPrice=52234
 low24hPrice=38000
 lastOfferCount=0
 Sell_Prapor=14800
@@ -54,6 +56,6 @@ Sell_Fence=11840
 Sell_Skier=14504
 Sell_Peacekeeper=116
 Sell_Mechanic=16576
-Sell_Flea Market=44000
+Sell_Flea Market=101111
 weight=0.385000
-fleaMarketFee=4064
+fleaMarketFee=12752

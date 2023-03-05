@@ -1,3 +1,4 @@
+IDstr=6034d2d697633951dc245ea6
 Name=Eberlestock G2 Gunslinger II backpack (Dry Earth)
 ShortName=G2 Gunslinger II
 Itemtype=Backpack

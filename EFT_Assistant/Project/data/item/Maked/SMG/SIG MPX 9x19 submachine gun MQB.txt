@@ -1,3 +1,4 @@
+IDstr=5a8ae43686f774377b73cfb3
 Name=SIG MPX 9x19 submachine gun MQB
 ShortName=MPX MQB
 Itemtype=SMG

@@ -1,3 +1,4 @@
+IDstr=573601b42459776410737435
 Name=7.62x25mm TT LRN
 ShortName=LRN
 Itemtype=Ammo

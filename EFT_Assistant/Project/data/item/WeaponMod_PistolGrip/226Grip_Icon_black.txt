@@ -1,3 +1,4 @@
+IDstr=56d5a2bbd2720bb8418b456a
 Name=P226 polymer pistol grip (Black)
 ShortName=P226 blk
 Itemtype=Pistol grip

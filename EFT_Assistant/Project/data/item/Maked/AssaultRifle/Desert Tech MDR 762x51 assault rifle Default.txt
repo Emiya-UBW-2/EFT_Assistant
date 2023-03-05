@@ -1,3 +1,4 @@
+IDstr=5e035eb586f774756048ec12
 Name=Desert Tech MDR 7.62x51 assault rifle Default
 ShortName=MDR Default
 Itemtype=Assault rifle

@@ -1,6 +1,11 @@
+IDstr=5a7afa25e899ef00135e31b0
 Name=Glock Polymer80 PS9 pistol slide
 ShortName=G PS9
 Itemtype=Receiver
+Conflict=[
+	Glock 9x19 Lone Wolf AlphaWolf Bullnose compensator,
+	P226 TJ's Custom 9x19 compensator,
+]
 Recoil=-2.000000
 Ergonomics=5.000000
 Information_Eng=The PS9 slide for Glock family pistols, manufactured by Polymer80.

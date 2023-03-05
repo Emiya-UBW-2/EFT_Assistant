@@ -1,3 +1,4 @@
+IDstr=5bd05f1186f774572f181678
 Name=HK MP7A1 4.6x30 submachine gun SEALS
 ShortName=MP7A1 SEALS
 Itemtype=SMG

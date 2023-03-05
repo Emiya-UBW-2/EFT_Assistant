@@ -1,20 +1,24 @@
+IDstr=5bf3e03b0db834001d2c4a9c
 Name=Kalashnikov AK-74 5.45x39 assault rifle
 ShortName=AK-74
 Itemtype=Assault rifle
+Conflict=[
+	Hera Arms CQR tactical foregrip,
+]
 Recoil=0.000000
 Ergonomics=30.000000
 Information_Eng=The AK-74 (Avtomat Kalashnikova 74 - "Kalashnikov's Automatic rifle 74") 5.45x39mm assault rifle, developed in 1970 by М. T. Kalashnikov, became a further evolution of the AKM due to adoption of the new 5.45x39 ammunition by the military. The AK-74 was equipped with a new buttstock, handguard (which retained the AKM-type finger swells), and gas cylinder. The stock has a shoulder pad different from that on the AKM, which is rubber and serrated for improved seating against the shooter. In addition, there are lightening cuts on each side of the buttstock. The buttstock, lower handguard, and upper heatguard were first manufactured from laminated wood, this later changed to a synthetic, plum or dark brown colored fiberglass.
 basePrice=21750
 width=4
 height=1
-avg24hPrice=35647
+avg24hPrice=35947
 low24hPrice=24000
-lastOfferCount=5
+lastOfferCount=11
 Sell_Prapor=10875
 Sell_Fence=8700
 Sell_Skier=10657
 Sell_Peacekeeper=85
 Sell_Mechanic=12180
-Sell_Flea Market=34307
+Sell_Flea Market=50000
 weight=1.992000
-fleaMarketFee=3198
+fleaMarketFee=5223

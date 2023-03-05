@@ -1,3 +1,4 @@
+IDstr=618aae5a4dc2d41d5c30264b
 Name=Kalashnikov AKS-74UN 5.45x39 assault rifle Recon
 ShortName=AKS-74UN Recon
 Itemtype=Assault rifle

@@ -1,3 +1,4 @@
+IDstr=622b397c9a3d4327e41843b6
 Name=HK G36 bipod
 ShortName=G36 bipod
 Itemtype=Bipod

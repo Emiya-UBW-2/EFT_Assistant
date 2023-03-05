@@ -1,3 +1,4 @@
+IDstr=62389be94d5d474bf712e709
 Name=26x75mm flare cartridge (Yellow)
 ShortName=Yellow
 Itemtype=Ammo

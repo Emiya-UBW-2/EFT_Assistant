@@ -1,3 +1,4 @@
+IDstr=560d75f54bdc2da74d8b4573
 Name=7.62x54mm R SNB gzh ammo pack (30 pcs)
 ShortName=SNB
 Itemtype=Ammo container

@@ -1,3 +1,4 @@
+IDstr=5c06779c86f77426e00dd782
 Name=Bundle of wires
 ShortName=Wires
 Itemtype=Electronics
@@ -7,9 +8,9 @@ Information_Eng=Pieces of various purpose wires. Might be usable for electronic 
 basePrice=7400
 width=1
 height=1
-avg24hPrice=10780
+avg24hPrice=10797
 low24hPrice=8999
-lastOfferCount=250
+lastOfferCount=228
 Sell_Therapist=4662
 Sell_Fence=2960
 Sell_Skier=3626

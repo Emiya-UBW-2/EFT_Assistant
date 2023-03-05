@@ -1,3 +1,4 @@
+IDstr=5ac66d015acfc400180ae6e4
 Name=Kalashnikov AK-102 5.56x45 assault rifle
 ShortName=AK-102
 Itemtype=Assault rifle
@@ -100,6 +101,7 @@ Conflict=[
 	AK Hexagon tubular handguard,
 	AK Strike Industries TRAX 2 handguard extension,
 	AK Vltor CMRD KeyMod handguard,
+	Hera Arms CQR tactical foregrip,
 ]
 Recoil=128.000000
 Ergonomics=38.000000
@@ -107,14 +109,14 @@ Information_Eng=The AK-102 5.56x45mm assault rifle is a further modernized versi
 basePrice=51648
 width=3
 height=1
-avg24hPrice=52605
-low24hPrice=36500
-lastOfferCount=25
+avg24hPrice=53093
+low24hPrice=41000
+lastOfferCount=8
 Sell_Prapor=25824
 Sell_Fence=20659
 Sell_Skier=25307
 Sell_Peacekeeper=202
 Sell_Mechanic=28922
-Sell_Flea Market=41000
+Sell_Flea Market=45000
 weight=1.992000
-fleaMarketFee=4170
+fleaMarketFee=4416

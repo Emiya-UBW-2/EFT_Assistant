@@ -1,19 +1,28 @@
+IDstr=5b43271c5acfc432ff4dce65
 Name=Bandana
 ShortName=Bandana
 Itemtype=Headwear
+Conflict=[
+	Faceless mask,
+	Ghoul mask,
+	GP-5 gas mask,
+	Pestily plague mask,
+	Slender mask,
+	GP-7 gas mask,
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A green colored headgear, actively used by special forces around the world.
 basePrice=1995
 width=1
 height=1
-avg24hPrice=3555
-low24hPrice=1997
-lastOfferCount=3
+avg24hPrice=6550
+low24hPrice=2200
+lastOfferCount=2
 Sell_Fence=798
 Sell_Skier=977
 Sell_Peacekeeper=8
 Sell_Ragman=1236
-Sell_Flea Market=2200
+Sell_Flea Market=3000
 weight=0.100000
-fleaMarketFee=204
+fleaMarketFee=278

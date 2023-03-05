@@ -1,3 +1,4 @@
+IDstr=63737f448b28897f2802b874
 Name=Hexatac HPC Plate Carrier (Multicam Black)
 ShortName=HPC
 Itemtype=Armor

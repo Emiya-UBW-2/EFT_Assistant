@@ -1,8 +1,12 @@
+IDstr=5ab626e4d8ce87272e4c6e43
 Name=AKS-74 metal skeletonized stock (6P21 Sb.5)
 ShortName=6P21 Sb.5
 Itemtype=Stock
 ChildParts=[
 	AK GP-25 accessory kit recoil pad
+]
+Conflict=[
+	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock,
 ]
 Recoil=-30.000000
 Ergonomics=10.000000
@@ -10,15 +14,15 @@ Information_Eng=A metal skeleton stock for AKS-74 automatic rifles, manufactured
 basePrice=1559
 width=2
 height=1
-avg24hPrice=31536
+avg24hPrice=32438
 low24hPrice=19200
-lastOfferCount=5
+lastOfferCount=2
 Sell_Prapor=779
 Sell_Fence=623
 Sell_Skier=763
 Sell_Peacekeeper=6
 Sell_Mechanic=873
 Sell_Jaeger=935
-Sell_Flea Market=30000
+Sell_Flea Market=42000
 weight=0.264000
-fleaMarketFee=11078
+fleaMarketFee=19399

@@ -1,3 +1,4 @@
+IDstr=59fb375986f7741b681b81a6
 Name=AK Krebs Custom UFM KeyMod handguard
 ShortName=UFM
 Itemtype=Handguard
@@ -51,6 +52,8 @@ ChildParts=[
 ]
 Conflict=[
 	AK Zenit B-33 dust cover,
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
+	Hera Arms CQR tactical foregrip,
 ]
 Recoil=-3.000000
 Ergonomics=11.000000
@@ -58,14 +61,14 @@ Information_Eng=The Krebs Custom UFM Keymod System lightweight aluminum handguar
 basePrice=20355
 width=2
 height=1
-avg24hPrice=15993
-low24hPrice=10000
-lastOfferCount=20
+avg24hPrice=15321
+low24hPrice=9000
+lastOfferCount=18
 Sell_Prapor=10177
 Sell_Fence=8142
 Sell_Skier=9973
 Sell_Peacekeeper=80
 Sell_Mechanic=11398
-Sell_Flea Market=11000
+Sell_Flea Market=9000
 weight=0.260000
 fleaMarketFee=1450

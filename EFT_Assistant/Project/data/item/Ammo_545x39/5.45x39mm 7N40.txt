@@ -1,3 +1,4 @@
+IDstr=61962b617c6c7b169525f168
 Name=5.45x39mm 7N40
 ShortName=7N40
 Itemtype=Ammo

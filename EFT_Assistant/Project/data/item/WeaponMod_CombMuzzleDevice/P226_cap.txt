@@ -1,3 +1,4 @@
+IDstr=587de5ba2459771c0f1e8a58
 Name=P226 thread protection cap
 ShortName=P226 thr. cap
 Itemtype=Comb. muzzle device

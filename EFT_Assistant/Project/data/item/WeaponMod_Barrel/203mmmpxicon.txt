@@ -1,3 +1,4 @@
+IDstr=5894a2c386f77427140b8342
 Name=MPX 9x19 203mm barrel
 ShortName=MPX 203mm
 Itemtype=Barrel
@@ -14,6 +15,7 @@ ChildParts=[
 Conflict=[
 	MPX Lancer OEM 14 inch M-LOK handguard,
 	MPX Midwest Industries 10.5 inch M-LOK handguard,
+	MPX Midwest Industries 14 inch M-LOK handguard
 ]
 Recoil=-3.000000
 Ergonomics=-6.000000
@@ -21,15 +23,15 @@ Information_Eng=A 203mm long barrel for MPX-based weapons chambered for 9x19 amm
 basePrice=6574
 width=2
 height=1
-avg24hPrice=26332
-low24hPrice=13000
-lastOfferCount=11
+avg24hPrice=25360
+low24hPrice=10000
+lastOfferCount=7
 Sell_Prapor=3287
 Sell_Fence=2629
 Sell_Skier=3221
 Sell_Peacekeeper=26
 Sell_Mechanic=3681
 Sell_Jaeger=3944
-Sell_Flea Market=15000
+Sell_Flea Market=25000
 weight=0.250000
-fleaMarketFee=1562
+fleaMarketFee=3342

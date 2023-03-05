@@ -1,3 +1,4 @@
+IDstr=637f57d2f5ef8c33840d36c4
 Name=AR-15 KAC URX 3 8 inch lower handguard
 ShortName=URX3 8"
 Itemtype=Handguard
@@ -31,7 +32,9 @@ ChildParts=[
 	Zenit RK-6 tactical foregrip
 ]
 Conflict=[
-	M203 40mm underbarrel grenade launcher,
+	AR-10 JP Enterprises Gas System-6,
+	M4A1 front sight with gas block,
+	AR-15 Windham Weaponry Rail Gas Block
 ]
 Recoil=-1.000000
 Ergonomics=4.000000
@@ -39,9 +42,9 @@ Information_Eng=The Knight's Armament URX 3 lower handguard for AR-15 equipped w
 basePrice=5010
 width=2
 height=1
-avg24hPrice=13985
+avg24hPrice=13826
 low24hPrice=5555
-lastOfferCount=10
+lastOfferCount=12
 Sell_Prapor=2505
 Sell_Fence=2004
 Sell_Skier=2454

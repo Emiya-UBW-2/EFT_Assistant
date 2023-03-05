@@ -1,3 +1,4 @@
+IDstr=5d2f2d5748f03572ec0c0139
 Name=HK MP5K cocking handle
 ShortName=MP5K CH
 Itemtype=Charging handle

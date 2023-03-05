@@ -1,19 +1,23 @@
+IDstr=5b40e3f35acfc40016388218
 Name=HighCom Striker ACHHC IIIA helmet (Black)
 ShortName=ACHHC
 Itemtype=Headwear
+Conflict=[
+	Faceless mask,
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A combat helmet manufactured by HighCom, the High Cut version. Does not feature any additional mounts. Black version.
 basePrice=55170
 width=2
 height=2
-avg24hPrice=70880
+avg24hPrice=69122
 low24hPrice=50000
-lastOfferCount=27
+lastOfferCount=39
 Sell_Fence=22068
 Sell_Skier=27033
 Sell_Peacekeeper=216
 Sell_Ragman=34205
-Sell_Flea Market=61000
+Sell_Flea Market=63999
 weight=1.500000
-fleaMarketFee=5654
+fleaMarketFee=5892

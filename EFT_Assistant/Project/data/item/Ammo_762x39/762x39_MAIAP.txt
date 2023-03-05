@@ -1,3 +1,4 @@
+IDstr=601aa3d2b2bcb34913271e6d
 Name=7.62x39mm MAI AP
 ShortName=MAI AP
 Itemtype=Ammo

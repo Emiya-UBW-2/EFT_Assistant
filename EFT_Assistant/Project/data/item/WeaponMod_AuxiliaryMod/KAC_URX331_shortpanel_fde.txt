@@ -1,3 +1,4 @@
+IDstr=5d124c01d7ad1a115c7d59fb
 Name=KAC URX 3/3.1 short panel (FDE)
 ShortName=URX short
 Itemtype=Auxiliary Mod
@@ -7,8 +8,8 @@ Information_Eng=A short rail cover for the URX 3/3.1 handguards, manufactured by
 basePrice=1200
 width=1
 height=1
-avg24hPrice=11615
-low24hPrice=3000
+avg24hPrice=13416
+low24hPrice=5000
 lastOfferCount=1
 Sell_Prapor=600
 Sell_Fence=480

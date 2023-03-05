@@ -1,22 +1,29 @@
+IDstr=57aca93d2459771f2c7e26db
 Name=ELCAN SpecterDR 1x/4x scope (FDE)
 ShortName=SpecterDR
 Itemtype=Assault scope
 SightRange=800
+Conflict=[
+	AR-15 Colt A2 rear sight,
+	AR-15 rear sight carry handle,
+	Mosin Rifle carbine rear sight,
+	NSPU-M night vision scope,
+]
 Recoil=0.000000
 Ergonomics=-4.000000
 Information_Eng=The SpecterDR (Dual Role) 1x/4x scope from Specter scope series designed by ELCAN has marked a breakthrough in the optic sight development by becoming the first variable scope that truly has two work modes, switching from 4x magnification to 1x in one touch. Also features a backup iron sight. Flat Dark Earth version.
 basePrice=38000
 width=2
 height=1
-avg24hPrice=42289
-low24hPrice=36666
-lastOfferCount=39
+avg24hPrice=41961
+low24hPrice=38000
+lastOfferCount=29
 Sell_Prapor=19000
 Sell_Fence=15200
 Sell_Skier=18620
 Sell_Peacekeeper=149
 Sell_Mechanic=21280
 Sell_Jaeger=22800
-Sell_Flea Market=38000
+Sell_Flea Market=41111
 weight=0.640000
-fleaMarketFee=3610
+fleaMarketFee=3826

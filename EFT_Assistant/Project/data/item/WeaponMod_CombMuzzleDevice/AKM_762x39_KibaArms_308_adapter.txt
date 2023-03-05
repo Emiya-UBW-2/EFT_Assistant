@@ -1,3 +1,4 @@
+IDstr=615d8e9867085e45ef1409c6
 Name=AKM 7.62x39 Kiba Arms .308 muzzle device adapter
 ShortName=AKM 308
 Itemtype=Comb. muzzle device
@@ -32,7 +33,7 @@ Information_Eng=The Kiba Arms "Samson" adapter that allows installation of vario
 basePrice=2700
 width=1
 height=1
-avg24hPrice=29622
+avg24hPrice=29176
 low24hPrice=16111
 lastOfferCount=8
 Sell_Prapor=1350

@@ -1,3 +1,4 @@
+IDstr=6389f1dfc879ce63f72fc43e
 Name=AK CNC Guns OV GP handguard
 ShortName=OV GP
 Itemtype=Handguard
@@ -104,7 +105,7 @@ Conflict=[
 	Zenit B-13V "Klassika" dovetail rail platform,
 	AK Taktika Tula TT01 rear sight rail,
 	AKMB system rear sight,
-	RPK-16 rear sight,
+	RPK-16 rear sight
 ]
 Recoil=-2.500000
 Ergonomics=5.000000
@@ -112,14 +113,14 @@ Information_Eng=The OV GP handguard for AK series assault rifles, equipped with 
 basePrice=6600
 width=2
 height=1
-avg24hPrice=15461
+avg24hPrice=15919
 low24hPrice=10999
-lastOfferCount=14
+lastOfferCount=18
 Sell_Prapor=3300
 Sell_Fence=2640
 Sell_Skier=3234
 Sell_Peacekeeper=26
 Sell_Mechanic=3696
-Sell_Flea Market=16250
+Sell_Flea Market=12000
 weight=0.536000
-fleaMarketFee=1747
+fleaMarketFee=1156

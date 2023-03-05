@@ -1,7 +1,12 @@
+IDstr=5d1b5e94d7ad1a2b865a96b0
 Name=FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescope
 ShortName=FLIR RS-32
 Itemtype=Special scope
 SightRange=500
+Conflict=[
+	AR-15 Colt A2 rear sight,
+	AR-15 rear sight carry handle,
+]
 Recoil=0.000000
 Ergonomics=-11.000000
 Information_Eng=A versatile thermal imaging telescope/sight with many uses and advantages. It can be installed on weapons for use as a sight, or on the helmet as a monocular via an adapter, or as a separate observation device.

@@ -1,3 +1,4 @@
+IDstr=5efb0d4f4bc50b58e81710f3
 Name=.45 ACP Lasermatch FMJ
 ShortName=Lasermatch
 Itemtype=Ammo

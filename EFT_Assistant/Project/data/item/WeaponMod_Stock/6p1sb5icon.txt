@@ -1,8 +1,12 @@
+IDstr=59d6514b86f774171a068a08
 Name=AKM wooden stock (6P1 Sb.5)
 ShortName=6P1 Sb.5
 Itemtype=Stock
 ChildParts=[
 	AK GP-25 accessory kit recoil pad
+]
+Conflict=[
+	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock,
 ]
 Recoil=-33.000000
 Ergonomics=3.000000

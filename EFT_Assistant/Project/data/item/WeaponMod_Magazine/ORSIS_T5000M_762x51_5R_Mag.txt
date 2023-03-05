@@ -1,3 +1,4 @@
+IDstr=5df25b6c0b92095fd441e4cf
 Name=ORSIS T-5000M 7.62x51 5-round magazine
 ShortName=T-5000M
 Itemtype=Magazine

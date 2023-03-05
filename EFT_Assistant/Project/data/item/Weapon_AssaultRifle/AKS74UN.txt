@@ -1,3 +1,4 @@
+IDstr=583990e32459771419544dd2
 Name=Kalashnikov AKS-74UN 5.45x39 assault rifle
 ShortName=AKS-74UN
 Itemtype=Assault rifle
@@ -83,20 +84,23 @@ ChildParts=[
 	AK CSS knurled charging handle,
 	AK Zenit RP-1 charging handle
 ]
+Conflict=[
+	Hera Arms CQR tactical foregrip,
+]
 Recoil=120.000000
 Ergonomics=44.000000
 Information_Eng=AKS-74UN (Avtomat Kalashnikova Skladnoy 74 Ukorochenny Nochnoy - "Kalashnikov's Shortened Automatic rifle 74 Night with a foldable stock") is a shortened version of the AKS-74 assault rifle, developed in the early 80s for combat vehicle crews and airborne troops, also became very popular with law enforcement and special forces for its compact size. The N (Nochnoy - "Night") version is equipped with a dovetail mount for the installation of night vision scopes.
 basePrice=19345
 width=3
 height=1
-avg24hPrice=30428
-low24hPrice=19999
-lastOfferCount=13
+avg24hPrice=29606
+low24hPrice=18888
+lastOfferCount=29
 Sell_Prapor=9672
 Sell_Fence=7738
 Sell_Skier=9479
 Sell_Peacekeeper=76
 Sell_Mechanic=10833
-Sell_Flea Market=20999
+Sell_Flea Market=18888
 weight=1.850000
-fleaMarketFee=1953
+fleaMarketFee=1801

@@ -1,3 +1,4 @@
+IDstr=62963c18dbc8ab5f0d382d0b
 Name=Death Knight mask
 ShortName=Death Knight
 Itemtype=Face Cover

@@ -1,8 +1,12 @@
+IDstr=5649b0fc4bdc2d17108b4588
 Name=AK-74 polymer stock (6P20 Sb.7)
 ShortName=6P20 Sb.7
 Itemtype=Stock
 ChildParts=[
 	AK GP-25 accessory kit recoil pad
+]
+Conflict=[
+	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock,
 ]
 Recoil=-32.000000
 Ergonomics=5.000000

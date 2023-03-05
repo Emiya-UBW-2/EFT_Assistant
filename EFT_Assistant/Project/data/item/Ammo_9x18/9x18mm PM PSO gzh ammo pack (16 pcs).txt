@@ -1,3 +1,4 @@
+IDstr=5737273924597765dd374461
 Name=9x18mm PM PSO gzh ammo pack (16 pcs)
 ShortName=PSO
 Itemtype=Ammo container

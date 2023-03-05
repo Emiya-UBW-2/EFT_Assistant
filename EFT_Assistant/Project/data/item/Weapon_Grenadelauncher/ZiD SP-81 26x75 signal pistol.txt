@@ -1,3 +1,4 @@
+IDstr=620109578d82e67e7911abf2
 Name=ZiD SP-81 26x75 signal pistol
 ShortName=SP-81
 Itemtype=Grenade launcher

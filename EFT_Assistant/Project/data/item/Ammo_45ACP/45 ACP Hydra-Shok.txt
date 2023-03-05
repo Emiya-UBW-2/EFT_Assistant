@@ -1,3 +1,4 @@
+IDstr=5efb0fc6aeb21837e749c801
 Name=.45 ACP Hydra-Shok
 ShortName=HydraShok
 Itemtype=Ammo

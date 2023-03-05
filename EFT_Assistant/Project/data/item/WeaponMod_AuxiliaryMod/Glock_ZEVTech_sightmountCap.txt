@@ -1,3 +1,4 @@
+IDstr=5a71e1868dc32e00094b97f3
 Name=Glock ZEV Tech sight mount cap
 ShortName=G ZT cap
 Itemtype=Auxiliary Mod

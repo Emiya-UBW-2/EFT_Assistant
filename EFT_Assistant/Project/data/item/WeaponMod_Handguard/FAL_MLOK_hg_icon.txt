@@ -1,6 +1,11 @@
+IDstr=5b7bebc85acfc43bca706666
 Name=SA-58/FAL AIM Sports Universal M-LOK handguard
 ShortName=SA58 M-LOK
 Itemtype=Handguard
+Conflict=[
+	SA-58 7.62x51 16 inch barrel,
+	SA-58 7.62x51 11 inch barrel,
+]
 Recoil=0.000000
 Ergonomics=9.000000
 Information_Eng=The AIM Sports universal M-LOK handguard for FAL series rifles equipped with an M-LOK interface for installation of additional devices and accessories.

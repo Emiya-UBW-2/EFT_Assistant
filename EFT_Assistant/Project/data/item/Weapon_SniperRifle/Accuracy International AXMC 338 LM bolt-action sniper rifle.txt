@@ -1,3 +1,4 @@
+IDstr=627e14b21713922ded6f2c15
 Name=Accuracy International AXMC .338 LM bolt-action sniper rifle
 ShortName=AXMC
 Itemtype=Sniper rifle

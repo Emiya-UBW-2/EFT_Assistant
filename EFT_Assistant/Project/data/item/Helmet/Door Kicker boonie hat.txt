@@ -1,19 +1,28 @@
+IDstr=5d96141523f0ea1b7f2aacab
 Name=Door Kicker boonie hat
 ShortName=Door Kicker
 Itemtype=Headwear
+Conflict=[
+	OPSMEN Earmor M32 headset,
+	Faceless mask,
+	Ghoul mask,
+	Pestily plague mask,
+	Slender mask,
+	GP-7 gas mask,
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A well-worn "PriceLess" boonie hat. It is believed that those who wear it can open any door in this world.
 basePrice=10200
 width=2
 height=2
-avg24hPrice=11740
+avg24hPrice=12170
 low24hPrice=6666
-lastOfferCount=15
+lastOfferCount=10
 Sell_Fence=4080
 Sell_Skier=4998
 Sell_Peacekeeper=40
 Sell_Ragman=6324
-Sell_Flea Market=7777
+Sell_Flea Market=7500
 weight=0.100000
-fleaMarketFee=806
+fleaMarketFee=792

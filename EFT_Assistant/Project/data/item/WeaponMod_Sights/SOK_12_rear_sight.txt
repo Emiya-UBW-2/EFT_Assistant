@@ -1,3 +1,4 @@
+IDstr=57a9b9ce2459770ee926038d
 Name=SOK-12 rear sight
 ShortName=SOK12 RS
 Itemtype=Ironsight

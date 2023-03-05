@@ -1,3 +1,4 @@
+IDstr=5cde7b43d7f00c000d36b93e
 Name=M700 AB Arms MOD*X rail mount
 ShortName=MOD*X rail
 Itemtype=Mount
@@ -71,21 +72,29 @@ ChildParts=[
 	MCX flip-up rear sight,
 	MPX flip-up rear sight
 ]
+Conflict=[
+	Axion Kobra EKP-8-02 reflex sight (Dovetail),
+	OKP-7 reflex sight (Dovetail),
+	BelOMO PSO-1M2-1 4x24 scope,
+	NSPU-M night vision scope,
+	Axion Kobra dovetail mount,
+	VOMZ Pilad 043-02 dovetail mount
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=The AB Arms MOD*X universal mount for the Remington Model 700 sniper rifle, allows installation of various optics.
 basePrice=2640
 width=2
 height=1
-avg24hPrice=48110
+avg24hPrice=47721
 low24hPrice=39998
-lastOfferCount=2
+lastOfferCount=1
 Sell_Prapor=1320
 Sell_Fence=1056
 Sell_Skier=1293
 Sell_Peacekeeper=10
 Sell_Mechanic=1478
 Sell_Jaeger=1584
-Sell_Flea Market=39998
+Sell_Flea Market=100000
 weight=0.090000
-fleaMarketFee=12618
+fleaMarketFee=58057

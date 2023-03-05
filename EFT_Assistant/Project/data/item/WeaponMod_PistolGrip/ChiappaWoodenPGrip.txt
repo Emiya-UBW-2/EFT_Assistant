@@ -1,3 +1,4 @@
+IDstr=619f4bffd25cbd424731fb97
 Name=Chiappa Rhino wooden pistol grip
 ShortName=CR wood
 Itemtype=Pistol grip

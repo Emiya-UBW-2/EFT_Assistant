@@ -1,3 +1,4 @@
+IDstr=5de8e67c4a9f347bc92edbd7
 Name=MP9-N 9x19 upper receiver
 ShortName=MP9-N
 Itemtype=Receiver

@@ -1,3 +1,4 @@
+IDstr=5a9d6d21a2750c00137fa649
 Name=Strike Industries TRAX bridge rail
 ShortName=TRAX Bridge
 Itemtype=Mount
@@ -40,21 +41,24 @@ ChildParts=[
 	Zenit RK-6 tactical foregrip,
 	Tactical Dynamics Skeletonized Foregrip
 ]
+Conflict=[
+	PP-19-01 "Vityaz" 9x19 submachine gun
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=The Strike Industries TRAX Bridge rail that mounts on the TRAX 1 handguard to install an additional TRAX 2 handguard extension.
 basePrice=1635
 width=2
 height=1
-avg24hPrice=14631
+avg24hPrice=12871
 low24hPrice=6399
-lastOfferCount=6
+lastOfferCount=3
 Sell_Prapor=817
 Sell_Fence=654
 Sell_Skier=801
 Sell_Peacekeeper=6
 Sell_Mechanic=915
 Sell_Jaeger=981
-Sell_Flea Market=9500
+Sell_Flea Market=7000
 weight=0.075000
-fleaMarketFee=1627
+fleaMarketFee=1001

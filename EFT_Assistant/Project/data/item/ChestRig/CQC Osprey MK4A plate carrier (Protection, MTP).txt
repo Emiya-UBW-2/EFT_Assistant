@@ -1,3 +1,4 @@
+IDstr=60a3c68c37ea821725773ef5
 Name=CQC Osprey MK4A plate carrier (Protection, MTP)
 ShortName=Osprey MK4A (P)
 Itemtype=Chest rig

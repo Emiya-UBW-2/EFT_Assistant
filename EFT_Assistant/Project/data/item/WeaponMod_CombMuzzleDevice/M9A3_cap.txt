@@ -1,3 +1,4 @@
+IDstr=5cadc390ae921500126a77f1
 Name=M9A3 thread protection cap
 ShortName=M9A3 cap
 Itemtype=Comb. muzzle device
@@ -7,8 +8,8 @@ Information_Eng=A threading protection cap for the Beretta M9A3 9x19 barrel.
 basePrice=300
 width=1
 height=1
-avg24hPrice=5000
-low24hPrice=5000
+avg24hPrice=0
+low24hPrice=0
 lastOfferCount=1
 Sell_Prapor=150
 Sell_Fence=120

@@ -1,3 +1,4 @@
+IDstr=628b9c7d45122232a872358f
 Name=Crye Precision CPC plate carrier (Goons Edition)
 ShortName=CPC GE
 Itemtype=Chest rig

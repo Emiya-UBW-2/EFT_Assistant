@@ -1,3 +1,4 @@
+IDstr=58889d0c2459775bc215d981
 Name=Lobaev Arms stock
 ShortName=Lobaev
 Itemtype=Stock
@@ -7,7 +8,7 @@ Information_Eng=A standard-issue universal stock for sniper rifles manufactured 
 basePrice=4650
 width=2
 height=1
-avg24hPrice=60701
+avg24hPrice=50000
 low24hPrice=35420
 lastOfferCount=2
 Sell_Prapor=2325

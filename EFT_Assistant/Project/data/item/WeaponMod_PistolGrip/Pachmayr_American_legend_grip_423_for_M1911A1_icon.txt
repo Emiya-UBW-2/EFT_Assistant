@@ -1,3 +1,4 @@
+IDstr=5ef366938cef260c0642acad
 Name=M1911 Pachmayr American Legend Grip #423
 ShortName=#423
 Itemtype=Pistol grip

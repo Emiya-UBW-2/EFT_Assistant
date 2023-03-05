@@ -1,3 +1,4 @@
+IDstr=5a38eecdc4a282329a73b512
 Name=TOZ-106 002 pistol grip
 ShortName=TOZ106
 Itemtype=Pistol grip

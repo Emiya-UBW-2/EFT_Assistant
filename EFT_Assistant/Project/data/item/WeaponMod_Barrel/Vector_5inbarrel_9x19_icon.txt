@@ -1,3 +1,4 @@
+IDstr=5fbbc366ca32ed67276c1557
 Name=KRISS Vector 9x19 5 inch barrel
 ShortName=Vector 9x19 5"
 Itemtype=Barrel
@@ -10,21 +11,24 @@ ChildParts=[
 	SIG Sauer SRD9 9x19 sound suppressor,
 	SilencerCo Osprey 9 9x19 sound suppressor
 ]
+Conflict=[
+	KRISS Vector Mk.5 modular rail,
+]
 Recoil=-3.000000
 Ergonomics=0.000000
 Information_Eng=A 5 inch (140mm) threaded barrel for the KRISS Vector 9x19 submachine gun.
 basePrice=8200
 width=2
 height=1
-avg24hPrice=14016
-low24hPrice=8000
-lastOfferCount=4
+avg24hPrice=14489
+low24hPrice=5000
+lastOfferCount=20
 Sell_Prapor=4100
 Sell_Fence=3280
 Sell_Skier=4018
 Sell_Peacekeeper=32
 Sell_Mechanic=4592
 Sell_Jaeger=4920
-Sell_Flea Market=9000
+Sell_Flea Market=5000
 weight=0.160000
-fleaMarketFee=835
+fleaMarketFee=596

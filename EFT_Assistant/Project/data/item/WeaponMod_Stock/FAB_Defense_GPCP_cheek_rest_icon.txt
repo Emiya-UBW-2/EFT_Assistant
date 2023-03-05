@@ -1,3 +1,4 @@
+IDstr=626a8ae89e664a2e2a75f409
 Name=TOZ-106 FAB Defense GPCP cheek rest
 ShortName=GPCP
 Itemtype=Stock
@@ -7,7 +8,7 @@ Information_Eng=A stripped-down version of the FAB Defense GPCP cheek pad for th
 basePrice=1300
 width=1
 height=1
-avg24hPrice=7013
+avg24hPrice=6018
 low24hPrice=2500
 lastOfferCount=1
 Sell_Prapor=650

@@ -1,3 +1,4 @@
+IDstr=56d5a1f7d2720bb3418b456a
 Name=P226 9x19 112mm barrel
 ShortName=P226 112mm
 Itemtype=Barrel

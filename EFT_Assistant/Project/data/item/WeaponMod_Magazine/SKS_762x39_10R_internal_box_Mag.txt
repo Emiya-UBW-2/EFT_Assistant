@@ -1,3 +1,4 @@
+IDstr=587df3a12459772c28142567
 Name=SKS 7.62x39 10-round internal box magazine
 ShortName=SKS int.
 Itemtype=Magazine

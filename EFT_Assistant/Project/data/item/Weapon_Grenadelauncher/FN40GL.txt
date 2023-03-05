@@ -1,3 +1,4 @@
+IDstr=5e81ebcd8e146c7080625e15
 Name=FN40GL Mk2 40mm grenade launcher
 ShortName=FN40GL
 Itemtype=Grenade launcher

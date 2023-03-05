@@ -1,3 +1,4 @@
+IDstr=57dc324a24597759501edc20
 Name=AKS-74U 5.45x39 muzzle brake (6P26 0-20)
 ShortName=6P26 0-20
 Itemtype=Flashhider

@@ -1,3 +1,4 @@
+IDstr=57cd379a24597778e7682ecf
 Name=Kiba Arms Tactical Tomahawk
 ShortName=KATT
 Itemtype=Knife

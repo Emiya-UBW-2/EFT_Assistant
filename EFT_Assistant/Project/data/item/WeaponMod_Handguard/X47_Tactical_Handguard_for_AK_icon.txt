@@ -1,3 +1,4 @@
+IDstr=5f6331e097199b7db2128dc2
 Name=AK TDI X47 tactical handguard rail system
 ShortName=X47
 Itemtype=Handguard
@@ -137,7 +138,7 @@ Conflict=[
 	Zenit B-13V "Klassika" dovetail rail platform,
 	AK AKademia Bastion dust cover,
 	AK FAB Defense PDC dust cover,
-	AK TWS Dog Leg Rail dust cover,
+	AK TWS Dog Leg Rail dust cover
 ]
 Recoil=-3.000000
 Ergonomics=10.000000
@@ -145,7 +146,7 @@ Information_Eng=A tactical aluminum handguard for the AK family assault rifles, 
 basePrice=19300
 width=2
 height=1
-avg24hPrice=25305
+avg24hPrice=24523
 low24hPrice=17000
 lastOfferCount=13
 Sell_Prapor=9650

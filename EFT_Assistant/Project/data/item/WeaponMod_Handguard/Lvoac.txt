@@ -1,3 +1,4 @@
+IDstr=595cfa8b86f77427437e845b
 Name=AR-15 War Sport LVOA-C handguard (Black)
 ShortName=LVOA-C
 Itemtype=Handguard
@@ -26,12 +27,7 @@ ChildParts=[
 ]
 Conflict=[
 	Rotor 43 5.56x45 muzzle brake-compensator,
-	AR-15 5.56x45 260mm barrel,
-	STM-9 9x19 10.5 inch barrel,
-	STM-9 9x19 12 inch barrel,
-	STM-9 9x19 16 inch barrel,
-	AR-10 JP Enterprises Gas System-6,
-	M203 40mm underbarrel grenade launcher,
+	AR-15 5.56x45 260mm barrel
 ]
 Recoil=-2.000000
 Ergonomics=10.000000
@@ -39,14 +35,14 @@ Information_Eng=The War Sport LVOA-C lightweight handguard is designed for use w
 basePrice=19988
 width=3
 height=1
-avg24hPrice=52481
+avg24hPrice=50885
 low24hPrice=28888
-lastOfferCount=3
+lastOfferCount=20
 Sell_Prapor=9994
 Sell_Fence=7995
 Sell_Skier=9794
 Sell_Peacekeeper=78
 Sell_Mechanic=11193
-Sell_Flea Market=80000
+Sell_Flea Market=44443
 weight=0.580000
-fleaMarketFee=11005
+fleaMarketFee=4581

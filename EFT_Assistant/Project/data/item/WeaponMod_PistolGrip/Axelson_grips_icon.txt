@@ -1,3 +1,4 @@
+IDstr=5bffec120db834001c38f5fa
 Name=P226 Axelson Tactical MK25 pistol grip
 ShortName=P226 Axelson
 Itemtype=Pistol grip
@@ -7,9 +8,9 @@ Information_Eng=An enhanced version of the SIG Sauer P226 MK25 pistol grip, manu
 basePrice=3000
 width=1
 height=1
-avg24hPrice=8932
+avg24hPrice=4999
 low24hPrice=3000
-lastOfferCount=3
+lastOfferCount=2
 Sell_Prapor=1500
 Sell_Fence=1200
 Sell_Skier=1470

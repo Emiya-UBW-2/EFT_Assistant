@@ -1,3 +1,4 @@
+IDstr=62e27a7865f0b1592a49e17b
 Name=SR-2M dust cover
 ShortName=SR-2M
 Itemtype=Receiver

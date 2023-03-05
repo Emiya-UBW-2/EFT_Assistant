@@ -1,3 +1,4 @@
+IDstr=6259bdcabd28e4721447a2aa
 Name=Benelli M3 Super 90 12ga 7-shell magazine
 ShortName=M3x7
 Itemtype=Magazine

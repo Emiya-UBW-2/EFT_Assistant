@@ -1,3 +1,4 @@
+IDstr=5af08d1c86f774223a7aa1b4
 Name=Remington Model 870 12ga pump-action shotgun Breacher
 ShortName=M870 Breacher
 Itemtype=Shotgun

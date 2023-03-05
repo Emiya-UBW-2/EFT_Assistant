@@ -1,19 +1,33 @@
+IDstr=59e770f986f7742cbe3164ef
 Name=Army cap
 ShortName=Army
 Itemtype=Headwear
+Conflict=[
+	Faceless mask,
+	Ghoul mask,
+	GP-5 gas mask,
+	Jason mask,
+	Misha Mayorov mask,
+	Neoprene mask,
+	Pestily plague mask,
+	Shemagh (Green),
+	Shemagh (Tan),
+	Slender mask,
+	GP-7 gas mask,
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A standard military cap, worn by soldiers.
 basePrice=1353
 width=1
 height=1
-avg24hPrice=3194
-low24hPrice=2000
-lastOfferCount=2
+avg24hPrice=2720
+low24hPrice=1600
+lastOfferCount=7
 Sell_Fence=541
 Sell_Skier=662
 Sell_Peacekeeper=5
 Sell_Ragman=838
-Sell_Flea Market=2790
+Sell_Flea Market=1600
 weight=0.100000
-fleaMarketFee=280
+fleaMarketFee=147

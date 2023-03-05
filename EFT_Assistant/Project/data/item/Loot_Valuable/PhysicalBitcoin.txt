@@ -1,3 +1,4 @@
+IDstr=59faff1d86f7746c51718c9c
 Name=Physical bitcoin
 ShortName=0.2BTC
 Itemtype=Jewelry

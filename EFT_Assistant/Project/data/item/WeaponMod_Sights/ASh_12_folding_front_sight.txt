@@ -1,3 +1,4 @@
+IDstr=5caf16a2ae92152ac412efbc
 Name=ASh-12 folding front sight
 ShortName=ASh-12 FS
 Itemtype=Ironsight

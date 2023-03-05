@@ -1,3 +1,4 @@
+IDstr=rpk16drum000000000000001
 Name=RPK-16 5.45x39 light machine gun Drum
 ShortName=RPK-16 Drum
 Itemtype=Machinegun

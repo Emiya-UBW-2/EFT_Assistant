@@ -1,3 +1,4 @@
+IDstr=62875070bbbd995f3c41b225
 Name=SIG MCX .300 Blackout assault rifle Neptune Spear
 ShortName=MCX .300 BLK Neptune Spear
 Itemtype=Assault rifle

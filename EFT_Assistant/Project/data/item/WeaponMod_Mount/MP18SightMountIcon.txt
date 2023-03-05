@@ -1,3 +1,4 @@
+IDstr=61f804acfcba9556ea304cb8
 Name=MP-18 sight mount
 ShortName=MP18 RIS
 Itemtype=Mount
@@ -7,8 +8,8 @@ Information_Eng=A RIS sight mount for the MP-18 rifles.
 basePrice=3800
 width=1
 height=1
-avg24hPrice=29241
-low24hPrice=9999
+avg24hPrice=29544
+low24hPrice=10000
 lastOfferCount=3
 Sell_Prapor=1900
 Sell_Fence=1520

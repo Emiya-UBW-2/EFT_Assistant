@@ -1,8 +1,21 @@
+IDstr=618a75c9a3884f56c957ca1b
 Name=NPZ 1P78-1 dovetail mount
 ShortName=1P78 DT
 Itemtype=Mount
 Conflict=[
-	AK CNC Guns OV GP handguard,
+	BelOMO PK-AA dovetail reflex sight,
+	BelOMO PSO-1 4x24 scope,
+	BelOMO PSO-1M2-1 4x24 scope,
+	BelOMO PSO-1M2 4x24 scope,
+	SVD SAG low profile sidemount,
+	AK TDI X47 tactical handguard rail system,
+	AKS-74U CAA XRSU47SU tactical handguard,
+	SVD SAG MK1 chassis,
+	AK AKademia Bastion dust cover,
+	AK FAB Defense PDC dust cover,
+	AK TWS Dog Leg Rail dust cover,
+	AK Zenit B-33 dust cover,
+	PP-19-01 "Vityaz-SN" dust cover
 ]
 Recoil=0.000000
 Ergonomics=-1.000000
@@ -10,7 +23,7 @@ Information_Eng=An aluminum sight mount manufactured by NPZ for the installation
 basePrice=2000
 width=1
 height=1
-avg24hPrice=13431
+avg24hPrice=13684
 low24hPrice=9000
 lastOfferCount=2
 Sell_Prapor=1000

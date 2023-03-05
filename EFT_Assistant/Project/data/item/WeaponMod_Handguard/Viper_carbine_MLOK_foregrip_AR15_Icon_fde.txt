@@ -1,3 +1,4 @@
+IDstr=5d00f63bd7ad1a59283b1c1e
 Name=AR-15 Strike Industries Viper carbine length M-LOK handguard (FDE)
 ShortName=AR15 Viper
 Itemtype=Handguard
@@ -10,9 +11,7 @@ ChildParts=[
 	AR-15 Strike Industries Viper carbine length M-LOK lower handguard
 ]
 Conflict=[
-	AR-15 5.56x45 Molot Arms 406mm barrel,
-	AR-15 5.56x45 18 inch barrel,
-	AR-15 5.56x45 20 inch barrel,
+	AR-15 5.56x45 Molot Arms 406mm barrel
 ]
 Recoil=0.000000
 Ergonomics=3.000000
@@ -20,7 +19,7 @@ Information_Eng=The Strike Industries Viper handguard for AR-15 equipped with an
 basePrice=4275
 width=2
 height=1
-avg24hPrice=14179
+avg24hPrice=14320
 low24hPrice=4777
 lastOfferCount=3
 Sell_Prapor=2137

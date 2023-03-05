@@ -1,3 +1,4 @@
+IDstr=6389c7f115805221fb410466
 Name=Far-forward GPS Signal Amplifier Unit
 ShortName=GPSA
 Itemtype=Electronics

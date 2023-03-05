@@ -1,3 +1,4 @@
+IDstr=5d3eb59ea4b9361c284bb4b2
 Name=FN Five-seveN 5.7x28 threaded barrel
 ShortName=5-7 thr.
 Itemtype=Barrel

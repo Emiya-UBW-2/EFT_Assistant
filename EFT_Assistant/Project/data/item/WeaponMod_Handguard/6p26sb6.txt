@@ -1,3 +1,4 @@
+IDstr=57dc32dc245977596d4ef3d3
 Name=AKS-74U wooden handguard (6P26 Sb.6)
 ShortName=6P26 Sb.6
 Itemtype=Handguard

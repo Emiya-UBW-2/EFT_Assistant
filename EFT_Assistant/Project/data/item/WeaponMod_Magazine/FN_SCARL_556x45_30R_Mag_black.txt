@@ -1,20 +1,24 @@
+IDstr=61840bedd92c473c77021635
 Name=FN SCAR-L 5.56x45 30-round magazine
 ShortName=Mk16
 Itemtype=Magazine
+Conflict=[
+	HK G36 magwell,
+]
 Recoil=0.000000
 Ergonomics=-3.000000
 Information_Eng=A 30-round 5.56x45 metal magazine designed for the SCAR-series weapons.
 basePrice=2100
 width=1
 height=2
-avg24hPrice=14955
-low24hPrice=11999
-lastOfferCount=1
+avg24hPrice=14353
+low24hPrice=9500
+lastOfferCount=4
 Sell_Prapor=1050
 Sell_Fence=840
 Sell_Skier=1029
 Sell_Peacekeeper=8
 Sell_Mechanic=1176
-Sell_Flea Market=16000
+Sell_Flea Market=9500
 weight=0.117000
-fleaMarketFee=3242
+fleaMarketFee=1402

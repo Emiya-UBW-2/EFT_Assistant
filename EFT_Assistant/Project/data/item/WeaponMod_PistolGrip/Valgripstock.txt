@@ -1,3 +1,4 @@
+IDstr=5a69a2ed8dc32e000d46d1f1
 Name=AS VAL Rotor 43 pistol grip & buffer tube
 ShortName=R43 VAL
 Itemtype=Pistol grip
@@ -23,7 +24,7 @@ ChildParts=[
 	Vltor EMOD stock
 ]
 Conflict=[
-	AS VAL skeleton stock,
+	AS VAL skeleton stock
 ]
 Recoil=0.000000
 Ergonomics=5.000000
@@ -31,14 +32,14 @@ Information_Eng=A pistol grip with an integrated Mil-Spec buffer tube for AS VAL
 basePrice=8177
 width=2
 height=1
-avg24hPrice=50525
+avg24hPrice=50169
 low24hPrice=35000
-lastOfferCount=34
+lastOfferCount=9
 Sell_Prapor=4088
 Sell_Fence=3270
 Sell_Skier=4006
 Sell_Peacekeeper=32
 Sell_Mechanic=4579
-Sell_Flea Market=47000
+Sell_Flea Market=99999
 weight=0.065000
-fleaMarketFee=7999
+fleaMarketFee=27431

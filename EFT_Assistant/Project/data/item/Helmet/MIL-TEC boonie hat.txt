@@ -1,15 +1,24 @@
+IDstr=5b4327aa5acfc400175496e0
 Name=MIL-TEC boonie hat
 ShortName=Boonie
 Itemtype=Headwear
+Conflict=[
+	Faceless mask,
+	Ghoul mask,
+	GP-5 gas mask,
+	Pestily plague mask,
+	Slender mask,
+	GP-7 gas mask,
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=MIL-TEC-produced boonie hat, which can be used for protection from the sun. Or you can operate wearing it like a true SEAL Team Six operator.
 basePrice=2170
 width=2
 height=2
-avg24hPrice=8441
+avg24hPrice=7163
 low24hPrice=2000
-lastOfferCount=5
+lastOfferCount=6
 Sell_Fence=868
 Sell_Skier=1063
 Sell_Peacekeeper=8

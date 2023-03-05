@@ -1,22 +1,40 @@
+IDstr=5a37cb10c4a282329a73b4e7
 Name=Leupold Mark 4 LR 6.5-20x50 30mm riflescope
 ShortName=6.5-20x50
 Itemtype=Scope
 SightRange=1500
+Conflict=[
+	Axion Kobra EKP-8-18 reflex sight,
+	OKP-7 reflex sight,
+	EOTech 553 holographic sight,
+	EOTech EXPS3 holographic sight (Tan),
+	EOTech XPS3-0 holographic sight,
+	EOTech XPS3-2 holographic sight,
+	Holosun HS401G5 reflex sight,
+	SIG Sauer ROMEO8T reflex sight,
+	Trijicon SRS-02 reflex sight,
+	Valday PK-120 (1P87) holographic sight,
+	Valday Krechet reflex sight,
+	VOMZ Pilad P1x42 Weaver reflex sight,
+	Vortex Razor AMG UH-1 holographic sight,
+	Walther MRS reflex sight,
+	Aimpoint LRP mount for CompM4 sights
+]
 Recoil=0.000000
 Ergonomics=-3.000000
 Information_Eng=Precise, accurate, durable and dependable - the Leupold Mark 4 6.5-20x50 rifle scope. The model provides 6.5 - 20x magnification giving you a clear idea of the actual size of the targeted object.
 basePrice=58580
 width=2
 height=1
-avg24hPrice=35303
+avg24hPrice=34774
 low24hPrice=27998
-lastOfferCount=23
+lastOfferCount=34
 Sell_Prapor=29290
 Sell_Fence=23432
 Sell_Skier=28704
 Sell_Peacekeeper=229
 Sell_Mechanic=32804
 Sell_Jaeger=35148
-Sell_Flea Market=33000
+Sell_Flea Market=32000
 weight=0.620000
-fleaMarketFee=4195
+fleaMarketFee=4178

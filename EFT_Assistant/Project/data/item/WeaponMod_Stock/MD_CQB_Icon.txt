@@ -1,3 +1,4 @@
+IDstr=5c5db6ee2e221600113fba54
 Name=MPX/MCX Maxim Defense CQB telescoping stock
 ShortName=MPX/MCX CQB
 Itemtype=Stock

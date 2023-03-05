@@ -1,3 +1,4 @@
+IDstr=629774055c32d414f8797477
 Name=HK G36 5.56x45 assault rifle C
 ShortName=G36 C
 Itemtype=Assault rifle

@@ -1,3 +1,4 @@
+IDstr=5ef3553c43cb350a955a7ccb
 Name=M1911A1 Wilson Extended slide stop
 ShortName=1911 Ext.
 Itemtype=Auxiliary Mod

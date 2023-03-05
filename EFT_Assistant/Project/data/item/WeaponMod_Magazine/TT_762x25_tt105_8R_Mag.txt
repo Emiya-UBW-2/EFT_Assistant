@@ -1,3 +1,4 @@
+IDstr=571a29dc2459771fb2755a6a
 Name=TT 7.62x25 tt-105 8-round magazine
 ShortName=tt-105
 Itemtype=Magazine

@@ -1,3 +1,4 @@
+IDstr=618b9671d14d6d5ab879c5ea
 Name=Geissele Super Precision top ring cap
 ShortName=Geis top
 Itemtype=Mount
@@ -7,7 +8,7 @@ Information_Eng=A regular top ring cap for the Geissele Super Precision mounts.
 basePrice=1500
 width=1
 height=1
-avg24hPrice=19495
+avg24hPrice=19150
 low24hPrice=10000
 lastOfferCount=5
 Sell_Prapor=750

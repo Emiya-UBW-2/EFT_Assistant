@@ -1,3 +1,4 @@
+IDstr=5aba639ed8ce8700182ece67
 Name=APB rear sight
 ShortName=APB RS
 Itemtype=Ironsight
@@ -8,8 +9,8 @@ Information_Eng=A standard rear sight for APB pistols.
 basePrice=601
 width=1
 height=1
-avg24hPrice=8888
-low24hPrice=8888
+avg24hPrice=0
+low24hPrice=0
 lastOfferCount=1
 Sell_Prapor=300
 Sell_Fence=240

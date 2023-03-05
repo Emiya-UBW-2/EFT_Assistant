@@ -1,3 +1,4 @@
+IDstr=633ec6ee025b096d320a3b15
 Name=RSh-12 12.7x55 5-round cylinder
 ShortName=RSh12 cyl.
 Itemtype=Cylinder Magazine

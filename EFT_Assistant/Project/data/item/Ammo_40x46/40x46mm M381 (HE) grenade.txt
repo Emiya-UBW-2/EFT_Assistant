@@ -1,3 +1,4 @@
+IDstr=5ede474b0c226a66f5402622
 Name=40x46mm M381 (HE) grenade
 ShortName=M381
 Itemtype=Ammo

@@ -1,3 +1,4 @@
+IDstr=5cc80f67e4a949035e43bbba
 Name=5.7x28mm SB193
 ShortName=SB193
 Itemtype=Ammo

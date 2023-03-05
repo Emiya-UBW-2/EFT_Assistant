@@ -1,3 +1,4 @@
+IDstr=5a16b8a9fcdbcb00165aa6ca
 Name=Norotos Titanium Advanced Tactical Mount
 ShortName=TATM
 Itemtype=Mount
@@ -6,21 +7,24 @@ ChildParts=[
 	AN/PVS-14 Dual Dovetail Mount,
 	Wilcox Interface for PVS-7
 ]
+Conflict=[
+	Ops-Core FAST multi-hit ballistic face shield,
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A lightweight titanium mount for installation on the Shroud connector on the helmet. It is necessary for further installation of the night vision goggles or other optical devices. Manufactured by Norotos Inc.
 basePrice=3551
 width=1
 height=1
-avg24hPrice=40428
+avg24hPrice=38044
 low24hPrice=25000
-lastOfferCount=16
+lastOfferCount=17
 Sell_Prapor=1775
 Sell_Fence=1420
 Sell_Skier=1739
 Sell_Peacekeeper=14
 Sell_Mechanic=1988
 Sell_Jaeger=2130
-Sell_Flea Market=35555
+Sell_Flea Market=25105
 weight=0.070000
-fleaMarketFee=8571
+fleaMarketFee=4854

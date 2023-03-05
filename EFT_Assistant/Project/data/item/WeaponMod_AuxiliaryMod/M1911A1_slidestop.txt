@@ -1,3 +1,4 @@
+IDstr=5e81c539cb2b95385c177553
 Name=M1911A1 slide stop
 ShortName=1911 SS
 Itemtype=Auxiliary Mod

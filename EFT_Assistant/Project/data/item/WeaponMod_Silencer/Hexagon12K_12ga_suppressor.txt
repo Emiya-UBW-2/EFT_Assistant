@@ -1,20 +1,26 @@
+IDstr=59c0ec5b86f77435b128bfca
 Name=Hexagon 12K 12ga sound suppressor
 ShortName=Hexagon 12K
 Itemtype=Silencer
+Conflict=[
+	Benelli M3 Super 90 12ga Toni System 11-shell magazine,
+	Benelli M3 Super 90 12ga Toni System 13-shell magazine,
+	Benelli M3 Super 90 12ga Toni System 9-shell magazine,
+]
 Recoil=-16.000000
 Ergonomics=-27.000000
 Information_Eng=A sound moderator for 12ga shotguns and carbines (Saiga, Vepr and others), manufactured by Hexagon.
 basePrice=23038
 width=2
 height=1
-avg24hPrice=31686
+avg24hPrice=32064
 low24hPrice=25000
-lastOfferCount=30
+lastOfferCount=23
 Sell_Prapor=11519
 Sell_Fence=9215
 Sell_Skier=11288
 Sell_Peacekeeper=90
 Sell_Mechanic=12901
-Sell_Flea Market=29999
+Sell_Flea Market=26420
 weight=0.493000
-fleaMarketFee=2745
+fleaMarketFee=2436

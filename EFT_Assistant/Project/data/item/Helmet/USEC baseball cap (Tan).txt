@@ -1,19 +1,33 @@
+IDstr=5aa2a7e8e5b5b00016327c16
 Name=USEC baseball cap (Tan)
 ShortName=USEC
 Itemtype=Headwear
+Conflict=[
+	Faceless mask,
+	Ghoul mask,
+	GP-5 gas mask,
+	Jason mask,
+	Misha Mayorov mask,
+	Neoprene mask,
+	Pestily plague mask,
+	Shemagh (Green),
+	Shemagh (Tan),
+	Slender mask,
+	GP-7 gas mask,
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A tactical USEC PMC baseball cap. Tan version.
 basePrice=1642
 width=1
 height=1
-avg24hPrice=6194
+avg24hPrice=5040
 low24hPrice=1500
-lastOfferCount=2
+lastOfferCount=1
 Sell_Fence=656
 Sell_Skier=804
 Sell_Peacekeeper=6
 Sell_Ragman=1018
-Sell_Flea Market=1999
+Sell_Flea Market=3280
 weight=0.100000
-fleaMarketFee=183
+fleaMarketFee=325

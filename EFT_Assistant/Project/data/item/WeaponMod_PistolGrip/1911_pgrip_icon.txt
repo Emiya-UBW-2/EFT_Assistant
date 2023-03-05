@@ -1,3 +1,4 @@
+IDstr=5e81c6bf763d9f754677beff
 Name=M1911A1 side grips
 ShortName=1911
 Itemtype=Pistol grip
@@ -7,9 +8,9 @@ Information_Eng=Standard-issue side grip panels for the M1911A1 pistol, manufact
 basePrice=800
 width=1
 height=1
-avg24hPrice=20618
+avg24hPrice=19164
 low24hPrice=6000
-lastOfferCount=8
+lastOfferCount=2
 Sell_Prapor=400
 Sell_Fence=320
 Sell_Skier=392

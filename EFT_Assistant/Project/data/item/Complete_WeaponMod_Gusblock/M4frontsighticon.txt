@@ -1,23 +1,13 @@
+IDstr=5ae30e795acfc408fb139a0b
 Name=M4A1 front sight with gas block
 ShortName=M4A1
 Itemtype=Gas block
 Conflict=[
-	AR-15 Aeroknox AX-15 10.5 inch M-LOK handguard,
-	AR-15 Precision Reflex GEN III Delta Carbon handguard,
-	AR-15 Alexander Arms MK10 rifle length handguard,
-	AR-15 Lone Star Ion Lite handguard,
-	AR-15 Daniel Defense RIS II 12.25 handguard (Coyote Brown),
-	AR-15 SAI 10 inch QD Rail handguard,
-	AR-15 SAI 14.5 inch QD Rail handguard,
-	AR-15 Geissele SMR MK16 9.5 inch M-LOK handguard,
-	AR-15 Geissele SMR MK16 13.5 inch M-LOK handguard,
-	AR-15 Soyuz-TM 12 inch M-LOK handguard,
-	AR-15 Soyuz-TM 15 inch M-LOK handguard,
-	AR-15 Soyuz-TM 9 inch M-LOK handguard,
-	AR-15 STNGR VYPR 10 inch M-LOK handguard,
-	AR-15 KAC URX 3.1 10.75 inch handguard,
-	AR-15 KAC URX 3 8 inch handguard,
-	AR-15 Unique-ARs Wing & Skull 12 inch handguard,
+	AR-15 Daniel Defense RIS II 9.5 handguard (Coyote Brown),
+	AR-15 Daniel Defense RIS II 9.5 handguard (Black),
+	R11 RSASS handguard,
+	AR-15 War Sport LVOA-C handguard (Black),
+	AR-15 War Sport LVOA-S handguard (Black)
 ]
 Recoil=0.000000
 Ergonomics=-1.000000
@@ -25,7 +15,7 @@ Information_Eng=A standard-issue front sight with gas block for M4A1 assault rif
 basePrice=2570
 width=1
 height=1
-avg24hPrice=9766
+avg24hPrice=9707
 low24hPrice=7000
 lastOfferCount=2
 Sell_Prapor=1285

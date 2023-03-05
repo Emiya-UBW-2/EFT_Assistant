@@ -1,20 +1,25 @@
+IDstr=5b7bedd75acfc43d825283f9
 Name=SA-58/FAL Vltor CASV-FAL handguard
 ShortName=CASV-FAL
 Itemtype=Handguard
+Conflict=[
+	SA-58 7.62x51 16 inch barrel,
+	SA-58 7.62x51 11 inch barrel,
+]
 Recoil=-3.000000
 Ergonomics=10.000000
 Information_Eng=The Vltor CASV-FAL handguard for FAL series rifles equipped with a CASV interface for installation of additional devices and accessories.
 basePrice=16262
 width=2
 height=1
-avg24hPrice=20703
+avg24hPrice=20436
 low24hPrice=16500
-lastOfferCount=6
+lastOfferCount=22
 Sell_Prapor=8131
 Sell_Fence=6504
 Sell_Skier=7968
 Sell_Peacekeeper=64
 Sell_Mechanic=9106
-Sell_Flea Market=18000
+Sell_Flea Market=19499
 weight=0.224000
-fleaMarketFee=1668
+fleaMarketFee=1789

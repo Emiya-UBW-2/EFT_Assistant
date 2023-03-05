@@ -1,3 +1,4 @@
+IDstr=6389c70ca33d8c4cdf4932c6
 Name=Electronic components
 ShortName=EC
 Itemtype=Electronics
@@ -7,9 +8,9 @@ Information_Eng=Various components and parts of electronics required for the rep
 basePrice=18000
 width=1
 height=1
-avg24hPrice=11460
+avg24hPrice=11456
 low24hPrice=10000
-lastOfferCount=43
+lastOfferCount=36
 Sell_Therapist=11340
 Sell_Fence=7200
 Sell_Skier=8820

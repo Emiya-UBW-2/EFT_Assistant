@@ -1,6 +1,10 @@
+IDstr=5ea03e9400685063ec28bfa4
 Name=PPSh-41 stock
 ShortName=PPSh41
 Itemtype=Stock
+Conflict=[
+	Mosin Rifle Kochetov mount
+]
 Recoil=-29.000000
 Ergonomics=28.000000
 Information_Eng=A standard-issue wooden stock for the PPSh-41 submachine gun.

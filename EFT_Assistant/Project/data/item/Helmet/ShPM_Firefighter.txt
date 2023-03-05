@@ -1,19 +1,25 @@
+IDstr=5c08f87c0db8340019124324
 Name=ShPM Firefighter helmet
 ShortName=ShPM
 Itemtype=Headwear
+Conflict=[
+	Faceless mask,
+	GP-5 gas mask,
+	GP-7 gas mask,
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=Firefighter helmet is an individual means of fire protection and is designed to ensure the protection of the firefighter's head from exposure to elevated temperatures, mechanical shocks, corrosive environments and other dangerous and harmful factors arising from extinguishing fires and conducting emergency rescue operations.
 basePrice=12300
 width=2
 height=2
-avg24hPrice=13640
-low24hPrice=8000
-lastOfferCount=19
+avg24hPrice=13919
+low24hPrice=7999
+lastOfferCount=12
 Sell_Fence=4920
 Sell_Skier=6027
 Sell_Peacekeeper=48
 Sell_Ragman=7626
-Sell_Flea Market=9000
+Sell_Flea Market=7999
 weight=1.500000
-fleaMarketFee=953
+fleaMarketFee=910

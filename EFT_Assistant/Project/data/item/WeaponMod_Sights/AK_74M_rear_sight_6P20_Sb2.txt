@@ -1,3 +1,4 @@
+IDstr=5ac72e475acfc400180ae6fe
 Name=AK-74M rear sight (6P20 Sb.2)
 ShortName=6P20 Sb.2
 Itemtype=Ironsight

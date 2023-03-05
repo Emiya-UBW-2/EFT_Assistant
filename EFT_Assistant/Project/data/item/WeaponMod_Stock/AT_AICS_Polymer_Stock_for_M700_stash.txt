@@ -1,3 +1,4 @@
+IDstr=5d25d0ac8abbc3054f3e61f7
 Name=M700 AI AT AICS polymer stock
 ShortName=AICS M700
 Itemtype=Stock
@@ -7,10 +8,10 @@ ChildParts=[
 	Vltor CASV KeyMod 4 inch rail
 ]
 Conflict=[
-	M700 7.62x51 Wyatt's Outdoor 10-round magazine,
-	M700 7.62x51 Wyatt's Outdoor 5-round magazine,
 	M700 7.62x51 ProMag AA-70 10-round magazine,
 	M700 7.62x51 ProMag AA-70 20-round magazine,
+	M700 7.62x51 Wyatt's Outdoor 10-round magazine,
+	M700 7.62x51 Wyatt's Outdoor 5-round magazine
 ]
 Recoil=-34.000000
 Ergonomics=38.000000
@@ -18,15 +19,15 @@ Information_Eng=The AT AICS polymer stock for the Remington M700 sniper rifle. M
 basePrice=26500
 width=4
 height=1
-avg24hPrice=30110
+avg24hPrice=30429
 low24hPrice=24789
-lastOfferCount=31
+lastOfferCount=4
 Sell_Prapor=13250
 Sell_Fence=10600
 Sell_Skier=12985
 Sell_Peacekeeper=104
 Sell_Mechanic=14840
 Sell_Jaeger=15900
-Sell_Flea Market=25000
+Sell_Flea Market=30900
 weight=0.640000
-fleaMarketFee=2400
+fleaMarketFee=2843

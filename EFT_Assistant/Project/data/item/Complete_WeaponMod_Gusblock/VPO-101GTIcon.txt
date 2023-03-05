@@ -1,3 +1,4 @@
+IDstr=5c5039be2e221602b177c9ff
 Name=VPO-101 "Vepr-Hunter" gas tube
 ShortName=101 gas
 Itemtype=Gas block

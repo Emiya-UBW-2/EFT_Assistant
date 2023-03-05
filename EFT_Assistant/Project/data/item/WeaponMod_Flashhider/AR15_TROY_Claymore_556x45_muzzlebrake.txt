@@ -1,3 +1,4 @@
+IDstr=5cc9b815d7f00c000e2579d6
 Name=AR-15 TROY Claymore 5.56x45 muzzle brake
 ShortName=Claymore
 Itemtype=Flashhider
@@ -7,9 +8,9 @@ Information_Eng=Claymore is an effective muzzle brake for AR-15 base weapon syst
 basePrice=7850
 width=1
 height=1
-avg24hPrice=7609
+avg24hPrice=7814
 low24hPrice=5000
-lastOfferCount=7
+lastOfferCount=5
 Sell_Prapor=3925
 Sell_Fence=3140
 Sell_Skier=3846

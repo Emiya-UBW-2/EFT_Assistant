@@ -1,19 +1,27 @@
+IDstr=5a16b672fcdbcb001912fa83
 Name=Ops-Core FAST Visor
 ShortName=FAST
 Itemtype=Armored equipment
+Conflict=[
+	PNV-10T Night Vision Goggles,
+	Armasight N-15 Night Vision Goggles,
+	GPNVG-18 Night Vision goggles,
+	AN/PVS-14 Night Vision Monocular,
+	T-7 Thermal Goggles with a Night Vision mount
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=The FAST visor, designed to protect the eyes and part of the user's face from shell fragments, mines, grenades, drops of chemically aggressive liquids and oils, coarsely dispersed aerosols, thermal factors, atmospheric influences and mechanical damages in all types of combat operations.
 basePrice=11698
 width=2
 height=1
-avg24hPrice=17973
+avg24hPrice=17568
 low24hPrice=8999
-lastOfferCount=6
+lastOfferCount=20
 Sell_Fence=4679
 Sell_Skier=5732
 Sell_Peacekeeper=46
 Sell_Ragman=7252
-Sell_Flea Market=8999
+Sell_Flea Market=12998
 weight=0.320000
-fleaMarketFee=929
+fleaMarketFee=1204

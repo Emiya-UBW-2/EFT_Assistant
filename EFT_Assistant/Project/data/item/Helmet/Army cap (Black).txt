@@ -1,15 +1,21 @@
+IDstr=603618feffd42c541047f771
 Name=Army cap (Black)
 ShortName=Cap
 Itemtype=Headwear
+Conflict=[
+	Faceless mask,
+	Ghoul mask,
+	GP-7 gas mask,
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A regular army cap, colored in black.
 basePrice=4353
 width=1
 height=1
-avg24hPrice=10999
-low24hPrice=8888
-lastOfferCount=2
+avg24hPrice=11249
+low24hPrice=7777
+lastOfferCount=4
 Sell_Fence=1741
 Sell_Skier=2132
 Sell_Peacekeeper=17

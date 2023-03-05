@@ -1,3 +1,4 @@
+IDstr=5dd8013ff4c3af18c507b10a
 Name=Lone Star TX-15 DML 5.56x45 carbine D-WARRIOR
 ShortName=TX-15 DML D-WARRIOR
 Itemtype=Assault rifle

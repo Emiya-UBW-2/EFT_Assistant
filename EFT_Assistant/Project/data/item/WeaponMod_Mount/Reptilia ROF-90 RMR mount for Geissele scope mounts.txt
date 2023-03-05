@@ -1,3 +1,4 @@
+IDstr=618b9682a3884f56c957ca78
 Name=Reptilia ROF-90 RMR mount for Geissele scope mounts
 ShortName=ROF-90 RMR
 Itemtype=Mount
@@ -7,7 +8,7 @@ Information_Eng=The Reptilia ROF-90 mount allows installation of the Trijicon RM
 basePrice=2000
 width=1
 height=1
-avg24hPrice=13981
+avg24hPrice=13256
 low24hPrice=7777
 lastOfferCount=8
 Sell_Prapor=1000

@@ -1,3 +1,4 @@
+IDstr=5bfeaa0f0db834001b734927
 Name=M700 7.62x51 Wyatt's Outdoor 10-round magazine
 ShortName=Wyatt
 Itemtype=Magazine
@@ -6,6 +7,7 @@ Conflict=[
 	M700 AB Arms MOD*X GEN 3 chassis,
 	M700 Magpul Pro 700 chassis,
 	M700 ProMag Archangel chassis,
+	ORSIS T-5000M aluminium body,
 ]
 Recoil=0.000000
 Ergonomics=-2.000000
@@ -13,14 +15,14 @@ Information_Eng=A Remington M700 sniper rifle 10-round magazine by Wyatt's Outdo
 basePrice=3500
 width=1
 height=2
-avg24hPrice=19329
+avg24hPrice=21262
 low24hPrice=13000
-lastOfferCount=4
+lastOfferCount=1
 Sell_Prapor=1750
 Sell_Fence=1400
 Sell_Skier=1715
 Sell_Peacekeeper=14
 Sell_Mechanic=1960
-Sell_Flea Market=13999
+Sell_Flea Market=33000
 weight=0.500000
-fleaMarketFee=1925
+fleaMarketFee=7655

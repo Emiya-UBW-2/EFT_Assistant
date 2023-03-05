@@ -1,3 +1,4 @@
+IDstr=58948c8e86f77409493f7266
 Name=SIG MPX 9x19 submachine gun
 ShortName=MPX
 Itemtype=SMG
@@ -58,9 +59,9 @@ Information_Eng=The SIG Sauer MPX submachine gun boasts an unprecedented operati
 basePrice=18907
 width=1
 height=1
-avg24hPrice=44436
+avg24hPrice=44428
 low24hPrice=33000
-lastOfferCount=23
+lastOfferCount=21
 Sell_Prapor=9453
 Sell_Fence=7562
 Sell_Skier=9264

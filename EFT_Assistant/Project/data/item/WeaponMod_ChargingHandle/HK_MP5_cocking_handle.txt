@@ -1,3 +1,4 @@
+IDstr=5926c32286f774616e42de99
 Name=HK MP5 cocking handle
 ShortName=MP5 CH
 Itemtype=Charging handle
@@ -7,8 +8,8 @@ Information_Eng=A standard-issue MP5 cocking handle, manufactured by Heckler & K
 basePrice=1650
 width=1
 height=1
-avg24hPrice=19999
-low24hPrice=19999
+avg24hPrice=0
+low24hPrice=0
 lastOfferCount=1
 Sell_Prapor=825
 Sell_Fence=660

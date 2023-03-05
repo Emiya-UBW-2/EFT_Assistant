@@ -1,3 +1,4 @@
+IDstr=5bf3f59f0db834001a6fa060
 Name=RPK-16 rear sight
 ShortName=RPK-16 RS
 Itemtype=Ironsight

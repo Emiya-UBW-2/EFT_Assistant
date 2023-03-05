@@ -1,3 +1,4 @@
+IDstr=544a5caa4bdc2d1a388b4568
 Name=Crye Precision AVS plate carrier
 ShortName=AVS
 Itemtype=Chest rig

@@ -1,3 +1,4 @@
+IDstr=5cadd940ae9215051e1c2316
 Name=M9A3 rear sight
 ShortName=M9A3 RS
 Itemtype=Ironsight

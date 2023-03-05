@@ -1,3 +1,4 @@
+IDstr=5e87116b81c4ed43e83cefdd
 Name=Mossberg 590A1 polymer stock
 ShortName=590A1
 Itemtype=Stock

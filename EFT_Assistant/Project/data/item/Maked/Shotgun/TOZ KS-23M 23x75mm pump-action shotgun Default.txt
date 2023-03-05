@@ -1,3 +1,4 @@
+IDstr=5f6771214ef1ca4f4e1b8a06
 Name=TOZ KS-23M 23x75mm pump-action shotgun Default
 ShortName=KS-23M Default
 Itemtype=Shotgun

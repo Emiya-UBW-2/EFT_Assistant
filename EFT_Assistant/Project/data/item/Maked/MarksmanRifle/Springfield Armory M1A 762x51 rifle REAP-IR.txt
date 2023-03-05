@@ -1,3 +1,4 @@
+IDstr=m1areapir000000000000001
 Name=Springfield Armory M1A 7.62x51 rifle REAP-IR
 ShortName=M1A REAP-IR
 Itemtype=Marksman rifle

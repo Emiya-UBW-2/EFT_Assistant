@@ -1,3 +1,4 @@
+IDstr=6034e3e20ddce744014cb878
 Name=AR-15 Soyuz-TM 12 inch M-LOK handguard
 ShortName=STM 12"
 Itemtype=Handguard
@@ -32,8 +33,7 @@ Conflict=[
 	M4A1 front sight with gas block,
 	AR-15 Windham Weaponry Rail Gas Block,
 	AR-15 5.56x45 260mm barrel,
-	STM-9 9x19 10.5 inch barrel,
-	M203 40mm underbarrel grenade launcher,
+	STM-9 9x19 10.5 inch barrel
 ]
 Recoil=0.000000
 Ergonomics=6.500000
@@ -41,14 +41,14 @@ Information_Eng=A 12 inch handguard for AR-15 systems equipped with an M-LOK int
 basePrice=12500
 width=2
 height=1
-avg24hPrice=21325
+avg24hPrice=21237
 low24hPrice=11999
-lastOfferCount=13
+lastOfferCount=18
 Sell_Prapor=6250
 Sell_Fence=5000
 Sell_Skier=6125
 Sell_Peacekeeper=49
 Sell_Mechanic=7000
-Sell_Flea Market=19000
+Sell_Flea Market=17000
 weight=0.200000
-fleaMarketFee=1760
+fleaMarketFee=1558

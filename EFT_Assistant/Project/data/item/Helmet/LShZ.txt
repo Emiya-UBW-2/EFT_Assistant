@@ -1,19 +1,23 @@
+IDstr=5b432d215acfc4771e1c6624
 Name=LShZ light helmet
 ShortName=LShZ
 Itemtype=Headwear
+Conflict=[
+	Faceless mask,
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A lightweight protective helmet made in Russia. In fact the copy of Ops-Core FAST helmet, but with lower characteristics.
 basePrice=47364
 width=2
 height=2
-avg24hPrice=41763
+avg24hPrice=41264
 low24hPrice=31900
-lastOfferCount=45
+lastOfferCount=27
 Sell_Fence=18945
 Sell_Skier=23208
 Sell_Peacekeeper=185
 Sell_Ragman=29365
-Sell_Flea Market=39998
+Sell_Flea Market=35200
 weight=0.950000
-fleaMarketFee=3968
+fleaMarketFee=3696

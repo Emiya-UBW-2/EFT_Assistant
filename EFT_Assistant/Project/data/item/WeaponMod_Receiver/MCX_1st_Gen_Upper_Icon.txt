@@ -1,3 +1,4 @@
+IDstr=5fbcc3e4d6fa9c00c571bb58
 Name=MCX GEN1 .300 BLK upper receiver
 ShortName=MCX GEN1
 Itemtype=Receiver

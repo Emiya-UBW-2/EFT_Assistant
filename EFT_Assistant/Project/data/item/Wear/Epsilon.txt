@@ -1,3 +1,4 @@
+IDstr=59db794186f77448bc595262
 Name=Secure container Epsilon
 ShortName=Epsilon
 Itemtype=Port. container

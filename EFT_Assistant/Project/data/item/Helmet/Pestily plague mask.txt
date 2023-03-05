@@ -1,6 +1,51 @@
+IDstr=5e54f79686f7744022011103
 Name=Pestily plague mask
 ShortName=Plague mask
 Itemtype=Face Cover
+Conflict=[
+	Army cap,
+	Baseball cap,
+	BEAR baseball cap (Green),
+	USEC baseball cap (Tan),
+	Ded Moroz hat,
+	EMERCOM cap,
+	Police cap,
+	Santa hat,
+	UX PRO beanie,
+	Kinda cowboy hat,
+	Tactical fleece beanie,
+	Armasight NVG head strap,
+	Wilcox Skull Lock head mount,
+	Rivals 2020 cap,
+	DevTac Ronin ballistic helmet,
+	Bandana,
+	BEAR baseball cap (Black),
+	Beret (Black),
+	Beret (Blue),
+	Beret (Olive),
+	Door Kicker boonie hat,
+	Kotton beanie,
+	MIL-TEC boonie hat,
+	Pompon hat,
+	Rivals 2020 beanie,
+	USEC baseball cap (Black),
+	PSh-97 DJETA riot helmet,
+	Jack-o'-lantern tactical pumpkin helmet,
+	Altyn face shield,
+	Ops-Core FAST Gunsight Mandible,
+	Ops-Core FAST Visor,
+	Ops-Core FAST multi-hit ballistic face shield,
+	ZSh-1-2M face shield,
+	Crye Precision AirFrame Chops,
+	Kolpak-1S face shield,
+	Kiver-M face shield,
+	LShZ-2DTM face shield,
+	Maska-1SCh face shield (Olive Drab),
+	Maska-1SCh face shield (Killa),
+	Team Wendy EXFIL Ballistic face shield (Black),
+	Team Wendy EXFIL Ballistic face shield (Coyote Brown),
+	Vulkan-5 face shield
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A restored mask of the plague doctor Pestily. A rare and terrifying thing used by cultists in Tarkov.
@@ -9,11 +54,11 @@ width=2
 height=2
 avg24hPrice=58887
 low24hPrice=56000
-lastOfferCount=30
+lastOfferCount=37
 Sell_Fence=37960
 Sell_Skier=46501
 Sell_Peacekeeper=371
 Sell_Ragman=58838
-Sell_Flea Market=58000
+Sell_Flea Market=58880
 weight=0.180000
-fleaMarketFee=6904
+fleaMarketFee=6930

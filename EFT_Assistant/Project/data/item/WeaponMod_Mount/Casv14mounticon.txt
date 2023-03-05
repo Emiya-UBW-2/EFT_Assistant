@@ -1,3 +1,4 @@
+IDstr=5addc00b5acfc4001669f144
 Name=M14 Vltor CASV-14 rail system
 ShortName=M14 CASV-14
 Itemtype=Mount
@@ -55,21 +56,25 @@ ChildParts=[
 	Vltor CASV 2 inch rail,
 	Vltor CASV 4 inch rail
 ]
+Conflict=[
+	M14 A.R.M.S. #18 scope mount,
+	M14 Leapers UTG 4-Point Locking Deluxe mount,
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=The CASV-14 Rail System mount manufactured by Vltor. It has a Picatinny-type rail for mounting various optical attachments and accesories, and also a KeyMod mount points on both sides.
 basePrice=10147
 width=2
 height=1
-avg24hPrice=12152
-low24hPrice=8666
-lastOfferCount=5
+avg24hPrice=11828
+low24hPrice=8000
+lastOfferCount=11
 Sell_Prapor=5073
 Sell_Fence=4058
 Sell_Skier=4972
 Sell_Peacekeeper=40
 Sell_Mechanic=5682
 Sell_Jaeger=6088
-Sell_Flea Market=10000
+Sell_Flea Market=8000
 weight=0.096000
-fleaMarketFee=952
+fleaMarketFee=816

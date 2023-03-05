@@ -1,3 +1,4 @@
+IDstr=5ac66d9b5acfc4001633997a
 Name=Kalashnikov AK-105 5.45x39 assault rifle
 ShortName=AK-105
 Itemtype=Assault rifle
@@ -113,6 +114,7 @@ Conflict=[
 	AK Hexagon tubular handguard,
 	AK Strike Industries TRAX 2 handguard extension,
 	AK Vltor CMRD KeyMod handguard,
+	Hera Arms CQR tactical foregrip,
 ]
 Recoil=160.000000
 Ergonomics=38.000000
@@ -120,14 +122,14 @@ Information_Eng=The AK-105 5.45x39mm assault rifle is a further modernized versi
 basePrice=30862
 width=3
 height=1
-avg24hPrice=33337
-low24hPrice=24998
-lastOfferCount=24
+avg24hPrice=33900
+low24hPrice=23000
+lastOfferCount=16
 Sell_Prapor=15431
 Sell_Fence=12344
 Sell_Skier=15122
 Sell_Peacekeeper=121
 Sell_Mechanic=17282
-Sell_Flea Market=26888
+Sell_Flea Market=30000
 weight=1.992000
-fleaMarketFee=2639
+fleaMarketFee=2863

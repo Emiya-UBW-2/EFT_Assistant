@@ -1,3 +1,4 @@
+IDstr=5ba3a4d1d4351e4502010622
 Name=Kalashnikov AKMN 7.62x39 assault rifle (AKMN2 6P1N2)
 ShortName=AKMN (AKMN2 6P1N2)
 Itemtype=Assault rifle

@@ -1,13 +1,19 @@
+IDstr=6040de02647ad86262233012
 Name=Army cap (CADPAT)
 ShortName=Cap
 Itemtype=Headwear
+Conflict=[
+	Faceless mask,
+	Ghoul mask,
+	GP-7 gas mask,
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A regular army cap, colored in CADPAT camouflage.
 basePrice=3353
 width=1
 height=1
-avg24hPrice=9245
+avg24hPrice=9108
 low24hPrice=7500
 lastOfferCount=1
 Sell_Fence=1341

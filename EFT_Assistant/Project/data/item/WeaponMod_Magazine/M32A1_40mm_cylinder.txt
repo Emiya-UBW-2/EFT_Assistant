@@ -1,3 +1,4 @@
+IDstr=627bce33f21bc425b06ab967
 Name=M32A1 40mm cylinder
 ShortName=MSGL
 Itemtype=Spring Driven Cylinder
@@ -7,9 +8,9 @@ Information_Eng=A standard-issue cylinder for the M32A1 MSGL revolver grenade la
 basePrice=45000
 width=2
 height=2
-avg24hPrice=26160
-low24hPrice=22000
-lastOfferCount=27
+avg24hPrice=25830
+low24hPrice=24998
+lastOfferCount=26
 Sell_Prapor=22500
 Sell_Fence=18000
 Sell_Skier=22050

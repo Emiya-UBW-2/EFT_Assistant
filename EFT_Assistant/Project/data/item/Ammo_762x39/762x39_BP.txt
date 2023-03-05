@@ -1,3 +1,4 @@
+IDstr=59e0d99486f7744a32234762
 Name=7.62x39mm BP gzh
 ShortName=BP
 Itemtype=Ammo

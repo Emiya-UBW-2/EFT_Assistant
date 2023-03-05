@@ -1,3 +1,4 @@
+IDstr=62e2969582ebf260c20539c2
 Name=SR-2MP folding stock
 ShortName=SR-2MP
 Itemtype=Stock

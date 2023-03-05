@@ -1,3 +1,4 @@
+IDstr=5cc70146e4a949000d73bf6b
 Name=FN P90 upper receiver side rail
 ShortName=P90 side
 Itemtype=Mount
@@ -7,7 +8,7 @@ Information_Eng=A side rail for the standard-issue FN P90 receiver, allows insta
 basePrice=1000
 width=1
 height=1
-avg24hPrice=8178
+avg24hPrice=8108
 low24hPrice=1111
 lastOfferCount=3
 Sell_Prapor=500

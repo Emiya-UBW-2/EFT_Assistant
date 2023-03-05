@@ -1,3 +1,4 @@
+IDstr=5b3b6e495acfc4330140bd88
 Name=Armasight Vulcan MG 3.5x Bravo night vision scope
 ShortName=Vulcan MG 3.5x
 Itemtype=Special scope
@@ -8,9 +9,9 @@ Information_Eng=Vulcan MG is a 3rd generation night vision scope with a 3.5x mag
 basePrice=46950
 width=2
 height=1
-avg24hPrice=29022
+avg24hPrice=29183
 low24hPrice=19420
-lastOfferCount=18
+lastOfferCount=26
 Sell_Prapor=23475
 Sell_Fence=18780
 Sell_Skier=23005

@@ -1,3 +1,4 @@
+IDstr=5c6d10e82e221601da357b07
 Name=HK 416A5 MRS KeyMod 14 inch handguard
 ShortName=416A5 MRS 14"
 Itemtype=Handguard
@@ -48,6 +49,8 @@ Conflict=[
 	HK 416A5 5.56x45 11 inch barrel,
 	HK 416A5 5.56x45 14.5 inch barrel,
 	HK 416A5 5.56x45 16.5 inch barrel with flip-up front sight,
+	FN P90 5.7x28 10.5 inch barrel,
+	FN P90 5.7x28 16 inch barrel,
 ]
 Recoil=-3.000000
 Ergonomics=6.000000
@@ -55,14 +58,14 @@ Information_Eng=The HK MRS KeyMod handguard for 416A5 equipped with a KeyMod int
 basePrice=13900
 width=3
 height=1
-avg24hPrice=18027
+avg24hPrice=19793
 low24hPrice=13000
-lastOfferCount=12
+lastOfferCount=10
 Sell_Prapor=6950
 Sell_Fence=5560
 Sell_Skier=6811
 Sell_Peacekeeper=54
 Sell_Mechanic=7784
-Sell_Flea Market=13000
+Sell_Flea Market=15900
 weight=0.390000
-fleaMarketFee=1251
+fleaMarketFee=1466

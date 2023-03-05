@@ -1,3 +1,4 @@
+IDstr=5de922d4b11454561e39239f
 Name=MP9 charging handle
 ShortName=MP9 CH
 Itemtype=Charging handle

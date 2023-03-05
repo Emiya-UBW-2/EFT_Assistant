@@ -1,20 +1,25 @@
+IDstr=5a71e4f48dc32e001207fb26
 Name=Glock ZEV Tech HEX Spartan RMR pistol slide
 ShortName=G ZT Spartan
 Itemtype=Receiver
+Conflict=[
+	Glock 9x19 Lone Wolf AlphaWolf Bullnose compensator,
+	P226 TJ's Custom 9x19 compensator,
+]
 Recoil=-7.000000
 Ergonomics=10.000000
 Information_Eng=A slide for Glock pistols family, manufactured by ZEV Technologies. Includes a mount for installation of the RMR reflex sights lineup.
 basePrice=22979
 width=2
 height=1
-avg24hPrice=27018
-low24hPrice=21000
-lastOfferCount=15
+avg24hPrice=25911
+low24hPrice=17000
+lastOfferCount=9
 Sell_Prapor=11489
 Sell_Fence=9191
 Sell_Skier=11259
 Sell_Peacekeeper=90
 Sell_Mechanic=12868
-Sell_Flea Market=22666
+Sell_Flea Market=21000
 weight=0.190000
-fleaMarketFee=2157
+fleaMarketFee=2032

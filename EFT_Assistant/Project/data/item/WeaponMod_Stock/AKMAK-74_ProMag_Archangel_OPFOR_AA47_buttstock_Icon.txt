@@ -1,21 +1,25 @@
+IDstr=6087e2a5232e5a31c233d552
 Name=AKM/AK-74 ProMag Archangel OPFOR AA47 buttstock
 ShortName=OPFOR AA47
 Itemtype=Stock
+Conflict=[
+	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock,
+]
 Recoil=-39.000000
 Ergonomics=17.000000
 Information_Eng=The OPFOR AA47 stock from the Archangel kit for AKM/AK-74-type non-folding weapon systems. Manufactured by ProMag.
 basePrice=19600
 width=2
 height=1
-avg24hPrice=44498
+avg24hPrice=45167
 low24hPrice=29500
-lastOfferCount=38
+lastOfferCount=19
 Sell_Prapor=9800
 Sell_Fence=7840
 Sell_Skier=9604
 Sell_Peacekeeper=77
 Sell_Mechanic=10976
 Sell_Jaeger=11760
-Sell_Flea Market=30000
+Sell_Flea Market=36666
 weight=0.390000
-fleaMarketFee=2783
+fleaMarketFee=3561

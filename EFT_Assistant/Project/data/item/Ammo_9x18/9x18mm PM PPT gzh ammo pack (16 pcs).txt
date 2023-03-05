@@ -1,3 +1,4 @@
+IDstr=5737260b24597761224311f2
 Name=9x18mm PM PPT gzh ammo pack (16 pcs)
 ShortName=PPT
 Itemtype=Ammo container

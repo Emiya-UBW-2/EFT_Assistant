@@ -1,3 +1,4 @@
+IDstr=5ca21c6986f77479963115a7
 Name=FORT Redut-T5 body armor
 ShortName=Redut-T5
 Itemtype=Armor

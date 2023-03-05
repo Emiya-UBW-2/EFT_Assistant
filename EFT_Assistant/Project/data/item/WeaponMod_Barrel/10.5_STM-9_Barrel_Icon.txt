@@ -1,3 +1,4 @@
+IDstr=603372b4da11d6478d5a07ff
 Name=STM-9 9x19 10.5 inch barrel
 ShortName=STM-9 10.5"
 Itemtype=Barrel
@@ -18,10 +19,9 @@ Conflict=[
 	AR-15 Lone Star Ion Lite handguard,
 	AR-15 SAI 14.5 inch QD Rail handguard,
 	AR-15 SAI 10 inch QD Rail handguard,
+	AR-15 Unique-ARs Wing & Skull 12 inch handguard,
 	AR-15 War Sport LVOA-C handguard (Black),
-	AR-15 War Sport LVOA-S handguard (Black),
-	AR-15 Soyuz-TM 12 inch M-LOK handguard,
-	AR-15 Soyuz-TM 15 inch M-LOK handguard,
+	AR-15 War Sport LVOA-S handguard (Black)
 ]
 Recoil=-4.000000
 Ergonomics=-10.000000
@@ -29,15 +29,15 @@ Information_Eng=A 10.5 inches (266mm) long barrel for the STM-9 carbine, chamber
 basePrice=7000
 width=2
 height=1
-avg24hPrice=10086
-low24hPrice=7111
-lastOfferCount=4
+avg24hPrice=9968
+low24hPrice=4999
+lastOfferCount=8
 Sell_Prapor=3500
 Sell_Fence=2800
 Sell_Skier=3430
 Sell_Peacekeeper=27
 Sell_Mechanic=3920
 Sell_Jaeger=4200
-Sell_Flea Market=10000
+Sell_Flea Market=4999
 weight=0.409000
-fleaMarketFee=920
+fleaMarketFee=536

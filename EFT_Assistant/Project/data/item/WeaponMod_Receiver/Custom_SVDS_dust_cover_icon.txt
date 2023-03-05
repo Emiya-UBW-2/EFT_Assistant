@@ -1,8 +1,9 @@
+IDstr=5dfce88fe9dc277128008b2e
 Name=SVDS custom cut dust cover
 ShortName=SVDS CDC
 Itemtype=Receiver
 Conflict=[
-	SVDS upper band,
+	SVDS upper band
 ]
 Recoil=0.000000
 Ergonomics=2.000000

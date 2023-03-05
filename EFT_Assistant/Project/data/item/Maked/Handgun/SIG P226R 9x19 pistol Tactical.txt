@@ -1,3 +1,4 @@
+IDstr=5a43a86d86f7746c9d7395e8
 Name=SIG P226R 9x19 pistol Tactical
 ShortName=P226R Tactical
 Itemtype=Handgun

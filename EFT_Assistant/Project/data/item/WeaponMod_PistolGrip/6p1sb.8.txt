@@ -1,3 +1,4 @@
+IDstr=5649ade84bdc2d1b2b8b4587
 Name=AK polymer pistol grip (6P1 Sb.8)
 ShortName=6P1 Sb.8
 Itemtype=Pistol grip

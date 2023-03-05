@@ -1,19 +1,26 @@
+IDstr=5c066ef40db834001966a595
 Name=Armasight NVG head strap
 ShortName=NVG strap
 Itemtype=Headwear
+Conflict=[
+	Faceless mask,
+	Ghoul mask,
+	Pestily plague mask,
+	GP-7 gas mask,
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A standard head strap mounting system for various Armasight devices.
 basePrice=19100
 width=2
 height=2
-avg24hPrice=33754
+avg24hPrice=36313
 low24hPrice=19999
-lastOfferCount=1
+lastOfferCount=4
 Sell_Fence=7640
 Sell_Skier=9359
 Sell_Peacekeeper=75
 Sell_Ragman=11842
-Sell_Flea Market=47900
+Sell_Flea Market=33333
 weight=0.400000
-fleaMarketFee=5191
+fleaMarketFee=3176

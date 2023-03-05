@@ -1,3 +1,4 @@
+IDstr=57371eb62459776125652ac1
 Name=9x18mm PM PRS gs
 ShortName=PRS
 Itemtype=Ammo

@@ -1,14 +1,19 @@
+IDstr=5b7be1265acfc400161d0798
 Name=SA-58 7.62x51 21 inch barrel
 ShortName=SA58 21"
 Itemtype=Barrel
+Conflict=[
+	SA-58/FAL Vltor CASV-FAS handguard,
+	SA-58 quad rail handguard
+]
 Recoil=-8.000000
 Ergonomics=-28.000000
 Information_Eng=A 21 inch (533mm) barrel for DS Arms SA-58 7.62x51.
 basePrice=33060
 width=4
 height=1
-avg24hPrice=54341
-low24hPrice=30000
+avg24hPrice=58941
+low24hPrice=37027
 lastOfferCount=2
 Sell_Prapor=16530
 Sell_Fence=13224
@@ -16,6 +21,6 @@ Sell_Skier=16199
 Sell_Peacekeeper=129
 Sell_Mechanic=18513
 Sell_Jaeger=19836
-Sell_Flea Market=37027
+Sell_Flea Market=99999
 weight=0.784000
-fleaMarketFee=3425
+fleaMarketFee=11842

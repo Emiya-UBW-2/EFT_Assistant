@@ -1,3 +1,4 @@
+IDstr=5aafa857e5b5b00018480968
 Name=Springfield Armory M1A 7.62x51 rifle
 ShortName=M1A
 Itemtype=Marksman rifle

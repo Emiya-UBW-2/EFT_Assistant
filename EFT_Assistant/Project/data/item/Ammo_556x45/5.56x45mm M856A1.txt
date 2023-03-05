@@ -1,3 +1,4 @@
+IDstr=59e6906286f7746c9f75e847
 Name=5.56x45mm M856A1
 ShortName=M856A1
 Itemtype=Ammo

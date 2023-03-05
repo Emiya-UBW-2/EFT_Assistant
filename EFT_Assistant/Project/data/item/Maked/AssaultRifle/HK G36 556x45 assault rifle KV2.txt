@@ -1,3 +1,4 @@
+IDstr=6297757b2aecda1b350da2a3
 Name=HK G36 5.56x45 assault rifle KV2
 ShortName=G36 KV2
 Itemtype=Assault rifle

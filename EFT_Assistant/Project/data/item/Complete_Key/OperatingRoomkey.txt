@@ -1,3 +1,4 @@
+IDstr=62987da96188c076bc0d8c51
 Name=Operating room key
 ShortName=OR
 Itemtype=Mechanical Key
@@ -8,9 +9,9 @@ Information_Eng=A key that opens the operating room with broadcasting equipment,
 basePrice=97000
 width=1
 height=1
-avg24hPrice=69394
+avg24hPrice=70938
 low24hPrice=61000
-lastOfferCount=10
+lastOfferCount=21
 Sell_Prapor=48500
 Sell_Therapist=61110
 Sell_Flea Market=77777

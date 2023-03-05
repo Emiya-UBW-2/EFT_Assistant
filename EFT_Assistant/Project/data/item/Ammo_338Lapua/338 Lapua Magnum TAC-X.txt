@@ -1,3 +1,4 @@
+IDstr=5fc382b6d6fa9c00c571bbc3
 Name=.338 Lapua Magnum TAC-X
 ShortName=TAC-X
 Itemtype=Ammo

@@ -1,3 +1,4 @@
+IDstr=59e62cc886f77440d40b52a1
 Name=AKM bakelite pistol grip
 ShortName=AKM bak.
 Itemtype=Pistol grip

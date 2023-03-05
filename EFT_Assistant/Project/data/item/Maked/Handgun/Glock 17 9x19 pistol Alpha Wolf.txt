@@ -1,3 +1,4 @@
+IDstr=5a88afdc86f7746de12fcc20
 Name=Glock 17 9x19 pistol Alpha Wolf
 ShortName=Glock 17 Alpha Wolf
 Itemtype=Handgun

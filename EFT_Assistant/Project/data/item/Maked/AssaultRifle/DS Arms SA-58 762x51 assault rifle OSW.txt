@@ -1,3 +1,4 @@
+IDstr=618ab08919394179c84fa57c
 Name=DS Arms SA-58 7.62x51 assault rifle OSW
 ShortName=SA-58 OSW
 Itemtype=Assault rifle

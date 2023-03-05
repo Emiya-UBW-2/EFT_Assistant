@@ -1,3 +1,4 @@
+IDstr=63888bbd28e5cc32cc09d2b6
 Name=AR-15 Precision Reflex GEN III Delta Carbon handguard
 ShortName=Delta Carbon
 Itemtype=Handguard
@@ -10,8 +11,7 @@ Conflict=[
 	AR-10 JP Enterprises Gas System-6,
 	AR-15 5.56x45 260mm barrel,
 	M4A1 front sight with gas block,
-	AR-15 Windham Weaponry Rail Gas Block,
-	M203 40mm underbarrel grenade launcher,
+	AR-15 Windham Weaponry Rail Gas Block
 ]
 Recoil=-2.000000
 Ergonomics=14.000000
@@ -19,14 +19,14 @@ Information_Eng=The GEN III Delta Carbon handguard for AR-15 systems, equipped w
 basePrice=32000
 width=2
 height=1
-avg24hPrice=28419
-low24hPrice=18999
-lastOfferCount=3
+avg24hPrice=29505
+low24hPrice=20000
+lastOfferCount=20
 Sell_Prapor=16000
 Sell_Fence=12800
 Sell_Skier=15680
 Sell_Peacekeeper=125
 Sell_Mechanic=17920
-Sell_Flea Market=20000
+Sell_Flea Market=27000
 weight=0.425000
-fleaMarketFee=2341
+fleaMarketFee=2679

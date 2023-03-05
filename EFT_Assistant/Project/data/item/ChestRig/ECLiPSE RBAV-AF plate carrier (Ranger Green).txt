@@ -1,3 +1,4 @@
+IDstr=628dc750b910320f4c27a732
 Name=ECLiPSE RBAV-AF plate carrier (Ranger Green)
 ShortName=RBAV-AF
 Itemtype=Chest rig

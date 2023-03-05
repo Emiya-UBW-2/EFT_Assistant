@@ -1,3 +1,4 @@
+IDstr=customdogtags12345678910
 Name=Dogtag
 ShortName=Dogtag
 Itemtype=Other

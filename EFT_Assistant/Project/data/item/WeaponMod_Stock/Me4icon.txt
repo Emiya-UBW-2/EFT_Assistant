@@ -1,3 +1,4 @@
+IDstr=5649b2314bdc2d79388b4576
 Name=AKM/AK-74 ME4 buffer tube adapter
 ShortName=ME4
 Itemtype=Stock
@@ -20,21 +21,24 @@ ChildParts=[
 	Strike Industries Viper PDW stock,
 	AR-15 RTM ATP buffer tube
 ]
+Conflict=[
+	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock,
+]
 Recoil=-2.000000
 Ergonomics=-1.000000
 Information_Eng=An adapter for the installation of telescopic stock buffer tubes on AKs with non-folding stocks.
 basePrice=5053
 width=1
 height=1
-avg24hPrice=13159
+avg24hPrice=13144
 low24hPrice=7777
-lastOfferCount=6
+lastOfferCount=8
 Sell_Prapor=2526
 Sell_Fence=2021
 Sell_Skier=2475
 Sell_Peacekeeper=20
 Sell_Mechanic=2829
 Sell_Jaeger=3031
-Sell_Flea Market=11111
+Sell_Flea Market=7999
 weight=0.310000
-fleaMarketFee=1140
+fleaMarketFee=746

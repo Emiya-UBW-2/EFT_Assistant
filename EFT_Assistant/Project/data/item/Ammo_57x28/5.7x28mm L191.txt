@@ -1,3 +1,4 @@
+IDstr=5cc80f53e4a949000e1ea4f8
 Name=5.7x28mm L191
 ShortName=L191
 Itemtype=Ammo

@@ -1,3 +1,4 @@
+IDstr=5a71e0048dc32e000c52ecc8
 Name=Glock ZEV Tech front sight
 ShortName=G ZT FS
 Itemtype=Ironsight

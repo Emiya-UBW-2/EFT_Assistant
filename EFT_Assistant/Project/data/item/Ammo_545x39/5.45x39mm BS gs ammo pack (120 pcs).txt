@@ -1,3 +1,4 @@
+IDstr=57372b832459776701014e41
 Name=5.45x39mm BS gs ammo pack (120 pcs)
 ShortName=BS
 Itemtype=Ammo container

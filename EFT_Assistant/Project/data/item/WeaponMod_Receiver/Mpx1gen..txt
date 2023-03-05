@@ -1,3 +1,4 @@
+IDstr=5894a5b586f77426d2590767
 Name=MPX GEN1 9x19 upper receiver
 ShortName=MPX GEN1
 Itemtype=Receiver

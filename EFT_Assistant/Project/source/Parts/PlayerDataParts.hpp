@@ -25,13 +25,13 @@ namespace FPS_n2 {
 	}
 
 	class ItemLockData {
-		std::string		m_Name;
+		std::string		m_ID;
 		bool			m_IsLock{ false };
 	public:
-		const auto&		GetName() const noexcept { return m_Name; }
+		const auto&		GetID() const noexcept { return m_ID; }
 		const auto&		GetIsLock() const noexcept { return m_IsLock; }
 
-		void	SetName(const char* Name) noexcept { m_Name = Name; }
+		void	SetID(const char* Name) noexcept { m_ID = Name; }
 		void	SetIsLock(bool value) noexcept { m_IsLock = value; }
 	};
 
@@ -79,42 +79,42 @@ namespace FPS_n2 {
 			outputfile << "LastDataReceive=" + m_LastDataReceive + "\n";
 
 			for (auto& LD : m_ItemLockData) {
-				outputfile << "ItemData=[" + LD.GetName() + "," + (LD.GetIsLock() ? "true" : "false") + "]\n";
+				outputfile << "ItemData=[" + LD.GetID() + "," + (LD.GetIsLock() ? "true" : "false") + "]\n";
 			}
 			//outputfile << "grass_level=" + std::to_string(grass_level) + "\n";
 			outputfile.close();
 		}
 	public:
-		void OnOffItemLock(const char* Name) noexcept {
-			auto Point = std::find_if(m_ItemLockData.begin(), m_ItemLockData.end(), [&](const ItemLockData& Data) {return (Data.GetName() == Name); });
+		void OnOffItemLock(const char* ID) noexcept {
+			auto Point = std::find_if(m_ItemLockData.begin(), m_ItemLockData.end(), [&](const ItemLockData& Data) {return (Data.GetID() == ID); });
 			if (Point != m_ItemLockData.end()) {
 				Point->SetIsLock(!Point->GetIsLock());
 			}
 			else {
 				m_ItemLockData.resize(m_ItemLockData.size() + 1);
-				m_ItemLockData.back().SetName(Name);
+				m_ItemLockData.back().SetID(ID);
 				m_ItemLockData.back().SetIsLock(!m_ItemLockData.back().GetIsLock());
 			}
 		}
-		void SetItemLock(const char* Name, bool value) noexcept {
-			auto Point = std::find_if(m_ItemLockData.begin(), m_ItemLockData.end(), [&](const ItemLockData& Data) {return (Data.GetName() == Name); });
+		void SetItemLock(const char* ID, bool value) noexcept {
+			auto Point = std::find_if(m_ItemLockData.begin(), m_ItemLockData.end(), [&](const ItemLockData& Data) {return (Data.GetID() == ID); });
 			if(Point != m_ItemLockData.end()) {
 				Point->SetIsLock(value);
 			}
 			else {
 				m_ItemLockData.resize(m_ItemLockData.size() + 1);
-				m_ItemLockData.back().SetName(Name);
+				m_ItemLockData.back().SetID(ID);
 				m_ItemLockData.back().SetIsLock(value);
 			}
 		}
-		const auto GetItemLock(const char* Name) noexcept {
-			auto Point = std::find_if(m_ItemLockData.begin(), m_ItemLockData.end(), [&](const ItemLockData& Data) {return (Data.GetName() == Name); });
+		const auto GetItemLock(const char* ID) noexcept {
+			auto Point = std::find_if(m_ItemLockData.begin(), m_ItemLockData.end(), [&](const ItemLockData& Data) {return (Data.GetID() == ID); });
 			if (Point != m_ItemLockData.end()) {
 				return Point->GetIsLock();
 			}
 			else {
 				m_ItemLockData.resize(m_ItemLockData.size() + 1);
-				m_ItemLockData.back().SetName(Name);
+				m_ItemLockData.back().SetID(ID);
 				m_ItemLockData.back().SetIsLock(false);
 				return m_ItemLockData.back().GetIsLock();
 			}

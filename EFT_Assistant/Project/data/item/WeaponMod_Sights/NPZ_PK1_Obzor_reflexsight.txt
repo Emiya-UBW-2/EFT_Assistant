@@ -1,9 +1,20 @@
+IDstr=618a5d5852ecee1505530b2a
 Name=NPZ PK1 "Obzor" reflex sight
 ShortName="Obzor"
 Itemtype=Reflex sight
 SightRange=0
 Conflict=[
-	AK CNC Guns OV GP handguard,
+	BelOMO PSO-1 4x24 scope,
+	BelOMO PSO-1M2-1 4x24 scope,
+	BelOMO PSO-1M2 4x24 scope,
+	SVD SAG low profile sidemount,
+	AK TDI X47 tactical handguard rail system,
+	AK FAB Defense PDC dust cover,
+	AK TWS Dog Leg Rail dust cover,
+	AK AKademia Bastion dust cover,
+	AK Zenit B-33 dust cover,
+	SVD SAG MK1 chassis,
+	AKS-74U CAA XRSU47SU tactical handguard
 ]
 Recoil=0.000000
 Ergonomics=-3.000000
@@ -11,14 +22,14 @@ Information_Eng=A reflex sight designed for hunters for fast acquisition of the 
 basePrice=7000
 width=1
 height=1
-avg24hPrice=7069
+avg24hPrice=7902
 low24hPrice=4998
-lastOfferCount=7
+lastOfferCount=9
 Sell_Prapor=3500
 Sell_Fence=2800
 Sell_Skier=3430
 Sell_Peacekeeper=27
 Sell_Mechanic=3920
-Sell_Flea Market=6000
+Sell_Flea Market=5420
 weight=0.520000
-fleaMarketFee=592
+fleaMarketFee=558

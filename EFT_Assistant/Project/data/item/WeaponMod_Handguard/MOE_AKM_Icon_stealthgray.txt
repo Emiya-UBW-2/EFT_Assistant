@@ -1,3 +1,4 @@
+IDstr=57cffe20245977632f391a9d
 Name=AK Magpul MOE AKM handguard (Stealth Gray)
 ShortName=MOE AKM
 Itemtype=Handguard
@@ -18,6 +19,7 @@ ChildParts=[
 ]
 Conflict=[
 	AK Zenit B-33 dust cover,
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
 ]
 Recoil=-2.000000
 Ergonomics=10.000000
@@ -25,14 +27,14 @@ Information_Eng=The Magpul MOE AKM hand guard is installed on AKM/AK-74 compatib
 basePrice=13751
 width=1
 height=1
-avg24hPrice=13963
+avg24hPrice=13879
 low24hPrice=9999
-lastOfferCount=3
+lastOfferCount=8
 Sell_Prapor=6875
 Sell_Fence=5500
 Sell_Skier=6737
 Sell_Peacekeeper=54
 Sell_Mechanic=7700
-Sell_Flea Market=9999
+Sell_Flea Market=16888
 weight=0.221000
-fleaMarketFee=1062
+fleaMarketFee=1547

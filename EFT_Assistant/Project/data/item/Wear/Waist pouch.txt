@@ -1,3 +1,4 @@
+IDstr=5732ee6a24597719ae0c0281
 Name=Waist pouch
 ShortName=Waist bag
 Itemtype=Port. container

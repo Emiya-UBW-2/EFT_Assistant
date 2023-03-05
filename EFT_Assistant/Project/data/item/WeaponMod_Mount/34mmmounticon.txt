@@ -1,3 +1,4 @@
+IDstr=5aa66a9be5b5b0214e506e89
 Name=Nightforce Magmount 34mm ring scope mount
 ShortName=NF 34mm
 Itemtype=Mount
@@ -7,21 +8,29 @@ ChildParts=[
 	Hensoldt FF 4-16x56 34mm riflescope,
 	Nightforce ATACR 7-35x56 34mm riflescope
 ]
+Conflict=[
+	AR-15 Colt A2 rear sight,
+	AR-15 rear sight carry handle,
+	HK G36 front sight,
+	Mosin Rifle carbine rear sight,
+	NSPU-M night vision scope,
+	SV-98 rear sight,
+]
 Recoil=0.000000
 Ergonomics=-2.000000
 Information_Eng=Nightforce X-Treme Duty Ultralite one piece Magmount is a universal 34mm scope base mount for installation on Picatinny rails.
 basePrice=9509
 width=2
 height=1
-avg24hPrice=19917
+avg24hPrice=19067
 low24hPrice=9900
-lastOfferCount=19
+lastOfferCount=14
 Sell_Prapor=4754
 Sell_Fence=3803
 Sell_Skier=4659
 Sell_Peacekeeper=37
 Sell_Mechanic=5325
 Sell_Jaeger=5705
-Sell_Flea Market=16666
+Sell_Flea Market=15000
 weight=0.226000
-fleaMarketFee=1590
+fleaMarketFee=1398

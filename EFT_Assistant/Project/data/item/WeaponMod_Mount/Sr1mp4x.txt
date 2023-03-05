@@ -1,3 +1,4 @@
+IDstr=5a27bad7c4a282000b15184b
 Name=SR-1MP quad rail mount
 ShortName=SR-1MP 4x
 Itemtype=Mount
@@ -7,7 +8,7 @@ Information_Eng=A mount for the SR-1MP pistol that forms four guide rails, allow
 basePrice=8748
 width=1
 height=1
-avg24hPrice=12128
+avg24hPrice=11691
 low24hPrice=7000
 lastOfferCount=3
 Sell_Prapor=4374

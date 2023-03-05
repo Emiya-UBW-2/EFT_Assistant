@@ -1,3 +1,4 @@
+IDstr=630f291b9f66a28b37094bb8
 Name=Steyr AUG A3 5.56x45 muzzle brake
 ShortName=A3MB 5.56
 Itemtype=Flashhider
@@ -7,8 +8,8 @@ Information_Eng=A muzzle brake designed specifically for the AUG A3, manufacture
 basePrice=7500
 width=1
 height=1
-avg24hPrice=36475
-low24hPrice=15000
+avg24hPrice=35417
+low24hPrice=19999
 lastOfferCount=5
 Sell_Prapor=3750
 Sell_Fence=3000

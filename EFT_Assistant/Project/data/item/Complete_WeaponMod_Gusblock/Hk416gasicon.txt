@@ -1,3 +1,4 @@
+IDstr=5bb20dcad4351e3bac1212da
 Name=HK 416A5 low profile gas block
 ShortName=416A5
 Itemtype=Gas block

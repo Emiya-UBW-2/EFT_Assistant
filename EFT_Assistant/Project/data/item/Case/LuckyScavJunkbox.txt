@@ -1,3 +1,4 @@
+IDstr=5b7c710788a4506dec015957
 Name=Lucky Scav Junk box
 ShortName=Junk
 Itemtype=Common container

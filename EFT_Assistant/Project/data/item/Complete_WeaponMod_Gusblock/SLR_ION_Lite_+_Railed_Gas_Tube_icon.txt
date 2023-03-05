@@ -1,3 +1,4 @@
+IDstr=628a83c29179c324ed269508
 Name=RD-704 SLR ION Lite + Railed Gas Tube handguard & gas tube combo
 ShortName=ION Lite 9"
 Itemtype=Gas block
@@ -7,7 +8,7 @@ Information_Eng=A combined kit of the ION Lite 9 inch handguard with the Railed 
 basePrice=21300
 width=2
 height=1
-avg24hPrice=12277
+avg24hPrice=12334
 low24hPrice=10000
 lastOfferCount=0
 Sell_Prapor=10650

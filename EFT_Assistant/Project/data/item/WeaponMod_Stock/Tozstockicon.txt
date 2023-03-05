@@ -1,3 +1,4 @@
+IDstr=5a38ef1fc4a282000b1521f6
 Name=TOZ-106 stock
 ShortName=TOZ106
 Itemtype=Stock

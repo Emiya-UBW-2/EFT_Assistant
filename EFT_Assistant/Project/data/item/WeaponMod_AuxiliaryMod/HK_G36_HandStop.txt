@@ -1,3 +1,4 @@
+IDstr=622f16a1a5958f63c67f1737
 Name=HK G36 hand stop
 ShortName=G36 HS
 Itemtype=Auxiliary Mod

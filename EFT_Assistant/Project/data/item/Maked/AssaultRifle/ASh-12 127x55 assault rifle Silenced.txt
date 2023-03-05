@@ -1,3 +1,4 @@
+IDstr=ash12silenced00000000001
 Name=ASh-12 12.7x55 assault rifle Silenced
 ShortName=ASh-12 Silenced
 Itemtype=Assault rifle

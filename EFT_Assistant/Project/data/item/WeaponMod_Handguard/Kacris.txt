@@ -1,3 +1,4 @@
+IDstr=55d459824bdc2d892f8b4573
 Name=AR-15 KAC RIS handguard
 ShortName=KAC RIS
 Itemtype=Handguard
@@ -29,6 +30,7 @@ Conflict=[
 	AR-15 5.56x45 18 inch barrel,
 	AR-15 5.56x45 20 inch barrel,
 	AR-15 5.56x45 Molot Arms 406mm barrel,
+	Mk-18 .338 LM 24 inch barrel,
 ]
 Recoil=0.000000
 Ergonomics=1.000000
@@ -36,7 +38,7 @@ Information_Eng=Knight's Armament Company RIS is a standard service handguard fo
 basePrice=4745
 width=2
 height=1
-avg24hPrice=10209
+avg24hPrice=11142
 low24hPrice=5000
 lastOfferCount=19
 Sell_Prapor=2372
@@ -44,6 +46,6 @@ Sell_Fence=1898
 Sell_Skier=2325
 Sell_Peacekeeper=19
 Sell_Mechanic=2657
-Sell_Flea Market=5000
+Sell_Flea Market=5990
 weight=0.226000
-fleaMarketFee=468
+fleaMarketFee=548

@@ -1,22 +1,40 @@
+IDstr=5b2388675acfc4771e1be0be
 Name=Burris FullField TAC30 1-4x24 30mm riflescope
 ShortName=TAC30
 Itemtype=Scope
 SightRange=800
+Conflict=[
+	Axion Kobra EKP-8-18 reflex sight,
+	OKP-7 reflex sight,
+	EOTech 553 holographic sight,
+	EOTech EXPS3 holographic sight (Tan),
+	EOTech XPS3-0 holographic sight,
+	EOTech XPS3-2 holographic sight,
+	Holosun HS401G5 reflex sight,
+	SIG Sauer ROMEO8T reflex sight,
+	Trijicon SRS-02 reflex sight,
+	Valday PK-120 (1P87) holographic sight,
+	Valday Krechet reflex sight,
+	VOMZ Pilad P1x42 Weaver reflex sight,
+	Vortex Razor AMG UH-1 holographic sight,
+	Walther MRS reflex sight,
+	Aimpoint LRP mount for CompM4 sights
+]
 Recoil=0.000000
 Ergonomics=-3.000000
 Information_Eng=The TAC30 offers a very wide field of view, and 1x magnification at the lower end - making for easy, fast target acquisition. The 4x full zoom and Ballistic CQ reticle make shots out to about 300 yards very practical. The illuminated center dot and large, bright circle allow for instant target engagement at close distances.
 basePrice=31468
 width=2
 height=1
-avg24hPrice=70251
+avg24hPrice=71024
 low24hPrice=54000
-lastOfferCount=63
+lastOfferCount=48
 Sell_Prapor=15734
 Sell_Fence=12587
 Sell_Skier=15419
 Sell_Peacekeeper=123
 Sell_Mechanic=17622
 Sell_Jaeger=18880
-Sell_Flea Market=54000
+Sell_Flea Market=68000
 weight=0.480000
-fleaMarketFee=5124
+fleaMarketFee=6933

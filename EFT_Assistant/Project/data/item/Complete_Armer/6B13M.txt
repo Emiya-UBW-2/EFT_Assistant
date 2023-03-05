@@ -1,3 +1,4 @@
+IDstr=5c0e541586f7747fa54205c9
 Name=6B13 M modified assault armor (Tan)
 ShortName=6B13 M
 Itemtype=Armor

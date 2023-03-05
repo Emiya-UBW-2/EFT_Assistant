@@ -1,3 +1,4 @@
+IDstr=5d2702e88abbc31ed91efc44
 Name=M700 7.62x51 26 inch stainless steel barrel
 ShortName=M700 26"
 Itemtype=Barrel

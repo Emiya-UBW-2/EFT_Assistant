@@ -1,3 +1,4 @@
+IDstr=617fd91e5539a84ec44ce155
 Name=RGN hand grenade
 ShortName=RGN
 Itemtype=Throwable weapon

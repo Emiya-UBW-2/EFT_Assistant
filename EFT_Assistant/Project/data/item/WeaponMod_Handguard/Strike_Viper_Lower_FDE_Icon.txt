@@ -1,3 +1,4 @@
+IDstr=63969c9019971040b005049b
 Name=AR-15 Strike Industries Viper carbine length M-LOK lower handguard (FDE)
 ShortName=Viper AR15
 Itemtype=Handguard
@@ -9,7 +10,7 @@ ChildParts=[
 	Magpul M-LOK 4.1 inch rail
 ]
 Conflict=[
-	M203 40mm underbarrel grenade launcher,
+	AR-15 5.56x45 Molot Arms 406mm barrel
 ]
 Recoil=0.000000
 Ergonomics=7.000000
@@ -17,7 +18,7 @@ Information_Eng=The Strike Industries Viper handguard cover for AR-15 equipped w
 basePrice=5225
 width=2
 height=1
-avg24hPrice=8401
+avg24hPrice=8237
 low24hPrice=4444
 lastOfferCount=4
 Sell_Prapor=2612
@@ -25,6 +26,6 @@ Sell_Fence=2090
 Sell_Skier=2560
 Sell_Peacekeeper=20
 Sell_Mechanic=2926
-Sell_Flea Market=10000
+Sell_Flea Market=7000
 weight=0.094000
-fleaMarketFee=978
+fleaMarketFee=641

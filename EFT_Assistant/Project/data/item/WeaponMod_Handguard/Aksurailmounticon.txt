@@ -1,3 +1,4 @@
+IDstr=5a957c3fa2750c00137fa5f7
 Name=AKS-74U CAA XRSU47SU tactical handguard
 ShortName=XRSU47SU
 Itemtype=Handguard
@@ -160,8 +161,7 @@ Conflict=[
 	KMZ 1P59 dovetail mount,
 	VOMZ Pilad 043-02 dovetail mount,
 	Zenit B-13 "Klassika" dovetail rail platform,
-	Zenit B-13V "Klassika" dovetail rail platform,
-	SAG Bit low profile dovetail sidemount,
+	Zenit B-13V "Klassika" dovetail rail platform
 ]
 Recoil=-3.000000
 Ergonomics=10.000000
@@ -169,14 +169,14 @@ Information_Eng=A tactical aluminum handguard for AKS-74U, AKS-74UN, and AKS-74U
 basePrice=22090
 width=2
 height=1
-avg24hPrice=24945
+avg24hPrice=24858
 low24hPrice=17171
-lastOfferCount=21
+lastOfferCount=26
 Sell_Prapor=11045
 Sell_Fence=8836
 Sell_Skier=10824
 Sell_Peacekeeper=86
 Sell_Mechanic=12370
-Sell_Flea Market=21000
+Sell_Flea Market=25000
 weight=0.520000
-fleaMarketFee=2013
+fleaMarketFee=2309

@@ -1,3 +1,4 @@
+IDstr=63a71e86b7f4570d3a293169
 Name=Concordia apartment 64 office room key
 ShortName=Concd off.
 Itemtype=Mechanical Key
@@ -8,9 +9,9 @@ Information_Eng=A key to the office room of the premium apartment inside the Con
 basePrice=65812
 width=1
 height=1
-avg24hPrice=68035
+avg24hPrice=64706
 low24hPrice=49000
-lastOfferCount=44
+lastOfferCount=47
 Sell_Prapor=32906
 Sell_Therapist=41461
 Sell_Flea Market=60000

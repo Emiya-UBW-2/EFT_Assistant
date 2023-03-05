@@ -1,3 +1,4 @@
+IDstr=63075cc5962d0247b029dc2a
 Name=Glock 19X 9x19 pistol slide
 ShortName=G19X
 Itemtype=Receiver

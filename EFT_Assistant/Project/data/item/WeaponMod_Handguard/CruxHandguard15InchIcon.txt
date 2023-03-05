@@ -1,3 +1,4 @@
+IDstr=5c6d11152e2216000f2003e7
 Name=HK 416A5 Strike Industries CRUX 15 inch M-LOK handguard
 ShortName=416A5 CRUX 15"
 Itemtype=Handguard
@@ -33,6 +34,8 @@ Conflict=[
 	HK 416A5 5.56x45 11 inch barrel,
 	HK 416A5 5.56x45 14.5 inch barrel,
 	HK 416A5 5.56x45 16.5 inch barrel with flip-up front sight,
+	FN P90 5.7x28 10.5 inch barrel,
+	FN P90 5.7x28 16 inch barrel,
 ]
 Recoil=-3.000000
 Ergonomics=11.000000
@@ -40,7 +43,7 @@ Information_Eng=The Strike Industries CRUX foregrip for 416A5 equipped with an M
 basePrice=16700
 width=3
 height=1
-avg24hPrice=34288
+avg24hPrice=38245
 low24hPrice=19000
 lastOfferCount=0
 Sell_Prapor=8350
@@ -48,6 +51,6 @@ Sell_Fence=6680
 Sell_Skier=8183
 Sell_Peacekeeper=65
 Sell_Mechanic=9352
-Sell_Flea Market=24000
+Sell_Flea Market=30000
 weight=0.440000
-fleaMarketFee=2208
+fleaMarketFee=2880

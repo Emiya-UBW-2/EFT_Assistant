@@ -1,3 +1,4 @@
+IDstr=5a0071d486f77404e23a12b2
 Name=AKM wooden pistol grip
 ShortName=AKM wood
 Itemtype=Pistol grip

@@ -1,3 +1,4 @@
+IDstr=5c0006470db834001a6697fe
 Name=P226 Emperor Scorpion pistol grip
 ShortName=P226 Scorpion
 Itemtype=Pistol grip

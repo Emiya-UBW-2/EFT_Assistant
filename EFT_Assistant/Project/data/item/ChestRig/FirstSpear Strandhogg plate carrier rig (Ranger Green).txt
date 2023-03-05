@@ -1,3 +1,4 @@
+IDstr=61bcc89aef0f505f0c6cd0fc
 Name=FirstSpear Strandhogg plate carrier rig (Ranger Green)
 ShortName=Strandhogg
 Itemtype=Chest rig

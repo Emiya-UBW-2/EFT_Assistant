@@ -1,3 +1,4 @@
+IDstr=5737280e24597765cc785b5c
 Name=9x18mm PM PSV ammo pack (16 pcs)
 ShortName=PSV
 Itemtype=Ammo container

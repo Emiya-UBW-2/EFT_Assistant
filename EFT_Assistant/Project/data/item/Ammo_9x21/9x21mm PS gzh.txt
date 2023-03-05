@@ -1,3 +1,4 @@
+IDstr=5a269f97c4a282000b151807
 Name=9x21mm PS gzh
 ShortName=PS
 Itemtype=Ammo

@@ -1,3 +1,4 @@
+IDstr=5ae099925acfc4001a5fc7b3
 Name=Mosin Rifle rear sight
 ShortName=Mosin RS
 Itemtype=Ironsight

@@ -1,3 +1,4 @@
+IDstr=639346cc1c8f182ad90c8972
 Name=Tasmanian Tiger Trooper 35 backpack
 ShortName=Trooper 35
 Itemtype=Backpack

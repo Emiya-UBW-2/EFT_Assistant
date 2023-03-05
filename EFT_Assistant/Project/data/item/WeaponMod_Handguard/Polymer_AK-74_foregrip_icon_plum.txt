@@ -1,3 +1,4 @@
+IDstr=5cbda9f4ae9215000e5b9bfc
 Name=AK-74 "Plum" polymer handguard (6P20 Sb.9)
 ShortName=6P20 Sb.9
 Itemtype=Handguard

@@ -1,3 +1,4 @@
+IDstr=62a09e73af34e73a266d932a
 Name=BakeEzy cook book
 ShortName=BakeEzy
 Itemtype=Info
@@ -7,7 +8,7 @@ Information_Eng=BakeEzy, a book about delicious and healthy food, contains a lot
 basePrice=58000
 width=1
 height=2
-avg24hPrice=32069
+avg24hPrice=31826
 low24hPrice=13700
 lastOfferCount=54
 Sell_Fence=23200

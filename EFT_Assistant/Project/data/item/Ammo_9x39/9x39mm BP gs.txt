@@ -1,3 +1,4 @@
+IDstr=5c0d688c86f77413ae3407b2
 Name=9x39mm BP gs
 ShortName=BP
 Itemtype=Ammo

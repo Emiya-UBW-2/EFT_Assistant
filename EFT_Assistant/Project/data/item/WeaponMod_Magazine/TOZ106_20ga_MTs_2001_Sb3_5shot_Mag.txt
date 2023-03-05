@@ -1,3 +1,4 @@
+IDstr=5c6161fb2e221600113fbde5
 Name=TOZ-106 20ga MTs 20-01 Sb.3 5-shot magazine
 ShortName=Sb.3x5
 Itemtype=Magazine

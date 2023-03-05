@@ -1,3 +1,4 @@
+IDstr=628d0618d1ba6e4fa07ce5a4
 Name=NPP KlASS Bagariy armored rig
 ShortName=Bagariy
 Itemtype=Chest rig

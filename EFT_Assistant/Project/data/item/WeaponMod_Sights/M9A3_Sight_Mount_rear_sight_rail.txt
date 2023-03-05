@@ -1,3 +1,4 @@
+IDstr=5cadd954ae921500103bb3c2
 Name=M9A3 Sight Mount rear sight rail
 ShortName=SM M9
 Itemtype=Ironsight
@@ -8,8 +9,8 @@ Information_Eng=A rear sight rail manufactured by Sight Mount for Beretta M9 pis
 basePrice=3600
 width=1
 height=1
-avg24hPrice=18900
-low24hPrice=18900
+avg24hPrice=0
+low24hPrice=0
 lastOfferCount=1
 Sell_Prapor=1800
 Sell_Fence=1440

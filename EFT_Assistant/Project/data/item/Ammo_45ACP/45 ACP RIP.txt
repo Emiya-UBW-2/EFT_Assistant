@@ -1,3 +1,4 @@
+IDstr=5ea2a8e200685063ec28c05a
 Name=.45 ACP RIP
 ShortName=RIP
 Itemtype=Ammo

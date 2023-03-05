@@ -1,3 +1,4 @@
+IDstr=618ab04934aa2e47480fba2b
 Name=Kalashnikov AK-104 7.62x39 assault rifle RPKT mod.1
 ShortName=AK-104 RPKT mod.1
 Itemtype=Assault rifle

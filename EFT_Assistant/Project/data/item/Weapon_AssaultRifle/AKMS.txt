@@ -1,3 +1,4 @@
+IDstr=59ff346386f77477562ff5e2
 Name=Kalashnikov AKMS 7.62x39 assault rifle
 ShortName=AKMS
 Itemtype=Assault rifle
@@ -96,15 +97,18 @@ ChildParts=[
 ChildParts=[
 	GP-25 "Kostyor" 40mm underbarrel grenade launcher
 ]
+Conflict=[
+	Hera Arms CQR tactical foregrip,
+]
 Recoil=190.000000
 Ergonomics=24.000000
 Information_Eng=AKMS (Avtomát Kaláshnikova Modernizírovanny Skladnóy - "Kalashnikov's Automatic rifle Modernised with foldable stock") 7.62x39 assault rifle (GRAU Index — 6P4) is a variant of the AKM rifle with a folding shoulder piece (stock). Folds forward-down, under the handguard. Designed specifically for airborne troops.
 basePrice=27871
 width=4
 height=1
-avg24hPrice=24395
+avg24hPrice=24986
 low24hPrice=19000
-lastOfferCount=7
+lastOfferCount=18
 Sell_Prapor=13935
 Sell_Fence=11148
 Sell_Skier=13656

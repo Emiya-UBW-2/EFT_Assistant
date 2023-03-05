@@ -1,21 +1,38 @@
+IDstr=591c4efa86f7741030027726
 Name=Axion Kobra EKP-8-18 reflex sight
 ShortName=EKP-8-18
 Itemtype=Reflex sight
 SightRange=200
+Conflict=[
+	AR-15 Colt A2 rear sight,
+	AR-15 rear sight carry handle,
+	Burris FullField TAC30 1-4x24 30mm riflescope,
+	EOTech Vudu 1-6x24 30mm riflescope,
+	Hensoldt FF 4-16x56 34mm riflescope,
+	KMZ 1P59 3-10x riflescope,
+	KMZ 1P69 3-10x riflescope,
+	Leupold Mark 4 LR 6.5-20x50 30mm riflescope,
+	March Tactical 3-24x42 FFP 30mm riflescope,
+	Mosin Rifle carbine rear sight,
+	Nightforce ATACR 7-35x56 34mm riflescope,
+	NSPU-M night vision scope,
+	VOMZ Pilad 4x32 24.5mm riflescope,
+	Vortex Razor HD Gen.2 1-6x24 30mm riflescope,
+]
 Recoil=0.000000
 Ergonomics=-2.000000
 Information_Eng=Kobra is a very popular reflex sight among security agencies and civilian shooters. It was designed for the armed forces of the Russian Federation, but was never formally adopted. Manufactured by Axion.
 basePrice=14000
 width=1
 height=1
-avg24hPrice=14803
+avg24hPrice=14795
 low24hPrice=13800
-lastOfferCount=3
+lastOfferCount=8
 Sell_Prapor=7000
 Sell_Fence=5600
 Sell_Skier=6860
 Sell_Peacekeeper=55
 Sell_Mechanic=7840
-Sell_Flea Market=14000
+Sell_Flea Market=14700
 weight=0.273000
-fleaMarketFee=1330
+fleaMarketFee=1377

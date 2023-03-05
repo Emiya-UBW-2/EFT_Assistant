@@ -1,3 +1,4 @@
+IDstr=618aaf656bbeff39ad4acf0c
 Name=Colt M4A1 5.56x45 assault rifle Custom
 ShortName=M4A1 Custom
 Itemtype=Assault rifle

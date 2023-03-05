@@ -1,3 +1,4 @@
+IDstr=59e763f286f7742ee57895da
 Name=Pilgrim tourist backpack
 ShortName=Pilgrim
 Itemtype=Backpack

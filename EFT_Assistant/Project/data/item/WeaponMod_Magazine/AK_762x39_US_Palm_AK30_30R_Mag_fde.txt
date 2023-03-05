@@ -1,3 +1,4 @@
+IDstr=59fafc9386f774067d462453
 Name=AK 7.62x39 US Palm "AK30" 30-round magazine (FDE)
 ShortName=AK30 FDE
 Itemtype=Magazine
@@ -7,9 +8,9 @@ Information_Eng=A 30-round polymer US Palm AK30 magazine for 7.62x39 AK and comp
 basePrice=4700
 width=1
 height=2
-avg24hPrice=21329
+avg24hPrice=21159
 low24hPrice=14000
-lastOfferCount=8
+lastOfferCount=4
 Sell_Prapor=2350
 Sell_Fence=1880
 Sell_Skier=2303

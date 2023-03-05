@@ -1,3 +1,4 @@
+IDstr=60228924961b8d75ee233c32
 Name=PL-15 pistol slide
 ShortName=PL15 slide
 Itemtype=Receiver

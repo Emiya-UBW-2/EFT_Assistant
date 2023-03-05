@@ -1,3 +1,4 @@
+IDstr=560d61e84bdc2da74d8b4571
 Name=7.62x54mm R SNB gzh
 ShortName=SNB
 Itemtype=Ammo

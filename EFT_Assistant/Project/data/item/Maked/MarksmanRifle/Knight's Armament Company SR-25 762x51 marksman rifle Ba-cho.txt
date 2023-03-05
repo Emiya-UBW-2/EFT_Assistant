@@ -1,3 +1,4 @@
+IDstr=628753bba4a8431af4739d3b
 Name=Knight's Armament Company SR-25 7.62x51 marksman rifle Ba-cho
 ShortName=SR-25 Ba-cho
 Itemtype=Marksman rifle

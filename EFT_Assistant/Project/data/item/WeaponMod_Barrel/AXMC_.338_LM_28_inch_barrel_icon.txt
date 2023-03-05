@@ -1,6 +1,16 @@
+IDstr=628121434fa03b6b6c35dc6a
 Name=AI AXMC .338 LM 28 inch barrel
 ShortName=AXMC .338LM 28"
 Itemtype=Barrel
+Conflict=[
+	7.62x51mm M61,
+	7.62x51mm M62 Tracer,
+	7.62x51mm M80,
+	7.62x51mm BCP FMJ,
+	7.62x51mm M993,
+	7.62x51mm TCW SP,
+	7.62x51mm Ultra Nosler
+]
 Recoil=-5.000000
 Ergonomics=-18.000000
 Information_Eng=A 28 inch (686mm) barrel for the AI AXMC chambered in .338 Lapua Magnum ammo.

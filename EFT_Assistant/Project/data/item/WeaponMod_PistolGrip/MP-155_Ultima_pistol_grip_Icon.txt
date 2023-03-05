@@ -1,3 +1,4 @@
+IDstr=606eef46232e5a31c233d500
 Name=MP-155 Ultima pistol grip
 ShortName=Ultima
 Itemtype=Pistol grip
@@ -7,7 +8,7 @@ ChildParts=[
 ]
 Conflict=[
 	Kiba Arms SPRM rail mount for pump-action shotguns,
-	MP-155 walnut forestock,
+	MP-155 walnut forestock
 ]
 Recoil=0.000000
 Ergonomics=9.000000

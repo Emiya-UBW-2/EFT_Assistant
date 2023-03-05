@@ -1,3 +1,4 @@
+IDstr=5f3e772a670e2a7b01739a52
 Name=M45A1 trigger
 ShortName=M45A1 trig.
 Itemtype=Auxiliary Mod

@@ -1,3 +1,4 @@
+IDstr=5b3f16c486f7747c327f55f7
 Name=Armband (White)
 ShortName=Armband
 Itemtype=Arm Band

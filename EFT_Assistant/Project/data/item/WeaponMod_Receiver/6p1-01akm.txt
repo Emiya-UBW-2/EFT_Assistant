@@ -1,3 +1,4 @@
+IDstr=59d6507c86f7741b846413a2
 Name=AKM dust cover (6P1 0-1)
 ShortName=6P1 0-1
 Itemtype=Receiver

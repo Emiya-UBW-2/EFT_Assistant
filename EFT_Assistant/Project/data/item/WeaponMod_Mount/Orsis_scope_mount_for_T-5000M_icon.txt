@@ -1,13 +1,22 @@
+IDstr=5df35e970b92095fd441e4d2
 Name=ORSIS T-5000M scope mount
 ShortName=T-5000M
 Itemtype=Mount
+Conflict=[
+	Axion Kobra EKP-8-02 reflex sight (Dovetail),
+	OKP-7 reflex sight (Dovetail),
+	BelOMO PSO-1M2-1 4x24 scope,
+	NSPU-M night vision scope,
+	Axion Kobra dovetail mount,
+	VOMZ Pilad 043-02 dovetail mount
+]
 Recoil=0.000000
 Ergonomics=-1.000000
 Information_Eng=A universal scope mount for the T-5000M sniper rifle, manufactured by ORSIS. Allows installation of various scopes.
 basePrice=2200
 width=2
 height=1
-avg24hPrice=10594
+avg24hPrice=10438
 low24hPrice=5000
 lastOfferCount=6
 Sell_Prapor=1100
@@ -16,6 +25,6 @@ Sell_Skier=1078
 Sell_Peacekeeper=9
 Sell_Mechanic=1232
 Sell_Jaeger=1320
-Sell_Flea Market=6000
+Sell_Flea Market=10000
 weight=0.140000
-fleaMarketFee=676
+fleaMarketFee=1480

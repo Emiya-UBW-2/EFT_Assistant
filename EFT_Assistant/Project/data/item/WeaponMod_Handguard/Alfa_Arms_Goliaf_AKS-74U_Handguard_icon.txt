@@ -1,3 +1,4 @@
+IDstr=5d15ce51d7ad1a1eff619092
 Name=AKS-74U Alfa Arms Goliaf handguard
 ShortName=Goliaf
 Itemtype=Handguard
@@ -99,7 +100,7 @@ Conflict=[
 	AK Zenit DTK-1 7.62x39/5.45x39 muzzle brake-compensator,
 	AK-74 Hexagon 5.45x39 sound suppressor,
 	AKS-74U PBS-4 5.45x39 sound suppressor,
-	AK-74 Hexagon Wafflemaker 5.45x39 sound suppressor,
+	AK-74 Hexagon Wafflemaker 5.45x39 sound suppressor
 ]
 Recoil=-1.000000
 Ergonomics=3.000000
@@ -107,14 +108,14 @@ Information_Eng=This integrally machined handguard is manufactured from aluminum
 basePrice=5194
 width=1
 height=1
-avg24hPrice=8490
+avg24hPrice=8773
 low24hPrice=5817
-lastOfferCount=15
+lastOfferCount=9
 Sell_Prapor=2597
 Sell_Fence=2077
 Sell_Skier=2545
 Sell_Peacekeeper=20
 Sell_Mechanic=2908
-Sell_Flea Market=6700
+Sell_Flea Market=5817
 weight=0.150000
-fleaMarketFee=613
+fleaMarketFee=538

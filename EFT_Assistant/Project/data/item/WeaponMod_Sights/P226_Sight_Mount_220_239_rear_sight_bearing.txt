@@ -1,3 +1,4 @@
+IDstr=56ea7293d2720b8d4b8b45ba
 Name=P226 Sight Mount 220-239 rear sight bearing
 ShortName=SM220-239
 Itemtype=Ironsight

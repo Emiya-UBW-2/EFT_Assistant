@@ -1,3 +1,4 @@
+IDstr=5fc382c1016cce60e8341b20
 Name=.338 Lapua Magnum UCW
 ShortName=UCW
 Itemtype=Ammo
@@ -7,7 +8,7 @@ Information_Eng=A .338 Lapua Magnum (8.6x70mm) UCW cartridge with a 16.2 gram le
 basePrice=750
 width=1
 height=1
-avg24hPrice=841
+avg24hPrice=915
 low24hPrice=400
 lastOfferCount=2
 Sell_Prapor=375

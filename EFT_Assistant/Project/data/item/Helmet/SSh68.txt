@@ -1,19 +1,27 @@
+IDstr=5c06c6a80db834001b735491
 Name=SSh-68 steel helmet
 ShortName=SSh-68
 Itemtype=Headwear
+Conflict=[
+	MSA Sordin Supreme PRO-X/L active headset,
+	OPSMEN Earmor M32 headset,
+	Peltor Tactical Sport headset,
+	Walker's Razor Digital headset,
+	Walker's XCEL 500BT Digital headset
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=SSh-68 replaced the general-army SSh-60 helmet. It differs from its predecessor in greater durability, a large inclination of the front part, and short side boards.
 basePrice=17000
 width=2
 height=2
-avg24hPrice=21444
+avg24hPrice=21338
 low24hPrice=9999
 lastOfferCount=15
 Sell_Fence=6800
 Sell_Skier=8330
 Sell_Peacekeeper=67
 Sell_Ragman=10540
-Sell_Flea Market=19876
+Sell_Flea Market=17991
 weight=1.500000
-fleaMarketFee=1828
+fleaMarketFee=1682

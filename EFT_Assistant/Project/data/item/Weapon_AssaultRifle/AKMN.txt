@@ -1,3 +1,4 @@
+IDstr=5a0ec13bfcdbcb00165aa685
 Name=Kalashnikov AKMN 7.62x39 assault rifle
 ShortName=AKMN
 Itemtype=Assault rifle
@@ -127,20 +128,23 @@ ChildParts=[
 ChildParts=[
 	GP-25 "Kostyor" 40mm underbarrel grenade launcher
 ]
+Conflict=[
+	Hera Arms CQR tactical foregrip,
+]
 Recoil=188.000000
 Ergonomics=26.000000
 Information_Eng=AKMN (Avtomat Kalashnikova Modernizirovanny Nochnoy - "Kalashnikov's Automatic Rifle Modernised Night") is a small arms system consisting of a modified AKM automatic rifle with a dovetail mount for installation of the NSP family night vision scopes — NSP-2/3/3A, NSPU, NSPU-M.
 basePrice=34003
 width=4
 height=1
-avg24hPrice=45729
+avg24hPrice=44990
 low24hPrice=37000
-lastOfferCount=17
+lastOfferCount=23
 Sell_Prapor=17001
 Sell_Fence=13601
 Sell_Skier=16661
 Sell_Peacekeeper=133
 Sell_Mechanic=19041
-Sell_Flea Market=37000
+Sell_Flea Market=38888
 weight=2.152000
-fleaMarketFee=3439
+fleaMarketFee=3586

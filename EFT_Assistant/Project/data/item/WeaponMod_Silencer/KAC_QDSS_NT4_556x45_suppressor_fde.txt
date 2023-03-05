@@ -1,8 +1,10 @@
+IDstr=57dbb57e2459774673234890
 Name=KAC QDSS NT-4 5.56x45 sound suppressor (FDE)
 ShortName=NT-4
 Itemtype=Silencer
 Conflict=[
 	HK 416A5 5.56x45 10.6 inch barrel,
+	AR-15 SAI JailBrake 5.56x45 muzzle device,
 ]
 Recoil=-10.000000
 Ergonomics=-21.000000
@@ -10,9 +12,9 @@ Information_Eng=The Knight's Armament Company QDSS NT-4 5.56x45 and .223 sound s
 basePrice=45247
 width=2
 height=1
-avg24hPrice=31018
+avg24hPrice=31114
 low24hPrice=23000
-lastOfferCount=26
+lastOfferCount=22
 Sell_Prapor=22623
 Sell_Fence=18098
 Sell_Skier=22171

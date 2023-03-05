@@ -1,3 +1,4 @@
+IDstr=56dff026d2720bb8668b4567
 Name=5.45x39mm BS gs
 ShortName=BS
 Itemtype=Ammo

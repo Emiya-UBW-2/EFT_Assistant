@@ -1,3 +1,4 @@
+IDstr=5f3e78a7fbf956000b716b8e
 Name=M45A1 Novak Lomount front sight
 ShortName=M45 Lomount
 Itemtype=Ironsight

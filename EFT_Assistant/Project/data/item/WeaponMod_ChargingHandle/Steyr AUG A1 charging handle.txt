@@ -1,3 +1,4 @@
+IDstr=62e7c880f68e7a0676050c7c
 Name=Steyr AUG A1 charging handle
 ShortName=AUG A1
 Itemtype=Charging handle

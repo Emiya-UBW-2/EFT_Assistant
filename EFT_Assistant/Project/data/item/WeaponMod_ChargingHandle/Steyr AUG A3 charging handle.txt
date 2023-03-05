@@ -1,3 +1,4 @@
+IDstr=62ebbc53e3c1e1ec7c02c44f
 Name=Steyr AUG A3 charging handle
 ShortName=AUG A3
 Itemtype=Charging handle

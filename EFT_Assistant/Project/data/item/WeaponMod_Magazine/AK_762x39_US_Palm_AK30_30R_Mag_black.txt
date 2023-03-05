@@ -1,3 +1,4 @@
+IDstr=59fafc5086f7740dbe19f6c3
 Name=AK 7.62x39 US Palm "AK30" 30-round magazine (Black)
 ShortName=AK30
 Itemtype=Magazine

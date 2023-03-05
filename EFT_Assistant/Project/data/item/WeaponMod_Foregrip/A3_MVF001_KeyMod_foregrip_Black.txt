@@ -1,20 +1,24 @@
+IDstr=5fc0f9b5d724d907e2077d82
 Name=A3 Tactical MVF001 KeyMod vertical foregrip (Black)
 ShortName=MVF001
 Itemtype=Foregrip
+Conflict=[
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
+]
 Recoil=0.000000
 Ergonomics=10.000000
 Information_Eng=The MVF001 KeyMod tactical grip. The grip was designed specifically for the KeyMod interface. Manufactured by A3 Tactical.
 basePrice=7809
 width=1
 height=1
-avg24hPrice=16507
+avg24hPrice=16197
 low24hPrice=8746
-lastOfferCount=11
+lastOfferCount=6
 Sell_Prapor=3904
 Sell_Fence=3123
 Sell_Skier=3826
 Sell_Peacekeeper=31
 Sell_Mechanic=4373
-Sell_Flea Market=14888
+Sell_Flea Market=14880
 weight=0.096000
-fleaMarketFee=1454
+fleaMarketFee=1453

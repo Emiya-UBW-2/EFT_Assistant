@@ -1,8 +1,12 @@
+IDstr=59e89d0986f77427600d226e
 Name=VPO-209 wooden stock
 ShortName=VPO209
 Itemtype=Stock
 ChildParts=[
 	AK GP-25 accessory kit recoil pad
+]
+Conflict=[
+	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock,
 ]
 Recoil=-33.000000
 Ergonomics=3.000000
@@ -10,8 +14,8 @@ Information_Eng=A standard-issue wooden stock for VPO-209 AKM carbines, manufact
 basePrice=1820
 width=2
 height=1
-avg24hPrice=11166
-low24hPrice=1900
+avg24hPrice=10500
+low24hPrice=3333
 lastOfferCount=1
 Sell_Prapor=910
 Sell_Fence=728

@@ -1,3 +1,4 @@
+IDstr=5c5db5c62e22160012542255
 Name=MPX 9x19 14 inch barrel
 ShortName=MPX 14"
 Itemtype=Barrel
@@ -17,7 +18,7 @@ Information_Eng=A 14 inch (355mm) long barrel for MPX-based weapons chambered in
 basePrice=12380
 width=3
 height=1
-avg24hPrice=67511
+avg24hPrice=68518
 low24hPrice=41000
 lastOfferCount=3
 Sell_Prapor=6190

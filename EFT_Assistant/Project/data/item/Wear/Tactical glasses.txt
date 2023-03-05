@@ -1,3 +1,4 @@
+IDstr=557ff21e4bdc2d89578b4586
 Name=Tactical glasses
 ShortName=TGlasses
 Itemtype=Vis. observ. device
@@ -7,9 +8,9 @@ Information_Eng=A pair of commonplace tactical glasses with glare and impact pro
 basePrice=1669
 width=2
 height=1
-avg24hPrice=3567
+avg24hPrice=3480
 low24hPrice=999
-lastOfferCount=6
+lastOfferCount=1
 Sell_Fence=667
 Sell_Skier=817
 Sell_Peacekeeper=7

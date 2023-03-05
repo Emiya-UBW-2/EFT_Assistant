@@ -1,3 +1,4 @@
+IDstr=6034e3cb0ddce744014cb870
 Name=AR-15 Soyuz-TM 9 inch M-LOK handguard
 ShortName=STM 9"
 Itemtype=Handguard
@@ -30,8 +31,7 @@ ChildParts=[
 Conflict=[
 	AR-10 JP Enterprises Gas System-6,
 	M4A1 front sight with gas block,
-	AR-15 Windham Weaponry Rail Gas Block,
-	M203 40mm underbarrel grenade launcher,
+	AR-15 Windham Weaponry Rail Gas Block
 ]
 Recoil=0.000000
 Ergonomics=6.000000
@@ -39,14 +39,14 @@ Information_Eng=A 9 inch handguard for AR-15 systems equipped with an M-LOK inte
 basePrice=10500
 width=2
 height=1
-avg24hPrice=22600
+avg24hPrice=22612
 low24hPrice=11111
-lastOfferCount=15
+lastOfferCount=7
 Sell_Prapor=5250
 Sell_Fence=4200
 Sell_Skier=5145
 Sell_Peacekeeper=41
 Sell_Mechanic=5880
-Sell_Flea Market=14444
+Sell_Flea Market=18500
 weight=0.155000
-fleaMarketFee=1324
+fleaMarketFee=1767

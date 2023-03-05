@@ -1,3 +1,4 @@
+IDstr=59984ab886f7743e98271174
 Name=PP-19-01 "Vityaz" 9x19 submachine gun
 ShortName=PP-19-01
 Itemtype=SMG
@@ -76,6 +77,8 @@ Conflict=[
 	AK Magpul Zhukov-U handguard (Black),
 	AK Magpul Zhukov-U handguard (FDE),
 	AK Magpul Zhukov-U handguard (Plum),
+	Hera Arms CQR tactical foregrip,
+	Strike Industries TRAX bridge rail,
 ]
 Recoil=68.000000
 Ergonomics=35.000000
@@ -83,14 +86,14 @@ Information_Eng=The PP-19-01, also known as "Vityaz", is a Russian submachine gu
 basePrice=14751
 width=2
 height=1
-avg24hPrice=20333
-low24hPrice=15000
-lastOfferCount=26
+avg24hPrice=20406
+low24hPrice=16500
+lastOfferCount=16
 Sell_Prapor=7375
 Sell_Fence=5900
 Sell_Skier=7227
 Sell_Peacekeeper=58
 Sell_Mechanic=8260
-Sell_Flea Market=16666
+Sell_Flea Market=18000
 weight=1.809000
-fleaMarketFee=1539
+fleaMarketFee=1650

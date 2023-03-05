@@ -1,3 +1,4 @@
+IDstr=619f52454c58466fe122843b
 Name=Chiappa Rhino Green Fiber Optic front sight
 ShortName=CR GF
 Itemtype=Ironsight

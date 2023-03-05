@@ -1,3 +1,4 @@
+IDstr=5fc0fa362770a0045c59c677
 Name=MCX flip-up front sight
 ShortName=MCX FS
 Itemtype=Ironsight

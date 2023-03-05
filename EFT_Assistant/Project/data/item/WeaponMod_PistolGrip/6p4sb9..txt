@@ -1,3 +1,4 @@
+IDstr=57e3dba62459770f0c32322b
 Name=AK bakelite pistol grip (6P4 Sb.9)
 ShortName=6P4 Sb.9
 Itemtype=Pistol grip

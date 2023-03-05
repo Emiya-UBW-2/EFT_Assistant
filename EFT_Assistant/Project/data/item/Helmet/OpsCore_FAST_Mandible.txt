@@ -1,19 +1,23 @@
+IDstr=5a16ba61fcdbcb098008728a
 Name=Ops-Core FAST Gunsight Mandible
 ShortName=Gunsight
 Itemtype=Armored equipment
+Conflict=[
+	Respirator
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=An additional armor module for the Ops-Core FAST helmet, mounted on the Side Armor component.
 basePrice=21340
 width=2
 height=2
-avg24hPrice=17094
-low24hPrice=13500
-lastOfferCount=9
+avg24hPrice=16448
+low24hPrice=10000
+lastOfferCount=8
 Sell_Fence=8536
 Sell_Skier=10456
 Sell_Peacekeeper=84
 Sell_Ragman=13230
-Sell_Flea Market=14444
+Sell_Flea Market=14920
 weight=1.200000
-fleaMarketFee=1601
+fleaMarketFee=1621

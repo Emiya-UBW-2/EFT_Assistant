@@ -1,20 +1,26 @@
+IDstr=5e023e53d4353e3302577c4c
 Name=7.62x51mm BCP FMJ
 ShortName=BCP FMJ
 Itemtype=Ammo
+Conflict=[
+	AI AXMC .338 LM 28 inch barrel,
+	AI AXMC .338 LM bolt assembly,
+	AI AXMC .338 LM 10-round magazine,
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A 7.62x51mm BCP FMJ cartridge with a 10.9 gram lead core bullet with a bimetallic jacket in a steel case; intended for hunting, home defense, and target practice, produced by Barnaul Cartridge Plant. Despite its rudimentary design, this cartridge is capable of providing an outstanding stopping power effect, as well as being able to pierce through basic ballistic body protections as well as some intermediate models.
 basePrice=150
 width=1
 height=1
-avg24hPrice=441
+avg24hPrice=429
 low24hPrice=149
-lastOfferCount=5
+lastOfferCount=1
 Sell_Prapor=75
 Sell_Fence=60
 Sell_Skier=73
 Sell_Peacekeeper=1
 Sell_Mechanic=84
-Sell_Flea Market=299
+Sell_Flea Market=150
 weight=0.022000
-fleaMarketFee=30
+fleaMarketFee=14

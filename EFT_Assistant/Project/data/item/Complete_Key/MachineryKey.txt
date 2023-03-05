@@ -1,3 +1,4 @@
+IDstr=5937ee6486f77408994ba448
 Name=Machinery key
 ShortName=Machinery
 Itemtype=Mechanical Key

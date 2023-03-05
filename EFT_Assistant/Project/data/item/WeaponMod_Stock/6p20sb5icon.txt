@@ -1,8 +1,12 @@
+IDstr=5649b1c04bdc2d16268b457c
 Name=AK-74 wooden stock (6P20 Sb.5)
 ShortName=6P20 Sb.5
 Itemtype=Stock
 ChildParts=[
 	AK GP-25 accessory kit recoil pad
+]
+Conflict=[
+	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock,
 ]
 Recoil=-33.000000
 Ergonomics=3.000000
@@ -10,8 +14,8 @@ Information_Eng=A standard-issue wooden stock for AK-74 automatic rifles, manufa
 basePrice=1847
 width=2
 height=1
-avg24hPrice=0
-low24hPrice=0
+avg24hPrice=2500
+low24hPrice=2500
 lastOfferCount=1
 Sell_Prapor=923
 Sell_Fence=738
@@ -19,6 +23,6 @@ Sell_Skier=905
 Sell_Peacekeeper=7
 Sell_Mechanic=1034
 Sell_Jaeger=1108
-Sell_Flea Market=6999
+Sell_Flea Market=2500
 weight=0.450000
-fleaMarketFee=934
+fleaMarketFee=229

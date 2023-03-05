@@ -1,3 +1,4 @@
+IDstr=56d5a77ed2720b90418b4568
 Name=P226 rear sight
 ShortName=P226 RS
 Itemtype=Ironsight

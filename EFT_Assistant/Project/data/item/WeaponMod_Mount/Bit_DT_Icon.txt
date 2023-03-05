@@ -1,3 +1,4 @@
+IDstr=638db77630c4240f9e06f8b6
 Name=SAG Bit low profile dovetail sidemount
 ShortName=Bit DT
 Itemtype=Mount
@@ -37,8 +38,7 @@ Conflict=[
 	SVD SAG MK1 chassis,
 	SOK-12 Leapers UTG PRO MTU002 Long Top aluminum handguard,
 	PP-19-01 "Vityaz-SN" dust cover,
-	AKS-74U CAA XRSU47SU tactical handguard,
-	AK CNC Guns OV GP handguard,
+	AKS-74U CAA XRSU47SU tactical handguard
 ]
 Recoil=0.000000
 Ergonomics=-1.000000
@@ -46,15 +46,15 @@ Information_Eng=The Bit low-profile side mount is designed to mount compact sigh
 basePrice=6100
 width=1
 height=1
-avg24hPrice=15229
+avg24hPrice=14972
 low24hPrice=7000
-lastOfferCount=2
+lastOfferCount=5
 Sell_Prapor=3050
 Sell_Fence=2440
 Sell_Skier=2989
 Sell_Peacekeeper=24
 Sell_Mechanic=3416
 Sell_Jaeger=3660
-Sell_Flea Market=9000
+Sell_Flea Market=10000
 weight=0.075000
-fleaMarketFee=831
+fleaMarketFee=939

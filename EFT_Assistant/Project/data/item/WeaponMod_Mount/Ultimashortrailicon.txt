@@ -1,3 +1,4 @@
+IDstr=607ea812232e5a31c233d53c
 Name=MP-155 Ultima short rail
 ShortName=Ultima shrt.
 Itemtype=Mount

@@ -1,13 +1,17 @@
+IDstr=58272b392459774b4c7b3ccd
 Name=SOK-12 Leapers UTG PRO MTU002 Short Top aluminum handguard
 ShortName=MTU002 S
 Itemtype=Handguard
+Conflict=[
+	Zenit B-13 "Klassika" dovetail rail platform
+]
 Recoil=-3.000000
 Ergonomics=2.000000
 Information_Eng=The UTG PRO MTU002 Tactical Quad Rail Short Top is a lightweight aircraft grade aluminum handguard with sling swivel, designed for installation on Saiga carbines. Manufactured by Leapers Inc.
 basePrice=7539
 width=2
 height=1
-avg24hPrice=12938
+avg24hPrice=12723
 low24hPrice=8100
 lastOfferCount=0
 Sell_Prapor=3769
@@ -15,6 +19,6 @@ Sell_Fence=3015
 Sell_Skier=3694
 Sell_Peacekeeper=29
 Sell_Mechanic=4221
-Sell_Flea Market=8669
+Sell_Flea Market=8670
 weight=0.408000
 fleaMarketFee=799

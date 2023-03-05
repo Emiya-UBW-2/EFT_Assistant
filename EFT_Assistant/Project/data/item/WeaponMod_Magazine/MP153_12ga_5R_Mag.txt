@@ -1,3 +1,4 @@
+IDstr=5882163e24597758206fee8c
 Name=MP-153 12ga 5-shell magazine
 ShortName=MP153x5
 Itemtype=Magazine

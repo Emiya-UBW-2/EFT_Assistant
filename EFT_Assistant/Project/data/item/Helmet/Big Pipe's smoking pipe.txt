@@ -1,3 +1,4 @@
+IDstr=62a61bbf8ec41a51b34758d2
 Name=Big Pipe's smoking pipe
 ShortName=Pipe
 Itemtype=Face Cover

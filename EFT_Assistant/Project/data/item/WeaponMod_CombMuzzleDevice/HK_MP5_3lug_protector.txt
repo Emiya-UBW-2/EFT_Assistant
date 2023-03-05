@@ -1,3 +1,4 @@
+IDstr=5926e16e86f7742f5a0f7ecb
 Name=HK MP5 3-lug thread protector
 ShortName=MP5 3Lug
 Itemtype=Comb. muzzle device

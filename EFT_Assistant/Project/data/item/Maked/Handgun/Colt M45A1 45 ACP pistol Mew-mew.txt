@@ -1,3 +1,4 @@
+IDstr=62874ff7a4a8431af4739d25
 Name=Colt M45A1 .45 ACP pistol Mew-mew
 ShortName=M45A1 Mew-mew
 Itemtype=Handgun

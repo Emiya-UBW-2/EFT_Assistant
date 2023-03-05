@@ -1,3 +1,4 @@
+IDstr=630f2872911356c17d06abc5
 Name=Steyr AUG A1 5.56x45 closed flash hider
 ShortName=A1FH 5.56
 Itemtype=Flashhider
@@ -7,7 +8,7 @@ Information_Eng=A standard AUG A1 flash hider, manufactured by "Steyr-Daimler-Pu
 basePrice=3000
 width=1
 height=1
-avg24hPrice=9200
+avg24hPrice=9000
 low24hPrice=8000
 lastOfferCount=1
 Sell_Prapor=1500

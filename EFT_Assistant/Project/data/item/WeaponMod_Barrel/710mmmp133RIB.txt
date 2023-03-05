@@ -1,3 +1,4 @@
+IDstr=560837544bdc2de22e8b456e
 Name=MP-133 12ga 710mm barrel with rib
 ShortName=MP133 710mm rib
 Itemtype=Barrel

@@ -1,8 +1,12 @@
+IDstr=5f3e77f59103d430b93f94c1
 Name=M1911A1 .45 ACP threaded barrel
 ShortName=1911 thr.
 Itemtype=Barrel
 ChildParts=[
 	SilencerCo Omega 45k Piston Mount adapter
+]
+Conflict=[
+	M1911 Anarchy Outdoors .45 ACP muzzle brake,
 ]
 Recoil=-3.000000
 Ergonomics=-4.000000
@@ -10,15 +14,15 @@ Information_Eng=A standard-issue threaded barrel for the M1911A1 .45 ACP pistol,
 basePrice=3200
 width=1
 height=1
-avg24hPrice=9611
-low24hPrice=6800
-lastOfferCount=6
+avg24hPrice=14232
+low24hPrice=7000
+lastOfferCount=9
 Sell_Prapor=1600
 Sell_Fence=1280
 Sell_Skier=1568
 Sell_Peacekeeper=13
 Sell_Mechanic=1792
 Sell_Jaeger=1920
-Sell_Flea Market=14999
+Sell_Flea Market=9499
 weight=0.120000
-fleaMarketFee=2260
+fleaMarketFee=1114

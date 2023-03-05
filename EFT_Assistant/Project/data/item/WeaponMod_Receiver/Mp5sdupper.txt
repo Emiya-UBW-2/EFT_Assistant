@@ -1,3 +1,4 @@
+IDstr=5926f2e086f7745aae644231
 Name=HK MP5SD 9x19 upper receiver
 ShortName=MP5SD
 Itemtype=Receiver
@@ -25,9 +26,9 @@ Information_Eng=An upper receiver for the MP5SD SMG, manufactured by Heckler & K
 basePrice=7836
 width=2
 height=1
-avg24hPrice=27634
+avg24hPrice=26710
 low24hPrice=13000
-lastOfferCount=13
+lastOfferCount=23
 Sell_Prapor=3918
 Sell_Fence=3134
 Sell_Skier=3839

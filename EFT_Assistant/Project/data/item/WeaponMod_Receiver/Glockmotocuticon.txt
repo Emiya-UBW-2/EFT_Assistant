@@ -1,20 +1,25 @@
+IDstr=5a9685b1a2750c0032157104
 Name=Glock 9x19 Moto Cut pistol slide
 ShortName=G MotoCut
 Itemtype=Receiver
+Conflict=[
+	Glock 9x19 Lone Wolf AlphaWolf Bullnose compensator,
+	P226 TJ's Custom 9x19 compensator,
+]
 Recoil=-1.000000
 Ergonomics=5.000000
 Information_Eng=A lightweight slide for Glock 9x19 pistols.
 basePrice=10186
 width=2
 height=1
-avg24hPrice=10725
+avg24hPrice=10834
 low24hPrice=7000
-lastOfferCount=10
+lastOfferCount=6
 Sell_Prapor=5093
 Sell_Fence=4074
 Sell_Skier=4991
 Sell_Peacekeeper=40
 Sell_Mechanic=5704
-Sell_Flea Market=7399
+Sell_Flea Market=9999
 weight=0.250000
-fleaMarketFee=786
+fleaMarketFee=953

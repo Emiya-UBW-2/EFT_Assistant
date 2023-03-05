@@ -1,20 +1,24 @@
+IDstr=558032614bdc2de7118b4585
 Name=TangoDown Stubby BGV-MK46K foregrip (Black)
 ShortName=BGV-MK46K
 Itemtype=Foregrip
+Conflict=[
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
+]
 Recoil=-1.000000
 Ergonomics=5.000000
 Information_Eng=The TangoDown Stubby BGV-MK46K tactical grip is a short grip for use with weapons in close and extra close quarters combat. It ideally fits assault shotguns and also contains a compartment for batteries or SPTA. Black version.
 basePrice=3796
 width=1
 height=1
-avg24hPrice=8768
+avg24hPrice=9099
 low24hPrice=4888
-lastOfferCount=7
+lastOfferCount=11
 Sell_Prapor=1898
 Sell_Fence=1518
 Sell_Skier=1860
 Sell_Peacekeeper=15
 Sell_Mechanic=2125
-Sell_Flea Market=6800
+Sell_Flea Market=7999
 weight=0.072000
-fleaMarketFee=652
+fleaMarketFee=808

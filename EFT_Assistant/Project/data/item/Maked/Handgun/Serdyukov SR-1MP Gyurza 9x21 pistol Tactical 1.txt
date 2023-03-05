@@ -1,3 +1,4 @@
+IDstr=5a327f7286f7747668661419
 Name=Serdyukov SR-1MP Gyurza 9x21 pistol Tactical 1
 ShortName=SR-1MP Tactical 1
 Itemtype=Handgun

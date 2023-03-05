@@ -1,3 +1,4 @@
+IDstr=5656eb674bdc2d35148b457c
 Name=40mm VOG-25 grenade
 ShortName=VOG-25
 Itemtype=Ammo
@@ -7,9 +8,9 @@ Information_Eng=A 40mm VOG-25 underbarrel grenade launcher fragmentation round w
 basePrice=6750
 width=1
 height=1
-avg24hPrice=22858
+avg24hPrice=22270
 low24hPrice=8888
-lastOfferCount=13
+lastOfferCount=40
 Sell_Prapor=3375
 Sell_Fence=2700
 Sell_Skier=3307

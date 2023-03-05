@@ -1,3 +1,4 @@
+IDstr=6388c4478d895f557a0c6512
 Name=Precision Reflex handguard short side rail mount
 ShortName=PR side
 Itemtype=Mount
@@ -28,7 +29,7 @@ Information_Eng=A short rail for handguards by Precision Reflex, which allows yo
 basePrice=1777
 width=1
 height=1
-avg24hPrice=18500
+avg24hPrice=19000
 low24hPrice=11111
 lastOfferCount=1
 Sell_Prapor=888

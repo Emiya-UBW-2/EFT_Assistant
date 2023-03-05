@@ -1,3 +1,4 @@
+IDstr=57372ebf2459776862260582
 Name=5.45x39mm PS gs ammo pack (30 pcs)
 ShortName=PS
 Itemtype=Ammo container

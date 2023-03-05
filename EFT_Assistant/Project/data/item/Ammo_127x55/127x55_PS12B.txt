@@ -1,3 +1,4 @@
+IDstr=5cadf6eeae921500134b2799
 Name=12.7x55mm PS12B
 ShortName=PS12B
 Itemtype=Ammo

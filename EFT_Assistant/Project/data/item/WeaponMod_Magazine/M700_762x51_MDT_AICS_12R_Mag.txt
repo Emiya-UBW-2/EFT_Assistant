@@ -1,3 +1,4 @@
+IDstr=5d25a6a48abbc306c62e6310
 Name=M700 7.62x51 MDT AICS 12-round magazine
 ShortName=M700 AICS
 Itemtype=Magazine
@@ -11,7 +12,7 @@ Information_Eng=A 12-round Remington M700 sniper rifle magazine by Modular Drive
 basePrice=5600
 width=1
 height=2
-avg24hPrice=27302
+avg24hPrice=26788
 low24hPrice=12000
 lastOfferCount=1
 Sell_Prapor=2800

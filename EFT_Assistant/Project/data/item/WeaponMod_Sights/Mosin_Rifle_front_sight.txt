@@ -1,3 +1,4 @@
+IDstr=5ae099875acfc4001714e593
 Name=Mosin Rifle front sight
 ShortName=Mosin FS
 Itemtype=Ironsight

@@ -1,3 +1,4 @@
+IDstr=55d4af3a4bdc2d972f8b456f
 Name=AR-15 Leapers UTG Low Profile A2 front sight
 ShortName=LPA2 FS
 Itemtype=Ironsight

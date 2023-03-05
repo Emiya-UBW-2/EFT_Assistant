@@ -1,3 +1,4 @@
+IDstr=619f4f8c4c58466fe1228439
 Name=Chiappa Rhino Green Fiber Optic rear sight
 ShortName=CR GF
 Itemtype=Ironsight

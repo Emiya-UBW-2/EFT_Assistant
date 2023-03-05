@@ -1,3 +1,4 @@
+IDstr=6389c7750ef44505c87f5996
 Name=Microcontroller board
 ShortName=MB
 Itemtype=Electronics

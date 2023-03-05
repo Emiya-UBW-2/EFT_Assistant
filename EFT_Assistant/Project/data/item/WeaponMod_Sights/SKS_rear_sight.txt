@@ -1,3 +1,4 @@
+IDstr=574db213245977459a2f3f5d
 Name=SKS rear sight
 ShortName=SKS RS
 Itemtype=Ironsight

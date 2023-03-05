@@ -1,3 +1,4 @@
+IDstr=5a7882dcc5856700177af662
 Name=M870 12ga 4-shell magazine cap
 ShortName=M870x4
 Itemtype=Magazine

@@ -1,3 +1,4 @@
+IDstr=5fb65424956329274326f316
 Name=KRISS Vector .45 ACP flash hider
 ShortName=Vector .45
 Itemtype=Flashhider

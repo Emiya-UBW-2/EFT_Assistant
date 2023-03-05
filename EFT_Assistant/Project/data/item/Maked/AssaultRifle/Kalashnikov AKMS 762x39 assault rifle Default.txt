@@ -1,3 +1,4 @@
+IDstr=5a327f4a86f774766866140b
 Name=Kalashnikov AKMS 7.62x39 assault rifle Default
 ShortName=AKMS Default
 Itemtype=Assault rifle
@@ -5,9 +6,9 @@ Information_Eng=
 basePrice=38415
 width=5
 height=2
-avg24hPrice=24395
+avg24hPrice=24986
 low24hPrice=19000
-lastOfferCount=7
+lastOfferCount=18
 Sell_Prapor=19207
 Sell_Fence=15366
 Sell_Skier=18823

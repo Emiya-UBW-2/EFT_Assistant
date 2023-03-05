@@ -1,3 +1,4 @@
+IDstr=5cfe8010d7ad1a59283b14c6
 Name=AK 7.62x39 X Products X-47 50-round drum magazine
 ShortName=X-47 7.62
 Itemtype=Magazine

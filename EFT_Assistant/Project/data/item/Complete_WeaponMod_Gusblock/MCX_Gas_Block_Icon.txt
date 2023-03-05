@@ -1,3 +1,4 @@
+IDstr=5fbc210bf24b94483f726481
 Name=MCX gas block
 ShortName=MCX block
 Itemtype=Gas block

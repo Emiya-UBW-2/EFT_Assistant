@@ -1,3 +1,4 @@
+IDstr=6194f1f918a3974e5e7421e4
 Name=HK USP Tactical thread protector
 ShortName=USP45T
 Itemtype=Comb. muzzle device
@@ -15,6 +16,6 @@ Sell_Fence=440
 Sell_Skier=539
 Sell_Peacekeeper=4
 Sell_Mechanic=616
-Sell_Flea Market=2000
+Sell_Flea Market=9999
 weight=0.010000
-fleaMarketFee=193
+fleaMarketFee=2266

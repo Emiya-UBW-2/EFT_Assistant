@@ -1,3 +1,4 @@
+IDstr=5a8ae21486f774377b73cf5d
 Name=Kalashnikov AKM 7.62x39 assault rifle T-OPS
 ShortName=AKM T-OPS
 Itemtype=Assault rifle

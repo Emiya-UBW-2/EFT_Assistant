@@ -1,19 +1,23 @@
+IDstr=5aa7d03ae5b5b00016327db5
 Name=UNTAR helmet
 ShortName=UNTAR
 Itemtype=Headwear
+Conflict=[
+	Faceless mask,
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A standard-issue helmet used by UN soldiers during the UNTAR mission in Tarkov.
 basePrice=21395
 width=2
 height=2
-avg24hPrice=32188
+avg24hPrice=32119
 low24hPrice=20000
-lastOfferCount=14
+lastOfferCount=18
 Sell_Fence=8558
 Sell_Skier=10483
 Sell_Peacekeeper=84
 Sell_Ragman=13264
-Sell_Flea Market=20000
+Sell_Flea Market=24000
 weight=2.200000
-fleaMarketFee=1924
+fleaMarketFee=2219

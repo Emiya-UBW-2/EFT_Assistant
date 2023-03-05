@@ -1,3 +1,4 @@
+IDstr=628b9be6cff66b70c002b14c
 Name=AK-545 SAG railed dust cover
 ShortName=AK-545 DC
 Itemtype=Receiver
@@ -7,7 +8,7 @@ Information_Eng=A standard-issue dust cover for AK-545 carbines, manufactured by
 basePrice=2000
 width=1
 height=1
-avg24hPrice=17523
+avg24hPrice=17923
 low24hPrice=10000
 lastOfferCount=1
 Sell_Prapor=1000

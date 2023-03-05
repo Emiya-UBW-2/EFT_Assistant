@@ -1,3 +1,4 @@
+IDstr=6193e5f3aa34a3034236bdb3
 Name=HK G28 7.62x51 marksman rifle Patrol
 ShortName=G28 Patrol
 Itemtype=Marksman rifle

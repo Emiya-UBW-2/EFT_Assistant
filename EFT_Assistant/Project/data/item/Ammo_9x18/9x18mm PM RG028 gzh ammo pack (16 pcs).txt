@@ -1,3 +1,4 @@
+IDstr=5737287724597765e1625ae2
 Name=9x18mm PM RG028 gzh ammo pack (16 pcs)
 ShortName=RG028
 Itemtype=Ammo container

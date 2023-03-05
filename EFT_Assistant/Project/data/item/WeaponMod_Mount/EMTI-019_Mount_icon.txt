@@ -1,3 +1,4 @@
+IDstr=5dfe14f30b92095fd441edaf
 Name=ETMI-019 shotgun rail mount
 ShortName=ETMI-019
 Itemtype=Mount
@@ -33,7 +34,7 @@ Information_Eng=ETMI-019 is a universal adapter from 7mm vent plank to Weaver/Pi
 basePrice=2000
 width=1
 height=1
-avg24hPrice=11819
+avg24hPrice=10152
 low24hPrice=3899
 lastOfferCount=1
 Sell_Prapor=1000

@@ -1,3 +1,4 @@
+IDstr=5448c12b4bdc2d02308b456f
 Name=PM 9x18PM 90-93 8-round magazine
 ShortName=PM
 Itemtype=Magazine

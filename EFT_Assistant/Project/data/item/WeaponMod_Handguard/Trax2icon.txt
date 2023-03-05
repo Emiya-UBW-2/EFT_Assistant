@@ -1,3 +1,4 @@
+IDstr=5a9d6d34a2750c00141e07da
 Name=AK Strike Industries TRAX 2 handguard extension
 ShortName=TRAX 2
 Itemtype=Handguard
@@ -14,8 +15,8 @@ Conflict=[
 	Kalashnikov AK-102 5.56x45 assault rifle,
 	Kalashnikov AK-104 7.62x39 assault rifle,
 	Kalashnikov AK-105 5.45x39 assault rifle,
-	Saiga-9 9x19 carbine,
 	PP-19-01 "Vityaz" 9x19 submachine gun,
+	Saiga-9 9x19 carbine
 ]
 Recoil=-1.000000
 Ergonomics=5.000000
@@ -23,14 +24,14 @@ Information_Eng=TRAX 2 is a front rail section that covers the gas block. Provid
 basePrice=7259
 width=1
 height=1
-avg24hPrice=9868
+avg24hPrice=9754
 low24hPrice=7000
-lastOfferCount=6
+lastOfferCount=12
 Sell_Prapor=3629
 Sell_Fence=2903
 Sell_Skier=3556
 Sell_Peacekeeper=28
 Sell_Mechanic=4065
-Sell_Flea Market=8888
+Sell_Flea Market=8896
 weight=0.260000
-fleaMarketFee=814
+fleaMarketFee=815

@@ -1,15 +1,22 @@
+IDstr=544a3a774bdc2d3a388b4567
 Name=Leupold Mark 4 HAMR 4x24 DeltaPoint hybrid assault scope
 ShortName=HAMR
 Itemtype=Assault scope
 SightRange=800
+Conflict=[
+	AR-15 Colt A2 rear sight,
+	AR-15 rear sight carry handle,
+	Mosin Rifle carbine rear sight,
+	NSPU-M night vision scope,
+]
 Recoil=0.000000
 Ergonomics=-3.500000
 Information_Eng=The Hybrid Leupold-produced scope comprises of the Mark 4 HAMR 4x24mm optical sight with the DeltaPoint reflex sight installed on top of it. It was developed for precision mid-range carbine fire using the 4x optics while being equally effective in close quarters thanks to use of compact reflex sight when necessary.
 basePrice=42902
 width=2
 height=1
-avg24hPrice=36972
-low24hPrice=30000
+avg24hPrice=35635
+low24hPrice=28777
 lastOfferCount=24
 Sell_Prapor=21451
 Sell_Fence=17160
@@ -17,6 +24,6 @@ Sell_Skier=21021
 Sell_Peacekeeper=168
 Sell_Mechanic=24025
 Sell_Jaeger=25741
-Sell_Flea Market=37600
+Sell_Flea Market=28777
 weight=0.411000
-fleaMarketFee=3683
+fleaMarketFee=3208

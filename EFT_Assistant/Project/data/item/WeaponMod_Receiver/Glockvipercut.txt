@@ -1,20 +1,25 @@
+IDstr=5a6f5f078dc32e00094b97dd
 Name=Glock Viper Cut pistol slide
 ShortName=G ViperCut
 Itemtype=Receiver
+Conflict=[
+	Glock 9x19 Lone Wolf AlphaWolf Bullnose compensator,
+	P226 TJ's Custom 9x19 compensator,
+]
 Recoil=-1.000000
 Ergonomics=6.000000
 Information_Eng=A lightweight slide for Glock pistols.
 basePrice=11199
 width=2
 height=1
-avg24hPrice=10871
+avg24hPrice=10260
 low24hPrice=8000
-lastOfferCount=9
+lastOfferCount=5
 Sell_Prapor=5599
 Sell_Fence=4479
 Sell_Skier=5487
 Sell_Peacekeeper=44
 Sell_Mechanic=6271
-Sell_Flea Market=8000
+Sell_Flea Market=8999
 weight=0.250000
-fleaMarketFee=858
+fleaMarketFee=910

@@ -1,3 +1,4 @@
+IDstr=5efb0da7a29a85116f6ea05f
 Name=9x19mm PBP gzh
 ShortName=PBP
 Itemtype=Ammo

@@ -1,3 +1,4 @@
+IDstr=56dfef82d2720bbd668b4567
 Name=5.45x39mm BP gs
 ShortName=BP
 Itemtype=Ammo
@@ -7,9 +8,9 @@ Information_Eng=A 5.45x39mm BP gs (GRAU Index - 7N22) cartridge with a 3.7 gram 
 basePrice=129
 width=1
 height=1
-avg24hPrice=595
+avg24hPrice=597
 low24hPrice=450
-lastOfferCount=24
+lastOfferCount=40
 Sell_Prapor=64
 Sell_Fence=51
 Sell_Skier=63

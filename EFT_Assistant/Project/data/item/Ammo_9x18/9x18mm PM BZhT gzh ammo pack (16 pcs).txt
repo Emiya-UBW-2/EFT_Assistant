@@ -1,3 +1,4 @@
+IDstr=573722e82459776104581c21
 Name=9x18mm PM BZhT gzh ammo pack (16 pcs)
 ShortName=BZhT
 Itemtype=Ammo container

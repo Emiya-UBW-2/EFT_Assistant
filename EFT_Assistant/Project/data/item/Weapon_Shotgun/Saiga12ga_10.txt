@@ -1,21 +1,25 @@
+IDstr=576165642459773c7a400233
 Name=Saiga 12ga ver.10 12/76 semi-automatic shotgun
 ShortName=Saiga-12ga v.10
 Itemtype=Shotgun
+Conflict=[
+	Hera Arms CQR tactical foregrip,
+]
 Recoil=0.000000
 Ergonomics=35.000000
 Information_Eng=A semi-automatic 12 gauge shotgun with a folding stock, equipped with a firing mechanism safety lock that only allows firing from extended stock position. Features a short 430mm barrel.
 basePrice=16517
 width=4
 height=1
-avg24hPrice=40178
+avg24hPrice=39526
 low24hPrice=22000
-lastOfferCount=20
+lastOfferCount=13
 Sell_Prapor=8258
 Sell_Fence=6606
 Sell_Skier=8093
 Sell_Peacekeeper=65
 Sell_Mechanic=9249
 Sell_Jaeger=9910
-Sell_Flea Market=24000
+Sell_Flea Market=24443
 weight=2.622000
-fleaMarketFee=2211
+fleaMarketFee=2257

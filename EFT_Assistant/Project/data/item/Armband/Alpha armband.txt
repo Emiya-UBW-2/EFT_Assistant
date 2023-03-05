@@ -1,3 +1,4 @@
+IDstr=619bc61e86e01e16f839a999
 Name=Alpha armband
 ShortName=Alpha
 Itemtype=Arm Band

@@ -1,3 +1,4 @@
+IDstr=5a78813bc5856700186c4abe
 Name=M870 Magpul SGA polymer stock
 ShortName=M870 SGA
 Itemtype=Stock

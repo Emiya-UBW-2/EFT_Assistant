@@ -1,3 +1,4 @@
+IDstr=54527ac44bdc2d36668b4567
 Name=5.56x45mm M855A1
 ShortName=M855A1
 Itemtype=Ammo

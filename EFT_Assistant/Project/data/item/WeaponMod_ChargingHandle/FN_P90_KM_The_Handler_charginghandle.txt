@@ -1,3 +1,4 @@
+IDstr=5cc6ea85e4a949000e1ea3c3
 Name=FN P90 K&M The Handler charging handle
 ShortName=TheHandler
 Itemtype=Charging handle
@@ -7,7 +8,7 @@ Information_Eng=An ergomomic folding charging handle for FN P90, manufactured by
 basePrice=2663
 width=1
 height=1
-avg24hPrice=30073
+avg24hPrice=32103
 low24hPrice=17000
 lastOfferCount=2
 Sell_Prapor=1331

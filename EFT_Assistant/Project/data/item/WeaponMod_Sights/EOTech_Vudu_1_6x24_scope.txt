@@ -1,22 +1,40 @@
+IDstr=5b3b99475acfc432ff4dcbee
 Name=EOTech Vudu 1-6x24 30mm riflescope
 ShortName=Vudu 1-6x24
 Itemtype=Scope
 SightRange=1500
+Conflict=[
+	Axion Kobra EKP-8-18 reflex sight,
+	OKP-7 reflex sight,
+	EOTech 553 holographic sight,
+	EOTech EXPS3 holographic sight (Tan),
+	EOTech XPS3-0 holographic sight,
+	EOTech XPS3-2 holographic sight,
+	Holosun HS401G5 reflex sight,
+	SIG Sauer ROMEO8T reflex sight,
+	Trijicon SRS-02 reflex sight,
+	Valday PK-120 (1P87) holographic sight,
+	Valday Krechet reflex sight,
+	VOMZ Pilad P1x42 Weaver reflex sight,
+	Vortex Razor AMG UH-1 holographic sight,
+	Walther MRS reflex sight,
+	Aimpoint LRP mount for CompM4 sights
+]
 Recoil=0.000000
 Ergonomics=-3.000000
 Information_Eng=The EOTech Vudu 1-6x24 riflescope, equally effective on AR platforms and bolt-action rifles. Its EOTech-style speed ring reticle is designed for fast target engagement at low power, while delivering the resolution and accuracy needed for longer range targets.
 basePrice=44344
 width=2
 height=1
-avg24hPrice=109526
-low24hPrice=81111
-lastOfferCount=51
+avg24hPrice=111884
+low24hPrice=90999
+lastOfferCount=68
 Sell_Prapor=22172
 Sell_Fence=17737
 Sell_Skier=21728
 Sell_Peacekeeper=174
 Sell_Mechanic=24832
 Sell_Jaeger=26606
-Sell_Flea Market=96000
+Sell_Flea Market=90999
 weight=0.570000
-fleaMarketFee=9795
+fleaMarketFee=9106

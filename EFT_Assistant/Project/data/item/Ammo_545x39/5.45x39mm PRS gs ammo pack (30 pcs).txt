@@ -1,3 +1,4 @@
+IDstr=57372e4a24597768553071c2
 Name=5.45x39mm PRS gs ammo pack (30 pcs)
 ShortName=PRS
 Itemtype=Ammo container

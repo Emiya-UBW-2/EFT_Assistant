@@ -1,3 +1,4 @@
+IDstr=622efdf8ec80d870d349b4e5
 Name=Hensoldt RIS top rail
 ShortName=HKV RIS
 Itemtype=Mount
@@ -7,7 +8,7 @@ Information_Eng=A sight mount manufactured by Hensoldt. Mounted on the HKV sight
 basePrice=1400
 width=1
 height=1
-avg24hPrice=8151
+avg24hPrice=7613
 low24hPrice=3500
 lastOfferCount=1
 Sell_Prapor=700

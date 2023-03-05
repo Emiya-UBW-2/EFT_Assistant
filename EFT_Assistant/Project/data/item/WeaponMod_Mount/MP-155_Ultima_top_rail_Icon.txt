@@ -1,3 +1,4 @@
+IDstr=60785ce5132d4d12c81fd918
 Name=MP-155 Ultima top rail
 ShortName=Ultima top
 Itemtype=Mount

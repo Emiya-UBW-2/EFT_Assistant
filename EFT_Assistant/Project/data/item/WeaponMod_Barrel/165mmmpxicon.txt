@@ -1,3 +1,4 @@
+IDstr=58aeaaa886f7744fc1560f81
 Name=MPX-SD 9x19 165mm barrel
 ShortName=MPXSD 165mm
 Itemtype=Barrel
@@ -7,6 +8,7 @@ ChildParts=[
 Conflict=[
 	MPX Lancer OEM 14 inch M-LOK handguard,
 	MPX Midwest Industries 10.5 inch M-LOK handguard,
+	MPX Midwest Industries 14 inch M-LOK handguard
 ]
 Recoil=-2.000000
 Ergonomics=-3.000000
@@ -14,15 +16,15 @@ Information_Eng=A special 165mm long barrel for the MPX-SD. Chambered for 9x19 a
 basePrice=5619
 width=2
 height=1
-avg24hPrice=14782
+avg24hPrice=14410
 low24hPrice=5000
-lastOfferCount=4
+lastOfferCount=6
 Sell_Prapor=2809
 Sell_Fence=2247
 Sell_Skier=2753
 Sell_Peacekeeper=22
 Sell_Mechanic=3146
 Sell_Jaeger=3371
-Sell_Flea Market=5000
+Sell_Flea Market=12000
 weight=0.180000
-fleaMarketFee=488
+fleaMarketFee=1218

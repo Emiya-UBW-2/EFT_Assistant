@@ -1,3 +1,4 @@
+IDstr=59985a6c86f77414ec448d17
 Name=PP-19-01 "Vityaz-SN" dust cover
 ShortName=Vityaz-SN
 Itemtype=Receiver
@@ -36,15 +37,16 @@ ChildParts=[
 	UNV DLOC-IRD sight mount
 ]
 Conflict=[
-	Axion Kobra dovetail mount,
 	Axion Kobra EKP-8-02 reflex sight (Dovetail),
-	NSPU-M night vision scope,
+	BelOMO PK-AA dovetail reflex sight,
 	OKP-7 reflex sight (Dovetail),
-	VOMZ Pilad 043-02 dovetail mount,
 	BelOMO PSO-1 4x24 scope,
-	BelOMO PSO-1M2 4x24 scope,
 	BelOMO PSO-1M2-1 4x24 scope,
-	SAG Bit low profile dovetail sidemount,
+	BelOMO PSO-1M2 4x24 scope,
+	NSPU-M night vision scope,
+	Axion Kobra dovetail mount,
+	VOMZ Pilad 043-02 dovetail mount,
+	NPZ PK1 "Obzor" reflex sight
 ]
 Recoil=0.000000
 Ergonomics=5.000000
@@ -52,14 +54,14 @@ Information_Eng=A standard-issue receiver dust cover for PP-19-01 Vityaz-SN (mod
 basePrice=2416
 width=2
 height=1
-avg24hPrice=20928
+avg24hPrice=20669
 low24hPrice=9999
-lastOfferCount=9
+lastOfferCount=6
 Sell_Prapor=1208
 Sell_Fence=966
 Sell_Skier=1183
 Sell_Peacekeeper=9
 Sell_Mechanic=1352
-Sell_Flea Market=16666
+Sell_Flea Market=19998
 weight=0.136000
-fleaMarketFee=3173
+fleaMarketFee=4270

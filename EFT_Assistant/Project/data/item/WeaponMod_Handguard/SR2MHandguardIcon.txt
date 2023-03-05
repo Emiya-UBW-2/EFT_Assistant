@@ -1,3 +1,4 @@
+IDstr=62e15547db1a5c41971c1b5e
 Name=SR-2M polymer handguard
 ShortName=SR-2M
 Itemtype=Handguard

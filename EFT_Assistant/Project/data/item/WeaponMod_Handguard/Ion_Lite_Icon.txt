@@ -1,3 +1,4 @@
+IDstr=5d4405f0a4b9361e6a4e6bd9
 Name=AR-15 Lone Star Ion Lite handguard
 ShortName=Ion Lite
 Itemtype=Handguard
@@ -41,12 +42,7 @@ Conflict=[
 	AR-15 Windham Weaponry Rail Gas Block,
 	AR-15 5.56x45 260mm barrel,
 	AR-15 5.56x45 370mm barrel,
-	AR-15 5.56x45 Molot Arms 406mm barrel,
-	STM-9 9x19 10.5 inch barrel,
-	STM-9 9x19 12 inch barrel,
-	STM-9 9x19 14 inch barrel,
-	STM-9 9x19 16 inch barrel,
-	M203 40mm underbarrel grenade launcher,
+	AR-15 5.56x45 Molot Arms 406mm barrel
 ]
 Recoil=-1.000000
 Ergonomics=11.000000
@@ -54,14 +50,14 @@ Information_Eng=The Ion Lite lightweight handguard by Lone Star Armory, designed
 basePrice=19900
 width=3
 height=1
-avg24hPrice=23245
+avg24hPrice=23403
 low24hPrice=14000
-lastOfferCount=10
+lastOfferCount=11
 Sell_Prapor=9950
 Sell_Fence=7960
 Sell_Skier=9751
 Sell_Peacekeeper=78
 Sell_Mechanic=11144
-Sell_Flea Market=18000
+Sell_Flea Market=18500
 weight=0.380000
-fleaMarketFee=1747
+fleaMarketFee=1782

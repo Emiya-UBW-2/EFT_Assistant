@@ -1,3 +1,4 @@
+IDstr=61f8024263dc1250e26eb029
 Name=MP-18 polymer handguard
 ShortName=MP18 poly
 Itemtype=Handguard
@@ -7,7 +8,7 @@ Information_Eng=A polymer handguard for MP-18 hunting rifles. Manufactured by Iz
 basePrice=2500
 width=2
 height=1
-avg24hPrice=16284
+avg24hPrice=15998
 low24hPrice=10000
 lastOfferCount=2
 Sell_Prapor=1250

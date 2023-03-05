@@ -1,3 +1,4 @@
+IDstr=5df8a6a186f77412640e2e80
 Name=Christmas tree ornament (Red)
 ShortName=Ornament
 Itemtype=Jewelry

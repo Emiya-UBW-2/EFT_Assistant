@@ -1,3 +1,4 @@
+IDstr=6176aca650224f204c1da3fb
 Name=HK G28 7.62x51 marksman rifle
 ShortName=G28
 Itemtype=Marksman rifle

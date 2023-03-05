@@ -1,19 +1,23 @@
+IDstr=5e01f31d86f77465cf261343
 Name=Team Wendy EXFIL Ear Covers (Coyote Brown)
 ShortName=EXFIL Ears
 Itemtype=Armored equipment
+Conflict=[
+	Peltor Tactical Sport headset
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=Additional armored ear covers for the Team Wendy EXFIL helmet to ensure a bigger protection area. Coyote Brown version.
 basePrice=39200
 width=2
 height=2
-avg24hPrice=73703
-low24hPrice=57000
-lastOfferCount=14
+avg24hPrice=68130
+low24hPrice=47777
+lastOfferCount=39
 Sell_Fence=15680
 Sell_Skier=19208
 Sell_Peacekeeper=153
 Sell_Ragman=24304
-Sell_Flea Market=81111
+Sell_Flea Market=47777
 weight=0.172000
-fleaMarketFee=8140
+fleaMarketFee=4379

@@ -1,3 +1,4 @@
+IDstr=5a78830bc5856700137e4c90
 Name=M870 12ga 7-shell magazine
 ShortName=M870x7
 Itemtype=Magazine
@@ -7,8 +8,8 @@ Information_Eng=A 7-shell capacity tube magazine by Remington, for Remington Mod
 basePrice=1679
 width=2
 height=1
-avg24hPrice=32500
-low24hPrice=28888
+avg24hPrice=0
+low24hPrice=0
 lastOfferCount=3
 Sell_Prapor=839
 Sell_Fence=671

@@ -1,13 +1,17 @@
+IDstr=5448c1d04bdc2dff2f8b4569
 Name=5.56x45 Magpul PMAG 20 GEN M3 STANAG 20-round magazine
 ShortName=GEN M3
 Itemtype=Magazine
+Conflict=[
+	HK G36 magwell,
+]
 Recoil=0.000000
 Ergonomics=3.000000
 Information_Eng=The PMAG 20 GEN M3 is a 20-round 5.56x45 NATO (.223 Remington) polymer magazine for AR-15/M4 compatible weapons.
 basePrice=3006
 width=1
 height=1
-avg24hPrice=10005
+avg24hPrice=9924
 low24hPrice=4500
 lastOfferCount=0
 Sell_Prapor=1503

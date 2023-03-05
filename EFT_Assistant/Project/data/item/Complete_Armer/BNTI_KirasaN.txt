@@ -1,3 +1,4 @@
+IDstr=5b44d22286f774172b0c9de8
 Name=BNTI Kirasa-N body armor
 ShortName=Kirasa-N
 Itemtype=Armor
@@ -7,9 +8,9 @@ Information_Eng=The "Kirasa N" body armor is designed for the army and police sp
 basePrice=48463
 width=3
 height=3
-avg24hPrice=55566
+avg24hPrice=52711
 low24hPrice=31999
-lastOfferCount=15
+lastOfferCount=22
 Sell_Prapor=24231
 Sell_Fence=19385
 Sell_Skier=23746

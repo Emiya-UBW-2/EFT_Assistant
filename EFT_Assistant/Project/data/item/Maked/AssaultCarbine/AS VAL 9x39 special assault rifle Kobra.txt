@@ -1,3 +1,4 @@
+IDstr=618aaeb931ddad66c15eb7e9
 Name=AS VAL 9x39 special assault rifle Kobra
 ShortName=AS VAL Kobra
 Itemtype=Assault carbine

@@ -1,3 +1,4 @@
+IDstr=5cde739cd7f00c0010373bd3
 Name=M700 AB Arms MOD*X GEN 3 chassis
 ShortName=MOD*X Gen.3
 Itemtype=Stock
@@ -36,10 +37,10 @@ ChildParts=[
 	AR-15 RTM ATP buffer tube
 ]
 Conflict=[
-	M700 7.62x51 Wyatt's Outdoor 5-round magazine,
-	M700 7.62x51 Wyatt's Outdoor 10-round magazine,
 	M700 7.62x51 ProMag AA-70 10-round magazine,
 	M700 7.62x51 ProMag AA-70 20-round magazine,
+	M700 7.62x51 Wyatt's Outdoor 10-round magazine,
+	M700 7.62x51 Wyatt's Outdoor 5-round magazine
 ]
 Recoil=-9.000000
 Ergonomics=13.000000
@@ -47,15 +48,15 @@ Information_Eng=The AB Arms MOD*X GEN III Modular Rifle System is a lightweight,
 basePrice=14972
 width=2
 height=1
-avg24hPrice=27242
+avg24hPrice=27249
 low24hPrice=18500
-lastOfferCount=6
+lastOfferCount=7
 Sell_Prapor=7486
 Sell_Fence=5988
 Sell_Skier=7336
 Sell_Peacekeeper=59
 Sell_Mechanic=8384
 Sell_Jaeger=8983
-Sell_Flea Market=21500
+Sell_Flea Market=22620
 weight=0.900000
-fleaMarketFee=1978
+fleaMarketFee=2094

@@ -1,6 +1,10 @@
+IDstr=56deeefcd2720bc8328b4568
 Name=MP-153 12ga 8-shell magazine
 ShortName=MP153x8
 Itemtype=Magazine
+Conflict=[
+	SilencerCo Salvo 12 12ga sound suppressor,
+]
 Recoil=0.000000
 Ergonomics=-6.000000
 Information_Eng=An 8-shell magazine extension tube for MP-153 12 gauge shotguns.

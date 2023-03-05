@@ -13,6 +13,7 @@ namespace FPS_n2 {
 		};
 		typedef std::vector<std::pair<const ItemList*, std::string>> ItemSettings;
 
+		std::string												m_IDstr;
 		ItemTypeID												m_TypeID{ InvalidID };
 		std::vector<MapID>										m_MapID;
 		std::vector<ChildItemSettings>							m_ChildPartsID;
@@ -37,6 +38,9 @@ namespace FPS_n2 {
 	private:
 		//í«â¡ê›íË
 		void	Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept override {
+			if (LEFT == "IDstr") {
+				m_IDstr = RIGHT;
+			}
 			if (LEFT == "Itemtype") {
 				m_TypeID = ItemTypeData::Instance()->FindID(RIGHT.c_str());
 			}
@@ -169,8 +173,9 @@ namespace FPS_n2 {
 		}
 		void	WhenAfterLoad_Sub() noexcept override {}
 	public:
-		bool										m_CheckJson{ false };
+		int										m_CheckJson{ 0 };
 	public:
+		const auto&	GetIDstr() const noexcept { return m_IDstr; }
 		const auto&	GetTypeID() const noexcept { return m_TypeID; }
 		const auto&	GetMapID() const noexcept { return m_MapID; }
 		const auto&	GetChildParts() const noexcept { return m_ChildPartsID; }
@@ -359,6 +364,7 @@ namespace FPS_n2 {
 	public:
 		bool										m_IsFileOpened{ false };
 	public:
+		std::string									id;
 		std::string									name;
 		std::string									shortName;
 		std::string									description;
@@ -376,6 +382,8 @@ namespace FPS_n2 {
 		float										recoilModifier{ -1000.f };
 		float										ergonomicsModifier{ -1000.f };
 
+		std::vector<std::string>					conflictingItems;
+
 		std::vector<std::string>					usedInTasks;
 		std::vector<std::string>					receivedFromTasks;
 		std::vector<std::string>					bartersFor;
@@ -385,6 +393,7 @@ namespace FPS_n2 {
 		int											fleaMarketFee{ 0 };
 	public:
 		void GetJsonData(const nlohmann::json& data) {
+			id = data["id"];
 			name = data["name"];
 			shortName = data["shortName"];
 			if (data.contains("description")) {
@@ -446,6 +455,9 @@ namespace FPS_n2 {
 			}
 			categorytypes = data["category"]["name"];
 			weight = data["weight"];
+			for (const auto& ts : data["conflictingItems"]) {
+				conflictingItems.emplace_back((std::string)ts["name"]);
+			}
 			for (const auto& ts : data["usedInTasks"]) {
 				usedInTasks.emplace_back((std::string)ts["name"]);
 			}
@@ -491,7 +503,7 @@ namespace FPS_n2 {
 				t.SetOtherPartsID_After(m_List);
 			}
 			for (auto& t : m_List) {
-				t.m_CheckJson = false;
+				t.m_CheckJson = 0;
 			}
 		}
 		~ItemData() noexcept {}
@@ -509,12 +521,13 @@ namespace FPS_n2 {
 		void SaveDatabyJson(std::string FolderPath) noexcept {
 			for (auto& L : m_List) {
 				for (auto& jd : m_ItemJsonData) {
-					if (L.GetName() == jd.name) {
-						L.m_CheckJson = true;//
+					if (L.GetIDstr() == jd.id) {
+						L.m_CheckJson++;
 
 						jd.m_IsFileOpened = true;
 
 						std::ofstream outputfile(L.GetFilePath());
+						outputfile << "IDstr=" + jd.id + "\n";
 						outputfile << "Name=" + jd.name + "\n";
 						outputfile << "ShortName=" + jd.shortName + "\n";
 						outputfile << "Itemtype=" + jd.categorytypes + "\n";
@@ -547,22 +560,36 @@ namespace FPS_n2 {
 							}
 							outputfile << "]\n";
 						}
-						if (L.GetConflictParts().size() > 0) {
+						if (jd.conflictingItems.size() > 0) {
 							outputfile << "Conflict=[\n";
 							std::vector<std::string> Names;
-							for (auto& m : L.GetConflictParts()) {
-								if (m.first) {
-									auto NmBuf = m.first->GetName();
-									if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
-										outputfile << "\t" + NmBuf + ((&m != &L.GetConflictParts().back()) ? "," : "") + "\n";
-										Names.emplace_back(NmBuf);
-									}
-								}
-								else {
-									int a = 0;
+							for (auto& m : jd.conflictingItems) {
+								auto NmBuf = m;
+								if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
+									outputfile << "\t" + NmBuf + ((&m != &jd.conflictingItems.back()) ? "," : "") + "\n";
+									Names.emplace_back(NmBuf);
 								}
 							}
 							outputfile << "]\n";
+						}
+						else {
+							if (L.GetConflictParts().size() > 0) {
+								outputfile << "Conflict=[\n";
+								std::vector<std::string> Names;
+								for (auto& m : L.GetConflictParts()) {
+									if (m.first) {
+										auto NmBuf = m.first->GetName();
+										if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
+											outputfile << "\t" + NmBuf + ((&m != &L.GetConflictParts().back()) ? "," : "") + "\n";
+											Names.emplace_back(NmBuf);
+										}
+									}
+									else {
+										int a = 0;
+									}
+								}
+								outputfile << "]\n";
+							}
 						}
 
 						if (jd.recoilModifier > -500) {
@@ -623,6 +650,7 @@ namespace FPS_n2 {
 
 					std::string Name = "data/item/Maked/"+ FolderPath +"/" + ItemName + ".txt";
 					std::ofstream outputfile(Name);
+					outputfile << "IDstr=" + jd.id + "\n";
 					outputfile << "Name=" + jd.name + "\n";
 					outputfile << "ShortName=" + jd.shortName + "\n";
 					outputfile << "Itemtype=" + jd.categorytypes + "\n";
@@ -693,9 +721,19 @@ namespace FPS_n2 {
 		}
 		void CheckThroughJson(void) noexcept {
 			for (auto& t : m_List) {
-				if (!t.m_CheckJson) {
+				if (t.m_CheckJson == 0) {
 					std::string ErrMes = "Error : ThroughJson : ";
 					ErrMes += t.GetName();
+					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+				}
+			}
+			for (auto& t : m_List) {
+				if (t.m_CheckJson >= 2) {
+					std::string ErrMes = "Error : Be repeated ";
+					ErrMes += std::to_string(t.m_CheckJson);
+					ErrMes += " : ";
+					ErrMes += t.GetName();
+
 					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
 				}
 			}
@@ -714,7 +752,7 @@ namespace FPS_n2 {
 				? (ysize * GetIcon().GetXSize() / GetIcon().GetYSize())
 				: (ysize * GetIcon().GetYSize() / GetIcon().GetXSize());
 		}
-		bool IsLocked = PlayerData::Instance()->GetItemLock(this->GetName().c_str());
+		bool IsLocked = PlayerData::Instance()->GetItemLock(this->GetIDstr().c_str());
 		int FirSize = (IsFir || IsLocked) ? 36 : 0;
 		xg += FirSize;
 		auto Name = this->GetShortName();

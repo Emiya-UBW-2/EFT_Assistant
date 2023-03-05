@@ -1,21 +1,25 @@
+IDstr=5b04473a5acfc40018632f70
 Name=AKM/AK-74 FAB Defense UAS stock
 ShortName=UAS AK
 Itemtype=Stock
+Conflict=[
+	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock,
+]
 Recoil=-38.000000
 Ergonomics=16.000000
 Information_Eng=The UAS stock for AKM/AK74-type non-folding assault rifles. Manufactured by FAB Defense.
 basePrice=16077
 width=2
 height=1
-avg24hPrice=19963
+avg24hPrice=19465
 low24hPrice=14000
-lastOfferCount=21
+lastOfferCount=27
 Sell_Prapor=8038
 Sell_Fence=6430
 Sell_Skier=7877
 Sell_Peacekeeper=63
 Sell_Mechanic=9003
 Sell_Jaeger=9646
-Sell_Flea Market=14000
+Sell_Flea Market=15555
 weight=0.450000
-fleaMarketFee=1374
+fleaMarketFee=1486

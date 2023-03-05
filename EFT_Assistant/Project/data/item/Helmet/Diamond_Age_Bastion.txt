@@ -1,19 +1,23 @@
+IDstr=5ea17ca01412a1425304d1c0
 Name=Diamond Age Bastion helmet
 ShortName=Bastion
 Itemtype=Headwear
+Conflict=[
+	Faceless mask,
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=According to the manufacturer - the Bastion helmet is the first combat helmet that can withstand a hit from a rifle, even with a bullet with an armored core at a muzzle speed.
 basePrice=101000
 width=2
 height=2
-avg24hPrice=72274
-low24hPrice=62888
-lastOfferCount=30
+avg24hPrice=71436
+low24hPrice=62000
+lastOfferCount=18
 Sell_Fence=40400
 Sell_Skier=49490
 Sell_Peacekeeper=395
 Sell_Ragman=62620
-Sell_Flea Market=62888
+Sell_Flea Market=65000
 weight=0.960000
-fleaMarketFee=7382
+fleaMarketFee=7451

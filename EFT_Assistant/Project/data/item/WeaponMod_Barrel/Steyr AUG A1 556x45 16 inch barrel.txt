@@ -1,3 +1,4 @@
+IDstr=6333f05d1bc0e6217a0e9d34
 Name=Steyr AUG A1 5.56x45 16 inch barrel
 ShortName=A1 16"
 Itemtype=Barrel

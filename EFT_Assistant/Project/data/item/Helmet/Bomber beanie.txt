@@ -1,19 +1,24 @@
+IDstr=60bf74184a63fc79b60c57f6
 Name=Bomber beanie
 ShortName=Bomber
 Itemtype=Headwear
+Conflict=[
+	Faceless mask,
+	Ghoul mask,
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A heraldic symbol of urban vagabonds. You need to wear it correctly, otherwise, the magic properties of the beanie will cease to work.
 basePrice=29700
 width=1
 height=1
-avg24hPrice=20139
+avg24hPrice=19917
 low24hPrice=12800
-lastOfferCount=12
+lastOfferCount=19
 Sell_Fence=11880
 Sell_Skier=14553
 Sell_Peacekeeper=116
 Sell_Ragman=18414
-Sell_Flea Market=14999
+Sell_Flea Market=18400
 weight=0.100000
-fleaMarketFee=2106
+fleaMarketFee=2168

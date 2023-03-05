@@ -1,20 +1,25 @@
+IDstr=5b7be1ca5acfc400170e2d2f
 Name=SA-58 quad rail full length handguard
 ShortName=SA58 4Rail full
 Itemtype=Handguard
+Conflict=[
+	SA-58 7.62x51 16 inch barrel,
+	SA-58 7.62x51 11 inch barrel,
+]
 Recoil=0.000000
 Ergonomics=6.000000
 Information_Eng=The DS Arms full length quad rail handguard for SA-58 rifles. Equipped with 4 mounts for installation of additional devices and accessories.
 basePrice=9601
 width=2
 height=1
-avg24hPrice=18471
+avg24hPrice=19313
 low24hPrice=9999
-lastOfferCount=27
+lastOfferCount=9
 Sell_Prapor=4800
 Sell_Fence=3840
 Sell_Skier=4704
 Sell_Peacekeeper=38
 Sell_Mechanic=5376
-Sell_Flea Market=14444
+Sell_Flea Market=10753
 weight=0.610000
-fleaMarketFee=1336
+fleaMarketFee=995

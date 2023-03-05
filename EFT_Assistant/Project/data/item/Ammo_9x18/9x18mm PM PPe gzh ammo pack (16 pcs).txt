@@ -1,3 +1,4 @@
+IDstr=573725b0245977612125bae2
 Name=9x18mm PM PPe gzh ammo pack (16 pcs)
 ShortName=PPe
 Itemtype=Ammo container

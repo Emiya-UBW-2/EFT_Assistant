@@ -1,6 +1,11 @@
+IDstr=622b3858034a3e17ad0b81f5
 Name=HK G36 5.56x45 318mm barrel
 ShortName=G36 318mm
 Itemtype=Barrel
+Conflict=[
+	HK G36 2-vent handguard,
+	HK G36 6-vent handguard,
+]
 Recoil=-3.000000
 Ergonomics=-12.000000
 Information_Eng=A 318mm 5.56x45 NATO barrel for the HK G36 assault rifle.

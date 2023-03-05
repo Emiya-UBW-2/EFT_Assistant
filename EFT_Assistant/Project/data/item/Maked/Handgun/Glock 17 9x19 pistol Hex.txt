@@ -1,3 +1,4 @@
+IDstr=5a88b0f686f77416370eca3e
 Name=Glock 17 9x19 pistol Hex
 ShortName=Glock 17 Hex
 Itemtype=Handgun

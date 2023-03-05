@@ -1,3 +1,4 @@
+IDstr=57ee59b42459771c7b045da5
 Name=PP-91 "Kedr" Rotor 43 RIS mount
 ShortName=PP91 RIS
 Itemtype=Mount
@@ -24,7 +25,7 @@ Information_Eng=A RIS mount for PP-91 Kedr SMG, manufactured by Rotor 43.
 basePrice=3823
 width=1
 height=1
-avg24hPrice=18051
+avg24hPrice=18627
 low24hPrice=7000
 lastOfferCount=9
 Sell_Prapor=1911

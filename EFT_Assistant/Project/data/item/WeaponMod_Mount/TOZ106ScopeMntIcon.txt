@@ -1,8 +1,14 @@
+IDstr=5c61627a2e22160012542c55
 Name=TOZ-106 rail scope mount
 ShortName=106 mount
 Itemtype=Mount
 Conflict=[
-	AK CNC Guns OV GP handguard,
+	Axion Kobra EKP-8-02 reflex sight (Dovetail),
+	OKP-7 reflex sight (Dovetail),
+	BelOMO PSO-1M2-1 4x24 scope,
+	NSPU-M night vision scope,
+	Axion Kobra dovetail mount,
+	VOMZ Pilad 043-02 dovetail mount
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -10,15 +16,15 @@ Information_Eng=A universal Weaver rail mount for TOZ-106. Provides a rail that 
 basePrice=2300
 width=1
 height=1
-avg24hPrice=16061
+avg24hPrice=15980
 low24hPrice=5000
-lastOfferCount=6
+lastOfferCount=7
 Sell_Prapor=1150
 Sell_Fence=920
 Sell_Skier=1127
 Sell_Peacekeeper=9
 Sell_Mechanic=1288
 Sell_Jaeger=1380
-Sell_Flea Market=8000
+Sell_Flea Market=6000
 weight=0.070000
-fleaMarketFee=1019
+fleaMarketFee=662

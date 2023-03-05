@@ -1,3 +1,4 @@
+IDstr=5ba3a14cd4351e003202017f
 Name=Kalashnikov AKMS 7.62x39 assault rifle (AKMSB 6P4M)
 ShortName=AKMS (AKMSB 6P4M)
 Itemtype=Assault rifle

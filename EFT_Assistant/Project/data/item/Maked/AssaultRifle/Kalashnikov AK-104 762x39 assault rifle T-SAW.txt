@@ -1,3 +1,4 @@
+IDstr=5dd800bde492226366631317
 Name=Kalashnikov AK-104 7.62x39 assault rifle T-SAW
 ShortName=AK-104 T-SAW
 Itemtype=Assault rifle

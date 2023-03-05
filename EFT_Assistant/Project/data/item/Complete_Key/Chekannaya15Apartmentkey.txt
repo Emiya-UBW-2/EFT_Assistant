@@ -1,3 +1,4 @@
+IDstr=63a39fc0af870e651d58e6ae
 Name=Chekannaya 15 apartment key
 ShortName=Chek 15
 Itemtype=Mechanical Key

@@ -1,3 +1,4 @@
+IDstr=5b2cfa535acfc432ff4db7a0
 Name=AR-15 Alexander Arms MK10 rifle length handguard
 ShortName=MK10 RL
 Itemtype=Handguard
@@ -7,12 +8,7 @@ ChildParts=[
 ]
 Conflict=[
 	M4A1 front sight with gas block,
-	AR-15 Windham Weaponry Rail Gas Block,
-	STM-9 9x19 10.5 inch barrel,
-	STM-9 9x19 12 inch barrel,
-	STM-9 9x19 16 inch barrel,
-	AR-10 JP Enterprises Gas System-6,
-	M203 40mm underbarrel grenade launcher,
+	AR-15 Windham Weaponry Rail Gas Block
 ]
 Recoil=-3.000000
 Ergonomics=8.000000
@@ -20,14 +16,14 @@ Information_Eng=The MK10 lightweight handguard system manufactured by Alexander 
 basePrice=17945
 width=2
 height=1
-avg24hPrice=22416
+avg24hPrice=23007
 low24hPrice=15000
-lastOfferCount=14
+lastOfferCount=26
 Sell_Prapor=8972
 Sell_Fence=7178
 Sell_Skier=8793
 Sell_Peacekeeper=70
 Sell_Mechanic=10049
-Sell_Flea Market=20000
+Sell_Flea Market=19000
 weight=0.380000
-fleaMarketFee=1851
+fleaMarketFee=1776

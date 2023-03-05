@@ -1,3 +1,4 @@
+IDstr=5672cb724bdc2dc2088b456b
 Name=Geiger-Muller counter
 ShortName=GMcount
 Itemtype=Electronics
@@ -7,9 +8,9 @@ Information_Eng=A gas discharge device for an automatic count of detected ionizi
 basePrice=16684
 width=1
 height=2
-avg24hPrice=20190
-low24hPrice=15999
-lastOfferCount=58
+avg24hPrice=20730
+low24hPrice=16500
+lastOfferCount=409
 Sell_Therapist=10510
 Sell_Fence=6673
 Sell_Skier=8175

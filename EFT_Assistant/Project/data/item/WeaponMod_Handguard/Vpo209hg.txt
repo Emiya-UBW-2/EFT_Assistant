@@ -1,3 +1,4 @@
+IDstr=59e898ee86f77427614bd225
 Name=VPO-209 wooden handguard
 ShortName=VPO209
 Itemtype=Handguard

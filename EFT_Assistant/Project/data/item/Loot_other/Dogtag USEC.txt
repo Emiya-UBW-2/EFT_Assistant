@@ -1,3 +1,4 @@
+IDstr=59f32c3b86f77472a31742f0
 Name=Dogtag USEC
 ShortName=USEC
 Itemtype=Other

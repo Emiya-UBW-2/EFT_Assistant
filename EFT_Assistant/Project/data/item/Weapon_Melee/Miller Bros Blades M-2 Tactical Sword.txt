@@ -1,3 +1,4 @@
+IDstr=5bffdd7e0db834001b734a1a
 Name=Miller Bros. Blades M-2 Tactical Sword
 ShortName=M-2
 Itemtype=Knife

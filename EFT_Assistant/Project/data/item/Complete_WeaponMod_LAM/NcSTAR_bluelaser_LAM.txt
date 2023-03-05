@@ -1,3 +1,4 @@
+IDstr=5cc9c20cd7f00c001336c65d
 Name=NcSTAR Tactical blue laser LAM-module
 ShortName=TBL
 Itemtype=Comb. tact. device

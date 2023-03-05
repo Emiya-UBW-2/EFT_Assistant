@@ -1,3 +1,4 @@
+IDstr=560836fb4bdc2d773f8b4569
 Name=MP-133 12ga 660mm barrel
 ShortName=MP133 660mm
 Itemtype=Barrel

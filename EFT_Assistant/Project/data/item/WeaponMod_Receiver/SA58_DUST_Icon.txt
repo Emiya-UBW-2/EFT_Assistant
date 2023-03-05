@@ -1,3 +1,4 @@
+IDstr=5b099bb25acfc400186331e8
 Name=SA-58 Extreme Duty dust cover
 ShortName=SA58 ED
 Itemtype=Receiver
@@ -7,8 +8,8 @@ Information_Eng=The Extreme Duty dust cover with an integrated Picatinny rail fo
 basePrice=11568
 width=2
 height=1
-avg24hPrice=33092
-low24hPrice=20000
+avg24hPrice=48571
+low24hPrice=24800
 lastOfferCount=1
 Sell_Prapor=5784
 Sell_Fence=4627

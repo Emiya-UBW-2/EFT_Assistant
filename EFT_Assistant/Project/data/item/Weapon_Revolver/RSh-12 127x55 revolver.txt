@@ -1,20 +1,25 @@
+IDstr=633ec7c2a6918cb895019c6c
 Name=RSh-12 12.7x55 revolver
 ShortName=RSh-12
 Itemtype=Revolver
+Conflict=[
+	March Tactical 3-24x42 FFP 30mm riflescope,
+	Leupold Mark 4 LR 6.5-20x50 30mm riflescope
+]
 Recoil=0.000000
 Ergonomics=40.000000
 Information_Eng=The powerful RSh-12 (Revolver Shturmovoy 12 - "Assault Revolver 12") revolver, manufactured by KBP Instrument Design Bureau, designed for use by special forces. Despite the powerful 12.7x55 mm caliber, RSh-12 has less recoil than many other large-caliber revolvers and pistols, since the shot is fired from the bottom chamber of the cylinder.
 basePrice=30443
 width=2
 height=1
-avg24hPrice=66666
+avg24hPrice=66523
 low24hPrice=53000
-lastOfferCount=29
+lastOfferCount=46
 Sell_Prapor=15221
 Sell_Fence=12177
 Sell_Skier=14917
 Sell_Peacekeeper=119
 Sell_Mechanic=17048
-Sell_Flea Market=65000
+Sell_Flea Market=59000
 weight=1.860000
-fleaMarketFee=6598
+fleaMarketFee=5792

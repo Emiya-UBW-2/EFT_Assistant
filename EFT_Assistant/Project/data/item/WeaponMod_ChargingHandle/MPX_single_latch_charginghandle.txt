@@ -1,3 +1,4 @@
+IDstr=58949fac86f77409483e16aa
 Name=MPX single latch charging handle
 ShortName=MPX 1x
 Itemtype=Charging handle

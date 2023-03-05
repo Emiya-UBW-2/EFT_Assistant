@@ -1,3 +1,4 @@
+IDstr=5b44cad286f77402a54ae7e5
 Name=5.11 Tactical TacTec plate carrier
 ShortName=TacTec
 Itemtype=Chest rig

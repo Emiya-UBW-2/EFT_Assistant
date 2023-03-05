@@ -1,3 +1,4 @@
+IDstr=5ba2678ad4351e44f824b344
 Name=4.6x30mm FMJ SX
 ShortName=FMJ SX
 Itemtype=Ammo
@@ -7,7 +8,7 @@ Information_Eng=A 4.6x30mm HK FMJ SX cartridge with a 2.6 gram lead-antimony all
 basePrice=124
 width=1
 height=1
-avg24hPrice=1979
+avg24hPrice=1699
 low24hPrice=888
 lastOfferCount=1
 Sell_Prapor=62

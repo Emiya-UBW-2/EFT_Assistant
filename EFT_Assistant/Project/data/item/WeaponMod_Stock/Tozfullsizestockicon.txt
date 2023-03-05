@@ -1,3 +1,4 @@
+IDstr=5adf23995acfc400185c2aeb
 Name=MTs 20-01 stock
 ShortName=MTs 20-01
 Itemtype=Stock

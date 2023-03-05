@@ -1,3 +1,4 @@
+IDstr=5df8a4d786f77412672a1e3b
 Name=6Sh118 raid backpack
 ShortName=6Sh118
 Itemtype=Backpack

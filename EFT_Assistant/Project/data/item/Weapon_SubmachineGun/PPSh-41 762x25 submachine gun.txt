@@ -1,3 +1,4 @@
+IDstr=5ea03f7400685063ec28bfa8
 Name=PPSh-41 7.62x25 submachine gun
 ShortName=PPSh41
 Itemtype=SMG
@@ -7,7 +8,7 @@ Information_Eng=The PPSh-41 (Pistolet-Pulemyot Shpagina - "Shpagin's submachine 
 basePrice=10251
 width=1
 height=1
-avg24hPrice=32391
+avg24hPrice=32434
 low24hPrice=25000
 lastOfferCount=3
 Sell_Prapor=5125

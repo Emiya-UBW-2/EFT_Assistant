@@ -1,3 +1,4 @@
+IDstr=5ac66d2e5acfc43b321d4b53
 Name=Kalashnikov AK-103 7.62x39 assault rifle
 ShortName=AK-103
 Itemtype=Assault rifle
@@ -118,20 +119,23 @@ ChildParts=[
 ChildParts=[
 	GP-25 "Kostyor" 40mm underbarrel grenade launcher
 ]
+Conflict=[
+	Hera Arms CQR tactical foregrip,
+]
 Recoil=177.000000
 Ergonomics=35.000000
 Information_Eng=The AK-103 7.62x39mm assault rifle is a further modernized version of AK-74M base. AK-103 is equipped with a side-folding shoulder stock and a side mount for optical and night scopes. The 100-series AKs are produced by the Izhmash factories in Izhevsk, Russia.
 basePrice=34311
 width=4
 height=1
-avg24hPrice=32749
-low24hPrice=23900
-lastOfferCount=30
+avg24hPrice=33040
+low24hPrice=25000
+lastOfferCount=17
 Sell_Prapor=17155
 Sell_Fence=13724
 Sell_Skier=16812
 Sell_Peacekeeper=134
 Sell_Mechanic=19214
-Sell_Flea Market=25000
+Sell_Flea Market=31111
 weight=2.392000
-fleaMarketFee=2653
+fleaMarketFee=3017

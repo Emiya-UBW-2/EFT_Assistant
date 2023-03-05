@@ -1,3 +1,4 @@
+IDstr=5938994586f774523a425196
 Name=Dorm room 103 key
 ShortName=Dorm 103
 Itemtype=Mechanical Key
@@ -8,9 +9,9 @@ Information_Eng=A key to the three-story dormitory with a tag reading "103" on i
 basePrice=3712
 width=1
 height=1
-avg24hPrice=6818
+avg24hPrice=5312
 low24hPrice=2000
-lastOfferCount=23
+lastOfferCount=21
 Sell_Prapor=1856
 Sell_Therapist=2338
 Sell_Flea Market=4000

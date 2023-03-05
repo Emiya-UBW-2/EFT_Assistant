@@ -1,3 +1,4 @@
+IDstr=62389ba9a63f32501b1b4451
 Name=26x75mm flare cartridge (Red)
 ShortName=Red
 Itemtype=Ammo

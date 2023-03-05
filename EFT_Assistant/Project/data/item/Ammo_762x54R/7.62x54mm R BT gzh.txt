@@ -1,3 +1,4 @@
+IDstr=5e023d34e8a400319a28ed44
 Name=7.62x54mm R BT gzh
 ShortName=BT
 Itemtype=Ammo

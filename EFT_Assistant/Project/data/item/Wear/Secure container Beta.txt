@@ -1,3 +1,4 @@
+IDstr=5857a8b324597729ab0a0e7d
 Name=Secure container Beta
 ShortName=Beta
 Itemtype=Port. container

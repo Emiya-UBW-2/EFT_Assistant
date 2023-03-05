@@ -1,3 +1,4 @@
+IDstr=5d23424c86f7740d5e50ce65
 Name=FN P90 5.7x28 submachine gun SBRT
 ShortName=P90 SBRT
 Itemtype=SMG

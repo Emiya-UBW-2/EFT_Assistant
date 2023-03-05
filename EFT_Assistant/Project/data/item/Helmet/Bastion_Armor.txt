@@ -1,19 +1,28 @@
+IDstr=5ea18c84ecf1982c7712d9a2
 Name=Diamond Age Bastion helmet armor plate
 ShortName=Bastion plate
 Itemtype=Armored equipment
+Conflict=[
+	Ops-Core FAST Gunsight Mandible,
+	Ops-Core FAST Visor,
+	Ops-Core FAST multi-hit ballistic face shield,
+	ZSh-1-2M face shield,
+	Ops-Core SLAAP armor helmet plate (Tan),
+	Team Wendy EXFIL Ballistic face shield (Black)
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=An optional modular ballistic protection for the Diamond Age Bastion helmet.
 basePrice=110300
 width=2
 height=1
-avg24hPrice=178502
-low24hPrice=129500
-lastOfferCount=41
+avg24hPrice=174853
+low24hPrice=116666
+lastOfferCount=62
 Sell_Fence=44120
 Sell_Skier=54047
 Sell_Peacekeeper=432
 Sell_Ragman=68386
-Sell_Flea Market=153333
+Sell_Flea Market=158888
 weight=0.990000
-fleaMarketFee=14068
+fleaMarketFee=14623

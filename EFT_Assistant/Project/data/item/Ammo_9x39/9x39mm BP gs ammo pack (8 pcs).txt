@@ -1,3 +1,4 @@
+IDstr=5c1260dc86f7746b106e8748
 Name=9x39mm BP gs ammo pack (8 pcs)
 ShortName=BP
 Itemtype=Ammo container

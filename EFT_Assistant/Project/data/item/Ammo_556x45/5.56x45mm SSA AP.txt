@@ -1,3 +1,4 @@
+IDstr=601949593ae8f707c4608daa
 Name=5.56x45mm SSA AP
 ShortName=SSA AP
 Itemtype=Ammo

@@ -1,19 +1,23 @@
+IDstr=5b40e4035acfc47a87740943
 Name=HighCom Striker ACHHC IIIA helmet (Olive)
 ShortName=ACHHC
 Itemtype=Headwear
+Conflict=[
+	Faceless mask,
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A combat helmet manufactured by HighCom, the High Cut version. Does not feature any additional mounts. Olive version.
 basePrice=52577
 width=2
 height=2
-avg24hPrice=63765
-low24hPrice=53000
-lastOfferCount=26
+avg24hPrice=62365
+low24hPrice=48000
+lastOfferCount=27
 Sell_Fence=21030
 Sell_Skier=25762
 Sell_Peacekeeper=206
 Sell_Ragman=32597
-Sell_Flea Market=53000
+Sell_Flea Market=48000
 weight=1.500000
-fleaMarketFee=5021
+fleaMarketFee=4646

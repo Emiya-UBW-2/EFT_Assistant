@@ -1,19 +1,27 @@
+IDstr=5aa2ba46e5b5b000137b758d
 Name=UX PRO beanie
 ShortName=UXPRO
 Itemtype=Headwear
+Conflict=[
+	Faceless mask,
+	Ghoul mask,
+	GP-5 gas mask,
+	Pestily plague mask,
+	GP-7 gas mask,
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=The warm and comfortable UX PRO beanie. For you, only for you. And that guy, too.
 basePrice=2043
 width=1
 height=1
-avg24hPrice=37044
-low24hPrice=10101
-lastOfferCount=4
+avg24hPrice=41378
+low24hPrice=19000
+lastOfferCount=15
 Sell_Fence=817
 Sell_Skier=1001
 Sell_Peacekeeper=8
 Sell_Ragman=1266
-Sell_Flea Market=19000
+Sell_Flea Market=37999
 weight=0.100000
-fleaMarketFee=4369
+fleaMarketFee=13720

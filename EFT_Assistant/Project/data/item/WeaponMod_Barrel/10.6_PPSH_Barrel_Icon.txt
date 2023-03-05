@@ -1,3 +1,4 @@
+IDstr=5ea02bb600685063ec28bfa1
 Name=PPSh-41 7.62x25 10.6 inch barrel
 ShortName=PPSh41 10.6"
 Itemtype=Barrel

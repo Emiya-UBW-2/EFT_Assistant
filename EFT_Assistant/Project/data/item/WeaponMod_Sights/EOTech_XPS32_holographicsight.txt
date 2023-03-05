@@ -1,21 +1,37 @@
+IDstr=584924ec24597768f12ae244
 Name=EOTech XPS3-2 holographic sight
 ShortName=XPS3-2
 Itemtype=Reflex sight
 SightRange=400
+Conflict=[
+	AR-15 rear sight carry handle,
+	Burris FullField TAC30 1-4x24 30mm riflescope,
+	EOTech Vudu 1-6x24 30mm riflescope,
+	Hensoldt FF 4-16x56 34mm riflescope,
+	KMZ 1P59 3-10x riflescope,
+	KMZ 1P69 3-10x riflescope,
+	Leupold Mark 4 LR 6.5-20x50 30mm riflescope,
+	March Tactical 3-24x42 FFP 30mm riflescope,
+	Mosin Rifle carbine rear sight,
+	Nightforce ATACR 7-35x56 34mm riflescope,
+	NSPU-M night vision scope,
+	VOMZ Pilad 4x32 24.5mm riflescope,
+	Vortex Razor HD Gen.2 1-6x24 30mm riflescope,
+]
 Recoil=0.000000
 Ergonomics=-2.000000
 Information_Eng=XPS3 is more compact than the other holographic sights, but just as effective; moreover, such approach leaves more mounting space for additional equipment. Both hunters and armed forces operatives value it for small size and weight, which are particularly noticeable over long missions. The model 3-2 features a two-dot reticle of 1 MOA.
 basePrice=23019
 width=1
 height=1
-avg24hPrice=39295
-low24hPrice=30000
-lastOfferCount=42
+avg24hPrice=38726
+low24hPrice=29800
+lastOfferCount=30
 Sell_Prapor=11509
 Sell_Fence=9207
 Sell_Skier=11279
 Sell_Peacekeeper=90
 Sell_Mechanic=12890
-Sell_Flea Market=39000
+Sell_Flea Market=29800
 weight=0.255000
-fleaMarketFee=3689
+fleaMarketFee=2727

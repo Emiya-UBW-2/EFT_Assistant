@@ -1,3 +1,4 @@
+IDstr=5d270b3c8abbc3105335cfb8
 Name=M700 thread protection cap
 ShortName=M700 cap
 Itemtype=Comb. muzzle device

@@ -1,3 +1,4 @@
+IDstr=5649ad3f4bdc2df8348b4585
 Name=AK bakelite pistol grip (6P1 Sb.8V)
 ShortName=6P1 Sb.8V
 Itemtype=Pistol grip

@@ -1,3 +1,4 @@
+IDstr=5efaf417aeb21837e749c7f2
 Name=AK Zenit B-30 handguard with B-31S upper handguard rail
 ShortName=B-30+B-31S
 Itemtype=Handguard
@@ -87,13 +88,16 @@ ChildParts=[
 	Zenit Perst-3 tactical device,
 	Kiba Arms 25mm accessory ring mount
 ]
+Conflict=[
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
+]
 Recoil=-3.000000
 Ergonomics=7.000000
 Information_Eng=The all-milled B-30 handguard is made of D16T aluminum alloy with a black coating, it is intended for installing on the AK assault rifle series 103, 104, 105, 74S, 74M, AKM, AKMS in the standard place of the handguard. The B-31S rail mount above the gas tube is an all-milled bracket made of D16T aluminum alloy with a black coating, mounted on the B-30 handguard. © «Zenit»
 basePrice=18327
 width=2
 height=1
-avg24hPrice=99221
+avg24hPrice=106396
 low24hPrice=49000
 lastOfferCount=0
 Sell_Prapor=9163
@@ -101,6 +105,6 @@ Sell_Fence=7330
 Sell_Skier=8980
 Sell_Peacekeeper=72
 Sell_Mechanic=10263
-Sell_Flea Market=100000
+Sell_Flea Market=90000
 weight=0.390000
-fleaMarketFee=16491
+fleaMarketFee=13936

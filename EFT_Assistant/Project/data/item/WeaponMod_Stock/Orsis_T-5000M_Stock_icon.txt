@@ -1,3 +1,4 @@
+IDstr=5df35ddddfc58d14537c2036
 Name=ORSIS T-5000M stock
 ShortName=T-5000M
 Itemtype=Stock

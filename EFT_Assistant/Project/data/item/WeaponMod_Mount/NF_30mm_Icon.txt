@@ -1,3 +1,4 @@
+IDstr=5b3b99265acfc4704b4a1afb
 Name=Nightforce Magmount 30mm ring scope mount
 ShortName=NF 30mm
 Itemtype=Mount
@@ -9,21 +10,30 @@ ChildParts=[
 	Vortex Razor HD Gen.2 1-6x24 30mm riflescope,
 	Schmidt & Bender PM II 1-8x24 30mm riflescope
 ]
+Conflict=[
+	AR-15 Colt A2 rear sight,
+	AR-15 rear sight carry handle,
+	HK G36 front sight,
+	HK G36 rear sight,
+	HK MP5 Drum rear sight,
+	RPK-16 rear sight base,
+	SV-98 rear sight,
+]
 Recoil=0.000000
 Ergonomics=-1.000000
 Information_Eng=Nightforce X-Treme Duty Ultralite one piece Magmount is a universal 30mm scope base mount for installation on Picatinny rails.
 basePrice=6012
 width=2
 height=1
-avg24hPrice=44416
-low24hPrice=19400
-lastOfferCount=15
+avg24hPrice=47298
+low24hPrice=34000
+lastOfferCount=23
 Sell_Prapor=3006
 Sell_Fence=2404
 Sell_Skier=2945
 Sell_Peacekeeper=24
 Sell_Mechanic=3366
 Sell_Jaeger=3607
-Sell_Flea Market=50000
+Sell_Flea Market=35111
 weight=0.190000
-fleaMarketFee=10708
+fleaMarketFee=6034

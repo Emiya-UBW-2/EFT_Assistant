@@ -1,3 +1,4 @@
+IDstr=5737256c2459776125652acd
 Name=9x18mm PMM PstM gzh ammo pack (16 pcs)
 ShortName=PstM
 Itemtype=Ammo container

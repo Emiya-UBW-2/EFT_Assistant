@@ -1,3 +1,4 @@
+IDstr=62ebba1fb658e07ef9082b5a
 Name=Steyr AUG A3 M1 low sight mount
 ShortName=A3M1 low
 Itemtype=Mount

@@ -1,3 +1,4 @@
+IDstr=5cf12a15d7f00c05464b293f
 Name=M700 7.62x51 ProMag AA-70 20-round magazine
 ShortName=AA-70
 Itemtype=Magazine
@@ -6,6 +7,7 @@ Conflict=[
 	M700 Hogue Overmolded Ghillie stock,
 	M700 AB Arms MOD*X GEN 3 chassis,
 	M700 Magpul Pro 700 chassis,
+	ORSIS T-5000M aluminium body,
 ]
 Recoil=0.000000
 Ergonomics=-7.000000
@@ -13,14 +15,14 @@ Information_Eng=A Remington M700 sniper rifle magazine by ProMag, for the Archan
 basePrice=6240
 width=1
 height=2
-avg24hPrice=28015
+avg24hPrice=27469
 low24hPrice=17999
-lastOfferCount=6
+lastOfferCount=4
 Sell_Prapor=3120
 Sell_Fence=2496
 Sell_Skier=3057
 Sell_Peacekeeper=24
 Sell_Mechanic=3494
-Sell_Flea Market=24987
+Sell_Flea Market=25111
 weight=0.500000
-fleaMarketFee=3438
+fleaMarketFee=3465

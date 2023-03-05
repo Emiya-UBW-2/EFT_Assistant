@@ -1,3 +1,4 @@
+IDstr=5c0672ed0db834001b7353f3
 Name=PP-19-01 "Vityaz" 9x19 PUFGUN SG-919 30 30-round magazine
 ShortName=SG-919
 Itemtype=Magazine
@@ -7,7 +8,7 @@ Information_Eng=The PUFGUN SG-919 30 magazine for PP-19-01 Vityaz 9x19 with a 30
 basePrice=3350
 width=1
 height=2
-avg24hPrice=9326
+avg24hPrice=9170
 low24hPrice=2500
 lastOfferCount=0
 Sell_Prapor=1675

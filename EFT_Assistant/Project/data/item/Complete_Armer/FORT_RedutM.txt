@@ -1,3 +1,4 @@
+IDstr=5ca2151486f774244a3b8d30
 Name=FORT Redut-M body armor
 ShortName=Redut-M
 Itemtype=Armor

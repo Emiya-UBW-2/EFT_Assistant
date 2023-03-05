@@ -1,3 +1,4 @@
+IDstr=59fb042886f7746c5005a7b2
 Name=Item case
 ShortName=Items
 Itemtype=Common container

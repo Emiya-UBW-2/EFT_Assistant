@@ -1,3 +1,4 @@
+IDstr=61a4cda622af7f4f6a3ce617
 Name=Chiappa Rhino .357 6-round speedloader
 ShortName=CR load
 Itemtype=Cylinder Magazine

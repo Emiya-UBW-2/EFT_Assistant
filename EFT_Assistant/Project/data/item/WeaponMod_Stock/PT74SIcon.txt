@@ -1,3 +1,4 @@
+IDstr=59ecc28286f7746d7a68aa8c
 Name=AKS-74/AKS-74U Zenit PT Lock
 ShortName=PT 74S
 Itemtype=Stock
@@ -5,21 +6,24 @@ ChildParts=[
 	AK Zenit PT-1 "Klassika" stock,
 	AK Zenit PT-3 "Klassika" stock
 ]
+Conflict=[
+	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock,
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=The lock is designed to install the PT-1 and PT-3 stocks to a weapon. This model is designed for installation on the AKS-74 and AKS-74U folding assault rifles. Manufactured by Zenit.
 basePrice=3228
 width=1
 height=1
-avg24hPrice=24542
+avg24hPrice=31335
 low24hPrice=13800
-lastOfferCount=13
+lastOfferCount=8
 Sell_Prapor=1614
 Sell_Fence=1291
 Sell_Skier=1581
 Sell_Peacekeeper=13
 Sell_Mechanic=1807
 Sell_Jaeger=1936
-Sell_Flea Market=20000
+Sell_Flea Market=60000
 weight=0.310000
-fleaMarketFee=3564
+fleaMarketFee=21655

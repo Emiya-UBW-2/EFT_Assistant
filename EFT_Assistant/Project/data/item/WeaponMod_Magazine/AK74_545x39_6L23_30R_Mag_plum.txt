@@ -1,3 +1,4 @@
+IDstr=5cbdaf89ae9215000e5b9c94
 Name=AK-74 5.45x39 6L23 "Plum" 30-round magazine
 ShortName=6L23
 Itemtype=Magazine
@@ -7,7 +8,7 @@ Information_Eng=A 30-round 5.45x39 polymer Izhmash 6L23 magazine for AK-74 and c
 basePrice=2100
 width=1
 height=2
-avg24hPrice=7960
+avg24hPrice=8075
 low24hPrice=3000
 lastOfferCount=5
 Sell_Prapor=1050

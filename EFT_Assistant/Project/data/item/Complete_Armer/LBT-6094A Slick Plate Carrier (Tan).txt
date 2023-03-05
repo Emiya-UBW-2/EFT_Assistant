@@ -1,3 +1,4 @@
+IDstr=6038b4b292ec1c3103795a0b
 Name=LBT-6094A Slick Plate Carrier (Tan)
 ShortName=Slick
 Itemtype=Armor

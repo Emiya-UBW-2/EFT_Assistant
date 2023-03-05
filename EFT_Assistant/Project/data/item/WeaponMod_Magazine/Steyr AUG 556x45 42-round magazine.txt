@@ -1,3 +1,4 @@
+IDstr=630e295c984633f1fb0e7c30
 Name=Steyr AUG 5.56x45 42-round magazine
 ShortName=AUG
 Itemtype=Magazine
@@ -7,8 +8,8 @@ Information_Eng=A 42-round polymer Steyr AUG magazine, for 5.56x45 ammunition.
 basePrice=8113
 width=1
 height=3
-avg24hPrice=23245
-low24hPrice=11998
+avg24hPrice=23888
+low24hPrice=16000
 lastOfferCount=14
 Sell_Prapor=4056
 Sell_Fence=3245

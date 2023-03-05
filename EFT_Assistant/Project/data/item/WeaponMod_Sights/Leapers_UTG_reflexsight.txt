@@ -1,21 +1,25 @@
+IDstr=6165ac8c290d254f5e6b2f6c
 Name=Leapers UTG reflex sight
 ShortName=UTG
 Itemtype=Reflex sight
 SightRange=300
+Conflict=[
+	AR-15 rear sight carry handle,
+]
 Recoil=0.000000
 Ergonomics=-3.000000
 Information_Eng=The UTG reflex sight with a Red/Green circle dot, manufactured by Leapers Inc. This model is a compact, small-size reflex sight, which mounts on Weaver/Picatinny rails.
 basePrice=12200
 width=1
 height=1
-avg24hPrice=13328
+avg24hPrice=13552
 low24hPrice=9999
-lastOfferCount=14
+lastOfferCount=3
 Sell_Prapor=6100
 Sell_Fence=4880
 Sell_Skier=5978
 Sell_Peacekeeper=48
 Sell_Mechanic=6832
-Sell_Flea Market=9999
+Sell_Flea Market=13000
 weight=0.227000
-fleaMarketFee=1003
+fleaMarketFee=1214

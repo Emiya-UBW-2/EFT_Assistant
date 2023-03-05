@@ -1,3 +1,4 @@
+IDstr=5a33e75ac4a2826c6e06d759
 Name=AR-15 Hera Arms CQR pistol grip/buttstock
 ShortName=CQR AR15
 Itemtype=Stock
@@ -12,6 +13,7 @@ Conflict=[
 	FAB Defense GLR-16-S stock,
 	High Standard M4SS Stock,
 	AR-15 HK E1 buttstock,
+	HK Enhanced Tube buffer tube,
 	AR-15 HK Slim Line buttstock,
 	AK-12 stock,
 	KRISS Defiance DS150 stock (Black),
@@ -27,7 +29,6 @@ Conflict=[
 	Magpul PRS GEN2 stock (FDE),
 	Magpul PRS GEN3 stock (Black),
 	Magpul PRS GEN3 stock (Grey),
-	Magpul MOE Carbine rubber buttpad,
 	Magpul UBR GEN2 stock (Black),
 	Magpul UBR GEN2 stock (FDE),
 	MFT BUS stock,
@@ -35,7 +36,8 @@ Conflict=[
 	TROY M7A1 PDW stock (Black),
 	TROY M7A1 PDW stock (FDE),
 	Vltor EMOD stock,
-	HK Enhanced Tube buffer tube,
+	SB Tactical SBA3 brace,
+	Strike Industries Viper PDW stock
 ]
 Recoil=-33.000000
 Ergonomics=20.000000
@@ -43,15 +45,15 @@ Information_Eng=Designed for the cilvilian market as well as for military use, t
 basePrice=38263
 width=2
 height=1
-avg24hPrice=25132
+avg24hPrice=25350
 low24hPrice=18888
-lastOfferCount=33
+lastOfferCount=15
 Sell_Prapor=19131
 Sell_Fence=15305
 Sell_Skier=18748
 Sell_Peacekeeper=150
 Sell_Mechanic=21427
 Sell_Jaeger=22957
-Sell_Flea Market=19500
+Sell_Flea Market=20000
 weight=0.499000
-fleaMarketFee=2714
+fleaMarketFee=2718

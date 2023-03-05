@@ -1,3 +1,4 @@
+IDstr=5c0e2ff6d174af02a1659d4a
 Name=AR-15 ADAR 2-15 wooden stock
 ShortName=ADAR wood
 Itemtype=Stock
@@ -35,6 +36,8 @@ Conflict=[
 	TROY M7A1 PDW stock (Black),
 	TROY M7A1 PDW stock (FDE),
 	Vltor EMOD stock,
+	Strike Industries Viper PDW stock,
+	SB Tactical SBA3 brace
 ]
 Recoil=-28.000000
 Ergonomics=13.000000

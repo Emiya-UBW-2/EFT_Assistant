@@ -1,21 +1,27 @@
+IDstr=6194eff92d2c397d6600348b
 Name=HK USP Expert .45 ACP barrel
 ShortName=USP45EX
 Itemtype=Barrel
+Conflict=[
+	HK USP .45 ACP Elite compensator,
+	HK USP .45 ACP Match compensator,
+	HK USP Elite .45 ACP pistol slide,
+]
 Recoil=-2.500000
 Ergonomics=-4.000000
 Information_Eng=A 132mm barrel for the special version of the USP pistol - USP Expert, chambered in .45 ACP. Manufactured by Heckler & Koch.
 basePrice=3600
 width=1
 height=1
-avg24hPrice=18292
+avg24hPrice=18084
 low24hPrice=8750
-lastOfferCount=9
+lastOfferCount=6
 Sell_Prapor=1800
 Sell_Fence=1440
 Sell_Skier=1764
 Sell_Peacekeeper=14
 Sell_Mechanic=2016
 Sell_Jaeger=2160
-Sell_Flea Market=11000
+Sell_Flea Market=12888
 weight=0.141000
-fleaMarketFee=1309
+fleaMarketFee=1667

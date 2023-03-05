@@ -1,3 +1,4 @@
+IDstr=5cebec38d7f00c00110a652a
 Name=FN P90 Ring Sight reflex sight
 ShortName=Ring Sight
 Itemtype=Reflex sight
@@ -8,9 +9,9 @@ Information_Eng=Ring Sight is a reflex sight for the P90 SMG, manufactured by Fa
 basePrice=15500
 width=1
 height=1
-avg24hPrice=16079
+avg24hPrice=16247
 low24hPrice=8000
-lastOfferCount=3
+lastOfferCount=6
 Sell_Prapor=7750
 Sell_Fence=6200
 Sell_Skier=7595

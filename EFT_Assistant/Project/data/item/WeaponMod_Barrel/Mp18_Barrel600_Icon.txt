@@ -1,3 +1,4 @@
+IDstr=61f4012adfc9f01a816adda1
 Name=MP-18 7.62x54R 600mm barrel
 ShortName=MP18 600mm
 Itemtype=Barrel

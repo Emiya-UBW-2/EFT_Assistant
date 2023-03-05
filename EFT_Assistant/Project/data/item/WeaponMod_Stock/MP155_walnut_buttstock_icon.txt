@@ -1,3 +1,4 @@
+IDstr=607d5a891246154cad35d6aa
 Name=MP-155 walnut stock
 ShortName=155 walnut
 Itemtype=Stock

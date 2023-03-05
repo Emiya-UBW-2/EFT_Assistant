@@ -1,3 +1,4 @@
+IDstr=5c48a14f2e2216152006edd7
 Name=MDR handguard (FDE)
 ShortName=MDR
 Itemtype=Handguard
@@ -7,7 +8,7 @@ Information_Eng=A standard-issue handguard for MDR assault rifles, manufactured 
 basePrice=8665
 width=2
 height=1
-avg24hPrice=655970
+avg24hPrice=666665
 low24hPrice=80000
 lastOfferCount=1
 Sell_Prapor=4332

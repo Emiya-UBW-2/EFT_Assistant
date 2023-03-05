@@ -1,20 +1,24 @@
+IDstr=5b057b4f5acfc4771e1bd3e9
 Name=Stark SE-5 Express Forward foregrip
 ShortName=SE-5
 Itemtype=Foregrip
+Conflict=[
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
+]
 Recoil=-2.000000
 Ergonomics=8.000000
 Information_Eng=The Stark SE-5 Express Forward tactical grip enables a more natural grip against the barrel axis. Thanks to that, it reduces recoil and improves the weapon control.
 basePrice=13604
 width=1
 height=1
-avg24hPrice=67717
-low24hPrice=43000
-lastOfferCount=11
+avg24hPrice=68877
+low24hPrice=44444
+lastOfferCount=53
 Sell_Prapor=6802
 Sell_Fence=5441
 Sell_Skier=6665
 Sell_Peacekeeper=53
 Sell_Mechanic=7618
-Sell_Flea Market=71000
+Sell_Flea Market=44444
 weight=0.090000
-fleaMarketFee=11399
+fleaMarketFee=5475

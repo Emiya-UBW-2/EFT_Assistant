@@ -1,19 +1,23 @@
+IDstr=5e54f76986f7740366043752
 Name=Shroud half-mask
 ShortName=Shroud
 Itemtype=Face Cover
+Conflict=[
+	Tac-Kek Heavy Trooper mask for Ops-Core-type helmets,
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=An extremely stylish half mask with the Shroud logo. All the Tarkov street guys know who he is.
 basePrice=42000
 width=1
 height=1
-avg24hPrice=26659
+avg24hPrice=26621
 low24hPrice=21899
-lastOfferCount=20
+lastOfferCount=22
 Sell_Fence=16800
 Sell_Skier=20580
 Sell_Peacekeeper=164
 Sell_Ragman=26040
-Sell_Flea Market=26499
+Sell_Flea Market=24000
 weight=0.100000
-fleaMarketFee=3081
+fleaMarketFee=3014

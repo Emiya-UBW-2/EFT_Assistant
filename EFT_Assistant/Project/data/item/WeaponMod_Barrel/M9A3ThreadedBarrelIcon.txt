@@ -1,3 +1,4 @@
+IDstr=5cadc1c6ae9215000f2775a4
 Name=M9A3 9x19 threaded barrel
 ShortName=M9A3 thr.
 Itemtype=Barrel

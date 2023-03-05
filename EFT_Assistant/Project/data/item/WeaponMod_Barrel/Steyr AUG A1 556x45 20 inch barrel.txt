@@ -1,3 +1,4 @@
+IDstr=62e7c7f3c34ea971710c32fc
 Name=Steyr AUG A1 5.56x45 20 inch barrel
 ShortName=A1 20"
 Itemtype=Barrel

@@ -1,3 +1,4 @@
+IDstr=5abcbb20d8ce87001773e258
 Name=M14 SA Enlarged Military Aperture rear sight
 ShortName=M14 RS
 Itemtype=Ironsight

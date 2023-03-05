@@ -1,3 +1,4 @@
+IDstr=5ae30db85acfc408fb139a05
 Name=AR-15 Colt M4 Carbine Length handguard
 ShortName=M4 Carbine
 Itemtype=Handguard
@@ -8,6 +9,7 @@ Conflict=[
 	AR-15 5.56x45 18 inch barrel,
 	AR-15 5.56x45 20 inch barrel,
 	AR-15 5.56x45 Molot Arms 406mm barrel,
+	Mk-18 .338 LM 24 inch barrel,
 ]
 Recoil=0.000000
 Ergonomics=2.000000

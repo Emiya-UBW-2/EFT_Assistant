@@ -1,3 +1,4 @@
+IDstr=5d3eb536a4b9363b1f22f8e2
 Name=FN Five-seveN MK2 front sight
 ShortName=5-7 FS
 Itemtype=Ironsight
@@ -8,7 +9,7 @@ Information_Eng=A standard-issue front sight for the FN Five-seveN MK2 pistol, m
 basePrice=800
 width=1
 height=1
-avg24hPrice=15050
+avg24hPrice=10101
 low24hPrice=10101
 lastOfferCount=1
 Sell_Prapor=400

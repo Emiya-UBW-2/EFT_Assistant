@@ -1,3 +1,4 @@
+IDstr=6193d5d4f8ee7e52e4210a1b
 Name=HK USP slide lock
 ShortName=USP SLock
 Itemtype=Auxiliary Mod
@@ -7,7 +8,7 @@ Information_Eng=A standard-issue slide lock lever for the USP pistol, manufactur
 basePrice=500
 width=1
 height=1
-avg24hPrice=7500
+avg24hPrice=7333
 low24hPrice=5000
 lastOfferCount=3
 Sell_Prapor=250

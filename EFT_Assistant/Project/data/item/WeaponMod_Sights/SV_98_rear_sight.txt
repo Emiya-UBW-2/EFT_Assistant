@@ -1,7 +1,19 @@
+IDstr=56083e1b4bdc2dc8488b4572
 Name=SV-98 rear sight
 ShortName=SV98 RS
 Itemtype=Ironsight
 SightRange=500
+Conflict=[
+	Burris AR-P.E.P.R. 30mm ring scope mount,
+	Geissele Super Precision 30mm ring scope mount,
+	Geissele Super Precision 30mm ring scope mount (DDC),
+	JP Enterprises Flat-Top 30mm ring scope mount,
+	LaRue LT101 QD Tactical Picatinny Riser mount,
+	Nightforce Magmount 30mm ring scope mount,
+	Nightforce Magmount 34mm ring scope mount,
+	Nightforce Magmount 34mm ring scope mount with Ruggedized Accessory Platform,
+	Leapers UTG 25mm ring scope mount
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A standard-issue rear sight for the SV-98 sniper rifle, manufactured by Izhmash.

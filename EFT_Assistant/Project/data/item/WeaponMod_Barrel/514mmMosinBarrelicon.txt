@@ -1,21 +1,26 @@
+IDstr=5bfd4cbe0db834001b73449f
 Name=Mosin Carbine 7.62x54R 514mm barrel
 ShortName=Mosin 514mm
 Itemtype=Barrel
+Conflict=[
+	Mosin Rifle Infantry stock,
+	Mosin Rifle standard stock,
+]
 Recoil=-8.000000
 Ergonomics=-8.000000
 Information_Eng=A regular 514mm barrel for the Mosin carbine.
 basePrice=3920
 width=3
 height=1
-avg24hPrice=10999
-low24hPrice=5000
-lastOfferCount=1
+avg24hPrice=11157
+low24hPrice=8000
+lastOfferCount=3
 Sell_Prapor=1960
 Sell_Fence=1568
 Sell_Skier=1920
 Sell_Peacekeeper=15
 Sell_Mechanic=2195
 Sell_Jaeger=2352
-Sell_Flea Market=20000
+Sell_Flea Market=29999
 weight=1.500000
-fleaMarketFee=3168
+fleaMarketFee=6096

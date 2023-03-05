@@ -1,3 +1,4 @@
+IDstr=5c5db6552e2216001026119d
 Name=MPX 9x19 20-round magazine
 ShortName=MPX
 Itemtype=Magazine

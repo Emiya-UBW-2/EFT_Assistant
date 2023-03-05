@@ -1,3 +1,4 @@
+IDstr=5736026a245977644601dc61
 Name=7.62x25mm TT P gl
 ShortName=P
 Itemtype=Ammo

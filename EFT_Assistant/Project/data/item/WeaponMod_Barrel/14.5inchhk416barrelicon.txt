@@ -1,3 +1,4 @@
+IDstr=5bb20d9cd4351e00334c9d8a
 Name=HK 416A5 5.56x45 14.5 inch barrel
 ShortName=416A5 14.5"
 Itemtype=Barrel
@@ -32,7 +33,7 @@ Conflict=[
 	HK 416A5 Quad Rail Extended handguard,
 	HK 416A5 Midwest Industries 13.5 inch M-LOK handguard,
 	HK 416A5 Strike Industries CRUX 15 inch M-LOK handguard,
-	HK 416A5 TROY M-LOK 13 inch handguard,
+	HK 416A5 TROY M-LOK 13 inch handguard
 ]
 Recoil=-3.000000
 Ergonomics=-15.000000
@@ -40,7 +41,7 @@ Information_Eng=A 14.5 inch (368mm) barrel for HK416 based weapons for 5.56x45 N
 basePrice=27400
 width=3
 height=1
-avg24hPrice=21588
+avg24hPrice=20819
 low24hPrice=13999
 lastOfferCount=18
 Sell_Prapor=13700
@@ -49,6 +50,6 @@ Sell_Skier=13426
 Sell_Peacekeeper=107
 Sell_Mechanic=15344
 Sell_Jaeger=16440
-Sell_Flea Market=13999
+Sell_Flea Market=14888
 weight=0.985000
-fleaMarketFee=1944
+fleaMarketFee=1953

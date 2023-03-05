@@ -1,3 +1,4 @@
+IDstr=5b44cf1486f77431723e3d05
 Name=IOTV Gen4 body armor (assault kit)
 ShortName=Gen4 Assault
 Itemtype=Armor

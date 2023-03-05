@@ -1,3 +1,4 @@
+IDstr=5a7b4900e899ef197b331a2a
 Name=UM Tactical UM3 pistol sight mount
 ShortName=UM3
 Itemtype=Mount
@@ -21,21 +22,24 @@ ChildParts=[
 	Zenit Klesch-2IKS IR illuminator with laser,
 	Zenit Klesch-2P flashlight with laser
 ]
+Conflict=[
+	Glock Aimtech Tiger Shark sight mount,
+]
 Recoil=0.000000
 Ergonomics=-1.000000
 Information_Eng=The UM Tactical UM3 sight mount. Allows mounting of additional reflex sights and tactical accessories.
 basePrice=5620
 width=1
 height=1
-avg24hPrice=20350
-low24hPrice=12000
-lastOfferCount=10
+avg24hPrice=20886
+low24hPrice=14400
+lastOfferCount=9
 Sell_Prapor=2810
 Sell_Fence=2248
 Sell_Skier=2753
 Sell_Peacekeeper=22
 Sell_Mechanic=3147
 Sell_Jaeger=3372
-Sell_Flea Market=19999
+Sell_Flea Market=16000
 weight=0.120000
-fleaMarketFee=2578
+fleaMarketFee=1839

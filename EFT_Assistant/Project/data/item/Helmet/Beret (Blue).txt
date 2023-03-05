@@ -1,19 +1,27 @@
+IDstr=5f60e7788adaa7100c3adb49
 Name=Beret (Blue)
 ShortName=Beret
 Itemtype=Headwear
+Conflict=[
+	Faceless mask,
+	Ghoul mask,
+	Pestily plague mask,
+	Slender mask,
+	GP-7 gas mask,
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A regular blue beret. If it had an emblem, it would've been a VDV (Russian Airborne Forces) trooper beret. But this one is just a blue beret.
 basePrice=3400
 width=1
 height=1
-avg24hPrice=12356
+avg24hPrice=11693
 low24hPrice=4444
-lastOfferCount=13
+lastOfferCount=14
 Sell_Fence=1360
 Sell_Skier=1666
 Sell_Peacekeeper=13
 Sell_Ragman=2108
-Sell_Flea Market=9500
+Sell_Flea Market=7333
 weight=0.100000
-fleaMarketFee=1082
+fleaMarketFee=747

@@ -1,3 +1,4 @@
+IDstr=5fc278107283c4046c581489
 Name=Mk-18 .338 LM upper receiver
 ShortName=Mk-18
 Itemtype=Receiver

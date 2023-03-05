@@ -1,3 +1,4 @@
+IDstr=57372c21245977670937c6c2
 Name=5.45x39mm BT gs ammo pack (120 pcs)
 ShortName=BT
 Itemtype=Ammo container

@@ -1,3 +1,4 @@
+IDstr=5de65547883dde217541644b
 Name=VPO-215 "Gornostay" .366TKM 23 inch barrel
 ShortName=215 23"
 Itemtype=Barrel

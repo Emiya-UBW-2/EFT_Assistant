@@ -1,3 +1,4 @@
+IDstr=5ab8ebf186f7742d8b372e80
 Name=SSO Attack 2 raid backpack
 ShortName=Attack 2
 Itemtype=Backpack

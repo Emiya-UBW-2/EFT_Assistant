@@ -1,3 +1,4 @@
+IDstr=5bffe7930db834001b734a39
 Name=Crash Axe
 ShortName=SCA
 Itemtype=Knife

@@ -1,3 +1,4 @@
+IDstr=560836484bdc2d20478b456e
 Name=MP-133 12ga 540mm barrel
 ShortName=MP133 540mm
 Itemtype=Barrel

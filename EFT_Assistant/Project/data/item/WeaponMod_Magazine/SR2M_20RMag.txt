@@ -1,3 +1,4 @@
+IDstr=633a98eab8b0506e48497c1a
 Name=SR-2M 9x21 20-round magazine
 ShortName=SR-2M
 Itemtype=Magazine
@@ -7,8 +8,8 @@ Information_Eng=A standard 20-round capacity magazine for SR-2M "Veresk", manufa
 basePrice=2900
 width=1
 height=1
-avg24hPrice=22493
-low24hPrice=9000
+avg24hPrice=19250
+low24hPrice=29500
 lastOfferCount=1
 Sell_Prapor=1450
 Sell_Fence=1160

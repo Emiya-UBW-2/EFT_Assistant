@@ -1,3 +1,4 @@
+IDstr=58dffd4586f77408a27629b2
 Name=SIG MPX 9x19 submachine gun Silenced
 ShortName=MPX Silenced
 Itemtype=SMG

@@ -1,3 +1,4 @@
+IDstr=630e39c3bd357927e4007c15
 Name=Steyr AUG A3 5.56x45 16 inch barrel
 ShortName=A3 16"
 Itemtype=Barrel

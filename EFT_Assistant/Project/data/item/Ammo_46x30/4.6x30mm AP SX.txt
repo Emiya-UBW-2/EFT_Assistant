@@ -1,3 +1,4 @@
+IDstr=5ba26835d4351e0035628ff5
 Name=4.6x30mm AP SX
 ShortName=AP SX
 Itemtype=Ammo

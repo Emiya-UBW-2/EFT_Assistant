@@ -1,3 +1,4 @@
+IDstr=615d8dbd290d254f5e6b2ed6
 Name=Glock 17 9x19 MOS pistol slide
 ShortName=G MOS
 Itemtype=Receiver
@@ -7,7 +8,7 @@ Information_Eng=The MOS (Modular Optic System) slide designed for Glock 9x19 pis
 basePrice=4700
 width=2
 height=1
-avg24hPrice=9345
+avg24hPrice=9188
 low24hPrice=6899
 lastOfferCount=1
 Sell_Prapor=2350

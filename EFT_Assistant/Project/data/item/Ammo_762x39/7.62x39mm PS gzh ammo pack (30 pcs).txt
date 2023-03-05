@@ -1,3 +1,4 @@
+IDstr=5649ed104bdc2d3d1c8b458b
 Name=7.62x39mm PS gzh ammo pack (30 pcs)
 ShortName=PS
 Itemtype=Ammo container
@@ -7,8 +8,8 @@ Information_Eng=A 30-round package of 7.62x39 PS gzh cartridges.
 basePrice=1000
 width=1
 height=1
-avg24hPrice=18798
-low24hPrice=8000
+avg24hPrice=18649
+low24hPrice=15500
 lastOfferCount=1
 Sell_Fence=400
 Sell_Flea Market=20000

@@ -1,3 +1,4 @@
+IDstr=637f57c532b66e7e320a6676
 Name=AR-15 KAC URX 3.1 10.75 inch lower handguard
 ShortName=URX3.1 10.75"
 Itemtype=Handguard
@@ -31,7 +32,10 @@ ChildParts=[
 	Zenit RK-6 tactical foregrip
 ]
 Conflict=[
-	M203 40mm underbarrel grenade launcher,
+	AR-10 JP Enterprises Gas System-6,
+	M4A1 front sight with gas block,
+	AR-15 Windham Weaponry Rail Gas Block,
+	AR-15 5.56x45 260mm barrel
 ]
 Recoil=-2.000000
 Ergonomics=4.000000
@@ -39,14 +43,14 @@ Information_Eng=The Knight's Armament URX 3.1 lower handguard for AR-15 equipped
 basePrice=5640
 width=2
 height=1
-avg24hPrice=16295
+avg24hPrice=17170
 low24hPrice=9999
-lastOfferCount=6
+lastOfferCount=8
 Sell_Prapor=2820
 Sell_Fence=2256
 Sell_Skier=2763
 Sell_Peacekeeper=22
 Sell_Mechanic=3158
-Sell_Flea Market=15000
+Sell_Flea Market=18000
 weight=0.096000
-fleaMarketFee=1669
+fleaMarketFee=2191

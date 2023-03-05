@@ -1,3 +1,4 @@
+IDstr=5ac50da15acfc4001718d287
 Name=AK-74M dust cover (6P34 0-1)
 ShortName=6P34 0-1
 Itemtype=Receiver
@@ -7,8 +8,8 @@ Information_Eng=A standard-issue dust cover for AK-74M automatic rifles, manufac
 basePrice=1009
 width=2
 height=1
-avg24hPrice=16471
-low24hPrice=14000
+avg24hPrice=39999
+low24hPrice=39999
 lastOfferCount=1
 Sell_Prapor=504
 Sell_Fence=403

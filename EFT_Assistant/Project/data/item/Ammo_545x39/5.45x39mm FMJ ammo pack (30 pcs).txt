@@ -1,3 +1,4 @@
+IDstr=5737330a2459776af32363a1
 Name=5.45x39mm FMJ ammo pack (30 pcs)
 ShortName=FMJ
 Itemtype=Ammo container

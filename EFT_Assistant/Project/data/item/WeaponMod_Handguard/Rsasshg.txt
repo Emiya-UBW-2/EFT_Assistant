@@ -1,3 +1,4 @@
+IDstr=5a329052c4a28200741e22d3
 Name=R11 RSASS handguard
 ShortName=RSASS
 Itemtype=Handguard
@@ -30,6 +31,9 @@ Conflict=[
 	STM-9 9x19 10.5 inch barrel,
 	STM-9 9x19 12 inch barrel,
 	STM-9 9x19 16 inch barrel,
+	M4A1 front sight with gas block,
+	AR-15 Windham Weaponry Rail Gas Block,
+	Mk47 254mm barrel,
 ]
 Recoil=-2.000000
 Ergonomics=5.000000
@@ -37,14 +41,14 @@ Information_Eng=A standard handguard manufactured by JP Enterprises for the Remi
 basePrice=16754
 width=2
 height=1
-avg24hPrice=23742
-low24hPrice=22115
-lastOfferCount=6
+avg24hPrice=23780
+low24hPrice=22123
+lastOfferCount=16
 Sell_Prapor=8377
 Sell_Fence=6701
 Sell_Skier=8209
 Sell_Peacekeeper=66
 Sell_Mechanic=9382
-Sell_Flea Market=23333
+Sell_Flea Market=22123
 weight=0.310000
-fleaMarketFee=2141
+fleaMarketFee=2025

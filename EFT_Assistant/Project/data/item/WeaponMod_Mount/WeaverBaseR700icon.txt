@@ -1,3 +1,4 @@
+IDstr=5bfebc530db834001d23eb65
 Name=M700 extended multi-slot Weaver rail base
 ShortName=M700 Multi-slot
 Itemtype=Mount
@@ -60,7 +61,12 @@ ChildParts=[
 	Leapers UTG 25mm ring scope mount
 ]
 Conflict=[
-	M700 AB Arms MOD*X GEN 3 KeyMod handguard,
+	Axion Kobra EKP-8-02 reflex sight (Dovetail),
+	OKP-7 reflex sight (Dovetail),
+	BelOMO PSO-1M2-1 4x24 scope,
+	NSPU-M night vision scope,
+	Axion Kobra dovetail mount,
+	VOMZ Pilad 043-02 dovetail mount
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -68,9 +74,9 @@ Information_Eng=A Weaver-type extended multi-slot rail base for the Remington Mo
 basePrice=2640
 width=2
 height=1
-avg24hPrice=42620
+avg24hPrice=41747
 low24hPrice=15000
-lastOfferCount=1
+lastOfferCount=8
 Sell_Prapor=1320
 Sell_Fence=1056
 Sell_Skier=1293

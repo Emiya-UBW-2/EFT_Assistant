@@ -1,20 +1,11 @@
+IDstr=5c61a40d2e2216001403158d
 Name=Zenit B-13 "Klassika" dovetail rail platform
 ShortName=B-13
 Itemtype=Mount
 Conflict=[
-	AKS-74U CAA XRSU47SU tactical handguard,
-	AK CNC Guns OV GP handguard,
-	SVD SAG MK1 chassis,
-	AK TDI X47 tactical handguard rail system,
-	SAG Bit low profile dovetail sidemount,
-	SVD modernization kit top rail,
-	AKS-74U dust cover (6P26 Sb.7),
-	AK AKademia Bastion dust cover,
-	AKS-74UB dust cover,
-	AK Zenit B-33 dust cover,
-	AK FAB Defense PDC dust cover,
-	AK TWS Dog Leg Rail dust cover,
-	AK Taktika Tula TT01 rear sight rail,
+	BelOMO PSO-1 4x24 scope,
+	BelOMO PSO-1M2-1 4x24 scope,
+	BelOMO PSO-1M2 4x24 scope
 ]
 Recoil=0.000000
 Ergonomics=-1.000000
@@ -22,15 +13,15 @@ Information_Eng=The B-13 rail platform mounts on the standard dovetail mount of 
 basePrice=7800
 width=1
 height=1
-avg24hPrice=15828
+avg24hPrice=15575
 low24hPrice=8969
-lastOfferCount=14
+lastOfferCount=12
 Sell_Prapor=3900
 Sell_Fence=3120
 Sell_Skier=3822
 Sell_Peacekeeper=31
 Sell_Mechanic=4368
 Sell_Jaeger=4680
-Sell_Flea Market=11111
+Sell_Flea Market=17999
 weight=0.175000
-fleaMarketFee=1021
+fleaMarketFee=1883

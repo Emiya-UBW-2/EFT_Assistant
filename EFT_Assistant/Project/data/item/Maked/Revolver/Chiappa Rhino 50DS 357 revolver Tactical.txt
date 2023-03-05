@@ -1,3 +1,4 @@
+IDstr=624d7ae691f0160c7324c402
 Name=Chiappa Rhino 50DS .357 revolver Tactical
 ShortName=CR 50DS Tactical
 Itemtype=Revolver

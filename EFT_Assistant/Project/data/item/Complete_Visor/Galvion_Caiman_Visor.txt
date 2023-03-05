@@ -1,19 +1,27 @@
+IDstr=5f60bf4558eff926626a60f2
 Name=Galvion Caiman Fixed Arm Visor
 ShortName=Caiman FAV
 Itemtype=Armored equipment
+Conflict=[
+	PNV-10T Night Vision Goggles,
+	Armasight N-15 Night Vision Goggles,
+	GPNVG-18 Night Vision goggles,
+	AN/PVS-14 Night Vision Monocular,
+	T-7 Thermal Goggles with a Night Vision mount
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A locked-in ballistic visor shield for installation on the Caiman Hybrid helmet's shroud. Manufactured by Galvion.
 basePrice=18698
 width=2
 height=1
-avg24hPrice=16942
+avg24hPrice=16756
 low24hPrice=12777
-lastOfferCount=17
+lastOfferCount=8
 Sell_Fence=7479
 Sell_Skier=9162
 Sell_Peacekeeper=73
 Sell_Ragman=11592
-Sell_Flea Market=12777
+Sell_Flea Market=14999
 weight=0.270000
-fleaMarketFee=1408
+fleaMarketFee=1519

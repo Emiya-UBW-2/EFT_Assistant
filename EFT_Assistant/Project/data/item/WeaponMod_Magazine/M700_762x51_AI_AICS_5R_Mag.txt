@@ -1,3 +1,4 @@
+IDstr=5d25a4a98abbc30b917421a4
 Name=M700 7.62x51 AI AICS 5-round magazine
 ShortName=AICS
 Itemtype=Magazine

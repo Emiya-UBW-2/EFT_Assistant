@@ -1,3 +1,4 @@
+IDstr=58dffca786f774083a256ab1
 Name=SIG MPX 9x19 submachine gun Default
 ShortName=MPX Default
 Itemtype=SMG
@@ -5,9 +6,9 @@ Information_Eng=
 basePrice=50625
 width=4
 height=2
-avg24hPrice=44436
+avg24hPrice=44428
 low24hPrice=33000
-lastOfferCount=23
+lastOfferCount=21
 Sell_Prapor=25312
 Sell_Fence=20250
 Sell_Skier=24806

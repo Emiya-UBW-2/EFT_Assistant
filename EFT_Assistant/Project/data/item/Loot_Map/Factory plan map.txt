@@ -1,3 +1,4 @@
+IDstr=574eb85c245977648157eec3
 Name=Factory plan map
 ShortName=Factory
 Itemtype=Map

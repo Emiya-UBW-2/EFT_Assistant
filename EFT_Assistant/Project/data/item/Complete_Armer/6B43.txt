@@ -1,3 +1,4 @@
+IDstr=545cdb794bdc2d3a198b456a
 Name=6B43 6A Zabralo-Sh body armor
 ShortName=6B43 6A
 Itemtype=Armor

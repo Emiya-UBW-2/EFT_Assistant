@@ -1,3 +1,4 @@
+IDstr=5a6f5d528dc32e00094b97d9
 Name=Glock rear sight
 ShortName=Glock RS
 Itemtype=Ironsight

@@ -1,3 +1,4 @@
+IDstr=5b83f29886f7746d956305a1
 Name=DS Arms SA-58 7.62x51 assault rifle PBR
 ShortName=SA-58 PBR
 Itemtype=Assault rifle

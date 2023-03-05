@@ -1,3 +1,4 @@
+IDstr=55d35ee94bdc2d61338b4568
 Name=AR-15 5.56x45 260mm barrel
 ShortName=AR-15 260mm
 Itemtype=Barrel
@@ -51,6 +52,12 @@ Conflict=[
 	AR-15 Soyuz-TM 15 inch M-LOK handguard,
 	AR-15 KAC URX 3.1 10.75 inch handguard,
 	AR-15 Unique-ARs Wing & Skull 12 inch handguard,
+	AR-10 CMMG MK3 RML15 15 inch M-LOK handguard,
+	AR-10 Noveske SWS N6 10.5 inch handguard,
+	AR-10 Noveske SWS N6 Split handguard,
+	Mk-18 18 inch handguard,
+	AR-10 KAC URX 4 14.5 inch handguard,
+	AR-15 KAC URX 3.1 10.75 inch lower handguard,
 ]
 Recoil=-2.000000
 Ergonomics=-7.000000
@@ -58,15 +65,15 @@ Information_Eng=A 260mm barrel for AR-15 based weapons for 5.56x45 NATO ammo. Co
 basePrice=19118
 width=2
 height=1
-avg24hPrice=46184
-low24hPrice=25233
-lastOfferCount=23
+avg24hPrice=47545
+low24hPrice=27000
+lastOfferCount=29
 Sell_Prapor=9559
 Sell_Fence=7647
 Sell_Skier=9367
 Sell_Peacekeeper=75
 Sell_Mechanic=10706
 Sell_Jaeger=11470
-Sell_Flea Market=33333
+Sell_Flea Market=27000
 weight=0.409000
-fleaMarketFee=3175
+fleaMarketFee=2480

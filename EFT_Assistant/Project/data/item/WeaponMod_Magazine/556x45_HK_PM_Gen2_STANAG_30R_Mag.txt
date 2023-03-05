@@ -1,20 +1,24 @@
+IDstr=5c6d450c2e221600114c997d
 Name=5.56x45 HK PM Gen.2 STANAG 30-round magazine
 ShortName=PM Gen.2
 Itemtype=Magazine
+Conflict=[
+	HK G36 magwell,
+]
 Recoil=0.000000
 Ergonomics=-3.000000
 Information_Eng=A 30-round polymer HK PM Gen.2 magazine, for 5.56x45 ammunition.
 basePrice=3425
 width=1
 height=2
-avg24hPrice=17465
+avg24hPrice=16982
 low24hPrice=8800
-lastOfferCount=5
+lastOfferCount=10
 Sell_Prapor=1712
 Sell_Fence=1370
 Sell_Skier=1678
 Sell_Peacekeeper=13
 Sell_Mechanic=1918
-Sell_Flea Market=14000
+Sell_Flea Market=12998
 weight=0.160000
-fleaMarketFee=1949
+fleaMarketFee=1736

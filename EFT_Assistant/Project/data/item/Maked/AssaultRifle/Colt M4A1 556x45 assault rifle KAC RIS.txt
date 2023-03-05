@@ -1,3 +1,4 @@
+IDstr=m4a1kacrisii000000000001
 Name=Colt M4A1 5.56x45 assault rifle KAC RIS
 ShortName=M4A1 KAC RIS
 Itemtype=Assault rifle

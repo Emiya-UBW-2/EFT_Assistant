@@ -1,13 +1,20 @@
+IDstr=5b3f7bf05acfc433000ecf6b
 Name=Mosin Rifle Kochetov mount
 ShortName=Kochetov
 Itemtype=Mount
+Conflict=[
+	Mosin Rifle Infantry stock,
+	Mosin Rifle carbine stock,
+	PPSh-41 stock,
+	Mosin Rifle sawn-off stock,
+]
 Recoil=0.000000
 Ergonomics=-1.000000
 Information_Eng=Designed specially for the Mosin rifle, the Kochetov mount allows installation of the PU 3.5 scope on the rifle.
 basePrice=1259
 width=1
 height=1
-avg24hPrice=15304
+avg24hPrice=13720
 low24hPrice=1337
 lastOfferCount=4
 Sell_Prapor=629
@@ -16,6 +23,6 @@ Sell_Skier=616
 Sell_Peacekeeper=5
 Sell_Mechanic=705
 Sell_Jaeger=755
-Sell_Flea Market=9000
+Sell_Flea Market=5555
 weight=0.020000
-fleaMarketFee=1752
+fleaMarketFee=808

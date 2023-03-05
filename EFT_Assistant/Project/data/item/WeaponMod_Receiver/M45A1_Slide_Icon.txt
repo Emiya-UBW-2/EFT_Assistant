@@ -1,3 +1,4 @@
+IDstr=5f3e7823ddc4f03b010e2045
 Name=M45A1 .45 ACP pistol slide
 ShortName=M45A1 slide
 Itemtype=Receiver
@@ -17,7 +18,7 @@ Information_Eng=A standard-issue slide for the M45A1 pistol, manufactured by Col
 basePrice=5100
 width=2
 height=1
-avg24hPrice=42499
+avg24hPrice=39999
 low24hPrice=10000
 lastOfferCount=1
 Sell_Prapor=2550

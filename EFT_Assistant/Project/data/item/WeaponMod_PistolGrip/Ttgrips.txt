@@ -1,3 +1,4 @@
+IDstr=571a282c2459771fb2755a69
 Name=TT side grips
 ShortName=TT grips
 Itemtype=Pistol grip
@@ -7,9 +8,9 @@ Information_Eng=Standard post-war issue TT pistol side grips.
 basePrice=1006
 width=1
 height=1
-avg24hPrice=6224
+avg24hPrice=5928
 low24hPrice=3999
-lastOfferCount=5
+lastOfferCount=2
 Sell_Prapor=503
 Sell_Fence=402
 Sell_Skier=492

@@ -1,15 +1,20 @@
+IDstr=5a6f5e048dc32e00094b97da
 Name=Glock 17 9x19 pistol slide
 ShortName=G17
 Itemtype=Receiver
+Conflict=[
+	Glock 9x19 Lone Wolf AlphaWolf Bullnose compensator,
+	P226 TJ's Custom 9x19 compensator,
+]
 Recoil=0.000000
 Ergonomics=3.000000
 Information_Eng=A standard-issue slide for Glock 17 9x19 pistols.
 basePrice=3109
 width=2
 height=1
-avg24hPrice=6111
+avg24hPrice=5855
 low24hPrice=4000
-lastOfferCount=3
+lastOfferCount=1
 Sell_Prapor=1554
 Sell_Fence=1243
 Sell_Skier=1523

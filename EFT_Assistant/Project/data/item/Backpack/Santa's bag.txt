@@ -1,3 +1,4 @@
+IDstr=61b9e1aaef9a1b5d6a79899a
 Name=Santa's bag
 ShortName=Santa's bag
 Itemtype=Backpack

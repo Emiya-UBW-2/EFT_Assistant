@@ -1,3 +1,4 @@
+IDstr=5de8f237bbaf010b10528a70
 Name=MP9 9x19 sound suppressor mount
 ShortName=MP9 adpt.
 Itemtype=Comb. muzzle device

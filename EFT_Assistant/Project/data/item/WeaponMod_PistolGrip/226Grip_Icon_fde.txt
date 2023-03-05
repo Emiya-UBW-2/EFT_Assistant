@@ -1,3 +1,4 @@
+IDstr=57c9a89124597704ee6faec1
 Name=P226 Combat pistol grip (FDE)
 ShortName=P226 FDE
 Itemtype=Pistol grip

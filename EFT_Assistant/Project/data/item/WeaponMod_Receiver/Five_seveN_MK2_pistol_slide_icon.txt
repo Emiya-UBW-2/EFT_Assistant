@@ -1,3 +1,4 @@
+IDstr=5d3eb44aa4b93650d64e4979
 Name=FN Five-seveN MK2 pistol slide
 ShortName=5-7
 Itemtype=Receiver

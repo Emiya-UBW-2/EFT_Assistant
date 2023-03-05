@@ -1,8 +1,12 @@
+IDstr=59e6227d86f77440d64f5dc2
 Name=VPO-136 "Vepr-KM" wooden stock
 ShortName=VPO136
 Itemtype=Stock
 ChildParts=[
 	AK GP-25 accessory kit recoil pad
+]
+Conflict=[
+	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock,
 ]
 Recoil=-33.000000
 Ergonomics=3.000000

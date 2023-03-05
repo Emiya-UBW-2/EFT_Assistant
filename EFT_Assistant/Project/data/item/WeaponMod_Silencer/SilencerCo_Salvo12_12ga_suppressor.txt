@@ -1,20 +1,26 @@
+IDstr=5b363dd25acfc4001a598fd2
 Name=SilencerCo Salvo 12 12ga sound suppressor
 ShortName=Salvo 12
 Itemtype=Silencer
+Conflict=[
+	M870 12ga 10-shell magazine,
+	MP-153 12ga 7-shell magazine,
+	MP-153 12ga 8-shell magazine
+]
 Recoil=-18.000000
 Ergonomics=-28.000000
 Information_Eng=A sound moderator made by SilencerCo for 12ga shotguns and carbines (Saiga, Vepr and others). Quite heavy, but very effective nonetheless. Requires an adapter.
 basePrice=35650
 width=2
 height=1
-avg24hPrice=43417
-low24hPrice=37000
-lastOfferCount=45
+avg24hPrice=43863
+low24hPrice=35000
+lastOfferCount=33
 Sell_Prapor=17825
 Sell_Fence=14260
 Sell_Skier=17468
 Sell_Peacekeeper=139
 Sell_Mechanic=19964
-Sell_Flea Market=37420
+Sell_Flea Market=35000
 weight=0.970000
-fleaMarketFee=3506
+fleaMarketFee=3334

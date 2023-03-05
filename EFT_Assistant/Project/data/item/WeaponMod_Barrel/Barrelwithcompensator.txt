@@ -1,3 +1,4 @@
+IDstr=5a6b60158dc32e000a31138b
 Name=Glock 17 9x19 barrel with a compensator
 ShortName=G17 comp
 Itemtype=Barrel

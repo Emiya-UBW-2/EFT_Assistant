@@ -1,3 +1,4 @@
+IDstr=57ffb0062459777a045af529
 Name=AKS-74U Zenit B-18 Mount
 ShortName=B-18
 Itemtype=Mount
@@ -16,21 +17,24 @@ ChildParts=[
 	SIG Sauer ROMEO sight mount,
 	Trijicon RMR low profile mount
 ]
+Conflict=[
+	NSPU-M night vision scope,
+]
 Recoil=0.000000
 Ergonomics=-1.000000
 Information_Eng=The B-18 rail mount is installed on the standard rear sight of AKS-74U and forms a sight support hovering over the rifle dust cover. Manufactured by Zenit.
 basePrice=3298
 width=1
 height=1
-avg24hPrice=7569
-low24hPrice=5000
-lastOfferCount=8
+avg24hPrice=7197
+low24hPrice=4999
+lastOfferCount=11
 Sell_Prapor=1649
 Sell_Fence=1319
 Sell_Skier=1616
 Sell_Peacekeeper=13
 Sell_Mechanic=1846
 Sell_Jaeger=1978
-Sell_Flea Market=7000
+Sell_Flea Market=4999
 weight=0.053000
-fleaMarketFee=709
+fleaMarketFee=463

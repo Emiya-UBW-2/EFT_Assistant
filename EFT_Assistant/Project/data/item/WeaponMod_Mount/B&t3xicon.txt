@@ -1,3 +1,4 @@
+IDstr=5a966ec8a2750c00171b3f36
 Name=HK MP5 B&T tri-rail receiver mount
 ShortName=B&T 3x
 Itemtype=Mount
@@ -44,21 +45,24 @@ ChildParts=[
 	Trijicon TA51 sight mount,
 	UNV DLOC-IRD sight mount
 ]
+Conflict=[
+	HK MP5 Drum rear sight
+]
 Recoil=0.000000
 Ergonomics=-1.500000
 Information_Eng=A rail mount designed by Brügger & Thomet for the HK MP5 submachine gun. It is mounted on the weapon's receiver and allows additional installation of scopes and reflex sights.
 basePrice=4501
 width=2
 height=1
-avg24hPrice=20069
-low24hPrice=5025
-lastOfferCount=19
+avg24hPrice=17951
+low24hPrice=4999
+lastOfferCount=8
 Sell_Prapor=2250
 Sell_Fence=1800
 Sell_Skier=2205
 Sell_Peacekeeper=18
 Sell_Mechanic=2520
 Sell_Jaeger=2700
-Sell_Flea Market=5025
+Sell_Flea Market=4999
 weight=0.223000
-fleaMarketFee=465
+fleaMarketFee=463

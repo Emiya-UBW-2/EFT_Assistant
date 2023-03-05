@@ -1,3 +1,4 @@
+IDstr=619bddffc9546643a67df6f0
 Name=Train Hard armband
 ShortName=THGP
 Itemtype=Arm Band

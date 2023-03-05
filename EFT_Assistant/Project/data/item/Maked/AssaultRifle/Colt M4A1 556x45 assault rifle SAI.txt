@@ -1,3 +1,4 @@
+IDstr=5dd800eae49222636663133b
 Name=Colt M4A1 5.56x45 assault rifle SAI
 ShortName=M4A1 SAI
 Itemtype=Assault rifle

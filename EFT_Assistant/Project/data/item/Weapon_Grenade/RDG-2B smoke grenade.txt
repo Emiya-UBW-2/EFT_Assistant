@@ -1,3 +1,4 @@
+IDstr=5a2a57cfc4a2826c6e06d44a
 Name=RDG-2B smoke grenade
 ShortName=RDG-2B
 Itemtype=Throwable weapon
@@ -7,7 +8,7 @@ Information_Eng=A Soviet-made smoke hand grenade, designed to create smoke zones
 basePrice=5441
 width=1
 height=2
-avg24hPrice=12605
+avg24hPrice=12218
 low24hPrice=3999
 lastOfferCount=5
 Sell_Prapor=2720

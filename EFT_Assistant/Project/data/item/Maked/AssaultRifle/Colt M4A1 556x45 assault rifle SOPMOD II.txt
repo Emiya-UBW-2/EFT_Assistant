@@ -1,3 +1,4 @@
+IDstr=5a8ae73886f7747b2e6e1416
 Name=Colt M4A1 5.56x45 assault rifle SOPMOD II
 ShortName=M4A1 SOPMOD II
 Itemtype=Assault rifle

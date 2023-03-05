@@ -1,3 +1,4 @@
+IDstr=57a0e5022459774d1673f889
 Name=9x39mm SP-6 gs
 ShortName=SP-6
 Itemtype=Ammo

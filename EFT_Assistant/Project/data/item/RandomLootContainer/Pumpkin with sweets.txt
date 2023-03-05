@@ -1,3 +1,4 @@
+IDstr=634959225289190e5e773b3b
 Name=Pumpkin with sweets
 ShortName=Pumpkin
 Itemtype=Random Loot Container

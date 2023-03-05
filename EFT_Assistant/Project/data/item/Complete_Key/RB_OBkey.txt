@@ -1,3 +1,4 @@
+IDstr=5d80c6c586f77440351beef1
 Name=RB-OB key
 ShortName=RB-OB
 Itemtype=Mechanical Key

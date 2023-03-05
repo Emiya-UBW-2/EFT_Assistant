@@ -1,3 +1,4 @@
+IDstr=5df8a77486f77412672a1e3f
 Name=Christmas tree ornament (Violet)
 ShortName=Ornament
 Itemtype=Jewelry

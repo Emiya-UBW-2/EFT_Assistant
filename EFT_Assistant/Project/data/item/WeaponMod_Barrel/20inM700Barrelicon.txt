@@ -1,3 +1,4 @@
+IDstr=5bfebc320db8340019668d79
 Name=M700 7.62x51 20 inch threaded barrel
 ShortName=M700 20"
 Itemtype=Barrel
@@ -29,7 +30,7 @@ Information_Eng=A 20 inches (508mm) long threaded barrel for Remington Model 700
 basePrice=22200
 width=3
 height=1
-avg24hPrice=49999
+avg24hPrice=49749
 low24hPrice=27000
 lastOfferCount=2
 Sell_Prapor=11100

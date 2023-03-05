@@ -1,3 +1,4 @@
+IDstr=5b6d9ce188a4501afc1b2b25
 Name=T H I C C Weapon case
 ShortName=T H I C C
 Itemtype=Common container

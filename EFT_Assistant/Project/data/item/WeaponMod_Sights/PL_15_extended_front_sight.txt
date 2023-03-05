@@ -1,7 +1,11 @@
+IDstr=60228a850ddce744014caf69
 Name=PL-15 extended front sight
 ShortName=PL15 FS ext.
 Itemtype=Ironsight
 SightRange=200
+Conflict=[
+	PL-15 rear sight,
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=An extended front sight for the PL-15 pistol, designed for use with a sound suppressor.

@@ -1,3 +1,4 @@
+IDstr=571a26d524597720680fbe8a
 Name=TT 7.62x25 116mm barrel
 ShortName=TT 116mm
 Itemtype=Barrel

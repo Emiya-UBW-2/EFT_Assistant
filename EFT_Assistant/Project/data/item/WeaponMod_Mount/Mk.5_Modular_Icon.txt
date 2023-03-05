@@ -1,3 +1,4 @@
+IDstr=5fbb978207e8a97d1f0902d3
 Name=KRISS Vector Mk.5 modular rail
 ShortName=Mk.5
 Itemtype=Mount
@@ -59,21 +60,26 @@ ChildParts=[
 	Zenit RK-6 tactical foregrip,
 	Tactical Dynamics Skeletonized Foregrip
 ]
+Conflict=[
+	KRISS Vector side rail,
+	KRISS Vector .45 ACP 5 inch barrel,
+	KRISS Vector 9x19 5 inch barrel
+]
 Recoil=0.000000
 Ergonomics=-1.000000
 Information_Eng=The Mk.5 modular system allows you to install additional equipment on the handguard.
 basePrice=2200
 width=1
 height=1
-avg24hPrice=81633
-low24hPrice=39800
-lastOfferCount=12
+avg24hPrice=139272
+low24hPrice=50000
+lastOfferCount=16
 Sell_Prapor=1100
 Sell_Fence=880
 Sell_Skier=1078
 Sell_Peacekeeper=9
 Sell_Mechanic=1232
 Sell_Jaeger=1320
-Sell_Flea Market=150000
+Sell_Flea Market=50000
 weight=0.147000
-fleaMarketFee=129751
+fleaMarketFee=20619

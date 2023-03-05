@@ -1,6 +1,10 @@
+IDstr=5bfd384c0db834001a6691d3
 Name=Mosin Rifle carbine stock
 ShortName=Mosin carbine
 Itemtype=Stock
+Conflict=[
+	Mosin Rifle Kochetov mount
+]
 Recoil=-27.000000
 Ergonomics=14.000000
 Information_Eng=A wooden stock for the Mosin carbine.

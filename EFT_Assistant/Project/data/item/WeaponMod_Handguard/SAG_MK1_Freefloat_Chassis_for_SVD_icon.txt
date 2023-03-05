@@ -1,3 +1,4 @@
+IDstr=5dfcd0e547101c39625f66f9
 Name=SVD SAG MK1 chassis
 ShortName=SAG MK1
 Itemtype=Handguard
@@ -96,8 +97,7 @@ Conflict=[
 	SVD SAG low profile sidemount,
 	Zenit B-13 "Klassika" dovetail rail platform,
 	Zenit B-13V "Klassika" dovetail rail platform,
-	SVDS dust cover,
-	SAG Bit low profile dovetail sidemount,
+	SVDS dust cover
 ]
 Recoil=-3.000000
 Ergonomics=11.000000
@@ -105,14 +105,14 @@ Information_Eng=The MK1 Freefloat modular chassis with KeyMod slots designed for
 basePrice=15900
 width=3
 height=1
-avg24hPrice=20572
+avg24hPrice=19939
 low24hPrice=17000
-lastOfferCount=15
+lastOfferCount=13
 Sell_Prapor=7950
 Sell_Fence=6360
 Sell_Skier=7791
 Sell_Peacekeeper=62
 Sell_Mechanic=8904
-Sell_Flea Market=18700
+Sell_Flea Market=17666
 weight=0.890000
-fleaMarketFee=1719
+fleaMarketFee=1636

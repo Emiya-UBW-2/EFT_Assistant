@@ -1,3 +1,4 @@
+IDstr=5ebbfe23ba87a5065a00a563
 Name=Colt M4A1 5.56x45 assault rifle USASOC-I
 ShortName=M4A1 USASOC-I
 Itemtype=Assault rifle

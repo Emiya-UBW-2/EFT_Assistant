@@ -1,3 +1,4 @@
+IDstr=628a6678ccaab13006640e49
 Name=AKM/AK-74 RD AK to M4 buffer tube adapter
 ShortName=AKtoM4
 Itemtype=Stock
@@ -21,21 +22,24 @@ ChildParts=[
 	AR-15 ADAR 2-15 buffer tube,
 	AR-15 RTM ATP buffer tube
 ]
+Conflict=[
+	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock,
+]
 Recoil=0.000000
 Ergonomics=-1.000000
 Information_Eng=The AK to M4 Gen 2 adapter for installation of telescopic stock buffer tubes on AK series assault rifles with fixed stocks. Manufactured by Rifle Dynamics.
 basePrice=4200
 width=1
 height=1
-avg24hPrice=11968
-low24hPrice=4300
-lastOfferCount=6
+avg24hPrice=12104
+low24hPrice=7000
+lastOfferCount=5
 Sell_Prapor=2100
 Sell_Fence=1680
 Sell_Skier=2058
 Sell_Peacekeeper=16
 Sell_Mechanic=2352
 Sell_Jaeger=2520
-Sell_Flea Market=8000
+Sell_Flea Market=7000
 weight=0.230000
-fleaMarketFee=781
+fleaMarketFee=660

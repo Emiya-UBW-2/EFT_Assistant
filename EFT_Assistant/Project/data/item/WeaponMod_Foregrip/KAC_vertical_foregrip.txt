@@ -1,20 +1,24 @@
+IDstr=5c87ca002e221600114cb150
 Name=KAC vertical foregrip
 ShortName=KAC VFG
 Itemtype=Foregrip
+Conflict=[
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
+]
 Recoil=0.000000
 Ergonomics=7.000000
 Information_Eng=A vertical grip manufactured by Knight's Armament Company.
 basePrice=3196
 width=1
 height=1
-avg24hPrice=13818
+avg24hPrice=13526
 low24hPrice=6000
-lastOfferCount=15
+lastOfferCount=10
 Sell_Prapor=1598
 Sell_Fence=1278
 Sell_Skier=1566
 Sell_Peacekeeper=13
 Sell_Mechanic=1789
-Sell_Flea Market=6000
+Sell_Flea Market=8888
 weight=0.072000
-fleaMarketFee=583
+fleaMarketFee=1010

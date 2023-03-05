@@ -1,3 +1,4 @@
+IDstr=57f3a5ae2459772b0e0bf19e
 Name=PSO scope eyecup
 ShortName=PSO eyecup
 Itemtype=Auxiliary Mod
@@ -7,8 +8,8 @@ Information_Eng=A rubber eyecup for the PSO scopes family.
 basePrice=276
 width=1
 height=1
-avg24hPrice=17434
-low24hPrice=8888
+avg24hPrice=17166
+low24hPrice=11111
 lastOfferCount=2
 Sell_Prapor=138
 Sell_Fence=110

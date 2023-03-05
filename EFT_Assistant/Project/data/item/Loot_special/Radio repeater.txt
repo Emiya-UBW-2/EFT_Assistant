@@ -1,3 +1,4 @@
+IDstr=63a0b2eabea67a6d93009e52
 Name=Radio repeater
 ShortName=Repeater
 Itemtype=Special item

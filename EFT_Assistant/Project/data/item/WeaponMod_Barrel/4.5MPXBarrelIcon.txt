@@ -1,3 +1,4 @@
+IDstr=5c5db5852e2216003a0fe71a
 Name=MPX 9x19 4.5 inch barrel
 ShortName=MPX 4.5"
 Itemtype=Barrel
@@ -12,10 +13,11 @@ ChildParts=[
 	SilencerCo Osprey 9 9x19 sound suppressor
 ]
 Conflict=[
-	MPX GEN1 handguard,
 	MPX Lancer OEM 14 inch M-LOK handguard,
 	MPX Midwest Industries 10.5 inch M-LOK handguard,
+	MPX Midwest Industries 14 inch M-LOK handguard,
 	MPX Midwest Industries 6.5 inch M-LOK handguard,
+	MPX GEN1 handguard
 ]
 Recoil=0.000000
 Ergonomics=-2.000000

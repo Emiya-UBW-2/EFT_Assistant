@@ -1,3 +1,4 @@
+IDstr=5649af884bdc2d1b2b8b4589
 Name=AK Zenit B-33 dust cover
 ShortName=B-33
 Itemtype=Receiver
@@ -48,16 +49,32 @@ ChildParts=[
 	Walther MRS reflex sight
 ]
 Conflict=[
-	AK 5.45 Design Aggressor handguard,
+	AK TROY Full Length Rail handguard & gas tube combo,
+	AK UltiMAK M1-B gas tube & handguard,
+	AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo,
+	AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo (White),
+	Axion Kobra EKP-8-02 reflex sight (Dovetail),
+	OKP-7 reflex sight (Dovetail),
+	BelOMO PSO-1 4x24 scope,
+	BelOMO PSO-1M2-1 4x24 scope,
+	BelOMO PSO-1M2 4x24 scope,
+	NPZ USP-1 "Tyulpan" 4x scope,
+	NSPU-M night vision scope,
 	Axion Kobra dovetail mount,
+	KMZ 1P59 dovetail mount,
+	VOMZ Pilad 043-02 dovetail mount,
 	Zenit B-13 "Klassika" dovetail rail platform,
 	Zenit B-13V "Klassika" dovetail rail platform,
+	AK 5.45 Design Aggressor handguard,
 	AK CAA RS47 handguard,
-	Axion Kobra EKP-8-02 reflex sight (Dovetail),
-	AK TROY Full Length Rail handguard & gas tube combo,
+	WASR-10/63 CAF wooden foregrip,
 	AK Hexagon tubular handguard,
 	AK Hexagon tubular handguard (Anodized Red),
-	KMZ 1P59 dovetail mount,
+	AK 100-series polymer handguard,
+	AK-74 "Plum" polymer handguard (6P20 Sb.9),
+	AK-74 wooden handguard (6P20 Sb.6),
+	AK-74 polymer handguard (6P20 Sb.9),
+	AKM wooden handguard (6P1 Sb.6-1),
 	AK Krebs Custom UFM KeyMod handguard,
 	AK Magpul MOE AKM handguard (Black),
 	AK Magpul MOE AKM handguard (FDE),
@@ -67,33 +84,15 @@ Conflict=[
 	AK Magpul Zhukov-U handguard (Black),
 	AK Magpul Zhukov-U handguard (FDE),
 	AK Magpul Zhukov-U handguard (Plum),
-	NPZ USP-1 "Tyulpan" 4x scope,
-	NSPU-M night vision scope,
-	OKP-7 reflex sight (Dovetail),
-	VOMZ Pilad 043-02 dovetail mount,
-	AK 100-series polymer handguard,
-	AK-74 polymer handguard (6P20 Sb.9),
-	AK-74 "Plum" polymer handguard (6P20 Sb.9),
+	VPO-136 "Vepr-KM" wooden handguard,
+	VPO-209 wooden handguard,
 	AK Strike Industries TRAX 1 handguard,
 	AK TDI AKM-L handguard,
 	AK TDI AKM-L handguard (Anodized Bronze),
 	AK TDI AKM-L handguard (Anodized Red),
-	AK UltiMAK M1-B gas tube & handguard,
+	AK TDI X47 tactical handguard rail system,
 	AK Vltor CMRD KeyMod handguard,
-	AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo,
-	AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo (White),
-	AKM wooden handguard (6P1 Sb.6-1),
-	AK-74 wooden handguard (6P20 Sb.6),
-	VPO-209 wooden handguard,
-	WASR-10/63 CAF wooden foregrip,
-	VPO-136 "Vepr-KM" wooden handguard,
-	AK Zenit B-10 Handguard,
-	BelOMO PSO-1 4x24 scope,
-	BelOMO PSO-1M2 4x24 scope,
-	BelOMO PSO-1M2-1 4x24 scope,
-	AK CNC Guns OV GP handguard,
-	SAG Bit low profile dovetail sidemount,
-	AK Taktika Tula TT01 rear sight rail,
+	AK Zenit B-10 Handguard
 ]
 Recoil=-1.500000
 Ergonomics=7.000000
@@ -101,7 +100,7 @@ Information_Eng=The B-33 dust cover with an integrated Picatinny rail is compati
 basePrice=13549
 width=2
 height=1
-avg24hPrice=28451
+avg24hPrice=28080
 low24hPrice=17000
 lastOfferCount=24
 Sell_Prapor=6774
@@ -109,6 +108,6 @@ Sell_Fence=5419
 Sell_Skier=6639
 Sell_Peacekeeper=53
 Sell_Mechanic=7587
-Sell_Flea Market=25000
+Sell_Flea Market=23999
 weight=0.215000
-fleaMarketFee=2418
+fleaMarketFee=2295

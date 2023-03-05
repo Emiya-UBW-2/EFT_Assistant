@@ -1,3 +1,4 @@
+IDstr=62444cd3674028188b052799
 Name=HK G36 side handguard rail
 ShortName=G36 side
 Itemtype=Mount

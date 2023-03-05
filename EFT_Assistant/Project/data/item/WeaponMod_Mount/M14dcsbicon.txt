@@ -1,3 +1,4 @@
+IDstr=5addbffe5acfc4001714dfac
 Name=M14 SAGE International DCSB mount
 ShortName=M14 DCSB
 Itemtype=Mount
@@ -42,21 +43,25 @@ ChildParts=[
 	Trijicon RMR high profile mount,
 	Trijicon RMR low profile mount
 ]
+Conflict=[
+	M14 A.R.M.S. #18 scope mount,
+	M14 Leapers UTG 4-Point Locking Deluxe mount,
+]
 Recoil=0.000000
 Ergonomics=-1.000000
 Information_Eng=The M14 DCSB (Detachable Cantilevered Sight Base) mount for M14 rifles, manufactured by SAGE International. It has a Weaver-type rail for mounting various different sights. Can only be installed on the EBR chassis.
 basePrice=7906
 width=2
 height=1
-avg24hPrice=10866
+avg24hPrice=11503
 low24hPrice=5999
-lastOfferCount=10
+lastOfferCount=6
 Sell_Prapor=3953
 Sell_Fence=3162
 Sell_Skier=3873
 Sell_Peacekeeper=31
 Sell_Mechanic=4427
 Sell_Jaeger=4743
-Sell_Flea Market=7000
+Sell_Flea Market=8000
 weight=0.220000
-fleaMarketFee=684
+fleaMarketFee=757

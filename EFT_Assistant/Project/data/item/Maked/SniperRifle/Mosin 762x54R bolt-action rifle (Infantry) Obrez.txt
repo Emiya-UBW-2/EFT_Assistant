@@ -1,3 +1,4 @@
+IDstr=5c0c1fc586f77455912eaf08
 Name=Mosin 7.62x54R bolt-action rifle (Infantry) Obrez
 ShortName=Mosin (Infantry) Obrez
 Itemtype=Sniper rifle

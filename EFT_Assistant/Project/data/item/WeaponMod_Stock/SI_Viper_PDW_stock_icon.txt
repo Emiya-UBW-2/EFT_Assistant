@@ -1,21 +1,26 @@
+IDstr=627254cc9c563e6e442c398f
 Name=Strike Industries Viper PDW stock
 ShortName=Viper PDW
 Itemtype=Stock
+Conflict=[
+	AR-15 ADAR 2-15 wooden stock,
+	AR-15 Hera Arms CQR pistol grip/buttstock,
+]
 Recoil=-25.000000
 Ergonomics=21.000000
 Information_Eng=The Strike Industries Viper PDW stock kit is a retractable stock installed on AR-15 weapon systems. Reduces the overall weapon size and recoil buffer.
 basePrice=9800
 width=2
 height=1
-avg24hPrice=21048
+avg24hPrice=20091
 low24hPrice=12000
-lastOfferCount=11
+lastOfferCount=13
 Sell_Prapor=4900
 Sell_Fence=3920
 Sell_Skier=4802
 Sell_Peacekeeper=38
 Sell_Mechanic=5488
 Sell_Jaeger=5880
-Sell_Flea Market=13666
+Sell_Flea Market=18000
 weight=0.573000
-fleaMarketFee=1254
+fleaMarketFee=1739

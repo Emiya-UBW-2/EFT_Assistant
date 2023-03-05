@@ -1,20 +1,24 @@
+IDstr=591af28e86f77414a27a9e1d
 Name=Viking Tactics UVG tactical foregrip
 ShortName=UVG
 Itemtype=Foregrip
+Conflict=[
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
+]
 Recoil=-2.000000
 Ergonomics=5.000000
 Information_Eng=An extremely lightweight skeletonized tactical grip made from light alloy, manufactured by Viking Tactics.
 basePrice=6528
 width=1
 height=1
-avg24hPrice=17326
+avg24hPrice=17809
 low24hPrice=7500
-lastOfferCount=10
+lastOfferCount=11
 Sell_Prapor=3264
 Sell_Fence=2611
 Sell_Skier=3198
 Sell_Peacekeeper=26
 Sell_Mechanic=3655
-Sell_Flea Market=20000
+Sell_Flea Market=9000
 weight=0.107000
-fleaMarketFee=2384
+fleaMarketFee=825

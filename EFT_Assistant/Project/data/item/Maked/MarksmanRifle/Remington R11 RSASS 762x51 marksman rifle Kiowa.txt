@@ -1,3 +1,4 @@
+IDstr=62875256bbbd995f3c41b253
 Name=Remington R11 RSASS 7.62x51 marksman rifle Kiowa
 ShortName=RSASS Kiowa
 Itemtype=Marksman rifle

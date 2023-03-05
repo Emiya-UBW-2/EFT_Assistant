@@ -1,3 +1,4 @@
+IDstr=619bddc6c9546643a67df6ee
 Name=DEADSKUL armband
 ShortName=DEADSKUL
 Itemtype=Arm Band

@@ -1,3 +1,4 @@
+IDstr=5ac78eaf5acfc4001926317a
 Name=AK-74M/AK-100 Zenit PT Lock
 ShortName=PT 74M/100
 Itemtype=Stock
@@ -5,15 +6,18 @@ ChildParts=[
 	AK Zenit PT-1 "Klassika" stock,
 	AK Zenit PT-3 "Klassika" stock
 ]
+Conflict=[
+	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock,
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=The lock is designed to install the PT-1 and PT-3 stocks to a weapon. This model is designed for installation on the AK-74M and AK-100-series assault rifles. Manufactured by Zenit.
 basePrice=2713
 width=1
 height=1
-avg24hPrice=13416
+avg24hPrice=13451
 low24hPrice=7699
-lastOfferCount=8
+lastOfferCount=3
 Sell_Prapor=1356
 Sell_Fence=1085
 Sell_Skier=1329

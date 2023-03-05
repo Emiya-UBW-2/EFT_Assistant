@@ -1,3 +1,4 @@
+IDstr=5d2340e986f77461496241bc
 Name=FN P90 5.7x28 submachine gun CWDG
 ShortName=P90 CWDG
 Itemtype=SMG

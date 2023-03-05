@@ -1,3 +1,4 @@
+IDstr=5f3e7801153b8571434a924c
 Name=M1911A1 .45 ACP National Match barrel
 ShortName=1911 NM
 Itemtype=Barrel

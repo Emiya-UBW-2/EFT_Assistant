@@ -1,20 +1,24 @@
+IDstr=5c1bc5fb2e221602b1779b32
 Name=Zenit RK-4 tactical foregrip
 ShortName=RK-4
 Itemtype=Foregrip
+Conflict=[
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
+]
 Recoil=-2.000000
 Ergonomics=4.000000
 Information_Eng=The RK-4 foregrip can be installed on the lower part of handguards with a Weaver rail. It provides better operational control of a weapon during firing. Manufactured by Zenit.
 basePrice=5890
 width=1
 height=1
-avg24hPrice=15374
+avg24hPrice=14586
 low24hPrice=9945
-lastOfferCount=21
+lastOfferCount=24
 Sell_Prapor=2945
 Sell_Fence=2356
 Sell_Skier=2886
 Sell_Peacekeeper=23
 Sell_Mechanic=3298
-Sell_Flea Market=11000
+Sell_Flea Market=9999
 weight=0.127000
-fleaMarketFee=1068
+fleaMarketFee=946

@@ -1,3 +1,4 @@
+IDstr=59e6284f86f77440d569536f
 Name=VPO-136 "Vepr-KM" wooden handguard
 ShortName=VPO136
 Itemtype=Handguard

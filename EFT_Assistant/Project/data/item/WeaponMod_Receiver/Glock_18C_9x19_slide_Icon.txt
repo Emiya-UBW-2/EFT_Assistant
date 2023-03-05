@@ -1,3 +1,4 @@
+IDstr=5b1faa0f5acfc40dc528aeb5
 Name=Glock 18C 9x19 pistol slide
 ShortName=G18C
 Itemtype=Receiver

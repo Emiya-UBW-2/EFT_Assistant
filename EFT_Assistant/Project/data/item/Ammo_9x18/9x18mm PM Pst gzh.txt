@@ -1,3 +1,4 @@
+IDstr=5737201124597760fc4431f1
 Name=9x18mm PM Pst gzh
 ShortName=Pst
 Itemtype=Ammo

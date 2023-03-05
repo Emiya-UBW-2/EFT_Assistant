@@ -1,3 +1,4 @@
+IDstr=5ba26b01d4351e0085325a51
 Name=HK MP7 flip-up front sight
 ShortName=MP7 FS
 Itemtype=Ironsight

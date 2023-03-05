@@ -1,3 +1,4 @@
+IDstr=603372d154072b51b239f9e1
 Name=STM-9 9x19 12 inch barrel
 ShortName=STM-9 12"
 Itemtype=Barrel
@@ -16,9 +17,9 @@ Conflict=[
 	R11 RSASS handguard,
 	AR-15 Lone Star Ion Lite handguard,
 	AR-15 SAI 14.5 inch QD Rail handguard,
+	AR-15 Unique-ARs Wing & Skull 12 inch handguard,
 	AR-15 War Sport LVOA-C handguard (Black),
-	AR-15 War Sport LVOA-S handguard (Black),
-	AR-15 Soyuz-TM 15 inch M-LOK handguard,
+	AR-15 War Sport LVOA-S handguard (Black)
 ]
 Recoil=-5.000000
 Ergonomics=-12.000000
@@ -26,8 +27,8 @@ Information_Eng=A 12 inches (304mm) long barrel for the STM-9 carbine, chambered
 basePrice=7500
 width=2
 height=1
-avg24hPrice=17752
-low24hPrice=12000
+avg24hPrice=18969
+low24hPrice=13000
 lastOfferCount=3
 Sell_Prapor=3750
 Sell_Fence=3000

@@ -1,3 +1,4 @@
+IDstr=62330b3ed4dc74626d570b95
 Name=.357 Magnum FMJ
 ShortName=FMJ
 Itemtype=Ammo
@@ -7,7 +8,7 @@ Information_Eng=An American-made high-power .357 Magnum revolver cartridge manuf
 basePrice=142
 width=1
 height=1
-avg24hPrice=399
+avg24hPrice=499
 low24hPrice=299
 lastOfferCount=1
 Sell_Prapor=71

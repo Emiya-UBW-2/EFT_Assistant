@@ -1,3 +1,4 @@
+IDstr=5c0a840b86f7742ffa4f2482
 Name=T H I C C item case
 ShortName=T H I C C
 Itemtype=Common container

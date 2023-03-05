@@ -1,6 +1,10 @@
+IDstr=5ca2113f86f7740b2547e1d2
 Name=Vulkan-5 face shield
 ShortName=Vulkan-5 FS
 Itemtype=Armored equipment
+Conflict=[
+	Pestily plague mask,
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A special armored face shield for the Vulkan-5 heavy helmet. Increases the chances of surviving the impacts of bullets and shrapnel.

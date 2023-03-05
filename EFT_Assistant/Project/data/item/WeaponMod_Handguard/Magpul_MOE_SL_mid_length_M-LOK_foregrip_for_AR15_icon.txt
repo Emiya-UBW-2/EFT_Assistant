@@ -1,3 +1,4 @@
+IDstr=5c78f26f2e221601da3581d1
 Name=AR-15 Magpul MOE SL medium length M-LOK handguard
 ShortName=MOE SL
 Itemtype=Handguard
@@ -16,10 +17,7 @@ ChildParts=[
 Conflict=[
 	AR-10 JP Enterprises Gas System-6,
 	AR-15 5.56x45 260mm barrel,
-	AR-15 5.56x45 370mm barrel,
-	AR-15 5.56x45 18 inch barrel,
-	AR-15 5.56x45 20 inch barrel,
-	M203 40mm underbarrel grenade launcher,
+	AR-15 5.56x45 370mm barrel
 ]
 Recoil=-1.000000
 Ergonomics=10.000000
@@ -27,14 +25,14 @@ Information_Eng=The Magpul MOE SL medium length handguard for AR-15 systems, equ
 basePrice=11100
 width=2
 height=1
-avg24hPrice=16274
-low24hPrice=12333
-lastOfferCount=12
+avg24hPrice=16763
+low24hPrice=12699
+lastOfferCount=11
 Sell_Prapor=5550
 Sell_Fence=4440
 Sell_Skier=5439
 Sell_Peacekeeper=43
 Sell_Mechanic=6216
-Sell_Flea Market=13000
+Sell_Flea Market=15000
 weight=0.230000
-fleaMarketFee=1195
+fleaMarketFee=1374

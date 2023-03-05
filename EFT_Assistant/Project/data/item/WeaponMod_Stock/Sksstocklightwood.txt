@@ -1,3 +1,4 @@
+IDstr=587e0531245977466077a0f7
 Name=OP-SKS wooden stock
 ShortName=OP-SKS Wood
 Itemtype=Stock

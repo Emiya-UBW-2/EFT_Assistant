@@ -1,20 +1,24 @@
+IDstr=5b099a9d5acfc47a8607efe7
 Name=SA-58 quad rail handguard
 ShortName=SA58 4Rail
 Itemtype=Handguard
+Conflict=[
+	SA-58 7.62x51 21 inch barrel,
+]
 Recoil=0.000000
 Ergonomics=7.000000
 Information_Eng=A quad rail handguard for SA-58 rifles, manufactured by DS Arms. Equipped with 4 mounts for installation of additional devices and accessories.
 basePrice=8637
 width=2
 height=1
-avg24hPrice=14528
+avg24hPrice=15659
 low24hPrice=7500
-lastOfferCount=8
+lastOfferCount=5
 Sell_Prapor=4318
 Sell_Fence=3454
 Sell_Skier=4232
 Sell_Peacekeeper=34
 Sell_Mechanic=4836
-Sell_Flea Market=13000
+Sell_Flea Market=14500
 weight=0.480000
-fleaMarketFee=1203
+fleaMarketFee=1369

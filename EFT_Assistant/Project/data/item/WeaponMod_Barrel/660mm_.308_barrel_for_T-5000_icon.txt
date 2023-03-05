@@ -1,3 +1,4 @@
+IDstr=5df256570dee1b22f862e9c4
 Name=T-5000M 7.62x51 660mm barrel
 ShortName=T-5000M 660mm
 Itemtype=Barrel

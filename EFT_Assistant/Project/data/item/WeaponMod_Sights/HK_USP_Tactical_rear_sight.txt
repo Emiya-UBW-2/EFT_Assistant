@@ -1,3 +1,4 @@
+IDstr=6194f2df645b5d229654ad77
 Name=HK USP Tactical rear sight
 ShortName=USPT RS
 Itemtype=Ironsight
@@ -8,7 +9,7 @@ Information_Eng=A rear sight for the special version of the USP pistol - USP Tac
 basePrice=800
 width=1
 height=1
-avg24hPrice=16926
+avg24hPrice=16181
 low24hPrice=7998
 lastOfferCount=3
 Sell_Prapor=400

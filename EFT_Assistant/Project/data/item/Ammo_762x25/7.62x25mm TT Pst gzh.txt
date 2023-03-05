@@ -1,3 +1,4 @@
+IDstr=573603562459776430731618
 Name=7.62x25mm TT Pst gzh
 ShortName=Pst
 Itemtype=Ammo

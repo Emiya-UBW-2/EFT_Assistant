@@ -1,3 +1,4 @@
+IDstr=560835c74bdc2dc8488b456f
 Name=MP-133 12ga 510mm barrel with rib
 ShortName=MP133 510mm rib
 Itemtype=Barrel

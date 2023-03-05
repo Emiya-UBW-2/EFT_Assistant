@@ -1,3 +1,4 @@
+IDstr=5648b0744bdc2d363b8b4578
 Name=AK-74 wooden handguard (6P20 Sb.6)
 ShortName=6P20 Sb.6
 Itemtype=Handguard

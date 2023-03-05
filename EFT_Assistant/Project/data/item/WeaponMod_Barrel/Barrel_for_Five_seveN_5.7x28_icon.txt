@@ -1,3 +1,4 @@
+IDstr=5d3eb5b6a4b9361eab311902
 Name=FN Five-seveN 5.7x28 barrel
 ShortName=5-7 barrel
 Itemtype=Barrel

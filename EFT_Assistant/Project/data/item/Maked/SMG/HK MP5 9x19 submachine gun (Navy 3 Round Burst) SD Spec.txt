@@ -1,3 +1,4 @@
+IDstr=618aafe23c1dcf601e0327db
 Name=HK MP5 9x19 submachine gun (Navy 3 Round Burst) SD Spec
 ShortName=MP5 SD Spec
 Itemtype=SMG

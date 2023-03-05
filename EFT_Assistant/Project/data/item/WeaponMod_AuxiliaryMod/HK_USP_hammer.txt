@@ -1,3 +1,4 @@
+IDstr=6193d3be7c6c7b169525f0da
 Name=HK USP hammer
 ShortName=USP ham.
 Itemtype=Auxiliary Mod
@@ -7,9 +8,9 @@ Information_Eng=A standard-issue hammer for the USP pistol, manufactured by Heck
 basePrice=750
 width=1
 height=1
-avg24hPrice=5500
+avg24hPrice=13944
 low24hPrice=4000
-lastOfferCount=1
+lastOfferCount=12
 Sell_Prapor=375
 Sell_Fence=300
 Sell_Skier=367

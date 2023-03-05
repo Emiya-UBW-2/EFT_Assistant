@@ -1,19 +1,25 @@
+IDstr=603619720ca681766b6a0fc4
 Name=Army cap (Coyote Tan)
 ShortName=Cap
 Itemtype=Headwear
+Conflict=[
+	Faceless mask,
+	Ghoul mask,
+	GP-7 gas mask,
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A regular army cap, colored in coyote tan.
 basePrice=1353
 width=1
 height=1
-avg24hPrice=8662
+avg24hPrice=8627
 low24hPrice=4000
-lastOfferCount=7
+lastOfferCount=1
 Sell_Fence=541
 Sell_Skier=662
 Sell_Peacekeeper=5
 Sell_Ragman=838
-Sell_Flea Market=4000
+Sell_Flea Market=12000
 weight=0.100000
-fleaMarketFee=468
+fleaMarketFee=2677

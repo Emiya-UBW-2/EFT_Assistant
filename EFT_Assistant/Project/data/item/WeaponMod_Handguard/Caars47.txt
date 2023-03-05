@@ -1,3 +1,4 @@
+IDstr=5648ae314bdc2d3d1c8b457f
 Name=AK CAA RS47 handguard
 ShortName=RS47
 Itemtype=Handguard
@@ -86,6 +87,7 @@ ChildParts=[
 ]
 Conflict=[
 	AK Zenit B-33 dust cover,
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
 ]
 Recoil=-2.000000
 Ergonomics=7.000000
@@ -93,14 +95,14 @@ Information_Eng=The RS47 lightweight polymer handguard, fits the majority of rif
 basePrice=10638
 width=1
 height=1
-avg24hPrice=13848
+avg24hPrice=13925
 low24hPrice=10000
-lastOfferCount=20
+lastOfferCount=9
 Sell_Prapor=5319
 Sell_Fence=4255
 Sell_Skier=5212
 Sell_Peacekeeper=42
 Sell_Mechanic=5957
-Sell_Flea Market=12000
+Sell_Flea Market=10000
 weight=0.220000
-fleaMarketFee=1109
+fleaMarketFee=961

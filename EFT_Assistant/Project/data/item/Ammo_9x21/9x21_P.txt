@@ -1,3 +1,4 @@
+IDstr=5a26abfac4a28232980eabff
 Name=9x21mm P gzh
 ShortName=P
 Itemtype=Ammo
@@ -7,8 +8,8 @@ Information_Eng=A 9x21mm Gyurza P gzh (SP11, GRAU Index - 7N28) cartridge with a
 basePrice=150
 width=1
 height=1
-avg24hPrice=893
-low24hPrice=288
+avg24hPrice=907
+low24hPrice=600
 lastOfferCount=9
 Sell_Prapor=75
 Sell_Fence=60

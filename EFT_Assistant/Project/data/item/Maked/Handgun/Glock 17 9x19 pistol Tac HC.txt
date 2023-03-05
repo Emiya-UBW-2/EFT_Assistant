@@ -1,3 +1,4 @@
+IDstr=5a8c436686f7740f394d10b5
 Name=Glock 17 9x19 pistol Tac HC
 ShortName=Glock 17 Tac HC
 Itemtype=Handgun

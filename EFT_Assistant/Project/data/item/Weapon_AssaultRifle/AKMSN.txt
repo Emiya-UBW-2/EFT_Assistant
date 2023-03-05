@@ -1,3 +1,4 @@
+IDstr=5abcbc27d8ce8700182eceeb
 Name=Kalashnikov AKMSN 7.62x39 assault rifle
 ShortName=AKMSN
 Itemtype=Assault rifle
@@ -114,20 +115,23 @@ ChildParts=[
 ChildParts=[
 	GP-25 "Kostyor" 40mm underbarrel grenade launcher
 ]
+Conflict=[
+	Hera Arms CQR tactical foregrip,
+]
 Recoil=190.000000
 Ergonomics=24.000000
 Information_Eng=AKMSN 7.62x39 (Avtomát Kaláshnikova Modernizírovanny Skladnóy Nochnóy - "Kalashnikov's Automatic rifle Modernised Night with a foldable stock") is a modified AKMS automatic rifle with a dovetail mount for installation of the NSP family night vision scopes — NSP-2/3/3A, NSPU, NSPU-M.
 basePrice=28972
 width=4
 height=1
-avg24hPrice=23466
+avg24hPrice=23573
 low24hPrice=18000
-lastOfferCount=25
+lastOfferCount=22
 Sell_Prapor=14486
 Sell_Fence=11588
 Sell_Skier=14196
 Sell_Peacekeeper=113
 Sell_Mechanic=16224
-Sell_Flea Market=19000
+Sell_Flea Market=22800
 weight=2.092000
-fleaMarketFee=2150
+fleaMarketFee=2328

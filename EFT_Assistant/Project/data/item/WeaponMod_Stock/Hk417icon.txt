@@ -1,3 +1,4 @@
+IDstr=617154aa1cb55961fa0fdb3b
 Name=HK417 E2 buttstock
 ShortName=HK E2
 Itemtype=Stock
@@ -7,8 +8,8 @@ Information_Eng=The E2 telescopic stock is designed as a replacement for standar
 basePrice=9200
 width=2
 height=1
-avg24hPrice=7794
-low24hPrice=4000
+avg24hPrice=7536
+low24hPrice=5400
 lastOfferCount=2
 Sell_Prapor=4600
 Sell_Fence=3680

@@ -1,3 +1,4 @@
+IDstr=6357c98711fb55120211f7e1
 Name=M203 40mm underbarrel grenade launcher
 ShortName=M203
 Itemtype=UBGL
@@ -30,7 +31,7 @@ Conflict=[
 	AR-15 Aeroknox AX-15 10.5 inch M-LOK handguard,
 	AR-15 ADAR 2-15 wooden handguard,
 	5.56x45 Magpul PMAG D-60 STANAG 60-round magazine,
-	AR-15 Precision Reflex GEN III Delta Carbon handguard,
+	AR-15 Precision Reflex GEN III Delta Carbon handguard
 ]
 Recoil=-10.000000
 Ergonomics=-41.000000

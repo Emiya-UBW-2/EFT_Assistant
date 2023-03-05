@@ -1,3 +1,4 @@
+IDstr=58864a4f2459770fcc257101
 Name=9x19mm PSO gzh
 ShortName=PSO
 Itemtype=Ammo

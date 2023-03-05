@@ -1,14 +1,20 @@
+IDstr=60361b5a9a15b10d96792291
 Name=Army cap (UCP)
 ShortName=Cap
 Itemtype=Headwear
+Conflict=[
+	Faceless mask,
+	Ghoul mask,
+	GP-7 gas mask,
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A regular army cap, colored in UCP camouflage.
 basePrice=2353
 width=1
 height=1
-avg24hPrice=5916
-low24hPrice=2222
+avg24hPrice=7500
+low24hPrice=5000
 lastOfferCount=2
 Sell_Fence=941
 Sell_Skier=1152

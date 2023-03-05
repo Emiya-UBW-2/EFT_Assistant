@@ -1,3 +1,4 @@
+IDstr=5ba3a078d4351e00334c96ca
 Name=Kalashnikov AKM 7.62x39 assault rifle (AKMB)
 ShortName=AKM (AKMB)
 Itemtype=Assault rifle

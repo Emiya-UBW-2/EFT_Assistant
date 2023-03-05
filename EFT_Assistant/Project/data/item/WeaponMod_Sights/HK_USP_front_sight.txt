@@ -1,3 +1,4 @@
+IDstr=6194f35c18a3974e5e7421e6
 Name=HK USP front sight
 ShortName=USP FS
 Itemtype=Ironsight

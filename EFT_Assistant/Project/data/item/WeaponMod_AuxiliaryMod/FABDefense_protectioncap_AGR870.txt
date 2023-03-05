@@ -1,3 +1,4 @@
+IDstr=5bfe86bd0db83400232fe959
 Name=FAB Defense protection cap for AGR-870
 ShortName=AGR-870 cap
 Itemtype=Auxiliary Mod

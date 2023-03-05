@@ -1,3 +1,4 @@
+IDstr=630767c37d50ff5e8a1ea71a
 Name=Glock 9x19 "Big Stick" 31-round magazine (Coyote)
 ShortName=Big Stick
 Itemtype=Magazine
@@ -7,7 +8,7 @@ Information_Eng=A factory-produced 31-round 9x19 magazine for Glock pistols. Coy
 basePrice=2956
 width=1
 height=2
-avg24hPrice=19095
+avg24hPrice=19124
 low24hPrice=10000
 lastOfferCount=7
 Sell_Prapor=1478

@@ -1,21 +1,26 @@
+IDstr=5b31163c5acfc400153b71cb
 Name=SIG Sauer ROMEO sight mount
 ShortName=ROMEO
 Itemtype=Mount
+Conflict=[
+	AR-15 Colt A2 rear sight,
+	AR-15 rear sight carry handle,
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=The SIG Sauer mount base for ROMEO-type reflex sights.
 basePrice=1861
 width=1
 height=1
-avg24hPrice=9734
+avg24hPrice=9201
 low24hPrice=2222
-lastOfferCount=10
+lastOfferCount=6
 Sell_Prapor=930
 Sell_Fence=744
 Sell_Skier=911
 Sell_Peacekeeper=7
 Sell_Mechanic=1042
 Sell_Jaeger=1116
-Sell_Flea Market=2222
+Sell_Flea Market=3500
 weight=0.015000
-fleaMarketFee=204
+fleaMarketFee=340

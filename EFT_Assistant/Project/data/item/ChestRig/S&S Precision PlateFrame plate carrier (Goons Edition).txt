@@ -1,3 +1,4 @@
+IDstr=628b9784bcf6e2659e09b8a2
 Name=S&S Precision PlateFrame plate carrier (Goons Edition)
 ShortName=PlateFrame GE
 Itemtype=Chest rig

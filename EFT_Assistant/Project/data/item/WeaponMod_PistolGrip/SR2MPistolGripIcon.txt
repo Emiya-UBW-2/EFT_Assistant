@@ -1,3 +1,4 @@
+IDstr=637b9c37b7e3bc41b21ce71a
 Name=SR-2M pistol grip
 ShortName=SR-2M
 Itemtype=Pistol grip

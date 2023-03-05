@@ -1,3 +1,4 @@
+IDstr=5d6e68c4a4b9361b93413f79
 Name=12/70 makeshift .50 BMG slug
 ShortName=.50 BMG
 Itemtype=Ammo

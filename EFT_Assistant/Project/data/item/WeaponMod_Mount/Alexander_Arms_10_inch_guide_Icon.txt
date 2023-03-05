@@ -1,3 +1,4 @@
+IDstr=5b30bc285acfc47a8608615d
 Name=Alexander Arms 10 inch rail
 ShortName=MK10 10"
 Itemtype=Mount
@@ -8,7 +9,7 @@ basePrice=2579
 width=1
 height=1
 avg24hPrice=249999
-low24hPrice=70000
+low24hPrice=400000
 lastOfferCount=1
 Sell_Prapor=1289
 Sell_Fence=1031

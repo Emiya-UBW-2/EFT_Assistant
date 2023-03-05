@@ -1,3 +1,4 @@
+IDstr=5dd7f8c524e5d7504a4e3077
 Name=Kalashnikov AK-74 5.45x39 assault rifle Plum
 ShortName=AK-74 Plum
 Itemtype=Assault rifle

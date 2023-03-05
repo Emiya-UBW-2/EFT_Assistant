@@ -1,3 +1,4 @@
+IDstr=6065dc8a132d4d12c81fd8e3
 Name=AR-10 CMMG low profile gas block
 ShortName=CMMG
 Itemtype=Gas block
@@ -7,9 +8,9 @@ Information_Eng=A low-profile gas block designed for AR-10 weapon systems and th
 basePrice=8250
 width=1
 height=1
-avg24hPrice=16654
-low24hPrice=9420
-lastOfferCount=33
+avg24hPrice=16676
+low24hPrice=10000
+lastOfferCount=16
 Sell_Prapor=4125
 Sell_Fence=3300
 Sell_Skier=4042

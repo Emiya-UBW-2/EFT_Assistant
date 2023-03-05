@@ -1,19 +1,23 @@
+IDstr=5aa2b9aee5b5b00015693121
 Name=RayBench Hipster Reserve sunglasses
 ShortName=RayBench
 Itemtype=Vis. observ. device
+Conflict=[
+	SSSh-94 SFERA-S helmet,
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=If you want to be an icon of style, then these glasses are for you. Smoothie as a gift.
 basePrice=3580
 width=2
 height=1
-avg24hPrice=10980
+avg24hPrice=10678
 low24hPrice=6666
-lastOfferCount=18
+lastOfferCount=21
 Sell_Fence=1432
 Sell_Skier=1754
 Sell_Peacekeeper=14
 Sell_Ragman=2219
-Sell_Flea Market=8500
+Sell_Flea Market=7666
 weight=0.080000
-fleaMarketFee=900
+fleaMarketFee=779

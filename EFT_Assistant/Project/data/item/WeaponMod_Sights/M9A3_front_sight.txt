@@ -1,3 +1,4 @@
+IDstr=5cadd919ae921500126a77f3
 Name=M9A3 front sight
 ShortName=M9A3 FS
 Itemtype=Ironsight

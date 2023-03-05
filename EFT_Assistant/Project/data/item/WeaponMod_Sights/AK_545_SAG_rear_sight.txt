@@ -1,3 +1,4 @@
+IDstr=628b9471078f94059a4b9bfb
 Name=AK-545 SAG rear sight
 ShortName=AK-545 RS
 Itemtype=Ironsight
@@ -8,8 +9,8 @@ Information_Eng=A standard rear sight for AK-545 carbines, manufactured by Sures
 basePrice=700
 width=1
 height=1
-avg24hPrice=20000
-low24hPrice=20000
+avg24hPrice=0
+low24hPrice=0
 lastOfferCount=1
 Sell_Prapor=350
 Sell_Fence=280

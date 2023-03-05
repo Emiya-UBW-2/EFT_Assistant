@@ -1,3 +1,4 @@
+IDstr=6196255558ef8c428c287d1c
 Name=HK USP rail adapter
 ShortName=USP rail
 Itemtype=Mount
@@ -7,8 +8,8 @@ Information_Eng=An adapter for the USP pistol that allows the installation of ad
 basePrice=1500
 width=1
 height=1
-avg24hPrice=12466
-low24hPrice=5000
+avg24hPrice=13500
+low24hPrice=12000
 lastOfferCount=3
 Sell_Prapor=750
 Sell_Fence=600

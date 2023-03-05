@@ -1,3 +1,4 @@
+IDstr=62e910aaf957f2915e0a5e36
 Name=Digital secure DSP radio transmitter
 ShortName=DSPT
 Itemtype=Radio Transmitter

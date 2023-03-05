@@ -1,3 +1,4 @@
+IDstr=5fce0f9b55375d18a253eff2
 Name=KRISS Vector side rail
 ShortName=Vector side
 Itemtype=Mount
@@ -17,21 +18,24 @@ ChildParts=[
 	Zenit Klesch-2U tactical flashlight,
 	Zenit Perst-3 tactical device
 ]
+Conflict=[
+	KRISS Vector Mk.5 modular rail,
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A side rail for the KRISS Vector submachine gun, allows installation of additional tactical equipment.
 basePrice=1033
 width=1
 height=1
-avg24hPrice=14002
+avg24hPrice=12908
 low24hPrice=4000
-lastOfferCount=18
+lastOfferCount=14
 Sell_Prapor=516
 Sell_Fence=413
 Sell_Skier=506
 Sell_Peacekeeper=4
 Sell_Mechanic=578
 Sell_Jaeger=619
-Sell_Flea Market=5000
+Sell_Flea Market=4000
 weight=0.050000
-fleaMarketFee=768
+fleaMarketFee=540

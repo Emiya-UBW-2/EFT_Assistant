@@ -1,3 +1,4 @@
+IDstr=5e81c550763d9f754677befd
 Name=M1911A1 hammer
 ShortName=1911 ham.
 Itemtype=Auxiliary Mod

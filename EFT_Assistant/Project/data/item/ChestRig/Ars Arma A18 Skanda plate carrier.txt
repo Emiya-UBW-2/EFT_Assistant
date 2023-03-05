@@ -1,3 +1,4 @@
+IDstr=5d5d87f786f77427997cfaef
 Name=Ars Arma A18 Skanda plate carrier
 ShortName=A18
 Itemtype=Chest rig

@@ -1,3 +1,4 @@
+IDstr=624c3074dbbd335e8e6becf3
 Name=Chiappa Rhino 9x19 6-round cylinder
 ShortName=CR cyl.
 Itemtype=Cylinder Magazine
@@ -7,7 +8,7 @@ Information_Eng=A 6-round 9x19 cylinder for Chiappa Rhino revolvers.
 basePrice=800
 width=1
 height=1
-avg24hPrice=9057
+avg24hPrice=9300
 low24hPrice=3500
 lastOfferCount=3
 Sell_Prapor=400

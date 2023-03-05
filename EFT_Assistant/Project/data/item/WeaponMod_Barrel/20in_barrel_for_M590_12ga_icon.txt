@@ -1,3 +1,4 @@
+IDstr=5e87071478f43e51ca2de5e1
 Name=Mossberg 590A1 12ga 20 inch barrel
 ShortName=590 20"
 Itemtype=Barrel

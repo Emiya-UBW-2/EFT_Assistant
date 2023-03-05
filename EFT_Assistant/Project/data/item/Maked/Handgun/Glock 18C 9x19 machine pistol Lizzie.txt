@@ -1,3 +1,4 @@
+IDstr=628753ee0c9eb3366b5218d4
 Name=Glock 18C 9x19 machine pistol Lizzie
 ShortName=Glock 18C Lizzie
 Itemtype=Handgun

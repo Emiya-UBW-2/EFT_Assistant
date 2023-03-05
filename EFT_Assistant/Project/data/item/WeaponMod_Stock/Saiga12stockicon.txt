@@ -1,3 +1,4 @@
+IDstr=57616ca52459773c69055192
 Name=SOK-12 AK-style stock
 ShortName=SOK12 AK
 Itemtype=Stock
@@ -7,7 +8,7 @@ Information_Eng=A folding polymer AK-styled stock for SOK-12, manufactured by Iz
 basePrice=1661
 width=2
 height=1
-avg24hPrice=8611
+avg24hPrice=8071
 low24hPrice=1600
 lastOfferCount=1
 Sell_Prapor=830

@@ -1,3 +1,4 @@
+IDstr=5c94bbff86f7747ee735c08f
 Name=TerraGroup Labs access keycard
 ShortName=Access
 Itemtype=Keycard

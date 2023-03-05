@@ -1,3 +1,4 @@
+IDstr=612e0e04568c120fdd294258
 Name=AWC PSR muzzle brake protector
 ShortName=PSR prot
 Itemtype=Comb. muzzle device

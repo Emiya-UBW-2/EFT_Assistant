@@ -1,3 +1,4 @@
+IDstr=5ede47405b097655935d7d16
 Name=40x46mm M441 (HE) grenade
 ShortName=M441
 Itemtype=Ammo

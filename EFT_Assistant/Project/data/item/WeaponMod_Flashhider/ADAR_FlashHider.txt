@@ -1,3 +1,4 @@
+IDstr=5c0fafb6d174af02a96260ba
 Name=AR-15 ADAR 2-15 5.56x45 flash hider
 ShortName=ADAR
 Itemtype=Flashhider
@@ -10,9 +11,9 @@ Information_Eng=A standard-issue 5.56x45 flash hider for the ADAR 2-15 carbines.
 basePrice=907
 width=1
 height=1
-avg24hPrice=19642
+avg24hPrice=19113
 low24hPrice=10000
-lastOfferCount=13
+lastOfferCount=8
 Sell_Prapor=453
 Sell_Fence=362
 Sell_Skier=444

@@ -1,3 +1,4 @@
+IDstr=5e81c6a2ac2bb513793cdc7f
 Name=M1911A1 trigger
 ShortName=1911 trig.
 Itemtype=Auxiliary Mod

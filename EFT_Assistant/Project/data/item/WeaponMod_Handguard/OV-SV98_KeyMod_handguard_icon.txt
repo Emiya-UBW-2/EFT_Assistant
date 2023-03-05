@@ -1,3 +1,4 @@
+IDstr=623c3c1f37b4b31470357737
 Name=SV-98 CNC Guns OV-SV98 KeyMod handguard
 ShortName=OV KM
 Itemtype=Handguard
@@ -8,13 +9,16 @@ ChildParts=[
 	Vltor CASV KeyMod 2 inch rail,
 	Vltor CASV KeyMod 4 inch rail
 ]
+Conflict=[
+	SV-98 anti-heat ribbon
+]
 Recoil=-2.000000
 Ergonomics=9.000000
 Information_Eng=CNC Guns Keymod System aircraft-grade aluminum handguard for the OV-SV98 stock with KeyMod slots for rail installation.
 basePrice=8000
 width=2
 height=1
-avg24hPrice=13550
+avg24hPrice=14228
 low24hPrice=9000
 lastOfferCount=12
 Sell_Prapor=4000
@@ -22,6 +26,6 @@ Sell_Fence=3200
 Sell_Skier=3920
 Sell_Peacekeeper=31
 Sell_Mechanic=4480
-Sell_Flea Market=11500
+Sell_Flea Market=12222
 weight=0.330000
-fleaMarketFee=1058
+fleaMarketFee=1133

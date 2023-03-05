@@ -32,7 +32,7 @@ namespace FPS_n2 {
 					bool IsHit = false;
 					int  Now = 0;
 					for (const auto& cID2 : GetMySlotData().Data) {
-						if (PlayerData::Instance()->GetItemLock(cID2.first->GetName().c_str())) {
+						if (PlayerData::Instance()->GetItemLock(cID2.first->GetIDstr().c_str())) {
 							IsHit = true;
 							break;
 						}
@@ -270,7 +270,7 @@ namespace FPS_n2 {
 					//
 					auto& cID = m_ChildData.back();
 					for (const auto& cID2 : m_ChildData.back().GetMySlotData().Data) {
-						if (PlayerData::Instance()->GetItemLock(cID2.first->GetName().c_str())) {
+						if (PlayerData::Instance()->GetItemLock(cID2.first->GetIDstr().c_str())) {
 							break;
 						}
 						cID.AddSelect();
@@ -470,10 +470,10 @@ namespace FPS_n2 {
 									//ƒƒbƒN‚ð‚©‚¯‚é
 									for (const auto& cID2 : cID.GetMySlotData().Data) {
 										if (cID.GetChildPtr() != cID2.first) {
-											PlayerData::Instance()->SetItemLock(cID2.first->GetName().c_str(), false);
+											PlayerData::Instance()->SetItemLock(cID2.first->GetIDstr().c_str(), false);
 										}
 									}
-									PlayerData::Instance()->OnOffItemLock(cID.GetChildPtr()->GetName().c_str());
+									PlayerData::Instance()->OnOffItemLock(cID.GetChildPtr()->GetIDstr().c_str());
 								}
 								DrawControl::Instance()->SetString(DrawLayer::Front,
 									FontPool::FontType::Nomal_Edge, LineHeight,

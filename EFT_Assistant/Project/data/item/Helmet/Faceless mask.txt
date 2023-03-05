@@ -1,19 +1,92 @@
+IDstr=6176a48d732a664031271438
 Name=Faceless mask
 ShortName=Faceless
 Itemtype=Face Cover
+Conflict=[
+	Army cap,
+	Baseball cap,
+	BEAR baseball cap (Green),
+	USEC baseball cap (Tan),
+	EMERCOM cap,
+	Police cap,
+	Santa hat,
+	UX PRO beanie,
+	Kinda cowboy hat,
+	Tactical fleece beanie,
+	Ski hat with holes for eyes,
+	FORT Kiver-M bulletproof helmet,
+	6B47 Ratnik-BSh helmet (Digital Flora cover),
+	Altyn bulletproof helmet,
+	Armasight NVG head strap,
+	TSh-4M-L soft tank crew helmet,
+	Kolpak-1S riot helmet,
+	MSA ACH TC-2001 MICH Series helmet,
+	MSA ACH TC-2002 MICH Series helmet,
+	Ops-Core FAST MT Super High Cut helmet (Black),
+	Ops-Core FAST MT Super High Cut helmet (Tan),
+	6B47 Ratnik-BSh helmet,
+	SSSh-94 SFERA-S helmet,
+	UNTAR helmet,
+	Wilcox Skull Lock head mount,
+	ZSh-1-2M helmet,
+	ZSh-1-2M helmet (Black cover),
+	Rivals 2020 cap,
+	DevTac Ronin ballistic helmet,
+	Bandana,
+	BEAR baseball cap (Black),
+	Beret (Black),
+	Beret (Blue),
+	Beret (Olive),
+	Bomber beanie,
+	Door Kicker boonie hat,
+	Kotton beanie,
+	Army cap (Black),
+	Army cap (Coyote Tan),
+	Army cap (CADPAT),
+	Army cap (Flora),
+	Army cap (Desert),
+	Army cap (UCP),
+	MIL-TEC boonie hat,
+	Stich Profi Chimera boonie hat,
+	Pompon hat,
+	Rivals 2020 beanie,
+	BOSS cap,
+	USEC baseball cap (Black),
+	HighCom Striker ACHHC IIIA helmet (Black),
+	HighCom Striker ACHHC IIIA helmet (Olive),
+	LShZ light helmet,
+	HighCom Striker ULACH IIIA helmet (Black),
+	HighCom Striker ULACH IIIA helmet (Desert Tan),
+	Crye Precision AirFrame helmet (Tan),
+	Diamond Age Bastion helmet,
+	Galvion Caiman Hybrid helmet,
+	Tac-Kek FAST MT helmet (replica),
+	BNTI LShZ-2DTM helmet,
+	Maska-1SCh bulletproof helmet (Olive Drab),
+	Maska-1SCh bulletproof helmet (Killa),
+	PSh-97 DJETA riot helmet,
+	ShPM Firefighter helmet,
+	SSh-68 steel helmet,
+	MSA Gallet TC 800 High Cut combat helmet,
+	Team Wendy EXFIL Ballistic Helmet (Black),
+	Team Wendy EXFIL Ballistic Helmet (Coyote Brown),
+	Vulkan-5 (LShZ-5) bulletproof helmet,
+	Jack-o'-lantern tactical pumpkin helmet,
+	Beanie
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A scary mask from some famous animated movie.
 basePrice=21125
 width=2
 height=2
-avg24hPrice=19802
-low24hPrice=12333
-lastOfferCount=15
+avg24hPrice=19754
+low24hPrice=14800
+lastOfferCount=19
 Sell_Fence=8450
 Sell_Skier=10351
 Sell_Peacekeeper=83
 Sell_Ragman=13097
-Sell_Flea Market=16999
+Sell_Flea Market=14800
 weight=0.200000
-fleaMarketFee=1719
+fleaMarketFee=1606

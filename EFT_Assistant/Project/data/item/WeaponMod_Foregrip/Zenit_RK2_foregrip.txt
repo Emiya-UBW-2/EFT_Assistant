@@ -1,20 +1,24 @@
+IDstr=5c1bc5af2e221602b412949b
 Name=Zenit RK-2 tactical foregrip
 ShortName=RK-2
 Itemtype=Foregrip
+Conflict=[
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
+]
 Recoil=-4.000000
 Ergonomics=-8.000000
 Information_Eng=The RK-2 foregrip can be installed on the lower part of handguards with a Weaver rail. It provides better operational control of a weapon during firing. Manufactured by Zenit.
 basePrice=12670
 width=1
 height=1
-avg24hPrice=70686
-low24hPrice=53999
-lastOfferCount=27
+avg24hPrice=69724
+low24hPrice=52525
+lastOfferCount=41
 Sell_Prapor=6335
 Sell_Fence=5068
 Sell_Skier=6208
 Sell_Peacekeeper=50
 Sell_Mechanic=7095
-Sell_Flea Market=60000
+Sell_Flea Market=60999
 weight=0.200000
-fleaMarketFee=9094
+fleaMarketFee=9335

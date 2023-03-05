@@ -1,3 +1,4 @@
+IDstr=619d272b0f9e4513744e7699
 Name=HK USP .45 ACP pistol Elite
 ShortName=USP .45 Elite
 Itemtype=Handgun

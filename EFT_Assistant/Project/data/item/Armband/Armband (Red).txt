@@ -1,3 +1,4 @@
+IDstr=5b3f3ade86f7746b6b790d8e
 Name=Armband (Red)
 ShortName=Armband
 Itemtype=Arm Band

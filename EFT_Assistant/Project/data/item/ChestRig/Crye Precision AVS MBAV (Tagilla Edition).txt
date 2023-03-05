@@ -1,3 +1,4 @@
+IDstr=609e860ebd219504d8507525
 Name=Crye Precision AVS MBAV (Tagilla Edition)
 ShortName=AVS MBAV
 Itemtype=Chest rig

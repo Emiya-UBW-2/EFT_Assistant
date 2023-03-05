@@ -1,13 +1,19 @@
+IDstr=5addbfe15acfc4001a5fc58b
 Name=M14 A.R.M.S. #18 scope mount
 ShortName=ARMS#18
 Itemtype=Mount
+Conflict=[
+	M14 SAGE International DCSB mount,
+	M14 Vltor CASV-14 rail system,
+	M14 TROY S.A.S.S. Chassis stock
+]
 Recoil=0.000000
 Ergonomics=-1.000000
 Information_Eng=The A.R.M.S. Inc. scope mount for M14 rifles. Made of 8620 case hardened steel. Equipped with a Weaver rail for installation of various scopes.
 basePrice=3217
 width=1
 height=1
-avg24hPrice=14599
+avg24hPrice=14854
 low24hPrice=6666
 lastOfferCount=15
 Sell_Prapor=1608
@@ -16,6 +22,6 @@ Sell_Skier=1576
 Sell_Peacekeeper=13
 Sell_Mechanic=1801
 Sell_Jaeger=1930
-Sell_Flea Market=9900
+Sell_Flea Market=9888
 weight=0.220000
-fleaMarketFee=1183
+fleaMarketFee=1180

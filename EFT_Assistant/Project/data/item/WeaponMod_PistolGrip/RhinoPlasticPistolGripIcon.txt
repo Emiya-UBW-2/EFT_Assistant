@@ -1,3 +1,4 @@
+IDstr=619f4ab2d25cbd424731fb95
 Name=Chiappa Rhino plastic pistol grip
 ShortName=CR pl.
 Itemtype=Pistol grip

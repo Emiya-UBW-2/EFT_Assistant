@@ -1,3 +1,4 @@
+IDstr=57c69dd424597774c03b7bbc
 Name=Lobaev Arms 30mm scope mount
 ShortName=Lobaev 30mm
 Itemtype=Mount
@@ -9,21 +10,28 @@ ChildParts=[
 	Vortex Razor HD Gen.2 1-6x24 30mm riflescope,
 	Schmidt & Bender PM II 1-8x24 30mm riflescope
 ]
+Conflict=[
+	AR-15 Colt A2 rear sight,
+	AR-15 rear sight carry handle,
+	HK G36 front sight,
+	Mosin Rifle carbine rear sight,
+	NSPU-M night vision scope,
+]
 Recoil=0.000000
 Ergonomics=-1.000000
 Information_Eng=A universal 30mm optical scope base mount by Lobaev Arms for installation on Picatinny rails.
 basePrice=4086
 width=2
 height=1
-avg24hPrice=24169
+avg24hPrice=21904
 low24hPrice=10000
-lastOfferCount=12
+lastOfferCount=10
 Sell_Prapor=2043
 Sell_Fence=1634
 Sell_Skier=2002
 Sell_Peacekeeper=16
 Sell_Mechanic=2288
 Sell_Jaeger=2451
-Sell_Flea Market=23999
+Sell_Flea Market=14000
 weight=0.250000
-fleaMarketFee=4138
+fleaMarketFee=1769

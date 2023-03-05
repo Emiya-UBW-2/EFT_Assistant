@@ -1,3 +1,4 @@
+IDstr=6034e3d953a60014f970617b
 Name=AR-15 Soyuz-TM 15 inch M-LOK handguard
 ShortName=STM 15"
 Itemtype=Handguard
@@ -34,8 +35,7 @@ Conflict=[
 	AR-15 5.56x45 260mm barrel,
 	AR-15 5.56x45 370mm barrel,
 	STM-9 9x19 10.5 inch barrel,
-	STM-9 9x19 12 inch barrel,
-	M203 40mm underbarrel grenade launcher,
+	STM-9 9x19 12 inch barrel
 ]
 Recoil=-1.000000
 Ergonomics=5.500000
@@ -43,14 +43,14 @@ Information_Eng=A 15 inch handguard for AR-15 systems equipped with an M-LOK int
 basePrice=15000
 width=3
 height=1
-avg24hPrice=25071
-low24hPrice=14000
-lastOfferCount=21
+avg24hPrice=24280
+low24hPrice=15000
+lastOfferCount=18
 Sell_Prapor=7500
 Sell_Fence=6000
 Sell_Skier=7350
 Sell_Peacekeeper=59
 Sell_Mechanic=8400
-Sell_Flea Market=17995
+Sell_Flea Market=17000
 weight=0.220000
-fleaMarketFee=1651
+fleaMarketFee=1570

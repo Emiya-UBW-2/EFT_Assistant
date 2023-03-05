@@ -1,20 +1,24 @@
+IDstr=56083eab4bdc2d26448b456a
 Name=SV-98 anti-heat ribbon
 ShortName=SV98 HR
 Itemtype=Auxiliary Mod
+Conflict=[
+	SV-98 CNC Guns OV-SV98 KeyMod handguard,
+]
 Recoil=0.000000
 Ergonomics=2.000000
 Information_Eng=An anti-heat ribbon for the SV-98 sniper rifle. Applied to the barrel. Prevents hot air from rising directly from the barrel and creating optical distortions in the line of fire.
 basePrice=2342
 width=1
 height=1
-avg24hPrice=8408
+avg24hPrice=8670
 low24hPrice=2540
-lastOfferCount=4
+lastOfferCount=1
 Sell_Prapor=1171
 Sell_Fence=936
 Sell_Skier=1147
 Sell_Peacekeeper=9
 Sell_Mechanic=1311
-Sell_Flea Market=2551
+Sell_Flea Market=4444
 weight=0.053000
-fleaMarketFee=237
+fleaMarketFee=433

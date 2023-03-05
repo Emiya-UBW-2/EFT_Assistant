@@ -1,3 +1,4 @@
+IDstr=5ac72e725acfc400180ae701
 Name=AK-102 5.56x45 muzzle brake-compensator (6P44 0-20)
 ShortName=6P44 0-20
 Itemtype=Flashhider

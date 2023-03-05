@@ -1,3 +1,4 @@
+IDstr=5a367e5dc4a282000e49738f
 Name=Remington R11 RSASS 7.62x51 marksman rifle
 ShortName=RSASS
 Itemtype=Marksman rifle

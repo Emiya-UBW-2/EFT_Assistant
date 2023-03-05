@@ -1,3 +1,4 @@
+IDstr=5addba3e5acfc4001669f0ab
 Name=M1A SA National Match .062 Blade front sight
 ShortName=.062 Blade
 Itemtype=Ironsight

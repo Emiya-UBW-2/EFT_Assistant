@@ -1,3 +1,4 @@
+IDstr=560837824bdc2d57468b4568
 Name=MP-133 12ga 750mm barrel
 ShortName=MP133 750mm
 Itemtype=Barrel
@@ -12,7 +13,7 @@ Information_Eng=A standard factory-produced 750mm barrel for MP-133 12 gauge sho
 basePrice=7062
 width=5
 height=1
-avg24hPrice=18200
+avg24hPrice=17750
 low24hPrice=15123
 lastOfferCount=2
 Sell_Prapor=3531

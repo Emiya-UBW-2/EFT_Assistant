@@ -1,3 +1,4 @@
+IDstr=5ab372a310e891001717f0d8
 Name=M14 TROY S.A.S.S. Chassis stock
 ShortName=S.A.S.S.
 Itemtype=Stock
@@ -146,7 +147,7 @@ ChildParts=[
 	MCX flip-up rear sight
 ]
 Conflict=[
-	M14 SA Enlarged Military Aperture rear sight,
+	M14 SA Enlarged Military Aperture rear sight
 ]
 Recoil=-10.000000
 Ergonomics=28.000000
@@ -154,15 +155,15 @@ Information_Eng=The TROY Semi-Automatic Sniper System chassis is designed to mat
 basePrice=36580
 width=3
 height=1
-avg24hPrice=42545
-low24hPrice=26777
-lastOfferCount=20
+avg24hPrice=43936
+low24hPrice=32000
+lastOfferCount=12
 Sell_Prapor=18290
 Sell_Fence=14632
 Sell_Skier=17924
 Sell_Peacekeeper=143
 Sell_Mechanic=20484
 Sell_Jaeger=21948
-Sell_Flea Market=32000
+Sell_Flea Market=39999
 weight=2.100000
-fleaMarketFee=3137
+fleaMarketFee=3715

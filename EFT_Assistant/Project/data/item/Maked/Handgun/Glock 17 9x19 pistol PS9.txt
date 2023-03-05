@@ -1,3 +1,4 @@
+IDstr=glock17ps900000000000001
 Name=Glock 17 9x19 pistol PS9
 ShortName=Glock 17 PS9
 Itemtype=Handgun

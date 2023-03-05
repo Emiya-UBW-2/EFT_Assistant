@@ -1,3 +1,4 @@
+IDstr=5c17664f2e2216398b5a7e3c
 Name=AK Vltor CMRD KeyMod handguard
 ShortName=CMRD
 Itemtype=Handguard
@@ -16,8 +17,7 @@ ChildParts=[
 Conflict=[
 	Kalashnikov AK-102 5.56x45 assault rifle,
 	Kalashnikov AK-104 7.62x39 assault rifle,
-	Kalashnikov AK-105 5.45x39 assault rifle,
-	AK Zenit B-33 dust cover,
+	Kalashnikov AK-105 5.45x39 assault rifle
 ]
 Recoil=-4.000000
 Ergonomics=10.000000
@@ -25,14 +25,14 @@ Information_Eng=The CMRD lightweight handguard by Vltor, compatible with AK-74 a
 basePrice=28100
 width=2
 height=1
-avg24hPrice=43867
-low24hPrice=34444
-lastOfferCount=22
+avg24hPrice=42738
+low24hPrice=32999
+lastOfferCount=31
 Sell_Prapor=14050
 Sell_Fence=11240
 Sell_Skier=13769
 Sell_Peacekeeper=110
 Sell_Mechanic=15736
-Sell_Flea Market=40000
+Sell_Flea Market=38000
 weight=0.397000
-fleaMarketFee=3677
+fleaMarketFee=3481

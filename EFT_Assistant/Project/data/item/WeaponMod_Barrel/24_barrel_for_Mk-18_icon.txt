@@ -1,6 +1,16 @@
+IDstr=5fc23678ab884124df0cd590
 Name=Mk-18 .338 LM 24 inch barrel
 ShortName=Mk-18 24"
 Itemtype=Barrel
+Conflict=[
+	AR-15 ADAR 2-15 wooden handguard,
+	AR-15 Colt M4 Carbine Length handguard,
+	AR-15 KAC RIS handguard,
+	AR-15 Magpul MOE SL carbine length M-LOK handguard,
+	AR-15 Magpul MOE SL medium length M-LOK handguard,
+	AR-15 Strike Industries Viper carbine length M-LOK handguard,
+	AR-15 Strike Industries Viper carbine length M-LOK handguard (FDE)
+]
 Recoil=-4.000000
 Ergonomics=-12.000000
 Information_Eng=A 24 inch (610mm) barrel for Mk-18 .338 LM sniper rifle, manufactured by SWORD International.

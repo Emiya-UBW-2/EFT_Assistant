@@ -1,21 +1,26 @@
+IDstr=5a7ad55551dfba0015068f42
 Name=Glock Aimtech Tiger Shark sight mount
 ShortName=G TShark
 Itemtype=Mount
+Conflict=[
+	Glock Aimtech mount base,
+	UM Tactical UM3 pistol sight mount
+]
 Recoil=0.000000
 Ergonomics=-1.000000
 Information_Eng=A Glock family sight mount base designed for installation of additional reflex sights on the pistol. Manufactured by Aimtech.
 basePrice=4047
 width=1
 height=1
-avg24hPrice=17025
+avg24hPrice=19077
 low24hPrice=9999
-lastOfferCount=7
+lastOfferCount=9
 Sell_Prapor=2023
 Sell_Fence=1618
 Sell_Skier=1983
 Sell_Peacekeeper=16
 Sell_Mechanic=2266
 Sell_Jaeger=2428
-Sell_Flea Market=18990
+Sell_Flea Market=21100
 weight=0.120000
-fleaMarketFee=2863
+fleaMarketFee=3386

@@ -1,3 +1,4 @@
+IDstr=61faa91878830f069b6b7967
 Name=SV-98 wooden stock
 ShortName=SV98 wood
 Itemtype=Stock
@@ -10,7 +11,7 @@ Information_Eng=A standard-issue wooden stock for the SV-98, manufactured by Izh
 basePrice=3780
 width=4
 height=1
-avg24hPrice=12038
+avg24hPrice=11807
 low24hPrice=4999
 lastOfferCount=5
 Sell_Prapor=1890

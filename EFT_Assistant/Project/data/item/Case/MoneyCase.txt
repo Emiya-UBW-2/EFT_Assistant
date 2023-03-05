@@ -1,3 +1,4 @@
+IDstr=59fb016586f7746d0d4b423a
 Name=Money case
 ShortName=Money
 Itemtype=Common container

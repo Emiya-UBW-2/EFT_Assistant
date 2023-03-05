@@ -1,3 +1,4 @@
+IDstr=55d44fd14bdc2d962f8b456e
 Name=AR-15 Colt charging handle
 ShortName=AR-15
 Itemtype=Charging handle
@@ -7,8 +8,8 @@ Information_Eng=A standard charging handle for AR-15 and compatible systems, man
 basePrice=733
 width=1
 height=1
-avg24hPrice=10974
-low24hPrice=2500
+avg24hPrice=11438
+low24hPrice=5000
 lastOfferCount=1
 Sell_Prapor=366
 Sell_Fence=293

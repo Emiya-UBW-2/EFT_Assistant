@@ -1,3 +1,4 @@
+IDstr=5c6d5d8b2e221644fc630b39
 Name=AR-15 STNGR VYPR 10 inch M-LOK handguard
 ShortName=VYPR 10"
 Itemtype=Handguard
@@ -34,8 +35,7 @@ ChildParts=[
 Conflict=[
 	AR-10 JP Enterprises Gas System-6,
 	M4A1 front sight with gas block,
-	AR-15 Windham Weaponry Rail Gas Block,
-	M203 40mm underbarrel grenade launcher,
+	AR-15 Windham Weaponry Rail Gas Block
 ]
 Recoil=-1.000000
 Ergonomics=8.000000
@@ -43,14 +43,14 @@ Information_Eng=The VYPR handguard for AR-15 equipped with an M-LOK interface fo
 basePrice=14500
 width=2
 height=1
-avg24hPrice=16537
+avg24hPrice=16869
 low24hPrice=12000
-lastOfferCount=12
+lastOfferCount=9
 Sell_Prapor=7250
 Sell_Fence=5800
 Sell_Skier=7105
 Sell_Peacekeeper=57
 Sell_Mechanic=8120
-Sell_Flea Market=15997
+Sell_Flea Market=17000
 weight=0.209000
-fleaMarketFee=1483
+fleaMarketFee=1563

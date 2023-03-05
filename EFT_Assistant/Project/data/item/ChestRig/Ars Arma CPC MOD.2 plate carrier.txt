@@ -1,3 +1,4 @@
+IDstr=5e4ac41886f77406a511c9a8
 Name=Ars Arma CPC MOD.2 plate carrier
 ShortName=CPC MOD.2
 Itemtype=Chest rig

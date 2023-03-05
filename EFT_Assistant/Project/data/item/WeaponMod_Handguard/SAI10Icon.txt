@@ -1,3 +1,4 @@
+IDstr=5c78f2612e221600114c9f0d
 Name=AR-15 SAI 10 inch QD Rail handguard
 ShortName=SAI QD 10"
 Itemtype=Handguard
@@ -56,11 +57,7 @@ Conflict=[
 	AR-15 5.56x45 370mm barrel,
 	AR-15 5.56x45 18 inch barrel,
 	AR-15 5.56x45 20 inch barrel,
-	AR-15 5.56x45 Molot Arms 406mm barrel,
-	STM-9 9x19 10.5 inch barrel,
-	STM-9 9x19 16 inch barrel,
-	AR-15 SAI JailBrake 5.56x45 muzzle device,
-	M203 40mm underbarrel grenade launcher,
+	AR-15 5.56x45 Molot Arms 406mm barrel
 ]
 Recoil=-3.000000
 Ergonomics=10.000000
@@ -68,14 +65,14 @@ Information_Eng=The Salient Arms International QD Rail handguard for AR-15 equip
 basePrice=24900
 width=2
 height=1
-avg24hPrice=36238
-low24hPrice=27777
-lastOfferCount=18
+avg24hPrice=37760
+low24hPrice=29999
+lastOfferCount=28
 Sell_Prapor=12450
 Sell_Fence=9960
 Sell_Skier=12201
 Sell_Peacekeeper=97
 Sell_Mechanic=13944
-Sell_Flea Market=33333
+Sell_Flea Market=35000
 weight=0.305000
-fleaMarketFee=3052
+fleaMarketFee=3214

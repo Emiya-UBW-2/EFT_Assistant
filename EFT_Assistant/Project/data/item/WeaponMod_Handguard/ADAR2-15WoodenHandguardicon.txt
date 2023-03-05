@@ -1,12 +1,10 @@
+IDstr=5c0e2f5cd174af02a012cfc9
 Name=AR-15 ADAR 2-15 wooden handguard
 ShortName=ADAR wood
 Itemtype=Handguard
 Conflict=[
 	AR-15 5.56x45 260mm barrel,
-	AR-15 5.56x45 370mm barrel,
-	AR-15 5.56x45 18 inch barrel,
-	AR-15 5.56x45 20 inch barrel,
-	M203 40mm underbarrel grenade launcher,
+	AR-15 5.56x45 370mm barrel
 ]
 Recoil=0.000000
 Ergonomics=7.000000
