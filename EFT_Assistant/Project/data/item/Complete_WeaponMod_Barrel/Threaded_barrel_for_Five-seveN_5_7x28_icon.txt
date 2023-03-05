@@ -1,4 +1,0 @@
-Name=FN Five-seveN 5.7x28 threaded barrel
-Itemtype=Stock
-Recoil=-3
-Ergonomics=0

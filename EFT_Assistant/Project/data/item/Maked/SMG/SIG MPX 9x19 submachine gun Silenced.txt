@@ -1,0 +1,17 @@
+Name=SIG MPX 9x19 submachine gun Silenced
+ShortName=MPX Silenced
+Itemtype=SMG
+Information_Eng=
+basePrice=76040
+width=4
+height=2
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Prapor=38020
+Sell_Fence=30416
+Sell_Skier=37259
+Sell_Peacekeeper=298
+Sell_Mechanic=42582
+weight=3.412000
+fleaMarketFee=7224

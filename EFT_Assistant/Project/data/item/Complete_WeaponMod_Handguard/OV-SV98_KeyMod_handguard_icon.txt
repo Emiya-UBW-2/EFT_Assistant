@@ -1,5 +1,0 @@
-Name=SV-98 CNC Guns OV-SV98 KeyMod handguard
-Itemtype=Handguard
-Recoil=-2
-Ergonomics=+9
-ChildParts=[CNC Guns KeyMod 4 inch rail,CNC Guns KeyMod 2 inch rail,Strike Industries KeyMod 4 inch rail,Vltor CASV KeyMod 2 inch rail,Vltor CASV KeyMod 4 inch rail]

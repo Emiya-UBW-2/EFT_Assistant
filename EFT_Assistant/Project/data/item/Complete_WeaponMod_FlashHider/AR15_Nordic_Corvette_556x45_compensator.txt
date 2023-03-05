@@ -1,4 +1,0 @@
-Name=AR-15 Nordic Components Corvette 5.56x45 compensator
-Itemtype=Flash hider/muzzle brake
-Recoil=-11
-Ergonomics=-1

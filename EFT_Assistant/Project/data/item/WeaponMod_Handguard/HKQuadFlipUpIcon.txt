@@ -1,0 +1,84 @@
+Name=HK 416A5 Quad Rail handguard with flip-up front sight
+ShortName=416A5 4Rail
+Itemtype=Handguard
+ChildParts=[
+	BCM GUNFIGHTER MOD 3 vertical foregrip,
+	ASh-12 vertical foregrip,
+	Fortis Shift tactical foregrip,
+	Hera Arms CQR tactical foregrip,
+	KAC vertical foregrip,
+	Magpul AFG tactical foregrip (Black),
+	Magpul AFG tactical foregrip (FDE),
+	Magpul AFG tactical foregrip (Forest Green),
+	Magpul AFG tactical foregrip (Olive Drab),
+	Magpul RVG foregrip (Black),
+	RTM Pillau tactical foregrip,
+	Stark SE-5 Express Forward foregrip,
+	Strike Industries Cobra Tactical foregrip,
+	TangoDown Stubby BGV-MK46K foregrip (Black),
+	TangoDown Stubby BGV-MK46K foregrip (FDE),
+	TangoDown Stubby BGV-MK46K foregrip (Stealth Gray),
+	Viking Tactics UVG tactical foregrip,
+	Zenit RK-1 tactical foregrip on B-25U mount,
+	Zenit RK-0 tactical foregrip,
+	Zenit RK-1 tactical foregrip,
+	Zenit RK-2 tactical foregrip,
+	Zenit RK-4 tactical foregrip,
+	Zenit RK-5 tactical foregrip,
+	Zenit RK-6 tactical foregrip,
+	Tactical Dynamics Skeletonized Foregrip
+]
+ChildParts=[
+	NcSTAR MPR45 Backup mount
+]
+ChildParts=[
+	Kiba Arms 25mm accessory ring mount,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	AN/PEQ-15 tactical device,
+	AN/PEQ-2 tactical device,
+	Glock GTL 21 tactical flashlight with laser,
+	Holosun LS321 Tactical device,
+	LA-5B/PEQ tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	NcSTAR Tactical blue laser LAM-module,
+	Steiner DBAL-PL tactical device,
+	SureFire XC1 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	Zenit Perst-3 tactical device
+]
+ChildParts=[
+	Kiba Arms 25mm accessory ring mount,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	AN/PEQ-15 tactical device,
+	AN/PEQ-2 tactical device,
+	Glock GTL 21 tactical flashlight with laser,
+	Holosun LS321 Tactical device,
+	LA-5B/PEQ tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	NcSTAR Tactical blue laser LAM-module,
+	Steiner DBAL-PL tactical device,
+	SureFire XC1 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	Zenit Perst-3 tactical device
+]
+Recoil=0.000000
+Ergonomics=4.000000
+Information_Eng=A quad rail handguard for 416 and compatibles. Comes with a built-in flip-up front sight and four picatinny rails for attaching wide amount of different accessories. Manufactured by Heckler & Koch.
+basePrice=8350
+width=2
+height=1
+avg24hPrice=6305
+low24hPrice=4000
+lastOfferCount=3
+Sell_Prapor=4175
+Sell_Fence=3340
+Sell_Skier=4091
+Sell_Peacekeeper=33
+Sell_Mechanic=4676
+Sell_Flea Market=4777
+weight=0.430000
+fleaMarketFee=599

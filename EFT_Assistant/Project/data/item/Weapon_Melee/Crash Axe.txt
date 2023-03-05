@@ -1,0 +1,16 @@
+Name=Crash Axe
+ShortName=SCA
+Itemtype=Knife
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=Designed as a tool for working with hard surfaces. Materials and construction are designed to provide optimal impact and strength. The head of the axe is made of 6AL4V titanium with a thickness of 2.85 inches.
+basePrice=450000
+width=1
+height=3
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Fence=180000
+Sell_Jaeger=270000
+weight=1.400000
+fleaMarketFee=42750

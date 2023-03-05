@@ -1,5 +1,0 @@
-Name=AK-74 "Plum" polymer stock (6P20 Sb.7)
-Itemtype=Stock
-Recoil=-32
-Ergonomics=+5
-ChildParts=[AK GP-25 accessory kit recoil pad]

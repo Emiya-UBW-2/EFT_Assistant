@@ -1,6 +1,8 @@
 Name=5.45x39mm BT gs ammo pack (120 pcs)
 ShortName=BT
 Itemtype=Ammo container
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=A waterproof package of 5.45x39 BT gs cartridges, 120 pieces.
 basePrice=1000
 width=2

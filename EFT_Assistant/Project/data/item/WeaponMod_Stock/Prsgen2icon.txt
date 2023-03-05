@@ -1,0 +1,25 @@
+Name=Magpul PRS GEN2 stock (FDE)
+ShortName=PRS GEN2
+Itemtype=Stock
+Conflict=[
+	AR-15 ADAR 2-15 wooden stock,
+	AR-15 Hera Arms CQR pistol grip/buttstock,
+]
+Recoil=-34.000000
+Ergonomics=2.000000
+Information_Eng=The PRS GEN2 stock manufactured by Magpul. Flat Dark Earth version.
+basePrice=17094
+width=2
+height=1
+avg24hPrice=14820
+low24hPrice=8999
+lastOfferCount=21
+Sell_Prapor=8547
+Sell_Fence=6837
+Sell_Skier=8376
+Sell_Peacekeeper=67
+Sell_Mechanic=9572
+Sell_Jaeger=10256
+Sell_Flea Market=14000
+weight=0.790000
+fleaMarketFee=1405

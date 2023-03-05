@@ -1,8 +1,32 @@
 Name=HK MP5 9x19 submachine gun (Navy 3 Round Burst)
-ShortName=HK MP5
-Itemtype=Submachine gun
-ChildParts=[HK MP5 9x19 upper receiver,HK MP5SD 9x19 upper receiver]
-ChildParts=[HK MP5 9x19 20-round magazine,HK MP5 9x19 30-round magazine,HK MP5 9x19 X Products X-5 50-round drum magazine]
-ChildParts=[HK MP5 cocking handle]
-Recoil=65
-Ergonomics=50
+ShortName=MP5
+Itemtype=SMG
+ChildParts=[
+	HK MP5 9x19 upper receiver,
+	HK MP5SD 9x19 upper receiver
+]
+ChildParts=[
+	HK MP5 9x19 20-round magazine,
+	HK MP5 9x19 30-round magazine,
+	HK MP5 9x19 X Products X-5 50-round drum magazine
+]
+ChildParts=[
+	HK MP5 cocking handle
+]
+Recoil=65.000000
+Ergonomics=50.000000
+Information_Eng=HK MP5 submachinegun with Navy 3 Round Burst firing mechanism version, which features three-round cutoff. Widely acclaimed model of a submachinegun, primarily known as weapon of GSG9 and similar forces of the world, and famous through frequent appearance in movies and video games.
+basePrice=12132
+width=1
+height=1
+avg24hPrice=26427
+low24hPrice=17888
+lastOfferCount=19
+Sell_Prapor=6066
+Sell_Fence=4852
+Sell_Skier=5944
+Sell_Peacekeeper=47
+Sell_Mechanic=6793
+Sell_Flea Market=23999
+weight=0.740000
+fleaMarketFee=2372

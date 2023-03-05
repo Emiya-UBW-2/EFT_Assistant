@@ -1,5 +1,0 @@
-Name=SwampFox Trihawk Prism Scope 3x30
-Itemtype=Assault scope
-Recoil=0
-Ergonomics=-3
-SightRange=500

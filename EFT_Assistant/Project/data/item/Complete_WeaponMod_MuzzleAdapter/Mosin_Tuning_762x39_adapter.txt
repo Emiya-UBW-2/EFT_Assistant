@@ -1,4 +1,0 @@
-Name=Mosin Rifle Weapon Tuning 7.62x39 thread adapter
-Itemtype=Muzzle adapter
-Recoil=0
-Ergonomics=0

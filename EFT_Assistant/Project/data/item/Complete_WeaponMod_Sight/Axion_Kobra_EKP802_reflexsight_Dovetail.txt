@@ -1,5 +1,0 @@
-Name=Axion Kobra EKP-8-02 reflex sight (Dovetail)
-Itemtype=Reflex sight
-Recoil=0
-Ergonomics=-3
-SightRange=200

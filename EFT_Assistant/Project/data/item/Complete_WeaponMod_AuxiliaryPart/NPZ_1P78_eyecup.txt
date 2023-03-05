@@ -1,4 +1,0 @@
-Name=NPZ 1P78 scope eyecup
-Itemtype=Auxiliary part
-Recoil=0
-Ergonomics=+5

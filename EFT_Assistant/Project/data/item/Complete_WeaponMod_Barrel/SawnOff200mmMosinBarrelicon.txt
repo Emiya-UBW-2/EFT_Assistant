@@ -1,4 +1,0 @@
-Name=Mosin Rifle 7.62x54R sawn-off 200mm barrel
-Itemtype=Stock
-Recoil=0
-Ergonomics=-2

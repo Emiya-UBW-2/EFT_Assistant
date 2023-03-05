@@ -1,0 +1,17 @@
+Name=Glock 17 9x19 pistol Viper
+ShortName=Glock 17 Viper
+Itemtype=Handgun
+Information_Eng=
+basePrice=61265
+width=2
+height=2
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Prapor=30632
+Sell_Fence=24506
+Sell_Skier=30019
+Sell_Peacekeeper=240
+Sell_Mechanic=34308
+weight=1.065000
+fleaMarketFee=5820

@@ -17,8 +17,12 @@ ChildParts=[
 	AR-15 Tactical Dynamics Skeletonized pistol grip,
 	AR-15 DLG Tactical DLG-123 pistol grip
 ]
-ChildParts=[Lobaev Arms stock]
-ChildParts=[DVL-10 7.62x51 10-round magazine]
+ChildParts=[
+	Lobaev Arms stock
+]
+ChildParts=[
+	DVL-10 7.62x51 10-round magazine
+]
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope,
 	ELCAN SpecterDR 1x/4x scope (FDE),
@@ -60,5 +64,21 @@ ChildParts=[
 	Trijicon TA51 sight mount,
 	UNV DLOC-IRD sight mount
 ]
-Recoil=340
-Ergonomics=40
+Recoil=340.000000
+Ergonomics=40.000000
+Information_Eng=DVL-10 is a lightweight, compact, and silenced rifle in proprietary and current military subsonic calibers. Developed for special service and combat missions where exceptional accuracy and range are needed. Equipped with a standard Lobaev Arms foldable buttstock and Lobaev Hummer Barrels stainless steel match-grade barrel.
+basePrice=42974
+width=2
+height=1
+avg24hPrice=76689
+low24hPrice=62221
+lastOfferCount=38
+Sell_Prapor=21487
+Sell_Fence=17189
+Sell_Skier=21057
+Sell_Peacekeeper=168
+Sell_Mechanic=24065
+Sell_Jaeger=25784
+Sell_Flea Market=74000
+weight=1.120000
+fleaMarketFee=7027

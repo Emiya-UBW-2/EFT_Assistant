@@ -1,4 +1,0 @@
-Name=M1911A1 STI HEX hammer
-Itemtype=Auxiliary part
-Recoil=0
-Ergonomics=+3

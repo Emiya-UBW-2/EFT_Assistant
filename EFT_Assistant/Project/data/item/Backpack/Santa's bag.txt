@@ -1,6 +1,8 @@
 Name=Santa's bag
 ShortName=Santa's bag
 Itemtype=Backpack
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=A big and roomy Christmas bag, left behind by Santa himself.
 basePrice=62022
 width=5

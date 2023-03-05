@@ -1,6 +1,8 @@
 Name=Big Pipe's smoking pipe
 ShortName=Pipe
 Itemtype=Face Cover
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=A smoking pipe owned by one of the commanders of the Rogues - Big Pipe.
 basePrice=21000
 width=1

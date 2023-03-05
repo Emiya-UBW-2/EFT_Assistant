@@ -1,5 +1,0 @@
-Name=MPX single latch charging handle
-Itemtype=Charging handle
-Recoil=0
-Ergonomics=0
-

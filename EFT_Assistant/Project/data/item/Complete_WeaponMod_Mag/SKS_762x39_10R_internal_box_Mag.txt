@@ -1,5 +1,0 @@
-Name=SKS 7.62x39 10-round internal box magazine
-Itemtype=Magazine
-Recoil=0
-Ergonomics=-1
-

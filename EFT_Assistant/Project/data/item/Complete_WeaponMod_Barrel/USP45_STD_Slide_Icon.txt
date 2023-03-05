@@ -1,4 +1,0 @@
-Name=HK USP .45 ACP barrel
-Itemtype=Stock
-Recoil=-2
-Ergonomics=-4

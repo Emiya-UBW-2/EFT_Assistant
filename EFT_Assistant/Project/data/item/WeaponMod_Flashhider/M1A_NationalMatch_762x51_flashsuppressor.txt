@@ -1,0 +1,24 @@
+Name=M1A National Match 7.62x51 flash suppressor
+ShortName=M1A NM
+Itemtype=Flashhider
+ChildParts=[
+	M1A SA National Match .062 Blade front sight,
+	M1A SA XS Post .125 Blade front sight
+]
+Recoil=-7.000000
+Ergonomics=-2.000000
+Information_Eng=A muzzle brake-compensator for M1A rifles, manufactured by Springfield Armory.
+basePrice=4759
+width=1
+height=1
+avg24hPrice=8293
+low24hPrice=3000
+lastOfferCount=14
+Sell_Prapor=2379
+Sell_Fence=1903
+Sell_Skier=2331
+Sell_Peacekeeper=19
+Sell_Mechanic=2665
+Sell_Flea Market=6540
+weight=0.140000
+fleaMarketFee=600

@@ -1,4 +1,0 @@
-Name=MP-155 walnut forestock
-Itemtype=Handguard
-Recoil=0
-Ergonomics=+5

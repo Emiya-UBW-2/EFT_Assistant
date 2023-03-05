@@ -1,4 +1,0 @@
-Name=SilencerCo Hybrid 46 multi-caliber sound suppressor
-Itemtype=Suppressor
-Recoil=-9.5
-Ergonomics=-17

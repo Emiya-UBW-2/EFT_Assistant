@@ -1,5 +1,0 @@
-Name=TOZ-106 20ga MTs 20-01 Sb.3 5-shot magazine
-Itemtype=Magazine
-Recoil=0
-Ergonomics=-4
-

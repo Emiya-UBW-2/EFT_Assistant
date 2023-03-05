@@ -1,9 +1,0 @@
-Name=HK MP5SD 9x19 upper receiver
-Itemtype=Receiver
-Recoil=0
-Ergonomics=+5
-ChildParts=[HK MP5SD polymer handguard]
-ChildParts=[HK MP5 Drum rear sight]
-ChildParts=[HK MP5 A2 stock,HK MP5 A3 old model stock,HK MP5 End Cap stock]
-ChildParts=[HK MP5SD 9x19 sound suppressor]
-ChildParts=[HK MP5 MFI HK universal low profile scope mount,HK MP5 B&T tri-rail receiver mount]

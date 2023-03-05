@@ -1,4 +1,0 @@
-Name=Mosin Rifle Bramit 7.62x54R sound suppressor
-Itemtype=Suppressor
-Recoil=-10
-Ergonomics=-20

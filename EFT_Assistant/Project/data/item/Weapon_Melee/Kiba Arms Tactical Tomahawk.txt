@@ -1,0 +1,16 @@
+Name=Kiba Arms Tactical Tomahawk
+ShortName=KATT
+Itemtype=Knife
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=A tactical tomahawk, multitool and breaching tool, all-in-one solution.
+basePrice=16800
+width=1
+height=3
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Fence=6720
+Sell_Jaeger=10080
+weight=1.861000
+fleaMarketFee=1596

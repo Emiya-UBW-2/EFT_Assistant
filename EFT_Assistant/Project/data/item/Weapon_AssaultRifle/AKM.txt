@@ -106,6 +106,23 @@ ChildParts=[
 	AK CSS knurled charging handle,
 	AK Zenit RP-1 charging handle
 ]
-ChildParts=[GP-25 "Kostyor" 40mm underbarrel grenade launcher]
-Recoil=189
-Ergonomics=26
+ChildParts=[
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher
+]
+Recoil=189.000000
+Ergonomics=26.000000
+Information_Eng=The AKM (Avtomát Kaláshnikova Modernizírovanny - Kalashnikov's Automatic Rifle Modernised) 7.62x39mm automatic rifle was adopted in 1959 to replace AK as a standard service weapon of the Soviet Army. Main differences compared to AK: enhanced accuracy range, lower weight, new stock, trigger, hammer retarder, muzzle compensator, and other design changes aimed at improving the efficiency of the rifle.
+basePrice=29513
+width=4
+height=1
+avg24hPrice=46235
+low24hPrice=29420
+lastOfferCount=16
+Sell_Prapor=14756
+Sell_Fence=11805
+Sell_Skier=14461
+Sell_Peacekeeper=115
+Sell_Mechanic=16527
+Sell_Flea Market=29420
+weight=2.092000
+fleaMarketFee=2796

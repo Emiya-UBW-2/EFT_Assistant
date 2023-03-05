@@ -1,4 +1,0 @@
-Name=M870 Mesa Tactical LEO stock adapter
-Itemtype=Stock
-Recoil=-2
-Ergonomics=+10

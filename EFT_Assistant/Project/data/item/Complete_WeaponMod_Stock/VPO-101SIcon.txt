@@ -1,4 +1,0 @@
-Name=VPO-101 "Vepr-Hunter" stock
-Itemtype=Stock
-Recoil=-39
-Ergonomics=+18

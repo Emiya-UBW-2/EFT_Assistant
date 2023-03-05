@@ -1,6 +1,8 @@
 Name=Armband (Blue)
 ShortName=Armband
 Itemtype=Arm Band
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=A blue identification armband.
 basePrice=573
 width=1

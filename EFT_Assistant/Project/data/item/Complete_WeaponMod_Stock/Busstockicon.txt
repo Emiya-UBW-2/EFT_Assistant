@@ -1,4 +1,0 @@
-Name=MFT BUS stock
-Itemtype=Stock
-Recoil=-32
-Ergonomics=+2

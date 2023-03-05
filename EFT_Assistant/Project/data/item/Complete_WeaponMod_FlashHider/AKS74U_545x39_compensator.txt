@@ -1,4 +1,0 @@
-Name=AKS-74U 5.45x39 muzzle brake (6P26 0-20)
-Itemtype=Flash hider/muzzle brake
-Recoil=-8
-Ergonomics=-2

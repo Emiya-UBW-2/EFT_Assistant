@@ -1,0 +1,39 @@
+Name=KRISS Vector bottom rail
+ShortName=Vector Bottom
+Itemtype=Mount
+ChildParts=[
+	BCM GUNFIGHTER MOD 3 vertical foregrip,
+	ASh-12 vertical foregrip,
+	Fortis Shift tactical foregrip,
+	KAC vertical foregrip,
+	RTM Pillau tactical foregrip,
+	TangoDown Stubby BGV-MK46K foregrip (Black),
+	TangoDown Stubby BGV-MK46K foregrip (FDE),
+	TangoDown Stubby BGV-MK46K foregrip (Stealth Gray),
+	Viking Tactics UVG tactical foregrip,
+	Zenit RK-1 tactical foregrip on B-25U mount,
+	Zenit RK-0 tactical foregrip,
+	Zenit RK-1 tactical foregrip,
+	Zenit RK-2 tactical foregrip,
+	Zenit RK-4 tactical foregrip,
+	Zenit RK-5 tactical foregrip,
+	Zenit RK-6 tactical foregrip
+]
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=A bottom rail for the KRISS Vector submachine gun, allows installation of tactical foregrips and accessories.
+basePrice=1100
+width=1
+height=1
+avg24hPrice=13668
+low24hPrice=1000
+lastOfferCount=5
+Sell_Prapor=550
+Sell_Fence=440
+Sell_Skier=539
+Sell_Peacekeeper=4
+Sell_Mechanic=616
+Sell_Jaeger=660
+Sell_Flea Market=19000
+weight=0.070000
+fleaMarketFee=6533

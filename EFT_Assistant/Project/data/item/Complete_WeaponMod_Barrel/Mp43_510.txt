@@ -1,4 +1,0 @@
-Name=MP-43-1C 12ga 510mm barrel
-Itemtype=Stock
-Recoil=-5
-Ergonomics=-5

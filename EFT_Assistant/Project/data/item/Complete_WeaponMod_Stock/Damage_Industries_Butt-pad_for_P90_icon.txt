@@ -1,4 +1,0 @@
-Name=FN P90 Damage Industries buttpad
-Itemtype=Stock
-Recoil=-5
-Ergonomics=+2

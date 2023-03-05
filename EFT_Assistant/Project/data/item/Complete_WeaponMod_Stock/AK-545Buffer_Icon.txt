@@ -1,4 +1,0 @@
-Name=AK-545 SAG buffer tube
-Itemtype=Stock
-Recoil=-2
-Ergonomics=0

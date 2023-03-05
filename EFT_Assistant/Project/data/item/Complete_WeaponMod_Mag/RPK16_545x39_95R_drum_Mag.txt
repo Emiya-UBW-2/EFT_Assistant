@@ -1,5 +1,0 @@
-Name=RPK-16 5.45x39 95-round drum magazine
-Itemtype=Magazine
-Recoil=0
-Ergonomics=-24
-

@@ -1,6 +1,8 @@
 Name=Christmas tree ornament (Red)
 ShortName=Ornament
 Itemtype=Jewelry
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=A red ornament ball for decorating the Christmas tree.
 basePrice=7000
 width=1

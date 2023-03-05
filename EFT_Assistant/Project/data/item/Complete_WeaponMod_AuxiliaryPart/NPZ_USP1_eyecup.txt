@@ -1,4 +1,0 @@
-Name=NPZ USP-1 scope eyecup
-Itemtype=Auxiliary part
-Recoil=0
-Ergonomics=+5

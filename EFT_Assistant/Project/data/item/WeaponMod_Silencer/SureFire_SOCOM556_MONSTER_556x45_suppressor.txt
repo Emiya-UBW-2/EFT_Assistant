@@ -1,0 +1,23 @@
+Name=SureFire SOCOM556-MONSTER 5.56x45 sound suppressor
+ShortName=556-MONSTER
+Itemtype=Silencer
+Conflict=[
+	HK 416A5 5.56x45 10.6 inch barrel,
+]
+Recoil=-9.000000
+Ergonomics=-16.000000
+Information_Eng=The SureFire SOCOM556-MONSTER 5.56x45 and .223 sound suppressor, can only be installed on compatible SureFire muzzle devices.
+basePrice=43000
+width=2
+height=1
+avg24hPrice=27938
+low24hPrice=19999
+lastOfferCount=31
+Sell_Prapor=21500
+Sell_Fence=17200
+Sell_Skier=21070
+Sell_Peacekeeper=168
+Sell_Mechanic=24080
+Sell_Flea Market=21000
+weight=0.496000
+fleaMarketFee=3048

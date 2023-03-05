@@ -1,4 +1,0 @@
-Name=MTs 20-01 stock
-Itemtype=Stock
-Recoil=-38
-Ergonomics=+7

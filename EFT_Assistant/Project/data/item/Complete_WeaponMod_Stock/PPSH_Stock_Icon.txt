@@ -1,4 +1,0 @@
-Name=PPSh-41 stock
-Itemtype=Stock
-Recoil=-29
-Ergonomics=+28

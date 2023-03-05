@@ -1,4 +1,0 @@
-Name=AR-15 HK Battle Grip Beavertail pistol grip (RAL 8000)
-Itemtype=Pistol grip
-Recoil=0
-Ergonomics=+7

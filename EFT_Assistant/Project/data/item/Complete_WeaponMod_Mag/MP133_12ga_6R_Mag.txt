@@ -1,5 +1,0 @@
-Name=MP-133 12ga 6-shell magazine
-Itemtype=Magazine
-Recoil=0
-Ergonomics=-1
-

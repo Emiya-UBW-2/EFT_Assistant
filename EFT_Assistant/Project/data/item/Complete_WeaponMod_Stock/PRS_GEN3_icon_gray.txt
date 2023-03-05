@@ -1,4 +1,0 @@
-Name=Magpul PRS GEN3 stock (Grey)
-Itemtype=Stock
-Recoil=-34
-Ergonomics=+3

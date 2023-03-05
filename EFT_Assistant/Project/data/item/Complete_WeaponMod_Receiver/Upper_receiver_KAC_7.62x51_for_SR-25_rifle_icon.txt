@@ -1,4 +1,0 @@
-Name=SR-25 7.62x51 upper receiver
-Itemtype=Receiver
-Recoil=0
-Ergonomics=+5

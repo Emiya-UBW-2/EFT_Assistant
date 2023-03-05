@@ -1,4 +1,0 @@
-Name=FN P90 Attenuator 5.7x28 sound suppressor
-Itemtype=Suppressor
-Recoil=-9
-Ergonomics=-17

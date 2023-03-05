@@ -1,0 +1,37 @@
+Name=BelOMO PSO-1M2 4x24 scope
+ShortName=PSO-1M2
+Itemtype=Scope
+SightRange=600
+Conflict=[
+	AKS-74U CAA XRSU47SU tactical handguard,
+	AK CNC Guns OV GP handguard,
+	SVD SAG MK1 chassis,
+	AK TDI X47 tactical handguard rail system,
+	SAG Bit low profile dovetail sidemount,
+	SVD modernization kit top rail,
+	AKS-74U dust cover (6P26 Sb.7),
+	AK AKademia Bastion dust cover,
+	AKS-74UB dust cover,
+	AK Zenit B-33 dust cover,
+	AK FAB Defense PDC dust cover,
+	PP-19-01 "Vityaz-SN" dust cover,
+	AK TWS Dog Leg Rail dust cover,
+]
+Recoil=0.000000
+Ergonomics=-7.000000
+Information_Eng=The PSO-1M2 military grade optical sniper scope, manufactured by BelOMO. This optical scope is designed for precision sight fire with the Dragunov Sniper Rifle (SVD) on the variety of targets with 4x magnification and 6 degree FOV.
+basePrice=18784
+width=2
+height=1
+avg24hPrice=17410
+low24hPrice=12121
+lastOfferCount=12
+Sell_Prapor=9392
+Sell_Fence=7513
+Sell_Skier=9204
+Sell_Peacekeeper=73
+Sell_Mechanic=10519
+Sell_Jaeger=11270
+Sell_Flea Market=15800
+weight=0.600000
+fleaMarketFee=1570

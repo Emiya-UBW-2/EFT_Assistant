@@ -1,6 +1,8 @@
 Name=Item case
 ShortName=Items
 Itemtype=Common container
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=A storage case for various items.
 basePrice=1229994
 width=4
@@ -11,5 +13,5 @@ lastOfferCount=1
 Sell_Therapist=774896
 Sell_Ragman=762596
 Sell_Jaeger=737996
-lastOfferCount=7.000000
-lastOfferCount=116849
+weight=7.000000
+fleaMarketFee=116849

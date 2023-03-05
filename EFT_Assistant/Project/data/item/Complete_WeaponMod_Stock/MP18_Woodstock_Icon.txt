@@ -1,4 +1,0 @@
-Name=MP-18 wooden stock
-Itemtype=Stock
-Recoil=-31
-Ergonomics=+6

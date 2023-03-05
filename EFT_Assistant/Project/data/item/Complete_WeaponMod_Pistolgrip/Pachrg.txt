@@ -1,4 +1,0 @@
-Name=Glock Pachmayr Tactical Grip Glove
-Itemtype=Pistol grip
-Recoil=0
-Ergonomics=+7

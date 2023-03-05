@@ -1,4 +1,0 @@
-Name=MP-443 "Grach" Zenit B-8 mount
-Itemtype=Mount
-Recoil=0
-Ergonomics=-1

@@ -1,4 +1,0 @@
-Name=STM-9 magwell
-Itemtype=Auxiliary part
-Recoil=0
-Ergonomics=+5

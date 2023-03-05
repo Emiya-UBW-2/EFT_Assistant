@@ -1,0 +1,17 @@
+Name=Kalashnikov AKS-74UN 5.45x39 assault rifle Recon
+ShortName=AKS-74UN Recon
+Itemtype=Assault rifle
+Information_Eng=
+basePrice=69899
+width=5
+height=2
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Prapor=34949
+Sell_Fence=27959
+Sell_Skier=34250
+Sell_Peacekeeper=274
+Sell_Mechanic=39143
+weight=3.608000
+fleaMarketFee=6640

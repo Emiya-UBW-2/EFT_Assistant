@@ -1,4 +1,0 @@
-Name=AAC Illusion 9 9x19 sound suppressor
-Itemtype=Suppressor
-Recoil=-7
-Ergonomics=-15

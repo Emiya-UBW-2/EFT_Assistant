@@ -1,0 +1,34 @@
+Name=VOMZ Pilad 043-02 dovetail mount
+ShortName=043-02 DT
+Itemtype=Mount
+Conflict=[
+	AKS-74U CAA XRSU47SU tactical handguard,
+	AK CNC Guns OV GP handguard,
+	SVD SAG MK1 chassis,
+	AK TDI X47 tactical handguard rail system,
+	SAG Bit low profile dovetail sidemount,
+	SVD modernization kit top rail,
+	AK AKademia Bastion dust cover,
+	AK Zenit B-33 dust cover,
+	AK FAB Defense PDC dust cover,
+	PP-19-01 "Vityaz-SN" dust cover,
+	AK TWS Dog Leg Rail dust cover,
+]
+Recoil=0.000000
+Ergonomics=-2.000000
+Information_Eng=An aluminum sight support with a Picatinny rail mount for the installation of scopes and accessories.
+basePrice=5118
+width=1
+height=1
+avg24hPrice=13321
+low24hPrice=9000
+lastOfferCount=4
+Sell_Prapor=2559
+Sell_Fence=2047
+Sell_Skier=2507
+Sell_Peacekeeper=20
+Sell_Mechanic=2866
+Sell_Jaeger=3070
+Sell_Flea Market=18999
+weight=0.040000
+fleaMarketFee=2506

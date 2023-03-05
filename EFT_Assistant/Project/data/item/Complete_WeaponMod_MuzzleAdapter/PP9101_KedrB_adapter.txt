@@ -1,5 +1,0 @@
-Name=PP-91-01 "Kedr-B" threaded suppressor adapter
-Itemtype=Muzzle adapter
-Recoil=-10
-Ergonomics=0
-ChildParts=[PP-91-01 "Kedr-B" 9x18PM sound suppressor]

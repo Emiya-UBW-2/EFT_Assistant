@@ -1,6 +1,8 @@
 Name=Far-forward current converter
 ShortName=MCC
 Itemtype=Electronics
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=A DC/DC converter that provides a regulated DC voltage. Using voltage converters makes it possible to eliminate malfunctions in the system. The Far-forward converter has increased physical security and quality of components, which allows it to be used in highly loaded systems with increased physical impact factors.
 basePrice=300000
 width=2

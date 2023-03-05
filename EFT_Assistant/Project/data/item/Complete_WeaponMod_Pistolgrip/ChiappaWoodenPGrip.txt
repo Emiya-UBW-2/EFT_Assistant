@@ -1,4 +1,0 @@
-Name=Chiappa Rhino wooden pistol grip
-Itemtype=Pistol grip
-Recoil=0
-Ergonomics=+3

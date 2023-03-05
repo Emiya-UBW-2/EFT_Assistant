@@ -1,5 +1,0 @@
-Name=AK 7.62x39 Molot 40-round magazine (6P2.Sb-11)
-Itemtype=Magazine
-Recoil=0
-Ergonomics=-7
-

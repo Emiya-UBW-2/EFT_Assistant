@@ -1,4 +1,0 @@
-Name=Hexagon 12K 12ga sound suppressor
-Itemtype=Suppressor
-Recoil=-16
-Ergonomics=-27

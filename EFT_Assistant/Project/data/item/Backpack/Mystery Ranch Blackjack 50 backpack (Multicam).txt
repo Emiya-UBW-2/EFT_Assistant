@@ -1,6 +1,8 @@
 Name=Mystery Ranch Blackjack 50 backpack (Multicam)
 ShortName=Blackjack 50
 Itemtype=Backpack
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=A backpack made for long and successful raids, manufactured by Mystery Ranch.
 basePrice=88000
 width=5

@@ -1,6 +1,8 @@
 Name=9x39mm BP gs ammo pack (8 pcs)
 ShortName=BP
 Itemtype=Ammo container
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=A package of 9x39mm BP gs cartridges, 8 pieces.
 basePrice=1000
 width=1

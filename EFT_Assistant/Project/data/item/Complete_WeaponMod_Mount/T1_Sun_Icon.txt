@@ -1,4 +1,0 @@
-Name=Recknagel Era-Tac Sunshade mount for Aimpoint T-1
-Itemtype=Mount
-Recoil=0
-Ergonomics=0

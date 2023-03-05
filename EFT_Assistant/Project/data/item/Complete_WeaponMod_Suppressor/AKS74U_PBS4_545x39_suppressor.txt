@@ -1,4 +1,0 @@
-Name=AKS-74U PBS-4 5.45x39 sound suppressor
-Itemtype=Suppressor
-Recoil=-10
-Ergonomics=-25

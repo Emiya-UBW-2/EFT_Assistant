@@ -1,5 +1,0 @@
-Name=AR-15 SilencerCo ASR 5.56x45 flash hider
-Itemtype=Flash hider/muzzle brake
-ChildParts=[SilencerCo Saker ASR 556 5.56x45 sound suppressor]
-Recoil=-9
-Ergonomics=-2

@@ -1,4 +1,0 @@
-Name=Lantac BMD 7.62x51 Blast Mitigation Device
-Itemtype=Flash hider/muzzle brake
-Recoil=-8
-Ergonomics=-3

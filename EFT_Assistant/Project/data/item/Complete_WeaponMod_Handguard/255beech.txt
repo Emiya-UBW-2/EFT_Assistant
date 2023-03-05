@@ -1,4 +1,0 @@
-Name=MTs-255-12 beechwood forestock
-Itemtype=Handguard
-Recoil=-2
-Ergonomics=+9

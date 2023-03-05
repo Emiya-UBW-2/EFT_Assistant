@@ -1,4 +1,0 @@
-Name=FN SCAR-H 7.62x51 13 inch barrel
-Itemtype=Stock
-Recoil=-3
-Ergonomics=-6

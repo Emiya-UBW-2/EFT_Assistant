@@ -1,4 +1,0 @@
-Name=Glock Polymer80 PS9 pistol slide
-Itemtype=Receiver
-Recoil=-2
-Ergonomics=+5

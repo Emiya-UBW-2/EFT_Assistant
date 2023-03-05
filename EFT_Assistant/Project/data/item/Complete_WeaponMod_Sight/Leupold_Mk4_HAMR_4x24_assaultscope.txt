@@ -1,5 +1,0 @@
-Name=Leupold Mark 4 HAMR 4x24 DeltaPoint hybrid assault scope
-Itemtype=Assault scope
-Recoil=0
-Ergonomics=-3.5
-SightRange=800

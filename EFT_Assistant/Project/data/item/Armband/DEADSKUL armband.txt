@@ -1,6 +1,8 @@
 Name=DEADSKUL armband
 ShortName=DEADSKUL
 Itemtype=Arm Band
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=An armband from Fence, only for real collectors.
 basePrice=70000
 width=1

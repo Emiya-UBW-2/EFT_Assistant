@@ -1,6 +1,8 @@
 Name=Ars Arma CPC MOD.2 plate carrier
 ShortName=CPC MOD.2
 Itemtype=Chest rig
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=The second generation of the CPC body armor designed by Crye Precision and adapted by Ars Arma for use by special forces of the Russian Federation. This modular body armor is based on a polymer corset that fits the body, which avoids the backlash of the body arm during active movement and also contributes to a more even distribution of weight. Made in the assault configuration of pouches and armor elements. Manufactured by Ars Arma.
 basePrice=139000
 width=4

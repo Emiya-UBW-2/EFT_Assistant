@@ -1,0 +1,32 @@
+Name=HK MP5K 9x19 upper receiver
+ShortName=MP5K
+Itemtype=Receiver
+ChildParts=[
+	HK MP5K polymer handguard
+]
+ChildParts=[
+	HK MP5 MFI HK universal low profile scope mount
+]
+ChildParts=[
+	HK MP5 Drum rear sight
+]
+ChildParts=[
+	HK MP5K End Cap stock
+]
+Recoil=0.000000
+Ergonomics=6.000000
+Information_Eng=A regular upper receiver for the MP5K SMGs, manufactured by Heckler & Koch.
+basePrice=3050
+width=2
+height=1
+avg24hPrice=8509
+low24hPrice=5000
+lastOfferCount=8
+Sell_Prapor=1525
+Sell_Fence=1220
+Sell_Skier=1494
+Sell_Peacekeeper=12
+Sell_Mechanic=1708
+Sell_Flea Market=7800
+weight=0.450000
+fleaMarketFee=853

@@ -1,0 +1,23 @@
+Name=AR-15 Ferfrans CQB 5.56x45 muzzle brake
+ShortName=CQB 556
+Itemtype=Flashhider
+ChildParts=[
+	Ferfrans CRD 5.56x45 Concussion Reduction Device
+]
+Recoil=-9.000000
+Ergonomics=-1.000000
+Information_Eng=A muzzle brake manufactured by Ferfrans. Can also be equipped with Ferfrans Modular Concussion Reduction Device.
+basePrice=8400
+width=1
+height=1
+avg24hPrice=14414
+low24hPrice=10999
+lastOfferCount=13
+Sell_Prapor=4200
+Sell_Fence=3360
+Sell_Skier=4116
+Sell_Peacekeeper=33
+Sell_Mechanic=4704
+Sell_Flea Market=11000
+weight=0.150000
+fleaMarketFee=1007

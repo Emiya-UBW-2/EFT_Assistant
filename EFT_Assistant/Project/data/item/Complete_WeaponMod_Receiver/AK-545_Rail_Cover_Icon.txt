@@ -1,4 +1,0 @@
-Name=AK-545 SAG railed dust cover
-Itemtype=Receiver
-Recoil=0
-Ergonomics=+3

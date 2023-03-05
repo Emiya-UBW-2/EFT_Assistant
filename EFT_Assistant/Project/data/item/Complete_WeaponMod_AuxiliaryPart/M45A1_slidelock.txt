@@ -1,4 +1,0 @@
-Name=M45A1 slide lock
-Itemtype=Auxiliary part
-Recoil=0
-Ergonomics=+2

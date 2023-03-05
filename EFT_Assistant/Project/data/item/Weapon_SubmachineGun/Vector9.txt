@@ -1,6 +1,6 @@
 Name=TDI KRISS Vector Gen.2 9x19 submachine gun
-ShortName=KRISS Vector 9x19
-Itemtype=Submachine gun
+ShortName=Vector 9x19
+Itemtype=SMG
 ChildParts=[
 	Glock 9x19 "Big Stick" 33-round magazine,
 	Glock 9x19 17-round magazine,
@@ -82,11 +82,30 @@ ChildParts=[
 	KRISS Vector 9x19 5 inch barrel,
 	KRISS Vector 9x19 6 inch barrel
 ]
-ChildParts=[KRISS Vector side rail]
-ChildParts=[KRISS Vector side rail]
+ChildParts=[
+	KRISS Vector side rail
+]
+ChildParts=[
+	KRISS Vector side rail
+]
 ChildParts=[
 	KRISS Vector bottom rail,
 	KRISS Vector Mk.5 modular rail
 ]
-Recoil=55
-Ergonomics=65
+Recoil=55.000000
+Ergonomics=65.000000
+Information_Eng=The KRISS Vector SMG is the ideal choice for law enforcement and military seeking a controllable and compact weapon system for close quarter combat environments. The low bore axis and Super V recoil mitigation system allow for controllable shots when firing in full-automatic, or fast semi-automatic follow up shots. Compatible with Glock 9x19 magazines.
+basePrice=27800
+width=2
+height=2
+avg24hPrice=101767
+low24hPrice=85555
+lastOfferCount=21
+Sell_Prapor=13900
+Sell_Fence=11120
+Sell_Skier=13622
+Sell_Peacekeeper=109
+Sell_Mechanic=15568
+Sell_Flea Market=100000
+weight=1.800000
+fleaMarketFee=12968

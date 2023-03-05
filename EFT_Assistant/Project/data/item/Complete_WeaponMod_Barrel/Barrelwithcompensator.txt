@@ -1,4 +1,0 @@
-Name=Glock 17 9x19 barrel with a compensator
-Itemtype=Stock
-Recoil=-5
-Ergonomics=-5

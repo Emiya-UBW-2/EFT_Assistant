@@ -1,8 +1,0 @@
-Name=SVD modernization kit handguard
-Itemtype=Handguard
-Recoil=-4
-Ergonomics=+7
-ChildParts=[Magpul M-LOK AFG tactical foregrip (Black),Magpul M-LOK AFG tactical foregrip (FDE),Magpul M-LOK AFG tactical foregrip (Olive Drab),Magpul M-LOK AFG tactical foregrip (Stealth Gray),Magpul M-LOK 4.1 inch rail]
-ChildParts=[Magpul M-LOK 2.5 inch rail,SVD modernization kit top rail]
-ChildParts=[BelOMO PK-06 reflex sight,Aimpoint Micro Standard Mount,Burris FastFire Weaver Base,DeltaPoint Cross Slot Mount base,NcSTAR MPR45 Backup mount,SIG Sauer ROMEO sight mount,Trijicon RMR high profile mount,Trijicon RMR low profile mount]
-ChildParts=[Holosun LS321 Tactical device,AN/PEQ-15 tactical device,AN/PEQ-2 tactical device,LA-5B/PEQ tactical device,SureFire XC1 tactical flashlight,Zenit Perst-3 tactical device]

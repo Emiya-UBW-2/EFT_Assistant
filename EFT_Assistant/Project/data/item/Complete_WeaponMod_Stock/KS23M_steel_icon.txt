@@ -1,4 +1,0 @@
-Name=KS-23M wire stock
-Itemtype=Stock
-Recoil=-25
-Ergonomics=+11

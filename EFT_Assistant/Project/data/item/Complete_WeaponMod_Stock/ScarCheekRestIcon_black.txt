@@ -1,4 +1,0 @@
-Name=FN SCAR cheek rest(black)
-Itemtype=Stock
-Recoil=0
-Ergonomics=+5

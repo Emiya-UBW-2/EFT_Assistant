@@ -1,4 +1,0 @@
-Name=M1911A1 trigger
-Itemtype=Auxiliary part
-Recoil=0
-Ergonomics=+1

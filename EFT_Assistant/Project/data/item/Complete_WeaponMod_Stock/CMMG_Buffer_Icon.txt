@@ -1,4 +1,0 @@
-Name=CMMG buffer tube
-Itemtype=Stock
-Recoil=-2
-Ergonomics=0

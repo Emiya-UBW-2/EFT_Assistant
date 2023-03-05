@@ -1,6 +1,6 @@
 Name=SIG MPX 9x19 submachine gun
-ShortName=SIG MPX
-Itemtype=Submachine gun
+ShortName=MPX
+Itemtype=SMG
 ChildParts=[
 	AR-15 Colt A2 pistol grip,
 	AR-15 Damage Industries ECS pistol grip (FDE),
@@ -30,7 +30,9 @@ ChildParts=[
 	AR-15 Tactical Dynamics Skeletonized pistol grip,
 	MPX pistol grip
 ]
-ChildParts=[MPX GEN1 9x19 upper receiver]
+ChildParts=[
+	MPX GEN1 9x19 upper receiver
+]
 ChildParts=[
 	MPX/MCX retractable stock pipe adapter,
 	MPX/MCX collapsing/telescoping stock,
@@ -50,5 +52,20 @@ ChildParts=[
 	MPX double latch charging handle,
 	MPX single latch charging handle
 ]
-Recoil=60
-Ergonomics=40
+Recoil=60.000000
+Ergonomics=40.000000
+Information_Eng=The SIG Sauer MPX submachine gun boasts an unprecedented operation speed in the familiar form factor of the AR platform. Short-stroke gas piston allows SIG MPX to use the full range of 9 mm ammunition without any adjustments to the gas valve. The full-sized mount provides the means of installing a wide range of scopes and sighting devices.
+basePrice=18907
+width=1
+height=1
+avg24hPrice=44436
+low24hPrice=33000
+lastOfferCount=23
+Sell_Prapor=9453
+Sell_Fence=7562
+Sell_Skier=9264
+Sell_Peacekeeper=74
+Sell_Mechanic=10587
+Sell_Flea Market=40000
+weight=0.640000
+fleaMarketFee=4047

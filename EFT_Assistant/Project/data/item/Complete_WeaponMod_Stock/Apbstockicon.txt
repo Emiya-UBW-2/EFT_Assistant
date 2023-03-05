@@ -1,4 +1,0 @@
-Name=APB detachable wire stock
-Itemtype=Stock
-Recoil=-38
-Ergonomics=0

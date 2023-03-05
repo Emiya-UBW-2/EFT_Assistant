@@ -1,5 +1,0 @@
-Name=NSPU-M night vision scope
-Itemtype=Special scope
-Recoil=-5
-Ergonomics=-20
-SightRange=300

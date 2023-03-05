@@ -1,0 +1,24 @@
+Name=NPZ 1P78-1 dovetail mount
+ShortName=1P78 DT
+Itemtype=Mount
+Conflict=[
+	AK CNC Guns OV GP handguard,
+]
+Recoil=0.000000
+Ergonomics=-1.000000
+Information_Eng=An aluminum sight mount manufactured by NPZ for the installation of scopes and accessories. Installed on dovetail rails.
+basePrice=2000
+width=1
+height=1
+avg24hPrice=13431
+low24hPrice=9000
+lastOfferCount=2
+Sell_Prapor=1000
+Sell_Fence=800
+Sell_Skier=980
+Sell_Peacekeeper=8
+Sell_Mechanic=1120
+Sell_Jaeger=1200
+Sell_Flea Market=11000
+weight=0.040000
+fleaMarketFee=1823

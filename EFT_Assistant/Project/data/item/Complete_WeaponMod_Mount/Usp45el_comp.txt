@@ -1,4 +1,0 @@
-Name=HK USP .45 ACP Elite compensator
-Itemtype=Mount
-Recoil=-10
-Ergonomics=-8

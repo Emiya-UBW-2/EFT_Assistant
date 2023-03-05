@@ -1,6 +1,6 @@
 Name=Remington R11 RSASS 7.62x51 marksman rifle
 ShortName=RSASS
-Itemtype=Designated marksman rifle
+Itemtype=Marksman rifle
 ChildParts=[
 	AR-10 7.62x51 18 inch barrel,
 	AR-10 7.62x51 22 inch barrel
@@ -128,5 +128,20 @@ ChildParts=[
 	UNV DLOC-IRD sight mount,
 	Leapers UTG 25mm ring scope mount
 ]
-Recoil=245
-Ergonomics=50
+Recoil=245.000000
+Ergonomics=50.000000
+Information_Eng=The Remington Semi Automatic Sniper System is the culmination of a joint effort between Remington Arms and JP Enterprises to develop a highly accurate and superbly built rapid firing sniper rifle. This weapon delivers sub-MOA accuracy out to 800 meters and beyond while providing the tactical advantage of a semi-automatic platform.
+basePrice=41605
+width=1
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
+Sell_Prapor=20802
+Sell_Fence=16642
+Sell_Skier=20386
+Sell_Peacekeeper=163
+Sell_Mechanic=23298
+Sell_Jaeger=24963
+weight=1.720000
+fleaMarketFee=0

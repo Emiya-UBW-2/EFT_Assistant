@@ -1,4 +1,0 @@
-Name=Tromix Monster Claw 12ga muzzle brake
-Itemtype=Flash hider/muzzle brake
-Recoil=-24
-Ergonomics=-5

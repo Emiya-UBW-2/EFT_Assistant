@@ -1,6 +1,0 @@
-Name=AK RD Enhanced V2 Rear Sight
-Itemtype=Iron sight
-Recoil=0
-Ergonomics=+1
-SightRange=500
-

@@ -1,4 +1,0 @@
-Name=FN SCAR-H 7.62x51 20 inch barrel
-Itemtype=Stock
-Recoil=-10
-Ergonomics=-22

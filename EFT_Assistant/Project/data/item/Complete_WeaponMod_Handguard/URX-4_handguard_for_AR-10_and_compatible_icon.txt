@@ -1,4 +1,0 @@
-Name=AR-10 KAC URX 4 14.5 inch handguard
-Itemtype=Handguard
-Recoil=-1
-Ergonomics=+7

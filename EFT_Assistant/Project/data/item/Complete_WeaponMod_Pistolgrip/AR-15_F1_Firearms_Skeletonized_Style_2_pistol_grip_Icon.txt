@@ -1,4 +1,0 @@
-Name=AR-15 F1 Firearms Skeletonized Style 2 PC pistol grip
-Itemtype=Pistol grip
-Recoil=0
-Ergonomics=+13

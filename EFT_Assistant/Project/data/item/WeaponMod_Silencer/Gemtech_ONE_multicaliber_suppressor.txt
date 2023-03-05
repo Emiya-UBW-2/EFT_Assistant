@@ -1,0 +1,23 @@
+Name=Gemtech ONE multi-caliber sound suppressor
+ShortName=ONE
+Itemtype=Silencer
+Conflict=[
+	HK 416A5 5.56x45 10.6 inch barrel,
+]
+Recoil=-9.000000
+Ergonomics=-20.000000
+Information_Eng=The Gemtech ONE sound suppressor is designed for use with 7.62x51 NATO rounds, but is also compatible with several other calibers. Requires a direct thread mount adapter for installation.
+basePrice=48520
+width=2
+height=1
+avg24hPrice=39170
+low24hPrice=29000
+lastOfferCount=30
+Sell_Prapor=24260
+Sell_Fence=19408
+Sell_Skier=23774
+Sell_Peacekeeper=190
+Sell_Mechanic=27171
+Sell_Flea Market=35000
+weight=0.460000
+fleaMarketFee=3734

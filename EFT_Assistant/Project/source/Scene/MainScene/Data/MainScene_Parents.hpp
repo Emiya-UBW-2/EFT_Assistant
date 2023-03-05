@@ -26,10 +26,18 @@ namespace FPS_n2 {
 			for (auto& m : m_Mes) {
 				WindowSystem::SetMsg(xp, yp, xp, yp, LineHeight * 7 / 10, STR_LEFT, GetColor(255, 150, 150), GetColor(1, 1, 1), m);
 				yp += LineHeight * 7 / 10;
+				if (yp > y_r(1080)) { break; }
 			}
 		}
 		void AddLog(const char* Mes) noexcept {
 			m_Mes.emplace_back(Mes);
+		}
+		void Save() noexcept {
+			std::ofstream outputfile("data/ErrorLog.txt");
+			for (auto& LD : m_Mes) {
+				outputfile << LD + "\n";
+			}
+			outputfile.close();
 		}
 	};
 	//

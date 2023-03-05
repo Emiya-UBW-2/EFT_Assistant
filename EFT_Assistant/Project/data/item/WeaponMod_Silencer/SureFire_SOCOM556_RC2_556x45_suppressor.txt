@@ -1,0 +1,23 @@
+Name=SureFire SOCOM556-RC2 5.56x45 sound suppressor
+ShortName=556-RC2
+Itemtype=Silencer
+Conflict=[
+	HK 416A5 5.56x45 10.6 inch barrel,
+]
+Recoil=-10.000000
+Ergonomics=-17.000000
+Information_Eng=The SureFire SOCOM556-RC2 5.56x45 and .223 sound suppressor, can only be installed on compatible SureFire muzzle devices.
+basePrice=49500
+width=2
+height=1
+avg24hPrice=36004
+low24hPrice=28000
+lastOfferCount=66
+Sell_Prapor=24750
+Sell_Fence=19800
+Sell_Skier=24255
+Sell_Peacekeeper=194
+Sell_Mechanic=27720
+Sell_Flea Market=28000
+weight=0.482000
+fleaMarketFee=3547

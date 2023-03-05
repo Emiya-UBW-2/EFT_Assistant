@@ -1,5 +1,0 @@
-Name=M14 7.62x51 30-round magazine
-Itemtype=Magazine
-Recoil=0
-Ergonomics=-6
-

@@ -1,0 +1,41 @@
+Name=STM-9 9x19 16 inch barrel
+ShortName=STM-9 16"
+Itemtype=Barrel
+ChildParts=[
+	STM-9 9x19 muzzle brake,
+	KRISS Vector 9x19 flash hider,
+	Gemtech ONE Direct Thread Mount adapter,
+	Rotor 43 9x19 muzzle brake-compensator,
+	SIG Sauer SRD9 9x19 sound suppressor,
+	SilencerCo Osprey 9 9x19 sound suppressor
+]
+Conflict=[
+	AR-15 Alexander Arms MK10 rifle length handguard,
+	AR-15 Daniel Defense RIS II 12.25 handguard (Coyote Brown),
+	AR-15 Geissele SMR MK16 13.5 inch M-LOK handguard,
+	R11 RSASS handguard,
+	AR-15 KAC URX 3.1 10.75 inch handguard,
+	AR-15 Lone Star Ion Lite handguard,
+	AR-15 SAI 14.5 inch QD Rail handguard,
+	AR-15 SAI 10 inch QD Rail handguard,
+	AR-15 War Sport LVOA-C handguard (Black),
+	AR-15 War Sport LVOA-S handguard (Black),
+]
+Recoil=-10.000000
+Ergonomics=-19.000000
+Information_Eng=A 16 inches (406mm) long barrel for the STM-9 carbine, chambered in 9x19.
+basePrice=12500
+width=3
+height=1
+avg24hPrice=30117
+low24hPrice=14333
+lastOfferCount=5
+Sell_Prapor=6250
+Sell_Fence=5000
+Sell_Skier=6125
+Sell_Peacekeeper=49
+Sell_Mechanic=7000
+Sell_Jaeger=7500
+Sell_Flea Market=28000
+weight=0.800000
+fleaMarketFee=2895

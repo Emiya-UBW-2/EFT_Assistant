@@ -1,5 +1,0 @@
-Name=M1A 7.62x51 16 inch barrel
-Itemtype=Stock
-Recoil=-5
-Ergonomics=-12
-ChildParts=[M1A Smith Enterprise SOCOM 16 7.62x51 threaded muzzle brake & gas block,M1A SOCOM 16 7.62x51 muzzle brake-compensator]

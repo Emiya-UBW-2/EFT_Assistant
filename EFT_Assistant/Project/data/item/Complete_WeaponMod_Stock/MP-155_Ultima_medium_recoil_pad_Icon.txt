@@ -1,4 +1,0 @@
-Name=MP-155 Ultima medium recoil pad
-Itemtype=Stock
-Recoil=-6
-Ergonomics=+1

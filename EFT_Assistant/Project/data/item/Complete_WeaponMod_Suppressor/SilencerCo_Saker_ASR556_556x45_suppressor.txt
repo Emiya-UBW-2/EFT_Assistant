@@ -1,4 +1,0 @@
-Name=SilencerCo Saker ASR 556 5.56x45 sound suppressor
-Itemtype=Suppressor
-Recoil=-14
-Ergonomics=-22

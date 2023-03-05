@@ -1,5 +1,0 @@
-Name=MP9 9x19 25-round magazine
-Itemtype=Magazine
-Recoil=0
-Ergonomics=1
-

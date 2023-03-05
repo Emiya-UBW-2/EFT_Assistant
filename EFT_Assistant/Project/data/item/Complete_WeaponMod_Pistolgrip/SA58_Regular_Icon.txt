@@ -1,4 +1,0 @@
-Name=SA-58 pistol grip
-Itemtype=Pistol grip
-Recoil=0
-Ergonomics=+5

@@ -1,4 +1,0 @@
-Name=AI AXMC .338 LM 28 inch barrel
-Itemtype=Stock
-Recoil=-5
-Ergonomics=-18

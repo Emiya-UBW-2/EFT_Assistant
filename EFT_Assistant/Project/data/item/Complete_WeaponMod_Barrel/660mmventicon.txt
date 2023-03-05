@@ -1,6 +1,0 @@
-Name=M870 12ga 660mm vent rib barrel
-Itemtype=Stock
-Recoil=-9
-Ergonomics=-12
-ChildParts=[VOMZ Pilad TargetRing reflex sight]
-ChildParts=[M870 Mesa Tactical magazine clamp]

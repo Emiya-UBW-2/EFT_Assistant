@@ -1,4 +1,0 @@
-Name=MPX/MCX collapsing/telescoping stock
-Itemtype=Stock
-Recoil=-26
-Ergonomics=+17

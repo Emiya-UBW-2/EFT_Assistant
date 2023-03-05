@@ -1,5 +1,0 @@
-Name=HK MP5 9x19 X Products X-5 50-round drum magazine
-Itemtype=Magazine
-Recoil=0
-Ergonomics=-15
-

@@ -1,5 +1,0 @@
-Name=M870 12ga sawn-off 325mm barrel
-Itemtype=Stock
-Recoil=-1
-Ergonomics==+2
-ChildParts=[VOMZ Pilad TargetRing reflex sight]

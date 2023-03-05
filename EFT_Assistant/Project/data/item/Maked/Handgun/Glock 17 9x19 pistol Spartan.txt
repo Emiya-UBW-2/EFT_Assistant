@@ -1,0 +1,17 @@
+Name=Glock 17 9x19 pistol Spartan
+ShortName=Glock 17 Spartan
+Itemtype=Handgun
+Information_Eng=
+basePrice=46354
+width=2
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Prapor=23177
+Sell_Fence=18541
+Sell_Skier=22713
+Sell_Peacekeeper=181
+Sell_Mechanic=25958
+weight=0.727000
+fleaMarketFee=4404

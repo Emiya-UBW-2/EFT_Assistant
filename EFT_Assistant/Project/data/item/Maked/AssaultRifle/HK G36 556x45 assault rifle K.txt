@@ -1,0 +1,17 @@
+Name=HK G36 5.56x45 assault rifle K
+ShortName=G36 K
+Itemtype=Assault rifle
+Information_Eng=
+basePrice=70250
+width=5
+height=2
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Prapor=35125
+Sell_Fence=28100
+Sell_Skier=34422
+Sell_Peacekeeper=275
+Sell_Mechanic=39340
+weight=2.709000
+fleaMarketFee=6674

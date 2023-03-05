@@ -1,6 +1,6 @@
 Name=SIG P226R 9x19 pistol
-ShortName=SIG P226R
-Itemtype=Pistol
+ShortName=P226R
+Itemtype=Handgun
 ChildParts=[
 	P226 9x19 112mm barrel,
 	P226 9x19 threaded barrel
@@ -36,5 +36,20 @@ ChildParts=[
 	UM Tactical UM3 pistol sight mount,
 	P226 Bridge sight mount
 ]
-Recoil=450
-Ergonomics=80
+Recoil=450.000000
+Ergonomics=80.000000
+Information_Eng=The P226R is a full-sized, service-type pistol made by SIG Sauer. Chambered in 9x19mm Parabellum, it features a Picatinny rail mount on the underside of the frame. It's the standard service weapon of Navy SEALs.
+basePrice=6238
+width=2
+height=1
+avg24hPrice=16285
+low24hPrice=11111
+lastOfferCount=2
+Sell_Prapor=3119
+Sell_Fence=2495
+Sell_Skier=3056
+Sell_Peacekeeper=24
+Sell_Mechanic=3493
+Sell_Flea Market=16888
+weight=0.231000
+fleaMarketFee=1895

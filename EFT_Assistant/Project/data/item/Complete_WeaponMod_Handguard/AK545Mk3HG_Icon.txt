@@ -1,4 +1,0 @@
-Name=AK-545 SAG Mk.3 handguard
-Itemtype=Handguard
-Recoil=-3
-Ergonomics=+16

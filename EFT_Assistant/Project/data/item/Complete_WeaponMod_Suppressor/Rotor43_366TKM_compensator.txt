@@ -1,4 +1,0 @@
-Name=Rotor 43 .366 TKM muzzle brake-compensator
-Itemtype=Suppressor
-Recoil=-10
-Ergonomics=-22

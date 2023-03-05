@@ -1,0 +1,34 @@
+Name=NPZ USP-1 "Tyulpan" 4x scope
+ShortName=USP-1
+Itemtype=Scope
+SightRange=600
+Conflict=[
+	AKS-74U CAA XRSU47SU tactical handguard,
+	AK CNC Guns OV GP handguard,
+	SVD SAG MK1 chassis,
+	AK TDI X47 tactical handguard rail system,
+	SAG Bit low profile dovetail sidemount,
+	SVD modernization kit top rail,
+	AK AKademia Bastion dust cover,
+	AK Zenit B-33 dust cover,
+	AK FAB Defense PDC dust cover,
+	AK TWS Dog Leg Rail dust cover,
+]
+Recoil=0.000000
+Ergonomics=-6.000000
+Information_Eng=The USP-1 "Tyulpan" unified rifle scope is designed to conduct accurate fire from AK-74N, AK-74M, AN-94 assault rifles and RPK-74N and PKMN machine guns in the daytime and at night. Installed on dovetail mount rail.
+basePrice=14500
+width=1
+height=1
+avg24hPrice=16328
+low24hPrice=10345
+lastOfferCount=8
+Sell_Prapor=7250
+Sell_Fence=5800
+Sell_Skier=7105
+Sell_Peacekeeper=57
+Sell_Mechanic=8120
+Sell_Jaeger=8700
+Sell_Flea Market=15806
+weight=0.795000
+fleaMarketFee=1469

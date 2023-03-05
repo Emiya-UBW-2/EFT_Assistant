@@ -1,6 +1,8 @@
 Name=9x18mm PM PSV ammo pack (16 pcs)
 ShortName=PSV
 Itemtype=Ammo container
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=A cardboard box of 9x18 mm PM PSV cartridges, 16 pieces.
 basePrice=1000
 width=1

@@ -1,5 +1,0 @@
-Name=AR-15 Ferfrans CQB 5.56x45 muzzle brake
-Itemtype=Flash hider/muzzle brake
-ChildParts=[Ferfrans CRD 5.56x45 Concussion Reduction Device]
-Recoil=-9
-Ergonomics=-1

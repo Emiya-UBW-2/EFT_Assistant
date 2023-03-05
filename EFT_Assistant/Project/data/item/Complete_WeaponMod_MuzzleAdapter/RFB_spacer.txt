@@ -1,4 +1,0 @@
-Name=RFB thread spacer
-Itemtype=Muzzle adapter
-Recoil=0
-Ergonomics=0

@@ -1,7 +1,9 @@
 Name=MP-155 12ga semi-automatic shotgun
 ShortName=MP-155
 Itemtype=Shotgun
-ChildParts=[MP-155 510mm barrel]
+ChildParts=[
+	MP-155 12ga 510mm barrel
+]
 ChildParts=[
 	MP-155 walnut forestock,
 	MP-155 Ultima polymer forestock
@@ -24,5 +26,21 @@ ChildParts=[
 	Kiba Arms SPRM rail mount for pump-action shotguns,
 	MP-155 Ultima top rail
 ]
-Recoil=445
-Ergonomics=48
+Recoil=445.000000
+Ergonomics=48.000000
+Information_Eng=The Russian MP-155 smoothbore multi-shot 12 gauge shotgun, manufactured by IzhMekh ("Izhevsky Mechanical Plant"). The gun weighs less than its predecessor MP-153 and features enhanced ergonomics and an easy-to-replace barrel mechanism. The new design also makes it easier to use for left-handed users.
+basePrice=18900
+width=3
+height=1
+avg24hPrice=43110
+low24hPrice=29999
+lastOfferCount=1
+Sell_Prapor=9450
+Sell_Fence=7560
+Sell_Skier=9261
+Sell_Peacekeeper=74
+Sell_Mechanic=10584
+Sell_Jaeger=11340
+Sell_Flea Market=36666
+weight=1.100000
+fleaMarketFee=3601

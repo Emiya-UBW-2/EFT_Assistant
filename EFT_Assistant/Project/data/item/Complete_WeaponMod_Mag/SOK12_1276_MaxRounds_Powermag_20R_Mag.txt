@@ -1,5 +1,0 @@
-Name=SOK-12 12/76 MaxRounds Powermag 20-round magazine
-Itemtype=Magazine
-Recoil=0
-Ergonomics=-26
-

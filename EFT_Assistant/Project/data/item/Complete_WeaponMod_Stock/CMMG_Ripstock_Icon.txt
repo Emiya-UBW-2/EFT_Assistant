@@ -1,4 +1,0 @@
-Name=CMMG RipStock buttstock
-Itemtype=Stock
-Recoil=-27
-Ergonomics=+8

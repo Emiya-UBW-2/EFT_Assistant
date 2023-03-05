@@ -1,4 +1,0 @@
-Name=M1911A1 .45 ACP 127mm barrel
-Itemtype=Stock
-Recoil=-3
-Ergonomics=-5

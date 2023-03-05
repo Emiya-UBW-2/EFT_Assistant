@@ -1,0 +1,34 @@
+Name=MPX 9x19 6.5 inch barrel
+ShortName=MPX 6.5"
+Itemtype=Barrel
+ChildParts=[
+	TACCOM Carbine Brake multi-caliber muzzle brake,
+	Yankee Hill Annihilator multi-caliber flash hider,
+	MPX A2 9x19 flash hider,
+	SilencerCo Hybrid 46 Direct Thread Mount adapter,
+	AAC Illusion 9 9x19 sound suppressor,
+	Rotor 43 9x19 muzzle brake-compensator,
+	SIG Sauer SRD9 9x19 sound suppressor,
+	SilencerCo Osprey 9 9x19 sound suppressor
+]
+Conflict=[
+	MPX Lancer OEM 14 inch M-LOK handguard,
+	MPX Midwest Industries 10.5 inch M-LOK handguard,
+]
+Recoil=-1.000000
+Ergonomics=-3.000000
+Information_Eng=A 6.5 inch (165mm) long barrel for MPX-based weapons chambered in 9x19 ammo.
+basePrice=5174
+width=2
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
+Sell_Prapor=2587
+Sell_Fence=2069
+Sell_Skier=2535
+Sell_Peacekeeper=20
+Sell_Mechanic=2897
+Sell_Jaeger=3104
+weight=0.190000
+fleaMarketFee=492

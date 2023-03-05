@@ -1,5 +1,0 @@
-Name=Mosin Rifle 7.62x54R ProMag Archangel OPFOR 10-round magazine
-Itemtype=Magazine
-Recoil=0
-Ergonomics=-4
-

@@ -1,4 +1,0 @@
-Name=SOK-12 polymer handguard (Sb.7-1)
-Itemtype=Handguard
-Recoil=0
-Ergonomics=+9

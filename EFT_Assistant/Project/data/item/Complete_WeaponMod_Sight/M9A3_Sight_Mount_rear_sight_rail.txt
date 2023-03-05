@@ -1,6 +1,0 @@
-Name=M9A3 Sight Mount rear sight rail
-Itemtype=Iron sight
-Recoil=0
-Ergonomics=-2
-SightRange=200
-

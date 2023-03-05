@@ -1,4 +1,0 @@
-Name=HK USP Tactical .45 ACP threaded barrel
-Itemtype=Stock
-Recoil=-2
-Ergonomics=-3

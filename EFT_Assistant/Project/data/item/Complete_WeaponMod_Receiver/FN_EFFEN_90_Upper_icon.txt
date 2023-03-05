@@ -1,4 +1,0 @@
-Name=FN P90 EFFEN 90 5.7x28 upper receiver
-Itemtype=Receiver
-Recoil=0
-Ergonomics=-1

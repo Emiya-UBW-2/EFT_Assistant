@@ -1,4 +1,0 @@
-Name=SA-58 humpback polymer stock
-Itemtype=Stock
-Recoil=-31
-Ergonomics=-4

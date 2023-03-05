@@ -1,8 +1,0 @@
-Name=AK Magpul Zhukov-U handguard (Plum)
-Itemtype=Handguard
-Recoil=-1
-Ergonomics=+14
-ChildParts=[Magpul M-LOK AFG tactical foregrip (Black),Magpul M-LOK AFG tactical foregrip (FDE),Magpul M-LOK AFG tactical foregrip (Olive Drab),Magpul M-LOK AFG tactical foregrip (Stealth Gray),Magpul M-LOK 4.1 inch rail]
-ChildParts=[Magpul M-LOK 2.5 inch rail,Magpul M-LOK Cantilever Mount]
-ChildParts=[Magpul M-LOK 2.5 inch rail,Magpul M-LOK Cantilever Mount]
-Conflict=[PP-19-01 "Vityaz" 9x19 submachine gun]

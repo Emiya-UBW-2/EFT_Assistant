@@ -1,4 +1,0 @@
-Name=M870 SpeedFeed Short handguard
-Itemtype=Handguard
-Recoil=0
-Ergonomics=+7

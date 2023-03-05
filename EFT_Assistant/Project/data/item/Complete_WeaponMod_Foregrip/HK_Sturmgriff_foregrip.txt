@@ -1,4 +1,0 @@
-Name=HK Sturmgriff foregrip
-Itemtype=Foregrip
-Recoil=0
-Ergonomics=+7

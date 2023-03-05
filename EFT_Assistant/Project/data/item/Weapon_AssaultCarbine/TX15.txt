@@ -1,6 +1,6 @@
 Name=Lone Star TX-15 DML 5.56x45 carbine
-ShortName=TX-15
-Itemtype=Assault carbine
+ShortName=TX-15 DML
+Itemtype=Assault rifle
 ChildParts=[
 	AR-15 Magpul MOE pistol grip (Black),
 	AR-15 Colt A2 pistol grip,
@@ -84,5 +84,20 @@ ChildParts=[
 	AR-15 Noveske Gen.3 5.56x45 upper receiver,
 	AR-15 Vltor MUR-1S 5.56x45 upper receiver
 ]
-Recoil=132
-Ergonomics=50
+Recoil=132.000000
+Ergonomics=50.000000
+Information_Eng=The Lone Star Armory TX15 Designated Marksman Light (DML) is a high precision civilian rifle designed on the AR-15 system base, chambered in 5.56x45 rounds.
+basePrice=24397
+width=1
+height=1
+avg24hPrice=127760
+low24hPrice=80000
+lastOfferCount=19
+Sell_Prapor=12198
+Sell_Fence=9758
+Sell_Skier=11954
+Sell_Peacekeeper=95
+Sell_Mechanic=13662
+Sell_Flea Market=95000
+weight=0.310000
+fleaMarketFee=12869

@@ -1,0 +1,23 @@
+Name=AK-74 PWS CQB 74 5.45x39 muzzle brake
+ShortName=PWS CQB 74
+Itemtype=Flashhider
+Conflict=[
+	AKS-74U Alfa Arms Goliaf handguard,
+]
+Recoil=-16.000000
+Ergonomics=-4.000000
+Information_Eng=The PWS CQB 74 5.45x39mm muzzle brake is designed specifically for compact arms and use in confined spaces. This version is intended for AK series based weapons.
+basePrice=8486
+width=1
+height=1
+avg24hPrice=20805
+low24hPrice=14444
+lastOfferCount=13
+Sell_Prapor=4243
+Sell_Fence=3394
+Sell_Skier=4158
+Sell_Peacekeeper=33
+Sell_Mechanic=4752
+Sell_Flea Market=19111
+weight=0.190000
+fleaMarketFee=1980

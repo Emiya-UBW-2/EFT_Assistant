@@ -1,4 +1,0 @@
-Name=PP-19-01 "Vityaz" dust cover
-Itemtype=Receiver
-Recoil=0
-Ergonomics=+3

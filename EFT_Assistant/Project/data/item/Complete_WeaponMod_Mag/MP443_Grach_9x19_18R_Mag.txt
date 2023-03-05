@@ -1,5 +1,0 @@
-Name=MP-443 "Grach" 9x19 18-round magazine
-Itemtype=Magazine
-Recoil=0
-Ergonomics=-1
-

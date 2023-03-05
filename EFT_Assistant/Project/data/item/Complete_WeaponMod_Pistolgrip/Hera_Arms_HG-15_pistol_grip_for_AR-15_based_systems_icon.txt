@@ -1,4 +1,0 @@
-Name=AR-15 Hera Arms HG-15 pistol grip
-Itemtype=Pistol grip
-Recoil=0
-Ergonomics=+10

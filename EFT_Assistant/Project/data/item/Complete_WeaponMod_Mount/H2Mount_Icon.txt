@@ -1,4 +1,0 @@
-Name=Aimpoint Micro H-2 Standard Mount
-Itemtype=Mount
-Recoil=0
-Ergonomics=0

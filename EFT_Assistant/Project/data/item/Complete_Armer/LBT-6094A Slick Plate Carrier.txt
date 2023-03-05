@@ -1,6 +1,8 @@
 Name=LBT-6094A Slick Plate Carrier
 ShortName=Slick
 Itemtype=Armor
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=A simple yet effective plate carrier by London Bridge Trading company. The most minimalistic design intended for use with chest rigs. Black version.
 basePrice=374500
 width=3

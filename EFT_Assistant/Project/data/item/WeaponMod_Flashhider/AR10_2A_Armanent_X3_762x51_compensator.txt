@@ -1,0 +1,23 @@
+Name=AR-10 2A Armanent X3 7.62x51 compensator
+ShortName=X3 762
+Itemtype=Flashhider
+Conflict=[
+	MCX GEN1 KeyMod 12 inch handguard,
+]
+Recoil=-9.000000
+Ergonomics=-1.000000
+Information_Eng=The X3 compensator designed for installation on AR-10-type systems and compatibles. Manufactured by 2A Armament.
+basePrice=7817
+width=1
+height=1
+avg24hPrice=9356
+low24hPrice=7000
+lastOfferCount=10
+Sell_Prapor=3908
+Sell_Fence=3126
+Sell_Skier=3830
+Sell_Peacekeeper=31
+Sell_Mechanic=4377
+Sell_Flea Market=8500
+weight=0.060000
+fleaMarketFee=790

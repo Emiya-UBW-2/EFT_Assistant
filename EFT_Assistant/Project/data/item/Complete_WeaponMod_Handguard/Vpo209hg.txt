@@ -1,4 +1,0 @@
-Name=VPO-209 wooden handguard
-Itemtype=Handguard
-Recoil=0
-Ergonomics=+4

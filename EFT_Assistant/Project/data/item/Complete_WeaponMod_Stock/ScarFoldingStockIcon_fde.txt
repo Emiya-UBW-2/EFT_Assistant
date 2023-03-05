@@ -1,4 +1,0 @@
-Name=FN SCAR folding polymer stock (FDE)
-Itemtype=Stock
-Recoil=+5
-Ergonomics=0

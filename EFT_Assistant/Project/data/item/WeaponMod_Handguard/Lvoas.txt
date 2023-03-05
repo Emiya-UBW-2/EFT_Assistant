@@ -1,0 +1,51 @@
+Name=AR-15 War Sport LVOA-S handguard (Black)
+ShortName=LVOA-S
+Itemtype=Handguard
+ChildParts=[
+	NcSTAR MPR45 Backup mount
+]
+ChildParts=[
+	AN/PEQ-15 tactical device,
+	Holosun LS321 Tactical device,
+	LA-5B/PEQ tactical device,
+	SureFire XC1 tactical flashlight,
+	Zenit Perst-3 tactical device
+]
+ChildParts=[
+	Vltor CASV KeyMod 2 inch rail,
+	Vltor CASV KeyMod 4 inch rail,
+	Vltor CASV KeyMod 6 inch rail
+]
+ChildParts=[
+	KAC Folding front sight,
+	Magpul MBUS Gen2 flip-up front sight,
+	Magpul MBUS Gen2 flip-up front sight (FDE),
+	HK MP7 flip-up front sight,
+	MPX flip-up front sight,
+	AR-15 Leapers UTG Low Profile A2 front sight
+]
+Conflict=[
+	STM-9 9x19 10.5 inch barrel,
+	STM-9 9x19 12 inch barrel,
+	STM-9 9x19 14 inch barrel,
+	STM-9 9x19 16 inch barrel,
+	AR-10 JP Enterprises Gas System-6,
+	M203 40mm underbarrel grenade launcher,
+]
+Recoil=-1.000000
+Ergonomics=9.000000
+Information_Eng=The War Sport LVOA-S (SBR) lightweight handguard is designed for use with sport rifles based on AR-15 rifles.
+basePrice=16845
+width=2
+height=1
+avg24hPrice=20064
+low24hPrice=16999
+lastOfferCount=21
+Sell_Prapor=8422
+Sell_Fence=6738
+Sell_Skier=8254
+Sell_Peacekeeper=66
+Sell_Mechanic=9433
+Sell_Flea Market=17000
+weight=0.500000
+fleaMarketFee=1610

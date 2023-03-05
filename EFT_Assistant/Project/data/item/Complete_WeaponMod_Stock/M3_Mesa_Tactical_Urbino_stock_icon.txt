@@ -1,4 +1,0 @@
-Name=Benelli M3 Mesa Tactical Urbino stock
-Itemtype=Stock
-Recoil=-35
-Ergonomics=+6

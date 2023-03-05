@@ -61,13 +61,15 @@ ChildParts=[
 	AK RD Enhanced V2 Rear Sight,
 	AK Taktika Tula TT01 rear sight rail
 ]
-ChildParts=[AKMP system front sight device]
+ChildParts=[
+	AKMP system front sight device
+]
 ChildParts=[
 	AK-74M polymer stock (6P34 Sb.15),
 	AK-74M CAA AKTS AK74 buffer tube,
 	AK-74M/AK-100 Zenit PT Lock,
-	RPK-16 buffer tube,
-	AK 100-series metal skeletonized stock]
+	RPK-16 buffer tube
+]
 ChildParts=[
 	AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine,
 	AK 7.62x39 ribbed metal 10-round magazine,
@@ -108,6 +110,29 @@ ChildParts=[
 	AK CSS knurled charging handle,
 	AK Zenit RP-1 charging handle
 ]
-ChildParts=[GP-25 "Kostyor" 40mm underbarrel grenade launcher]
-Recoil=181
-Ergonomics=38
+ChildParts=[
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher
+]
+Conflict=[
+	AK Hexagon tubular handguard (Anodized Red),
+	AK Hexagon tubular handguard,
+	AK Strike Industries TRAX 2 handguard extension,
+	AK Vltor CMRD KeyMod handguard,
+]
+Recoil=181.000000
+Ergonomics=38.000000
+Information_Eng=The AK-104 7.62x39mm assault rifle is a further modernized version of AK-74M base, more precisely a shortened version of AK-103. A short compact version equipped with a side-folding shoulder stock and a side mount for optical and night scopes. The 100-series AKs are produced by the Izhmash factories in Izhevsk, Russia.
+basePrice=39912
+width=3
+height=1
+avg24hPrice=28398
+low24hPrice=26000
+lastOfferCount=36
+Sell_Prapor=19956
+Sell_Fence=15964
+Sell_Skier=19556
+Sell_Peacekeeper=156
+Sell_Mechanic=22350
+Sell_Flea Market=26999
+weight=1.992000
+fleaMarketFee=2994

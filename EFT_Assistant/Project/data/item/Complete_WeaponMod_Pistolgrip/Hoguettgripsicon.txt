@@ -1,4 +1,0 @@
-Name=TT Hogue-like rubber grip
-Itemtype=Pistol grip
-Recoil=0
-Ergonomics=+8

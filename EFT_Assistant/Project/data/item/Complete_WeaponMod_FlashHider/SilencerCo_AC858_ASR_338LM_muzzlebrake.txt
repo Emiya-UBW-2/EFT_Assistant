@@ -1,4 +1,0 @@
-Name=SilencerCo AC-858 ASR .338 LM muzzle brake
-Itemtype=Flash hider/muzzle brake
-Recoil=-9
-Ergonomics=-2

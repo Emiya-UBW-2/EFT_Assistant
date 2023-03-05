@@ -1,0 +1,40 @@
+Name=M700 Magpul Pro 700 chassis inline mount
+ShortName=Pro700 rail
+Itemtype=Mount
+ChildParts=[
+	HK MP7 flip-up front sight,
+	KAC Folding Micro front sight,
+	KAC Folding front sight,
+	KRISS Defiance low profile flip-up front sight,
+	Magpul MBUS Gen2 flip-up front sight,
+	Magpul MBUS Gen2 flip-up front sight (FDE),
+	MCX flip-up front sight,
+	MPX flip-up front sight
+]
+ChildParts=[
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	AN/PEQ-2 tactical device,
+	LA-5B/PEQ tactical device,
+	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Perst-3 tactical device
+]
+Recoil=0.000000
+Ergonomics=-1.000000
+Information_Eng=A universal mount rail by Magpul for installation of additional tactical devices, can be installed on the Pro 700 chasiss for the Remington M700 sniper rifle.
+basePrice=2340
+width=2
+height=1
+avg24hPrice=10819
+low24hPrice=2222
+lastOfferCount=10
+Sell_Prapor=1170
+Sell_Fence=936
+Sell_Skier=1146
+Sell_Peacekeeper=9
+Sell_Mechanic=1310
+Sell_Jaeger=1404
+Sell_Flea Market=5555
+weight=0.280000
+fleaMarketFee=588

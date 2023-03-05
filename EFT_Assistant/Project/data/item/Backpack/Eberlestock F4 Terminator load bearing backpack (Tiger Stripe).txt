@@ -1,6 +1,8 @@
 Name=Eberlestock F4 Terminator load bearing backpack (Tiger Stripe)
 ShortName=F4 Terminator
 Itemtype=Backpack
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=An extremely versatile full-format load bearing backpack for military use. Manufactured by Eberlestock.
 basePrice=79500
 width=5

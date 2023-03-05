@@ -1,5 +1,0 @@
-Name=Leupold DeltaPoint Reflex Sight
-Itemtype=Compact reflex sight
-Recoil=0
-Ergonomics=0
-SightRange=100

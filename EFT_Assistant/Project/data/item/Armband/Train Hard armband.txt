@@ -1,6 +1,8 @@
 Name=Train Hard armband
 ShortName=THGP
 Itemtype=Arm Band
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=An armband from Jaeger. "Fall 715 times, but rise 716 times."
 basePrice=50000
 width=1

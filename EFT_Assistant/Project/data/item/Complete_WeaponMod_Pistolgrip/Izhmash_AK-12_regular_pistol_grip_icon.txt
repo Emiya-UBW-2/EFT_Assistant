@@ -1,4 +1,0 @@
-Name=AK-12 pistol grip
-Itemtype=Pistol grip
-Recoil=0
-Ergonomics=+6.5

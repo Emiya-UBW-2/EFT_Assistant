@@ -1,4 +1,0 @@
-Name=MP9 9x19 sound suppressor
-Itemtype=Suppressor
-Recoil=-9
-Ergonomics=-14

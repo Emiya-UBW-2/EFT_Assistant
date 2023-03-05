@@ -1,5 +1,0 @@
-Name=M700 7.62x51 Magpul PMAG AC 5-round magazine
-Itemtype=Magazine
-Recoil=0
-Ergonomics=4
-

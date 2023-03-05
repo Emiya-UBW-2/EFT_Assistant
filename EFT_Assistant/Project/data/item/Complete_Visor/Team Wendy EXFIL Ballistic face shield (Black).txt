@@ -1,6 +1,8 @@
 Name=Team Wendy EXFIL Ballistic face shield (Black)
 ShortName=EXFIL FS
 Itemtype=Armored equipment
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=A low-profile lightweight bulletproof glass faceplate that quickly and tool-free attaches to the front of the Team Wendy EXFIL helmet. Black version.
 basePrice=31500
 width=2

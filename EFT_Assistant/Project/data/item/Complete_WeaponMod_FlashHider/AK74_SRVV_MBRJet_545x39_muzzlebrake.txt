@@ -1,4 +1,0 @@
-Name=AK-74 SRVV MBR Jet 5.45x39 muzzle brake
-Itemtype=Flash hider/muzzle brake
-Recoil=-15
-Ergonomics=-2

@@ -1,4 +1,0 @@
-Name=Daniel Defense WAVE QD sound suppressor
-Itemtype=Suppressor
-Recoil=-8
-Ergonomics=-17

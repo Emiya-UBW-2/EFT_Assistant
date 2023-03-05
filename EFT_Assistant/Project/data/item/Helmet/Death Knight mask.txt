@@ -1,6 +1,8 @@
 Name=Death Knight mask
 ShortName=Death Knight
 Itemtype=Face Cover
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=A unique mask of the commander of the Goons squad, former USEC operators who decided not to flee Tarkov, but to create their own order.
 basePrice=72000
 width=2

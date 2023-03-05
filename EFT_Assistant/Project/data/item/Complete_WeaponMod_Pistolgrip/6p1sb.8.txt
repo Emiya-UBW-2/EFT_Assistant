@@ -1,4 +1,0 @@
-Name=AK polymer pistol grip (6P1 Sb.8)
-Itemtype=Pistol grip
-Recoil=0
-Ergonomics=+6

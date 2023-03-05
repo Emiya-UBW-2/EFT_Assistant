@@ -1,4 +1,0 @@
-Name=Gemtech ONE multi-caliber sound suppressor
-Itemtype=Suppressor
-Recoil=-9
-Ergonomics=-20

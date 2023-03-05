@@ -1,4 +1,0 @@
-Name=SV-98 sound suppressor heat shield
-Itemtype=Auxiliary part
-Recoil=0
-Ergonomics=+2

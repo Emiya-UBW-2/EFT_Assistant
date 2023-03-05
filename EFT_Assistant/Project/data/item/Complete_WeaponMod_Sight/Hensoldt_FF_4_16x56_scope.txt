@@ -1,5 +1,0 @@
-Name=Hensoldt FF 4-16x56 34mm riflescope
-Itemtype=Scope
-Recoil=0
-Ergonomics=-6
-SightRange=1500

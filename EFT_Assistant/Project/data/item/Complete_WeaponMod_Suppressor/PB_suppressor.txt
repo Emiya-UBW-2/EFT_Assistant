@@ -1,4 +1,0 @@
-Name=PB 9x18PM sound suppressor
-Itemtype=Suppressor
-Recoil=-12
-Ergonomics=-21

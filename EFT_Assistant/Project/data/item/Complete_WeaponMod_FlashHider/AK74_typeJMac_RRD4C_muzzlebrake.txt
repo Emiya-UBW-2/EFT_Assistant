@@ -1,4 +1,0 @@
-Name=AK-74 thread type JMac Customs RRD-4C multi-caliber muzzle brake
-Itemtype=Flash hider/muzzle brake
-Recoil=-19
-Ergonomics=-2

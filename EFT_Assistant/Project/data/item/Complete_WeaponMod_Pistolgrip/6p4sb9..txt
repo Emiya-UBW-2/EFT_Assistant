@@ -1,4 +1,0 @@
-Name=AK bakelite pistol grip (6P4 Sb.9)
-Itemtype=Pistol grip
-Recoil=0
-Ergonomics=+6

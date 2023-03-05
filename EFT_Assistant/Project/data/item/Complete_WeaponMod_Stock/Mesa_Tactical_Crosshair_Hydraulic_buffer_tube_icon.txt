@@ -1,4 +1,0 @@
-Name=Mesa Tactical Crosshair Hydraulic buffer tube
-Itemtype=Stock
-Recoil=-5
-Ergonomics=-3

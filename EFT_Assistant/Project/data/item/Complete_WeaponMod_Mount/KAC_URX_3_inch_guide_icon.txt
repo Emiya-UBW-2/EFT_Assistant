@@ -1,4 +1,0 @@
-Name=KAC URX 3 3 inch rail
-Itemtype=Mount
-Recoil=0
-Ergonomics=0

@@ -1,4 +1,0 @@
-Name=Mosin Rifle Arbalet Patriot K+W rail mount
-Itemtype=Mount
-Recoil=0
-Ergonomics=-1

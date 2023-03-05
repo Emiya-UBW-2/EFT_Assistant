@@ -1,0 +1,67 @@
+Name=AR-15 Lone Star Ion Lite handguard
+ShortName=Ion Lite
+Itemtype=Handguard
+ChildParts=[
+	Magpul M-LOK 4.1 inch rail,
+	Magpul M-LOK AFG tactical foregrip (Black),
+	Magpul M-LOK AFG tactical foregrip (FDE),
+	Magpul M-LOK AFG tactical foregrip (Olive Drab),
+	Magpul M-LOK AFG tactical foregrip (Stealth Gray)
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK Offset Light Mount
+]
+ChildParts=[
+	NcSTAR MPR45 Backup mount
+]
+ChildParts=[
+	HK MP7 flip-up front sight,
+	KAC Folding Micro front sight,
+	KAC Folding front sight,
+	KRISS Defiance low profile flip-up front sight,
+	Magpul MBUS Gen2 flip-up front sight,
+	Magpul MBUS Gen2 flip-up front sight (FDE),
+	MCX flip-up front sight,
+	MPX flip-up front sight,
+	AR-15 Leapers UTG Low Profile A2 front sight
+]
+ChildParts=[
+	AN/PEQ-15 tactical device,
+	AN/PEQ-2 tactical device,
+	Holosun LS321 Tactical device,
+	LA-5B/PEQ tactical device,
+	SureFire XC1 tactical flashlight,
+	Zenit Perst-3 tactical device
+]
+Conflict=[
+	AR-10 JP Enterprises Gas System-6,
+	M4A1 front sight with gas block,
+	AR-15 Windham Weaponry Rail Gas Block,
+	AR-15 5.56x45 260mm barrel,
+	AR-15 5.56x45 370mm barrel,
+	AR-15 5.56x45 Molot Arms 406mm barrel,
+	STM-9 9x19 10.5 inch barrel,
+	STM-9 9x19 12 inch barrel,
+	STM-9 9x19 14 inch barrel,
+	STM-9 9x19 16 inch barrel,
+	M203 40mm underbarrel grenade launcher,
+]
+Recoil=-1.000000
+Ergonomics=11.000000
+Information_Eng=The Ion Lite lightweight handguard by Lone Star Armory, designed for use with sport rifles based on the AR-15 platform.
+basePrice=19900
+width=3
+height=1
+avg24hPrice=23245
+low24hPrice=14000
+lastOfferCount=10
+Sell_Prapor=9950
+Sell_Fence=7960
+Sell_Skier=9751
+Sell_Peacekeeper=78
+Sell_Mechanic=11144
+Sell_Flea Market=18000
+weight=0.380000
+fleaMarketFee=1747

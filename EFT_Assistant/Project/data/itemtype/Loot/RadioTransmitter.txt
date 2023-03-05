@@ -1,0 +1,3 @@
+Name=Radio Transmitter
+ShortName=RadioTransmitter
+Category=Loot

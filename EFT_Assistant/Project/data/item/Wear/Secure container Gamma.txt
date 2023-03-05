@@ -1,0 +1,14 @@
+Name=Secure container Gamma
+ShortName=Gamma
+Itemtype=Port. container
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=A unique secure container used only by veteran PMCs formerly deployed in Tarkov.
+basePrice=1850000
+width=3
+height=3
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+weight=1.200000
+fleaMarketFee=0

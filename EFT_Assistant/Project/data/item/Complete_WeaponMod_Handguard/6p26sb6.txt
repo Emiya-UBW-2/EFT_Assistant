@@ -1,4 +1,0 @@
-Name=AKS-74U wooden handguard (6P26 Sb.6)
-Itemtype=Handguard
-Recoil=0
-Ergonomics=+4

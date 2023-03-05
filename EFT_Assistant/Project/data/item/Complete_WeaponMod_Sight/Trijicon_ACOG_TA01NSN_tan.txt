@@ -1,5 +1,0 @@
-Name=Trijicon ACOG TA01NSN 4x32 scope (Tan)
-Itemtype=Assault scope
-Recoil=0
-Ergonomics=-2
-SightRange=800

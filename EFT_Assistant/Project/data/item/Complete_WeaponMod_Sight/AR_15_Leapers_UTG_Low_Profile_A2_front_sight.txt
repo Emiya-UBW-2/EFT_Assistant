@@ -1,6 +1,0 @@
-Name=AR-15 Leapers UTG Low Profile A2 front sight
-Itemtype=Iron sight
-Recoil=0
-Ergonomics=0
-SightRange=600
-

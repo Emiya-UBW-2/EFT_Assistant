@@ -1,13 +1,15 @@
 Name=Iskra ration pack
 ShortName=Iskra
 Itemtype=Food
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=The compact package of a field ration includes everything you need for a comfortable nutrition of an adult person in the most difficult conditions.
 basePrice=19358
 width=1
 height=2
-avg24hPrice=20071
+avg24hPrice=20848
 low24hPrice=15000
-lastOfferCount=67
+lastOfferCount=33
 Sell_Therapist=12195
 Sell_Fence=7743
 Sell_Jaeger=11614

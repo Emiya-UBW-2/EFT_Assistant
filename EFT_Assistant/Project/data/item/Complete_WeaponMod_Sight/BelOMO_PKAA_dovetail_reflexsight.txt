@@ -1,5 +1,0 @@
-Name=BelOMO PK-AA dovetail reflex sight
-Itemtype=Reflex sight
-Recoil=0
-Ergonomics=-4
-SightRange=0

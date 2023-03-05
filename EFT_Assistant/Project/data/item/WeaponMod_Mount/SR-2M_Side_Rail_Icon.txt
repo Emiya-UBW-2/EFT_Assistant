@@ -1,0 +1,43 @@
+Name=SR-2M side rail
+ShortName=SR-2M
+Itemtype=Mount
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser,
+	NcSTAR Tactical blue laser LAM-module,
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Perst-3 tactical device,
+	Kiba Arms 25mm accessory ring mount,
+	Daniel Defense 25mm accessory ring mount,
+	Olight Baldr Pro tactical flashlight with laser,
+	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Insight WMX200 tactical flashlight,
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	AN/PEQ-2 tactical device,
+	LA-5B/PEQ tactical device,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Klesch-2U tactical flashlight
+]
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=A side rail for SR-2M "Veresk" that allows installation of additional tactical equipment.
+basePrice=1200
+width=1
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
+Sell_Prapor=600
+Sell_Fence=480
+Sell_Skier=588
+Sell_Peacekeeper=5
+Sell_Mechanic=672
+Sell_Jaeger=720
+Sell_Flea Market=14543
+weight=0.060000
+fleaMarketFee=3966

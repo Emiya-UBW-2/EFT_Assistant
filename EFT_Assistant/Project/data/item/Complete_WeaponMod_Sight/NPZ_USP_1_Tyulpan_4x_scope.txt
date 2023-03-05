@@ -1,5 +1,0 @@
-Name=NPZ USP-1 "Tyulpan" 4x scope
-Itemtype=Scope
-Recoil=0
-Ergonomics=-6
-SightRange=600

@@ -1,4 +1,0 @@
-Name=FN P90 5.7x28 10.5 inch barrel
-Itemtype=Stock
-Recoil=-5
-Ergonomics=-3

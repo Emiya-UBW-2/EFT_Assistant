@@ -1,0 +1,25 @@
+Name=AR-15 HK Slim Line buttstock
+ShortName=Slim Line
+Itemtype=Stock
+Conflict=[
+	AR-15 ADAR 2-15 wooden stock,
+	AR-15 Hera Arms CQR pistol grip/buttstock,
+]
+Recoil=-30.000000
+Ergonomics=5.000000
+Information_Eng=A telescoping stock from the Slim Line series, designed and manufactured by Heckler & Koch.
+basePrice=5100
+width=2
+height=1
+avg24hPrice=11630
+low24hPrice=5500
+lastOfferCount=7
+Sell_Prapor=2550
+Sell_Fence=2040
+Sell_Skier=2499
+Sell_Peacekeeper=20
+Sell_Mechanic=2856
+Sell_Jaeger=3060
+Sell_Flea Market=10000
+weight=0.695000
+fleaMarketFee=985

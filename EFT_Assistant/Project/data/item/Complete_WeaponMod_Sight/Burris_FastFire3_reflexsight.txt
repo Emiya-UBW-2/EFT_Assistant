@@ -1,5 +1,0 @@
-Name=Burris FastFire 3 reflex sight
-Itemtype=Compact reflex sight
-Recoil=0
-Ergonomics=0
-SightRange=100

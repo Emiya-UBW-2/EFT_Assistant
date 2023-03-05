@@ -1,4 +1,0 @@
-Name=Ferfrans CRD 5.56x45 Concussion Reduction Device
-Itemtype=Flash hider/muzzle brake
-Recoil=-8
-Ergonomics=-3

@@ -1,4 +1,0 @@
-Name=MP-43-1C 12ga 725mm barrel
-Itemtype=Stock
-Recoil=-12
-Ergonomics=-9

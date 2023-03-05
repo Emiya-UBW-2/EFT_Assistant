@@ -1,4 +1,0 @@
-Name=MP9-N vertical foregrip
-Itemtype=Foregrip
-Recoil=0
-Ergonomics=+6

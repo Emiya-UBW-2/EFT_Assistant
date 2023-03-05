@@ -1,6 +1,8 @@
 Name=UNTAR armband
 ShortName=UNTAR
 Itemtype=Arm Band
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=An armband for UN troops in Tarkov.
 basePrice=55000
 width=1

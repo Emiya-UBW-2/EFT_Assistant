@@ -1,0 +1,25 @@
+Name=AK-12 stock
+ShortName=AK-12
+Itemtype=Stock
+Conflict=[
+	AR-15 ADAR 2-15 wooden stock,
+	AR-15 Hera Arms CQR pistol grip/buttstock,
+]
+Recoil=-30.000000
+Ergonomics=3.000000
+Information_Eng=A standard-issue telescopic stock for AK-12 automatic rifles, manufactured by Izhmash.
+basePrice=4500
+width=2
+height=1
+avg24hPrice=12046
+low24hPrice=4904
+lastOfferCount=12
+Sell_Prapor=2250
+Sell_Fence=1800
+Sell_Skier=2205
+Sell_Peacekeeper=18
+Sell_Mechanic=2520
+Sell_Jaeger=2700
+Sell_Flea Market=10000
+weight=0.148000
+fleaMarketFee=1031

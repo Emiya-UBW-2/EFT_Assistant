@@ -7,7 +7,9 @@ ChildParts=[
 	MP-153 12ga 710mm barrel,
 	MP-153 12ga 750mm barrel
 ]
-ChildParts=[MP-153 polymer forestock]
+ChildParts=[
+	MP-153 polymer forestock
+]
 ChildParts=[
 	MP-133/153 plastic stock,
 	MP-133/153 wooden stock,
@@ -23,7 +25,27 @@ ChildParts=[
 	MP-153 12ga 7-shell magazine,
 	MP-153 12ga 8-shell magazine
 ]
-ChildParts=[Kiba Arms SPRM rail mount for pump-action shotguns]
-ChildParts=[Delta-Tek Sprut mount for pump-action shotguns]
-Recoil=455
-Ergonomics=43
+ChildParts=[
+	Kiba Arms SPRM rail mount for pump-action shotguns
+]
+ChildParts=[
+	Delta-Tek Sprut mount for pump-action shotguns
+]
+Recoil=455.000000
+Ergonomics=43.000000
+Information_Eng=The MP-153 smoothbore multi-shot shotgun, manufactured by IzhMekh ("Izhevsky Mechanical Plant"). A reliable and practical hunting and self-defense weapon.
+basePrice=14981
+width=3
+height=1
+avg24hPrice=38695
+low24hPrice=26666
+lastOfferCount=1
+Sell_Prapor=7490
+Sell_Fence=5992
+Sell_Skier=7340
+Sell_Peacekeeper=59
+Sell_Mechanic=8389
+Sell_Jaeger=8988
+Sell_Flea Market=34000
+weight=1.200000
+fleaMarketFee=3533

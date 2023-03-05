@@ -1,6 +1,8 @@
 Name=T H I C C item case
 ShortName=T H I C C
 Itemtype=Common container
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=The T H I C C advanced storage case with increased storage volume for various items.
 basePrice=3100000
 width=5

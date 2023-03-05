@@ -1,5 +1,0 @@
-Name=M32A1 40mm cylinder
-Itemtype=Magazine
-Recoil=0
-Ergonomics=-10
-

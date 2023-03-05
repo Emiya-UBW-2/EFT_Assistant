@@ -1,4 +1,0 @@
-Name=KRISS Vector .45 ACP flash hider
-Itemtype=Flash hider/muzzle brake
-Recoil=-7
-Ergonomics=-1

@@ -1,4 +1,0 @@
-Name=AAC 762-SDN-6 multi-caliber sound suppressor
-Itemtype=Suppressor
-Recoil=-14
-Ergonomics=-26

@@ -1,6 +1,8 @@
 Name=Jack-o'-lantern tactical pumpkin helmet
 ShortName=Pumpkin
 Itemtype=Headwear
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=Jack-o'-lantern is here to protect you from the Evil.
 basePrice=10000
 width=2

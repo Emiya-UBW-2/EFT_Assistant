@@ -1,6 +1,8 @@
 Name=Ops-Core FAST multi-hit ballistic face shield
 ShortName=FAST FS
 Itemtype=Armored equipment
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=A special high-strength ballistic visor for the Ops-Core FAST helmet, used by the special forces assault teams.
 basePrice=26641
 width=2

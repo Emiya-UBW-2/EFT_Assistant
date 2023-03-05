@@ -1,0 +1,23 @@
+Name=AR-10 Odin Works ATLAS-7 7.62x51 muzzle brake
+ShortName=ATLAS-7
+Itemtype=Flashhider
+Conflict=[
+	MCX GEN1 KeyMod 12 inch handguard,
+]
+Recoil=-14.000000
+Ergonomics=-1.000000
+Information_Eng=The ATLAS-7 muzzle brake designed for installation on AR-10-type systems and compatibles. Manufactured by Odin Works.
+basePrice=16383
+width=1
+height=1
+avg24hPrice=15126
+low24hPrice=8999
+lastOfferCount=15
+Sell_Prapor=8191
+Sell_Fence=6553
+Sell_Skier=8027
+Sell_Peacekeeper=64
+Sell_Mechanic=9174
+Sell_Flea Market=13999
+weight=0.120000
+fleaMarketFee=1383

@@ -1,5 +1,0 @@
-Name=ASh-12 12.7x55 20-round magazine
-Itemtype=Magazine
-Recoil=0
-Ergonomics=-7
-

@@ -1,6 +1,8 @@
 Name=Mr. Holodilnick thermal bag
 ShortName=Holodilnick
 Itemtype=Common container
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=Special thermal-electric bag for food storage. The Mr. Holodilnick bag chills anything, even the most unchillable.
 basePrice=340000
 width=3

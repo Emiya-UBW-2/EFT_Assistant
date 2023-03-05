@@ -1,4 +1,0 @@
-Name=Glock 9x19 Lone Wolf LWD-COMP9 compensator
-Itemtype=Flash hider/muzzle brake
-Recoil=-12
-Ergonomics=-1

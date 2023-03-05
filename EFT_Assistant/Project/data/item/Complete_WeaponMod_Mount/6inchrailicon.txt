@@ -1,4 +1,0 @@
-Name=Strike Industries KeyMod 6 inch rail
-Itemtype=Mount
-Recoil=0
-Ergonomics=0

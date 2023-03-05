@@ -1,4 +1,0 @@
-Name=Mosin Rifle Texas Precision Products 7.62x54R muzzle brake
-Itemtype=Flash hider/muzzle brake
-Recoil=-23
-Ergonomics=-2

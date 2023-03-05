@@ -1,0 +1,17 @@
+Name=FN SCAR-L 5.56x45 assault rifle (FDE) Contract Wars
+ShortName=Mk 16 Contract Wars
+Itemtype=Assault rifle
+Information_Eng=
+basePrice=173039
+width=5
+height=2
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Prapor=86519
+Sell_Fence=69215
+Sell_Skier=84789
+Sell_Peacekeeper=677
+Sell_Mechanic=96901
+weight=4.192000
+fleaMarketFee=16439

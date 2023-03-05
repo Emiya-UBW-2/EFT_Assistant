@@ -1,0 +1,17 @@
+Name=AS VAL 9x39 special assault rifle Kobra
+ShortName=AS VAL Kobra
+Itemtype=Assault carbine
+Information_Eng=
+basePrice=115091
+width=5
+height=2
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Prapor=57545
+Sell_Fence=46036
+Sell_Skier=56394
+Sell_Peacekeeper=450
+Sell_Mechanic=64450
+weight=3.085000
+fleaMarketFee=10934

@@ -1,4 +1,0 @@
-Name=SA-58/FAL Magpul PRS 2 polymer stock
-Itemtype=Stock
-Recoil=-34
-Ergonomics=+16

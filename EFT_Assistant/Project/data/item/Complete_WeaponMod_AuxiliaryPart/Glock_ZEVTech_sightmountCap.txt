@@ -1,4 +1,0 @@
-Name=Glock ZEV Tech sight mount cap
-Itemtype=Auxiliary part
-Recoil=0
-Ergonomics=+2

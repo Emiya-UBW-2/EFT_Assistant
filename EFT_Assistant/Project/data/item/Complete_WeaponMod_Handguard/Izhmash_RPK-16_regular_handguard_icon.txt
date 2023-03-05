@@ -1,4 +1,0 @@
-Name=RPK-16 handguard
-Itemtype=Handguard
-Recoil=-1
-Ergonomics=+6

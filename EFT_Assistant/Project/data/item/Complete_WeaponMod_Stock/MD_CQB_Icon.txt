@@ -1,4 +1,0 @@
-Name=MPX/MCX Maxim Defense CQB telescoping stock
-Itemtype=Stock
-Recoil=-30
-Ergonomics=+15

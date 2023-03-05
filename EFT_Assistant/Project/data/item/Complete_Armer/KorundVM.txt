@@ -1,6 +1,8 @@
 Name=NPP KlASS Korund-VM body armor
 ShortName=Korund-VM
 Itemtype=Armor
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=The NPP KlASS Korund-VM heavy bulletproof vest, adopted by the units of the Ministry of Internal Affairs of Russia. Provides increased protection against bullets and fragments (class 5 GOST).
 basePrice=82000
 width=3

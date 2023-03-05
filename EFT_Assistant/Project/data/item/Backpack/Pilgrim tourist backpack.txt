@@ -1,6 +1,8 @@
 Name=Pilgrim tourist backpack
 ShortName=Pilgrim
 Itemtype=Backpack
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=A large and brightly colored backpack that is perfect for the tourist on a raid.
 basePrice=43565
 width=5

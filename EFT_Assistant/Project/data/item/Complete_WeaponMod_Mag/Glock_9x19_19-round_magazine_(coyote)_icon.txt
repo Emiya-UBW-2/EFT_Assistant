@@ -1,4 +1,0 @@
-Name=Glock 9x19 19-round magazine (Coyote)
-Itemtype=Magazine
-Recoil=0
-Ergonomics=-1.5

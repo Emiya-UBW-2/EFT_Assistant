@@ -1,4 +1,0 @@
-Name=Glock Aimtech mount base
-Itemtype=Mount
-Recoil=0
-Ergonomics=-1

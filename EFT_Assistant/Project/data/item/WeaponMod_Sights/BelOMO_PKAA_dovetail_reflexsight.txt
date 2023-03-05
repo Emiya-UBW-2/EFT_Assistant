@@ -1,0 +1,26 @@
+Name=BelOMO PK-AA dovetail reflex sight
+ShortName=PK-AA
+Itemtype=Reflex sight
+SightRange=0
+Conflict=[
+	AKS-74U CAA XRSU47SU tactical handguard,
+	AK CNC Guns OV GP handguard,
+	SAG Bit low profile dovetail sidemount,
+]
+Recoil=0.000000
+Ergonomics=-4.000000
+Information_Eng=The PK-AA reflex sight, designed to fit any AK-style model with a dovetail rail mount. Manufactured by BelOMO.
+basePrice=5100
+width=1
+height=1
+avg24hPrice=9974
+low24hPrice=4000
+lastOfferCount=7
+Sell_Prapor=2550
+Sell_Fence=2040
+Sell_Skier=2499
+Sell_Peacekeeper=20
+Sell_Mechanic=2856
+Sell_Flea Market=5333
+weight=0.450000
+fleaMarketFee=500

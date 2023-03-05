@@ -1,0 +1,23 @@
+Name=Daniel Defense WAVE QD sound suppressor
+ShortName=WAVE QD
+Itemtype=Silencer
+Conflict=[
+	HK 416A5 5.56x45 10.6 inch barrel,
+]
+Recoil=-8.000000
+Ergonomics=-17.000000
+Information_Eng=The Daniel Defense WAVE QD (Quick Detach) sound suppressor which can be installed on the compatible WAVE muzzle brakes.
+basePrice=51000
+width=2
+height=1
+avg24hPrice=48842
+low24hPrice=39000
+lastOfferCount=37
+Sell_Prapor=25500
+Sell_Fence=20400
+Sell_Skier=24990
+Sell_Peacekeeper=200
+Sell_Mechanic=28560
+Sell_Flea Market=42000
+weight=0.488000
+fleaMarketFee=4207

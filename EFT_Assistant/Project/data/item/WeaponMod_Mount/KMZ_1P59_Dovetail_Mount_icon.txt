@@ -1,0 +1,33 @@
+Name=KMZ 1P59 dovetail mount
+ShortName=1P59 mount
+Itemtype=Mount
+Conflict=[
+	AKS-74U CAA XRSU47SU tactical handguard,
+	AK CNC Guns OV GP handguard,
+	SVD SAG MK1 chassis,
+	AK TDI X47 tactical handguard rail system,
+	SAG Bit low profile dovetail sidemount,
+	SVD modernization kit top rail,
+	AK AKademia Bastion dust cover,
+	AK Zenit B-33 dust cover,
+	AK FAB Defense PDC dust cover,
+	AK TWS Dog Leg Rail dust cover,
+]
+Recoil=0.000000
+Ergonomics=-1.000000
+Information_Eng=A universal base with an integrated power supply for installation of the 1P59 scope on the Dovetail rail.
+basePrice=1750
+width=1
+height=1
+avg24hPrice=22923
+low24hPrice=4890
+lastOfferCount=12
+Sell_Prapor=875
+Sell_Fence=700
+Sell_Skier=857
+Sell_Peacekeeper=7
+Sell_Mechanic=980
+Sell_Jaeger=1050
+Sell_Flea Market=11111
+weight=0.410000
+fleaMarketFee=2010

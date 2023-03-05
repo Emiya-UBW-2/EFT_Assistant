@@ -1,4 +1,0 @@
-Name=Mossberg 590A1 Tactical rail
-Itemtype=Mount
-Recoil=-2
-Ergonomics=-2

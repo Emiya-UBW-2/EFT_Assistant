@@ -1,4 +1,0 @@
-Name=P226 polymer pistol grip (Black)
-Itemtype=Pistol grip
-Recoil=0
-Ergonomics=+6

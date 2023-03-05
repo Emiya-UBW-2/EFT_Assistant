@@ -1,5 +1,0 @@
-Name=Trijicon ACOG TA11D 3.5x35 scope
-Itemtype=Assault scope
-Recoil=0
-Ergonomics=-2
-SightRange=800

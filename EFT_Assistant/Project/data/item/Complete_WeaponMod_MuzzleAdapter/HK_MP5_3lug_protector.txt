@@ -1,5 +1,0 @@
-Name=HK MP5 3-lug thread protector
-Itemtype=Muzzle adapter
-Recoil=0
-Ergonomics=+1
-ChildParts=[HK MP5 B&T QD 9x19 muzzle brake,HK MP5 Noveske-style 9x19 muzzle brake-compensator]

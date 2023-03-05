@@ -1,4 +1,0 @@
-Name=DoubleStar ACE recoil pad
-Itemtype=Stock
-Recoil=-3
-Ergonomics=+2

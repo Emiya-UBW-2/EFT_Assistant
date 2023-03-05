@@ -1,0 +1,3 @@
+Name=Comb. muzzle device
+ShortName=MuzzleDevice
+Category=WeaponMods

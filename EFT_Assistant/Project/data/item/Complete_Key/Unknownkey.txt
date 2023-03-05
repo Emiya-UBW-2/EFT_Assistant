@@ -1,7 +1,9 @@
 Name=Unknown key
 ShortName=Unknown
-Map=Customs
 Itemtype=Mechanical Key
+Map=Customs
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=A key found on the dead messenger's body. The lock location is unknown.
 basePrice=1604
 width=1

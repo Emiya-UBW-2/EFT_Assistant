@@ -1,4 +1,0 @@
-Name=MPX pistol grip
-Itemtype=Pistol grip
-Recoil=0
-Ergonomics=+5

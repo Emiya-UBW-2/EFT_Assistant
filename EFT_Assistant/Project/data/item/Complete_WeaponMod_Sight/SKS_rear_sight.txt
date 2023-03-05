@@ -1,6 +1,0 @@
-Name=SKS rear sight
-Itemtype=Iron sight
-Recoil=0
-Ergonomics=0
-SightRange=500
-

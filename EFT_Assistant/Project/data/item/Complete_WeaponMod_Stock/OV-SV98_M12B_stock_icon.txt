@@ -1,4 +1,0 @@
-Name=CNC Guns OV-SV98 M12B stock
-Itemtype=Stock
-Recoil=-28
-Ergonomics=+12

@@ -1,4 +1,0 @@
-Name=Glock 18C 9x19 pistol slide
-Itemtype=Receiver
-Recoil=0
-Ergonomics=+3

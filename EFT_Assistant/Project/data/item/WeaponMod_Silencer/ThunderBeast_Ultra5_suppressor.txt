@@ -1,0 +1,23 @@
+Name=Thunder Beast Arms Ultra 5 sound suppressor
+ShortName=Ultra 5
+Itemtype=Silencer
+Conflict=[
+	HK 416A5 5.56x45 10.6 inch barrel,
+]
+Recoil=-13.000000
+Ergonomics=-23.000000
+Information_Eng=The Ultra 5 sound suppressor is designed for use with 7.62x51 NATO rounds, but also functions as a superb multi-caliber suppressor for multiple hosts, providing excellent performance on 7.62 NATO, .300, 6.8 SPC, 6.5, and 5.56mm NATO. Can only be installed on compatible muzzle devices made by Thunder Beast Arms.
+basePrice=62000
+width=2
+height=1
+avg24hPrice=50792
+low24hPrice=39900
+lastOfferCount=24
+Sell_Prapor=31000
+Sell_Fence=24800
+Sell_Skier=30380
+Sell_Peacekeeper=243
+Sell_Mechanic=34720
+Sell_Flea Market=46999
+weight=0.210000
+fleaMarketFee=4885

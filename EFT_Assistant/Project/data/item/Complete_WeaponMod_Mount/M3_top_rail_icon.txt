@@ -1,4 +1,0 @@
-Name=Benelli M3 Super 90 upper receiver top rail
-Itemtype=Mount
-Recoil=0
-Ergonomics=-1

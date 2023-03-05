@@ -1,4 +1,0 @@
-Name=SR-2MP folding stock
-Itemtype=Stock
-Recoil=-27
-Ergonomics=+8

@@ -1,4 +1,0 @@
-Name=SR-1MP 9x21 sound suppressor
-Itemtype=Suppressor
-Recoil=-10
-Ergonomics=-15

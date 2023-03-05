@@ -1,6 +1,8 @@
 Name=TerraGroup Labs access keycard
 ShortName=Access
 Itemtype=Keycard
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=A single-use United Security-issued TerraGroup Labs access keycard.
 basePrice=100000
 width=1

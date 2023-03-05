@@ -1,7 +1,9 @@
 Name=Saiga-9 9x19 carbine
 ShortName=Saiga-9
-Itemtype=Submachine gun
-ChildParts=[PP-19-01 "Vityaz" gas tube]
+Itemtype=SMG
+ChildParts=[
+	PP-19-01 "Vityaz" gas tube
+]
 ChildParts=[
 	SilencerCo Hybrid 46 Direct Thread Mount adapter,
 	PP-19-01 "Vityaz" 9x19 muzzle brake-compensator,
@@ -34,7 +36,9 @@ ChildParts=[
 	PP-19-01 "Vityaz-SN" dust cover,
 	PP-19-01 "Vityaz" dust cover
 ]
-ChildParts=[PP-19-01 "Vityaz" rear sight]
+ChildParts=[
+	PP-19-01 "Vityaz" rear sight
+]
 ChildParts=[
 	AK-74M/AK-100 Zenit PT Lock,
 	PP-19-01 "Vityaz" metal skeleton stock,
@@ -50,5 +54,23 @@ ChildParts=[
 	AK CSS knurled charging handle,
 	AK Zenit RP-1 charging handle
 ]
-Recoil=49
-Ergonomics=32
+Conflict=[
+	AK Strike Industries TRAX 2 handguard extension,
+]
+Recoil=49.000000
+Ergonomics=32.000000
+Information_Eng=The Saiga-9 carbine was developed as a semi-automatic variant of the PP-19-01 Vityaz SMG for civilian market and designed for purposes of shooting sports and plinking.
+basePrice=9946
+width=3
+height=1
+avg24hPrice=18052
+low24hPrice=11990
+lastOfferCount=7
+Sell_Prapor=4973
+Sell_Fence=3978
+Sell_Skier=4873
+Sell_Peacekeeper=39
+Sell_Mechanic=5569
+Sell_Flea Market=14550
+weight=1.962000
+fleaMarketFee=1341

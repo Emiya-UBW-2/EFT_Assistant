@@ -1,0 +1,23 @@
+Name=KAC QDSS NT-4 5.56x45 sound suppressor (Black)
+ShortName=NT-4
+Itemtype=Silencer
+Conflict=[
+	HK 416A5 5.56x45 10.6 inch barrel,
+]
+Recoil=-10.000000
+Ergonomics=-21.000000
+Information_Eng=The Knight's Armament Company QDSS NT-4 5.56x45 and .223 sound suppressor can only be installed on compatible KAC muzzle devices. Black in color.
+basePrice=47712
+width=2
+height=1
+avg24hPrice=29423
+low24hPrice=25500
+lastOfferCount=20
+Sell_Prapor=23856
+Sell_Fence=19084
+Sell_Skier=23378
+Sell_Peacekeeper=187
+Sell_Mechanic=26718
+Sell_Flea Market=26888
+weight=0.680000
+fleaMarketFee=3417

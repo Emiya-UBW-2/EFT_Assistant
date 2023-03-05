@@ -1,0 +1,17 @@
+Name=Steyr AUG A3 5.56x45 assault rifle CIV
+ShortName=AUG A3 CIV
+Itemtype=Assault rifle
+Information_Eng=
+basePrice=89500
+width=4
+height=2
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Prapor=44750
+Sell_Fence=35800
+Sell_Skier=43855
+Sell_Peacekeeper=350
+Sell_Mechanic=50120
+weight=3.723000
+fleaMarketFee=8503

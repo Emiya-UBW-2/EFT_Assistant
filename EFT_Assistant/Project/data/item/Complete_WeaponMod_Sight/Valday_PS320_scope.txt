@@ -1,5 +1,0 @@
-Name=Valday PS-320 1/6x scope
-Itemtype=Assault scope
-Recoil=0
-Ergonomics=-5
-SightRange=1000

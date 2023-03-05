@@ -1,5 +1,0 @@
-Name=SA-58/FAL 7.62x51 10-round magazine
-Itemtype=Magazine
-Recoil=0
-Ergonomics=2
-

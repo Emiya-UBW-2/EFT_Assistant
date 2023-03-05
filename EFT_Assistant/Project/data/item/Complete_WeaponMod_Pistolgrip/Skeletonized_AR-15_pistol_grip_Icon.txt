@@ -1,4 +1,0 @@
-Name=AR-15 Tactical Dynamics Skeletonized pistol grip
-Itemtype=Pistol grip
-Recoil=0
-Ergonomics=+6

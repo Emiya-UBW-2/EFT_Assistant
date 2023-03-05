@@ -1,4 +1,0 @@
-Name=STM-9 9x19 muzzle brake
-Itemtype=Flash hider/muzzle brake
-Recoil=-9
-Ergonomics=-2

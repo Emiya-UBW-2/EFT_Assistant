@@ -1,4 +1,0 @@
-Name=LaRue LT101 QD Tactical Picatinny Riser mount
-Itemtype=Mount
-Recoil=0
-Ergonomics=-1

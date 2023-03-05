@@ -1,0 +1,23 @@
+Name=AAC SCAR-SD 51T 7.62x51 flash hider
+ShortName=SCAR-SD 762
+Itemtype=Flashhider
+ChildParts=[
+	AAC 762-SDN-6 multi-caliber sound suppressor
+]
+Recoil=-7.000000
+Ergonomics=-2.000000
+Information_Eng=The Advanced Armament Corporation (AAC) SCAR-SD 51T flash hider is an effective flash suppressor that also serves as an attachment platform for the AAC 762-SDN-6 sound suppressor. Can be installed on AR-10-based rifles.
+basePrice=4200
+width=1
+height=1
+avg24hPrice=14214
+low24hPrice=6000
+lastOfferCount=15
+Sell_Prapor=2100
+Sell_Fence=1680
+Sell_Skier=2058
+Sell_Peacekeeper=16
+Sell_Mechanic=2352
+Sell_Flea Market=10850
+weight=0.160000
+fleaMarketFee=1192

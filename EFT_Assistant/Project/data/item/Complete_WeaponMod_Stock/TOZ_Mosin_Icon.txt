@@ -1,4 +1,0 @@
-Name=TOZ-106 custom cut Mosin stock
-Itemtype=Stock
-Recoil=-42
-Ergonomics=+9

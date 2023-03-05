@@ -1,5 +1,0 @@
-Name=Hensoldt RV red dot sight
-Itemtype=Reflex sight
-Recoil=0
-Ergonomics=-2
-SightRange=0

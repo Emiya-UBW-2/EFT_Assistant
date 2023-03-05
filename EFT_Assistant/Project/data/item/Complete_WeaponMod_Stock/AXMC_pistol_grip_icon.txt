@@ -1,4 +1,0 @@
-Name=AI AXMC pistol grip
-Itemtype=Stock
-Recoil=0
-Ergonomics=+5

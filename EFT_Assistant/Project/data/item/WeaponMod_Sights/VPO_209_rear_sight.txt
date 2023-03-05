@@ -1,0 +1,25 @@
+Name=VPO-209 rear sight
+ShortName=VPO209
+Itemtype=Ironsight
+SightRange=300
+Conflict=[
+	AK AKademia Bastion dust cover,
+	AK TWS Dog Leg Rail dust cover,
+]
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=A standard rear sight for VPO-209 AKM carbines, manufactured by Molot Arms.
+basePrice=470
+width=1
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
+Sell_Prapor=235
+Sell_Fence=188
+Sell_Skier=230
+Sell_Peacekeeper=2
+Sell_Mechanic=263
+Sell_Flea Market=493
+weight=0.025000
+fleaMarketFee=46

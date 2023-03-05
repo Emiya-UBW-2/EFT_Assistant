@@ -1,4 +1,0 @@
-Name=AR-15 Damage Industries ECS pistol grip (FDE)
-Itemtype=Pistol grip
-Recoil=0
-Ergonomics=+5.5

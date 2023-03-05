@@ -1,4 +1,0 @@
-Name=Alexander Arms 10 inch rail
-Itemtype=Mount
-Recoil=0
-Ergonomics=-1

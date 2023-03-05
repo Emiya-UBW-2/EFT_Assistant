@@ -1,4 +1,0 @@
-Name=Glock ZEV Tech HEX Gen3 RMR pistol slide
-Itemtype=Receiver
-Recoil=-3
-Ergonomics=+9

@@ -1,5 +1,0 @@
-Name=HK417 E1 extended charging handle
-Itemtype=Charging handle
-Recoil=0
-Ergonomics=1
-

@@ -1,4 +1,0 @@
-Name=HK G36 bottom handguard rail
-Itemtype=Mount
-Recoil=0
-Ergonomics=0

@@ -1,4 +1,0 @@
-Name=Desert Tech 7.62x51 flash hider
-Itemtype=Flash hider/muzzle brake
-Recoil=-8
-Ergonomics=-2

@@ -1,4 +1,0 @@
-Name=SIG Sauer 7.62x51 3-prong flash hider
-Itemtype=Flash hider/muzzle brake
-Recoil=-5
-Ergonomics=-1

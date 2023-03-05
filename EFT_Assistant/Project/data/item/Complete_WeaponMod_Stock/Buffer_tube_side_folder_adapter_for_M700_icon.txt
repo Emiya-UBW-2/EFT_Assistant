@@ -1,4 +1,0 @@
-Name=M700 AB Arms MOD*X buffer tube side folder adapter
-Itemtype=Stock
-Recoil=0
-Ergonomics=-1

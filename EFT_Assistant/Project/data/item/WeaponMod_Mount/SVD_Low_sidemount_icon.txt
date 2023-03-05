@@ -1,0 +1,27 @@
+Name=SVD SAG low profile sidemount
+ShortName=SVD Low
+Itemtype=Mount
+Conflict=[
+	AK CNC Guns OV GP handguard,
+	SVD SAG MK1 chassis,
+	SAG Bit low profile dovetail sidemount,
+	SVD modernization kit top rail,
+]
+Recoil=0.000000
+Ergonomics=-1.000000
+Information_Eng=A low-profile side mount, all-milled from a bar of high-strength aluminum alloy B95T. Designed to fit on SVD sniper for various optics installation, but can also be fitted on Vepr Hunter, AS Val and VSS rifles. Manufactured by Sureshot Armament Group.
+basePrice=9100
+width=1
+height=1
+avg24hPrice=48576
+low24hPrice=27000
+lastOfferCount=9
+Sell_Prapor=4550
+Sell_Fence=3640
+Sell_Skier=4459
+Sell_Peacekeeper=36
+Sell_Mechanic=5096
+Sell_Jaeger=5460
+Sell_Flea Market=36420
+weight=0.165000
+fleaMarketFee=5010

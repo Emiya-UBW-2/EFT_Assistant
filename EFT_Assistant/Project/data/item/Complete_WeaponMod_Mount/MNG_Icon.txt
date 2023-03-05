@@ -1,4 +1,0 @@
-Name=Mosin Rifle AIM Sports MNG rail mount
-Itemtype=Mount
-Recoil=0
-Ergonomics=-1

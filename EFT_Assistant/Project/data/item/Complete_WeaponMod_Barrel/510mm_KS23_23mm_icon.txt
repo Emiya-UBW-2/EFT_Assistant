@@ -1,4 +1,0 @@
-Name=KS-23 23x75 510mm barrel
-Itemtype=Stock
-Recoil=-4
-Ergonomics=-4

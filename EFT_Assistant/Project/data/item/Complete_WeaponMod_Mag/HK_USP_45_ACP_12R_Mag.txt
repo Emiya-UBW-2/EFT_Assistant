@@ -1,5 +1,0 @@
-Name=HK USP .45 ACP 12-round magazine
-Itemtype=Magazine
-Recoil=0
-Ergonomics=-2
-

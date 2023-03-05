@@ -1,0 +1,24 @@
+Name=MP-133/153 Taktika Tula 12003 stock adapter
+ShortName=133/153 12003
+Itemtype=Mount
+ChildParts=[
+	M870 FAB Defense AGR-870 pistol grip
+]
+Recoil=0.000000
+Ergonomics=-2.000000
+Information_Eng=The Taktika Tula 12003 stock adapter designed for mounting various FAB Defense stocks on MP-133/153 shotguns.
+basePrice=2200
+width=1
+height=1
+avg24hPrice=12242
+low24hPrice=5500
+lastOfferCount=3
+Sell_Prapor=1100
+Sell_Fence=880
+Sell_Skier=1078
+Sell_Peacekeeper=9
+Sell_Mechanic=1232
+Sell_Jaeger=1320
+Sell_Flea Market=6000
+weight=0.040000
+fleaMarketFee=676

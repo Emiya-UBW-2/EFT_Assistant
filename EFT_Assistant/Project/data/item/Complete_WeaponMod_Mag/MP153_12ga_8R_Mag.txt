@@ -1,5 +1,0 @@
-Name=MP-153 12ga 8-shell magazine
-Itemtype=Magazine
-Recoil=0
-Ergonomics=-6
-

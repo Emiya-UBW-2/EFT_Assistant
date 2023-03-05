@@ -1,4 +1,0 @@
-Name=Yankee Hill Annihilator multi-caliber flash hider
-Itemtype=Flash hider/muzzle brake
-Recoil=-8
-Ergonomics=-1

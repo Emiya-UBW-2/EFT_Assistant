@@ -1,5 +1,0 @@
-Name=March Tactical 3-24x42 FFP 30mm riflescope
-Itemtype=Scope
-Recoil=0
-Ergonomics=-4
-SightRange=1000

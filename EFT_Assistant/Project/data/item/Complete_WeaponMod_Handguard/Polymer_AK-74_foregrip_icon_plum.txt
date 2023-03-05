@@ -1,4 +1,0 @@
-Name=AK-74 "Plum" polymer handguard (6P20 Sb.9)
-Itemtype=Handguard
-Recoil=0
-Ergonomics=+5

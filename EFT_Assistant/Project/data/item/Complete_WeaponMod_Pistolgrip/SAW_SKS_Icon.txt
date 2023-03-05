@@ -1,4 +1,0 @@
-Name=SKS TAPCO Intrafuse kit SAW-Style pistol grip
-Itemtype=Pistol grip
-Recoil=0
-Ergonomics=+10

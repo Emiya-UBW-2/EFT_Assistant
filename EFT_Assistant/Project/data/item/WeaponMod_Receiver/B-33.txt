@@ -1,0 +1,114 @@
+Name=AK Zenit B-33 dust cover
+ShortName=B-33
+Itemtype=Receiver
+ChildParts=[
+	Leapers UTG 25mm ring scope mount,
+	Burris AR-P.E.P.R. 30mm ring scope mount,
+	JP Enterprises Flat-Top 30mm ring scope mount,
+	Nightforce Magmount 30mm ring scope mount,
+	Lobaev Arms 30mm scope mount,
+	IEA Mil-Optics KH/F 34mm one-piece magmount,
+	Nightforce Magmount 34mm ring scope mount,
+	Nightforce Magmount 34mm ring scope mount with Ruggedized Accessory Platform,
+	Aimpoint LRP mount for CompM4 sights,
+	Aimpoint Micro Standard Mount,
+	Armasight Vulcan universal base,
+	BelOMO PK-06 reflex sight,
+	Burris FastFire Weaver Base,
+	Axion Kobra EKP-8-18 reflex sight,
+	Primary Arms Compact Mount sight adapter,
+	DeltaPoint Cross Slot Mount base,
+	ELCAN SpecterDR 1x/4x scope,
+	ELCAN SpecterDR 1x/4x scope (FDE),
+	EOTech 553 holographic sight,
+	EOTech EXPS3 holographic sight (Tan),
+	EOTech HHS-1 hybrid sight,
+	EOTech HHS-1 hybrid sight (Tan),
+	EOTech XPS3-0 holographic sight,
+	EOTech XPS3-2 holographic sight,
+	FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescope,
+	Trijicon RMR high profile mount,
+	Holosun HS401G5 reflex sight,
+	KMZ 1P69 Weaver mount,
+	LaRue LT101 QD Tactical Picatinny Riser mount,
+	Leupold Mark 4 HAMR 4x24 DeltaPoint hybrid assault scope,
+	Trijicon RMR low profile mount,
+	Monstrum Tactical Compact Prism Scope 2x32,
+	NcSTAR ADO P4 Sniper 3-9x42 riflescope,
+	OKP-7 reflex sight,
+	SIG Sauer BRAVO4 4x30 scope,
+	SIG Sauer ROMEO sight mount,
+	Trijicon TA51 sight mount,
+	Trijicon SRS-02 reflex sight,
+	UNV DLOC-IRD sight mount,
+	Valday PK-120 (1P87) holographic sight,
+	Valday PS-320 1/6x scope,
+	VOMZ Pilad P1x42 Weaver reflex sight,
+	Vortex Razor AMG UH-1 holographic sight,
+	Walther MRS reflex sight
+]
+Conflict=[
+	AK 5.45 Design Aggressor handguard,
+	Axion Kobra dovetail mount,
+	Zenit B-13 "Klassika" dovetail rail platform,
+	Zenit B-13V "Klassika" dovetail rail platform,
+	AK CAA RS47 handguard,
+	Axion Kobra EKP-8-02 reflex sight (Dovetail),
+	AK TROY Full Length Rail handguard & gas tube combo,
+	AK Hexagon tubular handguard,
+	AK Hexagon tubular handguard (Anodized Red),
+	KMZ 1P59 dovetail mount,
+	AK Krebs Custom UFM KeyMod handguard,
+	AK Magpul MOE AKM handguard (Black),
+	AK Magpul MOE AKM handguard (FDE),
+	AK Magpul MOE AKM handguard (Olive Drab),
+	AK Magpul MOE AKM handguard (Plum),
+	AK Magpul MOE AKM handguard (Stealth Gray),
+	AK Magpul Zhukov-U handguard (Black),
+	AK Magpul Zhukov-U handguard (FDE),
+	AK Magpul Zhukov-U handguard (Plum),
+	NPZ USP-1 "Tyulpan" 4x scope,
+	NSPU-M night vision scope,
+	OKP-7 reflex sight (Dovetail),
+	VOMZ Pilad 043-02 dovetail mount,
+	AK 100-series polymer handguard,
+	AK-74 polymer handguard (6P20 Sb.9),
+	AK-74 "Plum" polymer handguard (6P20 Sb.9),
+	AK Strike Industries TRAX 1 handguard,
+	AK TDI AKM-L handguard,
+	AK TDI AKM-L handguard (Anodized Bronze),
+	AK TDI AKM-L handguard (Anodized Red),
+	AK UltiMAK M1-B gas tube & handguard,
+	AK Vltor CMRD KeyMod handguard,
+	AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo,
+	AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo (White),
+	AKM wooden handguard (6P1 Sb.6-1),
+	AK-74 wooden handguard (6P20 Sb.6),
+	VPO-209 wooden handguard,
+	WASR-10/63 CAF wooden foregrip,
+	VPO-136 "Vepr-KM" wooden handguard,
+	AK Zenit B-10 Handguard,
+	BelOMO PSO-1 4x24 scope,
+	BelOMO PSO-1M2 4x24 scope,
+	BelOMO PSO-1M2-1 4x24 scope,
+	AK CNC Guns OV GP handguard,
+	SAG Bit low profile dovetail sidemount,
+	AK Taktika Tula TT01 rear sight rail,
+]
+Recoil=-1.500000
+Ergonomics=7.000000
+Information_Eng=The B-33 dust cover with an integrated Picatinny rail is compatible with all models of Kalashnikov automatic rifles and carbines based on AK system. Allows installation of all Picatinny-mountable sights, ensuring the consistency of median aimpoint even after repeated removal and replacement of dust cover. © Zenit
+basePrice=13549
+width=2
+height=1
+avg24hPrice=28451
+low24hPrice=17000
+lastOfferCount=24
+Sell_Prapor=6774
+Sell_Fence=5419
+Sell_Skier=6639
+Sell_Peacekeeper=53
+Sell_Mechanic=7587
+Sell_Flea Market=25000
+weight=0.215000
+fleaMarketFee=2418

@@ -1,4 +1,0 @@
-Name=WASR-10/63 CAF wooden foregrip
-Itemtype=Handguard
-Recoil=-1
-Ergonomics=+3

@@ -1,4 +1,0 @@
-Name=NPZ 1P78-1 dovetail mount
-Itemtype=Mount
-Recoil=0
-Ergonomics=-1

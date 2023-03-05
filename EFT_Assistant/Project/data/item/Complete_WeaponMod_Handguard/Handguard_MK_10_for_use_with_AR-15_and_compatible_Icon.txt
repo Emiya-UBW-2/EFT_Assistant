@@ -1,6 +1,0 @@
-Name=AR-15 Alexander Arms MK10 rifle length handguard
-Itemtype=Handguard
-ChildParts=[Alexander Arms 3 inch rail,Alexander Arms 10 inch rail]
-Conflict=[M4A1 front sight with gas block,AR-15 Windham Weaponry Rail Gas Block]
-Recoil=-3
-Ergonomics=+8

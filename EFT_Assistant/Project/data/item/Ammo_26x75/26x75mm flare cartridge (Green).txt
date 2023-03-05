@@ -1,6 +1,8 @@
 Name=26x75mm flare cartridge (Green)
 ShortName=Green
 Itemtype=Ammo
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=A 26x75mm green flare cartridge for the SP-81 flare gun.
 basePrice=6213
 width=1

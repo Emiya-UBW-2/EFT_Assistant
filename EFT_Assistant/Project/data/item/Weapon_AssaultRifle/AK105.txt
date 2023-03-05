@@ -61,7 +61,9 @@ ChildParts=[
 	AK RD Enhanced V2 Rear Sight,
 	AK Taktika Tula TT01 rear sight rail
 ]
-ChildParts=[AKMP system front sight device]
+ChildParts=[
+	AKMP system front sight device
+]
 ChildParts=[
 	AK-74M polymer stock (6P34 Sb.15),
 	AK-74M CAA AKTS AK74 buffer tube,
@@ -103,6 +105,29 @@ ChildParts=[
 	AK CSS knurled charging handle,
 	AK Zenit RP-1 charging handle
 ]
-ChildParts=[GP-25 "Kostyor" 40mm underbarrel grenade launcher]
-Recoil=160
-Ergonomics=38
+ChildParts=[
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher
+]
+Conflict=[
+	AK Hexagon tubular handguard (Anodized Red),
+	AK Hexagon tubular handguard,
+	AK Strike Industries TRAX 2 handguard extension,
+	AK Vltor CMRD KeyMod handguard,
+]
+Recoil=160.000000
+Ergonomics=38.000000
+Information_Eng=The AK-105 5.45x39mm assault rifle is a further modernized version of AK-74M base. A short compact version equipped with a side-folding shoulder stock and a side mount for optical and night scopes. The 100-series AKs are produced by the Izhmash factories in Izhevsk, Russia.
+basePrice=30862
+width=3
+height=1
+avg24hPrice=33337
+low24hPrice=24998
+lastOfferCount=24
+Sell_Prapor=15431
+Sell_Fence=12344
+Sell_Skier=15122
+Sell_Peacekeeper=121
+Sell_Mechanic=17282
+Sell_Flea Market=26888
+weight=1.992000
+fleaMarketFee=2639

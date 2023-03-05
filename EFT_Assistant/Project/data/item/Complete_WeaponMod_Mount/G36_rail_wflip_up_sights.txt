@@ -1,4 +1,0 @@
-Name=HK G36 optic rail with flip-up sights
-Itemtype=Mount
-Recoil=0
-Ergonomics=-1

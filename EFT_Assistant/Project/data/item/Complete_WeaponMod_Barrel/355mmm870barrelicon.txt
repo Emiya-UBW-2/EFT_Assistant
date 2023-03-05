@@ -1,4 +1,0 @@
-Name=M870 12ga 355mm barrel
-Itemtype=Stock
-Recoil=-2
-Ergonomics=-3

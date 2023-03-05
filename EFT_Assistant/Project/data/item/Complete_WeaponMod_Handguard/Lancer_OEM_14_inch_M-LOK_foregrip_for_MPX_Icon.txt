@@ -1,7 +1,0 @@
-Name=MPX Lancer OEM 14 inch M-LOK handguard
-Itemtype=Handguard
-Recoil=-3
-Ergonomics=+12
-ChildParts=[Magpul M-LOK 2.5 inch rail,Magpul M-LOK Cantilever Mount,Magpul M-LOK Offset Light Mount]
-ChildParts=[Magpul M-LOK 2.5 inch rail,Magpul M-LOK Cantilever Mount,Magpul M-LOK Offset Light Mount]
-ChildParts=[Magpul M-LOK 4.1 inch rail,Magpul M-LOK AFG tactical foregrip (Black),Magpul M-LOK AFG tactical foregrip (FDE),Magpul M-LOK AFG tactical foregrip (Olive Drab),Magpul M-LOK AFG tactical foregrip (Stealth Gray)]

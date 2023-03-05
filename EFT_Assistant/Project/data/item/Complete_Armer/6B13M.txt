@@ -1,6 +1,8 @@
 Name=6B13 M modified assault armor (Tan)
 ShortName=6B13 M
 Itemtype=Armor
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=A 6B13 armored vest that has had its ceramic armored plates replaced with lightweight polyethylene plates. The protection class is higher and the weight is lower. This particular set of armor has been personally modified by Killa.
 basePrice=251100
 width=3

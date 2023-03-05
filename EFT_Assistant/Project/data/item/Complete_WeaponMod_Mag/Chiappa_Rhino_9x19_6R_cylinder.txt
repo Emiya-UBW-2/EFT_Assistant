@@ -1,5 +1,0 @@
-Name=Chiappa Rhino 9x19 6-round cylinder
-Itemtype=Magazine
-Recoil=0
-Ergonomics=-2
-

@@ -1,0 +1,23 @@
+Name=Rotor 43 5.56x45 muzzle brake-compensator
+ShortName=R43 556
+Itemtype=Silencer
+Conflict=[
+	AR-15 War Sport LVOA-C handguard (Black),
+]
+Recoil=-9.000000
+Ergonomics=-22.000000
+Information_Eng=The Rotor 43 muzzle brake is designed for installation on AR- or AK- based 5.56x45 rifles. Although positioned as a muzzle brake, it also works as a sound suppressor.
+basePrice=42965
+width=2
+height=1
+avg24hPrice=41717
+low24hPrice=29000
+lastOfferCount=51
+Sell_Prapor=21482
+Sell_Fence=17186
+Sell_Skier=21052
+Sell_Peacekeeper=168
+Sell_Mechanic=24060
+Sell_Flea Market=37000
+weight=0.570000
+fleaMarketFee=3645

@@ -1,0 +1,39 @@
+Name=AK Magpul Zhukov-U handguard (Plum)
+ShortName=Zhukov-U
+Itemtype=Handguard
+ChildParts=[
+	Magpul M-LOK AFG tactical foregrip (Black),
+	Magpul M-LOK AFG tactical foregrip (FDE),
+	Magpul M-LOK AFG tactical foregrip (Olive Drab),
+	Magpul M-LOK AFG tactical foregrip (Stealth Gray),
+	Magpul M-LOK 4.1 inch rail
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Cantilever Mount
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Cantilever Mount
+]
+Conflict=[
+	PP-19-01 "Vityaz" 9x19 submachine gun,
+	AK Zenit B-33 dust cover,
+]
+Recoil=-1.000000
+Ergonomics=14.000000
+Information_Eng=The Magpul Zhukov-U handguard is installed on AKM/AK-74-compatible weapon systems. Equipped with licensed M-LOK mounts for installation of additional devices or rails. Plum-colored polymer version.
+basePrice=19200
+width=2
+height=1
+avg24hPrice=16168
+low24hPrice=11111
+lastOfferCount=17
+Sell_Prapor=9600
+Sell_Fence=7680
+Sell_Skier=9408
+Sell_Peacekeeper=75
+Sell_Mechanic=10752
+Sell_Flea Market=11900
+weight=0.310000
+fleaMarketFee=1402

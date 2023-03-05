@@ -1,0 +1,17 @@
+Name=Glock 17 9x19 pistol PS9
+ShortName=Glock 17 PS9
+Itemtype=Handgun
+Information_Eng=
+basePrice=61690
+width=2
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Prapor=30845
+Sell_Fence=24676
+Sell_Skier=30228
+Sell_Peacekeeper=241
+Sell_Mechanic=34546
+weight=1.102000
+fleaMarketFee=5861

@@ -22,6 +22,7 @@ namespace FPS_n2 {
 		float													m_Ergonomics{ 0.f };
 		bool													m_isWeaponMod{ false };
 
+		int											m_SightRange{ -100 };
 
 		int											m_basePrice{ 0 };
 		int											m_width{ 0 };
@@ -50,14 +51,32 @@ namespace FPS_n2 {
 
 						}
 						else {
-							m_ChildPartsID.back().Data.resize(m_ChildPartsID.back().Data.size() + 1);
-							m_ChildPartsID.back().Data.back().second = a;
+							bool isHit = false;
+							for (auto& d : m_ChildPartsID.back().Data) {
+								if (d.second == a) {
+									isHit = true;
+									break;
+								}
+							}
+							if (!isHit) {
+								m_ChildPartsID.back().Data.resize(m_ChildPartsID.back().Data.size() + 1);
+								m_ChildPartsID.back().Data.back().second = a;
+							}
 						}
 					}
 				}
 				else {
-					m_ChildPartsID.back().Data.resize(m_ChildPartsID.back().Data.size() + 1);
-					m_ChildPartsID.back().Data.back().second = RIGHT;
+					bool isHit = false;
+					for (auto& d : m_ChildPartsID.back().Data) {
+						if (d.second == RIGHT) {
+							isHit = true;
+							break;
+						}
+					}
+					if (!isHit) {
+						m_ChildPartsID.back().Data.resize(m_ChildPartsID.back().Data.size() + 1);
+						m_ChildPartsID.back().Data.back().second = RIGHT;
+					}
 				}
 			}
 			if (LEFT == "Conflict") {
@@ -67,14 +86,32 @@ namespace FPS_n2 {
 
 						}
 						else {
-							m_ConflictPartsID.resize(m_ConflictPartsID.size() + 1);
-							m_ConflictPartsID.back().second = a;
+							bool isHit = false;
+							for (auto& d : m_ConflictPartsID) {
+								if (d.second == a) {
+									isHit = true;
+									break;
+								}
+							}
+							if (!isHit) {
+								m_ConflictPartsID.resize(m_ConflictPartsID.size() + 1);
+								m_ConflictPartsID.back().second = a;
+							}
 						}
 					}
 				}
 				else {
-					m_ConflictPartsID.resize(m_ConflictPartsID.size() + 1);
-					m_ConflictPartsID.back().second = RIGHT;
+					bool isHit = false;
+					for (auto& d : m_ConflictPartsID) {
+						if (d.second == RIGHT) {
+							isHit = true;
+							break;
+						}
+					}
+					if (!isHit) {
+						m_ConflictPartsID.resize(m_ConflictPartsID.size() + 1);
+						m_ConflictPartsID.back().second = RIGHT;
+					}
 				}
 			}
 
@@ -103,6 +140,7 @@ namespace FPS_n2 {
 				m_isWeaponMod = true;
 			}
 
+			if (LEFT == "SightRange") { m_SightRange = std::stoi(RIGHT); }
 
 			if (LEFT == "basePrice") { m_basePrice = std::stoi(RIGHT); }
 			if (LEFT == "width") { m_width = std::stoi(RIGHT); }
@@ -131,6 +169,8 @@ namespace FPS_n2 {
 		}
 		void	WhenAfterLoad_Sub() noexcept override {}
 	public:
+		bool										m_CheckJson{ false };
+	public:
 		const auto&	GetTypeID() const noexcept { return m_TypeID; }
 		const auto&	GetMapID() const noexcept { return m_MapID; }
 		const auto&	GetChildParts() const noexcept { return m_ChildPartsID; }
@@ -138,6 +178,7 @@ namespace FPS_n2 {
 
 		const auto&	GetRecoil() const noexcept { return m_Recoil; }
 		const auto&	GetErgonomics() const noexcept { return m_Ergonomics; }
+		const auto&	GetSightRange() const noexcept { return m_SightRange; }
 
 
 
@@ -332,6 +373,9 @@ namespace FPS_n2 {
 		std::vector<std::pair<std::string, int>>	buyFor;
 		std::string									categorytypes;
 		float										weight{ 0.f };
+		float										recoilModifier{ -1000.f };
+		float										ergonomicsModifier{ -1000.f };
+
 		std::vector<std::string>					usedInTasks;
 		std::vector<std::string>					receivedFromTasks;
 		std::vector<std::string>					bartersFor;
@@ -373,6 +417,18 @@ namespace FPS_n2 {
 					low24hPrice = data["low24hPrice"];
 				}
 			}
+
+			if (data.contains("recoilModifier")) {
+				if (!data["recoilModifier"].is_null()) {
+					recoilModifier = data["recoilModifier"];
+				}
+			}
+			if (data.contains("ergonomicsModifier")) {
+				if (!data["ergonomicsModifier"].is_null()) {
+					ergonomicsModifier = data["ergonomicsModifier"];
+				}
+			}
+
 			if (data.contains("lastOfferCount")) {
 				if (!data["lastOfferCount"].is_null()) {
 					lastOfferCount = data["lastOfferCount"];
@@ -434,39 +490,95 @@ namespace FPS_n2 {
 			for (auto& t : m_List) {
 				t.SetOtherPartsID_After(m_List);
 			}
+			for (auto& t : m_List) {
+				t.m_CheckJson = false;
+			}
 		}
 		~ItemData() noexcept {}
 	private:
 		std::vector<ItemJsonData> m_ItemJsonData;
 	public:
 		void GetJsonData(nlohmann::json& data) {
+			m_ItemJsonData.clear();
 			for (const auto& d : data["data"]["items"]) {
 				m_ItemJsonData.resize(m_ItemJsonData.size() + 1);
 				m_ItemJsonData.back().GetJsonData(d);
 				m_ItemJsonData.back().m_IsFileOpened = false;
 			}
 		}
-		void SaveDatabyJson() noexcept {
+		void SaveDatabyJson(std::string FolderPath) noexcept {
 			for (auto& L : m_List) {
 				for (auto& jd : m_ItemJsonData) {
 					if (L.GetName() == jd.name) {
+						L.m_CheckJson = true;//
+
 						jd.m_IsFileOpened = true;
 
 						std::ofstream outputfile(L.GetFilePath());
 						outputfile << "Name=" + jd.name + "\n";
 						outputfile << "ShortName=" + jd.shortName + "\n";
+						outputfile << "Itemtype=" + jd.categorytypes + "\n";
+
+						//既存のものを保持しておく1
 						for (auto& m : L.GetMapID()) {
 							auto* ptr = MapData::Instance()->FindPtr(m);
 							if (ptr) {
 								outputfile << "Map=" + ptr->GetName() + "\n";
 							}
 						}
-						//if (LEFT == "ChildParts") {}
-						//if (LEFT == "Conflict") {}
-						//if (LEFT == "Recoil") {}
-						//if (LEFT == "Ergonomics") {}
+						if (L.GetSightRange() >= 0) {
+							outputfile << "SightRange=" + std::to_string(L.GetSightRange()) + "\n";
+						}
 
-						outputfile << "Itemtype=" + jd.categorytypes + "\n";
+						for (auto& m : L.GetChildParts()) {
+							outputfile << "ChildParts=[\n";
+							std::vector<std::string> Names;
+							for (auto& d : m.Data) {
+								if (d.first) {
+									auto NmBuf = d.first->GetName();
+									if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
+										outputfile << "\t" + NmBuf + ((&d != &m.Data.back()) ? "," : "") + "\n";
+										Names.emplace_back(NmBuf);
+									}
+								}
+								else {
+									int a = 0;
+								}
+							}
+							outputfile << "]\n";
+						}
+						if (L.GetConflictParts().size() > 0) {
+							outputfile << "Conflict=[\n";
+							std::vector<std::string> Names;
+							for (auto& m : L.GetConflictParts()) {
+								if (m.first) {
+									auto NmBuf = m.first->GetName();
+									if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
+										outputfile << "\t" + NmBuf + ((&m != &L.GetConflictParts().back()) ? "," : "") + "\n";
+										Names.emplace_back(NmBuf);
+									}
+								}
+								else {
+									int a = 0;
+								}
+							}
+							outputfile << "]\n";
+						}
+
+						if (jd.recoilModifier > -500) {
+							outputfile << "Recoil=" + std::to_string(jd.recoilModifier) + "\n";
+						}
+						else {
+							outputfile << "Recoil=" + std::to_string(L.GetRecoil()) + "\n";
+						}
+						if (jd.ergonomicsModifier > -500) {
+							outputfile << "Ergonomics=" + std::to_string(jd.ergonomicsModifier) + "\n";
+						}
+						else {
+							outputfile << "Ergonomics=" + std::to_string(L.GetErgonomics()) + "\n";
+						}
+
+
 						outputfile << "Information_Eng=" + jd.description + "\n";
 						outputfile << "basePrice=" + std::to_string(jd.basePrice) + "\n";
 						outputfile << "width=" + std::to_string(jd.width) + "\n";
@@ -491,13 +603,71 @@ namespace FPS_n2 {
 					}
 				}
 			}
+			bool maked = false;
 			for (auto& jd : m_ItemJsonData) {
 				if (!jd.m_IsFileOpened) {
-					std::string Name = "data/item/Maked/" + jd.name + ".txt";
+					if (!maked) {
+						CreateDirectory(("data/item/Maked/" + FolderPath).c_str(), NULL);
+						maked = true;
+					}
+					std::string ItemName = jd.name;
+					while (true) {
+						auto now = ItemName.find(".");
+						if (now != std::string::npos) {
+							ItemName = ItemName.substr(0, now) + ItemName.substr(now + 1);
+						}
+						else {
+							break;
+						}
+					}
+
+					std::string Name = "data/item/Maked/"+ FolderPath +"/" + ItemName + ".txt";
 					std::ofstream outputfile(Name);
 					outputfile << "Name=" + jd.name + "\n";
 					outputfile << "ShortName=" + jd.shortName + "\n";
 					outputfile << "Itemtype=" + jd.categorytypes + "\n";
+
+					//既存のものを保持しておく1
+					/*
+					for (auto& m : L.GetMapID()) {
+						auto* ptr = MapData::Instance()->FindPtr(m);
+						if (ptr) {
+							outputfile << "Map=" + ptr->GetName() + "\n";
+						}
+					}
+					if (L.GetSightRange() >= 0) {
+						outputfile << "SightRange=" + std::to_string(L.GetSightRange()) + "\n";
+					}
+					for (auto& m : L.GetChildParts()) {
+						outputfile << "ChildParts=[\n";
+						for (auto& d : m.Data) {
+							outputfile << "\t" + d.first->GetName() + ((&d != &m.Data.back()) ? "," : "") + "\n";
+						}
+						outputfile << "]\n";
+					}
+					if (L.GetConflictParts().size() > 0) {
+						outputfile << "Conflict=[\n";
+						for (auto& m : L.GetConflictParts()) {
+							outputfile << "\t" + m.first->GetName() + ((&m != &L.GetConflictParts().back()) ? "," : "") + "\n";
+						}
+						outputfile << "]\n";
+					}
+					//*/
+
+					if (jd.recoilModifier > -500) {
+						outputfile << "Recoil=" + std::to_string(jd.recoilModifier) + "\n";
+					}
+					else {
+						//outputfile << "Recoil=" + std::to_string(0) + "\n";
+					}
+					if (jd.ergonomicsModifier > -500) {
+						outputfile << "Ergonomics=" + std::to_string(jd.ergonomicsModifier) + "\n";
+					}
+					else {
+						//outputfile << "Ergonomics=" + std::to_string(0) + "\n";
+					}
+
+
 					outputfile << "Information_Eng=" + jd.description + "\n";
 					outputfile << "basePrice=" + std::to_string(jd.basePrice) + "\n";
 					outputfile << "width=" + std::to_string(jd.width) + "\n";
@@ -509,15 +679,24 @@ namespace FPS_n2 {
 						outputfile << "Sell_" + sf.first + "=" + std::to_string(sf.second) + "\n";
 					}
 					//for (auto& bf : jd.buyFor) { outputfile << "Buy_" + bf.first + "=" + std::to_string(bf.second) + "\n"; }
-					outputfile << "lastOfferCount=" + std::to_string(jd.weight) + "\n";
+					outputfile << "weight=" + std::to_string(jd.weight) + "\n";
 					//std::vector<std::string>					usedInTasks;
 					//std::vector<std::string>					receivedFromTasks;
 					//std::vector<std::string>					bartersFor;
 					//std::vector<std::string>					bartersUsing;
 					//std::vector<std::string>					craftsFor;
 					//std::vector<std::string>					craftsUsing;
-					outputfile << "lastOfferCount=" + std::to_string(jd.fleaMarketFee) + "\n";
+					outputfile << "fleaMarketFee=" + std::to_string(jd.fleaMarketFee) + "\n";
 					outputfile.close();
+				}
+			}
+		}
+		void CheckThroughJson(void) noexcept {
+			for (auto& t : m_List) {
+				if (!t.m_CheckJson) {
+					std::string ErrMes = "Error : ThroughJson : ";
+					ErrMes += t.GetName();
+					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
 				}
 			}
 		}
@@ -558,6 +737,7 @@ namespace FPS_n2 {
 					countbuf++;
 					if (countbuf > 100) {
 						Name = "…";
+						Xsize = LineHeight * 9 / 10;
 						break;
 					}
 				}
@@ -589,9 +769,13 @@ namespace FPS_n2 {
 					break;
 				}
 			}
+			if (Input->GetMouseY() <= LineHeight) {
+				isHit = true;
+			}
+
 			if (!isHit) {
 				//ウィンドウ追加
-				WindowMngr->Add()->Set(xp + xs / 2 - sizeXBuf / 2, yp, sizeXBuf, sizeYBuf, 0, GetName().c_str(), false, true, FreeID, [&](WindowSystem::WindowControl* win) {
+				WindowMngr->Add()->Set(Input->GetMouseX() - sizeXBuf / 2, Input->GetMouseY(), sizeXBuf, sizeYBuf, 0, GetName().c_str(), false, true, FreeID, [&](WindowSystem::WindowControl* win) {
 					ItemData::Instance()->FindPtr((ItemID)(win->m_FreeID - 0xFFFF))->DrawWindow(win, Gray10, win->GetPosX(), win->GetPosY());
 				});
 			}

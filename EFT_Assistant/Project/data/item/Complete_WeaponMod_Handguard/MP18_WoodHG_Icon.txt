@@ -1,4 +1,0 @@
-Name=MP-18 wooden handguard
-Itemtype=Handguard
-Recoil=0
-Ergonomics=+5

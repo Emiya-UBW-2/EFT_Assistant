@@ -1,5 +1,0 @@
-Name=VOMZ Pilad TargetRing reflex sight
-Itemtype=Reflex sight
-Recoil=0
-Ergonomics=-3
-SightRange=250

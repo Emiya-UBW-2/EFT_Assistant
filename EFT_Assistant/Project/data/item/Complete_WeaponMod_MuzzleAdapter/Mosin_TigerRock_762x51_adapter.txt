@@ -1,4 +1,0 @@
-Name=Mosin Rifle Tiger Rock 7.62x51 thread adapter
-Itemtype=Muzzle adapter
-Recoil=-1
-Ergonomics=0

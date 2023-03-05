@@ -1,0 +1,28 @@
+Name=AR-15 Unique-ARs Wing & Skull 12 inch handguard
+ShortName=Wing&Skull
+Itemtype=Handguard
+Conflict=[
+	AR-10 JP Enterprises Gas System-6,
+	M4A1 front sight with gas block,
+	AR-15 JP Enterprises Gas System-5B,
+	AR-15 Windham Weaponry Rail Gas Block,
+	AR-15 5.56x45 260mm barrel,
+	M203 40mm underbarrel grenade launcher,
+]
+Recoil=0.000000
+Ergonomics=15.000000
+Information_Eng=The Wing & Skull 12 inch handguard for AR-15 weapon systems. Manufactured by Unique-ARs.
+basePrice=50000
+width=2
+height=1
+avg24hPrice=29835
+low24hPrice=25500
+lastOfferCount=19
+Sell_Prapor=25000
+Sell_Fence=20000
+Sell_Skier=24500
+Sell_Peacekeeper=196
+Sell_Mechanic=28000
+Sell_Flea Market=28888
+weight=0.250000
+fleaMarketFee=3595

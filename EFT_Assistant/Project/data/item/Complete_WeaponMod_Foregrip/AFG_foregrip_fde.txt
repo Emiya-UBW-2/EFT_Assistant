@@ -1,4 +1,0 @@
-Name=Magpul AFG tactical foregrip (FDE)
-Itemtype=Foregrip
-Recoil=-2
-Ergonomics=+6

@@ -1,4 +1,0 @@
-Name=Glock 9x19 SAI threaded barrel
-Itemtype=Stock
-Recoil=-8
-Ergonomics=-3

@@ -1,4 +1,0 @@
-Name=VPO-215 "Gornostay" .366TKM 23 inch barrel
-Itemtype=Stock
-Recoil=-7
-Ergonomics=-8

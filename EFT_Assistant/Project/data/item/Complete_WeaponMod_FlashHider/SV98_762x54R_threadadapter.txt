@@ -1,5 +1,0 @@
-Name=SV-98 7.62x54R thread adapter
-Itemtype=Flash hider/muzzle brake
-Recoil=0
-Ergonomics=-1
-ChildParts=[SV-98 7.62x54R sound suppressor]

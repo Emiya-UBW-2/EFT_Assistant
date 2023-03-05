@@ -1,0 +1,44 @@
+Name=MPX Lancer OEM 14 inch M-LOK handguard
+ShortName=MPX OEM 14"
+Itemtype=Handguard
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK Offset Light Mount
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK Offset Light Mount
+]
+ChildParts=[
+	Magpul M-LOK 4.1 inch rail,
+	Magpul M-LOK AFG tactical foregrip (Black),
+	Magpul M-LOK AFG tactical foregrip (FDE),
+	Magpul M-LOK AFG tactical foregrip (Olive Drab),
+	Magpul M-LOK AFG tactical foregrip (Stealth Gray)
+]
+Conflict=[
+	MPX 9x19 10.5 inch barrel,
+	MPX-SD 9x19 165mm barrel,
+	MPX 9x19 203mm barrel,
+	MPX 9x19 4.5 inch barrel,
+	MPX 9x19 6.5 inch barrel,
+]
+Recoil=-3.000000
+Ergonomics=12.000000
+Information_Eng=The Lancer OEM 14 inch length foregrip for the MPX SMGs equipped with an M-LOK interface for installation of additional devices and accessories.
+basePrice=14200
+width=2
+height=1
+avg24hPrice=21589
+low24hPrice=9999
+lastOfferCount=7
+Sell_Prapor=7100
+Sell_Fence=5680
+Sell_Skier=6958
+Sell_Peacekeeper=56
+Sell_Mechanic=7952
+Sell_Flea Market=14000
+weight=0.144000
+fleaMarketFee=1333

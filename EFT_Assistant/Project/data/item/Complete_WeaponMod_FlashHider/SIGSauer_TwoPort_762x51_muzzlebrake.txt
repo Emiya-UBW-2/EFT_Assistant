@@ -1,4 +1,0 @@
-Name=SIG Sauer Two Port Brake 7.62x51 muzzle brake
-Itemtype=Flash hider/muzzle brake
-Recoil=-8
-Ergonomics=-1

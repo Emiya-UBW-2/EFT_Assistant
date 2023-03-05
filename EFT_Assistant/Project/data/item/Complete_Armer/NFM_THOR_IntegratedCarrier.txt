@@ -1,6 +1,8 @@
 Name=NFM THOR Integrated Carrier body armor
 ShortName=THOR IC
 Itemtype=Armor
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=The THOR full protection assault body armor equipped with soft and hard armor elements to protect against shrapnel and bullets of pistol and rifle calibers. Manufactured by NFM.
 basePrice=344500
 width=4

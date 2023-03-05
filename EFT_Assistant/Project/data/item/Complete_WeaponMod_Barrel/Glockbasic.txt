@@ -1,4 +1,0 @@
-Name=Glock 17 9x19 barrel
-Itemtype=Stock
-Recoil=-3
-Ergonomics=-5

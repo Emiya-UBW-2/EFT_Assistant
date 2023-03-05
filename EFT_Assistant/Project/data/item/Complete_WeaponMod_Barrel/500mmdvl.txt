@@ -1,6 +1,0 @@
-Name=DVL-10 7.62x51 500mm barrel
-Itemtype=Stock
-Recoil=-4
-Ergonomics=-10
-ChildParts=[DVL-10 7.62x51 muzzle device]
-ChildParts=[Harris HBR Bipod]

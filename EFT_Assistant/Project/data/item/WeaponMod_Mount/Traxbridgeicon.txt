@@ -1,0 +1,60 @@
+Name=Strike Industries TRAX bridge rail
+ShortName=TRAX Bridge
+Itemtype=Mount
+ChildParts=[
+	AK Strike Industries TRAX 2 handguard extension
+]
+ChildParts=[
+	NcSTAR Tactical blue laser LAM-module,
+	Glock GTL 21 tactical flashlight with laser,
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	LA-5B/PEQ tactical device,
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Zenit Perst-3 tactical device,
+	Kiba Arms 25mm accessory ring mount
+]
+ChildParts=[
+	BCM GUNFIGHTER MOD 3 vertical foregrip,
+	ASh-12 vertical foregrip,
+	Fortis Shift tactical foregrip,
+	KAC vertical foregrip,
+	Magpul RVG foregrip (Black),
+	RTM Pillau tactical foregrip,
+	Stark SE-5 Express Forward foregrip,
+	TangoDown Stubby BGV-MK46K foregrip (Black),
+	TangoDown Stubby BGV-MK46K foregrip (FDE),
+	TangoDown Stubby BGV-MK46K foregrip (Stealth Gray),
+	Viking Tactics UVG tactical foregrip,
+	Zenit RK-0 tactical foregrip,
+	Zenit RK-1 tactical foregrip,
+	Zenit RK-2 tactical foregrip,
+	Zenit RK-4 tactical foregrip,
+	Zenit RK-5 tactical foregrip,
+	Zenit RK-6 tactical foregrip,
+	Tactical Dynamics Skeletonized Foregrip
+]
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=The Strike Industries TRAX Bridge rail that mounts on the TRAX 1 handguard to install an additional TRAX 2 handguard extension.
+basePrice=1635
+width=2
+height=1
+avg24hPrice=14631
+low24hPrice=6399
+lastOfferCount=6
+Sell_Prapor=817
+Sell_Fence=654
+Sell_Skier=801
+Sell_Peacekeeper=6
+Sell_Mechanic=915
+Sell_Jaeger=981
+Sell_Flea Market=9500
+weight=0.075000
+fleaMarketFee=1627

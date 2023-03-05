@@ -1,0 +1,23 @@
+Name=AR-10 Precision Armanent M11 Severe-Duty 7.62x51 muzzle brake
+ShortName=M11
+Itemtype=Flashhider
+Conflict=[
+	MCX GEN1 KeyMod 12 inch handguard,
+]
+Recoil=-10.000000
+Ergonomics=-1.000000
+Information_Eng=The M11 muzzle brake designed for installation on AR-10-type systems and compatibles. Manufactured by Precision Armament.
+basePrice=9350
+width=1
+height=1
+avg24hPrice=11918
+low24hPrice=5000
+lastOfferCount=0
+Sell_Prapor=4675
+Sell_Fence=3740
+Sell_Skier=4581
+Sell_Peacekeeper=37
+Sell_Mechanic=5236
+Sell_Flea Market=9000
+weight=0.120000
+fleaMarketFee=860

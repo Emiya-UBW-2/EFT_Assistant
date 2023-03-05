@@ -1,0 +1,24 @@
+Name=M14 SAGE International M14ALCS (MOD-0) stock
+ShortName=M14ALCS
+Itemtype=Stock
+ChildParts=[
+	M14 SAGE International M14ALCS (MOD-0) pistol grip
+]
+Recoil=-30.000000
+Ergonomics=17.000000
+Information_Eng=The M14ALCS (MOD-0) stock for M14 rifles from the Enhanced Battle Rifle (EBR) kit, manufactured by SAGE International.
+basePrice=15967
+width=2
+height=1
+avg24hPrice=18787
+low24hPrice=11000
+lastOfferCount=9
+Sell_Prapor=7983
+Sell_Fence=6386
+Sell_Skier=7823
+Sell_Peacekeeper=62
+Sell_Mechanic=8941
+Sell_Jaeger=9580
+Sell_Flea Market=12000
+weight=1.004000
+fleaMarketFee=1253

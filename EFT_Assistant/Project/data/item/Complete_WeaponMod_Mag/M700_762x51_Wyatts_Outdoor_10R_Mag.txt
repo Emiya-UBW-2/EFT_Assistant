@@ -1,5 +1,0 @@
-Name=M700 7.62x51 Wyatt's Outdoor 10-round magazine
-Itemtype=Magazine
-Recoil=0
-Ergonomics=-2
-

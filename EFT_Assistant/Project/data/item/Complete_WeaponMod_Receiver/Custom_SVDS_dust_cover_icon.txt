@@ -1,5 +1,0 @@
-Name=SVDS custom cut dust cover
-Itemtype=Receiver
-Recoil=0
-Ergonomics=+2
-Conflict=[SVDS upper band]

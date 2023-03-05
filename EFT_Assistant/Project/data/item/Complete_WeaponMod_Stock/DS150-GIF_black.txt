@@ -1,4 +1,0 @@
-Name=KRISS Defiance DS150 stock (Black)
-Itemtype=Stock
-Recoil=-32
-Ergonomics=+9

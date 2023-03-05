@@ -65,7 +65,9 @@ ChildParts=[
 	AK RD Enhanced V2 Rear Sight,
 	AK Taktika Tula TT01 rear sight rail
 ]
-ChildParts=[AKMP system front sight device]
+ChildParts=[
+	AKMP system front sight device
+]
 ChildParts=[
 	AKM/AK-74 RD AK to M4 buffer tube adapter,
 	AK-74 polymer stock (6P20 Sb.7),
@@ -122,6 +124,23 @@ ChildParts=[
 	AK CSS knurled charging handle,
 	AK Zenit RP-1 charging handle
 ]
-ChildParts=[GP-25 "Kostyor" 40mm underbarrel grenade launcher]
-Recoil=188
-Ergonomics=26
+ChildParts=[
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher
+]
+Recoil=188.000000
+Ergonomics=26.000000
+Information_Eng=AKMN (Avtomat Kalashnikova Modernizirovanny Nochnoy - "Kalashnikov's Automatic Rifle Modernised Night") is a small arms system consisting of a modified AKM automatic rifle with a dovetail mount for installation of the NSP family night vision scopes — NSP-2/3/3A, NSPU, NSPU-M.
+basePrice=34003
+width=4
+height=1
+avg24hPrice=45729
+low24hPrice=37000
+lastOfferCount=17
+Sell_Prapor=17001
+Sell_Fence=13601
+Sell_Skier=16661
+Sell_Peacekeeper=133
+Sell_Mechanic=19041
+Sell_Flea Market=37000
+weight=2.152000
+fleaMarketFee=3439

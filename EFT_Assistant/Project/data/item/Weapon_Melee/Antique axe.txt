@@ -1,0 +1,17 @@
+Name=Antique axe
+ShortName=Axe
+Itemtype=Knife
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=An antique axe with a damaged handle that belonged to the ancient clan of hatchlings called WYCC.
+basePrice=94600
+width=1
+height=2
+avg24hPrice=59371
+low24hPrice=53333
+lastOfferCount=44
+Sell_Fence=37840
+Sell_Jaeger=56760
+Sell_Flea Market=58000
+weight=1.100000
+fleaMarketFee=6887

@@ -1,5 +1,0 @@
-Name=AK 7.62x39 US Palm "AK30" 30-round magazine (FDE)
-Itemtype=Magazine
-Recoil=0
-Ergonomics=-1
-

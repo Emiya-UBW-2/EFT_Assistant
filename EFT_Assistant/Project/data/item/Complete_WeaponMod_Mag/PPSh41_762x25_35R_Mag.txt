@@ -1,5 +1,0 @@
-Name=PPSh-41 7.62x25 35-round magazine
-Itemtype=Magazine
-Recoil=0
-Ergonomics=-3
-

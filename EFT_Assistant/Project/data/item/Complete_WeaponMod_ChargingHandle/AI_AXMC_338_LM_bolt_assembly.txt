@@ -1,5 +1,0 @@
-Name=AI AXMC .338 LM bolt assembly
-Itemtype=Charging handle
-Recoil=-1
-Ergonomics=-3
-

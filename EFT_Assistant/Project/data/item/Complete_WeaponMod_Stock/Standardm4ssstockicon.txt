@@ -1,4 +1,0 @@
-Name=High Standard M4SS Stock
-Itemtype=Stock
-Recoil=-27
-Ergonomics=+4

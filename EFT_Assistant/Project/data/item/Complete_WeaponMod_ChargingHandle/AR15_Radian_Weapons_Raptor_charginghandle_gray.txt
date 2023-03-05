@@ -1,5 +1,0 @@
-Name=AR-15 Radian Weapons Raptor charging handle (Grey)
-Itemtype=Charging handle
-Recoil=0
-Ergonomics=3
-

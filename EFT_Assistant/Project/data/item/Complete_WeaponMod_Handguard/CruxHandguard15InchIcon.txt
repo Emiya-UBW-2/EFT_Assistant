@@ -1,9 +1,0 @@
-Name=HK 416A5 Strike Industries CRUX 15 inch M-LOK handguard
-Itemtype=Handguard
-Recoil=-3
-Ergonomics=+11
-ChildParts=[Magpul M-LOK 2.5 inch rail,Magpul M-LOK Cantilever Mount,Magpul M-LOK Offset Light Mount]
-ChildParts=[Magpul M-LOK 2.5 inch rail,Magpul M-LOK Cantilever Mount,Magpul M-LOK Offset Light Mount]
-ChildParts=[AN/PEQ-15 tactical device,Holosun LS321 Tactical device,LA-5B/PEQ tactical device,SureFire XC1 tactical flashlight,Zenit Perst-3 tactical device]
-ChildParts=[NcSTAR MPR45 Backup mount]
-ChildParts=[Magpul M-LOK 4.1 inch rail,Magpul M-LOK AFG tactical foregrip (Black),Magpul M-LOK AFG tactical foregrip (FDE),Magpul M-LOK AFG tactical foregrip (Olive Drab),Magpul M-LOK AFG tactical foregrip (Stealth Gray)]

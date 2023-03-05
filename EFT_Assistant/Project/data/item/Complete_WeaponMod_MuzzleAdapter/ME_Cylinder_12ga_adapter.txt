@@ -1,5 +1,0 @@
-Name=ME Cylinder 12ga muzzle adapter
-Itemtype=Muzzle adapter
-Recoil=0
-Ergonomics=-1
-ChildParts=[Hexagon 12K 12ga sound suppressor,GK-02 12ga muzzle brake,Tromix Monster Claw 12ga muzzle brake]

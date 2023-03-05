@@ -1,0 +1,23 @@
+Name=AR-10 Nordic Components Corvette 7.62x51 compensator
+ShortName=Vette 762
+Itemtype=Flashhider
+Conflict=[
+	MCX GEN1 KeyMod 12 inch handguard,
+]
+Recoil=-10.000000
+Ergonomics=-1.000000
+Information_Eng=The Corvette 7.62x51 Compensator Muzzle Brake from Nordic Components reduces recoil and muzzle flip by directing gases upward and to the side.
+basePrice=8400
+width=1
+height=1
+avg24hPrice=9266
+low24hPrice=7000
+lastOfferCount=3
+Sell_Prapor=4200
+Sell_Fence=3360
+Sell_Skier=4116
+Sell_Peacekeeper=33
+Sell_Mechanic=4704
+Sell_Flea Market=9300
+weight=0.125000
+fleaMarketFee=862

@@ -1,6 +1,8 @@
 Name=TerraGroup Labs keycard (Green)
 ShortName=Green
 Itemtype=Keycard
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=A United Security-issued TerraGroup Labs keycard for administration staff in the Green sector.
 basePrice=1000000
 width=1

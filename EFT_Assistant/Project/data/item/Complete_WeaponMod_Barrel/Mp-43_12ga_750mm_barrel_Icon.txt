@@ -1,4 +1,0 @@
-Name=MP-43 12ga 750mm barrel
-Itemtype=Stock
-Recoil=-14
-Ergonomics=-11

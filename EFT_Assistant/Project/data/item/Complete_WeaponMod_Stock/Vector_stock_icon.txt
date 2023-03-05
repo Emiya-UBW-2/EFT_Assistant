@@ -1,4 +1,0 @@
-Name=KRISS Vector Gen.2 folding stock
-Itemtype=Stock
-Recoil=-31
-Ergonomics=+7

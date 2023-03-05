@@ -1,0 +1,47 @@
+Name=Soyuz-TM buffer tube
+ShortName=STM Tube
+Itemtype=Stock
+ChildParts=[
+	AR-15 B5 Systems Precision stock,
+	CMMG RipStock buttstock,
+	FAB Defense GL-SHOCK buttstock,
+	FAB Defense GLR-16-S stock,
+	High Standard M4SS Stock,
+	AR-15 HK E1 buttstock,
+	AR-15 HK Slim Line buttstock,
+	AK-12 stock,
+	LMT SOPMOD stock,
+	Magpul CTR Carbine stock (Black),
+	Magpul CTR Carbine stock (FDE),
+	Magpul MOE Carbine stock (Black),
+	Magpul MOE Carbine stock (FDE),
+	Magpul MOE Carbine stock (Foliage Green),
+	Magpul MOE Carbine stock (Olive Drab),
+	Magpul MOE Carbine stock (Stealth Gray),
+	Magpul PRS GEN3 stock (Black),
+	Magpul PRS GEN3 stock (Grey),
+	MFT BUS stock,
+	Strike Industries Viper Mod 1 stock,
+	Vltor EMOD stock,
+	FAB Defense GL-CORE buttstock,
+	KRISS Defiance DS150 stock (FDE),
+	KRISS Defiance DS150 stock (Black)
+]
+Recoil=-1.000000
+Ergonomics=0.000000
+Information_Eng=STM Arms Receiver Extension Buffer Tube, 4-position, Com-Spec diameter will fit any AR-15-based carbine.
+basePrice=1200
+width=2
+height=1
+avg24hPrice=20143
+low24hPrice=10000
+lastOfferCount=12
+Sell_Prapor=600
+Sell_Fence=480
+Sell_Skier=588
+Sell_Peacekeeper=5
+Sell_Mechanic=672
+Sell_Jaeger=720
+Sell_Flea Market=12000
+weight=0.162000
+fleaMarketFee=2891

@@ -1,4 +1,0 @@
-Name=Glock ZEV Tech HEX Spartan RMR pistol slide
-Itemtype=Receiver
-Recoil=-7
-Ergonomics=+10

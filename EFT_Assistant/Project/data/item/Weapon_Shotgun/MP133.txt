@@ -34,7 +34,27 @@ ChildParts=[
 	MP-153 12ga 7-shell magazine,
 	MP-153 12ga 8-shell magazine
 ]
-ChildParts=[Kiba Arms SPRM rail mount for pump-action shotguns]
-ChildParts=[Delta-Tek Sprut mount for pump-action shotguns]
-Recoil=520
-Ergonomics=40
+ChildParts=[
+	Kiba Arms SPRM rail mount for pump-action shotguns
+]
+ChildParts=[
+	Delta-Tek Sprut mount for pump-action shotguns
+]
+Recoil=520.000000
+Ergonomics=40.000000
+Information_Eng=The MP-133 is a multi-shot pump-action shotgun produced by IzhMekh. It is the evolution of the earlier IZh-81 pump-action shotgun and is intended primarily for civilian and security markets.
+basePrice=14443
+width=3
+height=1
+avg24hPrice=25717
+low24hPrice=15000
+lastOfferCount=5
+Sell_Prapor=7221
+Sell_Fence=5777
+Sell_Skier=7077
+Sell_Peacekeeper=57
+Sell_Mechanic=8088
+Sell_Jaeger=8665
+Sell_Flea Market=25000
+weight=1.100000
+fleaMarketFee=2377

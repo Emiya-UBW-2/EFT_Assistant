@@ -1,5 +1,0 @@
-Name=FN Five-seveN 5.7x28 20-round magazine
-Itemtype=Magazine
-Recoil=0
-Ergonomics=-1
-

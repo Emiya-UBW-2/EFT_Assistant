@@ -1,5 +1,0 @@
-Name=Gemtech ONE Direct Thread Mount adapter
-Itemtype=Muzzle adapter
-Recoil=0
-Ergonomics=0
-ChildParts=[Gemtech ONE multi-caliber sound suppressor]

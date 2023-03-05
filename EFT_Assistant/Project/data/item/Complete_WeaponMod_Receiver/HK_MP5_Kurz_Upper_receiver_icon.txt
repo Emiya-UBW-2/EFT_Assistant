@@ -1,8 +1,0 @@
-Name=HK MP5K 9x19 upper receiver
-Itemtype=Receiver
-Recoil=0
-Ergonomics=+6
-ChildParts=[HK MP5K polymer handguard]
-ChildParts=[HK MP5 MFI HK universal low profile scope mount]
-ChildParts=[HK MP5 Drum rear sight]
-ChildParts=[HK MP5K End Cap stock]

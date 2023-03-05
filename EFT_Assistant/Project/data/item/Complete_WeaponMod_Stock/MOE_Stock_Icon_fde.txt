@@ -1,4 +1,0 @@
-Name=Magpul MOE Carbine stock (FDE)
-Itemtype=Stock
-Recoil=-30
-Ergonomics=+8

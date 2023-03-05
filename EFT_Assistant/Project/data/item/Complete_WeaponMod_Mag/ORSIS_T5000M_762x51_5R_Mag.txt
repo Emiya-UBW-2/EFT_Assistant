@@ -1,5 +1,0 @@
-Name=ORSIS T-5000M 7.62x51 5-round magazine
-Itemtype=Magazine
-Recoil=0
-Ergonomics=-3
-

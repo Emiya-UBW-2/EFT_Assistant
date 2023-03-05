@@ -1,6 +1,8 @@
 Name=Microcontroller board
 ShortName=MB
 Itemtype=Electronics
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=A printed circuit board from microcontrollers. A consumable in the production of various advanced far-forward electronics components.
 basePrice=100000
 width=1

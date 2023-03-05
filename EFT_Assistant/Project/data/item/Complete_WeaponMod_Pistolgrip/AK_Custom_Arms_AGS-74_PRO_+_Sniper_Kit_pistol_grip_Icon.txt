@@ -1,4 +1,0 @@
-Name=AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip
-Itemtype=Pistol grip
-Recoil=0
-Ergonomics=+14

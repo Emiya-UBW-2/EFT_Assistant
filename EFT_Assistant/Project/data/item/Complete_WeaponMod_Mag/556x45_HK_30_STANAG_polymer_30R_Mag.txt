@@ -1,5 +1,0 @@
-Name=5.56x45 HK 30 STANAG polymer 30-round magazine
-Itemtype=Magazine
-Recoil=0
-Ergonomics=-2
-

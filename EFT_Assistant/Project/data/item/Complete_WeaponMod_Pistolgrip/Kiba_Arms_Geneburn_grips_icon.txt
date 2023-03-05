@@ -1,4 +1,0 @@
-Name=M1911 Kiba Arms Geneburn custom side grips
-Itemtype=Pistol grip
-Recoil=0
-Ergonomics=+4

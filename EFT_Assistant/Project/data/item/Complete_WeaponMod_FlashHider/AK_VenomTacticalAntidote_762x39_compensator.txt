@@ -1,4 +1,0 @@
-Name=AK Venom Tactical Antidote 7.62x39 muzzle brake-compensator
-Itemtype=Flash hider/muzzle brake
-Recoil=-17
-Ergonomics=-2

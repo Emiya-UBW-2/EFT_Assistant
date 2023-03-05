@@ -1,0 +1,38 @@
+Name=AK TDI AKM-L handguard (Anodized Red)
+ShortName=AKM-L
+Itemtype=Handguard
+ChildParts=[
+	Magpul M-LOK 4.1 inch rail,
+	Magpul M-LOK AFG tactical foregrip (Black),
+	Magpul M-LOK AFG tactical foregrip (FDE),
+	Magpul M-LOK AFG tactical foregrip (Olive Drab),
+	Magpul M-LOK AFG tactical foregrip (Stealth Gray)
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Cantilever Mount
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Cantilever Mount
+]
+Conflict=[
+	AK Zenit B-33 dust cover,
+]
+Recoil=0.000000
+Ergonomics=6.000000
+Information_Eng=The TDI Arms AKM-L can be installed on AKM/AK-74 compatible weapon systems. Equipped with M-LOK mounts for installation of additional devices or rails. Anodized Red version.
+basePrice=27800
+width=1
+height=1
+avg24hPrice=16988
+low24hPrice=13469
+lastOfferCount=13
+Sell_Prapor=13900
+Sell_Fence=11120
+Sell_Skier=13622
+Sell_Peacekeeper=109
+Sell_Mechanic=15568
+Sell_Flea Market=13469
+weight=0.221000
+fleaMarketFee=1971

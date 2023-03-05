@@ -1,4 +1,0 @@
-Name=HK USP rail adapter
-Itemtype=Mount
-Recoil=0
-Ergonomics=-1

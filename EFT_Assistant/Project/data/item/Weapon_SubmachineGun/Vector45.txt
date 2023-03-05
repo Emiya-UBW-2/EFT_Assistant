@@ -1,6 +1,6 @@
 Name=TDI KRISS Vector Gen.2 .45 ACP submachine gun
-ShortName=KRISS Vector 45ACP
-Itemtype=Submachine gun
+ShortName=Vector .45ACP
+Itemtype=SMG
 ChildParts=[
 	Glock .45 ACP 13-round magazine,
 	Glock .45 ACP KRISS G30 MagEx 30-round magazine
@@ -77,11 +77,30 @@ ChildParts=[
 	KRISS Vector .45 ACP 5 inch barrel,
 	KRISS Vector .45 ACP 6 inch barrel
 ]
-ChildParts=[KRISS Vector side rail]
-ChildParts=[KRISS Vector side rail]
+ChildParts=[
+	KRISS Vector side rail
+]
+ChildParts=[
+	KRISS Vector side rail
+]
 ChildParts=[
 	KRISS Vector bottom rail,
 	KRISS Vector Mk.5 modular rail
 ]
-Recoil=55
-Ergonomics=65
+Recoil=55.000000
+Ergonomics=65.000000
+Information_Eng=The KRISS Vector SMG is the ideal choice for law enforcement and military seeking a controllable and compact weapon system for close quarter combat environments. The low bore axis and Super V recoil mitigation system allow for controllable shots when firing in full-automatic, or fast semi-automatic follow up shots. Compatible with Glock .45 ACP magazines.
+basePrice=31650
+width=2
+height=2
+avg24hPrice=51119
+low24hPrice=38333
+lastOfferCount=15
+Sell_Prapor=15825
+Sell_Fence=12660
+Sell_Skier=15508
+Sell_Peacekeeper=124
+Sell_Mechanic=17724
+Sell_Flea Market=52999
+weight=1.860000
+fleaMarketFee=5000

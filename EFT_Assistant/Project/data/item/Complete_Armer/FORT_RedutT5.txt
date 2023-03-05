@@ -1,6 +1,8 @@
 Name=FORT Redut-T5 body armor
 ShortName=Redut-T5
 Itemtype=Armor
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=The FORT "Redut T5" armor vest is a reinforced version of Redut armor series, designed with account of the many years of experience in counter-terrorism operations in the Russian Federation.
 basePrice=188296
 width=4

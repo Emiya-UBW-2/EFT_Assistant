@@ -1,4 +1,0 @@
-Name=AK-74 TGP-A 5.45x39 sound suppressor
-Itemtype=Suppressor
-Recoil=-10.5
-Ergonomics=-25

@@ -1,7 +1,6 @@
 Name=PP-19-01 "Vityaz" gas tube
+ShortName=19-01 gas
 Itemtype=Gas block
-Recoil=0
-Ergonomics=0
 ChildParts=[
 	AK CAA RS47 handguard,
 	WASR-10/63 CAF wooden foregrip,
@@ -27,3 +26,20 @@ ChildParts=[
 	AK Zenit B-10 Handguard,
 	AK Zenit B-10M handguard with B-19 upper mount
 ]
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=A standard gas tube for PP-19-01 Vityaz submachine guns. Gas tubes channel the travel direction of gas piston.
+basePrice=1793
+width=1
+height=1
+avg24hPrice=100000
+low24hPrice=100000
+lastOfferCount=2
+Sell_Prapor=896
+Sell_Fence=717
+Sell_Skier=878
+Sell_Peacekeeper=7
+Sell_Mechanic=1004
+Sell_Flea Market=100000
+weight=0.110000
+fleaMarketFee=75439

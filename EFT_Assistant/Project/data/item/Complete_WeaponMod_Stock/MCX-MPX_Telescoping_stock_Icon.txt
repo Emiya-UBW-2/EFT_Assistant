@@ -1,4 +1,0 @@
-Name=MPX/MCX telescoping stock
-Itemtype=Stock
-Recoil=-29
-Ergonomics=+10

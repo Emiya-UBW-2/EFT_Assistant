@@ -1,0 +1,17 @@
+Name=CMMG Mk47 Mutant 7.62x39 assault rifle Mace
+ShortName=Mk47 Mace
+Itemtype=Assault rifle
+Information_Eng=
+basePrice=206309
+width=4
+height=2
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Prapor=103154
+Sell_Fence=82523
+Sell_Skier=101091
+Sell_Peacekeeper=807
+Sell_Mechanic=115533
+weight=4.162000
+fleaMarketFee=0

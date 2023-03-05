@@ -1,5 +1,0 @@
-Name=FN P90 Ring Sight reflex sight
-Itemtype=Reflex sight
-Recoil=0
-Ergonomics=-1
-SightRange=200

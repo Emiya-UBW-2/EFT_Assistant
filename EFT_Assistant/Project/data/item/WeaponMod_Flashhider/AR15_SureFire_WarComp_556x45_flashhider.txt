@@ -1,0 +1,25 @@
+Name=AR-15 SureFire WarComp 5.56x45 flash hider
+ShortName=WarComp 556
+Itemtype=Flashhider
+ChildParts=[
+	SureFire SOCOM556-MONSTER 5.56x45 sound suppressor,
+	SureFire SOCOM556-MINI MONSTER 5.56x45 sound suppressor,
+	SureFire SOCOM556-RC2 5.56x45 sound suppressor
+]
+Recoil=-7.000000
+Ergonomics=-1.000000
+Information_Eng=The WarComp flash hider for AR-15-type weapon systems, manufactured by SureFire.
+basePrice=4800
+width=1
+height=1
+avg24hPrice=17077
+low24hPrice=8777
+lastOfferCount=10
+Sell_Prapor=2400
+Sell_Fence=1920
+Sell_Skier=2352
+Sell_Peacekeeper=19
+Sell_Mechanic=2688
+Sell_Flea Market=16666
+weight=0.064000
+fleaMarketFee=2120

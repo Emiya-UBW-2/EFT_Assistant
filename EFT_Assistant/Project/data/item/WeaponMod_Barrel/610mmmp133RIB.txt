@@ -1,0 +1,29 @@
+Name=MP-133 12ga 610mm barrel with rib
+ShortName=MP133 610mm rib
+Itemtype=Barrel
+ChildParts=[
+	ME Cylinder 12ga muzzle adapter,
+	Remington Tactical Choke 12ga,
+	SilencerCo Salvo 12 choke adapter
+]
+ChildParts=[
+	VOMZ Pilad TargetRing reflex sight,
+	ETMI-019 shotgun rail mount
+]
+Recoil=-4.000000
+Ergonomics=-6.000000
+Information_Eng=A standard factory-produced 610mm barrel with a wide upper rib for MP-133 12 gauge shotguns.
+basePrice=5103
+width=4
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
+Sell_Prapor=2551
+Sell_Fence=2041
+Sell_Skier=2500
+Sell_Peacekeeper=20
+Sell_Mechanic=2857
+Sell_Jaeger=3061
+weight=1.250000
+fleaMarketFee=485

@@ -1,4 +1,0 @@
-Name=Burris FastFire Weaver Base
-Itemtype=Mount
-Recoil=0
-Ergonomics=0

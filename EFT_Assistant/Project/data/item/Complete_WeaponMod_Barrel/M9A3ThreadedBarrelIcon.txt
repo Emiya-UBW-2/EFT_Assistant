@@ -1,4 +1,0 @@
-Name=M9A3 9x19 threaded barrel
-Itemtype=Stock
-Recoil=-3
-Ergonomics=-4

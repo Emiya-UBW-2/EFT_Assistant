@@ -1,4 +1,0 @@
-Name=P226 Trijicon RMR mount
-Itemtype=Mount
-Recoil=0
-Ergonomics=0

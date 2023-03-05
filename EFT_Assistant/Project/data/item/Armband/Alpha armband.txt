@@ -1,6 +1,8 @@
 Name=Alpha armband
 ShortName=Alpha
 Itemtype=Arm Band
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=An armband for veterans who are still here from the Alpha times.
 basePrice=100000
 width=1

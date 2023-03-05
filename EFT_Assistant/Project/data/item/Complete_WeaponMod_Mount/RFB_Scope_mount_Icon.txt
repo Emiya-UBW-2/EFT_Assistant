@@ -1,4 +1,0 @@
-Name=RFB scope rail mount
-Itemtype=Mount
-Recoil=0
-Ergonomics=0

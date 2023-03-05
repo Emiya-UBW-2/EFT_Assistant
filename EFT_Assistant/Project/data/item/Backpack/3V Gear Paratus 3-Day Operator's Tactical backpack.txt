@@ -1,6 +1,8 @@
 Name=3V Gear Paratus 3-Day Operator's Tactical backpack
 ShortName=Paratus
 Itemtype=Backpack
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=A modular, PVC-backed, polyester backpack for PMC operators who are going to be traversing across the rugged terrain of the Norvinsk region.
 basePrice=61500
 width=5

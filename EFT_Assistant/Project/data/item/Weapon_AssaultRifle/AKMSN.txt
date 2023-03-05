@@ -64,7 +64,9 @@ ChildParts=[
 	AK RD Enhanced V2 Rear Sight,
 	AK Taktika Tula TT01 rear sight rail
 ]
-ChildParts=[AKMP system front sight device]
+ChildParts=[
+	AKMP system front sight device
+]
 ChildParts=[
 	AKMS shoulder piece (6P4 Sb.1-19),
 	AKMSN shoulder piece (6P4N Sb.1-19)
@@ -109,6 +111,23 @@ ChildParts=[
 	AK CSS knurled charging handle,
 	AK Zenit RP-1 charging handle
 ]
-ChildParts=[GP-25 "Kostyor" 40mm underbarrel grenade launcher]
-Recoil=190
-Ergonomics=24
+ChildParts=[
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher
+]
+Recoil=190.000000
+Ergonomics=24.000000
+Information_Eng=AKMSN 7.62x39 (Avtomát Kaláshnikova Modernizírovanny Skladnóy Nochnóy - "Kalashnikov's Automatic rifle Modernised Night with a foldable stock") is a modified AKMS automatic rifle with a dovetail mount for installation of the NSP family night vision scopes — NSP-2/3/3A, NSPU, NSPU-M.
+basePrice=28972
+width=4
+height=1
+avg24hPrice=23466
+low24hPrice=18000
+lastOfferCount=25
+Sell_Prapor=14486
+Sell_Fence=11588
+Sell_Skier=14196
+Sell_Peacekeeper=113
+Sell_Mechanic=16224
+Sell_Flea Market=19000
+weight=2.092000
+fleaMarketFee=2150

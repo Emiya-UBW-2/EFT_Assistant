@@ -1,4 +1,0 @@
-Name=AKM dust cover (6P1 0-1)
-Itemtype=Receiver
-Recoil=0
-Ergonomics=+5

@@ -1,9 +1,0 @@
-Name=IEA Mil-Optics KH/F 34mm one-piece magmount
-Itemtype=Mount
-Recoil=0
-Ergonomics=-1
-ChildParts=[
-	Hensoldt FF 4-16x56 34mm riflescope,
-	Nightforce ATACR 7-35x56 34mm riflescope,
-	Schmidt & Bender PM II 3-12x50 34mm riflescope
-]

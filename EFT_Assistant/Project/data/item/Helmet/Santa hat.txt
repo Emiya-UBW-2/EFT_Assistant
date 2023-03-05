@@ -1,6 +1,8 @@
 Name=Santa hat
 ShortName=Hat
 Itemtype=Headwear
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=Santa's hat. Often gets confused with the Ded Moroz hat. Ded Moroz is cooler, by the way. Really, guys, really. Just listen - "Grandfather Frost". The one and only! Anyway, thank you all, and happy New Year!
 basePrice=500
 width=1
@@ -12,6 +14,6 @@ Sell_Fence=200
 Sell_Skier=245
 Sell_Peacekeeper=2
 Sell_Ragman=310
-Sell_Flea Market=50000
+Sell_Flea Market=50999
 weight=0.100000
-fleaMarketFee=56222
+fleaMarketFee=58130

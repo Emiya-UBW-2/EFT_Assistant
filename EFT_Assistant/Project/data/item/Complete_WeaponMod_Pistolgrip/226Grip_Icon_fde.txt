@@ -1,4 +1,0 @@
-Name=P226 Combat pistol grip (FDE)
-Itemtype=Pistol grip
-Recoil=0
-Ergonomics=+5

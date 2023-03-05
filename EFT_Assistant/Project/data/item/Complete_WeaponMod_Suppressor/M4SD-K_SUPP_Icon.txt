@@ -1,4 +1,0 @@
-Name=AR-15 Griffin Armament M4SD-K 5.56x45 sound suppressor
-Itemtype=Suppressor
-Recoil=-14
-Ergonomics=-19

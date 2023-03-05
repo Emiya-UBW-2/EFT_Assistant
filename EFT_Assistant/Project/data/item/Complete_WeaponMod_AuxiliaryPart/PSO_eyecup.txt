@@ -1,4 +1,0 @@
-Name=PSO scope eyecup
-Itemtype=Auxiliary part
-Recoil=0
-Ergonomics=+5

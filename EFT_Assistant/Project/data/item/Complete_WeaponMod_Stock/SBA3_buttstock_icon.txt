@@ -1,4 +1,0 @@
-Name=SB Tactical SBA3 buttstock
-Itemtype=Stock
-Recoil=-29
-Ergonomics=+10

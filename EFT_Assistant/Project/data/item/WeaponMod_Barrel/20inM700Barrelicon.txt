@@ -1,0 +1,43 @@
+Name=M700 7.62x51 20 inch threaded barrel
+ShortName=M700 20"
+Itemtype=Barrel
+ChildParts=[
+	AR-10 2A Armanent X3 7.62x51 compensator,
+	AR-10 AAC Blackout 51T 7.62x51 flash hider,
+	AR-10 Daniel Defense WAVE 7.62x51 muzzle brake,
+	Desert Tech 7.62x51 flash hider,
+	AR-10 Fortis RED Brake 7.62x51 muzzle brake,
+	AR-10 KAC QDC 7.62x51 Flash Suppressor Kit,
+	AR-10 Keeno Arms SHREWD 7.62x51 muzzle brake,
+	AR-10 Lantac Drakon 7.62x51 muzzle brake-compensator,
+	AR-10 Nordic Components Corvette 7.62x51 compensator,
+	AR-10 Odin Works ATLAS-7 7.62x51 muzzle brake,
+	AR-10 Precision Armanent M11 Severe-Duty 7.62x51 muzzle brake,
+	AR-10 Thunder Beast Arms 30CB 7.62x51 muzzle brake,
+	Gemtech ONE Direct Thread Mount adapter,
+	SilencerCo Hybrid 46 Direct Thread Mount adapter,
+	Lantac BMD Blast Mitigation Device A3 direct thread adapter,
+	M700 thread protection cap (Stainless steel),
+	M700 thread protection cap,
+	SIG Sauer Taper-LOK 7.62x51/.300 BLK muzzle adapter,
+	SIG Sauer SRD762Ti 7.62x51 sound suppressor,
+	AR-10 SureFire ProComp 7.62x51 muzzle brake
+]
+Recoil=-4.000000
+Ergonomics=-11.000000
+Information_Eng=A 20 inches (508mm) long threaded barrel for Remington Model 700 sniper rifle chambered in 7.62x51 NATO ammo.
+basePrice=22200
+width=3
+height=1
+avg24hPrice=49999
+low24hPrice=27000
+lastOfferCount=2
+Sell_Prapor=11100
+Sell_Fence=8880
+Sell_Skier=10878
+Sell_Peacekeeper=87
+Sell_Mechanic=12432
+Sell_Jaeger=13320
+Sell_Flea Market=49999
+weight=1.200000
+fleaMarketFee=5180

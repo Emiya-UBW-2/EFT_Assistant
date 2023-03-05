@@ -1,4 +1,0 @@
-Name=BCM GUNFIGHTER MOD 3 vertical foregrip
-Itemtype=Foregrip
-Recoil=-1
-Ergonomics=+6

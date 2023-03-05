@@ -1,0 +1,44 @@
+Name=SKS TAPCO Intrafuse buffer tube
+ShortName=SKS TAPCO
+Itemtype=Stock
+ChildParts=[
+	AR-15 B5 Systems Precision stock,
+	FAB Defense GL-CORE buttstock,
+	FAB Defense GL-SHOCK buttstock,
+	FAB Defense GLR-16-S stock,
+	High Standard M4SS Stock,
+	AR-15 HK E1 buttstock,
+	AR-15 HK Slim Line buttstock,
+	AK-12 stock,
+	KRISS Defiance DS150 stock (Black),
+	KRISS Defiance DS150 stock (FDE),
+	LMT SOPMOD stock,
+	Magpul CTR Carbine stock (Black),
+	Magpul CTR Carbine stock (FDE),
+	Magpul MOE Carbine stock (Black),
+	Magpul MOE Carbine stock (FDE),
+	Magpul MOE Carbine stock (Foliage Green),
+	Magpul MOE Carbine stock (Olive Drab),
+	Magpul MOE Carbine stock (Stealth Gray),
+	MFT BUS stock,
+	Strike Industries Viper Mod 1 stock,
+	Vltor EMOD stock
+]
+Recoil=-1.000000
+Ergonomics=0.000000
+Information_Eng=An AR-15-styled Mil-Spec buffer tube designed for the Intrafuse SKS stock system, manufactured by TAPCO.
+basePrice=1672
+width=2
+height=1
+avg24hPrice=9520
+low24hPrice=4000
+lastOfferCount=4
+Sell_Prapor=836
+Sell_Fence=668
+Sell_Skier=819
+Sell_Peacekeeper=7
+Sell_Mechanic=936
+Sell_Jaeger=1003
+Sell_Flea Market=5999
+weight=0.190000
+fleaMarketFee=777

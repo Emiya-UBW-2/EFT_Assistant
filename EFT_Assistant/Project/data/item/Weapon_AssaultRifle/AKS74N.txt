@@ -105,5 +105,20 @@ ChildParts=[
 ChildParts=[
 	GP-25 "Kostyor" 40mm underbarrel grenade launcher
 ]
-Recoil=140
-Ergonomics=32
+Recoil=140.000000
+Ergonomics=32.000000
+Information_Eng=AKS-74N (Avtomat Kalashnikova Skladnoy 74 Nochnoy - "Kalashnikov's Automatic rifle 74 Night with foldable stock") 5.45x39mm assault rifle equipped with a side-folding metal shoulder stock, designed primarily for use with air assault infantry. The key design difference from the standard AKS-74 is a side dovetail mount for optical and night scopes.
+basePrice=25490
+width=4
+height=1
+avg24hPrice=28827
+low24hPrice=22000
+lastOfferCount=29
+Sell_Prapor=12745
+Sell_Fence=10196
+Sell_Skier=12490
+Sell_Peacekeeper=100
+Sell_Mechanic=14274
+Sell_Flea Market=23700
+weight=2.092000
+fleaMarketFee=2283

@@ -1,0 +1,24 @@
+Name=M1A SOCOM 16 7.62x51 muzzle brake-compensator
+ShortName=SOCOM16 M1A
+Itemtype=Flashhider
+ChildParts=[
+	M1A SA National Match .062 Blade front sight,
+	M1A SA XS Post .125 Blade front sight
+]
+Recoil=-5.000000
+Ergonomics=-1.000000
+Information_Eng=A muzzle brake-compensator for M1A rifles, manufactured by Springfield Armory.
+basePrice=2142
+width=1
+height=1
+avg24hPrice=7419
+low24hPrice=5000
+lastOfferCount=6
+Sell_Prapor=1071
+Sell_Fence=856
+Sell_Skier=1049
+Sell_Peacekeeper=8
+Sell_Mechanic=1199
+Sell_Flea Market=5000
+weight=0.130000
+fleaMarketFee=526

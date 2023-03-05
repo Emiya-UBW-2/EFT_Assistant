@@ -1,5 +1,0 @@
-Name=Burris FullField TAC30 1-4x24 30mm riflescope
-Itemtype=Scope
-Recoil=0
-Ergonomics=-3
-SightRange=800

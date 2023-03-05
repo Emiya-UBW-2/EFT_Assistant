@@ -1,4 +1,0 @@
-Name=RD-704 dust cover
-Itemtype=Receiver
-Recoil=0
-Ergonomics=+5

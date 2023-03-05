@@ -1,4 +1,0 @@
-Name=FN P90 EFFEN 90 receiver rail
-Itemtype=Mount
-Recoil=0
-Ergonomics=0

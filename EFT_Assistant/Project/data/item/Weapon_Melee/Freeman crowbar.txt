@@ -1,0 +1,17 @@
+Name=Freeman crowbar
+ShortName=Crowbar
+Itemtype=Knife
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=A reliable steel crowbar manufactured by Freeman company. Caution! May lead to Resonance Cascade.
+basePrice=18200
+width=1
+height=3
+avg24hPrice=12039
+low24hPrice=8000
+lastOfferCount=13
+Sell_Fence=7280
+Sell_Jaeger=10920
+Sell_Flea Market=8000
+weight=1.900000
+fleaMarketFee=1297

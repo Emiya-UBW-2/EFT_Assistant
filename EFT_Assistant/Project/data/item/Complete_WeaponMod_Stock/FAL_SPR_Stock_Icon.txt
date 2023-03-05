@@ -1,4 +1,0 @@
-Name=SA-58 SPR stock
-Itemtype=Stock
-Recoil=-36
-Ergonomics=+7

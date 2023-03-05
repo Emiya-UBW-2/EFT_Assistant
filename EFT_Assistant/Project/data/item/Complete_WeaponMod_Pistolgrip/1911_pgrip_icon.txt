@@ -1,4 +1,0 @@
-Name=M1911A1 side grips
-Itemtype=Pistol grip
-Recoil=0
-Ergonomics=+4

@@ -1,4 +1,0 @@
-Name=HK MP7A2 stock
-Itemtype=Stock
-Recoil=-17
-Ergonomics=+3

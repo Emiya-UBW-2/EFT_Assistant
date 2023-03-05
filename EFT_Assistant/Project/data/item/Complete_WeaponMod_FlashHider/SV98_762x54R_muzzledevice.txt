@@ -1,4 +1,0 @@
-Name=SV-98 7.62x54R muzzle device
-Itemtype=Flash hider/muzzle brake
-Recoil=-7
-Ergonomics=-1

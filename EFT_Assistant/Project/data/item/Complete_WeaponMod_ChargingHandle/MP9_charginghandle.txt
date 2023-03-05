@@ -1,5 +1,0 @@
-Name=MP9 charging handle
-Itemtype=Charging handle
-Recoil=0
-Ergonomics=0
-

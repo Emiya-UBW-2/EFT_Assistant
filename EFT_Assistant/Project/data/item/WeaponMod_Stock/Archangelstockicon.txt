@@ -1,0 +1,44 @@
+Name=M1A ProMag Archangel stock
+ShortName=Archangel M1A
+Itemtype=Stock
+ChildParts=[
+	M14 Amega Mini Scout Mount system,
+	M14 UltiMAK M8 Forward Optic mount,
+	M14 Vltor CASV-14 rail system,
+	M1A SOCOM 16 upper part
+]
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser,
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	LA-5B/PEQ tactical device,
+	NcSTAR Tactical blue laser LAM-module,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Kiba Arms 25mm accessory ring mount
+]
+Conflict=[
+	M14 7.62x51 X Products X-14 50-round drum magazine,
+]
+Recoil=-38.000000
+Ergonomics=32.000000
+Information_Eng=The Archangel polymer stock for M1A rifles, manufactured by ProMag.
+basePrice=24862
+width=3
+height=1
+avg24hPrice=29903
+low24hPrice=25000
+lastOfferCount=5
+Sell_Prapor=12431
+Sell_Fence=9944
+Sell_Skier=12182
+Sell_Peacekeeper=97
+Sell_Mechanic=13922
+Sell_Jaeger=14917
+Sell_Flea Market=29000
+weight=1.900000
+fleaMarketFee=2668

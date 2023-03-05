@@ -1,0 +1,34 @@
+Name=Axion Kobra dovetail mount
+ShortName=Kobra
+Itemtype=Mount
+Conflict=[
+	AKS-74U CAA XRSU47SU tactical handguard,
+	AK CNC Guns OV GP handguard,
+	SVD SAG MK1 chassis,
+	AK TDI X47 tactical handguard rail system,
+	SAG Bit low profile dovetail sidemount,
+	SVD modernization kit top rail,
+	AK AKademia Bastion dust cover,
+	AK Zenit B-33 dust cover,
+	AK FAB Defense PDC dust cover,
+	PP-19-01 "Vityaz-SN" dust cover,
+	AK TWS Dog Leg Rail dust cover,
+]
+Recoil=0.000000
+Ergonomics=-1.000000
+Information_Eng=An aluminum mount for installation of sights and various accessories, commonly can be found in the kit with Kobra sights. Manufactured by Axion.
+basePrice=5302
+width=1
+height=1
+avg24hPrice=9620
+low24hPrice=6000
+lastOfferCount=8
+Sell_Prapor=2651
+Sell_Fence=2120
+Sell_Skier=2597
+Sell_Peacekeeper=21
+Sell_Mechanic=2969
+Sell_Jaeger=3181
+Sell_Flea Market=6600
+weight=0.043000
+fleaMarketFee=604

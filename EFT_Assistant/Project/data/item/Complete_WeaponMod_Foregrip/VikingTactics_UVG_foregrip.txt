@@ -1,4 +1,0 @@
-Name=Viking Tactics UVG tactical foregrip
-Itemtype=Foregrip
-Recoil=-2
-Ergonomics=+5

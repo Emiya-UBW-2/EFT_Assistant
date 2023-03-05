@@ -1,4 +1,0 @@
-Name=KAC URX 3/3.1 stopper panel(black)
-Itemtype=Auxiliary part
-Recoil=-1
-Ergonomics=+4

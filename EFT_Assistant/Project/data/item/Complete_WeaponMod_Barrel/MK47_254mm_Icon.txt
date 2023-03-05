@@ -1,4 +1,0 @@
-Name=Mk47 254mm barrel
-Itemtype=Stock
-Recoil=-2
-Ergonomics=-7

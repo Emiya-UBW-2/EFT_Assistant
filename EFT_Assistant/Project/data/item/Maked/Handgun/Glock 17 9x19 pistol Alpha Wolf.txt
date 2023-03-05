@@ -1,0 +1,17 @@
+Name=Glock 17 9x19 pistol Alpha Wolf
+ShortName=Glock 17 Alpha Wolf
+Itemtype=Handgun
+Information_Eng=
+basePrice=27413
+width=2
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Prapor=13706
+Sell_Fence=10965
+Sell_Skier=13432
+Sell_Peacekeeper=107
+Sell_Mechanic=15351
+weight=0.733000
+fleaMarketFee=2604

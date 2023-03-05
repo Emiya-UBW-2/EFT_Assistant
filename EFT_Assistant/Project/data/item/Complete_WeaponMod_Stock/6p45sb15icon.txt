@@ -1,5 +1,0 @@
-Name=AK-74M polymer stock (6P34 Sb.15)
-Itemtype=Stock
-Recoil=-32
-Ergonomics=+5
-ChildParts=[AK GP-25 accessory kit recoil pad]

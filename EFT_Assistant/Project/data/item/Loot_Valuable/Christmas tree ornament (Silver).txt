@@ -1,6 +1,8 @@
 Name=Christmas tree ornament (Silver)
 ShortName=Ornament
 Itemtype=Jewelry
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=A silver ornament ball for decorating the Christmas tree.
 basePrice=10000
 width=1

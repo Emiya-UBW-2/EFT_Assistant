@@ -1,4 +1,0 @@
-Name=HK USP Match .45 ACP pistol slide
-Itemtype=Receiver
-Recoil=0
-Ergonomics=+3

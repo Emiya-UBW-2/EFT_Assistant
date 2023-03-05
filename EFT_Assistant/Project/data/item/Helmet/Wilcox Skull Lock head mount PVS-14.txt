@@ -1,6 +1,8 @@
 Name=Wilcox Skull Lock head mount PVS-14
 ShortName=Skull Lock PVS-14
 Itemtype=Headwear
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=
 basePrice=117680
 width=2

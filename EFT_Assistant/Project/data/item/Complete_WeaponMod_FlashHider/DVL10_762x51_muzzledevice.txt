@@ -1,4 +1,0 @@
-Name=DVL-10 7.62x51 muzzle device
-Itemtype=Flash hider/muzzle brake
-Recoil=-12
-Ergonomics=-3

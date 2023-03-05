@@ -84,5 +84,20 @@ ChildParts=[
 	AR-15 Noveske Gen.3 5.56x45 upper receiver,
 	AR-15 Vltor MUR-1S 5.56x45 upper receiver
 ]
-Recoil=139
-Ergonomics=48
+Recoil=139.000000
+Ergonomics=48.000000
+Information_Eng=The Colt M4A1 carbine is a fully automatic variant of the basic M4 Carbine and was primarily designed for special operations use.However, U.S. Special Operations Command (USSOCOM) was soon to adopt the M4A1 for almost all special operations units, followed later by general introduction of the M4A1 into service with the U.S. Army and Marine Corps.
+basePrice=18397
+width=1
+height=1
+avg24hPrice=74243
+low24hPrice=48888
+lastOfferCount=41
+Sell_Prapor=9198
+Sell_Fence=7358
+Sell_Skier=9014
+Sell_Peacekeeper=72
+Sell_Mechanic=10302
+Sell_Flea Market=60000
+weight=0.380000
+fleaMarketFee=7385

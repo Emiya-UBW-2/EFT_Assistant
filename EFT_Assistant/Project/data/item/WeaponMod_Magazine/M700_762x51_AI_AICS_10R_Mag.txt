@@ -1,0 +1,24 @@
+Name=M700 7.62x51 AI AICS 10-round magazine
+ShortName=AICS
+Itemtype=Magazine
+Conflict=[
+	M700 Hogue Overmolded Ghillie stock,
+	M700 ProMag Archangel chassis,
+]
+Recoil=0.000000
+Ergonomics=-2.000000
+Information_Eng=A 10-round Remington M700 sniper rifle magazine by Accuracy International, for 7.62x51 cartridges.
+basePrice=3900
+width=1
+height=2
+avg24hPrice=24179
+low24hPrice=4367
+lastOfferCount=16
+Sell_Prapor=1950
+Sell_Fence=1560
+Sell_Skier=1911
+Sell_Peacekeeper=15
+Sell_Mechanic=2184
+Sell_Flea Market=12989
+weight=0.500000
+fleaMarketFee=1616

@@ -1,0 +1,17 @@
+Name=MPL-50 entrenching tool
+ShortName=MPL-50
+Itemtype=Knife
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=MPL-50 (Malaya Pekhotnaya Lopata 50 - "Small Infantry Spade 50") is a small spade invented by a Danish officer Mads Johan Buch Linnemann in 1869. While nominally an entrenching tool, MPL-50 saw a wide range of wartime applications ranging from a close quarters combat weapon to a cooking utensil.
+basePrice=3560
+width=1
+height=3
+avg24hPrice=4571
+low24hPrice=2000
+lastOfferCount=23
+Sell_Fence=1424
+Sell_Jaeger=2136
+Sell_Flea Market=2500
+weight=0.800000
+fleaMarketFee=271

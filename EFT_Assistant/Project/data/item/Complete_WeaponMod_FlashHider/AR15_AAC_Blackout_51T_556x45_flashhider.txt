@@ -1,5 +1,0 @@
-Name=AR-15 AAC Blackout 51T 5.56x45 flash hider
-Itemtype=Flash hider/muzzle brake
-ChildParts=[AAC 762-SDN-6 multi-caliber sound suppressor]
-Recoil=-8
-Ergonomics=-1

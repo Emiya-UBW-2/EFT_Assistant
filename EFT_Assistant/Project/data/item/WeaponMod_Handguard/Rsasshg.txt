@@ -1,0 +1,50 @@
+Name=R11 RSASS handguard
+ShortName=RSASS
+Itemtype=Handguard
+ChildParts=[
+	Magpul M-LOK AFG tactical foregrip (Black),
+	Magpul M-LOK AFG tactical foregrip (FDE),
+	Magpul M-LOK AFG tactical foregrip (Olive Drab),
+	Magpul M-LOK AFG tactical foregrip (Stealth Gray),
+	Remington RAHG 4 inch rail
+]
+ChildParts=[
+	NcSTAR MPR45 Backup mount
+]
+ChildParts=[
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	AN/PEQ-2 tactical device,
+	LA-5B/PEQ tactical device,
+	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Perst-3 tactical device
+]
+ChildParts=[
+	Remington RAHG 2 inch rail
+]
+ChildParts=[
+	Remington RAHG 2 inch rail
+]
+Conflict=[
+	STM-9 9x19 10.5 inch barrel,
+	STM-9 9x19 12 inch barrel,
+	STM-9 9x19 16 inch barrel,
+]
+Recoil=-2.000000
+Ergonomics=5.000000
+Information_Eng=A standard handguard manufactured by JP Enterprises for the Remington R11 RSASS marksman rifle. Can also be mounted on any AR-10/AR-15 base receivers.
+basePrice=16754
+width=2
+height=1
+avg24hPrice=23742
+low24hPrice=22115
+lastOfferCount=6
+Sell_Prapor=8377
+Sell_Fence=6701
+Sell_Skier=8209
+Sell_Peacekeeper=66
+Sell_Mechanic=9382
+Sell_Flea Market=23333
+weight=0.310000
+fleaMarketFee=2141

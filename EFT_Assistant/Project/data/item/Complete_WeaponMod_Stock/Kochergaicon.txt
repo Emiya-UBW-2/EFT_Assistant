@@ -1,4 +1,0 @@
-Name=AKM/AK-74 Hexagon "Kocherga" stock (Anodized Red)
-Itemtype=Stock
-Recoil=-34
-Ergonomics=+12

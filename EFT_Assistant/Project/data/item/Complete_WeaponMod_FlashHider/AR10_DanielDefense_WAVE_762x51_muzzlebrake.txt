@@ -1,5 +1,0 @@
-Name=AR-10 Daniel Defense WAVE 7.62x51 muzzle brake
-Itemtype=Flash hider/muzzle brake
-ChildParts=[Daniel Defense WAVE QD sound suppressor]
-Recoil=-9
-Ergonomics=-1

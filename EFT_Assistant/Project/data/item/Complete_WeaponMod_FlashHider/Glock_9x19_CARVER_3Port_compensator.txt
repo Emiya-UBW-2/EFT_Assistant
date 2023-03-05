@@ -1,4 +1,0 @@
-Name=Glock 9x19 CARVER Custom Decelerator 3 Port compensator
-Itemtype=Flash hider/muzzle brake
-Recoil=-11
-Ergonomics=-1

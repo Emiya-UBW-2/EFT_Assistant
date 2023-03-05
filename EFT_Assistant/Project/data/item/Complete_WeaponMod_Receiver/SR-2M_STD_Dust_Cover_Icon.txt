@@ -1,5 +1,0 @@
-Name=SR-2M dust cover
-Itemtype=Receiver
-Conflict=[SR-2M Zenit B-17 mount,SR-2M KP-SR2 reflex sight]
-Recoil=0
-Ergonomics=+5

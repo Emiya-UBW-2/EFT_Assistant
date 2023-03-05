@@ -1,0 +1,52 @@
+Name=AR-15 Soyuz-TM 9 inch M-LOK handguard
+ShortName=STM 9"
+Itemtype=Handguard
+ChildParts=[
+	Magpul M-LOK AFG tactical foregrip (Black),
+	Magpul M-LOK AFG tactical foregrip (FDE),
+	Magpul M-LOK AFG tactical foregrip (Olive Drab),
+	Magpul M-LOK AFG tactical foregrip (Stealth Gray),
+	Magpul M-LOK 4.1 inch rail
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK Offset Light Mount
+]
+ChildParts=[
+	NcSTAR MPR45 Backup mount
+]
+ChildParts=[
+	HK MP7 flip-up front sight,
+	KAC Folding Micro front sight,
+	KAC Folding front sight,
+	KRISS Defiance low profile flip-up front sight,
+	Magpul MBUS Gen2 flip-up front sight,
+	Magpul MBUS Gen2 flip-up front sight (FDE),
+	MCX flip-up front sight,
+	MPX flip-up front sight,
+	AR-15 Leapers UTG Low Profile A2 front sight
+]
+Conflict=[
+	AR-10 JP Enterprises Gas System-6,
+	M4A1 front sight with gas block,
+	AR-15 Windham Weaponry Rail Gas Block,
+	M203 40mm underbarrel grenade launcher,
+]
+Recoil=0.000000
+Ergonomics=6.000000
+Information_Eng=A 9 inch handguard for AR-15 systems equipped with an M-LOK interface for installation of additional devices and accessories. Manufactured by Soyuz-TM Arms.
+basePrice=10500
+width=2
+height=1
+avg24hPrice=22600
+low24hPrice=11111
+lastOfferCount=15
+Sell_Prapor=5250
+Sell_Fence=4200
+Sell_Skier=5145
+Sell_Peacekeeper=41
+Sell_Mechanic=5880
+Sell_Flea Market=14444
+weight=0.155000
+fleaMarketFee=1324

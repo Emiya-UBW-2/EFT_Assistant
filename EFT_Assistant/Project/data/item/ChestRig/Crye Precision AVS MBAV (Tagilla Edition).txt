@@ -1,6 +1,8 @@
 Name=Crye Precision AVS MBAV (Tagilla Edition)
 ShortName=AVS MBAV
 Itemtype=Chest rig
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=Tagilla's well-worn plate carrier based on the AVS module system by Crye Precision. It has one front panel with three attached pouches. And that's pretty much it. Nothing more, nothing less.
 basePrice=215000
 width=3

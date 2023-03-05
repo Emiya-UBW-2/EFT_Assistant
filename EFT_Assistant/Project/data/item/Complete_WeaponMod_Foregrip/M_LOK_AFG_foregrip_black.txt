@@ -1,4 +1,0 @@
-Name=Magpul M-LOK AFG tactical foregrip (Black)
-Itemtype=Foregrip
-Recoil=-2
-Ergonomics=+7

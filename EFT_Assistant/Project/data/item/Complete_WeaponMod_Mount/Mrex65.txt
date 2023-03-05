@@ -1,4 +1,0 @@
-Name=FN SCAR Kinetic MREX 6.5 M-LOK rail
-Itemtype=Mount
-Recoil=-1
-Ergonomics=3

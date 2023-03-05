@@ -1,0 +1,3 @@
+Name=Repair Kits
+ShortName=RepairKits
+Category=Loot

@@ -1,0 +1,3 @@
+Name=Cylinder Magazine
+ShortName=CylinderMagazine
+Category=WeaponMods

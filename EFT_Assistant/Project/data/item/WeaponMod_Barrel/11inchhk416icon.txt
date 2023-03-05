@@ -1,0 +1,55 @@
+Name=HK 416A5 5.56x45 11 inch barrel
+ShortName=416A5 11"
+Itemtype=Barrel
+ChildParts=[
+	AR-15 Griffin Armament Gate-LOK Hammer 5.56x45 flash hider,
+	AR-15 SureFire SF4P FH556RC 5.56x45 flash hider,
+	Yankee Hill Annihilator multi-caliber flash hider,
+	AR-15 AAC Blackout 51T 5.56x45 flash hider,
+	AR-15 ADAR 2-15 5.56x45 flash hider,
+	AR-15 Bulletec ST-6012 5.56x45 muzzle brake,
+	AR-15 Colt USGI A2 5.56x45 flash hider,
+	AR-15 Daniel Defense WAVE 5.56x45 muzzle brake,
+	Desert Tech 5.56x45 flash hider,
+	AR-15 KAC QDC 5.56x45 Flash Suppressor Kit,
+	AR-15 Nordic Components Corvette 5.56x45 compensator,
+	AR-15 Noveske KX3 5.56x45 flash hider,
+	AR-15 PWS CQB 5.56x45 muzzle brake,
+	AR-15 SureFire SF3P 5.56x45 Flash hider,
+	AR-15 SureFire WarComp 5.56x45 flash hider,
+	AR-15 Thunder Beast Arms 223CB 5.56x45 muzzle brake,
+	AR-15 TROY Claymore 5.56x45 muzzle brake,
+	AR-15 Vendetta Precision VP-09 Interceptor 5.56x45 muzzle brake,
+	Gemtech ONE Direct Thread Mount adapter,
+	SilencerCo Hybrid 46 Direct Thread Mount adapter,
+	Rotor 43 5.56x45 muzzle brake-compensator,
+	AR-15 Ferfrans CQB 5.56x45 muzzle brake
+]
+ChildParts=[
+	HK 416A5 low profile gas block
+]
+Conflict=[
+	HK 416A5 MRS KeyMod 14 inch handguard,
+	HK 416A5 Quad Rail Extended handguard,
+	HK 416A5 Midwest Industries 13.5 inch M-LOK handguard,
+	HK 416A5 Strike Industries CRUX 15 inch M-LOK handguard,
+	HK 416A5 TROY M-LOK 13 inch handguard,
+]
+Recoil=-2.000000
+Ergonomics=-8.000000
+Information_Eng=A barrel for 416 based weapons for 5.56x45 NATO ammo, 11 inches (279mm) long.
+basePrice=24130
+width=2
+height=1
+avg24hPrice=93676
+low24hPrice=45900
+lastOfferCount=5
+Sell_Prapor=12065
+Sell_Fence=9652
+Sell_Skier=11823
+Sell_Peacekeeper=94
+Sell_Mechanic=13512
+Sell_Jaeger=14478
+Sell_Flea Market=45900
+weight=0.615000
+fleaMarketFee=4480

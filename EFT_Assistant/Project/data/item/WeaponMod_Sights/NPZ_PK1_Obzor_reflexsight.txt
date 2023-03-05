@@ -1,0 +1,24 @@
+Name=NPZ PK1 "Obzor" reflex sight
+ShortName="Obzor"
+Itemtype=Reflex sight
+SightRange=0
+Conflict=[
+	AK CNC Guns OV GP handguard,
+]
+Recoil=0.000000
+Ergonomics=-3.000000
+Information_Eng=A reflex sight designed for hunters for fast acquisition of the target while operating in highly cold temperatures, installed on dovetail rails. Manufactured by NPZ.
+basePrice=7000
+width=1
+height=1
+avg24hPrice=7069
+low24hPrice=4998
+lastOfferCount=7
+Sell_Prapor=3500
+Sell_Fence=2800
+Sell_Skier=3430
+Sell_Peacekeeper=27
+Sell_Mechanic=3920
+Sell_Flea Market=6000
+weight=0.520000
+fleaMarketFee=592

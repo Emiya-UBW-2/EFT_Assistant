@@ -1,6 +1,6 @@
 Name=Soyuz-TM STM-9 Gen.2 9x19 carbine
 ShortName=STM-9
-Itemtype=Submachine gun
+Itemtype=SMG
 ChildParts=[
 	AR-15 ADAR 2-15 wooden stock,
 	AR-15 Hera Arms CQR pistol grip/buttstock,
@@ -32,7 +32,9 @@ ChildParts=[
 	Glock 9x19 Magpul PMAG GL9 21-round magazine,
 	Glock 9x19 SGM Tactical 50-round drum magazine
 ]
-ChildParts=[STM-9 9x19 upper receiver]
+ChildParts=[
+	STM-9 9x19 upper receiver
+]
 ChildParts=[
 	AR-15 Colt A2 buffer tube,
 	AR-15 ADAR 2-15 buffer tube,
@@ -64,5 +66,20 @@ ChildParts=[
 	STM-9 magwell,
 	STM-9 magwell (Grey)
 ]
-Recoil=52
-Ergonomics=50
+Recoil=52.000000
+Ergonomics=50.000000
+Information_Eng=A PCC carbine with excellent performance already "out of the box", manufactured by Soyuz-TM Arms. Designed with the participation of world bronze medalist in Semi-Auto Rifle Vadim Mikhailov. Accuracy, speed, comfort of recoil. Compatible with Glock 9x19 magazines.
+basePrice=12500
+width=1
+height=1
+avg24hPrice=30733
+low24hPrice=24999
+lastOfferCount=24
+Sell_Prapor=6250
+Sell_Fence=5000
+Sell_Skier=6125
+Sell_Peacekeeper=49
+Sell_Mechanic=7000
+Sell_Flea Market=28000
+weight=0.350000
+fleaMarketFee=2895

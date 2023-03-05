@@ -1,4 +1,0 @@
-Name=Zenit RK-5 tactical foregrip
-Itemtype=Foregrip
-Recoil=-2
-Ergonomics=+5

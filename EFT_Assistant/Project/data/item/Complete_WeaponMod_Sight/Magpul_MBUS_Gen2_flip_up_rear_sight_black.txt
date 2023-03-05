@@ -1,6 +1,0 @@
-Name=Magpul MBUS Gen2 flip-up rear sight
-Itemtype=Iron sight
-Recoil=0
-Ergonomics=+1
-SightRange=300
-

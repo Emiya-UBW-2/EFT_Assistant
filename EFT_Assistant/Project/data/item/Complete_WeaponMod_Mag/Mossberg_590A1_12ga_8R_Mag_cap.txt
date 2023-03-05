@@ -1,5 +1,0 @@
-Name=Mossberg 590A1 12ga 8-shell magazine cap
-Itemtype=Magazine
-Recoil=0
-Ergonomics=-2
-

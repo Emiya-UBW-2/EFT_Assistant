@@ -1,4 +1,0 @@
-Name=Magpul RVG foregrip (Black)
-Itemtype=Foregrip
-Recoil=-2
-Ergonomics=+7

@@ -1,4 +1,0 @@
-Name=Lobaev Arms stock
-Itemtype=Stock
-Recoil=-35
-Ergonomics=+12

@@ -1,6 +1,6 @@
 Name=ADAR 2-15 5.56x45 carbine
-ShortName=ADAR
-Itemtype=Assault carbine
+ShortName=ADAR 2-15
+Itemtype=Assault rifle
 ChildParts=[
 	AR-15 ADAR 2-15 buffer tube,
 	AR-15 Colt A2 buffer tube,
@@ -84,5 +84,20 @@ ChildParts=[
 	AR-15 Noveske Gen.3 5.56x45 upper receiver,
 	AR-15 Vltor MUR-1S 5.56x45 upper receiver
 ]
-Recoil=141
-Ergonomics=48
+Recoil=141.000000
+Ergonomics=48.000000
+Information_Eng=The ADAR 2-15 Russian civilian carbine that is based on the design of the AR-15. The carbine is produced in St. Petersburg with use of Israeli components and chrome barrels made by Molot Arms.
+basePrice=6300
+width=1
+height=1
+avg24hPrice=46087
+low24hPrice=24242
+lastOfferCount=7
+Sell_Prapor=3150
+Sell_Fence=2520
+Sell_Skier=3087
+Sell_Peacekeeper=25
+Sell_Mechanic=3528
+Sell_Flea Market=44000
+weight=0.400000
+fleaMarketFee=8443

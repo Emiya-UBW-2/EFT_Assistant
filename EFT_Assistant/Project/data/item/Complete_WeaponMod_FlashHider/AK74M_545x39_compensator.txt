@@ -1,4 +1,0 @@
-Name=AK-74M 5.45x39 muzzle brake-compensator (6P20 0-20)
-Itemtype=Flash hider/muzzle brake
-Recoil=-10
-Ergonomics=-2

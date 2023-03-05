@@ -1,4 +1,0 @@
-Name=AK-103 7.62x39 muzzle brake-compensator
-Itemtype=Flash hider/muzzle brake
-Recoil=-10
-Ergonomics=-2

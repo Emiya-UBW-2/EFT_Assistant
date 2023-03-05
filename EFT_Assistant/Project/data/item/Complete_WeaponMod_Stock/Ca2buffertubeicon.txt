@@ -1,6 +1,0 @@
-Name=AR-15 Colt A2 buffer tube
-Itemtype=Stock
-ChildParts=[Magpul PRS GEN2 stock (FDE),Magpul PRS GEN3 stock (Black),Magpul PRS GEN3 stock (Grey)]
-ChildPos=[30,0]
-Recoil=-2
-Ergonomics=0

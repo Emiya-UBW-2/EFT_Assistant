@@ -1,4 +1,0 @@
-Name=AKM 7.62x39 muzzle brake-compensator (6P1 0-14)
-Itemtype=Flash hider/muzzle brake
-Recoil=-7
-Ergonomics=0

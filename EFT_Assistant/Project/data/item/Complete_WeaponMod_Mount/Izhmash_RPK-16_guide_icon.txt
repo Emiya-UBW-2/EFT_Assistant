@@ -1,4 +1,0 @@
-Name=RPK-16 handguard rail
-Itemtype=Mount
-Recoil=0
-Ergonomics=0

@@ -1,0 +1,41 @@
+Name=RPK-16 buffer tube
+ShortName=RPK-16 tube
+Itemtype=Stock
+ChildParts=[
+	FAB Defense GL-CORE buttstock,
+	FAB Defense GL-SHOCK buttstock,
+	FAB Defense GLR-16-S stock,
+	High Standard M4SS Stock,
+	AR-15 HK E1 buttstock,
+	AR-15 HK Slim Line buttstock,
+	AK-12 stock,
+	LMT SOPMOD stock,
+	Magpul CTR Carbine stock (Black),
+	Magpul CTR Carbine stock (FDE),
+	Magpul MOE Carbine stock (Black),
+	Magpul MOE Carbine stock (FDE),
+	Magpul MOE Carbine stock (Foliage Green),
+	Magpul MOE Carbine stock (Olive Drab),
+	Magpul MOE Carbine stock (Stealth Gray),
+	MFT BUS stock,
+	Strike Industries Viper Mod 1 stock,
+	Vltor EMOD stock
+]
+Recoil=-4.000000
+Ergonomics=0.000000
+Information_Eng=A standard buffer tube for RPK-16 LMG, manufactured by Izhmash.
+basePrice=2900
+width=2
+height=1
+avg24hPrice=30566
+low24hPrice=18000
+lastOfferCount=10
+Sell_Prapor=1450
+Sell_Fence=1160
+Sell_Skier=1421
+Sell_Peacekeeper=11
+Sell_Mechanic=1624
+Sell_Jaeger=1740
+Sell_Flea Market=40000
+weight=0.142000
+fleaMarketFee=11867

@@ -1,4 +1,0 @@
-Name=KS-23 23x75 700mm barrel
-Itemtype=Stock
-Recoil=-8
-Ergonomics=-10

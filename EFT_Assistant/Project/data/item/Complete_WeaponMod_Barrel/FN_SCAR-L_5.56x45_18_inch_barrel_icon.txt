@@ -1,4 +1,0 @@
-Name=FN SCAR-L 5.56x45 18 inch barrel
-Itemtype=Stock
-Recoil=-6
-Ergonomics=-19

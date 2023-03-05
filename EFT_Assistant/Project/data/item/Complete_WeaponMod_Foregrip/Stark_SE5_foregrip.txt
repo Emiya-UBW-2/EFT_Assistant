@@ -1,4 +1,0 @@
-Name=Stark SE-5 Express Forward foregrip
-Itemtype=Foregrip
-Recoil=-2
-Ergonomics=+8

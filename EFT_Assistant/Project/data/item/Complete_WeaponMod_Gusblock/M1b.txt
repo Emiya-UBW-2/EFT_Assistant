@@ -1,7 +1,6 @@
 Name=AK UltiMAK M1-B gas tube & handguard
+ShortName=M1-B
 Itemtype=Gas block
-Recoil=-1
-Ergonomics=+6
 ChildParts=[
 	Holosun LS321 Tactical device,
 	AN/PEQ-15 tactical device,
@@ -33,3 +32,23 @@ ChildParts=[
 	Trijicon RMR high profile mount,
 	Trijicon RMR low profile mount
 ]
+Conflict=[
+	AK Zenit B-33 dust cover,
+]
+Recoil=-1.000000
+Ergonomics=6.000000
+Information_Eng=The UltiMAK M1-B gas tube for AK assault rifles sets the gas piston movement direction and, at the same time, serves as a mount for installing reflex sights and tactical devices.
+basePrice=2241
+width=1
+height=1
+avg24hPrice=10566
+low24hPrice=6000
+lastOfferCount=2
+Sell_Prapor=1120
+Sell_Fence=896
+Sell_Skier=1098
+Sell_Peacekeeper=9
+Sell_Mechanic=1254
+Sell_Flea Market=19000
+weight=0.120000
+fleaMarketFee=4119

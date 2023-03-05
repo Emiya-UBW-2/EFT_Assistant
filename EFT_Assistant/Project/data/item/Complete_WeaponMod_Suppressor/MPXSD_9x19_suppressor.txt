@@ -1,4 +1,0 @@
-Name=MPX-SD 9x19 integrated sound suppressor
-Itemtype=Suppressor
-Recoil=-15
-Ergonomics=-5

@@ -1,6 +1,8 @@
 Name=Armband (White)
 ShortName=Armband
 Itemtype=Arm Band
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=A white identification armband.
 basePrice=729
 width=1

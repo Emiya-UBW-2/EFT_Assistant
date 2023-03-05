@@ -1,4 +1,0 @@
-Name=AR-10 SureFire Warden 7.62x51 blast regulator
-Itemtype=Flash hider/muzzle brake
-Recoil=-8
-Ergonomics=-2

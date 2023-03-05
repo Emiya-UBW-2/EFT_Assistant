@@ -1,8 +1,30 @@
 Name=PP-9 "Klin" 9x18PMM submachine gun
-ShortName=PP-9 Klin
-Itemtype=Submachine gun
-ChildParts=[PP-91 "Kedr" polymer pistol grip]
-ChildParts=[PP-91 "Kedr" 9x18PM 20-round magazine,PP-91 "Kedr" 9x18PM 30-round magazine]
-ChildParts=[PP-91 "Kedr" Rotor 43 RIS mount]
-Recoil=58
-Ergonomics=65
+ShortName=PP-9 "Klin"
+Itemtype=SMG
+ChildParts=[
+	PP-91 "Kedr" polymer pistol grip
+]
+ChildParts=[
+	PP-91 "Kedr" 9x18PM 20-round magazine,
+	PP-91 "Kedr" 9x18PM 30-round magazine
+]
+ChildParts=[
+	PP-91 "Kedr" Rotor 43 RIS mount
+]
+Recoil=58.000000
+Ergonomics=65.000000
+Information_Eng=The PP-9 Klin is a further evolution of the Kedr submachine gun. It has a higher rate of fire and its chamber is designed to use the 9x18 PMM cartridge. It was produced from 1996 to 2002 by order of the Ministry of Internal Affairs.
+basePrice=24460
+width=3
+height=1
+avg24hPrice=17008
+low24hPrice=13333
+lastOfferCount=26
+Sell_Prapor=12230
+Sell_Fence=9784
+Sell_Skier=11985
+Sell_Peacekeeper=96
+Sell_Mechanic=13697
+Sell_Flea Market=15554
+weight=1.330000
+fleaMarketFee=1798

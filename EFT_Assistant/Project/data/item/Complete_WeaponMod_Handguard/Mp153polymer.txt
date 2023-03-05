@@ -1,4 +1,0 @@
-Name=MP-153 polymer forestock
-Itemtype=Handguard
-Recoil=0
-Ergonomics=+5

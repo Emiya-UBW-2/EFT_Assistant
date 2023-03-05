@@ -1,0 +1,40 @@
+Name=AKM/AK-74 ME4 buffer tube adapter
+ShortName=ME4
+Itemtype=Stock
+ChildParts=[
+	Armacon Baskak stock,
+	AR-15 Colt A2 buffer tube,
+	AR-15 ADAR 2-15 buffer tube,
+	Colt Carbine buffer tube,
+	AR-15 DoubleStar ACE SOCOM Gen.4 stock,
+	ERGO F93 PRO stock,
+	HK Enhanced Tube buffer tube,
+	Magpul UBR GEN2 stock (Black),
+	Magpul UBR GEN2 stock (FDE),
+	Mesa Tactical Crosshair Hydraulic buffer tube,
+	Soyuz-TM buffer tube,
+	Strike Industries Advanced Receiver Extension buffer tube,
+	Strike Industries Advanced Receiver Extension buffer tube (Anodized Red),
+	TROY M7A1 PDW stock (Black),
+	TROY M7A1 PDW stock (FDE),
+	Strike Industries Viper PDW stock,
+	AR-15 RTM ATP buffer tube
+]
+Recoil=-2.000000
+Ergonomics=-1.000000
+Information_Eng=An adapter for the installation of telescopic stock buffer tubes on AKs with non-folding stocks.
+basePrice=5053
+width=1
+height=1
+avg24hPrice=13159
+low24hPrice=7777
+lastOfferCount=6
+Sell_Prapor=2526
+Sell_Fence=2021
+Sell_Skier=2475
+Sell_Peacekeeper=20
+Sell_Mechanic=2829
+Sell_Jaeger=3031
+Sell_Flea Market=11111
+weight=0.310000
+fleaMarketFee=1140

@@ -1,4 +1,0 @@
-Name=HK G36 STANAG magwell
-Itemtype=Mount
-Recoil=0
-Ergonomics=-1

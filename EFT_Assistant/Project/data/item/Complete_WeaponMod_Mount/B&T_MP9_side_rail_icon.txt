@@ -1,4 +1,0 @@
-Name=MP9 side rail
-Itemtype=Mount
-Recoil=0
-Ergonomics=0

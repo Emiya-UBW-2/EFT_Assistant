@@ -1,4 +1,0 @@
-Name=AR-15 HK Battle Grip pistol grip
-Itemtype=Pistol grip
-Recoil=0
-Ergonomics=+6

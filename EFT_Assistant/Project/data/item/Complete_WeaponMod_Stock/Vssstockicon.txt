@@ -1,4 +1,0 @@
-Name=VSS wooden stock
-Itemtype=Stock
-Recoil=-33
-Ergonomics=+15

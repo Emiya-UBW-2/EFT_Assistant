@@ -1,4 +1,0 @@
-Name=AI AXMC upper receiver
-Itemtype=Receiver
-Recoil=-2
-Ergonomics=+3

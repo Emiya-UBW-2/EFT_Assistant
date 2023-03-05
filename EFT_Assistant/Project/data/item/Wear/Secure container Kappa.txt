@@ -1,0 +1,14 @@
+Name=Secure container Kappa
+ShortName=Kappa
+Itemtype=Port. container
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=A secret TerraGroup invention - the Kappa secured container.
+basePrice=4900000
+width=3
+height=3
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+weight=2.000000
+fleaMarketFee=0

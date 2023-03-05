@@ -1,4 +1,0 @@
-Name=VPO-102 Arbalet mount
-Itemtype=Mount
-Recoil=0
-Ergonomics=-2

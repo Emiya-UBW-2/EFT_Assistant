@@ -1,5 +1,0 @@
-Name=M700 7.62x51 ProMag AA-70 20-round magazine
-Itemtype=Magazine
-Recoil=0
-Ergonomics=-7
-

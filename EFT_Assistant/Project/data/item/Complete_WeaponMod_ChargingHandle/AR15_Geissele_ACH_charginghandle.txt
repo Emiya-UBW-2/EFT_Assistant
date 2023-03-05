@@ -1,5 +1,0 @@
-Name=AR-15 Geissele ACH charging handle
-Itemtype=Charging handle
-Recoil=0
-Ergonomics=2
-

@@ -1,4 +1,0 @@
-Name=MDR 5.56x45 16 inch barrel
-Itemtype=Stock
-Recoil=-9
-Ergonomics=-6

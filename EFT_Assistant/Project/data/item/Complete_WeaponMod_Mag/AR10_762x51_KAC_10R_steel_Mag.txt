@@ -1,5 +1,0 @@
-Name=AR-10 7.62x51 KAC 10-round steel magazine
-Itemtype=Magazine
-Recoil=0
-Ergonomics=2
-

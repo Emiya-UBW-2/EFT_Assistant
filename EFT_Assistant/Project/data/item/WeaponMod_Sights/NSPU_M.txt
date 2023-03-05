@@ -1,0 +1,36 @@
+Name=NSPU-M night vision scope
+ShortName=NSPU-M
+Itemtype=Special scope
+SightRange=300
+Conflict=[
+	AKS-74U CAA XRSU47SU tactical handguard,
+	AK CNC Guns OV GP handguard,
+	SVD SAG MK1 chassis,
+	AK TDI X47 tactical handguard rail system,
+	SAG Bit low profile dovetail sidemount,
+	SVD modernization kit top rail,
+	AK AKademia Bastion dust cover,
+	AK Zenit B-33 dust cover,
+	AK FAB Defense PDC dust cover,
+	PP-19-01 "Vityaz-SN" dust cover,
+	AK TWS Dog Leg Rail dust cover,
+	AK Taktika Tula TT01 rear sight rail,
+]
+Recoil=-5.000000
+Ergonomics=-20.000000
+Information_Eng=NSPU-M (Nochnoy Strelkovyy Pritsel Unifitsirovannyy Modernizirovannyy - "Night Rifle Scope Unified Modernized"), GRAU Index - 1PN58. An old soviet night vision scope for AK series rifles, designed to fit dovetail rails.
+basePrice=13732
+width=2
+height=1
+avg24hPrice=14920
+low24hPrice=10000
+lastOfferCount=9
+Sell_Prapor=6866
+Sell_Fence=5492
+Sell_Skier=6728
+Sell_Peacekeeper=54
+Sell_Mechanic=7689
+Sell_Jaeger=8239
+Sell_Flea Market=14968
+weight=1.900000
+fleaMarketFee=1391

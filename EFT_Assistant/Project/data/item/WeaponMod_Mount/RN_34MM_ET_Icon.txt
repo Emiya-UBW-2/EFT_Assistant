@@ -1,0 +1,36 @@
+Name=Recknagel Era-Tac 34mm ring scope mount
+ShortName=RN 34mm ET
+Itemtype=Mount
+ChildParts=[
+	Hensoldt FF 4-16x56 34mm riflescope,
+	Nightforce ATACR 7-35x56 34mm riflescope,
+	Schmidt & Bender PM II 3-12x50 34mm riflescope,
+	Schmidt & Bender PM II 5-25x56 34mm riflescope,
+	BelOMO PK-06 reflex sight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Aimpoint Micro Standard Mount,
+	Aimpoint Micro H-2 Standard Mount,
+	B&T QD NAR mount for Aimpoint ACRO,
+	Burris FastFire Weaver Base,
+	DeltaPoint Cross Slot Mount base,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Trijicon RMR low profile mount
+]
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=The Recknagel Era-Tac is a versatile base for mounting 34mm riflescopes. Equipped with additional top mounts for installation of various tactical equipment.
+basePrice=8100
+width=2
+height=1
+avg24hPrice=15264
+low24hPrice=8500
+lastOfferCount=16
+Sell_Prapor=4050
+Sell_Fence=3240
+Sell_Skier=3969
+Sell_Peacekeeper=32
+Sell_Mechanic=4536
+Sell_Jaeger=4860
+Sell_Flea Market=11000
+weight=0.250000
+fleaMarketFee=1008

@@ -1,0 +1,17 @@
+Name=FN40GL Mk2 40mm grenade launcher Default
+ShortName=FN40GL Default
+Itemtype=Grenade launcher
+Information_Eng=
+basePrice=111599
+width=3
+height=2
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Prapor=55799
+Sell_Fence=44639
+Sell_Skier=54683
+Sell_Peacekeeper=437
+Sell_Mechanic=62495
+weight=3.000000
+fleaMarketFee=0

@@ -69,25 +69,144 @@ namespace FPS_n2 {
 			m_BGPtr->Init(&this->m_posx, &this->m_posy, &this->m_Scale);
 
 			//データ取得(アップデートごとにオン)
-			/*
-			if (BarterDatasRequest(strResult)) {
-				auto data = nlohmann::json::parse(strResult);
-				ItemData::Instance()->GetJsonData(data);
-				ItemData::Instance()->SaveDatabyJson();
+			{
+				//tm local;
+				//strptime(PlayerData::Instance()->GetLastDataReceive().c_str(), "%Y %m/%d %H:%M", &local);
+			}
+			{
+				const char* Names[] = {
+					//"Weapon",
+					"AssaultCarbine",
+					"AssaultRifle",
+					"GrenadeLauncher",
+					"Handgun",
+					"Machinegun",
+					"MarksmanRifle",
+					"Revolver",
+					"SMG",
+					"Shotgun",
+					"SniperRifle",
 
-				// 現在日時を取得する
-				time_t t = time(NULL);
-				// 日時情報を格納する変数を用意する
-				struct tm local;
-				// ローカル日時を変数に格納する
-				localtime_s(&local, &t);
+					//"WeaponMod",
+					//"EssentialMod",
+					//"FunctionalMod",
+					//"GearMod",
+					//"AssaultScope",
+					//"CylinderMagazine",
+					//"Ironsight",
+					//"MuzzleDevice",
 
+					//"Item",
+					//"FoodAndDrink",
+					//"CompoundItem",
+					//"StackableItem",
+					//"SearchableItem",
+					//"RepairKits",
+					//"Money",
+					//"PortableRangeFinder",
+					//"RadioTransmitter",
+
+					"Ammo",
+					"AmmoContainer",
+					"ArmBand",
+					"Armor",
+					"ArmoredEquipment",
+					"AuxiliaryMod",
+					"Backpack",
+					"Barrel",
+					"BarterItem",
+					"Battery",
+					"Bipod",
+					"BuildingMaterial",
+					"ChargingHandle",
+					"ChestRig",
+					"CombMuzzleDevice",
+					"CombTactDevice",
+					"CommonContainer",
+					"CompactReflexSight",
+					"Compass",
+					"Drink",
+					"Drug",
+					"Electronics",
+					"Equipment",
+					"FaceCover",
+					"Flashhider",
+					"Flashlight",
+					"Food",
+					"Foregrip",
+					"Fuel",
+					"GasBlock",
+					"Handguard",
+					"Headphones",
+					"Headwear",
+					"HouseholdGoods",
+					"Info",
+					"Jewelry",
+					"Key",
+					"Keycard",
+					"Knife",
+					"LockingContainer",
+					"Lubricant",
+					"Magazine",
+					"Map",
+					"MechanicalKey",
+					"MedicalItem",
+					"MedicalSupplies",
+					"Medikit",
+					"Meds",
+					"Mount",
+					"NightVision",
+					"Other",
+					"PistolGrip",
+					"PortContainer",
+					"RandomLootContainer",
+					"Receiver",
+					"ReflexSight",
+					"Scope",
+					"Sights",
+					"Silencer",
+					"SpecialItem",
+					"SpecialScope",
+					"SpringDrivenCylinder",
+					"Stimulant",
+					"Stock",
+					"TermalVision",
+					"ThrowableWeapon",
+					"Tool",
+					"UBGL",
+					"VisObservDevice",
+				};
+
+				/*
+				for (int i = 0; i < sizeof(Names) / sizeof(Names[0]); i++) {
+					if (ItemDataRequest(Names[i], strResult)) {
+						ProcessMessage();
+						auto data = nlohmann::json::parse(strResult);
+						ItemData::Instance()->GetJsonData(data);
+						ItemData::Instance()->SaveDatabyJson(Names[i]);
+						if ((i % 5) == (5 - 1)) {
+							printfDx("Comp[%s/%s/%s/%s/%s]\n", Names[i - 4], Names[i - 3], Names[i - 2], Names[i - 1], Names[i]);
+						}
+						ScreenFlip();
+						DxLib::WaitTimer(100);
+					}
+					//空フォルダ削除
+					{
+						std::string Path = "data/item/Maked/";
+						Path += Names[i];
+						RemoveDirectory(Path.c_str());
+					}
+				}
+				ItemData::Instance()->CheckThroughJson();
+				//*/
+				time_t t = time(NULL);				// 現在日時を取得する
+				tm local;							// 日時情報を格納する変数を用意する
+				localtime_s(&local, &t);			// ローカル日時を変数に格納する
 				char buffer[256];
 				strftime(buffer, sizeof(buffer), "%Y %m/%d %H:%M", &local);
-
 				PlayerData::Instance()->SetLastDataReceive(buffer);
+				//*/
 			}
-			//*/
 		}
 
 		bool Update_Sub(void) noexcept override {
@@ -313,6 +432,7 @@ namespace FPS_n2 {
 			m_CustomBG.reset();
 
 			PlayerData::Instance()->Save();
+			DataErrorLog::Instance()->Save();
 		}
 	public:
 		void BG_Draw_Sub(void) noexcept override {}

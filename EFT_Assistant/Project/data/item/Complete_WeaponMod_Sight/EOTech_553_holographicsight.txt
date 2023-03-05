@@ -1,5 +1,0 @@
-Name=EOTech 553 holographic sight
-Itemtype=Reflex sight
-Recoil=0
-Ergonomics=-3
-SightRange=200

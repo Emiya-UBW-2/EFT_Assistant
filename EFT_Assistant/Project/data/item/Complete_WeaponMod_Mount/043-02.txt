@@ -1,4 +1,0 @@
-Name=VOMZ Pilad 043-02 dovetail mount
-Itemtype=Mount
-Recoil=0
-Ergonomics=-2

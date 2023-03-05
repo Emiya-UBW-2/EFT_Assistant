@@ -1,4 +1,0 @@
-Name=VPO-136 "Vepr-KM" wooden handguard
-Itemtype=Handguard
-Recoil=0
-Ergonomics=+4

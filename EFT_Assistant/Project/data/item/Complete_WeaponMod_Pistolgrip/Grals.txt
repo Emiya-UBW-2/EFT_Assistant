@@ -1,4 +1,0 @@
-Name=AR-15 Naroh Arms GRAL-S pistol grip
-Itemtype=Pistol grip
-Recoil=0
-Ergonomics=+15

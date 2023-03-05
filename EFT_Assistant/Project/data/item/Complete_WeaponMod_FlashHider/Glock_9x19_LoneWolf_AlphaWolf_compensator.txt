@@ -1,4 +1,0 @@
-Name=Glock 9x19 Lone Wolf AlphaWolf Bullnose compensator
-Itemtype=Flash hider/muzzle brake
-Recoil=-7
-Ergonomics=-1

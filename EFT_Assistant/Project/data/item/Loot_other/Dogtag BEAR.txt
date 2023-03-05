@@ -1,6 +1,8 @@
 Name=Dogtag BEAR
 ShortName=BEAR
 Itemtype=Other
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=Army dogtags serve the purpose of quickly identifying the wounded and deceased in combat. This one belonged to a BEAR PMC operator.
 basePrice=600
 width=1

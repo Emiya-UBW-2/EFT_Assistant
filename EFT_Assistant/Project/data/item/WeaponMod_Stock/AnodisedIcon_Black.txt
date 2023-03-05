@@ -1,0 +1,47 @@
+Name=Strike Industries Advanced Receiver Extension buffer tube
+ShortName=ARE
+Itemtype=Stock
+ChildParts=[
+	AR-15 B5 Systems Precision stock,
+	CMMG RipStock buttstock,
+	FAB Defense GL-SHOCK buttstock,
+	FAB Defense GLR-16-S stock,
+	High Standard M4SS Stock,
+	AR-15 HK E1 buttstock,
+	AR-15 HK Slim Line buttstock,
+	AK-12 stock,
+	LMT SOPMOD stock,
+	Magpul CTR Carbine stock (Black),
+	Magpul CTR Carbine stock (FDE),
+	Magpul MOE Carbine stock (Black),
+	Magpul MOE Carbine stock (FDE),
+	Magpul MOE Carbine stock (Foliage Green),
+	Magpul MOE Carbine stock (Olive Drab),
+	Magpul MOE Carbine stock (Stealth Gray),
+	Magpul PRS GEN3 stock (Black),
+	Magpul PRS GEN3 stock (Grey),
+	MFT BUS stock,
+	Strike Industries Viper Mod 1 stock,
+	Vltor EMOD stock,
+	FAB Defense GL-CORE buttstock,
+	KRISS Defiance DS150 stock (FDE),
+	KRISS Defiance DS150 stock (Black)
+]
+Recoil=-4.000000
+Ergonomics=2.000000
+Information_Eng=The Advanced Receiver Extension buffer tube, Mil-Spec diameter will fit any AR-15-based carbine or rifle. The buffer tube has a distinctive scalloping that decreases friction with the stock and reduces weight while retaining strength in areas that get the most stress. Manufactured by Strike Industries.
+basePrice=8700
+width=2
+height=1
+avg24hPrice=105886
+low24hPrice=49000
+lastOfferCount=0
+Sell_Prapor=4350
+Sell_Fence=3480
+Sell_Skier=4263
+Sell_Peacekeeper=34
+Sell_Mechanic=4872
+Sell_Jaeger=5220
+Sell_Flea Market=99999
+weight=0.110000
+fleaMarketFee=26350

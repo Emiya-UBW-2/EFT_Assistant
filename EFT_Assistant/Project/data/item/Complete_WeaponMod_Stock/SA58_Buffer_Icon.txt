@@ -1,4 +1,0 @@
-Name=SA-58 buffer tube adapter
-Itemtype=Stock
-Recoil=0
-Ergonomics=-1

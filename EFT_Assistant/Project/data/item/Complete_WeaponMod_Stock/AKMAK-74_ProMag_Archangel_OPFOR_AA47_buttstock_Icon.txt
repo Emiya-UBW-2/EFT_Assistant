@@ -1,4 +1,0 @@
-Name=AKM/AK-74 ProMag Archangel OPFOR AA47 buttstock
-Itemtype=Stock
-Recoil=-39
-Ergonomics=+17

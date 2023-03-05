@@ -1,4 +1,0 @@
-Name=SA-58 3-Prong Trident 7.62x51 flash hider
-Itemtype=Flash hider/muzzle brake
-Recoil=-7
-Ergonomics=-1

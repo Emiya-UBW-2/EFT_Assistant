@@ -1,4 +1,0 @@
-Name=Custom Guns handguard rail
-Itemtype=Mount
-Recoil=0
-Ergonomics=0

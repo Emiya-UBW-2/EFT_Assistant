@@ -1,5 +1,0 @@
-Name=AK-74 "Saiga 545" 5.45x39 10-round magazine
-Itemtype=Magazine
-Recoil=0
-Ergonomics=5
-

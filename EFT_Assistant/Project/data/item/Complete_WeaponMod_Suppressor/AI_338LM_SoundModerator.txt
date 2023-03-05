@@ -1,4 +1,0 @@
-Name=AI .338 LM Tactical Sound Moderator
-Itemtype=Suppressor
-Recoil=-15
-Ergonomics=-30

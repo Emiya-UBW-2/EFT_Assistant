@@ -1,5 +1,0 @@
-Name=AR-10 KAC QDC 7.62x51 Flash Suppressor Kit
-Itemtype=Flash hider/muzzle brake
-Recoil=-8
-Ergonomics=-1
-ChildParts=[KAC PRS/QDC 7.62x51 sound suppressor]

@@ -1,5 +1,0 @@
-Name=EOTech EXPS3 holographic sight (Tan)
-Itemtype=Reflex sight
-Recoil=0
-Ergonomics=-2
-SightRange=200

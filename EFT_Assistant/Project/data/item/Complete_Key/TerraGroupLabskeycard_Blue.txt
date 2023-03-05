@@ -1,6 +1,8 @@
 Name=TerraGroup Labs keycard (Blue)
 ShortName=Blue
 Itemtype=Keycard
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=A United Security-issued TerraGroup Labs keycard for service personnel in the Blue sector.
 basePrice=300000
 width=1

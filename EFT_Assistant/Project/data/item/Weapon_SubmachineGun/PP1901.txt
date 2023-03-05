@@ -1,7 +1,9 @@
 Name=PP-19-01 "Vityaz" 9x19 submachine gun
-ShortName=PP-19-01 Vityaz
-Itemtype=Submachine gun
-ChildParts=[PP-19-01 "Vityaz" gas tube]
+ShortName=PP-19-01
+Itemtype=SMG
+ChildParts=[
+	PP-19-01 "Vityaz" gas tube
+]
 ChildParts=[
 	SilencerCo Hybrid 46 Direct Thread Mount adapter,
 	PP-19-01 "Vityaz" 9x19 muzzle brake-compensator,
@@ -34,7 +36,9 @@ ChildParts=[
 	PP-19-01 "Vityaz-SN" dust cover,
 	PP-19-01 "Vityaz" dust cover
 ]
-ChildParts=[PP-19-01 "Vityaz" rear sight]
+ChildParts=[
+	PP-19-01 "Vityaz" rear sight
+]
 ChildParts=[
 	AK-74M/AK-100 Zenit PT Lock,
 	PP-19-01 "Vityaz" metal skeleton stock,
@@ -67,5 +71,26 @@ ChildParts=[
 	AK CSS knurled charging handle,
 	AK Zenit RP-1 charging handle
 ]
-Recoil=68
-Ergonomics=35
+Conflict=[
+	AK Strike Industries TRAX 2 handguard extension,
+	AK Magpul Zhukov-U handguard (Black),
+	AK Magpul Zhukov-U handguard (FDE),
+	AK Magpul Zhukov-U handguard (Plum),
+]
+Recoil=68.000000
+Ergonomics=35.000000
+Information_Eng=The PP-19-01, also known as "Vityaz", is a Russian submachine gun chambered in 9x19 developed in 2004 by Izhmash based on the AK platform. A standard-issue submachine gun in many law enforcement agencies and military units of the Russian Federation.
+basePrice=14751
+width=2
+height=1
+avg24hPrice=20333
+low24hPrice=15000
+lastOfferCount=26
+Sell_Prapor=7375
+Sell_Fence=5900
+Sell_Skier=7227
+Sell_Peacekeeper=58
+Sell_Mechanic=8260
+Sell_Flea Market=16666
+weight=1.809000
+fleaMarketFee=1539

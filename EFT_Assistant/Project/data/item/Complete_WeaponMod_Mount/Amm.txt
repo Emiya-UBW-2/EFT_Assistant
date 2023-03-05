@@ -1,4 +1,0 @@
-Name=Aimpoint Micro Standard Mount
-Itemtype=Mount
-Recoil=0
-Ergonomics=0

@@ -1,6 +1,0 @@
-Name=M45A1 Novak Lomount rear sight
-Itemtype=Iron sight
-Recoil=0
-Ergonomics=0
-SightRange=200
-

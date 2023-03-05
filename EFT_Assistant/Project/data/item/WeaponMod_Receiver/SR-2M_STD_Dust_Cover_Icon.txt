@@ -1,0 +1,24 @@
+Name=SR-2M dust cover
+ShortName=SR-2M
+Itemtype=Receiver
+Conflict=[
+	SR-2M Zenit B-17 mount,
+	SR-2M KP-SR2 reflex sight,
+]
+Recoil=0.000000
+Ergonomics=5.000000
+Information_Eng=A standard-issue dust cover for SR-2M "Veresk" submachine gun, manufactured by TsNIItochmash.
+basePrice=1220
+width=2
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
+Sell_Prapor=610
+Sell_Fence=488
+Sell_Skier=597
+Sell_Peacekeeper=5
+Sell_Mechanic=683
+Sell_Flea Market=15000
+weight=0.168000
+fleaMarketFee=4129

@@ -1,4 +1,0 @@
-Name=Axion Kobra dovetail mount
-Itemtype=Mount
-Recoil=0
-Ergonomics=-1

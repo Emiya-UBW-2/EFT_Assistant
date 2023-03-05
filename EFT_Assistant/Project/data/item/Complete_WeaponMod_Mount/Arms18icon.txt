@@ -1,4 +1,0 @@
-Name=M14 A.R.M.S. 18 scope mount
-Itemtype=Mount
-Recoil=0
-Ergonomics=-1

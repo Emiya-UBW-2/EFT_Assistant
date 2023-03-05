@@ -1,4 +1,0 @@
-Name=RPK-16 5.45x39 muzzle brake-compensator
-Itemtype=Flash hider/muzzle brake
-Recoil=-8
-Ergonomics=-1

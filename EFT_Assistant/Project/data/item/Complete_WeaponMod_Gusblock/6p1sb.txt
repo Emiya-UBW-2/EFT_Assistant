@@ -1,7 +1,6 @@
 Name=AKM gas tube (6P1 Sb.1-2)
+ShortName=6P1 Sb.1-2
 Itemtype=Gas block
-Recoil=0
-Ergonomics=0
 ChildParts=[
 	AK Zenit B-30 handguard with B-31S upper handguard rail,
 	AK 5.45 Design Aggressor handguard,
@@ -34,3 +33,20 @@ ChildParts=[
 	AK TDI X47 tactical handguard rail system,
 	AK CNC Guns OV GP handguard
 ]
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=A standard gas tube for AKM automatic rifles. Gas tubes channel the travel direction of gas piston.
+basePrice=2055
+width=1
+height=1
+avg24hPrice=21051
+low24hPrice=15995
+lastOfferCount=7
+Sell_Prapor=1027
+Sell_Fence=822
+Sell_Skier=1006
+Sell_Peacekeeper=8
+Sell_Mechanic=1150
+Sell_Flea Market=15995
+weight=0.120000
+fleaMarketFee=3285

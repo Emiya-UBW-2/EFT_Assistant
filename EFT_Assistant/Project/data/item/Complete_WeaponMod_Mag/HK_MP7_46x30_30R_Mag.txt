@@ -1,5 +1,0 @@
-Name=HK MP7 4.6x30 30-round magazine
-Itemtype=Magazine
-Recoil=0
-Ergonomics=-1
-

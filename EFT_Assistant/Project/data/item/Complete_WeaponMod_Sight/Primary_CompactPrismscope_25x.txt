@@ -1,5 +1,0 @@
-Name=Primary Arms Compact Prism scope 2.5x
-Itemtype=Assault scope
-Recoil=0
-Ergonomics=-3
-SightRange=800

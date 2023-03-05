@@ -69,6 +69,23 @@ ChildParts=[
 	AR-15 Radian Weapons Raptor charging handle (Grey),
 	AR-15 Rainier Arms Avalanche MOD2 charging handle
 ]
-ChildParts=[HK 416A5 5.56x45 upper receiver]
-Recoil=147
-Ergonomics=51
+ChildParts=[
+	HK 416A5 5.56x45 upper receiver
+]
+Recoil=147.000000
+Ergonomics=51.000000
+Information_Eng=The HK416 A5 is a further development of the HK416 assault rifle in 5.56x45mm NATO caliber. The most striking changes compared to its previous versions as well as to market available AR platforms include an improved and tool-less gas regulator for suppressor use, a redesigned, user-friendly lower receiver, which allows complete ambidextrous operation of the weapon and ensures optimised magazine compatibility. Additionally, numerous technical improvements to maximize the safety of the operator, weapon reliability, ammunition compatibility, and durability under real operating conditions.
+basePrice=21800
+width=1
+height=1
+avg24hPrice=57240
+low24hPrice=51111
+lastOfferCount=51
+Sell_Prapor=10900
+Sell_Fence=8720
+Sell_Skier=10682
+Sell_Peacekeeper=85
+Sell_Mechanic=12208
+Sell_Flea Market=57999
+weight=0.520000
+fleaMarketFee=6456

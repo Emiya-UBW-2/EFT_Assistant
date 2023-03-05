@@ -1,4 +1,0 @@
-Name=FN SCAR-L 5.56x45 upper receiver (FDE)
-Itemtype=Receiver
-Recoil=0
-Ergonomics=+2

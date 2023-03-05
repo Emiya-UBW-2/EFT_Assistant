@@ -1,5 +1,0 @@
-Name=AR-15 Griffin Armament Gate-LOK Hammer 5.56x45 flash hider
-Itemtype=Flash hider/muzzle brake
-ChildParts=[AR-15 Griffin Armament M4SD-K 5.56x45 sound suppressor]
-Recoil=-8.5
-Ergonomics=-1

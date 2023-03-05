@@ -1,0 +1,25 @@
+Name=AKMB system rear sight
+ShortName=AKMB RS
+Itemtype=Ironsight
+SightRange=500
+Conflict=[
+	AK CNC Guns OV GP handguard,
+	AK AKademia Bastion dust cover,
+	AK TWS Dog Leg Rail dust cover,
+]
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=A special rear sight leaf for use with PBS-1 and the “US” cartridge of the AKMB (AKMSB) arms system.
+basePrice=471
+width=1
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
+Sell_Prapor=235
+Sell_Fence=188
+Sell_Skier=230
+Sell_Peacekeeper=2
+Sell_Mechanic=263
+weight=0.035000
+fleaMarketFee=45

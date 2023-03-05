@@ -1,4 +1,0 @@
-Name=Hensoldt RIS top rail
-Itemtype=Mount
-Recoil=0
-Ergonomics=0

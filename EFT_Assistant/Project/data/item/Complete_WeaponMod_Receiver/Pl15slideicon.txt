@@ -1,4 +1,0 @@
-Name=PL-15 pistol slide
-Itemtype=Receiver
-Recoil=0
-Ergonomics=+4

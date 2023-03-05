@@ -1,5 +1,0 @@
-Name=AR-15 Rainier Arms Avalanche MOD2 charging handle
-Itemtype=Charging handle
-Recoil=0
-Ergonomics=3
-

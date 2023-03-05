@@ -1,0 +1,23 @@
+Name=M14 7.62x51 X Products X-14 50-round drum magazine
+ShortName=X-14 7.62
+Itemtype=Magazine
+Conflict=[
+	M1A ProMag Archangel stock,
+]
+Recoil=0.000000
+Ergonomics=-17.000000
+Information_Eng=A 50 round 7.62x51 drum NATO magazine for the M14 rifle. Manufactured by X Products.
+basePrice=18800
+width=1
+height=2
+avg24hPrice=26269
+low24hPrice=18888
+lastOfferCount=40
+Sell_Prapor=9400
+Sell_Fence=7520
+Sell_Skier=9212
+Sell_Peacekeeper=74
+Sell_Mechanic=10528
+Sell_Flea Market=25000
+weight=0.700000
+fleaMarketFee=2289

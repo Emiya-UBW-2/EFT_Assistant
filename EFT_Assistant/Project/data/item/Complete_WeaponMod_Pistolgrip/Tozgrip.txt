@@ -1,4 +1,0 @@
-Name=TOZ-106 002 pistol grip
-Itemtype=Pistol grip
-Recoil=0
-Ergonomics=+3

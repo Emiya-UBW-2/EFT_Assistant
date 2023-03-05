@@ -1,0 +1,17 @@
+Name=HK USP .45 ACP pistol Elite
+ShortName=USP .45 Elite
+Itemtype=Handgun
+Information_Eng=
+basePrice=30450
+width=2
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Prapor=15225
+Sell_Fence=12180
+Sell_Skier=14920
+Sell_Peacekeeper=119
+Sell_Mechanic=17052
+weight=1.388000
+fleaMarketFee=2893

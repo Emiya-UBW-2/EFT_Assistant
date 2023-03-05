@@ -1,0 +1,17 @@
+Name=Rifle Dynamics RD-704 7.62x39 assault rifle Default
+ShortName=RD-704 Default
+Itemtype=Assault rifle
+Information_Eng=
+basePrice=102338
+width=4
+height=2
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
+Sell_Prapor=51169
+Sell_Fence=40935
+Sell_Skier=50145
+Sell_Peacekeeper=400
+Sell_Mechanic=57309
+weight=3.889000
+fleaMarketFee=0

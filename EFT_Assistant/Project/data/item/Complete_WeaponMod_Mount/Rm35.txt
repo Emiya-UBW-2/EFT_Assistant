@@ -1,4 +1,0 @@
-Name=Trijicon RMR mount for ACOG scopes
-Itemtype=Mount
-Recoil=0
-Ergonomics=-1

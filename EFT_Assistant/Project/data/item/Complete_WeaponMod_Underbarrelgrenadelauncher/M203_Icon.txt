@@ -1,5 +1,6 @@
 Name=M203 40mm underbarrel grenade launcher
-Itemtype=Underbarrel grenade launcher
+ShortName=M203
+Itemtype=UBGL
 Conflict=[
 	AR-15 Colt M4 Carbine Length lower handguard,
 	AR-15 Daniel Defense RIS II 12.25 lower handguard (Coyote Brown),
@@ -29,7 +30,21 @@ Conflict=[
 	AR-15 Aeroknox AX-15 10.5 inch M-LOK handguard,
 	AR-15 ADAR 2-15 wooden handguard,
 	5.56x45 Magpul PMAG D-60 STANAG 60-round magazine,
-	AR-15 Precision Reflex GEN III Delta Carbon handguard
+	AR-15 Precision Reflex GEN III Delta Carbon handguard,
 ]
-Recoil=-10
-Ergonomics=-41
+Recoil=-10.000000
+Ergonomics=-41.000000
+Information_Eng=A single-shot 40mm underbarrel grenade launcher, designed for installation on M16 and M4 assault rifles.
+basePrice=62000
+width=2
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Prapor=31000
+Sell_Fence=24800
+Sell_Skier=30380
+Sell_Peacekeeper=243
+Sell_Mechanic=34720
+weight=1.360000
+fleaMarketFee=0

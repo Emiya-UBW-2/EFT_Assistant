@@ -1,4 +1,0 @@
-Name=M45A1 hammer
-Itemtype=Auxiliary part
-Recoil=0
-Ergonomics=+2

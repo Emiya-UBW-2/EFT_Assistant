@@ -1,4 +1,0 @@
-Name=M700 7.62x51 26 inch stainless steel barrel
-Itemtype=Stock
-Recoil=-9
-Ergonomics=-14

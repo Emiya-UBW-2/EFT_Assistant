@@ -1,4 +1,0 @@
-Name=Mossberg 590A1 Magpul MOE forestock
-Itemtype=Handguard
-Recoil=0
-Ergonomics=+13

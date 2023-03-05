@@ -1,0 +1,25 @@
+Name=Magpul MOE Carbine rubber buttpad
+ShortName=MOE RBP
+Itemtype=Stock
+Conflict=[
+	AR-15 ADAR 2-15 wooden stock,
+	AR-15 Hera Arms CQR pistol grip/buttstock,
+]
+Recoil=-3.000000
+Ergonomics=2.000000
+Information_Eng=A standard rubber butt-pad for the Magpul MOE Carbine stock series. However, it can also be installed on other models of the series.
+basePrice=4779
+width=1
+height=1
+avg24hPrice=59850
+low24hPrice=37777
+lastOfferCount=13
+Sell_Prapor=2389
+Sell_Fence=1911
+Sell_Skier=2341
+Sell_Peacekeeper=19
+Sell_Mechanic=2676
+Sell_Jaeger=2867
+Sell_Flea Market=54333
+weight=0.055000
+fleaMarketFee=14216

@@ -1,6 +1,8 @@
 Name=Ops-Core FAST MT Super High Cut helmet (Tan)
 ShortName=FAST MT
 Itemtype=Headwear
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=The Ops-Core FAST ballistic helmet is popular in special forces all around the world. Can be modified with different components. Tan version.
 basePrice=116014
 width=2

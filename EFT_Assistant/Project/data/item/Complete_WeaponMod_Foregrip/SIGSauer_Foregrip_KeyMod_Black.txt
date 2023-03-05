@@ -1,4 +1,0 @@
-Name=SIG Sauer Vertical Foregrip KeyMod (Black)
-Itemtype=Foregrip
-Recoil=-2
-Ergonomics=+5

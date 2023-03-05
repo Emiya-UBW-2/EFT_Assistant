@@ -1,4 +1,0 @@
-Name=TangoDown Stubby BGV-MK46K foregrip (Black)
-Itemtype=Foregrip
-Recoil=-1
-Ergonomics=+5

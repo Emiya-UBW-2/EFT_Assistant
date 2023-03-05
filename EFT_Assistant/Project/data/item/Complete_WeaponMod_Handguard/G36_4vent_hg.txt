@@ -1,4 +1,0 @@
-Name=HK G36 4-vent handguard
-Itemtype=Handguard
-Recoil=-1
-Ergonomics=+9

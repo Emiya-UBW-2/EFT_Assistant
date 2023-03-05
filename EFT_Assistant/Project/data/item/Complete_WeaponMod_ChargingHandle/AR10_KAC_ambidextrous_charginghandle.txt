@@ -1,5 +1,0 @@
-Name=AR-10 KAC ambidextrous charging handle
-Itemtype=Charging handle
-Recoil=0
-Ergonomics=1
-

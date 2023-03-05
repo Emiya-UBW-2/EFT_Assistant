@@ -1,4 +1,0 @@
-Name=HK UMP side handguard rail
-Itemtype=Mount
-Recoil=0
-Ergonomics=0

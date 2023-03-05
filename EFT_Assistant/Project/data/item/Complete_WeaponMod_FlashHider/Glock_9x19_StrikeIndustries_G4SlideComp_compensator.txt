@@ -1,4 +1,0 @@
-Name=Glock 9x19 Strike Industries G4 SlideComp compensator
-Itemtype=Flash hider/muzzle brake
-Recoil=-14
-Ergonomics=-1

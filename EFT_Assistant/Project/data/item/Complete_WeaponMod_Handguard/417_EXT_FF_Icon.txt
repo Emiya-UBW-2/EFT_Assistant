@@ -1,4 +1,0 @@
-Name=HK417 Extended Free Float handguard with flip-up front sight
-Itemtype=Handguard
-Recoil=-3
-Ergonomics=+5

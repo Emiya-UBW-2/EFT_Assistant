@@ -1,4 +1,0 @@
-Name=Mosin Rifle Witt Machine 7.62x54R muzzle brake
-Itemtype=Flash hider/muzzle brake
-Recoil=-29
-Ergonomics=-1

@@ -1,4 +1,0 @@
-Name=MP9 9x19 sound suppressor mount
-Itemtype=Muzzle adapter
-Recoil=0
-Ergonomics=-1

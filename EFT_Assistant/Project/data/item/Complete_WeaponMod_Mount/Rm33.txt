@@ -1,4 +1,0 @@
-Name=Trijicon RMR low profile mount
-Itemtype=Mount
-Recoil=0
-Ergonomics=-1

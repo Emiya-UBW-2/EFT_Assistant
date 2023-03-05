@@ -1,4 +1,0 @@
-Name=AK-12 stock
-Itemtype=Stock
-Recoil=-30
-Ergonomics=+3

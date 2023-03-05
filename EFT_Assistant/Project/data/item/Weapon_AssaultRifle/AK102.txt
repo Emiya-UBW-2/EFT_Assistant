@@ -56,7 +56,9 @@ ChildParts=[
 	AK RD Enhanced V2 Rear Sight,
 	AK Taktika Tula TT01 rear sight rail
 ]
-ChildParts=[AKMP system front sight device]
+ChildParts=[
+	AKMP system front sight device
+]
 ChildParts=[
 	AK-74M polymer stock (6P34 Sb.15),
 	AK-74M CAA AKTS AK74 buffer tube,
@@ -90,6 +92,29 @@ ChildParts=[
 	AK CSS knurled charging handle,
 	AK Zenit RP-1 charging handle
 ]
-ChildParts=[GP-25 "Kostyor" 40mm underbarrel grenade launcher]
-Recoil=128
-Ergonomics=38
+ChildParts=[
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher
+]
+Conflict=[
+	AK Hexagon tubular handguard (Anodized Red),
+	AK Hexagon tubular handguard,
+	AK Strike Industries TRAX 2 handguard extension,
+	AK Vltor CMRD KeyMod handguard,
+]
+Recoil=128.000000
+Ergonomics=38.000000
+Information_Eng=The AK-102 5.56x45mm assault rifle is a further modernized version of AK-74M base, more precisely a shortened version of AK-101. A short compact version equipped with a side-folding shoulder stock and a side mount for optical and night scopes. The AK-102 is chambered to fire 5.56x45mm NATO ammunition, and is designed entirely for export purposes. The 100-series AKs are produced by the Izhmash factories in Izhevsk, Russia.
+basePrice=51648
+width=3
+height=1
+avg24hPrice=52605
+low24hPrice=36500
+lastOfferCount=25
+Sell_Prapor=25824
+Sell_Fence=20659
+Sell_Skier=25307
+Sell_Peacekeeper=202
+Sell_Mechanic=28922
+Sell_Flea Market=41000
+weight=1.992000
+fleaMarketFee=4170

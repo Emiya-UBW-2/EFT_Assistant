@@ -1,4 +1,0 @@
-Name=Mosin Carbine 7.62x54R 514mm barrel
-Itemtype=Stock
-Recoil=-8
-Ergonomics=-8

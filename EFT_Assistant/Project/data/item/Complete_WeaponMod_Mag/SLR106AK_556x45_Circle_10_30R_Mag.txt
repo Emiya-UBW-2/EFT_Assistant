@@ -1,5 +1,0 @@
-Name=SLR-106/AK 5.56x45 Circle 10 30-round magazine
-Itemtype=Magazine
-Recoil=0
-Ergonomics=-2
-

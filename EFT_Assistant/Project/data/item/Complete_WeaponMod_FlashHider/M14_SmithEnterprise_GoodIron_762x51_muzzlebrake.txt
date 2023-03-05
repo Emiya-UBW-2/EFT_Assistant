@@ -1,5 +1,0 @@
-Name=M14 Smith Enterprise Good Iron 7.62x51 muzzle brake
-Itemtype=Flash hider/muzzle brake
-Recoil=-10
-Ergonomics=-1
-ChildParts=[M1A SA National Match .062 Blade front sight,M1A SA XS Post .125 Blade front sight]

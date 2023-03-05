@@ -1,4 +1,0 @@
-Name=AR-10 Noveske SWS N6 Split handguard
-Itemtype=Handguard
-Recoil=-1
-Ergonomics=+8

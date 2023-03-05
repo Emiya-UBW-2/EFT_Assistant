@@ -1,5 +1,5 @@
 {"query" : "{
- items(categoryNames:FoodAndDrink){
+ items(categoryNames:ITEMCAT_NAME){
    name
    shortName
    description
@@ -21,6 +21,8 @@
    }
    category{name}
    weight
+   recoilModifier
+   ergonomicsModifier
    usedInTasks{name}
    receivedFromTasks{name}
    bartersFor{trader{name}}

@@ -12,7 +12,7 @@ ChildParts=[
 	M700 Hogue Overmolded Ghillie stock,
 	M700 AI AT AICS polymer stock,
 	M700 Magpul Pro 700 chassis,
-	M700 ProMag Archangel polymer stock
+	M700 ProMag Archangel chassis
 ]
 ChildParts=[
 	M700 7.62x51 AI AICS 10-round magazine,
@@ -30,5 +30,21 @@ ChildParts=[
 	M700 30mm integral ring scope mount,
 	M700 extended multi-slot Weaver rail base
 ]
-Recoil=234
-Ergonomics=33
+Recoil=234.000000
+Ergonomics=33.000000
+Information_Eng=The Remington Model 700 is a series of bolt-action centerfire rifles manufactured by Remington Arms since 1962.
+basePrice=17500
+width=1
+height=1
+avg24hPrice=46324
+low24hPrice=35500
+lastOfferCount=19
+Sell_Prapor=8750
+Sell_Fence=7000
+Sell_Skier=8575
+Sell_Peacekeeper=68
+Sell_Mechanic=9800
+Sell_Jaeger=10500
+Sell_Flea Market=36666
+weight=0.550000
+fleaMarketFee=3696

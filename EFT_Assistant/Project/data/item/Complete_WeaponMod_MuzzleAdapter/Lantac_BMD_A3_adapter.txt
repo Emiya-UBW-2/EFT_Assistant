@@ -1,6 +1,0 @@
-Name=Lantac BMD Blast Mitigation Device A3 direct thread adapter
-Itemtype=Muzzle adapter
-Recoil=-1
-Ergonomics=-1
-ChildParts=[AR-10 Lantac Drakon 7.62x51 muzzle brake-compensator]
-ChildParts=[Lantac BMD 7.62x51 Blast Mitigation Device]

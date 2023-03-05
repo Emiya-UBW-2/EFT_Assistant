@@ -1,4 +1,0 @@
-Name=Benelli M3 telescopic stock
-Itemtype=Stock
-Recoil=-30
-Ergonomics=+10

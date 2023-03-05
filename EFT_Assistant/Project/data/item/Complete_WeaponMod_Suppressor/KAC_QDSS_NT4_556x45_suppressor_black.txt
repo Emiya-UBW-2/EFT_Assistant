@@ -1,4 +1,0 @@
-Name=KAC QDSS NT-4 5.56x45 sound suppressor (Black)
-Itemtype=Suppressor
-Recoil=-10
-Ergonomics=-21

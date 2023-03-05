@@ -1,4 +1,0 @@
-Name=FAL standard dust cover
-Itemtype=Receiver
-Recoil=0
-Ergonomics=+2

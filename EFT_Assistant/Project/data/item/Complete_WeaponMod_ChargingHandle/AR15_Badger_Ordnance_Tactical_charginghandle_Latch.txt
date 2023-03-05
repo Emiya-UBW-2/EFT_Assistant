@@ -1,5 +1,0 @@
-Name=AR-15 Badger Ordnance Tactical Charging Handle Latch
-Itemtype=Charging handle
-Recoil=0
-Ergonomics=1
-

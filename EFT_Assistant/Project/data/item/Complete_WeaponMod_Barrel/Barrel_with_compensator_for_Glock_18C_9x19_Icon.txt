@@ -1,4 +1,0 @@
-Name=Glock 18C 9x19 barrel with a compensator
-Itemtype=Stock
-Recoil=-6
-Ergonomics=-5

@@ -1,4 +1,0 @@
-Name=FAB Defense GLR-16-S stock
-Itemtype=Stock
-Recoil=-29
-Ergonomics=+13

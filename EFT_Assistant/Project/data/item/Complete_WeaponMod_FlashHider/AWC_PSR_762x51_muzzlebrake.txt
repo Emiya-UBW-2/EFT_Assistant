@@ -1,5 +1,0 @@
-Name=AWC PSR 7.62x51 muzzle brake
-Itemtype=Flash hider/muzzle brake
-ChildParts=[AWC PSR muzzle brake protector,AWC Thor PSR XL multi-caliber sound suppressor]
-Recoil=-10
-Ergonomics=-1

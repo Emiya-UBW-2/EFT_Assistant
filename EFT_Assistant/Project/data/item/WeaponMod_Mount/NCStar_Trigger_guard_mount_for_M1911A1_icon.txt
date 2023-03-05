@@ -1,0 +1,33 @@
+Name=M1911A1 NcSTAR trigger guard mount
+ShortName=1911 TGM
+Itemtype=Mount
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser,
+	NcSTAR Tactical blue laser LAM-module,
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	UM Tactical UM3 pistol sight mount
+]
+Recoil=0.000000
+Ergonomics=-1.000000
+Information_Eng=The NcSTAR Trigger guard mount for the M1911A1 pistol.
+basePrice=2300
+width=1
+height=1
+avg24hPrice=9094
+low24hPrice=6500
+lastOfferCount=5
+Sell_Prapor=1150
+Sell_Fence=920
+Sell_Skier=1127
+Sell_Peacekeeper=9
+Sell_Mechanic=1288
+Sell_Jaeger=1380
+Sell_Flea Market=6500
+weight=0.040000
+fleaMarketFee=744

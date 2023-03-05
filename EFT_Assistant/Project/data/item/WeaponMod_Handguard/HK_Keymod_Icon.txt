@@ -1,0 +1,68 @@
+Name=HK 416A5 MRS KeyMod 14 inch handguard
+ShortName=416A5 MRS 14"
+Itemtype=Handguard
+ChildParts=[
+	HK MP7 flip-up front sight,
+	KAC Folding Micro front sight,
+	KAC Folding front sight,
+	KRISS Defiance low profile flip-up front sight,
+	Magpul MBUS Gen2 flip-up front sight,
+	Magpul MBUS Gen2 flip-up front sight (FDE),
+	MCX flip-up front sight,
+	MPX flip-up front sight,
+	AR-15 Leapers UTG Low Profile A2 front sight
+]
+ChildParts=[
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	AN/PEQ-2 tactical device,
+	LA-5B/PEQ tactical device,
+	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Perst-3 tactical device
+]
+ChildParts=[
+	Monstrum Tactical Vertical Fore Grip KeyMod,
+	A3 Tactical MVF001 KeyMod vertical foregrip (Black),
+	SIG Sauer Vertical Foregrip KeyMod (Black),
+	Strike Industries KeyMod 6 inch rail,
+	Vltor CASV KeyMod 6 inch rail
+]
+ChildParts=[
+	Strike Industries KeyMod 4 inch rail,
+	Vltor CASV KeyMod 2 inch rail,
+	Vltor CASV KeyMod 4 inch rail,
+	CNC Guns KeyMod 2 inch rail
+]
+ChildParts=[
+	Strike Industries KeyMod 4 inch rail,
+	Vltor CASV KeyMod 2 inch rail,
+	Vltor CASV KeyMod 4 inch rail,
+	CNC Guns KeyMod 2 inch rail
+]
+ChildParts=[
+	NcSTAR MPR45 Backup mount
+]
+Conflict=[
+	HK 416A5 5.56x45 10.6 inch barrel,
+	HK 416A5 5.56x45 11 inch barrel,
+	HK 416A5 5.56x45 14.5 inch barrel,
+	HK 416A5 5.56x45 16.5 inch barrel with flip-up front sight,
+]
+Recoil=-3.000000
+Ergonomics=6.000000
+Information_Eng=The HK MRS KeyMod handguard for 416A5 equipped with a KeyMod interface for the installation of additional devices and accessories.
+basePrice=13900
+width=3
+height=1
+avg24hPrice=18027
+low24hPrice=13000
+lastOfferCount=12
+Sell_Prapor=6950
+Sell_Fence=5560
+Sell_Skier=6811
+Sell_Peacekeeper=54
+Sell_Mechanic=7784
+Sell_Flea Market=13000
+weight=0.390000
+fleaMarketFee=1251

@@ -1,0 +1,17 @@
+Name=Colt M4A1 5.56x45 assault rifle Space Trooper
+ShortName=M4A1 Space Trooper
+Itemtype=Assault rifle
+Information_Eng=
+basePrice=566259
+width=4
+height=2
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Prapor=283129
+Sell_Fence=226503
+Sell_Skier=277466
+Sell_Peacekeeper=2216
+Sell_Mechanic=317105
+weight=4.254000
+fleaMarketFee=53795

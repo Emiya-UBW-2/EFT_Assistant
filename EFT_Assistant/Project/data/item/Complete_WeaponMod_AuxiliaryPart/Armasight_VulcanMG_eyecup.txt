@@ -1,4 +1,0 @@
-Name=Armasight Vulcan MG scope eyecup
-Itemtype=Auxiliary part
-Recoil=0
-Ergonomics=+6

@@ -1,7 +1,6 @@
 Name=AK-74 gas tube (6P20 Sb.1-2)
+ShortName=6P20 Sb.1-2
 Itemtype=Gas block
-Recoil=0
-Ergonomics=0
 ChildParts=[
 	AK 5.45 Design Aggressor handguard,
 	AK CAA RS47 handguard,
@@ -34,3 +33,20 @@ ChildParts=[
 	AK Zenit B-30 handguard with B-31S upper handguard rail,
 	AK CNC Guns OV GP handguard
 ]
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=A standard gas tube for AK-74 automatic rifles. Gas tubes channel the travel direction of gas piston.
+basePrice=2073
+width=1
+height=1
+avg24hPrice=30596
+low24hPrice=5000
+lastOfferCount=11
+Sell_Prapor=1036
+Sell_Fence=829
+Sell_Skier=1015
+Sell_Peacekeeper=8
+Sell_Mechanic=1160
+Sell_Flea Market=10000
+weight=0.120000
+fleaMarketFee=1532

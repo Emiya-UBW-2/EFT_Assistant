@@ -1,0 +1,14 @@
+Name=Waist pouch
+ShortName=Waist bag
+Itemtype=Port. container
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=A durable and convenient waist pouch for a variety of things you would want to keep close.
+basePrice=15000
+width=2
+height=2
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+weight=0.400000
+fleaMarketFee=0

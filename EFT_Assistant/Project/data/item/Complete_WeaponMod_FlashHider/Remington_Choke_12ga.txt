@@ -1,4 +1,0 @@
-Name=Remington Tactical Choke 12ga
-Itemtype=Flash hider/muzzle brake
-Recoil=-8
-Ergonomics=0

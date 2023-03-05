@@ -1,4 +1,0 @@
-Name=PP-19-01 "Vityaz" pistol grip
-Itemtype=Pistol grip
-Recoil=0
-Ergonomics=+7

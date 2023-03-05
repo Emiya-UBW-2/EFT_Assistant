@@ -1,4 +1,0 @@
-Name=FN SCAR-L 5.56x45 flash hider
-Itemtype=Flash hider/muzzle brake
-Recoil=-7
-Ergonomics=-1

@@ -1,4 +1,0 @@
-Name=ORSIS T-5000M medium length rail
-Itemtype=Mount
-Recoil=0
-Ergonomics=0

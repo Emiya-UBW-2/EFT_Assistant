@@ -1,5 +1,0 @@
-Name=Glock 9x19 Magpul PMAG GL9 21-round magazine
-Itemtype=Magazine
-Recoil=0
-Ergonomics=-2
-

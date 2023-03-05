@@ -1,4 +1,0 @@
-Name=Benelli M3 forend
-Itemtype=Handguard
-Recoil=0
-Ergonomics=+8

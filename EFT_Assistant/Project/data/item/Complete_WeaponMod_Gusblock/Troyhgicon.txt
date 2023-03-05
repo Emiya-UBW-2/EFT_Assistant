@@ -1,7 +1,6 @@
 Name=AK TROY Full Length Rail handguard & gas tube combo
+ShortName=TROY FLR
 Itemtype=Gas block
-Recoil=-4.5
-Ergonomics=+10
 ChildParts=[
 	Holosun LS321 Tactical device,
 	AN/PEQ-15 tactical device,
@@ -35,3 +34,23 @@ ChildParts=[
 	Trijicon RMR high profile mount,
 	Trijicon RMR low profile mount
 ]
+Conflict=[
+	AK Zenit B-33 dust cover,
+]
+Recoil=-4.500000
+Ergonomics=10.000000
+Information_Eng=The Full Length Rail handguard and gas tube combo. The cooling holes allow the rail to run cool, even after extended firing. Machined from hardened aircraft aluminum with stainless steel components and finished in MIL-SPEC hardcoat anodizing. Features a 5 inch top rail for installation of optics and tactical devices. Manufactured by TROY Industries.
+basePrice=19239
+width=2
+height=1
+avg24hPrice=31487
+low24hPrice=24000
+lastOfferCount=14
+Sell_Prapor=9619
+Sell_Fence=7695
+Sell_Skier=9427
+Sell_Peacekeeper=75
+Sell_Mechanic=10773
+Sell_Flea Market=29999
+weight=0.550000
+fleaMarketFee=2791

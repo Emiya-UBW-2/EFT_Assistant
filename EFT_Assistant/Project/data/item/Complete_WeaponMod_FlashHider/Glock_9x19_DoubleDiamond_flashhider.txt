@@ -1,4 +1,0 @@
-Name=Glock 9x19 Double Diamond flash hider
-Itemtype=Flash hider/muzzle brake
-Recoil=-9
-Ergonomics=-1

@@ -1,0 +1,17 @@
+Name=Kalashnikov AKM 7.62x39 assault rifle T-OPS
+ShortName=AKM T-OPS
+Itemtype=Assault rifle
+Information_Eng=
+basePrice=545466
+width=6
+height=2
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Prapor=272733
+Sell_Fence=218186
+Sell_Skier=267278
+Sell_Peacekeeper=2134
+Sell_Mechanic=305460
+weight=5.536000
+fleaMarketFee=51819

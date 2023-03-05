@@ -1,4 +1,0 @@
-Name=M870 Shockwave Raptor grip
-Itemtype=Stock
-Recoil=-9
-Ergonomics=+6

@@ -1,4 +1,0 @@
-Name=Armasight Vulcan universal base
-Itemtype=Mount
-Recoil=0
-Ergonomics=-1

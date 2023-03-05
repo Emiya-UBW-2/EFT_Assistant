@@ -1,4 +1,0 @@
-Name=HK G36 KV adjustable stock
-Itemtype=Stock
-Recoil=-32
-Ergonomics=+1

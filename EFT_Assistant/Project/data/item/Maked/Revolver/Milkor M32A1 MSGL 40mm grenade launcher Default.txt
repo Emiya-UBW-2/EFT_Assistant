@@ -1,0 +1,17 @@
+Name=Milkor M32A1 MSGL 40mm grenade launcher Default
+ShortName=MSGL Default
+Itemtype=Revolver
+Information_Eng=
+basePrice=255718
+width=4
+height=2
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Prapor=127859
+Sell_Fence=102287
+Sell_Skier=125301
+Sell_Peacekeeper=1001
+Sell_Mechanic=143202
+weight=5.475000
+fleaMarketFee=0

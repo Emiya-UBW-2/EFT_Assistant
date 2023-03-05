@@ -1,6 +1,8 @@
 Name=Armband (Red)
 ShortName=Armband
 Itemtype=Arm Band
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=A red identification armband.
 basePrice=894
 width=1

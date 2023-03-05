@@ -1,4 +1,0 @@
-Name=SIG Sauer SRD762Ti 7.62x51 sound suppressor
-Itemtype=Suppressor
-Recoil=-11
-Ergonomics=-23

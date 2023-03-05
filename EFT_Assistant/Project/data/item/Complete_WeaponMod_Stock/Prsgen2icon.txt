@@ -1,4 +1,0 @@
-Name=Magpul PRS GEN2 stock (FDE)
-Itemtype=Stock
-Recoil=-34
-Ergonomics=+2

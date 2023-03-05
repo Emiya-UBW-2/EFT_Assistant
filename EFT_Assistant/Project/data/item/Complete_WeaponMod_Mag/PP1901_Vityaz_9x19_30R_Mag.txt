@@ -1,5 +1,0 @@
-Name=PP-19-01 "Vityaz" 9x19 30-round magazine
-Itemtype=Magazine
-Recoil=0
-Ergonomics=-2
-

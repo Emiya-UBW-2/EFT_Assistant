@@ -1,7 +1,0 @@
-Name=SVDS 7.62x54R 22 inch barrel
-Itemtype=Stock
-Recoil=-7
-Ergonomics=-10
-ChildParts=[SVDS 7.62x54R muzzle brake-compensator]
-ChildParts=[SVD CAA DRG L-1 barrel mount rail]
-ChildParts=[SVDS gas tube]

@@ -1,4 +1,0 @@
-Name=AR-15 HK BLITZ 5.56x45 flash hider
-Itemtype=Flash hider/muzzle brake
-Recoil=-11
-Ergonomics=-2

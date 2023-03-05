@@ -1,4 +1,0 @@
-Name=Mosin Rifle Tacfire pistol grip
-Itemtype=Pistol grip
-Recoil=0
-Ergonomics=+8

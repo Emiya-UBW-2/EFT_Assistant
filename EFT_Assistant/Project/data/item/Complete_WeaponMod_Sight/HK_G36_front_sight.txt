@@ -1,6 +1,0 @@
-Name=HK G36 front sight
-Itemtype=Iron sight
-Recoil=0
-Ergonomics=0
-SightRange=300
-

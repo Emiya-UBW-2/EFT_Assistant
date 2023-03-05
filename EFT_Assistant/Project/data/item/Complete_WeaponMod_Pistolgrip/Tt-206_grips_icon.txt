@@ -1,4 +1,0 @@
-Name=TT PM-Laser TT-206 side grips with laser sight
-Itemtype=Pistol grip
-Recoil=0
-Ergonomics=+2

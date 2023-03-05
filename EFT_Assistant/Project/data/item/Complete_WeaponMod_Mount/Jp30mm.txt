@@ -1,4 +1,0 @@
-Name=JP Enterprises Flat-Top 30mm ring scope mount
-Itemtype=Mount
-Recoil=0
-Ergonomics=-1

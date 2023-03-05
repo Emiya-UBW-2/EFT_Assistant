@@ -65,7 +65,9 @@ ChildParts=[
 	AK RD Enhanced V2 Rear Sight,
 	AK Taktika Tula TT01 rear sight rail
 ]
-ChildParts=[AKMP system front sight device]
+ChildParts=[
+	AKMP system front sight device
+]
 ChildParts=[
 	AK-74M polymer stock (6P34 Sb.15),
 	AK-74M CAA AKTS AK74 buffer tube,
@@ -107,6 +109,23 @@ ChildParts=[
 	AK CSS knurled charging handle,
 	AK Zenit RP-1 charging handle
 ]
-ChildParts=[GP-25 "Kostyor" 40mm underbarrel grenade launcher]
-Recoil=138
-Ergonomics=33
+ChildParts=[
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher
+]
+Recoil=138.000000
+Ergonomics=33.000000
+Information_Eng=The AK-74M (Avtomat Kalashnikova 74 Modernizirovanny - "Kalashnikov's Automatic rifle 74 Modernized") 5.45x39mm assault rifle is a full-scale produced modernized version of the AK-74 that offers more versatility compared with its predecessor. Apart from several minor improvements, such as a lightened bolt and carrier assembly to reduce the impulse of the gas piston and bolt carrier during firing, the rifle features a new glass-filled polyamide stock that retains the shape of the original AK-74 fixed laminated wood stock, but side-folds to the left like the skeletonised AKS-74 buttstock, and also a dovetail side mount for installing various scopes. The AK-74M is a main service rifle of the Russian Federation.
+basePrice=26181
+width=4
+height=1
+avg24hPrice=43143
+low24hPrice=23333
+lastOfferCount=12
+Sell_Prapor=13090
+Sell_Fence=10472
+Sell_Skier=12828
+Sell_Peacekeeper=102
+Sell_Mechanic=14661
+Sell_Flea Market=27000
+weight=2.392000
+fleaMarketFee=2541

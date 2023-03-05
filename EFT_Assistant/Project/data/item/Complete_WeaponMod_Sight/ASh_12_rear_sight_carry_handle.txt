@@ -1,6 +1,0 @@
-Name=ASh-12 rear sight carry handle
-Itemtype=Iron sight
-Recoil=0
-Ergonomics=-2
-SightRange=600
-

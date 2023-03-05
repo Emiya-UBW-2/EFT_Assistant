@@ -1,4 +1,0 @@
-Name=M700 thread protection cap (Stainless steel)
-Itemtype=Muzzle adapter
-Recoil=0
-Ergonomics=+1

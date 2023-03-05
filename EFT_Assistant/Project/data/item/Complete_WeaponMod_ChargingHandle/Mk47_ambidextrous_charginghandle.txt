@@ -1,5 +1,0 @@
-Name=Mk47 ambidextrous charging handle
-Itemtype=Charging handle
-Recoil=0
-Ergonomics=1
-

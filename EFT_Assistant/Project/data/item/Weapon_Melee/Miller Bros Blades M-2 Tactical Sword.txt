@@ -1,0 +1,17 @@
+Name=Miller Bros. Blades M-2 Tactical Sword
+ShortName=M-2
+Itemtype=Knife
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=The "M-2" short tactical sword, manufactured by Miller Bros. Blades.
+basePrice=785000
+width=1
+height=3
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=5
+Sell_Fence=314000
+Sell_Jaeger=471000
+Sell_Flea Market=20000000
+weight=1.300000
+fleaMarketFee=8899558

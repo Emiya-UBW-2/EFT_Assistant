@@ -1,4 +1,0 @@
-Name=AR-15 SureFire Warden 5.56x45 blast regulator
-Itemtype=Flash hider/muzzle brake
-Recoil=-8
-Ergonomics=-2

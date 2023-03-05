@@ -1,0 +1,37 @@
+Name=OKP-7 reflex sight (Dovetail)
+ShortName=OKP-7 DT
+Itemtype=Reflex sight
+SightRange=250
+Conflict=[
+	AKS-74U CAA XRSU47SU tactical handguard,
+	AK CNC Guns OV GP handguard,
+	SVD SAG MK1 chassis,
+	AK TDI X47 tactical handguard rail system,
+	SAG Bit low profile dovetail sidemount,
+	SVD modernization kit top rail,
+	AKS-74U dust cover (6P26 Sb.7),
+	AK AKademia Bastion dust cover,
+	AKS-74UB dust cover,
+	AK Zenit B-33 dust cover,
+	AK FAB Defense PDC dust cover,
+	PP-19-01 "Vityaz-SN" dust cover,
+	AK TWS Dog Leg Rail dust cover,
+	AK Taktika Tula TT01 rear sight rail,
+]
+Recoil=0.000000
+Ergonomics=-4.000000
+Information_Eng=The original design of OKP sights allows firing from unstable positions in rapidly changing conditions, reduces the operator fatigue, and, if necessary, allows unhindered use of base mechanical sights. The key feature of this sight is a rimless reflector attachment that doesn't block any field of fire sections; instead, reflector is protected by thin and durable visor that is almost un-noticeable when firing. This variant is installed on the dovetail type mount.
+basePrice=15155
+width=1
+height=1
+avg24hPrice=18057
+low24hPrice=12000
+lastOfferCount=11
+Sell_Prapor=7577
+Sell_Fence=6062
+Sell_Skier=7425
+Sell_Peacekeeper=59
+Sell_Mechanic=8486
+Sell_Flea Market=16500
+weight=0.295000
+fleaMarketFee=1534

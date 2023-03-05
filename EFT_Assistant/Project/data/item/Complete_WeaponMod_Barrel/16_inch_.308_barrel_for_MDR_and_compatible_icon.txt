@@ -1,4 +1,0 @@
-Name=MDR 7.62x51 16 inch barrel
-Itemtype=Stock
-Recoil=-10
-Ergonomics=-6

@@ -1,6 +1,6 @@
 Name=VSS Vintorez 9x39 special sniper rifle
-ShortName=VSS
-Itemtype=Designated marksman rifle
+ShortName=VSS "Vintorez"
+Itemtype=Marksman rifle
 ChildParts=[
 	AS VAL 9x39 integral barrel-suppressor,
 	VSS 9x39 integral barrel-suppressor
@@ -9,7 +9,9 @@ ChildParts=[
 	AS VAL dust cover,
 	VSS dust cover
 ]
-ChildParts=[VSS wooden stock]
+ChildParts=[
+	VSS wooden stock
+]
 ChildParts=[
 	VSS 9x39 6L24 10-round magazine,
 	VSS 9x39 6L25 20-round magazine,
@@ -39,5 +41,21 @@ ChildParts=[
 	AK CSS knurled charging handle,
 	AK Zenit RP-1 charging handle
 ]
-Recoil=115
-Ergonomics=43
+Recoil=115.000000
+Ergonomics=43.000000
+Information_Eng=VSS (Vintovka Sniperskaya Specialnaya - "Special Sniper Rifle") is an integrally suppressed sniper rifle, designed in the 80s in the TsNIITochMash institute for the needs of special-purpose teams and task forces.
+basePrice=54336
+width=2
+height=1
+avg24hPrice=101858
+low24hPrice=45000
+lastOfferCount=15
+Sell_Prapor=27168
+Sell_Fence=21734
+Sell_Skier=26624
+Sell_Peacekeeper=213
+Sell_Mechanic=30428
+Sell_Jaeger=32601
+Sell_Flea Market=67000
+weight=0.920000
+fleaMarketFee=6138

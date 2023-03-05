@@ -1,6 +1,8 @@
 Name=FORT Defender-2 body armor
 ShortName=Defender-2
 Itemtype=Armor
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=The FORT OK "Defender-2" operational kit is a modification of the popular body armor FORT "Defender" designed for both VIP and for employees of operational combat units. The kit uses the maximum capabilities of the modular principle of building armor based on steel plates.
 basePrice=290874
 width=3

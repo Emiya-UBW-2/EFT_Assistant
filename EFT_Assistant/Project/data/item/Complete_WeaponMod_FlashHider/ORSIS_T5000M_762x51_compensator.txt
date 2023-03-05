@@ -1,4 +1,0 @@
-Name=ORSIS T-5000M 7.62x51 muzzle brake-compensator
-Itemtype=Flash hider/muzzle brake
-Recoil=-9
-Ergonomics=-1

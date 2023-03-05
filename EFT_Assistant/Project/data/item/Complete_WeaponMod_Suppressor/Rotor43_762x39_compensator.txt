@@ -1,4 +1,0 @@
-Name=Rotor 43 7.62x39 muzzle brake-compensator
-Itemtype=Suppressor
-Recoil=-9
-Ergonomics=-20

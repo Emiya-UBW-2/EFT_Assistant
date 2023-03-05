@@ -1,6 +1,0 @@
-Name=AR-15 rear sight carry handle
-Itemtype=Iron sight
-Recoil=0
-Ergonomics=0
-SightRange=600
-

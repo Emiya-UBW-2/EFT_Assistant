@@ -1,4 +1,0 @@
-Name=FN P90 buttpad
-Itemtype=Stock
-Recoil=-3
-Ergonomics=+2

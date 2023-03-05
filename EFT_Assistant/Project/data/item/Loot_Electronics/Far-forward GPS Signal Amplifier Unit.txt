@@ -1,6 +1,8 @@
 Name=Far-forward GPS Signal Amplifier Unit
 ShortName=GPSA
 Itemtype=Electronics
+Recoil=0.000000
+Ergonomics=0.000000
 Information_Eng=A configurable low noise GPS amplifier module with pre-filtering and wide input voltage range.
 basePrice=120000
 width=1

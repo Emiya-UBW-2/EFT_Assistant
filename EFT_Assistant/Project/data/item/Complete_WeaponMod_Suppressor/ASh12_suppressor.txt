@@ -1,4 +1,0 @@
-Name=ASh-12 12.7x55 sound suppressor
-Itemtype=Suppressor
-Recoil=-18
-Ergonomics=-21

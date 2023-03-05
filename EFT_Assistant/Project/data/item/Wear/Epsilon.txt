@@ -1,2 +1,14 @@
 Name=Secure container Epsilon
-Itemtype=SecureContainer
+ShortName=Epsilon
+Itemtype=Port. container
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=One of TerraGroup's latest inventions in secure container technology - the Epsilon secured container.
+basePrice=1100000
+width=4
+height=2
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+weight=1.100000
+fleaMarketFee=0

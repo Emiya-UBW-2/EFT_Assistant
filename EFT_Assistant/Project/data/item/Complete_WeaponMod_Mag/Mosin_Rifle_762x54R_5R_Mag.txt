@@ -1,5 +1,0 @@
-Name=Mosin Rifle 7.62x54R 5-round magazine
-Itemtype=Magazine
-Recoil=0
-Ergonomics=-1
-

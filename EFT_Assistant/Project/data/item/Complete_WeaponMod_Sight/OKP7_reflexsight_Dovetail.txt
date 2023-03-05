@@ -1,5 +1,0 @@
-Name=OKP-7 reflex sight (Dovetail)
-Itemtype=Reflex sight
-Recoil=0
-Ergonomics=-4
-SightRange=250

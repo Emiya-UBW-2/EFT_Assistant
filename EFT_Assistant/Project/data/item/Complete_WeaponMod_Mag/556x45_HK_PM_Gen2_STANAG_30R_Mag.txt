@@ -1,5 +1,0 @@
-Name=5.56x45 HK PM Gen.2 STANAG 30-round magazine
-Itemtype=Magazine
-Recoil=0
-Ergonomics=-3
-

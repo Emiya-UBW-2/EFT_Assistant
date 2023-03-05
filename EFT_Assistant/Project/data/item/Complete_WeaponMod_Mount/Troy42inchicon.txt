@@ -1,4 +1,0 @@
-Name=TROY QARS 4.2 inch rail
-Itemtype=Mount
-Recoil=0
-Ergonomics=0

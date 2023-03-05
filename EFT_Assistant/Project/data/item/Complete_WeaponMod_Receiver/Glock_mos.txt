@@ -1,4 +1,0 @@
-Name=Glock 17 9x19 MOS pistol slide
-Itemtype=Receiver
-Recoil=0
-Ergonomics=+4

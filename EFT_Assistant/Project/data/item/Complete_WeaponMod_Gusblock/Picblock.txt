@@ -1,4 +1,5 @@
 Name=AR-15 Windham Weaponry Rail Gas Block
+ShortName=RGBlock
 Itemtype=Gas block
 ChildParts=[
 	KAC Folding front sight,
@@ -8,5 +9,38 @@ ChildParts=[
 	MPX flip-up front sight,
 	AR-15 Leapers UTG Low Profile A2 front sight
 ]
-Recoil=-2
-Ergonomics=0
+Conflict=[
+	AR-15 Aeroknox AX-15 10.5 inch M-LOK handguard,
+	AR-15 Precision Reflex GEN III Delta Carbon handguard,
+	AR-15 Alexander Arms MK10 rifle length handguard,
+	AR-15 Lone Star Ion Lite handguard,
+	AR-15 Daniel Defense RIS II 12.25 handguard (Coyote Brown),
+	AR-15 SAI 10 inch QD Rail handguard,
+	AR-15 SAI 14.5 inch QD Rail handguard,
+	AR-15 Geissele SMR MK16 9.5 inch M-LOK handguard,
+	AR-15 Geissele SMR MK16 13.5 inch M-LOK handguard,
+	AR-15 Soyuz-TM 12 inch M-LOK handguard,
+	AR-15 Soyuz-TM 15 inch M-LOK handguard,
+	AR-15 Soyuz-TM 9 inch M-LOK handguard,
+	AR-15 STNGR VYPR 10 inch M-LOK handguard,
+	AR-15 KAC URX 3.1 10.75 inch handguard,
+	AR-15 KAC URX 3 8 inch handguard,
+	AR-15 Unique-ARs Wing & Skull 12 inch handguard,
+]
+Recoil=-2.000000
+Ergonomics=0.000000
+Information_Eng=Installed as replacement to standard AR-15-based weapons gas blocks, it adds a Picatinny rail that allows the installation of your own front sight.
+basePrice=4190
+width=1
+height=1
+avg24hPrice=14991
+low24hPrice=6666
+lastOfferCount=4
+Sell_Prapor=2095
+Sell_Fence=1676
+Sell_Skier=2053
+Sell_Peacekeeper=16
+Sell_Mechanic=2346
+Sell_Flea Market=6666
+weight=0.120000
+fleaMarketFee=622

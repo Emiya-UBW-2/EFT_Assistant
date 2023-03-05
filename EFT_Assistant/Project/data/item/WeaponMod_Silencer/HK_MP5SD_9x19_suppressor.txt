@@ -1,0 +1,23 @@
+Name=HK MP5SD 9x19 sound suppressor
+ShortName=MP5SD supp.
+Itemtype=Silencer
+ChildParts=[
+	HK MP5SD B&T tri-rail ring mount
+]
+Recoil=-22.000000
+Ergonomics=-5.000000
+Information_Eng=A standard MP5SD sound suppressor manufactured by Heckler & Koch.
+basePrice=26709
+width=2
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
+Sell_Prapor=13354
+Sell_Fence=10683
+Sell_Skier=13087
+Sell_Peacekeeper=105
+Sell_Mechanic=14957
+Sell_Flea Market=50000
+weight=0.496000
+fleaMarketFee=4857

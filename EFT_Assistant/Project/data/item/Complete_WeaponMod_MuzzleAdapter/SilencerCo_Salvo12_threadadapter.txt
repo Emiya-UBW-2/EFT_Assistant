@@ -1,5 +1,0 @@
-Name=SilencerCo Salvo 12 thread adapter
-Itemtype=Muzzle adapter
-Recoil=-1
-Ergonomics=0
-ChildParts=[SilencerCo Salvo 12 12ga sound suppressor]
