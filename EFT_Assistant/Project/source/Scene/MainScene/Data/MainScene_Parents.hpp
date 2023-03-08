@@ -45,6 +45,7 @@ namespace FPS_n2 {
 	class ListParent {
 	private:
 		ID						m_ID{ InvalidID };
+		std::string				m_IDstr;
 		std::string				m_Name;
 		std::string				m_ShortName;
 		std::string				m_FilePath;
@@ -53,6 +54,9 @@ namespace FPS_n2 {
 		Graphs					m_Icon;
 	private:
 		void			SetCommon(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept {
+			if (LEFT == "IDstr") {
+				m_IDstr = RIGHT;
+			}
 			if (LEFT == "Name") {
 				m_Name = RIGHT;
 				m_ShortName = RIGHT;
@@ -72,6 +76,7 @@ namespace FPS_n2 {
 		virtual void	WhenAfterLoad_Sub() noexcept {}
 	public:
 		const auto&		GetID() const noexcept { return m_ID; }
+		const auto&		GetIDstr() const noexcept { return m_IDstr; }
 		const auto&		GetName() const noexcept { return m_Name; }
 		const auto&		GetShortName() const noexcept { return m_ShortName; }
 		const auto&		GetFilePath() const noexcept { return m_FilePath; }

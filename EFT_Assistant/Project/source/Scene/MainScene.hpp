@@ -305,72 +305,72 @@ namespace FPS_n2 {
 							"Handguard",
 							"Flashlight",
 							"CombTactDevice",
-							"Foregrip",
-							"AuxiliaryMod",
-							"Bipod",
-							"ChargingHandle",
-							"Mount",
-							"PistolGrip",
-							"Receiver",
-							"Stock",
-							"UBGL",
-							//ルート品
-							//"Item",
-							//"CompoundItem",
-							//"StackableItem",
-							//"SearchableItem",
-							//"RepairKits",
-							//"Money",
-							//"PortableRangeFinder",
-							//"RadioTransmitter",
-							//"BarterItem",
-							//"Fuel",
-							//"Compass",
-							"BuildingMaterial",
-							"Battery",
-							"Electronics",
-							"HouseholdGoods",
-							"Info",
-							"Jewelry",
-							"Lubricant",
-							"Map",
-							"SpecialItem",
-							"Other",
-							"Tool",
-							"MedicalSupplies",
-							//服
-							"Equipment",
-							//"ArmBand",
-							//"Armor",
-							//"Headwear",
-							//"Headphones",
-							//"ArmoredEquipment",
-							//"FaceCover",
-							//"VisObservDevice",
-							"Backpack",
-							"ChestRig",
-							"CommonContainer",
-							//食べ物
-							"FoodAndDrink",
-							//"Food",
-							//"Drink",
-							//弾
-							"Ammo",
-							"AmmoContainer",
-							//
-							"Key",
-							//"MechanicalKey",
-							//"Keycard",
-							//
-							"Meds",
-							//"MedicalItem",
-							//"Drug",
-							//"Medikit",
-							//"Stimulant",
-							//
-							"PortContainer",
-							"RandomLootContainer",
-							"LockingContainer",
+"Foregrip",
+"AuxiliaryMod",
+"Bipod",
+"ChargingHandle",
+"Mount",
+"PistolGrip",
+"Receiver",
+"Stock",
+"UBGL",
+//ルート品
+//"Item",
+//"CompoundItem",
+//"StackableItem",
+//"SearchableItem",
+//"RepairKits",
+//"Money",
+//"PortableRangeFinder",
+//"RadioTransmitter",
+//"BarterItem",
+//"Fuel",
+//"Compass",
+"BuildingMaterial",
+"Battery",
+"Electronics",
+"HouseholdGoods",
+"Info",
+"Jewelry",
+"Lubricant",
+"Map",
+"SpecialItem",
+"Other",
+"Tool",
+"MedicalSupplies",
+//服
+"Equipment",
+//"ArmBand",
+//"Armor",
+//"Headwear",
+//"Headphones",
+//"ArmoredEquipment",
+//"FaceCover",
+//"VisObservDevice",
+"Backpack",
+"ChestRig",
+"CommonContainer",
+//食べ物
+"FoodAndDrink",
+//"Food",
+//"Drink",
+//弾
+"Ammo",
+"AmmoContainer",
+//
+"Key",
+//"MechanicalKey",
+//"Keycard",
+//
+"Meds",
+//"MedicalItem",
+//"Drug",
+//"Medikit",
+//"Stimulant",
+//
+"PortContainer",
+"RandomLootContainer",
+"LockingContainer",
 						};
 						printfDx("通信開始...\n");
 						ScreenFlip();
@@ -396,6 +396,26 @@ namespace FPS_n2 {
 							}
 						}
 						ItemData::Instance()->CheckThroughJson();
+
+						time_t t = time(NULL);				// 現在日時を取得する
+						tm local;							// 日時情報を格納する変数を用意する
+						localtime_s(&local, &t);			// ローカル日時を変数に格納する
+						char buffer[256];
+						strftime(buffer, sizeof(buffer), "%Y %m/%d %H:%M", &local);
+						PlayerData::Instance()->SetLastDataReceive(buffer);
+						ttt = GetNowCount();
+					}
+					if (WindowSystem::ClickCheckBox(Xmin + y_r(10 + 1260), 0, Xmin + y_r(10 + 1480), Ymin, false, (ttt == -1), Gray25, "タスク更新")) {
+						while (true) {
+							if (TaskDataRequest(0, 1, strResult)) {
+								ProcessMessage();
+								auto data = nlohmann::json::parse(strResult);
+								TaskData::Instance()->GetJsonData(data);
+								TaskData::Instance()->SaveDatabyJson();
+							}
+							break;//
+						}
+						TaskData::Instance()->CheckThroughJson();
 
 						time_t t = time(NULL);				// 現在日時を取得する
 						tm local;							// 日時情報を格納する変数を用意する

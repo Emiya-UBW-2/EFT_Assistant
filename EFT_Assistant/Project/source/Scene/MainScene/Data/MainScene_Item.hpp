@@ -13,7 +13,6 @@ namespace FPS_n2 {
 		};
 		typedef std::vector<std::pair<const ItemList*, std::string>> ItemSettings;
 
-		std::string												m_IDstr;
 		ItemTypeID												m_TypeID{ InvalidID };
 		std::vector<MapID>										m_MapID;
 		std::vector<ChildItemSettings>							m_ChildPartsID;
@@ -38,9 +37,6 @@ namespace FPS_n2 {
 	private:
 		//í«â¡ê›íË
 		void	Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept override {
-			if (LEFT == "IDstr") {
-				m_IDstr = RIGHT;
-			}
 			if (LEFT == "Itemtype") {
 				m_TypeID = ItemTypeData::Instance()->FindID(RIGHT.c_str());
 			}
@@ -175,7 +171,6 @@ namespace FPS_n2 {
 	public:
 		int										m_CheckJson{ 0 };
 	public:
-		const auto&	GetIDstr() const noexcept { return m_IDstr; }
 		const auto&	GetTypeID() const noexcept { return m_TypeID; }
 		const auto&	GetMapID() const noexcept { return m_MapID; }
 		const auto&	GetChildParts() const noexcept { return m_ChildPartsID; }

@@ -1,0 +1,216 @@
+{"query" : "{
+ tasks(offset:OFFSETVAL limit:LIMITVAL){
+  id
+  name
+  trader{name}
+  map{name}
+  experience
+  minPlayerLevel
+  taskRequirements{
+    task{name}
+    status
+  }
+  traderRequirements{
+    trader{name}
+    requirementType
+    compareMethod
+    value
+  }
+  objectives{
+    type
+    description
+    maps{name}
+    optional
+    ... on TaskObjectiveBuildItem{
+      item{name}
+      containsAll{name}
+      containsCategory{name}
+      attributes{name requirement{compareMethod value}}
+    }
+    ... on TaskObjectiveExperience{
+      healthEffect{bodyParts effects time{compareMethod value}}
+    }
+    ... on TaskObjectiveExtract{
+      exitStatus
+      exitName
+      zoneNames
+    }
+    ... on TaskObjectiveItem{
+      item{name}
+      count
+      foundInRaid
+      dogTagLevel
+      maxDurability
+      minDurability
+    }
+    ... on TaskObjectiveMark{
+      markerItem{name}
+    }
+    ... on TaskObjectivePlayerLevel{
+      playerLevel
+    }
+    ... on TaskObjectiveQuestItem{
+      questItem{name}
+      count
+    }
+    ... on TaskObjectiveShoot{
+      target
+      count
+      shotType
+      zoneNames
+      bodyParts
+      usingWeapon{name}
+      usingWeaponMods{name}
+      wearing{name}
+      notWearing{name}
+      distance{compareMethod value}
+      playerHealthEffect{bodyParts effects time{compareMethod value}}
+      enemyHealthEffect{bodyParts effects time{compareMethod value}}
+    }
+    ... on TaskObjectiveSkill{
+      skillLevel{name level}
+    }
+    ... on TaskObjectiveTaskStatus{
+      task{name}
+      status
+    }
+    ... on TaskObjectiveTraderLevel{
+      trader{name}
+      level
+    }
+    ... on TaskObjectiveTraderStanding{
+      compareMethod
+      value
+    }
+    ... on TaskObjectiveUseItem{
+      compareMethod
+      count
+      zoneNames
+    }
+  }
+  startRewards{
+    traderStanding{
+      trader{name}
+      standing
+    }
+    items{
+      item{name}
+    }
+    skillLevelReward{
+      name
+      level
+    }
+    traderUnlock{name}
+  }
+  finishRewards{
+    traderStanding{
+      trader{name}
+      standing
+    }
+    items{
+      item{name}
+    }
+    skillLevelReward{
+      name
+      level
+    }
+    traderUnlock{name}
+  }
+  failConditions{
+    type
+    description
+    maps{name}
+    optional
+    ... on TaskObjectiveBuildItem{
+      item{name}
+      containsAll{name}
+      containsCategory{name}
+      attributes{name requirement{compareMethod value}}
+    }
+    ... on TaskObjectiveExperience{
+      healthEffect{bodyParts effects time{compareMethod value}}
+    }
+    ... on TaskObjectiveExtract{
+      exitStatus
+      exitName
+      zoneNames
+    }
+    ... on TaskObjectiveItem{
+      item{name}
+      count
+      foundInRaid
+      dogTagLevel
+      maxDurability
+      minDurability
+    }
+    ... on TaskObjectiveMark{
+      markerItem{name}
+    }
+    ... on TaskObjectivePlayerLevel{
+      playerLevel
+    }
+    ... on TaskObjectiveQuestItem{
+      questItem{name}
+      count
+    }
+    ... on TaskObjectiveShoot{
+      target
+      count
+      shotType
+      zoneNames
+      bodyParts
+      usingWeapon{name}
+      usingWeaponMods{name}
+      wearing{name}
+      notWearing{name}
+      distance{compareMethod value}
+      playerHealthEffect{bodyParts effects time{compareMethod value}}
+      enemyHealthEffect{bodyParts effects time{compareMethod value}}
+    }
+    ... on TaskObjectiveSkill{
+      skillLevel{name level}
+    }
+    ... on TaskObjectiveTaskStatus{
+      task{name}
+      status
+    }
+    ... on TaskObjectiveTraderLevel{
+      trader{name}
+      level
+    }
+    ... on TaskObjectiveTraderStanding{
+      compareMethod
+      value
+    }
+    ... on TaskObjectiveUseItem{
+      compareMethod
+      count
+      zoneNames
+    }
+  }
+  failureOutcome{
+    traderStanding{
+      trader{name}
+      standing
+    }
+    items{
+      item{name}
+    }
+    skillLevelReward{
+      name
+      level
+    }
+    traderUnlock{name}
+  }
+  restartable
+  factionName
+  neededKeys{keys{name}}
+  kappaRequired
+  lightkeeperRequired
+  descriptionMessageId
+  startMessageId
+  successMessageId
+  failMessageId
+ }
+}"}
+
