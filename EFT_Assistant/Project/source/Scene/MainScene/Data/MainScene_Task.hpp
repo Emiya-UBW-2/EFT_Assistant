@@ -392,24 +392,78 @@ namespace FPS_n2 {
 		}
 	};
 
+	enum class EnumTaskObjective {
+		TaskObjectiveBuildItem,
+		TaskObjectiveExperience,
+		TaskObjectiveExtract,
+		TaskObjectiveItem,
+		TaskObjectiveMark,
+		TaskObjectivePlayerLevel,
+		TaskObjectiveQuestItem,
+		TaskObjectiveShoot,
+		TaskObjectiveSkill,
+		TaskObjectiveTaskStatus,
+		TaskObjectiveTraderLevel,
+		TaskObjectiveTraderStanding,
+		TaskObjectiveUseItem,
+		Max,
+	};
+	static const char* TypesStr[(int)EnumTaskObjective::Max] = {
+	"TaskObjectiveBuildItem",
+	"TaskObjectiveExperience",
+	"TaskObjectiveExtract",
+	"TaskObjectiveItem",
+	"TaskObjectiveMark",
+	"TaskObjectivePlayerLevel",
+	"TaskObjectiveQuestItem",
+	"TaskObjectiveShoot",
+	"TaskObjectiveSkill",
+	"TaskObjectiveTaskStatus",
+	"TaskObjectiveTraderLevel",
+	"TaskObjectiveTraderStanding",
+	"TaskObjectiveUseItem",
+	};
+
+	enum class EnumCompareMethod {
+		Equal,//=
+		Higher,//>=
+		Lower,//<=
+		More,//>
+		Less,//<
+		Max,
+	};
+	static const char* CompareMethodStr[] = {
+	"=",
+	">=",
+	"<=",
+	">",
+	"<",
+	};
+
 	class TaskJsonData {
 	public:
 		bool										m_IsFileOpened{ false };
 	public:
 		struct TraderRequirements {
-			std::string m_name;
-			std::string m_requirementType;
-			std::string m_compareMethod;
-			int m_Value;
+			std::string		m_name;
+			std::string		m_requirementType;
+			std::string		m_compareMethod;
+			int				m_Value{ 0 };
 		};
 		struct Compare {
-			std::string		compareMethod;
-			int				value;
+			EnumCompareMethod		compareMethod{ EnumCompareMethod::Max };
+			int						value{ 0 };
 		public:
+			const auto IsActive(void) const noexcept { return compareMethod != EnumCompareMethod::Max; }
 			void GetJsonData(const nlohmann::json& data) {
 				if (data.contains("compareMethod")) {
 					if (!data["compareMethod"].is_null()) {
-						compareMethod = data["compareMethod"];
+						std::string buf = data["compareMethod"];
+						for (int i = 0; i < sizeof(CompareMethodStr) / sizeof(CompareMethodStr[0]); i++) {
+							if (buf == CompareMethodStr[i]) {
+								compareMethod = (EnumCompareMethod)i;
+							}
+						}
 					}
 				}
 				if (data.contains("value")) {
@@ -444,12 +498,14 @@ namespace FPS_n2 {
 		};
 		struct TaskObjective
 		{
-			std::vector<std::string>					type;
+			EnumTaskObjective							TaskObjectiveType{ EnumTaskObjective::Max };
+
+			std::string									type;
 			std::string									description;
-			std::vector<std::string>					Maps;
-			bool										optional;
+			std::vector<MapID>							Maps;
+			bool										optional{ false };
 			//TaskObjectiveBuildItem
-			std::vector<std::string>					Items;
+			ItemID										Items{ InvalidID };
 			std::vector<std::string>					containsAll;
 			std::vector<std::string>					containsCategory;
 			std::vector<std::pair<std::string, Compare>>attributes;
@@ -460,15 +516,15 @@ namespace FPS_n2 {
 			std::string									exitName;
 			std::vector<std::string>					zoneNames;
 			//TaskObjectiveItem
-			int											count;
-			bool										foundInRaid;
-			int											dogTagLevel;
-			int											maxDurability;
-			int											minDurability;
+			int											count{ 0 };
+			bool										foundInRaid{ false };
+			int											dogTagLevel{ 0 };
+			int											maxDurability{ 0 };
+			int											minDurability{ 0 };
 			//TaskObjectiveMark
 			std::vector<std::string>					markerItem;
 			//
-			int		playerLevel;
+			int											playerLevel{ 0 };
 			//TaskObjectiveQuestItem
 			std::vector<std::string>					questItem;
 			//TaskObjectiveShoot
@@ -479,7 +535,7 @@ namespace FPS_n2 {
 			std::vector<std::string>					usingWeaponMods;
 			std::vector<std::string>					wearing;
 			std::vector<std::string>					notWearing;
-			Compare			distance;
+			Compare										distance;
 			std::vector<HealthEffect>					playerHealthEffect;
 			std::vector<HealthEffect>					enemyHealthEffect;
 			//
@@ -489,16 +545,25 @@ namespace FPS_n2 {
 			std::string									status;
 			//
 			std::string									trader;
-			int											level;
+			int											level{ 0 };
 			//
-			std::string									compareMethod;
-			int											value;
+			Compare										Compares;
 			//
 		public:
 			void GetJsonData(const nlohmann::json& data) {
+				if (data.contains("__typename")) {
+					if (!data["__typename"].is_null()) {
+						std::string buf = data["__typename"];
+						for (int i = 0; i < sizeof(TypesStr) / sizeof(TypesStr[0]); i++) {
+							if (buf == TypesStr[i]) {
+								TaskObjectiveType = (EnumTaskObjective)i;
+							}
+						}
+					}
+				}
 				if (data.contains("type")) {
 					if (!data["type"].is_null()) {
-						type.emplace_back(data["type"]);
+						type = data["type"];
 					}
 				}
 				if (data.contains("description")) {
@@ -509,8 +574,8 @@ namespace FPS_n2 {
 				if (data.contains("map")) {
 					if (!data["map"].is_null()) {
 						for (const auto&m : data["map"]) {
-							std::string buf1 = m["name"];
-							Maps.emplace_back(buf1);
+							std::string buf = m["name"];
+							Maps.emplace_back(MapData::Instance()->FindID(buf.c_str()));
 						}
 					}
 				}
@@ -521,8 +586,8 @@ namespace FPS_n2 {
 				}
 				if (data.contains("item")) {
 					if (!data["item"].is_null()) {
-						std::string buf1 = data["item"]["name"];
-						Items.emplace_back(buf1);
+						std::string buf = data["item"]["name"];
+						Items = ItemData::Instance()->FindID(buf.c_str());
 					}
 				}
 				if (data.contains("containsAll")) {
@@ -670,6 +735,13 @@ namespace FPS_n2 {
 					}
 				}
 
+				if (data.contains("distance")) {
+					if (!data["distance"].is_null()) {
+						distance.GetJsonData(data["distance"]);
+					}
+				}
+
+
 				if (data.contains("playerHealthEffect")) {
 					if (!data["playerHealthEffect"].is_null()) {
 						for (const auto&m : data["playerHealthEffect"]) {
@@ -718,17 +790,7 @@ namespace FPS_n2 {
 						level = data["level"];
 					}
 				}
-
-				if (data.contains("compareMethod")) {
-					if (!data["compareMethod"].is_null()) {
-						compareMethod = data["compareMethod"];
-					}
-				}
-				if (data.contains("value")) {
-					if (!data["value"].is_null()) {
-						value = data["value"];
-					}
-				}
+				Compares.GetJsonData(data);
 			}
 		};
 		struct traderStanding {
@@ -741,17 +803,22 @@ namespace FPS_n2 {
 		};
 		struct skillLevelReward {
 			std::string							name;
-			int									level;
+			int									level{ 0 };
 			void GetJsonData(const nlohmann::json& data) {
 				name = data["name"];
 				level = data["level"];
 			}
 		};
-		struct TaskRewards{
-			std::vector<traderStanding>			m_traderStanding;
-			std::vector<std::string>			Items;
-			std::vector<skillLevelReward>		m_skillLevelReward;
-			std::vector<std::string>			traderUnlock;
+		struct TaskRewardItems {
+			ItemID ID{ InvalidID };
+			std::string Name;
+			int count{ 0 };
+		};
+		struct TaskRewards {
+			std::vector<traderStanding>						m_traderStanding;
+			std::vector<TaskRewardItems>					Items;
+			std::vector<skillLevelReward>					m_skillLevelReward;
+			std::vector<std::string>						traderUnlock;
 		public:
 			void GetJsonData(const nlohmann::json& data) {
 				if (data.contains("traderStanding")) {
@@ -762,11 +829,15 @@ namespace FPS_n2 {
 						}
 					}
 				}
-				if (data.contains("item")) {
-					if (!data["item"].is_null()) {
-						for (const auto&m : data["item"]) {
-							std::string buf1 = m["name"];
-							Items.emplace_back(buf1);
+				if (data.contains("items")) {
+					if (!data["items"].is_null()) {
+						for (const auto&m : data["items"]) {
+							TaskRewardItems buf;
+
+							buf.Name = m["item"]["name"];
+							buf.ID = ItemData::Instance()->FindID(buf.Name.c_str());
+							buf.count = m["count"];
+							Items.emplace_back(buf);
 						}
 					}
 				}
@@ -788,12 +859,11 @@ namespace FPS_n2 {
 				}
 			}
 		};
-
 	public:
 		std::string									id;
 		std::string									name;
 		TraderID									traderID{ InvalidID };
-		std::vector<std::string>					Maps;
+		std::vector<MapID>							Maps;
 		int											experience{ 0 };
 		int											minPlayerLevel{ 0 };
 		std::vector<std::pair<std::string, std::string>>	taskRequirements;
@@ -804,10 +874,9 @@ namespace FPS_n2 {
 		std::vector<TaskObjective>					failConditions;
 		TaskRewards									failureOutcome;
 		bool										restartable;
-		std::string									factionName;
 		std::vector<std::string>					neededKeys;
-		bool										kappaRequired;
-		bool										lightkeeperRequired;
+		bool										kappaRequired{ false };
+		bool										lightkeeperRequired{ false };
 	public:
 		void GetJsonData(const nlohmann::json& data) {
 			id = data["id"];
@@ -819,8 +888,8 @@ namespace FPS_n2 {
 			if (data.contains("map")) {
 				if (!data["map"].is_null()) {
 					for (const auto&m : data["map"]) {
-						std::string buf1 = m["name"];
-						Maps.emplace_back(buf1);
+						std::string buf = m["name"];
+						Maps.emplace_back(MapData::Instance()->FindID(buf.c_str()));
 					}
 				}
 			}
@@ -871,7 +940,6 @@ namespace FPS_n2 {
 			}
 			failureOutcome.GetJsonData(data["failureOutcome"]);
 			restartable = data["restartable"];
-			factionName = data["factionName"];
 			if (data.contains("neededKeys")) {
 				if (!data["neededKeys"].is_null()) {
 					for (const auto&m : data["neededKeys"]) {
@@ -882,6 +950,9 @@ namespace FPS_n2 {
 			kappaRequired = data["kappaRequired"];;
 			lightkeeperRequired = data["lightkeeperRequired"];
 		}
+	public:
+		TaskJsonData(){}
+		~TaskJsonData(){}
 	};
 
 	class TaskData : public SingletonBase<TaskData>, public DataParent<TaskID, TaskList> {
@@ -917,6 +988,208 @@ namespace FPS_n2 {
 			}
 		}
 		void SaveDatabyJson() noexcept {
+			auto SetTaskObjective = [&](std::ofstream& outputfile, const TaskJsonData::TaskObjective& obj) {
+				outputfile << "[\n";
+				outputfile << "\tTaskType=" + obj.type + "\n";
+				outputfile << "\tTaskText=" + obj.description + "\n";
+				for (auto& m : obj.Maps) {
+					outputfile << "\tTaskMap=" + MapData::Instance()->FindPtr(m)->GetName() + "\n";
+				}
+				outputfile << "\tTaskOptional=" + (std::string)(obj.optional ? "true" : "false") + "\n";
+
+				switch ((EnumTaskObjective)obj.TaskObjectiveType) {
+				case FPS_n2::EnumTaskObjective::TaskObjectiveBuildItem:
+					if (obj.Items != InvalidID) {
+						outputfile << "\tNeedItem=" + ItemData::Instance()->FindPtr(obj.Items)->GetName() + "\n";
+					}
+					for (auto& m : obj.containsAll) {
+						outputfile << "\tContainsAll=" + m + "\n";
+					}
+					for (auto& m : obj.containsCategory) {
+						outputfile << "\tContainsCategory=" + m + "\n";
+					}
+					for (auto& m : obj.attributes) {
+						outputfile << "\tAttributesName=" + m.first + "\n";
+						if (m.second.IsActive()) {
+							outputfile << "\tAttributes=" + (std::string)(CompareMethodStr[(int)m.second.compareMethod]) + "\n";
+							outputfile << "\tAttributesValue=" + std::to_string(m.second.value) + "\n";
+						}
+					}
+					break;
+				case FPS_n2::EnumTaskObjective::TaskObjectiveExperience:
+					for (auto& m : obj.healthEffect) {
+						outputfile << "\thealthEffectBody=" + m.bodyParts + "\n";
+						outputfile << "\thealthEffectEffect=" + m.effects + "\n";
+						if (m.m_time.IsActive()) {
+							outputfile << "\thealthEffect=" + (std::string)(CompareMethodStr[(int)m.m_time.compareMethod]) + "\n";
+							outputfile << "\thealthEffectValue=" + std::to_string(m.m_time.value) + "\n";
+						}
+					}
+					break;
+				case FPS_n2::EnumTaskObjective::TaskObjectiveExtract:
+					outputfile << "\texitStatus=" + obj.exitStatus + "\n";
+					outputfile << "\texitName=" + obj.exitName + "\n";
+					for (auto& m : obj.zoneNames) {
+						outputfile << "\tzoneNames=" + m + "\n";
+					}
+					break;
+				case FPS_n2::EnumTaskObjective::TaskObjectiveItem:
+					if (obj.Items != InvalidID) {
+						outputfile << "\tNeedItem=" + ItemData::Instance()->FindPtr(obj.Items)->GetName() + "x" + std::to_string(obj.count) + "\n";
+					}
+					outputfile << "\tfoundInRaid=" + (std::string)(obj.foundInRaid ? "true" : "false") + "\n";
+					outputfile << "\tDogTagLv=" + std::to_string(obj.dogTagLevel) + "\n";
+					outputfile << "\tMax=" + std::to_string(obj.maxDurability) + "\n";
+					outputfile << "\tMin=" + std::to_string(obj.minDurability) + "\n";
+					break;
+				case FPS_n2::EnumTaskObjective::TaskObjectiveMark:
+					for (auto& m : obj.markerItem) {
+						outputfile << "\tmarkerItem=" + m + "\n";
+					}
+					break;
+				case FPS_n2::EnumTaskObjective::TaskObjectivePlayerLevel:
+					outputfile << "\tplayerLevel=" + std::to_string(obj.playerLevel) + "\n";
+					break;
+				case FPS_n2::EnumTaskObjective::TaskObjectiveQuestItem:
+					for (auto& m : obj.questItem) {
+						outputfile << "\tquestItem=" + m + "\n";
+					}
+					outputfile << "\tcount=" + std::to_string(obj.count) + "\n";
+					break;
+				case FPS_n2::EnumTaskObjective::TaskObjectiveShoot:
+					outputfile << "\ttarget=" + obj.target + "x" + std::to_string(obj.count) + "\n";
+					outputfile << "\tshotType=" + obj.shotType + "\n";
+					for (auto& m : obj.zoneNames) {
+						outputfile << "\tzoneNames=" + m + "\n";
+					}
+					for (auto& m : obj.bodyParts) {
+						outputfile << "\tbodyParts=" + m + "\n";
+					}
+					for (auto& m : obj.usingWeapon) {
+						outputfile << "\tusingWeapon=" + m + "\n";
+					}
+					for (auto& m : obj.usingWeaponMods) {
+						outputfile << "\tusingWeaponMods=" + m + "\n";
+					}
+					for (auto& m : obj.wearing) {
+						outputfile << "\twearing=" + m + "\n";
+					}
+					for (auto& m : obj.notWearing) {
+						outputfile << "\tnotWearing=" + m + "\n";
+					}
+					if (obj.distance.IsActive()) {
+						outputfile << "\tdistance=" + (std::string)(CompareMethodStr[(int)obj.distance.compareMethod]) + "\n";
+						outputfile << "\tdistanceValue=" + std::to_string(obj.distance.value) + "\n";
+					}
+					for (auto& m : obj.playerHealthEffect) {
+						outputfile << "\tplayerHealthEffectbodyParts=" + m.bodyParts + "\n";
+						outputfile << "\tplayerHealthEffecteffects=" + m.effects + "\n";
+						if (m.m_time.IsActive()) {
+							outputfile << "\tplayerHealthEffect=" + (std::string)(CompareMethodStr[(int)m.m_time.compareMethod]) + "\n";
+							outputfile << "\tplayerHealthEffectValue=" + std::to_string(m.m_time.value) + "\n";
+						}
+					}
+					for (auto& m : obj.enemyHealthEffect) {
+						outputfile << "\tenemyHealthEffectbodyParts=" + m.bodyParts + "\n";
+						outputfile << "\tenemyHealthEffecteffects=" + m.effects + "\n";
+						if (m.m_time.IsActive()) {
+							outputfile << "\tenemyHealthEffect=" + (std::string)(CompareMethodStr[(int)m.m_time.compareMethod]) + "\n";
+							outputfile << "\tenemyHealthEffectValue=" + std::to_string(m.m_time.value) + "\n";
+						}
+					}
+					break;
+				case FPS_n2::EnumTaskObjective::TaskObjectiveSkill:
+					for (auto& m : obj.skillLevel) {
+						outputfile << "\tskillLevel=" + m.first + "\n";
+						outputfile << "\tskillLevelvalue=" + std::to_string(m.second) + "\n";
+					}
+					break;
+				case FPS_n2::EnumTaskObjective::TaskObjectiveTaskStatus:
+					outputfile << "\ttask=" + obj.task + "\n";
+					outputfile << "\tstatus=" + obj.status + "\n";
+					break;
+				case FPS_n2::EnumTaskObjective::TaskObjectiveTraderLevel:
+					outputfile << "\ttrader=" + obj.trader + "\n";
+					outputfile << "\tLL=" + std::to_string(obj.level) + "\n";
+					break;
+				case FPS_n2::EnumTaskObjective::TaskObjectiveTraderStanding:
+					if (obj.Compares.IsActive()) {
+						outputfile << "\tcompareMethod=" + (std::string)(CompareMethodStr[(int)obj.Compares.compareMethod]) + "\n";
+						outputfile << "\tvalue=" + std::to_string(obj.Compares.value) + "\n";
+					}
+					break;
+				case FPS_n2::EnumTaskObjective::TaskObjectiveUseItem:
+					if (obj.Compares.IsActive()) {
+						outputfile << "\tcompareMethod=" + (std::string)(CompareMethodStr[(int)obj.Compares.compareMethod]) + "\n";
+						outputfile << "\tvalue=" + std::to_string(obj.Compares.value) + "\n";
+					}
+					for (auto& m : obj.zoneNames) {
+						outputfile << "\tzoneNames=" + m + "\n";
+					}
+					break;
+				default:
+					break;
+				}
+				outputfile << "]\n";
+			};
+			auto SetTaskRewards = [&](std::ofstream& outputfile, const TaskJsonData::TaskRewards& obj) {
+				outputfile << "[\n";
+				for (auto& m : obj.m_traderStanding) {
+					outputfile << "\ttraderStanding=" + m.trader + ((m.standing >= 0) ? "+" : "") + std::to_string(m.standing) + "\n";
+				}
+				for (auto& m : obj.Items) {
+					if (m.ID != InvalidID) {
+						outputfile << "\tRewardItem=" + ItemData::Instance()->FindPtr(m.ID)->GetName() + "x" + std::to_string(m.count) + "\n";
+					}
+					else {
+						outputfile << "\tRewardItem=" + m.Name + "x" + std::to_string(m.count) + "\n";
+					}
+				}
+				for (auto& m : obj.m_skillLevelReward) {
+					outputfile << "\ttraderStanding=" + m.name + ((m.level >= 0) ? "+" : "") + std::to_string(m.level) + "\n";
+				}
+				for (auto& m : obj.traderUnlock) {
+					outputfile << "\ttraderUnlock=" + m + "\n";
+				}
+				outputfile << "]\n";
+			};
+			auto WriteText = [&](std::ofstream& outputfile, const TaskJsonData& jd) {
+				outputfile << "IDstr=" + jd.id + "\n";
+				outputfile << "Name=" + jd.name + "\n";
+				outputfile << "Trader=" + TraderData::Instance()->FindPtr(jd.traderID)->GetName() + "\n";
+				for (auto& m : jd.Maps) {
+					outputfile << "Task_Map=" + MapData::Instance()->FindPtr(m)->GetName() + "\n";
+
+				}
+				outputfile << "Task_EXP=" + std::to_string(jd.experience) + "\n";
+				outputfile << "NeedLevel=" + std::to_string(jd.minPlayerLevel) + "\n";
+				for (auto& tr : jd.taskRequirements) {
+					outputfile << "NeedTask=" + tr.first + "\n";
+
+				}
+				for (auto& tr : jd.traderRequirements) {
+					outputfile << "traderRequirementsName=" + tr.m_name + "\n";
+					outputfile << "traderRequirementsType=" + tr.m_requirementType + "\n";
+					outputfile << "traderRequirements=" + tr.m_compareMethod + "\n";
+					outputfile << "traderRequirementsValue=" + std::to_string(tr.m_Value) + "\n";
+				}
+				for (auto& ob : jd.objectives) {
+					SetTaskObjective(outputfile, ob);
+				}
+				SetTaskRewards(outputfile, jd.startRewards);
+				SetTaskRewards(outputfile, jd.finishRewards);
+				for (auto& ob : jd.failConditions) {
+					SetTaskObjective(outputfile, ob);
+				}
+				SetTaskRewards(outputfile, jd.failureOutcome);
+				outputfile << "restartable=" + (std::string)(jd.restartable ? "true" : "false") + "\n";
+				for (auto& n : jd.neededKeys) {
+					outputfile << "neededKeys=" + n + "\n";
+				}
+				outputfile << "kappaRequired=" + (std::string)(jd.kappaRequired ? "true" : "false") + "\n";
+				outputfile << "lightkeeperRequired=" + (std::string)(jd.lightkeeperRequired ? "true" : "false") + "\n";
+			};
+
 			for (auto& L : m_List) {
 				for (auto& jd : m_TaskJsonData) {
 					if (L.GetIDstr() == jd.id) {
@@ -925,8 +1198,7 @@ namespace FPS_n2 {
 						jd.m_IsFileOpened = true;
 
 						std::ofstream outputfile(L.GetFilePath());
-						outputfile << "IDstr=" + jd.id + "\n";
-						outputfile << "Name=" + jd.name + "\n";
+						WriteText(outputfile, jd);
 						outputfile.close();
 						break;
 					}
@@ -949,15 +1221,14 @@ namespace FPS_n2 {
 							break;
 						}
 					}
-
 					std::string Name = "data/task/Maked/" + TaskName + ".txt";
 					std::ofstream outputfile(Name);
-					outputfile << "IDstr=" + jd.id + "\n";
-					outputfile << "Name=" + jd.name + "\n";
+					WriteText(outputfile, jd);
 					outputfile.close();
 				}
 			}
 		}
+
 		void CheckThroughJson(void) noexcept {
 			for (auto& t : m_List) {
 				if (t.m_CheckJson == 0) {

@@ -1,0 +1,36 @@
+IDstr=5936d90786f7742b1420ba5b
+Name=Debut
+Trader=Prapor
+Task_EXP=1700
+NeedLevel=1
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs all over the Tarkov territory
+	TaskOptional=false
+	target=Scavsx5
+	shotType=kill
+]
+[
+	TaskType=giveItem
+	TaskText=Obtain and hand over MP-133 12ga shotguns
+	TaskOptional=false
+	NeedItem=MP-133 12ga pump-action shotgunx2
+	foundInRaid=false
+	DogTagLv=0
+	Max=100
+	Min=0
+]
+[
+]
+[
+	traderStanding=Prapor+0.020000
+	traderStanding=Jaeger+0.010000
+	RewardItem=Roublesx15000
+	RewardItem=PP-91 "Kedr" 9x18PM submachine gun Defaultx1
+	RewardItem=9x18mm PM BZhT gzhx60
+]
+[
+]
+restartable=false
+kappaRequired=true
+lightkeeperRequired=true
