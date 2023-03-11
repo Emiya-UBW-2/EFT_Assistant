@@ -4,6 +4,8 @@ ShortName=AirFrame
 Itemtype=Headwear
 Conflict=[
 	Faceless mask,
+	Tagilla's welding mask "Gorilla",
+	Tagilla's welding mask "UBEY"
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -20,3 +22,4 @@ Sell_Peacekeeper=474
 Sell_Ragman=75113
 weight=0.880000
 fleaMarketFee=0
+propertiestype=ItemPropertiesHelmet

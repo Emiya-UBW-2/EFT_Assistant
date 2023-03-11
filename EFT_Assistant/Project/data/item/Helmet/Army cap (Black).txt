@@ -6,6 +6,8 @@ Conflict=[
 	Faceless mask,
 	Ghoul mask,
 	GP-7 gas mask,
+	Tagilla's welding mask "Gorilla",
+	Tagilla's welding mask "UBEY"
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -13,13 +15,14 @@ Information_Eng=A regular army cap, colored in black.
 basePrice=4353
 width=1
 height=1
-avg24hPrice=11249
-low24hPrice=7777
-lastOfferCount=4
+avg24hPrice=17364
+low24hPrice=12000
+lastOfferCount=13
 Sell_Fence=1741
 Sell_Skier=2132
 Sell_Peacekeeper=17
 Sell_Ragman=2698
-Sell_Flea Market=10000
+Sell_Flea Market=12000
 weight=0.100000
-fleaMarketFee=1044
+fleaMarketFee=709
+propertiestype=

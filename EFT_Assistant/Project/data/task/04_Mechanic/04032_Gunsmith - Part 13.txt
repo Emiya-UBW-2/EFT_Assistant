@@ -1,0 +1,38 @@
+IDstr=5ac244c486f77413e12cf945
+Name=Gunsmith - Part 13
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 12
+NeedLevel=25
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+NeedItem=Remington R11 RSASS 7.62x51 marksman riflex1
+ContainsCategory=Silencer
+Task_Else=accuracy >= 0
+Task_Else=durability >= 60
+Task_Else=effectiveDistance >= 1500
+Task_Else=ergonomics >= 26
+Task_Else=height >= 0
+Task_Else=magazineCapacity >= 0
+Task_Else=muzzleVelocity >= 0
+Task_Else=recoil <= 300
+Task_Else=weight <= 6
+Task_Else=width >= 0
+
+[
+	TaskType=buildWeapon
+	TaskText=Modify an R11 RSASS to comply with the given specifications
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.020000
+Reward_Item=[
+	Dollarsx500,
+	Corrugated hosex2,
+	Pack of nailsx2
+]
+
+Reward_EXP=13600

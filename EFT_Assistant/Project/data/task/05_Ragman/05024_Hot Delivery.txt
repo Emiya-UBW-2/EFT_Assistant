@@ -1,0 +1,42 @@
+IDstr=5b478b1886f7744d1b23c57d
+Name=Hot Delivery
+Trader=Ragman
+
+NeedTask=Gratitude
+NeedLevel=29
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Interchange
+Task_NotFiR_HandOver=[Peltor ComTac 2 headsetx2]
+DogTagLv=0
+Task_NotFiR_HandOver=[6B47 Ratnik-BSh helmetx2]
+DogTagLv=0
+Task_NotFiR_HandOver=[BNTI Gzhel-K body armorx2]
+DogTagLv=0
+
+[
+	TaskType=plantItem
+	TaskText=Stash Peltor ComTac 2 in the specified place
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Stash 6B47 Helmets in the specified place
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Stash BNTI Gzhel-K armor in the specified place
+	TaskOptional=false
+]
+
+Reward_Rep=Ragman+0.040000
+Reward_Item=[
+	Roublesx55000,
+	IOTV Gen4 body armor (full protection)x1
+]
+
+Reward_EXP=20300

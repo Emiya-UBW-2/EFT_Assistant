@@ -1,0 +1,87 @@
+IDstr=60e71c48c1bfa3050473b8e5
+Name=Crisis
+Trader=Therapist
+
+NeedTask=Athlete
+NeedLevel=48
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+NeedItem=Portable defibrillatorx5
+NeedItem=Ophthalmoscopex5
+NeedItem=LEDX Skin Transilluminatorx5
+NeedItem=Pile of medsx20
+NeedItem=Bottle of OLOLO Multivitaminsx10
+Task_FiR_HandOver=[Portable defibrillatorx5]
+DogTagLv=0
+Task_FiR_HandOver=[Ophthalmoscopex5]
+DogTagLv=0
+Task_FiR_HandOver=[LEDX Skin Transilluminatorx5]
+DogTagLv=0
+Task_FiR_HandOver=[Pile of medsx20]
+DogTagLv=0
+Task_FiR_HandOver=[Bottle of OLOLO Multivitaminsx10]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Find Portable defibrillators in raid
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Ophthalmoscopes in raid
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find LEDX Skin Transilluminators in raid
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Piles of meds in raid
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Bottles of OLOLO Multivitamins in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the defibrillators
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the ophthalmoscopes
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the LEDX
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the Piles of meds
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the multivitamins
+	TaskOptional=false
+]
+
+Reward_Item=[
+	AFAK tactical individual first aid kitx5,
+	SJ6 TGLabs combat stimulant injectorx5,
+	Medicine casex1
+]
+Reward_SkillLevelUp=Immunity+1
+Reward_SkillLevelUp=Vitality+1
+
+Reward_EXP=97000

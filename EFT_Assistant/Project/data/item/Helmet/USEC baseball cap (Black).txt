@@ -9,6 +9,8 @@ Conflict=[
 	Pestily plague mask,
 	Slender mask,
 	GP-7 gas mask,
+	Tagilla's welding mask "Gorilla",
+	Tagilla's welding mask "UBEY"
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -16,13 +18,14 @@ Information_Eng=A tactical USEC PMC baseball cap. Black version.
 basePrice=1732
 width=1
 height=1
-avg24hPrice=7500
-low24hPrice=10000
-lastOfferCount=2
+avg24hPrice=10750
+low24hPrice=5000
+lastOfferCount=1
 Sell_Fence=692
 Sell_Skier=848
 Sell_Peacekeeper=7
 Sell_Ragman=1073
-Sell_Flea Market=5000
+Sell_Flea Market=11000
 weight=0.100000
-fleaMarketFee=579
+fleaMarketFee=1002
+propertiestype=

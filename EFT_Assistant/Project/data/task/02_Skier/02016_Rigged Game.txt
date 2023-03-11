@@ -1,0 +1,54 @@
+IDstr=5edabd13218d181e29451442
+Name=Rigged Game
+Trader=Skier
+
+NeedTask=Anesthesia
+NeedLevel=21
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Shoreline
+Task_NotFiR_HandOver=[MS2000 Markerx1]
+DogTagLv=0
+Task_NotFiR_HandOver=[MS2000 Markerx1]
+DogTagLv=0
+Task_NotFiR_HandOver=[MS2000 Markerx1]
+DogTagLv=0
+Task_Map=Shoreline
+Task_Else=脱出ステータス:[Survived,Run Through]
+
+[
+	TaskType=plantItem
+	TaskText=Mark the medical container at the Health Resort with an MS2000 Marker on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Mark the medical container by cottages with an MS2000 Marker on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Mark the medical container at the river pier with an MS2000 Marker on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Item=[
+	MS2000 Markerx3
+]
+Reward_Rep=Skier+0.050000
+Reward_Item=[
+	Roublesx150000,
+	HK MP5 9x19 submachine gun (Navy 3 Round Burst) SDx1,
+	HK MP5 9x19 30-round magazinex3,
+	9x19mm Luger CCIx120
+]
+
+Reward_EXP=12900

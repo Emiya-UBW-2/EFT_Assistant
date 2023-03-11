@@ -4,6 +4,8 @@ ShortName=LShZ-2DTM
 Itemtype=Headwear
 Conflict=[
 	Faceless mask,
+	Tagilla's welding mask "Gorilla",
+	Tagilla's welding mask "UBEY"
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -11,13 +13,14 @@ Information_Eng=The LShZ-2DTM helmet is intended for periodic wearing with the p
 basePrice=98600
 width=2
 height=2
-avg24hPrice=91542
-low24hPrice=79800
-lastOfferCount=48
+avg24hPrice=78697
+low24hPrice=69000
+lastOfferCount=25
 Sell_Fence=39440
 Sell_Skier=48314
 Sell_Peacekeeper=386
 Sell_Ragman=61132
-Sell_Flea Market=84000
+Sell_Flea Market=77500
 weight=3.400000
-fleaMarketFee=8307
+fleaMarketFee=5350
+propertiestype=ItemPropertiesHelmet

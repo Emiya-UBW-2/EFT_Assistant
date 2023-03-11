@@ -1,0 +1,44 @@
+IDstr=5ac345dc86f774288030817f
+Name=Farming - Part 1
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 1
+NeedLevel=12
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Map=Factory
+Task_NotFiR_HandOver=[Toolsetx1]
+DogTagLv=0
+Task_NotFiR_HandOver=[Toolsetx1]
+DogTagLv=0
+Task_Map=Factory
+Task_Map=Night Factory
+Task_Else=脱出ステータス:[Survived,Run Through]
+
+[
+	TaskType=plantItem
+	TaskText=Fix the first control board with a Toolset on Factory
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Fix the second control board with a Toolset on Factory
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.020000
+Reward_Item=[
+	Roublesx25000,
+	Light bulbx2,
+	Radiator helixx2
+]
+
+Reward_EXP=6600

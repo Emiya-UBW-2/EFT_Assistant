@@ -1,0 +1,34 @@
+IDstr=6089732b59b92115597ad789
+Name=Surplus Goods
+Trader=Mechanic
+
+NeedTask=Back Door
+NeedLevel=14
+NeedItem=[RB-ST keyx1]
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Reserve
+Task_Else=èEÇ¡Çƒî[ïi:Reserve-MBT Integrated Navigation Systemx1
+
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the MBT Integrated Navigation System on Reserve
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the navigation complex
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.020000
+Reward_Item=[
+	Roublesx40000,
+	Ultraviolet lampx2,
+	Energy-saving lampx2
+]
+
+Reward_EXP=7500

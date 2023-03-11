@@ -1,0 +1,53 @@
+IDstr=639670029113f06a7c3b2377
+Name=Following the Bread Crumbs
+Trader=Lightkeeper
+
+NeedTask=Provocation
+NeedLevel=35
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Kill=[
+	Raiderx20
+]
+Task_Else=TaskType:visit
+Task_Else=Search the weapon testing area
+Task_Else=TaskType:visit
+Task_Else=Search the human experiment room
+Task_Else=E‚Á‚Ä”[•i:The Lab-Secured tapex1
+Task_Else=E‚Á‚Ä”[•i:Lighthouse-Secured tapex1
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Raiders
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Search the weapon testing area
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Search the human experiment room
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the secured tape inside the manager's office
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Bring the tape to Lightkeeper
+	TaskOptional=false
+]
+
+Reward_Rep=Lightkeeper+0.010000
+Reward_Item=[
+	Far-forward GPS Signal Amplifier Unitx1
+]
+
+Reward_EXP=0

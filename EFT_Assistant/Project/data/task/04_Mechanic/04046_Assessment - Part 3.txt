@@ -1,0 +1,46 @@
+IDstr=625d7001c4874104f230c0c5
+Name=Assessment - Part 3
+Trader=Mechanic
+
+NeedTask=Assessment - Part 2
+NeedLevel=35
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=true
+
+Task_Map=The Lab
+Task_Kill=[
+	The Lab-Raiderx10
+]
+Task_FiR_HandOver=[SJ1 TGLabs combat stimulant injectorx20]
+DogTagLv=0
+Task_FiR_HandOver=[SJ6 TGLabs combat stimulant injectorx8]
+DogTagLv=0
+Task_FiR_HandOver=[SJ9 TGLabs combat stimulant injectorx2]
+DogTagLv=0
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Raiders in The Lab
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid SJ1 TGLabs combat stimulant injector
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid SJ6 TGLabs combat stimulant injector
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid SJ9 TGLabs combat stimulant injector
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.010000
+
+Reward_EXP=24800

@@ -1,0 +1,27 @@
+IDstr=5ac3479086f7742880308199
+Name=Insider
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 3
+NeedTask=Signal - Part 1
+NeedLevel=12
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Else=traderLL:PraporLL3
+
+[
+	TaskType=traderLevel
+	TaskText=Reach level 3 loyalty with Prapor
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.020000
+Reward_Item=[
+	Eurosx800,
+	SilencerCo Osprey 9 9x19 sound suppressorx2
+]
+
+Reward_EXP=6700

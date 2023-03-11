@@ -1,0 +1,56 @@
+IDstr=5c12452c86f7744b83469073
+Name=Perfect Mediator
+Trader=Prapor
+
+NeedTask=Shaking up the Teller
+NeedLevel=35
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Else=traderLL:RagmanLL4
+Task_Else=traderLL:SkierLL4
+Task_Else=traderLL:MechanicLL4
+Task_Else=traderLL:PeacekeeperLL4
+Task_Else=traderLL:PraporLL4
+Task_Else=traderLL:TherapistLL4
+
+[
+	TaskType=traderLevel
+	TaskText=Reach level 4 loyalty with Ragman
+	TaskOptional=false
+]
+[
+	TaskType=traderLevel
+	TaskText=Reach level 4 loyalty with Skier
+	TaskOptional=false
+]
+[
+	TaskType=traderLevel
+	TaskText=Reach level 4 loyalty with Mechanic
+	TaskOptional=false
+]
+[
+	TaskType=traderLevel
+	TaskText=Reach level 4 loyalty with Peacekeeper
+	TaskOptional=false
+]
+[
+	TaskType=traderLevel
+	TaskText=Reach level 4 loyalty with Prapor
+	TaskOptional=false
+]
+[
+	TaskType=traderLevel
+	TaskText=Reach level 4 loyalty with Therapist
+	TaskOptional=false
+]
+
+Reward_Rep=Prapor+0.020000
+Reward_Item=[
+	Roublesx55000,
+	T H I C C Weapon casex1
+]
+
+Reward_EXP=20900

@@ -18,3 +18,4 @@ Sell_Peacekeeper=1115
 Sell_Ragman=176700
 weight=9.000000
 fleaMarketFee=0
+propertiestype=ItemPropertiesArmor

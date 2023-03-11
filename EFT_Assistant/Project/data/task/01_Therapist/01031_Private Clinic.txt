@@ -1,0 +1,47 @@
+IDstr=5c0be5fc86f774467a116593
+Name=Private Clinic
+Trader=Therapist
+
+NeedTask=Health Care Privacy - Part 4
+NeedLevel=35
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+NeedItem=Ophthalmoscopex1
+NeedItem=LEDX Skin Transilluminatorx1
+Task_FiR_HandOver=[Ophthalmoscopex1]
+DogTagLv=0
+Task_FiR_HandOver=[LEDX Skin Transilluminatorx1]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Find Ophthalmoscope in raid
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find LEDX Skin Transilluminator in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the Ophthalmoscope
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the LEDX Skin Transilluminator
+	TaskOptional=false
+]
+
+Reward_Rep=Therapist+0.050000
+Reward_Item=[
+	Roublesx130000,
+	Health Resort east wing room 306 keyx1,
+	T H I C C item casex1
+]
+
+Reward_EXP=30600

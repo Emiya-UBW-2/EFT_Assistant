@@ -1,0 +1,31 @@
+IDstr=638fcd23dc65553116701d33
+Name=Audit
+Trader=Ragman
+
+NeedTask=Only Business
+NeedLevel=17
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+Task_Else=E‚Á‚Ä”[•i:Streets of Tarkov-Accountant's notesx1
+
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the financial records on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the journal
+	TaskOptional=false
+]
+
+Reward_Rep=Ragman+0.020000
+Reward_Item=[
+	Roublesx200000
+]
+
+Reward_EXP=8700

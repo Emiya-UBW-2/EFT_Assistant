@@ -1,0 +1,29 @@
+IDstr=60e71c9ad54b755a3b53eb66
+Name=The Cleaner
+Trader=Peacekeeper
+
+NeedTask=The Guide
+NeedLevel=40
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Reserve
+Task_Kill=[
+	Reserve-Raiderx50
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Raiders on Reserve
+	TaskOptional=false
+]
+
+Reward_Item=[
+	Eurosx3000
+]
+Reward_SkillLevelUp=DMRs+1
+Reward_SkillLevelUp=SMGs+1
+
+Reward_EXP=84000

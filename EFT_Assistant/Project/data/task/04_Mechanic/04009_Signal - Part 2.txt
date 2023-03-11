@@ -1,0 +1,71 @@
+IDstr=5ac346a886f7744e1b083d67
+Name=Signal - Part 2
+Trader=Mechanic
+
+NeedTask=Signal - Part 1
+NeedLevel=12
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+NeedItem=PC CPUx3
+Task_FiR_HandOver=[PC CPUx3]
+DogTagLv=0
+NeedItem=Rechargeable batteryx3
+Task_FiR_HandOver=[Rechargeable batteryx3]
+DogTagLv=0
+NeedItem=Printed circuit boardx3
+Task_FiR_HandOver=[Printed circuit boardx3]
+DogTagLv=0
+NeedItem=Broken GPhone smartphonex3
+Task_FiR_HandOver=[Broken GPhone smartphonex3]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Find PC CPUs in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the CPUs
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Rechargeable batteries in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the batteries
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Printed circuit boards in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the PCBs
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Broken GPhone smartphones in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the phones
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.020000
+Reward_Item=[
+	Roublesx50000
+]
+
+Reward_EXP=6700

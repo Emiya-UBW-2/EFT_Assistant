@@ -1,0 +1,39 @@
+IDstr=5d2495a886f77425cd51e403
+Name=Introduction
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 1
+NeedLevel=2
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Map=Woods
+Task_Else=TaskType:visit
+Task_Else=Find Jaeger's camp at the specified spot on Woods
+Task_Else=èEÇ¡Çƒî[ïi:Woods-Encrypted messagex1
+
+[
+	TaskType=visit
+	TaskText=Find Jaeger's camp at the specified spot on Woods
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Obtain Jaeger's encrypted message
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the message
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.030000
+Reward_Item=[
+	Roublesx30000
+]
+Reward_TraderUnlock=Jaeger
+
+Reward_EXP=4500

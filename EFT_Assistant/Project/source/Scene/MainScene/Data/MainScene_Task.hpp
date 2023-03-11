@@ -105,15 +105,27 @@ namespace FPS_n2 {
 						EnemyKill tmp;
 						auto MP = mes.rfind("-");
 						if (MP != std::string::npos) {
+							std::string Name = mes.substr(MP + 1, L - (MP + 1));
+							auto kakko = Name.find("{");
+							if (kakko != std::string::npos) {
+								Name = Name.substr(0, kakko);
+							}
+
 							tmp.Set(
 								MapData::Instance()->FindID(mes.substr(0, MP).c_str()),
-								EnemyData::Instance()->FindID(mes.substr(MP + 1, L - (MP + 1)).c_str()),
+								EnemyData::Instance()->FindID(Name.c_str()),
 								std::stoi(mes.substr(L + 1)));
 						}
 						else {
+							std::string Name = mes.substr(0, L);
+							auto kakko = Name.find("{");
+							if (kakko != std::string::npos) {
+								Name = Name.substr(0, kakko);
+							}
+
 							tmp.Set(
 								InvalidID,
-								EnemyData::Instance()->FindID(mes.substr(0, L).c_str()),
+								EnemyData::Instance()->FindID(Name.c_str()),
 								std::stoi(mes.substr(L + 1)));
 						}
 						this->m_Kill.emplace_back(tmp);
@@ -393,6 +405,7 @@ namespace FPS_n2 {
 	};
 
 	enum class EnumTaskObjective {
+		TaskObjectiveBasic,
 		TaskObjectiveBuildItem,
 		TaskObjectiveExperience,
 		TaskObjectiveExtract,
@@ -409,19 +422,20 @@ namespace FPS_n2 {
 		Max,
 	};
 	static const char* TypesStr[(int)EnumTaskObjective::Max] = {
-	"TaskObjectiveBuildItem",
-	"TaskObjectiveExperience",
-	"TaskObjectiveExtract",
-	"TaskObjectiveItem",
-	"TaskObjectiveMark",
-	"TaskObjectivePlayerLevel",
-	"TaskObjectiveQuestItem",
-	"TaskObjectiveShoot",
-	"TaskObjectiveSkill",
-	"TaskObjectiveTaskStatus",
-	"TaskObjectiveTraderLevel",
-	"TaskObjectiveTraderStanding",
-	"TaskObjectiveUseItem",
+		"TaskObjectiveBasic",
+		"TaskObjectiveBuildItem",
+		"TaskObjectiveExperience",
+		"TaskObjectiveExtract",
+		"TaskObjectiveItem",
+		"TaskObjectiveMark",
+		"TaskObjectivePlayerLevel",
+		"TaskObjectiveQuestItem",
+		"TaskObjectiveShoot",
+		"TaskObjectiveSkill",
+		"TaskObjectiveTaskStatus",
+		"TaskObjectiveTraderLevel",
+		"TaskObjectiveTraderStanding",
+		"TaskObjectiveUseItem",
 	};
 
 	enum class EnumCompareMethod {
@@ -474,19 +488,25 @@ namespace FPS_n2 {
 			}
 		};
 		struct HealthEffect {
-			std::string		bodyParts;
-			std::string		effects;
-			Compare			m_time;
+			std::vector<std::string>		bodyParts;
+			std::vector<std::string>		effects;
+			Compare							m_time;
 		public:
 			void GetJsonData(const nlohmann::json& data) {
 				if (data.contains("bodyParts")) {
 					if (!data["bodyParts"].is_null()) {
-						bodyParts = data["bodyParts"];
+						for (auto& m : data["bodyParts"]) {
+							std::string buf = m;
+							bodyParts.emplace_back(buf);
+						}
 					}
 				}
 				if (data.contains("effects")) {
 					if (!data["effects"].is_null()) {
-						effects = data["effects"];
+						for (auto& m : data["effects"]) {
+							std::string buf = m;
+							effects.emplace_back(buf);
+						}
 					}
 				}
 				if (data.contains("time")) {
@@ -512,7 +532,7 @@ namespace FPS_n2 {
 			//TaskObjectiveExperience
 			std::vector<HealthEffect>					healthEffect;
 			//TaskObjectiveExtract
-			std::string									exitStatus;
+			std::vector<std::string>					exitStatus;
 			std::string									exitName;
 			std::vector<std::string>					zoneNames;
 			//TaskObjectiveItem
@@ -522,13 +542,13 @@ namespace FPS_n2 {
 			int											maxDurability{ 0 };
 			int											minDurability{ 0 };
 			//TaskObjectiveMark
-			std::vector<std::string>					markerItem;
+			std::string									markerItem;
 			//
 			int											playerLevel{ 0 };
 			//TaskObjectiveQuestItem
-			std::vector<std::string>					questItem;
+			std::string									questItem;
 			//TaskObjectiveShoot
-			std::string									target;
+			EnemyID										target{ InvalidID };
 			std::string									shotType;
 			std::vector<std::string>					bodyParts;
 			std::vector<std::string>					usingWeapon;
@@ -536,13 +556,13 @@ namespace FPS_n2 {
 			std::vector<std::string>					wearing;
 			std::vector<std::string>					notWearing;
 			Compare										distance;
-			std::vector<HealthEffect>					playerHealthEffect;
-			std::vector<HealthEffect>					enemyHealthEffect;
+			HealthEffect								playerHealthEffect;
+			HealthEffect								enemyHealthEffect;
 			//
 			std::vector<std::pair<std::string, float>>	skillLevel;
 			//
 			std::string									task;
-			std::string									status;
+			std::vector<std::string>					status;
 			//
 			std::string									trader;
 			int											level{ 0 };
@@ -571,9 +591,9 @@ namespace FPS_n2 {
 						description = data["description"];
 					}
 				}
-				if (data.contains("map")) {
-					if (!data["map"].is_null()) {
-						for (const auto&m : data["map"]) {
+				if (data.contains("maps")) {
+					if (!data["maps"].is_null()) {
+						for (const auto&m : data["maps"]) {
 							std::string buf = m["name"];
 							Maps.emplace_back(MapData::Instance()->FindID(buf.c_str()));
 						}
@@ -625,7 +645,9 @@ namespace FPS_n2 {
 				}
 				if (data.contains("exitStatus")) {
 					if (!data["exitStatus"].is_null()) {
-						exitStatus = data["exitStatus"];
+						for (const auto&m : data["exitStatus"]) {
+							exitStatus.emplace_back(m);
+						}
 					}
 				}
 				if (data.contains("exitName")) {
@@ -669,25 +691,20 @@ namespace FPS_n2 {
 
 				if (data.contains("markerItem")) {
 					if (!data["markerItem"].is_null()) {
-						for (const auto&m : data["markerItem"]) {
-							std::string buf1 = m["name"];
-							markerItem.emplace_back(buf1);
-						}
+						markerItem = data["markerItem"]["name"];
 					}
 				}
 
 				if (data.contains("questItem")) {
 					if (!data["questItem"].is_null()) {
-						for (const auto&m : data["questItem"]) {
-							std::string buf1 = m["name"];
-							questItem.emplace_back(buf1);
-						}
+						questItem = data["questItem"]["name"];
 					}
 				}
 
 				if (data.contains("target")) {
 					if (!data["target"].is_null()) {
-						target = data["target"];
+						std::string buf = data["target"];
+						target = EnemyData::Instance()->FindID(buf.c_str());
 					}
 				}
 				if (data.contains("shotType")) {
@@ -713,16 +730,20 @@ namespace FPS_n2 {
 				if (data.contains("usingWeaponMods")) {
 					if (!data["usingWeaponMods"].is_null()) {
 						for (const auto&m : data["usingWeaponMods"]) {
-							std::string buf1 = m["name"];
-							usingWeaponMods.emplace_back(buf1);
+							for (const auto&m2 : m) {
+								std::string buf1 = m2["name"];
+								usingWeaponMods.emplace_back(buf1);
+							}
 						}
 					}
 				}
 				if (data.contains("wearing")) {
 					if (!data["wearing"].is_null()) {
 						for (const auto&m : data["wearing"]) {
-							std::string buf1 = m["name"];
-							wearing.emplace_back(buf1);
+							for (const auto&m2 : m) {
+								std::string buf1 = m2["name"];
+								wearing.emplace_back(buf1);
+							}
 						}
 					}
 				}
@@ -744,28 +765,20 @@ namespace FPS_n2 {
 
 				if (data.contains("playerHealthEffect")) {
 					if (!data["playerHealthEffect"].is_null()) {
-						for (const auto&m : data["playerHealthEffect"]) {
-							HealthEffect buf1; buf1.GetJsonData(m);
-							playerHealthEffect.emplace_back(buf1);
-						}
+						playerHealthEffect.GetJsonData(data["playerHealthEffect"]);
 					}
 				}
 				if (data.contains("enemyHealthEffect")) {
 					if (!data["enemyHealthEffect"].is_null()) {
-						for (const auto&m : data["enemyHealthEffect"]) {
-							HealthEffect buf1; buf1.GetJsonData(m);
-							enemyHealthEffect.emplace_back(buf1);
-						}
+						enemyHealthEffect.GetJsonData(data["enemyHealthEffect"]);
 					}
 				}
 
 				if (data.contains("skillLevel")) {
 					if (!data["skillLevel"].is_null()) {
-						for (const auto&m : data["skillLevel"]) {
-							std::string buf1 = m["name"];
-							float buf2 = m["level"];
-							skillLevel.emplace_back(std::make_pair(buf1, buf2));
-						}
+						std::string buf1 = data["skillLevel"]["name"];
+						float buf2 = data["skillLevel"]["level"];
+						skillLevel.emplace_back(std::make_pair(buf1, buf2));
 					}
 				}
 
@@ -776,7 +789,10 @@ namespace FPS_n2 {
 				}
 				if (data.contains("status")) {
 					if (!data["status"].is_null()) {
-						status = data["status"];
+						for (const auto&m : data["status"]) {
+							std::string buf1 = m;
+							status.emplace_back(buf1);
+						}
 					}
 				}
 
@@ -863,7 +879,7 @@ namespace FPS_n2 {
 		std::string									id;
 		std::string									name;
 		TraderID									traderID{ InvalidID };
-		std::vector<MapID>							Maps;
+		MapID										MapID{ InvalidID };
 		int											experience{ 0 };
 		int											minPlayerLevel{ 0 };
 		std::vector<std::pair<std::string, std::string>>	taskRequirements;
@@ -887,10 +903,8 @@ namespace FPS_n2 {
 			}
 			if (data.contains("map")) {
 				if (!data["map"].is_null()) {
-					for (const auto&m : data["map"]) {
-						std::string buf = m["name"];
-						Maps.emplace_back(MapData::Instance()->FindID(buf.c_str()));
-					}
+					std::string buf = data["map"]["name"];
+					MapID = MapData::Instance()->FindID(buf.c_str());
 				}
 			}
 			if (data.contains("experience")) {
@@ -906,7 +920,7 @@ namespace FPS_n2 {
 			if (data.contains("taskRequirements")) {
 				for (const auto&m : data["taskRequirements"]) {
 					std::string buf1 = m["task"]["name"];
-					std::string buf2 = m["status"];
+					std::string buf2 = m["status"][0];
 					taskRequirements.emplace_back(std::make_pair(buf1, buf2));
 				}
 			}
@@ -943,7 +957,9 @@ namespace FPS_n2 {
 			if (data.contains("neededKeys")) {
 				if (!data["neededKeys"].is_null()) {
 					for (const auto&m : data["neededKeys"]) {
-						neededKeys.emplace_back(m["keys"]["name"]);
+						for (const auto&k : m["keys"]) {
+							neededKeys.emplace_back(k["name"]);
+						}
 					}
 				}
 			}
@@ -978,7 +994,13 @@ namespace FPS_n2 {
 
 	private:
 		std::vector<TaskJsonData> m_TaskJsonData;
+
+		std::vector<int> TraderIDs;
 	public:
+		void InitDatabyJson() noexcept {
+			TraderIDs.resize(TraderData::Instance()->GetList().size());
+			for (auto&i : TraderIDs) { i = 0; }
+		}
 		void GetJsonData(nlohmann::json& data) {
 			m_TaskJsonData.clear();
 			for (const auto& d : data["data"]["tasks"]) {
@@ -988,184 +1010,405 @@ namespace FPS_n2 {
 			}
 		}
 		void SaveDatabyJson() noexcept {
-			auto SetTaskObjective = [&](std::ofstream& outputfile, const TaskJsonData::TaskObjective& obj) {
+			auto SetTaskObjectiveCommon = [&](std::ofstream& outputfile, const TaskJsonData::TaskObjective& obj) {
 				outputfile << "[\n";
 				outputfile << "\tTaskType=" + obj.type + "\n";
 				outputfile << "\tTaskText=" + obj.description + "\n";
-				for (auto& m : obj.Maps) {
-					outputfile << "\tTaskMap=" + MapData::Instance()->FindPtr(m)->GetName() + "\n";
-				}
 				outputfile << "\tTaskOptional=" + (std::string)(obj.optional ? "true" : "false") + "\n";
-
+				outputfile << "]\n";
+			};
+			auto SetTaskObjective = [&](std::ofstream& outputfile, const TaskJsonData::TaskObjective& obj, EnumTaskObjective /*prev*/) {
 				switch ((EnumTaskObjective)obj.TaskObjectiveType) {
+				case FPS_n2::EnumTaskObjective::TaskObjectiveBasic:
+				{
+					outputfile << "Task_Else=TaskType:" + obj.type + "\n";
+					outputfile << "Task_Else=" + obj.description + "\n";
+				}
+				break;
 				case FPS_n2::EnumTaskObjective::TaskObjectiveBuildItem:
+				{
+					for (auto& m : obj.Maps) {
+						outputfile << "Task_Map=" + MapData::Instance()->FindPtr(m)->GetName() + "\n";
+					}
 					if (obj.Items != InvalidID) {
-						outputfile << "\tNeedItem=" + ItemData::Instance()->FindPtr(obj.Items)->GetName() + "\n";
+						outputfile << "NeedItem=" + ItemData::Instance()->FindPtr(obj.Items)->GetName() + "x1\n";
 					}
 					for (auto& m : obj.containsAll) {
-						outputfile << "\tContainsAll=" + m + "\n";
+						outputfile << "ContainsAll=" + m + "\n";
 					}
 					for (auto& m : obj.containsCategory) {
-						outputfile << "\tContainsCategory=" + m + "\n";
+						outputfile << "ContainsCategory=" + m + "\n";
 					}
 					for (auto& m : obj.attributes) {
-						outputfile << "\tAttributesName=" + m.first + "\n";
 						if (m.second.IsActive()) {
-							outputfile << "\tAttributes=" + (std::string)(CompareMethodStr[(int)m.second.compareMethod]) + "\n";
-							outputfile << "\tAttributesValue=" + std::to_string(m.second.value) + "\n";
+							outputfile << "Task_Else=" + m.first + " " + (std::string)(CompareMethodStr[(int)m.second.compareMethod]) + " " + std::to_string(m.second.value) + "\n";
+						}
+						else {
+							outputfile << "Task_Else=" + m.first + "\n";
 						}
 					}
-					break;
+				}
+				break;
 				case FPS_n2::EnumTaskObjective::TaskObjectiveExperience:
+				{
+					for (auto& m : obj.Maps) {
+						outputfile << "Task_Map=" + MapData::Instance()->FindPtr(m)->GetName() + "\n";
+					}
 					for (auto& m : obj.healthEffect) {
-						outputfile << "\thealthEffectBody=" + m.bodyParts + "\n";
-						outputfile << "\thealthEffectEffect=" + m.effects + "\n";
+						if (m.bodyParts.size() > 0) {
+							outputfile << "Task_Else=Ž©•ª‚Ìó‘ÔˆÙí‰ÓŠ:[";
+							for (auto& m2 : m.bodyParts) {
+								outputfile << m2;
+								if (&m2 != &m.bodyParts.back()) {
+									outputfile << ",";
+								}
+							}
+							outputfile << "]\n";
+						}
+						if (m.effects.size() > 0) {
+							outputfile << "Task_Else=Ž©•ª‚Ìó‘ÔˆÙí“à—e:[";
+							for (auto& m2 : m.effects) {
+								outputfile << m2;
+								if (&m2 != &m.effects.back()) {
+									outputfile << ",";
+								}
+							}
+							outputfile << "]\n";
+						}
 						if (m.m_time.IsActive()) {
-							outputfile << "\thealthEffect=" + (std::string)(CompareMethodStr[(int)m.m_time.compareMethod]) + "\n";
-							outputfile << "\thealthEffectValue=" + std::to_string(m.m_time.value) + "\n";
+							outputfile << "Task_Else=‘Ï‹vŽžŠÔ: " + (std::string)(CompareMethodStr[(int)m.m_time.compareMethod]) + " " + std::to_string(m.m_time.value) + "\n";
 						}
 					}
-					break;
+				}
+				break;
 				case FPS_n2::EnumTaskObjective::TaskObjectiveExtract:
-					outputfile << "\texitStatus=" + obj.exitStatus + "\n";
-					outputfile << "\texitName=" + obj.exitName + "\n";
-					for (auto& m : obj.zoneNames) {
-						outputfile << "\tzoneNames=" + m + "\n";
+				{
+					for (auto& m : obj.Maps) {
+						outputfile << "Task_Map=" + MapData::Instance()->FindPtr(m)->GetName() + "\n";
 					}
-					break;
+					if (obj.exitStatus.size() > 0) {
+						outputfile << "Task_Else=’EoƒXƒe[ƒ^ƒX:[";
+						for (auto& m : obj.exitStatus) {
+							outputfile << m;
+							if (&m != &obj.exitStatus.back()) {
+								outputfile << ",";
+							}
+						}
+						outputfile << "]\n";
+					}
+					if (obj.exitName != "") {
+						outputfile << "Task_Else=’Eo’n“_:" + obj.exitName + "\n";
+					}
+					if (obj.zoneNames.size() > 0) {
+						outputfile << "Task_Else=’Eoƒ][ƒ“:[";
+						for (auto& m : obj.zoneNames) {
+							outputfile << m;
+							if (&m != &obj.zoneNames.back()) {
+								outputfile << ",";
+							}
+						}
+						outputfile << "]\n";
+					}
+				}
+				break;
 				case FPS_n2::EnumTaskObjective::TaskObjectiveItem:
-					if (obj.Items != InvalidID) {
-						outputfile << "\tNeedItem=" + ItemData::Instance()->FindPtr(obj.Items)->GetName() + "x" + std::to_string(obj.count) + "\n";
+				{
+					if (obj.type == "findItem") {
+						if (obj.Items != InvalidID) {
+							outputfile << "NeedItem=" + ItemData::Instance()->FindPtr(obj.Items)->GetName() + "x" + std::to_string(obj.count) + "\n";
+						}
 					}
-					outputfile << "\tfoundInRaid=" + (std::string)(obj.foundInRaid ? "true" : "false") + "\n";
-					outputfile << "\tDogTagLv=" + std::to_string(obj.dogTagLevel) + "\n";
-					outputfile << "\tMax=" + std::to_string(obj.maxDurability) + "\n";
-					outputfile << "\tMin=" + std::to_string(obj.minDurability) + "\n";
-					break;
+					else {
+						if (obj.Items != InvalidID) {
+							if (obj.foundInRaid) {
+								outputfile << "Task_FiR_HandOver=[" + ItemData::Instance()->FindPtr(obj.Items)->GetName() + "x" + std::to_string(obj.count) + "]\n";
+							}
+							else {
+								outputfile << "Task_NotFiR_HandOver=[" + ItemData::Instance()->FindPtr(obj.Items)->GetName() + "x" + std::to_string(obj.count) + "]\n";
+							}
+						}
+						outputfile << "DogTagLv=" + std::to_string(obj.dogTagLevel) + "\n";
+						//outputfile << "Max=" + std::to_string(obj.maxDurability) + "\n";
+						//outputfile << "Min=" + std::to_string(obj.minDurability) + "\n";
+					}
+				}
+				break;
 				case FPS_n2::EnumTaskObjective::TaskObjectiveMark:
-					for (auto& m : obj.markerItem) {
-						outputfile << "\tmarkerItem=" + m + "\n";
+				{
+					for (auto& m : obj.Maps) {
+						outputfile << "Task_Map=" + MapData::Instance()->FindPtr(m)->GetName() + "\n";
 					}
-					break;
+					outputfile << "NeedItem=" + obj.markerItem + "x1\n";
+				}
+				break;
 				case FPS_n2::EnumTaskObjective::TaskObjectivePlayerLevel:
-					outputfile << "\tplayerLevel=" + std::to_string(obj.playerLevel) + "\n";
-					break;
-				case FPS_n2::EnumTaskObjective::TaskObjectiveQuestItem:
-					for (auto& m : obj.questItem) {
-						outputfile << "\tquestItem=" + m + "\n";
+				{
+					for (auto& m : obj.Maps) {
+						outputfile << "Task_Map=" + MapData::Instance()->FindPtr(m)->GetName() + "\n";
 					}
-					outputfile << "\tcount=" + std::to_string(obj.count) + "\n";
+					outputfile << "Task_Else=ƒŒƒxƒ‹:" + std::to_string(obj.playerLevel) + "\n";
+				}
+				break;
+				case FPS_n2::EnumTaskObjective::TaskObjectiveQuestItem:
+					for (auto& m : obj.Maps) {
+						outputfile << "Task_Else=E‚Á‚Ä”[•i:" + MapData::Instance()->FindPtr(m)->GetName() + "-" + obj.questItem + "x" + std::to_string(obj.count) + "\n";
+					}
 					break;
 				case FPS_n2::EnumTaskObjective::TaskObjectiveShoot:
-					outputfile << "\ttarget=" + obj.target + "x" + std::to_string(obj.count) + "\n";
-					outputfile << "\tshotType=" + obj.shotType + "\n";
-					for (auto& m : obj.zoneNames) {
-						outputfile << "\tzoneNames=" + m + "\n";
+				{
+					outputfile << "Task_Kill=[\n";
+					if (obj.Maps.size() == 0) {
+						outputfile << "\t" + EnemyData::Instance()->FindPtr(obj.target)->GetName();
+						if (obj.bodyParts.size() > 0) {
+							outputfile << "{";
+							for (auto& m2 : obj.bodyParts) {
+								outputfile << m2;
+								if (&m2 != &obj.bodyParts.back()) {
+									outputfile << "/";
+								}
+							}
+							outputfile << "}";
+						}
+						outputfile << "x" + std::to_string(obj.count);
+						outputfile << "\n";
 					}
-					for (auto& m : obj.bodyParts) {
-						outputfile << "\tbodyParts=" + m + "\n";
+					else {
+						for (auto& m : obj.Maps) {
+							outputfile << "\t" + MapData::Instance()->FindPtr(m)->GetName() + "-" + EnemyData::Instance()->FindPtr(obj.target)->GetName();
+							if (obj.bodyParts.size() > 0) {
+								outputfile << "{";
+								for (auto& m2 : obj.bodyParts) {
+									outputfile << m2;
+									if (&m2 != &obj.bodyParts.back()) {
+										outputfile << "/";
+									}
+								}
+								outputfile << "}";
+							}
+							outputfile << "x" + std::to_string(obj.count);
+							if (&m != &obj.Maps.back()) {
+								outputfile << ",";
+							}
+							outputfile << "\n";
+						}
 					}
-					for (auto& m : obj.usingWeapon) {
-						outputfile << "\tusingWeapon=" + m + "\n";
+					outputfile << "]\n";
+
+					//outputfile << "shotType=" + obj.shotType + "\n";
+					if (obj.zoneNames.size() > 0) {
+						outputfile << "Task_Else=ƒ][ƒ“:[";
+						for (auto& m : obj.zoneNames) {
+							outputfile << m;
+							if (&m != &obj.zoneNames.back()) {
+								outputfile << ",";
+							}
+						}
+						outputfile << "]\n";
 					}
-					for (auto& m : obj.usingWeaponMods) {
-						outputfile << "\tusingWeaponMods=" + m + "\n";
+					if (obj.usingWeapon.size() > 0) {
+						outputfile << "NeedItem=[\n";
+						for (auto& m : obj.usingWeapon) {
+							outputfile << "\t" + m + "x0";
+							if (&m != &obj.usingWeapon.back()) {
+								outputfile << ",";
+							}
+							outputfile << "\n";
+						}
+						outputfile << "]\n";
 					}
-					for (auto& m : obj.wearing) {
-						outputfile << "\twearing=" + m + "\n";
+					if (obj.usingWeaponMods.size() > 0) {
+						outputfile << "NeedItem=[\n";
+						for (auto& m : obj.usingWeaponMods) {
+							outputfile << "\t" + m + "x0";
+							if (&m != &obj.usingWeaponMods.back()) {
+								outputfile << ",";
+							}
+							outputfile << "\n";
+						}
+						outputfile << "]\n";
 					}
-					for (auto& m : obj.notWearing) {
-						outputfile << "\tnotWearing=" + m + "\n";
+					if (obj.wearing.size() > 0) {
+						outputfile << "Task_Else=‘•”õ‚ª•K—v:{\n";
+						for (auto& m : obj.wearing) {
+							outputfile << "Task_Else=  " + m + "\n";
+						}
+						outputfile << "Task_Else=}\n";
+					}
+					if (obj.notWearing.size() > 0) {
+						outputfile << "Task_Else=‘•”õ‚µ‚Ä‚Í‚¢‚¯‚È‚¢:{\n";
+						for (auto& m : obj.notWearing) {
+							outputfile << "Task_Else=  " + m + "\n";
+						}
+						outputfile << "Task_Else=}\n";
 					}
 					if (obj.distance.IsActive()) {
-						outputfile << "\tdistance=" + (std::string)(CompareMethodStr[(int)obj.distance.compareMethod]) + "\n";
-						outputfile << "\tdistanceValue=" + std::to_string(obj.distance.value) + "\n";
+						outputfile << "Task_Else=‹——£: " + (std::string)(CompareMethodStr[(int)obj.distance.compareMethod]) + " " + std::to_string(obj.distance.value) + "m\n";
 					}
-					for (auto& m : obj.playerHealthEffect) {
-						outputfile << "\tplayerHealthEffectbodyParts=" + m.bodyParts + "\n";
-						outputfile << "\tplayerHealthEffecteffects=" + m.effects + "\n";
-						if (m.m_time.IsActive()) {
-							outputfile << "\tplayerHealthEffect=" + (std::string)(CompareMethodStr[(int)m.m_time.compareMethod]) + "\n";
-							outputfile << "\tplayerHealthEffectValue=" + std::to_string(m.m_time.value) + "\n";
+					{
+						if (obj.playerHealthEffect.bodyParts.size() > 0) {
+							outputfile << "Task_Else=Ž©•ª‚ÌŠY“–‰ÓŠ‚ÉˆÙíó‘Ô:[";
+							for (auto& m2 : obj.playerHealthEffect.bodyParts) {
+								outputfile << m2;
+								if (&m2 != &obj.playerHealthEffect.bodyParts.back()) {
+									outputfile << ",";
+								}
+							}
+							outputfile << "]\n";
+						}
+						if (obj.playerHealthEffect.effects.size() > 0) {
+							outputfile << "Task_Else=Ž©•ª‚ÌˆÙíó‘Ô:[";
+							for (auto& m2 : obj.playerHealthEffect.effects) {
+								outputfile << m2;
+								if (&m2 != &obj.playerHealthEffect.effects.back()) {
+									outputfile << ",";
+								}
+							}
+							outputfile << "]\n";
+						}
+						if (obj.playerHealthEffect.m_time.IsActive()) {
+							outputfile << "Task_Else=è‡’l: " + (std::string)(CompareMethodStr[(int)obj.playerHealthEffect.m_time.compareMethod]) + " " + std::to_string(obj.playerHealthEffect.m_time.value) + "\n";
 						}
 					}
-					for (auto& m : obj.enemyHealthEffect) {
-						outputfile << "\tenemyHealthEffectbodyParts=" + m.bodyParts + "\n";
-						outputfile << "\tenemyHealthEffecteffects=" + m.effects + "\n";
-						if (m.m_time.IsActive()) {
-							outputfile << "\tenemyHealthEffect=" + (std::string)(CompareMethodStr[(int)m.m_time.compareMethod]) + "\n";
-							outputfile << "\tenemyHealthEffectValue=" + std::to_string(m.m_time.value) + "\n";
+					{
+						if (obj.enemyHealthEffect.bodyParts.size() > 0) {
+							outputfile << "Task_Else=“G‚ÌŠY“–‰ÓŠ‚ÉˆÙíó‘Ô:[";
+							for (auto& m2 : obj.enemyHealthEffect.bodyParts) {
+								outputfile << m2;
+								if (&m2 != &obj.enemyHealthEffect.bodyParts.back()) {
+									outputfile << ",";
+								}
+							}
+							outputfile << "]\n";
+						}
+						if (obj.enemyHealthEffect.effects.size() > 0) {
+							outputfile << "Task_Else=“G‚ÌˆÙíó‘Ô:[";
+							for (auto& m2 : obj.enemyHealthEffect.effects) {
+								outputfile << m2;
+								if (&m2 != &obj.enemyHealthEffect.effects.back()) {
+									outputfile << ",";
+								}
+							}
+							outputfile << "]\n";
+						}
+						if (obj.enemyHealthEffect.m_time.IsActive()) {
+							outputfile << "Task_Else=è‡’l: " + (std::string)(CompareMethodStr[(int)obj.enemyHealthEffect.m_time.compareMethod]) + " "+ std::to_string(obj.enemyHealthEffect.m_time.value) + "\n";
 						}
 					}
-					break;
+				}
+				break;
 				case FPS_n2::EnumTaskObjective::TaskObjectiveSkill:
 					for (auto& m : obj.skillLevel) {
-						outputfile << "\tskillLevel=" + m.first + "\n";
-						outputfile << "\tskillLevelvalue=" + std::to_string(m.second) + "\n";
+						outputfile << "Task_Else=Skill‚ðã‚°‚é:" + m.first + "+" + std::to_string(m.second) + "\n";
 					}
 					break;
 				case FPS_n2::EnumTaskObjective::TaskObjectiveTaskStatus:
-					outputfile << "\ttask=" + obj.task + "\n";
-					outputfile << "\tstatus=" + obj.status + "\n";
-					break;
+				{
+					for (auto& m : obj.Maps) {
+						outputfile << "Task_Map=" + MapData::Instance()->FindPtr(m)->GetName() + "\n";
+					}
+					outputfile << "Task_Else=ŠY“–ƒ^ƒXƒN" + obj.task + "\n";
+					if (obj.status.size() > 0) {
+						outputfile << "Task_Else=ŠY“–ƒ^ƒXƒNó‘Ô:";
+						for (auto& m : obj.status) {
+							outputfile << m;
+							if (&m != &obj.status.back()) {
+								outputfile << ",";
+							}
+						}
+						outputfile << "\n";
+					}
+				}
+				break;
 				case FPS_n2::EnumTaskObjective::TaskObjectiveTraderLevel:
-					outputfile << "\ttrader=" + obj.trader + "\n";
-					outputfile << "\tLL=" + std::to_string(obj.level) + "\n";
-					break;
+				{
+					outputfile << "Task_Else=traderLL:" + obj.trader + "LL" + std::to_string(obj.level) + "\n";
+				}
+				break;
 				case FPS_n2::EnumTaskObjective::TaskObjectiveTraderStanding:
 					if (obj.Compares.IsActive()) {
-						outputfile << "\tcompareMethod=" + (std::string)(CompareMethodStr[(int)obj.Compares.compareMethod]) + "\n";
-						outputfile << "\tvalue=" + std::to_string(obj.Compares.value) + "\n";
+						outputfile << "Task_Else=TraderStanding‚Ìè‡’l: " + (std::string)(CompareMethodStr[(int)obj.Compares.compareMethod]) + " " + std::to_string(obj.Compares.value) + "\n";
 					}
 					break;
 				case FPS_n2::EnumTaskObjective::TaskObjectiveUseItem:
+				{
+					for (auto& m : obj.Maps) {
+						outputfile << "Task_Map=" + MapData::Instance()->FindPtr(m)->GetName() + "\n";
+					}
 					if (obj.Compares.IsActive()) {
-						outputfile << "\tcompareMethod=" + (std::string)(CompareMethodStr[(int)obj.Compares.compareMethod]) + "\n";
-						outputfile << "\tvalue=" + std::to_string(obj.Compares.value) + "\n";
+						outputfile << "Task_Else=è‡’l: " + (std::string)(CompareMethodStr[(int)obj.Compares.compareMethod]) + " " + std::to_string(obj.Compares.value) + "\n";
 					}
-					for (auto& m : obj.zoneNames) {
-						outputfile << "\tzoneNames=" + m + "\n";
+					if (obj.zoneNames.size() > 0) {
+						outputfile << "Task_Else=ƒ][ƒ“:[";
+						for (auto& m : obj.zoneNames) {
+							outputfile << m;
+							if (&m != &obj.zoneNames.back()) {
+								outputfile << ",";
+							}
+						}
+						outputfile << "]\n";
 					}
-					break;
+				}
+				break;
 				default:
 					break;
 				}
-				outputfile << "]\n";
 			};
 			auto SetTaskRewards = [&](std::ofstream& outputfile, const TaskJsonData::TaskRewards& obj) {
-				outputfile << "[\n";
 				for (auto& m : obj.m_traderStanding) {
-					outputfile << "\ttraderStanding=" + m.trader + ((m.standing >= 0) ? "+" : "") + std::to_string(m.standing) + "\n";
+					outputfile << "Reward_Rep=" + m.trader + ((m.standing >= 0) ? "+" : "") + std::to_string(m.standing) + "\n";
 				}
-				for (auto& m : obj.Items) {
-					if (m.ID != InvalidID) {
-						outputfile << "\tRewardItem=" + ItemData::Instance()->FindPtr(m.ID)->GetName() + "x" + std::to_string(m.count) + "\n";
+				if (obj.Items.size() > 0) {
+					outputfile << "Reward_Item=[\n";
+					for (auto& m : obj.Items) {
+						if (m.ID != InvalidID) {
+							outputfile << "\t" + ItemData::Instance()->FindPtr(m.ID)->GetName() + "x" + std::to_string(m.count);
+						}
+						else {
+							outputfile << "\t" + m.Name + "x" + std::to_string(m.count);
+						}
+						if (&m != &obj.Items.back()) {
+							outputfile << ",";
+						}
+						outputfile << "\n";
 					}
-					else {
-						outputfile << "\tRewardItem=" + m.Name + "x" + std::to_string(m.count) + "\n";
-					}
+					outputfile << "]\n";
 				}
 				for (auto& m : obj.m_skillLevelReward) {
-					outputfile << "\ttraderStanding=" + m.name + ((m.level >= 0) ? "+" : "") + std::to_string(m.level) + "\n";
+					outputfile << "Reward_SkillLevelUp=" + m.name + ((m.level >= 0) ? "+" : "") + std::to_string(m.level) + "\n";
 				}
 				for (auto& m : obj.traderUnlock) {
-					outputfile << "\ttraderUnlock=" + m + "\n";
+					outputfile << "Reward_TraderUnlock=" + m + "\n";
 				}
-				outputfile << "]\n";
 			};
 			auto WriteText = [&](std::ofstream& outputfile, const TaskJsonData& jd) {
 				outputfile << "IDstr=" + jd.id + "\n";
 				outputfile << "Name=" + jd.name + "\n";
 				outputfile << "Trader=" + TraderData::Instance()->FindPtr(jd.traderID)->GetName() + "\n";
-				for (auto& m : jd.Maps) {
-					outputfile << "Task_Map=" + MapData::Instance()->FindPtr(m)->GetName() + "\n";
-
-				}
-				outputfile << "Task_EXP=" + std::to_string(jd.experience) + "\n";
-				outputfile << "NeedLevel=" + std::to_string(jd.minPlayerLevel) + "\n";
+				outputfile << "\n";
+				//
 				for (auto& tr : jd.taskRequirements) {
 					outputfile << "NeedTask=" + tr.first + "\n";
-
+				}
+				outputfile << "NeedLevel=" + std::to_string(jd.minPlayerLevel) + "\n";
+				if (jd.neededKeys.size() > 0) {
+					outputfile << "NeedItem=[";
+					for (auto& n : jd.neededKeys) {
+						outputfile << n + "x1";
+						if (&n != &jd.neededKeys.back()) {
+							outputfile << ",";
+						}
+					}
+					outputfile << "]\n";
+				}
+				outputfile << "\n";
+				//
+				outputfile << "CanRestart=" + (std::string)(jd.restartable ? "true" : "false") + "\n";
+				outputfile << "NeedKappa=" + (std::string)(jd.kappaRequired ? "true" : "false") + "\n";
+				outputfile << "NeedLightkeeper=" + (std::string)(jd.lightkeeperRequired ? "true" : "false") + "\n";
+				outputfile << "\n";
+				//
+				if (jd.MapID != InvalidID) {
+					outputfile << "Task_Map=" + MapData::Instance()->FindPtr(jd.MapID)->GetName() + "\n";
 				}
 				for (auto& tr : jd.traderRequirements) {
 					outputfile << "traderRequirementsName=" + tr.m_name + "\n";
@@ -1173,21 +1416,39 @@ namespace FPS_n2 {
 					outputfile << "traderRequirements=" + tr.m_compareMethod + "\n";
 					outputfile << "traderRequirementsValue=" + std::to_string(tr.m_Value) + "\n";
 				}
-				for (auto& ob : jd.objectives) {
-					SetTaskObjective(outputfile, ob);
+				if (jd.objectives.size() > 0) {
+					EnumTaskObjective Prev = EnumTaskObjective::Max;
+					for (auto& ob : jd.objectives) {
+						SetTaskObjective(outputfile, ob, Prev);
+						Prev = ob.TaskObjectiveType;
+					}
 				}
+				if (jd.objectives.size() > 0) {
+					outputfile << "\n";
+					for (auto& ob : jd.objectives) {
+						SetTaskObjectiveCommon(outputfile, ob);
+					}
+				}
+				outputfile << "\n";
 				SetTaskRewards(outputfile, jd.startRewards);
 				SetTaskRewards(outputfile, jd.finishRewards);
-				for (auto& ob : jd.failConditions) {
-					SetTaskObjective(outputfile, ob);
+				if (jd.failConditions.size() > 0) {
+					outputfile << "\n";
+					EnumTaskObjective Prev = EnumTaskObjective::Max;
+					for (auto& ob : jd.failConditions) {
+						SetTaskObjective(outputfile, ob, Prev);
+						Prev = ob.TaskObjectiveType;
+					}
 				}
+				if (jd.failConditions.size() > 0) {
+					outputfile << "\n";
+					for (auto& ob : jd.failConditions) {
+						SetTaskObjectiveCommon(outputfile, ob);
+					}
+				}
+				outputfile << "\n";
 				SetTaskRewards(outputfile, jd.failureOutcome);
-				outputfile << "restartable=" + (std::string)(jd.restartable ? "true" : "false") + "\n";
-				for (auto& n : jd.neededKeys) {
-					outputfile << "neededKeys=" + n + "\n";
-				}
-				outputfile << "kappaRequired=" + (std::string)(jd.kappaRequired ? "true" : "false") + "\n";
-				outputfile << "lightkeeperRequired=" + (std::string)(jd.lightkeeperRequired ? "true" : "false") + "\n";
+				outputfile << "Reward_EXP=" + std::to_string(jd.experience) + "\n";
 			};
 
 			for (auto& L : m_List) {
@@ -1205,11 +1466,27 @@ namespace FPS_n2 {
 				}
 			}
 			bool maked = false;
+
+			std::vector<bool> maked_t;
+			maked_t.resize(TraderData::Instance()->GetList().size());
+			for (auto&&i : maked_t) { i = false; }
+
+
 			for (auto& jd : m_TaskJsonData) {
-				if (!jd.m_IsFileOpened) {
+				if (!jd.m_IsFileOpened && (jd.traderID != InvalidID)) {
+					std::string ParentPath = "data/task/Maked/";
 					if (!maked) {
-						CreateDirectory("data/task/Maked/", NULL);
+						CreateDirectory(ParentPath.c_str(), NULL);
 						maked = true;
+					}
+					char tID[64];
+					sprintfDx(tID, "%02d", jd.traderID);
+
+
+					std::string ChildPath = ParentPath + tID + "_" + TraderData::Instance()->FindPtr(jd.traderID)->GetName() + "/";
+					if (!maked_t[jd.traderID]) {
+						CreateDirectory(ChildPath.c_str(), NULL);
+						maked_t[jd.traderID] = true;
 					}
 					std::string TaskName = jd.name;
 					while (true) {
@@ -1221,7 +1498,12 @@ namespace FPS_n2 {
 							break;
 						}
 					}
-					std::string Name = "data/task/Maked/" + TaskName + ".txt";
+
+					char ID[64];
+					sprintfDx(ID, "%03d", TraderIDs[jd.traderID]);
+					TraderIDs[jd.traderID]++;
+
+					std::string Name = ChildPath + tID + ID + "_" + TaskName + ".txt";
 					std::ofstream outputfile(Name);
 					WriteText(outputfile, jd);
 					outputfile.close();

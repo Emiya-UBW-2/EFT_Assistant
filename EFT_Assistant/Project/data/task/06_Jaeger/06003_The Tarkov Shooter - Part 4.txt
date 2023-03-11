@@ -1,0 +1,27 @@
+IDstr=5bc480a686f7741af0342e29
+Name=The Tarkov Shooter - Part 4
+Trader=Jaeger
+
+NeedTask=The Tarkov Shooter - Part 3
+NeedLevel=2
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Else=SkillÇè„Ç∞ÇÈ:Sniper+3.000000
+
+[
+	TaskType=skill
+	TaskText=Reach the required Sniper Rifles skill level
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+0.020000
+Reward_Item=[
+	Roublesx80000,
+	Mosin Rifle AIM Sports Tri-Rail mountx1,
+	Mosin Rifle Tacfire pistol gripx1
+]
+
+Reward_EXP=11800

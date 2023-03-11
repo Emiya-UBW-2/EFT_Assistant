@@ -1,0 +1,44 @@
+IDstr=5ede55112c95834b583f052a
+Name=The Bunker - Part 1
+Trader=Prapor
+
+NeedTask=BP Depot
+NeedLevel=5
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Reserve
+Task_Else=TaskType:visit
+Task_Else=Locate the underground bunker on Reserve
+Task_Else=TaskType:visit
+Task_Else=Locate the control room in the underground bunker on Reserve
+Task_Map=Reserve
+Task_Else=脱出ステータス:[Survived,Run Through]
+
+[
+	TaskType=visit
+	TaskText=Locate the underground bunker on Reserve
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate the control room in the underground bunker on Reserve
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Prapor+0.030000
+Reward_Item=[
+	Roublesx20000,
+	Kalashnikov AK-105 5.45x39 assault rifle Defaultx1,
+	5.45x39mm PPBS gs "Igolnik"x60,
+	5.45x39mm BT gsx30
+]
+
+Reward_EXP=5700

@@ -1,0 +1,34 @@
+IDstr=5967733e86f774602332fc84
+Name=Shortage
+Trader=Therapist
+
+NeedLevel=1
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+NeedItem=Salewa first aid kitx3
+Task_FiR_HandOver=[Salewa first aid kitx3]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Find Salewa first aid kits in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the first aid kits
+	TaskOptional=false
+]
+
+Reward_Rep=Therapist+0.030000
+Reward_Item=[
+	Roublesx15000,
+	Car first aid kitx2,
+	Analgin painkillersx4,
+	Immobilizing splintx4
+]
+
+Reward_EXP=2000

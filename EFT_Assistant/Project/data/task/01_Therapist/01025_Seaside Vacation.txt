@@ -1,0 +1,31 @@
+IDstr=6179ad56c760af5ad2053587
+Name=Seaside Vacation
+Trader=Therapist
+
+NeedTask=Pharmacist
+NeedLevel=17
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Lighthouse
+Task_Else=èEÇ¡Çƒî[ïi:Lighthouse-Laptop with informationx1
+
+[
+	TaskType=findQuestItem
+	TaskText=Find the informant's briefcase on Lighthouse
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the found package
+	TaskOptional=false
+]
+
+Reward_Rep=Therapist+0.020000
+Reward_Item=[
+	Roublesx50000
+]
+
+Reward_EXP=8000

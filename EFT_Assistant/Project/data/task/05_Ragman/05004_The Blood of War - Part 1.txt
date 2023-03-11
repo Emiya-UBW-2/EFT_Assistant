@@ -1,0 +1,49 @@
+IDstr=5ae448f286f77448d73c0131
+Name=The Blood of War - Part 1
+Trader=Ragman
+
+NeedTask=Make ULTRA Great Again
+NeedLevel=17
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Interchange
+Task_Map=Interchange
+NeedItem=MS2000 Markerx1
+Task_Map=Interchange
+NeedItem=MS2000 Markerx1
+Task_Map=Interchange
+NeedItem=MS2000 Markerx1
+Task_Map=Interchange
+Task_Else=脱出ステータス:[Survived,Run Through]
+
+[
+	TaskType=mark
+	TaskText=Mark the first fuel tank with an MS2000 Marker on Interchange
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Mark the second fuel tank with an MS2000 Marker on Interchange
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Mark the third fuel tank with an MS2000 Marker on Interchange
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Ragman+0.020000
+Reward_Item=[
+	Roublesx60000,
+	Metal fuel tankx2
+]
+
+Reward_EXP=7500

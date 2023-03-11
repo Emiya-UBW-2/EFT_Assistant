@@ -1,0 +1,63 @@
+IDstr=5ae448e586f7744dcf0c2a67
+Name=Big Sale
+Trader=Ragman
+
+NeedTask=Only Business
+NeedLevel=17
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Interchange
+Task_Else=TaskType:visit
+Task_Else=Locate and check the AVOKADO store on Interchange
+Task_Else=TaskType:visit
+Task_Else=Locate and check the KOSTIN store on Interchange
+Task_Else=TaskType:visit
+Task_Else=Locate and check the tRend store on Interchange
+Task_Else=TaskType:visit
+Task_Else=Locate and check the DINO CLOTHES store on Interchange
+Task_Else=TaskType:visit
+Task_Else=Locate and check the TOP BRAND store on Interchange
+Task_Map=Interchange
+Task_Else=脱出ステータス:[Survived,Run Through]
+
+[
+	TaskType=visit
+	TaskText=Locate and check the AVOKADO store on Interchange
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate and check the KOSTIN store on Interchange
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate and check the tRend store on Interchange
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate and check the DINO CLOTHES store on Interchange
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate and check the TOP BRAND store on Interchange
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Ragman+0.030000
+Reward_Item=[
+	Roublesx30000,
+	Oakley Mechanism heavy duty backpack (Black)x1
+]
+
+Reward_EXP=8200

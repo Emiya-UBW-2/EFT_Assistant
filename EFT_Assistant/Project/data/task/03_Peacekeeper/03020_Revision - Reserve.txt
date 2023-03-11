@@ -1,0 +1,106 @@
+IDstr=6086c852c945025d41566124
+Name=Revision - Reserve
+Trader=Peacekeeper
+
+NeedTask=Humanitarian Supplies
+NeedLevel=14
+NeedItem=[RB-ST keyx1]
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Reserve
+Task_Else=TaskType:visit
+Task_Else=Locate and inspect the first BMP-2 on Reserve
+Task_Map=Reserve
+NeedItem=MS2000 Markerx1
+Task_Else=TaskType:visit
+Task_Else=Locate and inspect the second BMP-2 on Reserve
+Task_Map=Reserve
+NeedItem=MS2000 Markerx1
+Task_Else=TaskType:visit
+Task_Else=Locate and inspect the third BMP-2 on Reserve
+Task_Map=Reserve
+NeedItem=MS2000 Markerx1
+Task_Else=TaskType:visit
+Task_Else=Locate and inspect the fourth BMP-2 on Reserve
+Task_Map=Reserve
+NeedItem=MS2000 Markerx1
+Task_Else=TaskType:visit
+Task_Else=Locate and inspect the first LAV III on Reserve
+Task_Map=Reserve
+NeedItem=MS2000 Markerx1
+Task_Else=TaskType:visit
+Task_Else=Locate and inspect the second LAV III on Reserve
+Task_Else=TaskType:visit
+Task_Else=Locate and inspect the T-90 tank on Reserve
+
+[
+	TaskType=visit
+	TaskText=Locate and inspect the first BMP-2 on Reserve
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Mark the first BMP-2 with an MS2000 Marker
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate and inspect the second BMP-2 on Reserve
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Mark the second BMP-2 with an MS2000 Marker
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate and inspect the third BMP-2 on Reserve
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Mark the third BMP-2 with an MS2000 Marker
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate and inspect the fourth BMP-2 on Reserve
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Mark the fourth BMP-2 with an MS2000 Marker
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate and inspect the first LAV III on Reserve
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Mark the first LAV III with an MS2000 Marker
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate and inspect the second LAV III on Reserve
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate and inspect the T-90 tank on Reserve
+	TaskOptional=false
+]
+
+Reward_Rep=Peacekeeper+0.030000
+Reward_Item=[
+	Dollarsx800,
+	5.56x45mm Warmageddon ammo pack (20 pcs)x15
+]
+
+Reward_EXP=7300

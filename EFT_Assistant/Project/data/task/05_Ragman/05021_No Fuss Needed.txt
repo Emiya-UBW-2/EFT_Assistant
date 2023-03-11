@@ -1,0 +1,26 @@
+IDstr=5ae449a586f7744bde357696
+Name=No Fuss Needed
+Trader=Ragman
+
+NeedTask=The Key to Success
+NeedLevel=26
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Else=traderLL:TherapistLL3
+
+[
+	TaskType=traderLevel
+	TaskText=Reach level 3 loyalty with Therapist
+	TaskOptional=false
+]
+
+Reward_Rep=Ragman+0.030000
+Reward_Item=[
+	Roublesx32000,
+	Altyn bulletproof helmetx1
+]
+
+Reward_EXP=15800

@@ -1,0 +1,16 @@
+IDstr=569668774bdc2da2298b4568
+Name=Euros
+ShortName=EUR
+Itemtype=Money
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=Several notes of the EU currency.
+basePrice=120
+width=1
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
+weight=0.000000
+fleaMarketFee=0
+propertiestype=

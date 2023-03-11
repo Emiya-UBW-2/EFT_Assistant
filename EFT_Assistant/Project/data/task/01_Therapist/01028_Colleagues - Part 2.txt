@@ -1,0 +1,45 @@
+IDstr=5edaba7c0c502106f869bc02
+Name=Colleagues - Part 2
+Trader=Therapist
+
+NeedTask=Colleagues - Part 1
+NeedLevel=21
+NeedItem=[Cottage back door keyx1]
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Shoreline
+Task_Else=èEÇ¡Çƒî[ïi:Shoreline-Surgery kit marked with a blue symbolx1
+Task_Else=èEÇ¡Çƒî[ïi:Shoreline-Marked Ophthalmoscopex1
+
+[
+	TaskType=findQuestItem
+	TaskText=Obtain Sanitar's surgery kit marked with a blue symbol
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over Sanitar's surgery kit
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Obtain Sanitar's ophthalmoscope
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over Sanitar's ophthalmoscope
+	TaskOptional=false
+]
+
+Reward_Rep=Therapist+0.040000
+Reward_Item=[
+	Roublesx60000,
+	Surv12 field surgical kitx1,
+	P22 (Product 22) stimulant injectorx1
+]
+
+Reward_EXP=12400

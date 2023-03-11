@@ -1,0 +1,44 @@
+IDstr=5d25e2c386f77443e7549029
+Name=The Huntsman Path - Trophy
+Trader=Jaeger
+
+NeedTask=The Huntsman Path - Secured Perimeter
+NeedLevel=2
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Customs
+Task_Kill=[
+	Customs-Reshalax1
+]
+NeedItem=TT-33 7.62x25 TT pistol (Golden)x1
+Task_FiR_HandOver=[TT-33 7.62x25 TT pistol (Golden)x1]
+DogTagLv=0
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Reshala
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Reshala's Golden TT in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over Reshala's Golden TT pistol
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+0.020000
+Reward_Item=[
+	Roublesx90000,
+	Surv12 field surgical kitx1,
+	Gunpowder "Kite"x4,
+	Piece of plexiglassx5
+]
+
+Reward_EXP=7100

@@ -1,0 +1,34 @@
+IDstr=639dbaf17c898a131e1cffff
+Name=Debtor
+Trader=Skier
+
+NeedTask=Chumming
+NeedLevel=31
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=true
+
+Task_Map=Streets of Tarkov
+Task_Else=TaskType:visit
+Task_Else=Find the debtor on Streets of Tarkov
+Task_Map=Streets of Tarkov
+Task_Else=脱出ステータス:[Survived]
+
+[
+	TaskType=visit
+	TaskText=Find the debtor on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Skier+0.030000
+Reward_Item=[
+	Roublesx250000
+]
+
+Reward_EXP=26600

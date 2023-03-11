@@ -1,0 +1,34 @@
+IDstr=639135534b15ca31f76bc317
+Name=Your Car Needs a Service
+Trader=Peacekeeper
+
+NeedTask=Cargo X - Part 4
+NeedLevel=35
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+Task_Else=èEÇ¡Çƒî[ïi:Streets of Tarkov-Secure Flash drivex1
+
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the digital storage device from the car dealership manager's office on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the storage device
+	TaskOptional=false
+]
+
+Reward_Item=[
+	Car dealership director's office room keyx1
+]
+Reward_Rep=Peacekeeper+0.030000
+Reward_Item=[
+	Dollarsx1000
+]
+
+Reward_EXP=31400

@@ -1,0 +1,50 @@
+IDstr=5c10f94386f774227172c572
+Name=The Blood of War - Part 3
+Trader=Ragman
+
+NeedTask=The Blood of War - Part 2
+NeedLevel=30
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Map=Woods
+Task_Map=Woods
+NeedItem=MS2000 Markerx1
+Task_Map=Woods
+NeedItem=MS2000 Markerx1
+Task_Map=Woods
+NeedItem=MS2000 Markerx1
+Task_Map=Woods
+Task_Else=脱出ステータス:[Survived]
+
+[
+	TaskType=mark
+	TaskText=Locate and mark the first fuel stash with an MS2000 Marker on Woods
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Locate and mark the second fuel stash with an MS2000 Marker on Woods
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Locate and mark the third fuel stash with an MS2000 Marker on Woods
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Ragman+0.040000
+Reward_Item=[
+	Roublesx75000,
+	HighCom Trooper TFO body armor (Multicam)x2,
+	Mystery Ranch Blackjack 50 backpack (Multicam)x1
+]
+
+Reward_EXP=21300

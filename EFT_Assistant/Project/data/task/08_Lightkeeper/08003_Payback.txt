@@ -1,0 +1,52 @@
+IDstr=63966fd9ea19ac7ed845db30
+Name=Payback
+Trader=Lightkeeper
+
+NeedTask=Return the Favor
+NeedLevel=35
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Reserve
+Task_Kill=[
+	Reserve-Glukharx1
+]
+Task_Kill=[
+	Reserve-Glukhar Guard (Assault)x7
+]
+Task_Map=Reserve
+Task_Else=閾値: >= 0
+Task_Else=ゾーン:[Radar Station]
+Task_Map=Reserve
+Task_Else=脱出ステータス:[Survived]
+Task_Else=脱出地点:Cliff Descent
+
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Glukhar
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate Glukhar's guards
+	TaskOptional=false
+]
+[
+	TaskType=useItem
+	TaskText=Shoot a yellow signal flare at the radar station
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from Reserve through Cliff Descent
+	TaskOptional=false
+]
+
+Reward_Rep=Lightkeeper+0.010000
+Reward_Item=[
+	Microcontroller boardx1
+]
+
+Reward_EXP=0

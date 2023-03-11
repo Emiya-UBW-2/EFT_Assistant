@@ -1,0 +1,39 @@
+IDstr=5ac2428686f77412450b42bf
+Name=Gunsmith - Part 3
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 1
+NeedLevel=7
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+NeedItem=HK MP5 9x19 submachine gun (Navy 3 Round Burst)x1
+ContainsCategory=Silencer
+ContainsCategory=Comb. tact. device
+Task_Else=accuracy >= 0
+Task_Else=durability >= 60
+Task_Else=effectiveDistance >= 200
+Task_Else=ergonomics >= 45
+Task_Else=height >= 0
+Task_Else=magazineCapacity >= 50
+Task_Else=muzzleVelocity >= 0
+Task_Else=recoil <= 200
+Task_Else=weight <= 4
+Task_Else=width >= 0
+
+[
+	TaskType=buildWeapon
+	TaskText=Modify an MP5 to comply with the given specifications
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.010000
+Reward_Item=[
+	Dollarsx250,
+	SwampFox Trihawk Prism Scope 3x30x2,
+	Magpul RVG foregrip (FDE)x2
+]
+
+Reward_EXP=2800

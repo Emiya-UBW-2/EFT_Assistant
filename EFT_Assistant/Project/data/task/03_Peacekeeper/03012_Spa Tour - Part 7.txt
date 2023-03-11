@@ -1,0 +1,72 @@
+IDstr=5a27bafb86f7741c73584017
+Name=Spa Tour - Part 7
+Trader=Peacekeeper
+
+NeedTask=Spa Tour - Part 6
+NeedLevel=12
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+NeedItem=Morphine injectorx4
+Task_FiR_HandOver=[Morphine injectorx4]
+DogTagLv=0
+NeedItem=Alkaline cleaner for heat exchangersx2
+Task_FiR_HandOver=[Alkaline cleaner for heat exchangersx2]
+DogTagLv=0
+NeedItem=Corrugated hosex2
+Task_FiR_HandOver=[Corrugated hosex2]
+DogTagLv=0
+NeedItem=Propane tank (5L)x2
+Task_FiR_HandOver=[Propane tank (5L)x2]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Find Morphine injectors in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the injectors
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Alkaline cleaners for heat exchangers in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the cleaners
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Corrugated hoses in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the hoses
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Propane tanks (5L) in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the tanks
+	TaskOptional=false
+]
+
+Reward_Rep=Peacekeeper+0.040000
+Reward_Rep=Jaeger-0.010000
+Reward_Item=[
+	RB-ST keyx1
+]
+
+Reward_EXP=9700

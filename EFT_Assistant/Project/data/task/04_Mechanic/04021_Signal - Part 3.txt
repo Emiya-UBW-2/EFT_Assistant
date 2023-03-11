@@ -1,0 +1,53 @@
+IDstr=5ac346cf86f7741d63233a02
+Name=Signal - Part 3
+Trader=Mechanic
+
+NeedTask=Signal - Part 2
+NeedLevel=15
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Shoreline
+Task_Map=Shoreline
+NeedItem=Signal Jammerx1
+Task_Map=Shoreline
+NeedItem=Signal Jammerx1
+Task_Map=Shoreline
+NeedItem=Signal Jammerx1
+Task_Map=Shoreline
+Task_Else=脱出ステータス:[Survived,Run Through]
+
+[
+	TaskType=mark
+	TaskText=Place the Signal jammer on the first specified place on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Place the Signal jammer on the second specified place on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Place the Signal jammer on the third specified place on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Item=[
+	Signal Jammerx3
+]
+Reward_Rep=Mechanic+0.020000
+Reward_Item=[
+	Roublesx30000,
+	Benelli M3 Super 90 dual-mode 12ga shotgun Defaultx1,
+	12/70 8.5mm Magnum buckshotx40
+]
+
+Reward_EXP=8500

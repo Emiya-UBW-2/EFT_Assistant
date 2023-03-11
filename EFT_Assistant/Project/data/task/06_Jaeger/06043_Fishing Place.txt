@@ -1,0 +1,34 @@
+IDstr=5d25e4b786f77408251c4bfc
+Name=Fishing Place
+Trader=Jaeger
+
+NeedTask=Nostalgia
+NeedLevel=28
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+NeedItem=TerraGroup Labs access keycardx2
+Task_FiR_HandOver=[TerraGroup Labs access keycardx2]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Find TerraGroup Labs access keycards in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the access keycards
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+0.020000
+Reward_Item=[
+	Roublesx40000,
+	Remington Model 700 7.62x51 bolt-action sniper rifle AAC SDx1,
+	FORT Redut-M body armorx1
+]
+
+Reward_EXP=18000

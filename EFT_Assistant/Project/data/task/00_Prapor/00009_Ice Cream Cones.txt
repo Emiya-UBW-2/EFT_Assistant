@@ -1,0 +1,48 @@
+IDstr=59675d6c86f7740a842fc482
+Name=Ice Cream Cones
+Trader=Prapor
+
+NeedTask=Bad Rep Evidence
+NeedLevel=9
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Map=Woods
+NeedItem=AK-74 5.45x39 6L31 60-round magazinex3
+Task_FiR_HandOver=[AK-74 5.45x39 6L31 60-round magazinex3]
+DogTagLv=0
+NeedItem=ZB-014 keyx1
+Task_Else=TaskType:visit
+Task_Else=Locate the locked bunker on Woods
+
+[
+	TaskType=findItem
+	TaskText=Find AK-74 5.45x39 6L31 60-round magazines in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the magazines
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find the key to the bunker in the TerraGroup employee's dorm room
+	TaskOptional=true
+]
+[
+	TaskType=visit
+	TaskText=Locate the locked bunker on Woods
+	TaskOptional=true
+]
+
+Reward_Rep=Prapor+0.020000
+Reward_Item=[
+	Roublesx17000,
+	5.45x39mm PP gsx200,
+	RPK-16 5.45x39 light machine gun Drumx1
+]
+
+Reward_EXP=5200

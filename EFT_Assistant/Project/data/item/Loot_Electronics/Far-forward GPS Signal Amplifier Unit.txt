@@ -18,3 +18,4 @@ Sell_Peacekeeper=470
 Sell_Mechanic=67200
 weight=0.440000
 fleaMarketFee=0
+propertiestype=

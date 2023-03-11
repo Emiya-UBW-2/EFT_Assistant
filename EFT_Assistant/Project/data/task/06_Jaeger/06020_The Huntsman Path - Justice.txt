@@ -1,0 +1,30 @@
+IDstr=5d25e43786f7740a212217fa
+Name=The Huntsman Path - Justice
+Trader=Jaeger
+
+NeedTask=The Huntsman Path - Trophy
+NeedLevel=2
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Kill=[
+	Reshala Guardx3
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs dressed in police uniform (Reshala's bodyguards)
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+0.020000
+Reward_Item=[
+	Roublesx80000,
+	Expeditionary fuel tankx3,
+	Propane tank (5L)x2,
+	WD-40 (400ml)x1
+]
+
+Reward_EXP=7200

@@ -1,0 +1,42 @@
+IDstr=608974d01a66564e74191fc0
+Name=A Fuel Matter
+Trader=Ragman
+
+NeedTask=The Blood of War - Part 1
+NeedLevel=17
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Reserve
+Task_Map=Reserve
+NeedItem=MS2000 Markerx1
+Task_Map=Reserve
+NeedItem=MS2000 Markerx1
+Task_Map=Reserve
+Task_Else=脱出ステータス:[Survived]
+
+[
+	TaskType=mark
+	TaskText=Mark the first group of fuel tanks with an MS2000 Marker on Reserve
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Mark the second group of fuel tanks with an MS2000 Marker on Reserve
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Ragman+0.030000
+Reward_Item=[
+	Roublesx30000,
+	Propane tank (5L)x2
+]
+
+Reward_EXP=8200

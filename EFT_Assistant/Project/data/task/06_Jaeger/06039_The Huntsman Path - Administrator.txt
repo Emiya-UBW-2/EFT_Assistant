@@ -1,0 +1,37 @@
+IDstr=639136df4b15ca31f76bc31f
+Name=The Huntsman Path - Administrator
+Trader=Jaeger
+
+NeedTask=The Huntsman Path - Forest Cleaning
+NeedLevel=23
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+Task_Kill=[
+	Streets of Tarkov-any targetx20
+]
+Task_Map=Streets of Tarkov
+Task_Else=Ëáíl: >= 0
+Task_Else=É]Å[Éì:[Pinewood Hotel Courtyard]
+
+[
+	TaskType=shoot
+	TaskText=Deal with the looters at the Pinewood hotel on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=useItem
+	TaskText=Shoot a yellow signal flare in the hotel's courtyard
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+0.020000
+Reward_Item=[
+	Roublesx81000,
+	Remington Model 700 7.62x51 bolt-action sniper rifle Defaultx1
+]
+
+Reward_EXP=15600

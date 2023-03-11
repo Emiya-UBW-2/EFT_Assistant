@@ -1,0 +1,35 @@
+IDstr=5ae449d986f774453a54a7e1
+Name=Supervisor
+Trader=Ragman
+
+NeedTask=The Key to Success
+NeedTask=Sales Night
+NeedLevel=40
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+NeedItem=Goshan cash register keyx1
+Task_NotFiR_HandOver=[Goshan cash register keyx1]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Obtain the Goshan cash register key
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the key
+	TaskOptional=false
+]
+
+Reward_Rep=Ragman+0.030000
+Reward_Item=[
+	Roublesx250000,
+	Interchange plan mapx1,
+	FORT Defender-2 body armorx1
+]
+
+Reward_EXP=24100

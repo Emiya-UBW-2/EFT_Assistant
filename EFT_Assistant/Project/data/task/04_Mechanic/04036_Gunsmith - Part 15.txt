@@ -1,0 +1,39 @@
+IDstr=5ae3280386f7742a41359364
+Name=Gunsmith - Part 15
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 14
+NeedLevel=27
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+NeedItem=AS VAL 9x39 special assault riflex1
+ContainsAll=FAB Defense GL-SHOCK buttstock
+ContainsAll=AN/PEQ-15 tactical device
+ContainsAll=NSPU-M night vision scope
+Task_Else=accuracy >= 0
+Task_Else=durability >= 60
+Task_Else=effectiveDistance >= 0
+Task_Else=ergonomics >= 33
+Task_Else=height >= 0
+Task_Else=magazineCapacity >= 30
+Task_Else=muzzleVelocity >= 0
+Task_Else=recoil <= 200
+Task_Else=weight >= 0
+Task_Else=width >= 0
+
+[
+	TaskType=buildWeapon
+	TaskText=Modify an AS VAL to comply with the given specifications
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.020000
+Reward_Item=[
+	Kiba Arms inner grate door keyx1,
+	Pressure gaugex1
+]
+
+Reward_EXP=19400

@@ -1,0 +1,49 @@
+IDstr=5c139eb686f7747878361a6f
+Name=Import
+Trader=Mechanic
+
+NeedTask=Farming - Part 4
+NeedLevel=35
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+NeedItem=UHF RFID Readerx1
+NeedItem=VPX Flash Storage Modulex1
+Task_FiR_HandOver=[UHF RFID Readerx1]
+DogTagLv=0
+Task_FiR_HandOver=[VPX Flash Storage Modulex1]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Find UHF RFID Reader in raid
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find VPX Flash Storage Module in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the reader
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the storage module
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.030000
+Reward_Rep=Jaeger-0.010000
+Reward_Item=[
+	Roublesx85000,
+	Physical bitcoinx2,
+	Iridium military thermal vision modulex1,
+	Trijicon REAP-IR thermal scopex1
+]
+
+Reward_EXP=29000

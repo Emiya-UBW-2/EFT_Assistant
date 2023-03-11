@@ -1,0 +1,25 @@
+IDstr=62614836f7308432be1d44cc
+Name=Make Amends - Sweep Up
+Trader=Mechanic
+
+NeedTask=Make Amends - Security
+NeedLevel=35
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Reserve
+Task_Kill=[
+	Reserve-Raiderx25
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Raiders on Reserve
+	TaskOptional=false
+]
+
+Reward_Rep=Lightkeeper+0.010000
+
+Reward_EXP=0

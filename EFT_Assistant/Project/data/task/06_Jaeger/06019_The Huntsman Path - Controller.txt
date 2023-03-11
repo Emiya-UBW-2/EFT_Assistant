@@ -1,0 +1,30 @@
+IDstr=5d25e2d886f77442734d335e
+Name=The Huntsman Path - Controller
+Trader=Jaeger
+
+NeedTask=The Huntsman Path - Forest Cleaning
+NeedLevel=2
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Kill=[
+	any PMC operativesx2
+]
+Task_Else=“G‚ÌŠY“–‰ÓŠ‚ÉˆÙíó‘Ô:[head,thorax,stomach,left arm,right arm,left leg,right leg]
+Task_Else=“G‚ÌˆÙíó‘Ô:[Stunned]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives while they are suffering from the stun effect
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+0.020000
+Reward_Item=[
+	Roublesx50000,
+	NcSTAR ADO P4 Sniper 3-9x42 riflescopex1
+]
+
+Reward_EXP=7200

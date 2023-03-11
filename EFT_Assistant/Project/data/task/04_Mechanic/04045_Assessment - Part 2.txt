@@ -1,0 +1,45 @@
+IDstr=625d6fff4149f1149b5b12c9
+Name=Assessment - Part 2
+Trader=Mechanic
+
+NeedTask=Assessment - Part 1
+NeedLevel=35
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=true
+
+Task_Map=Woods
+Task_Map=Woods
+NeedItem=MS2000 Markerx1
+Task_Map=Woods
+NeedItem=MS2000 Markerx1
+Task_Map=Woods
+NeedItem=MS2000 Markerx1
+Task_Map=Woods
+NeedItem=MS2000 Markerx1
+
+[
+	TaskType=mark
+	TaskText=Locate and mark the first bunker with an MS2000 marker on Woods
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Locate and mark the second bunker with an MS2000 marker on Woods
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Locate and mark the third bunker with an MS2000 marker on Woods
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Locate and mark the fourth bunker with an MS2000 marker on Woods
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.010000
+
+Reward_EXP=24200

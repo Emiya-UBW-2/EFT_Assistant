@@ -1,0 +1,34 @@
+IDstr=63a9ae24009ffc6a551631a5
+Name=Best Job in the World
+Trader=Prapor
+
+NeedTask=The Punisher - Part 6
+NeedTask=Kings of the Rooftops
+NeedLevel=25
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Kill=[
+	Scavsx30
+]
+NeedItem=[
+	Kalashnikov AK-74 5.45x39 assault riflex0,
+	Kalashnikov AK-74M 5.45x39 assault riflex0,
+	Kalashnikov AK-74N 5.45x39 assault riflex0,
+	Kalashnikov AKS-74 5.45x39 assault riflex0,
+	Kalashnikov AKS-74N 5.45x39 assault riflex0,
+	SAG AK-545 5.45x39 carbinex0
+]
+Task_Else=‹——£: >= 100m
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs from over 100 meters away while using an AK-74 series assault rifles
+	TaskOptional=false
+]
+
+Reward_Rep=Prapor+0.030000
+
+Reward_EXP=15400

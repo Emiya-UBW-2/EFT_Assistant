@@ -4,6 +4,8 @@ ShortName=TK FAST MT
 Itemtype=Headwear
 Conflict=[
 	Faceless mask,
+	Tagilla's welding mask "Gorilla",
+	Tagilla's welding mask "UBEY"
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -11,13 +13,14 @@ Information_Eng=A lower protection class replica of the Ops-Core FAST MT Super H
 basePrice=15100
 width=2
 height=2
-avg24hPrice=18247
-low24hPrice=11000
-lastOfferCount=24
+avg24hPrice=17224
+low24hPrice=12000
+lastOfferCount=28
 Sell_Fence=6040
 Sell_Skier=7399
 Sell_Peacekeeper=59
 Sell_Ragman=9362
-Sell_Flea Market=13000
+Sell_Flea Market=15000
 weight=0.450000
-fleaMarketFee=1281
+fleaMarketFee=902
+propertiestype=ItemPropertiesHelmet

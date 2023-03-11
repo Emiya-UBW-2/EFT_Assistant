@@ -1,0 +1,39 @@
+IDstr=639872fa9b4fb827b200d8e5
+Name=Gunsmith - Part 9
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 8
+NeedLevel=19
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+NeedItem=SIG P226R 9x19 pistolx1
+ContainsAll=P226 Stainless Elite Wooden pistol grip
+ContainsAll=P226 Stainless Elite pistol slide
+ContainsCategory=Comb. tact. device
+Task_Else=accuracy >= 0
+Task_Else=durability >= 60
+Task_Else=effectiveDistance >= 0
+Task_Else=ergonomics >= 80
+Task_Else=height >= 0
+Task_Else=magazineCapacity >= 20
+Task_Else=muzzleVelocity >= 0
+Task_Else=recoil <= 610
+Task_Else=weight <= 1
+Task_Else=width >= 0
+
+[
+	TaskType=buildWeapon
+	TaskText=Modify an P226R to comply with the given specifications
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.020000
+Reward_Item=[
+	Eurosx300,
+	Gunpowder "Hawk"x2
+]
+
+Reward_EXP=9800

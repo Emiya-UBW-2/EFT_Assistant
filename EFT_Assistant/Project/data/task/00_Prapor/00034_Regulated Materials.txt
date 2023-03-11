@@ -1,0 +1,46 @@
+IDstr=5d4bec3486f7743cac246665
+Name=Regulated Materials
+Trader=Prapor
+
+NeedTask=Polikhim Hobo
+NeedLevel=25
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+NeedItem=6-STEN-140-M military batteryx1
+Task_FiR_HandOver=[6-STEN-140-M military batteryx1]
+DogTagLv=0
+NeedItem=OFZ 30x160mm shellx5
+Task_FiR_HandOver=[OFZ 30x160mm shellx5]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Find 6-STEN-140-M military battery in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the military battery
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find OFZ 30x160mm shells in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the OFZ shells
+	TaskOptional=false
+]
+
+Reward_Rep=Prapor+0.020000
+Reward_Item=[
+	Roublesx150000,
+	12.7x55mm PS12Bx100
+]
+
+Reward_EXP=14800

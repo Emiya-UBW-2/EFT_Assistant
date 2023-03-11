@@ -1,0 +1,42 @@
+IDstr=63a5cf262964a7488f5243ce
+Name=Test Drive - Part 2
+Trader=Prapor
+
+NeedTask=Test Drive - Part 1
+NeedLevel=30
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+Task_Kill=[
+	Streets of Tarkov-any PMC operativesx20
+]
+NeedItem=[
+	SR-2M "Veresk" 9x21 submachine gunx0
+]
+NeedItem=[
+	SR-2M KP-SR2 reflex sightx0,
+	SR-2M 9x21 sound suppressor (SV-1381)x0
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives while using an SR-2M "Veresk" with a suppressor and KP-SR2 reflex sight
+	TaskOptional=false
+]
+
+Reward_Item=[
+	SR-2M "Veresk" 9x21 submachine gun FSBx1
+]
+Reward_Rep=Prapor+0.020000
+Reward_Item=[
+	Roublesx300000,
+	ASh-12 12.7x55 assault rifle Silencedx1,
+	ASh-12 12.7x55 20-round magazinex3,
+	12.7x55mm PS12Bx60,
+	Golden neck chainx3
+]
+
+Reward_EXP=20000

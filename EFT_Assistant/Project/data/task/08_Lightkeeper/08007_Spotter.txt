@@ -1,0 +1,55 @@
+IDstr=6396700fea19ac7ed845db32
+Name=Spotter
+Trader=Lightkeeper
+
+NeedTask=Following the Bread Crumbs
+NeedLevel=35
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+Task_Else=TaskType:visit
+Task_Else=Locate a good sniping position in Concordia overlooking the construction site
+Task_NotFiR_HandOver=[AI .338 LM Tactical Sound Moderatorx1]
+DogTagLv=0
+Task_Else=TaskType:visit
+Task_Else=Locate a good sniping position at Primorsky overlooking the movie theater
+Task_NotFiR_HandOver=[Trijicon REAP-IR thermal scopex1]
+DogTagLv=0
+Task_Map=Streets of Tarkov
+Task_Else=脱出ステータス:[Survived]
+
+[
+	TaskType=visit
+	TaskText=Locate a good sniping position in Concordia overlooking the construction site
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Hide AI Tactical Sound Moderator .338 LM near the red table
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate a good sniping position at Primorsky overlooking the movie theater
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Hide Trijicon REAP-IR thermal scope under Makhors' bed
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Lightkeeper+0.010000
+Reward_Item=[
+	Microcontroller boardx1
+]
+
+Reward_EXP=0

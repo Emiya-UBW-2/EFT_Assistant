@@ -1,0 +1,23 @@
+IDstr=5d6fb2c086f77449da599c24
+Name=An Apple a Day Keeps the Doctor Away
+Trader=Therapist
+
+NeedTask=Health Care Privacy - Part 3
+NeedLevel=10
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_NotFiR_HandOver=[Roublesx400000]
+DogTagLv=0
+
+[
+	TaskType=giveItem
+	TaskText=Hand over RUB
+	TaskOptional=false
+]
+
+Reward_SkillLevelUp=Health+2
+
+Reward_EXP=0

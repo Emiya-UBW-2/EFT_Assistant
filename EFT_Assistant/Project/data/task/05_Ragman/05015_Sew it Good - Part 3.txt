@@ -1,0 +1,46 @@
+IDstr=5ae4496986f774459e77beb6
+Name=Sew it Good - Part 3
+Trader=Ragman
+
+NeedTask=Sew it Good - Part 2
+NeedLevel=25
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+NeedItem=6B43 6A Zabralo-Sh body armorx1
+Task_NotFiR_HandOver=[6B43 6A Zabralo-Sh body armorx1]
+DogTagLv=0
+NeedItem=6B43 6A Zabralo-Sh body armorx1
+Task_NotFiR_HandOver=[6B43 6A Zabralo-Sh body armorx1]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Obtain 6B43 6A Zabralo-Sh body armor in 0-50% durability
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the armor
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Obtain 6B43 6A Zabralo-Sh body armor in 50-100% durability
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the armor
+	TaskOptional=false
+]
+
+Reward_Rep=Ragman+0.030000
+Reward_Item=[
+	Roublesx65000,
+	6B13 assault armor (Digital Flora)x1
+]
+
+Reward_EXP=18200

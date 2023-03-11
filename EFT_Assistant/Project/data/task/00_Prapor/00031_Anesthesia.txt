@@ -1,0 +1,51 @@
+IDstr=5eda19f0edce541157209cee
+Name=Anesthesia
+Trader=Prapor
+
+NeedTask=Shaking up the Teller
+NeedLevel=21
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Shoreline
+Task_Map=Shoreline
+NeedItem=MS2000 Markerx1
+Task_Map=Shoreline
+NeedItem=MS2000 Markerx1
+Task_Map=Shoreline
+NeedItem=MS2000 Markerx1
+Task_Map=Shoreline
+Task_Else=脱出ステータス:[Survived,Run Through]
+
+[
+	TaskType=mark
+	TaskText=Mark the first trading post with an MS2000 Marker on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Mark the second trading post with an MS2000 Marker on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Mark the third trading post with an MS2000 Marker on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Prapor+0.040000
+Reward_Item=[
+	Roublesx50000,
+	AS VAL 9x39 special assault rifle Defaultx1,
+	9x39mm SPP gsx100,
+	9x39mm SP-6 gsx100
+]
+
+Reward_EXP=18100

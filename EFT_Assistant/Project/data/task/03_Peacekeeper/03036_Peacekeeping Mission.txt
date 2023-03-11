@@ -1,0 +1,102 @@
+IDstr=5c0d4c12d09282029f539173
+Name=Peacekeeping Mission
+Trader=Peacekeeper
+
+NeedTask=Lend-Lease - Part 2
+NeedLevel=30
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Kill=[
+	Woods-Scavsx12
+]
+NeedItem=[
+	Colt M4A1 5.56x45 assault riflex0
+]
+Task_Else=装備が必要:{
+Task_Else=  UNTAR helmet
+Task_Else=  MF-UNTAR body armor
+Task_Else=}
+Task_Kill=[
+	Customs-Scavsx12
+]
+NeedItem=[
+	Colt M4A1 5.56x45 assault riflex0
+]
+Task_Else=装備が必要:{
+Task_Else=  UNTAR helmet
+Task_Else=  MF-UNTAR body armor
+Task_Else=}
+Task_Kill=[
+	Interchange-Scavsx12
+]
+NeedItem=[
+	Colt M4A1 5.56x45 assault riflex0
+]
+Task_Else=装備が必要:{
+Task_Else=  UNTAR helmet
+Task_Else=  MF-UNTAR body armor
+Task_Else=}
+Task_Kill=[
+	Shoreline-Scavsx12
+]
+NeedItem=[
+	Colt M4A1 5.56x45 assault riflex0
+]
+Task_Else=装備が必要:{
+Task_Else=  UNTAR helmet
+Task_Else=  MF-UNTAR body armor
+Task_Else=}
+Task_Kill=[
+	Streets of Tarkov-Scavsx12
+]
+NeedItem=[
+	Colt M4A1 5.56x45 assault riflex0
+]
+Task_Else=装備が必要:{
+Task_Else=  UNTAR helmet
+Task_Else=  MF-UNTAR body armor
+Task_Else=}
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs while wearing a UN uniform (UNTAR helmet, MF-UNTAR body armor, M4A1 rifle) on Woods
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs while wearing a UN uniform (UNTAR helmet, MF-UNTAR body armor, M4A1 rifle) on Customs
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs while wearing a UN uniform (UNTAR helmet, MF-UNTAR body armor, M4A1 rifle) on Interchange
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs while wearing a UN uniform (UNTAR helmet, MF-UNTAR body armor, M4A1 rifle) on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs while wearing a UN uniform (UNTAR helmet, MF-UNTAR body armor, M4A1 rifle) on Streets of Tarkov
+	TaskOptional=false
+]
+
+Reward_Item=[
+	UNTAR helmetx1,
+	MF-UNTAR body armorx1,
+	Colt M4A1 5.56x45 assault rifle KAC RISx1,
+	5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazinex3
+]
+Reward_Rep=Peacekeeper+0.040000
+Reward_Item=[
+	Remington Model 700 7.62x51 bolt-action sniper rifle AAC SDx1,
+	7.62x51mm M61x30,
+	GPNVG-18 Night Vision gogglesx2
+]
+
+Reward_EXP=25500

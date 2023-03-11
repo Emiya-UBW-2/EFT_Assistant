@@ -1,0 +1,40 @@
+IDstr=5a27bb3d86f77411ea361a21
+Name=Cargo X - Part 2
+Trader=Peacekeeper
+
+NeedTask=Cargo X - Part 1
+NeedLevel=12
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Map=Shoreline
+Task_Else=TaskType:visit
+Task_Else=Locate the room with reservoirs in the Health Resort
+Task_Else=èEÇ¡Çƒî[ïi:Shoreline-Secure Folder 0013x1
+
+[
+	TaskType=visit
+	TaskText=Locate the room with reservoirs in the Health Resort
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Obtain any information about the second part of the cargo shipment
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the retrieved information
+	TaskOptional=false
+]
+
+Reward_Rep=Peacekeeper+0.030000
+Reward_Item=[
+	Dollarsx850,
+	Colt M4A1 5.56x45 assault rifle KAC RISx1,
+	5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazinex3
+]
+
+Reward_EXP=8300

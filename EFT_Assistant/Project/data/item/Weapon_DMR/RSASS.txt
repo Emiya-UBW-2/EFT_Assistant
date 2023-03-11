@@ -146,3 +146,4 @@ Sell_Mechanic=23298
 Sell_Jaeger=24963
 weight=1.720000
 fleaMarketFee=0
+propertiestype=ItemPropertiesWeapon

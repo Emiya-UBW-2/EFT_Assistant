@@ -1,9 +1,0 @@
-Name=Health Care Privacy - Part 4
-Trader=Therapist
-
-NeedTask=Health Care Privacy - Part 3
-
-Task_Else=HealthƒXƒLƒ‹‚ğ4‚Ü‚Åã‚°‚é
-
-Reward_Rep=Therapist+0.04
-Reward_Item=[Grizzly medical kitx2,Bottle of saline solutionx2]

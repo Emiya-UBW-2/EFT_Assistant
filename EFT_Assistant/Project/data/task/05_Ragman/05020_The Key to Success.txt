@@ -1,0 +1,43 @@
+IDstr=5ae4498786f7744bde357695
+Name=The Key to Success
+Trader=Ragman
+
+NeedTask=Sew it Good - Part 2
+NeedLevel=26
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Interchange
+Task_Else=èEÇ¡Çƒî[ïi:Interchange-Clothes design handbook - Part 1x1
+Task_Else=èEÇ¡Çƒî[ïi:Interchange-Clothes design handbook - Part 2x1
+
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the Clothes design handbook - Part 1 on Interchange
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the first book
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the Clothes design handbook - Part 2 on Interchange
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the second book
+	TaskOptional=false
+]
+
+Reward_Rep=Ragman+0.030000
+Reward_Item=[
+	Roublesx60000,
+	Ghost balaclavax2
+]
+
+Reward_EXP=15600

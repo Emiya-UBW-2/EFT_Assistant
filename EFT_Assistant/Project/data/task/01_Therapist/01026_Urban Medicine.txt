@@ -1,0 +1,40 @@
+IDstr=639135e0fa894f0a866afde6
+Name=Urban Medicine
+Trader=Therapist
+
+NeedTask=Population Census
+NeedLevel=17
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+Task_Else=TaskType:visit
+Task_Else=Locate the chemical laboratory on Streets of Tarkov
+Task_Else=èEÇ¡Çƒî[ïi:Streets of Tarkov-Chemical container with samplesx1
+
+[
+	TaskType=visit
+	TaskText=Locate the chemical laboratory on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the container with drug samples
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the container
+	TaskOptional=false
+]
+
+Reward_Rep=Therapist+0.020000
+Reward_Item=[
+	Roublesx51000,
+	Adrenaline injectorx2,
+	Zagustin hemostatic drug injectorx1
+]
+
+Reward_EXP=10200

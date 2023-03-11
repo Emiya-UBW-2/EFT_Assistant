@@ -7,6 +7,8 @@ Conflict=[
 	Ghoul mask,
 	Pestily plague mask,
 	Slender mask,
+	Tagilla's welding mask "Gorilla",
+	Tagilla's welding mask "UBEY"
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -14,13 +16,14 @@ Information_Eng=A warm hat with a pompon. Only Scavs would wear something like t
 basePrice=4560
 width=1
 height=1
-avg24hPrice=14845
-low24hPrice=8000
-lastOfferCount=31
+avg24hPrice=13957
+low24hPrice=9911
+lastOfferCount=12
 Sell_Fence=1824
 Sell_Skier=2234
 Sell_Peacekeeper=18
 Sell_Ragman=2827
-Sell_Flea Market=10990
+Sell_Flea Market=9911
 weight=0.100000
-fleaMarketFee=1171
+fleaMarketFee=542
+propertiestype=

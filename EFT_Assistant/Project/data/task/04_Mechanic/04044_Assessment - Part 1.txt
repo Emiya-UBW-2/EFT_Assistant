@@ -1,0 +1,25 @@
+IDstr=625d6ffcaa168e51321d69d7
+Name=Assessment - Part 1
+Trader=Mechanic
+
+NeedTask=Network Provider - Part 2
+NeedLevel=35
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=true
+
+Task_Map=Lighthouse
+Task_Kill=[
+	Lighthouse-any PMC operativesx20
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives at the Lighthouse premises
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.010000
+
+Reward_EXP=23500

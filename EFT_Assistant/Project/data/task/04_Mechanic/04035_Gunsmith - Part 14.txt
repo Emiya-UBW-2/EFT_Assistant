@@ -1,0 +1,43 @@
+IDstr=639872fe8871e1272b10ccf6
+Name=Gunsmith - Part 14
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 13
+NeedLevel=27
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+NeedItem=HK 416A5 5.56x45 assault riflex1
+ContainsAll=SureFire SOCOM556-RC2 5.56x45 sound suppressor
+ContainsAll=Magpul RVG foregrip (FDE)
+ContainsAll=EOTech EXPS3 holographic sight (Tan)
+ContainsAll=AR-15 Magpul MOE pistol grip (FDE)
+ContainsAll=Magpul UBR GEN2 stock (FDE)
+ContainsAll=LA-5B/PEQ tactical device
+Task_Else=accuracy >= 0
+Task_Else=durability >= 80
+Task_Else=effectiveDistance >= 300
+Task_Else=ergonomics >= 60
+Task_Else=height >= 0
+Task_Else=magazineCapacity >= 30
+Task_Else=muzzleVelocity >= 0
+Task_Else=recoil <= 250
+Task_Else=weight <= 4
+Task_Else=width >= 0
+
+[
+	TaskType=buildWeapon
+	TaskText=Modify an HK 416A5 to comply with the given specifications
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.020000
+Reward_Item=[
+	Dollarsx500,
+	Torrey Pines Logic T12W 30Hz thermal reflex sightx1,
+	Gunpowder "Eagle"x3
+]
+
+Reward_EXP=14900

@@ -22,3 +22,4 @@ Sell_Peacekeeper=60
 Sell_Mechanic=8631
 weight=0.580000
 fleaMarketFee=0
+propertiestype=ItemPropertiesMagazine

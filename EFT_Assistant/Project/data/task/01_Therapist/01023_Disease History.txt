@@ -1,0 +1,46 @@
+IDstr=60896e28e4a85c72ef3fa301
+Name=Disease History
+Trader=Therapist
+
+NeedTask=Pharmacist
+NeedLevel=15
+NeedItem=[RB-KSM keyx1,RB-SMP keyx1]
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Reserve
+Task_Else=èEÇ¡Çƒî[ïi:Reserve-Medical record #1x1
+Task_Else=èEÇ¡Çƒî[ïi:Reserve-Medical record #2x1
+
+[
+	TaskType=findQuestItem
+	TaskText=Obtain Medical record #1 on Reserve
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Obtain Medical record #2 on Reserve
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the first journal
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the second journal
+	TaskOptional=false
+]
+
+Reward_Rep=Therapist+0.030000
+Reward_Item=[
+	Roublesx30000,
+	Grizzly medical kitx1,
+	Ibuprofen painkillersx1,
+	CALOK-B hemostatic applicatorx5
+]
+
+Reward_EXP=7200

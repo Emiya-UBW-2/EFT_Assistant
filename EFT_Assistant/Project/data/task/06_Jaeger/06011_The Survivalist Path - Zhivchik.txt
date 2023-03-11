@@ -1,0 +1,40 @@
+IDstr=5d25bfd086f77442734d3007
+Name=The Survivalist Path - Zhivchik
+Trader=Jaeger
+
+NeedTask=The Survivalist Path - Thrifty
+NeedLevel=2
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Map=Interchange
+Task_Map=Shoreline
+Task_Map=Streets of Tarkov
+Task_Map=Lighthouse
+Task_Map=Woods
+Task_Map=Customs
+Task_Map=Reserve
+Task_Map=The Lab
+Task_Else=脱出ステータス:[Survived]
+
+[
+	TaskType=experience
+	TaskText=Survive for 5 minutes while suffering from complete dehydration (Excluding Factory)
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+0.020000
+Reward_Item=[
+	Roublesx30000,
+	Aquamari water bottle with filterx2,
+	Water filterx2
+]
+
+Reward_EXP=5700

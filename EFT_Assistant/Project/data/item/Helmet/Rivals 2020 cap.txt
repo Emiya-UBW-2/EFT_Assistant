@@ -7,6 +7,8 @@ Conflict=[
 	Ghoul mask,
 	Pestily plague mask,
 	Slender mask,
+	Tagilla's welding mask "Gorilla",
+	Tagilla's welding mask "UBEY"
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -22,4 +24,5 @@ Sell_Skier=9800
 Sell_Peacekeeper=78
 Sell_Ragman=12400
 weight=0.100000
-fleaMarketFee=1900
+fleaMarketFee=1200
+propertiestype=

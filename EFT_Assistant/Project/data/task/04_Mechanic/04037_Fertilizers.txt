@@ -1,0 +1,46 @@
+IDstr=5c1128e386f7746565181106
+Name=Fertilizers
+Trader=Mechanic
+
+NeedTask=Farming - Part 4
+NeedLevel=30
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+NeedItem=Bundle of wiresx5
+NeedItem=Capacitorsx5
+Task_FiR_HandOver=[Bundle of wiresx5]
+DogTagLv=0
+Task_FiR_HandOver=[Capacitorsx5]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Find Bundles of wires in raid
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Capacitors in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the wires
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the capacitors
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.020000
+Reward_Item=[
+	Roublesx65000,
+	Physical bitcoinx2
+]
+
+Reward_EXP=17200

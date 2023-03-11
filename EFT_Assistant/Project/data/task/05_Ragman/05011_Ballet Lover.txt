@@ -1,0 +1,35 @@
+IDstr=639135a7e705511c8a4a1b78
+Name=Ballet Lover
+Trader=Ragman
+
+NeedTask=Audit
+NeedLevel=20
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+Task_Else=TaskType:visit
+Task_Else=Locate the balletmeister's apartment on Streets of Tarkov
+Task_Map=Streets of Tarkov
+Task_Else=脱出ステータス:[Survived]
+
+[
+	TaskType=visit
+	TaskText=Locate the balletmeister's apartment on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Ragman+0.020000
+Reward_Item=[
+	Roublesx66000,
+	Eagle Industries MMAC plate carrier (Ranger Green)x1
+]
+
+Reward_EXP=10700

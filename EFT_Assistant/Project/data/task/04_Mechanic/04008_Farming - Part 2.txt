@@ -1,0 +1,60 @@
+IDstr=5ac3460c86f7742880308185
+Name=Farming - Part 2
+Trader=Mechanic
+
+NeedTask=Farming - Part 1
+NeedLevel=12
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+NeedItem=Power cordx2
+Task_FiR_HandOver=[Power cordx2]
+DogTagLv=0
+NeedItem=T-Shaped plugx4
+Task_FiR_HandOver=[T-Shaped plugx4]
+DogTagLv=0
+NeedItem=Printed circuit boardx2
+Task_FiR_HandOver=[Printed circuit boardx2]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Find Power cords in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the cords
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find T-Shaped Plugs in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the plugs
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Printed circuit boards in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the PCBs
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.020000
+Reward_Item=[
+	Roublesx15000,
+	ASh-12 12.7x55 assault rifle Defaultx1,
+	NIXXOR lensx1
+]
+
+Reward_EXP=5500

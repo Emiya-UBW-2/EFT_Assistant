@@ -1,0 +1,2 @@
+Name=Glukhar Guard (Assault)
+Color=[128,192,0]

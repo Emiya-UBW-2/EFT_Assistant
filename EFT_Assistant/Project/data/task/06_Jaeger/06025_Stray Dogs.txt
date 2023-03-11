@@ -1,0 +1,48 @@
+IDstr=626bdcc3a371ee3a7a3514c5
+Name=Stray Dogs
+Trader=Jaeger
+
+NeedTask=The Huntsman Path - Trophy
+NeedLevel=2
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Kill=[
+	Death Knightx1
+]
+Task_Kill=[
+	Big Pipex1
+]
+Task_Kill=[
+	Birdeyex1
+]
+
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Death Knight
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Big Pipe
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Birdeye
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+0.020000
+Reward_Item=[
+	Roublesx125000,
+	SV-98 7.62x54R bolt-action sniper rifle OVx1,
+	Recknagel Era-Tac 30mm ring scope mountx1,
+	Schmidt & Bender PM II 1-8x24 30mm riflescopex1,
+	SV-98 7.62x54R 10-round magazinex2,
+	7.62x54mm R PS gzhx30
+]
+
+Reward_EXP=12000

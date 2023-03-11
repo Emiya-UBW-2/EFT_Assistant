@@ -1,0 +1,35 @@
+IDstr=639135b04ed9512be67647d7
+Name=Glory to CPSU
+Trader=Prapor
+
+NeedTask=You've Got Mail
+NeedLevel=15
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+Task_Else=TaskType:visit
+Task_Else=Locate the apartment of Prapor's friend on Streets of Tarkov
+Task_Map=Streets of Tarkov
+Task_Else=脱出ステータス:[Survived]
+
+[
+	TaskType=visit
+	TaskText=Locate the apartment of Prapor's friend on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Prapor+0.020000
+Reward_Item=[
+	Roublesx42000,
+	Bottle of Tarkovskaya vodkax2
+]
+
+Reward_EXP=7300

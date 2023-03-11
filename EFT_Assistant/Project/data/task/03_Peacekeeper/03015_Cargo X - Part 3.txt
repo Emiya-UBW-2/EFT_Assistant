@@ -1,0 +1,35 @@
+IDstr=5a27bb5986f7741dfb660900
+Name=Cargo X - Part 3
+Trader=Peacekeeper
+
+NeedTask=Cargo X - Part 2
+NeedLevel=12
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Map=Shoreline
+Task_Else=TaskType:visit
+Task_Else=Locate the hidden TerraGroup cargo on Shoreline
+Task_Map=Shoreline
+Task_Else=脱出ステータス:[Survived,Run Through]
+
+[
+	TaskType=visit
+	TaskText=Locate the hidden TerraGroup cargo on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Peacekeeper+0.030000
+Reward_Item=[
+	Dollarsx900,
+	HK MP7A1 4.6x30 submachine gun Defaultx1
+]
+
+Reward_EXP=8400

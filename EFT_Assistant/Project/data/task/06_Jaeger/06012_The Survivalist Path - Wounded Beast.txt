@@ -1,0 +1,30 @@
+IDstr=5d25c81b86f77443e625dd71
+Name=The Survivalist Path - Wounded Beast
+Trader=Jaeger
+
+NeedTask=The Survivalist Path - Zhivchik
+NeedLevel=2
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Kill=[
+	Scavsx3
+]
+Task_Else=©•ª‚ÌŠY“–‰ÓŠ‚ÉˆÙíó‘Ô:[head,thorax,stomach,left arm,right arm,left leg,right leg]
+Task_Else=©•ª‚ÌˆÙíó‘Ô:[Pain]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs while suffering from the pain effect
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+0.020000
+Reward_Item=[
+	Roublesx65000
+]
+Reward_SkillLevelUp=Stress Resistance+1
+
+Reward_EXP=5800

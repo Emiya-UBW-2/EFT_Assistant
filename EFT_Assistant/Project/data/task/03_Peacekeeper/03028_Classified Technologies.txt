@@ -1,0 +1,32 @@
+IDstr=60896888e4a85c72ef3fa300
+Name=Classified Technologies
+Trader=Peacekeeper
+
+NeedTask=Revision - Reserve
+NeedLevel=14
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Reserve
+Task_Else=E‚Á‚Ä”[•i:Reserve-T-90M Commander Control Panelx1
+
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the package with T-90M Commander control panel on Reserve
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the package
+	TaskOptional=false
+]
+
+Reward_Rep=Peacekeeper+0.020000
+Reward_Item=[
+	Dollarsx800,
+	5.7x28mm R37.Fx200
+]
+
+Reward_EXP=7200

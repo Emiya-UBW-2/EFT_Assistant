@@ -1,0 +1,50 @@
+IDstr=63966fccac6f8f3c677b9d89
+Name=Snatch
+Trader=Lightkeeper
+
+NeedTask=Missing Informant
+NeedLevel=35
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Lighthouse
+Task_Else=’EoƒXƒe[ƒ^ƒX:[Survived,Run Through,Killed in Action (KIA),Missing in Action (MIA)]
+Task_Else=E‚Á‚Ä”[•i:Lighthouse-Forged Lightkeeper intelligencex1
+Task_Else=E‚Á‚Ä”[•i:Reserve-Lightkeeper intelligencex1
+Task_Else=E‚Á‚Ä”[•i:Reserve-Forged Lightkeeper intelligencex1
+Task_Else=E‚Á‚Ä”[•i:Lighthouse-Lightkeeper intelligencex1
+
+[
+	TaskType=extract
+	TaskText=Extract from Lighthouse
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the forged intelligence at the Rogue base on Lighthouse
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the original intelligence in the repair station on Reserve
+	TaskOptional=false
+]
+[
+	TaskType=plantQuestItem
+	TaskText=Stash the forged intelligence under the BMP-2 in place of the original
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Bring the original intelligence to Lightkeeper
+	TaskOptional=false
+]
+
+Reward_Rep=Lightkeeper+0.010000
+Reward_Item=[
+	VPX Flash Storage Modulex3
+]
+
+Reward_EXP=0

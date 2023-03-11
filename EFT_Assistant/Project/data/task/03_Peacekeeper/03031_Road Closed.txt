@@ -1,0 +1,44 @@
+IDstr=639282134ed9512be67647ed
+Name=Road Closed
+Trader=Peacekeeper
+
+NeedTask=Spa Tour - Part 7
+NeedLevel=20
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+Task_Else=TaskType:visit
+Task_Else=Locate the cargo convoy on Streets of Tarkov
+Task_Else=TaskType:visit
+Task_Else=Determine the ambush spot
+Task_Map=Streets of Tarkov
+Task_Else=脱出ステータス:[Survived]
+
+[
+	TaskType=visit
+	TaskText=Locate the cargo convoy on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Determine the ambush spot
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Peacekeeper+0.020000
+Reward_Item=[
+	Roublesx64000,
+	HK MP7A1 4.6x30 submachine gun Defaultx1,
+	HK MP7 4.6x30 20-round magazinex3,
+	4.6x30mm Action SXx80
+]
+
+Reward_EXP=10500

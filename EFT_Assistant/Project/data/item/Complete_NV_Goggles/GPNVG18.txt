@@ -25,3 +25,4 @@ Sell_Mechanic=81202
 Sell_Jaeger=87002
 weight=0.880000
 fleaMarketFee=0
+propertiestype=ItemPropertiesNightVision

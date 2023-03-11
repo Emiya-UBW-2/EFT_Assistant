@@ -1,0 +1,60 @@
+IDstr=5ac3475486f7741d6224abd3
+Name=Bad Habit
+Trader=Mechanic
+
+NeedTask=Farming - Part 2
+NeedLevel=12
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+NeedItem=Malboro Cigarettesx5
+Task_FiR_HandOver=[Malboro Cigarettesx5]
+DogTagLv=0
+NeedItem=Strike Cigarettesx5
+Task_FiR_HandOver=[Strike Cigarettesx5]
+DogTagLv=0
+NeedItem=Wilston cigarettesx5
+Task_FiR_HandOver=[Wilston cigarettesx5]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Find Malboro cigarettes in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the Malboro cigarettes
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Strike cigarettes in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the Strike cigarettes
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Wilston cigarettes in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the Wilston cigarettes
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.020000
+Reward_Item=[
+	Eurosx300,
+	Glock 18C 9x19 machine pistol Defaultx1,
+	9x19mm Green Tracerx300
+]
+
+Reward_EXP=6700

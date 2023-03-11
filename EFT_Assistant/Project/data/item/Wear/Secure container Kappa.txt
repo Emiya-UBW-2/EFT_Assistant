@@ -13,3 +13,4 @@ low24hPrice=0
 lastOfferCount=0
 weight=2.000000
 fleaMarketFee=0
+propertiestype=ItemPropertiesContainer

@@ -1,0 +1,38 @@
+IDstr=5ac23c6186f7741247042bad
+Name=Gunsmith - Part 1
+Trader=Mechanic
+
+NeedLevel=2
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+NeedItem=MP-133 12ga pump-action shotgunx1
+ContainsCategory=Comb. tact. device
+Task_Else=accuracy >= 0
+Task_Else=durability >= 60
+Task_Else=effectiveDistance >= 0
+Task_Else=ergonomics >= 47
+Task_Else=height <= 1
+Task_Else=magazineCapacity >= 5
+Task_Else=muzzleVelocity >= 0
+Task_Else=recoil <= 850
+Task_Else=weight >= 0
+Task_Else=width <= 4
+
+[
+	TaskType=buildWeapon
+	TaskText=Modify an MP-133 to comply with the given specifications
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.010000
+Reward_Item=[
+	Roublesx10000,
+	Screw nutsx1,
+	Boltsx1,
+	12/70 makeshift .50 BMG slugx20
+]
+
+Reward_EXP=800

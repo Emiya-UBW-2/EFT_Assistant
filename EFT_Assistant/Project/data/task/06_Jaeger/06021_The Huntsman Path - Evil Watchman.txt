@@ -1,0 +1,30 @@
+IDstr=5d25e44386f77409453bce7b
+Name=The Huntsman Path - Evil Watchman
+Trader=Jaeger
+
+NeedTask=The Huntsman Path - Forest Cleaning
+NeedLevel=2
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Customs
+Task_Kill=[
+	Customs-any PMC operativesx5
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives in the Dorms area on Customs
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+0.020000
+Reward_Item=[
+	Roublesx75000,
+	Intelligence folderx2,
+	Secure Flash drivex2
+]
+
+Reward_EXP=6000

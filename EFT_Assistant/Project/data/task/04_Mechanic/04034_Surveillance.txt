@@ -1,0 +1,33 @@
+IDstr=639135e8c115f907b14700aa
+Name=Surveillance
+Trader=Mechanic
+
+NeedTask=Corporate Secrets
+NeedTask=Broadcast - Part 2
+NeedLevel=25
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+Task_Else=èEÇ¡Çƒî[ïi:Streets of Tarkov-Working hard drivex1
+
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the data on vehicle movement at the Concordia residential complex parking lot on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the information
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.020000
+Reward_Item=[
+	Roublesx126000,
+	Military power filterx1
+]
+
+Reward_EXP=22800

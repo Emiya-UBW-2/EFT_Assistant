@@ -4,6 +4,8 @@ ShortName=ULACH
 Itemtype=Headwear
 Conflict=[
 	Faceless mask,
+	Tagilla's welding mask "Gorilla",
+	Tagilla's welding mask "UBEY"
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -11,13 +13,14 @@ Information_Eng=A combat helmet with the ears and back of the head protection, m
 basePrice=72546
 width=2
 height=2
-avg24hPrice=78801
-low24hPrice=61111
-lastOfferCount=9
+avg24hPrice=77869
+low24hPrice=66000
+lastOfferCount=16
 Sell_Fence=29018
 Sell_Skier=35547
 Sell_Peacekeeper=284
 Sell_Ragman=44978
-Sell_Flea Market=72900
+Sell_Flea Market=77777
 weight=1.900000
-fleaMarketFee=6914
+fleaMarketFee=4495
+propertiestype=ItemPropertiesHelmet

@@ -1,0 +1,50 @@
+IDstr=625d700cc48e6c62a440fab5
+Name=Getting Acquainted
+Trader=Mechanic
+
+NeedTask=Knock-Knock
+NeedLevel=35
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Lighthouse
+Task_Else=E‚Á‚Ä”[•i:Lighthouse-Secure Flash drive V3x1
+NeedItem=Digital secure DSP radio transmitterx1
+Task_Else=TaskType:visit
+Task_Else=Visit the Lighthouse building
+
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the V3 Flash drive on Lighthouse
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Reflash the Radio transmitter
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the flash drive
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Visit the Lighthouse building
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.010000
+
+Task_Else=TraderStanding‚Ìè‡’l: <= 0
+
+[
+	TaskType=traderStanding
+	TaskText=
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic-0.100000
+Reward_EXP=32000

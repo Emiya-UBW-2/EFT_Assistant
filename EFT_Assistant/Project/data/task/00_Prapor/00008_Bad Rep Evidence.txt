@@ -1,0 +1,54 @@
+IDstr=5967530a86f77462ba22226b
+Name=Bad Rep Evidence
+Trader=Prapor
+
+NeedTask=BP Depot
+NeedLevel=6
+NeedItem=[Portable bunkhouse keyx1]
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Else=TaskType:visit
+Task_Else=Gain access to the locked room in the office hallway on the third floor on Factory
+NeedItem=Portable bunkhouse keyx1
+Task_Else=拾って納品:Customs-Secure Folder 0031x1
+Task_Map=Customs
+Task_Else=脱出ステータス:[Survived,Run Through]
+
+[
+	TaskType=visit
+	TaskText=Gain access to the locked room in the office hallway on the third floor on Factory
+	TaskOptional=true
+]
+[
+	TaskType=findItem
+	TaskText=Obtain the Portable bunkhouse key
+	TaskOptional=true
+]
+[
+	TaskType=findQuestItem
+	TaskText=Obtain Secure Folder 0031 in the bunkhouse on Customs
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the folder
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Prapor+0.030000
+Reward_Item=[
+	Roublesx35000,
+	PP-91-01 "Kedr-B" 9x18PM submachine gun Defaultx1,
+	PP-91 "Kedr" 9x18PM 30-round magazinex3,
+	9x18mm PM PS gs PPOx120
+]
+
+Reward_EXP=4100

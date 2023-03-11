@@ -1,0 +1,57 @@
+IDstr=5ac3477486f7741d651d6885
+Name=Scout
+Trader=Mechanic
+
+NeedTask=Signal - Part 2
+NeedLevel=12
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Factory
+Task_Else=TaskType:visit
+Task_Else=Locate the first Factory extraction
+Task_Else=TaskType:visit
+Task_Else=Locate the second Factory extraction
+Task_Else=TaskType:visit
+Task_Else=Locate the third Factory extraction
+Task_Else=TaskType:visit
+Task_Else=Locate the fourth Factory extraction
+Task_Map=Factory
+Task_Map=Night Factory
+Task_Else=脱出ステータス:[Survived]
+
+[
+	TaskType=visit
+	TaskText=Locate the first Factory extraction
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate the second Factory extraction
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate the third Factory extraction
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate the fourth Factory extraction
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.020000
+Reward_Item=[
+	Roublesx30000,
+	Factory emergency exit keyx1
+]
+
+Reward_EXP=6800

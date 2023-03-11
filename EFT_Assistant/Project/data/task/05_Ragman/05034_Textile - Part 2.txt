@@ -1,0 +1,58 @@
+IDstr=5e4d515e86f77438b2195244
+Name=Textile - Part 2
+Trader=Ragman
+
+NeedTask=Textile - Part 1
+NeedLevel=42
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+NeedItem=Fleece fabricx10
+Task_FiR_HandOver=[Fleece fabricx10]
+DogTagLv=0
+NeedItem=Cordura polyamide fabricx10
+Task_FiR_HandOver=[Cordura polyamide fabricx10]
+DogTagLv=0
+NeedItem=KEKTAPE duct tapex5
+Task_FiR_HandOver=[KEKTAPE duct tapex5]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Find Fleece fabrics in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the fabrics
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Cordura polyamide fabrics in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the fabrics
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find KEKTAPE duct tapes in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the duct tapes
+	TaskOptional=false
+]
+
+Reward_Item=[
+	Roublesx100000,
+	Mystery Ranch Blackjack 50 backpack (Multicam)x1
+]
+
+Reward_EXP=0

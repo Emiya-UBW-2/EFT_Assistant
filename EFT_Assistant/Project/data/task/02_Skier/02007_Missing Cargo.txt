@@ -1,0 +1,38 @@
+IDstr=6179b4f16e9dd54ac275e407
+Name=Missing Cargo
+Trader=Skier
+
+NeedTask=Long Road
+NeedLevel=9
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Lighthouse
+Task_Else=TaskType:visit
+Task_Else=Locate the crashed helicopter on Lighthouse
+Task_Else=èEÇ¡Çƒî[ïi:Lighthouse-Stolen military documentsx1
+
+[
+	TaskType=visit
+	TaskText=Locate the crashed helicopter on Lighthouse
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Find the informant's intelligence folder
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the folder
+	TaskOptional=false
+]
+
+Reward_Rep=Skier+0.030000
+Reward_Item=[
+	Roublesx68000
+]
+
+Reward_EXP=14000

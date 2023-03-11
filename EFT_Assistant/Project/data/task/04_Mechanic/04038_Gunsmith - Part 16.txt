@@ -1,0 +1,39 @@
+IDstr=5ac242ab86f77412464f68b4
+Name=Gunsmith - Part 16
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 15
+NeedLevel=30
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+NeedItem=Lobaev Arms DVL-10 7.62x51 bolt-action sniper riflex1
+ContainsCategory=Comb. tact. device
+Task_Else=accuracy >= 0
+Task_Else=durability >= 60
+Task_Else=effectiveDistance >= 2000
+Task_Else=ergonomics >= 40
+Task_Else=height >= 0
+Task_Else=magazineCapacity >= 0
+Task_Else=muzzleVelocity >= 0
+Task_Else=recoil <= 400
+Task_Else=weight <= 6
+Task_Else=width >= 0
+
+[
+	TaskType=buildWeapon
+	TaskText=Modify a DVL-10 to comply with the given specifications
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.030000
+Reward_Item=[
+	Roublesx200000,
+	Pack of screwsx2,
+	Electric drillx1,
+	Metal fuel tankx1
+]
+
+Reward_EXP=20400

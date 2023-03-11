@@ -1,0 +1,42 @@
+IDstr=639135cd8ba6894d155e77cb
+Name=House Arrest - Part 2
+Trader=Skier
+
+NeedTask=House Arrest - Part 1
+NeedLevel=33
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+Task_Else=TaskType:visit
+Task_Else=Locate the improvised jail warden's apartment on Streets of Tarkov
+Task_Else=TaskType:visit
+Task_Else=Find out what happened to the warden
+Task_Map=Streets of Tarkov
+Task_Else=脱出ステータス:[Survived]
+
+[
+	TaskType=visit
+	TaskText=Locate the improvised jail warden's apartment on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Find out what happened to the warden
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Skier+0.030000
+Reward_Item=[
+	Roublesx114000,
+	TDI KRISS Vector Gen.2 9x19 submachine gun Defaultx1
+]
+
+Reward_EXP=29200

@@ -1,0 +1,47 @@
+IDstr=5b478ff486f7744d184ecbbf
+Name=Vitamins - Part 2
+Trader=Skier
+
+NeedTask=Vitamins - Part 1
+NeedLevel=22
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_FiR_HandOver=[Respiratorx4]
+DogTagLv=0
+NeedItem=Respiratorx4
+NeedItem=Medical bloodsetx3
+Task_FiR_HandOver=[Medical bloodsetx3]
+DogTagLv=0
+
+[
+	TaskType=giveItem
+	TaskText=Hand over the respirators
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Respirators in raid
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Medical bloodsets in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the bloodsets
+	TaskOptional=false
+]
+
+Reward_Rep=Skier+0.050000
+Reward_Item=[
+	Roublesx40000,
+	Morphine injectorx4,
+	Golden Star balmx1
+]
+
+Reward_EXP=15800

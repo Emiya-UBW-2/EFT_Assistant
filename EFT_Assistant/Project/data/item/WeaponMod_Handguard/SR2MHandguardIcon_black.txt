@@ -21,4 +21,5 @@ Sell_Skier=1396
 Sell_Peacekeeper=11
 Sell_Mechanic=1596
 weight=0.120000
-fleaMarketFee=271
+fleaMarketFee=171
+propertiestype=ItemPropertiesWeaponMod

@@ -1,0 +1,50 @@
+IDstr=5d25e48186f77443e625e386
+Name=Courtesy Visit
+Trader=Jaeger
+
+NeedTask=The Survivalist Path - Tough Guy
+NeedLevel=20
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Shoreline
+Task_Else=TaskType:visit
+Task_Else=Locate the chairman's house in the abandoned village on Shoreline
+Task_Else=TaskType:visit
+Task_Else=Locate the fisherman's house in the abandoned village on Shoreline
+Task_Else=TaskType:visit
+Task_Else=Locate the priest's house in the abandoned village on Shoreline
+Task_Map=Shoreline
+Task_Else=脱出ステータス:[Survived]
+
+[
+	TaskType=visit
+	TaskText=Locate the chairman's house in the abandoned village on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate the fisherman's house in the abandoned village on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate the priest's house in the abandoned village on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from Shoreline with the "Survived" exit status
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+0.030000
+Reward_Item=[
+	Roublesx35000,
+	Emelya rye croutonsx5,
+	Pack of milkx5
+]
+
+Reward_EXP=11800

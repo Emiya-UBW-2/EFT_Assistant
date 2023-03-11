@@ -7,6 +7,8 @@ Conflict=[
 	GP-5 gas mask,
 	Pestily plague mask,
 	GP-7 gas mask,
+	Tagilla's welding mask "Gorilla",
+	Tagilla's welding mask "UBEY"
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -14,13 +16,14 @@ Information_Eng=The PSh-97 "DJETA" police helmet is designed to protect the head
 basePrice=16200
 width=2
 height=2
-avg24hPrice=24776
-low24hPrice=17500
+avg24hPrice=24742
+low24hPrice=19000
 lastOfferCount=8
 Sell_Fence=6480
 Sell_Skier=7938
 Sell_Peacekeeper=63
 Sell_Ragman=10044
-Sell_Flea Market=23333
+Sell_Flea Market=19000
 weight=1.300000
-fleaMarketFee=2147
+fleaMarketFee=1057
+propertiestype=ItemPropertiesHelmet

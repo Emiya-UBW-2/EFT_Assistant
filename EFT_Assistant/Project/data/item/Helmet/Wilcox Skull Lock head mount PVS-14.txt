@@ -16,4 +16,5 @@ Sell_Skier=57663
 Sell_Peacekeeper=460
 Sell_Ragman=72961
 weight=1.290000
-fleaMarketFee=11180
+fleaMarketFee=7061
+propertiestype=ItemPropertiesPreset

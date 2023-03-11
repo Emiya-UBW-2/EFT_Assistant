@@ -1,0 +1,30 @@
+IDstr=5ae448bf86f7744d733e55ee
+Name=Make ULTRA Great Again
+Trader=Ragman
+
+NeedTask=Only Business
+NeedLevel=17
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Map=Interchange
+Task_Kill=[
+	Interchange-Scavsx25
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs on Interchange
+	TaskOptional=false
+]
+
+Reward_Rep=Ragman+0.020000
+Reward_Rep=Jaeger+0.010000
+Reward_Item=[
+	Roublesx25000,
+	WARTECH TV-109 + TV-106 chest rigx3
+]
+
+Reward_EXP=9800

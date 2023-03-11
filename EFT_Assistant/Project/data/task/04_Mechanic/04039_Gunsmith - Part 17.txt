@@ -1,0 +1,42 @@
+IDstr=5b47749f86f7746c5d6a5fd4
+Name=Gunsmith - Part 17
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 16
+NeedLevel=31
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+NeedItem=Kalashnikov AK-102 5.56x45 assault riflex1
+ContainsAll=Ferfrans CRD 5.56x45 Concussion Reduction Device
+ContainsAll=SLR-106/AK 5.56x45 Circle 10 30-round magazine
+ContainsAll=Magpul AFG tactical foregrip (Olive Drab)
+ContainsAll=Zenit Klesch-2U tactical flashlight
+ContainsAll=RPK-16 buffer tube
+Task_Else=accuracy >= 0
+Task_Else=durability >= 60
+Task_Else=effectiveDistance >= 800
+Task_Else=ergonomics >= 70
+Task_Else=height <= 2
+Task_Else=magazineCapacity >= 0
+Task_Else=muzzleVelocity >= 0
+Task_Else=recoil <= 210
+Task_Else=weight >= 0
+Task_Else=width <= 4
+
+[
+	TaskType=buildWeapon
+	TaskText=Modify an AK-102 to comply with the given specifications
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.030000
+Reward_Item=[
+	Roublesx35000,
+	Spark plugx4,
+	GreenBat lithium batteryx2
+]
+
+Reward_EXP=21400

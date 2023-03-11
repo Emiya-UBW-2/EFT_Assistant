@@ -1,0 +1,24 @@
+IDstr=59c93e8e86f7742a406989c4
+Name=Loyalty Buyout
+Trader=Skier
+
+NeedTask=Out of Curiosity
+NeedTask=Chemical - Part 4
+NeedLevel=11
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_NotFiR_HandOver=[Roublesx1000000]
+DogTagLv=0
+
+[
+	TaskType=giveItem
+	TaskText=Hand over RUB
+	TaskOptional=false
+]
+
+Reward_Rep=Skier+0.250000
+
+Reward_EXP=0

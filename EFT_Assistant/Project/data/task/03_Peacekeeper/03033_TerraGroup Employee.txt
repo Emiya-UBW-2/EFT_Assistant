@@ -1,0 +1,43 @@
+IDstr=5edac63b930f5454f51e128b
+Name=TerraGroup Employee
+Trader=Peacekeeper
+
+NeedTask=Samples
+NeedTask=The Huntsman Path - Sadist
+NeedLevel=23
+NeedItem=[Keycard with a blue markingx1]
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=The Lab
+Task_Else=TaskType:visit
+Task_Else=Find Sanitar's workplace in The Lab
+Task_Else=èEÇ¡Çƒî[ïi:The Lab-Flash drive marked with blue tapex1
+
+[
+	TaskType=visit
+	TaskText=Find Sanitar's workplace in The Lab
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Obtain information about Sanitar's work
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the Flash drive marked with blue tape
+	TaskOptional=false
+]
+
+Reward_Rep=Peacekeeper+0.040000
+Reward_Item=[
+	Dollarsx5000,
+	Desert Tech MDR 7.62x51 assault rifle Defaultx4,
+	AR-10 7.62x51 Magpul PMAG 20 SR-LR GEN M3 20-round magazinex3,
+	7.62x51mm M80x80
+]
+
+Reward_EXP=17000

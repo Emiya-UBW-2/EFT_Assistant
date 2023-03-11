@@ -9,6 +9,8 @@ Conflict=[
 	Pestily plague mask,
 	Slender mask,
 	GP-7 gas mask,
+	Tagilla's welding mask "Gorilla",
+	Tagilla's welding mask "UBEY"
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -25,4 +27,5 @@ Sell_Peacekeeper=7
 Sell_Ragman=1132
 Sell_Flea Market=5000
 weight=0.100000
-fleaMarketFee=564
+fleaMarketFee=294
+propertiestype=

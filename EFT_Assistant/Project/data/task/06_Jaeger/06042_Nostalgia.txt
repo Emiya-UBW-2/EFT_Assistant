@@ -1,0 +1,40 @@
+IDstr=5d25e4ad86f77443e625e387
+Name=Nostalgia
+Trader=Jaeger
+
+NeedTask=Courtesy Visit
+NeedLevel=28
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Shoreline
+Task_Else=TaskType:visit
+Task_Else=Locate Jaeger's room with a view of a bay in the Health Resort
+Task_Else=èEÇ¡Çƒî[ïi:Shoreline-Photo albumx1
+
+[
+	TaskType=visit
+	TaskText=Locate Jaeger's room with a view of a bay in the Health Resort
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Obtain Jaeger's photo album
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the photo album
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+0.020000
+Reward_Item=[
+	Roublesx30000,
+	Documents casex1,
+	HEP station storage room keyx1
+]
+
+Reward_EXP=16800

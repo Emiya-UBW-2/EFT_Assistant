@@ -1,0 +1,32 @@
+IDstr=60e71c11d54b755a3b53eb65
+Name=Night Sweep
+Trader=Skier
+
+NeedTask=Rigged Game
+NeedLevel=50
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+NeedItem=Cultist knifex12
+Task_FiR_HandOver=[Cultist knifex12]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Find the unusual knives in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the knives
+	TaskOptional=false
+]
+
+Reward_Item=[
+	Dollarsx6000
+]
+Reward_SkillLevelUp=Shotguns+2
+
+Reward_EXP=107000

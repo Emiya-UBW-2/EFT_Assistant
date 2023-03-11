@@ -1,0 +1,56 @@
+IDstr=5b478eca86f7744642012254
+Name=Vitamins - Part 1
+Trader=Skier
+
+NeedTask=Chemical - Part 3
+NeedLevel=22
+NeedItem=[Health Resort west wing office room 112 keyx1,EMERCOM medical unit keyx1]
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Else=èEÇ¡Çƒî[ïi:Shoreline-Chemical container #1x1
+Task_Else=èEÇ¡Çƒî[ïi:Interchange-Chemical container #2x1
+Task_Else=èEÇ¡Çƒî[ïi:Interchange-Chemical container #3x1
+
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the first Chemical container on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the first container
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the second Chemical container on Interchange
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the second container
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the third Chemical container on Interchange
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the third container
+	TaskOptional=false
+]
+
+Reward_Rep=Skier+0.050000
+Reward_Rep=Jaeger-0.010000
+Reward_Item=[
+	Roublesx40000,
+	Holosun HS401G5 reflex sightx3,
+	Trijicon SRS-02 reflex sightx2
+]
+
+Reward_EXP=13000

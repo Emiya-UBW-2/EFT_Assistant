@@ -1,0 +1,50 @@
+IDstr=596b43fb86f77457ca186186
+Name=The Extortionist
+Trader=Skier
+
+NeedTask=Supplier
+NeedLevel=7
+NeedItem=[Unknown keyx1]
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Customs
+Task_Else=èEÇ¡Çƒî[ïi:Customs-Secure Folder 0048x1
+Task_Else=TaskType:visit
+Task_Else=Locate the messenger's body
+Task_Else=TaskType:visit
+Task_Else=Locate the place where the messenger hid the cargo
+
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the valuable cargo on Customs
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the valuable cargo
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate the messenger's body
+	TaskOptional=true
+]
+[
+	TaskType=visit
+	TaskText=Locate the place where the messenger hid the cargo
+	TaskOptional=true
+]
+
+Reward_Rep=Skier+0.040000
+Reward_Item=[
+	Dollarsx500,
+	Molot VPO-209 .366 TKM carbine Defaultx1,
+	AK 7.62x39 30-round magazine (issued '55 or later)x3,
+	.366 TKM EKOx120,
+	BNTI Zhuk-3 body armor (Press)x1
+]
+
+Reward_EXP=3200

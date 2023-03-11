@@ -1,0 +1,40 @@
+IDstr=5d25cf2686f77443e75488d4
+Name=The Survivalist Path - Tough Guy
+Trader=Jaeger
+
+NeedTask=The Survivalist Path - Wounded Beast
+NeedLevel=2
+
+CanRestart=true
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Map=Woods
+Task_Kill=[
+	Woods-Scavsx3
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs in a single raid without using any medicine on Woods
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+0.020000
+Reward_Item=[
+	Roublesx40000,
+	CMS surgical kitx1,
+	Pile of medsx3
+]
+Reward_SkillLevelUp=Perception+1
+
+Task_Map=Woods
+Task_Else=臒l: >= 0
+
+[
+	TaskType=useItem
+	TaskText=You must not use any medical supplies until the quest is completed
+	TaskOptional=false
+]
+
+Reward_EXP=7000

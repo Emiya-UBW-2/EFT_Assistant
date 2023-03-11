@@ -1,0 +1,41 @@
+IDstr=5bc4826c86f774106d22d88b
+Name=The Tarkov Shooter - Part 5
+Trader=Jaeger
+
+NeedTask=The Tarkov Shooter - Part 4
+NeedLevel=2
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Map=Customs
+Task_Kill=[
+	Customs-Scavsx8
+]
+NeedItem=[
+	Mosin 7.62x54R bolt-action rifle (Infantry)x0,
+	Mosin 7.62x54R bolt-action rifle (Sniper)x0,
+	SV-98 7.62x54R bolt-action sniper riflex0,
+	Lobaev Arms DVL-10 7.62x51 bolt-action sniper riflex0,
+	Remington Model 700 7.62x51 bolt-action sniper riflex0,
+	Molot VPO-215 "Gornostay" .366 TKM bolt-action riflex0,
+	ORSIS T-5000M 7.62x51 bolt-action sniper riflex0,
+	Accuracy International AXMC .338 LM bolt-action sniper riflex0,
+	MP-18 7.62x54R single-shot riflex0
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs while using a bolt-action rifle in the time period of 21:00-05:00 on Customs
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+0.020000
+Reward_Item=[
+	Roublesx80000,
+	Mosin Rifle Texas Precision Products 7.62x54R muzzle brakex1,
+	PNV-10T Night Vision Gogglesx1
+]
+
+Reward_EXP=13000

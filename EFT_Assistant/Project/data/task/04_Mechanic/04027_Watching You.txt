@@ -1,0 +1,39 @@
+IDstr=639136fa9444fb141f4e6eee
+Name=Watching You
+Trader=Mechanic
+
+NeedTask=Broadcast - Part 2
+NeedLevel=20
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+Task_Else=TaskType:visit
+Task_Else=Locate the surveillance spot on Streets of Tarkov
+Task_Else=èEÇ¡Çƒî[ïi:Streets of Tarkov-Flash drive with recordingsx1
+
+[
+	TaskType=visit
+	TaskText=Locate the surveillance spot on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the observation results
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the data
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.020000
+Reward_Item=[
+	Roublesx94000,
+	Military cablex2
+]
+
+Reward_EXP=18500

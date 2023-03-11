@@ -1,0 +1,34 @@
+IDstr=5eaaaa7c93afa0558f3b5a1c
+Name=The Survivalist Path - Junkie
+Trader=Jaeger
+
+NeedTask=The Survivalist Path - Combat Medic
+NeedLevel=2
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Woods
+Task_Kill=[
+	Woods-Scavsx15
+]
+Task_Else=©•ª‚ÌŠY“–‰ÓŠ‚ÉˆÙíó‘Ô:[head]
+Task_Else=©•ª‚ÌˆÙíó‘Ô:[Stimulant]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs while under any stimulant effect on Woods
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+0.020000
+Reward_Item=[
+	Roublesx30000,
+	12/70 RIPx30,
+	5.56x45mm Warmageddonx80,
+	5.45x39mm BT gs ammo pack (120 pcs)x1
+]
+Reward_SkillLevelUp=Metabolism+2
+
+Reward_EXP=5900

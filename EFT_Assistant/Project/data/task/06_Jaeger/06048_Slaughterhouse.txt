@@ -1,0 +1,228 @@
+IDstr=63a9b36cc31b00242d28a99f
+Name=Slaughterhouse
+Trader=Jaeger
+
+NeedTask=The Huntsman Path - Administrator
+NeedTask=Broadcast - Part 4
+NeedLevel=40
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Kill=[
+	Factory-Scavsx10
+]
+NeedItem=[
+	ER FULCRUM BAYONETx0,
+	Bars A-2607 95H18 knifex0,
+	Bars A-2607 Damascus knifex0,
+	Crash Axex0,
+	Cultist knifex0,
+	Freeman crowbarx0,
+	6Kh5 Bayonetx0,
+	Miller Bros. Blades M-2 Tactical Swordx0,
+	Red Rebel ice pickx0,
+	SOG Voodoo Hawk tactical tomahawkx0,
+	SP-8 Survival Machetex0,
+	Kiba Arms Tactical Tomahawkx0,
+	UVSR Taiga-1 survival machetex0,
+	Camper axex0,
+	Antique axex0,
+	MPL-50 entrenching toolx0
+]
+Task_Kill=[
+	Streets of Tarkov-Scavsx10
+]
+NeedItem=[
+	ER FULCRUM BAYONETx0,
+	Bars A-2607 95H18 knifex0,
+	Bars A-2607 Damascus knifex0,
+	Crash Axex0,
+	Cultist knifex0,
+	Freeman crowbarx0,
+	6Kh5 Bayonetx0,
+	Miller Bros. Blades M-2 Tactical Swordx0,
+	Red Rebel ice pickx0,
+	SOG Voodoo Hawk tactical tomahawkx0,
+	SP-8 Survival Machetex0,
+	Kiba Arms Tactical Tomahawkx0,
+	UVSR Taiga-1 survival machetex0,
+	Camper axex0,
+	Antique axex0,
+	MPL-50 entrenching toolx0
+]
+Task_Kill=[
+	Lighthouse-Scavsx10
+]
+NeedItem=[
+	ER FULCRUM BAYONETx0,
+	Bars A-2607 95H18 knifex0,
+	Bars A-2607 Damascus knifex0,
+	Crash Axex0,
+	Cultist knifex0,
+	Freeman crowbarx0,
+	6Kh5 Bayonetx0,
+	Miller Bros. Blades M-2 Tactical Swordx0,
+	Red Rebel ice pickx0,
+	SOG Voodoo Hawk tactical tomahawkx0,
+	SP-8 Survival Machetex0,
+	Kiba Arms Tactical Tomahawkx0,
+	UVSR Taiga-1 survival machetex0,
+	Camper axex0,
+	Antique axex0,
+	MPL-50 entrenching toolx0
+]
+Task_Kill=[
+	Woods-Scavsx10
+]
+NeedItem=[
+	ER FULCRUM BAYONETx0,
+	Bars A-2607 95H18 knifex0,
+	Bars A-2607 Damascus knifex0,
+	Crash Axex0,
+	Cultist knifex0,
+	Freeman crowbarx0,
+	6Kh5 Bayonetx0,
+	Miller Bros. Blades M-2 Tactical Swordx0,
+	Red Rebel ice pickx0,
+	SOG Voodoo Hawk tactical tomahawkx0,
+	SP-8 Survival Machetex0,
+	Kiba Arms Tactical Tomahawkx0,
+	UVSR Taiga-1 survival machetex0,
+	Camper axex0,
+	Antique axex0,
+	MPL-50 entrenching toolx0
+]
+Task_Kill=[
+	Shoreline-Scavsx10
+]
+NeedItem=[
+	ER FULCRUM BAYONETx0,
+	Bars A-2607 95H18 knifex0,
+	Bars A-2607 Damascus knifex0,
+	Crash Axex0,
+	Cultist knifex0,
+	Freeman crowbarx0,
+	6Kh5 Bayonetx0,
+	Miller Bros. Blades M-2 Tactical Swordx0,
+	Red Rebel ice pickx0,
+	SOG Voodoo Hawk tactical tomahawkx0,
+	SP-8 Survival Machetex0,
+	Kiba Arms Tactical Tomahawkx0,
+	UVSR Taiga-1 survival machetex0,
+	Camper axex0,
+	Antique axex0,
+	MPL-50 entrenching toolx0
+]
+Task_Kill=[
+	Interchange-Scavsx10
+]
+NeedItem=[
+	ER FULCRUM BAYONETx0,
+	Bars A-2607 95H18 knifex0,
+	Bars A-2607 Damascus knifex0,
+	Crash Axex0,
+	Cultist knifex0,
+	Freeman crowbarx0,
+	6Kh5 Bayonetx0,
+	Miller Bros. Blades M-2 Tactical Swordx0,
+	Red Rebel ice pickx0,
+	SOG Voodoo Hawk tactical tomahawkx0,
+	SP-8 Survival Machetex0,
+	Kiba Arms Tactical Tomahawkx0,
+	UVSR Taiga-1 survival machetex0,
+	Camper axex0,
+	Antique axex0,
+	MPL-50 entrenching toolx0
+]
+Task_Kill=[
+	Customs-Scavsx10
+]
+NeedItem=[
+	ER FULCRUM BAYONETx0,
+	Bars A-2607 95H18 knifex0,
+	Bars A-2607 Damascus knifex0,
+	Crash Axex0,
+	Cultist knifex0,
+	Freeman crowbarx0,
+	6Kh5 Bayonetx0,
+	Miller Bros. Blades M-2 Tactical Swordx0,
+	Red Rebel ice pickx0,
+	SOG Voodoo Hawk tactical tomahawkx0,
+	SP-8 Survival Machetex0,
+	Kiba Arms Tactical Tomahawkx0,
+	UVSR Taiga-1 survival machetex0,
+	Camper axex0,
+	Antique axex0,
+	MPL-50 entrenching toolx0
+]
+Task_Kill=[
+	Reserve-Scavsx10
+]
+NeedItem=[
+	ER FULCRUM BAYONETx0,
+	Bars A-2607 95H18 knifex0,
+	Bars A-2607 Damascus knifex0,
+	Crash Axex0,
+	Cultist knifex0,
+	Freeman crowbarx0,
+	6Kh5 Bayonetx0,
+	Miller Bros. Blades M-2 Tactical Swordx0,
+	Red Rebel ice pickx0,
+	SOG Voodoo Hawk tactical tomahawkx0,
+	SP-8 Survival Machetex0,
+	Kiba Arms Tactical Tomahawkx0,
+	UVSR Taiga-1 survival machetex0,
+	Camper axex0,
+	Antique axex0,
+	MPL-50 entrenching toolx0
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs while using melee weapons on daytime Factory
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs while using melee weapons on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs while using melee weapons on Lighthouse
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs while using melee weapons on Woods
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs while using melee weapons on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs while using melee weapons on Interchange
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs while using melee weapons on Customs
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs while using melee weapons on Reserve
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+0.030000
+Reward_Item=[
+	Roublesx100000
+]
+
+Reward_EXP=34700

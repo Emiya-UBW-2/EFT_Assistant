@@ -5,6 +5,8 @@ Itemtype=Headwear
 Conflict=[
 	Faceless mask,
 	Ghoul mask,
+	Tagilla's welding mask "Gorilla",
+	Tagilla's welding mask "UBEY"
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -12,13 +14,14 @@ Information_Eng=A heraldic symbol of urban vagabonds. You need to wear it correc
 basePrice=29700
 width=1
 height=1
-avg24hPrice=19713
-low24hPrice=12800
-lastOfferCount=17
+avg24hPrice=20907
+low24hPrice=13333
+lastOfferCount=20
 Sell_Fence=11880
 Sell_Skier=14553
 Sell_Peacekeeper=116
 Sell_Ragman=18414
-Sell_Flea Market=16400
+Sell_Flea Market=16000
 weight=0.100000
-fleaMarketFee=2121
+fleaMarketFee=1577
+propertiestype=ItemPropertiesHelmet

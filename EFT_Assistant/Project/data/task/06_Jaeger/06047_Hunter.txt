@@ -1,0 +1,32 @@
+IDstr=600302d73b897b11364cd161
+Name=Hunter
+Trader=Jaeger
+
+NeedLevel=33
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Woods
+traderRequirementsName=Jaeger
+traderRequirementsType=level
+traderRequirements=>=
+traderRequirementsValue=4
+Task_Kill=[
+	Woods-Shturmanx25
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Shturman
+	TaskOptional=false
+]
+
+Reward_Item=[
+	Roublesx100000,
+	Chain with Prokill medallionx1,
+	Weapon casex1
+]
+
+Reward_EXP=0

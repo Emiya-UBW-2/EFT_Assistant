@@ -4,6 +4,8 @@ ShortName=TC-2001
 Itemtype=Headwear
 Conflict=[
 	Faceless mask,
+	Tagilla's welding mask "Gorilla",
+	Tagilla's welding mask "UBEY"
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -11,13 +13,14 @@ Information_Eng=The MSA Advanced Combat Helmet (ACH) delivers advanced ballistic
 basePrice=46200
 width=2
 height=2
-avg24hPrice=51335
-low24hPrice=44444
-lastOfferCount=24
+avg24hPrice=50430
+low24hPrice=39888
+lastOfferCount=10
 Sell_Fence=18480
 Sell_Skier=22638
 Sell_Peacekeeper=181
 Sell_Ragman=28644
 Sell_Flea Market=47000
 weight=1.400000
-fleaMarketFee=4440
+fleaMarketFee=2792
+propertiestype=ItemPropertiesHelmet

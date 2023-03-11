@@ -20,6 +20,7 @@ namespace FPS_n2 {
 			}
 		};
 		std::vector<LinePos>										m_ParentLinePos;
+		std::vector<TaskID>											m_Drawed;
 	private:
 		void DrawChildTaskClickBox(float Scale, TaskID ParentID, int start_x, int start_y, int xp, int yp, int xs, int ys, bool parentCanDo = true) noexcept {
 			auto* WindowMngr = WindowSystem::WindowManager::Instance();
@@ -32,14 +33,16 @@ namespace FPS_n2 {
 					TraderData::Instance()->ResetRep();
 				}
 				bool IsTrue = false;
-				if (!IsTrue && tasks.GetTaskNeedData().GetParenttaskID().size() == 0 && ParentID == InvalidID) {
-					IsTrue = true;
-				}
-				if (!IsTrue && tasks.GetTaskNeedData().GetParenttaskID().size() > 0) {
-					for (const auto& p : tasks.GetTaskNeedData().GetParenttaskID()) {
-						if (p.GetParenttaskID() == ParentID) {
-							IsTrue = true;
-							break;
+				if (std::find_if(m_Drawed.begin(), m_Drawed.end(), [&](const TaskID& obj) {return obj == tasks.GetID(); }) == m_Drawed.end()) {
+					if (!IsTrue && tasks.GetTaskNeedData().GetParenttaskID().size() == 0 && ParentID == InvalidID) {
+						IsTrue = true;
+					}
+					if (!IsTrue && tasks.GetTaskNeedData().GetParenttaskID().size() > 0) {
+						for (const auto& p : tasks.GetTaskNeedData().GetParenttaskID()) {
+							if (p.GetParenttaskID() == ParentID) {
+								IsTrue = true;
+								break;
+							}
 						}
 					}
 				}
@@ -141,6 +144,7 @@ namespace FPS_n2 {
 						if (!isHit) { break; }
 					}
 					m_ParentLinePos.emplace_back(tasks.GetID(), xp + xs, yp + ys / 2);
+					m_Drawed.emplace_back(tasks.GetID());
 					DrawChildTaskClickBox(Scale, tasks.GetID(), xp + xs, yp + ys / 2, P_Next.GetPosX(), P_Next.GetPosY(), xs, ys, parentCanDo_t);
 					//êeÇ»ÇÃÇ≈Ç¢Ç¡ÇΩÇÒêMóäìxÇñﬂÇ∑
 					for (auto& LL : tasks.GetTaskRewardData().GetLLAdd()) {
@@ -176,6 +180,7 @@ namespace FPS_n2 {
 			int xs = (int)((float)y_r(800) * Scale);
 			int ys = (int)((float)LineHeight * 2 * Scale);
 			m_ParentLinePos.clear();
+			m_Drawed.clear();
 			DrawChildTaskClickBox(Scale, InvalidID, posx + xs, posy + ys / 2, posx, posy, xs, ys);
 		}
 		void DrawFront_Sub(int posx, int posy, float) noexcept override {

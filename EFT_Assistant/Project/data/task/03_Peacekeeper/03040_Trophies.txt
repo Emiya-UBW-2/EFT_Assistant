@@ -1,0 +1,35 @@
+IDstr=60e71ccb5688f6424c7bfec4
+Name=Trophies
+Trader=Peacekeeper
+
+NeedTask=The Cleaner
+NeedLevel=55
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_FiR_HandOver=[Dogtag BEARx20]
+DogTagLv=50
+Task_FiR_HandOver=[Dogtag USECx20]
+DogTagLv=50
+
+[
+	TaskType=giveItem
+	TaskText=Find in raid and hand over BEAR PMC dogtags of level 50+
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Find in raid and hand over USEC PMC dogtags of level 50+
+	TaskOptional=false
+]
+
+Reward_Item=[
+	Ammunition casex4,
+	UNTAR armbandx1,
+	FN40GL Mk2 40mm grenade launcher Defaultx1,
+	40x46mm M433 (HEDP) grenadex10
+]
+
+Reward_EXP=137000

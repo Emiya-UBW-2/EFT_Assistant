@@ -1,0 +1,42 @@
+IDstr=639873003693c63d86328f25
+Name=Gunsmith - Part 19
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 18
+NeedLevel=36
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+NeedItem=SVDS 7.62x54R sniper riflex1
+ContainsAll=Magpul UBR GEN2 stock (Black)
+ContainsAll=SVD SAG MK1 chassis
+ContainsAll=AK Magpul MOE pistol grip (Black)
+ContainsAll=March Tactical 3-24x42 FFP 30mm riflescope
+ContainsCategory=Silencer
+Task_Else=accuracy >= 0
+Task_Else=durability >= 60
+Task_Else=effectiveDistance >= 1000
+Task_Else=ergonomics >= 15
+Task_Else=height >= 0
+Task_Else=magazineCapacity <= 10
+Task_Else=muzzleVelocity >= 0
+Task_Else=recoil <= 400
+Task_Else=weight <= 8
+Task_Else=width >= 0
+
+[
+	TaskType=buildWeapon
+	TaskText=Modify an SVDS to comply with the given specifications
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.030000
+Reward_Item=[
+	Roublesx75000,
+	Ratchet wrenchx1,
+	Bulbex cable cutterx1
+]
+
+Reward_EXP=25500

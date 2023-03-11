@@ -1,0 +1,40 @@
+IDstr=5b47825886f77468074618d3
+Name=Gunsmith - Part 22
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 21
+NeedLevel=39
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+NeedItem=Colt M4A1 5.56x45 assault riflex1
+ContainsAll=KAC QDSS NT-4 5.56x45 sound suppressor (FDE)
+ContainsAll=AR-15 Alexander Arms MK10 rifle length handguard
+ContainsAll=Trijicon REAP-IR thermal scope
+Task_Else=accuracy >= 0
+Task_Else=durability >= 60
+Task_Else=effectiveDistance >= 0
+Task_Else=ergonomics >= 40
+Task_Else=height >= 0
+Task_Else=magazineCapacity >= 60
+Task_Else=muzzleVelocity >= 0
+Task_Else=recoil <= 250
+Task_Else=weight <= 5
+Task_Else=width >= 0
+
+[
+	TaskType=buildWeapon
+	TaskText=Modify an M4A1 to comply with the given specifications
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.030000
+Reward_Item=[
+	Eurosx1000,
+	Magazine casex1,
+	FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescopex2
+]
+
+Reward_EXP=28900

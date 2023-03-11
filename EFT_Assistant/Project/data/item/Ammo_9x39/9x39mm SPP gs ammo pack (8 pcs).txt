@@ -13,4 +13,5 @@ low24hPrice=0
 lastOfferCount=0
 Sell_Fence=400
 weight=0.020000
-fleaMarketFee=95
+fleaMarketFee=60
+propertiestype=

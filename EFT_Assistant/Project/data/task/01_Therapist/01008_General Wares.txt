@@ -1,0 +1,35 @@
+IDstr=596a1e6c86f7741ddc2d3206
+Name=General Wares
+Trader=Therapist
+
+NeedTask=Pharmacist
+NeedLevel=10
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+NeedItem=Can of beef stew (Small)x15
+Task_FiR_HandOver=[Can of beef stew (Small)x15]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Find Cans of beef stew (Small) in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the cans
+	TaskOptional=false
+]
+
+Reward_Rep=Therapist+0.030000
+Reward_Item=[
+	Roublesx30000,
+	Can of pacific sauryx4,
+	Iskra ration packx2,
+	Can of Majaica coffee beansx2
+]
+
+Reward_EXP=4800

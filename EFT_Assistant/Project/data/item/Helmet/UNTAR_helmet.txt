@@ -4,6 +4,8 @@ ShortName=UNTAR
 Itemtype=Headwear
 Conflict=[
 	Faceless mask,
+	Tagilla's welding mask "Gorilla",
+	Tagilla's welding mask "UBEY"
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -11,13 +13,14 @@ Information_Eng=A standard-issue helmet used by UN soldiers during the UNTAR mis
 basePrice=21395
 width=2
 height=2
-avg24hPrice=32119
-low24hPrice=20000
-lastOfferCount=18
+avg24hPrice=29918
+low24hPrice=22000
+lastOfferCount=2
 Sell_Fence=8558
 Sell_Skier=10483
 Sell_Peacekeeper=84
 Sell_Ragman=13264
-Sell_Flea Market=24000
+Sell_Flea Market=36000
 weight=2.200000
-fleaMarketFee=2219
+fleaMarketFee=1896
+propertiestype=ItemPropertiesHelmet

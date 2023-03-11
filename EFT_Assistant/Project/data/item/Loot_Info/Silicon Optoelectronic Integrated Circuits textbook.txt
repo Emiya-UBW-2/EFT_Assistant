@@ -15,3 +15,4 @@ Sell_Fence=200000
 Sell_Peacekeeper=1957
 weight=0.500000
 fleaMarketFee=0
+propertiestype=

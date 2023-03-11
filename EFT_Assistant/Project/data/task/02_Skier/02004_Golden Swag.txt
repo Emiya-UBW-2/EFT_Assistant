@@ -1,0 +1,38 @@
+IDstr=5979eee086f774311955e614
+Name=Golden Swag
+Trader=Skier
+
+NeedTask=What‚Äôs on the Flash Drive?
+NeedLevel=8
+NeedItem=[Dorm room 303 keyx1,Trailer park portable cabin keyx1]
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Customs
+Task_Else=èEÇ¡Çƒî[ïi:Customs-Golden Zibbo lighterx1
+
+[
+	TaskType=findQuestItem
+	TaskText=Find the Golden Zibbo lighter on Customs
+	TaskOptional=false
+]
+[
+	TaskType=plantQuestItem
+	TaskText=Stash the lighter in the bunkhouse at the trailer parking lot on Customs
+	TaskOptional=false
+]
+
+Reward_Item=[
+	Trailer park portable cabin keyx1
+]
+Reward_Rep=Skier+0.040000
+Reward_Item=[
+	Roublesx17000,
+	Soyuz-TM STM-9 Gen.2 9x19 carbine Defaultx1,
+	9x19mm Green Tracerx120,
+	Glock 9x19 "Big Stick" 33-round magazinex2
+]
+
+Reward_EXP=4500

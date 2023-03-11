@@ -1,0 +1,36 @@
+IDstr=59c512ad86f7741f0d09de9b
+Name=The Punisher - Part 3
+Trader=Prapor
+
+NeedTask=The Punisher - Part 2
+NeedLevel=19
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Map=Customs
+Task_Kill=[
+	Customs-Scavsx25
+]
+NeedItem=[
+	Kalashnikov AKS-74UN 5.45x39 assault riflex0,
+	Kalashnikov AKS-74UB 5.45x39 assault riflex0,
+	Kalashnikov AKS-74U 5.45x39 assault riflex0,
+	SAG AK-545 Short 5.45x39 carbinex0
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs while using an AKS-74U on Customs
+	TaskOptional=false
+]
+
+Reward_Rep=Prapor+0.040000
+Reward_Rep=Skier+0.020000
+Reward_Item=[
+	Dollarsx2500,
+	Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle Urbanax1
+]
+
+Reward_EXP=11700

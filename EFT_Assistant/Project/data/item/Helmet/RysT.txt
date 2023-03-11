@@ -4,6 +4,8 @@ ShortName=Rys-T
 Itemtype=Headwear
 Conflict=[
 	Ghoul mask,
+	Tagilla's welding mask "Gorilla",
+	Tagilla's welding mask "UBEY"
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -20,3 +22,4 @@ Sell_Peacekeeper=776
 Sell_Ragman=122962
 weight=2.500000
 fleaMarketFee=0
+propertiestype=ItemPropertiesHelmet

@@ -1,0 +1,38 @@
+IDstr=5c0d1c4cd0928202a02a6f5c
+Name=Decontamination Service
+Trader=Therapist
+
+NeedTask=Private Clinic
+NeedLevel=35
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Map=Interchange
+Task_Kill=[
+	Interchange-Scavsx40
+]
+Task_Else=‘•”õ‚ª•K—v:{
+Task_Else=  Respirator
+Task_Else=  GP-5 gas mask
+Task_Else=  GP-7 gas mask
+Task_Else=}
+Task_Else=‹——£: <= 60m
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs from less than 60 meters away while wearing specific gear on Interchange
+	TaskOptional=false
+]
+
+Reward_Rep=Therapist+0.050000
+Reward_Rep=Jaeger+0.010000
+Reward_Item=[
+	Roublesx300000,
+	Morphine injectorx3,
+	IFAK individual first aid kitx3,
+	GP-7 gas maskx3
+]
+
+Reward_EXP=7400

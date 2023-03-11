@@ -1,0 +1,23 @@
+IDstr=5a27d2af86f7744e1115b323
+Name=Friend from the West - Part 2
+Trader=Skier
+
+NeedTask=Friend from the West - Part 1
+NeedLevel=9
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_NotFiR_HandOver=[Dollarsx6000]
+DogTagLv=0
+
+[
+	TaskType=giveItem
+	TaskText=Hand over USD
+	TaskOptional=false
+]
+
+Reward_Rep=Skier+0.050000
+
+Reward_EXP=6300

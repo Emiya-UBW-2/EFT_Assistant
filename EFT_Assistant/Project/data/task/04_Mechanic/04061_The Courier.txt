@@ -1,0 +1,34 @@
+IDstr=60e71d6d7fcf9c556f325055
+Name=The Courier
+Trader=Mechanic
+
+NeedTask=Calibration
+NeedLevel=47
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_NotFiR_HandOver=[Trijicon REAP-IR thermal scopex1]
+DogTagLv=0
+Task_NotFiR_HandOver=[Trijicon REAP-IR thermal scopex1]
+DogTagLv=0
+
+[
+	TaskType=plantItem
+	TaskText=Stash a Trijicon REAP-IR scope under the base of the yellow crane at the construction site on Customs
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Stash a Trijicon REAP-IR scope behind the trash containers at the "new" gas station on Customs
+	TaskOptional=false
+]
+
+Reward_Item=[
+	SWORD International Mk-18 .338 LM marksman rifle Defaultx1
+]
+Reward_SkillLevelUp=Crafting+1
+Reward_SkillLevelUp=Intellect+1
+
+Reward_EXP=115000

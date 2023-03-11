@@ -1,0 +1,31 @@
+IDstr=5968eb3186f7741dde183a4d
+Name=Operation Aquarius - Part 2
+Trader=Therapist
+
+NeedTask=Operation Aquarius - Part 1
+NeedLevel=6
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Customs
+Task_Kill=[
+	Customs-Scavsx15
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs on Customs
+	TaskOptional=false
+]
+
+Reward_Rep=Therapist+0.030000
+Reward_Rep=Jaeger+0.010000
+Reward_Item=[
+	Roublesx20000,
+	Esmarch tourniquetx3,
+	Aluminum splintx1
+]
+
+Reward_EXP=3400

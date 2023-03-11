@@ -1,0 +1,32 @@
+IDstr=60896bca6ee58f38c417d4f2
+Name=No Place for Renegades
+Trader=Prapor
+
+NeedTask=The Bunker - Part 2
+NeedTask=Ice Cream Cones
+NeedLevel=12
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Reserve
+Task_Kill=[
+	Reserve-Raiderx5
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Raiders in the command bunker on Reserve
+	TaskOptional=false
+]
+
+Reward_Rep=Prapor+0.030000
+Reward_Item=[
+	Roublesx40000,
+	Kalashnikov AK-103 7.62x39 assault rifle Defaultx1,
+	AK-103 7.62x39 30-round magazinex3,
+	7.62x39mm PS gzhx150
+]
+
+Reward_EXP=8500

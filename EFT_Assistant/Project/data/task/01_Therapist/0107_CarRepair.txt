@@ -1,9 +1,0 @@
-Name=Car Repair
-Trader=Therapist
-
-NeedTask=Pharmacist
-
-Task_FiR_HandOver=[Car batteryx4,Spark plugx8]
-
-Reward_Rep=Therapist+0.04
-Reward_Item=[Grizzly medical kitx1,eTG-change regenerative stimulant injectorx1,Adrenaline injectorx1]

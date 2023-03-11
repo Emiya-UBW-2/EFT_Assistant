@@ -1,0 +1,77 @@
+IDstr=60e71e8ed54b755a3b53eb67
+Name=The Huntsman Path - Relentless
+Trader=Jaeger
+
+NeedLevel=65
+
+CanRestart=true
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Kill=[
+	Tagillax1
+]
+Task_Kill=[
+	Killax1
+]
+Task_Kill=[
+	Reshalax1
+]
+Task_Kill=[
+	Shturmanx1
+]
+Task_Kill=[
+	Glukharx1
+]
+Task_Kill=[
+	Sanitarx1
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Tagilla
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate Killa
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate Reshala
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate Shturman
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate Glukhar
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate Sanitar
+	TaskOptional=false
+]
+
+Reward_Item=[
+	FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescopex1,
+	Expeditionary fuel tankx5,
+	GP coinx20
+]
+Reward_SkillLevelUp=Crafting+2
+Reward_SkillLevelUp=Immunity+1
+
+Task_Else=脱出ステータス:[Killed in Action (KIA),Missing in Action (MIA)]
+
+[
+	TaskType=extract
+	TaskText=You must not die or leave the raid while the task is active (Status: KIA, Left the Action, MIA, Ran Through)
+	TaskOptional=false
+]
+
+Reward_EXP=280000

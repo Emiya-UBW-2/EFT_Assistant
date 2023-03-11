@@ -1,0 +1,49 @@
+IDstr=6179b3a12153c15e937d52bc
+Name=Energy Crisis
+Trader=Mechanic
+
+NeedTask=Postman Pat - Part 2
+NeedTask=Farming - Part 4
+NeedLevel=25
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Lighthouse
+Task_Map=Lighthouse
+NeedItem=MS2000 Markerx1
+Task_Map=Lighthouse
+NeedItem=MS2000 Markerx1
+Task_Map=Lighthouse
+NeedItem=MS2000 Markerx1
+Task_Map=Lighthouse
+NeedItem=MS2000 Markerx1
+
+[
+	TaskType=mark
+	TaskText=Find and mark the group of fuel tanks with an MS2000 Marker on Lighthouse
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Find and mark the first tanker truck with an MS2000 Marker on Lighthouse
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Find and mark the second tanker truck with an MS2000 Marker on Lighthouse
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Find and mark the third tanker truck with an MS2000 Marker on Lighthouse
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.020000
+Reward_Item=[
+	Roublesx75000
+]
+
+Reward_EXP=13000

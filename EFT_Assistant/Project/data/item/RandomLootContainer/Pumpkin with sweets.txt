@@ -13,4 +13,5 @@ low24hPrice=0
 lastOfferCount=6
 Sell_Flea Market=1000000
 weight=3.000000
-fleaMarketFee=29433831
+fleaMarketFee=14716915
+propertiestype=

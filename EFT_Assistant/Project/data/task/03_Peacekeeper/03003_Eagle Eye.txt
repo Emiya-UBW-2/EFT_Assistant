@@ -1,0 +1,58 @@
+IDstr=5a27b80086f774429a5d7e20
+Name=Eagle Eye
+Trader=Peacekeeper
+
+NeedTask=Scrap Metal
+NeedLevel=11
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Map=Shoreline
+Task_Else=TaskType:visit
+Task_Else=Locate the first UAV crash site on Shoreline
+Task_Else=èEÇ¡Çƒî[ïi:Shoreline-UAV SAS disk #1x1
+Task_Else=TaskType:visit
+Task_Else=Locate the second UAV crash site on Shoreline
+Task_Else=èEÇ¡Çƒî[ïi:Shoreline-UAV SAS disk #2x1
+
+[
+	TaskType=visit
+	TaskText=Locate the first UAV crash site on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the SAS disk from the first crashed drone
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the first SAS disk
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate the second UAV crash site on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the SAS disk from the second crashed drone
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the second SAS disk
+	TaskOptional=false
+]
+
+Reward_Rep=Peacekeeper+0.030000
+Reward_Item=[
+	Dollarsx900,
+	ELCAN SpecterDR 1x/4x scope (FDE)x1,
+	Leupold Mark 4 HAMR 4x24 DeltaPoint hybrid assault scopex1
+]
+
+Reward_EXP=6600

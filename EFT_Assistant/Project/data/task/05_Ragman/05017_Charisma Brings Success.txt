@@ -1,0 +1,26 @@
+IDstr=5ae4499a86f77449783815db
+Name=Charisma Brings Success
+Trader=Ragman
+
+NeedTask=Sew it Good - Part 4
+NeedLevel=25
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Else=Skill‚ğã‚°‚é:Charisma+10.000000
+
+[
+	TaskType=skill
+	TaskText=Reach the required Charisma skill level
+	TaskOptional=false
+]
+
+Reward_Rep=Ragman+0.030000
+Reward_Item=[
+	Roublesx60000,
+	Ars Arma A18 Skanda plate carrierx1
+]
+
+Reward_EXP=15600

@@ -1,0 +1,76 @@
+IDstr=5b4794cb86f774598100d5d4
+Name=Lend-Lease - Part 1
+Trader=Skier
+
+NeedTask=Friend from the West - Part 2
+NeedLevel=25
+NeedItem=[Health Resort west wing room 216 keyx1,Health Resort east wing room 306 keyx1,Health Resort east wing room 308 keyx1]
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Else=èEÇ¡Çƒî[ïi:Woods-Motor Controller #1x1
+Task_Else=èEÇ¡Çƒî[ïi:Shoreline-Motor Controller #2x1
+Task_Else=èEÇ¡Çƒî[ïi:Shoreline-Motor Controller #3x1
+Task_Else=èEÇ¡Çƒî[ïi:Woods-Single-axis Fiber Optic Gyroscope #1x1
+Task_Else=èEÇ¡Çƒî[ïi:Shoreline-Single-axis Fiber Optic Gyroscope #2x1
+
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the first Motor Controller on Woods
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the first controller
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the second Motor Controller on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the second controller
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the third Motor Controller on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the third controller
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the first Single-axis Fiber Optic Gyroscope on Woods
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the first gyroscope
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the second Single-axis Fiber Optic Gyroscope on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the second gyroscope
+	TaskOptional=false
+]
+
+Reward_Rep=Skier+0.050000
+Reward_Item=[
+	Dollarsx3000,
+	Armasight N-15 Night Vision Gogglesx1
+]
+
+Reward_EXP=17500

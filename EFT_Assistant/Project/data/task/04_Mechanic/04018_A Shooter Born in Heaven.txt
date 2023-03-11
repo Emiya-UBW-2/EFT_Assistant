@@ -1,0 +1,77 @@
+IDstr=5c0bde0986f77479cf22c2f8
+Name=A Shooter Born in Heaven
+Trader=Mechanic
+
+NeedTask=Farming - Part 3
+NeedLevel=14
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Kill=[
+	Woods-any PMC operatives{head}x3
+]
+Task_Else=‹——£: >= 100m
+Task_Kill=[
+	Reserve-any PMC operatives{head}x3
+]
+Task_Else=‹——£: >= 100m
+Task_Kill=[
+	Shoreline-any PMC operatives{head}x3
+]
+Task_Else=‹——£: >= 100m
+Task_Kill=[
+	Customs-any PMC operatives{head}x3
+]
+Task_Else=‹——£: >= 125m
+Task_Kill=[
+	Lighthouse-any PMC operatives{head}x3
+]
+Task_Else=‹——£: >= 125m
+Task_Kill=[
+	Streets of Tarkov-any PMC operatives{head}x3
+]
+Task_Else=‹——£: >= 100m
+
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives with headshots from over 100 meters away on Woods
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives with headshots from over 100 meters away on Reserve
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives with headshots from over 100 meters away on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives with headshots from over 100 meters away on Customs
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives with headshots from over 100 meters away on Lighthouse
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives with headshots from over 100 meters away on Streets of Tarkov
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.030000
+Reward_Item=[
+	Roublesx100000,
+	Mosin Rifle 7.62x54R ProMag Archangel OPFOR 10-round magazinex4,
+	7.62x54mm R SNB gzhx50,
+	Mosin 7.62x54R bolt-action rifle (Sniper) ATACR 7-35x56x1
+]
+Reward_SkillLevelUp=Sniper+1
+
+Reward_EXP=11600

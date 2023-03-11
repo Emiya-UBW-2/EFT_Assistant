@@ -1,0 +1,48 @@
+IDstr=596a0e1686f7741ddf17dbee
+Name=Supply Plans
+Trader=Therapist
+
+NeedTask=Pharmacist
+NeedLevel=13
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Woods
+Task_Else=拾って納品:Woods-Secure Folder 0052x1
+Task_Map=Woods
+Task_Else=脱出ステータス:[Survived,Run Through]
+
+[
+	TaskType=findQuestItem
+	TaskText=Obtain Secure Folder 0052 in the sawmill cabin on Woods
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the folder
+	TaskOptional=false
+]
+
+Reward_Rep=Therapist+0.040000
+Reward_Item=[
+	Roublesx75000,
+	CMS surgical kitx1
+]
+
+Task_Else=該当タスクKind of Sabotage
+Task_Else=該当タスク状態:complete
+
+[
+	TaskType=taskStatus
+	TaskText=Kind of Sabotage - success
+	TaskOptional=false
+]
+
+Reward_EXP=7500

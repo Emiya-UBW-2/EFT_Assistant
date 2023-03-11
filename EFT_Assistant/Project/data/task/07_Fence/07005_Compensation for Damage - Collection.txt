@@ -1,0 +1,26 @@
+IDstr=61e6e621bfeab00251576265
+Name=Compensation for Damage - Collection
+Trader=Fence
+
+NeedLevel=0
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+traderRequirementsName=Fence
+traderRequirementsType=reputation
+traderRequirements=<=
+traderRequirementsValue=-1
+Task_FiR_HandOver=[Colt M4A1 5.56x45 assault riflex2]
+DogTagLv=0
+
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid Colt M4A1 assault rifles
+	TaskOptional=false
+]
+
+Reward_Rep=Fence+1.000000
+
+Reward_EXP=0

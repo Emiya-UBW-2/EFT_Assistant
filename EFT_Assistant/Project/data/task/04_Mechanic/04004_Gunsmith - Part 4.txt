@@ -1,0 +1,40 @@
+IDstr=639872f9decada40426d3447
+Name=Gunsmith - Part 4
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 2
+NeedTask=Gunsmith - Part 3
+NeedLevel=9
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+NeedItem=Simonov OP-SKS 7.62x39 carbine (Hunting Rifle Version)x1
+ContainsCategory=Silencer
+Task_Else=accuracy >= 0
+Task_Else=durability >= 60
+Task_Else=effectiveDistance >= 600
+Task_Else=ergonomics >= 35
+Task_Else=height >= 0
+Task_Else=magazineCapacity >= 20
+Task_Else=muzzleVelocity >= 0
+Task_Else=recoil <= 350
+Task_Else=weight <= 6
+Task_Else=width >= 0
+
+[
+	TaskType=buildWeapon
+	TaskText=Modify an OP-SKS to comply with the given specifications
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.010000
+Reward_Item=[
+	Roublesx25000,
+	Gunpowder "Kite"x2,
+	Car batteryx1,
+	Electric motorx1
+]
+
+Reward_EXP=3600

@@ -1,0 +1,49 @@
+IDstr=5c0d0f1886f77457b8210226
+Name=Lend-Lease - Part 2
+Trader=Peacekeeper
+
+NeedTask=Lend-Lease - Part 1
+NeedLevel=30
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+NeedItem=Virtex programmable processorx2
+NeedItem=Military COFDM Wireless Signal Transmitterx1
+Task_FiR_HandOver=[Virtex programmable processorx2]
+DogTagLv=0
+Task_FiR_HandOver=[Military COFDM Wireless Signal Transmitterx1]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Find Virtex programmable processors in raid
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Military COFDM Wireless Signal Transmitter in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the processors
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the transmitter
+	TaskOptional=false
+]
+
+Reward_Rep=Peacekeeper+0.040000
+Reward_Item=[
+	Dollarsx2000,
+	HK 416A5 5.56x45 assault rifle Defaultx2,
+	5.56x45mm M995x300,
+	5.56x45 Magpul PMAG D-60 STANAG 60-round magazinex2,
+	5.56x45 SureFire MAG5-60 STANAG 60-round magazinex2
+]
+
+Reward_EXP=21000

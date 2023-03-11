@@ -1,0 +1,24 @@
+IDstr=596760e186f7741e11214d58
+Name=Postman Pat - Part 2
+Trader=Therapist
+
+NeedTask=Postman Pat - Part 1
+NeedLevel=10
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the letter from the messenger to Therapist
+	TaskOptional=false
+]
+
+Reward_Rep=Therapist+0.020000
+Reward_Item=[
+	Roublesx5000
+]
+
+Reward_EXP=3500

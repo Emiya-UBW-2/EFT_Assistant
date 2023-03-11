@@ -1,0 +1,66 @@
+IDstr=59ca2eb686f77445a80ed049
+Name=The Punisher - Part 6
+Trader=Prapor
+
+NeedTask=The Punisher - Part 5
+NeedLevel=21
+
+CanRestart=true
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Kill=[
+	Interchange-any PMC operativesx15,
+	Shoreline-any PMC operativesx15,
+	Streets of Tarkov-any PMC operativesx15,
+	Lighthouse-any PMC operativesx15,
+	Woods-any PMC operativesx15,
+	Customs-any PMC operativesx15,
+	Reserve-any PMC operativesx15,
+	The Lab-any PMC operativesx15
+]
+NeedItem=[
+	SVDS 7.62x54R sniper riflex0
+]
+NeedItem=Dogtag BEARx7
+Task_NotFiR_HandOver=[Dogtag BEARx7]
+DogTagLv=0
+NeedItem=Dogtag USECx7
+Task_NotFiR_HandOver=[Dogtag USECx7]
+DogTagLv=0
+
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives while using an SVD rifle (Excluding Factory)
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find BEAR PMC dogtags in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the BEAR dogtags
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find USEC PMC dogtags in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the USEC dogtags
+	TaskOptional=false
+]
+
+Reward_Rep=Prapor+0.040000
+Reward_Rep=Therapist+0.050000
+Reward_Rep=Skier+0.010000
+Reward_Item=[
+	Roublesx250000,
+	Secure container Epsilonx1
+]
+
+Reward_EXP=19400

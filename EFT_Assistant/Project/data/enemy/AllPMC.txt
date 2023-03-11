@@ -1,2 +1,3 @@
-Name=AllPMC
+Name=any PMC operatives
+ShortName=AllPMC
 Color=[64,255,64]

@@ -1,0 +1,33 @@
+IDstr=5d25e48d86f77408251c4bfb
+Name=Shady Business
+Trader=Jaeger
+
+NeedTask=What’s on the Flash Drive?
+NeedLevel=20
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+NeedItem=Secure Flash drivex3
+Task_FiR_HandOver=[Secure Flash drivex3]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Find Secure Flash drives in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the Flash drives
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+0.020000
+Reward_Item=[
+	Roublesx50000,
+	SSD drivex1
+]
+
+Reward_EXP=11400

@@ -1,0 +1,56 @@
+IDstr=63966ff54c3ef01b6f3ffad8
+Name=Provocation
+Trader=Lightkeeper
+
+NeedTask=Payback
+NeedLevel=35
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Interchange
+Task_Kill=[
+	Interchange-any targetx30
+]
+Task_NotFiR_HandOver=[Salty Dog beef sausagex1]
+DogTagLv=0
+Task_NotFiR_HandOver=[Bottle of Fierce Hatchling moonshinex1]
+DogTagLv=0
+Task_NotFiR_HandOver=[Toilet paperx1]
+DogTagLv=0
+Task_Map=Interchange
+Task_Else=脱出ステータス:[Survived]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate any enemy around the Kiba Arms store while using an ASh-12 on Interchange
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Stash a Salty Dog beef sausage inside the Kiba Arms store
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Stash a Bottle of Fierce Hatchling moonshine inside the secret secure hideout
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Stash a Toilet paper inside the secret container stash
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Lightkeeper+0.010000
+Reward_Item=[
+	Virtex programmable processorx2
+]
+
+Reward_EXP=0

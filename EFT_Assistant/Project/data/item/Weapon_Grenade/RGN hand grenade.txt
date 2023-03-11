@@ -16,3 +16,4 @@ Sell_Fence=5560
 Sell_Skier=6811
 weight=0.310000
 fleaMarketFee=0
+propertiestype=ItemPropertiesGrenade

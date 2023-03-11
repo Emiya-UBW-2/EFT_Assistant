@@ -14,6 +14,11 @@ Conflict=[
 	Shemagh (Tan),
 	Slender mask,
 	GP-7 gas mask,
+	Hockey player mask "Brawler",
+	Hockey player mask "Captain",
+	Hockey player mask "Quiet",
+	Tagilla's welding mask "Gorilla",
+	Tagilla's welding mask "UBEY"
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -21,7 +26,7 @@ Information_Eng=A tactical BEAR PMC baseball cap. Green version.
 basePrice=1726
 width=1
 height=1
-avg24hPrice=3500
+avg24hPrice=1915
 low24hPrice=1915
 lastOfferCount=1
 Sell_Fence=690
@@ -30,4 +35,5 @@ Sell_Peacekeeper=7
 Sell_Ragman=1070
 Sell_Flea Market=1915
 weight=0.100000
-fleaMarketFee=177
+fleaMarketFee=109
+propertiestype=

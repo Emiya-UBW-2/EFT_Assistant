@@ -704,7 +704,9 @@ namespace FPS_n2 {
 						if (isChild) {
 							xgoal += xs_add;
 						}
-						MakeList<ItemList>(xp + xgoal, yp, ItemData::Instance()->GetList(), "Item", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (ptr->GetTypeID() == m_ItemIDs.at(Layer - 1).first); });
+						MakeList<ItemList>(xp + xgoal, yp, ItemData::Instance()->GetList(), "Item", &IDs->first, !IDs->second, false, false,
+							[&](const auto *ptr) { return (!ptr->GetIsPreset()) && (ptr->GetTypeID() == m_ItemIDs.at(Layer - 1).first); }
+						);
 					});
 				}
 				//

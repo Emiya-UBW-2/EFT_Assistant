@@ -1,0 +1,47 @@
+IDstr=5a68665c86f774255929b4c7
+Name=Health Care Privacy - Part 3
+Trader=Therapist
+
+NeedTask=Health Care Privacy - Part 2
+NeedLevel=10
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Map=Woods
+Task_Else=TaskType:visit
+Task_Else=Locate the van that belonged to the head of the health resort Medical Services
+Task_Else=拾って納品:Woods-Blood samplex1
+Task_Map=Woods
+Task_Else=脱出ステータス:[Survived,Run Through]
+
+[
+	TaskType=visit
+	TaskText=Locate the van that belonged to the head of the health resort Medical Services
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Take a sample of the blood
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the blood sample
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Therapist+0.040000
+Reward_Item=[
+	Roublesx26000,
+	Morphine injectorx2,
+	Adrenaline injectorx2
+]
+
+Reward_EXP=5900

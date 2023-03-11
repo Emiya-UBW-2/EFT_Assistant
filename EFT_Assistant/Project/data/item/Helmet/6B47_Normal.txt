@@ -4,6 +4,8 @@ ShortName=6B47
 Itemtype=Headwear
 Conflict=[
 	Faceless mask,
+	Tagilla's welding mask "Gorilla",
+	Tagilla's welding mask "UBEY"
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -11,13 +13,14 @@ Information_Eng=6B47 is an aramid helmet of Russian origin. As part of the Ratni
 basePrice=30583
 width=2
 height=2
-avg24hPrice=34767
-low24hPrice=31000
-lastOfferCount=18
+avg24hPrice=34939
+low24hPrice=32000
+lastOfferCount=4
 Sell_Fence=12233
 Sell_Skier=14985
 Sell_Peacekeeper=120
 Sell_Ragman=18961
-Sell_Flea Market=33337
+Sell_Flea Market=33899
 weight=1.300000
-fleaMarketFee=3098
+fleaMarketFee=1930
+propertiestype=ItemPropertiesHelmet

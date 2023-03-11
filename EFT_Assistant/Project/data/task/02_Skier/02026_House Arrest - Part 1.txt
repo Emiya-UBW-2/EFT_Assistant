@@ -1,0 +1,35 @@
+IDstr=639135c3744e452011470807
+Name=House Arrest - Part 1
+Trader=Skier
+
+NeedTask=Debtor
+NeedLevel=33
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=true
+
+Task_Map=Streets of Tarkov
+Task_Else=TaskType:visit
+Task_Else=Locate where the missing group was held captive on Streets of Tarkov
+Task_Map=Streets of Tarkov
+Task_Else=脱出ステータス:[Survived]
+
+[
+	TaskType=visit
+	TaskText=Locate where the missing group was held captive on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Skier+0.030000
+Reward_Item=[
+	Roublesx112000,
+	Kel-Tec RFB 7.62x51 rifle Defaultx1
+]
+
+Reward_EXP=28800

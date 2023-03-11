@@ -1,0 +1,35 @@
+IDstr=5a27bc1586f7741f6d40fa2f
+Name=Wet Job - Part 3
+Trader=Peacekeeper
+
+NeedTask=Wet Job - Part 2
+NeedLevel=14
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Shoreline
+Task_Else=TaskType:visit
+Task_Else=Find Artyom窶冱 car on Shoreline
+Task_Map=Shoreline
+Task_Else=脱出ステータス:[Survived,Run Through]
+
+[
+	TaskType=visit
+	TaskText=Find Artyom窶冱 car on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Peacekeeper+0.030000
+Reward_Item=[
+	Dollarsx1500,
+	NcSTAR ADO P4 Sniper 3-9x42 riflescopex1
+]
+
+Reward_EXP=8200

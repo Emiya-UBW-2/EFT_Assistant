@@ -1,0 +1,41 @@
+IDstr=5ae3270f86f77445ba41d4dd
+Name=Gunsmith - Part 6
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 5
+NeedLevel=14
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+NeedItem=Kalashnikov AKM 7.62x39 assault riflex1
+ContainsAll=Fortis Shift tactical foregrip
+ContainsAll=AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine
+ContainsCategory=Silencer
+Task_Else=accuracy >= 0
+Task_Else=durability >= 60
+Task_Else=effectiveDistance >= 800
+Task_Else=ergonomics >= 40
+Task_Else=height >= 0
+Task_Else=magazineCapacity >= 0
+Task_Else=muzzleVelocity >= 0
+Task_Else=recoil <= 350
+Task_Else=weight >= 0
+Task_Else=width >= 0
+
+[
+	TaskType=buildWeapon
+	TaskText=Modify an AKM to comply with the given specifications
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.010000
+Reward_Item=[
+	Roublesx50000,
+	Pack of screwsx2,
+	Phase control relayx2,
+	7.62x39mm BP gzhx60
+]
+
+Reward_EXP=5800

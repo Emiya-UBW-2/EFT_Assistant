@@ -1,9 +1,0 @@
-Name=Athlete
-Trader=Therapist
-
-NeedTask=Health Care Privacy - Part 4
-
-Task_Else=HeakthƒŒƒxƒ‹‚ğ10‚Ü‚Åã‚°‚é
-
-Reward_Rep=Therapist+0.04
-Reward_Item=[Dundukk sport sunglassesx1,Zagustin hemostatic drug injectorx1,Adrenaline injectorx1]

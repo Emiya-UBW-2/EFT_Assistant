@@ -1,2 +1,2 @@
-Name=USECRogue
+Name=Rogue
 Color=[128,192,0]

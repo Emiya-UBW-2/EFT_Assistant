@@ -1,0 +1,38 @@
+IDstr=59689fbd86f7740d137ebfc4
+Name=Operation Aquarius - Part 1
+Trader=Therapist
+
+NeedTask=Shortage
+NeedLevel=6
+NeedItem=[Dorm room 206 keyx1]
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Customs
+Task_Else=TaskType:visit
+Task_Else=Locate the water stockpile hidden inside of the dorms on Customs
+Task_Map=Customs
+Task_Else=脱出ステータス:[Survived,Run Through]
+
+[
+	TaskType=visit
+	TaskText=Locate the water stockpile hidden inside of the dorms on Customs
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Therapist+0.030000
+Reward_Rep=Skier-0.020000
+Reward_Item=[
+	Roublesx14000,
+	Bottle of water (0.6L)x5,
+	Water filterx1
+]
+
+Reward_EXP=3300

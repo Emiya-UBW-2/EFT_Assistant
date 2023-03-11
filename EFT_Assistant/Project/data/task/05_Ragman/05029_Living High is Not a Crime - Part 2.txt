@@ -1,0 +1,75 @@
+IDstr=5c1141f386f77430ff393792
+Name=Living High is Not a Crime - Part 2
+Trader=Ragman
+
+NeedTask=Living High is Not a Crime - Part 1
+NeedTask=The Blood of War - Part 3
+NeedLevel=30
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+NeedItem=Antique teapotx3
+NeedItem=Antique vasex2
+NeedItem=Axel parrot figurinex1
+NeedItem=Raven figurinex2
+Task_FiR_HandOver=[Antique teapotx3]
+DogTagLv=0
+Task_FiR_HandOver=[Antique vasex2]
+DogTagLv=0
+Task_FiR_HandOver=[Axel parrot figurinex1]
+DogTagLv=0
+Task_FiR_HandOver=[Raven figurinex2]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Find Antique teapots in raid
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Antique vases in raid
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Axel parrot figurine in raid
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Raven figurines in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the teapots
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the vases
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the Axel parrot figurine
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the Raven figurines
+	TaskOptional=false
+]
+
+Reward_Rep=Ragman+0.050000
+Reward_Item=[
+	Roublesx110000,
+	Altyn bulletproof helmetx1,
+	Altyn face shieldx1,
+	Ars Arma CPC MOD.2 plate carrierx1
+]
+
+Reward_EXP=25900

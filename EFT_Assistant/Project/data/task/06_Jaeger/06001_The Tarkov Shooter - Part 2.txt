@@ -1,0 +1,61 @@
+IDstr=5bc479e586f7747f376c7da3
+Name=The Tarkov Shooter - Part 2
+Trader=Jaeger
+
+NeedTask=The Tarkov Shooter - Part 1
+NeedLevel=2
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Kill=[
+	any target{left leg/right leg}x3
+]
+NeedItem=[
+	SV-98 7.62x54R bolt-action sniper riflex0,
+	Molot VPO-215 "Gornostay" .366 TKM bolt-action riflex0,
+	Lobaev Arms DVL-10 7.62x51 bolt-action sniper riflex0,
+	Mosin 7.62x54R bolt-action rifle (Sniper)x0,
+	ORSIS T-5000M 7.62x51 bolt-action sniper riflex0,
+	Remington Model 700 7.62x51 bolt-action sniper riflex0,
+	Mosin 7.62x54R bolt-action rifle (Infantry)x0,
+	MP-18 7.62x54R single-shot riflex0,
+	Accuracy International AXMC .338 LM bolt-action sniper riflex0
+]
+Task_Else=‹——£: >= 40m
+Task_Kill=[
+	any target{head}x2
+]
+NeedItem=[
+	SV-98 7.62x54R bolt-action sniper riflex0,
+	Molot VPO-215 "Gornostay" .366 TKM bolt-action riflex0,
+	Lobaev Arms DVL-10 7.62x51 bolt-action sniper riflex0,
+	Mosin 7.62x54R bolt-action rifle (Sniper)x0,
+	ORSIS T-5000M 7.62x51 bolt-action sniper riflex0,
+	Remington Model 700 7.62x51 bolt-action sniper riflex0,
+	Mosin 7.62x54R bolt-action rifle (Infantry)x0,
+	MP-18 7.62x54R single-shot riflex0,
+	Accuracy International AXMC .338 LM bolt-action sniper riflex0
+]
+Task_Else=‹——£: >= 40m
+
+[
+	TaskType=shoot
+	TaskText=Shoot any target in the legs from over 40 meters away while using a bolt-action rifle
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Shoot any target in the head from over 40 meters away while using a bolt-action rifle
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+0.020000
+Reward_Item=[
+	Roublesx65000,
+	Mosin Rifle AIM Sports MNG rail mountx1,
+	Umka M33-SET1 hunter vestx2
+]
+
+Reward_EXP=12400

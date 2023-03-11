@@ -1,0 +1,34 @@
+IDstr=596a101f86f7741ddb481582
+Name=Kind of Sabotage
+Trader=Skier
+
+NeedTask=Pharmacist
+NeedTask=Supply Plans
+NeedLevel=13
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over Secure Folder 0052 to Skier
+	TaskOptional=false
+]
+
+Reward_Rep=Skier+0.040000
+Reward_Item=[
+	Roublesx180000
+]
+
+Task_Else=該当タスクSupply Plans
+Task_Else=該当タスク状態:complete
+
+[
+	TaskType=taskStatus
+	TaskText=Supply Plans - success
+	TaskOptional=false
+]
+
+Reward_EXP=4500

@@ -1,0 +1,58 @@
+IDstr=63987301e11ec11ff5504036
+Name=Gunsmith - Part 21
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 20
+NeedLevel=38
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+NeedItem=Remington Model 700 7.62x51 bolt-action sniper riflex1
+ContainsAll=M700 AB Arms MOD*X GEN 3 chassis
+ContainsAll=M700 AB Arms MOD*X GEN 3 KeyMod handguard
+ContainsAll=M700 AB Arms MOD*X rail mount
+Task_Else=accuracy >= 0
+Task_Else=durability >= 60
+Task_Else=effectiveDistance >= 1500
+Task_Else=ergonomics >= 35
+Task_Else=height >= 0
+Task_Else=magazineCapacity <= 5
+Task_Else=muzzleVelocity >= 0
+Task_Else=recoil <= 400
+Task_Else=weight <= 6
+Task_Else=width >= 0
+NeedItem=Colt M1911A1 .45 ACP pistolx1
+ContainsAll=M1911 Pachmayr American Legend Grip #423
+ContainsAll=M1911 Anarchy Outdoors .45 ACP muzzle brake
+ContainsCategory=Comb. tact. device
+Task_Else=accuracy >= 0
+Task_Else=durability >= 60
+Task_Else=effectiveDistance >= 200
+Task_Else=ergonomics >= 75
+Task_Else=height >= 0
+Task_Else=magazineCapacity >= 7
+Task_Else=muzzleVelocity >= 0
+Task_Else=recoil <= 750
+Task_Else=weight <= 1
+Task_Else=width >= 0
+
+[
+	TaskType=buildWeapon
+	TaskText=Modify an M700 to comply with the given specifications
+	TaskOptional=false
+]
+[
+	TaskType=buildWeapon
+	TaskText=Modify an M1911 to comply with the given specifications
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.030000
+Reward_Item=[
+	Pistol casex1,
+	7.62x51mm M993x50
+]
+
+Reward_EXP=27700

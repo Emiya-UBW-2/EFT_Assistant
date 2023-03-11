@@ -1,0 +1,44 @@
+IDstr=5a27bbf886f774333a418eeb
+Name=Wet Job - Part 2
+Trader=Peacekeeper
+
+NeedTask=Wet Job - Part 1
+NeedLevel=14
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Shoreline
+Task_Else=TaskType:visit
+Task_Else=Locate the fishermen's dwelling on Shoreline
+Task_Map=Shoreline
+NeedItem=MS2000 Markerx1
+Task_Map=Shoreline
+Task_Else=脱出ステータス:[Survived,Run Through]
+
+[
+	TaskType=visit
+	TaskText=Locate the fishermen's dwelling on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Mark the fishing table with an MS2000 Marker
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Peacekeeper+0.030000
+Reward_Item=[
+	Dollarsx1300,
+	Ushanka ear flap hatx2,
+	Lower half-maskx2,
+	Eberlestock F5 Switchblade backpack (Dry Earth)x1
+]
+
+Reward_EXP=9700

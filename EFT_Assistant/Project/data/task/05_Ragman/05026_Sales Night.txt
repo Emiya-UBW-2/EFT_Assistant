@@ -1,0 +1,28 @@
+IDstr=5ae449c386f7744bde357697
+Name=Sales Night
+Trader=Ragman
+
+NeedTask=Gratitude
+NeedLevel=30
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Interchange
+Task_Map=Interchange
+Task_Else=脱出ステータス:[Survived]
+
+[
+	TaskType=extract
+	TaskText=Survive and extract from Interchange
+	TaskOptional=false
+]
+
+Reward_Rep=Ragman+0.030000
+Reward_Item=[
+	Roublesx35000,
+	SSO Attack 2 raid backpackx2
+]
+
+Reward_EXP=17500

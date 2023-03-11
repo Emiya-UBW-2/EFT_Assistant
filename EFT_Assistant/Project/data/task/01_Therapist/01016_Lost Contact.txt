@@ -1,0 +1,34 @@
+IDstr=6179afd0bca27a099552e040
+Name=Lost Contact
+Trader=Therapist
+
+NeedTask=Health Care Privacy - Part 2
+NeedLevel=10
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Map=Lighthouse
+Task_Else=TaskType:visit
+Task_Else=Find the lost group in the chalet area on Lighthouse
+Task_Map=Lighthouse
+Task_Else=脱出ステータス:[Survived,Run Through]
+
+[
+	TaskType=visit
+	TaskText=Find the lost group in the chalet area on Lighthouse
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Therapist+0.020000
+Reward_Item=[
+	Roublesx40000
+]
+
+Reward_EXP=7000

@@ -1,0 +1,62 @@
+IDstr=597a0f5686f774273b74f676
+Name=Chemical - Part 4
+Trader=Skier
+
+NeedTask=Chemical - Part 3
+NeedLevel=11
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Customs
+Task_Else=TaskType:visit
+Task_Else=Locate the transport with the chemicals on Customs
+Task_Map=Customs
+NeedItem=MS2000 Markerx1
+Task_Map=Customs
+Task_Else=脱出ステータス:[Survived,Run Through]
+
+[
+	TaskType=visit
+	TaskText=Locate the transport with the chemicals on Customs
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Mark the vehicle with an MS2000 Marker
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Item=[
+	MS2000 Markerx1
+]
+Reward_Rep=Skier+0.040000
+Reward_Item=[
+	Roublesx35000,
+	Grenade casex1
+]
+
+Task_Else=該当タスクBig Customer
+Task_Else=該当タスク状態:complete
+Task_Else=該当タスクOut of Curiosity
+Task_Else=該当タスク状態:complete
+
+[
+	TaskType=taskStatus
+	TaskText=
+	TaskOptional=false
+]
+[
+	TaskType=taskStatus
+	TaskText=
+	TaskOptional=false
+]
+
+Reward_Rep=Skier-0.250000
+Reward_EXP=6500

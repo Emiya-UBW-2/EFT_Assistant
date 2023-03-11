@@ -1,0 +1,25 @@
+IDstr=5ae448a386f7744d3730fff0
+Name=Only Business
+Trader=Ragman
+
+NeedLevel=15
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Else=traderLL:RagmanLL2
+
+[
+	TaskType=traderLevel
+	TaskText=Reach level 2 loyalty with Ragman
+	TaskOptional=false
+]
+
+Reward_Rep=Ragman+0.020000
+Reward_Item=[
+	Roublesx10000,
+	BlackHawk! Commando chest harness (Desert Tan)x1
+]
+
+Reward_EXP=6700

@@ -18,3 +18,4 @@ Sell_Peacekeeper=7
 Sell_Mechanic=958
 weight=0.024000
 fleaMarketFee=0
+propertiestype=ItemPropertiesAmmo

@@ -1,0 +1,3 @@
+Name=any target
+ShortName=AnyTarget
+Color=[255,0,0]

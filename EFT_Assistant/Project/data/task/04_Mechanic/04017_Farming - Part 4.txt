@@ -1,0 +1,48 @@
+IDstr=5ac3464c86f7741d651d6877
+Name=Farming - Part 4
+Trader=Mechanic
+
+NeedTask=Farming - Part 3
+NeedLevel=14
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+NeedItem=Graphics cardx3
+Task_FiR_HandOver=[Graphics cardx3]
+DogTagLv=0
+NeedItem=CPU fanx8
+Task_FiR_HandOver=[CPU fanx8]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Find Graphics cards in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the GPUs
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find CPU Fans in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the CPU Fans
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.020000
+Reward_Item=[
+	Eurosx300,
+	Glock 17 9x19 pistol Viperx1,
+	Pistol casex1
+]
+Reward_SkillLevelUp=Attention+1
+
+Reward_EXP=8000

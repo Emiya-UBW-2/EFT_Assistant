@@ -1,0 +1,41 @@
+IDstr=5d24b81486f77439c92d6ba8
+Name=Acquaintance
+Trader=Jaeger
+
+NeedTask=Introduction
+NeedLevel=2
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_FiR_HandOver=[Iskra ration packx3]
+DogTagLv=0
+Task_FiR_HandOver=[Emelya rye croutonsx2]
+DogTagLv=0
+Task_FiR_HandOver=[Can of beef stew (Large)x2]
+DogTagLv=0
+
+[
+	TaskType=giveItem
+	TaskText=Find Iskra ration packs in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Find Emelya rye croutons in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Find Cans of beef stew (Large) in raid
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+0.010000
+Reward_Item=[
+	Roublesx50000,
+	SurvL Survivor Lighterx1
+]
+
+Reward_EXP=3900

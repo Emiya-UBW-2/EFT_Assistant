@@ -18,3 +18,4 @@ Sell_Peacekeeper=117
 Sell_Mechanic=16800
 weight=0.190000
 fleaMarketFee=0
+propertiestype=ItemPropertiesWeapon

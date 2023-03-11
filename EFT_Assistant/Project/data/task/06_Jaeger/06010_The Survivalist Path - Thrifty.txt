@@ -1,0 +1,50 @@
+IDstr=5d25b6be86f77444001e1b89
+Name=The Survivalist Path - Thrifty
+Trader=Jaeger
+
+NeedTask=The Survivalist Path - Unprotected but Dangerous
+NeedLevel=2
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Map=Woods
+Task_NotFiR_HandOver=[Iskra ration packx1]
+DogTagLv=0
+Task_NotFiR_HandOver=[Bottle of water (0.6L)x1]
+DogTagLv=0
+Task_NotFiR_HandOver=[Iskra ration packx1]
+DogTagLv=0
+Task_NotFiR_HandOver=[Bottle of water (0.6L)x1]
+DogTagLv=0
+
+[
+	TaskType=plantItem
+	TaskText=Stash an Iskra ration pack in the ZB-016 bunker on Woods
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Stash a Bottle of water (0.6L) in the ZB-016 bunker on Woods
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Stash an Iskra ration pack in the ZB-014 bunker on Woods
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Stash a Bottle of water (0.6L) in the ZB-014 bunker on Woods
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+0.010000
+Reward_Item=[
+	Roublesx22000,
+	Phase control relayx2,
+	Metal fuel tankx1
+]
+
+Reward_EXP=4700

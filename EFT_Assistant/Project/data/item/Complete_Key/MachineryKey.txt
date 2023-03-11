@@ -16,3 +16,4 @@ Sell_Prapor=1007
 Sell_Therapist=1268
 weight=0.010000
 fleaMarketFee=0
+propertiestype=ItemPropertiesKey

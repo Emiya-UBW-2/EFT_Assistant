@@ -4,6 +4,8 @@ ShortName=EXFIL
 Itemtype=Headwear
 Conflict=[
 	Faceless mask,
+	Tagilla's welding mask "Gorilla",
+	Tagilla's welding mask "UBEY"
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -20,3 +22,4 @@ Sell_Peacekeeper=513
 Sell_Ragman=81344
 weight=1.180000
 fleaMarketFee=0
+propertiestype=ItemPropertiesHelmet

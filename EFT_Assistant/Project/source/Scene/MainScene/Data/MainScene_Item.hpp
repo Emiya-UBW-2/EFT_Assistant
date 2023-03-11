@@ -34,6 +34,7 @@ namespace FPS_n2 {
 		std::vector<std::pair<TraderID, int>>		m_sellFor;
 		float										m_weight{ 0.f };
 		int											m_fleaMarketFee{ 0 };
+		bool										m_IsPreset{ false };
 	private:
 		//í«â¡ê›íË
 		void	Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept override {
@@ -159,6 +160,7 @@ namespace FPS_n2 {
 
 			if (LEFT == "weight") { m_weight = std::stof(RIGHT); }
 			if (LEFT == "fleaMarketFee") { m_fleaMarketFee = std::stoi(RIGHT); }
+			if (LEFT == "propertiestype") { m_IsPreset = (RIGHT == "ItemPropertiesPreset"); }
 		}
 		void	Load_Sub() noexcept override {
 			if (m_TypeID == InvalidID) {
@@ -192,6 +194,7 @@ namespace FPS_n2 {
 		const auto&	GetsellFor() const noexcept { return m_sellFor; }
 		const auto&	Getweight() const noexcept { return m_weight; }
 		const auto&	GetfleaMarketFee() const noexcept { return m_fleaMarketFee; }
+		const auto&	GetIsPreset() const noexcept { return m_IsPreset; }
 	public:
 		const auto GetSellValue(TraderID* ID, int* pValue) const noexcept {
 			*ID = InvalidID;
@@ -355,6 +358,18 @@ namespace FPS_n2 {
 		}
 	};
 
+	struct properties {
+		std::string			typeName;
+	public:
+		void GetJsonData(const nlohmann::json& data) {
+			if (data.contains("__typename")) {
+				if (!data["__typename"].is_null()) {
+					typeName = data["__typename"];
+				}
+			}
+		}
+	};
+
 	class ItemJsonData {
 	public:
 		bool										m_IsFileOpened{ false };
@@ -386,6 +401,8 @@ namespace FPS_n2 {
 		std::vector<std::string>					craftsFor;
 		std::vector<std::string>					craftsUsing;
 		int											fleaMarketFee{ 0 };
+
+		properties									m_properties;
 	public:
 		void GetJsonData(const nlohmann::json& data) {
 			id = data["id"];
@@ -476,6 +493,12 @@ namespace FPS_n2 {
 					fleaMarketFee = data["fleaMarketFee"];
 				}
 			}
+
+			if (data.contains("properties")) {
+				if (!data["properties"].is_null()) {
+					m_properties.GetJsonData(data["properties"]);
+				}
+			}
 		}
 	};
 
@@ -513,7 +536,7 @@ namespace FPS_n2 {
 				m_ItemJsonData.back().m_IsFileOpened = false;
 			}
 		}
-		void SaveDatabyJson(std::string FolderPath) noexcept {
+		void SaveDatabyJson() noexcept {
 			for (auto& L : m_List) {
 				for (auto& jd : m_ItemJsonData) {
 					if (L.GetIDstr() == jd.id) {
@@ -550,7 +573,7 @@ namespace FPS_n2 {
 									}
 								}
 								else {
-									int a = 0;
+									//int a = 0;
 								}
 							}
 							outputfile << "]\n";
@@ -580,7 +603,7 @@ namespace FPS_n2 {
 										}
 									}
 									else {
-										int a = 0;
+										//int a = 0;
 									}
 								}
 								outputfile << "]\n";
@@ -620,30 +643,45 @@ namespace FPS_n2 {
 						//std::vector<std::string>					craftsFor;
 						//std::vector<std::string>					craftsUsing;
 						outputfile << "fleaMarketFee=" + std::to_string(jd.fleaMarketFee) + "\n";
+						outputfile << "propertiestype=" + (jd.m_properties.typeName) + "\n";
 						outputfile.close();
 						break;
 					}
 				}
 			}
-			bool maked = false;
 			for (auto& jd : m_ItemJsonData) {
 				if (!jd.m_IsFileOpened) {
-					if (!maked) {
-						CreateDirectory(("data/item/Maked/" + FolderPath).c_str(), NULL);
-						maked = true;
-					}
-					std::string ItemName = jd.name;
-					while (true) {
-						auto now = ItemName.find(".");
-						if (now != std::string::npos) {
-							ItemName = ItemName.substr(0, now) + ItemName.substr(now + 1);
-						}
-						else {
-							break;
-						}
-					}
+					std::string FolderPath = jd.categorytypes;
 
-					std::string Name = "data/item/Maked/"+ FolderPath +"/" + ItemName + ".txt";
+					std::string ParentPath = "data/item/Maked/" + jd.categorytypes;
+
+					CreateDirectory(ParentPath.c_str(), NULL);
+
+					std::string ItemName = jd.name;
+					auto SubStrs = [&](const char* str) {
+						while (true) {
+							auto now = ItemName.find(str);
+							if (now != std::string::npos) {
+								ItemName = ItemName.substr(0, now) + ItemName.substr(now + 1);
+							}
+							else {
+								break;
+							}
+						}
+					};
+					SubStrs(".");
+
+					SubStrs("\\");
+					SubStrs("/");
+					SubStrs(":");
+					SubStrs("*");
+					SubStrs("?");
+					SubStrs("\"");
+					SubStrs(">");
+					SubStrs("<");
+					SubStrs("|");
+
+					std::string Name = ParentPath +"/" + ItemName + ".txt";
 					std::ofstream outputfile(Name);
 					outputfile << "IDstr=" + jd.id + "\n";
 					outputfile << "Name=" + jd.name + "\n";
@@ -710,7 +748,10 @@ namespace FPS_n2 {
 					//std::vector<std::string>					craftsFor;
 					//std::vector<std::string>					craftsUsing;
 					outputfile << "fleaMarketFee=" + std::to_string(jd.fleaMarketFee) + "\n";
+					outputfile << "propertiestype=" + (jd.m_properties.typeName) + "\n";
 					outputfile.close();
+
+					//RemoveDirectory(Path.c_str());
 				}
 			}
 		}
@@ -878,9 +919,12 @@ namespace FPS_n2 {
 	void			SetItem(std::vector<ItemGetData>* Data, const std::string& mes) noexcept {
 		auto L = mes.rfind("x");
 		if (L != std::string::npos) {
-			ItemGetData tmp;
-			tmp.Set(ItemData::Instance()->FindID(mes.substr(0, L).c_str()), std::stoi(mes.substr(L + 1)));
-			Data->emplace_back(tmp);
+			auto ID = ItemData::Instance()->FindID(mes.substr(0, L).c_str());
+			if (std::find_if(Data->begin(), Data->end(), [&](const ItemGetData& obj) {return obj.GetID() == ID; }) == Data->end()) {
+				ItemGetData tmp;
+				tmp.Set(ID, std::stoi(mes.substr(L + 1)));
+				Data->emplace_back(tmp);
+			}
 		}
 		else {
 			//int a = 0;

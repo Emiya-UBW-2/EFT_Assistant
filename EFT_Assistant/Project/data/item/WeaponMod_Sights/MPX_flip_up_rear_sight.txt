@@ -26,4 +26,5 @@ Sell_Peacekeeper=3
 Sell_Mechanic=449
 Sell_Flea Market=11111
 weight=0.140000
-fleaMarketFee=3306
+fleaMarketFee=1655
+propertiestype=ItemPropertiesScope

@@ -18,4 +18,5 @@ Sell_Skier=797
 Sell_Peacekeeper=6
 Sell_Mechanic=911
 weight=0.038000
-fleaMarketFee=155
+fleaMarketFee=98
+propertiestype=ItemPropertiesScope

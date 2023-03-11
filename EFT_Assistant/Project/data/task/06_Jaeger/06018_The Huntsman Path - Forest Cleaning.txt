@@ -1,0 +1,28 @@
+IDstr=5d25e2cc86f77443e47ae019
+Name=The Huntsman Path - Forest Cleaning
+Trader=Jaeger
+
+NeedTask=The Huntsman Path - Secured Perimeter
+NeedLevel=2
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Kill=[
+	Scavsx30
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs all over the Tarkov territory
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+0.020000
+Reward_Item=[
+	Roublesx55000,
+	TOZ KS-23M 23x75mm pump-action shotgun Defaultx1
+]
+
+Reward_EXP=5900

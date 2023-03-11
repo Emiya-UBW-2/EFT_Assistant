@@ -1,0 +1,38 @@
+IDstr=5ac244eb86f7741356335af1
+Name=Gunsmith - Part 7
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 6
+NeedLevel=15
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+NeedItem=Colt M4A1 5.56x45 assault riflex1
+ContainsCategory=Silencer
+Task_Else=accuracy >= 0
+Task_Else=durability >= 60
+Task_Else=effectiveDistance >= 800
+Task_Else=ergonomics >= 47
+Task_Else=height >= 0
+Task_Else=magazineCapacity >= 60
+Task_Else=muzzleVelocity >= 0
+Task_Else=recoil <= 300
+Task_Else=weight <= 3
+Task_Else=width >= 0
+
+[
+	TaskType=buildWeapon
+	TaskText=Modify an M4A1 to comply with the given specifications
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.010000
+Reward_Item=[
+	Dollarsx500,
+	Pliers Elitex1,
+	Electric drillx1
+]
+
+Reward_EXP=6300

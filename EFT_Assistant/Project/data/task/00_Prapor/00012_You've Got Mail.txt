@@ -1,0 +1,33 @@
+IDstr=6391359b9444fb141f4e6ee6
+Name=You've Got Mail
+Trader=Prapor
+
+NeedTask=Postman Pat - Part 1
+NeedLevel=10
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+Task_Else=èEÇ¡Çƒî[ïi:Streets of Tarkov-Registered letterx1
+
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the registered mail on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the letter
+	TaskOptional=false
+]
+
+Reward_Rep=Prapor+0.020000
+Reward_Item=[
+	Roublesx28000,
+	6B47 Ratnik-BSh helmetx1,
+	5.45x39mm BP gs ammo pack (30 pcs)x1
+]
+
+Reward_EXP=4800

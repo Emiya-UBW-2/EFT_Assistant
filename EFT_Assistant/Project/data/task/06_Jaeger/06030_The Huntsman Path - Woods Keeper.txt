@@ -1,0 +1,45 @@
+IDstr=5d25e2ee86f77443e35162ea
+Name=The Huntsman Path - Woods Keeper
+Trader=Jaeger
+
+NeedTask=The Huntsman Path - Secured Perimeter
+NeedTask=Supply Plans
+NeedLevel=13
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Woods
+Task_Kill=[
+	Woods-Shturmanx1
+]
+NeedItem=Shturman's stash keyx1
+Task_FiR_HandOver=[Shturman's stash keyx1]
+DogTagLv=0
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Shturman
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Shturman's stash key in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over Shturman's stash key
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+0.020000
+Reward_Item=[
+	Roublesx17000,
+	Gunpowder "Hawk"x4,
+	VPX Flash Storage Modulex1,
+	TerraGroup Labs access keycardx3
+]
+
+Reward_EXP=7300

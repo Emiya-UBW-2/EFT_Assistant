@@ -1,0 +1,75 @@
+IDstr=59ca29fb86f77445ab465c87
+Name=The Punisher - Part 5
+Trader=Prapor
+
+NeedTask=The Punisher - Part 4
+NeedLevel=20
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+NeedItem=Kalashnikov AK-74N 5.45x39 assault riflex1
+Task_FiR_HandOver=[Kalashnikov AK-74N 5.45x39 assault riflex1]
+DogTagLv=0
+NeedItem=Colt M4A1 5.56x45 assault riflex1
+Task_FiR_HandOver=[Colt M4A1 5.56x45 assault riflex1]
+DogTagLv=0
+NeedItem=Makarov PM 9x18PM pistolx2
+Task_FiR_HandOver=[Makarov PM 9x18PM pistolx2]
+DogTagLv=0
+Task_Kill=[
+	any PMC operativesx10
+]
+Task_Else=‘•”õ‚ª•K—v:{
+Task_Else=  PACA Soft Armor
+Task_Else=  6B47 Ratnik-BSh helmet (Digital Flora cover)
+Task_Else=  PACA Soft Armor
+Task_Else=  6B47 Ratnik-BSh helmet
+Task_Else=}
+
+[
+	TaskType=findItem
+	TaskText=Find a Kalashnikov AK-74N assault rifle in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the AK-74N
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find a Colt M4A1 assault rifle in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the M4A1
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Makarov PM pistols in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the pistols
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives while wearing a PACA body armor and 6B47 helmet
+	TaskOptional=false
+]
+
+Reward_Rep=Prapor+0.030000
+Reward_Item=[
+	Dollarsx5000,
+	Pistol casex1,
+	Documents casex1,
+	7.62x39mm BP gzhx120
+]
+
+Reward_EXP=18200

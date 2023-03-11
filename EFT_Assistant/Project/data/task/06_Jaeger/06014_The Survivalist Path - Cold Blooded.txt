@@ -1,0 +1,30 @@
+IDstr=5d25d2c186f77443e35162e5
+Name=The Survivalist Path - Cold Blooded
+Trader=Jaeger
+
+NeedTask=The Survivalist Path - Wounded Beast
+NeedLevel=2
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Kill=[
+	any PMC operatives{head}x2
+]
+Task_Else=©•ª‚ÌŠY“–‰ÓŠ‚ÉˆÙíó‘Ô:[head,thorax,stomach,left arm,right arm,left leg,right leg]
+Task_Else=©•ª‚ÌˆÙíó‘Ô:[Tremor]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives with headshots while suffering from the tremor effect
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+0.020000
+Reward_Item=[
+	Roublesx75000
+]
+Reward_SkillLevelUp=Stress Resistance+1
+
+Reward_EXP=5900

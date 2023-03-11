@@ -1,0 +1,64 @@
+IDstr=5c0bc91486f7746ab41857a2
+Name=Silent Caliber
+Trader=Skier
+
+NeedTask=Chumming
+NeedLevel=27
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Kill=[
+	Scavsx20
+]
+NeedItem=[
+	Saiga 12ga ver.10 12/76 semi-automatic shotgunx0,
+	MP-133 12ga pump-action shotgunx0,
+	Remington Model 870 12ga pump-action shotgunx0,
+	Mossberg 590A1 12ga pump-action shotgunx0,
+	MP-153 12ga semi-automatic shotgunx0,
+	MP-43-1C 12ga double-barrel shotgunx0,
+	MP-155 12ga semi-automatic shotgunx0,
+	Benelli M3 Super 90 dual-mode 12ga shotgunx0
+]
+NeedItem=[
+	SilencerCo Salvo 12 12ga sound suppressorx0,
+	Hexagon 12K 12ga sound suppressorx0
+]
+Task_Kill=[
+	any PMC operativesx10
+]
+NeedItem=[
+	Saiga 12ga ver.10 12/76 semi-automatic shotgunx0,
+	MP-133 12ga pump-action shotgunx0,
+	Remington Model 870 12ga pump-action shotgunx0,
+	Mossberg 590A1 12ga pump-action shotgunx0,
+	MP-153 12ga semi-automatic shotgunx0,
+	MP-43-1C 12ga double-barrel shotgunx0,
+	MP-155 12ga semi-automatic shotgunx0,
+	Benelli M3 Super 90 dual-mode 12ga shotgunx0
+]
+NeedItem=[
+	SilencerCo Salvo 12 12ga sound suppressorx0,
+	Hexagon 12K 12ga sound suppressorx0
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs while using a suppressed 12ga shotgun
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives while using a suppressed 12ga shotgun
+	TaskOptional=false
+]
+
+Reward_Rep=Skier+0.050000
+Reward_Item=[
+	Roublesx100000,
+	Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle Saboteurx1
+]
+
+Reward_EXP=18000

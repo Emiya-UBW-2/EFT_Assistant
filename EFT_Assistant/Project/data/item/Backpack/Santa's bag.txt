@@ -16,3 +16,4 @@ Sell_Ragman=38453
 Sell_Jaeger=37213
 weight=2.640000
 fleaMarketFee=0
+propertiestype=ItemPropertiesBackpack

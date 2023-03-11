@@ -1,5 +1,5 @@
 {"query" : "{
- items(categoryNames:ITEMCAT_NAME){
+ items(offset:OFFSETVAL limit:LIMITVAL){
    id
    name
    shortName
@@ -33,5 +33,8 @@
    craftsFor{station{name}}
    craftsUsing{station{name}}
    fleaMarketFee
+   properties{
+    __typename
+   }
  }
 }"}

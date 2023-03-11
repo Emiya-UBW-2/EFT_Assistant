@@ -1,0 +1,44 @@
+IDstr=639136d68ba6894d155e77cf
+Name=Green Corridor
+Trader=Prapor
+
+NeedTask=Spa Tour - Part 7
+NeedLevel=12
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+Task_Else=TaskType:visit
+Task_Else=Locate the cargo convoy on Streets of Tarkov
+Task_Else=TaskType:visit
+Task_Else=Determine the ambush spot
+Task_Map=Streets of Tarkov
+Task_Else=脱出ステータス:[Survived]
+
+[
+	TaskType=visit
+	TaskText=Locate the cargo convoy on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Determine the ambush spot
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Prapor+0.020000
+Reward_Item=[
+	Roublesx62000,
+	SR-2M "Veresk" 9x21 submachine gun Defaultx1,
+	SR-2M 9x21 20-round magazinex3,
+	9x21mm P gzhx80
+]
+
+Reward_EXP=10400

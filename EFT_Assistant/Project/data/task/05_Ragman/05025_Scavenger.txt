@@ -1,0 +1,25 @@
+IDstr=5c112d7e86f7740d6f647486
+Name=Scavenger
+Trader=Ragman
+
+NeedTask=Hot Delivery
+NeedLevel=29
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Else=Skill‚ğã‚°‚é:Search+9.000000
+
+[
+	TaskType=skill
+	TaskText=Reach the required Search skill level
+	TaskOptional=false
+]
+
+Reward_Rep=Ragman+0.030000
+Reward_Item=[
+	Roublesx65000
+]
+
+Reward_EXP=17700

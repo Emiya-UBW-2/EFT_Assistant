@@ -1,0 +1,28 @@
+IDstr=6193850f60b34236ee0483de
+Name=Long Road
+Trader=Skier
+
+NeedTask=Friend from the West - Part 2
+NeedLevel=9
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Lighthouse
+Task_Kill=[
+	Lighthouse-Scavsx15
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs along the main road on Lighthouse
+	TaskOptional=false
+]
+
+Reward_Rep=Skier+0.020000
+Reward_Item=[
+	Roublesx45000
+]
+
+Reward_EXP=8300

@@ -15,4 +15,5 @@ Sell_Fence=213
 Sell_Skier=261
 Sell_Ragman=331
 weight=0.050000
-fleaMarketFee=51
+fleaMarketFee=32
+propertiestype=

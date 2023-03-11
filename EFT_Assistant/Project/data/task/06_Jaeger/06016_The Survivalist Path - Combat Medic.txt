@@ -1,0 +1,26 @@
+IDstr=5d25e2a986f77409dd5cdf2a
+Name=The Survivalist Path - Combat Medic
+Trader=Jaeger
+
+NeedTask=The Survivalist Path - Eagle-Owl
+NeedLevel=2
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Else=SkillÇè„Ç∞ÇÈ:Vitality+5.000000
+
+[
+	TaskType=skill
+	TaskText=Reach the required Vitality skill level
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+0.020000
+Reward_Item=[
+	Roublesx50000
+]
+Reward_SkillLevelUp=Surgery+2
+
+Reward_EXP=5900

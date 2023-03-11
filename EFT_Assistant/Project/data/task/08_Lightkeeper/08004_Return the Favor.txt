@@ -1,0 +1,42 @@
+IDstr=63966fe7ea74a47c2d3fc0e6
+Name=Return the Favor
+Trader=Lightkeeper
+
+NeedTask=Snatch
+NeedLevel=35
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Woods
+Task_Kill=[
+	Woods-any PMC operativesx25
+]
+Task_NotFiR_HandOver=[TerraGroup "Blue Folders" materialsx1]
+DogTagLv=0
+Task_NotFiR_HandOver=[TerraGroup "Blue Folders" materialsx1]
+DogTagLv=0
+
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives around the mountain area on Woods
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Hide the TerraGroup "Blue Folders" materials folder inside the black SUV in the USEC camp
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Hide the TerraGroup "Blue Folders" materials in the crates near the satellite antenna in the USEC camp
+	TaskOptional=false
+]
+
+Reward_Rep=Lightkeeper+0.010000
+Reward_Item=[
+	Silicon Optoelectronic Integrated Circuits textbookx1
+]
+
+Reward_EXP=0

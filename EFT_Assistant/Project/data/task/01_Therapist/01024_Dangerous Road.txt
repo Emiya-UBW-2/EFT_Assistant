@@ -1,0 +1,30 @@
+IDstr=63ab180c87413d64ae0ac20a
+Name=Dangerous Road
+Trader=Therapist
+
+NeedTask=Supply Plans
+NeedLevel=15
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+Task_Map=Streets of Tarkov
+Task_Else=脱出ステータス:[Survived]
+Task_Else=脱出地点:Primorsky Ave Taxi V-Ex
+
+[
+	TaskType=extract
+	TaskText=Survive and extract from Streets of Tarkov through Primorsky Ave Taxi V-Ex
+	TaskOptional=false
+]
+
+Reward_Rep=Therapist+0.010000
+Reward_Item=[
+	Roublesx45000,
+	Aluminum splintx2,
+	CALOK-B hemostatic applicatorx2
+]
+
+Reward_EXP=7800

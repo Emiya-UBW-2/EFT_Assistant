@@ -1,0 +1,50 @@
+IDstr=5edab736cc183c769d778bc2
+Name=Colleagues - Part 1
+Trader=Therapist
+
+NeedTask=General Wares
+NeedLevel=21
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Shoreline
+Task_Else=TaskType:visit
+Task_Else=Locate the group that was sent to the Health Resort
+Task_Else=TaskType:visit
+Task_Else=Locate the group that was sent to the pier
+Task_Else=TaskType:visit
+Task_Else=Locate the group that was sent to the cottages
+Task_Map=Shoreline
+Task_Else=脱出ステータス:[Survived,Run Through]
+
+[
+	TaskType=visit
+	TaskText=Locate the group that was sent to the Health Resort
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate the group that was sent to the pier
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate the group that was sent to the cottages
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Therapist+0.040000
+Reward_Item=[
+	Roublesx45000,
+	SJ1 TGLabs combat stimulant injectorx2,
+	SJ6 TGLabs combat stimulant injectorx2
+]
+
+Reward_EXP=12300

@@ -1,0 +1,42 @@
+IDstr=5b47799d86f7746c5d6a5fd8
+Name=Gunsmith - Part 12
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 11
+NeedLevel=23
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+NeedItem=SIG MPX 9x19 submachine gunx1
+ContainsAll=AR-15 Tactical Dynamics Skeletonized pistol grip
+ContainsAll=Yankee Hill Annihilator multi-caliber flash hider
+ContainsAll=Steiner LAS/TAC 2 tactical flashlight
+Task_Else=accuracy >= 0
+Task_Else=durability >= 60
+Task_Else=effectiveDistance >= 300
+Task_Else=ergonomics >= 52
+Task_Else=height >= 0
+Task_Else=magazineCapacity >= 0
+Task_Else=muzzleVelocity >= 0
+Task_Else=recoil <= 180
+Task_Else=weight <= 4
+Task_Else=width >= 0
+
+[
+	TaskType=buildWeapon
+	TaskText=Modify a SIG MPX to comply with the given specifications
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.020000
+Reward_Item=[
+	Dollarsx500,
+	AR-15 Vendetta Precision VP-09 Interceptor 5.56x45 muzzle brakex1,
+	FN P90 Attenuator 5.7x28 sound suppressorx1,
+	5.56x45 SureFire MAG5-100 STANAG 100-round magazinex1,
+	AR-15 Vendetta Precision VP-09 Interceptor 5.56x45 muzzle brakex1
+]
+
+Reward_EXP=12300

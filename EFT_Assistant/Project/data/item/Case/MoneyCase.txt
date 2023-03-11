@@ -15,4 +15,5 @@ Sell_Therapist=250866
 Sell_Ragman=246884
 Sell_Jaeger=238920
 weight=5.000000
-fleaMarketFee=37829
+fleaMarketFee=23892
+propertiestype=ItemPropertiesContainer

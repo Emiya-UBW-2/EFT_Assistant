@@ -1,0 +1,33 @@
+IDstr=596b36c586f77450d6045ad2
+Name=Supplier
+Trader=Skier
+
+NeedLevel=5
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_FiR_HandOver=[BNTI Module-3M body armorx1]
+DogTagLv=0
+Task_FiR_HandOver=[TOZ-106 20ga bolt-action shotgunx1]
+DogTagLv=0
+
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid BNTI Module-3M body armor
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid TOZ-106 shotgun
+	TaskOptional=false
+]
+
+Reward_Rep=Skier+0.050000
+Reward_Item=[
+	Roublesx60000,
+	Saiga-9 9x19 carbine Defaultx1
+]
+
+Reward_EXP=3300

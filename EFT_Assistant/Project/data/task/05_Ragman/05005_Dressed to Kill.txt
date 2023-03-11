@@ -1,0 +1,47 @@
+IDstr=5ae4490786f7744ca822adcc
+Name=Dressed to Kill
+Trader=Ragman
+
+NeedTask=The Blood of War - Part 1
+NeedLevel=17
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+NeedItem=Kinda cowboy hatx2
+NeedItem=Ushanka ear flap hatx2
+Task_FiR_HandOver=[Ushanka ear flap hatx2]
+DogTagLv=0
+Task_FiR_HandOver=[Kinda cowboy hatx2]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Find Kinda Cowboy hats in raid
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Ushanka ear-flap hats in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the ushanka-hats
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the hats
+	TaskOptional=false
+]
+
+Reward_Rep=Ragman+0.030000
+Reward_Item=[
+	Roublesx21000,
+	BNTI Gzhel-K body armorx1,
+	Military power filterx1
+]
+
+Reward_EXP=8400

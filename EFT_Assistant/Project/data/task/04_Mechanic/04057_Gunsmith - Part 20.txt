@@ -1,0 +1,41 @@
+IDstr=5b477f7686f7744d1b23c4d2
+Name=Gunsmith - Part 20
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 19
+NeedLevel=37
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+NeedItem=Springfield Armory M1A 7.62x51 riflex1
+ContainsAll=M14 UltiMAK M8 Forward Optic mount
+ContainsAll=Nightforce ATACR 7-35x56 34mm riflescope
+ContainsAll=Aimpoint Micro T-1 reflex sight
+ContainsAll=Holosun LS321 Tactical device
+Task_Else=accuracy >= 0
+Task_Else=durability >= 60
+Task_Else=effectiveDistance >= 0
+Task_Else=ergonomics >= 20
+Task_Else=height >= 0
+Task_Else=magazineCapacity >= 20
+Task_Else=muzzleVelocity >= 0
+Task_Else=recoil <= 400
+Task_Else=weight <= 7
+Task_Else=width >= 0
+
+[
+	TaskType=buildWeapon
+	TaskText=Modify an M1A to comply with the given specifications
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.030000
+Reward_Item=[
+	Eurosx500,
+	AR-15 Hera Arms CQR pistol grip/buttstockx1,
+	Hera Arms CQR tactical foregripx1
+]
+
+Reward_EXP=26600

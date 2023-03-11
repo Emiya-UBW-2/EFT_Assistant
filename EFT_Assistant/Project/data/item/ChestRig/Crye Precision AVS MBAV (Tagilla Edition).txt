@@ -17,3 +17,4 @@ Sell_Ragman=133300
 Sell_Jaeger=129000
 weight=7.800000
 fleaMarketFee=0
+propertiestype=ItemPropertiesChestRig

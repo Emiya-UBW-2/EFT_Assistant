@@ -1,0 +1,52 @@
+IDstr=63966fbeea19ac7ed845db2e
+Name=Missing Informant
+Trader=Lightkeeper
+
+NeedTask=Information Source
+NeedLevel=35
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+Task_Else=TaskType:visit
+Task_Else=Locate the informant's hideout on Streets of Tarkov
+Task_Else=TaskType:visit
+Task_Else=Locate the informant's backup hideout
+Task_Else=èEÇ¡Çƒî[ïi:Streets of Tarkov-Informant's journalx1
+Task_Else=èEÇ¡Çƒî[ïi:Lighthouse-Informant's journalx1
+NeedItem=Backup hideout keyx1
+
+[
+	TaskType=visit
+	TaskText=Locate the informant's hideout on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate the informant's backup hideout
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the informant's journal
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Bring the information to Lightkeeper
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Obtain the key to the second hideout
+	TaskOptional=true
+]
+
+Reward_Rep=Lightkeeper+0.010000
+Reward_Item=[
+	Microcontroller boardx1
+]
+
+Reward_EXP=0

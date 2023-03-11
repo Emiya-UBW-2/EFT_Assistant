@@ -1,0 +1,48 @@
+IDstr=596a218586f77420d232807c
+Name=Car Repair
+Trader=Therapist
+
+NeedTask=Pharmacist
+NeedLevel=10
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+NeedItem=Car batteryx4
+NeedItem=Spark plugx8
+Task_FiR_HandOver=[Car batteryx4]
+DogTagLv=0
+Task_FiR_HandOver=[Spark plugx8]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Find Car batteries in raid
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Spark plugs in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the batteries
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the spark plugs
+	TaskOptional=false
+]
+
+Reward_Rep=Therapist+0.040000
+Reward_Item=[
+	Dollarsx1500,
+	Grizzly medical kitx1,
+	eTG-change regenerative stimulant injectorx1,
+	Adrenaline injectorx1
+]
+
+Reward_EXP=6900

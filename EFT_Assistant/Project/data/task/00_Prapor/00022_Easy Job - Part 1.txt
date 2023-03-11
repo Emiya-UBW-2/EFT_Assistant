@@ -1,0 +1,40 @@
+IDstr=6179ac7511973d018217d0b9
+Name=Easy Job - Part 1
+Trader=Prapor
+
+NeedTask=The Punisher - Part 2
+NeedLevel=18
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Lighthouse
+Task_Else=TaskType:visit
+Task_Else=Locate the helicopter at the water treatment plant on Lighthouse
+Task_Map=Lighthouse
+NeedItem=MS2000 Markerx1
+Task_Else=脱出ステータス:[Survived]
+
+[
+	TaskType=visit
+	TaskText=Locate the helicopter at the water treatment plant on Lighthouse
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Mark the helicopter with an MS2000 Marker
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Prapor+0.020000
+Reward_Item=[
+	Roublesx120000
+]
+
+Reward_EXP=15000

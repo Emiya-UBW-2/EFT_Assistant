@@ -1,0 +1,68 @@
+IDstr=59c9392986f7742f6923add2
+Name=Trust Regain
+Trader=Therapist
+
+NeedTask=Out of Curiosity
+NeedLevel=11
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+NeedItem=Dorm room 303 keyx1
+NeedItem=ZB-014 keyx1
+NeedItem=Military checkpoint keyx1
+NeedItem=Gas station storage room keyx1
+Task_NotFiR_HandOver=[Dorm room 303 keyx1]
+DogTagLv=0
+Task_NotFiR_HandOver=[ZB-014 keyx1]
+DogTagLv=0
+Task_NotFiR_HandOver=[Military checkpoint keyx1]
+DogTagLv=0
+Task_NotFiR_HandOver=[Gas station storage room keyx1]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Obtain the Dorm room 303 key
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Obtain the ZB-014 key
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Obtain the Military checkpoint key
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Obtain the Gas station storage room key
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the Dorm room 303 key
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the ZB-014 key
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the Military checkpoint key
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the Gas station storage room key
+	TaskOptional=false
+]
+
+Reward_Rep=Therapist+0.250000
+
+Reward_EXP=0

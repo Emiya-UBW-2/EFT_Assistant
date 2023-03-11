@@ -14,4 +14,5 @@ lastOfferCount=0
 Sell_Fence=40000
 Sell_Jaeger=60000
 weight=0.807000
-fleaMarketFee=9500
+fleaMarketFee=6000
+propertiestype=ItemPropertiesMelee

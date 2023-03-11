@@ -1,0 +1,75 @@
+IDstr=5a0327ba86f77456b9154236
+Name=Spa Tour - Part 3
+Trader=Peacekeeper
+
+NeedTask=Spa Tour - Part 2
+NeedLevel=12
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+NeedItem=WD-40 (100ml)x1
+Task_FiR_HandOver=[WD-40 (100ml)x1]
+DogTagLv=0
+NeedItem=Clin window cleanerx2
+Task_FiR_HandOver=[Clin window cleanerx2]
+DogTagLv=0
+NeedItem=Corrugated hosex2
+Task_FiR_HandOver=[Corrugated hosex2]
+DogTagLv=0
+NeedItem=Ox bleachx2
+Task_FiR_HandOver=[Ox bleachx2]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Find WD-40 (100ml) in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the WD-40
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Clin window cleaners in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the cleaners
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Corrugated hoses in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the hoses
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Ox bleach in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the bleach
+	TaskOptional=false
+]
+
+Reward_Rep=Peacekeeper+0.030000
+Reward_Item=[
+	Dollarsx800,
+	TDI KRISS Vector Gen.2 9x19 submachine gun Defaultx1,
+	Glock 9x19 "Big Stick" 33-round magazinex4,
+	M67 hand grenadex5,
+	Toolsetx2
+]
+
+Reward_EXP=7600

@@ -1,0 +1,42 @@
+IDstr=5ac2426c86f774138762edfe
+Name=Gunsmith - Part 2
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 1
+NeedLevel=5
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+NeedItem=Kalashnikov AKS-74U 5.45x39 assault riflex1
+ContainsAll=AKS-74U Zenit B-11 handguard
+Task_Else=accuracy >= 0
+Task_Else=durability >= 60
+Task_Else=effectiveDistance >= 100
+Task_Else=ergonomics >= 58
+Task_Else=height <= 2
+Task_Else=magazineCapacity >= 60
+Task_Else=muzzleVelocity >= 0
+Task_Else=recoil <= 550
+Task_Else=weight <= 3
+Task_Else=width <= 3
+
+[
+	TaskType=buildWeapon
+	TaskText=Modify an AKS-74U to comply with the given specifications
+	TaskOptional=false
+]
+
+Reward_Item=[
+	Kalashnikov AKS-74U 5.45x39 assault rifle Defaultx1
+]
+Reward_Rep=Mechanic+0.010000
+Reward_Item=[
+	Roublesx15000,
+	Capacitorsx2,
+	Bundle of wiresx2,
+	Light bulbx2
+]
+
+Reward_EXP=2000

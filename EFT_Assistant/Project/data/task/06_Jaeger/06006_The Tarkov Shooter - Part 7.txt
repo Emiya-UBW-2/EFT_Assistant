@@ -1,0 +1,61 @@
+IDstr=5bc4856986f77454c317bea7
+Name=The Tarkov Shooter - Part 7
+Trader=Jaeger
+
+NeedTask=The Tarkov Shooter - Part 6
+NeedLevel=2
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Kill=[
+	any PMC operativesx5
+]
+NeedItem=[
+	SV-98 7.62x54R bolt-action sniper riflex0,
+	Molot VPO-215 "Gornostay" .366 TKM bolt-action riflex0,
+	Lobaev Arms DVL-10 7.62x51 bolt-action sniper riflex0,
+	Mosin 7.62x54R bolt-action rifle (Infantry)x0,
+	Remington Model 700 7.62x51 bolt-action sniper riflex0,
+	Mosin 7.62x54R bolt-action rifle (Sniper)x0,
+	ORSIS T-5000M 7.62x51 bolt-action sniper riflex0,
+	Accuracy International AXMC .338 LM bolt-action sniper riflex0
+]
+NeedItem=[
+	Mosin Rifle Bramit 7.62x54R sound suppressorx0,
+	SilencerCo Hybrid 46 multi-caliber sound suppressorx0,
+	AKM Hexagon 7.62x39 sound suppressorx0,
+	AKM PBS-1 7.62x39 sound suppressorx0,
+	AKM Zenit DTK-4M 7.62x39 sound suppressorx0,
+	Rotor 43 7.62x39 muzzle brake-compensatorx0,
+	AAC 762-SDN-6 multi-caliber sound suppressorx0,
+	Gemtech ONE multi-caliber sound suppressorx0,
+	Daniel Defense WAVE QD sound suppressorx0,
+	Thunder Beast Arms Ultra 5 sound suppressorx0,
+	AK Hexagon DTKP MK.2 7.62x39 sound suppressorx0,
+	AKM Zenit DTK-4M 7.62x39 sound suppressorx0,
+	KAC PRS/QDC 7.62x51 sound suppressorx0,
+	SV-98 7.62x54R sound suppressorx0,
+	DVL-10 7.62x51 muzzle devicex0,
+	Rotor 43 .366 TKM muzzle brake-compensatorx0,
+	SIG Sauer SRD762Ti 7.62x51 sound suppressorx0,
+	SIG Sauer SRD762-QD 7.62x51 sound suppressorx0,
+	AI .338 LM Tactical Sound Moderatorx0
+]
+Task_Else=‹——£: >= 45m
+
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives from over 45 meters away while using a suppressed bolt-action rifle
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+0.020000
+Reward_Item=[
+	Roublesx85000,
+	Mosin Rifle Witt Machine 7.62x54R muzzle brakex1,
+	Mosin Rifle Bramit 7.62x54R sound suppressorx1
+]
+
+Reward_EXP=13300

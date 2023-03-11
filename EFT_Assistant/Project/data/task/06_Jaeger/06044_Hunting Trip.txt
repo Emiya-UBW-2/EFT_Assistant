@@ -1,0 +1,38 @@
+IDstr=5d25e4ca86f77409dd5cdf2c
+Name=Hunting Trip
+Trader=Jaeger
+
+NeedTask=The Huntsman Path - Woods Keeper
+NeedLevel=30
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Woods
+Task_Kill=[
+	Woods-Shturmanx1
+]
+NeedItem=[
+	Remington Model 700 7.62x51 bolt-action sniper riflex0
+]
+NeedItem=[
+	March Tactical 3-24x42 FFP 30mm riflescopex0
+]
+Task_Else=‹——£: >= 50m
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Shturman from over 50 meters away while using an M700 sniper rifle with the specified scope
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+0.020000
+Reward_Item=[
+	Roublesx60000,
+	VPX Flash Storage Modulex1,
+	Iridium military thermal vision modulex1,
+	Phased array elementx1
+]
+
+Reward_EXP=22200

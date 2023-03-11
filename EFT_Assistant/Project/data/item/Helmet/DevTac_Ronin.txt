@@ -9,6 +9,8 @@ Conflict=[
 	Pestily plague mask,
 	Slender mask,
 	GP-7 gas mask,
+	Tagilla's welding mask "Gorilla",
+	Tagilla's welding mask "UBEY"
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -16,13 +18,14 @@ Information_Eng=A Japan-styled tactical helmet, manufactured by DevTac. Not used
 basePrice=164912
 width=2
 height=2
-avg24hPrice=103657
-low24hPrice=95234
-lastOfferCount=7
+avg24hPrice=104349
+low24hPrice=99800
+lastOfferCount=20
 Sell_Fence=65964
 Sell_Skier=80806
 Sell_Peacekeeper=645
 Sell_Ragman=102245
-Sell_Flea Market=100000
+Sell_Flea Market=99800
 weight=1.600000
-fleaMarketFee=11975
+fleaMarketFee=8679
+propertiestype=ItemPropertiesHelmet

@@ -1,0 +1,27 @@
+IDstr=60effd818b669d08a35bfad5
+Name=The Choice
+Trader=Fence
+
+NeedTask=The Punisher - Part 6
+NeedLevel=50
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_NotFiR_HandOver=[Secure container Epsilonx1]
+DogTagLv=0
+
+[
+	TaskType=giveItem
+	TaskText=Hand over Secure container Epsilon
+	TaskOptional=false
+]
+
+Reward_Rep=Fence+1.100000
+Reward_Item=[
+	Roublesx1000000
+]
+Reward_SkillLevelUp=Hideout management+2
+
+Reward_EXP=433333

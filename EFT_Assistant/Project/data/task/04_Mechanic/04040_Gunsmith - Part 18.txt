@@ -1,0 +1,45 @@
+IDstr=5b477b6f86f7747290681823
+Name=Gunsmith - Part 18
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 17
+NeedLevel=33
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+NeedItem=Kalashnikov AKMN 7.62x39 assault riflex1
+ContainsAll=AK Magpul MOE AKM handguard (Black)
+ContainsAll=AK Magpul MOE pistol grip (Black)
+ContainsAll=AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine
+ContainsAll=Magpul M-LOK AFG tactical foregrip (Black)
+ContainsAll=Rotor 43 7.62x39 muzzle brake-compensator
+ContainsAll=EOTech HHS-1 hybrid sight
+ContainsAll=AKM/AK-74 Magpul Zhukov-S stock
+Task_Else=accuracy >= 0
+Task_Else=durability >= 60
+Task_Else=effectiveDistance >= 600
+Task_Else=ergonomics >= 50
+Task_Else=height >= 0
+Task_Else=magazineCapacity >= 0
+Task_Else=muzzleVelocity >= 0
+Task_Else=recoil <= 300
+Task_Else=weight <= 5
+Task_Else=width >= 0
+
+[
+	TaskType=buildWeapon
+	TaskText=Modify an AKMN to comply with the given specifications
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.030000
+Reward_Item=[
+	Roublesx50000,
+	EOTech Vudu 1-6x24 30mm riflescopex1,
+	AK-74 Hexagon Wafflemaker 5.45x39 sound suppressorx1,
+	AK Hexagon Reactor 5.45x39 muzzle brakex1
+]
+
+Reward_EXP=23100

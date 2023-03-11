@@ -9,6 +9,8 @@ Conflict=[
 	Pestily plague mask,
 	Slender mask,
 	GP-7 gas mask,
+	Tagilla's welding mask "Gorilla",
+	Tagilla's welding mask "UBEY"
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -16,13 +18,14 @@ Information_Eng=A well-worn "PriceLess" boonie hat. It is believed that those wh
 basePrice=10200
 width=2
 height=2
-avg24hPrice=12170
-low24hPrice=6666
-lastOfferCount=10
+avg24hPrice=11197
+low24hPrice=6999
+lastOfferCount=9
 Sell_Fence=4080
 Sell_Skier=4998
 Sell_Peacekeeper=40
 Sell_Ragman=6324
-Sell_Flea Market=7500
+Sell_Flea Market=8000
 weight=0.100000
-fleaMarketFee=792
+fleaMarketFee=553
+propertiestype=

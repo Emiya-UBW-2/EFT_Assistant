@@ -82,7 +82,7 @@ namespace FPS_n2 {
 		const auto&		GetFilePath() const noexcept { return m_FilePath; }
 		
 		const auto		GetColors(int colorAdd) const noexcept {
-			return DxLib::GetColor(std::clamp(m_Color[0] + colorAdd, 0, 255), std::clamp(m_Color[1] + colorAdd, 0, 255), std::clamp(m_Color[2] + colorAdd, 0, 255));
+			return DxLib::GetColor(std::clamp(m_Color[0] + colorAdd, 1, 255), std::clamp(m_Color[1] + colorAdd, 1, 255), std::clamp(m_Color[2] + colorAdd, 1, 255));
 		}
 		const auto&		GetIcon() const noexcept { return m_Icon; }
 	public:

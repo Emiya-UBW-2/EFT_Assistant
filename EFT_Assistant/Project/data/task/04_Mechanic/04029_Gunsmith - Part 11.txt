@@ -1,0 +1,39 @@
+IDstr=639872fc93ae507d5858c3a6
+Name=Gunsmith - Part 11
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 10
+NeedLevel=22
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+NeedItem=TDI KRISS Vector Gen.2 9x19 submachine gunx1
+ContainsAll=KRISS Vector Mk.5 modular rail
+ContainsAll=Tactical Dynamics Skeletonized Foregrip
+ContainsCategory=Silencer
+Task_Else=accuracy >= 0
+Task_Else=durability >= 60
+Task_Else=effectiveDistance >= 300
+Task_Else=ergonomics >= 50
+Task_Else=height >= 0
+Task_Else=magazineCapacity >= 31
+Task_Else=muzzleVelocity >= 0
+Task_Else=recoil <= 200
+Task_Else=weight <= 4
+Task_Else=width >= 0
+
+[
+	TaskType=buildWeapon
+	TaskText=Modify a KRISS Vector 9x19 to comply with the given specifications
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.020000
+Reward_Item=[
+	Dollarsx500,
+	SureFire SOCOM556-MINI MONSTER 5.56x45 sound suppressorx1
+]
+
+Reward_EXP=11600

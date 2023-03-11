@@ -16,3 +16,4 @@ Sell_Skier=26950
 Sell_Ragman=34100
 weight=0.050000
 fleaMarketFee=0
+propertiestype=

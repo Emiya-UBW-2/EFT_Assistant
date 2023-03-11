@@ -1,0 +1,32 @@
+IDstr=5a27bc3686f7741c73584026
+Name=Wet Job - Part 4
+Trader=Peacekeeper
+
+NeedTask=Wet Job - Part 3
+NeedLevel=14
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Shoreline
+Task_Else=èEÇ¡Çƒî[ïi:Shoreline-Sliderkey Flash drivex1
+
+[
+	TaskType=findQuestItem
+	TaskText=Obtain a list of the resort's tenants on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the list of tenants
+	TaskOptional=false
+]
+
+Reward_Rep=Peacekeeper+0.030000
+Reward_Item=[
+	Dollarsx1700,
+	Shoreline Health Resort plan mapx1
+]
+
+Reward_EXP=8300

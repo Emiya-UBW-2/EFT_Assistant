@@ -1,0 +1,27 @@
+IDstr=626148251ed3bb5bcc5bd9ed
+Name=Make Amends - Buyout
+Trader=Mechanic
+
+NeedTask=Getting Acquainted
+NeedLevel=35
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+traderRequirementsName=Lightkeeper
+traderRequirementsType=level
+traderRequirements=<
+traderRequirementsValue=0
+Task_NotFiR_HandOver=[Roublesx1000000]
+DogTagLv=0
+
+[
+	TaskType=giveItem
+	TaskText=Hand over RUB
+	TaskOptional=false
+]
+
+Reward_Rep=Lightkeeper+0.010000
+
+Reward_EXP=0

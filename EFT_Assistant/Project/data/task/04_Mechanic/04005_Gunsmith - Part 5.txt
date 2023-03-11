@@ -1,0 +1,39 @@
+IDstr=5ae3267986f7742a413592fe
+Name=Gunsmith - Part 5
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 4
+NeedLevel=10
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+NeedItem=Remington Model 870 12ga pump-action shotgunx1
+ContainsAll=M870 Magpul MOE handguard
+ContainsCategory=Comb. tact. device
+ContainsCategory=Foregrip
+Task_Else=accuracy >= 0
+Task_Else=durability >= 60
+Task_Else=effectiveDistance >= 0
+Task_Else=ergonomics >= 60
+Task_Else=height >= 0
+Task_Else=magazineCapacity >= 0
+Task_Else=muzzleVelocity >= 0
+Task_Else=recoil <= 500
+Task_Else=weight >= 0
+Task_Else=width >= 0
+
+[
+	TaskType=buildWeapon
+	TaskText=Modify a Remington Model 870 to comply with the given specifications
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.010000
+Reward_Item=[
+	Dollarsx300,
+	Weapon partsx3
+]
+
+Reward_EXP=4100

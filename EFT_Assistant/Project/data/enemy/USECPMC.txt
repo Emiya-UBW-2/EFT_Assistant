@@ -1,2 +1,2 @@
-Name=USECPMC
+Name=USEC operatives
 Color=[0,255,0]

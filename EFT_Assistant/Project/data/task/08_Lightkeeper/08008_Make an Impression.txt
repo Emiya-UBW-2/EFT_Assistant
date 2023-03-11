@@ -1,0 +1,34 @@
+IDstr=6396701b9113f06a7c3b2379
+Name=Make an Impression
+Trader=Lightkeeper
+
+NeedTask=Spotter
+NeedLevel=35
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Else=Skill‚ðã‚°‚é:Sniper+10.000000
+Task_Kill=[
+	Sniperx10
+]
+Task_Else=‹——£: >= 500m
+
+[
+	TaskType=skill
+	TaskText=Reach the required Sniper Rifles skill level
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate Sniper Scavs from over 500 meters away
+	TaskOptional=false
+]
+
+Reward_Rep=Lightkeeper+0.010000
+Reward_Item=[
+	Phased array elementx2
+]
+
+Reward_EXP=0

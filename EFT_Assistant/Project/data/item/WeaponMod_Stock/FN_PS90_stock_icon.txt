@@ -19,4 +19,5 @@ Sell_Mechanic=1876
 Sell_Jaeger=2010
 Sell_Flea Market=150000
 weight=0.400000
-fleaMarketFee=97501
+fleaMarketFee=48755
+propertiestype=ItemPropertiesWeaponMod

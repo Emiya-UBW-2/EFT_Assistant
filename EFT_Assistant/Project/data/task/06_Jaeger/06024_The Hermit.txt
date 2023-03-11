@@ -1,0 +1,38 @@
+IDstr=61904daa7d0d857927447b9c
+Name=The Hermit
+Trader=Jaeger
+
+NeedTask=The Survivalist Path - Tough Guy
+NeedLevel=2
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Lighthouse
+Task_Else=TaskType:visit
+Task_Else=Locate the hideout of Jaeger's friend on Lighthouse
+Task_Else=èEÇ¡Çƒî[ïi:Lighthouse-Sealed letterx1
+
+[
+	TaskType=visit
+	TaskText=Locate the hideout of Jaeger's friend on Lighthouse
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Find and obtain the message for Jaeger
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the message
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+0.020000
+Reward_Item=[
+	Roublesx55000
+]
+
+Reward_EXP=12000

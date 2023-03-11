@@ -27,4 +27,5 @@ Sell_Peacekeeper=22
 Sell_Mechanic=3080
 Sell_Jaeger=3300
 weight=1.250000
-fleaMarketFee=523
+fleaMarketFee=330
+propertiestype=ItemPropertiesBarrel

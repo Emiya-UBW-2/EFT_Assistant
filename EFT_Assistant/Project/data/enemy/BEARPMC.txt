@@ -1,2 +1,2 @@
-Name=BEARPMC
+Name=BEAR operatives
 Color=[64,64,64]

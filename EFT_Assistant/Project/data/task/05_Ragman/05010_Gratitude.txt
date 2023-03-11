@@ -1,0 +1,53 @@
+IDstr=5ae449b386f77446d8741719
+Name=Gratitude
+Trader=Ragman
+
+NeedTask=Dressed to Kill
+NeedTask=Database - Part 2
+NeedLevel=17
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Woods
+Task_NotFiR_HandOver=[Ghost balaclavax1]
+DogTagLv=0
+Task_NotFiR_HandOver=[Shemagh (Green)x1]
+DogTagLv=0
+Task_NotFiR_HandOver=[RayBench Hipster Reserve sunglassesx1]
+DogTagLv=0
+Task_NotFiR_HandOver=[Round frame sunglassesx1]
+DogTagLv=0
+
+[
+	TaskType=plantItem
+	TaskText=Stash Ghost balaclava in the specified place
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Stash Shemagh (Green) in the specified place
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Stash RayBench Hipster Reserve sunglasses in the specified place
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Stash Round frame sunglasses in the specified place
+	TaskOptional=false
+]
+
+Reward_Rep=Ragman+0.030000
+Reward_Item=[
+	Roublesx120000,
+	Stich Profi Chimera boonie hatx2,
+	Jack Pyke Hunting LLCS boonie hatx2,
+	Door Kicker boonie hatx2,
+	MIL-TEC boonie hatx2
+]
+
+Reward_EXP=14400

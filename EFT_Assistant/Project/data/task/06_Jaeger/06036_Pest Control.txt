@@ -1,0 +1,32 @@
+IDstr=608a768d82e40b3c727fd17d
+Name=Pest Control
+Trader=Jaeger
+
+NeedTask=Reserve
+NeedLevel=20
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Reserve
+Task_Kill=[
+	Reserve-Scavsx10
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs in the barracks area on Reserve
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+0.020000
+Reward_Item=[
+	Roublesx20000,
+	PAID AntiRoach sprayx2,
+	Gunpowder "Eagle"x6,
+	Pack of nailsx4,
+	Can of thermitex2
+]
+
+Reward_EXP=7400

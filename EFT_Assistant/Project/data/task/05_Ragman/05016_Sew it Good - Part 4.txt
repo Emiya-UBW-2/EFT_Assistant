@@ -1,0 +1,47 @@
+IDstr=5ae4497b86f7744cf402ed00
+Name=Sew it Good - Part 4
+Trader=Ragman
+
+NeedTask=Sew it Good - Part 3
+NeedLevel=25
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+NeedItem=WARTECH TV-109 + TV-106 chest rigx2
+Task_FiR_HandOver=[WARTECH TV-109 + TV-106 chest rigx2]
+DogTagLv=0
+NeedItem=BlackRock chest rigx2
+Task_FiR_HandOver=[BlackRock chest rigx2]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Find WARTECH TV-109 + TV-106 chest rigs in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the chest rigs
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find BlackRock chest rigs in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the chest rigs
+	TaskOptional=false
+]
+
+Reward_Rep=Ragman+0.030000
+Reward_Item=[
+	Roublesx30000,
+	ANA Tactical M2 armored rigx1,
+	ANA Tactical M2 armored rigx1
+]
+
+Reward_EXP=18500

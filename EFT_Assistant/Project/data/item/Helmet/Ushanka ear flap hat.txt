@@ -5,6 +5,8 @@ Itemtype=Headwear
 Conflict=[
 	OPSMEN Earmor M32 headset,
 	Ghoul mask,
+	Tagilla's welding mask "Gorilla",
+	Tagilla's welding mask "UBEY"
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -12,13 +14,14 @@ Information_Eng=The Ushanka ear flap hat is a classic hat worn by Russian people
 basePrice=5013
 width=2
 height=2
-avg24hPrice=16299
-low24hPrice=8123
-lastOfferCount=40
+avg24hPrice=20040
+low24hPrice=10000
+lastOfferCount=19
 Sell_Fence=2005
 Sell_Skier=2456
 Sell_Peacekeeper=20
 Sell_Ragman=3108
-Sell_Flea Market=14999
+Sell_Flea Market=18888
 weight=0.100000
-fleaMarketFee=1767
+fleaMarketFee=1284
+propertiestype=

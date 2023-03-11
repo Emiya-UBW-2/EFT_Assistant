@@ -1,0 +1,61 @@
+IDstr=5e381b0286f77420e3417a74
+Name=Textile - Part 1
+Trader=Ragman
+
+NeedTask=Sew it Good - Part 4
+NeedLevel=42
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+traderRequirementsName=Ragman
+traderRequirementsType=level
+traderRequirements=>=
+traderRequirementsValue=4
+NeedItem=Aramid fiber fabricx5
+Task_FiR_HandOver=[Aramid fiber fabricx5]
+DogTagLv=0
+NeedItem=Ripstop fabricx10
+Task_FiR_HandOver=[Ripstop fabricx10]
+DogTagLv=0
+NeedItem=Paracordx3
+Task_FiR_HandOver=[Paracordx3]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Find Aramid fabrics in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the fabrics
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Ripstop fabrics in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the fabrics
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Paracords in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the paracords
+	TaskOptional=false
+]
+
+Reward_Item=[
+	Roublesx100000
+]
+
+Reward_EXP=0

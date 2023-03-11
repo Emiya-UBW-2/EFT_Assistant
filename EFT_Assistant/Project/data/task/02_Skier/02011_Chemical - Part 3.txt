@@ -1,0 +1,34 @@
+IDstr=597a0e5786f77426d66c0636
+Name=Chemical - Part 3
+Trader=Skier
+
+NeedTask=Chemical - Part 2
+NeedLevel=11
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Factory
+Task_Else=èEÇ¡Çƒî[ïi:Factory-Syringe with a chemicalx1
+
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the chemical-filled syringe hidden in Factory
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the syringe
+	TaskOptional=false
+]
+
+Reward_Rep=Skier+0.040000
+Reward_Rep=Jaeger-0.010000
+Reward_Item=[
+	Roublesx22000,
+	BelOMO PSO-1M2-1 4x24 scopex1,
+	"Zarya" stun grenadex4
+]
+
+Reward_EXP=5400

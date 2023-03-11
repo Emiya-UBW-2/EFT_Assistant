@@ -1,0 +1,23 @@
+IDstr=5a27ba9586f7741b543d8e85
+Name=Spa Tour - Part 6
+Trader=Peacekeeper
+
+NeedTask=Spa Tour - Part 5
+NeedLevel=12
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_NotFiR_HandOver=[Dollarsx8000]
+DogTagLv=0
+
+[
+	TaskType=giveItem
+	TaskText=Hand over USD
+	TaskOptional=false
+]
+
+Reward_Rep=Peacekeeper+0.040000
+
+Reward_EXP=9500

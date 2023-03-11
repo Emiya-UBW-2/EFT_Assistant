@@ -1,0 +1,37 @@
+IDstr=63913715f8e5dd32bf4e3aaa
+Name=Broadcast - Part 2
+Trader=Mechanic
+
+NeedTask=Broadcast - Part 1
+NeedLevel=15
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=true
+
+Task_Map=Streets of Tarkov
+Task_Else=TaskType:visit
+Task_Else=Locate the place of bloody broadcast inside the grocery store on Streets of Tarkov
+Task_Map=Streets of Tarkov
+Task_Else=脱出ステータス:[Survived]
+
+[
+	TaskType=visit
+	TaskText=Locate the place of bloody broadcast inside the grocery store on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.020000
+Reward_Item=[
+	Roublesx44000,
+	Steyr AUG A1 5.56x45 assault rifle Defaultx1,
+	Steyr AUG 5.56x45 10-round magazinex3,
+	5.56x45mm M855x60
+]
+
+Reward_EXP=7400

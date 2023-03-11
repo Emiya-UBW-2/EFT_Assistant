@@ -1,0 +1,27 @@
+IDstr=5a68667486f7742607157d28
+Name=Health Care Privacy - Part 4
+Trader=Therapist
+
+NeedTask=Health Care Privacy - Part 3
+NeedLevel=10
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Else=SkillÇè„Ç∞ÇÈ:Health+4.000000
+
+[
+	TaskType=skill
+	TaskText=Reach the required Health skill level
+	TaskOptional=false
+]
+
+Reward_Rep=Therapist+0.040000
+Reward_Item=[
+	Roublesx29000,
+	Grizzly medical kitx2,
+	Bottle of saline solutionx2
+]
+
+Reward_EXP=6000

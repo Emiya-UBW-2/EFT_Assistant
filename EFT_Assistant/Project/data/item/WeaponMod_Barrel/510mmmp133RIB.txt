@@ -28,4 +28,5 @@ Sell_Mechanic=2251
 Sell_Jaeger=2412
 Sell_Flea Market=250000
 weight=0.850000
-fleaMarketFee=203103
+fleaMarketFee=101556
+propertiestype=ItemPropertiesBarrel

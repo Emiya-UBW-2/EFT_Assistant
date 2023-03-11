@@ -1,0 +1,47 @@
+IDstr=5ae4495c86f7744e87761355
+Name=Sew it Good - Part 2
+Trader=Ragman
+
+NeedTask=Sew it Good - Part 1
+NeedLevel=25
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+NeedItem=BNTI Gzhel-K body armorx1
+Task_NotFiR_HandOver=[BNTI Gzhel-K body armorx1]
+DogTagLv=0
+NeedItem=BNTI Gzhel-K body armorx1
+Task_NotFiR_HandOver=[BNTI Gzhel-K body armorx1]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Obtain BNTI Gzhel-K armor in 0-50% durability
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the armor
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Obtain BNTI Gzhel-K armor in 50-100% durability
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the armor
+	TaskOptional=false
+]
+
+Reward_Rep=Ragman+0.030000
+Reward_Item=[
+	ZSh-1-2M face shieldx1,
+	Maska-1SCh face shield (Olive Drab)x1,
+	Altyn face shieldx1
+]
+
+Reward_EXP=17500

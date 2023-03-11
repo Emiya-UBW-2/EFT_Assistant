@@ -1,0 +1,23 @@
+IDstr=5d6fbc2886f77449d825f9d3
+Name=Mentor
+Trader=Peacekeeper
+
+NeedTask=Wet Job - Part 4
+NeedLevel=14
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_NotFiR_HandOver=[Eurosx50000]
+DogTagLv=0
+
+[
+	TaskType=giveItem
+	TaskText=Hand over EUR
+	TaskOptional=false
+]
+
+Reward_SkillLevelUp=Sniper+3
+
+Reward_EXP=0

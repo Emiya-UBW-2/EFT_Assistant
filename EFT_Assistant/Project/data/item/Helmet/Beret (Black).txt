@@ -8,6 +8,8 @@ Conflict=[
 	Pestily plague mask,
 	Slender mask,
 	GP-7 gas mask,
+	Tagilla's welding mask "Gorilla",
+	Tagilla's welding mask "UBEY"
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -15,13 +17,14 @@ Information_Eng=Just a black beret.
 basePrice=1500
 width=1
 height=1
-avg24hPrice=14045
-low24hPrice=8000
-lastOfferCount=8
+avg24hPrice=12409
+low24hPrice=5500
+lastOfferCount=10
 Sell_Fence=600
 Sell_Skier=735
 Sell_Peacekeeper=6
 Sell_Ragman=930
 Sell_Flea Market=9000
 weight=0.100000
-fleaMarketFee=1572
+fleaMarketFee=793
+propertiestype=

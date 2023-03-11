@@ -1,0 +1,63 @@
+IDstr=625d70031ed3bb5bcc5bd9e5
+Name=Key to the Tower
+Trader=Mechanic
+
+NeedTask=Assessment - Part 3
+NeedLevel=35
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=true
+
+Task_Map=Lighthouse
+Task_FiR_HandOver=[Piece of plexiglassx2]
+DogTagLv=0
+Task_FiR_HandOver=[Insulating tapex1]
+DogTagLv=0
+Task_FiR_HandOver=[Military circuit boardx2]
+DogTagLv=0
+Task_FiR_HandOver=[Military COFDM Wireless Signal Transmitterx1]
+DogTagLv=0
+Task_FiR_HandOver=[Working LCDx1]
+DogTagLv=0
+Task_Else=èEÇ¡Çƒî[ïi:Lighthouse-Radio transmitter bodyx1
+
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid Piece of plexiglass
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid Insulating tape
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid Military circuit board
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid Military COFDM Wireless Signal Transmitter
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid Working LCD
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the Radio transmitter body on Lighthouse
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the Radio transmitter body
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.010000
+
+Reward_EXP=30500

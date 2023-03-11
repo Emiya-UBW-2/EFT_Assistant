@@ -1,0 +1,30 @@
+IDstr=6089743983426423753cd58a
+Name=Safe Corridor
+Trader=Skier
+
+NeedTask=Chemical - Part 4
+NeedLevel=11
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Reserve
+Task_Kill=[
+	Reserve-Scavsx10
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs in the underground warehouse on Reserve
+	TaskOptional=false
+]
+
+Reward_Rep=Skier+0.040000
+Reward_Item=[
+	Roublesx35000,
+	5.45x39mm BP gs ammo pack (120 pcs)x2,
+	Expeditionary fuel tankx2
+]
+
+Reward_EXP=9000

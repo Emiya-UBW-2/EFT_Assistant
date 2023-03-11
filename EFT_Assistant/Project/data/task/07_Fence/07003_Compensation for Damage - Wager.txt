@@ -1,0 +1,46 @@
+IDstr=61e6e60223374d168a4576a6
+Name=Compensation for Damage - Wager
+Trader=Fence
+
+NeedLevel=0
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+traderRequirementsName=Fence
+traderRequirementsType=reputation
+traderRequirements=<=
+traderRequirementsValue=-1
+Task_Kill=[
+	any PMC operativesx7
+]
+NeedItem=[
+	Kalashnikov AK-101 5.56x45 assault riflex0,
+	Kalashnikov AK-102 5.56x45 assault riflex0,
+	Kalashnikov AK-103 7.62x39 assault riflex0,
+	Kalashnikov AK-104 7.62x39 assault riflex0,
+	Kalashnikov AK-105 5.45x39 assault riflex0,
+	Kalashnikov AK-74 5.45x39 assault riflex0,
+	Kalashnikov AK-74M 5.45x39 assault riflex0,
+	Kalashnikov AK-74N 5.45x39 assault riflex0,
+	Kalashnikov AKM 7.62x39 assault riflex0,
+	Kalashnikov AKMN 7.62x39 assault riflex0,
+	Kalashnikov AKMS 7.62x39 assault riflex0,
+	Kalashnikov AKMSN 7.62x39 assault riflex0,
+	Kalashnikov AKS-74 5.45x39 assault riflex0,
+	Kalashnikov AKS-74N 5.45x39 assault riflex0,
+	Kalashnikov AKS-74U 5.45x39 assault riflex0,
+	Kalashnikov AKS-74UB 5.45x39 assault riflex0,
+	Kalashnikov AKS-74UN 5.45x39 assault riflex0
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives while using any AK-series assault rifle
+	TaskOptional=false
+]
+
+Reward_Rep=Fence+1.000000
+
+Reward_EXP=0

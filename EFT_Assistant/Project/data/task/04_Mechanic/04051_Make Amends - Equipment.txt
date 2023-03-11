@@ -1,0 +1,23 @@
+IDstr=6261482fa4eb80027c4f2e11
+Name=Make Amends - Equipment
+Trader=Mechanic
+
+NeedTask=Make Amends - Buyout
+NeedLevel=35
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_FiR_HandOver=[SVDS 7.62x54R sniper riflex4]
+DogTagLv=0
+
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid SVDS sniper rifles
+	TaskOptional=false
+]
+
+Reward_Rep=Lightkeeper+0.010000
+
+Reward_EXP=0

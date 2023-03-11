@@ -14,4 +14,5 @@ lastOfferCount=0
 Sell_Prapor=2500
 Sell_Therapist=3150
 weight=0.010000
-fleaMarketFee=475
+fleaMarketFee=300
+propertiestype=ItemPropertiesKey

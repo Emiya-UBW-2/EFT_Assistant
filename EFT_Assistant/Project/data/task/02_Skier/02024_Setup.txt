@@ -1,0 +1,41 @@
+IDstr=5c1234c286f77406fa13baeb
+Name=Setup
+Trader=Skier
+
+NeedTask=Bullshit
+NeedLevel=27
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Customs
+Task_Kill=[
+	Customs-any PMC operativesx15
+]
+NeedItem=[
+	MP-133 12ga pump-action shotgunx0,
+	MP-153 12ga semi-automatic shotgunx0,
+	MP-155 12ga semi-automatic shotgunx0,
+	MP-43-1C 12ga double-barrel shotgunx0
+]
+Task_Else=‘•”õ‚ª•K—v:{
+Task_Else=  Scav Vest
+Task_Else=  Ushanka ear flap hat
+Task_Else=}
+
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives while wearing the specified gear on Customs
+	TaskOptional=false
+]
+
+Reward_Rep=Skier+0.050000
+Reward_Rep=Fence+0.050000
+Reward_Item=[
+	Roublesx150000,
+	Kel-Tec RFB 7.62x51 rifle Defaultx1,
+	12/70 AP-20 armor-piercing slugx100
+]
+
+Reward_EXP=21900

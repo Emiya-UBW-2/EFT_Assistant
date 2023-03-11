@@ -1,0 +1,35 @@
+IDstr=6089736efa70fc097863b8f6
+Name=Back Door
+Trader=Mechanic
+
+NeedTask=Scout
+NeedLevel=14
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Reserve
+Task_Else=TaskType:visit
+Task_Else=Find the unpowered secret exit on Reserve
+Task_Map=Reserve
+Task_Else=脱出ステータス:[Survived]
+
+[
+	TaskType=visit
+	TaskText=Find the unpowered secret exit on Reserve
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Extract through that exit
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.020000
+Reward_Item=[
+	Eurosx1000,
+	SV-98 7.62x54R bolt-action sniper rifle Defaultx1
+]
+
+Reward_EXP=8200

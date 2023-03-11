@@ -1,0 +1,42 @@
+IDstr=5ac3467986f7741d6224abc2
+Name=Signal - Part 1
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 2
+NeedLevel=12
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Shoreline
+Task_Else=TaskType:visit
+Task_Else=Locate the first signal source on Shoreline
+Task_Else=TaskType:visit
+Task_Else=Locate the second signal source on Shoreline
+Task_Map=Shoreline
+Task_Else=脱出ステータス:[Survived,Run Through]
+
+[
+	TaskType=visit
+	TaskText=Locate the first signal source on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate the second signal source on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.020000
+Reward_Item=[
+	Roublesx10000,
+	Glock 9x19 SGM Tactical 50-round drum magazinex3
+]
+
+Reward_EXP=6700

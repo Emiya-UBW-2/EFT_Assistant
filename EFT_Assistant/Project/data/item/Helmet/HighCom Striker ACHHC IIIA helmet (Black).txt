@@ -4,6 +4,8 @@ ShortName=ACHHC
 Itemtype=Headwear
 Conflict=[
 	Faceless mask,
+	Tagilla's welding mask "Gorilla",
+	Tagilla's welding mask "UBEY"
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -11,13 +13,14 @@ Information_Eng=A combat helmet manufactured by HighCom, the High Cut version. D
 basePrice=55170
 width=2
 height=2
-avg24hPrice=68230
-low24hPrice=50000
-lastOfferCount=39
+avg24hPrice=71363
+low24hPrice=55500
+lastOfferCount=16
 Sell_Fence=22068
 Sell_Skier=27033
 Sell_Peacekeeper=216
 Sell_Ragman=34205
-Sell_Flea Market=63999
-weight=1.500000
-fleaMarketFee=5892
+Sell_Flea Market=66666
+weight=1.200000
+fleaMarketFee=3672
+propertiestype=ItemPropertiesHelmet

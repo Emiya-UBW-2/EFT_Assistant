@@ -1,0 +1,25 @@
+IDstr=60e71bb4e456d449cd47ca75
+Name=Intimidator
+Trader=Prapor
+
+NeedTask=The Punisher - Part 6
+NeedLevel=60
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Kill=[
+	Scavs{head}x40
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs with headshots
+	TaskOptional=false
+]
+
+Reward_SkillLevelUp=Aim drills+1
+Reward_SkillLevelUp=Assault Rifles+0
+
+Reward_EXP=84000

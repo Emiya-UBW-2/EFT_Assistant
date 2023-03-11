@@ -1,0 +1,48 @@
+IDstr=5d25e46e86f77409453bce7c
+Name=Ambulance
+Trader=Jaeger
+
+NeedTask=Shady Business
+NeedLevel=25
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_FiR_HandOver=[Portable defibrillatorx1]
+DogTagLv=0
+NeedItem=CMS surgical kitx2
+NeedItem=Portable defibrillatorx1
+Task_FiR_HandOver=[CMS surgical kitx2]
+DogTagLv=0
+
+[
+	TaskType=giveItem
+	TaskText=Hand over the defibrillator
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find CMS surgical kits in raid
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Portable defibrillator in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the CMS kits
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+0.020000
+Reward_Item=[
+	Roublesx35000,
+	Grizzly medical kitx3,
+	Golden Star balmx3
+]
+Reward_SkillLevelUp=Vitality+1
+
+Reward_EXP=14800

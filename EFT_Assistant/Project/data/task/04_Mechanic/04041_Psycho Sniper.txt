@@ -1,0 +1,28 @@
+IDstr=5c0be13186f7746f016734aa
+Name=Psycho Sniper
+Trader=Mechanic
+
+NeedTask=Wet Job - Part 6
+NeedLevel=35
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Else=SkillÇè„Ç∞ÇÈ:Sniper+8.000000
+
+[
+	TaskType=skill
+	TaskText=Reach the required Sniper Rifles skill level
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.030000
+Reward_Item=[
+	Roublesx150000
+]
+Reward_SkillLevelUp=Intellect+2
+Reward_SkillLevelUp=Stress Resistance+1
+Reward_SkillLevelUp=Perception+2
+
+Reward_EXP=26700

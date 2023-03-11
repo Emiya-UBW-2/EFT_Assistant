@@ -14,6 +14,11 @@ Conflict=[
 	Shemagh (Tan),
 	Slender mask,
 	GP-7 gas mask,
+	Hockey player mask "Brawler",
+	Hockey player mask "Captain",
+	Hockey player mask "Quiet",
+	Tagilla's welding mask "Gorilla",
+	Tagilla's welding mask "UBEY"
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -21,13 +26,14 @@ Information_Eng=A baseball cap, offers the most basic glare protection.
 basePrice=1021
 width=1
 height=1
-avg24hPrice=4789
-low24hPrice=900
-lastOfferCount=8
+avg24hPrice=4227
+low24hPrice=1000
+lastOfferCount=5
 Sell_Fence=408
 Sell_Skier=500
 Sell_Peacekeeper=4
 Sell_Ragman=633
-Sell_Flea Market=900
+Sell_Flea Market=7700
 weight=0.100000
-fleaMarketFee=88
+fleaMarketFee=779
+propertiestype=

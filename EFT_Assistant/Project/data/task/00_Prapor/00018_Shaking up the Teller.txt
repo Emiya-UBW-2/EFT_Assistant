@@ -1,0 +1,44 @@
+IDstr=5967725e86f774601a446662
+Name=Shaking up the Teller
+Trader=Prapor
+
+NeedTask=Ice Cream Cones
+NeedLevel=15
+NeedItem=[Dorm room 203 keyx1]
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Map=Customs
+traderRequirementsName=Prapor
+traderRequirementsType=level
+traderRequirements=>=
+traderRequirementsValue=2
+Task_Else=èEÇ¡Çƒî[ïi:Customs-Bank casex1
+Task_Else=TaskType:visit
+Task_Else=Gain access to dorm room 214
+
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the valuable item in dorm room 203 on Customs
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the valuable item
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Gain access to dorm room 214
+	TaskOptional=true
+]
+
+Reward_Rep=Prapor+0.020000
+Reward_Item=[
+	Roublesx75000,
+	Geiger-Muller counterx1
+]
+
+Reward_EXP=5900

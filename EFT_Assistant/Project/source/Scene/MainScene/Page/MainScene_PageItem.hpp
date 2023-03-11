@@ -144,6 +144,8 @@ namespace FPS_n2 {
 					}
 					if (!isHit) { continue; }
 				}
+				if (L->GetIsPreset()) { continue; }
+
 				if (L->GetTypeID() == m_ItemIDs[1].first || m_ItemIDs[1].first == InvalidID) {
 					bool ishit = false;
 					for (auto& m : L->GetMapID()) {

@@ -1,0 +1,34 @@
+IDstr=61958c366726521dd96828ec
+Name=Cargo X - Part 4
+Trader=Peacekeeper
+
+NeedTask=Cargo X - Part 3
+NeedLevel=12
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Map=Lighthouse
+Task_Map=Lighthouse
+NeedItem=MS2000 Markerx1
+Task_Map=Lighthouse
+Task_Else=脱出ステータス:[Survived]
+
+[
+	TaskType=mark
+	TaskText=Locate and mark the TerraGroup cargo with an MS2000 Marker on Lighthouse
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Peacekeeper+0.020000
+Reward_Item=[
+	Dollarsx800
+]
+
+Reward_EXP=8600

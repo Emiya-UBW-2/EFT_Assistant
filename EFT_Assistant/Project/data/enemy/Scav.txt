@@ -1,2 +1,2 @@
-Name=Scav
+Name=Scavs
 Color=[255,0,0]

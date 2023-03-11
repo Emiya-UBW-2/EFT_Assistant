@@ -1,0 +1,47 @@
+IDstr=5ae4495086f77443c122bc40
+Name=Sew it Good - Part 1
+Trader=Ragman
+
+NeedTask=Database - Part 2
+NeedLevel=25
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+NeedItem=Ski hat with holes for eyesx1
+Task_FiR_HandOver=[Ski hat with holes for eyesx1]
+DogTagLv=0
+NeedItem=Pilgrim tourist backpackx1
+Task_FiR_HandOver=[Pilgrim tourist backpackx1]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Find Ski hat with holes for eyes in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the ski hat
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Pilgrim tourist backpack in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the backpack
+	TaskOptional=false
+]
+
+Reward_Rep=Ragman+0.020000
+Reward_Item=[
+	Roublesx25000,
+	LBT-6094A Slick Plate Carrierx1,
+	Walker's XCEL 500BT Digital headsetx1
+]
+
+Reward_EXP=12300

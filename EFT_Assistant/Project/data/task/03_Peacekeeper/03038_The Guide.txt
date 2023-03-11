@@ -1,0 +1,103 @@
+IDstr=5c0d4e61d09282029f53920e
+Name=The Guide
+Trader=Peacekeeper
+
+NeedTask=Wet Job - Part 6
+NeedLevel=40
+
+CanRestart=true
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Woods
+Task_Else=脱出ステータス:[Survived]
+Task_Map=Customs
+Task_Else=脱出ステータス:[Survived]
+Task_Map=Interchange
+Task_Else=脱出ステータス:[Survived]
+Task_Map=Shoreline
+Task_Else=脱出ステータス:[Survived]
+Task_Map=Factory
+Task_Map=Night Factory
+Task_Else=脱出ステータス:[Survived]
+Task_Map=The Lab
+Task_Else=脱出ステータス:[Survived]
+Task_Map=Reserve
+Task_Else=脱出ステータス:[Survived]
+Task_Map=Lighthouse
+Task_Else=脱出ステータス:[Survived]
+Task_Map=Streets of Tarkov
+Task_Else=脱出ステータス:[Survived]
+
+[
+	TaskType=extract
+	TaskText=Survive and extract from Woods with the "Survived" exit status
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from Customs with the "Survived" exit status
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from Interchange with the "Survived" exit status
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from Shoreline with the "Survived" exit status
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from Factory with the "Survived" exit status
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from The Lab with the "Survived" exit status
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from Reserve with the "Survived" exit status
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from Lighthouse with the "Survived" exit status
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from Streets of Tarkov with the "Survived" exit status
+	TaskOptional=false
+]
+
+Reward_Rep=Peacekeeper+0.040000
+Reward_Item=[
+	Dollarsx25000,
+	EOTech HHS-1 hybrid sight (Tan)x1,
+	Ops-Core SLAAP armor helmet plate (Tan)x1,
+	AR-15 Vltor MUR-1S 5.56x45 upper receiverx3
+]
+
+Task_Map=Interchange
+Task_Map=Lighthouse
+Task_Map=Reserve
+Task_Map=Shoreline
+Task_Map=Woods
+Task_Map=Customs
+Task_Map=Factory
+Task_Map=Night Factory
+Task_Map=The Lab
+Task_Else=脱出ステータス:[Killed in Action (KIA),Left the Action,Missing in Action (MIA)]
+
+[
+	TaskType=extract
+	TaskText=You must not die or leave the raid while the task is active (Status: KIA, Left the Action, MIA, Ran Through)
+	TaskOptional=false
+]
+
+Reward_EXP=42600

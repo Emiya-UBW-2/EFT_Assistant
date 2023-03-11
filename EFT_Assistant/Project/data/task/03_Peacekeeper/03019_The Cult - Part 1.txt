@@ -1,0 +1,36 @@
+IDstr=5a27b9de86f77464e5044585
+Name=The Cult - Part 1
+Trader=Peacekeeper
+
+NeedTask=Humanitarian Supplies
+NeedTask=Eagle Eye
+NeedLevel=12
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Shoreline
+Task_Else=TaskType:visit
+Task_Else=Locate the missing informant on Shoreline
+Task_Map=Shoreline
+Task_Else=脱出ステータス:[Survived,Run Through]
+
+[
+	TaskType=visit
+	TaskText=Locate the missing informant on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Peacekeeper+0.020000
+Reward_Item=[
+	Dollarsx700,
+	Golden neck chainx3
+]
+
+Reward_EXP=6200

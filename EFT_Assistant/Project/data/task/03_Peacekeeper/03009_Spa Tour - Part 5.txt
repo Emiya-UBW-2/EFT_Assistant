@@ -1,0 +1,32 @@
+IDstr=5a0449d586f77474e66227b7
+Name=Spa Tour - Part 5
+Trader=Peacekeeper
+
+NeedTask=Spa Tour - Part 4
+NeedLevel=12
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Map=Shoreline
+Task_Else=èEÇ¡Çƒî[ïi:Shoreline-Key to the closed premises of the Health Resortx1
+
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the key to the closed premises of the Sanatorium
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the key
+	TaskOptional=false
+]
+
+Reward_Rep=Peacekeeper+0.020000
+Reward_Item=[
+	Dollarsx980,
+	RB-AO keyx1
+]
+
+Reward_EXP=6500

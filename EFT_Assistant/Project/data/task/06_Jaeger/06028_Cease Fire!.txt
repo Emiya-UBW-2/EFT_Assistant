@@ -1,0 +1,33 @@
+IDstr=639136e84ed9512be67647db
+Name=Cease Fire!
+Trader=Jaeger
+
+NeedTask=The Delicious Sausage
+NeedLevel=10
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+Task_Map=Streets of Tarkov
+Task_Else=脱出ステータス:[Survived]
+Task_Else=脱出地点:Klimov Street
+
+[
+	TaskType=extract
+	TaskText=Survive and extract from Streets of Tarkov through Klimov Street
+	TaskOptional=false
+]
+
+Reward_Item=[
+	RSP-30 reactive signal cartridge (Green)x2
+]
+Reward_Rep=Jaeger+0.020000
+Reward_Item=[
+	ZiD SP-81 26x75 signal pistolx1,
+	26x75mm flare cartridge (Green)x3,
+	Roublesx27000
+]
+
+Reward_EXP=5600

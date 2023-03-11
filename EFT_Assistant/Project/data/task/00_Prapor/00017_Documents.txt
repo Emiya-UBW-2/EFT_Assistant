@@ -1,0 +1,57 @@
+IDstr=60896b7bfa70fc097863b8f5
+Name=Documents
+Trader=Prapor
+
+NeedTask=Ice Cream Cones
+NeedTask=No Place for Renegades
+NeedLevel=12
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Reserve
+Task_Else=èEÇ¡Çƒî[ïi:Reserve-Military documents #1x1
+Task_Else=èEÇ¡Çƒî[ïi:Reserve-Military documents #2x1
+Task_Else=èEÇ¡Çƒî[ïi:Reserve-Military documents #3x1
+
+[
+	TaskType=findQuestItem
+	TaskText=Obtain Military documents #1 in the command bunker offices on Reserve
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Obtain Military documents #2 in the command bunker offices on Reserve
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Obtain Military documents #3 in the command bunker offices on Reserve
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the first documents
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the second documents
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the third documents
+	TaskOptional=false
+]
+
+Reward_Rep=Prapor+0.040000
+Reward_Item=[
+	Roublesx45000,
+	NSPU-M night vision scopex1,
+	Zenit Klesch-2P flashlight with laserx1,
+	AKM PBS-1 7.62x39 sound suppressorx1
+]
+
+Reward_EXP=7800

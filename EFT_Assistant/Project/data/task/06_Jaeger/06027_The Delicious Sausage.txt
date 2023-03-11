@@ -1,0 +1,58 @@
+IDstr=63a88045abf76d719f42d715
+Name=The Delicious Sausage
+Trader=Jaeger
+
+NeedTask=The Survivalist Path - Thrifty
+NeedLevel=5
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+Task_Else=TaskType:visit
+Task_Else=Scout the Shestyorochka store at Nikitskaya street
+Task_Else=TaskType:visit
+Task_Else=Scout the Sparja store at Primorsky ave
+Task_Else=TaskType:visit
+Task_Else=Scout the Sparja store in Pinewood hotel
+Task_Else=TaskType:visit
+Task_Else=Scout the Goshan store in Concordia
+Task_FiR_HandOver=[Salty Dog beef sausagex1]
+DogTagLv=0
+
+[
+	TaskType=visit
+	TaskText=Scout the Shestyorochka store at Nikitskaya street
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Scout the Sparja store at Primorsky ave
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Scout the Sparja store in Pinewood hotel
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Scout the Goshan store in Concordia
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid Salty Dog beef sausage
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+0.010000
+Reward_Item=[
+	Roublesx10000,
+	Boltsx2,
+	Screw nutsx2,
+	Corrugated hosex1
+]
+
+Reward_EXP=2600

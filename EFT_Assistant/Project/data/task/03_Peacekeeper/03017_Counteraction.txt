@@ -1,0 +1,38 @@
+IDstr=6179b5eabca27a099552e052
+Name=Counteraction
+Trader=Peacekeeper
+
+NeedTask=Spa Tour - Part 3
+NeedLevel=12
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Lighthouse
+Task_Kill=[
+	Lighthouse-BEAR operativesx20
+]
+Task_FiR_HandOver=[Dogtag BEARx20]
+DogTagLv=0
+
+[
+	TaskType=shoot
+	TaskText=Eliminate BEAR PMC operatives all over the Lighthouse territory
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid BEAR PMC dogtags
+	TaskOptional=false
+]
+
+Reward_Rep=Peacekeeper+0.030000
+Reward_Item=[
+	Dollarsx2300,
+	Intelligence folderx1,
+	SSD drivex1,
+	Topographic survey mapsx1
+]
+
+Reward_EXP=22000

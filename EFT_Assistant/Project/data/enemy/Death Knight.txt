@@ -1,0 +1,2 @@
+Name=Death Knight
+Color=[255,255,0]

@@ -1,0 +1,37 @@
+IDstr=5ae327c886f7745c7b3f2f3f
+Name=Gunsmith - Part 10
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 9
+NeedLevel=20
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+NeedItem=Kalashnikov AK-105 5.45x39 assault riflex1
+ContainsCategory=Silencer
+Task_Else=accuracy >= 0
+Task_Else=durability >= 60
+Task_Else=effectiveDistance >= 800
+Task_Else=ergonomics >= 38
+Task_Else=height >= 2
+Task_Else=magazineCapacity >= 60
+Task_Else=muzzleVelocity >= 0
+Task_Else=recoil <= 500
+Task_Else=weight <= 4
+Task_Else=width >= 4
+
+[
+	TaskType=buildWeapon
+	TaskText=Modify an AK-105 to comply with the given specifications
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+0.020000
+Reward_Item=[
+	Bundle of wiresx5,
+	Metal spare partsx2
+]
+
+Reward_EXP=10400

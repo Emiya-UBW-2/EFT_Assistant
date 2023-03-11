@@ -1,0 +1,30 @@
+IDstr=60e71d23c1bfa3050473b8e6
+Name=Calibration
+Trader=Mechanic
+
+NeedTask=Chemistry Closet
+NeedLevel=47
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Kill=[
+	any PMC operativesx20
+]
+Task_Else=‹——£: >= 100m
+
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives from over 100 meters away
+	TaskOptional=false
+]
+
+Reward_Item=[
+	Can of thermitex5,
+	Magazine casex1,
+	Kiba Arms armbandx1
+]
+Reward_SkillLevelUp=Perception+1
+
+Reward_EXP=93000

@@ -1,0 +1,85 @@
+IDstr=60e71ce009d7c801eb0c0ec6
+Name=Special Equipment
+Trader=Peacekeeper
+
+NeedTask=Trophies
+NeedLevel=60
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+NeedItem=VPX Flash Storage Modulex5
+NeedItem=UHF RFID Readerx5
+NeedItem=Virtex programmable processorx5
+NeedItem=Military COFDM Wireless Signal Transmitterx5
+NeedItem=Military flash drivex4
+Task_FiR_HandOver=[VPX Flash Storage Modulex5]
+DogTagLv=0
+Task_FiR_HandOver=[UHF RFID Readerx5]
+DogTagLv=0
+Task_FiR_HandOver=[Virtex programmable processorx5]
+DogTagLv=0
+Task_FiR_HandOver=[Military COFDM Wireless Signal Transmitterx5]
+DogTagLv=0
+Task_FiR_HandOver=[Military flash drivex4]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Find VPX Flash Storage Modules in raid
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find UHF RFID Readers in raid
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Virtex programmable processors in raid
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Military COFDM Wireless Signal Transmitters in raid
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Military flash drives in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the flash storage modules
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the RFID readers
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the programmable processors
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the signal transmitters
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the flash drives
+	TaskOptional=false
+]
+
+Reward_Item=[
+	TerraGroup Labs access keycardx7,
+	Iridium military thermal vision modulex4,
+	Weapon casex1
+]
+
+Reward_EXP=177000

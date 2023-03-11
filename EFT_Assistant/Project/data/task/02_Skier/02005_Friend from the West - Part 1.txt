@@ -1,0 +1,43 @@
+IDstr=5a27c99a86f7747d2c6bdd8e
+Name=Friend from the West - Part 1
+Trader=Skier
+
+NeedTask=Supplier
+NeedLevel=9
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Kill=[
+	USEC operativesx7
+]
+NeedItem=Dogtag USECx7
+Task_NotFiR_HandOver=[Dogtag USECx7]
+DogTagLv=0
+
+[
+	TaskType=shoot
+	TaskText=Eliminate USEC PMC operatives
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Obtain USEC PMC dogtags
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the dogtags
+	TaskOptional=false
+]
+
+Reward_Rep=Skier+0.060000
+Reward_Item=[
+	Dollarsx700,
+	ADAR 2-15 5.56x45 carbine Defaultx2,
+	Roler Submariner gold wrist watchx1,
+	5.56x45mm M855A1x60
+]
+
+Reward_EXP=7400

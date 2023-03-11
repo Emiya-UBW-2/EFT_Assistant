@@ -1,0 +1,34 @@
+IDstr=63a511ea30d85e10e375b045
+Name=Broadcast - Part 3
+Trader=Jaeger
+
+NeedTask=Broadcast - Part 2
+NeedLevel=20
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+Task_Else=TaskType:visit
+Task_Else=Locate the place of bloody broadcast inside the old house on Streets of Tarkov
+Task_Map=Streets of Tarkov
+Task_Else=脱出ステータス:[Survived]
+
+[
+	TaskType=visit
+	TaskText=Locate the place of bloody broadcast inside the old house on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+0.020000
+Reward_Item=[
+	Roublesx68000
+]
+
+Reward_EXP=10800

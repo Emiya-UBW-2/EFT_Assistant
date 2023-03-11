@@ -1,0 +1,30 @@
+IDstr=59ca1a6286f774509a270942
+Name=No Offence
+Trader=Prapor
+
+NeedTask=Big Customer
+NeedLevel=11
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+NeedItem=M67 hand grenadex10
+Task_NotFiR_HandOver=[M67 hand grenadex10]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Obtain M67 hand grenades
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the grenades
+	TaskOptional=false
+]
+
+Reward_Rep=Prapor+0.250000
+
+Reward_Rep=Prapor-0.250000
+Reward_EXP=0
