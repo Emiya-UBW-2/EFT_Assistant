@@ -1,0 +1,8 @@
+{"query" : "{
+ items(name:\"Physical bitcoin\"){
+   sellFor{
+    vendor{name}
+    price
+   }
+ }
+}"}
