@@ -7,7 +7,7 @@ Conflict=[
 	Ghoul mask,
 	GP-7 gas mask,
 	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY"
+	Tagilla's welding mask "UBEY",
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -15,14 +15,14 @@ Information_Eng=A regular army cap, colored in flora camouflage.
 basePrice=1353
 width=1
 height=1
-avg24hPrice=4997
-low24hPrice=1236
-lastOfferCount=5
+avg24hPrice=9296
+low24hPrice=2000
+lastOfferCount=3
 Sell_Fence=541
 Sell_Skier=662
 Sell_Peacekeeper=5
 Sell_Ragman=838
-Sell_Flea Market=2222
+Sell_Flea Market=2225
 weight=0.100000
 fleaMarketFee=117
 propertiestype=

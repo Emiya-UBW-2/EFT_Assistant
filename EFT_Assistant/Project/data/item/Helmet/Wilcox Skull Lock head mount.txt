@@ -8,7 +8,7 @@ Conflict=[
 	GP-5 gas mask,
 	Pestily plague mask,
 	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY"
+	Tagilla's welding mask "UBEY",
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -16,14 +16,14 @@ Information_Eng=Scull Lock Head Mount-Lite is a lightweight, low profile fixing 
 basePrice=19724
 width=2
 height=2
-avg24hPrice=14153
-low24hPrice=5555
-lastOfferCount=40
+avg24hPrice=14394
+low24hPrice=11666
+lastOfferCount=22
 Sell_Fence=7889
 Sell_Skier=9664
 Sell_Peacekeeper=77
 Sell_Ragman=12228
-Sell_Flea Market=12999
+Sell_Flea Market=12222
 weight=0.500000
-fleaMarketFee=1040
+fleaMarketFee=1038
 propertiestype=

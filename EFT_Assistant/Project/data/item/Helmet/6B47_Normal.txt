@@ -5,7 +5,7 @@ Itemtype=Headwear
 Conflict=[
 	Faceless mask,
 	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY"
+	Tagilla's welding mask "UBEY",
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -15,12 +15,12 @@ width=2
 height=2
 avg24hPrice=34939
 low24hPrice=32000
-lastOfferCount=4
+lastOfferCount=9
 Sell_Fence=12233
 Sell_Skier=14985
-Sell_Peacekeeper=120
+Sell_Peacekeeper=119
 Sell_Ragman=18961
-Sell_Flea Market=33899
+Sell_Flea Market=33000
 weight=1.300000
-fleaMarketFee=1930
+fleaMarketFee=1902
 propertiestype=ItemPropertiesHelmet

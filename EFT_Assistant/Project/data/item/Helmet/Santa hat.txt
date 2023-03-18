@@ -7,7 +7,7 @@ Conflict=[
 	Ghoul mask,
 	Pestily plague mask,
 	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY"
+	Tagilla's welding mask "UBEY",
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -15,14 +15,14 @@ Information_Eng=Santa's hat. Often gets confused with the Ded Moroz hat. Ded Mor
 basePrice=500
 width=1
 height=1
-avg24hPrice=65000
+avg24hPrice=229420
 low24hPrice=100000
 lastOfferCount=1
 Sell_Fence=200
 Sell_Skier=245
 Sell_Peacekeeper=2
 Sell_Ragman=310
-Sell_Flea Market=100000
+Sell_Flea Market=229420
 weight=0.100000
-fleaMarketFee=90780
+fleaMarketFee=372201
 propertiestype=

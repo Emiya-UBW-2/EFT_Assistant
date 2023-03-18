@@ -18,7 +18,7 @@ Conflict=[
 	Hockey player mask "Captain",
 	Hockey player mask "Quiet",
 	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY"
+	Tagilla's welding mask "UBEY",
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -26,14 +26,14 @@ Information_Eng=A cap of Emergency Committee (EMERCOM of Russian Federation), us
 basePrice=1445
 width=1
 height=1
-avg24hPrice=9064
-low24hPrice=1900
-lastOfferCount=9
+avg24hPrice=7050
+low24hPrice=228
+lastOfferCount=18
 Sell_Fence=578
 Sell_Skier=708
 Sell_Peacekeeper=6
 Sell_Ragman=895
-Sell_Flea Market=1900
+Sell_Flea Market=4000
 weight=0.100000
-fleaMarketFee=102
+fleaMarketFee=237
 propertiestype=

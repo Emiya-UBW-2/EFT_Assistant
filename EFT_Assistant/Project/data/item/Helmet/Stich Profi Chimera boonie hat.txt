@@ -6,7 +6,7 @@ Conflict=[
 	Faceless mask,
 	Ghoul mask,
 	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY"
+	Tagilla's welding mask "UBEY",
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -14,14 +14,14 @@ Information_Eng=A boonie hat with artificial camouflage leaves, manufactured by 
 basePrice=3170
 width=2
 height=2
-avg24hPrice=7071
-low24hPrice=2000
-lastOfferCount=6
+avg24hPrice=12993
+low24hPrice=3450
+lastOfferCount=12
 Sell_Fence=1268
 Sell_Skier=1553
 Sell_Peacekeeper=12
 Sell_Ragman=1965
-Sell_Flea Market=5000
+Sell_Flea Market=5999
 weight=0.150000
-fleaMarketFee=263
+fleaMarketFee=319
 propertiestype=

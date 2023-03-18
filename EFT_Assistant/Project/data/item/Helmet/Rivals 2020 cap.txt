@@ -8,7 +8,7 @@ Conflict=[
 	Pestily plague mask,
 	Slender mask,
 	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY"
+	Tagilla's welding mask "UBEY",
 ]
 Recoil=0.000000
 Ergonomics=0.000000

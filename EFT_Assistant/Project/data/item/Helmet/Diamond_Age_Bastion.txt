@@ -5,7 +5,7 @@ Itemtype=Headwear
 Conflict=[
 	Faceless mask,
 	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY"
+	Tagilla's welding mask "UBEY",
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -13,14 +13,14 @@ Information_Eng=According to the manufacturer - the Bastion helmet is the first 
 basePrice=101000
 width=2
 height=2
-avg24hPrice=70479
-low24hPrice=60000
+avg24hPrice=70229
+low24hPrice=58000
 lastOfferCount=32
 Sell_Fence=40400
 Sell_Skier=49490
-Sell_Peacekeeper=395
+Sell_Peacekeeper=392
 Sell_Ragman=62620
-Sell_Flea Market=65000
+Sell_Flea Market=75000
 weight=0.960000
-fleaMarketFee=5319
+fleaMarketFee=5409
 propertiestype=ItemPropertiesHelmet

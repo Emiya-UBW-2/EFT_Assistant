@@ -6,7 +6,7 @@ Conflict=[
 	Faceless mask,
 	GP-7 gas mask,
 	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY"
+	Tagilla's welding mask "UBEY",
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -14,14 +14,14 @@ Information_Eng=The MSA TC 800 ballistic helmet, designed for use by tactical te
 basePrice=58000
 width=2
 height=2
-avg24hPrice=89283
-low24hPrice=64123
-lastOfferCount=6
+avg24hPrice=71354
+low24hPrice=49999
+lastOfferCount=8
 Sell_Fence=23200
 Sell_Skier=28420
-Sell_Peacekeeper=227
+Sell_Peacekeeper=225
 Sell_Ragman=35960
-Sell_Flea Market=75999
+Sell_Flea Market=70000
 weight=1.170000
-fleaMarketFee=4094
+fleaMarketFee=3858
 propertiestype=ItemPropertiesHelmet

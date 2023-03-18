@@ -18,7 +18,7 @@ Conflict=[
 	Hockey player mask "Captain",
 	Hockey player mask "Quiet",
 	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY"
+	Tagilla's welding mask "UBEY",
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -26,8 +26,8 @@ Information_Eng=A tactical BEAR PMC baseball cap. Green version.
 basePrice=1726
 width=1
 height=1
-avg24hPrice=1915
-low24hPrice=1915
+avg24hPrice=6714
+low24hPrice=1900
 lastOfferCount=1
 Sell_Fence=690
 Sell_Skier=845

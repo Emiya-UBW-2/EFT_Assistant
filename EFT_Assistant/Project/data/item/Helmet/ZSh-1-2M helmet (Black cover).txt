@@ -5,7 +5,7 @@ Itemtype=Headwear
 Conflict=[
 	Faceless mask,
 	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY"
+	Tagilla's welding mask "UBEY",
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -13,14 +13,14 @@ Information_Eng=The ZSh-1-2M helmet consists of a durable alloy covered from the
 basePrice=53759
 width=2
 height=2
-avg24hPrice=37892
-low24hPrice=33000
-lastOfferCount=10
+avg24hPrice=37950
+low24hPrice=33300
+lastOfferCount=8
 Sell_Fence=21503
 Sell_Skier=26341
-Sell_Peacekeeper=210
+Sell_Peacekeeper=209
 Sell_Ragman=33330
-Sell_Flea Market=34444
+Sell_Flea Market=33300
 weight=3.700000
-fleaMarketFee=2830
+fleaMarketFee=2829
 propertiestype=ItemPropertiesHelmet

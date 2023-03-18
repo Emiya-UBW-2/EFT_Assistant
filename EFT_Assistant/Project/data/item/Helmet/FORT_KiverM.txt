@@ -6,7 +6,7 @@ Conflict=[
 	Faceless mask,
 	GP-7 gas mask,
 	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY"
+	Tagilla's welding mask "UBEY",
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -14,14 +14,14 @@ Information_Eng=The FORT Kiver-M bulletproof helmets are designed for use by off
 basePrice=31124
 width=2
 height=2
-avg24hPrice=23708
-low24hPrice=17500
-lastOfferCount=9
+avg24hPrice=28065
+low24hPrice=17999
+lastOfferCount=12
 Sell_Fence=12449
 Sell_Skier=15250
-Sell_Peacekeeper=122
+Sell_Peacekeeper=121
 Sell_Ragman=19296
-Sell_Flea Market=27899
+Sell_Flea Market=27999
 weight=1.200000
-fleaMarketFee=1767
+fleaMarketFee=1770
 propertiestype=ItemPropertiesHelmet

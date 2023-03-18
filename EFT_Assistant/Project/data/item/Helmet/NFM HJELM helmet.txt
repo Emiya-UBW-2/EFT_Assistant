@@ -4,7 +4,7 @@ ShortName=HJELM
 Itemtype=Headwear
 Conflict=[
 	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY"
+	Tagilla's welding mask "UBEY",
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -12,14 +12,14 @@ Information_Eng=The new-gen HJELM system applies new ideas for modularity of att
 basePrice=72000
 width=2
 height=2
-avg24hPrice=47789
-low24hPrice=41777
-lastOfferCount=20
+avg24hPrice=46506
+low24hPrice=42212
+lastOfferCount=25
 Sell_Fence=28800
 Sell_Skier=35280
-Sell_Peacekeeper=282
+Sell_Peacekeeper=279
 Sell_Ragman=44640
-Sell_Flea Market=44000
+Sell_Flea Market=45000
 weight=0.800000
 fleaMarketFee=3789
 propertiestype=ItemPropertiesHelmet

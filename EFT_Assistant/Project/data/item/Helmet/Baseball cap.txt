@@ -18,7 +18,7 @@ Conflict=[
 	Hockey player mask "Captain",
 	Hockey player mask "Quiet",
 	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY"
+	Tagilla's welding mask "UBEY",
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -26,14 +26,14 @@ Information_Eng=A baseball cap, offers the most basic glare protection.
 basePrice=1021
 width=1
 height=1
-avg24hPrice=4227
-low24hPrice=1000
-lastOfferCount=5
+avg24hPrice=6140
+low24hPrice=2999
+lastOfferCount=4
 Sell_Fence=408
 Sell_Skier=500
 Sell_Peacekeeper=4
 Sell_Ragman=633
-Sell_Flea Market=7700
+Sell_Flea Market=3999
 weight=0.100000
-fleaMarketFee=779
+fleaMarketFee=277
 propertiestype=

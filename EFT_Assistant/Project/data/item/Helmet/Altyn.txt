@@ -6,7 +6,7 @@ Conflict=[
 	Faceless mask,
 	GP-5 gas mask,
 	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY"
+	Tagilla's welding mask "UBEY",
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -19,7 +19,7 @@ low24hPrice=0
 lastOfferCount=0
 Sell_Fence=64130
 Sell_Skier=78560
-Sell_Peacekeeper=627
+Sell_Peacekeeper=622
 Sell_Ragman=99402
 weight=4.000000
 fleaMarketFee=0

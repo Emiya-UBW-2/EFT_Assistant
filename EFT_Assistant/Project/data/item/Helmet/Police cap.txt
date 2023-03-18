@@ -18,7 +18,7 @@ Conflict=[
 	Hockey player mask "Captain",
 	Hockey player mask "Quiet",
 	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY"
+	Tagilla's welding mask "UBEY",
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -26,14 +26,14 @@ Information_Eng=A Tarkov police cap, ususally worn by patrol units.
 basePrice=1505
 width=1
 height=1
-avg24hPrice=5937
-low24hPrice=3000
-lastOfferCount=10
+avg24hPrice=8386
+low24hPrice=2500
+lastOfferCount=8
 Sell_Fence=602
 Sell_Skier=737
 Sell_Peacekeeper=6
 Sell_Ragman=933
-Sell_Flea Market=3000
+Sell_Flea Market=2500
 weight=0.100000
-fleaMarketFee=161
+fleaMarketFee=132
 propertiestype=

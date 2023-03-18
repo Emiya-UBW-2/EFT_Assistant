@@ -5,7 +5,7 @@ Itemtype=Headwear
 Conflict=[
 	Faceless mask,
 	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY"
+	Tagilla's welding mask "UBEY",
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -13,14 +13,14 @@ Information_Eng=A lower protection class replica of the Ops-Core FAST MT Super H
 basePrice=15100
 width=2
 height=2
-avg24hPrice=17224
+avg24hPrice=18423
 low24hPrice=12000
-lastOfferCount=28
+lastOfferCount=22
 Sell_Fence=6040
 Sell_Skier=7399
 Sell_Peacekeeper=59
 Sell_Ragman=9362
-Sell_Flea Market=15000
+Sell_Flea Market=18000
 weight=0.450000
-fleaMarketFee=902
+fleaMarketFee=996
 propertiestype=ItemPropertiesHelmet

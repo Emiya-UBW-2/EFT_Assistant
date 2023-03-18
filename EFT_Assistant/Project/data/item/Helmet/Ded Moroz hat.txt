@@ -6,7 +6,7 @@ Conflict=[
 	Ghoul mask,
 	Pestily plague mask,
 	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY"
+	Tagilla's welding mask "UBEY",
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -14,14 +14,14 @@ Information_Eng=A headpiece of the famous Ded Moroz ("Grandfather Frost"). A tra
 basePrice=500
 width=1
 height=1
-avg24hPrice=41111
-low24hPrice=39669
-lastOfferCount=2
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
 Sell_Fence=200
 Sell_Skier=245
 Sell_Peacekeeper=2
 Sell_Ragman=310
-Sell_Flea Market=41111
+Sell_Flea Market=75000
 weight=0.100000
-fleaMarketFee=20209
+fleaMarketFee=55771
 propertiestype=

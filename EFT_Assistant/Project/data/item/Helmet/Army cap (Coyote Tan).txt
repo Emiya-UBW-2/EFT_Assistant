@@ -7,7 +7,7 @@ Conflict=[
 	Ghoul mask,
 	GP-7 gas mask,
 	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY"
+	Tagilla's welding mask "UBEY",
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -15,14 +15,14 @@ Information_Eng=A regular army cap, colored in coyote tan.
 basePrice=1353
 width=1
 height=1
-avg24hPrice=4999
-low24hPrice=4999
-lastOfferCount=1
+avg24hPrice=8454
+low24hPrice=6500
+lastOfferCount=3
 Sell_Fence=541
 Sell_Skier=662
 Sell_Peacekeeper=5
 Sell_Ragman=838
-Sell_Flea Market=4999
+Sell_Flea Market=7777
 weight=0.100000
-fleaMarketFee=337
+fleaMarketFee=668
 propertiestype=

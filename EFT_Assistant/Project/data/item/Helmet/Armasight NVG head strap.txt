@@ -8,7 +8,7 @@ Conflict=[
 	Pestily plague mask,
 	GP-7 gas mask,
 	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY"
+	Tagilla's welding mask "UBEY",
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -16,14 +16,14 @@ Information_Eng=A standard head strap mounting system for various Armasight devi
 basePrice=19100
 width=2
 height=2
-avg24hPrice=42325
-low24hPrice=22000
-lastOfferCount=12
+avg24hPrice=34776
+low24hPrice=23696
+lastOfferCount=33
 Sell_Fence=7640
 Sell_Skier=9359
-Sell_Peacekeeper=75
+Sell_Peacekeeper=74
 Sell_Ragman=11842
-Sell_Flea Market=31000
+Sell_Flea Market=23696
 weight=0.400000
-fleaMarketFee=1631
+fleaMarketFee=1295
 propertiestype=

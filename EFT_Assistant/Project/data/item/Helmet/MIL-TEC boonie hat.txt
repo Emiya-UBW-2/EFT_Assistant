@@ -10,7 +10,7 @@ Conflict=[
 	Slender mask,
 	GP-7 gas mask,
 	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY"
+	Tagilla's welding mask "UBEY",
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -18,14 +18,14 @@ Information_Eng=MIL-TEC-produced boonie hat, which can be used for protection fr
 basePrice=2170
 width=2
 height=2
-avg24hPrice=5254
-low24hPrice=1888
-lastOfferCount=3
+avg24hPrice=5624
+low24hPrice=1995
+lastOfferCount=4
 Sell_Fence=868
 Sell_Skier=1063
 Sell_Peacekeeper=8
 Sell_Ragman=1345
-Sell_Flea Market=3888
+Sell_Flea Market=2333
 weight=0.100000
-fleaMarketFee=206
+fleaMarketFee=135
 propertiestype=

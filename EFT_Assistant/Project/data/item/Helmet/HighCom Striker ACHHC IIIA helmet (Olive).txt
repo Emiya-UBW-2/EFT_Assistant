@@ -5,7 +5,7 @@ Itemtype=Headwear
 Conflict=[
 	Faceless mask,
 	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY"
+	Tagilla's welding mask "UBEY",
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -13,14 +13,14 @@ Information_Eng=A combat helmet manufactured by HighCom, the High Cut version. D
 basePrice=52577
 width=2
 height=2
-avg24hPrice=64499
-low24hPrice=57000
-lastOfferCount=15
+avg24hPrice=55209
+low24hPrice=44999
+lastOfferCount=23
 Sell_Fence=21030
 Sell_Skier=25762
-Sell_Peacekeeper=206
+Sell_Peacekeeper=204
 Sell_Ragman=32597
-Sell_Flea Market=64000
+Sell_Flea Market=58999
 weight=1.200000
-fleaMarketFee=3517
+fleaMarketFee=3341
 propertiestype=ItemPropertiesHelmet

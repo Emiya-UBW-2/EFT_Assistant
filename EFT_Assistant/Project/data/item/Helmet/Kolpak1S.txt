@@ -6,7 +6,7 @@ Conflict=[
 	Faceless mask,
 	GP-5 gas mask,
 	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY"
+	Tagilla's welding mask "UBEY",
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -14,14 +14,14 @@ Information_Eng=Kolpak-1S protects the head from the cold piercing-cutting weapo
 basePrice=7330
 width=2
 height=2
-avg24hPrice=9042
-low24hPrice=4900
-lastOfferCount=7
+avg24hPrice=21111
+low24hPrice=7500
+lastOfferCount=6
 Sell_Fence=2932
 Sell_Skier=3591
-Sell_Peacekeeper=29
+Sell_Peacekeeper=28
 Sell_Ragman=4544
-Sell_Flea Market=4900
+Sell_Flea Market=15000
 weight=1.900000
-fleaMarketFee=387
+fleaMarketFee=809
 propertiestype=ItemPropertiesHelmet

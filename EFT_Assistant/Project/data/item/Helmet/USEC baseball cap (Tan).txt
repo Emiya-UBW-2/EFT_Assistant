@@ -18,7 +18,7 @@ Conflict=[
 	Hockey player mask "Captain",
 	Hockey player mask "Quiet",
 	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY"
+	Tagilla's welding mask "UBEY",
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -26,14 +26,14 @@ Information_Eng=A tactical USEC PMC baseball cap. Tan version.
 basePrice=1642
 width=1
 height=1
-avg24hPrice=1800
-low24hPrice=1800
+avg24hPrice=1820
+low24hPrice=1820
 lastOfferCount=1
 Sell_Fence=656
 Sell_Skier=804
 Sell_Peacekeeper=6
 Sell_Ragman=1018
-Sell_Flea Market=1800
+Sell_Flea Market=1820
 weight=0.100000
-fleaMarketFee=103
+fleaMarketFee=104
 propertiestype=
