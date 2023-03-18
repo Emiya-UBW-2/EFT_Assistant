@@ -3,7 +3,7 @@ Name=Intimidator
 Trader=Prapor
 
 NeedTask=The Punisher - Part 6
-NeedLevel=60
+NeedLevel=45
 
 CanRestart=false
 NeedKappa=true

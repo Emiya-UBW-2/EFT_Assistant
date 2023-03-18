@@ -14,7 +14,7 @@ traderRequirementsType=level
 traderRequirements=>=
 traderRequirementsValue=4
 Task_Kill=[
-	Woods-Shturmanx25
+	Woods-Shturmanx20
 ]
 
 [

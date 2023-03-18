@@ -55,4 +55,4 @@ Reward_Item=[
 	Mystery Ranch Blackjack 50 backpack (Multicam)x1
 ]
 
-Reward_EXP=0
+Reward_EXP=34800

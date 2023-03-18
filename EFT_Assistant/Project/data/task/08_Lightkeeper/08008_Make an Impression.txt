@@ -9,11 +9,11 @@ CanRestart=false
 NeedKappa=false
 NeedLightkeeper=false
 
-Task_Else=Skill‚ðã‚°‚é:Sniper+10.000000
+Task_Else=Skill‚ðã‚°‚é:Sniper Rifles+10.000000
 Task_Kill=[
 	Sniperx10
 ]
-Task_Else=‹——£: >= 500m
+Task_Else=‹——£: >= 350m
 
 [
 	TaskType=skill
@@ -22,7 +22,7 @@ Task_Else=‹——£: >= 500m
 ]
 [
 	TaskType=shoot
-	TaskText=Eliminate Sniper Scavs from over 500 meters away
+	TaskText=Eliminate Sniper Scavs from over 350 meters away
 	TaskOptional=false
 ]
 

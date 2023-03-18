@@ -24,11 +24,11 @@ Task_Else=‹——£: >= 100m
 Task_Kill=[
 	Customs-any PMC operatives{head}x3
 ]
-Task_Else=‹——£: >= 125m
+Task_Else=‹——£: >= 100m
 Task_Kill=[
 	Lighthouse-any PMC operatives{head}x3
 ]
-Task_Else=‹——£: >= 125m
+Task_Else=‹——£: >= 100m
 Task_Kill=[
 	Streets of Tarkov-any PMC operatives{head}x3
 ]
@@ -72,6 +72,6 @@ Reward_Item=[
 	7.62x54mm R SNB gzhx50,
 	Mosin 7.62x54R bolt-action rifle (Sniper) ATACR 7-35x56x1
 ]
-Reward_SkillLevelUp=Sniper+1
+Reward_SkillLevelUp=Sniper Rifles+1
 
 Reward_EXP=11600

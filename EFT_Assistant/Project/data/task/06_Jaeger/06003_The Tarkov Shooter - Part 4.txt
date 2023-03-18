@@ -9,7 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
-Task_Else=Skill‚ğã‚°‚é:Sniper+3.000000
+Task_Else=Skill‚ğã‚°‚é:Sniper Rifles+3.000000
 
 [
 	TaskType=skill

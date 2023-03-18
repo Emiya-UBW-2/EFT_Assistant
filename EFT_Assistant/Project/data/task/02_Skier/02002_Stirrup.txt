@@ -2,7 +2,7 @@ IDstr=596b455186f77457cb50eccb
 Name=Stirrup
 Trader=Skier
 
-NeedTask=The Extortionist
+NeedTask=Supplier
 NeedLevel=8
 
 CanRestart=false

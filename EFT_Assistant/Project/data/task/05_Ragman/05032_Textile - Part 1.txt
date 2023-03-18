@@ -58,4 +58,4 @@ Reward_Item=[
 	Roublesx100000
 ]
 
-Reward_EXP=0
+Reward_EXP=32000

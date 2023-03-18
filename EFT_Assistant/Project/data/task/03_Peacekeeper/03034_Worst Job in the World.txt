@@ -11,7 +11,7 @@ NeedKappa=false
 NeedLightkeeper=false
 
 Task_Kill=[
-	Scavsx30
+	any targetx30
 ]
 NeedItem=[
 	Colt M4A1 5.56x45 assault riflex0,
@@ -22,7 +22,7 @@ Task_Else=‹——£: >= 100m
 
 [
 	TaskType=shoot
-	TaskText=Eliminate Scavs from over 100 meters away while using AR-15 platform weapons
+	TaskText=Eliminate any hostile from over 100 meters away while using AR-15 platform weapons
 	TaskOptional=false
 ]
 

@@ -11,7 +11,7 @@ NeedKappa=false
 NeedLightkeeper=false
 
 Task_Kill=[
-	Scavsx30
+	any targetx30
 ]
 NeedItem=[
 	Kalashnikov AK-74 5.45x39 assault riflex0,
@@ -25,7 +25,7 @@ Task_Else=‹——£: >= 100m
 
 [
 	TaskType=shoot
-	TaskText=Eliminate Scavs from over 100 meters away while using an AK-74 series assault rifles
+	TaskText=Eliminate any hostile from over 100 meters away while using an AK-74 series assault rifles
 	TaskOptional=false
 ]
 

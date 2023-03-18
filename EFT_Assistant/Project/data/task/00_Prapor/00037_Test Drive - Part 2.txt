@@ -39,4 +39,4 @@ Reward_Item=[
 	Golden neck chainx3
 ]
 
-Reward_EXP=20000
+Reward_EXP=28000

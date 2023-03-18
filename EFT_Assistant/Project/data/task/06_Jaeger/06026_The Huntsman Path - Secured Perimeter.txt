@@ -31,4 +31,4 @@ Reward_Item=[
 	Corrugated hosex2
 ]
 
-Reward_EXP=5900
+Reward_EXP=9800

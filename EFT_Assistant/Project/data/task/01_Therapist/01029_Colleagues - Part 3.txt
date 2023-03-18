@@ -11,11 +11,8 @@ NeedLightkeeper=false
 
 Task_Else=該当タスクColleagues - Part 3
 Task_Else=該当タスク状態:active
-NeedItem=TerraGroup Labs keycard (Blue)x1
-Task_NotFiR_HandOver=[TerraGroup Labs keycard (Blue)x1]
-DogTagLv=0
-NeedItem=TerraGroup Labs keycard (Green)x1
-Task_NotFiR_HandOver=[TerraGroup Labs keycard (Green)x1]
+NeedItem=TerraGroup Labs access keycardx10
+Task_NotFiR_HandOver=[TerraGroup Labs access keycardx10]
 DogTagLv=0
 NeedItem=AHF1-M stimulant injectorx1
 Task_FiR_HandOver=[AHF1-M stimulant injectorx1]
@@ -31,22 +28,12 @@ DogTagLv=0
 ]
 [
 	TaskType=findItem
-	TaskText=Obtain TerraGroup Labs keycard (Blue)
+	TaskText=Obtain TerraGroup Labs access keycards in raid
 	TaskOptional=false
 ]
 [
 	TaskType=giveItem
-	TaskText=Hand over the keycard
-	TaskOptional=false
-]
-[
-	TaskType=findItem
-	TaskText=Obtain TerraGroup Labs keycard (Green)
-	TaskOptional=false
-]
-[
-	TaskType=giveItem
-	TaskText=Hand over the keycard
+	TaskText=Hand over keycards
 	TaskOptional=false
 ]
 [
@@ -76,10 +63,9 @@ Reward_Item=[
 	Roublesx150000,
 	L1 (Norepinephrine) injectorx3,
 	Meldonin injectorx3,
-	Morphine injectorx7,
-	Grizzly medical kitx3,
-	"Obdolbos" cocktail injectorx4,
-	TerraGroup Labs keycard (Violet)x2,
+	"Obdolbos 2" cocktail injectorx5,
+	Grizzly medical kitx4,
+	TerraGroup Labs keycard (Black)x1,
 	Medicine casex1
 ]
 

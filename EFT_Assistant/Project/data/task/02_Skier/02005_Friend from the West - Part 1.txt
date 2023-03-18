@@ -40,4 +40,4 @@ Reward_Item=[
 	5.56x45mm M855A1x60
 ]
 
-Reward_EXP=7400
+Reward_EXP=10000

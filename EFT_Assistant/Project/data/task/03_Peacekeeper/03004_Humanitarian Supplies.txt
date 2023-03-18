@@ -78,4 +78,4 @@ Reward_Item=[
 	Weapon partsx2
 ]
 
-Reward_EXP=6700
+Reward_EXP=11500

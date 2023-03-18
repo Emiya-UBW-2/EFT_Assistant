@@ -27,4 +27,4 @@ Reward_Item=[
 	Secure Flash drivex2
 ]
 
-Reward_EXP=6000
+Reward_EXP=10000

@@ -11,7 +11,7 @@ NeedLightkeeper=false
 
 Task_Map=Woods
 Task_Kill=[
-	Woods-any PMC operativesx25
+	Woods-any PMC operativesx15
 ]
 Task_NotFiR_HandOver=[TerraGroup "Blue Folders" materialsx1]
 DogTagLv=0

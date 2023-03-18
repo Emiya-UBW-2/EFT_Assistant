@@ -14,7 +14,7 @@ Task_Kill=[
 	Reserve-Glukharx1
 ]
 Task_Kill=[
-	Reserve-Glukhar Guard (Assault)x7
+	Reserve-Glukhar Guard (Assault)x6
 ]
 Task_Map=Reserve
 Task_Else=臒l: >= 0

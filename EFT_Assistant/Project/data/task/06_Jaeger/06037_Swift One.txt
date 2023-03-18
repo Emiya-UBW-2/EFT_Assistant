@@ -3,7 +3,7 @@ Name=Swift One
 Trader=Jaeger
 
 NeedTask=The Huntsman Path - Sadist
-NeedLevel=22
+NeedLevel=50
 
 CanRestart=false
 NeedKappa=false
@@ -11,7 +11,7 @@ NeedLightkeeper=false
 
 Task_Map=Woods
 Task_Kill=[
-	Woods-any PMC operativesx20
+	Woods-any PMC operativesx15
 ]
 Task_Else=‘•”õ‚µ‚Ä‚Í‚¢‚¯‚È‚¢:{
 Task_Else=  6B43 6A Zabralo-Sh body armor

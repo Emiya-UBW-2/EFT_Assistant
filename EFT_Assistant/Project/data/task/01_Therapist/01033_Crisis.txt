@@ -11,14 +11,14 @@ NeedLightkeeper=false
 
 NeedItem=Portable defibrillatorx5
 NeedItem=Ophthalmoscopex5
-NeedItem=LEDX Skin Transilluminatorx5
+NeedItem=LEDX Skin Transilluminatorx3
 NeedItem=Pile of medsx20
 NeedItem=Bottle of OLOLO Multivitaminsx10
 Task_FiR_HandOver=[Portable defibrillatorx5]
 DogTagLv=0
 Task_FiR_HandOver=[Ophthalmoscopex5]
 DogTagLv=0
-Task_FiR_HandOver=[LEDX Skin Transilluminatorx5]
+Task_FiR_HandOver=[LEDX Skin Transilluminatorx3]
 DogTagLv=0
 Task_FiR_HandOver=[Pile of medsx20]
 DogTagLv=0
@@ -78,10 +78,11 @@ DogTagLv=0
 
 Reward_Item=[
 	AFAK tactical individual first aid kitx5,
-	SJ6 TGLabs combat stimulant injectorx5,
+	SJ9 TGLabs combat stimulant injectorx5,
 	Medicine casex1
 ]
-Reward_SkillLevelUp=Immunity+1
-Reward_SkillLevelUp=Vitality+1
+Reward_SkillLevelUp=Immunity+2
+Reward_SkillLevelUp=Vitality+2
+Reward_SkillLevelUp=Surgery+2
 
 Reward_EXP=97000

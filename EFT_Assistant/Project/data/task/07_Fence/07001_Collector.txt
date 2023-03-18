@@ -72,9 +72,9 @@ NeedTask=Decontamination Service
 NeedTask=Gunsmith - Part 22
 NeedTask=The Guide
 NeedTask=Capturing Outposts
-NeedTask=Booze
 NeedTask=Intimidator
-NeedLevel=60
+NeedTask=Booze
+NeedLevel=50
 
 CanRestart=false
 NeedKappa=true

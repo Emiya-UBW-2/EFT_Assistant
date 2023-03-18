@@ -11,7 +11,7 @@ NeedLightkeeper=false
 
 Task_Map=Interchange
 Task_Kill=[
-	Interchange-any targetx30
+	Interchange-any targetx20
 ]
 Task_NotFiR_HandOver=[Salty Dog beef sausagex1]
 DogTagLv=0
@@ -50,7 +50,9 @@ Task_Else=脱出ステータス:[Survived]
 
 Reward_Rep=Lightkeeper+0.010000
 Reward_Item=[
-	Virtex programmable processorx2
+	Train Hard armbandx1,
+	.338 Lapua Magnum APx40,
+	7.62x39mm MAI APx100
 ]
 
 Reward_EXP=0

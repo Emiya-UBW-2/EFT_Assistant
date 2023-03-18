@@ -35,4 +35,4 @@ Reward_Item=[
 	GP-7 gas maskx3
 ]
 
-Reward_EXP=7400
+Reward_EXP=30500

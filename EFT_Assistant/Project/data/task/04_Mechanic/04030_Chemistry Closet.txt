@@ -3,6 +3,7 @@ Name=Chemistry Closet
 Trader=Mechanic
 
 NeedTask=Colleagues - Part 1
+NeedTask=Anesthesia
 NeedLevel=22
 NeedItem=[Health Resort office key with a blue tapex1]
 
