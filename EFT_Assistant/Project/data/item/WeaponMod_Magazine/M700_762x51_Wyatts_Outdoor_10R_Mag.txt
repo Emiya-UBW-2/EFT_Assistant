@@ -3,7 +3,7 @@ Name=M700 7.62x51 Wyatt's Outdoor 10-round magazine
 ShortName=Wyatt
 Itemtype=Magazine
 Conflict=[
-	M700 AI AT AICS polymer stock,
+	M700 AI AT AICS polymer chassis,
 	M700 AB Arms MOD*X GEN 3 chassis,
 	M700 Magpul Pro 700 chassis,
 	M700 ProMag Archangel chassis,

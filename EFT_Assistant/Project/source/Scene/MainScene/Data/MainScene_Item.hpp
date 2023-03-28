@@ -35,6 +35,7 @@ namespace FPS_n2 {
 		float										m_weight{ 0.f };
 		int											m_fleaMarketFee{ 0 };
 		bool										m_IsPreset{ false };
+		std::vector<int>							m_UseTaskID;
 	private:
 		//í«â¡ê›íË
 		void	Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept override {
@@ -195,6 +196,7 @@ namespace FPS_n2 {
 		const auto&	Getweight() const noexcept { return m_weight; }
 		const auto&	GetfleaMarketFee() const noexcept { return m_fleaMarketFee; }
 		const auto&	GetIsPreset() const noexcept { return m_IsPreset; }
+		const auto&	GetUseTaskID() const noexcept { return m_UseTaskID; }
 	public:
 		const auto GetSellValue(TraderID* ID, int* pValue) const noexcept {
 			*ID = InvalidID;
@@ -211,8 +213,10 @@ namespace FPS_n2 {
 			}
 			return (*pValue != -1);
 		}
+		void		ResetTaskUseID(void) noexcept { this->m_UseTaskID.clear(); }
+		void		AddTaskUseID(int ID) noexcept { this->m_UseTaskID.emplace_back(ID); }
 	public:
-		const int		Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive, bool IsFir, bool RaidMode) const noexcept;
+		const int		Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive, bool IsFir, bool IsDrawBuy) const noexcept;
 		void			DrawWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept {
 			auto* WindowMngr = WindowSystem::WindowManager::Instance();
 			auto* InterParts = InterruptParts::Instance();
@@ -224,7 +228,7 @@ namespace FPS_n2 {
 
 				auto* typePtr = ItemTypeData::Instance()->FindPtr(GetTypeID());
 				auto* catPtr = ItemCategoryData::Instance()->FindPtr(typePtr->GetCategoryID());
-				if (catPtr ->GetName()=="Weapons") {
+				if (catPtr->GetName() == "Weapons") {
 					if (WindowSystem::ClickCheckBox(xp, yp + yofs, xp + WindowSystem::GetMsgLen(LineHeight, "GotoPreset"), yp + LineHeight + yofs, false, true, Gray10, "GotoPreset")) {
 						InterParts->GotoNext(BGSelect::Custom);
 						InterParts->SetInitParam(0, GetID());//ïêäÌID
@@ -245,12 +249,12 @@ namespace FPS_n2 {
 					for (const auto& cp : m_ChildPartsID) {
 						for (const auto& c : cp.Data) {
 							auto* ptr = c.first;
-							xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, y_r(800), ysize, 0, defaultcolor, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0)), false, false) + y_r(30)); yofs += ysize;
+							xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, y_r(800), ysize, 0, defaultcolor, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0)), false, true) + y_r(30)); yofs += ysize;
 						}
 					}
 					for (const auto& c : m_ParentPartsID) {
 						auto* ptr = c;
-						xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, y_r(800), ysize, 0, defaultcolor, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0)), false, false) + y_r(30)); yofs += ysize;
+						xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, y_r(800), ysize, 0, defaultcolor, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0)), false, true) + y_r(30)); yofs += ysize;
 					}
 				}
 			}
@@ -776,7 +780,7 @@ namespace FPS_n2 {
 		}
 	};
 
-	const int		ItemList::Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive, bool IsFir, bool RaidMode) const noexcept {
+	const int		ItemList::Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive, bool IsFir, bool IsDrawBuy) const noexcept {
 		auto* WindowMngr = WindowSystem::WindowManager::Instance();
 		auto* Input = InputControl::Instance();
 		int xs = xsize;
@@ -867,14 +871,14 @@ namespace FPS_n2 {
 			Xsize += xg;
 		}
 
-		if(IsLocked) {
+		if (IsLocked) {
 			DrawControl::Instance()->SetDrawRotaLock(DrawLayer::Front, xp + FirSize / 2, yp + ysize / 2, 1.f, 0.f, true);
 		}
 		if (IsFir) {
 			DrawControl::Instance()->SetDrawRotaFiR(DrawLayer::Normal, xp + FirSize / 2, yp + ysize / 2, 1.f, 0.f, true);
 		}
 
-		if (!RaidMode) {
+		if (IsDrawBuy) {
 			if (in2_(Input->GetMouseX(), Input->GetMouseY(), xp, yp, xp + xs, yp + ysize)) {
 				TraderID ID = InvalidID;
 				int Value = -1;
@@ -903,7 +907,6 @@ namespace FPS_n2 {
 		}
 		return Xsize;
 	}
-
 
 	class ItemGetData {
 		ItemID				m_ID{ InvalidID };

@@ -3,7 +3,7 @@ Name=M700 7.62x51 ProMag AA-70 20-round magazine
 ShortName=AA-70
 Itemtype=Magazine
 Conflict=[
-	M700 AI AT AICS polymer stock,
+	M700 AI AT AICS polymer chassis,
 	M700 Hogue Overmolded Ghillie stock,
 	M700 AB Arms MOD*X GEN 3 chassis,
 	M700 Magpul Pro 700 chassis,

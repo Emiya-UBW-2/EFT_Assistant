@@ -313,7 +313,7 @@ namespace FPS_n2 {
 				for (const auto& LL : m_TaskNeedData.GetItem()) {
 					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
 					int total_size = y_r(92);
-					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window), false, false) + y_r(30));
+					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window), false, true) + y_r(30));
 					yofs += total_size;
 				}
 			}
@@ -343,7 +343,7 @@ namespace FPS_n2 {
 				for (const auto& LL : m_TaskWorkData.GetFiR_Item()) {
 					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
 					int total_size = y_r(92);
-					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window), true, false) + y_r(30));
+					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window), true, true) + y_r(30));
 					yofs += total_size;
 				}
 			}
@@ -353,7 +353,7 @@ namespace FPS_n2 {
 				for (const auto& LL : m_TaskWorkData.GetNotFiR_Item()) {
 					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
 					int total_size = y_r(92);
-					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window), false, false) + y_r(30));
+					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window), false, true) + y_r(30));
 					yofs += total_size;
 				}
 			}
@@ -389,7 +389,7 @@ namespace FPS_n2 {
 				for (const auto& LL : m_TaskRewardData.GetItem()) {
 					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
 					int total_size = y_r(92);
-					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window), true, false) + y_r(30));
+					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window), true, true) + y_r(30));
 					yofs += total_size;
 				}
 				//yofs += sizy;
@@ -985,6 +985,26 @@ namespace FPS_n2 {
 			}
 			for (auto& t : m_List) {
 				t.SetNeedTasktoID(m_List);
+			}
+			for (auto& i : ItemData::Instance()->SetList()) {
+				i.ResetTaskUseID();
+				for (const auto& t : m_List) {
+					for (const auto& n : t.GetTaskNeedData().GetItem()) {
+						if (i.GetID() == n.GetID()) {
+							i.AddTaskUseID(t.GetID());
+						}
+					}
+					for (const auto& w : t.GetTaskWorkData().GetFiR_Item()) {
+						if (i.GetID() == w.GetID()) {
+							i.AddTaskUseID(t.GetID());
+						}
+					}
+					for (const auto& w : t.GetTaskWorkData().GetNotFiR_Item()) {
+						if (i.GetID() == w.GetID()) {
+							i.AddTaskUseID(t.GetID());
+						}
+					}
+				}
 			}
 		}
 		~TaskData() noexcept {

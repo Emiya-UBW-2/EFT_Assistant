@@ -233,5 +233,6 @@ namespace FPS_n2 {
 			return nullptr;
 		}
 		const auto&		GetList(void) const noexcept { return this->m_List; }
+		auto&			SetList(void) noexcept { return this->m_List; }
 	};
 };

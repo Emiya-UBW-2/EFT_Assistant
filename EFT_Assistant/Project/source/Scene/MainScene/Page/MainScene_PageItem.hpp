@@ -11,6 +11,7 @@ namespace FPS_n2 {
 		float							m_YNow{ 0.f };
 		float							m_XChild{ 0.f };
 		bool							m_RaidMode{ false };
+		bool							m_TaskMode{ false };
 
 		std::vector<const ItemList*>	Items;
 		bool							m_TraderSort{ false };
@@ -36,6 +37,7 @@ namespace FPS_n2 {
 			m_ItemIDs.emplace_back(std::make_pair<int, bool>((int)InvalidID, false));
 
 			m_RaidMode = false;
+			m_TaskMode = false;
 
 			Items.clear();
 			for (auto& L : ItemData::Instance()->GetList()) {//todo
@@ -159,7 +161,21 @@ namespace FPS_n2 {
 					}
 					if (ishit || m_ItemIDs[2].first == InvalidID) {
 						if (((0 - ysize) < yp0) && (yp0 < DrawParts->m_DispYSize)) {
-							L->Draw(xpos, yp0, ScrPxItem - xpos - y_r(36), ysize, 0, Gray75, !WindowMngr->PosHitCheck(nullptr), false, m_RaidMode);
+							L->Draw(xpos, yp0, ScrPxItem - xpos - y_r(36), ysize, 0, Gray75, !WindowMngr->PosHitCheck(nullptr), false, !m_RaidMode && !m_TaskMode);
+							if (m_TaskMode) {
+								if (in2_(Input->GetMouseX(), Input->GetMouseY(), xpos, yp0, xpos + (ScrPxItem - xpos - y_r(36)), yp0 + ysize)) {
+									auto Color = Green;
+									int YPosAdd = 0;
+									for (auto& t : L->GetUseTaskID()) {
+										auto* ptr = TaskData::Instance()->FindPtr(t);
+										DrawControl::Instance()->SetString(DrawLayer::Front,
+											FontPool::FontType::Nomal_Edge, LineHeight,
+											FontHandle::FontXCenter::RIGHT, FontHandle::FontYCenter::BOTTOM, Input->GetMouseX(), Input->GetMouseY()+ YPosAdd, Color, Black,
+											"%s", ptr->GetName().c_str()
+										); YPosAdd += LineHeight;
+									}
+								}
+							}
 							if (m_RaidMode) {
 								TraderID ID = InvalidID;
 								int Value = -1;
@@ -179,6 +195,12 @@ namespace FPS_n2 {
 									WindowSystem::SetMsg(xpos + PerSize, yp0, xpos + PerSize, yp0 + ysize, LineHeight * 9 / 10, STR_RIGHT, Color, Black, "%6d", Value);
 									PerSize += y_r(250);
 									WindowSystem::SetMsg(xpos + PerSize, yp0, xpos + PerSize, yp0 + ysize, LineHeight * 9 / 10, STR_RIGHT, Color, Black, "%6d", Value / (L->Getwidth()*L->Getheight()));
+								}
+							}
+							if(m_TaskMode){
+								if (L->GetUseTaskID().size() > 0) {
+									int PerSize = y_r(400) + y_r(250);
+									WindowSystem::SetMsg(xpos + PerSize, yp0, xpos + PerSize, yp0 + ysize, LineHeight * 9 / 10, STR_RIGHT, White, Black, "〇");
 								}
 							}
 						}
@@ -266,10 +288,22 @@ namespace FPS_n2 {
 			}
 			//
 			{
+				auto PrevTask = m_TaskMode;
 				int xp = y_r(1910) - LineHeight * 3;
 				int yp = y_r(900);
 				WindowSystem::CheckBox(xp, yp, &m_RaidMode);
+				if (m_RaidMode) { m_TaskMode = false; }
 				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, FontHandle::FontXCenter::RIGHT, White, Black, "レイドモード(ルート品のみ)");
+				yp += LineHeight + y_r(6);
+				WindowSystem::CheckBox(xp, yp, &m_TaskMode);
+				if (m_TaskMode) { m_RaidMode = false; }
+				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, FontHandle::FontXCenter::RIGHT, White, Black, "タスクモード");
+
+				if (m_TaskMode && PrevTask != m_TaskMode) {
+					std::sort(Items.begin(), Items.end(), [&](const ItemList* a, const ItemList* b) {
+						return (a->GetUseTaskID().size()> b->GetUseTaskID().size());
+					});
+				}
 			}
 		}
 		void Dispose_Sub(void) noexcept override {
