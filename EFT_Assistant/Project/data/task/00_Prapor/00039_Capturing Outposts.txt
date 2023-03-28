@@ -6,7 +6,7 @@ NeedTask=The Punisher - Part 6
 NeedLevel=42
 
 CanRestart=false
-NeedKappa=true
+NeedKappa=false
 NeedLightkeeper=false
 
 Task_Kill=[

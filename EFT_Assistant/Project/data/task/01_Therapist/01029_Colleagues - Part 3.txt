@@ -28,12 +28,12 @@ DogTagLv=0
 ]
 [
 	TaskType=findItem
-	TaskText=Obtain TerraGroup Labs access keycards in raid
+	TaskText=Find TerraGroup Labs access keycards in raid
 	TaskOptional=false
 ]
 [
 	TaskType=giveItem
-	TaskText=Hand over keycards
+	TaskText=Hand over the keycards
 	TaskOptional=false
 ]
 [

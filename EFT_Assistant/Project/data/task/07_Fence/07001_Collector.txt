@@ -71,7 +71,6 @@ NeedTask=Perfect Mediator
 NeedTask=Decontamination Service
 NeedTask=Gunsmith - Part 22
 NeedTask=The Guide
-NeedTask=Capturing Outposts
 NeedTask=Intimidator
 NeedTask=Booze
 NeedLevel=50

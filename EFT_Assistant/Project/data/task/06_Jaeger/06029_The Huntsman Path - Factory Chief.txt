@@ -2,7 +2,7 @@ IDstr=60c0c018f7afb4354815096a
 Name=The Huntsman Path - Factory Chief
 Trader=Jaeger
 
-NeedTask=The Huntsman Path - Secured Perimeter
+NeedTask=The Huntsman Path - Forest Cleaning
 NeedTask=Scout
 NeedLevel=12
 

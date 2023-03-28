@@ -69,7 +69,7 @@ Reward_Item=[
 	Roublesx110000,
 	Altyn bulletproof helmetx1,
 	Altyn face shieldx1,
-	Ars Arma CPC MOD.2 plate carrierx1
+	Ars Arma CPC MOD.1 plate carrierx1
 ]
 
 Reward_EXP=25900

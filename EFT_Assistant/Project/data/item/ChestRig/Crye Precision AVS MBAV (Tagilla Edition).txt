@@ -1,6 +1,6 @@
 IDstr=609e860ebd219504d8507525
-Name=Crye Precision AVS MBAV (Tagilla Edition)
-ShortName=AVS MBAV
+Name=Crye Precision AVS plate carrier (Tagilla Edition)
+ShortName=AVS TE
 Itemtype=Chest rig
 Recoil=0.000000
 Ergonomics=0.000000
