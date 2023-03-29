@@ -1,2 +1,0 @@
-Name=Mask
-Category=Clothes

@@ -40,14 +40,14 @@ namespace FPS_n2 {
 	static void MakeList(int xp1, int yp1, const std::vector<ListChild>& List, std::string_view Name, int*Select, bool isActive, bool isElseSelect, bool isAllSelect, const std::function<bool(const ListChild*)>& CheckLocal) noexcept {
 		auto* WindowMngr = WindowSystem::WindowManager::Instance();
 		int xsize = y_r(400);
-		int ysize = LineHeight;
+		int ysize = LineHeight - y_r(3);
 		int count = 0;
 
-		WindowSystem::SetMsg(xp1, yp1, xp1 + xsize, yp1 + ysize, ysize, FontHandle::FontXCenter::MIDDLE, White, Black, Name);
-		yp1 += ysize + y_r(5);
+		WindowSystem::SetMsg(xp1, yp1, xp1 + xsize, yp1 + ysize - y_r(5), ysize - y_r(5), FontHandle::FontXCenter::MIDDLE, White, Black, Name);
+		yp1 += ysize;
 		int yp_t = yp1;
 		if (isAllSelect) {
-			yp_t += ysize + y_r(5);
+			yp_t += ysize + y_r(3);
 		}
 		//
 		int IDBuf = InvalidID;
@@ -60,7 +60,7 @@ namespace FPS_n2 {
 			if (WindowSystem::ClickCheckBox(xp1 - (SelectIt ? y_r(25) : 0), yp_t, xp1 + xsize, yp_t + ysize, false, (isActive || (!isActive && SelectIt)) && !WindowMngr->PosHitCheck(nullptr), color, L2.GetShortName().c_str())) {
 				*Select = (isActive) ? IDBuf : InvalidID;
 			}
-			yp_t += ysize + y_r(5);
+			yp_t += ysize + y_r(3);
 			count++;
 		}
 		if (count > 0 && isElseSelect) {//‚»‚Ì‘¼

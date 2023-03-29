@@ -1,2 +1,0 @@
-Name=Quest
-Category=Keys_Intel

@@ -221,7 +221,7 @@ namespace FPS_n2 {
 				int xsize = y_r(400);
 				int xs_add = -(xsize + y_r(50));
 				int xp = y_r(1920 - 10) - xsize - (int)m_XChild;
-				int yp = LineHeight + y_r(10);
+				int yp = LineHeight + y_r(5);
 				bool isChild = false;
 				int Layer = 0;
 				//

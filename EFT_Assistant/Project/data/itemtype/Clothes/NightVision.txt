@@ -1,3 +1,0 @@
-Name=Night vision
-ShortName=NVG
-Category=Clothes

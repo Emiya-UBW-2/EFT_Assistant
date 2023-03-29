@@ -1,3 +1,0 @@
-Name=Additional armor
-ShortName=AdditionalArmor
-Category=Clothes
