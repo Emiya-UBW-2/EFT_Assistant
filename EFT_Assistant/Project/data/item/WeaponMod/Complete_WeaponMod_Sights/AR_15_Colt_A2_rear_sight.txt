@@ -26,7 +26,7 @@ Conflict=[
 	Nightforce Magmount 30mm ring scope mount,
 	Nightforce Magmount 34mm ring scope mount,
 	Nightforce Magmount 34mm ring scope mount with Ruggedized Accessory Platform,
-	Primary Arms Compact Mount sight adapter,
+	Kiba Arms Short Mount sight adapter,
 	SIG Sauer ROMEO sight mount,
 	Trijicon RMR high profile mount,
 	Trijicon TA51 sight mount,
@@ -39,15 +39,15 @@ Information_Eng=The Colt A2 detachable rear sight. Standard-issue for M4A1 assau
 basePrice=908
 width=1
 height=1
-avg24hPrice=18559
-low24hPrice=10000
-lastOfferCount=3
+avg24hPrice=8837
+low24hPrice=5000
+lastOfferCount=4
 Sell_Prapor=454
 Sell_Fence=363
 Sell_Skier=444
 Sell_Peacekeeper=4
 Sell_Mechanic=508
-Sell_Flea Market=10000
+Sell_Flea Market=5000
 weight=0.150000
-fleaMarketFee=1284
+fleaMarketFee=419
 propertiestype=ItemPropertiesScope

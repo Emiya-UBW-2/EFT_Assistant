@@ -46,7 +46,7 @@ Conflict=[
 	Nightforce Magmount 30mm ring scope mount,
 	Nightforce Magmount 34mm ring scope mount,
 	Nightforce Magmount 34mm ring scope mount with Ruggedized Accessory Platform,
-	Primary Arms Compact Mount sight adapter,
+	Kiba Arms Short Mount sight adapter,
 	Recknagel Era-Tac 30mm ring scope mount,
 	Recknagel Era-Tac 34mm ring scope mount,
 	SIG Sauer ROMEO sight mount,
@@ -63,15 +63,15 @@ Information_Eng=A detachable carry handle with a rear sight for AR-15 rifles. St
 basePrice=823
 width=1
 height=1
-avg24hPrice=9999
-low24hPrice=9999
+avg24hPrice=7777
+low24hPrice=7777
 lastOfferCount=1
 Sell_Prapor=411
 Sell_Fence=329
 Sell_Skier=403
 Sell_Peacekeeper=3
 Sell_Mechanic=460
-Sell_Flea Market=9999
+Sell_Flea Market=7777
 weight=0.150000
-fleaMarketFee=1368
+fleaMarketFee=906
 propertiestype=ItemPropertiesScope

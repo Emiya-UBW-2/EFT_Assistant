@@ -10,7 +10,7 @@ Conflict=[
 	Armasight Vulcan universal base,
 	KMZ 1P69 Weaver mount,
 	Nightforce Magmount 30mm ring scope mount,
-	Primary Arms Compact Mount sight adapter,
+	Kiba Arms Short Mount sight adapter,
 	Trijicon TA51 sight mount
 ]
 Recoil=0.000000
