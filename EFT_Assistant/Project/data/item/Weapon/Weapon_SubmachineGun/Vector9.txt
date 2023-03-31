@@ -61,7 +61,7 @@ ChildParts=[
 	Armasight Vulcan universal base,
 	Burris FastFire Weaver Base,
 	DeltaPoint Cross Slot Mount base,
-	Primary Arms Compact Mount sight adapter,
+	Kiba Arms Short Mount sight adapter,
 	SIG Sauer ROMEO sight mount,
 	Trijicon RMR high profile mount,
 	Trijicon RMR low profile mount,

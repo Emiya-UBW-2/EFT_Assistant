@@ -49,7 +49,7 @@ ChildParts=[
 	Nightforce Magmount 30mm ring scope mount,
 	Nightforce Magmount 34mm ring scope mount,
 	Nightforce Magmount 34mm ring scope mount with Ruggedized Accessory Platform,
-	Primary Arms Compact Mount sight adapter,
+	Kiba Arms Short Mount sight adapter,
 	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
 	Recknagel Era-Tac 30mm ring scope mount,
 	Recknagel Era-Tac 34mm ring scope mount,

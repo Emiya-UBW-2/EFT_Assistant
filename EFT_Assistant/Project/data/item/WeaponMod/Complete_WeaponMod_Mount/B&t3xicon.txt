@@ -38,7 +38,7 @@ ChildParts=[
 	Nightforce Magmount 30mm ring scope mount,
 	Nightforce Magmount 34mm ring scope mount,
 	Nightforce Magmount 34mm ring scope mount with Ruggedized Accessory Platform,
-	Primary Arms Compact Mount sight adapter,
+	Kiba Arms Short Mount sight adapter,
 	SIG Sauer ROMEO sight mount,
 	Trijicon RMR high profile mount,
 	Trijicon RMR low profile mount,
@@ -50,7 +50,7 @@ Conflict=[
 ]
 Recoil=0.000000
 Ergonomics=-1.500000
-Information_Eng=A rail mount designed by Brügger & Thomet for the HK MP5 submachine gun. It is mounted on the weapon's receiver and allows additional installation of scopes and reflex sights.
+Information_Eng=A rail mount designed by Brugger & Thomet for the HK MP5 submachine gun. It is mounted on the weapon's receiver and allows additional installation of scopes and reflex sights.
 basePrice=4501
 width=2
 height=1

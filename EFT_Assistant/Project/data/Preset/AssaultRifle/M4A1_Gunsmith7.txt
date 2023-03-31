@@ -14,4 +14,4 @@ Parts=AR-15 Windham Weaponry Rail Gas Block
 Parts=5.56x45 SureFire MAG5-60 STANAG 60-round magazine
 Parts=AR-15 Colt charging handle
 Parts=AR-15 rear sight carry handle
-Parts=Primary Arms Compact Prism scope 2.5x
+Parts=Kiba Arms Short Prism 2.5x scope
