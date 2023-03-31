@@ -1,0 +1,26 @@
+IDstr=5bfe86a20db834001d23e8f7
+Name=M870 FAB Defense AGR-870 pistol grip
+ShortName=AGR-870
+Itemtype=Pistol grip
+ChildParts=[
+	FAB Defense protection cap for AGR-870,
+	FAB Defense buffer tube for AGR-870
+]
+Recoil=0.000000
+Ergonomics=9.000000
+Information_Eng=The AGR-870 pistol grip for Remington 870 pump-action shotgun, manufactured by FAB Defense.
+basePrice=2608
+width=1
+height=1
+avg24hPrice=12303
+low24hPrice=5000
+lastOfferCount=7
+Sell_Prapor=1304
+Sell_Fence=1043
+Sell_Skier=1277
+Sell_Peacekeeper=10
+Sell_Mechanic=1460
+Sell_Flea Market=13333
+weight=0.130000
+fleaMarketFee=1069
+propertiestype=ItemPropertiesWeaponMod

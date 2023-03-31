@@ -1,0 +1,41 @@
+IDstr=57cffe0024597763b03fc60b
+Name=AK Magpul MOE AKM handguard (Plum)
+ShortName=MOE AKM
+Itemtype=Handguard
+ChildParts=[
+	Magpul M-LOK AFG tactical foregrip (Black),
+	Magpul M-LOK AFG tactical foregrip (FDE),
+	Magpul M-LOK AFG tactical foregrip (Olive Drab),
+	Magpul M-LOK AFG tactical foregrip (Stealth Gray),
+	Magpul M-LOK 4.1 inch rail
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Cantilever Mount
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Cantilever Mount
+]
+Conflict=[
+	AK Zenit B-33 dust cover,
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
+]
+Recoil=-2.000000
+Ergonomics=10.000000
+Information_Eng=The Magpul MOE AKM hand guard is installed on AKM/AK-74-compatible weapon systems. It comes equipped with licensed M-LOK mounts for the installation of additional devices or rails. Plum-colored polymer version.
+basePrice=14141
+width=1
+height=1
+avg24hPrice=13971
+low24hPrice=8999
+lastOfferCount=27
+Sell_Prapor=7070
+Sell_Fence=5656
+Sell_Skier=6929
+Sell_Peacekeeper=55
+Sell_Mechanic=7918
+Sell_Flea Market=8999
+weight=0.221000
+fleaMarketFee=744
+propertiestype=ItemPropertiesWeaponMod

@@ -1,0 +1,27 @@
+IDstr=55d448594bdc2d8c2f8b4569
+Name=MP-133 12ga 610mm barrel
+ShortName=MP133 610mm
+Itemtype=Barrel
+ChildParts=[
+	ME Cylinder 12ga muzzle adapter,
+	Remington Tactical Choke 12ga,
+	SilencerCo Salvo 12 choke adapter
+]
+Recoil=-4.000000
+Ergonomics=-7.000000
+Information_Eng=A standard factory-produced 610mm barrel for MP-133 12 gauge shotguns.
+basePrice=4902
+width=4
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
+Sell_Prapor=2451
+Sell_Fence=1960
+Sell_Skier=2401
+Sell_Peacekeeper=19
+Sell_Mechanic=2745
+Sell_Jaeger=2941
+weight=1.200000
+fleaMarketFee=294
+propertiestype=ItemPropertiesBarrel

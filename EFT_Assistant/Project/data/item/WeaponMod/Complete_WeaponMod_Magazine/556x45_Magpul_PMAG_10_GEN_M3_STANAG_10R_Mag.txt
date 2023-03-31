@@ -1,0 +1,25 @@
+IDstr=5aaa5e60e5b5b000140293d6
+Name=5.56x45 Magpul PMAG 10 GEN M3 STANAG 10-round magazine
+ShortName=GEN M3
+Itemtype=Magazine
+Conflict=[
+	HK G36 magwell,
+]
+Recoil=0.000000
+Ergonomics=5.000000
+Information_Eng=A 10-round polymer Magpul PMAG GEN M3 10 magazine, for 5.56x45 ammunition.
+basePrice=2001
+width=1
+height=1
+avg24hPrice=3853
+low24hPrice=1900
+lastOfferCount=0
+Sell_Prapor=1000
+Sell_Fence=800
+Sell_Skier=980
+Sell_Peacekeeper=8
+Sell_Mechanic=1120
+Sell_Flea Market=2300
+weight=0.120000
+fleaMarketFee=129
+propertiestype=ItemPropertiesMagazine

@@ -1,0 +1,55 @@
+IDstr=5cde7afdd7f00c000d36b89d
+Name=M700 AB Arms MOD*X GEN 3 KeyMod handguard
+ShortName=MOD*X
+Itemtype=Handguard
+ChildParts=[
+	Monstrum Tactical Vertical Fore Grip KeyMod,
+	A3 Tactical MVF001 KeyMod vertical foregrip (Black),
+	SIG Sauer Vertical Foregrip KeyMod (Black),
+	Strike Industries KeyMod 6 inch rail,
+	Vltor CASV KeyMod 6 inch rail
+]
+ChildParts=[
+	Strike Industries KeyMod 4 inch rail,
+	Vltor CASV KeyMod 2 inch rail,
+	Vltor CASV KeyMod 4 inch rail
+]
+ChildParts=[
+	HK MP7 flip-up front sight,
+	KAC Folding Micro front sight,
+	KAC Folding front sight,
+	KRISS Defiance low profile flip-up front sight,
+	Magpul MBUS Gen2 flip-up front sight,
+	Magpul MBUS Gen2 flip-up front sight (FDE),
+	MCX flip-up front sight,
+	MPX flip-up front sight
+]
+ChildParts=[
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	LA-5B/PEQ tactical device,
+	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Perst-3 tactical device
+]
+Conflict=[
+	M700 extended multi-slot Weaver rail base
+]
+Recoil=-3.000000
+Ergonomics=10.000000
+Information_Eng=The AB Arms MOD*X GEN 3 KeyMod handguard for M700 sniper rifles equipped with a KeyMod interface for installation of additional devices and accessories.
+basePrice=9900
+width=3
+height=1
+avg24hPrice=39634
+low24hPrice=21111
+lastOfferCount=16
+Sell_Prapor=4950
+Sell_Fence=3960
+Sell_Skier=4851
+Sell_Peacekeeper=38
+Sell_Mechanic=5544
+Sell_Flea Market=37666
+weight=0.390000
+fleaMarketFee=2574
+propertiestype=ItemPropertiesWeaponMod

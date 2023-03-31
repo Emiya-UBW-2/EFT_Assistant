@@ -1,0 +1,29 @@
+IDstr=5bfd35380db83400232fe5cc
+Name=Mosin Rifle Infantry stock
+ShortName=Mosin inf. stock
+Itemtype=Stock
+Conflict=[
+	Mosin Rifle Kochetov mount,
+	Mosin Carbine 7.62x54R 514mm barrel,
+	Mosin Rifle 7.62x54R sawn-off 220mm threaded barrel,
+	Mosin Rifle 7.62x54R sawn-off 200mm barrel
+]
+Recoil=-29.000000
+Ergonomics=9.000000
+Information_Eng=An infantry wooden stock for the Mosin rifle.
+basePrice=2160
+width=4
+height=1
+avg24hPrice=23611
+low24hPrice=22222
+lastOfferCount=1
+Sell_Prapor=1080
+Sell_Fence=864
+Sell_Skier=1058
+Sell_Peacekeeper=8
+Sell_Mechanic=1209
+Sell_Jaeger=1296
+Sell_Flea Market=25000
+weight=1.800000
+fleaMarketFee=3315
+propertiestype=ItemPropertiesWeaponMod

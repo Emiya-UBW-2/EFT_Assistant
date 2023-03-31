@@ -1,0 +1,32 @@
+IDstr=5c471cb32e221602b177afaa
+Name=SVDS 7.62x54R 22 inch barrel
+ShortName=SVDS 22"
+Itemtype=Barrel
+ChildParts=[
+	SVDS 7.62x54R muzzle brake-compensator
+]
+ChildParts=[
+	SVD CAA DRG L-1 barrel mount rail
+]
+ChildParts=[
+	SVDS gas tube
+]
+Recoil=-7.000000
+Ergonomics=-10.000000
+Information_Eng=A 22 inch barrel for SVDS sniper rifles chambered in 7.62x54R ammo.
+basePrice=24400
+width=4
+height=1
+avg24hPrice=115209
+low24hPrice=60000
+lastOfferCount=4
+Sell_Prapor=12200
+Sell_Fence=9760
+Sell_Skier=11956
+Sell_Peacekeeper=95
+Sell_Mechanic=13664
+Sell_Jaeger=14640
+Sell_Flea Market=100000
+weight=1.120000
+fleaMarketFee=7102
+propertiestype=ItemPropertiesBarrel

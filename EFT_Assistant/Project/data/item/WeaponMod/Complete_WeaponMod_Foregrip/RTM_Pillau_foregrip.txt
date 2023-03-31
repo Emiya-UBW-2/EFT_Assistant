@@ -1,0 +1,25 @@
+IDstr=5cf4fb76d7f00c065703d3ac
+Name=RTM Pillau tactical foregrip
+ShortName=Pillau
+Itemtype=Foregrip
+Conflict=[
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
+]
+Recoil=-1.000000
+Ergonomics=5.000000
+Information_Eng=A lightweight aluminum tactical grip produced by RTM.
+basePrice=3500
+width=1
+height=1
+avg24hPrice=9955
+low24hPrice=4024
+lastOfferCount=3
+Sell_Prapor=1750
+Sell_Fence=1400
+Sell_Skier=1715
+Sell_Peacekeeper=14
+Sell_Mechanic=1960
+Sell_Flea Market=4500
+weight=0.065000
+fleaMarketFee=243
+propertiestype=ItemPropertiesWeaponMod

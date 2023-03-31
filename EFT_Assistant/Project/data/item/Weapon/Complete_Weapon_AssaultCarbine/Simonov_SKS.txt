@@ -1,0 +1,41 @@
+IDstr=574d967124597745970e7c94
+Name=Simonov SKS 7.62x39 carbine
+ShortName=SKS
+Itemtype=Assault carbine
+ChildParts=[
+	SKS Weapon Tuning 7.62x39 thread adapter,
+	SKS Hexagon 7.62x39 sound suppressor
+]
+ChildParts=[
+	SKS rear sight
+]
+ChildParts=[
+	SKS FAB Defense UAS chassis,
+	OP-SKS wooden stock,
+	SKS TAPCO Intrafuse chassis,
+	SKS TOZ wooden stock (56-A-231 Sb.5)
+]
+ChildParts=[
+	SKS 7.62x39 10-round internal box magazine,
+	SKS 7.62x39 ProMag SKS-A5 20-round magazine,
+	SKS 7.62x39 ProMag AALVX 35-round magazine,
+	SKS 7.62x39 KCI 75-round drum magazine
+]
+Recoil=182.000000
+Ergonomics=40.000000
+Information_Eng=A Soviet semi-automatic carbine designed by Sergei Simonov for 7.62x39 cartridges and known abroad as SKS-45. Immensely popular both in CIS countries and in the West, this weapon is still in active service in some countries in form of various copies and modifications. This particular model comes from extended storage warehouses of Tula Arms Plant and haven't yet undergone the civilian weapon normalization procedure.
+basePrice=19331
+width=4
+height=1
+avg24hPrice=18676
+low24hPrice=14000
+lastOfferCount=18
+Sell_Prapor=9665
+Sell_Fence=7732
+Sell_Skier=9472
+Sell_Peacekeeper=75
+Sell_Mechanic=10825
+Sell_Flea Market=15000
+weight=2.627000
+fleaMarketFee=1045
+propertiestype=ItemPropertiesWeapon

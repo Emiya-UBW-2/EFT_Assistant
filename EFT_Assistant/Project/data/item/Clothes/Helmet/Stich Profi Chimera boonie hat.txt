@@ -1,0 +1,27 @@
+IDstr=60b52e5bc7d8103275739d67
+Name=Stich Profi Chimera boonie hat
+ShortName=Chimera
+Itemtype=Headwear
+Conflict=[
+	Faceless mask,
+	Ghoul mask,
+	Tagilla's welding mask "Gorilla",
+	Tagilla's welding mask "UBEY",
+]
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=A boonie hat with artificial camouflage leaves, manufactured by Stich Profi.
+basePrice=3170
+width=2
+height=2
+avg24hPrice=6587
+low24hPrice=3500
+lastOfferCount=1
+Sell_Fence=1268
+Sell_Skier=1553
+Sell_Peacekeeper=12
+Sell_Ragman=1965
+Sell_Flea Market=9000
+weight=0.150000
+fleaMarketFee=538
+propertiestype=

@@ -1,0 +1,28 @@
+IDstr=5c1cdd302e221602b3137250
+Name=Primary Arms Compact Mount sight adapter
+ShortName=Compact
+Itemtype=Mount
+Conflict=[
+	AR-15 Colt A2 rear sight,
+	AR-15 rear sight carry handle,
+	HK G36 rear sight,
+]
+Recoil=0.000000
+Ergonomics=-1.000000
+Information_Eng=Compact Mount is a universal mount for installation of Primary Arms manufactured scopes.
+basePrice=1000
+width=1
+height=1
+avg24hPrice=108489
+low24hPrice=1150
+lastOfferCount=7
+Sell_Prapor=500
+Sell_Fence=400
+Sell_Skier=490
+Sell_Peacekeeper=4
+Sell_Mechanic=560
+Sell_Jaeger=600
+Sell_Flea Market=49000
+weight=0.110000
+fleaMarketFee=16929
+propertiestype=ItemPropertiesWeaponMod

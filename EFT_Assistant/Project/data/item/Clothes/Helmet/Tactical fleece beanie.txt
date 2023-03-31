@@ -1,0 +1,28 @@
+IDstr=5aa2ba19e5b5b00014028f4e
+Name=Tactical fleece beanie
+ShortName=Fleece
+Itemtype=Headwear
+Conflict=[
+	Faceless mask,
+	Ghoul mask,
+	GP-5 gas mask,
+	Pestily plague mask,
+	GP-7 gas mask,
+]
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=Operate properly only in the tactical fleece hat. It's tactical.
+basePrice=4510
+width=1
+height=1
+avg24hPrice=4470
+low24hPrice=2500
+lastOfferCount=5
+Sell_Fence=1804
+Sell_Skier=2209
+Sell_Peacekeeper=17
+Sell_Ragman=2796
+Sell_Flea Market=4000
+weight=0.100000
+fleaMarketFee=255
+propertiestype=

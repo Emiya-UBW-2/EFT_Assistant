@@ -1,0 +1,29 @@
+IDstr=5649b0fc4bdc2d17108b4588
+Name=AK-74 polymer stock (6P20 Sb.7)
+ShortName=6P20 Sb.7
+Itemtype=Stock
+ChildParts=[
+	AK GP-25 accessory kit recoil pad
+]
+Conflict=[
+	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock,
+]
+Recoil=-32.000000
+Ergonomics=5.000000
+Information_Eng=A polymer stock for AK-74 automatic rifles which replaced the classic wooden one. Manufactured by Izhmash.
+basePrice=2068
+width=2
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
+Sell_Prapor=1034
+Sell_Fence=827
+Sell_Skier=1013
+Sell_Peacekeeper=8
+Sell_Mechanic=1158
+Sell_Jaeger=1240
+Sell_Flea Market=69696
+weight=0.350000
+fleaMarketFee=18705
+propertiestype=ItemPropertiesWeaponMod

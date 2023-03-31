@@ -1,0 +1,32 @@
+IDstr=5fbbfabed5cb881a7363194e
+Name=MCX .300 BLK 171mm barrel
+ShortName=MCX 171mm
+Itemtype=Barrel
+ChildParts=[
+	Gemtech ONE Direct Thread Mount adapter,
+	SIG Sauer Taper-LOK 7.62x51/.300 BLK muzzle adapter,
+	SilencerCo Hybrid 46 Direct Thread Mount adapter,
+	SIG Sauer SRD762Ti 7.62x51 sound suppressor
+]
+ChildParts=[
+	MCX gas block
+]
+Recoil=-3.000000
+Ergonomics=-4.000000
+Information_Eng=A 171mm barrel for MCX-based weapons, chambered in .300 BLK.
+basePrice=16118
+width=2
+height=1
+avg24hPrice=17777
+low24hPrice=17777
+lastOfferCount=1
+Sell_Prapor=8059
+Sell_Fence=6447
+Sell_Skier=7897
+Sell_Peacekeeper=63
+Sell_Mechanic=9026
+Sell_Jaeger=9670
+Sell_Flea Market=17777
+weight=0.409000
+fleaMarketFee=1014
+propertiestype=ItemPropertiesBarrel

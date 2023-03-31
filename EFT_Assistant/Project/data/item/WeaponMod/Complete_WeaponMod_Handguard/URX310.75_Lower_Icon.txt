@@ -1,0 +1,57 @@
+IDstr=637f57c532b66e7e320a6676
+Name=AR-15 KAC URX 3.1 10.75 inch lower handguard
+ShortName=URX3.1 10.75"
+Itemtype=Handguard
+ChildParts=[
+	BCM GUNFIGHTER MOD 3 vertical foregrip,
+	ASh-12 vertical foregrip,
+	Fortis Shift tactical foregrip,
+	Hera Arms CQR tactical foregrip,
+	HK Sturmgriff foregrip,
+	KAC vertical foregrip,
+	Magpul AFG tactical foregrip (Black),
+	Magpul AFG tactical foregrip (FDE),
+	Magpul AFG tactical foregrip (Forest Green),
+	Magpul AFG tactical foregrip (Olive Drab),
+	Magpul RVG foregrip (Black),
+	Magpul RVG foregrip (FDE),
+	RTM Pillau tactical foregrip,
+	Stark SE-5 Express Forward foregrip,
+	Strike Industries Cobra Tactical foregrip,
+	TangoDown Stubby BGV-MK46K foregrip (Black),
+	TangoDown Stubby BGV-MK46K foregrip (FDE),
+	TangoDown Stubby BGV-MK46K foregrip (Stealth Gray),
+	Tactical Dynamics Skeletonized Foregrip,
+	Viking Tactics UVG tactical foregrip,
+	Zenit RK-1 tactical foregrip on B-25U mount,
+	Zenit RK-0 tactical foregrip,
+	Zenit RK-1 tactical foregrip,
+	Zenit RK-2 tactical foregrip,
+	Zenit RK-4 tactical foregrip,
+	Zenit RK-5 tactical foregrip,
+	Zenit RK-6 tactical foregrip
+]
+Conflict=[
+	AR-10 JP Enterprises Gas System-6,
+	M4A1 front sight with gas block,
+	AR-15 Windham Weaponry Rail Gas Block,
+	AR-15 5.56x45 260mm barrel
+]
+Recoil=-2.000000
+Ergonomics=4.000000
+Information_Eng=The Knight's Armament URX 3.1 lower handguard for AR-15 equipped with a unique interface for installation of additional devices and accessories.
+basePrice=5640
+width=2
+height=1
+avg24hPrice=19028
+low24hPrice=9999
+lastOfferCount=21
+Sell_Prapor=2820
+Sell_Fence=2256
+Sell_Skier=2763
+Sell_Peacekeeper=22
+Sell_Mechanic=3158
+Sell_Flea Market=10000
+weight=0.096000
+fleaMarketFee=528
+propertiestype=ItemPropertiesWeaponMod

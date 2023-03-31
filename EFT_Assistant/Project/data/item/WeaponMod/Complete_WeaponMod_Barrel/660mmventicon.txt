@@ -1,0 +1,29 @@
+IDstr=5a787fadc5856700155a6ca1
+Name=M870 12ga 660mm vent rib barrel
+ShortName=M870 660mm
+Itemtype=Barrel
+ChildParts=[
+	VOMZ Pilad TargetRing reflex sight
+]
+ChildParts=[
+	M870 Mesa Tactical magazine clamp
+]
+Recoil=-9.000000
+Ergonomics=-12.000000
+Information_Eng=A 660mm 12 gauge barrel with a vent rib for the Remington Model 870 shotgun.
+basePrice=14215
+width=4
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
+Sell_Prapor=7107
+Sell_Fence=5686
+Sell_Skier=6965
+Sell_Peacekeeper=55
+Sell_Mechanic=7960
+Sell_Jaeger=8529
+Sell_Flea Market=99900
+weight=1.100000
+fleaMarketFee=9677
+propertiestype=ItemPropertiesBarrel

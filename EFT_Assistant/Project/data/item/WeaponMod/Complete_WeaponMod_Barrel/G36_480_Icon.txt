@@ -1,0 +1,27 @@
+IDstr=622b38c56762c718e457e246
+Name=HK G36 5.56x45 480mm barrel
+ShortName=G36 480mm
+Itemtype=Barrel
+Conflict=[
+	HK G36 2-vent handguard,
+	HK G36 4-vent handguard,
+]
+Recoil=-4.000000
+Ergonomics=-16.000000
+Information_Eng=A 480mm 5.56x45 NATO barrel for the HK G36 assault rifle.
+basePrice=18600
+width=4
+height=1
+avg24hPrice=21000
+low24hPrice=16500
+lastOfferCount=1
+Sell_Prapor=9300
+Sell_Fence=7440
+Sell_Skier=9114
+Sell_Peacekeeper=72
+Sell_Mechanic=10416
+Sell_Jaeger=11160
+Sell_Flea Market=49876
+weight=0.690000
+fleaMarketFee=2914
+propertiestype=ItemPropertiesBarrel

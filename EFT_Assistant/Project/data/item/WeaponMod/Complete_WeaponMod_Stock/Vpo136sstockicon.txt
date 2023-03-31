@@ -1,0 +1,29 @@
+IDstr=59e6227d86f77440d64f5dc2
+Name=VPO-136 "Vepr-KM" wooden stock
+ShortName=VPO136
+Itemtype=Stock
+ChildParts=[
+	AK GP-25 accessory kit recoil pad
+]
+Conflict=[
+	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock,
+]
+Recoil=-33.000000
+Ergonomics=3.000000
+Information_Eng=A standard-issue wooden stock for VPO-136 Vepr KM carbines, manufactured by Molot Arms.
+basePrice=1824
+width=2
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
+Sell_Prapor=912
+Sell_Fence=729
+Sell_Skier=893
+Sell_Peacekeeper=7
+Sell_Mechanic=1021
+Sell_Jaeger=1094
+Sell_Flea Market=1910
+weight=0.450000
+fleaMarketFee=112
+propertiestype=ItemPropertiesWeaponMod

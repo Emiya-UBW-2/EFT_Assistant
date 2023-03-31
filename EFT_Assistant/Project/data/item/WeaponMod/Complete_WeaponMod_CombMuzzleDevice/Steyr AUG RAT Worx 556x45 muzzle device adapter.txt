@@ -1,0 +1,25 @@
+IDstr=630f27f04f3f6281050b94d7
+Name=Steyr AUG RAT Worx 5.56x45 muzzle device adapter
+ShortName=RatWorx
+Itemtype=Comb. muzzle device
+Conflict=[
+	Steyr AUG Relfex T4AUG Ranger 5.56x45 sound suppressor,
+]
+Recoil=0.000000
+Ergonomics=-1.000000
+Information_Eng=The RAT Worx adapter allows to install various AR-15 muzzle devices on 5.56x45 AUG rifles. Manufactured by Research And Testing Worx.
+basePrice=3700
+width=1
+height=1
+avg24hPrice=11305
+low24hPrice=5000
+lastOfferCount=16
+Sell_Prapor=1850
+Sell_Fence=1480
+Sell_Skier=1813
+Sell_Peacekeeper=14
+Sell_Mechanic=2072
+Sell_Flea Market=9554
+weight=0.120000
+fleaMarketFee=551
+propertiestype=ItemPropertiesWeaponMod

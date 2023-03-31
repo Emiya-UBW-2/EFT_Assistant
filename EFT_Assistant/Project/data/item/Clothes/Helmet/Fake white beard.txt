@@ -1,0 +1,25 @@
+IDstr=5c1a1e3f2e221602b66cc4c2
+Name=Fake white beard
+ShortName=Beard
+Itemtype=Face Cover
+Conflict=[
+	Tac-Kek Heavy Trooper mask for Ops-Core-type helmets,
+	TSh-4M-L soft tank crew helmet,
+]
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=An artificial white beard. Christmas spirit? Maybe...
+basePrice=7500
+width=1
+height=2
+avg24hPrice=133835
+low24hPrice=40000
+lastOfferCount=9
+Sell_Fence=3000
+Sell_Skier=3675
+Sell_Peacekeeper=29
+Sell_Ragman=4650
+Sell_Flea Market=80000
+weight=0.100000
+fleaMarketFee=10066
+propertiestype=

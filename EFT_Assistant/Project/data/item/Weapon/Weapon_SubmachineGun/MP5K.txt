@@ -1,0 +1,33 @@
+IDstr=5d2f0d8048f0356c925bc3b0
+Name=HK MP5K 9x19 submachine gun
+ShortName=MP5K-N
+Itemtype=SMG
+ChildParts=[
+	HK MP5 9x19 20-round magazine,
+	HK MP5 9x19 30-round magazine,
+	HK MP5 9x19 X Products X-5 50-round drum magazine
+]
+ChildParts=[
+	HK MP5K 9x19 upper receiver
+]
+ChildParts=[
+	HK MP5K cocking handle
+]
+Recoil=67.000000
+Ergonomics=55.000000
+Information_Eng=HK MP5K (K from the German word Kurz - "short") is a shorter version of MP5 SMG which was designed for close quarters combat use by clandestine operations and special services.
+basePrice=9500
+width=1
+height=1
+avg24hPrice=16658
+low24hPrice=5999
+lastOfferCount=8
+Sell_Prapor=4750
+Sell_Fence=3800
+Sell_Skier=4655
+Sell_Peacekeeper=37
+Sell_Mechanic=5320
+Sell_Flea Market=16600
+weight=0.680000
+fleaMarketFee=876
+propertiestype=ItemPropertiesWeapon

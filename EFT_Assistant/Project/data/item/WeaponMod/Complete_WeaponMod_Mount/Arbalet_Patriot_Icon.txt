@@ -1,0 +1,27 @@
+IDstr=5d024f5cd7ad1a04a067e91a
+Name=Mosin Rifle Arbalet Patriot K+W rail mount
+ShortName=Patriot K+W
+Itemtype=Mount
+Conflict=[
+	Mosin Rifle AIM Sports MNG rail mount,
+	Mosin Rifle AIM Sports Tri-Rail mount
+]
+Recoil=0.000000
+Ergonomics=-1.000000
+Information_Eng=The Patriot K+W rail mount for Mosin rifle, manufactured by Arbalet.
+basePrice=2450
+width=1
+height=1
+avg24hPrice=17901
+low24hPrice=10000
+lastOfferCount=10
+Sell_Prapor=1225
+Sell_Fence=980
+Sell_Skier=1200
+Sell_Peacekeeper=10
+Sell_Mechanic=1372
+Sell_Jaeger=1470
+Sell_Flea Market=10000
+weight=0.200000
+fleaMarketFee=709
+propertiestype=ItemPropertiesWeaponMod

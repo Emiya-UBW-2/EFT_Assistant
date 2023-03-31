@@ -1,0 +1,25 @@
+IDstr=57cffcdd24597763f5110006
+Name=Magpul M-LOK AFG tactical foregrip (Olive Drab)
+ShortName=AFG M-LOK
+Itemtype=Foregrip
+Conflict=[
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
+]
+Recoil=-2.000000
+Ergonomics=7.000000
+Information_Eng=The Magpul M-LOK AFG tactical grip. It can only be installed on Magpul licensed M-LOK slots on applicable equipment. Olive Drab version.
+basePrice=7984
+width=1
+height=1
+avg24hPrice=17588
+low24hPrice=8888
+lastOfferCount=3
+Sell_Prapor=3992
+Sell_Fence=3193
+Sell_Skier=3912
+Sell_Peacekeeper=31
+Sell_Mechanic=4471
+Sell_Flea Market=13000
+weight=0.042000
+fleaMarketFee=684
+propertiestype=ItemPropertiesWeaponMod

@@ -515,7 +515,13 @@ namespace FPS_n2 {
 			auto data_t = GetFileNamesInDirectory(Path.c_str());
 			for (auto& d : data_t) {
 				if (d.cFileName[0] != '.') {
-					SetList((Path + d.cFileName + "/").c_str());
+					std::string Path2 = Path + d.cFileName + "/";
+					auto data_t2 = GetFileNamesInDirectory(Path2.c_str());
+					for (auto& d2 : data_t2) {
+						if (d2.cFileName[0] != '.') {
+							SetList((Path2 + d2.cFileName + "/").c_str());
+						}
+					}
 				}
 			}
 			for (auto& t : m_List) {
@@ -657,7 +663,7 @@ namespace FPS_n2 {
 				if (!jd.m_IsFileOpened) {
 					std::string FolderPath = jd.categorytypes;
 
-					std::string ParentPath = "data/item/Maked/" + jd.categorytypes;
+					std::string ParentPath = "data/item/Maked/Maked/" + jd.categorytypes;
 
 					CreateDirectory(ParentPath.c_str(), NULL);
 

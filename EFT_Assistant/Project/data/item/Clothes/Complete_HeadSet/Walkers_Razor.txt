@@ -1,0 +1,23 @@
+IDstr=5e4d34ca86f774264f758330
+Name=Walker's Razor Digital headset
+ShortName=Razor
+Itemtype=Headphones
+Conflict=[
+	Ops-Core FAST RAC Headset
+]
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=The Razor electronic ear muffs feature an ultra low-profile design and a rubberized coating for added durability and comfort, also providing optimal hearing protection. Manufactured by Walker's.
+basePrice=35100
+width=2
+height=2
+avg24hPrice=33536
+low24hPrice=28888
+lastOfferCount=19
+Sell_Fence=14040
+Sell_Skier=17199
+Sell_Ragman=21762
+Sell_Flea Market=32000
+weight=0.430000
+fleaMarketFee=2007
+propertiestype=

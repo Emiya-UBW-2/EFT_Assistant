@@ -1,0 +1,26 @@
+IDstr=5ea03e9400685063ec28bfa4
+Name=PPSh-41 stock
+ShortName=PPSh41
+Itemtype=Stock
+Conflict=[
+	Mosin Rifle Kochetov mount
+]
+Recoil=-29.000000
+Ergonomics=28.000000
+Information_Eng=A standard-issue wooden stock for the PPSh-41 submachine gun.
+basePrice=2120
+width=2
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
+Sell_Prapor=1060
+Sell_Fence=848
+Sell_Skier=1038
+Sell_Peacekeeper=8
+Sell_Mechanic=1187
+Sell_Jaeger=1272
+Sell_Flea Market=2222
+weight=1.050000
+fleaMarketFee=130
+propertiestype=ItemPropertiesWeaponMod

@@ -1,0 +1,34 @@
+IDstr=603373004e02ce1eaa358814
+Name=STM-9 9x19 16 inch barrel
+ShortName=STM-9 16"
+Itemtype=Barrel
+ChildParts=[
+	STM-9 9x19 muzzle brake,
+	KRISS Vector 9x19 flash hider,
+	Gemtech ONE Direct Thread Mount adapter,
+	Rotor 43 9x19 muzzle brake-compensator,
+	SIG Sauer SRD9 9x19 sound suppressor,
+	SilencerCo Osprey 9 9x19 sound suppressor
+]
+Conflict=[
+	AR-15 Lone Star Ion Lite handguard
+]
+Recoil=-10.000000
+Ergonomics=-19.000000
+Information_Eng=A 16 inches (406mm) long barrel for the STM-9 carbine, chambered in 9x19.
+basePrice=12500
+width=3
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
+Sell_Prapor=6250
+Sell_Fence=5000
+Sell_Skier=6125
+Sell_Peacekeeper=48
+Sell_Mechanic=7000
+Sell_Jaeger=7500
+Sell_Flea Market=74999
+weight=0.800000
+fleaMarketFee=6604
+propertiestype=ItemPropertiesBarrel

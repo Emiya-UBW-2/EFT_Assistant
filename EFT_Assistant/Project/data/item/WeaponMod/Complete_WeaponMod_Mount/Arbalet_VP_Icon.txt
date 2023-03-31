@@ -1,0 +1,26 @@
+IDstr=609a4b4fe2ff132951242d04
+Name=VPO-102 Arbalet mount
+ShortName=Arbalet VPO
+Itemtype=Mount
+Conflict=[
+	AK CNC Guns OV GP handguard,
+]
+Recoil=0.000000
+Ergonomics=-2.000000
+Information_Eng=An aluminum mount for installing various sights and accessories on to the VPO-102 Vepr-Hunter carbine, manufactured by Arbalet.
+basePrice=2902
+width=1
+height=1
+avg24hPrice=8863
+low24hPrice=4999
+lastOfferCount=5
+Sell_Prapor=1451
+Sell_Fence=1160
+Sell_Skier=1421
+Sell_Peacekeeper=11
+Sell_Mechanic=1625
+Sell_Jaeger=1741
+Sell_Flea Market=6999
+weight=0.120000
+fleaMarketFee=394
+propertiestype=ItemPropertiesWeaponMod

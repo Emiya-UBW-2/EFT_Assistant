@@ -1,0 +1,27 @@
+IDstr=606587d11246154cad35d635
+Name=CMMG RipStock buttstock
+ShortName=RipStock
+Itemtype=Stock
+Conflict=[
+	AR-15 ADAR 2-15 wooden stock,
+	AR-15 Hera Arms CQR pistol grip/buttstock,
+]
+Recoil=-27.000000
+Ergonomics=8.000000
+Information_Eng=The RipStock minimalistic telescopic buttstock, engineered for lightning-fast deployment to the user's personal setting. Manufactured by CMMG.
+basePrice=3500
+width=2
+height=1
+avg24hPrice=9440
+low24hPrice=3500
+lastOfferCount=4
+Sell_Prapor=1750
+Sell_Fence=1400
+Sell_Skier=1715
+Sell_Peacekeeper=14
+Sell_Mechanic=1960
+Sell_Jaeger=2100
+Sell_Flea Market=8997
+weight=0.280000
+fleaMarketFee=518
+propertiestype=ItemPropertiesWeaponMod

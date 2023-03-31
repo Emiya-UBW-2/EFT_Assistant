@@ -1,0 +1,42 @@
+IDstr=5fce0f9b55375d18a253eff2
+Name=KRISS Vector side rail
+ShortName=Vector side
+Itemtype=Mount
+ChildParts=[
+	Kiba Arms 25mm accessory ring mount,
+	AN/PEQ-15 tactical device,
+	Glock GTL 21 tactical flashlight with laser,
+	Holosun LS321 Tactical device,
+	LA-5B/PEQ tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	NcSTAR Tactical blue laser LAM-module,
+	Steiner DBAL-PL tactical device,
+	SureFire XC1 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Zenit Perst-3 tactical device
+]
+Conflict=[
+	KRISS Vector Mk.5 modular rail,
+]
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=A side rail for the KRISS Vector submachine gun, allows installation of additional tactical equipment.
+basePrice=1033
+width=1
+height=1
+avg24hPrice=26817
+low24hPrice=9989
+lastOfferCount=1
+Sell_Prapor=516
+Sell_Fence=413
+Sell_Skier=506
+Sell_Peacekeeper=4
+Sell_Mechanic=578
+Sell_Jaeger=619
+Sell_Flea Market=12000
+weight=0.050000
+fleaMarketFee=1595
+propertiestype=ItemPropertiesWeaponMod

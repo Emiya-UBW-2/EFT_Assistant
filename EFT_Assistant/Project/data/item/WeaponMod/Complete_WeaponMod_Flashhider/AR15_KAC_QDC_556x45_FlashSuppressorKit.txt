@@ -1,0 +1,26 @@
+IDstr=56ea8180d2720bf2698b456a
+Name=AR-15 KAC QDC 5.56x45 Flash Suppressor Kit
+ShortName=QDC 556
+Itemtype=Flashhider
+ChildParts=[
+	KAC QDSS NT-4 5.56x45 sound suppressor (Black),
+	KAC QDSS NT-4 5.56x45 sound suppressor (FDE)
+]
+Recoil=-8.000000
+Ergonomics=-1.000000
+Information_Eng=The KAC 5.56 QD muzzle compensator/flash hider is an effective flash suppressor that also serves as a platform for attaching a KAC quick detach QDSS-NT4 sound suppressor. Installed on weapons based on AR-15/M16/M4.
+basePrice=5500
+width=1
+height=1
+avg24hPrice=15614
+low24hPrice=7777
+lastOfferCount=7
+Sell_Prapor=2750
+Sell_Fence=2200
+Sell_Skier=2695
+Sell_Peacekeeper=21
+Sell_Mechanic=3080
+Sell_Flea Market=9111
+weight=0.063000
+fleaMarketFee=480
+propertiestype=ItemPropertiesWeaponMod

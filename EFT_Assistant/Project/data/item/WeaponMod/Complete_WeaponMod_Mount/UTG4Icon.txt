@@ -1,0 +1,29 @@
+IDstr=5addbfef5acfc400185c2857
+Name=M14 Leapers UTG 4-Point Locking Deluxe mount
+ShortName=UTG 4p
+Itemtype=Mount
+Conflict=[
+	M14 SAGE International DCSB mount,
+	M14 Vltor CASV-14 rail system,
+	M14 SAGE International M14ALCS chassis,
+	M14 TROY S.A.S.S. Chassis stock
+]
+Recoil=0.000000
+Ergonomics=-2.000000
+Information_Eng=The 4-Point Locking Deluxe mount for M14 rifles, manufactured by Leapers Inc. It has Weaver/Picatinny type rails for mounting various scopes and reflex sights.
+basePrice=9811
+width=1
+height=1
+avg24hPrice=25454
+low24hPrice=13000
+lastOfferCount=2
+Sell_Prapor=4905
+Sell_Fence=3924
+Sell_Skier=4807
+Sell_Peacekeeper=38
+Sell_Mechanic=5494
+Sell_Jaeger=5886
+Sell_Flea Market=22000
+weight=0.250000
+fleaMarketFee=1213
+propertiestype=ItemPropertiesWeaponMod

@@ -1,0 +1,27 @@
+IDstr=5d135e83d7ad1a21b83f42d8
+Name=Magpul CTR Carbine stock (Black)
+ShortName=CTR
+Itemtype=Stock
+Conflict=[
+	AR-15 ADAR 2-15 wooden stock,
+	AR-15 Hera Arms CQR pistol grip/buttstock,
+]
+Recoil=-32.000000
+Ergonomics=10.000000
+Information_Eng=A drop-in replacement buttstock for AR-15/M16 carbines by Magpul Original Equipment. Uses mil-spec sized receiver extension tubes. Frame profile avoids snagging and shields the release latch to prevent accidental activation, includes a standard 0.30" thick rubber butt-pad to prevent slippage even with body armor or modular gear. Black version.
+basePrice=8120
+width=2
+height=1
+avg24hPrice=38720
+low24hPrice=25500
+lastOfferCount=35
+Sell_Prapor=4060
+Sell_Fence=3248
+Sell_Skier=3978
+Sell_Peacekeeper=32
+Sell_Mechanic=4547
+Sell_Jaeger=4872
+Sell_Flea Market=25500
+weight=0.226000
+fleaMarketFee=1590
+propertiestype=ItemPropertiesWeaponMod

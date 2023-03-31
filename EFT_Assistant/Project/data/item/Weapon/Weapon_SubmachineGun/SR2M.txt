@@ -1,0 +1,42 @@
+IDstr=62e14904c2699c0ec93adc47
+Name=SR-2M "Veresk" 9x21 submachine gun
+ShortName=SR-2M
+Itemtype=SMG
+ChildParts=[
+	SR-2M 9x21 30-round magazine,
+	SR-2M 9x21 20-round magazine
+]
+ChildParts=[
+	SR-2M 9x21 sound suppressor (SV-1381),
+	SR-2M 9x21 hand stopper
+]
+ChildParts=[
+	SR-2M pistol grip,
+	SR-2M pistol grip (Black)
+]
+ChildParts=[
+	SR-2M polymer handguard,
+	SR-2M polymer handguard (Black)
+]
+ChildParts=[
+	SR-2M folding stock,
+	SR-2MP folding stock
+]
+Recoil=63.000000
+Ergonomics=59.000000
+Information_Eng=SR-2M "Veresk" is a compact submachine gun designed for a powerful 9x21mm armor-piercing cartridge by order of the FSB and the FSO of the Russian Federation. This submachine gun is part of a high-performance rifle complex designed for special forces. Equipped with a folding foregrip. Developed by TsNIItochmash.
+basePrice=31000
+width=2
+height=1
+avg24hPrice=46125
+low24hPrice=37000
+lastOfferCount=21
+Sell_Prapor=15500
+Sell_Fence=12400
+Sell_Skier=15190
+Sell_Peacekeeper=120
+Sell_Mechanic=17360
+Sell_Flea Market=38500
+weight=0.938000
+fleaMarketFee=2103
+propertiestype=ItemPropertiesWeapon

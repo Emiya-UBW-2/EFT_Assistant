@@ -1,0 +1,31 @@
+IDstr=5b7be1125acfc4001876c0e5
+Name=SA-58 7.62x51 16 inch barrel
+ShortName=SA58 16"
+Itemtype=Barrel
+Conflict=[
+	SA-58/FAL AIM Sports Universal KeyMod handguard,
+	SA-58/FAL AIM Sports Universal M-LOK handguard,
+	SA-58/FAL Belgian Style handguard,
+	FAL original handguard,
+	SA-58/FAL Vltor CASV-FAL handguard,
+	SA-58 quad rail full length handguard
+]
+Recoil=-6.000000
+Ergonomics=-18.000000
+Information_Eng=A 16 inch (406mm) barrel for DS Arms SA-58 7.62x51.
+basePrice=23397
+width=3
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
+Sell_Prapor=11698
+Sell_Fence=9358
+Sell_Skier=11464
+Sell_Peacekeeper=91
+Sell_Mechanic=13102
+Sell_Jaeger=14038
+Sell_Flea Market=50000
+weight=0.609000
+fleaMarketFee=2724
+propertiestype=ItemPropertiesBarrel

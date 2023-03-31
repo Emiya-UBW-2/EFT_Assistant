@@ -1,0 +1,39 @@
+IDstr=5c17664f2e2216398b5a7e3c
+Name=AK Vltor CMRD KeyMod handguard
+ShortName=CMRD
+Itemtype=Handguard
+ChildParts=[
+	Monstrum Tactical Vertical Fore Grip KeyMod,
+	SIG Sauer Vertical Foregrip KeyMod (Black),
+	A3 Tactical MVF001 KeyMod vertical foregrip (Black),
+	Strike Industries KeyMod 6 inch rail,
+	Vltor CASV KeyMod 6 inch rail
+]
+ChildParts=[
+	Strike Industries KeyMod 4 inch rail,
+	Vltor CASV KeyMod 2 inch rail,
+	Vltor CASV KeyMod 4 inch rail
+]
+Conflict=[
+	Kalashnikov AK-102 5.56x45 assault rifle,
+	Kalashnikov AK-104 7.62x39 assault rifle,
+	Kalashnikov AK-105 5.45x39 assault rifle
+]
+Recoil=-4.000000
+Ergonomics=10.000000
+Information_Eng=The CMRD lightweight handguard by Vltor, compatible with AK-74 and AKM series automatic rifles. Includes KeyMod slots for rail installation.
+basePrice=28100
+width=2
+height=1
+avg24hPrice=42572
+low24hPrice=33333
+lastOfferCount=21
+Sell_Prapor=14050
+Sell_Fence=11240
+Sell_Skier=13769
+Sell_Peacekeeper=109
+Sell_Mechanic=15736
+Sell_Flea Market=41000
+weight=0.397000
+fleaMarketFee=2169
+propertiestype=ItemPropertiesWeaponMod

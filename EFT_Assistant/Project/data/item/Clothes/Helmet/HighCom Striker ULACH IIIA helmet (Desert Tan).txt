@@ -1,0 +1,26 @@
+IDstr=5b40e2bc5acfc40016388216
+Name=HighCom Striker ULACH IIIA helmet (Desert Tan)
+ShortName=ULACH
+Itemtype=Headwear
+Conflict=[
+	Faceless mask,
+	Tagilla's welding mask "Gorilla",
+	Tagilla's welding mask "UBEY",
+]
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=A combat helmet with the ears and back of the head protection, manufactured by HighCom. Does not feature any additional mounts. Desert Tan version.
+basePrice=72546
+width=2
+height=2
+avg24hPrice=73766
+low24hPrice=62000
+lastOfferCount=42
+Sell_Fence=29018
+Sell_Skier=35547
+Sell_Peacekeeper=281
+Sell_Ragman=44978
+Sell_Flea Market=66666
+weight=1.900000
+fleaMarketFee=4164
+propertiestype=ItemPropertiesHelmet

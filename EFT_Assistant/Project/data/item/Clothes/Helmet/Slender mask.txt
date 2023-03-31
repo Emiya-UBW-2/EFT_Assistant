@@ -1,0 +1,42 @@
+IDstr=5bd06f5d86f77427101ad47c
+Name=Slender mask
+ShortName=Mask
+Itemtype=Face Cover
+Conflict=[
+	Army cap,
+	Baseball cap,
+	BEAR baseball cap (Green),
+	USEC baseball cap (Tan),
+	EMERCOM cap,
+	Police cap,
+	Rivals 2020 cap,
+	DevTac Ronin ballistic helmet,
+	Bandana,
+	BEAR baseball cap (Black),
+	Beret (Black),
+	Beret (Blue),
+	Beret (Olive),
+	Door Kicker boonie hat,
+	Kotton beanie,
+	MIL-TEC boonie hat,
+	Pompon hat,
+	Rivals 2020 beanie,
+	USEC baseball cap (Black)
+]
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=A non-combat facemask for intimidation effect. Would've probably actually intimidated someone back in 2012.
+basePrice=16000
+width=2
+height=2
+avg24hPrice=19105
+low24hPrice=8000
+lastOfferCount=28
+Sell_Fence=6400
+Sell_Skier=7840
+Sell_Peacekeeper=62
+Sell_Ragman=9920
+Sell_Flea Market=19000
+weight=0.100000
+fleaMarketFee=1053
+propertiestype=

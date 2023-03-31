@@ -1,0 +1,49 @@
+IDstr=595cfa8b86f77427437e845b
+Name=AR-15 War Sport LVOA-C handguard (Black)
+ShortName=LVOA-C
+Itemtype=Handguard
+ChildParts=[
+	NcSTAR MPR45 Backup mount
+]
+ChildParts=[
+	AN/PEQ-15 tactical device,
+	Holosun LS321 Tactical device,
+	LA-5B/PEQ tactical device,
+	SureFire XC1 tactical flashlight,
+	Zenit Perst-3 tactical device
+]
+ChildParts=[
+	Vltor CASV KeyMod 2 inch rail,
+	Vltor CASV KeyMod 4 inch rail,
+	Vltor CASV KeyMod 6 inch rail
+]
+ChildParts=[
+	KAC Folding front sight,
+	Magpul MBUS Gen2 flip-up front sight,
+	Magpul MBUS Gen2 flip-up front sight (FDE),
+	HK MP7 flip-up front sight,
+	MPX flip-up front sight,
+	AR-15 Leapers UTG Low Profile A2 front sight
+]
+Conflict=[
+	Rotor 43 5.56x45 muzzle brake-compensator,
+	AR-15 5.56x45 260mm barrel
+]
+Recoil=-2.000000
+Ergonomics=10.000000
+Information_Eng=The War Sport LVOA-C lightweight handguard is designed for use with sport rifles based on AR-15 rifles.
+basePrice=19988
+width=3
+height=1
+avg24hPrice=50282
+low24hPrice=29999
+lastOfferCount=22
+Sell_Prapor=9994
+Sell_Fence=7995
+Sell_Skier=9794
+Sell_Peacekeeper=78
+Sell_Mechanic=11193
+Sell_Flea Market=40000
+weight=0.580000
+fleaMarketFee=2149
+propertiestype=ItemPropertiesWeaponMod

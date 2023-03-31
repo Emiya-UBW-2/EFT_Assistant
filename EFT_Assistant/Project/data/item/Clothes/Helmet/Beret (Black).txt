@@ -1,0 +1,30 @@
+IDstr=5f60e6403b85f6263c14558c
+Name=Beret (Black)
+ShortName=Beret
+Itemtype=Headwear
+Conflict=[
+	Faceless mask,
+	Ghoul mask,
+	Pestily plague mask,
+	Slender mask,
+	GP-7 gas mask,
+	Tagilla's welding mask "Gorilla",
+	Tagilla's welding mask "UBEY",
+]
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=Just a black beret.
+basePrice=1500
+width=1
+height=1
+avg24hPrice=14456
+low24hPrice=6000
+lastOfferCount=10
+Sell_Fence=600
+Sell_Skier=735
+Sell_Peacekeeper=6
+Sell_Ragman=930
+Sell_Flea Market=6000
+weight=0.100000
+fleaMarketFee=421
+propertiestype=

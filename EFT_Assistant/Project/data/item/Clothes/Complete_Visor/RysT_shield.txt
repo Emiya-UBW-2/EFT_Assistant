@@ -1,0 +1,23 @@
+IDstr=5f60c85b58eff926626a60f7
+Name=Rys-T face shield
+ShortName=Rys-T FS
+Itemtype=Armored equipment
+Conflict=[
+	GP-7 gas mask,
+]
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=A special armored face shield for the "Rys-T" heavy assault helmet. Increases the chances of surviving the impacts of bullets and shrapnel.
+basePrice=79460
+width=2
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=0
+Sell_Fence=31784
+Sell_Skier=38935
+Sell_Peacekeeper=308
+Sell_Ragman=49265
+weight=1.200000
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment

@@ -1,0 +1,56 @@
+IDstr=5c6d11072e2216000e69d2e4
+Name=HK 416A5 Midwest Industries 13.5 inch M-LOK handguard
+ShortName=416A5 Midwest 13.5"
+Itemtype=Handguard
+ChildParts=[
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	AN/PEQ-2 tactical device,
+	LA-5B/PEQ tactical device,
+	SureFire XC1 tactical flashlight,
+	Zenit Perst-3 tactical device
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK Offset Light Mount
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK Offset Light Mount
+]
+ChildParts=[
+	NcSTAR MPR45 Backup mount
+]
+ChildParts=[
+	KAC Folding front sight,
+	Magpul MBUS Gen2 flip-up front sight,
+	Magpul MBUS Gen2 flip-up front sight (FDE),
+	HK MP7 flip-up front sight,
+	MPX flip-up front sight,
+	AR-15 Leapers UTG Low Profile A2 front sight
+]
+Conflict=[
+	HK 416A5 5.56x45 10.6 inch barrel,
+	HK 416A5 5.56x45 11 inch barrel,
+	HK 416A5 5.56x45 14.5 inch barrel
+]
+Recoil=-1.000000
+Ergonomics=10.000000
+Information_Eng=The Midwest Industries M-LOK foregrip for 416A5 equipped with an M-LOK interface for the installation of additional devices and accessories.
+basePrice=14400
+width=3
+height=1
+avg24hPrice=10179
+low24hPrice=8000
+lastOfferCount=6
+Sell_Prapor=7200
+Sell_Fence=5760
+Sell_Skier=7056
+Sell_Peacekeeper=56
+Sell_Mechanic=8064
+Sell_Flea Market=9000
+weight=0.370000
+fleaMarketFee=758
+propertiestype=ItemPropertiesWeaponMod

@@ -1,0 +1,38 @@
+IDstr=603372f153a60014f970616d
+Name=STM-9 9x19 14 inch barrel
+ShortName=STM-9 14"
+Itemtype=Barrel
+ChildParts=[
+	STM-9 9x19 muzzle brake,
+	KRISS Vector 9x19 flash hider,
+	Gemtech ONE Direct Thread Mount adapter,
+	Rotor 43 9x19 muzzle brake-compensator,
+	SIG Sauer SRD9 9x19 sound suppressor,
+	SilencerCo Osprey 9 9x19 sound suppressor
+]
+Conflict=[
+	AR-15 Geissele SMR MK16 13.5 inch M-LOK handguard,
+	AR-15 Lone Star Ion Lite handguard,
+	AR-15 SAI 14.5 inch QD Rail handguard,
+	AR-15 War Sport LVOA-C handguard (Black),
+	AR-15 War Sport LVOA-S handguard (Black)
+]
+Recoil=-8.000000
+Ergonomics=-15.000000
+Information_Eng=A 14 inches (355mm) long barrel for the STM-9 carbine, chambered in 9x19.
+basePrice=10000
+width=3
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
+Sell_Prapor=5000
+Sell_Fence=4000
+Sell_Skier=4900
+Sell_Peacekeeper=39
+Sell_Mechanic=5600
+Sell_Jaeger=6000
+Sell_Flea Market=48000
+weight=0.600000
+fleaMarketFee=3715
+propertiestype=ItemPropertiesBarrel

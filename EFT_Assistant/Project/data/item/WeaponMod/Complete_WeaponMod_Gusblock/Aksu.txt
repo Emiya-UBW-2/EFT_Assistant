@@ -1,0 +1,28 @@
+IDstr=59d36a0086f7747e673f3946
+Name=AKS-74U gas tube (6P26 Sb.1-2)
+ShortName=6P26 Sb.1-2
+Itemtype=Gas block
+ChildParts=[
+	AKS-74U Alfa Arms Goliaf handguard,
+	AKS-74U Zenit B-11 handguard,
+	AKS-74U wooden handguard (6P26 Sb.6),
+	AKS-74U CAA XRSU47SU tactical handguard
+]
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=A standard gas tube for AKS-74U automatic rifles. Gas tubes channel the travel direction of gas piston.
+basePrice=2001
+width=1
+height=1
+avg24hPrice=5000
+low24hPrice=5000
+lastOfferCount=1
+Sell_Prapor=1000
+Sell_Fence=800
+Sell_Skier=980
+Sell_Peacekeeper=8
+Sell_Mechanic=1120
+Sell_Flea Market=5000
+weight=0.030000
+fleaMarketFee=285
+propertiestype=ItemPropertiesWeaponMod

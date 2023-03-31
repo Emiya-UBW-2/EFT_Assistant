@@ -1,0 +1,35 @@
+IDstr=5a789261c5856700186c65d3
+Name=M870 Mesa Tactical magazine clamp
+ShortName=MT Clamp
+Itemtype=Mount
+ChildParts=[
+	NcSTAR Tactical blue laser LAM-module,
+	Glock GTL 21 tactical flashlight with laser,
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Kiba Arms 25mm accessory ring mount
+]
+Recoil=0.000000
+Ergonomics=-1.000000
+Information_Eng=A magazine clamp for the Remington Model 870 produced by Mesa Tactical.
+basePrice=4277
+width=1
+height=1
+avg24hPrice=11978
+low24hPrice=5000
+lastOfferCount=9
+Sell_Prapor=2138
+Sell_Fence=1710
+Sell_Skier=2095
+Sell_Peacekeeper=17
+Sell_Mechanic=2395
+Sell_Jaeger=2566
+Sell_Flea Market=5555
+weight=0.087000
+fleaMarketFee=300
+propertiestype=ItemPropertiesWeaponMod

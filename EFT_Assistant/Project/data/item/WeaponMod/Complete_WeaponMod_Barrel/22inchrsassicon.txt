@@ -1,0 +1,53 @@
+IDstr=5a34fae7c4a2826c6e06d760
+Name=AR-10 7.62x51 22 inch barrel
+ShortName=AR-10 22"
+Itemtype=Barrel
+ChildParts=[
+	AWC PSR 7.62x51 muzzle brake,
+	AR-10 2A Armanent X3 7.62x51 compensator,
+	AR-10 AAC Blackout 51T 7.62x51 flash hider,
+	AR-10 CMMG SV Brake 7.62x51 muzzle brake,
+	AR-10 Daniel Defense WAVE 7.62x51 muzzle brake,
+	Desert Tech 7.62x51 flash hider,
+	AR-10 Fortis RED Brake 7.62x51 muzzle brake,
+	AR-10 KAC QDC 7.62x51 Flash Suppressor Kit,
+	AR-10 KAC QDC 7.62x51 Muzzle Brake Kit,
+	AR-10 Keeno Arms SHREWD 7.62x51 muzzle brake,
+	AR-10 Lantac Drakon 7.62x51 muzzle brake-compensator,
+	AR-10 Nordic Components Corvette 7.62x51 compensator,
+	AR-10 Odin Works ATLAS-7 7.62x51 muzzle brake,
+	AR-10 Precision Armanent M11 Severe-Duty 7.62x51 muzzle brake,
+	AR-10 SureFire ProComp 7.62x51 muzzle brake,
+	AR-10 SureFire Warden 7.62x51 blast regulator,
+	AR-10 TAA ZK-38 7.62x51 muzzle brake,
+	AR-10 Thunder Beast Arms 30CB 7.62x51 muzzle brake,
+	Gemtech ONE Direct Thread Mount adapter,
+	SIG Sauer Taper-LOK 7.62x51/.300 BLK muzzle adapter,
+	SilencerCo Hybrid 46 Direct Thread Mount adapter,
+	Lantac BMD Blast Mitigation Device A3 direct thread adapter,
+	SIG Sauer SRD762Ti 7.62x51 sound suppressor
+]
+ChildParts=[
+	AR-10 CMMG low profile gas block,
+	AR-10 JP Enterprises Gas System-6,
+	AR-10 KAC Low Profile Gas Block
+]
+Recoil=-9.000000
+Ergonomics=-22.000000
+Information_Eng=A 22 inch (558mm) barrel for AR-10 based weapons for 7.62x51 NATO ammo.
+basePrice=47834
+width=5
+height=1
+avg24hPrice=28290
+low24hPrice=20000
+lastOfferCount=1
+Sell_Prapor=23917
+Sell_Fence=19133
+Sell_Skier=23438
+Sell_Peacekeeper=186
+Sell_Mechanic=26787
+Sell_Jaeger=28700
+Sell_Flea Market=28888
+weight=1.200000
+fleaMarketFee=2517
+propertiestype=ItemPropertiesBarrel

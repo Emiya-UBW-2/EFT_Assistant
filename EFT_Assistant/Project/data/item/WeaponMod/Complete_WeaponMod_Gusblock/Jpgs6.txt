@@ -1,0 +1,34 @@
+IDstr=5a34fbadc4a28200741e230a
+Name=AR-10 JP Enterprises Gas System-6
+ShortName=GS-6
+Itemtype=Gas block
+ChildParts=[
+	KAC Folding front sight,
+	Magpul MBUS Gen2 flip-up front sight,
+	Magpul MBUS Gen2 flip-up front sight (FDE),
+	HK MP7 flip-up front sight,
+	MPX flip-up front sight
+]
+Conflict=[
+	AR-15 Alexander Arms MK10 rifle length handguard,
+	AR-15 War Sport LVOA-C handguard (Black),
+	AR-15 War Sport LVOA-S handguard (Black)
+]
+Recoil=-4.000000
+Ergonomics=-2.000000
+Information_Eng=Installed as a standard AR-10/AR-15-based weapons gas block, adding a Picatinny rail that allows installing alternative accessory front sights.
+basePrice=14690
+width=1
+height=1
+avg24hPrice=12565
+low24hPrice=11000
+lastOfferCount=9
+Sell_Prapor=7345
+Sell_Fence=5876
+Sell_Skier=7198
+Sell_Peacekeeper=57
+Sell_Mechanic=8226
+Sell_Flea Market=11000
+weight=0.218000
+fleaMarketFee=788
+propertiestype=ItemPropertiesWeaponMod

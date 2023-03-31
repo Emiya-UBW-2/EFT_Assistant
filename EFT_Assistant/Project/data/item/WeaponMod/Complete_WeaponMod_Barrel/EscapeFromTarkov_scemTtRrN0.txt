@@ -1,0 +1,27 @@
+IDstr=622b379bf9cfc87d675d2de5
+Name=HK G36 5.56x45 228mm barrel
+ShortName=G36 228mm
+Itemtype=Barrel
+Conflict=[
+	HK G36 4-vent handguard,
+	HK G36 6-vent handguard,
+]
+Recoil=-2.000000
+Ergonomics=-8.000000
+Information_Eng=A 228mm 5.56x45 NATO barrel for the HK G36 assault rifle.
+basePrice=14000
+width=2
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
+Sell_Prapor=7000
+Sell_Fence=5600
+Sell_Skier=6860
+Sell_Peacekeeper=54
+Sell_Mechanic=7840
+Sell_Jaeger=8400
+Sell_Flea Market=55000
+weight=0.390000
+fleaMarketFee=3821
+propertiestype=ItemPropertiesBarrel

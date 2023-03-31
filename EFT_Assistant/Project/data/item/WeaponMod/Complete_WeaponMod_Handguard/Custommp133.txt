@@ -1,0 +1,70 @@
+IDstr=55d45f484bdc2d972f8b456d
+Name=MP-133 custom plastic forestock with rails
+ShortName=MP133 rails
+Itemtype=Handguard
+ChildParts=[
+	ASh-12 vertical foregrip,
+	BCM GUNFIGHTER MOD 3 vertical foregrip,
+	Fortis Shift tactical foregrip,
+	KAC vertical foregrip,
+	Magpul AFG tactical foregrip (Black),
+	Magpul AFG tactical foregrip (FDE),
+	Magpul AFG tactical foregrip (Forest Green),
+	Magpul AFG tactical foregrip (Olive Drab),
+	Magpul RVG foregrip (Black),
+	RTM Pillau tactical foregrip,
+	Stark SE-5 Express Forward foregrip,
+	Strike Industries Cobra Tactical foregrip,
+	TangoDown Stubby BGV-MK46K foregrip (Black),
+	TangoDown Stubby BGV-MK46K foregrip (FDE),
+	TangoDown Stubby BGV-MK46K foregrip (Stealth Gray),
+	Viking Tactics UVG tactical foregrip,
+	Zenit RK-0 tactical foregrip,
+	Zenit RK-1 tactical foregrip,
+	Zenit RK-1 tactical foregrip on B-25U mount,
+	Zenit RK-2 tactical foregrip,
+	Zenit RK-4 tactical foregrip,
+	Zenit RK-5 tactical foregrip,
+	Zenit RK-6 tactical foregrip,
+	Tactical Dynamics Skeletonized Foregrip
+]
+ChildParts=[
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Glock GTL 21 tactical flashlight with laser,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire XC1 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Kiba Arms 25mm accessory ring mount,
+	NcSTAR Tactical blue laser LAM-module
+]
+ChildParts=[
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Glock GTL 21 tactical flashlight with laser,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire XC1 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Kiba Arms 25mm accessory ring mount,
+	NcSTAR Tactical blue laser LAM-module
+]
+Recoil=-1.000000
+Ergonomics=4.000000
+Information_Eng=A nonstandard polymer forestock for MP-133 pump-action shotguns, manufactured by an unknown third-party producer. Equipped with 2 short and 1 long mount for installation of additional equipment.
+basePrice=9150
+width=2
+height=1
+avg24hPrice=33215
+low24hPrice=15000
+lastOfferCount=17
+Sell_Prapor=4575
+Sell_Fence=3660
+Sell_Skier=4483
+Sell_Peacekeeper=35
+Sell_Mechanic=5124
+Sell_Flea Market=49800
+weight=0.500000
+fleaMarketFee=4141
+propertiestype=ItemPropertiesWeaponMod

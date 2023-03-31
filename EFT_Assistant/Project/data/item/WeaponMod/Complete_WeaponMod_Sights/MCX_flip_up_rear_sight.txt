@@ -1,0 +1,28 @@
+IDstr=5fc0fa957283c4046c58147e
+Name=MCX flip-up rear sight
+ShortName=MCX RS
+Itemtype=Ironsight
+SightRange=300
+Conflict=[
+	KMZ 1P69 Weaver mount,
+	ASh-12 rear sight carry handle,
+	VOMZ Pilad 4x32 24.5mm riflescope,
+]
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=A detachable flip-up rear sight for MCX assault rifles, originally designed for the AR platform. Manufactured by SIG Sauer.
+basePrice=1050
+width=1
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
+Sell_Prapor=525
+Sell_Fence=420
+Sell_Skier=514
+Sell_Peacekeeper=4
+Sell_Mechanic=588
+Sell_Flea Market=999
+weight=0.130000
+fleaMarketFee=61
+propertiestype=ItemPropertiesScope

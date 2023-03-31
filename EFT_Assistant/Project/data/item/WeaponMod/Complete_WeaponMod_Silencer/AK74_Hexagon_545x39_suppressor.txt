@@ -1,0 +1,25 @@
+IDstr=593d493f86f7745e6b2ceb22
+Name=AK-74 Hexagon 5.45x39 sound suppressor
+ShortName=Hexagon AK-74
+Itemtype=Silencer
+Conflict=[
+	AKS-74U Alfa Arms Goliaf handguard,
+]
+Recoil=-9.000000
+Ergonomics=-22.000000
+Information_Eng=A sound moderator for AK-74 automatic rifles, manufactured by Hexagon.
+basePrice=39372
+width=2
+height=1
+avg24hPrice=32755
+low24hPrice=26666
+lastOfferCount=14
+Sell_Prapor=19686
+Sell_Fence=15748
+Sell_Skier=19292
+Sell_Peacekeeper=153
+Sell_Mechanic=22048
+Sell_Flea Market=26666
+weight=0.462000
+fleaMarketFee=2080
+propertiestype=ItemPropertiesWeaponMod

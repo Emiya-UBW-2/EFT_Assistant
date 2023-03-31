@@ -1,0 +1,24 @@
+IDstr=5f60c076f2bcbb675b00dac2
+Name=Galvion Caiman Hybrid Ballistic Mandible Guard
+ShortName=Caiman BMG
+Itemtype=Armored equipment
+Conflict=[
+	Respirator
+]
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=A special additional ballistic protection for the Caiman Hybrid helmet, mounted on the side rails. Manufactured by Galvion.
+basePrice=24500
+width=2
+height=2
+avg24hPrice=28862
+low24hPrice=23500
+lastOfferCount=8
+Sell_Fence=9800
+Sell_Skier=12005
+Sell_Peacekeeper=95
+Sell_Ragman=15190
+Sell_Flea Market=27444
+weight=1.100000
+fleaMarketFee=1555
+propertiestype=ItemPropertiesArmorAttachment

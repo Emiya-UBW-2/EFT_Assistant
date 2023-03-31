@@ -1,0 +1,25 @@
+IDstr=5ac7655e5acfc40016339a19
+Name=AK-74M 5.45x39 muzzle brake-compensator (6P20 0-20)
+ShortName=6P20 0-20
+Itemtype=Flashhider
+Conflict=[
+	AKS-74U Alfa Arms Goliaf handguard,
+]
+Recoil=-10.000000
+Ergonomics=-2.000000
+Information_Eng=A standard Izhmash-produced muzzle brake and compensator for the AK-74M.
+basePrice=602
+width=1
+height=1
+avg24hPrice=8499
+low24hPrice=6666
+lastOfferCount=3
+Sell_Prapor=301
+Sell_Fence=240
+Sell_Skier=294
+Sell_Peacekeeper=2
+Sell_Mechanic=337
+Sell_Flea Market=7500
+weight=0.100000
+fleaMarketFee=1043
+propertiestype=ItemPropertiesWeaponMod

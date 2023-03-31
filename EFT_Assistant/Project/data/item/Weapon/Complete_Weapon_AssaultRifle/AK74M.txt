@@ -1,0 +1,136 @@
+IDstr=5ac4cd105acfc40016339859
+Name=Kalashnikov AK-74M 5.45x39 assault rifle
+ShortName=AK-74M
+Itemtype=Assault rifle
+ChildParts=[
+	AK Kiba Arms VDM CS gas tube,
+	AK-74 gas tube (6P20 Sb.1-2),
+	AKM gas tube (6P1 Sb.1-2),
+	Molot AKM-type gas tube,
+	AK TROY Full Length Rail handguard & gas tube combo,
+	AK UltiMAK M1-B gas tube & handguard,
+	AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo,
+	AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo (White)
+]
+ChildParts=[
+	AK-105 5.45x39 muzzle brake-compensator (6P44 0-20),
+	AK-74M 5.45x39 muzzle brake-compensator (6P20 0-20),
+	AK-74 5.45x39 muzzle brake-compensator (6P20 0-20),
+	AK-74 thread type JMac Customs RRD-4C multi-caliber muzzle brake,
+	AK-74 PWS CQB 74 5.45x39 muzzle brake,
+	AK-74 SRVV MBR Jet 5.45x39 muzzle brake,
+	AK Hexagon Reactor 5.45x39 muzzle brake,
+	AK Zenit DTK-1 7.62x39/5.45x39 muzzle brake-compensator,
+	AKS-74U 5.45x39 muzzle brake (6P26 0-20),
+	SilencerCo Hybrid 46 Direct Thread Mount adapter,
+	AK-74 Hexagon 5.45x39 sound suppressor,
+	AK-74 TGP-A 5.45x39 sound suppressor,
+	AKS-74U PBS-4 5.45x39 sound suppressor
+]
+ChildParts=[
+	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock,
+	AK Aeroknox Scorpius pistol grip,
+	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip,
+	AK-12 pistol grip,
+	AK bakelite pistol grip (6P1 Sb.8V),
+	AK polymer pistol grip (6P1 Sb.8),
+	AKM bakelite pistol grip,
+	AKM wooden pistol grip,
+	AK bakelite pistol grip (6P4 Sb.9),
+	AK KGB MG-47 pistol grip,
+	AK KGB MG-47 pistol grip (Anodized Red),
+	AK Magpul MOE pistol grip (Black),
+	AK bakelite pistol grip,
+	AK Strike Industries Enhanced Pistol Grip (Black),
+	AK Strike Industries Enhanced Pistol Grip (FDE),
+	AK TAPCO SAW-Style pistol grip (Black),
+	AK TAPCO SAW-Style pistol grip (FDE),
+	AK US Palm pistol grip,
+	AK Zenit RK-3 pistol grip,
+	PP-19-01 "Vityaz" pistol grip
+]
+ChildParts=[
+	AK-74M dust cover (6P34 0-1),
+	RD-704 dust cover,
+	AK AKademia Bastion dust cover,
+	AK FAB Defense PDC dust cover,
+	AKM dust cover (6P1 0-1),
+	Molot AKM-type dust cover,
+	AK TWS Dog Leg Rail dust cover,
+	AK Zenit B-33 dust cover
+]
+ChildParts=[
+	AK-105 rear sight (6P44 Sb.1-30),
+	AK-74 rear sight (6P20 Sb.2),
+	AK-74M rear sight (6P20 Sb.2),
+	AK RD Enhanced V2 Rear Sight,
+	AK Taktika Tula TT01 rear sight rail
+]
+ChildParts=[
+	AKMP system front sight device
+]
+ChildParts=[
+	AK-74M polymer stock (6P34 Sb.15),
+	AK-74M CAA AKTS AK74 buffer tube,
+	AK-74M/AK-100 Zenit PT Lock,
+	RPK-16 buffer tube,
+	AK 100-series metal skeletonized stock
+]
+ChildParts=[
+	AK-74 5.45x39 6L18 45-round magazine,
+	AK-74 5.45x39 6L20 30-round magazine,
+	AK-74 5.45x39 6L23 30-round magazine,
+	AK-74 5.45x39 6L23 "Plum" 30-round magazine,
+	AK-74 5.45x39 6L26 45-round magazine,
+	AK-74 5.45x39 6L31 60-round magazine,
+	AK-74 "Saiga 545" 5.45x39 10-round magazine,
+	AK-74 5.45x39 Magpul PMAG 30 GEN M3 30-round magazine,
+	AK-12 5.45x39 30-round magazine,
+	RPK-16 5.45x39 95-round drum magazine
+]
+ChildParts=[
+	SAG Bit low profile dovetail sidemount,
+	Axion Kobra EKP-8-02 reflex sight (Dovetail),
+	BelOMO PK-AA dovetail reflex sight,
+	OKP-7 reflex sight (Dovetail),
+	NPZ PK1 "Obzor" reflex sight,
+	BelOMO PSO-1 4x24 scope,
+	BelOMO PSO-1M2-1 4x24 scope,
+	BelOMO PSO-1M2 4x24 scope,
+	NPZ USP-1 "Tyulpan" 4x scope,
+	NSPU-M night vision scope,
+	Axion Kobra dovetail mount,
+	KMZ 1P59 dovetail mount,
+	NPZ 1P78-1 dovetail mount,
+	VOMZ Pilad 043-02 dovetail mount,
+	Zenit B-13 "Klassika" dovetail rail platform,
+	Zenit B-13V "Klassika" dovetail rail platform
+]
+ChildParts=[
+	AK CSS knurled charging handle,
+	AK Zenit RP-1 charging handle
+]
+ChildParts=[
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher
+]
+Conflict=[
+	Hera Arms CQR tactical foregrip,
+]
+Recoil=138.000000
+Ergonomics=33.000000
+Information_Eng=The AK-74M (Avtomat Kalashnikova 74 Modernizirovanny - "Kalashnikov's Automatic rifle 74 Modernized") 5.45x39mm assault rifle is a full-scale produced modernized version of the AK-74 that offers more versatility compared with its predecessor. Apart from several minor improvements, such as a lightened bolt and carrier assembly to reduce the impulse of the gas piston and bolt carrier during firing, the rifle features a new glass-filled polyamide stock that retains the shape of the original AK-74 fixed laminated wood stock, but side-folds to the left like the skeletonised AKS-74 buttstock, and also a dovetail side mount for installing various scopes. The AK-74M is a main service rifle of the Russian Federation.
+basePrice=26181
+width=4
+height=1
+avg24hPrice=38489
+low24hPrice=26000
+lastOfferCount=12
+Sell_Prapor=13090
+Sell_Fence=10472
+Sell_Skier=12828
+Sell_Peacekeeper=102
+Sell_Mechanic=14661
+Sell_Flea Market=30888
+weight=2.392000
+fleaMarketFee=1715
+propertiestype=ItemPropertiesWeapon

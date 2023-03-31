@@ -1,0 +1,57 @@
+IDstr=5c6d11152e2216000f2003e7
+Name=HK 416A5 Strike Industries CRUX 15 inch M-LOK handguard
+ShortName=416A5 CRUX 15"
+Itemtype=Handguard
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK Offset Light Mount
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK Offset Light Mount
+]
+ChildParts=[
+	AN/PEQ-15 tactical device,
+	Holosun LS321 Tactical device,
+	LA-5B/PEQ tactical device,
+	SureFire XC1 tactical flashlight,
+	Zenit Perst-3 tactical device
+]
+ChildParts=[
+	NcSTAR MPR45 Backup mount
+]
+ChildParts=[
+	Magpul M-LOK 4.1 inch rail,
+	Magpul M-LOK AFG tactical foregrip (Black),
+	Magpul M-LOK AFG tactical foregrip (FDE),
+	Magpul M-LOK AFG tactical foregrip (Olive Drab),
+	Magpul M-LOK AFG tactical foregrip (Stealth Gray)
+]
+Conflict=[
+	HK 416A5 5.56x45 10.6 inch barrel,
+	HK 416A5 5.56x45 11 inch barrel,
+	HK 416A5 5.56x45 14.5 inch barrel,
+	HK 416A5 5.56x45 16.5 inch barrel with flip-up front sight,
+	FN P90 5.7x28 10.5 inch barrel,
+	FN P90 5.7x28 16 inch barrel,
+]
+Recoil=-3.000000
+Ergonomics=11.000000
+Information_Eng=The Strike Industries CRUX foregrip for 416A5 equipped with an M-LOK interface for the installation of additional devices and accessories.
+basePrice=16700
+width=3
+height=1
+avg24hPrice=32069
+low24hPrice=21111
+lastOfferCount=0
+Sell_Prapor=8350
+Sell_Fence=6680
+Sell_Skier=8183
+Sell_Peacekeeper=65
+Sell_Mechanic=9352
+Sell_Flea Market=111111
+weight=0.440000
+fleaMarketFee=10410
+propertiestype=ItemPropertiesWeaponMod

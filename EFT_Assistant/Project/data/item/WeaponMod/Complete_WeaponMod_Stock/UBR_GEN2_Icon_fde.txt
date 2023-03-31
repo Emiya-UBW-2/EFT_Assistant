@@ -1,0 +1,27 @@
+IDstr=5947eab886f77475961d96c5
+Name=Magpul UBR GEN2 stock (FDE)
+ShortName=UBR GEN2
+Itemtype=Stock
+Conflict=[
+	AR-15 ADAR 2-15 wooden stock,
+	AR-15 Hera Arms CQR pistol grip/buttstock,
+]
+Recoil=-33.000000
+Ergonomics=7.000000
+Information_Eng=The UBR GEN2 telescoping stock, manufactured by Magpul. Flat Dark Earth version.
+basePrice=11442
+width=2
+height=1
+avg24hPrice=19818
+low24hPrice=11000
+lastOfferCount=18
+Sell_Prapor=5721
+Sell_Fence=4576
+Sell_Skier=5606
+Sell_Peacekeeper=44
+Sell_Mechanic=6407
+Sell_Jaeger=6865
+Sell_Flea Market=13000
+weight=0.610000
+fleaMarketFee=732
+propertiestype=ItemPropertiesWeaponMod

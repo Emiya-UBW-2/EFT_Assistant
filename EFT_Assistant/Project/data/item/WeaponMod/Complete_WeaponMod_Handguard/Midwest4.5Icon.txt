@@ -1,0 +1,42 @@
+IDstr=5c5db5f22e2216000e5e47e8
+Name=MPX Midwest Industries 4.5 inch M-LOK handguard
+ShortName=MPX Midwest 4.5"
+Itemtype=Handguard
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK Offset Light Mount
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK Offset Light Mount
+]
+ChildParts=[
+	HK MP7 flip-up front sight,
+	KAC Folding Micro front sight,
+	KAC Folding front sight,
+	KRISS Defiance low profile flip-up front sight,
+	Magpul MBUS Gen2 flip-up front sight,
+	Magpul MBUS Gen2 flip-up front sight (FDE),
+	MCX flip-up front sight,
+	MPX flip-up front sight
+]
+Recoil=0.000000
+Ergonomics=15.000000
+Information_Eng=The Midwest Industries 4.5 inch length foregrip for the MPX SMGs equipped with an M-LOK interface for installation of additional devices and accessories.
+basePrice=6400
+width=1
+height=1
+avg24hPrice=10238
+low24hPrice=4444
+lastOfferCount=5
+Sell_Prapor=3200
+Sell_Fence=2560
+Sell_Skier=3136
+Sell_Peacekeeper=25
+Sell_Mechanic=3584
+Sell_Flea Market=4444
+weight=0.080000
+fleaMarketFee=339
+propertiestype=ItemPropertiesWeaponMod

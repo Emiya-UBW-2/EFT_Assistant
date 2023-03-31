@@ -1,0 +1,26 @@
+IDstr=5a7037338dc32e000d46d257
+Name=Glock 9x19 CARVER Custom Decelerator 3 Port compensator
+ShortName=G 3Port
+Itemtype=Flashhider
+Conflict=[
+	Glock 9x19 Strike Industries G4 SlideComp compensator,
+	Glock 9x19 Fischer Development FD917 sound suppressor,
+]
+Recoil=-11.000000
+Ergonomics=-1.000000
+Information_Eng=A compensator manufactured by CARVER Custom. The model is only compatible with the 3rd generation 9x19 pistols.
+basePrice=5054
+width=1
+height=1
+avg24hPrice=18326
+low24hPrice=2999
+lastOfferCount=1
+Sell_Prapor=2527
+Sell_Fence=2021
+Sell_Skier=2476
+Sell_Peacekeeper=20
+Sell_Mechanic=2830
+Sell_Flea Market=6000
+weight=0.063000
+fleaMarketFee=332
+propertiestype=ItemPropertiesWeaponMod

@@ -1,0 +1,73 @@
+IDstr=58948c8e86f77409493f7266
+Name=SIG MPX 9x19 submachine gun
+ShortName=MPX
+Itemtype=SMG
+ChildParts=[
+	AR-15 Colt A2 pistol grip,
+	AR-15 Damage Industries ECS pistol grip (FDE),
+	AR-15 DLG Tactical DLG-123 pistol grip,
+	AR-15 F1 Firearms Skeletonized Style 1 pistol grip,
+	AR-15 F1 Firearms Skeletonized Style 2 PC pistol grip,
+	AR-15 F1 Firearms Skeletonized Style 2 pistol grip,
+	AR-15 Hera Arms HG-15 pistol grip,
+	AR-15 HK Battle Grip pistol grip,
+	AR-15 HK Battle Grip Beavertail pistol grip,
+	AR-15 HK Battle Grip Beavertail pistol grip (RAL 8000),
+	AR-15 HK Ergo PSG-1 style pistol grip,
+	AR-15 HK V2 pistol grip,
+	Hogue OverMolded Rubber Grip (Black),
+	Hogue OverMolded Rubber Grip (FDE),
+	Hogue OverMolded Rubber Grip (Ghillie Earth),
+	Hogue OverMolded Rubber Grip (Ghillie Green),
+	Hogue OverMolded Rubber Grip (Olive Drab),
+	AR-15 Magpul MIAD pistol grip (FDE),
+	AR-15 Magpul MOE pistol grip (Black),
+	AR-15 Magpul MOE pistol grip (FDE),
+	AR-15 Naroh Arms GRAL-S pistol grip,
+	MCX pistol grip,
+	AR-15 Stark AR Rifle Grip (Black),
+	AR-15 Stark AR Rifle Grip (FDE),
+	AR-15 Tactical Dynamics Hexgrip pistol grip,
+	AR-15 Tactical Dynamics Skeletonized pistol grip,
+	MPX pistol grip
+]
+ChildParts=[
+	MPX GEN1 9x19 upper receiver
+]
+ChildParts=[
+	MPX/MCX retractable stock pipe adapter,
+	MPX/MCX collapsing/telescoping stock,
+	MPX/MCX telescoping stock,
+	MPX/MCX lightweight stock,
+	MPX/MCX Maxim Defense CQB telescoping stock,
+	MPX/MCX PMM ULSS foldable stock
+]
+ChildParts=[
+	MPX 9x19 F5 MFG 50-round drum magazine,
+	MPX 9x19 TTI "Base Pad +11" 41-round magazine,
+	MPX 9x19 20-round magazine,
+	MPX 9x19 30-round magazine
+]
+ChildParts=[
+	MPX Geissele SCH charging handle,
+	MPX double latch charging handle,
+	MPX single latch charging handle
+]
+Recoil=60.000000
+Ergonomics=40.000000
+Information_Eng=The SIG Sauer MPX submachine gun boasts an unprecedented operation speed in the familiar form factor of the AR platform. Short-stroke gas piston allows SIG MPX to use the full range of 9 mm ammunition without any adjustments to the gas valve. The full-sized mount provides the means of installing a wide range of scopes and sighting devices.
+basePrice=18907
+width=1
+height=1
+avg24hPrice=43396
+low24hPrice=35000
+lastOfferCount=25
+Sell_Prapor=9453
+Sell_Fence=7562
+Sell_Skier=9264
+Sell_Peacekeeper=73
+Sell_Mechanic=10587
+Sell_Flea Market=35000
+weight=0.640000
+fleaMarketFee=1857
+propertiestype=ItemPropertiesWeapon

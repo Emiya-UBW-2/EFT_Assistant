@@ -1,0 +1,29 @@
+IDstr=5888956924597752983e182d
+Name=DVL-10 M2 7.62x51 660mm barrel
+ShortName=DVL10 660mm
+Itemtype=Barrel
+ChildParts=[
+	DVL-10 M2 7.62x51 muzzle brake
+]
+ChildParts=[
+	DVL-10 M2 handguard
+]
+Recoil=-5.000000
+Ergonomics=-13.000000
+Information_Eng=A 660mm long 7.62x51 match-grade stainless steel barrel manufactured by LOBAEV Hummer Barrels for the DVL-10 M2 sniper rifle.
+basePrice=37600
+width=4
+height=1
+avg24hPrice=39413
+low24hPrice=16666
+lastOfferCount=8
+Sell_Prapor=18800
+Sell_Fence=15040
+Sell_Skier=18424
+Sell_Peacekeeper=146
+Sell_Mechanic=21056
+Sell_Jaeger=22560
+Sell_Flea Market=55000
+weight=2.880000
+fleaMarketFee=2909
+propertiestype=ItemPropertiesBarrel

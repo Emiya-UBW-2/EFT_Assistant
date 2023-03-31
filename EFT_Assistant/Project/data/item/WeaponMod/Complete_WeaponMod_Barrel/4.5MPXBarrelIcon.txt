@@ -1,0 +1,39 @@
+IDstr=5c5db5852e2216003a0fe71a
+Name=MPX 9x19 4.5 inch barrel
+ShortName=MPX 4.5"
+Itemtype=Barrel
+ChildParts=[
+	TACCOM Carbine Brake multi-caliber muzzle brake,
+	Yankee Hill Annihilator multi-caliber flash hider,
+	MPX A2 9x19 flash hider,
+	SilencerCo Hybrid 46 Direct Thread Mount adapter,
+	AAC Illusion 9 9x19 sound suppressor,
+	Rotor 43 9x19 muzzle brake-compensator,
+	SIG Sauer SRD9 9x19 sound suppressor,
+	SilencerCo Osprey 9 9x19 sound suppressor
+]
+Conflict=[
+	MPX Lancer OEM 14 inch M-LOK handguard,
+	MPX Midwest Industries 10.5 inch M-LOK handguard,
+	MPX Midwest Industries 14 inch M-LOK handguard,
+	MPX Midwest Industries 6.5 inch M-LOK handguard,
+	MPX GEN1 handguard
+]
+Recoil=0.000000
+Ergonomics=-2.000000
+Information_Eng=A 4.5 inch (114mm) long barrel for MPX-based weapons chambered in 9x19 ammo.
+basePrice=3800
+width=1
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
+Sell_Prapor=1900
+Sell_Fence=1520
+Sell_Skier=1862
+Sell_Peacekeeper=15
+Sell_Mechanic=2128
+Sell_Jaeger=2280
+weight=0.160000
+fleaMarketFee=228
+propertiestype=ItemPropertiesBarrel

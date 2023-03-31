@@ -1,0 +1,28 @@
+IDstr=5d6d3829a4b9361bc8618943
+Name=LShZ-2DTM face shield
+ShortName=2DTM FS
+Itemtype=Armored equipment
+Conflict=[
+	PNV-10T Night Vision Goggles,
+	Armasight N-15 Night Vision Goggles,
+	GPNVG-18 Night Vision goggles,
+	AN/PVS-14 Night Vision Monocular,
+	T-7 Thermal Goggles with a Night Vision mount
+]
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=The protective structure of the bulletproof faceshield for the helmet LShZ-2DTM consists of a combination of composite material and bulletproof glass, which provides increased protection.
+basePrice=29000
+width=2
+height=1
+avg24hPrice=46853
+low24hPrice=34500
+lastOfferCount=22
+Sell_Fence=11600
+Sell_Skier=14210
+Sell_Peacekeeper=113
+Sell_Ragman=17980
+Sell_Flea Market=41000
+weight=1.000000
+fleaMarketFee=2178
+propertiestype=ItemPropertiesArmorAttachment

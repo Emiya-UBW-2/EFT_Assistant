@@ -1,0 +1,25 @@
+IDstr=5c6d46132e221601da357d56
+Name=5.56x45 TROY BattleMag STANAG 30-round magazine
+ShortName=BattleMag
+Itemtype=Magazine
+Conflict=[
+	HK G36 magwell,
+]
+Recoil=0.000000
+Ergonomics=-2.000000
+Information_Eng=The TROY BattleMag polymer 30-round magazine, for 5.56x45 ammunition.
+basePrice=4680
+width=1
+height=2
+avg24hPrice=23601
+low24hPrice=10000
+lastOfferCount=15
+Sell_Prapor=2340
+Sell_Fence=1872
+Sell_Skier=2293
+Sell_Peacekeeper=18
+Sell_Mechanic=2620
+Sell_Flea Market=10000
+weight=0.138000
+fleaMarketFee=545
+propertiestype=ItemPropertiesMagazine

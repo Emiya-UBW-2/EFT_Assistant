@@ -1,0 +1,29 @@
+IDstr=5df35e59c41b2312ea3334d5
+Name=ORSIS T-5000M aluminium body
+ShortName=T-5000M body
+Itemtype=Stock
+Conflict=[
+	M700 7.62x51 ProMag AA-70 10-round magazine,
+	M700 7.62x51 ProMag AA-70 20-round magazine,
+	M700 7.62x51 Wyatt's Outdoor 10-round magazine,
+	M700 7.62x51 Wyatt's Outdoor 5-round magazine
+]
+Recoil=-2.000000
+Ergonomics=16.000000
+Information_Eng=A standard aluminum body for the T-5000M bolt-action sniper rifle, manufactured by ORSIS.
+basePrice=13200
+width=2
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
+Sell_Prapor=6600
+Sell_Fence=5280
+Sell_Skier=6468
+Sell_Peacekeeper=51
+Sell_Mechanic=7392
+Sell_Jaeger=7920
+Sell_Flea Market=40000
+weight=0.640000
+fleaMarketFee=2455
+propertiestype=ItemPropertiesWeaponMod

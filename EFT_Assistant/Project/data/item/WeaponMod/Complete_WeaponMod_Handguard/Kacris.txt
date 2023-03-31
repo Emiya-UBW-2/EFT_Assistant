@@ -1,0 +1,52 @@
+IDstr=55d459824bdc2d892f8b4573
+Name=AR-15 KAC RIS handguard
+ShortName=KAC RIS
+Itemtype=Handguard
+ChildParts=[
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	AN/PEQ-2 tactical device,
+	LA-5B/PEQ tactical device,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Perst-3 tactical device,
+	Glock GTL 21 tactical flashlight with laser,
+	NcSTAR Tactical blue laser LAM-module,
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Kiba Arms 25mm accessory ring mount
+]
+ChildParts=[
+	AR-15 KAC RIS lower handguard
+]
+ChildParts=[
+	NcSTAR MPR45 Backup mount
+]
+Conflict=[
+	AR-15 5.56x45 18 inch barrel,
+	AR-15 5.56x45 20 inch barrel,
+	AR-15 5.56x45 Molot Arms 406mm barrel,
+	Mk-18 .338 LM 24 inch barrel,
+]
+Recoil=0.000000
+Ergonomics=1.000000
+Information_Eng=Knight's Armament Company RIS is a standard service handguard for the M4A1 carbines, but it can be installed on most AR-15 based weapons, provided that the barrel is the right length. It comes equipped with 4 mounts for the installation of a heat shield and additional accessories.
+basePrice=4745
+width=2
+height=1
+avg24hPrice=14484
+low24hPrice=8000
+lastOfferCount=1
+Sell_Prapor=2372
+Sell_Fence=1898
+Sell_Skier=2325
+Sell_Peacekeeper=18
+Sell_Mechanic=2657
+Sell_Flea Market=11000
+weight=0.226000
+fleaMarketFee=612
+propertiestype=ItemPropertiesWeaponMod

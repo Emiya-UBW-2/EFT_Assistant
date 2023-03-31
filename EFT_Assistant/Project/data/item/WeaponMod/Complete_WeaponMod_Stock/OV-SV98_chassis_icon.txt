@@ -1,0 +1,53 @@
+IDstr=623b2e9d11c3296b440d1638
+Name=SV-98 CNC Guns OV-SV98 chassis
+ShortName=OV-SV98
+Itemtype=Stock
+ChildParts=[
+	SV-98 CNC Guns OV-SV98 KeyMod handguard
+]
+ChildParts=[
+	AK Aeroknox Scorpius pistol grip,
+	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip,
+	AK FAB Defense AGR-47 pistol grip,
+	AK-12 pistol grip,
+	AK bakelite pistol grip (6P1 Sb.8V),
+	AK polymer pistol grip (6P1 Sb.8),
+	AKM bakelite pistol grip,
+	AKM wooden pistol grip,
+	AK bakelite pistol grip (6P4 Sb.9),
+	AK KGB MG-47 pistol grip,
+	AK KGB MG-47 pistol grip (Anodized Red),
+	AK Magpul MOE pistol grip (Black),
+	AK bakelite pistol grip,
+	AK Strike Industries Enhanced Pistol Grip (Black),
+	AK Strike Industries Enhanced Pistol Grip (FDE),
+	AK TangoDown Battle Grip pistol grip,
+	AK TangoDown Battle Grip pistol grip (FDE),
+	AK TAPCO SAW-Style pistol grip (Black),
+	AK TAPCO SAW-Style pistol grip (FDE),
+	AK US Palm pistol grip,
+	AK Zenit RK-3 pistol grip,
+	PP-19-01 "Vityaz" pistol grip
+]
+ChildParts=[
+	CNC Guns OV-SV98 M12B stock
+]
+Recoil=-6.000000
+Ergonomics=10.000000
+Information_Eng=The OV-SV98 chassis for the SV-98 sniper rifle, manufactured by CNC Guns.
+basePrice=24500
+width=3
+height=1
+avg24hPrice=37237
+low24hPrice=21000
+lastOfferCount=16
+Sell_Prapor=12250
+Sell_Fence=9800
+Sell_Skier=12005
+Sell_Peacekeeper=95
+Sell_Mechanic=13720
+Sell_Jaeger=14700
+Sell_Flea Market=21000
+weight=0.550000
+fleaMarketFee=1366
+propertiestype=ItemPropertiesWeaponMod

@@ -1,0 +1,29 @@
+IDstr=62a5c41e8ec41a51b34739c3
+Name=Hockey player mask "Quiet"
+ShortName=Quiet
+Itemtype=Face Cover
+Conflict=[
+	Army cap,
+	Baseball cap,
+	BEAR baseball cap (Green),
+	USEC baseball cap (Tan),
+	EMERCOM cap,
+	Police cap
+]
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=Frightening mask from a children's cartoon about hockey.
+basePrice=15000
+width=2
+height=2
+avg24hPrice=10013
+low24hPrice=8000
+lastOfferCount=8
+Sell_Fence=6000
+Sell_Skier=7350
+Sell_Peacekeeper=58
+Sell_Ragman=9300
+Sell_Flea Market=9455
+weight=0.100000
+fleaMarketFee=789
+propertiestype=

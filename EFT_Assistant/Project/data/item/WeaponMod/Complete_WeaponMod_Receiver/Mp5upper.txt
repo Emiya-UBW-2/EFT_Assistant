@@ -1,0 +1,44 @@
+IDstr=5926c0df86f77462f647f764
+Name=HK MP5 9x19 upper receiver
+ShortName=MP5
+Itemtype=Receiver
+ChildParts=[
+	HK MP5 B&T TL-99 aluminum handguard,
+	HK MP5 CAA HX-5 handguard,
+	HK MP5 Wide Tropical polymer handguard,
+	HK MP5 PTR Tri-Rail handguard
+]
+ChildParts=[
+	HK MP5 Drum rear sight
+]
+ChildParts=[
+	HK MP5 A2 stock,
+	HK MP5 A3 old model stock,
+	HK MP5 End Cap stock
+]
+ChildParts=[
+	HK MP5 3-lug thread protector,
+	HK MP5 Navy Style 3-lug suppressor adapter
+]
+ChildParts=[
+	HK MP5 MFI HK universal low profile scope mount,
+	HK MP5 B&T tri-rail receiver mount
+]
+Recoil=0.000000
+Ergonomics=5.000000
+Information_Eng=A standard upper receiver for MP5 SMGs, manufactured by Heckler & Koch.
+basePrice=3270
+width=2
+height=1
+avg24hPrice=12999
+low24hPrice=12999
+lastOfferCount=1
+Sell_Prapor=1635
+Sell_Fence=1308
+Sell_Skier=1602
+Sell_Peacekeeper=13
+Sell_Mechanic=1831
+Sell_Flea Market=12999
+weight=0.588000
+fleaMarketFee=909
+propertiestype=ItemPropertiesWeaponMod

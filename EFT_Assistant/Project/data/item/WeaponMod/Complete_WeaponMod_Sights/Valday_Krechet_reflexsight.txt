@@ -1,0 +1,37 @@
+IDstr=609a63b6e2ff132951242d09
+Name=Valday Krechet reflex sight
+ShortName=Krechet
+Itemtype=Reflex sight
+SightRange=200
+Conflict=[
+	AR-15 rear sight carry handle,
+	Burris FullField TAC30 1-4x24 30mm riflescope,
+	EOTech Vudu 1-6x24 30mm riflescope,
+	Hensoldt FF 4-16x56 34mm riflescope,
+	KMZ 1P59 3-10x riflescope,
+	KMZ 1P69 3-10x riflescope,
+	Leupold Mark 4 LR 6.5-20x50 30mm riflescope,
+	March Tactical 3-24x42 FFP 30mm riflescope,
+	Nightforce ATACR 7-35x56 34mm riflescope,
+	NSPU-M night vision scope,
+	VOMZ Pilad 4x32 24.5mm riflescope,
+	Vortex Razor HD Gen.2 1-6x24 30mm riflescope,
+]
+Recoil=0.000000
+Ergonomics=-4.500000
+Information_Eng=The Krechet reflex sight, designed for precision shooting at day and at night when used in combination with a night vision device. Manufactured by Valday.
+basePrice=13225
+width=1
+height=1
+avg24hPrice=16601
+low24hPrice=11000
+lastOfferCount=9
+Sell_Prapor=6612
+Sell_Fence=5290
+Sell_Skier=6480
+Sell_Peacekeeper=51
+Sell_Mechanic=7406
+Sell_Flea Market=15000
+weight=0.350000
+fleaMarketFee=846
+propertiestype=ItemPropertiesScope

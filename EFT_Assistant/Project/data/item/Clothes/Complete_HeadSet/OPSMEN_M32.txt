@@ -1,0 +1,26 @@
+IDstr=6033fa48ffd42c541047f728
+Name=OPSMEN Earmor M32 headset
+ShortName=M32
+Itemtype=Headphones
+Conflict=[
+	Door Kicker boonie hat,
+	SSh-68 steel helmet,
+	Ushanka ear flap hat,
+	Ops-Core FAST RAC Headset
+]
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=The EARMOR M32 headset is an activated electronic communication hearing protector, ideal for tactical use. Manufactured by OPSMEN.
+basePrice=25000
+width=2
+height=2
+avg24hPrice=28382
+low24hPrice=20999
+lastOfferCount=45
+Sell_Fence=10000
+Sell_Skier=12250
+Sell_Ragman=15500
+Sell_Flea Market=23900
+weight=0.490000
+fleaMarketFee=1463
+propertiestype=

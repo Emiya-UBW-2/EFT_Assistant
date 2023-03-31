@@ -1,0 +1,27 @@
+IDstr=61965d9058ef8c428c287e0d
+Name=FN SCAR PWS SRX rail extension
+ShortName=SRX SCAR
+Itemtype=Mount
+Conflict=[
+	FN SCAR-L 5.56x45 10 inch barrel,
+	FN SCAR-H 7.62x51 13 inch barrel
+]
+Recoil=0.000000
+Ergonomics=5.000000
+Information_Eng=The SRX rail extension for SCAR series rifles allows the installation of additional equipment. Manufactured by Primary Weapon Systems.
+basePrice=7800
+width=1
+height=1
+avg24hPrice=12580
+low24hPrice=9000
+lastOfferCount=4
+Sell_Prapor=3900
+Sell_Fence=3120
+Sell_Skier=3822
+Sell_Peacekeeper=30
+Sell_Mechanic=4368
+Sell_Jaeger=4680
+Sell_Flea Market=11222
+weight=0.224000
+fleaMarketFee=595
+propertiestype=ItemPropertiesWeaponMod

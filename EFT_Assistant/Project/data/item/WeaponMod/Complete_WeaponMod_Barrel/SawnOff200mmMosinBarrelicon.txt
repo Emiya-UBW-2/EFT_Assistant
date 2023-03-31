@@ -1,0 +1,30 @@
+IDstr=5bfd4cc90db834001d23e846
+Name=Mosin Rifle 7.62x54R sawn-off 200mm barrel
+ShortName=Mosin 200mm
+Itemtype=Barrel
+Conflict=[
+	Mosin Rifle ATI Monte Carlo chassis,
+	Mosin Rifle sniper carbine stock,
+	Mosin Rifle carbine stock,
+	Mosin Rifle Infantry stock,
+	Mosin Rifle standard stock,
+	Mosin Rifle ProMag Archangel OPFOR PRS chassis
+]
+Recoil=0.000000
+Ergonomics=-2.000000
+Information_Eng=A sawn-off 200mm barrel for the Mosin rifle.
+basePrice=2100
+width=2
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
+Sell_Prapor=1050
+Sell_Fence=840
+Sell_Skier=1029
+Sell_Peacekeeper=8
+Sell_Mechanic=1176
+Sell_Jaeger=1260
+weight=0.700000
+fleaMarketFee=126
+propertiestype=ItemPropertiesBarrel

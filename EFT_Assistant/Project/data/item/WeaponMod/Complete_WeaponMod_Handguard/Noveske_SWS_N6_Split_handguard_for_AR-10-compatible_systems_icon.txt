@@ -1,0 +1,28 @@
+IDstr=5d00ef6dd7ad1a0940739b16
+Name=AR-10 Noveske SWS N6 Split handguard
+ShortName=SWS N6 Split
+Itemtype=Handguard
+Conflict=[
+	AR-10 JP Enterprises Gas System-6,
+	M4A1 front sight with gas block,
+	AR-15 Windham Weaponry Rail Gas Block,
+	AR-15 5.56x45 260mm barrel
+]
+Recoil=-1.000000
+Ergonomics=8.000000
+Information_Eng=The Noveske SWS N6 Split handguard is made with light but durable aircraft aluminum alloy. It comes equipped with 4 mounts for the installation of additional devices and accessories. Fits AR-10 compatible weapon systems.
+basePrice=19200
+width=2
+height=1
+avg24hPrice=20990
+low24hPrice=14444
+lastOfferCount=13
+Sell_Prapor=9600
+Sell_Fence=7680
+Sell_Skier=9408
+Sell_Peacekeeper=74
+Sell_Mechanic=10752
+Sell_Flea Market=18000
+weight=0.502000
+fleaMarketFee=1112
+propertiestype=ItemPropertiesWeaponMod

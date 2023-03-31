@@ -1,0 +1,30 @@
+IDstr=5d120a10d7ad1a4e1026ba85
+Name=AR-15 DoubleStar ACE SOCOM Gen.4 stock
+ShortName=ACE SOCOM
+Itemtype=Stock
+ChildParts=[
+	DoubleStar ACE recoil pad
+]
+Conflict=[
+	AR-15 ADAR 2-15 wooden stock,
+	AR-15 Hera Arms CQR pistol grip/buttstock,
+]
+Recoil=-32.000000
+Ergonomics=4.000000
+Information_Eng=The 4th generation of a recently famous SOCOM stock manufactured by DoubleStar. The stock features a sturdy integral buffer tube and a closed cell foam overtube cover that provides a comfortable cheek weld.
+basePrice=10650
+width=2
+height=1
+avg24hPrice=16704
+low24hPrice=10000
+lastOfferCount=14
+Sell_Prapor=5325
+Sell_Fence=4260
+Sell_Skier=5218
+Sell_Peacekeeper=41
+Sell_Mechanic=5964
+Sell_Jaeger=6390
+Sell_Flea Market=12322
+weight=0.470000
+fleaMarketFee=689
+propertiestype=ItemPropertiesWeaponMod

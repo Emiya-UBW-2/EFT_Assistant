@@ -1,0 +1,53 @@
+IDstr=55d5f46a4bdc2d1b198b4567
+Name=AR-15 Colt A2 rear sight
+ShortName=A2 RS
+Itemtype=Ironsight
+SightRange=600
+Conflict=[
+	ELCAN SpecterDR 1x/4x scope,
+	ELCAN SpecterDR 1x/4x scope (FDE),
+	Leupold Mark 4 HAMR 4x24 DeltaPoint hybrid assault scope,
+	SIG Sauer BRAVO4 4x30 scope,
+	Valday PS-320 1/6x scope,
+	Axion Kobra EKP-8-18 reflex sight,
+	OKP-7 reflex sight,
+	EOTech HHS-1 hybrid sight,
+	EOTech HHS-1 hybrid sight (Tan),
+	VOMZ Pilad 4x32 24.5mm riflescope,
+	Hensoldt FF 4-16x56 34mm riflescope,
+	Nightforce ATACR 7-35x56 34mm riflescope,
+	NcSTAR ADO P4 Sniper 3-9x42 riflescope,
+	FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescope,
+	Armasight Vulcan universal base,
+	Burris AR-P.E.P.R. 30mm ring scope mount,
+	JP Enterprises Flat-Top 30mm ring scope mount,
+	KMZ 1P69 Weaver mount,
+	Lobaev Arms 30mm scope mount,
+	Nightforce Magmount 30mm ring scope mount,
+	Nightforce Magmount 34mm ring scope mount,
+	Nightforce Magmount 34mm ring scope mount with Ruggedized Accessory Platform,
+	Primary Arms Compact Mount sight adapter,
+	SIG Sauer ROMEO sight mount,
+	Trijicon RMR high profile mount,
+	Trijicon TA51 sight mount,
+	UNV DLOC-IRD sight mount,
+	Leapers UTG 25mm ring scope mount
+]
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=The Colt A2 detachable rear sight. Standard-issue for M4A1 assault rifles.
+basePrice=908
+width=1
+height=1
+avg24hPrice=18559
+low24hPrice=10000
+lastOfferCount=3
+Sell_Prapor=454
+Sell_Fence=363
+Sell_Skier=444
+Sell_Peacekeeper=4
+Sell_Mechanic=508
+Sell_Flea Market=10000
+weight=0.150000
+fleaMarketFee=1284
+propertiestype=ItemPropertiesScope

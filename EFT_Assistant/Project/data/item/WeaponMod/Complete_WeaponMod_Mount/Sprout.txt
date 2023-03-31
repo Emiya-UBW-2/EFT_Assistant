@@ -1,0 +1,71 @@
+IDstr=55d48ebc4bdc2d8c2f8b456c
+Name=Delta-Tek Sprut mount for pump-action shotguns
+ShortName=Sprut
+Itemtype=Mount
+ChildParts=[
+	NcSTAR Tactical blue laser LAM-module,
+	Glock GTL 21 tactical flashlight with laser,
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	LA-5B/PEQ tactical device,
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Zenit Perst-3 tactical device,
+	Kiba Arms 25mm accessory ring mount
+]
+ChildParts=[
+	NcSTAR Tactical blue laser LAM-module,
+	Glock GTL 21 tactical flashlight with laser,
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	LA-5B/PEQ tactical device,
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Zenit Perst-3 tactical device,
+	Kiba Arms 25mm accessory ring mount
+]
+ChildParts=[
+	NcSTAR Tactical blue laser LAM-module,
+	Glock GTL 21 tactical flashlight with laser,
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	LA-5B/PEQ tactical device,
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Zenit Perst-3 tactical device,
+	Kiba Arms 25mm accessory ring mount
+]
+Recoil=0.000000
+Ergonomics=-1.000000
+Information_Eng=The Delta-Tek Sprut mount was developed to install on tube magazines of pump-action shotguns like the MP-133, MP-153, MP-135, Benelli M2, Winchester 1300, and so on. It features 3 Weaver mounts for the attachment of additional devices.
+basePrice=2588
+width=1
+height=1
+avg24hPrice=14261
+low24hPrice=2999
+lastOfferCount=14
+Sell_Prapor=1294
+Sell_Fence=1035
+Sell_Skier=1268
+Sell_Peacekeeper=10
+Sell_Mechanic=1449
+Sell_Jaeger=1552
+Sell_Flea Market=12999
+weight=0.096000
+fleaMarketFee=1032
+propertiestype=ItemPropertiesWeaponMod

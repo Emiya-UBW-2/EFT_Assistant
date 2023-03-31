@@ -1,0 +1,71 @@
+IDstr=5a9fc7e6a2750c0032157184
+Name=VSS/VAL Zenit B-3 mount combo
+ShortName=B-3
+Itemtype=Mount
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser,
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	AN/PEQ-2 tactical device,
+	LA-5B/PEQ tactical device,
+	NcSTAR Tactical blue laser LAM-module,
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Zenit Perst-3 tactical device,
+	Kiba Arms 25mm accessory ring mount
+]
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser,
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	AN/PEQ-2 tactical device,
+	LA-5B/PEQ tactical device,
+	NcSTAR Tactical blue laser LAM-module,
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Zenit Perst-3 tactical device,
+	Kiba Arms 25mm accessory ring mount
+]
+ChildParts=[
+	BelOMO PK-06 reflex sight,
+	Aimpoint Micro Standard Mount,
+	Aimpoint Micro H-2 Standard Mount,
+	B&T QD NAR mount for Aimpoint ACRO,
+	Burris FastFire Weaver Base,
+	DeltaPoint Cross Slot Mount base,
+	NcSTAR MPR45 Backup mount,
+	SIG Sauer ROMEO sight mount,
+	Trijicon RMR high profile mount,
+	Trijicon RMR low profile mount
+]
+Recoil=0.000000
+Ergonomics=-1.000000
+Information_Eng=The B-3 combo mounts are installed on the VSS/VAL sound suppressor to form a Picatinny rail for installation of additional weapon equipment. Manufactured by Zenit.
+basePrice=5495
+width=1
+height=1
+avg24hPrice=11657
+low24hPrice=6100
+lastOfferCount=19
+Sell_Prapor=2747
+Sell_Fence=2198
+Sell_Skier=2692
+Sell_Peacekeeper=21
+Sell_Mechanic=3077
+Sell_Jaeger=3297
+Sell_Flea Market=9850
+weight=0.080000
+fleaMarketFee=521
+propertiestype=ItemPropertiesWeaponMod

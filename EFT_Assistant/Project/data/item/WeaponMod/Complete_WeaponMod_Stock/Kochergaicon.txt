@@ -1,0 +1,26 @@
+IDstr=5e217ba4c1434648c13568cd
+Name=AKM/AK-74 Hexagon "Kocherga" stock (Anodized Red)
+ShortName=Kocherga
+Itemtype=Stock
+Conflict=[
+	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock,
+]
+Recoil=-34.000000
+Ergonomics=12.000000
+Information_Eng=The "Kocherga" lightweight stock for AKM/AK-74-type non-folding automatic rifles, manufactured by Hexagon. Anodized Red version.
+basePrice=26780
+width=2
+height=1
+avg24hPrice=18956
+low24hPrice=15000
+lastOfferCount=7
+Sell_Prapor=13390
+Sell_Fence=10712
+Sell_Skier=13122
+Sell_Peacekeeper=104
+Sell_Mechanic=14996
+Sell_Jaeger=16068
+Sell_Flea Market=16998
+weight=0.180000
+fleaMarketFee=1410
+propertiestype=ItemPropertiesWeaponMod

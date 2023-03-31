@@ -1,0 +1,25 @@
+IDstr=588226e62459776e3e094af7
+Name=Magpul AFG tactical foregrip (Forest Green)
+ShortName=AFG FG
+Itemtype=Foregrip
+Conflict=[
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
+]
+Recoil=-2.000000
+Ergonomics=6.000000
+Information_Eng=The Magpul AFG (Angled Fore Grip) tactical grip enables a more natural grip against the barrel axis. Thanks to that, recoil is reduced and weapon control is improved. Forest Green version.
+basePrice=5258
+width=1
+height=1
+avg24hPrice=10787
+low24hPrice=6300
+lastOfferCount=20
+Sell_Prapor=2629
+Sell_Fence=2103
+Sell_Skier=2576
+Sell_Peacekeeper=20
+Sell_Mechanic=2944
+Sell_Flea Market=6300
+weight=0.082000
+fleaMarketFee=348
+propertiestype=ItemPropertiesWeaponMod

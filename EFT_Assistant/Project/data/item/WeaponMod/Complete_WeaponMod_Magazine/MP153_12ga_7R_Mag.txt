@@ -1,0 +1,24 @@
+IDstr=5882163224597757561aa920
+Name=MP-153 12ga 7-shell magazine
+ShortName=MP153x7
+Itemtype=Magazine
+Conflict=[
+	SilencerCo Salvo 12 12ga sound suppressor,
+]
+Recoil=0.000000
+Ergonomics=-5.000000
+Information_Eng=A 7-shell magazine extension tube for MP-153 12 gauge shotguns.
+basePrice=1663
+width=3
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
+Sell_Prapor=831
+Sell_Fence=665
+Sell_Skier=814
+Sell_Peacekeeper=6
+Sell_Mechanic=931
+weight=0.156000
+fleaMarketFee=100
+propertiestype=ItemPropertiesMagazine

@@ -1,0 +1,25 @@
+IDstr=62669bccdb9ebb4daa44cd14
+Name=AR-15 SureFire Warden 5.56x45 blast regulator
+ShortName=War 556
+Itemtype=Flashhider
+Conflict=[
+	AR-15 SAI JailBrake 5.56x45 muzzle device,
+]
+Recoil=-8.000000
+Ergonomics=-2.000000
+Information_Eng=The SureFire Warden blast regulator features a stainless steel body that enhances the overall appearance while protecting the inner parts from harm. This blast regulator prevents dirt, dust, debris, etc., from causing internal damage.
+basePrice=8000
+width=1
+height=1
+avg24hPrice=13047
+low24hPrice=7000
+lastOfferCount=15
+Sell_Prapor=4000
+Sell_Fence=3200
+Sell_Skier=3920
+Sell_Peacekeeper=31
+Sell_Mechanic=4480
+Sell_Flea Market=7555
+weight=0.221000
+fleaMarketFee=465
+propertiestype=ItemPropertiesWeaponMod

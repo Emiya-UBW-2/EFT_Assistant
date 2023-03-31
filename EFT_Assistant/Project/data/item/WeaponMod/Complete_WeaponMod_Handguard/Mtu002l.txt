@@ -1,0 +1,29 @@
+IDstr=5827272a24597748c74bdeea
+Name=SOK-12 Leapers UTG PRO MTU002 Long Top aluminum handguard
+ShortName=MTU002 L
+Itemtype=Handguard
+Conflict=[
+	OKP-7 reflex sight (Dovetail),
+	Axion Kobra dovetail mount,
+	VOMZ Pilad 043-02 dovetail mount,
+	Zenit B-13 "Klassika" dovetail rail platform,
+	Zenit B-13V "Klassika" dovetail rail platform
+]
+Recoil=-3.000000
+Ergonomics=2.000000
+Information_Eng=The UTG PRO MTU002 Long Top Tactical Quad Rail is a lightweight aircraft grade aluminum handguard with a sling swivel, designed for installation on Saiga carbines. Manufactured by Leapers Inc.
+basePrice=10246
+width=2
+height=1
+avg24hPrice=16683
+low24hPrice=9000
+lastOfferCount=0
+Sell_Prapor=5123
+Sell_Fence=4098
+Sell_Skier=5020
+Sell_Peacekeeper=40
+Sell_Mechanic=5737
+Sell_Flea Market=12000
+weight=0.428000
+fleaMarketFee=668
+propertiestype=ItemPropertiesWeaponMod

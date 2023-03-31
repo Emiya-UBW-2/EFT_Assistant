@@ -1,0 +1,26 @@
+IDstr=5448bd6b4bdc2dfc2f8b4569
+Name=Makarov PM 9x18PM pistol
+ShortName=PM
+Itemtype=Handgun
+ChildParts=[
+	PM 9x18PM 90-93 8-round magazine,
+	PM 9x18PM 84-round makeshift drum magazine
+]
+Recoil=80.000000
+Ergonomics=85.000000
+Information_Eng=The time-proven PM pistol (Pistolét Makárova - "Makarov Pistol", GAU Index - 56-A-125). Due to the ubiquitous spread of both the pistol and its ammunition, as well as its exceptional reliability, light weight, and compact size, the PM still sees wide service in both police, military, and security forces. Although the damage makes you wish for the best.
+basePrice=5097
+width=2
+height=1
+avg24hPrice=7797
+low24hPrice=5555
+lastOfferCount=7
+Sell_Prapor=2548
+Sell_Fence=2038
+Sell_Skier=2497
+Sell_Peacekeeper=20
+Sell_Mechanic=2854
+Sell_Flea Market=6500
+weight=0.686000
+fleaMarketFee=352
+propertiestype=ItemPropertiesWeapon

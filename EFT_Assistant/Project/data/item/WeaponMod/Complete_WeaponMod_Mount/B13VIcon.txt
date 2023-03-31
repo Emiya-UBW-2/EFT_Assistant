@@ -1,0 +1,29 @@
+IDstr=5c90c3622e221601da359851
+Name=Zenit B-13V "Klassika" dovetail rail platform
+ShortName=B-13V
+Itemtype=Mount
+Conflict=[
+	BelOMO PSO-1 4x24 scope,
+	BelOMO PSO-1M2-1 4x24 scope,
+	BelOMO PSO-1M2 4x24 scope,
+	PP-19-01 "Vityaz-SN" dust cover
+]
+Recoil=0.000000
+Ergonomics=-1.000000
+Information_Eng=The B-13V rail platform is designed to mount on the Dovetail rail on the receiver. Designed for installation on PP-19-01 Vityaz-SN, but can also be installed on any Dovetail receiver weapons. Manufactured by Zenit.
+basePrice=7600
+width=1
+height=1
+avg24hPrice=13694
+low24hPrice=8765
+lastOfferCount=10
+Sell_Prapor=3800
+Sell_Fence=3040
+Sell_Skier=3724
+Sell_Peacekeeper=29
+Sell_Mechanic=4256
+Sell_Jaeger=4560
+Sell_Flea Market=12999
+weight=0.158000
+fleaMarketFee=685
+propertiestype=ItemPropertiesWeaponMod

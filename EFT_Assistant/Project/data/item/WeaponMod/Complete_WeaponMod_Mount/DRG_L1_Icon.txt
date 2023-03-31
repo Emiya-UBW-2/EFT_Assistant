@@ -1,0 +1,38 @@
+IDstr=5e569a132642e66b0b68015c
+Name=SVD CAA DRG L-1 barrel mount rail
+ShortName=DRG L-1
+Itemtype=Mount
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser,
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	LA-5B/PEQ tactical device,
+	NcSTAR Tactical blue laser LAM-module,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Zenit Perst-3 tactical device,
+	Kiba Arms 25mm accessory ring mount
+]
+Recoil=0.000000
+Ergonomics=-1.000000
+Information_Eng=A Picatinny rail for the SVD sniper rifle for mounting on the barrel. Allows installation of additional tactical devices.
+basePrice=2600
+width=1
+height=1
+avg24hPrice=11766
+low24hPrice=5500
+lastOfferCount=7
+Sell_Prapor=1300
+Sell_Fence=1040
+Sell_Skier=1274
+Sell_Peacekeeper=10
+Sell_Mechanic=1456
+Sell_Jaeger=1560
+Sell_Flea Market=10000
+weight=0.075000
+fleaMarketFee=687
+propertiestype=ItemPropertiesWeaponMod

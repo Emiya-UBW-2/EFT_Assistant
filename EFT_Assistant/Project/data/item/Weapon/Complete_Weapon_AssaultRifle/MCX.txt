@@ -1,0 +1,84 @@
+IDstr=5fbcc1d9016cce60e8341ab3
+Name=SIG MCX .300 Blackout assault rifle
+ShortName=MCX .300 BLK
+Itemtype=Assault rifle
+ChildParts=[
+	AR-15 Colt A2 pistol grip,
+	AR-15 Damage Industries ECS pistol grip (FDE),
+	AR-15 DLG Tactical DLG-123 pistol grip,
+	AR-15 F1 Firearms Skeletonized Style 1 pistol grip,
+	AR-15 F1 Firearms Skeletonized Style 2 PC pistol grip,
+	AR-15 F1 Firearms Skeletonized Style 2 pistol grip,
+	AR-15 Hera Arms HG-15 pistol grip,
+	AR-15 HK Battle Grip pistol grip,
+	AR-15 HK Battle Grip Beavertail pistol grip,
+	AR-15 HK Battle Grip Beavertail pistol grip (RAL 8000),
+	AR-15 HK Ergo PSG-1 style pistol grip,
+	AR-15 HK V2 pistol grip,
+	Hogue OverMolded Rubber Grip (Black),
+	Hogue OverMolded Rubber Grip (FDE),
+	Hogue OverMolded Rubber Grip (Ghillie Earth),
+	Hogue OverMolded Rubber Grip (Ghillie Green),
+	Hogue OverMolded Rubber Grip (Olive Drab),
+	AR-15 Magpul MIAD pistol grip (FDE),
+	AR-15 Magpul MOE pistol grip (Black),
+	AR-15 Magpul MOE pistol grip (FDE),
+	AR-15 Naroh Arms GRAL-S pistol grip,
+	MCX pistol grip,
+	AR-15 Stark AR Rifle Grip (Black),
+	AR-15 Stark AR Rifle Grip (FDE),
+	AR-15 Tactical Dynamics Hexgrip pistol grip,
+	AR-15 Tactical Dynamics Skeletonized pistol grip
+]
+ChildParts=[
+	MCX GEN1 .300 BLK upper receiver
+]
+ChildParts=[
+	MPX/MCX retractable stock pipe adapter,
+	MPX/MCX collapsing/telescoping stock,
+	MPX/MCX telescoping stock,
+	MPX/MCX lightweight stock,
+	MPX/MCX Maxim Defense CQB telescoping stock,
+	MPX/MCX PMM ULSS foldable stock
+]
+ChildParts=[
+	5.56x45 Colt AR-15 STANAG 30-round magazine,
+	FN SCAR-L 5.56x45 30-round magazine,
+	FN SCAR-L 5.56x45 30-round magazine (FDE),
+	5.56x45 HK Steel Maritime STANAG 30-round magazine,
+	5.56x45 HK PM Gen.2 STANAG 30-round magazine,
+	5.56x45 HK 30 STANAG polymer 30-round magazine,
+	5.56x45 Magpul PMAG D-60 STANAG 60-round magazine,
+	5.56x45 Magpul PMAG 10 GEN M3 STANAG 10-round magazine,
+	5.56x45 Magpul PMAG 20 GEN M3 STANAG 20-round magazine,
+	5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazine,
+	5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazine (FDE),
+	5.56x45 Magpul PMAG 40 GEN M3 STANAG 40-round magazine,
+	5.56x45 Magpul PMAG 40 GEN M3 STANAG 40-round magazine (FDE),
+	5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine,
+	5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine (FDE),
+	5.56x45 SureFire MAG5-100 STANAG 100-round magazine,
+	5.56x45 SureFire MAG5-60 STANAG 60-round magazine,
+	5.56x45 TROY BattleMag STANAG 30-round magazine
+]
+ChildParts=[
+	MCX charging handle
+]
+Recoil=155.000000
+Ergonomics=48.000000
+Information_Eng=The .300 Blackout MCX line, designed and manufactured by SIG Sauer, is available in both semi-automatic and automatic versions and features a short-stroke gas piston system, which is inherited from the earlier SIG MPX submachine gun. The .300 Blackout ammo and the MCX are compatible with all AR-15 magazines.
+basePrice=21300
+width=1
+height=1
+avg24hPrice=58095
+low24hPrice=45000
+lastOfferCount=21
+Sell_Prapor=10650
+Sell_Fence=8520
+Sell_Skier=10437
+Sell_Peacekeeper=83
+Sell_Mechanic=11928
+Sell_Flea Market=45000
+weight=0.400000
+fleaMarketFee=2445
+propertiestype=ItemPropertiesWeapon

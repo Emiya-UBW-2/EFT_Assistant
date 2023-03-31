@@ -1,0 +1,26 @@
+IDstr=58dd3ad986f77403051cba8f
+Name=7.62x51mm M80
+ShortName=M80
+Itemtype=Ammo
+Conflict=[
+	AI AXMC .338 LM 28 inch barrel,
+	AI AXMC .338 LM bolt assembly,
+	AI AXMC .338 LM 10-round magazine,
+]
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=A 7.62x51mm NATO M80 cartridge with a 9.5 gram lead-antimony alloy core bullet with a bimetallic jacket, in a brass case. This cartridge was adopted in the United States Armed Forces as a replacement for the 7.62x51mm NATO M59 cartridge after the Vietnam War as standard ammunition, as it provides a considerable stopping power effect as well as being able to pierce through basic and intermediate body ballistic protections. However, it has a high bounce probability on various surfaces.
+basePrice=356
+width=1
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
+Sell_Prapor=178
+Sell_Fence=142
+Sell_Skier=174
+Sell_Peacekeeper=1
+Sell_Mechanic=199
+weight=0.024000
+fleaMarketFee=0
+propertiestype=ItemPropertiesAmmo

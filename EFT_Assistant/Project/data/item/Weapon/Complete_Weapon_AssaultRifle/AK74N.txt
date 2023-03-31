@@ -1,0 +1,25 @@
+IDstr=5644bd2b4bdc2d3b4c8b4572
+Name=Kalashnikov AK-74N 5.45x39 assault rifle
+ShortName=AK-74N
+Itemtype=Assault rifle
+Conflict=[
+	Hera Arms CQR tactical foregrip,
+]
+Recoil=0.000000
+Ergonomics=31.000000
+Information_Eng=AK-74N (Avtomat Kalashnikova 74 Nochnoy - "Kalashnikov's Automatic rifle 74 Night") was developed in 1970 by M. T. Kalashnikov, became a further evolution of AKM due to adoption of the new 5.45x39 ammunition by the military. The key design difference from the standard AK-74 is a side mount for optical and night scopes.
+basePrice=23147
+width=4
+height=1
+avg24hPrice=38976
+low24hPrice=30000
+lastOfferCount=20
+Sell_Prapor=11573
+Sell_Fence=9258
+Sell_Skier=11342
+Sell_Peacekeeper=90
+Sell_Mechanic=12962
+Sell_Flea Market=30000
+weight=2.092000
+fleaMarketFee=1620
+propertiestype=ItemPropertiesWeapon

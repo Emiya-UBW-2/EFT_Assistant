@@ -1,0 +1,27 @@
+IDstr=58d2946386f774496974c37e
+Name=Magpul MOE Carbine stock (FDE)
+ShortName=MOE FDE
+Itemtype=Stock
+Conflict=[
+	AR-15 ADAR 2-15 wooden stock,
+	AR-15 Hera Arms CQR pistol grip/buttstock,
+]
+Recoil=-30.000000
+Ergonomics=8.000000
+Information_Eng=A drop-in replacement buttstock for AR-15/M16 carbines by Magpul Original Equipment. Uses mil-spec sized receiver extension tubes. Frame profile avoids snagging and shields the release latch to prevent accidental activation, includes a standard 0.30" thick rubber butt-pad to prevent slippage even with body armor or modular gear. Flat Dark Earth version.
+basePrice=6633
+width=2
+height=1
+avg24hPrice=12254
+low24hPrice=8800
+lastOfferCount=14
+Sell_Prapor=3316
+Sell_Fence=2653
+Sell_Skier=3250
+Sell_Peacekeeper=26
+Sell_Mechanic=3714
+Sell_Jaeger=3979
+Sell_Flea Market=9878
+weight=0.226000
+fleaMarketFee=522
+propertiestype=ItemPropertiesWeaponMod

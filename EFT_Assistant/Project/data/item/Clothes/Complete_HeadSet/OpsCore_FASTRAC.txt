@@ -1,0 +1,28 @@
+IDstr=5a16b9fffcdbcb0176308b34
+Name=Ops-Core FAST RAC Headset
+ShortName=RAC
+Itemtype=Headphones
+Conflict=[
+	Ops-Core FAST Side Armor,
+	Peltor ComTac 2 headset,
+	MSA Sordin Supreme PRO-X/L active headset,
+	GSSh-01 active headset,
+	Peltor Tactical Sport headset,
+	Peltor ComTac 4 Hybrid headset
+]
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=A component for the Ops-Core FAST helmet - a system of noise reduction and amplification of quiet sounds, as well as a radio headset when connected to the communication device.
+basePrice=46636
+width=2
+height=1
+avg24hPrice=32524
+low24hPrice=28777
+lastOfferCount=31
+Sell_Fence=18654
+Sell_Skier=22851
+Sell_Ragman=28914
+Sell_Flea Market=29000
+weight=0.600000
+fleaMarketFee=2454
+propertiestype=

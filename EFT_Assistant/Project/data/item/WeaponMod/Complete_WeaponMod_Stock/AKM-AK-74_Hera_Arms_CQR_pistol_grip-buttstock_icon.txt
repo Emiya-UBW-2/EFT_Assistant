@@ -1,0 +1,48 @@
+IDstr=619b69037b9de8162902673e
+Name=AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock
+ShortName=CQR47
+Itemtype=Stock
+Conflict=[
+	AK-74 polymer stock (6P20 Sb.7),
+	AK-74 "Plum" polymer stock (6P20 Sb.7),
+	AK-74 wooden stock (6P20 Sb.5),
+	AK-74M polymer stock (6P34 Sb.15),
+	AKM/AK-74 CAA AKTS buffer tube,
+	AK-74M CAA AKTS AK74 buffer tube,
+	AKM/AK-74 FAB Defense UAS stock,
+	AKM/AK-74 Hexagon "Kocherga" stock (Anodized Red),
+	AKM wooden stock (6P1 Sb.5),
+	AKM/AK-74 Magpul Zhukov-S stock,
+	VPO-136 "Vepr-KM" wooden stock,
+	VPO-209 wooden stock,
+	AKM/AK-74 ProMag Archangel OPFOR AA47 buttstock,
+	AKM/AK-74 ME4 buffer tube adapter,
+	AKS-74/AKS-74U Zenit PT Lock,
+	AK-74M/AK-100 Zenit PT Lock,
+	AK Zenit PT-1 "Klassika" stock,
+	AKM/AK-74 Zenit PT Lock,
+	AKMS shoulder piece (6P4 Sb.1-19),
+	AKMSN shoulder piece (6P4N Sb.1-19),
+	AKS-74 metal skeletonized stock (6P21 Sb.5),
+	AKS-74U metal skeleton stock (6P26 Sb.5),
+	AKM/AK-74 RD AK to M4 buffer tube adapter
+]
+Recoil=-35.000000
+Ergonomics=16.000000
+Information_Eng=Designed for both the civilian market and military use. The CQR47 stock can be easily mounted in place of the standard attachment of the AK/AKM non-folding stock. Manufactured by Hera Arms.
+basePrice=31263
+width=2
+height=1
+avg24hPrice=19217
+low24hPrice=16666
+lastOfferCount=14
+Sell_Prapor=15631
+Sell_Fence=12505
+Sell_Skier=15318
+Sell_Peacekeeper=121
+Sell_Mechanic=17507
+Sell_Jaeger=18757
+Sell_Flea Market=17777
+weight=0.525000
+fleaMarketFee=1650
+propertiestype=ItemPropertiesWeaponMod

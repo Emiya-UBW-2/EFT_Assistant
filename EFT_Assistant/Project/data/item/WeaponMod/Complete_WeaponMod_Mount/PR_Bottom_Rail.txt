@@ -1,0 +1,47 @@
+IDstr=6388c4ac8d895f557a0c6515
+Name=Precision Reflex handguard bottom rail mount
+ShortName=PR bot.
+Itemtype=Mount
+ChildParts=[
+	BCM GUNFIGHTER MOD 3 vertical foregrip,
+	ASh-12 vertical foregrip,
+	Fortis Shift tactical foregrip,
+	HK Sturmgriff foregrip,
+	KAC vertical foregrip,
+	Magpul RVG foregrip (Black),
+	Magpul RVG foregrip (FDE),
+	RTM Pillau tactical foregrip,
+	Stark SE-5 Express Forward foregrip,
+	Strike Industries Cobra Tactical foregrip,
+	TangoDown Stubby BGV-MK46K foregrip (Black),
+	TangoDown Stubby BGV-MK46K foregrip (FDE),
+	TangoDown Stubby BGV-MK46K foregrip (Stealth Gray),
+	Tactical Dynamics Skeletonized Foregrip,
+	Viking Tactics UVG tactical foregrip,
+	Zenit RK-1 tactical foregrip on B-25U mount,
+	Zenit RK-0 tactical foregrip,
+	Zenit RK-1 tactical foregrip,
+	Zenit RK-2 tactical foregrip,
+	Zenit RK-4 tactical foregrip,
+	Zenit RK-5 tactical foregrip,
+	Zenit RK-6 tactical foregrip
+]
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=A bottom rail for handguards by Precision Reflex, which allows you to install foregrips.
+basePrice=2125
+width=1
+height=1
+avg24hPrice=37317
+low24hPrice=5000
+lastOfferCount=1
+Sell_Prapor=1062
+Sell_Fence=850
+Sell_Skier=1041
+Sell_Peacekeeper=8
+Sell_Mechanic=1190
+Sell_Jaeger=1275
+Sell_Flea Market=5000
+weight=0.075000
+fleaMarketFee=280
+propertiestype=ItemPropertiesWeaponMod

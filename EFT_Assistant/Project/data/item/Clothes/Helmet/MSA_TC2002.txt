@@ -1,0 +1,26 @@
+IDstr=5d5e9c74a4b9364855191c40
+Name=MSA ACH TC-2002 MICH Series helmet
+ShortName=TC-2002
+Itemtype=Headwear
+Conflict=[
+	Faceless mask,
+	Tagilla's welding mask "Gorilla",
+	Tagilla's welding mask "UBEY",
+]
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=The MSA Advanced Combat Helmet (ACH) delivers advanced ballistic, fragmentation, and impact head protection, with comfort for long-term use. The helmet’s low-profile design reduces the risk of interference in target acquisition and ensures compatibility with NVGs and headsets.
+basePrice=49100
+width=2
+height=2
+avg24hPrice=45901
+low24hPrice=38000
+lastOfferCount=31
+Sell_Fence=19640
+Sell_Skier=24059
+Sell_Peacekeeper=190
+Sell_Ragman=30442
+Sell_Flea Market=41000
+weight=1.450000
+fleaMarketFee=2713
+propertiestype=ItemPropertiesHelmet

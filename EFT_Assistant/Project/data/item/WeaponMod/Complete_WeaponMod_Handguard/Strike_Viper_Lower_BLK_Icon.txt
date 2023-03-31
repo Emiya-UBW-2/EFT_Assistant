@@ -1,0 +1,32 @@
+IDstr=637f589af5ef8c33840d36d3
+Name=AR-15 Strike Industries Viper carbine length M-LOK lower handguard
+ShortName=Viper AR15
+Itemtype=Handguard
+ChildParts=[
+	Magpul M-LOK AFG tactical foregrip (Black),
+	Magpul M-LOK AFG tactical foregrip (FDE),
+	Magpul M-LOK AFG tactical foregrip (Olive Drab),
+	Magpul M-LOK AFG tactical foregrip (Stealth Gray),
+	Magpul M-LOK 4.1 inch rail
+]
+Conflict=[
+	AR-15 5.56x45 Molot Arms 406mm barrel
+]
+Recoil=0.000000
+Ergonomics=7.000000
+Information_Eng=The Strike Industries Viper lower handguard for AR-15 equipped with an M-LOK interface for the installation of additional devices and accessories.
+basePrice=5225
+width=2
+height=1
+avg24hPrice=9598
+low24hPrice=4000
+lastOfferCount=4
+Sell_Prapor=2612
+Sell_Fence=2090
+Sell_Skier=2560
+Sell_Peacekeeper=20
+Sell_Mechanic=2926
+Sell_Flea Market=5000
+weight=0.094000
+fleaMarketFee=306
+propertiestype=ItemPropertiesWeaponMod

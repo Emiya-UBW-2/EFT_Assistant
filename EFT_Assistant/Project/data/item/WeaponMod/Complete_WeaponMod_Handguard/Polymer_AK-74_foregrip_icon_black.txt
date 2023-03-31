@@ -1,0 +1,25 @@
+IDstr=5648b1504bdc2d9d488b4584
+Name=AK-74 polymer handguard (6P20 Sb.9)
+ShortName=6P20 Sb.9
+Itemtype=Handguard
+Conflict=[
+	AK Zenit B-33 dust cover,
+]
+Recoil=0.000000
+Ergonomics=5.000000
+Information_Eng=A polymer handguard for AK-74 automatic rifles which replaced the classic wooden one. Manufactured by Izhmash.
+basePrice=1022
+width=1
+height=1
+avg24hPrice=22999
+low24hPrice=10000
+lastOfferCount=1
+Sell_Prapor=511
+Sell_Fence=408
+Sell_Skier=500
+Sell_Peacekeeper=4
+Sell_Mechanic=572
+Sell_Flea Market=24999
+weight=0.250000
+fleaMarketFee=5415
+propertiestype=ItemPropertiesWeaponMod

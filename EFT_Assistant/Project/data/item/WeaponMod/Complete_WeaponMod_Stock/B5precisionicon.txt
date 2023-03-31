@@ -1,0 +1,27 @@
+IDstr=5fc2369685fd526b824a5713
+Name=AR-15 B5 Systems Precision stock
+ShortName=Precision
+Itemtype=Stock
+Conflict=[
+	AR-15 ADAR 2-15 wooden stock,
+	AR-15 Hera Arms CQR pistol grip/buttstock,
+]
+Recoil=-34.000000
+Ergonomics=1.000000
+Information_Eng=The Precision telescoping stock manufactured by B5 Systems. Designed to be installed on AR-system weapons.
+basePrice=18500
+width=2
+height=1
+avg24hPrice=40748
+low24hPrice=29999
+lastOfferCount=6
+Sell_Prapor=9250
+Sell_Fence=7400
+Sell_Skier=9065
+Sell_Peacekeeper=72
+Sell_Mechanic=10360
+Sell_Jaeger=11100
+Sell_Flea Market=39000
+weight=0.160000
+fleaMarketFee=2118
+propertiestype=ItemPropertiesWeaponMod

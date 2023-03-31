@@ -1,0 +1,72 @@
+IDstr=55d3632e4bdc2d972f8b4569
+Name=AR-15 5.56x45 370mm barrel
+ShortName=AR-15 370mm
+Itemtype=Barrel
+ChildParts=[
+	Yankee Hill Annihilator multi-caliber flash hider,
+	AR-15 AAC Blackout 51T 5.56x45 flash hider,
+	AR-15 ADAR 2-15 5.56x45 flash hider,
+	AR-15 AWC PSR 5.56x45 muzzle brake,
+	AR-15 Bulletec ST-6012 5.56x45 muzzle brake,
+	AR-15 Colt USGI A2 5.56x45 flash hider,
+	AR-15 Daniel Defense WAVE 5.56x45 muzzle brake,
+	Desert Tech 5.56x45 flash hider,
+	AR-15 Ferfrans CQB 5.56x45 muzzle brake,
+	AR-15 HK BLITZ 5.56x45 flash hider,
+	AR-15 KAC QDC 5.56x45 Flash Suppressor Kit,
+	AR-15 Nordic Components Corvette 5.56x45 compensator,
+	AR-15 Noveske KX3 5.56x45 flash hider,
+	AR-15 PWS CQB 5.56x45 muzzle brake,
+	AR-15 SilencerCo ASR 5.56x45 flash hider,
+	AR-15 SureFire SF3P 5.56x45 Flash hider,
+	AR-15 SureFire SF4P FH556RC 5.56x45 flash hider,
+	AR-15 SureFire WarComp 5.56x45 flash hider,
+	AR-15 TAA ZK-23 5.56x45 muzzle brake,
+	AR-15 Thunder Beast Arms 223CB 5.56x45 muzzle brake,
+	AR-15 TROY Claymore 5.56x45 muzzle brake,
+	AR-15 Vendetta Precision VP-09 Interceptor 5.56x45 muzzle brake,
+	Gemtech ONE Direct Thread Mount adapter,
+	SilencerCo Hybrid 46 Direct Thread Mount adapter,
+	Rotor 43 5.56x45 muzzle brake-compensator,
+	KAC QDC 5.56x45 3-Prong Flash Eliminator,
+	AR-15 SureFire Warden 5.56x45 blast regulator,
+	AR-15 Yankee Hill Phantom 5.56x45 flash hider
+]
+ChildParts=[
+	M4A1 front sight with gas block,
+	AR-15 Daniel Defense MK12 Low Profile Gas Block,
+	AR-15 JP Enterprises Gas System-5B,
+	AR-15 Windham Weaponry Rail Gas Block
+]
+ChildParts=[
+	M203 40mm underbarrel grenade launcher
+]
+Conflict=[
+	AR-15 ADAR 2-15 wooden handguard,
+	AR-15 Lone Star Ion Lite handguard,
+	AR-15 Magpul MOE SL medium length M-LOK handguard,
+	AR-15 SAI 10 inch QD Rail handguard,
+	AR-15 Soyuz-TM 15 inch M-LOK handguard,
+	AR-10 CMMG MK3 RML15 15 inch M-LOK handguard,
+	Mk-18 18 inch handguard,
+	AR-10 KAC URX 4 14.5 inch handguard,
+]
+Recoil=-3.000000
+Ergonomics=-14.000000
+Information_Eng=A 370mm barrel for AR-15 based weapons for 5.56x45 NATO ammo. Corresponds with standard service M4A1 barrel.
+basePrice=24567
+width=3
+height=1
+avg24hPrice=30955
+low24hPrice=25999
+lastOfferCount=10
+Sell_Prapor=12283
+Sell_Fence=9826
+Sell_Skier=12037
+Sell_Peacekeeper=95
+Sell_Mechanic=13757
+Sell_Jaeger=14740
+Sell_Flea Market=28889
+weight=0.509000
+fleaMarketFee=1606
+propertiestype=ItemPropertiesBarrel

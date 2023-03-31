@@ -1,0 +1,26 @@
+IDstr=60228a76d62c9b14ed777a66
+Name=PL-15 front sight
+ShortName=PL15 FS
+Itemtype=Ironsight
+SightRange=200
+Conflict=[
+	PL-15 extended rear sight,
+]
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=A standard-issue front sight for the PL-15 pistol.
+basePrice=800
+width=1
+height=1
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
+Sell_Prapor=400
+Sell_Fence=320
+Sell_Skier=392
+Sell_Peacekeeper=3
+Sell_Mechanic=448
+Sell_Flea Market=8888
+weight=0.007000
+fleaMarketFee=1148
+propertiestype=ItemPropertiesScope

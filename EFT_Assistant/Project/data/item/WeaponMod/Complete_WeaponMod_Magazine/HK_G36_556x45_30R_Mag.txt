@@ -1,0 +1,25 @@
+IDstr=62307b7b10d2321fa8741921
+Name=HK G36 5.56x45 30-round magazine
+ShortName=G36
+Itemtype=Magazine
+Conflict=[
+	HK G36 STANAG magwell,
+]
+Recoil=0.000000
+Ergonomics=-3.000000
+Information_Eng=A 30-round 5.56x45 magazine designed for the HK G36.
+basePrice=2350
+width=1
+height=2
+avg24hPrice=17877
+low24hPrice=5000
+lastOfferCount=10
+Sell_Prapor=1175
+Sell_Fence=940
+Sell_Skier=1151
+Sell_Peacekeeper=9
+Sell_Mechanic=1316
+Sell_Flea Market=7999
+weight=0.140000
+fleaMarketFee=518
+propertiestype=ItemPropertiesMagazine

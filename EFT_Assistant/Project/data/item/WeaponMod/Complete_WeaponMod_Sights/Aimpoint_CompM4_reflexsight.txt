@@ -1,0 +1,27 @@
+IDstr=5c7d55de2e221644f31bff68
+Name=Aimpoint CompM4 reflex sight
+ShortName=CompM4
+Itemtype=Reflex sight
+SightRange=0
+Conflict=[
+	KMZ 1P59 3-10x riflescope,
+	KMZ 1P69 3-10x riflescope,
+]
+Recoil=0.000000
+Ergonomics=-2.000000
+Information_Eng=The Aimpoint CompM4 series of sights are the toughest sights that Aimpoint has ever produced and they are the standard infantry soldier sight in many NATO countries. These optics are extremely rugged and operate continuously for up to 8 years using a single AA battery. The Aimpoint CompM4s is the latest version of the U.S. Army's M68CCO (Close-Combat Optic), continuing a legacy that Aimpoint has maintained since 1997.
+basePrice=29600
+width=1
+height=1
+avg24hPrice=17716
+low24hPrice=13333
+lastOfferCount=7
+Sell_Prapor=14800
+Sell_Fence=11840
+Sell_Skier=14504
+Sell_Peacekeeper=115
+Sell_Mechanic=16576
+Sell_Flea Market=16600
+weight=0.370000
+fleaMarketFee=1564
+propertiestype=ItemPropertiesScope

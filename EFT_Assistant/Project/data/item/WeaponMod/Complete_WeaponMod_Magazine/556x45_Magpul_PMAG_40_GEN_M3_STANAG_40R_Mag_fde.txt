@@ -1,0 +1,25 @@
+IDstr=5d1340bdd7ad1a0e8d245aab
+Name=5.56x45 Magpul PMAG 40 GEN M3 STANAG 40-round magazine (FDE)
+ShortName=GEN M3
+Itemtype=Magazine
+Conflict=[
+	HK G36 magwell,
+]
+Recoil=0.000000
+Ergonomics=-7.000000
+Information_Eng=A 40-round polymer Magpul PMAG GEN M3 40 magazine for 5.56x45 ammo. Flat Dark Earth version.
+basePrice=6177
+width=1
+height=3
+avg24hPrice=35620
+low24hPrice=19999
+lastOfferCount=0
+Sell_Prapor=3088
+Sell_Fence=2470
+Sell_Skier=3026
+Sell_Peacekeeper=24
+Sell_Mechanic=3459
+Sell_Flea Market=19999
+weight=0.200000
+fleaMarketFee=1264
+propertiestype=ItemPropertiesMagazine

@@ -1,0 +1,26 @@
+IDstr=5b7bed205acfc400161d08cc
+Name=FAL original handguard
+ShortName=FAL
+Itemtype=Handguard
+Conflict=[
+	SA-58 7.62x51 16 inch barrel,
+	SA-58 7.62x51 11 inch barrel,
+]
+Recoil=0.000000
+Ergonomics=7.000000
+Information_Eng=The original Austrian handguard for FAL series rifles manufactured by Fabrique Nationale Herstal.
+basePrice=2400
+width=2
+height=1
+avg24hPrice=2600
+low24hPrice=2600
+lastOfferCount=1
+Sell_Prapor=1200
+Sell_Fence=960
+Sell_Skier=1176
+Sell_Peacekeeper=9
+Sell_Mechanic=1344
+Sell_Flea Market=2600
+weight=0.610000
+fleaMarketFee=150
+propertiestype=ItemPropertiesWeaponMod

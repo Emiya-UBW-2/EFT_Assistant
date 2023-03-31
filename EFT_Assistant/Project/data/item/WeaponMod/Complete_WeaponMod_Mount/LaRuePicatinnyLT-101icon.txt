@@ -1,0 +1,27 @@
+IDstr=5c064c400db834001d23f468
+Name=LaRue LT101 QD Tactical Picatinny Riser mount
+ShortName=QD LT101
+Itemtype=Mount
+Conflict=[
+	AR-15 rear sight carry handle,
+	SV-98 rear sight,
+]
+Recoil=0.000000
+Ergonomics=-1.000000
+Information_Eng=A Quick-Detach Picatinny riser to elevate the reflex or optical sight position, manufactured by LaRue.
+basePrice=2900
+width=1
+height=1
+avg24hPrice=22297
+low24hPrice=3240
+lastOfferCount=12
+Sell_Prapor=1450
+Sell_Fence=1160
+Sell_Skier=1421
+Sell_Peacekeeper=11
+Sell_Mechanic=1624
+Sell_Jaeger=1740
+Sell_Flea Market=11111
+weight=0.110000
+fleaMarketFee=762
+propertiestype=ItemPropertiesWeaponMod

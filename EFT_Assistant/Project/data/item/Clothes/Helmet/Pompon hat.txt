@@ -1,0 +1,29 @@
+IDstr=5b4329075acfc400153b78ff
+Name=Pompon hat
+ShortName=Pompon
+Itemtype=Headwear
+Conflict=[
+	Faceless mask,
+	Ghoul mask,
+	Pestily plague mask,
+	Slender mask,
+	Tagilla's welding mask "Gorilla",
+	Tagilla's welding mask "UBEY",
+]
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=A warm hat with a pompon. Only Scavs would wear something like this. Well, or some psychos who want to be in the spotlight.
+basePrice=4560
+width=1
+height=1
+avg24hPrice=13773
+low24hPrice=9000
+lastOfferCount=17
+Sell_Fence=1824
+Sell_Skier=2234
+Sell_Peacekeeper=18
+Sell_Ragman=2827
+Sell_Flea Market=10000
+weight=0.100000
+fleaMarketFee=548
+propertiestype=

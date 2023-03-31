@@ -1,0 +1,44 @@
+IDstr=6388c4478d895f557a0c6512
+Name=Precision Reflex handguard short side rail mount
+ShortName=PR side
+Itemtype=Mount
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser,
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	LA-5B/PEQ tactical device,
+	NcSTAR Tactical blue laser LAM-module,
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Zenit Perst-3 tactical device,
+	Kiba Arms 25mm accessory ring mount,
+	Daniel Defense 25mm accessory ring mount,
+	Olight Baldr Pro tactical flashlight with laser,
+	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Insight WMX200 tactical flashlight
+]
+Recoil=0.000000
+Ergonomics=0.000000
+Information_Eng=A short rail for handguards by Precision Reflex, which allows you to install additional tactical equipment.
+basePrice=1777
+width=1
+height=1
+avg24hPrice=23867
+low24hPrice=12899
+lastOfferCount=1
+Sell_Prapor=888
+Sell_Fence=710
+Sell_Skier=870
+Sell_Peacekeeper=7
+Sell_Mechanic=995
+Sell_Jaeger=1066
+Sell_Flea Market=30000
+weight=0.070000
+fleaMarketFee=5085
+propertiestype=ItemPropertiesWeaponMod

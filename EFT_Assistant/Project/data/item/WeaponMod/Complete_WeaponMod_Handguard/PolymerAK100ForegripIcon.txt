@@ -1,0 +1,25 @@
+IDstr=5cbda392ae92155f3c17c39f
+Name=AK 100-series polymer handguard
+ShortName=AK 100
+Itemtype=Handguard
+Conflict=[
+	AK Zenit B-33 dust cover,
+]
+Recoil=0.000000
+Ergonomics=5.000000
+Information_Eng=A polymer handguard for the 100-series AKs, manufactured by Izhmash. A further modification of the polymer AK-74M handguard. Features a bottom rail for installation of tactical foregrips.
+basePrice=1322
+width=1
+height=1
+avg24hPrice=18303
+low24hPrice=5000
+lastOfferCount=3
+Sell_Prapor=661
+Sell_Fence=528
+Sell_Skier=647
+Sell_Peacekeeper=5
+Sell_Mechanic=740
+Sell_Flea Market=19000
+weight=0.270000
+fleaMarketFee=2898
+propertiestype=ItemPropertiesWeaponMod

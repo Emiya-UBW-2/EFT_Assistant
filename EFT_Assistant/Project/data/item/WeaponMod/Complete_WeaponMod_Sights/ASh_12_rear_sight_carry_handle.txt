@@ -1,0 +1,34 @@
+IDstr=5caf1691ae92152ac412efb9
+Name=ASh-12 rear sight carry handle
+ShortName=ASh-12 CH
+Itemtype=Ironsight
+SightRange=600
+Conflict=[
+	HK 416A5 flip-up rear sight,
+	HK MP7 flip-up rear sight,
+	KAC Folding Micro rear sight,
+	KAC Folding rear sight,
+	KRISS Defiance low profile flip-up rear sight,
+	Magpul MBUS Gen2 flip-up rear sight,
+	Magpul MBUS Gen2 flip-up rear sight (FDE),
+	MCX flip-up rear sight,
+	MPX flip-up rear sight
+]
+Recoil=0.000000
+Ergonomics=-2.000000
+Information_Eng=A detachable carry handle with a rear sight for the ASh-12 assault rifles.
+basePrice=1800
+width=1
+height=1
+avg24hPrice=70000
+low24hPrice=70000
+lastOfferCount=1
+Sell_Prapor=900
+Sell_Fence=720
+Sell_Skier=882
+Sell_Peacekeeper=7
+Sell_Mechanic=1008
+Sell_Flea Market=70000
+weight=0.150000
+fleaMarketFee=20686
+propertiestype=ItemPropertiesScope
