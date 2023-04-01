@@ -43,7 +43,7 @@ namespace FPS_n2 {
 		int ysize = LineHeight - y_r(3);
 		int count = 0;
 
-		WindowSystem::SetMsg(xp1, yp1, xp1 + xsize, yp1 + ysize - y_r(5), ysize - y_r(5), FontHandle::FontXCenter::MIDDLE, White, Black, Name);
+		WindowSystem::SetMsg(xp1, yp1, xp1 + xsize, yp1 + ysize - y_r(5), ysize - y_r(5), STRX_MID, White, Black, Name);
 		yp1 += ysize;
 		int yp_t = yp1;
 		if (isAllSelect) {

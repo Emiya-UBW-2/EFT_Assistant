@@ -477,7 +477,7 @@ namespace FPS_n2 {
 								}
 								DrawControl::Instance()->SetString(DrawLayer::Front,
 									FontPool::FontType::Nomal_Edge, LineHeight,
-									FontHandle::FontXCenter::RIGHT, FontHandle::FontYCenter::BOTTOM, Input->GetMouseX(), Input->GetMouseY(), RedPop, Black,
+									STRX_RIGHT, STRY_BOTTOM, Input->GetMouseX(), Input->GetMouseY(), RedPop, Black,
 									"Lキーで優先パーツに設定"
 								);
 							}
@@ -521,7 +521,7 @@ namespace FPS_n2 {
 							if (xOfset + xOfsetAdd > (xsize - xsizeMin * 2)) {
 								break;
 							}
-							WindowSystem::SetMsg(xbase + xOfset, ybase, xbase + xOfset, ybase + Hight, Hight, FontHandle::FontXCenter::LEFT, White, Black,
+							WindowSystem::SetMsg(xbase + xOfset, ybase, xbase + xOfset, ybase + Hight, Hight, STRX_LEFT, White, Black,
 								"[%s]", ItemTypeData::Instance()->FindPtr(t)->GetName().c_str());
 							xOfset += xOfsetAdd;
 						}
@@ -758,7 +758,7 @@ namespace FPS_n2 {
 				int yp = y_r(1080) - LineHeight;
 				//
 				yp -= y_r(80);
-				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, FontHandle::FontXCenter::LEFT, White, Black, "エルゴノミクス");
+				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_LEFT, White, Black, "エルゴノミクス");
 				int Erg = (int)m_Ergonomics, OldE = Erg;
 				//WindowSystem::UpDownBar(xp, y_r(640), yp + LineHeight + y_r(5), &Erg, 0, 100);
 				if (m_BaseWeapon) {
@@ -803,16 +803,16 @@ namespace FPS_n2 {
 					xp_t = (xmin + (xmax - xmin) / 2);
 					if (m_SpecChange) {
 						if ((int)ErgMin == (int)m_Ergonomics) {
-							WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, FontHandle::FontXCenter::MIDDLE, White, Black, "               <%5.2f", ErgMax);
+							WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, STRX_MID, White, Black, "               <%5.2f", ErgMax);
 						}
 						else if ((int)ErgMax == (int)m_Ergonomics) {
-							WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, FontHandle::FontXCenter::MIDDLE, White, Black, "%5.2f<               ", ErgMin);
+							WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, STRX_MID, White, Black, "%5.2f<               ", ErgMin);
 						}
 						else {
-							WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, FontHandle::FontXCenter::MIDDLE, White, Black, "%5.2f<            <%5.2f", ErgMin, ErgMax);
+							WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, STRX_MID, White, Black, "%5.2f<            <%5.2f", ErgMin, ErgMax);
 						}
 					}
-					WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight, FontHandle::FontXCenter::MIDDLE, White, Black, "%5.2f", m_Ergonomics);
+					WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight, STRX_MID, White, Black, "%5.2f", m_Ergonomics);
 					/*
 					xp_t = xmin;
 					if (WindowSystem::ClickCheckBox(xp_t, ypos, xp_t + LineHeight, ypos + LineHeight, true, true, Gray25, "▽")) {
@@ -826,7 +826,7 @@ namespace FPS_n2 {
 				}
 				//
 				yp -= y_r(80);
-				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, FontHandle::FontXCenter::LEFT, White, Black, "縦リコイル");
+				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_LEFT, White, Black, "縦リコイル");
 				int Rec = (int)m_Recoil, OldR = Rec;
 				//WindowSystem::UpDownBar(xp, y_r(640), yp + LineHeight + y_r(5), &Rec, 10, 200);
 				if (m_BaseWeapon) {
@@ -871,16 +871,16 @@ namespace FPS_n2 {
 					xp_t = (xmin + (xmax - xmin) / 2);
 					if (m_SpecChange) {
 						if ((int)RecMin == (int)m_Recoil) {
-							WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, FontHandle::FontXCenter::MIDDLE, White, Black, "               <%5.2f", RecMax);
+							WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, STRX_MID, White, Black, "               <%5.2f", RecMax);
 						}
 						else if ((int)RecMax == (int)m_Recoil) {
-							WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, FontHandle::FontXCenter::MIDDLE, White, Black, "%5.2f<               ", RecMin);
+							WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, STRX_MID, White, Black, "%5.2f<               ", RecMin);
 						}
 						else {
-							WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, FontHandle::FontXCenter::MIDDLE, White, Black, "%5.2f<            <%5.2f", RecMin, RecMax);
+							WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, STRX_MID, White, Black, "%5.2f<            <%5.2f", RecMin, RecMax);
 						}
 					}
-					WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight, FontHandle::FontXCenter::MIDDLE, White, Black, "%5.2f", m_Recoil);
+					WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight, STRX_MID, White, Black, "%5.2f", m_Recoil);
 					/*
 					xp_t = xmin;
 					if (WindowSystem::ClickCheckBox(xp_t, ypos, xp_t + LineHeight, ypos + LineHeight, true, true, Gray25, "▽")) {
@@ -892,15 +892,15 @@ namespace FPS_n2 {
 				//
 				yp -= y_r(50);
 				WindowSystem::CheckBox(xp, yp, &m_EnableSight);
-				WindowSystem::SetMsg(xp + LineHeight * 3, yp, xp + LineHeight * 3, yp + LineHeight, LineHeight, FontHandle::FontXCenter::LEFT, White, Black, "サイトを含む");
+				WindowSystem::SetMsg(xp + LineHeight * 3, yp, xp + LineHeight * 3, yp + LineHeight, LineHeight, STRX_LEFT, White, Black, "サイトを含む");
 				//
 				yp -= y_r(50);
 				WindowSystem::CheckBox(xp, yp, &m_EnableMount);
-				WindowSystem::SetMsg(xp + LineHeight * 3, yp, xp + LineHeight * 3, yp + LineHeight, LineHeight, FontHandle::FontXCenter::LEFT, White, Black, "マウントを含む");
+				WindowSystem::SetMsg(xp + LineHeight * 3, yp, xp + LineHeight * 3, yp + LineHeight, LineHeight, STRX_LEFT, White, Black, "マウントを含む");
 				//
 				yp -= y_r(50);
 				WindowSystem::CheckBox(xp, yp, &m_EnableMag);
-				WindowSystem::SetMsg(xp + LineHeight * 3, yp, xp + LineHeight * 3, yp + LineHeight, LineHeight, FontHandle::FontXCenter::LEFT, White, Black, "マガジンを含む");
+				WindowSystem::SetMsg(xp + LineHeight * 3, yp, xp + LineHeight * 3, yp + LineHeight, LineHeight, STRX_LEFT, White, Black, "マガジンを含む");
 				//
 				if (m_EnableSight) {
 					m_EnableMount = true;

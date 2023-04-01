@@ -237,13 +237,13 @@ namespace FPS_n2 {
 				}
 				else {
 					if (m_isWeaponMod) {
-						xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STR_LEFT, (m_Recoil < 0.f) ? Green : Red, Black,
+						xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STRX_LEFT, (m_Recoil < 0.f) ? Green : Red, Black,
 							"Recoil:%s%3.1f %%", (m_Recoil > 0.f) ? "+" : "", m_Recoil) + y_r(30)); yofs += LineHeight;
-						xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STR_LEFT, (m_Ergonomics >= 0.f) ? Green : Red, Black,
+						xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STRX_LEFT, (m_Ergonomics >= 0.f) ? Green : Red, Black,
 							"Ergonomics:%s%3.1f", (m_Ergonomics > 0.f) ? "+" : "", m_Ergonomics) + y_r(30)); yofs += LineHeight;
 					}
 					if (m_ChildPartsID.size() > 0 || m_ParentPartsID.size() > 0) {
-						xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STR_LEFT, White, Black, "Mods:") + y_r(30)); yofs += LineHeight;
+						xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STRX_LEFT, White, Black, "Mods:") + y_r(30)); yofs += LineHeight;
 					}
 					int ysize = (int)((float)y_r(80));
 					for (const auto& cp : m_ChildPartsID) {
@@ -691,7 +691,7 @@ namespace FPS_n2 {
 					SubStrs("<");
 					SubStrs("|");
 
-					std::string Name = ParentPath +"/" + ItemName + ".txt";
+					std::string Name = ParentPath + "/" + ItemName + ".txt";
 					std::ofstream outputfile(Name);
 					outputfile << "IDstr=" + jd.id + "\n";
 					outputfile << "Name=" + jd.name + "\n";
@@ -865,10 +865,10 @@ namespace FPS_n2 {
 			}
 		}
 		if (count > 0) {
-			WindowSystem::SetMsg(xp + FirSize, yp, xp + FirSize, yp + ysize, LineHeight * 9 / 10, STR_LEFT, White, Black, "%s x%2d", Name.c_str(), count);
+			WindowSystem::SetMsg(xp + FirSize, yp, xp + FirSize, yp + ysize, LineHeight * 9 / 10, STRX_LEFT, White, Black, "%s x%2d", Name.c_str(), count);
 		}
 		else {
-			WindowSystem::SetMsg(xp + FirSize, yp, xp + FirSize, yp + ysize, LineHeight * 9 / 10, STR_LEFT, White, Black, "%s", Name.c_str());
+			WindowSystem::SetMsg(xp + FirSize, yp, xp + FirSize, yp + ysize, LineHeight * 9 / 10, STRX_LEFT, White, Black, "%s", Name.c_str());
 		}
 		if (GetIcon().GetGraph()) {
 			float Scale = (float)ysize / (float)(std::min(GetIcon().GetXSize(), GetIcon().GetYSize()));
@@ -900,12 +900,12 @@ namespace FPS_n2 {
 					}
 					DrawControl::Instance()->SetString(DrawLayer::Front,
 						FontPool::FontType::Nomal_Edge, LineHeight,
-						FontHandle::FontXCenter::RIGHT, FontHandle::FontYCenter::BOTTOM, Input->GetMouseX(), Input->GetMouseY(), Color, Black,
+						STRX_RIGHT, STRY_BOTTOM, Input->GetMouseX(), Input->GetMouseY(), Color, Black,
 						"最高値:%s = %d", TraderName.c_str(), Value
 					);
 					DrawControl::Instance()->SetString(DrawLayer::Front,
 						FontPool::FontType::Nomal_Edge, LineHeight,
-						FontHandle::FontXCenter::RIGHT, FontHandle::FontYCenter::TOP, Input->GetMouseX(), Input->GetMouseY(), Color, Black,
+						STRX_RIGHT, STRY_TOP, Input->GetMouseX(), Input->GetMouseY(), Color, Black,
 						"マス単価: %d", Value / (Getwidth()*Getheight())
 					);
 				}

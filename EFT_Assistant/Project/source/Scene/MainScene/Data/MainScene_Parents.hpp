@@ -5,9 +5,12 @@ namespace FPS_n2 {
 	//
 	static const int InvalidID{ -1 };
 	static const int ElseSelectID{ -2 };
-	static const auto STR_LEFT{ FontHandle::FontXCenter::LEFT };
-	static const auto STR_MID{ FontHandle::FontXCenter::MIDDLE };
-	static const auto STR_RIGHT{ FontHandle::FontXCenter::RIGHT };
+	static const auto STRX_LEFT{ FontHandle::FontXCenter::LEFT };
+	static const auto STRX_MID{ FontHandle::FontXCenter::MIDDLE };
+	static const auto STRX_RIGHT{ FontHandle::FontXCenter::RIGHT };
+	static const auto STRY_TOP{ FontHandle::FontYCenter::TOP };
+	static const auto STRY_MIDDLE{ FontHandle::FontYCenter::MIDDLE };
+	static const auto STRY_BOTTOM{ FontHandle::FontYCenter::BOTTOM };
 	//
 	class DataErrorLog : public SingletonBase<DataErrorLog> {
 	private:
@@ -24,7 +27,7 @@ namespace FPS_n2 {
 			int xp = 0;
 			int yp = LineHeight;
 			for (auto& m : m_Mes) {
-				WindowSystem::SetMsg(xp, yp, xp, yp, LineHeight * 7 / 10, STR_LEFT, GetColor(255, 150, 150), GetColor(1, 1, 1), m);
+				WindowSystem::SetMsg(xp, yp, xp, yp, LineHeight * 7 / 10, STRX_LEFT, GetColor(255, 150, 150), GetColor(1, 1, 1), m);
 				yp += LineHeight * 7 / 10;
 				if (yp > y_r(1080)) { break; }
 			}
@@ -80,7 +83,7 @@ namespace FPS_n2 {
 		const auto&		GetName() const noexcept { return m_Name; }
 		const auto&		GetShortName() const noexcept { return m_ShortName; }
 		const auto&		GetFilePath() const noexcept { return m_FilePath; }
-		
+
 		const auto		GetColors(int colorAdd) const noexcept {
 			return DxLib::GetColor(std::clamp(m_Color[0] + colorAdd, 1, 255), std::clamp(m_Color[1] + colorAdd, 1, 255), std::clamp(m_Color[2] + colorAdd, 1, 255));
 		}
@@ -135,8 +138,12 @@ namespace FPS_n2 {
 				m_Icon.SetPath(IconPath);
 			}
 		}
-		void			Load() noexcept {
-			m_Icon.LoadByPath(false);
+		void			Load(bool IsPushLog) noexcept {
+			if (!m_Icon.LoadByPath(false) && IsPushLog) {
+				std::string ErrMes = "Error : Not Find Image : ";
+				ErrMes += this->GetName();
+				DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+			}
 			Load_Sub();
 		}
 		void			WhenAfterLoadCommon() noexcept {
@@ -154,33 +161,13 @@ namespace FPS_n2 {
 	protected:
 		void SetList(const char* DirPath) noexcept {
 			auto data_t = GetFileNamesInDirectory(DirPath);
-			std::vector<std::pair<std::string, bool>> DirNames;
+			std::vector<std::string> DirNames;
 			for (auto& d : data_t) {
 				if (d.cFileName[0] != '.') {
 					std::string Tmp = d.cFileName;
 					auto txtpos = Tmp.find(".txt");
 					if (txtpos != std::string::npos) {
-						std::pair<std::string, bool> tmp;
-						tmp.first = Tmp.substr(0, txtpos);
-						tmp.second = false;
-						DirNames.emplace_back(tmp);
-					}
-				}
-			}
-			for (auto& d : data_t) {
-				if (d.cFileName[0] != '.') {
-					std::string Tmp = d.cFileName;
-					auto txtpos = Tmp.find(".txt");
-					if (txtpos == std::string::npos) {
-						auto pngpos = Tmp.find(".png");
-						if (pngpos != std::string::npos) {
-							for (auto& d2 : DirNames) {
-								if (d2.first == Tmp.substr(0, pngpos)) {
-									d2.second = true;
-									break;
-								}
-							}
-						}
+						DirNames.emplace_back(Tmp.substr(0, txtpos));
 					}
 				}
 			}
@@ -188,15 +175,15 @@ namespace FPS_n2 {
 			m_List.resize(baseIndex + DirNames.size());
 			for (auto& d : DirNames) {
 				int index = (int)(&d - &DirNames.front()) + baseIndex;
-				m_List[index].Set((DirPath + d.first + ".txt").c_str(), (ID)index, d.second ? (DirPath + d.first + ".png").c_str() : nullptr);
+				m_List[index].Set((DirPath + d + ".txt").c_str(), (ID)index, (DirPath + d + ".png").c_str());
 			}
 			DirNames.clear();
 
 		}
 	public:
-		void LoadList(void) noexcept {
+		void LoadList(bool IsPushLog) noexcept {
 			for (auto&t : m_List) {
-				t.Load();
+				t.Load(IsPushLog);
 			}
 		}
 		void WhenAfterLoadListCommon(void) noexcept {

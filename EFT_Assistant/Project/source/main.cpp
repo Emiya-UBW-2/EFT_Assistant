@@ -17,7 +17,7 @@ int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 	auto* DrawParts = DXDraw::Instance();
 	//シーン
 	auto MAINLOOPloader = std::make_shared<FPS_n2::MAINLOOPLOADER>();
-	
+
 	auto MAINLOOPscene = std::make_shared<FPS_n2::MAINLOOP>();
 	//シーンコントロール
 	auto NowScene = std::make_unique<SceneControl>(MAINLOOPloader);

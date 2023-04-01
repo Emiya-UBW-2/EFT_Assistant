@@ -61,7 +61,7 @@ namespace FPS_n2 {
 			int xs = 400;
 			int ScrPosX = y_r(1920 - xs * 3 / 2 - 10) - y_r(80);
 
-			int ScrPxItem = m_RaidMode ? (xpos + y_r(400)): ScrPosX;
+			int ScrPxItem = m_RaidMode ? (xpos + y_r(400)) : ScrPosX;
 
 			int yp0 = ypos - (int)m_YNow;
 			if (m_RaidMode) {
@@ -83,7 +83,7 @@ namespace FPS_n2 {
 				if (in2_(Input->GetMouseX(), Input->GetMouseY(), xpos + PrevSize, yp0, xpos + PerSize, DrawParts->m_DispYSize)) {
 					DrawControl::Instance()->SetString(DrawLayer::Front,
 						FontPool::FontType::Nomal_Edge, LineHeight,
-						FontHandle::FontXCenter::RIGHT, FontHandle::FontYCenter::BOTTOM, Input->GetMouseX(), Input->GetMouseY(), RedPop, Black,
+						STRX_RIGHT, STRY_BOTTOM, Input->GetMouseX(), Input->GetMouseY(), RedPop, Black,
 						"トレーダー"
 					);
 				}
@@ -105,7 +105,7 @@ namespace FPS_n2 {
 				if (in2_(Input->GetMouseX(), Input->GetMouseY(), xpos + PrevSize, yp0, xpos + PerSize, DrawParts->m_DispYSize)) {
 					DrawControl::Instance()->SetString(DrawLayer::Front,
 						FontPool::FontType::Nomal_Edge, LineHeight,
-						FontHandle::FontXCenter::RIGHT, FontHandle::FontYCenter::BOTTOM, Input->GetMouseX(), Input->GetMouseY(), RedPop, Black,
+						STRX_RIGHT, STRY_BOTTOM, Input->GetMouseX(), Input->GetMouseY(), RedPop, Black,
 						"売値"
 					);
 				}
@@ -130,7 +130,7 @@ namespace FPS_n2 {
 				if (in2_(Input->GetMouseX(), Input->GetMouseY(), xpos + PrevSize, yp0, xpos + PerSize, DrawParts->m_DispYSize)) {
 					DrawControl::Instance()->SetString(DrawLayer::Front,
 						FontPool::FontType::Nomal_Edge, LineHeight,
-						FontHandle::FontXCenter::RIGHT, FontHandle::FontYCenter::BOTTOM, Input->GetMouseX(), Input->GetMouseY(), RedPop, Black,
+						STRX_RIGHT, STRY_BOTTOM, Input->GetMouseX(), Input->GetMouseY(), RedPop, Black,
 						"マス単価"
 					);
 				}
@@ -170,7 +170,7 @@ namespace FPS_n2 {
 										auto* ptr = TaskData::Instance()->FindPtr(t);
 										DrawControl::Instance()->SetString(DrawLayer::Front,
 											FontPool::FontType::Nomal_Edge, LineHeight,
-											FontHandle::FontXCenter::RIGHT, FontHandle::FontYCenter::BOTTOM, Input->GetMouseX(), Input->GetMouseY()+ YPosAdd, Color, Black,
+											STRX_RIGHT, STRY_BOTTOM, Input->GetMouseX(), Input->GetMouseY() + YPosAdd, Color, Black,
 											"%s", ptr->GetName().c_str()
 										); YPosAdd += LineHeight;
 									}
@@ -190,17 +190,17 @@ namespace FPS_n2 {
 										}
 									}
 									int PerSize = y_r(400) + y_r(250);
-									WindowSystem::SetMsg(xpos + PerSize, yp0, xpos + PerSize, yp0 + ysize, LineHeight * 9 / 10, STR_RIGHT, Color, Black, "%s", TraderName.c_str());
+									WindowSystem::SetMsg(xpos + PerSize, yp0, xpos + PerSize, yp0 + ysize, LineHeight * 9 / 10, STRX_RIGHT, Color, Black, "%s", TraderName.c_str());
 									PerSize += y_r(250);
-									WindowSystem::SetMsg(xpos + PerSize, yp0, xpos + PerSize, yp0 + ysize, LineHeight * 9 / 10, STR_RIGHT, Color, Black, "%6d", Value);
+									WindowSystem::SetMsg(xpos + PerSize, yp0, xpos + PerSize, yp0 + ysize, LineHeight * 9 / 10, STRX_RIGHT, Color, Black, "%6d", Value);
 									PerSize += y_r(250);
-									WindowSystem::SetMsg(xpos + PerSize, yp0, xpos + PerSize, yp0 + ysize, LineHeight * 9 / 10, STR_RIGHT, Color, Black, "%6d", Value / (L->Getwidth()*L->Getheight()));
+									WindowSystem::SetMsg(xpos + PerSize, yp0, xpos + PerSize, yp0 + ysize, LineHeight * 9 / 10, STRX_RIGHT, Color, Black, "%6d", Value / (L->Getwidth()*L->Getheight()));
 								}
 							}
-							if(m_TaskMode){
+							if (m_TaskMode) {
 								if (L->GetUseTaskID().size() > 0) {
 									int PerSize = y_r(400) + y_r(250);
-									WindowSystem::SetMsg(xpos + PerSize, yp0, xpos + PerSize, yp0 + ysize, LineHeight * 9 / 10, STR_RIGHT, White, Black, "〇");
+									WindowSystem::SetMsg(xpos + PerSize, yp0, xpos + PerSize, yp0 + ysize, LineHeight * 9 / 10, STRX_RIGHT, White, Black, "〇");
 								}
 							}
 						}
@@ -293,15 +293,15 @@ namespace FPS_n2 {
 				int yp = y_r(900);
 				WindowSystem::CheckBox(xp, yp, &m_RaidMode);
 				if (m_RaidMode) { m_TaskMode = false; }
-				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, FontHandle::FontXCenter::RIGHT, White, Black, "レイドモード(ルート品のみ)");
+				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_RIGHT, White, Black, "レイドモード(ルート品のみ)");
 				yp += LineHeight + y_r(6);
 				WindowSystem::CheckBox(xp, yp, &m_TaskMode);
 				if (m_TaskMode) { m_RaidMode = false; }
-				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, FontHandle::FontXCenter::RIGHT, White, Black, "タスクモード");
+				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_RIGHT, White, Black, "タスクモード");
 
 				if (m_TaskMode && PrevTask != m_TaskMode) {
 					std::sort(Items.begin(), Items.end(), [&](const ItemList* a, const ItemList* b) {
-						return (a->GetUseTaskID().size()> b->GetUseTaskID().size());
+						return (a->GetUseTaskID().size() > b->GetUseTaskID().size());
 					});
 				}
 			}

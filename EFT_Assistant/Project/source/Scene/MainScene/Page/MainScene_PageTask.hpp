@@ -118,7 +118,7 @@ namespace FPS_n2 {
 						auto* trader2 = TraderData::Instance()->FindPtr(LL.GetTraderID());
 						float* traderRep = TraderData::Instance()->FindTraderRep(LL.GetTraderID());
 						if (Scale > 0.2f) {
-							WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + ys + suby, ys, STR_LEFT, trader2->GetColors(0), Black, "[%4.2f->%4.2f]", PrevRep[&LL - &tasks.GetTaskRewardData().GetLLAdd().front()], *traderRep);
+							WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + ys + suby, ys, STRX_LEFT, trader2->GetColors(0), Black, "[%4.2f->%4.2f]", PrevRep[&LL - &tasks.GetTaskRewardData().GetLLAdd().front()], *traderRep);
 						}
 						suby += ys;
 					}
@@ -187,8 +187,8 @@ namespace FPS_n2 {
 			auto* WindowMngr = WindowSystem::WindowManager::Instance();
 			auto* DrawParts = DXDraw::Instance();
 			//ƒŒƒxƒ‹‘€ì
-			WindowSystem::SetMsg(y_r(0), y_r(1080) - y_r(36), y_r(0), y_r(1080), y_r(36), STR_LEFT, White, Black, "Level");
-			WindowSystem::SetMsg(y_r(200), y_r(1080) - y_r(48), y_r(200), y_r(1080), y_r(48), STR_RIGHT, White, Black, "%d", this->m_MyLevel);
+			WindowSystem::SetMsg(y_r(0), y_r(1080) - y_r(36), y_r(0), y_r(1080), y_r(36), STRX_LEFT, White, Black, "Level");
+			WindowSystem::SetMsg(y_r(200), y_r(1080) - y_r(48), y_r(200), y_r(1080), y_r(48), STRX_RIGHT, White, Black, "%d", this->m_MyLevel);
 			if (WindowSystem::ClickCheckBox(y_r(0), y_r(1080) - y_r(48) - LineHeight, y_r(100), y_r(1080) - y_r(48), true, !WindowMngr->PosHitCheck(nullptr), Red, "DOWN")) {
 				this->m_MyLevel--;
 			}

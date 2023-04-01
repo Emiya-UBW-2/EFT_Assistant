@@ -98,7 +98,7 @@ namespace FPS_n2 {
 		}
 		void SetItemLock(const char* ID, bool value) noexcept {
 			auto Point = std::find_if(m_ItemLockData.begin(), m_ItemLockData.end(), [&](const ItemLockData& Data) {return (Data.GetID() == ID); });
-			if(Point != m_ItemLockData.end()) {
+			if (Point != m_ItemLockData.end()) {
 				Point->SetIsLock(value);
 			}
 			else {

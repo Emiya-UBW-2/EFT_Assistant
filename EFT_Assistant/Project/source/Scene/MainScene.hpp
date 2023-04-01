@@ -2,9 +2,6 @@
 #include"../Header.hpp"
 
 namespace FPS_n2 {
-
-
-
 	class MAINLOOP : public TEMPSCENE {
 	private:
 		int															m_posx{ 0 };
@@ -26,13 +23,8 @@ namespace FPS_n2 {
 		bool														m_WindowMove{ false };
 
 		float														m_NoneActiveTimes{ 0.f };
-
-		int ttt = -1;
 	public:
 		void Load_Sub(void) noexcept override {}
-
-		std::string strResult;
-
 		void Set_Sub(void) noexcept override {
 			//
 			PlayerData::Create();
@@ -50,12 +42,16 @@ namespace FPS_n2 {
 			TaskData::Create();
 			//
 			SetUseASyncLoadFlag(TRUE);
-			PresetData::Instance()->LoadList();
-			ItemData::Instance()->LoadList();
-			EnemyData::Instance()->LoadList();
-			TraderData::Instance()->LoadList();
-			MapData::Instance()->LoadList();
-			TaskData::Instance()->LoadList();
+			PresetData::Instance()->LoadList(false);
+#ifdef DEBUG
+			ItemData::Instance()->LoadList(true);
+#else
+			ItemData::Instance()->LoadList(false);
+#endif
+			EnemyData::Instance()->LoadList(false);
+			TraderData::Instance()->LoadList(false);
+			MapData::Instance()->LoadList(false);
+			TaskData::Instance()->LoadList(false);
 			SetUseASyncLoadFlag(FALSE);
 			m_Loading = true;
 			//
@@ -258,61 +254,10 @@ namespace FPS_n2 {
 						WindowMngr->DeleteAll();
 					}
 
-					if (ttt != -1) {
-						if ((GetNowCount() - ttt) > 1000 * 60 * 5) {
-							ttt = -1;
-						}
-					}
-					auto TimeCard = [&]() {
-						time_t t = time(NULL);				// 現在日時を取得する
-						tm local;							// 日時情報を格納する変数を用意する
-						localtime_s(&local, &t);			// ローカル日時を変数に格納する
-						char buffer[256];
-						strftime(buffer, sizeof(buffer), "%Y %m/%d %H:%M", &local);
-						PlayerData::Instance()->SetLastDataReceive(buffer);
-						ttt = GetNowCount();
-					};
-					if (WindowSystem::ClickCheckBox(Xmin + y_r(10 + 230), 0, Xmin + y_r(10 + 450), Ymin, false, (ttt == -1), Gray25, "アイテム更新")) {
-						int count = 0;
-						//ItemData::Instance()->InitDatabyJson();
-						while (true) {
-							if (ItemDataRequest(20 * count, 20, strResult)) {
-								ProcessMessage();
-								auto data = nlohmann::json::parse(strResult);
-								ItemData::Instance()->GetJsonData(data);
-								ItemData::Instance()->SaveDatabyJson();
-								if (data["data"]["items"].size() != 20) {
-									break;
-								}
-							}
-							count++;
-						}
-						ItemData::Instance()->CheckThroughJson();
-						TimeCard();
-					}
-					if (WindowSystem::ClickCheckBox(Xmin + y_r(10 + 1260), 0, Xmin + y_r(10 + 1480), Ymin, false, (ttt == -1), Gray25, "タスク更新")) {
-						int count = 0;
-						TaskData::Instance()->InitDatabyJson();
-						while (true) {
-							if (TaskDataRequest(20*count, 20, strResult)) {
-								ProcessMessage();
-								auto data = nlohmann::json::parse(strResult);
-								TaskData::Instance()->GetJsonData(data);
-								TaskData::Instance()->SaveDatabyJson();
-								if (data["data"]["tasks"].size() != 20) {
-									break;
-								}
-							}
-							count++;
-						}
-						TaskData::Instance()->CheckThroughJson();
-						TimeCard();
-					}
+					WindowSystem::SetMsg(0, 0, y_r(1920), LineHeight, LineHeight, STRX_MID, White, Black, "EFT Assistant");
+					WindowSystem::SetMsg(y_r(1280), LineHeight * 1 / 10, y_r(1280), LineHeight, LineHeight * 8 / 10, STRX_LEFT, White, Black, "ver %d.%d.%d", 0, 2, 1);
 
-					WindowSystem::SetMsg(0, 0, y_r(1920), LineHeight, LineHeight, STR_MID, White, Black, "EFT Assistant");
-					WindowSystem::SetMsg(y_r(1280), LineHeight * 1 / 10, y_r(1280), LineHeight, LineHeight * 8 / 10, STR_LEFT, White, Black, "ver %d.%d.%d", 0, 1, 7);
-
-					WindowSystem::SetMsg(y_r(960), LineHeight + LineHeight * 1 / 10, y_r(960), LineHeight + LineHeight, LineHeight * 8 / 10, STR_MID, White, Black, "最終更新:%s", PlayerData::Instance()->GetLastDataReceive().c_str());
+					WindowSystem::SetMsg(y_r(960), LineHeight + LineHeight * 1 / 10, y_r(960), LineHeight + LineHeight, LineHeight * 8 / 10, STRX_MID, White, Black, "最終更新:%s", PlayerData::Instance()->GetLastDataReceive().c_str());
 
 					if (WindowSystem::CloseButton(y_r(1920) - LineHeight, 0)) { SetisEnd(true); }
 				}
@@ -330,7 +275,7 @@ namespace FPS_n2 {
 				}
 				DataErrorLog::Instance()->Draw();
 				if (GetASyncLoadNum() > 0) {
-					WindowSystem::SetMsg(0, y_r(1080) - LineHeight, y_r(0), y_r(1080), LineHeight, STR_LEFT, White, Black, "Loading...");
+					WindowSystem::SetMsg(0, y_r(1080) - LineHeight, y_r(0), y_r(1080), LineHeight, STRX_LEFT, White, Black, "Loading...");
 				}
 			}
 			//SetIsUpdateDraw(false);

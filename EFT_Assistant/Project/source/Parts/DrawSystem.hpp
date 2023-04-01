@@ -103,9 +103,9 @@ namespace FPS_n2 {
 	public:
 		void	SetPath(const char* path) noexcept { this->m_Path = path; }
 		void	SetIsTrans(bool isTrans) noexcept { this->m_IsTrans = isTrans; }
-		void	LoadByPath(bool isUseTex) noexcept {
+		bool	LoadByPath(bool isUseTex) noexcept {
 			if (this->m_Path != "") {
-				if (GetFileAttributes(this->m_Path.c_str()) != INVALID_FILE_ATTRIBUTES) {
+				if (GetFileAttributes(this->m_Path.c_str()) != 0xFFFFFFFF) {
 					if (isUseTex) {
 						this->m_Handle = GraphHandle::Load_Tex(this->m_Path.c_str());
 					}
@@ -113,11 +113,13 @@ namespace FPS_n2 {
 						this->m_Handle = GraphHandle::Load(this->m_Path.c_str());
 					}
 					this->m_Loaded = false;
+					return true;
 				}
 				else {
 					this->m_Path = "";
 				}
 			}
+			return false;
 		}
 		void	WhenAfterLoad() noexcept {
 			if (!this->m_Loaded) {
@@ -228,7 +230,7 @@ namespace FPS_n2 {
 		//
 		void	SetDrawLine(DrawLayer Layer, int x1, int y1, int x2, int y2, unsigned int color1, int   Thickness = 1) {
 			auto* DrawParts = DXDraw::Instance();
-			if(!(0 <= std::max(x1, x2) && std::min(x1, x2) <= DrawParts->m_DispXSize && 0 <= std::max(y1, y2) && std::min(y1, y2) <= DrawParts->m_DispYSize)) { return; }				//画面外は表示しない
+			if (!(0 <= std::max(x1, x2) && std::min(x1, x2) <= DrawParts->m_DispXSize && 0 <= std::max(y1, y2) && std::min(y1, y2) <= DrawParts->m_DispYSize)) { return; }				//画面外は表示しない
 
 
 			DrawData*Back = GetBack(Layer);
