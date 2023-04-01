@@ -5,20 +5,18 @@ Itemtype=Face Cover
 Conflict=[
 	Tac-Kek Heavy Trooper mask for Ops-Core-type helmets,
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A piece of cloth, typically a bandana, covering the face from nose and below, is the most typical attribute of a street gang member.
 basePrice=2614
 width=1
 height=1
-avg24hPrice=10048
-low24hPrice=6760
-lastOfferCount=17
+avg24hPrice=10414
+low24hPrice=8850
+lastOfferCount=10
 Sell_Fence=1045
 Sell_Skier=1280
 Sell_Peacekeeper=10
 Sell_Ragman=1620
-Sell_Flea Market=9999
+Sell_Flea Market=10000
 weight=0.100000
 fleaMarketFee=685
 propertiestype=

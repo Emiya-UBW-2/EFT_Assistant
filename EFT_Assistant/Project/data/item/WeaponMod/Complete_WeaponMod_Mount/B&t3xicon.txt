@@ -18,18 +18,28 @@ ChildParts=[
 	EOTech XPS3-0 holographic sight,
 	EOTech XPS3-2 holographic sight,
 	Holosun HS401G5 reflex sight,
+	Leapers UTG reflex sight,
+	SIG Sauer ROMEO8T reflex sight,
 	Trijicon SRS-02 reflex sight,
 	Valday PK-120 (1P87) holographic sight,
+	Valday Krechet reflex sight,
 	VOMZ Pilad P1x42 Weaver reflex sight,
 	Vortex Razor AMG UH-1 holographic sight,
 	Walther MRS reflex sight,
 	BelOMO PK-06 reflex sight,
+	NcSTAR ADO P4 Sniper 3-9x42 riflescope,
 	FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescope,
+	Torrey Pines Logic T12W 30Hz thermal reflex sight,
 	Aimpoint Micro Standard Mount,
+	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
+	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
 	Armasight Vulcan universal base,
+	B&T QD NAR mount for Aimpoint ACRO,
 	Burris AR-P.E.P.R. 30mm ring scope mount,
 	Burris FastFire Weaver Base,
+	Geissele Super Precision 30mm ring scope mount,
+	Geissele Super Precision 30mm ring scope mount (DDC),
 	IEA Mil-Optics KH/F 34mm one-piece magmount,
 	JP Enterprises Flat-Top 30mm ring scope mount,
 	LaRue LT101 QD Tactical Picatinny Riser mount,
@@ -39,11 +49,17 @@ ChildParts=[
 	Nightforce Magmount 34mm ring scope mount,
 	Nightforce Magmount 34mm ring scope mount with Ruggedized Accessory Platform,
 	Kiba Arms Short Mount sight adapter,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac 30mm ring scope mount,
+	Recknagel Era-Tac 34mm ring scope mount,
 	SIG Sauer ROMEO sight mount,
 	Trijicon RMR high profile mount,
 	Trijicon RMR low profile mount,
 	Trijicon TA51 sight mount,
-	UNV DLOC-IRD sight mount
+	UNV DLOC-IRD sight mount,
+	Leapers UTG 25mm ring scope mount,
+	SwampFox Trihawk Prism Scope 3x30,
+	AI AX-50 34mm scope mount
 ]
 Conflict=[
 	HK MP5 Drum rear sight
@@ -54,16 +70,16 @@ Information_Eng=A rail mount designed by Brügger & Thomet for the HK MP5 submac
 basePrice=4501
 width=2
 height=1
-avg24hPrice=16975
-low24hPrice=8999
-lastOfferCount=10
+avg24hPrice=16909
+low24hPrice=8000
+lastOfferCount=7
 Sell_Prapor=2250
 Sell_Fence=1800
 Sell_Skier=2205
 Sell_Peacekeeper=17
 Sell_Mechanic=2520
 Sell_Jaeger=2700
-Sell_Flea Market=14888
+Sell_Flea Market=10000
 weight=0.223000
-fleaMarketFee=950
+fleaMarketFee=550
 propertiestype=ItemPropertiesWeaponMod

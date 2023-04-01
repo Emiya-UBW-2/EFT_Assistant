@@ -3,6 +3,9 @@ Name=NSPU-M night vision scope
 ShortName=NSPU-M
 Itemtype=Special scope
 SightRange=300
+ChildParts=[
+	NSPU-M scope eyecup
+]
 Conflict=[
 	ELCAN SpecterDR 1x/4x scope,
 	ELCAN SpecterDR 1x/4x scope (FDE),
@@ -49,16 +52,16 @@ Information_Eng=NSPU-M (Nochnoy Strelkovyy Pritsel Unifitsirovannyy Modernizirov
 basePrice=13732
 width=2
 height=1
-avg24hPrice=14645
+avg24hPrice=14316
 low24hPrice=10000
-lastOfferCount=12
+lastOfferCount=14
 Sell_Prapor=6866
 Sell_Fence=5492
 Sell_Skier=6728
 Sell_Peacekeeper=53
 Sell_Mechanic=7689
 Sell_Jaeger=8239
-Sell_Flea Market=12950
+Sell_Flea Market=11000
 weight=1.900000
-fleaMarketFee=798
+fleaMarketFee=749
 propertiestype=ItemPropertiesScope

@@ -2,21 +2,54 @@ IDstr=63088377b5cd696784087147
 Name=Glock 19X 9x19 pistol
 ShortName=Glock 19X
 Itemtype=Handgun
-Recoil=0.000000
+ChildParts=[
+	Glock 19X 9x19 barrel
+]
+ChildParts=[
+	Glock Pachmayr Tactical Grip Glove
+]
+ChildParts=[
+	Glock 19X 9x19 pistol slide
+]
+ChildParts=[
+	Glock 9x19 "Big Stick" 33-round magazine,
+	Glock 9x19 17-round magazine,
+	Glock 9x19 Magpul PMAG GL9 21-round magazine,
+	Glock 9x19 SGM Tactical 50-round drum magazine,
+	Glock 9x19 "Big Stick" 24-round magazine (Coyote),
+	Glock 9x19 "Big Stick" 31-round magazine (Coyote),
+	Glock 9x19 19-round magazine (Coyote)
+]
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser,
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	UM Tactical UM3 pistol sight mount,
+	Olight Baldr Pro tactical flashlight with laser,
+	Olight Baldr Pro tactical flashlight with laser (Tan)
+]
+ChildParts=[
+	Glock Aimtech Tiger Shark sight mount
+]
+Recoil=355.000000
 Ergonomics=93.000000
 Information_Eng=The Glock 19X is an Austrian pistol based on the Glock 19 Modular Handgun System developed by Glock. Glock 19X is a hybrid of the Glock 17 and Glock 19 models: bolt and barrel of the 19th model, and the long handle of the very first 17th model. Also, the Glock 19X is devoid of sub-finger recesses, but has a loop for a safety cord. The gun is made in the Coyote color.
 basePrice=8200
 width=2
 height=1
-avg24hPrice=16659
+avg24hPrice=15588
 low24hPrice=10000
-lastOfferCount=16
+lastOfferCount=7
 Sell_Prapor=4100
 Sell_Fence=3280
 Sell_Skier=4018
 Sell_Peacekeeper=32
 Sell_Mechanic=4592
-Sell_Flea Market=13000
+Sell_Flea Market=14000
 weight=0.197000
-fleaMarketFee=684
+fleaMarketFee=738
 propertiestype=ItemPropertiesWeapon

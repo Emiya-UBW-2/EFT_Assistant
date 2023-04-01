@@ -2,6 +2,66 @@ IDstr=624c3074dbbd335e8e6becf3
 Name=Chiappa Rhino 9x19 6-round cylinder
 ShortName=CR cyl.
 Itemtype=Cylinder Magazine
+ChildParts=[
+	9x19mm PBP gzh,
+	9x19mm Green Tracer,
+	9x19mm PSO gzh,
+	9x19mm Pst gzh,
+	9x19mm AP 6.3,
+	9x19mm Luger CCI,
+	9x19mm QuakeMaker,
+	9x19mm RIP
+]
+ChildParts=[
+	9x19mm PBP gzh,
+	9x19mm Green Tracer,
+	9x19mm PSO gzh,
+	9x19mm Pst gzh,
+	9x19mm AP 6.3,
+	9x19mm Luger CCI,
+	9x19mm QuakeMaker,
+	9x19mm RIP
+]
+ChildParts=[
+	9x19mm PBP gzh,
+	9x19mm Green Tracer,
+	9x19mm PSO gzh,
+	9x19mm Pst gzh,
+	9x19mm AP 6.3,
+	9x19mm Luger CCI,
+	9x19mm QuakeMaker,
+	9x19mm RIP
+]
+ChildParts=[
+	9x19mm PBP gzh,
+	9x19mm Green Tracer,
+	9x19mm PSO gzh,
+	9x19mm Pst gzh,
+	9x19mm AP 6.3,
+	9x19mm Luger CCI,
+	9x19mm QuakeMaker,
+	9x19mm RIP
+]
+ChildParts=[
+	9x19mm PBP gzh,
+	9x19mm Green Tracer,
+	9x19mm PSO gzh,
+	9x19mm Pst gzh,
+	9x19mm AP 6.3,
+	9x19mm Luger CCI,
+	9x19mm QuakeMaker,
+	9x19mm RIP
+]
+ChildParts=[
+	9x19mm PBP gzh,
+	9x19mm Green Tracer,
+	9x19mm PSO gzh,
+	9x19mm Pst gzh,
+	9x19mm AP 6.3,
+	9x19mm Luger CCI,
+	9x19mm QuakeMaker,
+	9x19mm RIP
+]
 Recoil=0.000000
 Ergonomics=-2.000000
 Information_Eng=A 6-round 9x19 cylinder for Chiappa Rhino revolvers.

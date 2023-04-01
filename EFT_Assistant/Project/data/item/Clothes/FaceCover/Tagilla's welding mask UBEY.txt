@@ -73,8 +73,6 @@ Conflict=[
 	Jack-o'-lantern tactical pumpkin helmet,
 	Ushanka ear flap hat
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=An armored steel welding mask of Tagilla - the Bossman of Factory. Painted with the special "UBEY" ("KILL") art.
 basePrice=135000
 width=2

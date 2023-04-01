@@ -2,14 +2,35 @@ IDstr=628120dd308cb521f87a8fa1
 Name=AI AXMC Adapter Kit medium length rail
 ShortName=AXMC med
 Itemtype=Mount
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser,
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	LA-5B/PEQ tactical device,
+	Insight WMX200 tactical flashlight,
+	NcSTAR Tactical blue laser LAM-module,
+	Olight Baldr Pro tactical flashlight with laser,
+	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Zenit Perst-3 tactical device,
+	Daniel Defense 25mm accessory ring mount,
+	Kiba Arms 25mm accessory ring mount
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A medium length rail for installation on the KeySlot interface on the AXMC sniper rifle, manufactured by Accuracy International.
 basePrice=1900
 width=1
 height=1
-avg24hPrice=10000
-low24hPrice=10000
+avg24hPrice=0
+low24hPrice=0
 lastOfferCount=1
 Sell_Prapor=950
 Sell_Fence=760

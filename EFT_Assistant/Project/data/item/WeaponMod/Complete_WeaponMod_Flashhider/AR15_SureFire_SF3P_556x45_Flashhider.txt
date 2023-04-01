@@ -3,8 +3,8 @@ Name=AR-15 SureFire SF3P 5.56x45 Flash hider
 ShortName=SF3P-556
 Itemtype=Flashhider
 ChildParts=[
-	SureFire SOCOM556-MONSTER 5.56x45 sound suppressor,
 	SureFire SOCOM556-MINI MONSTER 5.56x45 sound suppressor,
+	SureFire SOCOM556-MONSTER 5.56x45 sound suppressor,
 	SureFire SOCOM556-RC2 5.56x45 sound suppressor
 ]
 Recoil=-8.000000
@@ -13,15 +13,15 @@ Information_Eng=The SureFire SF3P-556 three-prong flash hider, which fits M4/M16
 basePrice=6420
 width=1
 height=1
-avg24hPrice=22454
+avg24hPrice=25626
 low24hPrice=11000
-lastOfferCount=19
+lastOfferCount=11
 Sell_Prapor=3210
 Sell_Fence=2568
 Sell_Skier=3145
 Sell_Peacekeeper=25
 Sell_Mechanic=3595
-Sell_Flea Market=11000
+Sell_Flea Market=13599
 weight=0.064000
-fleaMarketFee=580
+fleaMarketFee=739
 propertiestype=ItemPropertiesWeaponMod

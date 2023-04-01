@@ -9,8 +9,6 @@ Conflict=[
 	AN/PVS-14 Night Vision Monocular,
 	T-7 Thermal Goggles with a Night Vision mount
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A low-profile lightweight bulletproof glass faceplate that quickly and tool-free attaches to the front of the Team Wendy EXFIL helmet. Coyote Brown version.
 basePrice=31500
 width=2

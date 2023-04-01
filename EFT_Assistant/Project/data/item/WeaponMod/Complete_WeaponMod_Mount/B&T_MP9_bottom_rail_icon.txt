@@ -2,13 +2,35 @@ IDstr=5de8fbf2b74cd90030650c79
 Name=MP9 bottom rail
 ShortName=MP9 bottom
 Itemtype=Mount
+ChildParts=[
+	BCM GUNFIGHTER MOD 3 vertical foregrip,
+	ASh-12 vertical foregrip,
+	Fortis Shift tactical foregrip,
+	HK Sturmgriff foregrip,
+	KAC vertical foregrip,
+	Magpul RVG foregrip (Black),
+	Magpul RVG foregrip (FDE),
+	RTM Pillau tactical foregrip,
+	TangoDown Stubby BGV-MK46K foregrip (Black),
+	TangoDown Stubby BGV-MK46K foregrip (FDE),
+	TangoDown Stubby BGV-MK46K foregrip (Stealth Gray),
+	Tactical Dynamics Skeletonized Foregrip,
+	Viking Tactics UVG tactical foregrip,
+	Zenit RK-1 tactical foregrip on B-25U mount,
+	Zenit RK-0 tactical foregrip,
+	Zenit RK-1 tactical foregrip,
+	Zenit RK-2 tactical foregrip,
+	Zenit RK-4 tactical foregrip,
+	Zenit RK-5 tactical foregrip,
+	Zenit RK-6 tactical foregrip
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A bottom rail that allows installation of additional equipment on the MP9 SMG. Manufactured by Brügger & Thomet.
 basePrice=1200
 width=1
 height=1
-avg24hPrice=39999
+avg24hPrice=37499
 low24hPrice=9999
 lastOfferCount=1
 Sell_Prapor=600

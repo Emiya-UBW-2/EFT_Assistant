@@ -13,6 +13,9 @@ ChildParts=[
 	AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo (White)
 ]
 ChildParts=[
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher
+]
+ChildParts=[
 	AKM 7.62x39 muzzle brake-compensator (6P1 0-14),
 	AKML system 7.62x39 flash hider,
 	AKM thread type JMac Customs RRD-4C 7.62x39 muzzle brake,
@@ -49,28 +52,27 @@ ChildParts=[
 	AK TAPCO SAW-Style pistol grip (FDE),
 	AK US Palm pistol grip,
 	AK Zenit RK-3 pistol grip,
-	PP-19-01 "Vityaz" pistol grip
+	PP-19-01 "Vityaz" pistol grip,
+	AK FAB Defense AGR-47 pistol grip,
+	AK TangoDown Battle Grip pistol grip,
+	AK TangoDown Battle Grip pistol grip (FDE)
 ]
 ChildParts=[
-	RD-704 dust cover,
 	AK AKademia Bastion dust cover,
 	AK FAB Defense PDC dust cover,
 	AKM dust cover (6P1 0-1),
 	Molot AKM-type dust cover,
 	AK TWS Dog Leg Rail dust cover,
-	AK Zenit B-33 dust cover
+	AK Zenit B-33 dust cover,
+	RD-704 dust cover
 ]
 ChildParts=[
 	AKM rear sight (6P1 Sb.2-1),
 	AKMB system rear sight,
-	AK RD Enhanced V2 Rear Sight,
-	AK Taktika Tula TT01 rear sight rail
+	AK Taktika Tula TT01 rear sight rail,
+	AK RD Enhanced V2 Rear Sight
 ]
 ChildParts=[
-	AKMP system front sight device
-]
-ChildParts=[
-	AKM/AK-74 RD AK to M4 buffer tube adapter,
 	AK-74 polymer stock (6P20 Sb.7),
 	AK-74 "Plum" polymer stock (6P20 Sb.7),
 	AK-74 wooden stock (6P20 Sb.5),
@@ -83,10 +85,10 @@ ChildParts=[
 	VPO-209 wooden stock,
 	AKM/AK-74 ProMag Archangel OPFOR AA47 buttstock,
 	AKM/AK-74 ME4 buffer tube adapter,
-	AKM/AK-74 Zenit PT Lock
+	AKM/AK-74 Zenit PT Lock,
+	AKM/AK-74 RD AK to M4 buffer tube adapter
 ]
 ChildParts=[
-	AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine,
 	AK 7.62x39 ribbed metal 10-round magazine,
 	AK 7.62x39 6L10 30-round magazine,
 	AK-103 7.62x39 30-round magazine,
@@ -101,10 +103,14 @@ ChildParts=[
 	AK 7.62x39 ProMag AK-A-16 73-round drum magazine,
 	AK 7.62x39 US Palm "AK30" 30-round magazine (Black),
 	AK 7.62x39 US Palm "AK30" 30-round magazine (FDE),
-	AK 7.62x39 X Products X-47 50-round drum magazine
+	AK 7.62x39 X Products X-47 50-round drum magazine,
+	AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine
 ]
 ChildParts=[
-	SAG Bit low profile dovetail sidemount,
+	AK CSS knurled charging handle,
+	AK Zenit RP-1 charging handle
+]
+ChildParts=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail),
 	BelOMO PK-AA dovetail reflex sight,
 	OKP-7 reflex sight (Dovetail),
@@ -119,14 +125,11 @@ ChildParts=[
 	NPZ 1P78-1 dovetail mount,
 	VOMZ Pilad 043-02 dovetail mount,
 	Zenit B-13 "Klassika" dovetail rail platform,
-	Zenit B-13V "Klassika" dovetail rail platform
+	Zenit B-13V "Klassika" dovetail rail platform,
+	SAG Bit low profile dovetail sidemount
 ]
 ChildParts=[
-	AK CSS knurled charging handle,
-	AK Zenit RP-1 charging handle
-]
-ChildParts=[
-	GP-25 "Kostyor" 40mm underbarrel grenade launcher
+	AKMP system front sight device
 ]
 Conflict=[
 	Hera Arms CQR tactical foregrip,
@@ -137,15 +140,15 @@ Information_Eng=AKMN (Avtomat Kalashnikova Modernizirovanny Nochnoy - "Kalashnik
 basePrice=34003
 width=4
 height=1
-avg24hPrice=39448
+avg24hPrice=41307
 low24hPrice=31117
-lastOfferCount=14
+lastOfferCount=12
 Sell_Prapor=17001
 Sell_Fence=13601
 Sell_Skier=16661
 Sell_Peacekeeper=131
 Sell_Mechanic=19041
-Sell_Flea Market=36000
+Sell_Flea Market=45000
 weight=2.152000
-fleaMarketFee=2094
+fleaMarketFee=2419
 propertiestype=ItemPropertiesWeapon

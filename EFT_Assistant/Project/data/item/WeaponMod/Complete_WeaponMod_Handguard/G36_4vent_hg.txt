@@ -2,6 +2,18 @@ IDstr=62386b7153757417e93a4e9f
 Name=HK G36 4-vent handguard
 ShortName=G36 4-vent
 Itemtype=Handguard
+ChildParts=[
+	HK G36 bottom handguard rail
+]
+ChildParts=[
+	HK G36 side handguard rail
+]
+ChildParts=[
+	HK G36 side handguard rail
+]
+ChildParts=[
+	HK G36 hand stop
+]
 Conflict=[
 	HK G36 5.56x45 228mm barrel,
 	HK G36 5.56x45 480mm barrel

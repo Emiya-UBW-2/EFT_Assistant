@@ -7,20 +7,18 @@ Conflict=[
 	Tagilla's welding mask "Gorilla",
 	Tagilla's welding mask "UBEY",
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=The ZSh-1-2M helmet consists of a durable alloy covered from the inside by aramid fabrics which does not allow penetration of the protective layer and absorbs the dynamic impact of bullets or shrapnel. Equipped with a black colored cover.
 basePrice=53759
 width=2
 height=2
-avg24hPrice=37035
+avg24hPrice=37934
 low24hPrice=31000
-lastOfferCount=19
+lastOfferCount=12
 Sell_Fence=21503
 Sell_Skier=26341
 Sell_Peacekeeper=207
 Sell_Ragman=33330
-Sell_Flea Market=36000
+Sell_Flea Market=33333
 weight=3.700000
-fleaMarketFee=2838
+fleaMarketFee=2829
 propertiestype=ItemPropertiesHelmet

@@ -2,6 +2,48 @@ IDstr=5b7bebc85acfc43bca706666
 Name=SA-58/FAL AIM Sports Universal M-LOK handguard
 ShortName=SA58 M-LOK
 Itemtype=Handguard
+ChildParts=[
+	Magpul M-LOK AFG tactical foregrip (Black),
+	Magpul M-LOK AFG tactical foregrip (FDE),
+	Magpul M-LOK AFG tactical foregrip (Olive Drab),
+	Magpul M-LOK AFG tactical foregrip (Stealth Gray),
+	Magpul M-LOK 4.1 inch rail
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK Offset Light Mount
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK Offset Light Mount
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Cantilever Mount
+]
+ChildParts=[
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	AN/PEQ-2 tactical device,
+	LA-5B/PEQ tactical device,
+	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Perst-3 tactical device
+]
+ChildParts=[
+	BelOMO PK-06 reflex sight,
+	Aimpoint Micro Standard Mount,
+	Aimpoint Micro H-2 Standard Mount,
+	B&T QD NAR mount for Aimpoint ACRO,
+	Burris FastFire Weaver Base,
+	DeltaPoint Cross Slot Mount base,
+	NcSTAR MPR45 Backup mount,
+	SIG Sauer ROMEO sight mount,
+	Trijicon RMR high profile mount,
+	Trijicon RMR low profile mount
+]
 Conflict=[
 	SA-58 7.62x51 16 inch barrel,
 	SA-58 7.62x51 11 inch barrel,
@@ -12,15 +54,15 @@ Information_Eng=The AIM Sports universal M-LOK handguard for FAL series rifles e
 basePrice=5484
 width=2
 height=1
-avg24hPrice=14676
+avg24hPrice=16022
 low24hPrice=5999
-lastOfferCount=12
+lastOfferCount=20
 Sell_Prapor=2742
 Sell_Fence=2193
 Sell_Skier=2687
 Sell_Peacekeeper=21
 Sell_Mechanic=3071
-Sell_Flea Market=12000
+Sell_Flea Market=9900
 weight=0.269000
-fleaMarketFee=657
+fleaMarketFee=524
 propertiestype=ItemPropertiesWeaponMod

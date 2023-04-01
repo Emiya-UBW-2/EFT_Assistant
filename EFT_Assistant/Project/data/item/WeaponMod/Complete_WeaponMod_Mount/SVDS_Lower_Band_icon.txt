@@ -3,9 +3,9 @@ Name=SVDS upper band
 ShortName=SVDS UB
 Itemtype=Mount
 ChildParts=[
+	SVD CAA XRS-DRG handguard,
 	SVD modernization kit handguard,
-	SVDS polymer handguard,
-	SVD CAA XRS-DRG handguard
+	SVDS polymer handguard
 ]
 ChildParts=[
 	AK Taktika Tula TT01 rear sight rail,
@@ -20,16 +20,16 @@ Information_Eng=A standard upper band for SVDS sniper rifles and compatibles, al
 basePrice=5588
 width=1
 height=1
-avg24hPrice=18632
-low24hPrice=8750
-lastOfferCount=7
+avg24hPrice=19137
+low24hPrice=9999
+lastOfferCount=14
 Sell_Prapor=2794
 Sell_Fence=2235
 Sell_Skier=2738
 Sell_Peacekeeper=21
 Sell_Mechanic=3129
 Sell_Jaeger=3352
-Sell_Flea Market=15000
+Sell_Flea Market=12222
 weight=0.246000
-fleaMarketFee=877
+fleaMarketFee=670
 propertiestype=ItemPropertiesWeaponMod

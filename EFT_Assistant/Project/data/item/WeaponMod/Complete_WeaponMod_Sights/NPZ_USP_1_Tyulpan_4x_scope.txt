@@ -3,6 +3,9 @@ Name=NPZ USP-1 "Tyulpan" 4x scope
 ShortName=USP-1
 Itemtype=Scope
 SightRange=600
+ChildParts=[
+	NPZ USP-1 scope eyecup
+]
 Conflict=[
 	BelOMO PSO-1 4x24 scope,
 	BelOMO PSO-1M2-1 4x24 scope,
@@ -18,16 +21,16 @@ Information_Eng=The USP-1 "Tyulpan" unified rifle scope is designed to conduct a
 basePrice=14500
 width=1
 height=1
-avg24hPrice=16119
+avg24hPrice=16186
 low24hPrice=12000
-lastOfferCount=4
+lastOfferCount=6
 Sell_Prapor=7250
 Sell_Fence=5800
 Sell_Skier=7105
 Sell_Peacekeeper=56
 Sell_Mechanic=8120
 Sell_Jaeger=8700
-Sell_Flea Market=14999
+Sell_Flea Market=15000
 weight=0.795000
 fleaMarketFee=883
 propertiestype=ItemPropertiesScope

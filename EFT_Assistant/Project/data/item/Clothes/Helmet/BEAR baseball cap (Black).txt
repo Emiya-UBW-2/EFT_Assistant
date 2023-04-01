@@ -12,8 +12,6 @@ Conflict=[
 	Tagilla's welding mask "Gorilla",
 	Tagilla's welding mask "UBEY",
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A tactical BEAR PMC baseball cap. Black version.
 basePrice=1827
 width=1

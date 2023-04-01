@@ -2,22 +2,26 @@ IDstr=5a398ab9c4a282000c5a9842
 Name=Ops-Core Single Clamp Rail Adapter mount
 ShortName=SCRA
 Itemtype=Mount
+ChildParts=[
+	Armytek Predator Pro v3 XHP35 HI flashlight,
+	Ultrafire WF-501B flashlight
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A mount for installing flashlight devices on Ops-Core helmets.
 basePrice=12000
 width=1
 height=1
-avg24hPrice=50137
-low24hPrice=18000
-lastOfferCount=6
+avg24hPrice=54497
+low24hPrice=25555
+lastOfferCount=27
 Sell_Prapor=6000
 Sell_Fence=4800
 Sell_Skier=5880
 Sell_Peacekeeper=46
 Sell_Mechanic=6720
 Sell_Jaeger=7200
-Sell_Flea Market=36000
+Sell_Flea Market=38888
 weight=0.020000
-fleaMarketFee=2200
+fleaMarketFee=2459
 propertiestype=ItemPropertiesWeaponMod

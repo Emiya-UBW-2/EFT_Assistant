@@ -3,6 +3,9 @@ Name=SR-2M KP-SR2 reflex sight
 ShortName=KP-SR2
 Itemtype=Reflex sight
 SightRange=200
+ChildParts=[
+	KP-SR2 sight shade
+]
 Conflict=[
 	SR-2M dust cover,
 ]
@@ -12,15 +15,15 @@ Information_Eng=The KP-SR2 reflex sight is designed to increase the efficiency o
 basePrice=12500
 width=1
 height=1
-avg24hPrice=15682
-low24hPrice=13654
+avg24hPrice=15281
+low24hPrice=10000
 lastOfferCount=6
 Sell_Prapor=6250
 Sell_Fence=5000
 Sell_Skier=6125
 Sell_Peacekeeper=48
 Sell_Mechanic=7000
-Sell_Flea Market=15999
+Sell_Flea Market=10000
 weight=0.270000
-fleaMarketFee=867
+fleaMarketFee=682
 propertiestype=ItemPropertiesScope

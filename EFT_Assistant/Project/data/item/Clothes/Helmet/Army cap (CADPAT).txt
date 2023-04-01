@@ -9,14 +9,12 @@ Conflict=[
 	Tagilla's welding mask "Gorilla",
 	Tagilla's welding mask "UBEY",
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A regular army cap, colored in CADPAT camouflage.
 basePrice=3353
 width=1
 height=1
-avg24hPrice=10000
-low24hPrice=10000
+avg24hPrice=0
+low24hPrice=0
 lastOfferCount=1
 Sell_Fence=1341
 Sell_Skier=1642

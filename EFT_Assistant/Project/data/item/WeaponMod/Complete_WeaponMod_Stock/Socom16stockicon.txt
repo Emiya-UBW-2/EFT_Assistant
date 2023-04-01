@@ -3,9 +3,9 @@ Name=M1A SOCOM 16 stock
 ShortName=SOCOM16
 Itemtype=Stock
 ChildParts=[
-	M14 Vltor CASV-14 rail system,
 	M14 Amega Mini Scout Mount system,
 	M14 UltiMAK M8 Forward Optic mount,
+	M14 Vltor CASV-14 rail system,
 	M1A SOCOM 16 upper part
 ]
 Recoil=-35.000000
@@ -14,7 +14,7 @@ Information_Eng=The SOCOM 16 polymer stock for M1A rifles, manufactured by Sprin
 basePrice=13056
 width=3
 height=1
-avg24hPrice=23919
+avg24hPrice=22055
 low24hPrice=8888
 lastOfferCount=4
 Sell_Prapor=6528
@@ -23,7 +23,7 @@ Sell_Skier=6397
 Sell_Peacekeeper=50
 Sell_Mechanic=7311
 Sell_Jaeger=7833
-Sell_Flea Market=8888
+Sell_Flea Market=9998
 weight=1.004000
-fleaMarketFee=690
+fleaMarketFee=704
 propertiestype=ItemPropertiesWeaponMod

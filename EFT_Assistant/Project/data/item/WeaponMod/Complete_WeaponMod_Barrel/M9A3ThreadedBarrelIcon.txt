@@ -2,6 +2,13 @@ IDstr=5cadc1c6ae9215000f2775a4
 Name=M9A3 9x19 threaded barrel
 ShortName=M9A3 thr.
 Itemtype=Barrel
+ChildParts=[
+	M9A3 thread protection cap,
+	AAC Illusion 9 9x19 sound suppressor,
+	Alpha Dog Alpha 9 9x19 sound suppressor,
+	SIG Sauer SRD9 9x19 sound suppressor,
+	SilencerCo Osprey 9 9x19 sound suppressor
+]
 Recoil=-3.000000
 Ergonomics=-4.000000
 Information_Eng=A standard threaded barrel for the Beretta M9A3 9x19 pistol.

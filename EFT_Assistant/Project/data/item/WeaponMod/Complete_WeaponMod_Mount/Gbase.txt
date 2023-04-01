@@ -2,6 +2,15 @@ IDstr=5a7ad4af51dfba0013379717
 Name=Glock Aimtech mount base
 ShortName=G AT base
 Itemtype=Mount
+ChildParts=[
+	BelOMO PK-06 reflex sight,
+	Aimpoint Micro Standard Mount,
+	Aimpoint Micro H-2 Standard Mount,
+	B&T QD NAR mount for Aimpoint ACRO,
+	Burris FastFire Weaver Base,
+	DeltaPoint Cross Slot Mount base,
+	Trijicon RMR low profile mount
+]
 Conflict=[
 	Glock Aimtech Tiger Shark sight mount,
 ]
@@ -11,16 +20,16 @@ Information_Eng=A sight mount base for Glock pistols, allows additional installa
 basePrice=4044
 width=1
 height=1
-avg24hPrice=10721
-low24hPrice=4000
-lastOfferCount=2
+avg24hPrice=12845
+low24hPrice=5000
+lastOfferCount=10
 Sell_Prapor=2022
 Sell_Fence=1617
 Sell_Skier=1981
 Sell_Peacekeeper=16
 Sell_Mechanic=2264
 Sell_Jaeger=2426
-Sell_Flea Market=14999
+Sell_Flea Market=11111
 weight=0.120000
-fleaMarketFee=1012
+fleaMarketFee=655
 propertiestype=ItemPropertiesWeaponMod

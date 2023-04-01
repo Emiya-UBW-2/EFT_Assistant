@@ -3,11 +3,14 @@ Name=AR-15 Soyuz-TM 15 inch M-LOK handguard
 ShortName=STM 15"
 Itemtype=Handguard
 ChildParts=[
-	Magpul M-LOK AFG tactical foregrip (Black),
-	Magpul M-LOK AFG tactical foregrip (FDE),
-	Magpul M-LOK AFG tactical foregrip (Olive Drab),
-	Magpul M-LOK AFG tactical foregrip (Stealth Gray),
-	Magpul M-LOK 4.1 inch rail
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK Offset Light Mount
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK Offset Light Mount
 ]
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail,
@@ -16,6 +19,13 @@ ChildParts=[
 ]
 ChildParts=[
 	NcSTAR MPR45 Backup mount
+]
+ChildParts=[
+	Magpul M-LOK AFG tactical foregrip (Black),
+	Magpul M-LOK AFG tactical foregrip (FDE),
+	Magpul M-LOK AFG tactical foregrip (Olive Drab),
+	Magpul M-LOK AFG tactical foregrip (Stealth Gray),
+	Magpul M-LOK 4.1 inch rail
 ]
 ChildParts=[
 	HK MP7 flip-up front sight,
@@ -43,9 +53,9 @@ Information_Eng=A 15 inch handguard for AR-15 systems equipped with an M-LOK int
 basePrice=15000
 width=3
 height=1
-avg24hPrice=28942
+avg24hPrice=29728
 low24hPrice=11000
-lastOfferCount=29
+lastOfferCount=23
 Sell_Prapor=7500
 Sell_Fence=6000
 Sell_Skier=7350

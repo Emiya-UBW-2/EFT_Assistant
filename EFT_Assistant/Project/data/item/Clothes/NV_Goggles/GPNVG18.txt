@@ -8,8 +8,6 @@ Conflict=[
 	Team Wendy EXFIL Ballistic face shield (Black),
 	Team Wendy EXFIL Ballistic face shield (Coyote Brown)
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=The GPNVG-18 (Ground Panoramic Night Vision Goggle) panoramic night vision goggles. The cardinal difference of this NVG from the others is the presence of four separate image intensifier tubes, two for each eye. Two Central IITs are directed forward, while two more are directed outward from the center. This innovative solution allowed to expand the field of view to 97 degrees.
 basePrice=145004
 width=2

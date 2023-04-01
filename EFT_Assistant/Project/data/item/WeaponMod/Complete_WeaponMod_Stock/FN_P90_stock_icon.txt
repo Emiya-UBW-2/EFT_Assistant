@@ -2,6 +2,10 @@ IDstr=5cc700b9e4a949000f0f0f25
 Name=FN P90 stock
 ShortName=P90
 Itemtype=Stock
+ChildParts=[
+	FN P90 Damage Industries buttpad,
+	FN P90 buttpad
+]
 Recoil=-9.000000
 Ergonomics=26.000000
 Information_Eng=A standard-issue polymer stock for the P90 SMG, manufactured by Fabrique Nationale Herstal.

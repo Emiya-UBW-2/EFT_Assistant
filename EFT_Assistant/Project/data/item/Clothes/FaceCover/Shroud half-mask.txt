@@ -5,15 +5,13 @@ Itemtype=Face Cover
 Conflict=[
 	Tac-Kek Heavy Trooper mask for Ops-Core-type helmets,
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=An extremely stylish half mask with the Shroud logo. All the Tarkov street guys know who he is.
 basePrice=42000
 width=1
 height=1
-avg24hPrice=26733
+avg24hPrice=26660
 low24hPrice=25000
-lastOfferCount=11
+lastOfferCount=29
 Sell_Fence=16800
 Sell_Skier=20580
 Sell_Peacekeeper=162

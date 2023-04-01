@@ -10,20 +10,18 @@ Conflict=[
 	Tagilla's welding mask "Gorilla",
 	Tagilla's welding mask "UBEY",
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=Scull Lock Head Mount-Lite is a lightweight, low profile fixing system for NVG or other optical attachments, completely made of fabric, with increased comfort and versatility in use and storage. The system allows the use of various attachments without the use of a heavy ballistic helmet.
 basePrice=19724
 width=2
 height=2
-avg24hPrice=14625
+avg24hPrice=14888
 low24hPrice=11000
-lastOfferCount=16
+lastOfferCount=13
 Sell_Fence=7889
 Sell_Skier=9664
 Sell_Peacekeeper=76
 Sell_Ragman=12228
-Sell_Flea Market=12200
+Sell_Flea Market=13000
 weight=0.500000
-fleaMarketFee=1038
+fleaMarketFee=1040
 propertiestype=

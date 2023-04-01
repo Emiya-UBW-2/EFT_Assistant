@@ -9,20 +9,18 @@ Conflict=[
 	Pestily plague mask,
 	GP-7 gas mask,
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=The warm and comfortable UX PRO beanie. For you, only for you. And that guy, too.
 basePrice=2043
 width=1
 height=1
-avg24hPrice=36026
+avg24hPrice=31475
 low24hPrice=19999
-lastOfferCount=6
+lastOfferCount=14
 Sell_Fence=817
 Sell_Skier=1001
 Sell_Peacekeeper=8
 Sell_Ragman=1266
-Sell_Flea Market=39888
+Sell_Flea Market=24444
 weight=0.100000
-fleaMarketFee=7440
+fleaMarketFee=3311
 propertiestype=

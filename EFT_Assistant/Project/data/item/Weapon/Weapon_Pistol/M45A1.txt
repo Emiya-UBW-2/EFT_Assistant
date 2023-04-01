@@ -35,21 +35,34 @@ ChildParts=[
 	M45A1 slide lock,
 	M1911A1 Wilson Extended slide stop
 ]
-Recoil=78.000000
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser,
+	NcSTAR Tactical blue laser LAM-module,
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Olight Baldr Pro tactical flashlight with laser,
+	Olight Baldr Pro tactical flashlight with laser (Tan)
+]
+Recoil=515.000000
 Ergonomics=78.000000
 Information_Eng=The MEU(SOC) pistol, ("Marine Expeditionary Unit"; "Special Operations Capable") officially designated the M45 MEUSOC, is a magazine-fed, recoil-operated, single-action, semiautomatic pistol chambered for the .45 ACP cartridge. It's a variant of the M1911, and has been the standard-issue side arm for the Force Recon Element of the United States Marine Corps' Marine Expeditionary Units since 1985. The improved M45A1 features several changes to the original M1911A1 design. One feature is the dual recoil spring system that spreads out the recoil force of the .45 ACP round by lowering the peak force of the recoil pulse. It also has 3-dot tritium night sights, a 5-inch national match barrel, ambidextrous safety, a picatinny rail, and a desert tan Cerakote finish.
 basePrice=7408
 width=2
 height=1
-avg24hPrice=12806
-low24hPrice=8888
-lastOfferCount=17
+avg24hPrice=13171
+low24hPrice=9999
+lastOfferCount=19
 Sell_Prapor=3704
 Sell_Fence=2963
 Sell_Skier=3629
 Sell_Peacekeeper=28
 Sell_Mechanic=4148
-Sell_Flea Market=11000
+Sell_Flea Market=11988
 weight=0.205000
-fleaMarketFee=581
+fleaMarketFee=631
 propertiestype=ItemPropertiesWeapon

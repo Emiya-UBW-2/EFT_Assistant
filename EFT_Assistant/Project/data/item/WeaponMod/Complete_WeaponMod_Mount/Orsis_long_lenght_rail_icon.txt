@@ -2,13 +2,21 @@ IDstr=5df35ea9c41b2312ea3334d8
 Name=ORSIS T-5000M long length rail
 ShortName=ORSIS long
 Itemtype=Mount
+ChildParts=[
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	LA-5B/PEQ tactical device,
+	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Perst-3 tactical device
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A long length rail for T-5000M sniper rifle allows installation of additional tactical equipment on the handguard. Manufactured by ORSIS.
 basePrice=1150
 width=1
 height=1
-avg24hPrice=21111
+avg24hPrice=18333
 low24hPrice=15555
 lastOfferCount=1
 Sell_Prapor=575

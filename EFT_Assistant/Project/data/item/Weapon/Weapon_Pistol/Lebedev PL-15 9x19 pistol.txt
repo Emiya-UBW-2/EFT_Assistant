@@ -2,21 +2,41 @@ IDstr=602a9740da11d6478d5a06dc
 Name=Lebedev PL-15 9x19 pistol
 ShortName=PL-15
 Itemtype=Handgun
-Recoil=0.000000
+ChildParts=[
+	PL-15 9x19 barrel,
+	PL-15 9x19 threaded barrel
+]
+ChildParts=[
+	PL-15 pistol slide
+]
+ChildParts=[
+	PL-15 9x19 16-round magazine
+]
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser,
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	UM Tactical UM3 pistol sight mount,
+	Olight Baldr Pro tactical flashlight with laser,
+	Olight Baldr Pro tactical flashlight with laser (Tan)
+]
+Recoil=340.000000
 Ergonomics=93.000000
 Information_Eng=A Russian self-loading pistol chambered in 9x19mm, developed by a team of designers from the Kalashnikov concern under the leadership of Dmitry Lebedev for the needs of Russian law enforcement agencies.
 basePrice=7100
 width=2
 height=1
-avg24hPrice=15713
-low24hPrice=9855
-lastOfferCount=14
+avg24hPrice=15733
+low24hPrice=9999
+lastOfferCount=8
 Sell_Prapor=3550
 Sell_Fence=2840
 Sell_Skier=3479
 Sell_Peacekeeper=27
 Sell_Mechanic=3976
-Sell_Flea Market=11999
+Sell_Flea Market=11111
 weight=0.490000
-fleaMarketFee=632
+fleaMarketFee=585
 propertiestype=ItemPropertiesWeapon

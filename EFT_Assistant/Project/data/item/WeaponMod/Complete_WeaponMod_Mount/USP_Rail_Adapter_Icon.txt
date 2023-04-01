@@ -2,22 +2,32 @@ IDstr=6196255558ef8c428c287d1c
 Name=HK USP rail adapter
 ShortName=USP rail
 Itemtype=Mount
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser,
+	NcSTAR Tactical blue laser LAM-module,
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Olight Baldr Pro tactical flashlight with laser,
+	Olight Baldr Pro tactical flashlight with laser (Tan)
+]
 Recoil=0.000000
 Ergonomics=-1.000000
 Information_Eng=An adapter for the USP pistol that allows the installation of additional tactical equipment. Manufactured by Heckler & Koch.
 basePrice=1500
 width=1
 height=1
-avg24hPrice=16764
-low24hPrice=9999
-lastOfferCount=3
+avg24hPrice=14639
+low24hPrice=8000
+lastOfferCount=8
 Sell_Prapor=750
 Sell_Fence=600
 Sell_Skier=735
 Sell_Peacekeeper=6
 Sell_Mechanic=840
 Sell_Jaeger=900
-Sell_Flea Market=12399
+Sell_Flea Market=8000
 weight=0.010000
-fleaMarketFee=1328
+fleaMarketFee=657
 propertiestype=ItemPropertiesWeaponMod

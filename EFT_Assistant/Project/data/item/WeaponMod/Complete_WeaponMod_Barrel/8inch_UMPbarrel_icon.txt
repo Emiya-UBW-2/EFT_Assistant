@@ -2,6 +2,9 @@ IDstr=5fc3e4a27283c4046c5814ab
 Name=HK UMP .45 ACP 8 inch barrel
 ShortName=UMP-45 8"
 Itemtype=Barrel
+ChildParts=[
+	HK UMP B&T OEM .45 ACP sound suppressor
+]
 Recoil=-5.000000
 Ergonomics=-6.000000
 Information_Eng=A barrel for the HK UMP submachine gun, chambered in .45 ACP ammo, 8 inch (200mm) long.

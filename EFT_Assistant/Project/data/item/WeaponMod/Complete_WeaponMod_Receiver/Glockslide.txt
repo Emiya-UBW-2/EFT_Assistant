@@ -2,6 +2,23 @@ IDstr=5a6f5e048dc32e00094b97da
 Name=Glock 17 9x19 pistol slide
 ShortName=G17
 Itemtype=Receiver
+ChildParts=[
+	Glock Dead Ringer Snake Eye rear sight,
+	Glock rear sight,
+	Glock TruGlo TFX rear sight,
+	Glock ZEV Tech rear sight,
+	Glock 19X rear sight
+]
+ChildParts=[
+	Glock Dead Ringer Snake Eye front sight,
+	Glock front sight,
+	Glock TruGlo TFX front sight,
+	Glock ZEV Tech front sight,
+	Glock 19X front sight
+]
+ChildParts=[
+	Glock 9x19 Strike Industries G4 SlideComp compensator
+]
 Conflict=[
 	Glock 9x19 Lone Wolf AlphaWolf Bullnose compensator,
 	P226 TJ's Custom 9x19 compensator,

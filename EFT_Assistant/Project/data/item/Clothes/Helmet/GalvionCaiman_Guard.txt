@@ -5,20 +5,18 @@ Itemtype=Armored equipment
 Conflict=[
 	Respirator
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A special additional ballistic protection for the Caiman Hybrid helmet, mounted on the side rails. Manufactured by Galvion.
 basePrice=24500
 width=2
 height=2
-avg24hPrice=27941
+avg24hPrice=28337
 low24hPrice=20000
 lastOfferCount=6
 Sell_Fence=9800
 Sell_Skier=12005
 Sell_Peacekeeper=94
 Sell_Ragman=15190
-Sell_Flea Market=23221
+Sell_Flea Market=28000
 weight=1.100000
-fleaMarketFee=1427
+fleaMarketFee=1574
 propertiestype=ItemPropertiesArmorAttachment

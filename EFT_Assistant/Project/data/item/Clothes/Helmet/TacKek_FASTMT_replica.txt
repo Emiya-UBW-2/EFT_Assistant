@@ -7,20 +7,18 @@ Conflict=[
 	Tagilla's welding mask "Gorilla",
 	Tagilla's welding mask "UBEY",
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A lower protection class replica of the Ops-Core FAST MT Super High Cut Helmet from Tac-Kek. Features Ops-Core ARC Rails for attaching various components to the helmet.
 basePrice=15100
 width=2
 height=2
-avg24hPrice=17658
+avg24hPrice=17966
 low24hPrice=7500
-lastOfferCount=27
+lastOfferCount=38
 Sell_Fence=6040
 Sell_Skier=7399
 Sell_Peacekeeper=58
 Sell_Ragman=9362
-Sell_Flea Market=12000
+Sell_Flea Market=12500
 weight=0.450000
-fleaMarketFee=822
+fleaMarketFee=832
 propertiestype=ItemPropertiesHelmet

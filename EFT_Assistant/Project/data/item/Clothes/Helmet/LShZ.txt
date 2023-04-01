@@ -7,20 +7,18 @@ Conflict=[
 	Tagilla's welding mask "Gorilla",
 	Tagilla's welding mask "UBEY",
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A lightweight protective helmet made in Russia. In fact the copy of Ops-Core FAST helmet, but with lower characteristics.
 basePrice=47364
 width=2
 height=2
-avg24hPrice=38921
+avg24hPrice=39808
 low24hPrice=31500
-lastOfferCount=51
+lastOfferCount=17
 Sell_Fence=18945
 Sell_Skier=23208
 Sell_Peacekeeper=182
 Sell_Ragman=29365
-Sell_Flea Market=31500
+Sell_Flea Market=40000
 weight=0.950000
-fleaMarketFee=2499
+fleaMarketFee=2627
 propertiestype=ItemPropertiesHelmet

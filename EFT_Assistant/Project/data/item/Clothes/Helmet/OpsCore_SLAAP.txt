@@ -7,20 +7,18 @@ Conflict=[
 	Tac-Kek Heavy Trooper mask for Ops-Core-type helmets,
 	Diamond Age Bastion helmet armor plate,
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=An additional armor module for the Ops-Core FAST helmet, made of a special polyethylene plate (Russian GOST class 5 protection).
 basePrice=89300
 width=2
 height=1
-avg24hPrice=121728
-low24hPrice=95000
-lastOfferCount=22
+avg24hPrice=122279
+low24hPrice=99998
+lastOfferCount=20
 Sell_Fence=35720
 Sell_Skier=43757
 Sell_Peacekeeper=343
 Sell_Ragman=55366
-Sell_Flea Market=100000
+Sell_Flea Market=108999
 weight=1.300000
-fleaMarketFee=5668
+fleaMarketFee=5985
 propertiestype=ItemPropertiesArmorAttachment

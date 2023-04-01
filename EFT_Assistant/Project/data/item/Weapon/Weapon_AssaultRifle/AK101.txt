@@ -13,6 +13,9 @@ ChildParts=[
 	AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo (White)
 ]
 ChildParts=[
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher
+]
+ChildParts=[
 	AK-101 5.56x45 muzzle brake-compensator,
 	AK-102 5.56x45 muzzle brake-compensator (6P44 0-20),
 	AK-74 thread type JMac Customs RRD-4C multi-caliber muzzle brake,
@@ -23,7 +26,6 @@ ChildParts=[
 	Rotor 43 5.56x45 muzzle brake-compensator
 ]
 ChildParts=[
-	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock,
 	AK Aeroknox Scorpius pistol grip,
 	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip,
 	AK-12 pistol grip,
@@ -42,27 +44,26 @@ ChildParts=[
 	AK TAPCO SAW-Style pistol grip (FDE),
 	AK US Palm pistol grip,
 	AK Zenit RK-3 pistol grip,
-	PP-19-01 "Vityaz" pistol grip
+	PP-19-01 "Vityaz" pistol grip,
+	AK FAB Defense AGR-47 pistol grip,
+	AK TangoDown Battle Grip pistol grip,
+	AK TangoDown Battle Grip pistol grip (FDE)
 ]
 ChildParts=[
+	AK-74 dust cover (6P20 0-1),
 	AK-74M dust cover (6P34 0-1),
-	RD-704 dust cover,
 	AK AKademia Bastion dust cover,
 	AK FAB Defense PDC dust cover,
-	AKM dust cover (6P1 0-1),
-	Molot AKM-type dust cover,
 	AK TWS Dog Leg Rail dust cover,
-	AK Zenit B-33 dust cover
+	AK Zenit B-33 dust cover,
+	RD-704 dust cover
 ]
 ChildParts=[
 	AK-105 rear sight (6P44 Sb.1-30),
 	AK-74 rear sight (6P20 Sb.2),
 	AK-74M rear sight (6P20 Sb.2),
-	AK RD Enhanced V2 Rear Sight,
-	AK Taktika Tula TT01 rear sight rail
-]
-ChildParts=[
-	AKMP system front sight device
+	AK Taktika Tula TT01 rear sight rail,
+	AK RD Enhanced V2 Rear Sight
 ]
 ChildParts=[
 	AK-74M polymer stock (6P34 Sb.15),
@@ -76,7 +77,6 @@ ChildParts=[
 	AK-101 5.56x45 6L29 30-round magazine
 ]
 ChildParts=[
-	SAG Bit low profile dovetail sidemount,
 	Axion Kobra EKP-8-02 reflex sight (Dovetail),
 	BelOMO PK-AA dovetail reflex sight,
 	OKP-7 reflex sight (Dovetail),
@@ -91,14 +91,12 @@ ChildParts=[
 	NPZ 1P78-1 dovetail mount,
 	VOMZ Pilad 043-02 dovetail mount,
 	Zenit B-13 "Klassika" dovetail rail platform,
-	Zenit B-13V "Klassika" dovetail rail platform
+	Zenit B-13V "Klassika" dovetail rail platform,
+	SAG Bit low profile dovetail sidemount
 ]
 ChildParts=[
 	AK CSS knurled charging handle,
 	AK Zenit RP-1 charging handle
-]
-ChildParts=[
-	GP-25 "Kostyor" 40mm underbarrel grenade launcher
 ]
 Conflict=[
 	Hera Arms CQR tactical foregrip,
@@ -109,15 +107,15 @@ Information_Eng=The AK-101 5.56x45mm assault rifle is a further modernized versi
 basePrice=35663
 width=4
 height=1
-avg24hPrice=64728
+avg24hPrice=67604
 low24hPrice=37990
-lastOfferCount=23
+lastOfferCount=5
 Sell_Prapor=17831
 Sell_Fence=14265
 Sell_Skier=17474
 Sell_Peacekeeper=137
 Sell_Mechanic=19971
-Sell_Flea Market=50000
+Sell_Flea Market=88888
 weight=2.392000
-fleaMarketFee=2659
+fleaMarketFee=5061
 propertiestype=ItemPropertiesWeapon

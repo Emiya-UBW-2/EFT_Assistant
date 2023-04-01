@@ -3,21 +3,40 @@ Name=Milkor M2A1 grenade launcher reflex sight
 ShortName=M2A1
 Itemtype=Reflex sight
 SightRange=300
+ChildParts=[
+	Wilcox RAPTAR ES Tactical Rangefinder
+]
+ChildParts=[
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	LA-5B/PEQ tactical device,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Perst-3 tactical device,
+	NcSTAR Tactical blue laser LAM-module
+]
+ChildParts=[
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	LA-5B/PEQ tactical device,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Perst-3 tactical device,
+	NcSTAR Tactical blue laser LAM-module
+]
 Recoil=0.000000
 Ergonomics=-6.000000
 Information_Eng=The M2A1 sight was designed to compensate for the natural drift of the 40mm grenade. The built-in light sensor dims the reticle during daylight hours and allows for a brighter reticle during night time operations. The M2A1 reflex sight enhances the overall capabilities and usage of the MUSA MSGLs.
 basePrice=21000
 width=1
 height=1
-avg24hPrice=12727
+avg24hPrice=12511
 low24hPrice=10000
-lastOfferCount=9
+lastOfferCount=13
 Sell_Prapor=10500
 Sell_Fence=8400
 Sell_Skier=10290
 Sell_Peacekeeper=81
 Sell_Mechanic=11760
-Sell_Flea Market=12000
+Sell_Flea Market=11900
 weight=0.600000
-fleaMarketFee=1108
+fleaMarketFee=1109
 propertiestype=ItemPropertiesScope

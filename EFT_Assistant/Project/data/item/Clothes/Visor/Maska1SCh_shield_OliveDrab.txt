@@ -6,8 +6,6 @@ Conflict=[
 	Pestily plague mask,
 	GP-7 gas mask,
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A special steel bulletproof faceshield for the Maska-1SCh ("Mask-1 Shield") helmet.
 basePrice=57800
 width=2

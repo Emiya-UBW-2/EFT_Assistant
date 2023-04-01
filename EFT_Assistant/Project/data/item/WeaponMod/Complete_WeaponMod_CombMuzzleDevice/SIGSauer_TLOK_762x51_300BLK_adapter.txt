@@ -2,21 +2,29 @@ IDstr=5fbc22ccf24b94483f726483
 Name=SIG Sauer Taper-LOK 7.62x51/.300 BLK muzzle adapter
 ShortName=T-LOK
 Itemtype=Comb. muzzle device
+ChildParts=[
+	SIG Sauer 7.62x51 3-prong flash hider,
+	SIG Sauer Micro Brake 7.62x51 muzzle brake,
+	SIG Sauer Two Port Brake 7.62x51 muzzle brake
+]
+ChildParts=[
+	SIG Sauer SRD762-QD 7.62x51 sound suppressor
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=The patented "Taper-LOK" mounting system allows the installation of various muzzle devices on 7.62x51 and .300 Blackout chambered weapons. Manufactured by SIG Sauer.
 basePrice=4230
 width=1
 height=1
-avg24hPrice=19654
-low24hPrice=9900
-lastOfferCount=17
+avg24hPrice=21145
+low24hPrice=5000
+lastOfferCount=9
 Sell_Prapor=2115
 Sell_Fence=1692
 Sell_Skier=2072
 Sell_Peacekeeper=16
 Sell_Mechanic=2368
-Sell_Flea Market=9900
+Sell_Flea Market=5000
 weight=0.120000
-fleaMarketFee=553
+fleaMarketFee=278
 propertiestype=ItemPropertiesWeaponMod

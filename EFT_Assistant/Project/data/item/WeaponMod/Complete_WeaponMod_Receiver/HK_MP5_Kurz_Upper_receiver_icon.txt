@@ -6,13 +6,13 @@ ChildParts=[
 	HK MP5K polymer handguard
 ]
 ChildParts=[
-	HK MP5 MFI HK universal low profile scope mount
-]
-ChildParts=[
 	HK MP5 Drum rear sight
 ]
 ChildParts=[
 	HK MP5K End Cap stock
+]
+ChildParts=[
+	HK MP5 MFI HK universal low profile scope mount
 ]
 Recoil=0.000000
 Ergonomics=6.000000
@@ -20,15 +20,15 @@ Information_Eng=A regular upper receiver for the MP5K SMGs, manufactured by Heck
 basePrice=3050
 width=2
 height=1
-avg24hPrice=0
-low24hPrice=0
+avg24hPrice=20000
+low24hPrice=20000
 lastOfferCount=1
 Sell_Prapor=1525
 Sell_Fence=1220
 Sell_Skier=1494
 Sell_Peacekeeper=12
 Sell_Mechanic=1708
-Sell_Flea Market=50000
+Sell_Flea Market=20000
 weight=0.450000
-fleaMarketFee=8313
+fleaMarketFee=1857
 propertiestype=ItemPropertiesWeaponMod

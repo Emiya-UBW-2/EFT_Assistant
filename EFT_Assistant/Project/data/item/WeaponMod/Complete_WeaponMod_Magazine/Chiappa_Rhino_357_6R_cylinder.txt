@@ -2,6 +2,42 @@ IDstr=619f54a1d25cbd424731fb99
 Name=Chiappa Rhino .357 6-round cylinder
 ShortName=CR cyl.
 Itemtype=Cylinder Magazine
+ChildParts=[
+	.357 Magnum FMJ,
+	.357 Magnum HP,
+	.357 Magnum JHP,
+	.357 Magnum SP
+]
+ChildParts=[
+	.357 Magnum FMJ,
+	.357 Magnum HP,
+	.357 Magnum JHP,
+	.357 Magnum SP
+]
+ChildParts=[
+	.357 Magnum FMJ,
+	.357 Magnum HP,
+	.357 Magnum JHP,
+	.357 Magnum SP
+]
+ChildParts=[
+	.357 Magnum FMJ,
+	.357 Magnum HP,
+	.357 Magnum JHP,
+	.357 Magnum SP
+]
+ChildParts=[
+	.357 Magnum FMJ,
+	.357 Magnum HP,
+	.357 Magnum JHP,
+	.357 Magnum SP
+]
+ChildParts=[
+	.357 Magnum FMJ,
+	.357 Magnum HP,
+	.357 Magnum JHP,
+	.357 Magnum SP
+]
 Recoil=0.000000
 Ergonomics=-2.000000
 Information_Eng=A 6-round .357 cylinder for Chiappa Rhino revolvers.

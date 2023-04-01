@@ -2,6 +2,49 @@ IDstr=61816dfa6ef05c2ce828f1ad
 Name=FN SCAR side rail
 ShortName=SCAR side
 Itemtype=Mount
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser,
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	LA-5B/PEQ tactical device,
+	NcSTAR Tactical blue laser LAM-module,
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Zenit Perst-3 tactical device,
+	Kiba Arms 25mm accessory ring mount,
+	Daniel Defense 25mm accessory ring mount,
+	Olight Baldr Pro tactical flashlight with laser,
+	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Insight WMX200 tactical flashlight
+]
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser,
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	AN/PEQ-2 tactical device,
+	LA-5B/PEQ tactical device,
+	NcSTAR Tactical blue laser LAM-module,
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Zenit Perst-3 tactical device,
+	Kiba Arms 25mm accessory ring mount,
+	Daniel Defense 25mm accessory ring mount,
+	Olight Baldr Pro tactical flashlight with laser,
+	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Insight WMX200 tactical flashlight
+]
 Conflict=[
 	FN SCAR Kinetic MREX 6.5 M-LOK rail,
 ]
@@ -11,8 +54,8 @@ Information_Eng=A side rail for the SCAR-series handguards that allows installat
 basePrice=1230
 width=1
 height=1
-avg24hPrice=9565
-low24hPrice=7500
+avg24hPrice=8382
+low24hPrice=6999
 lastOfferCount=2
 Sell_Prapor=615
 Sell_Fence=492
@@ -20,7 +63,7 @@ Sell_Skier=602
 Sell_Peacekeeper=5
 Sell_Mechanic=688
 Sell_Jaeger=738
-Sell_Flea Market=7500
+Sell_Flea Market=7000
 weight=0.070000
-fleaMarketFee=667
+fleaMarketFee=597
 propertiestype=ItemPropertiesWeaponMod

@@ -8,20 +8,18 @@ Conflict=[
 	GP-5 gas mask,
 	GP-7 gas mask,
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A warm knitted beanie, traditionally made for skiers but worn by everyone.
 basePrice=1070
 width=1
 height=1
-avg24hPrice=6514
+avg24hPrice=5376
 low24hPrice=3000
 lastOfferCount=2
 Sell_Fence=428
 Sell_Skier=524
 Sell_Peacekeeper=4
 Sell_Ragman=663
-Sell_Flea Market=4420
+Sell_Flea Market=3000
 weight=0.100000
-fleaMarketFee=315
+fleaMarketFee=178
 propertiestype=

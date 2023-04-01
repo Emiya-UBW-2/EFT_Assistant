@@ -2,6 +2,12 @@ IDstr=5bfd35380db83400232fe5cc
 Name=Mosin Rifle Infantry stock
 ShortName=Mosin inf. stock
 Itemtype=Stock
+ChildParts=[
+	Mosin Rifle AIM Sports Recoil Pad
+]
+ChildParts=[
+	Mosin Rifle Tacfire pistol grip
+]
 Conflict=[
 	Mosin Rifle Kochetov mount,
 	Mosin Carbine 7.62x54R 514mm barrel,

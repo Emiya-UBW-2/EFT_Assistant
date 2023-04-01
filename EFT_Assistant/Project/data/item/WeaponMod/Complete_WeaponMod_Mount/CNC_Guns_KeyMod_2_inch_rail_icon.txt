@@ -2,22 +2,43 @@ IDstr=623c2f652febb22c2777d8d7
 Name=CNC Guns KeyMod 2 inch rail
 ShortName=CNC 2"
 Itemtype=Mount
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser,
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	LA-5B/PEQ tactical device,
+	NcSTAR Tactical blue laser LAM-module,
+	Steiner LAS/TAC 2 tactical flashlight,
+	Steiner DBAL-PL tactical device,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Perst-3 tactical device,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Kiba Arms 25mm accessory ring mount,
+	Daniel Defense 25mm accessory ring mount,
+	Olight Baldr Pro tactical flashlight with laser,
+	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Insight WMX200 tactical flashlight
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=CNC Guns 2 inch rail for KeyMod systems allows installation of additional equipment on the handguards equipped with a standard KeyMod interface.
 basePrice=1009
 width=1
 height=1
-avg24hPrice=23417
-low24hPrice=11000
-lastOfferCount=12
+avg24hPrice=22574
+low24hPrice=9999
+lastOfferCount=13
 Sell_Prapor=504
 Sell_Fence=403
 Sell_Skier=494
 Sell_Peacekeeper=4
 Sell_Mechanic=565
 Sell_Jaeger=605
-Sell_Flea Market=14000
+Sell_Flea Market=13500
 weight=0.050000
-fleaMarketFee=2087
+fleaMarketFee=1966
 propertiestype=ItemPropertiesWeaponMod

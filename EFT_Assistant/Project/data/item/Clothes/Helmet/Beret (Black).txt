@@ -11,20 +11,18 @@ Conflict=[
 	Tagilla's welding mask "Gorilla",
 	Tagilla's welding mask "UBEY",
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=Just a black beret.
 basePrice=1500
 width=1
 height=1
-avg24hPrice=13014
+avg24hPrice=12193
 low24hPrice=5000
-lastOfferCount=6
+lastOfferCount=11
 Sell_Fence=600
 Sell_Skier=735
 Sell_Peacekeeper=6
 Sell_Ragman=930
-Sell_Flea Market=8000
+Sell_Flea Market=10990
 weight=0.100000
-fleaMarketFee=657
+fleaMarketFee=1092
 propertiestype=

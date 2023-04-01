@@ -2,13 +2,20 @@ IDstr=602a95fe4e02ce1eaa358729
 Name=PL-15 9x19 threaded barrel
 ShortName=PL15 thr.
 Itemtype=Barrel
+ChildParts=[
+	AAC Illusion 9 9x19 sound suppressor,
+	Alpha Dog Alpha 9 9x19 sound suppressor,
+	PL-15 9x19 sound suppressor,
+	SIG Sauer SRD9 9x19 sound suppressor,
+	SilencerCo Osprey 9 9x19 sound suppressor
+]
 Recoil=-3.000000
 Ergonomics=-4.000000
 Information_Eng=A threaded barrel for the PL-15 pistol, chambered in 9x19.
 basePrice=4948
 width=1
 height=1
-avg24hPrice=15381
+avg24hPrice=10390
 low24hPrice=5000
 lastOfferCount=4
 Sell_Prapor=2474
@@ -17,7 +24,7 @@ Sell_Skier=2424
 Sell_Peacekeeper=19
 Sell_Mechanic=2770
 Sell_Jaeger=2968
-Sell_Flea Market=8999
+Sell_Flea Market=7000
 weight=0.180000
-fleaMarketFee=477
+fleaMarketFee=372
 propertiestype=ItemPropertiesBarrel

@@ -2,21 +2,59 @@ IDstr=5b1fa9b25acfc40018633c01
 Name=Glock 18C 9x19 machine pistol
 ShortName=Glock 18C
 Itemtype=Handgun
-Recoil=0.000000
+ChildParts=[
+	Glock 18C 9x19 barrel with a compensator
+]
+ChildParts=[
+	Glock Pachmayr Tactical Grip Glove
+]
+ChildParts=[
+	Glock 18C 9x19 pistol slide
+]
+ChildParts=[
+	Glock 9x19 "Big Stick" 33-round magazine,
+	Glock 9x19 17-round magazine,
+	Glock 9x19 Magpul PMAG GL9 21-round magazine,
+	Glock 9x19 SGM Tactical 50-round drum magazine,
+	Glock 9x19 "Big Stick" 24-round magazine (Coyote),
+	Glock 9x19 "Big Stick" 31-round magazine (Coyote),
+	Glock 9x19 19-round magazine (Coyote)
+]
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser,
+	NcSTAR Tactical blue laser LAM-module,
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Glock Aimtech mount base,
+	UM Tactical UM3 pistol sight mount,
+	Olight Baldr Pro tactical flashlight with laser,
+	Olight Baldr Pro tactical flashlight with laser (Tan)
+]
+ChildParts=[
+	Glock Aimtech Tiger Shark sight mount
+]
+ChildParts=[
+	Glock FAB Defense GLR-17 stock
+]
+Recoil=360.000000
 Ergonomics=90.000000
 Information_Eng=The Glock 18 is a selective-fire variant of the Glock 17. The firearm is typically used with an extended 33-round-capacity magazine, although other magazines from the Glock 17 can be used, with available capacities of 10, 17, or 19 rounds. It has a keyhole opening cut into the forward portion of the slide, similar to the opening on the Glock long-slide models, although the Glock 18 has a standard-length slide. The keyhole opening provides an area to allow the four, progressively larger (from back to front) compensator cuts machined into the barrel to vent the propellant gases upwards, affording more control over the rapid-firing machine pistol.
 basePrice=15225
 width=2
 height=1
-avg24hPrice=22439
+avg24hPrice=22945
 low24hPrice=13000
-lastOfferCount=15
+lastOfferCount=7
 Sell_Prapor=7612
 Sell_Fence=6090
 Sell_Skier=7460
 Sell_Peacekeeper=59
 Sell_Mechanic=8526
-Sell_Flea Market=21999
+Sell_Flea Market=20500
 weight=0.231000
-fleaMarketFee=1165
+fleaMarketFee=1098
 propertiestype=ItemPropertiesWeapon

@@ -9,8 +9,6 @@ Conflict=[
 	Tagilla's welding mask "Gorilla",
 	Tagilla's welding mask "UBEY",
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=The Maska-1 bulletproof protective helmet appeared in service in 1991 as a replacement for the "Sphere" helmet, designed for use by the Ministry of Internal Affairs of the Russian Federation armed forces. The Maska-1SCh ("Mask-1 Shield") modification features a steel bulletproof faceshield to ensure maximum protection of the user's face.
 basePrice=126327
 width=2

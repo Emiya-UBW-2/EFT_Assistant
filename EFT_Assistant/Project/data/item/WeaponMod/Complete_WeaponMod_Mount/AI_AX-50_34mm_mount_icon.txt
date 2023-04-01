@@ -2,22 +2,28 @@ IDstr=62811f461d5df4475f46a332
 Name=AI AX-50 34mm scope mount
 ShortName=AX-50 34mm
 Itemtype=Mount
+ChildParts=[
+	Hensoldt FF 4-16x56 34mm riflescope,
+	Nightforce ATACR 7-35x56 34mm riflescope,
+	Schmidt & Bender PM II 3-12x50 34mm riflescope,
+	Schmidt & Bender PM II 5-25x56 34mm riflescope
+]
 Recoil=0.000000
 Ergonomics=-1.000000
 Information_Eng=An universal 34mm scope base mount for installation on Picatinny rails, allows installation of various optics. Manufactured by Accuracy International.
 basePrice=8200
 width=2
 height=1
-avg24hPrice=16134
+avg24hPrice=16404
 low24hPrice=10000
-lastOfferCount=22
+lastOfferCount=16
 Sell_Prapor=4100
 Sell_Fence=3280
 Sell_Skier=4018
 Sell_Peacekeeper=32
 Sell_Mechanic=4592
 Sell_Jaeger=4920
-Sell_Flea Market=13000
+Sell_Flea Market=10000
 weight=0.230000
-fleaMarketFee=684
+fleaMarketFee=549
 propertiestype=ItemPropertiesWeaponMod

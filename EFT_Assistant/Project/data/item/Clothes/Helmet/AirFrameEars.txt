@@ -9,20 +9,18 @@ Conflict=[
 	Peltor Tactical Sport headset,
 	Walker's Razor Digital headset
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=An additional armor module for the Crye Precision AirFrame helmet, which protects the ear area from fragmentation and small-caliber ricochets.
 basePrice=36200
 width=2
 height=2
-avg24hPrice=28320
-low24hPrice=23999
-lastOfferCount=12
+avg24hPrice=28328
+low24hPrice=23000
+lastOfferCount=24
 Sell_Fence=14480
 Sell_Skier=17738
 Sell_Peacekeeper=139
 Sell_Ragman=22444
-Sell_Flea Market=23999
+Sell_Flea Market=26500
 weight=1.200000
-fleaMarketFee=1909
+fleaMarketFee=1933
 propertiestype=ItemPropertiesArmorAttachment

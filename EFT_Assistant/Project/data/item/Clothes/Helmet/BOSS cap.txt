@@ -9,20 +9,18 @@ Conflict=[
 	GP-7 gas mask,
 	Pestily plague mask
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A fancy red BOSS cap. Yo, fella, you da real BOSS now!
 basePrice=8353
 width=1
 height=1
-avg24hPrice=16075
+avg24hPrice=15309
 low24hPrice=8000
-lastOfferCount=33
+lastOfferCount=14
 Sell_Fence=3341
 Sell_Skier=4092
 Sell_Peacekeeper=32
 Sell_Ragman=5178
-Sell_Flea Market=8000
+Sell_Flea Market=14000
 weight=0.100000
-fleaMarketFee=489
+fleaMarketFee=737
 propertiestype=

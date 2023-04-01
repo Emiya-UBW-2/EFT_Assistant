@@ -2,6 +2,9 @@ IDstr=618a75c9a3884f56c957ca1b
 Name=NPZ 1P78-1 dovetail mount
 ShortName=1P78 DT
 Itemtype=Mount
+ChildParts=[
+	NPZ 1P78-1 2.8x scope
+]
 Conflict=[
 	BelOMO PK-AA dovetail reflex sight,
 	BelOMO PSO-1 4x24 scope,
@@ -23,16 +26,16 @@ Information_Eng=An aluminum sight mount manufactured by NPZ for the installation
 basePrice=2000
 width=1
 height=1
-avg24hPrice=12131
+avg24hPrice=10932
 low24hPrice=4000
-lastOfferCount=5
+lastOfferCount=1
 Sell_Prapor=1000
 Sell_Fence=800
 Sell_Skier=980
 Sell_Peacekeeper=8
 Sell_Mechanic=1120
 Sell_Jaeger=1200
-Sell_Flea Market=9600
+Sell_Flea Market=12000
 weight=0.040000
-fleaMarketFee=743
+fleaMarketFee=1057
 propertiestype=ItemPropertiesWeaponMod

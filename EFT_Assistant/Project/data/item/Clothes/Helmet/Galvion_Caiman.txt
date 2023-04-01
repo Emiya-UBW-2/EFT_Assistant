@@ -7,8 +7,6 @@ Conflict=[
 	Tagilla's welding mask "Gorilla",
 	Tagilla's welding mask "UBEY",
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=The Caiman Hybrid helmet is a new generation of lightweight special forces helmet. A series of modular accessories enhances the package, providing users with lightweight, comfortable and maximum head protection. Manufactured by Galvion.
 basePrice=145976
 width=2

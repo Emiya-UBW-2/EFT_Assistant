@@ -5,12 +5,15 @@ Itemtype=Stock
 ChildParts=[
 	AR-15 B5 Systems Precision stock,
 	CMMG RipStock buttstock,
+	FAB Defense GL-CORE buttstock,
 	FAB Defense GL-SHOCK buttstock,
 	FAB Defense GLR-16-S stock,
 	High Standard M4SS Stock,
 	AR-15 HK E1 buttstock,
 	AR-15 HK Slim Line buttstock,
 	AK-12 stock,
+	KRISS Defiance DS150 stock (Black),
+	KRISS Defiance DS150 stock (FDE),
 	LMT SOPMOD stock,
 	Magpul CTR Carbine stock (Black),
 	Magpul CTR Carbine stock (FDE),
@@ -24,9 +27,7 @@ ChildParts=[
 	MFT BUS stock,
 	Strike Industries Viper Mod 1 stock,
 	Vltor EMOD stock,
-	FAB Defense GL-CORE buttstock,
-	KRISS Defiance DS150 stock (FDE),
-	KRISS Defiance DS150 stock (Black)
+	SB Tactical SBA3 brace
 ]
 Recoil=-4.000000
 Ergonomics=2.000000
@@ -34,7 +35,7 @@ Information_Eng=The Advanced Receiver Extension buffer tube, Mil-Spec diameter w
 basePrice=8700
 width=2
 height=1
-avg24hPrice=109176
+avg24hPrice=113464
 low24hPrice=69000
 lastOfferCount=0
 Sell_Prapor=4350

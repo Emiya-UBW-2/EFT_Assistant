@@ -2,22 +2,58 @@ IDstr=5ef1b9f0c64c5d0dfc0571a1
 Name=Mossberg 590A1 Mesa Tactical LEO gen.1 stock adapter
 ShortName=590 LEO
 Itemtype=Stock
+ChildParts=[
+	Armacon Baskak stock,
+	CMMG buffer tube,
+	AR-15 Colt A2 buffer tube,
+	AR-15 ADAR 2-15 buffer tube,
+	Colt Carbine buffer tube,
+	AR-15 DoubleStar ACE SOCOM Gen.4 stock,
+	ERGO F93 PRO stock,
+	HK Enhanced Tube buffer tube,
+	Magpul UBR GEN2 stock (Black),
+	Magpul UBR GEN2 stock (FDE),
+	Mesa Tactical Crosshair Hydraulic buffer tube,
+	Soyuz-TM buffer tube,
+	Strike Industries Advanced Receiver Extension buffer tube,
+	Strike Industries Advanced Receiver Extension buffer tube (Anodized Red),
+	TROY M7A1 PDW stock (Black),
+	TROY M7A1 PDW stock (FDE),
+	Strike Industries Viper PDW stock,
+	AR-15 RTM ATP buffer tube
+]
+ChildParts=[
+	AR-15 Colt A2 pistol grip,
+	AR-15 Damage Industries ECS pistol grip (FDE),
+	AR-15 F1 Firearms Skeletonized Style 1 pistol grip,
+	AR-15 F1 Firearms Skeletonized Style 2 PC pistol grip,
+	AR-15 F1 Firearms Skeletonized Style 2 pistol grip,
+	AR-15 HK Battle Grip pistol grip,
+	Hogue OverMolded Rubber Grip (Black),
+	Hogue OverMolded Rubber Grip (FDE),
+	Hogue OverMolded Rubber Grip (Ghillie Earth),
+	Hogue OverMolded Rubber Grip (Ghillie Green),
+	Hogue OverMolded Rubber Grip (Olive Drab),
+	AR-15 Magpul MIAD pistol grip (FDE),
+	AR-15 Tactical Dynamics Hexgrip pistol grip,
+	AR-15 Tactical Dynamics Skeletonized pistol grip
+]
 Recoil=-2.000000
 Ergonomics=10.000000
 Information_Eng=Mesa Tactical’s Telescoping Stock Conversion Kit replaces the standard buttstock with an adapter that accepts AR style collapsible stocks and pistol grips.
 basePrice=2600
 width=1
 height=1
-avg24hPrice=5077
+avg24hPrice=7861
 low24hPrice=2911
-lastOfferCount=1
+lastOfferCount=7
 Sell_Prapor=1300
 Sell_Fence=1040
 Sell_Skier=1274
 Sell_Peacekeeper=10
 Sell_Mechanic=1456
 Sell_Jaeger=1560
-Sell_Flea Market=4500
+Sell_Flea Market=7999
 weight=0.350000
-fleaMarketFee=237
+fleaMarketFee=494
 propertiestype=ItemPropertiesWeaponMod

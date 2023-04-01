@@ -8,7 +8,7 @@ ChildParts=[
 Conflict=[
 	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock,
 ]
-Recoil=-30.000000
+Recoil=-30.000002
 Ergonomics=10.000000
 Information_Eng=A metal skeleton stock for AKS-74 automatic rifles, manufactured by IzhMash.
 basePrice=1559

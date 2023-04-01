@@ -18,7 +18,10 @@ ChildParts=[
 	SureFire X400 Ultra tactical flashlight with laser,
 	SureFire XC1 tactical flashlight,
 	Zenit Klesch-2IKS IR illuminator with laser,
-	Zenit Klesch-2P flashlight with laser
+	Zenit Klesch-2P flashlight with laser,
+	Olight Baldr Pro tactical flashlight with laser,
+	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Insight WMX200 tactical flashlight
 ]
 Recoil=0.000000
 Ergonomics=-1.000000
@@ -26,7 +29,7 @@ Information_Eng=The SIG Sauer Bridge sight mount for pistols. Allows mounting of
 basePrice=3811
 width=1
 height=1
-avg24hPrice=7404
+avg24hPrice=7882
 low24hPrice=4000
 lastOfferCount=2
 Sell_Prapor=1905
@@ -35,7 +38,7 @@ Sell_Skier=1867
 Sell_Peacekeeper=15
 Sell_Mechanic=2134
 Sell_Jaeger=2286
-Sell_Flea Market=4198
+Sell_Flea Market=12000
 weight=0.120000
-fleaMarketFee=240
+fleaMarketFee=749
 propertiestype=ItemPropertiesWeaponMod

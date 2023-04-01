@@ -2,6 +2,9 @@ IDstr=615d8f5dd92c473c770212ef
 Name=AK Hexagon Reactor 5.45x39 muzzle brake
 ShortName=Reactor
 Itemtype=Flashhider
+ChildParts=[
+	AK-74 Hexagon Wafflemaker 5.45x39 sound suppressor
+]
 Conflict=[
 	AKS-74U Alfa Arms Goliaf handguard,
 ]
@@ -11,15 +14,15 @@ Information_Eng=The "Reactor" prototype muzzle brake manufactured by Hexagon for
 basePrice=9600
 width=1
 height=1
-avg24hPrice=22793
+avg24hPrice=23586
 low24hPrice=10000
-lastOfferCount=15
+lastOfferCount=23
 Sell_Prapor=4800
 Sell_Fence=3840
 Sell_Skier=4704
 Sell_Peacekeeper=37
 Sell_Mechanic=5376
-Sell_Flea Market=10000
+Sell_Flea Market=19000
 weight=0.095000
-fleaMarketFee=586
+fleaMarketFee=1019
 propertiestype=ItemPropertiesWeaponMod

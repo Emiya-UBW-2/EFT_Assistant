@@ -3,7 +3,6 @@ Name=OP-SKS dovetail mount
 ShortName=OPSKS DT
 Itemtype=Mount
 ChildParts=[
-	SAG Bit low profile dovetail sidemount,
 	Axion Kobra EKP-8-02 reflex sight (Dovetail),
 	BelOMO PK-AA dovetail reflex sight,
 	OKP-7 reflex sight (Dovetail),
@@ -14,7 +13,8 @@ ChildParts=[
 	NSPU-M night vision scope,
 	Axion Kobra dovetail mount,
 	NPZ 1P78-1 dovetail mount,
-	VOMZ Pilad 043-02 dovetail mount
+	VOMZ Pilad 043-02 dovetail mount,
+	SAG Bit low profile dovetail sidemount
 ]
 Recoil=0.000000
 Ergonomics=-1.000000
@@ -22,16 +22,16 @@ Information_Eng=A mount for installation of sights and other additional devices 
 basePrice=6017
 width=1
 height=1
-avg24hPrice=13580
+avg24hPrice=13591
 low24hPrice=6500
-lastOfferCount=7
+lastOfferCount=2
 Sell_Prapor=3008
 Sell_Fence=2406
 Sell_Skier=2948
 Sell_Peacekeeper=23
 Sell_Mechanic=3369
 Sell_Jaeger=3610
-Sell_Flea Market=8888
+Sell_Flea Market=10000
 weight=0.020000
-fleaMarketFee=470
+fleaMarketFee=526
 propertiestype=ItemPropertiesWeaponMod

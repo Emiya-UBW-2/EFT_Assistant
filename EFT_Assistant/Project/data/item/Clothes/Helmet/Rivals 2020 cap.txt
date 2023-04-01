@@ -10,8 +10,6 @@ Conflict=[
 	Tagilla's welding mask "Gorilla",
 	Tagilla's welding mask "UBEY",
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A special cap from the Twitch Rivals 2020 event.
 basePrice=20000
 width=1

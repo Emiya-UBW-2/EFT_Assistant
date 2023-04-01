@@ -2,6 +2,9 @@ IDstr=615d8d878004cc50514c3233
 Name=B&T QD NAR mount for Aimpoint ACRO
 ShortName=NAR
 Itemtype=Mount
+ChildParts=[
+	Aimpoint ACRO P-1 reflex sight
+]
 Conflict=[
 	AR-15 rear sight carry handle
 ]
@@ -11,16 +14,16 @@ Information_Eng=The Brugger & Thomet QD NAR is a special mount for the Aimpoint 
 basePrice=2600
 width=1
 height=1
-avg24hPrice=12079
+avg24hPrice=12291
 low24hPrice=5000
-lastOfferCount=6
+lastOfferCount=7
 Sell_Prapor=1300
 Sell_Fence=1040
 Sell_Skier=1274
 Sell_Peacekeeper=10
 Sell_Mechanic=1456
 Sell_Jaeger=1560
-Sell_Flea Market=8200
+Sell_Flea Market=10420
 weight=0.070000
-fleaMarketFee=512
+fleaMarketFee=731
 propertiestype=ItemPropertiesWeaponMod

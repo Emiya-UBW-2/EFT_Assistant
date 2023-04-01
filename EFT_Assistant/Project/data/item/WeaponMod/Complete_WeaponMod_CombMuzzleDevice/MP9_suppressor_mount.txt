@@ -2,6 +2,22 @@ IDstr=5de8f237bbaf010b10528a70
 Name=MP9 9x19 sound suppressor mount
 ShortName=MP9 adpt.
 Itemtype=Comb. muzzle device
+ChildParts=[
+	MP9 9x19 sound suppressor
+]
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser,
+	NcSTAR Tactical blue laser LAM-module,
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Olight Baldr Pro tactical flashlight with laser,
+	Olight Baldr Pro tactical flashlight with laser (Tan)
+]
 Recoil=0.000000
 Ergonomics=-1.000000
 Information_Eng=A mount for sound suppressor installation directly onto the barrel of the MP9 9x19 SMG. Manufactured by Brügger & Thomet.

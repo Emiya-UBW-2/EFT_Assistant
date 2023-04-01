@@ -7,20 +7,18 @@ Conflict=[
 	Galvion Caiman Hybrid Ballistic Mandible Guard,
 	Ops-Core FAST Gunsight Mandible,
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=Respiratory mask or anti-aerosol respirator is a basic respiratory protective equipment.
 basePrice=1786
 width=2
 height=2
-avg24hPrice=12170
+avg24hPrice=11241
 low24hPrice=6666
-lastOfferCount=24
+lastOfferCount=39
 Sell_Fence=714
 Sell_Skier=875
 Sell_Peacekeeper=7
 Sell_Ragman=1107
-Sell_Flea Market=6666
+Sell_Flea Market=9498
 weight=0.100000
-fleaMarketFee=451
+fleaMarketFee=779
 propertiestype=

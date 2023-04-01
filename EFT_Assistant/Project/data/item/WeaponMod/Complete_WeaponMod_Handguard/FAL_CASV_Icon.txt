@@ -2,6 +2,42 @@ IDstr=5b7bedd75acfc43d825283f9
 Name=SA-58/FAL Vltor CASV-FAL handguard
 ShortName=CASV-FAL
 Itemtype=Handguard
+ChildParts=[
+	Vltor CASV 5 inch rail
+]
+ChildParts=[
+	Vltor CASV 2 inch rail,
+	Vltor CASV 4 inch rail
+]
+ChildParts=[
+	Vltor CASV 2 inch rail,
+	Vltor CASV 4 inch rail
+]
+ChildParts=[
+	Vltor CASV 2 inch rail,
+	Vltor CASV 4 inch rail
+]
+ChildParts=[
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	AN/PEQ-2 tactical device,
+	LA-5B/PEQ tactical device,
+	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Perst-3 tactical device
+]
+ChildParts=[
+	BelOMO PK-06 reflex sight,
+	Aimpoint Micro Standard Mount,
+	Aimpoint Micro H-2 Standard Mount,
+	B&T QD NAR mount for Aimpoint ACRO,
+	Burris FastFire Weaver Base,
+	DeltaPoint Cross Slot Mount base,
+	NcSTAR MPR45 Backup mount,
+	SIG Sauer ROMEO sight mount,
+	Trijicon RMR high profile mount,
+	Trijicon RMR low profile mount
+]
 Conflict=[
 	SA-58 7.62x51 16 inch barrel,
 	SA-58 7.62x51 11 inch barrel,
@@ -12,15 +48,15 @@ Information_Eng=The Vltor CASV-FAL handguard for FAL series rifles equipped with
 basePrice=16262
 width=2
 height=1
-avg24hPrice=21439
+avg24hPrice=21794
 low24hPrice=16000
-lastOfferCount=27
+lastOfferCount=5
 Sell_Prapor=8131
 Sell_Fence=6504
 Sell_Skier=7968
 Sell_Peacekeeper=63
 Sell_Mechanic=9106
-Sell_Flea Market=19500
+Sell_Flea Market=19696
 weight=0.224000
-fleaMarketFee=1077
+fleaMarketFee=1084
 propertiestype=ItemPropertiesWeaponMod

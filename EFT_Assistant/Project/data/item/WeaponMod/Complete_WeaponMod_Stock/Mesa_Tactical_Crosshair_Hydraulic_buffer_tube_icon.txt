@@ -2,22 +2,49 @@ IDstr=5ef1ba28c64c5d0dfc0571a5
 Name=Mesa Tactical Crosshair Hydraulic buffer tube
 ShortName=MT Crosshair
 Itemtype=Stock
+ChildParts=[
+	AR-15 B5 Systems Precision stock,
+	FAB Defense GL-CORE buttstock,
+	FAB Defense GL-SHOCK buttstock,
+	FAB Defense GLR-16-S stock,
+	High Standard M4SS Stock,
+	AR-15 HK E1 buttstock,
+	AR-15 HK Slim Line buttstock,
+	AK-12 stock,
+	KRISS Defiance DS150 stock (Black),
+	KRISS Defiance DS150 stock (FDE),
+	LMT SOPMOD stock,
+	Magpul CTR Carbine stock (Black),
+	Magpul CTR Carbine stock (FDE),
+	Magpul MOE Carbine stock (Black),
+	Magpul MOE Carbine stock (FDE),
+	Magpul MOE Carbine stock (Foliage Green),
+	Magpul MOE Carbine stock (Olive Drab),
+	Magpul MOE Carbine stock (Stealth Gray),
+	Magpul PRS GEN3 stock (Black),
+	Magpul PRS GEN3 stock (Grey),
+	MFT BUS stock,
+	Strike Industries Viper Mod 1 stock,
+	Vltor EMOD stock,
+	SB Tactical SBA3 brace,
+	CMMG RipStock buttstock
+]
 Recoil=-5.000000
 Ergonomics=-3.000000
 Information_Eng=The Crosshair Hydraulic buffer tube by Mesa Tactical. Has a moving hydraulic element that mitigates recoil. Requires a LEO stock adapter for installation.
 basePrice=21300
 width=2
 height=1
-avg24hPrice=54361
+avg24hPrice=60695
 low24hPrice=30000
-lastOfferCount=7
+lastOfferCount=22
 Sell_Prapor=10650
 Sell_Fence=8520
 Sell_Skier=10437
 Sell_Peacekeeper=82
 Sell_Mechanic=11928
 Sell_Jaeger=12780
-Sell_Flea Market=70000
+Sell_Flea Market=65000
 weight=0.300000
-fleaMarketFee=4455
+fleaMarketFee=4002
 propertiestype=ItemPropertiesWeaponMod

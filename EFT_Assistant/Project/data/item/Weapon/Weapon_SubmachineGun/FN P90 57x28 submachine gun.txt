@@ -2,21 +2,41 @@ IDstr=5cc82d76e24e8d00134b4b83
 Name=FN P90 5.7x28 submachine gun
 ShortName=P90
 Itemtype=SMG
-Recoil=0.000000
+ChildParts=[
+	FN P90 5.7x28 50-round magazine
+]
+ChildParts=[
+	FN P90 stock,
+	FN PS90 stock
+]
+ChildParts=[
+	FN P90 EFFEN 90 5.7x28 upper receiver,
+	FN P90 5.7x28 upper receiver,
+	FN PS90 5.7x28 upper receiver
+]
+ChildParts=[
+	FN P90 5.7x28 10.5 inch barrel,
+	FN P90 5.7x28 16 inch barrel
+]
+ChildParts=[
+	FN P90 charging handle,
+	FN P90 K&M The Handler charging handle
+]
+Recoil=54.000000
 Ergonomics=60.000000
 Information_Eng=FN P90, also known as the FN Project 1990, is a compact personal defense weapon (PDW) designed and manufactured by FN Herstal in Belgium. Created in response to NATO requests for a replacement for 9x19mm Parabellum firearms, the P90 was designed as a compact but powerful firearm for vehicle crews, operators of crew-served weapons, support personnel, special forces, and counter-terrorist groups.
 basePrice=45200
 width=2
 height=1
-avg24hPrice=77179
-low24hPrice=55000
-lastOfferCount=33
+avg24hPrice=78033
+low24hPrice=63888
+lastOfferCount=41
 Sell_Prapor=22600
 Sell_Fence=18080
 Sell_Skier=22148
 Sell_Peacekeeper=174
 Sell_Mechanic=25312
-Sell_Flea Market=73999
+Sell_Flea Market=69999
 weight=0.700000
-fleaMarketFee=3894
+fleaMarketFee=3687
 propertiestype=ItemPropertiesWeapon

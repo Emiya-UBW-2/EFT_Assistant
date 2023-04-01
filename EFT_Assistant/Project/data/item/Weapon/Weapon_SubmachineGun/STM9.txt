@@ -8,9 +8,13 @@ ChildParts=[
 	AR-15 Colt A2 pistol grip,
 	AR-15 Damage Industries ECS pistol grip (FDE),
 	AR-15 DLG Tactical DLG-123 pistol grip,
+	AR-15 F1 Firearms Skeletonized Style 1 pistol grip,
+	AR-15 F1 Firearms Skeletonized Style 2 PC pistol grip,
+	AR-15 F1 Firearms Skeletonized Style 2 pistol grip,
 	AR-15 Hera Arms HG-15 pistol grip,
 	AR-15 HK Battle Grip pistol grip,
 	AR-15 HK Battle Grip Beavertail pistol grip,
+	AR-15 HK Battle Grip Beavertail pistol grip (RAL 8000),
 	AR-15 HK Ergo PSG-1 style pistol grip,
 	AR-15 HK V2 pistol grip,
 	Hogue OverMolded Rubber Grip (Black),
@@ -25,13 +29,17 @@ ChildParts=[
 	MCX pistol grip,
 	AR-15 Stark AR Rifle Grip (Black),
 	AR-15 Stark AR Rifle Grip (FDE),
+	AR-15 Tactical Dynamics Hexgrip pistol grip,
 	AR-15 Tactical Dynamics Skeletonized pistol grip
 ]
 ChildParts=[
 	Glock 9x19 "Big Stick" 33-round magazine,
 	Glock 9x19 17-round magazine,
 	Glock 9x19 Magpul PMAG GL9 21-round magazine,
-	Glock 9x19 SGM Tactical 50-round drum magazine
+	Glock 9x19 SGM Tactical 50-round drum magazine,
+	Glock 9x19 "Big Stick" 24-round magazine (Coyote),
+	Glock 9x19 "Big Stick" 31-round magazine (Coyote),
+	Glock 9x19 19-round magazine (Coyote)
 ]
 ChildParts=[
 	STM-9 9x19 upper receiver
@@ -76,15 +84,15 @@ Information_Eng=A PCC carbine with excellent performance already "out of the box
 basePrice=12500
 width=1
 height=1
-avg24hPrice=31522
+avg24hPrice=30933
 low24hPrice=25000
-lastOfferCount=14
+lastOfferCount=18
 Sell_Prapor=6250
 Sell_Fence=5000
 Sell_Skier=6125
 Sell_Peacekeeper=48
 Sell_Mechanic=7000
-Sell_Flea Market=26666
+Sell_Flea Market=27999
 weight=0.350000
-fleaMarketFee=1452
+fleaMarketFee=1543
 propertiestype=ItemPropertiesWeapon

@@ -2,6 +2,10 @@ IDstr=5d0a29ead7ad1a0026013f27
 Name=KMZ 1P59 dovetail mount
 ShortName=1P59 mount
 Itemtype=Mount
+ChildParts=[
+	KMZ 1P59 3-10x riflescope,
+	KMZ 1P69 3-10x riflescope
+]
 Conflict=[
 	BelOMO PSO-1 4x24 scope,
 	BelOMO PSO-1M2-1 4x24 scope,
@@ -21,16 +25,16 @@ Information_Eng=A universal base with an integrated power supply for installatio
 basePrice=1750
 width=1
 height=1
-avg24hPrice=13310
-low24hPrice=5669
-lastOfferCount=3
+avg24hPrice=13028
+low24hPrice=5000
+lastOfferCount=1
 Sell_Prapor=875
 Sell_Fence=700
 Sell_Skier=857
 Sell_Peacekeeper=7
 Sell_Mechanic=980
 Sell_Jaeger=1050
-Sell_Flea Market=11999
+Sell_Flea Market=5000
 weight=0.410000
-fleaMarketFee=1145
+fleaMarketFee=299
 propertiestype=ItemPropertiesWeaponMod

@@ -5,7 +5,7 @@ Itemtype=Stock
 ChildParts=[
 	SKS Leapers UTG SOCOM rail mount
 ]
-Recoil=-15.000000
+Recoil=-15.000001
 Ergonomics=6.000000
 Information_Eng=A standard-issue wooden stock for the SKS carbine, manufactured by TOZ.
 basePrice=3780

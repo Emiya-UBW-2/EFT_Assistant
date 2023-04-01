@@ -2,6 +2,35 @@ IDstr=5a9d6d13a2750c00164f6b03
 Name=Strike Industries KeyMod 6 inch rail
 ShortName=SI 6"
 Itemtype=Mount
+ChildParts=[
+	BCM GUNFIGHTER MOD 3 vertical foregrip,
+	ASh-12 vertical foregrip,
+	Fortis Shift tactical foregrip,
+	Hera Arms CQR tactical foregrip,
+	HK Sturmgriff foregrip,
+	KAC vertical foregrip,
+	Magpul AFG tactical foregrip (Black),
+	Magpul AFG tactical foregrip (FDE),
+	Magpul AFG tactical foregrip (Forest Green),
+	Magpul AFG tactical foregrip (Olive Drab),
+	Magpul RVG foregrip (Black),
+	Magpul RVG foregrip (FDE),
+	RTM Pillau tactical foregrip,
+	Stark SE-5 Express Forward foregrip,
+	Strike Industries Cobra Tactical foregrip,
+	TangoDown Stubby BGV-MK46K foregrip (Black),
+	TangoDown Stubby BGV-MK46K foregrip (FDE),
+	TangoDown Stubby BGV-MK46K foregrip (Stealth Gray),
+	Tactical Dynamics Skeletonized Foregrip,
+	Viking Tactics UVG tactical foregrip,
+	Zenit RK-1 tactical foregrip on B-25U mount,
+	Zenit RK-0 tactical foregrip,
+	Zenit RK-1 tactical foregrip,
+	Zenit RK-2 tactical foregrip,
+	Zenit RK-4 tactical foregrip,
+	Zenit RK-5 tactical foregrip,
+	Zenit RK-6 tactical foregrip
+]
 Conflict=[
 	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
 ]
@@ -11,16 +40,16 @@ Information_Eng=The Strike Industries 6 inch rail for KeyMod systems allows inst
 basePrice=1352
 width=1
 height=1
-avg24hPrice=8526
+avg24hPrice=8702
 low24hPrice=3333
-lastOfferCount=5
+lastOfferCount=3
 Sell_Prapor=676
 Sell_Fence=540
 Sell_Skier=662
 Sell_Peacekeeper=5
 Sell_Mechanic=757
 Sell_Jaeger=811
-Sell_Flea Market=4000
+Sell_Flea Market=5000
 weight=0.075000
-fleaMarketFee=243
+fleaMarketFee=337
 propertiestype=ItemPropertiesWeaponMod

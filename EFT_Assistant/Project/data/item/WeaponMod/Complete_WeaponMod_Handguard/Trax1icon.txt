@@ -44,10 +44,13 @@ ChildParts=[
 	SIG Sauer Vertical Foregrip KeyMod (Black),
 	Strike Industries KeyMod 6 inch rail,
 	Strike Industries TRAX bridge rail,
-	Vltor CASV KeyMod 6 inch rail,
+	Vltor CASV KeyMod 6 inch rail
+]
+ChildParts=[
 	Strike Industries KeyMod 4 inch rail,
 	Vltor CASV KeyMod 2 inch rail,
-	Vltor CASV KeyMod 4 inch rail
+	Vltor CASV KeyMod 4 inch rail,
+	CNC Guns KeyMod 2 inch rail
 ]
 Conflict=[
 	AK Zenit B-33 dust cover,
@@ -59,15 +62,15 @@ Information_Eng=The Strike Industries AK TRAX 1 rail system is a modular drop-in
 basePrice=7925
 width=1
 height=1
-avg24hPrice=12588
+avg24hPrice=13396
 low24hPrice=7999
-lastOfferCount=9
+lastOfferCount=14
 Sell_Prapor=3962
 Sell_Fence=3170
 Sell_Skier=3883
 Sell_Peacekeeper=30
 Sell_Mechanic=4438
-Sell_Flea Market=11999
+Sell_Flea Market=12222
 weight=0.260000
-fleaMarketFee=633
+fleaMarketFee=644
 propertiestype=ItemPropertiesWeaponMod

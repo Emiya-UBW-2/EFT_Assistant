@@ -2,6 +2,48 @@ IDstr=5b0bbe4e5acfc40dc528a72d
 Name=DS Arms SA-58 7.62x51 assault rifle
 ShortName=SA-58
 Itemtype=Assault rifle
+ChildParts=[
+	SA-58 FAB Defense AG-FAL pistol grip,
+	SA-58 pistol grip,
+	SA-58 SAW-style pistol grip (Black)
+]
+ChildParts=[
+	SA-58/FAL 7.62x51 10-round magazine,
+	SA-58/FAL 7.62x51 20-round magazine,
+	SA-58/FAL 7.62x51 30-round magazine,
+	SA-58/FAL 7.62x51 MMW polymer 20-round magazine,
+	SA-58/FAL 7.62x51 X Products X-FAL 50-round drum magazine
+]
+ChildParts=[
+	SA-58/FAL AIM Sports Universal KeyMod handguard,
+	SA-58/FAL AIM Sports Universal M-LOK handguard,
+	SA-58/FAL Belgian Style handguard,
+	FAL original handguard,
+	SA-58/FAL Vltor CASV-FAL handguard,
+	SA-58/FAL Vltor CASV-FAS handguard,
+	SA-58 quad rail full length handguard,
+	SA-58 quad rail handguard
+]
+ChildParts=[
+	SA-58 7.62x51 11 inch barrel,
+	SA-58 7.62x51 16 inch barrel,
+	SA-58 7.62x51 21 inch barrel
+]
+ChildParts=[
+	SA-58 Holland Type rear sight
+]
+ChildParts=[
+	FAL standard dust cover,
+	SA-58 Extreme Duty dust cover
+]
+ChildParts=[
+	SA-58/FAL Magpul PRS 2 polymer stock,
+	SA-58 humpback polymer stock,
+	SA-58 BRS stock,
+	SA-58 buffer tube adapter,
+	SA-58 folding stock,
+	SA-58 SPR stock
+]
 Conflict=[
 	Hera Arms CQR tactical foregrip,
 ]
@@ -11,15 +53,15 @@ Information_Eng=The SA-58 OSW (Operations Specialist Weapon), manufactured by Am
 basePrice=31093
 width=2
 height=1
-avg24hPrice=68534
+avg24hPrice=66237
 low24hPrice=39999
-lastOfferCount=15
+lastOfferCount=25
 Sell_Prapor=15546
 Sell_Fence=12437
 Sell_Skier=15235
 Sell_Peacekeeper=120
 Sell_Mechanic=17412
-Sell_Flea Market=44400
+Sell_Flea Market=49999
 weight=1.460000
-fleaMarketFee=2355
+fleaMarketFee=2631
 propertiestype=ItemPropertiesWeapon

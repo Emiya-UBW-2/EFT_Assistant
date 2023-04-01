@@ -2,22 +2,38 @@ IDstr=5a27b281c4a28200741e1e52
 Name=SR-1MP single rail mount
 ShortName=SR-1MP 1x
 Itemtype=Mount
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser,
+	NcSTAR Tactical blue laser LAM-module,
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Olight Baldr Pro tactical flashlight with laser,
+	Olight Baldr Pro tactical flashlight with laser (Tan)
+]
+ChildParts=[
+	SR-1MP sound suppressor mount
+]
 Recoil=0.000000
 Ergonomics=-1.000000
 Information_Eng= A mount for SR-1MP, included in the pistol kit, designed to form a single rail and silencer installation place.
 basePrice=2687
 width=1
 height=1
-avg24hPrice=15816
-low24hPrice=7000
-lastOfferCount=9
+avg24hPrice=15551
+low24hPrice=5000
+lastOfferCount=1
 Sell_Prapor=1343
 Sell_Fence=1074
 Sell_Skier=1316
 Sell_Peacekeeper=10
 Sell_Mechanic=1504
 Sell_Jaeger=1612
-Sell_Flea Market=10000
+Sell_Flea Market=9999
 weight=0.040000
 fleaMarketFee=676
 propertiestype=ItemPropertiesWeaponMod

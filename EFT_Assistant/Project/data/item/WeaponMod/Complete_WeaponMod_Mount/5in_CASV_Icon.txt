@@ -2,22 +2,51 @@ IDstr=5b7be46e5acfc400170e2dcf
 Name=Vltor CASV 5 inch rail
 ShortName=Vltor 5"
 Itemtype=Mount
+ChildParts=[
+	BCM GUNFIGHTER MOD 3 vertical foregrip,
+	ASh-12 vertical foregrip,
+	Fortis Shift tactical foregrip,
+	Hera Arms CQR tactical foregrip,
+	HK Sturmgriff foregrip,
+	KAC vertical foregrip,
+	Magpul AFG tactical foregrip (Black),
+	Magpul AFG tactical foregrip (FDE),
+	Magpul AFG tactical foregrip (Forest Green),
+	Magpul AFG tactical foregrip (Olive Drab),
+	Magpul RVG foregrip (Black),
+	Magpul RVG foregrip (FDE),
+	RTM Pillau tactical foregrip,
+	Stark SE-5 Express Forward foregrip,
+	Strike Industries Cobra Tactical foregrip,
+	TangoDown Stubby BGV-MK46K foregrip (Black),
+	TangoDown Stubby BGV-MK46K foregrip (FDE),
+	TangoDown Stubby BGV-MK46K foregrip (Stealth Gray),
+	Tactical Dynamics Skeletonized Foregrip,
+	Viking Tactics UVG tactical foregrip,
+	Zenit RK-1 tactical foregrip on B-25U mount,
+	Zenit RK-0 tactical foregrip,
+	Zenit RK-1 tactical foregrip,
+	Zenit RK-2 tactical foregrip,
+	Zenit RK-4 tactical foregrip,
+	Zenit RK-5 tactical foregrip,
+	Zenit RK-6 tactical foregrip
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=The Vltor CASV 5 inch rail allows installation of additional equipment on the handguards equipped with a standard CASV interface.
 basePrice=1531
 width=1
 height=1
-avg24hPrice=46757
-low24hPrice=27777
-lastOfferCount=4
+avg24hPrice=43784
+low24hPrice=20000
+lastOfferCount=12
 Sell_Prapor=765
 Sell_Fence=612
 Sell_Skier=750
 Sell_Peacekeeper=6
 Sell_Mechanic=857
 Sell_Jaeger=918
-Sell_Flea Market=29999
+Sell_Flea Market=20000
 weight=0.070000
-fleaMarketFee=5609
+fleaMarketFee=2867
 propertiestype=ItemPropertiesWeaponMod

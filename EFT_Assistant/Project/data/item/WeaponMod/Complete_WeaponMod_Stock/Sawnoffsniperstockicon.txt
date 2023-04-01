@@ -2,6 +2,9 @@ IDstr=5bfd36290db834001966869a
 Name=Mosin Rifle sawn-off sniper stock
 ShortName=Mosin sawn-off sniper
 Itemtype=Stock
+ChildParts=[
+	Mosin Rifle Tacfire pistol grip
+]
 Conflict=[
 	Mosin Rifle 7.62x54R ProMag Archangel OPFOR 10-round magazine,
 ]
@@ -11,16 +14,16 @@ Information_Eng=A sawn-off wooden sniper stock for the Mosin rifle. Compact and 
 basePrice=1750
 width=2
 height=1
-avg24hPrice=94999
-low24hPrice=69696
-lastOfferCount=2
+avg24hPrice=89629
+low24hPrice=49999
+lastOfferCount=1
 Sell_Prapor=875
 Sell_Fence=700
 Sell_Skier=857
 Sell_Peacekeeper=7
 Sell_Mechanic=980
 Sell_Jaeger=1050
-Sell_Flea Market=69696
+Sell_Flea Market=49999
 weight=0.850000
-fleaMarketFee=20930
+fleaMarketFee=12012
 propertiestype=ItemPropertiesWeaponMod

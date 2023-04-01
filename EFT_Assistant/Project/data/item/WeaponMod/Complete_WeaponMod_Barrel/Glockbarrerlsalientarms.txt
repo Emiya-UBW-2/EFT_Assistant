@@ -2,22 +2,36 @@ IDstr=5a6b5ed88dc32e000c52ec86
 Name=Glock 9x19 SAI threaded barrel
 ShortName=G SAI
 Itemtype=Barrel
+ChildParts=[
+	Glock 9x19 CARVER Custom 4 Port compensator,
+	Glock 9x19 CARVER Custom Decelerator 3 Port compensator,
+	Glock 9x19 Double Diamond flash hider,
+	Glock 9x19 Lone Wolf AlphaWolf Bullnose compensator,
+	Glock 9x19 Lone Wolf LWD-COMP9 compensator,
+	Glock 9x19 Lone Wolf AlphaWolf thread protector,
+	Glock 9x19 Double Diamond thread protector,
+	Glock SAI 9x19 thread protector,
+	AAC Illusion 9 9x19 sound suppressor,
+	Alpha Dog Alpha 9 9x19 sound suppressor,
+	SIG Sauer SRD9 9x19 sound suppressor,
+	SilencerCo Osprey 9 9x19 sound suppressor
+]
 Recoil=-8.000000
 Ergonomics=-3.000000
 Information_Eng=A threaded barrel for 9x19 pistols of Glock family. Manufactured by Salient Arms International.
 basePrice=11356
 width=1
 height=1
-avg24hPrice=18329
+avg24hPrice=16567
 low24hPrice=9900
-lastOfferCount=7
+lastOfferCount=12
 Sell_Prapor=5678
 Sell_Fence=4542
 Sell_Skier=5564
 Sell_Peacekeeper=44
 Sell_Mechanic=6359
 Sell_Jaeger=6813
-Sell_Flea Market=17850
+Sell_Flea Market=12111
 weight=0.180000
-fleaMarketFee=940
+fleaMarketFee=702
 propertiestype=ItemPropertiesBarrel

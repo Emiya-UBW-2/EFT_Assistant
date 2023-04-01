@@ -7,8 +7,11 @@ ChildParts=[
 	AN/PEQ-15 tactical device,
 	AN/PEQ-2 tactical device,
 	LA-5B/PEQ tactical device,
+	SureFire XC1 tactical flashlight,
 	Wilcox RAPTAR ES Tactical Rangefinder,
-	Zenit Perst-3 tactical device,
+	Zenit Perst-3 tactical device
+]
+ChildParts=[
 	Glock GTL 21 tactical flashlight with laser,
 	NcSTAR Tactical blue laser LAM-module,
 	Steiner DBAL-PL tactical device,
@@ -18,13 +21,33 @@ ChildParts=[
 	Zenit Klesch-2IKS IR illuminator with laser,
 	Zenit Klesch-2P flashlight with laser,
 	Zenit Klesch-2U tactical flashlight,
-	Kiba Arms 25mm accessory ring mount
-]
-ChildParts=[
-	AR-15 KAC RIS lower handguard
+	Kiba Arms 25mm accessory ring mount,
+	Daniel Defense 25mm accessory ring mount,
+	Olight Baldr Pro tactical flashlight with laser,
+	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Insight WMX200 tactical flashlight
 ]
 ChildParts=[
 	NcSTAR MPR45 Backup mount
+]
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser,
+	NcSTAR Tactical blue laser LAM-module,
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Kiba Arms 25mm accessory ring mount,
+	Daniel Defense 25mm accessory ring mount,
+	Olight Baldr Pro tactical flashlight with laser,
+	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Insight WMX200 tactical flashlight
+]
+ChildParts=[
+	AR-15 KAC RIS lower handguard
 ]
 Conflict=[
 	AR-15 5.56x45 18 inch barrel,
@@ -38,9 +61,9 @@ Information_Eng=Knight's Armament Company RIS is a standard service handguard fo
 basePrice=4745
 width=2
 height=1
-avg24hPrice=16846
-low24hPrice=9000
-lastOfferCount=5
+avg24hPrice=17505
+low24hPrice=14000
+lastOfferCount=4
 Sell_Prapor=2372
 Sell_Fence=1898
 Sell_Skier=2325

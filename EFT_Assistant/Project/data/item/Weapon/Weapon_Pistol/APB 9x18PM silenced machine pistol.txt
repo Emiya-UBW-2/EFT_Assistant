@@ -2,21 +2,40 @@ IDstr=5abccb7dd8ce87001773e277
 Name=APB 9x18PM silenced machine pistol
 ShortName=APB
 Itemtype=Handgun
-Recoil=0.000000
+ChildParts=[
+	APS 9x18PM 20-round magazine
+]
+ChildParts=[
+	APB detachable wire stock
+]
+ChildParts=[
+	APS bakelite side-pieces
+]
+ChildParts=[
+	APS front sight
+]
+ChildParts=[
+	APB rear sight,
+	APS rear sight
+]
+ChildParts=[
+	APB 9x18PM sound suppressor
+]
+Recoil=455.000000
 Ergonomics=80.000000
 Information_Eng=The APB pistol (Avtomatícheskiy Pistolét Besshúmnyy - "Silenced Automatic Pistol", GRAU Index - 6P13) is a silenced version of the Stechkin machine pistol, widely used by different Russian special forces.
 basePrice=11630
 width=2
 height=1
-avg24hPrice=18726
-low24hPrice=12000
-lastOfferCount=4
+avg24hPrice=18192
+low24hPrice=13500
+lastOfferCount=20
 Sell_Prapor=5815
 Sell_Fence=4652
 Sell_Skier=5698
 Sell_Peacekeeper=45
 Sell_Mechanic=6512
-Sell_Flea Market=16500
+Sell_Flea Market=15500
 weight=0.810000
-fleaMarketFee=876
+fleaMarketFee=832
 propertiestype=ItemPropertiesWeapon

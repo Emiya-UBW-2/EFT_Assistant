@@ -3,11 +3,10 @@ Name=M1911A1 .45 ACP pistol slide
 ShortName=1911 slide
 Itemtype=Receiver
 ChildParts=[
-	M1911A1 front sight
+	M1911A1 rear sight
 ]
 ChildParts=[
-	M1911A1 rear sight,
-	M45A1 Novak Lomount front sight
+	M1911A1 front sight
 ]
 ChildParts=[
 	M1911 Anarchy Outdoors .45 ACP muzzle brake

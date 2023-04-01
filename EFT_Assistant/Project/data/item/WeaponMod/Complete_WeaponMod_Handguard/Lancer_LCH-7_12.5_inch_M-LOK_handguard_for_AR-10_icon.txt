@@ -2,6 +2,23 @@ IDstr=5f6336bbda967c74a42e9932
 Name=AR-10 Lancer LCH7 12.5 inch M-LOK handguard
 ShortName=LCH7 12.5"
 Itemtype=Handguard
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK Offset Light Mount
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK Offset Light Mount
+]
+ChildParts=[
+	Magpul M-LOK AFG tactical foregrip (Black),
+	Magpul M-LOK AFG tactical foregrip (FDE),
+	Magpul M-LOK AFG tactical foregrip (Olive Drab),
+	Magpul M-LOK AFG tactical foregrip (Stealth Gray),
+	Magpul M-LOK 4.1 inch rail
+]
 Conflict=[
 	AR-10 JP Enterprises Gas System-6,
 	M4A1 front sight with gas block,
@@ -13,15 +30,15 @@ Information_Eng=The Lancer LCH7 12.5 inch M-LOK handguard for AR-10 systems equi
 basePrice=21200
 width=3
 height=1
-avg24hPrice=25972
+avg24hPrice=27004
 low24hPrice=22000
-lastOfferCount=2
+lastOfferCount=27
 Sell_Prapor=10600
 Sell_Fence=8480
 Sell_Skier=10388
 Sell_Peacekeeper=82
 Sell_Mechanic=11872
-Sell_Flea Market=24000
+Sell_Flea Market=23333
 weight=0.360000
-fleaMarketFee=1354
+fleaMarketFee=1332
 propertiestype=ItemPropertiesWeaponMod

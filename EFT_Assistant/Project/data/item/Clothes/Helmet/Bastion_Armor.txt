@@ -10,20 +10,18 @@ Conflict=[
 	Ops-Core SLAAP armor helmet plate (Tan),
 	Team Wendy EXFIL Ballistic face shield (Black)
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=An optional modular ballistic protection for the Diamond Age Bastion helmet.
 basePrice=110300
 width=2
 height=1
-avg24hPrice=213723
-low24hPrice=179700
-lastOfferCount=11
+avg24hPrice=212593
+low24hPrice=179999
+lastOfferCount=21
 Sell_Fence=44120
 Sell_Skier=54047
 Sell_Peacekeeper=424
 Sell_Ragman=68386
-Sell_Flea Market=269888
+Sell_Flea Market=187420
 weight=0.990000
-fleaMarketFee=15273
+fleaMarketFee=9873
 propertiestype=ItemPropertiesArmorAttachment

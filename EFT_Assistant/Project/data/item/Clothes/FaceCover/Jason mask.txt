@@ -10,20 +10,18 @@ Conflict=[
 	EMERCOM cap,
 	Police cap
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A scary mask from some famous horror movie.
 basePrice=15000
 width=2
 height=2
-avg24hPrice=15174
+avg24hPrice=13420
 low24hPrice=8000
-lastOfferCount=19
+lastOfferCount=16
 Sell_Fence=6000
 Sell_Skier=7350
 Sell_Peacekeeper=58
 Sell_Ragman=9300
-Sell_Flea Market=12900
+Sell_Flea Market=9777
 weight=0.100000
-fleaMarketFee=837
+fleaMarketFee=790
 propertiestype=

@@ -2,7 +2,50 @@ IDstr=6165ac306ef05c2ce828ef74
 Name=FN SCAR-H 7.62x51 assault rifle (FDE)
 ShortName=Mk 17
 Itemtype=Assault rifle
-Recoil=0.000000
+ChildParts=[
+	AR-15 Colt A2 pistol grip,
+	AR-15 Damage Industries ECS pistol grip (FDE),
+	AR-15 DLG Tactical DLG-123 pistol grip,
+	AR-15 F1 Firearms Skeletonized Style 1 pistol grip,
+	AR-15 F1 Firearms Skeletonized Style 2 PC pistol grip,
+	AR-15 F1 Firearms Skeletonized Style 2 pistol grip,
+	AR-15 Hera Arms HG-15 pistol grip,
+	AR-15 HK Battle Grip pistol grip,
+	AR-15 HK Battle Grip Beavertail pistol grip,
+	AR-15 HK Battle Grip Beavertail pistol grip (RAL 8000),
+	AR-15 HK Ergo PSG-1 style pistol grip,
+	AR-15 HK V2 pistol grip,
+	Hogue OverMolded Rubber Grip (Black),
+	Hogue OverMolded Rubber Grip (FDE),
+	Hogue OverMolded Rubber Grip (Ghillie Earth),
+	Hogue OverMolded Rubber Grip (Ghillie Green),
+	Hogue OverMolded Rubber Grip (Olive Drab),
+	AR-15 Magpul MIAD pistol grip (FDE),
+	AR-15 Magpul MOE pistol grip (Black),
+	AR-15 Magpul MOE pistol grip (FDE),
+	AR-15 Naroh Arms GRAL-S pistol grip,
+	MCX pistol grip,
+	AR-15 Stark AR Rifle Grip (Black),
+	AR-15 Stark AR Rifle Grip (FDE),
+	AR-15 Tactical Dynamics Hexgrip pistol grip,
+	AR-15 Tactical Dynamics Skeletonized pistol grip
+]
+ChildParts=[
+	FN SCAR-H 7.62x51 20-round magazine,
+	FN SCAR-H 7.62x51 20-round magazine (FDE)
+]
+ChildParts=[
+	FN SCAR-H 7.62x51 upper receiver,
+	FN SCAR-H 7.62x51 upper receiver (FDE)
+]
+ChildParts=[
+	FN SCAR folding polymer stock,
+	FN SCAR folding polymer stock (FDE)
+]
+ChildParts=[
+	FN SCAR charging handle
+]
+Recoil=242.000000
 Ergonomics=45.000000
 Information_Eng=The FN SCAR-H (Special Operations Forces Combat Assault Rifle - Heavy) assault rifle chambered in 7.62x51 NATO rounds, was adopted by the US SOCOM as the Mk 17. Features a side-folding polymer stock and a free-floating, cold hammer-forged Mil-Spec barrel with hardchromed bore. Fully-ambidextrous operating controls instantly adapt the SCAR to any user or any shooting position. The receiver-integrated optical rail plus three accessory rails enable mounting of a wide variety of scopes, electronic sights, tactical lights and lasers. Manufactured by Fabrique Nationale Herstal. Flat Dark Earth version.
 basePrice=25800

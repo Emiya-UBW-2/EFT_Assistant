@@ -2,17 +2,23 @@ IDstr=5bfd384c0db834001a6691d3
 Name=Mosin Rifle carbine stock
 ShortName=Mosin carbine
 Itemtype=Stock
+ChildParts=[
+	Mosin Rifle AIM Sports Recoil Pad
+]
+ChildParts=[
+	Mosin Rifle Tacfire pistol grip
+]
 Conflict=[
 	Mosin Rifle Kochetov mount
 ]
-Recoil=-27.000000
+Recoil=-27.000002
 Ergonomics=14.000000
 Information_Eng=A wooden stock for the Mosin carbine.
 basePrice=3320
 width=3
 height=1
-avg24hPrice=25000
-low24hPrice=25000
+avg24hPrice=0
+low24hPrice=0
 lastOfferCount=1
 Sell_Prapor=1660
 Sell_Fence=1328

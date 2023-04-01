@@ -2,6 +2,35 @@ IDstr=628b916469015a4e1711ed8d
 Name=AK-545 SAG Mk.3 handguard
 ShortName=AK-545 HG
 Itemtype=Handguard
+ChildParts=[
+	Magpul M-LOK AFG tactical foregrip (Black),
+	Magpul M-LOK AFG tactical foregrip (FDE),
+	Magpul M-LOK AFG tactical foregrip (Olive Drab),
+	Magpul M-LOK AFG tactical foregrip (Stealth Gray),
+	Magpul M-LOK 4.1 inch rail
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Cantilever Mount
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Cantilever Mount
+]
+ChildParts=[
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	AN/PEQ-2 tactical device,
+	LA-5B/PEQ tactical device,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Perst-3 tactical device
+]
+ChildParts=[
+	NcSTAR MPR45 Backup mount
+]
+ChildParts=[
+	AK-545 SAG railed dust cover
+]
 Recoil=-3.000000
 Ergonomics=16.000000
 Information_Eng=The Sureshot Armament Group Mk.3 handguard for AK-545, equipped with an M-LOK interface for the installation of additional devices and accessories and a picatinny rail on top for sights and tactical equipment mounting.

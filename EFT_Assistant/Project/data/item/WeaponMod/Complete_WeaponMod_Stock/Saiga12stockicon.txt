@@ -2,14 +2,17 @@ IDstr=57616ca52459773c69055192
 Name=SOK-12 AK-style stock
 ShortName=SOK12 AK
 Itemtype=Stock
+ChildParts=[
+	AK GP-25 accessory kit recoil pad
+]
 Recoil=-34.000000
 Ergonomics=6.000000
 Information_Eng=A folding polymer AK-styled stock for SOK-12, manufactured by Izhmash.
 basePrice=1661
 width=2
 height=1
-avg24hPrice=9111
-low24hPrice=9111
+avg24hPrice=0
+low24hPrice=0
 lastOfferCount=2
 Sell_Prapor=830
 Sell_Fence=664

@@ -11,16 +11,19 @@ ChildParts=[
 	SR-2M 9x21 hand stopper
 ]
 ChildParts=[
-	SR-2M pistol grip,
-	SR-2M pistol grip (Black)
+	SR-2M folding stock,
+	SR-2MP folding stock
+]
+ChildParts=[
+	SR-2M dust cover
 ]
 ChildParts=[
 	SR-2M polymer handguard,
 	SR-2M polymer handguard (Black)
 ]
 ChildParts=[
-	SR-2M folding stock,
-	SR-2MP folding stock
+	SR-2M pistol grip,
+	SR-2M pistol grip (Black)
 ]
 Recoil=63.000000
 Ergonomics=59.000000
@@ -28,15 +31,15 @@ Information_Eng=SR-2M "Veresk" is a compact submachine gun designed for a powerf
 basePrice=31000
 width=2
 height=1
-avg24hPrice=47755
+avg24hPrice=50244
 low24hPrice=37500
-lastOfferCount=18
+lastOfferCount=22
 Sell_Prapor=15500
 Sell_Fence=12400
 Sell_Skier=15190
 Sell_Peacekeeper=119
 Sell_Mechanic=17360
-Sell_Flea Market=45000
+Sell_Flea Market=52750
 weight=0.938000
-fleaMarketFee=2382
+fleaMarketFee=2779
 propertiestype=ItemPropertiesWeapon

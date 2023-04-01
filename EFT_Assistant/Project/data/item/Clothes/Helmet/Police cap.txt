@@ -20,20 +20,18 @@ Conflict=[
 	Tagilla's welding mask "Gorilla",
 	Tagilla's welding mask "UBEY",
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A Tarkov police cap, ususally worn by patrol units.
 basePrice=1505
 width=1
 height=1
-avg24hPrice=9898
+avg24hPrice=9794
 low24hPrice=1000
 lastOfferCount=4
 Sell_Fence=602
 Sell_Skier=737
 Sell_Peacekeeper=6
 Sell_Ragman=933
-Sell_Flea Market=6969
+Sell_Flea Market=42000
 weight=0.100000
-fleaMarketFee=529
+fleaMarketFee=9933
 propertiestype=

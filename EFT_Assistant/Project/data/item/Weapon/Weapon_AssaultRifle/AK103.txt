@@ -13,22 +13,22 @@ ChildParts=[
 	AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo (White)
 ]
 ChildParts=[
-	AK-105 5.45x39 muzzle brake-compensator (6P44 0-20),
-	AK-74M 5.45x39 muzzle brake-compensator (6P20 0-20),
-	AK-74 5.45x39 muzzle brake-compensator (6P20 0-20),
-	AK-74 thread type JMac Customs RRD-4C multi-caliber muzzle brake,
-	AK-74 PWS CQB 74 5.45x39 muzzle brake,
-	AK-74 SRVV MBR Jet 5.45x39 muzzle brake,
-	AK Hexagon Reactor 5.45x39 muzzle brake,
-	AK Zenit DTK-1 7.62x39/5.45x39 muzzle brake-compensator,
-	AKS-74U 5.45x39 muzzle brake (6P26 0-20),
-	SilencerCo Hybrid 46 Direct Thread Mount adapter,
-	AK-74 Hexagon 5.45x39 sound suppressor,
-	AK-74 TGP-A 5.45x39 sound suppressor,
-	AKS-74U PBS-4 5.45x39 sound suppressor
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher
 ]
 ChildParts=[
-	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock,
+	AK-103 7.62x39 muzzle brake-compensator,
+	AK-104 7.62x39 muzzle brake-compensator (6P46 0-20),
+	AK-74 thread type JMac Customs RRD-4C multi-caliber muzzle brake,
+	AK Spikes Tactical Dynacomp 7.62x39 muzzle brake-compensator,
+	AK SRVV 7.62x39 muzzle brake-compensator,
+	AK Zenit DTK-1 7.62x39/5.45x39 muzzle brake-compensator,
+	SilencerCo Hybrid 46 Direct Thread Mount adapter,
+	AK Hexagon DTKP MK.2 7.62x39 sound suppressor,
+	AKM PBS-1 7.62x39 sound suppressor,
+	AKM Zenit DTK-4M 7.62x39 sound suppressor,
+	Rotor 43 7.62x39 muzzle brake-compensator
+]
+ChildParts=[
 	AK Aeroknox Scorpius pistol grip,
 	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip,
 	AK-12 pistol grip,
@@ -47,27 +47,26 @@ ChildParts=[
 	AK TAPCO SAW-Style pistol grip (FDE),
 	AK US Palm pistol grip,
 	AK Zenit RK-3 pistol grip,
-	PP-19-01 "Vityaz" pistol grip
+	PP-19-01 "Vityaz" pistol grip,
+	AK FAB Defense AGR-47 pistol grip,
+	AK TangoDown Battle Grip pistol grip,
+	AK TangoDown Battle Grip pistol grip (FDE)
 ]
 ChildParts=[
+	AK-74 dust cover (6P20 0-1),
 	AK-74M dust cover (6P34 0-1),
-	RD-704 dust cover,
 	AK AKademia Bastion dust cover,
 	AK FAB Defense PDC dust cover,
-	AKM dust cover (6P1 0-1),
-	Molot AKM-type dust cover,
 	AK TWS Dog Leg Rail dust cover,
-	AK Zenit B-33 dust cover
+	AK Zenit B-33 dust cover,
+	RD-704 dust cover
 ]
 ChildParts=[
 	AK-105 rear sight (6P44 Sb.1-30),
 	AK-74 rear sight (6P20 Sb.2),
 	AK-74M rear sight (6P20 Sb.2),
-	AK RD Enhanced V2 Rear Sight,
-	AK Taktika Tula TT01 rear sight rail
-]
-ChildParts=[
-	AKMP system front sight device
+	AK Taktika Tula TT01 rear sight rail,
+	AK RD Enhanced V2 Rear Sight
 ]
 ChildParts=[
 	AK-74M polymer stock (6P34 Sb.15),
@@ -77,7 +76,6 @@ ChildParts=[
 	AK 100-series metal skeletonized stock
 ]
 ChildParts=[
-	AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine,
 	AK 7.62x39 ribbed metal 10-round magazine,
 	AK 7.62x39 6L10 30-round magazine,
 	AK-103 7.62x39 30-round magazine,
@@ -92,10 +90,10 @@ ChildParts=[
 	AK 7.62x39 ProMag AK-A-16 73-round drum magazine,
 	AK 7.62x39 US Palm "AK30" 30-round magazine (Black),
 	AK 7.62x39 US Palm "AK30" 30-round magazine (FDE),
-	AK 7.62x39 X Products X-47 50-round drum magazine
+	AK 7.62x39 X Products X-47 50-round drum magazine,
+	AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine
 ]
 ChildParts=[
-	SAG Bit low profile dovetail sidemount,
 	Axion Kobra EKP-8-02 reflex sight (Dovetail),
 	BelOMO PK-AA dovetail reflex sight,
 	OKP-7 reflex sight (Dovetail),
@@ -110,14 +108,12 @@ ChildParts=[
 	NPZ 1P78-1 dovetail mount,
 	VOMZ Pilad 043-02 dovetail mount,
 	Zenit B-13 "Klassika" dovetail rail platform,
-	Zenit B-13V "Klassika" dovetail rail platform
+	Zenit B-13V "Klassika" dovetail rail platform,
+	SAG Bit low profile dovetail sidemount
 ]
 ChildParts=[
 	AK CSS knurled charging handle,
 	AK Zenit RP-1 charging handle
-]
-ChildParts=[
-	GP-25 "Kostyor" 40mm underbarrel grenade launcher
 ]
 Conflict=[
 	Hera Arms CQR tactical foregrip,
@@ -128,15 +124,15 @@ Information_Eng=The AK-103 7.62x39mm assault rifle is a further modernized versi
 basePrice=34311
 width=4
 height=1
-avg24hPrice=32636
+avg24hPrice=32057
 low24hPrice=24444
-lastOfferCount=14
+lastOfferCount=28
 Sell_Prapor=17155
 Sell_Fence=13724
 Sell_Skier=16812
 Sell_Peacekeeper=132
 Sell_Mechanic=19214
-Sell_Flea Market=31000
+Sell_Flea Market=25555
 weight=2.392000
-fleaMarketFee=1954
+fleaMarketFee=1839
 propertiestype=ItemPropertiesWeapon

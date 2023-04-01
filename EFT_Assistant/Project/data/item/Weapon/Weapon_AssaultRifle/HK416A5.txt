@@ -31,15 +31,6 @@ ChildParts=[
 	AR-15 Tactical Dynamics Skeletonized pistol grip
 ]
 ChildParts=[
-	ERGO F93 PRO stock,
-	HK Enhanced Tube buffer tube,
-	Magpul UBR GEN2 stock (Black),
-	Magpul UBR GEN2 stock (FDE),
-	TROY M7A1 PDW stock (Black),
-	TROY M7A1 PDW stock (FDE),
-	Strike Industries Viper PDW stock
-]
-ChildParts=[
 	5.56x45 Colt AR-15 STANAG 30-round magazine,
 	FN SCAR-L 5.56x45 30-round magazine,
 	FN SCAR-L 5.56x45 30-round magazine (FDE),
@@ -60,6 +51,18 @@ ChildParts=[
 	5.56x45 TROY BattleMag STANAG 30-round magazine
 ]
 ChildParts=[
+	HK 416A5 5.56x45 upper receiver
+]
+ChildParts=[
+	ERGO F93 PRO stock,
+	HK Enhanced Tube buffer tube,
+	Magpul UBR GEN2 stock (Black),
+	Magpul UBR GEN2 stock (FDE),
+	TROY M7A1 PDW stock (Black),
+	TROY M7A1 PDW stock (FDE),
+	Strike Industries Viper PDW stock
+]
+ChildParts=[
 	AR-15 ADAR 2-15 charging handle,
 	AR-15 Badger Ordnance Tactical Charging Handle Latch,
 	AR-15 Colt charging handle,
@@ -70,24 +73,21 @@ ChildParts=[
 	AR-15 Radian Weapons Raptor charging handle (Grey),
 	AR-15 Rainier Arms Avalanche MOD2 charging handle
 ]
-ChildParts=[
-	HK 416A5 5.56x45 upper receiver
-]
 Recoil=147.000000
 Ergonomics=51.000000
 Information_Eng=The HK416 A5 is a further development of the HK416 assault rifle in 5.56x45mm NATO caliber. The most striking changes compared to its previous versions as well as to market available AR platforms include an improved and tool-less gas regulator for suppressor use, a redesigned, user-friendly lower receiver, which allows complete ambidextrous operation of the weapon and ensures optimised magazine compatibility. Additionally, numerous technical improvements to maximize the safety of the operator, weapon reliability, ammunition compatibility, and durability under real operating conditions.
 basePrice=21800
 width=1
 height=1
-avg24hPrice=59106
-low24hPrice=49998
-lastOfferCount=19
+avg24hPrice=60134
+low24hPrice=39000
+lastOfferCount=26
 Sell_Prapor=10900
 Sell_Fence=8720
 Sell_Skier=10682
 Sell_Peacekeeper=84
 Sell_Mechanic=12208
-Sell_Flea Market=58000
+Sell_Flea Market=39000
 weight=0.520000
-fleaMarketFee=3379
+fleaMarketFee=2062
 propertiestype=ItemPropertiesWeapon

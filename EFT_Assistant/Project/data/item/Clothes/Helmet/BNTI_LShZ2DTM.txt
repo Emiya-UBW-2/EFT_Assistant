@@ -7,20 +7,18 @@ Conflict=[
 	Tagilla's welding mask "Gorilla",
 	Tagilla's welding mask "UBEY",
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=The LShZ-2DTM helmet is intended for periodic wearing with the purpose of protection from bullets of small arms of a user’s head, as well as for protection from bullets of small arms of a user’s face and neck when equipped with a visor and aventail.
 basePrice=98600
 width=2
 height=2
-avg24hPrice=78747
-low24hPrice=63999
-lastOfferCount=62
+avg24hPrice=78749
+low24hPrice=65420
+lastOfferCount=33
 Sell_Fence=39440
 Sell_Skier=48314
 Sell_Peacekeeper=379
 Sell_Ragman=61132
-Sell_Flea Market=79000
+Sell_Flea Market=68000
 weight=3.400000
-fleaMarketFee=5378
+fleaMarketFee=5220
 propertiestype=ItemPropertiesHelmet

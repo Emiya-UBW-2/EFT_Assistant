@@ -2,6 +2,20 @@ IDstr=63075cc5962d0247b029dc2a
 Name=Glock 19X 9x19 pistol slide
 ShortName=G19X
 Itemtype=Receiver
+ChildParts=[
+	Glock Dead Ringer Snake Eye rear sight,
+	Glock rear sight,
+	Glock TruGlo TFX rear sight,
+	Glock ZEV Tech rear sight,
+	Glock 19X rear sight
+]
+ChildParts=[
+	Glock Dead Ringer Snake Eye front sight,
+	Glock front sight,
+	Glock TruGlo TFX front sight,
+	Glock ZEV Tech front sight,
+	Glock 19X front sight
+]
 Recoil=0.000000
 Ergonomics=4.000000
 Information_Eng=A standard-issue slide for the Glock 19X 9x19 pistol. Slide surfaces are treated with an advanced nPVD coating that protects the steel from corrosion, chemical attack and harsh environmental conditions.

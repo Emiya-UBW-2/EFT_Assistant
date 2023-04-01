@@ -9,20 +9,18 @@ Conflict=[
 	Tagilla's welding mask "Gorilla",
 	Tagilla's welding mask "UBEY",
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=Firefighter helmet is an individual means of fire protection and is designed to ensure the protection of the firefighter's head from exposure to elevated temperatures, mechanical shocks, corrosive environments and other dangerous and harmful factors arising from extinguishing fires and conducting emergency rescue operations.
 basePrice=12300
 width=2
 height=2
-avg24hPrice=14190
-low24hPrice=7000
-lastOfferCount=8
+avg24hPrice=13287
+low24hPrice=7999
+lastOfferCount=10
 Sell_Fence=4920
 Sell_Skier=6027
 Sell_Peacekeeper=47
 Sell_Ragman=7626
-Sell_Flea Market=13000
+Sell_Flea Market=10400
 weight=1.500000
-fleaMarketFee=757
+fleaMarketFee=683
 propertiestype=ItemPropertiesHelmet

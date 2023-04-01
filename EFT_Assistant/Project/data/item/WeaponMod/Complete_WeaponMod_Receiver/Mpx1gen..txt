@@ -3,40 +3,6 @@ Name=MPX GEN1 9x19 upper receiver
 ShortName=MPX GEN1
 Itemtype=Receiver
 ChildParts=[
-	MPX 9x19 4.5 inch barrel,
-	MPX 9x19 6.5 inch barrel,
-	MPX-SD 9x19 165mm barrel,
-	MPX 9x19 203mm barrel,
-	MPX 9x19 10.5 inch barrel,
-	MPX 9x19 14 inch barrel
-]
-ChildParts=[
-	HK MP7 flip-up rear sight,
-	KAC Folding Micro rear sight,
-	KAC Folding rear sight,
-	KRISS Defiance low profile flip-up rear sight,
-	Magpul MBUS Gen2 flip-up rear sight,
-	Magpul MBUS Gen2 flip-up rear sight (FDE),
-	MCX flip-up rear sight,
-	MPX flip-up rear sight
-]
-ChildParts=[
-	MPX Lancer OEM 14 inch M-LOK handguard,
-	MPX Midwest Industries 10.5 inch M-LOK handguard,
-	MPX Midwest Industries 14 inch M-LOK handguard,
-	MPX Midwest Industries 4.5 inch M-LOK handguard,
-	MPX Midwest Industries 6.5 inch M-LOK handguard,
-	MPX GEN1 handguard
-]
-ChildParts=[
-	Holosun LS321 Tactical device,
-	AN/PEQ-15 tactical device,
-	LA-5B/PEQ tactical device,
-	SureFire XC1 tactical flashlight,
-	Wilcox RAPTAR ES Tactical Rangefinder,
-	Zenit Perst-3 tactical device
-]
-ChildParts=[
 	ELCAN SpecterDR 1x/4x scope,
 	ELCAN SpecterDR 1x/4x scope (FDE),
 	Leupold Mark 4 HAMR 4x24 DeltaPoint hybrid assault scope,
@@ -94,6 +60,40 @@ ChildParts=[
 	Leapers UTG 25mm ring scope mount,
 	SwampFox Trihawk Prism Scope 3x30,
 	AI AX-50 34mm scope mount
+]
+ChildParts=[
+	MPX 9x19 4.5 inch barrel,
+	MPX 9x19 6.5 inch barrel,
+	MPX-SD 9x19 165mm barrel,
+	MPX 9x19 203mm barrel,
+	MPX 9x19 10.5 inch barrel,
+	MPX 9x19 14 inch barrel
+]
+ChildParts=[
+	MPX Lancer OEM 14 inch M-LOK handguard,
+	MPX Midwest Industries 10.5 inch M-LOK handguard,
+	MPX Midwest Industries 14 inch M-LOK handguard,
+	MPX Midwest Industries 4.5 inch M-LOK handguard,
+	MPX Midwest Industries 6.5 inch M-LOK handguard,
+	MPX GEN1 handguard
+]
+ChildParts=[
+	HK MP7 flip-up rear sight,
+	KAC Folding Micro rear sight,
+	KAC Folding rear sight,
+	KRISS Defiance low profile flip-up rear sight,
+	Magpul MBUS Gen2 flip-up rear sight,
+	Magpul MBUS Gen2 flip-up rear sight (FDE),
+	MCX flip-up rear sight,
+	MPX flip-up rear sight
+]
+ChildParts=[
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	LA-5B/PEQ tactical device,
+	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Perst-3 tactical device
 ]
 Recoil=0.000000
 Ergonomics=5.000000

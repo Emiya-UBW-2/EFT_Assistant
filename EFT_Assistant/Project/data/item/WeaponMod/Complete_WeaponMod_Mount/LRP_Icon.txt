@@ -2,6 +2,11 @@ IDstr=5c7d55f52e221644f31bff6a
 Name=Aimpoint LRP mount for CompM4 sights
 ShortName=LRP
 Itemtype=Mount
+ChildParts=[
+	Aimpoint PRO reflex sight,
+	Aimpoint CompM4 reflex sight,
+	Aimpoint Standard Spacer
+]
 Conflict=[
 	AR-15 rear sight carry handle,
 	Burris FullField TAC30 1-4x24 30mm riflescope,
@@ -22,16 +27,16 @@ Information_Eng=Aimpoint LRP is a quick detach base mount for CompM4 sights.
 basePrice=2400
 width=1
 height=1
-avg24hPrice=13614
-low24hPrice=4999
-lastOfferCount=9
+avg24hPrice=12263
+low24hPrice=2222
+lastOfferCount=3
 Sell_Prapor=1200
 Sell_Fence=960
 Sell_Skier=1176
 Sell_Peacekeeper=9
 Sell_Mechanic=1344
 Sell_Jaeger=1440
-Sell_Flea Market=9888
+Sell_Flea Market=12000
 weight=0.075000
-fleaMarketFee=704
+fleaMarketFee=950
 propertiestype=ItemPropertiesWeaponMod

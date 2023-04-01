@@ -2,22 +2,27 @@ IDstr=6076c1b9f2cb2e02a42acedc
 Name=MP-155 12ga 510mm barrel
 ShortName=MP155 510mm
 Itemtype=Barrel
+ChildParts=[
+	ME Cylinder 12ga muzzle adapter,
+	Remington Tactical Choke 12ga,
+	SilencerCo Salvo 12 choke adapter
+]
 Recoil=-3.000000
 Ergonomics=-5.000000
 Information_Eng=A standard serially produced 510mm barrel for MP-155 12 gauge shotguns.
 basePrice=7006
 width=3
 height=1
-avg24hPrice=18006
+avg24hPrice=19426
 low24hPrice=8000
-lastOfferCount=5
+lastOfferCount=1
 Sell_Prapor=3503
 Sell_Fence=2802
 Sell_Skier=3432
 Sell_Peacekeeper=27
 Sell_Mechanic=3923
 Sell_Jaeger=4203
-Sell_Flea Market=10200
+Sell_Flea Market=9000
 weight=0.800000
-fleaMarketFee=540
+fleaMarketFee=487
 propertiestype=ItemPropertiesBarrel

@@ -5,7 +5,7 @@ Itemtype=Stock
 ChildParts=[
 	AK GP-25 accessory kit recoil pad
 ]
-Recoil=-30.000000
+Recoil=-30.000002
 Ergonomics=10.000000
 Information_Eng=A metal triangle stock for the 100-series AKs, manufactured by Izhmash.
 basePrice=1750

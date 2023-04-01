@@ -2,6 +2,49 @@ IDstr=6065881d1246154cad35d637
 Name=AR-10 CMMG MK3 RML15 15 inch M-LOK handguard
 ShortName=MK3 RML15
 Itemtype=Handguard
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK Offset Light Mount
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK Offset Light Mount
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK Offset Light Mount
+]
+ChildParts=[
+	AN/PEQ-15 tactical device,
+	AN/PEQ-2 tactical device,
+	LA-5B/PEQ tactical device,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Perst-3 tactical device
+]
+ChildParts=[
+	Magpul M-LOK AFG tactical foregrip (Black),
+	Magpul M-LOK AFG tactical foregrip (FDE),
+	Magpul M-LOK AFG tactical foregrip (Olive Drab),
+	Magpul M-LOK AFG tactical foregrip (Stealth Gray),
+	Magpul M-LOK 4.1 inch rail
+]
+ChildParts=[
+	HK MP7 flip-up front sight,
+	KAC Folding Micro front sight,
+	KAC Folding front sight,
+	KRISS Defiance low profile flip-up front sight,
+	Magpul MBUS Gen2 flip-up front sight,
+	Magpul MBUS Gen2 flip-up front sight (FDE),
+	MCX flip-up front sight,
+	MPX flip-up front sight,
+	AR-15 Leapers UTG Low Profile A2 front sight
+]
+ChildParts=[
+	NcSTAR MPR45 Backup mount
+]
 Conflict=[
 	AR-10 JP Enterprises Gas System-6,
 	M4A1 front sight with gas block,
@@ -17,15 +60,15 @@ Information_Eng=A 15 inch handguard for AR-10 weapon systems, equipped with an M
 basePrice=15000
 width=3
 height=1
-avg24hPrice=18825
-low24hPrice=12999
-lastOfferCount=19
+avg24hPrice=18863
+low24hPrice=12333
+lastOfferCount=6
 Sell_Prapor=7500
 Sell_Fence=6000
 Sell_Skier=7350
 Sell_Peacekeeper=58
 Sell_Mechanic=8400
-Sell_Flea Market=15555
+Sell_Flea Market=12333
 weight=0.220000
-fleaMarketFee=914
+fleaMarketFee=825
 propertiestype=ItemPropertiesWeaponMod

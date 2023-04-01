@@ -5,20 +5,18 @@ Itemtype=Face Cover
 Conflict=[
 	Tac-Kek Heavy Trooper mask for Ops-Core-type helmets,
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A special mask from the Twitch Rivals 2020 event.
 basePrice=24000
 width=1
 height=1
-avg24hPrice=212428
+avg24hPrice=208691
 low24hPrice=150000
-lastOfferCount=9
+lastOfferCount=7
 Sell_Fence=9600
 Sell_Skier=11760
 Sell_Peacekeeper=92
 Sell_Ragman=14880
-Sell_Flea Market=177999
+Sell_Flea Market=155555
 weight=0.200000
-fleaMarketFee=17821
+fleaMarketFee=14346
 propertiestype=

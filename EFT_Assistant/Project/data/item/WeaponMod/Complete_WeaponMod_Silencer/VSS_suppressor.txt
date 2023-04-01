@@ -7,9 +7,9 @@ ChildParts=[
 	VSS rear sight
 ]
 ChildParts=[
+	VSS/VAL TOZ 6P29M mount,
 	VSS/VAL Zenit B-3 ring mount,
-	VSS/VAL Zenit B-3 mount combo,
-	VSS/VAL TOZ 6P29M mount
+	VSS/VAL Zenit B-3 mount combo
 ]
 Recoil=-20.000000
 Ergonomics=-5.000000

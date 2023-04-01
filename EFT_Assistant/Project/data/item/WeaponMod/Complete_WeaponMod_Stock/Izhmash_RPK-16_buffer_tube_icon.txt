@@ -20,7 +20,14 @@ ChildParts=[
 	Magpul MOE Carbine stock (Stealth Gray),
 	MFT BUS stock,
 	Strike Industries Viper Mod 1 stock,
-	Vltor EMOD stock
+	Vltor EMOD stock,
+	KRISS Defiance DS150 stock (Black),
+	KRISS Defiance DS150 stock (FDE),
+	AR-15 B5 Systems Precision stock,
+	CMMG RipStock buttstock,
+	SB Tactical SBA3 brace,
+	Magpul PRS GEN3 stock (Black),
+	Magpul PRS GEN3 stock (Grey)
 ]
 Recoil=-4.000000
 Ergonomics=0.000000
@@ -28,16 +35,16 @@ Information_Eng=A standard buffer tube for RPK-16 LMG, manufactured by Izhmash.
 basePrice=2900
 width=2
 height=1
-avg24hPrice=22992
-low24hPrice=16420
-lastOfferCount=3
+avg24hPrice=23717
+low24hPrice=14999
+lastOfferCount=6
 Sell_Prapor=1450
 Sell_Fence=1160
 Sell_Skier=1421
 Sell_Peacekeeper=11
 Sell_Mechanic=1624
 Sell_Jaeger=1740
-Sell_Flea Market=23333
+Sell_Flea Market=14999
 weight=0.142000
-fleaMarketFee=2457
+fleaMarketFee=1211
 propertiestype=ItemPropertiesWeaponMod

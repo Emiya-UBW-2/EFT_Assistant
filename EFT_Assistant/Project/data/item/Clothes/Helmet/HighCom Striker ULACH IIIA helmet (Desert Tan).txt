@@ -7,20 +7,18 @@ Conflict=[
 	Tagilla's welding mask "Gorilla",
 	Tagilla's welding mask "UBEY",
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A combat helmet with the ears and back of the head protection, manufactured by HighCom. Does not feature any additional mounts. Desert Tan version.
 basePrice=72546
 width=2
 height=2
-avg24hPrice=76170
+avg24hPrice=75134
 low24hPrice=50000
-lastOfferCount=39
+lastOfferCount=24
 Sell_Fence=29018
 Sell_Skier=35547
 Sell_Peacekeeper=279
 Sell_Ragman=44978
-Sell_Flea Market=69888
+Sell_Flea Market=64400
 weight=1.900000
-fleaMarketFee=4262
+fleaMarketFee=4101
 propertiestype=ItemPropertiesHelmet

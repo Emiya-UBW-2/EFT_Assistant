@@ -10,15 +10,13 @@ Conflict=[
 	Tagilla's welding mask "Gorilla",
 	Tagilla's welding mask "UBEY",
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=Wow, man! This is where the style is. As well as warmth and comfort.
 basePrice=5556
 width=1
 height=1
-avg24hPrice=7511
-low24hPrice=3400
-lastOfferCount=9
+avg24hPrice=7237
+low24hPrice=3333
+lastOfferCount=19
 Sell_Fence=2222
 Sell_Skier=2722
 Sell_Peacekeeper=21

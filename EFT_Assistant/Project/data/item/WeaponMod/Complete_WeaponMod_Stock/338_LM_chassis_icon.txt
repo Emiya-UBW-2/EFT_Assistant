@@ -2,6 +2,15 @@ IDstr=6281204f308cb521f87a8f9b
 Name=AI AXMC .338 LM chassis
 ShortName=AXMC .338LM
 Itemtype=Receiver
+ChildParts=[
+	AI AXMC AX KeySlot 16 inch handguard
+]
+ChildParts=[
+	AI AXMC padded handguard grip
+]
+ChildParts=[
+	AI AXMC upper receiver
+]
 Recoil=-1.000000
 Ergonomics=4.000000
 Information_Eng=The factory fitted .338 Lapua Magnum chassis for the AXMC sniper rifle, manufactured by Accuracy International.

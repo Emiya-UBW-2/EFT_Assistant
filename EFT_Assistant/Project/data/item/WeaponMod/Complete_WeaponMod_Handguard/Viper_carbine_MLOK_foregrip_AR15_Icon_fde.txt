@@ -8,7 +8,12 @@ ChildParts=[
 	Magpul M-LOK Offset Light Mount
 ]
 ChildParts=[
-	AR-15 Strike Industries Viper carbine length M-LOK lower handguard
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Cantilever Mount
+]
+ChildParts=[
+	AR-15 Strike Industries Viper carbine length M-LOK lower handguard,
+	AR-15 Strike Industries Viper carbine length M-LOK lower handguard (FDE)
 ]
 Conflict=[
 	AR-15 5.56x45 Molot Arms 406mm barrel
@@ -19,7 +24,7 @@ Information_Eng=The Strike Industries Viper handguard for AR-15 equipped with an
 basePrice=4275
 width=2
 height=1
-avg24hPrice=13266
+avg24hPrice=12537
 low24hPrice=4000
 lastOfferCount=3
 Sell_Prapor=2137
@@ -27,7 +32,7 @@ Sell_Fence=1710
 Sell_Skier=2094
 Sell_Peacekeeper=16
 Sell_Mechanic=2394
-Sell_Flea Market=8999
+Sell_Flea Market=8000
 weight=0.077000
-fleaMarketFee=488
+fleaMarketFee=425
 propertiestype=ItemPropertiesWeaponMod

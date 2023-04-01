@@ -2,13 +2,32 @@ IDstr=5e870397991fd70db46995c8
 Name=Mossberg 590A1 12ga pump-action shotgun
 ShortName=590A1
 Itemtype=Shotgun
-Recoil=0.000000
+ChildParts=[
+	Mossberg 590A1 12ga 20 inch barrel
+]
+ChildParts=[
+	Mossberg 590A1 Magpul MOE forestock,
+	Mossberg 590A1 SpeedFeed short handguard
+]
+ChildParts=[
+	Mossberg 590A1 12ga 8-shell magazine cap
+]
+ChildParts=[
+	Mossberg 590A1 Magpul SGA stock,
+	Mossberg 590A1 Mesa Tactical LEO gen.1 stock adapter,
+	Mossberg 590A1 polymer stock
+]
+ChildParts=[
+	Mossberg 590 Ghost Ring rear sight,
+	Mossberg 590A1 Tactical rail
+]
+Recoil=550.000000
 Ergonomics=48.000000
 Information_Eng=The Mossberg 500 Series is one of the most famous and widespread pump-action shotguns in the world. Protects your front lawn since 1961.
 basePrice=14402
 width=4
 height=1
-avg24hPrice=26313
+avg24hPrice=27347
 low24hPrice=18000
 lastOfferCount=8
 Sell_Prapor=7201
@@ -17,7 +36,7 @@ Sell_Skier=7056
 Sell_Peacekeeper=55
 Sell_Mechanic=8065
 Sell_Jaeger=8641
-Sell_Flea Market=21111
+Sell_Flea Market=27900
 weight=1.100000
-fleaMarketFee=1116
+fleaMarketFee=1490
 propertiestype=ItemPropertiesWeapon

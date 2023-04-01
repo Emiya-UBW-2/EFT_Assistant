@@ -2,6 +2,109 @@ IDstr=5c488a752e221602b412af63
 Name=Desert Tech MDR 5.56x45 assault rifle
 ShortName=MDR
 Itemtype=Assault rifle
+ChildParts=[
+	MDR pistol grip (FDE),
+	MDR pistol grip (Black)
+]
+ChildParts=[
+	5.56x45 Colt AR-15 STANAG 30-round magazine,
+	FN SCAR-L 5.56x45 30-round magazine,
+	FN SCAR-L 5.56x45 30-round magazine (FDE),
+	5.56x45 HK Steel Maritime STANAG 30-round magazine,
+	5.56x45 HK PM Gen.2 STANAG 30-round magazine,
+	5.56x45 HK 30 STANAG polymer 30-round magazine,
+	5.56x45 Magpul PMAG D-60 STANAG 60-round magazine,
+	5.56x45 Magpul PMAG 10 GEN M3 STANAG 10-round magazine,
+	5.56x45 Magpul PMAG 20 GEN M3 STANAG 20-round magazine,
+	5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazine,
+	5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazine (FDE),
+	5.56x45 Magpul PMAG 40 GEN M3 STANAG 40-round magazine,
+	5.56x45 Magpul PMAG 40 GEN M3 STANAG 40-round magazine (FDE),
+	5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine,
+	5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine (FDE),
+	5.56x45 SureFire MAG5-100 STANAG 100-round magazine,
+	5.56x45 SureFire MAG5-60 STANAG 60-round magazine,
+	5.56x45 TROY BattleMag STANAG 30-round magazine
+]
+ChildParts=[
+	MDR handguard (FDE),
+	MDR handguard (Black)
+]
+ChildParts=[
+	MDR 5.56x45 16 inch barrel
+]
+ChildParts=[
+	ELCAN SpecterDR 1x/4x scope,
+	ELCAN SpecterDR 1x/4x scope (FDE),
+	Leupold Mark 4 HAMR 4x24 DeltaPoint hybrid assault scope,
+	Monstrum Tactical Compact Prism Scope 2x32,
+	SIG Sauer BRAVO4 4x30 scope,
+	Valday PS-320 1/6x scope,
+	Axion Kobra EKP-8-18 reflex sight,
+	OKP-7 reflex sight,
+	EOTech 553 holographic sight,
+	EOTech EXPS3 holographic sight (Tan),
+	EOTech HHS-1 hybrid sight,
+	EOTech HHS-1 hybrid sight (Tan),
+	EOTech XPS3-0 holographic sight,
+	EOTech XPS3-2 holographic sight,
+	Holosun HS401G5 reflex sight,
+	Leapers UTG reflex sight,
+	SIG Sauer ROMEO8T reflex sight,
+	Trijicon SRS-02 reflex sight,
+	Valday PK-120 (1P87) holographic sight,
+	Valday Krechet reflex sight,
+	VOMZ Pilad P1x42 Weaver reflex sight,
+	Vortex Razor AMG UH-1 holographic sight,
+	Walther MRS reflex sight,
+	BelOMO PK-06 reflex sight,
+	NcSTAR ADO P4 Sniper 3-9x42 riflescope,
+	FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescope,
+	Torrey Pines Logic T12W 30Hz thermal reflex sight,
+	Aimpoint Micro Standard Mount,
+	Aimpoint Micro H-2 Standard Mount,
+	Aimpoint LRP mount for CompM4 sights,
+	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Armasight Vulcan universal base,
+	B&T QD NAR mount for Aimpoint ACRO,
+	Burris AR-P.E.P.R. 30mm ring scope mount,
+	Burris FastFire Weaver Base,
+	Geissele Super Precision 30mm ring scope mount,
+	Geissele Super Precision 30mm ring scope mount (DDC),
+	IEA Mil-Optics KH/F 34mm one-piece magmount,
+	JP Enterprises Flat-Top 30mm ring scope mount,
+	KMZ 1P69 Weaver mount,
+	LaRue LT101 QD Tactical Picatinny Riser mount,
+	DeltaPoint Cross Slot Mount base,
+	Lobaev Arms 30mm scope mount,
+	Nightforce Magmount 30mm ring scope mount,
+	Nightforce Magmount 34mm ring scope mount,
+	Nightforce Magmount 34mm ring scope mount with Ruggedized Accessory Platform,
+	Kiba Arms Short Mount sight adapter,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac 30mm ring scope mount,
+	Recknagel Era-Tac 34mm ring scope mount,
+	SIG Sauer ROMEO sight mount,
+	Trijicon RMR high profile mount,
+	Trijicon RMR low profile mount,
+	Trijicon TA51 sight mount,
+	UNV DLOC-IRD sight mount,
+	Leapers UTG 25mm ring scope mount,
+	SwampFox Trihawk Prism Scope 3x30,
+	AI AX-50 34mm scope mount
+]
+ChildParts=[
+	HK MP7 flip-up rear sight,
+	KAC Folding Micro rear sight,
+	KAC Folding rear sight,
+	KRISS Defiance low profile flip-up rear sight,
+	Magpul MBUS Gen2 flip-up rear sight,
+	Magpul MBUS Gen2 flip-up rear sight (FDE),
+	MCX flip-up rear sight,
+	MPX flip-up rear sight,
+	AR-15 Colt A2 rear sight,
+	AR-15 rear sight carry handle
+]
 Conflict=[
 	Hera Arms CQR tactical foregrip,
 ]
@@ -11,15 +114,15 @@ Information_Eng=The MDR 5.56x45 bullpup assault rifle, designed and manufactured
 basePrice=45230
 width=2
 height=1
-avg24hPrice=58089
-low24hPrice=45555
-lastOfferCount=36
+avg24hPrice=57599
+low24hPrice=40000
+lastOfferCount=27
 Sell_Prapor=22615
 Sell_Fence=18092
 Sell_Skier=22162
 Sell_Peacekeeper=174
 Sell_Mechanic=25328
-Sell_Flea Market=52777
+Sell_Flea Market=55554
 weight=2.800000
-fleaMarketFee=2943
+fleaMarketFee=3045
 propertiestype=ItemPropertiesWeapon

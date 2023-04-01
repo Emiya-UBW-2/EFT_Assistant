@@ -2,6 +2,14 @@ IDstr=5fc23678ab884124df0cd590
 Name=Mk-18 .338 LM 24 inch barrel
 ShortName=Mk-18 24"
 Itemtype=Barrel
+ChildParts=[
+	AI .338 LM Tactical Muzzle Brake ,
+	AWC PSR .338 LM muzzle brake,
+	SilencerCo AC-858 ASR .338 LM muzzle brake
+]
+ChildParts=[
+	Mk-18 gas block
+]
 Conflict=[
 	AR-15 ADAR 2-15 wooden handguard,
 	AR-15 Colt M4 Carbine Length handguard,

@@ -8,7 +8,7 @@ ChildParts=[
 Conflict=[
 	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock,
 ]
-Recoil=-30.000000
+Recoil=-30.000002
 Ergonomics=9.000000
 Information_Eng=A folding shoulder piece assembly for AKMS automatic rifles, manufactured by Izhmash.
 basePrice=1557

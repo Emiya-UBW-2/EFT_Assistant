@@ -12,19 +12,19 @@ ChildParts=[
 	MP-153 polymer forestock
 ]
 ChildParts=[
-	MP-133/153 plastic stock,
-	MP-133/153 wooden stock,
-	MP-133/153 Taktika Tula 12003 stock adapter,
-	MP-133/153 plastic pistol grip
-]
-ChildParts=[
-	MP-153 12ga 4-shell magazine cap,
 	MP-133 12ga 6-shell magazine,
 	MP-133 12ga 8-shell magazine,
+	MP-153 12ga 4-shell magazine cap,
 	MP-153 12ga 5-shell magazine,
 	MP-153 12ga 6-shell magazine,
 	MP-153 12ga 7-shell magazine,
 	MP-153 12ga 8-shell magazine
+]
+ChildParts=[
+	MP-133/153 Taktika Tula 12003 stock adapter,
+	MP-133/153 plastic pistol grip,
+	MP-133/153 plastic stock,
+	MP-133/153 wooden stock
 ]
 ChildParts=[
 	Kiba Arms SPRM rail mount for pump-action shotguns
@@ -38,16 +38,16 @@ Information_Eng=The MP-153 smoothbore multi-shot shotgun, manufactured by IzhMek
 basePrice=14981
 width=3
 height=1
-avg24hPrice=39199
+avg24hPrice=36481
 low24hPrice=25000
-lastOfferCount=4
+lastOfferCount=2
 Sell_Prapor=7490
 Sell_Fence=5992
 Sell_Skier=7340
 Sell_Peacekeeper=58
 Sell_Mechanic=8389
 Sell_Jaeger=8988
-Sell_Flea Market=42222
+Sell_Flea Market=31999
 weight=1.200000
-fleaMarketFee=2515
+fleaMarketFee=1743
 propertiestype=ItemPropertiesWeapon

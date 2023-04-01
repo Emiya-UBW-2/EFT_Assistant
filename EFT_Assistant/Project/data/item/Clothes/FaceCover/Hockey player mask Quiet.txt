@@ -10,20 +10,18 @@ Conflict=[
 	EMERCOM cap,
 	Police cap
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=Frightening mask from a children's cartoon about hockey.
 basePrice=15000
 width=2
 height=2
-avg24hPrice=10597
+avg24hPrice=10543
 low24hPrice=5000
-lastOfferCount=22
+lastOfferCount=8
 Sell_Fence=6000
 Sell_Skier=7350
 Sell_Peacekeeper=58
 Sell_Ragman=9300
-Sell_Flea Market=9999
+Sell_Flea Market=9888
 weight=0.100000
-fleaMarketFee=792
+fleaMarketFee=791
 propertiestype=

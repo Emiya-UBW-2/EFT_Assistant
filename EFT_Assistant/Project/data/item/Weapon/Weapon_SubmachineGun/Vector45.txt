@@ -40,6 +40,7 @@ ChildParts=[
 	EOTech XPS3-0 holographic sight,
 	EOTech XPS3-2 holographic sight,
 	Holosun HS401G5 reflex sight,
+	Leapers UTG reflex sight,
 	SIG Sauer ROMEO8T reflex sight,
 	Trijicon SRS-02 reflex sight,
 	Valday PK-120 (1P87) holographic sight,
@@ -52,22 +53,28 @@ ChildParts=[
 	FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescope,
 	Torrey Pines Logic T12W 30Hz thermal reflex sight,
 	Aimpoint Micro Standard Mount,
+	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
+	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
 	Armasight Vulcan universal base,
+	B&T QD NAR mount for Aimpoint ACRO,
 	Burris FastFire Weaver Base,
 	DeltaPoint Cross Slot Mount base,
 	Kiba Arms Short Mount sight adapter,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
 	SIG Sauer ROMEO sight mount,
 	Trijicon RMR high profile mount,
 	Trijicon RMR low profile mount,
 	Trijicon TA51 sight mount,
-	UNV DLOC-IRD sight mount
+	UNV DLOC-IRD sight mount,
+	SwampFox Trihawk Prism Scope 3x30
 ]
 ChildParts=[
 	Holosun LS321 Tactical device,
 	AN/PEQ-15 tactical device,
 	LA-5B/PEQ tactical device,
 	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
 	Zenit Perst-3 tactical device
 ]
 ChildParts=[
@@ -79,14 +86,14 @@ ChildParts=[
 	KRISS Vector .45 ACP 6 inch barrel
 ]
 ChildParts=[
-	KRISS Vector side rail
-]
-ChildParts=[
-	KRISS Vector side rail
-]
-ChildParts=[
 	KRISS Vector bottom rail,
 	KRISS Vector Mk.5 modular rail
+]
+ChildParts=[
+	KRISS Vector side rail
+]
+ChildParts=[
+	KRISS Vector side rail
 ]
 Recoil=55.000000
 Ergonomics=65.000000
@@ -94,15 +101,15 @@ Information_Eng=The KRISS Vector SMG is the ideal choice for law enforcement and
 basePrice=31650
 width=2
 height=2
-avg24hPrice=59707
+avg24hPrice=59963
 low24hPrice=49000
-lastOfferCount=30
+lastOfferCount=6
 Sell_Prapor=15825
 Sell_Fence=12660
 Sell_Skier=15508
 Sell_Peacekeeper=122
 Sell_Mechanic=17724
-Sell_Flea Market=52069
+Sell_Flea Market=67777
 weight=1.860000
-fleaMarketFee=2740
+fleaMarketFee=3694
 propertiestype=ItemPropertiesWeapon

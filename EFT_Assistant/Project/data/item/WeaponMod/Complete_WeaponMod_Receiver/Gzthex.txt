@@ -2,6 +2,27 @@ IDstr=5a71e22f8dc32e00094b97f4
 Name=Glock ZEV Tech HEX Gen3 RMR pistol slide
 ShortName=G ZT HEX
 Itemtype=Receiver
+ChildParts=[
+	Glock Dead Ringer Snake Eye rear sight,
+	Glock rear sight,
+	Glock TruGlo TFX rear sight,
+	Glock ZEV Tech rear sight,
+	Glock 19X rear sight
+]
+ChildParts=[
+	Glock Dead Ringer Snake Eye front sight,
+	Glock front sight,
+	Glock TruGlo TFX front sight,
+	Glock ZEV Tech front sight,
+	Glock 19X front sight
+]
+ChildParts=[
+	Glock ZEV Tech sight mount cap,
+	Trijicon RMR reflex sight
+]
+ChildParts=[
+	Glock 9x19 Strike Industries G4 SlideComp compensator
+]
 Conflict=[
 	Glock 9x19 Lone Wolf AlphaWolf Bullnose compensator,
 	P226 TJ's Custom 9x19 compensator,
@@ -12,15 +33,15 @@ Information_Eng=A slide for Glock pistols family, manufactured by ZEV Technologi
 basePrice=20119
 width=2
 height=1
-avg24hPrice=19297
+avg24hPrice=19234
 low24hPrice=12000
-lastOfferCount=10
+lastOfferCount=14
 Sell_Prapor=10059
 Sell_Fence=8047
 Sell_Skier=9858
 Sell_Peacekeeper=77
 Sell_Mechanic=11266
-Sell_Flea Market=23000
+Sell_Flea Market=15000
 weight=0.190000
-fleaMarketFee=1293
+fleaMarketFee=1078
 propertiestype=ItemPropertiesWeaponMod

@@ -13,7 +13,11 @@ ChildParts=[
 	Zenit Klesch-2IKS IR illuminator with laser,
 	Zenit Klesch-2P flashlight with laser,
 	Zenit Klesch-2U tactical flashlight,
-	Kiba Arms 25mm accessory ring mount
+	Kiba Arms 25mm accessory ring mount,
+	Daniel Defense 25mm accessory ring mount,
+	Olight Baldr Pro tactical flashlight with laser,
+	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Insight WMX200 tactical flashlight
 ]
 Conflict=[
 	M700 7.62x51 AI AICS 10-round magazine,
@@ -24,22 +28,22 @@ Conflict=[
 	M700 7.62x51 ProMag AA-70 10-round magazine,
 	M700 7.62x51 ProMag AA-70 20-round magazine
 ]
-Recoil=-30.000000
+Recoil=-30.000002
 Ergonomics=14.000000
 Information_Eng=The Overmolded Ghillie stock for the Remington Model 700 bolt-action sniper rifle. Manufactured by Hogue.
 basePrice=8500
 width=3
 height=1
-avg24hPrice=30744
+avg24hPrice=46175
 low24hPrice=10000
-lastOfferCount=4
+lastOfferCount=1
 Sell_Prapor=4250
 Sell_Fence=3400
 Sell_Skier=4165
 Sell_Peacekeeper=33
 Sell_Mechanic=4760
 Sell_Jaeger=5100
-Sell_Flea Market=40000
+Sell_Flea Market=80000
 weight=1.800000
-fleaMarketFee=3062
+fleaMarketFee=9295
 propertiestype=ItemPropertiesWeaponMod

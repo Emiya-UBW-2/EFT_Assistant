@@ -2,6 +2,11 @@ IDstr=62ea7c793043d74a0306e19f
 Name=Steyr AUG A1 STG77 1.5x optic sight
 ShortName=STG77 1.5x
 Itemtype=Assault scope
+ChildParts=[
+	Steyr AUG A1 5.56x45 20 inch barrel,
+	Steyr AUG A3 5.56x45 16 inch barrel,
+	Steyr AUG A1 5.56x45 16 inch barrel
+]
 Recoil=0.000000
 Ergonomics=-3.000000
 Information_Eng=STG77 is a standard optic sight for the AUG A1. The sight provides a 1.5x zoom and has an open non-removable ironsights in the upper part of the optics. Manufactured by Swarovski Optik.

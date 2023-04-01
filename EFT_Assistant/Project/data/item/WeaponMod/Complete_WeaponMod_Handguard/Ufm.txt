@@ -45,10 +45,25 @@ ChildParts=[
 	A3 Tactical MVF001 KeyMod vertical foregrip (Black),
 	SIG Sauer Vertical Foregrip KeyMod (Black),
 	Strike Industries KeyMod 6 inch rail,
-	Vltor CASV KeyMod 6 inch rail,
+	Vltor CASV KeyMod 6 inch rail
+]
+ChildParts=[
 	Strike Industries KeyMod 4 inch rail,
 	Vltor CASV KeyMod 2 inch rail,
-	Vltor CASV KeyMod 4 inch rail
+	Vltor CASV KeyMod 4 inch rail,
+	CNC Guns KeyMod 2 inch rail
+]
+ChildParts=[
+	Strike Industries KeyMod 4 inch rail,
+	Vltor CASV KeyMod 2 inch rail,
+	Vltor CASV KeyMod 4 inch rail,
+	CNC Guns KeyMod 2 inch rail
+]
+ChildParts=[
+	Strike Industries KeyMod 4 inch rail,
+	Vltor CASV KeyMod 2 inch rail,
+	Vltor CASV KeyMod 4 inch rail,
+	CNC Guns KeyMod 2 inch rail
 ]
 Conflict=[
 	AK Zenit B-33 dust cover,
@@ -61,15 +76,15 @@ Information_Eng=The Krebs Custom UFM Keymod System lightweight aluminum handguar
 basePrice=20355
 width=2
 height=1
-avg24hPrice=13066
+avg24hPrice=13527
 low24hPrice=9999
-lastOfferCount=18
+lastOfferCount=9
 Sell_Prapor=10177
 Sell_Fence=8142
 Sell_Skier=9973
 Sell_Peacekeeper=78
 Sell_Mechanic=11398
-Sell_Flea Market=14222
+Sell_Flea Market=12899
 weight=0.260000
-fleaMarketFee=1079
+fleaMarketFee=1071
 propertiestype=ItemPropertiesWeaponMod

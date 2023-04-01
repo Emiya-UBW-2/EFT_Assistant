@@ -3,15 +3,11 @@ Name=AK TDI AKM-L handguard
 ShortName=AKM-L
 Itemtype=Handguard
 ChildParts=[
-	Magpul M-LOK 4.1 inch rail,
 	Magpul M-LOK AFG tactical foregrip (Black),
 	Magpul M-LOK AFG tactical foregrip (FDE),
 	Magpul M-LOK AFG tactical foregrip (Olive Drab),
-	Magpul M-LOK AFG tactical foregrip (Stealth Gray)
-]
-ChildParts=[
-	Magpul M-LOK 2.5 inch rail,
-	Magpul M-LOK Cantilever Mount
+	Magpul M-LOK AFG tactical foregrip (Stealth Gray),
+	Magpul M-LOK 4.1 inch rail
 ]
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail,
@@ -26,15 +22,15 @@ Information_Eng=The TDI Arms AKM-L can be installed on AKM/AK-74 compatible weap
 basePrice=4200
 width=1
 height=1
-avg24hPrice=11165
+avg24hPrice=9617
 low24hPrice=4650
-lastOfferCount=6
+lastOfferCount=5
 Sell_Prapor=2100
 Sell_Fence=1680
 Sell_Skier=2058
 Sell_Peacekeeper=16
 Sell_Mechanic=2352
-Sell_Flea Market=5000
+Sell_Flea Market=8900
 weight=0.221000
-fleaMarketFee=277
+fleaMarketFee=484
 propertiestype=ItemPropertiesWeaponMod

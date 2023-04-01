@@ -6,20 +6,18 @@ Conflict=[
 	Pestily plague mask,
 	GP-7 gas mask,
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A special armored face shield for the "Altyn" heavy assault helmet. Increases the chances of surviving the impacts of bullets and shrapnel.
 basePrice=43460
 width=2
 height=1
-avg24hPrice=32792
-low24hPrice=27000
-lastOfferCount=47
+avg24hPrice=31956
+low24hPrice=26666
+lastOfferCount=52
 Sell_Fence=17384
 Sell_Skier=21295
 Sell_Peacekeeper=167
 Sell_Ragman=26945
-Sell_Flea Market=33000
+Sell_Flea Market=26666
 weight=1.400000
-fleaMarketFee=2338
+fleaMarketFee=2287
 propertiestype=ItemPropertiesArmorAttachment

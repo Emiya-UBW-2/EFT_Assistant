@@ -12,20 +12,18 @@ Conflict=[
 	Tagilla's welding mask "Gorilla",
 	Tagilla's welding mask "UBEY",
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=MIL-TEC-produced boonie hat, which can be used for protection from the sun. Or you can operate wearing it like a true SEAL Team Six operator.
 basePrice=2170
 width=2
 height=2
-avg24hPrice=5954
-low24hPrice=1500
-lastOfferCount=1
+avg24hPrice=6282
+low24hPrice=2333
+lastOfferCount=5
 Sell_Fence=868
 Sell_Skier=1063
 Sell_Peacekeeper=8
 Sell_Ragman=1345
-Sell_Flea Market=2400
+Sell_Flea Market=3000
 weight=0.100000
-fleaMarketFee=137
+fleaMarketFee=160
 propertiestype=

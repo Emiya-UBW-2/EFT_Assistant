@@ -11,8 +11,6 @@ Conflict=[
 	Tagilla's welding mask "Gorilla",
 	Tagilla's welding mask "UBEY",
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=Jack-o'-lantern is here to protect you from the Evil.
 basePrice=10000
 width=2

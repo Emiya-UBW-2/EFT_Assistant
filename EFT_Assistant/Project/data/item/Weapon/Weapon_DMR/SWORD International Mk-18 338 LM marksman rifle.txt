@@ -2,7 +2,54 @@ IDstr=5fc22d7c187fea44d52eda44
 Name=SWORD International Mk-18 .338 LM marksman rifle
 ShortName=Mk-18 Mjölnir
 Itemtype=Marksman rifle
-Recoil=0.000000
+ChildParts=[
+	AR-15 Colt A2 pistol grip,
+	AR-15 Damage Industries ECS pistol grip (FDE),
+	AR-15 DLG Tactical DLG-123 pistol grip,
+	AR-15 F1 Firearms Skeletonized Style 1 pistol grip,
+	AR-15 F1 Firearms Skeletonized Style 2 PC pistol grip,
+	AR-15 F1 Firearms Skeletonized Style 2 pistol grip,
+	AR-15 Hera Arms HG-15 pistol grip,
+	AR-15 HK Battle Grip pistol grip,
+	AR-15 HK Battle Grip Beavertail pistol grip,
+	AR-15 HK Battle Grip Beavertail pistol grip (RAL 8000),
+	AR-15 HK Ergo PSG-1 style pistol grip,
+	AR-15 HK V2 pistol grip,
+	Hogue OverMolded Rubber Grip (Black),
+	Hogue OverMolded Rubber Grip (FDE),
+	Hogue OverMolded Rubber Grip (Ghillie Earth),
+	Hogue OverMolded Rubber Grip (Ghillie Green),
+	Hogue OverMolded Rubber Grip (Olive Drab),
+	AR-15 Magpul MIAD pistol grip (FDE),
+	AR-15 Magpul MOE pistol grip (Black),
+	AR-15 Magpul MOE pistol grip (FDE),
+	AR-15 Naroh Arms GRAL-S pistol grip,
+	MCX pistol grip,
+	AR-15 Stark AR Rifle Grip (Black),
+	AR-15 Stark AR Rifle Grip (FDE),
+	AR-15 Tactical Dynamics Hexgrip pistol grip,
+	AR-15 Tactical Dynamics Skeletonized pistol grip
+]
+ChildParts=[
+	Mk-18 .338 LM 10-round magazine
+]
+ChildParts=[
+	AR-15 Colt A2 buffer tube,
+	AR-15 ADAR 2-15 buffer tube,
+	Colt Carbine buffer tube,
+	AR-15 DoubleStar ACE SOCOM Gen.4 stock,
+	ERGO F93 PRO stock,
+	HK Enhanced Tube buffer tube,
+	Magpul UBR GEN2 stock (Black),
+	Magpul UBR GEN2 stock (FDE),
+	Strike Industries Advanced Receiver Extension buffer tube,
+	Strike Industries Advanced Receiver Extension buffer tube (Anodized Red),
+	AR-15 RTM ATP buffer tube
+]
+ChildParts=[
+	Mk-18 .338 LM upper receiver
+]
+Recoil=630.000000
 Ergonomics=14.000000
 Information_Eng=The Mk-18 Mod 1 Extreme Distance Capable Semi-Automatic Rifle was designed to take advantage of the ballistic capabilities of the .338 Lapua Magnum, .338 Norma Magnum, and .300 Norma Magnum cartridges. The system provides extreme distance capability in a lightweight and mobile semi-auto platform. Utilizing SWORD’s proprietary short-stroke piston system the rifle is precise, reliable, and durable. Featuring ambidextrous controls, ergonomic features, and built-in modularity, the Mk-18 is a great choice for the avid hunter, long-range enthusiast, and competition shooter.
 basePrice=64400

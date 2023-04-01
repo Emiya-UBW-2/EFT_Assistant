@@ -2,6 +2,12 @@ IDstr=5ae096d95acfc400185c2c81
 Name=Mosin Rifle standard stock
 ShortName=Mosin stock
 Itemtype=Stock
+ChildParts=[
+	Mosin Rifle AIM Sports Recoil Pad
+]
+ChildParts=[
+	Mosin Rifle Tacfire pistol grip
+]
 Conflict=[
 	Mosin Carbine 7.62x54R 514mm barrel,
 	Mosin Rifle 7.62x54R sawn-off 220mm threaded barrel,

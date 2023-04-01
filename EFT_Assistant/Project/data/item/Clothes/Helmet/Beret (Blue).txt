@@ -11,20 +11,18 @@ Conflict=[
 	Tagilla's welding mask "Gorilla",
 	Tagilla's welding mask "UBEY",
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A regular blue beret. If it had an emblem, it would've been a VDV (Russian Airborne Forces) trooper beret. But this one is just a blue beret.
 basePrice=3400
 width=1
 height=1
-avg24hPrice=12175
+avg24hPrice=11055
 low24hPrice=5000
-lastOfferCount=16
+lastOfferCount=3
 Sell_Fence=1360
 Sell_Skier=1666
 Sell_Peacekeeper=13
 Sell_Ragman=2108
-Sell_Flea Market=7999
+Sell_Flea Market=11000
 weight=0.100000
-fleaMarketFee=447
+fleaMarketFee=695
 propertiestype=

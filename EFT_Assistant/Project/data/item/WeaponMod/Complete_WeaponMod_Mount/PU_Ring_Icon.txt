@@ -2,6 +2,9 @@ IDstr=5b3f7c005acfc4704b4a1de8
 Name=PU 3.5x ring scope mount
 ShortName=PU rings
 Itemtype=Mount
+ChildParts=[
+	PU 3.5x riflescope
+]
 Conflict=[
 	Mosin Rifle AIM Sports Tri-Rail mount,
 ]
@@ -11,16 +14,16 @@ Information_Eng=Regular rings for the PU 3.5x scope, installed on the Kochetov m
 basePrice=1105
 width=1
 height=1
-avg24hPrice=6863
+avg24hPrice=8030
 low24hPrice=2200
-lastOfferCount=3
+lastOfferCount=7
 Sell_Prapor=552
 Sell_Fence=442
 Sell_Skier=541
 Sell_Peacekeeper=4
 Sell_Mechanic=618
 Sell_Jaeger=663
-Sell_Flea Market=8700
+Sell_Flea Market=5555
 weight=0.020000
-fleaMarketFee=904
+fleaMarketFee=441
 propertiestype=ItemPropertiesWeaponMod

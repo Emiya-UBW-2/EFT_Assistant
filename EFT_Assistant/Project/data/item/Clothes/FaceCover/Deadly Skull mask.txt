@@ -5,20 +5,18 @@ Itemtype=Face Cover
 Conflict=[
 	Tac-Kek Heavy Trooper mask for Ops-Core-type helmets,
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A lightweight mask that does not provide any protection, but at least makes you look scarier.
 basePrice=6211
 width=2
 height=2
-avg24hPrice=9125
-low24hPrice=4999
-lastOfferCount=25
+avg24hPrice=8411
+low24hPrice=4400
+lastOfferCount=9
 Sell_Fence=2484
 Sell_Skier=3043
 Sell_Peacekeeper=24
 Sell_Ragman=3850
-Sell_Flea Market=6800
+Sell_Flea Market=6500
 weight=0.200000
-fleaMarketFee=389
+fleaMarketFee=380
 propertiestype=

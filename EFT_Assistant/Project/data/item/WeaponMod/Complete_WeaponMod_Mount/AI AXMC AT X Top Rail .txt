@@ -2,6 +2,24 @@ IDstr=628120c21d5df4475f46a337
 Name=AI AXMC AT X Top Rail 
 ShortName=AXMC top
 Itemtype=Mount
+ChildParts=[
+	HK MP7 flip-up front sight,
+	KAC Folding Micro front sight,
+	KAC Folding front sight,
+	KRISS Defiance low profile flip-up front sight,
+	Magpul MBUS Gen2 flip-up front sight,
+	Magpul MBUS Gen2 flip-up front sight (FDE),
+	MCX flip-up front sight,
+	MPX flip-up front sight
+]
+ChildParts=[
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	AN/PEQ-2 tactical device,
+	LA-5B/PEQ tactical device,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Perst-3 tactical device
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A top handguard rail for installation on the KeySlot interface for the AXMC sniper rifle, manufactured by Accuracy International.

@@ -10,20 +10,18 @@ Conflict=[
 	EMERCOM cap,
 	Police cap
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A favorite headpiece of PMCs around the globe.
 basePrice=4040
 width=1
 height=1
-avg24hPrice=8912
-low24hPrice=4400
-lastOfferCount=3
+avg24hPrice=9478
+low24hPrice=5000
+lastOfferCount=10
 Sell_Fence=1616
 Sell_Skier=1979
 Sell_Peacekeeper=16
 Sell_Ragman=2504
-Sell_Flea Market=5000
+Sell_Flea Market=9000
 weight=0.100000
-fleaMarketFee=273
+fleaMarketFee=495
 propertiestype=

@@ -2,6 +2,13 @@ IDstr=5bfd4cd60db834001c38f095
 Name=Mosin Rifle 7.62x54R sawn-off 220mm threaded barrel
 ShortName=Mosin 220mm
 Itemtype=Barrel
+ChildParts=[
+	SilencerCo Hybrid 46 Direct Thread Mount adapter
+]
+ChildParts=[
+	Mosin Rifle carbine rear sight,
+	Mosin Rifle AIM Sports Tri-Rail mount
+]
 Conflict=[
 	Mosin Rifle ATI Monte Carlo chassis,
 	Mosin Rifle sniper carbine stock,
@@ -16,16 +23,16 @@ Information_Eng=A sawn-off 220mm barrel for the Mosin rifle.
 basePrice=7350
 width=2
 height=1
-avg24hPrice=12839
-low24hPrice=7500
-lastOfferCount=13
+avg24hPrice=12872
+low24hPrice=7000
+lastOfferCount=18
 Sell_Prapor=3675
 Sell_Fence=2940
 Sell_Skier=3601
 Sell_Peacekeeper=28
 Sell_Mechanic=4116
 Sell_Jaeger=4410
-Sell_Flea Market=8000
+Sell_Flea Market=7000
 weight=0.900000
-fleaMarketFee=459
+fleaMarketFee=429
 propertiestype=ItemPropertiesBarrel

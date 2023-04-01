@@ -3,87 +3,111 @@ Name=AK CAA RS47 handguard
 ShortName=RS47
 Itemtype=Handguard
 ChildParts=[
-	ASh-12 vertical foregrip,
 	BCM GUNFIGHTER MOD 3 vertical foregrip,
+	ASh-12 vertical foregrip,
 	Fortis Shift tactical foregrip,
+	HK Sturmgriff foregrip,
 	KAC vertical foregrip,
 	Magpul AFG tactical foregrip (Black),
 	Magpul AFG tactical foregrip (FDE),
 	Magpul AFG tactical foregrip (Forest Green),
 	Magpul AFG tactical foregrip (Olive Drab),
 	Magpul RVG foregrip (Black),
+	Magpul RVG foregrip (FDE),
 	RTM Pillau tactical foregrip,
 	Stark SE-5 Express Forward foregrip,
 	Strike Industries Cobra Tactical foregrip,
 	TangoDown Stubby BGV-MK46K foregrip (Black),
 	TangoDown Stubby BGV-MK46K foregrip (FDE),
 	TangoDown Stubby BGV-MK46K foregrip (Stealth Gray),
+	Tactical Dynamics Skeletonized Foregrip,
 	Viking Tactics UVG tactical foregrip,
+	Zenit RK-1 tactical foregrip on B-25U mount,
 	Zenit RK-0 tactical foregrip,
 	Zenit RK-1 tactical foregrip,
-	Zenit RK-1 tactical foregrip on B-25U mount,
 	Zenit RK-2 tactical foregrip,
 	Zenit RK-4 tactical foregrip,
 	Zenit RK-5 tactical foregrip,
-	Zenit RK-6 tactical foregrip,
-	Tactical Dynamics Skeletonized Foregrip
+	Zenit RK-6 tactical foregrip
 ]
 ChildParts=[
-	Aimpoint Micro Standard Mount,
-	AN/PEQ-15 tactical device,
-	BelOMO PK-06 reflex sight,
-	Burris FastFire Weaver Base,
 	Axion Kobra EKP-8-18 reflex sight,
-	DeltaPoint Cross Slot Mount base,
+	OKP-7 reflex sight,
 	EOTech 553 holographic sight,
 	EOTech EXPS3 holographic sight (Tan),
 	EOTech XPS3-0 holographic sight,
 	EOTech XPS3-2 holographic sight,
 	Holosun HS401G5 reflex sight,
-	Holosun LS321 Tactical device,
-	LA-5B/PEQ tactical device,
-	Trijicon RMR low profile mount,
-	NcSTAR MPR45 Backup mount,
-	OKP-7 reflex sight,
-	SIG Sauer ROMEO sight mount,
+	Leapers UTG reflex sight,
+	SIG Sauer ROMEO8T reflex sight,
+	Trijicon SRS-02 reflex sight,
 	Valday PK-120 (1P87) holographic sight,
+	Valday Krechet reflex sight,
 	VOMZ Pilad P1x42 Weaver reflex sight,
 	Vortex Razor AMG UH-1 holographic sight,
-	Walther MRS reflex sight
+	Walther MRS reflex sight,
+	BelOMO PK-06 reflex sight,
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	AN/PEQ-2 tactical device,
+	LA-5B/PEQ tactical device,
+	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Perst-3 tactical device,
+	Aimpoint Micro Standard Mount,
+	Aimpoint Micro H-2 Standard Mount,
+	Aimpoint LRP mount for CompM4 sights,
+	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	B&T QD NAR mount for Aimpoint ACRO,
+	Burris FastFire Weaver Base,
+	DeltaPoint Cross Slot Mount base,
+	NcSTAR MPR45 Backup mount,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	SIG Sauer ROMEO sight mount,
+	Trijicon RMR low profile mount
 ]
 ChildParts=[
-	Kiba Arms 25mm accessory ring mount,
+	Glock GTL 21 tactical flashlight with laser,
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	LA-5B/PEQ tactical device,
+	NcSTAR Tactical blue laser LAM-module,
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
 	Zenit Klesch-2IKS IR illuminator with laser,
 	Zenit Klesch-2P flashlight with laser,
 	Zenit Klesch-2U tactical flashlight,
-	AN/PEQ-15 tactical device,
-	AN/PEQ-2 tactical device,
-	Glock GTL 21 tactical flashlight with laser,
-	Holosun LS321 Tactical device,
-	LA-5B/PEQ tactical device,
-	Steiner LAS/TAC 2 tactical flashlight,
-	NcSTAR Tactical blue laser LAM-module,
-	Steiner DBAL-PL tactical device,
-	SureFire XC1 tactical flashlight,
-	SureFire X400 Ultra tactical flashlight with laser,
-	Zenit Perst-3 tactical device
+	Zenit Perst-3 tactical device,
+	Kiba Arms 25mm accessory ring mount,
+	Daniel Defense 25mm accessory ring mount,
+	Olight Baldr Pro tactical flashlight with laser,
+	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Insight WMX200 tactical flashlight
 ]
 ChildParts=[
-	Kiba Arms 25mm accessory ring mount,
+	Glock GTL 21 tactical flashlight with laser,
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	AN/PEQ-2 tactical device,
+	LA-5B/PEQ tactical device,
+	NcSTAR Tactical blue laser LAM-module,
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
 	Zenit Klesch-2IKS IR illuminator with laser,
 	Zenit Klesch-2P flashlight with laser,
 	Zenit Klesch-2U tactical flashlight,
-	AN/PEQ-15 tactical device,
-	AN/PEQ-2 tactical device,
-	Glock GTL 21 tactical flashlight with laser,
-	Holosun LS321 Tactical device,
-	LA-5B/PEQ tactical device,
-	Steiner LAS/TAC 2 tactical flashlight,
-	NcSTAR Tactical blue laser LAM-module,
-	Steiner DBAL-PL tactical device,
-	SureFire XC1 tactical flashlight,
-	SureFire X400 Ultra tactical flashlight with laser,
-	Zenit Perst-3 tactical device
+	Zenit Perst-3 tactical device,
+	Kiba Arms 25mm accessory ring mount,
+	Daniel Defense 25mm accessory ring mount,
+	Olight Baldr Pro tactical flashlight with laser,
+	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Insight WMX200 tactical flashlight
 ]
 Conflict=[
 	AK Zenit B-33 dust cover,
@@ -95,15 +119,15 @@ Information_Eng=The RS47 lightweight polymer handguard, fits the majority of rif
 basePrice=10638
 width=1
 height=1
-avg24hPrice=12892
-low24hPrice=9000
-lastOfferCount=17
+avg24hPrice=13294
+low24hPrice=10000
+lastOfferCount=18
 Sell_Prapor=5319
 Sell_Fence=4255
 Sell_Skier=5212
 Sell_Peacekeeper=41
 Sell_Mechanic=5957
-Sell_Flea Market=11000
+Sell_Flea Market=11878
 weight=0.220000
-fleaMarketFee=648
+fleaMarketFee=674
 propertiestype=ItemPropertiesWeaponMod

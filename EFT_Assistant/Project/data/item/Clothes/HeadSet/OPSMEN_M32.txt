@@ -8,19 +8,17 @@ Conflict=[
 	Ushanka ear flap hat,
 	Ops-Core FAST RAC Headset
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=The EARMOR M32 headset is an activated electronic communication hearing protector, ideal for tactical use. Manufactured by OPSMEN.
 basePrice=25000
 width=2
 height=2
-avg24hPrice=27993
+avg24hPrice=27275
 low24hPrice=20000
-lastOfferCount=34
+lastOfferCount=32
 Sell_Fence=10000
 Sell_Skier=12250
 Sell_Ragman=15500
-Sell_Flea Market=23333
+Sell_Flea Market=24444
 weight=0.490000
-fleaMarketFee=1445
+fleaMarketFee=1481
 propertiestype=

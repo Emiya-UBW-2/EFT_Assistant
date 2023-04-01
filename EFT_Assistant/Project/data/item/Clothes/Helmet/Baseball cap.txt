@@ -20,20 +20,18 @@ Conflict=[
 	Tagilla's welding mask "Gorilla",
 	Tagilla's welding mask "UBEY",
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A baseball cap, offers the most basic glare protection.
 basePrice=1021
 width=1
 height=1
-avg24hPrice=6156
-low24hPrice=2000
-lastOfferCount=7
+avg24hPrice=5131
+low24hPrice=2700
+lastOfferCount=2
 Sell_Fence=408
 Sell_Skier=500
 Sell_Peacekeeper=4
 Sell_Ragman=633
-Sell_Flea Market=3000
+Sell_Flea Market=3999
 weight=0.100000
-fleaMarketFee=182
+fleaMarketFee=277
 propertiestype=

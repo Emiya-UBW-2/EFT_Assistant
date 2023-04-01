@@ -2,14 +2,17 @@ IDstr=61825d136ef05c2ce828f1cc
 Name=FN SCAR retractable polymer stock (FDE)
 ShortName=SCAR retr.
 Itemtype=Stock
+ChildParts=[
+	FN SCAR rubber buttpad
+]
 Recoil=-24.000000
 Ergonomics=3.000000
 Information_Eng=A retractable polymer stock for the SCAR-series assault rifles, manufactured by Fabrique Nationale Herstal. Flat Dark Earth version.
 basePrice=9000
 width=2
 height=1
-avg24hPrice=10000
-low24hPrice=10000
+avg24hPrice=0
+low24hPrice=0
 lastOfferCount=1
 Sell_Prapor=4500
 Sell_Fence=3600

@@ -2,22 +2,50 @@ IDstr=5b8403a086f7747ff856f4e2
 Name=Hexagon medium length rail (Anodized Red)
 ShortName=HEX med
 Itemtype=Mount
+ChildParts=[
+	BCM GUNFIGHTER MOD 3 vertical foregrip,
+	ASh-12 vertical foregrip,
+	Fortis Shift tactical foregrip,
+	HK Sturmgriff foregrip,
+	KAC vertical foregrip,
+	Magpul AFG tactical foregrip (Black),
+	Magpul AFG tactical foregrip (FDE),
+	Magpul AFG tactical foregrip (Forest Green),
+	Magpul AFG tactical foregrip (Olive Drab),
+	Magpul RVG foregrip (Black),
+	Magpul RVG foregrip (FDE),
+	RTM Pillau tactical foregrip,
+	Stark SE-5 Express Forward foregrip,
+	Strike Industries Cobra Tactical foregrip,
+	TangoDown Stubby BGV-MK46K foregrip (Black),
+	TangoDown Stubby BGV-MK46K foregrip (FDE),
+	TangoDown Stubby BGV-MK46K foregrip (Stealth Gray),
+	Tactical Dynamics Skeletonized Foregrip,
+	Viking Tactics UVG tactical foregrip,
+	Zenit RK-1 tactical foregrip on B-25U mount,
+	Zenit RK-0 tactical foregrip,
+	Zenit RK-1 tactical foregrip,
+	Zenit RK-2 tactical foregrip,
+	Zenit RK-4 tactical foregrip,
+	Zenit RK-5 tactical foregrip,
+	Zenit RK-6 tactical foregrip
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A medium length rail for the Hexagon handguard, allows installation of additional tactical equipment. Anodized Red version.
 basePrice=7771
 width=1
 height=1
-avg24hPrice=17854
+avg24hPrice=16595
 low24hPrice=11999
-lastOfferCount=7
+lastOfferCount=14
 Sell_Prapor=3885
 Sell_Fence=3108
 Sell_Skier=3807
 Sell_Peacekeeper=30
 Sell_Mechanic=4351
 Sell_Jaeger=4662
-Sell_Flea Market=18000
+Sell_Flea Market=14980
 weight=0.075000
-fleaMarketFee=1002
+fleaMarketFee=799
 propertiestype=ItemPropertiesWeaponMod

@@ -2,7 +2,128 @@ IDstr=6275303a9f372d6ea97f9ec7
 Name=Milkor M32A1 MSGL 40mm grenade launcher
 ShortName=MSGL
 Itemtype=Revolver
-Recoil=0.000000
+ChildParts=[
+	AR-15 Colt A2 pistol grip,
+	AR-15 Damage Industries ECS pistol grip (FDE),
+	AR-15 F1 Firearms Skeletonized Style 1 pistol grip,
+	AR-15 F1 Firearms Skeletonized Style 2 PC pistol grip,
+	AR-15 F1 Firearms Skeletonized Style 2 pistol grip,
+	AR-15 HK Battle Grip pistol grip,
+	Hogue OverMolded Rubber Grip (Black),
+	Hogue OverMolded Rubber Grip (FDE),
+	Hogue OverMolded Rubber Grip (Ghillie Earth),
+	Hogue OverMolded Rubber Grip (Ghillie Green),
+	Hogue OverMolded Rubber Grip (Olive Drab),
+	AR-15 Magpul MIAD pistol grip (FDE),
+	AR-15 Tactical Dynamics Hexgrip pistol grip,
+	AR-15 Tactical Dynamics Skeletonized pistol grip
+]
+ChildParts=[
+	AR-15 B5 Systems Precision stock,
+	CMMG RipStock buttstock,
+	FAB Defense GL-CORE buttstock,
+	FAB Defense GL-SHOCK buttstock,
+	FAB Defense GLR-16-S stock,
+	High Standard M4SS Stock,
+	AR-15 HK E1 buttstock,
+	AR-15 HK Slim Line buttstock,
+	AK-12 stock,
+	KRISS Defiance DS150 stock (Black),
+	KRISS Defiance DS150 stock (FDE),
+	LMT SOPMOD stock,
+	Magpul CTR Carbine stock (Black),
+	Magpul CTR Carbine stock (FDE),
+	Magpul MOE Carbine stock (Black),
+	Magpul MOE Carbine stock (FDE),
+	Magpul MOE Carbine stock (Foliage Green),
+	Magpul MOE Carbine stock (Olive Drab),
+	Magpul MOE Carbine stock (Stealth Gray),
+	Magpul PRS GEN3 stock (Black),
+	Magpul PRS GEN3 stock (Grey),
+	MFT BUS stock,
+	SB Tactical SBA3 brace,
+	Strike Industries Viper Mod 1 stock,
+	Vltor EMOD stock
+]
+ChildParts=[
+	M32A1 40mm cylinder
+]
+ChildParts=[
+	BCM GUNFIGHTER MOD 3 vertical foregrip,
+	ASh-12 vertical foregrip,
+	Fortis Shift tactical foregrip,
+	HK Sturmgriff foregrip,
+	KAC vertical foregrip,
+	Magpul AFG tactical foregrip (Black),
+	Magpul AFG tactical foregrip (FDE),
+	Magpul AFG tactical foregrip (Forest Green),
+	Magpul AFG tactical foregrip (Olive Drab),
+	Magpul RVG foregrip (Black),
+	Magpul RVG foregrip (FDE),
+	RTM Pillau tactical foregrip,
+	Stark SE-5 Express Forward foregrip,
+	Strike Industries Cobra Tactical foregrip,
+	TangoDown Stubby BGV-MK46K foregrip (Black),
+	TangoDown Stubby BGV-MK46K foregrip (FDE),
+	TangoDown Stubby BGV-MK46K foregrip (Stealth Gray),
+	Tactical Dynamics Skeletonized Foregrip,
+	Viking Tactics UVG tactical foregrip,
+	Zenit RK-1 tactical foregrip on B-25U mount,
+	Zenit RK-0 tactical foregrip,
+	Zenit RK-1 tactical foregrip,
+	Zenit RK-2 tactical foregrip,
+	Zenit RK-4 tactical foregrip,
+	Zenit RK-5 tactical foregrip,
+	Zenit RK-6 tactical foregrip
+]
+ChildParts=[
+	Milkor M2A1 grenade launcher reflex sight
+]
+ChildParts=[
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	LA-5B/PEQ tactical device,
+	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Perst-3 tactical device
+]
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser,
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	AN/PEQ-2 tactical device,
+	LA-5B/PEQ tactical device,
+	NcSTAR Tactical blue laser LAM-module,
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Zenit Perst-3 tactical device,
+	Kiba Arms 25mm accessory ring mount
+]
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser,
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	AN/PEQ-2 tactical device,
+	LA-5B/PEQ tactical device,
+	NcSTAR Tactical blue laser LAM-module,
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Zenit Perst-3 tactical device,
+	Kiba Arms 25mm accessory ring mount
+]
+Recoil=280.000000
 Ergonomics=30.000000
 Information_Eng=M32A1 MSGL 40mm six-shot grenade launcher manufactured by Milkor USA. This grenade launcher uses the well-established principle of a revolver to achieve a high rate of accurate fire that can be quickly aimed at a target.
 basePrice=185000

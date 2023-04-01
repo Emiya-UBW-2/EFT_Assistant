@@ -3,6 +3,9 @@ Name=VPO-209 rear sight
 ShortName=VPO209
 Itemtype=Ironsight
 SightRange=300
+ChildParts=[
+	AKMP system rear sight device
+]
 Conflict=[
 	AK AKademia Bastion dust cover,
 	AK TWS Dog Leg Rail dust cover,

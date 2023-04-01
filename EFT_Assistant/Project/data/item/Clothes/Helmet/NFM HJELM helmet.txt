@@ -6,20 +6,18 @@ Conflict=[
 	Tagilla's welding mask "Gorilla",
 	Tagilla's welding mask "UBEY",
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=The new-gen HJELM system applies new ideas for modularity of attachments and electronics without the extra weight and bulk of previous generations. Manufactured by NFM.
 basePrice=72000
 width=2
 height=2
-avg24hPrice=47006
-low24hPrice=42200
-lastOfferCount=11
+avg24hPrice=46884
+low24hPrice=43000
+lastOfferCount=15
 Sell_Fence=28800
 Sell_Skier=35280
 Sell_Peacekeeper=277
 Sell_Ragman=44640
-Sell_Flea Market=46999
+Sell_Flea Market=44444
 weight=0.800000
-fleaMarketFee=3794
+fleaMarketFee=3788
 propertiestype=ItemPropertiesHelmet

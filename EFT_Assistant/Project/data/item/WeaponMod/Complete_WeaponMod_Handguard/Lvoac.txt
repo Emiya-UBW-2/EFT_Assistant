@@ -6,22 +6,40 @@ ChildParts=[
 	NcSTAR MPR45 Backup mount
 ]
 ChildParts=[
-	AN/PEQ-15 tactical device,
 	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	AN/PEQ-2 tactical device,
 	LA-5B/PEQ tactical device,
 	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
 	Zenit Perst-3 tactical device
+]
+ChildParts=[
+	Vltor CASV KeyMod 6 inch rail
 ]
 ChildParts=[
 	Vltor CASV KeyMod 2 inch rail,
 	Vltor CASV KeyMod 4 inch rail,
-	Vltor CASV KeyMod 6 inch rail
+	CNC Guns KeyMod 2 inch rail
 ]
 ChildParts=[
+	Vltor CASV KeyMod 2 inch rail,
+	Vltor CASV KeyMod 4 inch rail,
+	CNC Guns KeyMod 2 inch rail
+]
+ChildParts=[
+	Vltor CASV KeyMod 2 inch rail,
+	Vltor CASV KeyMod 4 inch rail,
+	CNC Guns KeyMod 2 inch rail
+]
+ChildParts=[
+	HK MP7 flip-up front sight,
+	KAC Folding Micro front sight,
 	KAC Folding front sight,
+	KRISS Defiance low profile flip-up front sight,
 	Magpul MBUS Gen2 flip-up front sight,
 	Magpul MBUS Gen2 flip-up front sight (FDE),
-	HK MP7 flip-up front sight,
+	MCX flip-up front sight,
 	MPX flip-up front sight,
 	AR-15 Leapers UTG Low Profile A2 front sight
 ]
@@ -35,15 +53,15 @@ Information_Eng=The War Sport LVOA-C lightweight handguard is designed for use w
 basePrice=19988
 width=3
 height=1
-avg24hPrice=64060
+avg24hPrice=62194
 low24hPrice=29999
-lastOfferCount=36
+lastOfferCount=20
 Sell_Prapor=9994
 Sell_Fence=7995
 Sell_Skier=9794
 Sell_Peacekeeper=77
 Sell_Mechanic=11193
-Sell_Flea Market=29999
+Sell_Flea Market=48880
 weight=0.580000
-fleaMarketFee=1583
+fleaMarketFee=2766
 propertiestype=ItemPropertiesWeaponMod

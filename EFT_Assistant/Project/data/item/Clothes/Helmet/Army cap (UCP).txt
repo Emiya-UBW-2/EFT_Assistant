@@ -9,20 +9,18 @@ Conflict=[
 	Tagilla's welding mask "Gorilla",
 	Tagilla's welding mask "UBEY",
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A regular army cap, colored in UCP camouflage.
 basePrice=2353
 width=1
 height=1
-avg24hPrice=7821
+avg24hPrice=26042
 low24hPrice=6999
-lastOfferCount=3
+lastOfferCount=10
 Sell_Fence=941
 Sell_Skier=1152
 Sell_Peacekeeper=9
 Sell_Ragman=1458
-Sell_Flea Market=39899
+Sell_Flea Market=13900
 weight=0.100000
-fleaMarketFee=6782
+fleaMarketFee=1213
 propertiestype=

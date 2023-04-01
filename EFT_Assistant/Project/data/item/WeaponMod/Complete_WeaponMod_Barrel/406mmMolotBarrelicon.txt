@@ -30,7 +30,8 @@ ChildParts=[
 	Rotor 43 5.56x45 muzzle brake-compensator,
 	KAC QDC 5.56x45 3-Prong Flash Eliminator,
 	AR-15 SureFire Warden 5.56x45 blast regulator,
-	AR-15 Yankee Hill Phantom 5.56x45 flash hider
+	AR-15 Yankee Hill Phantom 5.56x45 flash hider,
+	AR-15 Griffin Armament Gate-LOK Hammer 5.56x45 flash hider
 ]
 ChildParts=[
 	M4A1 front sight with gas block,
@@ -48,16 +49,16 @@ Information_Eng=The Molot Arms 406mm barrel for AR-15 based weapons for 5.56x45 
 basePrice=16200
 width=3
 height=1
-avg24hPrice=21111
+avg24hPrice=20392
 low24hPrice=16666
-lastOfferCount=12
+lastOfferCount=9
 Sell_Prapor=8100
 Sell_Fence=6480
 Sell_Skier=7938
 Sell_Peacekeeper=62
 Sell_Mechanic=9072
 Sell_Jaeger=9720
-Sell_Flea Market=19000
+Sell_Flea Market=18777
 weight=0.594000
-fleaMarketFee=1057
+fleaMarketFee=1050
 propertiestype=ItemPropertiesBarrel

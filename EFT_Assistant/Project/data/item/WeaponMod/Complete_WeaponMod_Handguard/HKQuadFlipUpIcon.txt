@@ -7,18 +7,21 @@ ChildParts=[
 	ASh-12 vertical foregrip,
 	Fortis Shift tactical foregrip,
 	Hera Arms CQR tactical foregrip,
+	HK Sturmgriff foregrip,
 	KAC vertical foregrip,
 	Magpul AFG tactical foregrip (Black),
 	Magpul AFG tactical foregrip (FDE),
 	Magpul AFG tactical foregrip (Forest Green),
 	Magpul AFG tactical foregrip (Olive Drab),
 	Magpul RVG foregrip (Black),
+	Magpul RVG foregrip (FDE),
 	RTM Pillau tactical foregrip,
 	Stark SE-5 Express Forward foregrip,
 	Strike Industries Cobra Tactical foregrip,
 	TangoDown Stubby BGV-MK46K foregrip (Black),
 	TangoDown Stubby BGV-MK46K foregrip (FDE),
 	TangoDown Stubby BGV-MK46K foregrip (Stealth Gray),
+	Tactical Dynamics Skeletonized Foregrip,
 	Viking Tactics UVG tactical foregrip,
 	Zenit RK-1 tactical foregrip on B-25U mount,
 	Zenit RK-0 tactical foregrip,
@@ -26,45 +29,62 @@ ChildParts=[
 	Zenit RK-2 tactical foregrip,
 	Zenit RK-4 tactical foregrip,
 	Zenit RK-5 tactical foregrip,
-	Zenit RK-6 tactical foregrip,
-	Tactical Dynamics Skeletonized Foregrip
+	Zenit RK-6 tactical foregrip
 ]
 ChildParts=[
 	NcSTAR MPR45 Backup mount
 ]
 ChildParts=[
-	Kiba Arms 25mm accessory ring mount,
-	Zenit Klesch-2IKS IR illuminator with laser,
-	Zenit Klesch-2P flashlight with laser,
-	Zenit Klesch-2U tactical flashlight,
+	Holosun LS321 Tactical device,
 	AN/PEQ-15 tactical device,
 	AN/PEQ-2 tactical device,
-	Glock GTL 21 tactical flashlight with laser,
-	Holosun LS321 Tactical device,
 	LA-5B/PEQ tactical device,
-	Steiner LAS/TAC 2 tactical flashlight,
-	NcSTAR Tactical blue laser LAM-module,
-	Steiner DBAL-PL tactical device,
 	SureFire XC1 tactical flashlight,
-	SureFire X400 Ultra tactical flashlight with laser,
+	Wilcox RAPTAR ES Tactical Rangefinder,
 	Zenit Perst-3 tactical device
 ]
 ChildParts=[
-	Kiba Arms 25mm accessory ring mount,
+	Glock GTL 21 tactical flashlight with laser,
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	LA-5B/PEQ tactical device,
+	NcSTAR Tactical blue laser LAM-module,
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
 	Zenit Klesch-2IKS IR illuminator with laser,
 	Zenit Klesch-2P flashlight with laser,
 	Zenit Klesch-2U tactical flashlight,
-	AN/PEQ-15 tactical device,
-	AN/PEQ-2 tactical device,
+	Zenit Perst-3 tactical device,
+	Kiba Arms 25mm accessory ring mount,
+	Daniel Defense 25mm accessory ring mount,
+	Olight Baldr Pro tactical flashlight with laser,
+	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Insight WMX200 tactical flashlight
+]
+ChildParts=[
 	Glock GTL 21 tactical flashlight with laser,
 	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	AN/PEQ-2 tactical device,
 	LA-5B/PEQ tactical device,
-	Steiner LAS/TAC 2 tactical flashlight,
 	NcSTAR Tactical blue laser LAM-module,
 	Steiner DBAL-PL tactical device,
-	SureFire XC1 tactical flashlight,
+	Steiner LAS/TAC 2 tactical flashlight,
 	SureFire X400 Ultra tactical flashlight with laser,
-	Zenit Perst-3 tactical device
+	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Zenit Perst-3 tactical device,
+	Kiba Arms 25mm accessory ring mount,
+	Daniel Defense 25mm accessory ring mount,
+	Olight Baldr Pro tactical flashlight with laser,
+	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Insight WMX200 tactical flashlight
 ]
 Recoil=0.000000
 Ergonomics=4.000000
@@ -72,15 +92,15 @@ Information_Eng=A quad rail handguard for 416 and compatibles. Comes with a buil
 basePrice=8350
 width=2
 height=1
-avg24hPrice=8620
-low24hPrice=5000
-lastOfferCount=3
+avg24hPrice=7318
+low24hPrice=4999
+lastOfferCount=14
 Sell_Prapor=4175
 Sell_Fence=3340
 Sell_Skier=4091
 Sell_Peacekeeper=32
 Sell_Mechanic=4676
-Sell_Flea Market=8888
+Sell_Flea Market=4999
 weight=0.430000
-fleaMarketFee=516
+fleaMarketFee=440
 propertiestype=ItemPropertiesWeaponMod

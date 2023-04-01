@@ -13,6 +13,9 @@ ChildParts=[
 	AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo (White)
 ]
 ChildParts=[
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher
+]
+ChildParts=[
 	AK-105 5.45x39 muzzle brake-compensator (6P44 0-20),
 	AK-74M 5.45x39 muzzle brake-compensator (6P20 0-20),
 	AK-74 5.45x39 muzzle brake-compensator (6P20 0-20),
@@ -42,27 +45,30 @@ ChildParts=[
 	AK bakelite pistol grip,
 	AK Strike Industries Enhanced Pistol Grip (Black),
 	AK Strike Industries Enhanced Pistol Grip (FDE),
-	AK TAPCO SAW-Style pistol grip (Black),
 	AK TAPCO SAW-Style pistol grip (FDE),
 	AK US Palm pistol grip,
 	AK Zenit RK-3 pistol grip,
-	PP-19-01 "Vityaz" pistol grip
+	PP-19-01 "Vityaz" pistol grip,
+	AK FAB Defense AGR-47 pistol grip,
+	AK TangoDown Battle Grip pistol grip,
+	AK TangoDown Battle Grip pistol grip (FDE),
+	AK TAPCO SAW-Style pistol grip (Black)
 ]
 ChildParts=[
-	RD-704 dust cover,
+	AK-74 dust cover (6P20 0-1),
+	AK-74M dust cover (6P34 0-1),
 	AK AKademia Bastion dust cover,
 	AK FAB Defense PDC dust cover,
-	AKM dust cover (6P1 0-1),
-	Molot AKM-type dust cover,
 	AK TWS Dog Leg Rail dust cover,
-	AK Zenit B-33 dust cover
+	AK Zenit B-33 dust cover,
+	RD-704 dust cover
 ]
 ChildParts=[
 	AK-105 rear sight (6P44 Sb.1-30),
 	AK-74 rear sight (6P20 Sb.2),
 	AK-74M rear sight (6P20 Sb.2),
-	AK RD Enhanced V2 Rear Sight,
-	AK Taktika Tula TT01 rear sight rail
+	AK Taktika Tula TT01 rear sight rail,
+	AK RD Enhanced V2 Rear Sight
 ]
 ChildParts=[
 	AKS-74/AKS-74U Zenit PT Lock,
@@ -82,7 +88,6 @@ ChildParts=[
 	RPK-16 5.45x39 95-round drum magazine
 ]
 ChildParts=[
-	SAG Bit low profile dovetail sidemount,
 	Axion Kobra EKP-8-02 reflex sight (Dovetail),
 	BelOMO PK-AA dovetail reflex sight,
 	OKP-7 reflex sight (Dovetail),
@@ -97,14 +102,12 @@ ChildParts=[
 	NPZ 1P78-1 dovetail mount,
 	VOMZ Pilad 043-02 dovetail mount,
 	Zenit B-13 "Klassika" dovetail rail platform,
-	Zenit B-13V "Klassika" dovetail rail platform
+	Zenit B-13V "Klassika" dovetail rail platform,
+	SAG Bit low profile dovetail sidemount
 ]
 ChildParts=[
 	AK CSS knurled charging handle,
 	AK Zenit RP-1 charging handle
-]
-ChildParts=[
-	GP-25 "Kostyor" 40mm underbarrel grenade launcher
 ]
 Conflict=[
 	Hera Arms CQR tactical foregrip,
@@ -115,15 +118,15 @@ Information_Eng=AKS-74N (Avtomat Kalashnikova Skladnoy 74 Nochnoy - "Kalashnikov
 basePrice=25490
 width=4
 height=1
-avg24hPrice=26752
-low24hPrice=20000
-lastOfferCount=14
+avg24hPrice=25791
+low24hPrice=19999
+lastOfferCount=20
 Sell_Prapor=12745
 Sell_Fence=10196
 Sell_Skier=12490
 Sell_Peacekeeper=98
 Sell_Mechanic=14274
-Sell_Flea Market=21000
+Sell_Flea Market=20000
 weight=2.092000
-fleaMarketFee=1402
+fleaMarketFee=1382
 propertiestype=ItemPropertiesWeapon

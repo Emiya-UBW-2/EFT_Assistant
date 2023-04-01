@@ -3,52 +3,58 @@ Name=HK MP5SD B&T tri-rail ring mount
 ShortName=SD TRR
 Itemtype=Mount
 ChildParts=[
-	NcSTAR Tactical blue laser LAM-module,
 	Glock GTL 21 tactical flashlight with laser,
 	Holosun LS321 Tactical device,
 	AN/PEQ-15 tactical device,
 	LA-5B/PEQ tactical device,
+	NcSTAR Tactical blue laser LAM-module,
 	Steiner DBAL-PL tactical device,
 	Steiner LAS/TAC 2 tactical flashlight,
 	SureFire X400 Ultra tactical flashlight with laser,
 	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
 	Zenit Klesch-2IKS IR illuminator with laser,
 	Zenit Klesch-2P flashlight with laser,
 	Zenit Klesch-2U tactical flashlight,
 	Zenit Perst-3 tactical device,
-	Kiba Arms 25mm accessory ring mount
+	Kiba Arms 25mm accessory ring mount,
+	Daniel Defense 25mm accessory ring mount
 ]
 ChildParts=[
-	NcSTAR Tactical blue laser LAM-module,
 	Glock GTL 21 tactical flashlight with laser,
 	Holosun LS321 Tactical device,
 	AN/PEQ-15 tactical device,
 	LA-5B/PEQ tactical device,
+	NcSTAR Tactical blue laser LAM-module,
 	Steiner DBAL-PL tactical device,
 	Steiner LAS/TAC 2 tactical flashlight,
 	SureFire X400 Ultra tactical flashlight with laser,
 	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
 	Zenit Klesch-2IKS IR illuminator with laser,
 	Zenit Klesch-2P flashlight with laser,
 	Zenit Klesch-2U tactical flashlight,
 	Zenit Perst-3 tactical device,
-	Kiba Arms 25mm accessory ring mount
+	Kiba Arms 25mm accessory ring mount,
+	Daniel Defense 25mm accessory ring mount
 ]
 ChildParts=[
-	NcSTAR Tactical blue laser LAM-module,
 	Glock GTL 21 tactical flashlight with laser,
 	Holosun LS321 Tactical device,
 	AN/PEQ-15 tactical device,
 	LA-5B/PEQ tactical device,
+	NcSTAR Tactical blue laser LAM-module,
 	Steiner DBAL-PL tactical device,
 	Steiner LAS/TAC 2 tactical flashlight,
 	SureFire X400 Ultra tactical flashlight with laser,
 	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
 	Zenit Klesch-2IKS IR illuminator with laser,
 	Zenit Klesch-2P flashlight with laser,
 	Zenit Klesch-2U tactical flashlight,
 	Zenit Perst-3 tactical device,
-	Kiba Arms 25mm accessory ring mount
+	Kiba Arms 25mm accessory ring mount,
+	Daniel Defense 25mm accessory ring mount
 ]
 Recoil=0.000000
 Ergonomics=-1.000000
@@ -56,16 +62,16 @@ Information_Eng=The Tri-Rail Ring mount by B&T is installed on the MP5SD silence
 basePrice=3284
 width=1
 height=1
-avg24hPrice=52785
-low24hPrice=25554
-lastOfferCount=15
+avg24hPrice=59603
+low24hPrice=29999
+lastOfferCount=4
 Sell_Prapor=1642
 Sell_Fence=1313
 Sell_Skier=1609
 Sell_Peacekeeper=13
 Sell_Mechanic=1839
 Sell_Jaeger=1970
-Sell_Flea Market=75999
+Sell_Flea Market=51000
 weight=0.082000
-fleaMarketFee=15866
+fleaMarketFee=8184
 propertiestype=ItemPropertiesWeaponMod

@@ -8,8 +8,6 @@ Conflict=[
 	Tagilla's welding mask "Gorilla",
 	Tagilla's welding mask "UBEY",
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A headpiece of the famous Ded Moroz ("Grandfather Frost"). A traditional Russian hat, if you want to get hammered hardcore style in the New Year's Eve.
 basePrice=500
 width=1

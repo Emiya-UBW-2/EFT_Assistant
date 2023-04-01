@@ -2,8 +2,38 @@ IDstr=630f27f04f3f6281050b94d7
 Name=Steyr AUG RAT Worx 5.56x45 muzzle device adapter
 ShortName=RatWorx
 Itemtype=Comb. muzzle device
+ChildParts=[
+	AR-15 AAC Blackout 51T 5.56x45 flash hider,
+	AR-15 ADAR 2-15 5.56x45 flash hider,
+	AR-15 AWC PSR 5.56x45 muzzle brake,
+	AR-15 Bulletec ST-6012 5.56x45 muzzle brake,
+	AR-15 Colt USGI A2 5.56x45 flash hider,
+	AR-15 Daniel Defense WAVE 5.56x45 muzzle brake,
+	Desert Tech 5.56x45 flash hider,
+	AR-15 Ferfrans CQB 5.56x45 muzzle brake,
+	AR-15 HK BLITZ 5.56x45 flash hider,
+	AR-15 KAC QDC 5.56x45 Flash Suppressor Kit,
+	AR-15 Nordic Components Corvette 5.56x45 compensator,
+	AR-15 Noveske KX3 5.56x45 flash hider,
+	AR-15 PWS CQB 5.56x45 muzzle brake,
+	AR-15 SilencerCo ASR 5.56x45 flash hider,
+	AR-15 SureFire SF3P 5.56x45 Flash hider,
+	AR-15 SureFire SF4P FH556RC 5.56x45 flash hider,
+	AR-15 SureFire WarComp 5.56x45 flash hider,
+	AR-15 TAA ZK-23 5.56x45 muzzle brake,
+	AR-15 Thunder Beast Arms 223CB 5.56x45 muzzle brake,
+	AR-15 TROY Claymore 5.56x45 muzzle brake,
+	AR-15 Vendetta Precision VP-09 Interceptor 5.56x45 muzzle brake,
+	Gemtech ONE Direct Thread Mount adapter,
+	SilencerCo Hybrid 46 Direct Thread Mount adapter,
+	Rotor 43 5.56x45 muzzle brake-compensator,
+	AR-15 Yankee Hill Phantom 5.56x45 flash hider,
+	KAC QDC 5.56x45 3-Prong Flash Eliminator,
+	AR-15 SureFire Warden 5.56x45 blast regulator,
+	AR-15 Griffin Armament Gate-LOK Hammer 5.56x45 flash hider
+]
 Conflict=[
-	Steyr AUG Relfex T4AUG Ranger 5.56x45 sound suppressor
+	Steyr AUG Relfex T4AUG Ranger 5.56x45 sound suppressor,
 ]
 Recoil=0.000000
 Ergonomics=-1.000000
@@ -11,15 +41,15 @@ Information_Eng=The RAT Worx adapter allows to install various AR-15 muzzle devi
 basePrice=3700
 width=1
 height=1
-avg24hPrice=14335
+avg24hPrice=13578
 low24hPrice=4143
-lastOfferCount=11
+lastOfferCount=6
 Sell_Prapor=1850
 Sell_Fence=1480
 Sell_Skier=1813
 Sell_Peacekeeper=14
 Sell_Mechanic=2072
-Sell_Flea Market=8000
+Sell_Flea Market=11999
 weight=0.120000
-fleaMarketFee=437
+fleaMarketFee=759
 propertiestype=ItemPropertiesWeaponMod

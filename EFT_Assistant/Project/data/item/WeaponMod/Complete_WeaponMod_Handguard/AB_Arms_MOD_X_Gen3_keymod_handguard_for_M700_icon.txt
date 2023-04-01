@@ -3,16 +3,30 @@ Name=M700 AB Arms MOD*X GEN 3 KeyMod handguard
 ShortName=MOD*X
 Itemtype=Handguard
 ChildParts=[
-	Monstrum Tactical Vertical Fore Grip KeyMod,
-	A3 Tactical MVF001 KeyMod vertical foregrip (Black),
-	SIG Sauer Vertical Foregrip KeyMod (Black),
-	Strike Industries KeyMod 6 inch rail,
-	Vltor CASV KeyMod 6 inch rail
+	Strike Industries KeyMod 4 inch rail,
+	Vltor CASV KeyMod 2 inch rail,
+	Vltor CASV KeyMod 4 inch rail,
+	CNC Guns KeyMod 4 inch rail
 ]
 ChildParts=[
 	Strike Industries KeyMod 4 inch rail,
 	Vltor CASV KeyMod 2 inch rail,
-	Vltor CASV KeyMod 4 inch rail
+	Vltor CASV KeyMod 4 inch rail,
+	CNC Guns KeyMod 2 inch rail
+]
+ChildParts=[
+	Strike Industries KeyMod 4 inch rail,
+	Vltor CASV KeyMod 2 inch rail,
+	Vltor CASV KeyMod 4 inch rail,
+	CNC Guns KeyMod 2 inch rail
+]
+ChildParts=[
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	LA-5B/PEQ tactical device,
+	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Perst-3 tactical device
 ]
 ChildParts=[
 	HK MP7 flip-up front sight,
@@ -25,12 +39,11 @@ ChildParts=[
 	MPX flip-up front sight
 ]
 ChildParts=[
-	Holosun LS321 Tactical device,
-	AN/PEQ-15 tactical device,
-	LA-5B/PEQ tactical device,
-	SureFire XC1 tactical flashlight,
-	Wilcox RAPTAR ES Tactical Rangefinder,
-	Zenit Perst-3 tactical device
+	Monstrum Tactical Vertical Fore Grip KeyMod,
+	A3 Tactical MVF001 KeyMod vertical foregrip (Black),
+	SIG Sauer Vertical Foregrip KeyMod (Black),
+	Strike Industries KeyMod 6 inch rail,
+	Vltor CASV KeyMod 6 inch rail
 ]
 Conflict=[
 	M700 extended multi-slot Weaver rail base
@@ -41,15 +54,15 @@ Information_Eng=The AB Arms MOD*X GEN 3 KeyMod handguard for M700 sniper rifles 
 basePrice=9900
 width=3
 height=1
-avg24hPrice=29460
+avg24hPrice=29369
 low24hPrice=16777
-lastOfferCount=5
+lastOfferCount=15
 Sell_Prapor=4950
 Sell_Fence=3960
 Sell_Skier=4851
 Sell_Peacekeeper=38
 Sell_Mechanic=5544
-Sell_Flea Market=18111
+Sell_Flea Market=28800
 weight=0.390000
-fleaMarketFee=960
+fleaMarketFee=1738
 propertiestype=ItemPropertiesWeaponMod

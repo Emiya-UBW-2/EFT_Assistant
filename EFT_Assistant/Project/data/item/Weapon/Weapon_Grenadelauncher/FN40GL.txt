@@ -2,6 +2,90 @@ IDstr=5e81ebcd8e146c7080625e15
 Name=FN40GL Mk2 40mm grenade launcher
 ShortName=FN40GL
 Itemtype=Grenade launcher
+ChildParts=[
+	AR-15 Colt A2 pistol grip,
+	AR-15 Damage Industries ECS pistol grip (FDE),
+	AR-15 F1 Firearms Skeletonized Style 1 pistol grip,
+	AR-15 F1 Firearms Skeletonized Style 2 PC pistol grip,
+	AR-15 F1 Firearms Skeletonized Style 2 pistol grip,
+	AR-15 HK Battle Grip pistol grip,
+	Hogue OverMolded Rubber Grip (Black),
+	Hogue OverMolded Rubber Grip (FDE),
+	Hogue OverMolded Rubber Grip (Ghillie Earth),
+	Hogue OverMolded Rubber Grip (Ghillie Green),
+	Hogue OverMolded Rubber Grip (Olive Drab),
+	AR-15 Magpul MIAD pistol grip (FDE),
+	AR-15 Tactical Dynamics Hexgrip pistol grip,
+	AR-15 Tactical Dynamics Skeletonized pistol grip
+]
+ChildParts=[
+	HK MP7 flip-up front sight,
+	KAC Folding Micro front sight,
+	KAC Folding front sight,
+	Magpul MBUS Gen2 flip-up front sight,
+	Magpul MBUS Gen2 flip-up front sight (FDE),
+	MPX flip-up front sight
+]
+ChildParts=[
+	HK 416A5 flip-up rear sight,
+	HK MP7 flip-up rear sight,
+	KAC Folding Micro rear sight,
+	KAC Folding rear sight,
+	Magpul MBUS Gen2 flip-up rear sight,
+	Magpul MBUS Gen2 flip-up rear sight (FDE),
+	MPX flip-up rear sight
+]
+ChildParts=[
+	Milkor M2A1 grenade launcher reflex sight
+]
+ChildParts=[
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	AN/PEQ-2 tactical device,
+	LA-5B/PEQ tactical device,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Perst-3 tactical device
+]
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser,
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	LA-5B/PEQ tactical device,
+	Insight WMX200 tactical flashlight,
+	NcSTAR Tactical blue laser LAM-module,
+	Olight Baldr Pro tactical flashlight with laser,
+	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Zenit Perst-3 tactical device,
+	Daniel Defense 25mm accessory ring mount,
+	Kiba Arms 25mm accessory ring mount
+]
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser,
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	LA-5B/PEQ tactical device,
+	Insight WMX200 tactical flashlight,
+	NcSTAR Tactical blue laser LAM-module,
+	Olight Baldr Pro tactical flashlight with laser,
+	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Zenit Perst-3 tactical device,
+	Daniel Defense 25mm accessory ring mount,
+	Kiba Arms 25mm accessory ring mount
+]
 Recoil=270.000000
 Ergonomics=51.000000
 Information_Eng=A standalone buttstock assembly with an attached FN40GL Mk2 grenade launcher. It is designed to use the full variety of NATO standard 40mm grenades. Manufactured by Fabrique Nationale Herstal.

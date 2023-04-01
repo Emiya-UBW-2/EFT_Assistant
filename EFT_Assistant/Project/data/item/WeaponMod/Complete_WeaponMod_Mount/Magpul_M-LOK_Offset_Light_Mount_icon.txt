@@ -2,22 +2,36 @@ IDstr=6269545d0e57f218e4548ca2
 Name=Magpul M-LOK Offset Light Mount
 ShortName=M-LOK Off
 Itemtype=Mount
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser,
+	Insight WMX200 tactical flashlight,
+	NcSTAR Tactical blue laser LAM-module,
+	Olight Baldr Pro tactical flashlight with laser,
+	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Kiba Arms 25mm accessory ring mount
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=Magpul M-LOK Offset Light/Optic mount allows installation of additional equipment on the handguards with the standard M-LOK interface.
 basePrice=1400
 width=1
 height=1
-avg24hPrice=11913
+avg24hPrice=12762
 low24hPrice=2000
-lastOfferCount=14
+lastOfferCount=18
 Sell_Prapor=700
 Sell_Fence=560
 Sell_Skier=686
 Sell_Peacekeeper=5
 Sell_Mechanic=784
 Sell_Jaeger=840
-Sell_Flea Market=11100
+Sell_Flea Market=5555
 weight=0.037000
-fleaMarketFee=1158
+fleaMarketFee=388
 propertiestype=ItemPropertiesWeaponMod

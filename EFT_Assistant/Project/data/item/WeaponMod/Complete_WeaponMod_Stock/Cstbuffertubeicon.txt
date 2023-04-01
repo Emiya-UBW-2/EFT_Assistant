@@ -11,6 +11,8 @@ ChildParts=[
 	AR-15 HK E1 buttstock,
 	AR-15 HK Slim Line buttstock,
 	AK-12 stock,
+	KRISS Defiance DS150 stock (Black),
+	KRISS Defiance DS150 stock (FDE),
 	LMT SOPMOD stock,
 	Magpul CTR Carbine stock (Black),
 	Magpul CTR Carbine stock (FDE),
@@ -24,9 +26,8 @@ ChildParts=[
 	MFT BUS stock,
 	Strike Industries Viper Mod 1 stock,
 	Vltor EMOD stock,
-	FAB Defense GL-CORE buttstock,
-	KRISS Defiance DS150 stock (FDE),
-	KRISS Defiance DS150 stock (Black)
+	SB Tactical SBA3 brace,
+	FAB Defense GL-CORE buttstock
 ]
 Recoil=-1.000000
 Ergonomics=0.000000
@@ -34,16 +35,16 @@ Information_Eng=Colt Receiver Extension Buffer Tube, 4-position, Mil-Spec diamet
 basePrice=1175
 width=2
 height=1
-avg24hPrice=11539
+avg24hPrice=11934
 low24hPrice=2500
-lastOfferCount=16
+lastOfferCount=14
 Sell_Prapor=587
 Sell_Fence=470
 Sell_Skier=575
 Sell_Peacekeeper=5
 Sell_Mechanic=658
 Sell_Jaeger=705
-Sell_Flea Market=8000
+Sell_Flea Market=6969
 weight=0.162000
-fleaMarketFee=760
+fleaMarketFee=609
 propertiestype=ItemPropertiesWeaponMod

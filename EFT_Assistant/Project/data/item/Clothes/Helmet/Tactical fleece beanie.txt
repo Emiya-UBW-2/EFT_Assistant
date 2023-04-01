@@ -9,20 +9,18 @@ Conflict=[
 	Pestily plague mask,
 	GP-7 gas mask,
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=Operate properly only in the tactical fleece hat. It's tactical.
 basePrice=4510
 width=1
 height=1
-avg24hPrice=6139
-low24hPrice=3332
-lastOfferCount=4
+avg24hPrice=5943
+low24hPrice=3100
+lastOfferCount=7
 Sell_Fence=1804
 Sell_Skier=2209
 Sell_Peacekeeper=17
 Sell_Ragman=2796
-Sell_Flea Market=8888
+Sell_Flea Market=3100
 weight=0.100000
-fleaMarketFee=476
+fleaMarketFee=239
 propertiestype=

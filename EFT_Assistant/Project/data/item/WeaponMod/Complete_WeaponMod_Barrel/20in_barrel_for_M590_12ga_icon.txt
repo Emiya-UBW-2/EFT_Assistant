@@ -2,13 +2,16 @@ IDstr=5e87071478f43e51ca2de5e1
 Name=Mossberg 590A1 12ga 20 inch barrel
 ShortName=590 20"
 Itemtype=Barrel
+ChildParts=[
+	Mossberg 590 Ghost Ring front sight
+]
 Recoil=-6.000000
 Ergonomics=-8.000000
 Information_Eng=A 20 inch (508mm) barrel for Mossberg 590A1 12 gauge pump-action shotgun.
 basePrice=9800
 width=3
 height=1
-avg24hPrice=55377
+avg24hPrice=49247
 low24hPrice=25000
 lastOfferCount=4
 Sell_Prapor=4900

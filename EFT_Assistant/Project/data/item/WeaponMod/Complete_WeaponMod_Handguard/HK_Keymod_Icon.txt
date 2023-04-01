@@ -3,15 +3,34 @@ Name=HK 416A5 MRS KeyMod 14 inch handguard
 ShortName=416A5 MRS 14"
 Itemtype=Handguard
 ChildParts=[
-	HK MP7 flip-up front sight,
-	KAC Folding Micro front sight,
-	KAC Folding front sight,
-	KRISS Defiance low profile flip-up front sight,
-	Magpul MBUS Gen2 flip-up front sight,
-	Magpul MBUS Gen2 flip-up front sight (FDE),
-	MCX flip-up front sight,
-	MPX flip-up front sight,
-	AR-15 Leapers UTG Low Profile A2 front sight
+	Strike Industries KeyMod 4 inch rail,
+	Vltor CASV KeyMod 2 inch rail,
+	Vltor CASV KeyMod 4 inch rail,
+	CNC Guns KeyMod 2 inch rail
+]
+ChildParts=[
+	Strike Industries KeyMod 4 inch rail,
+	Vltor CASV KeyMod 2 inch rail,
+	Vltor CASV KeyMod 4 inch rail,
+	CNC Guns KeyMod 2 inch rail
+]
+ChildParts=[
+	Strike Industries KeyMod 4 inch rail,
+	Vltor CASV KeyMod 2 inch rail,
+	Vltor CASV KeyMod 4 inch rail,
+	CNC Guns KeyMod 2 inch rail
+]
+ChildParts=[
+	Strike Industries KeyMod 4 inch rail,
+	Vltor CASV KeyMod 2 inch rail,
+	Vltor CASV KeyMod 4 inch rail,
+	CNC Guns KeyMod 2 inch rail
+]
+ChildParts=[
+	Strike Industries KeyMod 4 inch rail,
+	Vltor CASV KeyMod 2 inch rail,
+	Vltor CASV KeyMod 4 inch rail,
+	CNC Guns KeyMod 2 inch rail
 ]
 ChildParts=[
 	Holosun LS321 Tactical device,
@@ -23,26 +42,25 @@ ChildParts=[
 	Zenit Perst-3 tactical device
 ]
 ChildParts=[
+	NcSTAR MPR45 Backup mount
+]
+ChildParts=[
+	HK MP7 flip-up front sight,
+	KAC Folding Micro front sight,
+	KAC Folding front sight,
+	KRISS Defiance low profile flip-up front sight,
+	Magpul MBUS Gen2 flip-up front sight,
+	Magpul MBUS Gen2 flip-up front sight (FDE),
+	MCX flip-up front sight,
+	MPX flip-up front sight,
+	AR-15 Leapers UTG Low Profile A2 front sight
+]
+ChildParts=[
 	Monstrum Tactical Vertical Fore Grip KeyMod,
 	A3 Tactical MVF001 KeyMod vertical foregrip (Black),
 	SIG Sauer Vertical Foregrip KeyMod (Black),
 	Strike Industries KeyMod 6 inch rail,
 	Vltor CASV KeyMod 6 inch rail
-]
-ChildParts=[
-	Strike Industries KeyMod 4 inch rail,
-	Vltor CASV KeyMod 2 inch rail,
-	Vltor CASV KeyMod 4 inch rail,
-	CNC Guns KeyMod 2 inch rail
-]
-ChildParts=[
-	Strike Industries KeyMod 4 inch rail,
-	Vltor CASV KeyMod 2 inch rail,
-	Vltor CASV KeyMod 4 inch rail,
-	CNC Guns KeyMod 2 inch rail
-]
-ChildParts=[
-	NcSTAR MPR45 Backup mount
 ]
 Conflict=[
 	HK 416A5 5.56x45 10.6 inch barrel,
@@ -58,15 +76,15 @@ Information_Eng=The HK MRS KeyMod handguard for 416A5 equipped with a KeyMod int
 basePrice=13900
 width=3
 height=1
-avg24hPrice=16774
-low24hPrice=12500
-lastOfferCount=16
+avg24hPrice=16536
+low24hPrice=7800
+lastOfferCount=22
 Sell_Prapor=6950
 Sell_Fence=5560
 Sell_Skier=6811
 Sell_Peacekeeper=53
 Sell_Mechanic=7784
-Sell_Flea Market=16000
+Sell_Flea Market=7800
 weight=0.390000
-fleaMarketFee=897
+fleaMarketFee=735
 propertiestype=ItemPropertiesWeaponMod

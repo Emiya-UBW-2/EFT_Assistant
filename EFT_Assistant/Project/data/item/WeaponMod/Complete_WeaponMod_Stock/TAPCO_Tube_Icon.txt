@@ -23,7 +23,11 @@ ChildParts=[
 	Magpul MOE Carbine stock (Stealth Gray),
 	MFT BUS stock,
 	Strike Industries Viper Mod 1 stock,
-	Vltor EMOD stock
+	Vltor EMOD stock,
+	SB Tactical SBA3 brace,
+	CMMG RipStock buttstock,
+	Magpul PRS GEN3 stock (Black),
+	Magpul PRS GEN3 stock (Grey)
 ]
 Recoil=-1.000000
 Ergonomics=0.000000
@@ -31,7 +35,7 @@ Information_Eng=An AR-15-styled Mil-Spec buffer tube designed for the Intrafuse 
 basePrice=1672
 width=2
 height=1
-avg24hPrice=7949
+avg24hPrice=7754
 low24hPrice=2000
 lastOfferCount=3
 Sell_Prapor=836
@@ -40,7 +44,7 @@ Sell_Skier=819
 Sell_Peacekeeper=6
 Sell_Mechanic=936
 Sell_Jaeger=1003
-Sell_Flea Market=7800
+Sell_Flea Market=5569
 weight=0.190000
-fleaMarketFee=594
+fleaMarketFee=357
 propertiestype=ItemPropertiesWeaponMod

@@ -7,6 +7,10 @@ ChildParts=[
 	Magpul M-LOK Cantilever Mount
 ]
 ChildParts=[
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Cantilever Mount
+]
+ChildParts=[
 	NcSTAR MPR45 Backup mount
 ]
 ChildParts=[
@@ -30,25 +34,75 @@ ChildParts=[
 	AR-15 SAI JailBrake 5.56x45 muzzle device
 ]
 ChildParts=[
-	AN/PEQ-15 tactical device,
-	Zenit Klesch-2P flashlight with laser,
-	SureFire X400 Ultra tactical flashlight with laser,
-	Kiba Arms 25mm accessory ring mount,
 	Holosun LS321 Tactical device,
-	Zenit Klesch-2IKS IR illuminator with laser,
-	SureFire XC1 tactical flashlight,
-	Glock GTL 21 tactical flashlight with laser,
-	Steiner LAS/TAC 2 tactical flashlight,
-	Zenit Klesch-2U tactical flashlight,
+	AN/PEQ-15 tactical device,
+	AN/PEQ-2 tactical device,
 	LA-5B/PEQ tactical device,
-	Zenit Perst-3 tactical device,
+	SureFire XC1 tactical flashlight,
+	Zenit Perst-3 tactical device
+]
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser,
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	LA-5B/PEQ tactical device,
 	NcSTAR Tactical blue laser LAM-module,
 	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
 	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Zenit Perst-3 tactical device,
+	Kiba Arms 25mm accessory ring mount,
 	Daniel Defense 25mm accessory ring mount,
-	Insight WMX200 tactical flashlight,
 	Olight Baldr Pro tactical flashlight with laser,
-	Olight Baldr Pro tactical flashlight with laser (Tan)
+	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Insight WMX200 tactical flashlight
+]
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser,
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	LA-5B/PEQ tactical device,
+	NcSTAR Tactical blue laser LAM-module,
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Zenit Perst-3 tactical device,
+	Kiba Arms 25mm accessory ring mount,
+	Daniel Defense 25mm accessory ring mount,
+	Olight Baldr Pro tactical flashlight with laser,
+	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Insight WMX200 tactical flashlight
+]
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser,
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	LA-5B/PEQ tactical device,
+	NcSTAR Tactical blue laser LAM-module,
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Zenit Perst-3 tactical device,
+	Kiba Arms 25mm accessory ring mount,
+	Daniel Defense 25mm accessory ring mount,
+	Olight Baldr Pro tactical flashlight with laser,
+	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Insight WMX200 tactical flashlight
 ]
 Conflict=[
 	AR-10 JP Enterprises Gas System-6,
@@ -62,15 +116,15 @@ Information_Eng=The Salient Arms International QD Rail handguard for AR-15 equip
 basePrice=29100
 width=3
 height=1
-avg24hPrice=127809
+avg24hPrice=135331
 low24hPrice=84444
-lastOfferCount=20
+lastOfferCount=15
 Sell_Prapor=14550
 Sell_Fence=11640
 Sell_Skier=14259
 Sell_Peacekeeper=112
 Sell_Mechanic=16296
-Sell_Flea Market=99999
+Sell_Flea Market=95000
 weight=0.355000
-fleaMarketFee=6499
+fleaMarketFee=6028
 propertiestype=ItemPropertiesWeaponMod

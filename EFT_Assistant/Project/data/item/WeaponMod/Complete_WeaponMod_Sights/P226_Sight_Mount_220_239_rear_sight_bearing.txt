@@ -3,21 +3,26 @@ Name=P226 Sight Mount 220-239 rear sight bearing
 ShortName=SM220-239
 Itemtype=Ironsight
 SightRange=200
+ChildParts=[
+	Burris FastFire Weaver Base,
+	DeltaPoint Cross Slot Mount base,
+	Trijicon RMR low profile mount
+]
 Recoil=0.000000
 Ergonomics=-2.000000
 Information_Eng=The 220-239 rear sight bearing manufactured by Sight Mount for SIG Sauer 220, 226, 227, 229, 239 pistols. It is installed as a replacement of the standard rear sight and allows to use it even if no scope is installed.
 basePrice=3819
 width=1
 height=1
-avg24hPrice=6049
-low24hPrice=3000
-lastOfferCount=7
+avg24hPrice=5532
+low24hPrice=2999
+lastOfferCount=8
 Sell_Prapor=1909
 Sell_Fence=1527
 Sell_Skier=1871
 Sell_Peacekeeper=15
 Sell_Mechanic=2138
-Sell_Flea Market=5000
+Sell_Flea Market=3000
 weight=0.028000
-fleaMarketFee=269
+fleaMarketFee=207
 propertiestype=ItemPropertiesScope

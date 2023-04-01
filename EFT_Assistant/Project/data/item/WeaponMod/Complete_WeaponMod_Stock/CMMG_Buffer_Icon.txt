@@ -2,13 +2,40 @@ IDstr=606587e18900dc2d9a55b65f
 Name=CMMG buffer tube
 ShortName=CMMG
 Itemtype=Stock
+ChildParts=[
+	AR-15 B5 Systems Precision stock,
+	CMMG RipStock buttstock,
+	FAB Defense GL-SHOCK buttstock,
+	FAB Defense GLR-16-S stock,
+	High Standard M4SS Stock,
+	AR-15 HK E1 buttstock,
+	AR-15 HK Slim Line buttstock,
+	AK-12 stock,
+	KRISS Defiance DS150 stock (Black),
+	KRISS Defiance DS150 stock (FDE),
+	LMT SOPMOD stock,
+	Magpul CTR Carbine stock (Black),
+	Magpul CTR Carbine stock (FDE),
+	Magpul MOE Carbine stock (Black),
+	Magpul MOE Carbine stock (FDE),
+	Magpul MOE Carbine stock (Foliage Green),
+	Magpul MOE Carbine stock (Olive Drab),
+	Magpul MOE Carbine stock (Stealth Gray),
+	Magpul PRS GEN3 stock (Black),
+	Magpul PRS GEN3 stock (Grey),
+	MFT BUS stock,
+	Strike Industries Viper Mod 1 stock,
+	Vltor EMOD stock,
+	SB Tactical SBA3 brace,
+	FAB Defense GL-CORE buttstock
+]
 Recoil=-2.000000
 Ergonomics=0.000000
 Information_Eng=A Mil-Spec buffer tube for attaching various buttstocks. Manufactured by CMMG.
 basePrice=3800
 width=2
 height=1
-avg24hPrice=8999
+avg24hPrice=9088
 low24hPrice=4000
 lastOfferCount=8
 Sell_Prapor=1900
@@ -17,7 +44,7 @@ Sell_Skier=1862
 Sell_Peacekeeper=15
 Sell_Mechanic=2128
 Sell_Jaeger=2280
-Sell_Flea Market=8800
+Sell_Flea Market=4000
 weight=0.132000
-fleaMarketFee=490
+fleaMarketFee=233
 propertiestype=ItemPropertiesWeaponMod

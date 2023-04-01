@@ -11,8 +11,6 @@ Conflict=[
 	T-7 Thermal Goggles with a Night Vision mount,
 	Norotos Titanium Advanced Tactical Mount
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A special high-strength ballistic visor for the Ops-Core FAST helmet, used by the special forces assault teams.
 basePrice=26641
 width=2

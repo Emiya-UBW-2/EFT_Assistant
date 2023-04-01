@@ -13,14 +13,16 @@ ChildParts=[
 	Trijicon RMR low profile mount
 ]
 ChildParts=[
-	NcSTAR Tactical blue laser LAM-module,
 	Glock GTL 21 tactical flashlight with laser,
+	NcSTAR Tactical blue laser LAM-module,
 	Steiner DBAL-PL tactical device,
 	Steiner LAS/TAC 2 tactical flashlight,
 	SureFire X400 Ultra tactical flashlight with laser,
 	SureFire XC1 tactical flashlight,
 	Zenit Klesch-2IKS IR illuminator with laser,
-	Zenit Klesch-2P flashlight with laser
+	Zenit Klesch-2P flashlight with laser,
+	Olight Baldr Pro tactical flashlight with laser,
+	Olight Baldr Pro tactical flashlight with laser (Tan)
 ]
 Conflict=[
 	Glock Aimtech Tiger Shark sight mount,
@@ -31,16 +33,16 @@ Information_Eng=The UM Tactical UM3 sight mount. Allows mounting of additional r
 basePrice=5620
 width=1
 height=1
-avg24hPrice=20082
+avg24hPrice=19269
 low24hPrice=9000
-lastOfferCount=3
+lastOfferCount=2
 Sell_Prapor=2810
 Sell_Fence=2248
 Sell_Skier=2753
 Sell_Peacekeeper=22
 Sell_Mechanic=3147
 Sell_Jaeger=3372
-Sell_Flea Market=9000
+Sell_Flea Market=14000
 weight=0.120000
-fleaMarketFee=474
+fleaMarketFee=797
 propertiestype=ItemPropertiesWeaponMod

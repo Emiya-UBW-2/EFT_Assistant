@@ -7,20 +7,18 @@ Conflict=[
 	Tagilla's welding mask "Gorilla",
 	Tagilla's welding mask "UBEY",
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=The MSA Advanced Combat Helmet (ACH) delivers advanced ballistic, fragmentation, and impact head protection, with comfort for long-term use. The helmet’s low-profile design reduces the risk of interference in target acquisition and ensures compatibility with NVGs and headsets.
 basePrice=49100
 width=2
 height=2
-avg24hPrice=51103
-low24hPrice=38000
-lastOfferCount=27
+avg24hPrice=53410
+low24hPrice=45000
+lastOfferCount=14
 Sell_Fence=19640
 Sell_Skier=24059
 Sell_Peacekeeper=189
 Sell_Ragman=30442
-Sell_Flea Market=45000
+Sell_Flea Market=47700
 weight=1.450000
-fleaMarketFee=2815
+fleaMarketFee=2897
 propertiestype=ItemPropertiesHelmet

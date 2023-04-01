@@ -17,14 +17,8 @@ ChildParts=[
 	MP-133 12ga 750mm barrel with rib
 ]
 ChildParts=[
-	MP-133 beechwood forestock,
-	MP-133 custom plastic forestock with rails
-]
-ChildParts=[
-	MP-133/153 wooden stock,
-	MP-133/153 Taktika Tula 12003 stock adapter,
-	MP-133/153 plastic pistol grip,
-	MP-133/153 plastic stock
+	MP-133 custom plastic forestock with rails,
+	MP-133 beechwood forestock
 ]
 ChildParts=[
 	MP-133 12ga 6-shell magazine,
@@ -34,6 +28,12 @@ ChildParts=[
 	MP-153 12ga 6-shell magazine,
 	MP-153 12ga 7-shell magazine,
 	MP-153 12ga 8-shell magazine
+]
+ChildParts=[
+	MP-133/153 Taktika Tula 12003 stock adapter,
+	MP-133/153 plastic pistol grip,
+	MP-133/153 plastic stock,
+	MP-133/153 wooden stock
 ]
 ChildParts=[
 	Kiba Arms SPRM rail mount for pump-action shotguns
@@ -47,16 +47,16 @@ Information_Eng=The MP-133 is a multi-shot pump-action shotgun produced by IzhMe
 basePrice=14443
 width=3
 height=1
-avg24hPrice=25741
+avg24hPrice=26540
 low24hPrice=18000
-lastOfferCount=8
+lastOfferCount=5
 Sell_Prapor=7221
 Sell_Fence=5777
 Sell_Skier=7077
 Sell_Peacekeeper=56
 Sell_Mechanic=8088
 Sell_Jaeger=8665
-Sell_Flea Market=23000
+Sell_Flea Market=22900
 weight=1.100000
-fleaMarketFee=1210
+fleaMarketFee=1205
 propertiestype=ItemPropertiesWeapon

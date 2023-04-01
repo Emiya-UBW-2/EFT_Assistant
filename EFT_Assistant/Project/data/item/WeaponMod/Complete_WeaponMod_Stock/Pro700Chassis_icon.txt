@@ -3,21 +3,29 @@ Name=M700 Magpul Pro 700 chassis
 ShortName=Pro700
 Itemtype=Stock
 ChildParts=[
-	Magpul M-LOK 4.1 inch rail,
-	Magpul M-LOK AFG tactical foregrip (FDE),
-	Magpul M-LOK AFG tactical foregrip (Olive Drab),
-	Magpul M-LOK AFG tactical foregrip (Stealth Gray),
-	Magpul M-LOK AFG tactical foregrip (Black)
-]
-ChildParts=[
-	M700 Magpul Pro 700 chassis inline mount,
-	Magpul M-LOK 2.5 inch rail
+	M700 Magpul Pro 700 folding stock
 ]
 ChildParts=[
 	M700 Magpul Pro 700 pistol grip
 ]
 ChildParts=[
-	M700 Magpul Pro 700 folding stock
+	M700 Magpul Pro 700 chassis inline mount
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail
+]
+ChildParts=[
+	Magpul M-LOK AFG tactical foregrip (Black),
+	Magpul M-LOK AFG tactical foregrip (FDE),
+	Magpul M-LOK AFG tactical foregrip (Olive Drab),
+	Magpul M-LOK AFG tactical foregrip (Stealth Gray),
+	Magpul M-LOK 4.1 inch rail
 ]
 Conflict=[
 	M700 7.62x51 ProMag AA-70 10-round magazine,
@@ -31,16 +39,16 @@ Information_Eng=Pro 700 is a lightweight ergonomic chassis designed for the Remi
 basePrice=17972
 width=3
 height=1
-avg24hPrice=19819
+avg24hPrice=19808
 low24hPrice=15500
-lastOfferCount=7
+lastOfferCount=14
 Sell_Prapor=8986
 Sell_Fence=7188
 Sell_Skier=8806
 Sell_Peacekeeper=69
 Sell_Mechanic=10064
 Sell_Jaeger=10783
-Sell_Flea Market=15500
+Sell_Flea Market=21000
 weight=1.720000
-fleaMarketFee=1005
+fleaMarketFee=1170
 propertiestype=ItemPropertiesWeaponMod

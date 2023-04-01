@@ -2,21 +2,43 @@ IDstr=5de7bd7bfd6b4e6e2276dc25
 Name=B&T MP9-N 9x19 submachine gun
 ShortName=MP9-N
 Itemtype=SMG
-Recoil=0.000000
+ChildParts=[
+	MP9 9x19 15-round magazine,
+	MP9 9x19 20-round magazine,
+	MP9 9x19 25-round magazine,
+	MP9 9x19 30-round magazine
+]
+ChildParts=[
+	MP9 9x19 sound suppressor mount
+]
+ChildParts=[
+	MP9 stock
+]
+ChildParts=[
+	MP9-N vertical foregrip
+]
+ChildParts=[
+	MP9-N 9x19 upper receiver,
+	MP9 9x19 upper receiver
+]
+ChildParts=[
+	MP9 charging handle
+]
+Recoil=60.000000
 Ergonomics=75.000000
 Information_Eng=MP9-N is the further modification of the MP9 submachine gun, which was refined and optimized in cooperation with special units from police and military. MP9-N is currently in service with close protection teams as well as with SWAT teams worldwide. It is also a perfect choice as a Personal Defense Weapon (PDW).
 basePrice=18500
 width=2
 height=1
-avg24hPrice=20821
+avg24hPrice=20710
 low24hPrice=15000
-lastOfferCount=19
+lastOfferCount=10
 Sell_Prapor=9250
 Sell_Fence=7400
 Sell_Skier=9065
 Sell_Peacekeeper=71
 Sell_Mechanic=10360
-Sell_Flea Market=18000
+Sell_Flea Market=19999
 weight=0.750000
-fleaMarketFee=1093
+fleaMarketFee=1151
 propertiestype=ItemPropertiesWeapon

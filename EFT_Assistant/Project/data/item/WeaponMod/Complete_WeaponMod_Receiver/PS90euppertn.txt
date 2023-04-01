@@ -2,6 +2,16 @@ IDstr=5cf7acfcd7f00c1084477cf2
 Name=FN PS90 5.7x28 upper receiver
 ShortName=PS90
 Itemtype=Receiver
+ChildParts=[
+	FN P90 Ring Sight reflex sight,
+	FN P90 upper receiver top rail
+]
+ChildParts=[
+	FN P90 upper receiver side rail
+]
+ChildParts=[
+	FN P90 upper receiver side rail
+]
 Recoil=0.000000
 Ergonomics=-5.000000
 Information_Eng=A regular upper receiver for the PS90, produced by Fabrique Nationale Herstal.

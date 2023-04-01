@@ -8,11 +8,11 @@ ChildParts=[
 ]
 ChildParts=[
 	AR-10 2A Armanent X3 7.62x51 compensator,
-	Gemtech ONE Direct Thread Mount adapter,
-	SilencerCo Hybrid 46 Direct Thread Mount adapter,
 	AR-10 Lantac Drakon 7.62x51 muzzle brake-compensator,
 	AR-10 Odin Works ATLAS-7 7.62x51 muzzle brake,
-	M14 Smith Enterprise Vortex 7.62x51 muzzle brake
+	M14 Smith Enterprise Vortex 7.62x51 muzzle brake,
+	Gemtech ONE Direct Thread Mount adapter,
+	SilencerCo Hybrid 46 Direct Thread Mount adapter
 ]
 Recoil=-3.000000
 Ergonomics=-1.000000
@@ -20,7 +20,7 @@ Information_Eng=A muzzle brake/gas block for M1A rifles, manufactured by Smith E
 basePrice=4909
 width=1
 height=1
-avg24hPrice=16185
+avg24hPrice=18078
 low24hPrice=5555
 lastOfferCount=0
 Sell_Prapor=2454
@@ -28,7 +28,7 @@ Sell_Fence=1963
 Sell_Skier=2405
 Sell_Peacekeeper=19
 Sell_Mechanic=2749
-Sell_Flea Market=5555
+Sell_Flea Market=15000
 weight=0.110000
-fleaMarketFee=313
+fleaMarketFee=924
 propertiestype=ItemPropertiesWeaponMod

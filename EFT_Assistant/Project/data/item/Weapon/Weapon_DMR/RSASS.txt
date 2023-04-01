@@ -3,10 +3,6 @@ Name=Remington R11 RSASS 7.62x51 marksman rifle
 ShortName=RSASS
 Itemtype=Marksman rifle
 ChildParts=[
-	AR-10 7.62x51 18 inch barrel,
-	AR-10 7.62x51 22 inch barrel
-]
-ChildParts=[
 	AR-15 Colt A2 pistol grip,
 	AR-15 Damage Industries ECS pistol grip (FDE),
 	AR-15 DLG Tactical DLG-123 pistol grip,
@@ -35,23 +31,9 @@ ChildParts=[
 	AR-15 Tactical Dynamics Skeletonized pistol grip
 ]
 ChildParts=[
-	HK MP7 flip-up rear sight,
-	KAC Folding Micro rear sight,
-	KAC Folding rear sight,
-	KRISS Defiance low profile flip-up rear sight,
-	Magpul MBUS Gen2 flip-up rear sight,
-	Magpul MBUS Gen2 flip-up rear sight (FDE),
-	MCX flip-up rear sight,
-	MPX flip-up rear sight
-]
-ChildParts=[
-	AR-10 CMMG MK3 RML15 15 inch M-LOK handguard,
-	AR-10 CMMG MK3 RML9 9 inch M-LOK handguard,
-	AR-10 KAC URX 4 14.5 inch handguard,
-	AR-10 Lancer LCH7 12.5 inch M-LOK handguard,
-	AR-10 Noveske SWS N6 10.5 inch handguard,
-	AR-10 Noveske SWS N6 Split handguard,
-	R11 RSASS handguard
+	AR-10 7.62x51 KAC 10-round steel magazine,
+	AR-10 7.62x51 KAC 20-round steel magazine,
+	AR-10 7.62x51 Magpul PMAG 20 SR-LR GEN M3 20-round magazine
 ]
 ChildParts=[
 	AR-15 Colt A2 buffer tube,
@@ -67,9 +49,17 @@ ChildParts=[
 	AR-15 RTM ATP buffer tube
 ]
 ChildParts=[
-	AR-10 7.62x51 KAC 10-round steel magazine,
-	AR-10 7.62x51 KAC 20-round steel magazine,
-	AR-10 7.62x51 Magpul PMAG 20 SR-LR GEN M3 20-round magazine
+	AR-10 CMMG MK3 RML15 15 inch M-LOK handguard,
+	AR-10 CMMG MK3 RML9 9 inch M-LOK handguard,
+	AR-10 KAC URX 4 14.5 inch handguard,
+	AR-10 Lancer LCH7 12.5 inch M-LOK handguard,
+	AR-10 Noveske SWS N6 10.5 inch handguard,
+	AR-10 Noveske SWS N6 Split handguard,
+	R11 RSASS handguard
+]
+ChildParts=[
+	AR-10 7.62x51 18 inch barrel,
+	AR-10 7.62x51 22 inch barrel
 ]
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope,
@@ -127,7 +117,19 @@ ChildParts=[
 	Trijicon RMR low profile mount,
 	Trijicon TA51 sight mount,
 	UNV DLOC-IRD sight mount,
-	Leapers UTG 25mm ring scope mount
+	Leapers UTG 25mm ring scope mount,
+	SwampFox Trihawk Prism Scope 3x30,
+	AI AX-50 34mm scope mount
+]
+ChildParts=[
+	HK MP7 flip-up rear sight,
+	KAC Folding Micro rear sight,
+	KAC Folding rear sight,
+	KRISS Defiance low profile flip-up rear sight,
+	Magpul MBUS Gen2 flip-up rear sight,
+	Magpul MBUS Gen2 flip-up rear sight (FDE),
+	MCX flip-up rear sight,
+	MPX flip-up rear sight
 ]
 Recoil=245.000000
 Ergonomics=50.000000

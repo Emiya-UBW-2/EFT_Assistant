@@ -2,22 +2,48 @@ IDstr=6259b864ebedf17603599e88
 Name=Benelli M3 Super 90 dual-mode 12ga shotgun
 ShortName=M3 Super 90
 Itemtype=Shotgun
-Recoil=0.000000
+ChildParts=[
+	Benelli M3 Super 90 12ga 500mm barrel
+]
+ChildParts=[
+	Benelli M3 forend
+]
+ChildParts=[
+	Benelli M3 Super 90 12ga 5-shell magazine cap,
+	Benelli M3 Super 90 12ga Toni System 11-shell magazine,
+	Benelli M3 Super 90 12ga Toni System 13-shell magazine,
+	Benelli M3 Super 90 12ga Toni System 9-shell magazine,
+	Benelli M3 Super 90 12ga 7-shell magazine
+]
+ChildParts=[
+	Benelli M3 telescopic stock,
+	Benelli M3 Mesa Tactical Urbino stock
+]
+ChildParts=[
+	Benelli M3 Super 90 upper receiver top rail
+]
+ChildParts=[
+	Benelli M3 Ghost Ring rear sight
+]
+ChildParts=[
+	Benelli M3 Super 90 charging handle
+]
+Recoil=440.000000
 Ergonomics=42.000000
 Information_Eng=The Benelli M3 S90 is a dual-mode shotgun designed and manufactured by Benelli. The M3 is notable for allowing the user to choose between semi-automatic or pump-action operation. Benelli shotguns show excellent ballistic performance, and the finish and fine workmanship are the epitome of traditional Italian style.
 basePrice=14102
 width=3
 height=1
-avg24hPrice=41188
-low24hPrice=34444
-lastOfferCount=10
+avg24hPrice=43517
+low24hPrice=34000
+lastOfferCount=19
 Sell_Prapor=7051
 Sell_Fence=5640
 Sell_Skier=6909
 Sell_Peacekeeper=54
 Sell_Mechanic=7897
 Sell_Jaeger=8461
-Sell_Flea Market=38111
+Sell_Flea Market=40000
 weight=1.220000
-fleaMarketFee=2233
+fleaMarketFee=2389
 propertiestype=ItemPropertiesWeapon

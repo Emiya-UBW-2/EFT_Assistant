@@ -2,22 +2,37 @@ IDstr=5f2a9575926fd9352339381f
 Name=Kel-Tec RFB 7.62x51 rifle
 ShortName=RFB
 Itemtype=Marksman rifle
-Recoil=0.000000
+ChildParts=[
+	SA-58/FAL 7.62x51 10-round magazine,
+	SA-58/FAL 7.62x51 20-round magazine,
+	SA-58/FAL 7.62x51 30-round magazine,
+	SA-58/FAL 7.62x51 MMW polymer 20-round magazine,
+]
+ChildParts=[
+	RFB 7.62x51 18 inch barrel
+]
+ChildParts=[
+	RFB handguard
+]
+ChildParts=[
+	RFB scope rail mount
+]
+Recoil=173.000000
 Ergonomics=48.000000
 Information_Eng=The Kel-Tec RFB (Rifle, Forward-ejection, Bullpup) is a gas-operated bullpup type semi-automatic rifle, manufactured by Kel-Tec. Chambered in 7.62x51mm NATO/.308 Winchester ammunition. The RFB uses metric FAL magazines, which insert straight into the magazine well and do not need to rock into place. The weapon is fully ambidextrous, much in the style of the Belgian F2000 rifle. The RFB is delivered without iron sights. A mil-spec Picatinny rail is provided for mounting a wide range of optics and tactical accessories.
 basePrice=23300
 width=4
 height=1
-avg24hPrice=48669
+avg24hPrice=48617
 low24hPrice=37420
-lastOfferCount=22
+lastOfferCount=23
 Sell_Prapor=11650
 Sell_Fence=9320
 Sell_Skier=11417
 Sell_Peacekeeper=90
 Sell_Mechanic=13048
 Sell_Jaeger=13980
-Sell_Flea Market=41000
+Sell_Flea Market=43999
 weight=1.950000
-fleaMarketFee=2165
+fleaMarketFee=2341
 propertiestype=ItemPropertiesWeapon

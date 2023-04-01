@@ -2,22 +2,28 @@ IDstr=616554fe50224f204c1da2aa
 Name=Aimpoint Micro H-2 Standard Mount
 ShortName=H-2
 Itemtype=Mount
+ChildParts=[
+	Aimpoint Micro H-2 reflex sight,
+	Aimpoint Micro T-1 reflex sight,
+	SIG Sauer ROMEO4 reflex sight,
+	Aimpoint Micro Spacer High
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=Aimpoint Micro Standard Mount is a base mount for H-2 sights of the Micro series. Backwards-compatible with both T-1 and H-1 series reflex sights.
 basePrice=2550
 width=1
 height=1
-avg24hPrice=15544
+avg24hPrice=14835
 low24hPrice=5555
-lastOfferCount=16
+lastOfferCount=9
 Sell_Prapor=1275
 Sell_Fence=1020
 Sell_Skier=1249
 Sell_Peacekeeper=10
 Sell_Mechanic=1428
 Sell_Jaeger=1530
-Sell_Flea Market=7777
+Sell_Flea Market=6999
 weight=0.015000
-fleaMarketFee=479
+fleaMarketFee=413
 propertiestype=ItemPropertiesWeaponMod

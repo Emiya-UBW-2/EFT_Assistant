@@ -30,7 +30,8 @@ ChildParts=[
 	Rotor 43 5.56x45 muzzle brake-compensator,
 	KAC QDC 5.56x45 3-Prong Flash Eliminator,
 	AR-15 SureFire Warden 5.56x45 blast regulator,
-	AR-15 Yankee Hill Phantom 5.56x45 flash hider
+	AR-15 Yankee Hill Phantom 5.56x45 flash hider,
+	AR-15 Griffin Armament Gate-LOK Hammer 5.56x45 flash hider
 ]
 ChildParts=[
 	M4A1 front sight with gas block,
@@ -65,16 +66,16 @@ Information_Eng=A 260mm barrel for AR-15 based weapons for 5.56x45 NATO ammo. Co
 basePrice=19118
 width=2
 height=1
-avg24hPrice=20215
+avg24hPrice=20114
 low24hPrice=14200
-lastOfferCount=35
+lastOfferCount=34
 Sell_Prapor=9559
 Sell_Fence=7647
 Sell_Skier=9367
 Sell_Peacekeeper=74
 Sell_Mechanic=10706
 Sell_Jaeger=11470
-Sell_Flea Market=14444
+Sell_Flea Market=18000
 weight=0.409000
-fleaMarketFee=1027
+fleaMarketFee=1110
 propertiestype=ItemPropertiesBarrel

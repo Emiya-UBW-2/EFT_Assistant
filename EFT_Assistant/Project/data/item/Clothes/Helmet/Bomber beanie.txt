@@ -8,20 +8,18 @@ Conflict=[
 	Tagilla's welding mask "Gorilla",
 	Tagilla's welding mask "UBEY",
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A heraldic symbol of urban vagabonds. You need to wear it correctly, otherwise, the magic properties of the beanie will cease to work.
 basePrice=29700
 width=1
 height=1
-avg24hPrice=20128
+avg24hPrice=20732
 low24hPrice=15000
-lastOfferCount=11
+lastOfferCount=7
 Sell_Fence=11880
 Sell_Skier=14553
 Sell_Peacekeeper=114
 Sell_Ragman=18414
-Sell_Flea Market=17777
+Sell_Flea Market=15000
 weight=0.100000
-fleaMarketFee=1563
+fleaMarketFee=1592
 propertiestype=ItemPropertiesHelmet

@@ -3,6 +3,12 @@ Name=AR-15 rear sight carry handle
 ShortName=CHandle
 Itemtype=Ironsight
 SightRange=600
+ChildParts=[
+	Kiba Arms Short Prism 2.5x scope,
+	Trijicon ACOG TA01NSN 4x32 scope (Black),
+	Trijicon ACOG TA01NSN 4x32 scope (Tan),
+	Trijicon ACOG TA11D 3.5x35 scope
+]
 Conflict=[
 	ELCAN SpecterDR 1x/4x scope,
 	ELCAN SpecterDR 1x/4x scope (FDE),
@@ -63,8 +69,8 @@ Information_Eng=A detachable carry handle with a rear sight for AR-15 rifles. St
 basePrice=823
 width=1
 height=1
-avg24hPrice=7777
-low24hPrice=7777
+avg24hPrice=0
+low24hPrice=0
 lastOfferCount=1
 Sell_Prapor=411
 Sell_Fence=329

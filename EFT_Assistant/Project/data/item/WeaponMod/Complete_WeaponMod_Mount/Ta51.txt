@@ -2,6 +2,11 @@ IDstr=59db7eed86f77461f8380365
 Name=Trijicon TA51 sight mount
 ShortName=TA51
 Itemtype=Mount
+ChildParts=[
+	Trijicon ACOG TA01NSN 4x32 scope (Black),
+	Trijicon ACOG TA01NSN 4x32 scope (Tan),
+	Trijicon ACOG TA11D 3.5x35 scope
+]
 Conflict=[
 	AR-15 Colt A2 rear sight,
 	AR-15 rear sight carry handle,
@@ -15,16 +20,16 @@ Information_Eng=The TA51 universal mount for installation of Trijicon 3.5x35, 4x
 basePrice=4268
 width=1
 height=1
-avg24hPrice=31844
+avg24hPrice=22881
 low24hPrice=14400
-lastOfferCount=2
+lastOfferCount=7
 Sell_Prapor=2134
 Sell_Fence=1707
 Sell_Skier=2091
 Sell_Peacekeeper=16
 Sell_Mechanic=2390
 Sell_Jaeger=2560
-Sell_Flea Market=32420
+Sell_Flea Market=15420
 weight=0.113000
-fleaMarketFee=3294
+fleaMarketFee=1027
 propertiestype=ItemPropertiesWeaponMod

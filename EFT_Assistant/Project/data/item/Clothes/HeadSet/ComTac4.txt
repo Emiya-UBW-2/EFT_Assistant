@@ -5,19 +5,17 @@ Itemtype=Headphones
 Conflict=[
 	Ops-Core FAST RAC Headset,
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=The ComTac IV Hybrid Communication Headset is designed to help reduce exposure to hazardous levels of noise, improve situational awareness and at the same time enable two-way radio communication in noisy environments. The headset's electronics are contained completely inside the headset housing, eliminating the need for a large, heavy external radio control box. The headband mechanically stabilizes the headset to help relieve issues of earplugs dislodging from cable snags and body movement. Designed for comfortable use with a ballistic helmet.
 basePrice=69000
 width=2
 height=2
-avg24hPrice=104119
-low24hPrice=88888
-lastOfferCount=43
+avg24hPrice=102627
+low24hPrice=88999
+lastOfferCount=76
 Sell_Fence=27600
 Sell_Skier=33810
 Sell_Ragman=42780
-Sell_Flea Market=105000
+Sell_Flea Market=88999
 weight=0.600000
-fleaMarketFee=5535
+fleaMarketFee=4812
 propertiestype=

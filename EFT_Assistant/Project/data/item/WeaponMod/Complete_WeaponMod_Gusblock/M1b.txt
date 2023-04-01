@@ -3,13 +3,6 @@ Name=AK UltiMAK M1-B gas tube & handguard
 ShortName=M1-B
 Itemtype=Gas block
 ChildParts=[
-	Holosun LS321 Tactical device,
-	AN/PEQ-15 tactical device,
-	LA-5B/PEQ tactical device,
-	SureFire XC1 tactical flashlight,
-	Zenit Perst-3 tactical device
-]
-ChildParts=[
 	EOTech EXPS3 holographic sight (Tan),
 	EOTech XPS3-0 holographic sight,
 	EOTech XPS3-2 holographic sight,
@@ -33,6 +26,13 @@ ChildParts=[
 	Trijicon RMR high profile mount,
 	Trijicon RMR low profile mount
 ]
+ChildParts=[
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	LA-5B/PEQ tactical device,
+	SureFire XC1 tactical flashlight,
+	Zenit Perst-3 tactical device
+]
 Conflict=[
 	AK Zenit B-33 dust cover,
 ]
@@ -42,9 +42,9 @@ Information_Eng=The UltiMAK M1-B gas tube for AK assault rifles sets the gas pis
 basePrice=2241
 width=1
 height=1
-avg24hPrice=15835
+avg24hPrice=14507
 low24hPrice=3000
-lastOfferCount=9
+lastOfferCount=5
 Sell_Prapor=1120
 Sell_Fence=896
 Sell_Skier=1098

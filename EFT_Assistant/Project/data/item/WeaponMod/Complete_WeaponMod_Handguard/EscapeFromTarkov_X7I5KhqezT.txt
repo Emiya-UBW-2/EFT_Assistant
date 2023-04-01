@@ -2,6 +2,18 @@ IDstr=62386b2adf47d66e835094b2
 Name=HK G36 2-vent handguard
 ShortName=G36 2-vent
 Itemtype=Handguard
+ChildParts=[
+	HK G36 bottom handguard rail
+]
+ChildParts=[
+	HK G36 side handguard rail
+]
+ChildParts=[
+	HK G36 side handguard rail
+]
+ChildParts=[
+	HK G36 hand stop
+]
 Conflict=[
 	Hera Arms CQR tactical foregrip,
 	HK G36 5.56x45 318mm barrel,

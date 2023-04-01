@@ -2,21 +2,69 @@ IDstr=627bce33f21bc425b06ab967
 Name=M32A1 40mm cylinder
 ShortName=MSGL
 Itemtype=Spring Driven Cylinder
+ChildParts=[
+	40x46mm M381 (HE) grenade,
+	40x46mm M386 (HE) grenade,
+	40x46mm M406 (HE) grenade,
+	40x46mm M433 (HEDP) grenade,
+	40x46mm M441 (HE) grenade,
+	40x46mm M576 (MP-APERS) grenade
+]
+ChildParts=[
+	40x46mm M381 (HE) grenade,
+	40x46mm M386 (HE) grenade,
+	40x46mm M406 (HE) grenade,
+	40x46mm M433 (HEDP) grenade,
+	40x46mm M441 (HE) grenade,
+	40x46mm M576 (MP-APERS) grenade
+]
+ChildParts=[
+	40x46mm M381 (HE) grenade,
+	40x46mm M386 (HE) grenade,
+	40x46mm M406 (HE) grenade,
+	40x46mm M433 (HEDP) grenade,
+	40x46mm M441 (HE) grenade,
+	40x46mm M576 (MP-APERS) grenade
+]
+ChildParts=[
+	40x46mm M381 (HE) grenade,
+	40x46mm M386 (HE) grenade,
+	40x46mm M406 (HE) grenade,
+	40x46mm M433 (HEDP) grenade,
+	40x46mm M441 (HE) grenade,
+	40x46mm M576 (MP-APERS) grenade
+]
+ChildParts=[
+	40x46mm M381 (HE) grenade,
+	40x46mm M386 (HE) grenade,
+	40x46mm M406 (HE) grenade,
+	40x46mm M433 (HEDP) grenade,
+	40x46mm M441 (HE) grenade,
+	40x46mm M576 (MP-APERS) grenade
+]
+ChildParts=[
+	40x46mm M381 (HE) grenade,
+	40x46mm M386 (HE) grenade,
+	40x46mm M406 (HE) grenade,
+	40x46mm M433 (HEDP) grenade,
+	40x46mm M441 (HE) grenade,
+	40x46mm M576 (MP-APERS) grenade
+]
 Recoil=-1.000000
 Ergonomics=-10.000000
 Information_Eng=A standard-issue cylinder for the M32A1 MSGL revolver grenade launcher.
 basePrice=45000
 width=2
 height=2
-avg24hPrice=25303
+avg24hPrice=25401
 low24hPrice=24000
-lastOfferCount=2
+lastOfferCount=39
 Sell_Prapor=22500
 Sell_Fence=18000
 Sell_Skier=22050
 Sell_Peacekeeper=173
 Sell_Mechanic=25200
-Sell_Flea Market=25555
+Sell_Flea Market=25300
 weight=0.800000
-fleaMarketFee=2376
+fleaMarketFee=2378
 propertiestype=ItemPropertiesMagazine

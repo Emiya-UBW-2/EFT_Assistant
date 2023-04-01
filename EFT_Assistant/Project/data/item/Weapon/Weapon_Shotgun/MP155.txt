@@ -10,10 +10,6 @@ ChildParts=[
 	MP-155 Ultima polymer forestock
 ]
 ChildParts=[
-	MP-155 walnut stock,
-	MP-155 Ultima pistol grip
-]
-ChildParts=[
 	MP-155 12ga 6-shell magazine,
 	MP-133 12ga 6-shell magazine,
 	MP-133 12ga 8-shell magazine,
@@ -22,6 +18,10 @@ ChildParts=[
 	MP-153 12ga 6-shell magazine,
 	MP-153 12ga 7-shell magazine,
 	MP-153 12ga 8-shell magazine
+]
+ChildParts=[
+	MP-155 walnut stock,
+	MP-155 Ultima pistol grip
 ]
 ChildParts=[
 	Kiba Arms SPRM rail mount for pump-action shotguns,
@@ -33,16 +33,16 @@ Information_Eng=The Russian MP-155 smoothbore multi-shot 12 gauge shotgun, manuf
 basePrice=18900
 width=3
 height=1
-avg24hPrice=40565
-low24hPrice=25000
-lastOfferCount=4
+avg24hPrice=43812
+low24hPrice=27500
+lastOfferCount=3
 Sell_Prapor=9450
 Sell_Fence=7560
 Sell_Skier=9261
 Sell_Peacekeeper=73
 Sell_Mechanic=10584
 Sell_Jaeger=11340
-Sell_Flea Market=30000
+Sell_Flea Market=34500
 weight=1.100000
-fleaMarketFee=1579
+fleaMarketFee=1828
 propertiestype=ItemPropertiesWeapon

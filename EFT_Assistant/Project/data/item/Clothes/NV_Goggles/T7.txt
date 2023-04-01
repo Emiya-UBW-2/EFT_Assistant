@@ -10,8 +10,6 @@ Conflict=[
 	Team Wendy EXFIL Ballistic face shield (Black),
 	Team Wendy EXFIL Ballistic face shield (Coyote Brown),
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=The T-7 thermal imaging binocular/goggles takes a clever approach to individual soldier imaging systems. The T-7 thermal binocular brings the best features of the night vision goggles and adapted them into a full function thermal imager. Requires adapters to fit on helmets.
 basePrice=480000
 width=2

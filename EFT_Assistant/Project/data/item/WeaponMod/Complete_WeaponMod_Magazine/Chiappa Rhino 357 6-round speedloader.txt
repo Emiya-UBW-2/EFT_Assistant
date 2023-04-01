@@ -2,6 +2,42 @@ IDstr=61a4cda622af7f4f6a3ce617
 Name=Chiappa Rhino .357 6-round speedloader
 ShortName=CR load
 Itemtype=Cylinder Magazine
+ChildParts=[
+	.357 Magnum FMJ,
+	.357 Magnum HP,
+	.357 Magnum JHP,
+	.357 Magnum SP
+]
+ChildParts=[
+	.357 Magnum FMJ,
+	.357 Magnum HP,
+	.357 Magnum JHP,
+	.357 Magnum SP
+]
+ChildParts=[
+	.357 Magnum FMJ,
+	.357 Magnum HP,
+	.357 Magnum JHP,
+	.357 Magnum SP
+]
+ChildParts=[
+	.357 Magnum FMJ,
+	.357 Magnum HP,
+	.357 Magnum JHP,
+	.357 Magnum SP
+]
+ChildParts=[
+	.357 Magnum FMJ,
+	.357 Magnum HP,
+	.357 Magnum JHP,
+	.357 Magnum SP
+]
+ChildParts=[
+	.357 Magnum FMJ,
+	.357 Magnum HP,
+	.357 Magnum JHP,
+	.357 Magnum SP
+]
 Recoil=0.000000
 Ergonomics=-2.000000
 Information_Eng=

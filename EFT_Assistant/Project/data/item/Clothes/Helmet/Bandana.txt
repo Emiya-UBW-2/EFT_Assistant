@@ -10,20 +10,18 @@ Conflict=[
 	Slender mask,
 	GP-7 gas mask,
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A green colored headgear, actively used by special forces around the world.
 basePrice=1995
 width=1
 height=1
-avg24hPrice=9049
+avg24hPrice=7778
 low24hPrice=1500
-lastOfferCount=2
+lastOfferCount=3
 Sell_Fence=798
 Sell_Skier=977
 Sell_Peacekeeper=8
 Sell_Ragman=1236
-Sell_Flea Market=8000
+Sell_Flea Market=4444
 weight=0.100000
-fleaMarketFee=562
+fleaMarketFee=245
 propertiestype=

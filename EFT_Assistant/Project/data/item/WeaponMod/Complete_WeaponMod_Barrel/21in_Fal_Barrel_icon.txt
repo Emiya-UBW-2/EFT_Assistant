@@ -2,6 +2,33 @@ IDstr=5b7be1265acfc400161d0798
 Name=SA-58 7.62x51 21 inch barrel
 ShortName=SA58 21"
 Itemtype=Barrel
+ChildParts=[
+	AWC PSR 7.62x51 muzzle brake,
+	AR-10 2A Armanent X3 7.62x51 compensator,
+	AR-10 AAC Blackout 51T 7.62x51 flash hider,
+	AR-10 Daniel Defense WAVE 7.62x51 muzzle brake,
+	Desert Tech 7.62x51 flash hider,
+	AR-10 Fortis RED Brake 7.62x51 muzzle brake,
+	AR-10 KAC QDC 7.62x51 Flash Suppressor Kit,
+	AR-10 KAC QDC 7.62x51 Muzzle Brake Kit,
+	AR-10 Keeno Arms SHREWD 7.62x51 muzzle brake,
+	AR-10 Lantac Drakon 7.62x51 muzzle brake-compensator,
+	AR-10 Nordic Components Corvette 7.62x51 compensator,
+	AR-10 Odin Works ATLAS-7 7.62x51 muzzle brake,
+	AR-10 Precision Armanent M11 Severe-Duty 7.62x51 muzzle brake,
+	AR-10 SureFire Warden 7.62x51 blast regulator,
+	AR-10 TAA ZK-38 7.62x51 muzzle brake,
+	AR-10 Thunder Beast Arms 30CB 7.62x51 muzzle brake,
+	SA-58 Austrian Style 7.62x51 muzzle brake,
+	SA-58 3-Prong Trident 7.62x51 flash hider,
+	Gemtech ONE Direct Thread Mount adapter,
+	SilencerCo Hybrid 46 Direct Thread Mount adapter,
+	Lantac BMD Blast Mitigation Device A3 direct thread adapter,
+	AAC SCAR-SD 51T 7.62x51 flash hider,
+	AR-10 CMMG SV Brake 7.62x51 muzzle brake,
+	AR-10 Dead Air Keymount 7.62x51 muzzle brake,
+	AR-10 SureFire ProComp 7.62x51 muzzle brake
+]
 Conflict=[
 	SA-58/FAL Vltor CASV-FAS handguard,
 	SA-58 quad rail handguard
@@ -12,8 +39,8 @@ Information_Eng=A 21 inch (533mm) barrel for DS Arms SA-58 7.62x51.
 basePrice=33060
 width=4
 height=1
-avg24hPrice=77054
-low24hPrice=36500
+avg24hPrice=60502
+low24hPrice=42424
 lastOfferCount=4
 Sell_Prapor=16530
 Sell_Fence=13224
@@ -21,7 +48,7 @@ Sell_Skier=16199
 Sell_Peacekeeper=127
 Sell_Mechanic=18513
 Sell_Jaeger=19836
-Sell_Flea Market=99998
+Sell_Flea Market=50000
 weight=0.784000
-fleaMarketFee=6133
+fleaMarketFee=2637
 propertiestype=ItemPropertiesBarrel

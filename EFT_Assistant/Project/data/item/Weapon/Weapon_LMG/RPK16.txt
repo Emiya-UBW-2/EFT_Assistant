@@ -2,24 +2,77 @@ IDstr=5beed0f50db834001c062b12
 Name=RPK-16 5.45x39 light machine gun
 ShortName=RPK-16
 Itemtype=Machinegun
+ChildParts=[
+	AK-12 pistol grip,
+	AK bakelite pistol grip (6P1 Sb.8V),
+	AK polymer pistol grip (6P1 Sb.8),
+	AKM bakelite pistol grip,
+	AKM wooden pistol grip,
+	AK bakelite pistol grip (6P4 Sb.9),
+	AK KGB MG-47 pistol grip,
+	AK Magpul MOE pistol grip (Black),
+	AK bakelite pistol grip,
+	AK Strike Industries Enhanced Pistol Grip (Black),
+	AK Strike Industries Enhanced Pistol Grip (FDE),
+	AK TAPCO SAW-Style pistol grip (Black),
+	AK TAPCO SAW-Style pistol grip (FDE),
+	AK US Palm pistol grip,
+	AK Zenit RK-3 pistol grip,
+	PP-19-01 "Vityaz" pistol grip,
+	AK FAB Defense AGR-47 pistol grip,
+	AK TangoDown Battle Grip pistol grip,
+	AK TangoDown Battle Grip pistol grip (FDE),
+	AK KGB MG-47 pistol grip (Anodized Red),
+	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip,
+	AK Aeroknox Scorpius pistol grip
+]
+ChildParts=[
+	RPK-16 dust cover
+]
+ChildParts=[
+	AK-74 5.45x39 6L18 45-round magazine,
+	AK-74 5.45x39 6L20 30-round magazine,
+	AK-74 5.45x39 6L23 30-round magazine,
+	AK-74 5.45x39 6L23 "Plum" 30-round magazine,
+	AK-74 5.45x39 6L26 45-round magazine,
+	AK-74 5.45x39 6L31 60-round magazine,
+	AK-74 "Saiga 545" 5.45x39 10-round magazine,
+	AK-74 5.45x39 Magpul PMAG 30 GEN M3 30-round magazine,
+	AK-12 5.45x39 30-round magazine,
+	RPK-16 5.45x39 95-round drum magazine
+]
+ChildParts=[
+	AK CSS knurled charging handle,
+	AK Zenit RP-1 charging handle
+]
+ChildParts=[
+	RPK-16 buffer tube
+]
+ChildParts=[
+	RPK-16 handguard
+]
+ChildParts=[
+	RPK-16 5.45x39 15 inch barrel,
+	RPK-16 5.45x39 22 inch barrel
+]
 Conflict=[
 	Hera Arms CQR tactical foregrip,
 ]
-Recoil=0.000000
+Recoil=131.000000
 Ergonomics=45.000000
 Information_Eng=RPK-16 (Ruchnoy Pulemyot Kalashnikova 16 - "Kalashnikov's Hand-held machine gun 16) is the newest Russian light machine gun chambered in 5.45x39mm rounds. Some key features of this new weapon are the quickly detachable barrels, enhanced ergonomics, and weaver rails on the handguard and dust cover.
 basePrice=22360
 width=2
 height=1
-avg24hPrice=43494
-low24hPrice=36000
-lastOfferCount=33
+avg24hPrice=42762
+low24hPrice=33333
+lastOfferCount=16
 Sell_Prapor=11180
 Sell_Fence=8944
 Sell_Skier=10956
 Sell_Peacekeeper=86
 Sell_Mechanic=12521
-Sell_Flea Market=36000
+Sell_Flea Market=48999
 weight=1.500000
-fleaMarketFee=1894
+fleaMarketFee=2686
 propertiestype=ItemPropertiesWeapon

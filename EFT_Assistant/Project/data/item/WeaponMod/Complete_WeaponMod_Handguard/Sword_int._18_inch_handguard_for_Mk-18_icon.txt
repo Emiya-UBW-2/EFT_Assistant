@@ -2,6 +2,51 @@ IDstr=5fc235db2770a0045c59c683
 Name=Mk-18 18 inch handguard
 ShortName=Mk-18 18"
 Itemtype=Handguard
+ChildParts=[
+	NcSTAR MPR45 Backup mount
+]
+ChildParts=[
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	AN/PEQ-2 tactical device,
+	LA-5B/PEQ tactical device,
+	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Perst-3 tactical device
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Offset Light Mount,
+	Magpul M-LOK Cantilever Mount
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Offset Light Mount,
+	Magpul M-LOK Cantilever Mount
+]
+ChildParts=[
+	HK MP7 flip-up front sight,
+	KAC Folding Micro front sight,
+	KAC Folding front sight,
+	KRISS Defiance low profile flip-up front sight,
+	Magpul MBUS Gen2 flip-up front sight,
+	Magpul MBUS Gen2 flip-up front sight (FDE),
+	MCX flip-up front sight,
+	MPX flip-up front sight,
+	AR-15 Leapers UTG Low Profile A2 front sight
+]
+ChildParts=[
+	Magpul M-LOK AFG tactical foregrip (Black),
+	Magpul M-LOK AFG tactical foregrip (FDE),
+	Magpul M-LOK AFG tactical foregrip (Olive Drab),
+	Magpul M-LOK AFG tactical foregrip (Stealth Gray),
+	Magpul M-LOK 4.1 inch rail
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Offset Light Mount,
+	Magpul M-LOK Cantilever Mount
+]
 Conflict=[
 	AR-10 JP Enterprises Gas System-6,
 	M4A1 front sight with gas block,

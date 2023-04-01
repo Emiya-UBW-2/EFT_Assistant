@@ -3,25 +3,6 @@ Name=MCX GEN1 .300 BLK upper receiver
 ShortName=MCX GEN1
 Itemtype=Receiver
 ChildParts=[
-	MCX .300 BLK 171mm barrel,
-	MCX .300 BLK 229mm barrel
-]
-ChildParts=[
-	HK 416A5 flip-up rear sight,
-	HK MP7 flip-up rear sight,
-	KAC Folding Micro rear sight,
-	KAC Folding rear sight,
-	KRISS Defiance low profile flip-up rear sight,
-	Magpul MBUS Gen2 flip-up rear sight,
-	Magpul MBUS Gen2 flip-up rear sight (FDE),
-	MCX flip-up rear sight,
-	MPX flip-up rear sight
-]
-ChildParts=[
-	MCX GEN1 KeyMod 12 inch handguard,
-	MCX GEN1 KeyMod 8 inch handguard
-]
-ChildParts=[
 	ELCAN SpecterDR 1x/4x scope,
 	ELCAN SpecterDR 1x/4x scope (FDE),
 	Leupold Mark 4 HAMR 4x24 DeltaPoint hybrid assault scope,
@@ -81,6 +62,25 @@ ChildParts=[
 	AI AX-50 34mm scope mount
 ]
 ChildParts=[
+	MCX .300 BLK 171mm barrel,
+	MCX .300 BLK 229mm barrel
+]
+ChildParts=[
+	MCX GEN1 KeyMod 12 inch handguard,
+	MCX GEN1 KeyMod 8 inch handguard
+]
+ChildParts=[
+	HK 416A5 flip-up rear sight,
+	HK MP7 flip-up rear sight,
+	KAC Folding Micro rear sight,
+	KAC Folding rear sight,
+	KRISS Defiance low profile flip-up rear sight,
+	Magpul MBUS Gen2 flip-up rear sight,
+	Magpul MBUS Gen2 flip-up rear sight (FDE),
+	MCX flip-up rear sight,
+	MPX flip-up rear sight
+]
+ChildParts=[
 	Holosun LS321 Tactical device,
 	AN/PEQ-15 tactical device,
 	LA-5B/PEQ tactical device,
@@ -96,7 +96,7 @@ Information_Eng=An upper receiver for the first generation MCX assault rifles ma
 basePrice=3509
 width=2
 height=1
-avg24hPrice=49999
+avg24hPrice=25555
 low24hPrice=25555
 lastOfferCount=1
 Sell_Prapor=1754

@@ -6,20 +6,18 @@ Conflict=[
 	Tac-Kek Heavy Trooper mask for Ops-Core-type helmets,
 	TSh-4M-L soft tank crew helmet,
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=An artificial white beard. Christmas spirit? Maybe...
 basePrice=7500
 width=1
 height=2
-avg24hPrice=193730
+avg24hPrice=187279
 low24hPrice=66666
-lastOfferCount=12
+lastOfferCount=8
 Sell_Fence=3000
 Sell_Skier=3675
 Sell_Peacekeeper=29
 Sell_Ragman=4650
-Sell_Flea Market=66666
+Sell_Flea Market=89000
 weight=0.100000
-fleaMarketFee=7472
+fleaMarketFee=11992
 propertiestype=

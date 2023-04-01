@@ -10,20 +10,18 @@ Conflict=[
 	Tagilla's welding mask "Gorilla",
 	Tagilla's welding mask "UBEY",
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=The PSh-97 "DJETA" police helmet is designed to protect the head from being hit by heavy objects, metal rods, etc.
 basePrice=16200
 width=2
 height=2
-avg24hPrice=24287
+avg24hPrice=24505
 low24hPrice=17000
-lastOfferCount=6
+lastOfferCount=7
 Sell_Fence=6480
 Sell_Skier=7938
 Sell_Peacekeeper=62
 Sell_Ragman=10044
-Sell_Flea Market=21000
+Sell_Flea Market=22222
 weight=1.300000
-fleaMarketFee=1134
+fleaMarketFee=1186
 propertiestype=ItemPropertiesHelmet

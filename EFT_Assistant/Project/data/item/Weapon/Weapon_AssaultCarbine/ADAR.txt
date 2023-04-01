@@ -3,21 +3,6 @@ Name=ADAR 2-15 5.56x45 carbine
 ShortName=ADAR 2-15
 Itemtype=Assault rifle
 ChildParts=[
-	AR-15 ADAR 2-15 buffer tube,
-	AR-15 Colt A2 buffer tube,
-	Colt Carbine buffer tube,
-	AR-15 DoubleStar ACE SOCOM Gen.4 stock,
-	ERGO F93 PRO stock,
-	Magpul UBR GEN2 stock (Black),
-	Magpul UBR GEN2 stock (FDE),
-	Soyuz-TM buffer tube,
-	Strike Industries Advanced Receiver Extension buffer tube,
-	Strike Industries Advanced Receiver Extension buffer tube (Anodized Red),
-	TROY M7A1 PDW stock (Black),
-	TROY M7A1 PDW stock (FDE),
-	AR-15 RTM ATP buffer tube
-]
-ChildParts=[
 	AR-15 ADAR 2-15 wooden stock,
 	AR-15 Hera Arms CQR pistol grip/buttstock,
 	AR-15 Colt A2 pistol grip,
@@ -48,7 +33,6 @@ ChildParts=[
 	AR-15 Tactical Dynamics Skeletonized pistol grip
 ]
 ChildParts=[
-	5.56x45 Magpul PMAG 10 GEN M3 STANAG 10-round magazine,
 	5.56x45 Colt AR-15 STANAG 30-round magazine,
 	FN SCAR-L 5.56x45 30-round magazine,
 	FN SCAR-L 5.56x45 30-round magazine (FDE),
@@ -56,6 +40,7 @@ ChildParts=[
 	5.56x45 HK PM Gen.2 STANAG 30-round magazine,
 	5.56x45 HK 30 STANAG polymer 30-round magazine,
 	5.56x45 Magpul PMAG D-60 STANAG 60-round magazine,
+	5.56x45 Magpul PMAG 10 GEN M3 STANAG 10-round magazine,
 	5.56x45 Magpul PMAG 20 GEN M3 STANAG 20-round magazine,
 	5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazine,
 	5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazine (FDE),
@@ -68,6 +53,29 @@ ChildParts=[
 	5.56x45 TROY BattleMag STANAG 30-round magazine
 ]
 ChildParts=[
+	ADAR 2-15 5.56x45 upper receiver,
+	M4A1 5.56x45 upper receiver,
+	TX-15 5.56x45 Lightweight upper receiver,
+	AR-15 Noveske Gen.3 5.56x45 upper receiver,
+	AR-15 Vltor MUR-1S 5.56x45 upper receiver
+]
+ChildParts=[
+	AR-15 Colt A2 buffer tube,
+	AR-15 ADAR 2-15 buffer tube,
+	Colt Carbine buffer tube,
+	AR-15 DoubleStar ACE SOCOM Gen.4 stock,
+	ERGO F93 PRO stock,
+	Magpul UBR GEN2 stock (Black),
+	Magpul UBR GEN2 stock (FDE),
+	Soyuz-TM buffer tube,
+	Strike Industries Advanced Receiver Extension buffer tube,
+	Strike Industries Advanced Receiver Extension buffer tube (Anodized Red),
+	TROY M7A1 PDW stock (Black),
+	TROY M7A1 PDW stock (FDE),
+	Strike Industries Viper PDW stock,
+	AR-15 RTM ATP buffer tube
+]
+ChildParts=[
 	AR-15 ADAR 2-15 charging handle,
 	AR-15 Badger Ordnance Tactical Charging Handle Latch,
 	AR-15 Colt charging handle,
@@ -78,28 +86,21 @@ ChildParts=[
 	AR-15 Radian Weapons Raptor charging handle (Grey),
 	AR-15 Rainier Arms Avalanche MOD2 charging handle
 ]
-ChildParts=[
-	ADAR 2-15 5.56x45 upper receiver,
-	M4A1 5.56x45 upper receiver,
-	TX-15 5.56x45 Lightweight upper receiver,
-	AR-15 Noveske Gen.3 5.56x45 upper receiver,
-	AR-15 Vltor MUR-1S 5.56x45 upper receiver
-]
 Recoil=141.000000
 Ergonomics=48.000000
 Information_Eng=The ADAR 2-15 Russian civilian carbine that is based on the design of the AR-15. The carbine is produced in St. Petersburg with use of Israeli components and chrome barrels made by Molot Arms.
 basePrice=6300
 width=1
 height=1
-avg24hPrice=40002
+avg24hPrice=38643
 low24hPrice=19000
-lastOfferCount=9
+lastOfferCount=11
 Sell_Prapor=3150
 Sell_Fence=2520
 Sell_Skier=3087
 Sell_Peacekeeper=24
 Sell_Mechanic=3528
-Sell_Flea Market=35999
+Sell_Flea Market=33000
 weight=0.400000
-fleaMarketFee=3080
+fleaMarketFee=2684
 propertiestype=ItemPropertiesWeapon

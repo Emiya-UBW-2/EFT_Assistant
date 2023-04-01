@@ -2,6 +2,9 @@ IDstr=5cc82796e24e8d000f5859a8
 Name=FN P90 5.7x28 flash hider
 ShortName=P90
 Itemtype=Flashhider
+ChildParts=[
+	FN P90 Attenuator 5.7x28 sound suppressor
+]
 Recoil=-7.000000
 Ergonomics=-1.000000
 Information_Eng=A regular flash hider for the P90 SMG. Manufactured by Fabrique Nationale Herstal.

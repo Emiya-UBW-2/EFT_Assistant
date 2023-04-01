@@ -7,8 +7,6 @@ Conflict=[
 	AI AXMC .338 LM bolt assembly,
 	AI AXMC .338 LM 10-round magazine,
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A 7.62x51mm NATO M61 cartridge with a 9.8 gram armor-piercing bullet with a hardened steel core with lead cladding on the tip and a bimetallic jacket, in a brass case. This cartridge was designed in the 1950s based on the .30-06 Springfield AP M2 cartridge to provide the United States Armed Forces with an armor-piercing bullet for 7.62x51mm NATO caliber automatic weaponry, being able to pierce through the most modern specialized ballistic body protections, in addition to provide a significant stopping power effect. However, it has a significant bounce probability on various surfaces.
 basePrice=1960
 width=1

@@ -2,22 +2,43 @@ IDstr=6086b5392535c57a13424d70
 Name=Custom Guns handguard rail
 ShortName=CG
 Itemtype=Mount
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser,
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	LA-5B/PEQ tactical device,
+	NcSTAR Tactical blue laser LAM-module,
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Zenit Perst-3 tactical device,
+	Kiba Arms 25mm accessory ring mount,
+	Daniel Defense 25mm accessory ring mount,
+	Olight Baldr Pro tactical flashlight with laser,
+	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Insight WMX200 tactical flashlight
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=The Custom Guns rail guide allows you to install additional equipment on the proprietary handguards.
 basePrice=1000
 width=1
 height=1
-avg24hPrice=17256
-low24hPrice=5000
-lastOfferCount=16
+avg24hPrice=17843
+low24hPrice=7000
+lastOfferCount=12
 Sell_Prapor=500
 Sell_Fence=400
 Sell_Skier=490
 Sell_Peacekeeper=4
 Sell_Mechanic=560
 Sell_Jaeger=600
-Sell_Flea Market=9550
+Sell_Flea Market=12000
 weight=0.050000
-fleaMarketFee=1120
+fleaMarketFee=1629
 propertiestype=ItemPropertiesWeaponMod

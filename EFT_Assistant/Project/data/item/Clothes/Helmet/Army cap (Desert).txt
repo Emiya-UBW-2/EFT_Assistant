@@ -9,8 +9,6 @@ Conflict=[
 	Tagilla's welding mask "Gorilla",
 	Tagilla's welding mask "UBEY",
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A regular army cap, colored in desert camouflage.
 basePrice=1353
 width=1

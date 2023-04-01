@@ -2,6 +2,16 @@ IDstr=5cc70102e4a949035e43ba74
 Name=FN P90 5.7x28 upper receiver
 ShortName=P90
 Itemtype=Receiver
+ChildParts=[
+	FN P90 Ring Sight reflex sight,
+	FN P90 upper receiver top rail
+]
+ChildParts=[
+	FN P90 upper receiver side rail
+]
+ChildParts=[
+	FN P90 upper receiver side rail
+]
 Recoil=0.000000
 Ergonomics=-5.000000
 Information_Eng=A regular upper receiver for the P90 submachine gun, manufactured by Fabrique Nationale Herstal.

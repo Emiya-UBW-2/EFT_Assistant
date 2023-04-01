@@ -6,22 +6,20 @@ Conflict=[
 	Ops-Core FAST Visor,
 	Ops-Core FAST multi-hit ballistic face shield
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=The Armasight N-15-NVG binocular. Civilian alternative to contract military devices installed in a compact and ergonomic body.
 basePrice=74800
 width=2
 height=1
-avg24hPrice=47634
+avg24hPrice=47197
 low24hPrice=38999
-lastOfferCount=21
+lastOfferCount=25
 Sell_Prapor=37400
 Sell_Fence=29920
 Sell_Skier=36652
 Sell_Peacekeeper=288
 Sell_Mechanic=41888
 Sell_Jaeger=44880
-Sell_Flea Market=38999
+Sell_Flea Market=43400
 weight=0.755000
-fleaMarketFee=3989
+fleaMarketFee=3943
 propertiestype=ItemPropertiesNightVision

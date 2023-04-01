@@ -2,21 +2,53 @@ IDstr=6193a720f8ee7e52e42109ed
 Name=HK USP .45 ACP pistol
 ShortName=USP .45
 Itemtype=Handgun
-Recoil=0.000000
+ChildParts=[
+	HK USP .45 ACP barrel,
+	HK USP Tactical .45 ACP threaded barrel,
+	HK USP Expert .45 ACP barrel,
+	HK USP Elite .45 ACP barrel,
+	HK USP Match .45 ACP barrel
+]
+ChildParts=[
+	HK USP Elite .45 ACP pistol slide,
+	HK USP Expert .45 ACP pistol slide,
+	HK USP Match .45 ACP pistol slide,
+	HK USP Tactical .45 ACP pistol slide,
+	HK USP .45 ACP pistol slide
+]
+ChildParts=[
+	HK USP .45 ACP 12-round magazine,
+	HK USP Tactical .45 ACP 12-round magazine
+]
+ChildParts=[
+	HK USP trigger
+]
+ChildParts=[
+	HK USP hammer
+]
+ChildParts=[
+	HK USP slide lock
+]
+ChildParts=[
+	HK USP .45 ACP Elite compensator,
+	HK USP .45 ACP Match compensator,
+	HK USP rail adapter
+]
+Recoil=482.000000
 Ergonomics=82.000000
 Information_Eng=The HK USP (Universelle Selbstladepistole - "Universal Self-loading Pistol") pistol is a further replacement of the HK P7 series pistols. Internationally accepted as an accurate and ultra-reliable handgun. Using a modified Browning-type action with a special patented recoil reduction system, the USP recoil reduction system reduces recoil effects on pistol components and also lowers the recoil forces felt by the shooter. This particular variant is chambered in .45 ACP. Manufactured by Heckler & Koch.
 basePrice=9500
 width=2
 height=1
-avg24hPrice=16787
-low24hPrice=11000
-lastOfferCount=12
+avg24hPrice=16643
+low24hPrice=9888
+lastOfferCount=14
 Sell_Prapor=4750
 Sell_Fence=3800
 Sell_Skier=4655
 Sell_Peacekeeper=37
 Sell_Mechanic=5320
-Sell_Flea Market=15000
+Sell_Flea Market=9888
 weight=0.222000
-fleaMarketFee=789
+fleaMarketFee=580
 propertiestype=ItemPropertiesWeapon

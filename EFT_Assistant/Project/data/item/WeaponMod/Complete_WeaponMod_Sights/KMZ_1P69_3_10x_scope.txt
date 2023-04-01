@@ -3,6 +3,9 @@ Name=KMZ 1P69 3-10x riflescope
 ShortName=1P69
 Itemtype=Scope
 SightRange=800
+ChildParts=[
+	KMZ 1P59 scope eyecup
+]
 Conflict=[
 	Axion Kobra EKP-8-18 reflex sight,
 	OKP-7 reflex sight,
@@ -27,16 +30,16 @@ Information_Eng=The 1P69 "Giperon" pancratic sight is a further development of t
 basePrice=25200
 width=2
 height=1
-avg24hPrice=15828
+avg24hPrice=15925
 low24hPrice=13000
-lastOfferCount=11
+lastOfferCount=23
 Sell_Prapor=12600
 Sell_Fence=10080
 Sell_Skier=12348
 Sell_Peacekeeper=97
 Sell_Mechanic=14112
 Sell_Jaeger=15120
-Sell_Flea Market=14888
+Sell_Flea Market=14444
 weight=0.940000
-fleaMarketFee=1327
+fleaMarketFee=1330
 propertiestype=ItemPropertiesScope

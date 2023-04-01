@@ -2,14 +2,27 @@ IDstr=62e7c7f3c34ea971710c32fc
 Name=Steyr AUG A1 5.56x45 20 inch barrel
 ShortName=A1 20"
 Itemtype=Barrel
+ChildParts=[
+	Steyr AUG A1 5.56x45 closed flash hider,
+	Steyr AUG A3 5.56x45 closed flash hider,
+	Steyr AUG A3 5.56x45 muzzle brake,
+	Steyr AUG RAT Worx 5.56x45 muzzle device adapter,
+	Steyr AUG Ase Utra S Series SL7i 5.56x45 sound suppressor
+]
+ChildParts=[
+	Steyr AUG Relfex T4AUG Ranger 5.56x45 sound suppressor
+]
+ChildParts=[
+	Steyr AUG vertical foregrip
+]
 Recoil=-6.000000
 Ergonomics=-18.000000
 Information_Eng=A barrel for Steyr AUG A1 designed for 5.56x45 NATO ammo, 20 inches (508mm) long.
 basePrice=25567
 width=4
 height=1
-avg24hPrice=75000
-low24hPrice=75000
+avg24hPrice=0
+low24hPrice=0
 lastOfferCount=1
 Sell_Prapor=12783
 Sell_Fence=10226

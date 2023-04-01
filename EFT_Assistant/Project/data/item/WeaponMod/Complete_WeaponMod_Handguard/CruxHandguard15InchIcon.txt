@@ -13,21 +13,28 @@ ChildParts=[
 	Magpul M-LOK Offset Light Mount
 ]
 ChildParts=[
-	AN/PEQ-15 tactical device,
+	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK Offset Light Mount
+]
+ChildParts=[
 	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	AN/PEQ-2 tactical device,
 	LA-5B/PEQ tactical device,
 	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
 	Zenit Perst-3 tactical device
 ]
 ChildParts=[
 	NcSTAR MPR45 Backup mount
 ]
 ChildParts=[
-	Magpul M-LOK 4.1 inch rail,
 	Magpul M-LOK AFG tactical foregrip (Black),
 	Magpul M-LOK AFG tactical foregrip (FDE),
 	Magpul M-LOK AFG tactical foregrip (Olive Drab),
-	Magpul M-LOK AFG tactical foregrip (Stealth Gray)
+	Magpul M-LOK AFG tactical foregrip (Stealth Gray),
+	Magpul M-LOK 4.1 inch rail
 ]
 Conflict=[
 	HK 416A5 5.56x45 10.6 inch barrel,
@@ -43,7 +50,7 @@ Information_Eng=The Strike Industries CRUX foregrip for 416A5 equipped with an M
 basePrice=16700
 width=3
 height=1
-avg24hPrice=36166
+avg24hPrice=37236
 low24hPrice=19990
 lastOfferCount=0
 Sell_Prapor=8350
@@ -51,7 +58,7 @@ Sell_Fence=6680
 Sell_Skier=8183
 Sell_Peacekeeper=64
 Sell_Mechanic=9352
-Sell_Flea Market=28000
+Sell_Flea Market=199999
 weight=0.440000
-fleaMarketFee=1474
+fleaMarketFee=27107
 propertiestype=ItemPropertiesWeaponMod

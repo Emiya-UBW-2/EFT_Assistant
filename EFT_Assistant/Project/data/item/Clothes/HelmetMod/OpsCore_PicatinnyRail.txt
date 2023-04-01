@@ -2,22 +2,26 @@ IDstr=5a398b75c4a282000a51a266
 Name=Ops-Core Picatinny Rail Adapter mount
 ShortName=PRA
 Itemtype=Mount
+ChildParts=[
+	SureFire X400 Ultra tactical flashlight with laser,
+	Zenit Klesch-2P flashlight with laser
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A mount adapter for installation of universal rails on the helmet, for consecutive installation of additional equipment.
 basePrice=12000
 width=1
 height=1
-avg24hPrice=52885
-low24hPrice=36000
-lastOfferCount=19
+avg24hPrice=50265
+low24hPrice=30000
+lastOfferCount=8
 Sell_Prapor=6000
 Sell_Fence=4800
 Sell_Skier=5880
 Sell_Peacekeeper=46
 Sell_Mechanic=6720
 Sell_Jaeger=7200
-Sell_Flea Market=42000
+Sell_Flea Market=35000
 weight=0.020000
-fleaMarketFee=2754
+fleaMarketFee=2114
 propertiestype=ItemPropertiesWeaponMod

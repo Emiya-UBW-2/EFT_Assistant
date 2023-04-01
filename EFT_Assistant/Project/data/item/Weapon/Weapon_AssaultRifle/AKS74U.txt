@@ -3,24 +3,6 @@ Name=Kalashnikov AKS-74U 5.45x39 assault rifle
 ShortName=AKS-74U
 Itemtype=Assault rifle
 ChildParts=[
-	AKS-74U gas tube (6P26 Sb.1-2)
-]
-ChildParts=[
-	AK-105 5.45x39 muzzle brake-compensator (6P44 0-20),
-	AK-74M 5.45x39 muzzle brake-compensator (6P20 0-20),
-	AK-74 5.45x39 muzzle brake-compensator (6P20 0-20),
-	AK-74 thread type JMac Customs RRD-4C multi-caliber muzzle brake,
-	AK-74 PWS CQB 74 5.45x39 muzzle brake,
-	AK-74 SRVV MBR Jet 5.45x39 muzzle brake,
-	AK Hexagon Reactor 5.45x39 muzzle brake,
-	AK Zenit DTK-1 7.62x39/5.45x39 muzzle brake-compensator,
-	AKS-74U 5.45x39 muzzle brake (6P26 0-20),
-	SilencerCo Hybrid 46 Direct Thread Mount adapter,
-	AK-74 Hexagon 5.45x39 sound suppressor,
-	AK-74 TGP-A 5.45x39 sound suppressor,
-	AKS-74U PBS-4 5.45x39 sound suppressor
-]
-ChildParts=[
 	AK Aeroknox Scorpius pistol grip,
 	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip,
 	AK-12 pistol grip,
@@ -39,16 +21,19 @@ ChildParts=[
 	AK TAPCO SAW-Style pistol grip (FDE),
 	AK US Palm pistol grip,
 	AK Zenit RK-3 pistol grip,
-	PP-19-01 "Vityaz" pistol grip
+	PP-19-01 "Vityaz" pistol grip,
+	AK FAB Defense AGR-47 pistol grip,
+	AK TangoDown Battle Grip pistol grip (FDE),
+	AK TangoDown Battle Grip pistol grip
 ]
 ChildParts=[
-	AKS-74U dust cover (6P26 Sb.7),
-	AKS-74UB dust cover
-]
-ChildParts=[
-	AKS-74U metal skeleton stock (6P26 Sb.5),
 	AKS-74/AKS-74U Zenit PT Lock,
-	AKS-74 metal skeletonized stock (6P21 Sb.5)
+	AKS-74 metal skeletonized stock (6P21 Sb.5),
+	AKS-74U metal skeleton stock (6P26 Sb.5)
+]
+ChildParts=[
+	AK CSS knurled charging handle,
+	AK Zenit RP-1 charging handle
 ]
 ChildParts=[
 	AK-74 5.45x39 6L18 45-round magazine,
@@ -63,8 +48,26 @@ ChildParts=[
 	RPK-16 5.45x39 95-round drum magazine
 ]
 ChildParts=[
-	AK CSS knurled charging handle,
-	AK Zenit RP-1 charging handle
+	AK-105 5.45x39 muzzle brake-compensator (6P44 0-20),
+	AK-74M 5.45x39 muzzle brake-compensator (6P20 0-20),
+	AK-74 5.45x39 muzzle brake-compensator (6P20 0-20),
+	AK-74 thread type JMac Customs RRD-4C multi-caliber muzzle brake,
+	AK-74 PWS CQB 74 5.45x39 muzzle brake,
+	AK-74 SRVV MBR Jet 5.45x39 muzzle brake,
+	AK Hexagon Reactor 5.45x39 muzzle brake,
+	AK Zenit DTK-1 7.62x39/5.45x39 muzzle brake-compensator,
+	AKS-74U 5.45x39 muzzle brake (6P26 0-20),
+	SilencerCo Hybrid 46 Direct Thread Mount adapter,
+	AK-74 Hexagon 5.45x39 sound suppressor,
+	AK-74 TGP-A 5.45x39 sound suppressor,
+	AKS-74U PBS-4 5.45x39 sound suppressor
+]
+ChildParts=[
+	AKS-74U dust cover (6P26 Sb.7),
+	AKS-74UB dust cover
+]
+ChildParts=[
+	AKS-74U gas tube (6P26 Sb.1-2)
 ]
 Conflict=[
 	Hera Arms CQR tactical foregrip,
@@ -75,15 +78,15 @@ Information_Eng=AKS-74U (Avtomat Kalashnikova Skladnoy 74 Ukorochenny - "Kalashn
 basePrice=13643
 width=3
 height=1
-avg24hPrice=29245
+avg24hPrice=29611
 low24hPrice=17998
-lastOfferCount=10
+lastOfferCount=8
 Sell_Prapor=6821
 Sell_Fence=5457
 Sell_Skier=6685
 Sell_Peacekeeper=52
 Sell_Mechanic=7640
-Sell_Flea Market=24700
+Sell_Flea Market=25999
 weight=1.809000
-fleaMarketFee=1307
+fleaMarketFee=1385
 propertiestype=ItemPropertiesWeapon

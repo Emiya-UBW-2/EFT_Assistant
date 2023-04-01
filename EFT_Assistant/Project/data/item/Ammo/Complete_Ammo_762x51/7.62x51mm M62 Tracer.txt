@@ -7,8 +7,6 @@ Conflict=[
 	AI AXMC .338 LM bolt assembly,
 	AI AXMC .338 LM 10-round magazine,
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A 7.62x51mm NATO M62 cartridge with a 9.2 gram lead-antimony alloy core tracer bullet with a bimetallic jacket, in a brass case; intended for target designation and fire adjustment in battle (Trace color: Green). This cartridge was designed to provide tracing capabilities to the 7.62x51mm NATO caliber automatic weaponry used by the United States Armed Forces, being able to pierce through basic and intermediate body ballistic protections, in addition to provide a considerable stopping power effect. However, it has a high bounce probability on various surfaces.
 basePrice=1375
 width=1

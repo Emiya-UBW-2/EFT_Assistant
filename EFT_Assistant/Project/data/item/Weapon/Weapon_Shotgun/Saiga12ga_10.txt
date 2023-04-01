@@ -2,25 +2,103 @@ IDstr=576165642459773c7a400233
 Name=Saiga 12ga ver.10 12/76 semi-automatic shotgun
 ShortName=Saiga-12ga v.10
 Itemtype=Shotgun
+ChildParts=[
+	Axion Kobra EKP-8-02 reflex sight (Dovetail),
+	BelOMO PK-AA dovetail reflex sight,
+	OKP-7 reflex sight (Dovetail),
+	NPZ PK1 "Obzor" reflex sight,
+	BelOMO PSO-1 4x24 scope,
+	BelOMO PSO-1M2-1 4x24 scope,
+	BelOMO PSO-1M2 4x24 scope,
+	NPZ USP-1 "Tyulpan" 4x scope,
+	NSPU-M night vision scope,
+	Axion Kobra dovetail mount,
+	KMZ 1P59 dovetail mount,
+	NPZ 1P78-1 dovetail mount,
+	VOMZ Pilad 043-02 dovetail mount,
+	Zenit B-13 "Klassika" dovetail rail platform,
+	Zenit B-13V "Klassika" dovetail rail platform,
+	SAG Bit low profile dovetail sidemount
+]
+ChildParts=[
+	SOK-12 Bravo-18 aluminium handguard,
+	SOK-12 Custom Guns Type-340 handguard,
+	SOK-12 polymer handguard (Sb.7-1),
+	SOK-12 Leapers UTG PRO MTU002 Long Top aluminum handguard,
+	SOK-12 Leapers UTG PRO MTU002 Short Top aluminum handguard
+]
+ChildParts=[
+	GK-02 12ga muzzle brake,
+	Tromix Monster Claw 12ga muzzle brake,
+	SOK-12 thread protection tube,
+	SilencerCo Salvo 12 thread adapter,
+	Hexagon 12K 12ga sound suppressor
+]
+ChildParts=[
+	AK Aeroknox Scorpius pistol grip,
+	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip,
+	AK-12 pistol grip,
+	AK bakelite pistol grip (6P1 Sb.8V),
+	AK polymer pistol grip (6P1 Sb.8),
+	AKM bakelite pistol grip,
+	AKM wooden pistol grip,
+	AK bakelite pistol grip (6P4 Sb.9),
+	AK KGB MG-47 pistol grip,
+	AK KGB MG-47 pistol grip (Anodized Red),
+	AK Magpul MOE pistol grip (Black),
+	AK bakelite pistol grip,
+	AK Strike Industries Enhanced Pistol Grip (Black),
+	AK Strike Industries Enhanced Pistol Grip (FDE),
+	AK TAPCO SAW-Style pistol grip (Black),
+	AK TAPCO SAW-Style pistol grip (FDE),
+	AK US Palm pistol grip,
+	AK Zenit RK-3 pistol grip,
+	PP-19-01 "Vityaz" pistol grip,
+	AK FAB Defense AGR-47 pistol grip,
+	AK TangoDown Battle Grip pistol grip (FDE),
+	AK TangoDown Battle Grip pistol grip
+]
+ChildParts=[
+	SOK-12 dust cover (Sb.0-2)
+]
+ChildParts=[
+	SOK-12 CSS rear sight rail mount,
+	SOK-12 rear sight
+]
+ChildParts=[
+	AK-74M CAA AKTS AK74 buffer tube,
+	AK-74M/AK-100 Zenit PT Lock,
+	RPK-16 buffer tube,
+	SOK-12 AK-style stock
+]
+ChildParts=[
+	SOK-12 12/76 sb.5 5-round magazine,
+	SOK-12 12/76 MaxRounds Powermag 20-round magazine,
+	SOK-12 12/76 SAI-02 10-round magazine
+]
+ChildParts=[
+	AK CSS knurled charging handle,
+	AK Zenit RP-1 charging handle
+]
 Conflict=[
 	Hera Arms CQR tactical foregrip,
 ]
-Recoil=0.000000
+Recoil=390.000000
 Ergonomics=35.000000
 Information_Eng=A semi-automatic 12 gauge shotgun with a folding stock, equipped with a firing mechanism safety lock that only allows firing from extended stock position. Features a short 430mm barrel.
 basePrice=16517
 width=4
 height=1
-avg24hPrice=38711
-low24hPrice=20000
-lastOfferCount=11
+avg24hPrice=37822
+low24hPrice=24500
+lastOfferCount=9
 Sell_Prapor=8258
 Sell_Fence=6606
 Sell_Skier=8093
 Sell_Peacekeeper=64
 Sell_Mechanic=9249
 Sell_Jaeger=9910
-Sell_Flea Market=31111
+Sell_Flea Market=25000
 weight=2.622000
-fleaMarketFee=1655
+fleaMarketFee=1318
 propertiestype=ItemPropertiesWeapon

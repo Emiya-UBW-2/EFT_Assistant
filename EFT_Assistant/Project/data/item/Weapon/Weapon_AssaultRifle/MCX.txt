@@ -31,17 +31,6 @@ ChildParts=[
 	AR-15 Tactical Dynamics Skeletonized pistol grip
 ]
 ChildParts=[
-	MCX GEN1 .300 BLK upper receiver
-]
-ChildParts=[
-	MPX/MCX retractable stock pipe adapter,
-	MPX/MCX collapsing/telescoping stock,
-	MPX/MCX telescoping stock,
-	MPX/MCX lightweight stock,
-	MPX/MCX Maxim Defense CQB telescoping stock,
-	MPX/MCX PMM ULSS foldable stock
-]
-ChildParts=[
 	5.56x45 Colt AR-15 STANAG 30-round magazine,
 	FN SCAR-L 5.56x45 30-round magazine,
 	FN SCAR-L 5.56x45 30-round magazine (FDE),
@@ -62,6 +51,17 @@ ChildParts=[
 	5.56x45 TROY BattleMag STANAG 30-round magazine
 ]
 ChildParts=[
+	MCX GEN1 .300 BLK upper receiver
+]
+ChildParts=[
+	MPX/MCX retractable stock pipe adapter,
+	MPX/MCX collapsing/telescoping stock,
+	MPX/MCX telescoping stock,
+	MPX/MCX lightweight stock,
+	MPX/MCX Maxim Defense CQB telescoping stock,
+	MPX/MCX PMM ULSS foldable stock
+]
+ChildParts=[
 	MCX charging handle
 ]
 Recoil=155.000000
@@ -70,15 +70,15 @@ Information_Eng=The .300 Blackout MCX line, designed and manufactured by SIG Sau
 basePrice=21300
 width=1
 height=1
-avg24hPrice=60314
-low24hPrice=47000
-lastOfferCount=23
+avg24hPrice=58677
+low24hPrice=45000
+lastOfferCount=42
 Sell_Prapor=10650
 Sell_Fence=8520
 Sell_Skier=10437
 Sell_Peacekeeper=82
 Sell_Mechanic=11928
-Sell_Flea Market=48900
+Sell_Flea Market=45000
 weight=0.400000
-fleaMarketFee=2714
+fleaMarketFee=2445
 propertiestype=ItemPropertiesWeapon

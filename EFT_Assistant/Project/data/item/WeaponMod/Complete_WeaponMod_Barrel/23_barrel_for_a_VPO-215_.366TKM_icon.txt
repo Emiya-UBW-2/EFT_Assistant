@@ -2,6 +2,10 @@ IDstr=5de65547883dde217541644b
 Name=VPO-215 "Gornostay" .366TKM 23 inch barrel
 ShortName=215 23"
 Itemtype=Barrel
+ChildParts=[
+	VPO-215 "Gornostay" thread protection cap,
+	Rotor 43 .366 TKM muzzle brake-compensator
+]
 Recoil=-7.000000
 Ergonomics=-8.000000
 Information_Eng=A 23 inch (600mm) barrel for VPO-215 rifle chambered in .366TKM.

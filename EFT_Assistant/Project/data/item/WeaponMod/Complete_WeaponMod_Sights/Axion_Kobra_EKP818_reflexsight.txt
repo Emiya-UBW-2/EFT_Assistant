@@ -3,6 +3,9 @@ Name=Axion Kobra EKP-8-18 reflex sight
 ShortName=EKP-8-18
 Itemtype=Reflex sight
 SightRange=200
+ChildParts=[
+	Axion Kobra sight shade
+]
 Conflict=[
 	AR-15 Colt A2 rear sight,
 	AR-15 rear sight carry handle,
@@ -25,15 +28,15 @@ Information_Eng=Kobra is a very popular reflex sight among security agencies and
 basePrice=14000
 width=1
 height=1
-avg24hPrice=14859
-low24hPrice=11000
-lastOfferCount=6
+avg24hPrice=14950
+low24hPrice=12000
+lastOfferCount=9
 Sell_Prapor=7000
 Sell_Fence=5600
 Sell_Skier=6860
 Sell_Peacekeeper=54
 Sell_Mechanic=7840
-Sell_Flea Market=14950
+Sell_Flea Market=14000
 weight=0.273000
-fleaMarketFee=866
+fleaMarketFee=840
 propertiestype=ItemPropertiesScope

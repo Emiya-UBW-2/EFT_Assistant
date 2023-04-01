@@ -2,21 +2,32 @@ IDstr=624c2e8614da335f1e034d8c
 Name=Chiappa Rhino 200DS 9x19 revolver
 ShortName=CR 200DS
 Itemtype=Revolver
-Recoil=0.000000
+ChildParts=[
+	Chiappa Rhino 9x19 6-round cylinder
+]
+ChildParts=[
+	Chiappa Rhino Green Fiber Optic front sight,
+	Chiappa Rhino front sight
+]
+ChildParts=[
+	Chiappa Rhino plastic pistol grip,
+	Chiappa Rhino wooden pistol grip
+]
+Recoil=360.000000
 Ergonomics=95.000000
 Information_Eng=The Rhino revolvers, manufactured by the Italian company Armi Chiappa, are distinguished by a revolutionary patented design and construction with an unusual barrel arrangement for revolvers opposite the lower drum chamber. The short-size "pocket" model with a 2 inch barrel chambered in 9x19mm.
 basePrice=5800
 width=1
 height=1
-avg24hPrice=10243
-low24hPrice=7000
-lastOfferCount=4
+avg24hPrice=10070
+low24hPrice=5000
+lastOfferCount=5
 Sell_Prapor=2900
 Sell_Fence=2320
 Sell_Skier=2842
 Sell_Peacekeeper=22
 Sell_Mechanic=3248
-Sell_Flea Market=8244
+Sell_Flea Market=8069
 weight=0.500000
-fleaMarketFee=438
+fleaMarketFee=430
 propertiestype=ItemPropertiesWeapon

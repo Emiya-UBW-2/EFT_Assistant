@@ -35,6 +35,113 @@
    fleaMarketFee
    properties{
     __typename
+    ...on ItemPropertiesAmmo{
+      stackMaxSize
+    }
+    ...on ItemPropertiesArmor{
+      class
+    }
+    ...on ItemPropertiesArmorAttachment{
+       class
+   }
+    ...on ItemPropertiesBackpack{
+      capacity
+    }
+    ...on ItemPropertiesBarrel{
+      recoilModifier
+      ergonomics
+      slots{
+       filters{
+         allowedItems{name}
+       }
+      }
+    }
+    ...on ItemPropertiesChestRig{
+      class
+      capacity
+    }
+    ...on ItemPropertiesContainer{
+      capacity
+    }
+    ...on ItemPropertiesFoodDrink{
+      energy
+      hydration
+    }
+    ...on ItemPropertiesGlasses{
+      class
+      blindnessProtection
+    }
+    ...on ItemPropertiesGrenade{
+      fragments
+    }
+    ...on ItemPropertiesHelmet{
+      class
+    }
+    ...on ItemPropertiesKey{
+      uses
+    }
+    ...on ItemPropertiesMagazine{
+      capacity
+      recoilModifier
+      ergonomics
+      slots{
+       filters{
+         allowedItems{name}
+       }
+      }
+    }
+    ...on ItemPropertiesMedicalItem{
+      useTime
+    }
+    ...on ItemPropertiesMelee{
+      slashDamage
+    }
+    ...on ItemPropertiesMedKit{
+      hitpoints
+    }
+    ...on ItemPropertiesNightVision{
+      intensity
+    }
+    ...on ItemPropertiesPainkiller{
+      useTime
+    }
+    ...on ItemPropertiesPreset{
+      default
+    }
+    ...on ItemPropertiesScope{
+      sightingRange
+      recoilModifier
+      ergonomics
+      slots{
+       filters{
+         allowedItems{name}
+       }
+      }
+    }
+    ...on ItemPropertiesSurgicalKit{
+      useTime
+    }
+    ...on ItemPropertiesWeapon{
+      recoilVertical
+      ergonomics
+      slots{
+       filters{
+         allowedItems{name}
+       }
+      }
+    }
+    ...on ItemPropertiesWeaponMod{
+      recoilModifier
+      ergonomics
+      slots{
+       filters{
+         allowedItems{name}
+       }
+      }
+    }
+    ...on ItemPropertiesStim{
+      useTime
+    }
    }
  }
 }"}

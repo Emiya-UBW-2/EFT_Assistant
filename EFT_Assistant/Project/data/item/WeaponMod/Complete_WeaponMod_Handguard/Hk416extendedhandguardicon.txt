@@ -3,54 +3,25 @@ Name=HK 416A5 Quad Rail Extended handguard
 ShortName=416A5 4Rail ext.
 Itemtype=Handguard
 ChildParts=[
-	KAC Folding front sight,
-	Magpul MBUS Gen2 flip-up front sight,
-	HK MP7 flip-up front sight,
-	MPX flip-up front sight,
-	AR-15 Leapers UTG Low Profile A2 front sight
-]
-ChildParts=[
-	Kiba Arms 25mm accessory ring mount,
-	Zenit Klesch-2IKS IR illuminator with laser,
-	Zenit Klesch-2P flashlight with laser,
-	Zenit Klesch-2U tactical flashlight,
-	AN/PEQ-15 tactical device,
-	Glock GTL 21 tactical flashlight with laser,
-	Holosun LS321 Tactical device,
-	LA-5B/PEQ tactical device,
-	Steiner LAS/TAC 2 tactical flashlight,
-	SureFire XC1 tactical flashlight,
-	SureFire X400 Ultra tactical flashlight with laser
-]
-ChildParts=[
-	Kiba Arms 25mm accessory ring mount,
-	Zenit Klesch-2IKS IR illuminator with laser,
-	Zenit Klesch-2P flashlight with laser,
-	Zenit Klesch-2U tactical flashlight,
-	AN/PEQ-15 tactical device,
-	Glock GTL 21 tactical flashlight with laser,
-	Holosun LS321 Tactical device,
-	LA-5B/PEQ tactical device,
-	Steiner LAS/TAC 2 tactical flashlight,
-	SureFire XC1 tactical flashlight,
-	SureFire X400 Ultra tactical flashlight with laser
-]
-ChildParts=[
 	BCM GUNFIGHTER MOD 3 vertical foregrip,
 	ASh-12 vertical foregrip,
 	Fortis Shift tactical foregrip,
+	Hera Arms CQR tactical foregrip,
+	HK Sturmgriff foregrip,
 	KAC vertical foregrip,
 	Magpul AFG tactical foregrip (Black),
 	Magpul AFG tactical foregrip (FDE),
 	Magpul AFG tactical foregrip (Forest Green),
 	Magpul AFG tactical foregrip (Olive Drab),
 	Magpul RVG foregrip (Black),
+	Magpul RVG foregrip (FDE),
 	RTM Pillau tactical foregrip,
 	Stark SE-5 Express Forward foregrip,
 	Strike Industries Cobra Tactical foregrip,
 	TangoDown Stubby BGV-MK46K foregrip (Black),
 	TangoDown Stubby BGV-MK46K foregrip (FDE),
 	TangoDown Stubby BGV-MK46K foregrip (Stealth Gray),
+	Tactical Dynamics Skeletonized Foregrip,
 	Viking Tactics UVG tactical foregrip,
 	Zenit RK-1 tactical foregrip on B-25U mount,
 	Zenit RK-0 tactical foregrip,
@@ -58,11 +29,73 @@ ChildParts=[
 	Zenit RK-2 tactical foregrip,
 	Zenit RK-4 tactical foregrip,
 	Zenit RK-5 tactical foregrip,
-	Zenit RK-6 tactical foregrip,
-	Tactical Dynamics Skeletonized Foregrip
+	Zenit RK-6 tactical foregrip
 ]
 ChildParts=[
 	NcSTAR MPR45 Backup mount
+]
+ChildParts=[
+	HK MP7 flip-up front sight,
+	KAC Folding Micro front sight,
+	KAC Folding front sight,
+	KRISS Defiance low profile flip-up front sight,
+	Magpul MBUS Gen2 flip-up front sight,
+	Magpul MBUS Gen2 flip-up front sight (FDE),
+	MCX flip-up front sight,
+	MPX flip-up front sight,
+	AR-15 Leapers UTG Low Profile A2 front sight
+]
+ChildParts=[
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	AN/PEQ-2 tactical device,
+	LA-5B/PEQ tactical device,
+	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Perst-3 tactical device
+]
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser,
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	LA-5B/PEQ tactical device,
+	NcSTAR Tactical blue laser LAM-module,
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Zenit Perst-3 tactical device,
+	Kiba Arms 25mm accessory ring mount,
+	Daniel Defense 25mm accessory ring mount,
+	Olight Baldr Pro tactical flashlight with laser,
+	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Insight WMX200 tactical flashlight
+]
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser,
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	AN/PEQ-2 tactical device,
+	LA-5B/PEQ tactical device,
+	NcSTAR Tactical blue laser LAM-module,
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Zenit Perst-3 tactical device,
+	Kiba Arms 25mm accessory ring mount,
+	Daniel Defense 25mm accessory ring mount,
+	Olight Baldr Pro tactical flashlight with laser,
+	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Insight WMX200 tactical flashlight
 ]
 Conflict=[
 	HK 416A5 5.56x45 11 inch barrel,
@@ -75,15 +108,15 @@ Information_Eng=An extended-length quad rail handguard for HK 416A5 and compatib
 basePrice=11300
 width=3
 height=1
-avg24hPrice=11667
-low24hPrice=8888
-lastOfferCount=5
+avg24hPrice=11423
+low24hPrice=7000
+lastOfferCount=7
 Sell_Prapor=5650
 Sell_Fence=4520
 Sell_Skier=5537
 Sell_Peacekeeper=43
 Sell_Mechanic=6328
-Sell_Flea Market=9800
+Sell_Flea Market=7000
 weight=0.540000
-fleaMarketFee=633
+fleaMarketFee=595
 propertiestype=ItemPropertiesWeaponMod

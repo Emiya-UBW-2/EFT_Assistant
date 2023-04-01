@@ -13,6 +13,9 @@ ChildParts=[
 	AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo (White)
 ]
 ChildParts=[
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher
+]
+ChildParts=[
 	VPO-209 thread protector,
 	Rotor 43 .366 TKM muzzle brake-compensator
 ]
@@ -36,28 +39,25 @@ ChildParts=[
 	AK TAPCO SAW-Style pistol grip (FDE),
 	AK US Palm pistol grip,
 	AK Zenit RK-3 pistol grip,
-	PP-19-01 "Vityaz" pistol grip
+	PP-19-01 "Vityaz" pistol grip,
+	AK FAB Defense AGR-47 pistol grip,
+	AK TangoDown Battle Grip pistol grip,
+	AK TangoDown Battle Grip pistol grip (FDE)
 ]
 ChildParts=[
-	RD-704 dust cover,
 	AK AKademia Bastion dust cover,
 	AK FAB Defense PDC dust cover,
 	AKM dust cover (6P1 0-1),
 	Molot AKM-type dust cover,
 	AK TWS Dog Leg Rail dust cover,
-	AK Zenit B-33 dust cover
+	AK Zenit B-33 dust cover,
+	RD-704 dust cover
 ]
 ChildParts=[
-	AKM rear sight (6P1 Sb.2-1),
-	AKMB system rear sight,
-	AK RD Enhanced V2 Rear Sight,
+	VPO-209 rear sight,
 	AK Taktika Tula TT01 rear sight rail
 ]
 ChildParts=[
-	AKMP system front sight device
-]
-ChildParts=[
-	AKM/AK-74 RD AK to M4 buffer tube adapter,
 	AK-74 polymer stock (6P20 Sb.7),
 	AK-74 "Plum" polymer stock (6P20 Sb.7),
 	AK-74 wooden stock (6P20 Sb.5),
@@ -70,10 +70,10 @@ ChildParts=[
 	VPO-209 wooden stock,
 	AKM/AK-74 ProMag Archangel OPFOR AA47 buttstock,
 	AKM/AK-74 ME4 buffer tube adapter,
-	AKM/AK-74 Zenit PT Lock
+	AKM/AK-74 Zenit PT Lock,
+	AKM/AK-74 RD AK to M4 buffer tube adapter
 ]
 ChildParts=[
-	AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine,
 	AK 7.62x39 ribbed metal 10-round magazine,
 	AK 7.62x39 6L10 30-round magazine,
 	AK-103 7.62x39 30-round magazine,
@@ -88,14 +88,15 @@ ChildParts=[
 	AK 7.62x39 ProMag AK-A-16 73-round drum magazine,
 	AK 7.62x39 US Palm "AK30" 30-round magazine (Black),
 	AK 7.62x39 US Palm "AK30" 30-round magazine (FDE),
-	AK 7.62x39 X Products X-47 50-round drum magazine
+	AK 7.62x39 X Products X-47 50-round drum magazine,
+	AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine
 ]
 ChildParts=[
 	AK CSS knurled charging handle,
 	AK Zenit RP-1 charging handle
 ]
 ChildParts=[
-	GP-25 "Kostyor" 40mm underbarrel grenade launcher
+	AKMP system front sight device
 ]
 Conflict=[
 	Hera Arms CQR tactical foregrip,
@@ -106,15 +107,15 @@ Information_Eng=The Molot VPO-209 carbine is based on the well-known Kalashnikov
 basePrice=21585
 width=4
 height=1
-avg24hPrice=33399
+avg24hPrice=33463
 low24hPrice=27000
-lastOfferCount=6
+lastOfferCount=9
 Sell_Prapor=10792
 Sell_Fence=8634
 Sell_Skier=10576
 Sell_Peacekeeper=83
 Sell_Mechanic=12087
-Sell_Flea Market=28888
+Sell_Flea Market=27000
 weight=2.092000
-fleaMarketFee=1549
+fleaMarketFee=1472
 propertiestype=ItemPropertiesWeapon

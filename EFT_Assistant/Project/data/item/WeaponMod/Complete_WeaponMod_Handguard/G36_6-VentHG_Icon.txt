@@ -2,6 +2,9 @@ IDstr=6231654c71b5bc3baa1078e5
 Name=HK G36 6-vent handguard
 ShortName=G36 6-vent
 Itemtype=Handguard
+ChildParts=[
+	HK G36 bipod
+]
 Conflict=[
 	HK G36 5.56x45 228mm barrel,
 	HK G36 5.56x45 318mm barrel
@@ -12,8 +15,8 @@ Information_Eng=A standard polymer 6-vent handguard with a heatshield for the G3
 basePrice=5900
 width=3
 height=1
-avg24hPrice=19990
-low24hPrice=10000
+avg24hPrice=0
+low24hPrice=0
 lastOfferCount=2
 Sell_Prapor=2950
 Sell_Fence=2360

@@ -3,10 +3,13 @@ Name=AR-10 JP Enterprises Gas System-6
 ShortName=GS-6
 Itemtype=Gas block
 ChildParts=[
+	HK MP7 flip-up front sight,
+	KAC Folding Micro front sight,
 	KAC Folding front sight,
+	KRISS Defiance low profile flip-up front sight,
 	Magpul MBUS Gen2 flip-up front sight,
 	Magpul MBUS Gen2 flip-up front sight (FDE),
-	HK MP7 flip-up front sight,
+	MCX flip-up front sight,
 	MPX flip-up front sight
 ]
 Conflict=[
@@ -20,15 +23,15 @@ Information_Eng=Installed as a standard AR-10/AR-15-based weapons gas block, add
 basePrice=14690
 width=1
 height=1
-avg24hPrice=12450
-low24hPrice=9000
-lastOfferCount=11
+avg24hPrice=12684
+low24hPrice=10000
+lastOfferCount=10
 Sell_Prapor=7345
 Sell_Fence=5876
 Sell_Skier=7198
 Sell_Peacekeeper=56
 Sell_Mechanic=8226
-Sell_Flea Market=11000
+Sell_Flea Market=10000
 weight=0.218000
-fleaMarketFee=788
+fleaMarketFee=777
 propertiestype=ItemPropertiesWeaponMod

@@ -2,6 +2,10 @@ IDstr=5f2aa46b878ef416f538b567
 Name=RFB 7.62x51 18 inch barrel
 ShortName=RFB 18"
 Itemtype=Barrel
+ChildParts=[
+	RFB thread protection cap,
+	RFB thread spacer
+]
 Recoil=-6.000000
 Ergonomics=-11.000000
 Information_Eng=An 18 inch long barrel for the Kel-Tec RFB rifle, chambered in 7.62x51ammo.

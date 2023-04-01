@@ -362,14 +362,336 @@ namespace FPS_n2 {
 		}
 	};
 
-	struct properties {
-		std::string			typeName;
+	enum class EnumItemProperties {
+		ItemPropertiesAmmo,
+		ItemPropertiesArmor,
+		ItemPropertiesArmorAttachment,
+		ItemPropertiesBackpack,
+		ItemPropertiesBarrel,
+		ItemPropertiesChestRig,
+		ItemPropertiesContainer,
+		ItemPropertiesFoodDrink,
+		ItemPropertiesGlasses,
+		ItemPropertiesGrenade,
+		ItemPropertiesHelmet,
+		ItemPropertiesKey,
+		ItemPropertiesMagazine,
+		ItemPropertiesMedicalItem,
+		ItemPropertiesMelee,
+		ItemPropertiesMedKit,
+		ItemPropertiesNightVision,
+		ItemPropertiesPainkiller,
+		ItemPropertiesPreset,
+		ItemPropertiesScope,
+		ItemPropertiesSurgicalKit,
+		ItemPropertiesWeapon,
+		ItemPropertiesWeaponMod,
+		ItemPropertiesStim,
+		Max,
+	};
+	static const char* ItemPropertiesStr[(int)EnumItemProperties::Max] = {
+		"ItemPropertiesAmmo",
+		"ItemPropertiesArmor",
+		"ItemPropertiesArmorAttachment",
+		"ItemPropertiesBackpack",
+		"ItemPropertiesBarrel",
+		"ItemPropertiesChestRig",
+		"ItemPropertiesContainer",
+		"ItemPropertiesFoodDrink",
+		"ItemPropertiesGlasses",
+		"ItemPropertiesGrenade",
+		"ItemPropertiesHelmet",
+		"ItemPropertiesKey",
+		"ItemPropertiesMagazine",
+		"ItemPropertiesMedicalItem",
+		"ItemPropertiesMelee",
+		"ItemPropertiesMedKit",
+		"ItemPropertiesNightVision",
+		"ItemPropertiesPainkiller",
+		"ItemPropertiesPreset",
+		"ItemPropertiesScope",
+		"ItemPropertiesSurgicalKit",
+		"ItemPropertiesWeapon",
+		"ItemPropertiesWeaponMod",
+		"ItemPropertiesStim",
+	};
+
+	class properties {
+		EnumItemProperties						m_Type{ EnumItemProperties::Max };
+		std::array<int, 4>						m_IntParams{ 0,0,0,0 };
+		std::array<float, 4>					m_floatParams{ 0,0,0,0 };
+		std::vector<std::vector<std::string>>	m_ItemSlots;
+	public:
+		const auto*		GetTypeName() const noexcept { return (m_Type != EnumItemProperties::Max) ? ItemPropertiesStr[(int)m_Type] : ""; }
+		const auto&		GetType() const noexcept { return m_Type; }
+	public:
+		const auto		GetStackMaxSize() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesAmmo) ? m_IntParams[0] : 0; }
+		const auto		GetArmerClass() const noexcept {
+			switch (m_Type) {
+			case EnumItemProperties::ItemPropertiesArmor:
+				return m_IntParams[0];
+			case EnumItemProperties::ItemPropertiesArmorAttachment:
+				return m_IntParams[0];
+			case EnumItemProperties::ItemPropertiesChestRig:
+				return m_IntParams[0];
+			case EnumItemProperties::ItemPropertiesGlasses:
+				return m_IntParams[0];
+			case EnumItemProperties::ItemPropertiesHelmet:
+				return m_IntParams[0];
+			default:
+				return 0;
+			}
+		}
+		const auto		GetCapacity() const noexcept {
+			switch (m_Type) {
+			case EnumItemProperties::ItemPropertiesBackpack:
+				return m_IntParams[0];
+			case EnumItemProperties::ItemPropertiesChestRig:
+				return m_IntParams[1];
+			case EnumItemProperties::ItemPropertiesContainer:
+				return m_IntParams[0];
+			case EnumItemProperties::ItemPropertiesMagazine:
+				return m_IntParams[0];
+			default:
+				return 0;
+			}
+		}
+		const auto		GetEnergy() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesFoodDrink) ? m_IntParams[0] : 0; }
+		const auto		GetHydration() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesFoodDrink) ? m_IntParams[1] : 0; }
+		const auto		GetBlindnessProtection() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesGlasses) ? m_floatParams[0] : 0.f; }
+		const auto		GetFragments() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesGrenade) ? m_IntParams[0] : 0; }
+		const auto		GetUses() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesKey) ? m_IntParams[0] : 0; }
+		const auto		GetUseTime() const noexcept {
+			switch (m_Type) {
+			case EnumItemProperties::ItemPropertiesMedicalItem:
+				return m_IntParams[0];
+			case EnumItemProperties::ItemPropertiesPainkiller:
+				return m_IntParams[0];
+			case EnumItemProperties::ItemPropertiesSurgicalKit:
+				return m_IntParams[0];
+			case EnumItemProperties::ItemPropertiesStim:
+				return m_IntParams[0];
+			default:
+				return 0;
+			}
+		}
+		const auto		GetSlashDamage() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMelee) ? m_IntParams[0] : 0; }
+
+		const auto		GetHitpoints() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMedKit) ? m_IntParams[0] : 0; }
+		const auto		GetIntensity() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesNightVision) ? m_IntParams[0] : 0; }
+		const auto		GetDefault() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesPreset) ? m_IntParams[0] : 0; }
+		const auto		GetSightingRange() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesScope) ? m_IntParams[0] : 0; }
+		const auto		GetWeaponRecoilVertical() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesWeapon) ? m_IntParams[0] : 0; }
+		const auto		GetWeaponErgonomics() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesWeapon) ? m_floatParams[0] : 0; }
+
+		const auto		GetModRecoil() const noexcept {
+			switch (m_Type) {
+			case EnumItemProperties::ItemPropertiesBarrel:
+				return  m_floatParams[0];
+			case EnumItemProperties::ItemPropertiesMagazine:
+				return  m_floatParams[0];
+			case EnumItemProperties::ItemPropertiesScope:
+				return  m_floatParams[0];
+			case EnumItemProperties::ItemPropertiesWeaponMod:
+				return  m_floatParams[0];
+			default:
+				return 0.f;
+			}
+		}
+		const auto		GetModErgonomics() const noexcept {
+			switch (m_Type) {
+			case EnumItemProperties::ItemPropertiesBarrel:
+				return  m_floatParams[1];
+			case EnumItemProperties::ItemPropertiesMagazine:
+				return  m_floatParams[1];
+			case EnumItemProperties::ItemPropertiesScope:
+				return  m_floatParams[1];
+			case EnumItemProperties::ItemPropertiesWeaponMod:
+				return  m_floatParams[1];
+			default:
+				return 0.f;
+			}
+		}
+
+		const auto&		GetModSlots() const noexcept { return m_ItemSlots; }
 	public:
 		void GetJsonData(const nlohmann::json& data) {
 			if (data.contains("__typename")) {
 				if (!data["__typename"].is_null()) {
-					typeName = data["__typename"];
+					std::string buf = data["__typename"];
+					for (int i = 0; i < sizeof(ItemPropertiesStr) / sizeof(ItemPropertiesStr[0]); i++) {
+						if (buf == ItemPropertiesStr[i]) {
+							m_Type = (EnumItemProperties)i;
+						}
+					}
 				}
+			}
+			//ŒÂ•Ê
+			switch (m_Type) {
+			case EnumItemProperties::ItemPropertiesAmmo:
+				m_IntParams[0] = data["stackMaxSize"];
+				break;
+			case EnumItemProperties::ItemPropertiesArmor:
+				if (!data["class"].is_null()) {
+					m_IntParams[0] = data["class"];
+				}
+				else {
+					m_IntParams[0] = 0;
+				}
+				break;
+			case EnumItemProperties::ItemPropertiesArmorAttachment:
+				if (!data["class"].is_null()) {
+					m_IntParams[0] = data["class"];
+				}
+				else {
+					m_IntParams[0] = 0;
+				}
+				break;
+			case EnumItemProperties::ItemPropertiesBackpack:
+				m_IntParams[0] = data["capacity"];
+				break;
+			case EnumItemProperties::ItemPropertiesBarrel:
+				m_floatParams[0] = data["recoilModifier"];
+				m_floatParams[1] = data["ergonomics"];
+				m_ItemSlots.clear();
+				for (const auto& s : data["slots"]) {
+					m_ItemSlots.resize(m_ItemSlots.size() + 1);
+					for (const auto& f : s["filters"]) {
+						for (const auto& a : f) {
+							for (const auto& n : a) {
+								m_ItemSlots.back().emplace_back(n);
+							}
+						}
+					}
+				}
+				break;
+			case EnumItemProperties::ItemPropertiesChestRig:
+				if (!data["class"].is_null()) {
+					m_IntParams[0] = data["class"];
+				}
+				else {
+					m_IntParams[0] = 0;
+				}
+				m_IntParams[1] = data["capacity"];
+				break;
+			case EnumItemProperties::ItemPropertiesContainer:
+				m_IntParams[0] = data["capacity"];
+				break;
+			case EnumItemProperties::ItemPropertiesFoodDrink:
+				m_IntParams[0] = data["energy"];
+				m_IntParams[1] = data["hydration"];
+				break;
+			case EnumItemProperties::ItemPropertiesGlasses:
+				if (!data["class"].is_null()) {
+					m_IntParams[0] = data["class"];
+				}
+				else {
+					m_IntParams[0] = 0;
+				}
+				m_floatParams[0] = data["blindnessProtection"];
+				break;
+			case EnumItemProperties::ItemPropertiesGrenade:
+				m_IntParams[0] = data["fragments"];
+				break;
+			case EnumItemProperties::ItemPropertiesHelmet:
+				if (!data["class"].is_null()) {
+					m_IntParams[0] = data["class"];
+				}
+				else {
+					m_IntParams[0] = 0;
+				}
+				break;
+			case EnumItemProperties::ItemPropertiesKey:
+				m_IntParams[0] = data["uses"];
+				break;
+			case EnumItemProperties::ItemPropertiesMagazine:
+				m_IntParams[0] = data["capacity"];
+				m_floatParams[0] = data["recoilModifier"];
+				m_floatParams[1] = data["ergonomics"];
+				m_ItemSlots.clear();
+				for (const auto& s : data["slots"]) {
+					m_ItemSlots.resize(m_ItemSlots.size() + 1);
+					for (const auto& f : s["filters"]) {
+						for (const auto& a : f) {
+							for (const auto& n : a) {
+								m_ItemSlots.back().emplace_back(n);
+							}
+						}
+					}
+				}
+				break;
+			case EnumItemProperties::ItemPropertiesMedicalItem:
+				m_IntParams[0] = data["useTime"];
+				break;
+			case EnumItemProperties::ItemPropertiesMelee:
+				m_IntParams[0] = data["slashDamage"];
+				break;
+			case EnumItemProperties::ItemPropertiesMedKit:
+				m_IntParams[0] = data["hitpoints"];
+				break;
+			case EnumItemProperties::ItemPropertiesNightVision:
+				m_floatParams[0] = data["intensity"];
+				break;
+			case EnumItemProperties::ItemPropertiesPainkiller:
+				m_IntParams[0] = data["useTime"];
+				break;
+			case EnumItemProperties::ItemPropertiesPreset:
+				m_IntParams[0] = data["default"];
+				break;
+			case EnumItemProperties::ItemPropertiesScope:
+				m_IntParams[0] = data["sightingRange"];
+				m_floatParams[0] = data["recoilModifier"];
+				m_floatParams[1] = data["ergonomics"];
+				m_ItemSlots.clear();
+				for (const auto& s : data["slots"]) {
+					m_ItemSlots.resize(m_ItemSlots.size() + 1);
+					for (const auto& f : s["filters"]) {
+						for (const auto& a : f) {
+							for (const auto& n : a) {
+								m_ItemSlots.back().emplace_back(n);
+							}
+						}
+					}
+				}
+				break;
+			case EnumItemProperties::ItemPropertiesSurgicalKit:
+				m_IntParams[0] = data["useTime"];
+				break;
+			case EnumItemProperties::ItemPropertiesWeapon:
+				m_IntParams[0] = data["recoilVertical"];
+				m_floatParams[0] = data["ergonomics"];
+				m_ItemSlots.clear();
+				for (const auto& s : data["slots"]) {
+					m_ItemSlots.resize(m_ItemSlots.size() + 1);
+					for (const auto& f : s["filters"]) {
+						for (const auto& a : f) {
+							for (const auto& n : a) {
+								m_ItemSlots.back().emplace_back(n);
+							}
+						}
+					}
+				}
+				break;
+			case EnumItemProperties::ItemPropertiesWeaponMod:
+				m_floatParams[0] = data["recoilModifier"];
+				m_floatParams[1] = data["ergonomics"];
+				m_ItemSlots.clear();
+				for (const auto& s : data["slots"]) {
+					m_ItemSlots.resize(m_ItemSlots.size() + 1);
+					for (const auto& f : s["filters"]) {
+						for (const auto& a : f) {
+							for (const auto& n : a) {
+								m_ItemSlots.back().emplace_back(n);
+							}
+						}
+					}
+				}
+				break;
+			case EnumItemProperties::ItemPropertiesStim:
+				m_IntParams[0] = data["useTime"];
+				break;
+			default:
+				break;
 			}
 		}
 	};
@@ -393,8 +715,6 @@ namespace FPS_n2 {
 		std::vector<std::pair<std::string, int>>	buyFor;
 		std::string									categorytypes;
 		float										weight{ 0.f };
-		float										recoilModifier{ -1000.f };
-		float										ergonomicsModifier{ -1000.f };
 
 		std::vector<std::string>					conflictingItems;
 
@@ -440,17 +760,6 @@ namespace FPS_n2 {
 			if (data.contains("low24hPrice")) {
 				if (!data["low24hPrice"].is_null()) {
 					low24hPrice = data["low24hPrice"];
-				}
-			}
-
-			if (data.contains("recoilModifier")) {
-				if (!data["recoilModifier"].is_null()) {
-					recoilModifier = data["recoilModifier"];
-				}
-			}
-			if (data.contains("ergonomicsModifier")) {
-				if (!data["ergonomicsModifier"].is_null()) {
-					ergonomicsModifier = data["ergonomicsModifier"];
 				}
 			}
 
@@ -571,23 +880,43 @@ namespace FPS_n2 {
 							outputfile << "SightRange=" + std::to_string(L.GetSightRange()) + "\n";
 						}
 
-						for (auto& m : L.GetChildParts()) {
-							outputfile << "ChildParts=[\n";
-							std::vector<std::string> Names;
-							for (auto& d : m.Data) {
-								if (d.first) {
-									auto NmBuf = d.first->GetName();
-									if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
-										outputfile << "\t" + NmBuf + ((&d != &m.Data.back()) ? "," : "") + "\n";
-										Names.emplace_back(NmBuf);
+
+						if (jd.m_properties.GetModSlots().size() > 0) {
+							for (const auto& m : jd.m_properties.GetModSlots()) {
+								if (m.size() > 0) {
+									outputfile << "ChildParts=[\n";
+									std::vector<std::string> Names;
+									for (auto& d : m) {
+										auto NmBuf = d;
+										if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
+											outputfile << "\t" + NmBuf + ((&d != &m.back()) ? "," : "") + "\n";
+											Names.emplace_back(NmBuf);
+										}
 									}
-								}
-								else {
-									//int a = 0;
+									outputfile << "]\n";
 								}
 							}
-							outputfile << "]\n";
 						}
+						else {
+							for (auto& m : L.GetChildParts()) {
+								outputfile << "ChildParts=[\n";
+								std::vector<std::string> Names;
+								for (auto& d : m.Data) {
+									if (d.first) {
+										auto NmBuf = d.first->GetName();
+										if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
+											outputfile << "\t" + NmBuf + ((&d != &m.Data.back()) ? "," : "") + "\n";
+											Names.emplace_back(NmBuf);
+										}
+									}
+									else {
+										//int a = 0;
+									}
+								}
+								outputfile << "]\n";
+							}
+						}
+
 						if (jd.conflictingItems.size() > 0) {
 							outputfile << "Conflict=[\n";
 							std::vector<std::string> Names;
@@ -620,19 +949,23 @@ namespace FPS_n2 {
 							}
 						}
 
-						if (jd.recoilModifier > -500) {
-							outputfile << "Recoil=" + std::to_string(jd.recoilModifier) + "\n";
+						if (jd.m_properties.GetType() == EnumItemProperties::ItemPropertiesWeapon) {
+							outputfile << "Recoil=" + std::to_string((float)jd.m_properties.GetWeaponRecoilVertical()) + "\n";
+							outputfile << "Ergonomics=" + std::to_string(jd.m_properties.GetWeaponErgonomics()) + "\n";
 						}
 						else {
-							outputfile << "Recoil=" + std::to_string(L.GetRecoil()) + "\n";
+							switch (jd.m_properties.GetType()) {
+							case EnumItemProperties::ItemPropertiesBarrel:
+							case EnumItemProperties::ItemPropertiesMagazine:
+							case EnumItemProperties::ItemPropertiesScope:
+							case EnumItemProperties::ItemPropertiesWeaponMod:
+								outputfile << "Recoil=" + std::to_string((float)jd.m_properties.GetModRecoil()*100.f) + "\n";
+								outputfile << "Ergonomics=" + std::to_string(jd.m_properties.GetModErgonomics()) + "\n";
+								break;
+							default:
+								break;
+							}
 						}
-						if (jd.ergonomicsModifier > -500) {
-							outputfile << "Ergonomics=" + std::to_string(jd.ergonomicsModifier) + "\n";
-						}
-						else {
-							outputfile << "Ergonomics=" + std::to_string(L.GetErgonomics()) + "\n";
-						}
-
 
 						outputfile << "Information_Eng=" + jd.description + "\n";
 						outputfile << "basePrice=" + std::to_string(jd.basePrice) + "\n";
@@ -653,7 +986,7 @@ namespace FPS_n2 {
 						//std::vector<std::string>					craftsFor;
 						//std::vector<std::string>					craftsUsing;
 						outputfile << "fleaMarketFee=" + std::to_string(jd.fleaMarketFee) + "\n";
-						outputfile << "propertiestype=" + (jd.m_properties.typeName) + "\n";
+						outputfile << "propertiestype=" + (std::string)(jd.m_properties.GetTypeName()) + "\n";
 						outputfile.close();
 						break;
 					}
@@ -709,13 +1042,6 @@ namespace FPS_n2 {
 					if (L.GetSightRange() >= 0) {
 						outputfile << "SightRange=" + std::to_string(L.GetSightRange()) + "\n";
 					}
-					for (auto& m : L.GetChildParts()) {
-						outputfile << "ChildParts=[\n";
-						for (auto& d : m.Data) {
-							outputfile << "\t" + d.first->GetName() + ((&d != &m.Data.back()) ? "," : "") + "\n";
-						}
-						outputfile << "]\n";
-					}
 					if (L.GetConflictParts().size() > 0) {
 						outputfile << "Conflict=[\n";
 						for (auto& m : L.GetConflictParts()) {
@@ -724,20 +1050,40 @@ namespace FPS_n2 {
 						outputfile << "]\n";
 					}
 					//*/
+					if (jd.m_properties.GetModSlots().size() > 0) {
+						for (const auto& m : jd.m_properties.GetModSlots()) {
+							if (m.size() > 0) {
+								outputfile << "ChildParts=[\n";
+								std::vector<std::string> Names;
+								for (auto& d : m) {
+									auto NmBuf = d;
+									if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
+										outputfile << "\t" + NmBuf + ((&d != &m.back()) ? "," : "") + "\n";
+										Names.emplace_back(NmBuf);
+									}
+								}
+								outputfile << "]\n";
+							}
+						}
+					}
 
-					if (jd.recoilModifier > -500) {
-						outputfile << "Recoil=" + std::to_string(jd.recoilModifier) + "\n";
+					if (jd.m_properties.GetType() == EnumItemProperties::ItemPropertiesWeapon) {
+						outputfile << "Recoil=" + std::to_string((float)jd.m_properties.GetWeaponRecoilVertical()) + "\n";
+						outputfile << "Ergonomics=" + std::to_string(jd.m_properties.GetWeaponErgonomics()) + "\n";
 					}
 					else {
-						//outputfile << "Recoil=" + std::to_string(0) + "\n";
+						switch (jd.m_properties.GetType()) {
+						case EnumItemProperties::ItemPropertiesBarrel:
+						case EnumItemProperties::ItemPropertiesMagazine:
+						case EnumItemProperties::ItemPropertiesScope:
+						case EnumItemProperties::ItemPropertiesWeaponMod:
+							outputfile << "Recoil=" + std::to_string((float)jd.m_properties.GetModRecoil()*100.f) + "\n";
+							outputfile << "Ergonomics=" + std::to_string(jd.m_properties.GetModErgonomics()) + "\n";
+							break;
+						default:
+							break;
+						}
 					}
-					if (jd.ergonomicsModifier > -500) {
-						outputfile << "Ergonomics=" + std::to_string(jd.ergonomicsModifier) + "\n";
-					}
-					else {
-						//outputfile << "Ergonomics=" + std::to_string(0) + "\n";
-					}
-
 
 					outputfile << "Information_Eng=" + jd.description + "\n";
 					outputfile << "basePrice=" + std::to_string(jd.basePrice) + "\n";
@@ -758,7 +1104,7 @@ namespace FPS_n2 {
 					//std::vector<std::string>					craftsFor;
 					//std::vector<std::string>					craftsUsing;
 					outputfile << "fleaMarketFee=" + std::to_string(jd.fleaMarketFee) + "\n";
-					outputfile << "propertiestype=" + (jd.m_properties.typeName) + "\n";
+					outputfile << "propertiestype=" + (std::string)(jd.m_properties.GetTypeName()) + "\n";
 					outputfile.close();
 
 					//RemoveDirectory(Path.c_str());

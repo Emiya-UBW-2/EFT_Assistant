@@ -7,20 +7,18 @@ Conflict=[
 	Tagilla's welding mask "Gorilla",
 	Tagilla's welding mask "UBEY",
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=6B47 is an aramid helmet of Russian origin. As part of the Ratnik program, it is the new standard-issue helmet for most of the Russian Armed Forces. The 6B47 is similar to previous generation helmets such as the 6B7-1M and 6B27. It has equal protection but weighs slightly less, floats in water, and has mounting equipment for lights and night vision devices. The helmet can be fitted with a variety of covers for different environments.
 basePrice=30583
 width=2
 height=2
-avg24hPrice=35265
+avg24hPrice=34923
 low24hPrice=25000
-lastOfferCount=10
+lastOfferCount=4
 Sell_Fence=12233
 Sell_Skier=14985
 Sell_Peacekeeper=118
 Sell_Ragman=18961
-Sell_Flea Market=30000
+Sell_Flea Market=33666
 weight=1.300000
-fleaMarketFee=1814
+fleaMarketFee=1922
 propertiestype=ItemPropertiesHelmet

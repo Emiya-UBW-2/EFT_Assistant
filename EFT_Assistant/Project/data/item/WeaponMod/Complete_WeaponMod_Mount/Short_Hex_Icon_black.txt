@@ -2,22 +2,44 @@ IDstr=5b800ed086f7747baf6e2f9e
 Name=Hexagon short length rail
 ShortName=HEX short
 Itemtype=Mount
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser,
+	Holosun LS321 Tactical device,
+	AN/PEQ-15 tactical device,
+	AN/PEQ-2 tactical device,
+	LA-5B/PEQ tactical device,
+	NcSTAR Tactical blue laser LAM-module,
+	Steiner DBAL-PL tactical device,
+	Steiner LAS/TAC 2 tactical flashlight,
+	SureFire X400 Ultra tactical flashlight with laser,
+	SureFire XC1 tactical flashlight,
+	Wilcox RAPTAR ES Tactical Rangefinder,
+	Zenit Klesch-2IKS IR illuminator with laser,
+	Zenit Klesch-2P flashlight with laser,
+	Zenit Klesch-2U tactical flashlight,
+	Zenit Perst-3 tactical device,
+	Kiba Arms 25mm accessory ring mount,
+	Daniel Defense 25mm accessory ring mount,
+	Olight Baldr Pro tactical flashlight with laser,
+	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Insight WMX200 tactical flashlight
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A short length rail for the Hexagon handguard, allows installation of additional tactical equipment.
 basePrice=1108
 width=1
 height=1
-avg24hPrice=16610
+avg24hPrice=17275
 low24hPrice=9800
-lastOfferCount=5
+lastOfferCount=6
 Sell_Prapor=554
 Sell_Fence=443
 Sell_Skier=542
 Sell_Peacekeeper=4
 Sell_Mechanic=620
 Sell_Jaeger=664
-Sell_Flea Market=12989
+Sell_Flea Market=10000
 weight=0.070000
-fleaMarketFee=1736
+fleaMarketFee=1132
 propertiestype=ItemPropertiesWeaponMod

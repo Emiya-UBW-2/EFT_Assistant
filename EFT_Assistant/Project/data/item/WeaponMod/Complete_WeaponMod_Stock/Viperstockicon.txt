@@ -6,22 +6,22 @@ Conflict=[
 	AR-15 ADAR 2-15 wooden stock,
 	AR-15 Hera Arms CQR pistol grip/buttstock,
 ]
-Recoil=-30.000000
+Recoil=-30.000002
 Ergonomics=11.000000
 Information_Eng=The Viper Mod 1 telescopic stock designed and produced by Strike Industries. The stock is made for the AR-15 platforms and will fit on all Mil-Spec dimension receiver extension tubes. The stock has been redesigned to achieve a lighter and a more compact design.
 basePrice=8500
 width=2
 height=1
-avg24hPrice=25075
+avg24hPrice=24152
 low24hPrice=14000
-lastOfferCount=13
+lastOfferCount=3
 Sell_Prapor=4250
 Sell_Fence=3400
 Sell_Skier=4165
 Sell_Peacekeeper=33
 Sell_Mechanic=4760
 Sell_Jaeger=5100
-Sell_Flea Market=14000
+Sell_Flea Market=20000
 weight=0.188000
-fleaMarketFee=737
+fleaMarketFee=1118
 propertiestype=ItemPropertiesWeaponMod

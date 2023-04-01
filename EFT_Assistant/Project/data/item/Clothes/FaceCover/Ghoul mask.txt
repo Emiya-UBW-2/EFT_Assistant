@@ -47,20 +47,18 @@ Conflict=[
 	Beanie,
 	Ushanka ear flap hat
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A rubber mask of a Ghoul. If you want to terrify Scavs and make them look for new pants, this mask is for you.
 basePrice=35533
 width=2
 height=2
-avg24hPrice=28266
-low24hPrice=18000
-lastOfferCount=22
+avg24hPrice=27591
+low24hPrice=20000
+lastOfferCount=19
 Sell_Fence=14213
 Sell_Skier=17411
 Sell_Peacekeeper=137
 Sell_Ragman=22030
-Sell_Flea Market=22000
+Sell_Flea Market=20000
 weight=0.150000
-fleaMarketFee=1870
+fleaMarketFee=1877
 propertiestype=

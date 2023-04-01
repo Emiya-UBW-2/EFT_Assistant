@@ -5,6 +5,7 @@ Itemtype=Stock
 ChildParts=[
 	AR-15 B5 Systems Precision stock,
 	CMMG RipStock buttstock,
+	FAB Defense GL-CORE buttstock,
 	FAB Defense GL-SHOCK buttstock,
 	FAB Defense GLR-16-S stock,
 	High Standard M4SS Stock,
@@ -24,9 +25,9 @@ ChildParts=[
 	MFT BUS stock,
 	Strike Industries Viper Mod 1 stock,
 	Vltor EMOD stock,
-	FAB Defense GL-CORE buttstock,
-	KRISS Defiance DS150 stock (FDE),
-	KRISS Defiance DS150 stock (Black)
+	SB Tactical SBA3 brace,
+	KRISS Defiance DS150 stock (Black),
+	KRISS Defiance DS150 stock (FDE)
 ]
 Recoil=-2.500000
 Ergonomics=0.000000
@@ -34,16 +35,16 @@ Information_Eng=The ATP buffer tube, 6-position, Mil-Spec diameter, will fit any
 basePrice=4400
 width=2
 height=1
-avg24hPrice=13604
+avg24hPrice=13503
 low24hPrice=6999
-lastOfferCount=12
+lastOfferCount=15
 Sell_Prapor=2200
 Sell_Fence=1760
 Sell_Skier=2156
 Sell_Peacekeeper=17
 Sell_Mechanic=2464
 Sell_Jaeger=2640
-Sell_Flea Market=6999
+Sell_Flea Market=9990
 weight=0.115000
-fleaMarketFee=368
+fleaMarketFee=553
 propertiestype=ItemPropertiesWeaponMod

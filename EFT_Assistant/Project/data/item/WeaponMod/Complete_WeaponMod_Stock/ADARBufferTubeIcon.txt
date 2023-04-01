@@ -24,6 +24,7 @@ ChildParts=[
 	MFT BUS stock,
 	Strike Industries Viper Mod 1 stock,
 	Vltor EMOD stock,
+	SB Tactical SBA3 brace,
 	FAB Defense GL-CORE buttstock,
 	KRISS Defiance DS150 stock (FDE),
 	KRISS Defiance DS150 stock (Black)
@@ -34,9 +35,9 @@ Information_Eng=ADAR Receiver Extension Buffer Tube, 4-position, will fit any AR
 basePrice=800
 width=2
 height=1
-avg24hPrice=9156
+avg24hPrice=7125
 low24hPrice=5000
-lastOfferCount=2
+lastOfferCount=1
 Sell_Prapor=400
 Sell_Fence=320
 Sell_Skier=392

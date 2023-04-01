@@ -2,6 +2,9 @@ IDstr=5a1ead28fcdbcb001912fa9f
 Name=UNV DLOC-IRD sight mount
 ShortName=DLOC-IRD
 Itemtype=Mount
+ChildParts=[
+	Trijicon REAP-IR thermal scope
+]
 Conflict=[
 	AR-15 Colt A2 rear sight,
 	AR-15 rear sight carry handle,
@@ -14,16 +17,16 @@ Information_Eng=The UNV DLOC-IRD universal quick release mount for installing va
 basePrice=6256
 width=1
 height=1
-avg24hPrice=70799
-low24hPrice=40000
-lastOfferCount=35
+avg24hPrice=85523
+low24hPrice=50000
+lastOfferCount=26
 Sell_Prapor=3128
 Sell_Fence=2502
 Sell_Skier=3065
 Sell_Peacekeeper=24
 Sell_Mechanic=3503
 Sell_Jaeger=3753
-Sell_Flea Market=66666
+Sell_Flea Market=95000
 weight=0.113000
-fleaMarketFee=8383
+fleaMarketFee=15022
 propertiestype=ItemPropertiesWeaponMod

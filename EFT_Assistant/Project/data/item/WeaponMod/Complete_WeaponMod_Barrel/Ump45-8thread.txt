@@ -2,22 +2,27 @@ IDstr=6130c3dffaa1272e43151c7d
 Name=HK UMP .45 ACP 8 inch threaded barrel
 ShortName=UMP-45 8" thr.
 Itemtype=Barrel
+ChildParts=[
+	KRISS Vector .45 ACP flash hider,
+	SilencerCo Omega 45k Direct Thread Mount adapter,
+	KRISS Vector .45 ACP thread protection cap
+]
 Recoil=-5.000000
 Ergonomics=-5.000000
 Information_Eng=A threaded barrel for the HK UMP submachine gun, chambered in .45 ACP ammo, 8 inches (203mm) long.
 basePrice=7600
 width=2
 height=1
-avg24hPrice=19010
-low24hPrice=8000
-lastOfferCount=7
+avg24hPrice=18548
+low24hPrice=10000
+lastOfferCount=12
 Sell_Prapor=3800
 Sell_Fence=3040
 Sell_Skier=3724
 Sell_Peacekeeper=29
 Sell_Mechanic=4256
 Sell_Jaeger=4560
-Sell_Flea Market=18999
+Sell_Flea Market=12000
 weight=0.415000
-fleaMarketFee=1083
+fleaMarketFee=632
 propertiestype=ItemPropertiesBarrel

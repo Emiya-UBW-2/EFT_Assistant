@@ -25,7 +25,8 @@ ChildParts=[
 	SIG Sauer Taper-LOK 7.62x51/.300 BLK muzzle adapter,
 	SilencerCo Hybrid 46 Direct Thread Mount adapter,
 	Lantac BMD Blast Mitigation Device A3 direct thread adapter,
-	SIG Sauer SRD762Ti 7.62x51 sound suppressor
+	SIG Sauer SRD762Ti 7.62x51 sound suppressor,
+	AR-10 Dead Air Keymount 7.62x51 muzzle brake
 ]
 ChildParts=[
 	AR-10 CMMG low profile gas block,
@@ -38,16 +39,16 @@ Information_Eng=An 18 inch (457mm) barrel for AR-10 based weapons for 7.62x51 NA
 basePrice=39137
 width=4
 height=1
-avg24hPrice=35282
+avg24hPrice=34381
 low24hPrice=21000
-lastOfferCount=9
+lastOfferCount=13
 Sell_Prapor=19568
 Sell_Fence=15654
 Sell_Skier=19177
 Sell_Peacekeeper=151
 Sell_Mechanic=21916
 Sell_Jaeger=23482
-Sell_Flea Market=32111
+Sell_Flea Market=29999
 weight=1.120000
-fleaMarketFee=2150
+fleaMarketFee=2110
 propertiestype=ItemPropertiesBarrel

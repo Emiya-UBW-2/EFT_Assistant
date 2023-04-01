@@ -3,8 +3,8 @@ Name=AR-15 SureFire SF4P FH556RC 5.56x45 flash hider
 ShortName=FH556RC
 Itemtype=Flashhider
 ChildParts=[
-	SureFire SOCOM556-MONSTER 5.56x45 sound suppressor,
 	SureFire SOCOM556-MINI MONSTER 5.56x45 sound suppressor,
+	SureFire SOCOM556-MONSTER 5.56x45 sound suppressor,
 	SureFire SOCOM556-RC2 5.56x45 sound suppressor
 ]
 Recoil=-8.000000
@@ -13,15 +13,15 @@ Information_Eng=The advanced SureFire FH556RC-556 four-prong flash hider, which 
 basePrice=6900
 width=1
 height=1
-avg24hPrice=25575
-low24hPrice=16000
-lastOfferCount=22
+avg24hPrice=25285
+low24hPrice=15000
+lastOfferCount=39
 Sell_Prapor=3450
 Sell_Fence=2760
 Sell_Skier=3381
 Sell_Peacekeeper=27
 Sell_Mechanic=3864
-Sell_Flea Market=28000
+Sell_Flea Market=19999
 weight=0.060000
-fleaMarketFee=1978
+fleaMarketFee=1205
 propertiestype=ItemPropertiesWeaponMod

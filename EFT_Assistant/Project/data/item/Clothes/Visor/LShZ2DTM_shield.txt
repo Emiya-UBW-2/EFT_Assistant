@@ -9,20 +9,18 @@ Conflict=[
 	AN/PVS-14 Night Vision Monocular,
 	T-7 Thermal Goggles with a Night Vision mount
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=The protective structure of the bulletproof faceshield for the helmet LShZ-2DTM consists of a combination of composite material and bulletproof glass, which provides increased protection.
 basePrice=29000
 width=2
 height=1
-avg24hPrice=51216
-low24hPrice=32987
-lastOfferCount=40
+avg24hPrice=50387
+low24hPrice=33333
+lastOfferCount=37
 Sell_Fence=11600
 Sell_Skier=14210
 Sell_Peacekeeper=112
 Sell_Ragman=17980
-Sell_Flea Market=40000
+Sell_Flea Market=38000
 weight=1.000000
-fleaMarketFee=2133
+fleaMarketFee=2047
 propertiestype=ItemPropertiesArmorAttachment

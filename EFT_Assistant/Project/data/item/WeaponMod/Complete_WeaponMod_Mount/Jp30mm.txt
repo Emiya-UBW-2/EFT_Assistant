@@ -2,6 +2,17 @@ IDstr=5a37ca54c4a282000d72296a
 Name=JP Enterprises Flat-Top 30mm ring scope mount
 ShortName=JP 30mm
 Itemtype=Mount
+ChildParts=[
+	Burris FullField TAC30 1-4x24 30mm riflescope,
+	EOTech Vudu 1-6x24 30mm riflescope,
+	Leupold Mark 4 LR 6.5-20x50 30mm riflescope,
+	March Tactical 3-24x42 FFP 30mm riflescope,
+	Vortex Razor HD Gen.2 1-6x24 30mm riflescope,
+	Schmidt & Bender PM II 1-8x24 30mm riflescope
+]
+ChildParts=[
+	Leupold DeltaPoint Reflex Sight
+]
 Conflict=[
 	AR-15 Colt A2 rear sight,
 	AR-15 rear sight carry handle,
@@ -16,16 +27,16 @@ Information_Eng=A universal 30mm scope base mount for installation on Picatinny 
 basePrice=9294
 width=2
 height=1
-avg24hPrice=24522
-low24hPrice=15999
-lastOfferCount=31
+avg24hPrice=25871
+low24hPrice=17499
+lastOfferCount=19
 Sell_Prapor=4647
 Sell_Fence=3717
 Sell_Skier=4554
 Sell_Peacekeeper=36
 Sell_Mechanic=5204
 Sell_Jaeger=5576
-Sell_Flea Market=18000
+Sell_Flea Market=17499
 weight=0.194000
-fleaMarketFee=961
+fleaMarketFee=931
 propertiestype=ItemPropertiesWeaponMod

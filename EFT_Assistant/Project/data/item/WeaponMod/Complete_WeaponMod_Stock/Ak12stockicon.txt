@@ -6,22 +6,22 @@ Conflict=[
 	AR-15 ADAR 2-15 wooden stock,
 	AR-15 Hera Arms CQR pistol grip/buttstock,
 ]
-Recoil=-30.000000
+Recoil=-30.000002
 Ergonomics=3.000000
 Information_Eng=A standard-issue telescopic stock for AK-12 automatic rifles, manufactured by Izhmash.
 basePrice=4500
 width=2
 height=1
-avg24hPrice=12461
+avg24hPrice=11382
 low24hPrice=4000
-lastOfferCount=13
+lastOfferCount=2
 Sell_Prapor=2250
 Sell_Fence=1800
 Sell_Skier=2205
 Sell_Peacekeeper=17
 Sell_Mechanic=2520
 Sell_Jaeger=2700
-Sell_Flea Market=7000
+Sell_Flea Market=4000
 weight=0.148000
-fleaMarketFee=369
+fleaMarketFee=255
 propertiestype=ItemPropertiesWeaponMod

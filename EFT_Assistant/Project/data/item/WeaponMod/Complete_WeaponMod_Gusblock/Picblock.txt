@@ -3,10 +3,13 @@ Name=AR-15 Windham Weaponry Rail Gas Block
 ShortName=RGBlock
 Itemtype=Gas block
 ChildParts=[
+	HK MP7 flip-up front sight,
+	KAC Folding Micro front sight,
 	KAC Folding front sight,
+	KRISS Defiance low profile flip-up front sight,
 	Magpul MBUS Gen2 flip-up front sight,
 	Magpul MBUS Gen2 flip-up front sight (FDE),
-	HK MP7 flip-up front sight,
+	MCX flip-up front sight,
 	MPX flip-up front sight,
 	AR-15 Leapers UTG Low Profile A2 front sight
 ]
@@ -23,15 +26,15 @@ Information_Eng=Installed as replacement to standard AR-15-based weapons gas blo
 basePrice=4190
 width=1
 height=1
-avg24hPrice=16467
-low24hPrice=6555
-lastOfferCount=22
+avg24hPrice=13791
+low24hPrice=6969
+lastOfferCount=17
 Sell_Prapor=2095
 Sell_Fence=1676
 Sell_Skier=2053
 Sell_Peacekeeper=16
 Sell_Mechanic=2346
-Sell_Flea Market=9999
+Sell_Flea Market=9000
 weight=0.120000
-fleaMarketFee=561
+fleaMarketFee=491
 propertiestype=ItemPropertiesWeaponMod

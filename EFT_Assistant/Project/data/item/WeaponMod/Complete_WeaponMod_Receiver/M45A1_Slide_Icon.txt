@@ -3,10 +3,9 @@ Name=M45A1 .45 ACP pistol slide
 ShortName=M45A1 slide
 Itemtype=Receiver
 ChildParts=[
-	M1911A1 front sight
+	M45A1 Novak Lomount rear sight
 ]
 ChildParts=[
-	M1911A1 rear sight,
 	M45A1 Novak Lomount front sight
 ]
 ChildParts=[
@@ -18,7 +17,7 @@ Information_Eng=A standard-issue slide for the M45A1 pistol, manufactured by Col
 basePrice=5100
 width=2
 height=1
-avg24hPrice=39332
+avg24hPrice=38999
 low24hPrice=35000
 lastOfferCount=1
 Sell_Prapor=2550
@@ -26,7 +25,7 @@ Sell_Fence=2040
 Sell_Skier=2499
 Sell_Peacekeeper=20
 Sell_Mechanic=2856
-Sell_Flea Market=35000
+Sell_Flea Market=55555
 weight=0.470000
-fleaMarketFee=3342
+fleaMarketFee=7085
 propertiestype=ItemPropertiesWeaponMod

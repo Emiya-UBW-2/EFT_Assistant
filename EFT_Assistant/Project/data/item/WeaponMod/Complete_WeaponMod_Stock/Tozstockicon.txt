@@ -2,6 +2,12 @@ IDstr=5a38ef1fc4a282000b1521f6
 Name=TOZ-106 stock
 ShortName=TOZ106
 Itemtype=Stock
+ChildParts=[
+	TOZ-106 002 pistol grip
+]
+ChildParts=[
+	TOZ-106 FAB Defense GPCP cheek rest
+]
 Recoil=-34.000000
 Ergonomics=6.000000
 Information_Eng=A standard-issue stock with a folding shoulder piece for the TOZ-106 hunting shotgun.

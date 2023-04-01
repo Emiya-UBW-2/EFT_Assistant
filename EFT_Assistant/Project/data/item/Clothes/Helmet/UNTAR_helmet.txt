@@ -7,20 +7,18 @@ Conflict=[
 	Tagilla's welding mask "Gorilla",
 	Tagilla's welding mask "UBEY",
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A standard-issue helmet used by UN soldiers during the UNTAR mission in Tarkov.
 basePrice=21395
 width=2
 height=2
-avg24hPrice=30847
+avg24hPrice=29381
 low24hPrice=19500
-lastOfferCount=11
+lastOfferCount=21
 Sell_Fence=8558
 Sell_Skier=10483
 Sell_Peacekeeper=82
 Sell_Ragman=13264
-Sell_Flea Market=24444
+Sell_Flea Market=23999
 weight=2.200000
-fleaMarketFee=1374
+fleaMarketFee=1359
 propertiestype=ItemPropertiesHelmet

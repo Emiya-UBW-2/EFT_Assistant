@@ -2,21 +2,34 @@ IDstr=5cf79389d7f00c10941a0c4d
 Name=Mosin Rifle Kiba Arms 7.62x54R custom thread adapter
 ShortName=Mosin thr.
 Itemtype=Comb. muzzle device
+ChildParts=[
+	AKM 7.62x39 muzzle brake-compensator (6P1 0-14),
+	AKML system 7.62x39 flash hider,
+	AKM thread type JMac Customs RRD-4C 7.62x39 muzzle brake,
+	AK Lantac Drakon 7.62x39 muzzle brake,
+	AK Spikes Tactical Dynacomp 7.62x39 muzzle brake-compensator,
+	AK SRVV 7.62x39 muzzle brake-compensator,
+	AK Venom Tactical Antidote 7.62x39 muzzle brake-compensator,
+	AK 7.62x39 Taktika Tula muzzle adapter,
+	AKM Hexagon 7.62x39 sound suppressor,
+	AKM PBS-1 7.62x39 sound suppressor,
+	Rotor 43 7.62x39 muzzle brake-compensator
+]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A custom-made Mosin rifle muzzle device adapter. Provides the means of installing 7.62x39 muzzle devices on the Mosin rifle.
 basePrice=1500
 width=1
 height=1
-avg24hPrice=5590
+avg24hPrice=6409
 low24hPrice=2300
-lastOfferCount=4
+lastOfferCount=20
 Sell_Prapor=750
 Sell_Fence=600
 Sell_Skier=735
 Sell_Peacekeeper=6
 Sell_Mechanic=840
-Sell_Flea Market=2300
+Sell_Flea Market=4950
 weight=0.090000
-fleaMarketFee=121
+fleaMarketFee=316
 propertiestype=ItemPropertiesWeaponMod

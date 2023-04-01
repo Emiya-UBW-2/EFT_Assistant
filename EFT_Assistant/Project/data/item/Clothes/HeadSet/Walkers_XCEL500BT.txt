@@ -5,19 +5,17 @@ Itemtype=Headphones
 Conflict=[
 	Ops-Core FAST RAC Headset
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=Active hearing protection with optimum electronic processing of ambient sounds without unnecessary distortion.
 basePrice=48100
 width=2
 height=2
-avg24hPrice=44289
-low24hPrice=37777
-lastOfferCount=19
+avg24hPrice=45036
+low24hPrice=34444
+lastOfferCount=22
 Sell_Fence=19240
 Sell_Skier=23569
 Sell_Ragman=29822
-Sell_Flea Market=41111
+Sell_Flea Market=43000
 weight=0.490000
-fleaMarketFee=2679
+fleaMarketFee=2727
 propertiestype=

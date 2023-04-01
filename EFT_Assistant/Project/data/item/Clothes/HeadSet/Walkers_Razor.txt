@@ -5,19 +5,17 @@ Itemtype=Headphones
 Conflict=[
 	Ops-Core FAST RAC Headset
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=The Razor electronic ear muffs feature an ultra low-profile design and a rubberized coating for added durability and comfort, also providing optimal hearing protection. Manufactured by Walker's.
 basePrice=35100
 width=2
 height=2
-avg24hPrice=32302
+avg24hPrice=32895
 low24hPrice=24500
-lastOfferCount=21
+lastOfferCount=22
 Sell_Fence=14040
 Sell_Skier=17199
 Sell_Ragman=21762
-Sell_Flea Market=30000
+Sell_Flea Market=33000
 weight=0.430000
-fleaMarketFee=1955
+fleaMarketFee=2037
 propertiestype=

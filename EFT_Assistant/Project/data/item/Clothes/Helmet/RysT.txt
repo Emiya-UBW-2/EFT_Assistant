@@ -7,8 +7,6 @@ Conflict=[
 	Tagilla's welding mask "Gorilla",
 	Tagilla's welding mask "UBEY",
 ]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=The "Rys-T" ("Lynx-T") armored helmet is an improved and lightweight version of the famous "Altyn" helmet. It is in service with the assault units of the Ministry of Internal Affairs of Russia. Can be equipped with a special armored visor.
 basePrice=198327
 width=2

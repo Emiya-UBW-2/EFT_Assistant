@@ -2,6 +2,12 @@ IDstr=62811e2510e26c1f344e6554
 Name=AI AXMC pistol grip
 ShortName=AXMC PG
 Itemtype=Stock
+ChildParts=[
+	AI AXMC AX buttstock
+]
+ChildParts=[
+	AI AXMC .338 LM chassis
+]
 Recoil=0.000000
 Ergonomics=5.000000
 Information_Eng=A pistol grip for the AXMC sniper rifle, manufactured by Accuracy International.

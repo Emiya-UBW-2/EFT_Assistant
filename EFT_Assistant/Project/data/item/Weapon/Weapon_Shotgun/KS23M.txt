@@ -2,7 +2,21 @@ IDstr=5e848cc2988a8701445df1e8
 Name=TOZ KS-23M 23x75mm pump-action shotgun
 ShortName=KS-23M
 Itemtype=Shotgun
-Recoil=0.000000
+ChildParts=[
+	KS-23 23x75 510mm barrel,
+	KS-23 23x75 700mm barrel
+]
+ChildParts=[
+	KS-23M forestock
+]
+ChildParts=[
+	KS-23M 23x75 3-shell magazine cap
+]
+ChildParts=[
+	KS-23 wooden stock,
+	KS-23M pistol grip
+]
+Recoil=610.000000
 Ergonomics=38.000000
 Information_Eng=KS-23 is a Russian shotgun, although because it uses a rifled barrel it is officially designated by the Russian military as a carbine. KS stands for Karabin Spetsialniy, "Special Carbine". It is renowned for its large caliber, firing a 23 mm round, equating to 6.27 gauge using the British and American standards of shotgun gauges and approximately 4 gauge using the current European standards (based on the metric CIP tables), making it the largest-bore shotgun in use today.
 basePrice=18402
