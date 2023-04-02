@@ -25,12 +25,16 @@ namespace FPS_n2 {
 			int										m_LL{ -1 };
 			std::vector<TaskParents>				m_Parenttask;
 			std::vector<ItemGetData>				m_Item;
+			bool									m_kappaRequired{ false };
+			bool									m_lightkeeperRequired{ false };
 		public:
 			const auto& GetTrader() const noexcept { return m_Trader; }
 			const auto& GetLevel() const noexcept { return m_Level; }
 			const auto& GetLL() const noexcept { return m_LL; }
 			const auto& GetParenttaskID() const noexcept { return this->m_Parenttask; }
 			const auto& GetItem() const noexcept { return m_Item; }
+			const auto& GetKappaRequired() const noexcept { return m_kappaRequired; }
+			const auto& GetLightKeeperRequired() const noexcept { return m_lightkeeperRequired; }
 		public:
 			void Set(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept {
 				if (LEFT == "Trader") {
@@ -60,6 +64,12 @@ namespace FPS_n2 {
 					else {
 						SetItem(&this->m_Item, RIGHT);
 					}
+				}
+				else if (LEFT == "NeedKappa") {
+					this->m_kappaRequired = (RIGHT == "true");
+				}
+				else if (LEFT == "NeedLightkeeper") {
+					this->m_lightkeeperRequired = (RIGHT == "true");
 				}
 			}
 			void		SetNeedTasktoID(const std::vector<TaskList>& taskList) noexcept {
@@ -313,7 +323,7 @@ namespace FPS_n2 {
 				for (const auto& LL : m_TaskNeedData.GetItem()) {
 					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
 					int total_size = y_r(92);
-					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window), false, true) + y_r(30));
+					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window), false, true, false) + y_r(30));
 					yofs += total_size;
 				}
 			}
@@ -343,7 +353,7 @@ namespace FPS_n2 {
 				for (const auto& LL : m_TaskWorkData.GetFiR_Item()) {
 					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
 					int total_size = y_r(92);
-					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window), true, true) + y_r(30));
+					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window), true, true, false) + y_r(30));
 					yofs += total_size;
 				}
 			}
@@ -353,7 +363,7 @@ namespace FPS_n2 {
 				for (const auto& LL : m_TaskWorkData.GetNotFiR_Item()) {
 					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
 					int total_size = y_r(92);
-					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window), false, true) + y_r(30));
+					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window), false, true, false) + y_r(30));
 					yofs += total_size;
 				}
 			}
@@ -389,7 +399,7 @@ namespace FPS_n2 {
 				for (const auto& LL : m_TaskRewardData.GetItem()) {
 					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
 					int total_size = y_r(92);
-					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window), true, true) + y_r(30));
+					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window), true, true, false) + y_r(30));
 					yofs += total_size;
 				}
 				//yofs += sizy;

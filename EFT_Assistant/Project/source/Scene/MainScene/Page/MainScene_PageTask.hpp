@@ -2,9 +2,17 @@
 #include"../../../Header.hpp"
 
 namespace FPS_n2 {
+	enum class EnumTaskDrawMode {
+		Normal,
+		Fir,
+		NotFir,
+		NotUse,
+	};
+
 	class TaskBG :public BGParent {
 	private:
-		int															m_MyLevel{ 1 };
+		int															m_MinLevel{ 0 };
+		int															m_MaxLevel{ 71 };
 		int															m_posxMaxBuffer{ 0 };
 		int															m_posyMaxBuffer{ 0 };
 		std::vector<Rect2D>											m_TaskRect;
@@ -21,6 +29,8 @@ namespace FPS_n2 {
 		};
 		std::vector<LinePos>										m_ParentLinePos;
 		std::vector<TaskID>											m_Drawed;
+		EnumTaskDrawMode											m_Mode{ EnumTaskDrawMode::Normal };
+		bool														m_IsNeedKappa{ false };
 	private:
 		void DrawChildTaskClickBox(float Scale, TaskID ParentID, int start_x, int start_y, int xp, int yp, int xs, int ys, bool parentCanDo = true) noexcept {
 			auto* WindowMngr = WindowSystem::WindowManager::Instance();
@@ -62,10 +72,15 @@ namespace FPS_n2 {
 					//信頼度チェック
 					if (
 						(
-						(this->m_MyLevel < tasks.GetTaskNeedData().GetLevel())
-							) || !parentCanDo) {
+							(tasks.GetTaskNeedData().GetLevel() < this->m_MinLevel) ||
+							(this->m_MaxLevel < tasks.GetTaskNeedData().GetLevel()) ||
+							(this->m_IsNeedKappa ? !tasks.GetTaskNeedData().GetKappaRequired() : false)
+
+						) || !parentCanDo) {
 						color = ptr->GetColors(-100);
 						parentCanDo_t = false;
+
+						continue;
 					}
 					if (ParentID != InvalidID) {
 						auto XAddLine = (int)((float)y_r(25) * Scale);
@@ -172,30 +187,272 @@ namespace FPS_n2 {
 
 			*posx = y_r(1920 / 2) - xs / 2;
 			*posy = LineHeight + y_r(1080 / 2) - ys / 2;
+			m_Mode = EnumTaskDrawMode::Normal;
 		}
 
 		void LateExecute_Sub(int*, int*, float*) noexcept override {
 		}
 		void Draw_Back_Sub(int posx, int posy, float Scale) noexcept override {
-			int xs = (int)((float)y_r(800) * Scale);
-			int ys = (int)((float)LineHeight * 2 * Scale);
-			m_ParentLinePos.clear();
-			m_Drawed.clear();
-			DrawChildTaskClickBox(Scale, InvalidID, posx + xs, posy + ys / 2, posx, posy, xs, ys);
+			auto* WindowMngr = WindowSystem::WindowManager::Instance();
+			switch (m_Mode) {
+			case EnumTaskDrawMode::Normal:
+			{
+				int xs = (int)((float)y_r(800) * Scale);
+				int ys = (int)((float)LineHeight * 2 * Scale);
+				m_ParentLinePos.clear();
+				m_Drawed.clear();
+				DrawChildTaskClickBox(Scale, InvalidID, posx + xs, posy + ys / 2, posx, posy, xs, ys);
+			}
+			break;
+			case EnumTaskDrawMode::Fir:
+			{
+				std::vector<std::vector<std::pair<ItemID, int>>> Counter;
+				Counter.resize(ItemTypeData::Instance()->GetList().size());
+				for (const auto& tasks : TaskData::Instance()->GetTaskList()) {
+					bool IsChecktask = true;
+					if (m_IsNeedKappa) {//河童必要タスクだけ書く
+						if (!tasks.GetTaskNeedData().GetKappaRequired()) {
+							IsChecktask = false;
+						}
+						if (IsChecktask) {
+							if (tasks.GetName() == "Collector") {
+								//IsChecktask = false;
+							}
+						}
+					}
+					if (tasks.GetTaskNeedData().GetLevel() < this->m_MinLevel) {
+						IsChecktask = false;
+					}
+					if (this->m_MaxLevel < tasks.GetTaskNeedData().GetLevel()) {
+						IsChecktask = false;
+					}
+					if (!IsChecktask) { continue; }
+					for (const auto& w : tasks.GetTaskWorkData().GetFiR_Item()) {
+						auto* ptr = ItemData::Instance()->FindPtr(w.GetID());
+						if (ptr) {
+							auto& Types = Counter.at(ptr->GetTypeID());
+							auto Find = std::find_if(Types.begin(), Types.end(), [&](const std::pair<ItemID, int>& obj) {return obj.first == w.GetID(); });
+							if (Find != Types.end()) {
+								Find->second += w.GetCount();
+							}
+							else {
+								Types.emplace_back(std::make_pair(w.GetID(), w.GetCount()));
+							}
+						}
+					}
+				}
+				//描画
+				{
+					int xpBase = posx;
+					int ypBase = posy;
+					int xp = xpBase;
+					int yp = ypBase;
+					int xsize = (int)((float)y_r(640)*Scale);
+					int ysize = (int)((float)y_r(96)*Scale);
+					int xsizeAdd = (int)((float)y_r(640 + 30)*Scale);
+					int ysizeAdd = (int)((float)y_r(96 + 15)*Scale);
+
+					int cnt = 0;
+
+					for (auto& Cat : ItemCategoryData::Instance()->GetList()) {
+						bool IsHit = false;
+						for (auto& Type : ItemTypeData::Instance()->GetList()) {
+							if (Type.GetCategoryID() == Cat.GetID()) {
+								auto& Types = Counter.at(Type.GetID());
+								for (auto& c : Types) {
+									auto* ptr = ItemData::Instance()->FindPtr(c.first);
+									if (ptr) {
+										ptr->Draw(xp, yp, xsize, ysize, (c.second >= 2) ? c.second : 0, Gray15, !WindowMngr->PosHitCheck(nullptr), false, false, true);
+										yp += ysizeAdd;
+										if ((yp - ypBase) >= (int)((float)y_r(1920)*Scale)) {
+											xp += xsizeAdd;
+											yp = ypBase;
+										}
+										IsHit = true;
+									}
+								}
+							}
+						}
+						if (IsHit) {
+							xp += xsizeAdd;
+							yp = ypBase;
+						}
+					}
+				}
+			}
+			break;
+			case EnumTaskDrawMode::NotFir:
+			{
+				std::vector<std::vector<std::pair<ItemID, int>>> Counter;
+				Counter.resize(ItemTypeData::Instance()->GetList().size());
+				for (const auto& tasks : TaskData::Instance()->GetTaskList()) {
+					bool IsChecktask = true;
+					if (m_IsNeedKappa) {//河童必要タスクだけ書く
+						if (!tasks.GetTaskNeedData().GetKappaRequired()) {
+							IsChecktask = false;
+						}
+						if (IsChecktask) {
+							if (tasks.GetName() == "Collector") {
+								//IsChecktask = false;
+							}
+						}
+					}
+					if (!IsChecktask) { continue; }
+					for (const auto& w : tasks.GetTaskWorkData().GetNotFiR_Item()) {
+						auto* ptr = ItemData::Instance()->FindPtr(w.GetID());
+						if (ptr) {
+							auto& Types = Counter.at(ptr->GetTypeID());
+							auto Find = std::find_if(Types.begin(), Types.end(), [&](const std::pair<ItemID, int>& obj) {return obj.first == w.GetID(); });
+							if (Find != Types.end()) {
+								Find->second += w.GetCount();
+							}
+							else {
+								Types.emplace_back(std::make_pair(w.GetID(), w.GetCount()));
+							}
+						}
+					}
+				}
+				//描画
+				{
+					int xpBase = posx;
+					int ypBase = posy;
+					int xp = xpBase;
+					int yp = ypBase;
+					int xsize = (int)((float)y_r(640)*Scale);
+					int ysize = (int)((float)y_r(96)*Scale);
+					int xsizeAdd = (int)((float)y_r(640 + 30)*Scale);
+					int ysizeAdd = (int)((float)y_r(96 + 15)*Scale);
+
+					int cnt = 0;
+
+					for (auto& Cat : ItemCategoryData::Instance()->GetList()) {
+						bool IsHit = false;
+						for (auto& Type : ItemTypeData::Instance()->GetList()) {
+							if (Type.GetCategoryID() == Cat.GetID()) {
+								auto& Types = Counter.at(Type.GetID());
+								for (auto& c : Types) {
+									auto* ptr = ItemData::Instance()->FindPtr(c.first);
+									if (ptr) {
+										ptr->Draw(xp, yp, xsize, ysize, (c.second >= 2) ? c.second : 0, Gray15, !WindowMngr->PosHitCheck(nullptr), false, false, true);
+										yp += ysizeAdd;
+										if ((yp - ypBase) >= (int)((float)y_r(1920)*Scale)) {
+											xp += xsizeAdd;
+											yp = ypBase;
+										}
+										IsHit = true;
+									}
+								}
+							}
+						}
+						if (IsHit) {
+							xp += xsizeAdd;
+							yp = ypBase;
+						}
+					}
+				}
+			}
+			break;
+			case  EnumTaskDrawMode::NotUse:
+			{
+				std::vector<std::vector<std::pair<ItemID, int>>> Counter;
+				Counter.resize(ItemTypeData::Instance()->GetList().size());
+				for (const auto& w : ItemData::Instance()->GetList()) {
+					if (w.GetUseTaskID().size() == 0) {
+						auto& Types = Counter.at(w.GetTypeID());
+						auto Find = std::find_if(Types.begin(), Types.end(), [&](const std::pair<ItemID, int>& obj) {return obj.first == w.GetID(); });
+						if (Find == Types.end()) {
+							Types.emplace_back(std::make_pair(w.GetID(), 1));
+						}
+					}
+				}
+				//描画
+				{
+					int xpBase = posx;
+					int ypBase = posy;
+					int xp = xpBase;
+					int yp = ypBase;
+					int xsize = (int)((float)y_r(640)*Scale);
+					int ysize = (int)((float)y_r(96)*Scale);
+					int xsizeAdd = (int)((float)y_r(640 + 30)*Scale);
+					int ysizeAdd = (int)((float)y_r(96 + 15)*Scale);
+
+					int cnt = 0;
+
+					for (auto& Cat : ItemCategoryData::Instance()->GetList()) {
+						bool IsHit = false;
+						for (auto& Type : ItemTypeData::Instance()->GetList()) {
+							if (Type.GetCategoryID() == Cat.GetID()) {
+								auto& Types = Counter.at(Type.GetID());
+								for (auto& c : Types) {
+									auto* ptr = ItemData::Instance()->FindPtr(c.first);
+									if (ptr) {
+										ptr->Draw(xp, yp, xsize, ysize, (c.second >= 2) ? c.second : 0, Gray15, !WindowMngr->PosHitCheck(nullptr), false, false, true);
+										yp += ysizeAdd;
+										if ((yp - ypBase) >= (int)((float)y_r(1920)*Scale)) {
+											xp += xsizeAdd;
+											yp = ypBase;
+										}
+										IsHit = true;
+									}
+								}
+							}
+						}
+						if (IsHit) {
+							xp += xsizeAdd;
+							yp = ypBase;
+						}
+					}
+				}
+			}
+			break;
+			default:
+				break;
+			}
 		}
 		void DrawFront_Sub(int posx, int posy, float) noexcept override {
 			auto* WindowMngr = WindowSystem::WindowManager::Instance();
 			auto* DrawParts = DXDraw::Instance();
+			//カッパに必要か
+			{
+				int xp = y_r(48);
+				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(48) - y_r(5) - y_r(48);
+				WindowSystem::CheckBox(xp, yp, &m_IsNeedKappa);
+				WindowSystem::SetMsg(xp + y_r(64), yp, xp + y_r(64), yp + LineHeight, LineHeight, STRX_LEFT, White, Black, "カッパー開放までに絞る");
+			}
 			//レベル操作
-			WindowSystem::SetMsg(y_r(0), y_r(1080) - y_r(36), y_r(0), y_r(1080), y_r(36), STRX_LEFT, White, Black, "Level");
-			WindowSystem::SetMsg(y_r(200), y_r(1080) - y_r(48), y_r(200), y_r(1080), y_r(48), STRX_RIGHT, White, Black, "%d", this->m_MyLevel);
-			if (WindowSystem::ClickCheckBox(y_r(0), y_r(1080) - y_r(48) - LineHeight, y_r(100), y_r(1080) - y_r(48), true, !WindowMngr->PosHitCheck(nullptr), Red, "DOWN")) {
-				this->m_MyLevel--;
+			{
+				int xp = y_r(5);
+				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(48) - y_r(5);
+				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(100), yp + y_r(48), true, !WindowMngr->PosHitCheck(nullptr), Red, "DOWN")) {
+					this->m_MinLevel--;
+				}
+				xp += y_r(105);
+				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(100), yp + y_r(48), true, !WindowMngr->PosHitCheck(nullptr), Green, "UP")) {
+					this->m_MinLevel++;
+				}
+				this->m_MinLevel = std::clamp(this->m_MinLevel, 1, this->m_MaxLevel);
+				xp += y_r(105);
+				WindowSystem::SetMsg(xp, yp + y_r(12), xp, yp + y_r(12) + y_r(36), y_r(36), STRX_LEFT, White, Black, "MinLevel");
+				xp += y_r(250);
+				WindowSystem::SetMsg(xp, yp, xp, yp + y_r(48), y_r(48), STRX_RIGHT, White, Black, "%d", this->m_MinLevel);
 			}
-			if (WindowSystem::ClickCheckBox(y_r(100), y_r(1080) - y_r(48) - LineHeight, y_r(200), y_r(1080) - y_r(48), true, !WindowMngr->PosHitCheck(nullptr), Green, "UP")) {
-				this->m_MyLevel++;
+			//レベル操作
+			{
+				int xp = y_r(5);
+				int yp = y_r(1080) - y_r(48) - y_r(5);
+				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(100), yp + y_r(48), true, !WindowMngr->PosHitCheck(nullptr), Red, "DOWN")) {
+					this->m_MaxLevel--;
+				}
+				xp += y_r(105);
+				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(100), yp + y_r(48), true, !WindowMngr->PosHitCheck(nullptr), Green, "UP")) {
+					this->m_MaxLevel++;
+				}
+				this->m_MaxLevel = std::clamp(this->m_MaxLevel, this->m_MinLevel, 71);
+				xp += y_r(105);
+				WindowSystem::SetMsg(xp, yp + y_r(12), xp, yp + y_r(12) + y_r(36), y_r(36), STRX_LEFT, White, Black, "MaxLevel");
+				xp += y_r(250);
+				WindowSystem::SetMsg(xp, yp, xp, yp + y_r(48), y_r(48), STRX_RIGHT, White, Black, "%d", this->m_MaxLevel);
 			}
-			this->m_MyLevel = std::clamp(this->m_MyLevel, 1, 71);
 			//場所ガイド
 			{
 				int xp = y_r(1440);
@@ -220,7 +477,36 @@ namespace FPS_n2 {
 				int xp = y_r(10);
 				int yp = LineHeight + y_r(10);
 				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(200), yp + LineHeight, false, true, Gray25, "戻る")) {
-					TurnOnGoNextBG();
+					if (m_Mode != EnumTaskDrawMode::Normal) {
+						m_Mode = EnumTaskDrawMode::Normal;
+					}
+					else {
+						TurnOnGoNextBG();
+					}
+				}
+			}
+			//
+			{
+				int xp = y_r(10) + y_r(200) + y_r(10);
+				int yp = LineHeight + y_r(10);
+				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(400), yp + LineHeight, false, m_Mode != EnumTaskDrawMode::Fir, (m_Mode != EnumTaskDrawMode::Fir) ? Gray25 : Green, "タスクFirアイテム")) {
+					m_Mode = EnumTaskDrawMode::Fir;
+				}
+			}
+			//
+			{
+				int xp = y_r(960)+ y_r(260);
+				int yp = LineHeight + y_r(10);
+				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(400), yp + LineHeight, false, m_Mode != EnumTaskDrawMode::NotFir, (m_Mode != EnumTaskDrawMode::NotFir) ? Gray25 : Green, "タスクNotFirアイテム")) {
+					m_Mode = EnumTaskDrawMode::NotFir;
+				}
+			}
+			//
+			{
+				int xp = y_r(960) + y_r(260) + y_r(400) + y_r(10);
+				int yp = LineHeight + y_r(10);
+				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(260), yp + LineHeight, false, m_Mode != EnumTaskDrawMode::NotUse, (m_Mode != EnumTaskDrawMode::NotUse) ? Gray25 : Green, "不使用アイテム")) {
+					m_Mode = EnumTaskDrawMode::NotUse;
 				}
 			}
 		}

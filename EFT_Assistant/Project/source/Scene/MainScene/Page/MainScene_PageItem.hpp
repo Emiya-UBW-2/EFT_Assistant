@@ -161,7 +161,7 @@ namespace FPS_n2 {
 					}
 					if (ishit || m_ItemIDs[2].first == InvalidID) {
 						if (((0 - ysize) < yp0) && (yp0 < DrawParts->m_DispYSize)) {
-							L->Draw(xpos, yp0, ScrPxItem - xpos - y_r(36), ysize, 0, Gray75, !WindowMngr->PosHitCheck(nullptr), false, !m_RaidMode && !m_TaskMode);
+							L->Draw(xpos, yp0, ScrPxItem - xpos - y_r(36), ysize, 0, Gray75, !WindowMngr->PosHitCheck(nullptr), false, !m_RaidMode && !m_TaskMode, false);
 							if (m_TaskMode) {
 								if (in2_(Input->GetMouseX(), Input->GetMouseY(), xpos, yp0, xpos + (ScrPxItem - xpos - y_r(36)), yp0 + ysize)) {
 									auto Color = Green;

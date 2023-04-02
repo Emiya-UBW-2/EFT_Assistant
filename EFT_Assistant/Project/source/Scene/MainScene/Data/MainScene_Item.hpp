@@ -216,7 +216,7 @@ namespace FPS_n2 {
 		void		ResetTaskUseID(void) noexcept { this->m_UseTaskID.clear(); }
 		void		AddTaskUseID(int ID) noexcept { this->m_UseTaskID.emplace_back(ID); }
 	public:
-		const int		Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive, bool IsFir, bool IsDrawBuy) const noexcept;
+		const int		Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive, bool IsFir, bool IsDrawBuy, bool IsIconOnly) const noexcept;
 		void			DrawWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept {
 			auto* WindowMngr = WindowSystem::WindowManager::Instance();
 			auto* InterParts = InterruptParts::Instance();
@@ -249,12 +249,12 @@ namespace FPS_n2 {
 					for (const auto& cp : m_ChildPartsID) {
 						for (const auto& c : cp.Data) {
 							auto* ptr = c.first;
-							xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, y_r(800), ysize, 0, defaultcolor, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0)), false, true) + y_r(30)); yofs += ysize;
+							xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, y_r(800), ysize, 0, defaultcolor, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0)), false, true, false) + y_r(30)); yofs += ysize;
 						}
 					}
 					for (const auto& c : m_ParentPartsID) {
 						auto* ptr = c;
-						xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, y_r(800), ysize, 0, defaultcolor, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0)), false, true) + y_r(30)); yofs += ysize;
+						xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, y_r(800), ysize, 0, defaultcolor, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0)), false, true, false) + y_r(30)); yofs += ysize;
 					}
 				}
 			}
@@ -1132,7 +1132,7 @@ namespace FPS_n2 {
 		}
 	};
 
-	const int		ItemList::Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive, bool IsFir, bool IsDrawBuy) const noexcept {
+	const int		ItemList::Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive, bool IsFir, bool IsDrawBuy, bool IsIconOnly) const noexcept {
 		auto* WindowMngr = WindowSystem::WindowManager::Instance();
 		auto* Input = InputControl::Instance();
 		int xs = xsize;
@@ -1148,7 +1148,7 @@ namespace FPS_n2 {
 		int FirSize = (IsFir || IsLocked) ? 36 : 0;
 		xg += FirSize;
 		auto Name = this->GetShortName();
-		{
+		if(!IsIconOnly){
 			if (xsize > 0) {
 				int countbuf = 0;
 				while (true) {
@@ -1182,6 +1182,9 @@ namespace FPS_n2 {
 			}
 			xs = std::max(xs, Xsize);
 		}
+		else {
+			Name = "";
+		}
 
 		if (WindowSystem::ClickCheckBox(xp, yp, xp + xs, yp + ysize, false, Clickactive, defaultcolor, "")) {
 			auto sizeXBuf = y_r(800);
@@ -1210,11 +1213,18 @@ namespace FPS_n2 {
 				});
 			}
 		}
-		if (count > 0) {
-			WindowSystem::SetMsg(xp + FirSize, yp, xp + FirSize, yp + ysize, LineHeight * 9 / 10, STRX_LEFT, White, Black, "%s x%2d", Name.c_str(), count);
+		if (!IsIconOnly) {
+			if (count > 0) {
+				WindowSystem::SetMsg(xp + FirSize, yp, xp + FirSize, yp + ysize, LineHeight * 9 / 10, STRX_LEFT, White, Black, "%s x%2d", Name.c_str(), count);
+			}
+			else {
+				WindowSystem::SetMsg(xp + FirSize, yp, xp + FirSize, yp + ysize, LineHeight * 9 / 10, STRX_LEFT, White, Black, "%s", Name.c_str());
+			}
 		}
 		else {
-			WindowSystem::SetMsg(xp + FirSize, yp, xp + FirSize, yp + ysize, LineHeight * 9 / 10, STRX_LEFT, White, Black, "%s", Name.c_str());
+			if (count > 0) {
+				WindowSystem::SetMsg(xp + xg, yp, xp + xg, yp + ysize, LineHeight * 9 / 10, STRX_LEFT, White, Black, "x%2d", count);
+			}
 		}
 		if (GetIcon().GetGraph()) {
 			float Scale = (float)ysize / (float)(std::min(GetIcon().GetXSize(), GetIcon().GetYSize()));
