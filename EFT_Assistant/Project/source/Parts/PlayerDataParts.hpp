@@ -40,7 +40,8 @@ namespace FPS_n2 {
 		friend class SingletonBase<PlayerData>;
 	private:
 		std::string					m_LastDataReceive;
-		std::vector<ItemLockData> m_ItemLockData;
+		std::vector<ItemLockData>	m_ItemLockData;
+		std::vector<std::string>	m_TaskClearData;
 	private:
 		PlayerData() noexcept {
 			Load();
@@ -70,6 +71,9 @@ namespace FPS_n2 {
 				if (LEFT == "ItemData") {
 					SetItemLock(Args.at(0).c_str(), Args.at(1) == "true");
 				}
+				if (LEFT == "ClearTask") {
+					m_TaskClearData.emplace_back(RIGHT);
+				}
 			}
 			FileRead_close(mdata);
 			SetOutApplicationLogValidFlag(TRUE);
@@ -81,6 +85,10 @@ namespace FPS_n2 {
 			for (auto& LD : m_ItemLockData) {
 				outputfile << "ItemData=[" + LD.GetID() + "," + (LD.GetIsLock() ? "true" : "false") + "]\n";
 			}
+			for (auto& LD : m_TaskClearData) {
+				outputfile << "ClearTask=" + LD + "\n";
+			}
+			
 			//outputfile << "grass_level=" + std::to_string(grass_level) + "\n";
 			outputfile.close();
 		}
@@ -118,6 +126,35 @@ namespace FPS_n2 {
 				m_ItemLockData.back().SetIsLock(false);
 				return m_ItemLockData.back().GetIsLock();
 			}
+		}
+
+		void OnOffTaskClear(const char* ID) noexcept {
+			auto Point = std::find_if(m_TaskClearData.begin(), m_TaskClearData.end(), [&](const std::string& Data) {return (Data == ID); });
+			if (Point != m_TaskClearData.end()) {
+				m_TaskClearData.erase(Point);
+			}
+			else {
+				m_TaskClearData.resize(m_TaskClearData.size() + 1);
+				m_TaskClearData.back() = ID;
+			}
+		}
+		void SetTaskClear(const char* ID, bool value) noexcept {
+			auto Point = std::find_if(m_TaskClearData.begin(), m_TaskClearData.end(), [&](const std::string& Data) {return (Data == ID); });
+			if (Point != m_TaskClearData.end()) {
+				if (!value) {
+					m_TaskClearData.erase(Point);
+				}
+			}
+			else {
+				if (value) {
+					m_TaskClearData.resize(m_TaskClearData.size() + 1);
+					m_TaskClearData.back() = ID;
+				}
+			}
+		}
+		const auto GetTaskClear(const char* ID) noexcept {
+			auto Point = std::find_if(m_TaskClearData.begin(), m_TaskClearData.end(), [&](const std::string& Data) {return (Data == ID); });
+			return (Point != m_TaskClearData.end());
 		}
 
 		void SetLastDataReceive(const char* date) noexcept { m_LastDataReceive = date; }
