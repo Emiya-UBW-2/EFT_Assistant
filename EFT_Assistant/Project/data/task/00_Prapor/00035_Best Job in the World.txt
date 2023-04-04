@@ -25,7 +25,7 @@ Task_Else=‹——£: >= 100m
 
 [
 	TaskType=shoot
-	TaskText=Eliminate any hostile from over 100 meters away while using an AK-74 series assault rifles
+	TaskText=Eliminate any hostile from over 100 meters away while using AK-74 series weapons
 	TaskOptional=false
 ]
 

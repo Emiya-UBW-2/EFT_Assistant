@@ -38,3 +38,5 @@ Reward_Item=[
 ]
 
 Reward_EXP=1800
+Task_PinPoint=[0.035645,0.006348,0.000000]
+Task_PinPoint=[0.327148,0.305339,0.000000]

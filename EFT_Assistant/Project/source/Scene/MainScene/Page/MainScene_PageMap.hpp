@@ -23,6 +23,8 @@ namespace FPS_n2 {
 
 		Graphs		ComPass;
 		float		m_ComPassRad{ 0.f };
+
+		TaskID		m_EditTaskID{ InvalidID };
 	private:
 		void Init_Sub(int *posx, int *posy, float* Scale) noexcept override {
 			auto* Input = InputControl::Instance();
@@ -42,6 +44,8 @@ namespace FPS_n2 {
 
 			mouse_moveX = Input->GetMouseX();							//ドラッグ前のマウス座標格納
 			mouse_moveY = Input->GetMouseY();
+
+			m_EditTaskID = InvalidID;
 		}
 		void LateExecute_Sub(int *, int *, float*) noexcept override {
 			auto* Input = InputControl::Instance();
@@ -89,8 +93,65 @@ namespace FPS_n2 {
 		void Draw_Back_Sub(int posx, int posy, float Scale) noexcept override {
 			if (m_MapSelect != InvalidID) {
 				auto* MapPtr = MapData::Instance()->FindPtr(m_MapSelect);
-				if (MapPtr->GetMapGraph((int)m_WatchMapSelect)) {
-					DrawControl::Instance()->SetDrawRotaGraph(DrawLayer::Normal, MapPtr->GetMapGraph((int)m_WatchMapSelect), posx, posy, Scale / 2.f, m_Rad, false);
+				auto* Input = InputControl::Instance();
+				auto* GraphPtr = MapPtr->GetMapGraph((int)m_WatchMapSelect);
+				TaskList* TaskPtr = (m_EditTaskID != InvalidID) ? TaskData::Instance()->FindPtr(m_EditTaskID) : nullptr;
+				if (GraphPtr) {
+					DrawControl::Instance()->SetDrawRotaGraph(DrawLayer::Normal, GraphPtr, posx, posy, Scale / 2.f, m_Rad, false);
+					float XSize = (float)MapPtr->GetMapXSize((int)m_WatchMapSelect)*Scale / 2.f;
+					float YSize = (float)MapPtr->GetMapYSize((int)m_WatchMapSelect)*Scale / 2.f;
+					{
+						float Xper = ((float)Input->GetMouseX() - (float)posx);
+						float Yper = ((float)Input->GetMouseY() - (float)posy);
+						float Len = std::hypotf(Xper, Yper);
+						float Rad = std::atan2f(Xper, Yper);
+
+						Xper = Len * std::sin(Rad + m_Rad);
+						Yper = Len * std::cos(Rad + m_Rad);
+
+						Xper = Xper / XSize;
+						Yper = Yper / YSize;
+						if (Input->GetSpaceKey().trigger()) {
+							m_EditTaskID++;
+						}
+						if (TaskPtr) {
+							auto& Pins = TaskPtr->SetTaskWorkData().SetPin();
+							if (Input->GetLeftClick().trigger()) {
+								if (Input->GetShiftKey().press()) {
+									if ((-0.5f <= Xper && Xper <= 0.5f) && (-0.5f <= Yper && Yper <= 0.5f)) {
+										Pins.resize(Pins.size() + 1);
+										Pins.back().m_Point.Set(Xper, Yper, 0.f);
+									}
+								}
+							}
+						}
+					}
+					if (TaskPtr) {
+						auto& Pins = TaskPtr->SetTaskWorkData().SetPin();
+						for (int loop = 0; loop < Pins.size(); loop++) {
+							const auto& p = Pins[loop];
+							float Xs = XSize * p.m_Point.x();
+							float Ys = YSize * p.m_Point.y();
+							int xp = posx + (int)(std::cos(m_Rad)*Xs - std::sin(m_Rad)*Ys);
+							int yp = posy + (int)(std::cos(m_Rad)*Ys + std::sin(m_Rad)*Xs);
+							DrawControl::Instance()->SetDrawCircle(DrawLayer::Front, xp, yp, 6, Black);
+							DrawControl::Instance()->SetDrawCircle(DrawLayer::Front, xp, yp, 5, Green);
+							if (Input->GetRightClick().trigger()) {
+								if (std::hypotf((float)(Input->GetMouseX() - xp), (float)(Input->GetMouseY() - yp)) < 5.f) {
+									Pins.erase(Pins.begin() + loop);
+									loop--;
+								}
+							}
+						}
+					}
+				}
+				if (TaskPtr) {
+					int xp = y_r(960);
+					int yp = y_r(1080);
+					int ys = LineHeight;
+					WindowSystem::SetMsg(xp, yp - ys * 3, xp, yp - ys * 2, ys, STRX_MID, Red, Black, "Shift+左クリックClick　ピン打ち");
+					WindowSystem::SetMsg(xp, yp - ys * 2, xp, yp - ys * 1, ys, STRX_MID, Red, Black, "右クリックClick　ピン消し");
+					WindowSystem::SetMsg(xp, yp - ys * 1, xp, yp - ys * 0, ys, STRX_MID, Red, Black, "タスク[%s]を編集中", TaskPtr->GetName());
 				}
 			}
 			if (ComPass.GetGraph()) {

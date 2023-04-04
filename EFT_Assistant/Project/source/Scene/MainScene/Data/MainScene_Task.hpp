@@ -4,6 +4,10 @@
 namespace FPS_n2 {
 	typedef int TaskID;
 	class TaskList : public ListParent<TaskID> {
+		class TaskPin {
+		public:
+			VECTOR_ref	m_Point;
+		};
 		class TaskParents {
 			std::string								m_Parenttask;
 			TaskID									m_ParenttaskID{ InvalidID };
@@ -100,6 +104,7 @@ namespace FPS_n2 {
 			std::vector<ItemGetData>				m_NotFiR_Item;
 			std::vector<PresetID>					m_PresetID;
 			std::vector<std::string>				m_ElseMsg;
+			std::vector<TaskPin>					m_Pin;
 		public:
 			const auto& GetMap() const noexcept { return m_Map; }
 			const auto& GetKill() const noexcept { return m_Kill; }
@@ -107,6 +112,9 @@ namespace FPS_n2 {
 			const auto& GetNotFiR_Item() const noexcept { return m_NotFiR_Item; }
 			const auto& GetWeaponPreset() const noexcept { return m_PresetID; }
 			const auto& GetElseMsg() const noexcept { return m_ElseMsg; }
+			const auto& GetPin() const noexcept { return m_Pin; }
+
+			auto& SetPin() noexcept { return m_Pin; }
 		public:
 			void Set(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept {
 				auto SetKill = [&](const std::string& mes) {
@@ -221,6 +229,10 @@ namespace FPS_n2 {
 				else if (LEFT == "Task_Else") {//特殊　メッセージ
 					this->m_ElseMsg.emplace_back(RIGHT);
 				}
+				else if (LEFT == "Task_PinPoint") {//特殊　メッセージ
+					this->m_Pin.resize(this->m_Pin.size()+1);
+					this->m_Pin.back().m_Point.Set(std::stof(Args[0]), std::stof(Args[1]), std::stof(Args[2]));
+				}
 			}
 		};
 		class TaskRewardData {
@@ -286,6 +298,8 @@ namespace FPS_n2 {
 		const auto&		GetTaskNeedData() const noexcept { return m_TaskNeedData; }
 		const auto&		GetTaskWorkData() const noexcept { return m_TaskWorkData; }
 		const auto&		GetTaskRewardData() const noexcept { return m_TaskRewardData; }
+
+		auto&			SetTaskWorkData() noexcept { return m_TaskWorkData; }
 	public:
 		void			Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>&Args) noexcept override {
 			//Need
@@ -295,10 +309,8 @@ namespace FPS_n2 {
 			//Reward
 			m_TaskRewardData.Set(LEFT, RIGHT, Args);
 		}
-		void	Load_Sub() noexcept override {
-		}
-		void	WhenAfterLoad_Sub() noexcept override {
-		}
+		void	Load_Sub() noexcept override {}
+		void	WhenAfterLoad_Sub() noexcept override {}
 
 		void			SetNeedTasktoID(const std::vector<TaskList>& taskList) noexcept {
 			m_TaskNeedData.SetNeedTasktoID(taskList);
@@ -1490,6 +1502,10 @@ namespace FPS_n2 {
 
 						std::ofstream outputfile(L.GetFilePath());
 						WriteText(outputfile, jd);
+
+						for (const auto& p : L.GetTaskWorkData().GetPin()) {
+							outputfile << "Task_PinPoint=[" + std::to_string(p.m_Point.x()) + "," + std::to_string(p.m_Point.y()) + "," + std::to_string(p.m_Point.z())+ "]\n";
+						}
 						outputfile.close();
 						break;
 					}
