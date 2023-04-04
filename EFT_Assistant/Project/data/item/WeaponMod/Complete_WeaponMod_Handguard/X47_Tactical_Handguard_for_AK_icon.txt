@@ -61,13 +61,13 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	Armasight Vulcan universal base,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris FastFire Weaver Base,
 	DeltaPoint Cross Slot Mount base,
 	Kiba Arms Short Mount sight adapter,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	SIG Sauer ROMEO sight mount,
 	Trijicon RMR high profile mount,
 	Trijicon RMR low profile mount,
@@ -174,15 +174,15 @@ Information_Eng=A tactical aluminum handguard for the AK family assault rifles, 
 basePrice=19300
 width=2
 height=1
-avg24hPrice=23837
-low24hPrice=14999
-lastOfferCount=13
+avg24hPrice=21143
+low24hPrice=16444
+lastOfferCount=7
 Sell_Prapor=9650
 Sell_Fence=7720
 Sell_Skier=9457
 Sell_Peacekeeper=74
 Sell_Mechanic=10808
-Sell_Flea Market=18000
+Sell_Flea Market=21111
 weight=0.420000
-fleaMarketFee=1115
+fleaMarketFee=1209
 propertiestype=ItemPropertiesWeaponMod

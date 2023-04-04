@@ -57,12 +57,12 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris FastFire Weaver Base,
 	DeltaPoint Cross Slot Mount base,
 	NcSTAR MPR45 Backup mount,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	SIG Sauer ROMEO sight mount,
 	Trijicon RMR low profile mount
 ]
@@ -119,15 +119,15 @@ Information_Eng=The RS47 lightweight polymer handguard, fits the majority of rif
 basePrice=10638
 width=1
 height=1
-avg24hPrice=14567
-low24hPrice=8000
-lastOfferCount=7
+avg24hPrice=14023
+low24hPrice=9000
+lastOfferCount=11
 Sell_Prapor=5319
 Sell_Fence=4255
 Sell_Skier=5212
 Sell_Peacekeeper=41
 Sell_Mechanic=5957
-Sell_Flea Market=9400
+Sell_Flea Market=12000
 weight=0.220000
-fleaMarketFee=600
+fleaMarketFee=678
 propertiestype=ItemPropertiesWeaponMod

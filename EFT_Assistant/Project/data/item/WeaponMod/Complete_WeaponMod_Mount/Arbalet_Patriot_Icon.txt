@@ -33,7 +33,7 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	Armasight Vulcan universal base,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris AR-P.E.P.R. 30mm ring scope mount,
@@ -49,7 +49,7 @@ ChildParts=[
 	Nightforce Magmount 34mm ring scope mount,
 	Nightforce Magmount 34mm ring scope mount with Ruggedized Accessory Platform,
 	Kiba Arms Short Mount sight adapter,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	Recknagel Era-Tac 30mm ring scope mount,
 	Recknagel Era-Tac 34mm ring scope mount,
 	SIG Sauer ROMEO sight mount,
@@ -71,16 +71,16 @@ Information_Eng=The Patriot K+W rail mount for Mosin rifle, manufactured by Arba
 basePrice=2450
 width=1
 height=1
-avg24hPrice=19710
-low24hPrice=7000
-lastOfferCount=10
+avg24hPrice=10680
+low24hPrice=5000
+lastOfferCount=6
 Sell_Prapor=1225
 Sell_Fence=980
 Sell_Skier=1200
 Sell_Peacekeeper=9
 Sell_Mechanic=1372
 Sell_Jaeger=1470
-Sell_Flea Market=11000
+Sell_Flea Market=25000
 weight=0.200000
-fleaMarketFee=820
+fleaMarketFee=3058
 propertiestype=ItemPropertiesWeaponMod

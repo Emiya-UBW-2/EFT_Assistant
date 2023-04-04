@@ -33,7 +33,7 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	Armasight Vulcan universal base,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris AR-P.E.P.R. 30mm ring scope mount,
@@ -48,7 +48,7 @@ ChildParts=[
 	Nightforce Magmount 34mm ring scope mount,
 	Nightforce Magmount 34mm ring scope mount with Ruggedized Accessory Platform,
 	Kiba Arms Short Mount sight adapter,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	Recknagel Era-Tac 30mm ring scope mount,
 	Recknagel Era-Tac 34mm ring scope mount,
 	SIG Sauer ROMEO sight mount,
@@ -66,16 +66,16 @@ Information_Eng=A Weaver rail for the Remington Model 870 shotgun, which is moun
 basePrice=1496
 width=2
 height=1
-avg24hPrice=19426
-low24hPrice=5000
-lastOfferCount=2
+avg24hPrice=13776
+low24hPrice=8400
+lastOfferCount=3
 Sell_Prapor=748
 Sell_Fence=598
 Sell_Skier=733
 Sell_Peacekeeper=6
 Sell_Mechanic=837
 Sell_Jaeger=897
-Sell_Flea Market=10000
+Sell_Flea Market=9000
 weight=0.100000
-fleaMarketFee=940
+fleaMarketFee=794
 propertiestype=ItemPropertiesWeaponMod

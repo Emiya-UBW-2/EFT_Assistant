@@ -33,7 +33,7 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	Armasight Vulcan universal base,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris AR-P.E.P.R. 30mm ring scope mount,
@@ -49,7 +49,7 @@ ChildParts=[
 	Nightforce Magmount 34mm ring scope mount,
 	Nightforce Magmount 34mm ring scope mount with Ruggedized Accessory Platform,
 	Kiba Arms Short Mount sight adapter,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	Recknagel Era-Tac 30mm ring scope mount,
 	Recknagel Era-Tac 34mm ring scope mount,
 	SIG Sauer ROMEO sight mount,
@@ -71,16 +71,16 @@ Information_Eng=The M14 DCSB (Detachable Cantilevered Sight Base) mount for M14 
 basePrice=7906
 width=2
 height=1
-avg24hPrice=10555
-low24hPrice=5000
-lastOfferCount=16
+avg24hPrice=8848
+low24hPrice=5998
+lastOfferCount=3
 Sell_Prapor=3953
 Sell_Fence=3162
 Sell_Skier=3873
 Sell_Peacekeeper=30
 Sell_Mechanic=4427
 Sell_Jaeger=4743
-Sell_Flea Market=5000
+Sell_Flea Market=8690
 weight=0.220000
-fleaMarketFee=416
+fleaMarketFee=497
 propertiestype=ItemPropertiesWeaponMod

@@ -39,7 +39,7 @@ Conflict=[
 	NcSTAR ADO P4 Sniper 3-9x42 riflescope,
 	FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescope,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	Armasight Vulcan universal base,
 	Burris AR-P.E.P.R. 30mm ring scope mount,
 	Geissele Super Precision 30mm ring scope mount,
@@ -61,7 +61,8 @@ Conflict=[
 	UNV DLOC-IRD sight mount,
 	Leapers UTG 25mm ring scope mount,
 	SwampFox Trihawk Prism Scope 3x30,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
+	AI AX-50 34mm scope mount
 ]
 Recoil=0.000000
 Ergonomics=0.000000

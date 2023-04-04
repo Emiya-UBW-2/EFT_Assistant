@@ -22,12 +22,12 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris FastFire Weaver Base,
 	DeltaPoint Cross Slot Mount base,
 	NcSTAR MPR45 Backup mount,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	SIG Sauer ROMEO sight mount,
 	Trijicon RMR high profile mount,
 	Trijicon RMR low profile mount
@@ -64,15 +64,15 @@ Information_Eng=A combined kit of the VS-24 handguard with the VS-33c gas tube, 
 basePrice=29600
 width=2
 height=1
-avg24hPrice=48091
-low24hPrice=35000
+avg24hPrice=48347
+low24hPrice=28000
 lastOfferCount=0
 Sell_Prapor=14800
 Sell_Fence=11840
 Sell_Skier=14504
 Sell_Peacekeeper=114
 Sell_Mechanic=16576
-Sell_Flea Market=39000
+Sell_Flea Market=49999
 weight=0.385000
-fleaMarketFee=2098
+fleaMarketFee=2633
 propertiestype=ItemPropertiesWeaponMod

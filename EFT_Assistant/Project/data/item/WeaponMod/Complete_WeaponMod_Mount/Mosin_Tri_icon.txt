@@ -33,7 +33,7 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	Armasight Vulcan universal base,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris AR-P.E.P.R. 30mm ring scope mount,
@@ -48,7 +48,7 @@ ChildParts=[
 	Nightforce Magmount 34mm ring scope mount,
 	Nightforce Magmount 34mm ring scope mount with Ruggedized Accessory Platform,
 	Kiba Arms Short Mount sight adapter,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	Recknagel Era-Tac 30mm ring scope mount,
 	Recknagel Era-Tac 34mm ring scope mount,
 	SIG Sauer ROMEO sight mount,
@@ -114,16 +114,16 @@ Information_Eng=A Picatinny rail for the Mosin rifle, mounted instead of the reg
 basePrice=3215
 width=2
 height=1
-avg24hPrice=37099
-low24hPrice=18888
-lastOfferCount=16
+avg24hPrice=40636
+low24hPrice=9999
+lastOfferCount=21
 Sell_Prapor=1607
 Sell_Fence=1286
 Sell_Skier=1575
 Sell_Peacekeeper=12
 Sell_Mechanic=1800
 Sell_Jaeger=1929
-Sell_Flea Market=18888
+Sell_Flea Market=9999
 weight=0.180000
-fleaMarketFee=1643
+fleaMarketFee=621
 propertiestype=ItemPropertiesWeaponMod

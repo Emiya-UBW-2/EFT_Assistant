@@ -33,7 +33,7 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	Armasight Vulcan universal base,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris AR-P.E.P.R. 30mm ring scope mount,
@@ -50,7 +50,7 @@ ChildParts=[
 	Nightforce Magmount 34mm ring scope mount,
 	Nightforce Magmount 34mm ring scope mount with Ruggedized Accessory Platform,
 	Kiba Arms Short Mount sight adapter,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	Recknagel Era-Tac 30mm ring scope mount,
 	Recknagel Era-Tac 34mm ring scope mount,
 	SIG Sauer ROMEO sight mount,
@@ -90,15 +90,15 @@ Information_Eng=The Texas Weapon Systems Dog Leg Rail dust cover with an integra
 basePrice=11600
 width=2
 height=1
-avg24hPrice=20055
-low24hPrice=12899
-lastOfferCount=20
+avg24hPrice=18541
+low24hPrice=13300
+lastOfferCount=21
 Sell_Prapor=5800
 Sell_Fence=4640
 Sell_Skier=5684
 Sell_Peacekeeper=45
 Sell_Mechanic=6496
-Sell_Flea Market=14888
+Sell_Flea Market=15555
 weight=0.195000
-fleaMarketFee=806
+fleaMarketFee=834
 propertiestype=ItemPropertiesWeaponMod

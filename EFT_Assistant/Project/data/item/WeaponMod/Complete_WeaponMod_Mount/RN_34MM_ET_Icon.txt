@@ -16,7 +16,7 @@ ChildParts=[
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris FastFire Weaver Base,
 	DeltaPoint Cross Slot Mount base,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	Trijicon RMR low profile mount
 ]
 ChildParts=[
@@ -27,7 +27,7 @@ ChildParts=[
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris FastFire Weaver Base,
 	DeltaPoint Cross Slot Mount base,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	Trijicon RMR low profile mount
 ]
 Conflict=[
@@ -40,16 +40,16 @@ Information_Eng=The Recknagel Era-Tac is a versatile base for mounting 34mm rifl
 basePrice=8100
 width=2
 height=1
-avg24hPrice=14412
-low24hPrice=9999
-lastOfferCount=23
+avg24hPrice=14252
+low24hPrice=10000
+lastOfferCount=8
 Sell_Prapor=4050
 Sell_Fence=3240
 Sell_Skier=3969
 Sell_Peacekeeper=31
 Sell_Mechanic=4536
 Sell_Jaeger=4860
-Sell_Flea Market=9999
+Sell_Flea Market=11111
 weight=0.250000
-fleaMarketFee=547
+fleaMarketFee=593
 propertiestype=ItemPropertiesWeaponMod

@@ -22,11 +22,11 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris FastFire Weaver Base,
 	DeltaPoint Cross Slot Mount base,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	SIG Sauer ROMEO sight mount,
 	Armasight Vulcan universal base,
 	Burris AR-P.E.P.R. 30mm ring scope mount,
@@ -115,15 +115,15 @@ Information_Eng=The OV GP handguard for AK series assault rifles, equipped with 
 basePrice=6600
 width=2
 height=1
-avg24hPrice=14224
-low24hPrice=6666
-lastOfferCount=22
+avg24hPrice=14680
+low24hPrice=7200
+lastOfferCount=25
 Sell_Prapor=3300
 Sell_Fence=2640
 Sell_Skier=3234
 Sell_Peacekeeper=25
 Sell_Mechanic=3696
-Sell_Flea Market=8000
+Sell_Flea Market=13333
 weight=0.536000
-fleaMarketFee=440
+fleaMarketFee=718
 propertiestype=ItemPropertiesWeaponMod

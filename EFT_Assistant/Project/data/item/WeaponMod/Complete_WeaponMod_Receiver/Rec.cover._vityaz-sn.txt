@@ -33,12 +33,12 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris FastFire Weaver Base,
 	DeltaPoint Cross Slot Mount base,
 	Kiba Arms Short Mount sight adapter,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	SIG Sauer ROMEO sight mount,
 	Trijicon RMR high profile mount,
 	Trijicon RMR low profile mount,
@@ -66,15 +66,15 @@ Information_Eng=A standard-issue receiver dust cover for PP-19-01 Vityaz-SN (mod
 basePrice=2416
 width=2
 height=1
-avg24hPrice=16407
-low24hPrice=8888
-lastOfferCount=16
+avg24hPrice=21448
+low24hPrice=5000
+lastOfferCount=8
 Sell_Prapor=1208
 Sell_Fence=966
 Sell_Skier=1183
 Sell_Peacekeeper=9
 Sell_Mechanic=1352
-Sell_Flea Market=8888
+Sell_Flea Market=14444
 weight=0.136000
-fleaMarketFee=597
+fleaMarketFee=1269
 propertiestype=ItemPropertiesWeaponMod

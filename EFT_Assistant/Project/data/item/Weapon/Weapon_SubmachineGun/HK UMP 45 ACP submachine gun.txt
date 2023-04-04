@@ -36,13 +36,13 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	Armasight Vulcan universal base,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris FastFire Weaver Base,
 	DeltaPoint Cross Slot Mount base,
 	Kiba Arms Short Mount sight adapter,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	SIG Sauer ROMEO sight mount,
 	Trijicon RMR high profile mount,
 	Trijicon RMR low profile mount,
@@ -72,15 +72,15 @@ Information_Eng=The Heckler & Koch UMP submachine gun was designed by the German
 basePrice=26500
 width=2
 height=2
-avg24hPrice=33634
-low24hPrice=26666
-lastOfferCount=22
+avg24hPrice=32542
+low24hPrice=28000
+lastOfferCount=7
 Sell_Prapor=13250
 Sell_Fence=10600
 Sell_Skier=12985
 Sell_Peacekeeper=102
 Sell_Mechanic=14840
-Sell_Flea Market=30000
+Sell_Flea Market=31000
 weight=1.220000
-fleaMarketFee=1693
+fleaMarketFee=1727
 propertiestype=ItemPropertiesWeapon

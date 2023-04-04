@@ -10,7 +10,7 @@ ChildParts=[
 ChildParts=[
 	M14 SAGE International M14ALCS chassis,
 	M14 TROY S.A.S.S. Chassis stock,
-	M1A ProMag Archangel stock,
+	M1A ProMag Archangel chassis,
 	M1A SOCOM 16 stock
 ]
 ChildParts=[

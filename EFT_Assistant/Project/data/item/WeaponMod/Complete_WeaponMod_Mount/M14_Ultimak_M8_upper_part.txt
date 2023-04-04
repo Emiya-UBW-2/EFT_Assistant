@@ -22,12 +22,12 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris FastFire Weaver Base,
 	DeltaPoint Cross Slot Mount base,
 	NcSTAR MPR45 Backup mount,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	SIG Sauer ROMEO sight mount,
 	Trijicon RMR high profile mount,
 	Trijicon RMR low profile mount
@@ -47,16 +47,16 @@ Information_Eng=The M8 optic mount manufactured by UltiMAK. Lightweight, fully m
 basePrice=15874
 width=2
 height=1
-avg24hPrice=109673
-low24hPrice=55555
-lastOfferCount=5
+avg24hPrice=155403
+low24hPrice=87888
+lastOfferCount=2
 Sell_Prapor=7937
 Sell_Fence=6349
 Sell_Skier=7778
 Sell_Peacekeeper=61
 Sell_Mechanic=8889
 Sell_Jaeger=9524
-Sell_Flea Market=68000
+Sell_Flea Market=87888
 weight=0.190000
-fleaMarketFee=4944
+fleaMarketFee=7382
 propertiestype=ItemPropertiesWeaponMod

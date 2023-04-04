@@ -32,14 +32,14 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	Armasight Vulcan universal base,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris FastFire Weaver Base,
 	LaRue LT101 QD Tactical Picatinny Riser mount,
 	DeltaPoint Cross Slot Mount base,
 	Kiba Arms Short Mount sight adapter,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	SIG Sauer ROMEO sight mount,
 	Trijicon RMR high profile mount,
 	Trijicon RMR low profile mount,
@@ -56,16 +56,16 @@ Information_Eng=An aluminum mount for installing various sights and accessories 
 basePrice=2902
 width=1
 height=1
-avg24hPrice=7907
-low24hPrice=3047
-lastOfferCount=6
+avg24hPrice=11835
+low24hPrice=2500
+lastOfferCount=11
 Sell_Prapor=1451
 Sell_Fence=1160
 Sell_Skier=1421
 Sell_Peacekeeper=11
 Sell_Mechanic=1625
 Sell_Jaeger=1741
-Sell_Flea Market=6000
+Sell_Flea Market=2992
 weight=0.120000
-fleaMarketFee=324
+fleaMarketFee=176
 propertiestype=ItemPropertiesWeaponMod

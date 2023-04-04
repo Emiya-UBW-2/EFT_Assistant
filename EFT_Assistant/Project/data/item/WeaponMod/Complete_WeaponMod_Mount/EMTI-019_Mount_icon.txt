@@ -21,10 +21,10 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	Burris FastFire Weaver Base,
 	DeltaPoint Cross Slot Mount base,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	SIG Sauer ROMEO sight mount,
 	Trijicon RMR low profile mount
 ]
@@ -34,16 +34,16 @@ Information_Eng=ETMI-019 is a universal adapter from 7mm vent plank to Weaver/Pi
 basePrice=2000
 width=1
 height=1
-avg24hPrice=8857
-low24hPrice=6780
-lastOfferCount=2
+avg24hPrice=16481
+low24hPrice=5555
+lastOfferCount=7
 Sell_Prapor=1000
 Sell_Fence=800
 Sell_Skier=980
 Sell_Peacekeeper=8
 Sell_Mechanic=1120
 Sell_Jaeger=1200
-Sell_Flea Market=7999
+Sell_Flea Market=7000
 weight=0.053000
-fleaMarketFee=561
+fleaMarketFee=459
 propertiestype=ItemPropertiesWeaponMod

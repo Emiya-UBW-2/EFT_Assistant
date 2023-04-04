@@ -25,12 +25,12 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris FastFire Weaver Base,
 	DeltaPoint Cross Slot Mount base,
 	NcSTAR MPR45 Backup mount,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	SIG Sauer ROMEO sight mount,
 	Trijicon RMR high profile mount,
 	Trijicon RMR low profile mount,
@@ -114,16 +114,16 @@ Information_Eng=The M14ALCS chassis for M14 rifles from the Enhanced Battle Rifl
 basePrice=17972
 width=3
 height=1
-avg24hPrice=15483
-low24hPrice=11800
-lastOfferCount=12
+avg24hPrice=17940
+low24hPrice=7500
+lastOfferCount=8
 Sell_Prapor=8986
 Sell_Fence=7188
 Sell_Skier=8806
 Sell_Peacekeeper=69
 Sell_Mechanic=10064
 Sell_Jaeger=10783
-Sell_Flea Market=11800
+Sell_Flea Market=7500
 weight=1.900000
-fleaMarketFee=947
+fleaMarketFee=1010
 propertiestype=ItemPropertiesWeaponMod

@@ -33,7 +33,7 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	Armasight Vulcan universal base,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris AR-P.E.P.R. 30mm ring scope mount,
@@ -50,7 +50,7 @@ ChildParts=[
 	Nightforce Magmount 34mm ring scope mount,
 	Nightforce Magmount 34mm ring scope mount with Ruggedized Accessory Platform,
 	Kiba Arms Short Mount sight adapter,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	Recknagel Era-Tac 30mm ring scope mount,
 	Recknagel Era-Tac 34mm ring scope mount,
 	SIG Sauer ROMEO sight mount,
@@ -95,15 +95,15 @@ Information_Eng=An upper receiver for the SR-25 rifle, manufactured by Knight's 
 basePrice=6800
 width=2
 height=1
-avg24hPrice=200000
-low24hPrice=200000
+avg24hPrice=55555
+low24hPrice=55555
 lastOfferCount=1
 Sell_Prapor=3400
 Sell_Fence=2720
 Sell_Skier=3332
 Sell_Peacekeeper=26
 Sell_Mechanic=3808
-Sell_Flea Market=200000
+Sell_Flea Market=55555
 weight=0.650000
-fleaMarketFee=48992
+fleaMarketFee=5906
 propertiestype=ItemPropertiesWeaponMod

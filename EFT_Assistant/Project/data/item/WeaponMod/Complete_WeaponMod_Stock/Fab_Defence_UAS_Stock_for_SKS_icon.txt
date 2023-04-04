@@ -28,12 +28,12 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris FastFire Weaver Base,
 	DeltaPoint Cross Slot Mount base,
 	NcSTAR MPR45 Backup mount,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	SIG Sauer ROMEO sight mount,
 	Trijicon RMR high profile mount,
 	Trijicon RMR low profile mount
@@ -134,16 +134,16 @@ Information_Eng=Lightweight polymer chassis for SKS carbine, manufactured by FAB
 basePrice=16300
 width=3
 height=1
-avg24hPrice=54521
-low24hPrice=19999
-lastOfferCount=4
+avg24hPrice=51159
+low24hPrice=19000
+lastOfferCount=8
 Sell_Prapor=8150
 Sell_Fence=6520
 Sell_Skier=7987
 Sell_Peacekeeper=63
 Sell_Mechanic=9128
 Sell_Jaeger=9780
-Sell_Flea Market=23000
+Sell_Flea Market=58000
 weight=1.034000
-fleaMarketFee=1222
+fleaMarketFee=3833
 propertiestype=ItemPropertiesWeaponMod

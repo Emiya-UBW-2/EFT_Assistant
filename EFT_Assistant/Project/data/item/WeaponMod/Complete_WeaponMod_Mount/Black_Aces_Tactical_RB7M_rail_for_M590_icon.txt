@@ -33,7 +33,7 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	Armasight Vulcan universal base,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris AR-P.E.P.R. 30mm ring scope mount,
@@ -48,7 +48,7 @@ ChildParts=[
 	Nightforce Magmount 34mm ring scope mount,
 	Nightforce Magmount 34mm ring scope mount with Ruggedized Accessory Platform,
 	Kiba Arms Short Mount sight adapter,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	Recknagel Era-Tac 30mm ring scope mount,
 	Recknagel Era-Tac 34mm ring scope mount,
 	SIG Sauer ROMEO sight mount,
@@ -175,16 +175,16 @@ Information_Eng=A Weaver/Picatinny rail mount for Mossberg 590A1 pump-action sho
 basePrice=5900
 width=3
 height=1
-avg24hPrice=15054
-low24hPrice=7777
-lastOfferCount=6
+avg24hPrice=9628
+low24hPrice=6500
+lastOfferCount=2
 Sell_Prapor=2950
 Sell_Fence=2360
 Sell_Skier=2891
 Sell_Peacekeeper=23
 Sell_Mechanic=3304
 Sell_Jaeger=3540
-Sell_Flea Market=11000
+Sell_Flea Market=6500
 weight=0.450000
-fleaMarketFee=584
+fleaMarketFee=371
 propertiestype=ItemPropertiesWeaponMod

@@ -14,7 +14,7 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris FastFire Weaver Base,
 	DeltaPoint Cross Slot Mount base,
@@ -37,15 +37,15 @@ Information_Eng=The TT01 rear sight adapter, designed by Taktika Tula for AK fam
 basePrice=2698
 width=1
 height=1
-avg24hPrice=12221
-low24hPrice=6000
-lastOfferCount=12
+avg24hPrice=9551
+low24hPrice=3000
+lastOfferCount=9
 Sell_Prapor=1349
 Sell_Fence=1079
 Sell_Skier=1322
 Sell_Peacekeeper=10
 Sell_Mechanic=1510
-Sell_Flea Market=7000
+Sell_Flea Market=7400
 weight=0.085000
-fleaMarketFee=404
+fleaMarketFee=436
 propertiestype=ItemPropertiesScope

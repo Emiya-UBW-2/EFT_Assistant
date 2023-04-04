@@ -16,12 +16,12 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris FastFire Weaver Base,
 	DeltaPoint Cross Slot Mount base,
 	NcSTAR MPR45 Backup mount,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	SIG Sauer ROMEO sight mount,
 	Trijicon RMR high profile mount,
 	Trijicon RMR low profile mount
@@ -42,15 +42,15 @@ Information_Eng=The UltiMAK M1-B gas tube for AK assault rifles sets the gas pis
 basePrice=2241
 width=1
 height=1
-avg24hPrice=11027
-low24hPrice=5000
+avg24hPrice=17408
+low24hPrice=9000
 lastOfferCount=3
 Sell_Prapor=1120
 Sell_Fence=896
 Sell_Skier=1098
 Sell_Peacekeeper=9
 Sell_Mechanic=1254
-Sell_Flea Market=5000
+Sell_Flea Market=18000
 weight=0.120000
-fleaMarketFee=275
+fleaMarketFee=1893
 propertiestype=ItemPropertiesWeaponMod

@@ -56,12 +56,12 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris FastFire Weaver Base,
 	DeltaPoint Cross Slot Mount base,
 	NcSTAR MPR45 Backup mount,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	Trijicon RMR low profile mount
 ]
 ChildParts=[
@@ -137,15 +137,15 @@ Information_Eng=The all-milled B-30 handguard is made of D16T aluminum alloy wit
 basePrice=18327
 width=2
 height=1
-avg24hPrice=55724
-low24hPrice=30000
+avg24hPrice=73799
+low24hPrice=40000
 lastOfferCount=0
 Sell_Prapor=9163
 Sell_Fence=7330
 Sell_Skier=8980
 Sell_Peacekeeper=70
 Sell_Mechanic=10263
-Sell_Flea Market=45000
+Sell_Flea Market=40200
 weight=0.390000
-fleaMarketFee=2549
+fleaMarketFee=2204
 propertiestype=ItemPropertiesWeaponMod

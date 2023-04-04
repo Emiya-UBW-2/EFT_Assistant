@@ -55,12 +55,12 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris FastFire Weaver Base,
 	DeltaPoint Cross Slot Mount base,
 	NcSTAR MPR45 Backup mount,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	Trijicon RMR low profile mount
 ]
 ChildParts=[
@@ -91,15 +91,15 @@ Information_Eng=The integrally machined B-10M handguard is manufactured from D16
 basePrice=13327
 width=1
 height=1
-avg24hPrice=23906
-low24hPrice=17400
-lastOfferCount=16
+avg24hPrice=19960
+low24hPrice=13000
+lastOfferCount=9
 Sell_Prapor=6663
 Sell_Fence=5330
 Sell_Skier=6530
 Sell_Peacekeeper=51
 Sell_Mechanic=7463
-Sell_Flea Market=25555
+Sell_Flea Market=13000
 weight=0.260000
-fleaMarketFee=1363
+fleaMarketFee=788
 propertiestype=ItemPropertiesWeaponMod

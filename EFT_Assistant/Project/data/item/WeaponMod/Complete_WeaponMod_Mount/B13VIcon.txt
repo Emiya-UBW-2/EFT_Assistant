@@ -33,7 +33,7 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	Armasight Vulcan universal base,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris AR-P.E.P.R. 30mm ring scope mount,
@@ -49,7 +49,7 @@ ChildParts=[
 	Nightforce Magmount 34mm ring scope mount,
 	Nightforce Magmount 34mm ring scope mount with Ruggedized Accessory Platform,
 	Kiba Arms Short Mount sight adapter,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	Recknagel Era-Tac 30mm ring scope mount,
 	Recknagel Era-Tac 34mm ring scope mount,
 	SIG Sauer ROMEO sight mount,
@@ -73,16 +73,16 @@ Information_Eng=The B-13V rail platform is designed to mount on the Dovetail rai
 basePrice=7600
 width=1
 height=1
-avg24hPrice=16074
-low24hPrice=7777
-lastOfferCount=4
+avg24hPrice=11633
+low24hPrice=9800
+lastOfferCount=5
 Sell_Prapor=3800
 Sell_Fence=3040
 Sell_Skier=3724
 Sell_Peacekeeper=29
 Sell_Mechanic=4256
 Sell_Jaeger=4560
-Sell_Flea Market=15554
+Sell_Flea Market=11001
 weight=0.158000
-fleaMarketFee=839
+fleaMarketFee=583
 propertiestype=ItemPropertiesWeaponMod

@@ -39,13 +39,13 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	Armasight Vulcan universal base,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris FastFire Weaver Base,
 	DeltaPoint Cross Slot Mount base,
 	Kiba Arms Short Mount sight adapter,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	SIG Sauer ROMEO sight mount,
 	Trijicon RMR high profile mount,
 	Trijicon RMR low profile mount,
@@ -59,15 +59,15 @@ Information_Eng=EFFEN 90 is a low-profile upper receiver for the P90 submachine 
 basePrice=3800
 width=2
 height=1
-avg24hPrice=22232
-low24hPrice=9999
-lastOfferCount=13
+avg24hPrice=19976
+low24hPrice=10000
+lastOfferCount=12
 Sell_Prapor=1900
 Sell_Fence=1520
 Sell_Skier=1862
 Sell_Peacekeeper=15
 Sell_Mechanic=2128
-Sell_Flea Market=18500
+Sell_Flea Market=10000
 weight=0.250000
-fleaMarketFee=1443
+fleaMarketFee=580
 propertiestype=ItemPropertiesWeaponMod

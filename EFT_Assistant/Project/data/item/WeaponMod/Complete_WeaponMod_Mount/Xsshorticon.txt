@@ -20,12 +20,12 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris FastFire Weaver Base,
 	DeltaPoint Cross Slot Mount base,
 	Kiba Arms Short Mount sight adapter,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	SIG Sauer ROMEO sight mount,
 	Trijicon RMR high profile mount,
 	Trijicon RMR low profile mount,
@@ -38,8 +38,8 @@ Information_Eng=A Picatinny rail with a Ghost Ring type rear sight for the Remin
 basePrice=5926
 width=2
 height=1
-avg24hPrice=8724
-low24hPrice=6500
+avg24hPrice=8814
+low24hPrice=4000
 lastOfferCount=2
 Sell_Prapor=2963
 Sell_Fence=2370
@@ -47,7 +47,7 @@ Sell_Skier=2903
 Sell_Peacekeeper=23
 Sell_Mechanic=3318
 Sell_Jaeger=3555
-Sell_Flea Market=6600
+Sell_Flea Market=6638
 weight=0.150000
-fleaMarketFee=375
+fleaMarketFee=376
 propertiestype=ItemPropertiesWeaponMod

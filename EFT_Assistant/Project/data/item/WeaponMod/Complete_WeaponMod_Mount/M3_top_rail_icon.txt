@@ -33,11 +33,11 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris FastFire Weaver Base,
 	DeltaPoint Cross Slot Mount base,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	SIG Sauer ROMEO sight mount,
 	Trijicon RMR high profile mount,
 	Trijicon RMR low profile mount,
@@ -51,8 +51,8 @@ Information_Eng=The Benelli M3 top rail allows installation of additional equipm
 basePrice=1450
 width=1
 height=1
-avg24hPrice=0
-low24hPrice=0
+avg24hPrice=50000
+low24hPrice=50000
 lastOfferCount=1
 Sell_Prapor=725
 Sell_Fence=580
@@ -60,7 +60,7 @@ Sell_Skier=710
 Sell_Peacekeeper=6
 Sell_Mechanic=812
 Sell_Jaeger=870
-Sell_Flea Market=40000
+Sell_Flea Market=50000
 weight=0.110000
-fleaMarketFee=9387
+fleaMarketFee=13627
 propertiestype=ItemPropertiesWeaponMod

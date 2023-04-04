@@ -33,13 +33,13 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	Armasight Vulcan universal base,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris FastFire Weaver Base,
 	DeltaPoint Cross Slot Mount base,
 	Kiba Arms Short Mount sight adapter,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	SIG Sauer ROMEO sight mount,
 	Trijicon RMR high profile mount,
 	Trijicon RMR low profile mount,
@@ -59,8 +59,8 @@ Information_Eng=The A.R.M.S. Inc. scope mount for M14 rifles. Made of 8620 case 
 basePrice=3217
 width=1
 height=1
-avg24hPrice=15114
-low24hPrice=5000
+avg24hPrice=14962
+low24hPrice=2222
 lastOfferCount=12
 Sell_Prapor=1608
 Sell_Fence=1286
@@ -68,7 +68,7 @@ Sell_Skier=1576
 Sell_Peacekeeper=12
 Sell_Mechanic=1801
 Sell_Jaeger=1930
-Sell_Flea Market=7888
+Sell_Flea Market=6000
 weight=0.220000
-fleaMarketFee=447
+fleaMarketFee=319
 propertiestype=ItemPropertiesWeaponMod

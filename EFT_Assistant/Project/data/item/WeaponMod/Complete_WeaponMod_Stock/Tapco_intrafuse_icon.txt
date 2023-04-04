@@ -58,12 +58,12 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris FastFire Weaver Base,
 	DeltaPoint Cross Slot Mount base,
 	NcSTAR MPR45 Backup mount,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	SIG Sauer ROMEO sight mount,
 	Trijicon RMR high profile mount,
 	Trijicon RMR low profile mount
@@ -77,16 +77,16 @@ Information_Eng=The Intrafuse SKS stock system equips the carbine with an upper 
 basePrice=8654
 width=3
 height=1
-avg24hPrice=12978
-low24hPrice=8000
-lastOfferCount=5
+avg24hPrice=11010
+low24hPrice=9692
+lastOfferCount=2
 Sell_Prapor=4327
 Sell_Fence=3461
 Sell_Skier=4240
 Sell_Peacekeeper=33
 Sell_Mechanic=4846
 Sell_Jaeger=5192
-Sell_Flea Market=10000
+Sell_Flea Market=10900
 weight=0.750000
-fleaMarketFee=560
+fleaMarketFee=593
 propertiestype=ItemPropertiesWeaponMod

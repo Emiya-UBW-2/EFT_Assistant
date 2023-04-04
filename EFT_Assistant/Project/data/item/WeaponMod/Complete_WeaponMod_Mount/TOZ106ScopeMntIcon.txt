@@ -33,7 +33,7 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	Armasight Vulcan universal base,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris AR-P.E.P.R. 30mm ring scope mount,
@@ -49,7 +49,7 @@ ChildParts=[
 	Nightforce Magmount 34mm ring scope mount,
 	Nightforce Magmount 34mm ring scope mount with Ruggedized Accessory Platform,
 	Kiba Arms Short Mount sight adapter,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	Recknagel Era-Tac 30mm ring scope mount,
 	Recknagel Era-Tac 34mm ring scope mount,
 	SIG Sauer ROMEO sight mount,
@@ -75,16 +75,16 @@ Information_Eng=A universal Weaver rail mount for TOZ-106. Provides a rail that 
 basePrice=2300
 width=1
 height=1
-avg24hPrice=16551
-low24hPrice=2414
-lastOfferCount=8
+avg24hPrice=11161
+low24hPrice=5000
+lastOfferCount=7
 Sell_Prapor=1150
 Sell_Fence=920
 Sell_Skier=1127
 Sell_Peacekeeper=9
 Sell_Mechanic=1288
 Sell_Jaeger=1380
-Sell_Flea Market=3333
+Sell_Flea Market=11111
 weight=0.070000
-fleaMarketFee=176
+fleaMarketFee=863
 propertiestype=ItemPropertiesWeaponMod

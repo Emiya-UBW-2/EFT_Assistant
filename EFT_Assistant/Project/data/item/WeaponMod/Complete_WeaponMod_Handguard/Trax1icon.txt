@@ -28,12 +28,12 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris FastFire Weaver Base,
 	DeltaPoint Cross Slot Mount base,
 	NcSTAR MPR45 Backup mount,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	SIG Sauer ROMEO sight mount,
 	Trijicon RMR high profile mount,
 	Trijicon RMR low profile mount
@@ -62,15 +62,15 @@ Information_Eng=The Strike Industries AK TRAX 1 rail system is a modular drop-in
 basePrice=7925
 width=1
 height=1
-avg24hPrice=12469
-low24hPrice=9800
-lastOfferCount=9
+avg24hPrice=13959
+low24hPrice=8700
+lastOfferCount=7
 Sell_Prapor=3962
 Sell_Fence=3170
 Sell_Skier=3883
 Sell_Peacekeeper=30
 Sell_Mechanic=4438
-Sell_Flea Market=10100
+Sell_Flea Market=8777
 weight=0.260000
-fleaMarketFee=548
+fleaMarketFee=500
 propertiestype=ItemPropertiesWeaponMod

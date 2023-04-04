@@ -33,7 +33,7 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	Armasight Vulcan universal base,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris AR-P.E.P.R. 30mm ring scope mount,
@@ -50,7 +50,7 @@ ChildParts=[
 	Nightforce Magmount 34mm ring scope mount,
 	Nightforce Magmount 34mm ring scope mount with Ruggedized Accessory Platform,
 	Kiba Arms Short Mount sight adapter,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	Recknagel Era-Tac 30mm ring scope mount,
 	Recknagel Era-Tac 34mm ring scope mount,
 	SIG Sauer ROMEO sight mount,
@@ -116,15 +116,15 @@ Information_Eng=An upper receiver for the SCAR-H assault rifle, manufactured by 
 basePrice=11800
 width=3
 height=1
-avg24hPrice=69420
-low24hPrice=69420
+avg24hPrice=200000
+low24hPrice=199000
 lastOfferCount=1
 Sell_Prapor=5900
 Sell_Fence=4720
 Sell_Skier=5782
 Sell_Peacekeeper=45
 Sell_Mechanic=6608
-Sell_Flea Market=69420
+Sell_Flea Market=200000
 weight=0.200000
-fleaMarketFee=6042
+fleaMarketFee=33987
 propertiestype=ItemPropertiesWeaponMod

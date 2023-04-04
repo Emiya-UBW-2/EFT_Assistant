@@ -33,7 +33,7 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	Armasight Vulcan universal base,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris AR-P.E.P.R. 30mm ring scope mount,
@@ -49,7 +49,7 @@ ChildParts=[
 	Nightforce Magmount 34mm ring scope mount,
 	Nightforce Magmount 34mm ring scope mount with Ruggedized Accessory Platform,
 	Kiba Arms Short Mount sight adapter,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	Recknagel Era-Tac 30mm ring scope mount,
 	Recknagel Era-Tac 34mm ring scope mount,
 	SIG Sauer ROMEO sight mount,
@@ -82,16 +82,16 @@ Information_Eng=A low-profile side mount, all-milled from a bar of high-strength
 basePrice=9100
 width=1
 height=1
-avg24hPrice=57387
-low24hPrice=20199
-lastOfferCount=15
+avg24hPrice=53780
+low24hPrice=9000
+lastOfferCount=3
 Sell_Prapor=4550
 Sell_Fence=3640
 Sell_Skier=4459
 Sell_Peacekeeper=35
 Sell_Mechanic=5096
 Sell_Jaeger=5460
-Sell_Flea Market=45000
+Sell_Flea Market=40000
 weight=0.165000
-fleaMarketFee=3542
+fleaMarketFee=2949
 propertiestype=ItemPropertiesWeaponMod

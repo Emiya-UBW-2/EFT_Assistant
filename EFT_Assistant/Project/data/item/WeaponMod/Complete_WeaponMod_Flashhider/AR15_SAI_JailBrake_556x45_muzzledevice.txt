@@ -24,7 +24,8 @@ Conflict=[
 	Soyuz-TM STM-9 Gen.2 9x19 carbine,
 	KAC QDC 5.56x45 sound suppressor,
 	AR-15 SureFire Warden 5.56x45 blast regulator,
-	AR-15 Griffin Armament M4SD-K 5.56x45 sound suppressor
+	AR-15 Griffin Armament M4SD-K 5.56x45 sound suppressor,
+	AWC Thor PSR XL multi-caliber sound suppressor
 ]
 Recoil=-8.000000
 Ergonomics=-2.000000
@@ -32,15 +33,15 @@ Information_Eng=The JailBrake muzzle device manufactured by Salient Arms Interna
 basePrice=15990
 width=1
 height=1
-avg24hPrice=24830
-low24hPrice=18888
-lastOfferCount=10
+avg24hPrice=24863
+low24hPrice=21000
+lastOfferCount=22
 Sell_Prapor=7995
 Sell_Fence=6396
 Sell_Skier=7835
 Sell_Peacekeeper=61
 Sell_Mechanic=8954
-Sell_Flea Market=22999
+Sell_Flea Market=21100
 weight=0.064000
-fleaMarketFee=1219
+fleaMarketFee=1135
 propertiestype=ItemPropertiesWeaponMod

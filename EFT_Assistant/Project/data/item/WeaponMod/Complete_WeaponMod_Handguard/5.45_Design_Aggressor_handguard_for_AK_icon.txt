@@ -55,12 +55,12 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris FastFire Weaver Base,
 	DeltaPoint Cross Slot Mount base,
 	NcSTAR MPR45 Backup mount,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	Trijicon RMR low profile mount
 ]
 ChildParts=[
@@ -159,9 +159,9 @@ Information_Eng=Aggressor is a railed handguard for AK series rifles manufacture
 basePrice=19400
 width=1
 height=1
-avg24hPrice=33643
-low24hPrice=16500
-lastOfferCount=14
+avg24hPrice=31968
+low24hPrice=19000
+lastOfferCount=12
 Sell_Prapor=9700
 Sell_Fence=7760
 Sell_Skier=9506

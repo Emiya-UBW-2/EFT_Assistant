@@ -31,7 +31,13 @@ Conflict=[
 	Trijicon RMR high profile mount,
 	Trijicon TA51 sight mount,
 	UNV DLOC-IRD sight mount,
-	Leapers UTG 25mm ring scope mount
+	Leapers UTG 25mm ring scope mount,
+	AI AX-50 34mm scope mount,
+	Recknagel Era-Tac 30mm ring scope mount,
+	Recknagel Era-Tac 34mm ring scope mount,
+	Geissele Super Precision 30mm ring scope mount,
+	Geissele Super Precision 30mm ring scope mount (DDC),
+	IEA Mil-Optics KH/F 34mm one-piece magmount
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -39,15 +45,15 @@ Information_Eng=The Colt A2 detachable rear sight. Standard-issue for M4A1 assau
 basePrice=908
 width=1
 height=1
-avg24hPrice=4000
-low24hPrice=1000
-lastOfferCount=3
+avg24hPrice=3649
+low24hPrice=666
+lastOfferCount=1
 Sell_Prapor=454
 Sell_Fence=363
 Sell_Skier=444
 Sell_Peacekeeper=3
 Sell_Mechanic=508
-Sell_Flea Market=3000
+Sell_Flea Market=2999
 weight=0.150000
 fleaMarketFee=191
 propertiestype=ItemPropertiesScope

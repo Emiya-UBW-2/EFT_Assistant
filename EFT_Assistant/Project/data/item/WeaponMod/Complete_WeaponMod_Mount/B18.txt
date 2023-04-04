@@ -6,7 +6,7 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	Burris FastFire Weaver Base,
 	B&T QD NAR mount for Aimpoint ACRO,
 	SIG Sauer ROMEO sight mount,
@@ -32,16 +32,16 @@ Information_Eng=The B-18 rail mount is installed on the standard rear sight of A
 basePrice=3298
 width=1
 height=1
-avg24hPrice=7217
-low24hPrice=4999
-lastOfferCount=2
+avg24hPrice=7362
+low24hPrice=4000
+lastOfferCount=4
 Sell_Prapor=1649
 Sell_Fence=1319
 Sell_Skier=1616
 Sell_Peacekeeper=13
 Sell_Mechanic=1846
 Sell_Jaeger=1978
-Sell_Flea Market=9899
+Sell_Flea Market=5999
 weight=0.053000
-fleaMarketFee=605
+fleaMarketFee=318
 propertiestype=ItemPropertiesWeaponMod

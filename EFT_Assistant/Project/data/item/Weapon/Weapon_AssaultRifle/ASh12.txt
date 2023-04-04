@@ -93,7 +93,7 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	Armasight Vulcan universal base,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris AR-P.E.P.R. 30mm ring scope mount,
@@ -110,7 +110,7 @@ ChildParts=[
 	Nightforce Magmount 34mm ring scope mount,
 	Nightforce Magmount 34mm ring scope mount with Ruggedized Accessory Platform,
 	Kiba Arms Short Mount sight adapter,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	Recknagel Era-Tac 30mm ring scope mount,
 	Recknagel Era-Tac 34mm ring scope mount,
 	SIG Sauer ROMEO sight mount,
@@ -177,15 +177,15 @@ Information_Eng=The ASh-12.7 (Avtomat Shturmovoy 12 - "Assault Automatic Rifle 1
 basePrice=93800
 width=4
 height=2
-avg24hPrice=64661
-low24hPrice=49990
-lastOfferCount=9
+avg24hPrice=63903
+low24hPrice=55969
+lastOfferCount=19
 Sell_Prapor=46900
 Sell_Fence=37520
 Sell_Skier=45962
 Sell_Peacekeeper=361
 Sell_Mechanic=52528
-Sell_Flea Market=63999
+Sell_Flea Market=61111
 weight=5.100000
-fleaMarketFee=4960
+fleaMarketFee=4942
 propertiestype=ItemPropertiesWeapon

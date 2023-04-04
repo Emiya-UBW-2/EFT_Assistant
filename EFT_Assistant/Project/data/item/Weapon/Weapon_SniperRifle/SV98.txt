@@ -38,7 +38,7 @@ ChildParts=[
 	Aimpoint Micro Standard Mount,
 	Aimpoint Micro H-2 Standard Mount,
 	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO reflex sights,
+	Aimpoint QRP2 mount for CompM4/PRO sights,
 	Armasight Vulcan universal base,
 	B&T QD NAR mount for Aimpoint ACRO,
 	Burris AR-P.E.P.R. 30mm ring scope mount,
@@ -55,7 +55,7 @@ ChildParts=[
 	Nightforce Magmount 34mm ring scope mount,
 	Nightforce Magmount 34mm ring scope mount with Ruggedized Accessory Platform,
 	Kiba Arms Short Mount sight adapter,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1,
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
 	Recknagel Era-Tac 30mm ring scope mount,
 	Recknagel Era-Tac 34mm ring scope mount,
 	SIG Sauer ROMEO sight mount,
@@ -86,16 +86,16 @@ Information_Eng=The SV-98 is a Russian sniper rifle developed in 1998-2000 by a 
 basePrice=24989
 width=4
 height=1
-avg24hPrice=53847
-low24hPrice=32000
-lastOfferCount=15
+avg24hPrice=48740
+low24hPrice=35999
+lastOfferCount=22
 Sell_Prapor=12494
 Sell_Fence=9995
 Sell_Skier=12244
 Sell_Peacekeeper=96
 Sell_Mechanic=13993
 Sell_Jaeger=14993
-Sell_Flea Market=40000
+Sell_Flea Market=37000
 weight=1.500000
-fleaMarketFee=2105
+fleaMarketFee=1955
 propertiestype=ItemPropertiesWeapon
