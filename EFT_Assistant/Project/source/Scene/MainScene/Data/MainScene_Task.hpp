@@ -7,6 +7,8 @@ namespace FPS_n2 {
 		class TaskPin {
 		public:
 			VECTOR_ref	m_Point;
+			MapID		m_MapID{ InvalidID };
+			int			m_MapSel{ 0 };
 		};
 		class TaskParents {
 			std::string								m_Parenttask;
@@ -232,6 +234,10 @@ namespace FPS_n2 {
 				else if (LEFT == "Task_PinPoint") {//特殊　メッセージ
 					this->m_Pin.resize(this->m_Pin.size()+1);
 					this->m_Pin.back().m_Point.Set(std::stof(Args[0]), std::stof(Args[1]), std::stof(Args[2]));
+				}
+				else if (LEFT == "Task_PinMap") {//特殊　メッセージ
+					this->m_Pin.back().m_MapID = MapData::Instance()->FindID(Args[0].c_str());
+					this->m_Pin.back().m_MapSel = std::atoi(Args[1].c_str());
 				}
 			}
 		};
@@ -1505,6 +1511,7 @@ namespace FPS_n2 {
 
 						for (const auto& p : L.GetTaskWorkData().GetPin()) {
 							outputfile << "Task_PinPoint=[" + std::to_string(p.m_Point.x()) + "," + std::to_string(p.m_Point.y()) + "," + std::to_string(p.m_Point.z())+ "]\n";
+							outputfile << "Task_PinMap=[" + MapData::Instance()->FindPtr(p.m_MapID)->GetName() + "," + std::to_string(p.m_MapSel) + "]\n";
 						}
 						outputfile.close();
 						break;

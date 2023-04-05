@@ -45,3 +45,5 @@ Reward_Item=[
 ]
 
 Reward_EXP=5900
+Task_PinPoint=[0.033428,0.325271,0.000000]
+Task_PinMap=[Woods,1]

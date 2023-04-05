@@ -31,3 +31,5 @@ Reward_Item=[
 ]
 
 Reward_EXP=4800
+Task_PinPoint=[-0.079171,-0.201242,0.000000]
+Task_PinMap=[Streets of Tarkov,1]

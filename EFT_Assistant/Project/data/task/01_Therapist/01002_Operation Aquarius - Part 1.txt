@@ -36,3 +36,5 @@ Reward_Item=[
 ]
 
 Reward_EXP=3300
+Task_PinPoint=[0.089600,0.336914,0.000000]
+Task_PinMap=[Customs,1]

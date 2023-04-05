@@ -45,7 +45,7 @@ namespace FPS_n2 {
 			mouse_moveX = Input->GetMouseX();							//ドラッグ前のマウス座標格納
 			mouse_moveY = Input->GetMouseY();
 
-			m_EditTaskID = InvalidID;
+			//m_EditTaskID = InvalidID;
 		}
 		void LateExecute_Sub(int *, int *, float*) noexcept override {
 			auto* Input = InputControl::Instance();
@@ -121,6 +121,8 @@ namespace FPS_n2 {
 									if ((-0.5f <= Xper && Xper <= 0.5f) && (-0.5f <= Yper && Yper <= 0.5f)) {
 										Pins.resize(Pins.size() + 1);
 										Pins.back().m_Point.Set(Xper, Yper, 0.f);
+										Pins.back().m_MapID = MapPtr->GetID();
+										Pins.back().m_MapSel = m_WatchMapSelect;
 									}
 								}
 							}
@@ -130,16 +132,20 @@ namespace FPS_n2 {
 						auto& Pins = TaskPtr->SetTaskWorkData().SetPin();
 						for (int loop = 0; loop < Pins.size(); loop++) {
 							const auto& p = Pins[loop];
-							float Xs = XSize * p.m_Point.x();
-							float Ys = YSize * p.m_Point.y();
-							int xp = posx + (int)(std::cos(m_Rad)*Xs - std::sin(m_Rad)*Ys);
-							int yp = posy + (int)(std::cos(m_Rad)*Ys + std::sin(m_Rad)*Xs);
-							DrawControl::Instance()->SetDrawCircle(DrawLayer::Front, xp, yp, 6, Black);
-							DrawControl::Instance()->SetDrawCircle(DrawLayer::Front, xp, yp, 5, Green);
-							if (Input->GetRightClick().trigger()) {
-								if (std::hypotf((float)(Input->GetMouseX() - xp), (float)(Input->GetMouseY() - yp)) < 5.f) {
-									Pins.erase(Pins.begin() + loop);
-									loop--;
+							if (p.m_MapID == MapPtr->GetID() && p.m_MapSel == m_WatchMapSelect) {
+								float Xs = XSize * p.m_Point.x();
+								float Ys = YSize * p.m_Point.y();
+								int xp = posx + (int)(std::cos(m_Rad)*Xs - std::sin(m_Rad)*Ys);
+								int yp = posy + (int)(std::cos(m_Rad)*Ys + std::sin(m_Rad)*Xs);
+								DrawControl::Instance()->SetDrawCircle(DrawLayer::Front, xp, yp, 6, Black);
+								DrawControl::Instance()->SetDrawCircle(DrawLayer::Front, xp, yp, 5, Green);
+								if (Input->GetRightClick().trigger()) {
+									if (Input->GetShiftKey().press()) {
+										if (std::hypotf((float)(Input->GetMouseX() - xp), (float)(Input->GetMouseY() - yp)) < 5.f) {
+											Pins.erase(Pins.begin() + loop);
+											loop--;
+										}
+									}
 								}
 							}
 						}
@@ -149,9 +155,9 @@ namespace FPS_n2 {
 					int xp = y_r(960);
 					int yp = y_r(1080);
 					int ys = LineHeight;
-					WindowSystem::SetMsg(xp, yp - ys * 3, xp, yp - ys * 2, ys, STRX_MID, Red, Black, "Shift+左クリックClick　ピン打ち");
-					WindowSystem::SetMsg(xp, yp - ys * 2, xp, yp - ys * 1, ys, STRX_MID, Red, Black, "右クリックClick　ピン消し");
-					WindowSystem::SetMsg(xp, yp - ys * 1, xp, yp - ys * 0, ys, STRX_MID, Red, Black, "タスク[%s]を編集中", TaskPtr->GetName());
+					WindowSystem::SetMsg(xp, yp - ys * 3, xp, yp - ys * 2, ys, STRX_MID, Green, Black, "Shift+左クリックClick　ピン打ち");
+					WindowSystem::SetMsg(xp, yp - ys * 2, xp, yp - ys * 1, ys, STRX_MID, Green, Black, "Shift+右クリックClick　ピン消し");
+					WindowSystem::SetMsg(xp, yp - ys * 1, xp, yp - ys * 0, ys, STRX_MID, Green, Black, "タスク[%s]を編集中", TaskPtr->GetName().c_str());
 				}
 			}
 			if (ComPass.GetGraph()) {

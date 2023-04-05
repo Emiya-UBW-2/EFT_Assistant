@@ -38,3 +38,7 @@ Reward_Item=[
 ]
 
 Reward_EXP=5900
+Task_PinPoint=[-0.142578,-0.192383,0.000000]
+Task_PinMap=[Shoreline,1]
+Task_PinPoint=[0.374512,-0.421875,0.000000]
+Task_PinMap=[Shoreline,1]

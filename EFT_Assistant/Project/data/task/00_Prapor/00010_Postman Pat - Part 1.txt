@@ -41,3 +41,5 @@ Reward_Item=[
 ]
 
 Reward_EXP=5900
+Task_PinPoint=[-0.108310,0.187322,0.000000]
+Task_PinMap=[Factory,1]
