@@ -47,3 +47,9 @@ Reward_Item=[
 ]
 
 Reward_EXP=13800
+Task_PinPoint=[-0.329733,0.375115,0.000000]
+Task_PinMap=[Interchange,1]
+Task_PinPoint=[-0.345459,0.338379,0.000000]
+Task_PinMap=[Interchange,1]
+Task_PinPoint=[-0.372070,0.488281,0.000000]
+Task_PinMap=[Interchange,1]

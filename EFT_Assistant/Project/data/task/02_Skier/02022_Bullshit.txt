@@ -55,3 +55,7 @@ Task_Kill=[
 ]
 
 Reward_EXP=29900
+Task_PinPoint=[0.403971,0.352865,0.000000]
+Task_PinMap=[Customs,1]
+Task_PinPoint=[-0.041775,0.299479,0.000000]
+Task_PinMap=[Customs,1]

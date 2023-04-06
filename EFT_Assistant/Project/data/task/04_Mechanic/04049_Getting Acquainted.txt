@@ -48,3 +48,15 @@ Task_Else=TraderStanding‚Ìè‡’l: <= 0
 
 Reward_Rep=Mechanic-0.100000
 Reward_EXP=32000
+Task_PinPoint=[-0.177490,-0.077637,0.000000]
+Task_PinMap=[Lighthouse,1]
+Task_PinPoint=[-0.179688,-0.111328,0.000000]
+Task_PinMap=[Lighthouse,1]
+Task_PinPoint=[-0.190918,-0.031250,0.000000]
+Task_PinMap=[Lighthouse,1]
+Task_PinPoint=[-0.195068,-0.014648,0.000000]
+Task_PinMap=[Lighthouse,1]
+Task_PinPoint=[-0.225342,0.011719,0.000000]
+Task_PinMap=[Lighthouse,1]
+Task_PinPoint=[-0.267334,-0.111816,0.000000]
+Task_PinMap=[Lighthouse,1]

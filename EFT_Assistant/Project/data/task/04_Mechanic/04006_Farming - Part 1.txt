@@ -42,3 +42,11 @@ Reward_Item=[
 ]
 
 Reward_EXP=6600
+Task_PinPoint=[0.085798,-0.239258,0.000000]
+Task_PinMap=[Factory,1]
+Task_PinPoint=[-0.017787,-0.283901,0.000000]
+Task_PinMap=[Factory,1]
+Task_PinPoint=[0.086263,-0.239258,0.000000]
+Task_PinMap=[Night Factory,1]
+Task_PinPoint=[-0.017904,-0.284831,0.000000]
+Task_PinMap=[Night Factory,1]

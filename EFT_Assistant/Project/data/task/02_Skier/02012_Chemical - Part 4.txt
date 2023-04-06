@@ -60,3 +60,5 @@ Task_Else=ŠY“–ƒ^ƒXƒNó‘Ô:complete
 
 Reward_Rep=Skier-0.250000
 Reward_EXP=6500
+Task_PinPoint=[-0.313585,-0.115017,0.000000]
+Task_PinMap=[Customs,1]

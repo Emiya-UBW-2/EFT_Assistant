@@ -33,3 +33,5 @@ Reward_Rep=Mechanic+0.010000
 Reward_Rep=Lightkeeper+0.010000
 
 Reward_EXP=31300
+Task_PinPoint=[0.287598,0.144531,0.000000]
+Task_PinMap=[Lighthouse,1]

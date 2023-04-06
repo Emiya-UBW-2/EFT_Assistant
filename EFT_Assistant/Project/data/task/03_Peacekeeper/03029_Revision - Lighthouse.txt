@@ -46,3 +46,11 @@ Reward_Item=[
 ]
 
 Reward_EXP=7800
+Task_PinPoint=[-0.272686,-0.045823,0.000000]
+Task_PinMap=[Lighthouse,1]
+Task_PinPoint=[-0.181040,0.024790,0.000000]
+Task_PinMap=[Lighthouse,1]
+Task_PinPoint=[0.284831,0.074056,0.000000]
+Task_PinMap=[Lighthouse,1]
+Task_PinPoint=[0.054285,-0.027574,0.000000]
+Task_PinMap=[Lighthouse,1]

@@ -8,22 +8,26 @@ ChildParts=[
 	Schmidt & Bender PM II 3-12x50 34mm riflescope,
 	Schmidt & Bender PM II 5-25x56 34mm riflescope
 ]
+Conflict=[
+	AR-15 Colt A2 rear sight,
+	AR-15 rear sight carry handle
+]
 Recoil=0.000000
 Ergonomics=-1.000000
 Information_Eng=An universal 34mm scope base mount for installation on Picatinny rails, allows installation of various optics. Manufactured by Accuracy International.
 basePrice=8200
 width=2
 height=1
-avg24hPrice=16346
-low24hPrice=11800
-lastOfferCount=12
+avg24hPrice=18311
+low24hPrice=12000
+lastOfferCount=11
 Sell_Prapor=4100
 Sell_Fence=3280
 Sell_Skier=4018
-Sell_Peacekeeper=32
+Sell_Peacekeeper=31
 Sell_Mechanic=4592
 Sell_Jaeger=4920
-Sell_Flea Market=14000
+Sell_Flea Market=13999
 weight=0.230000
 fleaMarketFee=738
 propertiestype=ItemPropertiesWeaponMod
