@@ -24,6 +24,7 @@ namespace FPS_n2 {
 		Graphs		ComPass;
 		float		m_ComPassRad{ 0.f };
 
+		TraderID	m_EditTraderID{ InvalidID };
 		TaskID		m_EditTaskID{ InvalidID };
 	private:
 		void Init_Sub(int *posx, int *posy, float* Scale) noexcept override {
@@ -45,6 +46,7 @@ namespace FPS_n2 {
 			mouse_moveX = Input->GetMouseX();							//ドラッグ前のマウス座標格納
 			mouse_moveY = Input->GetMouseY();
 
+			m_EditTraderID = InvalidID;
 			//m_EditTaskID = InvalidID;
 		}
 		void LateExecute_Sub(int *, int *, float*) noexcept override {
@@ -114,6 +116,29 @@ namespace FPS_n2 {
 						if (Input->GetSpaceKey().trigger()) {
 							m_EditTaskID++;
 						}
+
+						//
+						{
+							int xp = y_r(10);
+							int yp = LineHeight + y_r(20);
+							MakeList<TraderList>(xp, yp, TraderData::Instance()->GetList(), "", (int*)&m_EditTraderID, true, false, false, [&](const auto*) { return true; });
+						}
+						//
+						{
+							int xp = y_r(10 + 400 + 10);
+							int yp = LineHeight + y_r(20);
+							MakeList<TaskList>(xp, yp, TaskData::Instance()->GetList(), "", (int*)&m_EditTaskID, true, false, false, [&](const auto* tgt) {
+								if (tgt->GetTrader() != m_EditTraderID && m_EditTraderID != InvalidID) {
+									return false;
+								}
+
+								for (const auto& m : tgt->GetTaskWorkData().GetMap()) {
+									if (m == m_MapSelect) { return true; }
+								}
+								return false;
+							});
+						}
+
 						if (TaskPtr) {
 							auto& Pins = TaskPtr->SetTaskWorkData().SetPin();
 							if (Input->GetLeftClick().trigger()) {
