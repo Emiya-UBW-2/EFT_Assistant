@@ -120,14 +120,8 @@ namespace FPS_n2 {
 						//
 						{
 							int xp = y_r(10);
-							int yp = LineHeight + y_r(20);
-							MakeList<TraderList>(xp, yp, TraderData::Instance()->GetList(), "", (int*)&m_EditTraderID, true, false, false, [&](const auto*) { return true; });
-						}
-						//
-						{
-							int xp = y_r(10 + 400 + 10);
-							int yp = LineHeight + y_r(20);
-							MakeList<TaskList>(xp, yp, TaskData::Instance()->GetList(), "", (int*)&m_EditTaskID, true, false, false, [&](const auto* tgt) {
+							int yp = LineHeight + y_r(20)+ LineHeight;
+							MakeList<TaskList>(xp, yp, TaskData::Instance()->GetList(), "Task", (int*)&m_EditTaskID, true, false, false, [&](const auto* tgt) {
 								if (tgt->GetTrader() != m_EditTraderID && m_EditTraderID != InvalidID) {
 									return false;
 								}
@@ -195,6 +189,12 @@ namespace FPS_n2 {
 				int xp = y_r(1920 - 400 - 10);
 				int yp = LineHeight + y_r(10);
 				MakeList<MapList>(xp, yp, MapData::Instance()->GetList(), "Map", (int*)&m_SelectBuffer, true, false, false, [&](const auto *) { return true; });
+			}
+			//
+			{
+				int xp = y_r(1920 - 400 - 10);
+				int yp = LineHeight + y_r(540);
+				MakeList<TraderList>(xp, yp, TraderData::Instance()->GetList(), "Task Trader Filter", (int*)&m_EditTraderID, true, false, false, [&](const auto*) { return true; });
 			}
 			//
 			if (m_MapSelect != InvalidID) {

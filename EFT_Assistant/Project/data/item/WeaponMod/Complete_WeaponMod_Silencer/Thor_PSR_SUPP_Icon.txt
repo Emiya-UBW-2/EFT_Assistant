@@ -3,7 +3,7 @@ Name=AWC Thor PSR XL multi-caliber sound suppressor
 ShortName=Thor PSR
 Itemtype=Silencer
 Conflict=[
-	AR-15 SAI JailBrake 5.56x45 muzzle device
+	AR-15 SAI JailBrake 5.56x45 muzzle device,
 ]
 Recoil=-13.000000
 Ergonomics=-28.000000
@@ -11,15 +11,15 @@ Information_Eng=The Thor PSR XL sound suppressor is designed for use with 7.62x5
 basePrice=60000
 width=2
 height=1
-avg24hPrice=68828
-low24hPrice=58888
-lastOfferCount=24
+avg24hPrice=67434
+low24hPrice=48900
+lastOfferCount=28
 Sell_Prapor=30000
 Sell_Fence=24000
 Sell_Skier=29400
-Sell_Peacekeeper=227
+Sell_Peacekeeper=225
 Sell_Mechanic=33600
-Sell_Flea Market=65420
+Sell_Flea Market=65000
 weight=0.737000
-fleaMarketFee=3751
+fleaMarketFee=3738
 propertiestype=ItemPropertiesWeaponMod

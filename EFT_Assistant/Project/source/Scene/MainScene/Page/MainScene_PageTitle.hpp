@@ -40,8 +40,11 @@ namespace FPS_n2 {
 			int XPos = y_r(1920) - Xsize - y_r(10);
 			int YPos = LineHeight + y_r(10);
 
+			auto NowTime = (GetNowCount() - ttt);
+			auto TotalTime = 1000 * 60 * 5;
+
 			if (ttt != -1) {
-				if ((GetNowCount() - ttt) > 1000 * 60 * 5) {
+				if (NowTime > TotalTime) {
 					ttt = -1;
 				}
 			}
@@ -56,7 +59,10 @@ namespace FPS_n2 {
 			};
 			WindowSystem::SetMsg(XPos, YPos, XPos + Xsize, YPos + Ysize, Ysize, STRX_MID, White, Black, "データをAPIから更新");
 			YPos += Ysize + y_r(5);
-			if (WindowSystem::ClickCheckBox(XPos, YPos, XPos + Xsize, YPos + Ysize, false, (ttt == -1), Gray25, "アイテム更新")) {
+
+			auto Color = (ttt == -1) ? Gray25 : Gray50;
+
+			if (WindowSystem::ClickCheckBox(XPos, YPos, XPos + Xsize, YPos + Ysize, false, (ttt == -1), Color, "アイテム更新")) {
 				int count = 0;
 				//ItemData::Instance()->InitDatabyJson();
 				while (true) {
@@ -75,7 +81,7 @@ namespace FPS_n2 {
 				TimeCard();
 			}
 			YPos += Ysize + y_r(5);
-			if (WindowSystem::ClickCheckBox(XPos, YPos, XPos + Xsize, YPos + Ysize, false, (ttt == -1), Gray25, "タスク更新")) {
+			if (WindowSystem::ClickCheckBox(XPos, YPos, XPos + Xsize, YPos + Ysize, false, (ttt == -1), Color, "タスク更新")) {
 				int count = 0;
 				TaskData::Instance()->InitDatabyJson();
 				while (true) {
@@ -92,6 +98,10 @@ namespace FPS_n2 {
 				}
 				TaskData::Instance()->CheckThroughJson();
 				TimeCard();
+			}
+			YPos += Ysize + y_r(5);
+			if (!(ttt == -1)) {
+				WindowSystem::SetMsg(XPos, YPos, XPos + Xsize, YPos + Ysize, Ysize, STRX_MID, White, Black, "更新可能まで %2d:%02d", (TotalTime - NowTime) / 1000 / 60, ((TotalTime - NowTime) / 1000)%60);
 			}
 		}
 		void Dispose_Sub(void) noexcept override {
