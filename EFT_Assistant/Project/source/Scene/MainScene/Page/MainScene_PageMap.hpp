@@ -21,6 +21,8 @@ namespace FPS_n2 {
 		int mouse_moveX{ 0 };
 		int mouse_moveY{ 0 };
 
+		VECTOR_ref m_BaseLength;
+
 		Graphs		ComPass;
 		float		m_ComPassRad{ 0.f };
 
@@ -183,7 +185,7 @@ namespace FPS_n2 {
 				DrawControl::Instance()->SetDrawRotaGraph(DrawLayer::Normal, ComPass.GetGraph(), y_r(100), y_r(1080 - 100), 1.f, m_ComPassRad, true);
 			}
 		}
-		void DrawFront_Sub(int, int, float) noexcept override {
+		void DrawFront_Sub(int posx, int posy, float Scale) noexcept override {
 			//
 			{
 				int xp = y_r(1920 - 400 - 10);
@@ -214,6 +216,59 @@ namespace FPS_n2 {
 				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(400), yp + LineHeight, false, true, Gray25, "Reset Degree")) {
 					m_Rad = 0.f;
 					m_Rad_Goal = 0.f;
+				}
+			}
+			auto* Input = InputControl::Instance();
+			float Xper = ((float)Input->GetMouseX() - (float)posx);
+			float Yper = ((float)Input->GetMouseY() - (float)posy);
+			float Len = std::hypotf(Xper, Yper);
+			float Rad = std::atan2f(Xper, Yper);
+			if (m_MapSelect != InvalidID) {
+				auto* MapPtr = MapData::Instance()->FindPtr(m_MapSelect);
+				float XSize = (float)MapPtr->GetMapXSize((int)m_WatchMapSelect)*Scale / 2.f;
+				float YSize = (float)MapPtr->GetMapYSize((int)m_WatchMapSelect)*Scale / 2.f;
+
+				Xper = Len * std::sin(Rad + m_Rad);
+				Yper = Len * std::cos(Rad + m_Rad);
+
+				Xper = Xper / XSize;
+				Yper = Yper / YSize;
+
+				if (Input->GetKey('v').press()) {
+					if (Input->GetKey('v').trigger()) {
+						m_BaseLength.Set(Xper, Yper, 0.f);
+					}
+					{
+						float Xs1 = XSize * m_BaseLength.x();
+						float Ys1 = YSize * m_BaseLength.y();
+						int xp1 = posx + (int)(std::cos(m_Rad)*Xs1 - std::sin(m_Rad)*Ys1);
+						int yp1 = posy + (int)(std::cos(m_Rad)*Ys1 + std::sin(m_Rad)*Xs1);
+						float Xs2 = XSize * Xper;
+						float Ys2 = YSize * Yper;
+						int xp2 = posx + (int)(std::cos(m_Rad)*Xs2 - std::sin(m_Rad)*Ys2);
+						int yp2 = posy + (int)(std::cos(m_Rad)*Ys2 + std::sin(m_Rad)*Xs2);
+
+						float LenF = std::hypotf(xp1 - xp2, yp1 - yp2);
+						DrawControl::Instance()->SetDrawCircle(DrawLayer::Normal, xp1, yp1, (int)LenF, Black,false,2);
+
+
+						DrawControl::Instance()->SetDrawCircle(DrawLayer::Front, xp1, yp1, 6, Black);
+						DrawControl::Instance()->SetDrawLine(DrawLayer::Front, xp1, yp1, xp2, yp2, Black, 3);
+						DrawControl::Instance()->SetDrawCircle(DrawLayer::Front, xp2, yp2, 6, Black);
+
+						DrawControl::Instance()->SetDrawCircle(DrawLayer::Front, xp1, yp1, 5, Blue);
+						DrawControl::Instance()->SetDrawLine(DrawLayer::Front, xp1, yp1, xp2, yp2, Blue, 2);
+						DrawControl::Instance()->SetDrawCircle(DrawLayer::Front, xp2, yp2, 5, Blue);
+
+						int Len = (int)(LenF / (Scale / 2.f) * MapPtr->GeSizetoMeter(m_WatchMapSelect));
+						int LenPer = 5;
+
+						DrawControl::Instance()->SetString(DrawLayer::Front,
+							FontPool::FontType::Nomal_Edge, LineHeight,
+							STRX_RIGHT, STRY_BOTTOM, InputControl::Instance()->GetMouseX(), InputControl::Instance()->GetMouseY(), RedPop, Black,
+							"%dÅ`%dm", LenPer * (Len / LenPer), LenPer * (Len / LenPer + 1)
+						);
+					}
 				}
 			}
 			//

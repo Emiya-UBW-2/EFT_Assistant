@@ -3,28 +3,36 @@
 
 namespace FPS_n2 {
 	typedef int MapID;
+	struct MapGraphParam {
+		Graphs m_Graph;
+		int m_Degree{ 0 };
+		float m_SizetoMeter{ 1.f };
+	};
 	class MapList : public ListParent<MapID> {
-		std::vector<std::pair<Graphs, int>>		m_MapGraph;
+		std::vector<MapGraphParam>		m_MapGraph;
 	private:
 		//追加設定
 		void			Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>&) noexcept override {
 			if (LEFT == "InGamePath") {
 				m_MapGraph.resize(m_MapGraph.size() + 1);
-				m_MapGraph.back().first.SetPath(RIGHT.c_str());
+				m_MapGraph.back().m_Graph.SetPath(RIGHT.c_str());
 			}
-			if (LEFT == "2DPath") {
+			else if (LEFT == "2DPath") {
 				m_MapGraph.resize(m_MapGraph.size() + 1);
-				m_MapGraph.back().first.SetPath(RIGHT.c_str());
+				m_MapGraph.back().m_Graph.SetPath(RIGHT.c_str());
 			}
-			if (LEFT == "ElsePath") {
+			else if (LEFT == "ElsePath") {
 				if (m_MapGraph.size() < 2) {
 					DataErrorLog::Instance()->AddLog(("必要なマップ画像を設定してません:" + GetName()).c_str());
 				}
 				m_MapGraph.resize(m_MapGraph.size() + 1);
-				m_MapGraph.back().first.SetPath(RIGHT.c_str());
+				m_MapGraph.back().m_Graph.SetPath(RIGHT.c_str());
 			}
-			if (LEFT == "NorthDegree") {
-				m_MapGraph.back().second = std::stoi(RIGHT);
+			else if (LEFT == "NorthDegree") {
+				m_MapGraph.back().m_Degree = std::stoi(RIGHT);
+			}
+			else if (LEFT == "SizetoMeter") {
+				m_MapGraph.back().m_SizetoMeter = std::stof(RIGHT);
 			}
 		}
 		void	Load_Sub() noexcept override {}
@@ -32,24 +40,25 @@ namespace FPS_n2 {
 	public:
 		void	LoadMapPics() noexcept {
 			for (auto& m : m_MapGraph) {
-				m.first.LoadByPath(true);
+				m.m_Graph.LoadByPath(true);
 			}
 		}
 		void	WhenAfterLoadMapPics() noexcept {
 			for (auto& m : m_MapGraph) {
-				m.first.WhenAfterLoad();
+				m.m_Graph.WhenAfterLoad();
 			}
 		}
 		void	DisposeMapPics() noexcept {
 			for (auto& m : m_MapGraph) {
-				m.first.DisposeGraph();
+				m.m_Graph.DisposeGraph();
 			}
 		}
 		const auto	GetMapPicNum() const noexcept { return m_MapGraph.size(); }
-		const auto*	GetMapGraph(int ID) const noexcept { return m_MapGraph.at(ID).first.GetGraph(); }
-		const auto	GetMapXSize(int ID) const noexcept { return m_MapGraph.at(ID).first.GetXSize(); }
-		const auto	GetMapYSize(int ID) const noexcept { return m_MapGraph.at(ID).first.GetYSize(); }
-		const auto	GetMapNorthRad(int ID) const noexcept { return deg2rad(m_MapGraph.at(ID).second); }
+		const auto*	GetMapGraph(int ID) const noexcept { return m_MapGraph.at(ID).m_Graph.GetGraph(); }
+		const auto	GetMapXSize(int ID) const noexcept { return m_MapGraph.at(ID).m_Graph.GetXSize(); }
+		const auto	GetMapYSize(int ID) const noexcept { return m_MapGraph.at(ID).m_Graph.GetYSize(); }
+		const auto	GetMapNorthRad(int ID) const noexcept { return deg2rad(m_MapGraph.at(ID).m_Degree); }
+		const auto&	GeSizetoMeter(int ID) const noexcept { return m_MapGraph.at(ID).m_SizetoMeter; }
 	};
 	class MapData : public SingletonBase<MapData>, public DataParent<MapID, MapList> {
 	private:

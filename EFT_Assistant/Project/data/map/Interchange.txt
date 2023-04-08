@@ -4,3 +4,4 @@ InGamePath=data/InGameMapPic/OfficialInterchangePaperMap.jpg
 NorthDegree=180
 2DPath=data/2DMaspPic/Interchange2DMapLorathor.jpg
 NorthDegree=0
+SizetoMeter=0.2719513

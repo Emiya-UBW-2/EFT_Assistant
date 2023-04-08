@@ -5,3 +5,4 @@ InGamePath=
 NorthDegree=0
 2DPath=data/2DMaspPic/StreetsOfTarkov2DMapByJindouz.jpg
 NorthDegree=0
+SizetoMeter=0.1824891

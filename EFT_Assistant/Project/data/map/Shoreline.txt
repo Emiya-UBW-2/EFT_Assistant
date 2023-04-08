@@ -6,3 +6,4 @@ NorthDegree=180
 NorthDegree=0
 ElsePath=data/InGameMapPic/Map_Shoreline_Resort.jpg
 NorthDegree=180
+SizetoMeter=1.0271727

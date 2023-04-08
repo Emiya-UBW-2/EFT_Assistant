@@ -4,6 +4,7 @@ InGamePath=data/InGameMapPic/Reserve_Map_Translated.jpg
 NorthDegree=165
 2DPath=data/2DMaspPic/JindouzReserve_v1_2dmap.jpg
 NorthDegree=345
+SizetoMeter=0.26488846
 ElsePath=data/2DMaspPic/ReserveExpandedUnderground.jpg
 NorthDegree=165
 ElsePath=data/2DMaspPic/Reserve_underground_mapping2.jpg

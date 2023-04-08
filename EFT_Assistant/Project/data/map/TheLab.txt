@@ -5,3 +5,4 @@ InGamePath=data/InGameMapPic/TheLabMapFull.jpg
 NorthDegree=0
 2DPath=data/2DMaspPic/LabsMapNehalemX.jpg
 NorthDegree=0
+SizetoMeter=0.1243904

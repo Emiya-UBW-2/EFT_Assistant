@@ -4,5 +4,6 @@ InGamePath=data/InGameMapPic/Customs.jpg
 NorthDegree=180
 2DPath=data/2DMaspPic/CustomsLargeExpansionGloryMonki.jpg
 NorthDegree=0
+SizetoMeter=0.263231
 ElsePath=data/2DMaspPic/DormRoomsMap.jpg
 NorthDegree=0
