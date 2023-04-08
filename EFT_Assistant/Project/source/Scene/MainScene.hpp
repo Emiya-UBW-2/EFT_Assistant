@@ -256,7 +256,7 @@ namespace FPS_n2 {
 					}
 
 					WindowSystem::SetMsg(0, 0, y_r(1920), LineHeight, LineHeight, STRX_MID, White, Black, "EFT Assistant");
-					WindowSystem::SetMsg(y_r(1280), LineHeight * 1 / 10, y_r(1280), LineHeight, LineHeight * 8 / 10, STRX_LEFT, White, Black, "ver %d.%d.%d", 0, 2, 2);
+					WindowSystem::SetMsg(y_r(1280), LineHeight * 1 / 10, y_r(1280), LineHeight, LineHeight * 8 / 10, STRX_LEFT, White, Black, "ver %d.%d.%d", 0, 2, 3);
 
 					WindowSystem::SetMsg(y_r(960), LineHeight + LineHeight * 1 / 10, y_r(960), LineHeight + LineHeight, LineHeight * 8 / 10, STRX_MID, White, Black, "ÅIXV:%s", PlayerData::Instance()->GetLastDataReceive().c_str());
 
