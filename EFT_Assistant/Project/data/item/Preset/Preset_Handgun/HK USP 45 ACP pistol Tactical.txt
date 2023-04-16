@@ -14,6 +14,7 @@ Sell_Fence=9900
 Sell_Skier=12127
 Sell_Peacekeeper=93
 Sell_Mechanic=13860
+Sell_Jaeger=2640
 weight=0.979000
 fleaMarketFee=1485
 propertiestype=ItemPropertiesPreset
