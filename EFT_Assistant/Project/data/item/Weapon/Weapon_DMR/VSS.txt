@@ -44,22 +44,22 @@ ChildParts=[
 	Zenit B-13V "Klassika" dovetail rail platform,
 	SAG Bit low profile dovetail sidemount
 ]
-Recoil=115.000000
+Recoil=80.000000
 Ergonomics=43.000000
 Information_Eng=VSS (Vintovka Sniperskaya Specialnaya - "Special Sniper Rifle") is an integrally suppressed sniper rifle, designed in the 80s in the TsNIITochMash institute for the needs of special-purpose teams and task forces.
 basePrice=54336
 width=2
 height=1
-avg24hPrice=126978
-low24hPrice=40000
-lastOfferCount=22
+avg24hPrice=152113
+low24hPrice=76666
+lastOfferCount=30
 Sell_Prapor=27168
 Sell_Fence=21734
 Sell_Skier=26624
 Sell_Peacekeeper=202
 Sell_Mechanic=30428
 Sell_Jaeger=32601
-Sell_Flea Market=99999
+Sell_Flea Market=150000
 weight=0.920000
-fleaMarketFee=5303
+fleaMarketFee=8862
 propertiestype=ItemPropertiesWeapon

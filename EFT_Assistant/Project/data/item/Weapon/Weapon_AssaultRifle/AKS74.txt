@@ -94,21 +94,21 @@ ChildParts=[
 Conflict=[
 	Hera Arms CQR tactical foregrip,
 ]
-Recoil=141.000000
+Recoil=120.000000
 Ergonomics=31.000000
 Information_Eng=The AKS-74 (Avtomat Kalashnikova Skladnoy 74 - "Kalashnikov's Automatic rifle 74 with a foldable stock") 5.45x39mm assault rifle is a variant of AK-74 equipped with a side-folding metal shoulder stock, designed primarily for use with air assault infantry and developed alongside the basic AK-74. The AKS-74 stock is fabricated from stamped sheet metal struts, machine pressed into a "U" shape and assembled by punch fit and welding.
 basePrice=23660
 width=4
 height=1
-avg24hPrice=20695
-low24hPrice=16000
-lastOfferCount=12
+avg24hPrice=21180
+low24hPrice=17000
+lastOfferCount=27
 Sell_Prapor=11830
 Sell_Fence=9464
 Sell_Skier=11593
 Sell_Peacekeeper=88
 Sell_Mechanic=13249
-Sell_Flea Market=19242
+Sell_Flea Market=18500
 weight=1.992000
-fleaMarketFee=1296
+fleaMarketFee=1282
 propertiestype=ItemPropertiesWeapon

@@ -15,21 +15,21 @@ ChildParts=[
 ChildParts=[
 	PPSh-41 7.62x25 10.6 inch barrel
 ]
-Recoil=69.000000
+Recoil=59.000000
 Ergonomics=16.000000
 Information_Eng=The PPSh-41 (Pistolet-Pulemyot Shpagina - "Shpagin's submachine gun") is a Soviet submachine gun designed by Georgy Shpagin as a cheap, reliable, and simplified alternative to the PPD-40.
 basePrice=10251
 width=1
 height=1
-avg24hPrice=26749
-low24hPrice=23111
-lastOfferCount=1
+avg24hPrice=29705
+low24hPrice=18000
+lastOfferCount=5
 Sell_Prapor=5125
 Sell_Fence=4100
 Sell_Skier=5022
 Sell_Peacekeeper=38
 Sell_Mechanic=5740
-Sell_Flea Market=23111
+Sell_Flea Market=18000
 weight=1.010000
-fleaMarketFee=1276
+fleaMarketFee=950
 propertiestype=ItemPropertiesWeapon

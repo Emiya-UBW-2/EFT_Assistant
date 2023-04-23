@@ -21,22 +21,22 @@ ChildParts=[
 	Mossberg 590 Ghost Ring rear sight,
 	Mossberg 590A1 Tactical rail
 ]
-Recoil=550.000000
+Recoil=468.000000
 Ergonomics=48.000000
 Information_Eng=The Mossberg 500 Series is one of the most famous and widespread pump-action shotguns in the world. Protects your front lawn since 1961.
 basePrice=14402
 width=4
 height=1
-avg24hPrice=32697
-low24hPrice=22000
-lastOfferCount=10
+avg24hPrice=31542
+low24hPrice=20000
+lastOfferCount=14
 Sell_Prapor=7201
 Sell_Fence=5760
 Sell_Skier=7056
 Sell_Peacekeeper=54
 Sell_Mechanic=8065
 Sell_Jaeger=8641
-Sell_Flea Market=24444
+Sell_Flea Market=22222
 weight=1.100000
-fleaMarketFee=1288
+fleaMarketFee=1171
 propertiestype=ItemPropertiesWeapon

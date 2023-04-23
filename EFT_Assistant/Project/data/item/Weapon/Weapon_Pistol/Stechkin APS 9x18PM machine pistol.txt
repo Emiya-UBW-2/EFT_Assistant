@@ -18,21 +18,21 @@ ChildParts=[
 	APB rear sight,
 	APS rear sight
 ]
-Recoil=455.000000
+Recoil=387.000000
 Ergonomics=70.000000
 Information_Eng=The APS (Avtomatícheskiy Pistolét Stéchkina - "Stechkin Automatic Pistol", GAU Index - 56-A-126) is a Soviet machine pistol chambered in 9x18 PM, developed in the late 1940 by Igor Stechkin. APS is intended for arming officers who are directly involved in combat operations, as well as for soldiers and sergeants of some special units.
 basePrice=11600
 width=2
 height=1
-avg24hPrice=9982
-low24hPrice=7000
-lastOfferCount=6
+avg24hPrice=10091
+low24hPrice=4500
+lastOfferCount=9
 Sell_Prapor=5800
 Sell_Fence=4640
 Sell_Skier=5684
 Sell_Peacekeeper=43
 Sell_Mechanic=6496
-Sell_Flea Market=8000
+Sell_Flea Market=9500
 weight=0.860000
-fleaMarketFee=614
+fleaMarketFee=637
 propertiestype=ItemPropertiesWeapon

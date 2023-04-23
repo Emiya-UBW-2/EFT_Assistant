@@ -24,7 +24,7 @@ ChildParts=[
 	M14 A.R.M.S. #18 scope mount,
 	M14 Leapers UTG 4-Point Locking Deluxe mount
 ]
-Recoil=296.000000
+Recoil=252.000000
 Ergonomics=28.000000
 Information_Eng=M1A is a civilian version of the M14 rifle designed and manufactured by Springfield Armory, Inc. For the most part, it is identical to the M14. The most notable difference is the removal of the M14's fire selector switch, rendering the rifle permanently semi-automatic. The bayonet lug was also removed from the weapon.
 basePrice=30264

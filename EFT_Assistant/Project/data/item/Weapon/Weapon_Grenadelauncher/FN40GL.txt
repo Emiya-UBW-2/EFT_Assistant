@@ -86,7 +86,7 @@ ChildParts=[
 	Daniel Defense 25mm accessory ring mount,
 	Kiba Arms 25mm accessory ring mount
 ]
-Recoil=270.000000
+Recoil=230.000000
 Ergonomics=51.000000
 Information_Eng=A standalone buttstock assembly with an attached FN40GL Mk2 grenade launcher. It is designed to use the full variety of NATO standard 40mm grenades. Manufactured by Fabrique Nationale Herstal.
 basePrice=110000

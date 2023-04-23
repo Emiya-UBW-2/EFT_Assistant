@@ -61,21 +61,21 @@ ChildParts=[
 ChildParts=[
 	FN SCAR charging handle
 ]
-Recoil=143.000000
+Recoil=122.000000
 Ergonomics=45.000000
 Information_Eng=The FN SCAR-L (Special Operations Forces Combat Assault Rifle - Light) assault rifle chambered in 5.56x45 NATO rounds, was adopted by the US SOCOM as the Mk 16. Features a side-folding polymer stock and a free-floating, cold hammer-forged Mil-Spec barrel with hardchromed bore. Fully-ambidextrous operating controls instantly adapt the SCAR to any user or any shooting position. The receiver-integrated optical rail plus three accessory rails enable mounting of a wide variety of scopes, electronic sights, tactical lights and lasers. Manufactured by Fabrique Nationale Herstal.
 basePrice=17000
 width=1
 height=1
-avg24hPrice=56182
-low24hPrice=49999
-lastOfferCount=7
+avg24hPrice=55608
+low24hPrice=38000
+lastOfferCount=16
 Sell_Prapor=8500
 Sell_Fence=6800
 Sell_Skier=8330
 Sell_Peacekeeper=63
 Sell_Mechanic=9520
-Sell_Flea Market=52900
+Sell_Flea Market=52000
 weight=0.700000
-fleaMarketFee=3285
+fleaMarketFee=3205
 propertiestype=ItemPropertiesWeapon

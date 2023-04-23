@@ -13,21 +13,21 @@ ChildParts=[
 	SIG Sauer SRD9 9x19 sound suppressor,
 	SilencerCo Osprey 9 9x19 sound suppressor
 ]
-Recoil=480.000000
+Recoil=408.000000
 Ergonomics=80.000000
 Information_Eng=A semi-mythical Makarov pistol with an extended threaded barrel for equipping a sound suppressor. Some claim it was a limited production series manufactured in Bulgaria, whilst others insist on it being East German, or even a handcrafted upgrade. As for how it ended up in the Norvinsk region, no living soul could tell you now.
 basePrice=8517
 width=2
 height=1
-avg24hPrice=72566
-low24hPrice=32777
+avg24hPrice=101888
+low24hPrice=39999
 lastOfferCount=15
 Sell_Prapor=4258
 Sell_Fence=3406
 Sell_Skier=4173
 Sell_Peacekeeper=32
 Sell_Mechanic=4769
-Sell_Flea Market=52000
+Sell_Flea Market=82000
 weight=0.690000
-fleaMarketFee=4627
+fleaMarketFee=9666
 propertiestype=ItemPropertiesWeapon

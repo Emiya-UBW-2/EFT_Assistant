@@ -12,21 +12,21 @@ ChildParts=[
 	PP-91 "Kedr" 9x18PM 20-round magazine,
 	PP-91 "Kedr" 9x18PM 30-round magazine
 ]
-Recoil=58.000000
+Recoil=50.000000
 Ergonomics=65.000000
 Information_Eng=A rare silenced version of the PP-91 Kedr submachine gun, denominated as PP-91-01 Kedr-B.
 basePrice=20238
 width=3
 height=1
-avg24hPrice=43359
-low24hPrice=30000
+avg24hPrice=34013
+low24hPrice=26000
 lastOfferCount=2
 Sell_Prapor=10119
 Sell_Fence=8095
 Sell_Skier=9916
 Sell_Peacekeeper=75
 Sell_Mechanic=11333
-Sell_Flea Market=35000
+Sell_Flea Market=31420
 weight=1.330000
-fleaMarketFee=1845
+fleaMarketFee=1655
 propertiestype=ItemPropertiesWeapon

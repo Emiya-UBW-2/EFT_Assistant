@@ -90,7 +90,7 @@ ChildParts=[
 	AR-15 Colt A2 rear sight,
 	AR-15 rear sight carry handle
 ]
-Recoil=148.000000
+Recoil=126.000000
 Ergonomics=72.000000
 Information_Eng=The MDR 7.62x51 (.308) bullpup assault rifle, designed and manufactured by Desert Tech LLC. A modular multi-caliber weapon with a compact bullpup layout intended for use by police and military special forces. Barrel lengths and calibers can be changed by the end-user within minutes with a minimum amount of tools.
 basePrice=63230

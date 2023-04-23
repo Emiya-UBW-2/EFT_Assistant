@@ -25,21 +25,21 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser,
 	Olight Baldr Pro tactical flashlight with laser (Tan)
 ]
-Recoil=330.000000
+Recoil=281.000000
 Ergonomics=86.000000
 Information_Eng=FN Five-Seven, trademarked as the Five-seveN, is a semi-automatic pistol designed and manufactured by FN Herstal in Belgium. The pistol was developed in the early 1990s and features a cold hammer-forged barrel that is chrome-lined for extended service life. The polymer-framed Five-Seven offers single-action operation, low felt recoil, 20-round magazine capacity, and is equipped with an ambidextrous, forward-mounted manual safety, and an accessory rail that accepts tactical lights and lasers.
 basePrice=14238
 width=2
 height=1
-avg24hPrice=21956
-low24hPrice=14888
-lastOfferCount=13
+avg24hPrice=19949
+low24hPrice=16000
+lastOfferCount=27
 Sell_Prapor=7119
 Sell_Fence=5695
 Sell_Skier=6976
 Sell_Peacekeeper=53
 Sell_Mechanic=7973
-Sell_Flea Market=19000
+Sell_Flea Market=17999
 weight=0.230000
-fleaMarketFee=1019
+fleaMarketFee=978
 propertiestype=ItemPropertiesWeapon

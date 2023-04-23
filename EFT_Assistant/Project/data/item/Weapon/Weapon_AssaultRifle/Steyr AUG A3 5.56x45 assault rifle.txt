@@ -15,21 +15,21 @@ ChildParts=[
 	Steyr AUG A3 5.56x45 receiver,
 	Steyr AUG A1 STG77 1.5x optic sight
 ]
-Recoil=70.000000
+Recoil=60.000000
 Ergonomics=84.000000
 Information_Eng=Steyr AUG A3 is a 5.56x45 bullpup assault rifle, developed by the Austrian company Steyr-Daimler-Puch. AUG is known for good ergonomics, decent accuracy, low recoil and sufficient reliability. The rifle also stands out for its futuristic design. The A3 version features a bolt-catch button.
 basePrice=31000
 width=3
 height=2
-avg24hPrice=49389
-low24hPrice=41000
-lastOfferCount=8
+avg24hPrice=50635
+low24hPrice=35555
+lastOfferCount=34
 Sell_Prapor=15500
 Sell_Fence=12400
 Sell_Skier=15190
 Sell_Peacekeeper=115
 Sell_Mechanic=17360
-Sell_Flea Market=41111
+Sell_Flea Market=45999
 weight=1.510000
-fleaMarketFee=2209
+fleaMarketFee=2430
 propertiestype=ItemPropertiesWeapon

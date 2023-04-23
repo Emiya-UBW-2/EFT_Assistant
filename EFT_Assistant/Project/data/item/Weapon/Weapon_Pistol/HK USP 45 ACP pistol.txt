@@ -34,21 +34,21 @@ ChildParts=[
 	HK USP .45 ACP Match compensator,
 	HK USP rail adapter
 ]
-Recoil=482.000000
+Recoil=410.000000
 Ergonomics=82.000000
 Information_Eng=The HK USP (Universelle Selbstladepistole - "Universal Self-loading Pistol") pistol is a further replacement of the HK P7 series pistols. Internationally accepted as an accurate and ultra-reliable handgun. Using a modified Browning-type action with a special patented recoil reduction system, the USP recoil reduction system reduces recoil effects on pistol components and also lowers the recoil forces felt by the shooter. This particular variant is chambered in .45 ACP. Manufactured by Heckler & Koch.
 basePrice=9500
 width=2
 height=1
-avg24hPrice=16408
-low24hPrice=9099
-lastOfferCount=17
+avg24hPrice=16126
+low24hPrice=11111
+lastOfferCount=3
 Sell_Prapor=4750
 Sell_Fence=3800
 Sell_Skier=4655
 Sell_Peacekeeper=35
 Sell_Mechanic=5320
-Sell_Flea Market=16989
+Sell_Flea Market=13999
 weight=0.222000
-fleaMarketFee=898
+fleaMarketFee=740
 propertiestype=ItemPropertiesWeapon

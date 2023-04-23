@@ -72,21 +72,21 @@ ChildParts=[
 Conflict=[
 	Hera Arms CQR tactical foregrip,
 ]
-Recoil=121.000000
+Recoil=103.000000
 Ergonomics=44.000000
 Information_Eng=AKS-74U (Avtomat Kalashnikova Skladnoy 74 Ukorochenny - "Kalashnikov's Shortened Automatic rifle 74 with a foldable stock") is a shortened version of the AKS-74 assault rifle, developed in the early 80s for combat vehicle crews and airborne troops, also became very popular with law enforcement and special forces for its compact size.
 basePrice=13643
 width=3
 height=1
-avg24hPrice=28160
-low24hPrice=23000
-lastOfferCount=14
+avg24hPrice=28749
+low24hPrice=20000
+lastOfferCount=8
 Sell_Prapor=6821
 Sell_Fence=5457
 Sell_Skier=6685
 Sell_Peacekeeper=51
 Sell_Mechanic=7640
-Sell_Flea Market=23555
+Sell_Flea Market=24666
 weight=1.809000
-fleaMarketFee=1242
+fleaMarketFee=1305
 propertiestype=ItemPropertiesWeapon

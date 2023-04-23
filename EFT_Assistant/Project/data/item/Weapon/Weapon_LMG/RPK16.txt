@@ -58,21 +58,21 @@ ChildParts=[
 Conflict=[
 	Hera Arms CQR tactical foregrip,
 ]
-Recoil=131.000000
+Recoil=112.000000
 Ergonomics=45.000000
 Information_Eng=RPK-16 (Ruchnoy Pulemyot Kalashnikova 16 - "Kalashnikov's Hand-held machine gun 16) is the newest Russian light machine gun chambered in 5.45x39mm rounds. Some key features of this new weapon are the quickly detachable barrels, enhanced ergonomics, and weaver rails on the handguard and dust cover.
 basePrice=22360
 width=2
 height=1
-avg24hPrice=51293
-low24hPrice=40000
-lastOfferCount=7
+avg24hPrice=48440
+low24hPrice=39799
+lastOfferCount=11
 Sell_Prapor=11180
 Sell_Fence=8944
 Sell_Skier=10956
 Sell_Peacekeeper=83
 Sell_Mechanic=12521
-Sell_Flea Market=63887
+Sell_Flea Market=56000
 weight=1.500000
-fleaMarketFee=3826
+fleaMarketFee=3194
 propertiestype=ItemPropertiesWeapon

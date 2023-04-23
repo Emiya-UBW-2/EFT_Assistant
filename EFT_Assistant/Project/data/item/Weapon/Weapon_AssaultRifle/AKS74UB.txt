@@ -89,21 +89,21 @@ ChildParts=[
 Conflict=[
 	Hera Arms CQR tactical foregrip,
 ]
-Recoil=120.000000
+Recoil=102.000000
 Ergonomics=44.000000
 Information_Eng=A special version of the AKS-74U assault rifle, modification B (Besshumny - "Silenced") is issued with a dovetail scope mount, a sound suppressor device, and special sights designed for firing subsonic ammunition.
 basePrice=21746
 width=3
 height=1
-avg24hPrice=73084
-low24hPrice=60000
-lastOfferCount=9
+avg24hPrice=72508
+low24hPrice=36900
+lastOfferCount=12
 Sell_Prapor=10873
 Sell_Fence=8698
 Sell_Skier=10655
 Sell_Peacekeeper=81
 Sell_Mechanic=12177
-Sell_Flea Market=70996
+Sell_Flea Market=49800
 weight=1.850000
-fleaMarketFee=4505
+fleaMarketFee=2762
 propertiestype=ItemPropertiesWeapon

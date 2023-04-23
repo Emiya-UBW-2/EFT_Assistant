@@ -127,7 +127,7 @@ ChildParts=[
 	AK CSS knurled charging handle,
 	AK Zenit RP-1 charging handle
 ]
-Recoil=178.000000
+Recoil=152.000000
 Ergonomics=41.000000
 Information_Eng=Rifle Dynamics 704 assault rifle 7.62x39mm, an improved version of the AK system manufactured by Rifle Dynamics. The main difference from the standard AK: the design of the front part shifts the center of gravity closer to the receiver, which significantly improves the controllability of the weapon.
 basePrice=45000

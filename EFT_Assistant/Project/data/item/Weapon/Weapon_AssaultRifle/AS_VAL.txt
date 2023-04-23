@@ -48,21 +48,21 @@ ChildParts=[
 	BelOMO PSO-1M2 4x24 scope,
 	SVD SAG low profile sidemount
 ]
-Recoil=115.000000
+Recoil=80.000000
 Ergonomics=46.000000
 Information_Eng=AS VAL (Avtomat Specialniy VAL - "Special Automatic rifle VAL") is a silenced automatic rifle with an integral suppressor designed for special forces units. Developed in TsNIITochMash and based on the VSS Vintorez platform.
 basePrice=58147
 width=2
 height=1
-avg24hPrice=144875
-low24hPrice=99999
-lastOfferCount=35
+avg24hPrice=200120
+low24hPrice=160000
+lastOfferCount=26
 Sell_Prapor=29073
 Sell_Fence=23258
 Sell_Skier=28492
 Sell_Peacekeeper=216
 Sell_Mechanic=32562
-Sell_Flea Market=145000
+Sell_Flea Market=198888
 weight=0.920000
-fleaMarketFee=8257
+fleaMarketFee=12897
 propertiestype=ItemPropertiesWeapon

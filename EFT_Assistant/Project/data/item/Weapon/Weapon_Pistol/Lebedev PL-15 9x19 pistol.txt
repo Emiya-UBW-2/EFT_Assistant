@@ -22,21 +22,21 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser,
 	Olight Baldr Pro tactical flashlight with laser (Tan)
 ]
-Recoil=340.000000
+Recoil=289.000000
 Ergonomics=93.000000
 Information_Eng=A Russian self-loading pistol chambered in 9x19mm, developed by a team of designers from the Kalashnikov concern under the leadership of Dmitry Lebedev for the needs of Russian law enforcement agencies.
 basePrice=7100
 width=2
 height=1
-avg24hPrice=16708
+avg24hPrice=15998
 low24hPrice=11111
-lastOfferCount=12
+lastOfferCount=7
 Sell_Prapor=3550
 Sell_Fence=2840
 Sell_Skier=3479
 Sell_Peacekeeper=26
 Sell_Mechanic=3976
-Sell_Flea Market=11111
+Sell_Flea Market=12000
 weight=0.490000
-fleaMarketFee=585
+fleaMarketFee=632
 propertiestype=ItemPropertiesWeapon

@@ -134,21 +134,21 @@ ChildParts=[
 Conflict=[
 	Hera Arms CQR tactical foregrip,
 ]
-Recoil=188.000000
+Recoil=160.000000
 Ergonomics=26.000000
 Information_Eng=AKMN (Avtomat Kalashnikova Modernizirovanny Nochnoy - "Kalashnikov's Automatic Rifle Modernised Night") is a small arms system consisting of a modified AKM automatic rifle with a dovetail mount for installation of the NSP family night vision scopes — NSP-2/3/3A, NSPU, NSPU-M.
 basePrice=34003
 width=4
 height=1
-avg24hPrice=54250
-low24hPrice=43333
-lastOfferCount=14
+avg24hPrice=56329
+low24hPrice=44555
+lastOfferCount=7
 Sell_Prapor=17001
 Sell_Fence=13601
 Sell_Skier=16661
 Sell_Peacekeeper=126
 Sell_Mechanic=19041
-Sell_Flea Market=46000
+Sell_Flea Market=50000
 weight=2.152000
-fleaMarketFee=2461
+fleaMarketFee=2643
 propertiestype=ItemPropertiesWeapon

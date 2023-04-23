@@ -22,22 +22,22 @@ ChildParts=[
 	Mosin Rifle 7.62x54R sawn-off 200mm barrel,
 	Mosin Rifle 7.62x54R 730mm regular barrel
 ]
-Recoil=338.000000
+Recoil=288.000000
 Ergonomics=17.000000
 Information_Eng=Mosin–Nagant is one of the most famous russian rifles, which was commonly used by Russian soldiers during WW2. Developed from 1882 to 1891, it was used by the armed forces of the Russian Empire, the Soviet Union and various other nations. It is one of the most mass-produced military bolt-action rifles in history with over 37 million units having been made since 1891. In spite of its age, it has been used in various conflicts around the world up to the present day.
 basePrice=11500
 width=1
 height=1
-avg24hPrice=38285
-low24hPrice=26399
-lastOfferCount=3
+avg24hPrice=37137
+low24hPrice=25000
+lastOfferCount=8
 Sell_Prapor=5750
 Sell_Fence=4600
 Sell_Skier=5635
 Sell_Peacekeeper=43
 Sell_Mechanic=6440
 Sell_Jaeger=6900
-Sell_Flea Market=30000
+Sell_Flea Market=34000
 weight=0.760000
-fleaMarketFee=1735
+fleaMarketFee=2065
 propertiestype=ItemPropertiesWeapon

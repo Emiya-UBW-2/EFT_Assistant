@@ -14,21 +14,21 @@ ChildParts=[
 ChildParts=[
 	MTs-255-12 beechwood forestock
 ]
-Recoil=520.000000
+Recoil=442.000000
 Ergonomics=50.000000
 Information_Eng=MTs-255-12 is a unique for Russian market 12 gauge revolver shotgun.
 basePrice=9600
 width=2
 height=1
-avg24hPrice=25044
-low24hPrice=18420
+avg24hPrice=20886
+low24hPrice=16500
 lastOfferCount=2
 Sell_Prapor=4800
 Sell_Fence=3840
 Sell_Skier=4704
 Sell_Peacekeeper=36
 Sell_Mechanic=5376
-Sell_Flea Market=18420
+Sell_Flea Market=20000
 weight=1.100000
-fleaMarketFee=982
+fleaMarketFee=1083
 propertiestype=ItemPropertiesWeapon

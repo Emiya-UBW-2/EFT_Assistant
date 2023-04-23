@@ -53,21 +53,21 @@ ChildParts=[
 	MPX double latch charging handle,
 	MPX single latch charging handle
 ]
-Recoil=60.000000
+Recoil=51.000000
 Ergonomics=40.000000
 Information_Eng=The SIG Sauer MPX submachine gun boasts an unprecedented operation speed in the familiar form factor of the AR platform. Short-stroke gas piston allows SIG MPX to use the full range of 9 mm ammunition without any adjustments to the gas valve. The full-sized mount provides the means of installing a wide range of scopes and sighting devices.
 basePrice=18907
 width=1
 height=1
-avg24hPrice=44784
-low24hPrice=30000
-lastOfferCount=23
+avg24hPrice=45177
+low24hPrice=32888
+lastOfferCount=4
 Sell_Prapor=9453
 Sell_Fence=7562
 Sell_Skier=9264
 Sell_Peacekeeper=70
 Sell_Mechanic=10587
-Sell_Flea Market=44444
+Sell_Flea Market=46000
 weight=0.640000
-fleaMarketFee=2484
+fleaMarketFee=2598
 propertiestype=ItemPropertiesWeapon

@@ -64,21 +64,21 @@ ChildParts=[
 ChildParts=[
 	MCX charging handle
 ]
-Recoil=155.000000
+Recoil=132.000000
 Ergonomics=48.000000
 Information_Eng=The .300 Blackout MCX line, designed and manufactured by SIG Sauer, is available in both semi-automatic and automatic versions and features a short-stroke gas piston system, which is inherited from the earlier SIG MPX submachine gun. The .300 Blackout ammo and the MCX are compatible with all AR-15 magazines.
 basePrice=21300
 width=1
 height=1
-avg24hPrice=47247
-low24hPrice=35000
-lastOfferCount=14
+avg24hPrice=47970
+low24hPrice=33500
+lastOfferCount=54
 Sell_Prapor=10650
 Sell_Fence=8520
 Sell_Skier=10437
 Sell_Peacekeeper=79
 Sell_Mechanic=11928
-Sell_Flea Market=40000
+Sell_Flea Market=46666
 weight=0.400000
-fleaMarketFee=2127
+fleaMarketFee=2558
 propertiestype=ItemPropertiesWeapon

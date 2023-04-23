@@ -248,7 +248,7 @@ namespace FPS_n2 {
 						int xp2 = posx + (int)(std::cos(m_Rad)*Xs2 - std::sin(m_Rad)*Ys2);
 						int yp2 = posy + (int)(std::cos(m_Rad)*Ys2 + std::sin(m_Rad)*Xs2);
 
-						float LenF = std::hypotf(xp1 - xp2, yp1 - yp2);
+						float LenF = std::hypotf((float)(xp1 - xp2), (float)(yp1 - yp2));
 						DrawControl::Instance()->SetDrawCircle(DrawLayer::Normal, xp1, yp1, (int)LenF, Black,false,2);
 
 
@@ -260,13 +260,13 @@ namespace FPS_n2 {
 						DrawControl::Instance()->SetDrawLine(DrawLayer::Front, xp1, yp1, xp2, yp2, Blue, 2);
 						DrawControl::Instance()->SetDrawCircle(DrawLayer::Front, xp2, yp2, 5, Blue);
 
-						int Len = (int)(LenF / (Scale / 2.f) * MapPtr->GeSizetoMeter(m_WatchMapSelect));
+						int Len2 = (int)(LenF / (Scale / 2.f) * MapPtr->GeSizetoMeter(m_WatchMapSelect));
 						int LenPer = 5;
 
 						DrawControl::Instance()->SetString(DrawLayer::Front,
 							FontPool::FontType::Nomal_Edge, LineHeight,
 							STRX_RIGHT, STRY_BOTTOM, InputControl::Instance()->GetMouseX(), InputControl::Instance()->GetMouseY(), RedPop, Black,
-							"%d`%dm", LenPer * (Len / LenPer), LenPer * (Len / LenPer + 1)
+							"%d`%dm", LenPer * (Len2 / LenPer), LenPer * (Len2 / LenPer + 1)
 						);
 					}
 				}

@@ -101,21 +101,21 @@ ChildParts=[
 Conflict=[
 	Hera Arms CQR tactical foregrip,
 ]
-Recoil=290.000000
+Recoil=247.000000
 Ergonomics=30.000000
 Information_Eng=The Molot VPO-209 carbine is based on the well-known Kalashnikov AKM and has an almost identical appearance, weight, and overall dimensions. It has a smooth bore barrel with the last 120 mm of the barrel being rifled (a so called "paradox"-bore). VPO-209 is chambered in .366 TKM, that together with the "paradox" rifling classifies the weapon as a shotgun under Russian law.
 basePrice=21585
 width=4
 height=1
-avg24hPrice=30140
-low24hPrice=26000
-lastOfferCount=3
+avg24hPrice=41541
+low24hPrice=28000
+lastOfferCount=9
 Sell_Prapor=10792
 Sell_Fence=8634
 Sell_Skier=10576
 Sell_Peacekeeper=80
 Sell_Mechanic=12087
-Sell_Flea Market=29000
+Sell_Flea Market=28500
 weight=2.092000
-fleaMarketFee=1554
+fleaMarketFee=1533
 propertiestype=ItemPropertiesWeapon

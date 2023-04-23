@@ -111,21 +111,21 @@ Conflict=[
 	AK Vltor CMRD KeyMod handguard,
 	Hera Arms CQR tactical foregrip,
 ]
-Recoil=160.000000
+Recoil=136.000000
 Ergonomics=38.000000
 Information_Eng=The AK-105 5.45x39mm assault rifle is a further modernized version of AK-74M base. A short compact version equipped with a side-folding shoulder stock and a side mount for optical and night scopes. The 100-series AKs are produced by the Izhmash factories in Izhevsk, Russia.
 basePrice=30862
 width=3
 height=1
-avg24hPrice=28920
-low24hPrice=23990
-lastOfferCount=35
+avg24hPrice=29198
+low24hPrice=19000
+lastOfferCount=13
 Sell_Prapor=15431
 Sell_Fence=12344
 Sell_Skier=15122
 Sell_Peacekeeper=115
 Sell_Mechanic=17282
-Sell_Flea Market=27777
+Sell_Flea Market=24800
 weight=1.992000
-fleaMarketFee=1755
+fleaMarketFee=1685
 propertiestype=ItemPropertiesWeapon

@@ -25,21 +25,21 @@ ChildParts=[
 	SR-2M pistol grip,
 	SR-2M pistol grip (Black)
 ]
-Recoil=63.000000
+Recoil=54.000000
 Ergonomics=59.000000
 Information_Eng=SR-2M "Veresk" is a compact submachine gun designed for a powerful 9x21mm armor-piercing cartridge by order of the FSB and the FSO of the Russian Federation. This submachine gun is part of a high-performance rifle complex designed for special forces. Equipped with a folding foregrip. Developed by TsNIItochmash.
 basePrice=31000
 width=2
 height=1
-avg24hPrice=42427
-low24hPrice=34420
-lastOfferCount=16
+avg24hPrice=49846
+low24hPrice=40000
+lastOfferCount=22
 Sell_Prapor=15500
 Sell_Fence=12400
 Sell_Skier=15190
 Sell_Peacekeeper=115
 Sell_Mechanic=17360
-Sell_Flea Market=49977
+Sell_Flea Market=40000
 weight=0.938000
-fleaMarketFee=2630
+fleaMarketFee=2162
 propertiestype=ItemPropertiesWeapon

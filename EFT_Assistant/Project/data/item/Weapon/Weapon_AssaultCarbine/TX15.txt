@@ -86,21 +86,21 @@ ChildParts=[
 	AR-15 Radian Weapons Raptor charging handle (Grey),
 	AR-15 Rainier Arms Avalanche MOD2 charging handle
 ]
-Recoil=132.000000
+Recoil=113.000000
 Ergonomics=50.000000
 Information_Eng=The Lone Star Armory TX15 Designated Marksman Light (DML) is a high precision civilian rifle designed on the AR-15 system base, chambered in 5.56x45 rounds.
 basePrice=24397
 width=1
 height=1
-avg24hPrice=152369
-low24hPrice=70000
-lastOfferCount=17
+avg24hPrice=141194
+low24hPrice=86666
+lastOfferCount=13
 Sell_Prapor=12198
 Sell_Fence=9758
 Sell_Skier=11954
 Sell_Peacekeeper=91
 Sell_Mechanic=13662
-Sell_Flea Market=70000
+Sell_Flea Market=98111
 weight=0.310000
-fleaMarketFee=4200
+fleaMarketFee=6898
 propertiestype=ItemPropertiesWeapon

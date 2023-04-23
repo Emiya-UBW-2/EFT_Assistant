@@ -12,21 +12,21 @@ ChildParts=[
 ChildParts=[
 	PB bakilte side grips
 ]
-Recoil=455.000000
+Recoil=387.000000
 Ergonomics=80.000000
 Information_Eng=The PB pistol (Pistolét Besshúmnyy - "Silenced Pistol", GRAU Index - 6P9) was designed with a two-part suppressor, the main suppressor and a section built into the barrel, which allows the weapon to be operated without problems even without the main suppressor attached, but operating the weapon in this way will not mitigate the sound or muzzle flash. It was intended for army reconnaissance groups and USSR KGB personnel and was introduced into service in 1967. Still operated nowadays by FSB special forces and internal troops of the Ministry of Internal Affairs.
 basePrice=11498
 width=2
 height=1
-avg24hPrice=15149
-low24hPrice=7999
-lastOfferCount=8
+avg24hPrice=14553
+low24hPrice=8888
+lastOfferCount=10
 Sell_Prapor=5749
 Sell_Fence=4599
 Sell_Skier=5634
 Sell_Peacekeeper=43
 Sell_Mechanic=6438
-Sell_Flea Market=7999
+Sell_Flea Market=14444
 weight=0.674000
-fleaMarketFee=609
+fleaMarketFee=786
 propertiestype=ItemPropertiesWeapon

@@ -49,7 +49,7 @@ ChildParts=[
 ChildParts=[
 	Mk-18 .338 LM upper receiver
 ]
-Recoil=630.000000
+Recoil=536.000000
 Ergonomics=14.000000
 Information_Eng=The Mk-18 Mod 1 Extreme Distance Capable Semi-Automatic Rifle was designed to take advantage of the ballistic capabilities of the .338 Lapua Magnum, .338 Norma Magnum, and .300 Norma Magnum cartridges. The system provides extreme distance capability in a lightweight and mobile semi-auto platform. Utilizing SWORD’s proprietary short-stroke piston system the rifle is precise, reliable, and durable. Featuring ambidextrous controls, ergonomic features, and built-in modularity, the Mk-18 is a great choice for the avid hunter, long-range enthusiast, and competition shooter.
 basePrice=64400

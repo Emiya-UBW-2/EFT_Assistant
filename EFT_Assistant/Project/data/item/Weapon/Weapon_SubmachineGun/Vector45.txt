@@ -95,21 +95,21 @@ ChildParts=[
 ChildParts=[
 	KRISS Vector side rail
 ]
-Recoil=55.000000
+Recoil=47.000000
 Ergonomics=65.000000
 Information_Eng=The KRISS Vector SMG is the ideal choice for law enforcement and military seeking a controllable and compact weapon system for close quarter combat environments. The low bore axis and Super V recoil mitigation system allow for controllable shots when firing in full-automatic, or fast semi-automatic follow up shots. Compatible with Glock .45 ACP magazines.
 basePrice=31650
 width=2
 height=2
-avg24hPrice=65697
-low24hPrice=50000
-lastOfferCount=28
+avg24hPrice=67063
+low24hPrice=53999
+lastOfferCount=27
 Sell_Prapor=15825
 Sell_Fence=12660
 Sell_Skier=15508
 Sell_Peacekeeper=118
 Sell_Mechanic=17724
-Sell_Flea Market=69990
+Sell_Flea Market=63000
 weight=1.860000
-fleaMarketFee=3845
+fleaMarketFee=3381
 propertiestype=ItemPropertiesWeapon

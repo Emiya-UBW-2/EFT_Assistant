@@ -40,21 +40,21 @@ ChildParts=[
 ChildParts=[
 	Glock FAB Defense GLR-17 stock
 ]
-Recoil=360.000000
+Recoil=306.000000
 Ergonomics=90.000000
 Information_Eng=The Glock 18 is a selective-fire variant of the Glock 17. The firearm is typically used with an extended 33-round-capacity magazine, although other magazines from the Glock 17 can be used, with available capacities of 10, 17, or 19 rounds. It has a keyhole opening cut into the forward portion of the slide, similar to the opening on the Glock long-slide models, although the Glock 18 has a standard-length slide. The keyhole opening provides an area to allow the four, progressively larger (from back to front) compensator cuts machined into the barrel to vent the propellant gases upwards, affording more control over the rapid-firing machine pistol.
 basePrice=15225
 width=2
 height=1
-avg24hPrice=27415
-low24hPrice=15000
-lastOfferCount=24
+avg24hPrice=27042
+low24hPrice=13000
+lastOfferCount=16
 Sell_Prapor=7612
 Sell_Fence=6090
 Sell_Skier=7460
 Sell_Peacekeeper=57
 Sell_Mechanic=8526
-Sell_Flea Market=23333
+Sell_Flea Market=22000
 weight=0.231000
-fleaMarketFee=1230
+fleaMarketFee=1165
 propertiestype=ItemPropertiesWeapon

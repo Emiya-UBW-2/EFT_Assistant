@@ -24,21 +24,21 @@ ChildParts=[
 ChildParts=[
 	MP9 charging handle
 ]
-Recoil=60.000000
+Recoil=51.000000
 Ergonomics=75.000000
 Information_Eng=MP9-N is the further modification of the MP9 submachine gun, which was refined and optimized in cooperation with special units from police and military. MP9-N is currently in service with close protection teams as well as with SWAT teams worldwide. It is also a perfect choice as a Personal Defense Weapon (PDW).
 basePrice=18500
 width=2
 height=1
-avg24hPrice=20160
-low24hPrice=12500
-lastOfferCount=16
+avg24hPrice=20638
+low24hPrice=12000
+lastOfferCount=25
 Sell_Prapor=9250
 Sell_Fence=7400
 Sell_Skier=9065
 Sell_Peacekeeper=69
 Sell_Mechanic=10360
-Sell_Flea Market=18000
+Sell_Flea Market=17969
 weight=0.750000
-fleaMarketFee=1093
+fleaMarketFee=1092
 propertiestype=ItemPropertiesWeapon

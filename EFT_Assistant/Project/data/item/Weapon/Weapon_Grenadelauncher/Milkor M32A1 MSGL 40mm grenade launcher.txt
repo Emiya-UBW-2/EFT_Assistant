@@ -123,7 +123,7 @@ ChildParts=[
 	Zenit Perst-3 tactical device,
 	Kiba Arms 25mm accessory ring mount
 ]
-Recoil=280.000000
+Recoil=238.000000
 Ergonomics=30.000000
 Information_Eng=M32A1 MSGL 40mm six-shot grenade launcher manufactured by Milkor USA. This grenade launcher uses the well-established principle of a revolver to achieve a high rate of accurate fire that can be quickly aimed at a target.
 basePrice=185000

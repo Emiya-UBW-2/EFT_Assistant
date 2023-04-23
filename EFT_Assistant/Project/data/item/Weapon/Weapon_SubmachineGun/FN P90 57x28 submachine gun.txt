@@ -22,21 +22,21 @@ ChildParts=[
 	FN P90 charging handle,
 	FN P90 K&M The Handler charging handle
 ]
-Recoil=54.000000
+Recoil=46.000000
 Ergonomics=60.000000
 Information_Eng=FN P90, also known as the FN Project 1990, is a compact personal defense weapon (PDW) designed and manufactured by FN Herstal in Belgium. Created in response to NATO requests for a replacement for 9x19mm Parabellum firearms, the P90 was designed as a compact but powerful firearm for vehicle crews, operators of crew-served weapons, support personnel, special forces, and counter-terrorist groups.
 basePrice=45200
 width=2
 height=1
-avg24hPrice=73757
-low24hPrice=57000
-lastOfferCount=28
+avg24hPrice=76204
+low24hPrice=61000
+lastOfferCount=27
 Sell_Prapor=22600
 Sell_Fence=18080
 Sell_Skier=22148
 Sell_Peacekeeper=168
 Sell_Mechanic=25312
-Sell_Flea Market=67800
+Sell_Flea Market=71888
 weight=0.700000
-fleaMarketFee=3578
+fleaMarketFee=3783
 propertiestype=ItemPropertiesWeapon

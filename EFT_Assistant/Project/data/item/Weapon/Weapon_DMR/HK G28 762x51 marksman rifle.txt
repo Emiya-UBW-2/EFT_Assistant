@@ -43,7 +43,7 @@ ChildParts=[
 ChildParts=[
 	HK417 E1 extended charging handle
 ]
-Recoil=240.000000
+Recoil=204.000000
 Ergonomics=48.000000
 Information_Eng=The HK G28 rifle was developed by Heckler & Koch specifically for the Bundeswehr as a support weapon for small infantry units. The G28 is based on the HK MR308, which, in turn, is a civilian version of the HK 417 automatic rifle. Despite several differences, the HK G28 is 75% interchangeable with the HK 417. This rifle is designed to shoot at distances inaccessible to standard 5.56mm assault rifles.
 basePrice=30500

@@ -13,21 +13,21 @@ ChildParts=[
 	Chiappa Rhino plastic pistol grip,
 	Chiappa Rhino wooden pistol grip
 ]
-Recoil=360.000000
+Recoil=306.000000
 Ergonomics=95.000000
 Information_Eng=The Rhino revolvers, manufactured by the Italian company Armi Chiappa, are distinguished by a revolutionary patented design and construction with an unusual barrel arrangement for revolvers opposite the lower drum chamber. The short-size "pocket" model with a 2 inch barrel chambered in 9x19mm.
 basePrice=5800
 width=1
 height=1
-avg24hPrice=10794
-low24hPrice=6488
-lastOfferCount=5
+avg24hPrice=13619
+low24hPrice=6420
+lastOfferCount=10
 Sell_Prapor=2900
 Sell_Fence=2320
 Sell_Skier=2842
 Sell_Peacekeeper=22
 Sell_Mechanic=3248
-Sell_Flea Market=8200
+Sell_Flea Market=8500
 weight=0.500000
-fleaMarketFee=436
+fleaMarketFee=449
 propertiestype=ItemPropertiesWeapon

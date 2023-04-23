@@ -156,21 +156,21 @@ ChildParts=[
 	Zenit RK-5 tactical foregrip,
 	Zenit RK-6 tactical foregrip
 ]
-Recoil=58.000000
+Recoil=50.000000
 Ergonomics=65.000000
 Information_Eng=MP7A2 is a further modification of the MP7A1 SMG. The key feature of this submachine gun is the replacement of the standard folding foregrip for a Picatinny rail, allowing mounting of various vertical foregrips. Manufactured by Heckler & Koch.
 basePrice=45230
 width=2
 height=1
-avg24hPrice=79265
-low24hPrice=68000
-lastOfferCount=15
+avg24hPrice=77118
+low24hPrice=60000
+lastOfferCount=17
 Sell_Prapor=22615
 Sell_Fence=18092
 Sell_Skier=22162
 Sell_Peacekeeper=168
 Sell_Mechanic=25328
-Sell_Flea Market=79000
+Sell_Flea Market=77000
 weight=1.580000
-fleaMarketFee=4168
+fleaMarketFee=4056
 propertiestype=ItemPropertiesWeapon

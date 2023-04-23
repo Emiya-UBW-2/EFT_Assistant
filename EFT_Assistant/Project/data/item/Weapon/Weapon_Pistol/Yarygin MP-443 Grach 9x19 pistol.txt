@@ -11,21 +11,21 @@ ChildParts=[
 ChildParts=[
 	MP-443 "Grach" polymer pistol grip
 ]
-Recoil=500.000000
+Recoil=425.000000
 Ergonomics=75.000000
 Information_Eng=The PYa MP-443 (Pistolét Yarýgina MP-443 - "Yarygin Pistol MP-443", GRAU Index - 6P35) widely known as "Grach" is a Russian semiautomatic pistol chambered in 9x19 mm. It was designed by Vladimir Yarygin in the 1990s and adopted as a standard sidearm by the Russian military, law enforcement agencies, and special units of the Ministry of Internal Affairs. It features a high capacity magazine and can be equipped with the Zenit B-8 mount to install additional attachments beneath the barrel.
 basePrice=10437
 width=2
 height=1
-avg24hPrice=11761
-low24hPrice=6900
-lastOfferCount=8
+avg24hPrice=10914
+low24hPrice=7000
+lastOfferCount=14
 Sell_Prapor=5218
 Sell_Fence=4174
 Sell_Skier=5114
 Sell_Peacekeeper=39
 Sell_Mechanic=5844
-Sell_Flea Market=7000
+Sell_Flea Market=7777
 weight=0.790000
-fleaMarketFee=551
+fleaMarketFee=559
 propertiestype=ItemPropertiesWeapon

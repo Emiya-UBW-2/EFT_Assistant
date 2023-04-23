@@ -45,7 +45,7 @@ ChildParts=[
 ChildParts=[
 	FN SCAR charging handle
 ]
-Recoil=242.000000
+Recoil=206.000000
 Ergonomics=45.000000
 Information_Eng=The FN SCAR-H (Special Operations Forces Combat Assault Rifle - Heavy) assault rifle chambered in 7.62x51 NATO rounds, was adopted by the US SOCOM as the Mk 17. Features a side-folding polymer stock and a free-floating, cold hammer-forged Mil-Spec barrel with hardchromed bore. Fully-ambidextrous operating controls instantly adapt the SCAR to any user or any shooting position. The receiver-integrated optical rail plus three accessory rails enable mounting of a wide variety of scopes, electronic sights, tactical lights and lasers. Manufactured by Fabrique Nationale Herstal.
 basePrice=24400
