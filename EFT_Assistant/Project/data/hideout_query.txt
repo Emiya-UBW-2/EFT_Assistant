@@ -1,0 +1,43 @@
+{"query" : "{
+ hideoutStations(offset:OFFSETVAL limit:LIMITVAL){
+  id
+  name
+  levels{
+    level 
+    constructionTime
+    description
+    itemRequirements{
+      item{name}
+      count
+    }
+    stationLevelRequirements{
+      station{name}
+      level
+    }
+    skillRequirements{
+      name
+    }
+    traderRequirements{
+      trader{name}
+    }
+    crafts{
+      taskUnlock{name}
+      duration
+      requiredItems{
+        item{name}
+        count
+      }
+      requiredQuestItems{
+        name
+      }
+      rewardItems{
+        item{name}
+        count
+      }
+    }
+    bonuses{
+      name
+    }
+  }
+ }
+}"}

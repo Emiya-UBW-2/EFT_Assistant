@@ -36,6 +36,7 @@ using namespace DXLib_ref;
 #include "Scene/MainScene/Data/MainScene_Preset.hpp"
 #include "Scene/MainScene/Data/MainScene_Enemy.hpp"
 #include "Scene/MainScene/Data/MainScene_Task.hpp"
+#include "Scene/MainScene/Data/MainScene_Hideout.hpp"
 //Pages
 #include "Scene/MainScene/Page/MainScene_PageParents.hpp"
 #include "Scene/MainScene/Page/MainScene_PageTitle.hpp"

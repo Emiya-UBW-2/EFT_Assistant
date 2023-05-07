@@ -40,6 +40,7 @@ namespace FPS_n2 {
 			TraderData::Create();
 			MapData::Create();
 			TaskData::Create();
+			HideoutData::Create();
 			//
 			SetUseASyncLoadFlag(TRUE);
 			PresetData::Instance()->LoadList(false);
@@ -52,6 +53,11 @@ namespace FPS_n2 {
 			TraderData::Instance()->LoadList(false);
 			MapData::Instance()->LoadList(false);
 			TaskData::Instance()->LoadList(false);
+#ifdef DEBUG
+			HideoutData::Instance()->LoadList(true);
+#else
+			HideoutData::Instance()->LoadList(false);
+#endif
 			SetUseASyncLoadFlag(FALSE);
 			m_Loading = true;
 			//
@@ -82,6 +88,7 @@ namespace FPS_n2 {
 				TraderData::Instance()->WhenAfterLoadListCommon();
 				MapData::Instance()->WhenAfterLoadListCommon();
 				TaskData::Instance()->WhenAfterLoadListCommon();
+				HideoutData::Instance()->WhenAfterLoadListCommon();
 				if (GetASyncLoadNum() == 0) {
 					PresetData::Instance()->WhenAfterLoadList();
 					ItemData::Instance()->WhenAfterLoadList();
@@ -89,6 +96,7 @@ namespace FPS_n2 {
 					TraderData::Instance()->WhenAfterLoadList();
 					MapData::Instance()->WhenAfterLoadList();
 					TaskData::Instance()->WhenAfterLoadList();
+					HideoutData::Instance()->WhenAfterLoadList();
 					m_Loading = false;
 				}
 			}

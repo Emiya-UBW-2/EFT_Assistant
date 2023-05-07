@@ -100,6 +100,25 @@ namespace FPS_n2 {
 				TimeCard();
 			}
 			YPos += Ysize + y_r(5);
+			if (WindowSystem::ClickCheckBox(XPos, YPos, XPos + Xsize, YPos + Ysize, false, (ttt == -1), Color, "ハイドアウト更新")) {
+				int count = 0;
+				//HideoutData::Instance()->InitDatabyJson();
+				while (true) {
+					if (HideoutDataRequest(20 * count, 20, strResult)) {
+						ProcessMessage();
+						auto data = nlohmann::json::parse(strResult);
+						HideoutData::Instance()->GetJsonData(data);
+						HideoutData::Instance()->SaveDatabyJson();
+						if (data["data"]["tasks"].size() != 20) {
+							break;
+						}
+					}
+					count++;
+				}
+				HideoutData::Instance()->CheckThroughJson();
+				TimeCard();
+			}
+			YPos += Ysize + y_r(5);
 			if (!(ttt == -1)) {
 				WindowSystem::SetMsg(XPos, YPos, XPos + Xsize, YPos + Ysize, Ysize, STRX_MID, White, Black, "更新可能まで %2d:%02d", (TotalTime - NowTime) / 1000 / 60, ((TotalTime - NowTime) / 1000)%60);
 			}
