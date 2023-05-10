@@ -13,6 +13,7 @@ Task_Map=Lighthouse
 Task_Kill=[
 	Lighthouse-Scavsx15
 ]
+Task_Else=ƒ][ƒ“:[Highway]
 
 [
 	TaskType=shoot

@@ -7,7 +7,7 @@ NeedTask=Supply Plans
 NeedLevel=13
 
 CanRestart=false
-NeedKappa=false
+NeedKappa=true
 NeedLightkeeper=false
 
 

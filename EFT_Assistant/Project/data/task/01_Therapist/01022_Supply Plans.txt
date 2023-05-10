@@ -6,7 +6,7 @@ NeedTask=Pharmacist
 NeedLevel=13
 
 CanRestart=false
-NeedKappa=false
+NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Woods

@@ -30,6 +30,7 @@ ChildParts=[
 	AR-15 Yankee Hill Phantom 5.56x45 flash hider,
 	KAC QDC 5.56x45 3-Prong Flash Eliminator,
 	AR-15 SureFire Warden 5.56x45 blast regulator,
+	AR-15 AlienTech 5.56x45 muzzle brake,
 	AR-15 Griffin Armament Gate-LOK Hammer 5.56x45 flash hider
 ]
 Recoil=0.000000
@@ -38,15 +39,15 @@ Information_Eng=The CNC Warrior AK adapter allows to install different AR-15 spe
 basePrice=2615
 width=1
 height=1
-avg24hPrice=16008
-low24hPrice=6000
-lastOfferCount=7
+avg24hPrice=18945
+low24hPrice=5000
+lastOfferCount=29
 Sell_Prapor=1307
 Sell_Fence=1046
 Sell_Skier=1281
 Sell_Peacekeeper=10
 Sell_Mechanic=1464
-Sell_Flea Market=12199
+Sell_Flea Market=14000
 weight=0.100000
-fleaMarketFee=929
+fleaMarketFee=1153
 propertiestype=ItemPropertiesWeaponMod

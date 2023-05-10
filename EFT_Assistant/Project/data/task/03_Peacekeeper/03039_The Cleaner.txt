@@ -23,6 +23,7 @@ Task_Kill=[
 Reward_Item=[
 	Eurosx3000
 ]
+Reward_SkillLevelUp=DMRs+1
 Reward_SkillLevelUp=SMGs+2
 Reward_SkillLevelUp=Assault Rifles+2
 

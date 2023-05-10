@@ -14,6 +14,7 @@ Task_Else=TaskType:visit
 Task_Else=Find the unpowered secret exit on Reserve
 Task_Map=Reserve
 Task_Else=脱出ステータス:[Survived]
+Task_Else=脱出ゾーン:[D-2 Extract]
 
 [
 	TaskType=visit

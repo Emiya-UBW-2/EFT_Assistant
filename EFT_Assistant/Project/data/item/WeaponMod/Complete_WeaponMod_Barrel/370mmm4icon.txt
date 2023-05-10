@@ -31,7 +31,8 @@ ChildParts=[
 	KAC QDC 5.56x45 3-Prong Flash Eliminator,
 	AR-15 SureFire Warden 5.56x45 blast regulator,
 	AR-15 Yankee Hill Phantom 5.56x45 flash hider,
-	AR-15 Griffin Armament Gate-LOK Hammer 5.56x45 flash hider
+	AR-15 Griffin Armament Gate-LOK Hammer 5.56x45 flash hider,
+	AR-15 AlienTech 5.56x45 muzzle brake
 ]
 ChildParts=[
 	M4A1 front sight with gas block,
@@ -58,16 +59,16 @@ Information_Eng=A 370mm barrel for AR-15 based weapons for 5.56x45 NATO ammo. Co
 basePrice=24567
 width=3
 height=1
-avg24hPrice=31073
-low24hPrice=22222
-lastOfferCount=26
+avg24hPrice=36059
+low24hPrice=29000
+lastOfferCount=7
 Sell_Prapor=12283
 Sell_Fence=9826
 Sell_Skier=12037
-Sell_Peacekeeper=91
+Sell_Peacekeeper=95
 Sell_Mechanic=13757
 Sell_Jaeger=14740
-Sell_Flea Market=25000
+Sell_Flea Market=37111
 weight=0.509000
-fleaMarketFee=1485
+fleaMarketFee=1957
 propertiestype=ItemPropertiesBarrel

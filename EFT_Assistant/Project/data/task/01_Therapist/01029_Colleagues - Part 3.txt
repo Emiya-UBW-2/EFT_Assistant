@@ -6,7 +6,7 @@ NeedTask=The Huntsman Path - Sadist
 NeedLevel=22
 
 CanRestart=false
-NeedKappa=false
+NeedKappa=true
 NeedLightkeeper=false
 
 Task_Else=ŠY“–ƒ^ƒXƒNColleagues - Part 3
@@ -63,9 +63,10 @@ Reward_Item=[
 	Roublesx150000,
 	L1 (Norepinephrine) injectorx3,
 	Meldonin injectorx3,
-	"Obdolbos 2" cocktail injectorx5,
-	Grizzly medical kitx4,
 	TerraGroup Labs keycard (Black)x1,
+	Grizzly medical kitx4,
+	"Obdolbos 2" cocktail injectorx5,
+	TerraGroup Labs keycard (Violet)x2,
 	Medicine casex1
 ]
 
@@ -75,7 +76,7 @@ Task_Kill=[
 
 [
 	TaskType=shoot
-	TaskText=
+	TaskText=5f04539a29383318cb417b44
 	TaskOptional=false
 ]
 

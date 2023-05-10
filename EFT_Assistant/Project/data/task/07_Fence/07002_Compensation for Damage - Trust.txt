@@ -9,8 +9,8 @@ NeedKappa=false
 NeedLightkeeper=false
 
 traderRequirementsName=Fence
-traderRequirementsType=reputation
-traderRequirements=<=
+traderRequirementsType=level
+traderRequirements=<
 traderRequirementsValue=-1
 Task_FiR_HandOver=[Dogtag BEARx5]
 DogTagLv=0

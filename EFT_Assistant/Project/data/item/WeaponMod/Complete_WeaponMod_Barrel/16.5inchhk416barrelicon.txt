@@ -31,7 +31,8 @@ ChildParts=[
 	KAC QDC 5.56x45 3-Prong Flash Eliminator,
 	AR-15 SureFire Warden 5.56x45 blast regulator,
 	AR-15 Yankee Hill Phantom 5.56x45 flash hider,
-	AR-15 Griffin Armament Gate-LOK Hammer 5.56x45 flash hider
+	AR-15 Griffin Armament Gate-LOK Hammer 5.56x45 flash hider,
+	AR-15 AlienTech 5.56x45 muzzle brake
 ]
 ChildParts=[
 	HK 416A5 low profile gas block
@@ -49,16 +50,16 @@ Information_Eng=A barrel for 416 based weapons for 5.56x45 NATO ammo, 16.5 inche
 basePrice=33500
 width=3
 height=1
-avg24hPrice=29041
-low24hPrice=21888
-lastOfferCount=4
+avg24hPrice=29940
+low24hPrice=19000
+lastOfferCount=6
 Sell_Prapor=16750
 Sell_Fence=13400
 Sell_Skier=16415
-Sell_Peacekeeper=125
+Sell_Peacekeeper=130
 Sell_Mechanic=18760
 Sell_Jaeger=20100
-Sell_Flea Market=23333
+Sell_Flea Market=31111
 weight=1.050000
-fleaMarketFee=1776
+fleaMarketFee=1932
 propertiestype=ItemPropertiesBarrel

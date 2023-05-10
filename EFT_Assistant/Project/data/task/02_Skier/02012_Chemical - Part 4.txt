@@ -6,7 +6,7 @@ NeedTask=Chemical - Part 3
 NeedLevel=11
 
 CanRestart=false
-NeedKappa=false
+NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Customs
@@ -49,12 +49,12 @@ Task_Else=ŠY“–ƒ^ƒXƒNó‘Ô:complete
 
 [
 	TaskType=taskStatus
-	TaskText=
+	TaskText=597a19ff86f774792c2e36f2
 	TaskOptional=false
 ]
 [
 	TaskType=taskStatus
-	TaskText=
+	TaskText=597a1a0486f774779c70e8a6
 	TaskOptional=false
 ]
 

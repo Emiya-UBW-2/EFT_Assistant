@@ -13,6 +13,7 @@ Task_Map=Lighthouse
 Task_Kill=[
 	Lighthouse-Scavsx12
 ]
+Task_Else=ƒ][ƒ“:[Chalets]
 
 [
 	TaskType=shoot

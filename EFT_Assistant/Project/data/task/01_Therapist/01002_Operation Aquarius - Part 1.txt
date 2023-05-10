@@ -8,7 +8,7 @@ NeedItem=[Dorm room 206 keyx1]
 
 CanRestart=false
 NeedKappa=true
-NeedLightkeeper=false
+NeedLightkeeper=true
 
 Task_Map=Customs
 Task_Else=TaskType:visit

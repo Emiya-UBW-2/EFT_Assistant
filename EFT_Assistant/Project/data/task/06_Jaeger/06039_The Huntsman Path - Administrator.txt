@@ -13,6 +13,7 @@ Task_Map=Streets of Tarkov
 Task_Kill=[
 	Streets of Tarkov-any targetx20
 ]
+Task_Else=ƒ][ƒ“:[Pinewood Hotel]
 Task_Map=Streets of Tarkov
 Task_Else=è‡’l: >= 0
 Task_Else=ƒ][ƒ“:[Pinewood Hotel Courtyard]

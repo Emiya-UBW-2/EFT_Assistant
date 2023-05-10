@@ -2,8 +2,7 @@ IDstr=6179b3a12153c15e937d52bc
 Name=Energy Crisis
 Trader=Mechanic
 
-NeedTask=Postman Pat - Part 2
-NeedTask=Farming - Part 4
+NeedTask=Farming - Part 3
 NeedLevel=25
 
 CanRestart=false

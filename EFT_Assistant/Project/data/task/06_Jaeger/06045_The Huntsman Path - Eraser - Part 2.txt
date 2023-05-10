@@ -2,7 +2,6 @@ IDstr=5d25e45e86f77408251c4bfa
 Name=The Huntsman Path - Eraser - Part 2
 Trader=Jaeger
 
-NeedTask=The Huntsman Path - Secured Perimeter
 NeedTask=The Huntsman Path - Eraser - Part 1
 NeedLevel=30
 

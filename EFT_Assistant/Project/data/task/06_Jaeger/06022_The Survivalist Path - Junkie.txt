@@ -11,10 +11,10 @@ NeedLightkeeper=false
 
 Task_Map=Woods
 Task_Kill=[
-	Woods-Scavsx15
+	Woods-Scavs{head}x15
 ]
-Task_Else=©•ª‚ÌŠY“–‰ÓŠ‚ÉˆÙíó‘Ô:[head]
-Task_Else=©•ª‚ÌˆÙíó‘Ô:[Stimulant]
+Task_Else=©•ª‚ÌŠY“–‰ÓŠ‚ÉˆÙíó‘Ô:[Head]
+Task_Else=©•ª‚ÌˆÙíó‘Ô:[Stimulator]
 
 [
 	TaskType=shoot

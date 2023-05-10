@@ -9,7 +9,7 @@ NeedKappa=false
 NeedLightkeeper=false
 
 traderRequirementsName=Fence
-traderRequirementsType=reputation
+traderRequirementsType=level
 traderRequirements=<=
 traderRequirementsValue=-1
 Task_Kill=[

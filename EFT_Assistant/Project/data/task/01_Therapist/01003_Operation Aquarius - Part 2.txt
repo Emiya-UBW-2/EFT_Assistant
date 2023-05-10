@@ -7,7 +7,7 @@ NeedLevel=6
 
 CanRestart=false
 NeedKappa=true
-NeedLightkeeper=false
+NeedLightkeeper=true
 
 Task_Map=Customs
 Task_Kill=[

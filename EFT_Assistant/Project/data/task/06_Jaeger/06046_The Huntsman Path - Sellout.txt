@@ -2,7 +2,7 @@ IDstr=5d25e2e286f77444001e2e48
 Name=The Huntsman Path - Sellout
 Trader=Jaeger
 
-NeedTask=The Huntsman Path - Secured Perimeter
+NeedTask=The Huntsman Path - Forest Cleaning
 NeedTask=Sales Night
 NeedLevel=30
 

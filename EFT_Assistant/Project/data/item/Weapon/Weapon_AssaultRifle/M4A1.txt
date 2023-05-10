@@ -88,19 +88,20 @@ ChildParts=[
 ]
 Recoil=119.000000
 Ergonomics=48.000000
-Information_Eng=The Colt M4A1 carbine is a fully automatic variant of the basic M4 Carbine and was primarily designed for special operations use.However, U.S. Special Operations Command (USSOCOM) was soon to adopt the M4A1 for almost all special operations units, followed later by general introduction of the M4A1 into service with the U.S. Army and Marine Corps.
+Information_Eng=The Colt M4A1 carbine is a fully automatic variant of the basic M4 Carbine and was primarily designed for special operations use.
+However, U.S. Special Operations Command (USSOCOM) was soon to adopt the M4A1 for almost all special operations units, followed later by general introduction of the M4A1 into service with the U.S. Army and Marine Corps.
 basePrice=18397
 width=1
 height=1
-avg24hPrice=79994
-low24hPrice=50000
-lastOfferCount=21
+avg24hPrice=83030
+low24hPrice=48888
+lastOfferCount=39
 Sell_Prapor=9198
 Sell_Fence=7358
 Sell_Skier=9014
-Sell_Peacekeeper=68
+Sell_Peacekeeper=71
 Sell_Mechanic=10302
-Sell_Flea Market=67000
+Sell_Flea Market=65000
 weight=0.380000
-fleaMarketFee=4479
+fleaMarketFee=4281
 propertiestype=ItemPropertiesWeapon

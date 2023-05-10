@@ -13,6 +13,7 @@ Task_Map=Interchange
 Task_Kill=[
 	Interchange-any targetx20
 ]
+Task_Else=ゾーン:[Around Kiba Arms store]
 Task_NotFiR_HandOver=[Salty Dog beef sausagex1]
 DogTagLv=0
 Task_NotFiR_HandOver=[Bottle of Fierce Hatchling moonshinex1]
@@ -50,9 +51,7 @@ Task_Else=脱出ステータス:[Survived]
 
 Reward_Rep=Lightkeeper+0.010000
 Reward_Item=[
-	Train Hard armbandx1,
-	.338 Lapua Magnum APx40,
-	7.62x39mm MAI APx100
+	Virtex programmable processorx2
 ]
 
 Reward_EXP=0

@@ -6,7 +6,7 @@ NeedTask=Ice Cream Cones
 NeedLevel=10
 
 CanRestart=false
-NeedKappa=false
+NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Factory

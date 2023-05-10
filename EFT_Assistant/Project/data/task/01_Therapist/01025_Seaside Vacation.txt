@@ -2,7 +2,7 @@ IDstr=6179ad56c760af5ad2053587
 Name=Seaside Vacation
 Trader=Therapist
 
-NeedTask=Pharmacist
+NeedTask=Disease History
 NeedLevel=17
 
 CanRestart=false

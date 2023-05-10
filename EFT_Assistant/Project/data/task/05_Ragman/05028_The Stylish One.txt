@@ -2,6 +2,7 @@ IDstr=5dc53acb86f77469c740c893
 Name=The Stylish One
 Trader=Ragman
 
+NeedTask=The Key to Success
 NeedTask=The Huntsman Path - Sellout
 NeedLevel=30
 

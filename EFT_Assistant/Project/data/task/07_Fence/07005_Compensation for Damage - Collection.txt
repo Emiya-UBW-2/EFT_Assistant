@@ -9,7 +9,7 @@ NeedKappa=false
 NeedLightkeeper=false
 
 traderRequirementsName=Fence
-traderRequirementsType=reputation
+traderRequirementsType=level
 traderRequirements=<=
 traderRequirementsValue=-1
 Task_FiR_HandOver=[Colt M4A1 5.56x45 assault riflex2]

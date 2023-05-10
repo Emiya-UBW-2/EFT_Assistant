@@ -13,6 +13,7 @@ Task_Map=Reserve
 Task_Kill=[
 	Reserve-Scavsx10
 ]
+Task_Else=ƒ][ƒ“:[Underground Warehouse]
 
 [
 	TaskType=shoot

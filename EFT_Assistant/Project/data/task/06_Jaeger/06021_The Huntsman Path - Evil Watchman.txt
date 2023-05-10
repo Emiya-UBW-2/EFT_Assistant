@@ -13,6 +13,7 @@ Task_Map=Customs
 Task_Kill=[
 	Customs-any PMC operativesx5
 ]
+Task_Else=ƒ][ƒ“:[Dorms]
 
 [
 	TaskType=shoot

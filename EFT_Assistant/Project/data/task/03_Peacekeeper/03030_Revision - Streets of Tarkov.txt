@@ -2,8 +2,7 @@ IDstr=639135f286e646067c176a87
 Name=Revision - Streets of Tarkov
 Trader=Peacekeeper
 
-NeedTask=Friend from the West - Part 2
-NeedTask=Humanitarian Supplies
+NeedTask=Revision - Reserve
 NeedLevel=17
 
 CanRestart=false

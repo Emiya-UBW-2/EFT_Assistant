@@ -3,6 +3,7 @@ Name=Sanitary Standards - Part 2
 Trader=Therapist
 
 NeedTask=Sanitary Standards - Part 1
+NeedTask=Operation Aquarius - Part 2
 NeedLevel=8
 
 CanRestart=false

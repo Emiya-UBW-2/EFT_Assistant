@@ -10,9 +10,9 @@ NeedKappa=true
 NeedLightkeeper=true
 
 Task_Kill=[
-	Scavsx3
+	Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x3
 ]
-Task_Else=©•ª‚ÌŠY“–‰ÓŠ‚ÉˆÙíó‘Ô:[head,thorax,stomach,left arm,right arm,left leg,right leg]
+Task_Else=©•ª‚ÌŠY“–‰ÓŠ‚ÉˆÙíó‘Ô:[Head,Chest,Stomach,LeftArm,RightArm,LeftLeg,RightLeg]
 Task_Else=©•ª‚ÌˆÙíó‘Ô:[Pain]
 
 [

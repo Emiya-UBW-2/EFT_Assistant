@@ -2,8 +2,8 @@ IDstr=61904daa7d0d857927447b9c
 Name=The Hermit
 Trader=Jaeger
 
-NeedTask=The Survivalist Path - Tough Guy
-NeedLevel=2
+NeedTask=Courtesy Visit
+NeedLevel=20
 
 CanRestart=false
 NeedKappa=true
