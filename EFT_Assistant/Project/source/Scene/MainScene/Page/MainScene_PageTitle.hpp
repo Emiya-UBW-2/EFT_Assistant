@@ -109,7 +109,7 @@ namespace FPS_n2 {
 						auto data = nlohmann::json::parse(strResult);
 						HideoutData::Instance()->GetJsonData(data);
 						HideoutData::Instance()->SaveDatabyJson();
-						if (data["data"]["tasks"].size() != 20) {
+						if (data["data"]["hideoutStations"].size() != 20) {
 							break;
 						}
 					}

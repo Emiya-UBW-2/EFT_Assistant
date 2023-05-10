@@ -1,0 +1,14 @@
+IDstr=5d3b396e33c48f02b81cd9f3
+Name=Generator
+Lv1constructionTime=0
+Lv1Information_Eng=A simple fuel generator that can provide basic hideout equipment with electricity. The heart of your shelter. Fuel is needed to maintain the working power grid.
+Lv1itemReq=[Roublesx100000,Spark plugx1]
+Lv1stationLevelReq=[Securityx1]
+Lv2constructionTime=18000
+Lv2Information_Eng=A superior high power generator. It allows you to use a wider range of electrical appliances. Provides additional slots for installing fuel cans.
+Lv2itemReq=[Phase control relayx5,Electric motorx1,Bundle of wiresx15,Bulbex cable cutterx1]
+Lv2stationLevelReq=[Securityx2,Ventsx2,Generatorx1]
+Lv3constructionTime=57600
+Lv3Information_Eng=Industrial generator to ensure the autonomous operation of production facilities. Also provides additional slots for installing fuel cans.
+Lv3itemReq=[Phase control relayx6,Electric motorx3,Spark plugx10,Power supply unitx5,Metal spare partsx7]
+Lv3stationLevelReq=[Securityx3,Ventsx3,Generatorx2]

@@ -1,0 +1,14 @@
+IDstr=5d388e97081959000a123acf
+Name=Heating
+Lv1constructionTime=0
+Lv1Information_Eng=A simple barrel with firewood to maintain heat. A very basic option for heating. Dangerous because of toxic carbon monoxide.
+Lv1itemReq=[Roublesx25000,Classic matchesx2]
+Lv1stationLevelReq=[]
+Lv2constructionTime=7200
+Lv2Information_Eng=A potbelly stove is a metal stove for interior heating, popular in the first half of the 20th century. An irreplaceable thing in the hideout, especially when connected to the ventilation system for the output of combustion products.
+Lv2itemReq=[Roublesx50000,Hunting matchesx2,Dry fuelx3,Crickent lighterx3]
+Lv2stationLevelReq=[Ventsx1,Heatingx1]
+Lv3constructionTime=28800
+Lv3Information_Eng=Equips the entire hideout with additional electric heaters. Now, together with the potbelly stove, you won't be afraid of any cold.
+Lv3itemReq=[Radiator helixx8,Bundle of wiresx8,Phase control relayx4,Military corrugated tubex2]
+Lv3stationLevelReq=[Generatorx2,Workbenchx2,Heatingx2]

@@ -5,20 +5,20 @@ namespace FPS_n2 {
 	typedef int HideoutID;
 
 	class HideoutGetData {
-		HideoutID			m_ID{ InvalidID };
+		std::string			m_Name;
 		int					m_Lv{ 0 };
 	public:
-		const auto&		GetID() const noexcept { return m_ID; }
+		const auto&		GetID() const noexcept { return m_Name; }
 		const auto&		GetLv() const noexcept { return m_Lv; }
-		void			Set(ItemID id, int lv) noexcept {
-			m_ID = id;
+		void			Set(const std::string& name, int lv) noexcept {
+			m_Name = name;
 			m_Lv = lv;
 		}
 	};
 	void			SetHideoutLv(std::vector<HideoutGetData>* Data, const std::string& mes) noexcept {
 		auto L = mes.rfind("x");
 		if (L != std::string::npos) {
-			auto ID = ItemData::Instance()->FindID(mes.substr(0, L).c_str());
+			auto ID = mes.substr(0, L);
 			if (std::find_if(Data->begin(), Data->end(), [&](const HideoutGetData& obj) {return obj.GetID() == ID; }) == Data->end()) {
 				HideoutGetData tmp;
 				tmp.Set(ID, std::stoi(mes.substr(L + 1)));
@@ -48,84 +48,85 @@ namespace FPS_n2 {
 	};
 
 	class HideoutList : public ListParent<HideoutID> {
-		std::array<LvData, 3> m_LvData;
+		std::vector<LvData> m_LvData;
 	private:
 		//追加設定
 		void	Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept override {
 			std::string LEFTBuf = LEFT.substr(3);
 			std::string NumBuf2 = LEFT.substr(2, 1);
 			int ID = 0;
-			if (std::all_of(NumBuf2.cbegin(), NumBuf2.cend(), isdigit)){
+			if (std::all_of(NumBuf2.cbegin(), NumBuf2.cend(), isdigit)) {
 				ID = std::stoi(NumBuf2) - 1;
-			}
-			//開放データ
-			if (LEFTBuf == "constructionTime") { m_LvData.at(ID).constructionTime = std::stoi(RIGHT); }
-			if (LEFTBuf == "Information_Eng") { m_LvData.at(ID).Information_Eng = RIGHT; }
-			if (LEFTBuf == "itemReq") {
-				if (Args.size() > 0) {
-					for (auto&a : Args) {
-						if (a == "or") {
+				if (m_LvData.size() <= ID) { m_LvData.resize(ID + 1); }
+				//開放データ
+				if (LEFTBuf == "constructionTime") { m_LvData.at(ID).constructionTime = std::stoi(RIGHT); }
+				if (LEFTBuf == "Information_Eng") { m_LvData.at(ID).Information_Eng = RIGHT; }
+				if (LEFTBuf == "itemReq") {
+					if (Args.size() > 0) {
+						for (auto&a : Args) {
+							if (a == "or") {
 
-						}
-						else {
-							SetItem(&m_LvData.at(ID).m_ItemReq, a);
+							}
+							else {
+								SetItem(&m_LvData.at(ID).m_ItemReq, a);
+							}
 						}
 					}
-				}
-				else {
-					SetItem(&m_LvData.at(ID).m_ItemReq, RIGHT);
-				}
-			}
-			if (LEFTBuf == "hideoutReq") {
-				if (Args.size() > 0) {
-					for (auto&a : Args) {
-						if (a == "or") {
-
-						}
-						else {
-							SetHideoutLv(&m_LvData.at(ID).m_HideoutReq, a);
-						}
+					else {
+						SetItem(&m_LvData.at(ID).m_ItemReq, RIGHT);
 					}
 				}
-				else {
-					SetHideoutLv(&m_LvData.at(ID).m_HideoutReq, RIGHT);
-				}
-			}
-			//クラフトレシピ
-			if (LEFTBuf == "craftduration") {
-				m_LvData.at(ID).m_ItemCraft.resize(m_LvData.at(ID).m_ItemCraft.size() + 1);
-			}
-			if (LEFTBuf == "craftitemReq") {
-				if (Args.size() > 0) {
-					for (auto&a : Args) {
-						if (a == "or") {
+				if (LEFTBuf == "hideoutReq") {
+					if (Args.size() > 0) {
+						for (auto&a : Args) {
+							if (a == "or") {
 
-						}
-						else {
-							SetItem(&m_LvData.at(ID).m_ItemCraft.back().m_ItemReq, a);
+							}
+							else {
+								SetHideoutLv(&m_LvData.at(ID).m_HideoutReq, a);
+							}
 						}
 					}
-				}
-				else {
-					SetItem(&m_LvData.at(ID).m_ItemCraft.back().m_ItemReq, RIGHT);
-				}
-			}
-			if (LEFTBuf == "craftitemReward") {
-				if (Args.size() > 0) {
-					for (auto&a : Args) {
-						if (a == "or") {
-
-						}
-						else {
-							SetItem(&m_LvData.at(ID).m_ItemCraft.back().m_ItemReward, a);
-						}
+					else {
+						SetHideoutLv(&m_LvData.at(ID).m_HideoutReq, RIGHT);
 					}
 				}
-				else {
-					SetItem(&m_LvData.at(ID).m_ItemCraft.back().m_ItemReward, RIGHT);
+				//クラフトレシピ
+				if (LEFTBuf == "craftduration") {
+					m_LvData.at(ID).m_ItemCraft.resize(m_LvData.at(ID).m_ItemCraft.size() + 1);
 				}
+				if (LEFTBuf == "craftitemReq") {
+					if (Args.size() > 0) {
+						for (auto&a : Args) {
+							if (a == "or") {
+
+							}
+							else {
+								SetItem(&m_LvData.at(ID).m_ItemCraft.back().m_ItemReq, a);
+							}
+						}
+					}
+					else {
+						SetItem(&m_LvData.at(ID).m_ItemCraft.back().m_ItemReq, RIGHT);
+					}
+				}
+				if (LEFTBuf == "craftitemReward") {
+					if (Args.size() > 0) {
+						for (auto&a : Args) {
+							if (a == "or") {
+
+							}
+							else {
+								SetItem(&m_LvData.at(ID).m_ItemCraft.back().m_ItemReward, a);
+							}
+						}
+					}
+					else {
+						SetItem(&m_LvData.at(ID).m_ItemCraft.back().m_ItemReward, RIGHT);
+					}
+				}
+				//
 			}
-			//
 		}
 		void	Load_Sub() noexcept override {}
 		void	WhenAfterLoad_Sub() noexcept override {}
@@ -178,67 +179,72 @@ namespace FPS_n2 {
 	public:
 		std::string									id;
 		std::string									name;
-		std::array<LvData, 3>						m_LvData;
+		std::vector<LvData>							m_LvData;
 	public:
 		void GetJsonData(const nlohmann::json& data) {
 			id = data["id"];
 			name = data["name"];
 
-			for (auto& L : m_LvData) {
-				auto LV = "Lv" + std::to_string((&L - &m_LvData.front()) + 1);
-				/*
-				outputfile << LV + "constructionTime=" + std::to_string(L.constructionTime) + "\n";
-				outputfile << LV + "Information_Eng=" + L.Information_Eng + "\n";
-				{
-					outputfile << LV + "itemReq=[";
-					for (auto& m : L.m_ItemReq) {
-						outputfile << ItemData::Instance()->FindPtr(m.GetID())->GetName();
-						outputfile << "x" + std::to_string(m.GetCount());
-						if (&m != &L.m_ItemReq.back()) {
-							outputfile << ",";
+			m_LvData.clear();
+			for (auto& Ld : data["levels"]) {
+				m_LvData.resize(m_LvData.size() + 1);
+				auto& L = m_LvData.back();
+				L.constructionTime = Ld["constructionTime"];
+				L.Information_Eng = Ld["description"];
+				L.m_ItemReq.clear();
+				if (Ld.contains("itemRequirements")) {
+					if (!Ld["itemRequirements"].is_null()) {
+						for (const auto&m : Ld["itemRequirements"]) {
+							ItemGetData buf;
+							std::string Name = m["item"]["name"];
+							buf.Set(ItemData::Instance()->FindID(Name.c_str()), m["count"]);
+							L.m_ItemReq.emplace_back(buf);
 						}
 					}
-					outputfile << "]\n";
 				}
-				{
-					outputfile << LV + "stationLevelReq=[";
-					for (auto& m : L.m_HideoutReq) {
-						outputfile << HideoutData::Instance()->FindPtr(m.GetID())->GetName();
-						outputfile << "x" + std::to_string(m.GetLv());
-						if (&m != &L.m_HideoutReq.back()) {
-							outputfile << ",";
+				L.m_HideoutReq.clear();
+				if (Ld.contains("stationLevelRequirements")) {
+					if (!Ld["stationLevelRequirements"].is_null()) {
+						for (const auto&m : Ld["stationLevelRequirements"]) {
+							HideoutGetData buf;
+							buf.Set(m["station"]["name"], m["level"]);
+							L.m_HideoutReq.emplace_back(buf);
 						}
 					}
-					outputfile << "]\n";
 				}
-				for (auto& c : L.m_ItemCraft) {
-					outputfile << LV + "craftduration=" + std::to_string(c.durationTime) + "\n";
-					{
-						outputfile << LV + "craftitemReq=[";
-						for (auto& m : c.m_ItemReq) {
-							outputfile << ItemData::Instance()->FindPtr(m.GetID())->GetName();
-							outputfile << "x" + std::to_string(m.GetCount());
-							if (&m != &c.m_ItemReq.back()) {
-								outputfile << ",";
+				//
+				L.m_ItemCraft.clear();
+				for (auto& Cd : Ld["crafts"]) {
+					L.m_ItemCraft.resize(L.m_ItemCraft.size() + 1);
+					//
+					L.m_ItemCraft.back().durationTime = Cd["duration"];
+					//
+					L.m_ItemCraft.back().m_ItemReq.clear();
+					if (Cd.contains("requiredItems")) {
+						if (!Cd["requiredItems"].is_null()) {
+							for (const auto&m : Cd["requiredItems"]) {
+								ItemGetData buf;
+								std::string Name = m["item"]["name"];
+								buf.Set(ItemData::Instance()->FindID(Name.c_str()), m["count"]);
+								L.m_ItemCraft.back().m_ItemReq.emplace_back(buf);
 							}
 						}
-						outputfile << "]\n";
 					}
-					{
-						outputfile << LV + "craftitemReward=[";
-						for (auto& m : c.m_ItemReward) {
-							outputfile << ItemData::Instance()->FindPtr(m.GetID())->GetName();
-							outputfile << "x" + std::to_string(m.GetCount());
-							if (&m != &c.m_ItemReward.back()) {
-								outputfile << ",";
+					//
+					L.m_ItemCraft.back().m_ItemReward.clear();
+					if (Cd.contains("rewardItems")) {
+						if (!Cd["rewardItems"].is_null()) {
+							for (const auto&m : Cd["rewardItems"]) {
+								ItemGetData buf;
+								std::string Name = m["item"]["name"];
+								buf.Set(ItemData::Instance()->FindID(Name.c_str()), m["count"]);
+								L.m_ItemCraft.back().m_ItemReward.emplace_back(buf);
 							}
 						}
-						outputfile << "]\n";
 					}
+					//
 				}
-				//*/
 			}
-
 		}
 	};
 
@@ -270,7 +276,7 @@ namespace FPS_n2 {
 	public:
 		void GetJsonData(nlohmann::json& data) {
 			m_HideoutJsonData.clear();
-			for (const auto& d : data["data"]["Hideouts"]) {
+			for (const auto& d : data["data"]["hideoutStations"]) {
 				m_HideoutJsonData.resize(m_HideoutJsonData.size() + 1);
 				m_HideoutJsonData.back().GetJsonData(d);
 				m_HideoutJsonData.back().m_IsFileOpened = false;
@@ -307,7 +313,7 @@ namespace FPS_n2 {
 							{
 								outputfile << LV + "stationLevelReq=[";
 								for (auto& m : L2.m_HideoutReq) {
-									outputfile << HideoutData::Instance()->FindPtr(m.GetID())->GetName();
+									outputfile << m.GetID();
 									outputfile << "x" + std::to_string(m.GetLv());
 									if (&m != &L2.m_HideoutReq.back()) {
 										outputfile << ",";
@@ -399,7 +405,7 @@ namespace FPS_n2 {
 						{
 							outputfile << LV + "stationLevelReq=[";
 							for (auto& m : L.m_HideoutReq) {
-								outputfile << HideoutData::Instance()->FindPtr(m.GetID())->GetName();
+								outputfile << m.GetID();
 								outputfile << "x" + std::to_string(m.GetLv());
 								if (&m != &L.m_HideoutReq.back()) {
 									outputfile << ",";

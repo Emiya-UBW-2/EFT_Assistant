@@ -1,0 +1,14 @@
+IDstr=5d473c1e081959000e530190
+Name=Vents
+Lv1constructionTime=0
+Lv1Information_Eng=Ventilation duct suspended from the ceiling. The air duct passes through part of the room, providing the natural movement of air flows. It is necessary for the installation of "smoky" zones where the output of combustion products is required.
+Lv1itemReq=[Roublesx25000]
+Lv1stationLevelReq=[]
+Lv2constructionTime=10800
+Lv2Information_Eng=A basic ventilation duct with additional emergency bunker ventilation system of external airflow. Now, besides the removal of combustion products, there will be fresh air in the hideout.
+Lv2itemReq=[Electric motorx1,Car batteryx1,CPU fanx3,Metal spare partsx2]
+Lv2stationLevelReq=[Ventsx1]
+Lv3constructionTime=36000
+Lv3Information_Eng=A ventilation duct fitted with electric fans to increase the airflow rate. A complete air circulation system is needed for advanced production and chemical research.
+Lv3itemReq=[Electric motorx4,Bundle of wiresx14,Printed circuit boardx5,Car batteryx4,Metal spare partsx5]
+Lv3stationLevelReq=[Generatorx2,Ventsx2]
