@@ -26,5 +26,4 @@ DogTagLv=0
 
 Reward_Rep=Prapor+0.250000
 
-Reward_Rep=Prapor-0.250000
 Reward_EXP=0

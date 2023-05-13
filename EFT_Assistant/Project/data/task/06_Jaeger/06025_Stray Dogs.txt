@@ -45,4 +45,4 @@ Reward_Item=[
 	7.62x54mm R PS gzhx30
 ]
 
-Reward_EXP=12000
+Reward_EXP=30500

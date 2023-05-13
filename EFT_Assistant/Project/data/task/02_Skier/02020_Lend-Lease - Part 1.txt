@@ -2,7 +2,7 @@ IDstr=5b4794cb86f774598100d5d4
 Name=Lend-Lease - Part 1
 Trader=Skier
 
-NeedTask=Friend from the West - Part 2
+NeedTask=Humanitarian Supplies
 NeedLevel=25
 NeedItem=[Health Resort west wing room 216 keyx1,Health Resort east wing room 306 keyx1,Health Resort east wing room 308 keyx1]
 

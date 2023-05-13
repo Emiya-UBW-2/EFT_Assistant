@@ -3,7 +3,6 @@ Name=No Place for Renegades
 Trader=Prapor
 
 NeedTask=The Bunker - Part 2
-NeedTask=Ice Cream Cones
 NeedLevel=12
 
 CanRestart=false

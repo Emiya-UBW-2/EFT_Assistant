@@ -3,7 +3,7 @@ Name=Bullshit
 Trader=Skier
 
 NeedTask=Silent Caliber
-NeedLevel=27
+NeedLevel=30
 
 CanRestart=true
 NeedKappa=true

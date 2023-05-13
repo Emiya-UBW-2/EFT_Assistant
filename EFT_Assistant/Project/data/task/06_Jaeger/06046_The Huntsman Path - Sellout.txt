@@ -44,4 +44,4 @@ Reward_Item=[
 	Can of TarCola sodax5
 ]
 
-Reward_EXP=7200
+Reward_EXP=18000

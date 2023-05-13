@@ -3,7 +3,7 @@ Name=Long Road
 Trader=Skier
 
 NeedTask=Friend from the West - Part 2
-NeedLevel=9
+NeedLevel=20
 
 CanRestart=false
 NeedKappa=true

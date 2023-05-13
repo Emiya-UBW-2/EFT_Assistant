@@ -3,7 +3,7 @@ Name=The Bunker - Part 1
 Trader=Prapor
 
 NeedTask=BP Depot
-NeedLevel=5
+NeedLevel=10
 
 CanRestart=false
 NeedKappa=true

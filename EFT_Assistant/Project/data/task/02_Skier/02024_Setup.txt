@@ -3,7 +3,7 @@ Name=Setup
 Trader=Skier
 
 NeedTask=Bullshit
-NeedLevel=27
+NeedLevel=30
 
 CanRestart=false
 NeedKappa=true

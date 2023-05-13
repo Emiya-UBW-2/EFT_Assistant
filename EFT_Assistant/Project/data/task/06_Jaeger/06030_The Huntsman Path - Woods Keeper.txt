@@ -42,4 +42,4 @@ Reward_Item=[
 	TerraGroup Labs access keycardx3
 ]
 
-Reward_EXP=7300
+Reward_EXP=18000

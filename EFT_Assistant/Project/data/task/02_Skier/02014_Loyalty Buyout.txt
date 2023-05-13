@@ -2,7 +2,6 @@ IDstr=59c93e8e86f7742a406989c4
 Name=Loyalty Buyout
 Trader=Skier
 
-NeedTask=Out of Curiosity
 NeedTask=Chemical - Part 4
 NeedLevel=11
 

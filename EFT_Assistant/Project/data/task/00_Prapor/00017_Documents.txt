@@ -2,7 +2,6 @@ IDstr=60896b7bfa70fc097863b8f5
 Name=Documents
 Trader=Prapor
 
-NeedTask=Ice Cream Cones
 NeedTask=No Place for Renegades
 NeedLevel=12
 

@@ -27,4 +27,4 @@ Reward_Item=[
 	Weapon casex1
 ]
 
-Reward_EXP=8900
+Reward_EXP=18300

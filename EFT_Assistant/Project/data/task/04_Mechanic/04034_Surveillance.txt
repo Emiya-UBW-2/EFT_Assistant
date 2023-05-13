@@ -2,8 +2,8 @@ IDstr=639135e8c115f907b14700aa
 Name=Surveillance
 Trader=Mechanic
 
-NeedTask=Corporate Secrets
 NeedTask=Broadcast - Part 2
+NeedTask=Corporate Secrets
 NeedLevel=25
 
 CanRestart=false

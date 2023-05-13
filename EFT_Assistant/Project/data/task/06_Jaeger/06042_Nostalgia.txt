@@ -2,6 +2,7 @@ IDstr=5d25e4ad86f77443e625e387
 Name=Nostalgia
 Trader=Jaeger
 
+NeedTask=Spa Tour - Part 3
 NeedTask=Courtesy Visit
 NeedLevel=28
 

@@ -2,6 +2,7 @@ IDstr=60e71ccb5688f6424c7bfec4
 Name=Trophies
 Trader=Peacekeeper
 
+NeedTask=The Guide
 NeedLevel=55
 
 CanRestart=false

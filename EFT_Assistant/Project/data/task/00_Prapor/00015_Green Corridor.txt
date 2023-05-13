@@ -3,7 +3,7 @@ Name=Green Corridor
 Trader=Prapor
 
 NeedTask=Spa Tour - Part 7
-NeedLevel=12
+NeedLevel=20
 
 CanRestart=false
 NeedKappa=false

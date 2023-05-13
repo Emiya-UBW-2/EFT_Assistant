@@ -3,7 +3,7 @@ Name=Safe Corridor
 Trader=Skier
 
 NeedTask=Chemical - Part 4
-NeedLevel=11
+NeedLevel=15
 
 CanRestart=false
 NeedKappa=true

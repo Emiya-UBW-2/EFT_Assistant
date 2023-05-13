@@ -2,6 +2,7 @@ IDstr=600302d73b897b11364cd161
 Name=Hunter
 Trader=Jaeger
 
+NeedTask=The Huntsman Path - Secured Perimeter
 NeedLevel=33
 
 CanRestart=false

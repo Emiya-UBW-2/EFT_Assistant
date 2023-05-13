@@ -2,6 +2,7 @@ IDstr=5c0d1c4cd0928202a02a6f5c
 Name=Decontamination Service
 Trader=Therapist
 
+NeedTask=Health Care Privacy - Part 5
 NeedTask=Private Clinic
 NeedLevel=35
 

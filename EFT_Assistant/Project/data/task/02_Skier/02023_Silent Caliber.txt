@@ -3,7 +3,7 @@ Name=Silent Caliber
 Trader=Skier
 
 NeedTask=Chumming
-NeedLevel=27
+NeedLevel=30
 
 CanRestart=false
 NeedKappa=true

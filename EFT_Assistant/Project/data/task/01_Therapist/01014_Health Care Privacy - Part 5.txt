@@ -6,8 +6,8 @@ NeedTask=Health Care Privacy - Part 4
 NeedLevel=10
 
 CanRestart=false
-NeedKappa=false
-NeedLightkeeper=false
+NeedKappa=true
+NeedLightkeeper=true
 
 Task_Map=Night Factory
 Task_Else=TaskType:visit

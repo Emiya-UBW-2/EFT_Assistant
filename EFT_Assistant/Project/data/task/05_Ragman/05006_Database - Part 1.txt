@@ -2,8 +2,8 @@ IDstr=5ae4493486f7744efa289417
 Name=Database - Part 1
 Trader=Ragman
 
-NeedTask=Make ULTRA Great Again
 NeedTask=Big Sale
+NeedTask=Make ULTRA Great Again
 NeedLevel=17
 
 CanRestart=false

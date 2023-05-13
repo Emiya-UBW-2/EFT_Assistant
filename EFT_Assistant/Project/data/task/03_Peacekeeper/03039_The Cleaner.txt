@@ -3,7 +3,7 @@ Name=The Cleaner
 Trader=Peacekeeper
 
 NeedTask=The Guide
-NeedLevel=40
+NeedLevel=45
 
 CanRestart=false
 NeedKappa=false

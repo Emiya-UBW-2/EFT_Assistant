@@ -27,4 +27,4 @@ Reward_Item=[
 	WD-40 (400ml)x1
 ]
 
-Reward_EXP=7200
+Reward_EXP=12300

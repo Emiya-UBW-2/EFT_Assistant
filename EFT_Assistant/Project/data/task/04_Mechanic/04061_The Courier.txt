@@ -3,7 +3,7 @@ Name=The Courier
 Trader=Mechanic
 
 NeedTask=Calibration
-NeedLevel=47
+NeedLevel=52
 
 CanRestart=false
 NeedKappa=false
@@ -31,4 +31,4 @@ Reward_Item=[
 Reward_SkillLevelUp=Crafting+1
 Reward_SkillLevelUp=Intellect+1
 
-Reward_EXP=115000
+Reward_EXP=137000

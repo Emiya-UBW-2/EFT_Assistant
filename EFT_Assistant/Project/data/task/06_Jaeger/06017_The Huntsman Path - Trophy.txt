@@ -41,4 +41,4 @@ Reward_Item=[
 	Piece of plexiglassx5
 ]
 
-Reward_EXP=7100
+Reward_EXP=15300

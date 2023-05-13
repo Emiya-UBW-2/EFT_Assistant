@@ -2,8 +2,8 @@ IDstr=5ae448f286f77448d73c0131
 Name=The Blood of War - Part 1
 Trader=Ragman
 
-NeedTask=Make ULTRA Great Again
 NeedTask=Big Sale
+NeedTask=Make ULTRA Great Again
 NeedLevel=17
 
 CanRestart=false
