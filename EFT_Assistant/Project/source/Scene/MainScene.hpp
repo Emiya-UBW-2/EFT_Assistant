@@ -238,7 +238,7 @@ namespace FPS_n2 {
 			else {
 				m_NoneActiveTimes = 5.f;
 			}
-			//m_NoneActiveTimes = 5.f;
+			m_NoneActiveTimes = 5.f;
 			//SetDraw
 			{
 				int Xsize = DrawParts->m_DispXSize;

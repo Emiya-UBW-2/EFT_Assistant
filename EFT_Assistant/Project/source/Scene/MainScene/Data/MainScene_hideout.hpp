@@ -42,7 +42,8 @@ namespace FPS_n2 {
 		int											constructionTime{ 0 };
 		std::string									Information_Eng;
 		std::vector<ItemGetData>					m_ItemReq;
-		std::vector<HideoutGetData>					m_HideoutReq;
+		std::vector<HideoutGetData>					m_Parent;
+		std::vector<HideoutGetData>					m_Child;
 		//クラフトデータ
 		std::vector<CraftData>						m_ItemCraft;
 	};
@@ -76,19 +77,19 @@ namespace FPS_n2 {
 						SetItem(&m_LvData.at(ID).m_ItemReq, RIGHT);
 					}
 				}
-				if (LEFTBuf == "hideoutReq") {
+				if (LEFTBuf == "stationLevelReq") {
 					if (Args.size() > 0) {
 						for (auto&a : Args) {
 							if (a == "or") {
 
 							}
 							else {
-								SetHideoutLv(&m_LvData.at(ID).m_HideoutReq, a);
+								SetHideoutLv(&m_LvData.at(ID).m_Parent, a);
 							}
 						}
 					}
 					else {
-						SetHideoutLv(&m_LvData.at(ID).m_HideoutReq, RIGHT);
+						SetHideoutLv(&m_LvData.at(ID).m_Parent, RIGHT);
 					}
 				}
 				//クラフトレシピ
@@ -128,7 +129,9 @@ namespace FPS_n2 {
 				//
 			}
 		}
-		void	Load_Sub() noexcept override {}
+		void	Load_Sub() noexcept override {
+		
+		}
 		void	WhenAfterLoad_Sub() noexcept override {}
 	public:
 		int										m_CheckJson{ 0 };
@@ -171,6 +174,28 @@ namespace FPS_n2 {
 				*ys = std::max(*ys, yofs - LineHeight);
 			}
 		}
+		void			SetOtherPartsID(const std::vector<HideoutList>& HideoutList) noexcept {
+			for (auto& D : m_LvData) {
+				int DLv = (int)(&D - &m_LvData.front()) + 1;
+				D.m_Child.clear();
+				for (const auto&L : HideoutList) {
+					for (const auto& C : L.GetLvData()) {
+						int Lv = (int)(&C - &L.GetLvData().front()) + 1;
+						for (const auto& P : C.m_Parent) {
+							if (
+								(GetName() == P.GetID()) && (DLv == P.GetLv())
+								) {
+								//自分が子のパーツの親です
+								HideoutGetData buf;
+								buf.Set(L.GetName(), Lv);
+								D.m_Child.emplace_back(buf);
+							}
+						}
+					}
+				}
+			}
+			//
+		}
 	};
 
 	class HideoutJsonData {
@@ -202,13 +227,13 @@ namespace FPS_n2 {
 						}
 					}
 				}
-				L.m_HideoutReq.clear();
+				L.m_Parent.clear();
 				if (Ld.contains("stationLevelRequirements")) {
 					if (!Ld["stationLevelRequirements"].is_null()) {
 						for (const auto&m : Ld["stationLevelRequirements"]) {
 							HideoutGetData buf;
 							buf.Set(m["station"]["name"], m["level"]);
-							L.m_HideoutReq.emplace_back(buf);
+							L.m_Parent.emplace_back(buf);
 						}
 					}
 				}
@@ -267,6 +292,9 @@ namespace FPS_n2 {
 				}
 			}
 			for (auto& t : m_List) {
+				t.SetOtherPartsID(m_List);
+			}
+			for (auto& t : m_List) {
 				t.m_CheckJson = 0;
 			}
 		}
@@ -312,10 +340,10 @@ namespace FPS_n2 {
 							}
 							{
 								outputfile << LV + "stationLevelReq=[";
-								for (auto& m : L2.m_HideoutReq) {
+								for (auto& m : L2.m_Parent) {
 									outputfile << m.GetID();
 									outputfile << "x" + std::to_string(m.GetLv());
-									if (&m != &L2.m_HideoutReq.back()) {
+									if (&m != &L2.m_Parent.back()) {
 										outputfile << ",";
 									}
 								}
@@ -404,10 +432,10 @@ namespace FPS_n2 {
 						}
 						{
 							outputfile << LV + "stationLevelReq=[";
-							for (auto& m : L.m_HideoutReq) {
+							for (auto& m : L.m_Parent) {
 								outputfile << m.GetID();
 								outputfile << "x" + std::to_string(m.GetLv());
-								if (&m != &L.m_HideoutReq.back()) {
+								if (&m != &L.m_Parent.back()) {
 									outputfile << ",";
 								}
 							}
@@ -466,7 +494,7 @@ namespace FPS_n2 {
 		}
 	};
 
-	const int		HideoutList::Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive) const noexcept {
+	const int		HideoutList::Draw(int xp, int yp, int xsize, int ysize, int Lv, unsigned int defaultcolor, bool Clickactive) const noexcept {
 		auto* WindowMngr = WindowSystem::WindowManager::Instance();
 		auto* Input = InputControl::Instance();
 		int xs = xsize;
@@ -484,10 +512,10 @@ namespace FPS_n2 {
 		auto Name = this->GetShortName();
 		{
 			if (xsize > 0) {
-				int countbuf = 0;
+				int Lvbuf = 0;
 				while (true) {
-					if (count > 0) {
-						Xsize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, "%s x%2d", Name.c_str(), count);
+					if (Lv > 0) {
+						Xsize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, "%s Lv%1d", Name.c_str(), Lv);
 					}
 					else {
 						Xsize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, "%s", Name.c_str());
@@ -498,8 +526,8 @@ namespace FPS_n2 {
 					else {
 						break;
 					}
-					countbuf++;
-					if (countbuf > 100) {
+					Lvbuf++;
+					if (Lvbuf > 100) {
 						Name = "…";
 						Xsize = LineHeight * 9 / 10;
 						break;
@@ -507,8 +535,8 @@ namespace FPS_n2 {
 				}
 			}
 			else {
-				if (count > 0) {
-					Xsize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, "%s x%2d", Name.c_str(), count);
+				if (Lv > 0) {
+					Xsize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, "%s Lv%1d", Name.c_str(), Lv);
 				}
 				else {
 					Xsize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, "%s", Name.c_str());
@@ -516,6 +544,11 @@ namespace FPS_n2 {
 			}
 			xs = std::max(xs, Xsize);
 		}
+
+		if (m_LvData.at(Lv - 1).m_ItemCraft.size() > 0) {
+			defaultcolor = Green;//クラフトできるアイテムがあります//ビットコインは除外？
+		}
+
 
 		if (WindowSystem::ClickCheckBox(xp, yp, xp + xs, yp + ysize, false, Clickactive, defaultcolor, "")) {
 			auto sizeXBuf = y_r(800);
@@ -545,8 +578,8 @@ namespace FPS_n2 {
 			}
 		}
 		{
-			if (count > 0) {
-				WindowSystem::SetMsg(xp + FirSize, yp, xp + FirSize, yp + ysize, LineHeight * 9 / 10, STRX_LEFT, White, Black, "%s x%2d", Name.c_str(), count);
+			if (Lv > 0) {
+				WindowSystem::SetMsg(xp + FirSize, yp, xp + FirSize, yp + ysize, LineHeight * 9 / 10, STRX_LEFT, White, Black, "%s Lv%1d", Name.c_str(), Lv);
 			}
 			else {
 				WindowSystem::SetMsg(xp + FirSize, yp, xp + FirSize, yp + ysize, LineHeight * 9 / 10, STRX_LEFT, White, Black, "%s", Name.c_str());
