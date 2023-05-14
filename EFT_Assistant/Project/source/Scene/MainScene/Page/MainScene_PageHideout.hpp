@@ -28,6 +28,8 @@ namespace FPS_n2 {
 		}
 
 		bool DrawHideoutList(HideoutID MyID, int MyLv, int xpos, int* ypos, int xsize, int ysize) noexcept {
+			auto* WindowMngr = WindowSystem::WindowManager::Instance();
+
 			auto IdDrew = std::find_if(isDrew.begin(), isDrew.end(), [&](const auto& tgt) {return tgt.first == MyID; });
 			if (IdDrew == isDrew.end()) { return false; }
 			if (IdDrew->second.at(MyLv - 1).IsDrew == true) { return false; }
@@ -37,7 +39,7 @@ namespace FPS_n2 {
 			IdDrew->second.at(MyLv - 1).IsDrew = true;
 			IdDrew->second.at(MyLv - 1).xpos = xpos;
 			IdDrew->second.at(MyLv - 1).ypos = *ypos;
-			const auto& L = *HideoutData::Instance()->FindPtr(MyID);
+			auto& L = *HideoutData::Instance()->FindPtr(MyID);
 			//親が同施設の前レベ以外の時そいつの子にもなれるようにXをずらす
 			for (auto& P : L.GetLvData().at(MyLv - 1).m_Parent) {
 				auto IdDrewParent = std::find_if(isDrew.begin(), isDrew.end(), [&](const auto& tgt) {return tgt.first == HideoutData::Instance()->FindID(P.GetID().c_str()); });
@@ -73,7 +75,7 @@ namespace FPS_n2 {
 			}
 			DrawLineCount +=3;
 
-			L.Draw(xpos, *ypos, xsize, ysize, MyLv, Gray15, true);
+			L.Draw(xpos, *ypos, xsize, ysize, MyLv, Gray15, !WindowMngr->PosHitCheck(nullptr));
 			for (auto& C : L.GetLvData().at(MyLv-1).m_Child) {
 				int TmpYPos = *ypos;
 				if (DrawHideoutList(HideoutData::Instance()->FindID(C.GetID().c_str()), C.GetLv(), xpos + xsize + y_r(100), &TmpYPos, xsize, ysize)) {
