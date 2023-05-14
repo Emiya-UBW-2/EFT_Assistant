@@ -1267,6 +1267,7 @@ namespace FPS_n2 {
 				}
 			}
 		}
+		Xsize = std::max(Xsize, xs);
 		return Xsize;
 	}
 

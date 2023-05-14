@@ -102,6 +102,7 @@ namespace FPS_n2 {
 			}
 		}
 		void DrawFront_Sub(int, int, float) noexcept override {
+			auto* Input = InputControl::Instance();
 			//
 			{
 				int xp = y_r(10);
@@ -109,6 +110,14 @@ namespace FPS_n2 {
 				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(200), yp + LineHeight, false, true, Gray25, "戻る")) {
 					TurnOnGoNextBG();
 				}
+			}
+			//
+			if (!Input->GetCtrlKey().press()) {
+				DrawControl::Instance()->SetString(DrawLayer::Front,
+					FontPool::FontType::Nomal_Edge, LineHeight,
+					STRX_RIGHT, STRY_BOTTOM, Input->GetMouseX(), Input->GetMouseY(), RedPop, Black,
+					"LCtrl中に施設クリックでアンロック条件を表示"
+				);
 			}
 		}
 		void Dispose_Sub(void) noexcept override {
