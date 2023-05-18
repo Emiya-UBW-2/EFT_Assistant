@@ -19,6 +19,7 @@
     }
     traderRequirements{
       trader{name}
+      level
     }
     crafts{
       taskUnlock{name}

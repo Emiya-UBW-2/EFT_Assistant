@@ -30,6 +30,32 @@ namespace FPS_n2 {
 		}
 	};
 
+	
+	class TraderGetData {
+		TraderID			m_ID;
+		int					m_Lv{ 0 };
+	public:
+		const auto&		GetID() const noexcept { return m_ID; }
+		const auto&		GetLv() const noexcept { return m_Lv; }
+		void			Set(const std::string& name, int lv) noexcept {
+			m_ID = TraderData::Instance()->FindID(name.c_str());
+			m_Lv = lv;
+		}
+	};
+	void			SetTraderLv(std::vector<TraderGetData>* Data, const std::string& mes) noexcept {
+		auto L = mes.rfind("x");
+		if (L != std::string::npos) {
+			auto ID = mes.substr(0, L);
+			if (std::find_if(Data->begin(), Data->end(), [&](const TraderGetData& obj) {return obj.GetID() == TraderData::Instance()->FindID(ID.c_str()); }) == Data->end()) {
+				TraderGetData tmp;
+				tmp.Set(ID, std::stoi(mes.substr(L + 1)));
+				Data->emplace_back(tmp);
+			}
+		}
+		else {
+			//int a = 0;
+		}
+	};
 
 	struct CraftData {
 		int											durationTime{ 0 };
@@ -42,6 +68,7 @@ namespace FPS_n2 {
 		int											constructionTime{ 0 };
 		std::string									Information_Eng;
 		std::vector<ItemGetData>					m_ItemReq;
+		std::vector<TraderGetData>					m_TraderReq;
 		std::vector<HideoutGetData>					m_Parent;
 		std::vector<HideoutGetData>					m_Child;
 		//クラフトデータ
@@ -91,6 +118,21 @@ namespace FPS_n2 {
 					}
 					else {
 						SetHideoutLv(&m_LvData.at(ID).m_Parent, RIGHT);
+					}
+				}
+				if (LEFTBuf == "traderRequirements") {
+					if (Args.size() > 0) {
+						for (auto&a : Args) {
+							if (a == "or") {
+
+							}
+							else {
+								SetTraderLv(&m_LvData.at(ID).m_TraderReq, a);
+							}
+						}
+					}
+					else {
+						SetTraderLv(&m_LvData.at(ID).m_TraderReq, RIGHT);
 					}
 				}
 				//クラフトレシピ
@@ -206,6 +248,16 @@ namespace FPS_n2 {
 						}
 					}
 				}
+				L.m_TraderReq.clear();
+				if (Ld.contains("traderRequirements")) {
+					if (!Ld["traderRequirements"].is_null()) {
+						for (const auto&m : Ld["traderRequirements"]) {
+							TraderGetData buf;
+							buf.Set(m["trader"]["name"], m["level"]);//todo:levelが廃止予定
+							L.m_TraderReq.emplace_back(buf);
+						}
+					}
+				}
 				//
 				L.m_ItemCraft.clear();
 				for (auto& Cd : Ld["crafts"]) {
@@ -318,6 +370,17 @@ namespace FPS_n2 {
 								}
 								outputfile << "]\n";
 							}
+							{
+								outputfile << LV + "traderRequirements=[";
+								for (auto& m : L2.m_TraderReq) {
+									outputfile << TraderData::Instance()->FindPtr(m.GetID())->GetName();
+									outputfile << "x" + std::to_string(m.GetLv());
+									if (&m != &L2.m_TraderReq.back()) {
+										outputfile << ",";
+									}
+								}
+								outputfile << "]\n";
+							}
 							for (auto& c : L2.m_ItemCraft) {
 								outputfile << LV + "craftduration=" + std::to_string(c.durationTime) + "\n";
 								{
@@ -405,6 +468,17 @@ namespace FPS_n2 {
 								outputfile << m.GetID();
 								outputfile << "x" + std::to_string(m.GetLv());
 								if (&m != &L.m_Parent.back()) {
+									outputfile << ",";
+								}
+							}
+							outputfile << "]\n";
+						}
+						{
+							outputfile << LV + "traderRequirements=[";
+							for (auto& m : L.m_TraderReq) {
+								outputfile << TraderData::Instance()->FindPtr(m.GetID())->GetName();
+								outputfile << "x" + std::to_string(m.GetLv());
+								if (&m != &L.m_TraderReq.back()) {
 									outputfile << ",";
 								}
 							}
@@ -628,6 +702,33 @@ namespace FPS_n2 {
 							xofs_buf = xofs + y_r(10);
 							int xstart = xp + xofs_buf;
 							xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs_buf, y_r(300), ysize, I.GetLv(), defaultcolor, !WindowMngr->PosHitCheck(window));
+							DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xstart, yp + yofs_buf, xp + xofs_buf, yp + yofs_buf + ysize, Gray75, false);
+							yofs_buf += ysize + y_r(5);
+						}
+					}
+				}
+				{
+					xofs_buf = std::max(xofs_buf, xofs + y_r(300));
+				}
+				xofs = std::max(xofs, xofs_buf + y_r(10));
+				yofs = std::max(yofs, yofs_buf + y_r(10));
+			}
+			if (m_LvData.at(Lv - 1).m_TraderReq.size() > 0) {
+				int xofs_buf = xofs + y_r(10);
+				int yofs_buf = yofs_OLD;
+				{
+					for (const auto& I : m_LvData.at(Lv - 1).m_TraderReq) {
+						auto* ptr = TraderData::Instance()->FindPtr(I.GetID());
+						if (ptr) {
+							xofs_buf = xofs + y_r(10);
+							int xstart = xp + xofs_buf;
+
+							if (WindowSystem::ClickCheckBox(
+								xp + xofs_buf, yp + yofs_buf,
+								xp + xofs_buf + y_r(300), yp + yofs_buf + ysize,
+								false, !WindowMngr->PosHitCheck(nullptr), defaultcolor, ptr->GetName()+" Lv"+std::to_string(I.GetLv()))) {
+							}
+							xofs_buf += y_r(300);
 							DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xstart, yp + yofs_buf, xp + xofs_buf, yp + yofs_buf + ysize, Gray75, false);
 							yofs_buf += ysize + y_r(5);
 						}
