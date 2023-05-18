@@ -76,7 +76,7 @@ Task_Kill=[
 
 [
 	TaskType=shoot
-	TaskText=5f04539a29383318cb417b44
+	TaskText=You must not complete the quest
 	TaskOptional=false
 ]
 

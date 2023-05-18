@@ -13,8 +13,8 @@ Task_Map=Woods
 Task_Kill=[
 	Woods-Scavs{head}x15
 ]
-Task_Else=©•ª‚ÌŠY“–‰ÓŠ‚ÉˆÙíó‘Ô:[Head]
-Task_Else=©•ª‚ÌˆÙíó‘Ô:[Stimulator]
+Task_Else=©•ª‚ÌŠY“–‰ÓŠ‚ÉˆÙíó‘Ô:[head]
+Task_Else=©•ª‚ÌˆÙíó‘Ô:[Stimulant]
 
 [
 	TaskType=shoot

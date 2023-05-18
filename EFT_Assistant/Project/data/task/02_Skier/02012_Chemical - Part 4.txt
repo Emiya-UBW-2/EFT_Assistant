@@ -49,12 +49,12 @@ Task_Else=ŠY“–ƒ^ƒXƒNó‘Ô:complete
 
 [
 	TaskType=taskStatus
-	TaskText=597a19ff86f774792c2e36f2
+	TaskText=You must not complete the quest
 	TaskOptional=false
 ]
 [
 	TaskType=taskStatus
-	TaskText=597a1a0486f774779c70e8a6
+	TaskText=You must not complete the quest
 	TaskOptional=false
 ]
 

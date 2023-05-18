@@ -3,7 +3,7 @@ Name=Gunsmith - Part 15
 Trader=Mechanic
 
 NeedTask=Gunsmith - Part 14
-NeedLevel=27
+NeedLevel=29
 
 CanRestart=false
 NeedKappa=true
