@@ -78,6 +78,7 @@ namespace FPS_n2 {
 	class HideoutList : public ListParent<HideoutID> {
 		std::vector<LvData> m_LvData;
 		int m_DrawWindowLv{ 1 };
+		int m_DrawScroll{ 0 };
 	private:
 		//追加設定
 		void	Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept override {
@@ -184,7 +185,7 @@ namespace FPS_n2 {
 	public:
 		const int		Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive) noexcept;
 		void			DrawUnlockWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int Lv, int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept;
-		void			DrawCraftWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int Lv, int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept;
+		void			DrawCraftWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int Lv, int xp, int yp, int *xs = nullptr, int* ys = nullptr, int size = 10) noexcept;
 		void			SetOtherPartsID(const std::vector<HideoutList>& HideoutList) noexcept {
 			for (auto& D : m_LvData) {
 				int DLv = (int)(&D - &m_LvData.front()) + 1;
@@ -596,23 +597,19 @@ namespace FPS_n2 {
 		if (WindowSystem::ClickCheckBox(xp, yp, xp + xs, yp + ysize, false, Clickactive, defaultcolor, "")) {
 			auto sizeXBuf = y_r(800);
 			auto sizeYBuf = y_r(0);
+
+			m_DrawScroll = 0;
 			if (Input->GetCtrlKey().press()) {
 				DrawUnlockWindow(nullptr, 0, Lv, 0, 0, &sizeXBuf, &sizeYBuf);//試しにサイズ計測
 			}
 			else {
-				DrawCraftWindow(nullptr, 0, Lv, 0, 0, &sizeXBuf, &sizeYBuf);//試しにサイズ計測
+				DrawCraftWindow(nullptr, 0, Lv, 0, 0, &sizeXBuf, &sizeYBuf, 100);//試しにサイズ計測
 			}
 			//
 			signed long long FreeID = GetID() + 0xFFFF;
 			//同じIDの奴いたら消そうぜ
-			int Size = (int)WindowMngr->Get().size();
+			WindowMngr->DeleteAll();
 			bool isHit = false;
-			for (int i = 0; i < Size; i++) {
-				if (WindowMngr->Get()[i]->m_FreeID == FreeID) {
-					WindowMngr->Get()[i]->m_isDelete = true;
-					break;
-				}
-			}
 			if (Input->GetMouseY() <= LineHeight) {
 				isHit = true;
 			}
@@ -763,8 +760,9 @@ namespace FPS_n2 {
 			*ys = std::max(*ys, yofs - LineHeight);
 		}
 	}
-	void			HideoutList::DrawCraftWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int Lv, int xp, int yp, int *xs, int* ys) const noexcept {
+	void			HideoutList::DrawCraftWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int Lv, int xp, int yp, int *xs, int* ys,int size) noexcept {
 		auto* WindowMngr = WindowSystem::WindowManager::Instance();
+		auto* Input = InputControl::Instance();
 		//auto* InterParts = InterruptParts::Instance();
 		int xofs = 0;
 		int yofs = LineHeight;
@@ -775,8 +773,15 @@ namespace FPS_n2 {
 		if (Lv >= 1) {
 			if (m_LvData.at(Lv - 1).m_ItemCraft.size() > 0) {
 				int xofs_buf = y_r(10);
-				int ysize = (int)((float)y_r(64));
-				for (const auto& cf : m_LvData.at(Lv - 1).m_ItemCraft) {
+				int ysize = (int)((float)y_r(48));
+
+				int ofset = m_DrawScroll;
+				int Max = (int)(m_LvData.at(Lv - 1).m_ItemCraft.size());
+
+				auto OLD = yofs;
+				for (int loop = 0; loop < std::min(size, Max - ofset); loop++) {
+					int index = loop + ofset;
+					const auto& cf = m_LvData.at(Lv - 1).m_ItemCraft[index];
 					xofs_buf = y_r(10);
 					{
 						for (const auto& I : cf.m_ItemReq) {
@@ -789,7 +794,7 @@ namespace FPS_n2 {
 						}
 					}
 					{
-						xofs_buf = std::max(xofs_buf, y_r(10) + y_r(640));
+						xofs_buf = std::max(xofs_buf, y_r(10) + ysize * 10);
 						xofs_buf += WindowSystem::SetMsg(xp + xofs_buf, yp + yofs, xp + 0, yp + yofs + ysize, LineHeight * 9 / 10, STRX_LEFT, White, Black,
 							">%01d:%02d:%02d>", (cf.durationTime / 60 / 60), (cf.durationTime / 60) % 60, cf.durationTime % 60);
 						xofs_buf += y_r(30);
@@ -806,6 +811,10 @@ namespace FPS_n2 {
 					}
 					xofs = std::max(xofs, xofs_buf + y_r(10));
 					yofs += ysize + y_r(5);
+				}
+				yofs = OLD + (ysize + y_r(5)) * 10;
+				if (window && window->GetIsActive()) {
+					m_DrawScroll = std::clamp(m_DrawScroll - Input->GetWheelAdd(), 0, std::max(0, Max - 10));
 				}
 			}
 		}
