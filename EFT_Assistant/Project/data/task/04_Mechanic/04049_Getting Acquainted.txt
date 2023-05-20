@@ -42,7 +42,7 @@ Task_Else=TraderStanding‚Ìè‡’l: <= 0
 
 [
 	TaskType=traderStanding
-	TaskText=You must not complete the quest
+	TaskText=
 	TaskOptional=false
 ]
 
