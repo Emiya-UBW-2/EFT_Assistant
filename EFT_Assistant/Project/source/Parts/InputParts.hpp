@@ -22,6 +22,7 @@ namespace FPS_n2 {
 		std::array<switchs, 26>	m_AtoZKey;
 
 		int						m_WheelAdd{ 0 };
+		bool					m_ScaleActive{ true };
 	private:
 		InputControl(void) noexcept {
 			m_LeftClick.Set(false);
@@ -56,6 +57,8 @@ namespace FPS_n2 {
 		}
 
 		const auto&		GetWheelAdd(void) const noexcept { return this->m_WheelAdd; }
+		const auto&		GetScaleActive(void) const noexcept { return this->m_ScaleActive; }
+		void			SetScaleActive(bool value) noexcept { this->m_ScaleActive = value; }
 		void	SetMouse(void) noexcept {
 			GetMousePoint(&this->m_mouse_x, &this->m_mouse_y);
 		}

@@ -116,5 +116,14 @@
     <ClCompile Include="source\main.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
+    <ClCompile Include="source\Scene\MainScene\Data\MainScene_Item.cpp">
+      <Filter>ソース ファイル\Scene\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene\MainScene\Data\MainScene_hideout.cpp">
+      <Filter>ソース ファイル\Scene\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene\MainScene\Data\MainScene_Trader.cpp">
+      <Filter>ソース ファイル\Scene\Data</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

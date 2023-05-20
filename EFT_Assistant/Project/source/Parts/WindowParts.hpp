@@ -62,7 +62,7 @@ namespace FPS_n2 {
 		};
 		//
 		template <typename... Args>
-		bool ClickCheckBox(int xp1, int yp1, int xp2, int yp2, bool isrepeat, bool IsActive, unsigned int defaultcolor, std::string_view String, Args&&... args) {
+		static bool ClickCheckBox(int xp1, int yp1, int xp2, int yp2, bool isrepeat, bool IsActive, unsigned int defaultcolor, std::string_view String, Args&&... args) {
 			auto* Input = InputControl::Instance();
 			unsigned int color = defaultcolor;
 			bool isHit = false;
@@ -89,7 +89,7 @@ namespace FPS_n2 {
 			return isHit;
 		};
 
-		bool CloseButton(int xp1, int yp1) {
+		static bool CloseButton(int xp1, int yp1) {
 			auto* Input = InputControl::Instance();
 			int xp3 = xp1 + EdgeSize;
 			int yp3 = yp1 + EdgeSize;
@@ -110,7 +110,7 @@ namespace FPS_n2 {
 			return ans;
 		}
 
-		void CheckBox(int xp1, int yp1, bool* switchturn) {
+		static void CheckBox(int xp1, int yp1, bool* switchturn) {
 			auto* Input = InputControl::Instance();
 			int xp3 = xp1 + EdgeSize;
 			int yp3 = yp1 + EdgeSize;
@@ -133,7 +133,7 @@ namespace FPS_n2 {
 			DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xp3, yp3, xp4, yp4, color, true);
 		}
 
-		void	UpDownBar(int xmin, int xmax, int yp, int* value, int valueMin, int valueMax) {
+		static void	UpDownBar(int xmin, int xmax, int yp, int* value, int valueMin, int valueMax) {
 			int xp = 0;
 			{
 				int xpmin = xmin + LineHeight + 1;

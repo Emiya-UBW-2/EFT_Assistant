@@ -18,7 +18,8 @@ namespace FPS_n2 {
 		void Init_Sub(int*, int*, float*) noexcept override {
 			m_Select = (BGSelect)0;
 		}
-		void LateExecute_Sub(int*, int*, float*) noexcept override {}
+		void LateExecute_Sub(int*, int*, float*) noexcept override {
+		}
 		void Draw_Back_Sub(int, int, float) noexcept override {
 			int xpos = y_r(960);
 			int ypos = y_r(540);

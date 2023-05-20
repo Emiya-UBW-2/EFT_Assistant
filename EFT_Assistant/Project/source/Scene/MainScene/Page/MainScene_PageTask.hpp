@@ -37,7 +37,7 @@ namespace FPS_n2 {
 				m_posxMaxBuffer = 0;
 				m_posyMaxBuffer = 0;
 			}
-			for (const auto& tasks : TaskData::Instance()->GetTaskList()) {
+			for (const auto& tasks : TaskData::Instance()->GetList()) {
 				bool IsTrue = false;
 				if (std::find_if(m_Drawed.begin(), m_Drawed.end(), [&](const TaskID& obj) {return obj == tasks.GetID(); }) == m_Drawed.end()) {
 					if (!IsTrue && tasks.GetTaskNeedData().GetParenttaskID().size() == 0 && ParentID == InvalidID) {
@@ -192,7 +192,7 @@ namespace FPS_n2 {
 			{
 				std::vector<std::vector<std::pair<ItemID, int>>> Counter;
 				Counter.resize(ItemTypeData::Instance()->GetList().size());
-				for (const auto& tasks : TaskData::Instance()->GetTaskList()) {
+				for (const auto& tasks : TaskData::Instance()->GetList()) {
 					bool IsChecktask = true;
 					if (m_IsNeedKappa) {//河童必要タスクだけ書く
 						if (!tasks.GetTaskNeedData().GetKappaRequired()) {
@@ -272,7 +272,7 @@ namespace FPS_n2 {
 			{
 				std::vector<std::vector<std::pair<ItemID, int>>> Counter;
 				Counter.resize(ItemTypeData::Instance()->GetList().size());
-				for (const auto& tasks : TaskData::Instance()->GetTaskList()) {
+				for (const auto& tasks : TaskData::Instance()->GetList()) {
 					bool IsChecktask = true;
 					if (m_IsNeedKappa) {//河童必要タスクだけ書く
 						if (!tasks.GetTaskNeedData().GetKappaRequired()) {

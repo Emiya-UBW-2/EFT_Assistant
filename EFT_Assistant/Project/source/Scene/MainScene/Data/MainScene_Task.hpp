@@ -340,7 +340,7 @@ namespace FPS_n2 {
 				yofs += LineHeight;
 				for (const auto& LL : m_TaskNeedData.GetItem()) {
 					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
-					int total_size = y_r(92);
+					int total_size = y_r(48);
 					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window), false, true, false) + y_r(30));
 					yofs += total_size;
 				}
@@ -370,7 +370,7 @@ namespace FPS_n2 {
 				yofs += LineHeight;
 				for (const auto& LL : m_TaskWorkData.GetFiR_Item()) {
 					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
-					int total_size = y_r(92);
+					int total_size = y_r(48);
 					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window), true, true, false) + y_r(30));
 					yofs += total_size;
 				}
@@ -380,7 +380,7 @@ namespace FPS_n2 {
 				yofs += LineHeight;
 				for (const auto& LL : m_TaskWorkData.GetNotFiR_Item()) {
 					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
-					int total_size = y_r(92);
+					int total_size = y_r(48);
 					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window), false, true, false) + y_r(30));
 					yofs += total_size;
 				}
@@ -427,7 +427,7 @@ namespace FPS_n2 {
 			if (m_TaskRewardData.GetItem().size() > 0) {
 				for (const auto& LL : m_TaskRewardData.GetItem()) {
 					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
-					int total_size = y_r(92);
+					int total_size = y_r(48);
 					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window), true, true, false) + y_r(30));
 					yofs += total_size;
 				}
@@ -1049,11 +1049,8 @@ namespace FPS_n2 {
 		~TaskData() noexcept {
 		}
 	public:
-		const auto&		GetTaskList() const noexcept { return m_List; }
-
 	private:
 		std::vector<TaskJsonData> m_TaskJsonData;
-
 		std::vector<int> TraderIDs;
 	public:
 		void InitDatabyJson() noexcept {

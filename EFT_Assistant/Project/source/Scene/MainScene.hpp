@@ -135,7 +135,7 @@ namespace FPS_n2 {
 				}
 			}
 			//
-			if ((Input->GetWheelAdd() != 0) && !WindowMngr->PosHitCheck(nullptr)) {
+			if ((Input->GetWheelAdd() != 0) && !WindowMngr->PosHitCheck(nullptr) && Input->GetScaleActive()) {
 				auto PrevScale = this->m_Scale;
 				this->m_Scale = std::clamp(this->m_Scale + (float)Input->GetWheelAdd() / 10.f, 0.1f, 2.f);
 				auto ScaleChange = (this->m_Scale - PrevScale);
@@ -144,6 +144,7 @@ namespace FPS_n2 {
 					this->m_posy -= (int)((float)(Input->GetMouseY() - this->m_posy) * ScaleChange / this->m_Scale);
 				}
 			}
+			Input->SetScaleActive(true);
 			if ((Input->GetRightClick().press()) && !WindowMngr->PosHitCheck(nullptr)) {
 				this->m_posx += mouse_moveX;
 				this->m_posy += mouse_moveY;

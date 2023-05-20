@@ -18,7 +18,7 @@ namespace FPS_n2 {
 			for (const auto&L : HideoutData::Instance()->GetList()) {
 				isDrew.resize(isDrew.size() + 1);
 				isDrew.back().first = L.GetID();
-				for (const auto& C : L.GetLvData()) {
+				for (int loop = 0; loop < L.GetLvData().size(); loop++) {
 					DrewData tmp;
 					isDrew.back().second.emplace_back(tmp);
 				}
