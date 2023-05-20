@@ -411,9 +411,20 @@ namespace FPS_n2 {
 				}
 			}
 			//
-			if (m_TaskRewardData.GetItem().size() > 0) {
+			if ((m_TaskRewardData.GetLLAdd().size() > 0) || (m_TaskRewardData.GetItem().size() > 0)) {
 				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "•ñVƒAƒCƒeƒ€:")); yofs += sizy;
 				yofs += LineHeight;
+			}
+			if (m_TaskRewardData.GetLLAdd().size() > 0) {
+				for (auto& LL : m_TaskRewardData.GetLLAdd()) {
+					auto* trader2 = TraderData::Instance()->FindPtr(LL.GetTraderID());
+					xofs = std::max(xofs, WindowSystem::SetMsg(xp + y_r(30), yp + yofs, xp + y_r(30), yp + sizy + yofs, sizy, STRX_LEFT, trader2->GetColors(0), Black, "%s %s%4.2f",
+						trader2->GetName().c_str(),
+						(LL.GetAdd() >= 0.f) ? "+" : "-",
+						LL.GetAdd())); yofs += sizy;
+				}
+			}
+			if (m_TaskRewardData.GetItem().size() > 0) {
 				for (const auto& LL : m_TaskRewardData.GetItem()) {
 					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
 					int total_size = y_r(92);

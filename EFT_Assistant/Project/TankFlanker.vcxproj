@@ -34,6 +34,7 @@
     <ClInclude Include="source\Scene\MainScene\Page\MainScene_PageCustom.hpp" />
     <ClInclude Include="source\Scene\MainScene\Page\MainScene_PageHideout.hpp" />
     <ClInclude Include="source\Scene\MainScene\Page\MainScene_PageItem.hpp" />
+    <ClInclude Include="source\Scene\MainScene\Page\MainScene_PageItemList.hpp" />
     <ClInclude Include="source\Scene\MainScene\Page\MainScene_PageMap.hpp" />
     <ClInclude Include="source\Scene\MainScene\Page\MainScene_PageParents.hpp" />
     <ClInclude Include="source\Scene\MainScene\Page\MainScene_PageTask.hpp" />

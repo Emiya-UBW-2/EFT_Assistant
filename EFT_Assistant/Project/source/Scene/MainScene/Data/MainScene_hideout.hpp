@@ -3,7 +3,7 @@
 
 namespace FPS_n2 {
 	typedef int HideoutID;
-
+	//
 	class HideoutGetData {
 		std::string			m_Name;
 		int					m_Lv{ 0 };
@@ -29,41 +29,13 @@ namespace FPS_n2 {
 			//int a = 0;
 		}
 	};
-
-	
-	class TraderGetData {
-		TraderID			m_ID;
-		int					m_Lv{ 0 };
-	public:
-		const auto&		GetID() const noexcept { return m_ID; }
-		const auto&		GetLv() const noexcept { return m_Lv; }
-		void			Set(const std::string& name, int lv) noexcept {
-			m_ID = TraderData::Instance()->FindID(name.c_str());
-			m_Lv = lv;
-		}
-	};
-	void			SetTraderLv(std::vector<TraderGetData>* Data, const std::string& mes) noexcept {
-		auto L = mes.rfind("x");
-		if (L != std::string::npos) {
-			auto ID = mes.substr(0, L);
-			if (std::find_if(Data->begin(), Data->end(), [&](const TraderGetData& obj) {return obj.GetID() == TraderData::Instance()->FindID(ID.c_str()); }) == Data->end()) {
-				TraderGetData tmp;
-				tmp.Set(ID, std::stoi(mes.substr(L + 1)));
-				Data->emplace_back(tmp);
-			}
-		}
-		else {
-			//int a = 0;
-		}
-	};
-
-	struct CraftData {
-		int											durationTime{ 0 };
-		std::vector<ItemGetData>					m_ItemReq;
-		std::vector<ItemGetData>					m_ItemReward;
-	};
-
+	//
 	struct LvData {
+		struct CraftData {
+			int											durationTime{ 0 };
+			std::vector<ItemGetData>					m_ItemReq;
+			std::vector<ItemGetData>					m_ItemReward;
+		};
 		//開放データ
 		int											constructionTime{ 0 };
 		std::string									Information_Eng;
@@ -74,11 +46,10 @@ namespace FPS_n2 {
 		//クラフトデータ
 		std::vector<CraftData>						m_ItemCraft;
 	};
-
+	//
 	class HideoutList : public ListParent<HideoutID> {
 		std::vector<LvData> m_LvData;
 		int m_DrawWindowLv{ 1 };
-		int m_DrawScroll{ 0 };
 	private:
 		//追加設定
 		void	Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept override {
@@ -209,7 +180,7 @@ namespace FPS_n2 {
 			//
 		}
 	};
-
+	//
 	class HideoutJsonData {
 	public:
 		bool										m_IsFileOpened{ false };
@@ -294,7 +265,7 @@ namespace FPS_n2 {
 			}
 		}
 	};
-
+	//
 	class HideoutData : public SingletonBase<HideoutData>, public DataParent<HideoutID, HideoutList> {
 	private:
 		friend class SingletonBase<HideoutData>;
@@ -537,7 +508,7 @@ namespace FPS_n2 {
 			}
 		}
 	};
-
+	//
 	const int		HideoutList::Draw(int xp, int yp, int xsize, int ysize, int Lv, unsigned int defaultcolor, bool Clickactive) noexcept {
 		auto* WindowMngr = WindowSystem::WindowManager::Instance();
 		auto* Input = InputControl::Instance();
@@ -598,7 +569,6 @@ namespace FPS_n2 {
 			auto sizeXBuf = y_r(800);
 			auto sizeYBuf = y_r(0);
 
-			m_DrawScroll = 0;
 			if (Input->GetCtrlKey().press()) {
 				DrawUnlockWindow(nullptr, 0, Lv, 0, 0, &sizeXBuf, &sizeYBuf);//試しにサイズ計測
 			}
@@ -628,7 +598,12 @@ namespace FPS_n2 {
 				}
 				else {
 					NameTmp += " Craft";
-					WindowMngr->Add()->Set(y_r(960) - sizeXBuf / 2, LineHeight + y_r(10), sizeXBuf, sizeYBuf, 0, NameTmp.c_str(), false, true, FreeID, [&](WindowSystem::WindowControl* win) {
+
+					int ysizet = (int)((float)y_r(64));
+					int Max = (int)(m_LvData.at(Lv - 1).m_ItemCraft.size());
+					auto Total = (ysizet + y_r(5))*(int)(Max);
+
+					WindowMngr->Add()->Set(y_r(960) - sizeXBuf / 2, LineHeight + y_r(10), sizeXBuf, sizeYBuf, Total, NameTmp.c_str(), false, true, FreeID, [&](WindowSystem::WindowControl* win) {
 						HideoutData::Instance()->FindPtr((HideoutID)(win->m_FreeID - 0xFFFF))->DrawCraftWindow(win, Gray10, m_DrawWindowLv, win->GetPosX(), win->GetPosY());
 					});
 				}
@@ -655,7 +630,6 @@ namespace FPS_n2 {
 		}
 		return Xsize;
 	}
-
 	void			HideoutList::DrawUnlockWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int Lv, int xp, int yp, int *xs, int* ys) const noexcept {
 		auto* WindowMngr = WindowSystem::WindowManager::Instance();
 		//auto* InterParts = InterruptParts::Instance();
@@ -762,7 +736,7 @@ namespace FPS_n2 {
 	}
 	void			HideoutList::DrawCraftWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int Lv, int xp, int yp, int *xs, int* ys,int size) noexcept {
 		auto* WindowMngr = WindowSystem::WindowManager::Instance();
-		auto* Input = InputControl::Instance();
+		//auto* Input = InputControl::Instance();
 		//auto* InterParts = InterruptParts::Instance();
 		int xofs = 0;
 		int yofs = LineHeight;
@@ -773,10 +747,10 @@ namespace FPS_n2 {
 		if (Lv >= 1) {
 			if (m_LvData.at(Lv - 1).m_ItemCraft.size() > 0) {
 				int xofs_buf = y_r(10);
-				int ysize = (int)((float)y_r(48));
+				int ysize = (int)((float)y_r(64));
 
-				int ofset = m_DrawScroll;
 				int Max = (int)(m_LvData.at(Lv - 1).m_ItemCraft.size());
+				int ofset = (window) ? (int)(window->GetNowScrollPer()*std::max(0, Max - 10+1)) : 0;
 
 				auto OLD = yofs;
 				for (int loop = 0; loop < std::min(size, Max - ofset); loop++) {
@@ -794,7 +768,7 @@ namespace FPS_n2 {
 						}
 					}
 					{
-						xofs_buf = std::max(xofs_buf, y_r(10) + ysize * 10);
+						xofs_buf = std::max(xofs_buf, y_r(10) + ysize * 16);
 						xofs_buf += WindowSystem::SetMsg(xp + xofs_buf, yp + yofs, xp + 0, yp + yofs + ysize, LineHeight * 9 / 10, STRX_LEFT, White, Black,
 							">%01d:%02d:%02d>", (cf.durationTime / 60 / 60), (cf.durationTime / 60) % 60, cf.durationTime % 60);
 						xofs_buf += y_r(30);
@@ -813,9 +787,6 @@ namespace FPS_n2 {
 					yofs += ysize + y_r(5);
 				}
 				yofs = OLD + (ysize + y_r(5)) * 10;
-				if (window && window->GetIsActive()) {
-					m_DrawScroll = std::clamp(m_DrawScroll - Input->GetWheelAdd(), 0, std::max(0, Max - 10));
-				}
 			}
 		}
 		{
@@ -831,5 +802,4 @@ namespace FPS_n2 {
 			*ys = std::max(*ys, yofs - LineHeight);
 		}
 	}
-
 };

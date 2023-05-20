@@ -38,9 +38,6 @@ namespace FPS_n2 {
 				m_posyMaxBuffer = 0;
 			}
 			for (const auto& tasks : TaskData::Instance()->GetTaskList()) {
-				if (ParentID == InvalidID) {
-					TraderData::Instance()->ResetRep();
-				}
 				bool IsTrue = false;
 				if (std::find_if(m_Drawed.begin(), m_Drawed.end(), [&](const TaskID& obj) {return obj == tasks.GetID(); }) == m_Drawed.end()) {
 					if (!IsTrue && tasks.GetTaskNeedData().GetParenttaskID().size() == 0 && ParentID == InvalidID) {
@@ -60,14 +57,6 @@ namespace FPS_n2 {
 					auto* ptr = TraderData::Instance()->FindPtr(tasks.GetTrader());
 					auto parentCanDo_t = parentCanDo;
 					auto color = ptr->GetColors(0);
-					//信頼度アップダウンを対応
-					std::vector<float> PrevRep;
-					PrevRep.resize(tasks.GetTaskRewardData().GetLLAdd().size());
-					for (auto& LL : tasks.GetTaskRewardData().GetLLAdd()) {
-						float* traderRep = TraderData::Instance()->FindTraderRep(LL.GetTraderID());
-						PrevRep[&LL - &tasks.GetTaskRewardData().GetLLAdd().front()] = *traderRep;
-						*traderRep += LL.GetAdd();
-					}
 					//信頼度チェック
 					if (
 						(
@@ -137,14 +126,6 @@ namespace FPS_n2 {
 						DrawControl::Instance()->SetDrawRotaFiR(DrawLayer::Normal, xp + xs / 2, yp + ys / 2, 3.f*Scale, 0.f, true);
 					}
 					int suby = ys;
-					for (auto& LL : tasks.GetTaskRewardData().GetLLAdd()) {
-						auto* trader2 = TraderData::Instance()->FindPtr(LL.GetTraderID());
-						float* traderRep = TraderData::Instance()->FindTraderRep(LL.GetTraderID());
-						if (Scale > 0.2f) {
-							WindowSystem::SetMsg(xp, yp + suby, xp + xs, yp + ys + suby, ys, STRX_LEFT, trader2->GetColors(0), Black, "[%4.2f->%4.2f]", PrevRep[&LL - &tasks.GetTaskRewardData().GetLLAdd().front()], *traderRep);
-						}
-						suby += ys;
-					}
 					m_posxMaxBuffer = std::max(m_posxMaxBuffer, xp + xs);
 					m_posyMaxBuffer = std::max(m_posyMaxBuffer, yp + ys + suby);
 					{
@@ -169,11 +150,6 @@ namespace FPS_n2 {
 					m_ParentLinePos.emplace_back(tasks.GetID(), xp + xs, yp + ys / 2);
 					m_Drawed.emplace_back(tasks.GetID());
 					DrawChildTaskClickBox(Scale, tasks.GetID(), xp + xs, yp + ys / 2, P_Next.GetPosX(), P_Next.GetPosY(), xs, ys, parentCanDo_t);
-					//親なのでいったん信頼度を戻す
-					for (auto& LL : tasks.GetTaskRewardData().GetLLAdd()) {
-						float* traderRep = TraderData::Instance()->FindTraderRep(LL.GetTraderID());
-						*traderRep = PrevRep[&LL - &tasks.GetTaskRewardData().GetLLAdd().front()];
-					}
 					//
 					if (ParentID == InvalidID) {
 						yp += (ys + (int)((float)y_r(800) * Scale));

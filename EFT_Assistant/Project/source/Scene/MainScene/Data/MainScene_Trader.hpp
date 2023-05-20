@@ -35,34 +35,38 @@ namespace FPS_n2 {
 	private:
 		friend class SingletonBase<TraderData>;
 	private:
-		std::vector<float>		m_TraderRep;
-	private:
 		TraderData() noexcept {
 			SetList("data/trader/");
-			m_TraderRep.resize(m_List.size());
 		}
 		~TraderData() noexcept {
 		}
 	public:
-		void			ResetRep() noexcept {
-			if (true) {
-				for (auto&t : this->m_TraderRep) {
-					t = 0.f;
-				}
-			}
-			else {
-				for (auto&t : this->m_TraderRep) {
-					t = 0.2f;
-				}
-			}
-		}
-		float*			FindTraderRep(TraderID ID) noexcept {
-			for (const auto&t : m_List) {
-				if (t.GetID() == ID) {
-					return &m_TraderRep[&t - &m_List.front()];
-				}
-			}
-			return nullptr;
+	};
+
+	class TraderGetData {
+		TraderID			m_ID;
+		int					m_Lv{ 0 };
+	public:
+		const auto&		GetID() const noexcept { return m_ID; }
+		const auto&		GetLv() const noexcept { return m_Lv; }
+		void			Set(const std::string& name, int lv) noexcept {
+			m_ID = TraderData::Instance()->FindID(name.c_str());
+			m_Lv = lv;
 		}
 	};
+	void			SetTraderLv(std::vector<TraderGetData>* Data, const std::string& mes) noexcept {
+		auto L = mes.rfind("x");
+		if (L != std::string::npos) {
+			auto ID = mes.substr(0, L);
+			if (std::find_if(Data->begin(), Data->end(), [&](const TraderGetData& obj) {return obj.GetID() == TraderData::Instance()->FindID(ID.c_str()); }) == Data->end()) {
+				TraderGetData tmp;
+				tmp.Set(ID, std::stoi(mes.substr(L + 1)));
+				Data->emplace_back(tmp);
+			}
+		}
+		else {
+			//int a = 0;
+		}
+	};
+
 };

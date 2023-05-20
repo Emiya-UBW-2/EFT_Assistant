@@ -20,19 +20,25 @@ namespace FPS_n2 {
 		}
 		void LateExecute_Sub(int*, int*, float*) noexcept override {}
 		void Draw_Back_Sub(int, int, float) noexcept override {
+			int xpos = y_r(960);
+			int ypos = y_r(540);
 			int xsize = y_r(420);
 			int ysize = y_r(52);
-			int ypos = y_r(540);
-			DrawOnce(y_r(960) - xsize / 2, ypos - ysize / 2, y_r(960) + xsize / 2, ypos + ysize / 2, "タスク", BGSelect::Task);
+			DrawOnce(xpos - xsize / 2, ypos - ysize / 2, xpos + xsize / 2, ypos + ysize / 2, "タスク", BGSelect::Task);
 			ypos += y_r(100);
-			DrawOnce(y_r(960) - xsize / 2, ypos - ysize / 2, y_r(960) + xsize / 2, ypos + ysize / 2, "ハイドアウト", BGSelect::HideOut);
+			DrawOnce(xpos - xsize / 2, ypos - ysize / 2, xpos + xsize / 2, ypos + ysize / 2, "ハイドアウト", BGSelect::HideOut);
 			ypos += y_r(100);
-			DrawOnce(y_r(960) - xsize / 2, ypos - ysize / 2, y_r(960) + xsize / 2, ypos + ysize / 2, "アイテム", BGSelect::Item);
+			DrawOnce(xpos - xsize / 2, ypos - ysize / 2, xpos + xsize / 2, ypos + ysize / 2, "アイテム", BGSelect::Item);
 			ypos += y_r(100);
-			DrawOnce(y_r(960) - xsize / 2, ypos - ysize / 2, y_r(960) + xsize / 2, ypos + ysize / 2, "マップ", BGSelect::Map);
+			DrawOnce(xpos - xsize / 2, ypos - ysize / 2, xpos + xsize / 2, ypos + ysize / 2, "マップ", BGSelect::Map);
 			ypos += y_r(100);
-			DrawOnce(y_r(960) - xsize / 2, ypos - ysize / 2, y_r(960) + xsize / 2, ypos + ysize / 2, "カスタマイズ", BGSelect::Custom);
+			DrawOnce(xpos - xsize / 2, ypos - ysize / 2, xpos + xsize / 2, ypos + ysize / 2, "カスタマイズ", BGSelect::Custom);
 			ypos += y_r(100);
+
+
+			xpos = y_r(1440);
+			ypos = y_r(540);
+			DrawOnce(xpos - xsize / 2, ypos - ysize / 2, xpos + xsize / 2, ypos + ysize / 2, "アイテム収集リスト", BGSelect::ItemList);
 		}
 		void DrawFront_Sub(int, int, float) noexcept override {
 			int Xsize = y_r(400);

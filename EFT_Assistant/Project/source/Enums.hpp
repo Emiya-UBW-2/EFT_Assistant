@@ -11,5 +11,6 @@ namespace FPS_n2 {
 		Item,
 		Map,
 		Custom,
+		ItemList,
 	};
 };
