@@ -40,7 +40,7 @@ namespace FPS_n2 {
 			m_BaseRad = 0.f;
 			m_ComPassRad = 0.f;
 
-			ComPass.SetPath("data/Compass.png");
+			ComPass.SetPath("data/UI/Compass.png");
 			ComPass.SetIsTrans(true);
 			ComPass.LoadByPath(false);
 			ComPass.WhenAfterLoad();

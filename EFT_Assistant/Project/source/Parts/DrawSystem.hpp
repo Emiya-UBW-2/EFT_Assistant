@@ -173,12 +173,12 @@ namespace FPS_n2 {
 		Graphs					LockGraph;
 	private:
 		DrawControl() noexcept {
-			FirGraph.SetPath("data/FiR.png");
+			FirGraph.SetPath("data/UI/FiR.png");
 			FirGraph.SetIsTrans(true);
 			FirGraph.LoadByPath(false);
 			FirGraph.WhenAfterLoad();
 
-			LockGraph.SetPath("data/Lock.png");
+			LockGraph.SetPath("data/UI/Lock.png");
 			LockGraph.SetIsTrans(true);
 			LockGraph.LoadByPath(false);
 			LockGraph.WhenAfterLoad();
