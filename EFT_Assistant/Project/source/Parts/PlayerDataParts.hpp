@@ -185,6 +185,9 @@ namespace FPS_n2 {
 				}
 			}
 		}
+		void ResetTaskClear() noexcept {
+			m_TaskClearData.clear();
+		}
 		const auto GetTaskClear(const char* ID) noexcept {
 			auto Point = std::find_if(m_TaskClearData.begin(), m_TaskClearData.end(), [&](const std::string& Data) {return (Data == ID); });
 			return (Point != m_TaskClearData.end());
@@ -210,6 +213,9 @@ namespace FPS_n2 {
 				m_HideoutClearData.back().first = ID;
 				m_HideoutClearData.back().second = Lv;
 			}
+		}
+		void ResetHideoutClear() noexcept {
+			m_HideoutClearData.clear();
 		}
 		const auto GetHideoutClear(const char* ID, int Lv) noexcept {
 			auto Point = std::find_if(m_HideoutClearData.begin(), m_HideoutClearData.end(), [&](const std::pair<std::string, int>& Data) {return (Data.first == ID && Data.second >= Lv); });

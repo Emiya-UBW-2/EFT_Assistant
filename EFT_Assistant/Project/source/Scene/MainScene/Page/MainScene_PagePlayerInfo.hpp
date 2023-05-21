@@ -76,6 +76,27 @@ namespace FPS_n2 {
 				PlayerData::Instance()->SetIsUSEC(tmp);
 				ypos += y_r(48);
 			}
+			//プレイヤーデータ---------------------------
+			{
+				WindowSystem::SetMsg(xpos, ypos, xpos, ypos + LineHeight, LineHeight, STRX_LEFT, White, Black, "データのリセット");
+				ypos += LineHeight + y_r(15);
+			}
+			//タスクの進行状況をリセット
+			{
+				if (WindowSystem::ClickCheckBox(xpos + y_r(24), ypos, xpos + y_r(200), ypos + LineHeight, true, true, Red, "Reset")) {
+					PlayerData::Instance()->ResetTaskClear();
+				}
+				WindowSystem::SetMsg(xpos + y_r(210), ypos, xpos + y_r(210), ypos + LineHeight, LineHeight, STRX_LEFT, White, Black, "タスクの進行状況をリセット");
+				ypos += LineHeight + y_r(15);
+			}
+			//ハイドアウトの開放状況をリセット
+			{
+				if (WindowSystem::ClickCheckBox(xpos + y_r(24), ypos, xpos + y_r(200), ypos + LineHeight, true, true, Red, "Reset")) {
+					PlayerData::Instance()->ResetHideoutClear();
+				}
+				WindowSystem::SetMsg(xpos + y_r(210), ypos, xpos + y_r(210), ypos + LineHeight, LineHeight, STRX_LEFT, White, Black, "ハイドアウトの開放状況をリセット");
+				ypos += LineHeight + y_r(15);
+			}
 			//-------------------------------------------
 			//戻る
 			{
