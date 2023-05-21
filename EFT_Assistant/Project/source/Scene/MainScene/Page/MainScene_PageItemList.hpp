@@ -4,10 +4,7 @@
 namespace FPS_n2 {
 	class ItemListBG :public BGParent {
 	private:
-		bool														m_IsNeedLightKeeper{ false };
-		bool														m_IsNeedKappa{ false };
 		bool														m_IsNeedItem{ true };//タスクに必要なアイテムを省くか否か
-		int															m_MaxLevel{ 71 };
 	private:
 		void Init_Sub(int*, int*, float*) noexcept override {
 		}
@@ -35,7 +32,7 @@ namespace FPS_n2 {
 				Counter.resize(ItemTypeData::Instance()->GetList().size());
 				for (const auto& tasks : TaskData::Instance()->GetList()) {
 					bool IsChecktask = true;
-					if (this->m_IsNeedKappa) {//河童必要タスクだけ書く
+					if (PlayerData::Instance()->GetIsNeedKappa()) {//河童必要タスクだけ書く
 						if (!tasks.GetTaskNeedData().GetKappaRequired()) {
 							IsChecktask = false;
 						}
@@ -45,12 +42,12 @@ namespace FPS_n2 {
 							}
 						}
 					}
-					if (this->m_IsNeedLightKeeper) {//ライトキーパー
+					if (PlayerData::Instance()->GetIsNeedLightKeeper()) {//ライトキーパー
 						if (!tasks.GetTaskNeedData().GetLightKeeperRequired()) {
 							IsChecktask = false;
 						}
 					}
-					if (this->m_MaxLevel < tasks.GetTaskNeedData().GetLevel()) {//最大レベル
+					if (PlayerData::Instance()->GetMaxLevel() < tasks.GetTaskNeedData().GetLevel()) {//最大レベル
 						IsChecktask = false;
 					}
 					if (PlayerData::Instance()->GetTaskClear(tasks.GetName().c_str())) {
@@ -196,40 +193,44 @@ namespace FPS_n2 {
 			}
 			//ライトキーパーに必要か
 			{
+				auto tmp = PlayerData::Instance()->GetIsNeedLightKeeper();
 				int xp = y_r(48);
 				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(42) - y_r(42);
-				WindowSystem::CheckBox(xp, yp, &m_IsNeedLightKeeper);
+				WindowSystem::CheckBox(xp, yp, &tmp);
 				WindowSystem::SetMsg(xp + y_r(64), yp, xp + y_r(64), yp + LineHeight, LineHeight, STRX_LEFT, White, Black, "ライトキーパー開放までに絞る");
-				if (m_IsNeedLightKeeper) {
-					m_IsNeedKappa = false;
+				if (tmp) {
+					PlayerData::Instance()->SetIsNeedKappa(false);
 				}
+				PlayerData::Instance()->SetIsNeedLightKeeper(tmp);
 			}
 			//カッパに必要か
 			{
+				auto tmp = PlayerData::Instance()->GetIsNeedKappa();
 				int xp = y_r(48);
 				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(42);
-				WindowSystem::CheckBox(xp, yp, &m_IsNeedKappa);
+				WindowSystem::CheckBox(xp, yp, &tmp);
 				WindowSystem::SetMsg(xp + y_r(64), yp, xp + y_r(64), yp + LineHeight, LineHeight, STRX_LEFT, White, Black, "カッパー開放までに絞る");
-				if (m_IsNeedKappa) {
-					m_IsNeedLightKeeper = false;
+				if (tmp) {
+					PlayerData::Instance()->SetIsNeedLightKeeper(false);
 				}
+				PlayerData::Instance()->SetIsNeedKappa(tmp);
 			}
 			//レベル操作
 			{
 				int xp = y_r(5);
 				int yp = y_r(1080) - y_r(48) - y_r(5);
 				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(100), yp + y_r(48), true, true, Red, "DOWN")) {
-					this->m_MaxLevel--;
+					PlayerData::Instance()->SetMaxLevel(PlayerData::Instance()->GetMaxLevel() - 1);
 				}
 				xp += y_r(105);
 				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(100), yp + y_r(48), true, true, Green, "UP")) {
-					this->m_MaxLevel++;
+					PlayerData::Instance()->SetMaxLevel(PlayerData::Instance()->GetMaxLevel() + 1);
 				}
-				this->m_MaxLevel = std::clamp(this->m_MaxLevel, 1, 71);
+				PlayerData::Instance()->SetMaxLevel(std::clamp(PlayerData::Instance()->GetMaxLevel(), 1, 71));
 				xp += y_r(105);
 				WindowSystem::SetMsg(xp, yp + y_r(12), xp, yp + y_r(12) + y_r(36), y_r(36), STRX_LEFT, White, Black, "MaxLevel");
 				xp += y_r(250);
-				WindowSystem::SetMsg(xp, yp, xp, yp + y_r(48), y_r(48), STRX_RIGHT, White, Black, "%d", this->m_MaxLevel);
+				WindowSystem::SetMsg(xp, yp, xp, yp + y_r(48), y_r(48), STRX_RIGHT, White, Black, "%d", PlayerData::Instance()->GetMaxLevel());
 			}
 			//
 			{

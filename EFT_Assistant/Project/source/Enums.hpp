@@ -12,5 +12,6 @@ namespace FPS_n2 {
 		Map,
 		Custom,
 		ItemList,
+		PlayerInfo,
 	};
 };

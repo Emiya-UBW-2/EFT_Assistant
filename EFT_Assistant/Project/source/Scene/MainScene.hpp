@@ -18,6 +18,7 @@ namespace FPS_n2 {
 		std::shared_ptr<MapBG>										m_MapBG;
 		std::shared_ptr<CustomBG>									m_CustomBG;
 		std::shared_ptr<ItemListBG>									m_ItemListBG;
+		std::shared_ptr<PlayerInfoBG>								m_PlayerInfoBG;
 
 		bool														m_Loading{ false };
 
@@ -69,6 +70,7 @@ namespace FPS_n2 {
 			m_MapBG = std::make_shared<MapBG>();
 			m_CustomBG = std::make_shared<CustomBG>();
 			m_ItemListBG = std::make_shared<ItemListBG>();
+			m_PlayerInfoBG = std::make_shared<PlayerInfoBG>();
 			//
 			m_BGPtr = m_TitleBG;
 			//
@@ -178,6 +180,9 @@ namespace FPS_n2 {
 					case BGSelect::ItemList:
 						m_BGPtr = m_ItemListBG;
 						break;
+					case BGSelect::PlayerInfo:
+						m_BGPtr = m_PlayerInfoBG;
+						break;
 					default:
 						m_BGPtr = m_TaskBG;
 						break;
@@ -211,6 +216,9 @@ namespace FPS_n2 {
 				case BGSelect::ItemList:
 					m_BGPtr = m_ItemListBG;
 					break;
+				case BGSelect::PlayerInfo:
+					m_BGPtr = m_PlayerInfoBG;
+					break;
 				default:
 					break;
 				}
@@ -231,6 +239,8 @@ namespace FPS_n2 {
 					);
 					break;
 				case BGSelect::ItemList:
+					break;
+				case BGSelect::PlayerInfo:
 					break;
 				default:
 					break;
@@ -309,6 +319,7 @@ namespace FPS_n2 {
 			m_MapBG.reset();
 			m_CustomBG.reset();
 			m_ItemListBG.reset();
+			m_PlayerInfoBG.reset();
 
 			PlayerData::Instance()->Save();
 			DataErrorLog::Instance()->Save();

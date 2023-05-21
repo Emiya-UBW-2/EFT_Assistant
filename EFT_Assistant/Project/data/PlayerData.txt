@@ -2971,3 +2971,7 @@ ItemData=[5fd251ee16cac650092f5d02,false]
 ItemData=[5fd251c90d9c95034825edb5,false]
 ItemData=[5d80cd1a86f77402aa362f42,false]
 ItemData=[5a13ef0686f7746e5a411744,false]
+IsNeedLightKeeper=FALSE
+IsNeedKappa=FALSE
+MaxLevel=71
+PMCType=USEC

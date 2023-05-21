@@ -44,9 +44,14 @@ namespace FPS_n2 {
 			ypos += y_r(100);
 
 
-			xpos = y_r(1440);
+			xpos = y_r(960 + 480);
 			ypos = y_r(540);
 			DrawOnce(xpos - xsize / 2, ypos - ysize / 2, xpos + xsize / 2, ypos + ysize / 2, "アイテム収集リスト", "他ページで設定した状況で収集する必要のあるアイテムリストのページです", BGSelect::ItemList);
+
+			xpos = y_r(960 - 480);
+			ypos = y_r(540);
+			DrawOnce(xpos - xsize / 2, ypos - ysize / 2, xpos + xsize / 2, ypos + ysize / 2, "プレイヤー情報", "目標やタスク情報などを管理するページです", BGSelect::PlayerInfo);
+			
 
 			xpos = y_r(960);
 			ypos = y_r(1080) - LineHeight;

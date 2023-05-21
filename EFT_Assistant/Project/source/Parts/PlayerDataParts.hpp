@@ -44,6 +44,12 @@ namespace FPS_n2 {
 		std::vector<std::string>	m_TaskClearData;
 		std::vector<std::pair<std::string,int>>	m_HideoutClearData;
 	private:
+		bool						m_IsNeedLightKeeper{ false };
+		bool						m_IsNeedKappa{ false };
+		int							m_MaxLevel{ 71 };
+	private:
+		bool						m_IsUSEC{ true };
+	private:
 		PlayerData() noexcept {
 			Load();
 		}
@@ -81,6 +87,18 @@ namespace FPS_n2 {
 						m_HideoutClearData.emplace_back(std::make_pair(RIGHT.substr(0, L), std::stoi(RIGHT.substr(L + 1))));
 					}
 				}
+				if (LEFT == "IsNeedLightKeeper") {
+					m_IsNeedLightKeeper = (RIGHT == "TRUE");
+				}
+				if (LEFT == "IsNeedKappa") {
+					m_IsNeedKappa = (RIGHT == "TRUE");
+				}
+				if (LEFT == "MaxLevel") {
+					m_MaxLevel = std::stoi(RIGHT);
+				}
+				if (LEFT == "PMCType") {
+					m_IsUSEC = (RIGHT == "USEC");
+				}
 			}
 			FileRead_close(mdata);
 			SetOutApplicationLogValidFlag(TRUE);
@@ -98,6 +116,11 @@ namespace FPS_n2 {
 			for (auto& LD : m_HideoutClearData) {
 				outputfile << "UnlockHideout=" + LD.first + "x" + std::to_string(LD.second) + "\n";
 			}
+
+			outputfile << "IsNeedLightKeeper=" + (std::string)(m_IsNeedLightKeeper ? "TRUE" : "FALSE") + "\n";
+			outputfile << "IsNeedKappa=" + (std::string)(m_IsNeedKappa ? "TRUE" : "FALSE") + "\n";
+			outputfile << "MaxLevel=" + std::to_string(m_MaxLevel) + "\n";
+			outputfile << "PMCType=" + (std::string)(m_IsUSEC ? "USEC" : "BEAR") + "\n";
 
 			//outputfile << "grass_level=" + std::to_string(grass_level) + "\n";
 			outputfile.close();
@@ -195,5 +218,14 @@ namespace FPS_n2 {
 
 		void SetLastDataReceive(const char* date) noexcept { m_LastDataReceive = date; }
 		const auto& GetLastDataReceive() const noexcept { return m_LastDataReceive; }
+
+		void SetIsNeedLightKeeper(bool date) noexcept { m_IsNeedLightKeeper = date; }
+		const auto& GetIsNeedLightKeeper() const noexcept { return m_IsNeedLightKeeper; }
+		void SetIsNeedKappa(bool date) noexcept { m_IsNeedKappa = date; }
+		const auto& GetIsNeedKappa() const noexcept { return m_IsNeedKappa; }
+		void SetMaxLevel(int date) noexcept { m_MaxLevel = date; }
+		const auto& GetMaxLevel() const noexcept { return m_MaxLevel; }
+		void SetIsUSEC(bool date) noexcept { m_IsUSEC = date; }
+		const auto& GetIsUSEC() const noexcept { return m_IsUSEC; }
 	};
 };
