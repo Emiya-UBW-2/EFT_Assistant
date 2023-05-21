@@ -6,9 +6,14 @@ namespace FPS_n2 {
 	private:
 		BGSelect m_Select{ (BGSelect)0 };
 		std::string strResult;
+		std::string InfoStr;
 		int ttt = -1;
 	private:
-		void DrawOnce(int xpos1, int ypos1, int xpos2, int ypos2, const char* Name, BGSelect SelWindow) noexcept {
+		void DrawOnce(int xpos1, int ypos1, int xpos2, int ypos2, const char* Name, const char* Info, BGSelect SelWindow) noexcept {
+			auto* Input = InputControl::Instance();
+			if (in2_(Input->GetMouseX(), Input->GetMouseY(), xpos1, ypos1, xpos2, ypos2)) {
+				InfoStr = Info;
+			}
 			if (WindowSystem::ClickCheckBox(xpos1, ypos1, xpos2, ypos2, false, true, Gray25, Name)) {
 				m_Select = SelWindow;
 				TurnOnGoNextBG();
@@ -21,25 +26,31 @@ namespace FPS_n2 {
 		void LateExecute_Sub(int*, int*, float*) noexcept override {
 		}
 		void Draw_Back_Sub(int, int, float) noexcept override {
+			InfoStr = "";
+
 			int xpos = y_r(960);
 			int ypos = y_r(540);
 			int xsize = y_r(420);
 			int ysize = y_r(52);
-			DrawOnce(xpos - xsize / 2, ypos - ysize / 2, xpos + xsize / 2, ypos + ysize / 2, "タスク", BGSelect::Task);
+			DrawOnce(xpos - xsize / 2, ypos - ysize / 2, xpos + xsize / 2, ypos + ysize / 2, "タスク", "タスク情報と達成状況の更新を行うページです", BGSelect::Task);
 			ypos += y_r(100);
-			DrawOnce(xpos - xsize / 2, ypos - ysize / 2, xpos + xsize / 2, ypos + ysize / 2, "ハイドアウト", BGSelect::HideOut);
+			DrawOnce(xpos - xsize / 2, ypos - ysize / 2, xpos + xsize / 2, ypos + ysize / 2, "ハイドアウト", "ハイドアウト情報と開放状況の更新を行うページです", BGSelect::HideOut);
 			ypos += y_r(100);
-			DrawOnce(xpos - xsize / 2, ypos - ysize / 2, xpos + xsize / 2, ypos + ysize / 2, "アイテム", BGSelect::Item);
+			DrawOnce(xpos - xsize / 2, ypos - ysize / 2, xpos + xsize / 2, ypos + ysize / 2, "アイテム", "アイテム使用情報と売却価格を確認できるページです", BGSelect::Item);
 			ypos += y_r(100);
-			DrawOnce(xpos - xsize / 2, ypos - ysize / 2, xpos + xsize / 2, ypos + ysize / 2, "マップ", BGSelect::Map);
+			DrawOnce(xpos - xsize / 2, ypos - ysize / 2, xpos + xsize / 2, ypos + ysize / 2, "マップ", "ミニマップの閲覧及びタスクで向かう場所を記したページです", BGSelect::Map);
 			ypos += y_r(100);
-			DrawOnce(xpos - xsize / 2, ypos - ysize / 2, xpos + xsize / 2, ypos + ysize / 2, "カスタマイズ", BGSelect::Custom);
+			DrawOnce(xpos - xsize / 2, ypos - ysize / 2, xpos + xsize / 2, ypos + ysize / 2, "カスタマイズ", "銃器のカスタム値を確認できるページです", BGSelect::Custom);
 			ypos += y_r(100);
 
 
 			xpos = y_r(1440);
 			ypos = y_r(540);
-			DrawOnce(xpos - xsize / 2, ypos - ysize / 2, xpos + xsize / 2, ypos + ysize / 2, "アイテム収集リスト", BGSelect::ItemList);
+			DrawOnce(xpos - xsize / 2, ypos - ysize / 2, xpos + xsize / 2, ypos + ysize / 2, "アイテム収集リスト", "他ページで設定した状況で収集する必要のあるアイテムリストのページです", BGSelect::ItemList);
+
+			xpos = y_r(960);
+			ypos = y_r(1080) - LineHeight;
+			WindowSystem::SetMsg(xpos, ypos, xpos, ypos, LineHeight, STRX_MID, White, Black, InfoStr);
 		}
 		void DrawFront_Sub(int, int, float) noexcept override {
 			int Xsize = y_r(400);
