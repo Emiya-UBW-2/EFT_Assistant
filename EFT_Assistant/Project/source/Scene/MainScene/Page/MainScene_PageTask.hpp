@@ -33,6 +33,7 @@ namespace FPS_n2 {
 	private:
 		void DrawChildTaskClickBox(float Scale, TaskID ParentID, int start_x, int start_y, int xp, int yp, int xs, int ys, bool parentCanDo = true) noexcept {
 			auto* WindowMngr = WindowSystem::WindowManager::Instance();
+			auto* Input = InputControl::Instance();
 			if (ParentID == InvalidID) {
 				m_posxMaxBuffer = 0;
 				m_posyMaxBuffer = 0;
@@ -108,7 +109,7 @@ namespace FPS_n2 {
 						}
 					}
 					if (WindowSystem::ClickCheckBox(xp, yp, xp + xs, yp + ys, false, !WindowMngr->PosHitCheck(nullptr), color, (Scale > 0.2f) ? tasks.GetName() : "")) {
-						if (InputControl::Instance()->GetSpaceKey().press()) {
+						if (Input->GetSpaceKey().press()) {
 							PlayerData::Instance()->OnOffTaskClear(tasks.GetName().c_str());
 						}
 						else {
@@ -355,10 +356,11 @@ namespace FPS_n2 {
 		void DrawFront_Sub(int posx, int posy, float) noexcept override {
 			auto* WindowMngr = WindowSystem::WindowManager::Instance();
 			auto* DrawParts = DXDraw::Instance();
+			auto* Input = InputControl::Instance();
 			//ライトキーパーに必要か
 			{
 				int xp = y_r(48);
-				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(48) - y_r(48);
+				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(42) - y_r(42);
 				WindowSystem::CheckBox(xp, yp, &m_IsNeedLightKeeper);
 				WindowSystem::SetMsg(xp + y_r(64), yp, xp + y_r(64), yp + LineHeight, LineHeight, STRX_LEFT, White, Black, "ライトキーパー開放までに絞る");
 				if (m_IsNeedLightKeeper) {
@@ -368,7 +370,7 @@ namespace FPS_n2 {
 			//カッパに必要か
 			{
 				int xp = y_r(48);
-				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(48);
+				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(42);
 				WindowSystem::CheckBox(xp, yp, &m_IsNeedKappa);
 				WindowSystem::SetMsg(xp + y_r(64), yp, xp + y_r(64), yp + LineHeight, LineHeight, STRX_LEFT, White, Black, "カッパー開放までに絞る");
 				if (m_IsNeedKappa) {
@@ -441,10 +443,10 @@ namespace FPS_n2 {
 				}
 			}
 			if (m_Mode == EnumTaskDrawMode::Normal) {
-				if (!InputControl::Instance()->GetSpaceKey().press()) {
+				if (!Input->GetSpaceKey().press()) {
 					DrawControl::Instance()->SetString(DrawLayer::Front,
 						FontPool::FontType::Nomal_Edge, LineHeight,
-						STRX_MID, STRY_BOTTOM, InputControl::Instance()->GetMouseX(), InputControl::Instance()->GetMouseY(), RedPop, Black,
+						STRX_RIGHT, STRY_BOTTOM, Input->GetMouseX(), Input->GetMouseY(), RedPop, Black,
 						"スペースを押しながらクリックでタスククリア"
 					);
 				}

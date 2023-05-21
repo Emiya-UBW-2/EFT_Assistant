@@ -261,6 +261,30 @@ namespace FPS_n2 {
 					//
 				}
 			}
+			//ハイドアウト開放
+			{
+				for (auto&L : HideoutData::Instance()->SetList()) {
+					for (const auto& Ld : L.GetLvData()) {
+						bool IsChecktask = true;
+						if (PlayerData::Instance()->GetHideoutClear(L.GetName().c_str(), (int)(&Ld - &L.GetLvData().front()) + 1)) {
+							IsChecktask = false;
+						}
+						if (!IsChecktask) { continue; }
+						bool isHit = false;
+						for (const auto& w : Ld.m_ItemReq) {
+							if (w.GetID() == GetID()) {
+								L.Draw(xp, yp + yofs, y_r(400), LineHeight, (int)(&Ld - &L.GetLvData().front()) + 1, defaultcolor, true);
+								WindowSystem::SetMsg(xp + y_r(400), yp + yofs, xp + y_r(800), yp + yofs + LineHeight, LineHeight, STRX_LEFT, White, Black, " x%d", w.GetCount());
+								yofs += LineHeight + y_r(5);
+								isHit = true;
+								break;
+							}
+						}
+						if (isHit) { continue; }
+					}
+				}
+
+			}
 			//
 			if (m_isWeapon) {
 				if (WindowSystem::ClickCheckBox(xp, yp + yofs, xp + y_r(800), yp + LineHeight + yofs, false, true, Green, "GotoPreset")) {

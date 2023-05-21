@@ -6,12 +6,13 @@ namespace FPS_n2 {
 	private:
 		bool														m_IsNeedLightKeeper{ false };
 		bool														m_IsNeedKappa{ false };
+		bool														m_IsNeedItem{ true };//タスクに必要なアイテムを省くか否か
 		int															m_MaxLevel{ 71 };
 	private:
 		void Init_Sub(int*, int*, float*) noexcept override {
 		}
 		void LateExecute_Sub(int* xpos, int*, float*) noexcept override {
-			*xpos = std::min(*xpos, y_r(10));
+			*xpos = std::min(*xpos, y_r(50));
 		}
 
 		void Draw_Back_Sub(int xpos, int, float) noexcept override {
@@ -92,17 +93,47 @@ namespace FPS_n2 {
 							}
 						}
 					}
-					for (const auto& w : tasks.GetTaskNeedData().GetItem()) {
-						auto* ptr = ItemData::Instance()->FindPtr(w.GetID());
-						if (ptr) {
-							auto& Types = Counter.at(ptr->GetTypeID());
-							auto Find = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == w.GetID()) && (obj.isNeed == true); });
-							if (Find != Types.end()) {
-								Find->count += w.GetCount();
+					if (m_IsNeedItem) {
+						for (const auto& w : tasks.GetTaskNeedData().GetItem()) {
+							auto* ptr = ItemData::Instance()->FindPtr(w.GetID());
+							if (ptr) {
+								auto& Types = Counter.at(ptr->GetTypeID());
+								auto Find = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == w.GetID()) && (obj.isNeed == true); });
+								if (Find != Types.end()) {
+									Find->count += w.GetCount();
+								}
+								else {
+									auto Find2 = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == w.GetID()) && (obj.isNeed == false); });
+									if (Find2 == Types.end()) {
+										counts tmp;
+										tmp.m_ID = w.GetID();
+										tmp.count = w.GetCount();
+										tmp.isFir = false;
+										tmp.isNeed = true;
+										Types.emplace_back(tmp);
+									}
+								}
 							}
-							else {
-								auto Find2 = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == w.GetID()) && (obj.isNeed == false); });
-								if (Find2 == Types.end()) {
+						}
+					}
+				}
+				//ハイドアウト開放
+				for (const auto&L : HideoutData::Instance()->GetList()) {
+					for (const auto& Ld : L.GetLvData()) {
+						bool IsChecktask = true;
+						if (PlayerData::Instance()->GetHideoutClear(L.GetName().c_str(), (int)(&Ld - &L.GetLvData().front()) + 1)) {
+							IsChecktask = false;
+						}
+						if (!IsChecktask) { continue; }
+						for (const auto& w : Ld.m_ItemReq) {
+							auto* ptr = ItemData::Instance()->FindPtr(w.GetID());
+							if (ptr) {
+								auto& Types = Counter.at(ptr->GetTypeID());
+								auto Find = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == w.GetID()) && (obj.isFir == false) && (obj.isNeed == false); });
+								if (Find != Types.end()) {
+									Find->count += w.GetCount();
+								}
+								else {
 									counts tmp;
 									tmp.m_ID = w.GetID();
 									tmp.count = w.GetCount();
@@ -155,10 +186,18 @@ namespace FPS_n2 {
 		void DrawFront_Sub(int, int, float) noexcept override {
 			//auto* WindowMngr = WindowSystem::WindowManager::Instance();
 			//auto* Input = InputControl::Instance();
+
+			//タスクに必要なアイテム(サプレッサーなど)を追加
+			{
+				int xp = y_r(48);
+				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(42) - y_r(42) - y_r(42);
+				WindowSystem::CheckBox(xp, yp, &m_IsNeedItem);
+				WindowSystem::SetMsg(xp + y_r(64), yp, xp + y_r(64), yp + LineHeight, LineHeight, STRX_LEFT, White, Black, "タスクに必要なアイテム(サプレッサーなど)を追加");
+			}
 			//ライトキーパーに必要か
 			{
 				int xp = y_r(48);
-				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(48) - y_r(48);
+				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(42) - y_r(42);
 				WindowSystem::CheckBox(xp, yp, &m_IsNeedLightKeeper);
 				WindowSystem::SetMsg(xp + y_r(64), yp, xp + y_r(64), yp + LineHeight, LineHeight, STRX_LEFT, White, Black, "ライトキーパー開放までに絞る");
 				if (m_IsNeedLightKeeper) {
@@ -168,7 +207,7 @@ namespace FPS_n2 {
 			//カッパに必要か
 			{
 				int xp = y_r(48);
-				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(48);
+				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(42);
 				WindowSystem::CheckBox(xp, yp, &m_IsNeedKappa);
 				WindowSystem::SetMsg(xp + y_r(64), yp, xp + y_r(64), yp + LineHeight, LineHeight, STRX_LEFT, White, Black, "カッパー開放までに絞る");
 				if (m_IsNeedKappa) {

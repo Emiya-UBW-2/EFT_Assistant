@@ -42,6 +42,7 @@ namespace FPS_n2 {
 		std::string					m_LastDataReceive;
 		std::vector<ItemLockData>	m_ItemLockData;
 		std::vector<std::string>	m_TaskClearData;
+		std::vector<std::pair<std::string,int>>	m_HideoutClearData;
 	private:
 		PlayerData() noexcept {
 			Load();
@@ -74,6 +75,12 @@ namespace FPS_n2 {
 				if (LEFT == "ClearTask") {
 					m_TaskClearData.emplace_back(RIGHT);
 				}
+				if (LEFT == "UnlockHideout") {
+					auto L = RIGHT.rfind("x");
+					if (L != std::string::npos) {
+						m_HideoutClearData.emplace_back(std::make_pair(RIGHT.substr(0, L), std::stoi(RIGHT.substr(L + 1))));
+					}
+				}
 			}
 			FileRead_close(mdata);
 			SetOutApplicationLogValidFlag(TRUE);
@@ -88,7 +95,10 @@ namespace FPS_n2 {
 			for (auto& LD : m_TaskClearData) {
 				outputfile << "ClearTask=" + LD + "\n";
 			}
-			
+			for (auto& LD : m_HideoutClearData) {
+				outputfile << "UnlockHideout=" + LD.first + "x" + std::to_string(LD.second) + "\n";
+			}
+
 			//outputfile << "grass_level=" + std::to_string(grass_level) + "\n";
 			outputfile.close();
 		}
@@ -155,6 +165,32 @@ namespace FPS_n2 {
 		const auto GetTaskClear(const char* ID) noexcept {
 			auto Point = std::find_if(m_TaskClearData.begin(), m_TaskClearData.end(), [&](const std::string& Data) {return (Data == ID); });
 			return (Point != m_TaskClearData.end());
+		}
+
+		void OnOffHideoutClear(const char* ID, int Lv) noexcept {
+			auto Point = std::find_if(m_HideoutClearData.begin(), m_HideoutClearData.end(), [&](const std::pair<std::string, int>& Data) {return (Data.first == ID); });
+			if (Point != m_HideoutClearData.end()) {
+				if (Point->second >= Lv) {
+					if (Lv > 1) {
+						Point->second = Lv - 1;
+					}
+					else {
+						m_HideoutClearData.erase(Point);
+					}
+				}
+				else {
+					Point->second = Lv;
+				}
+			}
+			else {
+				m_HideoutClearData.resize(m_HideoutClearData.size() + 1);
+				m_HideoutClearData.back().first = ID;
+				m_HideoutClearData.back().second = Lv;
+			}
+		}
+		const auto GetHideoutClear(const char* ID, int Lv) noexcept {
+			auto Point = std::find_if(m_HideoutClearData.begin(), m_HideoutClearData.end(), [&](const std::pair<std::string, int>& Data) {return (Data.first == ID && Data.second >= Lv); });
+			return (Point != m_HideoutClearData.end());
 		}
 
 		void SetLastDataReceive(const char* date) noexcept { m_LastDataReceive = date; }
