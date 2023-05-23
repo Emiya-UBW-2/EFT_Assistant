@@ -45,6 +45,7 @@ using namespace DXLib_ref;
 #include "Scene/MainScene/Page/MainScene_PageItem.hpp"
 #include "Scene/MainScene/Page/MainScene_PageMap.hpp"
 #include "Scene/MainScene/Page/MainScene_PageCustom.hpp"
+#include "Scene/MainScene/Page/MainScene_PageTrader.hpp"
 #include "Scene/MainScene/Page/MainScene_PageItemList.hpp"
 #include "Scene/MainScene/Page/MainScene_PagePlayerInfo.hpp"
 //Main

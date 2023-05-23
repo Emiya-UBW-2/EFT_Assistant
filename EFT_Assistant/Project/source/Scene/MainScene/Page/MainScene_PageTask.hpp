@@ -215,15 +215,16 @@ namespace FPS_n2 {
 					}
 					if (!IsChecktask) { continue; }
 					for (const auto& w : tasks.GetTaskWorkData().GetFiR_Item()) {
-						auto* ptr = ItemData::Instance()->FindPtr(w.GetID());
+						auto ID = ItemData::Instance()->FindID(w.GetName());
+						auto* ptr = ItemData::Instance()->FindPtr(ID);
 						if (ptr) {
 							auto& Types = Counter.at(ptr->GetTypeID());
-							auto Find = std::find_if(Types.begin(), Types.end(), [&](const std::pair<ItemID, int>& obj) {return obj.first == w.GetID(); });
+							auto Find = std::find_if(Types.begin(), Types.end(), [&](const std::pair<ItemID, int>& obj) {return obj.first == ID; });
 							if (Find != Types.end()) {
-								Find->second += w.GetCount();
+								Find->second += w.GetValue();
 							}
 							else {
-								Types.emplace_back(std::make_pair(w.GetID(), w.GetCount()));
+								Types.emplace_back(std::make_pair(ID, w.GetValue()));
 							}
 						}
 					}
@@ -295,15 +296,16 @@ namespace FPS_n2 {
 					}
 					if (!IsChecktask) { continue; }
 					for (const auto& w : tasks.GetTaskWorkData().GetNotFiR_Item()) {
-						auto* ptr = ItemData::Instance()->FindPtr(w.GetID());
+						auto ID = ItemData::Instance()->FindID(w.GetName());
+						auto* ptr = ItemData::Instance()->FindPtr(ID);
 						if (ptr) {
 							auto& Types = Counter.at(ptr->GetTypeID());
-							auto Find = std::find_if(Types.begin(), Types.end(), [&](const std::pair<ItemID, int>& obj) {return obj.first == w.GetID(); });
+							auto Find = std::find_if(Types.begin(), Types.end(), [&](const std::pair<ItemID, int>& obj) {return obj.first == ID; });
 							if (Find != Types.end()) {
-								Find->second += w.GetCount();
+								Find->second += w.GetValue();
 							}
 							else {
-								Types.emplace_back(std::make_pair(w.GetID(), w.GetCount()));
+								Types.emplace_back(std::make_pair(ID, w.GetValue()));
 							}
 						}
 					}

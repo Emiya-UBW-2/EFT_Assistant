@@ -29,7 +29,7 @@ namespace FPS_n2 {
 			InfoStr = "";
 
 			int xpos = y_r(960);
-			int ypos = y_r(540);
+			int ypos = y_r(440);
 			int xsize = y_r(420);
 			int ysize = y_r(52);
 			DrawOnce(xpos - xsize / 2, ypos - ysize / 2, xpos + xsize / 2, ypos + ysize / 2, "タスク", "タスク情報と達成状況の更新を行うページです", BGSelect::Task);
@@ -41,6 +41,8 @@ namespace FPS_n2 {
 			DrawOnce(xpos - xsize / 2, ypos - ysize / 2, xpos + xsize / 2, ypos + ysize / 2, "マップ", "ミニマップの閲覧及びタスクで向かう場所を記したページです", BGSelect::Map);
 			ypos += y_r(100);
 			DrawOnce(xpos - xsize / 2, ypos - ysize / 2, xpos + xsize / 2, ypos + ysize / 2, "カスタマイズ", "銃器のカスタム値を確認できるページです", BGSelect::Custom);
+			ypos += y_r(100);
+			DrawOnce(xpos - xsize / 2, ypos - ysize / 2, xpos + xsize / 2, ypos + ysize / 2, "トレーダー", "トレーダーのLLなどの設定ができるページです", BGSelect::Trader);
 			ypos += y_r(100);
 
 

@@ -114,6 +114,9 @@
     <ClInclude Include="source\Scene\MainScene\Page\MainScene_PagePlayerInfo.hpp">
       <Filter>ソース ファイル\Scene\Page</Filter>
     </ClInclude>
+    <ClInclude Include="source\Scene\MainScene\Page\MainScene_PageTrader.hpp">
+      <Filter>ソース ファイル\Scene\Page</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\main.cpp">
@@ -126,6 +129,9 @@
       <Filter>ソース ファイル\Scene\Data</Filter>
     </ClCompile>
     <ClCompile Include="source\Scene\MainScene\Data\MainScene_Trader.cpp">
+      <Filter>ソース ファイル\Scene\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene\MainScene\Data\MainScene_Parents.cpp">
       <Filter>ソース ファイル\Scene\Data</Filter>
     </ClCompile>
   </ItemGroup>

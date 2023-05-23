@@ -60,19 +60,21 @@ namespace FPS_n2 {
 			auto& L = *HideoutData::Instance()->FindPtr(MyID);
 			//親が同施設の前レベ以外の時そいつの子にもなれるようにXをずらす
 			for (auto& P : L.GetLvData().at(MyLv - 1).m_Parent) {
-				auto IdDrewParent = std::find_if(isDrew.begin(), isDrew.end(), [&](const auto& tgt) {return tgt.first == HideoutData::Instance()->FindID(P.GetID().c_str()); });
+				auto ID = HideoutData::Instance()->FindID(P.GetName());
+				auto IdDrewParent = std::find_if(isDrew.begin(), isDrew.end(), [&](const auto& tgt) {return tgt.first == ID; });
 				if (IdDrewParent != isDrew.end()) {
-					if (IdDrewParent->second.at(P.GetLv() - 1).IsDrew == true) {
-						xpos = std::max(xpos, IdDrewParent->second.at(P.GetLv() - 1).xpos + xsize + y_r(100));
+					if (IdDrewParent->second.at(P.GetValue() - 1).IsDrew == true) {
+						xpos = std::max(xpos, IdDrewParent->second.at(P.GetValue() - 1).xpos + xsize + y_r(100));
 					}
 				}
 			}
 			for (auto& P : L.GetLvData().at(MyLv - 1).m_Parent) {
-				auto IdDrewParent = std::find_if(isDrew.begin(), isDrew.end(), [&](const auto& tgt) {return tgt.first == HideoutData::Instance()->FindID(P.GetID().c_str()); });
+				auto ID = HideoutData::Instance()->FindID(P.GetName());
+				auto IdDrewParent = std::find_if(isDrew.begin(), isDrew.end(), [&](const auto& tgt) {return tgt.first == ID; });
 				if (IdDrewParent != isDrew.end()) {
-					if (IdDrewParent->second.at(P.GetLv() - 1).IsDrew == true) {
-						int start_x = IdDrewParent->second.at(P.GetLv() - 1).xpos + xsize;
-						int start_y = IdDrewParent->second.at(P.GetLv() - 1).ypos + ysize / 2;
+					if (IdDrewParent->second.at(P.GetValue() - 1).IsDrew == true) {
+						int start_x = IdDrewParent->second.at(P.GetValue() - 1).xpos + xsize;
+						int start_y = IdDrewParent->second.at(P.GetValue() - 1).ypos + ysize / 2;
 
 						int end_x = xpos;
 						int end_y = *ypos + ysize / 2;
@@ -109,7 +111,7 @@ namespace FPS_n2 {
 
 			for (auto& C : L.GetLvData().at(MyLv-1).m_Child) {
 				int TmpYPos = *ypos;
-				if (DrawHideoutList(HideoutData::Instance()->FindID(C.GetID().c_str()), C.GetLv(), xpos + xsize + y_r(100), &TmpYPos, xsize, ysize)) {
+				if (DrawHideoutList(HideoutData::Instance()->FindID(C.GetName()), C.GetValue(), xpos + xsize + y_r(100), &TmpYPos, xsize, ysize)) {
 					*ypos += ysize + y_r(10);
 				}
 			}
@@ -153,15 +155,16 @@ namespace FPS_n2 {
 						}
 						if (!IsChecktask) { continue; }
 						for (const auto& w : Ld.m_ItemReq) {
-							auto* ptr = ItemData::Instance()->FindPtr(w.GetID());
+							auto ID = ItemData::Instance()->FindID(w.GetName());
+							auto* ptr = ItemData::Instance()->FindPtr(ID);
 							if (ptr) {
 								auto& Types = Counter.at(ptr->GetTypeID());
-								auto Find = std::find_if(Types.begin(), Types.end(), [&](const std::pair<ItemID, int>& obj) {return obj.first == w.GetID(); });
+								auto Find = std::find_if(Types.begin(), Types.end(), [&](const std::pair<ItemID, int>& obj) {return obj.first == ID; });
 								if (Find != Types.end()) {
-									Find->second += w.GetCount();
+									Find->second += w.GetValue();
 								}
 								else {
-									Types.emplace_back(std::make_pair(w.GetID(), w.GetCount()));
+									Types.emplace_back(std::make_pair(ID, w.GetValue()));
 								}
 							}
 						}

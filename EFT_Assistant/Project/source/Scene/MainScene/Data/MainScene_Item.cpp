@@ -1,21 +1,6 @@
 #include"../../../Header.hpp"
 
 namespace FPS_n2 {
-	void			SetItem(std::vector<ItemGetData>* Data, const std::string& mes) noexcept {
-		auto L = mes.rfind("x");
-		if (L != std::string::npos) {
-			auto ID = ItemData::Instance()->FindID(mes.substr(0, L).c_str());
-			if (std::find_if(Data->begin(), Data->end(), [&](const ItemGetData& obj) {return obj.GetID() == ID; }) == Data->end()) {
-				ItemGetData tmp;
-				tmp.Set(ID, std::stoi(mes.substr(L + 1)));
-				Data->emplace_back(tmp);
-			}
-		}
-		else {
-			//int a = 0;
-		}
-	};
-
 	const int		ItemList::Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive, bool IsFir, bool IsDrawBuy, bool IsIconOnly) const noexcept {
 		auto* WindowMngr = WindowSystem::WindowManager::Instance();
 		auto* Input = InputControl::Instance();
@@ -190,10 +175,11 @@ namespace FPS_n2 {
 					if (!IsChecktask) { continue; }
 					bool isHit = false;
 					for (const auto& w : tasks.GetTaskWorkData().GetFiR_Item()) {
-						if (w.GetID() == GetID()) {
+						auto ID = ItemData::Instance()->FindID(w.GetName());
+						if (ID == GetID()) {
 							std::string Str = "FiR : ";
 							Str += tasks.GetName();
-							Str += " x" + std::to_string(w.GetCount());
+							Str += " x" + std::to_string(w.GetValue());
 							if (WindowSystem::ClickCheckBox(xp, yp + yofs, xp + y_r(800), yp + LineHeight + yofs, false, true, Green, Str)) {
 
 								auto sizeXBuf = y_r(800);
@@ -213,10 +199,11 @@ namespace FPS_n2 {
 					}
 					if (isHit) { continue; }
 					for (const auto& w : tasks.GetTaskWorkData().GetNotFiR_Item()) {
-						if (w.GetID() == GetID()) {
+						auto ID = ItemData::Instance()->FindID(w.GetName());
+						if (ID == GetID()) {
 							std::string Str = "Not FiR : ";
 							Str += tasks.GetName();
-							Str += " x" + std::to_string(w.GetCount());
+							Str += " x" + std::to_string(w.GetValue());
 							if (WindowSystem::ClickCheckBox(xp, yp + yofs, xp + y_r(800), yp + LineHeight + yofs, false, true, Green, Str)) {
 
 								auto sizeXBuf = y_r(800);
@@ -236,10 +223,11 @@ namespace FPS_n2 {
 					}
 					if (isHit) { continue; }
 					for (const auto& w : tasks.GetTaskNeedData().GetItem()) {
-						if (w.GetID() == GetID()) {
+						auto ID = ItemData::Instance()->FindID(w.GetName());
+						if (ID == GetID()) {
 							std::string Str = "Need : ";
 							Str += tasks.GetName();
-							Str += " x" + std::to_string(w.GetCount());
+							Str += " x" + std::to_string(w.GetValue());
 							if (WindowSystem::ClickCheckBox(xp, yp + yofs, xp + y_r(800), yp + LineHeight + yofs, false, true, Green, Str)) {
 
 								auto sizeXBuf = y_r(800);
@@ -261,29 +249,138 @@ namespace FPS_n2 {
 					//
 				}
 			}
-			//ハイドアウト開放
+			//ハイドアウト
 			{
+				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STRX_LEFT, White, Black,
+					"ハイドアウト開放:")); yofs += LineHeight + y_r(5);
+				//ハイドアウト開放
 				for (auto&L : HideoutData::Instance()->SetList()) {
 					for (const auto& Ld : L.GetLvData()) {
+						/*
 						bool IsChecktask = true;
 						if (PlayerData::Instance()->GetHideoutClear(L.GetName().c_str(), (int)(&Ld - &L.GetLvData().front()) + 1)) {
 							IsChecktask = false;
 						}
 						if (!IsChecktask) { continue; }
-						bool isHit = false;
+						//*/
+						//開放
 						for (const auto& w : Ld.m_ItemReq) {
-							if (w.GetID() == GetID()) {
+							auto ID = ItemData::Instance()->FindID(w.GetName());
+							if (ID == GetID()) {
 								L.Draw(xp, yp + yofs, y_r(400), LineHeight, (int)(&Ld - &L.GetLvData().front()) + 1, defaultcolor, true);
-								WindowSystem::SetMsg(xp + y_r(400), yp + yofs, xp + y_r(800), yp + yofs + LineHeight, LineHeight, STRX_LEFT, White, Black, " x%d", w.GetCount());
+								WindowSystem::SetMsg(xp + y_r(400), yp + yofs, xp + y_r(800), yp + yofs + LineHeight, LineHeight, STRX_LEFT, White, Black, " x%d", w.GetValue());
 								yofs += LineHeight + y_r(5);
-								isHit = true;
 								break;
 							}
 						}
-						if (isHit) { continue; }
 					}
 				}
+				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STRX_LEFT, White, Black,
+					"ハイドアウトクラフト:")); yofs += LineHeight + y_r(5);
+				//ハイドアウトクラフト素材
+				for (auto&L : HideoutData::Instance()->SetList()) {
+					for (const auto& Ld : L.GetLvData()) {
+						int xofs_buf = y_r(10);
+						int ysize = (int)((float)y_r(64));
 
+						for (const auto& cf : Ld.m_ItemCraft) {
+							bool isHit = false;
+							for (const auto& I : cf.m_ItemReq) {
+								auto ID = ItemData::Instance()->FindID(I.GetName());
+								if (ID == GetID()) {
+									isHit = true;
+									break;
+								}
+							}
+							if (isHit) {
+								xofs_buf = y_r(10);
+								{
+									for (const auto& I : cf.m_ItemReq) {
+										auto ID = ItemData::Instance()->FindID(I.GetName());
+										auto* ptr = ItemData::Instance()->FindPtr(ID);
+										if (ptr) {
+											int xstart = xp + xofs_buf;
+											xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs, y_r(200), ysize, I.GetValue(), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true);
+											DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xstart, yp + yofs, xp + xofs_buf, yp + yofs + ysize, Gray75, false);
+										}
+									}
+								}
+								{
+									//xofs_buf = std::max(xofs_buf, y_r(10) + ysize * 8);
+									xofs_buf += WindowSystem::SetMsg(xp + xofs_buf, yp + yofs, xp + 0, yp + yofs + ysize, LineHeight * 9 / 10, STRX_LEFT, White, Black,
+										">%01d:%02d:%02d>", (cf.durationTime / 60 / 60), (cf.durationTime / 60) % 60, cf.durationTime % 60);
+									xofs_buf += y_r(30);
+								}
+								{
+									for (const auto& I : cf.m_ItemReward) {
+										auto ID = ItemData::Instance()->FindID(I.GetName());
+										auto* ptr = ItemData::Instance()->FindPtr(ID);
+										if (ptr) {
+											int xstart = xp + xofs_buf;
+											xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs, y_r(200), ysize, I.GetValue(), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true);
+											DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xstart, yp + yofs, xp + xofs_buf, yp + yofs + ysize, Gray75, false);
+										}
+									}
+								}
+								xofs = std::max(xofs, xofs_buf + y_r(10));
+								yofs += ysize + y_r(5);
+							}
+						}
+						//クラフトベース
+					}
+				}
+				//ハイドアウトクラフト結果
+				for (auto&L : HideoutData::Instance()->SetList()) {
+					for (const auto& Ld : L.GetLvData()) {
+						int xofs_buf = y_r(10);
+						int ysize = (int)((float)y_r(64));
+
+						for (const auto& cf : Ld.m_ItemCraft) {
+							bool isHit = false;
+							for (const auto& I : cf.m_ItemReward) {
+								auto ID = ItemData::Instance()->FindID(I.GetName());
+								if (ID == GetID()) {
+									isHit = true;
+									break;
+								}
+							}
+							if (isHit) {
+								xofs_buf = y_r(10);
+								{
+									for (const auto& I : cf.m_ItemReward) {
+										auto ID = ItemData::Instance()->FindID(I.GetName());
+										auto* ptr = ItemData::Instance()->FindPtr(ID);
+										if (ptr) {
+											int xstart = xp + xofs_buf;
+											xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs, y_r(200), ysize, I.GetValue(), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true);
+											DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xstart, yp + yofs, xp + xofs_buf, yp + yofs + ysize, Gray75, false);
+										}
+									}
+								}
+								{
+									//xofs_buf = std::max(xofs_buf, y_r(10) + ysize * 8);
+									xofs_buf += WindowSystem::SetMsg(xp + xofs_buf, yp + yofs, xp + 0, yp + yofs + ysize, LineHeight * 9 / 10, STRX_LEFT, White, Black,
+										">%01d:%02d:%02d>", (cf.durationTime / 60 / 60), (cf.durationTime / 60) % 60, cf.durationTime % 60);
+									xofs_buf += y_r(30);
+								}
+								{
+									for (const auto& I : cf.m_ItemReward) {
+										auto ID = ItemData::Instance()->FindID(I.GetName());
+										auto* ptr = ItemData::Instance()->FindPtr(ID);
+										if (ptr) {
+											int xstart = xp + xofs_buf;
+											xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs, y_r(200), ysize, I.GetValue(), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true);
+											DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xstart, yp + yofs, xp + xofs_buf, yp + yofs + ysize, Gray75, false);
+										}
+									}
+								}
+								xofs = std::max(xofs, xofs_buf + y_r(10));
+								yofs += ysize + y_r(5);
+							}
+						}
+						//クラフトベース
+					}
+				}
 			}
 			//
 			if (m_isWeapon) {

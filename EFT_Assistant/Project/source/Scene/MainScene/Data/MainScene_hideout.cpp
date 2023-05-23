@@ -1,20 +1,172 @@
 #include"../../../Header.hpp"
 
 namespace FPS_n2 {
-	void			SetHideoutLv(std::vector<HideoutGetData>* Data, const std::string& mes) noexcept {
-		auto L = mes.rfind("x");
-		if (L != std::string::npos) {
-			auto ID = mes.substr(0, L);
-			if (std::find_if(Data->begin(), Data->end(), [&](const HideoutGetData& obj) {return obj.GetID() == ID; }) == Data->end()) {
-				HideoutGetData tmp;
-				tmp.Set(ID, std::stoi(mes.substr(L + 1)));
-				Data->emplace_back(tmp);
+	void HideoutJsonData::GetJsonData(const nlohmann::json& data) {
+		id = data["id"];
+		name = data["name"];
+
+		m_LvData.clear();
+		for (auto& Ld : data["levels"]) {
+			m_LvData.resize(m_LvData.size() + 1);
+			auto& L = m_LvData.back();
+			L.constructionTime = Ld["constructionTime"];
+			L.Information_Eng = Ld["description"];
+			L.m_ItemReq.clear();
+			if (Ld.contains("itemRequirements")) {
+				if (!Ld["itemRequirements"].is_null()) {
+					for (const auto&m : Ld["itemRequirements"]) {
+						ItemGetData buf;
+						buf.Set(m["item"]["name"], m["count"]);
+						L.m_ItemReq.emplace_back(buf);
+					}
+				}
+			}
+			L.m_Parent.clear();
+			if (Ld.contains("stationLevelRequirements")) {
+				if (!Ld["stationLevelRequirements"].is_null()) {
+					for (const auto&m : Ld["stationLevelRequirements"]) {
+						HideoutGetData buf;
+						buf.Set(m["station"]["name"], m["level"]);
+						L.m_Parent.emplace_back(buf);
+					}
+				}
+			}
+			L.m_TraderReq.clear();
+			if (Ld.contains("traderRequirements")) {
+				if (!Ld["traderRequirements"].is_null()) {
+					for (const auto&m : Ld["traderRequirements"]) {
+						TraderGetData buf;
+						buf.Set(m["trader"]["name"], m["level"]);//todo:levelが廃止予定
+						L.m_TraderReq.emplace_back(buf);
+					}
+				}
+			}
+			//
+			L.m_ItemCraft.clear();
+			for (auto& Cd : Ld["crafts"]) {
+				L.m_ItemCraft.resize(L.m_ItemCraft.size() + 1);
+				//
+				L.m_ItemCraft.back().durationTime = Cd["duration"];
+				//
+				L.m_ItemCraft.back().m_ItemReq.clear();
+				if (Cd.contains("requiredItems")) {
+					if (!Cd["requiredItems"].is_null()) {
+						for (const auto&m : Cd["requiredItems"]) {
+							ItemGetData buf;
+							buf.Set(m["item"]["name"], m["count"]);
+							L.m_ItemCraft.back().m_ItemReq.emplace_back(buf);
+						}
+					}
+				}
+				//
+				L.m_ItemCraft.back().m_ItemReward.clear();
+				if (Cd.contains("rewardItems")) {
+					if (!Cd["rewardItems"].is_null()) {
+						for (const auto&m : Cd["rewardItems"]) {
+							ItemGetData buf;
+							buf.Set(m["item"]["name"], m["count"]);
+							L.m_ItemCraft.back().m_ItemReward.emplace_back(buf);
+						}
+					}
+				}
+				//
 			}
 		}
-		else {
-			//int a = 0;
+	}
+
+	void			HideoutList::Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept {
+		std::string LEFTBuf = LEFT.substr(3);
+		std::string NumBuf2 = LEFT.substr(2, 1);
+		int ID = 0;
+		if (std::all_of(NumBuf2.cbegin(), NumBuf2.cend(), isdigit)) {
+			ID = std::stoi(NumBuf2) - 1;
+			if (m_LvData.size() <= ID) { m_LvData.resize(ID + 1); }
+			//開放データ
+			if (LEFTBuf == "constructionTime") { m_LvData.at(ID).constructionTime = std::stoi(RIGHT); }
+			if (LEFTBuf == "Information_Eng") { m_LvData.at(ID).Information_Eng = RIGHT; }
+			if (LEFTBuf == "itemReq") {
+				if (Args.size() > 0) {
+					for (auto&a : Args) {
+						if (a == "or") {
+
+						}
+						else {
+							SetGetData<ItemGetData, ItemData>(&m_LvData.at(ID).m_ItemReq, a);
+						}
+					}
+				}
+				else {
+					SetGetData<ItemGetData, ItemData>(&m_LvData.at(ID).m_ItemReq, RIGHT);
+				}
+			}
+			if (LEFTBuf == "stationLevelReq") {
+				if (Args.size() > 0) {
+					for (auto&a : Args) {
+						if (a == "or") {
+
+						}
+						else {
+							SetGetData<HideoutGetData, HideoutData>(&m_LvData.at(ID).m_Parent, a);
+						}
+					}
+				}
+				else {
+					SetGetData<HideoutGetData, HideoutData>(&m_LvData.at(ID).m_Parent, RIGHT);
+				}
+			}
+			if (LEFTBuf == "traderRequirements") {
+				if (Args.size() > 0) {
+					for (auto&a : Args) {
+						if (a == "or") {
+
+						}
+						else {
+							SetGetData<TraderGetData, TraderData>(&m_LvData.at(ID).m_TraderReq, a);
+						}
+					}
+				}
+				else {
+					SetGetData<TraderGetData, TraderData>(&m_LvData.at(ID).m_TraderReq, RIGHT);
+				}
+			}
+			//クラフトレシピ
+			if (LEFTBuf == "craftduration") {
+				m_LvData.at(ID).m_ItemCraft.resize(m_LvData.at(ID).m_ItemCraft.size() + 1);
+				m_LvData.at(ID).m_ItemCraft.back().durationTime = std::stoi(RIGHT);
+			}
+			if (LEFTBuf == "craftitemReq") {
+				if (Args.size() > 0) {
+					for (auto&a : Args) {
+						if (a == "or") {
+
+						}
+						else {
+							SetGetData<ItemGetData, ItemData>(&m_LvData.at(ID).m_ItemCraft.back().m_ItemReq, a);
+						}
+					}
+				}
+				else {
+					SetGetData<ItemGetData, ItemData>(&m_LvData.at(ID).m_ItemCraft.back().m_ItemReq, RIGHT);
+				}
+			}
+			if (LEFTBuf == "craftitemReward") {
+				if (Args.size() > 0) {
+					for (auto&a : Args) {
+						if (a == "or") {
+
+						}
+						else {
+							SetGetData<ItemGetData, ItemData>(&m_LvData.at(ID).m_ItemCraft.back().m_ItemReward, a);
+						}
+					}
+				}
+				else {
+					SetGetData<ItemGetData, ItemData>(&m_LvData.at(ID).m_ItemCraft.back().m_ItemReward, RIGHT);
+				}
+			}
+			//
 		}
-	};
+	}
 
 	const int		HideoutList::Draw(int xp, int yp, int xsize, int ysize, int Lv, unsigned int defaultcolor, bool Clickactive) noexcept {
 		auto* WindowMngr = WindowSystem::WindowManager::Instance();
@@ -154,11 +306,11 @@ namespace FPS_n2 {
 				int yofs_buf = yofs_OLD;
 				{
 					for (const auto& I : m_LvData.at(Lv - 1).m_ItemReq) {
-						auto* ptr = ItemData::Instance()->FindPtr(I.GetID());
+						auto* ptr = ItemData::Instance()->FindPtr(ItemData::Instance()->FindID(I.GetName()));
 						if (ptr) {
 							xofs_buf = xofs + y_r(10);
 							int xstart = xp + xofs_buf;
-							xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs_buf, y_r(300), ysize, I.GetCount(), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true);
+							xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs_buf, y_r(300), ysize, I.GetValue(), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true);
 							DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xstart, yp + yofs_buf, xp + xofs_buf, yp + yofs_buf + ysize, Gray75, false);
 							yofs_buf += ysize + y_r(5);
 						}
@@ -175,11 +327,11 @@ namespace FPS_n2 {
 				int yofs_buf = yofs_OLD;
 				{
 					for (const auto& I : m_LvData.at(Lv - 1).m_Parent) {
-						auto* ptr = HideoutData::Instance()->FindPtr(HideoutData::Instance()->FindID(I.GetID().c_str()));
+						auto* ptr = HideoutData::Instance()->FindPtr(ItemData::Instance()->FindID(I.GetName()));
 						if (ptr) {
 							xofs_buf = xofs + y_r(10);
 							int xstart = xp + xofs_buf;
-							xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs_buf, y_r(300), ysize, I.GetLv(), defaultcolor, !WindowMngr->PosHitCheck(window));
+							xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs_buf, y_r(300), ysize, I.GetValue(), defaultcolor, !WindowMngr->PosHitCheck(window));
 							DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xstart, yp + yofs_buf, xp + xofs_buf, yp + yofs_buf + ysize, Gray75, false);
 							yofs_buf += ysize + y_r(5);
 						}
@@ -196,7 +348,7 @@ namespace FPS_n2 {
 				int yofs_buf = yofs_OLD;
 				{
 					for (const auto& I : m_LvData.at(Lv - 1).m_TraderReq) {
-						auto* ptr = TraderData::Instance()->FindPtr(I.GetID());
+						auto* ptr = TraderData::Instance()->FindPtr(ItemData::Instance()->FindID(I.GetName()));
 						if (ptr) {
 							xofs_buf = xofs + y_r(10);
 							int xstart = xp + xofs_buf;
@@ -204,7 +356,7 @@ namespace FPS_n2 {
 							if (WindowSystem::ClickCheckBox(
 								xp + xofs_buf, yp + yofs_buf,
 								xp + xofs_buf + y_r(300), yp + yofs_buf + ysize,
-								false, !WindowMngr->PosHitCheck(nullptr), defaultcolor, ptr->GetName() + " Lv" + std::to_string(I.GetLv()))) {
+								false, !WindowMngr->PosHitCheck(nullptr), defaultcolor, ptr->GetName() + " Lv" + std::to_string(I.GetValue()))) {
 							}
 							xofs_buf += y_r(300);
 							DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xstart, yp + yofs_buf, xp + xofs_buf, yp + yofs_buf + ysize, Gray75, false);
@@ -266,10 +418,10 @@ namespace FPS_n2 {
 					xofs_buf = y_r(10);
 					{
 						for (const auto& I : cf.m_ItemReq) {
-							auto* ptr = ItemData::Instance()->FindPtr(I.GetID());
+							auto* ptr = ItemData::Instance()->FindPtr(ItemData::Instance()->FindID(I.GetName()));
 							if (ptr) {
 								int xstart = xp + xofs_buf;
-								xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs, y_r(200), ysize, I.GetCount(), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true);
+								xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs, y_r(200), ysize, I.GetValue(), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true);
 								DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xstart, yp + yofs, xp + xofs_buf, yp + yofs + ysize, Gray75, false);
 							}
 						}
@@ -282,10 +434,10 @@ namespace FPS_n2 {
 					}
 					{
 						for (const auto& I : cf.m_ItemReward) {
-							auto* ptr = ItemData::Instance()->FindPtr(I.GetID());
+							auto* ptr = ItemData::Instance()->FindPtr(ItemData::Instance()->FindID(I.GetName()));
 							if (ptr) {
 								int xstart = xp + xofs_buf;
-								xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs, y_r(200), ysize, I.GetCount(), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true);
+								xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs, y_r(200), ysize, I.GetValue(), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true);
 								DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xstart, yp + yofs, xp + xofs_buf, yp + yofs + ysize, Gray75, false);
 							}
 						}
@@ -308,5 +460,27 @@ namespace FPS_n2 {
 		if (ys) {
 			*ys = std::max(*ys, yofs - LineHeight);
 		}
+	}
+
+	void			HideoutList::SetOtherPartsID(const std::vector<HideoutList>& HideoutList) noexcept {
+		for (auto& D : m_LvData) {
+			int DLv = (int)(&D - &m_LvData.front()) + 1;
+			D.m_Child.clear();
+			for (const auto&L : HideoutList) {
+				for (const auto& C : L.GetLvData()) {
+					int Lv = (int)(&C - &L.GetLvData().front()) + 1;
+					for (const auto& P : C.m_Parent) {
+						auto ID = HideoutData::Instance()->FindID(P.GetName());
+						if ((ID == GetID()) && (DLv == P.GetValue())) {
+							//自分が子のパーツの親です
+							HideoutGetData buf;
+							buf.Set(L.GetName(), Lv);
+							D.m_Child.emplace_back(buf);
+						}
+					}
+				}
+			}
+		}
+		//
 	}
 };

@@ -3,6 +3,9 @@
 
 namespace FPS_n2 {
 	typedef int TraderID;
+
+	class TraderGetData : public GetDataParent<TraderID> {};
+
 	class TraderList : public ListParent<TraderID> {
 		std::array<int, 4>		m_Lv{ 0,0,0,0 };
 		std::array<float, 4>	m_Rep{ 0,0,0,0 };
@@ -31,6 +34,9 @@ namespace FPS_n2 {
 		void	WhenAfterLoad_Sub() noexcept override {
 		}
 	};
+	//
+	//
+	//
 	class TraderData : public SingletonBase<TraderData>, public DataParent<TraderID, TraderList> {
 	private:
 		friend class SingletonBase<TraderData>;
@@ -43,17 +49,5 @@ namespace FPS_n2 {
 	public:
 	};
 
-	class TraderGetData {
-		TraderID			m_ID;
-		int					m_Lv{ 0 };
-	public:
-		const auto&		GetID() const noexcept { return m_ID; }
-		const auto&		GetLv() const noexcept { return m_Lv; }
-		void			Set(const std::string& name, int lv) noexcept {
-			m_ID = TraderData::Instance()->FindID(name.c_str());
-			m_Lv = lv;
-		}
-	};
-	void			SetTraderLv(std::vector<TraderGetData>* Data, const std::string& mes) noexcept;
 
 };

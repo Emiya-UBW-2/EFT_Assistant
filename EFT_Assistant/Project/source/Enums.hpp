@@ -11,6 +11,7 @@ namespace FPS_n2 {
 		Item,
 		Map,
 		Custom,
+		Trader,
 		ItemList,
 		PlayerInfo,
 	};

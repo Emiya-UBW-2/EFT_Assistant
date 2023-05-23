@@ -197,7 +197,7 @@ namespace FPS_n2 {
 			}
 		}
 	public:
-		const ID		FindID(const char* name) const noexcept {
+		const ID		FindID(std::string_view name) const noexcept {
 			for (const auto&t : m_List) {
 				if (t.GetName() == name) {
 					return t.GetID();
@@ -221,5 +221,33 @@ namespace FPS_n2 {
 		}
 		const auto&		GetList(void) const noexcept { return this->m_List; }
 		auto&			SetList(void) noexcept { return this->m_List; }
+	};
+	//
+	template <class ID>
+	class GetDataParent {
+		std::string m_name;
+		int			m_Value{ 0 };
+	public:
+		const auto&		GetName() const noexcept { return m_name; }
+		const auto&		GetValue() const noexcept { return m_Value; }
+		void			Set(const std::string& name, int lv) noexcept {
+			m_name = name;
+			m_Value = lv;
+		}
+	};
+	template <class GetDataParent, class DataParent>
+	void			SetGetData(std::vector<GetDataParent>* Data, const std::string& mes) noexcept {
+		auto L = mes.rfind("x");
+		if (L != std::string::npos) {
+			auto id = mes.substr(0, L);
+			if (std::find_if(Data->begin(), Data->end(), [&](const GetDataParent& obj) {return obj.GetName() == id; }) == Data->end()) {
+				GetDataParent tmp;
+				tmp.Set(id, std::stoi(mes.substr(L + 1)));
+				Data->emplace_back(tmp);
+			}
+		}
+		else {
+			//int a = 0;
+		}
 	};
 };

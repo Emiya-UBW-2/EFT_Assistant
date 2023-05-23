@@ -1,0 +1,43 @@
+{"query" : "{
+ traders(offset:OFFSETVAL limit:LIMITVAL){
+    id
+    name
+    description
+    resetTime
+    currency{
+      name
+    }
+    discount
+    levels{
+      requiredPlayerLevel
+      requiredReputation
+      requiredCommerce
+      payRate
+      insuranceRate
+      repairCostMultiplier
+      barters{
+        taskUnlock{name}
+        requiredItems{
+          item{name}
+          count
+        }
+        rewardItems{
+          item{name}
+          count
+        }
+      }
+      cashOffers{
+        taskUnlock{name}
+        price
+        currencyItem{name}
+        item{name}
+      }
+    }
+    reputationLevels{
+      ...on TraderReputationLevelFence {
+   	   minimumReputation
+	    }
+    }
+ }
+}"}
+

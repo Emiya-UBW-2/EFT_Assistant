@@ -17,6 +17,7 @@ namespace FPS_n2 {
 		std::shared_ptr<ItemBG>										m_ItemBG;
 		std::shared_ptr<MapBG>										m_MapBG;
 		std::shared_ptr<CustomBG>									m_CustomBG;
+		std::shared_ptr<TraderBG>									m_TraderBG;
 		std::shared_ptr<ItemListBG>									m_ItemListBG;
 		std::shared_ptr<PlayerInfoBG>								m_PlayerInfoBG;
 
@@ -69,6 +70,7 @@ namespace FPS_n2 {
 			m_ItemBG = std::make_shared<ItemBG>();
 			m_MapBG = std::make_shared<MapBG>();
 			m_CustomBG = std::make_shared<CustomBG>();
+			m_TraderBG = std::make_shared<TraderBG>();
 			m_ItemListBG = std::make_shared<ItemListBG>();
 			m_PlayerInfoBG = std::make_shared<PlayerInfoBG>();
 			//
@@ -177,6 +179,9 @@ namespace FPS_n2 {
 					case BGSelect::Custom:
 						m_BGPtr = m_CustomBG;
 						break;
+					case BGSelect::Trader:
+						m_BGPtr = m_TraderBG;
+						break;
 					case BGSelect::ItemList:
 						m_BGPtr = m_ItemListBG;
 						break;
@@ -213,6 +218,9 @@ namespace FPS_n2 {
 				case BGSelect::Custom:
 					m_BGPtr = m_CustomBG;
 					break;
+				case BGSelect::Trader:
+					m_BGPtr = m_TraderBG;
+					break;
 				case BGSelect::ItemList:
 					m_BGPtr = m_ItemListBG;
 					break;
@@ -237,6 +245,8 @@ namespace FPS_n2 {
 						InterParts->GetInitParam(0),//アイテム名
 						InterParts->GetInitParam(1)//プリセット名
 					);
+					break;
+				case BGSelect::Trader:
 					break;
 				case BGSelect::ItemList:
 					break;
@@ -318,6 +328,7 @@ namespace FPS_n2 {
 			m_ItemBG.reset();
 			m_MapBG.reset();
 			m_CustomBG.reset();
+			m_TraderBG.reset();
 			m_ItemListBG.reset();
 			m_PlayerInfoBG.reset();
 

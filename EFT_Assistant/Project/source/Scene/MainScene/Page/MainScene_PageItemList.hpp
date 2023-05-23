@@ -18,7 +18,7 @@ namespace FPS_n2 {
 
 		void Draw_Back_Sub(int, int, float) noexcept override {
 			auto* WindowMngr = WindowSystem::WindowManager::Instance();
-			auto* DrawParts = DXDraw::Instance();
+			//auto* DrawParts = DXDraw::Instance();
 			//auto* Input = InputControl::Instance();
 
 			int xpos = y_r(50);
@@ -60,17 +60,18 @@ namespace FPS_n2 {
 						}
 						if (!IsChecktask) { continue; }
 						for (const auto& w : tasks.GetTaskWorkData().GetFiR_Item()) {
-							auto* ptr = ItemData::Instance()->FindPtr(w.GetID());
+							auto ID = ItemData::Instance()->FindID(w.GetName());
+							auto* ptr = ItemData::Instance()->FindPtr(ID);
 							if (ptr) {
 								auto& Types = Counter.at(ptr->GetTypeID());
-								auto Find = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == w.GetID()) && (obj.isFir == true); });
+								auto Find = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == ID) && (obj.isFir == true); });
 								if (Find != Types.end()) {
-									Find->count += w.GetCount();
+									Find->count += w.GetValue();
 								}
 								else {
 									counts tmp;
-									tmp.m_ID = w.GetID();
-									tmp.count = w.GetCount();
+									tmp.m_ID = ID;
+									tmp.count = w.GetValue();
 									tmp.isFir = true;
 									tmp.isNeed = false;
 									Types.emplace_back(tmp);
@@ -78,17 +79,18 @@ namespace FPS_n2 {
 							}
 						}
 						for (const auto& w : tasks.GetTaskWorkData().GetNotFiR_Item()) {
-							auto* ptr = ItemData::Instance()->FindPtr(w.GetID());
+							auto ID = ItemData::Instance()->FindID(w.GetName());
+							auto* ptr = ItemData::Instance()->FindPtr(ID);
 							if (ptr) {
 								auto& Types = Counter.at(ptr->GetTypeID());
-								auto Find = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == w.GetID()) && (obj.isFir == false); });
+								auto Find = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == ID) && (obj.isFir == false); });
 								if (Find != Types.end()) {
-									Find->count += w.GetCount();
+									Find->count += w.GetValue();
 								}
 								else {
 									counts tmp;
-									tmp.m_ID = w.GetID();
-									tmp.count = w.GetCount();
+									tmp.m_ID = ID;
+									tmp.count = w.GetValue();
 									tmp.isFir = false;
 									tmp.isNeed = false;
 									Types.emplace_back(tmp);
@@ -97,19 +99,20 @@ namespace FPS_n2 {
 						}
 						if (m_IsNeedItem) {
 							for (const auto& w : tasks.GetTaskNeedData().GetItem()) {
-								auto* ptr = ItemData::Instance()->FindPtr(w.GetID());
+								auto ID = ItemData::Instance()->FindID(w.GetName());
+								auto* ptr = ItemData::Instance()->FindPtr(ID);
 								if (ptr) {
 									auto& Types = Counter.at(ptr->GetTypeID());
-									auto Find = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == w.GetID()) && (obj.isNeed == true); });
+									auto Find = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == ID) && (obj.isNeed == true); });
 									if (Find != Types.end()) {
-										Find->count += w.GetCount();
+										Find->count += w.GetValue();
 									}
 									else {
-										auto Find2 = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == w.GetID()) && (obj.isNeed == false); });
+										auto Find2 = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == ID) && (obj.isNeed == false); });
 										if (Find2 == Types.end()) {
 											counts tmp;
-											tmp.m_ID = w.GetID();
-											tmp.count = w.GetCount();
+											tmp.m_ID = ID;
+											tmp.count = w.GetValue();
 											tmp.isFir = false;
 											tmp.isNeed = true;
 											Types.emplace_back(tmp);
@@ -130,17 +133,18 @@ namespace FPS_n2 {
 							}
 							if (!IsChecktask) { continue; }
 							for (const auto& w : Ld.m_ItemReq) {
-								auto* ptr = ItemData::Instance()->FindPtr(w.GetID());
+								auto ID = ItemData::Instance()->FindID(w.GetName());
+								auto* ptr = ItemData::Instance()->FindPtr(ID);
 								if (ptr) {
 									auto& Types = Counter.at(ptr->GetTypeID());
-									auto Find = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == w.GetID()) && (obj.isFir == false) && (obj.isNeed == false); });
+									auto Find = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == ID) && (obj.isFir == false) && (obj.isNeed == false); });
 									if (Find != Types.end()) {
-										Find->count += w.GetCount();
+										Find->count += w.GetValue();
 									}
 									else {
 										counts tmp;
-										tmp.m_ID = w.GetID();
-										tmp.count = w.GetCount();
+										tmp.m_ID = ID;
+										tmp.count = w.GetValue();
 										tmp.isFir = false;
 										tmp.isNeed = true;
 										Types.emplace_back(tmp);
@@ -192,10 +196,10 @@ namespace FPS_n2 {
 															//*/
 															for (const auto& C : Ld.m_ItemCraft) {
 																for (const auto& R : C.m_ItemReward) {
+																	auto RID = ItemData::Instance()->FindID(R.GetName());
+																	int craftcount = std::max(1, c.count / R.GetValue());
 
-																	int craftcount = std::max(1, c.count / R.GetCount());
-
-																	if (R.GetID() == c.m_ID) {
+																	if (RID == c.m_ID) {
 																		yp2 = yp;
 																		std::string NameTmp = L.GetName();
 																		NameTmp += " Lv" + std::to_string(Lv);
@@ -203,10 +207,11 @@ namespace FPS_n2 {
 																		WindowSystem::SetMsg(xp2, yp2, xp2, yp2 + ysize2, ysize2, STRX_LEFT, White, Black, NameTmp);
 																		yp2 += ysize2 + y_r(5);
 																		for (const auto& w : C.m_ItemReq) {
-																			auto* ptr = ItemData::Instance()->FindPtr(w.GetID());
-																			if (ptr) {
-																				int count = w.GetCount()*craftcount;
-																				ptr->Draw(xp2, yp2, xsize2, ysize2, (count >= 2) ? count : 0, Gray15, !WindowMngr->PosHitCheck(nullptr), false, false, true);
+																			auto ID = ItemData::Instance()->FindID(w.GetName());
+																			auto* ptr2 = ItemData::Instance()->FindPtr(ID);
+																			if (ptr2) {
+																				int count = w.GetValue()*craftcount;
+																				ptr2->Draw(xp2, yp2, xsize2, ysize2, (count >= 2) ? count : 0, Gray15, !WindowMngr->PosHitCheck(nullptr), false, false, true);
 																				xp2 += xsize2 + y_r(5);
 																			}
 																		}

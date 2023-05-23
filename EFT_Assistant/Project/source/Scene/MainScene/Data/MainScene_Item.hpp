@@ -1076,16 +1076,5 @@ namespace FPS_n2 {
 	};
 
 
-	class ItemGetData {
-		ItemID				m_ID{ InvalidID };
-		int					m_Count{ 0 };
-	public:
-		const auto&		GetID() const noexcept { return m_ID; }
-		const auto&		GetCount() const noexcept { return m_Count; }
-		void			Set(ItemID id, int count) noexcept {
-			m_ID = id;
-			m_Count = count;
-		}
-	};
-	void			SetItem(std::vector<ItemGetData>* Data, const std::string& mes) noexcept;
+	class ItemGetData : public GetDataParent<ItemID> {};
 };

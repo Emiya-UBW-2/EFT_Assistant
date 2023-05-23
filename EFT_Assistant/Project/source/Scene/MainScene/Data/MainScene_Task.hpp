@@ -63,12 +63,12 @@ namespace FPS_n2 {
 
 							}
 							else {
-								SetItem(&this->m_Item, a);
+								SetGetData<ItemGetData, ItemData>(&this->m_Item, a);
 							}
 						}
 					}
 					else {
-						SetItem(&this->m_Item, RIGHT);
+						SetGetData<ItemGetData, ItemData>(&this->m_Item, RIGHT);
 					}
 				}
 				else if (LEFT == "NeedKappa") {
@@ -190,12 +190,12 @@ namespace FPS_n2 {
 
 							}
 							else {
-								SetItem(&this->m_FiR_Item, a);
+								SetGetData<ItemGetData, ItemData>(&this->m_FiR_Item, a);
 							}
 						}
 					}
 					else {
-						SetItem(&this->m_FiR_Item, RIGHT);
+						SetGetData<ItemGetData, ItemData>(&this->m_FiR_Item, RIGHT);
 					}
 				}
 				else if (LEFT == "Task_NotFiR_HandOver") {
@@ -205,12 +205,12 @@ namespace FPS_n2 {
 
 							}
 							else {
-								SetItem(&this->m_NotFiR_Item, a);
+								SetGetData<ItemGetData, ItemData>(&this->m_NotFiR_Item, a);
 							}
 						}
 					}
 					else {
-						SetItem(&this->m_NotFiR_Item, RIGHT);
+						SetGetData<ItemGetData, ItemData>(&this->m_NotFiR_Item, RIGHT);
 					}
 				}
 				else if (LEFT == "Task_WeaponPreset_HandOver") {
@@ -283,12 +283,12 @@ namespace FPS_n2 {
 
 							}
 							else {
-								SetItem(&this->m_Item, a);
+								SetGetData<ItemGetData, ItemData>(&this->m_Item, a);
 							}
 						}
 					}
 					else {
-						SetItem(&this->m_Item, RIGHT);
+						SetGetData<ItemGetData, ItemData>(&this->m_Item, RIGHT);
 					}
 				}
 			}
@@ -339,9 +339,10 @@ namespace FPS_n2 {
 				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "必要アイテム:")); yofs += sizy;
 				yofs += LineHeight;
 				for (const auto& LL : m_TaskNeedData.GetItem()) {
-					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
+					auto ID = ItemData::Instance()->FindID(LL.GetName());
+					auto* ptr = ItemData::Instance()->FindPtr(ID);
 					int total_size = y_r(48);
-					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window), false, true, false) + y_r(30));
+					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetValue(), Gray10, !WindowMngr->PosHitCheck(window), false, true, false) + y_r(30));
 					yofs += total_size;
 				}
 			}
@@ -369,9 +370,10 @@ namespace FPS_n2 {
 				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "Firアイテムの納品:")); yofs += sizy;
 				yofs += LineHeight;
 				for (const auto& LL : m_TaskWorkData.GetFiR_Item()) {
-					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
+					auto ID = ItemData::Instance()->FindID(LL.GetName());
+					auto* ptr = ItemData::Instance()->FindPtr(ID);
 					int total_size = y_r(48);
-					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window), true, true, false) + y_r(30));
+					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetValue(), Gray10, !WindowMngr->PosHitCheck(window), true, true, false) + y_r(30));
 					yofs += total_size;
 				}
 			}
@@ -379,9 +381,10 @@ namespace FPS_n2 {
 				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "Firでなくてよいアイテムの納品:")); yofs += sizy;
 				yofs += LineHeight;
 				for (const auto& LL : m_TaskWorkData.GetNotFiR_Item()) {
-					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
+					auto ID = ItemData::Instance()->FindID(LL.GetName());
+					auto* ptr = ItemData::Instance()->FindPtr(ID);
 					int total_size = y_r(48);
-					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window), false, true, false) + y_r(30));
+					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetValue(), Gray10, !WindowMngr->PosHitCheck(window), false, true, false) + y_r(30));
 					yofs += total_size;
 				}
 			}
@@ -426,9 +429,10 @@ namespace FPS_n2 {
 			}
 			if (m_TaskRewardData.GetItem().size() > 0) {
 				for (const auto& LL : m_TaskRewardData.GetItem()) {
-					auto* ptr = ItemData::Instance()->FindPtr(LL.GetID());
+					auto ID = ItemData::Instance()->FindID(LL.GetName());
+					auto* ptr = ItemData::Instance()->FindPtr(ID);
 					int total_size = y_r(48);
-					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetCount(), Gray10, !WindowMngr->PosHitCheck(window), true, true, false) + y_r(30));
+					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetValue(), Gray10, !WindowMngr->PosHitCheck(window), true, true, false) + y_r(30));
 					yofs += total_size;
 				}
 				//yofs += sizy;
@@ -1029,17 +1033,20 @@ namespace FPS_n2 {
 				i.ResetTaskUseID();
 				for (const auto& t : m_List) {
 					for (const auto& n : t.GetTaskNeedData().GetItem()) {
-						if (i.GetID() == n.GetID()) {
+						auto ID = ItemData::Instance()->FindID(n.GetName());
+						if (i.GetID() == ID) {
 							i.AddTaskUseID(t.GetID());
 						}
 					}
 					for (const auto& w : t.GetTaskWorkData().GetFiR_Item()) {
-						if (i.GetID() == w.GetID()) {
+						auto ID = ItemData::Instance()->FindID(w.GetName());
+						if (i.GetID() == ID) {
 							i.AddTaskUseID(t.GetID());
 						}
 					}
 					for (const auto& w : t.GetTaskWorkData().GetNotFiR_Item()) {
-						if (i.GetID() == w.GetID()) {
+						auto ID = ItemData::Instance()->FindID(w.GetName());
+						if (i.GetID() == ID) {
 							i.AddTaskUseID(t.GetID());
 						}
 					}

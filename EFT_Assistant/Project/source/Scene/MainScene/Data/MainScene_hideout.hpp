@@ -4,20 +4,9 @@
 namespace FPS_n2 {
 	typedef int HideoutID;
 	//
-	class HideoutGetData {
-		std::string			m_Name;
-		int					m_Lv{ 0 };
-	public:
-		const auto&		GetID() const noexcept { return m_Name; }
-		const auto&		GetLv() const noexcept { return m_Lv; }
-		void			Set(const std::string& name, int lv) noexcept {
-			m_Name = name;
-			m_Lv = lv;
-		}
-	};
-	void			SetHideoutLv(std::vector<HideoutGetData>* Data, const std::string& mes) noexcept;
+	class HideoutGetData : public GetDataParent<HideoutID> {};
 	//
-	struct LvData {
+	struct HideoutLvData {
 		struct CraftData {
 			int											durationTime{ 0 };
 			std::vector<ItemGetData>					m_ItemReq;
@@ -35,106 +24,12 @@ namespace FPS_n2 {
 	};
 	//
 	class HideoutList : public ListParent<HideoutID> {
-		std::vector<LvData> m_LvData;
+		std::vector<HideoutLvData> m_LvData;
 		int m_DrawWindowLv{ 1 };
 	private:
 		//追加設定
-		void	Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept override {
-			std::string LEFTBuf = LEFT.substr(3);
-			std::string NumBuf2 = LEFT.substr(2, 1);
-			int ID = 0;
-			if (std::all_of(NumBuf2.cbegin(), NumBuf2.cend(), isdigit)) {
-				ID = std::stoi(NumBuf2) - 1;
-				if (m_LvData.size() <= ID) { m_LvData.resize(ID + 1); }
-				//開放データ
-				if (LEFTBuf == "constructionTime") { m_LvData.at(ID).constructionTime = std::stoi(RIGHT); }
-				if (LEFTBuf == "Information_Eng") { m_LvData.at(ID).Information_Eng = RIGHT; }
-				if (LEFTBuf == "itemReq") {
-					if (Args.size() > 0) {
-						for (auto&a : Args) {
-							if (a == "or") {
-
-							}
-							else {
-								SetItem(&m_LvData.at(ID).m_ItemReq, a);
-							}
-						}
-					}
-					else {
-						SetItem(&m_LvData.at(ID).m_ItemReq, RIGHT);
-					}
-				}
-				if (LEFTBuf == "stationLevelReq") {
-					if (Args.size() > 0) {
-						for (auto&a : Args) {
-							if (a == "or") {
-
-							}
-							else {
-								SetHideoutLv(&m_LvData.at(ID).m_Parent, a);
-							}
-						}
-					}
-					else {
-						SetHideoutLv(&m_LvData.at(ID).m_Parent, RIGHT);
-					}
-				}
-				if (LEFTBuf == "traderRequirements") {
-					if (Args.size() > 0) {
-						for (auto&a : Args) {
-							if (a == "or") {
-
-							}
-							else {
-								SetTraderLv(&m_LvData.at(ID).m_TraderReq, a);
-							}
-						}
-					}
-					else {
-						SetTraderLv(&m_LvData.at(ID).m_TraderReq, RIGHT);
-					}
-				}
-				//クラフトレシピ
-				if (LEFTBuf == "craftduration") {
-					m_LvData.at(ID).m_ItemCraft.resize(m_LvData.at(ID).m_ItemCraft.size() + 1);
-					m_LvData.at(ID).m_ItemCraft.back().durationTime = std::stoi(RIGHT);
-				}
-				if (LEFTBuf == "craftitemReq") {
-					if (Args.size() > 0) {
-						for (auto&a : Args) {
-							if (a == "or") {
-
-							}
-							else {
-								SetItem(&m_LvData.at(ID).m_ItemCraft.back().m_ItemReq, a);
-							}
-						}
-					}
-					else {
-						SetItem(&m_LvData.at(ID).m_ItemCraft.back().m_ItemReq, RIGHT);
-					}
-				}
-				if (LEFTBuf == "craftitemReward") {
-					if (Args.size() > 0) {
-						for (auto&a : Args) {
-							if (a == "or") {
-
-							}
-							else {
-								SetItem(&m_LvData.at(ID).m_ItemCraft.back().m_ItemReward, a);
-							}
-						}
-					}
-					else {
-						SetItem(&m_LvData.at(ID).m_ItemCraft.back().m_ItemReward, RIGHT);
-					}
-				}
-				//
-			}
-		}
-		void	Load_Sub() noexcept override {
-		
-		}
+		void	Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept override;
+		void	Load_Sub() noexcept override {}
 		void	WhenAfterLoad_Sub() noexcept override {}
 	public:
 		int										m_CheckJson{ 0 };
@@ -144,28 +39,7 @@ namespace FPS_n2 {
 		const int		Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive) noexcept;
 		void			DrawUnlockWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int Lv, int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept;
 		void			DrawCraftWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int Lv, int xp, int yp, int *xs = nullptr, int* ys = nullptr, int size = 10) noexcept;
-		void			SetOtherPartsID(const std::vector<HideoutList>& HideoutList) noexcept {
-			for (auto& D : m_LvData) {
-				int DLv = (int)(&D - &m_LvData.front()) + 1;
-				D.m_Child.clear();
-				for (const auto&L : HideoutList) {
-					for (const auto& C : L.GetLvData()) {
-						int Lv = (int)(&C - &L.GetLvData().front()) + 1;
-						for (const auto& P : C.m_Parent) {
-							if (
-								(GetName() == P.GetID()) && (DLv == P.GetLv())
-								) {
-								//自分が子のパーツの親です
-								HideoutGetData buf;
-								buf.Set(L.GetName(), Lv);
-								D.m_Child.emplace_back(buf);
-							}
-						}
-					}
-				}
-			}
-			//
-		}
+		void			SetOtherPartsID(const std::vector<HideoutList>& HideoutList) noexcept;
 	};
 	//
 	class HideoutJsonData {
@@ -174,83 +48,9 @@ namespace FPS_n2 {
 	public:
 		std::string									id;
 		std::string									name;
-		std::vector<LvData>							m_LvData;
+		std::vector<HideoutLvData>							m_LvData;
 	public:
-		void GetJsonData(const nlohmann::json& data) {
-			id = data["id"];
-			name = data["name"];
-
-			m_LvData.clear();
-			for (auto& Ld : data["levels"]) {
-				m_LvData.resize(m_LvData.size() + 1);
-				auto& L = m_LvData.back();
-				L.constructionTime = Ld["constructionTime"];
-				L.Information_Eng = Ld["description"];
-				L.m_ItemReq.clear();
-				if (Ld.contains("itemRequirements")) {
-					if (!Ld["itemRequirements"].is_null()) {
-						for (const auto&m : Ld["itemRequirements"]) {
-							ItemGetData buf;
-							std::string Name = m["item"]["name"];
-							buf.Set(ItemData::Instance()->FindID(Name.c_str()), m["count"]);
-							L.m_ItemReq.emplace_back(buf);
-						}
-					}
-				}
-				L.m_Parent.clear();
-				if (Ld.contains("stationLevelRequirements")) {
-					if (!Ld["stationLevelRequirements"].is_null()) {
-						for (const auto&m : Ld["stationLevelRequirements"]) {
-							HideoutGetData buf;
-							buf.Set(m["station"]["name"], m["level"]);
-							L.m_Parent.emplace_back(buf);
-						}
-					}
-				}
-				L.m_TraderReq.clear();
-				if (Ld.contains("traderRequirements")) {
-					if (!Ld["traderRequirements"].is_null()) {
-						for (const auto&m : Ld["traderRequirements"]) {
-							TraderGetData buf;
-							buf.Set(m["trader"]["name"], m["level"]);//todo:levelが廃止予定
-							L.m_TraderReq.emplace_back(buf);
-						}
-					}
-				}
-				//
-				L.m_ItemCraft.clear();
-				for (auto& Cd : Ld["crafts"]) {
-					L.m_ItemCraft.resize(L.m_ItemCraft.size() + 1);
-					//
-					L.m_ItemCraft.back().durationTime = Cd["duration"];
-					//
-					L.m_ItemCraft.back().m_ItemReq.clear();
-					if (Cd.contains("requiredItems")) {
-						if (!Cd["requiredItems"].is_null()) {
-							for (const auto&m : Cd["requiredItems"]) {
-								ItemGetData buf;
-								std::string Name = m["item"]["name"];
-								buf.Set(ItemData::Instance()->FindID(Name.c_str()), m["count"]);
-								L.m_ItemCraft.back().m_ItemReq.emplace_back(buf);
-							}
-						}
-					}
-					//
-					L.m_ItemCraft.back().m_ItemReward.clear();
-					if (Cd.contains("rewardItems")) {
-						if (!Cd["rewardItems"].is_null()) {
-							for (const auto&m : Cd["rewardItems"]) {
-								ItemGetData buf;
-								std::string Name = m["item"]["name"];
-								buf.Set(ItemData::Instance()->FindID(Name.c_str()), m["count"]);
-								L.m_ItemCraft.back().m_ItemReward.emplace_back(buf);
-							}
-						}
-					}
-					//
-				}
-			}
-		}
+		void GetJsonData(const nlohmann::json& data);
 	};
 	//
 	class HideoutData : public SingletonBase<HideoutData>, public DataParent<HideoutID, HideoutList> {
@@ -310,8 +110,8 @@ namespace FPS_n2 {
 							{
 								outputfile << LV + "itemReq=[";
 								for (auto& m : L2.m_ItemReq) {
-									outputfile << ItemData::Instance()->FindPtr(m.GetID())->GetName();
-									outputfile << "x" + std::to_string(m.GetCount());
+									outputfile << m.GetName();
+									outputfile << "x" + std::to_string(m.GetValue());
 									if (&m != &L2.m_ItemReq.back()) {
 										outputfile << ",";
 									}
@@ -321,8 +121,8 @@ namespace FPS_n2 {
 							{
 								outputfile << LV + "stationLevelReq=[";
 								for (auto& m : L2.m_Parent) {
-									outputfile << m.GetID();
-									outputfile << "x" + std::to_string(m.GetLv());
+									outputfile << m.GetName();
+									outputfile << "x" + std::to_string(m.GetValue());
 									if (&m != &L2.m_Parent.back()) {
 										outputfile << ",";
 									}
@@ -332,8 +132,8 @@ namespace FPS_n2 {
 							{
 								outputfile << LV + "traderRequirements=[";
 								for (auto& m : L2.m_TraderReq) {
-									outputfile << TraderData::Instance()->FindPtr(m.GetID())->GetName();
-									outputfile << "x" + std::to_string(m.GetLv());
+									outputfile << m.GetName();
+									outputfile << "x" + std::to_string(m.GetValue());
 									if (&m != &L2.m_TraderReq.back()) {
 										outputfile << ",";
 									}
@@ -345,8 +145,8 @@ namespace FPS_n2 {
 								{
 									outputfile << LV + "craftitemReq=[";
 									for (auto& m : c.m_ItemReq) {
-										outputfile << ItemData::Instance()->FindPtr(m.GetID())->GetName();
-										outputfile << "x" + std::to_string(m.GetCount());
+										outputfile << m.GetName();
+										outputfile << "x" + std::to_string(m.GetValue());
 										if (&m != &c.m_ItemReq.back()) {
 											outputfile << ",";
 										}
@@ -356,8 +156,8 @@ namespace FPS_n2 {
 								{
 									outputfile << LV + "craftitemReward=[";
 									for (auto& m : c.m_ItemReward) {
-										outputfile << ItemData::Instance()->FindPtr(m.GetID())->GetName();
-										outputfile << "x" + std::to_string(m.GetCount());
+										outputfile << m.GetName();
+										outputfile << "x" + std::to_string(m.GetValue());
 										if (&m != &c.m_ItemReward.back()) {
 											outputfile << ",";
 										}
@@ -413,8 +213,8 @@ namespace FPS_n2 {
 						{
 							outputfile << LV + "itemReq=[";
 							for (auto& m : L.m_ItemReq) {
-								outputfile << ItemData::Instance()->FindPtr(m.GetID())->GetName();
-								outputfile << "x" + std::to_string(m.GetCount());
+								outputfile << m.GetName();
+								outputfile << "x" + std::to_string(m.GetValue());
 								if (&m != &L.m_ItemReq.back()) {
 									outputfile << ",";
 								}
@@ -424,8 +224,8 @@ namespace FPS_n2 {
 						{
 							outputfile << LV + "stationLevelReq=[";
 							for (auto& m : L.m_Parent) {
-								outputfile << m.GetID();
-								outputfile << "x" + std::to_string(m.GetLv());
+								outputfile << m.GetName();
+								outputfile << "x" + std::to_string(m.GetValue());
 								if (&m != &L.m_Parent.back()) {
 									outputfile << ",";
 								}
@@ -435,8 +235,8 @@ namespace FPS_n2 {
 						{
 							outputfile << LV + "traderRequirements=[";
 							for (auto& m : L.m_TraderReq) {
-								outputfile << TraderData::Instance()->FindPtr(m.GetID())->GetName();
-								outputfile << "x" + std::to_string(m.GetLv());
+								outputfile << m.GetName();
+								outputfile << "x" + std::to_string(m.GetValue());
 								if (&m != &L.m_TraderReq.back()) {
 									outputfile << ",";
 								}
@@ -448,8 +248,8 @@ namespace FPS_n2 {
 							{
 								outputfile << LV + "craftitemReq=[";
 								for (auto& m : c.m_ItemReq) {
-									outputfile << ItemData::Instance()->FindPtr(m.GetID())->GetName();
-									outputfile << "x" + std::to_string(m.GetCount());
+									outputfile << m.GetName();
+									outputfile << "x" + std::to_string(m.GetValue());
 									if (&m != &c.m_ItemReq.back()) {
 										outputfile << ",";
 									}
@@ -459,8 +259,8 @@ namespace FPS_n2 {
 							{
 								outputfile << LV + "craftitemReward=[";
 								for (auto& m : c.m_ItemReward) {
-									outputfile << ItemData::Instance()->FindPtr(m.GetID())->GetName();
-									outputfile << "x" + std::to_string(m.GetCount());
+									outputfile << m.GetName();
+									outputfile << "x" + std::to_string(m.GetValue());
 									if (&m != &c.m_ItemReward.back()) {
 										outputfile << ",";
 									}
