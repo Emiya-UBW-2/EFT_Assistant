@@ -2,7 +2,6 @@
 #include"../../../Header.hpp"
 
 namespace FPS_n2 {
-	typedef int MapID;
 	struct MapGraphParam {
 		Graphs m_Graph;
 		int m_Degree{ 0 };

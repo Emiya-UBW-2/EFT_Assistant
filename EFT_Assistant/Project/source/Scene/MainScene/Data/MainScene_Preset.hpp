@@ -2,9 +2,6 @@
 #include"../../../Header.hpp"
 
 namespace FPS_n2 {
-	typedef int PresetID;
-
-
 	class PresetList : public ListParent<PresetID> {
 		const ItemList*											m_Base;
 		std::vector<const ItemList*>							m_Parts;

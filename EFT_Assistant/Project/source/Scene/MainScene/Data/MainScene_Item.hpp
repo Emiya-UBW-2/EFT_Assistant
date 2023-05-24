@@ -2,9 +2,6 @@
 #include"../../../Header.hpp"
 
 namespace FPS_n2 {
-	typedef int ItemID;
-
-
 	class ItemList : public ListParent<ItemID> {
 		class ChildItemSettings {
 		public:
@@ -37,151 +34,13 @@ namespace FPS_n2 {
 		int											m_fleaMarketFee{ 0 };
 		bool										m_IsPreset{ false };
 		std::vector<int>							m_UseTaskID;
-	private:
-		//í«â¡ê›íË
-		void	Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept override {
-			if (LEFT == "Itemtype") {
-				m_TypeID = ItemTypeData::Instance()->FindID(RIGHT.c_str());
-			}
-			if (LEFT == "Map") {
-				m_MapID.emplace_back(MapData::Instance()->FindID(RIGHT.c_str()));
-			}
-			if (LEFT == "ChildParts") {
-				m_ChildPartsID.resize(m_ChildPartsID.size() + 1);
-				if (Args.size() > 0) {
-					for (auto&a : Args) {
-						if (a == "or") {
-
-						}
-						else {
-							bool isHit = false;
-							for (auto& d : m_ChildPartsID.back().Data) {
-								if (d.second == a) {
-									isHit = true;
-									break;
-								}
-							}
-							if (!isHit) {
-								m_ChildPartsID.back().Data.resize(m_ChildPartsID.back().Data.size() + 1);
-								m_ChildPartsID.back().Data.back().second = a;
-							}
-						}
-					}
-				}
-				else {
-					bool isHit = false;
-					for (auto& d : m_ChildPartsID.back().Data) {
-						if (d.second == RIGHT) {
-							isHit = true;
-							break;
-						}
-					}
-					if (!isHit) {
-						m_ChildPartsID.back().Data.resize(m_ChildPartsID.back().Data.size() + 1);
-						m_ChildPartsID.back().Data.back().second = RIGHT;
-					}
-				}
-			}
-			if (LEFT == "Conflict") {
-				if (Args.size() > 0) {
-					for (auto&a : Args) {
-						if (a == "or") {
-
-						}
-						else {
-							bool isHit = false;
-							for (auto& d : m_ConflictPartsID) {
-								if (d.second == a) {
-									isHit = true;
-									break;
-								}
-							}
-							if (!isHit) {
-								m_ConflictPartsID.resize(m_ConflictPartsID.size() + 1);
-								m_ConflictPartsID.back().second = a;
-							}
-						}
-					}
-				}
-				else {
-					bool isHit = false;
-					for (auto& d : m_ConflictPartsID) {
-						if (d.second == RIGHT) {
-							isHit = true;
-							break;
-						}
-					}
-					if (!isHit) {
-						m_ConflictPartsID.resize(m_ConflictPartsID.size() + 1);
-						m_ConflictPartsID.back().second = RIGHT;
-					}
-				}
-			}
-
-			if (LEFT == "Recoil") {
-				if (RIGHT.find("+") != std::string::npos) {
-					m_Recoil = std::stof(RIGHT.substr(RIGHT.find("+") + 1));
-				}
-				else {
-					if (RIGHT == "") {
-						//int a = 0;
-					}
-					m_Recoil = std::stof(RIGHT);
-				}
-			}
-			if (LEFT == "Ergonomics") {
-				if (RIGHT.find("+") != std::string::npos) {
-					m_Ergonomics = std::stof(RIGHT.substr(RIGHT.find("+") + 1));
-				}
-				else {
-					if (RIGHT == "") {
-						//int a = 0;
-					}
-					m_Ergonomics = std::stof(RIGHT);
-				}
-			}
-
-			if (LEFT == "SightRange") { m_SightRange = std::stoi(RIGHT); }
-
-			if (LEFT == "basePrice") { m_basePrice = std::stoi(RIGHT); }
-			if (LEFT == "width") { m_width = std::stoi(RIGHT); }
-			if (LEFT == "height") { m_height = std::stoi(RIGHT); }
-			if (LEFT == "avg24hPrice") { m_avg24hPrice = std::stoi(RIGHT); }
-			if (LEFT == "low24hPrice") { m_low24hPrice = std::stoi(RIGHT); }
-			if (LEFT == "lastOfferCount") { m_lastOfferCount = std::stoi(RIGHT); }
-			for (auto& sf : TraderData::Instance()->GetList()) {
-				if (LEFT == "Sell_" + sf.GetName()) {
-					m_sellFor.emplace_back(std::make_pair(sf.GetID(), std::stoi(RIGHT)));
-				}
-			}
-			if (LEFT == "Sell_Flea Market") {
-				m_sellFor.emplace_back(std::make_pair(InvalidID, std::stoi(RIGHT)));
-			}
-
-			if (LEFT == "weight") { m_weight = std::stof(RIGHT); }
-			if (LEFT == "fleaMarketFee") { m_fleaMarketFee = std::stoi(RIGHT); }
-			if (LEFT == "propertiestype") { m_IsPreset = (RIGHT == "ItemPropertiesPreset"); }
-		}
-		void	Load_Sub() noexcept override {
-			if (m_TypeID == InvalidID) {
-				std::string ErrMes = "Error : Not Setting ItemType in Item ";
-				ErrMes += GetShortName();
-				DataErrorLog::Instance()->AddLog(ErrMes.c_str());
-			}
-			else {
-				auto* typePtr = ItemTypeData::Instance()->FindPtr(this->m_TypeID);
-				auto* catPtr = ItemCategoryData::Instance()->FindPtr(typePtr->GetCategoryID());
-				if (catPtr->GetName() == "Weapons") {
-					m_isWeapon = true;
-				}
-				else if (catPtr->GetName() == "WeaponMods") {
-					m_isWeaponMod = true;
-				}
-			}
-		}
-		void	WhenAfterLoad_Sub() noexcept override {}
 	public:
 		int										m_CheckJson{ 0 };
+	private:
+		//í«â¡ê›íË
+		void	Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept override;
+		void	Load_Sub() noexcept override;
+		void	WhenAfterLoad_Sub() noexcept override;
 	public:
 		const auto&	GetTypeID() const noexcept { return m_TypeID; }
 		const auto&	GetMapID() const noexcept { return m_MapID; }
@@ -1074,7 +933,4 @@ namespace FPS_n2 {
 			}
 		}
 	};
-
-
-	class ItemGetData : public GetDataParent<ItemID> {};
 };

@@ -44,6 +44,8 @@ namespace FPS_n2 {
 			MapData::Create();
 			TaskData::Create();
 			HideoutData::Create();
+
+			HideoutData::Instance()->SetParent();
 			//
 			SetUseASyncLoadFlag(TRUE);
 			PresetData::Instance()->LoadList(false);

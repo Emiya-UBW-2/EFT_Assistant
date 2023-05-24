@@ -144,6 +144,25 @@ namespace FPS_n2 {
 				TimeCard();
 			}
 			YPos += Ysize + y_r(5);
+			if (WindowSystem::ClickCheckBox(XPos, YPos, XPos + Xsize, YPos + Ysize, false, (ttt == -1), Color, "トレーダー更新")) {
+				int count = 0;
+				//TraderData::Instance()->InitDatabyJson();
+				while (true) {
+					if (TraderDataRequest(2 * count, 2, strResult)) {
+						ProcessMessage();
+						auto data = nlohmann::json::parse(strResult);
+						TraderData::Instance()->GetJsonData(data);
+						TraderData::Instance()->SaveDatabyJson();
+						if (data["data"]["traders"].size() != 2) {
+							break;
+						}
+					}
+					count++;
+				}
+				//TraderData::Instance()->CheckThroughJson();
+				TimeCard();
+			}
+			YPos += Ysize + y_r(5);
 			if (!(ttt == -1)) {
 				WindowSystem::SetMsg(XPos, YPos, XPos + Xsize, YPos + Ysize, Ysize, STRX_MID, White, Black, "更新可能まで %2d:%02d", (TotalTime - NowTime) / 1000 / 60, ((TotalTime - NowTime) / 1000)%60);
 			}

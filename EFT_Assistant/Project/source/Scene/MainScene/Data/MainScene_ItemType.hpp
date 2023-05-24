@@ -2,7 +2,6 @@
 #include"../../../Header.hpp"
 
 namespace FPS_n2 {
-	typedef int ItemTypeID;
 	class ItemTypeList : public ListParent<ItemTypeID> {
 		ItemCategoryID	m_CategoryID{ InvalidID };
 	private:

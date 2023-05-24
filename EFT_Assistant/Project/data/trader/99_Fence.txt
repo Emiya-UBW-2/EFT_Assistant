@@ -1,0 +1,17 @@
+IDstr=579dc571d53a0658a154fbec
+Name=Fence
+Color=[1,1,1]
+Information_Eng=The conflict had barely started when Fence began setting up anonymous outlets for buying and selling goods. Keeping incognito, he nevertheless managed to put together a well-organised smuggler network, operating all over the Norvinsk region.
+PayItem=Roubles
+Lv1NeedLv=1
+Lv1Reputation=0.000000
+Lv1Commerce=0
+Lv1payRate=0.400000
+Lv2NeedLv=1
+Lv2Reputation=0.000000
+Lv2Commerce=0
+Lv2payRate=0.400000
+Lv3NeedLv=1
+Lv3Reputation=6.000000
+Lv3Commerce=0
+Lv3payRate=0.400000

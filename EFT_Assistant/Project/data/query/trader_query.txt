@@ -1,12 +1,10 @@
 {"query" : "{
- traders(offset:OFFSETVAL limit:LIMITVAL){
+  traders(offset:OFFSETVAL limit:LIMITVAL){
     id
     name
     description
     resetTime
-    currency{
-      name
-    }
+    currency{name}
     discount
     levels{
       requiredPlayerLevel
@@ -35,9 +33,9 @@
     }
     reputationLevels{
       ...on TraderReputationLevelFence {
-   	   minimumReputation
-	    }
+        minimumReputation
+      }
     }
- }
+  }
 }"}
 

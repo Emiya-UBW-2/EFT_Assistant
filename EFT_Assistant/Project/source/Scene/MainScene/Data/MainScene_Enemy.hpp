@@ -2,7 +2,6 @@
 #include"../../../Header.hpp"
 
 namespace FPS_n2 {
-	typedef int EnemyID;
 	class EnemyList : public ListParent<EnemyID> {
 		//í«â¡ê›íË
 		void			Set_Sub(const std::string&, const std::string&, const std::vector<std::string>&) noexcept override {}

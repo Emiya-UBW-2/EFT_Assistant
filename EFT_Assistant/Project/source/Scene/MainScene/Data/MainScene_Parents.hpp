@@ -235,13 +235,13 @@ namespace FPS_n2 {
 			m_Value = lv;
 		}
 	};
-	template <class GetDataParent, class DataParent>
-	void			SetGetData(std::vector<GetDataParent>* Data, const std::string& mes) noexcept {
+	template <class GetDataParentT, class DataParent>
+	void			SetGetData(std::vector<GetDataParentT>* Data, const std::string& mes) noexcept {
 		auto L = mes.rfind("x");
 		if (L != std::string::npos) {
 			auto id = mes.substr(0, L);
-			if (std::find_if(Data->begin(), Data->end(), [&](const GetDataParent& obj) {return obj.GetName() == id; }) == Data->end()) {
-				GetDataParent tmp;
+			if (std::find_if(Data->begin(), Data->end(), [&](const GetDataParentT& obj) {return obj.GetName() == id; }) == Data->end()) {
+				GetDataParentT tmp;
 				tmp.Set(id, std::stoi(mes.substr(L + 1)));
 				Data->emplace_back(tmp);
 			}

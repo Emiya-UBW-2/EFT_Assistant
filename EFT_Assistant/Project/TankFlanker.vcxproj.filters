@@ -117,6 +117,9 @@
     <ClInclude Include="source\Scene\MainScene\Page\MainScene_PageTrader.hpp">
       <Filter>ソース ファイル\Scene\Page</Filter>
     </ClInclude>
+    <ClInclude Include="source\Scene\MainScene\Data\MainScene_Common.hpp">
+      <Filter>ソース ファイル\Scene\Data</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\main.cpp">

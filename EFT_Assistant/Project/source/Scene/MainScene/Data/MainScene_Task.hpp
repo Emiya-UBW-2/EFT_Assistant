@@ -2,7 +2,6 @@
 #include"../../../Header.hpp"
 
 namespace FPS_n2 {
-	typedef int TaskID;
 	class TaskList : public ListParent<TaskID> {
 		class TaskPin {
 		public:
@@ -1033,20 +1032,17 @@ namespace FPS_n2 {
 				i.ResetTaskUseID();
 				for (const auto& t : m_List) {
 					for (const auto& n : t.GetTaskNeedData().GetItem()) {
-						auto ID = ItemData::Instance()->FindID(n.GetName());
-						if (i.GetID() == ID) {
+						if (i.GetName() == n.GetName()) {
 							i.AddTaskUseID(t.GetID());
 						}
 					}
 					for (const auto& w : t.GetTaskWorkData().GetFiR_Item()) {
-						auto ID = ItemData::Instance()->FindID(w.GetName());
-						if (i.GetID() == ID) {
+						if (i.GetName() == w.GetName()) {
 							i.AddTaskUseID(t.GetID());
 						}
 					}
 					for (const auto& w : t.GetTaskWorkData().GetNotFiR_Item()) {
-						auto ID = ItemData::Instance()->FindID(w.GetName());
-						if (i.GetID() == ID) {
+						if (i.GetName() == w.GetName()) {
 							i.AddTaskUseID(t.GetID());
 						}
 					}

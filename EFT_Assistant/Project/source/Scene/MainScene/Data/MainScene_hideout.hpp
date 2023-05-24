@@ -2,9 +2,6 @@
 #include"../../../Header.hpp"
 
 namespace FPS_n2 {
-	typedef int HideoutID;
-	//
-	class HideoutGetData : public GetDataParent<HideoutID> {};
 	//
 	struct HideoutLvData {
 		struct CraftData {
@@ -71,6 +68,12 @@ namespace FPS_n2 {
 					}
 				}
 			}
+		}
+		~HideoutData() noexcept {}
+	private:
+		std::vector<HideoutJsonData> m_HideoutJsonData;
+	public:
+		void SetParent() noexcept {
 			for (auto& t : m_List) {
 				t.SetOtherPartsID(m_List);
 			}
@@ -78,10 +81,6 @@ namespace FPS_n2 {
 				t.m_CheckJson = 0;
 			}
 		}
-		~HideoutData() noexcept {}
-	private:
-		std::vector<HideoutJsonData> m_HideoutJsonData;
-	public:
 		void GetJsonData(nlohmann::json& data) {
 			m_HideoutJsonData.clear();
 			for (const auto& d : data["data"]["hideoutStations"]) {

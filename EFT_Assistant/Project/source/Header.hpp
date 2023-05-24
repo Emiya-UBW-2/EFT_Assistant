@@ -28,11 +28,12 @@ using namespace DXLib_ref;
 #include "Parts/InterruptParts.hpp"
 //Datas
 #include "Scene/MainScene/Data/MainScene_Parents.hpp"
+#include "Scene/MainScene/Data/MainScene_Common.hpp"
 #include "Scene/MainScene/Data/MainScene_Map.hpp"
-#include "Scene/MainScene/Data/MainScene_Trader.hpp"
 #include "Scene/MainScene/Data/MainScene_ItemCategory.hpp"
 #include "Scene/MainScene/Data/MainScene_ItemType.hpp"
 #include "Scene/MainScene/Data/MainScene_Item.hpp"
+#include "Scene/MainScene/Data/MainScene_Trader.hpp"
 #include "Scene/MainScene/Data/MainScene_Preset.hpp"
 #include "Scene/MainScene/Data/MainScene_Enemy.hpp"
 #include "Scene/MainScene/Data/MainScene_Task.hpp"
