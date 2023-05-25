@@ -95,6 +95,7 @@ namespace FPS_n2 {
 		std::string									name;
 		std::string									Information_Eng;
 		ItemID										PayItem;
+		std::array<int, 3>							m_Color{ 0,0,0 };
 		std::vector<TraderLvData>					m_LvData;
 	public:
 		void GetJsonData(const nlohmann::json& data) {
@@ -197,6 +198,10 @@ namespace FPS_n2 {
 
 						outputfile << "IDstr=" + jd.id + "\n";
 						outputfile << "Name=" + jd.name + "\n";
+						{
+							auto* ptr = TraderData::Instance()->FindPtr(TraderData::Instance()->FindID(jd.name));
+							outputfile << "Color=[" + std::to_string(ptr->GetColorRGB(0)) + "," + std::to_string(ptr->GetColorRGB(1)) + "," + std::to_string(ptr->GetColorRGB(2)) + "]\n";
+						}
 						outputfile << "Information_Eng=" + jd.Information_Eng + "\n";
 						outputfile << "PayItem=" + ItemData::Instance()->FindPtr(jd.PayItem)->GetName() + "\n";
 						for (auto& L2 : jd.m_LvData) {
@@ -277,6 +282,10 @@ namespace FPS_n2 {
 
 					outputfile << "IDstr=" + jd.id + "\n";
 					outputfile << "Name=" + jd.name + "\n";
+					{
+						auto* ptr = TraderData::Instance()->FindPtr(TraderData::Instance()->FindID(jd.name));
+						outputfile << "Color=[" + std::to_string(ptr->GetColorRGB(0)) + "," + std::to_string(ptr->GetColorRGB(1)) + "," + std::to_string(ptr->GetColorRGB(2)) + "]\n";
+					}
 					outputfile << "Information_Eng=" + jd.Information_Eng + "\n";
 					outputfile << "PayItem=" + ItemData::Instance()->FindPtr(jd.PayItem)->GetName() + "\n";
 					for (auto& L2 : jd.m_LvData) {

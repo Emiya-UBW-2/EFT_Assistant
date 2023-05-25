@@ -1,6 +1,6 @@
 IDstr=5935c25fb3acc3127c3d8cd9
 Name=Peacekeeper
-Color=[0,0,255]
+Color=[1,1,255]
 Information_Eng=UN peacekeeping Force supply officer, based in one of the central checkpoints leading to the Tarkov port zone. The blue helmets have been seen poking their heads into small deals from the very beginning of the conflict, buying everything of value in exchange for western weapons, ammo, and all kinds of military equipment.
 PayItem=Dollars
 Lv1NeedLv=1
