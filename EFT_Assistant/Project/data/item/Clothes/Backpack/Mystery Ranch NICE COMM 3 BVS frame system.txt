@@ -8,8 +8,8 @@ An extremely rare thing, for which a real hunt is conducted in Tarkov.
 basePrice=350000
 width=4
 height=5
-avg24hPrice=217108
-low24hPrice=216998
+avg24hPrice=221020
+low24hPrice=216997
 lastOfferCount=6
 Sell_Fence=140000
 Sell_Ragman=217000
