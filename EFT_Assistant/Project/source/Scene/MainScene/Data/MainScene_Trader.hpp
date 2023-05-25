@@ -2,29 +2,6 @@
 #include"../../../Header.hpp"
 
 namespace FPS_n2 {
-
-	class TraderList : public ListParent<TraderID> {
-		std::array<int, 4>		m_Lv{ 0,0,0,0 };
-		std::array<float, 4>	m_Rep{ 0,0,0,0 };
-	public:
-		//追加設定
-		void			Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>&) noexcept override {
-			for (int i = 0; i < 4; i++) {
-				if (LEFT == "Lv" + std::to_string(i + 1) + "Reputation") {
-					m_Rep[i] = std::stof(RIGHT);
-					break;
-				}
-				else if (LEFT == "Lv" + std::to_string(i + 1) + "NeedLv") {
-					m_Lv[i] = std::stoi(RIGHT);
-					break;
-				}
-			}
-		}
-		void	Load_Sub() noexcept override {
-		}
-		void	WhenAfterLoad_Sub() noexcept override {
-		}
-	};
 	//
 	struct TraderLvData {
 		struct BartersData {
@@ -41,6 +18,73 @@ namespace FPS_n2 {
 		float										repairCostMultiplier{ 0.f };
 		//クラフトデータ
 		std::vector<BartersData>					m_ItemBarters;
+	};
+	//
+	class TraderList : public ListParent<TraderID> {
+		std::string									Information_Eng;
+		std::string									PayItem;
+		std::vector<TraderLvData>					m_LvData;
+	public:
+		//追加設定
+		void			Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept override {
+			std::string LEFTBuf = LEFT.substr(3);
+			std::string NumBuf2 = LEFT.substr(2, 1);
+			if (std::all_of(NumBuf2.cbegin(), NumBuf2.cend(), isdigit)) {
+				int ID = std::stoi(NumBuf2) - 1;
+				if (m_LvData.size() <= ID) { m_LvData.resize(ID + 1); }
+				//開放データ
+				if (LEFTBuf == "Reputation") { m_LvData.at(ID).Reputation = std::stof(RIGHT); }
+				if (LEFTBuf == "NeedLv") { m_LvData.at(ID).NeedLv = std::stoi(RIGHT); }
+				if (LEFTBuf == "Commerce") { m_LvData.at(ID).Commerce = std::stoi(RIGHT); }
+				if (LEFTBuf == "payRate") { m_LvData.at(ID).payRate = std::stof(RIGHT); }
+				if (LEFTBuf == "insuranceRate") { m_LvData.at(ID).insuranceRate = std::stof(RIGHT); }
+				if (LEFTBuf == "repairCostMultiplier") { m_LvData.at(ID).repairCostMultiplier = std::stof(RIGHT); }
+				//
+				if (LEFTBuf == "BarteritemReq") {
+					m_LvData.at(ID).m_ItemBarters.resize(m_LvData.at(ID).m_ItemBarters.size() + 1);
+					if (Args.size() > 0) {
+						for (auto&a : Args) {
+							if (a == "or") {
+
+							}
+							else {
+								SetGetData<ItemGetData, ItemData>(&m_LvData.at(ID).m_ItemBarters.back().m_ItemReq, a);
+							}
+						}
+					}
+					else {
+						SetGetData<ItemGetData, ItemData>(&m_LvData.at(ID).m_ItemBarters.back().m_ItemReq, RIGHT);
+					}
+				}
+				if (LEFTBuf == "BarteritemReward") {
+					if (Args.size() > 0) {
+						for (auto&a : Args) {
+							if (a == "or") {
+
+							}
+							else {
+								SetGetData<ItemGetData, ItemData>(&m_LvData.at(ID).m_ItemBarters.back().m_ItemReward, a);
+							}
+						}
+					}
+					else {
+						SetGetData<ItemGetData, ItemData>(&m_LvData.at(ID).m_ItemBarters.back().m_ItemReward, RIGHT);
+					}
+				}
+			}
+			else {
+				if (LEFT == "Information_Eng") { Information_Eng = RIGHT; }
+				if (LEFT == "PayItem") { PayItem = RIGHT; }
+			}
+		}
+		void	Load_Sub() noexcept override {
+		}
+		void	WhenAfterLoad_Sub() noexcept override {
+		}
+	public:
+		const auto&	GetInformation() const noexcept { return Information_Eng; }
+		const auto&	GetPayItem() const noexcept { return PayItem; }
+		const auto&	GetLvData() const noexcept { return m_LvData; }
 	};
 	//
 	class TraderJsonData {
