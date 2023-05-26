@@ -3,7 +3,7 @@ Name=VPO-209 wooden handguard
 ShortName=VPO209
 Itemtype=Handguard
 Conflict=[
-	AK Zenit B-33 dust cover,
+	AK Zenit B-33 dust cover/|
 ]
 Recoil=0.000000
 Ergonomics=4.000000

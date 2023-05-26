@@ -32,8 +32,8 @@ Task_Else=脱出ステータス:[Survived]
 
 Reward_Rep=Jaeger+0.020000
 Reward_Item=[
-	Roublesx30000,
-	Aquamari water bottle with filterx2,
+	Roublesx30000/|
+	Aquamari water bottle with filterx2/|
 	Water filterx2
 ]
 

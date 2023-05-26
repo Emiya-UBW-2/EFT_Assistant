@@ -39,11 +39,11 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 
 Reward_Rep=Therapist+0.040000
 Reward_Item=[
-	Roublesx26000,
-	Morphine injectorx2,
+	Roublesx26000/|
+	Morphine injectorx2/|
 	Adrenaline injectorx2
 ]
 
 Reward_EXP=5900
-Task_PinPoint=[0.033428,0.325271,0.000000]
-Task_PinMap=[Woods,1]
+Task_PinPoint=[0.033428/|0.325271/|0.000000]
+Task_PinMap=[Woods/|1]

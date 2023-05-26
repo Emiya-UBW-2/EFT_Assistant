@@ -6,19 +6,19 @@ ChildParts=[
 	Mossberg 590A1 12ga 20 inch barrel
 ]
 ChildParts=[
-	Mossberg 590A1 Magpul MOE forestock,
+	Mossberg 590A1 Magpul MOE forestock/|
 	Mossberg 590A1 SpeedFeed short handguard
 ]
 ChildParts=[
 	Mossberg 590A1 12ga 8-shell magazine cap
 ]
 ChildParts=[
-	Mossberg 590A1 Magpul SGA stock,
-	Mossberg 590A1 Mesa Tactical LEO gen.1 stock adapter,
+	Mossberg 590A1 Magpul SGA stock/|
+	Mossberg 590A1 Mesa Tactical LEO gen.1 stock adapter/|
 	Mossberg 590A1 polymer stock
 ]
 ChildParts=[
-	Mossberg 590 Ghost Ring rear sight,
+	Mossberg 590 Ghost Ring rear sight/|
 	Mossberg 590A1 Tactical rail
 ]
 Recoil=468.000000
@@ -27,16 +27,16 @@ Information_Eng=The Mossberg 500 Series is one of the most famous and widespread
 basePrice=14402
 width=4
 height=1
-avg24hPrice=36585
-low24hPrice=25000
-lastOfferCount=7
+avg24hPrice=36423
+low24hPrice=18500
+lastOfferCount=13
 Sell_Prapor=7201
 Sell_Fence=5760
 Sell_Skier=7056
 Sell_Peacekeeper=54
 Sell_Mechanic=8065
 Sell_Jaeger=8641
-Sell_Flea Market=34999
+Sell_Flea Market=29000
 weight=1.100000
-fleaMarketFee=1976
+fleaMarketFee=1560
 propertiestype=ItemPropertiesWeapon

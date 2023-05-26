@@ -77,8 +77,8 @@ DogTagLv=0
 ]
 
 Reward_Item=[
-	AFAK tactical individual first aid kitx5,
-	SJ9 TGLabs combat stimulant injectorx5,
+	AFAK tactical individual first aid kitx5/|
+	SJ9 TGLabs combat stimulant injectorx5/|
 	Medicine casex1
 ]
 Reward_SkillLevelUp=Immunity+2

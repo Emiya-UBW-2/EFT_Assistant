@@ -3,34 +3,34 @@ Name=AR-15 KAC URX 3 8 inch lower handguard
 ShortName=URX3 8"
 Itemtype=Handguard
 ChildParts=[
-	KAC URX 3/3.1 stopper panel,
-	KAC URX 3/3.1 stopper panel (FDE),
+	KAC URX 3/3.1 stopper panel/|
+	KAC URX 3/3.1 stopper panel (FDE)/|
 	KAC URX 3 3 inch rail
 ]
 ChildParts=[
-	Glock GTL 21 tactical flashlight with laser,
-	Holosun LS321 Tactical device,
-	AN/PEQ-15 tactical device,
-	LA-5B/PEQ tactical device,
-	NcSTAR Tactical blue laser LAM-module,
-	Steiner DBAL-PL tactical device,
-	Steiner LAS/TAC 2 tactical flashlight,
-	SureFire X400 Ultra tactical flashlight with laser,
-	SureFire XC1 tactical flashlight,
-	Wilcox RAPTAR ES Tactical Rangefinder,
-	Zenit Klesch-2IKS IR illuminator with laser,
-	Zenit Klesch-2P flashlight with laser,
-	Zenit Klesch-2U tactical flashlight,
-	Zenit Perst-3 tactical device,
-	Kiba Arms 25mm accessory ring mount,
-	Daniel Defense 25mm accessory ring mount,
-	Olight Baldr Pro tactical flashlight with laser,
-	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Glock GTL 21 tactical flashlight with laser/|
+	Holosun LS321 Tactical device/|
+	AN/PEQ-15 tactical device/|
+	LA-5B/PEQ tactical device/|
+	NcSTAR Tactical blue laser LAM-module/|
+	Steiner DBAL-PL tactical device/|
+	Steiner LAS/TAC 2 tactical flashlight/|
+	SureFire X400 Ultra tactical flashlight with laser/|
+	SureFire XC1 tactical flashlight/|
+	Wilcox RAPTAR ES Tactical Rangefinder/|
+	Zenit Klesch-2IKS IR illuminator with laser/|
+	Zenit Klesch-2P flashlight with laser/|
+	Zenit Klesch-2U tactical flashlight/|
+	Zenit Perst-3 tactical device/|
+	Kiba Arms 25mm accessory ring mount/|
+	Daniel Defense 25mm accessory ring mount/|
+	Olight Baldr Pro tactical flashlight with laser/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight
 ]
 Conflict=[
-	AR-10 JP Enterprises Gas System-6,
-	M4A1 front sight with gas block,
+	AR-10 JP Enterprises Gas System-6/|
+	M4A1 front sight with gas block/|
 	AR-15 Windham Weaponry Rail Gas Block
 ]
 Recoil=-1.000000
@@ -39,15 +39,15 @@ Information_Eng=The Knight's Armament URX 3 lower handguard for AR-15 equipped w
 basePrice=5010
 width=2
 height=1
-avg24hPrice=18179
-low24hPrice=5000
-lastOfferCount=8
+avg24hPrice=29124
+low24hPrice=12666
+lastOfferCount=4
 Sell_Prapor=2505
 Sell_Fence=2004
 Sell_Skier=2454
 Sell_Peacekeeper=19
 Sell_Mechanic=2805
-Sell_Flea Market=9999
+Sell_Flea Market=42500
 weight=0.072000
-fleaMarketFee=537
+fleaMarketFee=4626
 propertiestype=ItemPropertiesWeaponMod

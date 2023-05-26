@@ -7,10 +7,10 @@ ChildParts=[
 	Leupold DeltaPoint Reflex Sight
 ]
 Conflict=[
-	AR-15 Colt A2 rear sight,
-	AR-15 rear sight carry handle,
-	Mosin Rifle carbine rear sight,
-	NSPU-M night vision scope,
+	AR-15 Colt A2 rear sight/|
+	AR-15 rear sight carry handle/|
+	Mosin Rifle carbine rear sight/|
+	NSPU-M night vision scope/|
 ]
 Recoil=0.000000
 Ergonomics=-3.500000
@@ -18,8 +18,8 @@ Information_Eng=The Hybrid Leupold-produced scope comprises of the Mark 4 HAMR 4
 basePrice=42902
 width=2
 height=1
-avg24hPrice=36148
-low24hPrice=26666
+avg24hPrice=34921
+low24hPrice=24999
 lastOfferCount=24
 Sell_Prapor=21451
 Sell_Fence=17160
@@ -27,7 +27,7 @@ Sell_Skier=21021
 Sell_Peacekeeper=162
 Sell_Mechanic=24025
 Sell_Jaeger=25741
-Sell_Flea Market=39111
+Sell_Flea Market=24999
 weight=0.411000
-fleaMarketFee=2453
+fleaMarketFee=2261
 propertiestype=ItemPropertiesScope

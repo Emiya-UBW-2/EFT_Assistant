@@ -3,7 +3,7 @@ Name=RFB 7.62x51 18 inch barrel
 ShortName=RFB 18"
 Itemtype=Barrel
 ChildParts=[
-	RFB thread protection cap,
+	RFB thread protection cap/|
 	RFB thread spacer
 ]
 Recoil=-6.000000

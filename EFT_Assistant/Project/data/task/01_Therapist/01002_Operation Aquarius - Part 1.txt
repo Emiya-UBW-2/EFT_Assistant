@@ -30,11 +30,11 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 Reward_Rep=Therapist+0.030000
 Reward_Rep=Skier-0.020000
 Reward_Item=[
-	Roublesx14000,
-	Bottle of water (0.6L)x5,
+	Roublesx14000/|
+	Bottle of water (0.6L)x5/|
 	Water filterx1
 ]
 
 Reward_EXP=3300
-Task_PinPoint=[0.089600,0.336914,0.000000]
-Task_PinMap=[Customs,1]
+Task_PinPoint=[0.089600/|0.336914/|0.000000]
+Task_PinMap=[Customs/|1]

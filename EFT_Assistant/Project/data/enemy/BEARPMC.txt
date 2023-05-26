@@ -1,2 +1,2 @@
 Name=BEAR operatives
-Color=[64,64,64]
+Color=[64/|64/|64]

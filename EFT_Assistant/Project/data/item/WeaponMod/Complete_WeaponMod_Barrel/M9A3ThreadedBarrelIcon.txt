@@ -3,10 +3,10 @@ Name=M9A3 9x19 threaded barrel
 ShortName=M9A3 thr.
 Itemtype=Barrel
 ChildParts=[
-	M9A3 thread protection cap,
-	AAC Illusion 9 9x19 sound suppressor,
-	Alpha Dog Alpha 9 9x19 sound suppressor,
-	SIG Sauer SRD9 9x19 sound suppressor,
+	M9A3 thread protection cap/|
+	AAC Illusion 9 9x19 sound suppressor/|
+	Alpha Dog Alpha 9 9x19 sound suppressor/|
+	SIG Sauer SRD9 9x19 sound suppressor/|
 	SilencerCo Osprey 9 9x19 sound suppressor
 ]
 Recoil=-3.000000

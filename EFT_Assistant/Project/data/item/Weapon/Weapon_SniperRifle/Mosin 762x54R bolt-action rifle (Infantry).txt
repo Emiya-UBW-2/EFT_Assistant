@@ -3,23 +3,23 @@ Name=Mosin 7.62x54R bolt-action rifle (Infantry)
 ShortName=Mosin (Infantry)
 Itemtype=Sniper rifle
 ChildParts=[
-	Mosin Rifle 7.62x54R 5-round magazine,
+	Mosin Rifle 7.62x54R 5-round magazine/|
 	Mosin Rifle 7.62x54R ProMag Archangel OPFOR 10-round magazine
 ]
 ChildParts=[
-	Mosin Rifle ATI Monte Carlo chassis,
-	Mosin Rifle sawn-off stock,
-	Mosin Rifle sniper carbine stock,
-	Mosin Rifle carbine stock,
-	Mosin Rifle Infantry stock,
-	Mosin Rifle sawn-off sniper stock,
-	Mosin Rifle standard stock,
+	Mosin Rifle ATI Monte Carlo chassis/|
+	Mosin Rifle sawn-off stock/|
+	Mosin Rifle sniper carbine stock/|
+	Mosin Rifle carbine stock/|
+	Mosin Rifle Infantry stock/|
+	Mosin Rifle sawn-off sniper stock/|
+	Mosin Rifle standard stock/|
 	Mosin Rifle ProMag Archangel OPFOR PRS chassis
 ]
 ChildParts=[
-	Mosin Carbine 7.62x54R 514mm barrel,
-	Mosin Rifle 7.62x54R sawn-off 220mm threaded barrel,
-	Mosin Rifle 7.62x54R sawn-off 200mm barrel,
+	Mosin Carbine 7.62x54R 514mm barrel/|
+	Mosin Rifle 7.62x54R sawn-off 220mm threaded barrel/|
+	Mosin Rifle 7.62x54R sawn-off 200mm barrel/|
 	Mosin Rifle 7.62x54R 730mm regular barrel
 ]
 Recoil=288.000000
@@ -28,16 +28,16 @@ Information_Eng=Mosin–Nagant is one of the most famous russian rifles, which w
 basePrice=11500
 width=1
 height=1
-avg24hPrice=38475
-low24hPrice=20000
-lastOfferCount=4
+avg24hPrice=37835
+low24hPrice=29888
+lastOfferCount=5
 Sell_Prapor=5750
 Sell_Fence=4600
 Sell_Skier=5635
 Sell_Peacekeeper=43
 Sell_Mechanic=6440
 Sell_Jaeger=6900
-Sell_Flea Market=36000
+Sell_Flea Market=34825
 weight=0.760000
-fleaMarketFee=2241
+fleaMarketFee=2137
 propertiestype=ItemPropertiesWeapon

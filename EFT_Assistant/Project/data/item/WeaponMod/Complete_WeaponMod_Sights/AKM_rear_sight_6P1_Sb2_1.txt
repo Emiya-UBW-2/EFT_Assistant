@@ -7,8 +7,8 @@ ChildParts=[
 	AKMP system rear sight device
 ]
 Conflict=[
-	AK AKademia Bastion dust cover,
-	AK TWS Dog Leg Rail dust cover,
+	AK AKademia Bastion dust cover/|
+	AK TWS Dog Leg Rail dust cover/|
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -16,8 +16,8 @@ Information_Eng=A standard rear sight for AKM automatic rifles, manufactured by 
 basePrice=482
 width=1
 height=1
-avg24hPrice=525
-low24hPrice=525
+avg24hPrice=0
+low24hPrice=0
 lastOfferCount=1
 Sell_Prapor=241
 Sell_Fence=192

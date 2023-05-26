@@ -3,7 +3,7 @@ Name=Magpul AFG tactical foregrip (Black)
 ShortName=AFG BLK
 Itemtype=Foregrip
 Conflict=[
-	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher/|
 ]
 Recoil=-2.000000
 Ergonomics=6.000000
@@ -11,15 +11,15 @@ Information_Eng=The Magpul AFG (Angled Fore Grip) tactical grip enables a more n
 basePrice=6554
 width=1
 height=1
-avg24hPrice=28254
-low24hPrice=12222
-lastOfferCount=10
+avg24hPrice=27899
+low24hPrice=14333
+lastOfferCount=1
 Sell_Prapor=3277
 Sell_Fence=2621
 Sell_Skier=3211
 Sell_Peacekeeper=25
 Sell_Mechanic=3670
-Sell_Flea Market=25000
+Sell_Flea Market=14333
 weight=0.082000
-fleaMarketFee=1711
+fleaMarketFee=785
 propertiestype=ItemPropertiesWeaponMod

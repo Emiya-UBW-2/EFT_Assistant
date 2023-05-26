@@ -4,8 +4,8 @@ ShortName=MPX FS
 Itemtype=Ironsight
 SightRange=300
 Conflict=[
-	NcSTAR ADO P4 Sniper 3-9x42 riflescope,
-	PU 3.5x riflescope,
+	NcSTAR ADO P4 Sniper 3-9x42 riflescope/|
+	PU 3.5x riflescope/|
 ]
 Recoil=0.000000
 Ergonomics=0.000000

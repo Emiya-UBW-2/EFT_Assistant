@@ -3,53 +3,53 @@ Name=Alexander Arms 10 inch rail
 ShortName=MK10 10"
 Itemtype=Mount
 ChildParts=[
-	BCM GUNFIGHTER MOD 3 vertical foregrip,
-	ASh-12 vertical foregrip,
-	Fortis Shift tactical foregrip,
-	Hera Arms CQR tactical foregrip,
-	HK Sturmgriff foregrip,
-	KAC vertical foregrip,
-	Magpul AFG tactical foregrip (Black),
-	Magpul AFG tactical foregrip (FDE),
-	Magpul AFG tactical foregrip (Forest Green),
-	Magpul AFG tactical foregrip (Olive Drab),
-	Magpul RVG foregrip (Black),
-	Magpul RVG foregrip (FDE),
-	RTM Pillau tactical foregrip,
-	Stark SE-5 Express Forward foregrip,
-	Strike Industries Cobra Tactical foregrip,
-	TangoDown Stubby BGV-MK46K foregrip (Black),
-	TangoDown Stubby BGV-MK46K foregrip (FDE),
-	TangoDown Stubby BGV-MK46K foregrip (Stealth Gray),
-	Tactical Dynamics Skeletonized Foregrip,
-	Viking Tactics UVG tactical foregrip,
-	Zenit RK-1 tactical foregrip on B-25U mount,
-	Zenit RK-0 tactical foregrip,
-	Zenit RK-1 tactical foregrip,
-	Zenit RK-2 tactical foregrip,
-	Zenit RK-4 tactical foregrip,
-	Zenit RK-5 tactical foregrip,
+	BCM GUNFIGHTER MOD 3 vertical foregrip/|
+	ASh-12 vertical foregrip/|
+	Fortis Shift tactical foregrip/|
+	Hera Arms CQR tactical foregrip/|
+	HK Sturmgriff foregrip/|
+	KAC vertical foregrip/|
+	Magpul AFG tactical foregrip (Black)/|
+	Magpul AFG tactical foregrip (FDE)/|
+	Magpul AFG tactical foregrip (Forest Green)/|
+	Magpul AFG tactical foregrip (Olive Drab)/|
+	Magpul RVG foregrip (Black)/|
+	Magpul RVG foregrip (FDE)/|
+	RTM Pillau tactical foregrip/|
+	Stark SE-5 Express Forward foregrip/|
+	Strike Industries Cobra Tactical foregrip/|
+	TangoDown Stubby BGV-MK46K foregrip (Black)/|
+	TangoDown Stubby BGV-MK46K foregrip (FDE)/|
+	TangoDown Stubby BGV-MK46K foregrip (Stealth Gray)/|
+	Tactical Dynamics Skeletonized Foregrip/|
+	Viking Tactics UVG tactical foregrip/|
+	Zenit RK-1 tactical foregrip on B-25U mount/|
+	Zenit RK-0 tactical foregrip/|
+	Zenit RK-1 tactical foregrip/|
+	Zenit RK-2 tactical foregrip/|
+	Zenit RK-4 tactical foregrip/|
+	Zenit RK-5 tactical foregrip/|
 	Zenit RK-6 tactical foregrip
 ]
 ChildParts=[
-	Glock GTL 21 tactical flashlight with laser,
-	Holosun LS321 Tactical device,
-	AN/PEQ-15 tactical device,
-	LA-5B/PEQ tactical device,
-	NcSTAR Tactical blue laser LAM-module,
-	Steiner DBAL-PL tactical device,
-	Steiner LAS/TAC 2 tactical flashlight,
-	SureFire X400 Ultra tactical flashlight with laser,
-	SureFire XC1 tactical flashlight,
-	Wilcox RAPTAR ES Tactical Rangefinder,
-	Zenit Klesch-2IKS IR illuminator with laser,
-	Zenit Klesch-2P flashlight with laser,
-	Zenit Klesch-2U tactical flashlight,
-	Zenit Perst-3 tactical device,
-	Kiba Arms 25mm accessory ring mount,
-	Daniel Defense 25mm accessory ring mount,
-	Olight Baldr Pro tactical flashlight with laser,
-	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Glock GTL 21 tactical flashlight with laser/|
+	Holosun LS321 Tactical device/|
+	AN/PEQ-15 tactical device/|
+	LA-5B/PEQ tactical device/|
+	NcSTAR Tactical blue laser LAM-module/|
+	Steiner DBAL-PL tactical device/|
+	Steiner LAS/TAC 2 tactical flashlight/|
+	SureFire X400 Ultra tactical flashlight with laser/|
+	SureFire XC1 tactical flashlight/|
+	Wilcox RAPTAR ES Tactical Rangefinder/|
+	Zenit Klesch-2IKS IR illuminator with laser/|
+	Zenit Klesch-2P flashlight with laser/|
+	Zenit Klesch-2U tactical flashlight/|
+	Zenit Perst-3 tactical device/|
+	Kiba Arms 25mm accessory ring mount/|
+	Daniel Defense 25mm accessory ring mount/|
+	Olight Baldr Pro tactical flashlight with laser/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight
 ]
 Recoil=0.000000
@@ -58,16 +58,16 @@ Information_Eng=The Alexander Arms 10 inch rail allows installation of additiona
 basePrice=2579
 width=1
 height=1
-avg24hPrice=113177
-low24hPrice=60000
-lastOfferCount=5
+avg24hPrice=86912
+low24hPrice=30000
+lastOfferCount=6
 Sell_Prapor=1289
 Sell_Fence=1031
 Sell_Skier=1263
 Sell_Peacekeeper=10
 Sell_Mechanic=1444
 Sell_Jaeger=1547
-Sell_Flea Market=80000
+Sell_Flea Market=70000
 weight=0.090000
-fleaMarketFee=20308
+fleaMarketFee=16251
 propertiestype=ItemPropertiesWeaponMod

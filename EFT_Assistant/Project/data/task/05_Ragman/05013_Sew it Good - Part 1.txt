@@ -39,8 +39,8 @@ DogTagLv=0
 
 Reward_Rep=Ragman+0.020000
 Reward_Item=[
-	Roublesx25000,
-	LBT-6094A Slick Plate Carrierx1,
+	Roublesx25000/|
+	LBT-6094A Slick Plate Carrierx1/|
 	Walker's XCEL 500BT Digital headsetx1
 ]
 

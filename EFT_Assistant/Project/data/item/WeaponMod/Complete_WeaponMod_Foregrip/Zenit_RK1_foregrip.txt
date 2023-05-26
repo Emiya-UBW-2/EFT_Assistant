@@ -3,7 +3,7 @@ Name=Zenit RK-1 tactical foregrip
 ShortName=RK-1
 Itemtype=Foregrip
 Conflict=[
-	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher/|
 ]
 Recoil=-3.000000
 Ergonomics=1.000000
@@ -11,15 +11,15 @@ Information_Eng=The RK-1 foregrip can be installed on the lower part of handguar
 basePrice=11380
 width=1
 height=1
-avg24hPrice=56686
-low24hPrice=28998
-lastOfferCount=14
+avg24hPrice=58975
+low24hPrice=35800
+lastOfferCount=33
 Sell_Prapor=5690
 Sell_Fence=4552
 Sell_Skier=5576
 Sell_Peacekeeper=43
 Sell_Mechanic=6372
-Sell_Flea Market=50000
+Sell_Flea Market=57000
 weight=0.170000
-fleaMarketFee=3685
+fleaMarketFee=4519
 propertiestype=ItemPropertiesWeaponMod

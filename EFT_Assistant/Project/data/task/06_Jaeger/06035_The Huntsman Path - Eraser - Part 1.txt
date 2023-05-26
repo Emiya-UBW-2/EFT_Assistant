@@ -22,8 +22,8 @@ Task_Kill=[
 
 Reward_Rep=Jaeger+0.020000
 Reward_Item=[
-	Roublesx200000,
-	Dollarsx5000,
+	Roublesx200000/|
+	Dollarsx5000/|
 	Weapon casex1
 ]
 

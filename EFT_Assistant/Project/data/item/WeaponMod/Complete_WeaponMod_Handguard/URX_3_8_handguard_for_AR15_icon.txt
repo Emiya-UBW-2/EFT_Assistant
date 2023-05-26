@@ -3,81 +3,81 @@ Name=AR-15 KAC URX 3 8 inch handguard
 ShortName=URX3 8"
 Itemtype=Handguard
 ChildParts=[
-	KAC URX 3/3.1 short panel,
+	KAC URX 3/3.1 short panel/|
 	KAC URX 3/3.1 short panel (FDE)
 ]
 ChildParts=[
-	KAC URX 3/3.1 short panel,
+	KAC URX 3/3.1 short panel/|
 	KAC URX 3/3.1 short panel (FDE)
 ]
 ChildParts=[
-	HK MP7 flip-up front sight,
-	KAC Folding Micro front sight,
-	KAC Folding front sight,
-	KRISS Defiance low profile flip-up front sight,
-	Magpul MBUS Gen2 flip-up front sight,
-	Magpul MBUS Gen2 flip-up front sight (FDE),
-	MCX flip-up front sight,
+	HK MP7 flip-up front sight/|
+	KAC Folding Micro front sight/|
+	KAC Folding front sight/|
+	KRISS Defiance low profile flip-up front sight/|
+	Magpul MBUS Gen2 flip-up front sight/|
+	Magpul MBUS Gen2 flip-up front sight (FDE)/|
+	MCX flip-up front sight/|
 	MPX flip-up front sight
 ]
 ChildParts=[
-	Holosun LS321 Tactical device,
-	AN/PEQ-15 tactical device,
-	AN/PEQ-2 tactical device,
-	LA-5B/PEQ tactical device,
-	SureFire XC1 tactical flashlight,
-	Wilcox RAPTAR ES Tactical Rangefinder,
-	Zenit Perst-3 tactical device,
+	Holosun LS321 Tactical device/|
+	AN/PEQ-15 tactical device/|
+	AN/PEQ-2 tactical device/|
+	LA-5B/PEQ tactical device/|
+	SureFire XC1 tactical flashlight/|
+	Wilcox RAPTAR ES Tactical Rangefinder/|
+	Zenit Perst-3 tactical device/|
 	NcSTAR MPR45 Backup mount
 ]
 ChildParts=[
-	Glock GTL 21 tactical flashlight with laser,
-	Holosun LS321 Tactical device,
-	AN/PEQ-15 tactical device,
-	LA-5B/PEQ tactical device,
-	NcSTAR Tactical blue laser LAM-module,
-	Steiner DBAL-PL tactical device,
-	Steiner LAS/TAC 2 tactical flashlight,
-	SureFire X400 Ultra tactical flashlight with laser,
-	SureFire XC1 tactical flashlight,
-	Wilcox RAPTAR ES Tactical Rangefinder,
-	Zenit Klesch-2IKS IR illuminator with laser,
-	Zenit Klesch-2P flashlight with laser,
-	Zenit Klesch-2U tactical flashlight,
-	Zenit Perst-3 tactical device,
-	Kiba Arms 25mm accessory ring mount,
-	Daniel Defense 25mm accessory ring mount,
-	Olight Baldr Pro tactical flashlight with laser (Tan),
-	Olight Baldr Pro tactical flashlight with laser,
+	Glock GTL 21 tactical flashlight with laser/|
+	Holosun LS321 Tactical device/|
+	AN/PEQ-15 tactical device/|
+	LA-5B/PEQ tactical device/|
+	NcSTAR Tactical blue laser LAM-module/|
+	Steiner DBAL-PL tactical device/|
+	Steiner LAS/TAC 2 tactical flashlight/|
+	SureFire X400 Ultra tactical flashlight with laser/|
+	SureFire XC1 tactical flashlight/|
+	Wilcox RAPTAR ES Tactical Rangefinder/|
+	Zenit Klesch-2IKS IR illuminator with laser/|
+	Zenit Klesch-2P flashlight with laser/|
+	Zenit Klesch-2U tactical flashlight/|
+	Zenit Perst-3 tactical device/|
+	Kiba Arms 25mm accessory ring mount/|
+	Daniel Defense 25mm accessory ring mount/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
+	Olight Baldr Pro tactical flashlight with laser/|
 	Insight WMX200 tactical flashlight
 ]
 ChildParts=[
-	Glock GTL 21 tactical flashlight with laser,
-	Holosun LS321 Tactical device,
-	AN/PEQ-15 tactical device,
-	LA-5B/PEQ tactical device,
-	NcSTAR Tactical blue laser LAM-module,
-	Steiner DBAL-PL tactical device,
-	Steiner LAS/TAC 2 tactical flashlight,
-	SureFire X400 Ultra tactical flashlight with laser,
-	SureFire XC1 tactical flashlight,
-	Wilcox RAPTAR ES Tactical Rangefinder,
-	Zenit Klesch-2IKS IR illuminator with laser,
-	Zenit Klesch-2P flashlight with laser,
-	Zenit Klesch-2U tactical flashlight,
-	Zenit Perst-3 tactical device,
-	Kiba Arms 25mm accessory ring mount,
-	Daniel Defense 25mm accessory ring mount,
-	Olight Baldr Pro tactical flashlight with laser (Tan),
-	Olight Baldr Pro tactical flashlight with laser,
+	Glock GTL 21 tactical flashlight with laser/|
+	Holosun LS321 Tactical device/|
+	AN/PEQ-15 tactical device/|
+	LA-5B/PEQ tactical device/|
+	NcSTAR Tactical blue laser LAM-module/|
+	Steiner DBAL-PL tactical device/|
+	Steiner LAS/TAC 2 tactical flashlight/|
+	SureFire X400 Ultra tactical flashlight with laser/|
+	SureFire XC1 tactical flashlight/|
+	Wilcox RAPTAR ES Tactical Rangefinder/|
+	Zenit Klesch-2IKS IR illuminator with laser/|
+	Zenit Klesch-2P flashlight with laser/|
+	Zenit Klesch-2U tactical flashlight/|
+	Zenit Perst-3 tactical device/|
+	Kiba Arms 25mm accessory ring mount/|
+	Daniel Defense 25mm accessory ring mount/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
+	Olight Baldr Pro tactical flashlight with laser/|
 	Insight WMX200 tactical flashlight
 ]
 ChildParts=[
 	AR-15 KAC URX 3 8 inch lower handguard
 ]
 Conflict=[
-	AR-10 JP Enterprises Gas System-6,
-	M4A1 front sight with gas block,
+	AR-10 JP Enterprises Gas System-6/|
+	M4A1 front sight with gas block/|
 	AR-15 Windham Weaponry Rail Gas Block
 ]
 Recoil=0.000000
@@ -86,15 +86,15 @@ Information_Eng=The Knight's Armament URX 3 handguard for AR-15 equipped with a 
 basePrice=11690
 width=2
 height=1
-avg24hPrice=17970
-low24hPrice=11000
-lastOfferCount=9
+avg24hPrice=20009
+low24hPrice=10000
+lastOfferCount=12
 Sell_Prapor=5845
 Sell_Fence=4676
 Sell_Skier=5728
 Sell_Peacekeeper=44
 Sell_Mechanic=6546
-Sell_Flea Market=12990
+Sell_Flea Market=13000
 weight=0.168000
 fleaMarketFee=739
 propertiestype=ItemPropertiesWeaponMod

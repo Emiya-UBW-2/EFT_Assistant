@@ -3,7 +3,7 @@ Name=MP-153 12ga 7-shell magazine
 ShortName=MP153x7
 Itemtype=Magazine
 Conflict=[
-	SilencerCo Salvo 12 12ga sound suppressor,
+	SilencerCo Salvo 12 12ga sound suppressor/|
 ]
 Recoil=0.000000
 Ergonomics=-5.000000

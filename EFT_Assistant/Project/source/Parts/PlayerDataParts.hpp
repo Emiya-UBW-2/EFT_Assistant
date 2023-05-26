@@ -2,6 +2,18 @@
 #include"../Header.hpp"
 
 namespace FPS_n2 {
+	//
+	static const auto		SubStrs(std::string* Target, const char* str) {
+		while (true) {
+			auto now = Target->find(str);
+			if (now != std::string::npos) {
+				*Target = Target->substr(0, now) + Target->substr(now + strlenDx(str));
+			}
+			else {
+				break;
+			}
+		}
+	};
 	static const auto		GetArgs(const std::string& RIGHT) noexcept {
 		std::vector<std::string> Args;
 		auto L = RIGHT.find("[");
@@ -10,10 +22,10 @@ namespace FPS_n2 {
 			std::string RIGHTBuf = RIGHT;
 			RIGHTBuf = RIGHTBuf.substr(L + 1);
 			while (true) {
-				auto div = RIGHTBuf.find(",");
+				auto div = RIGHTBuf.find(DIV_STR);
 				if (div != std::string::npos) {
 					Args.emplace_back(RIGHTBuf.substr(0, div));
-					RIGHTBuf = RIGHTBuf.substr(div + 1);
+					RIGHTBuf = RIGHTBuf.substr(div + 2);
 				}
 				else {
 					Args.emplace_back(RIGHTBuf.substr(0, RIGHTBuf.find("]")));
@@ -23,6 +35,7 @@ namespace FPS_n2 {
 		}
 		return Args;
 	}
+	//
 
 	class ItemLockData {
 		std::string		m_ID;
@@ -108,7 +121,7 @@ namespace FPS_n2 {
 			outputfile << "LastDataReceive=" + m_LastDataReceive + "\n";
 
 			for (auto& LD : m_ItemLockData) {
-				outputfile << "ItemData=[" + LD.GetID() + "," + (LD.GetIsLock() ? "true" : "false") + "]\n";
+				outputfile << "ItemData=[" + LD.GetID() + DIV_STR + (LD.GetIsLock() ? "true" : "false") + "]\n";
 			}
 			for (auto& LD : m_TaskClearData) {
 				outputfile << "ClearTask=" + LD + "\n";

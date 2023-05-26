@@ -9,9 +9,9 @@ ChildParts=[
 	Mosin Rifle Tacfire pistol grip
 ]
 Conflict=[
-	Mosin Rifle Kochetov mount,
-	Mosin Carbine 7.62x54R 514mm barrel,
-	Mosin Rifle 7.62x54R sawn-off 220mm threaded barrel,
+	Mosin Rifle Kochetov mount/|
+	Mosin Carbine 7.62x54R 514mm barrel/|
+	Mosin Rifle 7.62x54R sawn-off 220mm threaded barrel/|
 	Mosin Rifle 7.62x54R sawn-off 200mm barrel
 ]
 Recoil=-29.000000
@@ -20,8 +20,8 @@ Information_Eng=An infantry wooden stock for the Mosin rifle.
 basePrice=2160
 width=4
 height=1
-avg24hPrice=44437
-low24hPrice=32000
+avg24hPrice=0
+low24hPrice=0
 lastOfferCount=3
 Sell_Prapor=1080
 Sell_Fence=864

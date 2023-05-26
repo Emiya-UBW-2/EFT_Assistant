@@ -3,11 +3,11 @@ Name=STM-9 9x19 16 inch barrel
 ShortName=STM-9 16"
 Itemtype=Barrel
 ChildParts=[
-	STM-9 9x19 muzzle brake,
-	KRISS Vector 9x19 flash hider,
-	Gemtech ONE Direct Thread Mount adapter,
-	Rotor 43 9x19 muzzle brake-compensator,
-	SIG Sauer SRD9 9x19 sound suppressor,
+	STM-9 9x19 muzzle brake/|
+	KRISS Vector 9x19 flash hider/|
+	Gemtech ONE Direct Thread Mount adapter/|
+	Rotor 43 9x19 muzzle brake-compensator/|
+	SIG Sauer SRD9 9x19 sound suppressor/|
 	SilencerCo Osprey 9 9x19 sound suppressor
 ]
 Conflict=[

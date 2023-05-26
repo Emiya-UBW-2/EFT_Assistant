@@ -4,10 +4,10 @@ ShortName=SpecterDR
 Itemtype=Assault scope
 SightRange=800
 Conflict=[
-	AR-15 Colt A2 rear sight,
-	AR-15 rear sight carry handle,
-	Mosin Rifle carbine rear sight,
-	NSPU-M night vision scope,
+	AR-15 Colt A2 rear sight/|
+	AR-15 rear sight carry handle/|
+	Mosin Rifle carbine rear sight/|
+	NSPU-M night vision scope/|
 ]
 Recoil=0.000000
 Ergonomics=-4.000000
@@ -15,16 +15,16 @@ Information_Eng=The SpecterDR (Dual Role) 1x/4x scope from Specter scope series 
 basePrice=32963
 width=2
 height=1
-avg24hPrice=40793
-low24hPrice=33333
-lastOfferCount=25
+avg24hPrice=41396
+low24hPrice=33222
+lastOfferCount=26
 Sell_Prapor=16481
 Sell_Fence=13185
 Sell_Skier=16151
 Sell_Peacekeeper=125
 Sell_Mechanic=18459
 Sell_Jaeger=19777
-Sell_Flea Market=36000
+Sell_Flea Market=36665
 weight=0.640000
-fleaMarketFee=2063
+fleaMarketFee=2084
 propertiestype=ItemPropertiesScope

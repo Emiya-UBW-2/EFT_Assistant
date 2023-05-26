@@ -3,40 +3,40 @@ Name=AR-15 ADAR 2-15 wooden stock
 ShortName=ADAR wood
 Itemtype=Stock
 Conflict=[
-	AR-15 B5 Systems Precision stock,
-	CMMG RipStock buttstock,
-	AR-15 Colt A2 buffer tube,
-	AR-15 DoubleStar ACE SOCOM Gen.4 stock,
-	ERGO F93 PRO stock,
-	FAB Defense GL-CORE buttstock,
-	FAB Defense GL-SHOCK buttstock,
-	FAB Defense GLR-16-S stock,
-	High Standard M4SS Stock,
-	AR-15 HK E1 buttstock,
-	AR-15 HK Slim Line buttstock,
-	AK-12 stock,
-	KRISS Defiance DS150 stock (Black),
-	KRISS Defiance DS150 stock (FDE),
-	LMT SOPMOD stock,
-	Magpul CTR Carbine stock (Black),
-	Magpul CTR Carbine stock (FDE),
-	Magpul MOE Carbine stock (Black),
-	Magpul MOE Carbine stock (FDE),
-	Magpul MOE Carbine stock (Foliage Green),
-	Magpul MOE Carbine stock (Olive Drab),
-	Magpul MOE Carbine stock (Stealth Gray),
-	Magpul PRS GEN2 stock (FDE),
-	Magpul PRS GEN3 stock (Black),
-	Magpul PRS GEN3 stock (Grey),
-	Magpul MOE Carbine rubber buttpad,
-	Magpul UBR GEN2 stock (Black),
-	Magpul UBR GEN2 stock (FDE),
-	MFT BUS stock,
-	Strike Industries Viper Mod 1 stock,
-	TROY M7A1 PDW stock (Black),
-	TROY M7A1 PDW stock (FDE),
-	Vltor EMOD stock,
-	Strike Industries Viper PDW stock,
+	AR-15 B5 Systems Precision stock/|
+	CMMG RipStock buttstock/|
+	AR-15 Colt A2 buffer tube/|
+	AR-15 DoubleStar ACE SOCOM Gen.4 stock/|
+	ERGO F93 PRO stock/|
+	FAB Defense GL-CORE buttstock/|
+	FAB Defense GL-SHOCK buttstock/|
+	FAB Defense GLR-16-S stock/|
+	High Standard M4SS Stock/|
+	AR-15 HK E1 buttstock/|
+	AR-15 HK Slim Line buttstock/|
+	AK-12 stock/|
+	KRISS Defiance DS150 stock (Black)/|
+	KRISS Defiance DS150 stock (FDE)/|
+	LMT SOPMOD stock/|
+	Magpul CTR Carbine stock (Black)/|
+	Magpul CTR Carbine stock (FDE)/|
+	Magpul MOE Carbine stock (Black)/|
+	Magpul MOE Carbine stock (FDE)/|
+	Magpul MOE Carbine stock (Foliage Green)/|
+	Magpul MOE Carbine stock (Olive Drab)/|
+	Magpul MOE Carbine stock (Stealth Gray)/|
+	Magpul PRS GEN2 stock (FDE)/|
+	Magpul PRS GEN3 stock (Black)/|
+	Magpul PRS GEN3 stock (Grey)/|
+	Magpul MOE Carbine rubber buttpad/|
+	Magpul UBR GEN2 stock (Black)/|
+	Magpul UBR GEN2 stock (FDE)/|
+	MFT BUS stock/|
+	Strike Industries Viper Mod 1 stock/|
+	TROY M7A1 PDW stock (Black)/|
+	TROY M7A1 PDW stock (FDE)/|
+	Vltor EMOD stock/|
+	Strike Industries Viper PDW stock/|
 	SB Tactical SBA3 brace
 ]
 Recoil=-28.000000
@@ -45,8 +45,8 @@ Information_Eng=A wooden SVD-style stock for ADAR 2-15 carbines.
 basePrice=5119
 width=2
 height=1
-avg24hPrice=0
-low24hPrice=0
+avg24hPrice=12420
+low24hPrice=12420
 lastOfferCount=1
 Sell_Prapor=2559
 Sell_Fence=2047
@@ -54,7 +54,7 @@ Sell_Skier=2508
 Sell_Peacekeeper=19
 Sell_Mechanic=2866
 Sell_Jaeger=3071
-Sell_Flea Market=18500
+Sell_Flea Market=12420
 weight=0.695000
-fleaMarketFee=1232
+fleaMarketFee=701
 propertiestype=ItemPropertiesWeaponMod

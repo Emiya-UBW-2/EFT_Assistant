@@ -3,23 +3,23 @@ Name=Beanie
 ShortName=Beanie
 Itemtype=Headwear
 Conflict=[
-	Faceless mask,
-	Ghoul mask,
-	GP-5 gas mask,
-	GP-7 gas mask,
+	Faceless mask/|
+	GP-5 gas mask/|
+	Ghoul mask/|
+	GP-7 gas mask/|
 ]
 Information_Eng=A warm knitted beanie, traditionally made for skiers but worn by everyone.
 basePrice=1070
 width=1
 height=1
-avg24hPrice=16140
-low24hPrice=4990
-lastOfferCount=5
+avg24hPrice=11521
+low24hPrice=4500
+lastOfferCount=7
 Sell_Fence=428
 Sell_Skier=524
 Sell_Peacekeeper=4
 Sell_Ragman=663
-Sell_Flea Market=20000
+Sell_Flea Market=5000
 weight=0.100000
-fleaMarketFee=3625
+fleaMarketFee=381
 propertiestype=

@@ -1,5 +1,7 @@
 #pragma once
 
+#define DIV_STR "/|"
+
 #define NOMINMAX
 
 #ifdef _DEBUG

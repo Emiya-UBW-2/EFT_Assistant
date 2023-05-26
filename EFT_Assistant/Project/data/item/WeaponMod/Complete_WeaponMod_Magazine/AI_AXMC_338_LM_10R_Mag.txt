@@ -3,12 +3,12 @@ Name=AI AXMC .338 LM 10-round magazine
 ShortName=AXMC 338LM
 Itemtype=Magazine
 Conflict=[
-	7.62x51mm M61,
-	7.62x51mm M62 Tracer,
-	7.62x51mm M80,
-	7.62x51mm BCP FMJ,
-	7.62x51mm M993,
-	7.62x51mm TCW SP,
+	7.62x51mm M61/|
+	7.62x51mm M62 Tracer/|
+	7.62x51mm M80/|
+	7.62x51mm BCP FMJ/|
+	7.62x51mm M993/|
+	7.62x51mm TCW SP/|
 	7.62x51mm Ultra Nosler
 ]
 Recoil=0.000000
@@ -17,15 +17,15 @@ Information_Eng=A 10-round AXMC sniper rifle magazine by Accuracy International,
 basePrice=9700
 width=1
 height=2
-avg24hPrice=16142
+avg24hPrice=17663
 low24hPrice=13000
-lastOfferCount=11
+lastOfferCount=10
 Sell_Prapor=4850
 Sell_Fence=3880
 Sell_Skier=4753
 Sell_Peacekeeper=37
 Sell_Mechanic=5432
-Sell_Flea Market=15000
+Sell_Flea Market=14000
 weight=0.400000
-fleaMarketFee=790
+fleaMarketFee=742
 propertiestype=ItemPropertiesMagazine

@@ -3,8 +3,8 @@ Name=AAC Illusion 9 9x19 sound suppressor
 ShortName=Illusion 9
 Itemtype=Silencer
 Conflict=[
-	Glock 9x19 Strike Industries G4 SlideComp compensator,
-	Glock 9x19 Fischer Development FD917 sound suppressor,
+	Glock 9x19 Strike Industries G4 SlideComp compensator/|
+	Glock 9x19 Fischer Development FD917 sound suppressor/|
 ]
 Recoil=-7.000000
 Ergonomics=-15.000000
@@ -12,15 +12,15 @@ Information_Eng=Illusion 9 is a compact, high performance sound suppressor for m
 basePrice=32940
 width=2
 height=1
-avg24hPrice=23651
-low24hPrice=16566
-lastOfferCount=14
+avg24hPrice=22664
+low24hPrice=15000
+lastOfferCount=12
 Sell_Prapor=16470
 Sell_Fence=13176
 Sell_Skier=16140
 Sell_Peacekeeper=125
 Sell_Mechanic=18446
-Sell_Flea Market=19999
+Sell_Flea Market=19998
 weight=0.294000
 fleaMarketFee=1733
 propertiestype=ItemPropertiesWeaponMod

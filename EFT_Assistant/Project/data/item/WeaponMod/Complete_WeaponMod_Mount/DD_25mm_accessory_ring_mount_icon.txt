@@ -3,7 +3,7 @@ Name=Daniel Defense 25mm accessory ring mount
 ShortName=25mm DD
 Itemtype=Mount
 ChildParts=[
-	Armytek Predator Pro v3 XHP35 HI flashlight,
+	Armytek Predator Pro v3 XHP35 HI flashlight/|
 	Ultrafire WF-501B flashlight
 ]
 Recoil=0.000000
@@ -12,9 +12,9 @@ Information_Eng=A universal platform for installation of 25mm tactical accessori
 basePrice=2200
 width=1
 height=1
-avg24hPrice=10142
-low24hPrice=7000
-lastOfferCount=2
+avg24hPrice=0
+low24hPrice=0
+lastOfferCount=1
 Sell_Prapor=1100
 Sell_Fence=880
 Sell_Skier=1078

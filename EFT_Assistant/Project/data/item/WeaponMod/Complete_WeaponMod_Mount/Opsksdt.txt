@@ -3,17 +3,17 @@ Name=OP-SKS dovetail mount
 ShortName=OPSKS DT
 Itemtype=Mount
 ChildParts=[
-	Axion Kobra EKP-8-02 reflex sight (Dovetail),
-	BelOMO PK-AA dovetail reflex sight,
-	OKP-7 reflex sight (Dovetail),
-	BelOMO PSO-1 4x24 scope,
-	BelOMO PSO-1M2-1 4x24 scope,
-	BelOMO PSO-1M2 4x24 scope,
-	NPZ USP-1 "Tyulpan" 4x scope,
-	NSPU-M night vision scope,
-	Axion Kobra dovetail mount,
-	NPZ 1P78-1 dovetail mount,
-	VOMZ Pilad 043-02 dovetail mount,
+	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
+	BelOMO PK-AA dovetail reflex sight/|
+	OKP-7 reflex sight (Dovetail)/|
+	BelOMO PSO-1 4x24 scope/|
+	BelOMO PSO-1M2-1 4x24 scope/|
+	BelOMO PSO-1M2 4x24 scope/|
+	NPZ USP-1 "Tyulpan" 4x scope/|
+	NSPU-M night vision scope/|
+	Axion Kobra dovetail mount/|
+	NPZ 1P78-1 dovetail mount/|
+	VOMZ Pilad 043-02 dovetail mount/|
 	SAG Bit low profile dovetail sidemount
 ]
 Recoil=0.000000
@@ -22,8 +22,8 @@ Information_Eng=A mount for installation of sights and other additional devices 
 basePrice=6017
 width=1
 height=1
-avg24hPrice=10666
-low24hPrice=9000
+avg24hPrice=12351
+low24hPrice=9998
 lastOfferCount=3
 Sell_Prapor=3008
 Sell_Fence=2406
@@ -31,7 +31,7 @@ Sell_Skier=2948
 Sell_Peacekeeper=23
 Sell_Mechanic=3369
 Sell_Jaeger=3610
-Sell_Flea Market=12000
+Sell_Flea Market=9999
 weight=0.020000
-fleaMarketFee=644
+fleaMarketFee=526
 propertiestype=ItemPropertiesWeaponMod

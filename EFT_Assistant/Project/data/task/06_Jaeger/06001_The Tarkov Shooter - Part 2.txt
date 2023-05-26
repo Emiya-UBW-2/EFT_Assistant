@@ -13,14 +13,14 @@ Task_Kill=[
 	any target{left leg/right leg}x3
 ]
 NeedItem=[
-	SV-98 7.62x54R bolt-action sniper riflex0,
-	Molot VPO-215 "Gornostay" .366 TKM bolt-action riflex0,
-	Lobaev Arms DVL-10 7.62x51 bolt-action sniper riflex0,
-	Mosin 7.62x54R bolt-action rifle (Sniper)x0,
-	ORSIS T-5000M 7.62x51 bolt-action sniper riflex0,
-	Remington Model 700 7.62x51 bolt-action sniper riflex0,
-	Mosin 7.62x54R bolt-action rifle (Infantry)x0,
-	MP-18 7.62x54R single-shot riflex0,
+	SV-98 7.62x54R bolt-action sniper riflex0/|
+	Molot VPO-215 "Gornostay" .366 TKM bolt-action riflex0/|
+	Lobaev Arms DVL-10 7.62x51 bolt-action sniper riflex0/|
+	Mosin 7.62x54R bolt-action rifle (Sniper)x0/|
+	ORSIS T-5000M 7.62x51 bolt-action sniper riflex0/|
+	Remington Model 700 7.62x51 bolt-action sniper riflex0/|
+	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
+	MP-18 7.62x54R single-shot riflex0/|
 	Accuracy International AXMC .338 LM bolt-action sniper riflex0
 ]
 Task_Else=‹——£: >= 40m
@@ -28,14 +28,14 @@ Task_Kill=[
 	any target{head}x2
 ]
 NeedItem=[
-	SV-98 7.62x54R bolt-action sniper riflex0,
-	Molot VPO-215 "Gornostay" .366 TKM bolt-action riflex0,
-	Lobaev Arms DVL-10 7.62x51 bolt-action sniper riflex0,
-	Mosin 7.62x54R bolt-action rifle (Sniper)x0,
-	ORSIS T-5000M 7.62x51 bolt-action sniper riflex0,
-	Remington Model 700 7.62x51 bolt-action sniper riflex0,
-	Mosin 7.62x54R bolt-action rifle (Infantry)x0,
-	MP-18 7.62x54R single-shot riflex0,
+	SV-98 7.62x54R bolt-action sniper riflex0/|
+	Molot VPO-215 "Gornostay" .366 TKM bolt-action riflex0/|
+	Lobaev Arms DVL-10 7.62x51 bolt-action sniper riflex0/|
+	Mosin 7.62x54R bolt-action rifle (Sniper)x0/|
+	ORSIS T-5000M 7.62x51 bolt-action sniper riflex0/|
+	Remington Model 700 7.62x51 bolt-action sniper riflex0/|
+	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
+	MP-18 7.62x54R single-shot riflex0/|
 	Accuracy International AXMC .338 LM bolt-action sniper riflex0
 ]
 Task_Else=‹——£: >= 40m
@@ -53,8 +53,8 @@ Task_Else=‹——£: >= 40m
 
 Reward_Rep=Jaeger+0.020000
 Reward_Item=[
-	Roublesx65000,
-	Mosin Rifle AIM Sports MNG rail mountx1,
+	Roublesx65000/|
+	Mosin Rifle AIM Sports MNG rail mountx1/|
 	Umka M33-SET1 hunter vestx2
 ]
 

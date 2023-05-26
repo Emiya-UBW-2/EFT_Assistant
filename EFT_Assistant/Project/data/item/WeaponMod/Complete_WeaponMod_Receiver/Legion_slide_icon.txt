@@ -3,13 +3,13 @@ Name=P226 Legion full size pistol slide
 ShortName=P226 Legion
 Itemtype=Receiver
 ChildParts=[
-	P226 Meprolight TRU-DOT Night rear sight,
-	P226 rear sight,
-	P226 Sight Mount 220-239 rear sight bearing,
+	P226 Meprolight TRU-DOT Night rear sight/|
+	P226 rear sight/|
+	P226 Sight Mount 220-239 rear sight bearing/|
 	P226 Trijicon RMR mount
 ]
 ChildParts=[
-	P226 Meprolight TRU-DOT Night front sight,
+	P226 Meprolight TRU-DOT Night front sight/|
 	P226 front sight
 ]
 Recoil=-1.000000
@@ -18,15 +18,15 @@ Information_Eng=A full-size slide from the Legion modification for the P226 9x19
 basePrice=4120
 width=2
 height=1
-avg24hPrice=0
-low24hPrice=0
-lastOfferCount=2
+avg24hPrice=16259
+low24hPrice=9500
+lastOfferCount=1
 Sell_Prapor=2060
 Sell_Fence=1648
 Sell_Skier=2018
 Sell_Peacekeeper=16
 Sell_Mechanic=2307
-Sell_Flea Market=4000
+Sell_Flea Market=9500
 weight=0.200000
-fleaMarketFee=243
+fleaMarketFee=528
 propertiestype=ItemPropertiesWeaponMod

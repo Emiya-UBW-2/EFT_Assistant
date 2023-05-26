@@ -3,30 +3,30 @@ Name=FN SCAR-H 7.62x51 16 inch barrel
 ShortName=Mk17 16"
 Itemtype=Barrel
 ChildParts=[
-	AWC PSR 7.62x51 muzzle brake,
-	AR-10 2A Armanent X3 7.62x51 compensator,
-	AR-10 AAC Blackout 51T 7.62x51 flash hider,
-	AAC SCAR-SD 51T 7.62x51 flash hider,
-	AR-10 CMMG SV Brake 7.62x51 muzzle brake,
-	AR-10 Daniel Defense WAVE 7.62x51 muzzle brake,
-	Desert Tech 7.62x51 flash hider,
-	AR-10 Fortis RED Brake 7.62x51 muzzle brake,
-	AR-10 KAC QDC 7.62x51 Flash Suppressor Kit,
-	AR-10 KAC QDC 7.62x51 Muzzle Brake Kit,
-	AR-10 Keeno Arms SHREWD 7.62x51 muzzle brake,
-	AR-10 Lantac Drakon 7.62x51 muzzle brake-compensator,
-	AR-10 Nordic Components Corvette 7.62x51 compensator,
-	AR-10 Odin Works ATLAS-7 7.62x51 muzzle brake,
-	AR-10 Precision Armanent M11 Severe-Duty 7.62x51 muzzle brake,
-	AR-10 SureFire ProComp 7.62x51 muzzle brake,
-	AR-10 SureFire Warden 7.62x51 blast regulator,
-	AR-10 TAA ZK-38 7.62x51 muzzle brake,
-	AR-10 Thunder Beast Arms 30CB 7.62x51 muzzle brake,
-	Gemtech ONE Direct Thread Mount adapter,
-	SIG Sauer Taper-LOK 7.62x51/.300 BLK muzzle adapter,
-	SilencerCo Hybrid 46 Direct Thread Mount adapter,
-	Lantac BMD Blast Mitigation Device A3 direct thread adapter,
-	SIG Sauer SRD762Ti 7.62x51 sound suppressor,
+	AWC PSR 7.62x51 muzzle brake/|
+	AR-10 2A Armanent X3 7.62x51 compensator/|
+	AR-10 AAC Blackout 51T 7.62x51 flash hider/|
+	AAC SCAR-SD 51T 7.62x51 flash hider/|
+	AR-10 CMMG SV Brake 7.62x51 muzzle brake/|
+	AR-10 Daniel Defense WAVE 7.62x51 muzzle brake/|
+	Desert Tech 7.62x51 flash hider/|
+	AR-10 Fortis RED Brake 7.62x51 muzzle brake/|
+	AR-10 KAC QDC 7.62x51 Flash Suppressor Kit/|
+	AR-10 KAC QDC 7.62x51 Muzzle Brake Kit/|
+	AR-10 Keeno Arms SHREWD 7.62x51 muzzle brake/|
+	AR-10 Lantac Drakon 7.62x51 muzzle brake-compensator/|
+	AR-10 Nordic Components Corvette 7.62x51 compensator/|
+	AR-10 Odin Works ATLAS-7 7.62x51 muzzle brake/|
+	AR-10 Precision Armanent M11 Severe-Duty 7.62x51 muzzle brake/|
+	AR-10 SureFire ProComp 7.62x51 muzzle brake/|
+	AR-10 SureFire Warden 7.62x51 blast regulator/|
+	AR-10 TAA ZK-38 7.62x51 muzzle brake/|
+	AR-10 Thunder Beast Arms 30CB 7.62x51 muzzle brake/|
+	Gemtech ONE Direct Thread Mount adapter/|
+	SIG Sauer Taper-LOK 7.62x51/.300 BLK muzzle adapter/|
+	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
+	Lantac BMD Blast Mitigation Device A3 direct thread adapter/|
+	SIG Sauer SRD762Ti 7.62x51 sound suppressor/|
 	AR-10 Dead Air Keymount 7.62x51 muzzle brake
 ]
 ChildParts=[
@@ -38,16 +38,16 @@ Information_Eng=A 16 inches long (406mm) barrel for the SCAR-series weapons cham
 basePrice=38000
 width=4
 height=1
-avg24hPrice=44944
-low24hPrice=44333
-lastOfferCount=2
+avg24hPrice=38888
+low24hPrice=33333
+lastOfferCount=1
 Sell_Prapor=19000
 Sell_Fence=15200
 Sell_Skier=18620
 Sell_Peacekeeper=144
 Sell_Mechanic=21280
 Sell_Jaeger=22800
-Sell_Flea Market=44333
+Sell_Flea Market=33333
 weight=1.120000
-fleaMarketFee=2472
+fleaMarketFee=2138
 propertiestype=ItemPropertiesBarrel

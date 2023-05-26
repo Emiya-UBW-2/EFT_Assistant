@@ -3,28 +3,28 @@ Name=Steyr AUG A3 5.56x45 receiver
 ShortName=AUG A3
 Itemtype=Receiver
 ChildParts=[
-	Steyr AUG A1 5.56x45 20 inch barrel,
-	Steyr AUG A3 5.56x45 16 inch barrel,
+	Steyr AUG A1 5.56x45 20 inch barrel/|
+	Steyr AUG A3 5.56x45 16 inch barrel/|
 	Steyr AUG A1 5.56x45 16 inch barrel
 ]
 ChildParts=[
-	Steyr AUG A3 M1 high sight mount,
-	Steyr AUG A3 M1 low sight mount,
+	Steyr AUG A3 M1 high sight mount/|
+	Steyr AUG A3 M1 low sight mount/|
 	Steyr AUG A3 M1 1.5x optic sight
 ]
 ChildParts=[
-	Glock GTL 21 tactical flashlight with laser,
-	Holosun LS321 Tactical device,
-	Insight WMX200 tactical flashlight,
-	NcSTAR Tactical blue laser LAM-module,
-	Olight Baldr Pro tactical flashlight with laser,
-	Olight Baldr Pro tactical flashlight with laser (Tan),
-	Steiner DBAL-PL tactical device,
-	Steiner LAS/TAC 2 tactical flashlight,
-	SureFire X400 Ultra tactical flashlight with laser,
-	SureFire XC1 tactical flashlight,
-	Zenit Klesch-2IKS IR illuminator with laser,
-	Zenit Klesch-2P flashlight with laser,
+	Glock GTL 21 tactical flashlight with laser/|
+	Holosun LS321 Tactical device/|
+	Insight WMX200 tactical flashlight/|
+	NcSTAR Tactical blue laser LAM-module/|
+	Olight Baldr Pro tactical flashlight with laser/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
+	Steiner DBAL-PL tactical device/|
+	Steiner LAS/TAC 2 tactical flashlight/|
+	SureFire X400 Ultra tactical flashlight with laser/|
+	SureFire XC1 tactical flashlight/|
+	Zenit Klesch-2IKS IR illuminator with laser/|
+	Zenit Klesch-2P flashlight with laser/|
 	Kiba Arms 25mm accessory ring mount
 ]
 Recoil=0.000000

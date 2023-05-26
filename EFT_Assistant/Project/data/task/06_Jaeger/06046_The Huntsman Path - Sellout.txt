@@ -36,11 +36,11 @@ DogTagLv=0
 
 Reward_Rep=Jaeger+0.020000
 Reward_Item=[
-	Roublesx150000,
-	Intelligence folderx3,
-	IDEA cash register keyx1,
-	OLI cash register keyx1,
-	Slickers chocolate barx5,
+	Roublesx150000/|
+	Intelligence folderx3/|
+	IDEA cash register keyx1/|
+	OLI cash register keyx1/|
+	Slickers chocolate barx5/|
 	Can of TarCola sodax5
 ]
 

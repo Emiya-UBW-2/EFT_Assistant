@@ -3,10 +3,10 @@ Name=HK USP .45 ACP barrel
 ShortName=USP45 std
 Itemtype=Barrel
 Conflict=[
-	HK USP .45 ACP Elite compensator,
-	HK USP .45 ACP Match compensator,
-	HK USP Elite .45 ACP pistol slide,
-	HK USP Expert .45 ACP pistol slide,
+	HK USP .45 ACP Elite compensator/|
+	HK USP .45 ACP Match compensator/|
+	HK USP Elite .45 ACP pistol slide/|
+	HK USP Expert .45 ACP pistol slide/|
 ]
 Recoil=-2.000000
 Ergonomics=-4.000000

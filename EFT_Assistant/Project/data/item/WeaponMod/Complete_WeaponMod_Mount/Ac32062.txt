@@ -6,8 +6,8 @@ ChildParts=[
 	Trijicon RMR reflex sight
 ]
 Conflict=[
-	AR-15 Colt A2 rear sight,
-	AR-15 rear sight carry handle,
+	AR-15 Colt A2 rear sight/|
+	AR-15 rear sight carry handle/|
 ]
 Recoil=0.000000
 Ergonomics=-1.000000
@@ -15,16 +15,16 @@ Information_Eng=A high-profile mount for installation of the Trijicon RMR series
 basePrice=1593
 width=1
 height=1
-avg24hPrice=10734
-low24hPrice=6500
-lastOfferCount=10
+avg24hPrice=11593
+low24hPrice=6999
+lastOfferCount=11
 Sell_Prapor=796
 Sell_Fence=637
 Sell_Skier=780
 Sell_Peacekeeper=6
 Sell_Mechanic=892
 Sell_Jaeger=955
-Sell_Flea Market=8000
+Sell_Flea Market=9999
 weight=0.017000
-fleaMarketFee=635
+fleaMarketFee=905
 propertiestype=ItemPropertiesWeaponMod

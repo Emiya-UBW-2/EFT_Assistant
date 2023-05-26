@@ -3,11 +3,11 @@ Name=AKS-74/AKS-74U Zenit PT Lock
 ShortName=PT 74S
 Itemtype=Stock
 ChildParts=[
-	AK Zenit PT-3 "Klassika" stock,
+	AK Zenit PT-3 "Klassika" stock/|
 	AK Zenit PT-1 "Klassika" stock
 ]
 Conflict=[
-	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock,
+	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock/|
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -15,16 +15,16 @@ Information_Eng=The lock is designed to install the PT-1 and PT-3 stocks to a we
 basePrice=3228
 width=1
 height=1
-avg24hPrice=45819
-low24hPrice=21000
-lastOfferCount=17
+avg24hPrice=40272
+low24hPrice=15999
+lastOfferCount=1
 Sell_Prapor=1614
 Sell_Fence=1291
 Sell_Skier=1581
 Sell_Peacekeeper=12
 Sell_Mechanic=1807
 Sell_Jaeger=1936
-Sell_Flea Market=24444
+Sell_Flea Market=15999
 weight=0.310000
-fleaMarketFee=2479
+fleaMarketFee=1261
 propertiestype=ItemPropertiesWeaponMod

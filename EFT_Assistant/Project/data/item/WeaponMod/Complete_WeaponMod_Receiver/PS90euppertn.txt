@@ -3,7 +3,7 @@ Name=FN PS90 5.7x28 upper receiver
 ShortName=PS90
 Itemtype=Receiver
 ChildParts=[
-	FN P90 Ring Sight reflex sight,
+	FN P90 Ring Sight reflex sight/|
 	FN P90 upper receiver top rail
 ]
 ChildParts=[

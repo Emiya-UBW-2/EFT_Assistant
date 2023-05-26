@@ -3,16 +3,16 @@ Name=Glock Aimtech Tiger Shark sight mount
 ShortName=G TShark
 Itemtype=Mount
 ChildParts=[
-	BelOMO PK-06 reflex sight,
-	Aimpoint Micro Standard Mount,
-	Aimpoint Micro H-2 Standard Mount,
-	B&T QD NAR mount for Aimpoint ACRO,
-	Burris FastFire Weaver Base,
-	DeltaPoint Cross Slot Mount base,
+	BelOMO PK-06 reflex sight/|
+	Aimpoint Micro Standard Mount/|
+	Aimpoint Micro H-2 Standard Mount/|
+	B&T QD NAR mount for Aimpoint ACRO/|
+	Burris FastFire Weaver Base/|
+	DeltaPoint Cross Slot Mount base/|
 	Trijicon RMR low profile mount
 ]
 Conflict=[
-	Glock Aimtech mount base,
+	Glock Aimtech mount base/|
 	UM Tactical UM3 pistol sight mount
 ]
 Recoil=0.000000
@@ -21,16 +21,16 @@ Information_Eng=A Glock family sight mount base designed for installation of add
 basePrice=4047
 width=1
 height=1
-avg24hPrice=19711
-low24hPrice=11999
-lastOfferCount=3
+avg24hPrice=20851
+low24hPrice=17777
+lastOfferCount=6
 Sell_Prapor=2023
 Sell_Fence=1618
 Sell_Skier=1983
 Sell_Peacekeeper=15
 Sell_Mechanic=2266
 Sell_Jaeger=2428
-Sell_Flea Market=21111
+Sell_Flea Market=18000
 weight=0.120000
-fleaMarketFee=1713
+fleaMarketFee=1336
 propertiestype=ItemPropertiesWeaponMod

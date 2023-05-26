@@ -24,9 +24,9 @@ Task_Else=©•ª‚ÌˆÙíó‘Ô:[Stimulant]
 
 Reward_Rep=Jaeger+0.020000
 Reward_Item=[
-	Roublesx30000,
-	12/70 RIPx30,
-	5.56x45mm Warmageddonx80,
+	Roublesx30000/|
+	12/70 RIPx30/|
+	5.56x45mm Warmageddonx80/|
 	5.45x39mm BT gs ammo pack (120 pcs)x1
 ]
 Reward_SkillLevelUp=Metabolism+2

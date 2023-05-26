@@ -3,7 +3,7 @@ Name=5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine (FDE)
 ShortName=GEN M3
 Itemtype=Magazine
 Conflict=[
-	HK G36 magwell,
+	HK G36 magwell/|
 ]
 Recoil=0.000000
 Ergonomics=-3.000000
@@ -11,15 +11,15 @@ Information_Eng=A 30-round 5.56x45 polymer Magpul PMAG GEN M3 30 magazine with a
 basePrice=3797
 width=1
 height=2
-avg24hPrice=38669
-low24hPrice=10999
+avg24hPrice=30041
+low24hPrice=11500
 lastOfferCount=0
 Sell_Prapor=1898
 Sell_Fence=1518
 Sell_Skier=1860
 Sell_Peacekeeper=14
 Sell_Mechanic=2126
-Sell_Flea Market=10999
+Sell_Flea Market=22444
 weight=0.138000
-fleaMarketFee=662
+fleaMarketFee=1959
 propertiestype=ItemPropertiesMagazine

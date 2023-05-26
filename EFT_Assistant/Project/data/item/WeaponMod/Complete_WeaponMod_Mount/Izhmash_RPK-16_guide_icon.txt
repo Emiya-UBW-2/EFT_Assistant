@@ -3,24 +3,24 @@ Name=RPK-16 handguard rail
 ShortName=RPK-16 rail
 Itemtype=Mount
 ChildParts=[
-	Glock GTL 21 tactical flashlight with laser,
-	Holosun LS321 Tactical device,
-	AN/PEQ-15 tactical device,
-	LA-5B/PEQ tactical device,
-	NcSTAR Tactical blue laser LAM-module,
-	Steiner DBAL-PL tactical device,
-	Steiner LAS/TAC 2 tactical flashlight,
-	SureFire X400 Ultra tactical flashlight with laser,
-	SureFire XC1 tactical flashlight,
-	Wilcox RAPTAR ES Tactical Rangefinder,
-	Zenit Klesch-2IKS IR illuminator with laser,
-	Zenit Klesch-2P flashlight with laser,
-	Zenit Klesch-2U tactical flashlight,
-	Zenit Perst-3 tactical device,
-	Kiba Arms 25mm accessory ring mount,
-	Daniel Defense 25mm accessory ring mount,
-	Olight Baldr Pro tactical flashlight with laser,
-	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Glock GTL 21 tactical flashlight with laser/|
+	Holosun LS321 Tactical device/|
+	AN/PEQ-15 tactical device/|
+	LA-5B/PEQ tactical device/|
+	NcSTAR Tactical blue laser LAM-module/|
+	Steiner DBAL-PL tactical device/|
+	Steiner LAS/TAC 2 tactical flashlight/|
+	SureFire X400 Ultra tactical flashlight with laser/|
+	SureFire XC1 tactical flashlight/|
+	Wilcox RAPTAR ES Tactical Rangefinder/|
+	Zenit Klesch-2IKS IR illuminator with laser/|
+	Zenit Klesch-2P flashlight with laser/|
+	Zenit Klesch-2U tactical flashlight/|
+	Zenit Perst-3 tactical device/|
+	Kiba Arms 25mm accessory ring mount/|
+	Daniel Defense 25mm accessory ring mount/|
+	Olight Baldr Pro tactical flashlight with laser/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight
 ]
 Recoil=0.000000
@@ -29,16 +29,16 @@ Information_Eng=A handguard rail for the RPK-16 LMG that allows you to install a
 basePrice=920
 width=1
 height=1
-avg24hPrice=30000
-low24hPrice=30000
-lastOfferCount=1
+avg24hPrice=75000
+low24hPrice=60000
+lastOfferCount=2
 Sell_Prapor=460
 Sell_Fence=368
 Sell_Skier=450
 Sell_Peacekeeper=3
 Sell_Mechanic=515
 Sell_Jaeger=552
-Sell_Flea Market=30000
+Sell_Flea Market=70000
 weight=0.045000
-fleaMarketFee=7875
+fleaMarketFee=32632
 propertiestype=ItemPropertiesWeaponMod

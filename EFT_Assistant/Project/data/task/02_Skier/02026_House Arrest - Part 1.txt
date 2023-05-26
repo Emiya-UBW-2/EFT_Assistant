@@ -28,7 +28,7 @@ Task_Else=脱出ステータス:[Survived]
 
 Reward_Rep=Skier+0.030000
 Reward_Item=[
-	Roublesx112000,
+	Roublesx112000/|
 	Kel-Tec RFB 7.62x51 rifle Defaultx1
 ]
 

@@ -6,18 +6,18 @@ ChildParts=[
 	NPZ 1P78-1 2.8x scope
 ]
 Conflict=[
-	BelOMO PK-AA dovetail reflex sight,
-	BelOMO PSO-1 4x24 scope,
-	BelOMO PSO-1M2-1 4x24 scope,
-	BelOMO PSO-1M2 4x24 scope,
-	SVD SAG low profile sidemount,
-	AK TDI X47 tactical handguard rail system,
-	AKS-74U CAA XRSU47SU tactical handguard,
-	SVD SAG MK1 chassis,
-	AK AKademia Bastion dust cover,
-	AK FAB Defense PDC dust cover,
-	AK TWS Dog Leg Rail dust cover,
-	AK Zenit B-33 dust cover,
+	BelOMO PK-AA dovetail reflex sight/|
+	BelOMO PSO-1 4x24 scope/|
+	BelOMO PSO-1M2-1 4x24 scope/|
+	BelOMO PSO-1M2 4x24 scope/|
+	SVD SAG low profile sidemount/|
+	AK TDI X47 tactical handguard rail system/|
+	AKS-74U CAA XRSU47SU tactical handguard/|
+	SVD SAG MK1 chassis/|
+	AK AKademia Bastion dust cover/|
+	AK FAB Defense PDC dust cover/|
+	AK TWS Dog Leg Rail dust cover/|
+	AK Zenit B-33 dust cover/|
 	PP-19-01 "Vityaz-SN" dust cover
 ]
 Recoil=0.000000
@@ -26,16 +26,16 @@ Information_Eng=An aluminum sight mount manufactured by NPZ for the installation
 basePrice=2000
 width=1
 height=1
-avg24hPrice=8888
-low24hPrice=10000
-lastOfferCount=2
+avg24hPrice=17088
+low24hPrice=11111
+lastOfferCount=5
 Sell_Prapor=1000
 Sell_Fence=800
 Sell_Skier=980
 Sell_Peacekeeper=8
 Sell_Mechanic=1120
 Sell_Jaeger=1200
-Sell_Flea Market=7777
+Sell_Flea Market=15000
 weight=0.040000
-fleaMarketFee=537
+fleaMarketFee=1512
 propertiestype=ItemPropertiesWeaponMod

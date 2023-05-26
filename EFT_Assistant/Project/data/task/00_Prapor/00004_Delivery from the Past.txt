@@ -35,20 +35,20 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 
 Reward_Rep=Prapor+0.030000
 Reward_Item=[
-	Roublesx20000,
-	Saiga 12ga ver.10 12/76 semi-automatic shotgun Defaultx1,
-	SOK-12 12/76 sb.5 5-round magazinex4,
+	Roublesx20000/|
+	Saiga 12ga ver.10 12/76 semi-automatic shotgun Defaultx1/|
+	SOK-12 12/76 sb.5 5-round magazinex4/|
 	12/70 7mm buckshotx40
 ]
 
 Reward_EXP=4000
-Task_PinPoint=[0.305176,-0.162354,0.000000]
-Task_PinMap=[Customs,1]
-Task_PinPoint=[0.356158,0.155676,0.000000]
-Task_PinMap=[Customs,1]
-Task_PinPoint=[-0.279208,-0.138494,0.000000]
-Task_PinMap=[Factory,1]
-Task_PinPoint=[-0.157582,-0.143821,0.000000]
-Task_PinMap=[Factory,1]
-Task_PinPoint=[-0.277876,-0.130504,0.000000]
-Task_PinMap=[Night Factory,1]
+Task_PinPoint=[0.305176/|-0.162354/|0.000000]
+Task_PinMap=[Customs/|1]
+Task_PinPoint=[0.356158/|0.155676/|0.000000]
+Task_PinMap=[Customs/|1]
+Task_PinPoint=[-0.279208/|-0.138494/|0.000000]
+Task_PinMap=[Factory/|1]
+Task_PinPoint=[-0.157582/|-0.143821/|0.000000]
+Task_PinMap=[Factory/|1]
+Task_PinPoint=[-0.277876/|-0.130504/|0.000000]
+Task_PinMap=[Night Factory/|1]

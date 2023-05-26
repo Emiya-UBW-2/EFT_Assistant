@@ -3,7 +3,7 @@ Name=AR-15 JP Enterprises Gas System-5B
 ShortName=GS-5B
 Itemtype=Gas block
 Conflict=[
-	AR-15 Unique-ARs Wing & Skull 12 inch handguard,
+	AR-15 Unique-ARs Wing & Skull 12 inch handguard/|
 ]
 Recoil=-3.000000
 Ergonomics=-1.000000
@@ -11,15 +11,15 @@ Information_Eng=A low-profile gas system that can be installed on AR-15/AR-10 we
 basePrice=7800
 width=1
 height=1
-avg24hPrice=89497
-low24hPrice=50000
-lastOfferCount=12
+avg24hPrice=88731
+low24hPrice=40000
+lastOfferCount=8
 Sell_Prapor=3900
 Sell_Fence=3120
 Sell_Skier=3822
 Sell_Peacekeeper=29
 Sell_Mechanic=4368
-Sell_Flea Market=99999
+Sell_Flea Market=90333
 weight=0.064000
-fleaMarketFee=14164
+fleaMarketFee=11982
 propertiestype=ItemPropertiesWeaponMod

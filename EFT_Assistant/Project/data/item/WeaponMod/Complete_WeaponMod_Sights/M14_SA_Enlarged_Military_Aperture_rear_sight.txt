@@ -4,7 +4,7 @@ ShortName=M14 RS
 Itemtype=Ironsight
 SightRange=500
 Conflict=[
-	M14 TROY S.A.S.S. Chassis stock,
+	M14 TROY S.A.S.S. Chassis stock/|
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -12,15 +12,15 @@ Information_Eng=The Enlarged Military Aperture rear sight for M14 rifles manufac
 basePrice=471
 width=1
 height=1
-avg24hPrice=0
-low24hPrice=0
+avg24hPrice=69420
+low24hPrice=69420
 lastOfferCount=1
 Sell_Prapor=235
 Sell_Fence=188
 Sell_Skier=230
 Sell_Peacekeeper=2
 Sell_Mechanic=263
-Sell_Flea Market=199999
+Sell_Flea Market=69420
 weight=0.030000
-fleaMarketFee=307270
+fleaMarketFee=50998
 propertiestype=ItemPropertiesScope

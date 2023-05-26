@@ -14,26 +14,26 @@ Task_Kill=[
 	Shoreline-Scavsx10
 ]
 NeedItem=[
-	ADAR 2-15 5.56x45 carbinex0,
-	Colt M4A1 5.56x45 assault riflex0,
+	ADAR 2-15 5.56x45 carbinex0/|
+	Colt M4A1 5.56x45 assault riflex0/|
 	Lone Star TX-15 DML 5.56x45 carbinex0
 ]
 NeedItem=[
-	SureFire SOCOM556-MONSTER 5.56x45 sound suppressorx0,
-	SilencerCo Hybrid 46 multi-caliber sound suppressorx0,
-	SureFire SOCOM556-MINI MONSTER 5.56x45 sound suppressorx0,
-	Gemtech ONE multi-caliber sound suppressorx0,
-	KAC QDSS NT-4 5.56x45 sound suppressor (Black)x0,
-	KAC QDSS NT-4 5.56x45 sound suppressor (FDE)x0,
-	Rotor 43 5.56x45 muzzle brake-compensatorx0,
-	AAC 762-SDN-6 multi-caliber sound suppressorx0,
-	AR-15 Daniel Defense WAVE 5.56x45 muzzle brakex0,
-	AR-15 SureFire SF4P FH556RC 5.56x45 flash hiderx0,
-	SureFire SOCOM556-RC2 5.56x45 sound suppressorx0,
-	Thunder Beast Arms Ultra 5 sound suppressorx0,
-	SilencerCo Saker ASR 556 5.56x45 sound suppressorx0,
-	KAC QDC 5.56x45 sound suppressorx0,
-	AR-15 Griffin Armament M4SD-K 5.56x45 sound suppressorx0,
+	SureFire SOCOM556-MONSTER 5.56x45 sound suppressorx0/|
+	SilencerCo Hybrid 46 multi-caliber sound suppressorx0/|
+	SureFire SOCOM556-MINI MONSTER 5.56x45 sound suppressorx0/|
+	Gemtech ONE multi-caliber sound suppressorx0/|
+	KAC QDSS NT-4 5.56x45 sound suppressor (Black)x0/|
+	KAC QDSS NT-4 5.56x45 sound suppressor (FDE)x0/|
+	Rotor 43 5.56x45 muzzle brake-compensatorx0/|
+	AAC 762-SDN-6 multi-caliber sound suppressorx0/|
+	AR-15 Daniel Defense WAVE 5.56x45 muzzle brakex0/|
+	AR-15 SureFire SF4P FH556RC 5.56x45 flash hiderx0/|
+	SureFire SOCOM556-RC2 5.56x45 sound suppressorx0/|
+	Thunder Beast Arms Ultra 5 sound suppressorx0/|
+	SilencerCo Saker ASR 556 5.56x45 sound suppressorx0/|
+	KAC QDC 5.56x45 sound suppressorx0/|
+	AR-15 Griffin Armament M4SD-K 5.56x45 sound suppressorx0/|
 	AWC Thor PSR XL multi-caliber sound suppressorx0
 ]
 
@@ -45,7 +45,7 @@ NeedItem=[
 
 Reward_Rep=Peacekeeper+0.040000
 Reward_Item=[
-	Dollarsx1100,
+	Dollarsx1100/|
 	Secured magnetic tape cassettex2
 ]
 

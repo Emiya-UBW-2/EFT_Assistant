@@ -34,9 +34,9 @@ DogTagLv=0
 
 Reward_Rep=Skier+0.060000
 Reward_Item=[
-	Dollarsx700,
-	ADAR 2-15 5.56x45 carbine Defaultx2,
-	Roler Submariner gold wrist watchx1,
+	Dollarsx700/|
+	ADAR 2-15 5.56x45 carbine Defaultx2/|
+	Roler Submariner gold wrist watchx1/|
 	5.56x45mm M855A1x60
 ]
 

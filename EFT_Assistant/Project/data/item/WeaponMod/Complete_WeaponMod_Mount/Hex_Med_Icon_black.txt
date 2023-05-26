@@ -3,31 +3,31 @@ Name=Hexagon medium length rail
 ShortName=HEX med
 Itemtype=Mount
 ChildParts=[
-	BCM GUNFIGHTER MOD 3 vertical foregrip,
-	ASh-12 vertical foregrip,
-	Fortis Shift tactical foregrip,
-	HK Sturmgriff foregrip,
-	KAC vertical foregrip,
-	Magpul AFG tactical foregrip (Black),
-	Magpul AFG tactical foregrip (FDE),
-	Magpul AFG tactical foregrip (Forest Green),
-	Magpul AFG tactical foregrip (Olive Drab),
-	Magpul RVG foregrip (Black),
-	Magpul RVG foregrip (FDE),
-	RTM Pillau tactical foregrip,
-	Stark SE-5 Express Forward foregrip,
-	Strike Industries Cobra Tactical foregrip,
-	TangoDown Stubby BGV-MK46K foregrip (Black),
-	TangoDown Stubby BGV-MK46K foregrip (FDE),
-	TangoDown Stubby BGV-MK46K foregrip (Stealth Gray),
-	Tactical Dynamics Skeletonized Foregrip,
-	Viking Tactics UVG tactical foregrip,
-	Zenit RK-1 tactical foregrip on B-25U mount,
-	Zenit RK-0 tactical foregrip,
-	Zenit RK-1 tactical foregrip,
-	Zenit RK-2 tactical foregrip,
-	Zenit RK-4 tactical foregrip,
-	Zenit RK-5 tactical foregrip,
+	BCM GUNFIGHTER MOD 3 vertical foregrip/|
+	ASh-12 vertical foregrip/|
+	Fortis Shift tactical foregrip/|
+	HK Sturmgriff foregrip/|
+	KAC vertical foregrip/|
+	Magpul AFG tactical foregrip (Black)/|
+	Magpul AFG tactical foregrip (FDE)/|
+	Magpul AFG tactical foregrip (Forest Green)/|
+	Magpul AFG tactical foregrip (Olive Drab)/|
+	Magpul RVG foregrip (Black)/|
+	Magpul RVG foregrip (FDE)/|
+	RTM Pillau tactical foregrip/|
+	Stark SE-5 Express Forward foregrip/|
+	Strike Industries Cobra Tactical foregrip/|
+	TangoDown Stubby BGV-MK46K foregrip (Black)/|
+	TangoDown Stubby BGV-MK46K foregrip (FDE)/|
+	TangoDown Stubby BGV-MK46K foregrip (Stealth Gray)/|
+	Tactical Dynamics Skeletonized Foregrip/|
+	Viking Tactics UVG tactical foregrip/|
+	Zenit RK-1 tactical foregrip on B-25U mount/|
+	Zenit RK-0 tactical foregrip/|
+	Zenit RK-1 tactical foregrip/|
+	Zenit RK-2 tactical foregrip/|
+	Zenit RK-4 tactical foregrip/|
+	Zenit RK-5 tactical foregrip/|
 	Zenit RK-6 tactical foregrip
 ]
 Recoil=0.000000
@@ -36,16 +36,16 @@ Information_Eng=A medium length rail for the Hexagon handguard, allows installat
 basePrice=1473
 width=1
 height=1
-avg24hPrice=40174
-low24hPrice=18888
-lastOfferCount=7
+avg24hPrice=49218
+low24hPrice=40000
+lastOfferCount=5
 Sell_Prapor=736
 Sell_Fence=589
 Sell_Skier=721
 Sell_Peacekeeper=6
 Sell_Mechanic=824
 Sell_Jaeger=883
-Sell_Flea Market=28000
+Sell_Flea Market=40000
 weight=0.075000
-fleaMarketFee=5131
+fleaMarketFee=9289
 propertiestype=ItemPropertiesWeaponMod

@@ -42,15 +42,15 @@ Task_Else=脱出ステータス:[Survived]
 
 Reward_Rep=Prapor+0.030000
 Reward_Item=[
-	Roublesx155000,
-	NPP KlASS Korund-VM body armorx1,
+	Roublesx155000/|
+	NPP KlASS Korund-VM body armorx1/|
 	NPP KlASS Condor glassesx1
 ]
 
 Reward_EXP=18000
-Task_PinPoint=[-0.293782,-0.064290,0.000000]
-Task_PinMap=[Lighthouse,1]
-Task_PinPoint=[-0.240072,0.050456,0.000000]
-Task_PinMap=[Lighthouse,1]
-Task_PinPoint=[-0.257161,-0.159505,0.000000]
-Task_PinMap=[Lighthouse,1]
+Task_PinPoint=[-0.293782/|-0.064290/|0.000000]
+Task_PinMap=[Lighthouse/|1]
+Task_PinPoint=[-0.240072/|0.050456/|0.000000]
+Task_PinMap=[Lighthouse/|1]
+Task_PinPoint=[-0.257161/|-0.159505/|0.000000]
+Task_PinMap=[Lighthouse/|1]

@@ -42,8 +42,8 @@ Task_Else=脱出ステータス:[Survived]
 
 Reward_Rep=Jaeger+0.030000
 Reward_Item=[
-	Roublesx35000,
-	Emelya rye croutonsx5,
+	Roublesx35000/|
+	Emelya rye croutonsx5/|
 	Pack of milkx5
 ]
 

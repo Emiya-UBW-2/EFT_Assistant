@@ -6,7 +6,7 @@ ChildParts=[
 	PU 3.5x riflescope
 ]
 Conflict=[
-	Mosin Rifle AIM Sports Tri-Rail mount,
+	Mosin Rifle AIM Sports Tri-Rail mount/|
 ]
 Recoil=0.000000
 Ergonomics=-1.000000
@@ -14,16 +14,16 @@ Information_Eng=Regular rings for the PU 3.5x scope, installed on the Kochetov m
 basePrice=1105
 width=1
 height=1
-avg24hPrice=8391
-low24hPrice=3500
-lastOfferCount=6
+avg24hPrice=9443
+low24hPrice=5000
+lastOfferCount=1
 Sell_Prapor=552
 Sell_Fence=442
 Sell_Skier=541
 Sell_Peacekeeper=4
 Sell_Mechanic=618
 Sell_Jaeger=663
-Sell_Flea Market=9000
+Sell_Flea Market=5000
 weight=0.020000
-fleaMarketFee=955
+fleaMarketFee=375
 propertiestype=ItemPropertiesWeaponMod

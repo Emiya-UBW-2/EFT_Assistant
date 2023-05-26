@@ -3,35 +3,35 @@ Name=MPX Midwest Industries 14 inch M-LOK handguard
 ShortName=MPX Midwest 14"
 Itemtype=Handguard
 ChildParts=[
-	Magpul M-LOK 2.5 inch rail,
-	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK 2.5 inch rail/|
+	Magpul M-LOK Cantilever Mount/|
 	Magpul M-LOK Offset Light Mount
 ]
 ChildParts=[
-	Magpul M-LOK 2.5 inch rail,
-	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK 2.5 inch rail/|
+	Magpul M-LOK Cantilever Mount/|
 	Magpul M-LOK Offset Light Mount
 ]
 ChildParts=[
-	Magpul M-LOK 2.5 inch rail,
-	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK 2.5 inch rail/|
+	Magpul M-LOK Cantilever Mount/|
 	Magpul M-LOK Offset Light Mount
 ]
 ChildParts=[
-	Magpul M-LOK 2.5 inch rail,
-	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK 2.5 inch rail/|
+	Magpul M-LOK Cantilever Mount/|
 	Magpul M-LOK Offset Light Mount
 ]
 ChildParts=[
-	Magpul M-LOK 2.5 inch rail,
-	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK 2.5 inch rail/|
+	Magpul M-LOK Cantilever Mount/|
 	Magpul M-LOK Offset Light Mount
 ]
 ChildParts=[
-	Magpul M-LOK 4.1 inch rail,
-	Magpul M-LOK AFG tactical foregrip (Black),
-	Magpul M-LOK AFG tactical foregrip (FDE),
-	Magpul M-LOK AFG tactical foregrip (Stealth Gray),
+	Magpul M-LOK 4.1 inch rail/|
+	Magpul M-LOK AFG tactical foregrip (Black)/|
+	Magpul M-LOK AFG tactical foregrip (FDE)/|
+	Magpul M-LOK AFG tactical foregrip (Stealth Gray)/|
 	Magpul M-LOK AFG tactical foregrip (Olive Drab)
 ]
 ChildParts=[
@@ -41,21 +41,21 @@ ChildParts=[
 	Magpul M-LOK 2.5 inch rail
 ]
 ChildParts=[
-	HK MP7 flip-up front sight,
-	KAC Folding Micro front sight,
-	KAC Folding front sight,
-	KRISS Defiance low profile flip-up front sight,
-	Magpul MBUS Gen2 flip-up front sight,
-	Magpul MBUS Gen2 flip-up front sight (FDE),
-	MCX flip-up front sight,
+	HK MP7 flip-up front sight/|
+	KAC Folding Micro front sight/|
+	KAC Folding front sight/|
+	KRISS Defiance low profile flip-up front sight/|
+	Magpul MBUS Gen2 flip-up front sight/|
+	Magpul MBUS Gen2 flip-up front sight (FDE)/|
+	MCX flip-up front sight/|
 	MPX flip-up front sight
 ]
 Conflict=[
-	MPX 9x19 10.5 inch barrel,
-	MPX-SD 9x19 165mm barrel,
-	MPX 9x19 203mm barrel,
-	MPX 9x19 4.5 inch barrel,
-	MPX 9x19 6.5 inch barrel,
+	MPX 9x19 10.5 inch barrel/|
+	MPX-SD 9x19 165mm barrel/|
+	MPX 9x19 203mm barrel/|
+	MPX 9x19 6.5 inch barrel/|
+	MPX 9x19 4.5 inch barrel/|
 ]
 Recoil=-4.000000
 Ergonomics=7.000000
@@ -63,15 +63,15 @@ Information_Eng=The Midwest Industries 14 inch length foregrip for the MPX SMGs 
 basePrice=11200
 width=2
 height=1
-avg24hPrice=35425
-low24hPrice=23000
-lastOfferCount=15
+avg24hPrice=35861
+low24hPrice=15000
+lastOfferCount=8
 Sell_Prapor=5600
 Sell_Fence=4480
 Sell_Skier=5488
 Sell_Peacekeeper=42
 Sell_Mechanic=6272
-Sell_Flea Market=28000
+Sell_Flea Market=15000
 weight=0.269000
-fleaMarketFee=1596
+fleaMarketFee=804
 propertiestype=ItemPropertiesWeaponMod

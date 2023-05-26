@@ -3,17 +3,17 @@ Name=Glock 18C 9x19 pistol slide
 ShortName=G18C
 Itemtype=Receiver
 ChildParts=[
-	Glock Dead Ringer Snake Eye rear sight,
-	Glock rear sight,
-	Glock TruGlo TFX rear sight,
-	Glock ZEV Tech rear sight,
+	Glock Dead Ringer Snake Eye rear sight/|
+	Glock rear sight/|
+	Glock TruGlo TFX rear sight/|
+	Glock ZEV Tech rear sight/|
 	Glock 19X rear sight
 ]
 ChildParts=[
-	Glock Dead Ringer Snake Eye front sight,
-	Glock front sight,
-	Glock TruGlo TFX front sight,
-	Glock ZEV Tech front sight,
+	Glock Dead Ringer Snake Eye front sight/|
+	Glock front sight/|
+	Glock TruGlo TFX front sight/|
+	Glock ZEV Tech front sight/|
 	Glock 19X front sight
 ]
 Recoil=0.000000

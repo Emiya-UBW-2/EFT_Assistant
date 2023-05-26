@@ -6,7 +6,7 @@ ChildParts=[
 	SilencerCo Omega 45k Piston Mount adapter
 ]
 Conflict=[
-	M1911 Anarchy Outdoors .45 ACP muzzle brake,
+	M1911 Anarchy Outdoors .45 ACP muzzle brake/|
 ]
 Recoil=-3.000000
 Ergonomics=-4.000000
@@ -14,8 +14,8 @@ Information_Eng=A standard-issue threaded barrel for the M1911A1 .45 ACP pistol,
 basePrice=3200
 width=1
 height=1
-avg24hPrice=11966
-low24hPrice=10000
+avg24hPrice=17655
+low24hPrice=11111
 lastOfferCount=4
 Sell_Prapor=1600
 Sell_Fence=1280
@@ -23,7 +23,7 @@ Sell_Skier=1568
 Sell_Peacekeeper=12
 Sell_Mechanic=1792
 Sell_Jaeger=1920
-Sell_Flea Market=14250
+Sell_Flea Market=12000
 weight=0.120000
-fleaMarketFee=1058
+fleaMarketFee=814
 propertiestype=ItemPropertiesBarrel

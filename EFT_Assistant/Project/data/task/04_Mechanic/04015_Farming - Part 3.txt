@@ -33,12 +33,12 @@ Task_Else=E‚Á‚Ä”[•i:Customs-Package of graphics cardsx1
 
 Reward_Rep=Mechanic+0.020000
 Reward_Item=[
-	Roublesx20000,
+	Roublesx20000/|
 	UHF RFID Readerx1
 ]
 
 Reward_EXP=6500
-Task_PinPoint=[0.303622,-0.166903,0.000000]
-Task_PinMap=[Customs,1]
-Task_PinPoint=[0.361772,0.180220,0.000000]
-Task_PinMap=[Customs,1]
+Task_PinPoint=[0.303622/|-0.166903/|0.000000]
+Task_PinMap=[Customs/|1]
+Task_PinPoint=[0.361772/|0.180220/|0.000000]
+Task_PinMap=[Customs/|1]

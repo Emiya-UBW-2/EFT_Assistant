@@ -3,80 +3,80 @@ Name=Soyuz-TM STM-9 Gen.2 9x19 carbine
 ShortName=STM-9
 Itemtype=SMG
 ChildParts=[
-	AR-15 ADAR 2-15 wooden stock,
-	AR-15 Hera Arms CQR pistol grip/buttstock,
-	AR-15 Colt A2 pistol grip,
-	AR-15 Damage Industries ECS pistol grip (FDE),
-	AR-15 DLG Tactical DLG-123 pistol grip,
-	AR-15 F1 Firearms Skeletonized Style 1 pistol grip,
-	AR-15 F1 Firearms Skeletonized Style 2 PC pistol grip,
-	AR-15 F1 Firearms Skeletonized Style 2 pistol grip,
-	AR-15 Hera Arms HG-15 pistol grip,
-	AR-15 HK Battle Grip pistol grip,
-	AR-15 HK Battle Grip Beavertail pistol grip,
-	AR-15 HK Battle Grip Beavertail pistol grip (RAL 8000),
-	AR-15 HK Ergo PSG-1 style pistol grip,
-	AR-15 HK V2 pistol grip,
-	Hogue OverMolded Rubber Grip (Black),
-	Hogue OverMolded Rubber Grip (FDE),
-	Hogue OverMolded Rubber Grip (Ghillie Earth),
-	Hogue OverMolded Rubber Grip (Ghillie Green),
-	Hogue OverMolded Rubber Grip (Olive Drab),
-	AR-15 Magpul MIAD pistol grip (FDE),
-	AR-15 Magpul MOE pistol grip (Black),
-	AR-15 Magpul MOE pistol grip (FDE),
-	AR-15 Naroh Arms GRAL-S pistol grip,
-	MCX pistol grip,
-	AR-15 Stark AR Rifle Grip (Black),
-	AR-15 Stark AR Rifle Grip (FDE),
-	AR-15 Tactical Dynamics Hexgrip pistol grip,
+	AR-15 ADAR 2-15 wooden stock/|
+	AR-15 Hera Arms CQR pistol grip/buttstock/|
+	AR-15 Colt A2 pistol grip/|
+	AR-15 Damage Industries ECS pistol grip (FDE)/|
+	AR-15 DLG Tactical DLG-123 pistol grip/|
+	AR-15 F1 Firearms Skeletonized Style 1 pistol grip/|
+	AR-15 F1 Firearms Skeletonized Style 2 PC pistol grip/|
+	AR-15 F1 Firearms Skeletonized Style 2 pistol grip/|
+	AR-15 Hera Arms HG-15 pistol grip/|
+	AR-15 HK Battle Grip pistol grip/|
+	AR-15 HK Battle Grip Beavertail pistol grip/|
+	AR-15 HK Battle Grip Beavertail pistol grip (RAL 8000)/|
+	AR-15 HK Ergo PSG-1 style pistol grip/|
+	AR-15 HK V2 pistol grip/|
+	Hogue OverMolded Rubber Grip (Black)/|
+	Hogue OverMolded Rubber Grip (FDE)/|
+	Hogue OverMolded Rubber Grip (Ghillie Earth)/|
+	Hogue OverMolded Rubber Grip (Ghillie Green)/|
+	Hogue OverMolded Rubber Grip (Olive Drab)/|
+	AR-15 Magpul MIAD pistol grip (FDE)/|
+	AR-15 Magpul MOE pistol grip (Black)/|
+	AR-15 Magpul MOE pistol grip (FDE)/|
+	AR-15 Naroh Arms GRAL-S pistol grip/|
+	MCX pistol grip/|
+	AR-15 Stark AR Rifle Grip (Black)/|
+	AR-15 Stark AR Rifle Grip (FDE)/|
+	AR-15 Tactical Dynamics Hexgrip pistol grip/|
 	AR-15 Tactical Dynamics Skeletonized pistol grip
 ]
 ChildParts=[
-	Glock 9x19 "Big Stick" 33-round magazine,
-	Glock 9x19 17-round magazine,
-	Glock 9x19 Magpul PMAG GL9 21-round magazine,
-	Glock 9x19 SGM Tactical 50-round drum magazine,
-	Glock 9x19 "Big Stick" 24-round magazine (Coyote),
-	Glock 9x19 "Big Stick" 31-round magazine (Coyote),
+	Glock 9x19 "Big Stick" 33-round magazine/|
+	Glock 9x19 17-round magazine/|
+	Glock 9x19 Magpul PMAG GL9 21-round magazine/|
+	Glock 9x19 SGM Tactical 50-round drum magazine/|
+	Glock 9x19 "Big Stick" 24-round magazine (Coyote)/|
+	Glock 9x19 "Big Stick" 31-round magazine (Coyote)/|
 	Glock 9x19 19-round magazine (Coyote)
 ]
 ChildParts=[
 	STM-9 9x19 upper receiver
 ]
 ChildParts=[
-	AR-15 Colt A2 buffer tube,
-	AR-15 ADAR 2-15 buffer tube,
-	Colt Carbine buffer tube,
-	AR-15 DoubleStar ACE SOCOM Gen.4 stock,
-	ERGO F93 PRO stock,
-	Magpul UBR GEN2 stock (Black),
-	Magpul UBR GEN2 stock (FDE),
-	Soyuz-TM buffer tube,
-	Strike Industries Advanced Receiver Extension buffer tube,
-	Strike Industries Advanced Receiver Extension buffer tube (Anodized Red),
-	TROY M7A1 PDW stock (Black),
-	TROY M7A1 PDW stock (FDE),
-	Strike Industries Viper PDW stock,
+	AR-15 Colt A2 buffer tube/|
+	AR-15 ADAR 2-15 buffer tube/|
+	Colt Carbine buffer tube/|
+	AR-15 DoubleStar ACE SOCOM Gen.4 stock/|
+	ERGO F93 PRO stock/|
+	Magpul UBR GEN2 stock (Black)/|
+	Magpul UBR GEN2 stock (FDE)/|
+	Soyuz-TM buffer tube/|
+	Strike Industries Advanced Receiver Extension buffer tube/|
+	Strike Industries Advanced Receiver Extension buffer tube (Anodized Red)/|
+	TROY M7A1 PDW stock (Black)/|
+	TROY M7A1 PDW stock (FDE)/|
+	Strike Industries Viper PDW stock/|
 	AR-15 RTM ATP buffer tube
 ]
 ChildParts=[
-	AR-15 ADAR 2-15 charging handle,
-	AR-15 Badger Ordnance Tactical Charging Handle Latch,
-	AR-15 Colt charging handle,
-	AR-15 Geissele ACH charging handle,
-	AR-15 HK Extended Latch charging handle,
-	AR-15 MASP Industries Ambidextrous Battle Charging Handle,
-	AR-15 Radian Weapons Raptor charging handle,
-	AR-15 Radian Weapons Raptor charging handle (Grey),
+	AR-15 ADAR 2-15 charging handle/|
+	AR-15 Badger Ordnance Tactical Charging Handle Latch/|
+	AR-15 Colt charging handle/|
+	AR-15 Geissele ACH charging handle/|
+	AR-15 HK Extended Latch charging handle/|
+	AR-15 MASP Industries Ambidextrous Battle Charging Handle/|
+	AR-15 Radian Weapons Raptor charging handle/|
+	AR-15 Radian Weapons Raptor charging handle (Grey)/|
 	AR-15 Rainier Arms Avalanche MOD2 charging handle
 ]
 ChildParts=[
-	STM-9 magwell,
+	STM-9 magwell/|
 	STM-9 magwell (Grey)
 ]
 Conflict=[
-	AR-15 SAI JailBrake 5.56x45 muzzle device,
+	AR-15 SAI JailBrake 5.56x45 muzzle device/|
 ]
 Recoil=45.000000
 Ergonomics=50.000000
@@ -84,15 +84,15 @@ Information_Eng=A PCC carbine with excellent performance already "out of the box
 basePrice=12500
 width=1
 height=1
-avg24hPrice=34214
-low24hPrice=23999
-lastOfferCount=20
+avg24hPrice=32945
+low24hPrice=24999
+lastOfferCount=10
 Sell_Prapor=6250
 Sell_Fence=5000
 Sell_Skier=6125
 Sell_Peacekeeper=47
 Sell_Mechanic=7000
-Sell_Flea Market=30000
+Sell_Flea Market=29888
 weight=0.350000
-fleaMarketFee=1687
+fleaMarketFee=1679
 propertiestype=ItemPropertiesWeapon

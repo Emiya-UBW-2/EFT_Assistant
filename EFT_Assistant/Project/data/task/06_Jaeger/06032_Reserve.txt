@@ -27,15 +27,15 @@ Task_Else=脱出ステータス:[Survived]
 
 Reward_Rep=Jaeger+0.020000
 Reward_Item=[
-	Roublesx16000,
-	Pack of nailsx3,
-	Pack of screwsx3,
-	Silicone tubex1,
+	Roublesx16000/|
+	Pack of nailsx3/|
+	Pack of screwsx3/|
+	Silicone tubex1/|
 	Broken LCDx2
 ]
 
 Reward_EXP=11800
-Task_PinPoint=[-0.288574,-0.206055,0.000000]
-Task_PinMap=[Reserve,1]
-Task_PinPoint=[0.111607,-0.199498,0.000000]
-Task_PinMap=[Reserve,1]
+Task_PinPoint=[-0.288574/|-0.206055/|0.000000]
+Task_PinMap=[Reserve/|1]
+Task_PinPoint=[0.111607/|-0.199498/|0.000000]
+Task_PinMap=[Reserve/|1]

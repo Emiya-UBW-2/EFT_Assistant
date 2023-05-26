@@ -3,7 +3,7 @@ Name=Lebedev PL-15 9x19 pistol
 ShortName=PL-15
 Itemtype=Handgun
 ChildParts=[
-	PL-15 9x19 barrel,
+	PL-15 9x19 barrel/|
 	PL-15 9x19 threaded barrel
 ]
 ChildParts=[
@@ -13,13 +13,13 @@ ChildParts=[
 	PL-15 9x19 16-round magazine
 ]
 ChildParts=[
-	Glock GTL 21 tactical flashlight with laser,
-	Steiner DBAL-PL tactical device,
-	Steiner LAS/TAC 2 tactical flashlight,
-	SureFire X400 Ultra tactical flashlight with laser,
-	SureFire XC1 tactical flashlight,
-	UM Tactical UM3 pistol sight mount,
-	Olight Baldr Pro tactical flashlight with laser,
+	Glock GTL 21 tactical flashlight with laser/|
+	Steiner DBAL-PL tactical device/|
+	Steiner LAS/TAC 2 tactical flashlight/|
+	SureFire X400 Ultra tactical flashlight with laser/|
+	SureFire XC1 tactical flashlight/|
+	UM Tactical UM3 pistol sight mount/|
+	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)
 ]
 Recoil=289.000000
@@ -28,15 +28,15 @@ Information_Eng=A Russian self-loading pistol chambered in 9x19mm, developed by 
 basePrice=7100
 width=2
 height=1
-avg24hPrice=16804
-low24hPrice=11000
-lastOfferCount=5
+avg24hPrice=15521
+low24hPrice=8000
+lastOfferCount=4
 Sell_Prapor=3550
 Sell_Fence=2840
 Sell_Skier=3479
 Sell_Peacekeeper=27
 Sell_Mechanic=3976
-Sell_Flea Market=13333
+Sell_Flea Market=8000
 weight=0.490000
-fleaMarketFee=709
+fleaMarketFee=452
 propertiestype=ItemPropertiesWeapon

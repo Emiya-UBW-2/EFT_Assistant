@@ -3,13 +3,13 @@ Name=TOZ-106 20ga bolt-action shotgun
 ShortName=TOZ-106
 Itemtype=Shotgun
 ChildParts=[
-	TOZ-106 20ga MTs 20-01 Sb.3 2-shot magazine,
-	TOZ-106 20ga MTs 20-01 Sb.3 4-shot magazine,
+	TOZ-106 20ga MTs 20-01 Sb.3 2-shot magazine/|
+	TOZ-106 20ga MTs 20-01 Sb.3 4-shot magazine/|
 	TOZ-106 20ga MTs 20-01 Sb.3 5-shot magazine
 ]
 ChildParts=[
-	TOZ-106 custom cut Mosin stock,
-	MTs 20-01 stock,
+	TOZ-106 custom cut Mosin stock/|
+	MTs 20-01 stock/|
 	TOZ-106 stock
 ]
 ChildParts=[
@@ -21,16 +21,16 @@ Information_Eng=A single-barreled 20 gauge hunting shotgun with a sliding breech
 basePrice=3526
 width=3
 height=1
-avg24hPrice=19031
+avg24hPrice=13666
 low24hPrice=7000
-lastOfferCount=8
+lastOfferCount=4
 Sell_Prapor=1763
 Sell_Fence=1410
 Sell_Skier=1727
 Sell_Peacekeeper=13
 Sell_Mechanic=1974
 Sell_Jaeger=2115
-Sell_Flea Market=10000
+Sell_Flea Market=11700
 weight=1.300000
-fleaMarketFee=597
+fleaMarketFee=748
 propertiestype=ItemPropertiesWeapon

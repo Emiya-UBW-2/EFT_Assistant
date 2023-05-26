@@ -6,15 +6,15 @@ ChildParts=[
 	AI AXMC AT X Top Rail 
 ]
 ChildParts=[
-	AI AXMC Adapter Kit medium length rail,
+	AI AXMC Adapter Kit medium length rail/|
 	AI AXMC Adapter Kit short length rail
 ]
 ChildParts=[
-	AI AXMC Adapter Kit medium length rail,
+	AI AXMC Adapter Kit medium length rail/|
 	AI AXMC Adapter Kit short length rail
 ]
 ChildParts=[
-	AI AXMC Adapter Kit medium length rail,
+	AI AXMC Adapter Kit medium length rail/|
 	AI AXMC Adapter Kit short length rail
 ]
 Recoil=-2.000000

@@ -3,8 +3,8 @@ Name=MCX .300 BLK 229mm barrel
 ShortName=MCX 229mm
 Itemtype=Barrel
 ChildParts=[
-	AR-10 KAC QDC 7.62x51 Flash Suppressor Kit,
-	SIG Sauer Taper-LOK 7.62x51/.300 BLK muzzle adapter,
+	AR-10 KAC QDC 7.62x51 Flash Suppressor Kit/|
+	SIG Sauer Taper-LOK 7.62x51/.300 BLK muzzle adapter/|
 	SIG Sauer SRD762Ti 7.62x51 sound suppressor
 ]
 ChildParts=[
@@ -18,7 +18,7 @@ width=2
 height=1
 avg24hPrice=0
 low24hPrice=0
-lastOfferCount=2
+lastOfferCount=1
 Sell_Prapor=9709
 Sell_Fence=7767
 Sell_Skier=9514

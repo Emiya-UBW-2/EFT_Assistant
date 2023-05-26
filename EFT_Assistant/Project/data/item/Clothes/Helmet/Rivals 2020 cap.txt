@@ -3,12 +3,12 @@ Name=Rivals 2020 cap
 ShortName=Rivals
 Itemtype=Headwear
 Conflict=[
-	Faceless mask,
-	Ghoul mask,
-	Pestily plague mask,
-	Slender mask,
-	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY",
+	Faceless mask/|
+	Ghoul mask/|
+	Pestily plague mask/|
+	Slender mask/|
+	Tagilla's welding mask "Gorilla"/|
+	Tagilla's welding mask "UBEY"/|
 ]
 Information_Eng=A special cap from the Twitch Rivals 2020 event.
 basePrice=20000

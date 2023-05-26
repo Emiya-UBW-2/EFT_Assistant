@@ -49,9 +49,9 @@ DogTagLv=0
 
 Reward_Rep=Jaeger+0.010000
 Reward_Item=[
-	Roublesx10000,
-	Boltsx2,
-	Screw nutsx2,
+	Roublesx10000/|
+	Boltsx2/|
+	Screw nutsx2/|
 	Corrugated hosex1
 ]
 

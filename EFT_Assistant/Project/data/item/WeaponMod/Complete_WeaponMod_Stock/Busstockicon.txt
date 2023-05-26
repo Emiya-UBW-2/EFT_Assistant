@@ -3,8 +3,8 @@ Name=MFT BUS stock
 ShortName=BUS
 Itemtype=Stock
 Conflict=[
-	AR-15 ADAR 2-15 wooden stock,
-	AR-15 Hera Arms CQR pistol grip/buttstock,
+	AR-15 ADAR 2-15 wooden stock/|
+	AR-15 Hera Arms CQR pistol grip/buttstock/|
 ]
 Recoil=-32.000000
 Ergonomics=2.000000
@@ -12,16 +12,16 @@ Information_Eng=The BATTLELINK Utility Stock polymer buttstock manufactured by M
 basePrice=8097
 width=2
 height=1
-avg24hPrice=23173
-low24hPrice=12999
-lastOfferCount=6
+avg24hPrice=19672
+low24hPrice=10000
+lastOfferCount=7
 Sell_Prapor=4048
 Sell_Fence=3238
 Sell_Skier=3967
 Sell_Peacekeeper=31
 Sell_Mechanic=4534
 Sell_Jaeger=4858
-Sell_Flea Market=18000
+Sell_Flea Market=10000
 weight=0.255000
-fleaMarketFee=990
+fleaMarketFee=547
 propertiestype=ItemPropertiesWeaponMod

@@ -3,7 +3,7 @@ Name=AWC PSR 7.62x51 muzzle brake
 ShortName=PSR 762
 Itemtype=Flashhider
 ChildParts=[
-	AWC PSR muzzle brake protector,
+	AWC PSR muzzle brake protector/|
 	AWC Thor PSR XL multi-caliber sound suppressor
 ]
 Recoil=-10.000000
@@ -12,15 +12,15 @@ Information_Eng=PSR is an effective muzzle brake manufactured by AWC Silencers f
 basePrice=10500
 width=1
 height=1
-avg24hPrice=33208
-low24hPrice=16600
+avg24hPrice=28211
+low24hPrice=13000
 lastOfferCount=15
 Sell_Prapor=5250
 Sell_Fence=4200
 Sell_Skier=5145
 Sell_Peacekeeper=40
 Sell_Mechanic=5880
-Sell_Flea Market=16600
+Sell_Flea Market=13000
 weight=0.165000
-fleaMarketFee=874
+fleaMarketFee=711
 propertiestype=ItemPropertiesWeaponMod

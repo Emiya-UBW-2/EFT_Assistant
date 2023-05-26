@@ -21,8 +21,8 @@ Task_Else=‹——£: >= 100m
 ]
 
 Reward_Item=[
-	Can of thermitex5,
-	Magazine casex1,
+	Can of thermitex5/|
+	Magazine casex1/|
 	Kiba Arms armbandx1
 ]
 Reward_SkillLevelUp=Perception+1

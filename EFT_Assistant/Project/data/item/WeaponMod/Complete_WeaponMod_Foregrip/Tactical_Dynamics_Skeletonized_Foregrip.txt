@@ -3,7 +3,7 @@ Name=Tactical Dynamics Skeletonized Foregrip
 ShortName=SFG
 Itemtype=Foregrip
 Conflict=[
-	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher/|
 ]
 Recoil=-2.000000
 Ergonomics=6.000000
@@ -11,15 +11,15 @@ Information_Eng=A lightweight aluminum tactical foregrip manufactured by Tactica
 basePrice=7500
 width=1
 height=1
-avg24hPrice=53054
-low24hPrice=21000
-lastOfferCount=15
+avg24hPrice=46557
+low24hPrice=24500
+lastOfferCount=21
 Sell_Prapor=3750
 Sell_Fence=3000
 Sell_Skier=3675
 Sell_Peacekeeper=28
 Sell_Mechanic=4200
-Sell_Flea Market=40000
+Sell_Flea Market=24500
 weight=0.133000
-fleaMarketFee=3287
+fleaMarketFee=1555
 propertiestype=ItemPropertiesWeaponMod

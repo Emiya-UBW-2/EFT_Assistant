@@ -3,68 +3,68 @@ Name=CMMG Mk47 Mutant 7.62x39 assault rifle
 ShortName=Mk47
 Itemtype=Assault rifle
 ChildParts=[
-	AR-15 Colt A2 pistol grip,
-	AR-15 Damage Industries ECS pistol grip (FDE),
-	AR-15 DLG Tactical DLG-123 pistol grip,
-	AR-15 F1 Firearms Skeletonized Style 1 pistol grip,
-	AR-15 F1 Firearms Skeletonized Style 2 PC pistol grip,
-	AR-15 F1 Firearms Skeletonized Style 2 pistol grip,
-	AR-15 Hera Arms HG-15 pistol grip,
-	AR-15 HK Battle Grip pistol grip,
-	AR-15 HK Battle Grip Beavertail pistol grip,
-	AR-15 HK Battle Grip Beavertail pistol grip (RAL 8000),
-	AR-15 HK Ergo PSG-1 style pistol grip,
-	AR-15 HK V2 pistol grip,
-	Hogue OverMolded Rubber Grip (Black),
-	Hogue OverMolded Rubber Grip (FDE),
-	Hogue OverMolded Rubber Grip (Ghillie Earth),
-	Hogue OverMolded Rubber Grip (Ghillie Green),
-	Hogue OverMolded Rubber Grip (Olive Drab),
-	AR-15 Magpul MIAD pistol grip (FDE),
-	AR-15 Magpul MOE pistol grip (Black),
-	AR-15 Magpul MOE pistol grip (FDE),
-	AR-15 Naroh Arms GRAL-S pistol grip,
-	MCX pistol grip,
-	AR-15 Stark AR Rifle Grip (Black),
-	AR-15 Stark AR Rifle Grip (FDE),
-	AR-15 Tactical Dynamics Hexgrip pistol grip,
+	AR-15 Colt A2 pistol grip/|
+	AR-15 Damage Industries ECS pistol grip (FDE)/|
+	AR-15 DLG Tactical DLG-123 pistol grip/|
+	AR-15 F1 Firearms Skeletonized Style 1 pistol grip/|
+	AR-15 F1 Firearms Skeletonized Style 2 PC pistol grip/|
+	AR-15 F1 Firearms Skeletonized Style 2 pistol grip/|
+	AR-15 Hera Arms HG-15 pistol grip/|
+	AR-15 HK Battle Grip pistol grip/|
+	AR-15 HK Battle Grip Beavertail pistol grip/|
+	AR-15 HK Battle Grip Beavertail pistol grip (RAL 8000)/|
+	AR-15 HK Ergo PSG-1 style pistol grip/|
+	AR-15 HK V2 pistol grip/|
+	Hogue OverMolded Rubber Grip (Black)/|
+	Hogue OverMolded Rubber Grip (FDE)/|
+	Hogue OverMolded Rubber Grip (Ghillie Earth)/|
+	Hogue OverMolded Rubber Grip (Ghillie Green)/|
+	Hogue OverMolded Rubber Grip (Olive Drab)/|
+	AR-15 Magpul MIAD pistol grip (FDE)/|
+	AR-15 Magpul MOE pistol grip (Black)/|
+	AR-15 Magpul MOE pistol grip (FDE)/|
+	AR-15 Naroh Arms GRAL-S pistol grip/|
+	MCX pistol grip/|
+	AR-15 Stark AR Rifle Grip (Black)/|
+	AR-15 Stark AR Rifle Grip (FDE)/|
+	AR-15 Tactical Dynamics Hexgrip pistol grip/|
 	AR-15 Tactical Dynamics Skeletonized pistol grip
 ]
 ChildParts=[
-	AK 7.62x39 ribbed metal 10-round magazine,
-	AK 7.62x39 6L10 30-round magazine,
-	AK-103 7.62x39 30-round magazine,
-	AK 7.62x39 30-round magazine (issued '55 or later),
-	AK 7.62x39 aluminium 10-round magazine,
-	AKMS 7.62x39 aluminium 30-round magazine,
-	AK 7.62x39 Molot 40-round magazine (6P2.Sb-11),
-	AK 7.62x39 bakelite 40-round magazine,
-	AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine,
-	AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine (Banana),
-	AK 7.62x39 Molot 75-round drum magazine,
-	AK 7.62x39 ProMag AK-A-16 73-round drum magazine,
-	AK 7.62x39 US Palm "AK30" 30-round magazine (Black),
-	AK 7.62x39 US Palm "AK30" 30-round magazine (FDE),
+	AK 7.62x39 ribbed metal 10-round magazine/|
+	AK 7.62x39 6L10 30-round magazine/|
+	AK-103 7.62x39 30-round magazine/|
+	AK 7.62x39 30-round magazine (issued '55 or later)/|
+	AK 7.62x39 aluminium 10-round magazine/|
+	AKMS 7.62x39 aluminium 30-round magazine/|
+	AK 7.62x39 Molot 40-round magazine (6P2.Sb-11)/|
+	AK 7.62x39 bakelite 40-round magazine/|
+	AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine/|
+	AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine (Banana)/|
+	AK 7.62x39 Molot 75-round drum magazine/|
+	AK 7.62x39 ProMag AK-A-16 73-round drum magazine/|
+	AK 7.62x39 US Palm "AK30" 30-round magazine (Black)/|
+	AK 7.62x39 US Palm "AK30" 30-round magazine (FDE)/|
 	AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine
 ]
 ChildParts=[
 	Mk47 Resolute 7.62x39 upper receiver
 ]
 ChildParts=[
-	CMMG buffer tube,
-	AR-15 Colt A2 buffer tube,
-	AR-15 ADAR 2-15 buffer tube,
-	Colt Carbine buffer tube,
-	AR-15 DoubleStar ACE SOCOM Gen.4 stock,
-	ERGO F93 PRO stock,
-	Magpul UBR GEN2 stock (Black),
-	Magpul UBR GEN2 stock (FDE),
-	Soyuz-TM buffer tube,
-	Strike Industries Advanced Receiver Extension buffer tube,
-	Strike Industries Advanced Receiver Extension buffer tube (Anodized Red),
-	TROY M7A1 PDW stock (Black),
-	TROY M7A1 PDW stock (FDE),
-	Strike Industries Viper PDW stock,
+	CMMG buffer tube/|
+	AR-15 Colt A2 buffer tube/|
+	AR-15 ADAR 2-15 buffer tube/|
+	Colt Carbine buffer tube/|
+	AR-15 DoubleStar ACE SOCOM Gen.4 stock/|
+	ERGO F93 PRO stock/|
+	Magpul UBR GEN2 stock (Black)/|
+	Magpul UBR GEN2 stock (FDE)/|
+	Soyuz-TM buffer tube/|
+	Strike Industries Advanced Receiver Extension buffer tube/|
+	Strike Industries Advanced Receiver Extension buffer tube (Anodized Red)/|
+	TROY M7A1 PDW stock (Black)/|
+	TROY M7A1 PDW stock (FDE)/|
+	Strike Industries Viper PDW stock/|
 	AR-15 RTM ATP buffer tube
 ]
 ChildParts=[

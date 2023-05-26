@@ -3,21 +3,21 @@ Name=HK USP .45 ACP Match compensator
 ShortName=USP45M
 Itemtype=Mount
 ChildParts=[
-	Glock GTL 21 tactical flashlight with laser,
-	NcSTAR Tactical blue laser LAM-module,
-	Steiner DBAL-PL tactical device,
-	Steiner LAS/TAC 2 tactical flashlight,
-	SureFire X400 Ultra tactical flashlight with laser,
-	SureFire XC1 tactical flashlight,
-	Zenit Klesch-2IKS IR illuminator with laser,
-	Zenit Klesch-2P flashlight with laser,
-	Olight Baldr Pro tactical flashlight with laser,
+	Glock GTL 21 tactical flashlight with laser/|
+	NcSTAR Tactical blue laser LAM-module/|
+	Steiner DBAL-PL tactical device/|
+	Steiner LAS/TAC 2 tactical flashlight/|
+	SureFire X400 Ultra tactical flashlight with laser/|
+	SureFire XC1 tactical flashlight/|
+	Zenit Klesch-2IKS IR illuminator with laser/|
+	Zenit Klesch-2P flashlight with laser/|
+	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)
 ]
 Conflict=[
-	SilencerCo Omega 45k Piston Mount adapter,
-	HK USP .45 ACP barrel,
-	HK USP Tactical .45 ACP threaded barrel,
+	SilencerCo Omega 45k Piston Mount adapter/|
+	HK USP .45 ACP barrel/|
+	HK USP Tactical .45 ACP threaded barrel/|
 	HK USP Expert .45 ACP barrel
 ]
 Recoil=-15.000001
@@ -26,16 +26,16 @@ Information_Eng=The Match compensator from the special USP Match pistol kit will
 basePrice=6200
 width=1
 height=1
-avg24hPrice=17814
-low24hPrice=4444
-lastOfferCount=1
+avg24hPrice=17621
+low24hPrice=9999
+lastOfferCount=2
 Sell_Prapor=3100
 Sell_Fence=2480
 Sell_Skier=3038
 Sell_Peacekeeper=23
 Sell_Mechanic=3472
 Sell_Jaeger=3720
-Sell_Flea Market=7000
+Sell_Flea Market=9999
 weight=0.340000
-fleaMarketFee=395
+fleaMarketFee=526
 propertiestype=ItemPropertiesWeaponMod

@@ -51,7 +51,7 @@ Task_Else=width >= 0
 
 Reward_Rep=Mechanic+0.030000
 Reward_Item=[
-	Pistol casex1,
+	Pistol casex1/|
 	7.62x51mm M993x50
 ]
 

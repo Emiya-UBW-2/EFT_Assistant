@@ -3,7 +3,7 @@ Name=AI .338 LM Tactical Muzzle Brake
 ShortName=TMB 338LM
 Itemtype=Flashhider
 ChildParts=[
-	AI .338 LM Tactical Sound Moderator,
+	AI .338 LM Tactical Sound Moderator/|
 	AI AXMC thread protection cap
 ]
 Recoil=-11.000000

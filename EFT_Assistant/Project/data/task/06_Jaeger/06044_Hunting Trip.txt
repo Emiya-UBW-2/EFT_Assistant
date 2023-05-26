@@ -29,9 +29,9 @@ Task_Else=‹——£: >= 50m
 
 Reward_Rep=Jaeger+0.020000
 Reward_Item=[
-	Roublesx60000,
-	VPX Flash Storage Modulex1,
-	Iridium military thermal vision modulex1,
+	Roublesx60000/|
+	VPX Flash Storage Modulex1/|
+	Iridium military thermal vision modulex1/|
 	Phased array elementx1
 ]
 

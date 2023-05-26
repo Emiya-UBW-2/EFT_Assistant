@@ -4,19 +4,19 @@ ShortName=XPS3-2
 Itemtype=Reflex sight
 SightRange=400
 Conflict=[
-	AR-15 rear sight carry handle,
-	Burris FullField TAC30 1-4x24 30mm riflescope,
-	EOTech Vudu 1-6x24 30mm riflescope,
-	Hensoldt FF 4-16x56 34mm riflescope,
-	KMZ 1P59 3-10x riflescope,
-	KMZ 1P69 3-10x riflescope,
-	Leupold Mark 4 LR 6.5-20x50 30mm riflescope,
-	March Tactical 3-24x42 FFP 30mm riflescope,
-	Mosin Rifle carbine rear sight,
-	Nightforce ATACR 7-35x56 34mm riflescope,
-	NSPU-M night vision scope,
-	VOMZ Pilad 4x32 24.5mm riflescope,
-	Vortex Razor HD Gen.2 1-6x24 30mm riflescope,
+	AR-15 rear sight carry handle/|
+	Burris FullField TAC30 1-4x24 30mm riflescope/|
+	EOTech Vudu 1-6x24 30mm riflescope/|
+	Hensoldt FF 4-16x56 34mm riflescope/|
+	KMZ 1P59 3-10x riflescope/|
+	KMZ 1P69 3-10x riflescope/|
+	Leupold Mark 4 LR 6.5-20x50 30mm riflescope/|
+	March Tactical 3-24x42 FFP 30mm riflescope/|
+	Mosin Rifle carbine rear sight/|
+	Nightforce ATACR 7-35x56 34mm riflescope/|
+	NSPU-M night vision scope/|
+	VOMZ Pilad 4x32 24.5mm riflescope/|
+	Vortex Razor HD Gen.2 1-6x24 30mm riflescope/|
 ]
 Recoil=0.000000
 Ergonomics=-2.000000
@@ -24,15 +24,15 @@ Information_Eng=XPS3 is more compact than the other holographic sights, but just
 basePrice=23019
 width=1
 height=1
-avg24hPrice=43207
-low24hPrice=34000
-lastOfferCount=13
+avg24hPrice=55604
+low24hPrice=23000
+lastOfferCount=3
 Sell_Prapor=11509
 Sell_Fence=9207
 Sell_Skier=11279
 Sell_Peacekeeper=87
 Sell_Mechanic=12890
-Sell_Flea Market=35000
+Sell_Flea Market=48000
 weight=0.255000
-fleaMarketFee=1845
+fleaMarketFee=2600
 propertiestype=ItemPropertiesScope

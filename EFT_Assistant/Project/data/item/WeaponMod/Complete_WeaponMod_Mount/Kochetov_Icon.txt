@@ -3,14 +3,14 @@ Name=Mosin Rifle Kochetov mount
 ShortName=Kochetov
 Itemtype=Mount
 ChildParts=[
-	Mosin Rifle Arbalet Patriot K+W rail mount,
+	Mosin Rifle Arbalet Patriot K+W rail mount/|
 	PU 3.5x ring scope mount
 ]
 Conflict=[
-	Mosin Rifle Infantry stock,
-	Mosin Rifle carbine stock,
-	PPSh-41 stock,
-	Mosin Rifle sawn-off stock,
+	Mosin Rifle carbine stock/|
+	PPSh-41 stock/|
+	Mosin Rifle sawn-off stock/|
+	Mosin Rifle Infantry stock/|
 ]
 Recoil=0.000000
 Ergonomics=-1.000000
@@ -18,16 +18,16 @@ Information_Eng=Designed specially for the Mosin rifle, the Kochetov mount allow
 basePrice=1259
 width=1
 height=1
-avg24hPrice=22500
-low24hPrice=10000
-lastOfferCount=6
+avg24hPrice=12539
+low24hPrice=5555
+lastOfferCount=5
 Sell_Prapor=629
 Sell_Fence=503
 Sell_Skier=616
 Sell_Peacekeeper=5
 Sell_Mechanic=705
 Sell_Jaeger=755
-Sell_Flea Market=13333
+Sell_Flea Market=5555
 weight=0.020000
-fleaMarketFee=1670
+fleaMarketFee=410
 propertiestype=ItemPropertiesWeaponMod

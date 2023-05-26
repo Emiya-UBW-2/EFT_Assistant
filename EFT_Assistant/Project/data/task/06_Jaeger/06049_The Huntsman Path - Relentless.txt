@@ -59,8 +59,8 @@ Task_Kill=[
 ]
 
 Reward_Item=[
-	FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescopex1,
-	Expeditionary fuel tankx5,
+	FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescopex1/|
+	Expeditionary fuel tankx5/|
 	GP coinx20
 ]
 Reward_SkillLevelUp=Crafting+2

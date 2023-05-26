@@ -66,9 +66,9 @@ Task_Else=}
 
 Reward_Rep=Prapor+0.030000
 Reward_Item=[
-	Dollarsx5000,
-	Pistol casex1,
-	Documents casex1,
+	Dollarsx5000/|
+	Pistol casex1/|
+	Documents casex1/|
 	7.62x39mm BP gzhx120
 ]
 

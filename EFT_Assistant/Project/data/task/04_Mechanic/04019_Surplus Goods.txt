@@ -26,11 +26,11 @@ Task_Else=E‚Á‚Ä”[•i:Reserve-MBT Integrated Navigation Systemx1
 
 Reward_Rep=Mechanic+0.020000
 Reward_Item=[
-	Roublesx40000,
-	Ultraviolet lampx2,
+	Roublesx40000/|
+	Ultraviolet lampx2/|
 	Energy-saving lampx2
 ]
 
 Reward_EXP=7500
-Task_PinPoint=[-0.271810,0.101562,0.000000]
-Task_PinMap=[Reserve,1]
+Task_PinPoint=[-0.271810/|0.101562/|0.000000]
+Task_PinMap=[Reserve/|1]

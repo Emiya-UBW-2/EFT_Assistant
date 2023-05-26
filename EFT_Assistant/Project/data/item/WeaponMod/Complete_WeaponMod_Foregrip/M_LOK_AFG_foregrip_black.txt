@@ -3,7 +3,7 @@ Name=Magpul M-LOK AFG tactical foregrip (Black)
 ShortName=AFG M-LOK
 Itemtype=Foregrip
 Conflict=[
-	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher/|
 ]
 Recoil=-2.000000
 Ergonomics=7.000000
@@ -11,15 +11,15 @@ Information_Eng=The Magpul M-LOK AFG tactical grip. It can only be installed on 
 basePrice=7043
 width=1
 height=1
-avg24hPrice=31354
-low24hPrice=19900
-lastOfferCount=7
+avg24hPrice=34452
+low24hPrice=17800
+lastOfferCount=26
 Sell_Prapor=3521
 Sell_Fence=2817
 Sell_Skier=3451
 Sell_Peacekeeper=27
 Sell_Mechanic=3944
-Sell_Flea Market=39999
+Sell_Flea Market=18420
 weight=0.042000
-fleaMarketFee=3410
+fleaMarketFee=1066
 propertiestype=ItemPropertiesWeaponMod

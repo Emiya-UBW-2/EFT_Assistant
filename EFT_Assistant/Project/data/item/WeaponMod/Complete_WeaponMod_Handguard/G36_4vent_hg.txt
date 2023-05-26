@@ -15,7 +15,7 @@ ChildParts=[
 	HK G36 hand stop
 ]
 Conflict=[
-	HK G36 5.56x45 228mm barrel,
+	HK G36 5.56x45 228mm barrel/|
 	HK G36 5.56x45 480mm barrel
 ]
 Recoil=-1.000000

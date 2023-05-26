@@ -60,8 +60,7 @@ namespace FPS_n2 {
 			auto& L = *HideoutData::Instance()->FindPtr(MyID);
 			//親が同施設の前レベ以外の時そいつの子にもなれるようにXをずらす
 			for (auto& P : L.GetLvData().at(MyLv - 1).m_Parent) {
-				auto ID = HideoutData::Instance()->FindID(P.GetName());
-				auto IdDrewParent = std::find_if(isDrew.begin(), isDrew.end(), [&](const auto& tgt) {return tgt.first == ID; });
+				auto IdDrewParent = std::find_if(isDrew.begin(), isDrew.end(), [&](const auto& tgt) {return tgt.first == P.GetID(); });
 				if (IdDrewParent != isDrew.end()) {
 					if (IdDrewParent->second.at(P.GetValue() - 1).IsDrew == true) {
 						xpos = std::max(xpos, IdDrewParent->second.at(P.GetValue() - 1).xpos + xsize + y_r(100));
@@ -69,8 +68,7 @@ namespace FPS_n2 {
 				}
 			}
 			for (auto& P : L.GetLvData().at(MyLv - 1).m_Parent) {
-				auto ID = HideoutData::Instance()->FindID(P.GetName());
-				auto IdDrewParent = std::find_if(isDrew.begin(), isDrew.end(), [&](const auto& tgt) {return tgt.first == ID; });
+				auto IdDrewParent = std::find_if(isDrew.begin(), isDrew.end(), [&](const auto& tgt) {return tgt.first == P.GetID(); });
 				if (IdDrewParent != isDrew.end()) {
 					if (IdDrewParent->second.at(P.GetValue() - 1).IsDrew == true) {
 						int start_x = IdDrewParent->second.at(P.GetValue() - 1).xpos + xsize;
@@ -111,7 +109,7 @@ namespace FPS_n2 {
 
 			for (auto& C : L.GetLvData().at(MyLv-1).m_Child) {
 				int TmpYPos = *ypos;
-				if (DrawHideoutList(HideoutData::Instance()->FindID(C.GetName()), C.GetValue(), xpos + xsize + y_r(100), &TmpYPos, xsize, ysize)) {
+				if (DrawHideoutList(C.GetID(), C.GetValue(), xpos + xsize + y_r(100), &TmpYPos, xsize, ysize)) {
 					*ypos += ysize + y_r(10);
 				}
 			}
@@ -155,16 +153,15 @@ namespace FPS_n2 {
 						}
 						if (!IsChecktask) { continue; }
 						for (const auto& w : Ld.m_ItemReq) {
-							auto ID = ItemData::Instance()->FindID(w.GetName());
-							auto* ptr = ItemData::Instance()->FindPtr(ID);
+							auto* ptr = ItemData::Instance()->FindPtr(w.GetID());
 							if (ptr) {
 								auto& Types = Counter.at(ptr->GetTypeID());
-								auto Find = std::find_if(Types.begin(), Types.end(), [&](const std::pair<ItemID, int>& obj) {return obj.first == ID; });
+								auto Find = std::find_if(Types.begin(), Types.end(), [&](const std::pair<ItemID, int>& obj) {return obj.first == w.GetID(); });
 								if (Find != Types.end()) {
 									Find->second += w.GetValue();
 								}
 								else {
-									Types.emplace_back(std::make_pair(ID, w.GetValue()));
+									Types.emplace_back(std::make_pair(w.GetID(), w.GetValue()));
 								}
 							}
 						}

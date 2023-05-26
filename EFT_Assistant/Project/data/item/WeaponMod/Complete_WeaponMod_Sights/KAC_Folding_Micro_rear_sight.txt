@@ -4,9 +4,9 @@ ShortName=KAC MRS
 Itemtype=Ironsight
 SightRange=300
 Conflict=[
-	KMZ 1P69 Weaver mount,
-	ASh-12 rear sight carry handle,
-	VOMZ Pilad 4x32 24.5mm riflescope,
+	KMZ 1P69 Weaver mount/|
+	ASh-12 rear sight carry handle/|
+	VOMZ Pilad 4x32 24.5mm riflescope/|
 ]
 Recoil=0.000000
 Ergonomics=1.000000
@@ -14,15 +14,15 @@ Information_Eng=A compact removable folding rear sight by Knight's Armament Comp
 basePrice=3525
 width=1
 height=1
-avg24hPrice=113854
-low24hPrice=4000
-lastOfferCount=1
+avg24hPrice=31657
+low24hPrice=10000
+lastOfferCount=6
 Sell_Prapor=1762
 Sell_Fence=1410
 Sell_Skier=1727
 Sell_Peacekeeper=13
 Sell_Mechanic=1974
-Sell_Flea Market=79000
+Sell_Flea Market=25000
 weight=0.080000
-fleaMarketFee=16145
+fleaMarketFee=2435
 propertiestype=ItemPropertiesScope

@@ -1,2 +1,2 @@
 Name=Shturman
-Color=[128,192,0]
+Color=[128/|192/|0]

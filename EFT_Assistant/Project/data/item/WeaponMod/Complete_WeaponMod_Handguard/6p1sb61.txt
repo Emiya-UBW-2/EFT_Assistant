@@ -3,7 +3,7 @@ Name=AKM wooden handguard (6P1 Sb.6-1)
 ShortName=6P1 Sb.6-1
 Itemtype=Handguard
 Conflict=[
-	AK Zenit B-33 dust cover,
+	AK Zenit B-33 dust cover/|
 ]
 Recoil=0.000000
 Ergonomics=4.000000

@@ -10,13 +10,13 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Kill=[
-	Interchange-any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x30,
-	Shoreline-any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x30,
-	Streets of Tarkov-any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x30,
-	Lighthouse-any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x30,
-	Woods-any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x30,
-	Customs-any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x30,
-	Reserve-any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x30,
+	Interchange-any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x30/|
+	Shoreline-any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x30/|
+	Streets of Tarkov-any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x30/|
+	Lighthouse-any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x30/|
+	Woods-any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x30/|
+	Customs-any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x30/|
+	Reserve-any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x30/|
 	The Lab-any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x30
 ]
 
@@ -28,7 +28,7 @@ Task_Kill=[
 
 Reward_Rep=Prapor+0.020000
 Reward_Item=[
-	Roublesx85000,
+	Roublesx85000/|
 	PNV-10T Night Vision Gogglesx2
 ]
 

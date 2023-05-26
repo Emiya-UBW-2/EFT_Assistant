@@ -28,12 +28,12 @@ DogTagLv=0
 
 Reward_Rep=Therapist+0.040000
 Reward_Item=[
-	Roublesx35000,
+	Roublesx35000/|
 	Medicine casex1
 ]
 
 Reward_EXP=7300
-Task_PinPoint=[-0.398298,-0.049526,0.000000]
-Task_PinMap=[Factory,1]
-Task_PinPoint=[-0.394287,-0.052083,0.000000]
-Task_PinMap=[Night Factory,1]
+Task_PinPoint=[-0.398298/|-0.049526/|0.000000]
+Task_PinMap=[Factory/|1]
+Task_PinPoint=[-0.394287/|-0.052083/|0.000000]
+Task_PinMap=[Night Factory/|1]

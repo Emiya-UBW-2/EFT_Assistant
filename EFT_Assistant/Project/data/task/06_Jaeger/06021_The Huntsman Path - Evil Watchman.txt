@@ -23,8 +23,8 @@ Task_Else=É]Å[Éì:[Dorms]
 
 Reward_Rep=Jaeger+0.020000
 Reward_Item=[
-	Roublesx75000,
-	Intelligence folderx2,
+	Roublesx75000/|
+	Intelligence folderx2/|
 	Secure Flash drivex2
 ]
 

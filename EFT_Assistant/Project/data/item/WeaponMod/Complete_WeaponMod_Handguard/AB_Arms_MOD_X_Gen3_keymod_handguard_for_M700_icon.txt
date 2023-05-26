@@ -3,46 +3,46 @@ Name=M700 AB Arms MOD*X GEN 3 KeyMod handguard
 ShortName=MOD*X
 Itemtype=Handguard
 ChildParts=[
-	Strike Industries KeyMod 4 inch rail,
-	Vltor CASV KeyMod 2 inch rail,
-	Vltor CASV KeyMod 4 inch rail,
+	Strike Industries KeyMod 4 inch rail/|
+	Vltor CASV KeyMod 2 inch rail/|
+	Vltor CASV KeyMod 4 inch rail/|
 	CNC Guns KeyMod 4 inch rail
 ]
 ChildParts=[
-	Strike Industries KeyMod 4 inch rail,
-	Vltor CASV KeyMod 2 inch rail,
-	Vltor CASV KeyMod 4 inch rail,
+	Strike Industries KeyMod 4 inch rail/|
+	Vltor CASV KeyMod 2 inch rail/|
+	Vltor CASV KeyMod 4 inch rail/|
 	CNC Guns KeyMod 2 inch rail
 ]
 ChildParts=[
-	Strike Industries KeyMod 4 inch rail,
-	Vltor CASV KeyMod 2 inch rail,
-	Vltor CASV KeyMod 4 inch rail,
+	Strike Industries KeyMod 4 inch rail/|
+	Vltor CASV KeyMod 2 inch rail/|
+	Vltor CASV KeyMod 4 inch rail/|
 	CNC Guns KeyMod 2 inch rail
 ]
 ChildParts=[
-	Holosun LS321 Tactical device,
-	AN/PEQ-15 tactical device,
-	LA-5B/PEQ tactical device,
-	SureFire XC1 tactical flashlight,
-	Wilcox RAPTAR ES Tactical Rangefinder,
+	Holosun LS321 Tactical device/|
+	AN/PEQ-15 tactical device/|
+	LA-5B/PEQ tactical device/|
+	SureFire XC1 tactical flashlight/|
+	Wilcox RAPTAR ES Tactical Rangefinder/|
 	Zenit Perst-3 tactical device
 ]
 ChildParts=[
-	HK MP7 flip-up front sight,
-	KAC Folding Micro front sight,
-	KAC Folding front sight,
-	KRISS Defiance low profile flip-up front sight,
-	Magpul MBUS Gen2 flip-up front sight,
-	Magpul MBUS Gen2 flip-up front sight (FDE),
-	MCX flip-up front sight,
+	HK MP7 flip-up front sight/|
+	KAC Folding Micro front sight/|
+	KAC Folding front sight/|
+	KRISS Defiance low profile flip-up front sight/|
+	Magpul MBUS Gen2 flip-up front sight/|
+	Magpul MBUS Gen2 flip-up front sight (FDE)/|
+	MCX flip-up front sight/|
 	MPX flip-up front sight
 ]
 ChildParts=[
-	Monstrum Tactical Vertical Fore Grip KeyMod,
-	A3 Tactical MVF001 KeyMod vertical foregrip (Black),
-	SIG Sauer Vertical Foregrip KeyMod (Black),
-	Strike Industries KeyMod 6 inch rail,
+	Monstrum Tactical Vertical Fore Grip KeyMod/|
+	A3 Tactical MVF001 KeyMod vertical foregrip (Black)/|
+	SIG Sauer Vertical Foregrip KeyMod (Black)/|
+	Strike Industries KeyMod 6 inch rail/|
 	Vltor CASV KeyMod 6 inch rail
 ]
 Conflict=[
@@ -54,15 +54,15 @@ Information_Eng=The AB Arms MOD*X GEN 3 KeyMod handguard for M700 sniper rifles 
 basePrice=9900
 width=3
 height=1
-avg24hPrice=42624
-low24hPrice=19999
-lastOfferCount=11
+avg24hPrice=40479
+low24hPrice=32000
+lastOfferCount=1
 Sell_Prapor=4950
 Sell_Fence=3960
 Sell_Skier=4851
 Sell_Peacekeeper=37
 Sell_Mechanic=5544
-Sell_Flea Market=25000
+Sell_Flea Market=32000
 weight=0.390000
-fleaMarketFee=1430
+fleaMarketFee=2021
 propertiestype=ItemPropertiesWeaponMod

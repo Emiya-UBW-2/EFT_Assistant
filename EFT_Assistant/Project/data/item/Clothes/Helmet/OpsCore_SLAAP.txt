@@ -3,22 +3,22 @@ Name=Ops-Core SLAAP armor helmet plate (Tan)
 ShortName=SLAAP
 Itemtype=Armored equipment
 Conflict=[
-	Ops-Core FAST multi-hit ballistic face shield,
-	Tac-Kek Heavy Trooper mask for Ops-Core-type helmets,
-	Diamond Age Bastion helmet armor plate,
+	Diamond Age Bastion helmet armor plate/|
+	Ops-Core FAST multi-hit ballistic face shield/|
+	Tac-Kek Heavy Trooper mask for Ops-Core-type helmets/|
 ]
 Information_Eng=An additional armor module for the Ops-Core FAST helmet, made of a special polyethylene plate (Russian GOST class 5 protection).
 basePrice=89300
 width=2
 height=1
-avg24hPrice=258218
-low24hPrice=150000
-lastOfferCount=16
+avg24hPrice=238176
+low24hPrice=188888
+lastOfferCount=7
 Sell_Fence=35720
 Sell_Skier=43757
 Sell_Peacekeeper=338
 Sell_Ragman=55366
-Sell_Flea Market=279420
+Sell_Flea Market=300000
 weight=1.300000
-fleaMarketFee=17393
+fleaMarketFee=19290
 propertiestype=ItemPropertiesArmorAttachment

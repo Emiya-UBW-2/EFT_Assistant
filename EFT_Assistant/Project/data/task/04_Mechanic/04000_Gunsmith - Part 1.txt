@@ -29,9 +29,9 @@ Task_Else=width <= 4
 
 Reward_Rep=Mechanic+0.010000
 Reward_Item=[
-	Roublesx10000,
-	Screw nutsx1,
-	Boltsx1,
+	Roublesx10000/|
+	Screw nutsx1/|
+	Boltsx1/|
 	12/70 makeshift .50 BMG slugx20
 ]
 

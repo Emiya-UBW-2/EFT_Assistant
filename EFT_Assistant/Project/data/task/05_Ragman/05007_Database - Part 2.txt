@@ -26,10 +26,10 @@ Task_Else=E‚Á‚Ä”[•i:Interchange-OLI cargo route documentsx1
 
 Reward_Rep=Ragman+0.030000
 Reward_Item=[
-	Car batteryx1,
+	Car batteryx1/|
 	Phase control relayx1
 ]
 
 Reward_EXP=8500
-Task_PinPoint=[-0.158936,0.357910,0.000000]
-Task_PinMap=[Interchange,1]
+Task_PinPoint=[-0.158936/|0.357910/|0.000000]
+Task_PinMap=[Interchange/|1]

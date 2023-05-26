@@ -22,8 +22,8 @@ Task_Else=íEèoínì_:Primorsky Ave Taxi V-Ex
 
 Reward_Rep=Therapist+0.010000
 Reward_Item=[
-	Roublesx45000,
-	Aluminum splintx2,
+	Roublesx45000/|
+	Aluminum splintx2/|
 	CALOK-B hemostatic applicatorx2
 ]
 

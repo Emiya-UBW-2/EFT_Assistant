@@ -3,7 +3,7 @@ Name=AR-15 Noveske KX3 5.56x45 flash hider
 ShortName=KX3 556
 Itemtype=Flashhider
 Conflict=[
-	AR-15 SAI JailBrake 5.56x45 muzzle device,
+	AR-15 SAI JailBrake 5.56x45 muzzle device/|
 ]
 Recoil=-7.000000
 Ergonomics=-2.000000
@@ -11,15 +11,15 @@ Information_Eng=The Noveske KX3 Flash hider, aka the Burning Pig, is designed to
 basePrice=7237
 width=1
 height=1
-avg24hPrice=14509
-low24hPrice=6666
-lastOfferCount=8
+avg24hPrice=8166
+low24hPrice=5555
+lastOfferCount=6
 Sell_Prapor=3618
 Sell_Fence=2894
 Sell_Skier=3546
 Sell_Peacekeeper=27
 Sell_Mechanic=4052
-Sell_Flea Market=8000
+Sell_Flea Market=5555
 weight=0.204000
-fleaMarketFee=456
+fleaMarketFee=390
 propertiestype=ItemPropertiesWeaponMod

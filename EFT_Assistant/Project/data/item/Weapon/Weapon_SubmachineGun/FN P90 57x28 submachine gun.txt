@@ -6,20 +6,20 @@ ChildParts=[
 	FN P90 5.7x28 50-round magazine
 ]
 ChildParts=[
-	FN P90 stock,
+	FN P90 stock/|
 	FN PS90 stock
 ]
 ChildParts=[
-	FN P90 EFFEN 90 5.7x28 upper receiver,
-	FN P90 5.7x28 upper receiver,
+	FN P90 EFFEN 90 5.7x28 upper receiver/|
+	FN P90 5.7x28 upper receiver/|
 	FN PS90 5.7x28 upper receiver
 ]
 ChildParts=[
-	FN P90 5.7x28 10.5 inch barrel,
+	FN P90 5.7x28 10.5 inch barrel/|
 	FN P90 5.7x28 16 inch barrel
 ]
 ChildParts=[
-	FN P90 charging handle,
+	FN P90 charging handle/|
 	FN P90 K&M The Handler charging handle
 ]
 Recoil=46.000000
@@ -28,15 +28,15 @@ Information_Eng=FN P90, also known as the FN Project 1990, is a compact personal
 basePrice=45200
 width=2
 height=1
-avg24hPrice=75578
-low24hPrice=58885
-lastOfferCount=17
+avg24hPrice=74225
+low24hPrice=55000
+lastOfferCount=32
 Sell_Prapor=22600
 Sell_Fence=18080
 Sell_Skier=22148
 Sell_Peacekeeper=171
 Sell_Mechanic=25312
-Sell_Flea Market=70000
+Sell_Flea Market=71111
 weight=0.700000
-fleaMarketFee=3687
+fleaMarketFee=3743
 propertiestype=ItemPropertiesWeapon

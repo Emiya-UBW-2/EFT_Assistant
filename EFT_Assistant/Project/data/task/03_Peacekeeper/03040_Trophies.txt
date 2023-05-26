@@ -26,9 +26,9 @@ DogTagLv=50
 ]
 
 Reward_Item=[
-	Ammunition casex4,
-	UNTAR armbandx1,
-	FN40GL Mk2 40mm grenade launcher Defaultx1,
+	Ammunition casex4/|
+	UNTAR armbandx1/|
+	FN40GL Mk2 40mm grenade launcher Defaultx1/|
 	40x46mm M433 (HEDP) grenadex10
 ]
 

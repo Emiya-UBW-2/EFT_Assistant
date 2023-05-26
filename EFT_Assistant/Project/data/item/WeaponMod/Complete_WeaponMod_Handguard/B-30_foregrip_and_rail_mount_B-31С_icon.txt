@@ -3,133 +3,133 @@ Name=AK Zenit B-30 handguard with B-31S upper handguard rail
 ShortName=B-30+B-31S
 Itemtype=Handguard
 ChildParts=[
-	BCM GUNFIGHTER MOD 3 vertical foregrip,
-	ASh-12 vertical foregrip,
-	Fortis Shift tactical foregrip,
-	HK Sturmgriff foregrip,
-	KAC vertical foregrip,
-	Magpul AFG tactical foregrip (Black),
-	Magpul AFG tactical foregrip (FDE),
-	Magpul AFG tactical foregrip (Forest Green),
-	Magpul AFG tactical foregrip (Olive Drab),
-	Magpul RVG foregrip (Black),
-	Magpul RVG foregrip (FDE),
-	RTM Pillau tactical foregrip,
-	Stark SE-5 Express Forward foregrip,
-	Strike Industries Cobra Tactical foregrip,
-	TangoDown Stubby BGV-MK46K foregrip (Black),
-	TangoDown Stubby BGV-MK46K foregrip (FDE),
-	TangoDown Stubby BGV-MK46K foregrip (Stealth Gray),
-	Tactical Dynamics Skeletonized Foregrip,
-	Viking Tactics UVG tactical foregrip,
-	Zenit RK-1 tactical foregrip on B-25U mount,
-	Zenit RK-0 tactical foregrip,
-	Zenit RK-1 tactical foregrip,
-	Zenit RK-2 tactical foregrip,
-	Zenit RK-4 tactical foregrip,
-	Zenit RK-5 tactical foregrip,
+	BCM GUNFIGHTER MOD 3 vertical foregrip/|
+	ASh-12 vertical foregrip/|
+	Fortis Shift tactical foregrip/|
+	HK Sturmgriff foregrip/|
+	KAC vertical foregrip/|
+	Magpul AFG tactical foregrip (Black)/|
+	Magpul AFG tactical foregrip (FDE)/|
+	Magpul AFG tactical foregrip (Forest Green)/|
+	Magpul AFG tactical foregrip (Olive Drab)/|
+	Magpul RVG foregrip (Black)/|
+	Magpul RVG foregrip (FDE)/|
+	RTM Pillau tactical foregrip/|
+	Stark SE-5 Express Forward foregrip/|
+	Strike Industries Cobra Tactical foregrip/|
+	TangoDown Stubby BGV-MK46K foregrip (Black)/|
+	TangoDown Stubby BGV-MK46K foregrip (FDE)/|
+	TangoDown Stubby BGV-MK46K foregrip (Stealth Gray)/|
+	Tactical Dynamics Skeletonized Foregrip/|
+	Viking Tactics UVG tactical foregrip/|
+	Zenit RK-1 tactical foregrip on B-25U mount/|
+	Zenit RK-0 tactical foregrip/|
+	Zenit RK-1 tactical foregrip/|
+	Zenit RK-2 tactical foregrip/|
+	Zenit RK-4 tactical foregrip/|
+	Zenit RK-5 tactical foregrip/|
 	Zenit RK-6 tactical foregrip
 ]
 ChildParts=[
-	Axion Kobra EKP-8-18 reflex sight,
-	OKP-7 reflex sight,
-	EOTech 553 holographic sight,
-	EOTech EXPS3 holographic sight (Tan),
-	EOTech XPS3-0 holographic sight,
-	EOTech XPS3-2 holographic sight,
-	Holosun HS401G5 reflex sight,
-	Leapers UTG reflex sight,
-	SIG Sauer ROMEO8T reflex sight,
-	Trijicon SRS-02 reflex sight,
-	Valday PK-120 (1P87) holographic sight,
-	Valday Krechet reflex sight,
-	VOMZ Pilad P1x42 Weaver reflex sight,
-	Vortex Razor AMG UH-1 holographic sight,
-	Walther MRS reflex sight,
-	BelOMO PK-06 reflex sight,
-	Holosun LS321 Tactical device,
-	AN/PEQ-15 tactical device,
-	AN/PEQ-2 tactical device,
-	LA-5B/PEQ tactical device,
-	Wilcox RAPTAR ES Tactical Rangefinder,
-	Zenit Perst-3 tactical device,
-	Aimpoint Micro Standard Mount,
-	Aimpoint Micro H-2 Standard Mount,
-	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO sights,
-	B&T QD NAR mount for Aimpoint ACRO,
-	Burris FastFire Weaver Base,
-	DeltaPoint Cross Slot Mount base,
-	NcSTAR MPR45 Backup mount,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
+	Axion Kobra EKP-8-18 reflex sight/|
+	OKP-7 reflex sight/|
+	EOTech 553 holographic sight/|
+	EOTech EXPS3 holographic sight (Tan)/|
+	EOTech XPS3-0 holographic sight/|
+	EOTech XPS3-2 holographic sight/|
+	Holosun HS401G5 reflex sight/|
+	Leapers UTG reflex sight/|
+	SIG Sauer ROMEO8T reflex sight/|
+	Trijicon SRS-02 reflex sight/|
+	Valday PK-120 (1P87) holographic sight/|
+	Valday Krechet reflex sight/|
+	VOMZ Pilad P1x42 Weaver reflex sight/|
+	Vortex Razor AMG UH-1 holographic sight/|
+	Walther MRS reflex sight/|
+	BelOMO PK-06 reflex sight/|
+	Holosun LS321 Tactical device/|
+	AN/PEQ-15 tactical device/|
+	AN/PEQ-2 tactical device/|
+	LA-5B/PEQ tactical device/|
+	Wilcox RAPTAR ES Tactical Rangefinder/|
+	Zenit Perst-3 tactical device/|
+	Aimpoint Micro Standard Mount/|
+	Aimpoint Micro H-2 Standard Mount/|
+	Aimpoint LRP mount for CompM4 sights/|
+	Aimpoint QRP2 mount for CompM4/PRO sights/|
+	B&T QD NAR mount for Aimpoint ACRO/|
+	Burris FastFire Weaver Base/|
+	DeltaPoint Cross Slot Mount base/|
+	NcSTAR MPR45 Backup mount/|
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights/|
 	Trijicon RMR low profile mount
 ]
 ChildParts=[
-	Glock GTL 21 tactical flashlight with laser,
-	Holosun LS321 Tactical device,
-	AN/PEQ-15 tactical device,
-	AN/PEQ-2 tactical device,
-	LA-5B/PEQ tactical device,
-	NcSTAR Tactical blue laser LAM-module,
-	Steiner DBAL-PL tactical device,
-	Steiner LAS/TAC 2 tactical flashlight,
-	SureFire X400 Ultra tactical flashlight with laser,
-	SureFire XC1 tactical flashlight,
-	Wilcox RAPTAR ES Tactical Rangefinder,
-	Zenit Klesch-2IKS IR illuminator with laser,
-	Zenit Klesch-2P flashlight with laser,
-	Zenit Klesch-2U tactical flashlight,
-	Zenit Perst-3 tactical device,
-	Kiba Arms 25mm accessory ring mount,
-	Daniel Defense 25mm accessory ring mount,
-	Olight Baldr Pro tactical flashlight with laser,
-	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Glock GTL 21 tactical flashlight with laser/|
+	Holosun LS321 Tactical device/|
+	AN/PEQ-15 tactical device/|
+	AN/PEQ-2 tactical device/|
+	LA-5B/PEQ tactical device/|
+	NcSTAR Tactical blue laser LAM-module/|
+	Steiner DBAL-PL tactical device/|
+	Steiner LAS/TAC 2 tactical flashlight/|
+	SureFire X400 Ultra tactical flashlight with laser/|
+	SureFire XC1 tactical flashlight/|
+	Wilcox RAPTAR ES Tactical Rangefinder/|
+	Zenit Klesch-2IKS IR illuminator with laser/|
+	Zenit Klesch-2P flashlight with laser/|
+	Zenit Klesch-2U tactical flashlight/|
+	Zenit Perst-3 tactical device/|
+	Kiba Arms 25mm accessory ring mount/|
+	Daniel Defense 25mm accessory ring mount/|
+	Olight Baldr Pro tactical flashlight with laser/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight
 ]
 ChildParts=[
-	Glock GTL 21 tactical flashlight with laser,
-	Holosun LS321 Tactical device,
-	AN/PEQ-15 tactical device,
-	LA-5B/PEQ tactical device,
-	NcSTAR Tactical blue laser LAM-module,
-	Steiner DBAL-PL tactical device,
-	Steiner LAS/TAC 2 tactical flashlight,
-	SureFire X400 Ultra tactical flashlight with laser,
-	SureFire XC1 tactical flashlight,
-	Wilcox RAPTAR ES Tactical Rangefinder,
-	Zenit Klesch-2IKS IR illuminator with laser,
-	Zenit Klesch-2P flashlight with laser,
-	Zenit Klesch-2U tactical flashlight,
-	Zenit Perst-3 tactical device,
-	Kiba Arms 25mm accessory ring mount,
-	Daniel Defense 25mm accessory ring mount,
-	Olight Baldr Pro tactical flashlight with laser,
-	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Glock GTL 21 tactical flashlight with laser/|
+	Holosun LS321 Tactical device/|
+	AN/PEQ-15 tactical device/|
+	LA-5B/PEQ tactical device/|
+	NcSTAR Tactical blue laser LAM-module/|
+	Steiner DBAL-PL tactical device/|
+	Steiner LAS/TAC 2 tactical flashlight/|
+	SureFire X400 Ultra tactical flashlight with laser/|
+	SureFire XC1 tactical flashlight/|
+	Wilcox RAPTAR ES Tactical Rangefinder/|
+	Zenit Klesch-2IKS IR illuminator with laser/|
+	Zenit Klesch-2P flashlight with laser/|
+	Zenit Klesch-2U tactical flashlight/|
+	Zenit Perst-3 tactical device/|
+	Kiba Arms 25mm accessory ring mount/|
+	Daniel Defense 25mm accessory ring mount/|
+	Olight Baldr Pro tactical flashlight with laser/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight
 ]
 ChildParts=[
-	Glock GTL 21 tactical flashlight with laser,
-	Holosun LS321 Tactical device,
-	AN/PEQ-15 tactical device,
-	LA-5B/PEQ tactical device,
-	NcSTAR Tactical blue laser LAM-module,
-	Steiner DBAL-PL tactical device,
-	Steiner LAS/TAC 2 tactical flashlight,
-	SureFire X400 Ultra tactical flashlight with laser,
-	SureFire XC1 tactical flashlight,
-	Wilcox RAPTAR ES Tactical Rangefinder,
-	Zenit Klesch-2IKS IR illuminator with laser,
-	Zenit Klesch-2P flashlight with laser,
-	Zenit Klesch-2U tactical flashlight,
-	Zenit Perst-3 tactical device,
-	Kiba Arms 25mm accessory ring mount,
-	Daniel Defense 25mm accessory ring mount,
-	Olight Baldr Pro tactical flashlight with laser,
-	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Glock GTL 21 tactical flashlight with laser/|
+	Holosun LS321 Tactical device/|
+	AN/PEQ-15 tactical device/|
+	LA-5B/PEQ tactical device/|
+	NcSTAR Tactical blue laser LAM-module/|
+	Steiner DBAL-PL tactical device/|
+	Steiner LAS/TAC 2 tactical flashlight/|
+	SureFire X400 Ultra tactical flashlight with laser/|
+	SureFire XC1 tactical flashlight/|
+	Wilcox RAPTAR ES Tactical Rangefinder/|
+	Zenit Klesch-2IKS IR illuminator with laser/|
+	Zenit Klesch-2P flashlight with laser/|
+	Zenit Klesch-2U tactical flashlight/|
+	Zenit Perst-3 tactical device/|
+	Kiba Arms 25mm accessory ring mount/|
+	Daniel Defense 25mm accessory ring mount/|
+	Olight Baldr Pro tactical flashlight with laser/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight
 ]
 Conflict=[
-	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher/|
 ]
 Recoil=-3.000000
 Ergonomics=7.000000
@@ -137,15 +137,15 @@ Information_Eng=The all-milled B-30 handguard is made of D16T aluminum alloy wit
 basePrice=18327
 width=2
 height=1
-avg24hPrice=92312
-low24hPrice=44420
+avg24hPrice=96658
+low24hPrice=50000
 lastOfferCount=0
 Sell_Prapor=9163
 Sell_Fence=7330
 Sell_Skier=8980
 Sell_Peacekeeper=69
 Sell_Mechanic=10263
-Sell_Flea Market=89999
+Sell_Flea Market=51111
 weight=0.390000
-fleaMarketFee=7056
+fleaMarketFee=3032
 propertiestype=ItemPropertiesWeaponMod

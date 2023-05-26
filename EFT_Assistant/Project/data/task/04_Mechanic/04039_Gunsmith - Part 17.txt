@@ -34,8 +34,8 @@ Task_Else=width <= 4
 
 Reward_Rep=Mechanic+0.030000
 Reward_Item=[
-	Roublesx35000,
-	Spark plugx4,
+	Roublesx35000/|
+	Spark plugx4/|
 	GreenBat lithium batteryx2
 ]
 

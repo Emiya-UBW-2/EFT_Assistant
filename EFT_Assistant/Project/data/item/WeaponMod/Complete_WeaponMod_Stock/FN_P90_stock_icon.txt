@@ -3,7 +3,7 @@ Name=FN P90 stock
 ShortName=P90
 Itemtype=Stock
 ChildParts=[
-	FN P90 Damage Industries buttpad,
+	FN P90 Damage Industries buttpad/|
 	FN P90 buttpad
 ]
 Recoil=-9.000000

@@ -32,7 +32,7 @@ Task_Else=E‚Á‚Ä”[•i:Streets of Tarkov-Flash drive with recordingsx1
 
 Reward_Rep=Mechanic+0.020000
 Reward_Item=[
-	Roublesx94000,
+	Roublesx94000/|
 	Military cablex2
 ]
 

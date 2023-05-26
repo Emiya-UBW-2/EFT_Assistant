@@ -8,6 +8,9 @@ namespace FPS_n2 {
 			std::vector<TaskID>						m_TaskReq;
 			std::vector<ItemGetData>				m_ItemReq;
 			std::vector<ItemGetData>				m_ItemReward;
+
+			std::vector<std::string>					m_ItemReqArgs;
+			std::vector<std::string>					m_ItemRewardArgs;
 		};
 		//開放データ
 		int											NeedLv{ 1 };
@@ -26,7 +29,7 @@ namespace FPS_n2 {
 		std::vector<TraderLvData>					m_LvData;
 	public:
 		//追加設定
-		void			Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept override {
+		void			SetSub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept override {
 			std::string LEFTBuf = LEFT.substr(3);
 			std::string NumBuf2 = LEFT.substr(2, 1);
 			if (std::all_of(NumBuf2.cbegin(), NumBuf2.cend(), isdigit)) {
@@ -44,31 +47,21 @@ namespace FPS_n2 {
 					m_LvData.at(ID).m_ItemBarters.resize(m_LvData.at(ID).m_ItemBarters.size() + 1);
 					if (Args.size() > 0) {
 						for (auto&a : Args) {
-							if (a == "or") {
-
-							}
-							else {
-								SetGetData<ItemGetData, ItemData>(&m_LvData.at(ID).m_ItemBarters.back().m_ItemReq, a);
-							}
+							m_LvData.at(ID).m_ItemBarters.back().m_ItemReqArgs.emplace_back(a);
 						}
 					}
 					else {
-						SetGetData<ItemGetData, ItemData>(&m_LvData.at(ID).m_ItemBarters.back().m_ItemReq, RIGHT);
+						m_LvData.at(ID).m_ItemBarters.back().m_ItemReqArgs.emplace_back(RIGHT);
 					}
 				}
 				if (LEFTBuf == "BarteritemReward") {
 					if (Args.size() > 0) {
 						for (auto&a : Args) {
-							if (a == "or") {
-
-							}
-							else {
-								SetGetData<ItemGetData, ItemData>(&m_LvData.at(ID).m_ItemBarters.back().m_ItemReward, a);
-							}
+							m_LvData.at(ID).m_ItemBarters.back().m_ItemRewardArgs.emplace_back(a);
 						}
 					}
 					else {
-						SetGetData<ItemGetData, ItemData>(&m_LvData.at(ID).m_ItemBarters.back().m_ItemReward, RIGHT);
+						m_LvData.at(ID).m_ItemBarters.back().m_ItemRewardArgs.emplace_back(RIGHT);
 					}
 				}
 			}
@@ -78,6 +71,17 @@ namespace FPS_n2 {
 			}
 		}
 		void	Load_Sub() noexcept override {
+			for (auto& L : m_LvData) {
+				for (auto& C : L.m_ItemBarters) {
+					for (auto& a : C.m_ItemReqArgs) {
+						SetGetData<ItemGetData, ItemData>(&C.m_ItemReq, a);
+					}
+					for (auto& a : C.m_ItemRewardArgs) {
+						SetGetData<ItemGetData, ItemData>(&C.m_ItemReward, a);
+					}
+				}
+			}
+
 		}
 		void	WhenAfterLoad_Sub() noexcept override {
 		}
@@ -102,7 +106,7 @@ namespace FPS_n2 {
 			id = data["id"];
 			name = data["name"];
 			Information_Eng = data["description"];
-			PayItem = ItemData::Instance()->FindID(data["currency"]["name"]);
+			PayItem = ItemData::Instance()->FindID((std::string)(data["currency"]["name"]));
 			m_LvData.clear();
 			for (auto& Ld : data["levels"]) {
 				m_LvData.resize(m_LvData.size() + 1);
@@ -135,12 +139,12 @@ namespace FPS_n2 {
 							auto& B = L.m_ItemBarters.back();
 							for (const auto&I : m["requiredItems"]) {
 								ItemGetData buf;
-								buf.Set(I["item"]["name"], I["count"]);
+								buf.Set(ItemData::Instance()->FindID((std::string)(I["item"]["name"])), I["count"]);
 								B.m_ItemReq.emplace_back(buf);
 							}
 							for (const auto&I : m["rewardItems"]) {
 								ItemGetData buf;
-								buf.Set(I["item"]["name"], I["count"]);
+								buf.Set(ItemData::Instance()->FindID((std::string)(I["item"]["name"])), I["count"]);
 								B.m_ItemReward.emplace_back(buf);
 							}
 						}
@@ -154,12 +158,12 @@ namespace FPS_n2 {
 							auto& B = L.m_ItemBarters.back();
 							{
 								ItemGetData buf;
-								buf.Set(m["currencyItem"]["name"], m["price"]);
+								buf.Set(ItemData::Instance()->FindID((std::string)(m["currencyItem"]["name"])), m["price"]);
 								B.m_ItemReq.emplace_back(buf);
 							}
 							{
 								ItemGetData buf;
-								buf.Set(m["item"]["name"], 1);
+								buf.Set(ItemData::Instance()->FindID((std::string)(m["item"]["name"])), 1);
 								B.m_ItemReward.emplace_back(buf);
 							}
 						}
@@ -200,7 +204,7 @@ namespace FPS_n2 {
 						outputfile << "Name=" + jd.name + "\n";
 						{
 							auto* ptr = TraderData::Instance()->FindPtr(TraderData::Instance()->FindID(jd.name));
-							outputfile << "Color=[" + std::to_string(ptr->GetColorRGB(0)) + "," + std::to_string(ptr->GetColorRGB(1)) + "," + std::to_string(ptr->GetColorRGB(2)) + "]\n";
+							outputfile << "Color=[" + std::to_string(ptr->GetColorRGB(0)) + DIV_STR + std::to_string(ptr->GetColorRGB(1)) + DIV_STR + std::to_string(ptr->GetColorRGB(2)) + "]\n";
 						}
 						outputfile << "Information_Eng=" + jd.Information_Eng + "\n";
 						outputfile << "PayItem=" + ItemData::Instance()->FindPtr(jd.PayItem)->GetName() + "\n";
@@ -222,10 +226,10 @@ namespace FPS_n2 {
 								{
 									outputfile << LV + "BarteritemReq=[";
 									for (auto& m : c.m_ItemReq) {
-										outputfile << m.GetName();
+										outputfile << ItemData::Instance()->FindPtr(m.GetID())->GetName();
 										outputfile << "x" + std::to_string(m.GetValue());
 										if (&m != &c.m_ItemReq.back()) {
-											outputfile << ",";
+											outputfile << DIV_STR;
 										}
 									}
 									outputfile << "]\n";
@@ -233,10 +237,10 @@ namespace FPS_n2 {
 								{
 									outputfile << LV + "BarteritemReward=[";
 									for (auto& m : c.m_ItemReward) {
-										outputfile << m.GetName();
+										outputfile << ItemData::Instance()->FindPtr(m.GetID())->GetName();
 										outputfile << "x" + std::to_string(m.GetValue());
 										if (&m != &c.m_ItemReward.back()) {
-											outputfile << ",";
+											outputfile << DIV_STR;
 										}
 									}
 									outputfile << "]\n";
@@ -254,28 +258,17 @@ namespace FPS_n2 {
 					std::string ParentPath = "data/trader/Maked";
 					CreateDirectory(ParentPath.c_str(), NULL);
 					std::string HideoutName = jd.name;
-					auto SubStrs = [&](const char* str) {
-						while (true) {
-							auto now = HideoutName.find(str);
-							if (now != std::string::npos) {
-								HideoutName = HideoutName.substr(0, now) + HideoutName.substr(now + 1);
-							}
-							else {
-								break;
-							}
-						}
-					};
-					SubStrs(".");
+					SubStrs(&HideoutName, ".");
 
-					SubStrs("\\");
-					SubStrs("/");
-					SubStrs(":");
-					SubStrs("*");
-					SubStrs("?");
-					SubStrs("\"");
-					SubStrs(">");
-					SubStrs("<");
-					SubStrs("|");
+					SubStrs(&HideoutName, "\\");
+					SubStrs(&HideoutName, "/");
+					SubStrs(&HideoutName, ":");
+					SubStrs(&HideoutName, "*");
+					SubStrs(&HideoutName, "?");
+					SubStrs(&HideoutName, "\"");
+					SubStrs(&HideoutName, ">");
+					SubStrs(&HideoutName, "<");
+					SubStrs(&HideoutName, "|");
 
 					std::string Name = ParentPath + "/" + HideoutName + ".txt";
 					std::ofstream outputfile(Name);
@@ -284,7 +277,7 @@ namespace FPS_n2 {
 					outputfile << "Name=" + jd.name + "\n";
 					{
 						auto* ptr = TraderData::Instance()->FindPtr(TraderData::Instance()->FindID(jd.name));
-						outputfile << "Color=[" + std::to_string(ptr->GetColorRGB(0)) + "," + std::to_string(ptr->GetColorRGB(1)) + "," + std::to_string(ptr->GetColorRGB(2)) + "]\n";
+						outputfile << "Color=[" + std::to_string(ptr->GetColorRGB(0)) + DIV_STR + std::to_string(ptr->GetColorRGB(1)) + DIV_STR + std::to_string(ptr->GetColorRGB(2)) + "]\n";
 					}
 					outputfile << "Information_Eng=" + jd.Information_Eng + "\n";
 					outputfile << "PayItem=" + ItemData::Instance()->FindPtr(jd.PayItem)->GetName() + "\n";
@@ -307,10 +300,10 @@ namespace FPS_n2 {
 							{
 								outputfile << LV + "BarteritemReq=[";
 								for (auto& m : c.m_ItemReq) {
-									outputfile << m.GetName();
+									outputfile << ItemData::Instance()->FindPtr(m.GetID())->GetName();
 									outputfile << "x" + std::to_string(m.GetValue());
 									if (&m != &c.m_ItemReq.back()) {
-										outputfile << ",";
+										outputfile << DIV_STR;
 									}
 								}
 								outputfile << "]\n";
@@ -318,10 +311,10 @@ namespace FPS_n2 {
 							{
 								outputfile << LV + "BarteritemReward=[";
 								for (auto& m : c.m_ItemReward) {
-									outputfile << m.GetName();
+									outputfile << ItemData::Instance()->FindPtr(m.GetID())->GetName();
 									outputfile << "x" + std::to_string(m.GetValue());
 									if (&m != &c.m_ItemReward.back()) {
-										outputfile << ",";
+										outputfile << DIV_STR;
 									}
 								}
 								outputfile << "]\n";

@@ -6,11 +6,11 @@ ChildParts=[
 	Chiappa Rhino 9x19 6-round cylinder
 ]
 ChildParts=[
-	Chiappa Rhino Green Fiber Optic front sight,
+	Chiappa Rhino Green Fiber Optic front sight/|
 	Chiappa Rhino front sight
 ]
 ChildParts=[
-	Chiappa Rhino plastic pistol grip,
+	Chiappa Rhino plastic pistol grip/|
 	Chiappa Rhino wooden pistol grip
 ]
 Recoil=306.000000
@@ -19,15 +19,15 @@ Information_Eng=The Rhino revolvers, manufactured by the Italian company Armi Ch
 basePrice=5800
 width=1
 height=1
-avg24hPrice=8420
-low24hPrice=4670
+avg24hPrice=13128
+low24hPrice=7000
 lastOfferCount=4
 Sell_Prapor=2900
 Sell_Fence=2320
 Sell_Skier=2842
 Sell_Peacekeeper=22
 Sell_Mechanic=3248
-Sell_Flea Market=8244
+Sell_Flea Market=7000
 weight=0.500000
-fleaMarketFee=438
+fleaMarketFee=386
 propertiestype=ItemPropertiesWeapon

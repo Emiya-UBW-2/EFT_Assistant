@@ -7,8 +7,8 @@ ChildParts=[
 	AKMP system rear sight device
 ]
 Conflict=[
-	AK AKademia Bastion dust cover,
-	AK TWS Dog Leg Rail dust cover,
+	AK AKademia Bastion dust cover/|
+	AK TWS Dog Leg Rail dust cover/|
 ]
 Recoil=0.000000
 Ergonomics=0.000000

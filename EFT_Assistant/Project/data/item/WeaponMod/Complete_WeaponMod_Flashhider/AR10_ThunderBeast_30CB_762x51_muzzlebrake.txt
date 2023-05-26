@@ -6,7 +6,7 @@ ChildParts=[
 	Thunder Beast Arms Ultra 5 sound suppressor
 ]
 Conflict=[
-	MCX GEN1 KeyMod 12 inch handguard,
+	MCX GEN1 KeyMod 12 inch handguard/|
 ]
 Recoil=-9.000000
 Ergonomics=-1.000000
@@ -14,15 +14,15 @@ Information_Eng=Thunder Beast Arms 30CB is an effective muzzle brake that also s
 basePrice=7280
 width=1
 height=1
-avg24hPrice=24933
-low24hPrice=14000
-lastOfferCount=2
+avg24hPrice=23301
+low24hPrice=15555
+lastOfferCount=12
 Sell_Prapor=3640
 Sell_Fence=2912
 Sell_Skier=3567
 Sell_Peacekeeper=28
 Sell_Mechanic=4076
-Sell_Flea Market=18000
+Sell_Flea Market=15555
 weight=0.109000
-fleaMarketFee=1022
+fleaMarketFee=847
 propertiestype=ItemPropertiesWeaponMod

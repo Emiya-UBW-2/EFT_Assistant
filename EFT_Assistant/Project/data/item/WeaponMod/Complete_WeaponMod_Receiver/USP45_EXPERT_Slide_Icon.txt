@@ -3,16 +3,16 @@ Name=HK USP Expert .45 ACP pistol slide
 ShortName=USP45EX
 Itemtype=Receiver
 ChildParts=[
-	HK USP rear sight,
+	HK USP rear sight/|
 	HK USP Tactical rear sight
 ]
 ChildParts=[
-	HK USP front sight,
+	HK USP front sight/|
 	HK USP Tactical front sight
 ]
 Conflict=[
-	HK USP .45 ACP Match compensator,
-	HK USP .45 ACP barrel,
+	HK USP .45 ACP Match compensator/|
+	HK USP .45 ACP barrel/|
 	HK USP Tactical .45 ACP threaded barrel
 ]
 Recoil=-2.000000
@@ -21,15 +21,15 @@ Information_Eng=A pistol slide for the special version of the USP45 pistol - USP
 basePrice=3900
 width=2
 height=1
-avg24hPrice=25777
-low24hPrice=8476
-lastOfferCount=5
+avg24hPrice=19325
+low24hPrice=9998
+lastOfferCount=4
 Sell_Prapor=1950
 Sell_Fence=1560
 Sell_Skier=1911
 Sell_Peacekeeper=15
 Sell_Mechanic=2184
-Sell_Flea Market=22222
+Sell_Flea Market=13999
 weight=0.440000
-fleaMarketFee=1898
+fleaMarketFee=929
 propertiestype=ItemPropertiesWeaponMod

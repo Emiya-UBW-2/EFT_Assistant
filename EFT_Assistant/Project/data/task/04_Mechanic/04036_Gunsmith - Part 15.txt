@@ -32,7 +32,7 @@ Task_Else=width >= 0
 
 Reward_Rep=Mechanic+0.020000
 Reward_Item=[
-	Kiba Arms inner grate door keyx1,
+	Kiba Arms inner grate door keyx1/|
 	Pressure gaugex1
 ]
 

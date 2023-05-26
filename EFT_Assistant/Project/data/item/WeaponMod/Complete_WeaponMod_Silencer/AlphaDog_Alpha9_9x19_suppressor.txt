@@ -3,16 +3,16 @@ Name=Alpha Dog Alpha 9 9x19 sound suppressor
 ShortName=Alpha 9
 Itemtype=Silencer
 ChildParts=[
-	Aimpoint Micro Standard Mount,
-	Aimpoint Micro H-2 Standard Mount,
-	B&T QD NAR mount for Aimpoint ACRO,
-	Burris FastFire Weaver Base,
-	DeltaPoint Cross Slot Mount base,
+	Aimpoint Micro Standard Mount/|
+	Aimpoint Micro H-2 Standard Mount/|
+	B&T QD NAR mount for Aimpoint ACRO/|
+	Burris FastFire Weaver Base/|
+	DeltaPoint Cross Slot Mount base/|
 	Trijicon RMR low profile mount
 ]
 Conflict=[
-	Glock 9x19 Strike Industries G4 SlideComp compensator,
-	Glock 9x19 Fischer Development FD917 sound suppressor,
+	Glock 9x19 Strike Industries G4 SlideComp compensator/|
+	Glock 9x19 Fischer Development FD917 sound suppressor/|
 ]
 Recoil=-8.000000
 Ergonomics=-13.000000
@@ -20,15 +20,15 @@ Information_Eng=A pistol sound suppressor with a Weaver rail made for mounting a
 basePrice=36659
 width=2
 height=1
-avg24hPrice=21072
+avg24hPrice=20952
 low24hPrice=18888
-lastOfferCount=20
+lastOfferCount=7
 Sell_Prapor=18329
 Sell_Fence=14663
 Sell_Skier=17962
 Sell_Peacekeeper=139
 Sell_Mechanic=20529
-Sell_Flea Market=20543
+Sell_Flea Market=20990
 weight=0.290000
-fleaMarketFee=1938
+fleaMarketFee=1934
 propertiestype=ItemPropertiesWeaponMod

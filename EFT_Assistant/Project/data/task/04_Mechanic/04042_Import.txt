@@ -40,9 +40,9 @@ DogTagLv=0
 Reward_Rep=Mechanic+0.030000
 Reward_Rep=Jaeger-0.010000
 Reward_Item=[
-	Roublesx85000,
-	Physical bitcoinx2,
-	Iridium military thermal vision modulex1,
+	Roublesx85000/|
+	Physical bitcoinx2/|
+	Iridium military thermal vision modulex1/|
 	Trijicon REAP-IR thermal scopex1
 ]
 

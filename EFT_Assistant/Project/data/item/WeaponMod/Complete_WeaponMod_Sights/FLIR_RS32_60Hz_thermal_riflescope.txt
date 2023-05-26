@@ -4,8 +4,8 @@ ShortName=FLIR RS-32
 Itemtype=Special scope
 SightRange=500
 Conflict=[
-	AR-15 Colt A2 rear sight,
-	AR-15 rear sight carry handle,
+	AR-15 Colt A2 rear sight/|
+	AR-15 rear sight carry handle/|
 ]
 Recoil=0.000000
 Ergonomics=-11.000000

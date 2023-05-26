@@ -64,7 +64,7 @@ DogTagLv=0
 ]
 
 Reward_Item=[
-	Paracordx3,
+	Paracordx3/|
 	Piece of plexiglassx10
 ]
 Reward_SkillLevelUp=Attention+1

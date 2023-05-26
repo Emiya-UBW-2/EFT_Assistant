@@ -3,7 +3,7 @@ Name=Monstrum Tactical Vertical Fore Grip KeyMod
 ShortName=MT VFG
 Itemtype=Foregrip
 Conflict=[
-	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher/|
 ]
 Recoil=-1.000000
 Ergonomics=8.000000
@@ -11,15 +11,15 @@ Information_Eng=A tactical foregrip manufactured by Monstrum Tactical. Compatibl
 basePrice=6900
 width=1
 height=1
-avg24hPrice=15199
-low24hPrice=7700
-lastOfferCount=1
+avg24hPrice=15575
+low24hPrice=7777
+lastOfferCount=3
 Sell_Prapor=3450
 Sell_Fence=2760
 Sell_Skier=3381
 Sell_Peacekeeper=26
 Sell_Mechanic=3864
-Sell_Flea Market=20000
+Sell_Flea Market=13500
 weight=0.028000
-fleaMarketFee=1205
+fleaMarketFee=722
 propertiestype=ItemPropertiesWeaponMod

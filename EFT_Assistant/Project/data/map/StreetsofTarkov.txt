@@ -1,6 +1,6 @@
 Name=Streets of Tarkov
 ShortName=SoT
-Color=[192,192,192]
+Color=[192/|192/|192]
 InGamePath=
 NorthDegree=0
 2DPath=data/2DMaspPic/StreetsOfTarkov2DMapByJindouz.jpg

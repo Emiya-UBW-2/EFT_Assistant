@@ -30,8 +30,8 @@ Task_Else=width >= 0
 
 Reward_Rep=Mechanic+0.020000
 Reward_Item=[
-	Dollarsx500,
-	Corrugated hosex2,
+	Dollarsx500/|
+	Corrugated hosex2/|
 	Pack of nailsx2
 ]
 

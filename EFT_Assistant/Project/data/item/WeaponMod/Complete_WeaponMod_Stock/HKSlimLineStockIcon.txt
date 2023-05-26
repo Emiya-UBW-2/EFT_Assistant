@@ -3,8 +3,8 @@ Name=AR-15 HK Slim Line buttstock
 ShortName=Slim Line
 Itemtype=Stock
 Conflict=[
-	AR-15 ADAR 2-15 wooden stock,
-	AR-15 Hera Arms CQR pistol grip/buttstock,
+	AR-15 ADAR 2-15 wooden stock/|
+	AR-15 Hera Arms CQR pistol grip/buttstock/|
 ]
 Recoil=-30.000002
 Ergonomics=5.000000
@@ -12,16 +12,16 @@ Information_Eng=A telescoping stock from the Slim Line series, designed and manu
 basePrice=5100
 width=2
 height=1
-avg24hPrice=14427
-low24hPrice=5710
-lastOfferCount=5
+avg24hPrice=13130
+low24hPrice=4800
+lastOfferCount=13
 Sell_Prapor=2550
 Sell_Fence=2040
 Sell_Skier=2499
 Sell_Peacekeeper=19
 Sell_Mechanic=2856
 Sell_Jaeger=3060
-Sell_Flea Market=7999
+Sell_Flea Market=10000
 weight=0.695000
-fleaMarketFee=421
+fleaMarketFee=535
 propertiestype=ItemPropertiesWeaponMod

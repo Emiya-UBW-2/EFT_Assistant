@@ -3,7 +3,7 @@ Name=Zenit RK-1 tactical foregrip on B-25U mount
 ShortName=B-25U RK-1
 Itemtype=Foregrip
 Conflict=[
-	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher/|
 ]
 Recoil=-3.000000
 Ergonomics=2.000000
@@ -11,15 +11,15 @@ Information_Eng=The RK-1 foregrip can be installed on the lower part of handguar
 basePrice=18890
 width=1
 height=1
-avg24hPrice=135476
-low24hPrice=79990
-lastOfferCount=16
+avg24hPrice=130101
+low24hPrice=79000
+lastOfferCount=27
 Sell_Prapor=9445
 Sell_Fence=7556
 Sell_Skier=9256
 Sell_Peacekeeper=71
 Sell_Mechanic=10578
-Sell_Flea Market=111110
+Sell_Flea Market=99000
 weight=0.180000
-fleaMarketFee=9670
+fleaMarketFee=8054
 propertiestype=ItemPropertiesWeaponMod

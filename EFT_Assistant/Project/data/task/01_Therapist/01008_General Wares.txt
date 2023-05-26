@@ -26,9 +26,9 @@ DogTagLv=0
 
 Reward_Rep=Therapist+0.030000
 Reward_Item=[
-	Roublesx30000,
-	Can of pacific sauryx4,
-	Iskra ration packx2,
+	Roublesx30000/|
+	Can of pacific sauryx4/|
+	Iskra ration packx2/|
 	Can of Majaica coffee beansx2
 ]
 

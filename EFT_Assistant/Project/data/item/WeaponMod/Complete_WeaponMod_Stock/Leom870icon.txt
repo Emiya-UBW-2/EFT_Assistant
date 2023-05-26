@@ -3,46 +3,46 @@ Name=M870 Mesa Tactical LEO stock adapter
 ShortName=M870 LEO
 Itemtype=Stock
 ChildParts=[
-	FAB Defense GL-CORE buttstock,
-	FAB Defense GL-SHOCK buttstock,
-	FAB Defense GLR-16-S stock,
-	High Standard M4SS Stock,
-	AR-15 HK E1 buttstock,
-	AR-15 HK Slim Line buttstock,
-	KRISS Defiance DS150 stock (Black),
-	KRISS Defiance DS150 stock (FDE),
-	LMT SOPMOD stock,
-	Magpul CTR Carbine stock (Black),
-	Magpul CTR Carbine stock (FDE),
-	Magpul MOE Carbine stock (Black),
-	Magpul MOE Carbine stock (FDE),
-	Magpul MOE Carbine stock (Foliage Green),
-	Magpul MOE Carbine stock (Olive Drab),
-	Magpul MOE Carbine stock (Stealth Gray),
-	Magpul PRS GEN3 stock (Black),
-	Magpul PRS GEN3 stock (Grey),
-	MFT BUS stock,
-	Strike Industries Viper Mod 1 stock,
-	Vltor EMOD stock,
-	AK-12 stock,
-	SB Tactical SBA3 brace,
-	CMMG RipStock buttstock,
+	FAB Defense GL-CORE buttstock/|
+	FAB Defense GL-SHOCK buttstock/|
+	FAB Defense GLR-16-S stock/|
+	High Standard M4SS Stock/|
+	AR-15 HK E1 buttstock/|
+	AR-15 HK Slim Line buttstock/|
+	KRISS Defiance DS150 stock (Black)/|
+	KRISS Defiance DS150 stock (FDE)/|
+	LMT SOPMOD stock/|
+	Magpul CTR Carbine stock (Black)/|
+	Magpul CTR Carbine stock (FDE)/|
+	Magpul MOE Carbine stock (Black)/|
+	Magpul MOE Carbine stock (FDE)/|
+	Magpul MOE Carbine stock (Foliage Green)/|
+	Magpul MOE Carbine stock (Olive Drab)/|
+	Magpul MOE Carbine stock (Stealth Gray)/|
+	Magpul PRS GEN3 stock (Black)/|
+	Magpul PRS GEN3 stock (Grey)/|
+	MFT BUS stock/|
+	Strike Industries Viper Mod 1 stock/|
+	Vltor EMOD stock/|
+	AK-12 stock/|
+	SB Tactical SBA3 brace/|
+	CMMG RipStock buttstock/|
 	AR-15 B5 Systems Precision stock
 ]
 ChildParts=[
-	AR-15 Colt A2 pistol grip,
-	AR-15 Damage Industries ECS pistol grip (FDE),
-	AR-15 F1 Firearms Skeletonized Style 1 pistol grip,
-	AR-15 F1 Firearms Skeletonized Style 2 PC pistol grip,
-	AR-15 F1 Firearms Skeletonized Style 2 pistol grip,
-	AR-15 HK Battle Grip pistol grip,
-	Hogue OverMolded Rubber Grip (Black),
-	Hogue OverMolded Rubber Grip (FDE),
-	Hogue OverMolded Rubber Grip (Ghillie Earth),
-	Hogue OverMolded Rubber Grip (Ghillie Green),
-	Hogue OverMolded Rubber Grip (Olive Drab),
-	AR-15 Magpul MIAD pistol grip (FDE),
-	AR-15 Tactical Dynamics Hexgrip pistol grip,
+	AR-15 Colt A2 pistol grip/|
+	AR-15 Damage Industries ECS pistol grip (FDE)/|
+	AR-15 F1 Firearms Skeletonized Style 1 pistol grip/|
+	AR-15 F1 Firearms Skeletonized Style 2 PC pistol grip/|
+	AR-15 F1 Firearms Skeletonized Style 2 pistol grip/|
+	AR-15 HK Battle Grip pistol grip/|
+	Hogue OverMolded Rubber Grip (Black)/|
+	Hogue OverMolded Rubber Grip (FDE)/|
+	Hogue OverMolded Rubber Grip (Ghillie Earth)/|
+	Hogue OverMolded Rubber Grip (Ghillie Green)/|
+	Hogue OverMolded Rubber Grip (Olive Drab)/|
+	AR-15 Magpul MIAD pistol grip (FDE)/|
+	AR-15 Tactical Dynamics Hexgrip pistol grip/|
 	AR-15 Tactical Dynamics Skeletonized pistol grip
 ]
 Recoil=-2.000000
@@ -51,16 +51,16 @@ Information_Eng=Mesa Tactical’s Telescoping Stock Conversion Kit replaces the 
 basePrice=2512
 width=2
 height=1
-avg24hPrice=9446
-low24hPrice=1500
-lastOfferCount=3
+avg24hPrice=16350
+low24hPrice=2000
+lastOfferCount=7
 Sell_Prapor=1256
 Sell_Fence=1004
 Sell_Skier=1230
 Sell_Peacekeeper=9
 Sell_Mechanic=1406
 Sell_Jaeger=1507
-Sell_Flea Market=1500
+Sell_Flea Market=2000
 weight=0.400000
-fleaMarketFee=132
+fleaMarketFee=137
 propertiestype=ItemPropertiesWeaponMod

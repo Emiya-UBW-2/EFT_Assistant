@@ -16,7 +16,7 @@ NeedItem=[
 	Springfield Armory M1A 7.62x51 riflex0
 ]
 NeedItem=[
-	SilencerCo Hybrid 46 multi-caliber sound suppressorx0,
+	SilencerCo Hybrid 46 multi-caliber sound suppressorx0/|
 	Trijicon REAP-IR thermal scopex0
 ]
 Task_Else=‹——£: >= 60m
@@ -32,9 +32,9 @@ Reward_Item=[
 ]
 Reward_Rep=Prapor+0.020000
 Reward_Item=[
-	Roublesx300000,
-	RPK-16 5.45x39 light machine gun Drumx2,
-	RPK-16 5.45x39 95-round drum magazinex6,
+	Roublesx300000/|
+	RPK-16 5.45x39 light machine gun Drumx2/|
+	RPK-16 5.45x39 95-round drum magazinex6/|
 	Golden neck chainx5
 ]
 

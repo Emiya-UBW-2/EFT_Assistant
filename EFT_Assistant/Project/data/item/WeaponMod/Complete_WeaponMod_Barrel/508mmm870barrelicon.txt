@@ -3,8 +3,8 @@ Name=M870 12ga 508mm barrel
 ShortName=M870 508mm
 Itemtype=Barrel
 ChildParts=[
-	ME Cylinder 12ga muzzle adapter,
-	Remington Tactical Choke 12ga,
+	ME Cylinder 12ga muzzle adapter/|
+	Remington Tactical Choke 12ga/|
 	SilencerCo Salvo 12 choke adapter
 ]
 ChildParts=[
@@ -16,16 +16,16 @@ Information_Eng=A 508mm 12 gauge barrel for the Remington Model 870 shotgun.
 basePrice=10378
 width=3
 height=1
-avg24hPrice=132777
-low24hPrice=120000
-lastOfferCount=1
+avg24hPrice=110012
+low24hPrice=45555
+lastOfferCount=11
 Sell_Prapor=5189
 Sell_Fence=4151
 Sell_Skier=5085
 Sell_Peacekeeper=39
 Sell_Mechanic=5811
 Sell_Jaeger=6226
-Sell_Flea Market=155555
+Sell_Flea Market=77777
 weight=0.800000
-fleaMarketFee=24390
+fleaMarketFee=7837
 propertiestype=ItemPropertiesBarrel

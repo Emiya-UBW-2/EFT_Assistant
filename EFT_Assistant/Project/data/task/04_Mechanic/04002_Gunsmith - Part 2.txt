@@ -33,9 +33,9 @@ Reward_Item=[
 ]
 Reward_Rep=Mechanic+0.010000
 Reward_Item=[
-	Roublesx15000,
-	Capacitorsx2,
-	Bundle of wiresx2,
+	Roublesx15000/|
+	Capacitorsx2/|
+	Bundle of wiresx2/|
 	Light bulbx2
 ]
 

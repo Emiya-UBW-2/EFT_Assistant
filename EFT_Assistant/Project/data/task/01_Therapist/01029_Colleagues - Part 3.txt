@@ -60,13 +60,13 @@ DogTagLv=0
 Reward_Rep=Therapist+0.040000
 Reward_Rep=Fence+0.250000
 Reward_Item=[
-	Roublesx150000,
-	L1 (Norepinephrine) injectorx3,
-	Meldonin injectorx3,
-	TerraGroup Labs keycard (Black)x1,
-	Grizzly medical kitx4,
-	"Obdolbos 2" cocktail injectorx5,
-	TerraGroup Labs keycard (Violet)x2,
+	Roublesx150000/|
+	L1 (Norepinephrine) injectorx3/|
+	Meldonin injectorx3/|
+	TerraGroup Labs keycard (Black)x1/|
+	Grizzly medical kitx4/|
+	"Obdolbos 2" cocktail injectorx5/|
+	TerraGroup Labs keycard (Violet)x2/|
 	Medicine casex1
 ]
 

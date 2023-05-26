@@ -36,9 +36,9 @@ DogTagLv=0
 
 Reward_Rep=Jaeger+0.020000
 Reward_Item=[
-	Roublesx17000,
-	Gunpowder "Hawk"x4,
-	VPX Flash Storage Modulex1,
+	Roublesx17000/|
+	Gunpowder "Hawk"x4/|
+	VPX Flash Storage Modulex1/|
 	TerraGroup Labs access keycardx3
 ]
 

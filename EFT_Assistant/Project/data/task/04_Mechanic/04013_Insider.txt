@@ -20,7 +20,7 @@ Task_Else=traderLL:PraporLL3
 
 Reward_Rep=Mechanic+0.020000
 Reward_Item=[
-	Eurosx800,
+	Eurosx800/|
 	SilencerCo Osprey 9 9x19 sound suppressorx2
 ]
 

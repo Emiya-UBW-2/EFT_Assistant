@@ -30,7 +30,7 @@ Task_Else=width >= 4
 
 Reward_Rep=Mechanic+0.020000
 Reward_Item=[
-	Bundle of wiresx5,
+	Bundle of wiresx5/|
 	Metal spare partsx2
 ]
 

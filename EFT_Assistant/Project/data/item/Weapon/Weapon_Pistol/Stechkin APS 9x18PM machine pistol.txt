@@ -15,7 +15,7 @@ ChildParts=[
 	APS front sight
 ]
 ChildParts=[
-	APB rear sight,
+	APB rear sight/|
 	APS rear sight
 ]
 Recoil=387.000000
@@ -24,15 +24,15 @@ Information_Eng=The APS (Avtomatícheskiy Pistolét Stéchkina - "Stechkin Autom
 basePrice=11600
 width=2
 height=1
-avg24hPrice=11918
-low24hPrice=6999
-lastOfferCount=6
+avg24hPrice=9828
+low24hPrice=7000
+lastOfferCount=13
 Sell_Prapor=5800
 Sell_Fence=4640
 Sell_Skier=5684
 Sell_Peacekeeper=44
 Sell_Mechanic=6496
-Sell_Flea Market=12000
+Sell_Flea Market=7777
 weight=0.860000
-fleaMarketFee=706
+fleaMarketFee=612
 propertiestype=ItemPropertiesWeapon

@@ -3,7 +3,7 @@ Name=AS VAL skeleton stock
 ShortName=VAL
 Itemtype=Stock
 Conflict=[
-	AS VAL Rotor 43 pistol grip & buffer tube,
+	AS VAL Rotor 43 pistol grip & buffer tube/|
 ]
 Recoil=-30.000002
 Ergonomics=8.000000
@@ -11,8 +11,8 @@ Information_Eng=A standard-issue foldable skeleton stock for AS VAL, manufacture
 basePrice=3111
 width=2
 height=1
-avg24hPrice=99875
-low24hPrice=10000
+avg24hPrice=35919
+low24hPrice=2400
 lastOfferCount=2
 Sell_Prapor=1555
 Sell_Fence=1244
@@ -20,7 +20,7 @@ Sell_Skier=1524
 Sell_Peacekeeper=12
 Sell_Mechanic=1742
 Sell_Jaeger=1866
-Sell_Flea Market=99500
+Sell_Flea Market=2400
 weight=0.500000
-fleaMarketFee=25782
+fleaMarketFee=168
 propertiestype=ItemPropertiesWeaponMod

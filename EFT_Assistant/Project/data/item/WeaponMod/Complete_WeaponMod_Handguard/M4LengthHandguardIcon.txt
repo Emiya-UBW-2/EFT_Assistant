@@ -6,10 +6,10 @@ ChildParts=[
 	AR-15 Colt M4 Carbine Length lower handguard
 ]
 Conflict=[
-	AR-15 5.56x45 18 inch barrel,
-	AR-15 5.56x45 20 inch barrel,
-	AR-15 5.56x45 Molot Arms 406mm barrel,
-	Mk-18 .338 LM 24 inch barrel,
+	AR-15 5.56x45 18 inch barrel/|
+	AR-15 5.56x45 20 inch barrel/|
+	Mk-18 .338 LM 24 inch barrel/|
+	AR-15 5.56x45 Molot Arms 406mm barrel/|
 ]
 Recoil=0.000000
 Ergonomics=2.000000
@@ -19,7 +19,7 @@ width=2
 height=1
 avg24hPrice=0
 low24hPrice=0
-lastOfferCount=1
+lastOfferCount=2
 Sell_Prapor=712
 Sell_Fence=569
 Sell_Skier=697

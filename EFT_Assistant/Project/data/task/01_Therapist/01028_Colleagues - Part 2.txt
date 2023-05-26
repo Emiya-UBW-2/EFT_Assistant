@@ -37,8 +37,8 @@ Task_Else=èEÇ¡Çƒî[ïi:Shoreline-Marked Ophthalmoscopex1
 
 Reward_Rep=Therapist+0.040000
 Reward_Item=[
-	Roublesx60000,
-	Surv12 field surgical kitx1,
+	Roublesx60000/|
+	Surv12 field surgical kitx1/|
 	P22 (Product 22) stimulant injectorx1
 ]
 

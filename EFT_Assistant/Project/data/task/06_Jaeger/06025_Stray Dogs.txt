@@ -37,11 +37,11 @@ Task_Kill=[
 
 Reward_Rep=Jaeger+0.020000
 Reward_Item=[
-	Roublesx125000,
-	SV-98 7.62x54R bolt-action sniper rifle OVx1,
-	Recknagel Era-Tac 30mm ring scope mountx1,
-	Schmidt & Bender PM II 1-8x24 30mm riflescopex1,
-	SV-98 7.62x54R 10-round magazinex2,
+	Roublesx125000/|
+	SV-98 7.62x54R bolt-action sniper rifle OVx1/|
+	Recknagel Era-Tac 30mm ring scope mountx1/|
+	Schmidt & Bender PM II 1-8x24 30mm riflescopex1/|
+	SV-98 7.62x54R 10-round magazinex2/|
 	7.62x54mm R PS gzhx30
 ]
 

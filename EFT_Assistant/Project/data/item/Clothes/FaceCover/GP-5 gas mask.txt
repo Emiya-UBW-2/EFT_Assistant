@@ -3,43 +3,43 @@ Name=GP-5 gas mask
 ShortName=GP-5
 Itemtype=Face Cover
 Conflict=[
-	Army cap,
-	Baseball cap,
-	BEAR baseball cap (Green),
-	USEC baseball cap (Tan),
-	EMERCOM cap,
-	Police cap,
-	UX PRO beanie,
-	Tactical fleece beanie,
-	Ski hat with holes for eyes,
-	Altyn bulletproof helmet,
-	Kolpak-1S riot helmet,
-	Wilcox Skull Lock head mount,
-	DevTac Ronin ballistic helmet,
-	Bandana,
-	BEAR baseball cap (Black),
-	Kotton beanie,
-	MIL-TEC boonie hat,
-	USEC baseball cap (Black),
-	Maska-1SCh bulletproof helmet (Olive Drab),
-	Maska-1SCh bulletproof helmet (Killa),
-	PSh-97 DJETA riot helmet,
-	ShPM Firefighter helmet,
-	Jack-o'-lantern tactical pumpkin helmet,
+	Army cap/|
+	Baseball cap/|
+	BEAR baseball cap (Green)/|
+	USEC baseball cap (Tan)/|
+	EMERCOM cap/|
+	Police cap/|
+	UX PRO beanie/|
+	Tactical fleece beanie/|
+	Ski hat with holes for eyes/|
+	Altyn bulletproof helmet/|
+	Kolpak-1S riot helmet/|
+	Wilcox Skull Lock head mount/|
+	DevTac Ronin ballistic helmet/|
+	Bandana/|
+	BEAR baseball cap (Black)/|
+	Kotton beanie/|
+	MIL-TEC boonie hat/|
+	USEC baseball cap (Black)/|
+	Maska-1SCh bulletproof helmet (Olive Drab)/|
+	Maska-1SCh bulletproof helmet (Killa)/|
+	PSh-97 DJETA riot helmet/|
+	ShPM Firefighter helmet/|
+	Jack-o'-lantern tactical pumpkin helmet/|
 	Beanie
 ]
 Information_Eng=The civil gas mask model 5 or GP-5 is a filtering agent for individual protection of the respiratory organs, eyes and skin of a person's face.
 basePrice=6386
 width=2
 height=2
-avg24hPrice=48242
-low24hPrice=15000
-lastOfferCount=8
+avg24hPrice=55977
+low24hPrice=35000
+lastOfferCount=10
 Sell_Fence=2554
 Sell_Skier=3129
 Sell_Peacekeeper=24
 Sell_Ragman=3959
-Sell_Flea Market=45000
+Sell_Flea Market=68999
 weight=0.450000
-fleaMarketFee=4366
+fleaMarketFee=8754
 propertiestype=

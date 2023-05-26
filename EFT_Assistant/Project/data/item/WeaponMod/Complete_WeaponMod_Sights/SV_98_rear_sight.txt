@@ -4,14 +4,14 @@ ShortName=SV98 RS
 Itemtype=Ironsight
 SightRange=500
 Conflict=[
-	Burris AR-P.E.P.R. 30mm ring scope mount,
-	Geissele Super Precision 30mm ring scope mount,
-	Geissele Super Precision 30mm ring scope mount (DDC),
-	JP Enterprises Flat-Top 30mm ring scope mount,
-	LaRue LT101 QD Tactical Picatinny Riser mount,
-	Nightforce Magmount 30mm ring scope mount,
-	Nightforce Magmount 34mm ring scope mount,
-	Nightforce Magmount 34mm ring scope mount with Ruggedized Accessory Platform,
+	Burris AR-P.E.P.R. 30mm ring scope mount/|
+	Geissele Super Precision 30mm ring scope mount/|
+	Geissele Super Precision 30mm ring scope mount (DDC)/|
+	JP Enterprises Flat-Top 30mm ring scope mount/|
+	LaRue LT101 QD Tactical Picatinny Riser mount/|
+	Nightforce Magmount 30mm ring scope mount/|
+	Nightforce Magmount 34mm ring scope mount/|
+	Nightforce Magmount 34mm ring scope mount with Ruggedized Accessory Platform/|
 	Leapers UTG 25mm ring scope mount
 ]
 Recoil=0.000000
@@ -20,8 +20,8 @@ Information_Eng=A standard-issue rear sight for the SV-98 sniper rifle, manufact
 basePrice=999
 width=1
 height=1
-avg24hPrice=45499
-low24hPrice=1000
+avg24hPrice=0
+low24hPrice=0
 lastOfferCount=1
 Sell_Prapor=499
 Sell_Fence=399

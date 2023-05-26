@@ -1,6 +1,6 @@
 IDstr=579dc571d53a0658a154fbec
 Name=Fence
-Color=[1,1,1]
+Color=[1/|1/|1]
 Information_Eng=The conflict had barely started when Fence began setting up anonymous outlets for buying and selling goods. Keeping incognito, he nevertheless managed to put together a well-organised smuggler network, operating all over the Norvinsk region.
 PayItem=Roubles
 Lv1NeedLv=1

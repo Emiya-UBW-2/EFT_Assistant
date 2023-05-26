@@ -1,12 +1,12 @@
 #include"Header.hpp"
 #include <WinUser.h>
 
-
 int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 	SetWindowStyleMode(2);
 	SetUseBackBufferTransColorFlag(TRUE);
 	OPTION::Create();
 	DXDraw::Create("EFT_Assistant", 950, 950 * 9 / 16);	//汎用
+	EffectResource::Create();
 	PostPassEffect::Create();							//シェーダー
 	//SoundPool::Create();								//サウンド
 	FontPool::Create();									//フォント

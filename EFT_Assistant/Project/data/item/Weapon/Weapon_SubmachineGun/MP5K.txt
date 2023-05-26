@@ -3,8 +3,8 @@ Name=HK MP5K 9x19 submachine gun
 ShortName=MP5K-N
 Itemtype=SMG
 ChildParts=[
-	HK MP5 9x19 20-round magazine,
-	HK MP5 9x19 30-round magazine,
+	HK MP5 9x19 20-round magazine/|
+	HK MP5 9x19 30-round magazine/|
 	HK MP5 9x19 X Products X-5 50-round drum magazine
 ]
 ChildParts=[
@@ -19,15 +19,15 @@ Information_Eng=HK MP5K (K from the German word Kurz - "short") is a shorter ver
 basePrice=9500
 width=1
 height=1
-avg24hPrice=18850
+avg24hPrice=19153
 low24hPrice=12000
-lastOfferCount=21
+lastOfferCount=18
 Sell_Prapor=4750
 Sell_Fence=3800
 Sell_Skier=4655
 Sell_Peacekeeper=36
 Sell_Mechanic=5320
-Sell_Flea Market=14997
+Sell_Flea Market=12000
 weight=0.680000
-fleaMarketFee=789
+fleaMarketFee=652
 propertiestype=ItemPropertiesWeapon

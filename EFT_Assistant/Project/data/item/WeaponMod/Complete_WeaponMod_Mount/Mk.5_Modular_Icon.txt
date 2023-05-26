@@ -3,80 +3,80 @@ Name=KRISS Vector Mk.5 modular rail
 ShortName=Mk.5
 Itemtype=Mount
 ChildParts=[
-	BCM GUNFIGHTER MOD 3 vertical foregrip,
-	ASh-12 vertical foregrip,
-	Fortis Shift tactical foregrip,
-	HK Sturmgriff foregrip,
-	KAC vertical foregrip,
-	Magpul AFG tactical foregrip (Black),
-	Magpul AFG tactical foregrip (FDE),
-	Magpul AFG tactical foregrip (Forest Green),
-	Magpul AFG tactical foregrip (Olive Drab),
-	Magpul RVG foregrip (Black),
-	Magpul RVG foregrip (FDE),
-	RTM Pillau tactical foregrip,
-	Stark SE-5 Express Forward foregrip,
-	Strike Industries Cobra Tactical foregrip,
-	TangoDown Stubby BGV-MK46K foregrip (Black),
-	TangoDown Stubby BGV-MK46K foregrip (FDE),
-	TangoDown Stubby BGV-MK46K foregrip (Stealth Gray),
-	Tactical Dynamics Skeletonized Foregrip,
-	Viking Tactics UVG tactical foregrip,
-	Zenit RK-1 tactical foregrip on B-25U mount,
-	Zenit RK-0 tactical foregrip,
-	Zenit RK-1 tactical foregrip,
-	Zenit RK-2 tactical foregrip,
-	Zenit RK-4 tactical foregrip,
-	Zenit RK-5 tactical foregrip,
+	BCM GUNFIGHTER MOD 3 vertical foregrip/|
+	ASh-12 vertical foregrip/|
+	Fortis Shift tactical foregrip/|
+	HK Sturmgriff foregrip/|
+	KAC vertical foregrip/|
+	Magpul AFG tactical foregrip (Black)/|
+	Magpul AFG tactical foregrip (FDE)/|
+	Magpul AFG tactical foregrip (Forest Green)/|
+	Magpul AFG tactical foregrip (Olive Drab)/|
+	Magpul RVG foregrip (Black)/|
+	Magpul RVG foregrip (FDE)/|
+	RTM Pillau tactical foregrip/|
+	Stark SE-5 Express Forward foregrip/|
+	Strike Industries Cobra Tactical foregrip/|
+	TangoDown Stubby BGV-MK46K foregrip (Black)/|
+	TangoDown Stubby BGV-MK46K foregrip (FDE)/|
+	TangoDown Stubby BGV-MK46K foregrip (Stealth Gray)/|
+	Tactical Dynamics Skeletonized Foregrip/|
+	Viking Tactics UVG tactical foregrip/|
+	Zenit RK-1 tactical foregrip on B-25U mount/|
+	Zenit RK-0 tactical foregrip/|
+	Zenit RK-1 tactical foregrip/|
+	Zenit RK-2 tactical foregrip/|
+	Zenit RK-4 tactical foregrip/|
+	Zenit RK-5 tactical foregrip/|
 	Zenit RK-6 tactical foregrip
 ]
 ChildParts=[
-	Glock GTL 21 tactical flashlight with laser,
-	Holosun LS321 Tactical device,
-	AN/PEQ-15 tactical device,
-	AN/PEQ-2 tactical device,
-	LA-5B/PEQ tactical device,
-	NcSTAR Tactical blue laser LAM-module,
-	Steiner DBAL-PL tactical device,
-	Steiner LAS/TAC 2 tactical flashlight,
-	SureFire X400 Ultra tactical flashlight with laser,
-	SureFire XC1 tactical flashlight,
-	Wilcox RAPTAR ES Tactical Rangefinder,
-	Zenit Klesch-2IKS IR illuminator with laser,
-	Zenit Klesch-2P flashlight with laser,
-	Zenit Klesch-2U tactical flashlight,
-	Zenit Perst-3 tactical device,
-	Kiba Arms 25mm accessory ring mount,
-	Daniel Defense 25mm accessory ring mount,
-	Olight Baldr Pro tactical flashlight with laser,
-	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Glock GTL 21 tactical flashlight with laser/|
+	Holosun LS321 Tactical device/|
+	AN/PEQ-15 tactical device/|
+	AN/PEQ-2 tactical device/|
+	LA-5B/PEQ tactical device/|
+	NcSTAR Tactical blue laser LAM-module/|
+	Steiner DBAL-PL tactical device/|
+	Steiner LAS/TAC 2 tactical flashlight/|
+	SureFire X400 Ultra tactical flashlight with laser/|
+	SureFire XC1 tactical flashlight/|
+	Wilcox RAPTAR ES Tactical Rangefinder/|
+	Zenit Klesch-2IKS IR illuminator with laser/|
+	Zenit Klesch-2P flashlight with laser/|
+	Zenit Klesch-2U tactical flashlight/|
+	Zenit Perst-3 tactical device/|
+	Kiba Arms 25mm accessory ring mount/|
+	Daniel Defense 25mm accessory ring mount/|
+	Olight Baldr Pro tactical flashlight with laser/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight
 ]
 ChildParts=[
-	Glock GTL 21 tactical flashlight with laser,
-	Holosun LS321 Tactical device,
-	AN/PEQ-15 tactical device,
-	AN/PEQ-2 tactical device,
-	LA-5B/PEQ tactical device,
-	NcSTAR Tactical blue laser LAM-module,
-	Steiner DBAL-PL tactical device,
-	Steiner LAS/TAC 2 tactical flashlight,
-	SureFire X400 Ultra tactical flashlight with laser,
-	SureFire XC1 tactical flashlight,
-	Wilcox RAPTAR ES Tactical Rangefinder,
-	Zenit Klesch-2IKS IR illuminator with laser,
-	Zenit Klesch-2P flashlight with laser,
-	Zenit Klesch-2U tactical flashlight,
-	Zenit Perst-3 tactical device,
-	Kiba Arms 25mm accessory ring mount,
-	Daniel Defense 25mm accessory ring mount,
-	Olight Baldr Pro tactical flashlight with laser,
-	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Glock GTL 21 tactical flashlight with laser/|
+	Holosun LS321 Tactical device/|
+	AN/PEQ-15 tactical device/|
+	AN/PEQ-2 tactical device/|
+	LA-5B/PEQ tactical device/|
+	NcSTAR Tactical blue laser LAM-module/|
+	Steiner DBAL-PL tactical device/|
+	Steiner LAS/TAC 2 tactical flashlight/|
+	SureFire X400 Ultra tactical flashlight with laser/|
+	SureFire XC1 tactical flashlight/|
+	Wilcox RAPTAR ES Tactical Rangefinder/|
+	Zenit Klesch-2IKS IR illuminator with laser/|
+	Zenit Klesch-2P flashlight with laser/|
+	Zenit Klesch-2U tactical flashlight/|
+	Zenit Perst-3 tactical device/|
+	Kiba Arms 25mm accessory ring mount/|
+	Daniel Defense 25mm accessory ring mount/|
+	Olight Baldr Pro tactical flashlight with laser/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight
 ]
 Conflict=[
-	KRISS Vector side rail,
-	KRISS Vector .45 ACP 5 inch barrel,
+	KRISS Vector side rail/|
+	KRISS Vector .45 ACP 5 inch barrel/|
 	KRISS Vector 9x19 5 inch barrel
 ]
 Recoil=0.000000
@@ -85,16 +85,16 @@ Information_Eng=The Mk.5 modular system allows you to install additional equipme
 basePrice=2200
 width=1
 height=1
-avg24hPrice=66623
-low24hPrice=30000
-lastOfferCount=2
+avg24hPrice=50240
+low24hPrice=20000
+lastOfferCount=21
 Sell_Prapor=1100
 Sell_Fence=880
 Sell_Skier=1078
 Sell_Peacekeeper=8
 Sell_Mechanic=1232
 Sell_Jaeger=1320
-Sell_Flea Market=90000
+Sell_Flea Market=29000
 weight=0.147000
-fleaMarketFee=27521
+fleaMarketFee=4182
 propertiestype=ItemPropertiesWeaponMod

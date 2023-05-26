@@ -27,8 +27,8 @@ DogTagLv=0
 
 Reward_Rep=Ragman+0.030000
 Reward_Item=[
-	Roublesx250000,
-	Interchange plan mapx1,
+	Roublesx250000/|
+	Interchange plan mapx1/|
 	FORT Defender-2 body armorx1
 ]
 

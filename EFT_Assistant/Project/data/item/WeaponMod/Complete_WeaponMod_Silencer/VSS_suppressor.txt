@@ -3,12 +3,12 @@ Name=VSS 9x39 integral barrel-suppressor
 ShortName=VSS supp.
 Itemtype=Silencer
 ChildParts=[
-	AS VAL rear sight,
+	AS VAL rear sight/|
 	VSS rear sight
 ]
 ChildParts=[
-	VSS/VAL TOZ 6P29M mount,
-	VSS/VAL Zenit B-3 ring mount,
+	VSS/VAL TOZ 6P29M mount/|
+	VSS/VAL Zenit B-3 ring mount/|
 	VSS/VAL Zenit B-3 mount combo
 ]
 Recoil=-20.000000
@@ -17,15 +17,15 @@ Information_Eng=A TsNIITochMash-manufactured integral barrel-suppressor module f
 basePrice=22507
 width=2
 height=1
-avg24hPrice=30000
-low24hPrice=30000
-lastOfferCount=1
+avg24hPrice=69999
+low24hPrice=66666
+lastOfferCount=2
 Sell_Prapor=11253
 Sell_Fence=9002
 Sell_Skier=11028
 Sell_Peacekeeper=85
 Sell_Mechanic=12603
-Sell_Flea Market=30000
+Sell_Flea Market=69000
 weight=0.496000
-fleaMarketFee=1610
+fleaMarketFee=4257
 propertiestype=ItemPropertiesWeaponMod

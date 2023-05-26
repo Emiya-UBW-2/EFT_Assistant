@@ -3,72 +3,72 @@ Name=AK Krebs Custom UFM KeyMod handguard
 ShortName=UFM
 Itemtype=Handguard
 ChildParts=[
-	Axion Kobra EKP-8-18 reflex sight,
-	OKP-7 reflex sight,
-	EOTech 553 holographic sight,
-	EOTech EXPS3 holographic sight (Tan),
-	EOTech XPS3-0 holographic sight,
-	EOTech XPS3-2 holographic sight,
-	Holosun HS401G5 reflex sight,
-	Leapers UTG reflex sight,
-	SIG Sauer ROMEO8T reflex sight,
-	Trijicon SRS-02 reflex sight,
-	Valday PK-120 (1P87) holographic sight,
-	Valday Krechet reflex sight,
-	VOMZ Pilad P1x42 Weaver reflex sight,
-	Vortex Razor AMG UH-1 holographic sight,
-	Walther MRS reflex sight,
-	BelOMO PK-06 reflex sight,
-	Aimpoint Micro Standard Mount,
-	Aimpoint Micro H-2 Standard Mount,
-	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO sights,
-	B&T QD NAR mount for Aimpoint ACRO,
-	Burris FastFire Weaver Base,
-	DeltaPoint Cross Slot Mount base,
-	NcSTAR MPR45 Backup mount,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
-	SIG Sauer ROMEO sight mount,
-	Trijicon RMR high profile mount,
+	Axion Kobra EKP-8-18 reflex sight/|
+	OKP-7 reflex sight/|
+	EOTech 553 holographic sight/|
+	EOTech EXPS3 holographic sight (Tan)/|
+	EOTech XPS3-0 holographic sight/|
+	EOTech XPS3-2 holographic sight/|
+	Holosun HS401G5 reflex sight/|
+	Leapers UTG reflex sight/|
+	SIG Sauer ROMEO8T reflex sight/|
+	Trijicon SRS-02 reflex sight/|
+	Valday PK-120 (1P87) holographic sight/|
+	Valday Krechet reflex sight/|
+	VOMZ Pilad P1x42 Weaver reflex sight/|
+	Vortex Razor AMG UH-1 holographic sight/|
+	Walther MRS reflex sight/|
+	BelOMO PK-06 reflex sight/|
+	Aimpoint Micro Standard Mount/|
+	Aimpoint Micro H-2 Standard Mount/|
+	Aimpoint LRP mount for CompM4 sights/|
+	Aimpoint QRP2 mount for CompM4/PRO sights/|
+	B&T QD NAR mount for Aimpoint ACRO/|
+	Burris FastFire Weaver Base/|
+	DeltaPoint Cross Slot Mount base/|
+	NcSTAR MPR45 Backup mount/|
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights/|
+	SIG Sauer ROMEO sight mount/|
+	Trijicon RMR high profile mount/|
 	Trijicon RMR low profile mount
 ]
 ChildParts=[
-	Holosun LS321 Tactical device,
-	AN/PEQ-15 tactical device,
-	AN/PEQ-2 tactical device,
-	LA-5B/PEQ tactical device,
-	Wilcox RAPTAR ES Tactical Rangefinder,
+	Holosun LS321 Tactical device/|
+	AN/PEQ-15 tactical device/|
+	AN/PEQ-2 tactical device/|
+	LA-5B/PEQ tactical device/|
+	Wilcox RAPTAR ES Tactical Rangefinder/|
 	Zenit Perst-3 tactical device
 ]
 ChildParts=[
-	Monstrum Tactical Vertical Fore Grip KeyMod,
-	A3 Tactical MVF001 KeyMod vertical foregrip (Black),
-	SIG Sauer Vertical Foregrip KeyMod (Black),
-	Strike Industries KeyMod 6 inch rail,
+	Monstrum Tactical Vertical Fore Grip KeyMod/|
+	A3 Tactical MVF001 KeyMod vertical foregrip (Black)/|
+	SIG Sauer Vertical Foregrip KeyMod (Black)/|
+	Strike Industries KeyMod 6 inch rail/|
 	Vltor CASV KeyMod 6 inch rail
 ]
 ChildParts=[
-	Strike Industries KeyMod 4 inch rail,
-	Vltor CASV KeyMod 2 inch rail,
-	Vltor CASV KeyMod 4 inch rail,
+	Strike Industries KeyMod 4 inch rail/|
+	Vltor CASV KeyMod 2 inch rail/|
+	Vltor CASV KeyMod 4 inch rail/|
 	CNC Guns KeyMod 2 inch rail
 ]
 ChildParts=[
-	Strike Industries KeyMod 4 inch rail,
-	Vltor CASV KeyMod 2 inch rail,
-	Vltor CASV KeyMod 4 inch rail,
+	Strike Industries KeyMod 4 inch rail/|
+	Vltor CASV KeyMod 2 inch rail/|
+	Vltor CASV KeyMod 4 inch rail/|
 	CNC Guns KeyMod 2 inch rail
 ]
 ChildParts=[
-	Strike Industries KeyMod 4 inch rail,
-	Vltor CASV KeyMod 2 inch rail,
-	Vltor CASV KeyMod 4 inch rail,
+	Strike Industries KeyMod 4 inch rail/|
+	Vltor CASV KeyMod 2 inch rail/|
+	Vltor CASV KeyMod 4 inch rail/|
 	CNC Guns KeyMod 2 inch rail
 ]
 Conflict=[
-	AK Zenit B-33 dust cover,
-	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
-	Hera Arms CQR tactical foregrip,
+	Hera Arms CQR tactical foregrip/|
+	AK Zenit B-33 dust cover/|
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher/|
 ]
 Recoil=-3.000000
 Ergonomics=11.000000
@@ -76,9 +76,9 @@ Information_Eng=The Krebs Custom UFM Keymod System lightweight aluminum handguar
 basePrice=20355
 width=2
 height=1
-avg24hPrice=15519
-low24hPrice=11995
-lastOfferCount=12
+avg24hPrice=16624
+low24hPrice=10000
+lastOfferCount=4
 Sell_Prapor=10177
 Sell_Fence=8142
 Sell_Skier=9973

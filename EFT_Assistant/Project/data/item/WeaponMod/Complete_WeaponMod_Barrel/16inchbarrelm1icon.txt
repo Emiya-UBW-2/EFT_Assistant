@@ -3,7 +3,7 @@ Name=M1A 7.62x51 16 inch barrel
 ShortName=M1A 16"
 Itemtype=Barrel
 ChildParts=[
-	M1A Smith Enterprise SOCOM 16 7.62x51 threaded muzzle brake & gas block,
+	M1A Smith Enterprise SOCOM 16 7.62x51 threaded muzzle brake & gas block/|
 	M1A SOCOM 16 7.62x51 muzzle brake-compensator
 ]
 Recoil=-5.000000
@@ -12,8 +12,8 @@ Information_Eng=A 16 inch (410mm) barrel for M1A based weapons chambered in 7.62
 basePrice=15600
 width=4
 height=1
-avg24hPrice=20740
-low24hPrice=17999
+avg24hPrice=22495
+low24hPrice=16666
 lastOfferCount=4
 Sell_Prapor=7800
 Sell_Fence=6240
@@ -21,7 +21,7 @@ Sell_Skier=7644
 Sell_Peacekeeper=59
 Sell_Mechanic=8736
 Sell_Jaeger=9360
-Sell_Flea Market=25555
+Sell_Flea Market=39500
 weight=1.040000
-fleaMarketFee=1345
+fleaMarketFee=2261
 propertiestype=ItemPropertiesBarrel

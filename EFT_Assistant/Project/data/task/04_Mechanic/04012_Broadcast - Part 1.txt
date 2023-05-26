@@ -29,11 +29,11 @@ DogTagLv=0
 
 Reward_Rep=Mechanic+0.030000
 Reward_Item=[
-	Eurosx650,
-	Can of thermitex1,
+	Eurosx650/|
+	Can of thermitex1/|
 	Pack of nailsx1
 ]
 
 Reward_EXP=6700
-Task_PinPoint=[-0.251953,0.040039,0.000000]
-Task_PinMap=[Lighthouse,1]
+Task_PinPoint=[-0.251953/|0.040039/|0.000000]
+Task_PinMap=[Lighthouse/|1]

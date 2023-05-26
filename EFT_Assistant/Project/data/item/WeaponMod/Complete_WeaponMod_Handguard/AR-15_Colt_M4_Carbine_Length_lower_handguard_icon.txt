@@ -3,7 +3,7 @@ Name=AR-15 Colt M4 Carbine Length lower handguard
 ShortName=M4 Carbine
 Itemtype=Handguard
 Conflict=[
-	M203 40mm underbarrel grenade launcher,
+	M203 40mm underbarrel grenade launcher/|
 ]
 Recoil=0.000000
 Ergonomics=7.000000

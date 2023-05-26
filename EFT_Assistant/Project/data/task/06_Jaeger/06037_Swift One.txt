@@ -22,9 +22,9 @@ Task_Else=  6B13 assault armor (Flora)
 Task_Else=  6B13 M modified assault armor (Tan)
 Task_Else=  6B23-1 body armor (Digital Flora)
 Task_Else=  6B23-2 body armor (Mountain Flora)
-Task_Else=  IOTV Gen4 body armor (full protection)
-Task_Else=  IOTV Gen4 body armor (assault kit)
-Task_Else=  IOTV Gen4 body armor (high mobility kit)
+Task_Else=  IOTV Gen4 body armor (Full Protection Kit)
+Task_Else=  IOTV Gen4 body armor (Assault Kit)
+Task_Else=  IOTV Gen4 body armor (High Mobility Kit)
 Task_Else=  BNTI Kirasa-N body armor
 Task_Else=  FORT Redut-M body armor
 Task_Else=  FORT Redut-T5 body armor
@@ -33,11 +33,11 @@ Task_Else=  BNTI Zhuk-3 body armor (Press)
 Task_Else=  BNTI Zhuk-6a body armor
 Task_Else=  BNTI Module-3M body armor
 Task_Else=  PACA Soft Armor
-Task_Else=  ANA Tactical M2 armored rig
+Task_Else=  ANA Tactical M2 plate carrier
 Task_Else=  6B5-15 Zh-86 Uley armored rig
 Task_Else=  6B5-16 Zh-86 Uley armored rig
 Task_Else=  5.11 Tactical TacTec plate carrier
-Task_Else=  WARTECH TV-110 plate carrier rig
+Task_Else=  WARTECH TV-110 plate carrier
 Task_Else=  Crye Precision AVS plate carrier
 Task_Else=  6B3TM-01M armored rig
 Task_Else=  FORT Defender-2 body armor
@@ -46,8 +46,8 @@ Task_Else=  LBT-6094A Slick Plate Carrier
 Task_Else=  5.11 Tactical Hexgrid plate carrier
 Task_Else=  NPP KlASS Korund-VM body armor
 Task_Else=  6B2 body armor (Flora)
-Task_Else=  ANA Tactical M1 armored rig
-Task_Else=  LBT-6094A Slick Plate Carrier (Olive)
+Task_Else=  ANA Tactical M1 plate carrier
+Task_Else=  LBT-6094A Slick Plate Carrier (Olive Drab)
 Task_Else=  LBT-6094A Slick Plate Carrier (Tan)
 Task_Else=  CQC Osprey MK4A plate carrier (Assault, MTP)
 Task_Else=  CQC Osprey MK4A plate carrier (Protection, MTP)
@@ -70,14 +70,14 @@ Task_Else=  ZSh-1-2M helmet
 Task_Else=  ZSh-1-2M helmet (Black cover)
 Task_Else=  DevTac Ronin ballistic helmet
 Task_Else=  HighCom Striker ACHHC IIIA helmet (Black)
-Task_Else=  HighCom Striker ACHHC IIIA helmet (Olive)
+Task_Else=  HighCom Striker ACHHC IIIA helmet (Olive Drab)
 Task_Else=  LShZ light helmet
 Task_Else=  HighCom Striker ULACH IIIA helmet (Black)
 Task_Else=  HighCom Striker ULACH IIIA helmet (Desert Tan)
 Task_Else=  Crye Precision AirFrame helmet (Tan)
 Task_Else=  Diamond Age Bastion helmet
 Task_Else=  Galvion Caiman Hybrid helmet
-Task_Else=  Tac-Kek FAST MT helmet (replica)
+Task_Else=  Tac-Kek FAST MT helmet (Replica)
 Task_Else=  BNTI LShZ-2DTM helmet
 Task_Else=  Maska-1SCh bulletproof helmet (Olive Drab)
 Task_Else=  Maska-1SCh bulletproof helmet (Killa)
@@ -90,7 +90,7 @@ Task_Else=  Team Wendy EXFIL Ballistic Helmet (Black)
 Task_Else=  Team Wendy EXFIL Ballistic Helmet (Coyote Brown)
 Task_Else=  Vulkan-5 (LShZ-5) bulletproof helmet
 Task_Else=  Eagle Industries MMAC plate carrier (Ranger Green)
-Task_Else=  FirstSpear Strandhogg plate carrier rig (Ranger Green)
+Task_Else=  FirstSpear Strandhogg plate carrier (Ranger Green)
 Task_Else=  DRD body armor
 Task_Else=  S&S Precision PlateFrame plate carrier (Goons Edition)
 Task_Else=  Crye Precision CPC plate carrier (Goons Edition)
@@ -112,8 +112,8 @@ Task_Else=}
 ]
 
 Reward_Item=[
-	Train Hard armbandx1,
-	.338 Lapua Magnum APx20,
+	Train Hard armbandx1/|
+	.338 Lapua Magnum APx20/|
 	7.62x39mm MAI APx60
 ]
 Reward_SkillLevelUp=Stress Resistance+1

@@ -3,27 +3,27 @@ Name=AKM/AK-74 RD AK to M4 buffer tube adapter
 ShortName=AKtoM4
 Itemtype=Stock
 ChildParts=[
-	Armacon Baskak stock,
-	AR-15 Colt A2 buffer tube,
-	Colt Carbine buffer tube,
-	AR-15 DoubleStar ACE SOCOM Gen.4 stock,
-	ERGO F93 PRO stock,
-	HK Enhanced Tube buffer tube,
-	Magpul UBR GEN2 stock (Black),
-	Magpul UBR GEN2 stock (FDE),
-	Mesa Tactical Crosshair Hydraulic buffer tube,
-	Soyuz-TM buffer tube,
-	Strike Industries Advanced Receiver Extension buffer tube,
-	Strike Industries Advanced Receiver Extension buffer tube (Anodized Red),
-	Strike Industries Viper PDW stock,
-	TROY M7A1 PDW stock (Black),
-	TROY M7A1 PDW stock (FDE),
-	CMMG buffer tube,
-	AR-15 ADAR 2-15 buffer tube,
+	Armacon Baskak stock/|
+	AR-15 Colt A2 buffer tube/|
+	Colt Carbine buffer tube/|
+	AR-15 DoubleStar ACE SOCOM Gen.4 stock/|
+	ERGO F93 PRO stock/|
+	HK Enhanced Tube buffer tube/|
+	Magpul UBR GEN2 stock (Black)/|
+	Magpul UBR GEN2 stock (FDE)/|
+	Mesa Tactical Crosshair Hydraulic buffer tube/|
+	Soyuz-TM buffer tube/|
+	Strike Industries Advanced Receiver Extension buffer tube/|
+	Strike Industries Advanced Receiver Extension buffer tube (Anodized Red)/|
+	Strike Industries Viper PDW stock/|
+	TROY M7A1 PDW stock (Black)/|
+	TROY M7A1 PDW stock (FDE)/|
+	CMMG buffer tube/|
+	AR-15 ADAR 2-15 buffer tube/|
 	AR-15 RTM ATP buffer tube
 ]
 Conflict=[
-	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock,
+	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock/|
 ]
 Recoil=0.000000
 Ergonomics=-1.000000
@@ -31,16 +31,16 @@ Information_Eng=The AK to M4 Gen 2 adapter for installation of telescopic stock 
 basePrice=4200
 width=1
 height=1
-avg24hPrice=13384
+avg24hPrice=10314
 low24hPrice=4700
-lastOfferCount=16
+lastOfferCount=6
 Sell_Prapor=2100
 Sell_Fence=1680
 Sell_Skier=2058
 Sell_Peacekeeper=16
 Sell_Mechanic=2352
 Sell_Jaeger=2520
-Sell_Flea Market=8888
+Sell_Flea Market=10000
 weight=0.230000
-fleaMarketFee=483
+fleaMarketFee=561
 propertiestype=ItemPropertiesWeaponMod

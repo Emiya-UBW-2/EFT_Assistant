@@ -3,32 +3,32 @@ Name=Mk47 409mm barrel
 ShortName=Mk47 409mm
 Itemtype=Barrel
 ChildParts=[
-	AR-10 2A Armanent X3 7.62x51 compensator,
-	AR-10 AAC Blackout 51T 7.62x51 flash hider,
-	AR-10 CMMG SV Brake 7.62x51 muzzle brake,
-	AR-10 Daniel Defense WAVE 7.62x51 muzzle brake,
-	Desert Tech 7.62x51 flash hider,
-	AR-10 Fortis RED Brake 7.62x51 muzzle brake,
-	AR-10 KAC QDC 7.62x51 Flash Suppressor Kit,
-	AR-10 Keeno Arms SHREWD 7.62x51 muzzle brake,
-	AR-10 Lantac Drakon 7.62x51 muzzle brake-compensator,
-	AR-10 Nordic Components Corvette 7.62x51 compensator,
-	AR-10 Odin Works ATLAS-7 7.62x51 muzzle brake,
-	AR-10 Precision Armanent M11 Severe-Duty 7.62x51 muzzle brake,
-	AR-10 SureFire ProComp 7.62x51 muzzle brake,
-	AR-10 SureFire Warden 7.62x51 blast regulator,
-	AR-10 Thunder Beast Arms 30CB 7.62x51 muzzle brake,
-	Gemtech ONE Direct Thread Mount adapter,
-	SIG Sauer Taper-LOK 7.62x51/.300 BLK muzzle adapter,
-	SilencerCo Hybrid 46 Direct Thread Mount adapter,
-	SIG Sauer SRD762Ti 7.62x51 sound suppressor,
-	AR-10 TAA ZK-38 7.62x51 muzzle brake,
-	AR-10 KAC QDC 7.62x51 Muzzle Brake Kit,
-	AR-10 Dead Air Keymount 7.62x51 muzzle brake,
+	AR-10 2A Armanent X3 7.62x51 compensator/|
+	AR-10 AAC Blackout 51T 7.62x51 flash hider/|
+	AR-10 CMMG SV Brake 7.62x51 muzzle brake/|
+	AR-10 Daniel Defense WAVE 7.62x51 muzzle brake/|
+	Desert Tech 7.62x51 flash hider/|
+	AR-10 Fortis RED Brake 7.62x51 muzzle brake/|
+	AR-10 KAC QDC 7.62x51 Flash Suppressor Kit/|
+	AR-10 Keeno Arms SHREWD 7.62x51 muzzle brake/|
+	AR-10 Lantac Drakon 7.62x51 muzzle brake-compensator/|
+	AR-10 Nordic Components Corvette 7.62x51 compensator/|
+	AR-10 Odin Works ATLAS-7 7.62x51 muzzle brake/|
+	AR-10 Precision Armanent M11 Severe-Duty 7.62x51 muzzle brake/|
+	AR-10 SureFire ProComp 7.62x51 muzzle brake/|
+	AR-10 SureFire Warden 7.62x51 blast regulator/|
+	AR-10 Thunder Beast Arms 30CB 7.62x51 muzzle brake/|
+	Gemtech ONE Direct Thread Mount adapter/|
+	SIG Sauer Taper-LOK 7.62x51/.300 BLK muzzle adapter/|
+	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
+	SIG Sauer SRD762Ti 7.62x51 sound suppressor/|
+	AR-10 TAA ZK-38 7.62x51 muzzle brake/|
+	AR-10 KAC QDC 7.62x51 Muzzle Brake Kit/|
+	AR-10 Dead Air Keymount 7.62x51 muzzle brake/|
 	AAC SCAR-SD 51T 7.62x51 flash hider
 ]
 ChildParts=[
-	AR-10 CMMG low profile gas block,
+	AR-10 CMMG low profile gas block/|
 	AR-10 KAC Low Profile Gas Block
 ]
 Recoil=-4.000000
@@ -37,16 +37,16 @@ Information_Eng=A 409mm long barrel for the CMMG Mk47 Mutant assault rifle, cham
 basePrice=29567
 width=3
 height=1
-avg24hPrice=196271
-low24hPrice=39000
-lastOfferCount=16
+avg24hPrice=152607
+low24hPrice=70000
+lastOfferCount=2
 Sell_Prapor=14783
 Sell_Fence=11826
 Sell_Skier=14487
 Sell_Peacekeeper=112
 Sell_Mechanic=16557
 Sell_Jaeger=17740
-Sell_Flea Market=120000
+Sell_Flea Market=70000
 weight=1.130000
-fleaMarketFee=8478
+fleaMarketFee=3920
 propertiestype=ItemPropertiesBarrel

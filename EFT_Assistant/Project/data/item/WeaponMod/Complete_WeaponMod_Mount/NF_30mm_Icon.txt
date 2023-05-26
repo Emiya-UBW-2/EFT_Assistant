@@ -3,21 +3,21 @@ Name=Nightforce Magmount 30mm ring scope mount
 ShortName=NF 30mm
 Itemtype=Mount
 ChildParts=[
-	Burris FullField TAC30 1-4x24 30mm riflescope,
-	EOTech Vudu 1-6x24 30mm riflescope,
-	Leupold Mark 4 LR 6.5-20x50 30mm riflescope,
-	March Tactical 3-24x42 FFP 30mm riflescope,
-	Vortex Razor HD Gen.2 1-6x24 30mm riflescope,
+	Burris FullField TAC30 1-4x24 30mm riflescope/|
+	EOTech Vudu 1-6x24 30mm riflescope/|
+	Leupold Mark 4 LR 6.5-20x50 30mm riflescope/|
+	March Tactical 3-24x42 FFP 30mm riflescope/|
+	Vortex Razor HD Gen.2 1-6x24 30mm riflescope/|
 	Schmidt & Bender PM II 1-8x24 30mm riflescope
 ]
 Conflict=[
-	AR-15 Colt A2 rear sight,
-	AR-15 rear sight carry handle,
-	HK G36 front sight,
-	HK G36 rear sight,
-	HK MP5 Drum rear sight,
-	RPK-16 rear sight base,
-	SV-98 rear sight,
+	HK MP5 Drum rear sight/|
+	RPK-16 rear sight base/|
+	AR-15 Colt A2 rear sight/|
+	AR-15 rear sight carry handle/|
+	HK G36 front sight/|
+	HK G36 rear sight/|
+	SV-98 rear sight/|
 ]
 Recoil=0.000000
 Ergonomics=-1.000000
@@ -25,16 +25,16 @@ Information_Eng=Nightforce X-Treme Duty Ultralite one piece Magmount is a univer
 basePrice=6012
 width=2
 height=1
-avg24hPrice=78886
-low24hPrice=55000
-lastOfferCount=7
+avg24hPrice=63888
+low24hPrice=61111
+lastOfferCount=1
 Sell_Prapor=3006
 Sell_Fence=2404
 Sell_Skier=2945
 Sell_Peacekeeper=23
 Sell_Mechanic=3366
 Sell_Jaeger=3607
-Sell_Flea Market=59999
+Sell_Flea Market=61111
 weight=0.190000
-fleaMarketFee=7236
+fleaMarketFee=7456
 propertiestype=ItemPropertiesWeaponMod

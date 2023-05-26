@@ -3,7 +3,7 @@ Name=Rys-T face shield
 ShortName=Rys-T FS
 Itemtype=Armored equipment
 Conflict=[
-	GP-7 gas mask,
+	GP-7 gas mask/|
 ]
 Information_Eng=A special armored face shield for the "Rys-T" heavy assault helmet. Increases the chances of surviving the impacts of bullets and shrapnel.
 basePrice=79460

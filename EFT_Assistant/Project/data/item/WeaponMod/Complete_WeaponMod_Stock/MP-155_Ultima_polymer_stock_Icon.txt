@@ -3,8 +3,8 @@ Name=MP-155 Ultima polymer stock
 ShortName=Ultima
 Itemtype=Stock
 ChildParts=[
-	MP-155 Ultima large recoil pad,
-	MP-155 Ultima medium recoil pad,
+	MP-155 Ultima large recoil pad/|
+	MP-155 Ultima medium recoil pad/|
 	MP-155 Ultima thin recoil pad
 ]
 ChildParts=[
@@ -16,16 +16,16 @@ Information_Eng=The "Ultima" modification polymer stock for the MP-155 shotgun. 
 basePrice=3286
 width=2
 height=1
-avg24hPrice=10273
-low24hPrice=4000
-lastOfferCount=9
+avg24hPrice=12073
+low24hPrice=5000
+lastOfferCount=5
 Sell_Prapor=1643
 Sell_Fence=1314
 Sell_Skier=1610
 Sell_Peacekeeper=12
 Sell_Mechanic=1840
 Sell_Jaeger=1971
-Sell_Flea Market=4000
+Sell_Flea Market=5000
 weight=0.510000
-fleaMarketFee=220
+fleaMarketFee=264
 propertiestype=ItemPropertiesWeaponMod

@@ -34,7 +34,7 @@ DogTagLv=0
 
 Reward_Rep=Jaeger+0.010000
 Reward_Item=[
-	Roublesx50000,
+	Roublesx50000/|
 	SurvL Survivor Lighterx1
 ]
 

@@ -3,16 +3,16 @@ Name=Steyr AUG A3 5.56x45 assault rifle
 ShortName=AUG A3
 Itemtype=Assault rifle
 ChildParts=[
-	Steyr AUG 5.56x45 30-round magazine,
-	Steyr AUG 5.56x45 10-round magazine,
+	Steyr AUG 5.56x45 30-round magazine/|
+	Steyr AUG 5.56x45 10-round magazine/|
 	Steyr AUG 5.56x45 42-round magazine
 ]
 ChildParts=[
-	Steyr AUG A1 charging handle,
+	Steyr AUG A1 charging handle/|
 	Steyr AUG A3 charging handle
 ]
 ChildParts=[
-	Steyr AUG A3 5.56x45 receiver,
+	Steyr AUG A3 5.56x45 receiver/|
 	Steyr AUG A1 STG77 1.5x optic sight
 ]
 Recoil=60.000000
@@ -21,15 +21,15 @@ Information_Eng=Steyr AUG A3 is a 5.56x45 bullpup assault rifle, developed by th
 basePrice=31000
 width=3
 height=2
-avg24hPrice=50251
-low24hPrice=35000
-lastOfferCount=18
+avg24hPrice=49819
+low24hPrice=41000
+lastOfferCount=13
 Sell_Prapor=15500
 Sell_Fence=12400
 Sell_Skier=15190
 Sell_Peacekeeper=117
 Sell_Mechanic=17360
-Sell_Flea Market=35000
+Sell_Flea Market=45111
 weight=1.510000
-fleaMarketFee=1977
+fleaMarketFee=2387
 propertiestype=ItemPropertiesWeapon

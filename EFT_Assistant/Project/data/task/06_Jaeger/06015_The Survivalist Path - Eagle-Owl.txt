@@ -10,13 +10,13 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Kill=[
-	Interchange-Scavsx6,
-	Shoreline-Scavsx6,
-	Streets of Tarkov-Scavsx6,
-	Lighthouse-Scavsx6,
-	Woods-Scavsx6,
-	Customs-Scavsx6,
-	Reserve-Scavsx6,
+	Interchange-Scavsx6/|
+	Shoreline-Scavsx6/|
+	Streets of Tarkov-Scavsx6/|
+	Lighthouse-Scavsx6/|
+	Woods-Scavsx6/|
+	Customs-Scavsx6/|
+	Reserve-Scavsx6/|
 	The Lab-Scavsx6
 ]
 Task_Else=‘•”õ‚µ‚Ä‚Í‚¢‚¯‚È‚¢:{
@@ -41,7 +41,7 @@ Task_Else=}
 
 Reward_Rep=Jaeger+0.020000
 Reward_Item=[
-	Roublesx40000,
+	Roublesx40000/|
 	Armasight Vulcan MG 3.5x Bravo night vision scopex3
 ]
 Reward_SkillLevelUp=Perception+0

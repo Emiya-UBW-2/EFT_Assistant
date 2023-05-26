@@ -3,8 +3,8 @@ Name=MP-133 12ga 750mm barrel
 ShortName=MP133 750mm
 Itemtype=Barrel
 ChildParts=[
-	ME Cylinder 12ga muzzle adapter,
-	Remington Tactical Choke 12ga,
+	ME Cylinder 12ga muzzle adapter/|
+	Remington Tactical Choke 12ga/|
 	SilencerCo Salvo 12 choke adapter
 ]
 Recoil=-10.000000
@@ -22,7 +22,7 @@ Sell_Skier=3460
 Sell_Peacekeeper=27
 Sell_Mechanic=3954
 Sell_Jaeger=4237
-Sell_Flea Market=16699
+Sell_Flea Market=7400
 weight=1.500000
-fleaMarketFee=935
+fleaMarketFee=433
 propertiestype=ItemPropertiesBarrel

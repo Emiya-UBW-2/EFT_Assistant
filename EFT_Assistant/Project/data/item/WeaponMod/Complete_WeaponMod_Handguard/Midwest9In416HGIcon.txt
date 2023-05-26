@@ -3,43 +3,43 @@ Name=HK 416A5 Midwest Industries 9 inch M-LOK handguard
 ShortName=416A5 Midwest 9"
 Itemtype=Handguard
 ChildParts=[
-	Magpul M-LOK 2.5 inch rail,
-	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK 2.5 inch rail/|
+	Magpul M-LOK Cantilever Mount/|
 	Magpul M-LOK Offset Light Mount
 ]
 ChildParts=[
-	Magpul M-LOK 2.5 inch rail,
-	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK 2.5 inch rail/|
+	Magpul M-LOK Cantilever Mount/|
 	Magpul M-LOK Offset Light Mount
 ]
 ChildParts=[
-	Holosun LS321 Tactical device,
-	AN/PEQ-15 tactical device,
-	AN/PEQ-2 tactical device,
-	LA-5B/PEQ tactical device,
-	SureFire XC1 tactical flashlight,
-	Wilcox RAPTAR ES Tactical Rangefinder,
+	Holosun LS321 Tactical device/|
+	AN/PEQ-15 tactical device/|
+	AN/PEQ-2 tactical device/|
+	LA-5B/PEQ tactical device/|
+	SureFire XC1 tactical flashlight/|
+	Wilcox RAPTAR ES Tactical Rangefinder/|
 	Zenit Perst-3 tactical device
 ]
 ChildParts=[
 	NcSTAR MPR45 Backup mount
 ]
 ChildParts=[
-	Magpul M-LOK AFG tactical foregrip (Black),
-	Magpul M-LOK AFG tactical foregrip (FDE),
-	Magpul M-LOK AFG tactical foregrip (Olive Drab),
-	Magpul M-LOK AFG tactical foregrip (Stealth Gray),
+	Magpul M-LOK AFG tactical foregrip (Black)/|
+	Magpul M-LOK AFG tactical foregrip (FDE)/|
+	Magpul M-LOK AFG tactical foregrip (Olive Drab)/|
+	Magpul M-LOK AFG tactical foregrip (Stealth Gray)/|
 	Magpul M-LOK 4.1 inch rail
 ]
 ChildParts=[
-	HK MP7 flip-up front sight,
-	KAC Folding Micro front sight,
-	KAC Folding front sight,
-	KRISS Defiance low profile flip-up front sight,
-	Magpul MBUS Gen2 flip-up front sight,
-	Magpul MBUS Gen2 flip-up front sight (FDE),
-	MCX flip-up front sight,
-	MPX flip-up front sight,
+	HK MP7 flip-up front sight/|
+	KAC Folding Micro front sight/|
+	KAC Folding front sight/|
+	KRISS Defiance low profile flip-up front sight/|
+	Magpul MBUS Gen2 flip-up front sight/|
+	Magpul MBUS Gen2 flip-up front sight (FDE)/|
+	MCX flip-up front sight/|
+	MPX flip-up front sight/|
 	AR-15 Leapers UTG Low Profile A2 front sight
 ]
 Recoil=0.000000
@@ -48,15 +48,15 @@ Information_Eng=The Midwest Industries M-LOK foregrip for 416A5 equipped with an
 basePrice=12100
 width=2
 height=1
-avg24hPrice=22112
-low24hPrice=12000
-lastOfferCount=1
+avg24hPrice=28316
+low24hPrice=15623
+lastOfferCount=8
 Sell_Prapor=6050
 Sell_Fence=4840
 Sell_Skier=5929
 Sell_Peacekeeper=46
 Sell_Mechanic=6776
-Sell_Flea Market=76540
+Sell_Flea Market=15623
 weight=0.280000
-fleaMarketFee=6956
+fleaMarketFee=844
 propertiestype=ItemPropertiesWeaponMod

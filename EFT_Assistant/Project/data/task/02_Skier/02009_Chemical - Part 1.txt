@@ -46,10 +46,10 @@ Task_Else=Locate the sleeping place of the former Deputy Chief of Security on Cu
 
 Reward_Rep=Skier+0.040000
 Reward_Item=[
-	Roublesx15000,
+	Roublesx15000/|
 	MSA ACH TC-2002 MICH Series helmetx1
 ]
 
 Reward_EXP=4800
-Task_PinPoint=[-0.326606,-0.241970,0.000000]
-Task_PinMap=[Customs,1]
+Task_PinPoint=[-0.326606/|-0.241970/|0.000000]
+Task_PinMap=[Customs/|1]

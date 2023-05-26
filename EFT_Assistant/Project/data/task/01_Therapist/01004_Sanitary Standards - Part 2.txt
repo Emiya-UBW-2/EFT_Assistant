@@ -27,7 +27,7 @@ DogTagLv=0
 
 Reward_Rep=Therapist+0.030000
 Reward_Item=[
-	Roublesx30000,
+	Roublesx30000/|
 	Propital regenerative stimulant injectorx1
 ]
 

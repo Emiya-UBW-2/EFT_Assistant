@@ -50,8 +50,8 @@ Task_Else=èEÇ¡Çƒî[ïi:Shoreline-UAV SAS disk #2x1
 
 Reward_Rep=Peacekeeper+0.030000
 Reward_Item=[
-	Dollarsx900,
-	ELCAN SpecterDR 1x/4x scope (FDE)x1,
+	Dollarsx900/|
+	ELCAN SpecterDR 1x/4x scope (FDE)x1/|
 	Leupold Mark 4 HAMR 4x24 DeltaPoint hybrid assault scopex1
 ]
 

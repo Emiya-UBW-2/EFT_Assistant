@@ -4,7 +4,7 @@ Trader=Ragman
 
 NeedTask=A Fuel Matter
 NeedLevel=17
-NeedItem=[RB-ORB1 keyx1,RB-ORB2 keyx1,RB-ORB3 keyx1,RB-OB keyx1]
+NeedItem=[RB-ORB1 keyx1/|RB-ORB2 keyx1/|RB-ORB3 keyx1/|RB-OB keyx1]
 
 CanRestart=false
 NeedKappa=true
@@ -57,22 +57,22 @@ Task_Else=脱出ステータス:[Survived]
 
 Reward_Rep=Ragman+0.030000
 Reward_Item=[
-	Roublesx30000,
+	Roublesx30000/|
 	ZSh-1-2M helmetx1
 ]
 
 Reward_EXP=10000
-Task_PinPoint=[-0.059570,0.129557,0.000000]
-Task_PinMap=[Reserve,1]
-Task_PinPoint=[0.316406,0.313965,0.000000]
-Task_PinMap=[Reserve,1]
-Task_PinPoint=[0.315918,0.395020,0.000000]
-Task_PinMap=[Reserve,1]
-Task_PinPoint=[-0.030518,-0.007324,0.000000]
-Task_PinMap=[Reserve,1]
-Task_PinPoint=[0.246826,0.144043,0.000000]
-Task_PinMap=[Reserve,1]
-Task_PinPoint=[0.264404,0.149414,0.000000]
-Task_PinMap=[Reserve,1]
-Task_PinPoint=[0.289063,0.142578,0.000000]
-Task_PinMap=[Reserve,1]
+Task_PinPoint=[-0.059570/|0.129557/|0.000000]
+Task_PinMap=[Reserve/|1]
+Task_PinPoint=[0.316406/|0.313965/|0.000000]
+Task_PinMap=[Reserve/|1]
+Task_PinPoint=[0.315918/|0.395020/|0.000000]
+Task_PinMap=[Reserve/|1]
+Task_PinPoint=[-0.030518/|-0.007324/|0.000000]
+Task_PinMap=[Reserve/|1]
+Task_PinPoint=[0.246826/|0.144043/|0.000000]
+Task_PinMap=[Reserve/|1]
+Task_PinPoint=[0.264404/|0.149414/|0.000000]
+Task_PinMap=[Reserve/|1]
+Task_PinPoint=[0.289063/|0.142578/|0.000000]
+Task_PinMap=[Reserve/|1]

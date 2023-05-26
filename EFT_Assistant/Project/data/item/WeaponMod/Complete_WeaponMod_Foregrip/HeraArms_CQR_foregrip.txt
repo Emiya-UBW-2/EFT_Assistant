@@ -3,35 +3,35 @@ Name=Hera Arms CQR tactical foregrip
 ShortName=CQR
 Itemtype=Foregrip
 Conflict=[
-	AK Krebs Custom UFM KeyMod handguard,
-	AK Strike Industries TRAX 1 handguard,
-	Molot VPO-101 "Vepr-Hunter" 7.62x51 carbine,
-	DS Arms SA-58 7.62x51 assault rifle,
-	Desert Tech MDR 5.56x45 assault rifle,
-	Kalashnikov AK-101 5.56x45 assault rifle,
-	Kalashnikov AK-102 5.56x45 assault rifle,
-	Kalashnikov AK-103 7.62x39 assault rifle,
-	Kalashnikov AK-104 7.62x39 assault rifle,
-	Kalashnikov AK-105 5.45x39 assault rifle,
-	Kalashnikov AK-74 5.45x39 assault rifle,
-	Kalashnikov AK-74M 5.45x39 assault rifle,
-	Kalashnikov AK-74N 5.45x39 assault rifle,
-	Kalashnikov AKM 7.62x39 assault rifle,
-	Kalashnikov AKMN 7.62x39 assault rifle,
-	Kalashnikov AKMS 7.62x39 assault rifle,
-	Kalashnikov AKMSN 7.62x39 assault rifle,
-	Kalashnikov AKS-74 5.45x39 assault rifle,
-	Kalashnikov AKS-74N 5.45x39 assault rifle,
-	Kalashnikov AKS-74U 5.45x39 assault rifle,
-	Kalashnikov AKS-74UB 5.45x39 assault rifle,
-	Kalashnikov AKS-74UN 5.45x39 assault rifle,
-	Molot VPO-209 .366 TKM carbine,
-	Molot VPO-136 "Vepr-KM" 7.62x39 carbine,
-	RPK-16 5.45x39 light machine gun,
-	SVDS 7.62x54R sniper rifle,
-	Saiga 12ga ver.10 12/76 semi-automatic shotgun,
-	PP-19-01 "Vityaz" 9x19 submachine gun,
-	Saiga-9 9x19 carbine,
+	AK Krebs Custom UFM KeyMod handguard/|
+	AK Strike Industries TRAX 1 handguard/|
+	Molot VPO-101 "Vepr-Hunter" 7.62x51 carbine/|
+	DS Arms SA-58 7.62x51 assault rifle/|
+	Desert Tech MDR 5.56x45 assault rifle/|
+	Kalashnikov AK-101 5.56x45 assault rifle/|
+	Kalashnikov AK-102 5.56x45 assault rifle/|
+	Kalashnikov AK-103 7.62x39 assault rifle/|
+	Kalashnikov AK-104 7.62x39 assault rifle/|
+	Kalashnikov AK-105 5.45x39 assault rifle/|
+	Kalashnikov AK-74 5.45x39 assault rifle/|
+	Kalashnikov AK-74M 5.45x39 assault rifle/|
+	Kalashnikov AK-74N 5.45x39 assault rifle/|
+	Kalashnikov AKM 7.62x39 assault rifle/|
+	Kalashnikov AKMN 7.62x39 assault rifle/|
+	Kalashnikov AKMS 7.62x39 assault rifle/|
+	Kalashnikov AKMSN 7.62x39 assault rifle/|
+	Kalashnikov AKS-74 5.45x39 assault rifle/|
+	Kalashnikov AKS-74N 5.45x39 assault rifle/|
+	Kalashnikov AKS-74U 5.45x39 assault rifle/|
+	Kalashnikov AKS-74UB 5.45x39 assault rifle/|
+	Kalashnikov AKS-74UN 5.45x39 assault rifle/|
+	Molot VPO-209 .366 TKM carbine/|
+	Molot VPO-136 "Vepr-KM" 7.62x39 carbine/|
+	RPK-16 5.45x39 light machine gun/|
+	SVDS 7.62x54R sniper rifle/|
+	Saiga 12ga ver.10 12/76 semi-automatic shotgun/|
+	PP-19-01 "Vityaz" 9x19 submachine gun/|
+	Saiga-9 9x19 carbine/|
 	Remington Model 700 7.62x51 bolt-action sniper rifle
 ]
 Recoil=-3.000000
@@ -40,15 +40,15 @@ Information_Eng=The CQR front grip is an easy to install, lightweight, and compa
 basePrice=20961
 width=1
 height=1
-avg24hPrice=40187
-low24hPrice=25444
-lastOfferCount=53
+avg24hPrice=42528
+low24hPrice=29000
+lastOfferCount=28
 Sell_Prapor=10480
 Sell_Fence=8384
 Sell_Skier=10270
 Sell_Peacekeeper=79
 Sell_Mechanic=11738
-Sell_Flea Market=35800
+Sell_Flea Market=29000
 weight=0.167000
-fleaMarketFee=1886
+fleaMarketFee=1545
 propertiestype=ItemPropertiesWeaponMod

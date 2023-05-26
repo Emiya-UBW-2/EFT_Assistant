@@ -9,17 +9,17 @@ ChildParts=[
 	Mosin Rifle carbine rear sight
 ]
 ChildParts=[
-	Mosin Rifle Tacfire Tanker Style 7.62x54R muzzle brake,
-	Mosin Rifle Texas Precision Products 7.62x54R muzzle brake,
-	Mosin Rifle Witt Machine 7.62x54R muzzle brake,
-	Mosin Rifle Kiba Arms 7.62x54R custom thread adapter,
-	Mosin Rifle Tiger Rock 7.62x51 thread adapter,
-	Mosin Rifle Weapon Tuning 7.62x39 thread adapter,
+	Mosin Rifle Tacfire Tanker Style 7.62x54R muzzle brake/|
+	Mosin Rifle Texas Precision Products 7.62x54R muzzle brake/|
+	Mosin Rifle Witt Machine 7.62x54R muzzle brake/|
+	Mosin Rifle Kiba Arms 7.62x54R custom thread adapter/|
+	Mosin Rifle Tiger Rock 7.62x51 thread adapter/|
+	Mosin Rifle Weapon Tuning 7.62x39 thread adapter/|
 	Mosin Rifle Bramit 7.62x54R sound suppressor
 ]
 Conflict=[
-	Mosin Rifle Infantry stock,
-	Mosin Rifle standard stock,
+	Mosin Rifle Infantry stock/|
+	Mosin Rifle standard stock/|
 ]
 Recoil=-8.000000
 Ergonomics=-8.000000

@@ -3,22 +3,22 @@ Name=SV-98 CNC Guns OV-SV98 KeyMod handguard
 ShortName=OV KM
 Itemtype=Handguard
 ChildParts=[
-	CNC Guns KeyMod 4 inch rail,
-	CNC Guns KeyMod 2 inch rail,
-	Strike Industries KeyMod 4 inch rail,
-	Vltor CASV KeyMod 2 inch rail,
+	CNC Guns KeyMod 4 inch rail/|
+	CNC Guns KeyMod 2 inch rail/|
+	Strike Industries KeyMod 4 inch rail/|
+	Vltor CASV KeyMod 2 inch rail/|
 	Vltor CASV KeyMod 4 inch rail
 ]
 ChildParts=[
-	CNC Guns KeyMod 2 inch rail,
-	Strike Industries KeyMod 4 inch rail,
-	Vltor CASV KeyMod 2 inch rail,
+	CNC Guns KeyMod 2 inch rail/|
+	Strike Industries KeyMod 4 inch rail/|
+	Vltor CASV KeyMod 2 inch rail/|
 	Vltor CASV KeyMod 4 inch rail
 ]
 ChildParts=[
-	CNC Guns KeyMod 2 inch rail,
-	Strike Industries KeyMod 4 inch rail,
-	Vltor CASV KeyMod 2 inch rail,
+	CNC Guns KeyMod 2 inch rail/|
+	Strike Industries KeyMod 4 inch rail/|
+	Vltor CASV KeyMod 2 inch rail/|
 	Vltor CASV KeyMod 4 inch rail
 ]
 Conflict=[
@@ -30,15 +30,15 @@ Information_Eng=CNC Guns Keymod System aircraft-grade aluminum handguard for the
 basePrice=8000
 width=2
 height=1
-avg24hPrice=16782
-low24hPrice=7900
-lastOfferCount=17
+avg24hPrice=18949
+low24hPrice=9876
+lastOfferCount=28
 Sell_Prapor=4000
 Sell_Fence=3200
 Sell_Skier=3920
 Sell_Peacekeeper=30
 Sell_Mechanic=4480
-Sell_Flea Market=11888
+Sell_Flea Market=13333
 weight=0.330000
-fleaMarketFee=628
+fleaMarketFee=702
 propertiestype=ItemPropertiesWeaponMod

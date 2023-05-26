@@ -1,2 +1,2 @@
 Name=Raider
-Color=[255,255,0]
+Color=[255/|255/|0]

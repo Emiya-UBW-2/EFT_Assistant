@@ -105,8 +105,8 @@ DogTagLv=0
 
 Reward_Rep=Peacekeeper+0.040000
 Reward_Item=[
-	Dollarsx4000,
-	Ammunition casex1,
+	Dollarsx4000/|
+	Ammunition casex1/|
 	DS Arms SA-58 7.62x51 assault rifle BELx1
 ]
 

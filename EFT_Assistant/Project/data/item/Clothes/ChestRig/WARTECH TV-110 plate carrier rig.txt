@@ -1,5 +1,5 @@
 IDstr=5c0e746986f7741453628fe5
-Name=WARTECH TV-110 plate carrier rig
+Name=WARTECH TV-110 plate carrier
 ShortName=TV-110
 Itemtype=Chest rig
 Information_Eng=A plate carrier with armor plates made of armored steel (Russian GOST class 4 protection) with chest and back protection only, equipped with a set of pouches. Manufactured by WARTECH.

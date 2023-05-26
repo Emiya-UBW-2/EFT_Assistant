@@ -3,7 +3,7 @@ Name=AK-74 "Plum" polymer handguard (6P20 Sb.9)
 ShortName=6P20 Sb.9
 Itemtype=Handguard
 Conflict=[
-	AK Zenit B-33 dust cover,
+	AK Zenit B-33 dust cover/|
 ]
 Recoil=0.000000
 Ergonomics=5.000000
@@ -11,15 +11,15 @@ Information_Eng=A polymer handguard for AK-74 automatic rifles, manufactured by 
 basePrice=1122
 width=1
 height=1
-avg24hPrice=7070
-low24hPrice=1000
-lastOfferCount=2
+avg24hPrice=13857
+low24hPrice=1200
+lastOfferCount=1
 Sell_Prapor=561
 Sell_Fence=448
 Sell_Skier=549
 Sell_Peacekeeper=4
 Sell_Mechanic=628
-Sell_Flea Market=31000
+Sell_Flea Market=1200
 weight=0.250000
-fleaMarketFee=7283
+fleaMarketFee=69
 propertiestype=ItemPropertiesWeaponMod

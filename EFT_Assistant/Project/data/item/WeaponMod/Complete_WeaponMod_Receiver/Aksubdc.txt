@@ -3,11 +3,11 @@ Name=AKS-74UB dust cover
 ShortName=AKS-74UB
 Itemtype=Receiver
 Conflict=[
-	OKP-7 reflex sight (Dovetail),
-	BelOMO PSO-1 4x24 scope,
-	BelOMO PSO-1M2-1 4x24 scope,
-	BelOMO PSO-1M2 4x24 scope,
-	Zenit B-13 "Klassika" dovetail rail platform,
+	OKP-7 reflex sight (Dovetail)/|
+	BelOMO PSO-1 4x24 scope/|
+	BelOMO PSO-1M2-1 4x24 scope/|
+	BelOMO PSO-1M2 4x24 scope/|
+	Zenit B-13 "Klassika" dovetail rail platform/|
 	Zenit B-13V "Klassika" dovetail rail platform
 ]
 Recoil=0.000000
@@ -16,15 +16,15 @@ Information_Eng=A standard-issue dust cover for AKS-74UB automatic rifles, manuf
 basePrice=3203
 width=2
 height=1
-avg24hPrice=0
-low24hPrice=0
+avg24hPrice=55555
+low24hPrice=55555
 lastOfferCount=1
 Sell_Prapor=1601
 Sell_Fence=1281
 Sell_Skier=1569
 Sell_Peacekeeper=12
 Sell_Mechanic=1793
-Sell_Flea Market=30000
+Sell_Flea Market=55555
 weight=0.142000
-fleaMarketFee=3475
+fleaMarketFee=9585
 propertiestype=ItemPropertiesWeaponMod

@@ -3,12 +3,12 @@ Name=HK MP5 9x19 submachine gun (Navy 3 Round Burst)
 ShortName=MP5
 Itemtype=SMG
 ChildParts=[
-	HK MP5 9x19 20-round magazine,
-	HK MP5 9x19 30-round magazine,
+	HK MP5 9x19 20-round magazine/|
+	HK MP5 9x19 30-round magazine/|
 	HK MP5 9x19 X Products X-5 50-round drum magazine
 ]
 ChildParts=[
-	HK MP5SD 9x19 upper receiver,
+	HK MP5SD 9x19 upper receiver/|
 	HK MP5 9x19 upper receiver
 ]
 ChildParts=[
@@ -20,15 +20,15 @@ Information_Eng=HK MP5 submachinegun with Navy 3 Round Burst firing mechanism ve
 basePrice=12132
 width=1
 height=1
-avg24hPrice=32489
-low24hPrice=19800
-lastOfferCount=21
+avg24hPrice=37779
+low24hPrice=23999
+lastOfferCount=12
 Sell_Prapor=6066
 Sell_Fence=4852
 Sell_Skier=5944
 Sell_Peacekeeper=46
 Sell_Mechanic=6793
-Sell_Flea Market=28000
+Sell_Flea Market=23999
 weight=0.740000
-fleaMarketFee=1556
+fleaMarketFee=1286
 propertiestype=ItemPropertiesWeapon

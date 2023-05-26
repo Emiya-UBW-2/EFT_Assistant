@@ -7,12 +7,12 @@ ChildParts=[
 	NPZ 1P78 scope eyecup
 ]
 Conflict=[
-	Axion Kobra EKP-8-02 reflex sight (Dovetail),
-	BelOMO PK-AA dovetail reflex sight,
-	OKP-7 reflex sight (Dovetail),
-	Axion Kobra dovetail mount,
-	VOMZ Pilad 043-02 dovetail mount,
-	SOK-12 Leapers UTG PRO MTU002 Long Top aluminum handguard,
+	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
+	BelOMO PK-AA dovetail reflex sight/|
+	OKP-7 reflex sight (Dovetail)/|
+	Axion Kobra dovetail mount/|
+	VOMZ Pilad 043-02 dovetail mount/|
+	SOK-12 Leapers UTG PRO MTU002 Long Top aluminum handguard/|
 	SOK-12 Leapers UTG PRO MTU002 Short Top aluminum handguard
 ]
 Recoil=0.000000
@@ -21,16 +21,16 @@ Information_Eng=A 2.8x magnification day scope, installed on dovetail rails. Man
 basePrice=20500
 width=1
 height=1
-avg24hPrice=14383
-low24hPrice=10800
-lastOfferCount=22
+avg24hPrice=14355
+low24hPrice=11111
+lastOfferCount=5
 Sell_Prapor=10250
 Sell_Fence=8200
 Sell_Skier=10045
 Sell_Peacekeeper=78
 Sell_Mechanic=11480
 Sell_Jaeger=12300
-Sell_Flea Market=10990
+Sell_Flea Market=13543
 weight=0.600000
-fleaMarketFee=1089
+fleaMarketFee=1081
 propertiestype=ItemPropertiesScope

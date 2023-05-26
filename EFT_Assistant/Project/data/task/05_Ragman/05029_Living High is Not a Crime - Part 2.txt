@@ -66,9 +66,9 @@ DogTagLv=0
 
 Reward_Rep=Ragman+0.050000
 Reward_Item=[
-	Roublesx110000,
-	Altyn bulletproof helmetx1,
-	Altyn face shieldx1,
+	Roublesx110000/|
+	Altyn bulletproof helmetx1/|
+	Altyn face shieldx1/|
 	Ars Arma CPC MOD.1 plate carrierx1
 ]
 

@@ -3,8 +3,8 @@ Name=Benelli M3 Super 90 12ga 500mm barrel
 ShortName=M3 500mm
 Itemtype=Barrel
 ChildParts=[
-	ME Cylinder 12ga muzzle adapter,
-	Remington Tactical Choke 12ga,
+	ME Cylinder 12ga muzzle adapter/|
+	Remington Tactical Choke 12ga/|
 	SilencerCo Salvo 12 choke adapter
 ]
 Recoil=-7.000000

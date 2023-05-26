@@ -25,7 +25,7 @@ Task_Else=E‚Á‚Ä”[•i:Shoreline-Key to the closed premises of the Health Resortx1
 
 Reward_Rep=Peacekeeper+0.020000
 Reward_Item=[
-	Dollarsx980,
+	Dollarsx980/|
 	RB-AO keyx1
 ]
 

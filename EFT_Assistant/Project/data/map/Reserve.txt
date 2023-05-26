@@ -1,5 +1,5 @@
 Name=Reserve
-Color=[64,192,64]
+Color=[64/|192/|64]
 InGamePath=data/InGameMapPic/Reserve_Map_Translated.jpg
 NorthDegree=165
 2DPath=data/2DMaspPic/JindouzReserve_v1_2dmap.jpg

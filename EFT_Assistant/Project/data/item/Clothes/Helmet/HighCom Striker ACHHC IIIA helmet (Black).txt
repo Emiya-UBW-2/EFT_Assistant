@@ -3,22 +3,22 @@ Name=HighCom Striker ACHHC IIIA helmet (Black)
 ShortName=ACHHC
 Itemtype=Headwear
 Conflict=[
-	Faceless mask,
-	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY",
+	Faceless mask/|
+	Tagilla's welding mask "Gorilla"/|
+	Tagilla's welding mask "UBEY"/|
 ]
 Information_Eng=A combat helmet manufactured by HighCom, the High Cut version. Does not feature any additional mounts. Black version.
 basePrice=55170
 width=2
 height=2
-avg24hPrice=73799
-low24hPrice=59999
-lastOfferCount=9
+avg24hPrice=80896
+low24hPrice=58888
+lastOfferCount=5
 Sell_Fence=22068
 Sell_Skier=27033
 Sell_Peacekeeper=209
 Sell_Ragman=34205
-Sell_Flea Market=75000
+Sell_Flea Market=90000
 weight=1.200000
-fleaMarketFee=4009
+fleaMarketFee=4736
 propertiestype=ItemPropertiesHelmet

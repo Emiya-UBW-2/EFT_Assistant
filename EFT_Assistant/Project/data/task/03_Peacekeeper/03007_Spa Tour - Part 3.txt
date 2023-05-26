@@ -65,10 +65,10 @@ DogTagLv=0
 
 Reward_Rep=Peacekeeper+0.030000
 Reward_Item=[
-	Dollarsx800,
-	TDI KRISS Vector Gen.2 9x19 submachine gun Defaultx1,
-	Glock 9x19 "Big Stick" 33-round magazinex4,
-	M67 hand grenadex5,
+	Dollarsx800/|
+	TDI KRISS Vector Gen.2 9x19 submachine gun Defaultx1/|
+	Glock 9x19 "Big Stick" 33-round magazinex4/|
+	M67 hand grenadex5/|
 	Toolsetx2
 ]
 

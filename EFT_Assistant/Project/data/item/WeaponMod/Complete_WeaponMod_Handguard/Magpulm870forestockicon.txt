@@ -3,18 +3,18 @@ Name=M870 Magpul MOE handguard
 ShortName=MOE 870
 Itemtype=Handguard
 ChildParts=[
-	Magpul M-LOK AFG tactical foregrip (Black),
-	Magpul M-LOK AFG tactical foregrip (FDE),
-	Magpul M-LOK AFG tactical foregrip (Olive Drab),
-	Magpul M-LOK AFG tactical foregrip (Stealth Gray),
+	Magpul M-LOK AFG tactical foregrip (Black)/|
+	Magpul M-LOK AFG tactical foregrip (FDE)/|
+	Magpul M-LOK AFG tactical foregrip (Olive Drab)/|
+	Magpul M-LOK AFG tactical foregrip (Stealth Gray)/|
 	Magpul M-LOK 4.1 inch rail
 ]
 ChildParts=[
-	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount
 ]
 ChildParts=[
-	Magpul M-LOK 2.5 inch rail,
+	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount
 ]
 Recoil=0.000000
@@ -23,15 +23,15 @@ Information_Eng=The Magpul MOE forend, designed for the Remington Model 870 shot
 basePrice=7852
 width=2
 height=1
-avg24hPrice=44105
-low24hPrice=18500
-lastOfferCount=5
+avg24hPrice=45110
+low24hPrice=19500
+lastOfferCount=24
 Sell_Prapor=3926
 Sell_Fence=3140
 Sell_Skier=3847
 Sell_Peacekeeper=30
 Sell_Mechanic=4397
-Sell_Flea Market=60000
+Sell_Flea Market=39500
 weight=0.600000
-fleaMarketFee=6119
+fleaMarketFee=3139
 propertiestype=ItemPropertiesWeaponMod

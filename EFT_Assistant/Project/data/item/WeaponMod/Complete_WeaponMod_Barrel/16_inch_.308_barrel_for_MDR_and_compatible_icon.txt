@@ -3,27 +3,27 @@ Name=MDR 7.62x51 16 inch barrel
 ShortName=MDR 762 16"
 Itemtype=Barrel
 ChildParts=[
-	AWC PSR 7.62x51 muzzle brake,
-	Yankee Hill Annihilator multi-caliber flash hider,
-	AR-10 2A Armanent X3 7.62x51 compensator,
-	AR-10 AAC Blackout 51T 7.62x51 flash hider,
-	AR-10 CMMG SV Brake 7.62x51 muzzle brake,
-	AR-10 Daniel Defense WAVE 7.62x51 muzzle brake,
-	Desert Tech 7.62x51 flash hider,
-	AR-10 Fortis RED Brake 7.62x51 muzzle brake,
-	AR-10 KAC QDC 7.62x51 Flash Suppressor Kit,
-	AR-10 KAC QDC 7.62x51 Muzzle Brake Kit,
-	AR-10 Keeno Arms SHREWD 7.62x51 muzzle brake,
-	AR-10 Lantac Drakon 7.62x51 muzzle brake-compensator,
-	AR-10 Nordic Components Corvette 7.62x51 compensator,
-	AR-10 Odin Works ATLAS-7 7.62x51 muzzle brake,
-	AR-10 Precision Armanent M11 Severe-Duty 7.62x51 muzzle brake,
-	AR-10 SureFire ProComp 7.62x51 muzzle brake,
-	AR-10 SureFire Warden 7.62x51 blast regulator,
-	AR-10 TAA ZK-38 7.62x51 muzzle brake,
-	AR-10 Thunder Beast Arms 30CB 7.62x51 muzzle brake,
-	Gemtech ONE Direct Thread Mount adapter,
-	SilencerCo Hybrid 46 Direct Thread Mount adapter,
+	AWC PSR 7.62x51 muzzle brake/|
+	Yankee Hill Annihilator multi-caliber flash hider/|
+	AR-10 2A Armanent X3 7.62x51 compensator/|
+	AR-10 AAC Blackout 51T 7.62x51 flash hider/|
+	AR-10 CMMG SV Brake 7.62x51 muzzle brake/|
+	AR-10 Daniel Defense WAVE 7.62x51 muzzle brake/|
+	Desert Tech 7.62x51 flash hider/|
+	AR-10 Fortis RED Brake 7.62x51 muzzle brake/|
+	AR-10 KAC QDC 7.62x51 Flash Suppressor Kit/|
+	AR-10 KAC QDC 7.62x51 Muzzle Brake Kit/|
+	AR-10 Keeno Arms SHREWD 7.62x51 muzzle brake/|
+	AR-10 Lantac Drakon 7.62x51 muzzle brake-compensator/|
+	AR-10 Nordic Components Corvette 7.62x51 compensator/|
+	AR-10 Odin Works ATLAS-7 7.62x51 muzzle brake/|
+	AR-10 Precision Armanent M11 Severe-Duty 7.62x51 muzzle brake/|
+	AR-10 SureFire ProComp 7.62x51 muzzle brake/|
+	AR-10 SureFire Warden 7.62x51 blast regulator/|
+	AR-10 TAA ZK-38 7.62x51 muzzle brake/|
+	AR-10 Thunder Beast Arms 30CB 7.62x51 muzzle brake/|
+	Gemtech ONE Direct Thread Mount adapter/|
+	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
 	Lantac BMD Blast Mitigation Device A3 direct thread adapter
 ]
 Recoil=-10.000000
@@ -32,8 +32,8 @@ Information_Eng=A 16 inch (406mm) barrel for MDR based weapons for 7.62x51 NATO 
 basePrice=49267
 width=3
 height=1
-avg24hPrice=55555
-low24hPrice=55555
+avg24hPrice=0
+low24hPrice=0
 lastOfferCount=1
 Sell_Prapor=24633
 Sell_Fence=19706
@@ -41,7 +41,7 @@ Sell_Skier=24140
 Sell_Peacekeeper=186
 Sell_Mechanic=27589
 Sell_Jaeger=29560
-Sell_Flea Market=55555
+Sell_Flea Market=164111
 weight=0.620000
-fleaMarketFee=3139
+fleaMarketFee=10510
 propertiestype=ItemPropertiesBarrel

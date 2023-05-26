@@ -39,8 +39,8 @@ DogTagLv=0
 
 Reward_Rep=Therapist+0.050000
 Reward_Item=[
-	Roublesx130000,
-	Health Resort east wing room 306 keyx1,
+	Roublesx130000/|
+	Health Resort east wing room 306 keyx1/|
 	T H I C C item casex1
 ]
 

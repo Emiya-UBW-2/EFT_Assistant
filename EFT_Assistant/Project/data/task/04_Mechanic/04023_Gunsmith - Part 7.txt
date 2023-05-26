@@ -30,8 +30,8 @@ Task_Else=width >= 0
 
 Reward_Rep=Mechanic+0.010000
 Reward_Item=[
-	Dollarsx500,
-	Pliers Elitex1,
+	Dollarsx500/|
+	Pliers Elitex1/|
 	Electric drillx1
 ]
 

@@ -3,7 +3,7 @@ Name=Magpul RVG foregrip (Black)
 ShortName=RVG BLK
 Itemtype=Foregrip
 Conflict=[
-	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher/|
 ]
 Recoil=-2.000000
 Ergonomics=7.000000
@@ -11,15 +11,15 @@ Information_Eng=The Magpul RVG (Rail Vertical Grip) tactical grip. A common, uns
 basePrice=8109
 width=1
 height=1
-avg24hPrice=38470
-low24hPrice=15555
-lastOfferCount=2
+avg24hPrice=27769
+low24hPrice=16000
+lastOfferCount=11
 Sell_Prapor=4054
 Sell_Fence=3243
 Sell_Skier=3973
 Sell_Peacekeeper=31
 Sell_Mechanic=4541
-Sell_Flea Market=15555
+Sell_Flea Market=24444
 weight=0.082000
-fleaMarketFee=830
+fleaMarketFee=1497
 propertiestype=ItemPropertiesWeaponMod

@@ -34,11 +34,15 @@ namespace FPS_n2 {
 		int											m_fleaMarketFee{ 0 };
 		bool										m_IsPreset{ false };
 		std::vector<int>							m_UseTaskID;
+	private:
+		std::string									m_TypeArg;
+		std::vector<std::string>					m_MapArgs;
+		std::vector<std::pair<std::string, std::string>> m_selArgs;
 	public:
 		int										m_CheckJson{ 0 };
 	private:
 		//í«â¡ê›íË
-		void	Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept override;
+		void	SetSub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept override;
 		void	Load_Sub() noexcept override;
 		void	WhenAfterLoad_Sub() noexcept override;
 	public:
@@ -691,7 +695,7 @@ namespace FPS_n2 {
 									for (auto& d : m) {
 										auto NmBuf = d;
 										if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
-											outputfile << "\t" + NmBuf + ((&d != &m.back()) ? "," : "") + "\n";
+											outputfile << "\t" + NmBuf + ((&d != &m.back()) ? DIV_STR : "") + "\n";
 											Names.emplace_back(NmBuf);
 										}
 									}
@@ -701,45 +705,57 @@ namespace FPS_n2 {
 						}
 						else {
 							for (auto& m : L.GetChildParts()) {
-								outputfile << "ChildParts=[\n";
-								std::vector<std::string> Names;
-								for (auto& d : m.Data) {
-									if (d.first) {
-										auto NmBuf = d.first->GetName();
-										if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
-											outputfile << "\t" + NmBuf + ((&d != &m.Data.back()) ? "," : "") + "\n";
-											Names.emplace_back(NmBuf);
+								if (m.Data.size() > 0) {
+									outputfile << "ChildParts=[\n";
+									std::vector<std::string> Names;
+									for (auto& d : m.Data) {
+										if (d.first) {
+											auto NmBuf = d.first->GetName();
+											if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
+												outputfile << "\t" + NmBuf + ((&d != &m.Data.back()) ? DIV_STR : "") + "\n";
+												Names.emplace_back(NmBuf);
+											}
+										}
+										else {
+											//int a = 0;
 										}
 									}
-									else {
-										//int a = 0;
-									}
+									outputfile << "]\n";
 								}
-								outputfile << "]\n";
 							}
 						}
 
 						if (jd.conflictingItems.size() > 0) {
-							outputfile << "Conflict=[\n";
+							bool isHit = false;
 							std::vector<std::string> Names;
 							for (auto& m : jd.conflictingItems) {
 								auto NmBuf = m;
 								if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
-									outputfile << "\t" + NmBuf + ((&m != &jd.conflictingItems.back()) ? "," : "") + "\n";
+									if (!isHit) {
+										isHit = true;
+										outputfile << "Conflict=[\n";
+									}
+									outputfile << "\t" + NmBuf + ((&m != &jd.conflictingItems.back()) ? DIV_STR : "") + "\n";
 									Names.emplace_back(NmBuf);
 								}
 							}
-							outputfile << "]\n";
+							if (isHit) {
+								outputfile << "]\n";
+							}
 						}
 						else {
 							if (L.GetConflictParts().size() > 0) {
-								outputfile << "Conflict=[\n";
+								bool isHit = false;
 								std::vector<std::string> Names;
 								for (auto& m : L.GetConflictParts()) {
 									if (m.first) {
 										auto NmBuf = m.first->GetName();
 										if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
-											outputfile << "\t" + NmBuf + ((&m != &L.GetConflictParts().back()) ? "," : "") + "\n";
+											if (!isHit) {
+												isHit = true;
+												outputfile << "Conflict=[\n";
+											}
+											outputfile << "\t" + NmBuf + ((&m != &L.GetConflictParts().back()) ? DIV_STR : "") + "\n";
 											Names.emplace_back(NmBuf);
 										}
 									}
@@ -747,7 +763,9 @@ namespace FPS_n2 {
 										//int a = 0;
 									}
 								}
-								outputfile << "]\n";
+								if (isHit) {
+									outputfile << "]\n";
+								}
 							}
 						}
 
@@ -803,28 +821,17 @@ namespace FPS_n2 {
 					CreateDirectory(ParentPath.c_str(), NULL);
 
 					std::string ItemName = jd.name;
-					auto SubStrs = [&](const char* str) {
-						while (true) {
-							auto now = ItemName.find(str);
-							if (now != std::string::npos) {
-								ItemName = ItemName.substr(0, now) + ItemName.substr(now + 1);
-							}
-							else {
-								break;
-							}
-						}
-					};
-					SubStrs(".");
+					SubStrs(&ItemName, ".");
 
-					SubStrs("\\");
-					SubStrs("/");
-					SubStrs(":");
-					SubStrs("*");
-					SubStrs("?");
-					SubStrs("\"");
-					SubStrs(">");
-					SubStrs("<");
-					SubStrs("|");
+					SubStrs(&ItemName, "\\");
+					SubStrs(&ItemName, "/");
+					SubStrs(&ItemName, ":");
+					SubStrs(&ItemName, "*");
+					SubStrs(&ItemName, "?");
+					SubStrs(&ItemName, "\"");
+					SubStrs(&ItemName, ">");
+					SubStrs(&ItemName, "<");
+					SubStrs(&ItemName, "|");
 
 					std::string Name = ParentPath + "/" + ItemName + ".txt";
 					std::ofstream outputfile(Name);
@@ -847,7 +854,7 @@ namespace FPS_n2 {
 					if (L.GetConflictParts().size() > 0) {
 						outputfile << "Conflict=[\n";
 						for (auto& m : L.GetConflictParts()) {
-							outputfile << "\t" + m.first->GetName() + ((&m != &L.GetConflictParts().back()) ? "," : "") + "\n";
+							outputfile << "\t" + m.first->GetName() + ((&m != &L.GetConflictParts().back()) ? DIV_STR : "") + "\n";
 						}
 						outputfile << "]\n";
 					}
@@ -860,7 +867,7 @@ namespace FPS_n2 {
 								for (auto& d : m) {
 									auto NmBuf = d;
 									if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
-										outputfile << "\t" + NmBuf + ((&d != &m.back()) ? "," : "") + "\n";
+										outputfile << "\t" + NmBuf + ((&d != &m.back()) ? DIV_STR : "") + "\n";
 										Names.emplace_back(NmBuf);
 									}
 								}

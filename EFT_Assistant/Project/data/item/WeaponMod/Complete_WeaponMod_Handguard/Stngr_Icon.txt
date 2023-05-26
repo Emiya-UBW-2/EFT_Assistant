@@ -3,52 +3,52 @@ Name=AR-15 STNGR VYPR 10 inch M-LOK handguard
 ShortName=VYPR 10"
 Itemtype=Handguard
 ChildParts=[
-	Magpul M-LOK 2.5 inch rail,
-	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK 2.5 inch rail/|
+	Magpul M-LOK Cantilever Mount/|
 	Magpul M-LOK Offset Light Mount
 ]
 ChildParts=[
-	Magpul M-LOK 2.5 inch rail,
-	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK 2.5 inch rail/|
+	Magpul M-LOK Cantilever Mount/|
 	Magpul M-LOK Offset Light Mount
 ]
 ChildParts=[
-	Magpul M-LOK 2.5 inch rail,
-	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK 2.5 inch rail/|
+	Magpul M-LOK Cantilever Mount/|
 	Magpul M-LOK Offset Light Mount
 ]
 ChildParts=[
-	Holosun LS321 Tactical device,
-	AN/PEQ-15 tactical device,
-	AN/PEQ-2 tactical device,
-	LA-5B/PEQ tactical device,
-	SureFire XC1 tactical flashlight,
-	Wilcox RAPTAR ES Tactical Rangefinder,
+	Holosun LS321 Tactical device/|
+	AN/PEQ-15 tactical device/|
+	AN/PEQ-2 tactical device/|
+	LA-5B/PEQ tactical device/|
+	SureFire XC1 tactical flashlight/|
+	Wilcox RAPTAR ES Tactical Rangefinder/|
 	Zenit Perst-3 tactical device
 ]
 ChildParts=[
 	NcSTAR MPR45 Backup mount
 ]
 ChildParts=[
-	Magpul M-LOK AFG tactical foregrip (Black),
-	Magpul M-LOK AFG tactical foregrip (FDE),
-	Magpul M-LOK AFG tactical foregrip (Olive Drab),
-	Magpul M-LOK AFG tactical foregrip (Stealth Gray),
+	Magpul M-LOK AFG tactical foregrip (Black)/|
+	Magpul M-LOK AFG tactical foregrip (FDE)/|
+	Magpul M-LOK AFG tactical foregrip (Olive Drab)/|
+	Magpul M-LOK AFG tactical foregrip (Stealth Gray)/|
 	Magpul M-LOK 4.1 inch rail
 ]
 ChildParts=[
-	HK MP7 flip-up front sight,
-	KAC Folding Micro front sight,
-	KAC Folding front sight,
-	KRISS Defiance low profile flip-up front sight,
-	Magpul MBUS Gen2 flip-up front sight,
-	Magpul MBUS Gen2 flip-up front sight (FDE),
-	MCX flip-up front sight,
+	HK MP7 flip-up front sight/|
+	KAC Folding Micro front sight/|
+	KAC Folding front sight/|
+	KRISS Defiance low profile flip-up front sight/|
+	Magpul MBUS Gen2 flip-up front sight/|
+	Magpul MBUS Gen2 flip-up front sight (FDE)/|
+	MCX flip-up front sight/|
 	MPX flip-up front sight
 ]
 Conflict=[
-	AR-10 JP Enterprises Gas System-6,
-	M4A1 front sight with gas block,
+	AR-10 JP Enterprises Gas System-6/|
+	M4A1 front sight with gas block/|
 	AR-15 Windham Weaponry Rail Gas Block
 ]
 Recoil=-1.000000
@@ -57,15 +57,15 @@ Information_Eng=The VYPR handguard for AR-15 equipped with an M-LOK interface fo
 basePrice=14500
 width=2
 height=1
-avg24hPrice=29624
-low24hPrice=12000
-lastOfferCount=5
+avg24hPrice=28236
+low24hPrice=19900
+lastOfferCount=20
 Sell_Prapor=7250
 Sell_Fence=5800
 Sell_Skier=7105
 Sell_Peacekeeper=55
 Sell_Mechanic=8120
-Sell_Flea Market=15000
+Sell_Flea Market=19900
 weight=0.209000
-fleaMarketFee=883
+fleaMarketFee=1062
 propertiestype=ItemPropertiesWeaponMod

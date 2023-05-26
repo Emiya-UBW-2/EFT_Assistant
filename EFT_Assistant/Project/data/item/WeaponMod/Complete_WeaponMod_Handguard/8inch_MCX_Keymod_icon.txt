@@ -3,34 +3,34 @@ Name=MCX GEN1 KeyMod 8 inch handguard
 ShortName=MCX 8"
 Itemtype=Handguard
 ChildParts=[
-	Strike Industries KeyMod 4 inch rail,
-	Vltor CASV KeyMod 2 inch rail,
-	Vltor CASV KeyMod 4 inch rail,
+	Strike Industries KeyMod 4 inch rail/|
+	Vltor CASV KeyMod 2 inch rail/|
+	Vltor CASV KeyMod 4 inch rail/|
 	CNC Guns KeyMod 2 inch rail
 ]
 ChildParts=[
-	Strike Industries KeyMod 4 inch rail,
-	Vltor CASV KeyMod 2 inch rail,
-	Vltor CASV KeyMod 4 inch rail,
+	Strike Industries KeyMod 4 inch rail/|
+	Vltor CASV KeyMod 2 inch rail/|
+	Vltor CASV KeyMod 4 inch rail/|
 	CNC Guns KeyMod 2 inch rail
 ]
 ChildParts=[
-	HK MP7 flip-up front sight,
-	KAC Folding Micro front sight,
-	KAC Folding front sight,
-	KRISS Defiance low profile flip-up front sight,
-	Magpul MBUS Gen2 flip-up front sight,
-	Magpul MBUS Gen2 flip-up front sight (FDE),
-	MCX flip-up front sight,
-	MPX flip-up front sight,
+	HK MP7 flip-up front sight/|
+	KAC Folding Micro front sight/|
+	KAC Folding front sight/|
+	KRISS Defiance low profile flip-up front sight/|
+	Magpul MBUS Gen2 flip-up front sight/|
+	Magpul MBUS Gen2 flip-up front sight (FDE)/|
+	MCX flip-up front sight/|
+	MPX flip-up front sight/|
 	AR-15 Leapers UTG Low Profile A2 front sight
 ]
 ChildParts=[
-	Monstrum Tactical Vertical Fore Grip KeyMod,
-	A3 Tactical MVF001 KeyMod vertical foregrip (Black),
-	SIG Sauer Vertical Foregrip KeyMod (Black),
-	Strike Industries KeyMod 6 inch rail,
-	Vltor CASV KeyMod 6 inch rail,
+	Monstrum Tactical Vertical Fore Grip KeyMod/|
+	A3 Tactical MVF001 KeyMod vertical foregrip (Black)/|
+	SIG Sauer Vertical Foregrip KeyMod (Black)/|
+	Strike Industries KeyMod 6 inch rail/|
+	Vltor CASV KeyMod 6 inch rail/|
 	CNC Guns KeyMod 4 inch rail
 ]
 Recoil=0.000000
@@ -39,15 +39,15 @@ Information_Eng=A first-gen 8 inch handguard for the MCX assault rifle, equipped
 basePrice=8000
 width=2
 height=1
-avg24hPrice=12799
-low24hPrice=8000
-lastOfferCount=2
+avg24hPrice=13857
+low24hPrice=5555
+lastOfferCount=6
 Sell_Prapor=4000
 Sell_Fence=3200
 Sell_Skier=3920
 Sell_Peacekeeper=30
 Sell_Mechanic=4480
-Sell_Flea Market=8000
+Sell_Flea Market=8888
 weight=0.390000
-fleaMarketFee=480
+fleaMarketFee=505
 propertiestype=ItemPropertiesWeaponMod

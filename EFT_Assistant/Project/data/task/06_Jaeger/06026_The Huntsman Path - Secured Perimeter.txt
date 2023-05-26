@@ -12,7 +12,7 @@ NeedLightkeeper=true
 
 Task_Map=Factory
 Task_Kill=[
-	Factory-any PMC operativesx6,
+	Factory-any PMC operativesx6/|
 	Night Factory-any PMC operativesx6
 ]
 Task_Else=É]Å[Éì:[Office]
@@ -25,10 +25,10 @@ Task_Else=É]Å[Éì:[Office]
 
 Reward_Rep=Jaeger+0.020000
 Reward_Item=[
-	Roublesx37000,
-	Pliers Elitex2,
-	Toolsetx1,
-	Nippersx2,
+	Roublesx37000/|
+	Pliers Elitex2/|
+	Toolsetx1/|
+	Nippersx2/|
 	Corrugated hosex2
 ]
 

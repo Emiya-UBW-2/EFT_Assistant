@@ -3,7 +3,7 @@ Name=M9A3 9x19 pistol slide
 ShortName=M9A3
 Itemtype=Receiver
 ChildParts=[
-	M9A3 rear sight,
+	M9A3 rear sight/|
 	M9A3 Sight Mount rear sight rail
 ]
 ChildParts=[

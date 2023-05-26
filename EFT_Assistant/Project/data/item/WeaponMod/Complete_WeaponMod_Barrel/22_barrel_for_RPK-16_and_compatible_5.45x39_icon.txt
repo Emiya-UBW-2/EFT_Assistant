@@ -3,14 +3,14 @@ Name=RPK-16 5.45x39 22 inch barrel
 ShortName=RPK-16 22"
 Itemtype=Barrel
 ChildParts=[
-	AK-105 5.45x39 muzzle brake-compensator (6P44 0-20),
-	AK-74M 5.45x39 muzzle brake-compensator (6P20 0-20),
-	AK-74 5.45x39 muzzle brake-compensator (6P20 0-20),
-	AK-74 PWS CQB 74 5.45x39 muzzle brake,
-	AK-74 SRVV MBR Jet 5.45x39 muzzle brake,
-	AK Zenit DTK-1 7.62x39/5.45x39 muzzle brake-compensator,
-	RPK-16 5.45x39 muzzle brake-compensator,
-	AK-74 Hexagon 5.45x39 sound suppressor,
+	AK-105 5.45x39 muzzle brake-compensator (6P44 0-20)/|
+	AK-74M 5.45x39 muzzle brake-compensator (6P20 0-20)/|
+	AK-74 5.45x39 muzzle brake-compensator (6P20 0-20)/|
+	AK-74 PWS CQB 74 5.45x39 muzzle brake/|
+	AK-74 SRVV MBR Jet 5.45x39 muzzle brake/|
+	AK Zenit DTK-1 7.62x39/5.45x39 muzzle brake-compensator/|
+	RPK-16 5.45x39 muzzle brake-compensator/|
+	AK-74 Hexagon 5.45x39 sound suppressor/|
 	AK-74 TGP-A 5.45x39 sound suppressor
 ]
 Recoil=-7.000000
@@ -19,16 +19,16 @@ Information_Eng=A 22 inch (550mm) long barrel for RPK-16 light machine gun, cham
 basePrice=17300
 width=3
 height=1
-avg24hPrice=42339
-low24hPrice=25000
-lastOfferCount=11
+avg24hPrice=45239
+low24hPrice=15555
+lastOfferCount=13
 Sell_Prapor=8650
 Sell_Fence=6920
 Sell_Skier=8477
 Sell_Peacekeeper=65
 Sell_Mechanic=9688
 Sell_Jaeger=10380
-Sell_Flea Market=43333
+Sell_Flea Market=50000
 weight=0.650000
-fleaMarketFee=2471
+fleaMarketFee=3009
 propertiestype=ItemPropertiesBarrel

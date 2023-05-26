@@ -28,7 +28,7 @@ Task_Else=脱出ステータス:[Survived]
 
 Reward_Rep=Ragman+0.020000
 Reward_Item=[
-	Roublesx66000,
+	Roublesx66000/|
 	Eagle Industries MMAC plate carrier (Ranger Green)x1
 ]
 

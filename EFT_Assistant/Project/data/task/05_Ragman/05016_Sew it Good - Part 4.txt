@@ -39,9 +39,9 @@ DogTagLv=0
 
 Reward_Rep=Ragman+0.030000
 Reward_Item=[
-	Roublesx30000,
-	ANA Tactical M2 armored rigx1,
-	ANA Tactical M2 armored rigx1
+	Roublesx30000/|
+	ANA Tactical M2 plate carrierx1/|
+	ANA Tactical M2 plate carrierx1
 ]
 
 Reward_EXP=18500

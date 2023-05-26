@@ -14,9 +14,9 @@ Task_Kill=[
 	Customs-Scavsx25
 ]
 NeedItem=[
-	Kalashnikov AKS-74UN 5.45x39 assault riflex0,
-	Kalashnikov AKS-74UB 5.45x39 assault riflex0,
-	Kalashnikov AKS-74U 5.45x39 assault riflex0,
+	Kalashnikov AKS-74UN 5.45x39 assault riflex0/|
+	Kalashnikov AKS-74UB 5.45x39 assault riflex0/|
+	Kalashnikov AKS-74U 5.45x39 assault riflex0/|
 	SAG AK-545 Short 5.45x39 carbinex0
 ]
 
@@ -29,7 +29,7 @@ NeedItem=[
 Reward_Rep=Prapor+0.040000
 Reward_Rep=Skier+0.020000
 Reward_Item=[
-	Dollarsx2500,
+	Dollarsx2500/|
 	Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle Urbanax1
 ]
 

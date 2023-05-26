@@ -3,22 +3,22 @@ Name=Simonov SKS 7.62x39 carbine
 ShortName=SKS
 Itemtype=Assault carbine
 ChildParts=[
-	SKS FAB Defense UAS chassis,
-	OP-SKS wooden stock,
-	SKS TAPCO Intrafuse chassis,
+	SKS FAB Defense UAS chassis/|
+	OP-SKS wooden stock/|
+	SKS TAPCO Intrafuse chassis/|
 	SKS TOZ wooden stock (56-A-231 Sb.5)
 ]
 ChildParts=[
 	SKS rear sight
 ]
 ChildParts=[
-	SKS 7.62x39 KCI 75-round drum magazine,
-	SKS 7.62x39 ProMag AALVX 35-round magazine,
-	SKS 7.62x39 ProMag SKS-A5 20-round magazine,
+	SKS 7.62x39 KCI 75-round drum magazine/|
+	SKS 7.62x39 ProMag AALVX 35-round magazine/|
+	SKS 7.62x39 ProMag SKS-A5 20-round magazine/|
 	SKS 7.62x39 10-round internal box magazine
 ]
 ChildParts=[
-	SKS Weapon Tuning 7.62x39 thread adapter,
+	SKS Weapon Tuning 7.62x39 thread adapter/|
 	SKS Hexagon 7.62x39 sound suppressor
 ]
 Recoil=155.000000
@@ -27,15 +27,15 @@ Information_Eng=A Soviet semi-automatic carbine designed by Sergei Simonov for 7
 basePrice=19331
 width=4
 height=1
-avg24hPrice=28098
-low24hPrice=15000
-lastOfferCount=8
+avg24hPrice=22021
+low24hPrice=15500
+lastOfferCount=9
 Sell_Prapor=9665
 Sell_Fence=7732
 Sell_Skier=9472
 Sell_Peacekeeper=73
 Sell_Mechanic=10825
-Sell_Flea Market=19000
+Sell_Flea Market=20420
 weight=2.627000
-fleaMarketFee=1148
+fleaMarketFee=1189
 propertiestype=ItemPropertiesWeapon

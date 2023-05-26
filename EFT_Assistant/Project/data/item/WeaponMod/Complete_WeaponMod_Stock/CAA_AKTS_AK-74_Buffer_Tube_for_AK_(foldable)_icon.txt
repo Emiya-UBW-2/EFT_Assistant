@@ -3,34 +3,34 @@ Name=AK-74M CAA AKTS AK74 buffer tube
 ShortName=AKTS AK74
 Itemtype=Stock
 ChildParts=[
-	AR-15 B5 Systems Precision stock,
-	FAB Defense GL-CORE buttstock,
-	FAB Defense GL-SHOCK buttstock,
-	FAB Defense GLR-16-S stock,
-	High Standard M4SS Stock,
-	AR-15 HK E1 buttstock,
-	AR-15 HK Slim Line buttstock,
-	AK-12 stock,
-	KRISS Defiance DS150 stock (Black),
-	KRISS Defiance DS150 stock (FDE),
-	LMT SOPMOD stock,
-	Magpul CTR Carbine stock (Black),
-	Magpul CTR Carbine stock (FDE),
-	Magpul MOE Carbine stock (Black),
-	Magpul MOE Carbine stock (FDE),
-	Magpul MOE Carbine stock (Foliage Green),
-	Magpul MOE Carbine stock (Olive Drab),
-	Magpul MOE Carbine stock (Stealth Gray),
-	Magpul PRS GEN3 stock (Black),
-	Magpul PRS GEN3 stock (Grey),
-	MFT BUS stock,
-	Strike Industries Viper Mod 1 stock,
-	Vltor EMOD stock,
-	SB Tactical SBA3 brace,
+	AR-15 B5 Systems Precision stock/|
+	FAB Defense GL-CORE buttstock/|
+	FAB Defense GL-SHOCK buttstock/|
+	FAB Defense GLR-16-S stock/|
+	High Standard M4SS Stock/|
+	AR-15 HK E1 buttstock/|
+	AR-15 HK Slim Line buttstock/|
+	AK-12 stock/|
+	KRISS Defiance DS150 stock (Black)/|
+	KRISS Defiance DS150 stock (FDE)/|
+	LMT SOPMOD stock/|
+	Magpul CTR Carbine stock (Black)/|
+	Magpul CTR Carbine stock (FDE)/|
+	Magpul MOE Carbine stock (Black)/|
+	Magpul MOE Carbine stock (FDE)/|
+	Magpul MOE Carbine stock (Foliage Green)/|
+	Magpul MOE Carbine stock (Olive Drab)/|
+	Magpul MOE Carbine stock (Stealth Gray)/|
+	Magpul PRS GEN3 stock (Black)/|
+	Magpul PRS GEN3 stock (Grey)/|
+	MFT BUS stock/|
+	Strike Industries Viper Mod 1 stock/|
+	Vltor EMOD stock/|
+	SB Tactical SBA3 brace/|
 	CMMG RipStock buttstock
 ]
 Conflict=[
-	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock,
+	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock/|
 ]
 Recoil=-3.000000
 Ergonomics=-1.000000
@@ -38,16 +38,16 @@ Information_Eng=CAA Receiver Extension Buffer Tube, 6-position, Mil-Spec diamete
 basePrice=6200
 width=2
 height=1
-avg24hPrice=44355
-low24hPrice=23500
-lastOfferCount=30
+avg24hPrice=45728
+low24hPrice=23333
+lastOfferCount=5
 Sell_Prapor=3100
 Sell_Fence=2480
 Sell_Skier=3038
 Sell_Peacekeeper=23
 Sell_Mechanic=3472
 Sell_Jaeger=3720
-Sell_Flea Market=23500
+Sell_Flea Market=23333
 weight=0.250000
-fleaMarketFee=1603
+fleaMarketFee=1586
 propertiestype=ItemPropertiesWeaponMod

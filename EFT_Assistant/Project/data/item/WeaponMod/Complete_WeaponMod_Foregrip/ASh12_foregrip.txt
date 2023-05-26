@@ -3,7 +3,7 @@ Name=ASh-12 vertical foregrip
 ShortName=ASh-12
 Itemtype=Foregrip
 Conflict=[
-	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher/|
 ]
 Recoil=0.000000
 Ergonomics=5.000000
@@ -11,15 +11,15 @@ Information_Eng=A vertical foregrip for the ASh-12 assault rifle.
 basePrice=2150
 width=1
 height=1
-avg24hPrice=76666
-low24hPrice=9999
+avg24hPrice=45000
+low24hPrice=45000
 lastOfferCount=2
 Sell_Prapor=1075
 Sell_Fence=860
 Sell_Skier=1053
 Sell_Peacekeeper=8
 Sell_Mechanic=1204
-Sell_Flea Market=38995
+Sell_Flea Market=45000
 weight=0.080000
-fleaMarketFee=6929
+fleaMarketFee=8789
 propertiestype=ItemPropertiesWeaponMod

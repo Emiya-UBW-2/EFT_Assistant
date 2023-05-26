@@ -3,22 +3,22 @@ Name=UNTAR helmet
 ShortName=UNTAR
 Itemtype=Headwear
 Conflict=[
-	Faceless mask,
-	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY",
+	Faceless mask/|
+	Tagilla's welding mask "Gorilla"/|
+	Tagilla's welding mask "UBEY"/|
 ]
 Information_Eng=A standard-issue helmet used by UN soldiers during the UNTAR mission in Tarkov.
 basePrice=21395
 width=2
 height=2
-avg24hPrice=30499
-low24hPrice=21555
-lastOfferCount=16
+avg24hPrice=31253
+low24hPrice=23333
+lastOfferCount=7
 Sell_Fence=8558
 Sell_Skier=10483
 Sell_Peacekeeper=81
 Sell_Ragman=13264
-Sell_Flea Market=24000
+Sell_Flea Market=23333
 weight=2.200000
-fleaMarketFee=1359
+fleaMarketFee=1338
 propertiestype=ItemPropertiesHelmet

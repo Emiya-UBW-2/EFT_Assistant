@@ -3,41 +3,41 @@ Name=Tac-Kek Heavy Trooper mask for Ops-Core-type helmets
 ShortName=TK Heavy Trooper
 Itemtype=Armored equipment
 Conflict=[
-	Fake white beard,
-	Jason mask,
-	Misha Mayorov mask,
-	Slender mask,
-	GP-5 gas mask,
-	Pestily plague mask,
-	Neoprene mask,
-	Twitch Rivals 2020 mask,
-	Shattered lightweight armored mask,
-	Shemagh (Tan),
-	Shroud half-mask,
-	Deadly Skull mask,
-	Twitch Rivals 2020 half-mask,
-	Lower half-mask,
-	Respirator,
-	Shemagh (Green),
-	Ops-Core FAST Gunsight Mandible,
-	Ops-Core FAST Visor,
-	Ops-Core FAST multi-hit ballistic face shield,
-	ZSh-1-2M face shield,
-	Ops-Core SLAAP armor helmet plate (Tan),
+	Fake white beard/|
+	Jason mask/|
+	Misha Mayorov mask/|
+	Slender mask/|
+	GP-5 gas mask/|
+	Pestily plague mask/|
+	Neoprene mask/|
+	Twitch Rivals 2020 mask/|
+	Shattered lightweight armored mask/|
+	Shemagh (Tan)/|
+	Shroud half-mask/|
+	Deadly Skull mask/|
+	Twitch Rivals 2020 half-mask/|
+	Lower half-mask/|
+	Respirator/|
+	Shemagh (Green)/|
+	Ops-Core FAST Gunsight Mandible/|
+	Ops-Core FAST Visor/|
+	Ops-Core FAST multi-hit ballistic face shield/|
+	ZSh-1-2M face shield/|
+	Ops-Core SLAAP armor helmet plate (Tan)/|
 	Team Wendy EXFIL Ballistic face shield (Black)
 ]
 Information_Eng=The Tac-Kek Heavy Trooper mask is an additional ballistic module for Ops-Core-type helmets, based on the famous movie universe. This is the way.
 basePrice=61000
 width=2
 height=2
-avg24hPrice=165899
-low24hPrice=120000
-lastOfferCount=57
+avg24hPrice=173196
+low24hPrice=137000
+lastOfferCount=41
 Sell_Fence=24400
 Sell_Skier=29890
 Sell_Peacekeeper=231
 Sell_Ragman=37820
-Sell_Flea Market=175420
+Sell_Flea Market=169420
 weight=0.400000
-fleaMarketFee=10534
+fleaMarketFee=10033
 propertiestype=ItemPropertiesArmorAttachment

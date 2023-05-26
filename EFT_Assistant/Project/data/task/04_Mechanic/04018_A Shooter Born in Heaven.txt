@@ -67,9 +67,9 @@ Task_Else=‹——£: >= 100m
 
 Reward_Rep=Mechanic+0.030000
 Reward_Item=[
-	Roublesx100000,
-	Mosin Rifle 7.62x54R ProMag Archangel OPFOR 10-round magazinex4,
-	7.62x54mm R SNB gzhx50,
+	Roublesx100000/|
+	Mosin Rifle 7.62x54R ProMag Archangel OPFOR 10-round magazinex4/|
+	7.62x54mm R SNB gzhx50/|
 	Mosin 7.62x54R bolt-action rifle (Sniper) ATACR 7-35x56x1
 ]
 Reward_SkillLevelUp=Sniper Rifles+1

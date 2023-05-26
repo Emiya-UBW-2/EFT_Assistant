@@ -3,25 +3,25 @@ Name=AK Hexagon tubular handguard
 ShortName=Hexagon AK
 Itemtype=Handguard
 ChildParts=[
-	Hexagon medium length rail,
+	Hexagon medium length rail/|
 	Hexagon medium length rail (Anodized Red)
 ]
 ChildParts=[
-	Hexagon short length rail,
+	Hexagon short length rail/|
 	Hexagon short length rail (Anodized Red)
 ]
 ChildParts=[
-	Hexagon short length rail,
+	Hexagon short length rail/|
 	Hexagon short length rail (Anodized Red)
 ]
 ChildParts=[
-	Hexagon short length rail,
+	Hexagon short length rail/|
 	Hexagon short length rail (Anodized Red)
 ]
 Conflict=[
-	AK-74 Hexagon Wafflemaker 5.45x39 sound suppressor,
-	Kalashnikov AK-102 5.56x45 assault rifle,
-	Kalashnikov AK-104 7.62x39 assault rifle,
+	AK-74 Hexagon Wafflemaker 5.45x39 sound suppressor/|
+	Kalashnikov AK-102 5.56x45 assault rifle/|
+	Kalashnikov AK-104 7.62x39 assault rifle/|
 	Kalashnikov AK-105 5.45x39 assault rifle
 ]
 Recoil=-3.000000
@@ -30,15 +30,15 @@ Information_Eng=A tubular handguard for AK family automatic rifles, manufactured
 basePrice=29840
 width=2
 height=1
-avg24hPrice=19806
-low24hPrice=16000
-lastOfferCount=23
+avg24hPrice=18631
+low24hPrice=11111
+lastOfferCount=35
 Sell_Prapor=14920
 Sell_Fence=11936
 Sell_Skier=14621
 Sell_Peacekeeper=113
 Sell_Mechanic=16710
-Sell_Flea Market=20000
+Sell_Flea Market=14444
 weight=0.167000
-fleaMarketFee=1575
+fleaMarketFee=1613
 propertiestype=ItemPropertiesWeaponMod

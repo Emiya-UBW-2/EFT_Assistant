@@ -3,7 +3,7 @@ Name=FN Five-seveN MK2 pistol slide
 ShortName=5-7
 Itemtype=Receiver
 ChildParts=[
-	FN Five-seveN MK2 rear sight,
+	FN Five-seveN MK2 rear sight/|
 	FN Five-seveN MK2 RMR mount
 ]
 ChildParts=[

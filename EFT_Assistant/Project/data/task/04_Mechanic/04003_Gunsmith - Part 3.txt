@@ -31,8 +31,8 @@ Task_Else=width >= 0
 
 Reward_Rep=Mechanic+0.010000
 Reward_Item=[
-	Dollarsx250,
-	SwampFox Trihawk Prism Scope 3x30x2,
+	Dollarsx250/|
+	SwampFox Trihawk Prism Scope 3x30x2/|
 	Magpul RVG foregrip (FDE)x2
 ]
 

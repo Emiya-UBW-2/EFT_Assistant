@@ -3,11 +3,11 @@ Name=Mosin Rifle 7.62x54R sawn-off 200mm barrel
 ShortName=Mosin 200mm
 Itemtype=Barrel
 Conflict=[
-	Mosin Rifle ATI Monte Carlo chassis,
-	Mosin Rifle sniper carbine stock,
-	Mosin Rifle carbine stock,
-	Mosin Rifle Infantry stock,
-	Mosin Rifle standard stock,
+	Mosin Rifle ATI Monte Carlo chassis/|
+	Mosin Rifle sniper carbine stock/|
+	Mosin Rifle carbine stock/|
+	Mosin Rifle Infantry stock/|
+	Mosin Rifle standard stock/|
 	Mosin Rifle ProMag Archangel OPFOR PRS chassis
 ]
 Recoil=0.000000

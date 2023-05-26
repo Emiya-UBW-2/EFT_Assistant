@@ -3,7 +3,7 @@ Name=HK Sturmgriff foregrip
 ShortName=Sturmgriff
 Itemtype=Foregrip
 Conflict=[
-	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher/|
 ]
 Recoil=0.000000
 Ergonomics=7.000000
@@ -11,15 +11,15 @@ Information_Eng=The Sturmgriff vertical foregrip. Manufactured by Heckler & Koch
 basePrice=3250
 width=1
 height=1
-avg24hPrice=59775
-low24hPrice=29000
+avg24hPrice=0
+low24hPrice=0
 lastOfferCount=1
 Sell_Prapor=1625
 Sell_Fence=1300
 Sell_Skier=1592
 Sell_Peacekeeper=12
 Sell_Mechanic=1820
-Sell_Flea Market=48888
+Sell_Flea Market=55000
 weight=0.068000
-fleaMarketFee=7683
+fleaMarketFee=9337
 propertiestype=ItemPropertiesWeaponMod

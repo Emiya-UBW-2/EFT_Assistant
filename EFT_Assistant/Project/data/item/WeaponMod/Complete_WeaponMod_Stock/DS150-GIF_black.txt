@@ -3,8 +3,8 @@ Name=KRISS Defiance DS150 stock (Black)
 ShortName=DS150
 Itemtype=Stock
 Conflict=[
-	AR-15 ADAR 2-15 wooden stock,
-	AR-15 Hera Arms CQR pistol grip/buttstock,
+	AR-15 ADAR 2-15 wooden stock/|
+	AR-15 Hera Arms CQR pistol grip/buttstock/|
 ]
 Recoil=-32.000000
 Ergonomics=9.000000
@@ -12,16 +12,16 @@ Information_Eng=A drop-in replacement buttstock for AR-15/M16 carbines. It uses 
 basePrice=7900
 width=2
 height=1
-avg24hPrice=23107
-low24hPrice=10000
-lastOfferCount=15
+avg24hPrice=20359
+low24hPrice=11999
+lastOfferCount=5
 Sell_Prapor=3950
 Sell_Fence=3160
 Sell_Skier=3871
 Sell_Peacekeeper=30
 Sell_Mechanic=4424
 Sell_Jaeger=4740
-Sell_Flea Market=18000
+Sell_Flea Market=17000
 weight=0.400000
-fleaMarketFee=997
+fleaMarketFee=928
 propertiestype=ItemPropertiesWeaponMod

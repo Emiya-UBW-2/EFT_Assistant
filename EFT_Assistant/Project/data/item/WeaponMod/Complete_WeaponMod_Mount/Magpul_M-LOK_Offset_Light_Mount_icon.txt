@@ -3,17 +3,17 @@ Name=Magpul M-LOK Offset Light Mount
 ShortName=M-LOK Off
 Itemtype=Mount
 ChildParts=[
-	Glock GTL 21 tactical flashlight with laser,
-	Insight WMX200 tactical flashlight,
-	NcSTAR Tactical blue laser LAM-module,
-	Olight Baldr Pro tactical flashlight with laser,
-	Olight Baldr Pro tactical flashlight with laser (Tan),
-	Steiner DBAL-PL tactical device,
-	Steiner LAS/TAC 2 tactical flashlight,
-	SureFire X400 Ultra tactical flashlight with laser,
-	SureFire XC1 tactical flashlight,
-	Zenit Klesch-2IKS IR illuminator with laser,
-	Zenit Klesch-2P flashlight with laser,
+	Glock GTL 21 tactical flashlight with laser/|
+	Insight WMX200 tactical flashlight/|
+	NcSTAR Tactical blue laser LAM-module/|
+	Olight Baldr Pro tactical flashlight with laser/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
+	Steiner DBAL-PL tactical device/|
+	Steiner LAS/TAC 2 tactical flashlight/|
+	SureFire X400 Ultra tactical flashlight with laser/|
+	SureFire XC1 tactical flashlight/|
+	Zenit Klesch-2IKS IR illuminator with laser/|
+	Zenit Klesch-2P flashlight with laser/|
 	Kiba Arms 25mm accessory ring mount
 ]
 Recoil=0.000000
@@ -22,16 +22,16 @@ Information_Eng=Magpul M-LOK Offset Light/Optic mount allows installation of add
 basePrice=1400
 width=1
 height=1
-avg24hPrice=18272
-low24hPrice=6888
-lastOfferCount=2
+avg24hPrice=16359
+low24hPrice=7499
+lastOfferCount=7
 Sell_Prapor=700
 Sell_Fence=560
 Sell_Skier=686
 Sell_Peacekeeper=5
 Sell_Mechanic=784
 Sell_Jaeger=840
-Sell_Flea Market=15000
+Sell_Flea Market=7499
 weight=0.037000
-fleaMarketFee=1893
+fleaMarketFee=618
 propertiestype=ItemPropertiesWeaponMod

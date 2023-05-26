@@ -10,13 +10,13 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Kill=[
-	Interchange-any PMC operativesx15,
-	Shoreline-any PMC operativesx15,
-	Streets of Tarkov-any PMC operativesx15,
-	Lighthouse-any PMC operativesx15,
-	Woods-any PMC operativesx15,
-	Customs-any PMC operativesx15,
-	Reserve-any PMC operativesx15,
+	Interchange-any PMC operativesx15/|
+	Shoreline-any PMC operativesx15/|
+	Streets of Tarkov-any PMC operativesx15/|
+	Lighthouse-any PMC operativesx15/|
+	Woods-any PMC operativesx15/|
+	Customs-any PMC operativesx15/|
+	Reserve-any PMC operativesx15/|
 	The Lab-any PMC operativesx15
 ]
 NeedItem=[
@@ -59,7 +59,7 @@ Reward_Rep=Prapor+0.040000
 Reward_Rep=Therapist+0.050000
 Reward_Rep=Skier+0.010000
 Reward_Item=[
-	Roublesx250000,
+	Roublesx250000/|
 	Secure container Epsilonx1
 ]
 

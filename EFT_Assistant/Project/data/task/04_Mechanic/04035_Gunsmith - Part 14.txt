@@ -35,8 +35,8 @@ Task_Else=width >= 0
 
 Reward_Rep=Mechanic+0.020000
 Reward_Item=[
-	Dollarsx500,
-	Torrey Pines Logic T12W 30Hz thermal reflex sightx1,
+	Dollarsx500/|
+	Torrey Pines Logic T12W 30Hz thermal reflex sightx1/|
 	Gunpowder "Eagle"x3
 ]
 

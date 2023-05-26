@@ -30,9 +30,9 @@ Task_Else=width >= 0
 
 Reward_Rep=Mechanic+0.030000
 Reward_Item=[
-	Roublesx200000,
-	Pack of screwsx2,
-	Electric drillx1,
+	Roublesx200000/|
+	Pack of screwsx2/|
+	Electric drillx1/|
 	Metal fuel tankx1
 ]
 

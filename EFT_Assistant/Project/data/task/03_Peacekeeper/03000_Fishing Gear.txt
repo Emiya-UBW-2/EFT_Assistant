@@ -41,12 +41,12 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 ]
 
 Reward_Item=[
-	SV-98 7.62x54R bolt-action sniper rifle Defaultx1,
+	SV-98 7.62x54R bolt-action sniper rifle Defaultx1/|
 	Leatherman Multitoolx1
 ]
 Reward_Rep=Peacekeeper+0.020000
 Reward_Item=[
-	Dollarsx700,
+	Dollarsx700/|
 	UNTAR helmetx1
 ]
 

@@ -52,8 +52,8 @@ DogTagLv=0
 
 Reward_Rep=Mechanic+0.020000
 Reward_Item=[
-	Eurosx300,
-	Glock 18C 9x19 machine pistol Defaultx1,
+	Eurosx300/|
+	Glock 18C 9x19 machine pistol Defaultx1/|
 	9x19mm Green Tracerx300
 ]
 

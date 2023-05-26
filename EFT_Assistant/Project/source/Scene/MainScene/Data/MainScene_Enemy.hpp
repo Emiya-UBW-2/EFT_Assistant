@@ -4,7 +4,7 @@
 namespace FPS_n2 {
 	class EnemyList : public ListParent<EnemyID> {
 		//í«â¡ê›íË
-		void			Set_Sub(const std::string&, const std::string&, const std::vector<std::string>&) noexcept override {}
+		void			SetSub(const std::string&, const std::string&, const std::vector<std::string>&) noexcept override {}
 		void	Load_Sub() noexcept override {
 		}
 		void	WhenAfterLoad_Sub() noexcept override {}

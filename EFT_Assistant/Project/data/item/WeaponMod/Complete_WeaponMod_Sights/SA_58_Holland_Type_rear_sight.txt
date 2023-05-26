@@ -4,7 +4,7 @@ ShortName=SA58 Holland
 Itemtype=Ironsight
 SightRange=500
 Conflict=[
-	KMZ 1P69 Weaver mount,
+	KMZ 1P69 Weaver mount/|
 ]
 Recoil=0.000000
 Ergonomics=0.000000

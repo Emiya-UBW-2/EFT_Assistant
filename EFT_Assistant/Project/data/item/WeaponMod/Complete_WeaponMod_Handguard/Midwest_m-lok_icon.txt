@@ -3,53 +3,53 @@ Name=HK 416A5 Midwest Industries 13.5 inch M-LOK handguard
 ShortName=416A5 Midwest 13.5"
 Itemtype=Handguard
 ChildParts=[
-	Magpul M-LOK 2.5 inch rail,
-	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK 2.5 inch rail/|
+	Magpul M-LOK Cantilever Mount/|
 	Magpul M-LOK Offset Light Mount
 ]
 ChildParts=[
-	Magpul M-LOK 2.5 inch rail,
-	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK 2.5 inch rail/|
+	Magpul M-LOK Cantilever Mount/|
 	Magpul M-LOK Offset Light Mount
 ]
 ChildParts=[
-	Magpul M-LOK 2.5 inch rail,
-	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK 2.5 inch rail/|
+	Magpul M-LOK Cantilever Mount/|
 	Magpul M-LOK Offset Light Mount
 ]
 ChildParts=[
-	Holosun LS321 Tactical device,
-	AN/PEQ-15 tactical device,
-	AN/PEQ-2 tactical device,
-	LA-5B/PEQ tactical device,
-	SureFire XC1 tactical flashlight,
-	Wilcox RAPTAR ES Tactical Rangefinder,
+	Holosun LS321 Tactical device/|
+	AN/PEQ-15 tactical device/|
+	AN/PEQ-2 tactical device/|
+	LA-5B/PEQ tactical device/|
+	SureFire XC1 tactical flashlight/|
+	Wilcox RAPTAR ES Tactical Rangefinder/|
 	Zenit Perst-3 tactical device
 ]
 ChildParts=[
 	NcSTAR MPR45 Backup mount
 ]
 ChildParts=[
-	Magpul M-LOK AFG tactical foregrip (Black),
-	Magpul M-LOK AFG tactical foregrip (FDE),
-	Magpul M-LOK AFG tactical foregrip (Olive Drab),
-	Magpul M-LOK AFG tactical foregrip (Stealth Gray),
+	Magpul M-LOK AFG tactical foregrip (Black)/|
+	Magpul M-LOK AFG tactical foregrip (FDE)/|
+	Magpul M-LOK AFG tactical foregrip (Olive Drab)/|
+	Magpul M-LOK AFG tactical foregrip (Stealth Gray)/|
 	Magpul M-LOK 4.1 inch rail
 ]
 ChildParts=[
-	HK MP7 flip-up front sight,
-	KAC Folding Micro front sight,
-	KAC Folding front sight,
-	KRISS Defiance low profile flip-up front sight,
-	Magpul MBUS Gen2 flip-up front sight,
-	Magpul MBUS Gen2 flip-up front sight (FDE),
-	MCX flip-up front sight,
-	MPX flip-up front sight,
+	HK MP7 flip-up front sight/|
+	KAC Folding Micro front sight/|
+	KAC Folding front sight/|
+	KRISS Defiance low profile flip-up front sight/|
+	Magpul MBUS Gen2 flip-up front sight/|
+	Magpul MBUS Gen2 flip-up front sight (FDE)/|
+	MCX flip-up front sight/|
+	MPX flip-up front sight/|
 	AR-15 Leapers UTG Low Profile A2 front sight
 ]
 Conflict=[
-	HK 416A5 5.56x45 10.6 inch barrel,
-	HK 416A5 5.56x45 11 inch barrel,
+	HK 416A5 5.56x45 10.6 inch barrel/|
+	HK 416A5 5.56x45 11 inch barrel/|
 	HK 416A5 5.56x45 14.5 inch barrel
 ]
 Recoil=-1.000000
@@ -58,15 +58,15 @@ Information_Eng=The Midwest Industries M-LOK foregrip for 416A5 equipped with an
 basePrice=14400
 width=3
 height=1
-avg24hPrice=12131
-low24hPrice=8000
-lastOfferCount=3
+avg24hPrice=13035
+low24hPrice=10000
+lastOfferCount=12
 Sell_Prapor=7200
 Sell_Fence=5760
 Sell_Skier=7056
 Sell_Peacekeeper=54
 Sell_Mechanic=8064
-Sell_Flea Market=13999
+Sell_Flea Market=13000
 weight=0.370000
-fleaMarketFee=850
+fleaMarketFee=820
 propertiestype=ItemPropertiesWeaponMod

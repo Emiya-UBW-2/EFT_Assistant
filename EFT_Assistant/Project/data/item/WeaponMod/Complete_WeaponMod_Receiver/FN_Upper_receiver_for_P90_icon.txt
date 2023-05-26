@@ -3,7 +3,7 @@ Name=FN P90 5.7x28 upper receiver
 ShortName=P90
 Itemtype=Receiver
 ChildParts=[
-	FN P90 Ring Sight reflex sight,
+	FN P90 Ring Sight reflex sight/|
 	FN P90 upper receiver top rail
 ]
 ChildParts=[
@@ -20,7 +20,7 @@ width=2
 height=1
 avg24hPrice=0
 low24hPrice=0
-lastOfferCount=2
+lastOfferCount=1
 Sell_Prapor=1200
 Sell_Fence=960
 Sell_Skier=1176

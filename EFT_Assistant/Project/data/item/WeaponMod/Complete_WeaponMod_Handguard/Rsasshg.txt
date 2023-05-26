@@ -3,22 +3,22 @@ Name=R11 RSASS handguard
 ShortName=RSASS
 Itemtype=Handguard
 ChildParts=[
-	Magpul M-LOK AFG tactical foregrip (Black),
-	Magpul M-LOK AFG tactical foregrip (FDE),
-	Magpul M-LOK AFG tactical foregrip (Olive Drab),
-	Magpul M-LOK AFG tactical foregrip (Stealth Gray),
+	Magpul M-LOK AFG tactical foregrip (Black)/|
+	Magpul M-LOK AFG tactical foregrip (FDE)/|
+	Magpul M-LOK AFG tactical foregrip (Olive Drab)/|
+	Magpul M-LOK AFG tactical foregrip (Stealth Gray)/|
 	Remington RAHG 4 inch rail
 ]
 ChildParts=[
 	NcSTAR MPR45 Backup mount
 ]
 ChildParts=[
-	Holosun LS321 Tactical device,
-	AN/PEQ-15 tactical device,
-	AN/PEQ-2 tactical device,
-	LA-5B/PEQ tactical device,
-	SureFire XC1 tactical flashlight,
-	Wilcox RAPTAR ES Tactical Rangefinder,
+	Holosun LS321 Tactical device/|
+	AN/PEQ-15 tactical device/|
+	AN/PEQ-2 tactical device/|
+	LA-5B/PEQ tactical device/|
+	SureFire XC1 tactical flashlight/|
+	Wilcox RAPTAR ES Tactical Rangefinder/|
 	Zenit Perst-3 tactical device
 ]
 ChildParts=[
@@ -37,12 +37,11 @@ ChildParts=[
 	Remington RAHG 2 inch rail
 ]
 Conflict=[
-	STM-9 9x19 10.5 inch barrel,
-	STM-9 9x19 12 inch barrel,
-	STM-9 9x19 16 inch barrel,
-	M4A1 front sight with gas block,
-	AR-15 Windham Weaponry Rail Gas Block,
-	Mk47 254mm barrel,
+	Mk47 254mm barrel/|
+	STM-9 9x19 10.5 inch barrel/|
+	STM-9 9x19 12 inch barrel/|
+	M4A1 front sight with gas block/|
+	AR-15 Windham Weaponry Rail Gas Block/|
 ]
 Recoil=-2.000000
 Ergonomics=5.000000
@@ -50,15 +49,15 @@ Information_Eng=A standard handguard manufactured by JP Enterprises for the Remi
 basePrice=19754
 width=2
 height=1
-avg24hPrice=101117
-low24hPrice=48888
-lastOfferCount=2
+avg24hPrice=70950
+low24hPrice=35555
+lastOfferCount=12
 Sell_Prapor=9877
 Sell_Fence=7901
 Sell_Skier=9679
 Sell_Peacekeeper=75
 Sell_Mechanic=11062
-Sell_Flea Market=100000
+Sell_Flea Market=60000
 weight=0.310000
-fleaMarketFee=7976
+fleaMarketFee=3687
 propertiestype=ItemPropertiesWeaponMod

@@ -3,24 +3,24 @@ Name=Crye Precision AirFrame Ears
 ShortName=AF Ears
 Itemtype=Armored equipment
 Conflict=[
-	Peltor ComTac 2 headset,
-	MSA Sordin Supreme PRO-X/L active headset,
-	GSSh-01 active headset,
-	Peltor Tactical Sport headset,
+	Peltor ComTac 2 headset/|
+	MSA Sordin Supreme PRO-X/L active headset/|
+	GSSh-01 active headset/|
+	Peltor Tactical Sport headset/|
 	Walker's Razor Digital headset
 ]
 Information_Eng=An additional armor module for the Crye Precision AirFrame helmet, which protects the ear area from fragmentation and small-caliber ricochets.
 basePrice=36200
 width=2
 height=2
-avg24hPrice=33575
-low24hPrice=20000
-lastOfferCount=21
+avg24hPrice=32821
+low24hPrice=25555
+lastOfferCount=18
 Sell_Fence=14480
 Sell_Skier=17738
 Sell_Peacekeeper=137
 Sell_Ragman=22444
-Sell_Flea Market=31000
+Sell_Flea Market=25555
 weight=1.200000
-fleaMarketFee=2018
+fleaMarketFee=1922
 propertiestype=ItemPropertiesArmorAttachment

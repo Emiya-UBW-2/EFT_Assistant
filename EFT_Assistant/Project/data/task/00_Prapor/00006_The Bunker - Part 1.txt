@@ -35,12 +35,12 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 
 Reward_Rep=Prapor+0.030000
 Reward_Item=[
-	Roublesx20000,
-	Kalashnikov AK-105 5.45x39 assault rifle Defaultx1,
-	5.45x39mm PPBS gs "Igolnik"x60,
+	Roublesx20000/|
+	Kalashnikov AK-105 5.45x39 assault rifle Defaultx1/|
+	5.45x39mm PPBS gs "Igolnik"x60/|
 	5.45x39mm BT gsx30
 ]
 
 Reward_EXP=5700
-Task_PinPoint=[0.271559,-0.312500,0.000000]
-Task_PinMap=[Reserve,1]
+Task_PinPoint=[0.271559/|-0.312500/|0.000000]
+Task_PinMap=[Reserve/|1]

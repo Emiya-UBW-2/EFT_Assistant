@@ -3,7 +3,7 @@ Name=AK-74 polymer handguard (6P20 Sb.9)
 ShortName=6P20 Sb.9
 Itemtype=Handguard
 Conflict=[
-	AK Zenit B-33 dust cover,
+	AK Zenit B-33 dust cover/|
 ]
 Recoil=0.000000
 Ergonomics=5.000000

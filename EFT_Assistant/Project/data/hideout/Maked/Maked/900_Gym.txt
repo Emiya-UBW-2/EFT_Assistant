@@ -2,6 +2,6 @@ IDstr=6377a9b9a93bde8fa30eb79a
 Name=Gym
 Lv1constructionTime=14400
 Lv1Information_Eng=A well-equipped gym to keep your body in good physical shape.
-Lv1itemReq=[Toolsetx1,Electric drillx1,Metal cutting scissorsx1,Screw nutsx3,Boltsx3,WD-40 (100ml)x1,Insulating tapex1]
+Lv1itemReq=[Toolsetx1/|Electric drillx1/|Metal cutting scissorsx1/|Screw nutsx3/|Boltsx3/|WD-40 (100ml)x1/|Insulating tapex1]
 Lv1stationLevelReq=[Defective Wallx6]
 Lv1traderRequirements=[]

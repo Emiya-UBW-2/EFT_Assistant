@@ -3,87 +3,87 @@ Name=PP-19-01 "Vityaz" 9x19 submachine gun
 ShortName=PP-19-01
 Itemtype=SMG
 ChildParts=[
-	AK Aeroknox Scorpius pistol grip,
-	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip,
-	AK-12 pistol grip,
-	AK bakelite pistol grip (6P1 Sb.8V),
-	AK polymer pistol grip (6P1 Sb.8),
-	AKM bakelite pistol grip,
-	AKM wooden pistol grip,
-	AK bakelite pistol grip (6P4 Sb.9),
-	AK KGB MG-47 pistol grip,
-	AK KGB MG-47 pistol grip (Anodized Red),
-	AK Magpul MOE pistol grip (Black),
-	AK bakelite pistol grip,
-	AK Strike Industries Enhanced Pistol Grip (Black),
-	AK Strike Industries Enhanced Pistol Grip (FDE),
-	AK TAPCO SAW-Style pistol grip (Black),
-	AK TAPCO SAW-Style pistol grip (FDE),
-	AK US Palm pistol grip,
-	AK Zenit RK-3 pistol grip,
-	PP-19-01 "Vityaz" pistol grip,
-	AK FAB Defense AGR-47 pistol grip,
-	AK TangoDown Battle Grip pistol grip (FDE),
+	AK Aeroknox Scorpius pistol grip/|
+	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip/|
+	AK-12 pistol grip/|
+	AK bakelite pistol grip (6P1 Sb.8V)/|
+	AK polymer pistol grip (6P1 Sb.8)/|
+	AKM bakelite pistol grip/|
+	AKM wooden pistol grip/|
+	AK bakelite pistol grip (6P4 Sb.9)/|
+	AK KGB MG-47 pistol grip/|
+	AK KGB MG-47 pistol grip (Anodized Red)/|
+	AK Magpul MOE pistol grip (Black)/|
+	AK bakelite pistol grip/|
+	AK Strike Industries Enhanced Pistol Grip (Black)/|
+	AK Strike Industries Enhanced Pistol Grip (FDE)/|
+	AK TAPCO SAW-Style pistol grip (Black)/|
+	AK TAPCO SAW-Style pistol grip (FDE)/|
+	AK US Palm pistol grip/|
+	AK Zenit RK-3 pistol grip/|
+	PP-19-01 "Vityaz" pistol grip/|
+	AK FAB Defense AGR-47 pistol grip/|
+	AK TangoDown Battle Grip pistol grip (FDE)/|
 	AK TangoDown Battle Grip pistol grip
 ]
 ChildParts=[
-	AK-74M CAA AKTS AK74 buffer tube,
-	AK-74M/AK-100 Zenit PT Lock,
+	AK-74M CAA AKTS AK74 buffer tube/|
+	AK-74M/AK-100 Zenit PT Lock/|
 	PP-19-01 "Vityaz" metal skeleton stock
 ]
 ChildParts=[
-	AK CSS knurled charging handle,
+	AK CSS knurled charging handle/|
 	AK Zenit RP-1 charging handle
 ]
 ChildParts=[
-	Saiga-9 9x19 sb.7 10-round magazine,
-	PP-19-01 "Vityaz" 9x19 30-round magazine,
-	PP-19-01 "Vityaz" 9x19 PUFGUN SG-919 20 20-round magazine,
+	Saiga-9 9x19 sb.7 10-round magazine/|
+	PP-19-01 "Vityaz" 9x19 30-round magazine/|
+	PP-19-01 "Vityaz" 9x19 PUFGUN SG-919 20 20-round magazine/|
 	PP-19-01 "Vityaz" 9x19 PUFGUN SG-919 30 30-round magazine
 ]
 ChildParts=[
-	PP-19-01 "Vityaz" 9x19 muzzle brake-compensator,
-	Saiga-9 9x19 muzzle brake-compensator,
-	SilencerCo Hybrid 46 Direct Thread Mount adapter,
-	Rotor 43 9x19 muzzle brake-compensator,
-	SIG Sauer SRD9 9x19 sound suppressor,
-	SilencerCo Osprey 9 9x19 sound suppressor,
+	PP-19-01 "Vityaz" 9x19 muzzle brake-compensator/|
+	Saiga-9 9x19 muzzle brake-compensator/|
+	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
+	Rotor 43 9x19 muzzle brake-compensator/|
+	SIG Sauer SRD9 9x19 sound suppressor/|
+	SilencerCo Osprey 9 9x19 sound suppressor/|
 	PP-19-01 "Vityaz" 9x19 sound suppressor
 ]
 ChildParts=[
-	PP-19-01 "Vityaz-SN" dust cover,
+	PP-19-01 "Vityaz-SN" dust cover/|
 	PP-19-01 "Vityaz" dust cover
 ]
 ChildParts=[
 	PP-19-01 "Vityaz" rear sight
 ]
 ChildParts=[
-	Axion Kobra EKP-8-02 reflex sight (Dovetail),
-	BelOMO PK-AA dovetail reflex sight,
-	OKP-7 reflex sight (Dovetail),
-	NPZ PK1 "Obzor" reflex sight,
-	BelOMO PSO-1 4x24 scope,
-	BelOMO PSO-1M2-1 4x24 scope,
-	BelOMO PSO-1M2 4x24 scope,
-	NPZ USP-1 "Tyulpan" 4x scope,
-	NSPU-M night vision scope,
-	Axion Kobra dovetail mount,
-	KMZ 1P59 dovetail mount,
-	NPZ 1P78-1 dovetail mount,
-	VOMZ Pilad 043-02 dovetail mount,
-	Zenit B-13V "Klassika" dovetail rail platform,
+	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
+	BelOMO PK-AA dovetail reflex sight/|
+	OKP-7 reflex sight (Dovetail)/|
+	NPZ PK1 "Obzor" reflex sight/|
+	BelOMO PSO-1 4x24 scope/|
+	BelOMO PSO-1M2-1 4x24 scope/|
+	BelOMO PSO-1M2 4x24 scope/|
+	NPZ USP-1 "Tyulpan" 4x scope/|
+	NSPU-M night vision scope/|
+	Axion Kobra dovetail mount/|
+	KMZ 1P59 dovetail mount/|
+	NPZ 1P78-1 dovetail mount/|
+	VOMZ Pilad 043-02 dovetail mount/|
+	Zenit B-13V "Klassika" dovetail rail platform/|
 	SAG Bit low profile dovetail sidemount
 ]
 ChildParts=[
 	PP-19-01 "Vityaz" gas tube
 ]
 Conflict=[
-	AK Strike Industries TRAX 2 handguard extension,
-	AK Magpul Zhukov-U handguard (Black),
-	AK Magpul Zhukov-U handguard (FDE),
-	AK Magpul Zhukov-U handguard (Plum),
-	Hera Arms CQR tactical foregrip,
-	Strike Industries TRAX bridge rail,
+	AK Magpul Zhukov-U handguard (Black)/|
+	AK Magpul Zhukov-U handguard (FDE)/|
+	AK Magpul Zhukov-U handguard (Plum)/|
+	Strike Industries TRAX bridge rail/|
+	Hera Arms CQR tactical foregrip/|
+	AK Strike Industries TRAX 2 handguard extension/|
 ]
 Recoil=58.000000
 Ergonomics=35.000000
@@ -91,15 +91,15 @@ Information_Eng=The PP-19-01, also known as "Vityaz", is a Russian submachine gu
 basePrice=14751
 width=2
 height=1
-avg24hPrice=19171
-low24hPrice=13900
-lastOfferCount=26
+avg24hPrice=18792
+low24hPrice=12500
+lastOfferCount=19
 Sell_Prapor=7375
 Sell_Fence=5900
 Sell_Skier=7227
 Sell_Peacekeeper=56
 Sell_Mechanic=8260
-Sell_Flea Market=13900
+Sell_Flea Market=15500
 weight=1.809000
-fleaMarketFee=857
+fleaMarketFee=905
 propertiestype=ItemPropertiesWeapon

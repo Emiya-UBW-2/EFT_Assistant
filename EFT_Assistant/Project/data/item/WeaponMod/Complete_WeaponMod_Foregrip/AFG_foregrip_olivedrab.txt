@@ -3,7 +3,7 @@ Name=Magpul AFG tactical foregrip (Olive Drab)
 ShortName=AFG OD
 Itemtype=Foregrip
 Conflict=[
-	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher/|
 ]
 Recoil=-2.000000
 Ergonomics=6.000000
@@ -11,15 +11,15 @@ Information_Eng=The Magpul AFG (Angled Fore Grip) tactical grip enables a more n
 basePrice=6326
 width=1
 height=1
-avg24hPrice=26343
-low24hPrice=15000
-lastOfferCount=9
+avg24hPrice=23645
+low24hPrice=11111
+lastOfferCount=21
 Sell_Prapor=3163
 Sell_Fence=2530
 Sell_Skier=3099
 Sell_Peacekeeper=24
 Sell_Mechanic=3542
-Sell_Flea Market=32000
+Sell_Flea Market=18888
 weight=0.082000
-fleaMarketFee=2551
+fleaMarketFee=1152
 propertiestype=ItemPropertiesWeaponMod

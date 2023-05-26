@@ -3,13 +3,13 @@ Name=SIG Sauer ROMEO sight mount
 ShortName=ROMEO
 Itemtype=Mount
 ChildParts=[
-	Aimpoint Micro H-2 reflex sight,
-	Aimpoint Micro T-1 reflex sight,
+	Aimpoint Micro H-2 reflex sight/|
+	Aimpoint Micro T-1 reflex sight/|
 	SIG Sauer ROMEO4 reflex sight
 ]
 Conflict=[
-	AR-15 Colt A2 rear sight,
-	AR-15 rear sight carry handle,
+	AR-15 Colt A2 rear sight/|
+	AR-15 rear sight carry handle/|
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -17,16 +17,16 @@ Information_Eng=The SIG Sauer mount base for ROMEO-type reflex sights.
 basePrice=1861
 width=1
 height=1
-avg24hPrice=11518
+avg24hPrice=13822
 low24hPrice=6000
-lastOfferCount=4
+lastOfferCount=13
 Sell_Prapor=930
 Sell_Fence=744
 Sell_Skier=911
 Sell_Peacekeeper=7
 Sell_Mechanic=1042
 Sell_Jaeger=1116
-Sell_Flea Market=6000
+Sell_Flea Market=10000
 weight=0.015000
-fleaMarketFee=379
+fleaMarketFee=825
 propertiestype=ItemPropertiesWeaponMod

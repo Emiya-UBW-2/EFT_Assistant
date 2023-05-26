@@ -3,7 +3,7 @@ Name=5.56x45 SureFire MAG5-100 STANAG 100-round magazine
 ShortName=MAG5-100
 Itemtype=Magazine
 Conflict=[
-	HK G36 magwell,
+	HK G36 magwell/|
 ]
 Recoil=0.000000
 Ergonomics=-27.000000
@@ -11,15 +11,15 @@ Information_Eng=A 100-round 5.56x45 SureFire MAG5-100 metal high capacity magazi
 basePrice=37755
 width=1
 height=3
-avg24hPrice=52821
-low24hPrice=40000
-lastOfferCount=20
+avg24hPrice=56343
+low24hPrice=38888
+lastOfferCount=13
 Sell_Prapor=18877
 Sell_Fence=15102
 Sell_Skier=18499
 Sell_Peacekeeper=143
 Sell_Mechanic=21142
-Sell_Flea Market=43000
+Sell_Flea Market=50000
 weight=0.270000
-fleaMarketFee=2420
+fleaMarketFee=2687
 propertiestype=ItemPropertiesMagazine

@@ -3,35 +3,35 @@ Name=Magpul M-LOK 4.1 inch rail
 ShortName=M-LOK 4.1"
 Itemtype=Mount
 ChildParts=[
-	BCM GUNFIGHTER MOD 3 vertical foregrip,
-	ASh-12 vertical foregrip,
-	Fortis Shift tactical foregrip,
-	HK Sturmgriff foregrip,
-	KAC vertical foregrip,
-	Magpul AFG tactical foregrip (Black),
-	Magpul AFG tactical foregrip (FDE),
-	Magpul AFG tactical foregrip (Forest Green),
-	Magpul AFG tactical foregrip (Olive Drab),
-	Magpul RVG foregrip (Black),
-	Magpul RVG foregrip (FDE),
-	RTM Pillau tactical foregrip,
-	Stark SE-5 Express Forward foregrip,
-	Strike Industries Cobra Tactical foregrip,
-	TangoDown Stubby BGV-MK46K foregrip (Black),
-	TangoDown Stubby BGV-MK46K foregrip (FDE),
-	TangoDown Stubby BGV-MK46K foregrip (Stealth Gray),
-	Tactical Dynamics Skeletonized Foregrip,
-	Viking Tactics UVG tactical foregrip,
-	Zenit RK-1 tactical foregrip on B-25U mount,
-	Zenit RK-0 tactical foregrip,
-	Zenit RK-1 tactical foregrip,
-	Zenit RK-2 tactical foregrip,
-	Zenit RK-4 tactical foregrip,
-	Zenit RK-5 tactical foregrip,
+	BCM GUNFIGHTER MOD 3 vertical foregrip/|
+	ASh-12 vertical foregrip/|
+	Fortis Shift tactical foregrip/|
+	HK Sturmgriff foregrip/|
+	KAC vertical foregrip/|
+	Magpul AFG tactical foregrip (Black)/|
+	Magpul AFG tactical foregrip (FDE)/|
+	Magpul AFG tactical foregrip (Forest Green)/|
+	Magpul AFG tactical foregrip (Olive Drab)/|
+	Magpul RVG foregrip (Black)/|
+	Magpul RVG foregrip (FDE)/|
+	RTM Pillau tactical foregrip/|
+	Stark SE-5 Express Forward foregrip/|
+	Strike Industries Cobra Tactical foregrip/|
+	TangoDown Stubby BGV-MK46K foregrip (Black)/|
+	TangoDown Stubby BGV-MK46K foregrip (FDE)/|
+	TangoDown Stubby BGV-MK46K foregrip (Stealth Gray)/|
+	Tactical Dynamics Skeletonized Foregrip/|
+	Viking Tactics UVG tactical foregrip/|
+	Zenit RK-1 tactical foregrip on B-25U mount/|
+	Zenit RK-0 tactical foregrip/|
+	Zenit RK-1 tactical foregrip/|
+	Zenit RK-2 tactical foregrip/|
+	Zenit RK-4 tactical foregrip/|
+	Zenit RK-5 tactical foregrip/|
 	Zenit RK-6 tactical foregrip
 ]
 Conflict=[
-	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher/|
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -39,16 +39,16 @@ Information_Eng=The Magpul M-LOK 4.1 inch rail allows installation of additional
 basePrice=1573
 width=1
 height=1
-avg24hPrice=16495
-low24hPrice=7500
-lastOfferCount=6
+avg24hPrice=16264
+low24hPrice=6666
+lastOfferCount=8
 Sell_Prapor=786
 Sell_Fence=629
 Sell_Skier=770
 Sell_Peacekeeper=6
 Sell_Mechanic=880
 Sell_Jaeger=943
-Sell_Flea Market=9899
+Sell_Flea Market=9444
 weight=0.070000
-fleaMarketFee=897
+fleaMarketFee=832
 propertiestype=ItemPropertiesWeaponMod

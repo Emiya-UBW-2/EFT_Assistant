@@ -3,22 +3,22 @@ Name=LShZ light helmet
 ShortName=LShZ
 Itemtype=Headwear
 Conflict=[
-	Faceless mask,
-	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY",
+	Faceless mask/|
+	Tagilla's welding mask "Gorilla"/|
+	Tagilla's welding mask "UBEY"/|
 ]
 Information_Eng=A lightweight protective helmet made in Russia. In fact the copy of Ops-Core FAST helmet, but with lower characteristics.
 basePrice=47364
 width=2
 height=2
-avg24hPrice=42120
-low24hPrice=31000
-lastOfferCount=19
+avg24hPrice=47124
+low24hPrice=36000
+lastOfferCount=18
 Sell_Fence=18945
 Sell_Skier=23208
 Sell_Peacekeeper=179
 Sell_Ragman=29365
-Sell_Flea Market=44444
+Sell_Flea Market=36999
 weight=0.950000
-fleaMarketFee=2746
+fleaMarketFee=2566
 propertiestype=ItemPropertiesHelmet

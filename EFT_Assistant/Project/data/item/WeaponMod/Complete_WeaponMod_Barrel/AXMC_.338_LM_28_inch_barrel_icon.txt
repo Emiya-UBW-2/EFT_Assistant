@@ -3,17 +3,17 @@ Name=AI AXMC .338 LM 28 inch barrel
 ShortName=AXMC .338LM 28"
 Itemtype=Barrel
 ChildParts=[
-	AI .338 LM Tactical Muzzle Brake ,
-	AWC PSR .338 LM muzzle brake,
+	AI .338 LM Tactical Muzzle Brake /|
+	AWC PSR .338 LM muzzle brake/|
 	SilencerCo AC-858 ASR .338 LM muzzle brake
 ]
 Conflict=[
-	7.62x51mm M61,
-	7.62x51mm M62 Tracer,
-	7.62x51mm M80,
-	7.62x51mm BCP FMJ,
-	7.62x51mm M993,
-	7.62x51mm TCW SP,
+	7.62x51mm M61/|
+	7.62x51mm M62 Tracer/|
+	7.62x51mm M80/|
+	7.62x51mm BCP FMJ/|
+	7.62x51mm M993/|
+	7.62x51mm TCW SP/|
 	7.62x51mm Ultra Nosler
 ]
 Recoil=-5.000000

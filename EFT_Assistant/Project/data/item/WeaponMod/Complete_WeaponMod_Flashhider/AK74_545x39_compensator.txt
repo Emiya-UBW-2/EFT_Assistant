@@ -3,7 +3,7 @@ Name=AK-74 5.45x39 muzzle brake-compensator (6P20 0-20)
 ShortName=6P20 0-20
 Itemtype=Flashhider
 Conflict=[
-	AKS-74U Alfa Arms Goliaf handguard,
+	AKS-74U Alfa Arms Goliaf handguard/|
 ]
 Recoil=-10.000000
 Ergonomics=-2.000000
@@ -13,7 +13,7 @@ width=1
 height=1
 avg24hPrice=0
 low24hPrice=0
-lastOfferCount=2
+lastOfferCount=1
 Sell_Prapor=347
 Sell_Fence=277
 Sell_Skier=340

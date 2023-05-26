@@ -33,12 +33,12 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 
 Reward_Rep=Therapist+0.040000
 Reward_Item=[
-	Roublesx24000,
+	Roublesx24000/|
 	Salewa first aid kitx4
 ]
 
 Reward_EXP=5900
-Task_PinPoint=[-0.142578,-0.192383,0.000000]
-Task_PinMap=[Shoreline,1]
-Task_PinPoint=[0.374512,-0.421875,0.000000]
-Task_PinMap=[Shoreline,1]
+Task_PinPoint=[-0.142578/|-0.192383/|0.000000]
+Task_PinMap=[Shoreline/|1]
+Task_PinPoint=[0.374512/|-0.421875/|0.000000]
+Task_PinMap=[Shoreline/|1]

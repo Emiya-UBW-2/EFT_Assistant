@@ -43,10 +43,10 @@ DogTagLv=0
 
 Reward_Rep=Ragman+0.030000
 Reward_Item=[
-	Roublesx120000,
-	Stich Profi Chimera boonie hatx2,
-	Jack Pyke Hunting LLCS boonie hatx2,
-	Door Kicker boonie hatx2,
+	Roublesx120000/|
+	Stich Profi Chimera boonie hatx2/|
+	Jack Pyke Hunting LLCS boonie hatx2/|
+	Door Kicker boonie hatx2/|
 	MIL-TEC boonie hatx2
 ]
 

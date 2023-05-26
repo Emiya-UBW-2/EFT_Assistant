@@ -4,20 +4,20 @@ ShortName=6.5-20x50
 Itemtype=Scope
 SightRange=1500
 Conflict=[
-	Axion Kobra EKP-8-18 reflex sight,
-	OKP-7 reflex sight,
-	EOTech 553 holographic sight,
-	EOTech EXPS3 holographic sight (Tan),
-	EOTech XPS3-0 holographic sight,
-	EOTech XPS3-2 holographic sight,
-	Holosun HS401G5 reflex sight,
-	SIG Sauer ROMEO8T reflex sight,
-	Trijicon SRS-02 reflex sight,
-	Valday PK-120 (1P87) holographic sight,
-	Valday Krechet reflex sight,
-	VOMZ Pilad P1x42 Weaver reflex sight,
-	Vortex Razor AMG UH-1 holographic sight,
-	Walther MRS reflex sight,
+	Axion Kobra EKP-8-18 reflex sight/|
+	OKP-7 reflex sight/|
+	EOTech 553 holographic sight/|
+	EOTech EXPS3 holographic sight (Tan)/|
+	EOTech XPS3-0 holographic sight/|
+	EOTech XPS3-2 holographic sight/|
+	Holosun HS401G5 reflex sight/|
+	SIG Sauer ROMEO8T reflex sight/|
+	Trijicon SRS-02 reflex sight/|
+	Valday PK-120 (1P87) holographic sight/|
+	Valday Krechet reflex sight/|
+	VOMZ Pilad P1x42 Weaver reflex sight/|
+	Vortex Razor AMG UH-1 holographic sight/|
+	Walther MRS reflex sight/|
 	Aimpoint LRP mount for CompM4 sights
 ]
 Recoil=0.000000
@@ -26,16 +26,16 @@ Information_Eng=Precise, accurate, durable and dependable - the Leupold Mark 4 6
 basePrice=58580
 width=2
 height=1
-avg24hPrice=36145
-low24hPrice=33333
-lastOfferCount=39
+avg24hPrice=36602
+low24hPrice=35333
+lastOfferCount=23
 Sell_Prapor=29290
 Sell_Fence=23432
 Sell_Skier=28704
 Sell_Peacekeeper=222
 Sell_Mechanic=32804
 Sell_Jaeger=35148
-Sell_Flea Market=35000
+Sell_Flea Market=35555
 weight=0.620000
-fleaMarketFee=3084
+fleaMarketFee=3083
 propertiestype=ItemPropertiesScope

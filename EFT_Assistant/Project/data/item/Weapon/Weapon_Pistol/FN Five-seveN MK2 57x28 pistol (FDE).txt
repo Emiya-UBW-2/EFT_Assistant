@@ -3,7 +3,7 @@ Name=FN Five-seveN MK2 5.7x28 pistol (FDE)
 ShortName=FN 5-7 FDE
 Itemtype=Handgun
 ChildParts=[
-	FN Five-seveN 5.7x28 barrel,
+	FN Five-seveN 5.7x28 barrel/|
 	FN Five-seveN 5.7x28 threaded barrel
 ]
 ChildParts=[
@@ -13,16 +13,16 @@ ChildParts=[
 	FN Five-seveN 5.7x28 20-round magazine
 ]
 ChildParts=[
-	Glock GTL 21 tactical flashlight with laser,
-	NcSTAR Tactical blue laser LAM-module,
-	Steiner DBAL-PL tactical device,
-	Steiner LAS/TAC 2 tactical flashlight,
-	SureFire X400 Ultra tactical flashlight with laser,
-	SureFire XC1 tactical flashlight,
-	Zenit Klesch-2IKS IR illuminator with laser,
-	Zenit Klesch-2P flashlight with laser,
-	UM Tactical UM3 pistol sight mount,
-	Olight Baldr Pro tactical flashlight with laser,
+	Glock GTL 21 tactical flashlight with laser/|
+	NcSTAR Tactical blue laser LAM-module/|
+	Steiner DBAL-PL tactical device/|
+	Steiner LAS/TAC 2 tactical flashlight/|
+	SureFire X400 Ultra tactical flashlight with laser/|
+	SureFire XC1 tactical flashlight/|
+	Zenit Klesch-2IKS IR illuminator with laser/|
+	Zenit Klesch-2P flashlight with laser/|
+	UM Tactical UM3 pistol sight mount/|
+	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)
 ]
 Recoil=281.000000
@@ -31,15 +31,15 @@ Information_Eng=FN Five-Seven, trademarked as the Five-seveN, is a semi-automati
 basePrice=14238
 width=2
 height=1
-avg24hPrice=19338
-low24hPrice=12000
-lastOfferCount=26
+avg24hPrice=21395
+low24hPrice=17000
+lastOfferCount=14
 Sell_Prapor=7119
 Sell_Fence=5695
 Sell_Skier=6976
 Sell_Peacekeeper=54
 Sell_Mechanic=7973
-Sell_Flea Market=12000
+Sell_Flea Market=18000
 weight=0.230000
-fleaMarketFee=789
+fleaMarketFee=978
 propertiestype=ItemPropertiesWeapon

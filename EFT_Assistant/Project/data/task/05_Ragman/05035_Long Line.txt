@@ -22,7 +22,7 @@ Task_Else=É]Å[Éì:[Inside ULTRA Mall]
 ]
 
 Reward_Item=[
-	6Sh118 raid backpackx1,
+	6Sh118 raid backpackx1/|
 	Rys-T bulletproof helmetx1
 ]
 

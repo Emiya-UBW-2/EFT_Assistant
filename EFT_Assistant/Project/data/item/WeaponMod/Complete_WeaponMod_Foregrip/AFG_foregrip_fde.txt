@@ -3,7 +3,7 @@ Name=Magpul AFG tactical foregrip (FDE)
 ShortName=AFG FDE
 Itemtype=Foregrip
 Conflict=[
-	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher/|
 ]
 Recoil=-2.000000
 Ergonomics=6.000000
@@ -11,15 +11,15 @@ Information_Eng=The Magpul AFG (Angled Fore Grip) tactical grip enables a more n
 basePrice=5444
 width=1
 height=1
-avg24hPrice=18178
-low24hPrice=12111
-lastOfferCount=6
+avg24hPrice=16838
+low24hPrice=8888
+lastOfferCount=9
 Sell_Prapor=2722
 Sell_Fence=2177
 Sell_Skier=2667
 Sell_Peacekeeper=21
 Sell_Mechanic=3048
-Sell_Flea Market=20000
+Sell_Flea Market=13888
 weight=0.082000
-fleaMarketFee=1343
+fleaMarketFee=797
 propertiestype=ItemPropertiesWeaponMod

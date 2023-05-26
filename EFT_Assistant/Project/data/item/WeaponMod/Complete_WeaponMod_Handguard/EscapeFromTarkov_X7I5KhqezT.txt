@@ -15,8 +15,8 @@ ChildParts=[
 	HK G36 hand stop
 ]
 Conflict=[
-	Hera Arms CQR tactical foregrip,
-	HK G36 5.56x45 318mm barrel,
+	Hera Arms CQR tactical foregrip/|
+	HK G36 5.56x45 318mm barrel/|
 	HK G36 5.56x45 480mm barrel
 ]
 Recoil=0.000000

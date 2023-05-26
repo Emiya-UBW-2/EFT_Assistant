@@ -32,8 +32,8 @@ Task_Else=E‚Á‚Ä”[•i:Streets of Tarkov-Chemical container with samplesx1
 
 Reward_Rep=Therapist+0.020000
 Reward_Item=[
-	Roublesx51000,
-	Adrenaline injectorx2,
+	Roublesx51000/|
+	Adrenaline injectorx2/|
 	Zagustin hemostatic drug injectorx1
 ]
 

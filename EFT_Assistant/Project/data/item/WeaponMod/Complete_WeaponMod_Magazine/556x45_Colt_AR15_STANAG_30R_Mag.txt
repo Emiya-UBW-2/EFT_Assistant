@@ -3,7 +3,7 @@ Name=5.56x45 Colt AR-15 STANAG 30-round magazine
 ShortName=STANAG
 Itemtype=Magazine
 Conflict=[
-	HK G36 magwell,
+	HK G36 magwell/|
 ]
 Recoil=0.000000
 Ergonomics=-3.000000
@@ -12,15 +12,15 @@ The STANAG 4179 standard was approved by NATO members in 1980 for the unificatio
 basePrice=2012
 width=1
 height=2
-avg24hPrice=21183
-low24hPrice=9900
-lastOfferCount=11
+avg24hPrice=22753
+low24hPrice=2700
+lastOfferCount=6
 Sell_Prapor=1006
 Sell_Fence=804
 Sell_Skier=985
 Sell_Peacekeeper=8
 Sell_Mechanic=1126
-Sell_Flea Market=9900
+Sell_Flea Market=7777
 weight=0.117000
-fleaMarketFee=777
+fleaMarketFee=536
 propertiestype=ItemPropertiesMagazine

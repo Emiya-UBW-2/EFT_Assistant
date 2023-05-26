@@ -3,12 +3,12 @@ Name=AI AXMC .338 LM bolt assembly
 ShortName=AXMC .338LM
 Itemtype=Charging handle
 Conflict=[
-	7.62x51mm M61,
-	7.62x51mm M62 Tracer,
-	7.62x51mm M80,
-	7.62x51mm BCP FMJ,
-	7.62x51mm M993,
-	7.62x51mm TCW SP,
+	7.62x51mm M61/|
+	7.62x51mm M62 Tracer/|
+	7.62x51mm M80/|
+	7.62x51mm BCP FMJ/|
+	7.62x51mm M993/|
+	7.62x51mm TCW SP/|
 	7.62x51mm Ultra Nosler
 ]
 Recoil=-1.000000

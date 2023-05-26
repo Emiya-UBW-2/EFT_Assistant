@@ -3,34 +3,34 @@ Name=AK CNC Warrior 5.56x45 muzzle device adapter
 ShortName=CNC War.
 Itemtype=Comb. muzzle device
 ChildParts=[
-	AR-15 AAC Blackout 51T 5.56x45 flash hider,
-	AR-15 ADAR 2-15 5.56x45 flash hider,
-	AR-15 AWC PSR 5.56x45 muzzle brake,
-	AR-15 Bulletec ST-6012 5.56x45 muzzle brake,
-	AR-15 Colt USGI A2 5.56x45 flash hider,
-	AR-15 Daniel Defense WAVE 5.56x45 muzzle brake,
-	Desert Tech 5.56x45 flash hider,
-	AR-15 Ferfrans CQB 5.56x45 muzzle brake,
-	AR-15 HK BLITZ 5.56x45 flash hider,
-	AR-15 KAC QDC 5.56x45 Flash Suppressor Kit,
-	AR-15 Nordic Components Corvette 5.56x45 compensator,
-	AR-15 Noveske KX3 5.56x45 flash hider,
-	AR-15 PWS CQB 5.56x45 muzzle brake,
-	AR-15 SilencerCo ASR 5.56x45 flash hider,
-	AR-15 SureFire SF3P 5.56x45 Flash hider,
-	AR-15 SureFire SF4P FH556RC 5.56x45 flash hider,
-	AR-15 SureFire WarComp 5.56x45 flash hider,
-	AR-15 TAA ZK-23 5.56x45 muzzle brake,
-	AR-15 Thunder Beast Arms 223CB 5.56x45 muzzle brake,
-	AR-15 TROY Claymore 5.56x45 muzzle brake,
-	AR-15 Vendetta Precision VP-09 Interceptor 5.56x45 muzzle brake,
-	Gemtech ONE Direct Thread Mount adapter,
-	SilencerCo Hybrid 46 Direct Thread Mount adapter,
-	Rotor 43 5.56x45 muzzle brake-compensator,
-	AR-15 Yankee Hill Phantom 5.56x45 flash hider,
-	KAC QDC 5.56x45 3-Prong Flash Eliminator,
-	AR-15 SureFire Warden 5.56x45 blast regulator,
-	AR-15 AlienTech 5.56x45 muzzle brake,
+	AR-15 AAC Blackout 51T 5.56x45 flash hider/|
+	AR-15 ADAR 2-15 5.56x45 flash hider/|
+	AR-15 AWC PSR 5.56x45 muzzle brake/|
+	AR-15 Bulletec ST-6012 5.56x45 muzzle brake/|
+	AR-15 Colt USGI A2 5.56x45 flash hider/|
+	AR-15 Daniel Defense WAVE 5.56x45 muzzle brake/|
+	Desert Tech 5.56x45 flash hider/|
+	AR-15 Ferfrans CQB 5.56x45 muzzle brake/|
+	AR-15 HK BLITZ 5.56x45 flash hider/|
+	AR-15 KAC QDC 5.56x45 Flash Suppressor Kit/|
+	AR-15 Nordic Components Corvette 5.56x45 compensator/|
+	AR-15 Noveske KX3 5.56x45 flash hider/|
+	AR-15 PWS CQB 5.56x45 muzzle brake/|
+	AR-15 SilencerCo ASR 5.56x45 flash hider/|
+	AR-15 SureFire SF3P 5.56x45 Flash hider/|
+	AR-15 SureFire SF4P FH556RC 5.56x45 flash hider/|
+	AR-15 SureFire WarComp 5.56x45 flash hider/|
+	AR-15 TAA ZK-23 5.56x45 muzzle brake/|
+	AR-15 Thunder Beast Arms 223CB 5.56x45 muzzle brake/|
+	AR-15 TROY Claymore 5.56x45 muzzle brake/|
+	AR-15 Vendetta Precision VP-09 Interceptor 5.56x45 muzzle brake/|
+	Gemtech ONE Direct Thread Mount adapter/|
+	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
+	Rotor 43 5.56x45 muzzle brake-compensator/|
+	AR-15 Yankee Hill Phantom 5.56x45 flash hider/|
+	KAC QDC 5.56x45 3-Prong Flash Eliminator/|
+	AR-15 SureFire Warden 5.56x45 blast regulator/|
+	AR-15 AlienTech 5.56x45 muzzle brake/|
 	AR-15 Griffin Armament Gate-LOK Hammer 5.56x45 flash hider
 ]
 Recoil=0.000000
@@ -39,15 +39,15 @@ Information_Eng=The CNC Warrior AK adapter allows to install different AR-15 spe
 basePrice=2615
 width=1
 height=1
-avg24hPrice=35054
-low24hPrice=14500
-lastOfferCount=25
+avg24hPrice=30279
+low24hPrice=9999
+lastOfferCount=5
 Sell_Prapor=1307
 Sell_Fence=1046
 Sell_Skier=1281
 Sell_Peacekeeper=10
 Sell_Mechanic=1464
-Sell_Flea Market=20000
+Sell_Flea Market=17800
 weight=0.100000
-fleaMarketFee=2041
+fleaMarketFee=1691
 propertiestype=ItemPropertiesWeaponMod

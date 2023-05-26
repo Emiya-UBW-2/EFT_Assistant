@@ -35,15 +35,15 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 
 Reward_Rep=Prapor+0.020000
 Reward_Item=[
-	Roublesx22000,
-	EYE MK.2 professional hand-held compassx1,
+	Roublesx22000/|
+	EYE MK.2 professional hand-held compassx1/|
 	Woods plan mapx1
 ]
 
 Reward_EXP=2800
-Task_PinPoint=[-0.223722,-0.153143,0.000000]
-Task_PinMap=[Woods,1]
-Task_PinPoint=[-0.223278,-0.206410,0.000000]
-Task_PinMap=[Woods,1]
-Task_PinPoint=[-0.166459,-0.261009,0.000000]
-Task_PinMap=[Woods,1]
+Task_PinPoint=[-0.223722/|-0.153143/|0.000000]
+Task_PinMap=[Woods/|1]
+Task_PinPoint=[-0.223278/|-0.206410/|0.000000]
+Task_PinMap=[Woods/|1]
+Task_PinPoint=[-0.166459/|-0.261009/|0.000000]
+Task_PinMap=[Woods/|1]

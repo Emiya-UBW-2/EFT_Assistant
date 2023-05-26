@@ -3,8 +3,8 @@ Name=FAL original handguard
 ShortName=FAL
 Itemtype=Handguard
 Conflict=[
-	SA-58 7.62x51 16 inch barrel,
-	SA-58 7.62x51 11 inch barrel,
+	SA-58 7.62x51 16 inch barrel/|
+	SA-58 7.62x51 11 inch barrel/|
 ]
 Recoil=0.000000
 Ergonomics=7.000000

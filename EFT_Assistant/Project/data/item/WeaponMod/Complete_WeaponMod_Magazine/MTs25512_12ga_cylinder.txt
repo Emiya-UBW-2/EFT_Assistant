@@ -3,93 +3,93 @@ Name=MTs-255-12 12ga cylinder
 ShortName=255 cyl.
 Itemtype=Cylinder Magazine
 ChildParts=[
-	12/70 7mm buckshot,
-	12/70 5.25mm buckshot,
-	12/70 6.5mm Express buckshot,
-	12/70 8.5mm Magnum buckshot,
-	12/70 Dual Sabot slug,
-	12/70 flechette,
-	12/70 RIP,
-	12/70 lead slug,
-	12/70 makeshift .50 BMG slug,
-	12/70 AP-20 armor-piercing slug,
-	12/70 FTX Custom Lite slug,
-	12/70 Grizzly 40 slug,
-	12/70 Copper Sabot Premier HP slug,
-	12/70 "Poleva-3" slug,
-	12/70 "Poleva-6u" slug,
+	12/70 7mm buckshot/|
+	12/70 5.25mm buckshot/|
+	12/70 6.5mm Express buckshot/|
+	12/70 8.5mm Magnum buckshot/|
+	12/70 Dual Sabot slug/|
+	12/70 flechette/|
+	12/70 RIP/|
+	12/70 lead slug/|
+	12/70 makeshift .50 BMG slug/|
+	12/70 AP-20 armor-piercing slug/|
+	12/70 FTX Custom Lite slug/|
+	12/70 Grizzly 40 slug/|
+	12/70 Copper Sabot Premier HP slug/|
+	12/70 "Poleva-3" slug/|
+	12/70 "Poleva-6u" slug/|
 	12/70 SuperFormance HP slug
 ]
 ChildParts=[
-	12/70 7mm buckshot,
-	12/70 5.25mm buckshot,
-	12/70 6.5mm Express buckshot,
-	12/70 8.5mm Magnum buckshot,
-	12/70 Dual Sabot slug,
-	12/70 flechette,
-	12/70 RIP,
-	12/70 lead slug,
-	12/70 makeshift .50 BMG slug,
-	12/70 AP-20 armor-piercing slug,
-	12/70 FTX Custom Lite slug,
-	12/70 Grizzly 40 slug,
-	12/70 Copper Sabot Premier HP slug,
-	12/70 "Poleva-3" slug,
-	12/70 "Poleva-6u" slug,
+	12/70 7mm buckshot/|
+	12/70 5.25mm buckshot/|
+	12/70 6.5mm Express buckshot/|
+	12/70 8.5mm Magnum buckshot/|
+	12/70 Dual Sabot slug/|
+	12/70 flechette/|
+	12/70 RIP/|
+	12/70 lead slug/|
+	12/70 makeshift .50 BMG slug/|
+	12/70 AP-20 armor-piercing slug/|
+	12/70 FTX Custom Lite slug/|
+	12/70 Grizzly 40 slug/|
+	12/70 Copper Sabot Premier HP slug/|
+	12/70 "Poleva-3" slug/|
+	12/70 "Poleva-6u" slug/|
 	12/70 SuperFormance HP slug
 ]
 ChildParts=[
-	12/70 7mm buckshot,
-	12/70 5.25mm buckshot,
-	12/70 6.5mm Express buckshot,
-	12/70 8.5mm Magnum buckshot,
-	12/70 Dual Sabot slug,
-	12/70 flechette,
-	12/70 RIP,
-	12/70 lead slug,
-	12/70 makeshift .50 BMG slug,
-	12/70 AP-20 armor-piercing slug,
-	12/70 FTX Custom Lite slug,
-	12/70 Grizzly 40 slug,
-	12/70 Copper Sabot Premier HP slug,
-	12/70 "Poleva-3" slug,
-	12/70 "Poleva-6u" slug,
+	12/70 7mm buckshot/|
+	12/70 5.25mm buckshot/|
+	12/70 6.5mm Express buckshot/|
+	12/70 8.5mm Magnum buckshot/|
+	12/70 Dual Sabot slug/|
+	12/70 flechette/|
+	12/70 RIP/|
+	12/70 lead slug/|
+	12/70 makeshift .50 BMG slug/|
+	12/70 AP-20 armor-piercing slug/|
+	12/70 FTX Custom Lite slug/|
+	12/70 Grizzly 40 slug/|
+	12/70 Copper Sabot Premier HP slug/|
+	12/70 "Poleva-3" slug/|
+	12/70 "Poleva-6u" slug/|
 	12/70 SuperFormance HP slug
 ]
 ChildParts=[
-	12/70 7mm buckshot,
-	12/70 5.25mm buckshot,
-	12/70 6.5mm Express buckshot,
-	12/70 8.5mm Magnum buckshot,
-	12/70 Dual Sabot slug,
-	12/70 flechette,
-	12/70 RIP,
-	12/70 lead slug,
-	12/70 makeshift .50 BMG slug,
-	12/70 AP-20 armor-piercing slug,
-	12/70 FTX Custom Lite slug,
-	12/70 Grizzly 40 slug,
-	12/70 Copper Sabot Premier HP slug,
-	12/70 "Poleva-3" slug,
-	12/70 "Poleva-6u" slug,
+	12/70 7mm buckshot/|
+	12/70 5.25mm buckshot/|
+	12/70 6.5mm Express buckshot/|
+	12/70 8.5mm Magnum buckshot/|
+	12/70 Dual Sabot slug/|
+	12/70 flechette/|
+	12/70 RIP/|
+	12/70 lead slug/|
+	12/70 makeshift .50 BMG slug/|
+	12/70 AP-20 armor-piercing slug/|
+	12/70 FTX Custom Lite slug/|
+	12/70 Grizzly 40 slug/|
+	12/70 Copper Sabot Premier HP slug/|
+	12/70 "Poleva-3" slug/|
+	12/70 "Poleva-6u" slug/|
 	12/70 SuperFormance HP slug
 ]
 ChildParts=[
-	12/70 7mm buckshot,
-	12/70 5.25mm buckshot,
-	12/70 6.5mm Express buckshot,
-	12/70 8.5mm Magnum buckshot,
-	12/70 Dual Sabot slug,
-	12/70 flechette,
-	12/70 RIP,
-	12/70 lead slug,
-	12/70 makeshift .50 BMG slug,
-	12/70 AP-20 armor-piercing slug,
-	12/70 FTX Custom Lite slug,
-	12/70 Grizzly 40 slug,
-	12/70 Copper Sabot Premier HP slug,
-	12/70 "Poleva-3" slug,
-	12/70 "Poleva-6u" slug,
+	12/70 7mm buckshot/|
+	12/70 5.25mm buckshot/|
+	12/70 6.5mm Express buckshot/|
+	12/70 8.5mm Magnum buckshot/|
+	12/70 Dual Sabot slug/|
+	12/70 flechette/|
+	12/70 RIP/|
+	12/70 lead slug/|
+	12/70 makeshift .50 BMG slug/|
+	12/70 AP-20 armor-piercing slug/|
+	12/70 FTX Custom Lite slug/|
+	12/70 Grizzly 40 slug/|
+	12/70 Copper Sabot Premier HP slug/|
+	12/70 "Poleva-3" slug/|
+	12/70 "Poleva-6u" slug/|
 	12/70 SuperFormance HP slug
 ]
 Recoil=0.000000

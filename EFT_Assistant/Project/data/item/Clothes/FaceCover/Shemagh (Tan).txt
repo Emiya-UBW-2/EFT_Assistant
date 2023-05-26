@@ -3,25 +3,25 @@ Name=Shemagh (Tan)
 ShortName=Shemagh
 Itemtype=Face Cover
 Conflict=[
-	Army cap,
-	Baseball cap,
-	BEAR baseball cap (Green),
-	USEC baseball cap (Tan),
-	EMERCOM cap,
+	Army cap/|
+	Baseball cap/|
+	BEAR baseball cap (Green)/|
+	USEC baseball cap (Tan)/|
+	EMERCOM cap/|
 	Police cap
 ]
 Information_Eng=A favorite headpiece of PMCs around the globe.
 basePrice=4040
 width=1
 height=1
-avg24hPrice=14058
-low24hPrice=5800
-lastOfferCount=6
+avg24hPrice=12666
+low24hPrice=4444
+lastOfferCount=5
 Sell_Fence=1616
 Sell_Skier=1979
 Sell_Peacekeeper=15
 Sell_Ragman=2504
-Sell_Flea Market=8500
+Sell_Flea Market=9450
 weight=0.100000
-fleaMarketFee=461
+fleaMarketFee=527
 propertiestype=

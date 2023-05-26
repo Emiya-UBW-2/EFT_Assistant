@@ -74,7 +74,7 @@ Task_Else=Locate the second truck that was holding the lost UN cargo on Shorelin
 
 Reward_Rep=Peacekeeper+0.030000
 Reward_Item=[
-	Dollarsx800,
+	Dollarsx800/|
 	Weapon partsx2
 ]
 

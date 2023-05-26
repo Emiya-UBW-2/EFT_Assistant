@@ -77,9 +77,9 @@ Task_Else=脱出ステータス:[Survived]
 
 Reward_Rep=Peacekeeper+0.040000
 Reward_Item=[
-	Dollarsx25000,
-	EOTech HHS-1 hybrid sight (Tan)x1,
-	Ops-Core SLAAP armor helmet plate (Tan)x1,
+	Dollarsx25000/|
+	EOTech HHS-1 hybrid sight (Tan)x1/|
+	Ops-Core SLAAP armor helmet plate (Tan)x1/|
 	AR-15 Vltor MUR-1S 5.56x45 upper receiverx3
 ]
 

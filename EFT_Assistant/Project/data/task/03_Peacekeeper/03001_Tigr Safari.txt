@@ -42,15 +42,15 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 
 Reward_Rep=Peacekeeper+0.030000
 Reward_Item=[
-	Dollarsx900,
-	Direct Action Thunderbolt compact chest rigx1,
+	Dollarsx900/|
+	Direct Action Thunderbolt compact chest rigx1/|
 	M67 hand grenadex2
 ]
 
 Reward_EXP=5900
-Task_PinPoint=[-0.390625,-0.029297,0.000000]
-Task_PinMap=[Customs,1]
-Task_PinPoint=[-0.327148,-0.003551,0.000000]
-Task_PinMap=[Customs,1]
-Task_PinPoint=[0.112305,0.014205,0.000000]
-Task_PinMap=[Customs,1]
+Task_PinPoint=[-0.390625/|-0.029297/|0.000000]
+Task_PinMap=[Customs/|1]
+Task_PinPoint=[-0.327148/|-0.003551/|0.000000]
+Task_PinMap=[Customs/|1]
+Task_PinPoint=[0.112305/|0.014205/|0.000000]
+Task_PinMap=[Customs/|1]

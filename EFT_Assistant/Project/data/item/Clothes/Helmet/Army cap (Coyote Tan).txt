@@ -3,24 +3,24 @@ Name=Army cap (Coyote Tan)
 ShortName=Cap
 Itemtype=Headwear
 Conflict=[
-	Faceless mask,
-	Ghoul mask,
-	GP-7 gas mask,
-	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY",
+	Faceless mask/|
+	Ghoul mask/|
+	GP-7 gas mask/|
+	Tagilla's welding mask "Gorilla"/|
+	Tagilla's welding mask "UBEY"/|
 ]
 Information_Eng=A regular army cap, colored in coyote tan.
 basePrice=1353
 width=1
 height=1
-avg24hPrice=13157
+avg24hPrice=9999
 low24hPrice=8888
-lastOfferCount=2
+lastOfferCount=1
 Sell_Fence=541
 Sell_Skier=662
 Sell_Peacekeeper=5
 Sell_Ragman=838
-Sell_Flea Market=12000
+Sell_Flea Market=10000
 weight=0.100000
-fleaMarketFee=1343
+fleaMarketFee=999
 propertiestype=

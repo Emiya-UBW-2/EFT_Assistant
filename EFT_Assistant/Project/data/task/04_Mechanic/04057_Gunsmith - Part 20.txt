@@ -33,8 +33,8 @@ Task_Else=width >= 0
 
 Reward_Rep=Mechanic+0.030000
 Reward_Item=[
-	Eurosx500,
-	AR-15 Hera Arms CQR pistol grip/buttstockx1,
+	Eurosx500/|
+	AR-15 Hera Arms CQR pistol grip/buttstockx1/|
 	Hera Arms CQR tactical foregripx1
 ]
 

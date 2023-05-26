@@ -39,7 +39,7 @@ Task_Else=É]Å[Éì:[Pier (Shoreline)]
 ]
 
 Reward_Item=[
-	ASh-12 12.7x55 assault rifle Silencedx1,
+	ASh-12 12.7x55 assault rifle Silencedx1/|
 	RFARMY armbandx1
 ]
 Reward_SkillLevelUp=Throwables+1

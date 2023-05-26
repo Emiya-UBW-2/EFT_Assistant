@@ -3,7 +3,7 @@ Name=AR-10 Lantac Drakon 7.62x51 muzzle brake-compensator
 ShortName=DGN762B
 Itemtype=Flashhider
 Conflict=[
-	MCX GEN1 KeyMod 12 inch handguard,
+	MCX GEN1 KeyMod 12 inch handguard/|
 ]
 Recoil=-15.000001
 Ergonomics=-2.000000
@@ -11,15 +11,15 @@ Information_Eng=The Drakon muzzle brake by Lantac is designed for installation o
 basePrice=22800
 width=1
 height=1
-avg24hPrice=40142
-low24hPrice=25555
-lastOfferCount=8
+avg24hPrice=46398
+low24hPrice=26666
+lastOfferCount=16
 Sell_Prapor=11400
 Sell_Fence=9120
 Sell_Skier=11172
 Sell_Peacekeeper=86
 Sell_Mechanic=12768
-Sell_Flea Market=35420
+Sell_Flea Market=36600
 weight=0.090000
-fleaMarketFee=1865
+fleaMarketFee=1926
 propertiestype=ItemPropertiesWeaponMod

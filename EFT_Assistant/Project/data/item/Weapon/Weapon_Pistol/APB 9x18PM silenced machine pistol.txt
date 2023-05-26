@@ -15,7 +15,7 @@ ChildParts=[
 	APS front sight
 ]
 ChildParts=[
-	APB rear sight,
+	APB rear sight/|
 	APS rear sight
 ]
 ChildParts=[
@@ -27,15 +27,15 @@ Information_Eng=The APB pistol (Avtomatícheskiy Pistolét Besshúmnyy - "Silenc
 basePrice=11630
 width=2
 height=1
-avg24hPrice=18258
-low24hPrice=10000
-lastOfferCount=25
+avg24hPrice=18816
+low24hPrice=12999
+lastOfferCount=16
 Sell_Prapor=5815
 Sell_Fence=4652
 Sell_Skier=5698
 Sell_Peacekeeper=44
 Sell_Mechanic=6512
-Sell_Flea Market=11000
+Sell_Flea Market=14990
 weight=0.810000
-fleaMarketFee=677
+fleaMarketFee=811
 propertiestype=ItemPropertiesWeapon

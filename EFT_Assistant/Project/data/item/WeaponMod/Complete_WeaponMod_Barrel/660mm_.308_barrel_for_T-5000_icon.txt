@@ -3,24 +3,24 @@ Name=T-5000M 7.62x51 660mm barrel
 ShortName=T-5000M 660mm
 Itemtype=Barrel
 ChildParts=[
-	AWC PSR 7.62x51 muzzle brake,
-	AR-10 2A Armanent X3 7.62x51 compensator,
-	AR-10 AAC Blackout 51T 7.62x51 flash hider,
-	AR-10 Daniel Defense WAVE 7.62x51 muzzle brake,
-	Desert Tech 7.62x51 flash hider,
-	AR-10 Fortis RED Brake 7.62x51 muzzle brake,
-	AR-10 KAC QDC 7.62x51 Flash Suppressor Kit,
-	AR-10 KAC QDC 7.62x51 Muzzle Brake Kit,
-	AR-10 Keeno Arms SHREWD 7.62x51 muzzle brake,
-	AR-10 Lantac Drakon 7.62x51 muzzle brake-compensator,
-	AR-10 Nordic Components Corvette 7.62x51 compensator,
-	AR-10 Odin Works ATLAS-7 7.62x51 muzzle brake,
-	AR-10 Precision Armanent M11 Severe-Duty 7.62x51 muzzle brake,
-	AR-10 SureFire Warden 7.62x51 blast regulator,
-	AR-10 TAA ZK-38 7.62x51 muzzle brake,
-	AR-10 Thunder Beast Arms 30CB 7.62x51 muzzle brake,
-	ORSIS T-5000M 7.62x51 muzzle brake-compensator,
-	Gemtech ONE Direct Thread Mount adapter,
+	AWC PSR 7.62x51 muzzle brake/|
+	AR-10 2A Armanent X3 7.62x51 compensator/|
+	AR-10 AAC Blackout 51T 7.62x51 flash hider/|
+	AR-10 Daniel Defense WAVE 7.62x51 muzzle brake/|
+	Desert Tech 7.62x51 flash hider/|
+	AR-10 Fortis RED Brake 7.62x51 muzzle brake/|
+	AR-10 KAC QDC 7.62x51 Flash Suppressor Kit/|
+	AR-10 KAC QDC 7.62x51 Muzzle Brake Kit/|
+	AR-10 Keeno Arms SHREWD 7.62x51 muzzle brake/|
+	AR-10 Lantac Drakon 7.62x51 muzzle brake-compensator/|
+	AR-10 Nordic Components Corvette 7.62x51 compensator/|
+	AR-10 Odin Works ATLAS-7 7.62x51 muzzle brake/|
+	AR-10 Precision Armanent M11 Severe-Duty 7.62x51 muzzle brake/|
+	AR-10 SureFire Warden 7.62x51 blast regulator/|
+	AR-10 TAA ZK-38 7.62x51 muzzle brake/|
+	AR-10 Thunder Beast Arms 30CB 7.62x51 muzzle brake/|
+	ORSIS T-5000M 7.62x51 muzzle brake-compensator/|
+	Gemtech ONE Direct Thread Mount adapter/|
 	SilencerCo Hybrid 46 Direct Thread Mount adapter
 ]
 Recoil=-5.000000
@@ -29,7 +29,7 @@ Information_Eng=A 660mm long match-grade barrel manufactured by ORSIS for the T-
 basePrice=17672
 width=3
 height=1
-avg24hPrice=40000
+avg24hPrice=88888
 low24hPrice=40000
 lastOfferCount=1
 Sell_Prapor=8836
@@ -38,7 +38,7 @@ Sell_Skier=8659
 Sell_Peacekeeper=67
 Sell_Mechanic=9896
 Sell_Jaeger=10603
-Sell_Flea Market=40000
+Sell_Flea Market=88888
 weight=2.700000
-fleaMarketFee=2211
+fleaMarketFee=7064
 propertiestype=ItemPropertiesBarrel

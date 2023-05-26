@@ -77,8 +77,8 @@ DogTagLv=0
 ]
 
 Reward_Item=[
-	Weapon casex1,
-	TerraGroup Labs access keycardx7,
+	Weapon casex1/|
+	TerraGroup Labs access keycardx7/|
 	Iridium military thermal vision modulex4
 ]
 

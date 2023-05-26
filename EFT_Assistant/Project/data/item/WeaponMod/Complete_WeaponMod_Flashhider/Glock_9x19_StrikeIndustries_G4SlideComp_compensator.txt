@@ -3,18 +3,18 @@ Name=Glock 9x19 Strike Industries G4 SlideComp compensator
 ShortName=G G4
 Itemtype=Flashhider
 Conflict=[
-	Glock 9x19 CARVER Custom 4 Port compensator,
-	Glock 9x19 CARVER Custom Decelerator 3 Port compensator,
-	Glock 9x19 Double Diamond flash hider,
-	Glock 9x19 Lone Wolf AlphaWolf Bullnose compensator,
-	Glock 9x19 Lone Wolf LWD-COMP9 compensator,
-	Glock 9x19 Lone Wolf AlphaWolf thread protector,
-	Glock 9x19 Double Diamond thread protector,
-	Glock SAI 9x19 thread protector,
-	AAC Illusion 9 9x19 sound suppressor,
-	Alpha Dog Alpha 9 9x19 sound suppressor,
-	SIG Sauer SRD9 9x19 sound suppressor,
-	SilencerCo Osprey 9 9x19 sound suppressor,
+	Glock 9x19 CARVER Custom 4 Port compensator/|
+	Glock 9x19 CARVER Custom Decelerator 3 Port compensator/|
+	Glock 9x19 Double Diamond flash hider/|
+	Glock 9x19 Lone Wolf AlphaWolf Bullnose compensator/|
+	Glock 9x19 Lone Wolf LWD-COMP9 compensator/|
+	Glock 9x19 Lone Wolf AlphaWolf thread protector/|
+	Glock 9x19 Double Diamond thread protector/|
+	Glock SAI 9x19 thread protector/|
+	AAC Illusion 9 9x19 sound suppressor/|
+	Alpha Dog Alpha 9 9x19 sound suppressor/|
+	SIG Sauer SRD9 9x19 sound suppressor/|
+	SilencerCo Osprey 9 9x19 sound suppressor/|
 	Glock 9x19 Fischer Development FD917 sound suppressor
 ]
 Recoil=-14.000000
@@ -23,15 +23,15 @@ Information_Eng=A unique compensator for Glock family pistols which can be mount
 basePrice=6476
 width=1
 height=1
-avg24hPrice=23465
-low24hPrice=10000
-lastOfferCount=17
+avg24hPrice=20228
+low24hPrice=10999
+lastOfferCount=7
 Sell_Prapor=3238
 Sell_Fence=2590
 Sell_Skier=3173
 Sell_Peacekeeper=24
 Sell_Mechanic=3626
-Sell_Flea Market=10000
+Sell_Flea Market=10999
 weight=0.105000
-fleaMarketFee=527
+fleaMarketFee=579
 propertiestype=ItemPropertiesWeaponMod

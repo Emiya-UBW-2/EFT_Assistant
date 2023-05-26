@@ -3,35 +3,35 @@ Name=AR-15 KAC URX 3.1 10.75 inch lower handguard
 ShortName=URX3.1 10.75"
 Itemtype=Handguard
 ChildParts=[
-	KAC URX 3/3.1 stopper panel,
-	KAC URX 3/3.1 stopper panel (FDE),
+	KAC URX 3/3.1 stopper panel/|
+	KAC URX 3/3.1 stopper panel (FDE)/|
 	KAC URX 3 3 inch rail
 ]
 ChildParts=[
-	Glock GTL 21 tactical flashlight with laser,
-	Holosun LS321 Tactical device,
-	AN/PEQ-15 tactical device,
-	LA-5B/PEQ tactical device,
-	NcSTAR Tactical blue laser LAM-module,
-	Steiner DBAL-PL tactical device,
-	Steiner LAS/TAC 2 tactical flashlight,
-	SureFire X400 Ultra tactical flashlight with laser,
-	SureFire XC1 tactical flashlight,
-	Wilcox RAPTAR ES Tactical Rangefinder,
-	Zenit Klesch-2IKS IR illuminator with laser,
-	Zenit Klesch-2P flashlight with laser,
-	Zenit Klesch-2U tactical flashlight,
-	Zenit Perst-3 tactical device,
-	Kiba Arms 25mm accessory ring mount,
-	Daniel Defense 25mm accessory ring mount,
-	Olight Baldr Pro tactical flashlight with laser,
-	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Glock GTL 21 tactical flashlight with laser/|
+	Holosun LS321 Tactical device/|
+	AN/PEQ-15 tactical device/|
+	LA-5B/PEQ tactical device/|
+	NcSTAR Tactical blue laser LAM-module/|
+	Steiner DBAL-PL tactical device/|
+	Steiner LAS/TAC 2 tactical flashlight/|
+	SureFire X400 Ultra tactical flashlight with laser/|
+	SureFire XC1 tactical flashlight/|
+	Wilcox RAPTAR ES Tactical Rangefinder/|
+	Zenit Klesch-2IKS IR illuminator with laser/|
+	Zenit Klesch-2P flashlight with laser/|
+	Zenit Klesch-2U tactical flashlight/|
+	Zenit Perst-3 tactical device/|
+	Kiba Arms 25mm accessory ring mount/|
+	Daniel Defense 25mm accessory ring mount/|
+	Olight Baldr Pro tactical flashlight with laser/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight
 ]
 Conflict=[
-	AR-10 JP Enterprises Gas System-6,
-	M4A1 front sight with gas block,
-	AR-15 Windham Weaponry Rail Gas Block,
+	AR-10 JP Enterprises Gas System-6/|
+	M4A1 front sight with gas block/|
+	AR-15 Windham Weaponry Rail Gas Block/|
 	AR-15 5.56x45 260mm barrel
 ]
 Recoil=-2.000000
@@ -40,15 +40,15 @@ Information_Eng=The Knight's Armament URX 3.1 lower handguard for AR-15 equipped
 basePrice=5640
 width=2
 height=1
-avg24hPrice=21440
-low24hPrice=5000
-lastOfferCount=22
+avg24hPrice=31717
+low24hPrice=12500
+lastOfferCount=9
 Sell_Prapor=2820
 Sell_Fence=2256
 Sell_Skier=2763
 Sell_Peacekeeper=21
 Sell_Mechanic=3158
-Sell_Flea Market=11111
+Sell_Flea Market=25000
 weight=0.096000
-fleaMarketFee=595
+fleaMarketFee=1852
 propertiestype=ItemPropertiesWeaponMod

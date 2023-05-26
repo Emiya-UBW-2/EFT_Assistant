@@ -64,7 +64,7 @@ namespace FPS_n2 {
 							}
 							{
 								for (const auto& I : Bar.m_ItemReq) {
-									auto* ptr2 = ItemData::Instance()->FindPtr(ItemData::Instance()->FindID(I.GetName()));
+									auto* ptr2 = ItemData::Instance()->FindPtr(I.GetID());
 									if (ptr2) {
 										int xstart = xp + xofs_buf;
 										xofs_buf += ptr2->Draw(xp + xofs_buf, yp1, y_r(200), ysize, I.GetValue(), Gray25, !WindowMngr->PosHitCheck(nullptr), false, false, true);
@@ -80,7 +80,7 @@ namespace FPS_n2 {
 							}
 							{
 								for (const auto& I : Bar.m_ItemReward) {
-									auto* ptr2 = ItemData::Instance()->FindPtr(ItemData::Instance()->FindID(I.GetName()));
+									auto* ptr2 = ItemData::Instance()->FindPtr(I.GetID());
 									if (ptr2) {
 										int xstart = xp + xofs_buf;
 										xofs_buf += ptr2->Draw(xp + xofs_buf, yp1, y_r(200), ysize, I.GetValue(), Gray25, !WindowMngr->PosHitCheck(nullptr), false, false, true);

@@ -3,35 +3,35 @@ Name=Police cap
 ShortName=Police
 Itemtype=Headwear
 Conflict=[
-	Faceless mask,
-	Ghoul mask,
-	GP-5 gas mask,
-	Jason mask,
-	Misha Mayorov mask,
-	Neoprene mask,
-	Pestily plague mask,
-	Shemagh (Green),
-	Shemagh (Tan),
-	Slender mask,
-	GP-7 gas mask,
-	Hockey player mask "Brawler",
-	Hockey player mask "Captain",
-	Hockey player mask "Quiet",
-	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY",
+	Hockey player mask "Brawler"/|
+	Hockey player mask "Captain"/|
+	Hockey player mask "Quiet"/|
+	Jason mask/|
+	Misha Mayorov mask/|
+	Neoprene mask/|
+	Shemagh (Green)/|
+	Shemagh (Tan)/|
+	Faceless mask/|
+	Ghoul mask/|
+	GP-5 gas mask/|
+	GP-7 gas mask/|
+	Pestily plague mask/|
+	Slender mask/|
+	Tagilla's welding mask "Gorilla"/|
+	Tagilla's welding mask "UBEY"/|
 ]
 Information_Eng=A Tarkov police cap, ususally worn by patrol units.
 basePrice=1505
 width=1
 height=1
-avg24hPrice=15693
-low24hPrice=3000
-lastOfferCount=9
+avg24hPrice=9999
+low24hPrice=4999
+lastOfferCount=2
 Sell_Fence=602
 Sell_Skier=737
 Sell_Peacekeeper=6
 Sell_Ragman=933
-Sell_Flea Market=11111
+Sell_Flea Market=40000
 weight=0.100000
-fleaMarketFee=1109
+fleaMarketFee=9157
 propertiestype=

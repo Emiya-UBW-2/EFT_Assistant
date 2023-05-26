@@ -21,16 +21,16 @@ ChildParts=[
 	Magpul M-LOK 2.5 inch rail
 ]
 ChildParts=[
-	Magpul M-LOK AFG tactical foregrip (Black),
-	Magpul M-LOK AFG tactical foregrip (FDE),
-	Magpul M-LOK AFG tactical foregrip (Olive Drab),
-	Magpul M-LOK AFG tactical foregrip (Stealth Gray),
+	Magpul M-LOK AFG tactical foregrip (Black)/|
+	Magpul M-LOK AFG tactical foregrip (FDE)/|
+	Magpul M-LOK AFG tactical foregrip (Olive Drab)/|
+	Magpul M-LOK AFG tactical foregrip (Stealth Gray)/|
 	Magpul M-LOK 4.1 inch rail
 ]
 Conflict=[
-	M700 7.62x51 ProMag AA-70 10-round magazine,
-	M700 7.62x51 ProMag AA-70 20-round magazine,
-	M700 7.62x51 Wyatt's Outdoor 10-round magazine,
+	M700 7.62x51 ProMag AA-70 10-round magazine/|
+	M700 7.62x51 ProMag AA-70 20-round magazine/|
+	M700 7.62x51 Wyatt's Outdoor 10-round magazine/|
 	M700 7.62x51 Wyatt's Outdoor 5-round magazine
 ]
 Recoil=-7.000000
@@ -39,16 +39,16 @@ Information_Eng=Pro 700 is a lightweight ergonomic chassis designed for the Remi
 basePrice=17972
 width=3
 height=1
-avg24hPrice=17926
-low24hPrice=12000
-lastOfferCount=9
+avg24hPrice=21063
+low24hPrice=11000
+lastOfferCount=4
 Sell_Prapor=8986
 Sell_Fence=7188
 Sell_Skier=8806
 Sell_Peacekeeper=68
 Sell_Mechanic=10064
 Sell_Jaeger=10783
-Sell_Flea Market=16800
+Sell_Flea Market=17500
 weight=1.720000
-fleaMarketFee=1040
+fleaMarketFee=1062
 propertiestype=ItemPropertiesWeaponMod

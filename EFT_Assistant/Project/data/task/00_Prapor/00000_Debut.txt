@@ -28,8 +28,8 @@ DogTagLv=0
 Reward_Rep=Prapor+0.020000
 Reward_Rep=Jaeger+0.010000
 Reward_Item=[
-	Roublesx15000,
-	PP-91 "Kedr" 9x18PM submachine gun Defaultx1,
+	Roublesx15000/|
+	PP-91 "Kedr" 9x18PM submachine gun Defaultx1/|
 	9x18mm PM BZhT gzhx60
 ]
 

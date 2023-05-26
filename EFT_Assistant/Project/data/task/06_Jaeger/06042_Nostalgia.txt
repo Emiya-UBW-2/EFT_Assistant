@@ -32,8 +32,8 @@ Task_Else=E‚Á‚Ä”[•i:Shoreline-Photo albumx1
 
 Reward_Rep=Jaeger+0.020000
 Reward_Item=[
-	Roublesx30000,
-	Documents casex1,
+	Roublesx30000/|
+	Documents casex1/|
 	HEP station storage room keyx1
 ]
 

@@ -42,14 +42,14 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 
 Reward_Rep=Ragman+0.030000
 Reward_Item=[
-	Roublesx50000,
+	Roublesx50000/|
 	ANA Tactical Beta 2 Battle backpackx1
 ]
 
 Reward_EXP=13800
-Task_PinPoint=[-0.329733,0.375115,0.000000]
-Task_PinMap=[Interchange,1]
-Task_PinPoint=[-0.345459,0.338379,0.000000]
-Task_PinMap=[Interchange,1]
-Task_PinPoint=[-0.372070,0.488281,0.000000]
-Task_PinMap=[Interchange,1]
+Task_PinPoint=[-0.329733/|0.375115/|0.000000]
+Task_PinMap=[Interchange/|1]
+Task_PinPoint=[-0.345459/|0.338379/|0.000000]
+Task_PinMap=[Interchange/|1]
+Task_PinPoint=[-0.372070/|0.488281/|0.000000]
+Task_PinMap=[Interchange/|1]

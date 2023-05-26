@@ -3,21 +3,21 @@ Name=NFM HJELM helmet
 ShortName=HJELM
 Itemtype=Headwear
 Conflict=[
-	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY",
+	Tagilla's welding mask "Gorilla"/|
+	Tagilla's welding mask "UBEY"/|
 ]
 Information_Eng=The new-gen HJELM system applies new ideas for modularity of attachments and electronics without the extra weight and bulk of previous generations. Manufactured by NFM.
 basePrice=72000
 width=2
 height=2
-avg24hPrice=50487
-low24hPrice=44444
-lastOfferCount=15
+avg24hPrice=49670
+low24hPrice=36420
+lastOfferCount=12
 Sell_Fence=28800
 Sell_Skier=35280
 Sell_Peacekeeper=272
 Sell_Ragman=44640
-Sell_Flea Market=48000
+Sell_Flea Market=44555
 weight=0.800000
-fleaMarketFee=3799
+fleaMarketFee=3788
 propertiestype=ItemPropertiesHelmet

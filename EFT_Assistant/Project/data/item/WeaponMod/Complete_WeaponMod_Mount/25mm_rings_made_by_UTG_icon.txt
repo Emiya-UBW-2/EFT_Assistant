@@ -6,9 +6,9 @@ ChildParts=[
 	VOMZ Pilad 4x32 24.5mm riflescope
 ]
 Conflict=[
-	AR-15 Colt A2 rear sight,
-	AR-15 rear sight carry handle,
-	SV-98 rear sight,
+	SV-98 rear sight/|
+	AR-15 Colt A2 rear sight/|
+	AR-15 rear sight carry handle/|
 ]
 Recoil=0.000000
 Ergonomics=-2.000000
@@ -16,16 +16,16 @@ Information_Eng=A low-profile 25.4mm ring mount for installation of various opti
 basePrice=1650
 width=2
 height=1
-avg24hPrice=11379
-low24hPrice=1732
-lastOfferCount=9
+avg24hPrice=9083
+low24hPrice=4999
+lastOfferCount=7
 Sell_Prapor=825
 Sell_Fence=660
 Sell_Skier=808
 Sell_Peacekeeper=6
 Sell_Mechanic=924
 Sell_Jaeger=990
-Sell_Flea Market=4785
+Sell_Flea Market=8000
 weight=0.190000
-fleaMarketFee=288
+fleaMarketFee=623
 propertiestype=ItemPropertiesWeaponMod

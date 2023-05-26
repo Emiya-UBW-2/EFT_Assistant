@@ -3,23 +3,23 @@ Name=Bomber beanie
 ShortName=Bomber
 Itemtype=Headwear
 Conflict=[
-	Faceless mask,
-	Ghoul mask,
-	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY",
+	Faceless mask/|
+	Ghoul mask/|
+	Tagilla's welding mask "Gorilla"/|
+	Tagilla's welding mask "UBEY"/|
 ]
 Information_Eng=A heraldic symbol of urban vagabonds. You need to wear it correctly, otherwise, the magic properties of the beanie will cease to work.
 basePrice=29700
 width=1
 height=1
-avg24hPrice=28450
-low24hPrice=17000
-lastOfferCount=16
+avg24hPrice=22171
+low24hPrice=10000
+lastOfferCount=17
 Sell_Fence=11880
 Sell_Skier=14553
 Sell_Peacekeeper=112
 Sell_Ragman=18414
-Sell_Flea Market=24000
+Sell_Flea Market=16666
 weight=0.100000
-fleaMarketFee=1624
+fleaMarketFee=1570
 propertiestype=ItemPropertiesHelmet

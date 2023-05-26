@@ -74,7 +74,7 @@ namespace FPS_n2 {
 			}
 		}
 	protected:
-		virtual void	Set_Sub(const std::string&, const std::string&, const std::vector<std::string>&) noexcept {}
+		virtual void	SetSub(const std::string&, const std::string&, const std::vector<std::string>&) noexcept {}
 		virtual void	Load_Sub() noexcept {}
 		virtual void	WhenAfterLoad_Sub() noexcept {}
 	public:
@@ -111,27 +111,18 @@ namespace FPS_n2 {
 						if (FileRead_eof(mdata) != 0) { break; }
 						auto ALL2 = getparams::Getstr(mdata);
 						if (ALL2.find("]") != std::string::npos) { break; }
-						{
-							auto ALL2Len = ALL2.find("\t");
-							if (ALL2Len != std::string::npos) {
-								ALL2 = ALL2.substr(0, ALL2Len) + ALL2.substr(ALL2Len + 1);
-							}
-						}
-						{
-							auto ALL2Len = ALL2.find(",");
-							if (ALL2Len != std::string::npos) {
-								ALL2 = ALL2.substr(0, ALL2Len) + ALL2.substr(ALL2Len + 1);
-							}
-						}
+						SubStrs(&ALL2, "\t");
+						SubStrs(&ALL2, DIV_STR);
+						SubStrs(&ALL2, ",");
 						Args.emplace_back(ALL2);
 					}
 					SetCommon(LEFT, RIGHT, Args);
-					Set_Sub(LEFT, RIGHT, Args);
+					SetSub(LEFT, RIGHT, Args);
 				}
 				else {
 					auto Args = GetArgs(RIGHT);
 					SetCommon(LEFT, RIGHT, Args);
-					Set_Sub(LEFT, RIGHT, Args);
+					SetSub(LEFT, RIGHT, Args);
 				}
 			}
 			FileRead_close(mdata);
@@ -226,25 +217,35 @@ namespace FPS_n2 {
 	//
 	template <class ID>
 	class GetDataParent {
-		std::string m_name;
+		ID			m_ID;
 		int			m_Value{ 0 };
 	public:
-		const auto&		GetName() const noexcept { return m_name; }
+		const auto&		GetID() const noexcept { return m_ID; }
 		const auto&		GetValue() const noexcept { return m_Value; }
-		void			Set(const std::string& name, int lv) noexcept {
-			m_name = name;
+		void			Set(ID id, int lv) noexcept {
+			m_ID = id;
 			m_Value = lv;
 		}
 	};
-	template <class GetDataParentT, class DataParent>
+	template <class GetDataParentT, class DataParentT>
 	void			SetGetData(std::vector<GetDataParentT>* Data, const std::string& mes) noexcept {
 		auto L = mes.rfind("x");
 		if (L != std::string::npos) {
 			auto id = mes.substr(0, L);
-			if (std::find_if(Data->begin(), Data->end(), [&](const GetDataParentT& obj) {return obj.GetName() == id; }) == Data->end()) {
-				GetDataParentT tmp;
-				tmp.Set(id, std::stoi(mes.substr(L + 1)));
-				Data->emplace_back(tmp);
+			if (
+				std::find_if(Data->begin(), Data->end(), [&](const GetDataParentT& obj) {
+					return DataParentT::Instance()->FindPtr(obj.GetID())->GetName() == id;
+				}) == Data->end()
+			) {
+				auto ID = DataParentT::Instance()->FindID(id);
+				if (ID != InvalidID) {
+					GetDataParentT tmp;
+					tmp.Set(ID, std::stoi(mes.substr(L + 1)));
+					Data->emplace_back(tmp);
+				}
+				else {
+
+				}
 			}
 		}
 		else {

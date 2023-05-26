@@ -29,9 +29,9 @@ DogTagLv=0
 
 Reward_Rep=Peacekeeper+0.030000
 Reward_Item=[
-	Dollarsx2300,
-	Intelligence folderx1,
-	SSD drivex1,
+	Dollarsx2300/|
+	Intelligence folderx1/|
+	SSD drivex1/|
 	Topographic survey mapsx1
 ]
 

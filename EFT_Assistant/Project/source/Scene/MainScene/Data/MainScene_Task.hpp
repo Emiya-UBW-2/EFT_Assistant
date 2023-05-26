@@ -3,28 +3,23 @@
 
 namespace FPS_n2 {
 	class TaskList : public ListParent<TaskID> {
-		class TaskPin {
-		public:
-			VECTOR_ref	m_Point;
-			MapID		m_MapID{ InvalidID };
-			int			m_MapSel{ 0 };
-		};
-		class TaskParents {
-			std::string								m_Parenttask;
-			TaskID									m_ParenttaskID{ InvalidID };
-		public:
-			void	SetParentName(const char* value) noexcept { m_Parenttask = value; }
-			const auto& GetParenttaskID() const noexcept { return m_ParenttaskID; }
-			void		SetNeedTasktoID(const std::vector<TaskList>& taskList) noexcept {
-				for (const auto& t : taskList) {
-					if (m_Parenttask == t.GetName()) {
-						m_ParenttaskID = t.GetID();
-						break;
+		class TaskNeedData {
+			class TaskParents {
+				std::string								m_Parenttask;
+				TaskID									m_ParenttaskID{ InvalidID };
+			public:
+				void	SetParentName(const char* value) noexcept { m_Parenttask = value; }
+				const auto& GetParenttaskID() const noexcept { return m_ParenttaskID; }
+				void		SetNeedTasktoID(const std::vector<TaskList>& taskList) noexcept {
+					for (const auto& t : taskList) {
+						if (m_Parenttask == t.GetName()) {
+							m_ParenttaskID = t.GetID();
+							break;
+						}
 					}
 				}
-			}
-		};
-		class TaskNeedData {
+			};
+		private:
 			TraderID								m_Trader{ InvalidID };
 			int										m_Level{ -1 };
 			int										m_LL{ -1 };
@@ -32,6 +27,9 @@ namespace FPS_n2 {
 			std::vector<ItemGetData>				m_Item;
 			bool									m_kappaRequired{ false };
 			bool									m_lightkeeperRequired{ false };
+
+			std::string									m_TraderArg;
+			std::vector<std::string>					m_ItemArgs;
 		public:
 			const auto& GetTrader() const noexcept { return m_Trader; }
 			const auto& GetLevel() const noexcept { return m_Level; }
@@ -43,7 +41,7 @@ namespace FPS_n2 {
 		public:
 			void Set(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept {
 				if (LEFT == "Trader") {
-					m_Trader = TraderData::Instance()->FindID(RIGHT.c_str());
+					m_TraderArg = RIGHT;
 				}
 				else if (LEFT == "NeedTask") {
 					this->m_Parenttask.resize(this->m_Parenttask.size() + 1);
@@ -58,16 +56,11 @@ namespace FPS_n2 {
 				else if (LEFT == "NeedItem") {
 					if (Args.size() > 0) {
 						for (auto&a : Args) {
-							if (a == "or") {
-
-							}
-							else {
-								SetGetData<ItemGetData, ItemData>(&this->m_Item, a);
-							}
+							m_ItemArgs.emplace_back(a);
 						}
 					}
 					else {
-						SetGetData<ItemGetData, ItemData>(&this->m_Item, RIGHT);
+						m_ItemArgs.emplace_back(RIGHT);
 					}
 				}
 				else if (LEFT == "NeedKappa") {
@@ -77,28 +70,43 @@ namespace FPS_n2 {
 					this->m_lightkeeperRequired = (RIGHT == "true");
 				}
 			}
+			void		SetAfter() noexcept {
+				m_Trader = TraderData::Instance()->FindID(m_TraderArg);
+				for (auto& a : m_ItemArgs) {
+					SetGetData<ItemGetData, ItemData>(&this->m_Item, a);
+				}
+			}
 			void		SetNeedTasktoID(const std::vector<TaskList>& taskList) noexcept {
 				for (auto& t : m_Parenttask) {
 					t.SetNeedTasktoID(taskList);
 				}
 			}
 		};
-		class EnemyKill {
-			EnemyID								m_EnemyID{ InvalidID };
-			MapID								m_MapID{ InvalidID };
-			int									m_KillCount{ 0 };
-		public:
-			const auto& GetEnemyID() const noexcept { return m_EnemyID; }
-			const auto& GetMapID() const noexcept { return m_MapID; }
-			const auto& GetKillCount() const noexcept { return m_KillCount; }
-		public:
-			void	Set(MapID mapID, EnemyID enemyID, int count) noexcept {
-				this->m_EnemyID = enemyID;
-				this->m_MapID = mapID;
-				this->m_KillCount = count;
-			}
-		};
 		class TaskWorkData {
+			class EnemyKill {
+				EnemyID								m_EnemyID{ InvalidID };
+				MapID								m_MapID{ InvalidID };
+				int									m_KillCount{ 0 };
+			public:
+				const auto& GetEnemyID() const noexcept { return m_EnemyID; }
+				const auto& GetMapID() const noexcept { return m_MapID; }
+				const auto& GetKillCount() const noexcept { return m_KillCount; }
+			public:
+				void	Set(MapID mapID, EnemyID enemyID, int count) noexcept {
+					this->m_EnemyID = enemyID;
+					this->m_MapID = mapID;
+					this->m_KillCount = count;
+				}
+			};
+			class TaskPin {
+			public:
+				VECTOR_ref	m_Point;
+				MapID		m_MapID{ InvalidID };
+				int			m_MapSel{ 0 };
+
+				std::string	m_MapArg;
+			};
+		private:
 			std::vector<MapID>						m_Map;
 			std::vector<EnemyKill>					m_Kill;
 			std::vector<ItemGetData>				m_FiR_Item;
@@ -106,6 +114,14 @@ namespace FPS_n2 {
 			std::vector<PresetID>					m_PresetID;
 			std::vector<std::string>				m_ElseMsg;
 			std::vector<TaskPin>					m_Pin;
+		private:
+			std::vector<std::string>					m_EnemyKillArgs;
+
+			std::vector<std::string>					m_FiR_ItemArgs;
+			std::vector<std::string>					m_NotFiR_ItemArgs;
+
+			std::vector<std::string>					m_PresetArgs;
+			std::vector<std::string>					m_MapArgs;
 		public:
 			const auto& GetMap() const noexcept { return m_Map; }
 			const auto& GetKill() const noexcept { return m_Kill; }
@@ -118,6 +134,69 @@ namespace FPS_n2 {
 			auto& SetPin() noexcept { return m_Pin; }
 		public:
 			void Set(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept {
+				if (LEFT == "Task_Map") {//ロケーション追加
+					if (Args.size() > 0) {
+						for (auto&a : Args) {
+							m_MapArgs.emplace_back(a);
+						}
+					}
+					else {
+						m_MapArgs.emplace_back(RIGHT);
+					}
+				}
+				else if (LEFT == "Task_Kill") {
+					if (Args.size() > 0) {
+						for (auto&a : Args) {
+							m_EnemyKillArgs.emplace_back(a);
+						}
+					}
+					else {
+						m_EnemyKillArgs.emplace_back(RIGHT);
+					}
+				}
+				else if (LEFT == "Task_FiR_HandOver") {
+					if (Args.size() > 0) {
+						for (auto&a : Args) {
+							m_FiR_ItemArgs.emplace_back(a);
+						}
+					}
+					else {
+						m_FiR_ItemArgs.emplace_back(RIGHT);
+					}
+				}
+				else if (LEFT == "Task_NotFiR_HandOver") {
+					if (Args.size() > 0) {
+						for (auto&a : Args) {
+							m_NotFiR_ItemArgs.emplace_back(a);
+						}
+					}
+					else {
+						m_NotFiR_ItemArgs.emplace_back(RIGHT);
+					}
+				}
+				else if (LEFT == "Task_WeaponPreset_HandOver") {
+					if (Args.size() > 0) {
+						for (auto&a : Args) {
+							m_PresetArgs.emplace_back(a);
+						}
+					}
+					else {
+						m_PresetArgs.emplace_back(RIGHT);
+					}
+				}
+				else if (LEFT == "Task_Else") {//特殊　メッセージ
+					this->m_ElseMsg.emplace_back(RIGHT);
+				}
+				else if (LEFT == "Task_PinPoint") {//特殊　メッセージ
+					this->m_Pin.resize(this->m_Pin.size()+1);
+					this->m_Pin.back().m_Point.Set(std::stof(Args[0]), std::stof(Args[1]), std::stof(Args[2]));
+				}
+				else if (LEFT == "Task_PinMap") {//特殊　メッセージ
+					this->m_Pin.back().m_MapArg = Args[0];
+					this->m_Pin.back().m_MapSel = std::atoi(Args[1].c_str());
+				}
+			}
+			void		SetAfter() noexcept {
 				auto SetKill = [&](const std::string& mes) {
 					auto L = mes.rfind("x");
 					if (L != std::string::npos) {
@@ -153,109 +232,35 @@ namespace FPS_n2 {
 						//int a = 0;
 					}
 				};
-				if (LEFT == "Task_Map") {//ロケーション追加
-					if (Args.size() > 0) {
-						for (auto&a : Args) {
-							if (a == "or") {
+				for (auto& a : m_EnemyKillArgs) {
+					SetKill(a);
+				}
 
-							}
-							else {
-								this->m_Map.emplace_back(MapData::Instance()->FindID(a.c_str()));
-							}
-						}
-					}
-					else {
-						this->m_Map.emplace_back(MapData::Instance()->FindID(RIGHT.c_str()));
-					}
+				for (auto& a : m_FiR_ItemArgs) {
+					SetGetData<ItemGetData, ItemData>(&this->m_FiR_Item, a);
 				}
-				else if (LEFT == "Task_Kill") {
-					if (Args.size() > 0) {
-						for (auto&a : Args) {
-							if (a == "or") {
-							}
-							else {
-								SetKill(a);
-							}
-						}
-					}
-					else {
-						SetKill(RIGHT);
-					}
+				for (auto& a : m_NotFiR_ItemArgs) {
+					SetGetData<ItemGetData, ItemData>(&this->m_NotFiR_Item, a);
 				}
-				else if (LEFT == "Task_FiR_HandOver") {
-					if (Args.size() > 0) {
-						for (auto&a : Args) {
-							if (a == "or") {
 
-							}
-							else {
-								SetGetData<ItemGetData, ItemData>(&this->m_FiR_Item, a);
-							}
-						}
-					}
-					else {
-						SetGetData<ItemGetData, ItemData>(&this->m_FiR_Item, RIGHT);
-					}
-				}
-				else if (LEFT == "Task_NotFiR_HandOver") {
-					if (Args.size() > 0) {
-						for (auto&a : Args) {
-							if (a == "or") {
 
-							}
-							else {
-								SetGetData<ItemGetData, ItemData>(&this->m_NotFiR_Item, a);
-							}
-						}
-					}
-					else {
-						SetGetData<ItemGetData, ItemData>(&this->m_NotFiR_Item, RIGHT);
-					}
+				for (auto& a : m_PresetArgs) {
+					m_PresetID.emplace_back(PresetData::Instance()->FindID(a));
 				}
-				else if (LEFT == "Task_WeaponPreset_HandOver") {
-					if (Args.size() > 0) {
-						for (auto&a : Args) {
-							if (a == "or") {
-
-							}
-							else {
-								m_PresetID.emplace_back(PresetData::Instance()->FindID(a.c_str()));
-							}
-						}
-					}
-					else {
-						m_PresetID.emplace_back(PresetData::Instance()->FindID(RIGHT.c_str()));
-					}
+				for (auto& a : this->m_Pin) {
+					a.m_MapID = MapData::Instance()->FindID(a.m_MapArg);
 				}
-				else if (LEFT == "Task_Else") {//特殊　メッセージ
-					this->m_ElseMsg.emplace_back(RIGHT);
-				}
-				else if (LEFT == "Task_PinPoint") {//特殊　メッセージ
-					this->m_Pin.resize(this->m_Pin.size()+1);
-					this->m_Pin.back().m_Point.Set(std::stof(Args[0]), std::stof(Args[1]), std::stof(Args[2]));
-				}
-				else if (LEFT == "Task_PinMap") {//特殊　メッセージ
-					this->m_Pin.back().m_MapID = MapData::Instance()->FindID(Args[0].c_str());
-					this->m_Pin.back().m_MapSel = std::atoi(Args[1].c_str());
+				for (auto& a : m_MapArgs) {
+					this->m_Map.emplace_back(MapData::Instance()->FindID(a));
 				}
 			}
 		};
 		class TaskRewardData {
-			class LLAdd {
-				TraderID							m_TraderID{ InvalidID };
-				float								m_Add{ 0.f };
-			public:
-				const auto& GetTraderID() const noexcept { return m_TraderID; }
-				const auto& GetAdd() const noexcept { return m_Add; }
-			public:
-				void	Set(TraderID id, float add) noexcept {
-					this->m_TraderID = id;
-					this->m_Add = add;
-				}
+			std::vector<TraderLLData>	m_LLAdd;
+			std::vector<ItemGetData>	m_Item;
 
-			};
-			std::vector<LLAdd>						m_LLAdd;
-			std::vector<ItemGetData>				m_Item;
+			std::vector<std::pair<std::string, int>>		m_LLAddArgs;
+			std::vector<std::string>					m_ItemArgs;
 		public:
 			const auto& GetLLAdd() const noexcept { return m_LLAdd; }
 			const auto& GetItem() const noexcept { return m_Item; }
@@ -263,32 +268,33 @@ namespace FPS_n2 {
 			void Set(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept {
 				if (LEFT == "Reward_Rep") {
 					auto plus = RIGHT.find("+");
-					auto minus = RIGHT.find("-");
 					if (plus != std::string::npos) {
-						TaskRewardData::LLAdd tmp;
-						tmp.Set(TraderData::Instance()->FindID(RIGHT.substr(0, plus).c_str()), std::stof(RIGHT.substr(plus + 1)));
-						this->m_LLAdd.emplace_back(tmp);
+						m_LLAddArgs.emplace_back(std::make_pair(RIGHT.substr(0, plus), (int)(std::stof(RIGHT.substr(plus + 1)) * 100.f)));
 					}
+					auto minus = RIGHT.find("-");
 					if (minus != std::string::npos) {
-						TaskRewardData::LLAdd tmp;
-						tmp.Set(TraderData::Instance()->FindID(RIGHT.substr(0, minus).c_str()), std::stof(RIGHT.substr(minus)));
-						this->m_LLAdd.emplace_back(tmp);
+						m_LLAddArgs.emplace_back(std::make_pair(RIGHT.substr(0, minus), (int)(std::stof(RIGHT.substr(minus + 1)) * 100.f)));
 					}
 				}
 				else if (LEFT == "Reward_Item") {
 					if (Args.size() > 0) {
 						for (auto&a : Args) {
-							if (a == "or") {
-
-							}
-							else {
-								SetGetData<ItemGetData, ItemData>(&this->m_Item, a);
-							}
+							m_ItemArgs.emplace_back(a);
 						}
 					}
 					else {
-						SetGetData<ItemGetData, ItemData>(&this->m_Item, RIGHT);
+						m_ItemArgs.emplace_back(RIGHT);
 					}
+				}
+			}
+			void		SetAfter() noexcept {
+				for (auto& L : m_LLAddArgs) {
+					TraderLLData tmp;
+					tmp.Set(TraderData::Instance()->FindID(L.first.c_str()), L.second);
+					this->m_LLAdd.emplace_back(tmp);
+				}
+				for (auto& a : m_ItemArgs) {
+					SetGetData<ItemGetData, ItemData>(&this->m_Item, a);
 				}
 			}
 		};
@@ -306,7 +312,7 @@ namespace FPS_n2 {
 
 		auto&			SetTaskWorkData() noexcept { return m_TaskWorkData; }
 	public:
-		void			Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>&Args) noexcept override {
+		void			SetSub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>&Args) noexcept override {
 			//Need
 			m_TaskNeedData.Set(LEFT, RIGHT, Args);
 			//Work
@@ -314,7 +320,14 @@ namespace FPS_n2 {
 			//Reward
 			m_TaskRewardData.Set(LEFT, RIGHT, Args);
 		}
-		void	Load_Sub() noexcept override {}
+		void	Load_Sub() noexcept override {
+			//Need
+			m_TaskNeedData.SetAfter();
+			//Work
+			m_TaskWorkData.SetAfter();
+			//Reward
+			m_TaskRewardData.SetAfter();
+		}
 		void	WhenAfterLoad_Sub() noexcept override {}
 
 		void			SetNeedTasktoID(const std::vector<TaskList>& taskList) noexcept {
@@ -338,7 +351,7 @@ namespace FPS_n2 {
 				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "必要アイテム:")); yofs += sizy;
 				yofs += LineHeight;
 				for (const auto& LL : m_TaskNeedData.GetItem()) {
-					auto ID = ItemData::Instance()->FindID(LL.GetName());
+					auto ID = LL.GetID();
 					auto* ptr = ItemData::Instance()->FindPtr(ID);
 					int total_size = y_r(48);
 					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetValue(), Gray10, !WindowMngr->PosHitCheck(window), false, true, false) + y_r(30));
@@ -369,7 +382,7 @@ namespace FPS_n2 {
 				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "Firアイテムの納品:")); yofs += sizy;
 				yofs += LineHeight;
 				for (const auto& LL : m_TaskWorkData.GetFiR_Item()) {
-					auto ID = ItemData::Instance()->FindID(LL.GetName());
+					auto ID = LL.GetID();
 					auto* ptr = ItemData::Instance()->FindPtr(ID);
 					int total_size = y_r(48);
 					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetValue(), Gray10, !WindowMngr->PosHitCheck(window), true, true, false) + y_r(30));
@@ -380,7 +393,7 @@ namespace FPS_n2 {
 				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "Firでなくてよいアイテムの納品:")); yofs += sizy;
 				yofs += LineHeight;
 				for (const auto& LL : m_TaskWorkData.GetNotFiR_Item()) {
-					auto ID = ItemData::Instance()->FindID(LL.GetName());
+					auto ID = LL.GetID();
 					auto* ptr = ItemData::Instance()->FindPtr(ID);
 					int total_size = y_r(48);
 					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetValue(), Gray10, !WindowMngr->PosHitCheck(window), false, true, false) + y_r(30));
@@ -419,16 +432,16 @@ namespace FPS_n2 {
 			}
 			if (m_TaskRewardData.GetLLAdd().size() > 0) {
 				for (auto& LL : m_TaskRewardData.GetLLAdd()) {
-					auto* trader2 = TraderData::Instance()->FindPtr(LL.GetTraderID());
+					auto* trader2 = TraderData::Instance()->FindPtr(LL.GetID());
 					xofs = std::max(xofs, WindowSystem::SetMsg(xp + y_r(30), yp + yofs, xp + y_r(30), yp + sizy + yofs, sizy, STRX_LEFT, trader2->GetColors(0), Black, "%s %s%4.2f",
 						trader2->GetName().c_str(),
-						(LL.GetAdd() >= 0.f) ? "+" : "-",
-						LL.GetAdd())); yofs += sizy;
+						(LL.GetValue() >= 0.f) ? "+" : "-",
+						(float)(LL.GetValue()) / 100.f)); yofs += sizy;
 				}
 			}
 			if (m_TaskRewardData.GetItem().size() > 0) {
 				for (const auto& LL : m_TaskRewardData.GetItem()) {
-					auto ID = ItemData::Instance()->FindID(LL.GetName());
+					auto ID = LL.GetID();
 					auto* ptr = ItemData::Instance()->FindPtr(ID);
 					int total_size = y_r(48);
 					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetValue(), Gray10, !WindowMngr->PosHitCheck(window), true, true, false) + y_r(30));
@@ -1032,17 +1045,17 @@ namespace FPS_n2 {
 				i.ResetTaskUseID();
 				for (const auto& t : m_List) {
 					for (const auto& n : t.GetTaskNeedData().GetItem()) {
-						if (i.GetName() == n.GetName()) {
+						if (i.GetID() == n.GetID()) {
 							i.AddTaskUseID(t.GetID());
 						}
 					}
 					for (const auto& w : t.GetTaskWorkData().GetFiR_Item()) {
-						if (i.GetName() == w.GetName()) {
+						if (i.GetID() == w.GetID()) {
 							i.AddTaskUseID(t.GetID());
 						}
 					}
 					for (const auto& w : t.GetTaskWorkData().GetNotFiR_Item()) {
-						if (i.GetName() == w.GetName()) {
+						if (i.GetID() == w.GetID()) {
 							i.AddTaskUseID(t.GetID());
 						}
 					}
@@ -1246,7 +1259,7 @@ namespace FPS_n2 {
 							}
 							outputfile << "x" + std::to_string(obj.count);
 							if (&m != &obj.Maps.back()) {
-								outputfile << ",";
+								outputfile << DIV_STR;
 							}
 							outputfile << "\n";
 						}
@@ -1269,7 +1282,7 @@ namespace FPS_n2 {
 						for (auto& m : obj.usingWeapon) {
 							outputfile << "\t" + m + "x0";
 							if (&m != &obj.usingWeapon.back()) {
-								outputfile << ",";
+								outputfile << DIV_STR;
 							}
 							outputfile << "\n";
 						}
@@ -1280,7 +1293,7 @@ namespace FPS_n2 {
 						for (auto& m : obj.usingWeaponMods) {
 							outputfile << "\t" + m + "x0";
 							if (&m != &obj.usingWeaponMods.back()) {
-								outputfile << ",";
+								outputfile << DIV_STR;
 							}
 							outputfile << "\n";
 						}
@@ -1426,7 +1439,7 @@ namespace FPS_n2 {
 							outputfile << "\t" + m.Name + "x" + std::to_string(m.count);
 						}
 						if (&m != &obj.Items.back()) {
-							outputfile << ",";
+							outputfile << DIV_STR;
 						}
 						outputfile << "\n";
 					}
@@ -1454,7 +1467,7 @@ namespace FPS_n2 {
 					for (auto& n : jd.neededKeys) {
 						outputfile << n + "x1";
 						if (&n != &jd.neededKeys.back()) {
-							outputfile << ",";
+							outputfile << DIV_STR;
 						}
 					}
 					outputfile << "]\n";
@@ -1521,8 +1534,8 @@ namespace FPS_n2 {
 						WriteText(outputfile, jd);
 
 						for (const auto& p : L.GetTaskWorkData().GetPin()) {
-							outputfile << "Task_PinPoint=[" + std::to_string(p.m_Point.x()) + "," + std::to_string(p.m_Point.y()) + "," + std::to_string(p.m_Point.z())+ "]\n";
-							outputfile << "Task_PinMap=[" + MapData::Instance()->FindPtr(p.m_MapID)->GetName() + "," + std::to_string(p.m_MapSel) + "]\n";
+							outputfile << "Task_PinPoint=[" + std::to_string(p.m_Point.x()) + DIV_STR + std::to_string(p.m_Point.y()) + DIV_STR + std::to_string(p.m_Point.z())+ "]\n";
+							outputfile << "Task_PinMap=[" + MapData::Instance()->FindPtr(p.m_MapID)->GetName() + DIV_STR + std::to_string(p.m_MapSel) + "]\n";
 						}
 						outputfile.close();
 						break;

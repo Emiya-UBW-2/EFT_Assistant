@@ -3,8 +3,8 @@ Name=SilencerCo Saker ASR 556 5.56x45 sound suppressor
 ShortName=Saker ASR 556
 Itemtype=Silencer
 Conflict=[
-	HK 416A5 5.56x45 10.6 inch barrel,
-	AR-15 SAI JailBrake 5.56x45 muzzle device,
+	HK 416A5 5.56x45 10.6 inch barrel/|
+	AR-15 SAI JailBrake 5.56x45 muzzle device/|
 ]
 Recoil=-14.000000
 Ergonomics=-22.000000
@@ -12,15 +12,15 @@ Information_Eng=The SilencerCo Saker ASR 556 sound suppressor, designed for use 
 basePrice=62325
 width=2
 height=1
-avg24hPrice=103527
-low24hPrice=75555
-lastOfferCount=27
+avg24hPrice=115198
+low24hPrice=91555
+lastOfferCount=44
 Sell_Prapor=31162
 Sell_Fence=24930
 Sell_Skier=30539
 Sell_Peacekeeper=236
 Sell_Mechanic=34902
-Sell_Flea Market=104000
+Sell_Flea Market=111111
 weight=0.510000
-fleaMarketFee=5474
+fleaMarketFee=5872
 propertiestype=ItemPropertiesWeaponMod

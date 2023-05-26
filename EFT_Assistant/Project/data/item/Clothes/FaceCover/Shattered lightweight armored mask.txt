@@ -3,21 +3,21 @@ Name=Shattered lightweight armored mask
 ShortName=Shattered
 Itemtype=Face Cover
 Conflict=[
-	Tac-Kek Heavy Trooper mask for Ops-Core-type helmets,
-	TSh-4M-L soft tank crew helmet,
+	TSh-4M-L soft tank crew helmet/|
+	Tac-Kek Heavy Trooper mask for Ops-Core-type helmets/|
 ]
 Information_Eng=The "Shattered" face protection mask, reinforced with aramid fibers.
 basePrice=23941
 width=2
 height=2
-avg24hPrice=34509
-low24hPrice=20000
-lastOfferCount=17
+avg24hPrice=35286
+low24hPrice=25000
+lastOfferCount=25
 Sell_Fence=9576
 Sell_Skier=11731
 Sell_Peacekeeper=91
 Sell_Ragman=14843
-Sell_Flea Market=25000
+Sell_Flea Market=29000
 weight=0.300000
-fleaMarketFee=1464
+fleaMarketFee=1596
 propertiestype=ItemPropertiesHelmet

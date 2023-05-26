@@ -4,7 +4,7 @@ Trader=Skier
 
 NeedTask=What’s on the Flash Drive?
 NeedLevel=8
-NeedItem=[Dorm room 303 keyx1,Trailer park portable cabin keyx1]
+NeedItem=[Dorm room 303 keyx1/|Trailer park portable cabin keyx1]
 
 CanRestart=false
 NeedKappa=true
@@ -29,14 +29,14 @@ Reward_Item=[
 ]
 Reward_Rep=Skier+0.040000
 Reward_Item=[
-	Roublesx17000,
-	Soyuz-TM STM-9 Gen.2 9x19 carbine Defaultx1,
-	9x19mm Green Tracerx120,
+	Roublesx17000/|
+	Soyuz-TM STM-9 Gen.2 9x19 carbine Defaultx1/|
+	9x19mm Green Tracerx120/|
 	Glock 9x19 "Big Stick" 33-round magazinex2
 ]
 
 Reward_EXP=4500
-Task_PinPoint=[0.406301,0.292455,0.000000]
-Task_PinMap=[Customs,1]
-Task_PinPoint=[-0.040690,0.278320,0.000000]
-Task_PinMap=[Customs,1]
+Task_PinPoint=[0.406301/|0.292455/|0.000000]
+Task_PinMap=[Customs/|1]
+Task_PinPoint=[-0.040690/|0.278320/|0.000000]
+Task_PinMap=[Customs/|1]

@@ -3,7 +3,7 @@ Name=PB 9x18PM silenced pistol
 ShortName=PB
 Itemtype=Handgun
 ChildParts=[
-	PM 9x18PM 84-round makeshift drum magazine,
+	PM 9x18PM 84-round makeshift drum magazine/|
 	PM 9x18PM 90-93 8-round magazine
 ]
 ChildParts=[
@@ -18,15 +18,15 @@ Information_Eng=The PB pistol (Pistolét Besshúmnyy - "Silenced Pistol", GRAU I
 basePrice=11498
 width=2
 height=1
-avg24hPrice=15382
-low24hPrice=8888
-lastOfferCount=10
+avg24hPrice=14670
+low24hPrice=8000
+lastOfferCount=4
 Sell_Prapor=5749
 Sell_Fence=4599
 Sell_Skier=5634
 Sell_Peacekeeper=43
 Sell_Mechanic=6438
-Sell_Flea Market=9700
+Sell_Flea Market=12888
 weight=0.674000
-fleaMarketFee=638
+fleaMarketFee=730
 propertiestype=ItemPropertiesWeapon

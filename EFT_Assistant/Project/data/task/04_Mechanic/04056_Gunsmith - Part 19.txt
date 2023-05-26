@@ -34,8 +34,8 @@ Task_Else=width >= 0
 
 Reward_Rep=Mechanic+0.030000
 Reward_Item=[
-	Roublesx75000,
-	Ratchet wrenchx1,
+	Roublesx75000/|
+	Ratchet wrenchx1/|
 	Bulbex cable cutterx1
 ]
 

@@ -3,28 +3,28 @@ Name=RFB thread spacer
 ShortName=RFB spacer
 Itemtype=Comb. muzzle device
 ChildParts=[
-	AWC PSR 7.62x51 muzzle brake,
-	RFB 7.62x51 flash hider,
-	AR-10 2A Armanent X3 7.62x51 compensator,
-	AR-10 AAC Blackout 51T 7.62x51 flash hider,
-	AR-10 CMMG SV Brake 7.62x51 muzzle brake,
-	AR-10 Daniel Defense WAVE 7.62x51 muzzle brake,
-	Desert Tech 7.62x51 flash hider,
-	AR-10 Fortis RED Brake 7.62x51 muzzle brake,
-	AR-10 KAC QDC 7.62x51 Flash Suppressor Kit,
-	AR-10 KAC QDC 7.62x51 Muzzle Brake Kit,
-	AR-10 Keeno Arms SHREWD 7.62x51 muzzle brake,
-	AR-10 Lantac Drakon 7.62x51 muzzle brake-compensator,
-	AR-10 Nordic Components Corvette 7.62x51 compensator,
-	AR-10 Odin Works ATLAS-7 7.62x51 muzzle brake,
-	AR-10 SureFire ProComp 7.62x51 muzzle brake,
-	AR-10 SureFire Warden 7.62x51 blast regulator,
-	AR-10 TAA ZK-38 7.62x51 muzzle brake,
-	AR-10 Thunder Beast Arms 30CB 7.62x51 muzzle brake,
-	Gemtech ONE Direct Thread Mount adapter,
-	SIG Sauer Taper-LOK 7.62x51/.300 BLK muzzle adapter,
-	SilencerCo Hybrid 46 Direct Thread Mount adapter,
-	Lantac BMD Blast Mitigation Device A3 direct thread adapter,
+	AWC PSR 7.62x51 muzzle brake/|
+	RFB 7.62x51 flash hider/|
+	AR-10 2A Armanent X3 7.62x51 compensator/|
+	AR-10 AAC Blackout 51T 7.62x51 flash hider/|
+	AR-10 CMMG SV Brake 7.62x51 muzzle brake/|
+	AR-10 Daniel Defense WAVE 7.62x51 muzzle brake/|
+	Desert Tech 7.62x51 flash hider/|
+	AR-10 Fortis RED Brake 7.62x51 muzzle brake/|
+	AR-10 KAC QDC 7.62x51 Flash Suppressor Kit/|
+	AR-10 KAC QDC 7.62x51 Muzzle Brake Kit/|
+	AR-10 Keeno Arms SHREWD 7.62x51 muzzle brake/|
+	AR-10 Lantac Drakon 7.62x51 muzzle brake-compensator/|
+	AR-10 Nordic Components Corvette 7.62x51 compensator/|
+	AR-10 Odin Works ATLAS-7 7.62x51 muzzle brake/|
+	AR-10 SureFire ProComp 7.62x51 muzzle brake/|
+	AR-10 SureFire Warden 7.62x51 blast regulator/|
+	AR-10 TAA ZK-38 7.62x51 muzzle brake/|
+	AR-10 Thunder Beast Arms 30CB 7.62x51 muzzle brake/|
+	Gemtech ONE Direct Thread Mount adapter/|
+	SIG Sauer Taper-LOK 7.62x51/.300 BLK muzzle adapter/|
+	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
+	Lantac BMD Blast Mitigation Device A3 direct thread adapter/|
 	SIG Sauer SRD762Ti 7.62x51 sound suppressor
 ]
 Recoil=0.000000
@@ -33,15 +33,15 @@ Information_Eng=A thread spacer for the RFB rifle, manufactured by Kel-Tec. It i
 basePrice=2200
 width=1
 height=1
-avg24hPrice=56166
-low24hPrice=34000
-lastOfferCount=8
+avg24hPrice=68403
+low24hPrice=11111
+lastOfferCount=11
 Sell_Prapor=1100
 Sell_Fence=880
 Sell_Skier=1078
 Sell_Peacekeeper=8
 Sell_Mechanic=1232
-Sell_Flea Market=44444
+Sell_Flea Market=40000
 weight=0.091000
-fleaMarketFee=8479
+fleaMarketFee=7119
 propertiestype=ItemPropertiesWeaponMod

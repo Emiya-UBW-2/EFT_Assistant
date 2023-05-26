@@ -32,8 +32,8 @@ Task_Else=èEÇ¡Çƒî[ïi:Shoreline-Secure Folder 0013x1
 
 Reward_Rep=Peacekeeper+0.030000
 Reward_Item=[
-	Dollarsx850,
-	Colt M4A1 5.56x45 assault rifle KAC RISx1,
+	Dollarsx850/|
+	Colt M4A1 5.56x45 assault rifle KAC RISx1/|
 	5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazinex3
 ]
 

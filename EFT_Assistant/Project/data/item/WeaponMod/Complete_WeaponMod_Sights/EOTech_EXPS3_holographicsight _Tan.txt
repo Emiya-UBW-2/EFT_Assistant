@@ -4,19 +4,19 @@ ShortName=EXPS3
 Itemtype=Reflex sight
 SightRange=200
 Conflict=[
-	AR-15 rear sight carry handle,
-	Burris FullField TAC30 1-4x24 30mm riflescope,
-	EOTech Vudu 1-6x24 30mm riflescope,
-	Hensoldt FF 4-16x56 34mm riflescope,
-	KMZ 1P59 3-10x riflescope,
-	KMZ 1P69 3-10x riflescope,
-	Leupold Mark 4 LR 6.5-20x50 30mm riflescope,
-	March Tactical 3-24x42 FFP 30mm riflescope,
-	Mosin Rifle carbine rear sight,
-	Nightforce ATACR 7-35x56 34mm riflescope,
-	NSPU-M night vision scope,
-	VOMZ Pilad 4x32 24.5mm riflescope,
-	Vortex Razor HD Gen.2 1-6x24 30mm riflescope,
+	AR-15 rear sight carry handle/|
+	Burris FullField TAC30 1-4x24 30mm riflescope/|
+	EOTech Vudu 1-6x24 30mm riflescope/|
+	Hensoldt FF 4-16x56 34mm riflescope/|
+	KMZ 1P59 3-10x riflescope/|
+	KMZ 1P69 3-10x riflescope/|
+	Leupold Mark 4 LR 6.5-20x50 30mm riflescope/|
+	March Tactical 3-24x42 FFP 30mm riflescope/|
+	Mosin Rifle carbine rear sight/|
+	Nightforce ATACR 7-35x56 34mm riflescope/|
+	NSPU-M night vision scope/|
+	VOMZ Pilad 4x32 24.5mm riflescope/|
+	Vortex Razor HD Gen.2 1-6x24 30mm riflescope/|
 ]
 Recoil=0.000000
 Ergonomics=-2.000000
@@ -24,15 +24,15 @@ Information_Eng=The EOTech EXPS3 holographic sight. Thanks to design features it
 basePrice=26250
 width=1
 height=1
-avg24hPrice=35696
-low24hPrice=20000
-lastOfferCount=19
+avg24hPrice=39950
+low24hPrice=25250
+lastOfferCount=21
 Sell_Prapor=13125
 Sell_Fence=10500
 Sell_Skier=12862
 Sell_Peacekeeper=99
 Sell_Mechanic=14700
-Sell_Flea Market=33000
+Sell_Flea Market=33332
 weight=0.317000
-fleaMarketFee=1796
+fleaMarketFee=1809
 propertiestype=ItemPropertiesScope

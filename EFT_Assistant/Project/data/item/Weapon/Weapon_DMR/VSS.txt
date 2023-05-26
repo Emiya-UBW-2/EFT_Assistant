@@ -3,45 +3,45 @@ Name=VSS Vintorez 9x39 special sniper rifle
 ShortName=VSS "Vintorez"
 Itemtype=Marksman rifle
 ChildParts=[
-	BelOMO PSO-1 4x24 scope,
-	BelOMO PSO-1M2-1 4x24 scope,
-	BelOMO PSO-1M2 4x24 scope,
+	BelOMO PSO-1 4x24 scope/|
+	BelOMO PSO-1M2-1 4x24 scope/|
+	BelOMO PSO-1M2 4x24 scope/|
 	SVD SAG low profile sidemount
 ]
 ChildParts=[
-	VSS 9x39 6L24 10-round magazine,
-	VSS 9x39 6L25 20-round magazine,
+	VSS 9x39 6L24 10-round magazine/|
+	VSS 9x39 6L25 20-round magazine/|
 	9x39 SR3M.130 30-round magazine
 ]
 ChildParts=[
-	AS VAL 9x39 integral barrel-suppressor,
+	AS VAL 9x39 integral barrel-suppressor/|
 	VSS 9x39 integral barrel-suppressor
 ]
 ChildParts=[
-	AS VAL dust cover,
+	AS VAL dust cover/|
 	VSS dust cover
 ]
 ChildParts=[
 	VSS wooden stock
 ]
 ChildParts=[
-	AK CSS knurled charging handle,
+	AK CSS knurled charging handle/|
 	AK Zenit RP-1 charging handle
 ]
 ChildParts=[
-	Axion Kobra EKP-8-02 reflex sight (Dovetail),
-	BelOMO PK-AA dovetail reflex sight,
-	OKP-7 reflex sight (Dovetail),
-	NPZ PK1 "Obzor" reflex sight,
-	NPZ USP-1 "Tyulpan" 4x scope,
-	NSPU-M night vision scope,
-	Axion Kobra dovetail mount,
-	SVD CAA XD RGL receiver mount,
-	KMZ 1P59 dovetail mount,
-	NPZ 1P78-1 dovetail mount,
-	VOMZ Pilad 043-02 dovetail mount,
-	Zenit B-13 "Klassika" dovetail rail platform,
-	Zenit B-13V "Klassika" dovetail rail platform,
+	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
+	BelOMO PK-AA dovetail reflex sight/|
+	OKP-7 reflex sight (Dovetail)/|
+	NPZ PK1 "Obzor" reflex sight/|
+	NPZ USP-1 "Tyulpan" 4x scope/|
+	NSPU-M night vision scope/|
+	Axion Kobra dovetail mount/|
+	SVD CAA XD RGL receiver mount/|
+	KMZ 1P59 dovetail mount/|
+	NPZ 1P78-1 dovetail mount/|
+	VOMZ Pilad 043-02 dovetail mount/|
+	Zenit B-13 "Klassika" dovetail rail platform/|
+	Zenit B-13V "Klassika" dovetail rail platform/|
 	SAG Bit low profile dovetail sidemount
 ]
 Recoil=80.000000
@@ -50,16 +50,16 @@ Information_Eng=VSS (Vintovka Sniperskaya Specialnaya - "Special Sniper Rifle") 
 basePrice=54336
 width=2
 height=1
-avg24hPrice=135926
-low24hPrice=66555
-lastOfferCount=12
+avg24hPrice=131893
+low24hPrice=48999
+lastOfferCount=7
 Sell_Prapor=27168
 Sell_Fence=21734
 Sell_Skier=26624
 Sell_Peacekeeper=205
 Sell_Mechanic=30428
 Sell_Jaeger=32601
-Sell_Flea Market=81800
+Sell_Flea Market=150000
 weight=0.920000
-fleaMarketFee=4315
+fleaMarketFee=8862
 propertiestype=ItemPropertiesWeapon

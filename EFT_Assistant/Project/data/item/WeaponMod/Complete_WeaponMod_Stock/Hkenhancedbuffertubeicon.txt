@@ -3,34 +3,34 @@ Name=HK Enhanced Tube buffer tube
 ShortName=Enhanced Tube
 Itemtype=Stock
 ChildParts=[
-	AR-15 B5 Systems Precision stock,
-	CMMG RipStock buttstock,
-	FAB Defense GL-CORE buttstock,
-	FAB Defense GL-SHOCK buttstock,
-	FAB Defense GLR-16-S stock,
-	High Standard M4SS Stock,
-	AR-15 HK E1 buttstock,
-	AR-15 HK Slim Line buttstock,
-	AK-12 stock,
-	LMT SOPMOD stock,
-	Magpul CTR Carbine stock (Black),
-	Magpul CTR Carbine stock (FDE),
-	Magpul MOE Carbine stock (Black),
-	Magpul MOE Carbine stock (FDE),
-	Magpul MOE Carbine stock (Foliage Green),
-	Magpul MOE Carbine stock (Olive Drab),
-	Magpul MOE Carbine stock (Stealth Gray),
-	Magpul PRS GEN3 stock (Black),
-	Magpul PRS GEN3 stock (Grey),
-	MFT BUS stock,
-	Strike Industries Viper Mod 1 stock,
-	Vltor EMOD stock,
-	SB Tactical SBA3 brace,
-	KRISS Defiance DS150 stock (Black),
+	AR-15 B5 Systems Precision stock/|
+	CMMG RipStock buttstock/|
+	FAB Defense GL-CORE buttstock/|
+	FAB Defense GL-SHOCK buttstock/|
+	FAB Defense GLR-16-S stock/|
+	High Standard M4SS Stock/|
+	AR-15 HK E1 buttstock/|
+	AR-15 HK Slim Line buttstock/|
+	AK-12 stock/|
+	LMT SOPMOD stock/|
+	Magpul CTR Carbine stock (Black)/|
+	Magpul CTR Carbine stock (FDE)/|
+	Magpul MOE Carbine stock (Black)/|
+	Magpul MOE Carbine stock (FDE)/|
+	Magpul MOE Carbine stock (Foliage Green)/|
+	Magpul MOE Carbine stock (Olive Drab)/|
+	Magpul MOE Carbine stock (Stealth Gray)/|
+	Magpul PRS GEN3 stock (Black)/|
+	Magpul PRS GEN3 stock (Grey)/|
+	MFT BUS stock/|
+	Strike Industries Viper Mod 1 stock/|
+	Vltor EMOD stock/|
+	SB Tactical SBA3 brace/|
+	KRISS Defiance DS150 stock (Black)/|
 	KRISS Defiance DS150 stock (FDE)
 ]
 Conflict=[
-	AR-15 Hera Arms CQR pistol grip/buttstock,
+	AR-15 Hera Arms CQR pistol grip/buttstock/|
 ]
 Recoil=-3.000000
 Ergonomics=0.000000
@@ -38,16 +38,16 @@ Information_Eng=Heckler & Koch Receiver Extension Buffer Tube, Mil-Spec diameter
 basePrice=4990
 width=2
 height=1
-avg24hPrice=22445
-low24hPrice=12888
-lastOfferCount=20
+avg24hPrice=20072
+low24hPrice=10000
+lastOfferCount=18
 Sell_Prapor=2495
 Sell_Fence=1996
 Sell_Skier=2445
 Sell_Peacekeeper=19
 Sell_Mechanic=2794
 Sell_Jaeger=2994
-Sell_Flea Market=12888
+Sell_Flea Market=10000
 weight=0.162000
-fleaMarketFee=743
+fleaMarketFee=537
 propertiestype=ItemPropertiesWeaponMod

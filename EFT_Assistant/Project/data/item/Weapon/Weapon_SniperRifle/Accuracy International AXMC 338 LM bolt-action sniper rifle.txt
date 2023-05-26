@@ -6,7 +6,7 @@ ChildParts=[
 	AI AXMC .338 LM 10-round magazine
 ]
 ChildParts=[
-	AI AXMC pistol grip,
+	AI AXMC pistol grip/|
 	AI AXMC GTAC AR-type pistol grip adapter
 ]
 ChildParts=[

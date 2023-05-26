@@ -14,14 +14,14 @@ Task_Kill=[
 	Woods-any PMC operativesx3
 ]
 NeedItem=[
-	Mosin 7.62x54R bolt-action rifle (Infantry)x0,
-	Mosin 7.62x54R bolt-action rifle (Sniper)x0,
-	SV-98 7.62x54R bolt-action sniper riflex0,
-	Lobaev Arms DVL-10 7.62x51 bolt-action sniper riflex0,
-	Remington Model 700 7.62x51 bolt-action sniper riflex0,
-	Molot VPO-215 "Gornostay" .366 TKM bolt-action riflex0,
-	ORSIS T-5000M 7.62x51 bolt-action sniper riflex0,
-	MP-18 7.62x54R single-shot riflex0,
+	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
+	Mosin 7.62x54R bolt-action rifle (Sniper)x0/|
+	SV-98 7.62x54R bolt-action sniper riflex0/|
+	Lobaev Arms DVL-10 7.62x51 bolt-action sniper riflex0/|
+	Remington Model 700 7.62x51 bolt-action sniper riflex0/|
+	Molot VPO-215 "Gornostay" .366 TKM bolt-action riflex0/|
+	ORSIS T-5000M 7.62x51 bolt-action sniper riflex0/|
+	MP-18 7.62x54R single-shot riflex0/|
 	Accuracy International AXMC .338 LM bolt-action sniper riflex0
 ]
 
@@ -33,9 +33,9 @@ NeedItem=[
 
 Reward_Rep=Jaeger+0.020000
 Reward_Item=[
-	Roublesx200000,
-	Mosin Rifle ProMag Archangel OPFOR PRS chassisx1,
-	Mosin Rifle 7.62x54R ProMag Archangel OPFOR 10-round magazinex1,
+	Roublesx200000/|
+	Mosin Rifle ProMag Archangel OPFOR PRS chassisx1/|
+	Mosin Rifle 7.62x54R ProMag Archangel OPFOR 10-round magazinex1/|
 	Mosin 7.62x54R bolt-action rifle (Sniper) ATACR 7-35x56x1
 ]
 Reward_SkillLevelUp=Sniper Rifles+1

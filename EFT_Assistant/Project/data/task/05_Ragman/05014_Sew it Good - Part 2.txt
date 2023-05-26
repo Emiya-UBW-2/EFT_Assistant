@@ -39,8 +39,8 @@ DogTagLv=0
 
 Reward_Rep=Ragman+0.030000
 Reward_Item=[
-	ZSh-1-2M face shieldx1,
-	Maska-1SCh face shield (Olive Drab)x1,
+	ZSh-1-2M face shieldx1/|
+	Maska-1SCh face shield (Olive Drab)x1/|
 	Altyn face shieldx1
 ]
 

@@ -39,7 +39,7 @@ DogTagLv=0
 
 Reward_Rep=Mechanic+0.020000
 Reward_Item=[
-	Roublesx65000,
+	Roublesx65000/|
 	Physical bitcoinx2
 ]
 

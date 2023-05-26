@@ -39,8 +39,8 @@ DogTagLv=0
 
 Reward_Rep=Jaeger+0.020000
 Reward_Item=[
-	Roublesx35000,
-	Grizzly medical kitx3,
+	Roublesx35000/|
+	Grizzly medical kitx3/|
 	Golden Star balmx3
 ]
 Reward_SkillLevelUp=Vitality+1

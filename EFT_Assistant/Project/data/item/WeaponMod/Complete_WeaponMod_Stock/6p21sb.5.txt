@@ -6,7 +6,7 @@ ChildParts=[
 	AK GP-25 accessory kit recoil pad
 ]
 Conflict=[
-	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock,
+	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock/|
 ]
 Recoil=-30.000002
 Ergonomics=10.000000
@@ -14,8 +14,8 @@ Information_Eng=A metal skeleton stock for AKS-74 automatic rifles, manufactured
 basePrice=1559
 width=2
 height=1
-avg24hPrice=49999
-low24hPrice=49999
+avg24hPrice=0
+low24hPrice=0
 lastOfferCount=1
 Sell_Prapor=779
 Sell_Fence=623

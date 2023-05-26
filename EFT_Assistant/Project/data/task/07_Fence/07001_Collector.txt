@@ -119,8 +119,8 @@ DogTagLv=0
 NeedItem=#FireKlean gun lubex1
 Task_FiR_HandOver=[#FireKlean gun lubex1]
 DogTagLv=0
-NeedItem=Golden roosterx1
-Task_FiR_HandOver=[Golden roosterx1]
+NeedItem=Golden rooster figurinex1
+Task_FiR_HandOver=[Golden rooster figurinex1]
 DogTagLv=0
 NeedItem=Silver Badgex1
 Task_FiR_HandOver=[Silver Badgex1]
@@ -512,7 +512,7 @@ Task_Else=ƒŒƒxƒ‹:0
 ]
 
 Reward_Item=[
-	Secure container Kappax1,
+	Secure container Kappax1/|
 	DEADSKUL armbandx1
 ]
 

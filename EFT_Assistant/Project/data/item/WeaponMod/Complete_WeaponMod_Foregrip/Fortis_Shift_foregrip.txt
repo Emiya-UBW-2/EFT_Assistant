@@ -3,7 +3,7 @@ Name=Fortis Shift tactical foregrip
 ShortName=Shift
 Itemtype=Foregrip
 Conflict=[
-	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher/|
 ]
 Recoil=-1.500000
 Ergonomics=8.000000
@@ -11,15 +11,15 @@ Information_Eng=The Shift vertical grip integrates form with functionality. Its 
 basePrice=12972
 width=1
 height=1
-avg24hPrice=45821
-low24hPrice=18111
-lastOfferCount=30
+avg24hPrice=42648
+low24hPrice=28000
+lastOfferCount=41
 Sell_Prapor=6486
 Sell_Fence=5188
 Sell_Skier=6356
 Sell_Peacekeeper=49
 Sell_Mechanic=7264
-Sell_Flea Market=31995
+Sell_Flea Market=29999
 weight=0.090000
-fleaMarketFee=1815
+fleaMarketFee=1668
 propertiestype=ItemPropertiesWeaponMod

@@ -28,9 +28,9 @@ Task_Else=脱出ステータス:[Survived]
 
 Reward_Rep=Mechanic+0.020000
 Reward_Item=[
-	Roublesx44000,
-	Steyr AUG A1 5.56x45 assault rifle Defaultx1,
-	Steyr AUG 5.56x45 10-round magazinex3,
+	Roublesx44000/|
+	Steyr AUG A1 5.56x45 assault rifle Defaultx1/|
+	Steyr AUG 5.56x45 10-round magazinex3/|
 	5.56x45mm M855x60
 ]
 

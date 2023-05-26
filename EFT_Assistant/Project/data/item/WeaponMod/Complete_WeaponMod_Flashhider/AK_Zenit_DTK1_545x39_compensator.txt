@@ -3,7 +3,7 @@ Name=AK Zenit DTK-1 7.62x39/5.45x39 muzzle brake-compensator
 ShortName=DTK-1
 Itemtype=Flashhider
 Conflict=[
-	AKS-74U Alfa Arms Goliaf handguard,
+	AKS-74U Alfa Arms Goliaf handguard/|
 ]
 Recoil=-13.000000
 Ergonomics=-2.000000
@@ -11,7 +11,7 @@ Information_Eng=The DTK-1 muzzle brake-compensator by Zenit is designed to be in
 basePrice=4230
 width=1
 height=1
-avg24hPrice=16158
+avg24hPrice=14771
 low24hPrice=6000
 lastOfferCount=0
 Sell_Prapor=2115
@@ -19,7 +19,7 @@ Sell_Fence=1692
 Sell_Skier=2072
 Sell_Peacekeeper=16
 Sell_Mechanic=2368
-Sell_Flea Market=13000
+Sell_Flea Market=16999
 weight=0.128000
-fleaMarketFee=803
+fleaMarketFee=1195
 propertiestype=ItemPropertiesWeaponMod

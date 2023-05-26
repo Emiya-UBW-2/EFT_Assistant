@@ -37,6 +37,8 @@ namespace FPS_n2 {
 			InterruptParts::Create();
 			WindowSystem::WindowManager::Create();
 			//
+			ItemTypeData::Create();
+			ItemCategoryData::Create();
 			ItemData::Create();
 			PresetData::Create();
 			EnemyData::Create();
@@ -48,6 +50,10 @@ namespace FPS_n2 {
 			HideoutData::Instance()->SetParent();
 			//
 			SetUseASyncLoadFlag(TRUE);
+
+			ItemTypeData::Instance()->LoadList(false);
+			ItemCategoryData::Instance()->LoadList(false);
+
 			PresetData::Instance()->LoadList(false);
 #ifdef DEBUG
 			ItemData::Instance()->LoadList(true);

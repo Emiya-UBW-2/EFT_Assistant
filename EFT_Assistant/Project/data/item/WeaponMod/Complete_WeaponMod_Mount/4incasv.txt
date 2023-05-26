@@ -3,24 +3,24 @@ Name=Vltor CASV KeyMod 4 inch rail
 ShortName=CASV 4"
 Itemtype=Mount
 ChildParts=[
-	Glock GTL 21 tactical flashlight with laser,
-	Holosun LS321 Tactical device,
-	AN/PEQ-15 tactical device,
-	LA-5B/PEQ tactical device,
-	NcSTAR Tactical blue laser LAM-module,
-	Steiner DBAL-PL tactical device,
-	Steiner LAS/TAC 2 tactical flashlight,
-	SureFire X400 Ultra tactical flashlight with laser,
-	SureFire XC1 tactical flashlight,
-	Wilcox RAPTAR ES Tactical Rangefinder,
-	Zenit Klesch-2IKS IR illuminator with laser,
-	Zenit Klesch-2P flashlight with laser,
-	Zenit Klesch-2U tactical flashlight,
-	Zenit Perst-3 tactical device,
-	Kiba Arms 25mm accessory ring mount,
-	Daniel Defense 25mm accessory ring mount,
-	Olight Baldr Pro tactical flashlight with laser,
-	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Glock GTL 21 tactical flashlight with laser/|
+	Holosun LS321 Tactical device/|
+	AN/PEQ-15 tactical device/|
+	LA-5B/PEQ tactical device/|
+	NcSTAR Tactical blue laser LAM-module/|
+	Steiner DBAL-PL tactical device/|
+	Steiner LAS/TAC 2 tactical flashlight/|
+	SureFire X400 Ultra tactical flashlight with laser/|
+	SureFire XC1 tactical flashlight/|
+	Wilcox RAPTAR ES Tactical Rangefinder/|
+	Zenit Klesch-2IKS IR illuminator with laser/|
+	Zenit Klesch-2P flashlight with laser/|
+	Zenit Klesch-2U tactical flashlight/|
+	Zenit Perst-3 tactical device/|
+	Kiba Arms 25mm accessory ring mount/|
+	Daniel Defense 25mm accessory ring mount/|
+	Olight Baldr Pro tactical flashlight with laser/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight
 ]
 Recoil=0.000000
@@ -29,16 +29,16 @@ Information_Eng=The Vltor CASV 4 inch KeyMod rail allows installation of additio
 basePrice=1777
 width=1
 height=1
-avg24hPrice=27589
-low24hPrice=14000
-lastOfferCount=3
+avg24hPrice=35792
+low24hPrice=20000
+lastOfferCount=6
 Sell_Prapor=888
 Sell_Fence=710
 Sell_Skier=870
 Sell_Peacekeeper=7
 Sell_Mechanic=995
 Sell_Jaeger=1066
-Sell_Flea Market=70000
+Sell_Flea Market=29999
 weight=0.070000
-fleaMarketFee=20866
+fleaMarketFee=5085
 propertiestype=ItemPropertiesWeaponMod

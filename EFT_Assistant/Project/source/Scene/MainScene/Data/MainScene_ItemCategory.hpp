@@ -4,7 +4,7 @@
 namespace FPS_n2 {
 	class ItemCategoryList : public ListParent<ItemCategoryID> {
 		//í«â¡ê›íË
-		void			Set_Sub(const std::string&, const std::string&, const std::vector<std::string>&) noexcept override {}
+		void			SetSub(const std::string&, const std::string&, const std::vector<std::string>&) noexcept override {}
 	};
 	class ItemCategoryData : public SingletonBase<ItemCategoryData>, public DataParent<ItemCategoryID, ItemCategoryList> {
 	private:

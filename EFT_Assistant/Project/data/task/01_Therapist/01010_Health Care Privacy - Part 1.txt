@@ -35,14 +35,14 @@ NeedItem=MS2000 Markerx1
 
 Reward_Rep=Therapist+0.030000
 Reward_Item=[
-	Roublesx22000,
+	Roublesx22000/|
 	IFAK individual first aid kitx2
 ]
 
 Reward_EXP=4800
-Task_PinPoint=[-0.132378,-0.182292,0.000000]
-Task_PinMap=[Shoreline,1]
-Task_PinPoint=[-0.414063,0.202148,0.000000]
-Task_PinMap=[Shoreline,1]
-Task_PinPoint=[-0.427246,0.200195,0.000000]
-Task_PinMap=[Shoreline,1]
+Task_PinPoint=[-0.132378/|-0.182292/|0.000000]
+Task_PinMap=[Shoreline/|1]
+Task_PinPoint=[-0.414063/|0.202148/|0.000000]
+Task_PinMap=[Shoreline/|1]
+Task_PinPoint=[-0.427246/|0.200195/|0.000000]
+Task_PinMap=[Shoreline/|1]

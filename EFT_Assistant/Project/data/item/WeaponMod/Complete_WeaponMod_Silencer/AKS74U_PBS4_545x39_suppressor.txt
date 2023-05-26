@@ -3,7 +3,7 @@ Name=AKS-74U PBS-4 5.45x39 sound suppressor
 ShortName=PBS-4
 Itemtype=Silencer
 Conflict=[
-	AKS-74U Alfa Arms Goliaf handguard,
+	AKS-74U Alfa Arms Goliaf handguard/|
 ]
 Recoil=-10.000000
 Ergonomics=-25.000000
@@ -11,15 +11,15 @@ Information_Eng=The PBS-4 (Pribór Besshúmnoy Strel'bý - "Silent Firing Device
 basePrice=32991
 width=2
 height=1
-avg24hPrice=26548
-low24hPrice=20000
-lastOfferCount=6
+avg24hPrice=27885
+low24hPrice=17000
+lastOfferCount=23
 Sell_Prapor=16495
 Sell_Fence=13196
 Sell_Skier=16165
 Sell_Peacekeeper=125
 Sell_Mechanic=18474
-Sell_Flea Market=221111
+Sell_Flea Market=23456
 weight=0.700000
-fleaMarketFee=20809
+fleaMarketFee=1754
 propertiestype=ItemPropertiesWeaponMod

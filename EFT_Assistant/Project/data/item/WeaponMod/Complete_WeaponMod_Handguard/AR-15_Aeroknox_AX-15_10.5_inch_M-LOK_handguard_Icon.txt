@@ -3,40 +3,40 @@ Name=AR-15 Aeroknox AX-15 10.5 inch M-LOK handguard
 ShortName=AX-15 10.5"
 Itemtype=Handguard
 ChildParts=[
-	Magpul M-LOK 2.5 inch rail,
-	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK 2.5 inch rail/|
+	Magpul M-LOK Cantilever Mount/|
 	Magpul M-LOK Offset Light Mount
 ]
 ChildParts=[
-	Magpul M-LOK 2.5 inch rail,
-	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK 2.5 inch rail/|
+	Magpul M-LOK Cantilever Mount/|
 	Magpul M-LOK Offset Light Mount
 ]
 ChildParts=[
 	NcSTAR MPR45 Backup mount
 ]
 ChildParts=[
-	Magpul M-LOK AFG tactical foregrip (Black),
-	Magpul M-LOK AFG tactical foregrip (FDE),
-	Magpul M-LOK AFG tactical foregrip (Olive Drab),
-	Magpul M-LOK AFG tactical foregrip (Stealth Gray),
+	Magpul M-LOK AFG tactical foregrip (Black)/|
+	Magpul M-LOK AFG tactical foregrip (FDE)/|
+	Magpul M-LOK AFG tactical foregrip (Olive Drab)/|
+	Magpul M-LOK AFG tactical foregrip (Stealth Gray)/|
 	Magpul M-LOK 4.1 inch rail
 ]
 ChildParts=[
-	HK MP7 flip-up front sight,
-	KAC Folding Micro front sight,
-	KAC Folding front sight,
-	KRISS Defiance low profile flip-up front sight,
-	Magpul MBUS Gen2 flip-up front sight,
-	Magpul MBUS Gen2 flip-up front sight (FDE),
-	MCX flip-up front sight,
-	MPX flip-up front sight,
+	HK MP7 flip-up front sight/|
+	KAC Folding Micro front sight/|
+	KAC Folding front sight/|
+	KRISS Defiance low profile flip-up front sight/|
+	Magpul MBUS Gen2 flip-up front sight/|
+	Magpul MBUS Gen2 flip-up front sight (FDE)/|
+	MCX flip-up front sight/|
+	MPX flip-up front sight/|
 	AR-15 Leapers UTG Low Profile A2 front sight
 ]
 Conflict=[
-	AR-10 JP Enterprises Gas System-6,
-	M4A1 front sight with gas block,
-	AR-15 Windham Weaponry Rail Gas Block,
+	AR-10 JP Enterprises Gas System-6/|
+	M4A1 front sight with gas block/|
+	AR-15 Windham Weaponry Rail Gas Block/|
 	AR-15 5.56x45 260mm barrel
 ]
 Recoil=0.000000
@@ -45,9 +45,9 @@ Information_Eng=The AX-15 10.5 inch handguard for AR-15 systems, equipped with a
 basePrice=16100
 width=2
 height=1
-avg24hPrice=19381
-low24hPrice=10000
-lastOfferCount=5
+avg24hPrice=17478
+low24hPrice=12000
+lastOfferCount=22
 Sell_Prapor=8050
 Sell_Fence=6440
 Sell_Skier=7889

@@ -42,9 +42,9 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 
 Reward_Rep=Prapor+0.040000
 Reward_Item=[
-	Roublesx50000,
-	AS VAL 9x39 special assault rifle Defaultx1,
-	9x39mm SPP gsx100,
+	Roublesx50000/|
+	AS VAL 9x39 special assault rifle Defaultx1/|
+	9x39mm SPP gsx100/|
 	9x39mm SP-6 gsx100
 ]
 

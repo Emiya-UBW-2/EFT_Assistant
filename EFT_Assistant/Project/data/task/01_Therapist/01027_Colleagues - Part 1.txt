@@ -42,8 +42,8 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 
 Reward_Rep=Therapist+0.040000
 Reward_Item=[
-	Roublesx45000,
-	SJ1 TGLabs combat stimulant injectorx2,
+	Roublesx45000/|
+	SJ1 TGLabs combat stimulant injectorx2/|
 	SJ6 TGLabs combat stimulant injectorx2
 ]
 

@@ -3,12 +3,12 @@ Name=T-7 Thermal Goggles with a Night Vision mount
 ShortName=T-7
 Itemtype=Termal Vision
 Conflict=[
-	Galvion Caiman Fixed Arm Visor,
-	LShZ-2DTM face shield,
-	Ops-Core FAST multi-hit ballistic face shield,
-	Ops-Core FAST Visor,
-	Team Wendy EXFIL Ballistic face shield (Black),
-	Team Wendy EXFIL Ballistic face shield (Coyote Brown),
+	Galvion Caiman Fixed Arm Visor/|
+	LShZ-2DTM face shield/|
+	Ops-Core FAST Visor/|
+	Team Wendy EXFIL Ballistic face shield (Black)/|
+	Team Wendy EXFIL Ballistic face shield (Coyote Brown)/|
+	Ops-Core FAST multi-hit ballistic face shield/|
 ]
 Information_Eng=The T-7 thermal imaging binocular/goggles takes a clever approach to individual soldier imaging systems. The T-7 thermal binocular brings the best features of the night vision goggles and adapted them into a full function thermal imager. Requires adapters to fit on helmets.
 basePrice=480000

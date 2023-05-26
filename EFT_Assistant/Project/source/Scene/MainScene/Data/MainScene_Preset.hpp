@@ -6,22 +6,23 @@ namespace FPS_n2 {
 		const ItemList*											m_Base;
 		std::vector<const ItemList*>							m_Parts;
 	private:
+		std::string												m_BaseIDBuffer;
+		std::vector<std::string>								m_PartsIDBuffer;
+	private:
 		//í«â¡ê›íË
-		void			Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>&) noexcept override {
+		void			SetSub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>&) noexcept override {
 			if (LEFT == "Base") {
-				auto ID = ItemData::Instance()->FindID(RIGHT.c_str());
-				if (ID != InvalidID) {
-					m_Base = ItemData::Instance()->FindPtr(ID);
-				}
+				m_BaseIDBuffer = RIGHT;
 			}
 			if (LEFT == "Parts") {
-				auto ID = ItemData::Instance()->FindID(RIGHT.c_str());
-				if (ID != InvalidID) {
-					m_Parts.emplace_back(ItemData::Instance()->FindPtr(ID));
-				}
+				m_PartsIDBuffer.emplace_back(RIGHT);
 			}
 		}
 		void	Load_Sub() noexcept override {
+			m_Base = ItemData::Instance()->FindPtr(ItemData::Instance()->FindID(m_BaseIDBuffer.c_str()));
+			for (auto& P : m_PartsIDBuffer) {
+				m_Parts.emplace_back(ItemData::Instance()->FindPtr(ItemData::Instance()->FindID(P.c_str())));
+			}
 		}
 		void	WhenAfterLoad_Sub() noexcept override {}
 	public:

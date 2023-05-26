@@ -39,8 +39,8 @@ DogTagLv=0
 
 Reward_Rep=Mechanic+0.020000
 Reward_Item=[
-	Eurosx300,
-	Glock 17 9x19 pistol Viperx1,
+	Eurosx300/|
+	Glock 17 9x19 pistol Viperx1/|
 	Pistol casex1
 ]
 Reward_SkillLevelUp=Attention+1

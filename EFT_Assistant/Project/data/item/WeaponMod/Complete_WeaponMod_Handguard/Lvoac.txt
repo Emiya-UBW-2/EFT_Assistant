@@ -6,45 +6,45 @@ ChildParts=[
 	NcSTAR MPR45 Backup mount
 ]
 ChildParts=[
-	Holosun LS321 Tactical device,
-	AN/PEQ-15 tactical device,
-	AN/PEQ-2 tactical device,
-	LA-5B/PEQ tactical device,
-	SureFire XC1 tactical flashlight,
-	Wilcox RAPTAR ES Tactical Rangefinder,
+	Holosun LS321 Tactical device/|
+	AN/PEQ-15 tactical device/|
+	AN/PEQ-2 tactical device/|
+	LA-5B/PEQ tactical device/|
+	SureFire XC1 tactical flashlight/|
+	Wilcox RAPTAR ES Tactical Rangefinder/|
 	Zenit Perst-3 tactical device
 ]
 ChildParts=[
 	Vltor CASV KeyMod 6 inch rail
 ]
 ChildParts=[
-	Vltor CASV KeyMod 2 inch rail,
-	Vltor CASV KeyMod 4 inch rail,
+	Vltor CASV KeyMod 2 inch rail/|
+	Vltor CASV KeyMod 4 inch rail/|
 	CNC Guns KeyMod 2 inch rail
 ]
 ChildParts=[
-	Vltor CASV KeyMod 2 inch rail,
-	Vltor CASV KeyMod 4 inch rail,
+	Vltor CASV KeyMod 2 inch rail/|
+	Vltor CASV KeyMod 4 inch rail/|
 	CNC Guns KeyMod 2 inch rail
 ]
 ChildParts=[
-	Vltor CASV KeyMod 2 inch rail,
-	Vltor CASV KeyMod 4 inch rail,
+	Vltor CASV KeyMod 2 inch rail/|
+	Vltor CASV KeyMod 4 inch rail/|
 	CNC Guns KeyMod 2 inch rail
 ]
 ChildParts=[
-	HK MP7 flip-up front sight,
-	KAC Folding Micro front sight,
-	KAC Folding front sight,
-	KRISS Defiance low profile flip-up front sight,
-	Magpul MBUS Gen2 flip-up front sight,
-	Magpul MBUS Gen2 flip-up front sight (FDE),
-	MCX flip-up front sight,
-	MPX flip-up front sight,
+	HK MP7 flip-up front sight/|
+	KAC Folding Micro front sight/|
+	KAC Folding front sight/|
+	KRISS Defiance low profile flip-up front sight/|
+	Magpul MBUS Gen2 flip-up front sight/|
+	Magpul MBUS Gen2 flip-up front sight (FDE)/|
+	MCX flip-up front sight/|
+	MPX flip-up front sight/|
 	AR-15 Leapers UTG Low Profile A2 front sight
 ]
 Conflict=[
-	Rotor 43 5.56x45 muzzle brake-compensator,
+	Rotor 43 5.56x45 muzzle brake-compensator/|
 	AR-15 5.56x45 260mm barrel
 ]
 Recoil=-2.000000
@@ -53,15 +53,15 @@ Information_Eng=The War Sport LVOA-C lightweight handguard is designed for use w
 basePrice=28988
 width=3
 height=1
-avg24hPrice=74827
-low24hPrice=24999
-lastOfferCount=12
+avg24hPrice=98084
+low24hPrice=58600
+lastOfferCount=15
 Sell_Prapor=14494
 Sell_Fence=11595
 Sell_Skier=14204
 Sell_Peacekeeper=110
 Sell_Mechanic=16233
-Sell_Flea Market=66666
+Sell_Flea Market=88888
 weight=0.580000
-fleaMarketFee=3702
+fleaMarketFee=5484
 propertiestype=ItemPropertiesWeaponMod

@@ -3,8 +3,8 @@ Name=SIG Sauer SRD9 9x19 sound suppressor
 ShortName=SRD9
 Itemtype=Silencer
 Conflict=[
-	Glock 9x19 Strike Industries G4 SlideComp compensator,
-	Glock 9x19 Fischer Development FD917 sound suppressor,
+	Glock 9x19 Strike Industries G4 SlideComp compensator/|
+	Glock 9x19 Fischer Development FD917 sound suppressor/|
 ]
 Recoil=-8.000000
 Ergonomics=-15.000000
@@ -12,15 +12,15 @@ Information_Eng=SRD9 is a 9x19 caliber sound suppressor manufactured by SIG Saue
 basePrice=28600
 width=2
 height=1
-avg24hPrice=31144
-low24hPrice=23998
-lastOfferCount=23
+avg24hPrice=30582
+low24hPrice=21420
+lastOfferCount=28
 Sell_Prapor=14300
 Sell_Fence=11440
 Sell_Skier=14014
 Sell_Peacekeeper=108
 Sell_Mechanic=16016
-Sell_Flea Market=28000
+Sell_Flea Market=28900
 weight=0.255000
-fleaMarketFee=1695
+fleaMarketFee=1723
 propertiestype=ItemPropertiesWeaponMod

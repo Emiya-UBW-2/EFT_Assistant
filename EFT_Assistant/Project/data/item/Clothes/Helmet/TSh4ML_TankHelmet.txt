@@ -3,26 +3,26 @@ Name=TSh-4M-L soft tank crew helmet
 ShortName=Tank helmet
 Itemtype=Headwear
 Conflict=[
-	Fake white beard,
-	Jason mask,
-	Misha Mayorov mask,
-	Neoprene mask,
-	Shattered lightweight armored mask,
-	Shemagh (Tan),
+	Fake white beard/|
+	Jason mask/|
+	Misha Mayorov mask/|
+	Neoprene mask/|
+	Shattered lightweight armored mask/|
+	Shemagh (Tan)/|
 	Shemagh (Green)
 ]
 Information_Eng=The TSh-4M-L(Z)-01 soft tank crew helmet with headset is designed to provide two-way radiotelephone communication in objects with a high level of noise, to protect it from climatic factors and from impacts on structural elements of objects.
 basePrice=8700
 width=2
 height=2
-avg24hPrice=13004
-low24hPrice=5500
-lastOfferCount=7
+avg24hPrice=11150
+low24hPrice=8000
+lastOfferCount=5
 Sell_Fence=3480
 Sell_Skier=4263
 Sell_Peacekeeper=33
 Sell_Ragman=5394
-Sell_Flea Market=9990
+Sell_Flea Market=13500
 weight=0.900000
-fleaMarketFee=560
+fleaMarketFee=711
 propertiestype=ItemPropertiesHelmet

@@ -24,9 +24,9 @@ Task_Kill=[
 
 Reward_Rep=Jaeger+0.020000
 Reward_Item=[
-	Roublesx115000,
-	Trijicon REAP-IR thermal scopex1,
-	12/70 AP-20 armor-piercing slugx100,
+	Roublesx115000/|
+	Trijicon REAP-IR thermal scopex1/|
+	12/70 AP-20 armor-piercing slugx100/|
 	Surv12 field surgical kitx2
 ]
 

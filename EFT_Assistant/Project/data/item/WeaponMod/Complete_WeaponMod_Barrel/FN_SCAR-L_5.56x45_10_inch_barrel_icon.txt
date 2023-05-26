@@ -3,44 +3,44 @@ Name=FN SCAR-L 5.56x45 10 inch barrel
 ShortName=Mk16 10"
 Itemtype=Barrel
 ChildParts=[
-	Yankee Hill Annihilator multi-caliber flash hider,
-	AR-15 AAC Blackout 51T 5.56x45 flash hider,
-	AR-15 ADAR 2-15 5.56x45 flash hider,
-	AR-15 AWC PSR 5.56x45 muzzle brake,
-	AR-15 Bulletec ST-6012 5.56x45 muzzle brake,
-	AR-15 Colt USGI A2 5.56x45 flash hider,
-	AR-15 Daniel Defense WAVE 5.56x45 muzzle brake,
-	Desert Tech 5.56x45 flash hider,
-	AR-15 Ferfrans CQB 5.56x45 muzzle brake,
-	FN SCAR-L 5.56x45 flash hider,
-	AR-15 HK BLITZ 5.56x45 flash hider,
-	AR-15 KAC QDC 5.56x45 Flash Suppressor Kit,
-	AR-15 Nordic Components Corvette 5.56x45 compensator,
-	AR-15 Noveske KX3 5.56x45 flash hider,
-	AR-15 PWS CQB 5.56x45 muzzle brake,
-	AR-15 SilencerCo ASR 5.56x45 flash hider,
-	AR-15 SureFire SF3P 5.56x45 Flash hider,
-	AR-15 SureFire SF4P FH556RC 5.56x45 flash hider,
-	AR-15 SureFire WarComp 5.56x45 flash hider,
-	AR-15 TAA ZK-23 5.56x45 muzzle brake,
-	AR-15 Thunder Beast Arms 223CB 5.56x45 muzzle brake,
-	AR-15 TROY Claymore 5.56x45 muzzle brake,
-	AR-15 Vendetta Precision VP-09 Interceptor 5.56x45 muzzle brake,
-	Gemtech ONE Direct Thread Mount adapter,
-	SilencerCo Hybrid 46 Direct Thread Mount adapter,
-	Rotor 43 5.56x45 muzzle brake-compensator,
-	KAC QDC 5.56x45 3-Prong Flash Eliminator,
-	AR-15 SureFire Warden 5.56x45 blast regulator,
-	AR-15 Yankee Hill Phantom 5.56x45 flash hider,
-	AR-15 Griffin Armament Gate-LOK Hammer 5.56x45 flash hider,
+	Yankee Hill Annihilator multi-caliber flash hider/|
+	AR-15 AAC Blackout 51T 5.56x45 flash hider/|
+	AR-15 ADAR 2-15 5.56x45 flash hider/|
+	AR-15 AWC PSR 5.56x45 muzzle brake/|
+	AR-15 Bulletec ST-6012 5.56x45 muzzle brake/|
+	AR-15 Colt USGI A2 5.56x45 flash hider/|
+	AR-15 Daniel Defense WAVE 5.56x45 muzzle brake/|
+	Desert Tech 5.56x45 flash hider/|
+	AR-15 Ferfrans CQB 5.56x45 muzzle brake/|
+	FN SCAR-L 5.56x45 flash hider/|
+	AR-15 HK BLITZ 5.56x45 flash hider/|
+	AR-15 KAC QDC 5.56x45 Flash Suppressor Kit/|
+	AR-15 Nordic Components Corvette 5.56x45 compensator/|
+	AR-15 Noveske KX3 5.56x45 flash hider/|
+	AR-15 PWS CQB 5.56x45 muzzle brake/|
+	AR-15 SilencerCo ASR 5.56x45 flash hider/|
+	AR-15 SureFire SF3P 5.56x45 Flash hider/|
+	AR-15 SureFire SF4P FH556RC 5.56x45 flash hider/|
+	AR-15 SureFire WarComp 5.56x45 flash hider/|
+	AR-15 TAA ZK-23 5.56x45 muzzle brake/|
+	AR-15 Thunder Beast Arms 223CB 5.56x45 muzzle brake/|
+	AR-15 TROY Claymore 5.56x45 muzzle brake/|
+	AR-15 Vendetta Precision VP-09 Interceptor 5.56x45 muzzle brake/|
+	Gemtech ONE Direct Thread Mount adapter/|
+	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
+	Rotor 43 5.56x45 muzzle brake-compensator/|
+	KAC QDC 5.56x45 3-Prong Flash Eliminator/|
+	AR-15 SureFire Warden 5.56x45 blast regulator/|
+	AR-15 Yankee Hill Phantom 5.56x45 flash hider/|
+	AR-15 Griffin Armament Gate-LOK Hammer 5.56x45 flash hider/|
 	AR-15 AlienTech 5.56x45 muzzle brake
 ]
 ChildParts=[
 	FN SCAR flip-up front sight
 ]
 Conflict=[
-	FN SCAR Kinetic MREX 6.5 M-LOK rail,
-	FN SCAR PWS SRX rail extension,
+	FN SCAR Kinetic MREX 6.5 M-LOK rail/|
+	FN SCAR PWS SRX rail extension/|
 ]
 Recoil=-2.000000
 Ergonomics=-5.000000
@@ -48,8 +48,8 @@ Information_Eng=A 10 inches long (254mm) CQB barrel for the SCAR-series weapons 
 basePrice=30500
 width=2
 height=1
-avg24hPrice=0
-low24hPrice=0
+avg24hPrice=70370
+low24hPrice=39999
 lastOfferCount=1
 Sell_Prapor=15250
 Sell_Fence=12200
@@ -57,7 +57,7 @@ Sell_Skier=14945
 Sell_Peacekeeper=115
 Sell_Mechanic=17080
 Sell_Jaeger=18300
-Sell_Flea Market=38666
+Sell_Flea Market=55555
 weight=0.900000
-fleaMarketFee=2100
+fleaMarketFee=2943
 propertiestype=ItemPropertiesBarrel

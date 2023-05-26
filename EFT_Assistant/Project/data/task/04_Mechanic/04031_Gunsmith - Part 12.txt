@@ -32,10 +32,10 @@ Task_Else=width >= 0
 
 Reward_Rep=Mechanic+0.020000
 Reward_Item=[
-	Dollarsx500,
-	AR-15 Vendetta Precision VP-09 Interceptor 5.56x45 muzzle brakex1,
-	FN P90 Attenuator 5.7x28 sound suppressorx1,
-	5.56x45 SureFire MAG5-100 STANAG 100-round magazinex1,
+	Dollarsx500/|
+	AR-15 Vendetta Precision VP-09 Interceptor 5.56x45 muzzle brakex1/|
+	FN P90 Attenuator 5.7x28 sound suppressorx1/|
+	5.56x45 SureFire MAG5-100 STANAG 100-round magazinex1/|
 	AR-15 Vendetta Precision VP-09 Interceptor 5.56x45 muzzle brakex1
 ]
 

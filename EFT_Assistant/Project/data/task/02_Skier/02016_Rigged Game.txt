@@ -45,9 +45,9 @@ Reward_Item=[
 ]
 Reward_Rep=Skier+0.050000
 Reward_Item=[
-	Roublesx150000,
-	HK MP5 9x19 submachine gun (Navy 3 Round Burst) SDx1,
-	HK MP5 9x19 30-round magazinex3,
+	Roublesx150000/|
+	HK MP5 9x19 submachine gun (Navy 3 Round Burst) SDx1/|
+	HK MP5 9x19 30-round magazinex3/|
 	9x19mm Luger CCIx120
 ]
 

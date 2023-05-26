@@ -4,7 +4,7 @@ Trader=Peacekeeper
 
 NeedTask=Spa Tour - Part 7
 NeedLevel=12
-NeedItem=[Health Resort east wing room 306 keyx1,Health Resort east wing room 308 keyx1]
+NeedItem=[Health Resort east wing room 306 keyx1/|Health Resort east wing room 308 keyx1]
 
 CanRestart=false
 NeedKappa=true
@@ -26,9 +26,9 @@ Task_Else=èEÇ¡Çƒî[ïi:Shoreline-Toughbook reinforced laptopx1
 
 Reward_Rep=Peacekeeper+0.030000
 Reward_Item=[
-	Dollarsx700,
-	Colt M45A1 .45 ACP pistol Mew-mewx2,
-	M1911A1 .45 ACP Wilson Combat 7-round magazinex6,
+	Dollarsx700/|
+	Colt M45A1 .45 ACP pistol Mew-mewx2/|
+	M1911A1 .45 ACP Wilson Combat 7-round magazinex6/|
 	Pistol casex1
 ]
 

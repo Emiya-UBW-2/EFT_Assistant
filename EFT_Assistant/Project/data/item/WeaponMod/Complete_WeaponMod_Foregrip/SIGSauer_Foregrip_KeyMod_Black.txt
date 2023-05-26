@@ -3,7 +3,7 @@ Name=SIG Sauer Vertical Foregrip KeyMod (Black)
 ShortName=SSVFK
 Itemtype=Foregrip
 Conflict=[
-	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher/|
 ]
 Recoil=-2.000000
 Ergonomics=5.000000
@@ -11,15 +11,15 @@ Information_Eng=The SIG Sauer "Vertical Foregrip" tactical grip for the KeyMod i
 basePrice=5400
 width=1
 height=1
-avg24hPrice=23255
+avg24hPrice=24830
 low24hPrice=10000
-lastOfferCount=8
+lastOfferCount=7
 Sell_Prapor=2700
 Sell_Fence=2160
 Sell_Skier=2646
 Sell_Peacekeeper=20
 Sell_Mechanic=3024
-Sell_Flea Market=20000
+Sell_Flea Market=12345
 weight=0.055000
-fleaMarketFee=1348
+fleaMarketFee=684
 propertiestype=ItemPropertiesWeaponMod

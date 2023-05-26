@@ -4,25 +4,25 @@ ShortName=Mosin RS
 Itemtype=Ironsight
 SightRange=600
 Conflict=[
-	ELCAN SpecterDR 1x/4x scope,
-	ELCAN SpecterDR 1x/4x scope (FDE),
-	Leupold Mark 4 HAMR 4x24 DeltaPoint hybrid assault scope,
-	SIG Sauer BRAVO4 4x30 scope,
-	Axion Kobra EKP-8-18 reflex sight,
-	OKP-7 reflex sight,
-	EOTech 553 holographic sight,
-	EOTech EXPS3 holographic sight (Tan),
-	EOTech XPS3-0 holographic sight,
-	EOTech XPS3-2 holographic sight,
-	VOMZ Pilad P1x42 Weaver reflex sight,
-	Vortex Razor AMG UH-1 holographic sight,
-	Walther MRS reflex sight,
-	Hensoldt FF 4-16x56 34mm riflescope,
-	Nightforce ATACR 7-35x56 34mm riflescope,
-	JP Enterprises Flat-Top 30mm ring scope mount,
-	Lobaev Arms 30mm scope mount,
-	Nightforce Magmount 34mm ring scope mount,
-	Trijicon TA51 sight mount,
+	ELCAN SpecterDR 1x/4x scope/|
+	ELCAN SpecterDR 1x/4x scope (FDE)/|
+	Leupold Mark 4 HAMR 4x24 DeltaPoint hybrid assault scope/|
+	SIG Sauer BRAVO4 4x30 scope/|
+	Axion Kobra EKP-8-18 reflex sight/|
+	OKP-7 reflex sight/|
+	EOTech 553 holographic sight/|
+	EOTech EXPS3 holographic sight (Tan)/|
+	EOTech XPS3-0 holographic sight/|
+	EOTech XPS3-2 holographic sight/|
+	VOMZ Pilad P1x42 Weaver reflex sight/|
+	Vortex Razor AMG UH-1 holographic sight/|
+	Walther MRS reflex sight/|
+	Hensoldt FF 4-16x56 34mm riflescope/|
+	Nightforce ATACR 7-35x56 34mm riflescope/|
+	JP Enterprises Flat-Top 30mm ring scope mount/|
+	Lobaev Arms 30mm scope mount/|
+	Nightforce Magmount 34mm ring scope mount/|
+	Trijicon TA51 sight mount/|
 	UNV DLOC-IRD sight mount
 ]
 Recoil=0.000000

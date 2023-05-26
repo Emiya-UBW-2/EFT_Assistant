@@ -36,8 +36,8 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 
 Reward_Rep=Prapor+0.030000
 Reward_Item=[
-	Roublesx200000,
-	6B2 body armor (Flora)x1,
+	Roublesx200000/|
+	6B2 body armor (Flora)x1/|
 	Ammunition casex2
 ]
 
@@ -59,5 +59,5 @@ Task_Else=該当タスク状態:complete
 
 Reward_Rep=Prapor-0.250000
 Reward_EXP=8100
-Task_PinPoint=[-0.313965,-0.116211,0.000000]
-Task_PinMap=[Customs,1]
+Task_PinPoint=[-0.313965/|-0.116211/|0.000000]
+Task_PinMap=[Customs/|1]

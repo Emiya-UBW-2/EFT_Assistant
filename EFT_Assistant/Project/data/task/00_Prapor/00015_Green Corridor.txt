@@ -35,9 +35,9 @@ Task_Else=脱出ステータス:[Survived]
 
 Reward_Rep=Prapor+0.020000
 Reward_Item=[
-	Roublesx62000,
-	SR-2M "Veresk" 9x21 submachine gun Defaultx1,
-	SR-2M 9x21 20-round magazinex3,
+	Roublesx62000/|
+	SR-2M "Veresk" 9x21 submachine gun Defaultx1/|
+	SR-2M 9x21 20-round magazinex3/|
 	9x21mm P gzhx80
 ]
 

@@ -26,11 +26,11 @@ Task_Else=èEÇ¡Çƒî[ïi:Factory-Syringe with a chemicalx1
 Reward_Rep=Skier+0.040000
 Reward_Rep=Jaeger-0.010000
 Reward_Item=[
-	Roublesx22000,
-	BelOMO PSO-1M2-1 4x24 scopex1,
+	Roublesx22000/|
+	BelOMO PSO-1M2-1 4x24 scopex1/|
 	"Zarya" stun grenadex4
 ]
 
 Reward_EXP=5400
-Task_PinPoint=[-0.395508,-0.050223,0.000000]
-Task_PinMap=[Factory,1]
+Task_PinPoint=[-0.395508/|-0.050223/|0.000000]
+Task_PinMap=[Factory/|1]

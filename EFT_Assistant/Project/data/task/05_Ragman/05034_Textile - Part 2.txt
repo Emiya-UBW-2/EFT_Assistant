@@ -51,7 +51,7 @@ DogTagLv=0
 ]
 
 Reward_Item=[
-	Roublesx100000,
+	Roublesx100000/|
 	Mystery Ranch Blackjack 50 backpack (Multicam)x1
 ]
 

@@ -3,7 +3,7 @@ Name=BCM GUNFIGHTER MOD 3 vertical foregrip
 ShortName=GF MOD3
 Itemtype=Foregrip
 Conflict=[
-	GP-25 "Kostyor" 40mm underbarrel grenade launcher,
+	GP-25 "Kostyor" 40mm underbarrel grenade launcher/|
 ]
 Recoil=-1.000000
 Ergonomics=6.000000
@@ -11,15 +11,15 @@ Information_Eng=A lightweight polymer tactical grip manufactured by BCM.
 basePrice=4900
 width=1
 height=1
-avg24hPrice=18025
-low24hPrice=9750
-lastOfferCount=9
+avg24hPrice=15220
+low24hPrice=10000
+lastOfferCount=6
 Sell_Prapor=2450
 Sell_Fence=1960
 Sell_Skier=2401
 Sell_Peacekeeper=19
 Sell_Mechanic=2744
-Sell_Flea Market=13000
+Sell_Flea Market=10000
 weight=0.053000
-fleaMarketFee=757
+fleaMarketFee=539
 propertiestype=ItemPropertiesWeaponMod

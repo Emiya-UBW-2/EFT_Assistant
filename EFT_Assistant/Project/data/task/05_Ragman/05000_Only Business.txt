@@ -18,7 +18,7 @@ Task_Else=traderLL:RagmanLL2
 
 Reward_Rep=Ragman+0.020000
 Reward_Item=[
-	Roublesx10000,
+	Roublesx10000/|
 	BlackHawk! Commando chest harness (Desert Tan)x1
 ]
 

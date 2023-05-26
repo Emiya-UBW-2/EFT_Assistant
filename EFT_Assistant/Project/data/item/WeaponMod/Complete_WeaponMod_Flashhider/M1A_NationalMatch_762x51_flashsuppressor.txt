@@ -3,7 +3,7 @@ Name=M1A National Match 7.62x51 flash suppressor
 ShortName=M1A NM
 Itemtype=Flashhider
 ChildParts=[
-	M1A SA National Match .062 Blade front sight,
+	M1A SA National Match .062 Blade front sight/|
 	M1A SA XS Post .125 Blade front sight
 ]
 Recoil=-7.000000
@@ -12,15 +12,15 @@ Information_Eng=A muzzle brake-compensator for M1A rifles, manufactured by Sprin
 basePrice=4759
 width=1
 height=1
-avg24hPrice=8134
-low24hPrice=4899
-lastOfferCount=10
+avg24hPrice=8327
+low24hPrice=4222
+lastOfferCount=5
 Sell_Prapor=2379
 Sell_Fence=1903
 Sell_Skier=2331
 Sell_Peacekeeper=18
 Sell_Mechanic=2665
-Sell_Flea Market=7777
+Sell_Flea Market=4222
 weight=0.140000
-fleaMarketFee=409
+fleaMarketFee=269
 propertiestype=ItemPropertiesWeaponMod

@@ -49,7 +49,7 @@ Task_Else=traderLL:TherapistLL4
 
 Reward_Rep=Prapor+0.020000
 Reward_Item=[
-	Roublesx55000,
+	Roublesx55000/|
 	T H I C C Weapon casex1
 ]
 

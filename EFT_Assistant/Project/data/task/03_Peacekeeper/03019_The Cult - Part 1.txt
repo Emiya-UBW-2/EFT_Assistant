@@ -29,7 +29,7 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 
 Reward_Rep=Peacekeeper+0.020000
 Reward_Item=[
-	Dollarsx700,
+	Dollarsx700/|
 	Golden neck chainx3
 ]
 

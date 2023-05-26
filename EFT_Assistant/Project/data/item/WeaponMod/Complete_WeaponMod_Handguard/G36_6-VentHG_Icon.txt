@@ -6,7 +6,7 @@ ChildParts=[
 	HK G36 bipod
 ]
 Conflict=[
-	HK G36 5.56x45 228mm barrel,
+	HK G36 5.56x45 228mm barrel/|
 	HK G36 5.56x45 318mm barrel
 ]
 Recoil=-2.000000

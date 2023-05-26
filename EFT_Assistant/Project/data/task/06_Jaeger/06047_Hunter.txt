@@ -25,8 +25,8 @@ Task_Kill=[
 ]
 
 Reward_Item=[
-	Roublesx100000,
-	Chain with Prokill medallionx1,
+	Roublesx100000/|
+	Chain with Prokill medallionx1/|
 	Weapon casex1
 ]
 

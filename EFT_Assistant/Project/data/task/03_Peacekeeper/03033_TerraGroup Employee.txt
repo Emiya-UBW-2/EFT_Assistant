@@ -34,9 +34,9 @@ Task_Else=èEÇ¡Çƒî[ïi:The Lab-Flash drive marked with blue tapex1
 
 Reward_Rep=Peacekeeper+0.040000
 Reward_Item=[
-	Dollarsx5000,
-	Desert Tech MDR 7.62x51 assault rifle Defaultx4,
-	AR-10 7.62x51 Magpul PMAG 20 SR-LR GEN M3 20-round magazinex3,
+	Dollarsx5000/|
+	Desert Tech MDR 7.62x51 assault rifle Defaultx4/|
+	AR-10 7.62x51 Magpul PMAG 20 SR-LR GEN M3 20-round magazinex3/|
 	7.62x51mm M80x80
 ]
 

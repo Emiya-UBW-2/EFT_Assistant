@@ -3,24 +3,24 @@ Name=P226 Bridge sight mount
 ShortName=P226 Bridge
 Itemtype=Mount
 ChildParts=[
-	BelOMO PK-06 reflex sight,
-	Aimpoint Micro Standard Mount,
-	Aimpoint Micro H-2 Standard Mount,
-	Burris FastFire Weaver Base,
-	DeltaPoint Cross Slot Mount base,
+	BelOMO PK-06 reflex sight/|
+	Aimpoint Micro Standard Mount/|
+	Aimpoint Micro H-2 Standard Mount/|
+	Burris FastFire Weaver Base/|
+	DeltaPoint Cross Slot Mount base/|
 	Trijicon RMR low profile mount
 ]
 ChildParts=[
-	Glock GTL 21 tactical flashlight with laser,
-	NcSTAR Tactical blue laser LAM-module,
-	Steiner DBAL-PL tactical device,
-	Steiner LAS/TAC 2 tactical flashlight,
-	SureFire X400 Ultra tactical flashlight with laser,
-	SureFire XC1 tactical flashlight,
-	Zenit Klesch-2IKS IR illuminator with laser,
-	Zenit Klesch-2P flashlight with laser,
-	Olight Baldr Pro tactical flashlight with laser,
-	Olight Baldr Pro tactical flashlight with laser (Tan),
+	Glock GTL 21 tactical flashlight with laser/|
+	NcSTAR Tactical blue laser LAM-module/|
+	Steiner DBAL-PL tactical device/|
+	Steiner LAS/TAC 2 tactical flashlight/|
+	SureFire X400 Ultra tactical flashlight with laser/|
+	SureFire XC1 tactical flashlight/|
+	Zenit Klesch-2IKS IR illuminator with laser/|
+	Zenit Klesch-2P flashlight with laser/|
+	Olight Baldr Pro tactical flashlight with laser/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight
 ]
 Recoil=0.000000
@@ -29,16 +29,16 @@ Information_Eng=The SIG Sauer Bridge sight mount for pistols. Allows mounting of
 basePrice=3811
 width=1
 height=1
-avg24hPrice=11843
-low24hPrice=4268
-lastOfferCount=6
+avg24hPrice=9079
+low24hPrice=4444
+lastOfferCount=2
 Sell_Prapor=1905
 Sell_Fence=1524
 Sell_Skier=1867
 Sell_Peacekeeper=14
 Sell_Mechanic=2134
 Sell_Jaeger=2286
-Sell_Flea Market=10400
+Sell_Flea Market=4444
 weight=0.120000
-fleaMarketFee=612
+fleaMarketFee=248
 propertiestype=ItemPropertiesWeaponMod

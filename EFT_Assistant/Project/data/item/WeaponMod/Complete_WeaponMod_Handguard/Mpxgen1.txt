@@ -3,13 +3,13 @@ Name=MPX GEN1 handguard
 ShortName=MPX GEN1
 Itemtype=Handguard
 ChildParts=[
-	HK MP7 flip-up front sight,
-	KAC Folding Micro front sight,
-	KAC Folding front sight,
-	KRISS Defiance low profile flip-up front sight,
-	Magpul MBUS Gen2 flip-up front sight,
-	Magpul MBUS Gen2 flip-up front sight (FDE),
-	MCX flip-up front sight,
+	HK MP7 flip-up front sight/|
+	KAC Folding Micro front sight/|
+	KAC Folding front sight/|
+	KRISS Defiance low profile flip-up front sight/|
+	Magpul MBUS Gen2 flip-up front sight/|
+	Magpul MBUS Gen2 flip-up front sight (FDE)/|
+	MCX flip-up front sight/|
 	MPX flip-up front sight
 ]
 ChildParts=[
@@ -22,7 +22,7 @@ ChildParts=[
 	MPX GEN1 handguard 2 inch rail
 ]
 Conflict=[
-	MPX 9x19 4.5 inch barrel,
+	MPX 9x19 4.5 inch barrel/|
 ]
 Recoil=0.000000
 Ergonomics=7.000000
@@ -30,8 +30,8 @@ Information_Eng=A 1st generation handguard for the SIG MPX submachine gun. Manuf
 basePrice=4311
 width=2
 height=1
-avg24hPrice=25210
-low24hPrice=17777
+avg24hPrice=0
+low24hPrice=0
 lastOfferCount=1
 Sell_Prapor=2155
 Sell_Fence=1724

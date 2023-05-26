@@ -60,7 +60,7 @@ namespace FPS_n2 {
 						}
 						if (!IsChecktask) { continue; }
 						for (const auto& w : tasks.GetTaskWorkData().GetFiR_Item()) {
-							auto ID = ItemData::Instance()->FindID(w.GetName());
+							auto ID = w.GetID();
 							auto* ptr = ItemData::Instance()->FindPtr(ID);
 							if (ptr) {
 								auto& Types = Counter.at(ptr->GetTypeID());
@@ -79,7 +79,7 @@ namespace FPS_n2 {
 							}
 						}
 						for (const auto& w : tasks.GetTaskWorkData().GetNotFiR_Item()) {
-							auto ID = ItemData::Instance()->FindID(w.GetName());
+							auto ID = w.GetID();
 							auto* ptr = ItemData::Instance()->FindPtr(ID);
 							if (ptr) {
 								auto& Types = Counter.at(ptr->GetTypeID());
@@ -99,7 +99,7 @@ namespace FPS_n2 {
 						}
 						if (m_IsNeedItem) {
 							for (const auto& w : tasks.GetTaskNeedData().GetItem()) {
-								auto ID = ItemData::Instance()->FindID(w.GetName());
+								auto ID = w.GetID();
 								auto* ptr = ItemData::Instance()->FindPtr(ID);
 								if (ptr) {
 									auto& Types = Counter.at(ptr->GetTypeID());
@@ -133,7 +133,7 @@ namespace FPS_n2 {
 							}
 							if (!IsChecktask) { continue; }
 							for (const auto& w : Ld.m_ItemReq) {
-								auto ID = ItemData::Instance()->FindID(w.GetName());
+								auto ID = w.GetID();
 								auto* ptr = ItemData::Instance()->FindPtr(ID);
 								if (ptr) {
 									auto& Types = Counter.at(ptr->GetTypeID());
@@ -196,7 +196,7 @@ namespace FPS_n2 {
 															//*/
 															for (const auto& C : Ld.m_ItemCraft) {
 																for (const auto& R : C.m_ItemReward) {
-																	auto RID = ItemData::Instance()->FindID(R.GetName());
+																	auto RID = R.GetID();
 																	int craftcount = std::max(1, c.count / R.GetValue());
 
 																	if (RID == c.m_ID) {
@@ -207,7 +207,7 @@ namespace FPS_n2 {
 																		WindowSystem::SetMsg(xp2, yp2, xp2, yp2 + ysize2, ysize2, STRX_LEFT, White, Black, NameTmp);
 																		yp2 += ysize2 + y_r(5);
 																		for (const auto& w : C.m_ItemReq) {
-																			auto ID = ItemData::Instance()->FindID(w.GetName());
+																			auto ID = w.GetID();
 																			auto* ptr2 = ItemData::Instance()->FindPtr(ID);
 																			if (ptr2) {
 																				int count = w.GetValue()*craftcount;

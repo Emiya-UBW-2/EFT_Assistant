@@ -47,16 +47,16 @@ Task_Else=èEÇ¡Çƒî[ïi:Reserve-Military documents #3x1
 
 Reward_Rep=Prapor+0.040000
 Reward_Item=[
-	Roublesx45000,
-	NSPU-M night vision scopex1,
-	Zenit Klesch-2P flashlight with laserx1,
+	Roublesx45000/|
+	NSPU-M night vision scopex1/|
+	Zenit Klesch-2P flashlight with laserx1/|
 	AKM PBS-1 7.62x39 sound suppressorx1
 ]
 
 Reward_EXP=7800
-Task_PinPoint=[0.281738,-0.297363,0.000000]
-Task_PinMap=[Reserve,1]
-Task_PinPoint=[0.276611,-0.291992,0.000000]
-Task_PinMap=[Reserve,1]
-Task_PinPoint=[0.270264,-0.311523,0.000000]
-Task_PinMap=[Reserve,1]
+Task_PinPoint=[0.281738/|-0.297363/|0.000000]
+Task_PinMap=[Reserve/|1]
+Task_PinPoint=[0.276611/|-0.291992/|0.000000]
+Task_PinMap=[Reserve/|1]
+Task_PinPoint=[0.270264/|-0.311523/|0.000000]
+Task_PinMap=[Reserve/|1]

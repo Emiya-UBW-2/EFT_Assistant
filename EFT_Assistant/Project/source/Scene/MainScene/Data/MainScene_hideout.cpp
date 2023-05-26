@@ -16,7 +16,7 @@ namespace FPS_n2 {
 				if (!Ld["itemRequirements"].is_null()) {
 					for (const auto&m : Ld["itemRequirements"]) {
 						ItemGetData buf;
-						buf.Set(m["item"]["name"], m["count"]);
+						buf.Set(ItemData::Instance()->FindID((std::string)(m["item"]["name"])), m["count"]);
 						L.m_ItemReq.emplace_back(buf);
 					}
 				}
@@ -26,7 +26,7 @@ namespace FPS_n2 {
 				if (!Ld["stationLevelRequirements"].is_null()) {
 					for (const auto&m : Ld["stationLevelRequirements"]) {
 						HideoutGetData buf;
-						buf.Set(m["station"]["name"], m["level"]);
+						buf.Set(HideoutData::Instance()->FindID((std::string)(m["station"]["name"])), m["level"]);
 						L.m_Parent.emplace_back(buf);
 					}
 				}
@@ -36,7 +36,7 @@ namespace FPS_n2 {
 				if (!Ld["traderRequirements"].is_null()) {
 					for (const auto&m : Ld["traderRequirements"]) {
 						TraderGetData buf;
-						buf.Set(m["trader"]["name"], m["level"]);//todo:levelÇ™îpé~ó\íË
+						buf.Set(TraderData::Instance()->FindID((std::string)(m["trader"]["name"])), m["level"]);//todo:levelÇ™îpé~ó\íË
 						L.m_TraderReq.emplace_back(buf);
 					}
 				}
@@ -53,7 +53,7 @@ namespace FPS_n2 {
 					if (!Cd["requiredItems"].is_null()) {
 						for (const auto&m : Cd["requiredItems"]) {
 							ItemGetData buf;
-							buf.Set(m["item"]["name"], m["count"]);
+							buf.Set(ItemData::Instance()->FindID((std::string)(m["item"]["name"])), m["count"]);
 							L.m_ItemCraft.back().m_ItemReq.emplace_back(buf);
 						}
 					}
@@ -64,7 +64,7 @@ namespace FPS_n2 {
 					if (!Cd["rewardItems"].is_null()) {
 						for (const auto&m : Cd["rewardItems"]) {
 							ItemGetData buf;
-							buf.Set(m["item"]["name"], m["count"]);
+							buf.Set(ItemData::Instance()->FindID((std::string)(m["item"]["name"])), m["count"]);
 							L.m_ItemCraft.back().m_ItemReward.emplace_back(buf);
 						}
 					}
@@ -74,7 +74,7 @@ namespace FPS_n2 {
 		}
 	}
 
-	void			HideoutList::Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept {
+	void			HideoutList::SetSub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept {
 		std::string LEFTBuf = LEFT.substr(3);
 		std::string NumBuf2 = LEFT.substr(2, 1);
 		int ID = 0;
@@ -87,46 +87,31 @@ namespace FPS_n2 {
 			if (LEFTBuf == "itemReq") {
 				if (Args.size() > 0) {
 					for (auto&a : Args) {
-						if (a == "or") {
-
-						}
-						else {
-							SetGetData<ItemGetData, ItemData>(&m_LvData.at(ID).m_ItemReq, a);
-						}
+						m_LvData.at(ID).m_ItemReqArgs.emplace_back(a);
 					}
 				}
 				else {
-					SetGetData<ItemGetData, ItemData>(&m_LvData.at(ID).m_ItemReq, RIGHT);
+					m_LvData.at(ID).m_ItemReqArgs.emplace_back(RIGHT);
 				}
 			}
 			if (LEFTBuf == "stationLevelReq") {
 				if (Args.size() > 0) {
 					for (auto&a : Args) {
-						if (a == "or") {
-
-						}
-						else {
-							SetGetData<HideoutGetData, HideoutData>(&m_LvData.at(ID).m_Parent, a);
-						}
+						m_LvData.at(ID).m_ParentArgs.emplace_back(a);
 					}
 				}
 				else {
-					SetGetData<HideoutGetData, HideoutData>(&m_LvData.at(ID).m_Parent, RIGHT);
+					m_LvData.at(ID).m_ParentArgs.emplace_back(RIGHT);
 				}
 			}
 			if (LEFTBuf == "traderRequirements") {
 				if (Args.size() > 0) {
 					for (auto&a : Args) {
-						if (a == "or") {
-
-						}
-						else {
-							SetGetData<TraderGetData, TraderData>(&m_LvData.at(ID).m_TraderReq, a);
-						}
+						m_LvData.at(ID).m_TraderReqArgs.emplace_back(a);
 					}
 				}
 				else {
-					SetGetData<TraderGetData, TraderData>(&m_LvData.at(ID).m_TraderReq, RIGHT);
+					m_LvData.at(ID).m_TraderReqArgs.emplace_back(RIGHT);
 				}
 			}
 			//ÉNÉâÉtÉgÉåÉVÉs
@@ -137,34 +122,45 @@ namespace FPS_n2 {
 			if (LEFTBuf == "craftitemReq") {
 				if (Args.size() > 0) {
 					for (auto&a : Args) {
-						if (a == "or") {
-
-						}
-						else {
-							SetGetData<ItemGetData, ItemData>(&m_LvData.at(ID).m_ItemCraft.back().m_ItemReq, a);
-						}
+						m_LvData.at(ID).m_ItemCraft.back().m_ItemReqArgs.emplace_back(a);
 					}
 				}
 				else {
-					SetGetData<ItemGetData, ItemData>(&m_LvData.at(ID).m_ItemCraft.back().m_ItemReq, RIGHT);
+					m_LvData.at(ID).m_ItemCraft.back().m_ItemReqArgs.emplace_back(RIGHT);
 				}
 			}
 			if (LEFTBuf == "craftitemReward") {
 				if (Args.size() > 0) {
 					for (auto&a : Args) {
-						if (a == "or") {
-
-						}
-						else {
-							SetGetData<ItemGetData, ItemData>(&m_LvData.at(ID).m_ItemCraft.back().m_ItemReward, a);
-						}
+						m_LvData.at(ID).m_ItemCraft.back().m_ItemRewardArgs.emplace_back(a);
 					}
 				}
 				else {
-					SetGetData<ItemGetData, ItemData>(&m_LvData.at(ID).m_ItemCraft.back().m_ItemReward, RIGHT);
+					m_LvData.at(ID).m_ItemCraft.back().m_ItemRewardArgs.emplace_back(RIGHT);
 				}
 			}
-			//
+		}
+	}
+	void			HideoutList::Load_Sub() noexcept {
+		for (auto& L : m_LvData) {
+			for (auto& a : L.m_ItemReqArgs) {
+				SetGetData<ItemGetData, ItemData>(&L.m_ItemReq, a);
+			}
+			for (auto& a : L.m_ParentArgs) {
+				SetGetData<HideoutGetData, HideoutData>(&L.m_Parent, a);
+			}
+			for (auto& a : L.m_TraderReqArgs) {
+				SetGetData<TraderGetData, TraderData>(&L.m_TraderReq, a);
+			}
+
+			for (auto& C : L.m_ItemCraft) {
+				for (auto& a : C.m_ItemReqArgs) {
+					SetGetData<ItemGetData, ItemData>(&C.m_ItemReq, a);
+				}
+				for (auto& a : C.m_ItemRewardArgs) {
+					SetGetData<ItemGetData, ItemData>(&C.m_ItemReward, a);
+				}
+			}
 		}
 	}
 
@@ -306,7 +302,7 @@ namespace FPS_n2 {
 				int yofs_buf = yofs_OLD;
 				{
 					for (const auto& I : m_LvData.at(Lv - 1).m_ItemReq) {
-						auto* ptr = ItemData::Instance()->FindPtr(ItemData::Instance()->FindID(I.GetName()));
+						auto* ptr = ItemData::Instance()->FindPtr(I.GetID());
 						if (ptr) {
 							xofs_buf = xofs + y_r(10);
 							int xstart = xp + xofs_buf;
@@ -327,7 +323,7 @@ namespace FPS_n2 {
 				int yofs_buf = yofs_OLD;
 				{
 					for (const auto& I : m_LvData.at(Lv - 1).m_Parent) {
-						auto* ptr = HideoutData::Instance()->FindPtr(ItemData::Instance()->FindID(I.GetName()));
+						auto* ptr = HideoutData::Instance()->FindPtr(I.GetID());
 						if (ptr) {
 							xofs_buf = xofs + y_r(10);
 							int xstart = xp + xofs_buf;
@@ -348,7 +344,7 @@ namespace FPS_n2 {
 				int yofs_buf = yofs_OLD;
 				{
 					for (const auto& I : m_LvData.at(Lv - 1).m_TraderReq) {
-						auto* ptr = TraderData::Instance()->FindPtr(ItemData::Instance()->FindID(I.GetName()));
+						auto* ptr = TraderData::Instance()->FindPtr(I.GetID());
 						if (ptr) {
 							xofs_buf = xofs + y_r(10);
 							int xstart = xp + xofs_buf;
@@ -418,7 +414,7 @@ namespace FPS_n2 {
 					xofs_buf = y_r(10);
 					{
 						for (const auto& I : cf.m_ItemReq) {
-							auto* ptr = ItemData::Instance()->FindPtr(ItemData::Instance()->FindID(I.GetName()));
+							auto* ptr = ItemData::Instance()->FindPtr(I.GetID());
 							if (ptr) {
 								int xstart = xp + xofs_buf;
 								xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs, y_r(200), ysize, I.GetValue(), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true);
@@ -434,7 +430,7 @@ namespace FPS_n2 {
 					}
 					{
 						for (const auto& I : cf.m_ItemReward) {
-							auto* ptr = ItemData::Instance()->FindPtr(ItemData::Instance()->FindID(I.GetName()));
+							auto* ptr = ItemData::Instance()->FindPtr(I.GetID());
 							if (ptr) {
 								int xstart = xp + xofs_buf;
 								xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs, y_r(200), ysize, I.GetValue(), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true);
@@ -470,11 +466,11 @@ namespace FPS_n2 {
 				for (const auto& C : L.GetLvData()) {
 					int Lv = (int)(&C - &L.GetLvData().front()) + 1;
 					for (const auto& P : C.m_Parent) {
-						auto ID = HideoutData::Instance()->FindID(P.GetName());
+						auto ID = P.GetID();
 						if ((ID == GetID()) && (DLv == P.GetValue())) {
 							//é©ï™Ç™éqÇÃÉpÅ[ÉcÇÃêeÇ≈Ç∑
 							HideoutGetData buf;
-							buf.Set(L.GetName(), Lv);
+							buf.Set(L.GetID(), Lv);
 							D.m_Child.emplace_back(buf);
 						}
 					}

@@ -3,36 +3,36 @@ Name=Remington Model 700 7.62x51 bolt-action sniper rifle
 ShortName=M700
 Itemtype=Sniper rifle
 ChildParts=[
-	M700 7.62x51 AI AICS 10-round magazine,
-	M700 7.62x51 AI AICS 5-round magazine,
-	M700 7.62x51 Magpul PMAG AC 10-round magazine,
-	M700 7.62x51 Magpul PMAG AC 5-round magazine,
-	M700 7.62x51 MDT AICS 12-round magazine,
-	M700 7.62x51 ProMag AA-70 10-round magazine,
-	M700 7.62x51 ProMag AA-70 20-round magazine,
-	M700 7.62x51 Wyatt's Outdoor 10-round magazine,
+	M700 7.62x51 AI AICS 10-round magazine/|
+	M700 7.62x51 AI AICS 5-round magazine/|
+	M700 7.62x51 Magpul PMAG AC 10-round magazine/|
+	M700 7.62x51 Magpul PMAG AC 5-round magazine/|
+	M700 7.62x51 MDT AICS 12-round magazine/|
+	M700 7.62x51 ProMag AA-70 10-round magazine/|
+	M700 7.62x51 ProMag AA-70 20-round magazine/|
+	M700 7.62x51 Wyatt's Outdoor 10-round magazine/|
 	M700 7.62x51 Wyatt's Outdoor 5-round magazine
 ]
 ChildParts=[
-	M700 AB Arms MOD*X GEN 3 chassis,
-	M700 AI AT AICS polymer chassis,
-	M700 Hogue Overmolded Ghillie stock,
-	M700 Magpul Pro 700 chassis,
+	M700 AB Arms MOD*X GEN 3 chassis/|
+	M700 AI AT AICS polymer chassis/|
+	M700 Hogue Overmolded Ghillie stock/|
+	M700 Magpul Pro 700 chassis/|
 	M700 ProMag Archangel chassis
 ]
 ChildParts=[
-	M700 7.62x51 20 inch stainless steel threaded barrel,
-	M700 7.62x51 26 inch barrel,
-	M700 7.62x51 20 inch threaded barrel,
+	M700 7.62x51 20 inch stainless steel threaded barrel/|
+	M700 7.62x51 26 inch barrel/|
+	M700 7.62x51 20 inch threaded barrel/|
 	M700 7.62x51 26 inch stainless steel barrel
 ]
 ChildParts=[
-	M700 AB Arms MOD*X rail mount,
-	M700 30mm integral ring scope mount,
+	M700 AB Arms MOD*X rail mount/|
+	M700 30mm integral ring scope mount/|
 	M700 extended multi-slot Weaver rail base
 ]
 Conflict=[
-	Hera Arms CQR tactical foregrip,
+	Hera Arms CQR tactical foregrip/|
 ]
 Recoil=199.000000
 Ergonomics=33.000000
@@ -40,16 +40,16 @@ Information_Eng=The Remington Model 700 is a series of bolt-action centerfire ri
 basePrice=17500
 width=1
 height=1
-avg24hPrice=42550
-low24hPrice=33000
-lastOfferCount=26
+avg24hPrice=43917
+low24hPrice=35000
+lastOfferCount=27
 Sell_Prapor=8750
 Sell_Fence=7000
 Sell_Skier=8575
 Sell_Peacekeeper=66
 Sell_Mechanic=9800
 Sell_Jaeger=10500
-Sell_Flea Market=40000
+Sell_Flea Market=39999
 weight=0.550000
 fleaMarketFee=2217
 propertiestype=ItemPropertiesWeapon

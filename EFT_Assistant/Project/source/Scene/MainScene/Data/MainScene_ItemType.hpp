@@ -5,13 +5,17 @@ namespace FPS_n2 {
 	class ItemTypeList : public ListParent<ItemTypeID> {
 		ItemCategoryID	m_CategoryID{ InvalidID };
 	private:
+		std::string		m_CategoryBuffer;
+	private:
 		//í«â¡ê›íË
-		void			Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>&) noexcept override {
+		void			SetSub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>&) noexcept override {
 			if (LEFT == "Category") {
-				m_CategoryID = ItemCategoryData::Instance()->FindID(RIGHT.c_str());
+				m_CategoryBuffer = RIGHT;
 			}
 		}
-		void	Load_Sub() noexcept override {}
+		void	Load_Sub() noexcept override {
+			m_CategoryID = ItemCategoryData::Instance()->FindID(m_CategoryBuffer.c_str());
+		}
 		void	WhenAfterLoad_Sub() noexcept override {}
 	public:
 		const auto&	GetCategoryID() const noexcept { return m_CategoryID; }

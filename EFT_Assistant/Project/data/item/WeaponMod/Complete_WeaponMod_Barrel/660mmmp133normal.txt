@@ -3,8 +3,8 @@ Name=MP-133 12ga 660mm barrel
 ShortName=MP133 660mm
 Itemtype=Barrel
 ChildParts=[
-	ME Cylinder 12ga muzzle adapter,
-	Remington Tactical Choke 12ga,
+	ME Cylinder 12ga muzzle adapter/|
+	Remington Tactical Choke 12ga/|
 	SilencerCo Salvo 12 choke adapter
 ]
 Recoil=-6.000000

@@ -39,7 +39,7 @@ DogTagLv=0
 
 Reward_Rep=Ragman+0.030000
 Reward_Item=[
-	Roublesx65000,
+	Roublesx65000/|
 	6B13 assault armor (Digital Flora)x1
 ]
 

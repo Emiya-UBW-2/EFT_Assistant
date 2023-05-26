@@ -11,7 +11,7 @@ namespace FPS_n2 {
 		std::vector<MapGraphParam>		m_MapGraph;
 	private:
 		//í«â¡ê›íË
-		void			Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>&) noexcept override {
+		void			SetSub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>&) noexcept override {
 			if (LEFT == "InGamePath") {
 				m_MapGraph.resize(m_MapGraph.size() + 1);
 				m_MapGraph.back().m_Graph.SetPath(RIGHT.c_str());

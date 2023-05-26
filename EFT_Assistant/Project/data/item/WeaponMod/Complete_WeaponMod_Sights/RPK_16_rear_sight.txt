@@ -4,7 +4,7 @@ ShortName=RPK-16 RS
 Itemtype=Ironsight
 SightRange=600
 Conflict=[
-	AK CNC Guns OV GP handguard,
+	AK CNC Guns OV GP handguard/|
 ]
 Recoil=0.000000
 Ergonomics=0.000000

@@ -12,9 +12,9 @@ ChildParts=[
 	ORSIS T-5000M stock
 ]
 Conflict=[
-	M700 7.62x51 ProMag AA-70 10-round magazine,
-	M700 7.62x51 ProMag AA-70 20-round magazine,
-	M700 7.62x51 Wyatt's Outdoor 10-round magazine,
+	M700 7.62x51 ProMag AA-70 10-round magazine/|
+	M700 7.62x51 ProMag AA-70 20-round magazine/|
+	M700 7.62x51 Wyatt's Outdoor 10-round magazine/|
 	M700 7.62x51 Wyatt's Outdoor 5-round magazine
 ]
 Recoil=-2.000000

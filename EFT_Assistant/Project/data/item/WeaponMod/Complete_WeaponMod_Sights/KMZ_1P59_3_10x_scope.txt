@@ -7,21 +7,21 @@ ChildParts=[
 	KMZ 1P59 scope eyecup
 ]
 Conflict=[
-	Axion Kobra EKP-8-18 reflex sight,
-	OKP-7 reflex sight,
-	EOTech 553 holographic sight,
-	EOTech EXPS3 holographic sight (Tan),
-	EOTech XPS3-0 holographic sight,
-	EOTech XPS3-2 holographic sight,
-	Holosun HS401G5 reflex sight,
-	SIG Sauer ROMEO8T reflex sight,
-	Trijicon SRS-02 reflex sight,
-	Valday PK-120 (1P87) holographic sight,
-	Valday Krechet reflex sight,
-	VOMZ Pilad P1x42 Weaver reflex sight,
-	Vortex Razor AMG UH-1 holographic sight,
-	Walther MRS reflex sight,
-	Aimpoint CompM4 reflex sight,
+	Axion Kobra EKP-8-18 reflex sight/|
+	OKP-7 reflex sight/|
+	EOTech 553 holographic sight/|
+	EOTech EXPS3 holographic sight (Tan)/|
+	EOTech XPS3-0 holographic sight/|
+	EOTech XPS3-2 holographic sight/|
+	Holosun HS401G5 reflex sight/|
+	SIG Sauer ROMEO8T reflex sight/|
+	Trijicon SRS-02 reflex sight/|
+	Valday PK-120 (1P87) holographic sight/|
+	Valday Krechet reflex sight/|
+	VOMZ Pilad P1x42 Weaver reflex sight/|
+	Vortex Razor AMG UH-1 holographic sight/|
+	Walther MRS reflex sight/|
+	Aimpoint CompM4 reflex sight/|
 	Aimpoint LRP mount for CompM4 sights
 ]
 Recoil=0.000000
@@ -30,16 +30,16 @@ Information_Eng=The 1P59 "Giperon" pancratic sight is designed to increase the e
 basePrice=22200
 width=2
 height=1
-avg24hPrice=17523
-low24hPrice=14000
-lastOfferCount=11
+avg24hPrice=17411
+low24hPrice=10000
+lastOfferCount=7
 Sell_Prapor=11100
 Sell_Fence=8880
 Sell_Skier=10878
 Sell_Peacekeeper=84
 Sell_Mechanic=12432
 Sell_Jaeger=13320
-Sell_Flea Market=18888
+Sell_Flea Market=12000
 weight=0.940000
-fleaMarketFee=1235
+fleaMarketFee=1178
 propertiestype=ItemPropertiesScope

@@ -35,9 +35,9 @@ DogTagLv=0
 
 Reward_Rep=Jaeger+0.020000
 Reward_Item=[
-	Roublesx90000,
-	Surv12 field surgical kitx1,
-	Gunpowder "Kite"x4,
+	Roublesx90000/|
+	Surv12 field surgical kitx1/|
+	Gunpowder "Kite"x4/|
 	Piece of plexiglassx5
 ]
 

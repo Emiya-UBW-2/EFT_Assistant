@@ -3,17 +3,17 @@ Name=Glock 9x19 Double Diamond threaded barrel
 ShortName=G DD thr.
 Itemtype=Barrel
 ChildParts=[
-	Glock 9x19 CARVER Custom 4 Port compensator,
-	Glock 9x19 CARVER Custom Decelerator 3 Port compensator,
-	Glock 9x19 Double Diamond flash hider,
-	Glock 9x19 Lone Wolf AlphaWolf Bullnose compensator,
-	Glock 9x19 Lone Wolf LWD-COMP9 compensator,
-	Glock 9x19 Lone Wolf AlphaWolf thread protector,
-	Glock 9x19 Double Diamond thread protector,
-	Glock SAI 9x19 thread protector,
-	AAC Illusion 9 9x19 sound suppressor,
-	Alpha Dog Alpha 9 9x19 sound suppressor,
-	SIG Sauer SRD9 9x19 sound suppressor,
+	Glock 9x19 CARVER Custom 4 Port compensator/|
+	Glock 9x19 CARVER Custom Decelerator 3 Port compensator/|
+	Glock 9x19 Double Diamond flash hider/|
+	Glock 9x19 Lone Wolf AlphaWolf Bullnose compensator/|
+	Glock 9x19 Lone Wolf LWD-COMP9 compensator/|
+	Glock 9x19 Lone Wolf AlphaWolf thread protector/|
+	Glock 9x19 Double Diamond thread protector/|
+	Glock SAI 9x19 thread protector/|
+	AAC Illusion 9 9x19 sound suppressor/|
+	Alpha Dog Alpha 9 9x19 sound suppressor/|
+	SIG Sauer SRD9 9x19 sound suppressor/|
 	SilencerCo Osprey 9 9x19 sound suppressor
 ]
 Recoil=-3.000000
@@ -22,16 +22,16 @@ Information_Eng=A threaded barrel for 9x19 pistols of Glock family. Manufactured
 basePrice=5965
 width=1
 height=1
-avg24hPrice=16390
-low24hPrice=9999
-lastOfferCount=10
+avg24hPrice=21478
+low24hPrice=7888
+lastOfferCount=1
 Sell_Prapor=2982
 Sell_Fence=2386
 Sell_Skier=2922
 Sell_Peacekeeper=23
 Sell_Mechanic=3340
 Sell_Jaeger=3579
-Sell_Flea Market=14000
+Sell_Flea Market=15000
 weight=0.180000
-fleaMarketFee=782
+fleaMarketFee=857
 propertiestype=ItemPropertiesBarrel

@@ -4,18 +4,18 @@ ShortName=SRS-02
 Itemtype=Reflex sight
 SightRange=200
 Conflict=[
-	AR-15 rear sight carry handle,
-	Burris FullField TAC30 1-4x24 30mm riflescope,
-	EOTech Vudu 1-6x24 30mm riflescope,
-	Hensoldt FF 4-16x56 34mm riflescope,
-	KMZ 1P59 3-10x riflescope,
-	KMZ 1P69 3-10x riflescope,
-	Leupold Mark 4 LR 6.5-20x50 30mm riflescope,
-	March Tactical 3-24x42 FFP 30mm riflescope,
-	Nightforce ATACR 7-35x56 34mm riflescope,
-	NSPU-M night vision scope,
-	VOMZ Pilad 4x32 24.5mm riflescope,
-	Vortex Razor HD Gen.2 1-6x24 30mm riflescope,
+	AR-15 rear sight carry handle/|
+	Burris FullField TAC30 1-4x24 30mm riflescope/|
+	EOTech Vudu 1-6x24 30mm riflescope/|
+	Hensoldt FF 4-16x56 34mm riflescope/|
+	KMZ 1P59 3-10x riflescope/|
+	KMZ 1P69 3-10x riflescope/|
+	Leupold Mark 4 LR 6.5-20x50 30mm riflescope/|
+	March Tactical 3-24x42 FFP 30mm riflescope/|
+	Nightforce ATACR 7-35x56 34mm riflescope/|
+	NSPU-M night vision scope/|
+	VOMZ Pilad 4x32 24.5mm riflescope/|
+	Vortex Razor HD Gen.2 1-6x24 30mm riflescope/|
 ]
 Recoil=0.000000
 Ergonomics=-1.000000
@@ -23,15 +23,15 @@ Information_Eng=The Trijicon SRS Sealed Reflex Sight is compact and takes up les
 basePrice=22900
 width=1
 height=1
-avg24hPrice=20848
-low24hPrice=13333
-lastOfferCount=22
+avg24hPrice=21219
+low24hPrice=15000
+lastOfferCount=12
 Sell_Prapor=11450
 Sell_Fence=9160
 Sell_Skier=11221
 Sell_Peacekeeper=87
 Sell_Mechanic=12824
-Sell_Flea Market=16666
+Sell_Flea Market=15000
 weight=0.390000
-fleaMarketFee=1222
+fleaMarketFee=1207
 propertiestype=ItemPropertiesScope

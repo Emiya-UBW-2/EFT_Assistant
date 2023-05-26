@@ -3,12 +3,12 @@ Name=MP-153 12ga 660mm barrel
 ShortName=MP153 660mm
 Itemtype=Barrel
 ChildParts=[
-	ME Cylinder 12ga muzzle adapter,
-	Remington Tactical Choke 12ga,
+	ME Cylinder 12ga muzzle adapter/|
+	Remington Tactical Choke 12ga/|
 	SilencerCo Salvo 12 choke adapter
 ]
 ChildParts=[
-	VOMZ Pilad TargetRing reflex sight,
+	VOMZ Pilad TargetRing reflex sight/|
 	ETMI-019 shotgun rail mount
 ]
 Recoil=-6.000000

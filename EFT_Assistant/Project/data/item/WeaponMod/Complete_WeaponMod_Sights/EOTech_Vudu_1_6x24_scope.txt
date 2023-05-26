@@ -4,20 +4,20 @@ ShortName=Vudu 1-6x24
 Itemtype=Scope
 SightRange=1500
 Conflict=[
-	Axion Kobra EKP-8-18 reflex sight,
-	OKP-7 reflex sight,
-	EOTech 553 holographic sight,
-	EOTech EXPS3 holographic sight (Tan),
-	EOTech XPS3-0 holographic sight,
-	EOTech XPS3-2 holographic sight,
-	Holosun HS401G5 reflex sight,
-	SIG Sauer ROMEO8T reflex sight,
-	Trijicon SRS-02 reflex sight,
-	Valday PK-120 (1P87) holographic sight,
-	Valday Krechet reflex sight,
-	VOMZ Pilad P1x42 Weaver reflex sight,
-	Vortex Razor AMG UH-1 holographic sight,
-	Walther MRS reflex sight,
+	Axion Kobra EKP-8-18 reflex sight/|
+	OKP-7 reflex sight/|
+	EOTech 553 holographic sight/|
+	EOTech EXPS3 holographic sight (Tan)/|
+	EOTech XPS3-0 holographic sight/|
+	EOTech XPS3-2 holographic sight/|
+	Holosun HS401G5 reflex sight/|
+	SIG Sauer ROMEO8T reflex sight/|
+	Trijicon SRS-02 reflex sight/|
+	Valday PK-120 (1P87) holographic sight/|
+	Valday Krechet reflex sight/|
+	VOMZ Pilad P1x42 Weaver reflex sight/|
+	Vortex Razor AMG UH-1 holographic sight/|
+	Walther MRS reflex sight/|
 	Aimpoint LRP mount for CompM4 sights
 ]
 Recoil=0.000000
@@ -26,16 +26,16 @@ Information_Eng=The EOTech Vudu 1-6x24 riflescope, equally effective on AR platf
 basePrice=44344
 width=2
 height=1
-avg24hPrice=156644
-low24hPrice=130000
-lastOfferCount=40
+avg24hPrice=169190
+low24hPrice=125419
+lastOfferCount=25
 Sell_Prapor=22172
 Sell_Fence=17737
 Sell_Skier=21728
 Sell_Peacekeeper=168
 Sell_Mechanic=24832
 Sell_Jaeger=26606
-Sell_Flea Market=133999
+Sell_Flea Market=125419
 weight=0.570000
-fleaMarketFee=8215
+fleaMarketFee=7481
 propertiestype=ItemPropertiesScope

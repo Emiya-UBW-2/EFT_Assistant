@@ -3,7 +3,7 @@ Name=MP-18 7.62x54R 600mm barrel
 ShortName=MP18 600mm
 Itemtype=Barrel
 ChildParts=[
-	MP-18 polymer handguard,
+	MP-18 polymer handguard/|
 	MP-18 wooden handguard
 ]
 ChildParts=[

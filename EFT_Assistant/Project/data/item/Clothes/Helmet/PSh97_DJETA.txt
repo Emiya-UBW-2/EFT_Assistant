@@ -3,25 +3,25 @@ Name=PSh-97 DJETA riot helmet
 ShortName=PSh-97
 Itemtype=Headwear
 Conflict=[
-	Faceless mask,
-	GP-5 gas mask,
-	Pestily plague mask,
-	GP-7 gas mask,
-	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY",
+	Faceless mask/|
+	GP-5 gas mask/|
+	GP-7 gas mask/|
+	Pestily plague mask/|
+	Tagilla's welding mask "Gorilla"/|
+	Tagilla's welding mask "UBEY"/|
 ]
 Information_Eng=The PSh-97 "DJETA" police helmet is designed to protect the head from being hit by heavy objects, metal rods, etc.
 basePrice=16200
 width=2
 height=2
-avg24hPrice=28437
-low24hPrice=15000
-lastOfferCount=9
+avg24hPrice=27802
+low24hPrice=20000
+lastOfferCount=10
 Sell_Fence=6480
 Sell_Skier=7938
 Sell_Peacekeeper=61
 Sell_Ragman=10044
-Sell_Flea Market=25090
+Sell_Flea Market=20000
 weight=1.300000
-fleaMarketFee=1321
+fleaMarketFee=1094
 propertiestype=ItemPropertiesHelmet

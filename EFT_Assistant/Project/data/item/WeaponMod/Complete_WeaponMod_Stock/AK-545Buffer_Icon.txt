@@ -3,29 +3,29 @@ Name=AK-545 SAG buffer tube
 ShortName=SAG tube
 Itemtype=Stock
 ChildParts=[
-	AR-15 B5 Systems Precision stock,
-	FAB Defense GL-CORE buttstock,
-	FAB Defense GL-SHOCK buttstock,
-	FAB Defense GLR-16-S stock,
-	High Standard M4SS Stock,
-	AR-15 HK E1 buttstock,
-	AR-15 HK Slim Line buttstock,
-	AK-12 stock,
-	KRISS Defiance DS150 stock (Black),
-	KRISS Defiance DS150 stock (FDE),
-	LMT SOPMOD stock,
-	Magpul CTR Carbine stock (Black),
-	Magpul CTR Carbine stock (FDE),
-	Magpul MOE Carbine stock (Black),
-	Magpul MOE Carbine stock (FDE),
-	Magpul MOE Carbine stock (Foliage Green),
-	Magpul MOE Carbine stock (Olive Drab),
-	Magpul MOE Carbine stock (Stealth Gray),
-	Magpul PRS GEN3 stock (Black),
-	Magpul PRS GEN3 stock (Grey),
-	MFT BUS stock,
-	SB Tactical SBA3 brace,
-	Strike Industries Viper Mod 1 stock,
+	AR-15 B5 Systems Precision stock/|
+	FAB Defense GL-CORE buttstock/|
+	FAB Defense GL-SHOCK buttstock/|
+	FAB Defense GLR-16-S stock/|
+	High Standard M4SS Stock/|
+	AR-15 HK E1 buttstock/|
+	AR-15 HK Slim Line buttstock/|
+	AK-12 stock/|
+	KRISS Defiance DS150 stock (Black)/|
+	KRISS Defiance DS150 stock (FDE)/|
+	LMT SOPMOD stock/|
+	Magpul CTR Carbine stock (Black)/|
+	Magpul CTR Carbine stock (FDE)/|
+	Magpul MOE Carbine stock (Black)/|
+	Magpul MOE Carbine stock (FDE)/|
+	Magpul MOE Carbine stock (Foliage Green)/|
+	Magpul MOE Carbine stock (Olive Drab)/|
+	Magpul MOE Carbine stock (Stealth Gray)/|
+	Magpul PRS GEN3 stock (Black)/|
+	Magpul PRS GEN3 stock (Grey)/|
+	MFT BUS stock/|
+	SB Tactical SBA3 brace/|
+	Strike Industries Viper Mod 1 stock/|
 	Vltor EMOD stock
 ]
 Recoil=-2.000000
@@ -34,16 +34,16 @@ Information_Eng=Sureshot Armament Group Receiver Extension Buffer Tube, 6-positi
 basePrice=7800
 width=2
 height=1
-avg24hPrice=16388
-low24hPrice=15000
-lastOfferCount=2
+avg24hPrice=44444
+low24hPrice=44444
+lastOfferCount=1
 Sell_Prapor=3900
 Sell_Fence=3120
 Sell_Skier=3822
 Sell_Peacekeeper=29
 Sell_Mechanic=4368
 Sell_Jaeger=4680
-Sell_Flea Market=15000
+Sell_Flea Market=44444
 weight=0.175000
-fleaMarketFee=800
+fleaMarketFee=3796
 propertiestype=ItemPropertiesWeaponMod

@@ -26,8 +26,8 @@ DogTagLv=0
 
 Reward_Rep=Ragman+0.030000
 Reward_Item=[
-	Roublesx20000,
-	HighCom Striker ACHHC IIIA helmet (Black)x1,
+	Roublesx20000/|
+	HighCom Striker ACHHC IIIA helmet (Black)x1/|
 	NPP KlASS Korund-VM body armorx1
 ]
 

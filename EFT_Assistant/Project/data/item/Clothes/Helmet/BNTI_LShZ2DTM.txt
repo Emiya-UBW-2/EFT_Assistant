@@ -3,22 +3,22 @@ Name=BNTI LShZ-2DTM helmet
 ShortName=LShZ-2DTM
 Itemtype=Headwear
 Conflict=[
-	Faceless mask,
-	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY",
+	Faceless mask/|
+	Tagilla's welding mask "Gorilla"/|
+	Tagilla's welding mask "UBEY"/|
 ]
 Information_Eng=The LShZ-2DTM helmet is intended for periodic wearing with the purpose of protection from bullets of small arms of a user’s head, as well as for protection from bullets of small arms of a user’s face and neck when equipped with a visor and aventail.
 basePrice=98600
 width=2
 height=2
-avg24hPrice=83338
-low24hPrice=65000
-lastOfferCount=36
+avg24hPrice=91776
+low24hPrice=58969
+lastOfferCount=24
 Sell_Fence=39440
 Sell_Skier=48314
 Sell_Peacekeeper=373
 Sell_Ragman=61132
-Sell_Flea Market=77000
+Sell_Flea Market=58969
 weight=3.400000
-fleaMarketFee=5341
+fleaMarketFee=5191
 propertiestype=ItemPropertiesHelmet

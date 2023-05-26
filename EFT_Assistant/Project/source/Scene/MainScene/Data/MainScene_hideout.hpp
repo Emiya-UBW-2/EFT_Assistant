@@ -8,6 +8,9 @@ namespace FPS_n2 {
 			int											durationTime{ 0 };
 			std::vector<ItemGetData>					m_ItemReq;
 			std::vector<ItemGetData>					m_ItemReward;
+		public:
+			std::vector<std::string>					m_ItemReqArgs;
+			std::vector<std::string>					m_ItemRewardArgs;
 		};
 		//開放データ
 		int											constructionTime{ 0 };
@@ -18,6 +21,10 @@ namespace FPS_n2 {
 		std::vector<HideoutGetData>					m_Child;
 		//クラフトデータ
 		std::vector<CraftData>						m_ItemCraft;
+	public:
+		std::vector<std::string>					m_ItemReqArgs;
+		std::vector<std::string>					m_ParentArgs;
+		std::vector<std::string>					m_TraderReqArgs;
 	};
 	//
 	class HideoutList : public ListParent<HideoutID> {
@@ -25,8 +32,8 @@ namespace FPS_n2 {
 		int m_DrawWindowLv{ 1 };
 	private:
 		//追加設定
-		void	Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept override;
-		void	Load_Sub() noexcept override {}
+		void	SetSub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept override;
+		void	Load_Sub() noexcept override;
 		void	WhenAfterLoad_Sub() noexcept override {}
 	public:
 		int										m_CheckJson{ 0 };
@@ -109,10 +116,10 @@ namespace FPS_n2 {
 							{
 								outputfile << LV + "itemReq=[";
 								for (auto& m : L2.m_ItemReq) {
-									outputfile << m.GetName();
+									outputfile << ItemData::Instance()->FindPtr(m.GetID())->GetName();
 									outputfile << "x" + std::to_string(m.GetValue());
 									if (&m != &L2.m_ItemReq.back()) {
-										outputfile << ",";
+										outputfile << DIV_STR;
 									}
 								}
 								outputfile << "]\n";
@@ -120,10 +127,10 @@ namespace FPS_n2 {
 							{
 								outputfile << LV + "stationLevelReq=[";
 								for (auto& m : L2.m_Parent) {
-									outputfile << m.GetName();
+									outputfile << HideoutData::Instance()->FindPtr(m.GetID())->GetName();
 									outputfile << "x" + std::to_string(m.GetValue());
 									if (&m != &L2.m_Parent.back()) {
-										outputfile << ",";
+										outputfile << DIV_STR;
 									}
 								}
 								outputfile << "]\n";
@@ -131,10 +138,10 @@ namespace FPS_n2 {
 							{
 								outputfile << LV + "traderRequirements=[";
 								for (auto& m : L2.m_TraderReq) {
-									outputfile << m.GetName();
+									outputfile << TraderData::Instance()->FindPtr(m.GetID())->GetName();
 									outputfile << "x" + std::to_string(m.GetValue());
 									if (&m != &L2.m_TraderReq.back()) {
-										outputfile << ",";
+										outputfile << DIV_STR;
 									}
 								}
 								outputfile << "]\n";
@@ -144,10 +151,10 @@ namespace FPS_n2 {
 								{
 									outputfile << LV + "craftitemReq=[";
 									for (auto& m : c.m_ItemReq) {
-										outputfile << m.GetName();
+										outputfile << ItemData::Instance()->FindPtr(m.GetID())->GetName();
 										outputfile << "x" + std::to_string(m.GetValue());
 										if (&m != &c.m_ItemReq.back()) {
-											outputfile << ",";
+											outputfile << DIV_STR;
 										}
 									}
 									outputfile << "]\n";
@@ -155,10 +162,10 @@ namespace FPS_n2 {
 								{
 									outputfile << LV + "craftitemReward=[";
 									for (auto& m : c.m_ItemReward) {
-										outputfile << m.GetName();
+										outputfile << ItemData::Instance()->FindPtr(m.GetID())->GetName();
 										outputfile << "x" + std::to_string(m.GetValue());
 										if (&m != &c.m_ItemReward.back()) {
-											outputfile << ",";
+											outputfile << DIV_STR;
 										}
 									}
 									outputfile << "]\n";
@@ -176,28 +183,17 @@ namespace FPS_n2 {
 					std::string ParentPath = "data/Hideout/Maked/Maked/";
 					CreateDirectory(ParentPath.c_str(), NULL);
 					std::string HideoutName = jd.name;
-					auto SubStrs = [&](const char* str) {
-						while (true) {
-							auto now = HideoutName.find(str);
-							if (now != std::string::npos) {
-								HideoutName = HideoutName.substr(0, now) + HideoutName.substr(now + 1);
-							}
-							else {
-								break;
-							}
-						}
-					};
-					SubStrs(".");
+					SubStrs(&HideoutName, ".");
 
-					SubStrs("\\");
-					SubStrs("/");
-					SubStrs(":");
-					SubStrs("*");
-					SubStrs("?");
-					SubStrs("\"");
-					SubStrs(">");
-					SubStrs("<");
-					SubStrs("|");
+					SubStrs(&HideoutName, "\\");
+					SubStrs(&HideoutName, "/");
+					SubStrs(&HideoutName, ":");
+					SubStrs(&HideoutName, "*");
+					SubStrs(&HideoutName, "?");
+					SubStrs(&HideoutName, "\"");
+					SubStrs(&HideoutName, ">");
+					SubStrs(&HideoutName, "<");
+					SubStrs(&HideoutName, "|");
 
 					std::string Name = ParentPath + "/" + HideoutName + ".txt";
 					std::ofstream outputfile(Name);
@@ -212,10 +208,10 @@ namespace FPS_n2 {
 						{
 							outputfile << LV + "itemReq=[";
 							for (auto& m : L.m_ItemReq) {
-								outputfile << m.GetName();
+								outputfile << ItemData::Instance()->FindPtr(m.GetID())->GetName();
 								outputfile << "x" + std::to_string(m.GetValue());
 								if (&m != &L.m_ItemReq.back()) {
-									outputfile << ",";
+									outputfile << DIV_STR;
 								}
 							}
 							outputfile << "]\n";
@@ -223,10 +219,10 @@ namespace FPS_n2 {
 						{
 							outputfile << LV + "stationLevelReq=[";
 							for (auto& m : L.m_Parent) {
-								outputfile << m.GetName();
+								outputfile << HideoutData::Instance()->FindPtr(m.GetID())->GetName();
 								outputfile << "x" + std::to_string(m.GetValue());
 								if (&m != &L.m_Parent.back()) {
-									outputfile << ",";
+									outputfile << DIV_STR;
 								}
 							}
 							outputfile << "]\n";
@@ -234,10 +230,10 @@ namespace FPS_n2 {
 						{
 							outputfile << LV + "traderRequirements=[";
 							for (auto& m : L.m_TraderReq) {
-								outputfile << m.GetName();
+								outputfile << TraderData::Instance()->FindPtr(m.GetID())->GetName();
 								outputfile << "x" + std::to_string(m.GetValue());
 								if (&m != &L.m_TraderReq.back()) {
-									outputfile << ",";
+									outputfile << DIV_STR;
 								}
 							}
 							outputfile << "]\n";
@@ -247,10 +243,10 @@ namespace FPS_n2 {
 							{
 								outputfile << LV + "craftitemReq=[";
 								for (auto& m : c.m_ItemReq) {
-									outputfile << m.GetName();
+									outputfile << ItemData::Instance()->FindPtr(m.GetID())->GetName();
 									outputfile << "x" + std::to_string(m.GetValue());
 									if (&m != &c.m_ItemReq.back()) {
-										outputfile << ",";
+										outputfile << DIV_STR;
 									}
 								}
 								outputfile << "]\n";
@@ -258,10 +254,10 @@ namespace FPS_n2 {
 							{
 								outputfile << LV + "craftitemReward=[";
 								for (auto& m : c.m_ItemReward) {
-									outputfile << m.GetName();
+									outputfile << ItemData::Instance()->FindPtr(m.GetID())->GetName();
 									outputfile << "x" + std::to_string(m.GetValue());
 									if (&m != &c.m_ItemReward.back()) {
-										outputfile << ",";
+										outputfile << DIV_STR;
 									}
 								}
 								outputfile << "]\n";

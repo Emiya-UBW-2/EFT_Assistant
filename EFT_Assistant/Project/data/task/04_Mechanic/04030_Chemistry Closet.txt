@@ -30,8 +30,8 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 
 Reward_Rep=Mechanic+0.050000
 Reward_Item=[
-	Eurosx1000,
-	SilencerCo Hybrid 46 multi-caliber sound suppressorx2,
+	Eurosx1000/|
+	SilencerCo Hybrid 46 multi-caliber sound suppressorx2/|
 	Graphics cardx1
 ]
 

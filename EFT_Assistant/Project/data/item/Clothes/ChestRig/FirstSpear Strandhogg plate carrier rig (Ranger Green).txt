@@ -1,5 +1,5 @@
 IDstr=61bcc89aef0f505f0c6cd0fc
-Name=FirstSpear Strandhogg plate carrier rig (Ranger Green)
+Name=FirstSpear Strandhogg plate carrier (Ranger Green)
 ShortName=Strandhogg
 Itemtype=Chest rig
 Information_Eng=Taking its name from an Old Norse Viking term for a lightning raid, Strandhögg was one of the first formalized battle tactics to use covert infiltrators in advance of an actual raiding operation. Strandhögg was a tactical game-changer in its time, just like the technological advances FirstSpear is bringing forward in this line of plate carriers.

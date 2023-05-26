@@ -3,23 +3,23 @@ Name=PNV-10T Night Vision Goggles
 ShortName=PNV-10T
 Itemtype=Night Vision
 Conflict=[
-	Ops-Core FAST Visor,
+	Ops-Core FAST Visor/|
 	Ops-Core FAST multi-hit ballistic face shield
 ]
 Information_Eng=PNV-10T are pseudo-binocular night vision googles of the second generation. A widespread and popular device of low-price category among hunters and fans of tactical military games.
 basePrice=28000
 width=2
 height=1
-avg24hPrice=34942
-low24hPrice=24444
-lastOfferCount=16
+avg24hPrice=36820
+low24hPrice=28888
+lastOfferCount=13
 Sell_Prapor=14000
 Sell_Fence=11200
 Sell_Skier=13720
 Sell_Peacekeeper=106
 Sell_Mechanic=15680
 Sell_Jaeger=16800
-Sell_Flea Market=29500
+Sell_Flea Market=33000
 weight=0.800000
-fleaMarketFee=1720
+fleaMarketFee=1833
 propertiestype=ItemPropertiesNightVision

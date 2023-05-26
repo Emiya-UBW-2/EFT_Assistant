@@ -35,9 +35,9 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 
 Reward_Rep=Peacekeeper+0.030000
 Reward_Item=[
-	Dollarsx1300,
-	Ushanka ear flap hatx2,
-	Lower half-maskx2,
+	Dollarsx1300/|
+	Ushanka ear flap hatx2/|
+	Lower half-maskx2/|
 	Eberlestock F5 Switchblade backpack (Dry Earth)x1
 ]
 

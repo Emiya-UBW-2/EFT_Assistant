@@ -22,8 +22,8 @@ Task_Kill=[
 
 Reward_Rep=Jaeger+0.020000
 Reward_Item=[
-	Roublesx40000,
-	CMS surgical kitx1,
+	Roublesx40000/|
+	CMS surgical kitx1/|
 	Pile of medsx3
 ]
 Reward_SkillLevelUp=Perception+1

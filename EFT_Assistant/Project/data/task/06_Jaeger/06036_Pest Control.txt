@@ -23,10 +23,10 @@ Task_Else=É]Å[Éì:[White Pawn,Black Pawn]
 
 Reward_Rep=Jaeger+0.020000
 Reward_Item=[
-	Roublesx20000,
-	PAID AntiRoach sprayx2,
-	Gunpowder "Eagle"x6,
-	Pack of nailsx4,
+	Roublesx20000/|
+	PAID AntiRoach sprayx2/|
+	Gunpowder "Eagle"x6/|
+	Pack of nailsx4/|
 	Can of thermitex2
 ]
 

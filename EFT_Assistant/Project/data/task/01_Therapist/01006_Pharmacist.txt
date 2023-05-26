@@ -40,11 +40,11 @@ Task_Else=Find a way inside the two-story dorm room 114 on Customs
 
 Reward_Rep=Therapist+0.040000
 Reward_Item=[
-	Roublesx25000,
-	AFAK tactical individual first aid kitx1,
+	Roublesx25000/|
+	AFAK tactical individual first aid kitx1/|
 	Pile of medsx3
 ]
 
 Reward_EXP=5700
-Task_PinPoint=[0.145713,0.447677,0.000000]
-Task_PinMap=[Customs,1]
+Task_PinPoint=[0.145713/|0.447677/|0.000000]
+Task_PinMap=[Customs/|1]

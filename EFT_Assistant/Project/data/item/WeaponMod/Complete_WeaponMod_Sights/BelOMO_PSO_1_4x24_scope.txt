@@ -7,12 +7,12 @@ ChildParts=[
 	PSO scope eyecup
 ]
 Conflict=[
-	SOK-12 Leapers UTG PRO MTU002 Long Top aluminum handguard,
-	SOK-12 Leapers UTG PRO MTU002 Short Top aluminum handguard,
-	BelOMO PK-AA dovetail reflex sight,
-	OKP-7 reflex sight (Dovetail),
-	Axion Kobra EKP-8-02 reflex sight (Dovetail),
-	VOMZ Pilad 043-02 dovetail mount,
+	SOK-12 Leapers UTG PRO MTU002 Long Top aluminum handguard/|
+	SOK-12 Leapers UTG PRO MTU002 Short Top aluminum handguard/|
+	BelOMO PK-AA dovetail reflex sight/|
+	OKP-7 reflex sight (Dovetail)/|
+	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
+	VOMZ Pilad 043-02 dovetail mount/|
 	Axion Kobra dovetail mount
 ]
 Recoil=0.000000
@@ -21,16 +21,16 @@ Information_Eng=The PSO-1 military grade optical sniper scope, manufactured by B
 basePrice=17784
 width=2
 height=1
-avg24hPrice=20410
-low24hPrice=18000
-lastOfferCount=5
+avg24hPrice=19670
+low24hPrice=14420
+lastOfferCount=11
 Sell_Prapor=8892
 Sell_Fence=7113
 Sell_Skier=8714
 Sell_Peacekeeper=67
 Sell_Mechanic=9959
 Sell_Jaeger=10670
-Sell_Flea Market=19500
+Sell_Flea Market=20000
 weight=0.600000
-fleaMarketFee=1115
+fleaMarketFee=1131
 propertiestype=ItemPropertiesScope

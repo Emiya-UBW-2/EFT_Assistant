@@ -3,8 +3,8 @@ Name=FAB Defense GL-SHOCK buttstock
 ShortName=GL-SHOCK
 Itemtype=Stock
 Conflict=[
-	AR-15 ADAR 2-15 wooden stock,
-	AR-15 Hera Arms CQR pistol grip/buttstock,
+	AR-15 ADAR 2-15 wooden stock/|
+	AR-15 Hera Arms CQR pistol grip/buttstock/|
 ]
 Recoil=-29.000000
 Ergonomics=13.000000
@@ -12,16 +12,16 @@ Information_Eng=A telescopic stock with an adjustable cheek rest kit, manufactur
 basePrice=10371
 width=2
 height=1
-avg24hPrice=34458
-low24hPrice=15555
-lastOfferCount=7
+avg24hPrice=24845
+low24hPrice=11000
+lastOfferCount=15
 Sell_Prapor=5185
 Sell_Fence=4148
 Sell_Skier=5081
 Sell_Peacekeeper=39
 Sell_Mechanic=5807
 Sell_Jaeger=6222
-Sell_Flea Market=33333
+Sell_Flea Market=11000
 weight=0.308000
-fleaMarketFee=2100
+fleaMarketFee=639
 propertiestype=ItemPropertiesWeaponMod

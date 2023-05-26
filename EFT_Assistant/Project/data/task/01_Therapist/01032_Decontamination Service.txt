@@ -30,9 +30,9 @@ Task_Else=‹——£: <= 60m
 Reward_Rep=Therapist+0.050000
 Reward_Rep=Jaeger+0.010000
 Reward_Item=[
-	Roublesx300000,
-	Morphine injectorx3,
-	IFAK individual first aid kitx3,
+	Roublesx300000/|
+	Morphine injectorx3/|
+	IFAK individual first aid kitx3/|
 	GP-7 gas maskx3
 ]
 

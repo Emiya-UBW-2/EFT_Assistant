@@ -3,8 +3,8 @@ Name=5.56x45 Magpul PMAG D-60 STANAG 60-round magazine
 ShortName=PMAG D60
 Itemtype=Magazine
 Conflict=[
-	M203 40mm underbarrel grenade launcher,
-	HK G36 magwell,
+	HK G36 magwell/|
+	M203 40mm underbarrel grenade launcher/|
 ]
 Recoil=0.000000
 Ergonomics=-16.000000

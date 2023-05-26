@@ -35,13 +35,13 @@ Task_Else=äYìñÉ^ÉXÉNèÛë‘:complete
 
 Reward_Rep=Prapor+0.020000
 Reward_Item=[
-	Roublesx40000,
-	ANA Tactical Beta 2 Battle backpackx1,
+	Roublesx40000/|
+	ANA Tactical Beta 2 Battle backpackx1/|
 	6B23-1 body armor (Digital Flora)x1
 ]
 
 Reward_EXP=5900
-Task_PinPoint=[-0.108310,0.187322,0.000000]
-Task_PinMap=[Factory,1]
-Task_PinPoint=[-0.107422,0.182757,0.000000]
-Task_PinMap=[Night Factory,1]
+Task_PinPoint=[-0.108310/|0.187322/|0.000000]
+Task_PinMap=[Factory/|1]
+Task_PinPoint=[-0.107422/|0.182757/|0.000000]
+Task_PinMap=[Night Factory/|1]

@@ -36,12 +36,12 @@ Task_Else=E‚Á‚Ä”[•i:Interchange-Clothes design handbook - Part 2x1
 
 Reward_Rep=Ragman+0.030000
 Reward_Item=[
-	Roublesx60000,
+	Roublesx60000/|
 	Ghost balaclavax2
 ]
 
 Reward_EXP=15600
-Task_PinPoint=[0.200439,0.140137,0.000000]
-Task_PinMap=[Interchange,1]
-Task_PinPoint=[-0.056885,-0.153809,0.000000]
-Task_PinMap=[Interchange,1]
+Task_PinPoint=[0.200439/|0.140137/|0.000000]
+Task_PinMap=[Interchange/|1]
+Task_PinPoint=[-0.056885/|-0.153809/|0.000000]
+Task_PinMap=[Interchange/|1]

@@ -3,8 +3,8 @@ Name=LMT SOPMOD stock
 ShortName=SOPMOD
 Itemtype=Stock
 Conflict=[
-	AR-15 ADAR 2-15 wooden stock,
-	AR-15 Hera Arms CQR pistol grip/buttstock,
+	AR-15 ADAR 2-15 wooden stock/|
+	AR-15 Hera Arms CQR pistol grip/buttstock/|
 ]
 Recoil=-29.000000
 Ergonomics=6.000000
@@ -12,16 +12,16 @@ Information_Eng=A telescoping stock manufactured by LMT Defense. Part of SOPMOD 
 basePrice=4699
 width=2
 height=1
-avg24hPrice=20424
-low24hPrice=8999
-lastOfferCount=8
+avg24hPrice=15570
+low24hPrice=5888
+lastOfferCount=7
 Sell_Prapor=2349
 Sell_Fence=1879
 Sell_Skier=2302
 Sell_Peacekeeper=18
 Sell_Mechanic=2631
 Sell_Jaeger=2819
-Sell_Flea Market=25000
+Sell_Flea Market=8000
 weight=0.148000
-fleaMarketFee=2052
+fleaMarketFee=421
 propertiestype=ItemPropertiesWeaponMod

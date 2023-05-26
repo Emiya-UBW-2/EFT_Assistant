@@ -32,7 +32,7 @@ Task_Else=width >= 0
 
 Reward_Rep=Mechanic+0.020000
 Reward_Item=[
-	Dollarsx500,
+	Dollarsx500/|
 	SureFire SOCOM556-MINI MONSTER 5.56x45 sound suppressorx1
 ]
 

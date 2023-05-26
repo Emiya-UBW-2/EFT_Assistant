@@ -1,12 +1,12 @@
 #include"../../../Header.hpp"
 
 namespace FPS_n2 {
-	void	ItemList::Set_Sub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept {
+	void	ItemList::SetSub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept {
 		if (LEFT == "Itemtype") {
-			m_TypeID = ItemTypeData::Instance()->FindID(RIGHT.c_str());
+			m_TypeArg = RIGHT;
 		}
 		if (LEFT == "Map") {
-			m_MapID.emplace_back(MapData::Instance()->FindID(RIGHT.c_str()));
+			m_MapArgs.emplace_back(RIGHT);
 		}
 		if (LEFT == "ChildParts") {
 			m_ChildPartsID.resize(m_ChildPartsID.size() + 1);
@@ -111,10 +111,8 @@ namespace FPS_n2 {
 		if (LEFT == "avg24hPrice") { m_avg24hPrice = std::stoi(RIGHT); }
 		if (LEFT == "low24hPrice") { m_low24hPrice = std::stoi(RIGHT); }
 		if (LEFT == "lastOfferCount") { m_lastOfferCount = std::stoi(RIGHT); }
-		for (auto& sf : TraderData::Instance()->GetList()) {
-			if (LEFT == "Sell_" + sf.GetName()) {
-				m_sellFor.emplace_back(std::make_pair(sf.GetID(), std::stoi(RIGHT)));
-			}
+		if (LEFT.find("Sell_") != std::string::npos) {
+			m_selArgs.emplace_back(std::make_pair(LEFT, RIGHT));
 		}
 		if (LEFT == "Sell_Flea Market") {
 			m_sellFor.emplace_back(std::make_pair(InvalidID, std::stoi(RIGHT)));
@@ -125,6 +123,18 @@ namespace FPS_n2 {
 		if (LEFT == "propertiestype") { m_IsPreset = (RIGHT == "ItemPropertiesPreset"); }
 	}
 	void	ItemList::Load_Sub() noexcept {
+		m_TypeID = ItemTypeData::Instance()->FindID(m_TypeArg.c_str());
+		for (auto& m : m_MapArgs) {
+			m_MapID.emplace_back(MapData::Instance()->FindID(m));
+		}
+		for (auto s : m_selArgs) {
+			for (auto& sf : TraderData::Instance()->GetList()) {
+				if (s.first == "Sell_" + sf.GetName()) {
+					m_sellFor.emplace_back(std::make_pair(sf.GetID(), std::stoi(s.second)));
+				}
+			}
+		}
+		//
 		if (m_TypeID == InvalidID) {
 			std::string ErrMes = "Error : Not Setting ItemType in Item ";
 			ErrMes += GetShortName();
@@ -316,7 +326,7 @@ namespace FPS_n2 {
 					if (!IsChecktask) { continue; }
 					bool isHit = false;
 					for (const auto& w : tasks.GetTaskWorkData().GetFiR_Item()) {
-						auto ID = ItemData::Instance()->FindID(w.GetName());
+						auto ID = w.GetID();
 						if (ID == GetID()) {
 							std::string Str = "FiR : ";
 							Str += tasks.GetName();
@@ -340,7 +350,7 @@ namespace FPS_n2 {
 					}
 					if (isHit) { continue; }
 					for (const auto& w : tasks.GetTaskWorkData().GetNotFiR_Item()) {
-						auto ID = ItemData::Instance()->FindID(w.GetName());
+						auto ID = w.GetID();
 						if (ID == GetID()) {
 							std::string Str = "Not FiR : ";
 							Str += tasks.GetName();
@@ -364,7 +374,7 @@ namespace FPS_n2 {
 					}
 					if (isHit) { continue; }
 					for (const auto& w : tasks.GetTaskNeedData().GetItem()) {
-						auto ID = ItemData::Instance()->FindID(w.GetName());
+						auto ID = w.GetID();
 						if (ID == GetID()) {
 							std::string Str = "Need : ";
 							Str += tasks.GetName();
@@ -406,8 +416,7 @@ namespace FPS_n2 {
 						//*/
 						//開放
 						for (const auto& w : Ld.m_ItemReq) {
-							auto ID = ItemData::Instance()->FindID(w.GetName());
-							if (ID == GetID()) {
+							if (w.GetID() == GetID()) {
 								L.Draw(xp, yp + yofs, y_r(400), LineHeight, (int)(&Ld - &L.GetLvData().front()) + 1, defaultcolor, true);
 								WindowSystem::SetMsg(xp + y_r(400), yp + yofs, xp + y_r(800), yp + yofs + LineHeight, LineHeight, STRX_LEFT, White, Black, " x%d", w.GetValue());
 								yofs += LineHeight + y_r(5);
@@ -427,8 +436,7 @@ namespace FPS_n2 {
 						for (const auto& cf : Ld.m_ItemCraft) {
 							bool isHit = false;
 							for (const auto& I : cf.m_ItemReq) {
-								auto ID = ItemData::Instance()->FindID(I.GetName());
-								if (ID == GetID()) {
+								if (I.GetID() == GetID()) {
 									isHit = true;
 									break;
 								}
@@ -437,8 +445,7 @@ namespace FPS_n2 {
 								xofs_buf = y_r(10);
 								{
 									for (const auto& I : cf.m_ItemReq) {
-										auto ID = ItemData::Instance()->FindID(I.GetName());
-										auto* ptr = ItemData::Instance()->FindPtr(ID);
+										auto* ptr = ItemData::Instance()->FindPtr(I.GetID());
 										if (ptr) {
 											int xstart = xp + xofs_buf;
 											xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs, y_r(200), ysize, I.GetValue(), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true);
@@ -454,8 +461,7 @@ namespace FPS_n2 {
 								}
 								{
 									for (const auto& I : cf.m_ItemReward) {
-										auto ID = ItemData::Instance()->FindID(I.GetName());
-										auto* ptr = ItemData::Instance()->FindPtr(ID);
+										auto* ptr = ItemData::Instance()->FindPtr(I.GetID());
 										if (ptr) {
 											int xstart = xp + xofs_buf;
 											xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs, y_r(200), ysize, I.GetValue(), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true);
@@ -479,7 +485,7 @@ namespace FPS_n2 {
 						for (const auto& cf : Ld.m_ItemCraft) {
 							bool isHit = false;
 							for (const auto& I : cf.m_ItemReward) {
-								auto ID = ItemData::Instance()->FindID(I.GetName());
+								auto ID = I.GetID();
 								if (ID == GetID()) {
 									isHit = true;
 									break;
@@ -488,8 +494,8 @@ namespace FPS_n2 {
 							if (isHit) {
 								xofs_buf = y_r(10);
 								{
-									for (const auto& I : cf.m_ItemReward) {
-										auto ID = ItemData::Instance()->FindID(I.GetName());
+									for (const auto& I : cf.m_ItemReq) {
+										auto ID = I.GetID();
 										auto* ptr = ItemData::Instance()->FindPtr(ID);
 										if (ptr) {
 											int xstart = xp + xofs_buf;
@@ -506,7 +512,7 @@ namespace FPS_n2 {
 								}
 								{
 									for (const auto& I : cf.m_ItemReward) {
-										auto ID = ItemData::Instance()->FindID(I.GetName());
+										auto ID = I.GetID();
 										auto* ptr = ItemData::Instance()->FindPtr(ID);
 										if (ptr) {
 											int xstart = xp + xofs_buf;
@@ -522,6 +528,117 @@ namespace FPS_n2 {
 						//クラフトベース
 					}
 				}
+			}
+			//交換
+			{
+				//*
+				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STRX_LEFT, White, Black,
+					"トレーダー交換:")); yofs += LineHeight + y_r(5);
+				//ハイドアウトクラフト素材
+				for (auto&L : TraderData::Instance()->SetList()) {
+					for (const auto& Ld : L.GetLvData()) {
+						int xofs_buf = y_r(10);
+						int ysize = (int)((float)y_r(64));
+
+						for (const auto& cf : Ld.m_ItemBarters) {
+							bool isHit = false;
+							for (const auto& I : cf.m_ItemReq) {
+								auto ID = I.GetID();
+								if (ID == GetID()) {
+									isHit = true;
+									break;
+								}
+							}
+							if (isHit) {
+								xofs_buf = y_r(10);
+								{
+									for (const auto& I : cf.m_ItemReq) {
+										auto ID = I.GetID();
+										auto* ptr = ItemData::Instance()->FindPtr(ID);
+										if (ptr) {
+											int xstart = xp + xofs_buf;
+											xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs, y_r(200), ysize, I.GetValue(), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true);
+											DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xstart, yp + yofs, xp + xofs_buf, yp + yofs + ysize, Gray75, false);
+										}
+									}
+								}
+								{
+									//xofs_buf = std::max(xofs_buf, y_r(10) + ysize * 8);
+									xofs_buf += WindowSystem::SetMsg(xp + xofs_buf, yp + yofs, xp + 0, yp + yofs + ysize, LineHeight * 9 / 10, STRX_LEFT, White, Black,
+										"->");
+									xofs_buf += y_r(30);
+								}
+								{
+									for (const auto& I : cf.m_ItemReward) {
+										auto ID = I.GetID();
+										auto* ptr = ItemData::Instance()->FindPtr(ID);
+										if (ptr) {
+											int xstart = xp + xofs_buf;
+											xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs, y_r(200), ysize, I.GetValue(), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true);
+											DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xstart, yp + yofs, xp + xofs_buf, yp + yofs + ysize, Gray75, false);
+										}
+									}
+								}
+								xofs = std::max(xofs, xofs_buf + y_r(10));
+								yofs += ysize + y_r(5);
+							}
+						}
+						//クラフトベース
+					}
+				}
+				//ハイドアウトクラフト結果
+				for (auto&L : TraderData::Instance()->SetList()) {
+					for (const auto& Ld : L.GetLvData()) {
+						int xofs_buf = y_r(10);
+						int ysize = (int)((float)y_r(64));
+
+						for (const auto& cf : Ld.m_ItemBarters) {
+							bool isHit = false;
+							for (const auto& I : cf.m_ItemReward) {
+								auto ID = I.GetID();
+								if (ID == GetID()) {
+									isHit = true;
+									break;
+								}
+							}
+							if (isHit) {
+								xofs_buf = y_r(10);
+								{
+									for (const auto& I : cf.m_ItemReq) {
+										auto ID = I.GetID();
+										auto* ptr = ItemData::Instance()->FindPtr(ID);
+										if (ptr) {
+											int xstart = xp + xofs_buf;
+											xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs, y_r(200), ysize, I.GetValue(), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true);
+											DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xstart, yp + yofs, xp + xofs_buf, yp + yofs + ysize, Gray75, false);
+										}
+									}
+								}
+								{
+									//xofs_buf = std::max(xofs_buf, y_r(10) + ysize * 8);
+									xofs_buf += WindowSystem::SetMsg(xp + xofs_buf, yp + yofs, xp + 0, yp + yofs + ysize, LineHeight * 9 / 10, STRX_LEFT, White, Black,
+										"->");
+									xofs_buf += y_r(30);
+								}
+								{
+									for (const auto& I : cf.m_ItemReward) {
+										auto ID = I.GetID();
+										auto* ptr = ItemData::Instance()->FindPtr(ID);
+										if (ptr) {
+											int xstart = xp + xofs_buf;
+											xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs, y_r(200), ysize, I.GetValue(), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true);
+											DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xstart, yp + yofs, xp + xofs_buf, yp + yofs + ysize, Gray75, false);
+										}
+									}
+								}
+								xofs = std::max(xofs, xofs_buf + y_r(10));
+								yofs += ysize + y_r(5);
+							}
+						}
+						//クラフトベース
+					}
+				}
+				//*/
 			}
 			//
 			if (m_isWeapon) {

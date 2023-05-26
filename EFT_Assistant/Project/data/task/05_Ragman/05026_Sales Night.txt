@@ -21,7 +21,7 @@ Task_Else=脱出ステータス:[Survived]
 
 Reward_Rep=Ragman+0.030000
 Reward_Item=[
-	Roublesx35000,
+	Roublesx35000/|
 	SSO Attack 2 raid backpackx2
 ]
 

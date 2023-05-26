@@ -34,10 +34,10 @@ DogTagLv=0
 
 Reward_Rep=Therapist+0.030000
 Reward_Item=[
-	Roublesx14000,
+	Roublesx14000/|
 	Car first aid kitx2
 ]
 
 Reward_EXP=2200
-Task_PinPoint=[-0.395915,-0.051270,0.000000]
-Task_PinMap=[Factory,1]
+Task_PinPoint=[-0.395915/|-0.051270/|0.000000]
+Task_PinMap=[Factory/|1]

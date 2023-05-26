@@ -13,14 +13,14 @@ Task_Kill=[
 	Woods-Scavsx10
 ]
 NeedItem=[
-	Saiga 12ga ver.10 12/76 semi-automatic shotgunx0,
-	MP-133 12ga pump-action shotgunx0,
-	Remington Model 870 12ga pump-action shotgunx0,
-	Mossberg 590A1 12ga pump-action shotgunx0,
-	MP-153 12ga semi-automatic shotgunx0,
-	MP-43-1C 12ga double-barrel shotgunx0,
-	MP-155 12ga semi-automatic shotgunx0,
-	MTs-255-12 12ga shotgunx0,
+	Saiga 12ga ver.10 12/76 semi-automatic shotgunx0/|
+	MP-133 12ga pump-action shotgunx0/|
+	Remington Model 870 12ga pump-action shotgunx0/|
+	Mossberg 590A1 12ga pump-action shotgunx0/|
+	MP-153 12ga semi-automatic shotgunx0/|
+	MP-43-1C 12ga double-barrel shotgunx0/|
+	MP-155 12ga semi-automatic shotgunx0/|
+	MTs-255-12 12ga shotgunx0/|
 	Benelli M3 Super 90 dual-mode 12ga shotgunx0
 ]
 Task_Kill=[
@@ -38,8 +38,8 @@ Task_Else=  Ghost balaclava
 Task_Else=  Scav Vest
 Task_Else=  Cold Fear infrared balaclava
 Task_Else=}
-NeedItem=Bars A-2607 95H18 knifex5
-Task_FiR_HandOver=[Bars A-2607 95H18 knifex5]
+NeedItem=Bars A-2607 95Kh18 knifex5
+Task_FiR_HandOver=[Bars A-2607 95Kh18 knifex5]
 DogTagLv=0
 
 [
@@ -65,7 +65,7 @@ DogTagLv=0
 
 Reward_Rep=Prapor+0.030000
 Reward_Item=[
-	Roublesx100000,
+	Roublesx100000/|
 	Colt M4A1 5.56x45 assault rifle SOPMOD II Flashx1
 ]
 

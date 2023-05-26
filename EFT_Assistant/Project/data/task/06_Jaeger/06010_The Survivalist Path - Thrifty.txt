@@ -42,8 +42,8 @@ DogTagLv=0
 
 Reward_Rep=Jaeger+0.010000
 Reward_Item=[
-	Roublesx22000,
-	Phase control relayx2,
+	Roublesx22000/|
+	Phase control relayx2/|
 	Metal fuel tankx1
 ]
 

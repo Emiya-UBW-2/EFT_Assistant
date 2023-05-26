@@ -3,27 +3,27 @@ Name=DevTac Ronin ballistic helmet
 ShortName=Ronin
 Itemtype=Headwear
 Conflict=[
-	Faceless mask,
-	Ghoul mask,
-	GP-5 gas mask,
-	Pestily plague mask,
-	Slender mask,
-	GP-7 gas mask,
-	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY",
+	Faceless mask/|
+	Ghoul mask/|
+	GP-5 gas mask/|
+	GP-7 gas mask/|
+	Pestily plague mask/|
+	Slender mask/|
+	Tagilla's welding mask "Gorilla"/|
+	Tagilla's welding mask "UBEY"/|
 ]
 Information_Eng=A Japan-styled tactical helmet, manufactured by DevTac. Not used by any military or special forces. Just somehow happened to be in Tarkov for some frivolous price. Features a full protection of the whole head, but the armor class is not good enough to actually be useful in combat.
 basePrice=164912
 width=2
 height=2
-avg24hPrice=103149
+avg24hPrice=102517
 low24hPrice=100000
-lastOfferCount=15
+lastOfferCount=23
 Sell_Fence=65964
 Sell_Skier=80806
 Sell_Peacekeeper=624
 Sell_Ragman=102245
-Sell_Flea Market=102778
+Sell_Flea Market=100000
 weight=1.600000
-fleaMarketFee=8677
+fleaMarketFee=8678
 propertiestype=ItemPropertiesHelmet

@@ -3,15 +3,15 @@ Name=TT-33 7.62x25 TT pistol (Golden)
 ShortName=TT Gold
 Itemtype=Handgun
 ChildParts=[
-	TT 7.62x25 116mm barrel,
-	TT 7.62x25 121mm homespun threaded barrel,
+	TT 7.62x25 116mm barrel/|
+	TT 7.62x25 121mm homespun threaded barrel/|
 	TT 7.62x25 116mm gilded barrel
 ]
 ChildParts=[
-	TT Hogue-like rubber grip,
-	TT PM-Laser TT-206 side grips with laser sight,
-	TT Razor Arms rubber grip,
-	TT ornated side grips,
+	TT Hogue-like rubber grip/|
+	TT PM-Laser TT-206 side grips with laser sight/|
+	TT Razor Arms rubber grip/|
+	TT ornated side grips/|
 	TT side grips
 ]
 ChildParts=[
@@ -29,15 +29,15 @@ Information_Eng=A legendary pistol that has seen numerous military conflicts thr
 basePrice=23185
 width=2
 height=1
-avg24hPrice=90543
-low24hPrice=49999
-lastOfferCount=1
+avg24hPrice=76065
+low24hPrice=55555
+lastOfferCount=2
 Sell_Prapor=11592
 Sell_Fence=9274
 Sell_Skier=11360
 Sell_Peacekeeper=88
 Sell_Mechanic=12983
-Sell_Flea Market=50000
+Sell_Flea Market=55555
 weight=0.664000
-fleaMarketFee=2730
+fleaMarketFee=3123
 propertiestype=ItemPropertiesWeapon

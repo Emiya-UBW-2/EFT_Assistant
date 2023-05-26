@@ -52,8 +52,8 @@ DogTagLv=0
 
 Reward_Rep=Mechanic+0.020000
 Reward_Item=[
-	Roublesx15000,
-	ASh-12 12.7x55 assault rifle Defaultx1,
+	Roublesx15000/|
+	ASh-12 12.7x55 assault rifle Defaultx1/|
 	NIXXOR lensx1
 ]
 

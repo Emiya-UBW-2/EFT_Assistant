@@ -3,46 +3,46 @@ Name=HK G36 5.56x45 assault rifle
 ShortName=G36
 Itemtype=Assault rifle
 ChildParts=[
-	HK G36 5.56x45 30-round magazine,
-	5.56x45 Colt AR-15 STANAG 30-round magazine,
-	5.56x45 HK Steel Maritime STANAG 30-round magazine,
-	5.56x45 HK PM Gen.2 STANAG 30-round magazine,
-	5.56x45 HK 30 STANAG polymer 30-round magazine,
-	5.56x45 Magpul PMAG D-60 STANAG 60-round magazine,
-	5.56x45 Magpul PMAG 10 GEN M3 STANAG 10-round magazine,
-	5.56x45 Magpul PMAG 20 GEN M3 STANAG 20-round magazine,
-	5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazine,
-	5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazine (FDE),
-	5.56x45 Magpul PMAG 40 GEN M3 STANAG 40-round magazine,
-	5.56x45 Magpul PMAG 40 GEN M3 STANAG 40-round magazine (FDE),
-	5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine,
-	5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine (FDE),
-	5.56x45 SureFire MAG5-100 STANAG 100-round magazine,
-	5.56x45 SureFire MAG5-60 STANAG 60-round magazine,
+	HK G36 5.56x45 30-round magazine/|
+	5.56x45 Colt AR-15 STANAG 30-round magazine/|
+	5.56x45 HK Steel Maritime STANAG 30-round magazine/|
+	5.56x45 HK PM Gen.2 STANAG 30-round magazine/|
+	5.56x45 HK 30 STANAG polymer 30-round magazine/|
+	5.56x45 Magpul PMAG D-60 STANAG 60-round magazine/|
+	5.56x45 Magpul PMAG 10 GEN M3 STANAG 10-round magazine/|
+	5.56x45 Magpul PMAG 20 GEN M3 STANAG 20-round magazine/|
+	5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazine/|
+	5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazine (FDE)/|
+	5.56x45 Magpul PMAG 40 GEN M3 STANAG 40-round magazine/|
+	5.56x45 Magpul PMAG 40 GEN M3 STANAG 40-round magazine (FDE)/|
+	5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine/|
+	5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine (FDE)/|
+	5.56x45 SureFire MAG5-100 STANAG 100-round magazine/|
+	5.56x45 SureFire MAG5-60 STANAG 60-round magazine/|
 	5.56x45 TROY BattleMag STANAG 30-round magazine
 ]
 ChildParts=[
-	HK G36 polymer stock,
+	HK G36 polymer stock/|
 	HK G36 KV adjustable stock
 ]
 ChildParts=[
-	HK G36 5.56x45 228mm barrel,
-	HK G36 5.56x45 318mm barrel,
+	HK G36 5.56x45 228mm barrel/|
+	HK G36 5.56x45 318mm barrel/|
 	HK G36 5.56x45 480mm barrel
 ]
 ChildParts=[
-	HK G36 2-vent handguard,
-	HK G36 6-vent handguard,
+	HK G36 2-vent handguard/|
+	HK G36 6-vent handguard/|
 	HK G36 4-vent handguard
 ]
 ChildParts=[
-	HK G36 STANAG magwell,
+	HK G36 STANAG magwell/|
 	HK G36 magwell
 ]
 ChildParts=[
-	HK G36 Hensoldt HKV 3x carry handle,
-	HK G36 Hensoldt HKV ZF 1.5x carry handle,
-	HK G36 optic rail with flip-up sights,
+	HK G36 Hensoldt HKV 3x carry handle/|
+	HK G36 Hensoldt HKV ZF 1.5x carry handle/|
+	HK G36 optic rail with flip-up sights/|
 	HK G36 sight mount
 ]
 Recoil=107.000000
@@ -51,15 +51,15 @@ Information_Eng=G36 is a 5.56x45mm assault rifle designed in the early 1990s by 
 basePrice=13000
 width=2
 height=1
-avg24hPrice=44518
-low24hPrice=35000
-lastOfferCount=14
+avg24hPrice=54108
+low24hPrice=42000
+lastOfferCount=30
 Sell_Prapor=6500
 Sell_Fence=5200
 Sell_Skier=6370
 Sell_Peacekeeper=49
 Sell_Mechanic=7280
-Sell_Flea Market=47999
+Sell_Flea Market=55000
 weight=0.800000
-fleaMarketFee=3231
+fleaMarketFee=3972
 propertiestype=ItemPropertiesWeapon

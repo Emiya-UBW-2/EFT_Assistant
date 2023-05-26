@@ -3,7 +3,7 @@ Name=AK-105 5.45x39 muzzle brake-compensator (6P44 0-20)
 ShortName=6P44 0-20
 Itemtype=Flashhider
 Conflict=[
-	AKS-74U Alfa Arms Goliaf handguard,
+	AKS-74U Alfa Arms Goliaf handguard/|
 ]
 Recoil=-8.000000
 Ergonomics=-2.000000
@@ -11,15 +11,15 @@ Information_Eng=A standard Izhmash-produced muzzle brake and compensator for the
 basePrice=600
 width=1
 height=1
-avg24hPrice=0
-low24hPrice=0
+avg24hPrice=30000
+low24hPrice=30000
 lastOfferCount=1
 Sell_Prapor=300
 Sell_Fence=240
 Sell_Skier=294
 Sell_Peacekeeper=2
 Sell_Mechanic=336
-Sell_Flea Market=6969
+Sell_Flea Market=30000
 weight=0.100000
-fleaMarketFee=926
+fleaMarketFee=10508
 propertiestype=ItemPropertiesWeaponMod

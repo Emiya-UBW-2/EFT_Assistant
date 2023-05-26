@@ -39,7 +39,7 @@ DogTagLv=0
 
 Reward_Rep=Prapor+0.020000
 Reward_Item=[
-	Roublesx150000,
+	Roublesx150000/|
 	12.7x55mm PS12Bx100
 ]
 

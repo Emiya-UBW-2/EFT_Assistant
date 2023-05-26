@@ -3,28 +3,28 @@ Name=AK Strike Industries TRAX 2 handguard extension
 ShortName=TRAX 2
 Itemtype=Handguard
 ChildParts=[
-	Strike Industries KeyMod 4 inch rail,
-	Vltor CASV KeyMod 2 inch rail,
+	Strike Industries KeyMod 4 inch rail/|
+	Vltor CASV KeyMod 2 inch rail/|
 	CNC Guns KeyMod 2 inch rail
 ]
 ChildParts=[
-	Strike Industries KeyMod 4 inch rail,
-	Vltor CASV KeyMod 2 inch rail,
+	Strike Industries KeyMod 4 inch rail/|
+	Vltor CASV KeyMod 2 inch rail/|
 	CNC Guns KeyMod 2 inch rail
 ]
 ChildParts=[
-	Holosun LS321 Tactical device,
-	AN/PEQ-15 tactical device,
-	AN/PEQ-2 tactical device,
-	LA-5B/PEQ tactical device,
-	Wilcox RAPTAR ES Tactical Rangefinder,
+	Holosun LS321 Tactical device/|
+	AN/PEQ-15 tactical device/|
+	AN/PEQ-2 tactical device/|
+	LA-5B/PEQ tactical device/|
+	Wilcox RAPTAR ES Tactical Rangefinder/|
 	Zenit Perst-3 tactical device
 ]
 Conflict=[
-	Kalashnikov AK-102 5.56x45 assault rifle,
-	Kalashnikov AK-104 7.62x39 assault rifle,
-	Kalashnikov AK-105 5.45x39 assault rifle,
-	PP-19-01 "Vityaz" 9x19 submachine gun,
+	Kalashnikov AK-102 5.56x45 assault rifle/|
+	Kalashnikov AK-104 7.62x39 assault rifle/|
+	Kalashnikov AK-105 5.45x39 assault rifle/|
+	PP-19-01 "Vityaz" 9x19 submachine gun/|
 	Saiga-9 9x19 carbine
 ]
 Recoil=-1.000000
@@ -33,15 +33,15 @@ Information_Eng=TRAX 2 is a front rail section that covers the gas block. Provid
 basePrice=7259
 width=1
 height=1
-avg24hPrice=13270
-low24hPrice=8100
-lastOfferCount=1
+avg24hPrice=8823
+low24hPrice=7000
+lastOfferCount=5
 Sell_Prapor=3629
 Sell_Fence=2903
 Sell_Skier=3556
 Sell_Peacekeeper=27
 Sell_Mechanic=4065
-Sell_Flea Market=8100
+Sell_Flea Market=7000
 weight=0.260000
-fleaMarketFee=460
+fleaMarketFee=427
 propertiestype=ItemPropertiesWeaponMod

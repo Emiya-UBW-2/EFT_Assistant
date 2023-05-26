@@ -3,25 +3,25 @@ Name=Simonov OP-SKS 7.62x39 carbine (Hunting Rifle Version)
 ShortName=OP-SKS
 Itemtype=Assault carbine
 ChildParts=[
-	SKS FAB Defense UAS chassis,
-	OP-SKS wooden stock,
-	SKS TAPCO Intrafuse chassis,
+	SKS FAB Defense UAS chassis/|
+	OP-SKS wooden stock/|
+	SKS TAPCO Intrafuse chassis/|
 	SKS TOZ wooden stock (56-A-231 Sb.5)
 ]
 ChildParts=[
 	SKS rear sight
 ]
 ChildParts=[
-	SKS 7.62x39 KCI 75-round drum magazine,
-	SKS 7.62x39 ProMag AALVX 35-round magazine,
-	SKS 7.62x39 ProMag SKS-A5 20-round magazine,
+	SKS 7.62x39 KCI 75-round drum magazine/|
+	SKS 7.62x39 ProMag AALVX 35-round magazine/|
+	SKS 7.62x39 ProMag SKS-A5 20-round magazine/|
 	SKS 7.62x39 10-round internal box magazine
 ]
 ChildParts=[
 	OP-SKS dovetail mount
 ]
 ChildParts=[
-	SKS Weapon Tuning 7.62x39 thread adapter,
+	SKS Weapon Tuning 7.62x39 thread adapter/|
 	SKS Hexagon 7.62x39 sound suppressor
 ]
 Recoil=155.000000
@@ -30,15 +30,15 @@ Information_Eng=Molot OP-SKS Carbine is designed for loading with 7,62x39 — th
 basePrice=21814
 width=4
 height=1
-avg24hPrice=38386
-low24hPrice=19500
-lastOfferCount=11
+avg24hPrice=39504
+low24hPrice=17777
+lastOfferCount=6
 Sell_Prapor=10907
 Sell_Fence=8725
 Sell_Skier=10688
 Sell_Peacekeeper=82
 Sell_Mechanic=12215
-Sell_Flea Market=26000
+Sell_Flea Market=30000
 weight=2.627000
-fleaMarketFee=1439
+fleaMarketFee=1600
 propertiestype=ItemPropertiesWeapon

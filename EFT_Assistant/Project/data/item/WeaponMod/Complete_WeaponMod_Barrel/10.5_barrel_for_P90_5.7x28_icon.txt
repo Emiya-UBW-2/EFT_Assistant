@@ -6,10 +6,10 @@ ChildParts=[
 	FN P90 5.7x28 flash hider
 ]
 Conflict=[
-	HK 416A5 MRS KeyMod 14 inch handguard,
-	HK 416A5 Quad Rail Extended handguard,
-	HK 416A5 Midwest Industries 13.5 inch M-LOK handguard,
-	HK 416A5 Strike Industries CRUX 15 inch M-LOK handguard,
+	HK 416A5 MRS KeyMod 14 inch handguard/|
+	HK 416A5 Quad Rail Extended handguard/|
+	HK 416A5 Midwest Industries 13.5 inch M-LOK handguard/|
+	HK 416A5 Strike Industries CRUX 15 inch M-LOK handguard/|
 	HK 416A5 TROY M-LOK 13 inch handguard
 ]
 Recoil=-5.000000
@@ -27,7 +27,7 @@ Sell_Skier=9604
 Sell_Peacekeeper=74
 Sell_Mechanic=10976
 Sell_Jaeger=11760
-Sell_Flea Market=500000
+Sell_Flea Market=222222
 weight=0.500000
-fleaMarketFee=111374
+fleaMarketFee=29077
 propertiestype=ItemPropertiesBarrel

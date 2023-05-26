@@ -14,168 +14,168 @@ Task_Kill=[
 	Factory-Scavsx10
 ]
 NeedItem=[
-	ER FULCRUM BAYONETx0,
-	Bars A-2607 95H18 knifex0,
-	Bars A-2607 Damascus knifex0,
-	Crash Axex0,
-	Cultist knifex0,
-	Freeman crowbarx0,
-	6Kh5 Bayonetx0,
-	Miller Bros. Blades M-2 Tactical Swordx0,
-	Red Rebel ice pickx0,
-	SOG Voodoo Hawk tactical tomahawkx0,
-	SP-8 Survival Machetex0,
-	Kiba Arms Tactical Tomahawkx0,
-	UVSR Taiga-1 survival machetex0,
-	Camper axex0,
-	Antique axex0,
+	ER FULCRUM BAYONETx0/|
+	Bars A-2607 95Kh18 knifex0/|
+	Bars A-2607 Damascus knifex0/|
+	Crash Axex0/|
+	Cultist knifex0/|
+	Freeman crowbarx0/|
+	6Kh5 Bayonetx0/|
+	Miller Bros. Blades M-2 Tactical Swordx0/|
+	Red Rebel ice pickx0/|
+	SOG Voodoo Hawk tactical tomahawkx0/|
+	SP-8 Survival Machetex0/|
+	Kiba Arms Tactical Tomahawkx0/|
+	UVSR Taiga-1 survival machetex0/|
+	Camper axex0/|
+	Antique axex0/|
 	MPL-50 entrenching toolx0
 ]
 Task_Kill=[
 	Streets of Tarkov-Scavsx10
 ]
 NeedItem=[
-	ER FULCRUM BAYONETx0,
-	Bars A-2607 95H18 knifex0,
-	Bars A-2607 Damascus knifex0,
-	Crash Axex0,
-	Cultist knifex0,
-	Freeman crowbarx0,
-	6Kh5 Bayonetx0,
-	Miller Bros. Blades M-2 Tactical Swordx0,
-	Red Rebel ice pickx0,
-	SOG Voodoo Hawk tactical tomahawkx0,
-	SP-8 Survival Machetex0,
-	Kiba Arms Tactical Tomahawkx0,
-	UVSR Taiga-1 survival machetex0,
-	Camper axex0,
-	Antique axex0,
+	ER FULCRUM BAYONETx0/|
+	Bars A-2607 95Kh18 knifex0/|
+	Bars A-2607 Damascus knifex0/|
+	Crash Axex0/|
+	Cultist knifex0/|
+	Freeman crowbarx0/|
+	6Kh5 Bayonetx0/|
+	Miller Bros. Blades M-2 Tactical Swordx0/|
+	Red Rebel ice pickx0/|
+	SOG Voodoo Hawk tactical tomahawkx0/|
+	SP-8 Survival Machetex0/|
+	Kiba Arms Tactical Tomahawkx0/|
+	UVSR Taiga-1 survival machetex0/|
+	Camper axex0/|
+	Antique axex0/|
 	MPL-50 entrenching toolx0
 ]
 Task_Kill=[
 	Lighthouse-Scavsx10
 ]
 NeedItem=[
-	ER FULCRUM BAYONETx0,
-	Bars A-2607 95H18 knifex0,
-	Bars A-2607 Damascus knifex0,
-	Crash Axex0,
-	Cultist knifex0,
-	Freeman crowbarx0,
-	6Kh5 Bayonetx0,
-	Miller Bros. Blades M-2 Tactical Swordx0,
-	Red Rebel ice pickx0,
-	SOG Voodoo Hawk tactical tomahawkx0,
-	SP-8 Survival Machetex0,
-	Kiba Arms Tactical Tomahawkx0,
-	UVSR Taiga-1 survival machetex0,
-	Camper axex0,
-	Antique axex0,
+	ER FULCRUM BAYONETx0/|
+	Bars A-2607 95Kh18 knifex0/|
+	Bars A-2607 Damascus knifex0/|
+	Crash Axex0/|
+	Cultist knifex0/|
+	Freeman crowbarx0/|
+	6Kh5 Bayonetx0/|
+	Miller Bros. Blades M-2 Tactical Swordx0/|
+	Red Rebel ice pickx0/|
+	SOG Voodoo Hawk tactical tomahawkx0/|
+	SP-8 Survival Machetex0/|
+	Kiba Arms Tactical Tomahawkx0/|
+	UVSR Taiga-1 survival machetex0/|
+	Camper axex0/|
+	Antique axex0/|
 	MPL-50 entrenching toolx0
 ]
 Task_Kill=[
 	Woods-Scavsx10
 ]
 NeedItem=[
-	ER FULCRUM BAYONETx0,
-	Bars A-2607 95H18 knifex0,
-	Bars A-2607 Damascus knifex0,
-	Crash Axex0,
-	Cultist knifex0,
-	Freeman crowbarx0,
-	6Kh5 Bayonetx0,
-	Miller Bros. Blades M-2 Tactical Swordx0,
-	Red Rebel ice pickx0,
-	SOG Voodoo Hawk tactical tomahawkx0,
-	SP-8 Survival Machetex0,
-	Kiba Arms Tactical Tomahawkx0,
-	UVSR Taiga-1 survival machetex0,
-	Camper axex0,
-	Antique axex0,
+	ER FULCRUM BAYONETx0/|
+	Bars A-2607 95Kh18 knifex0/|
+	Bars A-2607 Damascus knifex0/|
+	Crash Axex0/|
+	Cultist knifex0/|
+	Freeman crowbarx0/|
+	6Kh5 Bayonetx0/|
+	Miller Bros. Blades M-2 Tactical Swordx0/|
+	Red Rebel ice pickx0/|
+	SOG Voodoo Hawk tactical tomahawkx0/|
+	SP-8 Survival Machetex0/|
+	Kiba Arms Tactical Tomahawkx0/|
+	UVSR Taiga-1 survival machetex0/|
+	Camper axex0/|
+	Antique axex0/|
 	MPL-50 entrenching toolx0
 ]
 Task_Kill=[
 	Shoreline-Scavsx10
 ]
 NeedItem=[
-	ER FULCRUM BAYONETx0,
-	Bars A-2607 95H18 knifex0,
-	Bars A-2607 Damascus knifex0,
-	Crash Axex0,
-	Cultist knifex0,
-	Freeman crowbarx0,
-	6Kh5 Bayonetx0,
-	Miller Bros. Blades M-2 Tactical Swordx0,
-	Red Rebel ice pickx0,
-	SOG Voodoo Hawk tactical tomahawkx0,
-	SP-8 Survival Machetex0,
-	Kiba Arms Tactical Tomahawkx0,
-	UVSR Taiga-1 survival machetex0,
-	Camper axex0,
-	Antique axex0,
+	ER FULCRUM BAYONETx0/|
+	Bars A-2607 95Kh18 knifex0/|
+	Bars A-2607 Damascus knifex0/|
+	Crash Axex0/|
+	Cultist knifex0/|
+	Freeman crowbarx0/|
+	6Kh5 Bayonetx0/|
+	Miller Bros. Blades M-2 Tactical Swordx0/|
+	Red Rebel ice pickx0/|
+	SOG Voodoo Hawk tactical tomahawkx0/|
+	SP-8 Survival Machetex0/|
+	Kiba Arms Tactical Tomahawkx0/|
+	UVSR Taiga-1 survival machetex0/|
+	Camper axex0/|
+	Antique axex0/|
 	MPL-50 entrenching toolx0
 ]
 Task_Kill=[
 	Interchange-Scavsx10
 ]
 NeedItem=[
-	ER FULCRUM BAYONETx0,
-	Bars A-2607 95H18 knifex0,
-	Bars A-2607 Damascus knifex0,
-	Crash Axex0,
-	Cultist knifex0,
-	Freeman crowbarx0,
-	6Kh5 Bayonetx0,
-	Miller Bros. Blades M-2 Tactical Swordx0,
-	Red Rebel ice pickx0,
-	SOG Voodoo Hawk tactical tomahawkx0,
-	SP-8 Survival Machetex0,
-	Kiba Arms Tactical Tomahawkx0,
-	UVSR Taiga-1 survival machetex0,
-	Camper axex0,
-	Antique axex0,
+	ER FULCRUM BAYONETx0/|
+	Bars A-2607 95Kh18 knifex0/|
+	Bars A-2607 Damascus knifex0/|
+	Crash Axex0/|
+	Cultist knifex0/|
+	Freeman crowbarx0/|
+	6Kh5 Bayonetx0/|
+	Miller Bros. Blades M-2 Tactical Swordx0/|
+	Red Rebel ice pickx0/|
+	SOG Voodoo Hawk tactical tomahawkx0/|
+	SP-8 Survival Machetex0/|
+	Kiba Arms Tactical Tomahawkx0/|
+	UVSR Taiga-1 survival machetex0/|
+	Camper axex0/|
+	Antique axex0/|
 	MPL-50 entrenching toolx0
 ]
 Task_Kill=[
 	Customs-Scavsx10
 ]
 NeedItem=[
-	ER FULCRUM BAYONETx0,
-	Bars A-2607 95H18 knifex0,
-	Bars A-2607 Damascus knifex0,
-	Crash Axex0,
-	Cultist knifex0,
-	Freeman crowbarx0,
-	6Kh5 Bayonetx0,
-	Miller Bros. Blades M-2 Tactical Swordx0,
-	Red Rebel ice pickx0,
-	SOG Voodoo Hawk tactical tomahawkx0,
-	SP-8 Survival Machetex0,
-	Kiba Arms Tactical Tomahawkx0,
-	UVSR Taiga-1 survival machetex0,
-	Camper axex0,
-	Antique axex0,
+	ER FULCRUM BAYONETx0/|
+	Bars A-2607 95Kh18 knifex0/|
+	Bars A-2607 Damascus knifex0/|
+	Crash Axex0/|
+	Cultist knifex0/|
+	Freeman crowbarx0/|
+	6Kh5 Bayonetx0/|
+	Miller Bros. Blades M-2 Tactical Swordx0/|
+	Red Rebel ice pickx0/|
+	SOG Voodoo Hawk tactical tomahawkx0/|
+	SP-8 Survival Machetex0/|
+	Kiba Arms Tactical Tomahawkx0/|
+	UVSR Taiga-1 survival machetex0/|
+	Camper axex0/|
+	Antique axex0/|
 	MPL-50 entrenching toolx0
 ]
 Task_Kill=[
 	Reserve-Scavsx10
 ]
 NeedItem=[
-	ER FULCRUM BAYONETx0,
-	Bars A-2607 95H18 knifex0,
-	Bars A-2607 Damascus knifex0,
-	Crash Axex0,
-	Cultist knifex0,
-	Freeman crowbarx0,
-	6Kh5 Bayonetx0,
-	Miller Bros. Blades M-2 Tactical Swordx0,
-	Red Rebel ice pickx0,
-	SOG Voodoo Hawk tactical tomahawkx0,
-	SP-8 Survival Machetex0,
-	Kiba Arms Tactical Tomahawkx0,
-	UVSR Taiga-1 survival machetex0,
-	Camper axex0,
-	Antique axex0,
+	ER FULCRUM BAYONETx0/|
+	Bars A-2607 95Kh18 knifex0/|
+	Bars A-2607 Damascus knifex0/|
+	Crash Axex0/|
+	Cultist knifex0/|
+	Freeman crowbarx0/|
+	6Kh5 Bayonetx0/|
+	Miller Bros. Blades M-2 Tactical Swordx0/|
+	Red Rebel ice pickx0/|
+	SOG Voodoo Hawk tactical tomahawkx0/|
+	SP-8 Survival Machetex0/|
+	Kiba Arms Tactical Tomahawkx0/|
+	UVSR Taiga-1 survival machetex0/|
+	Camper axex0/|
+	Antique axex0/|
 	MPL-50 entrenching toolx0
 ]
 

@@ -14,9 +14,9 @@ Task_Kill=[
 	Customs-any PMC operativesx15
 ]
 NeedItem=[
-	MP-133 12ga pump-action shotgunx0,
-	MP-153 12ga semi-automatic shotgunx0,
-	MP-155 12ga semi-automatic shotgunx0,
+	MP-133 12ga pump-action shotgunx0/|
+	MP-153 12ga semi-automatic shotgunx0/|
+	MP-155 12ga semi-automatic shotgunx0/|
 	MP-43-1C 12ga double-barrel shotgunx0
 ]
 Task_Else=‘•”õ‚ª•K—v:{
@@ -33,8 +33,8 @@ Task_Else=}
 Reward_Rep=Skier+0.050000
 Reward_Rep=Fence+0.050000
 Reward_Item=[
-	Roublesx150000,
-	Kel-Tec RFB 7.62x51 rifle Defaultx1,
+	Roublesx150000/|
+	Kel-Tec RFB 7.62x51 rifle Defaultx1/|
 	12/70 AP-20 armor-piercing slugx100
 ]
 

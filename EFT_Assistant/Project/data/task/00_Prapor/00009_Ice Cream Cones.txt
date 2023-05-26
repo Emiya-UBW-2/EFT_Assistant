@@ -40,8 +40,8 @@ Task_Else=Locate the locked bunker on Woods
 
 Reward_Rep=Prapor+0.020000
 Reward_Item=[
-	Roublesx17000,
-	5.45x39mm PP gsx200,
+	Roublesx17000/|
+	5.45x39mm PP gsx200/|
 	RPK-16 5.45x39 light machine gun Drumx1
 ]
 

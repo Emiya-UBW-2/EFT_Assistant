@@ -4,7 +4,7 @@ Trader=Peacekeeper
 
 NeedTask=Wet Job - Part 4
 NeedLevel=14
-NeedItem=[Health Resort east wing room 328 keyx1,Health Resort universal utility room keyx1]
+NeedItem=[Health Resort east wing room 328 keyx1/|Health Resort universal utility room keyx1]
 
 CanRestart=false
 NeedKappa=true
@@ -26,7 +26,7 @@ Task_Else=èEÇ¡Çƒî[ïi:Shoreline-Working hard drivex1
 
 Reward_Rep=Peacekeeper+0.030000
 Reward_Item=[
-	Dollarsx1700,
+	Dollarsx1700/|
 	HighCom Trooper TFO body armor (Multicam)x1
 ]
 

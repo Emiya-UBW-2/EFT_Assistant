@@ -3,7 +3,7 @@ Name=VPO-136 "Vepr-KM" wooden handguard
 ShortName=VPO136
 Itemtype=Handguard
 Conflict=[
-	AK Zenit B-33 dust cover,
+	AK Zenit B-33 dust cover/|
 ]
 Recoil=0.000000
 Ergonomics=4.000000
@@ -11,8 +11,8 @@ Information_Eng=A standard wooden handguard for VPO-136 Vepr KM carbines, manufa
 basePrice=801
 width=1
 height=1
-avg24hPrice=400
-low24hPrice=400
+avg24hPrice=0
+low24hPrice=0
 lastOfferCount=1
 Sell_Prapor=400
 Sell_Fence=320

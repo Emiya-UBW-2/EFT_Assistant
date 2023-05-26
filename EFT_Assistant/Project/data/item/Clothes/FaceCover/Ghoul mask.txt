@@ -3,62 +3,62 @@ Name=Ghoul mask
 ShortName=Ghoul
 Itemtype=Face Cover
 Conflict=[
-	Army cap,
-	Baseball cap,
-	BEAR baseball cap (Green),
-	USEC baseball cap (Tan),
-	Ded Moroz hat,
-	EMERCOM cap,
-	Police cap,
-	Santa hat,
-	UX PRO beanie,
-	Kinda cowboy hat,
-	Tactical fleece beanie,
-	Ski hat with holes for eyes,
-	Armasight NVG head strap,
-	TSh-4M-L soft tank crew helmet,
-	Wilcox Skull Lock head mount,
-	Rivals 2020 cap,
-	DevTac Ronin ballistic helmet,
-	Bandana,
-	BEAR baseball cap (Black),
-	Beret (Black),
-	Beret (Blue),
-	Beret (Olive),
-	Bomber beanie,
-	Door Kicker boonie hat,
-	Kotton beanie,
-	Army cap (Black),
-	Army cap (Coyote Tan),
-	Army cap (CADPAT),
-	Army cap (Flora),
-	Army cap (Desert),
-	Army cap (UCP),
-	MIL-TEC boonie hat,
-	Stich Profi Chimera boonie hat,
-	Pompon hat,
-	Rivals 2020 beanie,
-	BOSS cap,
-	USEC baseball cap (Black),
-	Maska-1SCh bulletproof helmet (Olive Drab),
-	Maska-1SCh bulletproof helmet (Killa),
-	Rys-T bulletproof helmet,
-	Jack-o'-lantern tactical pumpkin helmet,
-	Beanie,
+	Army cap/|
+	Baseball cap/|
+	BEAR baseball cap (Green)/|
+	USEC baseball cap (Tan)/|
+	Ded Moroz hat/|
+	EMERCOM cap/|
+	Police cap/|
+	Santa hat/|
+	UX PRO beanie/|
+	Kinda cowboy hat/|
+	Tactical fleece beanie/|
+	Ski hat with holes for eyes/|
+	Armasight NVG head strap/|
+	TSh-4M-L soft tank crew helmet/|
+	Wilcox Skull Lock head mount/|
+	Rivals 2020 cap/|
+	DevTac Ronin ballistic helmet/|
+	Bandana/|
+	BEAR baseball cap (Black)/|
+	Beret (Black)/|
+	Beret (Blue)/|
+	Beret (Olive)/|
+	Bomber beanie/|
+	Door Kicker boonie hat/|
+	Kotton beanie/|
+	Army cap (Black)/|
+	Army cap (Coyote Tan)/|
+	Army cap (CADPAT)/|
+	Army cap (Flora)/|
+	Army cap (Desert)/|
+	Army cap (UCP)/|
+	MIL-TEC boonie hat/|
+	Stich Profi Chimera boonie hat/|
+	Pompon hat/|
+	Rivals 2020 beanie/|
+	BOSS cap/|
+	USEC baseball cap (Black)/|
+	Maska-1SCh bulletproof helmet (Olive Drab)/|
+	Maska-1SCh bulletproof helmet (Killa)/|
+	Rys-T bulletproof helmet/|
+	Jack-o'-lantern tactical pumpkin helmet/|
+	Beanie/|
 	Ushanka ear flap hat
 ]
 Information_Eng=A rubber mask of a Ghoul. If you want to terrify Scavs and make them look for new pants, this mask is for you.
 basePrice=35533
 width=2
 height=2
-avg24hPrice=30528
-low24hPrice=19500
-lastOfferCount=22
+avg24hPrice=29773
+low24hPrice=17777
+lastOfferCount=10
 Sell_Fence=14213
 Sell_Skier=17411
 Sell_Peacekeeper=134
 Sell_Ragman=22030
-Sell_Flea Market=28000
+Sell_Flea Market=34998
 weight=0.150000
-fleaMarketFee=1929
+fleaMarketFee=2113
 propertiestype=

@@ -61,9 +61,9 @@ Reward_Item=[
 ]
 
 Reward_EXP=0
-Task_PinPoint=[-0.042725,0.399170,0.000000]
-Task_PinMap=[Customs,1]
-Task_PinPoint=[-0.267334,-0.413086,0.000000]
-Task_PinMap=[Interchange,1]
-Task_PinPoint=[0.297852,-0.197754,0.000000]
-Task_PinMap=[Woods,1]
+Task_PinPoint=[-0.042725/|0.399170/|0.000000]
+Task_PinMap=[Customs/|1]
+Task_PinPoint=[-0.267334/|-0.413086/|0.000000]
+Task_PinMap=[Interchange/|1]
+Task_PinPoint=[0.297852/|-0.197754/|0.000000]
+Task_PinMap=[Woods/|1]

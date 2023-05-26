@@ -13,34 +13,34 @@ Task_Kill=[
 	Scavsx20
 ]
 NeedItem=[
-	Saiga 12ga ver.10 12/76 semi-automatic shotgunx0,
-	MP-133 12ga pump-action shotgunx0,
-	Remington Model 870 12ga pump-action shotgunx0,
-	Mossberg 590A1 12ga pump-action shotgunx0,
-	MP-153 12ga semi-automatic shotgunx0,
-	MP-43-1C 12ga double-barrel shotgunx0,
-	MP-155 12ga semi-automatic shotgunx0,
+	Saiga 12ga ver.10 12/76 semi-automatic shotgunx0/|
+	MP-133 12ga pump-action shotgunx0/|
+	Remington Model 870 12ga pump-action shotgunx0/|
+	Mossberg 590A1 12ga pump-action shotgunx0/|
+	MP-153 12ga semi-automatic shotgunx0/|
+	MP-43-1C 12ga double-barrel shotgunx0/|
+	MP-155 12ga semi-automatic shotgunx0/|
 	Benelli M3 Super 90 dual-mode 12ga shotgunx0
 ]
 NeedItem=[
-	SilencerCo Salvo 12 12ga sound suppressorx0,
+	SilencerCo Salvo 12 12ga sound suppressorx0/|
 	Hexagon 12K 12ga sound suppressorx0
 ]
 Task_Kill=[
 	any PMC operativesx10
 ]
 NeedItem=[
-	Saiga 12ga ver.10 12/76 semi-automatic shotgunx0,
-	MP-133 12ga pump-action shotgunx0,
-	Remington Model 870 12ga pump-action shotgunx0,
-	Mossberg 590A1 12ga pump-action shotgunx0,
-	MP-153 12ga semi-automatic shotgunx0,
-	MP-43-1C 12ga double-barrel shotgunx0,
-	MP-155 12ga semi-automatic shotgunx0,
+	Saiga 12ga ver.10 12/76 semi-automatic shotgunx0/|
+	MP-133 12ga pump-action shotgunx0/|
+	Remington Model 870 12ga pump-action shotgunx0/|
+	Mossberg 590A1 12ga pump-action shotgunx0/|
+	MP-153 12ga semi-automatic shotgunx0/|
+	MP-43-1C 12ga double-barrel shotgunx0/|
+	MP-155 12ga semi-automatic shotgunx0/|
 	Benelli M3 Super 90 dual-mode 12ga shotgunx0
 ]
 NeedItem=[
-	SilencerCo Salvo 12 12ga sound suppressorx0,
+	SilencerCo Salvo 12 12ga sound suppressorx0/|
 	Hexagon 12K 12ga sound suppressorx0
 ]
 
@@ -57,7 +57,7 @@ NeedItem=[
 
 Reward_Rep=Skier+0.050000
 Reward_Item=[
-	Roublesx100000,
+	Roublesx100000/|
 	Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle Saboteurx1
 ]
 

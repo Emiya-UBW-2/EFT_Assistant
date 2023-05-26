@@ -3,7 +3,7 @@ Name=TOZ KS-23M 23x75mm pump-action shotgun
 ShortName=KS-23M
 Itemtype=Shotgun
 ChildParts=[
-	KS-23 23x75 510mm barrel,
+	KS-23 23x75 510mm barrel/|
 	KS-23 23x75 700mm barrel
 ]
 ChildParts=[
@@ -13,7 +13,7 @@ ChildParts=[
 	KS-23M 23x75 3-shell magazine cap
 ]
 ChildParts=[
-	KS-23 wooden stock,
+	KS-23 wooden stock/|
 	KS-23M pistol grip
 ]
 Recoil=519.000000

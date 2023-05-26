@@ -26,8 +26,8 @@ DogTagLv=0
 
 Reward_Rep=Jaeger+0.020000
 Reward_Item=[
-	Roublesx40000,
-	Remington Model 700 7.62x51 bolt-action sniper rifle AAC SDx1,
+	Roublesx40000/|
+	Remington Model 700 7.62x51 bolt-action sniper rifle AAC SDx1/|
 	FORT Redut-M body armorx1
 ]
 

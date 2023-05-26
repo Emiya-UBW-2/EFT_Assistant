@@ -35,7 +35,7 @@ Task_Else=脱出ステータス:[Survived]
 
 Reward_Rep=Skier+0.030000
 Reward_Item=[
-	Roublesx114000,
+	Roublesx114000/|
 	TDI KRISS Vector Gen.2 9x19 submachine gun Defaultx1
 ]
 

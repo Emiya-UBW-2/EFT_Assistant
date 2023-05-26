@@ -3,13 +3,13 @@ Name=NcSTAR MPR45 Backup mount
 ShortName=MPR45
 Itemtype=Mount
 ChildParts=[
-	BelOMO PK-06 reflex sight,
-	Torrey Pines Logic T12W 30Hz thermal reflex sight,
-	Aimpoint Micro Standard Mount,
-	Aimpoint Micro H-2 Standard Mount,
-	B&T QD NAR mount for Aimpoint ACRO,
-	Burris FastFire Weaver Base,
-	DeltaPoint Cross Slot Mount base,
+	BelOMO PK-06 reflex sight/|
+	Torrey Pines Logic T12W 30Hz thermal reflex sight/|
+	Aimpoint Micro Standard Mount/|
+	Aimpoint Micro H-2 Standard Mount/|
+	B&T QD NAR mount for Aimpoint ACRO/|
+	Burris FastFire Weaver Base/|
+	DeltaPoint Cross Slot Mount base/|
 	Trijicon RMR low profile mount
 ]
 Recoil=0.000000
@@ -18,16 +18,16 @@ Information_Eng=A universal mount by NcStar that allows installing an auxiliary 
 basePrice=3088
 width=1
 height=1
-avg24hPrice=38194
-low24hPrice=29998
-lastOfferCount=10
+avg24hPrice=43744
+low24hPrice=21000
+lastOfferCount=6
 Sell_Prapor=1544
 Sell_Fence=1235
 Sell_Skier=1513
 Sell_Peacekeeper=12
 Sell_Mechanic=1729
 Sell_Jaeger=1852
-Sell_Flea Market=30000
+Sell_Flea Market=40069
 weight=0.040000
-fleaMarketFee=3557
+fleaMarketFee=5720
 propertiestype=ItemPropertiesWeaponMod

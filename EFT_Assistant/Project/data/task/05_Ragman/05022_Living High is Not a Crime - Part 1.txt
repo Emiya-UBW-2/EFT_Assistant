@@ -9,8 +9,8 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
-NeedItem=Bronze lionx2
-Task_FiR_HandOver=[Bronze lionx2]
+NeedItem=Bronze lion figurinex2
+Task_FiR_HandOver=[Bronze lion figurinex2]
 DogTagLv=0
 NeedItem=Horse figurinex2
 Task_FiR_HandOver=[Horse figurinex2]
@@ -78,7 +78,7 @@ DogTagLv=0
 
 Reward_Rep=Ragman+0.030000
 Reward_Item=[
-	Golden neck chainx3,
+	Golden neck chainx3/|
 	Vulkan-5 (LShZ-5) bulletproof helmetx1
 ]
 

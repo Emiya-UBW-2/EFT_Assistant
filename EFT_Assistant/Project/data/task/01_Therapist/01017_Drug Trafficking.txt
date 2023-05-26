@@ -28,12 +28,12 @@ DogTagLv=0
 
 Reward_Rep=Therapist+0.030000
 Reward_Item=[
-	Roublesx45000,
-	Propital regenerative stimulant injectorx1,
-	eTG-change regenerative stimulant injectorx1,
+	Roublesx45000/|
+	Propital regenerative stimulant injectorx1/|
+	eTG-change regenerative stimulant injectorx1/|
 	Zagustin hemostatic drug injectorx1
 ]
 
 Reward_EXP=7500
-Task_PinPoint=[-0.338379,-0.089355,0.000000]
-Task_PinMap=[Lighthouse,1]
+Task_PinPoint=[-0.338379/|-0.089355/|0.000000]
+Task_PinMap=[Lighthouse/|1]

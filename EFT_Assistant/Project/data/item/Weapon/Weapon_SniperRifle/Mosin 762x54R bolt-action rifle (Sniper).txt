@@ -3,23 +3,23 @@ Name=Mosin 7.62x54R bolt-action rifle (Sniper)
 ShortName=Mosin (Sniper)
 Itemtype=Sniper rifle
 ChildParts=[
-	Mosin Rifle 7.62x54R 5-round magazine,
+	Mosin Rifle 7.62x54R 5-round magazine/|
 	Mosin Rifle 7.62x54R ProMag Archangel OPFOR 10-round magazine
 ]
 ChildParts=[
-	Mosin Rifle ATI Monte Carlo chassis,
-	Mosin Rifle sawn-off stock,
-	Mosin Rifle sniper carbine stock,
-	Mosin Rifle carbine stock,
-	Mosin Rifle Infantry stock,
-	Mosin Rifle sawn-off sniper stock,
-	Mosin Rifle standard stock,
+	Mosin Rifle ATI Monte Carlo chassis/|
+	Mosin Rifle sawn-off stock/|
+	Mosin Rifle sniper carbine stock/|
+	Mosin Rifle carbine stock/|
+	Mosin Rifle Infantry stock/|
+	Mosin Rifle sawn-off sniper stock/|
+	Mosin Rifle standard stock/|
 	Mosin Rifle ProMag Archangel OPFOR PRS chassis
 ]
 ChildParts=[
-	Mosin Carbine 7.62x54R 514mm barrel,
-	Mosin Rifle 7.62x54R sawn-off 220mm threaded barrel,
-	Mosin Rifle 7.62x54R sawn-off 200mm barrel,
+	Mosin Carbine 7.62x54R 514mm barrel/|
+	Mosin Rifle 7.62x54R sawn-off 220mm threaded barrel/|
+	Mosin Rifle 7.62x54R sawn-off 200mm barrel/|
 	Mosin Rifle 7.62x54R 730mm regular barrel
 ]
 ChildParts=[
@@ -31,16 +31,16 @@ Information_Eng=Mosin–Nagant M91/30 PU is a sniper variant of the famous russi
 basePrice=15577
 width=1
 height=1
-avg24hPrice=61819
-low24hPrice=30000
-lastOfferCount=1
+avg24hPrice=66259
+low24hPrice=35000
+lastOfferCount=2
 Sell_Prapor=7788
 Sell_Fence=6230
 Sell_Skier=7632
 Sell_Peacekeeper=59
 Sell_Mechanic=8723
 Sell_Jaeger=9346
-Sell_Flea Market=66500
+Sell_Flea Market=60000
 weight=0.800000
-fleaMarketFee=4826
+fleaMarketFee=4126
 propertiestype=ItemPropertiesWeapon

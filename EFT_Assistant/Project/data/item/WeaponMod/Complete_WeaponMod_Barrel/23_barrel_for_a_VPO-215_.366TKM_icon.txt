@@ -3,7 +3,7 @@ Name=VPO-215 "Gornostay" .366TKM 23 inch barrel
 ShortName=215 23"
 Itemtype=Barrel
 ChildParts=[
-	VPO-215 "Gornostay" thread protection cap,
+	VPO-215 "Gornostay" thread protection cap/|
 	Rotor 43 .366 TKM muzzle brake-compensator
 ]
 Recoil=-7.000000

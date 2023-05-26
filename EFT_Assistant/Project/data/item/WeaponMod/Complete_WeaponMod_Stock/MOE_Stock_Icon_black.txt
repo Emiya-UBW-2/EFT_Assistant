@@ -6,8 +6,8 @@ ChildParts=[
 	Magpul MOE Carbine rubber buttpad
 ]
 Conflict=[
-	AR-15 ADAR 2-15 wooden stock,
-	AR-15 Hera Arms CQR pistol grip/buttstock,
+	AR-15 ADAR 2-15 wooden stock/|
+	AR-15 Hera Arms CQR pistol grip/buttstock/|
 ]
 Recoil=-30.000002
 Ergonomics=8.000000
@@ -15,16 +15,16 @@ Information_Eng=A drop-in replacement buttstock for AR-15/M16 carbines by Magpul
 basePrice=8719
 width=2
 height=1
-avg24hPrice=37155
-low24hPrice=20000
-lastOfferCount=21
+avg24hPrice=40071
+low24hPrice=15000
+lastOfferCount=24
 Sell_Prapor=4359
 Sell_Fence=3487
 Sell_Skier=4272
 Sell_Peacekeeper=33
 Sell_Mechanic=4882
 Sell_Jaeger=5231
-Sell_Flea Market=25000
+Sell_Flea Market=18888
 weight=0.226000
-fleaMarketFee=1499
+fleaMarketFee=1032
 propertiestype=ItemPropertiesWeaponMod

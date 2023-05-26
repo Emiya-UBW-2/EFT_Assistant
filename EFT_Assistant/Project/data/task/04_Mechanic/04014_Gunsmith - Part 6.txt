@@ -32,9 +32,9 @@ Task_Else=width >= 0
 
 Reward_Rep=Mechanic+0.010000
 Reward_Item=[
-	Roublesx50000,
-	Pack of screwsx2,
-	Phase control relayx2,
+	Roublesx50000/|
+	Pack of screwsx2/|
+	Phase control relayx2/|
 	7.62x39mm BP gzhx60
 ]
 

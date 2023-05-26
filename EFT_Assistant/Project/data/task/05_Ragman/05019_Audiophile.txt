@@ -33,8 +33,8 @@ Task_Else=E‚Á‚Ä”[•i:Streets of Tarkov-AG guitar pickx1
 
 Reward_Rep=Ragman+0.020000
 Reward_Item=[
-	Roublesx87000,
-	Roler Submariner gold wrist watchx1,
+	Roublesx87000/|
+	Roler Submariner gold wrist watchx1/|
 	Gold skull ringx1
 ]
 

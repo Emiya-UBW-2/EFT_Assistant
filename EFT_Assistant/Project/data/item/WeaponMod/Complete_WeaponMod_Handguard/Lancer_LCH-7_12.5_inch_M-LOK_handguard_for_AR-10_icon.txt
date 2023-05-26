@@ -3,25 +3,25 @@ Name=AR-10 Lancer LCH7 12.5 inch M-LOK handguard
 ShortName=LCH7 12.5"
 Itemtype=Handguard
 ChildParts=[
-	Magpul M-LOK 2.5 inch rail,
-	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK 2.5 inch rail/|
+	Magpul M-LOK Cantilever Mount/|
 	Magpul M-LOK Offset Light Mount
 ]
 ChildParts=[
-	Magpul M-LOK 2.5 inch rail,
-	Magpul M-LOK Cantilever Mount,
+	Magpul M-LOK 2.5 inch rail/|
+	Magpul M-LOK Cantilever Mount/|
 	Magpul M-LOK Offset Light Mount
 ]
 ChildParts=[
-	Magpul M-LOK AFG tactical foregrip (Black),
-	Magpul M-LOK AFG tactical foregrip (FDE),
-	Magpul M-LOK AFG tactical foregrip (Olive Drab),
-	Magpul M-LOK AFG tactical foregrip (Stealth Gray),
+	Magpul M-LOK AFG tactical foregrip (Black)/|
+	Magpul M-LOK AFG tactical foregrip (FDE)/|
+	Magpul M-LOK AFG tactical foregrip (Olive Drab)/|
+	Magpul M-LOK AFG tactical foregrip (Stealth Gray)/|
 	Magpul M-LOK 4.1 inch rail
 ]
 Conflict=[
-	AR-10 JP Enterprises Gas System-6,
-	M4A1 front sight with gas block,
+	AR-10 JP Enterprises Gas System-6/|
+	M4A1 front sight with gas block/|
 	AR-15 Windham Weaponry Rail Gas Block
 ]
 Recoil=-1.000000
@@ -30,15 +30,15 @@ Information_Eng=The Lancer LCH7 12.5 inch M-LOK handguard for AR-10 systems equi
 basePrice=21200
 width=3
 height=1
-avg24hPrice=32614
-low24hPrice=23000
-lastOfferCount=13
+avg24hPrice=29373
+low24hPrice=20000
+lastOfferCount=6
 Sell_Prapor=10600
 Sell_Fence=8480
 Sell_Skier=10388
 Sell_Peacekeeper=80
 Sell_Mechanic=11872
-Sell_Flea Market=30999
+Sell_Flea Market=22000
 weight=0.360000
-fleaMarketFee=1640
+fleaMarketFee=1293
 propertiestype=ItemPropertiesWeaponMod

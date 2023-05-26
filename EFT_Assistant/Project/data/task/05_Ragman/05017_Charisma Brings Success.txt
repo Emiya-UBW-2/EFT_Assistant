@@ -19,7 +19,7 @@ Task_Else=Skill‚ğã‚°‚é:Charisma+10.000000
 
 Reward_Rep=Ragman+0.030000
 Reward_Item=[
-	Roublesx60000,
+	Roublesx60000/|
 	Ars Arma A18 Skanda plate carrierx1
 ]
 

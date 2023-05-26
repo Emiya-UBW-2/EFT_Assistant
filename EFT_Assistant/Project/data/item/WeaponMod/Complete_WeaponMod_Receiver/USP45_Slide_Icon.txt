@@ -3,12 +3,12 @@ Name=HK USP .45 ACP pistol slide
 ShortName=USP45
 Itemtype=Receiver
 ChildParts=[
-	HK USP Red Dot sight mount,
-	HK USP rear sight,
+	HK USP Red Dot sight mount/|
+	HK USP rear sight/|
 	HK USP Tactical rear sight
 ]
 ChildParts=[
-	HK USP front sight,
+	HK USP front sight/|
 	HK USP Tactical front sight
 ]
 Recoil=0.000000

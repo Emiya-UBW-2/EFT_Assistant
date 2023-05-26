@@ -3,21 +3,21 @@ Name=AR-15 Windham Weaponry Rail Gas Block
 ShortName=RGBlock
 Itemtype=Gas block
 ChildParts=[
-	HK MP7 flip-up front sight,
-	KAC Folding Micro front sight,
-	KAC Folding front sight,
-	KRISS Defiance low profile flip-up front sight,
-	Magpul MBUS Gen2 flip-up front sight,
-	Magpul MBUS Gen2 flip-up front sight (FDE),
-	MCX flip-up front sight,
-	MPX flip-up front sight,
+	HK MP7 flip-up front sight/|
+	KAC Folding Micro front sight/|
+	KAC Folding front sight/|
+	KRISS Defiance low profile flip-up front sight/|
+	Magpul MBUS Gen2 flip-up front sight/|
+	Magpul MBUS Gen2 flip-up front sight (FDE)/|
+	MCX flip-up front sight/|
+	MPX flip-up front sight/|
 	AR-15 Leapers UTG Low Profile A2 front sight
 ]
 Conflict=[
-	AR-15 Daniel Defense RIS II 9.5 handguard (Coyote Brown),
-	AR-15 Daniel Defense RIS II 9.5 handguard (Black),
-	R11 RSASS handguard,
-	AR-15 War Sport LVOA-C handguard (Black),
+	AR-15 Daniel Defense RIS II 9.5 handguard (Coyote Brown)/|
+	AR-15 Daniel Defense RIS II 9.5 handguard (Black)/|
+	R11 RSASS handguard/|
+	AR-15 War Sport LVOA-C handguard (Black)/|
 	AR-15 War Sport LVOA-S handguard (Black)
 ]
 Recoil=-2.000000
@@ -26,15 +26,15 @@ Information_Eng=Installed as replacement to standard AR-15-based weapons gas blo
 basePrice=4190
 width=1
 height=1
-avg24hPrice=18449
-low24hPrice=8888
-lastOfferCount=15
+avg24hPrice=14629
+low24hPrice=6666
+lastOfferCount=10
 Sell_Prapor=2095
 Sell_Fence=1676
 Sell_Skier=2053
 Sell_Peacekeeper=16
 Sell_Mechanic=2346
-Sell_Flea Market=8999
+Sell_Flea Market=6666
 weight=0.120000
-fleaMarketFee=491
+fleaMarketFee=351
 propertiestype=ItemPropertiesWeaponMod

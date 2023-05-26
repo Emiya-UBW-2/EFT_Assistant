@@ -6,61 +6,61 @@ ChildParts=[
 	AK-545 SAG Mk. 2.1 gas tube
 ]
 ChildParts=[
-	AK-105 5.45x39 muzzle brake-compensator (6P44 0-20),
-	AK-74M 5.45x39 muzzle brake-compensator (6P20 0-20),
-	AK-74 5.45x39 muzzle brake-compensator (6P20 0-20),
-	AK-74 thread type JMac Customs RRD-4C multi-caliber muzzle brake,
-	AK-74 PWS CQB 74 5.45x39 muzzle brake,
-	AK-74 SRVV MBR Jet 5.45x39 muzzle brake,
-	AK Hexagon Reactor 5.45x39 muzzle brake,
-	AK Zenit DTK-1 7.62x39/5.45x39 muzzle brake-compensator,
-	AKS-74U 5.45x39 muzzle brake (6P26 0-20),
-	SilencerCo Hybrid 46 Direct Thread Mount adapter,
-	AK-74 Hexagon 5.45x39 sound suppressor,
-	AK-74 TGP-A 5.45x39 sound suppressor,
+	AK-105 5.45x39 muzzle brake-compensator (6P44 0-20)/|
+	AK-74M 5.45x39 muzzle brake-compensator (6P20 0-20)/|
+	AK-74 5.45x39 muzzle brake-compensator (6P20 0-20)/|
+	AK-74 thread type JMac Customs RRD-4C multi-caliber muzzle brake/|
+	AK-74 PWS CQB 74 5.45x39 muzzle brake/|
+	AK-74 SRVV MBR Jet 5.45x39 muzzle brake/|
+	AK Hexagon Reactor 5.45x39 muzzle brake/|
+	AK Zenit DTK-1 7.62x39/5.45x39 muzzle brake-compensator/|
+	AKS-74U 5.45x39 muzzle brake (6P26 0-20)/|
+	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
+	AK-74 Hexagon 5.45x39 sound suppressor/|
+	AK-74 TGP-A 5.45x39 sound suppressor/|
 	AKS-74U PBS-4 5.45x39 sound suppressor
 ]
 ChildParts=[
-	AK Aeroknox Scorpius pistol grip,
-	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip,
-	AK FAB Defense AGR-47 pistol grip,
-	AK-12 pistol grip,
-	AK bakelite pistol grip (6P1 Sb.8V),
-	AK polymer pistol grip (6P1 Sb.8),
-	AKM bakelite pistol grip,
-	AKM wooden pistol grip,
-	AK bakelite pistol grip (6P4 Sb.9),
-	AK KGB MG-47 pistol grip,
-	AK KGB MG-47 pistol grip (Anodized Red),
-	AK Magpul MOE pistol grip (Black),
-	AK bakelite pistol grip,
-	AK Strike Industries Enhanced Pistol Grip (Black),
-	AK Strike Industries Enhanced Pistol Grip (FDE),
-	AK TangoDown Battle Grip pistol grip,
-	AK TangoDown Battle Grip pistol grip (FDE),
-	AK TAPCO SAW-Style pistol grip (Black),
-	AK TAPCO SAW-Style pistol grip (FDE),
-	AK US Palm pistol grip,
-	AK Zenit RK-3 pistol grip,
+	AK Aeroknox Scorpius pistol grip/|
+	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip/|
+	AK FAB Defense AGR-47 pistol grip/|
+	AK-12 pistol grip/|
+	AK bakelite pistol grip (6P1 Sb.8V)/|
+	AK polymer pistol grip (6P1 Sb.8)/|
+	AKM bakelite pistol grip/|
+	AKM wooden pistol grip/|
+	AK bakelite pistol grip (6P4 Sb.9)/|
+	AK KGB MG-47 pistol grip/|
+	AK KGB MG-47 pistol grip (Anodized Red)/|
+	AK Magpul MOE pistol grip (Black)/|
+	AK bakelite pistol grip/|
+	AK Strike Industries Enhanced Pistol Grip (Black)/|
+	AK Strike Industries Enhanced Pistol Grip (FDE)/|
+	AK TangoDown Battle Grip pistol grip/|
+	AK TangoDown Battle Grip pistol grip (FDE)/|
+	AK TAPCO SAW-Style pistol grip (Black)/|
+	AK TAPCO SAW-Style pistol grip (FDE)/|
+	AK US Palm pistol grip/|
+	AK Zenit RK-3 pistol grip/|
 	PP-19-01 "Vityaz" pistol grip
 ]
 ChildParts=[
 	AK-545 SAG buffer tube
 ]
 ChildParts=[
-	AK-74 5.45x39 6L18 45-round magazine,
-	AK-74 5.45x39 6L20 30-round magazine,
-	AK-74 5.45x39 6L23 30-round magazine,
-	AK-74 5.45x39 6L23 "Plum" 30-round magazine,
-	AK-74 5.45x39 6L26 45-round magazine,
-	AK-74 5.45x39 6L31 60-round magazine,
-	AK-74 "Saiga 545" 5.45x39 10-round magazine,
-	AK-74 5.45x39 Magpul PMAG 30 GEN M3 30-round magazine,
-	AK-12 5.45x39 30-round magazine,
+	AK-74 5.45x39 6L18 45-round magazine/|
+	AK-74 5.45x39 6L20 30-round magazine/|
+	AK-74 5.45x39 6L23 30-round magazine/|
+	AK-74 5.45x39 6L23 "Plum" 30-round magazine/|
+	AK-74 5.45x39 6L26 45-round magazine/|
+	AK-74 5.45x39 6L31 60-round magazine/|
+	AK-74 "Saiga 545" 5.45x39 10-round magazine/|
+	AK-74 5.45x39 Magpul PMAG 30 GEN M3 30-round magazine/|
+	AK-12 5.45x39 30-round magazine/|
 	RPK-16 5.45x39 95-round drum magazine
 ]
 ChildParts=[
-	AK CSS knurled charging handle,
+	AK CSS knurled charging handle/|
 	AK Zenit RP-1 charging handle
 ]
 Recoil=91.000000
@@ -69,15 +69,15 @@ Information_Eng=The AK-545 carbine by Sureshot Armament Group, based on modern A
 basePrice=28300
 width=4
 height=1
-avg24hPrice=48897
-low24hPrice=40000
-lastOfferCount=16
+avg24hPrice=45685
+low24hPrice=32069
+lastOfferCount=26
 Sell_Prapor=14150
 Sell_Fence=11320
 Sell_Skier=13867
 Sell_Peacekeeper=107
 Sell_Mechanic=15848
-Sell_Flea Market=40111
+Sell_Flea Market=45000
 weight=2.392000
-fleaMarketFee=2130
+fleaMarketFee=2368
 propertiestype=ItemPropertiesWeapon

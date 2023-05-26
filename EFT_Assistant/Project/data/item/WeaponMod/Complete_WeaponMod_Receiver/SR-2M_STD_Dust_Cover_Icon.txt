@@ -3,12 +3,8 @@ Name=SR-2M dust cover
 ShortName=SR-2M
 Itemtype=Receiver
 ChildParts=[
-	SR-2M Zenit B-17 mount,
+	SR-2M Zenit B-17 mount/|
 	SR-2M KP-SR2 reflex sight
-]
-Conflict=[
-	SR-2M Zenit B-17 mount,
-	SR-2M KP-SR2 reflex sight,
 ]
 Recoil=0.000000
 Ergonomics=5.000000

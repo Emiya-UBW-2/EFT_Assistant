@@ -3,11 +3,11 @@ Name=MP-155 Ultima pistol grip
 ShortName=Ultima
 Itemtype=Pistol grip
 ChildParts=[
-	MP-155 Ultima pistol grip rubber pad,
+	MP-155 Ultima pistol grip rubber pad/|
 	MP-155 Ultima polymer stock
 ]
 Conflict=[
-	Kiba Arms SPRM rail mount for pump-action shotguns,
+	Kiba Arms SPRM rail mount for pump-action shotguns/|
 	MP-155 walnut forestock
 ]
 Recoil=0.000000

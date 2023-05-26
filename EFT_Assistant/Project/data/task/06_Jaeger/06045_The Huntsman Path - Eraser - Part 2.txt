@@ -21,7 +21,7 @@ Task_Kill=[
 
 Reward_Rep=Jaeger+0.020000
 Reward_Item=[
-	Roublesx80000,
+	Roublesx80000/|
 	FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescopex1
 ]
 

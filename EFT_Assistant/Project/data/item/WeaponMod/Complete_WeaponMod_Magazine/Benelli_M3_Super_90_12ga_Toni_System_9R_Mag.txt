@@ -3,8 +3,8 @@ Name=Benelli M3 Super 90 12ga Toni System 9-shell magazine
 ShortName=M3x9
 Itemtype=Magazine
 Conflict=[
-	GK-02 12ga muzzle brake,
-	Hexagon 12K 12ga sound suppressor,
+	GK-02 12ga muzzle brake/|
+	Hexagon 12K 12ga sound suppressor/|
 	SilencerCo Salvo 12 choke adapter
 ]
 Recoil=0.000000
@@ -13,15 +13,15 @@ Information_Eng=A 12ga 9-shell capacity tube magazine by Toni System for Benelli
 basePrice=2500
 width=3
 height=1
-avg24hPrice=21410
-low24hPrice=2000
-lastOfferCount=7
+avg24hPrice=28263
+low24hPrice=9999
+lastOfferCount=13
 Sell_Prapor=1250
 Sell_Fence=1000
 Sell_Skier=1225
 Sell_Peacekeeper=9
 Sell_Mechanic=1400
-Sell_Flea Market=15000
+Sell_Flea Market=14995
 weight=0.255000
-fleaMarketFee=1321
+fleaMarketFee=1320
 propertiestype=ItemPropertiesMagazine

@@ -2,6 +2,6 @@ IDstr=5d494a0e5b56502f18c98a02
 Name=Library
 Lv1constructionTime=194400
 Lv1Information_Eng=Home library with various fiction and popular science books and magazines.
-Lv1itemReq=[Roublesx400000,Horse figurinex1,Chainletx2,Tech manualx5,Diaryx2,Slim diaryx2,BakeEzy cook bookx1]
+Lv1itemReq=[Roublesx400000/|Horse figurinex1/|Chainletx2/|Tech manualx5/|Diaryx2/|Slim diaryx2/|BakeEzy cook bookx1]
 Lv1stationLevelReq=[Rest Spacex3]
 Lv1traderRequirements=[]

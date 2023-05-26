@@ -21,9 +21,9 @@ Task_Kill=[
 
 Reward_Rep=Jaeger+0.020000
 Reward_Item=[
-	Roublesx80000,
-	Expeditionary fuel tankx3,
-	Propane tank (5L)x2,
+	Roublesx80000/|
+	Expeditionary fuel tankx3/|
+	Propane tank (5L)x2/|
 	WD-40 (400ml)x1
 ]
 

@@ -45,8 +45,8 @@ Reward_Item=[
 ]
 Reward_Rep=Skier+0.050000
 Reward_Item=[
-	Roublesx65000,
-	Roler Submariner gold wrist watchx1,
+	Roublesx65000/|
+	Roler Submariner gold wrist watchx1/|
 	GP coinx2
 ]
 

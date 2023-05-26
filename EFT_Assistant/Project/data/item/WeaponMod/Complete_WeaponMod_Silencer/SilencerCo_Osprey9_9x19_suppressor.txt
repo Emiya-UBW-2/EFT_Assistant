@@ -3,8 +3,8 @@ Name=SilencerCo Osprey 9 9x19 sound suppressor
 ShortName=Osprey 9
 Itemtype=Silencer
 Conflict=[
-	Glock 9x19 Strike Industries G4 SlideComp compensator,
-	Glock 9x19 Fischer Development FD917 sound suppressor,
+	Glock 9x19 Fischer Development FD917 sound suppressor/|
+	Glock 9x19 Strike Industries G4 SlideComp compensator/|
 ]
 Recoil=-12.000000
 Ergonomics=-17.000000
@@ -12,15 +12,15 @@ Information_Eng=A light sound suppressor for 9x19 pistols and SMGs, manufactured
 basePrice=39742
 width=2
 height=1
-avg24hPrice=35674
-low24hPrice=27777
-lastOfferCount=23
+avg24hPrice=36074
+low24hPrice=27902
+lastOfferCount=13
 Sell_Prapor=19871
 Sell_Fence=15896
 Sell_Skier=19473
 Sell_Peacekeeper=150
 Sell_Mechanic=22255
-Sell_Flea Market=32000
+Sell_Flea Market=33333
 weight=0.270000
-fleaMarketFee=2171
+fleaMarketFee=2199
 propertiestype=ItemPropertiesWeaponMod

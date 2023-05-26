@@ -3,11 +3,11 @@ Name=FN SCAR folding polymer stock
 ShortName=SCAR fold.
 Itemtype=Stock
 ChildParts=[
-	FN SCAR retractable polymer stock,
+	FN SCAR retractable polymer stock/|
 	FN SCAR retractable polymer stock (FDE)
 ]
 ChildParts=[
-	FN SCAR cheek rest,
+	FN SCAR cheek rest/|
 	FN SCAR cheek rest (FDE)
 ]
 Recoil=-5.000000

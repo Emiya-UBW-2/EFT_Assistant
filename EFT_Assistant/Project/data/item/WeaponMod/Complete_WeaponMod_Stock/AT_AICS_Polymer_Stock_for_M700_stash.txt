@@ -3,14 +3,14 @@ Name=M700 AI AT AICS polymer chassis
 ShortName=AICS M700
 Itemtype=Stock
 ChildParts=[
-	Strike Industries KeyMod 4 inch rail,
-	Vltor CASV KeyMod 2 inch rail,
+	Strike Industries KeyMod 4 inch rail/|
+	Vltor CASV KeyMod 2 inch rail/|
 	Vltor CASV KeyMod 4 inch rail
 ]
 Conflict=[
-	M700 7.62x51 ProMag AA-70 10-round magazine,
-	M700 7.62x51 ProMag AA-70 20-round magazine,
-	M700 7.62x51 Wyatt's Outdoor 10-round magazine,
+	M700 7.62x51 ProMag AA-70 10-round magazine/|
+	M700 7.62x51 ProMag AA-70 20-round magazine/|
+	M700 7.62x51 Wyatt's Outdoor 10-round magazine/|
 	M700 7.62x51 Wyatt's Outdoor 5-round magazine
 ]
 Recoil=-34.000000
@@ -19,8 +19,8 @@ Information_Eng=The AT AICS polymer chassis for the Remington M700 sniper rifle.
 basePrice=26500
 width=4
 height=1
-avg24hPrice=32884
-low24hPrice=20000
+avg24hPrice=29099
+low24hPrice=18999
 lastOfferCount=7
 Sell_Prapor=13250
 Sell_Fence=10600
@@ -28,7 +28,7 @@ Sell_Skier=12985
 Sell_Peacekeeper=100
 Sell_Mechanic=14840
 Sell_Jaeger=15900
-Sell_Flea Market=30000
+Sell_Flea Market=27500
 weight=0.640000
-fleaMarketFee=1693
+fleaMarketFee=1616
 propertiestype=ItemPropertiesWeaponMod

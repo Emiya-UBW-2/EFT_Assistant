@@ -6,7 +6,7 @@ ChildParts=[
 	MTs-255-12 12ga choke
 ]
 ChildParts=[
-	VOMZ Pilad TargetRing reflex sight,
+	VOMZ Pilad TargetRing reflex sight/|
 	ETMI-019 shotgun rail mount
 ]
 Recoil=-10.000000

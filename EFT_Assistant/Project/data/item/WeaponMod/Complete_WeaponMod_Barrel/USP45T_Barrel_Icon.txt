@@ -3,14 +3,14 @@ Name=HK USP Tactical .45 ACP threaded barrel
 ShortName=USP45T
 Itemtype=Barrel
 ChildParts=[
-	SilencerCo Omega 45k Piston Mount adapter,
+	SilencerCo Omega 45k Piston Mount adapter/|
 	HK USP Tactical thread protector
 ]
 Conflict=[
-	HK USP .45 ACP Elite compensator,
-	HK USP .45 ACP Match compensator,
-	HK USP Elite .45 ACP pistol slide,
-	HK USP Expert .45 ACP pistol slide,
+	HK USP Expert .45 ACP pistol slide/|
+	HK USP .45 ACP Elite compensator/|
+	HK USP .45 ACP Match compensator/|
+	HK USP Elite .45 ACP pistol slide/|
 ]
 Recoil=-2.000000
 Ergonomics=-3.000000
@@ -18,8 +18,8 @@ Information_Eng=A 129mm threaded barrel for the special version of the USP pisto
 basePrice=2900
 width=1
 height=1
-avg24hPrice=54000
-low24hPrice=40000
+avg24hPrice=42871
+low24hPrice=25999
 lastOfferCount=1
 Sell_Prapor=1450
 Sell_Fence=1160
@@ -27,7 +27,7 @@ Sell_Skier=1421
 Sell_Peacekeeper=11
 Sell_Mechanic=1624
 Sell_Jaeger=1740
-Sell_Flea Market=75000
+Sell_Flea Market=35000
 weight=0.122000
-fleaMarketFee=16859
+fleaMarketFee=4768
 propertiestype=ItemPropertiesBarrel

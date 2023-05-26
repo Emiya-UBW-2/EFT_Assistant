@@ -3,8 +3,8 @@ Name=M700 7.62x51 AI AICS 5-round magazine
 ShortName=AICS
 Itemtype=Magazine
 Conflict=[
-	M700 Hogue Overmolded Ghillie stock,
-	M700 ProMag Archangel chassis,
+	M700 Hogue Overmolded Ghillie stock/|
+	M700 ProMag Archangel chassis/|
 ]
 Recoil=0.000000
 Ergonomics=3.000000
@@ -12,15 +12,15 @@ Information_Eng=A 5-round Remington M700 sniper rifle magazine by Accuracy Inter
 basePrice=2100
 width=1
 height=1
-avg24hPrice=36671
-low24hPrice=12000
-lastOfferCount=4
+avg24hPrice=18999
+low24hPrice=15000
+lastOfferCount=2
 Sell_Prapor=1050
 Sell_Fence=840
 Sell_Skier=1029
 Sell_Peacekeeper=8
 Sell_Mechanic=1176
-Sell_Flea Market=40000
+Sell_Flea Market=15000
 weight=0.300000
-fleaMarketFee=7340
+fleaMarketFee=1468
 propertiestype=ItemPropertiesMagazine

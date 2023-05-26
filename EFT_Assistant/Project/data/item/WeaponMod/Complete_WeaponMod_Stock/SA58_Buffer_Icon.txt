@@ -3,21 +3,21 @@ Name=SA-58 buffer tube adapter
 ShortName=SA58 adpt.
 Itemtype=Stock
 ChildParts=[
-	Armacon Baskak stock,
-	AR-15 Colt A2 buffer tube,
-	Colt Carbine buffer tube,
-	AR-15 DoubleStar ACE SOCOM Gen.4 stock,
-	ERGO F93 PRO stock,
-	HK Enhanced Tube buffer tube,
-	Magpul UBR GEN2 stock (Black),
-	Magpul UBR GEN2 stock (FDE),
-	Mesa Tactical Crosshair Hydraulic buffer tube,
-	Soyuz-TM buffer tube,
-	Strike Industries Advanced Receiver Extension buffer tube,
-	Strike Industries Advanced Receiver Extension buffer tube (Anodized Red),
-	TROY M7A1 PDW stock (Black),
-	TROY M7A1 PDW stock (FDE),
-	Strike Industries Viper PDW stock,
+	Armacon Baskak stock/|
+	AR-15 Colt A2 buffer tube/|
+	Colt Carbine buffer tube/|
+	AR-15 DoubleStar ACE SOCOM Gen.4 stock/|
+	ERGO F93 PRO stock/|
+	HK Enhanced Tube buffer tube/|
+	Magpul UBR GEN2 stock (Black)/|
+	Magpul UBR GEN2 stock (FDE)/|
+	Mesa Tactical Crosshair Hydraulic buffer tube/|
+	Soyuz-TM buffer tube/|
+	Strike Industries Advanced Receiver Extension buffer tube/|
+	Strike Industries Advanced Receiver Extension buffer tube (Anodized Red)/|
+	TROY M7A1 PDW stock (Black)/|
+	TROY M7A1 PDW stock (FDE)/|
+	Strike Industries Viper PDW stock/|
 	AR-15 RTM ATP buffer tube
 ]
 Recoil=0.000000
@@ -26,16 +26,16 @@ Information_Eng=An adapter for installation of telescopic stock buffer tubes on 
 basePrice=2602
 width=1
 height=1
-avg24hPrice=12999
-low24hPrice=5000
-lastOfferCount=2
+avg24hPrice=16088
+low24hPrice=4500
+lastOfferCount=8
 Sell_Prapor=1301
 Sell_Fence=1040
 Sell_Skier=1274
 Sell_Peacekeeper=10
 Sell_Mechanic=1457
 Sell_Jaeger=1561
-Sell_Flea Market=7765
+Sell_Flea Market=7700
 weight=0.310000
-fleaMarketFee=474
+fleaMarketFee=468
 propertiestype=ItemPropertiesWeaponMod

@@ -3,50 +3,50 @@ Name=Steyr AUG A3 M1 low sight mount
 ShortName=A3M1 low
 Itemtype=Mount
 ChildParts=[
-	ELCAN SpecterDR 1x/4x scope,
-	ELCAN SpecterDR 1x/4x scope (FDE),
-	Leupold Mark 4 HAMR 4x24 DeltaPoint hybrid assault scope,
-	Monstrum Tactical Compact Prism Scope 2x32,
-	SIG Sauer BRAVO4 4x30 scope,
-	SwampFox Trihawk Prism Scope 3x30,
-	Valday PS-320 1/6x scope,
-	Axion Kobra EKP-8-18 reflex sight,
-	OKP-7 reflex sight,
-	EOTech 553 holographic sight,
-	EOTech EXPS3 holographic sight (Tan),
-	EOTech HHS-1 hybrid sight,
-	EOTech HHS-1 hybrid sight (Tan),
-	EOTech XPS3-0 holographic sight,
-	EOTech XPS3-2 holographic sight,
-	Holosun HS401G5 reflex sight,
-	Leapers UTG reflex sight,
-	SIG Sauer ROMEO8T reflex sight,
-	Trijicon SRS-02 reflex sight,
-	Valday PK-120 (1P87) holographic sight,
-	Valday Krechet reflex sight,
-	Vortex Razor AMG UH-1 holographic sight,
-	Walther MRS reflex sight,
-	BelOMO PK-06 reflex sight,
-	NcSTAR ADO P4 Sniper 3-9x42 riflescope,
-	FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescope,
-	Torrey Pines Logic T12W 30Hz thermal reflex sight,
-	Aimpoint Micro Standard Mount,
-	Aimpoint Micro H-2 Standard Mount,
-	Aimpoint LRP mount for CompM4 sights,
-	Aimpoint QRP2 mount for CompM4/PRO sights,
-	B&T QD NAR mount for Aimpoint ACRO,
-	Burris AR-P.E.P.R. 30mm ring scope mount,
-	Burris FastFire Weaver Base,
-	Geissele Super Precision 30mm ring scope mount,
-	Geissele Super Precision 30mm ring scope mount (DDC),
-	JP Enterprises Flat-Top 30mm ring scope mount,
-	DeltaPoint Cross Slot Mount base,
-	Lobaev Arms 30mm scope mount,
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights,
-	SIG Sauer ROMEO sight mount,
-	Trijicon RMR high profile mount,
-	Trijicon RMR low profile mount,
-	UNV DLOC-IRD sight mount,
+	ELCAN SpecterDR 1x/4x scope/|
+	ELCAN SpecterDR 1x/4x scope (FDE)/|
+	Leupold Mark 4 HAMR 4x24 DeltaPoint hybrid assault scope/|
+	Monstrum Tactical Compact Prism Scope 2x32/|
+	SIG Sauer BRAVO4 4x30 scope/|
+	SwampFox Trihawk Prism Scope 3x30/|
+	Valday PS-320 1/6x scope/|
+	Axion Kobra EKP-8-18 reflex sight/|
+	OKP-7 reflex sight/|
+	EOTech 553 holographic sight/|
+	EOTech EXPS3 holographic sight (Tan)/|
+	EOTech HHS-1 hybrid sight/|
+	EOTech HHS-1 hybrid sight (Tan)/|
+	EOTech XPS3-0 holographic sight/|
+	EOTech XPS3-2 holographic sight/|
+	Holosun HS401G5 reflex sight/|
+	Leapers UTG reflex sight/|
+	SIG Sauer ROMEO8T reflex sight/|
+	Trijicon SRS-02 reflex sight/|
+	Valday PK-120 (1P87) holographic sight/|
+	Valday Krechet reflex sight/|
+	Vortex Razor AMG UH-1 holographic sight/|
+	Walther MRS reflex sight/|
+	BelOMO PK-06 reflex sight/|
+	NcSTAR ADO P4 Sniper 3-9x42 riflescope/|
+	FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescope/|
+	Torrey Pines Logic T12W 30Hz thermal reflex sight/|
+	Aimpoint Micro Standard Mount/|
+	Aimpoint Micro H-2 Standard Mount/|
+	Aimpoint LRP mount for CompM4 sights/|
+	Aimpoint QRP2 mount for CompM4/PRO sights/|
+	B&T QD NAR mount for Aimpoint ACRO/|
+	Burris AR-P.E.P.R. 30mm ring scope mount/|
+	Burris FastFire Weaver Base/|
+	Geissele Super Precision 30mm ring scope mount/|
+	Geissele Super Precision 30mm ring scope mount (DDC)/|
+	JP Enterprises Flat-Top 30mm ring scope mount/|
+	DeltaPoint Cross Slot Mount base/|
+	Lobaev Arms 30mm scope mount/|
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights/|
+	SIG Sauer ROMEO sight mount/|
+	Trijicon RMR high profile mount/|
+	Trijicon RMR low profile mount/|
+	UNV DLOC-IRD sight mount/|
 	Leapers UTG 25mm ring scope mount
 ]
 Recoil=0.000000

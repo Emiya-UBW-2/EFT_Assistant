@@ -3,12 +3,12 @@ Name=Mosin Rifle Weapon Tuning 7.62x39 thread adapter
 ShortName=WT1052
 Itemtype=Comb. muzzle device
 ChildParts=[
-	AK-103 7.62x39 muzzle brake-compensator,
-	AK-104 7.62x39 muzzle brake-compensator (6P46 0-20),
-	AK-74 thread type JMac Customs RRD-4C multi-caliber muzzle brake,
-	AK SRVV 7.62x39 muzzle brake-compensator,
-	AK Zenit DTK-1 7.62x39/5.45x39 muzzle brake-compensator,
-	AK Hexagon DTKP MK.2 7.62x39 sound suppressor,
+	AK-103 7.62x39 muzzle brake-compensator/|
+	AK-104 7.62x39 muzzle brake-compensator (6P46 0-20)/|
+	AK-74 thread type JMac Customs RRD-4C multi-caliber muzzle brake/|
+	AK SRVV 7.62x39 muzzle brake-compensator/|
+	AK Zenit DTK-1 7.62x39/5.45x39 muzzle brake-compensator/|
+	AK Hexagon DTKP MK.2 7.62x39 sound suppressor/|
 	AKM Zenit DTK-4M 7.62x39 sound suppressor
 ]
 Recoil=0.000000
@@ -17,15 +17,15 @@ Information_Eng=The Weapon Tuning muzzle adapter. Provides the ability to instal
 basePrice=1900
 width=1
 height=1
-avg24hPrice=16829
-low24hPrice=5000
-lastOfferCount=3
+avg24hPrice=13171
+low24hPrice=6666
+lastOfferCount=1
 Sell_Prapor=950
 Sell_Fence=760
 Sell_Skier=931
 Sell_Peacekeeper=7
 Sell_Mechanic=1064
-Sell_Flea Market=9000
+Sell_Flea Market=8000
 weight=0.060000
-fleaMarketFee=691
+fleaMarketFee=576
 propertiestype=ItemPropertiesWeaponMod

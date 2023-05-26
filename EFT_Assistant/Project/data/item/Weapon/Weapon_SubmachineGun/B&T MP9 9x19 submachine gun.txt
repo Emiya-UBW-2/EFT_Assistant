@@ -3,9 +3,9 @@ Name=B&T MP9 9x19 submachine gun
 ShortName=MP9
 Itemtype=SMG
 ChildParts=[
-	MP9 9x19 15-round magazine,
-	MP9 9x19 20-round magazine,
-	MP9 9x19 25-round magazine,
+	MP9 9x19 15-round magazine/|
+	MP9 9x19 20-round magazine/|
+	MP9 9x19 25-round magazine/|
 	MP9 9x19 30-round magazine
 ]
 ChildParts=[
@@ -15,7 +15,7 @@ ChildParts=[
 	MP9 stock
 ]
 ChildParts=[
-	MP9-N 9x19 upper receiver,
+	MP9-N 9x19 upper receiver/|
 	MP9 9x19 upper receiver
 ]
 ChildParts=[
@@ -30,15 +30,15 @@ Information_Eng=The Brügger & Thomet MP9 (Maschinenpistole 9mm, German for mach
 basePrice=14288
 width=2
 height=1
-avg24hPrice=29736
-low24hPrice=17000
-lastOfferCount=14
+avg24hPrice=31258
+low24hPrice=20000
+lastOfferCount=12
 Sell_Prapor=7144
 Sell_Fence=5715
 Sell_Skier=7001
 Sell_Peacekeeper=54
 Sell_Mechanic=8001
-Sell_Flea Market=27999
+Sell_Flea Market=23888
 weight=0.750000
-fleaMarketFee=1498
+fleaMarketFee=1258
 propertiestype=ItemPropertiesWeapon

@@ -87,15 +87,15 @@ Task_Else=}
 ]
 
 Reward_Item=[
-	UNTAR helmetx1,
-	MF-UNTAR body armorx1,
-	Colt M4A1 5.56x45 assault rifle KAC RISx1,
+	UNTAR helmetx1/|
+	MF-UNTAR body armorx1/|
+	Colt M4A1 5.56x45 assault rifle KAC RISx1/|
 	5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazinex3
 ]
 Reward_Rep=Peacekeeper+0.040000
 Reward_Item=[
-	Remington Model 700 7.62x51 bolt-action sniper rifle AAC SDx1,
-	7.62x51mm M61x30,
+	Remington Model 700 7.62x51 bolt-action sniper rifle AAC SDx1/|
+	7.62x51mm M61x30/|
 	GPNVG-18 Night Vision gogglesx2
 ]
 

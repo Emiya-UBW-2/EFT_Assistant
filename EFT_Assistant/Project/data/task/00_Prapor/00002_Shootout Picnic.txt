@@ -23,9 +23,9 @@ Task_Kill=[
 Reward_Rep=Prapor+0.030000
 Reward_Rep=Jaeger+0.010000
 Reward_Item=[
-	Roublesx20000,
-	Kalashnikov AKS-74UN 5.45x39 assault rifle Defaultx1,
-	AK-74 5.45x39 6L20 30-round magazinex3,
+	Roublesx20000/|
+	Kalashnikov AKS-74UN 5.45x39 assault rifle Defaultx1/|
+	AK-74 5.45x39 6L20 30-round magazinex3/|
 	5.45x39mm PP gsx90
 ]
 

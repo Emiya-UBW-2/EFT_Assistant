@@ -4,9 +4,9 @@ ShortName=416A5 RS
 Itemtype=Ironsight
 SightRange=300
 Conflict=[
-	KMZ 1P69 Weaver mount,
-	ASh-12 rear sight carry handle,
-	VOMZ Pilad 4x32 24.5mm riflescope,
+	KMZ 1P69 Weaver mount/|
+	ASh-12 rear sight carry handle/|
+	VOMZ Pilad 4x32 24.5mm riflescope/|
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -16,7 +16,7 @@ width=1
 height=1
 avg24hPrice=0
 low24hPrice=0
-lastOfferCount=2
+lastOfferCount=1
 Sell_Prapor=400
 Sell_Fence=320
 Sell_Skier=392

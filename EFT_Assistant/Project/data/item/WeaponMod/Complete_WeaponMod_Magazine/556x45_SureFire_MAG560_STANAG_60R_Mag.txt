@@ -3,7 +3,7 @@ Name=5.56x45 SureFire MAG5-60 STANAG 60-round magazine
 ShortName=MAG5-60
 Itemtype=Magazine
 Conflict=[
-	HK G36 magwell,
+	HK G36 magwell/|
 ]
 Recoil=0.000000
 Ergonomics=-18.000000

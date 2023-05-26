@@ -6,53 +6,53 @@ ChildParts=[
 	NcSTAR MPR45 Backup mount
 ]
 ChildParts=[
-	Holosun LS321 Tactical device,
-	AN/PEQ-15 tactical device,
-	AN/PEQ-2 tactical device,
-	LA-5B/PEQ tactical device,
-	SureFire XC1 tactical flashlight,
-	Wilcox RAPTAR ES Tactical Rangefinder,
+	Holosun LS321 Tactical device/|
+	AN/PEQ-15 tactical device/|
+	AN/PEQ-2 tactical device/|
+	LA-5B/PEQ tactical device/|
+	SureFire XC1 tactical flashlight/|
+	Wilcox RAPTAR ES Tactical Rangefinder/|
 	Zenit Perst-3 tactical device
 ]
 ChildParts=[
-	Magpul M-LOK 2.5 inch rail,
-	Magpul M-LOK Offset Light Mount,
+	Magpul M-LOK 2.5 inch rail/|
+	Magpul M-LOK Offset Light Mount/|
 	Magpul M-LOK Cantilever Mount
 ]
 ChildParts=[
-	Magpul M-LOK 2.5 inch rail,
-	Magpul M-LOK Offset Light Mount,
+	Magpul M-LOK 2.5 inch rail/|
+	Magpul M-LOK Offset Light Mount/|
 	Magpul M-LOK Cantilever Mount
 ]
 ChildParts=[
-	HK MP7 flip-up front sight,
-	KAC Folding Micro front sight,
-	KAC Folding front sight,
-	KRISS Defiance low profile flip-up front sight,
-	Magpul MBUS Gen2 flip-up front sight,
-	Magpul MBUS Gen2 flip-up front sight (FDE),
-	MCX flip-up front sight,
-	MPX flip-up front sight,
+	HK MP7 flip-up front sight/|
+	KAC Folding Micro front sight/|
+	KAC Folding front sight/|
+	KRISS Defiance low profile flip-up front sight/|
+	Magpul MBUS Gen2 flip-up front sight/|
+	Magpul MBUS Gen2 flip-up front sight (FDE)/|
+	MCX flip-up front sight/|
+	MPX flip-up front sight/|
 	AR-15 Leapers UTG Low Profile A2 front sight
 ]
 ChildParts=[
-	Magpul M-LOK AFG tactical foregrip (Black),
-	Magpul M-LOK AFG tactical foregrip (FDE),
-	Magpul M-LOK AFG tactical foregrip (Olive Drab),
-	Magpul M-LOK AFG tactical foregrip (Stealth Gray),
+	Magpul M-LOK AFG tactical foregrip (Black)/|
+	Magpul M-LOK AFG tactical foregrip (FDE)/|
+	Magpul M-LOK AFG tactical foregrip (Olive Drab)/|
+	Magpul M-LOK AFG tactical foregrip (Stealth Gray)/|
 	Magpul M-LOK 4.1 inch rail
 ]
 ChildParts=[
-	Magpul M-LOK 2.5 inch rail,
-	Magpul M-LOK Offset Light Mount,
+	Magpul M-LOK 2.5 inch rail/|
+	Magpul M-LOK Offset Light Mount/|
 	Magpul M-LOK Cantilever Mount
 ]
 Conflict=[
-	AR-10 JP Enterprises Gas System-6,
-	M4A1 front sight with gas block,
-	AR-15 Windham Weaponry Rail Gas Block,
-	AR-15 5.56x45 260mm barrel,
-	AR-15 5.56x45 370mm barrel,
+	AR-10 JP Enterprises Gas System-6/|
+	M4A1 front sight with gas block/|
+	AR-15 Windham Weaponry Rail Gas Block/|
+	AR-15 5.56x45 260mm barrel/|
+	AR-15 5.56x45 370mm barrel/|
 	AR-15 5.56x45 Molot Arms 406mm barrel
 ]
 Recoil=-1.000000
@@ -61,15 +61,15 @@ Information_Eng=URX 4 is a 14.5 inch long lightweight M-LOK-compatible handguard
 basePrice=16500
 width=3
 height=1
-avg24hPrice=29247
-low24hPrice=14888
-lastOfferCount=38
+avg24hPrice=22452
+low24hPrice=11000
+lastOfferCount=8
 Sell_Prapor=8250
 Sell_Fence=6600
 Sell_Skier=8085
 Sell_Peacekeeper=62
 Sell_Mechanic=9240
-Sell_Flea Market=15000
+Sell_Flea Market=22000
 weight=0.420000
-fleaMarketFee=942
+fleaMarketFee=1181
 propertiestype=ItemPropertiesWeaponMod

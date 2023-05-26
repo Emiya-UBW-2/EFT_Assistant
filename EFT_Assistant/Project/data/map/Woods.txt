@@ -1,5 +1,5 @@
 Name=Woods
-Color=[0,128,0]
+Color=[0/|128/|0]
 InGamePath=data/InGameMapPic/Woods_Map_0.5.4.823.jpg
 NorthDegree=0
 2DPath=data/2DMaspPic/Glory4lyfeWoods_map_v4_marked.jpg

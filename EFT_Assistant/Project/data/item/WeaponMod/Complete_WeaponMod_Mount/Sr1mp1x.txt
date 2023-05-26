@@ -3,16 +3,16 @@ Name=SR-1MP single rail mount
 ShortName=SR-1MP 1x
 Itemtype=Mount
 ChildParts=[
-	Glock GTL 21 tactical flashlight with laser,
-	NcSTAR Tactical blue laser LAM-module,
-	Steiner DBAL-PL tactical device,
-	Steiner LAS/TAC 2 tactical flashlight,
-	SureFire X400 Ultra tactical flashlight with laser,
-	SureFire XC1 tactical flashlight,
-	Zenit Klesch-2IKS IR illuminator with laser,
-	Zenit Klesch-2P flashlight with laser,
-	Zenit Klesch-2U tactical flashlight,
-	Olight Baldr Pro tactical flashlight with laser,
+	Glock GTL 21 tactical flashlight with laser/|
+	NcSTAR Tactical blue laser LAM-module/|
+	Steiner DBAL-PL tactical device/|
+	Steiner LAS/TAC 2 tactical flashlight/|
+	SureFire X400 Ultra tactical flashlight with laser/|
+	SureFire XC1 tactical flashlight/|
+	Zenit Klesch-2IKS IR illuminator with laser/|
+	Zenit Klesch-2P flashlight with laser/|
+	Zenit Klesch-2U tactical flashlight/|
+	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)
 ]
 ChildParts=[
@@ -24,16 +24,16 @@ Information_Eng= A mount for SR-1MP, included in the pistol kit, designed to for
 basePrice=2687
 width=1
 height=1
-avg24hPrice=17196
-low24hPrice=5555
-lastOfferCount=3
+avg24hPrice=13368
+low24hPrice=11420
+lastOfferCount=2
 Sell_Prapor=1343
 Sell_Fence=1074
 Sell_Skier=1316
 Sell_Peacekeeper=10
 Sell_Mechanic=1504
 Sell_Jaeger=1612
-Sell_Flea Market=13331
+Sell_Flea Market=26000
 weight=0.040000
-fleaMarketFee=1051
+fleaMarketFee=3075
 propertiestype=ItemPropertiesWeaponMod

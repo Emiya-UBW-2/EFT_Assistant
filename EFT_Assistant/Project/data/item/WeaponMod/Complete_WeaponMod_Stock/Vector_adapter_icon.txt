@@ -3,22 +3,22 @@ Name=KRISS Vector non-folding stock adapter
 ShortName=Vector NFA
 Itemtype=Stock
 ChildParts=[
-	Armacon Baskak stock,
-	AR-15 Colt A2 buffer tube,
-	AR-15 ADAR 2-15 buffer tube,
-	Colt Carbine buffer tube,
-	AR-15 DoubleStar ACE SOCOM Gen.4 stock,
-	ERGO F93 PRO stock,
-	HK Enhanced Tube buffer tube,
-	Magpul UBR GEN2 stock (Black),
-	Magpul UBR GEN2 stock (FDE),
-	Soyuz-TM buffer tube,
-	Strike Industries Advanced Receiver Extension buffer tube,
-	Strike Industries Advanced Receiver Extension buffer tube (Anodized Red),
-	KRISS Vector Pistol Sling adapter,
-	TROY M7A1 PDW stock (FDE),
-	TROY M7A1 PDW stock (Black),
-	Strike Industries Viper PDW stock,
+	Armacon Baskak stock/|
+	AR-15 Colt A2 buffer tube/|
+	AR-15 ADAR 2-15 buffer tube/|
+	Colt Carbine buffer tube/|
+	AR-15 DoubleStar ACE SOCOM Gen.4 stock/|
+	ERGO F93 PRO stock/|
+	HK Enhanced Tube buffer tube/|
+	Magpul UBR GEN2 stock (Black)/|
+	Magpul UBR GEN2 stock (FDE)/|
+	Soyuz-TM buffer tube/|
+	Strike Industries Advanced Receiver Extension buffer tube/|
+	Strike Industries Advanced Receiver Extension buffer tube (Anodized Red)/|
+	KRISS Vector Pistol Sling adapter/|
+	TROY M7A1 PDW stock (FDE)/|
+	TROY M7A1 PDW stock (Black)/|
+	Strike Industries Viper PDW stock/|
 	AR-15 RTM ATP buffer tube
 ]
 Recoil=0.000000
@@ -27,16 +27,16 @@ Information_Eng=A non-folding adapter for the installation of telescopic stock b
 basePrice=3900
 width=1
 height=1
-avg24hPrice=33845
-low24hPrice=20000
-lastOfferCount=10
+avg24hPrice=35519
+low24hPrice=15000
+lastOfferCount=8
 Sell_Prapor=1950
 Sell_Fence=1560
 Sell_Skier=1911
 Sell_Peacekeeper=15
 Sell_Mechanic=2184
 Sell_Jaeger=2340
-Sell_Flea Market=25000
+Sell_Flea Market=25420
 weight=0.280000
-fleaMarketFee=2290
+fleaMarketFee=2352
 propertiestype=ItemPropertiesWeaponMod

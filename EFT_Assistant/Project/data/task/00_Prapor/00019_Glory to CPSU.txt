@@ -28,10 +28,10 @@ Task_Else=脱出ステータス:[Survived]
 
 Reward_Rep=Prapor+0.020000
 Reward_Item=[
-	Roublesx42000,
+	Roublesx42000/|
 	Bottle of Tarkovskaya vodkax2
 ]
 
 Reward_EXP=7300
-Task_PinPoint=[-0.199382,-0.058594,0.000000]
-Task_PinMap=[Streets of Tarkov,1]
+Task_PinPoint=[-0.199382/|-0.058594/|0.000000]
+Task_PinMap=[Streets of Tarkov/|1]

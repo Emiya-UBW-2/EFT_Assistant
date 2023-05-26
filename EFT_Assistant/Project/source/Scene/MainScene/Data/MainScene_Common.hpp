@@ -7,6 +7,7 @@ namespace FPS_n2 {
 	//Trader
 	typedef int TraderID;
 	class TraderGetData : public GetDataParent<TraderID> {};
+	class TraderLLData : public GetDataParent<TraderID> {};
 	//ItemCategory
 	typedef int ItemCategoryID;
 	//ItemType

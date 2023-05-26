@@ -3,17 +3,17 @@ Name=MP-443 "Grach" Zenit B-8 mount
 ShortName=B-8
 Itemtype=Mount
 ChildParts=[
-	NcSTAR Tactical blue laser LAM-module,
-	Glock GTL 21 tactical flashlight with laser,
-	Steiner DBAL-PL tactical device,
-	Steiner LAS/TAC 2 tactical flashlight,
-	SureFire X400 Ultra tactical flashlight with laser,
-	SureFire XC1 tactical flashlight,
-	Zenit Klesch-2IKS IR illuminator with laser,
-	Zenit Klesch-2P flashlight with laser,
-	Zenit Klesch-2U tactical flashlight,
-	UM Tactical UM3 pistol sight mount,
-	Olight Baldr Pro tactical flashlight with laser,
+	NcSTAR Tactical blue laser LAM-module/|
+	Glock GTL 21 tactical flashlight with laser/|
+	Steiner DBAL-PL tactical device/|
+	Steiner LAS/TAC 2 tactical flashlight/|
+	SureFire X400 Ultra tactical flashlight with laser/|
+	SureFire XC1 tactical flashlight/|
+	Zenit Klesch-2IKS IR illuminator with laser/|
+	Zenit Klesch-2P flashlight with laser/|
+	Zenit Klesch-2U tactical flashlight/|
+	UM Tactical UM3 pistol sight mount/|
+	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)
 ]
 Recoil=0.000000
@@ -22,16 +22,16 @@ Information_Eng=The B-8 rail mount can be installed on Yarygin pistols (MP-443 "
 basePrice=2744
 width=1
 height=1
-avg24hPrice=11045
-low24hPrice=2800
-lastOfferCount=6
+avg24hPrice=12144
+low24hPrice=3000
+lastOfferCount=4
 Sell_Prapor=1372
 Sell_Fence=1097
 Sell_Skier=1344
 Sell_Peacekeeper=10
 Sell_Mechanic=1536
 Sell_Jaeger=1646
-Sell_Flea Market=15000
+Sell_Flea Market=3111
 weight=0.040000
-fleaMarketFee=1250
+fleaMarketFee=175
 propertiestype=ItemPropertiesWeaponMod

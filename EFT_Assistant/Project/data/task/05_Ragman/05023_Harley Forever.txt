@@ -49,9 +49,9 @@ Task_Else=脱出ステータス:[Survived]
 
 Reward_Rep=Ragman+0.030000
 Reward_Item=[
-	Roublesx96000,
-	Metal spare partsx2,
-	Screw nutsx4,
+	Roublesx96000/|
+	Metal spare partsx2/|
+	Screw nutsx4/|
 	Boltsx4
 ]
 

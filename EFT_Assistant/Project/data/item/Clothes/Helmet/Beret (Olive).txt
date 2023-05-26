@@ -3,21 +3,21 @@ Name=Beret (Olive)
 ShortName=Beret
 Itemtype=Headwear
 Conflict=[
-	Faceless mask,
-	Ghoul mask,
-	Pestily plague mask,
-	Slender mask,
-	GP-7 gas mask,
-	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY",
+	Faceless mask/|
+	Ghoul mask/|
+	GP-7 gas mask/|
+	Pestily plague mask/|
+	Slender mask/|
+	Tagilla's welding mask "Gorilla"/|
+	Tagilla's welding mask "UBEY"/|
 ]
 Information_Eng=You can call it a green beret, but it's an olive beret.
 basePrice=1353
 width=1
 height=1
-avg24hPrice=12622
-low24hPrice=8000
-lastOfferCount=7
+avg24hPrice=12711
+low24hPrice=7777
+lastOfferCount=2
 Sell_Fence=541
 Sell_Skier=662
 Sell_Peacekeeper=5

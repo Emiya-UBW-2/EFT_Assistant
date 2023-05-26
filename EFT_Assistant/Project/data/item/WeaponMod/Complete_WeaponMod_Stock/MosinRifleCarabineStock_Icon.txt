@@ -9,10 +9,10 @@ ChildParts=[
 	Mosin Rifle Tacfire pistol grip
 ]
 Conflict=[
-	Mosin Rifle 7.62x54R 730mm regular barrel,
-	Mosin Rifle 7.62x54R sawn-off 200mm barrel,
-	Mosin Rifle 7.62x54R sawn-off 220mm threaded barrel,
-	Mosin Rifle 7.62x54R ProMag Archangel OPFOR 10-round magazine,
+	Mosin Rifle 7.62x54R 730mm regular barrel/|
+	Mosin Rifle 7.62x54R sawn-off 200mm barrel/|
+	Mosin Rifle 7.62x54R sawn-off 220mm threaded barrel/|
+	Mosin Rifle 7.62x54R ProMag Archangel OPFOR 10-round magazine/|
 ]
 Recoil=-27.000002
 Ergonomics=11.000000

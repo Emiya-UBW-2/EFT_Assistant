@@ -3,15 +3,15 @@ Name=M1A Smith Enterprise SOCOM 16 7.62x51 threaded muzzle brake & gas block
 ShortName=SOCOM16 thr.
 Itemtype=Flashhider
 ChildParts=[
-	M1A SA National Match .062 Blade front sight,
+	M1A SA National Match .062 Blade front sight/|
 	M1A SA XS Post .125 Blade front sight
 ]
 ChildParts=[
-	AR-10 2A Armanent X3 7.62x51 compensator,
-	AR-10 Lantac Drakon 7.62x51 muzzle brake-compensator,
-	AR-10 Odin Works ATLAS-7 7.62x51 muzzle brake,
-	M14 Smith Enterprise Vortex 7.62x51 muzzle brake,
-	Gemtech ONE Direct Thread Mount adapter,
+	AR-10 2A Armanent X3 7.62x51 compensator/|
+	AR-10 Lantac Drakon 7.62x51 muzzle brake-compensator/|
+	AR-10 Odin Works ATLAS-7 7.62x51 muzzle brake/|
+	M14 Smith Enterprise Vortex 7.62x51 muzzle brake/|
+	Gemtech ONE Direct Thread Mount adapter/|
 	SilencerCo Hybrid 46 Direct Thread Mount adapter
 ]
 Recoil=-3.000000
@@ -20,15 +20,15 @@ Information_Eng=A muzzle brake/gas block for M1A rifles, manufactured by Smith E
 basePrice=4909
 width=1
 height=1
-avg24hPrice=20703
-low24hPrice=10410
+avg24hPrice=17571
+low24hPrice=10000
 lastOfferCount=0
 Sell_Prapor=2454
 Sell_Fence=1963
 Sell_Skier=2405
 Sell_Peacekeeper=19
 Sell_Mechanic=2749
-Sell_Flea Market=20000
+Sell_Flea Market=10000
 weight=0.110000
-fleaMarketFee=1416
+fleaMarketFee=539
 propertiestype=ItemPropertiesWeaponMod

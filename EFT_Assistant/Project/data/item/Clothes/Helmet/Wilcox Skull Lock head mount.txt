@@ -3,25 +3,25 @@ Name=Wilcox Skull Lock head mount
 ShortName=Skull Lock
 Itemtype=Headwear
 Conflict=[
-	Faceless mask,
-	Ghoul mask,
-	GP-5 gas mask,
-	Pestily plague mask,
-	Tagilla's welding mask "Gorilla",
-	Tagilla's welding mask "UBEY",
+	Faceless mask/|
+	Ghoul mask/|
+	GP-5 gas mask/|
+	Pestily plague mask/|
+	Tagilla's welding mask "Gorilla"/|
+	Tagilla's welding mask "UBEY"/|
 ]
 Information_Eng=Scull Lock Head Mount-Lite is a lightweight, low profile fixing system for NVG or other optical attachments, completely made of fabric, with increased comfort and versatility in use and storage. The system allows the use of various attachments without the use of a heavy ballistic helmet.
 basePrice=19724
 width=2
 height=2
-avg24hPrice=14651
-low24hPrice=8999
-lastOfferCount=18
+avg24hPrice=15469
+low24hPrice=12111
+lastOfferCount=13
 Sell_Fence=7889
 Sell_Skier=9664
 Sell_Peacekeeper=75
 Sell_Ragman=12228
-Sell_Flea Market=13000
+Sell_Flea Market=15000
 weight=0.500000
-fleaMarketFee=1040
+fleaMarketFee=1062
 propertiestype=
