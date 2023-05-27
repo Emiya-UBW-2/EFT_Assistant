@@ -158,28 +158,25 @@ namespace FPS_n2 {
 		int xs = xsize;
 		int  Xsize = 0;
 
-		int xg = 0;
-		if (GetIcon().GetGraph()) {
-			xg = (GetIcon().GetXSize() >= GetIcon().GetYSize())
-				? (ysize * GetIcon().GetXSize() / GetIcon().GetYSize())
-				: (ysize * GetIcon().GetYSize() / GetIcon().GetXSize());
-		}
+		int GraphXsize = (GetIcon().GetGraph()) ? ((GetIcon().GetXSize() >= GetIcon().GetYSize()) ? (ysize * GetIcon().GetXSize() / GetIcon().GetYSize()) : (ysize * GetIcon().GetYSize() / GetIcon().GetXSize())) : 0;
 		bool IsLocked = PlayerData::Instance()->GetItemLock(this->GetIDstr().c_str());
-		int FirSize = (IsFir || IsLocked) ? 36 : 0;
-		xg += FirSize;
-		auto Name = this->GetShortName();
+		int FirXSize = (IsFir || IsLocked) ? 36 : 0;
+		int  StrXSize = 0;
+
+		std::string Name = "";
 		if (!IsIconOnly) {
+			Name = this->GetShortName();
 			if (xsize > 0) {
 				int countbuf = 0;
 				while (true) {
 					if (count > 0) {
-						Xsize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, "%s x%2d", Name.c_str(), count);
+						StrXSize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, "%s x%2d", Name.c_str(), count);
 					}
 					else {
-						Xsize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, "%s", Name.c_str());
+						StrXSize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, "%s", Name.c_str());
 					}
-					if ((xs - xg) < Xsize) {
-						Name = Name.substr(0, Name.size() * (xs - xg) / Xsize - 2) + "…";
+					if ((xs - (GraphXsize + FirXSize)) < StrXSize) {
+						Name = Name.substr(0, Name.size() * (xs - (GraphXsize + FirXSize)) / StrXSize - 2) + "…";
 					}
 					else {
 						break;
@@ -187,24 +184,41 @@ namespace FPS_n2 {
 					countbuf++;
 					if (countbuf > 100) {
 						Name = "…";
-						Xsize = LineHeight * 9 / 10;
+						StrXSize = LineHeight * 9 / 10;
 						break;
 					}
 				}
 			}
 			else {
 				if (count > 0) {
-					Xsize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, "%s x%2d", Name.c_str(), count);
+					StrXSize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, "%s x%2d", Name.c_str(), count);
 				}
 				else {
-					Xsize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, "%s", Name.c_str());
+					StrXSize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, "%s", Name.c_str());
 				}
 			}
-			xs = std::max(xs, Xsize);
+			Xsize += StrXSize;
+		}
+		int GraphXPos = xp + FirXSize + Xsize;
+		if (GetIcon().GetGraph()) {
+			Xsize += (GraphXsize + FirXSize);
+		}
+		if (!IsIconOnly) {
+			if (count > 0) {
+				Xsize = std::max(Xsize, FirXSize + WindowSystem::GetMsgLen(LineHeight * 9 / 10, Name + " x%1d", count));
+			}
+			else {
+				Xsize = std::max(Xsize, FirXSize + WindowSystem::GetMsgLen(LineHeight * 9 / 10, Name));
+			}
 		}
 		else {
-			Name = "";
+			if (count > 0) {
+				Xsize = std::max(Xsize, (GraphXsize + FirXSize) + WindowSystem::GetMsgLen(LineHeight * 9 / 10, "x%1d", count));
+			}
 		}
+
+
+		xs = std::max(xs, Xsize);
 
 		if (WindowSystem::ClickCheckBox(xp, yp, xp + xs, yp + ysize, false, Clickactive, defaultcolor, "")) {
 			auto sizeXBuf = y_r(800);
@@ -233,31 +247,30 @@ namespace FPS_n2 {
 				});
 			}
 		}
+		if (GetIcon().GetGraph()) {
+			float Scale = (float)ysize / (float)(std::min(GetIcon().GetXSize(), GetIcon().GetYSize()));
+			float rad = (GetIcon().GetXSize() >= GetIcon().GetYSize()) ? deg2rad(0) : deg2rad(90);
+			DrawControl::Instance()->SetDrawRotaGraph(DrawLayer::Normal, GetIcon().GetGraph(), GraphXPos + (int)(((float)GetIcon().GetXSize() * std::cos(rad) + (float)GetIcon().GetYSize() * std::sin(rad)) / 2.f * Scale), yp + ysize / 2, Scale, rad, false);
+		}
 		if (!IsIconOnly) {
 			if (count > 0) {
-				WindowSystem::SetMsg(xp + FirSize, yp, xp + FirSize, yp + ysize, LineHeight * 9 / 10, STRX_LEFT, White, Black, "%s x%2d", Name.c_str(), count);
+				WindowSystem::SetMsg(xp + FirXSize, yp, xp + FirXSize, yp + ysize, LineHeight * 9 / 10, STRX_LEFT, White, Black, "%s x%1d", Name.c_str(), count);
 			}
 			else {
-				WindowSystem::SetMsg(xp + FirSize, yp, xp + FirSize, yp + ysize, LineHeight * 9 / 10, STRX_LEFT, White, Black, "%s", Name.c_str());
+				WindowSystem::SetMsg(xp + FirXSize, yp, xp + FirXSize, yp + ysize, LineHeight * 9 / 10, STRX_LEFT, White, Black, "%s", Name.c_str());
 			}
 		}
 		else {
 			if (count > 0) {
-				WindowSystem::SetMsg(xp + xg, yp, xp + xg, yp + ysize, LineHeight * 9 / 10, STRX_LEFT, White, Black, "x%2d", count);
+				WindowSystem::SetMsg(xp + (GraphXsize + FirXSize), yp, xp + (GraphXsize + FirXSize), yp + ysize, LineHeight * 9 / 10, STRX_LEFT, White, Black, "x%1d", count);
 			}
-		}
-		if (GetIcon().GetGraph()) {
-			float Scale = (float)ysize / (float)(std::min(GetIcon().GetXSize(), GetIcon().GetYSize()));
-			float rad = (GetIcon().GetXSize() >= GetIcon().GetYSize()) ? deg2rad(0) : deg2rad(90);
-			DrawControl::Instance()->SetDrawRotaGraph(DrawLayer::Normal, GetIcon().GetGraph(), xp + FirSize + Xsize + (int)(((float)GetIcon().GetXSize() * std::cos(rad) + (float)GetIcon().GetYSize() * std::sin(rad)) / 2.f * Scale), yp + ysize / 2, Scale, rad, false);
-			Xsize += xg;
 		}
 
 		if (IsLocked) {
-			DrawControl::Instance()->SetDrawRotaLock(DrawLayer::Front, xp + FirSize / 2, yp + ysize / 2, 1.f, 0.f, true);
+			DrawControl::Instance()->SetDrawRotaLock(DrawLayer::Front, xp + FirXSize / 2, yp + ysize / 2, 1.f, 0.f, true);
 		}
 		if (IsFir) {
-			DrawControl::Instance()->SetDrawRotaFiR(DrawLayer::Normal, xp + FirSize / 2, yp + ysize / 2, 1.f, 0.f, true);
+			DrawControl::Instance()->SetDrawRotaFiR(DrawLayer::Normal, xp + FirXSize / 2, yp + ysize / 2, 1.f, 0.f, true);
 		}
 
 		if (IsDrawBuy) {
@@ -287,7 +300,6 @@ namespace FPS_n2 {
 				}
 			}
 		}
-		Xsize = std::max(Xsize, xs);
 		return Xsize;
 	}
 	void			ItemList::DrawWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int *xs, int* ys) const noexcept {
@@ -531,7 +543,6 @@ namespace FPS_n2 {
 			}
 			//交換
 			{
-				//*
 				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STRX_LEFT, White, Black,
 					"トレーダー交換:")); yofs += LineHeight + y_r(5);
 				//ハイドアウトクラフト素材
@@ -638,7 +649,6 @@ namespace FPS_n2 {
 						//クラフトベース
 					}
 				}
-				//*/
 			}
 			//
 			if (m_isWeapon) {

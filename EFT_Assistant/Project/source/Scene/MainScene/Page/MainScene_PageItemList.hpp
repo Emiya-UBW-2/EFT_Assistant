@@ -5,6 +5,7 @@ namespace FPS_n2 {
 	class ItemListBG :public BGParent {
 	private:
 		bool														m_IsCheckCraft{ true };//タスクに必要なアイテムを省くか否か
+		bool														m_IsCheckBarter{ true };//タスクに必要なアイテムを省くか否か
 		bool														m_IsNeedItem{ true };//タスクに必要なアイテムを省くか否か
 		bool														m_IsCheckOpenCraft{ true };
 		bool														m_IsCheckTask{ true };
@@ -13,8 +14,7 @@ namespace FPS_n2 {
 	private:
 		void Init_Sub(int*, int*, float*) noexcept override {
 		}
-		void LateExecute_Sub(int*, int*, float*) noexcept override {
-		}
+		void LateExecute_Sub(int*, int*, float*) noexcept override {}
 
 		void Draw_Back_Sub(int, int, float) noexcept override {
 			auto* WindowMngr = WindowSystem::WindowManager::Instance();
@@ -162,7 +162,7 @@ namespace FPS_n2 {
 					int yp = ypBase;
 					int ypMax = (y_r(1080) - y_r(200));
 					int xsize = (int)((float)y_r(600));
-					int ysize = (int)((float)y_r(60));
+					int ysize = (int)((float)y_r(64));
 					int xsizeAdd = xsize + y_r(30);
 					int ysizeAdd = ysize + y_r(5);
 					for (auto& Cat : ItemCategoryData::Instance()->GetList()) {
@@ -174,16 +174,16 @@ namespace FPS_n2 {
 									auto* ptr = ItemData::Instance()->FindPtr(c.m_ID);
 									if (ptr) {
 										if (ypos - ysizeAdd < yp && yp < ypMax) {
-											if (ypos < yp && yp < ypMax - ysizeAdd) {
+											if (ypos - 1 < yp && yp < ypMax - ysizeAdd + 1) {
 												DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255);
 												ptr->Draw(xp, yp, xsize, ysize, (c.count >= 2) ? c.count : 0, Gray15, !WindowMngr->PosHitCheck(nullptr), c.isFir, false, false);
 
 												//ハイドアウトクラフト
+												int xp2 = xp + xsizeAdd + y_r(10);
+												int yp2 = yp;
+												int xsize2 = ysize / 2;
+												int ysize2 = ysize / 2 - y_r(3);
 												if (m_IsCheckCraft) {
-													int xp2 = xp + xsizeAdd + y_r(10);
-													int yp2 = yp;
-													int xsize2 = y_r(140);
-													int ysize2 = ysize / 2 - y_r(3);
 													for (const auto&L : HideoutData::Instance()->GetList()) {
 														for (const auto& Ld : L.GetLvData()) {
 															int Lv = (int)(&Ld - &L.GetLvData().front()) + 1;
@@ -196,30 +196,64 @@ namespace FPS_n2 {
 															//*/
 															for (const auto& C : Ld.m_ItemCraft) {
 																for (const auto& R : C.m_ItemReward) {
-																	auto RID = R.GetID();
 																	int craftcount = std::max(1, c.count / R.GetValue());
-
-																	if (RID == c.m_ID) {
+																	if (R.GetID() == c.m_ID) {
 																		yp2 = yp;
 																		std::string NameTmp = L.GetName();
 																		NameTmp += " Lv" + std::to_string(Lv);
-																		NameTmp += " x" + std::to_string(craftcount);
-																		WindowSystem::SetMsg(xp2, yp2, xp2, yp2 + ysize2, ysize2, STRX_LEFT, White, Black, NameTmp);
+																		NameTmp += "x" + std::to_string(craftcount);
+																		auto xl = xp2 + WindowSystem::SetMsg(xp2, yp2, xp2, yp2 + ysize2, ysize2, STRX_LEFT, White, Black, NameTmp);
 																		yp2 += ysize2 + y_r(5);
+
 																		for (const auto& w : C.m_ItemReq) {
 																			auto ID = w.GetID();
 																			auto* ptr2 = ItemData::Instance()->FindPtr(ID);
 																			if (ptr2) {
 																				int count = w.GetValue()*craftcount;
-																				ptr2->Draw(xp2, yp2, xsize2, ysize2, (count >= 2) ? count : 0, Gray15, !WindowMngr->PosHitCheck(nullptr), false, false, true);
-																				xp2 += xsize2 + y_r(5);
+																				xp2 += ptr2->Draw(xp2, yp2, xsize2, ysize2, (count >= 2) ? count : 0, Gray15, !WindowMngr->PosHitCheck(nullptr), false, false, true) + y_r(5);
 																			}
 																		}
+																		xp2 = std::max(xl, xp2);
 																		xp2 += y_r(10);
 																		break;
 																	}
 																}
 															}
+														}
+													}
+												}
+												//交換
+												if (m_IsCheckBarter) {
+													//ハイドアウトクラフト素材
+													for (auto&L : TraderData::Instance()->SetList()) {
+														for (const auto& Ld : L.GetLvData()) {
+															int Lv = (int)(&Ld - &L.GetLvData().front()) + 1;
+
+															for (const auto& cf : Ld.m_ItemBarters) {
+																for (const auto& I : cf.m_ItemReward) {
+																	int craftcount = std::max(1, c.count / I.GetValue());
+																	if (I.GetID() == c.m_ID) {
+																		yp2 = yp;
+																		std::string NameTmp = L.GetName();
+																		NameTmp += " Lv" + std::to_string(Lv);
+																		NameTmp += "x" + std::to_string(craftcount);
+																		auto xl = xp2 + WindowSystem::SetMsg(xp2, yp2, xp2, yp2 + ysize2, ysize2, STRX_LEFT, White, Black, NameTmp);
+																		yp2 += ysize2 + y_r(5);
+
+																		for (const auto& r : cf.m_ItemReq) {
+																			auto* ptr2 = ItemData::Instance()->FindPtr(r.GetID());
+																			if (ptr2) {
+																				int count = r.GetValue()*craftcount;
+																				xp2 += ptr2->Draw(xp2, yp2, xsize2, ysize2, (count >= 2) ? count : 0, Gray15, !WindowMngr->PosHitCheck(nullptr), false, false, true) + y_r(5);
+																			}
+																		}
+																		xp2 = std::max(xl, xp2);
+																		xp2 += y_r(10);
+																		break;
+																	}
+																}
+															}
+															//クラフトベース
 														}
 													}
 												}
@@ -318,8 +352,8 @@ namespace FPS_n2 {
 			{
 				int xp = y_r(1920) - y_r(48) - y_r(200);
 				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(42) - y_r(42);
-				WindowSystem::CheckBox(xp, yp, &m_IsCheckCraft);
-				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_RIGHT, White, Black, "トレーダー交換をサイド表示(未実装)");
+				WindowSystem::CheckBox(xp, yp, &m_IsCheckBarter);
+				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_RIGHT, White, Black, "トレーダー交換をサイド表示");
 			}
 			//ハイドアウトのみを確認
 			{
