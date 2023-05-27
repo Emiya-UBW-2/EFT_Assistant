@@ -135,12 +135,7 @@ namespace FPS_n2 {
 			}
 		}
 		//
-		if (m_TypeID == InvalidID) {
-			std::string ErrMes = "Error : Not Setting ItemType in Item ";
-			ErrMes += GetShortName();
-			DataErrorLog::Instance()->AddLog(ErrMes.c_str());
-		}
-		else {
+		if (m_TypeID != InvalidID) {
 			auto* typePtr = ItemTypeData::Instance()->FindPtr(this->m_TypeID);
 			auto* catPtr = ItemCategoryData::Instance()->FindPtr(typePtr->GetCategoryID());
 			if (catPtr->GetName() == "Weapons") {
@@ -148,6 +143,87 @@ namespace FPS_n2 {
 			}
 			else if (catPtr->GetName() == "WeaponMods") {
 				m_isWeaponMod = true;
+			}
+		}
+		else {
+			std::string ErrMes = "Error : Not Setting ItemType in Item ";
+			ErrMes += GetShortName();
+			DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+		}
+	}
+	void	ItemList::SetParent() noexcept {
+		{
+			for (auto& cp : m_ChildPartsID) {
+				for (auto& c : cp.Data) {
+					for (const auto& t : ItemData::Instance()->GetList()) {
+						if (c.second == t.GetName()) {
+							c.first = &t;
+							break;
+						}
+					}
+					if (c.first == nullptr) {
+						std::string ErrMes = "Error : Invalid ChildPartsID[";
+						ErrMes += GetShortName();
+						ErrMes += "][";
+						ErrMes += c.second;
+						ErrMes += "]";
+
+						DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+					}
+				}
+			}
+			m_ParentPartsID.clear();
+			for (const auto& t : ItemData::Instance()->GetList()) {
+				for (auto& cp : t.m_ChildPartsID) {
+					for (auto& c : cp.Data) {
+						if (c.first == this) {
+							m_ParentPartsID.emplace_back(&t);
+						}
+					}
+				}
+			}
+			//
+			for (auto& cp : m_ChildPartsID) {
+				for (const auto& c : cp.Data) {
+					bool isHit = false;
+					for (const auto& t : cp.TypeID) {
+						if (c.first && t == c.first->GetTypeID()) {
+							isHit = true;
+							break;
+						}
+					}
+					if (!isHit && c.first) {
+						cp.TypeID.emplace_back(c.first->GetTypeID());
+					}
+				}
+			}
+			//
+			for (auto& cp : m_ConflictPartsID) {
+				for (const auto& t : ItemData::Instance()->GetList()) {
+					if (cp.second == t.GetName()) {
+						cp.first = &t;
+						break;
+					}
+				}
+				if (cp.first == nullptr) {
+					std::string ErrMes = "Error : Invalid ConflictPartsID[";
+					ErrMes += GetShortName();
+					ErrMes += "][";
+					ErrMes += cp.second;
+					ErrMes += "]";
+
+					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+				}
+			}
+			//Ž©•ª‚ðŠ±Â‘ŠŽè‚É‚µ‚Ä‚¢‚é“z‚ð’T‚µ‚Ä‚»‚¢‚Â‚àƒŠƒXƒg‚É“ü‚ê‚é@‘ŠŽv‘Šˆ¤
+			for (const auto& t : ItemData::Instance()->GetList()) {
+				for (auto& cp : t.GetConflictParts()) {
+					if (cp.first == this) {
+						m_ConflictPartsID.resize(m_ConflictPartsID.size() + 1);
+						m_ConflictPartsID.back().first = &t;
+						m_ConflictPartsID.back().second = t.GetName();
+					}
+				}
 			}
 		}
 	}
@@ -717,4 +793,172 @@ namespace FPS_n2 {
 		}
 	}
 
+	//
+	void ItemJsonData::GetJsonSub(const nlohmann::json& data) noexcept {
+		shortName = data["shortName"];
+		if (data.contains("description")) {
+			if (!data["description"].is_null()) {
+				description = data["description"];
+			}
+		}
+		if (data.contains("basePrice")) {
+			if (!data["basePrice"].is_null()) {
+				basePrice = data["basePrice"];
+			}
+		}
+		if (data.contains("width")) {
+			width = data["width"];
+		}
+		if (data.contains("height")) {
+			height = data["height"];
+		}
+		if (data.contains("types")) {
+			for (const auto& ts : data["types"]) {
+				types.emplace_back((std::string)ts);
+			}
+		}
+		
+		if (data.contains("avg24hPrice")) {
+			avg24hPrice = data["avg24hPrice"];
+		}
+
+		if (data.contains("low24hPrice")) {
+			if (!data["low24hPrice"].is_null()) {
+				low24hPrice = data["low24hPrice"];
+			}
+		}
+
+		if (data.contains("lastOfferCount")) {
+			if (!data["lastOfferCount"].is_null()) {
+				lastOfferCount = data["lastOfferCount"];
+			}
+		}
+		for (const auto& sf : data["sellFor"]) {
+			std::string vendor = sf["vendor"]["name"];
+			int price = sf["price"];
+			sellFor.emplace_back(std::make_pair(vendor, price));
+		}
+		for (const auto& sf : data["buyFor"]) {
+			std::string vendor = sf["vendor"]["name"];
+			int price = sf["price"];
+			buyFor.emplace_back(std::make_pair(vendor, price));
+		}
+		categorytypes = data["category"]["name"];
+		weight = data["weight"];
+		for (const auto& ts : data["conflictingItems"]) {
+			conflictingItems.emplace_back((std::string)ts["name"]);
+		}
+		for (const auto& ts : data["usedInTasks"]) {
+			usedInTasks.emplace_back((std::string)ts["name"]);
+		}
+		for (const auto& ts : data["receivedFromTasks"]) {
+			receivedFromTasks.emplace_back((std::string)ts["name"]);
+		}
+		for (const auto& ts : data["bartersFor"]) {
+			bartersFor.emplace_back((std::string)ts["trader"]["name"]);
+		}
+		for (const auto& ts : data["bartersUsing"]) {
+			bartersUsing.emplace_back((std::string)ts["trader"]["name"]);
+		}
+		for (const auto& ts : data["craftsFor"]) {
+			craftsFor.emplace_back((std::string)ts["station"]["name"]);
+		}
+		for (const auto& ts : data["craftsUsing"]) {
+			craftsUsing.emplace_back((std::string)ts["station"]["name"]);
+		}
+		if (data.contains("fleaMarketFee")) {
+			if (!data["fleaMarketFee"].is_null()) {
+				fleaMarketFee = data["fleaMarketFee"];
+			}
+		}
+
+		if (data.contains("properties")) {
+			if (!data["properties"].is_null()) {
+				m_properties.GetJsonData(data["properties"]);
+			}
+		}
+	}
+	void ItemJsonData::OutputDataSub(std::ofstream& outputfile) noexcept {
+		outputfile << "ShortName=" + this->shortName + "\n";
+		outputfile << "Itemtype=" + this->categorytypes + "\n";
+
+		if (this->m_properties.GetSightingRange() >= 0) {
+			outputfile << "SightRange=" + std::to_string(this->m_properties.GetSightingRange()) + "\n";
+		}
+		if (this->m_properties.GetModSlots().size() > 0) {
+			for (const auto& m : this->m_properties.GetModSlots()) {
+				if (m.size() > 0) {
+					outputfile << "ChildParts=[\n";
+					std::vector<std::string> Names;
+					for (auto& d : m) {
+						auto NmBuf = d;
+						if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
+							outputfile << "\t" + NmBuf + ((&d != &m.back()) ? DIV_STR : "") + "\n";
+							Names.emplace_back(NmBuf);
+						}
+					}
+					outputfile << "]\n";
+				}
+			}
+		}
+
+		if (this->conflictingItems.size() > 0) {
+			bool isHit = false;
+			std::vector<std::string> Names;
+			for (auto& m : this->conflictingItems) {
+				auto NmBuf = m;
+				if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
+					if (!isHit) {
+						isHit = true;
+						outputfile << "Conflict=[\n";
+					}
+					outputfile << "\t" + NmBuf + ((&m != &this->conflictingItems.back()) ? DIV_STR : "") + "\n";
+					Names.emplace_back(NmBuf);
+				}
+			}
+			if (isHit) {
+				outputfile << "]\n";
+			}
+		}
+
+		if (this->m_properties.GetType() == EnumItemProperties::ItemPropertiesWeapon) {
+			outputfile << "Recoil=" + std::to_string((float)this->m_properties.GetWeaponRecoilVertical()) + "\n";
+			outputfile << "Ergonomics=" + std::to_string(this->m_properties.GetWeaponErgonomics()) + "\n";
+		}
+		else {
+			switch (this->m_properties.GetType()) {
+			case EnumItemProperties::ItemPropertiesBarrel:
+			case EnumItemProperties::ItemPropertiesMagazine:
+			case EnumItemProperties::ItemPropertiesScope:
+			case EnumItemProperties::ItemPropertiesWeaponMod:
+				outputfile << "Recoil=" + std::to_string((float)this->m_properties.GetModRecoil()*100.f) + "\n";
+				outputfile << "Ergonomics=" + std::to_string(this->m_properties.GetModErgonomics()) + "\n";
+				break;
+			default:
+				break;
+			}
+		}
+
+		outputfile << "Information_Eng=" + this->description + "\n";
+		outputfile << "basePrice=" + std::to_string(this->basePrice) + "\n";
+		outputfile << "width=" + std::to_string(this->width) + "\n";
+		outputfile << "height=" + std::to_string(this->height) + "\n";
+		outputfile << "avg24hPrice=" + std::to_string(this->avg24hPrice) + "\n";
+		outputfile << "low24hPrice=" + std::to_string(this->low24hPrice) + "\n";
+		outputfile << "lastOfferCount=" + std::to_string(this->lastOfferCount) + "\n";
+		for (auto& sf : this->sellFor) {
+			outputfile << "Sell_" + sf.first + "=" + std::to_string(sf.second) + "\n";
+		}
+		//for (auto& bf : this->buyFor) { outputfile << "Buy_" + bf.first + "=" + std::to_string(bf.second) + "\n"; }
+		outputfile << "weight=" + std::to_string(this->weight) + "\n";
+		//std::vector<std::string>					usedInTasks;
+		//std::vector<std::string>					receivedFromTasks;
+		//std::vector<std::string>					bartersFor;
+		//std::vector<std::string>					bartersUsing;
+		//std::vector<std::string>					craftsFor;
+		//std::vector<std::string>					craftsUsing;
+		outputfile << "fleaMarketFee=" + std::to_string(this->fleaMarketFee) + "\n";
+		outputfile << "propertiestype=" + (std::string)(this->m_properties.GetTypeName()) + "\n";
+	}
+	//
 };

@@ -2,16 +2,6 @@ IDstr=5b40e61f5acfc4001a599bec
 Name=USEC baseball cap (Black)
 ShortName=USEC
 Itemtype=Headwear
-Conflict=[
-	Slender mask/|
-	Faceless mask/|
-	Ghoul mask/|
-	GP-5 gas mask/|
-	GP-7 gas mask/|
-	Pestily plague mask/|
-	Tagilla's welding mask "Gorilla"/|
-	Tagilla's welding mask "UBEY"/|
-]
 Information_Eng=A tactical USEC PMC baseball cap. Black version.
 basePrice=1732
 width=1

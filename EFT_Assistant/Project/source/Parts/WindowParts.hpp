@@ -21,7 +21,7 @@ namespace FPS_n2 {
 	static const unsigned int Gray75{ GetColor(64, 64, 64) };
 	static const unsigned int Black{ GetColor(1, 1, 1) };
 	static const unsigned int TransColor{ GetColor(0, 0, 0) };
-
+	//
 	namespace WindowSystem {
 		//” 
 		static void SetBox(int xp1, int yp1, int xp2, int yp2, unsigned int colorSet) {
@@ -704,4 +704,44 @@ namespace FPS_n2 {
 			}
 		};
 	};
+	//
+	static const auto STRX_LEFT{ FontHandle::FontXCenter::LEFT };
+	static const auto STRX_MID{ FontHandle::FontXCenter::MIDDLE };
+	static const auto STRX_RIGHT{ FontHandle::FontXCenter::RIGHT };
+	static const auto STRY_TOP{ FontHandle::FontYCenter::TOP };
+	static const auto STRY_MIDDLE{ FontHandle::FontYCenter::MIDDLE };
+	static const auto STRY_BOTTOM{ FontHandle::FontYCenter::BOTTOM };
+	//
+	class DataErrorLog : public SingletonBase<DataErrorLog> {
+	private:
+		friend class SingletonBase<DataErrorLog>;
+	private:
+		std::vector<std::string>	m_Mes;
+	private:
+		DataErrorLog() noexcept {
+			setPrintColorDx(GetColor(255, 0, 0), GetColor(218, 218, 218));
+		}
+		~DataErrorLog() noexcept {}
+	public:
+		void Draw() noexcept {
+			int xp = 0;
+			int yp = LineHeight;
+			for (auto& m : m_Mes) {
+				WindowSystem::SetMsg(xp, yp, xp, yp, LineHeight * 7 / 10, STRX_LEFT, GetColor(255, 150, 150), GetColor(1, 1, 1), m);
+				yp += LineHeight * 7 / 10;
+				if (yp > y_r(1080)) { break; }
+			}
+		}
+		void AddLog(const char* Mes) noexcept {
+			m_Mes.emplace_back(Mes);
+		}
+		void Save() noexcept {
+			std::ofstream outputfile("data/ErrorLog.txt");
+			for (auto& LD : m_Mes) {
+				outputfile << LD + "\n";
+			}
+			outputfile.close();
+		}
+	};
+	//
 };

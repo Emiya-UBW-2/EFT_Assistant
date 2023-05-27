@@ -2,13 +2,9 @@ IDstr=5ac733a45acfc400192630e2
 Name=AK-105 rear sight (6P44 Sb.1-30)
 ShortName=6P44 Sb.1-30
 Itemtype=Ironsight
-SightRange=500
+SightRange=0
 ChildParts=[
 	AKMP system rear sight device
-]
-Conflict=[
-	AK AKademia Bastion dust cover/|
-	AK TWS Dog Leg Rail dust cover/|
 ]
 Recoil=0.000000
 Ergonomics=0.000000

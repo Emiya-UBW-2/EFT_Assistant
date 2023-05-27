@@ -54,25 +54,21 @@ ChildParts=[
 	Strike Industries KeyMod 6 inch rail/|
 	Vltor CASV KeyMod 6 inch rail
 ]
-Conflict=[
-	AK Zenit B-33 dust cover/|
-	GP-25 "Kostyor" 40mm underbarrel grenade launcher/|
-]
 Recoil=-4.000000
 Ergonomics=14.000000
 Information_Eng=A combined kit of the VS-24 handguard with the VS-33c gas tube, can be installed on 5.56x45, 5.45x39, 7.62x39 AK family assault rifles. Manufactured by Vezhlivyy Strelok.
 basePrice=17600
 width=2
 height=1
-avg24hPrice=55956
-low24hPrice=39000
+avg24hPrice=67732
+low24hPrice=45656
 lastOfferCount=0
 Sell_Prapor=8800
 Sell_Fence=7040
 Sell_Skier=8624
 Sell_Peacekeeper=67
 Sell_Mechanic=9856
-Sell_Flea Market=56765
+Sell_Flea Market=63333
 weight=0.385000
-fleaMarketFee=3582
+fleaMarketFee=4209
 propertiestype=ItemPropertiesWeaponMod

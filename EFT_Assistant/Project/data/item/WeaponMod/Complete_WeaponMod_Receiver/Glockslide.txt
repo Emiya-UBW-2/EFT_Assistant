@@ -19,10 +19,6 @@ ChildParts=[
 ChildParts=[
 	Glock 9x19 Strike Industries G4 SlideComp compensator
 ]
-Conflict=[
-	Glock 9x19 Lone Wolf AlphaWolf Bullnose compensator/|
-	P226 TJ's Custom 9x19 compensator/|
-]
 Recoil=0.000000
 Ergonomics=3.000000
 Information_Eng=A standard-issue slide for Glock 17 9x19 pistols.

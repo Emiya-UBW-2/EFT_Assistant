@@ -2,6 +2,7 @@ IDstr=5ac66d9b5acfc4001633997a
 Name=Kalashnikov AK-105 5.45x39 assault rifle
 ShortName=AK-105
 Itemtype=Assault rifle
+SightRange=100
 ChildParts=[
 	AK-74 gas tube (6P20 Sb.1-2)/|
 	AKM gas tube (6P1 Sb.1-2)/|
@@ -104,28 +105,21 @@ ChildParts=[
 	AK CSS knurled charging handle/|
 	AK Zenit RP-1 charging handle
 ]
-Conflict=[
-	AK Hexagon tubular handguard (Anodized Red)/|
-	AK Hexagon tubular handguard/|
-	AK Vltor CMRD KeyMod handguard/|
-	Hera Arms CQR tactical foregrip/|
-	AK Strike Industries TRAX 2 handguard extension/|
-]
 Recoil=136.000000
 Ergonomics=38.000000
 Information_Eng=The AK-105 5.45x39mm assault rifle is a further modernized version of AK-74M base. A short compact version equipped with a side-folding shoulder stock and a side mount for optical and night scopes. The 100-series AKs are produced by the Izhmash factories in Izhevsk, Russia.
 basePrice=30862
 width=3
 height=1
-avg24hPrice=33536
-low24hPrice=20000
-lastOfferCount=20
+avg24hPrice=35858
+low24hPrice=15000
+lastOfferCount=8
 Sell_Prapor=15431
 Sell_Fence=12344
 Sell_Skier=15122
 Sell_Peacekeeper=117
 Sell_Mechanic=17282
-Sell_Flea Market=25555
+Sell_Flea Market=15000
 weight=1.992000
-fleaMarketFee=1700
+fleaMarketFee=1667
 propertiestype=ItemPropertiesWeapon

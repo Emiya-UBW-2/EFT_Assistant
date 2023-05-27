@@ -2,7 +2,7 @@ IDstr=60229948cacb6b0506369e27
 Name=PL-15 rear sight
 ShortName=PL15 RS
 Itemtype=Ironsight
-SightRange=200
+SightRange=0
 Conflict=[
 	PL-15 extended front sight
 ]

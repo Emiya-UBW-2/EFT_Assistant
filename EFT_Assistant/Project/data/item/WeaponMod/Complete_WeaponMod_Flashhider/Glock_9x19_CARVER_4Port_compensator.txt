@@ -2,25 +2,21 @@ IDstr=5a7ad0c451dfba0013379712
 Name=Glock 9x19 CARVER Custom 4 Port compensator
 ShortName=G 4Port
 Itemtype=Flashhider
-Conflict=[
-	Glock 9x19 Strike Industries G4 SlideComp compensator/|
-	Glock 9x19 Fischer Development FD917 sound suppressor/|
-]
 Recoil=-12.000000
 Ergonomics=-1.000000
 Information_Eng=A custom compensator manufactured by CARVER Custom. The compensator includes 4 ports on the top with 3 exhaust ports on each side, totaling 10 ports. Can only fit 3rd generation Glock pistols.
 basePrice=6152
 width=1
 height=1
-avg24hPrice=20633
+avg24hPrice=7750
 low24hPrice=6000
-lastOfferCount=6
+lastOfferCount=3
 Sell_Prapor=3076
 Sell_Fence=2460
 Sell_Skier=3014
 Sell_Peacekeeper=23
 Sell_Mechanic=3445
-Sell_Flea Market=6999
+Sell_Flea Market=6000
 weight=0.036000
-fleaMarketFee=394
+fleaMarketFee=364
 propertiestype=ItemPropertiesWeaponMod

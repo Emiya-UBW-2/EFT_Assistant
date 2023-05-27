@@ -46,29 +46,21 @@ ChildParts=[
 	Magpul M-LOK AFG tactical foregrip (Stealth Gray)/|
 	Magpul M-LOK 4.1 inch rail
 ]
-Conflict=[
-	FN P90 5.7x28 10.5 inch barrel/|
-	HK 416A5 5.56x45 10.6 inch barrel/|
-	HK 416A5 5.56x45 11 inch barrel/|
-	HK 416A5 5.56x45 14.5 inch barrel/|
-	HK 416A5 5.56x45 16.5 inch barrel with flip-up front sight/|
-	FN P90 5.7x28 16 inch barrel/|
-]
 Recoil=0.000000
 Ergonomics=14.000000
 Information_Eng=The TROY Industries carbon fiber M-LOK foregrip for 416A5 equipped with an M-LOK interface for the installation of additional devices and accessories.
 basePrice=18900
 width=3
 height=1
-avg24hPrice=18508
-low24hPrice=11111
-lastOfferCount=4
+avg24hPrice=18895
+low24hPrice=10000
+lastOfferCount=13
 Sell_Prapor=9450
 Sell_Fence=7560
 Sell_Skier=9261
 Sell_Peacekeeper=71
 Sell_Mechanic=10584
-Sell_Flea Market=18888
+Sell_Flea Market=18000
 weight=0.250000
-fleaMarketFee=1134
+fleaMarketFee=1104
 propertiestype=ItemPropertiesWeaponMod

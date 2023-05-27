@@ -2,6 +2,7 @@ IDstr=630765777d50ff5e8a1ea718
 Name=Glock 19X front sight
 ShortName=G19X FS
 Itemtype=Ironsight
+SightRange=0
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A standard-issue front sight for the Glock 19X pistol.

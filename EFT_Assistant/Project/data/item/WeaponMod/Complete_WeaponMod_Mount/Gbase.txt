@@ -11,25 +11,22 @@ ChildParts=[
 	DeltaPoint Cross Slot Mount base/|
 	Trijicon RMR low profile mount
 ]
-Conflict=[
-	Glock Aimtech Tiger Shark sight mount/|
-]
 Recoil=0.000000
 Ergonomics=-1.000000
 Information_Eng=A sight mount base for Glock pistols, allows additional installation of reflex sights on the Weaver-type rail. Manufactured by Aimtech.
 basePrice=4044
 width=1
 height=1
-avg24hPrice=19126
+avg24hPrice=16834
 low24hPrice=8888
-lastOfferCount=6
+lastOfferCount=5
 Sell_Prapor=2022
 Sell_Fence=1617
 Sell_Skier=1981
 Sell_Peacekeeper=15
 Sell_Mechanic=2264
 Sell_Jaeger=2426
-Sell_Flea Market=9999
+Sell_Flea Market=11777
 weight=0.120000
-fleaMarketFee=568
+fleaMarketFee=711
 propertiestype=ItemPropertiesWeaponMod

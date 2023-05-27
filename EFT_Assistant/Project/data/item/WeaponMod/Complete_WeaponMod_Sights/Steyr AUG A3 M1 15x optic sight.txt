@@ -2,6 +2,7 @@ IDstr=62ebd290c427473eff0baafb
 Name=Steyr AUG A3 M1 1.5x optic sight
 ShortName=A3M1 1.5x
 Itemtype=Assault scope
+SightRange=0
 ChildParts=[
 	BelOMO PK-06 reflex sight/|
 	Aimpoint Micro Standard Mount/|

@@ -37,8 +37,8 @@ namespace FPS_n2 {
 			InterruptParts::Create();
 			WindowSystem::WindowManager::Create();
 			//
-			ItemTypeData::Create();
 			ItemCategoryData::Create();
+			ItemTypeData::Create();
 			ItemData::Create();
 			PresetData::Create();
 			EnemyData::Create();
@@ -47,12 +47,10 @@ namespace FPS_n2 {
 			TaskData::Create();
 			HideoutData::Create();
 
-			HideoutData::Instance()->SetParent();
 			//
 			SetUseASyncLoadFlag(TRUE);
-
-			ItemTypeData::Instance()->LoadList(false);
 			ItemCategoryData::Instance()->LoadList(false);
+			ItemTypeData::Instance()->LoadList(false);
 
 			PresetData::Instance()->LoadList(false);
 #ifdef DEBUG
@@ -60,6 +58,7 @@ namespace FPS_n2 {
 #else
 			ItemData::Instance()->LoadList(false);
 #endif
+			ItemData::Instance()->SetParent();
 			EnemyData::Instance()->LoadList(false);
 			TraderData::Instance()->LoadList(false);
 			MapData::Instance()->LoadList(false);
@@ -69,6 +68,7 @@ namespace FPS_n2 {
 #else
 			HideoutData::Instance()->LoadList(false);
 #endif
+			//
 			SetUseASyncLoadFlag(FALSE);
 			m_Loading = true;
 			//

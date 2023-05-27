@@ -2,13 +2,9 @@ IDstr=59d650cf86f7741b846413a4
 Name=AKM rear sight (6P1 Sb.2-1)
 ShortName=6P1 Sb.2-1
 Itemtype=Ironsight
-SightRange=500
+SightRange=0
 ChildParts=[
 	AKMP system rear sight device
-]
-Conflict=[
-	AK AKademia Bastion dust cover/|
-	AK TWS Dog Leg Rail dust cover/|
 ]
 Recoil=0.000000
 Ergonomics=0.000000
@@ -16,8 +12,8 @@ Information_Eng=A standard rear sight for AKM automatic rifles, manufactured by 
 basePrice=482
 width=1
 height=1
-avg24hPrice=0
-low24hPrice=0
+avg24hPrice=525
+low24hPrice=525
 lastOfferCount=1
 Sell_Prapor=241
 Sell_Fence=192

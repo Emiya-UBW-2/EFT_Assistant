@@ -2,6 +2,7 @@ IDstr=5e81ebcd8e146c7080625e15
 Name=FN40GL Mk2 40mm grenade launcher
 ShortName=FN40GL
 Itemtype=Grenade launcher
+SightRange=100
 ChildParts=[
 	AR-15 Colt A2 pistol grip/|
 	AR-15 Damage Industries ECS pistol grip (FDE)/|

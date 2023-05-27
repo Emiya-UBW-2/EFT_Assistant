@@ -2,36 +2,18 @@ IDstr=59e770f986f7742cbe3164ef
 Name=Army cap
 ShortName=Army
 Itemtype=Headwear
-Conflict=[
-	Faceless mask/|
-	Ghoul mask/|
-	GP-5 gas mask/|
-	GP-7 gas mask/|
-	Hockey player mask "Brawler"/|
-	Hockey player mask "Captain"/|
-	Hockey player mask "Quiet"/|
-	Jason mask/|
-	Misha Mayorov mask/|
-	Neoprene mask/|
-	Pestily plague mask/|
-	Shemagh (Green)/|
-	Shemagh (Tan)/|
-	Slender mask/|
-	Tagilla's welding mask "Gorilla"/|
-	Tagilla's welding mask "UBEY"/|
-]
 Information_Eng=A standard military cap, worn by soldiers.
 basePrice=1353
 width=1
 height=1
-avg24hPrice=6598
-low24hPrice=3999
-lastOfferCount=1
+avg24hPrice=5493
+low24hPrice=2000
+lastOfferCount=8
 Sell_Fence=541
 Sell_Skier=662
 Sell_Peacekeeper=5
 Sell_Ragman=838
-Sell_Flea Market=9500
+Sell_Flea Market=2000
 weight=0.100000
-fleaMarketFee=920
+fleaMarketFee=106
 propertiestype=

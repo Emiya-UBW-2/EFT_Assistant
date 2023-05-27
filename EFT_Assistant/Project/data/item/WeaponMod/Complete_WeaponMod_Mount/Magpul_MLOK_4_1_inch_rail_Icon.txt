@@ -30,25 +30,22 @@ ChildParts=[
 	Zenit RK-5 tactical foregrip/|
 	Zenit RK-6 tactical foregrip
 ]
-Conflict=[
-	GP-25 "Kostyor" 40mm underbarrel grenade launcher/|
-]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=The Magpul M-LOK 4.1 inch rail allows installation of additional equipment on the handguards equipped with an M-LOK interface.
 basePrice=1573
 width=1
 height=1
-avg24hPrice=16264
+avg24hPrice=11326
 low24hPrice=6666
-lastOfferCount=8
+lastOfferCount=9
 Sell_Prapor=786
 Sell_Fence=629
 Sell_Skier=770
 Sell_Peacekeeper=6
 Sell_Mechanic=880
 Sell_Jaeger=943
-Sell_Flea Market=9444
+Sell_Flea Market=9000
 weight=0.070000
-fleaMarketFee=832
+fleaMarketFee=771
 propertiestype=ItemPropertiesWeaponMod

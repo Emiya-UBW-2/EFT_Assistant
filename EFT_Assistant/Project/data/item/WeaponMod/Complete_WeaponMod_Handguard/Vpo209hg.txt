@@ -2,9 +2,6 @@ IDstr=59e898ee86f77427614bd225
 Name=VPO-209 wooden handguard
 ShortName=VPO209
 Itemtype=Handguard
-Conflict=[
-	AK Zenit B-33 dust cover/|
-]
 Recoil=0.000000
 Ergonomics=4.000000
 Information_Eng=A standard wooden handguard for VPO-209 AKM carbines, manufactured by Molot Arms.

@@ -6,25 +6,22 @@ ChildParts=[
 	AK Zenit PT-3 "Klassika" stock/|
 	AK Zenit PT-1 "Klassika" stock
 ]
-Conflict=[
-	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock/|
-]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=The lock is designed to install the PT-1 and PT-3 stocks to a weapon. This model is designed for installation on the AK-74M and AK-100-series assault rifles. Manufactured by Zenit.
 basePrice=2713
 width=1
 height=1
-avg24hPrice=23663
-low24hPrice=10000
-lastOfferCount=7
+avg24hPrice=22904
+low24hPrice=13332
+lastOfferCount=10
 Sell_Prapor=1356
 Sell_Fence=1085
 Sell_Skier=1329
 Sell_Peacekeeper=10
 Sell_Mechanic=1519
 Sell_Jaeger=1627
-Sell_Flea Market=18000
+Sell_Flea Market=19998
 weight=0.310000
-fleaMarketFee=1684
+fleaMarketFee=1995
 propertiestype=ItemPropertiesWeaponMod

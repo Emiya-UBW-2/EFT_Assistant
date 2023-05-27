@@ -70,6 +70,7 @@ namespace FPS_n2 {
 		const auto&	GetIsPreset() const noexcept { return m_IsPreset; }
 		const auto&	GetUseTaskID() const noexcept { return m_UseTaskID; }
 	public:
+		void		SetParent() noexcept;
 		const auto	GetSellValue(TraderID* ID, int* pValue) const noexcept {
 			*ID = InvalidID;
 			*pValue = -1;
@@ -90,82 +91,6 @@ namespace FPS_n2 {
 	public:
 		const int		Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive, bool IsFir, bool IsDrawBuy, bool IsIconOnly) const noexcept;
 		void			DrawWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept;
-		void			SetOtherPartsID(const std::vector<ItemList>& itemList) noexcept {
-			for (auto& cp : m_ChildPartsID) {
-				for (auto& c : cp.Data) {
-					for (const auto& t : itemList) {
-						if (c.second == t.GetName()) {
-							c.first = &t;
-							break;
-						}
-					}
-					if (c.first == nullptr) {
-						std::string ErrMes = "Error : Invalid ChildPartsID[";
-						ErrMes += GetShortName();
-						ErrMes += "][";
-						ErrMes += c.second;
-						ErrMes += "]";
-
-						DataErrorLog::Instance()->AddLog(ErrMes.c_str());
-					}
-				}
-			}
-			m_ParentPartsID.clear();
-			for (const auto& t : itemList) {
-				for (auto& cp : t.m_ChildPartsID) {
-					for (auto& c : cp.Data) {
-						if (c.first == this) {
-							m_ParentPartsID.emplace_back(&t);
-						}
-					}
-				}
-			}
-			//
-			for (auto& cp : m_ChildPartsID) {
-				for (const auto& c : cp.Data) {
-					bool isHit = false;
-					for (const auto& t : cp.TypeID) {
-						if (c.first && t == c.first->GetTypeID()) {
-							isHit = true;
-							break;
-						}
-					}
-					if (!isHit && c.first) {
-						cp.TypeID.emplace_back(c.first->GetTypeID());
-					}
-				}
-			}
-			//
-			for (auto& cp : m_ConflictPartsID) {
-				for (const auto& t : itemList) {
-					if (cp.second == t.GetName()) {
-						cp.first = &t;
-						break;
-					}
-				}
-				if (cp.first == nullptr) {
-					std::string ErrMes = "Error : Invalid ConflictPartsID[";
-					ErrMes += GetShortName();
-					ErrMes += "][";
-					ErrMes += cp.second;
-					ErrMes += "]";
-
-					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
-				}
-			}
-		}
-		void			SetOtherPartsID_After(const std::vector<ItemList>& itemList) noexcept {
-			//é©ï™Çä±è¬ëäéËÇ…ÇµÇƒÇ¢ÇÈìzÇíTÇµÇƒÇªÇ¢Ç¬Ç‡ÉäÉXÉgÇ…ì¸ÇÍÇÈÅ@ëäévëäà§
-			for (const auto& t : itemList) {
-				for (auto& cp : t.GetConflictParts()) {
-					if (cp.first == this) {
-						m_ConflictPartsID.resize(m_ConflictPartsID.size() + 1);
-						m_ConflictPartsID.back().first = &t;
-						m_ConflictPartsID.back().second = t.GetName();
-					}
-				}
-			}
-		}
 	};
 
 	enum class EnumItemProperties {
@@ -281,12 +206,21 @@ namespace FPS_n2 {
 				return 0;
 			}
 		}
+		const auto		GetSightingRange() const noexcept {
+			switch (m_Type) {
+			case EnumItemProperties::ItemPropertiesScope:
+				return m_IntParams[1];
+			case EnumItemProperties::ItemPropertiesWeapon:
+				return m_IntParams[1];
+			default:
+				return -100;
+			}
+		}
 		const auto		GetSlashDamage() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMelee) ? m_IntParams[0] : 0; }
 
 		const auto		GetHitpoints() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMedKit) ? m_IntParams[0] : 0; }
 		const auto		GetIntensity() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesNightVision) ? m_IntParams[0] : 0; }
 		const auto		GetDefault() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesPreset) ? m_IntParams[0] : 0; }
-		const auto		GetSightingRange() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesScope) ? m_IntParams[0] : 0; }
 		const auto		GetWeaponRecoilVertical() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesWeapon) ? m_IntParams[0] : 0; }
 		const auto		GetWeaponErgonomics() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesWeapon) ? m_floatParams[0] : 0; }
 
@@ -465,6 +399,7 @@ namespace FPS_n2 {
 				break;
 			case EnumItemProperties::ItemPropertiesWeapon:
 				m_IntParams[0] = data["recoilVertical"];
+				m_IntParams[1] = (data.contains("sightingRange")) ? (int)data["sightingRange"] : -100;
 				m_floatParams[0] = data["ergonomics"];
 				m_ItemSlots.clear();
 				for (const auto& s : data["slots"]) {
@@ -502,12 +437,8 @@ namespace FPS_n2 {
 		}
 	};
 
-	class ItemJsonData {
+	class ItemJsonData :public JsonDataParent {
 	public:
-		bool										m_IsFileOpened{ false };
-	public:
-		std::string									id;
-		std::string									name;
 		std::string									shortName;
 		std::string									description;
 		int											basePrice{ 0 };
@@ -534,91 +465,8 @@ namespace FPS_n2 {
 
 		properties									m_properties;
 	public:
-		void GetJsonData(const nlohmann::json& data) {
-			id = data["id"];
-			name = data["name"];
-			shortName = data["shortName"];
-			if (data.contains("description")) {
-				if (!data["description"].is_null()) {
-					description = data["description"];
-				}
-			}
-			if (data.contains("basePrice")) {
-				if (!data["basePrice"].is_null()) {
-					basePrice = data["basePrice"];
-				}
-			}
-			if (data.contains("width")) {
-				width = data["width"];
-			}
-			if (data.contains("height")) {
-				height = data["height"];
-			}
-			if (data.contains("types")) {
-				for (const auto& ts : data["types"]) {
-					types.emplace_back((std::string)ts);
-				}
-			}
-			if (data.contains("avg24hPrice")) {
-				avg24hPrice = data["avg24hPrice"];
-			}
-
-			if (data.contains("low24hPrice")) {
-				if (!data["low24hPrice"].is_null()) {
-					low24hPrice = data["low24hPrice"];
-				}
-			}
-
-			if (data.contains("lastOfferCount")) {
-				if (!data["lastOfferCount"].is_null()) {
-					lastOfferCount = data["lastOfferCount"];
-				}
-			}
-			for (const auto& sf : data["sellFor"]) {
-				std::string vendor = sf["vendor"]["name"];
-				int price = sf["price"];
-				sellFor.emplace_back(std::make_pair(vendor, price));
-			}
-			for (const auto& sf : data["buyFor"]) {
-				std::string vendor = sf["vendor"]["name"];
-				int price = sf["price"];
-				buyFor.emplace_back(std::make_pair(vendor, price));
-			}
-			categorytypes = data["category"]["name"];
-			weight = data["weight"];
-			for (const auto& ts : data["conflictingItems"]) {
-				conflictingItems.emplace_back((std::string)ts["name"]);
-			}
-			for (const auto& ts : data["usedInTasks"]) {
-				usedInTasks.emplace_back((std::string)ts["name"]);
-			}
-			for (const auto& ts : data["receivedFromTasks"]) {
-				receivedFromTasks.emplace_back((std::string)ts["name"]);
-			}
-			for (const auto& ts : data["bartersFor"]) {
-				bartersFor.emplace_back((std::string)ts["trader"]["name"]);
-			}
-			for (const auto& ts : data["bartersUsing"]) {
-				bartersUsing.emplace_back((std::string)ts["trader"]["name"]);
-			}
-			for (const auto& ts : data["craftsFor"]) {
-				craftsFor.emplace_back((std::string)ts["station"]["name"]);
-			}
-			for (const auto& ts : data["craftsUsing"]) {
-				craftsUsing.emplace_back((std::string)ts["station"]["name"]);
-			}
-			if (data.contains("fleaMarketFee")) {
-				if (!data["fleaMarketFee"].is_null()) {
-					fleaMarketFee = data["fleaMarketFee"];
-				}
-			}
-
-			if (data.contains("properties")) {
-				if (!data["properties"].is_null()) {
-					m_properties.GetJsonData(data["properties"]);
-				}
-			}
-		}
+		void GetJsonSub(const nlohmann::json& data) noexcept override;
+		void OutputDataSub(std::ofstream& outputfile) noexcept override;
 	};
 
 	class ItemData : public SingletonBase<ItemData>, public DataParent<ItemID, ItemList> {
@@ -640,12 +488,6 @@ namespace FPS_n2 {
 				}
 			}
 			for (auto& t : m_List) {
-				t.SetOtherPartsID(m_List);
-			}
-			for (auto& t : m_List) {
-				t.SetOtherPartsID_After(m_List);
-			}
-			for (auto& t : m_List) {
 				t.m_CheckJson = 0;
 			}
 		}
@@ -653,12 +495,16 @@ namespace FPS_n2 {
 	private:
 		std::vector<ItemJsonData> m_ItemJsonData;
 	public:
+		void SetParent()noexcept {
+			for (auto& L : m_List) {
+				L.SetParent();
+			}
+		}
 		void GetJsonData(nlohmann::json& data) {
 			m_ItemJsonData.clear();
 			for (const auto& d : data["data"]["items"]) {
 				m_ItemJsonData.resize(m_ItemJsonData.size() + 1);
-				m_ItemJsonData.back().GetJsonData(d);
-				m_ItemJsonData.back().m_IsFileOpened = false;
+				m_ItemJsonData.back().GetJson(d);
 			}
 		}
 		void SaveDatabyJson() noexcept {
@@ -667,146 +513,16 @@ namespace FPS_n2 {
 					if (L.GetIDstr() == jd.id) {
 						L.m_CheckJson++;
 
-						jd.m_IsFileOpened = true;
+						jd.OutputData(L.GetFilePath());
 
-						std::ofstream outputfile(L.GetFilePath());
-						outputfile << "IDstr=" + jd.id + "\n";
-						outputfile << "Name=" + jd.name + "\n";
-						outputfile << "ShortName=" + jd.shortName + "\n";
-						outputfile << "Itemtype=" + jd.categorytypes + "\n";
-
-						//ä˘ë∂ÇÃÇ‡ÇÃÇï€éùÇµÇƒÇ®Ç≠1
+						//ä˘ë∂ÇÃÇ‡ÇÃÇï€éùÇµÇƒÇ®Ç≠
+						std::ofstream outputfile(L.GetFilePath(), std::ios::app);
 						for (auto& m : L.GetMapID()) {
 							auto* ptr = MapData::Instance()->FindPtr(m);
 							if (ptr) {
 								outputfile << "Map=" + ptr->GetName() + "\n";
 							}
 						}
-						if (L.GetSightRange() >= 0) {
-							outputfile << "SightRange=" + std::to_string(L.GetSightRange()) + "\n";
-						}
-
-
-						if (jd.m_properties.GetModSlots().size() > 0) {
-							for (const auto& m : jd.m_properties.GetModSlots()) {
-								if (m.size() > 0) {
-									outputfile << "ChildParts=[\n";
-									std::vector<std::string> Names;
-									for (auto& d : m) {
-										auto NmBuf = d;
-										if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
-											outputfile << "\t" + NmBuf + ((&d != &m.back()) ? DIV_STR : "") + "\n";
-											Names.emplace_back(NmBuf);
-										}
-									}
-									outputfile << "]\n";
-								}
-							}
-						}
-						else {
-							for (auto& m : L.GetChildParts()) {
-								if (m.Data.size() > 0) {
-									outputfile << "ChildParts=[\n";
-									std::vector<std::string> Names;
-									for (auto& d : m.Data) {
-										if (d.first) {
-											auto NmBuf = d.first->GetName();
-											if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
-												outputfile << "\t" + NmBuf + ((&d != &m.Data.back()) ? DIV_STR : "") + "\n";
-												Names.emplace_back(NmBuf);
-											}
-										}
-										else {
-											//int a = 0;
-										}
-									}
-									outputfile << "]\n";
-								}
-							}
-						}
-
-						if (jd.conflictingItems.size() > 0) {
-							bool isHit = false;
-							std::vector<std::string> Names;
-							for (auto& m : jd.conflictingItems) {
-								auto NmBuf = m;
-								if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
-									if (!isHit) {
-										isHit = true;
-										outputfile << "Conflict=[\n";
-									}
-									outputfile << "\t" + NmBuf + ((&m != &jd.conflictingItems.back()) ? DIV_STR : "") + "\n";
-									Names.emplace_back(NmBuf);
-								}
-							}
-							if (isHit) {
-								outputfile << "]\n";
-							}
-						}
-						else {
-							if (L.GetConflictParts().size() > 0) {
-								bool isHit = false;
-								std::vector<std::string> Names;
-								for (auto& m : L.GetConflictParts()) {
-									if (m.first) {
-										auto NmBuf = m.first->GetName();
-										if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
-											if (!isHit) {
-												isHit = true;
-												outputfile << "Conflict=[\n";
-											}
-											outputfile << "\t" + NmBuf + ((&m != &L.GetConflictParts().back()) ? DIV_STR : "") + "\n";
-											Names.emplace_back(NmBuf);
-										}
-									}
-									else {
-										//int a = 0;
-									}
-								}
-								if (isHit) {
-									outputfile << "]\n";
-								}
-							}
-						}
-
-						if (jd.m_properties.GetType() == EnumItemProperties::ItemPropertiesWeapon) {
-							outputfile << "Recoil=" + std::to_string((float)jd.m_properties.GetWeaponRecoilVertical()) + "\n";
-							outputfile << "Ergonomics=" + std::to_string(jd.m_properties.GetWeaponErgonomics()) + "\n";
-						}
-						else {
-							switch (jd.m_properties.GetType()) {
-							case EnumItemProperties::ItemPropertiesBarrel:
-							case EnumItemProperties::ItemPropertiesMagazine:
-							case EnumItemProperties::ItemPropertiesScope:
-							case EnumItemProperties::ItemPropertiesWeaponMod:
-								outputfile << "Recoil=" + std::to_string((float)jd.m_properties.GetModRecoil()*100.f) + "\n";
-								outputfile << "Ergonomics=" + std::to_string(jd.m_properties.GetModErgonomics()) + "\n";
-								break;
-							default:
-								break;
-							}
-						}
-
-						outputfile << "Information_Eng=" + jd.description + "\n";
-						outputfile << "basePrice=" + std::to_string(jd.basePrice) + "\n";
-						outputfile << "width=" + std::to_string(jd.width) + "\n";
-						outputfile << "height=" + std::to_string(jd.height) + "\n";
-						outputfile << "avg24hPrice=" + std::to_string(jd.avg24hPrice) + "\n";
-						outputfile << "low24hPrice=" + std::to_string(jd.low24hPrice) + "\n";
-						outputfile << "lastOfferCount=" + std::to_string(jd.lastOfferCount) + "\n";
-						for (auto& sf : jd.sellFor) {
-							outputfile << "Sell_" + sf.first + "=" + std::to_string(sf.second) + "\n";
-						}
-						//for (auto& bf : jd.buyFor) { outputfile << "Buy_" + bf.first + "=" + std::to_string(bf.second) + "\n"; }
-						outputfile << "weight=" + std::to_string(jd.weight) + "\n";
-						//std::vector<std::string>					usedInTasks;
-						//std::vector<std::string>					receivedFromTasks;
-						//std::vector<std::string>					bartersFor;
-						//std::vector<std::string>					bartersUsing;
-						//std::vector<std::string>					craftsFor;
-						//std::vector<std::string>					craftsUsing;
-						outputfile << "fleaMarketFee=" + std::to_string(jd.fleaMarketFee) + "\n";
-						outputfile << "propertiestype=" + (std::string)(jd.m_properties.GetTypeName()) + "\n";
 						outputfile.close();
 						break;
 					}
@@ -820,102 +536,21 @@ namespace FPS_n2 {
 
 					CreateDirectory(ParentPath.c_str(), NULL);
 
-					std::string ItemName = jd.name;
-					SubStrs(&ItemName, ".");
+					std::string FileName = jd.name;
+					SubStrs(&FileName, ".");
 
-					SubStrs(&ItemName, "\\");
-					SubStrs(&ItemName, "/");
-					SubStrs(&ItemName, ":");
-					SubStrs(&ItemName, "*");
-					SubStrs(&ItemName, "?");
-					SubStrs(&ItemName, "\"");
-					SubStrs(&ItemName, ">");
-					SubStrs(&ItemName, "<");
-					SubStrs(&ItemName, "|");
+					SubStrs(&FileName, "\\");
+					SubStrs(&FileName, "/");
+					SubStrs(&FileName, ":");
+					SubStrs(&FileName, "*");
+					SubStrs(&FileName, "?");
+					SubStrs(&FileName, "\"");
+					SubStrs(&FileName, ">");
+					SubStrs(&FileName, "<");
+					SubStrs(&FileName, "|");
 
-					std::string Name = ParentPath + "/" + ItemName + ".txt";
-					std::ofstream outputfile(Name);
-					outputfile << "IDstr=" + jd.id + "\n";
-					outputfile << "Name=" + jd.name + "\n";
-					outputfile << "ShortName=" + jd.shortName + "\n";
-					outputfile << "Itemtype=" + jd.categorytypes + "\n";
-
-					//ä˘ë∂ÇÃÇ‡ÇÃÇï€éùÇµÇƒÇ®Ç≠1
-					/*
-					for (auto& m : L.GetMapID()) {
-						auto* ptr = MapData::Instance()->FindPtr(m);
-						if (ptr) {
-							outputfile << "Map=" + ptr->GetName() + "\n";
-						}
-					}
-					if (L.GetSightRange() >= 0) {
-						outputfile << "SightRange=" + std::to_string(L.GetSightRange()) + "\n";
-					}
-					if (L.GetConflictParts().size() > 0) {
-						outputfile << "Conflict=[\n";
-						for (auto& m : L.GetConflictParts()) {
-							outputfile << "\t" + m.first->GetName() + ((&m != &L.GetConflictParts().back()) ? DIV_STR : "") + "\n";
-						}
-						outputfile << "]\n";
-					}
-					//*/
-					if (jd.m_properties.GetModSlots().size() > 0) {
-						for (const auto& m : jd.m_properties.GetModSlots()) {
-							if (m.size() > 0) {
-								outputfile << "ChildParts=[\n";
-								std::vector<std::string> Names;
-								for (auto& d : m) {
-									auto NmBuf = d;
-									if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
-										outputfile << "\t" + NmBuf + ((&d != &m.back()) ? DIV_STR : "") + "\n";
-										Names.emplace_back(NmBuf);
-									}
-								}
-								outputfile << "]\n";
-							}
-						}
-					}
-
-					if (jd.m_properties.GetType() == EnumItemProperties::ItemPropertiesWeapon) {
-						outputfile << "Recoil=" + std::to_string((float)jd.m_properties.GetWeaponRecoilVertical()) + "\n";
-						outputfile << "Ergonomics=" + std::to_string(jd.m_properties.GetWeaponErgonomics()) + "\n";
-					}
-					else {
-						switch (jd.m_properties.GetType()) {
-						case EnumItemProperties::ItemPropertiesBarrel:
-						case EnumItemProperties::ItemPropertiesMagazine:
-						case EnumItemProperties::ItemPropertiesScope:
-						case EnumItemProperties::ItemPropertiesWeaponMod:
-							outputfile << "Recoil=" + std::to_string((float)jd.m_properties.GetModRecoil()*100.f) + "\n";
-							outputfile << "Ergonomics=" + std::to_string(jd.m_properties.GetModErgonomics()) + "\n";
-							break;
-						default:
-							break;
-						}
-					}
-
-					outputfile << "Information_Eng=" + jd.description + "\n";
-					outputfile << "basePrice=" + std::to_string(jd.basePrice) + "\n";
-					outputfile << "width=" + std::to_string(jd.width) + "\n";
-					outputfile << "height=" + std::to_string(jd.height) + "\n";
-					outputfile << "avg24hPrice=" + std::to_string(jd.avg24hPrice) + "\n";
-					outputfile << "low24hPrice=" + std::to_string(jd.low24hPrice) + "\n";
-					outputfile << "lastOfferCount=" + std::to_string(jd.lastOfferCount) + "\n";
-					for (auto& sf : jd.sellFor) {
-						outputfile << "Sell_" + sf.first + "=" + std::to_string(sf.second) + "\n";
-					}
-					//for (auto& bf : jd.buyFor) { outputfile << "Buy_" + bf.first + "=" + std::to_string(bf.second) + "\n"; }
-					outputfile << "weight=" + std::to_string(jd.weight) + "\n";
-					//std::vector<std::string>					usedInTasks;
-					//std::vector<std::string>					receivedFromTasks;
-					//std::vector<std::string>					bartersFor;
-					//std::vector<std::string>					bartersUsing;
-					//std::vector<std::string>					craftsFor;
-					//std::vector<std::string>					craftsUsing;
-					outputfile << "fleaMarketFee=" + std::to_string(jd.fleaMarketFee) + "\n";
-					outputfile << "propertiestype=" + (std::string)(jd.m_properties.GetTypeName()) + "\n";
-					outputfile.close();
-
+					std::string Name = ParentPath + "/" + FileName + ".txt";
+					jd.OutputData(Name);
 					//RemoveDirectory(Path.c_str());
 				}
 			}

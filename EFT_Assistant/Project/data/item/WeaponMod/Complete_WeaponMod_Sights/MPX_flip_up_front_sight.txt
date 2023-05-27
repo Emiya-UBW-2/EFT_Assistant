@@ -2,11 +2,7 @@ IDstr=5894a73486f77426d259076c
 Name=MPX flip-up front sight
 ShortName=MPX FS
 Itemtype=Ironsight
-SightRange=300
-Conflict=[
-	NcSTAR ADO P4 Sniper 3-9x42 riflescope/|
-	PU 3.5x riflescope/|
-]
+SightRange=0
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A detachable flip-up front sight for MPX SMGs, installed on the mount. Manufactured by SIG Sauer.

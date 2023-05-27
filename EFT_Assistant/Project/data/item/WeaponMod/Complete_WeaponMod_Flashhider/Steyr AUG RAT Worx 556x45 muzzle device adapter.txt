@@ -33,24 +33,21 @@ ChildParts=[
 	AR-15 AlienTech 5.56x45 muzzle brake/|
 	AR-15 Griffin Armament Gate-LOK Hammer 5.56x45 flash hider
 ]
-Conflict=[
-	Steyr AUG Relfex T4AUG Ranger 5.56x45 sound suppressor/|
-]
 Recoil=0.000000
 Ergonomics=-1.000000
 Information_Eng=The RAT Worx adapter allows to install various AR-15 muzzle devices on 5.56x45 AUG rifles. Manufactured by Research And Testing Worx.
 basePrice=3700
 width=1
 height=1
-avg24hPrice=11889
+avg24hPrice=13431
 low24hPrice=4333
-lastOfferCount=10
+lastOfferCount=5
 Sell_Prapor=1850
 Sell_Fence=1480
 Sell_Skier=1813
 Sell_Peacekeeper=14
 Sell_Mechanic=2072
-Sell_Flea Market=4333
+Sell_Flea Market=9999
 weight=0.120000
-fleaMarketFee=241
+fleaMarketFee=586
 propertiestype=ItemPropertiesWeaponMod

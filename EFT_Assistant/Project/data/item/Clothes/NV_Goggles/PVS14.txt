@@ -2,28 +2,20 @@ IDstr=57235b6f24597759bf5a30f1
 Name=AN/PVS-14 Night Vision Monocular
 ShortName=PVS-14
 Itemtype=Night Vision
-Conflict=[
-	Galvion Caiman Fixed Arm Visor/|
-	LShZ-2DTM face shield/|
-	Ops-Core FAST multi-hit ballistic face shield/|
-	Ops-Core FAST Visor/|
-	Team Wendy EXFIL Ballistic face shield (Black)/|
-	Team Wendy EXFIL Ballistic face shield (Coyote Brown)/|
-]
 Information_Eng=The AN/PVS-14 monocular night vision device for army/navy that allows nighttime detection of targets on distances of up to 350m with 40° FOV and has an adjustable brightness.
 basePrice=91951
 width=1
 height=1
-avg24hPrice=64953
+avg24hPrice=64319
 low24hPrice=54777
-lastOfferCount=12
+lastOfferCount=28
 Sell_Prapor=45975
 Sell_Fence=36780
 Sell_Skier=45055
 Sell_Peacekeeper=348
 Sell_Mechanic=51492
 Sell_Jaeger=55170
-Sell_Flea Market=65000
+Sell_Flea Market=58779
 weight=0.650000
-fleaMarketFee=4883
+fleaMarketFee=4841
 propertiestype=ItemPropertiesNightVision

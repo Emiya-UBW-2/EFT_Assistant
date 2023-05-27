@@ -61,26 +61,22 @@ ChildParts=[
 	SwampFox Trihawk Prism Scope 3x30/|
 	AI AX-50 34mm scope mount
 ]
-Conflict=[
-	M14 A.R.M.S. #18 scope mount/|
-	M14 Leapers UTG 4-Point Locking Deluxe mount/|
-]
 Recoil=0.000000
 Ergonomics=-1.000000
 Information_Eng=The M14 DCSB (Detachable Cantilevered Sight Base) mount for M14 rifles, manufactured by SAGE International. It has a Weaver-type rail for mounting various different sights. Can only be installed on the EBR chassis.
 basePrice=7906
 width=2
 height=1
-avg24hPrice=12235
-low24hPrice=5555
-lastOfferCount=8
+avg24hPrice=9227
+low24hPrice=4980
+lastOfferCount=6
 Sell_Prapor=3953
 Sell_Fence=3162
 Sell_Skier=3873
 Sell_Peacekeeper=30
 Sell_Mechanic=4427
 Sell_Jaeger=4743
-Sell_Flea Market=8854
+Sell_Flea Market=6000
 weight=0.220000
-fleaMarketFee=502
+fleaMarketFee=425
 propertiestype=ItemPropertiesWeaponMod

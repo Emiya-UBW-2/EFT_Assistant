@@ -2,6 +2,7 @@ IDstr=6275303a9f372d6ea97f9ec7
 Name=Milkor M32A1 MSGL 40mm grenade launcher
 ShortName=MSGL
 Itemtype=Revolver
+SightRange=100
 ChildParts=[
 	AR-15 Colt A2 pistol grip/|
 	AR-15 Damage Industries ECS pistol grip (FDE)/|

@@ -2,6 +2,7 @@ IDstr=57dc2fa62459775949412633
 Name=Kalashnikov AKS-74U 5.45x39 assault rifle
 ShortName=AKS-74U
 Itemtype=Assault rifle
+SightRange=100
 ChildParts=[
 	AK Aeroknox Scorpius pistol grip/|
 	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip/|
@@ -69,24 +70,21 @@ ChildParts=[
 ChildParts=[
 	AKS-74U gas tube (6P26 Sb.1-2)
 ]
-Conflict=[
-	Hera Arms CQR tactical foregrip/|
-]
 Recoil=103.000000
 Ergonomics=44.000000
 Information_Eng=AKS-74U (Avtomat Kalashnikova Skladnoy 74 Ukorochenny - "Kalashnikov's Shortened Automatic rifle 74 with a foldable stock") is a shortened version of the AKS-74 assault rifle, developed in the early 80s for combat vehicle crews and airborne troops, also became very popular with law enforcement and special forces for its compact size.
 basePrice=13643
 width=3
 height=1
-avg24hPrice=25000
-low24hPrice=22999
-lastOfferCount=4
+avg24hPrice=26444
+low24hPrice=22222
+lastOfferCount=3
 Sell_Prapor=6821
 Sell_Fence=5457
 Sell_Skier=6685
 Sell_Peacekeeper=52
 Sell_Mechanic=7640
-Sell_Flea Market=25000
+Sell_Flea Market=35000
 weight=1.809000
-fleaMarketFee=1325
+fleaMarketFee=2013
 propertiestype=ItemPropertiesWeapon

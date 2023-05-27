@@ -2,23 +2,17 @@ IDstr=5aa2ba71e5b5b000137b758f
 Name=MSA Sordin Supreme PRO-X/L active headset
 ShortName=Sordin
 Itemtype=Headphones
-Conflict=[
-	Ops-Core FAST RAC Headset/|
-	Crye Precision AirFrame Ears/|
-	Ops-Core FAST Side Armor/|
-	SSh-68 steel helmet/|
-]
 Information_Eng=The Sordin Supreme PRO-X/L headset amplifies low-level sounds while suppressing impulse noises. Water resistant for outdoor usage.
 basePrice=39154
 width=2
 height=2
-avg24hPrice=49680
-low24hPrice=39999
-lastOfferCount=15
+avg24hPrice=52525
+low24hPrice=44444
+lastOfferCount=30
 Sell_Fence=15661
 Sell_Skier=19185
 Sell_Ragman=24275
-Sell_Flea Market=49888
+Sell_Flea Market=48888
 weight=0.650000
-fleaMarketFee=2706
+fleaMarketFee=2666
 propertiestype=

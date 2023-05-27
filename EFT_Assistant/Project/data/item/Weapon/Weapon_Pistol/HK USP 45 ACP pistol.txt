@@ -2,6 +2,7 @@ IDstr=6193a720f8ee7e52e42109ed
 Name=HK USP .45 ACP pistol
 ShortName=USP .45
 Itemtype=Handgun
+SightRange=100
 ChildParts=[
 	HK USP .45 ACP barrel/|
 	HK USP Tactical .45 ACP threaded barrel/|
@@ -40,15 +41,15 @@ Information_Eng=The HK USP (Universelle Selbstladepistole - "Universal Self-load
 basePrice=9500
 width=2
 height=1
-avg24hPrice=18798
+avg24hPrice=20326
 low24hPrice=13000
-lastOfferCount=14
+lastOfferCount=4
 Sell_Prapor=4750
 Sell_Fence=3800
 Sell_Skier=4655
 Sell_Peacekeeper=36
 Sell_Mechanic=5320
-Sell_Flea Market=13000
+Sell_Flea Market=20000
 weight=0.222000
-fleaMarketFee=694
+fleaMarketFee=1086
 propertiestype=ItemPropertiesWeapon

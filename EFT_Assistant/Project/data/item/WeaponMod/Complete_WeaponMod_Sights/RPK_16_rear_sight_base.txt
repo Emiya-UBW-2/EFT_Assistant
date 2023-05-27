@@ -2,7 +2,7 @@ IDstr=5beec9450db83400970084fd
 Name=RPK-16 rear sight base
 ShortName=RPK16 RS base
 Itemtype=Ironsight
-SightRange=600
+SightRange=0
 ChildParts=[
 	AK-105 rear sight (6P44 Sb.1-30)/|
 	AK-74 rear sight (6P20 Sb.2)/|

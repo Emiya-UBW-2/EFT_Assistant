@@ -2,16 +2,6 @@ IDstr=5b40e5e25acfc4001a599bea
 Name=BEAR baseball cap (Black)
 ShortName=BEAR
 Itemtype=Headwear
-Conflict=[
-	Faceless mask/|
-	Ghoul mask/|
-	GP-5 gas mask/|
-	GP-7 gas mask/|
-	Pestily plague mask/|
-	Slender mask/|
-	Tagilla's welding mask "Gorilla"/|
-	Tagilla's welding mask "UBEY"/|
-]
 Information_Eng=A tactical BEAR PMC baseball cap. Black version.
 basePrice=1827
 width=1

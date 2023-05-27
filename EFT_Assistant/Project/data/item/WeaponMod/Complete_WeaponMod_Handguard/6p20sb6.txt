@@ -2,9 +2,6 @@ IDstr=5648b0744bdc2d363b8b4578
 Name=AK-74 wooden handguard (6P20 Sb.6)
 ShortName=6P20 Sb.6
 Itemtype=Handguard
-Conflict=[
-	AK Zenit B-33 dust cover/|
-]
 Recoil=0.000000
 Ergonomics=4.000000
 Information_Eng=A standard Izhmash-produced wooden handguard for AK-74 assault rifles.

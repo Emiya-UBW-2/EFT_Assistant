@@ -31,25 +31,22 @@ ChildParts=[
 	Zenit RK-5 tactical foregrip/|
 	Zenit RK-6 tactical foregrip
 ]
-Conflict=[
-	GP-25 "Kostyor" 40mm underbarrel grenade launcher/|
-]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=The Strike Industries 6 inch rail for KeyMod systems allows installation of additional equipment on the handguards equipped with a standard KeyMod interface.
 basePrice=1352
 width=1
 height=1
-avg24hPrice=7947
+avg24hPrice=7160
 low24hPrice=4999
-lastOfferCount=4
+lastOfferCount=6
 Sell_Prapor=676
 Sell_Fence=540
 Sell_Skier=662
 Sell_Peacekeeper=5
 Sell_Mechanic=757
 Sell_Jaeger=811
-Sell_Flea Market=6666
+Sell_Flea Market=5000
 weight=0.075000
-fleaMarketFee=524
+fleaMarketFee=337
 propertiestype=ItemPropertiesWeaponMod

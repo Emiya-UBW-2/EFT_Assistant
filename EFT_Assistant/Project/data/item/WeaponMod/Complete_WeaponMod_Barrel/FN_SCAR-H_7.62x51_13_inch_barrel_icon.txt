@@ -32,10 +32,6 @@ ChildParts=[
 ChildParts=[
 	FN SCAR flip-up front sight
 ]
-Conflict=[
-	FN SCAR Kinetic MREX 6.5 M-LOK rail/|
-	FN SCAR PWS SRX rail extension/|
-]
 Recoil=-3.000000
 Ergonomics=-6.000000
 Information_Eng=A 13 inches long (330mm) barrel for the SCAR-series weapons chambered in 7.62x51 NATO ammo.

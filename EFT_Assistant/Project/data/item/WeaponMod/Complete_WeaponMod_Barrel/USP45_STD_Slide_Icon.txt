@@ -2,28 +2,22 @@ IDstr=6194ef39de3cdf1d2614a768
 Name=HK USP .45 ACP barrel
 ShortName=USP45 std
 Itemtype=Barrel
-Conflict=[
-	HK USP .45 ACP Elite compensator/|
-	HK USP .45 ACP Match compensator/|
-	HK USP Elite .45 ACP pistol slide/|
-	HK USP Expert .45 ACP pistol slide/|
-]
 Recoil=-2.000000
 Ergonomics=-4.000000
 Information_Eng=A standard-issue 112mm .45 ACP barrel for the USP pistol, manufactured by Heckler & Koch.
 basePrice=2500
 width=1
 height=1
-avg24hPrice=32500
-low24hPrice=30000
-lastOfferCount=2
+avg24hPrice=10000
+low24hPrice=10000
+lastOfferCount=1
 Sell_Prapor=1250
 Sell_Fence=1000
 Sell_Skier=1225
 Sell_Peacekeeper=9
 Sell_Mechanic=1400
 Sell_Jaeger=1500
-Sell_Flea Market=30000
+Sell_Flea Market=10000
 weight=0.113000
-fleaMarketFee=4071
+fleaMarketFee=701
 propertiestype=ItemPropertiesBarrel

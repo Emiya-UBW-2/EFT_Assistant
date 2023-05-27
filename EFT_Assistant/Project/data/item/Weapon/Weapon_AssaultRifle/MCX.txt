@@ -2,6 +2,7 @@ IDstr=5fbcc1d9016cce60e8341ab3
 Name=SIG MCX .300 Blackout assault rifle
 ShortName=MCX .300 BLK
 Itemtype=Assault rifle
+SightRange=100
 ChildParts=[
 	AR-15 Colt A2 pistol grip/|
 	AR-15 Damage Industries ECS pistol grip (FDE)/|
@@ -70,15 +71,15 @@ Information_Eng=The .300 Blackout MCX line, designed and manufactured by SIG Sau
 basePrice=21300
 width=1
 height=1
-avg24hPrice=49574
+avg24hPrice=53119
 low24hPrice=36666
-lastOfferCount=30
+lastOfferCount=29
 Sell_Prapor=10650
 Sell_Fence=8520
 Sell_Skier=10437
 Sell_Peacekeeper=81
 Sell_Mechanic=11928
-Sell_Flea Market=47000
+Sell_Flea Market=40000
 weight=0.400000
-fleaMarketFee=2581
+fleaMarketFee=2127
 propertiestype=ItemPropertiesWeapon

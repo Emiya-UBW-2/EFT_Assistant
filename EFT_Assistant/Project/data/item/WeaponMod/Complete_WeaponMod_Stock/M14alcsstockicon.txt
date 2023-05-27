@@ -105,25 +105,22 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight
 ]
-Conflict=[
-	M14 Leapers UTG 4-Point Locking Deluxe mount/|
-]
 Recoil=-9.000000
 Ergonomics=18.000000
 Information_Eng=The M14ALCS chassis for M14 rifles from the Enhanced Battle Rifle (EBR) kit. Manufactured by SAGE International.
 basePrice=17972
 width=3
 height=1
-avg24hPrice=19079
+avg24hPrice=22206
 low24hPrice=11999
-lastOfferCount=21
+lastOfferCount=7
 Sell_Prapor=8986
 Sell_Fence=7188
 Sell_Skier=8806
 Sell_Peacekeeper=68
 Sell_Mechanic=10064
 Sell_Jaeger=10783
-Sell_Flea Market=11999
+Sell_Flea Market=14000
 weight=1.900000
-fleaMarketFee=948
+fleaMarketFee=973
 propertiestype=ItemPropertiesWeaponMod

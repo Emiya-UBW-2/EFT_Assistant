@@ -6,28 +6,22 @@ ChildParts=[
 	SilencerCo Omega 45k Piston Mount adapter/|
 	HK USP Tactical thread protector
 ]
-Conflict=[
-	HK USP Expert .45 ACP pistol slide/|
-	HK USP .45 ACP Elite compensator/|
-	HK USP .45 ACP Match compensator/|
-	HK USP Elite .45 ACP pistol slide/|
-]
 Recoil=-2.000000
 Ergonomics=-3.000000
 Information_Eng=A 129mm threaded barrel for the special version of the USP pistol - USP Tactical, chambered in .45 ACP. Manufactured by Heckler & Koch.
 basePrice=2900
 width=1
 height=1
-avg24hPrice=42871
-low24hPrice=25999
-lastOfferCount=1
+avg24hPrice=64807
+low24hPrice=31111
+lastOfferCount=11
 Sell_Prapor=1450
 Sell_Fence=1160
 Sell_Skier=1421
 Sell_Peacekeeper=11
 Sell_Mechanic=1624
 Sell_Jaeger=1740
-Sell_Flea Market=35000
+Sell_Flea Market=70000
 weight=0.122000
-fleaMarketFee=4768
+fleaMarketFee=15029
 propertiestype=ItemPropertiesBarrel

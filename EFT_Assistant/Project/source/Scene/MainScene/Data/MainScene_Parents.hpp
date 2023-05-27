@@ -5,44 +5,6 @@ namespace FPS_n2 {
 	//
 	static const int InvalidID{ -1 };
 	static const int ElseSelectID{ -2 };
-	static const auto STRX_LEFT{ FontHandle::FontXCenter::LEFT };
-	static const auto STRX_MID{ FontHandle::FontXCenter::MIDDLE };
-	static const auto STRX_RIGHT{ FontHandle::FontXCenter::RIGHT };
-	static const auto STRY_TOP{ FontHandle::FontYCenter::TOP };
-	static const auto STRY_MIDDLE{ FontHandle::FontYCenter::MIDDLE };
-	static const auto STRY_BOTTOM{ FontHandle::FontYCenter::BOTTOM };
-	//
-	class DataErrorLog : public SingletonBase<DataErrorLog> {
-	private:
-		friend class SingletonBase<DataErrorLog>;
-	private:
-		std::vector<std::string>	m_Mes;
-	private:
-		DataErrorLog() noexcept {
-			setPrintColorDx(GetColor(255, 0, 0), GetColor(218, 218, 218));
-		}
-		~DataErrorLog() noexcept {}
-	public:
-		void Draw() noexcept {
-			int xp = 0;
-			int yp = LineHeight;
-			for (auto& m : m_Mes) {
-				WindowSystem::SetMsg(xp, yp, xp, yp, LineHeight * 7 / 10, STRX_LEFT, GetColor(255, 150, 150), GetColor(1, 1, 1), m);
-				yp += LineHeight * 7 / 10;
-				if (yp > y_r(1080)) { break; }
-			}
-		}
-		void AddLog(const char* Mes) noexcept {
-			m_Mes.emplace_back(Mes);
-		}
-		void Save() noexcept {
-			std::ofstream outputfile("data/ErrorLog.txt");
-			for (auto& LD : m_Mes) {
-				outputfile << LD + "\n";
-			}
-			outputfile.close();
-		}
-	};
 	//
 	template <class ID>
 	class ListParent {
@@ -200,7 +162,7 @@ namespace FPS_n2 {
 			DataErrorLog::Instance()->AddLog(ErrMes.c_str());
 			return InvalidID;
 		}
-		List*		FindPtr(ID id) const noexcept {
+		List*			FindPtr(ID id) const noexcept {
 			for (auto&t : m_List) {
 				if (t.GetID() == id) {
 					return (List*)&t;
@@ -214,7 +176,8 @@ namespace FPS_n2 {
 		const auto&		GetList(void) const noexcept { return this->m_List; }
 		auto&			SetList(void) noexcept { return this->m_List; }
 	};
-	//
+
+	//äYìñIDÇÃÉfÅ[É^ÇÃêîíläiî[
 	template <class ID>
 	class GetDataParent {
 		ID			m_ID;
@@ -227,6 +190,8 @@ namespace FPS_n2 {
 			m_Value = lv;
 		}
 	};
+
+	//ï∂éöóÒ(ó·)"AAAx1"Ç©ÇÁAAAÇ∆1Çï™ó£ÇµÇƒÉfÅ[É^Ç…äiî[
 	template <class GetDataParentT, class DataParentT>
 	void			SetGetData(std::vector<GetDataParentT>* Data, const std::string& mes) noexcept {
 		auto L = mes.rfind("x");
@@ -250,6 +215,75 @@ namespace FPS_n2 {
 		}
 		else {
 			//int a = 0;
+		}
+	};
+
+	//Jsonì«Ç›éÊÇË
+	class JsonDataParent {
+	public:
+		bool										m_IsFileOpened{ false };
+	public:
+		std::string									id;
+		std::string									name;
+	public:
+		virtual void	GetJsonSub(const nlohmann::json&) noexcept {}
+		virtual void	OutputDataSub(std::ofstream&) noexcept {}
+	public:
+		void GetJson(const nlohmann::json& data) noexcept {
+			m_IsFileOpened = false;
+			id = data["id"];
+			name = data["name"];
+			GetJsonSub(data);
+		}
+		void OutputData(const std::string& Path) noexcept {
+			m_IsFileOpened = true;
+			std::ofstream outputfile(Path);
+			outputfile << "IDstr=" + id + "\n";
+			outputfile << "Name=" + name + "\n";
+			OutputDataSub(outputfile);
+			outputfile.close();
+		}
+	};
+	template <class JsonDataParentT>
+	class JsonListParent {
+		std::vector<std::unique_ptr<JsonDataParent>> m_JsonData;
+	public:
+		auto&		GetJsonDataList() noexcept { return m_JsonData; }
+		void GetDataJson(nlohmann::json& data,std::string ListName) {
+			m_JsonData.clear();
+			for (const auto& d : data["data"][ListName]) {
+				m_JsonData.emplace_back(std::make_unique<JsonDataParentT>());
+				m_JsonData.back()->GetJson(d);
+			}
+		}
+		void SaveAsNewData(std::string ParentPath) noexcept {
+			bool maked = false;
+			for (auto& jd : m_JsonData) {
+				if (!jd->m_IsFileOpened) {
+					if (!maked) {
+						CreateDirectory(ParentPath.c_str(), NULL);
+						maked = true;
+					}
+
+					std::string ChildPath = ParentPath + "/";
+
+					std::string FileName = jd->name;
+					SubStrs(&FileName, ".");
+					SubStrs(&FileName, "\\");
+					SubStrs(&FileName, "/");
+					SubStrs(&FileName, ":");
+					SubStrs(&FileName, "*");
+					SubStrs(&FileName, "?");
+					SubStrs(&FileName, "\"");
+					SubStrs(&FileName, ">");
+					SubStrs(&FileName, "<");
+					SubStrs(&FileName, "|");
+					std::string Name = FileName + ".txt";
+
+					jd->OutputData(ChildPath + Name);
+					//RemoveDirectory(Path.c_str());
+				}
+			}
 		}
 	};
 };

@@ -2,26 +2,22 @@ IDstr=5b0800175acfc400153aebd4
 Name=ERGO F93 PRO stock
 ShortName=F93 PRO
 Itemtype=Stock
-Conflict=[
-	AR-15 ADAR 2-15 wooden stock/|
-	AR-15 Hera Arms CQR pistol grip/buttstock/|
-]
 Recoil=-30.000002
 Ergonomics=10.000000
 Information_Eng=The F93 PRO telescoping stock, manufactured by ERGO.
 basePrice=10140
 width=2
 height=1
-avg24hPrice=23635
+avg24hPrice=25427
 low24hPrice=11000
-lastOfferCount=18
+lastOfferCount=2
 Sell_Prapor=5070
 Sell_Fence=4056
 Sell_Skier=4968
 Sell_Peacekeeper=38
 Sell_Mechanic=5678
 Sell_Jaeger=6084
-Sell_Flea Market=11000
+Sell_Flea Market=23000
 weight=0.590000
-fleaMarketFee=632
+fleaMarketFee=1272
 propertiestype=ItemPropertiesWeaponMod

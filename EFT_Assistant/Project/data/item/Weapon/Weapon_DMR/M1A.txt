@@ -2,6 +2,7 @@ IDstr=5aafa857e5b5b00018480968
 Name=Springfield Armory M1A 7.62x51 rifle
 ShortName=M1A
 Itemtype=Marksman rifle
+SightRange=100
 ChildParts=[
 	M1A 7.62x51 20-round magazine/|
 	M14 7.62x51 30-round magazine/|

@@ -52,25 +52,21 @@ ChildParts=[
 	Vltor CASV KeyMod 4 inch rail/|
 	CNC Guns KeyMod 2 inch rail
 ]
-Conflict=[
-	Hera Arms CQR tactical foregrip/|
-	AK Zenit B-33 dust cover/|
-]
 Recoil=-2.000000
 Ergonomics=6.000000
 Information_Eng=The Strike Industries AK TRAX 1 rail system is a modular drop-in rail that is versatile, light-weight, and durable. It will provide an adaptable platform for the user to mount their accessories. Can be combined with the TRAX 2 rail for maximum amount of modularity.
 basePrice=7925
 width=1
 height=1
-avg24hPrice=14606
+avg24hPrice=18001
 low24hPrice=9000
-lastOfferCount=4
+lastOfferCount=9
 Sell_Prapor=3962
 Sell_Fence=3170
 Sell_Skier=3883
 Sell_Peacekeeper=30
 Sell_Mechanic=4438
-Sell_Flea Market=9000
+Sell_Flea Market=13333
 weight=0.260000
-fleaMarketFee=507
+fleaMarketFee=702
 propertiestype=ItemPropertiesWeaponMod

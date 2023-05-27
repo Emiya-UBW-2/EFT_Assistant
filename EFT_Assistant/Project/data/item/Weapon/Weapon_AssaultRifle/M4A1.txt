@@ -2,6 +2,7 @@ IDstr=5447a9cd4bdc2dbd208b4567
 Name=Colt M4A1 5.56x45 assault rifle
 ShortName=M4A1
 Itemtype=Assault rifle
+SightRange=100
 ChildParts=[
 	AR-15 ADAR 2-15 wooden stock/|
 	AR-15 Hera Arms CQR pistol grip/buttstock/|
@@ -93,15 +94,15 @@ However, U.S. Special Operations Command (USSOCOM) was soon to adopt the M4A1 fo
 basePrice=18397
 width=1
 height=1
-avg24hPrice=93867
-low24hPrice=55555
-lastOfferCount=10
+avg24hPrice=89206
+low24hPrice=55000
+lastOfferCount=22
 Sell_Prapor=9198
 Sell_Fence=7358
 Sell_Skier=9014
 Sell_Peacekeeper=70
 Sell_Mechanic=10302
-Sell_Flea Market=80000
+Sell_Flea Market=68000
 weight=0.380000
-fleaMarketFee=5864
+fleaMarketFee=4580
 propertiestype=ItemPropertiesWeapon

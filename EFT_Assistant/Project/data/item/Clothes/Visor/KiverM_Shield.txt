@@ -2,21 +2,18 @@ IDstr=5b46238386f7741a693bcf9c
 Name=Kiver-M face shield
 ShortName=Kiver FS
 Itemtype=Armored equipment
-Conflict=[
-	Pestily plague mask/|
-]
 Information_Eng=A special faceshield for the FORT Kiver-M bulletproof helmet, made out of heavy-duty glass.
 basePrice=20056
 width=2
 height=1
-avg24hPrice=20198
+avg24hPrice=20854
 low24hPrice=12999
 lastOfferCount=5
 Sell_Fence=8022
 Sell_Skier=9827
 Sell_Peacekeeper=76
 Sell_Ragman=12434
-Sell_Flea Market=21890
+Sell_Flea Market=25420
 weight=1.200000
-fleaMarketFee=1255
+fleaMarketFee=1381
 propertiestype=ItemPropertiesArmorAttachment

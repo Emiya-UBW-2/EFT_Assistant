@@ -7,26 +7,22 @@ ChildParts=[
 	Magpul PRS GEN3 stock (Black)/|
 	Magpul PRS GEN3 stock (Grey)
 ]
-Conflict=[
-	AR-15 ADAR 2-15 wooden stock/|
-	AR-15 Hera Arms CQR pistol grip/buttstock/|
-]
 Recoil=-2.000000
 Ergonomics=0.000000
 Information_Eng=Colt Receiver Extension Buffer Tube, Mil-Spec diameter will fit any AR-15-based carbine or rifle.
 basePrice=3629
 width=2
 height=1
-avg24hPrice=14057
+avg24hPrice=14293
 low24hPrice=5000
-lastOfferCount=6
+lastOfferCount=15
 Sell_Prapor=1814
 Sell_Fence=1451
 Sell_Skier=1778
 Sell_Peacekeeper=14
 Sell_Mechanic=2032
 Sell_Jaeger=2177
-Sell_Flea Market=5000
+Sell_Flea Market=9800
 weight=0.162000
-fleaMarketFee=267
+fleaMarketFee=574
 propertiestype=ItemPropertiesWeaponMod

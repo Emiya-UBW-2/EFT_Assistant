@@ -7,29 +7,22 @@ ChildParts=[
 	Trijicon ACOG TA01NSN 4x32 scope (Tan)/|
 	Trijicon ACOG TA11D 3.5x35 scope
 ]
-Conflict=[
-	HK G36 rear sight/|
-	AR-15 Colt A2 rear sight/|
-	AR-15 rear sight carry handle/|
-	Mosin Rifle carbine rear sight/|
-	NSPU-M night vision scope/|
-]
 Recoil=0.000000
 Ergonomics=-1.000000
 Information_Eng=The TA51 universal mount for installation of Trijicon 3.5x35, 4x32, 5.5x50 ACOG, 1x42 Reflex, and 1-6x24 VCOG sights.
 basePrice=4268
 width=1
 height=1
-avg24hPrice=36533
+avg24hPrice=30943
 low24hPrice=15000
-lastOfferCount=7
+lastOfferCount=9
 Sell_Prapor=2134
 Sell_Fence=1707
 Sell_Skier=2091
 Sell_Peacekeeper=16
 Sell_Mechanic=2390
 Sell_Jaeger=2560
-Sell_Flea Market=25000
+Sell_Flea Market=22000
 weight=0.113000
-fleaMarketFee=2170
+fleaMarketFee=1773
 propertiestype=ItemPropertiesWeaponMod

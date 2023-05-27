@@ -43,32 +43,22 @@ ChildParts=[
 ChildParts=[
 	M203 40mm underbarrel grenade launcher
 ]
-Conflict=[
-	AR-15 ADAR 2-15 wooden handguard/|
-	AR-15 Magpul MOE SL medium length M-LOK handguard/|
-	AR-10 CMMG MK3 RML15 15 inch M-LOK handguard/|
-	AR-15 Lone Star Ion Lite handguard/|
-	AR-15 SAI 10 inch QD Rail handguard/|
-	AR-15 Soyuz-TM 15 inch M-LOK handguard/|
-	Mk-18 18 inch handguard/|
-	AR-10 KAC URX 4 14.5 inch handguard/|
-]
 Recoil=-3.000000
 Ergonomics=-14.000000
 Information_Eng=A 370mm barrel for AR-15 based weapons for 5.56x45 NATO ammo. Corresponds with standard service M4A1 barrel.
 basePrice=24567
 width=3
 height=1
-avg24hPrice=35661
+avg24hPrice=35114
 low24hPrice=27777
-lastOfferCount=11
+lastOfferCount=2
 Sell_Prapor=12283
 Sell_Fence=9826
 Sell_Skier=12037
 Sell_Peacekeeper=93
 Sell_Mechanic=13757
 Sell_Jaeger=14740
-Sell_Flea Market=27999
+Sell_Flea Market=35000
 weight=0.509000
-fleaMarketFee=1575
+fleaMarketFee=1857
 propertiestype=ItemPropertiesBarrel

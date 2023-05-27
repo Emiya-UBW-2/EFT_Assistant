@@ -32,25 +32,22 @@ ChildParts=[
 	Trijicon RMR high profile mount/|
 	Trijicon RMR low profile mount
 ]
-Conflict=[
-	Mosin Rifle Arbalet Patriot K+W rail mount/|
-]
 Recoil=0.000000
 Ergonomics=-1.000000
 Information_Eng=A Picatinny rail for the Mosin rifle, mounted instead of the regular rear sight. Manufactured by AIM Sports.
 basePrice=1811
 width=1
 height=1
-avg24hPrice=12877
-low24hPrice=4800
-lastOfferCount=3
+avg24hPrice=19288
+low24hPrice=11111
+lastOfferCount=6
 Sell_Prapor=905
 Sell_Fence=724
 Sell_Skier=887
 Sell_Peacekeeper=7
 Sell_Mechanic=1014
 Sell_Jaeger=1086
-Sell_Flea Market=12000
+Sell_Flea Market=24999
 weight=0.074000
-fleaMarketFee=1122
+fleaMarketFee=3715
 propertiestype=ItemPropertiesWeaponMod

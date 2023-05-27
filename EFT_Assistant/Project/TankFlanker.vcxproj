@@ -18,6 +18,7 @@
     <ClInclude Include="source\Parts\InputParts.hpp" />
     <ClInclude Include="source\Parts\InterruptParts.hpp" />
     <ClInclude Include="source\Parts\PlayerDataParts.hpp" />
+    <ClInclude Include="source\Parts\StrControl.hpp" />
     <ClInclude Include="source\Parts\WindowParts.hpp" />
     <ClInclude Include="source\Scene\MainScene.hpp" />
     <ClInclude Include="source\Scene\MainSceneLoader.hpp" />
@@ -48,6 +49,7 @@
     <ClCompile Include="source\Scene\MainScene\Data\MainScene_hideout.cpp" />
     <ClCompile Include="source\Scene\MainScene\Data\MainScene_Item.cpp" />
     <ClCompile Include="source\Scene\MainScene\Data\MainScene_Parents.cpp" />
+    <ClCompile Include="source\Scene\MainScene\Data\MainScene_Task.cpp" />
     <ClCompile Include="source\Scene\MainScene\Data\MainScene_Trader.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

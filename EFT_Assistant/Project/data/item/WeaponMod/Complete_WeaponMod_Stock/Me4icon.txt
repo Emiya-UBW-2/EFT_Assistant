@@ -21,25 +21,22 @@ ChildParts=[
 	Strike Industries Viper PDW stock/|
 	AR-15 RTM ATP buffer tube
 ]
-Conflict=[
-	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock/|
-]
 Recoil=-2.000000
 Ergonomics=-1.000000
 Information_Eng=An adapter for the installation of telescopic stock buffer tubes on AKs with non-folding stocks.
 basePrice=5053
 width=1
 height=1
-avg24hPrice=18633
-low24hPrice=10000
-lastOfferCount=32
+avg24hPrice=17214
+low24hPrice=5777
+lastOfferCount=9
 Sell_Prapor=2526
 Sell_Fence=2021
 Sell_Skier=2475
 Sell_Peacekeeper=19
 Sell_Mechanic=2829
 Sell_Jaeger=3031
-Sell_Flea Market=13000
+Sell_Flea Market=12999
 weight=0.310000
 fleaMarketFee=748
 propertiestype=ItemPropertiesWeaponMod

@@ -2,28 +2,21 @@ IDstr=5bfea7ad0db834001c38f1ee
 Name=M700 7.62x51 Wyatt's Outdoor 5-round magazine
 ShortName=Wyatt
 Itemtype=Magazine
-Conflict=[
-	M700 AI AT AICS polymer chassis/|
-	M700 AB Arms MOD*X GEN 3 chassis/|
-	ORSIS T-5000M aluminium body/|
-	M700 Magpul Pro 700 chassis/|
-	M700 ProMag Archangel chassis/|
-]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A Remington M700 sniper rifle 5-round magazine by Wyatt's Outdoor, for 7.62x51 cartridges.
 basePrice=1850
 width=1
 height=1
-avg24hPrice=16321
-low24hPrice=8500
-lastOfferCount=5
+avg24hPrice=13533
+low24hPrice=2500
+lastOfferCount=1
 Sell_Prapor=925
 Sell_Fence=740
 Sell_Skier=906
 Sell_Peacekeeper=7
 Sell_Mechanic=1036
-Sell_Flea Market=12000
+Sell_Flea Market=15000
 weight=0.500000
-fleaMarketFee=1107
+fleaMarketFee=1587
 propertiestype=ItemPropertiesMagazine

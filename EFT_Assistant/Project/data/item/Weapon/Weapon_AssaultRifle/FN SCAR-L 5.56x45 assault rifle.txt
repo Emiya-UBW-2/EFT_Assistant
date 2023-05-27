@@ -2,6 +2,7 @@ IDstr=6184055050224f204c1da540
 Name=FN SCAR-L 5.56x45 assault rifle
 ShortName=Mk 16
 Itemtype=Assault rifle
+SightRange=100
 ChildParts=[
 	AR-15 Colt A2 pistol grip/|
 	AR-15 Damage Industries ECS pistol grip (FDE)/|
@@ -67,15 +68,15 @@ Information_Eng=The FN SCAR-L (Special Operations Forces Combat Assault Rifle - 
 basePrice=17000
 width=1
 height=1
-avg24hPrice=56636
+avg24hPrice=58930
 low24hPrice=40000
-lastOfferCount=22
+lastOfferCount=24
 Sell_Prapor=8500
 Sell_Fence=6800
 Sell_Skier=8330
 Sell_Peacekeeper=64
 Sell_Mechanic=9520
-Sell_Flea Market=49998
+Sell_Flea Market=57420
 weight=0.700000
-fleaMarketFee=3030
+fleaMarketFee=3701
 propertiestype=ItemPropertiesWeapon

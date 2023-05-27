@@ -44,17 +44,14 @@ ChildParts=[
 	UNV DLOC-IRD sight mount/|
 	SwampFox Trihawk Prism Scope 3x30
 ]
-Conflict=[
-	MP-155 Ultima pistol grip/|
-]
 Recoil=0.000000
 Ergonomics=-1.000000
 Information_Eng=The universal SPRM 13-position rail mount by Kiba Arms International, for attaching additional devices to pump-action shotguns.
 basePrice=3285
 width=1
 height=1
-avg24hPrice=53991
-low24hPrice=32500
+avg24hPrice=51830
+low24hPrice=40000
 lastOfferCount=5
 Sell_Prapor=1642
 Sell_Fence=1314
@@ -62,7 +59,7 @@ Sell_Skier=1609
 Sell_Peacekeeper=12
 Sell_Mechanic=1839
 Sell_Jaeger=1971
-Sell_Flea Market=45666
+Sell_Flea Market=95000
 weight=0.120000
-fleaMarketFee=6817
+fleaMarketFee=23010
 propertiestype=ItemPropertiesWeaponMod

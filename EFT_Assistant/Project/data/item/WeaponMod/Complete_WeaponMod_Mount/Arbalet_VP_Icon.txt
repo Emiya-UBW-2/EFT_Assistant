@@ -47,25 +47,22 @@ ChildParts=[
 	UNV DLOC-IRD sight mount/|
 	SwampFox Trihawk Prism Scope 3x30
 ]
-Conflict=[
-	AK CNC Guns OV GP handguard/|
-]
 Recoil=0.000000
 Ergonomics=-2.000000
 Information_Eng=An aluminum mount for installing various sights and accessories on to the VPO-102 Vepr-Hunter carbine, manufactured by Arbalet.
 basePrice=2902
 width=1
 height=1
-avg24hPrice=7745
-low24hPrice=5555
-lastOfferCount=2
+avg24hPrice=16999
+low24hPrice=5000
+lastOfferCount=10
 Sell_Prapor=1451
 Sell_Fence=1160
 Sell_Skier=1421
 Sell_Peacekeeper=11
 Sell_Mechanic=1625
 Sell_Jaeger=1741
-Sell_Flea Market=9500
+Sell_Flea Market=27500
 weight=0.120000
-fleaMarketFee=604
+fleaMarketFee=3209
 propertiestype=ItemPropertiesWeaponMod

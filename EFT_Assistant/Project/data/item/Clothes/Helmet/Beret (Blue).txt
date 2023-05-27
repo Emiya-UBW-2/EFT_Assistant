@@ -2,27 +2,18 @@ IDstr=5f60e7788adaa7100c3adb49
 Name=Beret (Blue)
 ShortName=Beret
 Itemtype=Headwear
-Conflict=[
-	Faceless mask/|
-	Ghoul mask/|
-	GP-7 gas mask/|
-	Pestily plague mask/|
-	Slender mask/|
-	Tagilla's welding mask "Gorilla"/|
-	Tagilla's welding mask "UBEY"/|
-]
 Information_Eng=A regular blue beret. If it had an emblem, it would've been a VDV (Russian Airborne Forces) trooper beret. But this one is just a blue beret.
 basePrice=3400
 width=1
 height=1
-avg24hPrice=15939
-low24hPrice=7500
-lastOfferCount=2
+avg24hPrice=18666
+low24hPrice=9900
+lastOfferCount=12
 Sell_Fence=1360
 Sell_Skier=1666
 Sell_Peacekeeper=13
 Sell_Ragman=2108
-Sell_Flea Market=12000
+Sell_Flea Market=9999
 weight=0.100000
-fleaMarketFee=790
+fleaMarketFee=606
 propertiestype=

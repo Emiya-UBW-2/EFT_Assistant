@@ -2,27 +2,22 @@ IDstr=5bae13bad4351e00320204af
 Name=Mosin Rifle ProMag Archangel OPFOR PRS chassis
 ShortName=Archangel Mosin
 Itemtype=Stock
-Conflict=[
-	Mosin Rifle 7.62x54R sawn-off 200mm barrel/|
-	Mosin Rifle 7.62x54R sawn-off 220mm threaded barrel/|
-	Mosin Rifle 7.62x54R 5-round magazine/|
-]
 Recoil=-38.000000
 Ergonomics=40.000000
 Information_Eng=The Archangel OPFOR PRS chassis for Mosin sniper rifle. The ergonomic gooseneck style grip with palm swells promotes maximum accuracy and comfort. Manufactured by ProMag.
 basePrice=20551
 width=4
 height=1
-avg24hPrice=21873
+avg24hPrice=25529
 low24hPrice=10000
-lastOfferCount=21
+lastOfferCount=11
 Sell_Prapor=10275
 Sell_Fence=8220
 Sell_Skier=10069
 Sell_Peacekeeper=78
 Sell_Mechanic=11508
 Sell_Jaeger=12330
-Sell_Flea Market=16666
+Sell_Flea Market=36666
 weight=2.000000
-fleaMarketFee=1125
+fleaMarketFee=1938
 propertiestype=ItemPropertiesWeaponMod

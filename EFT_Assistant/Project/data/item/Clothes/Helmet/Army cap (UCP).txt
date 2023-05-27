@@ -2,25 +2,18 @@ IDstr=60361b5a9a15b10d96792291
 Name=Army cap (UCP)
 ShortName=Cap
 Itemtype=Headwear
-Conflict=[
-	Faceless mask/|
-	Ghoul mask/|
-	GP-7 gas mask/|
-	Tagilla's welding mask "Gorilla"/|
-	Tagilla's welding mask "UBEY"/|
-]
 Information_Eng=A regular army cap, colored in UCP camouflage.
 basePrice=2353
 width=1
 height=1
-avg24hPrice=8888
-low24hPrice=3999
-lastOfferCount=1
+avg24hPrice=25000
+low24hPrice=7000
+lastOfferCount=2
 Sell_Fence=941
 Sell_Skier=1152
 Sell_Peacekeeper=9
 Sell_Ragman=1458
-Sell_Flea Market=8888
+Sell_Flea Market=25000
 weight=0.100000
-fleaMarketFee=605
+fleaMarketFee=3138
 propertiestype=

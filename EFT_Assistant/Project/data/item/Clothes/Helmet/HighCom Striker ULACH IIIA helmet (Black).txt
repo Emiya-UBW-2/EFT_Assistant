@@ -2,23 +2,18 @@ IDstr=5b40e1525acfc4771e1c6611
 Name=HighCom Striker ULACH IIIA helmet (Black)
 ShortName=ULACH
 Itemtype=Headwear
-Conflict=[
-	Faceless mask/|
-	Tagilla's welding mask "Gorilla"/|
-	Tagilla's welding mask "UBEY"/|
-]
 Information_Eng=A combat helmet with the ears and back of the head protection, manufactured by HighCom. Does not feature any additional mounts. Black version.
 basePrice=77984
 width=2
 height=2
-avg24hPrice=119525
+avg24hPrice=128938
 low24hPrice=81000
-lastOfferCount=13
+lastOfferCount=6
 Sell_Fence=31193
 Sell_Skier=38212
 Sell_Peacekeeper=295
 Sell_Ragman=48350
-Sell_Flea Market=116999
+Sell_Flea Market=133333
 weight=1.900000
-fleaMarketFee=6174
+fleaMarketFee=7026
 propertiestype=ItemPropertiesHelmet

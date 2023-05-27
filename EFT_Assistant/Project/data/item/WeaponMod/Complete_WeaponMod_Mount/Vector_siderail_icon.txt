@@ -23,17 +23,14 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight
 ]
-Conflict=[
-	KRISS Vector Mk.5 modular rail/|
-]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A side rail for the KRISS Vector submachine gun, allows installation of additional tactical equipment.
 basePrice=1033
 width=1
 height=1
-avg24hPrice=1187
-low24hPrice=1187
+avg24hPrice=0
+low24hPrice=0
 lastOfferCount=1
 Sell_Prapor=516
 Sell_Fence=413

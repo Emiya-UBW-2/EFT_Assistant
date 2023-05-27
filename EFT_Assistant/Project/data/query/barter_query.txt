@@ -122,6 +122,7 @@
       useTime
     }
     ...on ItemPropertiesWeapon{
+      sightingRange
       recoilVertical
       ergonomics
       slots{

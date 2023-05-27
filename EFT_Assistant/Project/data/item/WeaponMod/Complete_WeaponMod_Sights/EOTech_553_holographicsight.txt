@@ -2,37 +2,22 @@ IDstr=570fd6c2d2720bc6458b457f
 Name=EOTech 553 holographic sight
 ShortName=553
 Itemtype=Reflex sight
-SightRange=200
-Conflict=[
-	AR-15 rear sight carry handle/|
-	Burris FullField TAC30 1-4x24 30mm riflescope/|
-	EOTech Vudu 1-6x24 30mm riflescope/|
-	Hensoldt FF 4-16x56 34mm riflescope/|
-	KMZ 1P59 3-10x riflescope/|
-	KMZ 1P69 3-10x riflescope/|
-	Leupold Mark 4 LR 6.5-20x50 30mm riflescope/|
-	March Tactical 3-24x42 FFP 30mm riflescope/|
-	Mosin Rifle carbine rear sight/|
-	Nightforce ATACR 7-35x56 34mm riflescope/|
-	NSPU-M night vision scope/|
-	VOMZ Pilad 4x32 24.5mm riflescope/|
-	Vortex Razor HD Gen.2 1-6x24 30mm riflescope/|
-]
+SightRange=0
 Recoil=0.000000
 Ergonomics=-3.000000
 Information_Eng=The EOTech 553 holographic sight. Thanks to design features, it can be used with a wide range of weapons even with non-folding sights. Compatible with night vision devices by the means of NV reticle mode. Utilized by US SOCOM as a primary sight for operations in confined spaces.
 basePrice=19377
 width=1
 height=1
-avg24hPrice=24690
-low24hPrice=14344
-lastOfferCount=8
+avg24hPrice=25061
+low24hPrice=22000
+lastOfferCount=18
 Sell_Prapor=9688
 Sell_Fence=7750
 Sell_Skier=9494
 Sell_Peacekeeper=73
 Sell_Mechanic=10851
-Sell_Flea Market=22000
+Sell_Flea Market=22500
 weight=0.349000
-fleaMarketFee=1240
+fleaMarketFee=1257
 propertiestype=ItemPropertiesScope

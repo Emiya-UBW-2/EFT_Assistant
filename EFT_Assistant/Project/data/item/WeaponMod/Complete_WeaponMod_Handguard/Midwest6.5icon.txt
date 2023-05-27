@@ -39,24 +39,21 @@ ChildParts=[
 	MCX flip-up front sight/|
 	MPX flip-up front sight
 ]
-Conflict=[
-	MPX 9x19 4.5 inch barrel/|
-]
 Recoil=0.000000
 Ergonomics=10.000000
 Information_Eng=The Midwest Industries 6.5 inch length foregrip for the MPX SMGs equipped with an M-LOK interface for installation of additional devices and accessories.
 basePrice=7600
 width=2
 height=1
-avg24hPrice=11559
+avg24hPrice=8999
 low24hPrice=8000
-lastOfferCount=5
+lastOfferCount=1
 Sell_Prapor=3800
 Sell_Fence=3040
 Sell_Skier=3724
 Sell_Peacekeeper=29
 Sell_Mechanic=4256
-Sell_Flea Market=8000
+Sell_Flea Market=8500
 weight=0.140000
-fleaMarketFee=467
+fleaMarketFee=482
 propertiestype=ItemPropertiesWeaponMod

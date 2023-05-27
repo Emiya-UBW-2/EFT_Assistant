@@ -2,7 +2,7 @@ IDstr=5ae30bad5acfc400185c2dc4
 Name=AR-15 rear sight carry handle
 ShortName=CHandle
 Itemtype=Ironsight
-SightRange=600
+SightRange=0
 ChildParts=[
 	Kiba Arms Short Prism 2.5x scope/|
 	Trijicon ACOG TA01NSN 4x32 scope (Black)/|

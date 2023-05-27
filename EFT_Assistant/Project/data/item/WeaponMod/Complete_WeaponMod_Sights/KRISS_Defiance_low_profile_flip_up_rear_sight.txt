@@ -2,27 +2,22 @@ IDstr=5fb6564947ce63734e3fa1da
 Name=KRISS Defiance low profile flip-up rear sight
 ShortName=Defiance RS
 Itemtype=Ironsight
-SightRange=300
-Conflict=[
-	KMZ 1P69 Weaver mount/|
-	ASh-12 rear sight carry handle/|
-	VOMZ Pilad 4x32 24.5mm riflescope/|
-]
+SightRange=0
 Recoil=0.000000
 Ergonomics=1.000000
 Information_Eng=The Defiance detachable low profile flip-up rear sight, installed on the mount. Manufactured by KRISS.
 basePrice=3200
 width=1
 height=1
-avg24hPrice=18804
+avg24hPrice=14090
 low24hPrice=4888
-lastOfferCount=3
+lastOfferCount=4
 Sell_Prapor=1600
 Sell_Fence=1280
 Sell_Skier=1568
 Sell_Peacekeeper=12
 Sell_Mechanic=1792
-Sell_Flea Market=8000
+Sell_Flea Market=12000
 weight=0.020000
-fleaMarketFee=456
+fleaMarketFee=814
 propertiestype=ItemPropertiesScope

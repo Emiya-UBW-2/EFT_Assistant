@@ -5,24 +5,21 @@ Itemtype=Flashhider
 ChildParts=[
 	AAC 762-SDN-6 multi-caliber sound suppressor
 ]
-Conflict=[
-	MCX GEN1 KeyMod 12 inch handguard/|
-]
 Recoil=-7.000000
 Ergonomics=-1.000000
 Information_Eng=The Advanced Armament Corporation (AAC) Blackout 51T flash hider is an effective flash suppressor that also serves as an attachment platform for the AAC 762-SDN-6 sound suppressor. Can be installed on AR-10-based rifles.
 basePrice=4600
 width=1
 height=1
-avg24hPrice=17248
+avg24hPrice=16208
 low24hPrice=10000
-lastOfferCount=6
+lastOfferCount=18
 Sell_Prapor=2300
 Sell_Fence=1840
 Sell_Skier=2254
 Sell_Peacekeeper=17
 Sell_Mechanic=2576
-Sell_Flea Market=10000
+Sell_Flea Market=12000
 weight=0.122000
-fleaMarketFee=547
+fleaMarketFee=694
 propertiestype=ItemPropertiesWeaponMod

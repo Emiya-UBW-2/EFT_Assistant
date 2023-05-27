@@ -2,27 +2,22 @@ IDstr=5bbdb870d4351e00367fb67d
 Name=Mosin Rifle ATI Monte Carlo chassis
 ShortName=Mosin MonteCarlo
 Itemtype=Stock
-Conflict=[
-	Mosin Rifle 7.62x54R sawn-off 200mm barrel/|
-	Mosin Rifle 7.62x54R sawn-off 220mm threaded barrel/|
-	Mosin Rifle 7.62x54R ProMag Archangel OPFOR 10-round magazine/|
-]
 Recoil=-34.000000
 Ergonomics=22.000000
 Information_Eng=Monte Carlo-style chassis for the Mosin rifle, transforms the weapon into a more modern-looking rifle. Manufactured by ATI.
 basePrice=10758
 width=4
 height=1
-avg24hPrice=63333
-low24hPrice=22222
-lastOfferCount=21
+avg24hPrice=48317
+low24hPrice=28000
+lastOfferCount=5
 Sell_Prapor=5379
 Sell_Fence=4303
 Sell_Skier=5271
 Sell_Peacekeeper=41
 Sell_Mechanic=6024
 Sell_Jaeger=6454
-Sell_Flea Market=47000
+Sell_Flea Market=50000
 weight=1.200000
-fleaMarketFee=3454
+fleaMarketFee=3801
 propertiestype=ItemPropertiesWeaponMod

@@ -8,27 +8,22 @@ ChildParts=[
 	Trijicon ACOG TA01NSN 4x32 scope (Tan)/|
 	Trijicon ACOG TA11D 3.5x35 scope
 ]
-Conflict=[
-	AR-15 Colt A2 rear sight/|
-	AR-15 rear sight carry handle/|
-	HK G36 rear sight/|
-]
 Recoil=0.000000
 Ergonomics=-1.000000
 Information_Eng=Short Mount is a universal mount for installation of Kiba Arms manufactured prism scope.
 basePrice=1000
 width=1
 height=1
-avg24hPrice=694955
-low24hPrice=50000
-lastOfferCount=2
+avg24hPrice=76071
+low24hPrice=20000
+lastOfferCount=3
 Sell_Prapor=500
 Sell_Fence=400
 Sell_Skier=490
 Sell_Peacekeeper=4
 Sell_Mechanic=560
 Sell_Jaeger=600
-Sell_Flea Market=54000
+Sell_Flea Market=20000
 weight=0.110000
-fleaMarketFee=19927
+fleaMarketFee=3790
 propertiestype=ItemPropertiesWeaponMod

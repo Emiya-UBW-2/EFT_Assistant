@@ -2,9 +2,6 @@ IDstr=544a37c44bdc2d25388b4567
 Name=5.56x45 SureFire MAG5-60 STANAG 60-round magazine
 ShortName=MAG5-60
 Itemtype=Magazine
-Conflict=[
-	HK G36 magwell/|
-]
 Recoil=0.000000
 Ergonomics=-18.000000
 Information_Eng=A 60-round 5.56x45 SureFire MAG5-60 metal high capacity magazine.

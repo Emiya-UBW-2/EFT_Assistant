@@ -40,26 +40,22 @@ ChildParts=[
 ChildParts=[
 	HK G36 gas block
 ]
-Conflict=[
-	HK G36 2-vent handguard/|
-	HK G36 4-vent handguard/|
-]
 Recoil=-4.000000
 Ergonomics=-16.000000
 Information_Eng=A 480mm 5.56x45 NATO barrel for the HK G36 assault rifle.
 basePrice=18600
 width=4
 height=1
-avg24hPrice=63883
-low24hPrice=48888
-lastOfferCount=5
+avg24hPrice=59994
+low24hPrice=18000
+lastOfferCount=1
 Sell_Prapor=9300
 Sell_Fence=7440
 Sell_Skier=9114
 Sell_Peacekeeper=70
 Sell_Mechanic=10416
 Sell_Jaeger=11160
-Sell_Flea Market=48888
+Sell_Flea Market=70000
 weight=0.690000
-fleaMarketFee=2836
+fleaMarketFee=4757
 propertiestype=ItemPropertiesBarrel

@@ -2,26 +2,22 @@ IDstr=5c87a07c2e2216001219d4a2
 Name=AR-15 HK E1 buttstock
 ShortName=HK E1
 Itemtype=Stock
-Conflict=[
-	AR-15 ADAR 2-15 wooden stock/|
-	AR-15 Hera Arms CQR pistol grip/buttstock/|
-]
 Recoil=-33.000000
 Ergonomics=4.000000
 Information_Eng=The E1 telescopic stock is designed as a replacement for standard HK416 stocks. Made of high grade nylon fiber with a twist off rubber butt pad and ambidextrous sling attachment point. Can be installed on any AR-15 weapon system. Manufactured by Heckler & Koch.
 basePrice=9200
 width=2
 height=1
-avg24hPrice=54773
-low24hPrice=32000
-lastOfferCount=2
+avg24hPrice=61152
+low24hPrice=30000
+lastOfferCount=6
 Sell_Prapor=4600
 Sell_Fence=3680
 Sell_Skier=4508
 Sell_Peacekeeper=35
 Sell_Mechanic=5152
 Sell_Jaeger=5520
-Sell_Flea Market=35000
+Sell_Flea Market=45555
 weight=0.390000
-fleaMarketFee=2392
+fleaMarketFee=3588
 propertiestype=ItemPropertiesWeaponMod

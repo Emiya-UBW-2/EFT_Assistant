@@ -2,37 +2,22 @@ IDstr=570fd721d2720bc5458b4596
 Name=Walther MRS reflex sight
 ShortName=MRS
 Itemtype=Reflex sight
-SightRange=200
-Conflict=[
-	AR-15 rear sight carry handle/|
-	Burris FullField TAC30 1-4x24 30mm riflescope/|
-	EOTech Vudu 1-6x24 30mm riflescope/|
-	Hensoldt FF 4-16x56 34mm riflescope/|
-	KMZ 1P59 3-10x riflescope/|
-	KMZ 1P69 3-10x riflescope/|
-	Leupold Mark 4 LR 6.5-20x50 30mm riflescope/|
-	March Tactical 3-24x42 FFP 30mm riflescope/|
-	Mosin Rifle carbine rear sight/|
-	Nightforce ATACR 7-35x56 34mm riflescope/|
-	NSPU-M night vision scope/|
-	VOMZ Pilad 4x32 24.5mm riflescope/|
-	Vortex Razor HD Gen.2 1-6x24 30mm riflescope/|
-]
+SightRange=0
 Recoil=0.000000
 Ergonomics=-3.000000
 Information_Eng=The Walther MRS (Multi-Reticle Sight) reflex sight features 2 dots and 2 reticles with adjustable brightness levels. Cheap, accurate (but has to be zeroed every time the reticle type is switched), compact and offers good battery life - but not too sturdy and reliable.
 basePrice=10000
 width=1
 height=1
-avg24hPrice=15537
-low24hPrice=12345
-lastOfferCount=8
+avg24hPrice=16714
+low24hPrice=12000
+lastOfferCount=7
 Sell_Prapor=5000
 Sell_Fence=4000
 Sell_Skier=4900
 Sell_Peacekeeper=38
 Sell_Mechanic=5600
-Sell_Flea Market=12345
+Sell_Flea Market=12000
 weight=0.113000
-fleaMarketFee=676
+fleaMarketFee=663
 propertiestype=ItemPropertiesScope

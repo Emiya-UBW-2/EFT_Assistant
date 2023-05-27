@@ -2,29 +2,11 @@ IDstr=5aa2b87de5b5b00016327c25
 Name=BEAR baseball cap (Green)
 ShortName=BEAR
 Itemtype=Headwear
-Conflict=[
-	Faceless mask/|
-	Ghoul mask/|
-	GP-5 gas mask/|
-	GP-7 gas mask/|
-	Hockey player mask "Brawler"/|
-	Hockey player mask "Captain"/|
-	Hockey player mask "Quiet"/|
-	Jason mask/|
-	Misha Mayorov mask/|
-	Neoprene mask/|
-	Pestily plague mask/|
-	Shemagh (Green)/|
-	Shemagh (Tan)/|
-	Slender mask/|
-	Tagilla's welding mask "Gorilla"/|
-	Tagilla's welding mask "UBEY"/|
-]
 Information_Eng=A tactical BEAR PMC baseball cap. Green version.
 basePrice=1726
 width=1
 height=1
-avg24hPrice=1925
+avg24hPrice=1900
 low24hPrice=1900
 lastOfferCount=2
 Sell_Fence=690

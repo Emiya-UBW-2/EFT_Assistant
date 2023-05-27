@@ -2,26 +2,18 @@ IDstr=5c066ef40db834001966a595
 Name=Armasight NVG head strap
 ShortName=NVG strap
 Itemtype=Headwear
-Conflict=[
-	Faceless mask/|
-	Ghoul mask/|
-	GP-7 gas mask/|
-	Pestily plague mask/|
-	Tagilla's welding mask "Gorilla"/|
-	Tagilla's welding mask "UBEY"/|
-]
 Information_Eng=A standard head strap mounting system for various Armasight devices.
 basePrice=19100
 width=2
 height=2
-avg24hPrice=41673
-low24hPrice=20000
-lastOfferCount=16
+avg24hPrice=43699
+low24hPrice=29000
+lastOfferCount=4
 Sell_Fence=7640
 Sell_Skier=9359
 Sell_Peacekeeper=72
 Sell_Ragman=11842
-Sell_Flea Market=37000
+Sell_Flea Market=50000
 weight=0.400000
-fleaMarketFee=1976
+fleaMarketFee=2896
 propertiestype=

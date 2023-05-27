@@ -2,15 +2,6 @@ IDstr=59ef13ca86f77445fd0e2483
 Name=Jack-o'-lantern tactical pumpkin helmet
 ShortName=Pumpkin
 Itemtype=Headwear
-Conflict=[
-	Faceless mask/|
-	Ghoul mask/|
-	GP-5 gas mask/|
-	GP-7 gas mask/|
-	Pestily plague mask/|
-	Tagilla's welding mask "Gorilla"/|
-	Tagilla's welding mask "UBEY"/|
-]
 Information_Eng=Jack-o'-lantern is here to protect you from the Evil.
 basePrice=10000
 width=2

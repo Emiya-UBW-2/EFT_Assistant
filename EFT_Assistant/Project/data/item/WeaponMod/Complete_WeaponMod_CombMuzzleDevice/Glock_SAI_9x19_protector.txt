@@ -2,10 +2,6 @@ IDstr=5a6b59a08dc32e000b452fb7
 Name=Glock SAI 9x19 thread protector
 ShortName=G SAI thr.
 Itemtype=Comb. muzzle device
-Conflict=[
-	Glock 9x19 Strike Industries G4 SlideComp compensator/|
-	Glock 9x19 Fischer Development FD917 sound suppressor/|
-]
 Recoil=0.000000
 Ergonomics=1.000000
 Information_Eng=A thread protector for threaded barrels of Glock family pistols, manufactured by Salient Arms International.

@@ -2,14 +2,7 @@ IDstr=5894a81786f77427140b8347
 Name=MPX flip-up rear sight
 ShortName=MPX RS
 Itemtype=Ironsight
-SightRange=300
-Conflict=[
-	ASh-12 rear sight carry handle/|
-	NcSTAR ADO P4 Sniper 3-9x42 riflescope/|
-	PU 3.5x riflescope/|
-	KMZ 1P69 Weaver mount/|
-	VOMZ Pilad 4x32 24.5mm riflescope/|
-]
+SightRange=0
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A detachable flip-up rear sight for MPX SMGs, installed on the mount. Manufactured by SIG Sauer.

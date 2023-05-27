@@ -2,23 +2,18 @@ IDstr=5ea05cf85ad9772e6624305d
 Name=Tac-Kek FAST MT helmet (Replica)
 ShortName=TK FAST MT
 Itemtype=Headwear
-Conflict=[
-	Faceless mask/|
-	Tagilla's welding mask "Gorilla"/|
-	Tagilla's welding mask "UBEY"/|
-]
 Information_Eng=A lower protection class replica of the Ops-Core FAST MT Super High Cut Helmet from Tac-Kek. Features Ops-Core ARC Rails for attaching various components to the helmet.
 basePrice=15100
 width=2
 height=2
-avg24hPrice=24904
-low24hPrice=15950
-lastOfferCount=27
+avg24hPrice=27721
+low24hPrice=17776
+lastOfferCount=26
 Sell_Fence=6040
 Sell_Skier=7399
 Sell_Peacekeeper=57
 Sell_Ragman=9362
-Sell_Flea Market=19990
+Sell_Flea Market=20000
 weight=0.450000
-fleaMarketFee=1074
+fleaMarketFee=1075
 propertiestype=ItemPropertiesHelmet

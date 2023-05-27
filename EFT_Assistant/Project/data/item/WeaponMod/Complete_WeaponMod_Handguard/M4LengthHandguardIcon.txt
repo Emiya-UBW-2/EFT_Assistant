@@ -5,12 +5,6 @@ Itemtype=Handguard
 ChildParts=[
 	AR-15 Colt M4 Carbine Length lower handguard
 ]
-Conflict=[
-	AR-15 5.56x45 18 inch barrel/|
-	AR-15 5.56x45 20 inch barrel/|
-	Mk-18 .338 LM 24 inch barrel/|
-	AR-15 5.56x45 Molot Arms 406mm barrel/|
-]
 Recoil=0.000000
 Ergonomics=2.000000
 Information_Eng=A carbine length handguard manufactured by Colt, a standard-issue handguard for the M4A1 assault rifles.

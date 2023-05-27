@@ -2,26 +2,18 @@ IDstr=5ab8f20c86f7745cdb629fb2
 Name=Ski hat with holes for eyes
 ShortName=Shmaska
 Itemtype=Headwear
-Conflict=[
-	Faceless mask/|
-	Ghoul mask/|
-	GP-5 gas mask/|
-	GP-7 gas mask/|
-	Tagilla's welding mask "Gorilla"/|
-	Tagilla's welding mask "UBEY"/|
-]
 Information_Eng=Wow, man! This is where the style is. As well as warmth and comfort.
 basePrice=5556
 width=1
 height=1
-avg24hPrice=7193
+avg24hPrice=6795
 low24hPrice=3000
-lastOfferCount=16
+lastOfferCount=4
 Sell_Fence=2222
 Sell_Skier=2722
 Sell_Peacekeeper=21
 Sell_Ragman=3444
-Sell_Flea Market=3000
+Sell_Flea Market=7000
 weight=0.100000
-fleaMarketFee=295
+fleaMarketFee=381
 propertiestype=

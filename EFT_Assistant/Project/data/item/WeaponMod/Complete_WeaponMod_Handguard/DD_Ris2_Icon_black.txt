@@ -72,25 +72,21 @@ ChildParts=[
 	AR-15 Daniel Defense RIS II 9.5 lower handguard (Coyote Brown)/|
 	AR-15 Daniel Defense RIS II 9.5 lower handguard (Black)
 ]
-Conflict=[
-	M4A1 front sight with gas block/|
-	AR-15 Windham Weaponry Rail Gas Block/|
-]
 Recoil=0.000000
 Ergonomics=2.000000
 Information_Eng=The Daniel Defense RIS II 9.5 foregrip is a part of the SOPMOD Block II program to replace the standard M4CQBR or Mk18 foregrips in the US SOCOM service. It's made with light but durable aircraft aluminum alloy and comes equipped with 4 mounts for the installation of additional devices and accessories.
 basePrice=10249
 width=2
 height=1
-avg24hPrice=18844
-low24hPrice=10000
-lastOfferCount=1
+avg24hPrice=28242
+low24hPrice=15000
+lastOfferCount=19
 Sell_Prapor=5124
 Sell_Fence=4099
 Sell_Skier=5022
 Sell_Peacekeeper=39
 Sell_Mechanic=5739
-Sell_Flea Market=22222
+Sell_Flea Market=16000
 weight=0.279000
-fleaMarketFee=1215
+fleaMarketFee=842
 propertiestype=ItemPropertiesWeaponMod

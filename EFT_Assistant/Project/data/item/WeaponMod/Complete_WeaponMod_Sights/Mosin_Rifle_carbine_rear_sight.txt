@@ -2,7 +2,7 @@ IDstr=5bfd4c980db834001b73449d
 Name=Mosin Rifle carbine rear sight
 ShortName=Mosin RS
 Itemtype=Ironsight
-SightRange=600
+SightRange=0
 Conflict=[
 	ELCAN SpecterDR 1x/4x scope/|
 	ELCAN SpecterDR 1x/4x scope (FDE)/|

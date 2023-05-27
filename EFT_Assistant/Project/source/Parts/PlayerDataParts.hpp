@@ -3,40 +3,6 @@
 
 namespace FPS_n2 {
 	//
-	static const auto		SubStrs(std::string* Target, const char* str) {
-		while (true) {
-			auto now = Target->find(str);
-			if (now != std::string::npos) {
-				*Target = Target->substr(0, now) + Target->substr(now + strlenDx(str));
-			}
-			else {
-				break;
-			}
-		}
-	};
-	static const auto		GetArgs(const std::string& RIGHT) noexcept {
-		std::vector<std::string> Args;
-		auto L = RIGHT.find("[");
-		auto R = RIGHT.find("]");
-		if (L != std::string::npos && R != std::string::npos) {
-			std::string RIGHTBuf = RIGHT;
-			RIGHTBuf = RIGHTBuf.substr(L + 1);
-			while (true) {
-				auto div = RIGHTBuf.find(DIV_STR);
-				if (div != std::string::npos) {
-					Args.emplace_back(RIGHTBuf.substr(0, div));
-					RIGHTBuf = RIGHTBuf.substr(div + 2);
-				}
-				else {
-					Args.emplace_back(RIGHTBuf.substr(0, RIGHTBuf.find("]")));
-					break;
-				}
-			}
-		}
-		return Args;
-	}
-	//
-
 	class ItemLockData {
 		std::string		m_ID;
 		bool			m_IsLock{ false };
@@ -47,7 +13,7 @@ namespace FPS_n2 {
 		void	SetID(const char* Name) noexcept { m_ID = Name; }
 		void	SetIsLock(bool value) noexcept { m_IsLock = value; }
 	};
-
+	//
 	class PlayerData : public SingletonBase<PlayerData> {
 	private:
 		friend class SingletonBase<PlayerData>;
@@ -247,4 +213,5 @@ namespace FPS_n2 {
 		void SetIsUSEC(bool date) noexcept { m_IsUSEC = date; }
 		const auto& GetIsUSEC() const noexcept { return m_IsUSEC; }
 	};
+	//
 };

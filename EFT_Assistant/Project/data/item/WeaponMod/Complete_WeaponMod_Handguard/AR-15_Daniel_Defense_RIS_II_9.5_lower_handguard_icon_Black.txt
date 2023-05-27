@@ -31,24 +31,21 @@ ChildParts=[
 	Zenit RK-5 tactical foregrip/|
 	Zenit RK-6 tactical foregrip
 ]
-Conflict=[
-	M203 40mm underbarrel grenade launcher/|
-]
 Recoil=-1.000000
 Ergonomics=5.000000
 Information_Eng=The Daniel Defense RIS II 9.5 lower handguard. Made with light but durable aircraft aluminum alloy. Equipped with RIS interface for installation of additional devices and accessories. Black version.
 basePrice=4392
 width=2
 height=1
-avg24hPrice=18804
-low24hPrice=9000
-lastOfferCount=5
+avg24hPrice=14813
+low24hPrice=7776
+lastOfferCount=4
 Sell_Prapor=2196
 Sell_Fence=1756
 Sell_Skier=2152
 Sell_Peacekeeper=17
 Sell_Mechanic=2459
-Sell_Flea Market=11000
+Sell_Flea Market=8988
 weight=0.120000
-fleaMarketFee=627
+fleaMarketFee=485
 propertiestype=ItemPropertiesWeaponMod

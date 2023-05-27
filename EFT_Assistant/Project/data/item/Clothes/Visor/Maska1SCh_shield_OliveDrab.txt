@@ -2,10 +2,6 @@ IDstr=5c0919b50db834001b7ce3b9
 Name=Maska-1SCh face shield (Olive Drab)
 ShortName=1SCh FS
 Itemtype=Armored equipment
-Conflict=[
-	GP-7 gas mask/|
-	Pestily plague mask/|
-]
 Information_Eng=A special steel bulletproof faceshield for the Maska-1SCh ("Mask-1 Shield") helmet.
 basePrice=57800
 width=2

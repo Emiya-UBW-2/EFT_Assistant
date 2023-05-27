@@ -5,28 +5,22 @@ Itemtype=Mount
 ChildParts=[
 	Trijicon REAP-IR thermal scope
 ]
-Conflict=[
-	Mosin Rifle carbine rear sight/|
-	AR-15 Colt A2 rear sight/|
-	AR-15 rear sight carry handle/|
-	NSPU-M night vision scope/|
-]
 Recoil=0.000000
 Ergonomics=-1.000000
 Information_Eng=The UNV DLOC-IRD universal quick release mount for installing various scopes.
 basePrice=6256
 width=1
 height=1
-avg24hPrice=122098
-low24hPrice=76999
-lastOfferCount=19
+avg24hPrice=140738
+low24hPrice=84300
+lastOfferCount=14
 Sell_Prapor=3128
 Sell_Fence=2502
 Sell_Skier=3065
 Sell_Peacekeeper=24
 Sell_Mechanic=3503
 Sell_Jaeger=3753
-Sell_Flea Market=99998
+Sell_Flea Market=99999
 weight=0.113000
-fleaMarketFee=16352
+fleaMarketFee=16353
 propertiestype=ItemPropertiesWeaponMod

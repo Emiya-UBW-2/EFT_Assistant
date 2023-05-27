@@ -23,25 +23,22 @@ ChildParts=[
 	VOMZ Pilad P1x42 Weaver reflex sight/|
 	Walther MRS reflex sight
 ]
-Conflict=[
-	NSPU-M night vision scope/|
-]
 Recoil=0.000000
 Ergonomics=-1.000000
 Information_Eng=The B-18 rail mount is installed on the standard rear sight of AKS-74U and forms a sight support hovering over the rifle dust cover. Manufactured by Zenit.
 basePrice=3298
 width=1
 height=1
-avg24hPrice=9092
-low24hPrice=4431
-lastOfferCount=3
+avg24hPrice=8530
+low24hPrice=5000
+lastOfferCount=5
 Sell_Prapor=1649
 Sell_Fence=1319
 Sell_Skier=1616
 Sell_Peacekeeper=12
 Sell_Mechanic=1846
 Sell_Jaeger=1978
-Sell_Flea Market=7777
+Sell_Flea Market=5000
 weight=0.053000
-fleaMarketFee=435
+fleaMarketFee=264
 propertiestype=ItemPropertiesWeaponMod

@@ -149,25 +149,21 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight
 ]
-Conflict=[
-	AK Zenit B-33 dust cover/|
-	GP-25 "Kostyor" 40mm underbarrel grenade launcher/|
-]
 Recoil=-3.000000
 Ergonomics=5.000000
 Information_Eng=Aggressor is a railed handguard for AK series rifles manufactured by 5.45 Design. Features 4 side rails for installation of tactical devices and 2 long rails for installation of various optics and foregrips.
 basePrice=19400
 width=1
 height=1
-avg24hPrice=38914
-low24hPrice=17400
-lastOfferCount=9
+avg24hPrice=41409
+low24hPrice=23555
+lastOfferCount=12
 Sell_Prapor=9700
 Sell_Fence=7760
 Sell_Skier=9506
 Sell_Peacekeeper=73
 Sell_Mechanic=10864
-Sell_Flea Market=28888
+Sell_Flea Market=24000
 weight=0.260000
-fleaMarketFee=1525
+fleaMarketFee=1312
 propertiestype=ItemPropertiesWeaponMod

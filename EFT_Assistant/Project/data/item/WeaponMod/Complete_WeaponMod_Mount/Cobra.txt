@@ -69,43 +69,14 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight
 ]
-Conflict=[
-	BelOMO PSO-1 4x24 scope/|
-	AKS-74U CAA XRSU47SU tactical handguard/|
-	AK CNC Guns OV GP handguard/|
-	SOK-12 Leapers UTG PRO MTU002 Long Top aluminum handguard/|
-	SVD SAG MK1 chassis/|
-	AK TDI X47 tactical handguard rail system/|
-	M700 AB Arms MOD*X rail mount/|
-	SAG Bit low profile dovetail sidemount/|
-	SVD modernization kit top rail/|
-	ORSIS T-5000M scope mount/|
-	M700 Magpul Pro 700 chassis inline mount/|
-	RFB scope rail mount/|
-	VPO-215 "Gornostay" scope rail mount/|
-	SVD SAG low profile sidemount/|
-	TOZ-106 rail scope mount/|
-	M700 extended multi-slot Weaver rail base/|
-	SVD CAA XD RGL receiver mount/|
-	AK AKademia Bastion dust cover/|
-	AK Zenit B-33 dust cover/|
-	AK FAB Defense PDC dust cover/|
-	PP-19-01 "Vityaz-SN" dust cover/|
-	AK TWS Dog Leg Rail dust cover/|
-	BelOMO PK-AA dovetail reflex sight/|
-	BelOMO PSO-1M2-1 4x24 scope/|
-	BelOMO PSO-1M2 4x24 scope/|
-	NPZ 1P78-1 2.8x scope/|
-	NSPU-M night vision scope/|
-]
 Recoil=0.000000
 Ergonomics=-1.000000
 Information_Eng=An aluminum mount for installation of sights and various accessories, commonly can be found in the kit with Kobra sights. Manufactured by Axion.
 basePrice=5302
 width=1
 height=1
-avg24hPrice=13827
-low24hPrice=5700
+avg24hPrice=9617
+low24hPrice=5900
 lastOfferCount=5
 Sell_Prapor=2651
 Sell_Fence=2120
@@ -113,7 +84,7 @@ Sell_Skier=2597
 Sell_Peacekeeper=20
 Sell_Mechanic=2969
 Sell_Jaeger=3181
-Sell_Flea Market=13500
+Sell_Flea Market=7999
 weight=0.043000
-fleaMarketFee=774
+fleaMarketFee=422
 propertiestype=ItemPropertiesWeaponMod

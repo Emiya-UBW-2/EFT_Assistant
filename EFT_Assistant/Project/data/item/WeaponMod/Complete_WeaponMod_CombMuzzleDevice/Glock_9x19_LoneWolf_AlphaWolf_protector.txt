@@ -2,10 +2,6 @@ IDstr=5a6b585a8dc32e5a9c28b4f1
 Name=Glock 9x19 Lone Wolf AlphaWolf thread protector
 ShortName=G AW thr.
 Itemtype=Comb. muzzle device
-Conflict=[
-	Glock 9x19 Strike Industries G4 SlideComp compensator/|
-	Glock 9x19 Fischer Development FD917 sound suppressor/|
-]
 Recoil=0.000000
 Ergonomics=1.000000
 Information_Eng=A thread protector for threaded barrels of Glock Alpha Wolf pistols produced by Lone Wolf.

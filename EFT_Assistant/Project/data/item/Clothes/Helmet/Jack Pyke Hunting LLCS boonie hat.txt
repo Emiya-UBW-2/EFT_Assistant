@@ -2,22 +2,18 @@ IDstr=618aef6d0a5a59657e5f55ee
 Name=Jack Pyke Hunting LLCS boonie hat
 ShortName=LLCS
 Itemtype=Headwear
-Conflict=[
-	Tagilla's welding mask "Gorilla"/|
-	Tagilla's welding mask "UBEY"/|
-]
 Information_Eng=The Jack Pyke Hunting LLCS camouflage boonie hat from the 3D Concealment Suit. Equipped with a masking net for the face.
 basePrice=9556
 width=2
 height=2
-avg24hPrice=18156
+avg24hPrice=17999
 low24hPrice=9000
-lastOfferCount=11
+lastOfferCount=12
 Sell_Fence=3822
 Sell_Skier=4682
 Sell_Peacekeeper=36
 Sell_Ragman=5924
-Sell_Flea Market=10000
+Sell_Flea Market=19999
 weight=0.180000
-fleaMarketFee=585
+fleaMarketFee=1084
 propertiestype=

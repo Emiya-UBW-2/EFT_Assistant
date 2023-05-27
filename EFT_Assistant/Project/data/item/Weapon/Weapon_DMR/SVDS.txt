@@ -2,6 +2,7 @@ IDstr=5c46fbd72e2216398b5a8c9c
 Name=SVDS 7.62x54R sniper rifle
 ShortName=SVDS
 Itemtype=Marksman rifle
+SightRange=100
 ChildParts=[
 	AK Aeroknox Scorpius pistol grip/|
 	AK-12 pistol grip/|
@@ -68,25 +69,22 @@ ChildParts=[
 	BelOMO PSO-1M2 4x24 scope/|
 	SVD SAG low profile sidemount
 ]
-Conflict=[
-	Hera Arms CQR tactical foregrip/|
-]
 Recoil=289.000000
 Ergonomics=26.000000
 Information_Eng=The SVDS (Snáyperskaya Vintóvka Dragunóva Skladnáya - "Dragunov's Sniper Rifle with a foldable stock") sniper rifle was specially designed for Russian paratroopers and special forces units. Features a tubular metal stock that folds to the right side of the receiver (equipped with a synthetic shoulder pad and a fixed cheek riser) and a synthetic pistol grip. The barrel was also given a heavier profile, the receiver housing was strengthened, the gas cylinder block was improved and a ported, shorter conical flash suppressor was adopted. Chambered in 7.62x54R ammo.
 basePrice=42800
 width=2
 height=1
-avg24hPrice=93558
-low24hPrice=57777
-lastOfferCount=9
+avg24hPrice=92800
+low24hPrice=60000
+lastOfferCount=19
 Sell_Prapor=21400
 Sell_Fence=17120
 Sell_Skier=20972
 Sell_Peacekeeper=162
 Sell_Mechanic=23968
 Sell_Jaeger=25680
-Sell_Flea Market=69000
+Sell_Flea Market=63000
 weight=1.720000
-fleaMarketFee=3630
+fleaMarketFee=3330
 propertiestype=ItemPropertiesWeapon

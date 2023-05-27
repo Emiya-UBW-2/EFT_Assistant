@@ -8,24 +8,21 @@ ChildParts=[
 ChildParts=[
 	Lantac BMD 7.62x51 Blast Mitigation Device
 ]
-Conflict=[
-	MCX GEN1 KeyMod 12 inch handguard/|
-]
 Recoil=-1.000000
 Ergonomics=-1.000000
 Information_Eng=The A3 adapter by Lantac designed for installation of the BMD Blast Mitigation Device.
 basePrice=3000
 width=1
 height=1
-avg24hPrice=85839
-low24hPrice=68000
+avg24hPrice=68173
+low24hPrice=32999
 lastOfferCount=0
 Sell_Prapor=1500
 Sell_Fence=1200
 Sell_Skier=1470
 Sell_Peacekeeper=11
 Sell_Mechanic=1680
-Sell_Flea Market=68000
+Sell_Flea Market=55000
 weight=0.030000
-fleaMarketFee=14002
+fleaMarketFee=9842
 propertiestype=ItemPropertiesWeaponMod

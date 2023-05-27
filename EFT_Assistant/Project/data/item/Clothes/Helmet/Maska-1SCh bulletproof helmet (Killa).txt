@@ -2,13 +2,6 @@ IDstr=5c0e874186f7745dc7616606
 Name=Maska-1SCh bulletproof helmet (Killa)
 ShortName=Maska-1SCh (Killa)
 Itemtype=Headwear
-Conflict=[
-	Faceless mask/|
-	Ghoul mask/|
-	GP-5 gas mask/|
-	Tagilla's welding mask "Gorilla"/|
-	Tagilla's welding mask "UBEY"/|
-]
 Information_Eng=The Maska-1 bulletproof protective helmet appeared in service in 1991 as a replacement for the "Sphere" helmet, designed for use by the Ministry of Internal Affairs of the Russian Federation armed forces. The Maska-1SCh ("Mask-1 Shield") modification features a bulletproof steel faceshield to ensure maximum protection of the user's face. This particular one is Killa's personal helmet, painted in black with three stylish vertical stripes.
 basePrice=126327
 width=2

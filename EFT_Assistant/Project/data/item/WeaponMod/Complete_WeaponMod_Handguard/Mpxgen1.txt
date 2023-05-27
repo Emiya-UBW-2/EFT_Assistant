@@ -21,24 +21,21 @@ ChildParts=[
 ChildParts=[
 	MPX GEN1 handguard 2 inch rail
 ]
-Conflict=[
-	MPX 9x19 4.5 inch barrel/|
-]
 Recoil=0.000000
 Ergonomics=7.000000
 Information_Eng=A 1st generation handguard for the SIG MPX submachine gun. Manufactured by SIG Sauer.
 basePrice=4311
 width=2
 height=1
-avg24hPrice=0
-low24hPrice=0
-lastOfferCount=1
+avg24hPrice=80252
+low24hPrice=40000
+lastOfferCount=4
 Sell_Prapor=2155
 Sell_Fence=1724
 Sell_Skier=2112
 Sell_Peacekeeper=16
 Sell_Mechanic=2414
-Sell_Flea Market=25210
+Sell_Flea Market=40000
 weight=0.302000
-fleaMarketFee=2186
+fleaMarketFee=4606
 propertiestype=ItemPropertiesWeaponMod

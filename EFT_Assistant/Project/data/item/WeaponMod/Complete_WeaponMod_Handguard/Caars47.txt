@@ -109,25 +109,21 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight
 ]
-Conflict=[
-	AK Zenit B-33 dust cover/|
-	GP-25 "Kostyor" 40mm underbarrel grenade launcher/|
-]
 Recoil=-2.000000
 Ergonomics=7.000000
 Information_Eng=The RS47 lightweight polymer handguard, fits the majority of rifles and carbines built on the base of AK-family rifles. Equipped with two short and two long rail mounts for installing additional devices. Manufactured by Command Arms.
 basePrice=10638
 width=1
 height=1
-avg24hPrice=15049
-low24hPrice=11888
-lastOfferCount=13
+avg24hPrice=17718
+low24hPrice=11111
+lastOfferCount=12
 Sell_Prapor=5319
 Sell_Fence=4255
 Sell_Skier=5212
 Sell_Peacekeeper=40
 Sell_Mechanic=5957
-Sell_Flea Market=12500
+Sell_Flea Market=13000
 weight=0.220000
-fleaMarketFee=695
+fleaMarketFee=714
 propertiestype=ItemPropertiesWeaponMod

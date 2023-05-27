@@ -2,7 +2,7 @@ IDstr=6231670f0b8aa5472d060095
 Name=HK G36 rear sight
 ShortName=G36 RS
 Itemtype=Ironsight
-SightRange=600
+SightRange=0
 Conflict=[
 	Monstrum Tactical Compact Prism Scope 2x32/|
 	SIG Sauer BRAVO4 4x30 scope/|

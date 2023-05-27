@@ -159,7 +159,7 @@ namespace FPS_n2 {
 								int xp = posx + (int)(std::cos(m_Rad)*Xs - std::sin(m_Rad)*Ys);
 								int yp = posy + (int)(std::cos(m_Rad)*Ys + std::sin(m_Rad)*Xs);
 								DrawControl::Instance()->SetDrawCircle(DrawLayer::Front, xp, yp, 6, Black);
-								DrawControl::Instance()->SetDrawCircle(DrawLayer::Front, xp, yp, 5, Green);
+								DrawControl::Instance()->SetDrawCircle(DrawLayer::Front, xp, yp, 5, Red);
 								if (Input->GetRightClick().trigger()) {
 									if (Input->GetShiftKey().press()) {
 										if (std::hypotf((float)(Input->GetMouseX() - xp), (float)(Input->GetMouseY() - yp)) < 5.f) {

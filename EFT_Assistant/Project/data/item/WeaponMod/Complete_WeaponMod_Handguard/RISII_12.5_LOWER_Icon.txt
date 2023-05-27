@@ -51,24 +51,21 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)
 ]
-Conflict=[
-	M203 40mm underbarrel grenade launcher/|
-]
 Recoil=-2.000000
 Ergonomics=5.000000
 Information_Eng=The Daniel Defense RIS II 12.25 lower handguard. Made with light but durable aircraft aluminum alloy. Equipped with RIS interface for installation of additional devices and accessories. Coyote Brown version.
 basePrice=5220
 width=2
 height=1
-avg24hPrice=28654
-low24hPrice=10000
+avg24hPrice=37670
+low24hPrice=19999
 lastOfferCount=2
 Sell_Prapor=2610
 Sell_Fence=2088
 Sell_Skier=2557
 Sell_Peacekeeper=20
 Sell_Mechanic=2923
-Sell_Flea Market=19999
+Sell_Flea Market=27000
 weight=0.150000
-fleaMarketFee=1371
+fleaMarketFee=2180
 propertiestype=ItemPropertiesWeaponMod

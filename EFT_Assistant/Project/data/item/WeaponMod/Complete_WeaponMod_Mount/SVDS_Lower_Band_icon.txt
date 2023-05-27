@@ -11,25 +11,22 @@ ChildParts=[
 	AK Taktika Tula TT01 rear sight rail/|
 	SVDS rear sight
 ]
-Conflict=[
-	SVDS custom cut dust cover/|
-]
 Recoil=0.000000
 Ergonomics=-1.000000
 Information_Eng=A standard upper band for SVDS sniper rifles and compatibles, allows installation of rear sights.
 basePrice=5588
 width=1
 height=1
-avg24hPrice=17216
-low24hPrice=7000
-lastOfferCount=7
+avg24hPrice=34415
+low24hPrice=12999
+lastOfferCount=4
 Sell_Prapor=2794
 Sell_Fence=2235
 Sell_Skier=2738
 Sell_Peacekeeper=21
 Sell_Mechanic=3129
 Sell_Jaeger=3352
-Sell_Flea Market=19800
+Sell_Flea Market=12999
 weight=0.246000
-fleaMarketFee=1306
+fleaMarketFee=724
 propertiestype=ItemPropertiesWeaponMod

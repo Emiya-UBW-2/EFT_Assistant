@@ -5,24 +5,21 @@ Itemtype=Flashhider
 ChildParts=[
 	Daniel Defense WAVE QD sound suppressor
 ]
-Conflict=[
-	MCX GEN1 KeyMod 12 inch handguard/|
-]
 Recoil=-9.000000
 Ergonomics=-1.000000
 Information_Eng=The Daniel Defense WAVE muzzle brake is designed to securely mount the Daniel Defense WAVE suppressor to the host firearm, but also functions effectively without it. It's manufactured from aerospace 17-4 PH stainless steel and had a salt bath nitride finish for minimal corrosion.
 basePrice=7980
 width=1
 height=1
-avg24hPrice=27237
+avg24hPrice=30704
 low24hPrice=15000
-lastOfferCount=3
+lastOfferCount=14
 Sell_Prapor=3990
 Sell_Fence=3192
 Sell_Skier=3910
 Sell_Peacekeeper=30
 Sell_Mechanic=4468
-Sell_Flea Market=17000
+Sell_Flea Market=26666
 weight=0.109000
-fleaMarketFee=925
+fleaMarketFee=1710
 propertiestype=ItemPropertiesWeaponMod

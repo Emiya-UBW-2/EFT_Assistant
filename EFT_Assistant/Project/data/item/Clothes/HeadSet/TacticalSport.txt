@@ -2,26 +2,17 @@ IDstr=5c165d832e2216398b5a7e36
 Name=Peltor Tactical Sport headset
 ShortName=Tactical Sport
 Itemtype=Headphones
-Conflict=[
-	Ops-Core FAST RAC Headset/|
-	Crye Precision AirFrame Chops/|
-	Team Wendy EXFIL Ear Covers (Black)/|
-	Team Wendy EXFIL Ear Covers (Coyote Brown)/|
-	Crye Precision AirFrame Ears/|
-	Ops-Core FAST Side Armor/|
-	SSh-68 steel helmet/|
-]
 Information_Eng=The Peltor Tactical Sport electronic earmuff uses digital chip technology. It gives users fast shutoff and recovery time while helping protect ears from dangerous impulse noises, such as gunfire. Sound amplification allows the user to hear low-level sounds, including range commands and conversation.
 basePrice=44500
 width=2
 height=2
-avg24hPrice=34168
-low24hPrice=27776
-lastOfferCount=22
+avg24hPrice=44740
+low24hPrice=34999
+lastOfferCount=32
 Sell_Fence=17800
 Sell_Skier=21805
 Sell_Ragman=27590
-Sell_Flea Market=35000
+Sell_Flea Market=39000
 weight=0.600000
-fleaMarketFee=2415
+fleaMarketFee=2503
 propertiestype=

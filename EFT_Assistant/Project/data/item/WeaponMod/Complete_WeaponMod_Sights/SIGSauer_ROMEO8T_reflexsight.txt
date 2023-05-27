@@ -2,36 +2,22 @@ IDstr=60a23797a37c940de7062d02
 Name=SIG Sauer ROMEO8T reflex sight
 ShortName=ROMEO8T
 Itemtype=Reflex sight
-SightRange=200
-Conflict=[
-	AR-15 rear sight carry handle/|
-	Burris FullField TAC30 1-4x24 30mm riflescope/|
-	EOTech Vudu 1-6x24 30mm riflescope/|
-	Hensoldt FF 4-16x56 34mm riflescope/|
-	KMZ 1P59 3-10x riflescope/|
-	KMZ 1P69 3-10x riflescope/|
-	Leupold Mark 4 LR 6.5-20x50 30mm riflescope/|
-	March Tactical 3-24x42 FFP 30mm riflescope/|
-	Nightforce ATACR 7-35x56 34mm riflescope/|
-	NSPU-M night vision scope/|
-	VOMZ Pilad 4x32 24.5mm riflescope/|
-	Vortex Razor HD Gen.2 1-6x24 30mm riflescope/|
-]
+SightRange=0
 Recoil=0.000000
 Ergonomics=-3.500000
 Information_Eng=The ROMEO8T reflex sight, designed for precision shooting for modern sporting rifles and shotguns. Manufactured by SIG Sauer.
 basePrice=28900
 width=1
 height=1
-avg24hPrice=28864
+avg24hPrice=27974
 low24hPrice=18900
-lastOfferCount=14
+lastOfferCount=4
 Sell_Prapor=14450
 Sell_Fence=11560
 Sell_Skier=14161
 Sell_Peacekeeper=109
 Sell_Mechanic=16184
-Sell_Flea Market=18900
+Sell_Flea Market=23333
 weight=0.388000
-fleaMarketFee=1523
+fleaMarketFee=1580
 propertiestype=ItemPropertiesScope

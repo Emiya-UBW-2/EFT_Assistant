@@ -2,22 +2,17 @@ IDstr=5645bcc04bdc2d363b8b4572
 Name=Peltor ComTac 2 headset
 ShortName=ComTac 2
 Itemtype=Headphones
-Conflict=[
-	Ops-Core FAST RAC Headset/|
-	Crye Precision AirFrame Ears/|
-	Ops-Core FAST Side Armor/|
-]
 Information_Eng=The ComTac 2 amplifies low-level sounds while suppressing impulse noises. Water resistant for outdoor usage. Manufactured by Peltor.
 basePrice=31709
 width=2
 height=2
-avg24hPrice=42462
-low24hPrice=38420
+avg24hPrice=42717
+low24hPrice=35555
 lastOfferCount=14
 Sell_Fence=12683
 Sell_Skier=15537
 Sell_Ragman=19659
-Sell_Flea Market=42300
+Sell_Flea Market=38999
 weight=0.700000
-fleaMarketFee=2270
+fleaMarketFee=2136
 propertiestype=

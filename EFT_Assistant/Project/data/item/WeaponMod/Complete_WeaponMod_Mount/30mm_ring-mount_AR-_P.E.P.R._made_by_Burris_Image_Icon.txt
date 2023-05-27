@@ -26,28 +26,22 @@ ChildParts=[
 	DeltaPoint Cross Slot Mount base/|
 	Trijicon RMR low profile mount
 ]
-Conflict=[
-	AR-15 Colt A2 rear sight/|
-	AR-15 rear sight carry handle/|
-	HK G36 front sight/|
-	SV-98 rear sight/|
-]
 Recoil=0.000000
 Ergonomics=-1.000000
 Information_Eng=The Burris P.E.P.R. universal 30mm scope base mount for installation on Picatinny rails.
 basePrice=9588
 width=2
 height=1
-avg24hPrice=30977
-low24hPrice=20000
-lastOfferCount=23
+avg24hPrice=31790
+low24hPrice=21555
+lastOfferCount=6
 Sell_Prapor=4794
 Sell_Fence=3835
 Sell_Skier=4698
 Sell_Peacekeeper=36
 Sell_Mechanic=5369
 Sell_Jaeger=5752
-Sell_Flea Market=21555
+Sell_Flea Market=37777
 weight=0.246000
-fleaMarketFee=1189
+fleaMarketFee=2628
 propertiestype=ItemPropertiesWeaponMod

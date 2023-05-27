@@ -2,23 +2,17 @@ IDstr=5b432b965acfc47a8774094e
 Name=GSSh-01 active headset
 ShortName=GSSh-01
 Itemtype=Headphones
-Conflict=[
-	GP-7 gas mask/|
-	Ops-Core FAST RAC Headset/|
-	Crye Precision AirFrame Ears/|
-	Ops-Core FAST Side Armor/|
-]
 Information_Eng=The GSSh-01 headset is used in the Russian Ratnik military gear set.
 basePrice=13962
 width=2
 height=2
-avg24hPrice=17929
-low24hPrice=15000
+avg24hPrice=16623
+low24hPrice=14000
 lastOfferCount=20
 Sell_Fence=5584
 Sell_Skier=6841
 Sell_Ragman=8656
-Sell_Flea Market=15500
+Sell_Flea Market=15111
 weight=0.500000
-fleaMarketFee=882
+fleaMarketFee=869
 propertiestype=

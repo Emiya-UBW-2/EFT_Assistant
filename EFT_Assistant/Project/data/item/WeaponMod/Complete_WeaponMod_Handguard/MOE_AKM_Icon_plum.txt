@@ -13,25 +13,21 @@ ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount
 ]
-Conflict=[
-	AK Zenit B-33 dust cover/|
-	GP-25 "Kostyor" 40mm underbarrel grenade launcher/|
-]
 Recoil=-2.000000
 Ergonomics=10.000000
 Information_Eng=The Magpul MOE AKM hand guard is installed on AKM/AK-74-compatible weapon systems. It comes equipped with licensed M-LOK mounts for the installation of additional devices or rails. Plum-colored polymer version.
 basePrice=14141
 width=1
 height=1
-avg24hPrice=20144
-low24hPrice=12500
-lastOfferCount=6
+avg24hPrice=19364
+low24hPrice=15000
+lastOfferCount=5
 Sell_Prapor=7070
 Sell_Fence=5656
 Sell_Skier=6929
 Sell_Peacekeeper=53
 Sell_Mechanic=7918
-Sell_Flea Market=15000
+Sell_Flea Market=17000
 weight=0.221000
-fleaMarketFee=872
+fleaMarketFee=938
 propertiestype=ItemPropertiesWeaponMod

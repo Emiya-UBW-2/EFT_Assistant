@@ -31,24 +31,21 @@ ChildParts=[
 	Zenit RK-5 tactical foregrip/|
 	Zenit RK-6 tactical foregrip
 ]
-Conflict=[
-	M203 40mm underbarrel grenade launcher/|
-]
 Recoil=0.000000
 Ergonomics=4.000000
 Information_Eng=Knight's Armament Company RIS lower handguard for the M4A1 carbine.
 basePrice=2033
 width=2
 height=1
-avg24hPrice=5555
-low24hPrice=5555
-lastOfferCount=1
+avg24hPrice=58270
+low24hPrice=24900
+lastOfferCount=18
 Sell_Prapor=1016
 Sell_Fence=813
 Sell_Skier=996
 Sell_Peacekeeper=8
 Sell_Mechanic=1138
-Sell_Flea Market=5555
+Sell_Flea Market=24900
 weight=0.097000
-fleaMarketFee=327
+fleaMarketFee=3424
 propertiestype=ItemPropertiesWeaponMod

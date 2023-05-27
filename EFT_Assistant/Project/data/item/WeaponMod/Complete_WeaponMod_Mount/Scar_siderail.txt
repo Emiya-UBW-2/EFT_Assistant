@@ -45,16 +45,13 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight
 ]
-Conflict=[
-	FN SCAR Kinetic MREX 6.5 M-LOK rail/|
-]
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A side rail for the SCAR-series handguards that allows installation of additional tactical equipment.
 basePrice=1230
 width=1
 height=1
-avg24hPrice=18000
+avg24hPrice=12000
 low24hPrice=12000
 lastOfferCount=1
 Sell_Prapor=615

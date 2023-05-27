@@ -43,30 +43,21 @@ ChildParts=[
 	MPX flip-up front sight/|
 	AR-15 Leapers UTG Low Profile A2 front sight
 ]
-Conflict=[
-	STM-9 9x19 10.5 inch barrel/|
-	STM-9 9x19 12 inch barrel/|
-	STM-9 9x19 14 inch barrel/|
-	AR-10 JP Enterprises Gas System-6/|
-	M4A1 front sight with gas block/|
-	AR-15 Windham Weaponry Rail Gas Block/|
-	M203 40mm underbarrel grenade launcher/|
-]
 Recoil=-1.000000
 Ergonomics=9.000000
 Information_Eng=The War Sport LVOA-S (SBR) lightweight handguard is designed for use with sport rifles based on AR-15 rifles.
 basePrice=16845
 width=2
 height=1
-avg24hPrice=21972
+avg24hPrice=21948
 low24hPrice=12999
-lastOfferCount=32
+lastOfferCount=8
 Sell_Prapor=8422
 Sell_Fence=6738
 Sell_Skier=8254
 Sell_Peacekeeper=64
 Sell_Mechanic=9433
-Sell_Flea Market=19000
+Sell_Flea Market=20000
 weight=0.500000
-fleaMarketFee=1074
+fleaMarketFee=1108
 propertiestype=ItemPropertiesWeaponMod

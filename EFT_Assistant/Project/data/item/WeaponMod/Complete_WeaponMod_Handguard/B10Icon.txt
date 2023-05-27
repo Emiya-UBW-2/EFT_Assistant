@@ -52,24 +52,21 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight
 ]
-Conflict=[
-	AK Zenit B-33 dust cover/|
-]
 Recoil=-1.000000
 Ergonomics=3.000000
 Information_Eng=The integrally machined B-10 foregrip is manufactured from aluminum alloy D16T with black coating and can be installed instead of the standard-issue foregrip on an AK. It's fitted with Picatinny rail mounts on two sides, allowing for the installation of additional equipment such as tactical foregrips, flashlights, and laser designators. Manufactured by Zenit.
 basePrice=5194
 width=1
 height=1
-avg24hPrice=23389
+avg24hPrice=35332
 low24hPrice=11000
-lastOfferCount=5
+lastOfferCount=13
 Sell_Prapor=2597
 Sell_Fence=2077
 Sell_Skier=2545
 Sell_Peacekeeper=20
 Sell_Mechanic=2908
-Sell_Flea Market=44999
+Sell_Flea Market=13000
 weight=0.150000
-fleaMarketFee=4963
+fleaMarketFee=741
 propertiestype=ItemPropertiesWeaponMod

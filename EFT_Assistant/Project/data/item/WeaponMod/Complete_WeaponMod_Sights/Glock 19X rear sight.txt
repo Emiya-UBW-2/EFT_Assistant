@@ -2,6 +2,7 @@ IDstr=630765cb962d0247b029dc45
 Name=Glock 19X rear sight
 ShortName=G19X RS
 Itemtype=Ironsight
+SightRange=0
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A standard-issue rear sight for the Glock 19X pistol.

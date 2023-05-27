@@ -2,24 +2,18 @@ IDstr=59e7708286f7742cbd762753
 Name=Ushanka ear flap hat
 ShortName=Ushanka
 Itemtype=Headwear
-Conflict=[
-	Ghoul mask/|
-	Tagilla's welding mask "Gorilla"/|
-	Tagilla's welding mask "UBEY"/|
-	OPSMEN Earmor M32 headset/|
-]
 Information_Eng=The Ushanka ear flap hat is a classic hat worn by Russian people, or that is at least what most people from the west seem to believe.
 basePrice=5013
 width=2
 height=2
-avg24hPrice=23016
+avg24hPrice=23469
 low24hPrice=14444
-lastOfferCount=12
+lastOfferCount=31
 Sell_Fence=2005
 Sell_Skier=2456
 Sell_Peacekeeper=19
 Sell_Ragman=3108
-Sell_Flea Market=24500
+Sell_Flea Market=15500
 weight=0.100000
-fleaMarketFee=1916
+fleaMarketFee=960
 propertiestype=

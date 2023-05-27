@@ -2,6 +2,7 @@ IDstr=5b1fa9b25acfc40018633c01
 Name=Glock 18C 9x19 machine pistol
 ShortName=Glock 18C
 Itemtype=Handgun
+SightRange=100
 ChildParts=[
 	Glock 18C 9x19 barrel with a compensator
 ]
@@ -46,15 +47,15 @@ Information_Eng=The Glock 18 is a selective-fire variant of the Glock 17. The fi
 basePrice=15225
 width=2
 height=1
-avg24hPrice=31642
+avg24hPrice=31140
 low24hPrice=18000
-lastOfferCount=12
+lastOfferCount=8
 Sell_Prapor=7612
 Sell_Fence=6090
 Sell_Skier=7460
 Sell_Peacekeeper=58
 Sell_Mechanic=8526
-Sell_Flea Market=27777
+Sell_Flea Market=24999
 weight=0.231000
-fleaMarketFee=1472
+fleaMarketFee=1315
 propertiestype=ItemPropertiesWeapon

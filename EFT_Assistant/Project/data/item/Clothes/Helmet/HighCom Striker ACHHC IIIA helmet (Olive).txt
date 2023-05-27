@@ -2,23 +2,18 @@ IDstr=5b40e4035acfc47a87740943
 Name=HighCom Striker ACHHC IIIA helmet (Olive Drab)
 ShortName=ACHHC
 Itemtype=Headwear
-Conflict=[
-	Faceless mask/|
-	Tagilla's welding mask "Gorilla"/|
-	Tagilla's welding mask "UBEY"/|
-]
 Information_Eng=A combat helmet manufactured by HighCom, the High Cut version. Does not feature any additional mounts. Olive Drab version.
 basePrice=52577
 width=2
 height=2
-avg24hPrice=59775
-low24hPrice=44444
-lastOfferCount=13
+avg24hPrice=67384
+low24hPrice=58000
+lastOfferCount=14
 Sell_Fence=21030
 Sell_Skier=25762
 Sell_Peacekeeper=199
 Sell_Ragman=32597
-Sell_Flea Market=68420
+Sell_Flea Market=58000
 weight=1.200000
-fleaMarketFee=3691
+fleaMarketFee=3309
 propertiestype=ItemPropertiesHelmet

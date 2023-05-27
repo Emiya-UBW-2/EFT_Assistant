@@ -2,6 +2,7 @@ IDstr=5c501a4d2e221602b412b540
 Name=Molot VPO-101 "Vepr-Hunter" 7.62x51 carbine
 ShortName=VPO-101 "Vepr-Hunter"
 Itemtype=Assault carbine
+SightRange=100
 ChildParts=[
 	VPO-101 "Vepr-Hunter" gas tube
 ]
@@ -43,24 +44,21 @@ ChildParts=[
 ChildParts=[
 	VPO-101 "Vepr-Hunter" Rotor 43 7.62x51 muzzle brake-compensator
 ]
-Conflict=[
-	Hera Arms CQR tactical foregrip/|
-]
 Recoil=510.000000
 Ergonomics=29.000000
 Information_Eng=A semi-automatic 7.62x51mm caliber hunting carbine. It was created on the platform of Kalashnikov machine gun (RPK) and has a similar appearance, weight and dimensions. Designed for professional and amateur hunting of medium and big game, as well as sporting use.
 basePrice=38978
 width=4
 height=1
-avg24hPrice=34314
-low24hPrice=24444
-lastOfferCount=10
+avg24hPrice=32530
+low24hPrice=22000
+lastOfferCount=4
 Sell_Prapor=19489
 Sell_Fence=15591
 Sell_Skier=19099
 Sell_Peacekeeper=147
 Sell_Mechanic=21827
-Sell_Flea Market=28000
+Sell_Flea Market=24680
 weight=2.092000
-fleaMarketFee=2075
+fleaMarketFee=2051
 propertiestype=ItemPropertiesWeapon

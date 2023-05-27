@@ -34,28 +34,21 @@ ChildParts=[
 	Magpul M-LOK AFG tactical foregrip (Olive Drab)/|
 	Magpul M-LOK AFG tactical foregrip (Stealth Gray)
 ]
-Conflict=[
-	MPX 9x19 10.5 inch barrel/|
-	MPX-SD 9x19 165mm barrel/|
-	MPX 9x19 203mm barrel/|
-	MPX 9x19 4.5 inch barrel/|
-	MPX 9x19 6.5 inch barrel/|
-]
 Recoil=-3.000000
 Ergonomics=12.000000
 Information_Eng=The Lancer OEM 14 inch length foregrip for the MPX SMGs equipped with an M-LOK interface for installation of additional devices and accessories.
 basePrice=14200
 width=2
 height=1
-avg24hPrice=53756
-low24hPrice=24999
-lastOfferCount=1
+avg24hPrice=32862
+low24hPrice=14999
+lastOfferCount=7
 Sell_Prapor=7100
 Sell_Fence=5680
 Sell_Skier=6958
 Sell_Peacekeeper=54
 Sell_Mechanic=7952
-Sell_Flea Market=24999
+Sell_Flea Market=28000
 weight=0.144000
-fleaMarketFee=1320
+fleaMarketFee=1500
 propertiestype=ItemPropertiesWeaponMod

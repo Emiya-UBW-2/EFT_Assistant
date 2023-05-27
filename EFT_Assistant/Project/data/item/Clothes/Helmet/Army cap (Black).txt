@@ -2,25 +2,18 @@ IDstr=603618feffd42c541047f771
 Name=Army cap (Black)
 ShortName=Cap
 Itemtype=Headwear
-Conflict=[
-	Faceless mask/|
-	Ghoul mask/|
-	GP-7 gas mask/|
-	Tagilla's welding mask "Gorilla"/|
-	Tagilla's welding mask "UBEY"/|
-]
 Information_Eng=A regular army cap, colored in black.
 basePrice=4353
 width=1
 height=1
-avg24hPrice=37193
+avg24hPrice=19731
 low24hPrice=6500
-lastOfferCount=6
+lastOfferCount=7
 Sell_Fence=1741
 Sell_Skier=2132
 Sell_Peacekeeper=16
 Sell_Ragman=2698
-Sell_Flea Market=10000
+Sell_Flea Market=12100
 weight=0.100000
-fleaMarketFee=555
+fleaMarketFee=717
 propertiestype=

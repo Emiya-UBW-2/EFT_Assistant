@@ -2,10 +2,7 @@ IDstr=5b0bc22d5acfc47a8607f085
 Name=SA-58 Holland Type rear sight
 ShortName=SA58 Holland
 Itemtype=Ironsight
-SightRange=500
-Conflict=[
-	KMZ 1P69 Weaver mount/|
-]
+SightRange=0
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=The Holland Type rear sight for SA-58 assault rifle, manufactured by DS Arms.

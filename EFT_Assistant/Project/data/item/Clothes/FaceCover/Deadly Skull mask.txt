@@ -2,21 +2,18 @@ IDstr=5b432b6c5acfc4001a599bf0
 Name=Deadly Skull mask
 ShortName=Deadly Skull
 Itemtype=Face Cover
-Conflict=[
-	Tac-Kek Heavy Trooper mask for Ops-Core-type helmets/|
-]
 Information_Eng=A lightweight mask that does not provide any protection, but at least makes you look scarier.
 basePrice=6211
 width=2
 height=2
-avg24hPrice=7777
+avg24hPrice=8925
 low24hPrice=2999
-lastOfferCount=16
+lastOfferCount=11
 Sell_Fence=2484
 Sell_Skier=3043
 Sell_Peacekeeper=23
 Sell_Ragman=3850
-Sell_Flea Market=2999
+Sell_Flea Market=7999
 weight=0.200000
-fleaMarketFee=336
+fleaMarketFee=433
 propertiestype=

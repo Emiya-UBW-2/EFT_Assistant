@@ -13,30 +13,22 @@ ChildParts=[
 ChildParts=[
 	Leupold DeltaPoint Reflex Sight
 ]
-Conflict=[
-	AR-15 Colt A2 rear sight/|
-	AR-15 rear sight carry handle/|
-	HK G36 front sight/|
-	Mosin Rifle carbine rear sight/|
-	NSPU-M night vision scope/|
-	SV-98 rear sight/|
-]
 Recoil=0.000000
 Ergonomics=-1.000000
 Information_Eng=A universal 30mm scope base mount for installation on Picatinny rails. Manufactured by JP Enterprises.
 basePrice=9294
 width=2
 height=1
-avg24hPrice=38180
-low24hPrice=18000
-lastOfferCount=1
+avg24hPrice=84084
+low24hPrice=24999
+lastOfferCount=22
 Sell_Prapor=4647
 Sell_Fence=3717
 Sell_Skier=4554
 Sell_Peacekeeper=35
 Sell_Mechanic=5204
 Sell_Jaeger=5576
-Sell_Flea Market=18000
+Sell_Flea Market=58888
 weight=0.194000
-fleaMarketFee=961
+fleaMarketFee=5357
 propertiestype=ItemPropertiesWeaponMod

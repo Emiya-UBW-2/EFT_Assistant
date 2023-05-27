@@ -2,6 +2,7 @@ IDstr=606587252535c57a13424cfd
 Name=CMMG Mk47 Mutant 7.62x39 assault rifle
 ShortName=Mk47
 Itemtype=Assault rifle
+SightRange=100
 ChildParts=[
 	AR-15 Colt A2 pistol grip/|
 	AR-15 Damage Industries ECS pistol grip (FDE)/|

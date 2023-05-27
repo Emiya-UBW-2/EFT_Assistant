@@ -2,25 +2,21 @@ IDstr=5ce69cbad7f00c00b61c5098
 Name=M700 7.62x51 Magpul PMAG AC 5-round magazine
 ShortName=PMAG AC
 Itemtype=Magazine
-Conflict=[
-	M700 Hogue Overmolded Ghillie stock/|
-	M700 ProMag Archangel chassis/|
-]
 Recoil=0.000000
 Ergonomics=4.000000
 Information_Eng=A Remington M700 sniper rifle 5-round polymer magazine by Magpul. It accepts 7.62x51 cartridges.
 basePrice=2800
 width=1
 height=1
-avg24hPrice=15777
-low24hPrice=7680
-lastOfferCount=2
+avg24hPrice=14986
+low24hPrice=11111
+lastOfferCount=6
 Sell_Prapor=1400
 Sell_Fence=1120
 Sell_Skier=1372
 Sell_Peacekeeper=11
 Sell_Mechanic=1568
-Sell_Flea Market=12000
+Sell_Flea Market=11111
 weight=0.090000
-fleaMarketFee=873
+fleaMarketFee=776
 propertiestype=ItemPropertiesMagazine

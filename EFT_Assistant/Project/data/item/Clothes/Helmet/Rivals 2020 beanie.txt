@@ -2,14 +2,6 @@ IDstr=5f994730c91ed922dd355de3
 Name=Rivals 2020 beanie
 ShortName=Rivals
 Itemtype=Headwear
-Conflict=[
-	Faceless mask/|
-	Ghoul mask/|
-	Pestily plague mask/|
-	Slender mask/|
-	Tagilla's welding mask "Gorilla"/|
-	Tagilla's welding mask "UBEY"/|
-]
 Information_Eng=A special beanie from the Twitch Rivals 2020 event.
 basePrice=20000
 width=1

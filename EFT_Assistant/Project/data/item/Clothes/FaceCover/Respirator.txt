@@ -2,23 +2,18 @@ IDstr=59e7715586f7742ee5789605
 Name=Respirator
 ShortName=Respirator
 Itemtype=Face Cover
-Conflict=[
-	Galvion Caiman Hybrid Ballistic Mandible Guard/|
-	Ops-Core FAST Gunsight Mandible/|
-	Tac-Kek Heavy Trooper mask for Ops-Core-type helmets/|
-]
 Information_Eng=Respiratory mask or anti-aerosol respirator is a basic respiratory protective equipment.
 basePrice=1786
 width=2
 height=2
-avg24hPrice=13416
-low24hPrice=8500
-lastOfferCount=18
+avg24hPrice=12630
+low24hPrice=6420
+lastOfferCount=36
 Sell_Fence=714
 Sell_Skier=875
 Sell_Peacekeeper=7
 Sell_Ragman=1107
-Sell_Flea Market=8500
+Sell_Flea Market=10500
 weight=0.100000
-fleaMarketFee=655
+fleaMarketFee=914
 propertiestype=

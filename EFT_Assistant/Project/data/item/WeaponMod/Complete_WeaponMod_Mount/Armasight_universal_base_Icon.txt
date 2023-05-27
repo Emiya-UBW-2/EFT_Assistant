@@ -5,27 +5,22 @@ Itemtype=Mount
 ChildParts=[
 	Armasight Vulcan MG 3.5x Bravo night vision scope
 ]
-Conflict=[
-	AR-15 Colt A2 rear sight/|
-	AR-15 rear sight carry handle/|
-	HK G36 rear sight/|
-]
 Recoil=0.000000
 Ergonomics=-1.000000
 Information_Eng=The Armasight universal base mount for installation of the Vulcan series scopes.
 basePrice=2518
 width=1
 height=1
-avg24hPrice=20094
-low24hPrice=8999
-lastOfferCount=4
+avg24hPrice=13686
+low24hPrice=8000
+lastOfferCount=2
 Sell_Prapor=1259
 Sell_Fence=1007
 Sell_Skier=1233
 Sell_Peacekeeper=10
 Sell_Mechanic=1410
 Sell_Jaeger=1510
-Sell_Flea Market=9000
+Sell_Flea Market=16666
 weight=0.017000
-fleaMarketFee=596
+fleaMarketFee=1557
 propertiestype=ItemPropertiesWeaponMod

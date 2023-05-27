@@ -2,6 +2,7 @@ IDstr=5c488a752e221602b412af63
 Name=Desert Tech MDR 5.56x45 assault rifle
 ShortName=MDR
 Itemtype=Assault rifle
+SightRange=100
 ChildParts=[
 	MDR pistol grip (FDE)/|
 	MDR pistol grip (Black)
@@ -105,24 +106,21 @@ ChildParts=[
 	AR-15 Colt A2 rear sight/|
 	AR-15 rear sight carry handle
 ]
-Conflict=[
-	Hera Arms CQR tactical foregrip/|
-]
 Recoil=74.000000
 Ergonomics=72.000000
 Information_Eng=The MDR 5.56x45 bullpup assault rifle, designed and manufactured by Desert Tech LLC. A modular multi-caliber weapon with a compact bullpup layout intended for use by police and military special forces. Barrel lengths and calibers can be changed by the end-user within minutes with a minimum amount of tools.
 basePrice=45230
 width=2
 height=1
-avg24hPrice=58994
+avg24hPrice=60086
 low24hPrice=43999
-lastOfferCount=33
+lastOfferCount=26
 Sell_Prapor=22615
 Sell_Fence=18092
 Sell_Skier=22162
 Sell_Peacekeeper=171
 Sell_Mechanic=25328
-Sell_Flea Market=50000
+Sell_Flea Market=59999
 weight=2.800000
-fleaMarketFee=2850
+fleaMarketFee=3223
 propertiestype=ItemPropertiesWeapon

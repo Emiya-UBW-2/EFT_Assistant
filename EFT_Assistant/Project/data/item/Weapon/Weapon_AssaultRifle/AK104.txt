@@ -2,6 +2,7 @@ IDstr=5ac66d725acfc43b321d4b60
 Name=Kalashnikov AK-104 7.62x39 assault rifle
 ShortName=AK-104
 Itemtype=Assault rifle
+SightRange=100
 ChildParts=[
 	AK-74 gas tube (6P20 Sb.1-2)/|
 	AKM gas tube (6P1 Sb.1-2)/|
@@ -108,28 +109,21 @@ ChildParts=[
 	AK CSS knurled charging handle/|
 	AK Zenit RP-1 charging handle
 ]
-Conflict=[
-	Hera Arms CQR tactical foregrip/|
-	AK Hexagon tubular handguard (Anodized Red)/|
-	AK Hexagon tubular handguard/|
-	AK Strike Industries TRAX 2 handguard extension/|
-	AK Vltor CMRD KeyMod handguard/|
-]
 Recoil=154.000000
 Ergonomics=38.000000
 Information_Eng=The AK-104 7.62x39mm assault rifle is a further modernized version of AK-74M base, more precisely a shortened version of AK-103. A short compact version equipped with a side-folding shoulder stock and a side mount for optical and night scopes. The 100-series AKs are produced by the Izhmash factories in Izhevsk, Russia.
 basePrice=39912
 width=3
 height=1
-avg24hPrice=29149
+avg24hPrice=30585
 low24hPrice=24000
-lastOfferCount=15
+lastOfferCount=27
 Sell_Prapor=19956
 Sell_Fence=15964
 Sell_Skier=19556
 Sell_Peacekeeper=151
 Sell_Mechanic=22350
-Sell_Flea Market=24000
+Sell_Flea Market=27000
 weight=1.992000
-fleaMarketFee=2101
+fleaMarketFee=2109
 propertiestype=ItemPropertiesWeapon

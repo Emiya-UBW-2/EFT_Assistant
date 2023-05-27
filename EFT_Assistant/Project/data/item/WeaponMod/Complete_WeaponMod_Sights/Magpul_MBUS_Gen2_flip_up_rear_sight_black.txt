@@ -2,27 +2,22 @@ IDstr=5bc09a18d4351e003562b68e
 Name=Magpul MBUS Gen2 flip-up rear sight
 ShortName=MBUS RS
 Itemtype=Ironsight
-SightRange=300
-Conflict=[
-	KMZ 1P69 Weaver mount/|
-	ASh-12 rear sight carry handle/|
-	VOMZ Pilad 4x32 24.5mm riflescope/|
-]
+SightRange=0
 Recoil=0.000000
 Ergonomics=1.000000
 Information_Eng=The MBUS Gen2 removable flip-up rear sight, installed on the mount. Manufactured by Magpul.
 basePrice=3600
 width=1
 height=1
-avg24hPrice=19999
-low24hPrice=9999
-lastOfferCount=1
+avg24hPrice=69156
+low24hPrice=25300
+lastOfferCount=6
 Sell_Prapor=1800
 Sell_Fence=1440
 Sell_Skier=1764
 Sell_Peacekeeper=14
 Sell_Mechanic=2016
-Sell_Flea Market=19999
+Sell_Flea Market=25300
 weight=0.036000
-fleaMarketFee=1683
+fleaMarketFee=2451
 propertiestype=ItemPropertiesScope

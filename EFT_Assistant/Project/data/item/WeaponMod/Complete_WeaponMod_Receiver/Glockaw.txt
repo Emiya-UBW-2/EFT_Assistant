@@ -19,25 +19,21 @@ ChildParts=[
 ChildParts=[
 	Glock 9x19 Strike Industries G4 SlideComp compensator
 ]
-Conflict=[
-	Glock 9x19 Lone Wolf AlphaWolf Bullnose compensator/|
-	P226 TJ's Custom 9x19 compensator/|
-]
 Recoil=-1.000000
 Ergonomics=2.000000
 Information_Eng=A slide for Glock pistols family, manufactured by Lone Wolf.
 basePrice=8016
 width=2
 height=1
-avg24hPrice=11000
-low24hPrice=5000
+avg24hPrice=7000
+low24hPrice=6000
 lastOfferCount=1
 Sell_Prapor=4008
 Sell_Fence=3206
 Sell_Skier=3927
 Sell_Peacekeeper=30
 Sell_Mechanic=4488
-Sell_Flea Market=7000
+Sell_Flea Market=6900
 weight=0.190000
-fleaMarketFee=450
+fleaMarketFee=448
 propertiestype=ItemPropertiesWeaponMod

@@ -2,28 +2,21 @@ IDstr=5cf12a15d7f00c05464b293f
 Name=M700 7.62x51 ProMag AA-70 20-round magazine
 ShortName=AA-70
 Itemtype=Magazine
-Conflict=[
-	M700 Hogue Overmolded Ghillie stock/|
-	M700 AI AT AICS polymer chassis/|
-	M700 AB Arms MOD*X GEN 3 chassis/|
-	ORSIS T-5000M aluminium body/|
-	M700 Magpul Pro 700 chassis/|
-]
 Recoil=0.000000
 Ergonomics=-7.000000
 Information_Eng=A Remington M700 sniper rifle magazine by ProMag, for the Archangel M700 stock. It accepts 7.62x51 cartridges and has a 20-round capacity.
 basePrice=6240
 width=1
 height=2
-avg24hPrice=27353
-low24hPrice=17777
-lastOfferCount=3
+avg24hPrice=66224
+low24hPrice=21111
+lastOfferCount=9
 Sell_Prapor=3120
 Sell_Fence=2496
 Sell_Skier=3057
 Sell_Peacekeeper=24
 Sell_Mechanic=3494
-Sell_Flea Market=21111
+Sell_Flea Market=37461
 weight=0.500000
-fleaMarketFee=1362
+fleaMarketFee=3300
 propertiestype=ItemPropertiesMagazine

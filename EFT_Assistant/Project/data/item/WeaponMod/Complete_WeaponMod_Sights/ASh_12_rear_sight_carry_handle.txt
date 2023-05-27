@@ -2,7 +2,7 @@ IDstr=5caf1691ae92152ac412efb9
 Name=ASh-12 rear sight carry handle
 ShortName=ASh-12 CH
 Itemtype=Ironsight
-SightRange=600
+SightRange=0
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
 	ELCAN SpecterDR 1x/4x scope (FDE)/|
@@ -76,8 +76,8 @@ Information_Eng=A detachable carry handle with a rear sight for the ASh-12 assau
 basePrice=1800
 width=1
 height=1
-avg24hPrice=10000
-low24hPrice=10000
+avg24hPrice=0
+low24hPrice=0
 lastOfferCount=1
 Sell_Prapor=900
 Sell_Fence=720

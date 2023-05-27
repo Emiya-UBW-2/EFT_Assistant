@@ -2,6 +2,7 @@ IDstr=5fc22d7c187fea44d52eda44
 Name=SWORD International Mk-18 .338 LM marksman rifle
 ShortName=Mk-18 Mjölnir
 Itemtype=Marksman rifle
+SightRange=100
 ChildParts=[
 	AR-15 Colt A2 pistol grip/|
 	AR-15 Damage Industries ECS pistol grip (FDE)/|

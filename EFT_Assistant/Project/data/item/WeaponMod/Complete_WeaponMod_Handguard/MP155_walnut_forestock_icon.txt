@@ -2,9 +2,6 @@ IDstr=607d5aa50494a626335e12ed
 Name=MP-155 walnut forestock
 ShortName=MP155 walnut
 Itemtype=Handguard
-Conflict=[
-	MP-155 Ultima pistol grip/|
-]
 Recoil=0.000000
 Ergonomics=5.000000
 Information_Eng=A Monte Carlo-style wooden walnut forestock for MP-155 shotguns. Manufactured by Izhmekh.

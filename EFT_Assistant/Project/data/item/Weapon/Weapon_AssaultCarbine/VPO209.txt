@@ -2,6 +2,7 @@ IDstr=59e6687d86f77411d949b251
 Name=Molot VPO-209 .366 TKM carbine
 ShortName=VPO-209
 Itemtype=Assault rifle
+SightRange=100
 ChildParts=[
 	AK Kiba Arms VDM CS gas tube/|
 	AK-74 gas tube (6P20 Sb.1-2)/|
@@ -98,24 +99,21 @@ ChildParts=[
 ChildParts=[
 	AKMP system front sight device
 ]
-Conflict=[
-	Hera Arms CQR tactical foregrip/|
-]
 Recoil=247.000000
 Ergonomics=30.000000
 Information_Eng=The Molot VPO-209 carbine is based on the well-known Kalashnikov AKM and has an almost identical appearance, weight, and overall dimensions. It has a smooth bore barrel with the last 120 mm of the barrel being rifled (a so called "paradox"-bore). VPO-209 is chambered in .366 TKM, that together with the "paradox" rifling classifies the weapon as a shotgun under Russian law.
 basePrice=21585
 width=4
 height=1
-avg24hPrice=29975
+avg24hPrice=29966
 low24hPrice=23500
-lastOfferCount=4
+lastOfferCount=2
 Sell_Prapor=10792
 Sell_Fence=8634
 Sell_Skier=10576
 Sell_Peacekeeper=82
 Sell_Mechanic=12087
-Sell_Flea Market=29900
+Sell_Flea Market=28378
 weight=2.092000
-fleaMarketFee=1593
+fleaMarketFee=1527
 propertiestype=ItemPropertiesWeapon

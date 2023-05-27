@@ -2,6 +2,7 @@ IDstr=57f3c6bd24597738e730fa2f
 Name=PP-91-01 "Kedr-B" 9x18PM submachine gun
 ShortName=PP-91-01 "Kedr-B"
 Itemtype=SMG
+SightRange=100
 ChildParts=[
 	PP-91 "Kedr" polymer pistol grip
 ]
@@ -18,15 +19,15 @@ Information_Eng=A rare silenced version of the PP-91 Kedr submachine gun, denomi
 basePrice=20238
 width=3
 height=1
-avg24hPrice=58417
+avg24hPrice=61082
 low24hPrice=38000
-lastOfferCount=7
+lastOfferCount=1
 Sell_Prapor=10119
 Sell_Fence=8095
 Sell_Skier=9916
 Sell_Peacekeeper=77
 Sell_Mechanic=11333
-Sell_Flea Market=46888
+Sell_Flea Market=66666
 weight=1.330000
-fleaMarketFee=2609
+fleaMarketFee=4248
 propertiestype=ItemPropertiesWeapon

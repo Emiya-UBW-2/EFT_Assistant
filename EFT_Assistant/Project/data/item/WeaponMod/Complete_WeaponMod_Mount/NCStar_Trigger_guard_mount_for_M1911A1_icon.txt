@@ -16,9 +16,6 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)
 ]
-Conflict=[
-	M1911A1 Weigand Weig-a-tinny rail mount/|
-]
 Recoil=0.000000
 Ergonomics=-1.000000
 Information_Eng=The NcSTAR Trigger guard mount for the M1911A1 pistol.

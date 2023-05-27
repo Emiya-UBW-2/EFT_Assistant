@@ -2,10 +2,6 @@ IDstr=5a6b592c8dc32e00094b97bf
 Name=Glock 9x19 Double Diamond thread protector
 ShortName=G DD thr.
 Itemtype=Comb. muzzle device
-Conflict=[
-	Glock 9x19 Strike Industries G4 SlideComp compensator/|
-	Glock 9x19 Fischer Development FD917 sound suppressor/|
-]
 Recoil=0.000000
 Ergonomics=1.000000
 Information_Eng=A thread protector for threaded barrels of Glock family pistols, manufactured by Double Diamond.

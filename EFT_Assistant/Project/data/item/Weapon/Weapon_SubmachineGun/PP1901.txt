@@ -2,6 +2,7 @@ IDstr=59984ab886f7743e98271174
 Name=PP-19-01 "Vityaz" 9x19 submachine gun
 ShortName=PP-19-01
 Itemtype=SMG
+SightRange=100
 ChildParts=[
 	AK Aeroknox Scorpius pistol grip/|
 	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip/|
@@ -77,29 +78,21 @@ ChildParts=[
 ChildParts=[
 	PP-19-01 "Vityaz" gas tube
 ]
-Conflict=[
-	AK Magpul Zhukov-U handguard (Black)/|
-	AK Magpul Zhukov-U handguard (FDE)/|
-	AK Magpul Zhukov-U handguard (Plum)/|
-	Strike Industries TRAX bridge rail/|
-	Hera Arms CQR tactical foregrip/|
-	AK Strike Industries TRAX 2 handguard extension/|
-]
 Recoil=58.000000
 Ergonomics=35.000000
 Information_Eng=The PP-19-01, also known as "Vityaz", is a Russian submachine gun chambered in 9x19 developed in 2004 by Izhmash based on the AK platform. A standard-issue submachine gun in many law enforcement agencies and military units of the Russian Federation.
 basePrice=14751
 width=2
 height=1
-avg24hPrice=18792
-low24hPrice=12500
-lastOfferCount=19
+avg24hPrice=18771
+low24hPrice=12580
+lastOfferCount=6
 Sell_Prapor=7375
 Sell_Fence=5900
 Sell_Skier=7227
 Sell_Peacekeeper=56
 Sell_Mechanic=8260
-Sell_Flea Market=15500
+Sell_Flea Market=17152
 weight=1.809000
-fleaMarketFee=905
+fleaMarketFee=958
 propertiestype=ItemPropertiesWeapon

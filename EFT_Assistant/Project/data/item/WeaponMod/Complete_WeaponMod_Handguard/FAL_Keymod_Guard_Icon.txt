@@ -39,25 +39,21 @@ ChildParts=[
 	Vltor CASV KeyMod 4 inch rail/|
 	CNC Guns KeyMod 2 inch rail
 ]
-Conflict=[
-	SA-58 7.62x51 16 inch barrel/|
-	SA-58 7.62x51 11 inch barrel/|
-]
 Recoil=0.000000
 Ergonomics=9.000000
 Information_Eng=The AIM Sports universal KeyMod handguard for FAL series rifles equipped with a KeyMod interface for installation of additional devices and accessories.
 basePrice=4841
 width=2
 height=1
-avg24hPrice=14999
-low24hPrice=9999
-lastOfferCount=5
+avg24hPrice=28542
+low24hPrice=6789
+lastOfferCount=20
 Sell_Prapor=2420
 Sell_Fence=1936
 Sell_Skier=2372
 Sell_Peacekeeper=18
 Sell_Mechanic=2710
-Sell_Flea Market=9999
+Sell_Flea Market=6789
 weight=0.211000
-fleaMarketFee=541
+fleaMarketFee=361
 propertiestype=ItemPropertiesWeaponMod

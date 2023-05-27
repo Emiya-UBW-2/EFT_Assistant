@@ -1,10 +1,7 @@
 #include"../../../Header.hpp"
 
 namespace FPS_n2 {
-	void HideoutJsonData::GetJsonData(const nlohmann::json& data) {
-		id = data["id"];
-		name = data["name"];
-
+	void HideoutJsonData::GetJsonSub(const nlohmann::json& data) noexcept {
 		m_LvData.clear();
 		for (auto& Ld : data["levels"]) {
 			m_LvData.resize(m_LvData.size() + 1);
@@ -70,6 +67,72 @@ namespace FPS_n2 {
 					}
 				}
 				//
+			}
+		}
+	}
+	void HideoutJsonData::OutputDataSub(std::ofstream& outputfile) noexcept {
+		for (auto& L2 : this->m_LvData) {
+			auto LV = "Lv" + std::to_string((&L2 - &this->m_LvData.front()) + 1);
+
+			outputfile << LV + "constructionTime=" + std::to_string(L2.constructionTime) + "\n";
+			outputfile << LV + "Information_Eng=" + L2.Information_Eng + "\n";
+			{
+				outputfile << LV + "itemReq=[";
+				for (auto& m : L2.m_ItemReq) {
+					outputfile << ItemData::Instance()->FindPtr(m.GetID())->GetName();
+					outputfile << "x" + std::to_string(m.GetValue());
+					if (&m != &L2.m_ItemReq.back()) {
+						outputfile << DIV_STR;
+					}
+				}
+				outputfile << "]\n";
+			}
+			{
+				outputfile << LV + "stationLevelReq=[";
+				for (auto& m : L2.m_Parent) {
+					outputfile << HideoutData::Instance()->FindPtr(m.GetID())->GetName();
+					outputfile << "x" + std::to_string(m.GetValue());
+					if (&m != &L2.m_Parent.back()) {
+						outputfile << DIV_STR;
+					}
+				}
+				outputfile << "]\n";
+			}
+			{
+				outputfile << LV + "traderRequirements=[";
+				for (auto& m : L2.m_TraderReq) {
+					outputfile << TraderData::Instance()->FindPtr(m.GetID())->GetName();
+					outputfile << "x" + std::to_string(m.GetValue());
+					if (&m != &L2.m_TraderReq.back()) {
+						outputfile << DIV_STR;
+					}
+				}
+				outputfile << "]\n";
+			}
+			for (auto& c : L2.m_ItemCraft) {
+				outputfile << LV + "craftduration=" + std::to_string(c.durationTime) + "\n";
+				{
+					outputfile << LV + "craftitemReq=[";
+					for (auto& m : c.m_ItemReq) {
+						outputfile << ItemData::Instance()->FindPtr(m.GetID())->GetName();
+						outputfile << "x" + std::to_string(m.GetValue());
+						if (&m != &c.m_ItemReq.back()) {
+							outputfile << DIV_STR;
+						}
+					}
+					outputfile << "]\n";
+				}
+				{
+					outputfile << LV + "craftitemReward=[";
+					for (auto& m : c.m_ItemReward) {
+						outputfile << ItemData::Instance()->FindPtr(m.GetID())->GetName();
+						outputfile << "x" + std::to_string(m.GetValue());
+						if (&m != &c.m_ItemReward.back()) {
+							outputfile << DIV_STR;
+						}
+					}
+					outputfile << "]\n";
+				}
 			}
 		}
 	}
@@ -162,6 +225,8 @@ namespace FPS_n2 {
 				}
 			}
 		}
+
+		SetOtherPartsID(HideoutData::Instance()->GetList());
 	}
 
 	const int		HideoutList::Draw(int xp, int yp, int xsize, int ysize, int Lv, unsigned int defaultcolor, bool Clickactive) noexcept {

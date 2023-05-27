@@ -2,21 +2,18 @@ IDstr=572b7fa524597762b747ce82
 Name=Lower half-mask
 ShortName=Half-mask
 Itemtype=Face Cover
-Conflict=[
-	Tac-Kek Heavy Trooper mask for Ops-Core-type helmets/|
-]
 Information_Eng=A piece of cloth, typically a bandana, covering the face from nose and below, is the most typical attribute of a street gang member.
 basePrice=2614
 width=1
 height=1
-avg24hPrice=11862
-low24hPrice=6444
-lastOfferCount=18
+avg24hPrice=11070
+low24hPrice=7500
+lastOfferCount=14
 Sell_Fence=1045
 Sell_Skier=1280
 Sell_Peacekeeper=10
 Sell_Ragman=1620
-Sell_Flea Market=9999
+Sell_Flea Market=8900
 weight=0.100000
-fleaMarketFee=685
+fleaMarketFee=576
 propertiestype=

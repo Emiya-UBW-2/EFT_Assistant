@@ -2,25 +2,21 @@ IDstr=5a7ad1fb51dfba0013379715
 Name=Glock 9x19 Lone Wolf LWD-COMP9 compensator
 ShortName=LWD-COMP9
 Itemtype=Flashhider
-Conflict=[
-	Glock 9x19 Strike Industries G4 SlideComp compensator/|
-	Glock 9x19 Fischer Development FD917 sound suppressor/|
-]
 Recoil=-12.000000
 Ergonomics=-1.000000
 Information_Eng=A Glock 9x19 compensator manufactured by Lone Wolf.
 basePrice=3365
 width=1
 height=1
-avg24hPrice=6910
+avg24hPrice=5297
 low24hPrice=3750
-lastOfferCount=3
+lastOfferCount=1
 Sell_Prapor=1682
 Sell_Fence=1346
 Sell_Skier=1648
 Sell_Peacekeeper=13
 Sell_Mechanic=1884
-Sell_Flea Market=4994
+Sell_Flea Market=4993
 weight=0.036000
 fleaMarketFee=264
 propertiestype=ItemPropertiesWeaponMod

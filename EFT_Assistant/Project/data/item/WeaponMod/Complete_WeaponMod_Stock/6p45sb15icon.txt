@@ -5,17 +5,14 @@ Itemtype=Stock
 ChildParts=[
 	AK GP-25 accessory kit recoil pad
 ]
-Conflict=[
-	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock/|
-]
 Recoil=-32.000000
 Ergonomics=5.000000
 Information_Eng=A polymer stock for AK-74M automatic rifles, manufactured by Izhmash.
 basePrice=1626
 width=2
 height=1
-avg24hPrice=8386
-low24hPrice=15000
+avg24hPrice=0
+low24hPrice=0
 lastOfferCount=1
 Sell_Prapor=813
 Sell_Fence=650

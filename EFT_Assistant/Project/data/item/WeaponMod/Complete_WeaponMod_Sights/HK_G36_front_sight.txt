@@ -2,7 +2,7 @@ IDstr=623166e08c43374ca1567195
 Name=HK G36 front sight
 ShortName=G36 FS
 Itemtype=Ironsight
-SightRange=300
+SightRange=0
 Conflict=[
 	Burris AR-P.E.P.R. 30mm ring scope mount/|
 	Geissele Super Precision 30mm ring scope mount/|

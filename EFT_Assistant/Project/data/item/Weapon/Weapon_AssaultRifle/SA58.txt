@@ -2,6 +2,7 @@ IDstr=5b0bbe4e5acfc40dc528a72d
 Name=DS Arms SA-58 7.62x51 assault rifle
 ShortName=SA-58
 Itemtype=Assault rifle
+SightRange=100
 ChildParts=[
 	SA-58 FAB Defense AG-FAL pistol grip/|
 	SA-58 pistol grip/|
@@ -44,24 +45,21 @@ ChildParts=[
 	SA-58 folding stock/|
 	SA-58 SPR stock
 ]
-Conflict=[
-	Hera Arms CQR tactical foregrip/|
-]
 Recoil=277.000000
 Ergonomics=34.000000
 Information_Eng=The SA-58 OSW (Operations Specialist Weapon), manufactured by American company DSA (or DS Arms - David Selvaggio Arms), is a legal copy of the FAL. It's made with the same Steyr-Daimler-Puch production line equipment as the StG-58. It may come with a different barrel length, an aluminum-alloy lower receiver, and improved glass-filled nylon furniture. Civilian models are semi-automatic, but military and law enforcement clients can procure select-fire models that have a fully automatic cyclic rate of 750 rounds/minute. The DSA-58 can use any metric-measurement FAL magazines.
 basePrice=31093
 width=2
 height=1
-avg24hPrice=84242
-low24hPrice=39876
-lastOfferCount=20
+avg24hPrice=92454
+low24hPrice=47777
+lastOfferCount=29
 Sell_Prapor=15546
 Sell_Fence=12437
 Sell_Skier=15235
 Sell_Peacekeeper=118
 Sell_Mechanic=17412
-Sell_Flea Market=65888
+Sell_Flea Market=68777
 weight=1.460000
-fleaMarketFee=3582
+fleaMarketFee=3779
 propertiestype=ItemPropertiesWeapon

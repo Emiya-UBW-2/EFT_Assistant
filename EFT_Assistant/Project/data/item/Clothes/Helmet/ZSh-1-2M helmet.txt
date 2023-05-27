@@ -2,23 +2,18 @@ IDstr=5aa7e454e5b5b0214e506fa2
 Name=ZSh-1-2M helmet
 ShortName=ZSh-1-2M
 Itemtype=Headwear
-Conflict=[
-	Faceless mask/|
-	Tagilla's welding mask "Gorilla"/|
-	Tagilla's welding mask "UBEY"/|
-]
 Information_Eng=The ZSh-1-2M helmet consists of a durable alloy covered from the inside by aramid fabrics which does not allow penetration of the protective layer and absorbs the dynamic impact of bullets or shrapnel.
 basePrice=58089
 width=2
 height=2
-avg24hPrice=44106
+avg24hPrice=42948
 low24hPrice=37000
-lastOfferCount=14
+lastOfferCount=26
 Sell_Fence=23235
 Sell_Skier=28463
 Sell_Peacekeeper=220
 Sell_Ragman=36015
-Sell_Flea Market=40000
+Sell_Flea Market=37777
 weight=3.700000
-fleaMarketFee=3075
+fleaMarketFee=3060
 propertiestype=ItemPropertiesHelmet

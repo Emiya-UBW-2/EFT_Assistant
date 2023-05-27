@@ -2,6 +2,7 @@ IDstr=5df8ce05b11454561e39243b
 Name=Knight's Armament Company SR-25 7.62x51 marksman rifle
 ShortName=SR-25
 Itemtype=Marksman rifle
+SightRange=100
 ChildParts=[
 	AR-15 Colt A2 pistol grip/|
 	AR-15 Damage Industries ECS pistol grip (FDE)/|

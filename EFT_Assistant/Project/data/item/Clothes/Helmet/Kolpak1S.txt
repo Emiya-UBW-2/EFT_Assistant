@@ -2,24 +2,18 @@ IDstr=59e7711e86f7746cae05fbe1
 Name=Kolpak-1S riot helmet
 ShortName=K-1S
 Itemtype=Headwear
-Conflict=[
-	Faceless mask/|
-	GP-5 gas mask/|
-	Tagilla's welding mask "Gorilla"/|
-	Tagilla's welding mask "UBEY"/|
-]
 Information_Eng=Kolpak-1S protects the head from the cold piercing-cutting weapons in a special class of protection GOST R50744-95, from fragmentation with an energy of impact up to 50 J, and also serves to reduce the dynamic loads arising from the above-mentioned means of destruction. Kolpak-1 protective helmets are recommended by the Interdepartmental Commission for equipping units of the patrol service, traffic police, OMON and other special units of the Ministry of Internal Affairs of Russia.
 basePrice=7330
 width=2
 height=2
-avg24hPrice=14629
+avg24hPrice=7715
 low24hPrice=6000
-lastOfferCount=4
+lastOfferCount=1
 Sell_Fence=2932
 Sell_Skier=3591
 Sell_Peacekeeper=28
 Sell_Ragman=4544
-Sell_Flea Market=6000
+Sell_Flea Market=9000
 weight=1.900000
-fleaMarketFee=402
+fleaMarketFee=493
 propertiestype=ItemPropertiesHelmet

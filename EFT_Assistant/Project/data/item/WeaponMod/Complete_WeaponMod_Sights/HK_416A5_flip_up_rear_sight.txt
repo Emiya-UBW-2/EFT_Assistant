@@ -2,12 +2,7 @@ IDstr=5bb20e49d4351e3bac1212de
 Name=HK 416A5 flip-up rear sight
 ShortName=416A5 RS
 Itemtype=Ironsight
-SightRange=300
-Conflict=[
-	KMZ 1P69 Weaver mount/|
-	ASh-12 rear sight carry handle/|
-	VOMZ Pilad 4x32 24.5mm riflescope/|
-]
+SightRange=0
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A removable folding rear sight for HK 416A5.

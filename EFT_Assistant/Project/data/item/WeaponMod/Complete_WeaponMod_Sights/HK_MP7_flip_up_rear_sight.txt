@@ -2,20 +2,15 @@ IDstr=5ba26b17d4351e00367f9bdd
 Name=HK MP7 flip-up rear sight
 ShortName=MP7 RS
 Itemtype=Ironsight
-SightRange=300
-Conflict=[
-	KMZ 1P69 Weaver mount/|
-	ASh-12 rear sight carry handle/|
-	VOMZ Pilad 4x32 24.5mm riflescope/|
-]
+SightRange=0
 Recoil=0.000000
 Ergonomics=0.000000
 Information_Eng=A removable folding flip-up rear sight for MP7 SMGs. Manufactured by Heckler & Koch.
 basePrice=803
 width=1
 height=1
-avg24hPrice=1000
-low24hPrice=1000
+avg24hPrice=0
+low24hPrice=0
 lastOfferCount=1
 Sell_Prapor=401
 Sell_Fence=321

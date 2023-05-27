@@ -2,6 +2,7 @@ IDstr=5ab8e9fcd8ce870019439434
 Name=Kalashnikov AKS-74N 5.45x39 assault rifle
 ShortName=AKS-74N
 Itemtype=Assault rifle
+SightRange=100
 ChildParts=[
 	AK Kiba Arms VDM CS gas tube/|
 	AK-74 gas tube (6P20 Sb.1-2)/|
@@ -109,24 +110,21 @@ ChildParts=[
 	AK CSS knurled charging handle/|
 	AK Zenit RP-1 charging handle
 ]
-Conflict=[
-	Hera Arms CQR tactical foregrip/|
-]
 Recoil=119.000000
 Ergonomics=32.000000
 Information_Eng=AKS-74N (Avtomat Kalashnikova Skladnoy 74 Nochnoy - "Kalashnikov's Automatic rifle 74 Night with foldable stock") 5.45x39mm assault rifle equipped with a side-folding metal shoulder stock, designed primarily for use with air assault infantry. The key design difference from the standard AKS-74 is a side dovetail mount for optical and night scopes.
 basePrice=25490
 width=4
 height=1
-avg24hPrice=39055
-low24hPrice=34999
+avg24hPrice=43096
+low24hPrice=32000
 lastOfferCount=3
 Sell_Prapor=12745
 Sell_Fence=10196
 Sell_Skier=12490
 Sell_Peacekeeper=96
 Sell_Mechanic=14274
-Sell_Flea Market=34999
+Sell_Flea Market=38000
 weight=2.092000
-fleaMarketFee=1868
+fleaMarketFee=2006
 propertiestype=ItemPropertiesWeapon

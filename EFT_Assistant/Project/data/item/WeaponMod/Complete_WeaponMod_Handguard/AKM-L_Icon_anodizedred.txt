@@ -13,24 +13,21 @@ ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount
 ]
-Conflict=[
-	AK Zenit B-33 dust cover/|
-]
 Recoil=0.000000
 Ergonomics=6.000000
 Information_Eng=The TDI Arms AKM-L can be installed on AKM/AK-74 compatible weapon systems. Equipped with M-LOK mounts for installation of additional devices or rails. Anodized Red version.
 basePrice=27800
 width=1
 height=1
-avg24hPrice=24835
-low24hPrice=19900
-lastOfferCount=5
+avg24hPrice=27137
+low24hPrice=18888
+lastOfferCount=7
 Sell_Prapor=13900
 Sell_Fence=11120
 Sell_Skier=13622
 Sell_Peacekeeper=105
 Sell_Mechanic=15568
-Sell_Flea Market=19900
+Sell_Flea Market=37500
 weight=0.221000
-fleaMarketFee=1479
+fleaMarketFee=2008
 propertiestype=ItemPropertiesWeaponMod

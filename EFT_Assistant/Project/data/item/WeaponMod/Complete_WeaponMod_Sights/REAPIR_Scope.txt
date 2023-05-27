@@ -2,7 +2,7 @@ IDstr=5a1eaa87fcdbcb001865f75e
 Name=Trijicon REAP-IR thermal scope
 ShortName=REAP-IR
 Itemtype=Special scope
-SightRange=500
+SightRange=0
 ChildParts=[
 	Trijicon REAP-IR scope eyecup
 ]

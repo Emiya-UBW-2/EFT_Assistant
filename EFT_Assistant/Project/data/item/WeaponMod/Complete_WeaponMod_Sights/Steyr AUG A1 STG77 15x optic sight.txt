@@ -2,6 +2,7 @@ IDstr=62ea7c793043d74a0306e19f
 Name=Steyr AUG A1 STG77 1.5x optic sight
 ShortName=STG77 1.5x
 Itemtype=Assault scope
+SightRange=0
 ChildParts=[
 	Steyr AUG A1 5.56x45 20 inch barrel/|
 	Steyr AUG A3 5.56x45 16 inch barrel/|

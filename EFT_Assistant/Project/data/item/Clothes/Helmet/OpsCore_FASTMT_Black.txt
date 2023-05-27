@@ -2,11 +2,6 @@ IDstr=5a154d5cfcdbcb001a3b00da
 Name=Ops-Core FAST MT Super High Cut helmet (Black)
 ShortName=FAST MT
 Itemtype=Headwear
-Conflict=[
-	Faceless mask/|
-	Tagilla's welding mask "Gorilla"/|
-	Tagilla's welding mask "UBEY"/|
-]
 Information_Eng=The Ops-Core FAST ballistic helmet is popular in special forces all around the world. Can be modified with different components. Black version.
 basePrice=130976
 width=2

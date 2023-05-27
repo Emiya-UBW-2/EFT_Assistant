@@ -2,6 +2,7 @@ IDstr=6165ac306ef05c2ce828ef74
 Name=FN SCAR-H 7.62x51 assault rifle (FDE)
 ShortName=Mk 17
 Itemtype=Assault rifle
+SightRange=100
 ChildParts=[
 	AR-15 Colt A2 pistol grip/|
 	AR-15 Damage Industries ECS pistol grip (FDE)/|

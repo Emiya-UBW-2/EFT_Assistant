@@ -2,6 +2,7 @@ IDstr=628a60ae6b1d481ff772e9c8
 Name=Rifle Dynamics RD-704 7.62x39 assault rifle
 ShortName=RD-704
 Itemtype=Assault rifle
+SightRange=100
 ChildParts=[
 	RD-704 SLR ION Lite + Railed Gas Tube handguard & gas tube combo
 ]

@@ -2,12 +2,6 @@ IDstr=5a43943586f77416ad2f06e2
 Name=Ded Moroz hat
 ShortName=Hat
 Itemtype=Headwear
-Conflict=[
-	Ghoul mask/|
-	Pestily plague mask/|
-	Tagilla's welding mask "Gorilla"/|
-	Tagilla's welding mask "UBEY"/|
-]
 Information_Eng=A headpiece of the famous Ded Moroz ("Grandfather Frost"). A traditional Russian hat, if you want to get hammered hardcore style in the New Year's Eve.
 basePrice=500
 width=1

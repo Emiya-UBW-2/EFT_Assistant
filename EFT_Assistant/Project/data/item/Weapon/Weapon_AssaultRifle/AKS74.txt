@@ -2,6 +2,7 @@ IDstr=5bf3e0490db83400196199af
 Name=Kalashnikov AKS-74 5.45x39 assault rifle
 ShortName=AKS-74
 Itemtype=Assault rifle
+SightRange=100
 ChildParts=[
 	AK Kiba Arms VDM CS gas tube/|
 	AK-74 gas tube (6P20 Sb.1-2)/|
@@ -91,24 +92,21 @@ ChildParts=[
 	AK CSS knurled charging handle/|
 	AK Zenit RP-1 charging handle
 ]
-Conflict=[
-	Hera Arms CQR tactical foregrip/|
-]
 Recoil=120.000000
 Ergonomics=31.000000
 Information_Eng=The AKS-74 (Avtomat Kalashnikova Skladnoy 74 - "Kalashnikov's Automatic rifle 74 with a foldable stock") 5.45x39mm assault rifle is a variant of AK-74 equipped with a side-folding metal shoulder stock, designed primarily for use with air assault infantry and developed alongside the basic AK-74. The AKS-74 stock is fabricated from stamped sheet metal struts, machine pressed into a "U" shape and assembled by punch fit and welding.
 basePrice=23660
 width=4
 height=1
-avg24hPrice=22656
-low24hPrice=18999
-lastOfferCount=24
+avg24hPrice=22500
+low24hPrice=18555
+lastOfferCount=10
 Sell_Prapor=11830
 Sell_Fence=9464
 Sell_Skier=11593
 Sell_Peacekeeper=89
 Sell_Mechanic=13249
-Sell_Flea Market=19000
+Sell_Flea Market=21000
 weight=1.992000
-fleaMarketFee=1291
+fleaMarketFee=1338
 propertiestype=ItemPropertiesWeapon

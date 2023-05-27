@@ -113,7 +113,7 @@ namespace FPS_n2 {
 					if (TaskDataRequest(20 * count, 20, strResult)) {
 						ProcessMessage();
 						auto data = nlohmann::json::parse(strResult);
-						TaskData::Instance()->GetJsonData(data);
+						TaskData::Instance()->GetDataJson(data, "tasks");
 						TaskData::Instance()->SaveDatabyJson();
 						if (data["data"]["tasks"].size() != 20) {
 							break;
@@ -132,8 +132,9 @@ namespace FPS_n2 {
 					if (HideoutDataRequest(20 * count, 20, strResult)) {
 						ProcessMessage();
 						auto data = nlohmann::json::parse(strResult);
-						HideoutData::Instance()->GetJsonData(data);
-						HideoutData::Instance()->SaveDatabyJson();
+						HideoutData::Instance()->GetDataJson(data, "hideoutStations");
+						HideoutData::Instance()->UpdateData();
+						HideoutData::Instance()->SaveAsNewData("data/Hideout/Maked/Maked");
 						if (data["data"]["hideoutStations"].size() != 20) {
 							break;
 						}
@@ -151,8 +152,9 @@ namespace FPS_n2 {
 					if (TraderDataRequest(2 * count, 2, strResult)) {
 						ProcessMessage();
 						auto data = nlohmann::json::parse(strResult);
-						TraderData::Instance()->GetJsonData(data);
-						TraderData::Instance()->SaveDatabyJson();
+						TraderData::Instance()->GetDataJson(data, "traders");
+						TraderData::Instance()->UpdateData();
+						TraderData::Instance()->SaveAsNewData("data/trader/Maked");
 						if (data["data"]["traders"].size() != 2) {
 							break;
 						}

@@ -2,6 +2,7 @@ IDstr=579204f224597773d619e051
 Name=Makarov PM (t) 9x18PM pistol
 ShortName=PM (t)
 Itemtype=Handgun
+SightRange=100
 ChildParts=[
 	PM 9x18PM 84-round makeshift drum magazine/|
 	PM 9x18PM 90-93 8-round magazine
@@ -19,15 +20,15 @@ Information_Eng=A semi-mythical Makarov pistol with an extended threaded barrel 
 basePrice=8517
 width=2
 height=1
-avg24hPrice=71916
+avg24hPrice=85866
 low24hPrice=30000
-lastOfferCount=2
+lastOfferCount=18
 Sell_Prapor=4258
 Sell_Fence=3406
 Sell_Skier=4173
 Sell_Peacekeeper=32
 Sell_Mechanic=4769
-Sell_Flea Market=99998
+Sell_Flea Market=59000
 weight=0.690000
-fleaMarketFee=13382
+fleaMarketFee=5665
 propertiestype=ItemPropertiesWeapon

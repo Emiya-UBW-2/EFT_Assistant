@@ -2,24 +2,19 @@ IDstr=5e023e88277cce2b522ff2b1
 Name=7.62x51mm Ultra Nosler
 ShortName=Ultra Nosler
 Itemtype=Ammo
-Conflict=[
-	AI AXMC .338 LM 28 inch barrel/|
-	AI AXMC .338 LM bolt assembly/|
-	AI AXMC .338 LM 10-round magazine/|
-]
 Information_Eng=A 7.62x51mm Ultra Nosler cartridge with a 10.6 gram soft-point bullet with two lead cores separated by a solid partition fused to the copper semi-jacketed, in a steel case; intended for hunting, and target practice. Thanks to its design, this cartridge provides one of the best energy transference of its caliber, being able to cause severe adverse effects on the target after impact due to the rear core, thus offering an outstanding stopping power effect.
 basePrice=320
 width=1
 height=1
-avg24hPrice=406
-low24hPrice=406
+avg24hPrice=703
+low24hPrice=1000
 lastOfferCount=1
 Sell_Prapor=160
 Sell_Fence=128
 Sell_Skier=156
 Sell_Peacekeeper=1
 Sell_Mechanic=179
-Sell_Flea Market=406
+Sell_Flea Market=1000
 weight=0.021000
-fleaMarketFee=22
+fleaMarketFee=62
 propertiestype=ItemPropertiesAmmo
