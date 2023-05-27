@@ -9,6 +9,7 @@ namespace FPS_n2 {
 		bool														m_IsNeedItem{ true };//タスクに必要なアイテムを省くか否か
 		bool														m_IsCheckOpenCraft{ true };
 		bool														m_IsCheckTask{ true };
+		bool														m_DrawCanClearTask{ false };
 		WindowSystem::ScrollBoxClass	m_Scroll;
 		float							m_YNow{ 0.f };
 	private:
@@ -37,7 +38,7 @@ namespace FPS_n2 {
 				if (m_IsCheckTask) {
 					for (const auto& tasks : TaskData::Instance()->GetList()) {
 						bool IsChecktask = true;
-						if (PlayerData::Instance()->GetIsNeedKappa()) {//河童必要タスクだけ書く
+						if (IsChecktask && PlayerData::Instance()->GetIsNeedKappa()) {//河童必要タスクだけ書く
 							if (!tasks.GetTaskNeedData().GetKappaRequired()) {
 								IsChecktask = false;
 							}
@@ -47,16 +48,26 @@ namespace FPS_n2 {
 								}
 							}
 						}
-						if (PlayerData::Instance()->GetIsNeedLightKeeper()) {//ライトキーパー
+						if (IsChecktask && PlayerData::Instance()->GetIsNeedLightKeeper()) {//ライトキーパー
 							if (!tasks.GetTaskNeedData().GetLightKeeperRequired()) {
 								IsChecktask = false;
 							}
 						}
-						if (PlayerData::Instance()->GetMaxLevel() < tasks.GetTaskNeedData().GetLevel()) {//最大レベル
+						if (IsChecktask && PlayerData::Instance()->GetMaxLevel() < tasks.GetTaskNeedData().GetLevel()) {//最大レベル
 							IsChecktask = false;
 						}
-						if (PlayerData::Instance()->GetTaskClear(tasks.GetName().c_str())) {
+						if (IsChecktask && PlayerData::Instance()->GetTaskClear(tasks.GetName().c_str())) {
 							IsChecktask = false;
+						}
+						if (IsChecktask && m_DrawCanClearTask) {//クリアできるタスクだけ表示
+							if (tasks.GetTaskNeedData().GetParenttaskID().size() > 0) {
+								for (const auto& p : tasks.GetTaskNeedData().GetParenttaskID()) {
+									if (!PlayerData::Instance()->GetTaskClear(TaskData::Instance()->FindPtr(p.GetParenttaskID())->GetName().c_str())) {
+										IsChecktask = false;
+										break;
+									}
+								}
+							}
 						}
 						if (!IsChecktask) { continue; }
 						for (const auto& w : tasks.GetTaskWorkData().GetFiR_Item()) {
@@ -160,7 +171,7 @@ namespace FPS_n2 {
 					int ypBase = ypos - (int)m_YNow;
 					int xp = xpBase;
 					int yp = ypBase;
-					int ypMax = (y_r(1080) - y_r(200));
+					int ypMax = (y_r(1080) - y_r(240));
 					int xsize = (int)((float)y_r(600));
 					int ysize = (int)((float)y_r(64));
 					int xsizeAdd = xsize + y_r(30);
@@ -177,12 +188,12 @@ namespace FPS_n2 {
 											if (ypos - 1 < yp && yp < ypMax - ysizeAdd + 1) {
 												DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255);
 												ptr->Draw(xp, yp, xsize, ysize, (c.count >= 2) ? c.count : 0, Gray15, !WindowMngr->PosHitCheck(nullptr), c.isFir, false, false);
-
-												//ハイドアウトクラフト
+												//サイド描画
 												int xp2 = xp + xsizeAdd + y_r(10);
 												int yp2 = yp;
 												int xsize2 = ysize / 2;
 												int ysize2 = ysize / 2 - y_r(3);
+												//ハイドアウトクラフト
 												if (m_IsCheckCraft) {
 													for (const auto&L : HideoutData::Instance()->GetList()) {
 														for (const auto& Ld : L.GetLvData()) {
@@ -223,8 +234,7 @@ namespace FPS_n2 {
 													}
 												}
 												//交換
-												if (m_IsCheckBarter) {
-													//ハイドアウトクラフト素材
+												if (m_IsCheckBarter && !c.isFir) {
 													for (auto&L : TraderData::Instance()->SetList()) {
 														for (const auto& Ld : L.GetLvData()) {
 															int Lv = (int)(&Ld - &L.GetLvData().front()) + 1;
@@ -295,7 +305,14 @@ namespace FPS_n2 {
 			//タスクに必要なアイテム(サプレッサーなど)を追加
 			{
 				int xp = y_r(48);
-				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(42) - y_r(42) - y_r(42);
+				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(42) * 4;
+				WindowSystem::CheckBox(xp, yp, &m_DrawCanClearTask);
+				WindowSystem::SetMsg(xp + y_r(64), yp, xp + y_r(64), yp + LineHeight, LineHeight, STRX_LEFT, White, Black, "今クリア可能なタスク対象のみ表示");
+			}
+			//タスクに必要なアイテム(サプレッサーなど)を追加
+			{
+				int xp = y_r(48);
+				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(42) * 3;
 				WindowSystem::CheckBox(xp, yp, &m_IsNeedItem);
 				WindowSystem::SetMsg(xp + y_r(64), yp, xp + y_r(64), yp + LineHeight, LineHeight, STRX_LEFT, White, Black, "タスクに必要なアイテム(サプ等)を追加");
 			}
@@ -303,7 +320,7 @@ namespace FPS_n2 {
 			{
 				auto tmp = PlayerData::Instance()->GetIsNeedLightKeeper();
 				int xp = y_r(48);
-				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(42) - y_r(42);
+				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(42) * 2;
 				WindowSystem::CheckBox(xp, yp, &tmp);
 				WindowSystem::SetMsg(xp + y_r(64), yp, xp + y_r(64), yp + LineHeight, LineHeight, STRX_LEFT, White, Black, "ライトキーパー開放までに絞る");
 				if (tmp) {
@@ -315,7 +332,7 @@ namespace FPS_n2 {
 			{
 				auto tmp = PlayerData::Instance()->GetIsNeedKappa();
 				int xp = y_r(48);
-				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(42);
+				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(42) * 1;
 				WindowSystem::CheckBox(xp, yp, &tmp);
 				WindowSystem::SetMsg(xp + y_r(64), yp, xp + y_r(64), yp + LineHeight, LineHeight, STRX_LEFT, White, Black, "カッパー開放までに絞る");
 				if (tmp) {
@@ -326,7 +343,7 @@ namespace FPS_n2 {
 			//レベル操作
 			{
 				int xp = y_r(5);
-				int yp = y_r(1080) - y_r(48) - y_r(5);
+				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(42) * 0;
 				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(100), yp + y_r(48), true, true, Red, "DOWN")) {
 					PlayerData::Instance()->SetMaxLevel(PlayerData::Instance()->GetMaxLevel() - 1);
 				}

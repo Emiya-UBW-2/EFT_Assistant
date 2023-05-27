@@ -1,0 +1,35 @@
+IDstr=5979ed3886f77431307dc512
+Name=What’s on the Flash Drive?
+Trader=Skier
+
+NeedTask=The Extortionist
+NeedLevel=8
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+NeedItem=Secure Flash drivex2
+Task_FiR_HandOver=[Secure Flash drivex2]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Find Secure Flash drives in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the Flash drives
+	TaskOptional=false
+]
+
+Reward_Rep=Skier+0.040000
+Reward_Item=[
+	Roublesx30000/|
+	Simonov OP-SKS 7.62x39 carbine (Hunting Rifle Version) UASx1/|
+	SKS 7.62x39 ProMag SKS-A5 20-round magazinex2/|
+	SKS Hexagon 7.62x39 sound suppressorx1
+]
+
+Reward_EXP=4500

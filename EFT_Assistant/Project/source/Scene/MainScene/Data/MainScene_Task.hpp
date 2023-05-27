@@ -8,7 +8,7 @@ namespace FPS_n2 {
 				std::string								m_Parenttask;
 				TaskID									m_ParenttaskID{ InvalidID };
 			public:
-				void	SetParentName(const char* value) noexcept { m_Parenttask = value; }
+				void	SetParentName(std::string_view value) noexcept { m_Parenttask = value; }
 				const auto& GetParenttaskID() const noexcept { return m_ParenttaskID; }
 				void		SetNeedTasktoID(const std::vector<TaskList>& taskList) noexcept {
 					for (const auto& t : taskList) {
@@ -45,7 +45,7 @@ namespace FPS_n2 {
 				}
 				else if (LEFT == "NeedTask") {
 					this->m_Parenttask.resize(this->m_Parenttask.size() + 1);
-					this->m_Parenttask.back().SetParentName(RIGHT.c_str());
+					this->m_Parenttask.back().SetParentName(RIGHT);
 				}
 				else if (LEFT == "NeedLevel") {
 					this->m_Level = std::stoi(RIGHT);
@@ -961,9 +961,6 @@ namespace FPS_n2 {
 					SetList((Path + d.cFileName + "/").c_str());
 				}
 			}
-			for (auto& t : m_List) {
-				t.SetNeedTasktoID(m_List);
-			}
 			for (auto& i : ItemData::Instance()->SetList()) {
 				i.ResetTaskUseID();
 				for (const auto& t : m_List) {
@@ -987,8 +984,15 @@ namespace FPS_n2 {
 		}
 		~TaskData() noexcept {}
 	private:
+		
+	private:
 		std::vector<int> TraderIDs;
 	public:
+		void			SetNeedTasktoID() noexcept {
+			for (auto& t : m_List) {
+				t.SetNeedTasktoID(m_List);
+			}
+		}
 		void InitDatabyJson() noexcept {
 			TraderIDs.resize(TraderData::Instance()->GetList().size());
 			for (auto&i : TraderIDs) { i = 0; }
@@ -1052,7 +1056,6 @@ namespace FPS_n2 {
 				}
 			}
 		}
-
 		void CheckThroughJson(void) noexcept {
 			for (auto& t : m_List) {
 				if (t.m_CheckJson == 0) {

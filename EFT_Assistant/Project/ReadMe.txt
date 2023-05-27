@@ -40,6 +40,8 @@ EFT Assistant　ver0.3.2
 	・Scavの服早見表
 	トレーダー
 	・アイテムリストへの反映
+	バグ
+	・ShiftJISでのコードなので[What’s on the Flash Drive?]でバグる(表示のみ)
 
 操作
 ・左ボタンでタスクやレベル、折りたたみボタン等のクリック操作

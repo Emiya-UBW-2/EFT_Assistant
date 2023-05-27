@@ -51,7 +51,6 @@ namespace FPS_n2 {
 			SetUseASyncLoadFlag(TRUE);
 			ItemCategoryData::Instance()->LoadList(false);
 			ItemTypeData::Instance()->LoadList(false);
-
 			PresetData::Instance()->LoadList(false);
 #ifdef DEBUG
 			ItemData::Instance()->LoadList(true);
@@ -63,6 +62,7 @@ namespace FPS_n2 {
 			TraderData::Instance()->LoadList(false);
 			MapData::Instance()->LoadList(false);
 			TaskData::Instance()->LoadList(false);
+			TaskData::Instance()->SetNeedTasktoID();
 #ifdef DEBUG
 			HideoutData::Instance()->LoadList(true);
 #else

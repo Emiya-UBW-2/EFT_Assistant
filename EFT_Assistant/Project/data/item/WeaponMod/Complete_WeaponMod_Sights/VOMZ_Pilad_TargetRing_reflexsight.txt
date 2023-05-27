@@ -10,9 +10,9 @@ It is mounted only on smoothbore (shotgun) weapons.
 basePrice=8767
 width=1
 height=1
-avg24hPrice=11186
+avg24hPrice=11201
 low24hPrice=8888
-lastOfferCount=3
+lastOfferCount=5
 Sell_Prapor=4383
 Sell_Fence=3506
 Sell_Skier=4295

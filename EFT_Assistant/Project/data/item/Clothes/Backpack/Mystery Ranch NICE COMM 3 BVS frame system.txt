@@ -8,13 +8,13 @@ An extremely rare thing, for which a real hunt is conducted in Tarkov.
 basePrice=350000
 width=4
 height=5
-avg24hPrice=216999
+avg24hPrice=222419
 low24hPrice=216980
-lastOfferCount=4
+lastOfferCount=22
 Sell_Fence=140000
 Sell_Ragman=217000
 Sell_Jaeger=210000
-Sell_Flea Market=216999
+Sell_Flea Market=217888
 weight=15.000000
-fleaMarketFee=18415
+fleaMarketFee=18416
 propertiestype=ItemPropertiesBackpack
