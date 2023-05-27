@@ -2,6 +2,40 @@
 
 namespace FPS_n2 {
 	//
+	const int		TaskList::Draw(int xp, int yp, int xsize, int ysize) const noexcept {
+		auto* WindowMngr = WindowSystem::WindowManager::Instance();
+		auto* Input = InputControl::Instance();
+
+		bool IsClearTask = PlayerData::Instance()->GetTaskClear(this->GetName().c_str());
+		auto* ptr = TraderData::Instance()->FindPtr(this->GetTrader());
+		auto color = ptr->GetColors(0);
+		//
+		if (IsClearTask) {
+			color = ptr->GetColors(-150);
+		}
+		if (WindowSystem::ClickCheckBox(xp, yp, xp + xsize, yp + ysize, false, !WindowMngr->PosHitCheck(nullptr), color, this->GetName())) {
+			if (Input->GetSpaceKey().press()) {
+				PlayerData::Instance()->OnOffTaskClear(this->GetName().c_str());
+			}
+			else {
+				auto sizeXBuf = y_r(800);
+				auto sizeYBuf = y_r(0);
+				this->DrawWindow(nullptr, 0, 0, &sizeXBuf, &sizeYBuf);//試しにサイズ計測
+				//
+				signed long long FreeID = this->GetID();
+				WindowMngr->Add()->Set(xp + xsize / 2 - sizeXBuf / 2, yp, sizeXBuf, sizeYBuf, 0, this->GetName().c_str(), false, true, FreeID, [&](WindowSystem::WindowControl* win) {
+					TaskData::Instance()->FindPtr((TaskID)win->m_FreeID)->DrawWindow(win, win->GetPosX(), win->GetPosY());
+				});
+			}
+		}
+		if (IsClearTask) {
+			DrawControl::Instance()->SetDrawRotaFiR(DrawLayer::Normal, xp + xsize / 2, yp + ysize / 2, (float)(yp) / (float)(LineHeight), 0.f, true);
+		}
+
+
+		return xsize;
+	}
+	//
 	void TaskJsonData::GetJsonSub(const nlohmann::json& data) noexcept {
 		{
 			std::string buf = data["trader"]["name"];

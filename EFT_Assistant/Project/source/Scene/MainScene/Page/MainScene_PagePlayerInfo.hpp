@@ -67,6 +67,27 @@ namespace FPS_n2 {
 				WindowSystem::SetMsg(xpos, ypos, xpos, ypos + LineHeight, LineHeight, STRX_LEFT, White, Black, "プレイヤーデータ");
 				ypos += LineHeight + y_r(15);
 			}
+			//エディション操作
+			{
+				int col = 1;
+				auto Base = (int)PlayerData::Instance()->GetEdition();
+				int xp = xpos + y_r(24);
+				if (WindowSystem::ClickCheckBox(xp, ypos, xp + y_r(100), ypos + y_r(48), true, true, Red, "DOWN")) {
+					Base--;
+				}
+				xp += y_r(105);
+				if (WindowSystem::ClickCheckBox(xp, ypos, xp + y_r(100), ypos + y_r(48), true, true, Green, "UP")) {
+					Base++;
+				}
+				Base = std::clamp(Base, (int)EnumEdition::STANDARD, (int)EnumEdition::EDGE_OF_DARKNESS);
+				col = std::clamp(255 - 255 * Base / ((int)EnumEdition::EDGE_OF_DARKNESS), 1, 255);
+				PlayerData::Instance()->SetEdition((EnumEdition)Base);
+				xp += y_r(105);
+				WindowSystem::SetMsg(xp, ypos + y_r(12), xp, ypos + y_r(12) + y_r(36), y_r(36), STRX_LEFT, White, Black, "エディション");
+				xp += y_r(300);
+				WindowSystem::SetMsg(xp, ypos, xp, ypos + y_r(48), y_r(48), STRX_LEFT, GetColor(col, col, col), GetColor(256 - col, 256 - col, 256 - col), "%s", EnumEditionStr[(int)PlayerData::Instance()->GetEdition()]);
+				ypos += y_r(48);
+			}
 			//陣営
 			{
 				auto tmp = PlayerData::Instance()->GetIsUSEC();

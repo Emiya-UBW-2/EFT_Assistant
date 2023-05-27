@@ -33,6 +33,7 @@ namespace FPS_n2 {
 						m_LLSelect = index;
 					}
 				}
+				m_LLSelect = std::min(m_LLSelect, (int)(ptr->GetLvData().size()) - 1);
 				{
 					int xp = y_r(460);
 					int yp = LineHeight + y_r(50) + y_r(100);

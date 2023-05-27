@@ -46,8 +46,6 @@ namespace FPS_n2 {
 		bool							m_DrawCanClearTask{ false };
 	private:
 		void DrawChildTaskClickBox(float Scale, TaskID ParentID, int start_x, int start_y, int xp, int yp, int xs, int ys, bool parentCanDo = true) noexcept {
-			auto* WindowMngr = WindowSystem::WindowManager::Instance();
-			auto* Input = InputControl::Instance();
 			if (ParentID == InvalidID) {
 				m_posxMaxBuffer = 0;
 				m_posyMaxBuffer = 0;
@@ -69,29 +67,18 @@ namespace FPS_n2 {
 				}
 
 				if (IsTrue) {
-					auto* ptr = TraderData::Instance()->FindPtr(tasks.GetTrader());
 					auto parentCanDo_t = parentCanDo;
-					auto color = ptr->GetColors(0);
 					//信頼度チェック
-					if (
-						(
-							(PlayerData::Instance()->GetMaxLevel() < tasks.GetTaskNeedData().GetLevel()) ||
-							(PlayerData::Instance()->GetIsNeedKappa() ? !tasks.GetTaskNeedData().GetKappaRequired() : false) ||
-							(PlayerData::Instance()->GetIsNeedLightKeeper() ? !tasks.GetTaskNeedData().GetLightKeeperRequired() : false)
-						) || !parentCanDo) {
-						color = ptr->GetColors(-150);
+					if (parentCanDo_t && (
+						(PlayerData::Instance()->GetMaxLevel() < tasks.GetTaskNeedData().GetLevel()) ||
+						(PlayerData::Instance()->GetIsNeedKappa() ? !tasks.GetTaskNeedData().GetKappaRequired() : false) ||
+						(PlayerData::Instance()->GetIsNeedLightKeeper() ? !tasks.GetTaskNeedData().GetLightKeeperRequired() : false)
+						)) {
 						parentCanDo_t = false;
 						continue;
 					}
-					if (PlayerData::Instance()->GetTaskClear(tasks.GetName().c_str())) {
-						color = ptr->GetColors(-150);
-					}
 					if (ParentID != InvalidID) {
 						auto XAddLine = (int)((float)y_r(25) * Scale);
-						//
-						//DrawControl::Instance()->SetDrawLine(DrawLayer::Back, start_x, start_y, xp, yp + ys / 2, Black, (int)(15.f * Scale));
-						//DrawControl::Instance()->SetDrawLine(DrawLayer::Back2, start_x, start_y, xp, yp + ys / 2, Red, (int)(5.f * Scale));
-
 						if (Scale > 0.6f) {
 							DrawControl::Instance()->SetDrawLine(DrawLayer::Back, start_x, start_y, start_x + XAddLine, start_y, Black, (int)(15.f * Scale));
 							DrawControl::Instance()->SetDrawLine(DrawLayer::Back, start_x + XAddLine, start_y, xp - XAddLine, yp + ys / 2, Black, (int)(15.f * Scale));
@@ -122,24 +109,7 @@ namespace FPS_n2 {
 							}
 						}
 					}
-					if (WindowSystem::ClickCheckBox(xp, yp, xp + xs, yp + ys, false, !WindowMngr->PosHitCheck(nullptr), color, (Scale > 0.2f) ? tasks.GetName() : "")) {
-						if (Input->GetSpaceKey().press()) {
-							PlayerData::Instance()->OnOffTaskClear(tasks.GetName().c_str());
-						}
-						else {
-							auto sizeXBuf = y_r(800);
-							auto sizeYBuf = y_r(0);
-							tasks.DrawWindow(nullptr, 0, 0, &sizeXBuf, &sizeYBuf);//試しにサイズ計測
-							//
-							signed long long FreeID = tasks.GetID();
-							WindowMngr->Add()->Set(xp + xs / 2 - sizeXBuf / 2, yp, sizeXBuf, sizeYBuf, 0, tasks.GetName().c_str(), false, true, FreeID, [&](WindowSystem::WindowControl* win) {
-								TaskData::Instance()->FindPtr((TaskID)win->m_FreeID)->DrawWindow(win, win->GetPosX(), win->GetPosY());
-							});
-						}
-					}
-					if (PlayerData::Instance()->GetTaskClear(tasks.GetName().c_str())) {
-						DrawControl::Instance()->SetDrawRotaFiR(DrawLayer::Normal, xp + xs / 2, yp + ys / 2, 3.f*Scale, 0.f, true);
-					}
+					tasks.Draw(xp, yp, xs, ys);
 					int suby = ys;
 					m_posxMaxBuffer = std::max(m_posxMaxBuffer, xp + xs);
 					m_posyMaxBuffer = std::max(m_posyMaxBuffer, yp + ys + suby);
@@ -205,7 +175,6 @@ namespace FPS_n2 {
 		}
 		void Draw_Back_Sub(int posx, int posy, float Scale) noexcept override {
 			auto* WindowMngr = WindowSystem::WindowManager::Instance();
-			auto* Input = InputControl::Instance();
 			switch (m_Mode) {
 			case EnumTaskDrawMode::Tree:
 			{
@@ -394,9 +363,10 @@ namespace FPS_n2 {
 					int ysizeAdd = ysize + y_r(5);
 
 					for (const auto& tasks : TaskData::Instance()->GetList()) {
-						bool IsClearTask = PlayerData::Instance()->GetTaskClear(tasks.GetName().c_str());
 						{
 							bool isHit = false;
+							//クリアチェック
+							bool IsClearTask = PlayerData::Instance()->GetTaskClear(tasks.GetName().c_str());
 							if (m_DrawClearTask) {
 								if (IsClearTask) { isHit = true; }
 							}
@@ -422,9 +392,8 @@ namespace FPS_n2 {
 									(PlayerData::Instance()->GetIsNeedLightKeeper() ? !tasks.GetTaskNeedData().GetLightKeeperRequired() : false)
 									);
 							}
-							if (!isHit) {
-								continue;
-							}
+							//
+							if (!isHit) { continue; }
 						}
 						if (ypos - ysizeAdd < yp && yp < ypMax) {
 							if (ypos - 1 < yp && yp < ypMax - ysizeAdd + 1) {
@@ -438,32 +407,7 @@ namespace FPS_n2 {
 									DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255 - std::clamp(255 * (yp - (ypMax - ysizeAdd)) / ysizeAdd, 0, 255));
 								}
 							}
-							{
-								auto* ptr = TraderData::Instance()->FindPtr(tasks.GetTrader());
-								auto color = ptr->GetColors(0);
-								//
-								if (IsClearTask) {
-									color = ptr->GetColors(-150);
-								}
-								if (WindowSystem::ClickCheckBox(xp, yp, xp + xsize, yp + ysize, false, !WindowMngr->PosHitCheck(nullptr), color, tasks.GetName())) {
-									if (Input->GetSpaceKey().press()) {
-										PlayerData::Instance()->OnOffTaskClear(tasks.GetName().c_str());
-									}
-									else {
-										auto sizeXBuf = y_r(800);
-										auto sizeYBuf = y_r(0);
-										tasks.DrawWindow(nullptr, 0, 0, &sizeXBuf, &sizeYBuf);//試しにサイズ計測
-										//
-										signed long long FreeID = tasks.GetID();
-										WindowMngr->Add()->Set(xp + xsize / 2 - sizeXBuf / 2, yp, sizeXBuf, sizeYBuf, 0, tasks.GetName().c_str(), false, true, FreeID, [&](WindowSystem::WindowControl* win) {
-											TaskData::Instance()->FindPtr((TaskID)win->m_FreeID)->DrawWindow(win, win->GetPosX(), win->GetPosY());
-										});
-									}
-								}
-								if (IsClearTask) {
-									DrawControl::Instance()->SetDrawRotaFiR(DrawLayer::Normal, xp + xsize / 2, yp + ysize / 2, 1.f, 0.f, true);
-								}
-							}
+							tasks.Draw(xp, yp, xsize, ysize);
 						}
 						yp += ysizeAdd;
 					}

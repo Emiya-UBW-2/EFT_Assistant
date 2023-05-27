@@ -4,12 +4,13 @@
 namespace FPS_n2 {
 	class ItemListBG :public BGParent {
 	private:
-		bool														m_IsCheckCraft{ true };//タスクに必要なアイテムを省くか否か
-		bool														m_IsCheckBarter{ true };//タスクに必要なアイテムを省くか否か
-		bool														m_IsNeedItem{ true };//タスクに必要なアイテムを省くか否か
-		bool														m_IsCheckOpenCraft{ true };
-		bool														m_IsCheckTask{ true };
-		bool														m_DrawCanClearTask{ false };
+		bool							m_IsCheckCraft{ true };//タスクに必要なアイテムを省くか否か
+		bool							m_IsCheckBarter{ true };//タスクに必要なアイテムを省くか否か
+		bool							m_IsNeedItem{ true };//タスクに必要なアイテムを省くか否か
+		bool							m_IsCheckOpenCraft{ true };
+		bool							m_IsCheckTask{ true };
+		bool							m_DrawCanClearTask{ false };
+		bool							m_DrawCanClearHideout{ false };
 		WindowSystem::ScrollBoxClass	m_Scroll;
 		float							m_YNow{ 0.f };
 	private:
@@ -139,8 +140,16 @@ namespace FPS_n2 {
 					for (const auto&L : HideoutData::Instance()->GetList()) {
 						for (const auto& Ld : L.GetLvData()) {
 							bool IsChecktask = true;
-							if (PlayerData::Instance()->GetHideoutClear(L.GetName().c_str(), (int)(&Ld - &L.GetLvData().front()) + 1)) {
+							if (IsChecktask && PlayerData::Instance()->GetHideoutClear(L.GetName().c_str(), (int)(&Ld - &L.GetLvData().front()) + 1)) {
 								IsChecktask = false;
+							}
+							if(IsChecktask && m_DrawCanClearHideout){
+								for (const auto& w : Ld.m_Parent) {
+									if (!PlayerData::Instance()->GetHideoutClear(HideoutData::Instance()->FindPtr(w.GetID())->GetName().c_str(), w.GetValue())) {
+										IsChecktask = false;
+										break;
+									}
+								}
 							}
 							if (!IsChecktask) { continue; }
 							for (const auto& w : Ld.m_ItemReq) {
@@ -302,25 +311,72 @@ namespace FPS_n2 {
 			//auto* WindowMngr = WindowSystem::WindowManager::Instance();
 			//auto* Input = InputControl::Instance();
 
-			//タスクに必要なアイテム(サプレッサーなど)を追加
+			//ハイドアウト
 			{
-				int xp = y_r(48);
-				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(42) * 4;
-				WindowSystem::CheckBox(xp, yp, &m_DrawCanClearTask);
-				WindowSystem::SetMsg(xp + y_r(64), yp, xp + y_r(64), yp + LineHeight, LineHeight, STRX_LEFT, White, Black, "今クリア可能なタスク対象のみ表示");
+				//ハイドアウトのみを確認
+				{
+					int xp = y_r(1920) - y_r(48) - y_r(200);
+					int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(40) * 2 - y_r(5) - y_r(40) * 2;
+					WindowSystem::CheckBox(xp, yp, &m_IsCheckOpenCraft);
+					auto size = WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_RIGHT, White, Black, "ハイドアウト開放アイテムを表示:");
+					DrawControl::Instance()->SetDrawLine(DrawLayer::Normal, xp - size, yp + LineHeight, xp + y_r(64), yp + LineHeight, Gray25, y_r(4));
+				}
+				//今開放可能なハイドアウト対象のみ表示
+				{
+					int xp = y_r(1920) - y_r(48) - y_r(200);
+					int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(40) * 2 - y_r(5) - y_r(40) * 1;
+					WindowSystem::CheckBox(xp, yp, &m_DrawCanClearHideout);
+					WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_RIGHT, m_IsCheckOpenCraft ? White : Gray50, Black, "開放可能対象のみ");
+				}
 			}
-			//タスクに必要なアイテム(サプレッサーなど)を追加
+			//タスク
 			{
-				int xp = y_r(48);
-				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(42) * 3;
-				WindowSystem::CheckBox(xp, yp, &m_IsNeedItem);
-				WindowSystem::SetMsg(xp + y_r(64), yp, xp + y_r(64), yp + LineHeight, LineHeight, STRX_LEFT, White, Black, "タスクに必要なアイテム(サプ等)を追加");
+				//タスクのみを確認
+				{
+					int xp = y_r(1920) - y_r(48) - y_r(200);
+					int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(40) * 2;
+					WindowSystem::CheckBox(xp, yp, &m_IsCheckTask);
+					auto size = WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_RIGHT, White, Black, "タスク納品/必要アイテムを表示:");
+					DrawControl::Instance()->SetDrawLine(DrawLayer::Normal, xp - size, yp + LineHeight, xp + y_r(64), yp + LineHeight, Gray25, y_r(4));
+				}
+				//今クリア可能なタスク対象のみ表示
+				{
+					int xp = y_r(1920) - y_r(48) - y_r(200);
+					int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(40) * 1;
+					WindowSystem::CheckBox(xp, yp, &m_DrawCanClearTask);
+					WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_RIGHT, m_IsCheckTask ? White : Gray50, Black, "クリア可能対象のみ");
+				}
+				//タスクに必要なアイテム(サプレッサーなど)を追加
+				{
+					int xp = y_r(1920) - y_r(48) - y_r(200);
+					int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(40) * 0;
+					WindowSystem::CheckBox(xp, yp, &m_IsNeedItem);
+					WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_RIGHT, m_IsCheckTask ? White : Gray50, Black, "必要品(鍵など)を追加");
+				}
 			}
+			//サイド表示
+			{
+				//ハイドアウトクラフトを確認
+				{
+					int xp = y_r(48);
+					int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(40) * 4;
+					WindowSystem::CheckBox(xp, yp, &m_IsCheckCraft);
+					WindowSystem::SetMsg(xp + y_r(64), yp, xp + y_r(64), yp + LineHeight, LineHeight, STRX_LEFT, White, Black, "クラフトをサイド表示");
+				}
+				//トレーダー交換を確認
+				{
+					int xp = y_r(48);
+					int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(40) * 3;
+					WindowSystem::CheckBox(xp, yp, &m_IsCheckBarter);
+					WindowSystem::SetMsg(xp + y_r(64), yp, xp + y_r(64), yp + LineHeight, LineHeight, STRX_LEFT, White, Black, "トレーダー交換をサイド表示");
+				}
+			}
+
 			//ライトキーパーに必要か
 			{
 				auto tmp = PlayerData::Instance()->GetIsNeedLightKeeper();
 				int xp = y_r(48);
-				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(42) * 2;
+				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(40) * 2;
 				WindowSystem::CheckBox(xp, yp, &tmp);
 				WindowSystem::SetMsg(xp + y_r(64), yp, xp + y_r(64), yp + LineHeight, LineHeight, STRX_LEFT, White, Black, "ライトキーパー開放までに絞る");
 				if (tmp) {
@@ -332,7 +388,7 @@ namespace FPS_n2 {
 			{
 				auto tmp = PlayerData::Instance()->GetIsNeedKappa();
 				int xp = y_r(48);
-				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(42) * 1;
+				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(40) * 1;
 				WindowSystem::CheckBox(xp, yp, &tmp);
 				WindowSystem::SetMsg(xp + y_r(64), yp, xp + y_r(64), yp + LineHeight, LineHeight, STRX_LEFT, White, Black, "カッパー開放までに絞る");
 				if (tmp) {
@@ -343,7 +399,7 @@ namespace FPS_n2 {
 			//レベル操作
 			{
 				int xp = y_r(5);
-				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(42) * 0;
+				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(40) * 0;
 				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(100), yp + y_r(48), true, true, Red, "DOWN")) {
 					PlayerData::Instance()->SetMaxLevel(PlayerData::Instance()->GetMaxLevel() - 1);
 				}
@@ -356,35 +412,6 @@ namespace FPS_n2 {
 				WindowSystem::SetMsg(xp, yp + y_r(12), xp, yp + y_r(12) + y_r(36), y_r(36), STRX_LEFT, White, Black, "MaxLevel");
 				xp += y_r(250);
 				WindowSystem::SetMsg(xp, yp, xp, yp + y_r(48), y_r(48), STRX_RIGHT, White, Black, "%d", PlayerData::Instance()->GetMaxLevel());
-			}
-
-			//ハイドアウトクラフトを確認
-			{
-				int xp = y_r(1920) - y_r(48) - y_r(200);
-				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(42) - y_r(42) - y_r(42);
-				WindowSystem::CheckBox(xp, yp, &m_IsCheckCraft);
-				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_RIGHT, White, Black, "ハイドアウトクラフト対象をサイド表示");
-			}
-			//トレーダー交換を確認
-			{
-				int xp = y_r(1920) - y_r(48) - y_r(200);
-				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(42) - y_r(42);
-				WindowSystem::CheckBox(xp, yp, &m_IsCheckBarter);
-				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_RIGHT, White, Black, "トレーダー交換をサイド表示");
-			}
-			//ハイドアウトのみを確認
-			{
-				int xp = y_r(1920) - y_r(48) - y_r(200);
-				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(42);
-				WindowSystem::CheckBox(xp, yp, &m_IsCheckOpenCraft);
-				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_RIGHT, White, Black, "ハイドアウト開放アイテムをリスト表示");
-			}
-			//タスクのみを確認
-			{
-				int xp = y_r(1920) - y_r(48) - y_r(200);
-				int yp = y_r(1080) - y_r(48) - y_r(5);
-				WindowSystem::CheckBox(xp, yp, &m_IsCheckTask);
-				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_RIGHT, White, Black, "タスクに使用するアイテムをリスト表示");
 			}
 
 			//

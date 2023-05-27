@@ -14,6 +14,20 @@ namespace FPS_n2 {
 		void	SetIsLock(bool value) noexcept { m_IsLock = value; }
 	};
 	//
+	enum class EnumEdition : int {
+		STANDARD,
+		LEFT_BEHIND,
+		PREPARE_FOR_ESCAPE,
+		EDGE_OF_DARKNESS,
+		Max,
+	};
+	static const char* EnumEditionStr[(int)EnumEdition::Max] = {
+		"STANDARD",
+		"LEFT BEHIND",
+		"PREPARE FOR ESCAPE",
+		"EDGE OF DARKNESS",
+	};
+	//
 	class PlayerData : public SingletonBase<PlayerData> {
 	private:
 		friend class SingletonBase<PlayerData>;
@@ -23,6 +37,7 @@ namespace FPS_n2 {
 		std::vector<std::string>	m_TaskClearData;
 		std::vector<std::pair<std::string,int>>	m_HideoutClearData;
 	private:
+		EnumEdition					m_Edition{ EnumEdition::STANDARD };
 		bool						m_IsNeedLightKeeper{ false };
 		bool						m_IsNeedKappa{ false };
 		int							m_MaxLevel{ 71 };
@@ -66,6 +81,9 @@ namespace FPS_n2 {
 						m_HideoutClearData.emplace_back(std::make_pair(RIGHT.substr(0, L), std::stoi(RIGHT.substr(L + 1))));
 					}
 				}
+				if (LEFT == "Edition") {
+					m_Edition = (EnumEdition)(std::stoi(RIGHT));
+				}
 				if (LEFT == "IsNeedLightKeeper") {
 					m_IsNeedLightKeeper = (RIGHT == "TRUE");
 				}
@@ -96,6 +114,7 @@ namespace FPS_n2 {
 				outputfile << "UnlockHideout=" + LD.first + "x" + std::to_string(LD.second) + "\n";
 			}
 
+			outputfile << "Edition=" + std::to_string((int)m_Edition) + "\n";
 			outputfile << "IsNeedLightKeeper=" + (std::string)(m_IsNeedLightKeeper ? "TRUE" : "FALSE") + "\n";
 			outputfile << "IsNeedKappa=" + (std::string)(m_IsNeedKappa ? "TRUE" : "FALSE") + "\n";
 			outputfile << "MaxLevel=" + std::to_string(m_MaxLevel) + "\n";
@@ -198,7 +217,27 @@ namespace FPS_n2 {
 		}
 		const auto GetHideoutClear(const char* ID, int Lv) noexcept {
 			auto Point = std::find_if(m_HideoutClearData.begin(), m_HideoutClearData.end(), [&](const std::pair<std::string, int>& Data) {return (Data.first == ID && Data.second >= Lv); });
-			return (Point != m_HideoutClearData.end());
+			if (Point != m_HideoutClearData.end()) {
+				return true;
+			}
+			else {
+				std::string IDStr = ID;
+				if (IDStr.find("Stash") != std::string::npos) {
+					Point = std::find_if(m_HideoutClearData.begin(), m_HideoutClearData.end(), [&](const std::pair<std::string, int>& Data) {return (Data.first == ID); });
+					if (Point != m_HideoutClearData.end()) {
+						Point->second = (int)m_Edition + 1;
+					}
+					else {
+						m_HideoutClearData.resize(m_HideoutClearData.size() + 1);
+						m_HideoutClearData.back().first = ID;
+						m_HideoutClearData.back().second = (int)m_Edition + 1;
+					}
+					return (((int)m_Edition + 1) >= Lv);
+				}
+				else {
+					return false;
+				}
+			}
 		}
 
 		void SetLastDataReceive(const char* date) noexcept { m_LastDataReceive = date; }
@@ -206,6 +245,10 @@ namespace FPS_n2 {
 
 		void SetIsNeedLightKeeper(bool date) noexcept { m_IsNeedLightKeeper = date; }
 		const auto& GetIsNeedLightKeeper() const noexcept { return m_IsNeedLightKeeper; }
+
+		void SetEdition(EnumEdition date) noexcept { m_Edition = date; }
+		const auto& GetEdition() const noexcept { return m_Edition; }
+
 		void SetIsNeedKappa(bool date) noexcept { m_IsNeedKappa = date; }
 		const auto& GetIsNeedKappa() const noexcept { return m_IsNeedKappa; }
 		void SetMaxLevel(int date) noexcept { m_MaxLevel = date; }

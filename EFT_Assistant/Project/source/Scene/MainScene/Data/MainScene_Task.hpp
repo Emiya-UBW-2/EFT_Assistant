@@ -320,7 +320,7 @@ namespace FPS_n2 {
 			//Reward
 			m_TaskRewardData.Set(LEFT, RIGHT, Args);
 		}
-		void	Load_Sub() noexcept override {
+		void			Load_Sub() noexcept override {
 			//Need
 			m_TaskNeedData.SetAfter();
 			//Work
@@ -328,11 +328,12 @@ namespace FPS_n2 {
 			//Reward
 			m_TaskRewardData.SetAfter();
 		}
-		void	WhenAfterLoad_Sub() noexcept override {}
+		void			WhenAfterLoad_Sub() noexcept override {}
 
 		void			SetNeedTasktoID(const std::vector<TaskList>& taskList) noexcept {
 			m_TaskNeedData.SetNeedTasktoID(taskList);
 		}
+		const int		Draw(int xp, int yp, int xsize, int ysize) const noexcept;
 		void			DrawWindow(WindowSystem::WindowControl* window, int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept {
 			auto* WindowMngr = WindowSystem::WindowManager::Instance();
 			auto* InterParts = InterruptParts::Instance();

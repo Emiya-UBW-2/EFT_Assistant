@@ -34,7 +34,7 @@ namespace FPS_n2 {
 		void LateExecute_Sub(int* xpos, int*ypos, float*) noexcept override {
 			switch (m_Mode) {
 			case EnumHideoutDrawMode::Normal:
-			break;
+				break;
 			case EnumHideoutDrawMode::Item:
 				*xpos = std::min(*xpos, y_r(50));
 				*ypos = LineHeight + y_r(50);
@@ -91,7 +91,7 @@ namespace FPS_n2 {
 					}
 				}
 			}
-			DrawLineCount +=3;
+			DrawLineCount += 3;
 
 			auto color = Gray15;
 			if (PlayerData::Instance()->GetHideoutClear(L.GetName().c_str(), MyLv)) {
@@ -107,7 +107,7 @@ namespace FPS_n2 {
 				DrawControl::Instance()->SetDrawRotaFiR(DrawLayer::Normal, xpos + xsize / 2, *ypos + ysize / 2, 1.f, 0.f, true);
 			}
 
-			for (auto& C : L.GetLvData().at(MyLv-1).m_Child) {
+			for (auto& C : L.GetLvData().at(MyLv - 1).m_Child) {
 				int TmpYPos = *ypos;
 				if (DrawHideoutList(C.GetID(), C.GetValue(), xpos + xsize + y_r(100), &TmpYPos, xsize, ysize)) {
 					*ypos += ysize + y_r(10);
