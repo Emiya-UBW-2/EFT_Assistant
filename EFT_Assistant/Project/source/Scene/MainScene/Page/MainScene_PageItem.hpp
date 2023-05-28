@@ -19,9 +19,9 @@ namespace FPS_n2 {
 		bool							m_ValuePerSort{ false };
 	private:
 		void MakeLists(int Layer, bool AndNext, const std::function<void(std::pair<int, bool>*)>& ListSet) noexcept {
-			auto& NowSel = m_ItemIDs.at(Layer);
+			auto& NowSel = this->m_ItemIDs.at(Layer);
 			NowSel.second = ((NowSel.first != InvalidID) && AndNext);
-			if (Layer == 0 || (Layer >= 1 && m_ItemIDs.at(Layer - 1).second)) {
+			if (Layer == 0 || (Layer >= 1 && this->m_ItemIDs.at(Layer - 1).second)) {
 				ListSet(&NowSel);
 			}
 			else {
@@ -61,7 +61,7 @@ namespace FPS_n2 {
 			int xs = 400;
 			int ScrPosX = y_r(1920 - xs * 3 / 2 - 10) - y_r(80);
 
-			int ScrPxItem = m_RaidMode ? (xpos + y_r(400)) : ScrPosX;
+			int ScrPxItem = this->m_RaidMode ? (xpos + y_r(400)) : ScrPosX;
 
 			int yp0 = ypos - (int)m_YNow;
 			if (m_RaidMode) {
@@ -75,7 +75,7 @@ namespace FPS_n2 {
 						TraderID IDB = InvalidID;
 						int ValueB = -1;
 						if (b->GetSellValue(&IDB, &ValueB)) {}
-						return m_TraderSort ? (IDA > IDB) : (IDA < IDB);
+						return this->m_TraderSort ? (IDA > IDB) : (IDA < IDB);
 					});
 					m_TraderSort ^= 1;
 
@@ -98,7 +98,7 @@ namespace FPS_n2 {
 						TraderID IDB = InvalidID;
 						int ValueB = -1;
 						if (b->GetSellValue(&IDB, &ValueB)) {}
-						return m_ValueSort ? (ValueA > ValueB) : (ValueA < ValueB);
+						return this->m_ValueSort ? (ValueA > ValueB) : (ValueA < ValueB);
 					});
 					m_ValueSort ^= 1;
 				}
@@ -123,7 +123,7 @@ namespace FPS_n2 {
 						int ValueB = -1;
 						if (b->GetSellValue(&IDB, &ValueB)) {}
 						int ValueBP = ((b->Getwidth()*b->Getheight()) > 0) ? (ValueB / (b->Getwidth()*b->Getheight())) : 0;
-						return m_ValuePerSort ? (ValueAP > ValueBP) : (ValueAP < ValueBP);
+						return this->m_ValuePerSort ? (ValueAP > ValueBP) : (ValueAP < ValueBP);
 					});
 					m_ValuePerSort ^= 1;
 				}
@@ -139,7 +139,7 @@ namespace FPS_n2 {
 				if (m_ItemIDs[1].first == InvalidID) {
 					bool isHit = false;
 					for (auto& TL : ItemTypeData::Instance()->GetList()) {
-						if (TL.GetCategoryID() == m_ItemIDs[0].first || m_ItemIDs[0].first == InvalidID) {
+						if (TL.GetCategoryID() == this->m_ItemIDs[0].first || this->m_ItemIDs[0].first == InvalidID) {
 							isHit = (L->GetTypeID() == TL.GetID());
 							if (isHit) { break; }
 						}
@@ -148,10 +148,10 @@ namespace FPS_n2 {
 				}
 				if (L->GetIsPreset()) { continue; }
 
-				if (L->GetTypeID() == m_ItemIDs[1].first || m_ItemIDs[1].first == InvalidID) {
+				if (L->GetTypeID() == this->m_ItemIDs[1].first || this->m_ItemIDs[1].first == InvalidID) {
 					bool ishit = false;
 					for (auto& m : L->GetMapID()) {
-						if (m.GetID() == m_ItemIDs[2].first) {
+						if (m.GetID() == this->m_ItemIDs[2].first) {
 							ishit = true;
 							break;
 						}
@@ -159,7 +159,7 @@ namespace FPS_n2 {
 					if (m_ItemIDs[2].first == ElseSelectID) {
 						ishit = (L->GetMapID().size() == 0);
 					}
-					if (ishit || m_ItemIDs[2].first == InvalidID) {
+					if (ishit || this->m_ItemIDs[2].first == InvalidID) {
 						if (((0 - ysize) < yp0) && (yp0 < DrawParts->m_DispYSize)) {
 							L->Draw(xpos, yp0, ScrPxItem - xpos - y_r(36), ysize, 0, Gray75, !WindowMngr->PosHitCheck(nullptr), false, !m_RaidMode && !m_TaskMode, false);
 							if (m_TaskMode) {
@@ -214,7 +214,7 @@ namespace FPS_n2 {
 			int ScrSizY = (DrawParts->m_DispYSize - (y_r(10) + LineHeight)) - ypos;
 			m_Scroll.ScrollBox(xpos, ypos, ScrPosX, ypos + ScrSizY, (float)std::max(yp0, ScrSizY) / (float)ScrSizY, true);
 
-			m_YNow = std::max(0.f, m_Scroll.GetNowScrollYPer()*(float)(yp0 - ScrSizY));
+			m_YNow = std::max(0.f, this->m_Scroll.GetNowScrollYPer()*(float)(yp0 - ScrSizY));
 			//
 			{
 				int xgoal = 0;
@@ -244,7 +244,7 @@ namespace FPS_n2 {
 						if (isChild) {
 							xgoal += xs_add;
 						}
-						MakeList<ItemTypeList>(xp + xgoal, yp, ItemTypeData::Instance()->GetList(), "ItemType", &IDs->first, !IDs->second, false, true, [&](const auto *ptr) { return (ptr->GetCategoryID() == m_ItemIDs.at(Layer - 1).first); });
+						MakeList<ItemTypeList>(xp + xgoal, yp, ItemTypeData::Instance()->GetList(), "ItemType", &IDs->first, !IDs->second, false, true, [&](const auto *ptr) { return (ptr->GetCategoryID() == this->m_ItemIDs.at(Layer - 1).first); });
 					});
 				}
 				//
@@ -273,7 +273,7 @@ namespace FPS_n2 {
 				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(200), yp + LineHeight, false, true, Gray25, "戻る")) {
 					bool isHit = false;
 					if (!m_RaidMode) {
-						for (auto it = m_ItemIDs.rbegin(); it != m_ItemIDs.rend(); ++it) {
+						for (auto it = this->m_ItemIDs.rbegin(); it != this->m_ItemIDs.rend(); ++it) {
 							if (it->first != InvalidID) {
 								it->first = InvalidID;
 								isHit = true;
@@ -288,18 +288,18 @@ namespace FPS_n2 {
 			}
 			//
 			{
-				auto PrevTask = m_TaskMode;
+				auto PrevTask = this->m_TaskMode;
 				int xp = y_r(1910) - LineHeight * 3;
 				int yp = y_r(900);
 				WindowSystem::CheckBox(xp, yp, &m_RaidMode);
-				if (m_RaidMode) { m_TaskMode = false; }
+				if (m_RaidMode) { this->m_TaskMode = false; }
 				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_RIGHT, White, Black, "レイドモード(ルート品のみ)");
 				yp += LineHeight + y_r(6);
 				WindowSystem::CheckBox(xp, yp, &m_TaskMode);
-				if (m_TaskMode) { m_RaidMode = false; }
+				if (m_TaskMode) { this->m_RaidMode = false; }
 				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_RIGHT, White, Black, "タスクモード");
 
-				if (m_TaskMode && PrevTask != m_TaskMode) {
+				if (m_TaskMode && PrevTask != this->m_TaskMode) {
 					std::sort(Items.begin(), Items.end(), [&](const ItemList* a, const ItemList* b) {
 						return (a->GetUseTaskID().size() > b->GetUseTaskID().size());
 					});

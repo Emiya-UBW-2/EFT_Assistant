@@ -15,10 +15,10 @@ namespace FPS_n2 {
 		~InterruptParts() noexcept {
 		}
 	public:
-		const auto& IsActive(void) const noexcept { return m_IsActive; }
-		const auto& GetNextScene(void) const noexcept { return m_NextScene; }
-		void		SetInitParam(int Sel, int value) noexcept { m_InitParamSelect.at(Sel) = value; }
-		const auto& GetInitParam(int Sel) const noexcept { return m_InitParamSelect.at(Sel); }
+		const auto& IsActive(void) const noexcept { return this->m_IsActive; }
+		const auto& GetNextScene(void) const noexcept { return this->m_NextScene; }
+		void		SetInitParam(int Sel, int value) noexcept { this->m_InitParamSelect.at(Sel) = value; }
+		const auto& GetInitParam(int Sel) const noexcept { return this->m_InitParamSelect.at(Sel); }
 
 		void	GotoNext(BGSelect SceneSel) noexcept {
 			m_IsActive = true;

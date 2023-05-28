@@ -5,7 +5,7 @@ namespace FPS_n2 {
 		m_LvData.clear();
 		for (auto& Ld : data["levels"]) {
 			m_LvData.resize(m_LvData.size() + 1);
-			auto& L = m_LvData.back();
+			auto& L = this->m_LvData.back();
 			L.constructionTime = Ld["constructionTime"];
 			L.Information_Eng = Ld["description"];
 			{
@@ -168,10 +168,10 @@ namespace FPS_n2 {
 		int ID = 0;
 		if (std::all_of(NumBuf2.cbegin(), NumBuf2.cend(), isdigit)) {
 			ID = std::stoi(NumBuf2) - 1;
-			if (m_LvData.size() <= ID) { m_LvData.resize(ID + 1); }
+			if (m_LvData.size() <= ID) { this->m_LvData.resize(ID + 1); }
 			//開放データ
-			if (LEFTBuf == "constructionTime") { m_LvData.at(ID).constructionTime = std::stoi(Args[0]); }
-			if (LEFTBuf == "Information_Eng") { m_LvData.at(ID).Information_Eng = Args[0]; }
+			if (LEFTBuf == "constructionTime") { this->m_LvData.at(ID).constructionTime = std::stoi(Args[0]); }
+			if (LEFTBuf == "Information_Eng") { this->m_LvData.at(ID).Information_Eng = Args[0]; }
 			if (LEFTBuf == "itemReq") {
 				for (auto&a : Args) {
 					SetGetData<ItemGetData>(&m_LvData.at(ID).m_ItemReq, a, "x");
@@ -205,7 +205,7 @@ namespace FPS_n2 {
 		}
 	}
 	void			HideoutList::Load_Sub() noexcept {
-		for (auto& L : m_LvData) {
+		for (auto& L : this->m_LvData) {
 			for (auto& T : L.m_ItemReq) {
 				T.CheckID(ItemData::Instance());
 			}
@@ -311,7 +311,7 @@ namespace FPS_n2 {
 				if (Input->GetCtrlKey().press()) {
 					NameTmp += " Unlock";
 					WindowMngr->Add()->Set(y_r(960) - sizeXBuf / 2, LineHeight + y_r(10), sizeXBuf, sizeYBuf, 0, NameTmp.c_str(), false, true, FreeID, [&](WindowSystem::WindowControl* win) {
-						HideoutData::Instance()->FindPtr((HideoutID)(win->m_FreeID - 0xFFFF))->DrawUnlockWindow(win, Gray10, m_DrawWindowLv, win->GetPosX(), win->GetPosY());
+						HideoutData::Instance()->FindPtr((HideoutID)(win->m_FreeID - 0xFFFF))->DrawUnlockWindow(win, Gray10, this->m_DrawWindowLv, win->GetPosX(), win->GetPosY());
 					});
 				}
 				else {
@@ -322,7 +322,7 @@ namespace FPS_n2 {
 					auto Total = (ysizet + y_r(5))*(int)(Max);
 
 					WindowMngr->Add()->Set(y_r(960) - sizeXBuf / 2, LineHeight + y_r(10), sizeXBuf, sizeYBuf, Total, NameTmp.c_str(), false, true, FreeID, [&](WindowSystem::WindowControl* win) {
-						HideoutData::Instance()->FindPtr((HideoutID)(win->m_FreeID - 0xFFFF))->DrawCraftWindow(win, Gray10, m_DrawWindowLv, win->GetPosX(), win->GetPosY());
+						HideoutData::Instance()->FindPtr((HideoutID)(win->m_FreeID - 0xFFFF))->DrawCraftWindow(win, Gray10, this->m_DrawWindowLv, win->GetPosX(), win->GetPosY());
 					});
 				}
 			}
@@ -364,7 +364,7 @@ namespace FPS_n2 {
 				int xofs_buf = xofs + y_r(10);
 				int yofs_buf = yofs_OLD;
 				{
-					for (const auto& I : m_LvData.at(Lv - 1).m_ItemReq) {
+					for (const auto& I : this->m_LvData.at(Lv - 1).m_ItemReq) {
 						auto* ptr = ItemData::Instance()->FindPtr(I.GetID());
 						if (ptr) {
 							xofs_buf = xofs + y_r(10);
@@ -385,7 +385,7 @@ namespace FPS_n2 {
 				int xofs_buf = xofs + y_r(10);
 				int yofs_buf = yofs_OLD;
 				{
-					for (const auto& I : m_LvData.at(Lv - 1).m_Parent) {
+					for (const auto& I : this->m_LvData.at(Lv - 1).m_Parent) {
 						auto* ptr = HideoutData::Instance()->FindPtr(I.GetID());
 						if (ptr) {
 							xofs_buf = xofs + y_r(10);
@@ -406,7 +406,7 @@ namespace FPS_n2 {
 				int xofs_buf = xofs + y_r(10);
 				int yofs_buf = yofs_OLD;
 				{
-					for (const auto& I : m_LvData.at(Lv - 1).m_TraderReq) {
+					for (const auto& I : this->m_LvData.at(Lv - 1).m_TraderReq) {
 						auto* ptr = TraderData::Instance()->FindPtr(I.GetID());
 						if (ptr) {
 							xofs_buf = xofs + y_r(10);
@@ -433,7 +433,7 @@ namespace FPS_n2 {
 				int xofs_buf = xofs + y_r(10);
 				int yofs_buf = yofs_OLD;
 				xofs_buf += WindowSystem::SetMsg(xp + xofs_buf, yp + yofs_buf, xp + 0, yp + yofs_buf + ysize, LineHeight * 9 / 10, STRX_LEFT, White, Black,
-					"%01d:%02d:%02d", (m_LvData.at(Lv - 1).constructionTime / 60 / 60), (m_LvData.at(Lv - 1).constructionTime / 60) % 60, m_LvData.at(Lv - 1).constructionTime % 60);
+					"%01d:%02d:%02d", (m_LvData.at(Lv - 1).constructionTime / 60 / 60), (m_LvData.at(Lv - 1).constructionTime / 60) % 60, this->m_LvData.at(Lv - 1).constructionTime % 60);
 				xofs_buf += y_r(30);
 
 				xofs = std::max(xofs, xofs_buf + y_r(10));
@@ -473,7 +473,7 @@ namespace FPS_n2 {
 				auto OLD = yofs;
 				for (int loop = 0; loop < std::min(size, Max - ofset); loop++) {
 					int index = loop + ofset;
-					const auto& cf = m_LvData.at(Lv - 1).m_ItemCraft[index];
+					const auto& cf = this->m_LvData.at(Lv - 1).m_ItemCraft[index];
 					xofs_buf = y_r(10);
 					{
 						for (const auto& I : cf.m_ItemReq) {
@@ -522,7 +522,7 @@ namespace FPS_n2 {
 	}
 
 	void			HideoutList::SetOtherPartsID() noexcept {
-		for (auto& D : m_LvData) {
+		for (auto& D : this->m_LvData) {
 			int DLv = (int)(&D - &m_LvData.front()) + 1;
 			D.m_Child.clear();
 			for (const auto&L : HideoutData::Instance()->GetList()) {

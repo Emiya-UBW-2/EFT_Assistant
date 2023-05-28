@@ -4,10 +4,10 @@
 namespace FPS_n2 {
 	class TitleBG :public BGParent {
 	private:
-		BGSelect m_Select{ (BGSelect)0 };
-		std::string strResult;
-		std::string InfoStr;
-		int ttt = -1;
+		BGSelect	m_Select{ (BGSelect)0 };
+		std::string	strResult;
+		std::string	InfoStr;
+		int			ttt{ -1 };
 	private:
 		void DrawOnce(int xpos1, int ypos1, int xpos2, int ypos2, const char* Name, const char* Info, BGSelect SelWindow) noexcept {
 			auto* Input = InputControl::Instance();
@@ -174,6 +174,6 @@ namespace FPS_n2 {
 		void Dispose_Sub(void) noexcept override {
 		}
 	public:
-		const auto& GetNextSelect() const noexcept { return m_Select; }
+		const auto& GetNextSelect() const noexcept { return this->m_Select; }
 	};
 };

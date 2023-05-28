@@ -9,17 +9,17 @@ namespace FPS_n2 {
 	template <class ID>
 	class ListParent {
 	private:
-		ID						m_ID{ InvalidID };
-		std::string				m_IDstr;
-		std::string				m_Name;
-		std::string				m_ShortName;
-		std::string				m_FilePath;
-		std::array<int, 3>		m_Color{ 0,0,0 };
+		ID								m_ID{ InvalidID };
+		std::string						m_IDstr;
+		std::string						m_Name;
+		std::string						m_ShortName;
+		std::string						m_FilePath;
+		std::array<int, 3>				m_Color{ 0,0,0 };
 
-		std::unique_ptr<std::thread> m_SetJob{ nullptr };
-		bool					m_SetFinish{ false };
+		std::unique_ptr<std::thread>	m_SetJob{ nullptr };
+		bool							m_SetFinish{ false };
 
-		Graphs					m_Icon;
+		Graphs							m_Icon;
 	private:
 		void			SetCommon(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
 			if (LEFT == "IDstr") {
@@ -44,16 +44,16 @@ namespace FPS_n2 {
 		virtual void	Load_Sub() noexcept {}
 		virtual void	WhenAfterLoad_Sub() noexcept {}
 	public:
-		const auto&		GetIsSetFinish() const noexcept { return m_SetFinish; }
-		const auto&		GetID() const noexcept { return m_ID; }
-		const auto&		GetIDstr() const noexcept { return m_IDstr; }
-		const auto&		GetName() const noexcept { return m_Name; }
-		const auto&		GetShortName() const noexcept { return m_ShortName; }
-		const auto&		GetFilePath() const noexcept { return m_FilePath; }
+		const auto&		GetIsSetFinish() const noexcept { return this->m_SetFinish; }
+		const auto&		GetID() const noexcept { return this->m_ID; }
+		const auto&		GetIDstr() const noexcept { return this->m_IDstr; }
+		const auto&		GetName() const noexcept { return this->m_Name; }
+		const auto&		GetShortName() const noexcept { return this->m_ShortName; }
+		const auto&		GetFilePath() const noexcept { return this->m_FilePath; }
 
 		const auto		GetColorRGB(int no) const noexcept { return std::clamp(m_Color[no], 1, 255); }
 		const auto		GetColors(int colorAdd) const noexcept { return DxLib::GetColor(std::clamp(m_Color[0] + colorAdd, 1, 255), std::clamp(m_Color[1] + colorAdd, 1, 255), std::clamp(m_Color[2] + colorAdd, 1, 255)); }
-		const auto&		GetIcon() const noexcept { return m_Icon; }
+		const auto&		GetIcon() const noexcept { return this->m_Icon; }
 	public:
 		void			Set(const char* FilePath, ID id, const char* IconPath = nullptr) noexcept {
 			m_FilePath = FilePath;
@@ -136,7 +136,7 @@ namespace FPS_n2 {
 			DirNames.clear();
 			while (true) {
 				bool isHit = false;
-				for (auto&t : m_List) {
+				for (auto&t : this->m_List) {
 					if (!t.GetIsSetFinish()) {
 						isHit = true;
 						break;
@@ -147,23 +147,23 @@ namespace FPS_n2 {
 		}
 	public:
 		void			LoadList(bool IsPushLog) noexcept {
-			for (auto&t : m_List) {
+			for (auto&t : this->m_List) {
 				t.Load(IsPushLog);
 			}
 		}
 		void			WhenAfterLoadListCommon(void) noexcept {
-			for (auto&t : m_List) {
+			for (auto&t : this->m_List) {
 				t.WhenAfterLoadCommon();
 			}
 		}
 		void			WhenAfterLoadList(void) noexcept {
-			for (auto&t : m_List) {
+			for (auto&t : this->m_List) {
 				t.WhenAfterLoad();
 			}
 		}
 	public:
 		const ID		FindID(std::string_view name) const noexcept {
-			for (const auto&t : m_List) {
+			for (const auto&t : this->m_List) {
 				if (t.GetName() == name) {
 					return t.GetID();
 				}
@@ -174,7 +174,7 @@ namespace FPS_n2 {
 			return InvalidID;
 		}
 		List*			FindPtr(ID id) const noexcept {
-			for (auto&t : m_List) {
+			for (auto&t : this->m_List) {
 				if (t.GetID() == id) {
 					return (List*)&t;
 				}
@@ -194,11 +194,11 @@ namespace FPS_n2 {
 		std::string								m_Name;
 		ID										m_ID{ InvalidID };
 	public:
-		const auto& GetName() const noexcept { return m_Name; }
-		const auto& GetID() const noexcept { return m_ID; }
+		const auto& GetName() const noexcept { return this->m_Name; }
+		const auto& GetID() const noexcept { return this->m_ID; }
 	public:
-		void		SetName(std::string_view value) noexcept { m_Name = value; }
-		void		SetID(ID value) noexcept { m_ID = value; }
+		void		SetName(std::string_view value) noexcept { this->m_Name = value; }
+		void		SetID(ID value) noexcept { this->m_ID = value; }
 	public:
 		template <class List>
 		void		CheckID(const DataParent<ID, List>* taskList, bool DrawErrorLog = true) noexcept {
@@ -213,7 +213,7 @@ namespace FPS_n2 {
 			if (!isHit && DrawErrorLog) {
 				std::string ErrMes = "Error : Invalid ID by CheckID";
 				ErrMes += "[";
-				ErrMes += m_Name;
+				ErrMes += this->m_Name;
 				ErrMes += "]";
 				DataErrorLog::Instance()->AddLog(ErrMes.c_str());
 			}
@@ -226,9 +226,9 @@ namespace FPS_n2 {
 		IDParents<ID>	m_ID;
 		int				m_Value{ 0 };
 	public:
-		const auto&		GetName() const noexcept { return m_ID.GetName(); }
-		const auto&		GetID() const noexcept { return m_ID.GetID(); }
-		const auto&		GetValue() const noexcept { return m_Value; }
+		const auto&		GetName() const noexcept { return this->m_ID.GetName(); }
+		const auto&		GetID() const noexcept { return this->m_ID.GetID(); }
+		const auto&		GetValue() const noexcept { return this->m_Value; }
 		void			Set(std::string_view name, int lv) noexcept {
 			m_ID.SetName(name);
 			m_Value = lv;
@@ -289,8 +289,8 @@ namespace FPS_n2 {
 		void OutputData(const std::string& Path) noexcept {
 			m_IsFileOpened = true;
 			std::ofstream outputfile(Path);
-			outputfile << "IDstr=" + m_id + "\n";
-			outputfile << "Name=" + m_name + "\n";
+			outputfile << "IDstr=" + this->m_id + "\n";
+			outputfile << "Name=" + this->m_name + "\n";
 			if (this->m_shortName != "") {
 				outputfile << "ShortName=" + this->m_shortName + "\n";
 			}
@@ -305,7 +305,7 @@ namespace FPS_n2 {
 	class JsonListParent {
 		std::vector<std::unique_ptr<JsonDataParent>> m_JsonData;
 	public:
-		auto&		GetJsonDataList() noexcept { return m_JsonData; }
+		auto&		GetJsonDataList() noexcept { return this->m_JsonData; }
 		void GetDataJson(nlohmann::json& data, std::string ListName) {
 			m_JsonData.clear();
 			for (const auto& d : data["data"][ListName]) {
@@ -315,7 +315,7 @@ namespace FPS_n2 {
 		}
 		void SaveAsNewData(std::string ParentPath) noexcept {
 			bool maked = false;
-			for (auto& jd : m_JsonData) {
+			for (auto& jd : this->m_JsonData) {
 				if (!jd->m_IsFileOpened) {
 					if (!maked) {
 						CreateDirectory(ParentPath.c_str(), NULL);

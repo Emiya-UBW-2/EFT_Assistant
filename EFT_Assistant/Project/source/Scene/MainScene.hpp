@@ -93,7 +93,7 @@ namespace FPS_n2 {
 			m_ItemListBG = std::make_shared<ItemListBG>();
 			m_PlayerInfoBG = std::make_shared<PlayerInfoBG>();
 			//
-			m_BGPtr = m_TitleBG;
+			m_BGPtr = this->m_TitleBG;
 			//
 			m_BGPtr->Init(&this->m_posx, &this->m_posy, &this->m_Scale);
 		}
@@ -181,39 +181,39 @@ namespace FPS_n2 {
 			if (m_BGPtr->IsGoNextBG()) {
 				WindowMngr->DeleteAll();
 				m_BGPtr->Dispose();
-				if (m_BGPtr == m_TitleBG) {
+				if (m_BGPtr == this->m_TitleBG) {
 					switch (m_TitleBG->GetNextSelect()) {
 					case BGSelect::Task:
-						m_BGPtr = m_TaskBG;
+						m_BGPtr = this->m_TaskBG;
 						break;
 					case BGSelect::HideOut:
-						m_BGPtr = m_HideOutBG;
+						m_BGPtr = this->m_HideOutBG;
 						break;
 					case BGSelect::Item:
-						m_BGPtr = m_ItemBG;
+						m_BGPtr = this->m_ItemBG;
 						break;
 					case BGSelect::Map:
-						m_BGPtr = m_MapBG;
+						m_BGPtr = this->m_MapBG;
 						break;
 					case BGSelect::Custom:
-						m_BGPtr = m_CustomBG;
+						m_BGPtr = this->m_CustomBG;
 						break;
 					case BGSelect::Trader:
-						m_BGPtr = m_TraderBG;
+						m_BGPtr = this->m_TraderBG;
 						break;
 					case BGSelect::ItemList:
-						m_BGPtr = m_ItemListBG;
+						m_BGPtr = this->m_ItemListBG;
 						break;
 					case BGSelect::PlayerInfo:
-						m_BGPtr = m_PlayerInfoBG;
+						m_BGPtr = this->m_PlayerInfoBG;
 						break;
 					default:
-						m_BGPtr = m_TaskBG;
+						m_BGPtr = this->m_TaskBG;
 						break;
 					}
 				}
 				else {
-					m_BGPtr = m_TitleBG;
+					m_BGPtr = this->m_TitleBG;
 				}
 				m_BGPtr->Init(&this->m_posx, &this->m_posy, &this->m_Scale);
 			}
@@ -223,28 +223,28 @@ namespace FPS_n2 {
 				m_BGPtr->Dispose();
 				switch ((BGSelect)InterParts->GetNextScene()) {
 				case BGSelect::Task:
-					m_BGPtr = m_TaskBG;
+					m_BGPtr = this->m_TaskBG;
 					break;
 				case BGSelect::HideOut:
-					m_BGPtr = m_HideOutBG;
+					m_BGPtr = this->m_HideOutBG;
 					break;
 				case BGSelect::Item:
-					m_BGPtr = m_ItemBG;
+					m_BGPtr = this->m_ItemBG;
 					break;
 				case BGSelect::Map:
-					m_BGPtr = m_MapBG;
+					m_BGPtr = this->m_MapBG;
 					break;
 				case BGSelect::Custom:
-					m_BGPtr = m_CustomBG;
+					m_BGPtr = this->m_CustomBG;
 					break;
 				case BGSelect::Trader:
-					m_BGPtr = m_TraderBG;
+					m_BGPtr = this->m_TraderBG;
 					break;
 				case BGSelect::ItemList:
-					m_BGPtr = m_ItemListBG;
+					m_BGPtr = this->m_ItemListBG;
 					break;
 				case BGSelect::PlayerInfo:
-					m_BGPtr = m_PlayerInfoBG;
+					m_BGPtr = this->m_PlayerInfoBG;
 					break;
 				default:
 					break;
@@ -297,7 +297,7 @@ namespace FPS_n2 {
 				int Xmin = y_r(320);
 				int Ymin = LineHeight;
 
-				DrawControl::Instance()->SetDrawBox(DrawLayer::BackGround, 0, 0, (int)(Lerp((float)Xmin, (float)Xsize, m_PullDown)), (int)(Lerp((float)Ymin, (float)Ysize, m_PullDown)), Gray75, TRUE);
+				DrawControl::Instance()->SetDrawBox(DrawLayer::BackGround, 0, 0, (int)(Lerp((float)Xmin, (float)Xsize, this->m_PullDown)), (int)(Lerp((float)Ymin, (float)Ysize, this->m_PullDown)), Gray75, TRUE);
 				if (m_PullDown >= 1.f) {
 					//Back
 					m_BGPtr->Draw_Back(this->m_posx, this->m_posy, this->m_Scale);
@@ -305,8 +305,8 @@ namespace FPS_n2 {
 					WindowMngr->Draw();
 				}
 				//タイトルバック
-				int DieCol = std::clamp((int)(Lerp(1.f, 128.f, m_NoneActiveTimes / 5.f)), 0, 255);
-				WindowSystem::SetBox(0, 0, (int)(Lerp((float)Xmin, (float)Xsize, m_PullDown)), LineHeight, GetColor(DieCol, DieCol, DieCol));
+				int DieCol = std::clamp((int)(Lerp(1.f, 128.f, this->m_NoneActiveTimes / 5.f)), 0, 255);
+				WindowSystem::SetBox(0, 0, (int)(Lerp((float)Xmin, (float)Xsize, this->m_PullDown)), LineHeight, GetColor(DieCol, DieCol, DieCol));
 				//タイトル
 				if (m_PullDown >= 1.f) {
 					if (WindowSystem::ClickCheckBox(Xmin + y_r(10), 0, Xmin + y_r(10 + 220), Ymin, false, true, Gray25, "全窓を閉じる")) {
@@ -321,10 +321,10 @@ namespace FPS_n2 {
 					if (WindowSystem::CloseButton(y_r(1920) - LineHeight, 0)) { SetisEnd(true); }
 				}
 				//展開
-				if (WindowSystem::ClickCheckBox(0, 0, Xmin, Ymin, false, true, Gray25, !m_IsPullDown ? "折りたたむ" : "展開")) { m_IsPullDown ^= 1; }
+				if (WindowSystem::ClickCheckBox(0, 0, Xmin, Ymin, false, true, Gray25, !m_IsPullDown ? "折りたたむ" : "展開")) { this->m_IsPullDown ^= 1; }
 				Easing(&m_PullDown, !m_IsPullDown ? 1.f : 0.f, 0.8f, EasingType::OutExpo);
-				if (m_PullDown >= 0.95f) { m_PullDown = 1.f; }
-				if (m_PullDown <= 0.05f) { m_PullDown = 0.f; }
+				if (m_PullDown >= 0.95f) { this->m_PullDown = 1.f; }
+				if (m_PullDown <= 0.05f) { this->m_PullDown = 0.f; }
 				//
 				if (m_PullDown >= 1.f) {
 					//Front

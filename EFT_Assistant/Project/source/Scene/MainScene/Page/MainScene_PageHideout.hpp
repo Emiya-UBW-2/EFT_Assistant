@@ -230,7 +230,7 @@ namespace FPS_n2 {
 			{
 				int xp = y_r(10) + y_r(200) + y_r(10);
 				int yp = LineHeight + y_r(10);
-				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(400), yp + LineHeight, false, m_Mode != EnumHideoutDrawMode::Item, (m_Mode != EnumHideoutDrawMode::Item) ? Gray25 : Green, "開放アイテム")) {
+				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(400), yp + LineHeight, false, this->m_Mode != EnumHideoutDrawMode::Item, (m_Mode != EnumHideoutDrawMode::Item) ? Gray25 : Green, "開放アイテム")) {
 					m_Mode = EnumHideoutDrawMode::Item;
 				}
 			}

@@ -3,7 +3,7 @@
 namespace FPS_n2 {
 	//
 	void	TraderList::Load_Sub() noexcept {
-		for (auto& L : m_LvData) {
+		for (auto& L : this->m_LvData) {
 			for (auto& C : L.m_ItemBarters) {
 				for (auto& T : C.m_ItemReq) {
 					T.CheckID(ItemData::Instance());
@@ -22,7 +22,7 @@ namespace FPS_n2 {
 		m_LvData.clear();
 		for (auto& Ld : data["levels"]) {
 			m_LvData.resize(m_LvData.size() + 1);
-			auto& L = m_LvData.back();
+			auto& L = this->m_LvData.back();
 
 			L.NeedLv = Ld["requiredPlayerLevel"];
 			L.Reputation = Ld["requiredReputation"];

@@ -2,7 +2,7 @@
 
 namespace FPS_n2 {
 	void		TaskList::TaskNeedData::SetNeedTasktoID() noexcept {
-		for (auto& t : m_Parenttask) {
+		for (auto& t : this->m_Parenttask) {
 			t.CheckID(TaskData::Instance());
 		}
 	}

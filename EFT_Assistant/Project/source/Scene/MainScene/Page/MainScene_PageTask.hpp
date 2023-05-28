@@ -52,7 +52,7 @@ namespace FPS_n2 {
 			}
 			for (const auto& tasks : TaskData::Instance()->GetList()) {
 				bool IsTrue = false;
-				if (std::find_if(m_Drawed.begin(), m_Drawed.end(), [&](const TaskID& obj) {return obj == tasks.GetID(); }) == m_Drawed.end()) {
+				if (std::find_if(m_Drawed.begin(), this->m_Drawed.end(), [&](const TaskID& obj) {return obj == tasks.GetID(); }) == this->m_Drawed.end()) {
 					if (!IsTrue && tasks.GetTaskNeedData().GetParenttaskID().size() == 0 && ParentID == InvalidID) {
 						IsTrue = true;
 					}
@@ -91,7 +91,7 @@ namespace FPS_n2 {
 						if (tasks.GetTaskNeedData().GetParenttaskID().size() > 1) {//2つ以上親がある場合
 							for (const auto& p : tasks.GetTaskNeedData().GetParenttaskID()) {
 								if (p.GetID() != ParentID) {
-									for (auto& ppos : m_ParentLinePos) {
+									for (auto& ppos : this->m_ParentLinePos) {
 										if (p.GetID() == ppos.m_ID) {
 											//
 											if (Scale > 0.6f) {
@@ -123,7 +123,7 @@ namespace FPS_n2 {
 					//被ってたら下に下げる
 					while (true) {
 						bool isHit = false;
-						for (auto&r : m_TaskRect) {
+						for (auto&r : this->m_TaskRect) {
 							if (r.IsHit(P_Next)) {
 								isHit = true;
 								P_Next.Set(xp + (xs + (int)((float)y_r(400) * Scale)), P_Next.GetPosY() + ys * 3 / 2, xs, suby);
@@ -374,7 +374,7 @@ namespace FPS_n2 {
 								if (!IsClearTask) { isHit = true; }
 							}
 							//クリアできるタスクだけ表示
-							if (isHit && m_DrawCanClearTask) {
+							if (isHit && this->m_DrawCanClearTask) {
 								if (tasks.GetTaskNeedData().GetParenttaskID().size() > 0) {
 									for (const auto& p : tasks.GetTaskNeedData().GetParenttaskID()) {
 										if (!PlayerData::Instance()->GetTaskClear(TaskData::Instance()->FindPtr(p.GetID())->GetName().c_str())) {
@@ -417,7 +417,7 @@ namespace FPS_n2 {
 					int ScrSizY = ypMax - ypos;
 					m_Scroll.ScrollBox(xpos, ypos, ScrPosX, ypos + ScrSizY, (float)std::max(yp - ypBase, ScrSizY) / (float)ScrSizY, true);
 
-					m_YNow = std::max(0.f, m_Scroll.GetNowScrollYPer()*(float)((yp - ypBase) - ScrSizY));
+					m_YNow = std::max(0.f, this->m_Scroll.GetNowScrollYPer()*(float)((yp - ypBase) - ScrSizY));
 				}
 			}
 			break;
@@ -516,7 +516,7 @@ namespace FPS_n2 {
 				}
 			}
 			//
-			if (m_Mode == EnumTaskDrawMode::Tree || m_Mode == EnumTaskDrawMode::List) {
+			if (m_Mode == EnumTaskDrawMode::Tree || this->m_Mode == EnumTaskDrawMode::List) {
 				//
 				{
 					if (!Input->GetSpaceKey().press()) {

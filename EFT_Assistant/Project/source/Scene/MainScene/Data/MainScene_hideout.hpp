@@ -21,8 +21,8 @@ namespace FPS_n2 {
 	};
 	//
 	class HideoutList : public ListParent<HideoutID> {
-		std::vector<HideoutLvData> m_LvData;
-		int m_DrawWindowLv{ 1 };
+		std::vector<HideoutLvData>	m_LvData;
+		int							m_DrawWindowLv{ 1 };
 	private:
 		//í«â¡ê›íË
 		void	SetSub(const std::string& LEFT, const std::vector<std::string>& Args) noexcept override;
@@ -31,7 +31,7 @@ namespace FPS_n2 {
 	public:
 		int										m_CheckJson{ 0 };
 	public:
-		const auto&	GetLvData() const noexcept { return m_LvData; }
+		const auto&	GetLvData() const noexcept { return this->m_LvData; }
 	public:
 		const int		Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive) noexcept;
 		void			DrawUnlockWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int Lv, int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept;
@@ -59,14 +59,14 @@ namespace FPS_n2 {
 					SetDirList((Path2 + RetPath3 + "/").c_str());
 				});
 			});
-			for (auto& t : m_List) {
+			for (auto& t : this->m_List) {
 				t.m_CheckJson = 0;
 			}
 		}
 		~HideoutData() noexcept {}
 	public:
 		void UpdateData() noexcept {
-			for (auto& L : m_List) {
+			for (auto& L : this->m_List) {
 				for (auto& jd : GetJsonDataList()) {
 					if (L.GetIDstr() == jd->m_id) {
 						L.m_CheckJson++;
@@ -78,7 +78,7 @@ namespace FPS_n2 {
 			}
 		}
 		void CheckThroughJson(void) noexcept {
-			for (auto& L : m_List) {
+			for (auto& L : this->m_List) {
 				if (L.m_CheckJson == 0) {
 					std::string ErrMes = "Error : ThroughJson : " + L.GetName();
 					DataErrorLog::Instance()->AddLog(ErrMes.c_str());

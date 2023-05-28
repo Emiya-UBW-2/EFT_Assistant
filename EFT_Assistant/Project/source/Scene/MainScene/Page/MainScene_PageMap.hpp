@@ -10,18 +10,18 @@ namespace FPS_n2 {
 
 	class MapBG :public BGParent {
 	private:
-		MapID	m_SelectBuffer{ InvalidID };
-		MapID	m_MapSelect{ InvalidID };
-		int	m_WatchMapSelect{ 0 };
-		float m_Rad{ 0.f };
-		float m_Rad_Goal{ 0.f };
-		float m_BaseRad{ 0.f };
-		bool isLoaded{ false };
+		MapID		m_SelectBuffer{ InvalidID };
+		MapID		m_MapSelect{ InvalidID };
+		int			m_WatchMapSelect{ 0 };
+		float		m_Rad{ 0.f };
+		float		m_Rad_Goal{ 0.f };
+		float		m_BaseRad{ 0.f };
+		bool		isLoaded{ false };
 
-		int mouse_moveX{ 0 };
-		int mouse_moveY{ 0 };
+		int			mouse_moveX{ 0 };
+		int			mouse_moveY{ 0 };
 
-		VECTOR_ref m_BaseLength;
+		VECTOR_ref	m_BaseLength;
 
 		Graphs		ComPass;
 		float		m_ComPassRad{ 0.f };
@@ -53,15 +53,15 @@ namespace FPS_n2 {
 		}
 		void LateExecute_Sub(int *, int *, float*) noexcept override {
 			auto* Input = InputControl::Instance();
-			if (m_MapSelect != m_SelectBuffer) {
+			if (m_MapSelect != this->m_SelectBuffer) {
 				if (m_MapSelect != InvalidID) {
 					auto* MapPtr = MapData::Instance()->FindPtr(m_MapSelect);
 					MapPtr->DisposeMapPics();
 				}
-				m_MapSelect = m_SelectBuffer;
+				m_MapSelect = this->m_SelectBuffer;
 				{
 					auto* MapPtr = MapData::Instance()->FindPtr(m_MapSelect);
-					if (m_WatchMapSelect <= MapPtr->GetMapPicNum()) { m_WatchMapSelect = 0; }
+					if (m_WatchMapSelect <= MapPtr->GetMapPicNum()) { this->m_WatchMapSelect = 0; }
 					m_BaseRad = MapPtr->GetMapNorthRad(m_WatchMapSelect);
 					m_Rad = 0.f;
 					m_Rad_Goal = 0.f;
@@ -91,8 +91,8 @@ namespace FPS_n2 {
 				mouse_moveX = Input->GetMouseX();							//ドラッグ前のマウス座標格納
 				mouse_moveY = Input->GetMouseY();
 			}
-			Easing(&m_Rad, m_Rad_Goal, 0.8f, EasingType::OutExpo);
-			Easing(&m_ComPassRad, (m_BaseRad + m_Rad), 0.8f, EasingType::OutExpo);
+			Easing(&m_Rad, this->m_Rad_Goal, 0.8f, EasingType::OutExpo);
+			Easing(&m_ComPassRad, (m_BaseRad + this->m_Rad), 0.8f, EasingType::OutExpo);
 		}
 		void Draw_Back_Sub(int posx, int posy, float Scale) noexcept override {
 			if (m_MapSelect != InvalidID) {
@@ -101,7 +101,7 @@ namespace FPS_n2 {
 				auto* GraphPtr = MapPtr->GetMapGraph((int)m_WatchMapSelect);
 				TaskList* TaskPtr = (m_EditTaskID != InvalidID) ? TaskData::Instance()->FindPtr(m_EditTaskID) : nullptr;
 				if (GraphPtr) {
-					DrawControl::Instance()->SetDrawRotaGraph(DrawLayer::Normal, GraphPtr, posx, posy, Scale / 2.f, m_Rad, false);
+					DrawControl::Instance()->SetDrawRotaGraph(DrawLayer::Normal, GraphPtr, posx, posy, Scale / 2.f, this->m_Rad, false);
 					float XSize = (float)MapPtr->GetMapXSize((int)m_WatchMapSelect)*Scale / 2.f;
 					float YSize = (float)MapPtr->GetMapYSize((int)m_WatchMapSelect)*Scale / 2.f;
 					{
@@ -110,8 +110,8 @@ namespace FPS_n2 {
 						float Len = std::hypotf(Xper, Yper);
 						float Rad = std::atan2f(Xper, Yper);
 
-						Xper = Len * std::sin(Rad + m_Rad);
-						Yper = Len * std::cos(Rad + m_Rad);
+						Xper = Len * std::sin(Rad + this->m_Rad);
+						Yper = Len * std::cos(Rad + this->m_Rad);
 
 						Xper = Xper / XSize;
 						Yper = Yper / YSize;
@@ -124,12 +124,12 @@ namespace FPS_n2 {
 							int xp = y_r(10);
 							int yp = LineHeight + y_r(20) + LineHeight;
 							MakeList<TaskList>(xp, yp, TaskData::Instance()->GetList(), "Task", (int*)&m_EditTaskID, true, false, false, [&](const auto* tgt) {
-								if (tgt->GetTrader() != m_EditTraderID && m_EditTraderID != InvalidID) {
+								if (tgt->GetTrader() != this->m_EditTraderID && this->m_EditTraderID != InvalidID) {
 									return false;
 								}
 
 								for (const auto& m : tgt->GetTaskWorkData().GetMap()) {
-									if (m == m_MapSelect) { return true; }
+									if (m == this->m_MapSelect) { return true; }
 								}
 								return false;
 							});
@@ -143,7 +143,7 @@ namespace FPS_n2 {
 										Pins.resize(Pins.size() + 1);
 										Pins.back().m_Point.Set(Xper, Yper, 0.f);
 										Pins.back().m_MapID = MapPtr->GetID();
-										Pins.back().m_MapSel = m_WatchMapSelect;
+										Pins.back().m_MapSel = this->m_WatchMapSelect;
 									}
 								}
 							}
@@ -153,7 +153,7 @@ namespace FPS_n2 {
 						auto& Pins = TaskPtr->SetTaskWorkData().SetPin();
 						for (int loop = 0; loop < Pins.size(); loop++) {
 							const auto& p = Pins[loop];
-							if (p.m_MapID == MapPtr->GetID() && p.m_MapSel == m_WatchMapSelect) {
+							if (p.m_MapID == MapPtr->GetID() && p.m_MapSel == this->m_WatchMapSelect) {
 								float Xs = XSize * p.m_Point.x();
 								float Ys = YSize * p.m_Point.y();
 								int xp = posx + (int)(std::cos(m_Rad)*Xs - std::sin(m_Rad)*Ys);
@@ -182,7 +182,7 @@ namespace FPS_n2 {
 				}
 			}
 			if (ComPass.GetGraph()) {
-				DrawControl::Instance()->SetDrawRotaGraph(DrawLayer::Normal, ComPass.GetGraph(), y_r(100), y_r(1080 - 100), 1.f, m_ComPassRad, true);
+				DrawControl::Instance()->SetDrawRotaGraph(DrawLayer::Normal, ComPass.GetGraph(), y_r(100), y_r(1080 - 100), 1.f, this->m_ComPassRad, true);
 			}
 		}
 		void DrawFront_Sub(int posx, int posy, float Scale) noexcept override {
@@ -228,8 +228,8 @@ namespace FPS_n2 {
 				float XSize = (float)MapPtr->GetMapXSize((int)m_WatchMapSelect)*Scale / 2.f;
 				float YSize = (float)MapPtr->GetMapYSize((int)m_WatchMapSelect)*Scale / 2.f;
 
-				Xper = Len * std::sin(Rad + m_Rad);
-				Yper = Len * std::cos(Rad + m_Rad);
+				Xper = Len * std::sin(Rad + this->m_Rad);
+				Yper = Len * std::cos(Rad + this->m_Rad);
 
 				Xper = Xper / XSize;
 				Yper = Yper / YSize;
@@ -239,8 +239,8 @@ namespace FPS_n2 {
 						m_BaseLength.Set(Xper, Yper, 0.f);
 					}
 					{
-						float Xs1 = XSize * m_BaseLength.x();
-						float Ys1 = YSize * m_BaseLength.y();
+						float Xs1 = XSize * this->m_BaseLength.x();
+						float Ys1 = YSize * this->m_BaseLength.y();
 						int xp1 = posx + (int)(std::cos(m_Rad)*Xs1 - std::sin(m_Rad)*Ys1);
 						int yp1 = posy + (int)(std::cos(m_Rad)*Ys1 + std::sin(m_Rad)*Xs1);
 						float Xs2 = XSize * Xper;

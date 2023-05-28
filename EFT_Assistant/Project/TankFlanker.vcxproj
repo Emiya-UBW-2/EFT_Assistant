@@ -46,9 +46,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\Scene\MainScene\Data\MainScene_Enemy.cpp" />
     <ClCompile Include="source\Scene\MainScene\Data\MainScene_hideout.cpp" />
     <ClCompile Include="source\Scene\MainScene\Data\MainScene_Item.cpp" />
+    <ClCompile Include="source\Scene\MainScene\Data\MainScene_ItemCategory.cpp" />
+    <ClCompile Include="source\Scene\MainScene\Data\MainScene_ItemType.cpp" />
+    <ClCompile Include="source\Scene\MainScene\Data\MainScene_Map.cpp" />
     <ClCompile Include="source\Scene\MainScene\Data\MainScene_Parents.cpp" />
+    <ClCompile Include="source\Scene\MainScene\Data\MainScene_Preset.cpp" />
     <ClCompile Include="source\Scene\MainScene\Data\MainScene_Task.cpp" />
     <ClCompile Include="source\Scene\MainScene\Data\MainScene_Trader.cpp" />
   </ItemGroup>

@@ -3,9 +3,9 @@
 
 namespace FPS_n2 {
 	struct MapGraphParam {
-		Graphs m_Graph;
-		int m_Degree{ 0 };
-		float m_SizetoMeter{ 1.f };
+		Graphs	m_Graph;
+		int		m_Degree{ 0 };
+		float	m_SizetoMeter{ 1.f };
 	};
 	class MapList : public ListParent<MapID> {
 		std::vector<MapGraphParam>		m_MapGraph;
@@ -38,26 +38,26 @@ namespace FPS_n2 {
 		void	WhenAfterLoad_Sub() noexcept override {}
 	public:
 		void	LoadMapPics() noexcept {
-			for (auto& m : m_MapGraph) {
+			for (auto& m : this->m_MapGraph) {
 				m.m_Graph.LoadByPath(true);
 			}
 		}
 		void	WhenAfterLoadMapPics() noexcept {
-			for (auto& m : m_MapGraph) {
+			for (auto& m : this->m_MapGraph) {
 				m.m_Graph.WhenAfterLoad();
 			}
 		}
 		void	DisposeMapPics() noexcept {
-			for (auto& m : m_MapGraph) {
+			for (auto& m : this->m_MapGraph) {
 				m.m_Graph.DisposeGraph();
 			}
 		}
-		const auto	GetMapPicNum() const noexcept { return m_MapGraph.size(); }
-		const auto*	GetMapGraph(int ID) const noexcept { return m_MapGraph.at(ID).m_Graph.GetGraph(); }
-		const auto	GetMapXSize(int ID) const noexcept { return m_MapGraph.at(ID).m_Graph.GetXSize(); }
-		const auto	GetMapYSize(int ID) const noexcept { return m_MapGraph.at(ID).m_Graph.GetYSize(); }
+		const auto	GetMapPicNum() const noexcept { return this->m_MapGraph.size(); }
+		const auto*	GetMapGraph(int ID) const noexcept { return this->m_MapGraph.at(ID).m_Graph.GetGraph(); }
+		const auto	GetMapXSize(int ID) const noexcept { return this->m_MapGraph.at(ID).m_Graph.GetXSize(); }
+		const auto	GetMapYSize(int ID) const noexcept { return this->m_MapGraph.at(ID).m_Graph.GetYSize(); }
 		const auto	GetMapNorthRad(int ID) const noexcept { return deg2rad(m_MapGraph.at(ID).m_Degree); }
-		const auto&	GeSizetoMeter(int ID) const noexcept { return m_MapGraph.at(ID).m_SizetoMeter; }
+		const auto&	GeSizetoMeter(int ID) const noexcept { return this->m_MapGraph.at(ID).m_SizetoMeter; }
 	};
 	class MapData : public SingletonBase<MapData>, public DataParent<MapID, MapList> {
 	private:

@@ -705,8 +705,8 @@ namespace FPS_n2 {
 	//
 	void ItemJsonData::GetJsonSub(const nlohmann::json& data) noexcept {
 		m_categorytypes = data["category"]["name"];
-		if (data.contains("width")) { m_ItemsData.m_width = data["width"]; }
-		if (data.contains("height")) { m_ItemsData.m_height = data["height"]; }
+		if (data.contains("width")) { this->m_ItemsData.m_width = data["width"]; }
+		if (data.contains("height")) { this->m_ItemsData.m_height = data["height"]; }
 		m_ItemsData.m_weight = data["weight"];
 		for (const auto& sf : data["sellFor"]) {
 			m_ItemsData.m_sellFor.resize(m_ItemsData.m_sellFor.size() + 1);

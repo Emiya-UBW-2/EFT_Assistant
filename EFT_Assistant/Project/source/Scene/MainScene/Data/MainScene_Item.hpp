@@ -78,7 +78,7 @@ namespace FPS_n2 {
 						this->m_TypeID.emplace_back(TypeID);
 					}
 				}
-				const auto&		GetTypeID() const noexcept { return m_TypeID; }
+				const auto&		GetTypeID() const noexcept { return this->m_TypeID; }
 			};
 		private:
 			EnumItemProperties						m_Type{ EnumItemProperties::Max };
@@ -88,21 +88,21 @@ namespace FPS_n2 {
 			std::vector<IDParents<ItemID>>			m_ConflictPartsID;
 		public:
 			const auto*		GetTypeName() const noexcept { return (m_Type != EnumItemProperties::Max) ? ItemPropertiesStr[(int)m_Type] : ""; }
-			const auto&		GetType() const noexcept { return m_Type; }
+			const auto&		GetType() const noexcept { return this->m_Type; }
 		public:
-			const auto		GetStackMaxSize() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesAmmo) ? m_IntParams[0] : 0; }
+			const auto		GetStackMaxSize() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesAmmo) ? this->m_IntParams[0] : 0; }
 			const auto		GetArmerClass() const noexcept {
 				switch (m_Type) {
 				case EnumItemProperties::ItemPropertiesArmor:
-					return m_IntParams[0];
+					return this->m_IntParams[0];
 				case EnumItemProperties::ItemPropertiesArmorAttachment:
-					return m_IntParams[0];
+					return this->m_IntParams[0];
 				case EnumItemProperties::ItemPropertiesChestRig:
-					return m_IntParams[0];
+					return this->m_IntParams[0];
 				case EnumItemProperties::ItemPropertiesGlasses:
-					return m_IntParams[0];
+					return this->m_IntParams[0];
 				case EnumItemProperties::ItemPropertiesHelmet:
-					return m_IntParams[0];
+					return this->m_IntParams[0];
 				default:
 					return 0;
 				}
@@ -110,32 +110,32 @@ namespace FPS_n2 {
 			const auto		GetCapacity() const noexcept {
 				switch (m_Type) {
 				case EnumItemProperties::ItemPropertiesBackpack:
-					return m_IntParams[0];
+					return this->m_IntParams[0];
 				case EnumItemProperties::ItemPropertiesChestRig:
-					return m_IntParams[1];
+					return this->m_IntParams[1];
 				case EnumItemProperties::ItemPropertiesContainer:
-					return m_IntParams[0];
+					return this->m_IntParams[0];
 				case EnumItemProperties::ItemPropertiesMagazine:
-					return m_IntParams[0];
+					return this->m_IntParams[0];
 				default:
 					return 0;
 				}
 			}
-			const auto		GetEnergy() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesFoodDrink) ? m_IntParams[0] : 0; }
-			const auto		GetHydration() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesFoodDrink) ? m_IntParams[1] : 0; }
-			const auto		GetBlindnessProtection() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesGlasses) ? m_floatParams[0] : 0.f; }
-			const auto		GetFragments() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesGrenade) ? m_IntParams[0] : 0; }
-			const auto		GetUses() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesKey) ? m_IntParams[0] : 0; }
+			const auto		GetEnergy() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesFoodDrink) ? this->m_IntParams[0] : 0; }
+			const auto		GetHydration() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesFoodDrink) ? this->m_IntParams[1] : 0; }
+			const auto		GetBlindnessProtection() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesGlasses) ? this->m_floatParams[0] : 0.f; }
+			const auto		GetFragments() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesGrenade) ? this->m_IntParams[0] : 0; }
+			const auto		GetUses() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesKey) ? this->m_IntParams[0] : 0; }
 			const auto		GetUseTime() const noexcept {
 				switch (m_Type) {
 				case EnumItemProperties::ItemPropertiesMedicalItem:
-					return m_IntParams[0];
+					return this->m_IntParams[0];
 				case EnumItemProperties::ItemPropertiesPainkiller:
-					return m_IntParams[0];
+					return this->m_IntParams[0];
 				case EnumItemProperties::ItemPropertiesSurgicalKit:
-					return m_IntParams[0];
+					return this->m_IntParams[0];
 				case EnumItemProperties::ItemPropertiesStim:
-					return m_IntParams[0];
+					return this->m_IntParams[0];
 				default:
 					return 0;
 				}
@@ -143,31 +143,31 @@ namespace FPS_n2 {
 			const auto		GetSightingRange() const noexcept {
 				switch (m_Type) {
 				case EnumItemProperties::ItemPropertiesScope:
-					return m_IntParams[1];
+					return this->m_IntParams[1];
 				case EnumItemProperties::ItemPropertiesWeapon:
-					return m_IntParams[1];
+					return this->m_IntParams[1];
 				default:
 					return -100;
 				}
 			}
-			const auto		GetSlashDamage() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMelee) ? m_IntParams[0] : 0; }
+			const auto		GetSlashDamage() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMelee) ? this->m_IntParams[0] : 0; }
 
-			const auto		GetHitpoints() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMedKit) ? m_IntParams[0] : 0; }
-			const auto		GetIntensity() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesNightVision) ? m_IntParams[0] : 0; }
-			const auto		GetDefault() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesPreset) ? m_IntParams[0] : 0; }
-			const auto		GetWeaponRecoilVertical() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesWeapon) ? m_IntParams[0] : 0; }
-			const auto		GetWeaponErgonomics() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesWeapon) ? m_floatParams[0] : 0; }
+			const auto		GetHitpoints() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMedKit) ? this->m_IntParams[0] : 0; }
+			const auto		GetIntensity() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesNightVision) ? this->m_IntParams[0] : 0; }
+			const auto		GetDefault() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesPreset) ? this->m_IntParams[0] : 0; }
+			const auto		GetWeaponRecoilVertical() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesWeapon) ? this->m_IntParams[0] : 0; }
+			const auto		GetWeaponErgonomics() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesWeapon) ? this->m_floatParams[0] : 0; }
 
 			const auto		GetModRecoil() const noexcept {
 				switch (m_Type) {
 				case EnumItemProperties::ItemPropertiesBarrel:
-					return  m_floatParams[0];
+					return  this->m_floatParams[0];
 				case EnumItemProperties::ItemPropertiesMagazine:
-					return  m_floatParams[0];
+					return  this->m_floatParams[0];
 				case EnumItemProperties::ItemPropertiesScope:
-					return  m_floatParams[0];
+					return  this->m_floatParams[0];
 				case EnumItemProperties::ItemPropertiesWeaponMod:
-					return  m_floatParams[0];
+					return  this->m_floatParams[0];
 				default:
 					return 0.f;
 				}
@@ -175,23 +175,23 @@ namespace FPS_n2 {
 			const auto		GetModErgonomics() const noexcept {
 				switch (m_Type) {
 				case EnumItemProperties::ItemPropertiesBarrel:
-					return  m_floatParams[1];
+					return  this->m_floatParams[1];
 				case EnumItemProperties::ItemPropertiesMagazine:
-					return  m_floatParams[1];
+					return  this->m_floatParams[1];
 				case EnumItemProperties::ItemPropertiesScope:
-					return  m_floatParams[1];
+					return  this->m_floatParams[1];
 				case EnumItemProperties::ItemPropertiesWeaponMod:
-					return  m_floatParams[1];
+					return  this->m_floatParams[1];
 				default:
 					return 0.f;
 				}
 			}
 
-			auto&			SetModSlots() noexcept { return m_ChildPartsID; }
-			const auto&		GetModSlots() const noexcept { return m_ChildPartsID; }
+			auto&			SetModSlots() noexcept { return this->m_ChildPartsID; }
+			const auto&		GetModSlots() const noexcept { return this->m_ChildPartsID; }
 
-			auto&			SetConflictPartsID() noexcept { return m_ConflictPartsID; }
-			const auto&		GetConflictPartsID() const noexcept { return m_ConflictPartsID; }
+			auto&			SetConflictPartsID() noexcept { return this->m_ConflictPartsID; }
+			const auto&		GetConflictPartsID() const noexcept { return this->m_ConflictPartsID; }
 		private:
 			void			SetType(std::string_view value) noexcept {
 				for (int i = 0; i < (int)EnumItemProperties::Max; i++) {
@@ -464,7 +464,7 @@ namespace FPS_n2 {
 				else if (LEFT == "Conflict") {
 					for (auto&a : Args) {
 						bool isHit = false;
-						for (auto& d : m_ConflictPartsID) {
+						for (auto& d : this->m_ConflictPartsID) {
 							if (d.GetName() == a) {
 								isHit = true;
 								break;
@@ -505,16 +505,16 @@ namespace FPS_n2 {
 		void		Load_Sub() noexcept override;
 		void		WhenAfterLoad_Sub() noexcept override;
 	public:
-		const auto&	GetTypeID() const noexcept { return m_ItemsData.m_TypeID.GetID(); }
-		const auto&	GetMapID() const noexcept { return m_ItemsData.m_MapID; }
-		const auto&	GetChildParts() const noexcept { return m_ItemsData.m_properties.GetModSlots(); }
-		const auto&	GetConflictParts() const noexcept { return m_ItemsData.m_properties.GetConflictPartsID(); }
-		const auto&	Getwidth() const noexcept { return m_ItemsData.m_width; }
-		const auto&	Getheight() const noexcept { return m_ItemsData.m_height; }
-		const auto&	GetsellFor() const noexcept { return m_ItemsData.m_sellFor; }
-		const auto&	Getweight() const noexcept { return m_ItemsData.m_weight; }
-		const auto&	GetfleaMarketFee() const noexcept { return m_ItemsData.m_fleaMarketFee; }
-		const auto&	GetUseTaskID() const noexcept { return m_ItemsData.m_UseTaskID; }
+		const auto&	GetTypeID() const noexcept { return this->m_ItemsData.m_TypeID.GetID(); }
+		const auto&	GetMapID() const noexcept { return this->m_ItemsData.m_MapID; }
+		const auto&	GetChildParts() const noexcept { return this->m_ItemsData.m_properties.GetModSlots(); }
+		const auto&	GetConflictParts() const noexcept { return this->m_ItemsData.m_properties.GetConflictPartsID(); }
+		const auto&	Getwidth() const noexcept { return this->m_ItemsData.m_width; }
+		const auto&	Getheight() const noexcept { return this->m_ItemsData.m_height; }
+		const auto&	GetsellFor() const noexcept { return this->m_ItemsData.m_sellFor; }
+		const auto&	Getweight() const noexcept { return this->m_ItemsData.m_weight; }
+		const auto&	GetfleaMarketFee() const noexcept { return this->m_ItemsData.m_fleaMarketFee; }
+		const auto&	GetUseTaskID() const noexcept { return this->m_ItemsData.m_UseTaskID; }
 	public:
 		const auto	GetRecoil() const noexcept {
 			switch (this->m_ItemsData.m_properties.GetType()) {
@@ -537,17 +537,17 @@ namespace FPS_n2 {
 			case EnumItemProperties::ItemPropertiesMagazine:
 			case EnumItemProperties::ItemPropertiesScope:
 			case EnumItemProperties::ItemPropertiesWeaponMod:
-				return m_ItemsData.m_properties.GetModErgonomics();
+				return this->m_ItemsData.m_properties.GetModErgonomics();
 				//
 			case EnumItemProperties::ItemPropertiesWeapon:
-				return m_ItemsData.m_properties.GetWeaponErgonomics();
+				return this->m_ItemsData.m_properties.GetWeaponErgonomics();
 				//
 			default:
 				return 0.f;
 			}
 		}
-		const auto	GetSightRange() const noexcept { return m_ItemsData.m_properties.GetSightingRange(); }
-		const auto	GetIsPreset() const noexcept { return m_ItemsData.m_properties.GetType() == EnumItemProperties::ItemPropertiesPreset; }
+		const auto	GetSightRange() const noexcept { return this->m_ItemsData.m_properties.GetSightingRange(); }
+		const auto	GetIsPreset() const noexcept { return this->m_ItemsData.m_properties.GetType() == EnumItemProperties::ItemPropertiesPreset; }
 	public:
 		void		SetParent() noexcept;
 		const auto	GetSellValue(TraderID* ID, int* pValue) const noexcept {
@@ -593,16 +593,16 @@ namespace FPS_n2 {
 					SetDirList((Path2 + RetPath3 + "/").c_str());
 				});
 			});
-			for (auto& t : m_List) {
+			for (auto& t : this->m_List) {
 				t.m_CheckJson = 0;
 			}
 		}
 		~ItemData() noexcept {}
 	private:
-		std::vector<ItemJsonData> m_ItemJsonData;
+		std::vector<ItemJsonData>	m_ItemJsonData;
 	public:
 		void SetParent()noexcept {
-			for (auto& L : m_List) {
+			for (auto& L : this->m_List) {
 				L.SetParent();
 			}
 		}
@@ -614,8 +614,8 @@ namespace FPS_n2 {
 			}
 		}
 		void UpdateData() noexcept {
-			for (auto& L : m_List) {
-				for (auto& jd : m_ItemJsonData) {
+			for (auto& L : this->m_List) {
+				for (auto& jd : this->m_ItemJsonData) {
 					if (L.GetIDstr() == jd.m_id) {
 						L.m_CheckJson++;
 
@@ -637,7 +637,7 @@ namespace FPS_n2 {
 		}
 		void SaveAsNewData2(std::string Path) noexcept {
 			bool maked = false;
-			for (auto& jd : m_ItemJsonData) {
+			for (auto& jd : this->m_ItemJsonData) {
 				if (!jd.m_IsFileOpened) {
 					std::string ParentPath = Path + jd.m_categorytypes;
 
@@ -667,14 +667,14 @@ namespace FPS_n2 {
 			}
 		}
 		void CheckThroughJson(void) noexcept {
-			for (auto& t : m_List) {
+			for (auto& t : this->m_List) {
 				if (t.m_CheckJson == 0) {
 					std::string ErrMes = "Error : ThroughJson : ";
 					ErrMes += t.GetName();
 					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
 				}
 			}
-			for (auto& t : m_List) {
+			for (auto& t : this->m_List) {
 				if (t.m_CheckJson >= 2) {
 					std::string ErrMes = "Error : Be repeated ";
 					ErrMes += std::to_string(t.m_CheckJson);

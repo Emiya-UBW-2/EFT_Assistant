@@ -31,7 +31,7 @@ namespace FPS_n2 {
 			m_ShiftKey.Set(false);
 			m_SpaceKey.Set(false);
 			m_CtrlKey.Set(false);
-			for (auto& k : m_AtoZKey) {
+			for (auto& k : this->m_AtoZKey) {
 				k.Set(false);
 			}
 		}
@@ -106,7 +106,7 @@ namespace FPS_n2 {
 				KEY_INPUT_Y,
 				KEY_INPUT_Z,
 			};
-			for (int loop = 0; loop < m_AtoZKey.size(); loop++) {
+			for (int loop = 0; loop < this->m_AtoZKey.size(); loop++) {
 				m_AtoZKey[loop].Execute(CheckHitKeyWithCheck(KEYS[loop]) != 0);
 			}
 			m_WheelAdd = GetMouseWheelRotVolWithCheck();

@@ -143,5 +143,20 @@
     <ClCompile Include="source\Scene\MainScene\Data\MainScene_Task.cpp">
       <Filter>ソース ファイル\Scene\Data</Filter>
     </ClCompile>
+    <ClCompile Include="source\Scene\MainScene\Data\MainScene_Enemy.cpp">
+      <Filter>ソース ファイル\Scene\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene\MainScene\Data\MainScene_ItemCategory.cpp">
+      <Filter>ソース ファイル\Scene\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene\MainScene\Data\MainScene_ItemType.cpp">
+      <Filter>ソース ファイル\Scene\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene\MainScene\Data\MainScene_Map.cpp">
+      <Filter>ソース ファイル\Scene\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene\MainScene\Data\MainScene_Preset.cpp">
+      <Filter>ソース ファイル\Scene\Data</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

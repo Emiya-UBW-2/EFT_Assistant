@@ -31,14 +31,14 @@ namespace FPS_n2 {
 			std::string NumBuf2 = LEFT.substr(2, 1);
 			if (std::all_of(NumBuf2.cbegin(), NumBuf2.cend(), isdigit)) {
 				int ID = std::stoi(NumBuf2) - 1;
-				if (m_LvData.size() <= ID) { m_LvData.resize(ID + 1); }
+				if (m_LvData.size() <= ID) { this->m_LvData.resize(ID + 1); }
 				//開放データ
-				if (LEFTBuf == "Reputation") { m_LvData.at(ID).Reputation = std::stof(Args[0]); }
-				if (LEFTBuf == "NeedLv") { m_LvData.at(ID).NeedLv = std::stoi(Args[0]); }
-				if (LEFTBuf == "Commerce") { m_LvData.at(ID).Commerce = std::stoi(Args[0]); }
-				if (LEFTBuf == "payRate") { m_LvData.at(ID).payRate = std::stof(Args[0]); }
-				if (LEFTBuf == "insuranceRate") { m_LvData.at(ID).insuranceRate = std::stof(Args[0]); }
-				if (LEFTBuf == "repairCostMultiplier") { m_LvData.at(ID).repairCostMultiplier = std::stof(Args[0]); }
+				if (LEFTBuf == "Reputation") { this->m_LvData.at(ID).Reputation = std::stof(Args[0]); }
+				if (LEFTBuf == "NeedLv") { this->m_LvData.at(ID).NeedLv = std::stoi(Args[0]); }
+				if (LEFTBuf == "Commerce") { this->m_LvData.at(ID).Commerce = std::stoi(Args[0]); }
+				if (LEFTBuf == "payRate") { this->m_LvData.at(ID).payRate = std::stof(Args[0]); }
+				if (LEFTBuf == "insuranceRate") { this->m_LvData.at(ID).insuranceRate = std::stof(Args[0]); }
+				if (LEFTBuf == "repairCostMultiplier") { this->m_LvData.at(ID).repairCostMultiplier = std::stof(Args[0]); }
 				//
 				if (LEFTBuf == "BarteritemReq") {
 					m_LvData.at(ID).m_ItemBarters.resize(m_LvData.at(ID).m_ItemBarters.size() + 1);
@@ -62,7 +62,7 @@ namespace FPS_n2 {
 	public:
 		const auto&	GetInformation() const noexcept { return Information_Eng; }
 		const auto&	GetPayItem() const noexcept { return PayItem; }
-		const auto&	GetLvData() const noexcept { return m_LvData; }
+		const auto&	GetLvData() const noexcept { return this->m_LvData; }
 	};
 	//
 	class TraderJsonData :public JsonDataParent {
@@ -86,7 +86,7 @@ namespace FPS_n2 {
 		~TraderData() noexcept {}
 	public:
 		void UpdateData() noexcept {
-			for (auto& L : m_List) {
+			for (auto& L : this->m_List) {
 				for (auto& jd : GetJsonDataList()) {
 					if (L.GetIDstr() == jd->m_id) {
 						jd->OutputData(L.GetFilePath());

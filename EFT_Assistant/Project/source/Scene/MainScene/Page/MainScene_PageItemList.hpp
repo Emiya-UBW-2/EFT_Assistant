@@ -28,10 +28,10 @@ namespace FPS_n2 {
 			{
 				struct counts
 				{
-					ItemID m_ID{ InvalidID };
-					int count;
-					bool isFir{ true };
-					bool isNeed{ false };
+					ItemID	m_ID{ InvalidID };
+					int		count;
+					bool	isFir{ true };
+					bool	isNeed{ false };
 				};
 				std::vector<std::vector<counts>> Counter;
 				Counter.resize(ItemTypeData::Instance()->GetList().size());
@@ -60,7 +60,7 @@ namespace FPS_n2 {
 						if (IsChecktask && PlayerData::Instance()->GetTaskClear(tasks.GetName().c_str())) {
 							IsChecktask = false;
 						}
-						if (IsChecktask && m_DrawCanClearTask) {//クリアできるタスクだけ表示
+						if (IsChecktask && this->m_DrawCanClearTask) {//クリアできるタスクだけ表示
 							if (tasks.GetTaskNeedData().GetParenttaskID().size() > 0) {
 								for (const auto& p : tasks.GetTaskNeedData().GetParenttaskID()) {
 									if (!PlayerData::Instance()->GetTaskClear(TaskData::Instance()->FindPtr(p.GetID())->GetName().c_str())) {
@@ -143,7 +143,7 @@ namespace FPS_n2 {
 							if (IsChecktask && PlayerData::Instance()->GetHideoutClear(L.GetName().c_str(), (int)(&Ld - &L.GetLvData().front()) + 1)) {
 								IsChecktask = false;
 							}
-							if (IsChecktask && m_DrawCanClearHideout) {
+							if (IsChecktask && this->m_DrawCanClearHideout) {
 								for (const auto& w : Ld.m_Parent) {
 									if (!PlayerData::Instance()->GetHideoutClear(HideoutData::Instance()->FindPtr(w.GetID())->GetName().c_str(), w.GetValue())) {
 										IsChecktask = false;
@@ -303,7 +303,7 @@ namespace FPS_n2 {
 					int ScrSizY = ypMax - ypos;
 					m_Scroll.ScrollBox(xpos, ypos, ScrPosX, ypos + ScrSizY, (float)std::max(yp - ypBase, ScrSizY) / (float)ScrSizY, true);
 
-					m_YNow = std::max(0.f, m_Scroll.GetNowScrollYPer()*(float)((yp - ypBase) - ScrSizY));
+					m_YNow = std::max(0.f, this->m_Scroll.GetNowScrollYPer()*(float)((yp - ypBase) - ScrSizY));
 				}
 			}
 		}
@@ -326,7 +326,7 @@ namespace FPS_n2 {
 					int xp = y_r(1920) - y_r(48) - y_r(200);
 					int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(40) * 2 - y_r(5) - y_r(40) * 1;
 					WindowSystem::CheckBox(xp, yp, &m_DrawCanClearHideout);
-					WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_RIGHT, m_IsCheckOpenCraft ? White : Gray50, Black, "開放可能対象のみ");
+					WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_RIGHT, this->m_IsCheckOpenCraft ? White : Gray50, Black, "開放可能対象のみ");
 				}
 			}
 			//タスク
@@ -344,14 +344,14 @@ namespace FPS_n2 {
 					int xp = y_r(1920) - y_r(48) - y_r(200);
 					int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(40) * 1;
 					WindowSystem::CheckBox(xp, yp, &m_DrawCanClearTask);
-					WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_RIGHT, m_IsCheckTask ? White : Gray50, Black, "クリア可能対象のみ");
+					WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_RIGHT, this->m_IsCheckTask ? White : Gray50, Black, "クリア可能対象のみ");
 				}
 				//タスクに必要なアイテム(サプレッサーなど)を追加
 				{
 					int xp = y_r(1920) - y_r(48) - y_r(200);
 					int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(40) * 0;
 					WindowSystem::CheckBox(xp, yp, &m_IsNeedItem);
-					WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_RIGHT, m_IsCheckTask ? White : Gray50, Black, "必要品(鍵など)を追加");
+					WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_RIGHT, this->m_IsCheckTask ? White : Gray50, Black, "必要品(鍵など)を追加");
 				}
 			}
 			//サイド表示

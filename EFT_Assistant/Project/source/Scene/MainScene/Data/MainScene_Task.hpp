@@ -5,27 +5,25 @@ namespace FPS_n2 {
 	class TaskList : public ListParent<TaskID> {
 		class TaskNeedData {
 		private:
-			TraderID						m_Trader{ InvalidID };
+			IDParents<TraderID>				m_Trader;
 			int								m_Level{ -1 };
 			int								m_LL{ -1 };
 			std::vector<IDParents<TaskID>>	m_Parenttask;
 			std::vector<ItemGetData>		m_Item;
 			bool							m_kappaRequired{ false };
 			bool							m_lightkeeperRequired{ false };
-
-			std::string						m_TraderArg;
 		public:
-			const auto& GetTrader() const noexcept { return m_Trader; }
-			const auto& GetLevel() const noexcept { return m_Level; }
-			const auto& GetLL() const noexcept { return m_LL; }
+			const auto& GetTrader() const noexcept { return this->m_Trader.GetID(); }
+			const auto& GetLevel() const noexcept { return this->m_Level; }
+			const auto& GetLL() const noexcept { return this->m_LL; }
 			const auto& GetParenttaskID() const noexcept { return this->m_Parenttask; }
-			const auto& GetItem() const noexcept { return m_Item; }
-			const auto& GetKappaRequired() const noexcept { return m_kappaRequired; }
-			const auto& GetLightKeeperRequired() const noexcept { return m_lightkeeperRequired; }
+			const auto& GetItem() const noexcept { return this->m_Item; }
+			const auto& GetKappaRequired() const noexcept { return this->m_kappaRequired; }
+			const auto& GetLightKeeperRequired() const noexcept { return this->m_lightkeeperRequired; }
 		public:
 			void		Set(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
 				if (LEFT == "Trader") {
-					m_TraderArg = Args[0];
+					m_Trader.SetName(Args[0]);
 				}
 				else if (LEFT == "NeedTask") {
 					this->m_Parenttask.resize(this->m_Parenttask.size() + 1);
@@ -50,7 +48,7 @@ namespace FPS_n2 {
 				}
 			}
 			void		SetAfter() noexcept {
-				m_Trader = TraderData::Instance()->FindID(m_TraderArg);
+				m_Trader.CheckID(TraderData::Instance());
 				for (auto& T : this->m_Item) {
 					T.CheckID(ItemData::Instance());
 				}
@@ -63,9 +61,9 @@ namespace FPS_n2 {
 				MapID								m_MapID{ InvalidID };
 				int									m_KillCount{ 0 };
 			public:
-				const auto& GetEnemyID() const noexcept { return m_EnemyID; }
-				const auto& GetMapID() const noexcept { return m_MapID; }
-				const auto& GetKillCount() const noexcept { return m_KillCount; }
+				const auto& GetEnemyID() const noexcept { return this->m_EnemyID; }
+				const auto& GetMapID() const noexcept { return this->m_MapID; }
+				const auto& GetKillCount() const noexcept { return this->m_KillCount; }
 			public:
 				void	Set(MapID mapID, EnemyID enemyID, int count) noexcept {
 					this->m_EnemyID = enemyID;
@@ -95,15 +93,15 @@ namespace FPS_n2 {
 			std::vector<std::string>					m_PresetArgs;
 			std::vector<std::string>					m_MapArgs;
 		public:
-			const auto& GetMap() const noexcept { return m_Map; }
-			const auto& GetKill() const noexcept { return m_Kill; }
-			const auto& GetFiR_Item() const noexcept { return m_FiR_Item; }
-			const auto& GetNotFiR_Item() const noexcept { return m_NotFiR_Item; }
-			const auto& GetWeaponPreset() const noexcept { return m_PresetID; }
-			const auto& GetElseMsg() const noexcept { return m_ElseMsg; }
-			const auto& GetPin() const noexcept { return m_Pin; }
+			const auto& GetMap() const noexcept { return this->m_Map; }
+			const auto& GetKill() const noexcept { return this->m_Kill; }
+			const auto& GetFiR_Item() const noexcept { return this->m_FiR_Item; }
+			const auto& GetNotFiR_Item() const noexcept { return this->m_NotFiR_Item; }
+			const auto& GetWeaponPreset() const noexcept { return this->m_PresetID; }
+			const auto& GetElseMsg() const noexcept { return this->m_ElseMsg; }
+			const auto& GetPin() const noexcept { return this->m_Pin; }
 
-			auto& SetPin() noexcept { return m_Pin; }
+			auto& SetPin() noexcept { return this->m_Pin; }
 		public:
 			void Set(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
 				if (LEFT == "Task_Map") {//ロケーション追加
@@ -179,7 +177,7 @@ namespace FPS_n2 {
 						//int a = 0;
 					}
 				};
-				for (auto& a : m_EnemyKillArgs) {
+				for (auto& a : this->m_EnemyKillArgs) {
 					SetKill(a);
 				}
 
@@ -191,13 +189,13 @@ namespace FPS_n2 {
 				}
 
 
-				for (auto& a : m_PresetArgs) {
+				for (auto& a : this->m_PresetArgs) {
 					m_PresetID.emplace_back(PresetData::Instance()->FindID(a));
 				}
 				for (auto& a : this->m_Pin) {
 					a.m_MapID = MapData::Instance()->FindID(a.m_MapArg);
 				}
-				for (auto& a : m_MapArgs) {
+				for (auto& a : this->m_MapArgs) {
 					this->m_Map.emplace_back(MapData::Instance()->FindID(a));
 				}
 			}
@@ -206,8 +204,8 @@ namespace FPS_n2 {
 			std::vector<TraderLLData>	m_LLAdd;
 			std::vector<ItemGetData>	m_Item;
 		public:
-			const auto& GetLLAdd() const noexcept { return m_LLAdd; }
-			const auto& GetItem() const noexcept { return m_Item; }
+			const auto& GetLLAdd() const noexcept { return this->m_LLAdd; }
+			const auto& GetItem() const noexcept { return this->m_Item; }
 		public:
 			void Set(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
 				if (LEFT == "Reward_Rep") {
@@ -236,12 +234,12 @@ namespace FPS_n2 {
 	public:
 		int							m_CheckJson{ 0 };
 	public:
-		const auto&		GetTrader() const noexcept { return m_TaskNeedData.GetTrader(); }
-		const auto&		GetTaskNeedData() const noexcept { return m_TaskNeedData; }
-		const auto&		GetTaskWorkData() const noexcept { return m_TaskWorkData; }
-		const auto&		GetTaskRewardData() const noexcept { return m_TaskRewardData; }
+		const auto&		GetTrader() const noexcept { return this->m_TaskNeedData.GetTrader(); }
+		const auto&		GetTaskNeedData() const noexcept { return this->m_TaskNeedData; }
+		const auto&		GetTaskWorkData() const noexcept { return this->m_TaskWorkData; }
+		const auto&		GetTaskRewardData() const noexcept { return this->m_TaskRewardData; }
 
-		auto&			SetTaskWorkData() noexcept { return m_TaskWorkData; }
+		auto&			SetTaskWorkData() noexcept { return this->m_TaskWorkData; }
 	public:
 		void			SetSub(const std::string& LEFT, const std::vector<std::string>&Args) noexcept override {
 			//Need
@@ -277,12 +275,12 @@ namespace FPS_n2 {
 				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "トレーダー:%s Lv %d", ptr->GetName().c_str(), std::max(m_TaskNeedData.GetLL(), 1))); yofs += sizy;
 			}
 			if (m_TaskNeedData.GetLevel() >= 1) {
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "必要レベル:%d", m_TaskNeedData.GetLevel())); yofs += sizy;
+				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "必要レベル:%d", this->m_TaskNeedData.GetLevel())); yofs += sizy;
 			}
 			if (m_TaskNeedData.GetItem().size() > 0) {
 				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "必要アイテム:")); yofs += sizy;
 				yofs += LineHeight;
-				for (const auto& LL : m_TaskNeedData.GetItem()) {
+				for (const auto& LL : this->m_TaskNeedData.GetItem()) {
 					auto ID = LL.GetID();
 					auto* ptr = ItemData::Instance()->FindPtr(ID);
 					int total_size = y_r(48);
@@ -293,14 +291,14 @@ namespace FPS_n2 {
 			//タスク内容
 			if (m_TaskWorkData.GetMap().size() > 0) {
 				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "マップ指定:")); yofs += sizy;
-				for (auto& LL : m_TaskWorkData.GetMap()) {
+				for (auto& LL : this->m_TaskWorkData.GetMap()) {
 					auto* ptr = MapData::Instance()->FindPtr(LL);
 					xofs = std::max(xofs, WindowSystem::SetMsg(xp + y_r(30), yp + yofs, xp + y_r(30), yp + sizy + yofs, sizy, STRX_LEFT, ptr->GetColors(0), Black, "%s", ptr->GetName().c_str()) + y_r(30)); yofs += sizy;
 				}
 			}
 			if (m_TaskWorkData.GetKill().size() > 0) {
 				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "敵をキル:")); yofs += sizy;
-				for (auto& LL : m_TaskWorkData.GetKill()) {
+				for (auto& LL : this->m_TaskWorkData.GetKill()) {
 					auto* eny = EnemyData::Instance()->FindPtr(LL.GetEnemyID());
 					xofs = std::max(xofs, WindowSystem::SetMsg(xp + y_r(30), yp + yofs, xp + y_r(30), yp + sizy + yofs, sizy, STRX_LEFT, eny->GetColors(0), Black, "%s x%2d", eny->GetName().c_str(), LL.GetKillCount()) + y_r(30));
 					if (LL.GetMapID() != InvalidID) {
@@ -313,7 +311,7 @@ namespace FPS_n2 {
 			if (m_TaskWorkData.GetFiR_Item().size() > 0) {
 				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "Firアイテムの納品:")); yofs += sizy;
 				yofs += LineHeight;
-				for (const auto& LL : m_TaskWorkData.GetFiR_Item()) {
+				for (const auto& LL : this->m_TaskWorkData.GetFiR_Item()) {
 					auto ID = LL.GetID();
 					auto* ptr = ItemData::Instance()->FindPtr(ID);
 					int total_size = y_r(48);
@@ -324,7 +322,7 @@ namespace FPS_n2 {
 			if (m_TaskWorkData.GetNotFiR_Item().size() > 0) {
 				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "Firでなくてよいアイテムの納品:")); yofs += sizy;
 				yofs += LineHeight;
-				for (const auto& LL : m_TaskWorkData.GetNotFiR_Item()) {
+				for (const auto& LL : this->m_TaskWorkData.GetNotFiR_Item()) {
 					auto ID = LL.GetID();
 					auto* ptr = ItemData::Instance()->FindPtr(ID);
 					int total_size = y_r(48);
@@ -337,7 +335,7 @@ namespace FPS_n2 {
 				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "カスタム品の納品:")); yofs += sizy;
 				yofs += LineHeight;
 				//
-				for (const auto& LL : m_TaskWorkData.GetWeaponPreset()) {
+				for (const auto& LL : this->m_TaskWorkData.GetWeaponPreset()) {
 					auto* ptr = PresetData::Instance()->FindPtr(LL);
 					int total_size = LineHeight;
 					int XSize = WindowSystem::GetMsgLen(total_size, ptr->GetName());
@@ -353,7 +351,7 @@ namespace FPS_n2 {
 			}
 			if (m_TaskWorkData.GetElseMsg().size() > 0) {
 				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "メモ:")); yofs += sizy;
-				for (auto& m : m_TaskWorkData.GetElseMsg()) {
+				for (auto& m : this->m_TaskWorkData.GetElseMsg()) {
 					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, m.c_str())); yofs += sizy;
 				}
 			}
@@ -363,7 +361,7 @@ namespace FPS_n2 {
 				yofs += LineHeight;
 			}
 			if (m_TaskRewardData.GetLLAdd().size() > 0) {
-				for (auto& LL : m_TaskRewardData.GetLLAdd()) {
+				for (auto& LL : this->m_TaskRewardData.GetLLAdd()) {
 					auto* trader2 = TraderData::Instance()->FindPtr(LL.GetID());
 					xofs = std::max(xofs, WindowSystem::SetMsg(xp + y_r(30), yp + yofs, xp + y_r(30), yp + sizy + yofs, sizy, STRX_LEFT, trader2->GetColors(0), Black, "%s %s%4.2f",
 						trader2->GetName().c_str(),
@@ -372,7 +370,7 @@ namespace FPS_n2 {
 				}
 			}
 			if (m_TaskRewardData.GetItem().size() > 0) {
-				for (const auto& LL : m_TaskRewardData.GetItem()) {
+				for (const auto& LL : this->m_TaskRewardData.GetItem()) {
 					auto ID = LL.GetID();
 					auto* ptr = ItemData::Instance()->FindPtr(ID);
 					int total_size = y_r(48);
@@ -892,7 +890,7 @@ namespace FPS_n2 {
 			});
 			for (auto& i : ItemData::Instance()->SetList()) {
 				i.ResetTaskUseID();
-				for (const auto& t : m_List) {
+				for (const auto& t : this->m_List) {
 					for (const auto& n : t.GetTaskNeedData().GetItem()) {
 						if (i.GetID() == n.GetID()) {
 							i.AddTaskUseID(t.GetID());
@@ -918,7 +916,7 @@ namespace FPS_n2 {
 		std::vector<int> TraderIDs;
 	public:
 		void			SetNeedTasktoID() noexcept {
-			for (auto& t : m_List) {
+			for (auto& t : this->m_List) {
 				t.SetNeedTasktoID();
 			}
 		}
@@ -927,7 +925,7 @@ namespace FPS_n2 {
 			for (auto&i : TraderIDs) { i = 0; }
 		}
 		void SaveDatabyJson() noexcept {
-			for (auto& L : m_List) {
+			for (auto& L : this->m_List) {
 				for (auto& jd : GetJsonDataList()) {
 					if (L.GetIDstr() == jd->m_id) {
 						L.m_CheckJson++;
@@ -986,14 +984,14 @@ namespace FPS_n2 {
 			}
 		}
 		void CheckThroughJson(void) noexcept {
-			for (auto& t : m_List) {
+			for (auto& t : this->m_List) {
 				if (t.m_CheckJson == 0) {
 					std::string ErrMes = "Error : ThroughJson : ";
 					ErrMes += t.GetName();
 					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
 				}
 			}
-			for (auto& t : m_List) {
+			for (auto& t : this->m_List) {
 				if (t.m_CheckJson >= 2) {
 					std::string ErrMes = "Error : Be repeated ";
 					ErrMes += std::to_string(t.m_CheckJson);

@@ -19,33 +19,33 @@ namespace FPS_n2 {
 		std::array<const GraphHandle*, 1>		m_GraphHandleParam;
 		std::string								m_string;
 	public:
-		void InputType(DrawType type) noexcept { m_type = type; }
-		void InputintParam(int ID, int param) noexcept { m_intParam.at(ID) = param; }
-		void InputUintParam(int ID, unsigned int param) noexcept { m_UintParam.at(ID) = param; }
-		void InputfloatParam(int ID, float param) noexcept { m_floatParam.at(ID) = param; }
-		void InputboolParam(int ID, bool param) noexcept { m_boolParam.at(ID) = param; }
-		void InputGraphHandleParam(int ID, const GraphHandle* param) noexcept { m_GraphHandleParam.at(ID) = param; }
-		void InputStringParam(std::string_view param) noexcept { m_string = param; }
+		void InputType(DrawType type) noexcept { this->m_type = type; }
+		void InputintParam(int ID, int param) noexcept { this->m_intParam.at(ID) = param; }
+		void InputUintParam(int ID, unsigned int param) noexcept { this->m_UintParam.at(ID) = param; }
+		void InputfloatParam(int ID, float param) noexcept { this->m_floatParam.at(ID) = param; }
+		void InputboolParam(int ID, bool param) noexcept { this->m_boolParam.at(ID) = param; }
+		void InputGraphHandleParam(int ID, const GraphHandle* param) noexcept { this->m_GraphHandleParam.at(ID) = param; }
+		void InputStringParam(std::string_view param) noexcept { this->m_string = param; }
 	public:
 		void Output() const noexcept {
 			switch (m_type) {
 			case DrawType::Alpha:
-				SetDrawBlendMode(DX_BLENDMODE_ALPHA, m_intParam[0]);
+				SetDrawBlendMode(DX_BLENDMODE_ALPHA, this->m_intParam[0]);
 				break;
 			case DrawType::Box:
-				DxLib::DrawBox(m_intParam[0], m_intParam[1], m_intParam[2], m_intParam[3], m_UintParam[0], (m_boolParam[0]) ? TRUE : FALSE);
+				DxLib::DrawBox(m_intParam[0], this->m_intParam[1], this->m_intParam[2], this->m_intParam[3], this->m_UintParam[0], (m_boolParam[0]) ? TRUE : FALSE);
 				break;
 			case DrawType::Circle:
-				DxLib::DrawCircle(m_intParam[0], m_intParam[1], m_intParam[2], m_UintParam[0], (m_boolParam[0]) ? TRUE : FALSE, m_intParam[3]);
+				DxLib::DrawCircle(m_intParam[0], this->m_intParam[1], this->m_intParam[2], this->m_UintParam[0], (m_boolParam[0]) ? TRUE : FALSE, this->m_intParam[3]);
 				break;
 			case DrawType::Line:
-				DxLib::DrawLine(m_intParam[0], m_intParam[1], m_intParam[2], m_intParam[3], m_UintParam[0], m_intParam[4]);
+				DxLib::DrawLine(m_intParam[0], this->m_intParam[1], this->m_intParam[2], this->m_intParam[3], this->m_UintParam[0], this->m_intParam[4]);
 				break;
 			case DrawType::String:
-				FontPool::Instance()->Get((FontPool::FontType)m_intParam[0], m_intParam[1]).DrawString(
+				FontPool::Instance()->Get((FontPool::FontType)m_intParam[0], this->m_intParam[1]).DrawString(
 					-1,
 					(FontHandle::FontXCenter)m_intParam[2], (FontHandle::FontYCenter)m_intParam[3],
-					m_intParam[4], m_intParam[5],
+					m_intParam[4], this->m_intParam[5],
 					m_UintParam[0],
 					m_UintParam[1],
 					m_string.c_str()
@@ -53,14 +53,14 @@ namespace FPS_n2 {
 				break;
 			case DrawType::RotaGraph:
 				if (m_GraphHandleParam.at(0)) {
-					if (m_floatParam[0] < 0.9f && 1.1f < m_floatParam[0]) {
+					if (m_floatParam[0] < 0.9f && 1.1f < this->m_floatParam[0]) {
 						auto prev = GetDrawMode();
 						SetDrawMode(DX_DRAWMODE_BILINEAR);
-						m_GraphHandleParam.at(0)->DrawRotaGraph(m_intParam[0], m_intParam[1], m_floatParam[0], m_floatParam[1], m_boolParam[0]);
+						m_GraphHandleParam.at(0)->DrawRotaGraph(m_intParam[0], this->m_intParam[1], this->m_floatParam[0], this->m_floatParam[1], this->m_boolParam[0]);
 						SetDrawMode(prev);
 					}
 					else {
-						m_GraphHandleParam.at(0)->DrawRotaGraph(m_intParam[0], m_intParam[1], m_floatParam[0], m_floatParam[1], m_boolParam[0]);
+						m_GraphHandleParam.at(0)->DrawRotaGraph(m_intParam[0], this->m_intParam[1], this->m_floatParam[0], this->m_floatParam[1], this->m_boolParam[0]);
 					}
 				}
 				break;
@@ -76,8 +76,8 @@ namespace FPS_n2 {
 		int			m_SizeX{ 0 };
 		int			m_SizeY{ 0 };
 	public:
-		const auto&		GetPosX() const noexcept { return m_PosX; }
-		const auto&		GetPosY() const noexcept { return m_PosY; }
+		const auto&		GetPosX() const noexcept { return this->m_PosX; }
+		const auto&		GetPosY() const noexcept { return this->m_PosY; }
 		void			Set(int posx, int posy, int sizex, int sizey) noexcept {
 			m_PosX = posx;
 			m_PosY = posy;
@@ -311,14 +311,14 @@ namespace FPS_n2 {
 		//
 	public:
 		void	ClearList() noexcept {
-			for (auto& d : m_DrawDatas) {
+			for (auto& d : this->m_DrawDatas) {
 				d.clear();
 			}
 			m_DrawDatas.clear();
 			m_DrawDatas.resize((int)DrawLayer::Max);
 		}
 		void	Draw() noexcept {
-			for (auto& ds : m_DrawDatas) {
+			for (auto& ds : this->m_DrawDatas) {
 				for (auto& da : ds) {
 					da.Output();
 				}

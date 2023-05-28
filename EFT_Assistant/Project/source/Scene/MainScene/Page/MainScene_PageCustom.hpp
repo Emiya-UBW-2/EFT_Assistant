@@ -113,9 +113,9 @@ namespace FPS_n2 {
 		std::vector<std::pair<int, bool>>	m_ItemIDs;
 		float							m_XChild{ 0.f };
 		void MakeLists(int Layer, bool AndNext, const std::function<void(std::pair<int, bool>*)>& ListSet) noexcept {
-			auto& NowSel = m_ItemIDs.at(Layer);
+			auto& NowSel = this->m_ItemIDs.at(Layer);
 			NowSel.second = ((NowSel.first != InvalidID) && AndNext);
-			if (Layer == 0 || (Layer >= 1 && m_ItemIDs.at(Layer - 1).second)) {
+			if (Layer == 0 || (Layer >= 1 && this->m_ItemIDs.at(Layer - 1).second)) {
 				ListSet(&NowSel);
 			}
 			else {
@@ -127,17 +127,17 @@ namespace FPS_n2 {
 		ItemID		m_SelectBuffer{ InvalidID };
 		ItemList*	m_BaseWeapon{ nullptr };
 
-		bool m_EnableMag = false;
-		bool m_EnableMount = false;
-		bool m_EnableSight = false;
-		float m_Recoil = 50;
-		float m_Ergonomics = 50;
+		bool	m_EnableMag = false;
+		bool	m_EnableMount = false;
+		bool	m_EnableSight = false;
+		float	m_Recoil = 50;
+		float	m_Ergonomics = 50;
 
-		float m_RecAddMin{ 0 };
-		float m_RecAddMax{ 0 };
-		float m_ErgAddMin{ 0 };
-		float m_ErgAddMax{ 0 };
-		bool m_SpecChange = false;
+		float	m_RecAddMin{ 0 };
+		float	m_RecAddMax{ 0 };
+		float	m_ErgAddMin{ 0 };
+		float	m_ErgAddMax{ 0 };
+		bool	m_SpecChange = false;
 
 
 		std::vector<ChildData>			m_ChildData;
@@ -169,7 +169,7 @@ namespace FPS_n2 {
 		void AddPartsSeek(int i) noexcept {
 			if (i >= 0) {
 				m_PartsSeek[i]++;
-				if (m_PartsSeek[i] >= m_PartsBaseData[i].size()) {
+				if (m_PartsSeek[i] >= this->m_PartsBaseData[i].size()) {
 					m_PartsSeek[i] = 0;
 					AddPartsSeek(i - 1);
 				}
@@ -181,12 +181,12 @@ namespace FPS_n2 {
 			auto* Ptr_Buf = Ptr;
 			if (Ptr == nullptr) {
 				m_ChildData.clear();
-				Ptr_Buf = m_BaseWeapon;
+				Ptr_Buf = this->m_BaseWeapon;
 			}
 			for (const auto& c : Ptr_Buf->GetChildParts()) {
 				auto Index = (int)(&c - &Ptr_Buf->GetChildParts().front());
 				bool IsHit = false;
-				for (auto& cID : m_ChildData) {
+				for (auto& cID : this->m_ChildData) {
 					if (cID.GetPtrIsParentSlot(Ptr_Buf, Index)) {
 						if (cID.GetIsSelected() && cID.GetChildPtr()) {
 							AttachPreset(Preset, cID.GetChildPtr());
@@ -213,7 +213,7 @@ namespace FPS_n2 {
 						//設定vectorに追加
 						m_ChildData.resize(m_ChildData.size() + 1);
 						m_ChildData.back().Set(Ptr_Buf, Index, ChildSel);
-						AttachPreset(Preset, m_ChildData.back().GetChildPtr());
+						AttachPreset(Preset, this->m_ChildData.back().GetChildPtr());
 					}
 				}
 			}
@@ -222,7 +222,7 @@ namespace FPS_n2 {
 		bool CheckConflict(const ItemList* MyPtr, const ItemList* Ptr = nullptr) {
 			auto* Ptr_Buf = Ptr;
 			if (Ptr == nullptr) {
-				Ptr_Buf = m_BaseWeapon;
+				Ptr_Buf = this->m_BaseWeapon;
 			}
 			for (const auto& cP : Ptr_Buf->GetConflictParts()) {
 				if (cP.GetID() == MyPtr->GetID()) {
@@ -231,7 +231,7 @@ namespace FPS_n2 {
 			}
 			for (const auto& c : Ptr_Buf->GetChildParts()) {
 				auto Index = (int)(&c - &Ptr_Buf->GetChildParts().front());
-				for (const auto& cID : m_ChildData) {
+				for (const auto& cID : this->m_ChildData) {
 					if (cID.GetPtrIsParentSlot(Ptr_Buf, Index)) {
 						if (cID.GetIsSelected() && CheckConflict(MyPtr, cID.GetChildPtr())) {
 							return true;
@@ -245,15 +245,15 @@ namespace FPS_n2 {
 		void CalcChild(const ItemList* Ptr = nullptr) {
 			auto* Ptr_Buf = Ptr;
 			if (Ptr == nullptr) {
-				for (auto& cID : m_ChildData) {
+				for (auto& cID : this->m_ChildData) {
 					cID.ResetWatchCounter();
 				}
-				Ptr_Buf = m_BaseWeapon;
+				Ptr_Buf = this->m_BaseWeapon;
 			}
 			for (const auto& c : Ptr_Buf->GetChildParts()) {
 				auto Index = (int)(&c - &Ptr_Buf->GetChildParts().front());
 				bool IsHit = false;
-				for (auto& cID : m_ChildData) {
+				for (auto& cID : this->m_ChildData) {
 					if (cID.GetPtrIsParentSlot(Ptr_Buf, Index)) {
 						cID.AddWatchCounter();
 						if (cID.GetIsSelected()) {
@@ -268,8 +268,8 @@ namespace FPS_n2 {
 					m_ChildData.resize(m_ChildData.size() + 1);
 					m_ChildData.back().Set(Ptr_Buf, Index, 0);
 					//
-					auto& cID = m_ChildData.back();
-					for (const auto& cID2 : m_ChildData.back().GetMySlotData().m_Data) {
+					auto& cID = this->m_ChildData.back();
+					for (const auto& cID2 : this->m_ChildData.back().GetMySlotData().m_Data) {
 						if (PlayerData::Instance()->GetItemLock(ItemData::Instance()->FindPtr(cID2.GetID())->GetIDstr().c_str())) {
 							break;
 						}
@@ -287,14 +287,14 @@ namespace FPS_n2 {
 			}
 			if (Ptr == nullptr) {
 				//未使用品を除外
-				for (int count = 0; count < m_ChildData.size(); count++) {
+				for (int count = 0; count < this->m_ChildData.size(); count++) {
 					if (!m_ChildData[count].IsWatch()) {
 						m_ChildData.erase(m_ChildData.begin() + count);
 						count--;
 					}
 				}
 				//フィルターに引っかかっていたら大丈夫なものにする
-				for (auto& cID : m_ChildData) {
+				for (auto& cID : this->m_ChildData) {
 					while (true) {
 						if (cID.GetIsSelected() && cID.ChecktoBeFiltered(-1, !m_EnableMag, !m_EnableMount, !m_EnableSight)) {
 							cID.AddSelect();
@@ -307,7 +307,7 @@ namespace FPS_n2 {
 				{
 					float RecoilPer = 0.f;
 					float ErgonomicsPer = 0.f;
-					for (const auto& cID : m_ChildData) {
+					for (const auto& cID : this->m_ChildData) {
 						if (cID.GetIsSelected()) {
 							auto* ChildPtr = cID.GetChildPtr();
 							RecoilPer += ChildPtr->GetRecoil();
@@ -324,7 +324,7 @@ namespace FPS_n2 {
 			auto* Ptr_Buf = Ptr;
 			if (Ptr == nullptr) {
 				Data->clear();
-				Ptr_Buf = m_BaseWeapon;
+				Ptr_Buf = this->m_BaseWeapon;
 				for (const auto& c : Ptr_Buf->GetChildParts()) {
 					Data->resize(Data->size() + 1);//こどもの分岐
 					for (auto& cptr : c.m_Data) {
@@ -371,7 +371,7 @@ namespace FPS_n2 {
 		void CalcChildErgRec(std::vector<PartsBaseData>* AnsData, const ItemList* Ptr = nullptr) {
 			auto* Ptr_Buf = Ptr;
 			if (Ptr == nullptr) {
-				Ptr_Buf = m_BaseWeapon;
+				Ptr_Buf = this->m_BaseWeapon;
 				AnsData->resize(AnsData->size() + 1);
 			}
 			int Now = 0;
@@ -399,16 +399,16 @@ namespace FPS_n2 {
 			bool HaveChild = false;
 			auto* Ptr_Buf = Ptr;
 			if (Ptr == nullptr) {
-				for (auto& cID : m_ChildData) {
+				for (auto& cID : this->m_ChildData) {
 					cID.ResetWatchCounter();
 				}
-				Ptr_Buf = m_BaseWeapon;
+				Ptr_Buf = this->m_BaseWeapon;
 				m_posxMaxBuffer = 0;
 				m_posyMaxBuffer = 0;
 			}
 			for (const auto& c : Ptr_Buf->GetChildParts()) {
 				auto Index = (int)(&c - &Ptr_Buf->GetChildParts().front());
-				for (auto& cID : m_ChildData) {
+				for (auto& cID : this->m_ChildData) {
 					if (cID.GetPtrIsParentSlot(Ptr_Buf, Index)) {
 						HaveChild = true;
 
@@ -540,13 +540,13 @@ namespace FPS_n2 {
 			m_BaseWeapon = (m_SelectBuffer != InvalidID) ? ItemData::Instance()->FindPtr(m_SelectBuffer) : nullptr;
 			m_SelectPreset = PresetID;
 
-			m_ItemIDs.at(0).first = m_BaseWeapon->GetTypeID();
+			m_ItemIDs.at(0).first = this->m_BaseWeapon->GetTypeID();
 			m_ItemIDs.at(0).second = true;
 
-			m_ItemIDs.at(1).first = m_SelectBuffer;
+			m_ItemIDs.at(1).first = this->m_SelectBuffer;
 			m_ItemIDs.at(1).second = true;
 
-			m_ItemIDs.at(2).first = m_SelectPreset;
+			m_ItemIDs.at(2).first = this->m_SelectPreset;
 			m_ItemIDs.at(2).second = true;
 		}
 	private:
@@ -589,19 +589,19 @@ namespace FPS_n2 {
 				m_PartsChange = false;//これで無効化
 				if (m_PartsChange) {
 					m_PartsChange = false;
-					//float RecoilPer2 = m_Recoil * 100.f / m_BaseWeapon->GetRecoil() - 100.f;
-					//float ErgonomicsPer2 = (m_Ergonomics - m_BaseWeapon->GetErgonomics());
+					//float RecoilPer2 = this->m_Recoil * 100.f / this->m_BaseWeapon->GetRecoil() - 100.f;
+					//float ErgonomicsPer2 = (m_Ergonomics - this->m_BaseWeapon->GetErgonomics());
 
-					std::vector<std::vector<ErgRecData>>	m_PartsDatas;
-					CalcChildErgRec(&m_PartsDatas);
+					std::vector<std::vector<ErgRecData>>	PartsDatas;
+					CalcChildErgRec(&PartsDatas);
 
 					std::vector<PartsBaseData> Tmp;
 					CalcChildErgRec(&Tmp);
 
 					m_PartsBaseData.clear();
-					for (auto& parents : m_PartsDatas) {
+					for (auto& parents : PartsDatas) {
 						m_PartsBaseData.resize(m_PartsBaseData.size() + 1);
-						auto& back = m_PartsBaseData.back();
+						auto& back = this->m_PartsBaseData.back();
 						for (auto& Base : parents) {
 							back.resize(back.size() + 1);
 							back.back().m_RecoilPer = 0.f;
@@ -617,14 +617,14 @@ namespace FPS_n2 {
 					m_PartsResultData.clear();
 					m_PartsResultData.reserve(5000000);
 					m_PartsSeek.resize(m_PartsBaseData.size());
-					for (auto& seeks : m_PartsSeek) { seeks = 0; }
+					for (auto& seeks : this->m_PartsSeek) { seeks = 0; }
 					while (true) {
 						m_PartsResultData.resize(m_PartsResultData.size() + 1);
 						m_PartsResultData.back().m_PartsID.clear();
 						m_PartsResultData.back().m_RecoilPer = 0.f;
 						m_PartsResultData.back().m_ErgonomicsPer = 0.f;
 
-						for (auto& parents : m_PartsBaseData) {
+						for (auto& parents : this->m_PartsBaseData) {
 							auto& Base = parents[m_PartsSeek[(int)(&parents - &m_PartsBaseData.front())]];
 							for (auto& p : Base.m_PartsID) {
 								m_PartsResultData.back().m_PartsID.emplace_back(p);
@@ -634,7 +634,7 @@ namespace FPS_n2 {
 						}
 						AddPartsSeek((int)(m_PartsSeek.size()) - 1);
 						int count = 0;
-						for (auto& seeks : m_PartsSeek) { count += seeks; }
+						for (auto& seeks : this->m_PartsSeek) { count += seeks; }
 						if (count == 0) { break; }
 
 						ProcessMessage();
@@ -651,7 +651,7 @@ namespace FPS_n2 {
 			if (m_BaseWeapon) {
 				if (m_BaseWeapon->GetIcon().GetGraph()) {
 					float Scale = ((float)y_r(1080) / 128) * scale;
-					DrawControl::Instance()->SetDrawRotaGraph(DrawLayer::Normal, m_BaseWeapon->GetIcon().GetGraph(), xpos + (int)((float)y_r(960)*scale / 0.2f), ypos + (int)((float)y_r(540)*scale / 0.2f), Scale, 0.f, false);
+					DrawControl::Instance()->SetDrawRotaGraph(DrawLayer::Normal, this->m_BaseWeapon->GetIcon().GetGraph(), xpos + (int)((float)y_r(960)*scale / 0.2f), ypos + (int)((float)y_r(540)*scale / 0.2f), Scale, 0.f, false);
 					int Lane = 0;
 					DrawChild(xpos, ypos, 0, 0, Scale, &Lane);
 				}
@@ -665,7 +665,7 @@ namespace FPS_n2 {
 				int yp = LineHeight + y_r(10);
 				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(200), yp + LineHeight, false, true, Gray25, "戻る")) {
 					bool isHit = false;
-					for (auto it = m_ItemIDs.rbegin(); it != m_ItemIDs.rend(); ++it) {
+					for (auto it = this->m_ItemIDs.rbegin(); it != this->m_ItemIDs.rend(); ++it) {
 						if (it->first != InvalidID) {
 							it->first = InvalidID;
 							isHit = true;
@@ -706,7 +706,7 @@ namespace FPS_n2 {
 							xgoal += xs_add;
 						}
 						MakeList<ItemList>(xp + xgoal, yp, ItemData::Instance()->GetList(), "Item", &IDs->first, !IDs->second, false, false,
-							[&](const auto *ptr) { return (!ptr->GetIsPreset()) && (ptr->GetTypeID() == m_ItemIDs.at(Layer - 1).first); }
+							[&](const auto *ptr) { return (!ptr->GetIsPreset()) && (ptr->GetTypeID() == this->m_ItemIDs.at(Layer - 1).first); }
 						);
 					});
 				}
@@ -718,20 +718,20 @@ namespace FPS_n2 {
 						if (isChild) {
 							xgoal += xs_add;
 						}
-						MakeList<PresetList>(xp + xgoal, yp, PresetData::Instance()->GetList(), "Preset", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (ptr->GetBase()->GetID() == m_ItemIDs.at(Layer - 1).first); });
+						MakeList<PresetList>(xp + xgoal, yp, PresetData::Instance()->GetList(), "Preset", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (ptr->GetBase()->GetID() == this->m_ItemIDs.at(Layer - 1).first); });
 					});
 				}
 				//決定
 				{
-					auto prev = m_SelectPreset;
-					m_SelectPreset = m_ItemIDs.at(2).first;
+					auto prev = this->m_SelectPreset;
+					m_SelectPreset = this->m_ItemIDs.at(2).first;
 					if ((m_SelectPreset != InvalidID) && (m_SelectPreset != prev)) {
 						m_ChildData.clear();
 					}
 				}
 				{
-					auto prev = m_SelectBuffer;
-					m_SelectBuffer = m_ItemIDs.at(1).first;
+					auto prev = this->m_SelectBuffer;
+					m_SelectBuffer = this->m_ItemIDs.at(1).first;
 					if (m_SelectBuffer != prev) {
 						m_BaseWeapon = (m_SelectBuffer != InvalidID) ? ItemData::Instance()->FindPtr(m_SelectBuffer) : nullptr;
 						if (m_BaseWeapon == nullptr) {
@@ -750,9 +750,9 @@ namespace FPS_n2 {
 			}
 			//下から上に
 			if (m_BaseWeapon) {
-				bool PrevSight = m_EnableSight;
-				bool PrevMount = m_EnableMount;
-				bool PrevMag = m_EnableMag;
+				bool PrevSight = this->m_EnableSight;
+				bool PrevMount = this->m_EnableMount;
+				bool PrevMag = this->m_EnableMag;
 
 
 				int xp = LineHeight;
@@ -769,9 +769,9 @@ namespace FPS_n2 {
 					int valueMin = 0;
 					int valueMax = 100;
 
-					float ErgonomicsPer2 = (m_Ergonomics - m_BaseWeapon->GetErgonomics());
-					float ErgMin = (m_BaseWeapon->GetErgonomics() + ErgonomicsPer2 + m_ErgAddMin);
-					float ErgMax = (m_BaseWeapon->GetErgonomics() + ErgonomicsPer2 + m_ErgAddMax);
+					float ErgonomicsPer2 = (m_Ergonomics - this->m_BaseWeapon->GetErgonomics());
+					float ErgMin = (m_BaseWeapon->GetErgonomics() + ErgonomicsPer2 + this->m_ErgAddMin);
+					float ErgMax = (m_BaseWeapon->GetErgonomics() + ErgonomicsPer2 + this->m_ErgAddMax);
 
 					int xp_t = 0;
 					{
@@ -813,7 +813,7 @@ namespace FPS_n2 {
 							WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, STRX_MID, White, Black, "%5.2f<            <%5.2f", ErgMin, ErgMax);
 						}
 					}
-					WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight, STRX_MID, White, Black, "%5.2f", m_Ergonomics);
+					WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight, STRX_MID, White, Black, "%5.2f", this->m_Ergonomics);
 					/*
 					xp_t = xmin;
 					if (WindowSystem::ClickCheckBox(xp_t, ypos, xp_t + LineHeight, ypos + LineHeight, true, true, Gray25, "▽")) {
@@ -837,9 +837,9 @@ namespace FPS_n2 {
 					int valueMin = 0;
 					int valueMax = 100;
 
-					float RecoilPer2 = m_Recoil * 100.f / m_BaseWeapon->GetRecoil() - 100.f;
-					float RecMin = (m_BaseWeapon->GetRecoil()*(100.f + RecoilPer2 + m_RecAddMin) / 100.f);
-					float RecMax = (m_BaseWeapon->GetRecoil()*(100.f + RecoilPer2 + m_RecAddMax) / 100.f);
+					float RecoilPer2 = this->m_Recoil * 100.f / this->m_BaseWeapon->GetRecoil() - 100.f;
+					float RecMin = (m_BaseWeapon->GetRecoil()*(100.f + RecoilPer2 + this->m_RecAddMin) / 100.f);
+					float RecMax = (m_BaseWeapon->GetRecoil()*(100.f + RecoilPer2 + this->m_RecAddMax) / 100.f);
 
 					int xp_t = 0;
 					{
@@ -881,7 +881,7 @@ namespace FPS_n2 {
 							WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, STRX_MID, White, Black, "%5.2f<            <%5.2f", RecMin, RecMax);
 						}
 					}
-					WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight, STRX_MID, White, Black, "%5.2f", m_Recoil);
+					WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight, STRX_MID, White, Black, "%5.2f", this->m_Recoil);
 					/*
 					xp_t = xmin;
 					if (WindowSystem::ClickCheckBox(xp_t, ypos, xp_t + LineHeight, ypos + LineHeight, true, true, Gray25, "▽")) {
@@ -889,7 +889,7 @@ namespace FPS_n2 {
 					}
 					//*/
 				}
-				if (OldR != Rec) { m_Recoil = (float)Rec; }
+				if (OldR != Rec) { this->m_Recoil = (float)Rec; }
 				//
 				yp -= y_r(50);
 				WindowSystem::CheckBox(xp, yp, &m_EnableSight);
@@ -909,7 +909,7 @@ namespace FPS_n2 {
 				if (!m_EnableMount) {
 					m_EnableSight = false;
 				}
-				if ((PrevSight != m_EnableSight) || (PrevMount != m_EnableMount) || (PrevMag != m_EnableMag)) {
+				if ((PrevSight != this->m_EnableSight) || (PrevMount != this->m_EnableMount) || (PrevMag != this->m_EnableMag)) {
 					m_PartsChange = true;
 				}
 

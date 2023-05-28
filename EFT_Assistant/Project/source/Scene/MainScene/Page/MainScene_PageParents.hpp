@@ -12,8 +12,8 @@ namespace FPS_n2 {
 		virtual void DrawFront_Sub(int, int, float) noexcept {}
 		virtual void Dispose_Sub(void) noexcept {}
 	public:
-		void TurnOnGoNextBG() noexcept { m_GoNextBG = true; }
-		const auto& IsGoNextBG() const noexcept { return m_GoNextBG; }
+		void TurnOnGoNextBG() noexcept { this->m_GoNextBG = true; }
+		const auto& IsGoNextBG() const noexcept { return this->m_GoNextBG; }
 	public:
 		void Init(int *posx, int *posy, float* Scale) noexcept {
 			*posx = y_r(50);

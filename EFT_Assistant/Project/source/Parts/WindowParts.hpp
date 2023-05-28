@@ -165,7 +165,7 @@ namespace FPS_n2 {
 
 				int length = (int)((float)(yp2 - yp1) / TotalPer);
 				float Total = (float)(yp2 - yp1 - length);
-				int Yp_t = (int)(Total * m_NowScrollYPer);
+				int Yp_t = (int)(Total * this->m_NowScrollYPer);
 				int Yp_s = std::max(yp1, yp1 + Yp_t);
 				int Yp_e = std::min(yp2, Yp_s + length);
 
@@ -188,7 +188,7 @@ namespace FPS_n2 {
 					if (m_IsChangeScrollY) {
 						if (Input->GetLeftClick().press()) {
 							color = White;
-							m_NowScrollYPer = std::clamp((float)(Input->GetMouseY() - m_BaseScrollY) / Total, 0.f, 1.f);
+							m_NowScrollYPer = std::clamp((float)(Input->GetMouseY() - this->m_BaseScrollY) / Total, 0.f, 1.f);
 
 							HCURSOR hCursor = LoadCursor(NULL, IDC_SIZENS);
 							SetCursor(hCursor);
@@ -214,45 +214,45 @@ namespace FPS_n2 {
 		};
 		class WindowControl {
 		public:
-			bool				m_isDelete{ false };
-			signed long long	m_FreeID{ 0 };
+			bool								m_isDelete{ false };
+			signed long long					m_FreeID{ 0 };
 		private:
-			bool				m_ActiveSwitch{ false };
-			bool				m_IsActive{ false };
-			int					m_PosX{ 0 }, m_PosY{ 0 };
-			int					m_SizeX{ 100 }, m_SizeY{ 100 };
-			int					m_TotalSizeY{ 200 };
-			std::string			m_TabName;
-			std::function<void(WindowControl*)> m_DoingOnWindow;
+			bool								m_ActiveSwitch{ false };
+			bool								m_IsActive{ false };
+			int									m_PosX{ 0 }, m_PosY{ 0 };
+			int									m_SizeX{ 100 }, m_SizeY{ 100 };
+			int									m_TotalSizeY{ 200 };
+			std::string							m_TabName;
+			std::function<void(WindowControl*)>	m_DoingOnWindow;
 
-			ScrollBoxClass		m_Scroll;
+			ScrollBoxClass						m_Scroll;
 		private:
-			bool				m_isMaxSize{ false };
-			int					m_PosXSave{ 0 }, m_PosYSave{ 0 };
-			int					m_SizeXSave{ 100 }, m_SizeYSave{ 100 };
+			bool								m_isMaxSize{ false };
+			int									m_PosXSave{ 0 }, m_PosYSave{ 0 };
+			int									m_SizeXSave{ 100 }, m_SizeYSave{ 100 };
 
-			bool				m_CanChageSize{ false };
-			bool				m_CanPressXButton{ false };
+			bool								m_CanChageSize{ false };
+			bool								m_CanPressXButton{ false };
 
-			bool				m_IsMoving{ false };
-			int					m_PosAddX{ 0 }, m_PosAddY{ 0 };
+			bool								m_IsMoving{ false };
+			int									m_PosAddX{ 0 }, m_PosAddY{ 0 };
 
-			bool				m_IsChangeScaleXY{ false };
-			bool				m_IsChangeScale1X{ false };
-			bool				m_IsChangeScale1Y{ false };
-			bool				m_IsChangeScale2X{ false };
-			bool				m_IsChangeScale2Y{ false };
-			int					m_BaseScaleX{ 0 }, m_BaseScaleY{ 0 };
-			int					m_BasePos1X{ 0 }, m_BasePos1Y{ 0 };
-			int					m_BaseScale1X{ 0 }, m_BaseScale1Y{ 0 };
-			int					m_BaseScale2X{ 0 }, m_BaseScale2Y{ 0 };
+			bool								m_IsChangeScaleXY{ false };
+			bool								m_IsChangeScale1X{ false };
+			bool								m_IsChangeScale1Y{ false };
+			bool								m_IsChangeScale2X{ false };
+			bool								m_IsChangeScale2Y{ false };
+			int									m_BaseScaleX{ 0 }, m_BaseScaleY{ 0 };
+			int									m_BasePos1X{ 0 }, m_BasePos1Y{ 0 };
+			int									m_BaseScale1X{ 0 }, m_BaseScale1Y{ 0 };
+			int									m_BaseScale2X{ 0 }, m_BaseScale2Y{ 0 };
 		public:
 			const auto		GetIsEditing(void) const noexcept {
 				auto* Input = InputControl::Instance();
-				int xp1 = m_PosX;
-				int yp1 = m_PosY;
-				int xp2 = m_PosX + m_SizeX;
-				int yp2 = m_PosY + m_SizeY;
+				int xp1 = this->m_PosX;
+				int yp1 = this->m_PosY;
+				int xp2 = this->m_PosX + this->m_SizeX;
+				int yp2 = this->m_PosY + this->m_SizeY;
 				return
 					in2_(Input->GetMouseX(), Input->GetMouseY(), xp1, yp1, xp2, yp2) ||
 					this->m_CanChageSize ||
@@ -290,7 +290,7 @@ namespace FPS_n2 {
 				this->m_TotalSizeY = Totalsizey;
 				this->m_TabName = tabName;
 
-				int widthLimit = SetMsg(0, 0, 0, 0 + LineHeight, LineHeight - y_r(6), FontHandle::FontXCenter::LEFT, White, Black, m_TabName) + EdgeSize * 2 + LineHeight * 2;
+				int widthLimit = SetMsg(0, 0, 0, 0 + LineHeight, LineHeight - y_r(6), FontHandle::FontXCenter::LEFT, White, Black, this->m_TabName) + EdgeSize * 2 + LineHeight * 2;
 				this->m_SizeX = std::max(this->m_SizeX, widthLimit);
 
 				this->m_CanChageSize = canChageSize;
@@ -300,10 +300,10 @@ namespace FPS_n2 {
 			void Draw(void) noexcept {
 				auto* DrawParts = DXDraw::Instance();
 				auto* Input = InputControl::Instance();
-				int xp1 = m_PosX;
-				int yp1 = m_PosY;
-				int xp2 = m_PosX + m_SizeX;
-				int yp2 = m_PosY + m_SizeY;
+				int xp1 = this->m_PosX;
+				int yp1 = this->m_PosY;
+				int xp2 = this->m_PosX + this->m_SizeX;
+				int yp2 = this->m_PosY + this->m_SizeY;
 				int widthLimit = 0;
 				//背景
 				{
@@ -324,22 +324,22 @@ namespace FPS_n2 {
 				{
 					float Total = (float)this->m_TotalSizeY / (m_SizeY - LineHeight);
 					if (Total > 1.f) {
-						m_Scroll.ScrollBox(xp2 - y_r(24), yp1 + LineHeight, xp2, yp2, Total, m_IsActive);
+						m_Scroll.ScrollBox(xp2 - y_r(24), yp1 + LineHeight, xp2, yp2, Total, this->m_IsActive);
 					}
 				}
 				//タブ
 				{
-					int xp3 = m_PosX + m_SizeX - LineHeight - LineHeight;
+					int xp3 = this->m_PosX + this->m_SizeX - LineHeight - LineHeight;
 					unsigned int color = Gray25;
 					SetBox(xp1, yp1, xp2, yp1 + LineHeight, color);
-					widthLimit = SetMsg(xp1, yp1, xp3, yp1 + LineHeight, LineHeight - y_r(6), FontHandle::FontXCenter::LEFT, White, Black, m_TabName) + EdgeSize * 2 + LineHeight * 2;
+					widthLimit = SetMsg(xp1, yp1, xp3, yp1 + LineHeight, LineHeight - y_r(6), FontHandle::FontXCenter::LEFT, White, Black, this->m_TabName) + EdgeSize * 2 + LineHeight * 2;
 				}
 				//最大化ボタン
 				if (m_CanChageSize) {
-					int xp3 = m_PosX + m_SizeX - LineHeight - LineHeight;
-					int yp3 = m_PosY + EdgeSize;
-					int xp4 = m_PosX + m_SizeX - LineHeight - EdgeSize;
-					int yp4 = m_PosY + LineHeight - EdgeSize;
+					int xp3 = this->m_PosX + this->m_SizeX - LineHeight - LineHeight;
+					int yp3 = this->m_PosY + EdgeSize;
+					int xp4 = this->m_PosX + this->m_SizeX - LineHeight - EdgeSize;
+					int yp4 = this->m_PosY + LineHeight - EdgeSize;
 					unsigned int color = Gray25;
 
 					if (in2_(Input->GetMouseX(), Input->GetMouseY(), xp3 + EdgeSize, yp3 + EdgeSize, xp4 - EdgeSize, yp4 - EdgeSize)) {
@@ -619,15 +619,15 @@ namespace FPS_n2 {
 		private:
 			friend class SingletonBase<WindowManager>;
 		private:
-			std::vector<std::shared_ptr<WindowControl>> m_WindowControl;
+			std::vector<std::shared_ptr<WindowControl>>	m_WindowControl;
 		private:
 			WindowManager() noexcept {}
 			~WindowManager() noexcept {}
 		public:
 			const auto	PosHitCheck(WindowSystem::WindowControl* window) const noexcept {
-				auto res = std::find_if(m_WindowControl.begin(), m_WindowControl.end(), [&](const std::shared_ptr<WindowControl>& tgt) { return(tgt.get() == window); });
+				auto res = std::find_if(m_WindowControl.begin(), this->m_WindowControl.end(), [&](const std::shared_ptr<WindowControl>& tgt) { return(tgt.get() == window); });
 				bool isSel = (window == nullptr);
-				for (auto& w : m_WindowControl) {
+				for (auto& w : this->m_WindowControl) {
 					if (isSel) {
 						if (w->GetIsEditing()) {
 							return true;
@@ -640,15 +640,15 @@ namespace FPS_n2 {
 				return false;
 			}
 			void		DeleteAll() noexcept {
-				for (auto& w : m_WindowControl) {
+				for (auto& w : this->m_WindowControl) {
 					w->m_isDelete = true;
 				}
 			}
 		public:
-			const auto&	Get() const noexcept { return m_WindowControl; }
+			const auto&	Get() const noexcept { return this->m_WindowControl; }
 			const auto&	Add() noexcept {
 				m_WindowControl.emplace_back(std::make_shared<WindowControl>());
-				return m_WindowControl.back();
+				return this->m_WindowControl.back();
 			}
 			void		Execute(void) noexcept {
 				//ウィンドウアクティブチェック
@@ -678,7 +678,7 @@ namespace FPS_n2 {
 					int Size = (int)m_WindowControl.size();
 					for (int i = 0; i < Size; i++) {
 						if (m_WindowControl[i]->m_isDelete) {
-							std::swap(m_WindowControl[i], m_WindowControl.back());
+							std::swap(m_WindowControl[i], this->m_WindowControl.back());
 							m_WindowControl.pop_back();
 							Size = (int)m_WindowControl.size();
 							i--;
@@ -726,7 +726,7 @@ namespace FPS_n2 {
 		void Draw() noexcept {
 			int xp = 0;
 			int yp = LineHeight;
-			for (auto& m : m_Mes) {
+			for (auto& m : this->m_Mes) {
 				WindowSystem::SetMsg(xp, yp, xp, yp, LineHeight * 7 / 10, STRX_LEFT, GetColor(255, 150, 150), GetColor(1, 1, 1), m);
 				yp += LineHeight * 7 / 10;
 				if (yp > y_r(1080)) { break; }
@@ -737,7 +737,7 @@ namespace FPS_n2 {
 		}
 		void Save() noexcept {
 			std::ofstream outputfile("data/ErrorLog.txt");
-			for (auto& LD : m_Mes) {
+			for (auto& LD : this->m_Mes) {
 				outputfile << LD + "\n";
 			}
 			outputfile.close();
