@@ -6,14 +6,14 @@ Information_Eng=Additional armored ear covers for the Team Wendy EXFIL helmet to
 basePrice=39200
 width=2
 height=2
+weight=0.172000
 Sell_Fence=15680
 Sell_Skier=19208
 Sell_Peacekeeper=148
 Sell_Ragman=24304
 Sell_Flea Market=95111
-weight=0.172000
-fleaMarketFee=5368
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
 Conflict=[
 	Peltor Tactical Sport headset
 ]
-propertiestype=ItemPropertiesArmorAttachment

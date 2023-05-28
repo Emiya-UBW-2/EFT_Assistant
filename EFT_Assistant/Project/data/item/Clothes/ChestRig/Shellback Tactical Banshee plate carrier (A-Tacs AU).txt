@@ -7,10 +7,10 @@ Ideal for law enforcement patrol officers for use in high threat active shooter 
 basePrice=80000
 width=3
 height=3
+weight=6.900000
 Sell_Fence=32000
 Sell_Skier=39200
 Sell_Ragman=49600
 Sell_Jaeger=48000
-weight=6.900000
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig

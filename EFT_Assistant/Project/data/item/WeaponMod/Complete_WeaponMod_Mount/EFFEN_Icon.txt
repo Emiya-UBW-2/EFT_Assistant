@@ -6,6 +6,7 @@ Information_Eng=The EFFEN 90 rail allows installation of additional tactical equ
 basePrice=1000
 width=1
 height=1
+weight=0.050000
 Sell_Prapor=500
 Sell_Fence=400
 Sell_Skier=490
@@ -13,8 +14,7 @@ Sell_Peacekeeper=4
 Sell_Mechanic=560
 Sell_Jaeger=600
 Sell_Flea Market=14444
-weight=0.050000
-fleaMarketFee=2211
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|

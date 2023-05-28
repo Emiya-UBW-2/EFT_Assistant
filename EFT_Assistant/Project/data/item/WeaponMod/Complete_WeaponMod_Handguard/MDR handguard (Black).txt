@@ -6,14 +6,14 @@ Information_Eng=A standard-issue handguard for MDR assault rifles, manufactured 
 basePrice=8665
 width=2
 height=1
+weight=0.269000
 Sell_Prapor=4332
 Sell_Fence=3466
 Sell_Skier=4245
 Sell_Peacekeeper=33
 Sell_Mechanic=4852
 Sell_Flea Market=356666
-weight=0.269000
-fleaMarketFee=109518
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Magpul M-LOK AFG tactical foregrip (Black)/|

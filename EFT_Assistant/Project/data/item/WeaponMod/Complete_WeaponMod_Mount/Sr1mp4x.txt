@@ -6,6 +6,7 @@ Information_Eng=A mount for the SR-1MP pistol that forms four guide rails, allow
 basePrice=8748
 width=1
 height=1
+weight=0.040000
 Sell_Prapor=4374
 Sell_Fence=3499
 Sell_Skier=4286
@@ -13,8 +14,7 @@ Sell_Peacekeeper=33
 Sell_Mechanic=4898
 Sell_Jaeger=5248
 Sell_Flea Market=11111
-weight=0.040000
-fleaMarketFee=603
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|

@@ -6,6 +6,7 @@ Information_Eng=The Alexander Arms 10 inch rail allows installation of additiona
 basePrice=2579
 width=1
 height=1
+weight=0.090000
 Sell_Prapor=1289
 Sell_Fence=1031
 Sell_Skier=1263
@@ -13,8 +14,7 @@ Sell_Peacekeeper=10
 Sell_Mechanic=1444
 Sell_Jaeger=1547
 Sell_Flea Market=75000
-weight=0.090000
-fleaMarketFee=18234
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	BCM GUNFIGHTER MOD 3 vertical foregrip/|

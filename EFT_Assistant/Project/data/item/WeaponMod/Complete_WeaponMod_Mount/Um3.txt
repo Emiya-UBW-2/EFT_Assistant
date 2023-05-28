@@ -6,6 +6,7 @@ Information_Eng=The UM Tactical UM3 sight mount. Allows mounting of additional r
 basePrice=5620
 width=1
 height=1
+weight=0.120000
 Sell_Prapor=2810
 Sell_Fence=2248
 Sell_Skier=2753
@@ -13,8 +14,7 @@ Sell_Peacekeeper=21
 Sell_Mechanic=3147
 Sell_Jaeger=3372
 Sell_Flea Market=18000
-weight=0.120000
-fleaMarketFee=1132
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	BelOMO PK-06 reflex sight/|

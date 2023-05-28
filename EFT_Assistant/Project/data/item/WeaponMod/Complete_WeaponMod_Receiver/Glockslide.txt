@@ -6,14 +6,14 @@ Information_Eng=A standard-issue slide for Glock 17 9x19 pistols.
 basePrice=3109
 width=2
 height=1
+weight=0.355000
 Sell_Prapor=1554
 Sell_Fence=1243
 Sell_Skier=1523
 Sell_Peacekeeper=12
 Sell_Mechanic=1741
 Sell_Flea Market=3400
-weight=0.355000
-fleaMarketFee=195
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Glock Dead Ringer Snake Eye rear sight/|

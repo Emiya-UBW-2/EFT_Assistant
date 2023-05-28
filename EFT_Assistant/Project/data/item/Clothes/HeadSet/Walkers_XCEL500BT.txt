@@ -6,13 +6,13 @@ Information_Eng=Active hearing protection with optimum electronic processing of 
 basePrice=48100
 width=2
 height=2
+weight=0.490000
 Sell_Fence=19240
 Sell_Skier=23569
 Sell_Ragman=29822
 Sell_Flea Market=79000
-weight=0.490000
-fleaMarketFee=4157
+fleaMarketFee=0
+propertiestype=
 Conflict=[
 	Ops-Core FAST RAC Headset
 ]
-propertiestype=

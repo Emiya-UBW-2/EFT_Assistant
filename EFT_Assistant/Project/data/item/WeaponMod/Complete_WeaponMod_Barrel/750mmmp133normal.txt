@@ -6,6 +6,7 @@ Information_Eng=A standard factory-produced 750mm barrel for MP-133 12 gauge sho
 basePrice=7062
 width=5
 height=1
+weight=1.500000
 Sell_Prapor=3531
 Sell_Fence=2824
 Sell_Skier=3460
@@ -13,8 +14,7 @@ Sell_Peacekeeper=27
 Sell_Mechanic=3954
 Sell_Jaeger=4237
 Sell_Flea Market=7400
-weight=1.500000
-fleaMarketFee=433
+fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	ME Cylinder 12ga muzzle adapter/|

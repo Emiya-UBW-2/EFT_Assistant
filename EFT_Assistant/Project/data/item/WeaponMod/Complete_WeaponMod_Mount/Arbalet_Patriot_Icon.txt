@@ -6,6 +6,7 @@ Information_Eng=The Patriot K+W rail mount for Mosin rifle, manufactured by Arba
 basePrice=2450
 width=1
 height=1
+weight=0.200000
 Sell_Prapor=1225
 Sell_Fence=980
 Sell_Skier=1200
@@ -13,12 +14,7 @@ Sell_Peacekeeper=9
 Sell_Mechanic=1372
 Sell_Jaeger=1470
 Sell_Flea Market=7777
-weight=0.200000
-fleaMarketFee=487
-Conflict=[
-	Mosin Rifle AIM Sports MNG rail mount/|
-	Mosin Rifle AIM Sports Tri-Rail mount
-]
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
@@ -78,6 +74,10 @@ ChildParts=[
 	Leapers UTG 25mm ring scope mount/|
 	SwampFox Trihawk Prism Scope 3x30/|
 	AI AX-50 34mm scope mount
+]
+Conflict=[
+	Mosin Rifle AIM Sports MNG rail mount/|
+	Mosin Rifle AIM Sports Tri-Rail mount
 ]
 Recoil=0.000000
 Ergonomics=-1.000000

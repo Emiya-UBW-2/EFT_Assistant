@@ -6,6 +6,7 @@ Information_Eng=The Archangel ergonomic polymer chassis for the Remington M700 s
 basePrice=21000
 width=3
 height=1
+weight=2.200000
 Sell_Prapor=10500
 Sell_Fence=8400
 Sell_Skier=10290
@@ -13,8 +14,8 @@ Sell_Peacekeeper=79
 Sell_Mechanic=11760
 Sell_Jaeger=12600
 Sell_Flea Market=22000
-weight=2.200000
-fleaMarketFee=1286
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
 Conflict=[
 	M700 7.62x51 AI AICS 10-round magazine/|
 	M700 7.62x51 AI AICS 5-round magazine/|
@@ -24,6 +25,5 @@ Conflict=[
 	M700 7.62x51 Wyatt's Outdoor 10-round magazine/|
 	M700 7.62x51 Wyatt's Outdoor 5-round magazine
 ]
-propertiestype=ItemPropertiesWeaponMod
 Recoil=-36.000000
 Ergonomics=28.000000

@@ -6,6 +6,7 @@ Information_Eng=The M14ALCS chassis for M14 rifles from the Enhanced Battle Rifl
 basePrice=17972
 width=3
 height=1
+weight=1.900000
 Sell_Prapor=8986
 Sell_Fence=7188
 Sell_Skier=8806
@@ -13,8 +14,7 @@ Sell_Peacekeeper=68
 Sell_Mechanic=10064
 Sell_Jaeger=10783
 Sell_Flea Market=15000
-weight=1.900000
-fleaMarketFee=993
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	M14 SAGE International M14ALCS (MOD-0) stock

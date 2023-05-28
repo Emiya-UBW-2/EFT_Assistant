@@ -6,14 +6,14 @@ Information_Eng=A 20 inches (508mm) long stainless steel threaded barrel for the
 basePrice=22800
 width=3
 height=1
+weight=1.200000
 Sell_Prapor=11400
 Sell_Fence=9120
 Sell_Skier=11172
 Sell_Peacekeeper=86
 Sell_Mechanic=12768
 Sell_Jaeger=13680
-weight=1.200000
-fleaMarketFee=1368
+fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	AWC PSR 7.62x51 muzzle brake/|

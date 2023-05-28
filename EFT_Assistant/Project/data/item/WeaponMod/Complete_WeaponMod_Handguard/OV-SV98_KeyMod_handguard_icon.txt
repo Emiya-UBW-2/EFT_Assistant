@@ -6,17 +6,14 @@ Information_Eng=CNC Guns Keymod System aircraft-grade aluminum handguard for the
 basePrice=8000
 width=2
 height=1
+weight=0.330000
 Sell_Prapor=4000
 Sell_Fence=3200
 Sell_Skier=3920
 Sell_Peacekeeper=30
 Sell_Mechanic=4480
-Sell_Flea Market=8888
-weight=0.330000
-fleaMarketFee=505
-Conflict=[
-	SV-98 anti-heat ribbon
-]
+Sell_Flea Market=19999
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	CNC Guns KeyMod 4 inch rail/|
@@ -36,6 +33,9 @@ ChildParts=[
 	Strike Industries KeyMod 4 inch rail/|
 	Vltor CASV KeyMod 2 inch rail/|
 	Vltor CASV KeyMod 4 inch rail
+]
+Conflict=[
+	SV-98 anti-heat ribbon
 ]
 Recoil=-2.000000
 Ergonomics=9.000000

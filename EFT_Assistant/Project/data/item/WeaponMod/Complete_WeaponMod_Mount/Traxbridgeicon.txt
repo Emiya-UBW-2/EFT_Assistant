@@ -6,6 +6,7 @@ Information_Eng=The Strike Industries TRAX Bridge rail that mounts on the TRAX 1
 basePrice=1635
 width=2
 height=1
+weight=0.075000
 Sell_Prapor=817
 Sell_Fence=654
 Sell_Skier=801
@@ -13,11 +14,7 @@ Sell_Peacekeeper=6
 Sell_Mechanic=915
 Sell_Jaeger=981
 Sell_Flea Market=6666
-weight=0.075000
-fleaMarketFee=472
-Conflict=[
-	PP-19-01 "Vityaz" 9x19 submachine gun
-]
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AK Strike Industries TRAX 2 handguard extension
@@ -63,6 +60,9 @@ ChildParts=[
 	Zenit RK-4 tactical foregrip/|
 	Zenit RK-5 tactical foregrip/|
 	Zenit RK-6 tactical foregrip
+]
+Conflict=[
+	PP-19-01 "Vityaz" 9x19 submachine gun
 ]
 Recoil=0.000000
 Ergonomics=0.000000

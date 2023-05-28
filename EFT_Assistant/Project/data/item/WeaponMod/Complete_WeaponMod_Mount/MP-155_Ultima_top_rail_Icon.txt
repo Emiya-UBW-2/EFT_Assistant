@@ -6,6 +6,7 @@ Information_Eng=The "Ultima" modification top rail for the MP-155 shotgun. Manuf
 basePrice=5900
 width=3
 height=1
+weight=0.450000
 Sell_Prapor=2950
 Sell_Fence=2360
 Sell_Skier=2891
@@ -13,8 +14,7 @@ Sell_Peacekeeper=22
 Sell_Mechanic=3304
 Sell_Jaeger=3540
 Sell_Flea Market=499999
-weight=0.450000
-fleaMarketFee=250931
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|

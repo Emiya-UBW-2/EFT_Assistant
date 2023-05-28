@@ -6,17 +6,17 @@ Information_Eng=A custom compensator for TT pistols manufactured by PM-Laser.
 basePrice=3800
 width=1
 height=1
+weight=0.036000
 Sell_Prapor=1900
 Sell_Fence=1520
 Sell_Skier=1862
 Sell_Peacekeeper=14
 Sell_Mechanic=2128
 Sell_Flea Market=5555
-weight=0.036000
-fleaMarketFee=294
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
 Conflict=[
 	TT 7.62x25 makeshift sound suppressor
 ]
-propertiestype=ItemPropertiesWeaponMod
 Recoil=-12.000000
 Ergonomics=-1.000000

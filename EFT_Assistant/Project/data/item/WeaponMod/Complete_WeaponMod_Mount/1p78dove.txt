@@ -6,6 +6,7 @@ Information_Eng=An aluminum sight mount manufactured by NPZ for the installation
 basePrice=2000
 width=1
 height=1
+weight=0.040000
 Sell_Prapor=1000
 Sell_Fence=800
 Sell_Skier=980
@@ -13,8 +14,11 @@ Sell_Peacekeeper=8
 Sell_Mechanic=1120
 Sell_Jaeger=1200
 Sell_Flea Market=11000
-weight=0.040000
-fleaMarketFee=920
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	NPZ 1P78-1 2.8x scope
+]
 Conflict=[
 	BelOMO PK-AA dovetail reflex sight/|
 	BelOMO PSO-1 4x24 scope/|
@@ -29,10 +33,6 @@ Conflict=[
 	AK TWS Dog Leg Rail dust cover/|
 	AK Zenit B-33 dust cover/|
 	PP-19-01 "Vityaz-SN" dust cover
-]
-propertiestype=ItemPropertiesWeaponMod
-ChildParts=[
-	NPZ 1P78-1 2.8x scope
 ]
 Recoil=0.000000
 Ergonomics=-1.000000

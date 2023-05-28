@@ -6,6 +6,7 @@ Information_Eng=A 22 inch (558mm) barrel for AR-10 based weapons for 7.62x51 NAT
 basePrice=47834
 width=5
 height=1
+weight=1.200000
 Sell_Prapor=23917
 Sell_Fence=19133
 Sell_Skier=23438
@@ -13,8 +14,7 @@ Sell_Peacekeeper=181
 Sell_Mechanic=26787
 Sell_Jaeger=28700
 Sell_Flea Market=29770
-weight=1.200000
-fleaMarketFee=2517
+fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	AWC PSR 7.62x51 muzzle brake/|

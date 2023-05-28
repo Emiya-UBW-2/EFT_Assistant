@@ -6,6 +6,7 @@ Information_Eng=A universal base with an integrated power supply for installatio
 basePrice=1880
 width=2
 height=1
+weight=0.500000
 Sell_Prapor=940
 Sell_Fence=752
 Sell_Skier=921
@@ -13,8 +14,12 @@ Sell_Peacekeeper=7
 Sell_Mechanic=1052
 Sell_Jaeger=1128
 Sell_Flea Market=18000
-weight=0.500000
-fleaMarketFee=2114
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	KMZ 1P59 3-10x riflescope/|
+	KMZ 1P69 3-10x riflescope
+]
 Conflict=[
 	HK 416A5 flip-up rear sight/|
 	HK MP7 flip-up rear sight/|
@@ -30,11 +35,6 @@ Conflict=[
 	AR-15 rear sight carry handle/|
 	SA-58 Holland Type rear sight/|
 	SV-98 rear sight
-]
-propertiestype=ItemPropertiesWeaponMod
-ChildParts=[
-	KMZ 1P59 3-10x riflescope/|
-	KMZ 1P69 3-10x riflescope
 ]
 Recoil=0.000000
 Ergonomics=-1.000000

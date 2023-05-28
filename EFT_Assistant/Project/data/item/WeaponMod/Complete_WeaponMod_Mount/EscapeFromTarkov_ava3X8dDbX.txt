@@ -6,6 +6,7 @@ Information_Eng=A sight mount manufactured by Hensoldt. Mounted on the HKV sight
 basePrice=1400
 width=1
 height=1
+weight=0.015000
 Sell_Prapor=700
 Sell_Fence=560
 Sell_Skier=686
@@ -13,8 +14,7 @@ Sell_Peacekeeper=5
 Sell_Mechanic=784
 Sell_Jaeger=840
 Sell_Flea Market=30000
-weight=0.015000
-fleaMarketFee=5951
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	EOTech 553 holographic sight/|

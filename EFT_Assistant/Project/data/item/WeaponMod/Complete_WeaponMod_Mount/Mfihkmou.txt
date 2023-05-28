@@ -6,6 +6,7 @@ Information_Eng=A universal mount for HK weapon systems, designed and manufactur
 basePrice=7607
 width=1
 height=1
+weight=0.071000
 Sell_Prapor=3803
 Sell_Fence=3042
 Sell_Skier=3727
@@ -13,8 +14,7 @@ Sell_Peacekeeper=29
 Sell_Mechanic=4259
 Sell_Jaeger=4564
 Sell_Flea Market=70000
-weight=0.071000
-fleaMarketFee=8018
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|

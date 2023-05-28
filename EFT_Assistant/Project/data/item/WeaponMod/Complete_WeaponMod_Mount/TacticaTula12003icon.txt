@@ -6,6 +6,7 @@ Information_Eng=The Taktika Tula 12003 stock adapter designed for mounting vario
 basePrice=2200
 width=1
 height=1
+weight=0.040000
 Sell_Prapor=1100
 Sell_Fence=880
 Sell_Skier=1078
@@ -13,8 +14,7 @@ Sell_Peacekeeper=8
 Sell_Mechanic=1232
 Sell_Jaeger=1320
 Sell_Flea Market=4530
-weight=0.040000
-fleaMarketFee=245
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	M870 FAB Defense AGR-870 pistol grip

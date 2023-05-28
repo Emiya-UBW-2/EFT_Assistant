@@ -6,22 +6,22 @@ Information_Eng=A rear sight mount allows the installation of Burris Fast Fire, 
 basePrice=2800
 width=1
 height=1
+weight=0.028000
 Sell_Prapor=1400
 Sell_Fence=1120
 Sell_Skier=1372
 Sell_Peacekeeper=11
 Sell_Mechanic=1568
 Sell_Flea Market=14980
-weight=0.028000
-fleaMarketFee=1233
-Conflict=[
-	HK USP Elite .45 ACP pistol slide/|
-	HK USP Expert .45 ACP pistol slide
-]
+fleaMarketFee=0
 propertiestype=ItemPropertiesScope
 SightRange=0
 ChildParts=[
 	Burris FastFire 3 reflex sight
+]
+Conflict=[
+	HK USP Elite .45 ACP pistol slide/|
+	HK USP Expert .45 ACP pistol slide
 ]
 Recoil=0.000000
 Ergonomics=-2.000000

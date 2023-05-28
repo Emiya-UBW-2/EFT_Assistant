@@ -6,6 +6,7 @@ Information_Eng=A 20 inch (508mm) barrel for Mossberg 590A1 12 gauge pump-action
 basePrice=9800
 width=3
 height=1
+weight=0.800000
 Sell_Prapor=4900
 Sell_Fence=3920
 Sell_Skier=4802
@@ -13,8 +14,7 @@ Sell_Peacekeeper=37
 Sell_Mechanic=5488
 Sell_Jaeger=5880
 Sell_Flea Market=35000
-weight=0.800000
-fleaMarketFee=2317
+fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	Mossberg 590 Ghost Ring front sight

@@ -6,15 +6,17 @@ Information_Eng=The NightForce ATACR 7-35x56 versatile scope with an extensive m
 basePrice=87797
 width=2
 height=1
+weight=1.113000
 Sell_Prapor=43898
 Sell_Fence=35118
 Sell_Skier=43020
 Sell_Peacekeeper=332
 Sell_Mechanic=49166
 Sell_Jaeger=52678
-Sell_Flea Market=53111
-weight=1.113000
-fleaMarketFee=4620
+Sell_Flea Market=53999
+fleaMarketFee=0
+propertiestype=ItemPropertiesScope
+SightRange=0
 Conflict=[
 	Axion Kobra EKP-8-18 reflex sight/|
 	OKP-7 reflex sight/|
@@ -32,7 +34,5 @@ Conflict=[
 	Walther MRS reflex sight/|
 	Aimpoint LRP mount for CompM4 sights
 ]
-propertiestype=ItemPropertiesScope
-SightRange=0
 Recoil=0.000000
 Ergonomics=-8.000000

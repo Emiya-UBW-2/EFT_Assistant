@@ -6,14 +6,14 @@ Information_Eng=A barrel for Steyr AUG A1 designed for 5.56x45 NATO ammo, 16 inc
 basePrice=28500
 width=3
 height=1
+weight=0.535000
 Sell_Prapor=14250
 Sell_Fence=11400
 Sell_Skier=13965
 Sell_Peacekeeper=108
 Sell_Mechanic=15960
 Sell_Jaeger=17100
-weight=0.535000
-fleaMarketFee=1710
+fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	Steyr AUG A1 5.56x45 closed flash hider/|

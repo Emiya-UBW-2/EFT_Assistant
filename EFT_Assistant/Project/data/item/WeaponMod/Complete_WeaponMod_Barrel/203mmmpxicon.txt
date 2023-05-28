@@ -6,6 +6,7 @@ Information_Eng=A 203mm long barrel for MPX-based weapons chambered for 9x19 amm
 basePrice=6574
 width=2
 height=1
+weight=0.250000
 Sell_Prapor=3287
 Sell_Fence=2629
 Sell_Skier=3221
@@ -13,13 +14,7 @@ Sell_Peacekeeper=25
 Sell_Mechanic=3681
 Sell_Jaeger=3944
 Sell_Flea Market=16999
-weight=0.250000
-fleaMarketFee=980
-Conflict=[
-	MPX Lancer OEM 14 inch M-LOK handguard/|
-	MPX Midwest Industries 10.5 inch M-LOK handguard/|
-	MPX Midwest Industries 14 inch M-LOK handguard
-]
+fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	TACCOM Carbine Brake multi-caliber muzzle brake/|
@@ -30,6 +25,11 @@ ChildParts=[
 	Rotor 43 9x19 muzzle brake-compensator/|
 	SIG Sauer SRD9 9x19 sound suppressor/|
 	SilencerCo Osprey 9 9x19 sound suppressor
+]
+Conflict=[
+	MPX Lancer OEM 14 inch M-LOK handguard/|
+	MPX Midwest Industries 10.5 inch M-LOK handguard/|
+	MPX Midwest Industries 14 inch M-LOK handguard
 ]
 Recoil=-3.000000
 Ergonomics=-6.000000

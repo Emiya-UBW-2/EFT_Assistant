@@ -6,6 +6,7 @@ Information_Eng=The SIG Sauer mount base for ROMEO-type reflex sights.
 basePrice=1861
 width=1
 height=1
+weight=0.015000
 Sell_Prapor=930
 Sell_Fence=744
 Sell_Skier=911
@@ -13,8 +14,7 @@ Sell_Peacekeeper=7
 Sell_Mechanic=1042
 Sell_Jaeger=1116
 Sell_Flea Market=12222
-weight=0.015000
-fleaMarketFee=1136
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Aimpoint Micro H-2 reflex sight/|

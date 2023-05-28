@@ -6,14 +6,14 @@ Information_Eng=The Vltor CASV-FAL handguard for FAL series rifles equipped with
 basePrice=29262
 width=2
 height=1
+weight=0.224000
 Sell_Prapor=14631
 Sell_Fence=11704
 Sell_Skier=14338
 Sell_Peacekeeper=111
 Sell_Mechanic=16386
 Sell_Flea Market=33000
-weight=0.224000
-fleaMarketFee=1865
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Vltor CASV 5 inch rail

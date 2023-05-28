@@ -6,6 +6,7 @@ Information_Eng=Designed for shooting at small and medium distances. The sight w
 basePrice=14468
 width=2
 height=1
+weight=0.310000
 Sell_Prapor=7234
 Sell_Fence=5787
 Sell_Skier=7089
@@ -13,8 +14,9 @@ Sell_Peacekeeper=55
 Sell_Mechanic=8102
 Sell_Jaeger=8680
 Sell_Flea Market=10000
-weight=0.310000
-fleaMarketFee=766
+fleaMarketFee=0
+propertiestype=ItemPropertiesScope
+SightRange=0
 Conflict=[
 	Axion Kobra EKP-8-18 reflex sight/|
 	OKP-7 reflex sight/|
@@ -41,7 +43,5 @@ Conflict=[
 	MPX flip-up rear sight/|
 	Aimpoint LRP mount for CompM4 sights
 ]
-propertiestype=ItemPropertiesScope
-SightRange=0
 Recoil=0.000000
 Ergonomics=-4.000000

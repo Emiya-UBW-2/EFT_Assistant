@@ -6,13 +6,13 @@ Information_Eng=A standard-issue SR-2M "Veresk" polymer handguard for burn prote
 basePrice=2850
 width=2
 height=1
+weight=0.120000
 Sell_Prapor=1425
 Sell_Fence=1140
 Sell_Skier=1396
 Sell_Peacekeeper=11
 Sell_Mechanic=1596
-weight=0.120000
-fleaMarketFee=171
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	SR-2M side rail/|

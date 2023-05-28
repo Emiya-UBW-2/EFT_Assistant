@@ -6,14 +6,14 @@ Information_Eng=The A3 adapter by Lantac designed for installation of the BMD Bl
 basePrice=3000
 width=1
 height=1
+weight=0.030000
 Sell_Prapor=1500
 Sell_Fence=1200
 Sell_Skier=1470
 Sell_Peacekeeper=11
 Sell_Mechanic=1680
 Sell_Flea Market=46555
-weight=0.030000
-fleaMarketFee=7467
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AR-10 Lantac Drakon 7.62x51 muzzle brake-compensator

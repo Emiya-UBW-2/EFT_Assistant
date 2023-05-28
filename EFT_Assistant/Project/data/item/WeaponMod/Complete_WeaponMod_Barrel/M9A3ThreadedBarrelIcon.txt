@@ -6,6 +6,7 @@ Information_Eng=A standard threaded barrel for the Beretta M9A3 9x19 pistol.
 basePrice=1660
 width=1
 height=1
+weight=0.200000
 Sell_Prapor=830
 Sell_Fence=664
 Sell_Skier=813
@@ -13,8 +14,7 @@ Sell_Peacekeeper=6
 Sell_Mechanic=929
 Sell_Jaeger=996
 Sell_Flea Market=25000
-weight=0.200000
-fleaMarketFee=3932
+fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	M9A3 thread protection cap/|

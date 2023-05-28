@@ -6,6 +6,7 @@ Information_Eng=The Vltor CASV 4 inch rail allows installation of additional equ
 basePrice=1306
 width=1
 height=1
+weight=0.060000
 Sell_Prapor=653
 Sell_Fence=522
 Sell_Skier=639
@@ -13,8 +14,7 @@ Sell_Peacekeeper=5
 Sell_Mechanic=731
 Sell_Jaeger=783
 Sell_Flea Market=11111
-weight=0.060000
-fleaMarketFee=1211
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|

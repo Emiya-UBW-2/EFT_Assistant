@@ -6,6 +6,7 @@ Information_Eng=A universal 30mm optical scope base mount by Lobaev Arms for ins
 basePrice=4086
 width=2
 height=1
+weight=0.250000
 Sell_Prapor=2043
 Sell_Fence=1634
 Sell_Skier=2002
@@ -13,8 +14,7 @@ Sell_Peacekeeper=15
 Sell_Mechanic=2288
 Sell_Jaeger=2451
 Sell_Flea Market=28500
-weight=0.250000
-fleaMarketFee=2748
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Burris FullField TAC30 1-4x24 30mm riflescope/|

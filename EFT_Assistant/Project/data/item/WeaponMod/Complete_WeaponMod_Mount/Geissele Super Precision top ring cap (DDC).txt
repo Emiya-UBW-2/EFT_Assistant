@@ -6,6 +6,7 @@ Information_Eng=A regular top ring cap for the Geissele Super Precision mounts. 
 basePrice=1700
 width=1
 height=1
+weight=0.020000
 Sell_Prapor=850
 Sell_Fence=680
 Sell_Skier=833
@@ -13,11 +14,10 @@ Sell_Peacekeeper=6
 Sell_Mechanic=952
 Sell_Jaeger=1020
 Sell_Flea Market=22222
-weight=0.020000
-fleaMarketFee=3187
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
 Conflict=[
 	AR-15 rear sight carry handle
 ]
-propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=0.500000

@@ -6,14 +6,14 @@ Information_Eng=A standard-issue cylinder for the M32A1 MSGL revolver grenade la
 basePrice=45000
 width=2
 height=2
+weight=0.800000
 Sell_Prapor=22500
 Sell_Fence=18000
 Sell_Skier=22050
 Sell_Peacekeeper=170
 Sell_Mechanic=25200
-Sell_Flea Market=25555
-weight=0.800000
-fleaMarketFee=2376
+Sell_Flea Market=25500
+fleaMarketFee=0
 propertiestype=ItemPropertiesMagazine
 ChildParts=[
 	40x46mm M381 (HE) grenade/|

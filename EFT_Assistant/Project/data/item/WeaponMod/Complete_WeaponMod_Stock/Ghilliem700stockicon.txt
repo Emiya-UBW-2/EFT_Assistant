@@ -6,6 +6,7 @@ Information_Eng=The Overmolded Ghillie stock for the Remington Model 700 bolt-ac
 basePrice=8500
 width=3
 height=1
+weight=1.800000
 Sell_Prapor=4250
 Sell_Fence=3400
 Sell_Skier=4165
@@ -13,17 +14,7 @@ Sell_Peacekeeper=32
 Sell_Mechanic=4760
 Sell_Jaeger=5100
 Sell_Flea Market=24444
-weight=1.800000
-fleaMarketFee=1468
-Conflict=[
-	M700 7.62x51 AI AICS 10-round magazine/|
-	M700 7.62x51 AI AICS 5-round magazine/|
-	M700 7.62x51 Magpul PMAG AC 10-round magazine/|
-	M700 7.62x51 Magpul PMAG AC 5-round magazine/|
-	M700 7.62x51 MDT AICS 12-round magazine/|
-	M700 7.62x51 ProMag AA-70 10-round magazine/|
-	M700 7.62x51 ProMag AA-70 20-round magazine
-]
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
@@ -41,6 +32,15 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight
+]
+Conflict=[
+	M700 7.62x51 AI AICS 10-round magazine/|
+	M700 7.62x51 AI AICS 5-round magazine/|
+	M700 7.62x51 Magpul PMAG AC 10-round magazine/|
+	M700 7.62x51 Magpul PMAG AC 5-round magazine/|
+	M700 7.62x51 MDT AICS 12-round magazine/|
+	M700 7.62x51 ProMag AA-70 10-round magazine/|
+	M700 7.62x51 ProMag AA-70 20-round magazine
 ]
 Recoil=-30.000002
 Ergonomics=14.000000

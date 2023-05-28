@@ -6,6 +6,7 @@ Information_Eng=A wooden stock for the Mosin carbine.
 basePrice=3320
 width=3
 height=1
+weight=1.600000
 Sell_Prapor=1660
 Sell_Fence=1328
 Sell_Skier=1626
@@ -13,17 +14,16 @@ Sell_Peacekeeper=13
 Sell_Mechanic=1859
 Sell_Jaeger=1992
 Sell_Flea Market=25000
-weight=1.600000
-fleaMarketFee=2527
-Conflict=[
-	Mosin Rifle Kochetov mount
-]
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Mosin Rifle AIM Sports Recoil Pad
 ]
 ChildParts=[
 	Mosin Rifle Tacfire pistol grip
+]
+Conflict=[
+	Mosin Rifle Kochetov mount
 ]
 Recoil=-27.000002
 Ergonomics=14.000000

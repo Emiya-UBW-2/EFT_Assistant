@@ -6,6 +6,7 @@ Information_Eng=The Hensoldt FF 4-16x56 telescopic sight was developed to delive
 basePrice=55784
 width=2
 height=1
+weight=0.900000
 Sell_Prapor=27892
 Sell_Fence=22313
 Sell_Skier=27334
@@ -13,8 +14,9 @@ Sell_Peacekeeper=211
 Sell_Mechanic=31239
 Sell_Jaeger=33470
 Sell_Flea Market=34333
-weight=0.900000
-fleaMarketFee=2935
+fleaMarketFee=0
+propertiestype=ItemPropertiesScope
+SightRange=0
 Conflict=[
 	Axion Kobra EKP-8-18 reflex sight/|
 	OKP-7 reflex sight/|
@@ -32,7 +34,5 @@ Conflict=[
 	Walther MRS reflex sight/|
 	Aimpoint LRP mount for CompM4 sights
 ]
-propertiestype=ItemPropertiesScope
-SightRange=0
 Recoil=0.000000
 Ergonomics=-6.000000

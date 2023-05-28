@@ -6,6 +6,7 @@ Information_Eng=A threaded barrel for the HK UMP submachine gun, chambered in .4
 basePrice=7600
 width=2
 height=1
+weight=0.415000
 Sell_Prapor=3800
 Sell_Fence=3040
 Sell_Skier=3724
@@ -13,8 +14,7 @@ Sell_Peacekeeper=29
 Sell_Mechanic=4256
 Sell_Jaeger=4560
 Sell_Flea Market=15111
-weight=0.415000
-fleaMarketFee=811
+fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	KRISS Vector .45 ACP flash hider/|

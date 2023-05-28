@@ -7,8 +7,8 @@ namespace FPS_n2 {
 		if (this->GetSightingRange() >= 0) {
 			outputfile << "SightRange=" + std::to_string(this->GetSightingRange()) + "\n";
 		}
-		if (this->GetModSlots().size() > 0) {
-			for (const auto& m : this->GetModSlots()) {
+		if (this->m_ChildPartsID.size() > 0) {
+			for (const auto& m : this->m_ChildPartsID) {
 				if (m.m_Data.size() > 0) {
 					outputfile << "ChildParts=[\n";
 					std::vector<std::string> Names;
@@ -21,6 +21,24 @@ namespace FPS_n2 {
 					}
 					outputfile << "]\n";
 				}
+			}
+		}
+		if (this->m_ConflictPartsID.size() > 0) {
+			bool isHit = false;
+			std::vector<std::string> Names;
+			for (auto& m : this->m_ConflictPartsID) {
+				auto NmBuf = m.GetName();
+				if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
+					if (!isHit) {
+						isHit = true;
+						outputfile << "Conflict=[\n";
+					}
+					outputfile << "\t" + NmBuf + ((&m != &this->m_ConflictPartsID.back()) ? DIV_STR : "") + "\n";
+					Names.emplace_back(NmBuf);
+				}
+			}
+			if (isHit) {
+				outputfile << "]\n";
 			}
 		}
 		if (this->GetType() == EnumItemProperties::ItemPropertiesWeapon) {
@@ -44,48 +62,9 @@ namespace FPS_n2 {
 	//
 	void			ItemList::SetSub(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
 		if (LEFT == "Itemtype") { this->m_ItemsData.m_TypeID.SetName(Args[0]); }
-
 		else if (LEFT == "Map") {
 			this->m_ItemsData.m_MapID.resize(this->m_ItemsData.m_MapID.size() + 1);
 			this->m_ItemsData.m_MapID.back().SetName(Args[0]);
-		}
-		else if (LEFT == "propertiestype") { this->m_ItemsData.m_properties.SetType(Args[0]); }
-		else if (LEFT == "Recoil") { this->m_ItemsData.m_properties.SetRecoil(std::stof(Args[0])); }
-		else if (LEFT == "Ergonomics") { this->m_ItemsData.m_properties.SetErgonomics(std::stof(Args[0])); }
-		else if (LEFT == "SightRange") { this->m_ItemsData.m_properties.SetSightingRange(std::stoi(Args[0])); }
-
-		else if (LEFT == "ChildParts") {
-			this->m_ItemsData.m_ChildPartsID.resize(this->m_ItemsData.m_ChildPartsID.size() + 1);
-			auto& CP = this->m_ItemsData.m_ChildPartsID.back().m_Data;
-			for (auto&a : Args) {
-				bool isHit = false;
-				for (auto& d : CP) {
-					if (d.GetName() == a) {
-						isHit = true;
-						break;
-					}
-				}
-				if (!isHit) {
-					CP.resize(CP.size() + 1);
-					CP.back().SetName(a);
-				}
-			}
-		}
-		else if (LEFT == "Conflict") {
-			auto& CP = this->m_ItemsData.m_ConflictPartsID;
-			for (auto&a : Args) {
-				bool isHit = false;
-				for (auto& d : CP) {
-					if (d.GetName() == a) {
-						isHit = true;
-						break;
-					}
-				}
-				if (!isHit) {
-					CP.resize(CP.size() + 1);
-					CP.back().SetName(a);
-				}
-			}
 		}
 		else if (LEFT == "basePrice") { this->m_ItemsData.m_basePrice = std::stoi(Args[0]); }
 		else if (LEFT == "width") { this->m_ItemsData.m_width = std::stoi(Args[0]); }
@@ -97,6 +76,8 @@ namespace FPS_n2 {
 		}
 		else if (LEFT == "weight") { this->m_ItemsData.m_weight = std::stof(Args[0]); }
 		else if (LEFT == "fleaMarketFee") { this->m_ItemsData.m_fleaMarketFee = std::stoi(Args[0]); }
+
+		m_ItemsData.m_properties.SetData(LEFT, Args);
 	}
 	void			ItemList::Load_Sub() noexcept {
 		this->m_ItemsData.m_TypeID.CheckID(ItemTypeData::Instance()->GetList());
@@ -121,14 +102,14 @@ namespace FPS_n2 {
 		}
 	}
 	void			ItemList::SetParent() noexcept {
-		for (auto& cp : this->m_ItemsData.m_ChildPartsID) {
+		for (auto& cp : this->m_ItemsData.m_properties.SetModSlots()) {
 			for (auto& c : cp.m_Data) {
 				c.CheckID(ItemData::Instance()->GetList());
 			}
 		}
 		this->m_ItemsData.m_ParentPartsID.clear();
 		for (const auto& t : ItemData::Instance()->GetList()) {
-			for (auto& cp : t.m_ItemsData.m_ChildPartsID) {
+			for (auto& cp : t.m_ItemsData.m_properties.GetModSlots()) {
 				for (auto& c : cp.m_Data) {
 					if (c.GetID() == this->GetID()) {
 						this->m_ItemsData.m_ParentPartsID.emplace_back(t.GetID());
@@ -137,22 +118,22 @@ namespace FPS_n2 {
 			}
 		}
 		//
-		for (auto& cp : this->m_ItemsData.m_ChildPartsID) {
+		for (auto& cp : this->m_ItemsData.m_properties.SetModSlots()) {
 			for (const auto& c : cp.m_Data) {
 				cp.SetTypeID(ItemData::Instance()->FindPtr(c.GetID())->GetTypeID());
 			}
 		}
 		//
-		for (auto& cp : this->m_ItemsData.m_ConflictPartsID) {
+		for (auto& cp : this->m_ItemsData.m_properties.SetConflictPartsID()) {
 			cp.CheckID(ItemData::Instance()->GetList());
 		}
 		//Ž©•ª‚ðŠ±Â‘ŠŽè‚É‚µ‚Ä‚¢‚é“z‚ð’T‚µ‚Ä‚»‚¢‚Â‚àƒŠƒXƒg‚É“ü‚ê‚é@‘ŠŽv‘Šˆ¤
 		for (const auto& t : ItemData::Instance()->GetList()) {
 			for (auto& cp : t.GetConflictParts()) {
 				if (cp.GetID() == this->GetID()) {
-					this->m_ItemsData.m_ConflictPartsID.resize(this->m_ItemsData.m_ConflictPartsID.size() + 1);
-					this->m_ItemsData.m_ConflictPartsID.back().SetID(t.GetID());
-					this->m_ItemsData.m_ConflictPartsID.back().SetName(t.GetName());
+					this->m_ItemsData.m_properties.SetConflictPartsID().resize(this->m_ItemsData.m_properties.SetConflictPartsID().size() + 1);
+					this->m_ItemsData.m_properties.SetConflictPartsID().back().SetID(t.GetID());
+					this->m_ItemsData.m_properties.SetConflictPartsID().back().SetName(t.GetName());
 				}
 			}
 		}
@@ -674,11 +655,11 @@ namespace FPS_n2 {
 			}
 			//
 			{
-				if (this->m_ItemsData.m_ChildPartsID.size() > 0) {
+				if (this->m_ItemsData.m_properties.GetModSlots().size() > 0) {
 					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STRX_LEFT, White, Black, "ChildrenMods:") + y_r(30)); yofs += LineHeight + y_r(5);
 				}
 				int ysize = (int)((float)y_r(42));
-				for (const auto& cp : this->m_ItemsData.m_ChildPartsID) {
+				for (const auto& cp : this->m_ItemsData.m_properties.GetModSlots()) {
 					for (const auto& c : cp.m_Data) {
 						auto* ptr = ItemData::Instance()->FindPtr(c.GetID());
 						xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, y_r(800), ysize, 0, defaultcolor, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0)), false, true, false) + y_r(30));
@@ -755,7 +736,8 @@ namespace FPS_n2 {
 		categorytypes = data["category"]["name"];
 		m_ItemsData.m_weight = data["weight"];
 		for (const auto& ts : data["conflictingItems"]) {
-			conflictingItems.emplace_back((std::string)ts["name"]);
+			m_ItemsData.m_properties.SetConflictPartsID().resize(m_ItemsData.m_properties.SetConflictPartsID().size() + 1);
+			m_ItemsData.m_properties.SetConflictPartsID().back().SetName(ts["name"]);
 		}
 		for (const auto& ts : data["usedInTasks"]) {
 			usedInTasks.emplace_back((std::string)ts["name"]);
@@ -775,12 +757,6 @@ namespace FPS_n2 {
 		for (const auto& ts : data["craftsUsing"]) {
 			craftsUsing.emplace_back((std::string)ts["station"]["name"]);
 		}
-		if (data.contains("fleaMarketFee")) {
-			if (!data["fleaMarketFee"].is_null()) {
-				m_ItemsData.m_fleaMarketFee = data["fleaMarketFee"];
-			}
-		}
-
 		if (data.contains("properties")) {
 			if (!data["properties"].is_null()) {
 				m_ItemsData.m_properties.GetJsonData(data["properties"]);
@@ -794,35 +770,11 @@ namespace FPS_n2 {
 		outputfile << "basePrice=" + std::to_string(this->m_ItemsData.m_basePrice) + "\n";
 		outputfile << "width=" + std::to_string(this->m_ItemsData.m_width) + "\n";
 		outputfile << "height=" + std::to_string(this->m_ItemsData.m_height) + "\n";
+		outputfile << "weight=" + std::to_string(this->m_ItemsData.m_weight) + "\n";
 		for (auto& sf : this->sellFor) {
 			outputfile << "Sell_" + sf.first + "=" + std::to_string(sf.second) + "\n";
 		}
-		outputfile << "weight=" + std::to_string(this->m_ItemsData.m_weight) + "\n";
-		//std::vector<std::string>					usedInTasks;
-		//std::vector<std::string>					receivedFromTasks;
-		//std::vector<std::string>					bartersFor;
-		//std::vector<std::string>					bartersUsing;
-		//std::vector<std::string>					craftsFor;
-		//std::vector<std::string>					craftsUsing;
 		outputfile << "fleaMarketFee=" + std::to_string(this->m_ItemsData.m_fleaMarketFee) + "\n";
-		if (this->conflictingItems.size() > 0) {
-			bool isHit = false;
-			std::vector<std::string> Names;
-			for (auto& m : this->conflictingItems) {
-				auto NmBuf = m;
-				if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
-					if (!isHit) {
-						isHit = true;
-						outputfile << "Conflict=[\n";
-					}
-					outputfile << "\t" + NmBuf + ((&m != &this->conflictingItems.back()) ? DIV_STR : "") + "\n";
-					Names.emplace_back(NmBuf);
-				}
-			}
-			if (isHit) {
-				outputfile << "]\n";
-			}
-		}
 		this->m_ItemsData.m_properties.OutputData(outputfile);
 	}
 	//

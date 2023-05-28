@@ -6,6 +6,7 @@ Information_Eng=STM Arms Receiver Extension Buffer Tube, 4-position, Com-Spec di
 basePrice=1200
 width=2
 height=1
+weight=0.162000
 Sell_Prapor=600
 Sell_Fence=480
 Sell_Skier=588
@@ -13,8 +14,7 @@ Sell_Peacekeeper=5
 Sell_Mechanic=672
 Sell_Jaeger=720
 Sell_Flea Market=5000
-weight=0.162000
-fleaMarketFee=358
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AR-15 B5 Systems Precision stock/|

@@ -6,6 +6,7 @@ Information_Eng=A standard factory-produced 750mm barrel with a wide upper rib f
 basePrice=7680
 width=5
 height=1
+weight=1.550000
 Sell_Prapor=3840
 Sell_Fence=3072
 Sell_Skier=3763
@@ -13,8 +14,7 @@ Sell_Peacekeeper=29
 Sell_Mechanic=4300
 Sell_Jaeger=4608
 Sell_Flea Market=12500
-weight=1.550000
-fleaMarketFee=658
+fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	ME Cylinder 12ga muzzle adapter/|

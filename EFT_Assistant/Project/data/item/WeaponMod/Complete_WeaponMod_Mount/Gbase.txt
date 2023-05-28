@@ -6,6 +6,7 @@ Information_Eng=A sight mount base for Glock pistols, allows additional installa
 basePrice=4044
 width=1
 height=1
+weight=0.120000
 Sell_Prapor=2022
 Sell_Fence=1617
 Sell_Skier=1981
@@ -13,8 +14,7 @@ Sell_Peacekeeper=15
 Sell_Mechanic=2264
 Sell_Jaeger=2426
 Sell_Flea Market=17420
-weight=0.120000
-fleaMarketFee=1270
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	BelOMO PK-06 reflex sight/|

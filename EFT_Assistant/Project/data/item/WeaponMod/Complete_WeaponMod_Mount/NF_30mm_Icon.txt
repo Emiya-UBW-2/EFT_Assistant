@@ -6,6 +6,7 @@ Information_Eng=Nightforce X-Treme Duty Ultralite one piece Magmount is a univer
 basePrice=6012
 width=2
 height=1
+weight=0.190000
 Sell_Prapor=3006
 Sell_Fence=2404
 Sell_Skier=2945
@@ -13,8 +14,7 @@ Sell_Peacekeeper=23
 Sell_Mechanic=3366
 Sell_Jaeger=3607
 Sell_Flea Market=79999
-weight=0.190000
-fleaMarketFee=11608
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Burris FullField TAC30 1-4x24 30mm riflescope/|

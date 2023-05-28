@@ -6,6 +6,7 @@ Information_Eng=The B-18 rail mount is installed on the standard rear sight of A
 basePrice=3298
 width=1
 height=1
+weight=0.053000
 Sell_Prapor=1649
 Sell_Fence=1319
 Sell_Skier=1616
@@ -13,8 +14,7 @@ Sell_Peacekeeper=12
 Sell_Mechanic=1846
 Sell_Jaeger=1978
 Sell_Flea Market=4333
-weight=0.053000
-fleaMarketFee=233
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Aimpoint Micro Standard Mount/|

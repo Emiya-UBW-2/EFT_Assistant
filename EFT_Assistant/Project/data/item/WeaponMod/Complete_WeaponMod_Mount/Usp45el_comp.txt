@@ -6,6 +6,7 @@ Information_Eng=The Elite compensator from the special USP Elite pistol kit will
 basePrice=3500
 width=1
 height=1
+weight=0.310000
 Sell_Prapor=1750
 Sell_Fence=1400
 Sell_Skier=1715
@@ -13,14 +14,13 @@ Sell_Peacekeeper=13
 Sell_Mechanic=1960
 Sell_Jaeger=2100
 Sell_Flea Market=14500
-weight=0.310000
-fleaMarketFee=1036
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
 Conflict=[
 	SilencerCo Omega 45k Piston Mount adapter/|
 	HK USP .45 ACP barrel/|
 	HK USP Tactical .45 ACP threaded barrel/|
 	HK USP Expert .45 ACP barrel
 ]
-propertiestype=ItemPropertiesWeaponMod
 Recoil=-10.000000
 Ergonomics=-8.000000

@@ -6,6 +6,7 @@ Information_Eng=The Delta-Tek Sprut mount was developed to install on tube magaz
 basePrice=2588
 width=1
 height=1
+weight=0.096000
 Sell_Prapor=1294
 Sell_Fence=1035
 Sell_Skier=1268
@@ -13,8 +14,7 @@ Sell_Peacekeeper=10
 Sell_Mechanic=1449
 Sell_Jaeger=1552
 Sell_Flea Market=26969
-weight=0.096000
-fleaMarketFee=3343
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|

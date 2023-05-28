@@ -6,6 +6,7 @@ Information_Eng=A barrel for AR-15 based weapons for 5.56x45 NATO ammo, 18 inch 
 basePrice=31567
 width=3
 height=1
+weight=0.780000
 Sell_Prapor=15783
 Sell_Fence=12626
 Sell_Skier=15467
@@ -13,17 +14,7 @@ Sell_Peacekeeper=119
 Sell_Mechanic=17677
 Sell_Jaeger=18940
 Sell_Flea Market=122222
-weight=0.780000
-fleaMarketFee=8427
-Conflict=[
-	AR-15 ADAR 2-15 wooden handguard/|
-	AR-15 Colt M4 Carbine Length handguard/|
-	AR-15 KAC RIS handguard/|
-	AR-15 Magpul MOE SL carbine length M-LOK handguard/|
-	AR-15 Magpul MOE SL medium length M-LOK handguard/|
-	AR-15 Strike Industries Viper carbine length M-LOK handguard/|
-	AR-15 Strike Industries Viper carbine length M-LOK handguard (FDE)
-]
+fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	Yankee Hill Annihilator multi-caliber flash hider/|
@@ -62,6 +53,15 @@ ChildParts=[
 	AR-15 Daniel Defense MK12 Low Profile Gas Block/|
 	AR-15 JP Enterprises Gas System-5B/|
 	AR-15 Windham Weaponry Rail Gas Block
+]
+Conflict=[
+	AR-15 ADAR 2-15 wooden handguard/|
+	AR-15 Colt M4 Carbine Length handguard/|
+	AR-15 KAC RIS handguard/|
+	AR-15 Magpul MOE SL carbine length M-LOK handguard/|
+	AR-15 Magpul MOE SL medium length M-LOK handguard/|
+	AR-15 Strike Industries Viper carbine length M-LOK handguard/|
+	AR-15 Strike Industries Viper carbine length M-LOK handguard (FDE)
 ]
 Recoil=-5.000000
 Ergonomics=-22.000000

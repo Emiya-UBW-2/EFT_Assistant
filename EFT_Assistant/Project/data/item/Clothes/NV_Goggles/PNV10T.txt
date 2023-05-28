@@ -6,17 +6,17 @@ Information_Eng=PNV-10T are pseudo-binocular night vision googles of the second 
 basePrice=28000
 width=2
 height=1
+weight=0.800000
 Sell_Prapor=14000
 Sell_Fence=11200
 Sell_Skier=13720
 Sell_Peacekeeper=106
 Sell_Mechanic=15680
 Sell_Jaeger=16800
-Sell_Flea Market=31000
-weight=0.800000
-fleaMarketFee=1766
+Sell_Flea Market=33000
+fleaMarketFee=0
+propertiestype=ItemPropertiesNightVision
 Conflict=[
 	Ops-Core FAST Visor/|
 	Ops-Core FAST multi-hit ballistic face shield
 ]
-propertiestype=ItemPropertiesNightVision

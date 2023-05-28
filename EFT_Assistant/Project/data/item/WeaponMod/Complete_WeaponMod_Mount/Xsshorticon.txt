@@ -6,6 +6,7 @@ Information_Eng=A Picatinny rail with a Ghost Ring type rear sight for the Remin
 basePrice=5926
 width=2
 height=1
+weight=0.150000
 Sell_Prapor=2963
 Sell_Fence=2370
 Sell_Skier=2903
@@ -13,8 +14,7 @@ Sell_Peacekeeper=22
 Sell_Mechanic=3318
 Sell_Jaeger=3555
 Sell_Flea Market=6999
-weight=0.150000
-fleaMarketFee=389
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	EOTech 553 holographic sight/|

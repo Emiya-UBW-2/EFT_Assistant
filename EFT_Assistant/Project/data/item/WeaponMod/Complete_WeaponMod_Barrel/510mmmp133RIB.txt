@@ -6,6 +6,7 @@ Information_Eng=A standard factory-produced 510mm barrel with a wide upper rib f
 basePrice=4020
 width=3
 height=1
+weight=0.850000
 Sell_Prapor=2010
 Sell_Fence=1608
 Sell_Skier=1969
@@ -13,8 +14,7 @@ Sell_Peacekeeper=15
 Sell_Mechanic=2251
 Sell_Jaeger=2412
 Sell_Flea Market=98000
-weight=0.850000
-fleaMarketFee=21179
+fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	ME Cylinder 12ga muzzle adapter/|

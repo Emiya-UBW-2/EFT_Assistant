@@ -6,6 +6,7 @@ Information_Eng=A 660mm long match-grade barrel manufactured by ORSIS for the T-
 basePrice=17672
 width=3
 height=1
+weight=2.700000
 Sell_Prapor=8836
 Sell_Fence=7068
 Sell_Skier=8659
@@ -13,8 +14,7 @@ Sell_Peacekeeper=67
 Sell_Mechanic=9896
 Sell_Jaeger=10603
 Sell_Flea Market=43333
-weight=2.700000
-fleaMarketFee=2454
+fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	AWC PSR 7.62x51 muzzle brake/|

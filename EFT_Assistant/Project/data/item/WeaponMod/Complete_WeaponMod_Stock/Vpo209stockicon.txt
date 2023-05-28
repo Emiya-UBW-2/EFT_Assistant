@@ -6,6 +6,7 @@ Information_Eng=A standard-issue wooden stock for VPO-209 AKM carbines, manufact
 basePrice=1820
 width=2
 height=1
+weight=0.450000
 Sell_Prapor=910
 Sell_Fence=728
 Sell_Skier=891
@@ -13,8 +14,7 @@ Sell_Peacekeeper=7
 Sell_Mechanic=1019
 Sell_Jaeger=1092
 Sell_Flea Market=20000
-weight=0.450000
-fleaMarketFee=2565
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AK GP-25 accessory kit recoil pad

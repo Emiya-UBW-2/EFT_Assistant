@@ -6,20 +6,15 @@ Information_Eng=The MREX 6.5 M-LOK rail for SCAR series rifles allows the instal
 basePrice=10200
 width=2
 height=1
+weight=0.226000
 Sell_Prapor=5100
 Sell_Fence=4080
 Sell_Skier=4998
 Sell_Peacekeeper=39
 Sell_Mechanic=5712
 Sell_Jaeger=6120
-Sell_Flea Market=19999
-weight=0.226000
-fleaMarketFee=1070
-Conflict=[
-	FN SCAR side rail/|
-	FN SCAR-L 5.56x45 10 inch barrel/|
-	FN SCAR-H 7.62x51 13 inch barrel
-]
+Sell_Flea Market=20000
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AN/PEQ-15 tactical device/|
@@ -44,6 +39,11 @@ ChildParts=[
 ]
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail
+]
+Conflict=[
+	FN SCAR side rail/|
+	FN SCAR-L 5.56x45 10 inch barrel/|
+	FN SCAR-H 7.62x51 13 inch barrel
 ]
 Recoil=-1.000000
 Ergonomics=3.000000

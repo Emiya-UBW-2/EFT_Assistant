@@ -6,14 +6,14 @@ Information_Eng=The Mk. 2.1 gas tube for AK-545 carbines manufactured by Suresho
 basePrice=2300
 width=1
 height=1
+weight=0.100000
 Sell_Prapor=1150
 Sell_Fence=920
 Sell_Skier=1127
 Sell_Peacekeeper=9
 Sell_Mechanic=1288
 Sell_Flea Market=85555
-weight=0.100000
-fleaMarketFee=24537
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AK-545 SAG Mk.3 handguard

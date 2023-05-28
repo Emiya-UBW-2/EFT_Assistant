@@ -6,19 +6,15 @@ Information_Eng=A Picatinny rail for the Mosin rifle, mounted instead of the reg
 basePrice=3215
 width=2
 height=1
+weight=0.180000
 Sell_Prapor=1607
 Sell_Fence=1286
 Sell_Skier=1575
 Sell_Peacekeeper=12
 Sell_Mechanic=1800
 Sell_Jaeger=1929
-Sell_Flea Market=40000
-weight=0.180000
-fleaMarketFee=5557
-Conflict=[
-	Mosin Rifle Arbalet Patriot K+W rail mount/|
-	PU 3.5x ring scope mount
-]
+Sell_Flea Market=10000
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
@@ -121,6 +117,10 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight
+]
+Conflict=[
+	Mosin Rifle Arbalet Patriot K+W rail mount/|
+	PU 3.5x ring scope mount
 ]
 Recoil=0.000000
 Ergonomics=-2.000000

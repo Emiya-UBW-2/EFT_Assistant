@@ -6,6 +6,7 @@ Information_Eng=A sawn-off 220mm barrel for the Mosin rifle.
 basePrice=7350
 width=2
 height=1
+weight=0.900000
 Sell_Prapor=3675
 Sell_Fence=2940
 Sell_Skier=3601
@@ -13,16 +14,7 @@ Sell_Peacekeeper=28
 Sell_Mechanic=4116
 Sell_Jaeger=4410
 Sell_Flea Market=11000
-weight=0.900000
-fleaMarketFee=581
-Conflict=[
-	Mosin Rifle ATI Monte Carlo chassis/|
-	Mosin Rifle sniper carbine stock/|
-	Mosin Rifle carbine stock/|
-	Mosin Rifle Infantry stock/|
-	Mosin Rifle standard stock/|
-	Mosin Rifle ProMag Archangel OPFOR PRS chassis
-]
+fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	SilencerCo Hybrid 46 Direct Thread Mount adapter
@@ -30,6 +22,14 @@ ChildParts=[
 ChildParts=[
 	Mosin Rifle carbine rear sight/|
 	Mosin Rifle AIM Sports Tri-Rail mount
+]
+Conflict=[
+	Mosin Rifle ATI Monte Carlo chassis/|
+	Mosin Rifle sniper carbine stock/|
+	Mosin Rifle carbine stock/|
+	Mosin Rifle Infantry stock/|
+	Mosin Rifle standard stock/|
+	Mosin Rifle ProMag Archangel OPFOR PRS chassis
 ]
 Recoil=-1.000000
 Ergonomics=-1.000000

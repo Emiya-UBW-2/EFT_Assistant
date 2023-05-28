@@ -6,6 +6,7 @@ Information_Eng=A universal base with an integrated power supply for installatio
 basePrice=1750
 width=1
 height=1
+weight=0.410000
 Sell_Prapor=875
 Sell_Fence=700
 Sell_Skier=857
@@ -13,8 +14,12 @@ Sell_Peacekeeper=7
 Sell_Mechanic=980
 Sell_Jaeger=1050
 Sell_Flea Market=7000
-weight=0.410000
-fleaMarketFee=491
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	KMZ 1P59 3-10x riflescope/|
+	KMZ 1P69 3-10x riflescope
+]
 Conflict=[
 	BelOMO PSO-1 4x24 scope/|
 	BelOMO PSO-1M2-1 4x24 scope/|
@@ -27,11 +32,6 @@ Conflict=[
 	AK Zenit B-33 dust cover/|
 	AKS-74UB dust cover/|
 	PP-19-01 "Vityaz-SN" dust cover
-]
-propertiestype=ItemPropertiesWeaponMod
-ChildParts=[
-	KMZ 1P59 3-10x riflescope/|
-	KMZ 1P69 3-10x riflescope
 ]
 Recoil=0.000000
 Ergonomics=-1.000000

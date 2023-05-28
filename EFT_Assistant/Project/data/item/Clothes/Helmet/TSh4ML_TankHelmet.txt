@@ -6,13 +6,14 @@ Information_Eng=The TSh-4M-L(Z)-01 soft tank crew helmet with headset is designe
 basePrice=8700
 width=2
 height=2
+weight=0.900000
 Sell_Fence=3480
 Sell_Skier=4263
 Sell_Peacekeeper=33
 Sell_Ragman=5394
-Sell_Flea Market=7777
-weight=0.900000
-fleaMarketFee=493
+Sell_Flea Market=6000
+fleaMarketFee=0
+propertiestype=ItemPropertiesHelmet
 Conflict=[
 	Fake white beard/|
 	Jason mask/|
@@ -22,4 +23,3 @@ Conflict=[
 	Shemagh (Tan)/|
 	Shemagh (Green)
 ]
-propertiestype=ItemPropertiesHelmet

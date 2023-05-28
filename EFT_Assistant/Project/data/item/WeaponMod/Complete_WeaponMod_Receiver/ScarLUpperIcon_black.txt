@@ -6,14 +6,14 @@ Information_Eng=An upper receiver for the SCAR-L assault rifle, manufactured by 
 basePrice=6200
 width=3
 height=1
+weight=0.200000
 Sell_Prapor=3100
 Sell_Fence=2480
 Sell_Skier=3038
 Sell_Peacekeeper=23
 Sell_Mechanic=3472
 Sell_Flea Market=200000
-weight=0.200000
-fleaMarketFee=52121
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|

@@ -6,6 +6,7 @@ Information_Eng=A standard-issue stock with a folding shoulder piece for the TOZ
 basePrice=1702
 width=4
 height=1
+weight=1.250000
 Sell_Prapor=851
 Sell_Fence=680
 Sell_Skier=833
@@ -13,8 +14,7 @@ Sell_Peacekeeper=6
 Sell_Mechanic=953
 Sell_Jaeger=1021
 Sell_Flea Market=9999
-weight=1.250000
-fleaMarketFee=870
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	TOZ-106 002 pistol grip

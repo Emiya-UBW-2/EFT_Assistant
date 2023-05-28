@@ -6,6 +6,7 @@ Information_Eng=An adapter for the USP pistol that allows the installation of ad
 basePrice=1500
 width=1
 height=1
+weight=0.010000
 Sell_Prapor=750
 Sell_Fence=600
 Sell_Skier=735
@@ -13,8 +14,7 @@ Sell_Peacekeeper=6
 Sell_Mechanic=840
 Sell_Jaeger=900
 Sell_Flea Market=15999
-weight=0.010000
-fleaMarketFee=2013
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|

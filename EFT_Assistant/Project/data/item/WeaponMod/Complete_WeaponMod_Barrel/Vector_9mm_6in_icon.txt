@@ -6,6 +6,7 @@ Information_Eng=A 6 inch (170mm) threaded barrel for the KRISS Vector 9x19 subma
 basePrice=9700
 width=2
 height=1
+weight=0.200000
 Sell_Prapor=4850
 Sell_Fence=3880
 Sell_Skier=4753
@@ -13,8 +14,7 @@ Sell_Peacekeeper=37
 Sell_Mechanic=5432
 Sell_Jaeger=5820
 Sell_Flea Market=54444
-weight=0.200000
-fleaMarketFee=4609
+fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	KRISS Vector 9x19 flash hider/|

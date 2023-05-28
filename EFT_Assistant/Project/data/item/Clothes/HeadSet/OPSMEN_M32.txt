@@ -6,16 +6,16 @@ Information_Eng=The EARMOR M32 headset is an activated electronic communication 
 basePrice=25000
 width=2
 height=2
+weight=0.490000
 Sell_Fence=10000
 Sell_Skier=12250
 Sell_Ragman=15500
 Sell_Flea Market=28888
-weight=0.490000
-fleaMarketFee=1617
+fleaMarketFee=0
+propertiestype=
 Conflict=[
 	Door Kicker boonie hat/|
 	SSh-68 steel helmet/|
 	Ushanka ear flap hat/|
 	Ops-Core FAST RAC Headset
 ]
-propertiestype=

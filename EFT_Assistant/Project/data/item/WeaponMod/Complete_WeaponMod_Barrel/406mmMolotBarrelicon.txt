@@ -6,6 +6,7 @@ Information_Eng=The Molot Arms 406mm barrel for AR-15 based weapons for 5.56x45 
 basePrice=16200
 width=3
 height=1
+weight=0.594000
 Sell_Prapor=8100
 Sell_Fence=6480
 Sell_Skier=7938
@@ -13,12 +14,7 @@ Sell_Peacekeeper=61
 Sell_Mechanic=9072
 Sell_Jaeger=9720
 Sell_Flea Market=18800
-weight=0.594000
-fleaMarketFee=1050
-Conflict=[
-	AR-15 Colt M4 Carbine Length handguard/|
-	AR-15 KAC RIS handguard
-]
+fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	Yankee Hill Annihilator multi-caliber flash hider/|
@@ -57,6 +53,10 @@ ChildParts=[
 	AR-15 Daniel Defense MK12 Low Profile Gas Block/|
 	AR-15 JP Enterprises Gas System-5B/|
 	AR-15 Windham Weaponry Rail Gas Block
+]
+Conflict=[
+	AR-15 Colt M4 Carbine Length handguard/|
+	AR-15 KAC RIS handguard
 ]
 Recoil=-4.000000
 Ergonomics=-15.000000

@@ -6,14 +6,14 @@ Information_Eng=The SSSh-94 "SFERA-S" ("Special Steel Helmet 94 Sphere-S") is a 
 basePrice=54403
 width=2
 height=2
+weight=3.500000
 Sell_Fence=21761
 Sell_Skier=26657
 Sell_Peacekeeper=206
 Sell_Ragman=33729
 Sell_Flea Market=34998
-weight=3.500000
-fleaMarketFee=2865
+fleaMarketFee=0
+propertiestype=ItemPropertiesHelmet
 Conflict=[
 	RayBench Hipster Reserve sunglasses
 ]
-propertiestype=ItemPropertiesHelmet

@@ -6,14 +6,14 @@ Information_Eng=A standard upper receiver for MP5 SMGs, manufactured by Heckler 
 basePrice=3270
 width=2
 height=1
+weight=0.588000
 Sell_Prapor=1635
 Sell_Fence=1308
 Sell_Skier=1602
 Sell_Peacekeeper=12
 Sell_Mechanic=1831
 Sell_Flea Market=39000
-weight=0.588000
-fleaMarketFee=5272
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	HK MP5 B&T TL-99 aluminum handguard/|

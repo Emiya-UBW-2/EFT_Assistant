@@ -6,6 +6,7 @@ Information_Eng=A threaded barrel for 9x19 pistols of Glock family. Manufactured
 basePrice=11356
 width=1
 height=1
+weight=0.180000
 Sell_Prapor=5678
 Sell_Fence=4542
 Sell_Skier=5564
@@ -13,8 +14,7 @@ Sell_Peacekeeper=43
 Sell_Mechanic=6359
 Sell_Jaeger=6813
 Sell_Flea Market=13969
-weight=0.180000
-fleaMarketFee=765
+fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	Glock 9x19 CARVER Custom 4 Port compensator/|

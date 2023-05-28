@@ -6,6 +6,7 @@ Information_Eng=A threaded barrel for the PL-15 pistol, chambered in 9x19.
 basePrice=4948
 width=1
 height=1
+weight=0.180000
 Sell_Prapor=2474
 Sell_Fence=1979
 Sell_Skier=2424
@@ -13,8 +14,7 @@ Sell_Peacekeeper=19
 Sell_Mechanic=2770
 Sell_Jaeger=2968
 Sell_Flea Market=8000
-weight=0.180000
-fleaMarketFee=421
+fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	AAC Illusion 9 9x19 sound suppressor/|

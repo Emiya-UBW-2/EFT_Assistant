@@ -6,6 +6,7 @@ Information_Eng=A 16 inch (410mm) barrel for M1A based weapons chambered in 7.62
 basePrice=15600
 width=4
 height=1
+weight=1.040000
 Sell_Prapor=7800
 Sell_Fence=6240
 Sell_Skier=7644
@@ -13,8 +14,7 @@ Sell_Peacekeeper=59
 Sell_Mechanic=8736
 Sell_Jaeger=9360
 Sell_Flea Market=22000
-weight=1.040000
-fleaMarketFee=1169
+fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	M1A Smith Enterprise SOCOM 16 7.62x51 threaded muzzle brake & gas block/|

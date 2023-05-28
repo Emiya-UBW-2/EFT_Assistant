@@ -6,26 +6,14 @@ Information_Eng=A standard-issue receiver dust cover for PP-19-01 Vityaz-SN (mod
 basePrice=2416
 width=2
 height=1
+weight=0.136000
 Sell_Prapor=1208
 Sell_Fence=966
 Sell_Skier=1183
 Sell_Peacekeeper=9
 Sell_Mechanic=1352
-Sell_Flea Market=19000
-weight=0.136000
-fleaMarketFee=1972
-Conflict=[
-	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
-	BelOMO PK-AA dovetail reflex sight/|
-	OKP-7 reflex sight (Dovetail)/|
-	BelOMO PSO-1 4x24 scope/|
-	BelOMO PSO-1M2-1 4x24 scope/|
-	BelOMO PSO-1M2 4x24 scope/|
-	NSPU-M night vision scope/|
-	Axion Kobra dovetail mount/|
-	VOMZ Pilad 043-02 dovetail mount/|
-	NPZ PK1 "Obzor" reflex sight
-]
+Sell_Flea Market=15000
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
@@ -72,6 +60,18 @@ ChildParts=[
 	Leapers UTG 25mm ring scope mount/|
 	SwampFox Trihawk Prism Scope 3x30/|
 	AI AX-50 34mm scope mount
+]
+Conflict=[
+	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
+	BelOMO PK-AA dovetail reflex sight/|
+	OKP-7 reflex sight (Dovetail)/|
+	BelOMO PSO-1 4x24 scope/|
+	BelOMO PSO-1M2-1 4x24 scope/|
+	BelOMO PSO-1M2 4x24 scope/|
+	NSPU-M night vision scope/|
+	Axion Kobra dovetail mount/|
+	VOMZ Pilad 043-02 dovetail mount/|
+	NPZ PK1 "Obzor" reflex sight
 ]
 Recoil=0.000000
 Ergonomics=5.000000

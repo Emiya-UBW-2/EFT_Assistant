@@ -6,6 +6,7 @@ Information_Eng=A standard factory-produced 660mm barrel for MP-153 12 gauge sho
 basePrice=7179
 width=4
 height=1
+weight=1.250000
 Sell_Prapor=3589
 Sell_Fence=2871
 Sell_Skier=3517
@@ -13,8 +14,7 @@ Sell_Peacekeeper=27
 Sell_Mechanic=4020
 Sell_Jaeger=4307
 Sell_Flea Market=80000
-weight=1.250000
-fleaMarketFee=10352
+fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	ME Cylinder 12ga muzzle adapter/|

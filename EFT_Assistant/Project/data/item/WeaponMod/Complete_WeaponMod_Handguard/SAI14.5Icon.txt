@@ -6,20 +6,14 @@ Information_Eng=The Salient Arms International QD Rail handguard for AR-15 equip
 basePrice=53100
 width=3
 height=1
+weight=0.355000
 Sell_Prapor=26550
 Sell_Fence=21240
 Sell_Skier=26019
 Sell_Peacekeeper=201
 Sell_Mechanic=29736
 Sell_Flea Market=200000
-weight=0.355000
-fleaMarketFee=13597
-Conflict=[
-	AR-10 JP Enterprises Gas System-6/|
-	M4A1 front sight with gas block/|
-	AR-15 Windham Weaponry Rail Gas Block/|
-	AR-15 5.56x45 260mm barrel
-]
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
@@ -122,6 +116,12 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight
+]
+Conflict=[
+	AR-10 JP Enterprises Gas System-6/|
+	M4A1 front sight with gas block/|
+	AR-15 Windham Weaponry Rail Gas Block/|
+	AR-15 5.56x45 260mm barrel
 ]
 Recoil=-3.000000
 Ergonomics=12.000000

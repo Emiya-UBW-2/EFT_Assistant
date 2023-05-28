@@ -6,14 +6,14 @@ Information_Eng=The Krebs Custom UFM Keymod System lightweight aluminum handguar
 basePrice=20355
 width=2
 height=1
+weight=0.260000
 Sell_Prapor=10177
 Sell_Fence=8142
 Sell_Skier=9973
 Sell_Peacekeeper=77
 Sell_Mechanic=11398
-Sell_Flea Market=10500
-weight=0.260000
-fleaMarketFee=1087
+Sell_Flea Market=11000
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Axion Kobra EKP-8-18 reflex sight/|

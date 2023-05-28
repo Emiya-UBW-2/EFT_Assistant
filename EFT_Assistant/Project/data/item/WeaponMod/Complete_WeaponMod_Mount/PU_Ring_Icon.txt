@@ -6,6 +6,7 @@ Information_Eng=Regular rings for the PU 3.5x scope, installed on the Kochetov m
 basePrice=1105
 width=1
 height=1
+weight=0.020000
 Sell_Prapor=552
 Sell_Fence=442
 Sell_Skier=541
@@ -13,8 +14,7 @@ Sell_Peacekeeper=4
 Sell_Mechanic=618
 Sell_Jaeger=663
 Sell_Flea Market=14999
-weight=0.020000
-fleaMarketFee=2205
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	PU 3.5x riflescope

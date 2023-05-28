@@ -6,6 +6,7 @@ Information_Eng=The Standard Spacer mount for Aimpoint CompM4 sight models, rais
 basePrice=2203
 width=1
 height=1
+weight=0.025000
 Sell_Prapor=1101
 Sell_Fence=881
 Sell_Skier=1079
@@ -13,8 +14,7 @@ Sell_Peacekeeper=8
 Sell_Mechanic=1233
 Sell_Jaeger=1321
 Sell_Flea Market=9500
-weight=0.025000
-fleaMarketFee=693
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Aimpoint PRO reflex sight/|

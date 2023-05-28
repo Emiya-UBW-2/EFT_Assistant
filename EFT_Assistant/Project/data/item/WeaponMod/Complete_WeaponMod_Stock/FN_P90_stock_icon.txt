@@ -6,6 +6,7 @@ Information_Eng=A standard-issue polymer stock for the P90 SMG, manufactured by 
 basePrice=3500
 width=3
 height=1
+weight=0.400000
 Sell_Prapor=1750
 Sell_Fence=1400
 Sell_Skier=1715
@@ -13,8 +14,7 @@ Sell_Peacekeeper=13
 Sell_Mechanic=1960
 Sell_Jaeger=2100
 Sell_Flea Market=10000
-weight=0.400000
-fleaMarketFee=599
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	FN P90 Damage Industries buttpad/|

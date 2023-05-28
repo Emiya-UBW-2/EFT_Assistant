@@ -6,14 +6,14 @@ Information_Eng=A prototype handguard designed for the modernized SVD sniper rif
 basePrice=14300
 width=2
 height=1
+weight=0.480000
 Sell_Prapor=7150
 Sell_Fence=5720
 Sell_Skier=7007
 Sell_Peacekeeper=54
 Sell_Mechanic=8008
 Sell_Flea Market=21000
-weight=0.480000
-fleaMarketFee=1110
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail

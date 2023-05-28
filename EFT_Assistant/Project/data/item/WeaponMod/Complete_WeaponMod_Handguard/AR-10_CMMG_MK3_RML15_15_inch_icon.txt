@@ -6,23 +6,14 @@ Information_Eng=A 15 inch handguard for AR-10 weapon systems, equipped with an M
 basePrice=15000
 width=3
 height=1
+weight=0.220000
 Sell_Prapor=7500
 Sell_Fence=6000
 Sell_Skier=7350
 Sell_Peacekeeper=57
 Sell_Mechanic=8400
 Sell_Flea Market=18000
-weight=0.220000
-fleaMarketFee=994
-Conflict=[
-	AR-10 JP Enterprises Gas System-6/|
-	M4A1 front sight with gas block/|
-	AR-15 Windham Weaponry Rail Gas Block/|
-	AR-15 5.56x45 260mm barrel/|
-	AR-15 5.56x45 370mm barrel/|
-	STM-9 9x19 10.5 inch barrel/|
-	STM-9 9x19 12 inch barrel
-]
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
@@ -66,6 +57,15 @@ ChildParts=[
 ]
 ChildParts=[
 	NcSTAR MPR45 Backup mount
+]
+Conflict=[
+	AR-10 JP Enterprises Gas System-6/|
+	M4A1 front sight with gas block/|
+	AR-15 Windham Weaponry Rail Gas Block/|
+	AR-15 5.56x45 260mm barrel/|
+	AR-15 5.56x45 370mm barrel/|
+	STM-9 9x19 10.5 inch barrel/|
+	STM-9 9x19 12 inch barrel
 ]
 Recoil=-1.000000
 Ergonomics=5.500000

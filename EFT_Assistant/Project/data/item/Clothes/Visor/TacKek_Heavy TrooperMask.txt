@@ -6,13 +6,14 @@ Information_Eng=The Tac-Kek Heavy Trooper mask is an additional ballistic module
 basePrice=61000
 width=2
 height=2
+weight=0.400000
 Sell_Fence=24400
 Sell_Skier=29890
 Sell_Peacekeeper=231
 Sell_Ragman=37820
 Sell_Flea Market=171111
-weight=0.400000
-fleaMarketFee=10173
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
 Conflict=[
 	Fake white beard/|
 	Jason mask/|
@@ -37,4 +38,3 @@ Conflict=[
 	Ops-Core SLAAP armor helmet plate (Tan)/|
 	Team Wendy EXFIL Ballistic face shield (Black)
 ]
-propertiestype=ItemPropertiesArmorAttachment

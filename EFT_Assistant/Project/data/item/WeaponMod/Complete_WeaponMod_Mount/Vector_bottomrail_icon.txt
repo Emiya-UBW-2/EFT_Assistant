@@ -6,6 +6,7 @@ Information_Eng=A bottom rail for the KRISS Vector submachine gun, allows instal
 basePrice=1100
 width=1
 height=1
+weight=0.070000
 Sell_Prapor=550
 Sell_Fence=440
 Sell_Skier=539
@@ -13,8 +14,7 @@ Sell_Peacekeeper=4
 Sell_Mechanic=616
 Sell_Jaeger=660
 Sell_Flea Market=12000
-weight=0.070000
-fleaMarketFee=1532
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	BCM GUNFIGHTER MOD 3 vertical foregrip/|

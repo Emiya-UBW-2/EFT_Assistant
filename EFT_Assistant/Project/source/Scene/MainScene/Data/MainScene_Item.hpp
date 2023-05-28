@@ -84,6 +84,7 @@ namespace FPS_n2 {
 			std::array<int, 4>						m_IntParams{ 0,0,0,0 };
 			std::array<float, 4>					m_floatParams{ 0,0,0,0 };
 			std::vector<ChildItemSettings>			m_ChildPartsID;
+			std::vector<IDParents<ItemID, ItemList>>m_ConflictPartsID;
 		public:
 			const auto*		GetTypeName() const noexcept { return (m_Type != EnumItemProperties::Max) ? ItemPropertiesStr[(int)m_Type] : ""; }
 			const auto&		GetType() const noexcept { return m_Type; }
@@ -185,9 +186,13 @@ namespace FPS_n2 {
 				}
 			}
 
+			auto&			SetModSlots() noexcept { return m_ChildPartsID; }
 			const auto&		GetModSlots() const noexcept { return m_ChildPartsID; }
-		public:
-			void		SetType(std::string_view value) noexcept {
+
+			auto&			SetConflictPartsID() noexcept { return m_ConflictPartsID; }
+			const auto&		GetConflictPartsID() const noexcept { return m_ConflictPartsID; }
+		private:
+			void			SetType(std::string_view value) noexcept {
 				for (int i = 0; i < (int)EnumItemProperties::Max; i++) {
 					if (value == ItemPropertiesStr[i]) {
 						m_Type = (EnumItemProperties)i;
@@ -195,7 +200,7 @@ namespace FPS_n2 {
 					}
 				}
 			}
-			void		SetRecoil(float value) noexcept {
+			void			SetRecoil(float value) noexcept {
 				switch (m_Type) {
 				case EnumItemProperties::ItemPropertiesBarrel:
 					m_floatParams[0] = value / 100.f;
@@ -218,7 +223,7 @@ namespace FPS_n2 {
 					break;
 				}
 			}
-			void		SetErgonomics(float value) noexcept {
+			void			SetErgonomics(float value) noexcept {
 				switch (m_Type) {
 				case EnumItemProperties::ItemPropertiesBarrel:
 					m_floatParams[1] = value;
@@ -241,7 +246,7 @@ namespace FPS_n2 {
 					break;
 				}
 			}
-			void		SetSightingRange(int value) noexcept {
+			void			SetSightingRange(int value) noexcept {
 				switch (m_Type) {
 				case EnumItemProperties::ItemPropertiesScope:
 					m_IntParams[1] = value;
@@ -254,7 +259,7 @@ namespace FPS_n2 {
 				}
 			}
 		public:
-			void GetJsonData(const nlohmann::json& data) {
+			void			GetJsonData(const nlohmann::json& data) {
 				if (data.contains("__typename") && !data["__typename"].is_null()) {
 					SetType((std::string)data["__typename"]);
 				}
@@ -433,28 +438,63 @@ namespace FPS_n2 {
 					break;
 				}
 			}
-			void OutputData(std::ofstream& outputfile) noexcept;
+			void			SetData(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
+				if (LEFT == "propertiestype") { this->SetType(Args[0]); }
+				else if (LEFT == "Recoil") { this->SetRecoil(std::stof(Args[0])); }
+				else if (LEFT == "Ergonomics") { this->SetErgonomics(std::stof(Args[0])); }
+				else if (LEFT == "SightRange") { this->SetSightingRange(std::stoi(Args[0])); }
+				else if (LEFT == "ChildParts") {
+					this->m_ChildPartsID.resize(this->m_ChildPartsID.size() + 1);
+					auto& CP = this->m_ChildPartsID.back().m_Data;
+					for (auto&a : Args) {
+						bool isHit = false;
+						for (auto& d : CP) {
+							if (d.GetName() == a) {
+								isHit = true;
+								break;
+							}
+						}
+						if (!isHit) {
+							CP.resize(CP.size() + 1);
+							CP.back().SetName(a);
+						}
+					}
+				}
+				else if (LEFT == "Conflict") {
+					for (auto&a : Args) {
+						bool isHit = false;
+						for (auto& d : m_ConflictPartsID) {
+							if (d.GetName() == a) {
+								isHit = true;
+								break;
+							}
+						}
+						if (!isHit) {
+							m_ConflictPartsID.resize(m_ConflictPartsID.size() + 1);
+							m_ConflictPartsID.back().SetName(a);
+						}
+					}
+				}
+			}
+			void			OutputData(std::ofstream& outputfile) noexcept;
 		};
 		struct ItemsData {
 			IDParents<ItemTypeID, ItemTypeList>							m_TypeID;
 			std::vector<IDParents<MapID, MapList>>						m_MapID;
-			std::vector<ChildItemSettings>								m_ChildPartsID;
 			std::vector<ItemID>											m_ParentPartsID;
-			std::vector<IDParents<ItemID, ItemList>>					m_ConflictPartsID;
 
 			bool														m_isWeapon{ false };
 			bool														m_isWeaponMod{ false };
-
-
 			int															m_basePrice{ 0 };
 			int															m_width{ 0 };
 			int															m_height{ 0 };
 			std::vector<std::pair<IDParents<TraderID, TraderList>, int>>m_sellFor;
 			float														m_weight{ 0.f };
 			int															m_fleaMarketFee{ 0 };
-			std::vector<TaskID>											m_UseTaskID;
 
 			ItemList::ItemProperties									m_properties;
+			//
+			std::vector<TaskID>											m_UseTaskID;
 		};
 	private:
 		ItemsData												m_ItemsData;
@@ -468,8 +508,8 @@ namespace FPS_n2 {
 	public:
 		const auto&	GetTypeID() const noexcept { return m_ItemsData.m_TypeID.GetID(); }
 		const auto&	GetMapID() const noexcept { return m_ItemsData.m_MapID; }
-		const auto&	GetChildParts() const noexcept { return m_ItemsData.m_ChildPartsID; }
-		const auto&	GetConflictParts() const noexcept { return m_ItemsData.m_ConflictPartsID; }
+		const auto&	GetChildParts() const noexcept { return m_ItemsData.m_properties.GetModSlots(); }
+		const auto&	GetConflictParts() const noexcept { return m_ItemsData.m_properties.GetConflictPartsID(); }
 		const auto&	GetbasePrice() const noexcept { return m_ItemsData.m_basePrice; }
 		const auto&	Getwidth() const noexcept { return m_ItemsData.m_width; }
 		const auto&	Getheight() const noexcept { return m_ItemsData.m_height; }
@@ -543,8 +583,6 @@ namespace FPS_n2 {
 		std::vector<std::pair<std::string, int>>	sellFor;
 		std::vector<std::pair<std::string, int>>	buyFor;
 		std::string									categorytypes;
-
-		std::vector<std::string>					conflictingItems;
 
 		std::vector<std::string>					usedInTasks;
 		std::vector<std::string>					receivedFromTasks;

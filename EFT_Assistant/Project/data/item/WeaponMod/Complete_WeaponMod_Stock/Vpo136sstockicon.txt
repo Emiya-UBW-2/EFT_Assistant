@@ -6,6 +6,7 @@ Information_Eng=A standard-issue wooden stock for VPO-136 Vepr KM carbines, manu
 basePrice=1824
 width=2
 height=1
+weight=0.450000
 Sell_Prapor=912
 Sell_Fence=729
 Sell_Skier=893
@@ -13,8 +14,7 @@ Sell_Peacekeeper=7
 Sell_Mechanic=1021
 Sell_Jaeger=1094
 Sell_Flea Market=1910
-weight=0.450000
-fleaMarketFee=112
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AK GP-25 accessory kit recoil pad

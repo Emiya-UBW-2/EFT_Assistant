@@ -6,21 +6,21 @@ Information_Eng=A standard polymer 6-vent handguard with a heatshield for the G3
 basePrice=5900
 width=3
 height=1
+weight=0.380000
 Sell_Prapor=2950
 Sell_Fence=2360
 Sell_Skier=2891
 Sell_Peacekeeper=22
 Sell_Mechanic=3304
 Sell_Flea Market=20000
-weight=0.380000
-fleaMarketFee=1291
-Conflict=[
-	HK G36 5.56x45 228mm barrel/|
-	HK G36 5.56x45 318mm barrel
-]
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	HK G36 bipod
+]
+Conflict=[
+	HK G36 5.56x45 228mm barrel/|
+	HK G36 5.56x45 318mm barrel
 ]
 Recoil=-2.000000
 Ergonomics=7.000000

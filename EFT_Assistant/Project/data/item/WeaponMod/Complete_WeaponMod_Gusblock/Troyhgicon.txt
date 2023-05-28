@@ -6,14 +6,14 @@ Information_Eng=The Full Length Rail handguard and gas tube combo. The cooling h
 basePrice=19239
 width=2
 height=1
+weight=0.550000
 Sell_Prapor=9619
 Sell_Fence=7695
 Sell_Skier=9427
 Sell_Peacekeeper=73
 Sell_Mechanic=10773
 Sell_Flea Market=40000
-weight=0.550000
-fleaMarketFee=2165
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Axion Kobra EKP-8-18 reflex sight/|

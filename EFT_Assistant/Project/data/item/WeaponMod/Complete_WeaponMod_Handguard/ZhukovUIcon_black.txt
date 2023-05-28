@@ -6,17 +6,14 @@ Information_Eng=The Magpul Zhukov-U handguard is installed on AKM/AK-74 compatib
 basePrice=19200
 width=2
 height=1
+weight=0.310000
 Sell_Prapor=9600
 Sell_Fence=7680
 Sell_Skier=9408
 Sell_Peacekeeper=73
 Sell_Mechanic=10752
 Sell_Flea Market=40000
-weight=0.310000
-fleaMarketFee=2166
-Conflict=[
-	PP-19-01 "Vityaz" 9x19 submachine gun
-]
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Magpul M-LOK AFG tactical foregrip (Black)/|
@@ -32,6 +29,9 @@ ChildParts=[
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount
+]
+Conflict=[
+	PP-19-01 "Vityaz" 9x19 submachine gun
 ]
 Recoil=-1.000000
 Ergonomics=14.000000

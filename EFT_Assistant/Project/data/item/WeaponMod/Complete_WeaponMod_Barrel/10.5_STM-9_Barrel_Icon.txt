@@ -6,6 +6,7 @@ Information_Eng=A 10.5 inches (266mm) long barrel for the STM-9 carbine, chamber
 basePrice=7000
 width=2
 height=1
+weight=0.409000
 Sell_Prapor=3500
 Sell_Fence=2800
 Sell_Skier=3430
@@ -13,8 +14,16 @@ Sell_Peacekeeper=26
 Sell_Mechanic=3920
 Sell_Jaeger=4200
 Sell_Flea Market=8049
-weight=0.409000
-fleaMarketFee=451
+fleaMarketFee=0
+propertiestype=ItemPropertiesBarrel
+ChildParts=[
+	STM-9 9x19 muzzle brake/|
+	KRISS Vector 9x19 flash hider/|
+	Gemtech ONE Direct Thread Mount adapter/|
+	Rotor 43 9x19 muzzle brake-compensator/|
+	SIG Sauer SRD9 9x19 sound suppressor/|
+	SilencerCo Osprey 9 9x19 sound suppressor
+]
 Conflict=[
 	AR-15 Alexander Arms MK10 rifle length handguard/|
 	AR-15 Daniel Defense RIS II 12.25 handguard (Coyote Brown)/|
@@ -27,15 +36,6 @@ Conflict=[
 	AR-15 Unique-ARs Wing & Skull 12 inch handguard/|
 	AR-15 War Sport LVOA-C handguard (Black)/|
 	AR-15 War Sport LVOA-S handguard (Black)
-]
-propertiestype=ItemPropertiesBarrel
-ChildParts=[
-	STM-9 9x19 muzzle brake/|
-	KRISS Vector 9x19 flash hider/|
-	Gemtech ONE Direct Thread Mount adapter/|
-	Rotor 43 9x19 muzzle brake-compensator/|
-	SIG Sauer SRD9 9x19 sound suppressor/|
-	SilencerCo Osprey 9 9x19 sound suppressor
 ]
 Recoil=-4.000000
 Ergonomics=-10.000000

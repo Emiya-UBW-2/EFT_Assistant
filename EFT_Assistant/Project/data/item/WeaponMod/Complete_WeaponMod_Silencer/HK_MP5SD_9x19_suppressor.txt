@@ -6,14 +6,14 @@ Information_Eng=A standard MP5SD sound suppressor manufactured by Heckler & Koch
 basePrice=26709
 width=2
 height=1
+weight=0.496000
 Sell_Prapor=13354
 Sell_Fence=10683
 Sell_Skier=13087
 Sell_Peacekeeper=101
 Sell_Mechanic=14957
 Sell_Flea Market=22000
-weight=0.496000
-fleaMarketFee=1469
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	HK MP5SD B&T tri-rail ring mount

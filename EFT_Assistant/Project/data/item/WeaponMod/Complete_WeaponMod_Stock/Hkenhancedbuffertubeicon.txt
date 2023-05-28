@@ -6,6 +6,7 @@ Information_Eng=Heckler & Koch Receiver Extension Buffer Tube, Mil-Spec diameter
 basePrice=4990
 width=2
 height=1
+weight=0.162000
 Sell_Prapor=2495
 Sell_Fence=1996
 Sell_Skier=2445
@@ -13,8 +14,7 @@ Sell_Peacekeeper=19
 Sell_Mechanic=2794
 Sell_Jaeger=2994
 Sell_Flea Market=18999
-weight=0.162000
-fleaMarketFee=1299
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AR-15 B5 Systems Precision stock/|

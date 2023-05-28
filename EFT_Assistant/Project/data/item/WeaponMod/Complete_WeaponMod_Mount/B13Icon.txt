@@ -6,6 +6,7 @@ Information_Eng=The B-13 rail platform mounts on the standard dovetail mount of 
 basePrice=7800
 width=1
 height=1
+weight=0.175000
 Sell_Prapor=3900
 Sell_Fence=3120
 Sell_Skier=3822
@@ -13,13 +14,7 @@ Sell_Peacekeeper=29
 Sell_Mechanic=4368
 Sell_Jaeger=4680
 Sell_Flea Market=20490
-weight=0.175000
-fleaMarketFee=1188
-Conflict=[
-	BelOMO PSO-1 4x24 scope/|
-	BelOMO PSO-1M2-1 4x24 scope/|
-	BelOMO PSO-1M2 4x24 scope
-]
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
@@ -79,6 +74,11 @@ ChildParts=[
 	Leapers UTG 25mm ring scope mount/|
 	SwampFox Trihawk Prism Scope 3x30/|
 	AI AX-50 34mm scope mount
+]
+Conflict=[
+	BelOMO PSO-1 4x24 scope/|
+	BelOMO PSO-1M2-1 4x24 scope/|
+	BelOMO PSO-1M2 4x24 scope
 ]
 Recoil=0.000000
 Ergonomics=-1.000000

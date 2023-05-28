@@ -6,14 +6,14 @@ Information_Eng=The SIG Sauer Mk25 blued slide for P226R 9x19 pistols.
 basePrice=3210
 width=2
 height=1
+weight=0.190000
 Sell_Prapor=1605
 Sell_Fence=1284
 Sell_Skier=1572
 Sell_Peacekeeper=12
 Sell_Mechanic=1797
 Sell_Flea Market=7000
-weight=0.190000
-fleaMarketFee=383
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	P226 Meprolight TRU-DOT Night rear sight/|

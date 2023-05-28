@@ -6,14 +6,14 @@ Information_Eng=The patented "Taper-LOK" mounting system allows the installation
 basePrice=4230
 width=1
 height=1
+weight=0.120000
 Sell_Prapor=2115
 Sell_Fence=1692
 Sell_Skier=2072
 Sell_Peacekeeper=16
 Sell_Mechanic=2368
 Sell_Flea Market=4859
-weight=0.120000
-fleaMarketFee=273
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	SIG Sauer 7.62x51 3-prong flash hider/|

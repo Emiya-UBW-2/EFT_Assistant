@@ -6,6 +6,7 @@ Information_Eng=A side rail for SR-2M "Veresk" that allows installation of addit
 basePrice=1200
 width=1
 height=1
+weight=0.060000
 Sell_Prapor=600
 Sell_Fence=480
 Sell_Skier=588
@@ -13,8 +14,7 @@ Sell_Peacekeeper=5
 Sell_Mechanic=672
 Sell_Jaeger=720
 Sell_Flea Market=14543
-weight=0.060000
-fleaMarketFee=1986
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|

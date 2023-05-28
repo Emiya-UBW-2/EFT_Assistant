@@ -6,14 +6,14 @@ Information_Eng=A muzzle thread adapter for 12ga barrels, designed for installin
 basePrice=2150
 width=1
 height=1
+weight=0.120000
 Sell_Prapor=1075
 Sell_Fence=860
 Sell_Skier=1053
 Sell_Peacekeeper=8
 Sell_Mechanic=1204
-Sell_Flea Market=8888
-weight=0.120000
-fleaMarketFee=634
+Sell_Flea Market=11111
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	GK-02 12ga muzzle brake/|

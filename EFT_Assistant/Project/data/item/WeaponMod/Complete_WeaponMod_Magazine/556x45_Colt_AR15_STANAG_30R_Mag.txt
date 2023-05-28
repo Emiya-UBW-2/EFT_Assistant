@@ -7,14 +7,14 @@ The STANAG 4179 standard was approved by NATO members in 1980 for the unificatio
 basePrice=2012
 width=1
 height=2
+weight=0.117000
 Sell_Prapor=1006
 Sell_Fence=804
 Sell_Skier=985
 Sell_Peacekeeper=8
 Sell_Mechanic=1126
 Sell_Flea Market=8000
-weight=0.117000
-fleaMarketFee=559
+fleaMarketFee=0
 propertiestype=ItemPropertiesMagazine
 Recoil=0.000000
 Ergonomics=-3.000000

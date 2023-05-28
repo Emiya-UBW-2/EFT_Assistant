@@ -6,6 +6,7 @@ Information_Eng=A Picatinny rail for the Mosin rifle, mounted instead of the reg
 basePrice=1811
 width=1
 height=1
+weight=0.074000
 Sell_Prapor=905
 Sell_Fence=724
 Sell_Skier=887
@@ -13,8 +14,7 @@ Sell_Peacekeeper=7
 Sell_Mechanic=1014
 Sell_Jaeger=1086
 Sell_Flea Market=19999
-weight=0.074000
-fleaMarketFee=2573
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Axion Kobra EKP-8-18 reflex sight/|

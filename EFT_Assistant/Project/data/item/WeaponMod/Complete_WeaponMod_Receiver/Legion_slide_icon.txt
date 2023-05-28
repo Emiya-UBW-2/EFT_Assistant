@@ -6,14 +6,14 @@ Information_Eng=A full-size slide from the Legion modification for the P226 9x19
 basePrice=4120
 width=2
 height=1
+weight=0.200000
 Sell_Prapor=2060
 Sell_Fence=1648
 Sell_Skier=2018
 Sell_Peacekeeper=16
 Sell_Mechanic=2307
 Sell_Flea Market=5420
-weight=0.200000
-fleaMarketFee=292
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	P226 Meprolight TRU-DOT Night rear sight/|

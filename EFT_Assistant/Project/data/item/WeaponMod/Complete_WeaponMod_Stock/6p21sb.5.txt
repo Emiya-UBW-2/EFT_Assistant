@@ -6,6 +6,7 @@ Information_Eng=A metal skeleton stock for AKS-74 automatic rifles, manufactured
 basePrice=1559
 width=2
 height=1
+weight=0.264000
 Sell_Prapor=779
 Sell_Fence=623
 Sell_Skier=763
@@ -13,8 +14,7 @@ Sell_Peacekeeper=6
 Sell_Mechanic=873
 Sell_Jaeger=935
 Sell_Flea Market=7777
-weight=0.264000
-fleaMarketFee=615
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AK GP-25 accessory kit recoil pad

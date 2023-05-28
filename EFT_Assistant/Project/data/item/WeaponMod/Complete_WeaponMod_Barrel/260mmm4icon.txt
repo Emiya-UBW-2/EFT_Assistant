@@ -6,6 +6,7 @@ Information_Eng=A 260mm barrel for AR-15 based weapons for 5.56x45 NATO ammo. Co
 basePrice=19118
 width=2
 height=1
+weight=0.409000
 Sell_Prapor=9559
 Sell_Fence=7647
 Sell_Skier=9367
@@ -13,8 +14,7 @@ Sell_Peacekeeper=72
 Sell_Mechanic=10706
 Sell_Jaeger=11470
 Sell_Flea Market=21111
-weight=0.409000
-fleaMarketFee=1204
+fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	Yankee Hill Annihilator multi-caliber flash hider/|

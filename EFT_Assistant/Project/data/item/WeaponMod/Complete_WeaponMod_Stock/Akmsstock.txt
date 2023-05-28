@@ -6,6 +6,7 @@ Information_Eng=A folding shoulder piece assembly for AKMS automatic rifles, man
 basePrice=1557
 width=2
 height=1
+weight=0.600000
 Sell_Prapor=778
 Sell_Fence=622
 Sell_Skier=762
@@ -13,8 +14,7 @@ Sell_Peacekeeper=6
 Sell_Mechanic=871
 Sell_Jaeger=934
 Sell_Flea Market=33333
-weight=0.600000
-fleaMarketFee=6608
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AK GP-25 accessory kit recoil pad

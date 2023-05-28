@@ -6,19 +6,14 @@ Information_Eng=An extended-length quad rail handguard for HK 416A5 and compatib
 basePrice=11300
 width=3
 height=1
+weight=0.540000
 Sell_Prapor=5650
 Sell_Fence=4520
 Sell_Skier=5537
 Sell_Peacekeeper=43
 Sell_Mechanic=6328
-Sell_Flea Market=11111
-weight=0.540000
-fleaMarketFee=671
-Conflict=[
-	HK 416A5 5.56x45 11 inch barrel/|
-	HK 416A5 5.56x45 14.5 inch barrel/|
-	HK 416A5 5.56x45 16.5 inch barrel with flip-up front sight
-]
+Sell_Flea Market=12000
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	BCM GUNFIGHTER MOD 3 vertical foregrip/|
@@ -114,6 +109,11 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight
+]
+Conflict=[
+	HK 416A5 5.56x45 11 inch barrel/|
+	HK 416A5 5.56x45 14.5 inch barrel/|
+	HK 416A5 5.56x45 16.5 inch barrel with flip-up front sight
 ]
 Recoil=-2.000000
 Ergonomics=5.000000

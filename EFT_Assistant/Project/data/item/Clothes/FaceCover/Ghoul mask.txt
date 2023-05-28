@@ -6,13 +6,14 @@ Information_Eng=A rubber mask of a Ghoul. If you want to terrify Scavs and make 
 basePrice=35533
 width=2
 height=2
+weight=0.150000
 Sell_Fence=14213
 Sell_Skier=17411
 Sell_Peacekeeper=134
 Sell_Ragman=22030
-Sell_Flea Market=33332
-weight=0.150000
-fleaMarketFee=2059
+Sell_Flea Market=28000
+fleaMarketFee=0
+propertiestype=
 Conflict=[
 	Army cap/|
 	Baseball cap/|
@@ -58,4 +59,3 @@ Conflict=[
 	Beanie/|
 	Ushanka ear flap hat
 ]
-propertiestype=

@@ -6,6 +6,7 @@ Information_Eng=A wooden SVD-style stock for ADAR 2-15 carbines.
 basePrice=5119
 width=2
 height=1
+weight=0.695000
 Sell_Prapor=2559
 Sell_Fence=2047
 Sell_Skier=2508
@@ -13,8 +14,8 @@ Sell_Peacekeeper=19
 Sell_Mechanic=2866
 Sell_Jaeger=3071
 Sell_Flea Market=14500
-weight=0.695000
-fleaMarketFee=865
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
 Conflict=[
 	AR-15 B5 Systems Precision stock/|
 	CMMG RipStock buttstock/|
@@ -52,6 +53,5 @@ Conflict=[
 	Strike Industries Viper PDW stock/|
 	SB Tactical SBA3 brace
 ]
-propertiestype=ItemPropertiesWeaponMod
 Recoil=-28.000000
 Ergonomics=13.000000

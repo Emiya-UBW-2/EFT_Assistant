@@ -6,19 +6,14 @@ Information_Eng=Installed as a standard AR-10/AR-15-based weapons gas block, add
 basePrice=14690
 width=1
 height=1
+weight=0.218000
 Sell_Prapor=7345
 Sell_Fence=5876
 Sell_Skier=7198
 Sell_Peacekeeper=56
 Sell_Mechanic=8226
 Sell_Flea Market=11999
-weight=0.218000
-fleaMarketFee=806
-Conflict=[
-	AR-15 Alexander Arms MK10 rifle length handguard/|
-	AR-15 War Sport LVOA-C handguard (Black)/|
-	AR-15 War Sport LVOA-S handguard (Black)
-]
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	HK MP7 flip-up front sight/|
@@ -29,6 +24,11 @@ ChildParts=[
 	Magpul MBUS Gen2 flip-up front sight (FDE)/|
 	MCX flip-up front sight/|
 	MPX flip-up front sight
+]
+Conflict=[
+	AR-15 Alexander Arms MK10 rifle length handguard/|
+	AR-15 War Sport LVOA-C handguard (Black)/|
+	AR-15 War Sport LVOA-S handguard (Black)
 ]
 Recoil=-4.000000
 Ergonomics=-2.000000

@@ -6,6 +6,7 @@ Information_Eng=A 20 inches long (508mm) barrel for the SCAR-series weapons cham
 basePrice=44500
 width=4
 height=1
+weight=1.260000
 Sell_Prapor=22250
 Sell_Fence=17800
 Sell_Skier=21805
@@ -13,8 +14,7 @@ Sell_Peacekeeper=168
 Sell_Mechanic=24920
 Sell_Jaeger=26700
 Sell_Flea Market=50000
-weight=1.260000
-fleaMarketFee=2830
+fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	AWC PSR 7.62x51 muzzle brake/|

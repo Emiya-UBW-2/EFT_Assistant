@@ -6,6 +6,7 @@ Information_Eng=Aimpoint LRP is a quick detach base mount for CompM4 sights.
 basePrice=2400
 width=1
 height=1
+weight=0.075000
 Sell_Prapor=1200
 Sell_Fence=960
 Sell_Skier=1176
@@ -13,8 +14,7 @@ Sell_Peacekeeper=9
 Sell_Mechanic=1344
 Sell_Jaeger=1440
 Sell_Flea Market=15399
-weight=0.075000
-fleaMarketFee=1412
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Aimpoint PRO reflex sight/|

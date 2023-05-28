@@ -6,15 +6,17 @@ Information_Eng=The EOTech Vudu 1-6x24 riflescope, equally effective on AR platf
 basePrice=44344
 width=2
 height=1
+weight=0.570000
 Sell_Prapor=22172
 Sell_Fence=17737
 Sell_Skier=21728
 Sell_Peacekeeper=168
 Sell_Mechanic=24832
 Sell_Jaeger=26606
-Sell_Flea Market=175555
-weight=0.570000
-fleaMarketFee=12244
+Sell_Flea Market=130000
+fleaMarketFee=0
+propertiestype=ItemPropertiesScope
+SightRange=0
 Conflict=[
 	Axion Kobra EKP-8-18 reflex sight/|
 	OKP-7 reflex sight/|
@@ -32,7 +34,5 @@ Conflict=[
 	Walther MRS reflex sight/|
 	Aimpoint LRP mount for CompM4 sights
 ]
-propertiestype=ItemPropertiesScope
-SightRange=0
 Recoil=0.000000
 Ergonomics=-3.000000

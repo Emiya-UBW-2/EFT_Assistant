@@ -6,6 +6,7 @@ Information_Eng=The SRX rail extension for SCAR series rifles allows the install
 basePrice=7800
 width=1
 height=1
+weight=0.224000
 Sell_Prapor=3900
 Sell_Fence=3120
 Sell_Skier=3822
@@ -13,12 +14,7 @@ Sell_Peacekeeper=29
 Sell_Mechanic=4368
 Sell_Jaeger=4680
 Sell_Flea Market=14000
-weight=0.224000
-fleaMarketFee=740
-Conflict=[
-	FN SCAR-L 5.56x45 10 inch barrel/|
-	FN SCAR-H 7.62x51 13 inch barrel
-]
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AN/PEQ-15 tactical device/|
@@ -93,6 +89,10 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight
+]
+Conflict=[
+	FN SCAR-L 5.56x45 10 inch barrel/|
+	FN SCAR-H 7.62x51 13 inch barrel
 ]
 Recoil=0.000000
 Ergonomics=5.000000

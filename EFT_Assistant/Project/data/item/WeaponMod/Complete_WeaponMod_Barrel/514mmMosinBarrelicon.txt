@@ -6,6 +6,7 @@ Information_Eng=A regular 514mm barrel for the Mosin carbine.
 basePrice=3920
 width=3
 height=1
+weight=1.500000
 Sell_Prapor=1960
 Sell_Fence=1568
 Sell_Skier=1920
@@ -13,8 +14,7 @@ Sell_Peacekeeper=15
 Sell_Mechanic=2195
 Sell_Jaeger=2352
 Sell_Flea Market=260000
-weight=1.500000
-fleaMarketFee=110358
+fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	Mosin Rifle front sight

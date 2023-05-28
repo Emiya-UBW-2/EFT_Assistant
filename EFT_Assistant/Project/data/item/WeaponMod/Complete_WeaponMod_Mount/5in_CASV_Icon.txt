@@ -6,6 +6,7 @@ Information_Eng=The Vltor CASV 5 inch rail allows installation of additional equ
 basePrice=1531
 width=1
 height=1
+weight=0.070000
 Sell_Prapor=765
 Sell_Fence=612
 Sell_Skier=750
@@ -13,8 +14,7 @@ Sell_Peacekeeper=6
 Sell_Mechanic=857
 Sell_Jaeger=918
 Sell_Flea Market=49999
-weight=0.070000
-fleaMarketFee=13138
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	BCM GUNFIGHTER MOD 3 vertical foregrip/|

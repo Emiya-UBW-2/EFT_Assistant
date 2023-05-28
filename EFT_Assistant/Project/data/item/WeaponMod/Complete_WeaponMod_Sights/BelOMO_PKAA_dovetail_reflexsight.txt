@@ -6,14 +6,16 @@ Information_Eng=The PK-AA reflex sight, designed to fit any AK-style model with 
 basePrice=5100
 width=1
 height=1
+weight=0.450000
 Sell_Prapor=2550
 Sell_Fence=2040
 Sell_Skier=2499
 Sell_Peacekeeper=19
 Sell_Mechanic=2856
 Sell_Flea Market=12001
-weight=0.450000
-fleaMarketFee=671
+fleaMarketFee=0
+propertiestype=ItemPropertiesScope
+SightRange=0
 Conflict=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
 	OKP-7 reflex sight (Dovetail)/|
@@ -43,7 +45,5 @@ Conflict=[
 	AKS-74UB dust cover/|
 	PP-19-01 "Vityaz-SN" dust cover
 ]
-propertiestype=ItemPropertiesScope
-SightRange=0
 Recoil=0.000000
 Ergonomics=-4.000000

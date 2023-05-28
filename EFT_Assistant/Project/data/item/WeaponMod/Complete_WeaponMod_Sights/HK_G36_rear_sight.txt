@@ -6,14 +6,16 @@ Information_Eng=A detachable rear sight for the G36 assault rifle, manufactured 
 basePrice=1250
 width=1
 height=1
+weight=0.150000
 Sell_Prapor=625
 Sell_Fence=500
 Sell_Skier=612
 Sell_Peacekeeper=5
 Sell_Mechanic=700
 Sell_Flea Market=12000
-weight=0.150000
-fleaMarketFee=1412
+fleaMarketFee=0
+propertiestype=ItemPropertiesScope
+SightRange=0
 Conflict=[
 	Monstrum Tactical Compact Prism Scope 2x32/|
 	SIG Sauer BRAVO4 4x30 scope/|
@@ -24,7 +26,5 @@ Conflict=[
 	Kiba Arms Short Mount sight adapter/|
 	Trijicon TA51 sight mount
 ]
-propertiestype=ItemPropertiesScope
-SightRange=0
 Recoil=0.000000
 Ergonomics=0.000000

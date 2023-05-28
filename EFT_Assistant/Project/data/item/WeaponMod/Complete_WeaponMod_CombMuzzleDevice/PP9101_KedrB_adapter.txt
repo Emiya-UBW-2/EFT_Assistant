@@ -6,14 +6,14 @@ Information_Eng=A muzzle thread piece for the PP-91-01 "Kedr-B" submachine gun w
 basePrice=5110
 width=1
 height=1
+weight=0.070000
 Sell_Prapor=2555
 Sell_Fence=2044
 Sell_Skier=2503
 Sell_Peacekeeper=19
 Sell_Mechanic=2861
 Sell_Flea Market=11000
-weight=0.070000
-fleaMarketFee=600
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	PP-91-01 "Kedr-B" 9x18PM sound suppressor

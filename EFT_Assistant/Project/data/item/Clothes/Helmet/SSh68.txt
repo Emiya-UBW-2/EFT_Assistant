@@ -6,13 +6,14 @@ Information_Eng=SSh-68 replaced the general-army SSh-60 helmet. It differs from 
 basePrice=17000
 width=2
 height=2
+weight=1.500000
 Sell_Fence=6800
 Sell_Skier=8330
 Sell_Peacekeeper=64
 Sell_Ragman=10540
 Sell_Flea Market=21000
-weight=1.500000
-fleaMarketFee=1149
+fleaMarketFee=0
+propertiestype=ItemPropertiesHelmet
 Conflict=[
 	MSA Sordin Supreme PRO-X/L active headset/|
 	OPSMEN Earmor M32 headset/|
@@ -20,4 +21,3 @@ Conflict=[
 	Walker's Razor Digital headset/|
 	Walker's XCEL 500BT Digital headset
 ]
-propertiestype=ItemPropertiesHelmet

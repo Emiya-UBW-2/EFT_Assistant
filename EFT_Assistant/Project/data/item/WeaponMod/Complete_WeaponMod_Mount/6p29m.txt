@@ -6,6 +6,7 @@ Information_Eng=The TOZ 6P29M mount, developed for a modified version of the VSS
 basePrice=7544
 width=1
 height=1
+weight=0.095000
 Sell_Prapor=3772
 Sell_Fence=3017
 Sell_Skier=3696
@@ -13,8 +14,7 @@ Sell_Peacekeeper=29
 Sell_Mechanic=4224
 Sell_Jaeger=4526
 Sell_Flea Market=143333
-weight=0.095000
-fleaMarketFee=26259
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|

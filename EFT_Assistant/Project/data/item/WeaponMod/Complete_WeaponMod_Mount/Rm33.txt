@@ -6,6 +6,7 @@ Information_Eng=A low-profile mount for installation of the Trijicon RMR series 
 basePrice=1648
 width=1
 height=1
+weight=0.017000
 Sell_Prapor=824
 Sell_Fence=659
 Sell_Skier=807
@@ -13,8 +14,7 @@ Sell_Peacekeeper=6
 Sell_Mechanic=922
 Sell_Jaeger=988
 Sell_Flea Market=40000
-weight=0.017000
-fleaMarketFee=8619
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Trijicon RMR reflex sight

@@ -6,13 +6,14 @@ Information_Eng=A restored mask of the plague doctor Pestily. A rare and terrify
 basePrice=94900
 width=2
 height=2
+weight=0.180000
 Sell_Fence=37960
 Sell_Skier=46501
 Sell_Peacekeeper=359
 Sell_Ragman=58838
 Sell_Flea Market=58888
-weight=0.180000
-fleaMarketFee=4993
+fleaMarketFee=0
+propertiestype=
 Conflict=[
 	Army cap/|
 	Baseball cap/|
@@ -57,4 +58,3 @@ Conflict=[
 	Team Wendy EXFIL Ballistic face shield (Coyote Brown)/|
 	Vulkan-5 face shield
 ]
-propertiestype=

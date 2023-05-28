@@ -6,14 +6,14 @@ Information_Eng=A 1st generation handguard for the SIG MPX submachine gun. Manuf
 basePrice=4311
 width=2
 height=1
+weight=0.302000
 Sell_Prapor=2155
 Sell_Fence=1724
 Sell_Skier=2112
 Sell_Peacekeeper=16
 Sell_Mechanic=2414
 Sell_Flea Market=30000
-weight=0.302000
-fleaMarketFee=2889
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	HK MP7 flip-up front sight/|

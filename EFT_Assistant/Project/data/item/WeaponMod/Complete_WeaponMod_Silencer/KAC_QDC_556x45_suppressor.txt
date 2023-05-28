@@ -6,17 +6,17 @@ Information_Eng=The Knight's Armament Company QDC 556 sound suppressor, designed
 basePrice=71000
 width=2
 height=1
+weight=0.453000
 Sell_Prapor=35500
 Sell_Fence=28400
 Sell_Skier=34790
 Sell_Peacekeeper=268
 Sell_Mechanic=39760
 Sell_Flea Market=40999
-weight=0.453000
-fleaMarketFee=3744
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
 Conflict=[
 	HK 416A5 5.56x45 10.6 inch barrel
 ]
-propertiestype=ItemPropertiesWeaponMod
 Recoil=-14.000000
 Ergonomics=-20.000000

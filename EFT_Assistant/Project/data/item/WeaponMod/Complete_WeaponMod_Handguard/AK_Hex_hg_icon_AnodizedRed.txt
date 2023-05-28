@@ -6,20 +6,14 @@ Information_Eng=A tubular handguard for AK family automatic rifles, manufactured
 basePrice=44005
 width=2
 height=1
+weight=0.167000
 Sell_Prapor=22002
 Sell_Fence=17602
 Sell_Skier=21562
 Sell_Peacekeeper=166
 Sell_Mechanic=24642
 Sell_Flea Market=33000
-weight=0.167000
-fleaMarketFee=2361
-Conflict=[
-	AK-74 Hexagon Wafflemaker 5.45x39 sound suppressor/|
-	Kalashnikov AK-102 5.56x45 assault rifle/|
-	Kalashnikov AK-104 7.62x39 assault rifle/|
-	Kalashnikov AK-105 5.45x39 assault rifle
-]
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Hexagon medium length rail/|
@@ -36,6 +30,12 @@ ChildParts=[
 ChildParts=[
 	Hexagon short length rail/|
 	Hexagon short length rail (Anodized Red)
+]
+Conflict=[
+	AK-74 Hexagon Wafflemaker 5.45x39 sound suppressor/|
+	Kalashnikov AK-102 5.56x45 assault rifle/|
+	Kalashnikov AK-104 7.62x39 assault rifle/|
+	Kalashnikov AK-105 5.45x39 assault rifle
 ]
 Recoil=-3.000000
 Ergonomics=15.000000

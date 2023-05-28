@@ -6,14 +6,14 @@ Information_Eng=The Daniel Defense RIS II FSP 9.5 foregrip is a part of the SOPM
 basePrice=15800
 width=2
 height=1
+weight=0.300000
 Sell_Prapor=7900
 Sell_Fence=6320
 Sell_Skier=7742
 Sell_Peacekeeper=60
 Sell_Mechanic=8848
-Sell_Flea Market=18000
-weight=0.300000
-fleaMarketFee=1013
+Sell_Flea Market=19990
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	BCM GUNFIGHTER MOD 3 vertical foregrip/|

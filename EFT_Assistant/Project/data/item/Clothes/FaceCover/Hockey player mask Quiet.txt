@@ -6,13 +6,14 @@ Information_Eng=Frightening mask from a children's cartoon about hockey.
 basePrice=15000
 width=2
 height=2
+weight=0.100000
 Sell_Fence=6000
 Sell_Skier=7350
 Sell_Peacekeeper=57
 Sell_Ragman=9300
 Sell_Flea Market=9500
-weight=0.100000
-fleaMarketFee=789
+fleaMarketFee=0
+propertiestype=
 Conflict=[
 	Army cap/|
 	Baseball cap/|
@@ -21,4 +22,3 @@ Conflict=[
 	EMERCOM cap/|
 	Police cap
 ]
-propertiestype=

@@ -6,13 +6,14 @@ Information_Eng=The FAST visor, designed to protect the eyes and part of the use
 basePrice=11698
 width=2
 height=1
+weight=0.320000
 Sell_Fence=4679
 Sell_Skier=5732
 Sell_Peacekeeper=44
 Sell_Ragman=7252
-Sell_Flea Market=18999
-weight=0.320000
-fleaMarketFee=1000
+Sell_Flea Market=16500
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
 Conflict=[
 	PNV-10T Night Vision Goggles/|
 	Armasight N-15 Night Vision Goggles/|
@@ -20,4 +21,3 @@ Conflict=[
 	AN/PVS-14 Night Vision Monocular/|
 	T-7 Thermal Goggles with a Night Vision mount
 ]
-propertiestype=ItemPropertiesArmorAttachment

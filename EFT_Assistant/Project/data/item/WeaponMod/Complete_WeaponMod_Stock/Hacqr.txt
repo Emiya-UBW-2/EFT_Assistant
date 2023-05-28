@@ -6,15 +6,16 @@ Information_Eng=Designed for the cilvilian market as well as for military use, t
 basePrice=38263
 width=2
 height=1
+weight=0.499000
 Sell_Prapor=19131
 Sell_Fence=15305
 Sell_Skier=18748
 Sell_Peacekeeper=145
 Sell_Mechanic=21427
 Sell_Jaeger=22957
-Sell_Flea Market=44000
-weight=0.499000
-fleaMarketFee=2467
+Sell_Flea Market=34443
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
 Conflict=[
 	AR-15 B5 Systems Precision stock/|
 	CMMG RipStock buttstock/|
@@ -52,6 +53,5 @@ Conflict=[
 	SB Tactical SBA3 brace/|
 	Strike Industries Viper PDW stock
 ]
-propertiestype=ItemPropertiesWeaponMod
 Recoil=-33.000000
 Ergonomics=20.000000

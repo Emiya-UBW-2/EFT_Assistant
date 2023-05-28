@@ -6,18 +6,18 @@ Information_Eng=The GPNVG-18 (Ground Panoramic Night Vision Goggle) panoramic ni
 basePrice=145004
 width=2
 height=1
+weight=0.880000
 Sell_Prapor=72502
 Sell_Fence=58001
 Sell_Skier=71051
 Sell_Peacekeeper=548
 Sell_Mechanic=81202
 Sell_Jaeger=87002
-weight=0.880000
 fleaMarketFee=0
+propertiestype=ItemPropertiesNightVision
 Conflict=[
 	Ops-Core FAST Visor/|
 	Ops-Core FAST multi-hit ballistic face shield/|
 	Team Wendy EXFIL Ballistic face shield (Black)/|
 	Team Wendy EXFIL Ballistic face shield (Coyote Brown)
 ]
-propertiestype=ItemPropertiesNightVision

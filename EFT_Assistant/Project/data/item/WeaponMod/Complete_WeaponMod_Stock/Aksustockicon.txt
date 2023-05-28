@@ -6,6 +6,7 @@ Information_Eng=A standard-issue metal skeleton stock for AKS-74U, AKS-74UN, and
 basePrice=1544
 width=2
 height=1
+weight=0.218000
 Sell_Prapor=772
 Sell_Fence=617
 Sell_Skier=756
@@ -13,8 +14,7 @@ Sell_Peacekeeper=6
 Sell_Mechanic=864
 Sell_Jaeger=926
 Sell_Flea Market=24999
-weight=0.218000
-fleaMarketFee=4123
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AK GP-25 accessory kit recoil pad

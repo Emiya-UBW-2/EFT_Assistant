@@ -6,14 +6,14 @@ Information_Eng=A standard handguard manufactured by JP Enterprises for the Remi
 basePrice=19754
 width=2
 height=1
+weight=0.310000
 Sell_Prapor=9877
 Sell_Fence=7901
 Sell_Skier=9679
 Sell_Peacekeeper=75
 Sell_Mechanic=11062
 Sell_Flea Market=77777
-weight=0.310000
-fleaMarketFee=5409
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Magpul M-LOK AFG tactical foregrip (Black)/|

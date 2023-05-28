@@ -6,13 +6,13 @@ Information_Eng=A custom gas tube for specific AK family handguards.
 basePrice=2904
 width=1
 height=1
+weight=0.120000
 Sell_Prapor=1452
 Sell_Fence=1161
 Sell_Skier=1422
 Sell_Peacekeeper=11
 Sell_Mechanic=1626
-weight=0.120000
-fleaMarketFee=174
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AK Krebs Custom UFM KeyMod handguard/|

@@ -6,6 +6,7 @@ Information_Eng=A prismatic scope with 3x magnification manufactured by SwampFox
 basePrice=29784
 width=2
 height=1
+weight=0.436000
 Sell_Prapor=14892
 Sell_Fence=11913
 Sell_Skier=14594
@@ -13,14 +14,13 @@ Sell_Peacekeeper=113
 Sell_Mechanic=16679
 Sell_Jaeger=17870
 Sell_Flea Market=19700
-weight=0.436000
-fleaMarketFee=1571
+fleaMarketFee=0
+propertiestype=ItemPropertiesScope
+SightRange=0
 Conflict=[
 	AR-15 rear sight carry handle/|
 	RPK-16 rear sight base/|
 	AR-15 Colt A2 rear sight
 ]
-propertiestype=ItemPropertiesScope
-SightRange=0
 Recoil=0.000000
 Ergonomics=-3.000000

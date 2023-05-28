@@ -6,6 +6,7 @@ Information_Eng=A homespun barrel for TT pistol with threading for sound suppres
 basePrice=2149
 width=1
 height=1
+weight=0.062000
 Sell_Prapor=1074
 Sell_Fence=859
 Sell_Skier=1053
@@ -13,8 +14,7 @@ Sell_Peacekeeper=8
 Sell_Mechanic=1203
 Sell_Jaeger=1289
 Sell_Flea Market=7777
-weight=0.062000
-fleaMarketFee=518
+fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	TT 7.62x25 makeshift sound suppressor

@@ -6,6 +6,7 @@ Information_Eng=A drop-in replacement buttstock for AR-15/M16 carbines by Magpul
 basePrice=7633
 width=2
 height=1
+weight=0.226000
 Sell_Prapor=3816
 Sell_Fence=3053
 Sell_Skier=3740
@@ -13,8 +14,7 @@ Sell_Peacekeeper=29
 Sell_Mechanic=4274
 Sell_Jaeger=4579
 Sell_Flea Market=11000
-weight=0.226000
-fleaMarketFee=583
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Magpul MOE Carbine rubber buttpad

@@ -6,13 +6,14 @@ Information_Eng=A scary mask from some famous animated movie.
 basePrice=21125
 width=2
 height=2
+weight=0.200000
 Sell_Fence=8450
 Sell_Skier=10351
 Sell_Peacekeeper=80
 Sell_Ragman=13097
 Sell_Flea Market=19000
-weight=0.200000
-fleaMarketFee=1201
+fleaMarketFee=0
+propertiestype=
 Conflict=[
 	Army cap/|
 	Baseball cap/|
@@ -85,4 +86,3 @@ Conflict=[
 	Jack-o'-lantern tactical pumpkin helmet/|
 	Beanie
 ]
-propertiestype=

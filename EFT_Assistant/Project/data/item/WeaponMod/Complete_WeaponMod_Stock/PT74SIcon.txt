@@ -6,6 +6,7 @@ Information_Eng=The lock is designed to install the PT-1 and PT-3 stocks to a we
 basePrice=3228
 width=1
 height=1
+weight=0.310000
 Sell_Prapor=1614
 Sell_Fence=1291
 Sell_Skier=1581
@@ -13,8 +14,7 @@ Sell_Peacekeeper=12
 Sell_Mechanic=1807
 Sell_Jaeger=1936
 Sell_Flea Market=19999
-weight=0.310000
-fleaMarketFee=1795
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AK Zenit PT-3 "Klassika" stock/|

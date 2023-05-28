@@ -6,15 +6,16 @@ Information_Eng=Designed for both the civilian market and military use. The CQR4
 basePrice=31263
 width=2
 height=1
+weight=0.525000
 Sell_Prapor=15631
 Sell_Fence=12505
 Sell_Skier=15318
 Sell_Peacekeeper=118
 Sell_Mechanic=17507
 Sell_Jaeger=18757
-Sell_Flea Market=21000
-weight=0.525000
-fleaMarketFee=1651
+Sell_Flea Market=20000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
 Conflict=[
 	AK-74 polymer stock (6P20 Sb.7)/|
 	AK-74 "Plum" polymer stock (6P20 Sb.7)/|
@@ -40,6 +41,5 @@ Conflict=[
 	AKS-74U metal skeleton stock (6P26 Sb.5)/|
 	AKM/AK-74 RD AK to M4 buffer tube adapter
 ]
-propertiestype=ItemPropertiesWeaponMod
 Recoil=-35.000000
 Ergonomics=16.000000

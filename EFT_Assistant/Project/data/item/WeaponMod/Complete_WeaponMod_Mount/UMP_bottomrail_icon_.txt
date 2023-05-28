@@ -6,6 +6,7 @@ Information_Eng=A bottom rail for the UMP SMG handguard, allows installation of 
 basePrice=1573
 width=1
 height=1
+weight=0.070000
 Sell_Prapor=786
 Sell_Fence=629
 Sell_Skier=770
@@ -13,8 +14,7 @@ Sell_Peacekeeper=6
 Sell_Mechanic=880
 Sell_Jaeger=943
 Sell_Flea Market=44444
-weight=0.070000
-fleaMarketFee=10599
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	BCM GUNFIGHTER MOD 3 vertical foregrip/|

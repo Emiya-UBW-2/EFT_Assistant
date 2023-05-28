@@ -6,6 +6,7 @@ Information_Eng=A regular wooden stock for the Mosin rifle.
 basePrice=2462
 width=4
 height=1
+weight=1.750000
 Sell_Prapor=1231
 Sell_Fence=984
 Sell_Skier=1206
@@ -13,19 +14,18 @@ Sell_Peacekeeper=9
 Sell_Mechanic=1378
 Sell_Jaeger=1477
 Sell_Flea Market=40000
-weight=1.750000
-fleaMarketFee=6611
-Conflict=[
-	Mosin Carbine 7.62x54R 514mm barrel/|
-	Mosin Rifle 7.62x54R sawn-off 220mm threaded barrel/|
-	Mosin Rifle 7.62x54R sawn-off 200mm barrel
-]
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Mosin Rifle AIM Sports Recoil Pad
 ]
 ChildParts=[
 	Mosin Rifle Tacfire pistol grip
+]
+Conflict=[
+	Mosin Carbine 7.62x54R 514mm barrel/|
+	Mosin Rifle 7.62x54R sawn-off 220mm threaded barrel/|
+	Mosin Rifle 7.62x54R sawn-off 200mm barrel
 ]
 Recoil=-29.000000
 Ergonomics=10.000000

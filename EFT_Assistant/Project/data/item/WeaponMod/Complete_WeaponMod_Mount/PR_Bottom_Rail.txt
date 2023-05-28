@@ -6,6 +6,7 @@ Information_Eng=A bottom rail for handguards by Precision Reflex, which allows y
 basePrice=2125
 width=1
 height=1
+weight=0.075000
 Sell_Prapor=1062
 Sell_Fence=850
 Sell_Skier=1041
@@ -13,8 +14,7 @@ Sell_Peacekeeper=8
 Sell_Mechanic=1190
 Sell_Jaeger=1275
 Sell_Flea Market=30888
-weight=0.075000
-fleaMarketFee=4747
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	BCM GUNFIGHTER MOD 3 vertical foregrip/|

@@ -6,6 +6,7 @@ Information_Eng=A standard-issue wooden stock for OP-SKS carbines, manufactured 
 basePrice=1885
 width=4
 height=1
+weight=0.913000
 Sell_Prapor=942
 Sell_Fence=754
 Sell_Skier=923
@@ -13,8 +14,7 @@ Sell_Peacekeeper=7
 Sell_Mechanic=1055
 Sell_Jaeger=1131
 Sell_Flea Market=10000
-weight=0.913000
-fleaMarketFee=819
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	SKS Leapers UTG SOCOM rail mount

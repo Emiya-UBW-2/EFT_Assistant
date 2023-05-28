@@ -6,17 +6,17 @@ Information_Eng=The M4SD-K sound suppressor, designed for use with 5.56x45 calib
 basePrice=77000
 width=2
 height=1
+weight=0.397000
 Sell_Prapor=38500
 Sell_Fence=30800
 Sell_Skier=37730
 Sell_Peacekeeper=291
 Sell_Mechanic=43120
 Sell_Flea Market=89000
-weight=0.397000
-fleaMarketFee=4980
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
 Conflict=[
 	HK 416A5 5.56x45 10.6 inch barrel
 ]
-propertiestype=ItemPropertiesWeaponMod
 Recoil=-14.000000
 Ergonomics=-19.000000

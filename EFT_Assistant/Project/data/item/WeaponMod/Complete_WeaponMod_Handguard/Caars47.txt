@@ -6,14 +6,14 @@ Information_Eng=The RS47 lightweight polymer handguard, fits the majority of rif
 basePrice=10638
 width=1
 height=1
+weight=0.220000
 Sell_Prapor=5319
 Sell_Fence=4255
 Sell_Skier=5212
 Sell_Peacekeeper=40
 Sell_Mechanic=5957
-Sell_Flea Market=13333
-weight=0.220000
-fleaMarketFee=726
+Sell_Flea Market=16777
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	BCM GUNFIGHTER MOD 3 vertical foregrip/|

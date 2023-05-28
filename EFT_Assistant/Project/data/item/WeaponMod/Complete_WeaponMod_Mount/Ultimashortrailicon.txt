@@ -6,6 +6,7 @@ Information_Eng=The "Ultima" modification short rail for the MP-155 shotgun, whi
 basePrice=1000
 width=1
 height=1
+weight=0.050000
 Sell_Prapor=500
 Sell_Fence=400
 Sell_Skier=490
@@ -13,8 +14,7 @@ Sell_Peacekeeper=4
 Sell_Mechanic=560
 Sell_Jaeger=600
 Sell_Flea Market=500000
-weight=0.050000
-fleaMarketFee=861720
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|

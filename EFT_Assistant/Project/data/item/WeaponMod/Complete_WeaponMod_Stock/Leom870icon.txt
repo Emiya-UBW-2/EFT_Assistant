@@ -6,6 +6,7 @@ Information_Eng=Mesa Tactical’s Telescoping Stock Conversion Kit replaces the 
 basePrice=2512
 width=2
 height=1
+weight=0.400000
 Sell_Prapor=1256
 Sell_Fence=1004
 Sell_Skier=1230
@@ -13,8 +14,7 @@ Sell_Peacekeeper=9
 Sell_Mechanic=1406
 Sell_Jaeger=1507
 Sell_Flea Market=9999
-weight=0.400000
-fleaMarketFee=699
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	FAB Defense GL-CORE buttstock/|

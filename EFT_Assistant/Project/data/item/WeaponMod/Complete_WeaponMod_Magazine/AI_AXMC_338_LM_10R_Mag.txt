@@ -6,14 +6,15 @@ Information_Eng=A 10-round AXMC sniper rifle magazine by Accuracy International,
 basePrice=9700
 width=1
 height=2
+weight=0.400000
 Sell_Prapor=4850
 Sell_Fence=3880
 Sell_Skier=4753
 Sell_Peacekeeper=37
 Sell_Mechanic=5432
 Sell_Flea Market=14000
-weight=0.400000
-fleaMarketFee=742
+fleaMarketFee=0
+propertiestype=ItemPropertiesMagazine
 Conflict=[
 	7.62x51mm M61/|
 	7.62x51mm M62 Tracer/|
@@ -23,6 +24,5 @@ Conflict=[
 	7.62x51mm TCW SP/|
 	7.62x51mm Ultra Nosler
 ]
-propertiestype=ItemPropertiesMagazine
 Recoil=0.000000
 Ergonomics=-3.000000

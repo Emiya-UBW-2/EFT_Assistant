@@ -6,14 +6,14 @@ Information_Eng=A muzzle brake/gas block for M1A rifles, manufactured by Smith E
 basePrice=4909
 width=1
 height=1
+weight=0.110000
 Sell_Prapor=2454
 Sell_Fence=1963
 Sell_Skier=2405
 Sell_Peacekeeper=19
 Sell_Mechanic=2749
-Sell_Flea Market=19666
-weight=0.110000
-fleaMarketFee=1380
+Sell_Flea Market=8000
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	M1A SA National Match .062 Blade front sight/|

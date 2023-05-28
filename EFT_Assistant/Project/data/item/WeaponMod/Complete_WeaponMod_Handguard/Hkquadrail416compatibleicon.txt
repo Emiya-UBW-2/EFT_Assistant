@@ -6,14 +6,14 @@ Information_Eng=A quad rail handguard for 416 and compatibles. Comes with four p
 basePrice=8100
 width=2
 height=1
+weight=0.399000
 Sell_Prapor=4050
 Sell_Fence=3240
 Sell_Skier=3969
 Sell_Peacekeeper=31
 Sell_Mechanic=4536
-Sell_Flea Market=7000
-weight=0.399000
-fleaMarketFee=453
+Sell_Flea Market=8000
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	BCM GUNFIGHTER MOD 3 vertical foregrip/|

@@ -6,6 +6,7 @@ Information_Eng=The TROY QARS 3.2 inch rail allows installation of additional eq
 basePrice=1676
 width=1
 height=1
+weight=0.045000
 Sell_Prapor=838
 Sell_Fence=670
 Sell_Skier=821
@@ -13,8 +14,7 @@ Sell_Peacekeeper=6
 Sell_Mechanic=938
 Sell_Jaeger=1005
 Sell_Flea Market=45000
-weight=0.045000
-fleaMarketFee=10372
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|

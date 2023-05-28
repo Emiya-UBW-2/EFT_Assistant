@@ -6,6 +6,7 @@ Information_Eng=A 5 inch (140mm) barrel for the KRISS Vector .45 ACP submachine 
 basePrice=8900
 width=2
 height=1
+weight=0.170000
 Sell_Prapor=4450
 Sell_Fence=3560
 Sell_Skier=4361
@@ -13,8 +14,7 @@ Sell_Peacekeeper=34
 Sell_Mechanic=4984
 Sell_Jaeger=5340
 Sell_Flea Market=55555
-weight=0.170000
-fleaMarketFee=5009
+fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	KRISS Vector .45 ACP flash hider/|

@@ -6,19 +6,14 @@ Information_Eng=A pistol slide for the special version of the USP45 pistol - USP
 basePrice=3900
 width=2
 height=1
+weight=0.440000
 Sell_Prapor=1950
 Sell_Fence=1560
 Sell_Skier=1911
 Sell_Peacekeeper=15
 Sell_Mechanic=2184
-Sell_Flea Market=7000
-weight=0.440000
-fleaMarketFee=370
-Conflict=[
-	HK USP .45 ACP Match compensator/|
-	HK USP .45 ACP barrel/|
-	HK USP Tactical .45 ACP threaded barrel
-]
+Sell_Flea Market=12000
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	HK USP rear sight/|
@@ -27,6 +22,11 @@ ChildParts=[
 ChildParts=[
 	HK USP front sight/|
 	HK USP Tactical front sight
+]
+Conflict=[
+	HK USP .45 ACP Match compensator/|
+	HK USP .45 ACP barrel/|
+	HK USP Tactical .45 ACP threaded barrel
 ]
 Recoil=-2.000000
 Ergonomics=3.000000

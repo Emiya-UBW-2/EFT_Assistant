@@ -6,6 +6,7 @@ Information_Eng=A side rail for the SCAR-series handguards that allows installat
 basePrice=1230
 width=1
 height=1
+weight=0.070000
 Sell_Prapor=615
 Sell_Fence=492
 Sell_Skier=602
@@ -13,8 +14,7 @@ Sell_Peacekeeper=5
 Sell_Mechanic=688
 Sell_Jaeger=738
 Sell_Flea Market=12000
-weight=0.070000
-fleaMarketFee=1426
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|

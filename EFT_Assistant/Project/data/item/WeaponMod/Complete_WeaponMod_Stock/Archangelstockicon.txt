@@ -6,6 +6,7 @@ Information_Eng=The Archangel polymer chassis for M1A rifles, manufactured by Pr
 basePrice=24862
 width=3
 height=1
+weight=1.900000
 Sell_Prapor=12431
 Sell_Fence=9944
 Sell_Skier=12182
@@ -13,11 +14,7 @@ Sell_Peacekeeper=94
 Sell_Mechanic=13922
 Sell_Jaeger=14917
 Sell_Flea Market=26420
-weight=1.900000
-fleaMarketFee=1534
-Conflict=[
-	M14 7.62x51 X Products X-14 50-round drum magazine
-]
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	M14 Amega Mini Scout Mount system/|
@@ -42,6 +39,9 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight
+]
+Conflict=[
+	M14 7.62x51 X Products X-14 50-round drum magazine
 ]
 Recoil=-38.000000
 Ergonomics=32.000000

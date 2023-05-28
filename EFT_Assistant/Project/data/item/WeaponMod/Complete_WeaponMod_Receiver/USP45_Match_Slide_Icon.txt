@@ -6,14 +6,14 @@ Information_Eng=A pistol slide for the special version of the USP45 pistol - USP
 basePrice=3600
 width=2
 height=1
+weight=0.450000
 Sell_Prapor=1800
 Sell_Fence=1440
 Sell_Skier=1764
 Sell_Peacekeeper=14
 Sell_Mechanic=2016
 Sell_Flea Market=10000
-weight=0.450000
-fleaMarketFee=592
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	HK USP Red Dot sight mount/|

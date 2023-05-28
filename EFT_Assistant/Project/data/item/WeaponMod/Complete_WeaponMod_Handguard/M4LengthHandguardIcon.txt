@@ -6,14 +6,14 @@ Information_Eng=A carbine length handguard manufactured by Colt, a standard-issu
 basePrice=1424
 width=2
 height=1
+weight=0.193000
 Sell_Prapor=712
 Sell_Fence=569
 Sell_Skier=697
 Sell_Peacekeeper=5
 Sell_Mechanic=797
 Sell_Flea Market=2500
-weight=0.193000
-fleaMarketFee=132
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AR-15 Colt M4 Carbine Length lower handguard

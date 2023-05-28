@@ -6,6 +6,7 @@ Information_Eng=The Strike Industries 6 inch rail for KeyMod systems allows inst
 basePrice=1352
 width=1
 height=1
+weight=0.075000
 Sell_Prapor=676
 Sell_Fence=540
 Sell_Skier=662
@@ -13,8 +14,7 @@ Sell_Peacekeeper=5
 Sell_Mechanic=757
 Sell_Jaeger=811
 Sell_Flea Market=4420
-weight=0.075000
-fleaMarketFee=281
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	BCM GUNFIGHTER MOD 3 vertical foregrip/|

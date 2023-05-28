@@ -6,6 +6,7 @@ Information_Eng=A universal mount on a place of a backup sight to allow the moun
 basePrice=6182
 width=1
 height=1
+weight=0.020000
 Sell_Prapor=3091
 Sell_Fence=2472
 Sell_Skier=3029
@@ -13,8 +14,7 @@ Sell_Peacekeeper=23
 Sell_Mechanic=3461
 Sell_Jaeger=3709
 Sell_Flea Market=30000
-weight=0.020000
-fleaMarketFee=2336
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Trijicon RMR reflex sight

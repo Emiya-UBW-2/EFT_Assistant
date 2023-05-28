@@ -6,6 +6,7 @@ Information_Eng=A polymer stock for the civilian PS90 SMG variant. Manufactured 
 basePrice=3350
 width=3
 height=1
+weight=0.400000
 Sell_Prapor=1675
 Sell_Fence=1340
 Sell_Skier=1641
@@ -13,8 +14,7 @@ Sell_Peacekeeper=13
 Sell_Mechanic=1876
 Sell_Jaeger=2010
 Sell_Flea Market=50000
-weight=0.400000
-fleaMarketFee=7818
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	FN P90 Damage Industries buttpad/|

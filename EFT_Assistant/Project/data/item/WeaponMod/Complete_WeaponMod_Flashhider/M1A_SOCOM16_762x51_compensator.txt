@@ -6,14 +6,14 @@ Information_Eng=A muzzle brake-compensator for M1A rifles, manufactured by Sprin
 basePrice=2142
 width=1
 height=1
+weight=0.130000
 Sell_Prapor=1071
 Sell_Fence=856
 Sell_Skier=1049
 Sell_Peacekeeper=8
 Sell_Mechanic=1199
 Sell_Flea Market=6969
-weight=0.130000
-fleaMarketFee=441
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	M1A SA National Match .062 Blade front sight/|

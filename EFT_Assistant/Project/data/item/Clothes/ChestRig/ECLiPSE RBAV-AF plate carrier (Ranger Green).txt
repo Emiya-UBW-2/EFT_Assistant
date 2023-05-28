@@ -7,10 +7,10 @@ The current pouches configuration is assembled for an assault with additional pr
 basePrice=85000
 width=3
 height=4
+weight=7.500000
 Sell_Fence=34000
 Sell_Skier=41650
 Sell_Ragman=52700
 Sell_Jaeger=51000
-weight=7.500000
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig

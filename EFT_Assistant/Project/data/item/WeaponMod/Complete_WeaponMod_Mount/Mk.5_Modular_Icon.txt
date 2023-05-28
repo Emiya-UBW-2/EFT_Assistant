@@ -6,6 +6,7 @@ Information_Eng=The Mk.5 modular system allows you to install additional equipme
 basePrice=2200
 width=1
 height=1
+weight=0.147000
 Sell_Prapor=1100
 Sell_Fence=880
 Sell_Skier=1078
@@ -13,13 +14,7 @@ Sell_Peacekeeper=8
 Sell_Mechanic=1232
 Sell_Jaeger=1320
 Sell_Flea Market=69420
-weight=0.147000
-fleaMarketFee=17825
-Conflict=[
-	KRISS Vector side rail/|
-	KRISS Vector .45 ACP 5 inch barrel/|
-	KRISS Vector 9x19 5 inch barrel
-]
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	BCM GUNFIGHTER MOD 3 vertical foregrip/|
@@ -92,6 +87,11 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight
+]
+Conflict=[
+	KRISS Vector side rail/|
+	KRISS Vector .45 ACP 5 inch barrel/|
+	KRISS Vector 9x19 5 inch barrel
 ]
 Recoil=0.000000
 Ergonomics=-1.000000

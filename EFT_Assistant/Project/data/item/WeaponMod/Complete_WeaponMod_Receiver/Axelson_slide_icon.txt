@@ -6,14 +6,14 @@ Information_Eng=An enhanced version of the SIG Sauer P226 MK25 pistol slide, man
 basePrice=9900
 width=2
 height=1
+weight=0.240000
 Sell_Prapor=4950
 Sell_Fence=3960
 Sell_Skier=4851
 Sell_Peacekeeper=37
 Sell_Mechanic=5544
 Sell_Flea Market=7740
-weight=0.240000
-fleaMarketFee=536
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	P226 Meprolight TRU-DOT Night rear sight/|

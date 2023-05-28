@@ -6,13 +6,14 @@ Information_Eng=An additional armor module for the Crye Precision AirFrame helme
 basePrice=36200
 width=2
 height=2
+weight=1.200000
 Sell_Fence=14480
 Sell_Skier=17738
 Sell_Peacekeeper=137
 Sell_Ragman=22444
 Sell_Flea Market=40000
-weight=1.200000
-fleaMarketFee=2280
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
 Conflict=[
 	Peltor ComTac 2 headset/|
 	MSA Sordin Supreme PRO-X/L active headset/|
@@ -20,4 +21,3 @@ Conflict=[
 	Peltor Tactical Sport headset/|
 	Walker's Razor Digital headset
 ]
-propertiestype=ItemPropertiesArmorAttachment

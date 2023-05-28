@@ -6,21 +6,21 @@ Information_Eng=A sawn-off wooden stock for the Mosin rifle. Compact and deadly.
 basePrice=1600
 width=2
 height=1
+weight=0.800000
 Sell_Prapor=800
 Sell_Fence=640
 Sell_Skier=784
 Sell_Peacekeeper=6
 Sell_Mechanic=896
 Sell_Jaeger=960
-Sell_Flea Market=22222
-weight=0.800000
-fleaMarketFee=3315
-Conflict=[
-	Mosin Rifle Kochetov mount
-]
+Sell_Flea Market=9000
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Mosin Rifle Tacfire pistol grip
+]
+Conflict=[
+	Mosin Rifle Kochetov mount
 ]
 Recoil=-4.000000
 Ergonomics=16.000000

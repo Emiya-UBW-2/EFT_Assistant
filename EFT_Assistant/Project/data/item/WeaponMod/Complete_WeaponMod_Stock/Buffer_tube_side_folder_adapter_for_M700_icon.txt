@@ -6,6 +6,7 @@ Information_Eng=A foldable adapter for installation of telescopic stock buffer t
 basePrice=2602
 width=1
 height=1
+weight=0.120000
 Sell_Prapor=1301
 Sell_Fence=1040
 Sell_Skier=1274
@@ -13,8 +14,7 @@ Sell_Peacekeeper=10
 Sell_Mechanic=1457
 Sell_Jaeger=1561
 Sell_Flea Market=50000
-weight=0.120000
-fleaMarketFee=9229
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Armacon Baskak stock/|

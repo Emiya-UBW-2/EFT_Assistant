@@ -6,14 +6,14 @@ Information_Eng=The Magpul MOE AKM hand guard is installed on AKM/AK-74 compatib
 basePrice=13885
 width=1
 height=1
+weight=0.221000
 Sell_Prapor=6942
 Sell_Fence=5554
 Sell_Skier=6803
 Sell_Peacekeeper=53
 Sell_Mechanic=7775
 Sell_Flea Market=12000
-weight=0.221000
-fleaMarketFee=777
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Magpul M-LOK AFG tactical foregrip (Black)/|

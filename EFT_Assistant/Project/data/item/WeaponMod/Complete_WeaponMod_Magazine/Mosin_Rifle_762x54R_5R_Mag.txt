@@ -6,17 +6,17 @@ Information_Eng=A standard 7.62x54R 5-round magazine designed for the Mosin rifl
 basePrice=1970
 width=1
 height=1
+weight=0.400000
 Sell_Prapor=985
 Sell_Fence=788
 Sell_Skier=965
 Sell_Peacekeeper=7
 Sell_Mechanic=1103
 Sell_Flea Market=2147
-weight=0.400000
-fleaMarketFee=123
+fleaMarketFee=0
+propertiestype=ItemPropertiesMagazine
 Conflict=[
 	Mosin Rifle ProMag Archangel OPFOR PRS chassis
 ]
-propertiestype=ItemPropertiesMagazine
 Recoil=0.000000
 Ergonomics=-1.000000

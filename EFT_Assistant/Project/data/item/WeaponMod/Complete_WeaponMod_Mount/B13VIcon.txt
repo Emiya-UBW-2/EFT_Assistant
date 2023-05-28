@@ -6,21 +6,15 @@ Information_Eng=The B-13V rail platform is designed to mount on the Dovetail rai
 basePrice=7600
 width=1
 height=1
+weight=0.158000
 Sell_Prapor=3800
 Sell_Fence=3040
 Sell_Skier=3724
 Sell_Peacekeeper=29
 Sell_Mechanic=4256
 Sell_Jaeger=4560
-Sell_Flea Market=21000
-weight=0.158000
-fleaMarketFee=1241
-Conflict=[
-	BelOMO PSO-1 4x24 scope/|
-	BelOMO PSO-1M2-1 4x24 scope/|
-	BelOMO PSO-1M2 4x24 scope/|
-	PP-19-01 "Vityaz-SN" dust cover
-]
+Sell_Flea Market=13333
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
@@ -80,6 +74,12 @@ ChildParts=[
 	Leapers UTG 25mm ring scope mount/|
 	SwampFox Trihawk Prism Scope 3x30/|
 	AI AX-50 34mm scope mount
+]
+Conflict=[
+	BelOMO PSO-1 4x24 scope/|
+	BelOMO PSO-1M2-1 4x24 scope/|
+	BelOMO PSO-1M2 4x24 scope/|
+	PP-19-01 "Vityaz-SN" dust cover
 ]
 Recoil=0.000000
 Ergonomics=-1.000000

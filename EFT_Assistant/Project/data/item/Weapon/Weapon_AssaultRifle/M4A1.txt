@@ -7,14 +7,14 @@ However, U.S. Special Operations Command (USSOCOM) was soon to adopt the M4A1 fo
 basePrice=18397
 width=1
 height=1
+weight=0.380000
 Sell_Prapor=9198
 Sell_Fence=7358
 Sell_Skier=9014
 Sell_Peacekeeper=70
 Sell_Mechanic=10302
 Sell_Flea Market=53000
-weight=0.380000
-fleaMarketFee=3185
+fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
 ChildParts=[
