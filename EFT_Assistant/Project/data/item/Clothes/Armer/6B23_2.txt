@@ -1,9 +1,8 @@
 IDstr=5c0e57ba86f7747fa141986d
 Name=6B23-2 body armor (Mountain Flora)
 ShortName=6B23-2 MF
-Itemtype=Armor
 Information_Eng=The Zabralo-8 main armored vest for personnel of combat units of the ground forces, airborne troops, marines, etc. The vest is designed to protect vital organs from being hit by firearms, shell fragments, mines, grenades, and cold weapons, reducing the severity of armor contusion injury when performing combat missions.
-basePrice=68500
+Itemtype=Armor
 width=3
 height=4
 weight=7.200000

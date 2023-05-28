@@ -1,15 +1,14 @@
 IDstr=56e335e4d2720b6c058b456d
 Name=Scav backpack
 ShortName=ScavBP
-Itemtype=Backpack
 Information_Eng=A cheap replica of some 3-day assault pack with a MOLLE attachment system, adapted and enhanced by the owner as much as their creativity allowed. Does not offer much comfort, and volume is far lower than that of a proper 3-day pack, but it's still a backpack alright.
-basePrice=17994
+Itemtype=Backpack
 width=4
 height=5
 weight=2.214000
 Sell_Fence=7197
 Sell_Ragman=11156
 Sell_Jaeger=10796
-Sell_Flea Market=19000
+Sell_Flea Market=18800
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack

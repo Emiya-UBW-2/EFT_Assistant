@@ -1,9 +1,8 @@
 IDstr=5c920e902e221644f31c3c99
 Name=P226 9x19 20-round extended magazine
 ShortName=P226
-Itemtype=Magazine
 Information_Eng=A 20-round 9x19 extended magazine for the SIG Sauer P226 pistol.
-basePrice=2940
+Itemtype=Magazine
 width=1
 height=1
 weight=0.110000

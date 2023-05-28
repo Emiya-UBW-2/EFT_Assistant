@@ -1,9 +1,8 @@
 IDstr=5a6f5d528dc32e00094b97d9
 Name=Glock rear sight
 ShortName=Glock RS
-Itemtype=Ironsight
 Information_Eng=A standard-issue rear sight for Glock pistols.
-basePrice=604
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.008000

@@ -1,9 +1,8 @@
 IDstr=5dfa3d950dee1b22f862eae0
 Name=KAC Folding Micro front sight
 ShortName=KAC MFS
-Itemtype=Ironsight
 Information_Eng=A compact removable folding front sight by Knight's Armament Company.
-basePrice=2433
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.070000

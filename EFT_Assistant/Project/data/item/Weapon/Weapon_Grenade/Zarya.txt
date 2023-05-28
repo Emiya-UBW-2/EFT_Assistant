@@ -1,15 +1,14 @@
 IDstr=5a0c27731526d80618476ac4
 Name="Zarya" stun grenade
 ShortName=Zarya
-Itemtype=Throwable weapon
 Information_Eng=Intended to suppress the mental stability by creating a sudden sound effect and a bright flash. Used in special operations for apprehension of criminals and in riot suppression.
-basePrice=6715
+Itemtype=Throwable weapon
 width=1
 height=1
 weight=0.175000
 Sell_Prapor=3357
 Sell_Fence=2686
 Sell_Skier=3290
-Sell_Flea Market=12222
+Sell_Flea Market=12000
 fleaMarketFee=0
 propertiestype=ItemPropertiesGrenade

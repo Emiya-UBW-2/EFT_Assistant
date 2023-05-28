@@ -1,9 +1,8 @@
 IDstr=5926c36d86f77467a92a8629
 Name=HK MP5 Wide Tropical polymer handguard
 ShortName=MP5WT
-Itemtype=Handguard
 Information_Eng=A polymer handguard for the HK-produced MP5 SMGs, the so-called Wide Tropical version.
-basePrice=3041
+Itemtype=Handguard
 width=2
 height=1
 weight=0.241000

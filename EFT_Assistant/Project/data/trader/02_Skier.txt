@@ -1,7 +1,7 @@
 IDstr=58330581ace78e27b8b10cee
 Name=Skier
-Color=[255/|1/|1]
 Information_Eng=Previously a port zone customs terminal employee, who initially oversaw dealings of the terminal's goods. Over the course of the conflict, he put together a gang of thugs in order to grab everything of value that he could lay his hands on in the vicinity of the terminal.
+Color=[255/|1/|1]
 PayItem=Roubles
 Lv1NeedLv=1
 Lv1Reputation=0.000000

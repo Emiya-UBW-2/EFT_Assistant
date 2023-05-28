@@ -1,9 +1,8 @@
 IDstr=5df8e4080b92095fd441e594
 Name=SR-25 7.62x51 upper receiver
 ShortName=SR-25
-Itemtype=Receiver
 Information_Eng=An upper receiver for the SR-25 rifle, manufactured by Knight's Armament Company.
-basePrice=6800
+Itemtype=Receiver
 width=2
 height=1
 weight=0.650000

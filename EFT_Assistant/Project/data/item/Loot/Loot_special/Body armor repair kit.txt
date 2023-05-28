@@ -1,15 +1,14 @@
 IDstr=591094e086f7747caa7bb2ef
 Name=Body armor repair kit
 ShortName=Armor repair kit
-Itemtype=Repair Kits
 Information_Eng=A bag with everything you need to repair body armor - from the lightest to the heaviest.
-basePrice=600000
+Itemtype=Repair Kits
 width=3
 height=2
 weight=20.000000
 Sell_Fence=240000
 Sell_Peacekeeper=2269
 Sell_Mechanic=336000
-Sell_Flea Market=710000
+Sell_Flea Market=800000
 fleaMarketFee=0
 propertiestype=

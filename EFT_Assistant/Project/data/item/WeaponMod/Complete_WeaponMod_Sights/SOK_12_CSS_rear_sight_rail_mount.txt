@@ -1,9 +1,8 @@
 IDstr=58272b842459774abc128d50
 Name=SOK-12 CSS rear sight rail mount
 ShortName=CSS RSRM
-Itemtype=Ironsight
 Information_Eng=This sight rail mount allows installation of various sights instead of the Saiga carbines standard-issue fixed rear sight.
-basePrice=2400
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.030000

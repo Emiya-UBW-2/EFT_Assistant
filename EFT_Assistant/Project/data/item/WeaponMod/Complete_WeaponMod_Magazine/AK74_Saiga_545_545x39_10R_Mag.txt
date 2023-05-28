@@ -1,9 +1,8 @@
 IDstr=55d4837c4bdc2d1d4e8b456c
 Name=AK-74 "Saiga 545" 5.45x39 10-round magazine
 ShortName=Saiga 545
-Itemtype=Magazine
 Information_Eng=A 10-round 5.45x39 Izhmash polymer magazine Saiga 545, for the AK-based civilian carbine of the same name.
-basePrice=1611
+Itemtype=Magazine
 width=1
 height=1
 weight=0.112000

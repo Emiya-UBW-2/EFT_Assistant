@@ -1,9 +1,8 @@
 IDstr=56d5a2bbd2720bb8418b456a
 Name=P226 polymer pistol grip (Black)
 ShortName=P226 blk
-Itemtype=Pistol grip
 Information_Eng=Standard black polymer SIG Sauer side grip panels for the P226 pistols. Manufacturer Part Code: GRIP226BLKPOL.
-basePrice=1001
+Itemtype=Pistol grip
 width=1
 height=1
 weight=0.090000

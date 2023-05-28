@@ -1,9 +1,8 @@
 IDstr=5c0125fc0db834001a669aa3
 Name=P226 Legion full size pistol slide
 ShortName=P226 Legion
-Itemtype=Receiver
 Information_Eng=A full-size slide from the Legion modification for the P226 9x19 pistols, manufactured by SIG Sauer.
-basePrice=4120
+Itemtype=Receiver
 width=2
 height=1
 weight=0.200000

@@ -1,9 +1,8 @@
 IDstr=6194f5722d2c397d6600348f
 Name=HK USP Expert .45 ACP pistol slide
 ShortName=USP45EX
-Itemtype=Receiver
 Information_Eng=A pistol slide for the special version of the USP45 pistol - USP45 Expert, manufactured by Heckler & Koch.
-basePrice=3900
+Itemtype=Receiver
 width=2
 height=1
 weight=0.440000

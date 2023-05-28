@@ -1,9 +1,8 @@
 IDstr=618a75f0bd321d49084cd399
 Name=NPZ 1P78-1 2.8x scope
 ShortName=1P78-1
-Itemtype=Scope
 Information_Eng=A 2.8x magnification day scope, installed on dovetail rails. Manufactured by NPZ.
-basePrice=20500
+Itemtype=Scope
 width=1
 height=1
 weight=0.600000

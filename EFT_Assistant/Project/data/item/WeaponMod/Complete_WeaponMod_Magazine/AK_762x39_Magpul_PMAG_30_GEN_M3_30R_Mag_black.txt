@@ -1,9 +1,8 @@
 IDstr=59d6272486f77466146386ff
 Name=AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine
 ShortName=GEN M3
-Itemtype=Magazine
 Information_Eng=A 30-round polymer Magpul Pmag 30 AK/AKM GEN M3 magazine for 7.62x39 AK and compatible weapons. Can also be supplied with .366 TKM ammo for use with the corresponding caliber AK-compatible weapons.
-basePrice=3183
+Itemtype=Magazine
 width=1
 height=2
 weight=0.200000

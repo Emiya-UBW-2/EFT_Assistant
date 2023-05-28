@@ -1,9 +1,8 @@
 IDstr=560838c94bdc2d77798b4569
 Name=Remington Tactical Choke 12ga
 ShortName=RTC 12ga
-Itemtype=Comb. muzzle device
 Information_Eng=Remington Tactical Choke 12ga is designed specifically for use on tactical shotguns and home-defense shotguns. Combines the properties of both cylinder and flash hider.
-basePrice=2783
+Itemtype=Comb. muzzle device
 width=1
 height=1
 weight=0.101000

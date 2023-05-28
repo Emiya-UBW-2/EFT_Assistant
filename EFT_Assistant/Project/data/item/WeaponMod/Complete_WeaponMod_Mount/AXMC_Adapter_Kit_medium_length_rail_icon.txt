@@ -1,9 +1,8 @@
 IDstr=628120dd308cb521f87a8fa1
 Name=AI AXMC Adapter Kit medium length rail
 ShortName=AXMC med
-Itemtype=Mount
 Information_Eng=A medium length rail for installation on the KeySlot interface on the AXMC sniper rifle, manufactured by Accuracy International.
-basePrice=1900
+Itemtype=Mount
 width=1
 height=1
 weight=0.070000

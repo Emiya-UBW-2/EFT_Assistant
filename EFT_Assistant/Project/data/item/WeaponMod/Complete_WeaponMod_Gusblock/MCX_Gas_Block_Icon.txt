@@ -1,9 +1,8 @@
 IDstr=5fbc210bf24b94483f726481
 Name=MCX gas block
 ShortName=MCX block
-Itemtype=Gas block
 Information_Eng=A gas block designed for the MCX assault rifles, manufactured by SIG Sauer.
-basePrice=4500
+Itemtype=Gas block
 width=1
 height=1
 weight=0.049000

@@ -1,9 +1,8 @@
 IDstr=5a718da68dc32e000d46d264
 Name=Glock 9x19 Magpul PMAG GL9 21-round magazine
 ShortName=GL9
-Itemtype=Magazine
 Information_Eng=A 21-round GL9 polymer magazine, manufactured by Magpul.
-basePrice=1731
+Itemtype=Magazine
 width=1
 height=1
 weight=0.100000

@@ -1,9 +1,8 @@
 IDstr=56dff0bed2720bb0668b4567
 Name=5.45x39mm FMJ
 ShortName=FMJ
-Itemtype=Ammo
 Information_Eng=A 5.45x39mm cartridge with a 3.9 gram lead core full metal jacket (FMJ) bullet in a steel case; intended for hunting, home defense, and target practice. Despite its rudimentary design, it is capable of piercing basic ballistic body protection, besides having a significant stopping power effect.
-basePrice=36
+Itemtype=Ammo
 width=1
 height=1
 weight=0.010000

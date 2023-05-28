@@ -1,15 +1,14 @@
 IDstr=617aa4dd8166f034d57de9c5
 Name=M18 smoke grenade (Green)
 ShortName=M18
-Itemtype=Throwable weapon
 Information_Eng=The M18 smoke grenade made in the USA. Used in the US Army since the Second World War. The smoke is green-colored.
-basePrice=3500
+Itemtype=Throwable weapon
 width=1
 height=1
 weight=0.539000
 Sell_Prapor=1750
 Sell_Fence=1400
 Sell_Skier=1715
-Sell_Flea Market=35000
+Sell_Flea Market=18000
 fleaMarketFee=0
 propertiestype=ItemPropertiesGrenade

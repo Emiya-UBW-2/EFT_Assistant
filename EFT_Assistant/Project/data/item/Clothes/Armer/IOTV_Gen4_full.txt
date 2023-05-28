@@ -1,9 +1,8 @@
 IDstr=5b44cd8b86f774503d30cba2
 Name=IOTV Gen4 body armor (Full Protection Kit)
 ShortName=Gen4 Full
-Itemtype=Armor
 Information_Eng=The Improved Outer Tactical Vest (IOTV) Gen IV is designed to permit maximum freedom of movement required to assume correct firing positions with the agility to execute and maneuver tasks. Optimal design characteristics ensure the best possible weight distribution of both the ballistic body armor system as well as additional load bearing equipment, thus providing enhanced comfort, wear duration, and mobility. Full protection kit.
-basePrice=198796
+Itemtype=Armor
 width=4
 height=4
 weight=17.000000

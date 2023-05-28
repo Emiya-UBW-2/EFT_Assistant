@@ -1,15 +1,14 @@
 IDstr=5d1b33a686f7742523398398
 Name=Canister with purified water
 ShortName=Superwater
-Itemtype=Drink
 Information_Eng=Enriched purified water, which is not only delicious, but also good for your health. Chug all of it in one go, we dare you.
-basePrice=50000
+Itemtype=Drink
 width=2
 height=2
 weight=3.300000
 Sell_Therapist=31500
 Sell_Fence=20000
 Sell_Jaeger=30000
-Sell_Flea Market=130900
+Sell_Flea Market=132999
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink

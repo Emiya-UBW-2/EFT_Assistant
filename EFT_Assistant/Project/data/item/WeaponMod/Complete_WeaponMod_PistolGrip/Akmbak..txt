@@ -1,9 +1,8 @@
 IDstr=59e62cc886f77440d40b52a1
 Name=AKM bakelite pistol grip
 ShortName=AKM bak.
-Itemtype=Pistol grip
 Information_Eng=A bakelite Izhmash-manufactured pistol grip for AKM automatic rifles.
-basePrice=701
+Itemtype=Pistol grip
 width=1
 height=1
 weight=0.070000

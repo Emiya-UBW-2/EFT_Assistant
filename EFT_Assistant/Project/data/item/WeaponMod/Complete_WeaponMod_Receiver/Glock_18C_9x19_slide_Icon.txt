@@ -1,9 +1,8 @@
 IDstr=5b1faa0f5acfc40dc528aeb5
 Name=Glock 18C 9x19 pistol slide
 ShortName=G18C
-Itemtype=Receiver
 Information_Eng=A standard-issue slide for Glock 18C 9x19 pistols.
-basePrice=6537
+Itemtype=Receiver
 width=2
 height=1
 weight=0.320000

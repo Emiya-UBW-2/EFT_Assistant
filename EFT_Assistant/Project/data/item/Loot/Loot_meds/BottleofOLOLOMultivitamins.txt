@@ -1,15 +1,14 @@
 IDstr=62a0a043cf4a99369e2624a5
 Name=Bottle of OLOLO Multivitamins
 ShortName=Vitamins
-Itemtype=Medical supplies
 Information_Eng=A bottle with multivitamins. A demanded item in conditions of reduced immunity.
-basePrice=25090
+Itemtype=Medical supplies
 width=1
 height=1
 weight=0.200000
 Sell_Therapist=15806
 Sell_Fence=10036
 Sell_Jaeger=15054
-Sell_Flea Market=21000
+Sell_Flea Market=25000
 fleaMarketFee=0
 propertiestype=

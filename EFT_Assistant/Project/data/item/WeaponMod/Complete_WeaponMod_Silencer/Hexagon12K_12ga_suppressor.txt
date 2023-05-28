@@ -1,9 +1,8 @@
 IDstr=59c0ec5b86f77435b128bfca
 Name=Hexagon 12K 12ga sound suppressor
 ShortName=Hexagon 12K
-Itemtype=Silencer
 Information_Eng=A sound moderator for 12ga shotguns and carbines (Saiga, Vepr and others), manufactured by Hexagon.
-basePrice=23038
+Itemtype=Silencer
 width=2
 height=1
 weight=0.493000

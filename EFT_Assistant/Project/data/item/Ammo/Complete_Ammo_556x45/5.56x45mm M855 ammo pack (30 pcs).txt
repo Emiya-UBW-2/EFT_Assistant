@@ -1,9 +1,8 @@
 IDstr=5447ac644bdc2d6c208b4567
 Name=5.56x45mm M855 ammo pack (30 pcs)
 ShortName=M855
-Itemtype=Ammo container
 Information_Eng=A pack of 5.56x45 mm M855 ammo, 30 rounds.
-basePrice=1000
+Itemtype=Ammo container
 width=1
 height=1
 weight=0.010000

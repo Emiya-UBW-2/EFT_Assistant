@@ -1,9 +1,8 @@
 IDstr=5fc23678ab884124df0cd590
 Name=Mk-18 .338 LM 24 inch barrel
 ShortName=Mk-18 24"
-Itemtype=Barrel
 Information_Eng=A 24 inch (610mm) barrel for Mk-18 .338 LM sniper rifle, manufactured by SWORD International.
-basePrice=63567
+Itemtype=Barrel
 width=4
 height=1
 weight=1.500000

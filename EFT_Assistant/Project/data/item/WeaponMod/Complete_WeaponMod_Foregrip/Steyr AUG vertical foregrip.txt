@@ -1,9 +1,8 @@
 IDstr=634e61b0767cb15c4601a877
 Name=Steyr AUG vertical foregrip
 ShortName=AUG
-Itemtype=Foregrip
 Information_Eng=A vertical foregrip for the Steyr AUG assault rifle.
-basePrice=2000
+Itemtype=Foregrip
 width=1
 height=1
 weight=0.080000

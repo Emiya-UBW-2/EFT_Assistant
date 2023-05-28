@@ -1,9 +1,8 @@
 IDstr=5c6d85e02e22165df16b81f4
 Name=HK 416A5 5.56x45 10.6 inch barrel
 ShortName=416A5 10.6"
-Itemtype=Barrel
 Information_Eng=A 10.6 inch (264mm) barrel for 416 based weapons for 5.56x45 NATO ammo.
-basePrice=21130
+Itemtype=Barrel
 width=2
 height=1
 weight=0.572000

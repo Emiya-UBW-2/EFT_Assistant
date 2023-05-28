@@ -1,9 +1,8 @@
 IDstr=62e27a7865f0b1592a49e17b
 Name=SR-2M dust cover
 ShortName=SR-2M
-Itemtype=Receiver
 Information_Eng=A standard-issue dust cover for SR-2M "Veresk" submachine gun, manufactured by TsNIItochmash.
-basePrice=1220
+Itemtype=Receiver
 width=2
 height=1
 weight=0.168000

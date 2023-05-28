@@ -1,15 +1,15 @@
-IDstr=5d8e15b686f774445103b190
+Map=Shoreline
+6f774445103b190
 Name=HEP station storage room key
 ShortName=HEPS
-Itemtype=Mechanical Key
 Information_Eng=A key to the USEC stash inside hydroelectric power station, located somewhere near the Azure Coast sanatorium.
-basePrice=40000
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000
 Sell_Prapor=20000
 Sell_Therapist=25200
-Sell_Flea Market=25900
+Sell_Flea Market=25000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Shoreline

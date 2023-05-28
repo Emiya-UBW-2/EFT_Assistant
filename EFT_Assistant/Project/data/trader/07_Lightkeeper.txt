@@ -1,7 +1,7 @@
 IDstr=638f541a29ffd1183d187f57
 Name=Lightkeeper
-Color=[1/|1/|255]
 Information_Eng=<Classified>
+Color=[1/|1/|255]
 PayItem=Roubles
 Lv1NeedLv=1
 Lv1Reputation=0.000000

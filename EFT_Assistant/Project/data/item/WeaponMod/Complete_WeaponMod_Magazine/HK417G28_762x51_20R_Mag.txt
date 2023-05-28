@@ -1,9 +1,8 @@
 IDstr=617131a4568c120fdd29482d
 Name=HK417/G28 7.62x51 20-round magazine
 ShortName=417 7.62
-Itemtype=Magazine
 Information_Eng=A 20-round double-stack HK417/G28 magazine for 7.62x51 ammunition. The floor plate can easily be removed for disassembly and cleaning.
-basePrice=3450
+Itemtype=Magazine
 width=1
 height=2
 weight=0.160000

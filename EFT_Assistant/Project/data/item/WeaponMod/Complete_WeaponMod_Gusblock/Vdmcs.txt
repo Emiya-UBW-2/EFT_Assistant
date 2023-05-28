@@ -1,9 +1,8 @@
 IDstr=5a01ad4786f77450561fda02
 Name=AK Kiba Arms VDM CS gas tube
 ShortName=VDM CS
-Itemtype=Gas block
 Information_Eng=A custom gas tube for specific AK family handguards.
-basePrice=2904
+Itemtype=Gas block
 width=1
 height=1
 weight=0.120000

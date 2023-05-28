@@ -1,9 +1,8 @@
 IDstr=602e3f1254072b51b239f713
 Name=Soyuz-TM buffer tube
 ShortName=STM Tube
-Itemtype=Stock
 Information_Eng=STM Arms Receiver Extension Buffer Tube, 4-position, Com-Spec diameter will fit any AR-15-based carbine.
-basePrice=1200
+Itemtype=Stock
 width=2
 height=1
 weight=0.162000

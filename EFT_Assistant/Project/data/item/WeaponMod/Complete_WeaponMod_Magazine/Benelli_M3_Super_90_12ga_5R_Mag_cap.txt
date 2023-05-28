@@ -1,9 +1,8 @@
 IDstr=625ff2ccb8c587128c1a01dd
 Name=Benelli M3 Super 90 12ga 5-shell magazine cap
 ShortName=M3x5
-Itemtype=Magazine
 Information_Eng=A 12ga 5-shell capacity tube magazine cap by Benelli, for M3 S90 shotguns.
-basePrice=1500
+Itemtype=Magazine
 width=1
 height=1
 weight=0.085000

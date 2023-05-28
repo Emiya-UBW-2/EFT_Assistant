@@ -1,9 +1,8 @@
 IDstr=6183fd9e8004cc50514c358f
 Name=FN SCAR-L 5.56x45 18 inch barrel
 ShortName=Mk16 18"
-Itemtype=Barrel
 Information_Eng=An 18 inches long (457mm) LB barrel for the SCAR-series weapons chambered in 5.56x45 NATO ammo.
-basePrice=32000
+Itemtype=Barrel
 width=3
 height=1
 weight=1.050000

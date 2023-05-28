@@ -1,14 +1,13 @@
 IDstr=59faf98186f774067b6be103
 Name=Alkaline cleaner for heat exchangers
 ShortName=Alkali
-Itemtype=Household goods
 Information_Eng=Alkali is actively used to remove various deposits in pipes and heating elements. Also used in artisanal chemical production.
-basePrice=8457
+Itemtype=Household goods
 width=1
 height=2
 weight=1.000000
 Sell_Therapist=5327
 Sell_Fence=3382
-Sell_Flea Market=18888
+Sell_Flea Market=16645
 fleaMarketFee=0
 propertiestype=

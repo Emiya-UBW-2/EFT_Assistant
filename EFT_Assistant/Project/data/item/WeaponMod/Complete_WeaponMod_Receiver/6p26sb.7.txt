@@ -1,9 +1,8 @@
 IDstr=57dc334d245977597164366f
 Name=AKS-74U dust cover (6P26 Sb.7)
 ShortName=6P26 Sb.7
-Itemtype=Receiver
 Information_Eng=A standard-issue dust cover for AKS-74U, AKS-74UN automatic rifles, manufactured by Izhmash.
-basePrice=1198
+Itemtype=Receiver
 width=2
 height=1
 weight=0.136000

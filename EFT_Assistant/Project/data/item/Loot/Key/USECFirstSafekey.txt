@@ -1,15 +1,15 @@
-IDstr=61aa5b7db225ac1ead7957c1
+Map=Lighthouse
+25ac1ead7957c1
 Name=USEC first safe key
 ShortName=USEC 1
-Itemtype=Mechanical Key
 Information_Eng=A key to the safe that belonged to one of the USEC operatives stationed in the roadside cottage area.
-basePrice=27505
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000
 Sell_Prapor=13752
 Sell_Therapist=17328
-Sell_Flea Market=65555
+Sell_Flea Market=44000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Lighthouse

@@ -1,7 +1,7 @@
 IDstr=54cb57776803fa99248b456e
 Name=Therapist
-Color=[255/|255/|255]
 Information_Eng=Head of the Trauma Care Department of the Tarkov Central City Hospital.
+Color=[255/|255/|255]
 PayItem=Roubles
 Lv1NeedLv=0
 Lv1Reputation=0.000000

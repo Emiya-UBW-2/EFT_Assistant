@@ -1,9 +1,8 @@
 IDstr=5d235bb686f77443f4331278
 Name=S I C C organizational pouch
 ShortName=S I C C
-Itemtype=Common container
 Information_Eng=A small soft organizational pouch for storing various small items such as paper money, coins, metal keys, as well as keycards and dogtags.
-basePrice=750000
+Itemtype=Common container
 width=2
 height=1
 weight=0.187000

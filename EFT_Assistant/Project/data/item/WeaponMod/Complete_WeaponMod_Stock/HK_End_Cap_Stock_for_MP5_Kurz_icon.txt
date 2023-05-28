@@ -1,9 +1,8 @@
 IDstr=5d2f25bc48f03502573e5d85
 Name=HK MP5K End Cap stock
 ShortName=EndCap
-Itemtype=Stock
 Information_Eng=A buttstock with a sling swivel for MP5K SMGs. Manufactured by Heckler & Koch.
-basePrice=2500
+Itemtype=Stock
 width=1
 height=1
 weight=0.130000

@@ -1,15 +1,14 @@
 IDstr=5d80c88d86f77440556dbf07
 Name=RB-AM key
 ShortName=RB-AM
-Itemtype=Mechanical Key
 Information_Eng=A key to the Federal State Reserve Agency base Educational Building workshop.
-basePrice=26199
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000
 Sell_Prapor=13099
 Sell_Therapist=16505
-Sell_Flea Market=24000
+Sell_Flea Market=33000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Reserve

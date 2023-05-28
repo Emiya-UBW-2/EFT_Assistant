@@ -1,9 +1,8 @@
 IDstr=5cc70102e4a949035e43ba74
 Name=FN P90 5.7x28 upper receiver
 ShortName=P90
-Itemtype=Receiver
 Information_Eng=A regular upper receiver for the P90 submachine gun, manufactured by Fabrique Nationale Herstal.
-basePrice=2400
+Itemtype=Receiver
 width=2
 height=1
 weight=0.310000

@@ -1,9 +1,8 @@
 IDstr=5b800ed086f7747baf6e2f9e
 Name=Hexagon short length rail
 ShortName=HEX short
-Itemtype=Mount
 Information_Eng=A short length rail for the Hexagon handguard, allows installation of additional tactical equipment.
-basePrice=1108
+Itemtype=Mount
 width=1
 height=1
 weight=0.070000

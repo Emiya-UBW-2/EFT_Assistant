@@ -1,9 +1,8 @@
 IDstr=5fbbc3324e8a554c40648348
 Name=KRISS Vector 9x19 flash hider
 ShortName=Vector 9x19
-Itemtype=Flashhider
 Information_Eng=A standard-issue flash hider for the KRISS Vector 9x19 SMG.
-basePrice=1340
+Itemtype=Flashhider
 width=1
 height=1
 weight=0.064000

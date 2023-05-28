@@ -1,9 +1,8 @@
 IDstr=6076c87f232e5a31c233d50e
 Name=MP-155 12ga 6-shell magazine
 ShortName=MP155x6
-Itemtype=Magazine
 Information_Eng=A 6-shell magazine extension tube for MP-155 12 gauge shotguns.
-basePrice=1221
+Itemtype=Magazine
 width=2
 height=1
 weight=0.124000

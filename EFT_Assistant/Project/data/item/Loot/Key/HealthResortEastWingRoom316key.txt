@@ -1,15 +1,14 @@
 IDstr=5a145ebb86f77458f1796f05
 Name=Health Resort east wing room 316 key
 ShortName=E316 San
-Itemtype=Mechanical Key
 Information_Eng=A key to the Azure Coast sanatorium east wing room 316.
-basePrice=28204
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000
 Sell_Prapor=14102
 Sell_Therapist=17768
-Sell_Flea Market=27500
+Sell_Flea Market=18000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Shoreline

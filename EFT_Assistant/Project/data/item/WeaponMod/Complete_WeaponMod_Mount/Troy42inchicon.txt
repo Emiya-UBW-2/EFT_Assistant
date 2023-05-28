@@ -1,9 +1,8 @@
 IDstr=5b4736b986f77405cb415c10
 Name=TROY QARS 4.2 inch rail
 ShortName=QARS 4.2"
-Itemtype=Mount
 Information_Eng=The TROY QARS 4.2 inch rail allows installation of additional equipment on the TROY "Full Length Rail" AK handguard/gas tube combo.
-basePrice=2109
+Itemtype=Mount
 width=1
 height=1
 weight=0.065000

@@ -1,9 +1,8 @@
 IDstr=611a30addbdd8440277441dc
 Name=MP-43 12ga 750mm barrel
 ShortName=MP-43 750mm
-Itemtype=Barrel
 Information_Eng=A 750mm long 12 gauge barrel for the MP-43 double-barrelled shotgun.
-basePrice=4100
+Itemtype=Barrel
 width=5
 height=1
 weight=2.400000

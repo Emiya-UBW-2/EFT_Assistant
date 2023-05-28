@@ -1,9 +1,8 @@
 IDstr=5cc7015ae4a949001152b4c6
 Name=FN P90 upper receiver top rail
 ShortName=P90 top
-Itemtype=Mount
 Information_Eng=The FN top rail allows installation of additional equipment on the FN P90 standard upper receivers.
-basePrice=1000
+Itemtype=Mount
 width=1
 height=1
 weight=0.270000

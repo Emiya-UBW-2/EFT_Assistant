@@ -1,15 +1,14 @@
 IDstr=5e9dcf5986f7746c417435b3
 Name=LBT-8005A Day Pack backpack
 ShortName=Day Pack
-Itemtype=Backpack
 Information_Eng=A simple and reliable 14-liter backpack in Multicam Black camouflage. Manufactured by London Bridge Trading.
-basePrice=22600
+Itemtype=Backpack
 width=4
 height=5
 weight=0.570000
 Sell_Fence=9040
 Sell_Ragman=14012
 Sell_Jaeger=13560
-Sell_Flea Market=15780
+Sell_Flea Market=30000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack

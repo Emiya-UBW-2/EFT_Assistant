@@ -1,9 +1,8 @@
 IDstr=6196364158ef8c428c287d9f
 Name=.300 Blackout V-Max
 ShortName=V-Max
-Itemtype=Ammo
 Information_Eng=A .300 Blackout (7.62x35mm) V-Max cartridge with a 7.1 gram lead core polymer tipped expansive bullet with a copper metal jacket, in a brass case. This bullet features a ballistic tip that improves its accuracy and acts as a wedge on the lead core upon impact, allowing the bullet to expand and cause considerable damage on the target. Despite the peculiarity of its design, it is able to pierce basic ballistic body protections. Its design also allows it to be used in STANAG 5.56x45mm NATO magazines without any problem.
-basePrice=125
+Itemtype=Ammo
 width=1
 height=1
 weight=0.015000

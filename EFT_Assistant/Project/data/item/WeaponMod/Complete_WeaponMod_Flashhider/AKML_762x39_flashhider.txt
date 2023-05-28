@@ -1,9 +1,8 @@
 IDstr=5a0d716f1526d8000d26b1e2
 Name=AKML system 7.62x39 flash hider
 ShortName=AKML
-Itemtype=Flashhider
 Information_Eng=A slot-like flash suppressor designed specifically for AKML arms system to reduce the muzzle flash flare on the NSP-3 night vision scope.
-basePrice=606
+Itemtype=Flashhider
 width=1
 height=1
 weight=0.050000

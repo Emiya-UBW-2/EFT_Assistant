@@ -1,9 +1,8 @@
 IDstr=6259c4347d6aab70bc23a190
 Name=Benelli M3 forend
 ShortName=M3 std
-Itemtype=Handguard
 Information_Eng=Benelli M3 black synthetic forend with firing mode switch is constructed from polymer with grooved checkering for an easy grip, manufactured by Benelli.
-basePrice=2000
+Itemtype=Handguard
 width=2
 height=1
 weight=0.136000

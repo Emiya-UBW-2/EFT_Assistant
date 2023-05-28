@@ -1,9 +1,8 @@
 IDstr=5ae099875acfc4001714e593
 Name=Mosin Rifle front sight
 ShortName=Mosin FS
-Itemtype=Ironsight
 Information_Eng=A standard-issue front sight for the Mosin rifle.
-basePrice=524
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.080000

@@ -1,15 +1,14 @@
 IDstr=5da5cdcd86f774529238fb9b
 Name=RB-RH key
 ShortName=RB-RH
-Itemtype=Mechanical Key
 Information_Eng=A key to the Federal State Reserve Agency base Airspace Control Center security room.
-basePrice=9052
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000
 Sell_Prapor=4526
 Sell_Therapist=5702
-Sell_Flea Market=8888
+Sell_Flea Market=72222
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Reserve

@@ -1,15 +1,14 @@
 IDstr=57513fcc24597720a31c09a6
 Name=Pack of Vita juice
 ShortName=Vita
-Itemtype=Drink
 Information_Eng=Multifruit and multivitamin juice can be confusing tastewise, but it sure is healthy.
-basePrice=3456
+Itemtype=Drink
 width=1
 height=2
 weight=1.000000
 Sell_Therapist=2177
 Sell_Fence=1382
 Sell_Jaeger=2073
-Sell_Flea Market=12500
+Sell_Flea Market=13000
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink

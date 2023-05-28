@@ -1,9 +1,8 @@
 IDstr=63a0b208f444d32d6f03ea1e
 Name=Fierce Blow sledgehammer
 ShortName=Sledgehammer
-Itemtype=Tool
 Information_Eng=The "Fierce Blow" sledgehammer is used as a hit tool for dismantling various technical and building structures.
-basePrice=132000
+Itemtype=Tool
 width=2
 height=5
 weight=5.500000

@@ -1,15 +1,14 @@
 IDstr=5c093e3486f77430cb02e593
 Name=Dogtag case
 ShortName=Dogtags
-Itemtype=Common container
 Information_Eng=A small and handy case for dogtag storage.
-basePrice=310000
+Itemtype=Common container
 width=1
 height=1
 weight=0.200000
 Sell_Therapist=195300
 Sell_Ragman=192200
 Sell_Jaeger=186000
-Sell_Flea Market=199999
+Sell_Flea Market=200000
 fleaMarketFee=0
 propertiestype=ItemPropertiesContainer

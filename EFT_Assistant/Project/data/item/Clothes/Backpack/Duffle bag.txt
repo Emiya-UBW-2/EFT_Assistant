@@ -1,15 +1,14 @@
 IDstr=56e33634d2720bd8058b456b
 Name=Duffle bag
 ShortName=Duffle
-Itemtype=Backpack
 Information_Eng=A gym duffle bag, generally seen before with fitness enthusiasts or long-distance commuters, is now a typical Scav attribute.
-basePrice=2075
+Itemtype=Backpack
 width=4
 height=3
 weight=1.080000
 Sell_Fence=830
 Sell_Ragman=1286
 Sell_Jaeger=1245
-Sell_Flea Market=16420
+Sell_Flea Market=12000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack

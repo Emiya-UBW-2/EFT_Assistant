@@ -1,9 +1,8 @@
 IDstr=630f28f0cadb1fe05e06f004
 Name=Steyr AUG A3 5.56x45 closed flash hider
 ShortName=A3FH 5.56
-Itemtype=Flashhider
 Information_Eng=A standard AUG A3 flash hider, manufactured by Steyr-Daimler-Puch. Effectively suppresses muzzle flash. Fits AUG 5.56x45 caliber barrels.
-basePrice=4200
+Itemtype=Flashhider
 width=1
 height=1
 weight=0.064000

@@ -1,9 +1,8 @@
 IDstr=628a665a86cbd9750d2ff5e5
 Name=RD-704 dust cover
 ShortName=RD-704 DC
-Itemtype=Receiver
 Information_Eng=A standard-issue dust cover for RD-704 automatic rifles, manufactured by Rifle Dynamics.
-basePrice=2000
+Itemtype=Receiver
 width=2
 height=1
 weight=0.088000

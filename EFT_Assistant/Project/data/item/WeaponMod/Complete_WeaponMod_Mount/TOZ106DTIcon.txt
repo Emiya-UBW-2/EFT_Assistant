@@ -1,9 +1,8 @@
 IDstr=5c6162682e22160010261a2b
 Name=TOZ-106 dovetail mount
 ShortName=106 DT
-Itemtype=Mount
 Information_Eng=A dovetail mount for TOZ-106 bolt-action shotgun, allows installing the scope mount.
-basePrice=1100
+Itemtype=Mount
 width=1
 height=1
 weight=0.050000

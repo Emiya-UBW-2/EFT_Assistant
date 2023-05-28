@@ -1,9 +1,8 @@
 IDstr=5b7d645e5acfc400170e2f90
 Name=SA-58 humpback polymer stock
 ShortName=SA58 Hump
-Itemtype=Stock
 Information_Eng=A polymer humpback-style stock for SA-58 assault rifles. Manufactured by DS Arms.
-basePrice=3400
+Itemtype=Stock
 width=2
 height=1
 weight=0.800000

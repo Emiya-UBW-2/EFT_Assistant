@@ -1,9 +1,8 @@
 IDstr=5926d3c686f77410de68ebc8
 Name=HK MP5 A2 stock
 ShortName=MP5A2
-Itemtype=Stock
 Information_Eng=A standard fixed stock for the MP5A2 submachine gun manufactured by Heckler & Koch.
-basePrice=12579
+Itemtype=Stock
 width=2
 height=1
 weight=0.396000

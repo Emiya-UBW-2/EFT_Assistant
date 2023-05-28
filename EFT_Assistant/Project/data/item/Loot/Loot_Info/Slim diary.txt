@@ -1,14 +1,13 @@
 IDstr=590c651286f7741e566b6461
 Name=Slim diary
 ShortName=SDiary
-Itemtype=Info
 Information_Eng=A diary with a leather cover. Covered with various names, addresses and phone numbers. Somebody might find it particularly useful.
-basePrice=71000
+Itemtype=Info
 width=1
 height=1
 weight=0.100000
 Sell_Fence=28400
 Sell_Peacekeeper=268
-Sell_Flea Market=33000
+Sell_Flea Market=34995
 fleaMarketFee=0
 propertiestype=

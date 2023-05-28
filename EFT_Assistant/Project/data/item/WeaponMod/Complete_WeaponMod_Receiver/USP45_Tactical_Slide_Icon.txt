@@ -1,9 +1,8 @@
 IDstr=6194f41f9fb0c665d5490e75
 Name=HK USP Tactical .45 ACP pistol slide
 ShortName=USP45T
-Itemtype=Receiver
 Information_Eng=A pistol slide for the special version of the USP45 pistol - USP45 Tactical, manufactured by Heckler & Koch.
-basePrice=3300
+Itemtype=Receiver
 width=2
 height=1
 weight=0.472000

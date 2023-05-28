@@ -1,9 +1,8 @@
 IDstr=62389be94d5d474bf712e709
 Name=26x75mm flare cartridge (Yellow)
 ShortName=Yellow
-Itemtype=Ammo
 Information_Eng=A 26x75mm yellow flare cartridge for the SP-81 flare gun.
-basePrice=3215
+Itemtype=Ammo
 width=1
 height=1
 weight=0.050000

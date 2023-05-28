@@ -1,9 +1,8 @@
 IDstr=57372db0245977685d4159b2
 Name=5.45x39mm PP gs ammo pack (30 pcs)
 ShortName=PP
-Itemtype=Ammo container
 Information_Eng=A paper package of 5.45x39 PP gs cartridges, 30 pieces.
-basePrice=1000
+Itemtype=Ammo container
 width=1
 height=1
 weight=0.015000

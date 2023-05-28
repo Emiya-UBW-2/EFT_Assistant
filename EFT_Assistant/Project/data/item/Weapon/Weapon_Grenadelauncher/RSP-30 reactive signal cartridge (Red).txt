@@ -1,9 +1,8 @@
 IDstr=62178c4d4ecf221597654e3d
 Name=RSP-30 reactive signal cartridge (Red)
 ShortName=Red
-Itemtype=Grenade launcher
 Information_Eng=RSP-30 is a reactive signal cartridge for controlling units and maintaining their interaction. Multi-star rocket cartridges are used as flares.
-basePrice=30000
+Itemtype=Grenade launcher
 width=1
 height=2
 weight=0.190000

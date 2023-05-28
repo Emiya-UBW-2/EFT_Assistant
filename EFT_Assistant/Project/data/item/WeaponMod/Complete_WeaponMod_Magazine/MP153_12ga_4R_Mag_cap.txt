@@ -1,9 +1,8 @@
 IDstr=56deee15d2720bee328b4567
 Name=MP-153 12ga 4-shell magazine cap
 ShortName=MP153x4
-Itemtype=Magazine
 Information_Eng=An MP-153 12ga 30x25 forend cap.
-basePrice=500
+Itemtype=Magazine
 width=1
 height=1
 weight=0.100000

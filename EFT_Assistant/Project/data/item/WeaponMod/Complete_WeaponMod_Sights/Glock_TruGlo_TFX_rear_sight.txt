@@ -1,9 +1,8 @@
 IDstr=5a7d912f159bd400165484f3
 Name=Glock TruGlo TFX rear sight
 ShortName=G TFX RS
-Itemtype=Ironsight
 Information_Eng=A rear sight for Glock series pistols with tritium bars for precision aiming, manufactured by TruGlo.
-basePrice=1818
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.008000

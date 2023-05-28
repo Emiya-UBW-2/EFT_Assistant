@@ -1,9 +1,8 @@
 IDstr=63920105a83e15700a00f168
 Name=SOG Voodoo Hawk tactical tomahawk
 ShortName=Hawk
-Itemtype=Knife
 Information_Eng=SOG has combined its three best features: an extended cutting head, compact glass-reinforced nylon handle, and a metal butt cap on the end.
-basePrice=100000
+Itemtype=Knife
 width=1
 height=2
 weight=0.807000

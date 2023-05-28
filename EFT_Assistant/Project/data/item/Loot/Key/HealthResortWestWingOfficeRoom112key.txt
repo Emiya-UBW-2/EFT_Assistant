@@ -1,15 +1,14 @@
 IDstr=5a0dc95c86f77452440fc675
 Name=Health Resort west wing office room 112 key
 ShortName=W112 San
-Itemtype=Mechanical Key
 Information_Eng=A key to the Azure Coast sanatorium west wing office room 112.
-basePrice=75021
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000
 Sell_Prapor=37510
 Sell_Therapist=47263
-Sell_Flea Market=190000
+Sell_Flea Market=61111
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Shoreline

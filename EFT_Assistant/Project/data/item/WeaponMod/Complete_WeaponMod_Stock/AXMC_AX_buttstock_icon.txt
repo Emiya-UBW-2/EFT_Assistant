@@ -1,9 +1,8 @@
 IDstr=62811f828193841aca4a45c3
 Name=AI AXMC AX buttstock
 ShortName=AXMC
-Itemtype=Stock
 Information_Eng=The AX buttstock for the AXMC sniper rifle, manufactured by Accuracy International.
-basePrice=3119
+Itemtype=Stock
 width=2
 height=1
 weight=0.520000

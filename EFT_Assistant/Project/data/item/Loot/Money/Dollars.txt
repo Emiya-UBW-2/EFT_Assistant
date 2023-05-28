@@ -1,9 +1,8 @@
 IDstr=5696686a4bdc2da3298b456a
 Name=Dollars
 ShortName=USD
-Itemtype=Money
 Information_Eng=Several United States dollar bills.
-basePrice=119
+Itemtype=Money
 width=1
 height=1
 weight=0.000000

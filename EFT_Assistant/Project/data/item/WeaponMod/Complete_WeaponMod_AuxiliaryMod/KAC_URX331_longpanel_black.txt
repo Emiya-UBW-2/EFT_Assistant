@@ -1,9 +1,8 @@
 IDstr=5d123b70d7ad1a0ee35e0754
 Name=KAC URX 3/3.1 long panel
 ShortName=URX long
-Itemtype=Auxiliary Mod
 Information_Eng=A long rail cover for the URX 3/3.1 handguards, manufactured by Knight's Armament Company.
-basePrice=1750
+Itemtype=Auxiliary Mod
 width=1
 height=1
 weight=0.005000

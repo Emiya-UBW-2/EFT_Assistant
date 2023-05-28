@@ -1,9 +1,8 @@
 IDstr=59e8a00d86f7742ad93b569c
 Name=VPO-209 thread protector
 ShortName=209 thr.
-Itemtype=Flashhider
 Information_Eng=A thread protector for muzzle brake/compensator for VPO-209 AKM carbines. Also fits the AKM 7.62x39 series automatic rifles.
-basePrice=600
+Itemtype=Flashhider
 width=1
 height=1
 weight=0.010000

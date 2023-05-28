@@ -1,9 +1,8 @@
 IDstr=63a0b2eabea67a6d93009e52
 Name=Radio repeater
 ShortName=Repeater
-Itemtype=Special item
 Information_Eng=A home-made repeater, used to increase the coverage area of the radio.
-basePrice=17481
+Itemtype=Special item
 width=2
 height=2
 weight=0.500000

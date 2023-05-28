@@ -1,9 +1,8 @@
 IDstr=5ab8f04f86f774585f4237d8
 Name=Tactical sling bag
 ShortName=Sling
-Itemtype=Backpack
 Information_Eng=An original sling bag for everyday wear or for active rest.
-basePrice=1843
+Itemtype=Backpack
 width=3
 height=3
 weight=0.480000

@@ -1,9 +1,8 @@
 IDstr=5aba62f8d8ce87001943946b
 Name=APS front sight
 ShortName=APS FS
-Itemtype=Ironsight
 Information_Eng=A standard front sight for APS pistols.
-basePrice=501
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.007000

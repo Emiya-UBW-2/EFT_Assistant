@@ -1,9 +1,8 @@
 IDstr=5780cf9e2459777df90dcb73
 Name=Dorm room 218 key
 ShortName=Dorm 218
-Itemtype=Mechanical Key
 Information_Eng=A key to the three-story dormitory with a tag reading "218" on it.
-basePrice=7657
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000

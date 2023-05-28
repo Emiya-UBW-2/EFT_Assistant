@@ -65,9 +65,14 @@ namespace FPS_n2 {
 		}
 		~HideoutData() noexcept {}
 	public:
-		void UpdateData() noexcept {
+		void InitDatabyJson() noexcept {
+			ResetDataJson();
+		}
+		void UpdateData(int ofset, int size) noexcept {
 			for (auto& L : this->m_List) {
-				for (auto& jd : GetJsonDataList()) {
+				for (int loop = ofset; loop < ofset + size; loop++) {
+					if (loop >= (int)GetJsonDataList().size()) { break; }
+					auto& jd = GetJsonDataList().at(loop);
 					if (L.GetIDstr() == jd->m_id) {
 						L.m_CheckJson++;
 
@@ -78,6 +83,20 @@ namespace FPS_n2 {
 			}
 		}
 		void CheckThroughJson(void) noexcept {
+			while (true) {
+				bool isHit = false;
+				for (auto& jd : GetJsonDataList()) {
+					if (!jd->GetIsSetFinish()) {
+						isHit = true;
+						break;
+					}
+				}
+				if (!isHit) { break; }
+			}
+			for (auto& jd : GetJsonDataList()) {
+				jd->ResetDataJob();
+			}
+
 			for (auto& L : this->m_List) {
 				if (L.m_CheckJson == 0) {
 					std::string ErrMes = "Error : ThroughJson : " + L.GetName();

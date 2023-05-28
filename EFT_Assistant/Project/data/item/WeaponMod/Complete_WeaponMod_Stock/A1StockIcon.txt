@@ -1,9 +1,8 @@
 IDstr=5bcf0213d4351e0085327c17
 Name=HK MP7A1 stock
 ShortName=A1
-Itemtype=Stock
 Information_Eng=A standard-issue retractable stock for the MP7A1 submachine gun. Manufactured by Heckler & Koch.
-basePrice=2111
+Itemtype=Stock
 width=2
 height=1
 weight=0.200000

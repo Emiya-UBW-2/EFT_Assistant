@@ -1,9 +1,8 @@
 IDstr=57a9b9ce2459770ee926038d
 Name=SOK-12 rear sight
 ShortName=SOK12 RS
-Itemtype=Ironsight
 Information_Eng=A standard-issue fixed rear sight for SOK-12, manufactured by Izhmash.
-basePrice=400
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.003000

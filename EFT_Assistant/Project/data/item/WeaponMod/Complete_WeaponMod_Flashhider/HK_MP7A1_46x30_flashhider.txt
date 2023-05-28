@@ -1,9 +1,8 @@
 IDstr=5ba26acdd4351e003562908e
 Name=HK MP7A1 4.6x30 flash hider
 ShortName=MP7A1
-Itemtype=Flashhider
 Information_Eng=A flash hider designed for installation on the MP7 SMGs chambered in 4.6x30mm, manufactured by Heckler & Koch.
-basePrice=911
+Itemtype=Flashhider
 width=1
 height=1
 weight=0.080000

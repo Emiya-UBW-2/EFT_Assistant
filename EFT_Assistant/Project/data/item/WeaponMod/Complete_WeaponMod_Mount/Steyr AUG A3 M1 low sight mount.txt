@@ -1,9 +1,8 @@
 IDstr=62ebba1fb658e07ef9082b5a
 Name=Steyr AUG A3 M1 low sight mount
 ShortName=A3M1 low
-Itemtype=Mount
 Information_Eng=A low-profile sight mount for AUG A3 M1. Manufactured by Steyr-Daimler-Puch.
-basePrice=3800
+Itemtype=Mount
 width=1
 height=1
 weight=0.114000

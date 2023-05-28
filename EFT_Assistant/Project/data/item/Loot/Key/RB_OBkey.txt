@@ -1,15 +1,14 @@
 IDstr=5d80c6c586f77440351beef1
 Name=RB-OB key
 ShortName=RB-OB
-Itemtype=Mechanical Key
 Information_Eng=A key to the Federal State Reserve Agency base eastern barracks' duty officer's room.
-basePrice=19070
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000
 Sell_Prapor=9535
 Sell_Therapist=12014
-Sell_Flea Market=400000
+Sell_Flea Market=660000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Reserve

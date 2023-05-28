@@ -1,9 +1,8 @@
 IDstr=5a17fc70fcdbcb0176308b3d
 Name=APS bakelite side-pieces
 ShortName=APS bak.
-Itemtype=Pistol grip
 Information_Eng=Standard-issue APS pistol bakelite side grips.
-basePrice=1004
+Itemtype=Pistol grip
 width=1
 height=1
 weight=0.102000

@@ -1,9 +1,8 @@
 IDstr=62a09dd4621468534a797ac7
 Name=Baddie's red beard
 ShortName=Baddie
-Itemtype=Face Cover
 Information_Eng=An artificial red beard from Baddie.
-basePrice=35000
+Itemtype=Face Cover
 width=1
 height=2
 weight=0.100000

@@ -1,9 +1,8 @@
 IDstr=5de8fbad2fbe23140d3ee9c4
 Name=MP9-N vertical foregrip
 ShortName=MP9 VFG
-Itemtype=Foregrip
 Information_Eng=A standard-issue detachable vertical foregrip for the MP9-N submachine gun. Manufactured by Brügger & Thomet.
-basePrice=2650
+Itemtype=Foregrip
 width=1
 height=1
 weight=0.080000

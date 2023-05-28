@@ -1,9 +1,8 @@
 IDstr=630764fea987397c0816d219
 Name=Glock 19X 9x19 barrel
 ShortName=G19X
-Itemtype=Barrel
 Information_Eng=A standard barrel for the Glock 19X 9x19 pistol. The barrel is treated with an nDLC coating that protects against corrosion and scratches.
-basePrice=2300
+Itemtype=Barrel
 width=1
 height=1
 weight=0.110000

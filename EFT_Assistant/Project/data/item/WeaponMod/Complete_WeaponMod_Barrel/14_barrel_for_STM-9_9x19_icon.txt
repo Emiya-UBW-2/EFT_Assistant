@@ -1,9 +1,8 @@
 IDstr=603372f153a60014f970616d
 Name=STM-9 9x19 14 inch barrel
 ShortName=STM-9 14"
-Itemtype=Barrel
 Information_Eng=A 14 inches (355mm) long barrel for the STM-9 carbine, chambered in 9x19.
-basePrice=10000
+Itemtype=Barrel
 width=3
 height=1
 weight=0.600000

@@ -1,15 +1,14 @@
 IDstr=57347da92459774491567cf5
 Name=Can of beef stew (Large)
 ShortName=Tushonka
-Itemtype=Food
 Information_Eng=A large amount of canned beef stew, commonly referred to as "tushonka", can be stored for years, thus rivaling condensed milk in importance as a food supply for both military and tourists.
-basePrice=16393
+Itemtype=Food
 width=1
 height=1
 weight=0.378000
 Sell_Therapist=10327
 Sell_Fence=6557
 Sell_Jaeger=9835
-Sell_Flea Market=29800
+Sell_Flea Market=20000
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink

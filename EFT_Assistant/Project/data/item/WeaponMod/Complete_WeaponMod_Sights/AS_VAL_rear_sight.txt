@@ -1,9 +1,8 @@
 IDstr=57c44e7b2459772d28133248
 Name=AS VAL rear sight
 ShortName=VAL RS
-Itemtype=Ironsight
 Information_Eng=A standard vertically adjustable mechanical rear sight for AS VAL.
-basePrice=996
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.025000

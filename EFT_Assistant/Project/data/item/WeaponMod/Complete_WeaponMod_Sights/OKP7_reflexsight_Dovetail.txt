@@ -1,9 +1,8 @@
 IDstr=57486e672459770abd687134
 Name=OKP-7 reflex sight (Dovetail)
 ShortName=OKP-7 DT
-Itemtype=Reflex sight
 Information_Eng=The original design of OKP sights allows firing from unstable positions in rapidly changing conditions, reduces the operator fatigue, and, if necessary, allows unhindered use of base mechanical sights. The key feature of this sight is a rimless reflector attachment that doesn't block any field of fire sections; instead, reflector is protected by thin and durable visor that is almost un-noticeable when firing. This variant is installed on the dovetail type mount.
-basePrice=15155
+Itemtype=Reflex sight
 width=1
 height=1
 weight=0.295000

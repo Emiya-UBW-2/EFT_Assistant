@@ -1,9 +1,8 @@
 IDstr=5c165d832e2216398b5a7e36
 Name=Peltor Tactical Sport headset
 ShortName=Tactical Sport
-Itemtype=Headphones
 Information_Eng=The Peltor Tactical Sport electronic earmuff uses digital chip technology. It gives users fast shutoff and recovery time while helping protect ears from dangerous impulse noises, such as gunfire. Sound amplification allows the user to hear low-level sounds, including range commands and conversation.
-basePrice=44500
+Itemtype=Headphones
 width=2
 height=2
 weight=0.600000

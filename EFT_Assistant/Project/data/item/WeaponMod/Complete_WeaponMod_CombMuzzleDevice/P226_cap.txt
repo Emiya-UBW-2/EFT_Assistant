@@ -1,9 +1,8 @@
 IDstr=587de5ba2459771c0f1e8a58
 Name=P226 thread protection cap
 ShortName=P226 thr. cap
-Itemtype=Comb. muzzle device
 Information_Eng=A threading protection cap for the P226 9x19 barrel.
-basePrice=400
+Itemtype=Comb. muzzle device
 width=1
 height=1
 weight=0.010000

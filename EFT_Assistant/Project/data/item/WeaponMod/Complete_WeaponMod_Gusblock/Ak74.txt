@@ -1,9 +1,8 @@
 IDstr=59c6633186f7740cf0493bb9
 Name=AK-74 gas tube (6P20 Sb.1-2)
 ShortName=6P20 Sb.1-2
-Itemtype=Gas block
 Information_Eng=A standard gas tube for AK-74 automatic rifles. Gas tubes channel the travel direction of gas piston.
-basePrice=2073
+Itemtype=Gas block
 width=1
 height=1
 weight=0.120000

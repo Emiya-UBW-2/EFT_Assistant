@@ -1,9 +1,8 @@
 IDstr=5b7be1125acfc4001876c0e5
 Name=SA-58 7.62x51 16 inch barrel
 ShortName=SA58 16"
-Itemtype=Barrel
 Information_Eng=A 16 inch (406mm) barrel for DS Arms SA-58 7.62x51.
-basePrice=23397
+Itemtype=Barrel
 width=3
 height=1
 weight=0.609000

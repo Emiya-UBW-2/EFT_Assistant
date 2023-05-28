@@ -1,9 +1,8 @@
 IDstr=560837824bdc2d57468b4568
 Name=MP-133 12ga 750mm barrel
 ShortName=MP133 750mm
-Itemtype=Barrel
 Information_Eng=A standard factory-produced 750mm barrel for MP-133 12 gauge shotguns.
-basePrice=7062
+Itemtype=Barrel
 width=5
 height=1
 weight=1.500000

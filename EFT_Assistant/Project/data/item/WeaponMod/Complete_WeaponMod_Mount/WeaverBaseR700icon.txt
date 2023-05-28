@@ -1,9 +1,8 @@
 IDstr=5bfebc530db834001d23eb65
 Name=M700 extended multi-slot Weaver rail base
 ShortName=M700 Multi-slot
-Itemtype=Mount
 Information_Eng=A Weaver-type extended multi-slot rail base for the Remington Model 700 bolt-action sniper rifle for installation of various optics.
-basePrice=2640
+Itemtype=Mount
 width=2
 height=1
 weight=0.090000

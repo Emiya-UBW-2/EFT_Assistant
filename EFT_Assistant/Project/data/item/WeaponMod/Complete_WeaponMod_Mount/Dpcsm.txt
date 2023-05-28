@@ -1,9 +1,8 @@
 IDstr=58d2664f86f7747fec5834f6
 Name=DeltaPoint Cross Slot Mount base
 ShortName=DPCSM
-Itemtype=Mount
 Information_Eng=A universal base for mounting compact sights of the Leupold DeltaPoint series on Weaver rails.
-basePrice=1625
+Itemtype=Mount
 width=1
 height=1
 weight=0.045000

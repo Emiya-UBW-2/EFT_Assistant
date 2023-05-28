@@ -1,9 +1,8 @@
 IDstr=5a38ed75c4a28232996e40c6
 Name=TOZ-106 20ga MTs 20-01 Sb.3 4-shot magazine
 ShortName=Sb.3x4
-Itemtype=Magazine
 Information_Eng=A 4-shot 20ga magazine for the MTs 20-01 and TOZ-106 hunting shotguns.
-basePrice=1075
+Itemtype=Magazine
 width=1
 height=1
 weight=0.110000

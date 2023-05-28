@@ -1,9 +1,8 @@
 IDstr=5a7d9122159bd4001438dbf4
 Name=Glock Dead Ringer Snake Eye rear sight
 ShortName=G SE RS
-Itemtype=Ironsight
 Information_Eng=A rear sight for Glock series pistols with tritium bars for precision aiming, manufactured by Dead Ringer.
-basePrice=4106
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.008000

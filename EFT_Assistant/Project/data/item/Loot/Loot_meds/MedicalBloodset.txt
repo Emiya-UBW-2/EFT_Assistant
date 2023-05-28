@@ -1,15 +1,14 @@
 IDstr=5b4335ba86f7744d2837a264
 Name=Medical bloodset
 ShortName=Bloodset
-Itemtype=Medical supplies
 Information_Eng=A set of medical instruments necessary for blood transfusion.
-basePrice=9765
+Itemtype=Medical supplies
 width=1
 height=1
 weight=0.200000
 Sell_Therapist=6151
 Sell_Fence=3906
 Sell_Jaeger=5859
-Sell_Flea Market=14000
+Sell_Flea Market=9555
 fleaMarketFee=0
 propertiestype=

@@ -1,14 +1,13 @@
 IDstr=5a0ea69f86f7741cd5406619
 Name=Health Resort east wing office room 108 key
 ShortName=E108 San
-Itemtype=Mechanical Key
 Information_Eng=A key to the Azure Coast sanatorium east wing office room 108.
-basePrice=3212
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000
 Sell_Prapor=1606
 Sell_Therapist=2023
-Sell_Flea Market=10000
+Sell_Flea Market=15000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey

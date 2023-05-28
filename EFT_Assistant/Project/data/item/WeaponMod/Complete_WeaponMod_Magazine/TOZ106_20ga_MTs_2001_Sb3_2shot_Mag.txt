@@ -1,9 +1,8 @@
 IDstr=5a38ee51c4a282000c5a955c
 Name=TOZ-106 20ga MTs 20-01 Sb.3 2-shot magazine
 ShortName=20-01 Sb.3x2
-Itemtype=Magazine
 Information_Eng=A 2-shot 20 gauge magazine for MTs 20-01 and TOZ-106 hunting shotguns.
-basePrice=785
+Itemtype=Magazine
 width=1
 height=1
 weight=0.095000

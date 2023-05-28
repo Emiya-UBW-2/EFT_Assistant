@@ -67,7 +67,6 @@ namespace FPS_n2 {
 	//
 	class TraderJsonData :public JsonDataParent {
 	public:
-		std::string									Information_Eng;
 		ItemID										PayItem;
 		std::array<int, 3>							m_Color{ 0,0,0 };
 		std::vector<TraderLvData>					m_LvData;
@@ -85,15 +84,22 @@ namespace FPS_n2 {
 		}
 		~TraderData() noexcept {}
 	public:
-		void UpdateData() noexcept {
+		void InitDatabyJson() noexcept {
+			ResetDataJson();
+		}
+		void UpdateData(int ofset, int size) noexcept {
 			for (auto& L : this->m_List) {
-				for (auto& jd : GetJsonDataList()) {
+				for (int loop = ofset; loop < ofset + size; loop++) {
+					if (loop >= (int)GetJsonDataList().size()) { break; }
+					auto& jd = GetJsonDataList().at(loop);
 					if (L.GetIDstr() == jd->m_id) {
 						jd->OutputData(L.GetFilePath());
 						break;
 					}
 				}
 			}
+		}
+		void CheckThroughJson(void) noexcept {
 		}
 	};
 };

@@ -1,9 +1,8 @@
 IDstr=59d6514b86f774171a068a08
 Name=AKM wooden stock (6P1 Sb.5)
 ShortName=6P1 Sb.5
-Itemtype=Stock
 Information_Eng=A standard-issue wooden stock for AKM automatic rifles, manufactured by Izhmash.
-basePrice=2568
+Itemtype=Stock
 width=2
 height=1
 weight=0.450000

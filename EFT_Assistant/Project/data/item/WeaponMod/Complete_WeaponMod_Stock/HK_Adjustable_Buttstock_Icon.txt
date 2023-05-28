@@ -1,9 +1,8 @@
 IDstr=617155ee50224f204c1da3cd
 Name=HK Adjustable Buttstock
 ShortName=HK Adj.
-Itemtype=Stock
 Information_Eng=An adjustable stock designed and manufactured by Heckler & Koch. This stock is fully adjustable for length of pull as well as the cheek height. Features a mount for installation of a cheek rest.
-basePrice=12100
+Itemtype=Stock
 width=2
 height=1
 weight=0.907000

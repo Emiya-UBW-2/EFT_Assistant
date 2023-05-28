@@ -1,14 +1,13 @@
 IDstr=57347c93245977448d35f6e3
 Name=Toothpaste
 ShortName=Toothpaste
-Itemtype=Household goods
 Information_Eng=Not that teeth hygiene is so essential in the city these days, but why not, if a chance is here.
-basePrice=1927
+Itemtype=Household goods
 width=1
 height=1
 weight=0.200000
 Sell_Therapist=1214
 Sell_Fence=770
-Sell_Flea Market=21000
+Sell_Flea Market=94000
 fleaMarketFee=0
 propertiestype=

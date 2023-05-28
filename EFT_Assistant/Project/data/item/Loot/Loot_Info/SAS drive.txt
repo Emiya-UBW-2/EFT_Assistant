@@ -1,14 +1,13 @@
 IDstr=590c37d286f77443be3d7827
 Name=SAS drive
 ShortName=SAS
-Itemtype=Info
 Information_Eng=A reinforced case with an SAS hard drive. Used for data storage in military industry.
-basePrice=92000
+Itemtype=Info
 width=1
 height=1
 weight=0.230000
 Sell_Fence=36800
 Sell_Peacekeeper=348
-Sell_Flea Market=43999
+Sell_Flea Market=45999
 fleaMarketFee=0
 propertiestype=

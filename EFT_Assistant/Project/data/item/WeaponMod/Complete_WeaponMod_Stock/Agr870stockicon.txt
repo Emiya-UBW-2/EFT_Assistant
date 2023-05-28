@@ -1,9 +1,8 @@
 IDstr=5bfe89510db834001808a127
 Name=FAB Defense buffer tube for AGR-870
 ShortName=AGR-870 tube
-Itemtype=Stock
 Information_Eng=The FAB Defense 4-position buffer tube, made to fit the AGR-870 pistol grip.
-basePrice=1070
+Itemtype=Stock
 width=2
 height=1
 weight=0.162000

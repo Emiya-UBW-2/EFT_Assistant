@@ -1,9 +1,8 @@
 IDstr=5e81c539cb2b95385c177553
 Name=M1911A1 slide stop
 ShortName=1911 SS
-Itemtype=Auxiliary Mod
 Information_Eng=A standard-issue slide stop for the M1911A1 pistol, manufactured by Colt.
-basePrice=300
+Itemtype=Auxiliary Mod
 width=1
 height=1
 weight=0.009000

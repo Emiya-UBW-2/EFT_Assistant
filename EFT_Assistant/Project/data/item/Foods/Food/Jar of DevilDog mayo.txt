@@ -1,15 +1,14 @@
 IDstr=5bc9b156d4351e00367fbce9
 Name=Jar of DevilDog mayo
 ShortName=Mayo
-Itemtype=Food
 Information_Eng=This "DevilDog's" brand mayonnaise is quite famous in Tarkov. Recommended to use with boiled potatoes.
-basePrice=12134
+Itemtype=Food
 width=1
 height=1
 weight=0.850000
 Sell_Therapist=7644
 Sell_Fence=4853
 Sell_Jaeger=7280
-Sell_Flea Market=11000
+Sell_Flea Market=13000
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink

@@ -1,9 +1,8 @@
 IDstr=5addbfe15acfc4001a5fc58b
 Name=M14 A.R.M.S. #18 scope mount
 ShortName=ARMS#18
-Itemtype=Mount
 Information_Eng=The A.R.M.S. Inc. scope mount for M14 rifles. Made of 8620 case hardened steel. Equipped with a Weaver rail for installation of various scopes.
-basePrice=3217
+Itemtype=Mount
 width=1
 height=1
 weight=0.220000

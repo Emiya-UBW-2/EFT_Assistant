@@ -1,9 +1,8 @@
 IDstr=5fb65363d1409e5ca04b54f5
 Name=KRISS Vector .45 ACP 5 inch barrel
 ShortName=Vector .45 5"
-Itemtype=Barrel
 Information_Eng=A 5 inch (140mm) barrel for the KRISS Vector .45 ACP submachine gun.
-basePrice=8900
+Itemtype=Barrel
 width=2
 height=1
 weight=0.170000

@@ -1,9 +1,8 @@
 IDstr=62811e335631d45211793c95
 Name=AI AXMC GTAC AR-type pistol grip adapter
 ShortName=GTAC
-Itemtype=Stock
 Information_Eng=An adapter that allows AR-type pistol grips installation on the AXMC sniper rifle.
-basePrice=1500
+Itemtype=Stock
 width=1
 height=1
 weight=0.150000

@@ -1,9 +1,8 @@
 IDstr=5ae099925acfc4001a5fc7b3
 Name=Mosin Rifle rear sight
 ShortName=Mosin RS
-Itemtype=Ironsight
 Information_Eng=A standard rear sight for the Mosin rifle.
-basePrice=878
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.150000

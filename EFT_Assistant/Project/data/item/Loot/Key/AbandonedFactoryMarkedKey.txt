@@ -1,15 +1,14 @@
 IDstr=63a3a93f8a56922e82001f5d
 Name=Abandoned factory marked key
 ShortName=Aband.
-Itemtype=Mechanical Key
 Information_Eng=A mysterious key to an unknown door at the abandoned city factory. There is a strange symbol scratched onto it.
-basePrice=1000000
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000
 Sell_Prapor=500000
 Sell_Therapist=630000
-Sell_Flea Market=4859999
+Sell_Flea Market=4444444
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Streets of Tarkov

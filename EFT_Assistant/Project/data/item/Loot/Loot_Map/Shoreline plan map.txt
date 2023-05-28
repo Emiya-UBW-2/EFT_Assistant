@@ -1,14 +1,13 @@
 IDstr=5a8036fb86f77407252ddc02
 Name=Shoreline plan map
 ShortName=Shoreline
-Itemtype=Map
 Information_Eng=A detailed plan map of the Shoreline area.
-basePrice=19950
+Itemtype=Map
 width=1
 height=1
 weight=0.045000
 Sell_Therapist=12568
 Sell_Fence=7980
-Sell_Flea Market=18888
+Sell_Flea Market=20000
 fleaMarketFee=0
 propertiestype=

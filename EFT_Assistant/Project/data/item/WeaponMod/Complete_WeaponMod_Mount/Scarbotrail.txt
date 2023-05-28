@@ -1,9 +1,8 @@
 IDstr=61816df1d3a39d50044c139e
 Name=FN SCAR bottom rail
 ShortName=SCAR bott.
-Itemtype=Mount
 Information_Eng=A bottom rail for the SCAR-series handguards that allows installation of tactical foregrips or other devices.
-basePrice=1420
+Itemtype=Mount
 width=1
 height=1
 weight=0.075000

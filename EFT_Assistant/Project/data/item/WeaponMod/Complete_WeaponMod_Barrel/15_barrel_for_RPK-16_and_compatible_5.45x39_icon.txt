@@ -1,9 +1,8 @@
 IDstr=5beec1bd0db834001e6006f3
 Name=RPK-16 5.45x39 15 inch barrel
 ShortName=RPK-16 15"
-Itemtype=Barrel
 Information_Eng=A 15 inch (370mm) long barrel for RPK-16 light machine gun, chambered in 5.45x39 ammo.
-basePrice=12200
+Itemtype=Barrel
 width=2
 height=1
 weight=0.540000

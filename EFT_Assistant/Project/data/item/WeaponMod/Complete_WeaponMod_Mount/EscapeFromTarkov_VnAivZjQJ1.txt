@@ -1,9 +1,8 @@
 IDstr=622b3c081b89c677a33bcda6
 Name=HK G36 sight mount
 ShortName=G36
-Itemtype=Mount
 Information_Eng=A mount for sights and tactical attachments, installs on HK G36.
-basePrice=4000
+Itemtype=Mount
 width=2
 height=1
 weight=0.312000

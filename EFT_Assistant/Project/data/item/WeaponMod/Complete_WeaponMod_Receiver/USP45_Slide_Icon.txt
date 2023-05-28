@@ -1,9 +1,8 @@
 IDstr=6193d382ed0429009f543e65
 Name=HK USP .45 ACP pistol slide
 ShortName=USP45
-Itemtype=Receiver
 Information_Eng=A standard-issue slide for the USP45 pistol, manufactured by Heckler & Koch.
-basePrice=2800
+Itemtype=Receiver
 width=2
 height=1
 weight=0.409000

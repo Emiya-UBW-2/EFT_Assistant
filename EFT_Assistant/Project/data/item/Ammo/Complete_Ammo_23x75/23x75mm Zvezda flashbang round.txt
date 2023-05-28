@@ -1,9 +1,8 @@
 IDstr=5e85a9f4add9fe03027d9bf1
 Name=23x75mm "Zvezda" flashbang round
 ShortName=Zvezda
-Itemtype=Ammo
 Information_Eng=A 23x75 mmR "Zvezda" ("Star") flash-bang grenade cartridge made for psychological effect on the enemy.
-basePrice=980
+Itemtype=Ammo
 width=1
 height=1
 weight=0.070000

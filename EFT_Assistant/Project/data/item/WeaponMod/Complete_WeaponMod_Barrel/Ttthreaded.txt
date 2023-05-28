@@ -1,9 +1,8 @@
 IDstr=571a279b24597720b4066566
 Name=TT 7.62x25 121mm homespun threaded barrel
 ShortName=TT 121mm thr.
-Itemtype=Barrel
 Information_Eng=A homespun barrel for TT pistol with threading for sound suppressor installation.
-basePrice=2149
+Itemtype=Barrel
 width=1
 height=1
 weight=0.062000

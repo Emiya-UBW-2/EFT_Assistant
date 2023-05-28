@@ -1,9 +1,8 @@
 IDstr=5e87114fe2db31558c75a120
 Name=Mossberg 590 Ghost Ring rear sight
 ShortName=590 GR RS
-Itemtype=Ironsight
 Information_Eng=A Ghost Ring type rear sight for 590 pump-action shotguns, manufactured by Mossberg.
-basePrice=800
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.022000

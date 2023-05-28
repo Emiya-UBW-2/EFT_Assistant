@@ -1,9 +1,8 @@
 IDstr=602e71bd53a60014f9705bfa
 Name=AR-15 DLG Tactical DLG-123 pistol grip
 ShortName=DLG123
-Itemtype=Pistol grip
 Information_Eng=The DLG-123 pistol grip can be installed on any weapon compatible with AR-15 systems. Manufactured by DLG Tactical.
-basePrice=1650
+Itemtype=Pistol grip
 width=1
 height=1
 weight=0.100000

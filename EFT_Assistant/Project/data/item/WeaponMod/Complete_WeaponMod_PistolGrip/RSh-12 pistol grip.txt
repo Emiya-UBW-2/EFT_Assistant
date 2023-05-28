@@ -1,9 +1,8 @@
 IDstr=633ec8e4025b096d320a3b1e
 Name=RSh-12 pistol grip
 ShortName=RSh-12
-Itemtype=Pistol grip
 Information_Eng=A standard-issue plastic pistol grip for the RSh-12 revolver, manufactured by the KBP Instrument Design Bureau.
-basePrice=1500
+Itemtype=Pistol grip
 width=1
 height=1
 weight=0.110000

@@ -1,9 +1,8 @@
 IDstr=61b9e1aaef9a1b5d6a79899a
 Name=Santa's bag
 ShortName=Santa's bag
-Itemtype=Backpack
 Information_Eng=A big and roomy Christmas bag, left behind by Santa himself.
-basePrice=62022
+Itemtype=Backpack
 width=5
 height=7
 weight=2.640000

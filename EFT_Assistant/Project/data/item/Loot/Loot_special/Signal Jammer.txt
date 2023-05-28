@@ -1,15 +1,14 @@
 IDstr=5ac78a9b86f7741cca0bbd8d
 Name=Signal Jammer
 ShortName=Jammer
-Itemtype=Special item
 Information_Eng=An assembled signal jamming device. It emits waves of specific frequency to distort the signal and perevent the data exchange.
-basePrice=17481
+Itemtype=Special item
 width=1
 height=1
 weight=0.300000
 Sell_Fence=6992
 Sell_Peacekeeper=66
 Sell_Mechanic=9789
-Sell_Flea Market=30000
+Sell_Flea Market=31111
 fleaMarketFee=0
 propertiestype=

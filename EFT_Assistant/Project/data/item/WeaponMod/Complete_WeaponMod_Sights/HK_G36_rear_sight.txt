@@ -1,9 +1,8 @@
 IDstr=6231670f0b8aa5472d060095
 Name=HK G36 rear sight
 ShortName=G36 RS
-Itemtype=Ironsight
 Information_Eng=A detachable rear sight for the G36 assault rifle, manufactured by Heckler & Koch.
-basePrice=1250
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.150000

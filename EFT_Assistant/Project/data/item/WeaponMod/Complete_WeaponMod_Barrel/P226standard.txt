@@ -1,9 +1,8 @@
 IDstr=56d5a1f7d2720bb3418b456a
 Name=P226 9x19 112mm barrel
 ShortName=P226 112mm
-Itemtype=Barrel
 Information_Eng=A standard 112mm long barrel for the SIG Sauer P226 pistol.
-basePrice=1563
+Itemtype=Barrel
 width=1
 height=1
 weight=0.180000

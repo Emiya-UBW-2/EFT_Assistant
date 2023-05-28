@@ -17,7 +17,6 @@ namespace FPS_n2 {
 	}
 	//
 	void TraderJsonData::GetJsonSub(const nlohmann::json& data) noexcept {
-		Information_Eng = data["description"];
 		PayItem = ItemData::Instance()->FindID((std::string)(data["currency"]["name"]));
 		m_LvData.clear();
 		for (auto& Ld : data["levels"]) {
@@ -96,7 +95,6 @@ namespace FPS_n2 {
 			auto* ptr = TraderData::Instance()->FindPtr(TraderData::Instance()->FindID(this->m_name));
 			outputfile << "Color=[" + std::to_string(ptr->GetColorRGB(0)) + DIV_STR + std::to_string(ptr->GetColorRGB(1)) + DIV_STR + std::to_string(ptr->GetColorRGB(2)) + "]\n";
 		}
-		outputfile << "Information_Eng=" + this->Information_Eng + "\n";
 		outputfile << "PayItem=" + ItemData::Instance()->FindPtr(this->PayItem)->GetName() + "\n";
 		for (auto& L2 : this->m_LvData) {
 			auto LV = "Lv" + std::to_string((&L2 - &this->m_LvData.front()) + 1);

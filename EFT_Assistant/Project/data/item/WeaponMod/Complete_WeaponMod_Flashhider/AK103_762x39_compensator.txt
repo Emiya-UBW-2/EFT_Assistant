@@ -1,9 +1,8 @@
 IDstr=5ac72e7d5acfc40016339a02
 Name=AK-103 7.62x39 muzzle brake-compensator
 ShortName=AK-103
-Itemtype=Flashhider
 Information_Eng=A standard Izhmash-produced muzzle brake and compensator for the AK-103.
-basePrice=600
+Itemtype=Flashhider
 width=1
 height=1
 weight=0.100000

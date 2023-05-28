@@ -1,9 +1,8 @@
 IDstr=6197b229af1f5202c57a9bea
 Name=SVDS Lynx Arms Hinge buffer tube adapter
 ShortName=SVDS adpt.
-Itemtype=Stock
 Information_Eng=An adapter for installation of telescopic stock buffer tubes on the SVD sniper rifles and Rys carbines with folding stocks. Manufactured by Lynx Arms.
-basePrice=3500
+Itemtype=Stock
 width=1
 height=1
 weight=0.127000

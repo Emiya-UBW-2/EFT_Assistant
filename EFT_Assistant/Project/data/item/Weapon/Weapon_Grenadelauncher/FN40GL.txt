@@ -1,9 +1,8 @@
 IDstr=5e81ebcd8e146c7080625e15
 Name=FN40GL Mk2 40mm grenade launcher
 ShortName=FN40GL
-Itemtype=Grenade launcher
 Information_Eng=A standalone buttstock assembly with an attached FN40GL Mk2 grenade launcher. It is designed to use the full variety of NATO standard 40mm grenades. Manufactured by Fabrique Nationale Herstal.
-basePrice=110000
+Itemtype=Grenade launcher
 width=3
 height=1
 weight=2.920000

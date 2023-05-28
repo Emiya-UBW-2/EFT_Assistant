@@ -1,9 +1,8 @@
 IDstr=5732ee6a24597719ae0c0281
 Name=Waist pouch
 ShortName=Waist bag
-Itemtype=Port. container
 Information_Eng=A durable and convenient waist pouch for a variety of things you would want to keep close.
-basePrice=15000
+Itemtype=Port. container
 width=2
 height=2
 weight=0.400000

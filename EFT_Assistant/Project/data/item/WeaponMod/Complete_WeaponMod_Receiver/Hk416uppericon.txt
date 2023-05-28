@@ -1,9 +1,8 @@
 IDstr=5bb20d53d4351e4502010a69
 Name=HK 416A5 5.56x45 upper receiver
 ShortName=416A5
-Itemtype=Receiver
 Information_Eng=An upper receiver for the 416A5 assault rifle manufactured by Heckler & Koch. Equipped with a mount for attaching additional devices.
-basePrice=6500
+Itemtype=Receiver
 width=2
 height=1
 weight=0.270000

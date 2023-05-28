@@ -1,9 +1,8 @@
 IDstr=5c079ec50db834001966a706
 Name=TT Razor Arms rubber grip
 ShortName=TT RazorA
-Itemtype=Pistol grip
 Information_Eng=A rubber grip for TT pistols, manufactured by Razor Arms.
-basePrice=4900
+Itemtype=Pistol grip
 width=1
 height=1
 weight=0.060000

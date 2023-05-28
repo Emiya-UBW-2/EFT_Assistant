@@ -1,9 +1,8 @@
 IDstr=62e7c72df68e7a0676050c77
 Name=Steyr AUG A3 5.56x45 receiver
 ShortName=AUG A3
-Itemtype=Receiver
 Information_Eng=A low-profile receiver with built-in tactical equipment rail for AUG A3. Manufactured by Steyr-Daimler-Puch.
-basePrice=3800
+Itemtype=Receiver
 width=2
 height=1
 weight=0.794000

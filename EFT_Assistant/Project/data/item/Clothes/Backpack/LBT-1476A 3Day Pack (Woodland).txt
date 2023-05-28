@@ -1,15 +1,14 @@
 IDstr=618cfae774bb2d036a049e7c
 Name=LBT-1476A 3Day Pack (Woodland)
 ShortName=LBT-1476A
-Itemtype=Backpack
 Information_Eng=A medium-size 3-day backpack designed for both military and tourist use. Manufactured by London Bridge Trading.
-basePrice=45000
+Itemtype=Backpack
 width=4
 height=5
 weight=1.133000
 Sell_Fence=18000
 Sell_Ragman=27900
 Sell_Jaeger=27000
-Sell_Flea Market=59000
+Sell_Flea Market=45000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack

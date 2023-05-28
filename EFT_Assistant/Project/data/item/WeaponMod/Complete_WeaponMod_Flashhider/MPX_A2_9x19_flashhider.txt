@@ -1,9 +1,8 @@
 IDstr=58949dea86f77409483e16a8
 Name=MPX A2 9x19 flash hider
 ShortName=MPX A2
-Itemtype=Flashhider
 Information_Eng=The A2 Bird Cage flash hider, designed for installation on MPX 9x19 SMGs, manufactured by SIG Sauer.
-basePrice=903
+Itemtype=Flashhider
 width=1
 height=1
 weight=0.063000

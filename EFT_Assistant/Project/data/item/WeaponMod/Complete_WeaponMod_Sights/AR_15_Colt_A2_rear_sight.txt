@@ -1,9 +1,8 @@
 IDstr=55d5f46a4bdc2d1b198b4567
 Name=AR-15 Colt A2 rear sight
 ShortName=A2 RS
-Itemtype=Ironsight
 Information_Eng=The Colt A2 detachable rear sight. Standard-issue for M4A1 assault rifles.
-basePrice=908
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.150000

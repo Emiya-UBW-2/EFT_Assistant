@@ -1,9 +1,8 @@
 IDstr=59c1383d86f774290a37e0ca
 Name=5.56x45 Magpul PMAG D-60 STANAG 60-round magazine
 ShortName=PMAG D60
-Itemtype=Magazine
 Information_Eng=The Magpul PMAG D-60 polymer 60-round magazine for 5.56x45 rounds.
-basePrice=15413
+Itemtype=Magazine
 width=1
 height=2
 weight=0.580000

@@ -1,9 +1,8 @@
 IDstr=62811e2510e26c1f344e6554
 Name=AI AXMC pistol grip
 ShortName=AXMC PG
-Itemtype=Stock
 Information_Eng=A pistol grip for the AXMC sniper rifle, manufactured by Accuracy International.
-basePrice=3000
+Itemtype=Stock
 width=1
 height=1
 weight=0.220000

@@ -1,15 +1,14 @@
 IDstr=5673de654bdc2d180f8b456d
 Name=Can of pacific saury
 ShortName=Saury
-Itemtype=Food
 Information_Eng=Smoked pacific saury in a tin can offers some easily digestible protein and aliphatic acid, making it a nice addition to the ration.
-basePrice=8556
+Itemtype=Food
 width=1
 height=1
 weight=0.280000
 Sell_Therapist=5390
 Sell_Fence=3422
 Sell_Jaeger=5133
-Sell_Flea Market=16999
+Sell_Flea Market=14420
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink

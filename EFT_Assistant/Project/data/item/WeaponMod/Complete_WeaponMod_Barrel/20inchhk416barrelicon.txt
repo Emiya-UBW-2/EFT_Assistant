@@ -1,9 +1,8 @@
 IDstr=5bb20dadd4351e00367faeff
 Name=HK 416A5 5.56x45 20 inch barrel
 ShortName=416A5 20"
-Itemtype=Barrel
 Information_Eng=A barrel for 416 based weapons for 5.56x45 NATO ammo, 20 inches (505mm) long with a flip up front sight.
-basePrice=37700
+Itemtype=Barrel
 width=4
 height=1
 weight=1.200000

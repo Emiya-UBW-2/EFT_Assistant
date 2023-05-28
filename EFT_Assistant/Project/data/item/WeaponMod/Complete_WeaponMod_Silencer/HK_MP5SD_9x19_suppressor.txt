@@ -1,9 +1,8 @@
 IDstr=5926d33d86f77410de68ebc0
 Name=HK MP5SD 9x19 sound suppressor
 ShortName=MP5SD supp.
-Itemtype=Silencer
 Information_Eng=A standard MP5SD sound suppressor manufactured by Heckler & Koch.
-basePrice=26709
+Itemtype=Silencer
 width=2
 height=1
 weight=0.496000

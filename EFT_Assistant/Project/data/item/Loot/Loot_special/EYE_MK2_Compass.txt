@@ -1,15 +1,14 @@
 IDstr=5f4f9eb969cdc30ff33f09db
 Name=EYE MK.2 professional hand-held compass
 ShortName=Compass
-Itemtype=Compass
 Information_Eng=A hand-held compass. Allows you to quickly navigate, indicating the direction of the magnetic poles of the Earth. With it, you can easily determine the azimuth.
-basePrice=65700
+Itemtype=Compass
 width=1
 height=1
 weight=0.106000
 Sell_Fence=26280
 Sell_Peacekeeper=248
 Sell_Mechanic=36792
-Sell_Flea Market=37000
+Sell_Flea Market=38000
 fleaMarketFee=0
 propertiestype=

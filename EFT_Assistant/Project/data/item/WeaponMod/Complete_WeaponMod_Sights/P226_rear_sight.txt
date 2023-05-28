@@ -1,9 +1,8 @@
 IDstr=56d5a77ed2720b90418b4568
 Name=P226 rear sight
 ShortName=P226 RS
-Itemtype=Ironsight
 Information_Eng=A standard-issue rear sight for the P226 pistol, manufactured by SIG Sauer.
-basePrice=605
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.008000

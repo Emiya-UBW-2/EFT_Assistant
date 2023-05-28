@@ -1,9 +1,8 @@
 IDstr=61f7b234ea4ab34f2f59c3ec
 Name=MP-18 wooden stock
 ShortName=MP18 wood
-Itemtype=Stock
 Information_Eng=A wooden stock for MP-18 hunting rifles. Manufactured by IzhMekh.
-basePrice=1400
+Itemtype=Stock
 width=2
 height=1
 weight=0.560000

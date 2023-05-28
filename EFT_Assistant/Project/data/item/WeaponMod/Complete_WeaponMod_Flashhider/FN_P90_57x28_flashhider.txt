@@ -1,9 +1,8 @@
 IDstr=5cc82796e24e8d000f5859a8
 Name=FN P90 5.7x28 flash hider
 ShortName=P90
-Itemtype=Flashhider
 Information_Eng=A regular flash hider for the P90 SMG. Manufactured by Fabrique Nationale Herstal.
-basePrice=1600
+Itemtype=Flashhider
 width=1
 height=1
 weight=0.100000

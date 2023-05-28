@@ -1,9 +1,8 @@
 IDstr=5f647d9f8499b57dc40ddb93
 Name=KS-23M 23x75 3-shell magazine cap
 ShortName=KS-23Mx3
-Itemtype=Magazine
 Information_Eng=A 3-shell capacity magazine cap for KS-23M 23x75mm shells.
-basePrice=2200
+Itemtype=Magazine
 width=1
 height=1
 weight=0.100000

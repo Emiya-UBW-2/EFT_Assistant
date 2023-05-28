@@ -1,9 +1,8 @@
 IDstr=637ba19df7ca6372bf2613d7
 Name=SR-2M polymer handguard (Black)
 ShortName=SR-2M
-Itemtype=Handguard
 Information_Eng=A standard-issue SR-2M "Veresk" polymer handguard for burn protection. Manufactured by TsNIItochmash. Black version.
-basePrice=2850
+Itemtype=Handguard
 width=2
 height=1
 weight=0.120000

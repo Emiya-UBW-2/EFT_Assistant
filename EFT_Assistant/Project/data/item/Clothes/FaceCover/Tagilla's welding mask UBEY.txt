@@ -1,9 +1,8 @@
 IDstr=60a7ad2a2198820d95707a2e
 Name=Tagilla's welding mask "UBEY"
 ShortName="UBEY"
-Itemtype=Face Cover
 Information_Eng=An armored steel welding mask of Tagilla - the Bossman of Factory. Painted with the special "UBEY" ("KILL") art.
-basePrice=135000
+Itemtype=Face Cover
 width=2
 height=2
 weight=1.500000

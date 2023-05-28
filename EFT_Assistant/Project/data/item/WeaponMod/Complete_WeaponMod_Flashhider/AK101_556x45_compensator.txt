@@ -1,9 +1,8 @@
 IDstr=5ac72e615acfc43f67248aa0
 Name=AK-101 5.56x45 muzzle brake-compensator
 ShortName=AK-101
-Itemtype=Flashhider
 Information_Eng=A standard Izhmash-produced muzzle brake and compensator for the AK-101 and weapon systems based on it.
-basePrice=600
+Itemtype=Flashhider
 width=1
 height=1
 weight=0.100000

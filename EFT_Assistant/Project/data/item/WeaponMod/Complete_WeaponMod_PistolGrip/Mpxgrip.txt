@@ -1,9 +1,8 @@
 IDstr=5894a51286f77426d13baf02
 Name=MPX pistol grip
 ShortName=MPX
-Itemtype=Pistol grip
 Information_Eng=A polymer MPX pistol grip is fit for installation on the first and second generations of MPX. Manufactured by SIG Sauer.
-basePrice=3274
+Itemtype=Pistol grip
 width=1
 height=1
 weight=0.070000

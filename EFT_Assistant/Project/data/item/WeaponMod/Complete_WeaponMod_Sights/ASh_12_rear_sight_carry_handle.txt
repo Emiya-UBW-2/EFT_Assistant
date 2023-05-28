@@ -1,9 +1,8 @@
 IDstr=5caf1691ae92152ac412efb9
 Name=ASh-12 rear sight carry handle
 ShortName=ASh-12 CH
-Itemtype=Ironsight
 Information_Eng=A detachable carry handle with a rear sight for the ASh-12 assault rifles.
-basePrice=1800
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.150000

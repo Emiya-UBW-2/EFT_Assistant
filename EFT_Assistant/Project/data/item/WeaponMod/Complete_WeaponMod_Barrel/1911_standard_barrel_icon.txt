@@ -1,9 +1,8 @@
 IDstr=5e81c519cb2b95385c177551
 Name=M1911A1 .45 ACP 127mm barrel
 ShortName=1911 127mm
-Itemtype=Barrel
 Information_Eng=A standard-issue 127mm .45 ACP barrel for M1911A1 pistols, manufactured by Colt.
-basePrice=1700
+Itemtype=Barrel
 width=1
 height=1
 weight=0.095000

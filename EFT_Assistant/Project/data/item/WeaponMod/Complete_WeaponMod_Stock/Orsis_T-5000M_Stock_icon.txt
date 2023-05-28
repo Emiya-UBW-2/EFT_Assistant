@@ -1,9 +1,8 @@
 IDstr=5df35ddddfc58d14537c2036
 Name=ORSIS T-5000M stock
 ShortName=T-5000M
-Itemtype=Stock
 Information_Eng=A universal standard-issue stock for T-5000M sniper rifles, manufactured by ORSIS.
-basePrice=3150
+Itemtype=Stock
 width=2
 height=1
 weight=0.310000

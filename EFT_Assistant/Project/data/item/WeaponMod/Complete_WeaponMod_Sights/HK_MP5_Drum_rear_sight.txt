@@ -1,9 +1,8 @@
 IDstr=5926d2be86f774134d668e4e
 Name=HK MP5 Drum rear sight
 ShortName=Drum
-Itemtype=Ironsight
 Information_Eng=A standard rear sight for MP5 SMGs, manufactured by Heckler & Koch.
-basePrice=2100
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.140000

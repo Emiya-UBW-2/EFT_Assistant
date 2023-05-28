@@ -1,9 +1,8 @@
 IDstr=61703001d92c473c77021497
 Name=HK417 Extended Free Float handguard with flip-up front sight
 ShortName=417 Ext. FF
-Itemtype=Handguard
 Information_Eng=The HK417 & G28 Extended DMR Forearm With a Flip Up Front Sight & Suppressor Window Cutout. Optimized design to mitigate the heat emissions for long range shooting and to prevent the mirage effect.
-basePrice=11200
+Itemtype=Handguard
 width=3
 height=1
 weight=0.550000

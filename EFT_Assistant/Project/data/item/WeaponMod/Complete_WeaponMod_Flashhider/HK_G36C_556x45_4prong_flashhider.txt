@@ -1,9 +1,8 @@
 IDstr=622f0ee47762f55aaa68ac87
 Name=HK G36C 5.56x45 4-prong flash hider
 ShortName=G36C short
-Itemtype=Flashhider
 Information_Eng=A four-prong flash hider for G36C manufactured by Heckler & Koch. Reduces muzzle flash.
-basePrice=5500
+Itemtype=Flashhider
 width=1
 height=1
 weight=0.050000

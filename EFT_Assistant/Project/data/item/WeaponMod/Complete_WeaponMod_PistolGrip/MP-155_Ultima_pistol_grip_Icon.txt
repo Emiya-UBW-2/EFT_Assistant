@@ -1,9 +1,8 @@
 IDstr=606eef46232e5a31c233d500
 Name=MP-155 Ultima pistol grip
 ShortName=Ultima
-Itemtype=Pistol grip
 Information_Eng=The "Ultima" modification pistol grip for the MP-155 shotgun. Manufactured by Kalashnikov Group.
-basePrice=2608
+Itemtype=Pistol grip
 width=2
 height=1
 weight=0.130000

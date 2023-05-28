@@ -1,9 +1,8 @@
 IDstr=5bfd36ad0db834001c38ef66
 Name=Mosin Rifle sawn-off stock
 ShortName=Mosin sawn-off
-Itemtype=Stock
 Information_Eng=A sawn-off wooden stock for the Mosin rifle. Compact and deadly.
-basePrice=1600
+Itemtype=Stock
 width=2
 height=1
 weight=0.800000

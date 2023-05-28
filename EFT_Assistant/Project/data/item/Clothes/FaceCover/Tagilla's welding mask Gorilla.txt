@@ -1,9 +1,8 @@
 IDstr=60a7ad3a0c5cb24b0134664a
 Name=Tagilla's welding mask "Gorilla"
 ShortName="Gorilla"
-Itemtype=Face Cover
 Information_Eng=An armored steel welding mask of Tagilla - the Bossman of Factory. Painted with the special "Gorilla" art.
-basePrice=135000
+Itemtype=Face Cover
 width=2
 height=2
 weight=1.500000

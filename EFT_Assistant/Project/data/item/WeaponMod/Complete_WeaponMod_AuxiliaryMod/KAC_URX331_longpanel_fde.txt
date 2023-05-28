@@ -1,9 +1,8 @@
 IDstr=5d124c0ed7ad1a10d168dd9b
 Name=KAC URX 3/3.1 long panel (FDE)
 ShortName=URX long
-Itemtype=Auxiliary Mod
 Information_Eng=A long rail cover for the URX 3/3.1 handguards, manufactured by Knight's Armament Company. Flat Dark Earth version.
-basePrice=1750
+Itemtype=Auxiliary Mod
 width=1
 height=1
 weight=0.005000

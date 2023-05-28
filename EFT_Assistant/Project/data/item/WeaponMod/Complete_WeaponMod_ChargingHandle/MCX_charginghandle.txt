@@ -1,9 +1,8 @@
 IDstr=5fbcc640016cce60e8341acc
 Name=MCX charging handle
 ShortName=MCX
-Itemtype=Charging handle
 Information_Eng=A standard charging handle for SIG Sauer MCX rifles and compatible systems.
-basePrice=733
+Itemtype=Charging handle
 width=1
 height=1
 weight=0.035000

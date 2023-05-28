@@ -1,9 +1,8 @@
 IDstr=59985a8086f77414ec448d1a
 Name=PP-19-01 "Vityaz" dust cover
 ShortName=Vityaz
-Itemtype=Receiver
 Information_Eng=A standard-issue dust cover for PP-19-01 Vityaz SMGs, manufactured by Izhmash.
-basePrice=1199
+Itemtype=Receiver
 width=2
 height=1
 weight=0.136000

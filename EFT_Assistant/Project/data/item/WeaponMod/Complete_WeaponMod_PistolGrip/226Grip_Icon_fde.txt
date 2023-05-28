@@ -1,9 +1,8 @@
 IDstr=57c9a89124597704ee6faec1
 Name=P226 Combat pistol grip (FDE)
 ShortName=P226 FDE
-Itemtype=Pistol grip
 Information_Eng=Brown Flat Dark Earth polymer SIG Sauer grip panels for P226 pistols. Used as the standard service grip on the Combat P226.
-basePrice=1247
+Itemtype=Pistol grip
 width=1
 height=1
 weight=0.090000

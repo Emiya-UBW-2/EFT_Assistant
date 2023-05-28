@@ -1,9 +1,8 @@
 IDstr=637ba29bf7ca6372bf2613db
 Name=SR-2M pistol grip (Black)
 ShortName=SR-2M
-Itemtype=Pistol grip
 Information_Eng=A standard-issue pistol grip for SR-2M "Veresk". Manufactured by TsNIItochmash. Black version.
-basePrice=900
+Itemtype=Pistol grip
 width=1
 height=1
 weight=0.070000

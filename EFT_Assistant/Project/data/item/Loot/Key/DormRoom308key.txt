@@ -1,15 +1,14 @@
 IDstr=5780cf722459777a5108b9a1
 Name=Dorm room 308 key
 ShortName=Dorm 308
-Itemtype=Mechanical Key
 Information_Eng=A key to the three-story dormitory with a tag reading "308" on it.
-basePrice=3500
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000
 Sell_Prapor=1750
 Sell_Therapist=2205
-Sell_Flea Market=45000
+Sell_Flea Market=75000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Customs

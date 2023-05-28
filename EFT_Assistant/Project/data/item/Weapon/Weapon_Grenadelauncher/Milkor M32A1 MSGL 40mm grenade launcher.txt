@@ -1,9 +1,8 @@
 IDstr=6275303a9f372d6ea97f9ec7
 Name=Milkor M32A1 MSGL 40mm grenade launcher
 ShortName=MSGL
-Itemtype=Revolver
 Information_Eng=M32A1 MSGL 40mm six-shot grenade launcher manufactured by Milkor USA. This grenade launcher uses the well-established principle of a revolver to achieve a high rate of accurate fire that can be quickly aimed at a target.
-basePrice=185000
+Itemtype=Revolver
 width=4
 height=1
 weight=3.300000

@@ -1,9 +1,8 @@
 IDstr=6389c8fb46b54c634724d847
 Name=Silicon Optoelectronic Integrated Circuits textbook
 ShortName=SOIC
-Itemtype=Info
 Information_Eng=A manual on silicon optoelectronic integrated circuits. A storehouse of knowledge for the theory and creation of microelectronics components.
-basePrice=500000
+Itemtype=Info
 width=1
 height=2
 weight=0.500000

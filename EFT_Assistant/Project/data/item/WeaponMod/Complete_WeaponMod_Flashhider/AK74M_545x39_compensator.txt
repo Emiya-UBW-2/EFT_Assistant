@@ -1,9 +1,8 @@
 IDstr=5ac7655e5acfc40016339a19
 Name=AK-74M 5.45x39 muzzle brake-compensator (6P20 0-20)
 ShortName=6P20 0-20
-Itemtype=Flashhider
 Information_Eng=A standard Izhmash-produced muzzle brake and compensator for the AK-74M.
-basePrice=602
+Itemtype=Flashhider
 width=1
 height=1
 weight=0.100000

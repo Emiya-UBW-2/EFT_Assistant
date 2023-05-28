@@ -1,10 +1,9 @@
 IDstr=609b9e31506cf869cf3eaf41
 Name=VOMZ Pilad TargetRing reflex sight
 ShortName=TargetRing
-Itemtype=Reflex sight
 Information_Eng=Designed for hunting birds or small game, for sport shooting at stationary or fast-moving targets. Ideal for this purpose, it creates a contrasting circle on the target, giving the shooter an opportunity to make the pre-direction and not to lose speed.
 It is mounted only on smoothbore (shotgun) weapons.
-basePrice=8767
+Itemtype=Reflex sight
 width=1
 height=1
 weight=0.210000
@@ -13,7 +12,7 @@ Sell_Fence=3506
 Sell_Skier=4295
 Sell_Peacekeeper=33
 Sell_Mechanic=4909
-Sell_Flea Market=11111
+Sell_Flea Market=10000
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
 SightRange=0

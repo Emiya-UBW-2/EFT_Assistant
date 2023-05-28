@@ -1,9 +1,8 @@
 IDstr=5f60c74e3b85f6263c145586
 Name=Rys-T bulletproof helmet
 ShortName=Rys-T
-Itemtype=Headwear
 Information_Eng=The "Rys-T" ("Lynx-T") armored helmet is an improved and lightweight version of the famous "Altyn" helmet. It is in service with the assault units of the Ministry of Internal Affairs of Russia. Can be equipped with a special armored visor.
-basePrice=198327
+Itemtype=Headwear
 width=2
 height=2
 weight=2.500000

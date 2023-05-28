@@ -1,9 +1,8 @@
 IDstr=55d4491a4bdc2d882f8b456e
 Name=MP-133 12ga 510mm barrel
 ShortName=MP133 510mm
-Itemtype=Barrel
 Information_Eng=A standard factory-produced 510mm barrel for MP-133 12 gauge shotguns.
-basePrice=4006
+Itemtype=Barrel
 width=3
 height=1
 weight=0.800000

@@ -1,9 +1,8 @@
 IDstr=602e63fb6335467b0c5ac94d
 Name=STM-9 9x19 upper receiver
 ShortName=STM-9
-Itemtype=Receiver
 Information_Eng=An upper receiver for the STM-9 9x19 carbine. Equipped with a mount for attaching additional tactical devices.
-basePrice=4198
+Itemtype=Receiver
 width=2
 height=1
 weight=0.270000

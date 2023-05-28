@@ -1,9 +1,8 @@
 IDstr=60db29ce99594040e04c4a27
 Name=MTs-255-12 12ga shotgun
 ShortName=MTs-255-12
-Itemtype=Revolver
 Information_Eng=MTs-255-12 is a unique for Russian market 12 gauge revolver shotgun.
-basePrice=9600
+Itemtype=Revolver
 width=2
 height=1
 weight=1.100000

@@ -1,9 +1,8 @@
 IDstr=6391fcf5744e45201147080f
 Name=Primorsky Ave apartment key
 ShortName=Primorsky
-Itemtype=Mechanical Key
 Information_Eng=Choreographer key at Primorsky 48.
-basePrice=5000
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000

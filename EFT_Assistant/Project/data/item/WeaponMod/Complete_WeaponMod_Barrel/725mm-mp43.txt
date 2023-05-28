@@ -1,9 +1,8 @@
 IDstr=55d447bb4bdc2d892f8b456f
 Name=MP-43-1C 12ga 725mm barrel
 ShortName=MP-43 725mm
-Itemtype=Barrel
 Information_Eng=A 725mm long 12 gauge barrel for the MP-43-1C double-barrelled shotgun.
-basePrice=3500
+Itemtype=Barrel
 width=5
 height=1
 weight=2.200000

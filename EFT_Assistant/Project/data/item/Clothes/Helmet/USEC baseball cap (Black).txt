@@ -1,9 +1,8 @@
 IDstr=5b40e61f5acfc4001a599bec
 Name=USEC baseball cap (Black)
 ShortName=USEC
-Itemtype=Headwear
 Information_Eng=A tactical USEC PMC baseball cap. Black version.
-basePrice=1732
+Itemtype=Headwear
 width=1
 height=1
 weight=0.100000

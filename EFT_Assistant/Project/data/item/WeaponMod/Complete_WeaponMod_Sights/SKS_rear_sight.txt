@@ -1,9 +1,8 @@
 IDstr=574db213245977459a2f3f5d
 Name=SKS rear sight
 ShortName=SKS RS
-Itemtype=Ironsight
 Information_Eng=A standard ramp-type rear sight for SKS carbines.
-basePrice=300
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.025000

@@ -1,9 +1,8 @@
 IDstr=6196365d58ef8c428c287da1
 Name=.300 Whisper
 ShortName=Whisper
-Itemtype=Ammo
 Information_Eng=The Whisper cartridge is a lightweight, hyper velocity design using an aluminum core and pre-stressed jacket. The aluminum core initiates the expansion slightly after contact, pressing back into the pre-stressed jacket and activating a violent, incapacitating energy transfer. The cartridge is ideal for close fire contacts of unarmored and/or lightly armored targets. Not to be mistaken for .300 Blackout, since Whisper was developed almost 20 years before it.
-basePrice=94
+Itemtype=Ammo
 width=1
 height=1
 weight=0.015000

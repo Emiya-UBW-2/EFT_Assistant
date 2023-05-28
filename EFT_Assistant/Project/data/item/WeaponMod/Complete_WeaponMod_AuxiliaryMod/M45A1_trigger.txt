@@ -1,9 +1,8 @@
 IDstr=5f3e772a670e2a7b01739a52
 Name=M45A1 trigger
 ShortName=M45A1 trig.
-Itemtype=Auxiliary Mod
 Information_Eng=A standard-issue trigger for the M45A1 pistol, manufactured by Colt.
-basePrice=550
+Itemtype=Auxiliary Mod
 width=1
 height=1
 weight=0.013000

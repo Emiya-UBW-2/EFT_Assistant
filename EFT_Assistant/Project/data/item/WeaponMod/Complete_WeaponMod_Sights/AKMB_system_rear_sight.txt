@@ -1,9 +1,8 @@
 IDstr=5a0eb980fcdbcb001a3b00a6
 Name=AKMB system rear sight
 ShortName=AKMB RS
-Itemtype=Ironsight
 Information_Eng=A special rear sight leaf for use with PBS-1 and the “US” cartridge of the AKMB (AKMSB) arms system.
-basePrice=471
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.035000

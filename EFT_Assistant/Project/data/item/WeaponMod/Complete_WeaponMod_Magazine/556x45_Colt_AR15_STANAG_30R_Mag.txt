@@ -1,10 +1,9 @@
 IDstr=55d4887d4bdc2d962f8b4570
 Name=5.56x45 Colt AR-15 STANAG 30-round magazine
 ShortName=STANAG
-Itemtype=Magazine
 Information_Eng=A 30-round metal Colt AR-15 magazine designed in compliance with the STANAG 4179 standard for 5.56x45 ammo.
 The STANAG 4179 standard was approved by NATO members in 1980 for the unification of allied personnel ammo and magazines.
-basePrice=2012
+Itemtype=Magazine
 width=1
 height=2
 weight=0.117000
@@ -13,7 +12,7 @@ Sell_Fence=804
 Sell_Skier=985
 Sell_Peacekeeper=8
 Sell_Mechanic=1126
-Sell_Flea Market=8000
+Sell_Flea Market=8888
 fleaMarketFee=0
 propertiestype=ItemPropertiesMagazine
 Recoil=0.000000

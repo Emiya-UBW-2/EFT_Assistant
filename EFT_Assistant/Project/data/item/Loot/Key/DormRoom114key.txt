@@ -1,15 +1,14 @@
 IDstr=59387a4986f77401cc236e62
 Name=Dorm room 114 key
 ShortName=Dorm 114
-Itemtype=Mechanical Key
 Information_Eng=A key to the two-story dormitory with a tag reading "114" on it.
-basePrice=21050
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000
 Sell_Prapor=10525
 Sell_Therapist=13261
-Sell_Flea Market=280000
+Sell_Flea Market=269000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Customs

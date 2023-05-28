@@ -1,9 +1,8 @@
 IDstr=5894a81786f77427140b8347
 Name=MPX flip-up rear sight
 ShortName=MPX RS
-Itemtype=Ironsight
 Information_Eng=A detachable flip-up rear sight for MPX SMGs, installed on the mount. Manufactured by SIG Sauer.
-basePrice=802
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.140000

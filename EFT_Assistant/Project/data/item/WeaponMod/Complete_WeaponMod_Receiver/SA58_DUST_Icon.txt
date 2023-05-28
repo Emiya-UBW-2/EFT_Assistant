@@ -1,9 +1,8 @@
 IDstr=5b099bb25acfc400186331e8
 Name=SA-58 Extreme Duty dust cover
 ShortName=SA58 ED
-Itemtype=Receiver
 Information_Eng=The Extreme Duty dust cover with an integrated Picatinny rail for SA-58 assault rifles, manufactured by DS Arms.
-basePrice=11568
+Itemtype=Receiver
 width=2
 height=1
 weight=0.215000

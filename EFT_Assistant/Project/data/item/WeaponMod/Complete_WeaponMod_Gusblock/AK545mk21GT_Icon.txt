@@ -1,9 +1,8 @@
 IDstr=628b8d83717774443b15e248
 Name=AK-545 SAG Mk. 2.1 gas tube
 ShortName=SAG Mk.2.1
-Itemtype=Gas block
 Information_Eng=The Mk. 2.1 gas tube for AK-545 carbines manufactured by Sureshot Armament Group.
-basePrice=2300
+Itemtype=Gas block
 width=1
 height=1
 weight=0.100000

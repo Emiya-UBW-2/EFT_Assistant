@@ -1,9 +1,8 @@
 IDstr=61817865d3a39d50044c13a4
 Name=FN SCAR flip-up rear sight
 ShortName=SCAR RS
-Itemtype=Ironsight
 Information_Eng=A removable flip-up rear sight for the SCAR-series assault rifles. Manufactured by Fabrique Nationale Herstal.
-basePrice=3900
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.036000

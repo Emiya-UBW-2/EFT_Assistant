@@ -1,9 +1,8 @@
 IDstr=5d0b5cd3d7ad1a3fe32ad263
 Name=KMZ 1P59 scope eyecup
 ShortName=1P59 cup
-Itemtype=Auxiliary Mod
 Information_Eng=A rubber eyecup for the KMZ 1P59 scope.
-basePrice=576
+Itemtype=Auxiliary Mod
 width=1
 height=1
 weight=0.005000

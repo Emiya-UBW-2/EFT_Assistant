@@ -1,9 +1,8 @@
 IDstr=62444cb99f47004c781903eb
 Name=HK G36 bottom handguard rail
 ShortName=G36 bott
-Itemtype=Mount
 Information_Eng=A bottom rail for the G36 handguards, allows installation of various tactical foregrips.
-basePrice=1573
+Itemtype=Mount
 width=1
 height=1
 weight=0.070000

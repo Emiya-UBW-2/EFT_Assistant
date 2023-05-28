@@ -1,9 +1,8 @@
 IDstr=62e292e7b6c0ee2f230cee00
 Name=SR-2M folding stock
 ShortName=SR-2M
-Itemtype=Stock
 Information_Eng=A folding stock for SR-2M submachine gun, manufactured by TsNIItochmash. The buttstock has a spring-loaded butt plate which reduces the time it takes to shoulder the weapon.
-basePrice=1557
+Itemtype=Stock
 width=2
 height=1
 weight=0.210000

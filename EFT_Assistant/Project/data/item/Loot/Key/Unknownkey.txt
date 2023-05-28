@@ -1,9 +1,9 @@
-IDstr=593962ca86f774068014d9af
+Map=Customs
+a86f774068014d9af
 Name=Unknown key
 ShortName=Unknown
-Itemtype=Mechanical Key
 Information_Eng=A key found on the dead messenger's body. The lock location is unknown.
-basePrice=1604
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000

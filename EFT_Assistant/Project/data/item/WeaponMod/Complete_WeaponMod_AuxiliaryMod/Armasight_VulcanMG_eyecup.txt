@@ -1,9 +1,8 @@
 IDstr=5b3cbc235acfc4001863ac44
 Name=Armasight Vulcan MG scope eyecup
 ShortName=Vulcan MG
-Itemtype=Auxiliary Mod
 Information_Eng=A rubber eyecup for the Vulcan MG riflescope, manufactured by Armasight.
-basePrice=704
+Itemtype=Auxiliary Mod
 width=1
 height=1
 weight=0.005000

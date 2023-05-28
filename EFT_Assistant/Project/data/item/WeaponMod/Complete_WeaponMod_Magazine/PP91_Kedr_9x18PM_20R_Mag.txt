@@ -1,9 +1,8 @@
 IDstr=57d14e1724597714010c3f4b
 Name=PP-91 "Kedr" 9x18PM 20-round magazine
 ShortName=PP91
-Itemtype=Magazine
 Information_Eng=A standard 20-round capacity metal magazine for PP-91 Kedr-based 9x18PM SMGs, manufactured by ZMZ.
-basePrice=1502
+Itemtype=Magazine
 width=1
 height=1
 weight=0.103000

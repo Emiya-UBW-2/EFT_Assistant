@@ -1,9 +1,8 @@
 IDstr=5de655be4a9f347bc92edb88
 Name=VPO-215 "Gornostay" stock
 ShortName=VPO-215
-Itemtype=Stock
 Information_Eng=A standard-issue stock for the VPO-215 "Gornostay" rifle.
-basePrice=2350
+Itemtype=Stock
 width=4
 height=1
 weight=1.250000

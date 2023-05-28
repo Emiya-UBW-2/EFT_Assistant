@@ -1,15 +1,14 @@
 IDstr=59e3577886f774176a362503
 Name=Pack of sugar
 ShortName=Sugar
-Itemtype=Food
 Information_Eng=A packet of lump sugar. A rare thing in conditions of total food shortage. It is also used in brewing.
-basePrice=21489
+Itemtype=Food
 width=1
 height=1
 weight=0.500000
 Sell_Therapist=13538
 Sell_Fence=8595
 Sell_Jaeger=12893
-Sell_Flea Market=45555
+Sell_Flea Market=50000
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink

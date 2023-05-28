@@ -1,9 +1,8 @@
 IDstr=6193d3be7c6c7b169525f0da
 Name=HK USP hammer
 ShortName=USP ham.
-Itemtype=Auxiliary Mod
 Information_Eng=A standard-issue hammer for the USP pistol, manufactured by Heckler & Koch.
-basePrice=750
+Itemtype=Auxiliary Mod
 width=1
 height=1
 weight=0.017000

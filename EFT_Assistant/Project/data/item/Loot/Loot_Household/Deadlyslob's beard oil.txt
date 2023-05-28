@@ -1,14 +1,13 @@
 IDstr=5bc9b9ecd4351e3bac122519
 Name=Deadlyslob's beard oil
 ShortName=BeardOil
-Itemtype=Household goods
 Information_Eng=The "DeadlySlob's" brand specialized beard oil with a maple syrop flavor. Fancy and rare!
-basePrice=55449
+Itemtype=Household goods
 width=1
 height=1
 weight=0.060000
 Sell_Therapist=34932
 Sell_Fence=22179
-Sell_Flea Market=35000
+Sell_Flea Market=34000
 fleaMarketFee=0
 propertiestype=

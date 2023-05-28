@@ -1,9 +1,8 @@
 IDstr=62e2a754b6c0ee2f230cee0f
 Name=SR-2M 9x21 hand stopper
 ShortName=SR-2M
-Itemtype=Comb. muzzle device
 Information_Eng=A hand stopper for the barrel of the SR-2M "Veresk" 9x21 submachine gun. Manufactured by TsNIItochmash. Protects the shooter's hand from moving forward and getting possible burns by powder gases.
-basePrice=3000
+Itemtype=Comb. muzzle device
 width=1
 height=1
 weight=0.087000

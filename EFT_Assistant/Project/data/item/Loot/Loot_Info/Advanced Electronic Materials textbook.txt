@@ -1,9 +1,8 @@
 IDstr=6389c92d52123d5dd17f8876
 Name=Advanced Electronic Materials textbook
 ShortName=AEM
-Itemtype=Info
 Information_Eng=A textbook for advanced electronic materials and components. A rare and important manual for the production of microelectronics.
-basePrice=490000
+Itemtype=Info
 width=1
 height=2
 weight=0.500000

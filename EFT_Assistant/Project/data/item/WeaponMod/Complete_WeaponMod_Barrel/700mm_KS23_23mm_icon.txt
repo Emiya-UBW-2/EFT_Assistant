@@ -1,9 +1,8 @@
 IDstr=5e848d2eea0a7c419c2f9bfd
 Name=KS-23 23x75 700mm barrel
 ShortName=KS23 700mm
-Itemtype=Barrel
 Information_Eng=A 700mm long barrel for the KS-23 23x75mm pump-action shotgun.
-basePrice=7403
+Itemtype=Barrel
 width=5
 height=1
 weight=1.230000

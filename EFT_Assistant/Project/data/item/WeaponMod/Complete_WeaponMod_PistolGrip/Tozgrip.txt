@@ -1,9 +1,8 @@
 IDstr=5a38eecdc4a282329a73b512
 Name=TOZ-106 002 pistol grip
 ShortName=TOZ106
-Itemtype=Pistol grip
 Information_Eng=The TOZ 002 pistol grip for the TOZ-106 bolt-action shotgun.
-basePrice=729
+Itemtype=Pistol grip
 width=1
 height=1
 weight=0.070000

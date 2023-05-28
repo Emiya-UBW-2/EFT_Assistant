@@ -1,15 +1,14 @@
 IDstr=5780cf692459777de4559321
 Name=Dorm room 315 key
 ShortName=Dorm 315
-Itemtype=Mechanical Key
 Information_Eng=A key to the three-story dormitory with a tag reading "315" on it.
-basePrice=2526
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000
 Sell_Prapor=1263
 Sell_Therapist=1591
-Sell_Flea Market=11111
+Sell_Flea Market=55555
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Customs

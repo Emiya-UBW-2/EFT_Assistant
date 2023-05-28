@@ -1,9 +1,8 @@
 IDstr=61f7b85367ddd414173fdb36
 Name=MP-18 wooden handguard
 ShortName=MP18 wood
-Itemtype=Handguard
 Information_Eng=A wooden handguard for MP-18 hunting rifles. Manufactured by IzhMekh.
-basePrice=2000
+Itemtype=Handguard
 width=2
 height=1
 weight=0.182000

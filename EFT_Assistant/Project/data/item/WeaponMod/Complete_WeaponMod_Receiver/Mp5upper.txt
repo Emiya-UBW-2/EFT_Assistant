@@ -1,9 +1,8 @@
 IDstr=5926c0df86f77462f647f764
 Name=HK MP5 9x19 upper receiver
 ShortName=MP5
-Itemtype=Receiver
 Information_Eng=A standard upper receiver for MP5 SMGs, manufactured by Heckler & Koch.
-basePrice=3270
+Itemtype=Receiver
 width=2
 height=1
 weight=0.588000

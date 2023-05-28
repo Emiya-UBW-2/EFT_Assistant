@@ -1,7 +1,7 @@
 IDstr=5c0647fdd443bc2504c2d371
 Name=Jaeger
-Color=[255/|128/|1]
 Information_Eng=Before the conflict, he worked as a hunter in the Priozersk Natural Reserve under the State Hunting Service. A professional hunter and survival specialist. Even now, he still guards the reserve's hunting grounds from various aggressive individuals.
+Color=[255/|128/|1]
 PayItem=Roubles
 Lv1NeedLv=1
 Lv1Reputation=0.000000

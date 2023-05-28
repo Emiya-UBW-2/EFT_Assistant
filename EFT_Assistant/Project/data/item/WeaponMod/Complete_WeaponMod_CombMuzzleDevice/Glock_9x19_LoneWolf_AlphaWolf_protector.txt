@@ -1,9 +1,8 @@
 IDstr=5a6b585a8dc32e5a9c28b4f1
 Name=Glock 9x19 Lone Wolf AlphaWolf thread protector
 ShortName=G AW thr.
-Itemtype=Comb. muzzle device
 Information_Eng=A thread protector for threaded barrels of Glock Alpha Wolf pistols produced by Lone Wolf.
-basePrice=703
+Itemtype=Comb. muzzle device
 width=1
 height=1
 weight=0.010000

@@ -1,15 +1,14 @@
 IDstr=5a1452ee86f7746f33111763
 Name=Health Resort west wing room 222 key
 ShortName=W222 San
-Itemtype=Mechanical Key
 Information_Eng=A key to the Azure Coast sanatorium west wing room 222.
-basePrice=90000
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000
 Sell_Prapor=45000
 Sell_Therapist=56700
-Sell_Flea Market=74122
+Sell_Flea Market=62000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Shoreline

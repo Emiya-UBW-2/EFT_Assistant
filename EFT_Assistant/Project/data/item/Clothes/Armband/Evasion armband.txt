@@ -1,15 +1,14 @@
 IDstr=60b0f988c4449e4cb624c1da
 Name=Evasion armband
 ShortName=Evasion
-Itemtype=Arm Band
 Information_Eng=A special identification armband from Evasion, a local esports tournament by Sigma.
-basePrice=45000
+Itemtype=Arm Band
 width=1
 height=1
 weight=0.050000
 Sell_Fence=18000
 Sell_Skier=22050
 Sell_Ragman=27900
-Sell_Flea Market=27899
+Sell_Flea Market=27999
 fleaMarketFee=0
 propertiestype=

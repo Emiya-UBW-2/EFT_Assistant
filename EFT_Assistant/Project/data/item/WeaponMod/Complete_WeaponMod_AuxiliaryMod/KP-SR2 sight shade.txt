@@ -1,9 +1,8 @@
 IDstr=62ff9faffe938a24c90c10df
 Name=KP-SR2 sight shade
 ShortName=KP-SR2
-Itemtype=Auxiliary Mod
 Information_Eng=A sight shade for the KP-SR2 reflex sight. Protects the lens against mechanical impacts and suppresses flaring. Manufactured by TsNIItochmash.
-basePrice=600
+Itemtype=Auxiliary Mod
 width=1
 height=1
 weight=0.005000

@@ -1,9 +1,8 @@
 IDstr=5c48a2a42e221602b66d1e07
 Name=Desert Tech 5.56x45 flash hider
 ShortName=MDR 556
-Itemtype=Flashhider
 Information_Eng=A flash hider developed by Desert Tech specifically for the MDR 5.56x45 assault rifles.
-basePrice=4230
+Itemtype=Flashhider
 width=1
 height=1
 weight=0.200000

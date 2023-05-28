@@ -1,9 +1,8 @@
 IDstr=602f85fd9b513876d4338d9c
 Name=STM-9 magwell
 ShortName=STM9 mwell
-Itemtype=Auxiliary Mod
 Information_Eng=A regular magazine well for the Soyuz-TM STM-9 carbine.
-basePrice=1276
+Itemtype=Auxiliary Mod
 width=1
 height=1
 weight=0.050000

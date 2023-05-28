@@ -1,15 +1,14 @@
 IDstr=544a5cde4bdc2d39388b456b
 Name=Flyye MBSS backpack
 ShortName=MBSS
-Itemtype=Backpack
 Information_Eng=An extra durable backpack made from 1000D Cordura with a separate pocket for a water bladder and a MOLLE attachment system on the sides.
-basePrice=11257
+Itemtype=Backpack
 width=4
 height=4
 weight=1.100000
 Sell_Fence=4502
 Sell_Ragman=6979
 Sell_Jaeger=6754
-Sell_Flea Market=12000
+Sell_Flea Market=13420
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack

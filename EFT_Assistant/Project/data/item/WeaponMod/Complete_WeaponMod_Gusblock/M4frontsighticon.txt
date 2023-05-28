@@ -1,9 +1,8 @@
 IDstr=5ae30e795acfc408fb139a0b
 Name=M4A1 front sight with gas block
 ShortName=M4A1
-Itemtype=Gas block
 Information_Eng=A standard-issue front sight with gas block for M4A1 assault rifles, manufactured by Colt.
-basePrice=2570
+Itemtype=Gas block
 width=1
 height=1
 weight=0.150000

@@ -1,9 +1,8 @@
 IDstr=5bfebc320db8340019668d79
 Name=M700 7.62x51 20 inch threaded barrel
 ShortName=M700 20"
-Itemtype=Barrel
 Information_Eng=A 20 inches (508mm) long threaded barrel for Remington Model 700 sniper rifle chambered in 7.62x51 NATO ammo.
-basePrice=22200
+Itemtype=Barrel
 width=3
 height=1
 weight=1.200000

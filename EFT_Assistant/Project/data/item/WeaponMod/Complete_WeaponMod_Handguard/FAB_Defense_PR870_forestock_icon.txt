@@ -1,9 +1,8 @@
 IDstr=5a788031c585673f2b5c1c79
 Name=M870 FAB Defense PR-870 forestock
 ShortName=PR-870
-Itemtype=Handguard
 Information_Eng=The PR-870 handguard by FAB Defense, made for the Remington Model 870 shotgun. Also has Weaver rails for mounting additional accessories and foregrips.
-basePrice=2051
+Itemtype=Handguard
 width=2
 height=1
 weight=0.800000

@@ -1,9 +1,8 @@
 IDstr=6194f2912d2c397d6600348d
 Name=HK USP rear sight
 ShortName=USP RS
-Itemtype=Ironsight
 Information_Eng=A standard-issue rear sight for the USP pistol, manufactured by Heckler & Koch.
-basePrice=700
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.004000

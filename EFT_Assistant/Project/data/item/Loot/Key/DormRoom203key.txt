@@ -1,15 +1,14 @@
 IDstr=5938504186f7740991483f30
 Name=Dorm room 203 key
 ShortName=Dorm 203
-Itemtype=Mechanical Key
 Information_Eng=A key to the three-story dormitory with a tag reading "203" on it.
-basePrice=3570
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000
 Sell_Prapor=1785
 Sell_Therapist=2249
-Sell_Flea Market=23000
+Sell_Flea Market=12000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Customs

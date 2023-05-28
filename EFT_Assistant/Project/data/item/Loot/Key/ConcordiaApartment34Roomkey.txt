@@ -1,15 +1,14 @@
 IDstr=63a71e781031ac76fe773c7d
 Name=Concordia apartment 34 room key
 ShortName=Concd 34
-Itemtype=Mechanical Key
 Information_Eng=A key to one of the rooms in apartment 34 inside the Concordia building.
-basePrice=12234
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000
 Sell_Prapor=6117
 Sell_Therapist=7707
-Sell_Flea Market=8000
+Sell_Flea Market=12000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Streets of Tarkov

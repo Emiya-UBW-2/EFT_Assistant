@@ -1,9 +1,8 @@
 IDstr=5bfea7ad0db834001c38f1ee
 Name=M700 7.62x51 Wyatt's Outdoor 5-round magazine
 ShortName=Wyatt
-Itemtype=Magazine
 Information_Eng=A Remington M700 sniper rifle 5-round magazine by Wyatt's Outdoor, for 7.62x51 cartridges.
-basePrice=1850
+Itemtype=Magazine
 width=1
 height=1
 weight=0.500000

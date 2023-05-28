@@ -1,15 +1,14 @@
 IDstr=5d9f1fa686f774726974a992
 Name=RB-ST key
 ShortName=RB-ST
-Itemtype=Mechanical Key
 Information_Eng=A key to the iron door in the Federal State Reserve Agency base military machinery and equipment repair center.
-basePrice=95021
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000
 Sell_Prapor=47510
 Sell_Therapist=59863
-Sell_Flea Market=80000
+Sell_Flea Market=78000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Reserve

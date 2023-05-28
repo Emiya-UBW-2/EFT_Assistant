@@ -1,15 +1,14 @@
 IDstr=57347d9c245977448b40fa85
 Name=Can of herring
 ShortName=Herring
-Itemtype=Food
 Information_Eng=Canned herring, probably the lightest meal among canned fish, is rich with calcium and magnesium.
-basePrice=16948
+Itemtype=Food
 width=1
 height=1
 weight=0.280000
 Sell_Therapist=10677
 Sell_Fence=6779
 Sell_Jaeger=10168
-Sell_Flea Market=18000
+Sell_Flea Market=17666
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink

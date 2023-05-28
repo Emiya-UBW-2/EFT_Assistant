@@ -1,9 +1,8 @@
 IDstr=6194f2df645b5d229654ad77
 Name=HK USP Tactical rear sight
 ShortName=USPT RS
-Itemtype=Ironsight
 Information_Eng=A rear sight for the special version of the USP pistol - USP Tactical. Manufactured by Heckler & Koch.
-basePrice=800
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.008000

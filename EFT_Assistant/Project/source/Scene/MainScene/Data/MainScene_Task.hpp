@@ -259,9 +259,7 @@ namespace FPS_n2 {
 		}
 		void			WhenAfterLoad_Sub() noexcept override {}
 
-		void			SetNeedTasktoID() noexcept {
-			m_TaskNeedData.SetNeedTasktoID();
-		}
+		void			SetNeedTasktoID() noexcept { m_TaskNeedData.SetNeedTasktoID(); }
 		const int		Draw(int xp, int yp, int xsize, int ysize) const noexcept;
 		void			DrawWindow(WindowSystem::WindowControl* window, int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept {
 			auto* WindowMngr = WindowSystem::WindowManager::Instance();
@@ -923,27 +921,22 @@ namespace FPS_n2 {
 		void InitDatabyJson() noexcept {
 			TraderIDs.resize(TraderData::Instance()->GetList().size());
 			for (auto&i : TraderIDs) { i = 0; }
+			ResetDataJson();
 		}
-		void SaveDatabyJson() noexcept {
+		void UpdateData(int ofset, int size) noexcept {
 			for (auto& L : this->m_List) {
-				for (auto& jd : GetJsonDataList()) {
+				for (int loop = ofset; loop < ofset + size; loop++) {
+					if (loop >= (int)GetJsonDataList().size()) { break; }
+					auto& jd = GetJsonDataList().at(loop);
 					if (L.GetIDstr() == jd->m_id) {
 						L.m_CheckJson++;
-
 						jd->OutputData(L.GetFilePath());
-
-						//Šù‘¶‚Ì‚à‚Ì‚ğ•Û‚µ‚Ä‚¨‚­
-						std::ofstream outputfile(L.GetFilePath(), std::ios::app);
-						for (const auto& p : L.GetTaskWorkData().GetPin()) {
-							outputfile << "Task_PinPoint=[" + std::to_string(p.m_Point.x()) + DIV_STR + std::to_string(p.m_Point.y()) + DIV_STR + std::to_string(p.m_Point.z()) + "]\n";
-							outputfile << "Task_PinMap=[" + MapData::Instance()->FindPtr(p.m_MapID)->GetName() + DIV_STR + std::to_string(p.m_MapSel) + "]\n";
-						}
-						outputfile.close();
 						break;
 					}
 				}
 			}
-
+		}
+		void SaveAsNewData2(std::string Path) noexcept {
 			bool maked = false;
 			std::vector<bool> maked_t;
 			maked_t.resize(TraderData::Instance()->GetList().size());
@@ -952,7 +945,7 @@ namespace FPS_n2 {
 			for (auto& jd : GetJsonDataList()) {
 				TraderID trID = (dynamic_cast<TaskJsonData*>(jd.get()))->traderID;
 				if (!jd->m_IsFileOpened && (trID != InvalidID)) {
-					std::string ParentPath = "data/task/Maked/";
+					std::string ParentPath = Path;
 					if (!maked) {
 						CreateDirectory(ParentPath.c_str(), NULL);
 						maked = true;
@@ -984,6 +977,21 @@ namespace FPS_n2 {
 			}
 		}
 		void CheckThroughJson(void) noexcept {
+			for (auto& L : this->m_List) {
+				for (auto& jd : GetJsonDataList()) {
+					if (L.GetIDstr() == jd->m_id) {
+						//Šù‘¶‚Ì‚à‚Ì‚ğ•Û‚µ‚Ä‚¨‚­
+						std::ofstream outputfile(L.GetFilePath(), std::ios::app);
+						for (const auto& p : L.GetTaskWorkData().GetPin()) {
+							outputfile << "Task_PinPoint=[" + std::to_string(p.m_Point.x()) + DIV_STR + std::to_string(p.m_Point.y()) + DIV_STR + std::to_string(p.m_Point.z()) + "]\n";
+							outputfile << "Task_PinMap=[" + MapData::Instance()->FindPtr(p.m_MapID)->GetName() + DIV_STR + std::to_string(p.m_MapSel) + "]\n";
+						}
+						outputfile.close();
+						break;
+					}
+				}
+			}
+
 			for (auto& t : this->m_List) {
 				if (t.m_CheckJson == 0) {
 					std::string ErrMes = "Error : ThroughJson : ";
@@ -1002,6 +1010,5 @@ namespace FPS_n2 {
 				}
 			}
 		}
-
 	};
 };

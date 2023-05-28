@@ -1,9 +1,8 @@
 IDstr=5d6e695fa4b936359b35d852
 Name=20/70 5.6mm buckshot
 ShortName=5.6mm
-Itemtype=Ammo
 Information_Eng=A 20/70 gauge shell loaded with 5.6mm buckshot.
-basePrice=20
+Itemtype=Ammo
 width=1
 height=1
 weight=0.028000

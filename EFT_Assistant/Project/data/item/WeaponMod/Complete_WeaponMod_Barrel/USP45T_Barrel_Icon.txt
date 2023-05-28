@@ -1,9 +1,8 @@
 IDstr=6194efe07c6c7b169525f11b
 Name=HK USP Tactical .45 ACP threaded barrel
 ShortName=USP45T
-Itemtype=Barrel
 Information_Eng=A 129mm threaded barrel for the special version of the USP pistol - USP Tactical, chambered in .45 ACP. Manufactured by Heckler & Koch.
-basePrice=2900
+Itemtype=Barrel
 width=1
 height=1
 weight=0.122000

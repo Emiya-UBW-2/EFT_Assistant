@@ -1,9 +1,8 @@
 IDstr=5c066ef40db834001966a595
 Name=Armasight NVG head strap
 ShortName=NVG strap
-Itemtype=Headwear
 Information_Eng=A standard head strap mounting system for various Armasight devices.
-basePrice=19100
+Itemtype=Headwear
 width=2
 height=2
 weight=0.400000

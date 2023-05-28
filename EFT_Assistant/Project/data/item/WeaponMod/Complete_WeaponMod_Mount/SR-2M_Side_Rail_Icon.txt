@@ -1,9 +1,8 @@
 IDstr=62ed1921b3608410ef5a2c04
 Name=SR-2M side rail
 ShortName=SR-2M
-Itemtype=Mount
 Information_Eng=A side rail for SR-2M "Veresk" that allows installation of additional tactical equipment.
-basePrice=1200
+Itemtype=Mount
 width=1
 height=1
 weight=0.060000

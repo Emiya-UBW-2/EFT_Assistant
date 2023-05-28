@@ -1,9 +1,8 @@
 IDstr=6259c3d8012d6678ec38eeb8
 Name=Benelli M3 telescopic stock pistol grip
 ShortName=M3 PGrip
-Itemtype=Pistol grip
 Information_Eng=A special pistol grip for M3 telescopic stocks manufactured by Benelli.
-basePrice=2100
+Itemtype=Pistol grip
 width=1
 height=1
 weight=0.135000

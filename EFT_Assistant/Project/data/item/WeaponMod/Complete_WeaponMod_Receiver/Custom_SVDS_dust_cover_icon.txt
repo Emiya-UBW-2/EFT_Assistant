@@ -1,9 +1,8 @@
 IDstr=5dfce88fe9dc277128008b2e
 Name=SVDS custom cut dust cover
 ShortName=SVDS CDC
-Itemtype=Receiver
 Information_Eng=A custom cut-off dust cover for SVDS sniper rifles, required for installation of the MK1 Freefloat chassis by Sureshot Armament Group.
-basePrice=1450
+Itemtype=Receiver
 width=2
 height=1
 weight=0.050000

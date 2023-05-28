@@ -1,9 +1,8 @@
 IDstr=5bfe86bd0db83400232fe959
 Name=FAB Defense protection cap for AGR-870
 ShortName=AGR-870 cap
-Itemtype=Auxiliary Mod
 Information_Eng=The FAB Defense protection cap for the AGR-870 pistol grip.
-basePrice=258
+Itemtype=Auxiliary Mod
 width=1
 height=1
 weight=0.005000

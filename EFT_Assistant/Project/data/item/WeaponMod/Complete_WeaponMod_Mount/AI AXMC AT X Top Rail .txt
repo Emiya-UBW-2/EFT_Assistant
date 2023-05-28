@@ -1,9 +1,8 @@
 IDstr=628120c21d5df4475f46a337
 Name=AI AXMC AT X Top Rail 
 ShortName=AXMC top
-Itemtype=Mount
 Information_Eng=A top handguard rail for installation on the KeySlot interface for the AXMC sniper rifle, manufactured by Accuracy International.
-basePrice=1531
+Itemtype=Mount
 width=3
 height=1
 weight=0.070000

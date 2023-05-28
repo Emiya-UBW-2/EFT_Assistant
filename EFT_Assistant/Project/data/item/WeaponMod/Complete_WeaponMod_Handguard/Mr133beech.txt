@@ -1,9 +1,8 @@
 IDstr=55d45d3f4bdc2d972f8b456c
 Name=MP-133 beechwood forestock
 ShortName=MP133 beech
-Itemtype=Handguard
 Information_Eng=A standard Izhmekh-manufactured forestock, designed for MP-133 shotguns and made out of beechwood.
-basePrice=1529
+Itemtype=Handguard
 width=2
 height=1
 weight=0.800000

@@ -1,9 +1,8 @@
 IDstr=5735fdcd2459776445391d61
 Name=7.62x25mm TT AKBS
 ShortName=AKBS
-Itemtype=Ammo
 Information_Eng=A 7.62x25mm Tokarev cartridge with a 5.5 gram non-magnetic bullet in a brass case; intended for sport shooting and hunting. This cartridge is manufactured with superior attention to detail, giving the shooter more benefits in relation to other cartridges of the same caliber used by the military, such as a reduction in recoil without altering its muzzle velocity and granting considerable damage to the target, making it ideal for the hunting.
-basePrice=49
+Itemtype=Ammo
 width=1
 height=1
 weight=0.010000

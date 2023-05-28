@@ -1,9 +1,8 @@
 IDstr=5a0ed824fcdbcb0176308b0d
 Name=AKMP system rear sight device
 ShortName=AKMP RS
-Itemtype=Ironsight
 Information_Eng=A device intended for firing AK and AKM family assault rifles in poor visibility conditions.
-basePrice=470
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.010000

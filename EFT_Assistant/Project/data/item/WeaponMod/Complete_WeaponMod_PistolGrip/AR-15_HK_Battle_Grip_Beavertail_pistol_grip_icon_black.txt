@@ -1,9 +1,8 @@
 IDstr=5bb20e0ed4351e3bac1212dc
 Name=AR-15 HK Battle Grip Beavertail pistol grip
 ShortName=Battle Grip
-Itemtype=Pistol grip
 Information_Eng=The HK Battle Grip pistol grip with Beavertail can be installed on any weapon compatible with AR-15 grips.
-basePrice=2990
+Itemtype=Pistol grip
 width=1
 height=1
 weight=0.080000

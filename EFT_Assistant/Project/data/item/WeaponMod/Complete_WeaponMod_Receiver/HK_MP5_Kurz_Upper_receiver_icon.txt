@@ -1,9 +1,8 @@
 IDstr=5d2f261548f03576f500e7b7
 Name=HK MP5K 9x19 upper receiver
 ShortName=MP5K
-Itemtype=Receiver
 Information_Eng=A regular upper receiver for the MP5K SMGs, manufactured by Heckler & Koch.
-basePrice=3050
+Itemtype=Receiver
 width=2
 height=1
 weight=0.450000

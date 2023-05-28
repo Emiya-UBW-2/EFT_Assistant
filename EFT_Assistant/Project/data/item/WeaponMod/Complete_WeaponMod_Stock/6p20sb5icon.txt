@@ -1,9 +1,8 @@
 IDstr=5649b1c04bdc2d16268b457c
 Name=AK-74 wooden stock (6P20 Sb.5)
 ShortName=6P20 Sb.5
-Itemtype=Stock
 Information_Eng=A standard-issue wooden stock for AK-74 automatic rifles, manufactured by Izhmash.
-basePrice=1847
+Itemtype=Stock
 width=2
 height=1
 weight=0.450000

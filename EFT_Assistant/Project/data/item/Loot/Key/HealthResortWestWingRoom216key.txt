@@ -1,15 +1,15 @@
-IDstr=5a0ee30786f774023b6ee08f
+Map=Shoreline
+6f774023b6ee08f
 Name=Health Resort west wing room 216 key
 ShortName=W216 San
-Itemtype=Mechanical Key
 Information_Eng=A key to the Azure Coast sanatorium west wing room 216.
-basePrice=84500
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000
 Sell_Prapor=42250
 Sell_Therapist=53235
-Sell_Flea Market=120000
+Sell_Flea Market=350000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Shoreline

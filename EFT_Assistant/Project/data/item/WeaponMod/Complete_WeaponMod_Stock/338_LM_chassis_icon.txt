@@ -1,9 +1,8 @@
 IDstr=6281204f308cb521f87a8f9b
 Name=AI AXMC .338 LM chassis
 ShortName=AXMC .338LM
-Itemtype=Receiver
 Information_Eng=The factory fitted .338 Lapua Magnum chassis for the AXMC sniper rifle, manufactured by Accuracy International.
-basePrice=5500
+Itemtype=Receiver
 width=2
 height=1
 weight=0.310000

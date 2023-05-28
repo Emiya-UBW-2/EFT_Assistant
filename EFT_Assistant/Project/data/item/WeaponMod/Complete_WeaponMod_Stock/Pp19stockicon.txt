@@ -1,9 +1,8 @@
 IDstr=599851db86f77467372f0a18
 Name=PP-19-01 "Vityaz" metal skeleton stock
 ShortName=PP-19-01
-Itemtype=Stock
 Information_Eng=A skeletonized metal stock for PP-19-01 Vityaz SMGs and Saiga-9 carbines, manufactured by Izhmash.
-basePrice=1508
+Itemtype=Stock
 width=2
 height=1
 weight=0.218000

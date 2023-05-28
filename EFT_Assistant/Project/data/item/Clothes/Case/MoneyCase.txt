@@ -1,9 +1,8 @@
 IDstr=59fb016586f7746d0d4b423a
 Name=Money case
 ShortName=Money
-Itemtype=Common container
 Information_Eng=The TARBank armored money storage case.
-basePrice=398201
+Itemtype=Common container
 width=3
 height=2
 weight=5.000000

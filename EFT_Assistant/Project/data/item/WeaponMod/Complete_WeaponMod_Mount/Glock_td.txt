@@ -1,9 +1,8 @@
 IDstr=615d8da4d3a39d50044c10e8
 Name=Glock TangoDown AAM-01 ACRO mount base
 ShortName=G TD
-Itemtype=Mount
 Information_Eng=The TangoDown mount for installing the Aimpoint ACRO reflex sight on the Glock MOS pistol slide to increase the weapon's speed and proficiency.
-basePrice=2600
+Itemtype=Mount
 width=1
 height=1
 weight=0.007000

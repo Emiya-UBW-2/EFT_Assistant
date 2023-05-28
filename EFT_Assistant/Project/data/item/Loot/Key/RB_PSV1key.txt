@@ -1,15 +1,14 @@
 IDstr=5d80cb5686f77440545d1286
 Name=RB-PSV1 key
 ShortName=RB-PSV1
-Itemtype=Mechanical Key
 Information_Eng=A key to one of the iron mesh doors in the Federal State Reserve Agency base underground supply warehouse.
-basePrice=29220
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000
 Sell_Prapor=14610
 Sell_Therapist=18408
-Sell_Flea Market=31999
+Sell_Flea Market=22000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Reserve

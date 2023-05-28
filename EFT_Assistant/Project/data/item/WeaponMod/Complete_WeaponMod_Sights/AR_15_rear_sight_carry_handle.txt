@@ -1,9 +1,8 @@
 IDstr=5ae30bad5acfc400185c2dc4
 Name=AR-15 rear sight carry handle
 ShortName=CHandle
-Itemtype=Ironsight
 Information_Eng=A detachable carry handle with a rear sight for AR-15 rifles. Standard-issue for M4A1 assault rifles.
-basePrice=823
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.150000

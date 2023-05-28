@@ -1,9 +1,8 @@
 IDstr=56d5a661d2720bd8418b456b
 Name=P226 front sight
 ShortName=P226 FS
-Itemtype=Ironsight
 Information_Eng=A standard-issue front sight for the P226 pistol, manufactured by SIG Sauer.
-basePrice=500
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.007000

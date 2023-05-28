@@ -1,9 +1,8 @@
 IDstr=6196255558ef8c428c287d1c
 Name=HK USP rail adapter
 ShortName=USP rail
-Itemtype=Mount
 Information_Eng=An adapter for the USP pistol that allows the installation of additional tactical equipment. Manufactured by Heckler & Koch.
-basePrice=1500
+Itemtype=Mount
 width=1
 height=1
 weight=0.010000

@@ -1,15 +1,14 @@
 IDstr=59148c8a86f774197930e983
 Name=Dorm room 204 key
 ShortName=Dorm 204
-Itemtype=Mechanical Key
 Information_Eng=A key to the three-story dormitory with a tag reading "204" on it.
-basePrice=19717
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000
 Sell_Prapor=9858
 Sell_Therapist=12421
-Sell_Flea Market=18888
+Sell_Flea Market=21000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Customs

@@ -49,7 +49,7 @@ namespace FPS_n2 {
 				TaskData::Create();//24s
 				HideoutData::Create();//24s
 				{
-					//std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000 / 1000);
+					//std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000);
 					//DataErrorLog::Instance()->AddLog(ErrMes.c_str());
 				}
 			}
@@ -77,7 +77,7 @@ namespace FPS_n2 {
 				SetUseASyncLoadFlag(FALSE);
 				//24
 				{
-					//std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000 / 1000);
+					//std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000);
 					//DataErrorLog::Instance()->AddLog(ErrMes.c_str());
 				}
 				m_Loading = true;

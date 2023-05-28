@@ -1,9 +1,8 @@
 IDstr=5df36948bb49d91fb446d5ad
 Name=ORSIS T-5000M padded handguard grip
 ShortName=T-5000M pad
-Itemtype=Foregrip
 Information_Eng=A standard-issue padded grip for the T-5000M sniper rifle, manufactured by ORSIS.
-basePrice=1850
+Itemtype=Foregrip
 width=1
 height=1
 weight=0.080000

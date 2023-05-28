@@ -1,9 +1,8 @@
 IDstr=61712eae6c780c1e710c9a1d
 Name=HK417 Patrol handguard with flip-up front sight
 ShortName=417 Patrol
-Itemtype=Handguard
 Information_Eng=The HK417 & G28 DMR Forearm With a Flip Up Front Sight & Suppressor Window Cutout. Optimized design to mitigate the heat emissions for long range shooting and to prevent the mirage effect.
-basePrice=8600
+Itemtype=Handguard
 width=2
 height=1
 weight=0.430000

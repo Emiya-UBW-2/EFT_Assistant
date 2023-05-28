@@ -1,9 +1,8 @@
 IDstr=56deed6ed2720b4c698b4583
 Name=MP-153 polymer forestock
 ShortName=MP153 Poly
-Itemtype=Handguard
 Information_Eng=A standard Izhmekh-manufactured polymer forestock for the MP-153 shotgun.
-basePrice=3388
+Itemtype=Handguard
 width=2
 height=1
 weight=0.310000

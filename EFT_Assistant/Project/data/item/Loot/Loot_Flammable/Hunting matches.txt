@@ -1,15 +1,14 @@
 IDstr=5e2af2bc86f7746d3f3c33fc
 Name=Hunting matches
 ShortName=HMatches
-Itemtype=Lubricant
 Information_Eng=Special hunting matches that burn in the wind and in the water (yeah, for real!). Soviet heritage.
-basePrice=3800
+Itemtype=Lubricant
 width=1
 height=1
 weight=0.005000
 Sell_Therapist=2394
 Sell_Fence=1520
 Sell_Jaeger=2280
-Sell_Flea Market=8500
+Sell_Flea Market=8000
 fleaMarketFee=0
 propertiestype=

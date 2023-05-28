@@ -1,9 +1,8 @@
 IDstr=5fc235db2770a0045c59c683
 Name=Mk-18 18 inch handguard
 ShortName=Mk-18 18"
-Itemtype=Handguard
 Information_Eng=A lightweight 18 inch long M-LOK-compatible handguard for the Mk-18 rifle. Manufactured by SWORD International.
-basePrice=16400
+Itemtype=Handguard
 width=3
 height=1
 weight=0.420000

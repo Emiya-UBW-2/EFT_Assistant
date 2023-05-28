@@ -1,9 +1,8 @@
 IDstr=62ea7c793043d74a0306e19f
 Name=Steyr AUG A1 STG77 1.5x optic sight
 ShortName=STG77 1.5x
-Itemtype=Assault scope
 Information_Eng=STG77 is a standard optic sight for the AUG A1. The sight provides a 1.5x zoom and has an open non-removable ironsights in the upper part of the optics. Manufactured by Swarovski Optik.
-basePrice=6500
+Itemtype=Assault scope
 width=2
 height=1
 weight=1.220000

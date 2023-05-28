@@ -1,9 +1,8 @@
 IDstr=5a78813bc5856700186c4abe
 Name=M870 Magpul SGA polymer stock
 ShortName=M870 SGA
-Itemtype=Stock
 Information_Eng=An ergonomic polymer stock for the Remington Model 870 shotgun with a rubber butt-plate, manufactured by Magpul.
-basePrice=8924
+Itemtype=Stock
 width=2
 height=1
 weight=0.500000

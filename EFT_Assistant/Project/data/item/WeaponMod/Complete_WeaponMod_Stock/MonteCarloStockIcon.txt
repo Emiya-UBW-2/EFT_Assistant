@@ -1,9 +1,8 @@
 IDstr=5bbdb870d4351e00367fb67d
 Name=Mosin Rifle ATI Monte Carlo chassis
 ShortName=Mosin MonteCarlo
-Itemtype=Stock
 Information_Eng=Monte Carlo-style chassis for the Mosin rifle, transforms the weapon into a more modern-looking rifle. Manufactured by ATI.
-basePrice=10758
+Itemtype=Stock
 width=4
 height=1
 weight=1.200000

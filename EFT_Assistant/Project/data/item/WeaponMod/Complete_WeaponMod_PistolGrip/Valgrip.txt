@@ -1,9 +1,8 @@
 IDstr=57c44fa82459772d2d75e415
 Name=AS VAL pistol grip
 ShortName=VAL
-Itemtype=Pistol grip
 Information_Eng=A standard-issue polymer pistol grip for AS VAL, manufactured by TSNIITochMash.
-basePrice=1493
+Itemtype=Pistol grip
 width=1
 height=1
 weight=0.146000

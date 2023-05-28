@@ -1,9 +1,8 @@
 IDstr=5e848d51e4dbc5266a4ec63b
 Name=KS-23M forestock
 ShortName=KS23M
-Itemtype=Handguard
 Information_Eng=A standard-issue polymer forestock made for the KS-23M shotgun.
-basePrice=2100
+Itemtype=Handguard
 width=2
 height=1
 weight=0.580000

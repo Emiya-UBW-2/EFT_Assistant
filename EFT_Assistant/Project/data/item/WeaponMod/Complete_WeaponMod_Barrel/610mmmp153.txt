@@ -1,9 +1,8 @@
 IDstr=588200af24597742fa221dfb
 Name=MP-153 12ga 610mm barrel
 ShortName=MP153 610mm
-Itemtype=Barrel
 Information_Eng=A standard factory-produced 610mm barrel for MP-153 12 gauge shotguns.
-basePrice=7180
+Itemtype=Barrel
 width=4
 height=1
 weight=1.250000

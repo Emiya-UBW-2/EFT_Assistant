@@ -1,9 +1,8 @@
 IDstr=602a95fe4e02ce1eaa358729
 Name=PL-15 9x19 threaded barrel
 ShortName=PL15 thr.
-Itemtype=Barrel
 Information_Eng=A threaded barrel for the PL-15 pistol, chambered in 9x19.
-basePrice=4948
+Itemtype=Barrel
 width=1
 height=1
 weight=0.180000

@@ -1,9 +1,8 @@
 IDstr=59ef13ca86f77445fd0e2483
 Name=Jack-o'-lantern tactical pumpkin helmet
 ShortName=Pumpkin
-Itemtype=Headwear
 Information_Eng=Jack-o'-lantern is here to protect you from the Evil.
-basePrice=10000
+Itemtype=Headwear
 width=2
 height=2
 weight=1.200000

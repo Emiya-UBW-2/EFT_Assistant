@@ -1,15 +1,14 @@
 IDstr=5a0eec9686f77402ac5c39f2
 Name=Health Resort east wing room 310 key
 ShortName=E310 San
-Itemtype=Mechanical Key
 Information_Eng=A key to the Azure Coast sanatorium east wing room 310.
-basePrice=69000
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000
 Sell_Prapor=34500
 Sell_Therapist=43470
-Sell_Flea Market=45000
+Sell_Flea Market=45555
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Shoreline

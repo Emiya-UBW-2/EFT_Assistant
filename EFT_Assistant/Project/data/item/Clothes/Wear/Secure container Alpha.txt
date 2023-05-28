@@ -1,9 +1,8 @@
 IDstr=544a11ac4bdc2d470e8b456a
 Name=Secure container Alpha
 ShortName=Alpha
-Itemtype=Port. container
 Information_Eng=A small secure container used by PMCs formerly deployed in Tarkov.
-basePrice=360000
+Itemtype=Port. container
 width=2
 height=2
 weight=0.600000

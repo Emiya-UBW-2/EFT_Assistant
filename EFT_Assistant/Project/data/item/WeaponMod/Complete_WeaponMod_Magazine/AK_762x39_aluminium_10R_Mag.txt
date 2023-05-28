@@ -1,9 +1,8 @@
 IDstr=5b1fd4e35acfc40018633c39
 Name=AK 7.62x39 aluminium 10-round magazine
 ShortName=AK al.
-Itemtype=Magazine
 Information_Eng=A 10-round aluminum magazine for 7.62x39 AK and compatible weapons, made of light aluminum alloy and reinforced by additional ribs. This modification comes with a 10-round capacity limiter for the civilian market. Can also be supplied with .366 TKM ammo for use with the corresponding caliber AK-compatible weapons.
-basePrice=700
+Itemtype=Magazine
 width=1
 height=2
 weight=0.120000

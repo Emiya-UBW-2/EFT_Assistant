@@ -1,14 +1,13 @@
 IDstr=590c645c86f77412b01304d9
 Name=Diary
 ShortName=Diary
-Itemtype=Info
 Information_Eng=A diary with a leather cover. Covered with various names, addresses and phone numbers. Somebody might find it particularly useful.
-basePrice=58000
+Itemtype=Info
 width=1
 height=2
 weight=0.200000
 Sell_Fence=23200
 Sell_Peacekeeper=219
-Sell_Flea Market=25000
+Sell_Flea Market=42000
 fleaMarketFee=0
 propertiestype=

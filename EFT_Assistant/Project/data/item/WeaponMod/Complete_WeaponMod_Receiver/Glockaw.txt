@@ -1,9 +1,8 @@
 IDstr=5a702d198dc32e000b452fc3
 Name=Glock Lone Wolf AlphaWolf pistol slide
 ShortName=G AW
-Itemtype=Receiver
 Information_Eng=A slide for Glock pistols family, manufactured by Lone Wolf.
-basePrice=8016
+Itemtype=Receiver
 width=2
 height=1
 weight=0.190000

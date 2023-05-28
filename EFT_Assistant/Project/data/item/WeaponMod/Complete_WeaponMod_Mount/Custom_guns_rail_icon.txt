@@ -1,9 +1,8 @@
 IDstr=6086b5392535c57a13424d70
 Name=Custom Guns handguard rail
 ShortName=CG
-Itemtype=Mount
 Information_Eng=The Custom Guns rail guide allows you to install additional equipment on the proprietary handguards.
-basePrice=1000
+Itemtype=Mount
 width=1
 height=1
 weight=0.050000

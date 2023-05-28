@@ -1,7 +1,7 @@
 IDstr=5a7c2eca46aef81a7ca2145d
 Name=Mechanic
-Color=[192/|192/|192]
 Information_Eng=A former chemical plant foreman, who from the very beginning of the conflict took to weapon modification, repairs, and maintenance of complex equipment and technology. He prefers clandestine solo living and operates discreetly, while placing complicated and challenging tasks above all else.
+Color=[192/|192/|192]
 PayItem=Roubles
 Lv1NeedLv=1
 Lv1Reputation=0.000000

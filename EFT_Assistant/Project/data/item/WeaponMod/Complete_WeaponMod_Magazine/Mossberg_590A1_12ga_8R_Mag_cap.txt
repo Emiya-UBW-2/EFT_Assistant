@@ -1,9 +1,8 @@
 IDstr=5e87080c81c4ed43e83cefda
 Name=Mossberg 590A1 12ga 8-shell magazine cap
 ShortName=590A1x8
-Itemtype=Magazine
 Information_Eng=An 8-shell capacity magazine cap for Mossberg 590A1 12ga shells.
-basePrice=1500
+Itemtype=Magazine
 width=1
 height=1
 weight=0.250000

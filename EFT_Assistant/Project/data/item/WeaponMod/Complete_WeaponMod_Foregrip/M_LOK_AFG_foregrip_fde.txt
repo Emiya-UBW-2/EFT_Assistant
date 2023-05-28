@@ -1,9 +1,8 @@
 IDstr=57cffcd624597763133760c5
 Name=Magpul M-LOK AFG tactical foregrip (FDE)
 ShortName=AFG M-LOK
-Itemtype=Foregrip
 Information_Eng=The Magpul M-LOK AFG tactical grip. It can only be installed on Magpul licensed M-LOK slots on applicable equipment. Flat Dark Earth version.
-basePrice=7014
+Itemtype=Foregrip
 width=1
 height=1
 weight=0.042000

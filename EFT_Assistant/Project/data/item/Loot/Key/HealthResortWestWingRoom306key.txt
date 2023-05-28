@@ -1,9 +1,8 @@
 IDstr=5a13f46386f7741dd7384b04
 Name=Health Resort west wing room 306 key
 ShortName=W306 San
-Itemtype=Mechanical Key
 Information_Eng=A key to the Azure Coast sanatorium west wing room 306.
-basePrice=28220
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000

@@ -1,9 +1,8 @@
 IDstr=5de65547883dde217541644b
 Name=VPO-215 "Gornostay" .366TKM 23 inch barrel
 ShortName=215 23"
-Itemtype=Barrel
 Information_Eng=A 23 inch (600mm) barrel for VPO-215 rifle chambered in .366TKM.
-basePrice=5100
+Itemtype=Barrel
 width=3
 height=1
 weight=1.200000

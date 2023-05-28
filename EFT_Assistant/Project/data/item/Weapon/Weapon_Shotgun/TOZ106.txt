@@ -1,9 +1,8 @@
 IDstr=5a38e6bac4a2826c6e06d79b
 Name=TOZ-106 20ga bolt-action shotgun
 ShortName=TOZ-106
-Itemtype=Shotgun
 Information_Eng=A single-barreled 20 gauge hunting shotgun with a sliding breech bolt. Widely known by it vernacular name, the Death of the Chairman, for its compact size.
-basePrice=3526
+Itemtype=Shotgun
 width=3
 height=1
 weight=1.300000

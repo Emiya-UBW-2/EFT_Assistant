@@ -1,14 +1,13 @@
 IDstr=590c392f86f77444754deb29
 Name=SSD drive
 ShortName=SSD
-Itemtype=Info
 Information_Eng=A solid state drive. Used to store data with enhanced read and write performance.
-basePrice=80000
+Itemtype=Info
 width=1
 height=1
 weight=0.040000
 Sell_Fence=32000
 Sell_Peacekeeper=303
-Sell_Flea Market=38500
+Sell_Flea Market=37999
 fleaMarketFee=0
 propertiestype=

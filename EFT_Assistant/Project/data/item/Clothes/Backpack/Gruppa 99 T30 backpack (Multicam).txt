@@ -1,9 +1,8 @@
 IDstr=62a1b7fbc30cfa1d366af586
 Name=Gruppa 99 T30 backpack (Multicam)
 ShortName=T30
-Itemtype=Backpack
 Information_Eng=A thirty-liter assault backpack from Gruppa 99. A high-quality solution for conducting special raid operations. Multicam camouflage version.
-basePrice=51000
+Itemtype=Backpack
 width=5
 height=6
 weight=1.400000

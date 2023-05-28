@@ -1,9 +1,8 @@
 IDstr=62389ba9a63f32501b1b4451
 Name=26x75mm flare cartridge (Red)
 ShortName=Red
-Itemtype=Ammo
 Information_Eng=A 26x75mm red flare cartridge for the SP-81 flare gun.
-basePrice=30000
+Itemtype=Ammo
 width=1
 height=1
 weight=0.042000

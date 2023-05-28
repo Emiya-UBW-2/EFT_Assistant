@@ -1,9 +1,8 @@
 IDstr=57acb6222459771ec34b5cb0
 Name=VOMZ Pilad 043-02 dovetail mount
 ShortName=043-02 DT
-Itemtype=Mount
 Information_Eng=An aluminum sight support with a Picatinny rail mount for the installation of scopes and accessories.
-basePrice=5118
+Itemtype=Mount
 width=1
 height=1
 weight=0.040000

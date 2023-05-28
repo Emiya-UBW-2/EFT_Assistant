@@ -1,9 +1,8 @@
 IDstr=5a6f5e048dc32e00094b97da
 Name=Glock 17 9x19 pistol slide
 ShortName=G17
-Itemtype=Receiver
 Information_Eng=A standard-issue slide for Glock 17 9x19 pistols.
-basePrice=3109
+Itemtype=Receiver
 width=2
 height=1
 weight=0.355000

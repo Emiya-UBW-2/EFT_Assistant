@@ -607,15 +607,19 @@ namespace FPS_n2 {
 			}
 		}
 		void GetJsonData(nlohmann::json& data) {
-			m_ItemJsonData.clear();
 			for (const auto& d : data["data"]["items"]) {
 				m_ItemJsonData.resize(m_ItemJsonData.size() + 1);
 				m_ItemJsonData.back().GetJson(d);
 			}
 		}
-		void UpdateData() noexcept {
+		void InitDatabyJson() noexcept {
+			m_ItemJsonData.clear();
+		}
+		void UpdateData(int ofset,int size) noexcept {
 			for (auto& L : this->m_List) {
-				for (auto& jd : this->m_ItemJsonData) {
+				for (int loop = ofset; loop < ofset + size; loop++) {
+					if (loop >= (int)this->m_ItemJsonData.size()) { break; }
+					auto& jd = this->m_ItemJsonData.at(loop);
 					if (L.GetIDstr() == jd.m_id) {
 						L.m_CheckJson++;
 
@@ -667,6 +671,23 @@ namespace FPS_n2 {
 			}
 		}
 		void CheckThroughJson(void) noexcept {
+			for (auto& L : this->m_List) {
+				for (auto& jd : this->m_ItemJsonData) {
+					if (L.GetIDstr() == jd.m_id) {
+						//Šù‘¶‚Ì‚à‚Ì‚ð•ÛŽ‚µ‚Ä‚¨‚­
+						std::ofstream outputfile(L.GetFilePath(), std::ios::app);
+						for (auto& m : L.GetMapID()) {
+							auto* ptr = MapData::Instance()->FindPtr(m.GetID());
+							if (ptr) {
+								outputfile << "Map=" + ptr->GetName() + "\n";
+							}
+						}
+						outputfile.close();
+						break;
+					}
+				}
+			}
+
 			for (auto& t : this->m_List) {
 				if (t.m_CheckJson == 0) {
 					std::string ErrMes = "Error : ThroughJson : ";

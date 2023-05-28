@@ -1,9 +1,8 @@
 IDstr=5df35e970b92095fd441e4d2
 Name=ORSIS T-5000M scope mount
 ShortName=T-5000M
-Itemtype=Mount
 Information_Eng=A universal scope mount for the T-5000M sniper rifle, manufactured by ORSIS. Allows installation of various scopes.
-basePrice=2200
+Itemtype=Mount
 width=2
 height=1
 weight=0.140000

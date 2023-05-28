@@ -1,9 +1,8 @@
 IDstr=60a3c68c37ea821725773ef5
 Name=CQC Osprey MK4A plate carrier (Protection, MTP)
 ShortName=Osprey MK4A (P)
-Itemtype=Chest rig
 Information_Eng=The Osprey plate carrier is actively used by the British army and specialists. The Protection preset is provided with heavy armor plates and the optimal number of pouches for ammunition, grenades and special equipment.
-basePrice=155000
+Itemtype=Chest rig
 width=4
 height=3
 weight=12.500000

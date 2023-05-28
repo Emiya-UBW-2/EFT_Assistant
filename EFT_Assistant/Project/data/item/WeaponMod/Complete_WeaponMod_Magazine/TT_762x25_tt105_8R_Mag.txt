@@ -1,9 +1,8 @@
 IDstr=571a29dc2459771fb2755a6a
 Name=TT 7.62x25 tt-105 8-round magazine
 ShortName=tt-105
-Itemtype=Magazine
 Information_Eng=A standard late-issue 8-round magazine for the TT pistol. It comes without a lanyard ring.
-basePrice=1157
+Itemtype=Magazine
 width=1
 height=1
 weight=0.080000

@@ -1,15 +1,14 @@
 IDstr=60391a8b3364dc22b04d0ce5
 Name=Can of thermite
 ShortName=Thermite
-Itemtype=Lubricant
 Information_Eng=Thermite-based incendiary mixtures are a mixture of aluminum powder and iron oxide. These compounds have a very high combustion temperature and are capable of burning without the presence of oxygen. Thermite has an extremely strong burning effect and is almost impossible to extinguish.
-basePrice=52000
+Itemtype=Lubricant
 width=1
 height=1
 weight=0.650000
 Sell_Therapist=32760
 Sell_Fence=20800
 Sell_Jaeger=31200
-Sell_Flea Market=67500
+Sell_Flea Market=81000
 fleaMarketFee=0
 propertiestype=

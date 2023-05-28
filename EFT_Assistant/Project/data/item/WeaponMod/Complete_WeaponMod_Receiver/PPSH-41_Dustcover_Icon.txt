@@ -1,9 +1,8 @@
 IDstr=5ea03e5009aa976f2e7a514b
 Name=PPSh-41 dust cover
 ShortName=PPSh41
-Itemtype=Receiver
 Information_Eng=A standard-issue dust cover for PPSh-41.
-basePrice=1200
+Itemtype=Receiver
 width=2
 height=1
 weight=1.100000

@@ -1,9 +1,8 @@
 IDstr=5a787fdfc5856700142fdd9a
 Name=M870 12ga sawn-off 325mm barrel
 ShortName=M870 325mm
-Itemtype=Barrel
 Information_Eng=A sawn-off 325mm barrel for the Remington Model 870 12 gauge shotgun.
-basePrice=5593
+Itemtype=Barrel
 width=2
 height=1
 weight=0.800000

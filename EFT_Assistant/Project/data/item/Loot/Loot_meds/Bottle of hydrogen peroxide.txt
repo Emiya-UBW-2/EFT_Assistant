@@ -1,15 +1,14 @@
 IDstr=59e361e886f774176c10a2a5
 Name=Bottle of hydrogen peroxide
 ShortName=H2O2
-Itemtype=Medical supplies
 Information_Eng=Hydrogen peroxide is used in medicine as a cleaning and antiseptic treatment for wounds.
-basePrice=12168
+Itemtype=Medical supplies
 width=1
 height=1
 weight=0.100000
 Sell_Therapist=7665
 Sell_Fence=4867
 Sell_Jaeger=7300
-Sell_Flea Market=11888
+Sell_Flea Market=9000
 fleaMarketFee=0
 propertiestype=

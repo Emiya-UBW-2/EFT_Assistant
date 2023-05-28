@@ -1,9 +1,8 @@
 IDstr=59ecc28286f7746d7a68aa8c
 Name=AKS-74/AKS-74U Zenit PT Lock
 ShortName=PT 74S
-Itemtype=Stock
 Information_Eng=The lock is designed to install the PT-1 and PT-3 stocks to a weapon. This model is designed for installation on the AKS-74 and AKS-74U folding assault rifles. Manufactured by Zenit.
-basePrice=3228
+Itemtype=Stock
 width=1
 height=1
 weight=0.310000

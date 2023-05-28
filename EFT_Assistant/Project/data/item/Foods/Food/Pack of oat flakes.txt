@@ -1,15 +1,14 @@
 IDstr=57347d90245977448f7b7f65
 Name=Pack of oat flakes
 ShortName=Oatflakes
-Itemtype=Food
 Information_Eng=Package of oat flakes, primary component of healthy porridge for breakfast.
-basePrice=7568
+Itemtype=Food
 width=1
 height=2
 weight=0.400000
 Sell_Therapist=4767
 Sell_Fence=3027
 Sell_Jaeger=4540
-Sell_Flea Market=19876
+Sell_Flea Market=13800
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink

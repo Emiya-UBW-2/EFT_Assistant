@@ -1,9 +1,8 @@
 IDstr=60785ce5132d4d12c81fd918
 Name=MP-155 Ultima top rail
 ShortName=Ultima top
-Itemtype=Mount
 Information_Eng=The "Ultima" modification top rail for the MP-155 shotgun. Manufactured by Kalashnikov Group.
-basePrice=5900
+Itemtype=Mount
 width=3
 height=1
 weight=0.450000

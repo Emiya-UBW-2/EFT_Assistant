@@ -1,9 +1,8 @@
 IDstr=5aaa5e60e5b5b000140293d6
 Name=5.56x45 Magpul PMAG 10 GEN M3 STANAG 10-round magazine
 ShortName=GEN M3
-Itemtype=Magazine
 Information_Eng=A 10-round polymer Magpul PMAG GEN M3 10 magazine, for 5.56x45 ammunition.
-basePrice=2001
+Itemtype=Magazine
 width=1
 height=1
 weight=0.120000

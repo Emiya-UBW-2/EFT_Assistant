@@ -1,9 +1,8 @@
 IDstr=5b1fb3e15acfc4001637f068
 Name=AK 7.62x39 bakelite 40-round magazine
 ShortName=6P2 bak.
-Itemtype=Magazine
 Information_Eng=A standard 40-round bakelite magazine for the RPK. It fits into 7.62x39 AK and compatible weapons. Can also be supplied with .366 TKM ammo for use with the corresponding caliber AK-compatible weapons.
-basePrice=3586
+Itemtype=Magazine
 width=1
 height=3
 weight=0.320000

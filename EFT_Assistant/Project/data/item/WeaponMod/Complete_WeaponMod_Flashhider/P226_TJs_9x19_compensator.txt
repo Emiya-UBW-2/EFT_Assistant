@@ -1,9 +1,8 @@
 IDstr=5c6beec32e221601da3578f2
 Name=P226 TJ's Custom 9x19 compensator
 ShortName=P226 TJC
-Itemtype=Flashhider
 Information_Eng=A compensator manufactured by TJ's Custom Gunworks for the SIG Sauer P226 pistols.
-basePrice=2800
+Itemtype=Flashhider
 width=1
 height=1
 weight=0.036000

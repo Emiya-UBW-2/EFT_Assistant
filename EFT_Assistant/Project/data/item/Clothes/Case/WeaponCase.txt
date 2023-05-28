@@ -1,9 +1,8 @@
 IDstr=59fb023c86f7746d0d4b423c
 Name=Weapon case
 ShortName=Weapons
-Itemtype=Common container
 Information_Eng=A storage case for weapons, ammunition, and weapon parts.
-basePrice=1093207
+Itemtype=Common container
 width=5
 height=2
 weight=9.000000

@@ -1,9 +1,8 @@
 IDstr=5d6e69c7a4b9360b6c0d54e4
 Name=20/70 7.3mm buckshot
 ShortName=7.3mm
-Itemtype=Ammo
 Information_Eng=A 20/70 gauge shell loaded with 7.3mm buckshot.
-basePrice=38
+Itemtype=Ammo
 width=1
 height=1
 weight=0.032000

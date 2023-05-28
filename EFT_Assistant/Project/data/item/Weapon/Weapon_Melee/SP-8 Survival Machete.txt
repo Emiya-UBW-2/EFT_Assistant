@@ -1,14 +1,13 @@
 IDstr=5c010e350db83400232feec7
 Name=SP-8 Survival Machete
 ShortName=SP-8
-Itemtype=Knife
 Information_Eng=SP-8 is a survival machete made of a single piece of high carbon steel. Manufactured by Ontario Knife Company.
-basePrice=77500
+Itemtype=Knife
 width=1
 height=3
 weight=0.635000
 Sell_Fence=31000
 Sell_Jaeger=46500
-Sell_Flea Market=140000
+Sell_Flea Market=67400
 fleaMarketFee=0
 propertiestype=ItemPropertiesMelee

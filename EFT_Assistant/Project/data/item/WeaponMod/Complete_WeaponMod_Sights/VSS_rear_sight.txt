@@ -1,9 +1,8 @@
 IDstr=57838e1b2459774a256959b1
 Name=VSS rear sight
 ShortName=VSS RS
-Itemtype=Ironsight
 Information_Eng=A standard vertically adjustable mechanical rear sight for the VSS Vintorez sniper rifle.
-basePrice=996
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.025000

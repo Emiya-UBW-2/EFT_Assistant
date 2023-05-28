@@ -1,9 +1,8 @@
 IDstr=57e3dba62459770f0c32322b
 Name=AK bakelite pistol grip (6P4 Sb.9)
 ShortName=6P4 Sb.9
-Itemtype=Pistol grip
 Information_Eng=A bakelite Izhmash-manufatured pistol grip for the AK automatic rifles and compatible weapon systems.
-basePrice=739
+Itemtype=Pistol grip
 width=1
 height=1
 weight=0.070000

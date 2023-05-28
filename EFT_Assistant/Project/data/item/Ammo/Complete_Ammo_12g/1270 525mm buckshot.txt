@@ -1,9 +1,8 @@
 IDstr=5d6e6772a4b936088465b17c
 Name=12/70 5.25mm buckshot
 ShortName=5.25mm
-Itemtype=Ammo
 Information_Eng=A 12/70 shell loaded with 15 5.25mm buckshot pellets for 12 gauge shotguns.
-basePrice=35
+Itemtype=Ammo
 width=1
 height=1
 weight=0.044000

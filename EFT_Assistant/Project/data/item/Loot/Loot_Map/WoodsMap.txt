@@ -1,14 +1,13 @@
 IDstr=5900b89686f7744e704a8747
 Name=Woods plan map
 ShortName=Woods
-Itemtype=Map
 Information_Eng=A paper plan map of Priozersk Natural Reserve.
-basePrice=12719
+Itemtype=Map
 width=1
 height=1
 weight=0.045000
 Sell_Therapist=8012
 Sell_Fence=5087
-Sell_Flea Market=11111
+Sell_Flea Market=10000
 fleaMarketFee=0
 propertiestype=

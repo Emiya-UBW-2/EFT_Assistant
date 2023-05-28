@@ -1,9 +1,8 @@
 IDstr=5cbdb1b0ae9215000d50e105
 Name=AK-74 "Plum" polymer stock (6P20 Sb.7)
 ShortName=6P20 Sb.7
-Itemtype=Stock
 Information_Eng=A polymer stock for AK-74 automatic rifles, manufactured by Izhmash. Made out of plum-colored polymer, for which has earned the nickname "Sliva" ("Plum").
-basePrice=2168
+Itemtype=Stock
 width=2
 height=1
 weight=0.350000

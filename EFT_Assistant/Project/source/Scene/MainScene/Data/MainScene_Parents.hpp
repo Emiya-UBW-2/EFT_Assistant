@@ -257,6 +257,10 @@ namespace FPS_n2 {
 	class JsonDataParent {
 	public:
 		bool										m_IsFileOpened{ false };
+		std::string									m_Path;
+
+		std::unique_ptr<std::thread>	m_SetJob{ nullptr };
+		bool							m_SetFinish{ false };
 	public:
 		std::string									m_id;
 		std::string									m_name;
@@ -288,27 +292,43 @@ namespace FPS_n2 {
 		}
 		void OutputData(const std::string& Path) noexcept {
 			m_IsFileOpened = true;
-			std::ofstream outputfile(Path);
-			outputfile << "IDstr=" + this->m_id + "\n";
-			outputfile << "Name=" + this->m_name + "\n";
-			if (this->m_shortName != "") {
-				outputfile << "ShortName=" + this->m_shortName + "\n";
-			}
-			if (this->m_description != "") {
-				outputfile << "Information_Eng=" + this->m_description + "\n";
-			}
-			OutputDataSub(outputfile);
-			outputfile.close();
+			m_Path = Path;
+
+			m_SetFinish = false;
+			ResetDataJob();
+			m_SetJob = std::make_unique<std::thread>([&]() {
+				std::ofstream outputfile(m_Path);
+				outputfile << "IDstr=" + this->m_id + "\n";
+				outputfile << "Name=" + this->m_name + "\n";
+				if (this->m_shortName != "") {
+					outputfile << "ShortName=" + this->m_shortName + "\n";
+				}
+				if (this->m_description != "") {
+					outputfile << "Information_Eng=" + this->m_description + "\n";
+				}
+				OutputDataSub(outputfile);
+				outputfile.close();
+				m_SetFinish = true;
+			});
 		}
+		void ResetDataJob() noexcept {
+			if (m_SetJob) {
+				m_SetJob->join();
+				m_SetJob.release();
+			}
+		}
+		const auto&		GetIsSetFinish() const noexcept { return this->m_SetFinish; }
 	};
 	template <class JsonDataParentT>
 	class JsonListParent {
 		std::vector<std::unique_ptr<JsonDataParent>> m_JsonData;
 	public:
 		auto&		GetJsonDataList() noexcept { return this->m_JsonData; }
-		void GetDataJson(nlohmann::json& data, std::string ListName) {
+		void ResetDataJson() {
 			m_JsonData.clear();
-			for (const auto& d : data["data"][ListName]) {
+		}
+		void GetDataJson(nlohmann::json& data) {
+			for (const auto& d : data) {
 				m_JsonData.emplace_back(std::make_unique<JsonDataParentT>());
 				m_JsonData.back()->GetJson(d);
 			}

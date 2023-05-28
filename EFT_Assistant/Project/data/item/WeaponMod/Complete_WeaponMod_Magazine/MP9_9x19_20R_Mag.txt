@@ -1,9 +1,8 @@
 IDstr=5de8ea8ffd6b4e6e2276dc35
 Name=MP9 9x19 20-round magazine
 ShortName=MP9
-Itemtype=Magazine
 Information_Eng=A standard 20-round capacity polymer magazine for MP9-based SMGs, manufactured by Brügger & Thomet.
-basePrice=1950
+Itemtype=Magazine
 width=1
 height=1
 weight=0.067000

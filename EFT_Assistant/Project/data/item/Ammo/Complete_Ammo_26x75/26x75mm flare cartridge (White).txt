@@ -1,9 +1,8 @@
 IDstr=62389bc9423ed1685422dc57
 Name=26x75mm flare cartridge (White)
 ShortName=Flare
-Itemtype=Ammo
 Information_Eng=A 26x75mm 7S15 (26 OP) night flare cartridge for the SP-81 flare gun.
-basePrice=5000
+Itemtype=Ammo
 width=1
 height=1
 weight=0.055000

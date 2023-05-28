@@ -1,15 +1,14 @@
 IDstr=5ad7247386f7747487619dc3
 Name=Goshan cash register key
 ShortName=Goshan reg.
-Itemtype=Mechanical Key
 Information_Eng=A key to the Goshan store outlet cash registers at the ULTRA shopping mall.
-basePrice=15430
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000
 Sell_Prapor=7715
 Sell_Therapist=9720
-Sell_Flea Market=190000
+Sell_Flea Market=111111
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Interchange

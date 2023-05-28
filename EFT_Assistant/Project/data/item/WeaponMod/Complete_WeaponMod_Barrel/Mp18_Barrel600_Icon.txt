@@ -1,9 +1,8 @@
 IDstr=61f4012adfc9f01a816adda1
 Name=MP-18 7.62x54R 600mm barrel
 ShortName=MP18 600mm
-Itemtype=Barrel
 Information_Eng=A standard factory-produced 600mm barrel with a front sight for MP-18 7.62x54R hunting rifles.
-basePrice=4100
+Itemtype=Barrel
 width=4
 height=1
 weight=1.350000

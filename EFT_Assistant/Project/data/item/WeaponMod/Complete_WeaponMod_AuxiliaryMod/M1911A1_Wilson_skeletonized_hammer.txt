@@ -1,9 +1,8 @@
 IDstr=5ef35bc243cb350a955a7ccd
 Name=M1911A1 Wilson Ultralight skeletonized hammer
 ShortName=1911 ULS
-Itemtype=Auxiliary Mod
 Information_Eng=The Ultralight Skeletonized hammer for the M1911A1 pistol, manufactured by Wilson.
-basePrice=4900
+Itemtype=Auxiliary Mod
 width=1
 height=1
 weight=0.010000

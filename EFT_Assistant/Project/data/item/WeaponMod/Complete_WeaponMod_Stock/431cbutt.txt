@@ -1,9 +1,8 @@
 IDstr=611a31ce5b7ffe001b4649d1
 Name=MP-43-1C buttpad
 ShortName=43-1C butt
-Itemtype=Stock
 Information_Eng=A standard-issue buttpad for MP-43 shotguns.
-basePrice=1200
+Itemtype=Stock
 width=1
 height=1
 weight=0.120000

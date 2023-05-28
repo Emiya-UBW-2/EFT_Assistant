@@ -1,9 +1,8 @@
 IDstr=5ab8e79e86f7742d8b372e78
 Name=BNTI Gzhel-K body armor
 ShortName=Gzhel-K
-Itemtype=Armor
 Information_Eng=The Gzhel assault bulletproof vest is designed for assault units of the Ministry of Internal Affairs and other law enforcement agencies. A special variant of Gzhel-K armor is equipped with ceramic armored panels based on corundum (Russian GOST class 5 protection).
-basePrice=113829
+Itemtype=Armor
 width=3
 height=3
 weight=8.900000

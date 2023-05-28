@@ -1,9 +1,8 @@
 IDstr=62a09f32621468534a797acb
 Name=Bottle of Pevko Light beer
 ShortName=Pevko
-Itemtype=Drink
 Information_Eng=Mmmmm... Pevko. The legendary drink of the streets of Tarkov.
-basePrice=13243
+Itemtype=Drink
 width=1
 height=2
 weight=0.850000

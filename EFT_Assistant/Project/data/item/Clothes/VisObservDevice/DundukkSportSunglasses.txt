@@ -1,9 +1,8 @@
 IDstr=5aa2b986e5b5b00014028f4c
 Name=Dundukk sport sunglasses
 ShortName=Dundukk
-Itemtype=Vis. observ. device
 Information_Eng=Modern sunglasses, made in a sporty style. Great for a stylish shootout at the gas station.
-basePrice=2028
+Itemtype=Vis. observ. device
 width=2
 height=1
 weight=0.050000

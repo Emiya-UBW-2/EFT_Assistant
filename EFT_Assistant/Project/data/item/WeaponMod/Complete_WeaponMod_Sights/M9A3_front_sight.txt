@@ -1,9 +1,8 @@
 IDstr=5cadd919ae921500126a77f3
 Name=M9A3 front sight
 ShortName=M9A3 FS
-Itemtype=Ironsight
 Information_Eng=A standard-issue front sight for Beretta M9A3 pistols.
-basePrice=460
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.007000

@@ -1,9 +1,8 @@
 IDstr=5d2f213448f0355009199284
 Name=HK MP5 9x19 20-round magazine
 ShortName=MP5
-Itemtype=Magazine
 Information_Eng=A standard 20-round 9x19 magazine for the MP5 SMG, manufactured by Heckler & Koch.
-basePrice=3100
+Itemtype=Magazine
 width=1
 height=1
 weight=0.120000

@@ -1,9 +1,8 @@
 IDstr=5839a7742459773cf9693481
 Name=AKS-74UB dust cover
 ShortName=AKS-74UB
-Itemtype=Receiver
 Information_Eng=A standard-issue dust cover for AKS-74UB automatic rifles, manufactured by Izhmash.
-basePrice=3203
+Itemtype=Receiver
 width=2
 height=1
 weight=0.142000

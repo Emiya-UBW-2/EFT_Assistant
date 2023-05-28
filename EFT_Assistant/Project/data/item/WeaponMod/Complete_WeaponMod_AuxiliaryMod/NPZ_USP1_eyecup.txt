@@ -1,9 +1,8 @@
 IDstr=5cf639aad7f00c065703d455
 Name=NPZ USP-1 scope eyecup
 ShortName=USP-1 cup
-Itemtype=Auxiliary Mod
 Information_Eng=A rubber eyecup for the NPZ USP-1 scope.
-basePrice=276
+Itemtype=Auxiliary Mod
 width=1
 height=1
 weight=0.005000

@@ -1,9 +1,8 @@
 IDstr=622f02437762f55aaa68ac85
 Name=HK G36 magwell
 ShortName=G36 std.
-Itemtype=Mount
 Information_Eng=A standard-issue magwell for the G36 assault rifle, manufactured by Heckler & Koch.
-basePrice=1000
+Itemtype=Mount
 width=1
 height=1
 weight=0.020000

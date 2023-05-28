@@ -1,14 +1,13 @@
 IDstr=5d4041f086f7743cac3f22a7
 Name=Ortodontox toothpaste
 ShortName=Ortodontox
-Itemtype=Household goods
 Information_Eng=A toothpaste approved by 9 out of 10 dentists. The one dentist who did not approve was clearly out of his mind, since he recommended shoe polish at first.
-basePrice=5400
+Itemtype=Household goods
 width=1
 height=1
 weight=0.200000
 Sell_Therapist=3402
 Sell_Fence=2160
-Sell_Flea Market=9999
+Sell_Flea Market=9950
 fleaMarketFee=0
 propertiestype=

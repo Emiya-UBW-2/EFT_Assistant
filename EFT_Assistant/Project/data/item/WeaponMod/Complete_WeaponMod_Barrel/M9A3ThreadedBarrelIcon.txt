@@ -1,9 +1,8 @@
 IDstr=5cadc1c6ae9215000f2775a4
 Name=M9A3 9x19 threaded barrel
 ShortName=M9A3 thr.
-Itemtype=Barrel
 Information_Eng=A standard threaded barrel for the Beretta M9A3 9x19 pistol.
-basePrice=1660
+Itemtype=Barrel
 width=1
 height=1
 weight=0.200000

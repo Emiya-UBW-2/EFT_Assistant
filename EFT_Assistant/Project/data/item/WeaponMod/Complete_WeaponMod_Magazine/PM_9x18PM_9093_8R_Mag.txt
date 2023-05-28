@@ -1,9 +1,8 @@
 IDstr=5448c12b4bdc2d02308b456f
 Name=PM 9x18PM 90-93 8-round magazine
 ShortName=PM
-Itemtype=Magazine
 Information_Eng=A standard 8-round magazine for IzhMekh-produced Makarov PM pistols. It features a side observation slot for checking the magazine capacity.
-basePrice=940
+Itemtype=Magazine
 width=1
 height=1
 weight=0.044000

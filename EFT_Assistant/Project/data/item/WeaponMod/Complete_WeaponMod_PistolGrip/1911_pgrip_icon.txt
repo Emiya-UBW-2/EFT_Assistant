@@ -1,9 +1,8 @@
 IDstr=5e81c6bf763d9f754677beff
 Name=M1911A1 side grips
 ShortName=1911
-Itemtype=Pistol grip
 Information_Eng=Standard-issue side grip panels for the M1911A1 pistol, manufactured by Colt.
-basePrice=800
+Itemtype=Pistol grip
 width=1
 height=1
 weight=0.270000

@@ -1,14 +1,13 @@
 IDstr=5798a2832459774b53341029
 Name=Customs plan map
 ShortName=Customs
-Itemtype=Map
 Information_Eng=A paper plan map of the vast Customs premises. Not the most up-to-date copy, but it's better than nothing.
-basePrice=13428
+Itemtype=Map
 width=1
 height=1
 weight=0.045000
 Sell_Therapist=8459
 Sell_Fence=5371
-Sell_Flea Market=34000
+Sell_Flea Market=80000
 fleaMarketFee=0
 propertiestype=

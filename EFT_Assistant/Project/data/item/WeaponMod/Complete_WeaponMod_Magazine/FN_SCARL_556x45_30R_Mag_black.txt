@@ -1,9 +1,8 @@
 IDstr=61840bedd92c473c77021635
 Name=FN SCAR-L 5.56x45 30-round magazine
 ShortName=Mk16
-Itemtype=Magazine
 Information_Eng=A 30-round 5.56x45 metal magazine designed for the SCAR-series weapons.
-basePrice=2100
+Itemtype=Magazine
 width=1
 height=2
 weight=0.117000

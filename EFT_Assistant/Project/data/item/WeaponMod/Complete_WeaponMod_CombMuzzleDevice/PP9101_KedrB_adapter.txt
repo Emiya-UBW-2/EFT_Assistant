@@ -1,9 +1,8 @@
 IDstr=57f3c7e024597738ea4ba286
 Name=PP-91-01 "Kedr-B" threaded suppressor adapter
 ShortName=PP9101 thr.
-Itemtype=Comb. muzzle device
 Information_Eng=A muzzle thread piece for the PP-91-01 "Kedr-B" submachine gun with an expansion chamber, allows installation of sound suppressors.
-basePrice=5110
+Itemtype=Comb. muzzle device
 width=1
 height=1
 weight=0.070000

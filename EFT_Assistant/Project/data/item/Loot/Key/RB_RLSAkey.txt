@@ -1,15 +1,14 @@
 IDstr=5ede7b0c6d23e5473e6e8c66
 Name=RB-RLSA key
 ShortName=RB-RLSA
-Itemtype=Mechanical Key
 Information_Eng=A key to the Federal State Reserve Agency base Radar Station document archives.
-basePrice=77000
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000
 Sell_Prapor=38500
 Sell_Therapist=48510
-Sell_Flea Market=49000
+Sell_Flea Market=51111
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Reserve

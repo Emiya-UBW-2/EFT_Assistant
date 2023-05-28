@@ -1,9 +1,8 @@
 IDstr=5aba639ed8ce8700182ece67
 Name=APB rear sight
 ShortName=APB RS
-Itemtype=Ironsight
 Information_Eng=A standard rear sight for APB pistols.
-basePrice=601
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.008000

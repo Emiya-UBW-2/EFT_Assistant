@@ -1,9 +1,8 @@
 IDstr=5b7d671b5acfc43d82528ddd
 Name=SA-58/FAL Belgian Style handguard
 ShortName=FAL BEL
-Itemtype=Handguard
 Information_Eng=The Belgian variant handguard for FAL rifles manufactured by DS Arms.
-basePrice=3002
+Itemtype=Handguard
 width=2
 height=1
 weight=0.510000

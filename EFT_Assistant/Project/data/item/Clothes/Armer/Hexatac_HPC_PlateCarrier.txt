@@ -1,9 +1,8 @@
 IDstr=63737f448b28897f2802b874
 Name=Hexatac HPC Plate Carrier (Multicam Black)
 ShortName=HPC
-Itemtype=Armor
 Information_Eng=A plate carrier by Hexatac. A minimalistic version designed to be used with chest rigs. Multicam Black version.
-basePrice=117000
+Itemtype=Armor
 width=3
 height=3
 weight=8.500000

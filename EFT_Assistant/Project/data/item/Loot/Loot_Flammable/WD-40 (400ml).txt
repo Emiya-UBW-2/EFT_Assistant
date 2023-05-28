@@ -1,15 +1,14 @@
 IDstr=590c5c9f86f77477c91c36e7
 Name=WD-40 (400ml)
 ShortName=WD-40
-Itemtype=Lubricant
 Information_Eng=Initially, this agent was developed for industrial consumers as an anti-corrosive water repellent. It was later discovered that it also had plenty of domestic use applications. According to legend, the product's formula was developed on the fortieth attempt (WD-40 as short for Water Displacement-40th Attempt). The product consists mostly of various hydrocarbons.
-basePrice=17261
+Itemtype=Lubricant
 width=1
 height=2
 weight=0.600000
 Sell_Therapist=10874
 Sell_Fence=6904
 Sell_Jaeger=10356
-Sell_Flea Market=12000
+Sell_Flea Market=13222
 fleaMarketFee=0
 propertiestype=

@@ -1,9 +1,8 @@
 IDstr=57dc324a24597759501edc20
 Name=AKS-74U 5.45x39 muzzle brake (6P26 0-20)
 ShortName=6P26 0-20
-Itemtype=Flashhider
 Information_Eng=A standard-issue IzhMash muzzle brake for the AKS-74U and AKS-74UN, installed on 24x1.5 mm threading.
-basePrice=719
+Itemtype=Flashhider
 width=1
 height=1
 weight=0.100000

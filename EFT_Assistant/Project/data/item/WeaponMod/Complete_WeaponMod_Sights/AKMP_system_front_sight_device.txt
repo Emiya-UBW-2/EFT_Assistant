@@ -1,9 +1,8 @@
 IDstr=5a0f096dfcdbcb0176308b15
 Name=AKMP system front sight device
 ShortName=AKMP FS
-Itemtype=Ironsight
 Information_Eng=A device intended for firing AK and AKM family assault rifles in poor visibility conditions.
-basePrice=470
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.010000

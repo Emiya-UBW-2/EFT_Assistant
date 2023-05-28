@@ -1,14 +1,13 @@
 IDstr=62a09ee4cf4a99369e262453
 Name=Can of white salt
 ShortName=Salt
-Itemtype=Household goods
 Information_Eng=Simple edible salt needed for cooking.
-basePrice=8000
+Itemtype=Household goods
 width=1
 height=1
 weight=0.320000
 Sell_Therapist=5040
 Sell_Fence=3200
-Sell_Flea Market=9333
+Sell_Flea Market=7000
 fleaMarketFee=0
 propertiestype=

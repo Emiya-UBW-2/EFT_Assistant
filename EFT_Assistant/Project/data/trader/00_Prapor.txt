@@ -1,7 +1,7 @@
 IDstr=54cb50c76803fa8b248b4571
 Name=Prapor
-Color=[192/|192/|1]
 Information_Eng=The Warrant officer in charge of supply warehouses on the sustaining base enforcing the Norvinsk region blockade. Secretly supplied the BEAR PMC operators with weapons, ammunition, and various other provisions he had at his disposal during the Contract Wars.
+Color=[192/|192/|1]
 PayItem=Roubles
 Lv1NeedLv=1
 Lv1Reputation=0.000000

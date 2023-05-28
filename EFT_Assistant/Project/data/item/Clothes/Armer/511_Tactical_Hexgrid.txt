@@ -1,9 +1,8 @@
 IDstr=5fd4c474dd870108a754b241
 Name=5.11 Tactical Hexgrid plate carrier
 ShortName=Hexgrid
-Itemtype=Armor
 Information_Eng=The Hexgrid plate carrier with smooth ergonomic access that allows comfortable movement, intended for use with chest rigs. Manufactured by 5.11 Tactical.
-basePrice=210000
+Itemtype=Armor
 width=3
 height=3
 weight=7.700000

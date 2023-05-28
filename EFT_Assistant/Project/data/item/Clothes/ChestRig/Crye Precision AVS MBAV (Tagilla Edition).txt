@@ -1,9 +1,8 @@
 IDstr=609e860ebd219504d8507525
 Name=Crye Precision AVS plate carrier (Tagilla Edition)
 ShortName=AVS TE
-Itemtype=Chest rig
 Information_Eng=Tagilla's well-worn plate carrier based on the AVS module system by Crye Precision. It has one front panel with three attached pouches. And that's pretty much it. Nothing more, nothing less.
-basePrice=215000
+Itemtype=Chest rig
 width=3
 height=3
 weight=7.800000

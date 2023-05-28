@@ -1,15 +1,14 @@
 IDstr=5672c92d4bdc2d180f8b4567
 Name=Dorm room 118 key
 ShortName=Dorm 118
-Itemtype=Mechanical Key
 Information_Eng=A key to the three-story dormitory with a tag reading "118" on it.
-basePrice=5359
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000
 Sell_Prapor=2679
 Sell_Therapist=3376
-Sell_Flea Market=13800
+Sell_Flea Market=13000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Customs

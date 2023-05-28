@@ -1,15 +1,14 @@
 IDstr=5780d0532459777a5108b9a2
 Name=Tarcone Director's office key
 ShortName=Director's
-Itemtype=Mechanical Key
 Information_Eng=A key to Tarcone director's administrative office, located in the customs control warehouse.
-basePrice=21107
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000
 Sell_Prapor=10553
 Sell_Therapist=13297
-Sell_Flea Market=67999
+Sell_Flea Market=98888
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Customs

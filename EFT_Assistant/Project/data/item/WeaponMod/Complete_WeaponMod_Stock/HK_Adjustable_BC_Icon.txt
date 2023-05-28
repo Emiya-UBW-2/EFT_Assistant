@@ -1,9 +1,8 @@
 IDstr=61715e7e67085e45ef140b33
 Name=HK Adjustable Buttstock cheek rest
 ShortName=HK Cheek
-Itemtype=Stock
 Information_Eng=The HK adjustable stock cheek piece provides optimum versatility in use.
-basePrice=6000
+Itemtype=Stock
 width=1
 height=1
 weight=0.057000

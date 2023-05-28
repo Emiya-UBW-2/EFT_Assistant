@@ -1,9 +1,8 @@
 IDstr=606587bd6d0bd7580617bacc
 Name=Mk47 ambidextrous charging handle
 ShortName=Mk47 Ambi
-Itemtype=Charging handle
 Information_Eng=A charging handle for the Mk47 Mutant assault rifle. Ambidextrous latches allow for easy operation no matter which hand you use to charge the weapon. Manufactured by CMMG.
-basePrice=2200
+Itemtype=Charging handle
 width=1
 height=1
 weight=0.030000

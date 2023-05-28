@@ -1,9 +1,8 @@
 IDstr=5ab24ef9e5b5b00fe93c9209
 Name=M1A SOCOM 16 upper part
 ShortName=SOCOM16
-Itemtype=Mount
 Information_Eng=The upper part of the SOCOM 16 stock for M1A rifles. It has a Weaver rail for attaching various scopes and reflex sights.
-basePrice=4193
+Itemtype=Mount
 width=2
 height=1
 weight=0.096000

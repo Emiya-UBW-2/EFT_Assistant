@@ -1,9 +1,8 @@
 IDstr=61605e13ffa6e502ac5e7eef
 Name=Vortex Ranger 1500 rangefinder
 ShortName=R1500
-Itemtype=Portable Range Finder
 Information_Eng=A handheld optical device that allows you to measure the distance to targets. Manufactured by Vortex Optics.
-basePrice=9000
+Itemtype=Portable Range Finder
 width=1
 height=1
 weight=0.218000

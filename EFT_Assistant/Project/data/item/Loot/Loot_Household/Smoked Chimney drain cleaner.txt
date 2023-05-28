@@ -1,14 +1,13 @@
 IDstr=5e2af00086f7746d3f3c33f7
 Name=Smoked Chimney drain cleaner
 ShortName=DCleaner
-Itemtype=Household goods
 Information_Eng=A solution of inorganic alkali, additionally containing active additives. Used for cleaning toilets, pipes and drains.
-basePrice=9457
+Itemtype=Household goods
 width=1
 height=2
 weight=0.750000
 Sell_Therapist=5957
 Sell_Fence=3782
-Sell_Flea Market=7009
+Sell_Flea Market=6800
 fleaMarketFee=0
 propertiestype=

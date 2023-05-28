@@ -1,15 +1,14 @@
 IDstr=57347d5f245977448b40fa81
 Name=Can of humpback salmon
 ShortName=Humpback
-Itemtype=Food
 Information_Eng=A can of humpback salmon, a tasty source of aliphatic acids and niacin.
-basePrice=9857
+Itemtype=Food
 width=1
 height=1
 weight=0.280000
 Sell_Therapist=6209
 Sell_Fence=3942
 Sell_Jaeger=5914
-Sell_Flea Market=16000
+Sell_Flea Market=13555
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink

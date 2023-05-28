@@ -1,9 +1,8 @@
 IDstr=5fbcbd6c187fea44d52eda14
 Name=MCX pistol grip
 ShortName=MCX
-Itemtype=Pistol grip
 Information_Eng=A polymer pistol grip for MCX assault rifles, manufactured by SIG Sauer.
-basePrice=2400
+Itemtype=Pistol grip
 width=1
 height=1
 weight=0.080000

@@ -1,9 +1,8 @@
 IDstr=59ecc3dd86f7746dc827481c
 Name=AK Zenit PT-3 "Klassika" stock
 ShortName=PT-3
-Itemtype=Stock
 Information_Eng=The PT-3 telescopic stock is mounted instead of the standard stock of AK-103, 104, 105, 74M, AKS74U, and PP Vityaz weapons. Features a length adjustment mechanism and an adjustable cheek. A special PT lock is required for installation. Manufactured by Zenit.
-basePrice=16630
+Itemtype=Stock
 width=2
 height=1
 weight=0.218000

@@ -1,9 +1,8 @@
 IDstr=622f07cfae33bc505b2c4dd5
 Name=HK G36 5.56x45 flash hider
 ShortName=G36 std
-Itemtype=Flashhider
 Information_Eng=A regular flash hider for the G36 assault rifle. Manufactured by Heckler & Koch.
-basePrice=5100
+Itemtype=Flashhider
 width=1
 height=1
 weight=0.063000

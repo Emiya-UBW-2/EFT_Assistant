@@ -1,9 +1,8 @@
 IDstr=5ef3553c43cb350a955a7ccb
 Name=M1911A1 Wilson Extended slide stop
 ShortName=1911 Ext.
-Itemtype=Auxiliary Mod
 Information_Eng=An extended slide lever for the M1911A1 pistol, manufactured by Wilson.
-basePrice=1800
+Itemtype=Auxiliary Mod
 width=1
 height=1
 weight=0.010000

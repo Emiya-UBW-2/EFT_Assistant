@@ -1,9 +1,8 @@
 IDstr=59d64fc686f774171b243fe2
 Name=AKM 7.62x39 muzzle brake-compensator (6P1 0-14)
 ShortName=6P1 0-14
-Itemtype=Flashhider
 Information_Eng=A standard Izhmash-produced muzzle brake-compensator for AKM automatic rifles and weapon systems based on it.
-basePrice=608
+Itemtype=Flashhider
 width=1
 height=1
 weight=0.020000

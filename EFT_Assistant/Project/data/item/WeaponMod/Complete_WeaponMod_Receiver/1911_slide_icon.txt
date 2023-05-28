@@ -1,9 +1,8 @@
 IDstr=5e81edc13397a21db957f6a1
 Name=M1911A1 .45 ACP pistol slide
 ShortName=1911 slide
-Itemtype=Receiver
 Information_Eng=A standard-issue slide for the M1911A1 pistol, manufactured by Colt.
-basePrice=3109
+Itemtype=Receiver
 width=2
 height=1
 weight=0.410000

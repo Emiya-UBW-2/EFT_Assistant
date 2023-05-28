@@ -1,9 +1,8 @@
 IDstr=5608379a4bdc2d26448b4569
 Name=MP-133 12ga 750mm barrel with rib
 ShortName=MP133 750mm rib
-Itemtype=Barrel
 Information_Eng=A standard factory-produced 750mm barrel with a wide upper rib for MP-133 12 gauge shotguns.
-basePrice=7680
+Itemtype=Barrel
 width=5
 height=1
 weight=1.550000

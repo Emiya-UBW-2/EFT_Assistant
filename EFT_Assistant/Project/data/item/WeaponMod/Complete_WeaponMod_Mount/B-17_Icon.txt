@@ -1,9 +1,8 @@
 IDstr=62e281349ecd3f493f6df954
 Name=SR-2M Zenit B-17 mount
 ShortName=B-17
-Itemtype=Mount
 Information_Eng=The B-17 mount is designed to switch from SR-2M's Dovetail top rail standard to Picatinny rail. Manufactured by Zenit.
-basePrice=3900
+Itemtype=Mount
 width=1
 height=1
 weight=0.040000

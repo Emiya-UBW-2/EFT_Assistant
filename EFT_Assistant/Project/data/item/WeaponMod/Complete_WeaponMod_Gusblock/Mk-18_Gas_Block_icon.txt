@@ -1,9 +1,8 @@
 IDstr=5fc2360f900b1d5091531e19
 Name=Mk-18 gas block
 ShortName=Mk18 block
-Itemtype=Gas block
 Information_Eng=A gas block designed for the Mk-18 rifle, manufactured by SWORD International.
-basePrice=8050
+Itemtype=Gas block
 width=1
 height=1
 weight=0.120000

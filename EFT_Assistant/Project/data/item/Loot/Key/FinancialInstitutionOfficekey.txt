@@ -1,15 +1,14 @@
 IDstr=63a39667c9b3aa4b61683e98
 Name=Financial institution office key
 ShortName=Finance
-Itemtype=Mechanical Key
 Information_Eng=A key to an office room at the city's financial institution.
-basePrice=19020
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000
 Sell_Prapor=9510
 Sell_Therapist=11982
-Sell_Flea Market=29999
+Sell_Flea Market=24420
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Streets of Tarkov

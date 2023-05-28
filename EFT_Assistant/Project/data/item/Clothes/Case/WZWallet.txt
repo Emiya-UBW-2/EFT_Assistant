@@ -1,15 +1,14 @@
 IDstr=60b0f6c058e0b0481a09ad11
 Name=WZ Wallet
 ShortName=WZ
-Itemtype=Common container
 Information_Eng=The "WillerZ" leather wallet. Same as any simple wallet, but fancier.
-basePrice=40542
+Itemtype=Common container
 width=1
 height=1
 weight=0.169000
 Sell_Therapist=25541
 Sell_Ragman=25136
 Sell_Jaeger=24325
-Sell_Flea Market=25995
+Sell_Flea Market=25000
 fleaMarketFee=0
 propertiestype=ItemPropertiesContainer

@@ -1,9 +1,8 @@
 IDstr=5857a8b324597729ab0a0e7d
 Name=Secure container Beta
 ShortName=Beta
-Itemtype=Port. container
 Information_Eng=A medium-sized secure container used by PMCs formerly deployed in Tarkov.
-basePrice=750000
+Itemtype=Port. container
 width=3
 height=2
 weight=0.800000

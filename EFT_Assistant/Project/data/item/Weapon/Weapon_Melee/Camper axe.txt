@@ -1,14 +1,13 @@
 IDstr=5c012ffc0db834001d23f03f
 Name=Camper axe
 ShortName=Camper
-Itemtype=Knife
 Information_Eng=A universal travel axe for use in field conditions or in household. Also works as a melee weapon if things get too desperate.
-basePrice=41200
+Itemtype=Knife
 width=1
 height=3
 weight=0.640000
 Sell_Fence=16480
 Sell_Jaeger=24720
-Sell_Flea Market=28000
+Sell_Flea Market=24000
 fleaMarketFee=0
 propertiestype=ItemPropertiesMelee

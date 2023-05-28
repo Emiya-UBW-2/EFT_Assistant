@@ -1,9 +1,8 @@
 IDstr=62330b3ed4dc74626d570b95
 Name=.357 Magnum FMJ
 ShortName=FMJ
-Itemtype=Ammo
 Information_Eng=An American-made high-power .357 Magnum revolver cartridge manufactured by Smith & Wesson.
-basePrice=142
+Itemtype=Ammo
 width=1
 height=1
 weight=0.016000

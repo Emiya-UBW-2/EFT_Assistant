@@ -1,9 +1,8 @@
 IDstr=607d5a891246154cad35d6aa
 Name=MP-155 walnut stock
 ShortName=155 walnut
-Itemtype=Stock
 Information_Eng=A Monte Carlo-style wooden walnut stock for MP-155 shotguns with a rubber butt-plate. Manufactured by Izhmekh.
-basePrice=1299
+Itemtype=Stock
 width=2
 height=1
 weight=0.640000

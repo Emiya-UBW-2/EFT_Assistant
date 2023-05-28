@@ -88,14 +88,16 @@ namespace FPS_n2 {
 			auto Color = (ttt == -1) ? Gray25 : Gray50;
 
 			if (WindowSystem::ClickCheckBox(XPos, YPos, XPos + Xsize, YPos + Ysize, false, (ttt == -1), Color, "アイテム更新")) {
+				auto BaseTime = GetNowHiPerformanceCount();
+
 				int count = 0;
-				//ItemData::Instance()->InitDatabyJson();
+				ItemData::Instance()->InitDatabyJson();
 				while (true) {
-					if (ItemDataRequest(20 * count, 20, strResult)) {
+					if (CommonDataRequest("data/query/barter_query.txt", 20 * count, 20, strResult)) {
 						ProcessMessage();
 						auto data = nlohmann::json::parse(strResult);
 						ItemData::Instance()->GetJsonData(data);
-						ItemData::Instance()->UpdateData();
+						ItemData::Instance()->UpdateData(20 * count, 20);
 						ItemData::Instance()->SaveAsNewData2("data/item/Maked/Maked/");
 
 						if (data["data"]["items"].size() != 20) {
@@ -106,17 +108,24 @@ namespace FPS_n2 {
 				}
 				ItemData::Instance()->CheckThroughJson();
 				TimeCard();
+				{
+					std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000);
+					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+				}
 			}
 			YPos += Ysize + y_r(5);
 			if (WindowSystem::ClickCheckBox(XPos, YPos, XPos + Xsize, YPos + Ysize, false, (ttt == -1), Color, "タスク更新")) {
+				auto BaseTime = GetNowHiPerformanceCount();
+
 				int count = 0;
 				TaskData::Instance()->InitDatabyJson();
 				while (true) {
-					if (TaskDataRequest(20 * count, 20, strResult)) {
+					if (CommonDataRequest("data/query/task_query.txt", 20 * count, 20, strResult)) {
 						ProcessMessage();
 						auto data = nlohmann::json::parse(strResult);
-						TaskData::Instance()->GetDataJson(data, "tasks");
-						TaskData::Instance()->SaveDatabyJson();
+						TaskData::Instance()->GetDataJson(data["data"]["tasks"]);
+						TaskData::Instance()->UpdateData(20 * count, 20);
+						TaskData::Instance()->SaveAsNewData2("data/task/Maked/");
 						if (data["data"]["tasks"].size() != 20) {
 							break;
 						}
@@ -125,17 +134,23 @@ namespace FPS_n2 {
 				}
 				TaskData::Instance()->CheckThroughJson();
 				TimeCard();
+				{
+					std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000);
+					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+				}
 			}
 			YPos += Ysize + y_r(5);
 			if (WindowSystem::ClickCheckBox(XPos, YPos, XPos + Xsize, YPos + Ysize, false, (ttt == -1), Color, "ハイドアウト更新")) {
+				auto BaseTime = GetNowHiPerformanceCount();
+
 				int count = 0;
-				//HideoutData::Instance()->InitDatabyJson();
+				HideoutData::Instance()->InitDatabyJson();
 				while (true) {
-					if (HideoutDataRequest(20 * count, 20, strResult)) {
+					if (CommonDataRequest("data/query/hideout_query.txt", 20 * count, 20, strResult)) {
 						ProcessMessage();
 						auto data = nlohmann::json::parse(strResult);
-						HideoutData::Instance()->GetDataJson(data, "hideoutStations");
-						HideoutData::Instance()->UpdateData();
+						HideoutData::Instance()->GetDataJson(data["data"]["hideoutStations"]);
+						HideoutData::Instance()->UpdateData(20 * count, 20);
 						HideoutData::Instance()->SaveAsNewData("data/Hideout/Maked/Maked");
 						if (data["data"]["hideoutStations"].size() != 20) {
 							break;
@@ -145,17 +160,23 @@ namespace FPS_n2 {
 				}
 				HideoutData::Instance()->CheckThroughJson();
 				TimeCard();
+				{
+					std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000);
+					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+				}
 			}
 			YPos += Ysize + y_r(5);
 			if (WindowSystem::ClickCheckBox(XPos, YPos, XPos + Xsize, YPos + Ysize, false, (ttt == -1), Color, "トレーダー更新")) {
+				auto BaseTime = GetNowHiPerformanceCount();
+
 				int count = 0;
-				//TraderData::Instance()->InitDatabyJson();
+				TraderData::Instance()->InitDatabyJson();
 				while (true) {
-					if (TraderDataRequest(2 * count, 2, strResult)) {
+					if (CommonDataRequest("data/query/trader_query.txt", 2 * count, 2, strResult)) {
 						ProcessMessage();
 						auto data = nlohmann::json::parse(strResult);
-						TraderData::Instance()->GetDataJson(data, "traders");
-						TraderData::Instance()->UpdateData();
+						TraderData::Instance()->GetDataJson(data["data"]["traders"]);
+						TraderData::Instance()->UpdateData(2 * count, 2);
 						TraderData::Instance()->SaveAsNewData("data/trader/Maked");
 						if (data["data"]["traders"].size() != 2) {
 							break;
@@ -163,8 +184,12 @@ namespace FPS_n2 {
 					}
 					count++;
 				}
-				//TraderData::Instance()->CheckThroughJson();
+				TraderData::Instance()->CheckThroughJson();
 				TimeCard();
+				{
+					std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000);
+					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+				}
 			}
 			YPos += Ysize + y_r(5);
 			if (!(ttt == -1)) {

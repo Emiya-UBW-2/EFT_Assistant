@@ -1,9 +1,8 @@
 IDstr=5c6d7b3d2e221600114c9b7d
 Name=AR-15 HK V2 pistol grip
 ShortName=HK V2
-Itemtype=Pistol grip
 Information_Eng=The HK V2 pistol grip can be installed on any weapon compatible with AR-15 grips. Manufactured by Heckler & Koch.
-basePrice=3100
+Itemtype=Pistol grip
 width=1
 height=1
 weight=0.080000

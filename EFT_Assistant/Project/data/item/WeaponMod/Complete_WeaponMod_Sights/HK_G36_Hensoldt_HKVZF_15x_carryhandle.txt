@@ -1,9 +1,8 @@
 IDstr=622b4f54dc8dcc0ba8742f85
 Name=HK G36 Hensoldt HKV ZF 1.5x carry handle
 ShortName=HKV 1.5x
-Itemtype=Assault scope
 Information_Eng=The HKV carry handle with ZF optic sight and RV red dot carrier. The optical sight provides a 1.5x zoom and has a truly miniature 4 mm objective lens. Also includes open non-removable ironsights in the upper part of the carrying handle.
-basePrice=8500
+Itemtype=Assault scope
 width=2
 height=1
 weight=0.192000

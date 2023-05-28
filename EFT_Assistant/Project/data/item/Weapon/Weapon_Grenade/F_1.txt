@@ -1,15 +1,14 @@
 IDstr=5710c24ad2720bc3458b45a3
 Name=F-1 hand grenade
 ShortName=F-1
-Itemtype=Throwable weapon
 Information_Eng=The F-1 hand grenade (GRAU Index 57-G-721) is an anti-personnel fragmentation defensive grenade, designed for neutralizing enemy personnel in defensive combat. Due to a significantly effective fragmentation radius, it should only be thrown from behind hard cover, such as a concrete wall, APC, or tank.
-basePrice=5600
+Itemtype=Throwable weapon
 width=1
 height=1
 weight=0.600000
 Sell_Prapor=2800
 Sell_Fence=2240
 Sell_Skier=2744
-Sell_Flea Market=19900
+Sell_Flea Market=16000
 fleaMarketFee=0
 propertiestype=ItemPropertiesGrenade

@@ -1,15 +1,14 @@
 IDstr=57513f07245977207e26a311
 Name=Pack of apple juice
 ShortName=Apple
-Itemtype=Drink
 Information_Eng=Clarified and reconstituted apple juice, refreshing and sweet.
-basePrice=3422
+Itemtype=Drink
 width=1
 height=2
 weight=1.000000
 Sell_Therapist=2155
 Sell_Fence=1368
 Sell_Jaeger=2053
-Sell_Flea Market=9999
+Sell_Flea Market=12222
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink

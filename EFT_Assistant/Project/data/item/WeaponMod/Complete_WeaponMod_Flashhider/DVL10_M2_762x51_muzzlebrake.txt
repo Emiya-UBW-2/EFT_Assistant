@@ -1,9 +1,8 @@
 IDstr=5888996c24597754281f9419
 Name=DVL-10 M2 7.62x51 muzzle brake
 ShortName=DVL-10 M2
-Itemtype=Flashhider
 Information_Eng=A standard-issue DVL-10 M2 sniper rifle muzzle brake, manufactured by Lobaev Arms.
-basePrice=4557
+Itemtype=Flashhider
 width=1
 height=1
 weight=0.098000

@@ -1,9 +1,8 @@
 IDstr=5a7882dcc5856700177af662
 Name=M870 12ga 4-shell magazine cap
 ShortName=M870x4
-Itemtype=Magazine
 Information_Eng=A 4-shell capacity magazine cap by Remington, for Remington Model 870 12ga shells.
-basePrice=1030
+Itemtype=Magazine
 width=1
 height=1
 weight=0.100000

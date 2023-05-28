@@ -1,9 +1,8 @@
 IDstr=5fc0f9cbd6fa9c00c571bb90
 Name=SIG Sauer Vertical Foregrip KeyMod (Black)
 ShortName=SSVFK
-Itemtype=Foregrip
 Information_Eng=The SIG Sauer "Vertical Foregrip" tactical grip for the KeyMod interface. The grip is made from the highest grade materials and is of an inherent SIG Sauer quality.
-basePrice=5400
+Itemtype=Foregrip
 width=1
 height=1
 weight=0.055000

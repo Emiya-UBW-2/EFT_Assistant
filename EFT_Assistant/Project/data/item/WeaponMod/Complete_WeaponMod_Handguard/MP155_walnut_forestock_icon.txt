@@ -1,9 +1,8 @@
 IDstr=607d5aa50494a626335e12ed
 Name=MP-155 walnut forestock
 ShortName=MP155 walnut
-Itemtype=Handguard
 Information_Eng=A Monte Carlo-style wooden walnut forestock for MP-155 shotguns. Manufactured by Izhmekh.
-basePrice=1829
+Itemtype=Handguard
 width=2
 height=1
 weight=0.800000

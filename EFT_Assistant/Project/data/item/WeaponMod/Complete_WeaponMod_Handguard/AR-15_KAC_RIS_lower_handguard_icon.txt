@@ -1,9 +1,8 @@
 IDstr=637f57b78d137b27f70c496a
 Name=AR-15 KAC RIS lower handguard
 ShortName=KAC RIS
-Itemtype=Handguard
 Information_Eng=Knight's Armament Company RIS lower handguard for the M4A1 carbine.
-basePrice=2033
+Itemtype=Handguard
 width=2
 height=1
 weight=0.097000

@@ -1,9 +1,8 @@
 IDstr=5fc4b992187fea44d52edaa9
 Name=SilencerCo Omega 45k Direct Thread Mount adapter
 ShortName=DT Omega
-Itemtype=Comb. muzzle device
 Information_Eng=The Direct Thread Mount adapter for installation of SilencerCo Omega 45k sound suppressor directly onto the barrel threading.
-basePrice=3750
+Itemtype=Comb. muzzle device
 width=1
 height=1
 weight=0.135000

@@ -1,9 +1,8 @@
 IDstr=560837154bdc2da74d8b4568
 Name=MP-133 12ga 660mm barrel with rib
 ShortName=MP133 660mm rib
-Itemtype=Barrel
 Information_Eng=A standard factory-produced 660mm barrel with a wide upper rib for MP-133 12 gauge shotguns.
-basePrice=5501
+Itemtype=Barrel
 width=4
 height=1
 weight=1.250000

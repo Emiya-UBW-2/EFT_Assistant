@@ -1,9 +1,8 @@
 IDstr=5ef35d2ac64c5d0dfc0571b0
 Name=M1911A1 Wilson Retro Commander hammer
 ShortName=1911 RC
-Itemtype=Auxiliary Mod
 Information_Eng=The Retro Commander hammer for the M1911A1 pistol, manufactured by Wilson.
-basePrice=1500
+Itemtype=Auxiliary Mod
 width=1
 height=1
 weight=0.016000

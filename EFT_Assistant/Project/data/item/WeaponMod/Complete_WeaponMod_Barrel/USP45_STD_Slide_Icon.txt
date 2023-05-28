@@ -1,9 +1,8 @@
 IDstr=6194ef39de3cdf1d2614a768
 Name=HK USP .45 ACP barrel
 ShortName=USP45 std
-Itemtype=Barrel
 Information_Eng=A standard-issue 112mm .45 ACP barrel for the USP pistol, manufactured by Heckler & Koch.
-basePrice=2500
+Itemtype=Barrel
 width=1
 height=1
 weight=0.113000

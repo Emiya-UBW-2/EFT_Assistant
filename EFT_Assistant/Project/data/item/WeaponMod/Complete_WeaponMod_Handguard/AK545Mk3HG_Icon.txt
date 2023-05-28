@@ -1,9 +1,8 @@
 IDstr=628b916469015a4e1711ed8d
 Name=AK-545 SAG Mk.3 handguard
 ShortName=AK-545 HG
-Itemtype=Handguard
 Information_Eng=The Sureshot Armament Group Mk.3 handguard for AK-545, equipped with an M-LOK interface for the installation of additional devices and accessories and a picatinny rail on top for sights and tactical equipment mounting.
-basePrice=27600
+Itemtype=Handguard
 width=2
 height=1
 weight=0.617000

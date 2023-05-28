@@ -1,9 +1,8 @@
 IDstr=5b0bc22d5acfc47a8607f085
 Name=SA-58 Holland Type rear sight
 ShortName=SA58 Holland
-Itemtype=Ironsight
 Information_Eng=The Holland Type rear sight for SA-58 assault rifle, manufactured by DS Arms.
-basePrice=470
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.090000

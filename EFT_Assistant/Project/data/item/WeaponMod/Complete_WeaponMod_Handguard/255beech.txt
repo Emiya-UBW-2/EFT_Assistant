@@ -1,9 +1,8 @@
 IDstr=6123649463849f3d843da7c4
 Name=MTs-255-12 beechwood forestock
 ShortName=MTs-255 beech
-Itemtype=Handguard
 Information_Eng=A standard-issue forestock for the MTs-255 shotgun, made out of beechwood.
-basePrice=1529
+Itemtype=Handguard
 width=2
 height=1
 weight=0.800000

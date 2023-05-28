@@ -1,9 +1,8 @@
 IDstr=5fbbc366ca32ed67276c1557
 Name=KRISS Vector 9x19 5 inch barrel
 ShortName=Vector 9x19 5"
-Itemtype=Barrel
 Information_Eng=A 5 inch (140mm) threaded barrel for the KRISS Vector 9x19 submachine gun.
-basePrice=8200
+Itemtype=Barrel
 width=2
 height=1
 weight=0.160000

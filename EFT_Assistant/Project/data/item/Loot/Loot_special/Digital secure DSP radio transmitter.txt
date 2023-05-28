@@ -1,9 +1,8 @@
 IDstr=62e910aaf957f2915e0a5e36
 Name=Digital secure DSP radio transmitter
 ShortName=DSPT
-Itemtype=Radio Transmitter
 Information_Eng=A special digital radio transmitter for user status identification system.
-basePrice=1000000
+Itemtype=Radio Transmitter
 width=1
 height=1
 weight=0.170000

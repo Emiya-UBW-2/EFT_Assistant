@@ -1,15 +1,14 @@
 IDstr=5e997f0b86f7741ac73993e2
 Name=Sanitar's bag
 ShortName=Sanitar
-Itemtype=Backpack
 Information_Eng=A medical bag, often used by mid and low rank medical personnel, sometimes by doctors, for carrying tools and medicine.
-basePrice=46075
+Itemtype=Backpack
 width=4
 height=4
 weight=1.440000
 Sell_Fence=18430
 Sell_Ragman=28566
 Sell_Jaeger=27645
-Sell_Flea Market=56999
+Sell_Flea Market=34000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack

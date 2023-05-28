@@ -1,9 +1,8 @@
 IDstr=628b9c37a733087d0d7fe84b
 Name=SAG AK-545 Short 5.45x39 carbine
 ShortName=AK-545 Short
-Itemtype=Assault rifle
 Information_Eng=A shortened version of the Sureshot Armament Group AK-545 carbine based on modern AK platforms.
-basePrice=31000
+Itemtype=Assault rifle
 width=3
 height=1
 weight=2.192000

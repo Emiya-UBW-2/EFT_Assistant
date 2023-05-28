@@ -1,9 +1,8 @@
 IDstr=5894a42086f77426d2590762
 Name=MPX GEN1 handguard
 ShortName=MPX GEN1
-Itemtype=Handguard
 Information_Eng=A 1st generation handguard for the SIG MPX submachine gun. Manufactured by SIG Sauer.
-basePrice=4311
+Itemtype=Handguard
 width=2
 height=1
 weight=0.302000

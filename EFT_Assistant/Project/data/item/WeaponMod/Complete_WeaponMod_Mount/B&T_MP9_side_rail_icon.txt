@@ -1,9 +1,8 @@
 IDstr=5de8fc0b205ddc616a6bc51b
 Name=MP9 side rail
 ShortName=MP9 side
-Itemtype=Mount
 Information_Eng=A short side rail that allows installation of additional equipment on the side of the MP9 SMG. Manufactured by Brügger & Thomet.
-basePrice=850
+Itemtype=Mount
 width=1
 height=1
 weight=0.050000

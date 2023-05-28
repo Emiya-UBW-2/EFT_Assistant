@@ -1,9 +1,8 @@
 IDstr=622b397c9a3d4327e41843b6
 Name=HK G36 bipod
 ShortName=G36 bipod
-Itemtype=Bipod
 Information_Eng=A standard-issue bipod for the HK G36 assault rifle.
-basePrice=4269
+Itemtype=Bipod
 width=2
 height=1
 weight=0.226000

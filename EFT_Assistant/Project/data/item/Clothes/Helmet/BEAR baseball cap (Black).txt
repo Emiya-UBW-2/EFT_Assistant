@@ -1,9 +1,8 @@
 IDstr=5b40e5e25acfc4001a599bea
 Name=BEAR baseball cap (Black)
 ShortName=BEAR
-Itemtype=Headwear
 Information_Eng=A tactical BEAR PMC baseball cap. Black version.
-basePrice=1827
+Itemtype=Headwear
 width=1
 height=1
 weight=0.100000

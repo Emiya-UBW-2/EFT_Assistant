@@ -1,9 +1,8 @@
 IDstr=628120621d5df4475f46a335
 Name=AI AXMC thread protection cap
 ShortName=AXMC cap
-Itemtype=Comb. muzzle device
 Information_Eng=A threading protection cap for the AXMC barrel. Manufactured by Accuracy International.
-basePrice=800
+Itemtype=Comb. muzzle device
 width=1
 height=1
 weight=0.010000

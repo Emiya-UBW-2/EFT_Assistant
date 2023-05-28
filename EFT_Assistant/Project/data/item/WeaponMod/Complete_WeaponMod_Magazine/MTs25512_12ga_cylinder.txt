@@ -1,9 +1,8 @@
 IDstr=60dc519adf4c47305f6d410d
 Name=MTs-255-12 12ga cylinder
 ShortName=255 cyl.
-Itemtype=Cylinder Magazine
 Information_Eng=A standard-issue cylinder for the MTs-255-12 revolver shotgun.
-basePrice=1500
+Itemtype=Cylinder Magazine
 width=1
 height=1
 weight=0.250000

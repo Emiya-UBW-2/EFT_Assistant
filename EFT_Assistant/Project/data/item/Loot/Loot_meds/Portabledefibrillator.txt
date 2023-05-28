@@ -1,15 +1,14 @@
 IDstr=5c052e6986f7746b207bc3c9
 Name=Portable defibrillator
 ShortName=Defibrillator
-Itemtype=Medical supplies
 Information_Eng=Sudden cardiac arrest (SCA) can happen to anyone, anytime, anywhere. Phipils uses SMART Biphasic technology in its HeartStart Defibrillators to deliver an effective, high current defibrillation shock at a lower energy dose to minimize side effects.
-basePrice=224600
+Itemtype=Medical supplies
 width=1
 height=1
 weight=1.500000
 Sell_Therapist=141498
 Sell_Fence=89840
 Sell_Jaeger=134760
-Sell_Flea Market=157500
+Sell_Flea Market=150000
 fleaMarketFee=0
 propertiestype=

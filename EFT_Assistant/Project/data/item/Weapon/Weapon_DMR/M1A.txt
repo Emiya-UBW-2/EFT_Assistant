@@ -1,9 +1,8 @@
 IDstr=5aafa857e5b5b00018480968
 Name=Springfield Armory M1A 7.62x51 rifle
 ShortName=M1A
-Itemtype=Marksman rifle
 Information_Eng=M1A is a civilian version of the M14 rifle designed and manufactured by Springfield Armory, Inc. For the most part, it is identical to the M14. The most notable difference is the removal of the M14's fire selector switch, rendering the rifle permanently semi-automatic. The bayonet lug was also removed from the weapon.
-basePrice=30264
+Itemtype=Marksman rifle
 width=2
 height=1
 weight=1.426000

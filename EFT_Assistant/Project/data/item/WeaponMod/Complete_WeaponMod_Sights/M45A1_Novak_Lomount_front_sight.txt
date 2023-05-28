@@ -1,9 +1,8 @@
 IDstr=5f3e78a7fbf956000b716b8e
 Name=M45A1 Novak Lomount front sight
 ShortName=M45 Lomount
-Itemtype=Ironsight
 Information_Eng=The Lomount front sight for the M45A1 pistol, manufactured by Novak.
-basePrice=750
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.002000

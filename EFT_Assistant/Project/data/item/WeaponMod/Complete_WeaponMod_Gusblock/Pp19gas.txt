@@ -1,9 +1,8 @@
 IDstr=59ccd11386f77428f24a488f
 Name=PP-19-01 "Vityaz" gas tube
 ShortName=19-01 gas
-Itemtype=Gas block
 Information_Eng=A standard gas tube for PP-19-01 Vityaz submachine guns. Gas tubes channel the travel direction of gas piston.
-basePrice=1793
+Itemtype=Gas block
 width=1
 height=1
 weight=0.110000

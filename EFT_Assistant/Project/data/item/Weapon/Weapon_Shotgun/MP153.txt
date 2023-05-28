@@ -1,9 +1,8 @@
 IDstr=56dee2bdd2720bc8328b4567
 Name=MP-153 12ga semi-automatic shotgun
 ShortName=MP-153
-Itemtype=Shotgun
 Information_Eng=The MP-153 smoothbore multi-shot shotgun, manufactured by IzhMekh ("Izhevsky Mechanical Plant"). A reliable and practical hunting and self-defense weapon.
-basePrice=14981
+Itemtype=Shotgun
 width=3
 height=1
 weight=1.200000

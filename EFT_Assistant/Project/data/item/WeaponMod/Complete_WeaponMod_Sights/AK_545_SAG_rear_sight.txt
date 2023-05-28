@@ -1,9 +1,8 @@
 IDstr=628b9471078f94059a4b9bfb
 Name=AK-545 SAG rear sight
 ShortName=AK-545 RS
-Itemtype=Ironsight
 Information_Eng=A standard rear sight for AK-545 carbines, manufactured by Sureshot Armament Group.
-basePrice=700
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.015000

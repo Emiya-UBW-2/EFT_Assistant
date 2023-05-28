@@ -1,9 +1,8 @@
 IDstr=6194f35c18a3974e5e7421e6
 Name=HK USP front sight
 ShortName=USP FS
-Itemtype=Ironsight
 Information_Eng=A standard-issue front sight for the USP pistol, manufactured by Heckler & Koch.
-basePrice=600
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.003000

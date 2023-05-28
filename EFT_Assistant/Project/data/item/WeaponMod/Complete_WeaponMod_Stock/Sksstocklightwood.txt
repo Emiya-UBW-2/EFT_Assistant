@@ -1,9 +1,8 @@
 IDstr=587e0531245977466077a0f7
 Name=OP-SKS wooden stock
 ShortName=OP-SKS Wood
-Itemtype=Stock
 Information_Eng=A standard-issue wooden stock for OP-SKS carbines, manufactured by Molot Arms.
-basePrice=1885
+Itemtype=Stock
 width=4
 height=1
 weight=0.913000

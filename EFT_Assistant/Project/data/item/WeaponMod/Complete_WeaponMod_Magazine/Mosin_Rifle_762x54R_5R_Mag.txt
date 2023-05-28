@@ -1,9 +1,8 @@
 IDstr=5ae0973a5acfc4001562206c
 Name=Mosin Rifle 7.62x54R 5-round magazine
 ShortName=Mosin
-Itemtype=Magazine
 Information_Eng=A standard 7.62x54R 5-round magazine designed for the Mosin rifle. The magazine is installed into the rifle internally and cannot be ejected on the spot, so it's not recommended to take multiple of them into a raid.
-basePrice=1970
+Itemtype=Magazine
 width=1
 height=1
 weight=0.400000

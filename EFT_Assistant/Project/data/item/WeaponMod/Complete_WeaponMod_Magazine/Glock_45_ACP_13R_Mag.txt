@@ -1,9 +1,8 @@
 IDstr=5fb651b52b1b027b1f50bcff
 Name=Glock .45 ACP 13-round magazine
 ShortName=Glock .45
-Itemtype=Magazine
 Information_Eng=A standard-issue 13-round magazine for the Glock 21, chambered in .45 ACP.
-basePrice=1550
+Itemtype=Magazine
 width=1
 height=1
 weight=0.096000

@@ -1,9 +1,8 @@
 IDstr=6038b4ca92ec1c3103795a0d
 Name=LBT-6094A Slick Plate Carrier (Olive Drab)
 ShortName=Slick
-Itemtype=Armor
 Information_Eng=A simple yet effective plate carrier by London Bridge Trading company. The most minimalistic design intended for use with chest rigs. Olive Drab version.
-basePrice=374500
+Itemtype=Armor
 width=3
 height=3
 weight=9.700000

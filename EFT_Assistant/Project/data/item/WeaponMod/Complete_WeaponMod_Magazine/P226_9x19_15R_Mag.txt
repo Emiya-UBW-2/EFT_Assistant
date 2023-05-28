@@ -1,9 +1,8 @@
 IDstr=56d59948d2720bb7418b4582
 Name=P226 9x19 15-round magazine
 ShortName=P226
-Itemtype=Magazine
 Information_Eng=A standard 15-round 9x19 magazine for the SIG Sauer P226 pistol.
-basePrice=2096
+Itemtype=Magazine
 width=1
 height=1
 weight=0.096000

@@ -1,9 +1,8 @@
 IDstr=5efb0fc6aeb21837e749c801
 Name=.45 ACP Hydra-Shok
 ShortName=HydraShok
-Itemtype=Ammo
 Information_Eng=A .45 ACP (11.43x23mm) Hydra-Shok cartridge with a 14.9 gram lead center-post hollow-point bullet with a copper semi-jacket, in a brass case. Despite having a slightly lower muzzle velocity for its caliber, this cartridge provides one of the best energy transference of the .45 ACP caliber, and can cause severe adverse effects on the target after impact, offering an outstanding stopping power effect at the cost of penetration capabilities.
-basePrice=99
+Itemtype=Ammo
 width=1
 height=1
 weight=0.017000

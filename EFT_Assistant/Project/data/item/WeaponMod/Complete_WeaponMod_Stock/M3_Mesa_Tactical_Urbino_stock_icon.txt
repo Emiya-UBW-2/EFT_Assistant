@@ -1,9 +1,8 @@
 IDstr=625eb0faa6e3a82193267ad9
 Name=Benelli M3 Mesa Tactical Urbino stock
 ShortName=M3 Urbino
-Itemtype=Stock
 Information_Eng=The Urbino fixed-length stock with a pistol grip for the Benelli M3 S90 shotgun manufactured by Mesa Tactical. 
-basePrice=6600
+Itemtype=Stock
 width=2
 height=2
 weight=1.043000

@@ -1,14 +1,13 @@
 IDstr=62a0a124de7ac81993580542
 Name=Topographic survey maps
 ShortName=Maps
-Itemtype=Info
 Information_Eng=A set of various maps of the area with applied schemes, which are of high value as reconnaissance materials.
-basePrice=72000
+Itemtype=Info
 width=2
 height=1
 weight=0.270000
 Sell_Fence=28800
 Sell_Peacekeeper=272
-Sell_Flea Market=42999
+Sell_Flea Market=40000
 fleaMarketFee=0
 propertiestype=

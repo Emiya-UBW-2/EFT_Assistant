@@ -1,9 +1,8 @@
 IDstr=5dcbd6dddbd3d91b3e5468de
 Name=MDR pistol grip (Black)
 ShortName=MDR Black
-Itemtype=Pistol grip
 Information_Eng=A standard pistol grip for MDR assault rifles, manufactured by Desert Tech. Black version.
-basePrice=2320
+Itemtype=Pistol grip
 width=1
 height=1
 weight=0.080000

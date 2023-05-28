@@ -1,9 +1,8 @@
 IDstr=5c471bfc2e221602b21d4e17
 Name=SVDS 7.62x54R muzzle brake-compensator
 ShortName=SVDS
-Itemtype=Flashhider
 Information_Eng=A standard Izhmash-produced muzzle brake and compensator for the SVDS.
-basePrice=602
+Itemtype=Flashhider
 width=1
 height=1
 weight=0.080000

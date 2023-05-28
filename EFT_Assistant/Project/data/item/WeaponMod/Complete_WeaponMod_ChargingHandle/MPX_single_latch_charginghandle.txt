@@ -1,9 +1,8 @@
 IDstr=58949fac86f77409483e16aa
 Name=MPX single latch charging handle
 ShortName=MPX 1x
-Itemtype=Charging handle
 Information_Eng=A retracting handle with one latch for MPX-based weapons. Manufactured by SIG Sauer.
-basePrice=700
+Itemtype=Charging handle
 width=1
 height=1
 weight=0.032000

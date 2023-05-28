@@ -1,9 +1,8 @@
 IDstr=622b327b267a1b13a44abea3
 Name=HK G36 gas block
 ShortName=G36 block
-Itemtype=Gas block
 Information_Eng=A gas block designed for the G36 assault rifles, manufactured by Heckler & Koch.
-basePrice=3000
+Itemtype=Gas block
 width=1
 height=1
 weight=0.060000

@@ -1,15 +1,14 @@
 IDstr=5914578086f774123569ffa4
 Name=Dorm room 108 key
 ShortName=Dorm 108
-Itemtype=Mechanical Key
 Information_Eng=A key to the three-story dormitory with a tag reading "108" on it.
-basePrice=6023
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000
 Sell_Prapor=3011
 Sell_Therapist=3794
-Sell_Flea Market=5000
+Sell_Flea Market=13000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Customs

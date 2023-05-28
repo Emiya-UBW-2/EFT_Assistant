@@ -1,9 +1,8 @@
 IDstr=5580223e4bdc2d1c128b457f
 Name=MP-43-1C 12ga double-barrel shotgun
 ShortName=MP-43-1C
-Itemtype=Shotgun
 Information_Eng=A hunter's dream. A classic double-barrelled beauty, simple and elegant. Fed with 12 gauge shells.
-basePrice=5800
+Itemtype=Shotgun
 width=2
 height=1
 weight=3.500000

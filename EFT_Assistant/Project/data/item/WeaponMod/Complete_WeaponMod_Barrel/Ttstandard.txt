@@ -1,9 +1,8 @@
 IDstr=571a26d524597720680fbe8a
 Name=TT 7.62x25 116mm barrel
 ShortName=TT 116mm
-Itemtype=Barrel
 Information_Eng=A standard-issue barrel for the TT pistol.
-basePrice=1165
+Itemtype=Barrel
 width=1
 height=1
 weight=0.060000

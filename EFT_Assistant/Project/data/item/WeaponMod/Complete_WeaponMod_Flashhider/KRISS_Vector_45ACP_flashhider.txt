@@ -1,9 +1,8 @@
 IDstr=5fb65424956329274326f316
 Name=KRISS Vector .45 ACP flash hider
 ShortName=Vector .45
-Itemtype=Flashhider
 Information_Eng=A standard-issue flash hider for the KRISS Vector .45 ACP SMG.
-basePrice=1340
+Itemtype=Flashhider
 width=1
 height=1
 weight=0.064000

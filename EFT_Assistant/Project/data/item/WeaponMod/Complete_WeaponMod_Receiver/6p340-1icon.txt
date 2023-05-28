@@ -1,9 +1,8 @@
 IDstr=5ac50da15acfc4001718d287
 Name=AK-74M dust cover (6P34 0-1)
 ShortName=6P34 0-1
-Itemtype=Receiver
 Information_Eng=A standard-issue dust cover for AK-74M automatic rifles, manufactured by Izhmash.
-basePrice=1009
+Itemtype=Receiver
 width=2
 height=1
 weight=0.088000

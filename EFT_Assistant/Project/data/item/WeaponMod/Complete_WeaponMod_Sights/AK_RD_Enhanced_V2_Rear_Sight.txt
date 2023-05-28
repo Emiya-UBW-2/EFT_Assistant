@@ -1,9 +1,8 @@
 IDstr=628a7b23b0f75035732dd565
 Name=AK RD Enhanced V2 Rear Sight
 ShortName=V2 ERS
-Itemtype=Ironsight
 Information_Eng=The V2 Enhanced rear sight for AK automatic rifles, manufactured by Rifle Dynamics.
-basePrice=1800
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.026000

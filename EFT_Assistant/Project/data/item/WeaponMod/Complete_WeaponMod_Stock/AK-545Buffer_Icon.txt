@@ -1,9 +1,8 @@
 IDstr=628b9a40717774443b15e9f2
 Name=AK-545 SAG buffer tube
 ShortName=SAG tube
-Itemtype=Stock
 Information_Eng=Sureshot Armament Group Receiver Extension Buffer Tube, 6-position, Mil-Spec diameter, designed specifically for AK-545.
-basePrice=7800
+Itemtype=Stock
 width=2
 height=1
 weight=0.175000

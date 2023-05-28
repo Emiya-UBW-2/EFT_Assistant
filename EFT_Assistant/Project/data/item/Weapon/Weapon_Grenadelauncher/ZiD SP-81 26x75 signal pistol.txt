@@ -1,9 +1,8 @@
 IDstr=620109578d82e67e7911abf2
 Name=ZiD SP-81 26x75 signal pistol
 ShortName=SP-81
-Itemtype=Grenade launcher
 Information_Eng=A smoothbore hand pistol designed for firing signal flare cartridges of various burning colors. Manufactured by V.A. Degtyarev Plant.
-basePrice=9878
+Itemtype=Grenade launcher
 width=2
 height=1
 weight=0.600000

@@ -1,15 +1,14 @@
 IDstr=63a39fd1c9b3aa4b61683efb
 Name=Stair landing key
 ShortName=Stairs
-Itemtype=Mechanical Key
 Information_Eng=A key to the one of the stair landings of the Chekannaya Street 15 building.
-basePrice=9774
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000
 Sell_Prapor=4887
 Sell_Therapist=6157
-Sell_Flea Market=18000
+Sell_Flea Market=27500
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Streets of Tarkov

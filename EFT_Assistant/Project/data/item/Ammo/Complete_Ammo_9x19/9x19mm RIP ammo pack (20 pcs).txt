@@ -1,9 +1,8 @@
 IDstr=5c1127bdd174af44217ab8b9
 Name=9x19mm RIP ammo pack (20 pcs)
 ShortName=RIP
-Itemtype=Ammo container
 Information_Eng=A cardboard box of 9x19mm RIP cartridges, 20 pieces.
-basePrice=1000
+Itemtype=Ammo container
 width=1
 height=1
 weight=0.010000

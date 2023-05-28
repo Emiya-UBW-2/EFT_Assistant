@@ -1,9 +1,8 @@
 IDstr=5c6d11072e2216000e69d2e4
 Name=HK 416A5 Midwest Industries 13.5 inch M-LOK handguard
 ShortName=416A5 Midwest 13.5"
-Itemtype=Handguard
 Information_Eng=The Midwest Industries M-LOK foregrip for 416A5 equipped with an M-LOK interface for the installation of additional devices and accessories.
-basePrice=14400
+Itemtype=Handguard
 width=3
 height=1
 weight=0.370000

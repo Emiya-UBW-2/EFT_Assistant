@@ -1,15 +1,14 @@
 IDstr=61a64492ba05ef10d62adcc1
 Name=Rogue USEC stash key
 ShortName=Stash
-Itemtype=Mechanical Key
 Information_Eng=A key to the stash, located somewhere at the Rogue USEC base.
-basePrice=34401
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000
 Sell_Prapor=17200
 Sell_Therapist=21672
-Sell_Flea Market=22000
+Sell_Flea Market=31111
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Lighthouse

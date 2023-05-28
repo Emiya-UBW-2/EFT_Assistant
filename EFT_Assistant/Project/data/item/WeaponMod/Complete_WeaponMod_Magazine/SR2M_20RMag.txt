@@ -1,9 +1,8 @@
 IDstr=633a98eab8b0506e48497c1a
 Name=SR-2M 9x21 20-round magazine
 ShortName=SR-2M
-Itemtype=Magazine
 Information_Eng=A standard 20-round capacity magazine for SR-2M "Veresk", manufactured by TsNIItochmash.
-basePrice=2900
+Itemtype=Magazine
 width=1
 height=1
 weight=0.130000

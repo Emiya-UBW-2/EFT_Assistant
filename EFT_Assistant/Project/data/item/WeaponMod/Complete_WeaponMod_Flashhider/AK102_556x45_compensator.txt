@@ -1,9 +1,8 @@
 IDstr=5ac72e725acfc400180ae701
 Name=AK-102 5.56x45 muzzle brake-compensator (6P44 0-20)
 ShortName=6P44 0-20
-Itemtype=Flashhider
 Information_Eng=A standard Izhmash-produced muzzle brake and compensator for the AK-102 assault rifle.
-basePrice=602
+Itemtype=Flashhider
 width=1
 height=1
 weight=0.100000

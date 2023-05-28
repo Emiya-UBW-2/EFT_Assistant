@@ -1,10 +1,9 @@
 IDstr=5447a9cd4bdc2dbd208b4567
 Name=Colt M4A1 5.56x45 assault rifle
 ShortName=M4A1
-Itemtype=Assault rifle
 Information_Eng=The Colt M4A1 carbine is a fully automatic variant of the basic M4 Carbine and was primarily designed for special operations use.
 However, U.S. Special Operations Command (USSOCOM) was soon to adopt the M4A1 for almost all special operations units, followed later by general introduction of the M4A1 into service with the U.S. Army and Marine Corps.
-basePrice=18397
+Itemtype=Assault rifle
 width=1
 height=1
 weight=0.380000
@@ -13,7 +12,7 @@ Sell_Fence=7358
 Sell_Skier=9014
 Sell_Peacekeeper=70
 Sell_Mechanic=10302
-Sell_Flea Market=53000
+Sell_Flea Market=70000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100

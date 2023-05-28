@@ -1,15 +1,14 @@
 IDstr=5c127c4486f7745625356c13
 Name=Magazine case
 ShortName=Magazines
-Itemtype=Common container
 Information_Eng=A wheeled weapon magazine storage case.
-basePrice=235000
+Itemtype=Common container
 width=3
 height=2
 weight=6.000000
 Sell_Therapist=148050
 Sell_Ragman=145700
 Sell_Jaeger=141000
-Sell_Flea Market=177777
+Sell_Flea Market=184000
 fleaMarketFee=0
 propertiestype=ItemPropertiesContainer

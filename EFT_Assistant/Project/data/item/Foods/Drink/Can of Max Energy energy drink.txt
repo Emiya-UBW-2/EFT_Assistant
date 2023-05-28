@@ -1,15 +1,14 @@
 IDstr=5751435d24597720a27126d1
 Name=Can of Max Energy energy drink
 ShortName=MaxEnergy
-Itemtype=Drink
 Information_Eng=Max Energy energy drink, designed like a battery, but different in contents - regular caffeine, sugar, and flavoring.
-basePrice=8934
+Itemtype=Drink
 width=1
 height=1
 weight=0.360000
 Sell_Therapist=5628
 Sell_Fence=3573
 Sell_Jaeger=5360
-Sell_Flea Market=20000
+Sell_Flea Market=15888
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink

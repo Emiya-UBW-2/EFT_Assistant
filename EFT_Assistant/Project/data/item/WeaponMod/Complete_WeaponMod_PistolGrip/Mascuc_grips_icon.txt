@@ -1,9 +1,8 @@
 IDstr=5bffef760db8340019668fe4
 Name=P226 Hogue G10 Chain Link pistol grip
 ShortName=P226 CL
-Itemtype=Pistol grip
 Information_Eng=The G10 Chain Link pistol grip for P226 pistols. Manufactured by Hogue.
-basePrice=8300
+Itemtype=Pistol grip
 width=1
 height=1
 weight=0.090000

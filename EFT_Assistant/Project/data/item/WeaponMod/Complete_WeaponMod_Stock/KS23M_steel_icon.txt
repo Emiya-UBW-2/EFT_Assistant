@@ -1,9 +1,8 @@
 IDstr=5e848dc4e4dbc5266a4ec63d
 Name=KS-23M wire stock
 ShortName=KS23M steel
-Itemtype=Stock
 Information_Eng=A steel wired stock for the KS-23M shotgun, manufactured by TOZ.
-basePrice=1900
+Itemtype=Stock
 width=2
 height=1
 weight=0.260000

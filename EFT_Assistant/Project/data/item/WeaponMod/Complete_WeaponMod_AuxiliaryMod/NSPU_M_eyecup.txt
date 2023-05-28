@@ -1,9 +1,8 @@
 IDstr=5ba36f85d4351e0085325c81
 Name=NSPU-M scope eyecup
 ShortName=NSPU-M cup
-Itemtype=Auxiliary Mod
 Information_Eng=A rubber eyecup for the NSPU-M night scope.
-basePrice=261
+Itemtype=Auxiliary Mod
 width=1
 height=1
 weight=0.005000

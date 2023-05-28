@@ -1,9 +1,8 @@
 IDstr=5ce69cbad7f00c00b61c5098
 Name=M700 7.62x51 Magpul PMAG AC 5-round magazine
 ShortName=PMAG AC
-Itemtype=Magazine
 Information_Eng=A Remington M700 sniper rifle 5-round polymer magazine by Magpul. It accepts 7.62x51 cartridges.
-basePrice=2800
+Itemtype=Magazine
 width=1
 height=1
 weight=0.090000

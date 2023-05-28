@@ -1,15 +1,14 @@
 IDstr=5a0f08bc86f77478f33b84c2
 Name=Health Resort management office safe key
 ShortName=Safe
-Itemtype=Mechanical Key
 Information_Eng=A key to the Azure Coast sanatorium administration office safe, located in the Administration building.
-basePrice=19205
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000
 Sell_Prapor=9602
 Sell_Therapist=12099
-Sell_Flea Market=40000
+Sell_Flea Market=60000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Shoreline

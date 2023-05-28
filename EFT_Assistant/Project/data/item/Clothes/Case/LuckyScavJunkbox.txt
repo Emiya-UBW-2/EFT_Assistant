@@ -1,9 +1,8 @@
 IDstr=5b7c710788a4506dec015957
 Name=Lucky Scav Junk box
 ShortName=Junk
-Itemtype=Common container
 Information_Eng=A large storage case for all sorts of different items and goods that you may or may not need for later barters.
-basePrice=1215269
+Itemtype=Common container
 width=4
 height=4
 weight=15.000000

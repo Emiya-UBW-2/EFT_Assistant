@@ -1,9 +1,8 @@
 IDstr=5ea034f65aad6446a939737e
 Name=PPSh-41 7.62x25 71-round drum magazine
 ShortName=PPSh
-Itemtype=Magazine
 Information_Eng=A 71-round 7.62x25 steel drum magazine for the PPSh-41.
-basePrice=16000
+Itemtype=Magazine
 width=2
 height=2
 weight=0.900000

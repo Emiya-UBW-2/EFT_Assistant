@@ -1,9 +1,8 @@
 IDstr=5cadd940ae9215051e1c2316
 Name=M9A3 rear sight
 ShortName=M9A3 RS
-Itemtype=Ironsight
 Information_Eng=A standard-issue rear sight for Beretta M9A3 pistols.
-basePrice=505
+Itemtype=Ironsight
 width=1
 height=1
 weight=0.008000

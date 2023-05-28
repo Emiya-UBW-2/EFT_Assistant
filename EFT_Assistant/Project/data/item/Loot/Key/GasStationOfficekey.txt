@@ -1,15 +1,14 @@
 IDstr=5780d0652459777df90dcb74
 Name=Gas station office key
 ShortName=Gas office
-Itemtype=Mechanical Key
 Information_Eng=A key to the director's office room inside one of the gas stations.
-basePrice=7755
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000
 Sell_Prapor=3877
 Sell_Therapist=4885
-Sell_Flea Market=70100
+Sell_Flea Market=66500
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Customs

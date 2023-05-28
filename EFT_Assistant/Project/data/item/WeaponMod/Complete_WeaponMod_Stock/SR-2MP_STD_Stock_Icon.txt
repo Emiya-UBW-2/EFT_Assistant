@@ -1,9 +1,8 @@
 IDstr=62e2969582ebf260c20539c2
 Name=SR-2MP folding stock
 ShortName=SR-2MP
-Itemtype=Stock
 Information_Eng=A folding stock for SR-2MP submachine gun, manufactured by TsNIItochmash. The buttstock has a spring-loaded butt plate which reduces the time it takes to shoulder the weapon.
-basePrice=2100
+Itemtype=Stock
 width=2
 height=1
 weight=0.204000

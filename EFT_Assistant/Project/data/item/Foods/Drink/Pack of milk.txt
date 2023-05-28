@@ -1,15 +1,14 @@
 IDstr=575146b724597720a27126d5
 Name=Pack of milk
 ShortName=Milk
-Itemtype=Drink
 Information_Eng=A 1 litre box of milk that mysteriously survived until now. Drink at your own discretion.
-basePrice=14753
+Itemtype=Drink
 width=1
 height=2
 weight=1.000000
 Sell_Therapist=9294
 Sell_Fence=5901
 Sell_Jaeger=8851
-Sell_Flea Market=22000
+Sell_Flea Market=19000
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink

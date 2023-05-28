@@ -1,9 +1,8 @@
 IDstr=5c093ca986f7740a1867ab12
 Name=Secure container Kappa
 ShortName=Kappa
-Itemtype=Port. container
 Information_Eng=A secret TerraGroup invention - the Kappa secured container.
-basePrice=4900000
+Itemtype=Port. container
 width=3
 height=3
 weight=2.000000

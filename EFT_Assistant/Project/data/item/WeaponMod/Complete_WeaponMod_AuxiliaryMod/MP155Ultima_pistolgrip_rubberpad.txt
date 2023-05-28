@@ -1,9 +1,8 @@
 IDstr=60785c0d232e5a31c233d51c
 Name=MP-155 Ultima pistol grip rubber pad
 ShortName=Ultima rbr.
-Itemtype=Auxiliary Mod
 Information_Eng=The "Ultima" modification ergonomical rubber pad for the MP-155 pistol grip. Manufactured by Kalashnikov Group.
-basePrice=1476
+Itemtype=Auxiliary Mod
 width=1
 height=1
 weight=0.050000

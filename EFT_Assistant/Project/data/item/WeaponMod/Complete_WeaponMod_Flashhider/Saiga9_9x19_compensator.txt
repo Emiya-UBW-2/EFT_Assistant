@@ -1,9 +1,8 @@
 IDstr=5998598e86f7740b3f498a86
 Name=Saiga-9 9x19 muzzle brake-compensator
 ShortName=Saiga-9
-Itemtype=Flashhider
 Information_Eng=A standard muzzle brake-compensator made by Izhmash for Saiga-9 carbines.
-basePrice=500
+Itemtype=Flashhider
 width=1
 height=1
 weight=0.070000

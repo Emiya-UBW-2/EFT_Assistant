@@ -1,9 +1,8 @@
 IDstr=5e848d99865c0f329958c83b
 Name=KS-23M pistol grip
 ShortName=KS23M
-Itemtype=Pistol grip
 Information_Eng=A polymer pistol grip for the KS-23M shotgun, manufactured by TOZ.
-basePrice=2608
+Itemtype=Pistol grip
 width=1
 height=1
 weight=0.150000

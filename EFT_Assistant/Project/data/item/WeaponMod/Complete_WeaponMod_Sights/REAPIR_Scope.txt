@@ -1,9 +1,8 @@
 IDstr=5a1eaa87fcdbcb001865f75e
 Name=Trijicon REAP-IR thermal scope
 ShortName=REAP-IR
-Itemtype=Special scope
 Information_Eng=A versatile thermal imaging telescope/sight. It can be installed on weapons for use in the form of a riflesight, on a helmet - via adapter - as a monocular, and as a separate observation device.
-basePrice=355794
+Itemtype=Special scope
 width=2
 height=1
 weight=0.580000

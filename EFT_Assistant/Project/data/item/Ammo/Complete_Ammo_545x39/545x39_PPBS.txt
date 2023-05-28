@@ -1,9 +1,8 @@
 IDstr=5c0d5e4486f77478390952fe
 Name=5.45x39mm PPBS gs "Igolnik"
 ShortName=PPBS
-Itemtype=Ammo
 Information_Eng=A 5.45x39mm PPBS gs (GRAU Index - 7N39) cartridge with a 4 gram armor-piercing bullet with a pointed tungsten carbide core with two-layer jacket, a lead interior and a bimetallic exterior, in a steel case. This experimental cartridge was developed by TsNIITochMash and TechKomplekt under the name of PPBS (Povyshennoy Probivayemosti, Broneboynyy Serdechnik - "Increased Penetration, Armor-piercing Core") "Igólnik" ("Needlecase") based on the 5.45x39mm BS gs cartridge to increase its penetration capabilities, providing excellent results against the most modern specialized ballistic body protections, in addition to being capable of piercing light covers and light armored vehicles, however, due to its design, it has a high bounce probability off various surfaces.
-basePrice=1810
+Itemtype=Ammo
 width=1
 height=1
 weight=0.011000

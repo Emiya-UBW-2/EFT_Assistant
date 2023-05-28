@@ -1,9 +1,8 @@
 IDstr=6194f5a318a3974e5e7421eb
 Name=HK USP Match .45 ACP pistol slide
 ShortName=USP45M
-Itemtype=Receiver
 Information_Eng=A pistol slide for the special version of the USP45 pistol - USP45 Match, manufactured by Heckler & Koch.
-basePrice=3600
+Itemtype=Receiver
 width=2
 height=1
 weight=0.450000

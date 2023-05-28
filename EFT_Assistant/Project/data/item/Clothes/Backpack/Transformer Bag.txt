@@ -1,15 +1,14 @@
 IDstr=56e33680d2720be2748b4576
 Name=Transformer Bag
 ShortName=T-Bag
-Itemtype=Backpack
 Information_Eng=A rather spacious messenger bag, large enough to fit a lunchbox, laptop and some papers - or a small emergency survival kit. Its transformable sling and universal size allow it to be worn both as bag and a compact backpack.
-basePrice=1831
+Itemtype=Backpack
 width=3
 height=3
 weight=0.840000
 Sell_Fence=732
 Sell_Ragman=1135
 Sell_Jaeger=1098
-Sell_Flea Market=11000
+Sell_Flea Market=8000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack

@@ -1,9 +1,8 @@
 IDstr=5ac66c5d5acfc4001718d314
 Name=AK-101 5.56x45 6L29 30-round magazine
 ShortName=6L29
-Itemtype=Magazine
 Information_Eng=A 30-round 5.56x45 Izhmash 6L29 polymer magazine for AK-101 and compatible systems.
-basePrice=1808
+Itemtype=Magazine
 width=1
 height=2
 weight=0.215000

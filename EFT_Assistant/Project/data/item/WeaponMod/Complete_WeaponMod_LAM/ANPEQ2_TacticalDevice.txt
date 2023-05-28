@@ -1,9 +1,8 @@
 IDstr=5d10b49bd7ad1a1a560708b0
 Name=AN/PEQ-2 tactical device
 ShortName=AN/PEQ-2
-Itemtype=Comb. tact. device
 Information_Eng=ATPIAL (Advanced Target Pointer Illuminator Aiming Laser) AN/PEQ-2 produced by L3 Insight Technologies. Tactical device that combines an IR laser designator with an IR searchlight.
-basePrice=10258
+Itemtype=Comb. tact. device
 width=1
 height=1
 weight=0.210000

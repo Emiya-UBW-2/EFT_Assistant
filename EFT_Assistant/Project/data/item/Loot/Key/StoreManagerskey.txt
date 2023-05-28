@@ -1,9 +1,9 @@
-IDstr=63a39c69af870e651d58e6aa
+Map=Streets of Tarkov
+d58e6aa
 Name=Store manager's key
 ShortName=Store
-Itemtype=Mechanical Key
 Information_Eng=A key to manager's office room inside one of the city stores.
-basePrice=19106
+Itemtype=Mechanical Key
 width=1
 height=1
 weight=0.010000
