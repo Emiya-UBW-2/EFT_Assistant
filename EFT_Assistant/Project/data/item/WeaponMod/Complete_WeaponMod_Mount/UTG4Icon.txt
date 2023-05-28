@@ -2,6 +2,26 @@ IDstr=5addbfef5acfc400185c2857
 Name=M14 Leapers UTG 4-Point Locking Deluxe mount
 ShortName=UTG 4p
 Itemtype=Mount
+Information_Eng=The 4-Point Locking Deluxe mount for M14 rifles, manufactured by Leapers Inc. It has Weaver/Picatinny type rails for mounting various scopes and reflex sights.
+basePrice=9811
+width=1
+height=1
+Sell_Prapor=4905
+Sell_Fence=3924
+Sell_Skier=4807
+Sell_Peacekeeper=37
+Sell_Mechanic=5494
+Sell_Jaeger=5886
+Sell_Flea Market=13333
+weight=0.250000
+fleaMarketFee=713
+Conflict=[
+	M14 SAGE International DCSB mount/|
+	M14 Vltor CASV-14 rail system/|
+	M14 SAGE International M14ALCS chassis/|
+	M14 TROY S.A.S.S. Chassis stock
+]
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
 	ELCAN SpecterDR 1x/4x scope (FDE)/|
@@ -62,25 +82,5 @@ ChildParts=[
 	SwampFox Trihawk Prism Scope 3x30/|
 	AI AX-50 34mm scope mount
 ]
-Conflict=[
-	M14 SAGE International DCSB mount/|
-	M14 Vltor CASV-14 rail system/|
-	M14 SAGE International M14ALCS chassis/|
-	M14 TROY S.A.S.S. Chassis stock
-]
 Recoil=0.000000
 Ergonomics=-2.000000
-Information_Eng=The 4-Point Locking Deluxe mount for M14 rifles, manufactured by Leapers Inc. It has Weaver/Picatinny type rails for mounting various scopes and reflex sights.
-basePrice=9811
-width=1
-height=1
-Sell_Prapor=4905
-Sell_Fence=3924
-Sell_Skier=4807
-Sell_Peacekeeper=37
-Sell_Mechanic=5494
-Sell_Jaeger=5886
-Sell_Flea Market=13333
-weight=0.250000
-fleaMarketFee=713
-propertiestype=ItemPropertiesWeaponMod

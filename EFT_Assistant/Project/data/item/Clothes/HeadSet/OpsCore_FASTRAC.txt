@@ -2,6 +2,16 @@ IDstr=5a16b9fffcdbcb0176308b34
 Name=Ops-Core FAST RAC Headset
 ShortName=RAC
 Itemtype=Headphones
+Information_Eng=A component for the Ops-Core FAST helmet - a system of noise reduction and amplification of quiet sounds, as well as a radio headset when connected to the communication device.
+basePrice=46636
+width=2
+height=1
+Sell_Fence=18654
+Sell_Skier=22851
+Sell_Ragman=28914
+Sell_Flea Market=52222
+weight=0.600000
+fleaMarketFee=2960
 Conflict=[
 	Ops-Core FAST Side Armor/|
 	Peltor ComTac 2 headset/|
@@ -10,14 +20,4 @@ Conflict=[
 	GSSh-01 active headset/|
 	Peltor Tactical Sport headset
 ]
-Information_Eng=A component for the Ops-Core FAST helmet - a system of noise reduction and amplification of quiet sounds, as well as a radio headset when connected to the communication device.
-basePrice=46636
-width=2
-height=1
-Sell_Fence=18654
-Sell_Skier=22851
-Sell_Ragman=28914
-Sell_Flea Market=50000
-weight=0.600000
-fleaMarketFee=2890
 propertiestype=

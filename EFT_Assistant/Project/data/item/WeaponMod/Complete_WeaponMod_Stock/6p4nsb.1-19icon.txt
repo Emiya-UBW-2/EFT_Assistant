@@ -2,11 +2,6 @@ IDstr=5abcd472d8ce8700166032ae
 Name=AKMSN shoulder piece (6P4N Sb.1-19)
 ShortName=6P4N Sb.1-19
 Itemtype=Stock
-ChildParts=[
-	AK GP-25 accessory kit recoil pad
-]
-Recoil=-30.000002
-Ergonomics=9.000000
 Information_Eng=A folding shoulder piece assembly for AKMSN automatic rifles, manufactured by Izhmash.
 basePrice=1556
 width=2
@@ -21,3 +16,8 @@ Sell_Flea Market=14444
 weight=0.600000
 fleaMarketFee=1664
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	AK GP-25 accessory kit recoil pad
+]
+Recoil=-30.000002
+Ergonomics=9.000000

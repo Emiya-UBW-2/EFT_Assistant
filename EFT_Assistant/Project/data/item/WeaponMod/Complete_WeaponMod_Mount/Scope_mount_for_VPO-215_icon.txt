@@ -2,6 +2,28 @@ IDstr=5de6558e9f98ac2bc65950fc
 Name=VPO-215 "Gornostay" scope rail mount
 ShortName=215 rail
 Itemtype=Mount
+Information_Eng=A universal rail mount for the VPO-215 "Gornostay" rifle, allows installation of various optics.
+basePrice=1500
+width=2
+height=1
+Sell_Prapor=750
+Sell_Fence=600
+Sell_Skier=735
+Sell_Peacekeeper=6
+Sell_Mechanic=840
+Sell_Jaeger=900
+Sell_Flea Market=66666
+weight=0.090000
+fleaMarketFee=21560
+Conflict=[
+	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
+	OKP-7 reflex sight (Dovetail)/|
+	BelOMO PSO-1M2-1 4x24 scope/|
+	NSPU-M night vision scope/|
+	Axion Kobra dovetail mount/|
+	VOMZ Pilad 043-02 dovetail mount
+]
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
 	ELCAN SpecterDR 1x/4x scope (FDE)/|
@@ -62,27 +84,5 @@ ChildParts=[
 	SwampFox Trihawk Prism Scope 3x30/|
 	AI AX-50 34mm scope mount
 ]
-Conflict=[
-	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
-	OKP-7 reflex sight (Dovetail)/|
-	BelOMO PSO-1M2-1 4x24 scope/|
-	NSPU-M night vision scope/|
-	Axion Kobra dovetail mount/|
-	VOMZ Pilad 043-02 dovetail mount
-]
 Recoil=0.000000
 Ergonomics=-1.000000
-Information_Eng=A universal rail mount for the VPO-215 "Gornostay" rifle, allows installation of various optics.
-basePrice=1500
-width=2
-height=1
-Sell_Prapor=750
-Sell_Fence=600
-Sell_Skier=735
-Sell_Peacekeeper=6
-Sell_Mechanic=840
-Sell_Jaeger=900
-Sell_Flea Market=66666
-weight=0.090000
-fleaMarketFee=21560
-propertiestype=ItemPropertiesWeaponMod

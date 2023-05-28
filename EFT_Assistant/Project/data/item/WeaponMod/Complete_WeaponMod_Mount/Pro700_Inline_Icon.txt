@@ -2,6 +2,28 @@ IDstr=5cdeaca5d7f00c00b61c4b70
 Name=M700 Magpul Pro 700 chassis inline mount
 ShortName=Pro700 rail
 Itemtype=Mount
+Information_Eng=A universal mount rail by Magpul for installation of additional tactical devices, can be installed on the Pro 700 chasiss for the Remington M700 sniper rifle.
+basePrice=2340
+width=2
+height=1
+Sell_Prapor=1170
+Sell_Fence=936
+Sell_Skier=1146
+Sell_Peacekeeper=9
+Sell_Mechanic=1310
+Sell_Jaeger=1404
+Sell_Flea Market=10000
+weight=0.280000
+fleaMarketFee=726
+Conflict=[
+	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
+	OKP-7 reflex sight (Dovetail)/|
+	BelOMO PSO-1M2-1 4x24 scope/|
+	NSPU-M night vision scope/|
+	Axion Kobra dovetail mount/|
+	VOMZ Pilad 043-02 dovetail mount
+]
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Holosun LS321 Tactical device/|
 	AN/PEQ-15 tactical device/|
@@ -21,27 +43,5 @@ ChildParts=[
 	MCX flip-up front sight/|
 	MPX flip-up front sight
 ]
-Conflict=[
-	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
-	OKP-7 reflex sight (Dovetail)/|
-	BelOMO PSO-1M2-1 4x24 scope/|
-	NSPU-M night vision scope/|
-	Axion Kobra dovetail mount/|
-	VOMZ Pilad 043-02 dovetail mount
-]
 Recoil=0.000000
 Ergonomics=-1.000000
-Information_Eng=A universal mount rail by Magpul for installation of additional tactical devices, can be installed on the Pro 700 chasiss for the Remington M700 sniper rifle.
-basePrice=2340
-width=2
-height=1
-Sell_Prapor=1170
-Sell_Fence=936
-Sell_Skier=1146
-Sell_Peacekeeper=9
-Sell_Mechanic=1310
-Sell_Jaeger=1404
-Sell_Flea Market=10000
-weight=0.280000
-fleaMarketFee=726
-propertiestype=ItemPropertiesWeaponMod

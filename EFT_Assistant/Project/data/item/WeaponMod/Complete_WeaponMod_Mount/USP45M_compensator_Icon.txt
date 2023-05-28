@@ -2,6 +2,26 @@ IDstr=619624b26db0f2477964e6b0
 Name=HK USP .45 ACP Match compensator
 ShortName=USP45M
 Itemtype=Mount
+Information_Eng=The Match compensator from the special USP Match pistol kit will add additional weight to the front of your gun assisting to reduce vertical recoil "bounce". Features a mount for installation of additional tactical equipment. Manufactured by Heckler & Koch.
+basePrice=6200
+width=1
+height=1
+Sell_Prapor=3100
+Sell_Fence=2480
+Sell_Skier=3038
+Sell_Peacekeeper=23
+Sell_Mechanic=3472
+Sell_Jaeger=3720
+Sell_Flea Market=14444
+weight=0.340000
+fleaMarketFee=805
+Conflict=[
+	SilencerCo Omega 45k Piston Mount adapter/|
+	HK USP .45 ACP barrel/|
+	HK USP Tactical .45 ACP threaded barrel/|
+	HK USP Expert .45 ACP barrel
+]
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	NcSTAR Tactical blue laser LAM-module/|
@@ -14,25 +34,5 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)
 ]
-Conflict=[
-	SilencerCo Omega 45k Piston Mount adapter/|
-	HK USP .45 ACP barrel/|
-	HK USP Tactical .45 ACP threaded barrel/|
-	HK USP Expert .45 ACP barrel
-]
 Recoil=-15.000001
 Ergonomics=-12.000000
-Information_Eng=The Match compensator from the special USP Match pistol kit will add additional weight to the front of your gun assisting to reduce vertical recoil "bounce". Features a mount for installation of additional tactical equipment. Manufactured by Heckler & Koch.
-basePrice=6200
-width=1
-height=1
-Sell_Prapor=3100
-Sell_Fence=2480
-Sell_Skier=3038
-Sell_Peacekeeper=23
-Sell_Mechanic=3472
-Sell_Jaeger=3720
-Sell_Flea Market=24800
-weight=0.340000
-fleaMarketFee=1739
-propertiestype=ItemPropertiesWeaponMod

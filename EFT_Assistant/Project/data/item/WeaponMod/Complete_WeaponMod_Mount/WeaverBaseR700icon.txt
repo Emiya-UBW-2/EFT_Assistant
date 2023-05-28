@@ -2,6 +2,28 @@ IDstr=5bfebc530db834001d23eb65
 Name=M700 extended multi-slot Weaver rail base
 ShortName=M700 Multi-slot
 Itemtype=Mount
+Information_Eng=A Weaver-type extended multi-slot rail base for the Remington Model 700 bolt-action sniper rifle for installation of various optics.
+basePrice=2640
+width=2
+height=1
+Sell_Prapor=1320
+Sell_Fence=1056
+Sell_Skier=1293
+Sell_Peacekeeper=10
+Sell_Mechanic=1478
+Sell_Jaeger=1584
+Sell_Flea Market=54000
+weight=0.090000
+fleaMarketFee=10387
+Conflict=[
+	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
+	OKP-7 reflex sight (Dovetail)/|
+	BelOMO PSO-1M2-1 4x24 scope/|
+	NSPU-M night vision scope/|
+	Axion Kobra dovetail mount/|
+	VOMZ Pilad 043-02 dovetail mount
+]
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
 	ELCAN SpecterDR 1x/4x scope (FDE)/|
@@ -72,27 +94,5 @@ ChildParts=[
 	MCX flip-up rear sight/|
 	MPX flip-up rear sight
 ]
-Conflict=[
-	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
-	OKP-7 reflex sight (Dovetail)/|
-	BelOMO PSO-1M2-1 4x24 scope/|
-	NSPU-M night vision scope/|
-	Axion Kobra dovetail mount/|
-	VOMZ Pilad 043-02 dovetail mount
-]
 Recoil=0.000000
 Ergonomics=0.000000
-Information_Eng=A Weaver-type extended multi-slot rail base for the Remington Model 700 bolt-action sniper rifle for installation of various optics.
-basePrice=2640
-width=2
-height=1
-Sell_Prapor=1320
-Sell_Fence=1056
-Sell_Skier=1293
-Sell_Peacekeeper=10
-Sell_Mechanic=1478
-Sell_Jaeger=1584
-Sell_Flea Market=30000
-weight=0.090000
-fleaMarketFee=3931
-propertiestype=ItemPropertiesWeaponMod

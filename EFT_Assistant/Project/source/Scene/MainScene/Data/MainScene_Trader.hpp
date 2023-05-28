@@ -29,7 +29,7 @@ namespace FPS_n2 {
 		std::vector<TraderLvData>					m_LvData;
 	public:
 		//í«â¡ê›íË
-		void			SetSub(const std::string& LEFT, const std::vector<std::string>& Args) noexcept override {
+		void	SetSub(const std::string& LEFT, const std::vector<std::string>& Args) noexcept override {
 			std::string LEFTBuf = LEFT.substr(3);
 			std::string NumBuf2 = LEFT.substr(2, 1);
 			if (std::all_of(NumBuf2.cbegin(), NumBuf2.cend(), isdigit)) {
@@ -60,21 +60,8 @@ namespace FPS_n2 {
 				if (LEFT == "PayItem") { PayItem = Args[0]; }
 			}
 		}
-		void	Load_Sub() noexcept override {
-			for (auto& L : m_LvData) {
-				for (auto& C : L.m_ItemBarters) {
-					for (auto& a : C.m_ItemReqArgs) {
-						SetGetData<ItemGetData, ItemData>(&C.m_ItemReq, a);
-					}
-					for (auto& a : C.m_ItemRewardArgs) {
-						SetGetData<ItemGetData, ItemData>(&C.m_ItemReward, a);
-					}
-				}
-			}
-
-		}
-		void	WhenAfterLoad_Sub() noexcept override {
-		}
+		void	Load_Sub() noexcept override;
+		void	WhenAfterLoad_Sub() noexcept override {}
 	public:
 		const auto&	GetInformation() const noexcept { return Information_Eng; }
 		const auto&	GetPayItem() const noexcept { return PayItem; }

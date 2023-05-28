@@ -2,6 +2,19 @@ IDstr=619f54a1d25cbd424731fb99
 Name=Chiappa Rhino .357 6-round cylinder
 ShortName=CR cyl.
 Itemtype=Cylinder Magazine
+Information_Eng=A 6-round .357 cylinder for Chiappa Rhino revolvers.
+basePrice=1100
+width=1
+height=1
+Sell_Prapor=550
+Sell_Fence=440
+Sell_Skier=539
+Sell_Peacekeeper=4
+Sell_Mechanic=616
+Sell_Flea Market=30000
+weight=0.110000
+fleaMarketFee=6987
+propertiestype=ItemPropertiesMagazine
 ChildParts=[
 	.357 Magnum FMJ/|
 	.357 Magnum HP/|
@@ -40,16 +53,3 @@ ChildParts=[
 ]
 Recoil=0.000000
 Ergonomics=-2.000000
-Information_Eng=A 6-round .357 cylinder for Chiappa Rhino revolvers.
-basePrice=1100
-width=1
-height=1
-Sell_Prapor=550
-Sell_Fence=440
-Sell_Skier=539
-Sell_Peacekeeper=4
-Sell_Mechanic=616
-Sell_Flea Market=30000
-weight=0.110000
-fleaMarketFee=6987
-propertiestype=ItemPropertiesMagazine

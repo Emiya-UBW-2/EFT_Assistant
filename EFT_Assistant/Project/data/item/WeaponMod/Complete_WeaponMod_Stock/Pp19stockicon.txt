@@ -2,11 +2,6 @@ IDstr=599851db86f77467372f0a18
 Name=PP-19-01 "Vityaz" metal skeleton stock
 ShortName=PP-19-01
 Itemtype=Stock
-ChildParts=[
-	AK GP-25 accessory kit recoil pad
-]
-Recoil=-34.000000
-Ergonomics=6.000000
 Information_Eng=A skeletonized metal stock for PP-19-01 Vityaz SMGs and Saiga-9 carbines, manufactured by Izhmash.
 basePrice=1508
 width=2
@@ -21,3 +16,8 @@ Sell_Flea Market=70000
 weight=0.218000
 fleaMarketFee=23314
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	AK GP-25 accessory kit recoil pad
+]
+Recoil=-34.000000
+Ergonomics=6.000000

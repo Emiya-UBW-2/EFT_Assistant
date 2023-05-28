@@ -2,11 +2,6 @@ IDstr=5b3f7c005acfc4704b4a1de8
 Name=PU 3.5x ring scope mount
 ShortName=PU rings
 Itemtype=Mount
-ChildParts=[
-	PU 3.5x riflescope
-]
-Recoil=0.000000
-Ergonomics=-1.000000
 Information_Eng=Regular rings for the PU 3.5x scope, installed on the Kochetov mount.
 basePrice=1105
 width=1
@@ -21,3 +16,8 @@ Sell_Flea Market=14999
 weight=0.020000
 fleaMarketFee=2205
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	PU 3.5x riflescope
+]
+Recoil=0.000000
+Ergonomics=-1.000000

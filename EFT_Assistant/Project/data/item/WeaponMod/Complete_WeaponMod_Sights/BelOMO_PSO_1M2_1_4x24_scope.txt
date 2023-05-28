@@ -2,21 +2,6 @@ IDstr=576fd4ec2459777f0b518431
 Name=BelOMO PSO-1M2-1 4x24 scope
 ShortName=PSO-1M2-1
 Itemtype=Scope
-SightRange=0
-ChildParts=[
-	PSO scope eyecup
-]
-Conflict=[
-	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
-	BelOMO PK-AA dovetail reflex sight/|
-	OKP-7 reflex sight (Dovetail)/|
-	Axion Kobra dovetail mount/|
-	VOMZ Pilad 043-02 dovetail mount/|
-	SOK-12 Leapers UTG PRO MTU002 Long Top aluminum handguard/|
-	SOK-12 Leapers UTG PRO MTU002 Short Top aluminum handguard
-]
-Recoil=0.000000
-Ergonomics=-7.000000
 Information_Eng=The PSO-1M2-1 military grade optical sniper scope, manufactured by BelOMO. This scope is designed for precision sight fire with Special Sniper Rifle (VSS) and Dragunov Sniper Rifle (SVD) on the variety of targets with 4x magnification and 6 degree FOV.
 basePrice=19784
 width=2
@@ -27,7 +12,22 @@ Sell_Skier=9694
 Sell_Peacekeeper=75
 Sell_Mechanic=11079
 Sell_Jaeger=11870
-Sell_Flea Market=16666
+Sell_Flea Market=13999
 weight=0.600000
-fleaMarketFee=1096
+fleaMarketFee=1051
+Conflict=[
+	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
+	BelOMO PK-AA dovetail reflex sight/|
+	OKP-7 reflex sight (Dovetail)/|
+	Axion Kobra dovetail mount/|
+	VOMZ Pilad 043-02 dovetail mount/|
+	SOK-12 Leapers UTG PRO MTU002 Long Top aluminum handguard/|
+	SOK-12 Leapers UTG PRO MTU002 Short Top aluminum handguard
+]
 propertiestype=ItemPropertiesScope
+SightRange=0
+ChildParts=[
+	PSO scope eyecup
+]
+Recoil=0.000000
+Ergonomics=-7.000000

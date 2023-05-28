@@ -2,14 +2,6 @@ IDstr=5fc4b97bab884124df0cd5e3
 Name=SilencerCo Omega 45k Piston Mount adapter
 ShortName=PM Omega
 Itemtype=Comb. muzzle device
-ChildParts=[
-	SilencerCo Omega 45k .45 ACP sound suppressor
-]
-Conflict=[
-	M1911 Anarchy Outdoors .45 ACP muzzle brake
-]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=The Piston Mount adapter for installation of SilencerCo Omega 45k sound suppressor directly onto the barrel threading.
 basePrice=3990
 width=1
@@ -19,7 +11,15 @@ Sell_Fence=1596
 Sell_Skier=1955
 Sell_Peacekeeper=15
 Sell_Mechanic=2234
-Sell_Flea Market=9000
+Sell_Flea Market=6666
 weight=0.141000
-fleaMarketFee=497
+fleaMarketFee=351
+Conflict=[
+	M1911 Anarchy Outdoors .45 ACP muzzle brake
+]
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	SilencerCo Omega 45k .45 ACP sound suppressor
+]
+Recoil=0.000000
+Ergonomics=0.000000

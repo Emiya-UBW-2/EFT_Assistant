@@ -2,6 +2,26 @@ IDstr=5cdeac22d7f00c000f26168f
 Name=M700 Magpul Pro 700 chassis
 ShortName=Pro700
 Itemtype=Stock
+Information_Eng=Pro 700 is a lightweight ergonomic chassis designed for the Remington M700 sniper rifle. Manufactured by Magpul.
+basePrice=17972
+width=3
+height=1
+Sell_Prapor=8986
+Sell_Fence=7188
+Sell_Skier=8806
+Sell_Peacekeeper=68
+Sell_Mechanic=10064
+Sell_Jaeger=10783
+Sell_Flea Market=19000
+weight=1.720000
+fleaMarketFee=1106
+Conflict=[
+	M700 7.62x51 ProMag AA-70 10-round magazine/|
+	M700 7.62x51 ProMag AA-70 20-round magazine/|
+	M700 7.62x51 Wyatt's Outdoor 10-round magazine/|
+	M700 7.62x51 Wyatt's Outdoor 5-round magazine
+]
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	M700 Magpul Pro 700 folding stock
 ]
@@ -27,25 +47,5 @@ ChildParts=[
 	Magpul M-LOK AFG tactical foregrip (Stealth Gray)/|
 	Magpul M-LOK 4.1 inch rail
 ]
-Conflict=[
-	M700 7.62x51 ProMag AA-70 10-round magazine/|
-	M700 7.62x51 ProMag AA-70 20-round magazine/|
-	M700 7.62x51 Wyatt's Outdoor 10-round magazine/|
-	M700 7.62x51 Wyatt's Outdoor 5-round magazine
-]
 Recoil=-7.000000
 Ergonomics=22.000000
-Information_Eng=Pro 700 is a lightweight ergonomic chassis designed for the Remington M700 sniper rifle. Manufactured by Magpul.
-basePrice=17972
-width=3
-height=1
-Sell_Prapor=8986
-Sell_Fence=7188
-Sell_Skier=8806
-Sell_Peacekeeper=68
-Sell_Mechanic=10064
-Sell_Jaeger=10783
-Sell_Flea Market=22000
-weight=1.720000
-fleaMarketFee=1207
-propertiestype=ItemPropertiesWeaponMod

@@ -2,15 +2,6 @@ IDstr=5a787ebcc5856700142fdd98
 Name=M870 12ga 508mm barrel with a fixed sight
 ShortName=M870 508mm FS
 Itemtype=Barrel
-ChildParts=[
-	Remington Tactical Choke 12ga/|
-	SilencerCo Salvo 12 choke adapter
-]
-ChildParts=[
-	M870 Mesa Tactical magazine clamp
-]
-Recoil=-6.000000
-Ergonomics=-7.000000
 Information_Eng=A 508mm 12 gauge barrel with a fixed sight for the Remington Model 870 shotgun.
 basePrice=7403
 width=3
@@ -21,7 +12,16 @@ Sell_Skier=3627
 Sell_Peacekeeper=28
 Sell_Mechanic=4145
 Sell_Jaeger=4441
-Sell_Flea Market=8513
+Sell_Flea Market=14000
 weight=1.000000
-fleaMarketFee=477
+fleaMarketFee=745
 propertiestype=ItemPropertiesBarrel
+ChildParts=[
+	Remington Tactical Choke 12ga/|
+	SilencerCo Salvo 12 choke adapter
+]
+ChildParts=[
+	M870 Mesa Tactical magazine clamp
+]
+Recoil=-6.000000
+Ergonomics=-7.000000

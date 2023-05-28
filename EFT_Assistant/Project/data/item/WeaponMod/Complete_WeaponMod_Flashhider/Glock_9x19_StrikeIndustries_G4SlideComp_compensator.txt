@@ -2,6 +2,18 @@ IDstr=5a7b32a2e899ef00135e345a
 Name=Glock 9x19 Strike Industries G4 SlideComp compensator
 ShortName=G G4
 Itemtype=Flashhider
+Information_Eng=A unique compensator for Glock family pistols which can be mounted on a slide and not require a threaded barrel, manufactured by Strike Industries.
+basePrice=6476
+width=1
+height=1
+Sell_Prapor=3238
+Sell_Fence=2590
+Sell_Skier=3173
+Sell_Peacekeeper=24
+Sell_Mechanic=3626
+Sell_Flea Market=12777
+weight=0.105000
+fleaMarketFee=685
 Conflict=[
 	Glock 9x19 CARVER Custom 4 Port compensator/|
 	Glock 9x19 CARVER Custom Decelerator 3 Port compensator/|
@@ -17,18 +29,6 @@ Conflict=[
 	SilencerCo Osprey 9 9x19 sound suppressor/|
 	Glock 9x19 Fischer Development FD917 sound suppressor
 ]
+propertiestype=ItemPropertiesWeaponMod
 Recoil=-14.000000
 Ergonomics=-1.000000
-Information_Eng=A unique compensator for Glock family pistols which can be mounted on a slide and not require a threaded barrel, manufactured by Strike Industries.
-basePrice=6476
-width=1
-height=1
-Sell_Prapor=3238
-Sell_Fence=2590
-Sell_Skier=3173
-Sell_Peacekeeper=24
-Sell_Mechanic=3626
-Sell_Flea Market=20000
-weight=0.105000
-fleaMarketFee=1238
-propertiestype=ItemPropertiesWeaponMod

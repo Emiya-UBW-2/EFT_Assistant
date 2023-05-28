@@ -2,6 +2,41 @@ IDstr=5d2c772c48f0355d95672c25
 Name=AK TWS Dog Leg Rail dust cover
 ShortName=Dog Leg Rail
 Itemtype=Receiver
+Information_Eng=The Texas Weapon Systems Dog Leg Rail dust cover with an integrated Picatinny rail is compatible with all models of Kalashnikov automatic rifles and carbines based on the AK platform.
+basePrice=11600
+width=2
+height=1
+Sell_Prapor=5800
+Sell_Fence=4640
+Sell_Skier=5684
+Sell_Peacekeeper=44
+Sell_Mechanic=6496
+Sell_Flea Market=17999
+weight=0.195000
+fleaMarketFee=948
+Conflict=[
+	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
+	OKP-7 reflex sight (Dovetail)/|
+	AK-105 rear sight (6P44 Sb.1-30)/|
+	AK-74 rear sight (6P20 Sb.2)/|
+	AK-74M rear sight (6P20 Sb.2)/|
+	AKM rear sight (6P1 Sb.2-1)/|
+	AKMB system rear sight/|
+	VPO-209 rear sight/|
+	AK Taktika Tula TT01 rear sight rail/|
+	BelOMO PSO-1 4x24 scope/|
+	BelOMO PSO-1M2-1 4x24 scope/|
+	BelOMO PSO-1M2 4x24 scope/|
+	NPZ USP-1 "Tyulpan" 4x scope/|
+	NSPU-M night vision scope/|
+	Axion Kobra dovetail mount/|
+	KMZ 1P59 dovetail mount/|
+	VOMZ Pilad 043-02 dovetail mount/|
+	Zenit B-13 "Klassika" dovetail rail platform/|
+	Zenit B-13V "Klassika" dovetail rail platform/|
+	AK RD Enhanced V2 Rear Sight
+]
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
 	ELCAN SpecterDR 1x/4x scope (FDE)/|
@@ -62,40 +97,5 @@ ChildParts=[
 	SwampFox Trihawk Prism Scope 3x30/|
 	AI AX-50 34mm scope mount
 ]
-Conflict=[
-	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
-	OKP-7 reflex sight (Dovetail)/|
-	AK-105 rear sight (6P44 Sb.1-30)/|
-	AK-74 rear sight (6P20 Sb.2)/|
-	AK-74M rear sight (6P20 Sb.2)/|
-	AKM rear sight (6P1 Sb.2-1)/|
-	AKMB system rear sight/|
-	VPO-209 rear sight/|
-	AK Taktika Tula TT01 rear sight rail/|
-	BelOMO PSO-1 4x24 scope/|
-	BelOMO PSO-1M2-1 4x24 scope/|
-	BelOMO PSO-1M2 4x24 scope/|
-	NPZ USP-1 "Tyulpan" 4x scope/|
-	NSPU-M night vision scope/|
-	Axion Kobra dovetail mount/|
-	KMZ 1P59 dovetail mount/|
-	VOMZ Pilad 043-02 dovetail mount/|
-	Zenit B-13 "Klassika" dovetail rail platform/|
-	Zenit B-13V "Klassika" dovetail rail platform/|
-	AK RD Enhanced V2 Rear Sight
-]
 Recoil=0.000000
 Ergonomics=7.000000
-Information_Eng=The Texas Weapon Systems Dog Leg Rail dust cover with an integrated Picatinny rail is compatible with all models of Kalashnikov automatic rifles and carbines based on the AK platform.
-basePrice=11600
-width=2
-height=1
-Sell_Prapor=5800
-Sell_Fence=4640
-Sell_Skier=5684
-Sell_Peacekeeper=44
-Sell_Mechanic=6496
-Sell_Flea Market=13330
-weight=0.195000
-fleaMarketFee=748
-propertiestype=ItemPropertiesWeaponMod

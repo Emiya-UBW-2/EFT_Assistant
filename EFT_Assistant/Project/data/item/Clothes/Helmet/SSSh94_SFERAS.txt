@@ -2,9 +2,6 @@ IDstr=5aa7d193e5b5b000171d063f
 Name=SSSh-94 SFERA-S helmet
 ShortName=SFERA-S
 Itemtype=Headwear
-Conflict=[
-	RayBench Hipster Reserve sunglasses
-]
 Information_Eng=The SSSh-94 "SFERA-S" ("Special Steel Helmet 94 Sphere-S") is a special helmet with modular protection made with thickened armored steel. Used by special forces of the Ministry of Internal Affairs of the Russian Federation.
 basePrice=54403
 width=2
@@ -13,7 +10,10 @@ Sell_Fence=21761
 Sell_Skier=26657
 Sell_Peacekeeper=206
 Sell_Ragman=33729
-Sell_Flea Market=34000
+Sell_Flea Market=34998
 weight=3.500000
-fleaMarketFee=2863
+fleaMarketFee=2865
+Conflict=[
+	RayBench Hipster Reserve sunglasses
+]
 propertiestype=ItemPropertiesHelmet

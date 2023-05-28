@@ -2,16 +2,6 @@ IDstr=60228924961b8d75ee233c32
 Name=PL-15 pistol slide
 ShortName=PL15 slide
 Itemtype=Receiver
-ChildParts=[
-	PL-15 rear sight/|
-	PL-15 extended rear sight
-]
-ChildParts=[
-	PL-15 front sight/|
-	PL-15 extended front sight
-]
-Recoil=0.000000
-Ergonomics=4.000000
 Information_Eng=A standard-issue slide for the PL-15 pistol.
 basePrice=3900
 width=2
@@ -25,3 +15,13 @@ Sell_Flea Market=150000
 weight=0.160000
 fleaMarketFee=43999
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	PL-15 rear sight/|
+	PL-15 extended rear sight
+]
+ChildParts=[
+	PL-15 front sight/|
+	PL-15 extended front sight
+]
+Recoil=0.000000
+Ergonomics=4.000000

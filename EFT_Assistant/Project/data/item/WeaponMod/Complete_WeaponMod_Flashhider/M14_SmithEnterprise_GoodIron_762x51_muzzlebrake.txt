@@ -2,12 +2,6 @@ IDstr=5addbb945acfc4001a5fc44e
 Name=M14 Smith Enterprise Good Iron 7.62x51 muzzle brake
 ShortName=GoodIron
 Itemtype=Flashhider
-ChildParts=[
-	M1A SA National Match .062 Blade front sight/|
-	M1A SA XS Post .125 Blade front sight
-]
-Recoil=-10.000000
-Ergonomics=-1.000000
 Information_Eng=A muzzle brake-compensator for M14 rifles, manufactured by Smith Enterprise.
 basePrice=8043
 width=1
@@ -21,3 +15,9 @@ Sell_Flea Market=4999
 weight=0.140000
 fleaMarketFee=423
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	M1A SA National Match .062 Blade front sight/|
+	M1A SA XS Post .125 Blade front sight
+]
+Recoil=-10.000000
+Ergonomics=-1.000000

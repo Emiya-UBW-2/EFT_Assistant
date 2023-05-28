@@ -2,6 +2,18 @@ IDstr=5de8f237bbaf010b10528a70
 Name=MP9 9x19 sound suppressor mount
 ShortName=MP9 adpt.
 Itemtype=Comb. muzzle device
+Information_Eng=A mount for sound suppressor installation directly onto the barrel of the MP9 9x19 SMG. Manufactured by Brügger & Thomet.
+basePrice=4350
+width=1
+height=1
+Sell_Prapor=2175
+Sell_Fence=1740
+Sell_Skier=2131
+Sell_Peacekeeper=16
+Sell_Mechanic=2436
+weight=0.140000
+fleaMarketFee=261
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	MP9 9x19 sound suppressor
 ]
@@ -20,15 +32,3 @@ ChildParts=[
 ]
 Recoil=0.000000
 Ergonomics=-1.000000
-Information_Eng=A mount for sound suppressor installation directly onto the barrel of the MP9 9x19 SMG. Manufactured by Brügger & Thomet.
-basePrice=4350
-width=1
-height=1
-Sell_Prapor=2175
-Sell_Fence=1740
-Sell_Skier=2131
-Sell_Peacekeeper=16
-Sell_Mechanic=2436
-weight=0.140000
-fleaMarketFee=261
-propertiestype=ItemPropertiesWeaponMod

@@ -2,6 +2,19 @@ IDstr=5fc278107283c4046c581489
 Name=Mk-18 .338 LM upper receiver
 ShortName=Mk-18
 Itemtype=Receiver
+Information_Eng=A regular upper receiver for Mk-18 Mod 1 Mjölnir by SWORD International. Fitted with a mount for attaching additional equipment.
+basePrice=22150
+width=2
+height=1
+Sell_Prapor=11075
+Sell_Fence=8860
+Sell_Skier=10853
+Sell_Peacekeeper=84
+Sell_Mechanic=12404
+Sell_Flea Market=20000
+weight=0.450000
+fleaMarketFee=1261
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
 	ELCAN SpecterDR 1x/4x scope (FDE)/|
@@ -83,16 +96,3 @@ ChildParts=[
 ]
 Recoil=-1.000000
 Ergonomics=6.000000
-Information_Eng=A regular upper receiver for Mk-18 Mod 1 Mjölnir by SWORD International. Fitted with a mount for attaching additional equipment.
-basePrice=22150
-width=2
-height=1
-Sell_Prapor=11075
-Sell_Fence=8860
-Sell_Skier=10853
-Sell_Peacekeeper=84
-Sell_Mechanic=12404
-Sell_Flea Market=20000
-weight=0.450000
-fleaMarketFee=1261
-propertiestype=ItemPropertiesWeaponMod

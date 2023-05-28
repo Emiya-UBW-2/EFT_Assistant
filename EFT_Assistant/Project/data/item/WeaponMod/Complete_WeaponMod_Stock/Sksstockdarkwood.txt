@@ -2,11 +2,6 @@ IDstr=574dad8024597745964bf05c
 Name=SKS TOZ wooden stock (56-A-231 Sb.5)
 ShortName=56-A-231 Sb.5
 Itemtype=Stock
-ChildParts=[
-	SKS Leapers UTG SOCOM rail mount
-]
-Recoil=-15.000001
-Ergonomics=6.000000
 Information_Eng=A standard-issue wooden stock for the SKS carbine, manufactured by TOZ.
 basePrice=3780
 width=4
@@ -21,3 +16,8 @@ Sell_Flea Market=100000
 weight=0.913000
 fleaMarketFee=22822
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	SKS Leapers UTG SOCOM rail mount
+]
+Recoil=-15.000001
+Ergonomics=6.000000

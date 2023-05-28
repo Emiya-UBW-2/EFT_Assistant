@@ -2,6 +2,19 @@ IDstr=6396aaa9a52ace83df0840ab
 Name=AR-15 Daniel Defense RIS II 9.5 lower handguard (Black)
 ShortName=RIS II 9.5
 Itemtype=Handguard
+Information_Eng=The Daniel Defense RIS II 9.5 lower handguard. Made with light but durable aircraft aluminum alloy. Equipped with RIS interface for installation of additional devices and accessories. Black version.
+basePrice=4392
+width=2
+height=1
+Sell_Prapor=2196
+Sell_Fence=1756
+Sell_Skier=2152
+Sell_Peacekeeper=17
+Sell_Mechanic=2459
+Sell_Flea Market=9000
+weight=0.120000
+fleaMarketFee=486
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	BCM GUNFIGHTER MOD 3 vertical foregrip/|
 	ASh-12 vertical foregrip/|
@@ -33,16 +46,3 @@ ChildParts=[
 ]
 Recoil=-1.000000
 Ergonomics=5.000000
-Information_Eng=The Daniel Defense RIS II 9.5 lower handguard. Made with light but durable aircraft aluminum alloy. Equipped with RIS interface for installation of additional devices and accessories. Black version.
-basePrice=4392
-width=2
-height=1
-Sell_Prapor=2196
-Sell_Fence=1756
-Sell_Skier=2152
-Sell_Peacekeeper=17
-Sell_Mechanic=2459
-Sell_Flea Market=8000
-weight=0.120000
-fleaMarketFee=424
-propertiestype=ItemPropertiesWeaponMod

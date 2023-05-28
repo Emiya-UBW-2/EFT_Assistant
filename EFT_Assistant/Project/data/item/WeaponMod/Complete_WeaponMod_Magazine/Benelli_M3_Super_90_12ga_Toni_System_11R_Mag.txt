@@ -2,13 +2,6 @@ IDstr=625ff3046d721f05d93bf2ee
 Name=Benelli M3 Super 90 12ga Toni System 11-shell magazine
 ShortName=M3x11
 Itemtype=Magazine
-Conflict=[
-	SilencerCo Salvo 12 choke adapter/|
-	Hexagon 12K 12ga sound suppressor/|
-	GK-02 12ga muzzle brake
-]
-Recoil=0.000000
-Ergonomics=-3.000000
 Information_Eng=A 12ga 11-shell capacity tube magazine by Toni System for Benelli M3 S90 shotguns.
 basePrice=3600
 width=3
@@ -18,7 +11,14 @@ Sell_Fence=1440
 Sell_Skier=1764
 Sell_Peacekeeper=14
 Sell_Mechanic=2016
-Sell_Flea Market=29998
+Sell_Flea Market=35000
 weight=0.299000
-fleaMarketFee=3229
+fleaMarketFee=4151
+Conflict=[
+	SilencerCo Salvo 12 choke adapter/|
+	Hexagon 12K 12ga sound suppressor/|
+	GK-02 12ga muzzle brake
+]
 propertiestype=ItemPropertiesMagazine
+Recoil=0.000000
+Ergonomics=-3.000000

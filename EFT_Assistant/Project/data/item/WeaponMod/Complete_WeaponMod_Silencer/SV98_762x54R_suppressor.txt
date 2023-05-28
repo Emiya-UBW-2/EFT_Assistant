@@ -2,11 +2,6 @@ IDstr=5c4eecc32e221602b412b440
 Name=SV-98 7.62x54R sound suppressor
 ShortName=SV98 supp.
 Itemtype=Silencer
-ChildParts=[
-	SV-98 sound suppressor heat shield
-]
-Recoil=-12.000000
-Ergonomics=-22.000000
 Information_Eng=A standard SV-98 sound suppressor, manufactured by Izhmash.
 basePrice=36742
 width=2
@@ -16,7 +11,12 @@ Sell_Fence=14696
 Sell_Skier=18003
 Sell_Peacekeeper=139
 Sell_Mechanic=20575
-Sell_Flea Market=37000
+Sell_Flea Market=29999
 weight=0.270000
-fleaMarketFee=2211
+fleaMarketFee=2015
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	SV-98 sound suppressor heat shield
+]
+Recoil=-12.000000
+Ergonomics=-22.000000

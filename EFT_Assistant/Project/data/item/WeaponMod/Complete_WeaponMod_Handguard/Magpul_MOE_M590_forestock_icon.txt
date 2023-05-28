@@ -2,6 +2,19 @@ IDstr=5eea21647547d6330471b3c9
 Name=Mossberg 590A1 Magpul MOE forestock
 ShortName=MOE 590
 Itemtype=Handguard
+Information_Eng=The MOE handguard, designed for Mossberg 500/590 shotguns. Manufactured by Magpul.
+basePrice=7900
+width=2
+height=1
+Sell_Prapor=3950
+Sell_Fence=3160
+Sell_Skier=3871
+Sell_Peacekeeper=30
+Sell_Mechanic=4424
+Sell_Flea Market=8800
+weight=0.600000
+fleaMarketFee=500
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Magpul M-LOK AFG tactical foregrip (Black)/|
 	Magpul M-LOK AFG tactical foregrip (FDE)/|
@@ -19,16 +32,3 @@ ChildParts=[
 ]
 Recoil=0.000000
 Ergonomics=13.000000
-Information_Eng=The MOE handguard, designed for Mossberg 500/590 shotguns. Manufactured by Magpul.
-basePrice=7900
-width=2
-height=1
-Sell_Prapor=3950
-Sell_Fence=3160
-Sell_Skier=3871
-Sell_Peacekeeper=30
-Sell_Mechanic=4424
-Sell_Flea Market=12000
-weight=0.600000
-fleaMarketFee=633
-propertiestype=ItemPropertiesWeaponMod

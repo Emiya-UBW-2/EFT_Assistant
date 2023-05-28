@@ -2,11 +2,6 @@ IDstr=5f2aa47a200e2c0ee46efa71
 Name=RFB handguard
 ShortName=RFB
 Itemtype=Handguard
-ChildParts=[
-	RFB handguard rail mount
-]
-Recoil=-2.000000
-Ergonomics=16.000000
 Information_Eng=A standard-issue handguard for the RFB rifle, manufactured by Kel-Tec.
 basePrice=10885
 width=2
@@ -20,3 +15,8 @@ Sell_Flea Market=50000
 weight=0.221000
 fleaMarketFee=3776
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	RFB handguard rail mount
+]
+Recoil=-2.000000
+Ergonomics=16.000000

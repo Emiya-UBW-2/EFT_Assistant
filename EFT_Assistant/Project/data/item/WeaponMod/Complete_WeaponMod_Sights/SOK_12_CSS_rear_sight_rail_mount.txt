@@ -2,6 +2,24 @@ IDstr=58272b842459774abc128d50
 Name=SOK-12 CSS rear sight rail mount
 ShortName=CSS RSRM
 Itemtype=Ironsight
+Information_Eng=This sight rail mount allows installation of various sights instead of the Saiga carbines standard-issue fixed rear sight.
+basePrice=2400
+width=1
+height=1
+Sell_Prapor=1200
+Sell_Fence=960
+Sell_Skier=1176
+Sell_Peacekeeper=9
+Sell_Mechanic=1344
+Sell_Flea Market=10000
+weight=0.030000
+fleaMarketFee=716
+Conflict=[
+	SOK-12 Bravo-18 aluminium handguard/|
+	SOK-12 Leapers UTG PRO MTU002 Long Top aluminum handguard/|
+	SOK-12 Leapers UTG PRO MTU002 Short Top aluminum handguard
+]
+propertiestype=ItemPropertiesScope
 SightRange=0
 ChildParts=[
 	OKP-7 reflex sight/|
@@ -19,23 +37,5 @@ ChildParts=[
 	DeltaPoint Cross Slot Mount base/|
 	Trijicon RMR low profile mount
 ]
-Conflict=[
-	SOK-12 Bravo-18 aluminium handguard/|
-	SOK-12 Leapers UTG PRO MTU002 Long Top aluminum handguard/|
-	SOK-12 Leapers UTG PRO MTU002 Short Top aluminum handguard
-]
 Recoil=0.000000
 Ergonomics=0.000000
-Information_Eng=This sight rail mount allows installation of various sights instead of the Saiga carbines standard-issue fixed rear sight.
-basePrice=2400
-width=1
-height=1
-Sell_Prapor=1200
-Sell_Fence=960
-Sell_Skier=1176
-Sell_Peacekeeper=9
-Sell_Mechanic=1344
-Sell_Flea Market=7200
-weight=0.030000
-fleaMarketFee=440
-propertiestype=ItemPropertiesScope

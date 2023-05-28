@@ -2,6 +2,38 @@ IDstr=5c6d85e02e22165df16b81f4
 Name=HK 416A5 5.56x45 10.6 inch barrel
 ShortName=416A5 10.6"
 Itemtype=Barrel
+Information_Eng=A 10.6 inch (264mm) barrel for 416 based weapons for 5.56x45 NATO ammo.
+basePrice=21130
+width=2
+height=1
+Sell_Prapor=10565
+Sell_Fence=8452
+Sell_Skier=10353
+Sell_Peacekeeper=80
+Sell_Mechanic=11832
+Sell_Jaeger=12678
+Sell_Flea Market=14999
+weight=0.572000
+fleaMarketFee=1123
+Conflict=[
+	Ferfrans CRD 5.56x45 Concussion Reduction Device/|
+	AAC 762-SDN-6 multi-caliber sound suppressor/|
+	SilencerCo Saker ASR 556 5.56x45 sound suppressor/|
+	Gemtech ONE multi-caliber sound suppressor/|
+	KAC QDSS NT-4 5.56x45 sound suppressor (Black)/|
+	KAC QDSS NT-4 5.56x45 sound suppressor (FDE)/|
+	SureFire SOCOM556-MINI MONSTER 5.56x45 sound suppressor/|
+	SureFire SOCOM556-MONSTER 5.56x45 sound suppressor/|
+	SureFire SOCOM556-RC2 5.56x45 sound suppressor/|
+	Thunder Beast Arms Ultra 5 sound suppressor/|
+	Daniel Defense WAVE QD sound suppressor/|
+	HK 416A5 MRS KeyMod 14 inch handguard/|
+	HK 416A5 Quad Rail Extended handguard/|
+	HK 416A5 Midwest Industries 13.5 inch M-LOK handguard/|
+	HK 416A5 Strike Industries CRUX 15 inch M-LOK handguard/|
+	HK 416A5 TROY M-LOK 13 inch handguard
+]
+propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	Yankee Hill Annihilator multi-caliber flash hider/|
 	AR-15 AAC Blackout 51T 5.56x45 flash hider/|
@@ -29,37 +61,5 @@ ChildParts=[
 ChildParts=[
 	HK 416A5 low profile gas block
 ]
-Conflict=[
-	Ferfrans CRD 5.56x45 Concussion Reduction Device/|
-	AAC 762-SDN-6 multi-caliber sound suppressor/|
-	SilencerCo Saker ASR 556 5.56x45 sound suppressor/|
-	Gemtech ONE multi-caliber sound suppressor/|
-	KAC QDSS NT-4 5.56x45 sound suppressor (Black)/|
-	KAC QDSS NT-4 5.56x45 sound suppressor (FDE)/|
-	SureFire SOCOM556-MINI MONSTER 5.56x45 sound suppressor/|
-	SureFire SOCOM556-MONSTER 5.56x45 sound suppressor/|
-	SureFire SOCOM556-RC2 5.56x45 sound suppressor/|
-	Thunder Beast Arms Ultra 5 sound suppressor/|
-	Daniel Defense WAVE QD sound suppressor/|
-	HK 416A5 MRS KeyMod 14 inch handguard/|
-	HK 416A5 Quad Rail Extended handguard/|
-	HK 416A5 Midwest Industries 13.5 inch M-LOK handguard/|
-	HK 416A5 Strike Industries CRUX 15 inch M-LOK handguard/|
-	HK 416A5 TROY M-LOK 13 inch handguard
-]
 Recoil=-1.000000
 Ergonomics=-5.000000
-Information_Eng=A 10.6 inch (264mm) barrel for 416 based weapons for 5.56x45 NATO ammo.
-basePrice=21130
-width=2
-height=1
-Sell_Prapor=10565
-Sell_Fence=8452
-Sell_Skier=10353
-Sell_Peacekeeper=80
-Sell_Mechanic=11832
-Sell_Jaeger=12678
-Sell_Flea Market=15000
-weight=0.572000
-fleaMarketFee=1123
-propertiestype=ItemPropertiesBarrel

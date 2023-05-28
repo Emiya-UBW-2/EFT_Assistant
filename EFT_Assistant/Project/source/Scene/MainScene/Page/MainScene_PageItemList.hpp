@@ -63,7 +63,7 @@ namespace FPS_n2 {
 						if (IsChecktask && m_DrawCanClearTask) {//クリアできるタスクだけ表示
 							if (tasks.GetTaskNeedData().GetParenttaskID().size() > 0) {
 								for (const auto& p : tasks.GetTaskNeedData().GetParenttaskID()) {
-									if (!PlayerData::Instance()->GetTaskClear(TaskData::Instance()->FindPtr(p.GetParenttaskID())->GetName().c_str())) {
+									if (!PlayerData::Instance()->GetTaskClear(TaskData::Instance()->FindPtr(p.GetID())->GetName().c_str())) {
 										IsChecktask = false;
 										break;
 									}

@@ -2,14 +2,6 @@ IDstr=58d39d3d86f77445bb794ae7
 Name=Aimpoint Micro Standard Mount
 ShortName=AMM
 Itemtype=Mount
-ChildParts=[
-	Aimpoint Micro H-2 reflex sight/|
-	Aimpoint Micro T-1 reflex sight/|
-	SIG Sauer ROMEO4 reflex sight/|
-	Aimpoint Micro Spacer High
-]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=The Aimpoint Micro Standard Mount base for T-1 and H-1 reflex sights of the Micro series.
 basePrice=2451
 width=1
@@ -20,7 +12,15 @@ Sell_Skier=1200
 Sell_Peacekeeper=9
 Sell_Mechanic=1372
 Sell_Jaeger=1470
-Sell_Flea Market=14888
+Sell_Flea Market=8420
 weight=0.015000
-fleaMarketFee=1321
+fleaMarketFee=547
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Aimpoint Micro H-2 reflex sight/|
+	Aimpoint Micro T-1 reflex sight/|
+	SIG Sauer ROMEO4 reflex sight/|
+	Aimpoint Micro Spacer High
+]
+Recoil=0.000000
+Ergonomics=0.000000

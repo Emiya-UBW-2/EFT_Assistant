@@ -2,7 +2,18 @@ IDstr=6113d6c3290d254f5e6b27db
 Name=BelOMO PK-AA dovetail reflex sight
 ShortName=PK-AA
 Itemtype=Reflex sight
-SightRange=0
+Information_Eng=The PK-AA reflex sight, designed to fit any AK-style model with a dovetail rail mount. Manufactured by BelOMO.
+basePrice=5100
+width=1
+height=1
+Sell_Prapor=2550
+Sell_Fence=2040
+Sell_Skier=2499
+Sell_Peacekeeper=19
+Sell_Mechanic=2856
+Sell_Flea Market=12001
+weight=0.450000
+fleaMarketFee=671
 Conflict=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
 	OKP-7 reflex sight (Dovetail)/|
@@ -32,18 +43,7 @@ Conflict=[
 	AKS-74UB dust cover/|
 	PP-19-01 "Vityaz-SN" dust cover
 ]
+propertiestype=ItemPropertiesScope
+SightRange=0
 Recoil=0.000000
 Ergonomics=-4.000000
-Information_Eng=The PK-AA reflex sight, designed to fit any AK-style model with a dovetail rail mount. Manufactured by BelOMO.
-basePrice=5100
-width=1
-height=1
-Sell_Prapor=2550
-Sell_Fence=2040
-Sell_Skier=2499
-Sell_Peacekeeper=19
-Sell_Mechanic=2856
-Sell_Flea Market=16000
-weight=0.450000
-fleaMarketFee=997
-propertiestype=ItemPropertiesScope

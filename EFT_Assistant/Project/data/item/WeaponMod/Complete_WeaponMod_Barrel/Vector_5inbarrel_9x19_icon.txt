@@ -2,17 +2,6 @@ IDstr=5fbbc366ca32ed67276c1557
 Name=KRISS Vector 9x19 5 inch barrel
 ShortName=Vector 9x19 5"
 Itemtype=Barrel
-ChildParts=[
-	TACCOM Carbine Brake multi-caliber muzzle brake/|
-	KRISS Vector 9x19 flash hider/|
-	Gemtech ONE Direct Thread Mount adapter/|
-	KRISS Vector 9x19 thread protection cap/|
-	Rotor 43 9x19 muzzle brake-compensator/|
-	SIG Sauer SRD9 9x19 sound suppressor/|
-	SilencerCo Osprey 9 9x19 sound suppressor
-]
-Recoil=-3.000000
-Ergonomics=0.000000
 Information_Eng=A 5 inch (140mm) threaded barrel for the KRISS Vector 9x19 submachine gun.
 basePrice=8200
 width=2
@@ -27,3 +16,14 @@ Sell_Flea Market=99999
 weight=0.160000
 fleaMarketFee=13713
 propertiestype=ItemPropertiesBarrel
+ChildParts=[
+	TACCOM Carbine Brake multi-caliber muzzle brake/|
+	KRISS Vector 9x19 flash hider/|
+	Gemtech ONE Direct Thread Mount adapter/|
+	KRISS Vector 9x19 thread protection cap/|
+	Rotor 43 9x19 muzzle brake-compensator/|
+	SIG Sauer SRD9 9x19 sound suppressor/|
+	SilencerCo Osprey 9 9x19 sound suppressor
+]
+Recoil=-3.000000
+Ergonomics=0.000000

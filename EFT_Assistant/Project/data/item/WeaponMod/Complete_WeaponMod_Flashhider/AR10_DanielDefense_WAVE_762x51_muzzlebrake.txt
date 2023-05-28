@@ -2,11 +2,6 @@ IDstr=5d1f819086f7744b355c219b
 Name=AR-10 Daniel Defense WAVE 7.62x51 muzzle brake
 ShortName=WAVE 762
 Itemtype=Flashhider
-ChildParts=[
-	Daniel Defense WAVE QD sound suppressor
-]
-Recoil=-9.000000
-Ergonomics=-1.000000
 Information_Eng=The Daniel Defense WAVE muzzle brake is designed to securely mount the Daniel Defense WAVE suppressor to the host firearm, but also functions effectively without it. It's manufactured from aerospace 17-4 PH stainless steel and had a salt bath nitride finish for minimal corrosion.
 basePrice=7980
 width=1
@@ -16,7 +11,12 @@ Sell_Fence=3192
 Sell_Skier=3910
 Sell_Peacekeeper=30
 Sell_Mechanic=4468
-Sell_Flea Market=7000
+Sell_Flea Market=12000
 weight=0.109000
-fleaMarketFee=449
+fleaMarketFee=633
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Daniel Defense WAVE QD sound suppressor
+]
+Recoil=-9.000000
+Ergonomics=-1.000000

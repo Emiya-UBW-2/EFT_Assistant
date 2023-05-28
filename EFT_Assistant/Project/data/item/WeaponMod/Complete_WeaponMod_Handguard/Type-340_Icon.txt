@@ -2,6 +2,19 @@ IDstr=6086b5731246154cad35d6c7
 Name=SOK-12 Custom Guns Type-340 handguard
 ShortName=Type-340
 Itemtype=Handguard
+Information_Eng=Type-340 is a lightweight aircraft grade aluminium handguard, designed for installation on Saiga carbines. Manufactured by Custom Guns.
+basePrice=15800
+width=2
+height=1
+Sell_Prapor=7900
+Sell_Fence=6320
+Sell_Skier=7742
+Sell_Peacekeeper=60
+Sell_Mechanic=8848
+Sell_Flea Market=19888
+weight=0.240000
+fleaMarketFee=1082
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Custom Guns handguard rail
 ]
@@ -13,16 +26,3 @@ ChildParts=[
 ]
 Recoil=-2.000000
 Ergonomics=10.000000
-Information_Eng=Type-340 is a lightweight aircraft grade aluminium handguard, designed for installation on Saiga carbines. Manufactured by Custom Guns.
-basePrice=15800
-width=2
-height=1
-Sell_Prapor=7900
-Sell_Fence=6320
-Sell_Skier=7742
-Sell_Peacekeeper=60
-Sell_Mechanic=8848
-Sell_Flea Market=17800
-weight=0.240000
-fleaMarketFee=1006
-propertiestype=ItemPropertiesWeaponMod

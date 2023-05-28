@@ -2,15 +2,6 @@ IDstr=5d3eb44aa4b93650d64e4979
 Name=FN Five-seveN MK2 pistol slide
 ShortName=5-7
 Itemtype=Receiver
-ChildParts=[
-	FN Five-seveN MK2 rear sight/|
-	FN Five-seveN MK2 RMR mount
-]
-ChildParts=[
-	FN Five-seveN MK2 front sight
-]
-Recoil=0.000000
-Ergonomics=3.000000
 Information_Eng=A regular slide for the Five-seveN MK2 pistol, manufactured by Fabrique Nationale Herstal.
 basePrice=4210
 width=2
@@ -24,3 +15,12 @@ Sell_Flea Market=35555
 weight=0.160000
 fleaMarketFee=3859
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	FN Five-seveN MK2 rear sight/|
+	FN Five-seveN MK2 RMR mount
+]
+ChildParts=[
+	FN Five-seveN MK2 front sight
+]
+Recoil=0.000000
+Ergonomics=3.000000

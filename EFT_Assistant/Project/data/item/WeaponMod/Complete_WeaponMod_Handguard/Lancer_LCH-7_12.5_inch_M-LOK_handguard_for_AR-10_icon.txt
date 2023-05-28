@@ -2,6 +2,24 @@ IDstr=5f6336bbda967c74a42e9932
 Name=AR-10 Lancer LCH7 12.5 inch M-LOK handguard
 ShortName=LCH7 12.5"
 Itemtype=Handguard
+Information_Eng=The Lancer LCH7 12.5 inch M-LOK handguard for AR-10 systems equipped with an M-LOK interface for installation of additional devices and accessories.
+basePrice=21200
+width=3
+height=1
+Sell_Prapor=10600
+Sell_Fence=8480
+Sell_Skier=10388
+Sell_Peacekeeper=80
+Sell_Mechanic=11872
+Sell_Flea Market=22000
+weight=0.360000
+fleaMarketFee=1293
+Conflict=[
+	AR-10 JP Enterprises Gas System-6/|
+	M4A1 front sight with gas block/|
+	AR-15 Windham Weaponry Rail Gas Block
+]
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount/|
@@ -19,23 +37,5 @@ ChildParts=[
 	Magpul M-LOK AFG tactical foregrip (Stealth Gray)/|
 	Magpul M-LOK 4.1 inch rail
 ]
-Conflict=[
-	AR-10 JP Enterprises Gas System-6/|
-	M4A1 front sight with gas block/|
-	AR-15 Windham Weaponry Rail Gas Block
-]
 Recoil=-1.000000
 Ergonomics=10.000000
-Information_Eng=The Lancer LCH7 12.5 inch M-LOK handguard for AR-10 systems equipped with an M-LOK interface for installation of additional devices and accessories.
-basePrice=21200
-width=3
-height=1
-Sell_Prapor=10600
-Sell_Fence=8480
-Sell_Skier=10388
-Sell_Peacekeeper=80
-Sell_Mechanic=11872
-Sell_Flea Market=24444
-weight=0.360000
-fleaMarketFee=1369
-propertiestype=ItemPropertiesWeaponMod

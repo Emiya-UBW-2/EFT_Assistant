@@ -2,11 +2,6 @@ IDstr=5c11046cd174af02a012e42b
 Name=Wilcox Interface for PVS-7
 ShortName=W-PVS7
 Itemtype=Mount
-ChildParts=[
-	T-7 Thermal Goggles with a Night Vision mount
-]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=The Wilcox NVG Interface Shoe for the AN/PVS-7B/7D is designed to replace the plastic shoes provided with a variety of Night Vision Devices.
 basePrice=2454
 width=1
@@ -21,3 +16,8 @@ Sell_Flea Market=9999
 weight=0.070000
 fleaMarketFee=708
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	T-7 Thermal Goggles with a Night Vision mount
+]
+Recoil=0.000000
+Ergonomics=0.000000

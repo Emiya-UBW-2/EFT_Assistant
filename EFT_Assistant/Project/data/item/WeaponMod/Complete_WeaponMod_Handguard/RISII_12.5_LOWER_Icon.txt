@@ -2,6 +2,19 @@ IDstr=638f2003bbd47aeb9e0ff637
 Name=AR-15 Daniel Defense RIS II 12.25 lower handguard (Coyote Brown)
 ShortName=RIS II 12.25
 Itemtype=Handguard
+Information_Eng=The Daniel Defense RIS II 12.25 lower handguard. Made with light but durable aircraft aluminum alloy. Equipped with RIS interface for installation of additional devices and accessories. Coyote Brown version.
+basePrice=5220
+width=2
+height=1
+Sell_Prapor=2610
+Sell_Fence=2088
+Sell_Skier=2557
+Sell_Peacekeeper=20
+Sell_Mechanic=2923
+Sell_Flea Market=65000
+weight=0.150000
+fleaMarketFee=9035
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	BCM GUNFIGHTER MOD 3 vertical foregrip/|
 	ASh-12 vertical foregrip/|
@@ -53,16 +66,3 @@ ChildParts=[
 ]
 Recoil=-2.000000
 Ergonomics=5.000000
-Information_Eng=The Daniel Defense RIS II 12.25 lower handguard. Made with light but durable aircraft aluminum alloy. Equipped with RIS interface for installation of additional devices and accessories. Coyote Brown version.
-basePrice=5220
-width=2
-height=1
-Sell_Prapor=2610
-Sell_Fence=2088
-Sell_Skier=2557
-Sell_Peacekeeper=20
-Sell_Mechanic=2923
-Sell_Flea Market=10000
-weight=0.150000
-fleaMarketFee=533
-propertiestype=ItemPropertiesWeaponMod

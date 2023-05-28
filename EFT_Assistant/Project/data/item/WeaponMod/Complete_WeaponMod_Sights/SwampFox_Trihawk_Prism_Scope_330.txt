@@ -2,14 +2,6 @@ IDstr=626bb8532c923541184624b4
 Name=SwampFox Trihawk Prism Scope 3x30
 ShortName=Trihawk 3x30
 Itemtype=Assault scope
-SightRange=0
-Conflict=[
-	AR-15 rear sight carry handle/|
-	RPK-16 rear sight base/|
-	AR-15 Colt A2 rear sight
-]
-Recoil=0.000000
-Ergonomics=-3.000000
 Information_Eng=A prismatic scope with 3x magnification manufactured by SwampFox.
 basePrice=29784
 width=2
@@ -20,7 +12,15 @@ Sell_Skier=14594
 Sell_Peacekeeper=113
 Sell_Mechanic=16679
 Sell_Jaeger=17870
-Sell_Flea Market=15555
+Sell_Flea Market=19700
 weight=0.436000
-fleaMarketFee=1588
+fleaMarketFee=1571
+Conflict=[
+	AR-15 rear sight carry handle/|
+	RPK-16 rear sight base/|
+	AR-15 Colt A2 rear sight
+]
 propertiestype=ItemPropertiesScope
+SightRange=0
+Recoil=0.000000
+Ergonomics=-3.000000

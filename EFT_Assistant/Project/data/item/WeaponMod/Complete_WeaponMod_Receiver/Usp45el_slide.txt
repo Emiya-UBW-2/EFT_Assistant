@@ -2,23 +2,6 @@ IDstr=6194f5d418a3974e5e7421ef
 Name=HK USP Elite .45 ACP pistol slide
 ShortName=USP45EL
 Itemtype=Receiver
-ChildParts=[
-	HK USP rear sight/|
-	HK USP Tactical rear sight
-]
-ChildParts=[
-	HK USP front sight/|
-	HK USP Tactical front sight
-]
-Conflict=[
-	HK USP .45 ACP Match compensator/|
-	HK USP .45 ACP barrel/|
-	HK USP Tactical .45 ACP threaded barrel/|
-	HK USP Expert .45 ACP barrel/|
-	HK USP Match .45 ACP barrel
-]
-Recoil=-4.000000
-Ergonomics=2.000000
 Information_Eng=A pistol slide for the special version of the USP45 pistol - USP45 Elite, manufactured by Heckler & Koch.
 basePrice=6500
 width=2
@@ -31,4 +14,21 @@ Sell_Mechanic=3640
 Sell_Flea Market=12500
 weight=0.550000
 fleaMarketFee=667
+Conflict=[
+	HK USP .45 ACP Match compensator/|
+	HK USP .45 ACP barrel/|
+	HK USP Tactical .45 ACP threaded barrel/|
+	HK USP Expert .45 ACP barrel/|
+	HK USP Match .45 ACP barrel
+]
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	HK USP rear sight/|
+	HK USP Tactical rear sight
+]
+ChildParts=[
+	HK USP front sight/|
+	HK USP Tactical front sight
+]
+Recoil=-4.000000
+Ergonomics=2.000000

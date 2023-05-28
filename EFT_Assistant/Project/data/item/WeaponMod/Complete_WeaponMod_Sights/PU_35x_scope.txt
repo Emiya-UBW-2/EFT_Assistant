@@ -2,13 +2,6 @@ IDstr=5b3f7c1c5acfc40dc5296b1d
 Name=PU 3.5x riflescope
 ShortName=PU 3.5x
 Itemtype=Scope
-SightRange=0
-Conflict=[
-	MPX flip-up front sight/|
-	MPX flip-up rear sight
-]
-Recoil=0.000000
-Ergonomics=-5.000000
 Information_Eng=The PU 3.5x riflescope for Mosin sniper rifles.
 basePrice=12335
 width=1
@@ -19,7 +12,14 @@ Sell_Skier=6044
 Sell_Peacekeeper=47
 Sell_Mechanic=6907
 Sell_Jaeger=7401
-Sell_Flea Market=14500
+Sell_Flea Market=15000
 weight=0.400000
-fleaMarketFee=806
+fleaMarketFee=825
+Conflict=[
+	MPX flip-up front sight/|
+	MPX flip-up rear sight
+]
 propertiestype=ItemPropertiesScope
+SightRange=0
+Recoil=0.000000
+Ergonomics=-5.000000

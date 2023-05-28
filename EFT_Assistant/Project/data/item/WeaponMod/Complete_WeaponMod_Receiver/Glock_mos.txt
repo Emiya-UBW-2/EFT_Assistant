@@ -2,6 +2,19 @@ IDstr=615d8dbd290d254f5e6b2ed6
 Name=Glock 17 9x19 MOS pistol slide
 ShortName=G MOS
 Itemtype=Receiver
+Information_Eng=The MOS (Modular Optic System) slide designed for Glock 9x19 pistols. Manufactured by Glock.
+basePrice=4700
+width=2
+height=1
+Sell_Prapor=2350
+Sell_Fence=1880
+Sell_Skier=2303
+Sell_Peacekeeper=18
+Sell_Mechanic=2632
+Sell_Flea Market=5264
+weight=0.325000
+fleaMarketFee=298
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Glock Dead Ringer Snake Eye rear sight/|
 	Glock rear sight/|
@@ -24,16 +37,3 @@ ChildParts=[
 ]
 Recoil=0.000000
 Ergonomics=4.000000
-Information_Eng=The MOS (Modular Optic System) slide designed for Glock 9x19 pistols. Manufactured by Glock.
-basePrice=4700
-width=2
-height=1
-Sell_Prapor=2350
-Sell_Fence=1880
-Sell_Skier=2303
-Sell_Peacekeeper=18
-Sell_Mechanic=2632
-Sell_Flea Market=5264
-weight=0.325000
-fleaMarketFee=298
-propertiestype=ItemPropertiesWeaponMod

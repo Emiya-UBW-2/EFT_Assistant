@@ -2,11 +2,6 @@ IDstr=6130c43c67085e45ef1405a1
 Name=AR-10 KAC QDC 7.62x51 Muzzle Brake Kit
 ShortName=QDC 762
 Itemtype=Flashhider
-ChildParts=[
-	KAC PRS/QDC 7.62x51 sound suppressor
-]
-Recoil=-13.000000
-Ergonomics=-1.000000
 Information_Eng=Knight's Armament Company Muzzle Brake Kit is an effective muzzle brake that also serves as a platform for attaching the PRS QDC sound suppressor. It can be Installed on AR-10 platform weapons.
 basePrice=12500
 width=1
@@ -16,7 +11,12 @@ Sell_Fence=5000
 Sell_Skier=6125
 Sell_Peacekeeper=47
 Sell_Mechanic=7000
-Sell_Flea Market=39999
+Sell_Flea Market=100000
 weight=0.145000
-fleaMarketFee=2515
+fleaMarketFee=10493
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	KAC PRS/QDC 7.62x51 sound suppressor
+]
+Recoil=-13.000000
+Ergonomics=-1.000000

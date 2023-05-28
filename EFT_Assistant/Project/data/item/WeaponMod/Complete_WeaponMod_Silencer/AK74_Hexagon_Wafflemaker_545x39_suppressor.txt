@@ -2,13 +2,6 @@ IDstr=615d8f8567085e45ef1409ca
 Name=AK-74 Hexagon Wafflemaker 5.45x39 sound suppressor
 ShortName=Waffle
 Itemtype=Silencer
-Conflict=[
-	AK Hexagon tubular handguard/|
-	AK Hexagon tubular handguard (Anodized Red)/|
-	AKS-74U Alfa Arms Goliaf handguard
-]
-Recoil=-7.000000
-Ergonomics=-19.000000
 Information_Eng=The "Wafflemaker" prototype sound suppressor manufactured by Hexagon, designed for installation on the Hexagon "Reactor" muzzle brake.
 basePrice=95000
 width=2
@@ -21,4 +14,11 @@ Sell_Mechanic=53200
 Sell_Flea Market=139999
 weight=0.290000
 fleaMarketFee=7399
+Conflict=[
+	AK Hexagon tubular handguard/|
+	AK Hexagon tubular handguard (Anodized Red)/|
+	AKS-74U Alfa Arms Goliaf handguard
+]
 propertiestype=ItemPropertiesWeaponMod
+Recoil=-7.000000
+Ergonomics=-19.000000

@@ -2,15 +2,6 @@ IDstr=5cadc55cae921500103bb3be
 Name=M9A3 9x19 pistol slide
 ShortName=M9A3
 Itemtype=Receiver
-ChildParts=[
-	M9A3 rear sight/|
-	M9A3 Sight Mount rear sight rail
-]
-ChildParts=[
-	M9A3 front sight
-]
-Recoil=0.000000
-Ergonomics=1.000000
 Information_Eng=A standard-issue pistol slide for Beretta M9A3 9x19 pistols.
 basePrice=2350
 width=2
@@ -24,3 +15,12 @@ Sell_Flea Market=1999
 weight=0.190000
 fleaMarketFee=131
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	M9A3 rear sight/|
+	M9A3 Sight Mount rear sight rail
+]
+ChildParts=[
+	M9A3 front sight
+]
+Recoil=0.000000
+Ergonomics=1.000000

@@ -2,6 +2,28 @@ IDstr=5649d9a14bdc2d79388b4580
 Name=AK Taktika Tula TT01 rear sight rail
 ShortName=TT01
 Itemtype=Ironsight
+Information_Eng=The TT01 rear sight adapter, designed by Taktika Tula for AK family assault rifles. Installed in place of a standard rear sight and can be used as an iron sight if no reflex sight is installed.
+basePrice=2698
+width=1
+height=1
+Sell_Prapor=1349
+Sell_Fence=1079
+Sell_Skier=1322
+Sell_Peacekeeper=10
+Sell_Mechanic=1510
+Sell_Flea Market=8000
+weight=0.085000
+fleaMarketFee=487
+Conflict=[
+	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
+	OKP-7 reflex sight (Dovetail)/|
+	BelOMO PSO-1M2-1 4x24 scope/|
+	NSPU-M night vision scope/|
+	Zenit B-13 "Klassika" dovetail rail platform/|
+	Zenit B-13V "Klassika" dovetail rail platform/|
+	AK Zenit B-33 dust cover
+]
+propertiestype=ItemPropertiesScope
 SightRange=0
 ChildParts=[
 	EOTech EXPS3 holographic sight (Tan)/|
@@ -22,27 +44,5 @@ ChildParts=[
 	Trijicon RMR high profile mount/|
 	Trijicon RMR low profile mount
 ]
-Conflict=[
-	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
-	OKP-7 reflex sight (Dovetail)/|
-	BelOMO PSO-1M2-1 4x24 scope/|
-	NSPU-M night vision scope/|
-	Zenit B-13 "Klassika" dovetail rail platform/|
-	Zenit B-13V "Klassika" dovetail rail platform/|
-	AK Zenit B-33 dust cover
-]
 Recoil=0.000000
 Ergonomics=-1.000000
-Information_Eng=The TT01 rear sight adapter, designed by Taktika Tula for AK family assault rifles. Installed in place of a standard rear sight and can be used as an iron sight if no reflex sight is installed.
-basePrice=2698
-width=1
-height=1
-Sell_Prapor=1349
-Sell_Fence=1079
-Sell_Skier=1322
-Sell_Peacekeeper=10
-Sell_Mechanic=1510
-Sell_Flea Market=10000
-weight=0.085000
-fleaMarketFee=674
-propertiestype=ItemPropertiesScope

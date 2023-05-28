@@ -2,6 +2,23 @@ IDstr=6065880c132d4d12c81fd8da
 Name=AR-10 CMMG MK3 RML9 9 inch M-LOK handguard
 ShortName=MK3 RML9
 Itemtype=Handguard
+Information_Eng=A 9 inch handguard for AR-10 weapon systems, equipped with an M-LOK interface for attaching additional equipment. Manufactured by CMMG.
+basePrice=10500
+width=2
+height=1
+Sell_Prapor=5250
+Sell_Fence=4200
+Sell_Skier=5145
+Sell_Peacekeeper=40
+Sell_Mechanic=5880
+Sell_Flea Market=11000
+weight=0.155000
+fleaMarketFee=643
+Conflict=[
+	M4A1 front sight with gas block/|
+	AR-15 Windham Weaponry Rail Gas Block
+]
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount/|
@@ -40,22 +57,5 @@ ChildParts=[
 ChildParts=[
 	NcSTAR MPR45 Backup mount
 ]
-Conflict=[
-	M4A1 front sight with gas block/|
-	AR-15 Windham Weaponry Rail Gas Block
-]
 Recoil=0.000000
 Ergonomics=6.000000
-Information_Eng=A 9 inch handguard for AR-10 weapon systems, equipped with an M-LOK interface for attaching additional equipment. Manufactured by CMMG.
-basePrice=10500
-width=2
-height=1
-Sell_Prapor=5250
-Sell_Fence=4200
-Sell_Skier=5145
-Sell_Peacekeeper=40
-Sell_Mechanic=5880
-Sell_Flea Market=9000
-weight=0.155000
-fleaMarketFee=586
-propertiestype=ItemPropertiesWeaponMod

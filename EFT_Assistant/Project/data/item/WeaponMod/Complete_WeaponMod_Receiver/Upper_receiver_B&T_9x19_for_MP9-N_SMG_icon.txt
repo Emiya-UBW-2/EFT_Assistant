@@ -2,6 +2,19 @@ IDstr=5de8e67c4a9f347bc92edbd7
 Name=MP9-N 9x19 upper receiver
 ShortName=MP9-N
 Itemtype=Receiver
+Information_Eng=An upper receiver for the MP9-N SMG, manufactured by Brügger & Thomet.
+basePrice=5260
+width=2
+height=1
+Sell_Prapor=2630
+Sell_Fence=2104
+Sell_Skier=2577
+Sell_Peacekeeper=20
+Sell_Mechanic=2945
+Sell_Flea Market=75455
+weight=0.270000
+fleaMarketFee=11497
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
 	ELCAN SpecterDR 1x/4x scope (FDE)/|
@@ -70,16 +83,3 @@ ChildParts=[
 ]
 Recoil=0.000000
 Ergonomics=5.000000
-Information_Eng=An upper receiver for the MP9-N SMG, manufactured by Brügger & Thomet.
-basePrice=5260
-width=2
-height=1
-Sell_Prapor=2630
-Sell_Fence=2104
-Sell_Skier=2577
-Sell_Peacekeeper=20
-Sell_Mechanic=2945
-Sell_Flea Market=75455
-weight=0.270000
-fleaMarketFee=11497
-propertiestype=ItemPropertiesWeaponMod

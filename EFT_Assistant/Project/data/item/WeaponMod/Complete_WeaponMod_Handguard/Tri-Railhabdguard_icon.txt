@@ -2,6 +2,19 @@ IDstr=5d19cd96d7ad1a4a992c9f52
 Name=HK MP5 PTR Tri-Rail handguard
 ShortName=MP5 Tri-Rail
 Itemtype=Handguard
+Information_Eng=A handguard for HK MP5 SMG manufactured by PTR, equipped with 3 rail mounts for installation of additional tactical devices.
+basePrice=10200
+width=2
+height=1
+Sell_Prapor=5100
+Sell_Fence=4080
+Sell_Skier=4998
+Sell_Peacekeeper=39
+Sell_Mechanic=5712
+Sell_Flea Market=30000
+weight=0.308000
+fleaMarketFee=1818
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	BCM GUNFIGHTER MOD 3 vertical foregrip/|
 	ASh-12 vertical foregrip/|
@@ -74,16 +87,3 @@ ChildParts=[
 ]
 Recoil=-1.000000
 Ergonomics=11.000000
-Information_Eng=A handguard for HK MP5 SMG manufactured by PTR, equipped with 3 rail mounts for installation of additional tactical devices.
-basePrice=10200
-width=2
-height=1
-Sell_Prapor=5100
-Sell_Fence=4080
-Sell_Skier=4998
-Sell_Peacekeeper=39
-Sell_Mechanic=5712
-Sell_Flea Market=14990
-weight=0.308000
-fleaMarketFee=792
-propertiestype=ItemPropertiesWeaponMod

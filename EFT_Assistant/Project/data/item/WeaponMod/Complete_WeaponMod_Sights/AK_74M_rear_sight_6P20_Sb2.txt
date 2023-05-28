@@ -2,12 +2,6 @@ IDstr=5ac72e475acfc400180ae6fe
 Name=AK-74M rear sight (6P20 Sb.2)
 ShortName=6P20 Sb.2
 Itemtype=Ironsight
-SightRange=0
-ChildParts=[
-	AKMP system rear sight device
-]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A standard rear sight for AK-74M automatic rifles, manufactured by Izhmash.
 basePrice=512
 width=1
@@ -21,3 +15,9 @@ Sell_Flea Market=1000
 weight=0.025000
 fleaMarketFee=53
 propertiestype=ItemPropertiesScope
+SightRange=0
+ChildParts=[
+	AKMP system rear sight device
+]
+Recoil=0.000000
+Ergonomics=0.000000

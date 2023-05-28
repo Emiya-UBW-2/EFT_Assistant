@@ -2,11 +2,6 @@ IDstr=5f3e77f59103d430b93f94c1
 Name=M1911A1 .45 ACP threaded barrel
 ShortName=1911 thr.
 Itemtype=Barrel
-ChildParts=[
-	SilencerCo Omega 45k Piston Mount adapter
-]
-Recoil=-3.000000
-Ergonomics=-4.000000
 Information_Eng=A standard-issue threaded barrel for the M1911A1 .45 ACP pistol, manufactured by Colt.
 basePrice=3200
 width=1
@@ -17,7 +12,12 @@ Sell_Skier=1568
 Sell_Peacekeeper=12
 Sell_Mechanic=1792
 Sell_Jaeger=1920
-Sell_Flea Market=13000
+Sell_Flea Market=15000
 weight=0.120000
-fleaMarketFee=919
+fleaMarketFee=1146
 propertiestype=ItemPropertiesBarrel
+ChildParts=[
+	SilencerCo Omega 45k Piston Mount adapter
+]
+Recoil=-3.000000
+Ergonomics=-4.000000

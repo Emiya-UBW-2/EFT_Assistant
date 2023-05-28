@@ -2,6 +2,32 @@ IDstr=5d15ce51d7ad1a1eff619092
 Name=AKS-74U Alfa Arms Goliaf handguard
 ShortName=Goliaf
 Itemtype=Handguard
+Information_Eng=This integrally machined handguard is manufactured from aluminum alloy D16T with coyote brown coating and can be installed instead of the standard-issue foregrip on the AKS-74U. It comes fitted with Picatinny rail mounts on three sides, allowing for the installation of additional equipment such as tactical foregrips, flashlights, and laser designators.
+basePrice=5194
+width=1
+height=1
+Sell_Prapor=2597
+Sell_Fence=2077
+Sell_Skier=2545
+Sell_Peacekeeper=20
+Sell_Mechanic=2908
+Sell_Flea Market=6000
+weight=0.150000
+fleaMarketFee=336
+Conflict=[
+	AK-105 5.45x39 muzzle brake-compensator (6P44 0-20)/|
+	AK-74M 5.45x39 muzzle brake-compensator (6P20 0-20)/|
+	AK-74 5.45x39 muzzle brake-compensator (6P20 0-20)/|
+	AK-74 thread type JMac Customs RRD-4C multi-caliber muzzle brake/|
+	AK-74 PWS CQB 74 5.45x39 muzzle brake/|
+	AK-74 SRVV MBR Jet 5.45x39 muzzle brake/|
+	AK Hexagon Reactor 5.45x39 muzzle brake/|
+	AK Zenit DTK-1 7.62x39/5.45x39 muzzle brake-compensator/|
+	AK-74 Hexagon 5.45x39 sound suppressor/|
+	AKS-74U PBS-4 5.45x39 sound suppressor/|
+	AK-74 Hexagon Wafflemaker 5.45x39 sound suppressor
+]
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	BCM GUNFIGHTER MOD 3 vertical foregrip/|
 	ASh-12 vertical foregrip/|
@@ -125,31 +151,5 @@ ChildParts=[
 	Trijicon RMR high profile mount/|
 	Trijicon RMR low profile mount
 ]
-Conflict=[
-	AK-105 5.45x39 muzzle brake-compensator (6P44 0-20)/|
-	AK-74M 5.45x39 muzzle brake-compensator (6P20 0-20)/|
-	AK-74 5.45x39 muzzle brake-compensator (6P20 0-20)/|
-	AK-74 thread type JMac Customs RRD-4C multi-caliber muzzle brake/|
-	AK-74 PWS CQB 74 5.45x39 muzzle brake/|
-	AK-74 SRVV MBR Jet 5.45x39 muzzle brake/|
-	AK Hexagon Reactor 5.45x39 muzzle brake/|
-	AK Zenit DTK-1 7.62x39/5.45x39 muzzle brake-compensator/|
-	AK-74 Hexagon 5.45x39 sound suppressor/|
-	AKS-74U PBS-4 5.45x39 sound suppressor/|
-	AK-74 Hexagon Wafflemaker 5.45x39 sound suppressor
-]
 Recoil=-1.000000
 Ergonomics=3.000000
-Information_Eng=This integrally machined handguard is manufactured from aluminum alloy D16T with coyote brown coating and can be installed instead of the standard-issue foregrip on the AKS-74U. It comes fitted with Picatinny rail mounts on three sides, allowing for the installation of additional equipment such as tactical foregrips, flashlights, and laser designators.
-basePrice=5194
-width=1
-height=1
-Sell_Prapor=2597
-Sell_Fence=2077
-Sell_Skier=2545
-Sell_Peacekeeper=20
-Sell_Mechanic=2908
-Sell_Flea Market=6000
-weight=0.150000
-fleaMarketFee=336
-propertiestype=ItemPropertiesWeaponMod

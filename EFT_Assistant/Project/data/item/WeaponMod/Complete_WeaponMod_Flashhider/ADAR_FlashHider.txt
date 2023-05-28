@@ -2,11 +2,6 @@ IDstr=5c0fafb6d174af02a96260ba
 Name=AR-15 ADAR 2-15 5.56x45 flash hider
 ShortName=ADAR
 Itemtype=Flashhider
-ChildParts=[
-	AR-15 Griffin Armament M4SD-K 5.56x45 sound suppressor
-]
-Recoil=-7.000000
-Ergonomics=-1.000000
 Information_Eng=A standard-issue 5.56x45 flash hider for the ADAR 2-15 carbines.
 basePrice=907
 width=1
@@ -20,3 +15,8 @@ Sell_Flea Market=99999
 weight=0.064000
 fleaMarketFee=60126
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	AR-15 Griffin Armament M4SD-K 5.56x45 sound suppressor
+]
+Recoil=-7.000000
+Ergonomics=-1.000000

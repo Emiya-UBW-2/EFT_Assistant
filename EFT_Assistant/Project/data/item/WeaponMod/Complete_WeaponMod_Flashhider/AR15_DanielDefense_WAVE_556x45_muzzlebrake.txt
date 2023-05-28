@@ -2,11 +2,6 @@ IDstr=5cff9e5ed7ad1a09407397d4
 Name=AR-15 Daniel Defense WAVE 5.56x45 muzzle brake
 ShortName=WAVE 556
 Itemtype=Flashhider
-ChildParts=[
-	Daniel Defense WAVE QD sound suppressor
-]
-Recoil=-9.000000
-Ergonomics=-1.000000
 Information_Eng=The Daniel Defense WAVE muzzle brake is designed to securely mount the Daniel Defense WAVE suppressor to the host firearm, but also functions effectively without it. It's manufactured from aerospace 17-4 PH stainless steel and had a salt bath nitride finish for minimal corrosion.
 basePrice=7980
 width=1
@@ -16,7 +11,12 @@ Sell_Fence=3192
 Sell_Skier=3910
 Sell_Peacekeeper=30
 Sell_Mechanic=4468
-Sell_Flea Market=29987
+Sell_Flea Market=26666
 weight=0.109000
-fleaMarketFee=2036
+fleaMarketFee=1710
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Daniel Defense WAVE QD sound suppressor
+]
+Recoil=-9.000000
+Ergonomics=-1.000000

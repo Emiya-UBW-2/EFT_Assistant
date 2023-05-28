@@ -2,6 +2,20 @@
 
 namespace FPS_n2 {
 	//
+	void	TraderList::Load_Sub() noexcept {
+		for (auto& L : m_LvData) {
+			for (auto& C : L.m_ItemBarters) {
+				for (auto& a : C.m_ItemReqArgs) {
+					SetGetData<ItemGetData, ItemData>(&C.m_ItemReq, a);
+				}
+				for (auto& a : C.m_ItemRewardArgs) {
+					SetGetData<ItemGetData, ItemData>(&C.m_ItemReward, a);
+				}
+			}
+		}
+
+	}
+	//
 	void TraderJsonData::GetJsonSub(const nlohmann::json& data) noexcept {
 		Information_Eng = data["description"];
 		PayItem = ItemData::Instance()->FindID((std::string)(data["currency"]["name"]));

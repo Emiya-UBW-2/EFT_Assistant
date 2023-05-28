@@ -2,12 +2,6 @@ IDstr=62812081d23f207deb0ab216
 Name=AI .338 LM Tactical Muzzle Brake 
 ShortName=TMB 338LM
 Itemtype=Flashhider
-ChildParts=[
-	AI .338 LM Tactical Sound Moderator/|
-	AI AXMC thread protection cap
-]
-Recoil=-11.000000
-Ergonomics=-2.000000
 Information_Eng=A muzzle brake manufactured by Accuracy International for .338 LM (8.6x70). Reduces recoil and counters the muzzle rise.
 basePrice=12500
 width=1
@@ -21,3 +15,9 @@ Sell_Flea Market=49999
 weight=0.230000
 fleaMarketFee=3506
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	AI .338 LM Tactical Sound Moderator/|
+	AI AXMC thread protection cap
+]
+Recoil=-11.000000
+Ergonomics=-2.000000

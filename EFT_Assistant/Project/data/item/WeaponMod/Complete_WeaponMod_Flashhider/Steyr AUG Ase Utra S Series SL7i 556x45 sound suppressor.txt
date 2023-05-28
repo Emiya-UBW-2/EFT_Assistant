@@ -2,11 +2,6 @@ IDstr=634eba08f69c710e0108d386
 Name=Steyr AUG Ase Utra S Series SL7i 5.56x45 sound suppressor
 ShortName=SL7i 5.56
 Itemtype=Silencer
-Conflict=[
-	Steyr AUG Relfex T4AUG Ranger 5.56x45 sound suppressor
-]
-Recoil=-10.000000
-Ergonomics=-24.000000
 Information_Eng=The S Series SL7i sound suppressor for Steyr AUG 5.56x45 rifles. Manufactured by Ase Utra.
 basePrice=59000
 width=2
@@ -16,7 +11,12 @@ Sell_Fence=23600
 Sell_Skier=28910
 Sell_Peacekeeper=223
 Sell_Mechanic=33040
-Sell_Flea Market=33000
+Sell_Flea Market=33500
 weight=0.494000
-fleaMarketFee=3119
+fleaMarketFee=3115
+Conflict=[
+	Steyr AUG Relfex T4AUG Ranger 5.56x45 sound suppressor
+]
 propertiestype=ItemPropertiesWeaponMod
+Recoil=-10.000000
+Ergonomics=-24.000000

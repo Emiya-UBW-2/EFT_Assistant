@@ -2,13 +2,6 @@ IDstr=60a7acf20c5cb24b01346648
 Name=BOSS cap
 ShortName=Cap
 Itemtype=Headwear
-Conflict=[
-	Misha Mayorov mask/|
-	Slender mask/|
-	GP-5 gas mask/|
-	GP-7 gas mask/|
-	Pestily plague mask
-]
 Information_Eng=A fancy red BOSS cap. Yo, fella, you da real BOSS now!
 basePrice=8353
 width=1
@@ -17,7 +10,14 @@ Sell_Fence=3341
 Sell_Skier=4092
 Sell_Peacekeeper=32
 Sell_Ragman=5178
-Sell_Flea Market=12500
+Sell_Flea Market=11111
 weight=0.100000
-fleaMarketFee=660
+fleaMarketFee=597
+Conflict=[
+	Misha Mayorov mask/|
+	Slender mask/|
+	GP-5 gas mask/|
+	GP-7 gas mask/|
+	Pestily plague mask
+]
 propertiestype=

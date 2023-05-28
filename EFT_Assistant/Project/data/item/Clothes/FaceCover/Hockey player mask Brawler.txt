@@ -2,14 +2,6 @@ IDstr=62a5c333ec21e50cad3b5dc6
 Name=Hockey player mask "Brawler"
 ShortName=Brawler
 Itemtype=Face Cover
-Conflict=[
-	Army cap/|
-	Baseball cap/|
-	BEAR baseball cap (Green)/|
-	USEC baseball cap (Tan)/|
-	EMERCOM cap/|
-	Police cap
-]
 Information_Eng=Frightening mask from a children's cartoon about hockey.
 basePrice=15000
 width=2
@@ -18,7 +10,15 @@ Sell_Fence=6000
 Sell_Skier=7350
 Sell_Peacekeeper=57
 Sell_Ragman=9300
-Sell_Flea Market=12000
+Sell_Flea Market=9998
 weight=0.100000
-fleaMarketFee=818
+fleaMarketFee=792
+Conflict=[
+	Army cap/|
+	Baseball cap/|
+	BEAR baseball cap (Green)/|
+	USEC baseball cap (Tan)/|
+	EMERCOM cap/|
+	Police cap
+]
 propertiestype=

@@ -2,6 +2,25 @@ IDstr=5c61a40d2e2216001403158d
 Name=Zenit B-13 "Klassika" dovetail rail platform
 ShortName=B-13
 Itemtype=Mount
+Information_Eng=The B-13 rail platform mounts on the standard dovetail mount of the AK 103, 104, 105, 74M, AKMN, Saiga MK, Saiga MK-03, Saiga 410 carbines and provides a platform for sighting devices. Manufactured by Zenit.
+basePrice=7800
+width=1
+height=1
+Sell_Prapor=3900
+Sell_Fence=3120
+Sell_Skier=3822
+Sell_Peacekeeper=29
+Sell_Mechanic=4368
+Sell_Jaeger=4680
+Sell_Flea Market=20490
+weight=0.175000
+fleaMarketFee=1188
+Conflict=[
+	BelOMO PSO-1 4x24 scope/|
+	BelOMO PSO-1M2-1 4x24 scope/|
+	BelOMO PSO-1M2 4x24 scope
+]
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
 	ELCAN SpecterDR 1x/4x scope (FDE)/|
@@ -61,24 +80,5 @@ ChildParts=[
 	SwampFox Trihawk Prism Scope 3x30/|
 	AI AX-50 34mm scope mount
 ]
-Conflict=[
-	BelOMO PSO-1 4x24 scope/|
-	BelOMO PSO-1M2-1 4x24 scope/|
-	BelOMO PSO-1M2 4x24 scope
-]
 Recoil=0.000000
 Ergonomics=-1.000000
-Information_Eng=The B-13 rail platform mounts on the standard dovetail mount of the AK 103, 104, 105, 74M, AKMN, Saiga MK, Saiga MK-03, Saiga 410 carbines and provides a platform for sighting devices. Manufactured by Zenit.
-basePrice=7800
-width=1
-height=1
-Sell_Prapor=3900
-Sell_Fence=3120
-Sell_Skier=3822
-Sell_Peacekeeper=29
-Sell_Mechanic=4368
-Sell_Jaeger=4680
-Sell_Flea Market=12888
-weight=0.175000
-fleaMarketFee=678
-propertiestype=ItemPropertiesWeaponMod

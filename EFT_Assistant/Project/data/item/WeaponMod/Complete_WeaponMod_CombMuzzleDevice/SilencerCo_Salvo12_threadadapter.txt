@@ -2,11 +2,6 @@ IDstr=5b363e1b5acfc4771e1c5e80
 Name=SilencerCo Salvo 12 thread adapter
 ShortName=12ga thr.
 Itemtype=Comb. muzzle device
-ChildParts=[
-	SilencerCo Salvo 12 12ga sound suppressor
-]
-Recoil=-1.000000
-Ergonomics=0.000000
 Information_Eng=The SilencerCo thread adapter for Salvo 12g sound suppressors.
 basePrice=800
 width=1
@@ -16,7 +11,12 @@ Sell_Fence=320
 Sell_Skier=392
 Sell_Peacekeeper=3
 Sell_Mechanic=448
-Sell_Flea Market=20000
+Sell_Flea Market=12900
 weight=0.110000
-fleaMarketFee=4395
+fleaMarketFee=2122
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	SilencerCo Salvo 12 12ga sound suppressor
+]
+Recoil=-1.000000
+Ergonomics=0.000000

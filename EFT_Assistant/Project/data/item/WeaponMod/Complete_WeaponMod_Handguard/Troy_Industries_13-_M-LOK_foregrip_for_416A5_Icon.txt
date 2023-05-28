@@ -2,6 +2,19 @@ IDstr=5c6c2c9c2e2216000f2002e4
 Name=HK 416A5 TROY M-LOK 13 inch handguard
 ShortName=416A5 TROY 13"
 Itemtype=Handguard
+Information_Eng=The TROY Industries carbon fiber M-LOK foregrip for 416A5 equipped with an M-LOK interface for the installation of additional devices and accessories.
+basePrice=18900
+width=3
+height=1
+Sell_Prapor=9450
+Sell_Fence=7560
+Sell_Skier=9261
+Sell_Peacekeeper=71
+Sell_Mechanic=10584
+Sell_Flea Market=15000
+weight=0.250000
+fleaMarketFee=1028
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount/|
@@ -48,16 +61,3 @@ ChildParts=[
 ]
 Recoil=0.000000
 Ergonomics=14.000000
-Information_Eng=The TROY Industries carbon fiber M-LOK foregrip for 416A5 equipped with an M-LOK interface for the installation of additional devices and accessories.
-basePrice=18900
-width=3
-height=1
-Sell_Prapor=9450
-Sell_Fence=7560
-Sell_Skier=9261
-Sell_Peacekeeper=71
-Sell_Mechanic=10584
-Sell_Flea Market=11888
-weight=0.250000
-fleaMarketFee=995
-propertiestype=ItemPropertiesWeaponMod

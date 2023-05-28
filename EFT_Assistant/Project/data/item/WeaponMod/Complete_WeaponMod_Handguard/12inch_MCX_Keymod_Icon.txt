@@ -2,6 +2,33 @@ IDstr=5fbc227aa56d053a3543f79e
 Name=MCX GEN1 KeyMod 12 inch handguard
 ShortName=MCX 12"
 Itemtype=Handguard
+Information_Eng=A first-gen 12 inch handguard for the MCX assault rifle, equipped with a KeyMod interface for attaching additional equipment. Manufactured by SIG Sauer.
+basePrice=10000
+width=3
+height=1
+Sell_Prapor=5000
+Sell_Fence=4000
+Sell_Skier=4900
+Sell_Peacekeeper=38
+Sell_Mechanic=5600
+Sell_Flea Market=29000
+weight=0.430000
+fleaMarketFee=1747
+Conflict=[
+	AR-10 2A Armanent X3 7.62x51 compensator/|
+	AR-10 AAC Blackout 51T 7.62x51 flash hider/|
+	AR-10 Daniel Defense WAVE 7.62x51 muzzle brake/|
+	Desert Tech 7.62x51 flash hider/|
+	AR-10 KAC QDC 7.62x51 Flash Suppressor Kit/|
+	AR-10 Keeno Arms SHREWD 7.62x51 muzzle brake/|
+	AR-10 Lantac Drakon 7.62x51 muzzle brake-compensator/|
+	AR-10 Nordic Components Corvette 7.62x51 compensator/|
+	AR-10 Odin Works ATLAS-7 7.62x51 muzzle brake/|
+	AR-10 Precision Armanent M11 Severe-Duty 7.62x51 muzzle brake/|
+	AR-10 Thunder Beast Arms 30CB 7.62x51 muzzle brake/|
+	Lantac BMD Blast Mitigation Device A3 direct thread adapter
+]
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Strike Industries KeyMod 4 inch rail/|
 	Vltor CASV KeyMod 2 inch rail/|
@@ -33,32 +60,5 @@ ChildParts=[
 	Vltor CASV KeyMod 6 inch rail/|
 	CNC Guns KeyMod 4 inch rail
 ]
-Conflict=[
-	AR-10 2A Armanent X3 7.62x51 compensator/|
-	AR-10 AAC Blackout 51T 7.62x51 flash hider/|
-	AR-10 Daniel Defense WAVE 7.62x51 muzzle brake/|
-	Desert Tech 7.62x51 flash hider/|
-	AR-10 KAC QDC 7.62x51 Flash Suppressor Kit/|
-	AR-10 Keeno Arms SHREWD 7.62x51 muzzle brake/|
-	AR-10 Lantac Drakon 7.62x51 muzzle brake-compensator/|
-	AR-10 Nordic Components Corvette 7.62x51 compensator/|
-	AR-10 Odin Works ATLAS-7 7.62x51 muzzle brake/|
-	AR-10 Precision Armanent M11 Severe-Duty 7.62x51 muzzle brake/|
-	AR-10 Thunder Beast Arms 30CB 7.62x51 muzzle brake/|
-	Lantac BMD Blast Mitigation Device A3 direct thread adapter
-]
 Recoil=-1.000000
 Ergonomics=6.000000
-Information_Eng=A first-gen 12 inch handguard for the MCX assault rifle, equipped with a KeyMod interface for attaching additional equipment. Manufactured by SIG Sauer.
-basePrice=10000
-width=3
-height=1
-Sell_Prapor=5000
-Sell_Fence=4000
-Sell_Skier=4900
-Sell_Peacekeeper=38
-Sell_Mechanic=5600
-Sell_Flea Market=22222
-weight=0.430000
-fleaMarketFee=1222
-propertiestype=ItemPropertiesWeaponMod

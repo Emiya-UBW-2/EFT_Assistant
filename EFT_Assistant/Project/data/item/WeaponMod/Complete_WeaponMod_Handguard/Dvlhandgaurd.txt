@@ -2,6 +2,19 @@ IDstr=5888976c24597754281f93f5
 Name=DVL-10 M2 handguard
 ShortName=DVL-10 M2
 Itemtype=Handguard
+Information_Eng=A standard-issue handguard for the DVL-10 M2 sniper rifle, manufactured by Lobaev Arms.
+basePrice=6269
+width=2
+height=1
+Sell_Prapor=3134
+Sell_Fence=2507
+Sell_Skier=3071
+Sell_Peacekeeper=24
+Sell_Mechanic=3510
+Sell_Flea Market=24999
+weight=0.223000
+fleaMarketFee=1750
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Holosun LS321 Tactical device/|
 	AN/PEQ-15 tactical device/|
@@ -33,16 +46,3 @@ ChildParts=[
 ]
 Recoil=0.000000
 Ergonomics=9.000000
-Information_Eng=A standard-issue handguard for the DVL-10 M2 sniper rifle, manufactured by Lobaev Arms.
-basePrice=6269
-width=2
-height=1
-Sell_Prapor=3134
-Sell_Fence=2507
-Sell_Skier=3071
-Sell_Peacekeeper=24
-Sell_Mechanic=3510
-Sell_Flea Market=24999
-weight=0.223000
-fleaMarketFee=1750
-propertiestype=ItemPropertiesWeaponMod

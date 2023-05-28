@@ -2,19 +2,6 @@ IDstr=57cffe20245977632f391a9d
 Name=AK Magpul MOE AKM handguard (Stealth Gray)
 ShortName=MOE AKM
 Itemtype=Handguard
-ChildParts=[
-	Magpul M-LOK AFG tactical foregrip (Black)/|
-	Magpul M-LOK AFG tactical foregrip (FDE)/|
-	Magpul M-LOK AFG tactical foregrip (Olive Drab)/|
-	Magpul M-LOK AFG tactical foregrip (Stealth Gray)/|
-	Magpul M-LOK 4.1 inch rail
-]
-ChildParts=[
-	Magpul M-LOK 2.5 inch rail/|
-	Magpul M-LOK Cantilever Mount
-]
-Recoil=-2.000000
-Ergonomics=10.000000
 Information_Eng=The Magpul MOE AKM hand guard is installed on AKM/AK-74 compatible weapon systems. It comes equipped with licensed M-LOK mounts for the installation of additional devices or rails. Stealth Gray version.
 basePrice=13751
 width=1
@@ -28,3 +15,16 @@ Sell_Flea Market=13333
 weight=0.221000
 fleaMarketFee=811
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Magpul M-LOK AFG tactical foregrip (Black)/|
+	Magpul M-LOK AFG tactical foregrip (FDE)/|
+	Magpul M-LOK AFG tactical foregrip (Olive Drab)/|
+	Magpul M-LOK AFG tactical foregrip (Stealth Gray)/|
+	Magpul M-LOK 4.1 inch rail
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail/|
+	Magpul M-LOK Cantilever Mount
+]
+Recoil=-2.000000
+Ergonomics=10.000000

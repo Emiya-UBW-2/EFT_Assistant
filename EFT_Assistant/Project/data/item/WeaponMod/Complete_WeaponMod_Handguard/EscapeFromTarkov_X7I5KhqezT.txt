@@ -2,25 +2,6 @@ IDstr=62386b2adf47d66e835094b2
 Name=HK G36 2-vent handguard
 ShortName=G36 2-vent
 Itemtype=Handguard
-ChildParts=[
-	HK G36 bottom handguard rail
-]
-ChildParts=[
-	HK G36 side handguard rail
-]
-ChildParts=[
-	HK G36 side handguard rail
-]
-ChildParts=[
-	HK G36 hand stop
-]
-Conflict=[
-	Hera Arms CQR tactical foregrip/|
-	HK G36 5.56x45 318mm barrel/|
-	HK G36 5.56x45 480mm barrel
-]
-Recoil=0.000000
-Ergonomics=12.000000
 Information_Eng=A standard polymer 2-vent handguard with a heatshield for the G36 assault rifle. Manufactured by Heckler & Koch.
 basePrice=2500
 width=2
@@ -33,4 +14,23 @@ Sell_Mechanic=1400
 Sell_Flea Market=10000
 weight=0.230000
 fleaMarketFee=701
+Conflict=[
+	Hera Arms CQR tactical foregrip/|
+	HK G36 5.56x45 318mm barrel/|
+	HK G36 5.56x45 480mm barrel
+]
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	HK G36 bottom handguard rail
+]
+ChildParts=[
+	HK G36 side handguard rail
+]
+ChildParts=[
+	HK G36 side handguard rail
+]
+ChildParts=[
+	HK G36 hand stop
+]
+Recoil=0.000000
+Ergonomics=12.000000

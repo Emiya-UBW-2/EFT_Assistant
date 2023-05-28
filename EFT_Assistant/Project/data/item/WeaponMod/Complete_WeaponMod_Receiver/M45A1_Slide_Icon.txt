@@ -2,17 +2,6 @@ IDstr=5f3e7823ddc4f03b010e2045
 Name=M45A1 .45 ACP pistol slide
 ShortName=M45A1 slide
 Itemtype=Receiver
-ChildParts=[
-	M45A1 Novak Lomount rear sight
-]
-ChildParts=[
-	M45A1 Novak Lomount front sight
-]
-ChildParts=[
-	M1911 Anarchy Outdoors .45 ACP muzzle brake
-]
-Recoil=0.000000
-Ergonomics=4.000000
 Information_Eng=A standard-issue slide for the M45A1 pistol, manufactured by Colt.
 basePrice=5100
 width=2
@@ -26,3 +15,14 @@ Sell_Flea Market=35000
 weight=0.470000
 fleaMarketFee=3342
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	M45A1 Novak Lomount rear sight
+]
+ChildParts=[
+	M45A1 Novak Lomount front sight
+]
+ChildParts=[
+	M1911 Anarchy Outdoors .45 ACP muzzle brake
+]
+Recoil=0.000000
+Ergonomics=4.000000

@@ -7,10 +7,6 @@
    basePrice
    width
    height
-   types
-   avg24hPrice
-   low24hPrice
-   lastOfferCount
 
    conflictingItems{name}
 

@@ -2,12 +2,6 @@ IDstr=5addbbb25acfc40015621bd9
 Name=M14 Yankee Hill Phantom 7.62x51 flash hider
 ShortName=Phantom
 Itemtype=Flashhider
-ChildParts=[
-	M1A SA National Match .062 Blade front sight/|
-	M1A SA XS Post .125 Blade front sight
-]
-Recoil=-8.000000
-Ergonomics=-1.000000
 Information_Eng=A muzzle brake-compensator manufactured by Yankee Hill to fit M14 rifles.
 basePrice=6488
 width=1
@@ -21,3 +15,9 @@ Sell_Flea Market=7200
 weight=0.070000
 fleaMarketFee=410
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	M1A SA National Match .062 Blade front sight/|
+	M1A SA XS Post .125 Blade front sight
+]
+Recoil=-8.000000
+Ergonomics=-1.000000

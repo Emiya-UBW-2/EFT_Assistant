@@ -2,18 +2,6 @@ IDstr=56d5a407d2720bb3418b456b
 Name=P226R MK25 pistol slide
 ShortName=P226R
 Itemtype=Receiver
-ChildParts=[
-	P226 Meprolight TRU-DOT Night rear sight/|
-	P226 rear sight/|
-	P226 Sight Mount 220-239 rear sight bearing/|
-	P226 Trijicon RMR mount
-]
-ChildParts=[
-	P226 Meprolight TRU-DOT Night front sight/|
-	P226 front sight
-]
-Recoil=0.000000
-Ergonomics=3.000000
 Information_Eng=The SIG Sauer Mk25 blued slide for P226R 9x19 pistols.
 basePrice=3210
 width=2
@@ -27,3 +15,15 @@ Sell_Flea Market=7000
 weight=0.190000
 fleaMarketFee=383
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	P226 Meprolight TRU-DOT Night rear sight/|
+	P226 rear sight/|
+	P226 Sight Mount 220-239 rear sight bearing/|
+	P226 Trijicon RMR mount
+]
+ChildParts=[
+	P226 Meprolight TRU-DOT Night front sight/|
+	P226 front sight
+]
+Recoil=0.000000
+Ergonomics=3.000000

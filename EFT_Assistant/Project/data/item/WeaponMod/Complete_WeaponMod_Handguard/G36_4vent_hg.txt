@@ -2,24 +2,6 @@ IDstr=62386b7153757417e93a4e9f
 Name=HK G36 4-vent handguard
 ShortName=G36 4-vent
 Itemtype=Handguard
-ChildParts=[
-	HK G36 bottom handguard rail
-]
-ChildParts=[
-	HK G36 side handguard rail
-]
-ChildParts=[
-	HK G36 side handguard rail
-]
-ChildParts=[
-	HK G36 hand stop
-]
-Conflict=[
-	HK G36 5.56x45 228mm barrel/|
-	HK G36 5.56x45 480mm barrel
-]
-Recoil=-1.000000
-Ergonomics=9.000000
 Information_Eng=A standard polymer 4-vent handguard with a heatshield for the G36 assault rifle. Manufactured by Heckler & Koch.
 basePrice=4000
 width=2
@@ -32,4 +14,22 @@ Sell_Mechanic=2240
 Sell_Flea Market=9999
 weight=0.280000
 fleaMarketFee=570
+Conflict=[
+	HK G36 5.56x45 228mm barrel/|
+	HK G36 5.56x45 480mm barrel
+]
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	HK G36 bottom handguard rail
+]
+ChildParts=[
+	HK G36 side handguard rail
+]
+ChildParts=[
+	HK G36 side handguard rail
+]
+ChildParts=[
+	HK G36 hand stop
+]
+Recoil=-1.000000
+Ergonomics=9.000000

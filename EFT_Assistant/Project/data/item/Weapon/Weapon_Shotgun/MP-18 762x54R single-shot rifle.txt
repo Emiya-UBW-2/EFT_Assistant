@@ -2,16 +2,6 @@ IDstr=61f7c9e189e6fb1a5e3ea78d
 Name=MP-18 7.62x54R single-shot rifle
 ShortName=MP-18
 Itemtype=Shotgun
-SightRange=100
-ChildParts=[
-	MP-18 7.62x54R 600mm barrel
-]
-ChildParts=[
-	MP-18 polymer stock/|
-	MP-18 wooden stock
-]
-Recoil=328.000000
-Ergonomics=44.000000
 Information_Eng=MP-18 is the legendary Soviet single-barreled rifle. This gun behaves perfectly in all weather conditions, no breakdowns or failures have ever been identified.
 basePrice=7800
 width=2
@@ -22,7 +12,17 @@ Sell_Skier=3822
 Sell_Peacekeeper=29
 Sell_Mechanic=4368
 Sell_Jaeger=4680
-Sell_Flea Market=17550
+Sell_Flea Market=17000
 weight=0.760000
-fleaMarketFee=969
+fleaMarketFee=930
 propertiestype=ItemPropertiesWeapon
+SightRange=100
+ChildParts=[
+	MP-18 7.62x54R 600mm barrel
+]
+ChildParts=[
+	MP-18 polymer stock/|
+	MP-18 wooden stock
+]
+Recoil=328.000000
+Ergonomics=44.000000

@@ -2,15 +2,6 @@ IDstr=5cf67cadd7f00c065a5abab7
 Name=SKS Weapon Tuning 7.62x39 thread adapter
 ShortName=WT0032_1
 Itemtype=Comb. muzzle device
-ChildParts=[
-	AK-103 7.62x39 muzzle brake-compensator/|
-	AK-104 7.62x39 muzzle brake-compensator (6P46 0-20)/|
-	AK SRVV 7.62x39 muzzle brake-compensator/|
-	AK Zenit DTK-1 7.62x39/5.45x39 muzzle brake-compensator/|
-	AKM Zenit DTK-4M 7.62x39 sound suppressor
-]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=The Weapon Tuning muzzle adapter that provides the ability to install modern 7.62x39 muzzle devices on the SKS carbines.
 basePrice=1850
 width=1
@@ -20,7 +11,16 @@ Sell_Fence=740
 Sell_Skier=906
 Sell_Peacekeeper=7
 Sell_Mechanic=1036
-Sell_Flea Market=13333
+Sell_Flea Market=30000
 weight=0.055000
-fleaMarketFee=1312
+fleaMarketFee=4952
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	AK-103 7.62x39 muzzle brake-compensator/|
+	AK-104 7.62x39 muzzle brake-compensator (6P46 0-20)/|
+	AK SRVV 7.62x39 muzzle brake-compensator/|
+	AK Zenit DTK-1 7.62x39/5.45x39 muzzle brake-compensator/|
+	AKM Zenit DTK-4M 7.62x39 sound suppressor
+]
+Recoil=0.000000
+Ergonomics=0.000000

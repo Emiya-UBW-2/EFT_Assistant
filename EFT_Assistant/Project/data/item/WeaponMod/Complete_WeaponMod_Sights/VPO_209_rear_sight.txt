@@ -2,12 +2,6 @@ IDstr=59e8977386f77415a553c453
 Name=VPO-209 rear sight
 ShortName=VPO209
 Itemtype=Ironsight
-SightRange=0
-ChildParts=[
-	AKMP system rear sight device
-]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A standard rear sight for VPO-209 AKM carbines, manufactured by Molot Arms.
 basePrice=470
 width=1
@@ -21,3 +15,9 @@ Sell_Flea Market=493
 weight=0.025000
 fleaMarketFee=29
 propertiestype=ItemPropertiesScope
+SightRange=0
+ChildParts=[
+	AKMP system rear sight device
+]
+Recoil=0.000000
+Ergonomics=0.000000

@@ -2,11 +2,6 @@ IDstr=5b363dea5acfc4771e1c5e7e
 Name=SilencerCo Salvo 12 choke adapter
 ShortName=12ga adpt.
 Itemtype=Comb. muzzle device
-ChildParts=[
-	SilencerCo Salvo 12 12ga sound suppressor
-]
-Recoil=-1.000000
-Ergonomics=0.000000
 Information_Eng=The SilencerCo choke adapter for Salvo 12g sound suppressors.
 basePrice=800
 width=1
@@ -20,3 +15,8 @@ Sell_Flea Market=37500
 weight=0.130000
 fleaMarketFee=12572
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	SilencerCo Salvo 12 12ga sound suppressor
+]
+Recoil=-1.000000
+Ergonomics=0.000000

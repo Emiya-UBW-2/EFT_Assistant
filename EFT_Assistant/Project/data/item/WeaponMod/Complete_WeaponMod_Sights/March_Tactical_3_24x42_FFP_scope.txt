@@ -2,7 +2,19 @@ IDstr=57c5ac0824597754771e88a9
 Name=March Tactical 3-24x42 FFP 30mm riflescope
 ShortName=3-24x42 FFP
 Itemtype=Scope
-SightRange=0
+Information_Eng=The March Tactical 3-24x42 FFP optical scope is reliable and accurate with ammunition of any power.
+basePrice=41616
+width=2
+height=1
+Sell_Prapor=20808
+Sell_Fence=16646
+Sell_Skier=20391
+Sell_Peacekeeper=157
+Sell_Mechanic=23304
+Sell_Jaeger=24969
+Sell_Flea Market=21000
+weight=0.640000
+fleaMarketFee=2231
 Conflict=[
 	Axion Kobra EKP-8-18 reflex sight/|
 	OKP-7 reflex sight/|
@@ -20,19 +32,7 @@ Conflict=[
 	Walther MRS reflex sight/|
 	Aimpoint LRP mount for CompM4 sights
 ]
+propertiestype=ItemPropertiesScope
+SightRange=0
 Recoil=0.000000
 Ergonomics=-4.000000
-Information_Eng=The March Tactical 3-24x42 FFP optical scope is reliable and accurate with ammunition of any power.
-basePrice=41616
-width=2
-height=1
-Sell_Prapor=20808
-Sell_Fence=16646
-Sell_Skier=20391
-Sell_Peacekeeper=157
-Sell_Mechanic=23304
-Sell_Jaeger=24969
-Sell_Flea Market=31000
-weight=0.640000
-fleaMarketFee=2230
-propertiestype=ItemPropertiesScope

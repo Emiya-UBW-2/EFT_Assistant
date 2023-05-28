@@ -2,6 +2,19 @@ IDstr=5cf4e3f3d7f00c06595bc7f0
 Name=AK 5.45 Design Aggressor handguard
 ShortName=Aggressor
 Itemtype=Handguard
+Information_Eng=Aggressor is a railed handguard for AK series rifles manufactured by 5.45 Design. Features 4 side rails for installation of tactical devices and 2 long rails for installation of various optics and foregrips.
+basePrice=19400
+width=1
+height=1
+Sell_Prapor=9700
+Sell_Fence=7760
+Sell_Skier=9506
+Sell_Peacekeeper=73
+Sell_Mechanic=10864
+Sell_Flea Market=32900
+weight=0.260000
+fleaMarketFee=1733
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	BCM GUNFIGHTER MOD 3 vertical foregrip/|
 	ASh-12 vertical foregrip/|
@@ -151,16 +164,3 @@ ChildParts=[
 ]
 Recoil=-3.000000
 Ergonomics=5.000000
-Information_Eng=Aggressor is a railed handguard for AK series rifles manufactured by 5.45 Design. Features 4 side rails for installation of tactical devices and 2 long rails for installation of various optics and foregrips.
-basePrice=19400
-width=1
-height=1
-Sell_Prapor=9700
-Sell_Fence=7760
-Sell_Skier=9506
-Sell_Peacekeeper=73
-Sell_Mechanic=10864
-Sell_Flea Market=33333
-weight=0.260000
-fleaMarketFee=1757
-propertiestype=ItemPropertiesWeaponMod

@@ -2,10 +2,6 @@ IDstr=5c066e3a0db834001b7353f0
 Name=Armasight N-15 Night Vision Goggles
 ShortName=N-15
 Itemtype=Night Vision
-Conflict=[
-	Ops-Core FAST Visor/|
-	Ops-Core FAST multi-hit ballistic face shield
-]
 Information_Eng=The Armasight N-15-NVG binocular. Civilian alternative to contract military devices installed in a compact and ergonomic body.
 basePrice=74800
 width=2
@@ -16,7 +12,11 @@ Sell_Skier=36652
 Sell_Peacekeeper=283
 Sell_Mechanic=41888
 Sell_Jaeger=44880
-Sell_Flea Market=48999
+Sell_Flea Market=45888
 weight=0.755000
-fleaMarketFee=3942
+fleaMarketFee=3936
+Conflict=[
+	Ops-Core FAST Visor/|
+	Ops-Core FAST multi-hit ballistic face shield
+]
 propertiestype=ItemPropertiesNightVision

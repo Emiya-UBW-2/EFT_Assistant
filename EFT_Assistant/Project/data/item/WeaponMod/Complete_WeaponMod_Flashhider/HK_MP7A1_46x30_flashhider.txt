@@ -2,11 +2,6 @@ IDstr=5ba26acdd4351e003562908e
 Name=HK MP7A1 4.6x30 flash hider
 ShortName=MP7A1
 Itemtype=Flashhider
-ChildParts=[
-	HK MP7 B&T Rotex 2 4.6x30 sound suppressor
-]
-Recoil=-5.000000
-Ergonomics=-1.000000
 Information_Eng=A flash hider designed for installation on the MP7 SMGs chambered in 4.6x30mm, manufactured by Heckler & Koch.
 basePrice=911
 width=1
@@ -20,3 +15,8 @@ Sell_Flea Market=14444
 weight=0.080000
 fleaMarketFee=2349
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	HK MP7 B&T Rotex 2 4.6x30 sound suppressor
+]
+Recoil=-5.000000
+Ergonomics=-1.000000

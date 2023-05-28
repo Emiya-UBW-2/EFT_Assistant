@@ -2,16 +2,6 @@ IDstr=57c69dd424597774c03b7bbc
 Name=Lobaev Arms 30mm scope mount
 ShortName=Lobaev 30mm
 Itemtype=Mount
-ChildParts=[
-	Burris FullField TAC30 1-4x24 30mm riflescope/|
-	EOTech Vudu 1-6x24 30mm riflescope/|
-	Leupold Mark 4 LR 6.5-20x50 30mm riflescope/|
-	March Tactical 3-24x42 FFP 30mm riflescope/|
-	Vortex Razor HD Gen.2 1-6x24 30mm riflescope/|
-	Schmidt & Bender PM II 1-8x24 30mm riflescope
-]
-Recoil=0.000000
-Ergonomics=-1.000000
 Information_Eng=A universal 30mm optical scope base mount by Lobaev Arms for installation on Picatinny rails.
 basePrice=4086
 width=2
@@ -22,7 +12,17 @@ Sell_Skier=2002
 Sell_Peacekeeper=15
 Sell_Mechanic=2288
 Sell_Jaeger=2451
-Sell_Flea Market=40000
+Sell_Flea Market=28500
 weight=0.250000
-fleaMarketFee=4765
+fleaMarketFee=2748
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Burris FullField TAC30 1-4x24 30mm riflescope/|
+	EOTech Vudu 1-6x24 30mm riflescope/|
+	Leupold Mark 4 LR 6.5-20x50 30mm riflescope/|
+	March Tactical 3-24x42 FFP 30mm riflescope/|
+	Vortex Razor HD Gen.2 1-6x24 30mm riflescope/|
+	Schmidt & Bender PM II 1-8x24 30mm riflescope
+]
+Recoil=0.000000
+Ergonomics=-1.000000

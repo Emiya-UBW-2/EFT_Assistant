@@ -2,6 +2,17 @@ IDstr=6176a48d732a664031271438
 Name=Faceless mask
 ShortName=Faceless
 Itemtype=Face Cover
+Information_Eng=A scary mask from some famous animated movie.
+basePrice=21125
+width=2
+height=2
+Sell_Fence=8450
+Sell_Skier=10351
+Sell_Peacekeeper=80
+Sell_Ragman=13097
+Sell_Flea Market=19000
+weight=0.200000
+fleaMarketFee=1201
 Conflict=[
 	Army cap/|
 	Baseball cap/|
@@ -74,15 +85,4 @@ Conflict=[
 	Jack-o'-lantern tactical pumpkin helmet/|
 	Beanie
 ]
-Information_Eng=A scary mask from some famous animated movie.
-basePrice=21125
-width=2
-height=2
-Sell_Fence=8450
-Sell_Skier=10351
-Sell_Peacekeeper=80
-Sell_Ragman=13097
-Sell_Flea Market=19000
-weight=0.200000
-fleaMarketFee=1201
 propertiestype=

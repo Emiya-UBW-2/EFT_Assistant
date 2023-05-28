@@ -2,6 +2,27 @@ IDstr=5fc235db2770a0045c59c683
 Name=Mk-18 18 inch handguard
 ShortName=Mk-18 18"
 Itemtype=Handguard
+Information_Eng=A lightweight 18 inch long M-LOK-compatible handguard for the Mk-18 rifle. Manufactured by SWORD International.
+basePrice=16400
+width=3
+height=1
+Sell_Prapor=8200
+Sell_Fence=6560
+Sell_Skier=8036
+Sell_Peacekeeper=62
+Sell_Mechanic=9184
+Sell_Flea Market=20000
+weight=0.420000
+fleaMarketFee=1099
+Conflict=[
+	AR-10 JP Enterprises Gas System-6/|
+	M4A1 front sight with gas block/|
+	AR-15 Windham Weaponry Rail Gas Block/|
+	AR-15 5.56x45 260mm barrel/|
+	AR-15 5.56x45 370mm barrel/|
+	AR-15 5.56x45 Molot Arms 406mm barrel
+]
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	NcSTAR MPR45 Backup mount
 ]
@@ -47,26 +68,5 @@ ChildParts=[
 	Magpul M-LOK Offset Light Mount/|
 	Magpul M-LOK Cantilever Mount
 ]
-Conflict=[
-	AR-10 JP Enterprises Gas System-6/|
-	M4A1 front sight with gas block/|
-	AR-15 Windham Weaponry Rail Gas Block/|
-	AR-15 5.56x45 260mm barrel/|
-	AR-15 5.56x45 370mm barrel/|
-	AR-15 5.56x45 Molot Arms 406mm barrel
-]
 Recoil=0.000000
 Ergonomics=7.000000
-Information_Eng=A lightweight 18 inch long M-LOK-compatible handguard for the Mk-18 rifle. Manufactured by SWORD International.
-basePrice=16400
-width=3
-height=1
-Sell_Prapor=8200
-Sell_Fence=6560
-Sell_Skier=8036
-Sell_Peacekeeper=62
-Sell_Mechanic=9184
-Sell_Flea Market=20000
-weight=0.420000
-fleaMarketFee=1099
-propertiestype=ItemPropertiesWeaponMod

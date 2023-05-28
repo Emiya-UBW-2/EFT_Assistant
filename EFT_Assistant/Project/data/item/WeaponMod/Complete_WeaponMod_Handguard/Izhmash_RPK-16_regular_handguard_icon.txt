@@ -2,6 +2,19 @@ IDstr=5beec3e30db8340019619424
 Name=RPK-16 handguard
 ShortName=RPK-16
 Itemtype=Handguard
+Information_Eng=A regular handguard for the RPK-16 LMG. Manufactured by Izhmash.
+basePrice=7750
+width=2
+height=1
+Sell_Prapor=3875
+Sell_Fence=3100
+Sell_Skier=3797
+Sell_Peacekeeper=29
+Sell_Mechanic=4340
+Sell_Flea Market=55555
+weight=0.167000
+fleaMarketFee=5447
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	RPK-16 handguard rail
 ]
@@ -67,16 +80,3 @@ ChildParts=[
 ]
 Recoil=-1.000000
 Ergonomics=6.000000
-Information_Eng=A regular handguard for the RPK-16 LMG. Manufactured by Izhmash.
-basePrice=7750
-width=2
-height=1
-Sell_Prapor=3875
-Sell_Fence=3100
-Sell_Skier=3797
-Sell_Peacekeeper=29
-Sell_Mechanic=4340
-Sell_Flea Market=55555
-weight=0.167000
-fleaMarketFee=5447
-propertiestype=ItemPropertiesWeaponMod

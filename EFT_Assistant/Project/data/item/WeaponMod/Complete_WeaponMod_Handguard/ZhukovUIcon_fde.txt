@@ -2,6 +2,22 @@ IDstr=5c9a1c3a2e2216000e69fb6a
 Name=AK Magpul Zhukov-U handguard (FDE)
 ShortName=Zhukov-U
 Itemtype=Handguard
+Information_Eng=The Magpul Zhukov-U handguard is installed on AKM/AK-74 compatible weapon systems. Equipped with licensed M-LOK mounts for installation of additional devices or rails. Flat Dark Earth version.
+basePrice=19200
+width=2
+height=1
+Sell_Prapor=9600
+Sell_Fence=7680
+Sell_Skier=9408
+Sell_Peacekeeper=73
+Sell_Mechanic=10752
+Sell_Flea Market=23420
+weight=0.310000
+fleaMarketFee=1286
+Conflict=[
+	PP-19-01 "Vityaz" 9x19 submachine gun
+]
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Magpul M-LOK AFG tactical foregrip (Black)/|
 	Magpul M-LOK AFG tactical foregrip (FDE)/|
@@ -17,21 +33,5 @@ ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount
 ]
-Conflict=[
-	PP-19-01 "Vityaz" 9x19 submachine gun
-]
 Recoil=-1.000000
 Ergonomics=14.000000
-Information_Eng=The Magpul Zhukov-U handguard is installed on AKM/AK-74 compatible weapon systems. Equipped with licensed M-LOK mounts for installation of additional devices or rails. Flat Dark Earth version.
-basePrice=19200
-width=2
-height=1
-Sell_Prapor=9600
-Sell_Fence=7680
-Sell_Skier=9408
-Sell_Peacekeeper=73
-Sell_Mechanic=10752
-Sell_Flea Market=22222
-weight=0.310000
-fleaMarketFee=1243
-propertiestype=ItemPropertiesWeaponMod

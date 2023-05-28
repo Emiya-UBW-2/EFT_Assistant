@@ -2,13 +2,6 @@ IDstr=5a16badafcdbcb001865f72d
 Name=Ops-Core FAST Side Armor
 ShortName=FAST Ears
 Itemtype=Armored equipment
-Conflict=[
-	Peltor ComTac 2 headset/|
-	MSA Sordin Supreme PRO-X/L active headset/|
-	GSSh-01 active headset/|
-	Peltor Tactical Sport headset/|
-	Walker's Razor Digital headset
-]
 Information_Eng=An additional armor module for the Ops-Core FAST helmet, protects the ears from shrapnel and small caliber ricochets.
 basePrice=34469
 width=2
@@ -17,7 +10,14 @@ Sell_Fence=13787
 Sell_Skier=16889
 Sell_Peacekeeper=130
 Sell_Ragman=21370
-Sell_Flea Market=40000
+Sell_Flea Market=33000
 weight=1.200000
-fleaMarketFee=2235
+fleaMarketFee=2018
+Conflict=[
+	Peltor ComTac 2 headset/|
+	MSA Sordin Supreme PRO-X/L active headset/|
+	GSSh-01 active headset/|
+	Peltor Tactical Sport headset/|
+	Walker's Razor Digital headset
+]
 propertiestype=ItemPropertiesArmorAttachment

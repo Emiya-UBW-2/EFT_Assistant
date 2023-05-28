@@ -2,6 +2,27 @@ IDstr=5bb20d9cd4351e00334c9d8a
 Name=HK 416A5 5.56x45 14.5 inch barrel
 ShortName=416A5 14.5"
 Itemtype=Barrel
+Information_Eng=A 14.5 inch (368mm) barrel for HK416 based weapons for 5.56x45 NATO ammo, includes a flip-up front sight.
+basePrice=27400
+width=3
+height=1
+Sell_Prapor=13700
+Sell_Fence=10960
+Sell_Skier=13426
+Sell_Peacekeeper=104
+Sell_Mechanic=15344
+Sell_Jaeger=16440
+Sell_Flea Market=20000
+weight=0.985000
+fleaMarketFee=1463
+Conflict=[
+	HK 416A5 MRS KeyMod 14 inch handguard/|
+	HK 416A5 Quad Rail Extended handguard/|
+	HK 416A5 Midwest Industries 13.5 inch M-LOK handguard/|
+	HK 416A5 Strike Industries CRUX 15 inch M-LOK handguard/|
+	HK 416A5 TROY M-LOK 13 inch handguard
+]
+propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	Yankee Hill Annihilator multi-caliber flash hider/|
 	AR-15 AAC Blackout 51T 5.56x45 flash hider/|
@@ -37,26 +58,5 @@ ChildParts=[
 ChildParts=[
 	HK 416A5 low profile gas block
 ]
-Conflict=[
-	HK 416A5 MRS KeyMod 14 inch handguard/|
-	HK 416A5 Quad Rail Extended handguard/|
-	HK 416A5 Midwest Industries 13.5 inch M-LOK handguard/|
-	HK 416A5 Strike Industries CRUX 15 inch M-LOK handguard/|
-	HK 416A5 TROY M-LOK 13 inch handguard
-]
 Recoil=-3.000000
 Ergonomics=-15.000000
-Information_Eng=A 14.5 inch (368mm) barrel for HK416 based weapons for 5.56x45 NATO ammo, includes a flip-up front sight.
-basePrice=27400
-width=3
-height=1
-Sell_Prapor=13700
-Sell_Fence=10960
-Sell_Skier=13426
-Sell_Peacekeeper=104
-Sell_Mechanic=15344
-Sell_Jaeger=16440
-Sell_Flea Market=16999
-weight=0.985000
-fleaMarketFee=1442
-propertiestype=ItemPropertiesBarrel

@@ -2,12 +2,6 @@ IDstr=5926d2be86f774134d668e4e
 Name=HK MP5 Drum rear sight
 ShortName=Drum
 Itemtype=Ironsight
-SightRange=0
-Conflict=[
-	Nightforce Magmount 30mm ring scope mount
-]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A standard rear sight for MP5 SMGs, manufactured by Heckler & Koch.
 basePrice=2100
 width=1
@@ -20,4 +14,10 @@ Sell_Mechanic=1176
 Sell_Flea Market=3999
 weight=0.140000
 fleaMarketFee=213
+Conflict=[
+	Nightforce Magmount 30mm ring scope mount
+]
 propertiestype=ItemPropertiesScope
+SightRange=0
+Recoil=0.000000
+Ergonomics=0.000000

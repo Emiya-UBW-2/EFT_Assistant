@@ -2,12 +2,6 @@ IDstr=5cebec10d7f00c065703d185
 Name=FN PS90 stock
 ShortName=PS90
 Itemtype=Stock
-ChildParts=[
-	FN P90 Damage Industries buttpad/|
-	FN P90 buttpad
-]
-Recoil=-9.000000
-Ergonomics=26.000000
 Information_Eng=A polymer stock for the civilian PS90 SMG variant. Manufactured by Fabrique Nationale Herstal.
 basePrice=3350
 width=3
@@ -22,3 +16,9 @@ Sell_Flea Market=50000
 weight=0.400000
 fleaMarketFee=7818
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	FN P90 Damage Industries buttpad/|
+	FN P90 buttpad
+]
+Recoil=-9.000000
+Ergonomics=26.000000

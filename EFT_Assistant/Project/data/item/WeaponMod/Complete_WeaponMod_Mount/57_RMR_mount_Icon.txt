@@ -2,11 +2,6 @@ IDstr=5d7b6bafa4b93652786f4c76
 Name=FN Five-seveN MK2 RMR mount
 ShortName=5-7 RMR
 Itemtype=Mount
-ChildParts=[
-	Trijicon RMR reflex sight
-]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=The Fabrique Nationale Herstal sight mount for installation of Trijicon RMR series reflex sights, also compatible with Holosun HS507C.
 basePrice=1700
 width=1
@@ -21,3 +16,8 @@ Sell_Flea Market=18888
 weight=0.120000
 fleaMarketFee=2439
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Trijicon RMR reflex sight
+]
+Recoil=0.000000
+Ergonomics=0.000000

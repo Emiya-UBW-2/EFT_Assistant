@@ -2,6 +2,22 @@ IDstr=5c78f2792e221600106f4683
 Name=AR-15 Magpul MOE SL carbine length M-LOK handguard
 ShortName=MOE SL
 Itemtype=Handguard
+Information_Eng=The Magpul MOE SL carbine length handguard for AR-15 systems, equipped with an M-LOK interface for installation of additional devices and accessories.
+basePrice=8800
+width=2
+height=1
+Sell_Prapor=4400
+Sell_Fence=3520
+Sell_Skier=4312
+Sell_Peacekeeper=33
+Sell_Mechanic=4928
+Sell_Flea Market=10580
+weight=0.190000
+fleaMarketFee=584
+Conflict=[
+	AR-15 5.56x45 Molot Arms 406mm barrel
+]
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Offset Light Mount/|
@@ -19,21 +35,5 @@ ChildParts=[
 	Magpul M-LOK AFG tactical foregrip (Stealth Gray)/|
 	Magpul M-LOK 4.1 inch rail
 ]
-Conflict=[
-	AR-15 5.56x45 Molot Arms 406mm barrel
-]
 Recoil=0.000000
 Ergonomics=10.000000
-Information_Eng=The Magpul MOE SL carbine length handguard for AR-15 systems, equipped with an M-LOK interface for installation of additional devices and accessories.
-basePrice=8800
-width=2
-height=1
-Sell_Prapor=4400
-Sell_Fence=3520
-Sell_Skier=4312
-Sell_Peacekeeper=33
-Sell_Mechanic=4928
-Sell_Flea Market=10580
-weight=0.190000
-fleaMarketFee=584
-propertiestype=ItemPropertiesWeaponMod

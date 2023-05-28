@@ -2,11 +2,6 @@ IDstr=5dff77c759400025ea5150cf
 Name=Leapers UTG 25mm ring scope mount
 ShortName=UTG 25mm
 Itemtype=Mount
-ChildParts=[
-	VOMZ Pilad 4x32 24.5mm riflescope
-]
-Recoil=0.000000
-Ergonomics=-2.000000
 Information_Eng=A low-profile 25.4mm ring mount for installation of various optics, manufactured by Leapers Inc.
 basePrice=1650
 width=2
@@ -17,7 +12,12 @@ Sell_Skier=808
 Sell_Peacekeeper=6
 Sell_Mechanic=924
 Sell_Jaeger=990
-Sell_Flea Market=5000
+Sell_Flea Market=3000
 weight=0.190000
-fleaMarketFee=307
+fleaMarketFee=159
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	VOMZ Pilad 4x32 24.5mm riflescope
+]
+Recoil=0.000000
+Ergonomics=-2.000000

@@ -2,11 +2,6 @@ IDstr=56eabf3bd2720b75698b4569
 Name=Magpul MOE Carbine stock (Black)
 ShortName=MOE
 Itemtype=Stock
-ChildParts=[
-	Magpul MOE Carbine rubber buttpad
-]
-Recoil=-30.000002
-Ergonomics=8.000000
 Information_Eng=A drop-in replacement buttstock for AR-15/M16 carbines by Magpul Original Equipment. Uses mil-spec sized receiver extension tubes. Frame profile avoids snagging and shields the release latch to prevent accidental activation, includes a standard 0.30" thick rubber butt-pad to prevent slippage even with body armor or modular gear. Black version.
 basePrice=8719
 width=2
@@ -17,7 +12,12 @@ Sell_Skier=4272
 Sell_Peacekeeper=33
 Sell_Mechanic=4882
 Sell_Jaeger=5231
-Sell_Flea Market=45554
+Sell_Flea Market=31111
 weight=0.226000
-fleaMarketFee=3700
+fleaMarketFee=2059
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Magpul MOE Carbine rubber buttpad
+]
+Recoil=-30.000002
+Ergonomics=8.000000

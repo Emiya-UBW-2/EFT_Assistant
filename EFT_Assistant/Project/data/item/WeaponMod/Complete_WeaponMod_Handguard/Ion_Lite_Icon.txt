@@ -2,6 +2,27 @@ IDstr=5d4405f0a4b9361e6a4e6bd9
 Name=AR-15 Lone Star Ion Lite handguard
 ShortName=Ion Lite
 Itemtype=Handguard
+Information_Eng=The Ion Lite lightweight handguard by Lone Star Armory, designed for use with sport rifles based on the AR-15 platform.
+basePrice=19900
+width=3
+height=1
+Sell_Prapor=9950
+Sell_Fence=7960
+Sell_Skier=9751
+Sell_Peacekeeper=75
+Sell_Mechanic=11144
+Sell_Flea Market=32000
+weight=0.380000
+fleaMarketFee=1684
+Conflict=[
+	AR-10 JP Enterprises Gas System-6/|
+	M4A1 front sight with gas block/|
+	AR-15 Windham Weaponry Rail Gas Block/|
+	AR-15 5.56x45 260mm barrel/|
+	AR-15 5.56x45 370mm barrel/|
+	AR-15 5.56x45 Molot Arms 406mm barrel
+]
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	NcSTAR MPR45 Backup mount
 ]
@@ -56,26 +77,5 @@ ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Offset Light Mount
 ]
-Conflict=[
-	AR-10 JP Enterprises Gas System-6/|
-	M4A1 front sight with gas block/|
-	AR-15 Windham Weaponry Rail Gas Block/|
-	AR-15 5.56x45 260mm barrel/|
-	AR-15 5.56x45 370mm barrel/|
-	AR-15 5.56x45 Molot Arms 406mm barrel
-]
 Recoil=-1.000000
 Ergonomics=11.000000
-Information_Eng=The Ion Lite lightweight handguard by Lone Star Armory, designed for use with sport rifles based on the AR-15 platform.
-basePrice=19900
-width=3
-height=1
-Sell_Prapor=9950
-Sell_Fence=7960
-Sell_Skier=9751
-Sell_Peacekeeper=75
-Sell_Mechanic=11144
-Sell_Flea Market=38888
-weight=0.380000
-fleaMarketFee=2080
-propertiestype=ItemPropertiesWeaponMod

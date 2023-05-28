@@ -2,17 +2,6 @@ IDstr=628120fd5631d45211793c9f
 Name=AI AXMC .338 LM 10-round magazine
 ShortName=AXMC 338LM
 Itemtype=Magazine
-Conflict=[
-	7.62x51mm M61/|
-	7.62x51mm M62 Tracer/|
-	7.62x51mm M80/|
-	7.62x51mm BCP FMJ/|
-	7.62x51mm M993/|
-	7.62x51mm TCW SP/|
-	7.62x51mm Ultra Nosler
-]
-Recoil=0.000000
-Ergonomics=-3.000000
 Information_Eng=A 10-round AXMC sniper rifle magazine by Accuracy International, for .338 Lapua Magnum cartridges.
 basePrice=9700
 width=1
@@ -25,4 +14,15 @@ Sell_Mechanic=5432
 Sell_Flea Market=14000
 weight=0.400000
 fleaMarketFee=742
+Conflict=[
+	7.62x51mm M61/|
+	7.62x51mm M62 Tracer/|
+	7.62x51mm M80/|
+	7.62x51mm BCP FMJ/|
+	7.62x51mm M993/|
+	7.62x51mm TCW SP/|
+	7.62x51mm Ultra Nosler
+]
 propertiestype=ItemPropertiesMagazine
+Recoil=0.000000
+Ergonomics=-3.000000

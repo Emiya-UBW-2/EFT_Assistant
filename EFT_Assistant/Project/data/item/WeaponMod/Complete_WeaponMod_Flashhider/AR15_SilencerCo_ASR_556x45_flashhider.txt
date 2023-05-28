@@ -2,11 +2,6 @@ IDstr=609269c3b0e443224b421cc1
 Name=AR-15 SilencerCo ASR 5.56x45 flash hider
 ShortName=ASR 556
 Itemtype=Flashhider
-ChildParts=[
-	SilencerCo Saker ASR 556 5.56x45 sound suppressor
-]
-Recoil=-9.000000
-Ergonomics=-2.000000
 Information_Eng=The SilencerCo ASR 5.56x45 flash hider is an effective flash suppressor that also serves as a platform for attaching the SilencerCo Saker 556 sound suppressor. Can be installed on AR-15 weapon systems.
 basePrice=8000
 width=1
@@ -16,7 +11,12 @@ Sell_Fence=3200
 Sell_Skier=3920
 Sell_Peacekeeper=30
 Sell_Mechanic=4480
-Sell_Flea Market=21111
+Sell_Flea Market=15000
 weight=0.140000
-fleaMarketFee=1226
+fleaMarketFee=797
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	SilencerCo Saker ASR 556 5.56x45 sound suppressor
+]
+Recoil=-9.000000
+Ergonomics=-2.000000

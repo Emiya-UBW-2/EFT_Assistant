@@ -2,6 +2,19 @@ IDstr=6165adcdd3a39d50044c120f
 Name=FN SCAR-H 7.62x51 upper receiver
 ShortName=Mk17
 Itemtype=Receiver
+Information_Eng=An upper receiver for the SCAR-H assault rifle, manufactured by Fabrique Nationale Herstal. Features a top rail for installation of additional equipment.
+basePrice=10500
+width=3
+height=1
+Sell_Prapor=5250
+Sell_Fence=4200
+Sell_Skier=5145
+Sell_Peacekeeper=40
+Sell_Mechanic=5880
+Sell_Flea Market=250000
+weight=0.200000
+fleaMarketFee=53187
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
 	ELCAN SpecterDR 1x/4x scope (FDE)/|
@@ -112,16 +125,3 @@ ChildParts=[
 ]
 Recoil=-1.000000
 Ergonomics=2.000000
-Information_Eng=An upper receiver for the SCAR-H assault rifle, manufactured by Fabrique Nationale Herstal. Features a top rail for installation of additional equipment.
-basePrice=10500
-width=3
-height=1
-Sell_Prapor=5250
-Sell_Fence=4200
-Sell_Skier=5145
-Sell_Peacekeeper=40
-Sell_Mechanic=5880
-Sell_Flea Market=250000
-weight=0.200000
-fleaMarketFee=53187
-propertiestype=ItemPropertiesWeaponMod

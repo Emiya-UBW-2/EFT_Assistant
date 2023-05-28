@@ -2,14 +2,6 @@ IDstr=5c1cdd302e221602b3137250
 Name=Kiba Arms Short Mount sight adapter
 ShortName=Short
 Itemtype=Mount
-ChildParts=[
-	Kiba Arms Short Prism 2.5x scope/|
-	Trijicon ACOG TA01NSN 4x32 scope (Black)/|
-	Trijicon ACOG TA01NSN 4x32 scope (Tan)/|
-	Trijicon ACOG TA11D 3.5x35 scope
-]
-Recoil=0.000000
-Ergonomics=-1.000000
 Information_Eng=Short Mount is a universal mount for installation of Kiba Arms manufactured prism scope.
 basePrice=1000
 width=1
@@ -20,7 +12,15 @@ Sell_Skier=490
 Sell_Peacekeeper=4
 Sell_Mechanic=560
 Sell_Jaeger=600
-Sell_Flea Market=295000
+Sell_Flea Market=66666
 weight=0.110000
-fleaMarketFee=351129
+fleaMarketFee=28395
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Kiba Arms Short Prism 2.5x scope/|
+	Trijicon ACOG TA01NSN 4x32 scope (Black)/|
+	Trijicon ACOG TA01NSN 4x32 scope (Tan)/|
+	Trijicon ACOG TA11D 3.5x35 scope
+]
+Recoil=0.000000
+Ergonomics=-1.000000

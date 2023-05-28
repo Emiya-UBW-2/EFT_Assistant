@@ -2,11 +2,6 @@ IDstr=5ef61964ec7f42238c31e0c1
 Name=M1911 Anarchy Outdoors .45 ACP muzzle brake
 ShortName=1911 AO
 Itemtype=Flashhider
-Conflict=[
-	M1911A1 .45 ACP threaded barrel
-]
-Recoil=-14.000000
-Ergonomics=-2.000000
 Information_Eng=A muzzle brake for the M1911A1 pistol, manufactured by Anarchy Outdoors.
 basePrice=4700
 width=1
@@ -19,4 +14,9 @@ Sell_Mechanic=2632
 Sell_Flea Market=5555
 weight=0.105000
 fleaMarketFee=308
+Conflict=[
+	M1911A1 .45 ACP threaded barrel
+]
 propertiestype=ItemPropertiesWeaponMod
+Recoil=-14.000000
+Ergonomics=-2.000000

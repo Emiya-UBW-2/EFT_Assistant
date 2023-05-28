@@ -2,6 +2,19 @@ IDstr=5d4aab30a4b9365435358c55
 Name=AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo (White)
 ShortName=VS Combo
 Itemtype=Gas block
+Information_Eng=A combined kit of the VS-24 handguard with the VS-33c gas tube, can be installed on 5.56x45, 5.45x39, 7.62x39 AK family assault rifles. Manufactured by Vezhlivyy Strelok. White version.
+basePrice=29600
+width=2
+height=1
+Sell_Prapor=14800
+Sell_Fence=11840
+Sell_Skier=14504
+Sell_Peacekeeper=112
+Sell_Mechanic=16576
+Sell_Flea Market=90000
+weight=0.385000
+fleaMarketFee=5532
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Axion Kobra EKP-8-18 reflex sight/|
 	OKP-7 reflex sight/|
@@ -56,16 +69,3 @@ ChildParts=[
 ]
 Recoil=-4.000000
 Ergonomics=14.000000
-Information_Eng=A combined kit of the VS-24 handguard with the VS-33c gas tube, can be installed on 5.56x45, 5.45x39, 7.62x39 AK family assault rifles. Manufactured by Vezhlivyy Strelok. White version.
-basePrice=29600
-width=2
-height=1
-Sell_Prapor=14800
-Sell_Fence=11840
-Sell_Skier=14504
-Sell_Peacekeeper=112
-Sell_Mechanic=16576
-Sell_Flea Market=48900
-weight=0.385000
-fleaMarketFee=2573
-propertiestype=ItemPropertiesWeaponMod

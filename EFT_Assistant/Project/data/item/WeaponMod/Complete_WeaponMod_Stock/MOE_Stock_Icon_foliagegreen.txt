@@ -2,11 +2,6 @@ IDstr=58d2946c86f7744e271174b5
 Name=Magpul MOE Carbine stock (Foliage Green)
 ShortName=MOE FG
 Itemtype=Stock
-ChildParts=[
-	Magpul MOE Carbine rubber buttpad
-]
-Recoil=-30.000002
-Ergonomics=8.000000
 Information_Eng=A drop-in replacement buttstock for AR-15/M16 carbines by Magpul Original Equipment. Uses mil-spec sized receiver extension tubes. Frame profile avoids snagging and shields the release latch to prevent accidental activation, includes a standard 0.30" thick rubber butt-pad to prevent slippage even with body armor or modular gear. Foliage Green version.
 basePrice=7497
 width=2
@@ -17,7 +12,12 @@ Sell_Skier=3673
 Sell_Peacekeeper=28
 Sell_Mechanic=4198
 Sell_Jaeger=4498
-Sell_Flea Market=9989
+Sell_Flea Market=15555
 weight=0.226000
-fleaMarketFee=536
+fleaMarketFee=842
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Magpul MOE Carbine rubber buttpad
+]
+Recoil=-30.000002
+Ergonomics=8.000000

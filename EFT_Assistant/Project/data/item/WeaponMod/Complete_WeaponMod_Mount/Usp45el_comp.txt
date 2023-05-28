@@ -2,14 +2,6 @@ IDstr=619621a4de3cdf1d2614a7a7
 Name=HK USP .45 ACP Elite compensator
 ShortName=USP45EL
 Itemtype=Mount
-Conflict=[
-	SilencerCo Omega 45k Piston Mount adapter/|
-	HK USP .45 ACP barrel/|
-	HK USP Tactical .45 ACP threaded barrel/|
-	HK USP Expert .45 ACP barrel
-]
-Recoil=-10.000000
-Ergonomics=-8.000000
 Information_Eng=The Elite compensator from the special USP Elite pistol kit will add additional weight to the front of your gun assisting to reduce vertical recoil "bounce". Manufactured by Heckler & Koch.
 basePrice=3500
 width=1
@@ -23,4 +15,12 @@ Sell_Jaeger=2100
 Sell_Flea Market=14500
 weight=0.310000
 fleaMarketFee=1036
+Conflict=[
+	SilencerCo Omega 45k Piston Mount adapter/|
+	HK USP .45 ACP barrel/|
+	HK USP Tactical .45 ACP threaded barrel/|
+	HK USP Expert .45 ACP barrel
+]
 propertiestype=ItemPropertiesWeaponMod
+Recoil=-10.000000
+Ergonomics=-8.000000

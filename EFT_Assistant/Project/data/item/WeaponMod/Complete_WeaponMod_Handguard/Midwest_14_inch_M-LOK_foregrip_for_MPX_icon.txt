@@ -2,6 +2,19 @@ IDstr=5c5db63a2e2216000f1b284a
 Name=MPX Midwest Industries 14 inch M-LOK handguard
 ShortName=MPX Midwest 14"
 Itemtype=Handguard
+Information_Eng=The Midwest Industries 14 inch length foregrip for the MPX SMGs equipped with an M-LOK interface for installation of additional devices and accessories.
+basePrice=11200
+width=2
+height=1
+Sell_Prapor=5600
+Sell_Fence=4480
+Sell_Skier=5488
+Sell_Peacekeeper=42
+Sell_Mechanic=6272
+Sell_Flea Market=85000
+weight=0.269000
+fleaMarketFee=8632
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount/|
@@ -52,16 +65,3 @@ ChildParts=[
 ]
 Recoil=-4.000000
 Ergonomics=7.000000
-Information_Eng=The Midwest Industries 14 inch length foregrip for the MPX SMGs equipped with an M-LOK interface for installation of additional devices and accessories.
-basePrice=11200
-width=2
-height=1
-Sell_Prapor=5600
-Sell_Fence=4480
-Sell_Skier=5488
-Sell_Peacekeeper=42
-Sell_Mechanic=6272
-Sell_Flea Market=98888
-weight=0.269000
-fleaMarketFee=11036
-propertiestype=ItemPropertiesWeaponMod

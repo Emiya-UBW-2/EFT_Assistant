@@ -2,6 +2,19 @@ IDstr=5bb20de5d4351e0035629e59
 Name=HK 416A5 Quad Rail handguard
 ShortName=416A5 4Rail
 Itemtype=Handguard
+Information_Eng=A quad rail handguard for 416 and compatibles. Comes with four picatinny rails for attaching wide amount of different tactical accessories. Manufactured by Heckler & Koch.
+basePrice=8100
+width=2
+height=1
+Sell_Prapor=4050
+Sell_Fence=3240
+Sell_Skier=3969
+Sell_Peacekeeper=31
+Sell_Mechanic=4536
+Sell_Flea Market=7000
+weight=0.399000
+fleaMarketFee=453
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	BCM GUNFIGHTER MOD 3 vertical foregrip/|
 	ASh-12 vertical foregrip/|
@@ -99,16 +112,3 @@ ChildParts=[
 ]
 Recoil=0.000000
 Ergonomics=4.000000
-Information_Eng=A quad rail handguard for 416 and compatibles. Comes with four picatinny rails for attaching wide amount of different tactical accessories. Manufactured by Heckler & Koch.
-basePrice=8100
-width=2
-height=1
-Sell_Prapor=4050
-Sell_Fence=3240
-Sell_Skier=3969
-Sell_Peacekeeper=31
-Sell_Mechanic=4536
-Sell_Flea Market=5000
-weight=0.399000
-fleaMarketFee=426
-propertiestype=ItemPropertiesWeaponMod

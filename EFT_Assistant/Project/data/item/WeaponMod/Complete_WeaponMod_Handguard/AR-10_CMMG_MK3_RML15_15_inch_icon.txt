@@ -2,6 +2,28 @@ IDstr=6065881d1246154cad35d637
 Name=AR-10 CMMG MK3 RML15 15 inch M-LOK handguard
 ShortName=MK3 RML15
 Itemtype=Handguard
+Information_Eng=A 15 inch handguard for AR-10 weapon systems, equipped with an M-LOK interface for attaching additional equipment. Manufactured by CMMG.
+basePrice=15000
+width=3
+height=1
+Sell_Prapor=7500
+Sell_Fence=6000
+Sell_Skier=7350
+Sell_Peacekeeper=57
+Sell_Mechanic=8400
+Sell_Flea Market=18000
+weight=0.220000
+fleaMarketFee=994
+Conflict=[
+	AR-10 JP Enterprises Gas System-6/|
+	M4A1 front sight with gas block/|
+	AR-15 Windham Weaponry Rail Gas Block/|
+	AR-15 5.56x45 260mm barrel/|
+	AR-15 5.56x45 370mm barrel/|
+	STM-9 9x19 10.5 inch barrel/|
+	STM-9 9x19 12 inch barrel
+]
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount/|
@@ -45,27 +67,5 @@ ChildParts=[
 ChildParts=[
 	NcSTAR MPR45 Backup mount
 ]
-Conflict=[
-	AR-10 JP Enterprises Gas System-6/|
-	M4A1 front sight with gas block/|
-	AR-15 Windham Weaponry Rail Gas Block/|
-	AR-15 5.56x45 260mm barrel/|
-	AR-15 5.56x45 370mm barrel/|
-	STM-9 9x19 10.5 inch barrel/|
-	STM-9 9x19 12 inch barrel
-]
 Recoil=-1.000000
 Ergonomics=5.500000
-Information_Eng=A 15 inch handguard for AR-10 weapon systems, equipped with an M-LOK interface for attaching additional equipment. Manufactured by CMMG.
-basePrice=15000
-width=3
-height=1
-Sell_Prapor=7500
-Sell_Fence=6000
-Sell_Skier=7350
-Sell_Peacekeeper=57
-Sell_Mechanic=8400
-Sell_Flea Market=18000
-weight=0.220000
-fleaMarketFee=994
-propertiestype=ItemPropertiesWeaponMod

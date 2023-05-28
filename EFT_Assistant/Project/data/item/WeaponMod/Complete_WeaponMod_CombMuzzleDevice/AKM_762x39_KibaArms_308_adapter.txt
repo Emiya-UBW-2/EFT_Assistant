@@ -2,6 +2,19 @@ IDstr=615d8e9867085e45ef1409c6
 Name=AKM 7.62x39 Kiba Arms .308 muzzle device adapter
 ShortName=AKM 308
 Itemtype=Comb. muzzle device
+Information_Eng=The Kiba Arms "Samson" adapter that allows installation of various .308 (7.62x51) muzzle devices on 7.62x39 AKM-type automatic rifles.
+basePrice=2700
+width=1
+height=1
+Sell_Prapor=1350
+Sell_Fence=1080
+Sell_Skier=1323
+Sell_Peacekeeper=10
+Sell_Mechanic=1512
+Sell_Flea Market=90000
+weight=0.110000
+fleaMarketFee=23976
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AWC PSR 7.62x51 muzzle brake/|
 	AR-10 2A Armanent X3 7.62x51 compensator/|
@@ -29,16 +42,3 @@ ChildParts=[
 ]
 Recoil=-1.000000
 Ergonomics=-1.000000
-Information_Eng=The Kiba Arms "Samson" adapter that allows installation of various .308 (7.62x51) muzzle devices on 7.62x39 AKM-type automatic rifles.
-basePrice=2700
-width=1
-height=1
-Sell_Prapor=1350
-Sell_Fence=1080
-Sell_Skier=1323
-Sell_Peacekeeper=10
-Sell_Mechanic=1512
-Sell_Flea Market=59000
-weight=0.110000
-fleaMarketFee=11857
-propertiestype=ItemPropertiesWeaponMod

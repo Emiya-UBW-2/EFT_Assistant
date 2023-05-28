@@ -2,11 +2,6 @@ IDstr=6259c3387d6aab70bc23a18d
 Name=Benelli M3 telescopic stock
 ShortName=M3 tel.
 Itemtype=Stock
-ChildParts=[
-	Benelli M3 telescopic stock pistol grip
-]
-Recoil=-30.000002
-Ergonomics=10.000000
 Information_Eng=An adjustable stock for M3 S90 shotguns, manufactured by Benelli.
 basePrice=3000
 width=2
@@ -21,3 +16,8 @@ Sell_Flea Market=19990
 weight=0.772000
 fleaMarketFee=1875
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Benelli M3 telescopic stock pistol grip
+]
+Recoil=-30.000002
+Ergonomics=10.000000

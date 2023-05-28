@@ -2,12 +2,6 @@ IDstr=5c7d560b2e22160bc12c6139
 Name=Aimpoint Standard Spacer
 ShortName=SS
 Itemtype=Mount
-ChildParts=[
-	Aimpoint PRO reflex sight/|
-	Aimpoint CompM4 reflex sight
-]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=The Standard Spacer mount for Aimpoint CompM4 sight models, raises the scope mount position.
 basePrice=2203
 width=1
@@ -18,7 +12,13 @@ Sell_Skier=1079
 Sell_Peacekeeper=8
 Sell_Mechanic=1233
 Sell_Jaeger=1321
-Sell_Flea Market=8999
+Sell_Flea Market=9500
 weight=0.025000
-fleaMarketFee=638
+fleaMarketFee=693
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Aimpoint PRO reflex sight/|
+	Aimpoint CompM4 reflex sight
+]
+Recoil=0.000000
+Ergonomics=0.000000

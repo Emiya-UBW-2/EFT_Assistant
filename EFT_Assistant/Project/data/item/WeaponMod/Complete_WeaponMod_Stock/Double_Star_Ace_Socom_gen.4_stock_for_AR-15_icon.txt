@@ -2,11 +2,6 @@ IDstr=5d120a10d7ad1a4e1026ba85
 Name=AR-15 DoubleStar ACE SOCOM Gen.4 stock
 ShortName=ACE SOCOM
 Itemtype=Stock
-ChildParts=[
-	DoubleStar ACE recoil pad
-]
-Recoil=-32.000000
-Ergonomics=4.000000
 Information_Eng=The 4th generation of a recently famous SOCOM stock manufactured by DoubleStar. The stock features a sturdy integral buffer tube and a closed cell foam overtube cover that provides a comfortable cheek weld.
 basePrice=10650
 width=2
@@ -17,7 +12,12 @@ Sell_Skier=5218
 Sell_Peacekeeper=40
 Sell_Mechanic=5964
 Sell_Jaeger=6390
-Sell_Flea Market=11555
+Sell_Flea Market=15555
 weight=0.470000
-fleaMarketFee=664
+fleaMarketFee=823
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	DoubleStar ACE recoil pad
+]
+Recoil=-32.000000
+Ergonomics=4.000000

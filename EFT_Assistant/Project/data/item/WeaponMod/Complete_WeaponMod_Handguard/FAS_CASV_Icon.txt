@@ -2,6 +2,19 @@ IDstr=5b7bee755acfc400196d5383
 Name=SA-58/FAL Vltor CASV-FAS handguard
 ShortName=CASV-FAS
 Itemtype=Handguard
+Information_Eng=The Vltor CASV-FAS handguard for FAL series rifles, equipped with a CASV interface for installation of additional devices and accessories.
+basePrice=20068
+width=2
+height=1
+Sell_Prapor=10034
+Sell_Fence=8027
+Sell_Skier=9833
+Sell_Peacekeeper=76
+Sell_Mechanic=11238
+Sell_Flea Market=14888
+weight=0.232000
+fleaMarketFee=1074
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Vltor CASV 5 inch rail
 ]
@@ -35,16 +48,3 @@ ChildParts=[
 ]
 Recoil=-2.000000
 Ergonomics=14.000000
-Information_Eng=The Vltor CASV-FAS handguard for FAL series rifles, equipped with a CASV interface for installation of additional devices and accessories.
-basePrice=20068
-width=2
-height=1
-Sell_Prapor=10034
-Sell_Fence=8027
-Sell_Skier=9833
-Sell_Peacekeeper=76
-Sell_Mechanic=11238
-Sell_Flea Market=18500
-weight=0.232000
-fleaMarketFee=1154
-propertiestype=ItemPropertiesWeaponMod

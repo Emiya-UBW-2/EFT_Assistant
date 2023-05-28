@@ -2,6 +2,19 @@ IDstr=5a7033908dc32e000a311392
 Name=Glock Lone Wolf AlphaWolf Custom pistol slide
 ShortName=G AW C
 Itemtype=Receiver
+Information_Eng=A special version of Glock family pistols’ slide made by Lone Wolf.
+basePrice=12592
+width=2
+height=1
+Sell_Prapor=6296
+Sell_Fence=5036
+Sell_Skier=6170
+Sell_Peacekeeper=48
+Sell_Mechanic=7051
+Sell_Flea Market=12420
+weight=0.300000
+fleaMarketFee=749
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Glock Dead Ringer Snake Eye rear sight/|
 	Glock rear sight/|
@@ -21,16 +34,3 @@ ChildParts=[
 ]
 Recoil=-1.000000
 Ergonomics=4.000000
-Information_Eng=A special version of Glock family pistols’ slide made by Lone Wolf.
-basePrice=12592
-width=2
-height=1
-Sell_Prapor=6296
-Sell_Fence=5036
-Sell_Skier=6170
-Sell_Peacekeeper=48
-Sell_Mechanic=7051
-Sell_Flea Market=20989
-weight=0.300000
-fleaMarketFee=1105
-propertiestype=ItemPropertiesWeaponMod

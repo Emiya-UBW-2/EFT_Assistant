@@ -2,11 +2,6 @@ IDstr=5a1ead28fcdbcb001912fa9f
 Name=UNV DLOC-IRD sight mount
 ShortName=DLOC-IRD
 Itemtype=Mount
-ChildParts=[
-	Trijicon REAP-IR thermal scope
-]
-Recoil=0.000000
-Ergonomics=-1.000000
 Information_Eng=The UNV DLOC-IRD universal quick release mount for installing various scopes.
 basePrice=6256
 width=1
@@ -17,7 +12,12 @@ Sell_Skier=3065
 Sell_Peacekeeper=24
 Sell_Mechanic=3503
 Sell_Jaeger=3753
-Sell_Flea Market=75420
+Sell_Flea Market=65000
 weight=0.113000
-fleaMarketFee=10266
+fleaMarketFee=8042
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Trijicon REAP-IR thermal scope
+]
+Recoil=0.000000
+Ergonomics=-1.000000

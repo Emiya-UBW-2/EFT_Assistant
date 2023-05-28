@@ -2,6 +2,23 @@ IDstr=5a966ec8a2750c00171b3f36
 Name=HK MP5 B&T tri-rail receiver mount
 ShortName=B&T 3x
 Itemtype=Mount
+Information_Eng=A rail mount designed by Brügger & Thomet for the HK MP5 submachine gun. It is mounted on the weapon's receiver and allows additional installation of scopes and reflex sights.
+basePrice=4501
+width=2
+height=1
+Sell_Prapor=2250
+Sell_Fence=1800
+Sell_Skier=2205
+Sell_Peacekeeper=17
+Sell_Mechanic=2520
+Sell_Jaeger=2700
+Sell_Flea Market=14420
+weight=0.223000
+fleaMarketFee=907
+Conflict=[
+	HK MP5 Drum rear sight
+]
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
 	ELCAN SpecterDR 1x/4x scope (FDE)/|
@@ -61,22 +78,5 @@ ChildParts=[
 	SwampFox Trihawk Prism Scope 3x30/|
 	AI AX-50 34mm scope mount
 ]
-Conflict=[
-	HK MP5 Drum rear sight
-]
 Recoil=0.000000
 Ergonomics=-1.500000
-Information_Eng=A rail mount designed by Brügger & Thomet for the HK MP5 submachine gun. It is mounted on the weapon's receiver and allows additional installation of scopes and reflex sights.
-basePrice=4501
-width=2
-height=1
-Sell_Prapor=2250
-Sell_Fence=1800
-Sell_Skier=2205
-Sell_Peacekeeper=17
-Sell_Mechanic=2520
-Sell_Jaeger=2700
-Sell_Flea Market=12222
-weight=0.223000
-fleaMarketFee=718
-propertiestype=ItemPropertiesWeaponMod

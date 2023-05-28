@@ -2,11 +2,6 @@ IDstr=5a33b2c9c4a282000c5a9511
 Name=Trijicon RMR low profile mount
 ShortName=RM33
 Itemtype=Mount
-ChildParts=[
-	Trijicon RMR reflex sight
-]
-Recoil=0.000000
-Ergonomics=-1.000000
 Information_Eng=A low-profile mount for installation of the Trijicon RMR series reflex sights on Picatinny and Weaver rails.
 basePrice=1648
 width=1
@@ -17,7 +12,12 @@ Sell_Skier=807
 Sell_Peacekeeper=6
 Sell_Mechanic=922
 Sell_Jaeger=988
-Sell_Flea Market=20000
+Sell_Flea Market=40000
 weight=0.017000
-fleaMarketFee=2734
+fleaMarketFee=8619
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Trijicon RMR reflex sight
+]
+Recoil=0.000000
+Ergonomics=-1.000000

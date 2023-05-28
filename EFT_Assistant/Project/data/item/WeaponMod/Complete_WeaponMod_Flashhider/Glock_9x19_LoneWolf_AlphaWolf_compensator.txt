@@ -2,17 +2,6 @@ IDstr=5a705e128dc32e000d46d258
 Name=Glock 9x19 Lone Wolf AlphaWolf Bullnose compensator
 ShortName=G AW
 Itemtype=Flashhider
-Conflict=[
-	Glock 17 9x19 pistol slide/|
-	Glock 9x19 Moto Cut pistol slide/|
-	Glock Viper Cut pistol slide/|
-	Glock Lone Wolf AlphaWolf pistol slide/|
-	Glock Polymer80 PS9 pistol slide/|
-	Glock ZEV Tech HEX Gen3 RMR pistol slide/|
-	Glock ZEV Tech HEX Spartan RMR pistol slide
-]
-Recoil=-7.000000
-Ergonomics=-1.000000
 Information_Eng=The AlphaWolf compensator manufactured by Lone Wolf. Can only be installed with the slides that have the bullnosed slide face.
 basePrice=2800
 width=1
@@ -25,4 +14,15 @@ Sell_Mechanic=1568
 Sell_Flea Market=2100
 weight=0.036000
 fleaMarketFee=150
+Conflict=[
+	Glock 17 9x19 pistol slide/|
+	Glock 9x19 Moto Cut pistol slide/|
+	Glock Viper Cut pistol slide/|
+	Glock Lone Wolf AlphaWolf pistol slide/|
+	Glock Polymer80 PS9 pistol slide/|
+	Glock ZEV Tech HEX Gen3 RMR pistol slide/|
+	Glock ZEV Tech HEX Spartan RMR pistol slide
+]
 propertiestype=ItemPropertiesWeaponMod
+Recoil=-7.000000
+Ergonomics=-1.000000

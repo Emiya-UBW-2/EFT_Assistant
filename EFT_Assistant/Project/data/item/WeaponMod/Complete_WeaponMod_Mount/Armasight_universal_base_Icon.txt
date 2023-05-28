@@ -2,11 +2,6 @@ IDstr=5b3b6dc75acfc47a8773fb1e
 Name=Armasight Vulcan universal base
 ShortName=Vulcan
 Itemtype=Mount
-ChildParts=[
-	Armasight Vulcan MG 3.5x Bravo night vision scope
-]
-Recoil=0.000000
-Ergonomics=-1.000000
 Information_Eng=The Armasight universal base mount for installation of the Vulcan series scopes.
 basePrice=2518
 width=1
@@ -17,7 +12,12 @@ Sell_Skier=1233
 Sell_Peacekeeper=10
 Sell_Mechanic=1410
 Sell_Jaeger=1510
-Sell_Flea Market=14998
+Sell_Flea Market=14999
 weight=0.017000
 fleaMarketFee=1315
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Armasight Vulcan MG 3.5x Bravo night vision scope
+]
+Recoil=0.000000
+Ergonomics=-1.000000

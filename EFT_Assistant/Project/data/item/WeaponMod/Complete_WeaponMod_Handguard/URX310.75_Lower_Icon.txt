@@ -2,6 +2,25 @@ IDstr=637f57c532b66e7e320a6676
 Name=AR-15 KAC URX 3.1 10.75 inch lower handguard
 ShortName=URX3.1 10.75"
 Itemtype=Handguard
+Information_Eng=The Knight's Armament URX 3.1 lower handguard for AR-15 equipped with a unique interface for installation of additional devices and accessories.
+basePrice=5640
+width=2
+height=1
+Sell_Prapor=2820
+Sell_Fence=2256
+Sell_Skier=2763
+Sell_Peacekeeper=21
+Sell_Mechanic=3158
+Sell_Flea Market=21000
+weight=0.096000
+fleaMarketFee=1419
+Conflict=[
+	AR-10 JP Enterprises Gas System-6/|
+	M4A1 front sight with gas block/|
+	AR-15 Windham Weaponry Rail Gas Block/|
+	AR-15 5.56x45 260mm barrel
+]
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	KAC URX 3/3.1 stopper panel/|
 	KAC URX 3/3.1 stopper panel (FDE)/|
@@ -28,24 +47,5 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight
 ]
-Conflict=[
-	AR-10 JP Enterprises Gas System-6/|
-	M4A1 front sight with gas block/|
-	AR-15 Windham Weaponry Rail Gas Block/|
-	AR-15 5.56x45 260mm barrel
-]
 Recoil=-2.000000
 Ergonomics=4.000000
-Information_Eng=The Knight's Armament URX 3.1 lower handguard for AR-15 equipped with a unique interface for installation of additional devices and accessories.
-basePrice=5640
-width=2
-height=1
-Sell_Prapor=2820
-Sell_Fence=2256
-Sell_Skier=2763
-Sell_Peacekeeper=21
-Sell_Mechanic=3158
-Sell_Flea Market=22488
-weight=0.096000
-fleaMarketFee=1574
-propertiestype=ItemPropertiesWeaponMod

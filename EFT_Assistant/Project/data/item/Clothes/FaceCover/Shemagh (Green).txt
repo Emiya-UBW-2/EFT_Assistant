@@ -2,14 +2,6 @@ IDstr=5ab8f85d86f7745cd93a1cf5
 Name=Shemagh (Green)
 ShortName=Shemagh
 Itemtype=Face Cover
-Conflict=[
-	Army cap/|
-	Baseball cap/|
-	BEAR baseball cap (Green)/|
-	USEC baseball cap (Tan)/|
-	EMERCOM cap/|
-	Police cap
-]
 Information_Eng=A favorite headpiece of PMCs around the globe.
 basePrice=4258
 width=1
@@ -18,7 +10,15 @@ Sell_Fence=1703
 Sell_Skier=2086
 Sell_Peacekeeper=16
 Sell_Ragman=2639
-Sell_Flea Market=19999
+Sell_Flea Market=31000
 weight=0.100000
-fleaMarketFee=1529
+fleaMarketFee=3069
+Conflict=[
+	Army cap/|
+	Baseball cap/|
+	BEAR baseball cap (Green)/|
+	USEC baseball cap (Tan)/|
+	EMERCOM cap/|
+	Police cap
+]
 propertiestype=

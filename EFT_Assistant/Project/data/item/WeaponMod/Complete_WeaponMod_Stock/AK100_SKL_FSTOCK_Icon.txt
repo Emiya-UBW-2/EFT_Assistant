@@ -2,11 +2,6 @@ IDstr=6386300124a1dc425c00577a
 Name=AK 100-series metal skeletonized stock
 ShortName=AK 100
 Itemtype=Stock
-ChildParts=[
-	AK GP-25 accessory kit recoil pad
-]
-Recoil=-30.000002
-Ergonomics=10.000000
 Information_Eng=A metal triangle stock for the 100-series AKs, manufactured by Izhmash.
 basePrice=1750
 width=2
@@ -21,3 +16,8 @@ Sell_Flea Market=19999
 weight=0.264000
 fleaMarketFee=2630
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	AK GP-25 accessory kit recoil pad
+]
+Recoil=-30.000002
+Ergonomics=10.000000

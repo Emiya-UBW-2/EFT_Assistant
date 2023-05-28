@@ -2,13 +2,6 @@ IDstr=560836484bdc2d20478b456e
 Name=MP-133 12ga 540mm barrel
 ShortName=MP133 540mm
 Itemtype=Barrel
-ChildParts=[
-	ME Cylinder 12ga muzzle adapter/|
-	Remington Tactical Choke 12ga/|
-	SilencerCo Salvo 12 choke adapter
-]
-Recoil=-3.500000
-Ergonomics=-6.000000
 Information_Eng=A standard factory-produced 540mm barrel for MP-133 12 gauge shotguns.
 basePrice=3900
 width=3
@@ -22,3 +15,10 @@ Sell_Jaeger=2340
 weight=0.800000
 fleaMarketFee=234
 propertiestype=ItemPropertiesBarrel
+ChildParts=[
+	ME Cylinder 12ga muzzle adapter/|
+	Remington Tactical Choke 12ga/|
+	SilencerCo Salvo 12 choke adapter
+]
+Recoil=-3.500000
+Ergonomics=-6.000000

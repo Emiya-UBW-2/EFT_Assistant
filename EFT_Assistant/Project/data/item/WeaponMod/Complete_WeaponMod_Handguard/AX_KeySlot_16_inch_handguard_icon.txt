@@ -2,6 +2,19 @@ IDstr=6281209662cba23f6c4d7a19
 Name=AI AXMC AX KeySlot 16 inch handguard
 ShortName=AX 16"
 Itemtype=Handguard
+Information_Eng=The AX 16 inch handguard for the AXMC sniper rifle manufactured by Accuracy International equipped with a patented KeySlot interface for the installation of additional devices and accessories.
+basePrice=16000
+width=3
+height=1
+Sell_Prapor=8000
+Sell_Fence=6400
+Sell_Skier=7840
+Sell_Peacekeeper=61
+Sell_Mechanic=8960
+Sell_Flea Market=25000
+weight=0.430000
+fleaMarketFee=1316
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AI AXMC AT X Top Rail 
 ]
@@ -19,16 +32,3 @@ ChildParts=[
 ]
 Recoil=-2.000000
 Ergonomics=8.000000
-Information_Eng=The AX 16 inch handguard for the AXMC sniper rifle manufactured by Accuracy International equipped with a patented KeySlot interface for the installation of additional devices and accessories.
-basePrice=16000
-width=3
-height=1
-Sell_Prapor=8000
-Sell_Fence=6400
-Sell_Skier=7840
-Sell_Peacekeeper=61
-Sell_Mechanic=8960
-Sell_Flea Market=25000
-weight=0.430000
-fleaMarketFee=1316
-propertiestype=ItemPropertiesWeaponMod

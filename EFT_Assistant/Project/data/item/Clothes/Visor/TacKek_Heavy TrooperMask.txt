@@ -2,6 +2,17 @@ IDstr=5ea058e01dbce517f324b3e2
 Name=Tac-Kek Heavy Trooper mask for Ops-Core-type helmets
 ShortName=TK Heavy Trooper
 Itemtype=Armored equipment
+Information_Eng=The Tac-Kek Heavy Trooper mask is an additional ballistic module for Ops-Core-type helmets, based on the famous movie universe. This is the way.
+basePrice=61000
+width=2
+height=2
+Sell_Fence=24400
+Sell_Skier=29890
+Sell_Peacekeeper=231
+Sell_Ragman=37820
+Sell_Flea Market=171111
+weight=0.400000
+fleaMarketFee=10173
 Conflict=[
 	Fake white beard/|
 	Jason mask/|
@@ -26,15 +37,4 @@ Conflict=[
 	Ops-Core SLAAP armor helmet plate (Tan)/|
 	Team Wendy EXFIL Ballistic face shield (Black)
 ]
-Information_Eng=The Tac-Kek Heavy Trooper mask is an additional ballistic module for Ops-Core-type helmets, based on the famous movie universe. This is the way.
-basePrice=61000
-width=2
-height=2
-Sell_Fence=24400
-Sell_Skier=29890
-Sell_Peacekeeper=231
-Sell_Ragman=37820
-Sell_Flea Market=205000
-weight=0.400000
-fleaMarketFee=13184
 propertiestype=ItemPropertiesArmorAttachment

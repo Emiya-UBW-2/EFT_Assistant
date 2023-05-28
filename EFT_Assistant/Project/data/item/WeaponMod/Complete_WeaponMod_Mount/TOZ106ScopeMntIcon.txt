@@ -2,6 +2,28 @@ IDstr=5c61627a2e22160012542c55
 Name=TOZ-106 rail scope mount
 ShortName=106 mount
 Itemtype=Mount
+Information_Eng=A universal Weaver rail mount for TOZ-106. Provides a rail that allows installing various scopes on the weapon. Requires a dovetail mount.
+basePrice=2300
+width=1
+height=1
+Sell_Prapor=1150
+Sell_Fence=920
+Sell_Skier=1127
+Sell_Peacekeeper=9
+Sell_Mechanic=1288
+Sell_Jaeger=1380
+Sell_Flea Market=10000
+weight=0.070000
+fleaMarketFee=733
+Conflict=[
+	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
+	OKP-7 reflex sight (Dovetail)/|
+	BelOMO PSO-1M2-1 4x24 scope/|
+	NSPU-M night vision scope/|
+	Axion Kobra dovetail mount/|
+	VOMZ Pilad 043-02 dovetail mount
+]
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
 	ELCAN SpecterDR 1x/4x scope (FDE)/|
@@ -61,27 +83,5 @@ ChildParts=[
 	SwampFox Trihawk Prism Scope 3x30/|
 	AI AX-50 34mm scope mount
 ]
-Conflict=[
-	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
-	OKP-7 reflex sight (Dovetail)/|
-	BelOMO PSO-1M2-1 4x24 scope/|
-	NSPU-M night vision scope/|
-	Axion Kobra dovetail mount/|
-	VOMZ Pilad 043-02 dovetail mount
-]
 Recoil=0.000000
 Ergonomics=0.000000
-Information_Eng=A universal Weaver rail mount for TOZ-106. Provides a rail that allows installing various scopes on the weapon. Requires a dovetail mount.
-basePrice=2300
-width=1
-height=1
-Sell_Prapor=1150
-Sell_Fence=920
-Sell_Skier=1127
-Sell_Peacekeeper=9
-Sell_Mechanic=1288
-Sell_Jaeger=1380
-Sell_Flea Market=10000
-weight=0.070000
-fleaMarketFee=733
-propertiestype=ItemPropertiesWeaponMod

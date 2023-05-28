@@ -2,11 +2,6 @@ IDstr=606ee5c81246154cad35d65e
 Name=MP-155 Ultima polymer forestock
 ShortName=Ultima
 Itemtype=Handguard
-ChildParts=[
-	MP-155 Ultima short rail
-]
-Recoil=0.000000
-Ergonomics=9.000000
 Information_Eng=The "Ultima" modification polymer forestock for the MP-155 shotgun. Manufactured by Kalashnikov Group.
 basePrice=4388
 width=2
@@ -16,7 +11,12 @@ Sell_Fence=1755
 Sell_Skier=2150
 Sell_Peacekeeper=17
 Sell_Mechanic=2457
-Sell_Flea Market=7771
+Sell_Flea Market=15000
 weight=0.310000
-fleaMarketFee=410
+fleaMarketFee=972
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	MP-155 Ultima short rail
+]
+Recoil=0.000000
+Ergonomics=9.000000

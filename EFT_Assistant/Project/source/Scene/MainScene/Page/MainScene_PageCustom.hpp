@@ -14,7 +14,7 @@ namespace FPS_n2 {
 			const auto GetPtrIsParentSlot(const ItemList* parentptr, int parentslot) const noexcept { return (this->m_ParentPtr == parentptr) && (this->m_ParentSlot == parentslot); }
 			const auto GetIsSelected(int parentslot = -1) const noexcept {
 				if ((parentslot == -1) || ((parentslot != -1) && GetPtrIsParentSlot(this->m_ParentPtr, parentslot))) {
-					return (this->ChildSel < (int)(GetMySlotData().Data.size()));
+					return (this->ChildSel < (int)(GetMySlotData().m_Data.size()));
 				}
 				return false;
 			}
@@ -22,7 +22,7 @@ namespace FPS_n2 {
 				if (this->m_PartsOn == InvalidID) {
 					if (GetIsSelected()) {
 						this->m_PartsOn = this->ChildSel;
-						this->ChildSel = (int)(GetMySlotData().Data.size());
+						this->ChildSel = (int)(GetMySlotData().m_Data.size());
 					}
 					else {
 						this->ChildSel = 0;
@@ -31,8 +31,8 @@ namespace FPS_n2 {
 				else {
 					bool IsHit = false;
 					int  Now = 0;
-					for (const auto& cID2 : GetMySlotData().Data) {
-						if (PlayerData::Instance()->GetItemLock(cID2.first->GetIDstr().c_str())) {
+					for (const auto& cID2 : GetMySlotData().m_Data) {
+						if (PlayerData::Instance()->GetItemLock(ItemData::Instance()->FindPtr(cID2.GetID())->GetIDstr().c_str())) {
 							IsHit = true;
 							break;
 						}
@@ -44,19 +44,19 @@ namespace FPS_n2 {
 			}
 			void	AddSelect() noexcept {
 				this->m_PartsOn = InvalidID;
-				++this->ChildSel %= (GetMySlotData().Data.size() + 1);
+				++this->ChildSel %= (GetMySlotData().m_Data.size() + 1);
 			}
 			void	SubSelect() noexcept {
 				this->m_PartsOn = InvalidID;
 				--this->ChildSel;
 				if (this->ChildSel < 0) {
-					this->ChildSel = (int)(GetMySlotData().Data.size());
+					this->ChildSel = (int)(GetMySlotData().m_Data.size());
 				}
 			}
 			const ItemList* GetChildPtr(int parentslot = -1) const noexcept {
 				if ((parentslot == -1) || ((parentslot != -1) && GetPtrIsParentSlot(this->m_ParentPtr, parentslot))) {
 					if (GetIsSelected(parentslot)) {
-						return this->GetMySlotData().Data.at(this->ChildSel).first;
+						return ItemData::Instance()->FindPtr(this->GetMySlotData().m_Data.at(this->ChildSel).GetID());
 					}
 				}
 				return nullptr;
@@ -200,10 +200,10 @@ namespace FPS_n2 {
 					int ChildSel = -1;
 					for (const auto& P : Preset.GetParts()) {
 						bool IsHit2 = false;
-						for (auto& cptr : c.Data) {
-							if (P == cptr.first) {
+						for (auto& cptr : c.m_Data) {
+							if (P == ItemData::Instance()->FindPtr(cptr.GetID())) {
 								IsHit2 = true;
-								ChildSel = (int)(&cptr - &c.Data.front());
+								ChildSel = (int)(&cptr - &c.m_Data.front());
 								break;
 							}
 						}
@@ -225,7 +225,7 @@ namespace FPS_n2 {
 				Ptr_Buf = m_BaseWeapon;
 			}
 			for (const auto& cP : Ptr_Buf->GetConflictParts()) {
-				if (cP.first == MyPtr) {
+				if (cP.GetID() == MyPtr->GetID()) {
 					return true;
 				}
 			}
@@ -269,8 +269,8 @@ namespace FPS_n2 {
 					m_ChildData.back().Set(Ptr_Buf, Index, 0);
 					//
 					auto& cID = m_ChildData.back();
-					for (const auto& cID2 : m_ChildData.back().GetMySlotData().Data) {
-						if (PlayerData::Instance()->GetItemLock(cID2.first->GetIDstr().c_str())) {
+					for (const auto& cID2 : m_ChildData.back().GetMySlotData().m_Data) {
+						if (PlayerData::Instance()->GetItemLock(ItemData::Instance()->FindPtr(cID2.GetID())->GetIDstr().c_str())) {
 							break;
 						}
 						cID.AddSelect();
@@ -327,11 +327,11 @@ namespace FPS_n2 {
 				Ptr_Buf = m_BaseWeapon;
 				for (const auto& c : Ptr_Buf->GetChildParts()) {
 					Data->resize(Data->size() + 1);//こどもの分岐
-					for (auto& cptr : c.Data) {
+					for (auto& cptr : c.m_Data) {
 						//フィルターに引っかかってなければOK
-						if (!ChildData::ItemPtrChecktoBeFiltered(cptr.first, !m_EnableMag, !m_EnableMount, !m_EnableSight)) {
+						if (!ChildData::ItemPtrChecktoBeFiltered(ItemData::Instance()->FindPtr(cptr.GetID()), !m_EnableMag, !m_EnableMount, !m_EnableSight)) {
 							Data->back().resize(Data->back().size() + 1);
-							CalcChildErgRec(Data, (int)Data->back().size() - 1, (int)Data->back().back().m_Parts.size(), cptr.first);
+							CalcChildErgRec(Data, (int)Data->back().size() - 1, (int)Data->back().back().m_Parts.size(), ItemData::Instance()->FindPtr(cptr.GetID()));
 						}
 					}
 					for (int i = 0; i < Data->back().size(); i++) {
@@ -351,11 +351,11 @@ namespace FPS_n2 {
 
 				bool IsChild = false;
 				for (const auto& c : Ptr_Buf->GetChildParts()) {
-					for (auto& cptr : c.Data) {
+					for (auto& cptr : c.m_Data) {
 						//フィルターに引っかかってなければOK
-						if (!ChildData::ItemPtrChecktoBeFiltered(cptr.first, !m_EnableMag, !m_EnableMount, !m_EnableSight)) {
+						if (!ChildData::ItemPtrChecktoBeFiltered(ItemData::Instance()->FindPtr(cptr.GetID()), !m_EnableMag, !m_EnableMount, !m_EnableSight)) {
 							IsChild = true;
-							CalcChildErgRec(Data, (int)Data->back().size() - 1, (int)Data->back().back().m_Parts.size(), cptr.first);
+							CalcChildErgRec(Data, (int)Data->back().size() - 1, (int)Data->back().back().m_Parts.size(), ItemData::Instance()->FindPtr(cptr.GetID()));
 						}
 					}
 				}
@@ -376,10 +376,10 @@ namespace FPS_n2 {
 			}
 			int Now = 0;
 			for (const auto& c : Ptr_Buf->GetChildParts()) {
-				for (auto& cptr : c.Data) {
+				for (auto& cptr : c.m_Data) {
 					//フィルターに引っかかってなければOK
-					if (!ChildData::ItemPtrChecktoBeFiltered(cptr.first, !m_EnableMag, !m_EnableMount, !m_EnableSight)) {
-						CalcChildErgRec(AnsData, cptr.first);
+					if (!ChildData::ItemPtrChecktoBeFiltered(ItemData::Instance()->FindPtr(cptr.GetID()), !m_EnableMag, !m_EnableMount, !m_EnableSight)) {
+						CalcChildErgRec(AnsData, ItemData::Instance()->FindPtr(cptr.GetID()));
 						Now++;
 					}
 				}
@@ -468,9 +468,9 @@ namespace FPS_n2 {
 								DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xbase, ybase, xbase + xsize, ybase + ysize, RedPop, false);
 								if (Input->GetKey('L').trigger()) {
 									//ロックをかける
-									for (const auto& cID2 : cID.GetMySlotData().Data) {
-										if (cID.GetChildPtr() != cID2.first) {
-											PlayerData::Instance()->SetItemLock(cID2.first->GetIDstr().c_str(), false);
+									for (const auto& cID2 : cID.GetMySlotData().m_Data) {
+										if (cID.GetChildPtr() != ItemData::Instance()->FindPtr(cID2.GetID())) {
+											PlayerData::Instance()->SetItemLock(ItemData::Instance()->FindPtr(cID2.GetID())->GetIDstr().c_str(), false);
 										}
 									}
 									PlayerData::Instance()->OnOffItemLock(cID.GetChildPtr()->GetIDstr().c_str());
@@ -489,19 +489,20 @@ namespace FPS_n2 {
 							m_RecAddMax = -1000.f;
 							m_ErgAddMin = 1000.f;
 							m_ErgAddMax = -1000.f;
-							for (const auto& cID2 : cID.GetMySlotData().Data) {
-								if (!CheckConflict(cID2.first)) {
-									if (m_RecAddMin > cID2.first->GetRecoil()) {
-										m_RecAddMin = cID2.first->GetRecoil();
+							for (const auto& cID2 : cID.GetMySlotData().m_Data) {
+								auto* ptr = ItemData::Instance()->FindPtr(cID2.GetID());
+								if (!CheckConflict(ptr)) {
+									if (m_RecAddMin > ptr->GetRecoil()) {
+										m_RecAddMin = ptr->GetRecoil();
 									}
-									if (m_RecAddMax < cID2.first->GetRecoil()) {
-										m_RecAddMax = cID2.first->GetRecoil();
+									if (m_RecAddMax < ptr->GetRecoil()) {
+										m_RecAddMax = ptr->GetRecoil();
 									}
-									if (m_ErgAddMin > cID2.first->GetErgonomics()) {
-										m_ErgAddMin = cID2.first->GetErgonomics();
+									if (m_ErgAddMin > ptr->GetErgonomics()) {
+										m_ErgAddMin = ptr->GetErgonomics();
 									}
-									if (m_ErgAddMax < cID2.first->GetErgonomics()) {
-										m_ErgAddMax = cID2.first->GetErgonomics();
+									if (m_ErgAddMax < ptr->GetErgonomics()) {
+										m_ErgAddMax = ptr->GetErgonomics();
 									}
 									m_SpecChange = true;
 								}
@@ -516,7 +517,7 @@ namespace FPS_n2 {
 						//
 						int xOfset = xsizeMin;
 						int Hight = LineHeight * 3 / 4;
-						for (const auto& t : cID.GetMySlotData().TypeID) {
+						for (const auto& t : cID.GetMySlotData().GetTypeID()) {
 							int xOfsetAdd = WindowSystem::GetMsgLen(Hight, "[%s]", ItemTypeData::Instance()->FindPtr(t)->GetName().c_str());
 							if (xOfset + xOfsetAdd > (xsize - xsizeMin * 2)) {
 								break;

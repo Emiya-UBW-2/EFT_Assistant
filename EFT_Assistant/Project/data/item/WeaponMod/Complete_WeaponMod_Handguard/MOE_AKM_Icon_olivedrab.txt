@@ -2,6 +2,19 @@ IDstr=57cffddc24597763133760c6
 Name=AK Magpul MOE AKM handguard (Olive Drab)
 ShortName=MOE AKM
 Itemtype=Handguard
+Information_Eng=The Magpul MOE AKM hand guard is installed on AKM/AK-74 compatible weapon systems. It comes equipped with licensed M-LOK mounts for the installation of additional devices or rails. Olive Drab version.
+basePrice=13666
+width=1
+height=1
+Sell_Prapor=6833
+Sell_Fence=5466
+Sell_Skier=6696
+Sell_Peacekeeper=52
+Sell_Mechanic=7652
+Sell_Flea Market=20000
+weight=0.221000
+fleaMarketFee=1058
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Magpul M-LOK AFG tactical foregrip (Black)/|
 	Magpul M-LOK AFG tactical foregrip (FDE)/|
@@ -15,16 +28,3 @@ ChildParts=[
 ]
 Recoil=-2.000000
 Ergonomics=10.000000
-Information_Eng=The Magpul MOE AKM hand guard is installed on AKM/AK-74 compatible weapon systems. It comes equipped with licensed M-LOK mounts for the installation of additional devices or rails. Olive Drab version.
-basePrice=13666
-width=1
-height=1
-Sell_Prapor=6833
-Sell_Fence=5466
-Sell_Skier=6696
-Sell_Peacekeeper=52
-Sell_Mechanic=7652
-Sell_Flea Market=32000
-weight=0.221000
-fleaMarketFee=1786
-propertiestype=ItemPropertiesWeaponMod

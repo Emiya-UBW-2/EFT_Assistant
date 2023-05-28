@@ -2,6 +2,17 @@ IDstr=6176a40f0b8c0312ac75a3d3
 Name=Ghoul mask
 ShortName=Ghoul
 Itemtype=Face Cover
+Information_Eng=A rubber mask of a Ghoul. If you want to terrify Scavs and make them look for new pants, this mask is for you.
+basePrice=35533
+width=2
+height=2
+Sell_Fence=14213
+Sell_Skier=17411
+Sell_Peacekeeper=134
+Sell_Ragman=22030
+Sell_Flea Market=33332
+weight=0.150000
+fleaMarketFee=2059
 Conflict=[
 	Army cap/|
 	Baseball cap/|
@@ -47,15 +58,4 @@ Conflict=[
 	Beanie/|
 	Ushanka ear flap hat
 ]
-Information_Eng=A rubber mask of a Ghoul. If you want to terrify Scavs and make them look for new pants, this mask is for you.
-basePrice=35533
-width=2
-height=2
-Sell_Fence=14213
-Sell_Skier=17411
-Sell_Peacekeeper=134
-Sell_Ragman=22030
-Sell_Flea Market=40000
-weight=0.150000
-fleaMarketFee=2262
 propertiestype=

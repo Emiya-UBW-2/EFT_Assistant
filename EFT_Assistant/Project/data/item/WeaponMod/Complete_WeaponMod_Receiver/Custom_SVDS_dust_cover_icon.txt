@@ -2,11 +2,6 @@ IDstr=5dfce88fe9dc277128008b2e
 Name=SVDS custom cut dust cover
 ShortName=SVDS CDC
 Itemtype=Receiver
-Conflict=[
-	SVDS upper band
-]
-Recoil=0.000000
-Ergonomics=2.000000
 Information_Eng=A custom cut-off dust cover for SVDS sniper rifles, required for installation of the MK1 Freefloat chassis by Sureshot Armament Group.
 basePrice=1450
 width=2
@@ -16,7 +11,12 @@ Sell_Fence=580
 Sell_Skier=710
 Sell_Peacekeeper=5
 Sell_Mechanic=812
-Sell_Flea Market=77777
+Sell_Flea Market=95555
 weight=0.050000
-fleaMarketFee=28572
+fleaMarketFee=40381
+Conflict=[
+	SVDS upper band
+]
 propertiestype=ItemPropertiesWeaponMod
+Recoil=0.000000
+Ergonomics=2.000000

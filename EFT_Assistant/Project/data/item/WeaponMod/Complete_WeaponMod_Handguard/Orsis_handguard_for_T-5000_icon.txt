@@ -2,6 +2,19 @@ IDstr=5df25d3bfd6b4e6e2276dc9a
 Name=ORSIS T-5000M handguard
 ShortName=T-5000M
 Itemtype=Handguard
+Information_Eng=A standard handguard for the T-5000M bolt-action sniper rifle, manufactured by ORSIS.
+basePrice=6500
+width=2
+height=1
+Sell_Prapor=3250
+Sell_Fence=2600
+Sell_Skier=3185
+Sell_Peacekeeper=25
+Sell_Mechanic=3640
+Sell_Flea Market=44444
+weight=0.460000
+fleaMarketFee=4234
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	ORSIS T-5000M long length rail/|
 	ORSIS T-5000M medium length rail
@@ -22,16 +35,3 @@ ChildParts=[
 ]
 Recoil=-2.000000
 Ergonomics=11.000000
-Information_Eng=A standard handguard for the T-5000M bolt-action sniper rifle, manufactured by ORSIS.
-basePrice=6500
-width=2
-height=1
-Sell_Prapor=3250
-Sell_Fence=2600
-Sell_Skier=3185
-Sell_Peacekeeper=25
-Sell_Mechanic=3640
-Sell_Flea Market=44444
-weight=0.460000
-fleaMarketFee=4234
-propertiestype=ItemPropertiesWeaponMod

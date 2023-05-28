@@ -2,14 +2,6 @@ IDstr=5aaf8e43e5b5b00015693246
 Name=M1A SOCOM 16 stock
 ShortName=SOCOM16
 Itemtype=Stock
-ChildParts=[
-	M14 Amega Mini Scout Mount system/|
-	M14 UltiMAK M8 Forward Optic mount/|
-	M14 Vltor CASV-14 rail system/|
-	M1A SOCOM 16 upper part
-]
-Recoil=-35.000000
-Ergonomics=20.000000
 Information_Eng=The SOCOM 16 polymer stock for M1A rifles, manufactured by Springfield Armory.
 basePrice=13056
 width=3
@@ -20,7 +12,15 @@ Sell_Skier=6397
 Sell_Peacekeeper=49
 Sell_Mechanic=7311
 Sell_Jaeger=7833
-Sell_Flea Market=14111
+Sell_Flea Market=14444
 weight=1.004000
-fleaMarketFee=812
+fleaMarketFee=823
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	M14 Amega Mini Scout Mount system/|
+	M14 UltiMAK M8 Forward Optic mount/|
+	M14 Vltor CASV-14 rail system/|
+	M1A SOCOM 16 upper part
+]
+Recoil=-35.000000
+Ergonomics=20.000000

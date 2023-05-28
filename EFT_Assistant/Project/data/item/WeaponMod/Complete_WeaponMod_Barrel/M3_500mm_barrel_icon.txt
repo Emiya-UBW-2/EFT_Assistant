@@ -2,13 +2,6 @@ IDstr=6259c2c1d714855d182bad85
 Name=Benelli M3 Super 90 12ga 500mm barrel
 ShortName=M3 500mm
 Itemtype=Barrel
-ChildParts=[
-	ME Cylinder 12ga muzzle adapter/|
-	Remington Tactical Choke 12ga/|
-	SilencerCo Salvo 12 choke adapter
-]
-Recoil=-7.000000
-Ergonomics=-8.000000
 Information_Eng=A 500mm barrel for the Benelli M3 S90 12 gauge shotgun.
 basePrice=13500
 width=3
@@ -23,3 +16,10 @@ Sell_Flea Market=100000
 weight=0.800000
 fleaMarketFee=10004
 propertiestype=ItemPropertiesBarrel
+ChildParts=[
+	ME Cylinder 12ga muzzle adapter/|
+	Remington Tactical Choke 12ga/|
+	SilencerCo Salvo 12 choke adapter
+]
+Recoil=-7.000000
+Ergonomics=-8.000000

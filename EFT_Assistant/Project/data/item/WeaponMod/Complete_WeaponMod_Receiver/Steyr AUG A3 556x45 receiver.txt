@@ -2,6 +2,19 @@ IDstr=62e7c72df68e7a0676050c77
 Name=Steyr AUG A3 5.56x45 receiver
 ShortName=AUG A3
 Itemtype=Receiver
+Information_Eng=A low-profile receiver with built-in tactical equipment rail for AUG A3. Manufactured by Steyr-Daimler-Puch.
+basePrice=3800
+width=2
+height=1
+Sell_Prapor=1900
+Sell_Fence=1520
+Sell_Skier=1862
+Sell_Peacekeeper=14
+Sell_Mechanic=2128
+Sell_Flea Market=39999
+weight=0.794000
+fleaMarketFee=4990
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Steyr AUG A1 5.56x45 20 inch barrel/|
 	Steyr AUG A3 5.56x45 16 inch barrel/|
@@ -29,16 +42,3 @@ ChildParts=[
 ]
 Recoil=0.000000
 Ergonomics=-1.000000
-Information_Eng=A low-profile receiver with built-in tactical equipment rail for AUG A3. Manufactured by Steyr-Daimler-Puch.
-basePrice=3800
-width=2
-height=1
-Sell_Prapor=1900
-Sell_Fence=1520
-Sell_Skier=1862
-Sell_Peacekeeper=14
-Sell_Mechanic=2128
-Sell_Flea Market=39999
-weight=0.794000
-fleaMarketFee=4990
-propertiestype=ItemPropertiesWeaponMod

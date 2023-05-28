@@ -2,14 +2,6 @@ IDstr=61714b2467085e45ef140b2c
 Name=Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights
 ShortName=T-1 Sun
 Itemtype=Mount
-ChildParts=[
-	Aimpoint Micro T-1 reflex sight
-]
-Conflict=[
-	AR-15 rear sight carry handle
-]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=The Recknagel Era-Tac Sunshade mount for the Aimpoint Micro T-1 reflex sight.
 basePrice=2300
 width=1
@@ -20,7 +12,15 @@ Sell_Skier=1127
 Sell_Peacekeeper=9
 Sell_Mechanic=1288
 Sell_Jaeger=1380
-Sell_Flea Market=12888
+Sell_Flea Market=9999
 weight=0.015000
-fleaMarketFee=1090
+fleaMarketFee=733
+Conflict=[
+	AR-15 rear sight carry handle
+]
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Aimpoint Micro T-1 reflex sight
+]
+Recoil=0.000000
+Ergonomics=0.000000

@@ -2,6 +2,25 @@ IDstr=5ea16ada09aa976f2e7a51be
 Name=AR-15 Geissele SMR MK16 13.5 inch M-LOK handguard
 ShortName=SMR MK16 13.5"
 Itemtype=Handguard
+Information_Eng=The Geissele SMR 13.5 inch M-LOK handguard for AR-15 equipped with an M-LOK interface for installation of additional devices and accessories.
+basePrice=14400
+width=3
+height=1
+Sell_Prapor=7200
+Sell_Fence=5760
+Sell_Skier=7056
+Sell_Peacekeeper=54
+Sell_Mechanic=8064
+Sell_Flea Market=44444
+weight=0.480000
+fleaMarketFee=2750
+Conflict=[
+	AR-10 JP Enterprises Gas System-6/|
+	M4A1 front sight with gas block/|
+	AR-15 Windham Weaponry Rail Gas Block/|
+	AR-15 5.56x45 260mm barrel
+]
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount/|
@@ -47,24 +66,5 @@ ChildParts=[
 	MPX flip-up front sight/|
 	AR-15 Leapers UTG Low Profile A2 front sight
 ]
-Conflict=[
-	AR-10 JP Enterprises Gas System-6/|
-	M4A1 front sight with gas block/|
-	AR-15 Windham Weaponry Rail Gas Block/|
-	AR-15 5.56x45 260mm barrel
-]
 Recoil=-1.000000
 Ergonomics=10.000000
-Information_Eng=The Geissele SMR 13.5 inch M-LOK handguard for AR-15 equipped with an M-LOK interface for installation of additional devices and accessories.
-basePrice=14400
-width=3
-height=1
-Sell_Prapor=7200
-Sell_Fence=5760
-Sell_Skier=7056
-Sell_Peacekeeper=54
-Sell_Mechanic=8064
-Sell_Flea Market=42000
-weight=0.480000
-fleaMarketFee=2537
-propertiestype=ItemPropertiesWeaponMod

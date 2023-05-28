@@ -2,12 +2,6 @@ IDstr=57d17e212459775a1179a0f5
 Name=Kiba Arms 25mm accessory ring mount
 ShortName=25mm ring
 Itemtype=Mount
-ChildParts=[
-	Armytek Predator Pro v3 XHP35 HI flashlight/|
-	Ultrafire WF-501B flashlight
-]
-Recoil=0.000000
-Ergonomics=-1.000000
 Information_Eng=A universal platform for installation of 25mm tactical accessories on Picatinny mounts.
 basePrice=2799
 width=1
@@ -18,7 +12,13 @@ Sell_Skier=1371
 Sell_Peacekeeper=11
 Sell_Mechanic=1567
 Sell_Jaeger=1679
-Sell_Flea Market=17250
+Sell_Flea Market=9888
 weight=0.085000
-fleaMarketFee=1543
+fleaMarketFee=651
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Armytek Predator Pro v3 XHP35 HI flashlight/|
+	Ultrafire WF-501B flashlight
+]
+Recoil=0.000000
+Ergonomics=-1.000000

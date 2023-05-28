@@ -2,6 +2,19 @@ IDstr=5d4405aaa4b9361e6a4e6bd3
 Name=TX-15 5.56x45 Lightweight upper receiver
 ShortName=TX15 LW
 Itemtype=Receiver
+Information_Eng=An upper receiver for the TX-15 rifle, manufactured by Lone Star. Equipped with a mount for attaching additional devices.
+basePrice=9200
+width=2
+height=1
+Sell_Prapor=4600
+Sell_Fence=3680
+Sell_Skier=4508
+Sell_Peacekeeper=35
+Sell_Mechanic=5152
+Sell_Flea Market=32000
+weight=0.190000
+fleaMarketFee=2092
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
 	ELCAN SpecterDR 1x/4x scope (FDE)/|
@@ -107,16 +120,3 @@ ChildParts=[
 ]
 Recoil=-2.000000
 Ergonomics=6.000000
-Information_Eng=An upper receiver for the TX-15 rifle, manufactured by Lone Star. Equipped with a mount for attaching additional devices.
-basePrice=9200
-width=2
-height=1
-Sell_Prapor=4600
-Sell_Fence=3680
-Sell_Skier=4508
-Sell_Peacekeeper=35
-Sell_Mechanic=5152
-Sell_Flea Market=30999
-weight=0.190000
-fleaMarketFee=1996
-propertiestype=ItemPropertiesWeaponMod

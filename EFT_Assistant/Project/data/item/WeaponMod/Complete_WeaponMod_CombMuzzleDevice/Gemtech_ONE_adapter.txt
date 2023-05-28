@@ -2,11 +2,6 @@ IDstr=5c7954d52e221600106f4cc7
 Name=Gemtech ONE Direct Thread Mount adapter
 ShortName=ONE mount
 Itemtype=Comb. muzzle device
-ChildParts=[
-	Gemtech ONE multi-caliber sound suppressor
-]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=The Direct Thread Mount adapter for installation of the Gemtech ONE multi-caliber sound suppressors directly onto the barrel threading.
 basePrice=3970
 width=1
@@ -16,7 +11,12 @@ Sell_Fence=1588
 Sell_Skier=1945
 Sell_Peacekeeper=15
 Sell_Mechanic=2223
-Sell_Flea Market=46999
+Sell_Flea Market=54444
 weight=0.110000
-fleaMarketFee=6323
+fleaMarketFee=8056
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Gemtech ONE multi-caliber sound suppressor
+]
+Recoil=0.000000
+Ergonomics=0.000000

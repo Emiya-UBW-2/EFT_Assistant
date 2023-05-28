@@ -2,6 +2,22 @@ IDstr=5d00f63bd7ad1a59283b1c1e
 Name=AR-15 Strike Industries Viper carbine length M-LOK handguard (FDE)
 ShortName=AR15 Viper
 Itemtype=Handguard
+Information_Eng=The Strike Industries Viper handguard for AR-15 equipped with an M-LOK interface for the installation of additional devices and accessories. Flat Dark Earth version.
+basePrice=4275
+width=2
+height=1
+Sell_Prapor=2137
+Sell_Fence=1710
+Sell_Skier=2094
+Sell_Peacekeeper=16
+Sell_Mechanic=2394
+Sell_Flea Market=17666
+weight=0.077000
+fleaMarketFee=1260
+Conflict=[
+	AR-15 5.56x45 Molot Arms 406mm barrel
+]
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount/|
@@ -15,21 +31,5 @@ ChildParts=[
 	AR-15 Strike Industries Viper carbine length M-LOK lower handguard/|
 	AR-15 Strike Industries Viper carbine length M-LOK lower handguard (FDE)
 ]
-Conflict=[
-	AR-15 5.56x45 Molot Arms 406mm barrel
-]
 Recoil=0.000000
 Ergonomics=3.000000
-Information_Eng=The Strike Industries Viper handguard for AR-15 equipped with an M-LOK interface for the installation of additional devices and accessories. Flat Dark Earth version.
-basePrice=4275
-width=2
-height=1
-Sell_Prapor=2137
-Sell_Fence=1710
-Sell_Skier=2094
-Sell_Peacekeeper=16
-Sell_Mechanic=2394
-Sell_Flea Market=10000
-weight=0.077000
-fleaMarketFee=558
-propertiestype=ItemPropertiesWeaponMod

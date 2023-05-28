@@ -2,15 +2,6 @@ IDstr=61f4012adfc9f01a816adda1
 Name=MP-18 7.62x54R 600mm barrel
 ShortName=MP18 600mm
 Itemtype=Barrel
-ChildParts=[
-	MP-18 polymer handguard/|
-	MP-18 wooden handguard
-]
-ChildParts=[
-	MP-18 sight mount
-]
-Recoil=-8.000000
-Ergonomics=-13.000000
 Information_Eng=A standard factory-produced 600mm barrel with a front sight for MP-18 7.62x54R hunting rifles.
 basePrice=4100
 width=4
@@ -25,3 +16,12 @@ Sell_Flea Market=4295
 weight=1.350000
 fleaMarketFee=251
 propertiestype=ItemPropertiesBarrel
+ChildParts=[
+	MP-18 polymer handguard/|
+	MP-18 wooden handguard
+]
+ChildParts=[
+	MP-18 sight mount
+]
+Recoil=-8.000000
+Ergonomics=-13.000000

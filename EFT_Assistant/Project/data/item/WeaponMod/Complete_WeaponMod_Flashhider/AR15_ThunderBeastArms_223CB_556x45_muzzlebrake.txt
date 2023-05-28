@@ -2,11 +2,6 @@ IDstr=5d440625a4b9361eec4ae6c5
 Name=AR-15 Thunder Beast Arms 223CB 5.56x45 muzzle brake
 ShortName=223CB
 Itemtype=Flashhider
-ChildParts=[
-	Thunder Beast Arms Ultra 5 sound suppressor
-]
-Recoil=-8.500000
-Ergonomics=-2.000000
 Information_Eng=Thunder Beast Arms 223CB is an effective muzzle brake that also serves as a platform for attaching the Quick Detach "Ultra 5" sound suppressor.
 basePrice=7180
 width=1
@@ -16,7 +11,12 @@ Sell_Fence=2872
 Sell_Skier=3518
 Sell_Peacekeeper=27
 Sell_Mechanic=4020
-Sell_Flea Market=16555
+Sell_Flea Market=14900
 weight=0.109000
-fleaMarketFee=920
+fleaMarketFee=806
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Thunder Beast Arms Ultra 5 sound suppressor
+]
+Recoil=-8.500000
+Ergonomics=-2.000000

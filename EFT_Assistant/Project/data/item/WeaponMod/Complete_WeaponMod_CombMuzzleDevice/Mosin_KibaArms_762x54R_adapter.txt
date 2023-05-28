@@ -2,6 +2,19 @@ IDstr=5cf79389d7f00c10941a0c4d
 Name=Mosin Rifle Kiba Arms 7.62x54R custom thread adapter
 ShortName=Mosin thr.
 Itemtype=Comb. muzzle device
+Information_Eng=A custom-made Mosin rifle muzzle device adapter. Provides the means of installing 7.62x39 muzzle devices on the Mosin rifle.
+basePrice=1500
+width=1
+height=1
+Sell_Prapor=750
+Sell_Fence=600
+Sell_Skier=735
+Sell_Peacekeeper=6
+Sell_Mechanic=840
+Sell_Flea Market=5000
+weight=0.090000
+fleaMarketFee=320
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AKM 7.62x39 muzzle brake-compensator (6P1 0-14)/|
 	AKML system 7.62x39 flash hider/|
@@ -17,16 +30,3 @@ ChildParts=[
 ]
 Recoil=0.000000
 Ergonomics=0.000000
-Information_Eng=A custom-made Mosin rifle muzzle device adapter. Provides the means of installing 7.62x39 muzzle devices on the Mosin rifle.
-basePrice=1500
-width=1
-height=1
-Sell_Prapor=750
-Sell_Fence=600
-Sell_Skier=735
-Sell_Peacekeeper=6
-Sell_Mechanic=840
-Sell_Flea Market=10000
-weight=0.090000
-fleaMarketFee=938
-propertiestype=ItemPropertiesWeaponMod

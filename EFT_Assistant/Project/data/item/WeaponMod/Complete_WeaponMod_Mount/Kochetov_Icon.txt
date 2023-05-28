@@ -2,12 +2,6 @@ IDstr=5b3f7bf05acfc433000ecf6b
 Name=Mosin Rifle Kochetov mount
 ShortName=Kochetov
 Itemtype=Mount
-ChildParts=[
-	Mosin Rifle Arbalet Patriot K+W rail mount/|
-	PU 3.5x ring scope mount
-]
-Recoil=0.000000
-Ergonomics=-1.000000
 Information_Eng=Designed specially for the Mosin rifle, the Kochetov mount allows installation of the PU 3.5 scope on the rifle.
 basePrice=1259
 width=1
@@ -22,3 +16,9 @@ Sell_Flea Market=9000
 weight=0.020000
 fleaMarketFee=881
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Mosin Rifle Arbalet Patriot K+W rail mount/|
+	PU 3.5x ring scope mount
+]
+Recoil=0.000000
+Ergonomics=-1.000000

@@ -2,6 +2,19 @@ IDstr=5a7afa25e899ef00135e31b0
 Name=Glock Polymer80 PS9 pistol slide
 ShortName=G PS9
 Itemtype=Receiver
+Information_Eng=The PS9 slide for Glock family pistols, manufactured by Polymer80.
+basePrice=14122
+width=2
+height=1
+Sell_Prapor=7061
+Sell_Fence=5648
+Sell_Skier=6919
+Sell_Peacekeeper=53
+Sell_Mechanic=7908
+Sell_Flea Market=8999
+weight=0.355000
+fleaMarketFee=743
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Glock Dead Ringer Snake Eye rear sight/|
 	Glock rear sight/|
@@ -21,16 +34,3 @@ ChildParts=[
 ]
 Recoil=-2.000000
 Ergonomics=5.000000
-Information_Eng=The PS9 slide for Glock family pistols, manufactured by Polymer80.
-basePrice=14122
-width=2
-height=1
-Sell_Prapor=7061
-Sell_Fence=5648
-Sell_Skier=6919
-Sell_Peacekeeper=53
-Sell_Mechanic=7908
-Sell_Flea Market=4999
-weight=0.355000
-fleaMarketFee=842
-propertiestype=ItemPropertiesWeaponMod

@@ -2,17 +2,6 @@ IDstr=5bae13ded4351e44f824bf38
 Name=Mosin Rifle 7.62x54R ProMag Archangel OPFOR 10-round magazine
 ShortName=AA762R 02
 Itemtype=Magazine
-Conflict=[
-	Mosin Rifle ATI Monte Carlo chassis/|
-	Mosin Rifle sawn-off stock/|
-	Mosin Rifle sniper carbine stock/|
-	Mosin Rifle carbine stock/|
-	Mosin Rifle Infantry stock/|
-	Mosin Rifle sawn-off sniper stock/|
-	Mosin Rifle standard stock
-]
-Recoil=0.000000
-Ergonomics=-4.000000
 Information_Eng=A detachable 10-round magazine for the Archangel Mosin Rifle kit, manufactured by ProMag.
 basePrice=6129
 width=1
@@ -25,4 +14,15 @@ Sell_Mechanic=3432
 Sell_Flea Market=55555
 weight=0.227000
 fleaMarketFee=6304
+Conflict=[
+	Mosin Rifle ATI Monte Carlo chassis/|
+	Mosin Rifle sawn-off stock/|
+	Mosin Rifle sniper carbine stock/|
+	Mosin Rifle carbine stock/|
+	Mosin Rifle Infantry stock/|
+	Mosin Rifle sawn-off sniper stock/|
+	Mosin Rifle standard stock
+]
 propertiestype=ItemPropertiesMagazine
+Recoil=0.000000
+Ergonomics=-4.000000

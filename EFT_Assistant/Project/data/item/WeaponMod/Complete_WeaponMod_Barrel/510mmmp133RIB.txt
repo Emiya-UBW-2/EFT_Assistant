@@ -2,17 +2,6 @@ IDstr=560835c74bdc2dc8488b456f
 Name=MP-133 12ga 510mm barrel with rib
 ShortName=MP133 510mm rib
 Itemtype=Barrel
-ChildParts=[
-	ME Cylinder 12ga muzzle adapter/|
-	Remington Tactical Choke 12ga/|
-	SilencerCo Salvo 12 choke adapter
-]
-ChildParts=[
-	VOMZ Pilad TargetRing reflex sight/|
-	ETMI-019 shotgun rail mount
-]
-Recoil=-3.000000
-Ergonomics=-3.000000
 Information_Eng=A standard factory-produced 510mm barrel with a wide upper rib for MP-133 12 gauge shotguns.
 basePrice=4020
 width=3
@@ -27,3 +16,14 @@ Sell_Flea Market=98000
 weight=0.850000
 fleaMarketFee=21179
 propertiestype=ItemPropertiesBarrel
+ChildParts=[
+	ME Cylinder 12ga muzzle adapter/|
+	Remington Tactical Choke 12ga/|
+	SilencerCo Salvo 12 choke adapter
+]
+ChildParts=[
+	VOMZ Pilad TargetRing reflex sight/|
+	ETMI-019 shotgun rail mount
+]
+Recoil=-3.000000
+Ergonomics=-3.000000

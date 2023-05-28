@@ -2,13 +2,6 @@ IDstr=5b31163c5acfc400153b71cb
 Name=SIG Sauer ROMEO sight mount
 ShortName=ROMEO
 Itemtype=Mount
-ChildParts=[
-	Aimpoint Micro H-2 reflex sight/|
-	Aimpoint Micro T-1 reflex sight/|
-	SIG Sauer ROMEO4 reflex sight
-]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=The SIG Sauer mount base for ROMEO-type reflex sights.
 basePrice=1861
 width=1
@@ -19,7 +12,14 @@ Sell_Skier=911
 Sell_Peacekeeper=7
 Sell_Mechanic=1042
 Sell_Jaeger=1116
-Sell_Flea Market=8000
+Sell_Flea Market=12222
 weight=0.015000
-fleaMarketFee=583
+fleaMarketFee=1136
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Aimpoint Micro H-2 reflex sight/|
+	Aimpoint Micro T-1 reflex sight/|
+	SIG Sauer ROMEO4 reflex sight
+]
+Recoil=0.000000
+Ergonomics=0.000000

@@ -2,18 +2,6 @@ IDstr=5cc701aae4a949000e1ea45c
 Name=FN P90 5.7x28 10.5 inch barrel
 ShortName=P90 10.5"
 Itemtype=Barrel
-ChildParts=[
-	FN P90 5.7x28 flash hider
-]
-Conflict=[
-	HK 416A5 MRS KeyMod 14 inch handguard/|
-	HK 416A5 Quad Rail Extended handguard/|
-	HK 416A5 Midwest Industries 13.5 inch M-LOK handguard/|
-	HK 416A5 Strike Industries CRUX 15 inch M-LOK handguard/|
-	HK 416A5 TROY M-LOK 13 inch handguard
-]
-Recoil=-5.000000
-Ergonomics=-3.000000
 Information_Eng=A 10.5 inch (264mm) barrel for P90 based weapons, chambered in 5.7x28 ammo.
 basePrice=19600
 width=2
@@ -27,4 +15,16 @@ Sell_Jaeger=11760
 Sell_Flea Market=222222
 weight=0.500000
 fleaMarketFee=29077
+Conflict=[
+	HK 416A5 MRS KeyMod 14 inch handguard/|
+	HK 416A5 Quad Rail Extended handguard/|
+	HK 416A5 Midwest Industries 13.5 inch M-LOK handguard/|
+	HK 416A5 Strike Industries CRUX 15 inch M-LOK handguard/|
+	HK 416A5 TROY M-LOK 13 inch handguard
+]
 propertiestype=ItemPropertiesBarrel
+ChildParts=[
+	FN P90 5.7x28 flash hider
+]
+Recoil=-5.000000
+Ergonomics=-3.000000

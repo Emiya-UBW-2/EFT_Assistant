@@ -2,6 +2,19 @@ IDstr=5c6d11152e2216000f2003e7
 Name=HK 416A5 Strike Industries CRUX 15 inch M-LOK handguard
 ShortName=416A5 CRUX 15"
 Itemtype=Handguard
+Information_Eng=The Strike Industries CRUX foregrip for 416A5 equipped with an M-LOK interface for the installation of additional devices and accessories.
+basePrice=16700
+width=3
+height=1
+Sell_Prapor=8350
+Sell_Fence=6680
+Sell_Skier=8183
+Sell_Peacekeeper=63
+Sell_Mechanic=9352
+Sell_Flea Market=60006
+weight=0.440000
+fleaMarketFee=3985
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount/|
@@ -38,16 +51,3 @@ ChildParts=[
 ]
 Recoil=-3.000000
 Ergonomics=11.000000
-Information_Eng=The Strike Industries CRUX foregrip for 416A5 equipped with an M-LOK interface for the installation of additional devices and accessories.
-basePrice=16700
-width=3
-height=1
-Sell_Prapor=8350
-Sell_Fence=6680
-Sell_Skier=8183
-Sell_Peacekeeper=63
-Sell_Mechanic=9352
-Sell_Flea Market=19000
-weight=0.440000
-fleaMarketFee=1070
-propertiestype=ItemPropertiesWeaponMod

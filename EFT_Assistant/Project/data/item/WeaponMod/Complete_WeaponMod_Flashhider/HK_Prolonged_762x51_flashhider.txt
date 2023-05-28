@@ -2,11 +2,6 @@ IDstr=61713308d92c473c770214a0
 Name=HK Prolonged 7.62x51 flash hider
 ShortName=Prolong
 Itemtype=Flashhider
-ChildParts=[
-	HK G28 B&T QD 7.62x51 sound suppressor
-]
-Recoil=-5.000000
-Ergonomics=-1.000000
 Information_Eng=The Heckler & Koch "Prolonged" 7.62x51 flash hider. Effectively suppresses flash and can also serve as a platform for the B&T QD sound suppressor.
 basePrice=3750
 width=1
@@ -20,3 +15,8 @@ Sell_Flea Market=15000
 weight=0.122000
 fleaMarketFee=1052
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	HK G28 B&T QD 7.62x51 sound suppressor
+]
+Recoil=-5.000000
+Ergonomics=-1.000000

@@ -4,26 +4,11 @@
 namespace FPS_n2 {
 	class TaskList : public ListParent<TaskID> {
 		class TaskNeedData {
-			class TaskParents {
-				std::string								m_Parenttask;
-				TaskID									m_ParenttaskID{ InvalidID };
-			public:
-				void	SetParentName(std::string_view value) noexcept { m_Parenttask = value; }
-				const auto& GetParenttaskID() const noexcept { return m_ParenttaskID; }
-				void		SetNeedTasktoID(const std::vector<TaskList>& taskList) noexcept {
-					for (const auto& t : taskList) {
-						if (m_Parenttask == t.GetName()) {
-							m_ParenttaskID = t.GetID();
-							break;
-						}
-					}
-				}
-			};
 		private:
 			TraderID								m_Trader{ InvalidID };
 			int										m_Level{ -1 };
 			int										m_LL{ -1 };
-			std::vector<TaskParents>				m_Parenttask;
+			std::vector<IDParents<TaskID, TaskList>>m_Parenttask;
 			std::vector<ItemGetData>				m_Item;
 			bool									m_kappaRequired{ false };
 			bool									m_lightkeeperRequired{ false };
@@ -45,7 +30,7 @@ namespace FPS_n2 {
 				}
 				else if (LEFT == "NeedTask") {
 					this->m_Parenttask.resize(this->m_Parenttask.size() + 1);
-					this->m_Parenttask.back().SetParentName(Args[0]);
+					this->m_Parenttask.back().SetName(Args[0]);
 				}
 				else if (LEFT == "NeedLevel") {
 					this->m_Level = std::stoi(Args[0]);
@@ -73,7 +58,7 @@ namespace FPS_n2 {
 			}
 			void		SetNeedTasktoID(const std::vector<TaskList>& taskList) noexcept {
 				for (auto& t : m_Parenttask) {
-					t.SetNeedTasktoID(taskList);
+					t.CheckID(taskList);
 				}
 			}
 		};

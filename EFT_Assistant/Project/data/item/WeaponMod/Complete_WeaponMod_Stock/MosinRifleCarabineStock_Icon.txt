@@ -2,14 +2,6 @@ IDstr=5bfd37c80db834001d23e842
 Name=Mosin Rifle sniper carbine stock
 ShortName=Mosin sniper carbine
 Itemtype=Stock
-ChildParts=[
-	Mosin Rifle AIM Sports Recoil Pad
-]
-ChildParts=[
-	Mosin Rifle Tacfire pistol grip
-]
-Recoil=-27.000002
-Ergonomics=11.000000
 Information_Eng=A wooden stock for the sniper version of the Mosin rifle.
 basePrice=3580
 width=3
@@ -24,3 +16,11 @@ Sell_Flea Market=21212
 weight=1.550000
 fleaMarketFee=1854
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Mosin Rifle AIM Sports Recoil Pad
+]
+ChildParts=[
+	Mosin Rifle Tacfire pistol grip
+]
+Recoil=-27.000002
+Ergonomics=11.000000

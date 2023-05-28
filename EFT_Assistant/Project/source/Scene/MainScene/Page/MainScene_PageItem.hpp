@@ -151,7 +151,7 @@ namespace FPS_n2 {
 				if (L->GetTypeID() == m_ItemIDs[1].first || m_ItemIDs[1].first == InvalidID) {
 					bool ishit = false;
 					for (auto& m : L->GetMapID()) {
-						if (m == m_ItemIDs[2].first) {
+						if (m.GetID() == m_ItemIDs[2].first) {
 							ishit = true;
 							break;
 						}

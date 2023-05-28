@@ -2,11 +2,6 @@ IDstr=618b9682a3884f56c957ca78
 Name=Reptilia ROF-90 RMR mount for Geissele scope mounts
 ShortName=ROF-90 RMR
 Itemtype=Mount
-ChildParts=[
-	Trijicon RMR reflex sight
-]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=The Reptilia ROF-90 mount allows installation of the Trijicon RMR reflex sight on the Geissele scope mount series. Replaces the standard Geissele top ring caps.
 basePrice=2000
 width=1
@@ -21,3 +16,8 @@ Sell_Flea Market=14000
 weight=0.020000
 fleaMarketFee=1353
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Trijicon RMR reflex sight
+]
+Recoil=0.000000
+Ergonomics=0.000000

@@ -2,6 +2,19 @@ IDstr=59e649f986f77411d949b246
 Name=Molot AKM-type gas tube
 ShortName=Molot gas
 Itemtype=Gas block
+Information_Eng=A gas tube for AKM-type automatic rifles and Vepr carbines, manufactured by Molot Arms. Gas tubes channel the travel direction of gas piston.
+basePrice=1977
+width=1
+height=1
+Sell_Prapor=988
+Sell_Fence=790
+Sell_Skier=968
+Sell_Peacekeeper=7
+Sell_Mechanic=1107
+Sell_Flea Market=88811
+weight=0.120000
+fleaMarketFee=28930
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AK 5.45 Design Aggressor handguard/|
 	AK CAA RS47 handguard/|
@@ -36,16 +49,3 @@ ChildParts=[
 ]
 Recoil=0.000000
 Ergonomics=0.000000
-Information_Eng=A gas tube for AKM-type automatic rifles and Vepr carbines, manufactured by Molot Arms. Gas tubes channel the travel direction of gas piston.
-basePrice=1977
-width=1
-height=1
-Sell_Prapor=988
-Sell_Fence=790
-Sell_Skier=968
-Sell_Peacekeeper=7
-Sell_Mechanic=1107
-Sell_Flea Market=55555
-weight=0.120000
-fleaMarketFee=13200
-propertiestype=ItemPropertiesWeaponMod

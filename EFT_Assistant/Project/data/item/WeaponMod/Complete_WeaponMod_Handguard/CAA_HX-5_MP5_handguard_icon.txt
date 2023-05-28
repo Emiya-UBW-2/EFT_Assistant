@@ -2,6 +2,19 @@ IDstr=5d010d1cd7ad1a59283b1ce7
 Name=HK MP5 CAA HX-5 handguard
 ShortName=MP5 HX-5
 Itemtype=Handguard
+Information_Eng=The HX-5 handguard for HK MP5 SMG manufactured by Command Arms Accessories, equipped with 5 rail mounts for installation of additional tactical devices.
+basePrice=14400
+width=2
+height=1
+Sell_Prapor=7200
+Sell_Fence=5760
+Sell_Skier=7056
+Sell_Peacekeeper=54
+Sell_Mechanic=8064
+Sell_Flea Market=22999
+weight=0.308000
+fleaMarketFee=1210
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	BCM GUNFIGHTER MOD 3 vertical foregrip/|
 	ASh-12 vertical foregrip/|
@@ -106,16 +119,3 @@ ChildParts=[
 ]
 Recoil=-3.000000
 Ergonomics=13.000000
-Information_Eng=The HX-5 handguard for HK MP5 SMG manufactured by Command Arms Accessories, equipped with 5 rail mounts for installation of additional tactical devices.
-basePrice=14400
-width=2
-height=1
-Sell_Prapor=7200
-Sell_Fence=5760
-Sell_Skier=7056
-Sell_Peacekeeper=54
-Sell_Mechanic=8064
-Sell_Flea Market=22999
-weight=0.308000
-fleaMarketFee=1210
-propertiestype=ItemPropertiesWeaponMod

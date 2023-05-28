@@ -2,17 +2,6 @@ IDstr=56deec93d2720bec348b4568
 Name=MP-153 12ga 750mm barrel
 ShortName=MP153 750mm
 Itemtype=Barrel
-ChildParts=[
-	ME Cylinder 12ga muzzle adapter/|
-	Remington Tactical Choke 12ga/|
-	SilencerCo Salvo 12 choke adapter
-]
-ChildParts=[
-	VOMZ Pilad TargetRing reflex sight/|
-	ETMI-019 shotgun rail mount
-]
-Recoil=-10.000000
-Ergonomics=-20.000000
 Information_Eng=A standard factory-produced 750mm barrel for MP-153 12 gauge shotguns.
 basePrice=7619
 width=5
@@ -27,3 +16,14 @@ Sell_Flea Market=44444
 weight=1.550000
 fleaMarketFee=3849
 propertiestype=ItemPropertiesBarrel
+ChildParts=[
+	ME Cylinder 12ga muzzle adapter/|
+	Remington Tactical Choke 12ga/|
+	SilencerCo Salvo 12 choke adapter
+]
+ChildParts=[
+	VOMZ Pilad TargetRing reflex sight/|
+	ETMI-019 shotgun rail mount
+]
+Recoil=-10.000000
+Ergonomics=-20.000000

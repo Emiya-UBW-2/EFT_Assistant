@@ -2,13 +2,6 @@ IDstr=5c052a900db834001a66acbd
 Name=Trijicon ACOG TA01NSN 4x32 scope (Tan)
 ShortName=TA01NSN
 Itemtype=Assault scope
-SightRange=0
-ChildParts=[
-	Trijicon ACOG backup rear sight/|
-	Trijicon RMR mount for ACOG scopes
-]
-Recoil=0.000000
-Ergonomics=-2.000000
 Information_Eng=Designed to the exact specifications of the US Special Operations Command for use by elite US forces, the Trijicon ACOG TA01NSN is Trijicon’s most popular ACOG. The ranging reticle allows for bullet drop compensation out to 600 meters without any manual adjustments. Additional backup rear sights can be mounted. No batteries needed. Tan version.
 basePrice=26885
 width=2
@@ -19,7 +12,14 @@ Sell_Skier=13173
 Sell_Peacekeeper=102
 Sell_Mechanic=15055
 Sell_Jaeger=16131
-Sell_Flea Market=17000
+Sell_Flea Market=15000
 weight=0.396000
-fleaMarketFee=1415
+fleaMarketFee=1422
 propertiestype=ItemPropertiesScope
+SightRange=0
+ChildParts=[
+	Trijicon ACOG backup rear sight/|
+	Trijicon RMR mount for ACOG scopes
+]
+Recoil=0.000000
+Ergonomics=-2.000000

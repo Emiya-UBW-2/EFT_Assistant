@@ -2,12 +2,6 @@ IDstr=617153016c780c1e710c9a2f
 Name=HK G28 buffer tube
 ShortName=G28/417
 Itemtype=Stock
-ChildParts=[
-	HK Adjustable Buttstock/|
-	HK417 E2 buttstock
-]
-Recoil=-1.000000
-Ergonomics=0.000000
 Information_Eng=A receiver extension buffer tube for installation of Mil-Spec buttstocks, fits both HK417 and G28.
 basePrice=1300
 width=2
@@ -22,3 +16,9 @@ Sell_Flea Market=18888
 weight=0.162000
 fleaMarketFee=2902
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	HK Adjustable Buttstock/|
+	HK417 E2 buttstock
+]
+Recoil=-1.000000
+Ergonomics=0.000000

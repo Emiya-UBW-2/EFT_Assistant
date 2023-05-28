@@ -2,6 +2,19 @@ IDstr=5c48a14f2e2216152006edd7
 Name=MDR handguard (FDE)
 ShortName=MDR
 Itemtype=Handguard
+Information_Eng=A standard-issue handguard for MDR assault rifles, manufactured by Desert Tech. Equipped with an M-LOK interface for installation of additional tactical devices and accessories. Flat Dark Earth version.
+basePrice=8665
+width=2
+height=1
+Sell_Prapor=4332
+Sell_Fence=3466
+Sell_Skier=4245
+Sell_Peacekeeper=33
+Sell_Mechanic=4852
+Sell_Flea Market=500000
+weight=0.269000
+fleaMarketFee=193022
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Magpul M-LOK AFG tactical foregrip (Black)/|
 	Magpul M-LOK AFG tactical foregrip (FDE)/|
@@ -39,16 +52,3 @@ ChildParts=[
 ]
 Recoil=-1.000000
 Ergonomics=9.000000
-Information_Eng=A standard-issue handguard for MDR assault rifles, manufactured by Desert Tech. Equipped with an M-LOK interface for installation of additional tactical devices and accessories. Flat Dark Earth version.
-basePrice=8665
-width=2
-height=1
-Sell_Prapor=4332
-Sell_Fence=3466
-Sell_Skier=4245
-Sell_Peacekeeper=33
-Sell_Mechanic=4852
-Sell_Flea Market=500000
-weight=0.269000
-fleaMarketFee=193022
-propertiestype=ItemPropertiesWeaponMod

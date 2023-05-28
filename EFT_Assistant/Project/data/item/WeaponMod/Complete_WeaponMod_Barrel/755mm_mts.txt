@@ -2,15 +2,6 @@ IDstr=612368f58b401f4f51239b33
 Name=MTs-255-12 12ga 755mm barrel with rib
 ShortName=MTs-255 755mm rib
 Itemtype=Barrel
-ChildParts=[
-	MTs-255-12 12ga choke
-]
-ChildParts=[
-	VOMZ Pilad TargetRing reflex sight/|
-	ETMI-019 shotgun rail mount
-]
-Recoil=-10.000000
-Ergonomics=-18.000000
 Information_Eng=A standard factory-produced 755mm barrel with a wide upper rib for MTs-255 12 gauge shotguns.
 basePrice=6280
 width=5
@@ -25,3 +16,12 @@ Sell_Flea Market=10000
 weight=1.550000
 fleaMarketFee=526
 propertiestype=ItemPropertiesBarrel
+ChildParts=[
+	MTs-255-12 12ga choke
+]
+ChildParts=[
+	VOMZ Pilad TargetRing reflex sight/|
+	ETMI-019 shotgun rail mount
+]
+Recoil=-10.000000
+Ergonomics=-18.000000

@@ -2,17 +2,6 @@ IDstr=62811cd7308cb521f87a8f99
 Name=AI AXMC .338 LM bolt assembly
 ShortName=AXMC .338LM
 Itemtype=Charging handle
-Conflict=[
-	7.62x51mm M61/|
-	7.62x51mm M62 Tracer/|
-	7.62x51mm M80/|
-	7.62x51mm BCP FMJ/|
-	7.62x51mm M993/|
-	7.62x51mm TCW SP/|
-	7.62x51mm Ultra Nosler
-]
-Recoil=-1.000000
-Ergonomics=-3.000000
 Information_Eng=A .338 Lapua Magnum bolt assembly for the Accuracy International AXMC sniper rifle.
 basePrice=13000
 width=1
@@ -24,4 +13,15 @@ Sell_Peacekeeper=49
 Sell_Mechanic=7280
 weight=0.450000
 fleaMarketFee=780
+Conflict=[
+	7.62x51mm M61/|
+	7.62x51mm M62 Tracer/|
+	7.62x51mm M80/|
+	7.62x51mm BCP FMJ/|
+	7.62x51mm M993/|
+	7.62x51mm TCW SP/|
+	7.62x51mm Ultra Nosler
+]
 propertiestype=ItemPropertiesWeaponMod
+Recoil=-1.000000
+Ergonomics=-3.000000

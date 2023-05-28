@@ -2,12 +2,6 @@ IDstr=5c0e2f5cd174af02a012cfc9
 Name=AR-15 ADAR 2-15 wooden handguard
 ShortName=ADAR wood
 Itemtype=Handguard
-Conflict=[
-	AR-15 5.56x45 260mm barrel/|
-	AR-15 5.56x45 370mm barrel
-]
-Recoil=0.000000
-Ergonomics=7.000000
 Information_Eng=An SVD-style wooden handguard for ADAR 2-15 carbines.
 basePrice=1600
 width=2
@@ -17,7 +11,13 @@ Sell_Fence=640
 Sell_Skier=784
 Sell_Peacekeeper=6
 Sell_Mechanic=896
-Sell_Flea Market=13500
+Sell_Flea Market=12000
 weight=0.385000
-fleaMarketFee=1464
+fleaMarketFee=1210
+Conflict=[
+	AR-15 5.56x45 260mm barrel/|
+	AR-15 5.56x45 370mm barrel
+]
 propertiestype=ItemPropertiesWeaponMod
+Recoil=0.000000
+Ergonomics=7.000000

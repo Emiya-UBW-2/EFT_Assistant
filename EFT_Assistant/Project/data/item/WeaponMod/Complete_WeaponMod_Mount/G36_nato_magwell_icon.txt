@@ -2,11 +2,6 @@ IDstr=622f039199f4ea1a4d6c9a17
 Name=HK G36 STANAG magwell
 ShortName=G36 NATO
 Itemtype=Mount
-Conflict=[
-	HK G36 5.56x45 30-round magazine
-]
-Recoil=0.000000
-Ergonomics=-1.000000
 Information_Eng=A STANAG magwell for the G36 assault rifle, manufactured by Heckler & Koch.
 basePrice=1500
 width=1
@@ -20,4 +15,9 @@ Sell_Jaeger=900
 Sell_Flea Market=55000
 weight=0.020000
 fleaMarketFee=15622
+Conflict=[
+	HK G36 5.56x45 30-round magazine
+]
 propertiestype=ItemPropertiesWeaponMod
+Recoil=0.000000
+Ergonomics=-1.000000

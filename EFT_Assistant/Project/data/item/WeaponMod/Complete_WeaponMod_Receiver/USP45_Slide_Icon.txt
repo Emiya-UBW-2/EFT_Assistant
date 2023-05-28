@@ -2,17 +2,6 @@ IDstr=6193d382ed0429009f543e65
 Name=HK USP .45 ACP pistol slide
 ShortName=USP45
 Itemtype=Receiver
-ChildParts=[
-	HK USP Red Dot sight mount/|
-	HK USP rear sight/|
-	HK USP Tactical rear sight
-]
-ChildParts=[
-	HK USP front sight/|
-	HK USP Tactical front sight
-]
-Recoil=0.000000
-Ergonomics=3.000000
 Information_Eng=A standard-issue slide for the USP45 pistol, manufactured by Heckler & Koch.
 basePrice=2800
 width=2
@@ -26,3 +15,14 @@ Sell_Flea Market=29992
 weight=0.409000
 fleaMarketFee=3784
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	HK USP Red Dot sight mount/|
+	HK USP rear sight/|
+	HK USP Tactical rear sight
+]
+ChildParts=[
+	HK USP front sight/|
+	HK USP Tactical front sight
+]
+Recoil=0.000000
+Ergonomics=3.000000

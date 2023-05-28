@@ -2,18 +2,6 @@ IDstr=5c0125fc0db834001a669aa3
 Name=P226 Legion full size pistol slide
 ShortName=P226 Legion
 Itemtype=Receiver
-ChildParts=[
-	P226 Meprolight TRU-DOT Night rear sight/|
-	P226 rear sight/|
-	P226 Sight Mount 220-239 rear sight bearing/|
-	P226 Trijicon RMR mount
-]
-ChildParts=[
-	P226 Meprolight TRU-DOT Night front sight/|
-	P226 front sight
-]
-Recoil=-1.000000
-Ergonomics=2.000000
 Information_Eng=A full-size slide from the Legion modification for the P226 9x19 pistols, manufactured by SIG Sauer.
 basePrice=4120
 width=2
@@ -27,3 +15,15 @@ Sell_Flea Market=5420
 weight=0.200000
 fleaMarketFee=292
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	P226 Meprolight TRU-DOT Night rear sight/|
+	P226 rear sight/|
+	P226 Sight Mount 220-239 rear sight bearing/|
+	P226 Trijicon RMR mount
+]
+ChildParts=[
+	P226 Meprolight TRU-DOT Night front sight/|
+	P226 front sight
+]
+Recoil=-1.000000
+Ergonomics=2.000000

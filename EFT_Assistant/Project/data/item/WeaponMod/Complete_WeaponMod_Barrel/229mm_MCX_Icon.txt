@@ -2,16 +2,6 @@ IDstr=5fbbfacda56d053a3543f799
 Name=MCX .300 BLK 229mm barrel
 ShortName=MCX 229mm
 Itemtype=Barrel
-ChildParts=[
-	AR-10 KAC QDC 7.62x51 Flash Suppressor Kit/|
-	SIG Sauer Taper-LOK 7.62x51/.300 BLK muzzle adapter/|
-	SIG Sauer SRD762Ti 7.62x51 sound suppressor
-]
-ChildParts=[
-	MCX gas block
-]
-Recoil=-5.000000
-Ergonomics=-6.000000
 Information_Eng=A 229mm barrel for MCX-based weapons, chambered in .300 BLK.
 basePrice=19418
 width=2
@@ -26,3 +16,13 @@ Sell_Flea Market=44000
 weight=0.479000
 fleaMarketFee=2433
 propertiestype=ItemPropertiesBarrel
+ChildParts=[
+	AR-10 KAC QDC 7.62x51 Flash Suppressor Kit/|
+	SIG Sauer Taper-LOK 7.62x51/.300 BLK muzzle adapter/|
+	SIG Sauer SRD762Ti 7.62x51 sound suppressor
+]
+ChildParts=[
+	MCX gas block
+]
+Recoil=-5.000000
+Ergonomics=-6.000000

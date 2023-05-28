@@ -2,14 +2,6 @@ IDstr=5c471bfc2e221602b21d4e17
 Name=SVDS 7.62x54R muzzle brake-compensator
 ShortName=SVDS
 Itemtype=Flashhider
-ChildParts=[
-	SVDS front sight
-]
-ChildParts=[
-	SVDS Rotor 43 thread adapter
-]
-Recoil=-7.000000
-Ergonomics=-1.000000
 Information_Eng=A standard Izhmash-produced muzzle brake and compensator for the SVDS.
 basePrice=602
 width=1
@@ -23,3 +15,11 @@ Sell_Flea Market=79999
 weight=0.080000
 fleaMarketFee=54710
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	SVDS front sight
+]
+ChildParts=[
+	SVDS Rotor 43 thread adapter
+]
+Recoil=-7.000000
+Ergonomics=-1.000000

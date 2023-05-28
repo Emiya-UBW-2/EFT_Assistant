@@ -2,6 +2,19 @@ IDstr=5fbc226eca32ed67276c155d
 Name=MCX GEN1 KeyMod 8 inch handguard
 ShortName=MCX 8"
 Itemtype=Handguard
+Information_Eng=A first-gen 8 inch handguard for the MCX assault rifle, equipped with a KeyMod interface for attaching additional equipment. Manufactured by SIG Sauer.
+basePrice=8000
+width=2
+height=1
+Sell_Prapor=4000
+Sell_Fence=3200
+Sell_Skier=3920
+Sell_Peacekeeper=30
+Sell_Mechanic=4480
+Sell_Flea Market=10420
+weight=0.390000
+fleaMarketFee=562
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Strike Industries KeyMod 4 inch rail/|
 	Vltor CASV KeyMod 2 inch rail/|
@@ -35,16 +48,3 @@ ChildParts=[
 ]
 Recoil=0.000000
 Ergonomics=9.000000
-Information_Eng=A first-gen 8 inch handguard for the MCX assault rifle, equipped with a KeyMod interface for attaching additional equipment. Manufactured by SIG Sauer.
-basePrice=8000
-width=2
-height=1
-Sell_Prapor=4000
-Sell_Fence=3200
-Sell_Skier=3920
-Sell_Peacekeeper=30
-Sell_Mechanic=4480
-Sell_Flea Market=8000
-weight=0.390000
-fleaMarketFee=480
-propertiestype=ItemPropertiesWeaponMod

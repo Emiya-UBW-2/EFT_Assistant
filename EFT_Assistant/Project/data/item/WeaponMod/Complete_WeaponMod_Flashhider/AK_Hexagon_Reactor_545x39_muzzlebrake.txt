@@ -2,11 +2,6 @@ IDstr=615d8f5dd92c473c770212ef
 Name=AK Hexagon Reactor 5.45x39 muzzle brake
 ShortName=Reactor
 Itemtype=Flashhider
-ChildParts=[
-	AK-74 Hexagon Wafflemaker 5.45x39 sound suppressor
-]
-Recoil=-17.000000
-Ergonomics=-1.000000
 Information_Eng=The "Reactor" prototype muzzle brake manufactured by Hexagon for 5.45x39 AK platforms. Features mounts required for installation of the "Wafflemaker" sound suppressor.
 basePrice=9600
 width=1
@@ -16,7 +11,12 @@ Sell_Fence=3840
 Sell_Skier=4704
 Sell_Peacekeeper=36
 Sell_Mechanic=5376
-Sell_Flea Market=20999
+Sell_Flea Market=55555
 weight=0.095000
-fleaMarketFee=1150
+fleaMarketFee=4789
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	AK-74 Hexagon Wafflemaker 5.45x39 sound suppressor
+]
+Recoil=-17.000000
+Ergonomics=-1.000000

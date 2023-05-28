@@ -2,17 +2,6 @@ IDstr=588200c224597743990da9ed
 Name=MP-153 12ga 660mm barrel
 ShortName=MP153 660mm
 Itemtype=Barrel
-ChildParts=[
-	ME Cylinder 12ga muzzle adapter/|
-	Remington Tactical Choke 12ga/|
-	SilencerCo Salvo 12 choke adapter
-]
-ChildParts=[
-	VOMZ Pilad TargetRing reflex sight/|
-	ETMI-019 shotgun rail mount
-]
-Recoil=-6.000000
-Ergonomics=-12.000000
 Information_Eng=A standard factory-produced 660mm barrel for MP-153 12 gauge shotguns.
 basePrice=7179
 width=4
@@ -27,3 +16,14 @@ Sell_Flea Market=80000
 weight=1.250000
 fleaMarketFee=10352
 propertiestype=ItemPropertiesBarrel
+ChildParts=[
+	ME Cylinder 12ga muzzle adapter/|
+	Remington Tactical Choke 12ga/|
+	SilencerCo Salvo 12 choke adapter
+]
+ChildParts=[
+	VOMZ Pilad TargetRing reflex sight/|
+	ETMI-019 shotgun rail mount
+]
+Recoil=-6.000000
+Ergonomics=-12.000000

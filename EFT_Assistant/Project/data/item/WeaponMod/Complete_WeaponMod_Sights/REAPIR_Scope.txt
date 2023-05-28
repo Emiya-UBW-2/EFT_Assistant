@@ -2,12 +2,6 @@ IDstr=5a1eaa87fcdbcb001865f75e
 Name=Trijicon REAP-IR thermal scope
 ShortName=REAP-IR
 Itemtype=Special scope
-SightRange=0
-ChildParts=[
-	Trijicon REAP-IR scope eyecup
-]
-Recoil=0.000000
-Ergonomics=-13.000000
 Information_Eng=A versatile thermal imaging telescope/sight. It can be installed on weapons for use in the form of a riflesight, on a helmet - via adapter - as a monocular, and as a separate observation device.
 basePrice=355794
 width=2
@@ -21,3 +15,9 @@ Sell_Jaeger=213476
 weight=0.580000
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
+SightRange=0
+ChildParts=[
+	Trijicon REAP-IR scope eyecup
+]
+Recoil=0.000000
+Ergonomics=-13.000000

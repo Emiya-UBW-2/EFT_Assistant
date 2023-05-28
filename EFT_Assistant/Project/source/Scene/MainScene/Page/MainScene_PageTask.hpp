@@ -58,7 +58,7 @@ namespace FPS_n2 {
 					}
 					if (!IsTrue && tasks.GetTaskNeedData().GetParenttaskID().size() > 0) {
 						for (const auto& p : tasks.GetTaskNeedData().GetParenttaskID()) {
-							if (p.GetParenttaskID() == ParentID) {
+							if (p.GetID() == ParentID) {
 								IsTrue = true;
 								break;
 							}
@@ -90,9 +90,9 @@ namespace FPS_n2 {
 						//
 						if (tasks.GetTaskNeedData().GetParenttaskID().size() > 1) {//2‚ÂˆÈãe‚ª‚ ‚éê‡
 							for (const auto& p : tasks.GetTaskNeedData().GetParenttaskID()) {
-								if (p.GetParenttaskID() != ParentID) {
+								if (p.GetID() != ParentID) {
 									for (auto& ppos : m_ParentLinePos) {
-										if (p.GetParenttaskID() == ppos.m_ID) {
+										if (p.GetID() == ppos.m_ID) {
 											//
 											if (Scale > 0.6f) {
 												DrawControl::Instance()->SetDrawLine(DrawLayer::Back3, ppos.m_XPos, ppos.m_YPos, ppos.m_XPos + XAddLine, ppos.m_YPos, Black, (int)(15.f * Scale));
@@ -377,7 +377,7 @@ namespace FPS_n2 {
 							if (isHit && m_DrawCanClearTask) {
 								if (tasks.GetTaskNeedData().GetParenttaskID().size() > 0) {
 									for (const auto& p : tasks.GetTaskNeedData().GetParenttaskID()) {
-										if (!PlayerData::Instance()->GetTaskClear(TaskData::Instance()->FindPtr(p.GetParenttaskID())->GetName().c_str())) {
+										if (!PlayerData::Instance()->GetTaskClear(TaskData::Instance()->FindPtr(p.GetID())->GetName().c_str())) {
 											isHit = false;
 											break;
 										}

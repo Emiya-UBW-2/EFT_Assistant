@@ -2,7 +2,19 @@ IDstr=5dff772da3651922b360bf91
 Name=VOMZ Pilad 4x32 24.5mm riflescope
 ShortName=Pilad 4x32
 Itemtype=Scope
-SightRange=0
+Information_Eng=Designed for shooting at small and medium distances. The sight will be practical for shooting at moving objects at a distance of up to 150m.
+basePrice=14468
+width=2
+height=1
+Sell_Prapor=7234
+Sell_Fence=5787
+Sell_Skier=7089
+Sell_Peacekeeper=55
+Sell_Mechanic=8102
+Sell_Jaeger=8680
+Sell_Flea Market=10000
+weight=0.310000
+fleaMarketFee=766
 Conflict=[
 	Axion Kobra EKP-8-18 reflex sight/|
 	OKP-7 reflex sight/|
@@ -29,19 +41,7 @@ Conflict=[
 	MPX flip-up rear sight/|
 	Aimpoint LRP mount for CompM4 sights
 ]
+propertiestype=ItemPropertiesScope
+SightRange=0
 Recoil=0.000000
 Ergonomics=-4.000000
-Information_Eng=Designed for shooting at small and medium distances. The sight will be practical for shooting at moving objects at a distance of up to 150m.
-basePrice=14468
-width=2
-height=1
-Sell_Prapor=7234
-Sell_Fence=5787
-Sell_Skier=7089
-Sell_Peacekeeper=55
-Sell_Mechanic=8102
-Sell_Jaeger=8680
-Sell_Flea Market=10000
-weight=0.310000
-fleaMarketFee=766
-propertiestype=ItemPropertiesScope

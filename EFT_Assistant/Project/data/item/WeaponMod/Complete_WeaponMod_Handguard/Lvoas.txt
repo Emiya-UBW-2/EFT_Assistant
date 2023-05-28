@@ -2,6 +2,19 @@ IDstr=595cf16b86f77427440c32e2
 Name=AR-15 War Sport LVOA-S handguard (Black)
 ShortName=LVOA-S
 Itemtype=Handguard
+Information_Eng=The War Sport LVOA-S (SBR) lightweight handguard is designed for use with sport rifles based on AR-15 rifles.
+basePrice=16845
+width=2
+height=1
+Sell_Prapor=8422
+Sell_Fence=6738
+Sell_Skier=8254
+Sell_Peacekeeper=64
+Sell_Mechanic=9433
+Sell_Flea Market=17000
+weight=0.500000
+fleaMarketFee=1014
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	NcSTAR MPR45 Backup mount
 ]
@@ -45,16 +58,3 @@ ChildParts=[
 ]
 Recoil=-1.000000
 Ergonomics=9.000000
-Information_Eng=The War Sport LVOA-S (SBR) lightweight handguard is designed for use with sport rifles based on AR-15 rifles.
-basePrice=16845
-width=2
-height=1
-Sell_Prapor=8422
-Sell_Fence=6738
-Sell_Skier=8254
-Sell_Peacekeeper=64
-Sell_Mechanic=9433
-Sell_Flea Market=21250
-weight=0.500000
-fleaMarketFee=1156
-propertiestype=ItemPropertiesWeaponMod

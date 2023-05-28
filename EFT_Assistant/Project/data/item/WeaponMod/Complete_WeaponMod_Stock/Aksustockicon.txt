@@ -2,11 +2,6 @@ IDstr=57dc347d245977596754e7a1
 Name=AKS-74U metal skeleton stock (6P26 Sb.5)
 ShortName=6P26 Sb.5
 Itemtype=Stock
-ChildParts=[
-	AK GP-25 accessory kit recoil pad
-]
-Recoil=-30.000002
-Ergonomics=10.000000
 Information_Eng=A standard-issue metal skeleton stock for AKS-74U, AKS-74UN, and AKS-74UB, manufactured by Izhmash.
 basePrice=1544
 width=2
@@ -21,3 +16,8 @@ Sell_Flea Market=24999
 weight=0.218000
 fleaMarketFee=4123
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	AK GP-25 accessory kit recoil pad
+]
+Recoil=-30.000002
+Ergonomics=10.000000

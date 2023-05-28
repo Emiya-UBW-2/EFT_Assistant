@@ -2,12 +2,6 @@ IDstr=60229948cacb6b0506369e27
 Name=PL-15 rear sight
 ShortName=PL15 RS
 Itemtype=Ironsight
-SightRange=0
-Conflict=[
-	PL-15 extended front sight
-]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A standard-issue rear sight for the PL-15 pistol.
 basePrice=900
 width=1
@@ -20,4 +14,10 @@ Sell_Mechanic=504
 Sell_Flea Market=1000
 weight=0.007000
 fleaMarketFee=57
+Conflict=[
+	PL-15 extended front sight
+]
 propertiestype=ItemPropertiesScope
+SightRange=0
+Recoil=0.000000
+Ergonomics=0.000000

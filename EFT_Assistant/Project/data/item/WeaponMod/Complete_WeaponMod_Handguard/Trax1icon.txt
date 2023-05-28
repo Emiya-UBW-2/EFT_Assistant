@@ -2,6 +2,19 @@ IDstr=5a9d56c8a2750c0032157146
 Name=AK Strike Industries TRAX 1 handguard
 ShortName=TRAX 1
 Itemtype=Handguard
+Information_Eng=The Strike Industries AK TRAX 1 rail system is a modular drop-in rail that is versatile, light-weight, and durable. It will provide an adaptable platform for the user to mount their accessories. Can be combined with the TRAX 2 rail for maximum amount of modularity.
+basePrice=7925
+width=1
+height=1
+Sell_Prapor=3962
+Sell_Fence=3170
+Sell_Skier=3883
+Sell_Peacekeeper=30
+Sell_Mechanic=4438
+Sell_Flea Market=8875
+weight=0.260000
+fleaMarketFee=503
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Axion Kobra EKP-8-18 reflex sight/|
 	OKP-7 reflex sight/|
@@ -54,16 +67,3 @@ ChildParts=[
 ]
 Recoil=-2.000000
 Ergonomics=6.000000
-Information_Eng=The Strike Industries AK TRAX 1 rail system is a modular drop-in rail that is versatile, light-weight, and durable. It will provide an adaptable platform for the user to mount their accessories. Can be combined with the TRAX 2 rail for maximum amount of modularity.
-basePrice=7925
-width=1
-height=1
-Sell_Prapor=3962
-Sell_Fence=3170
-Sell_Skier=3883
-Sell_Peacekeeper=30
-Sell_Mechanic=4438
-Sell_Flea Market=10000
-weight=0.260000
-fleaMarketFee=544
-propertiestype=ItemPropertiesWeaponMod

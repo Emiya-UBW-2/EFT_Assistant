@@ -2,6 +2,19 @@ IDstr=5a33a8ebc4a282000c5a950d
 Name=Alpha Dog Alpha 9 9x19 sound suppressor
 ShortName=Alpha 9
 Itemtype=Silencer
+Information_Eng=A pistol sound suppressor with a Weaver rail made for mounting an alternative sight. Manufactured by Alpha Dog.
+basePrice=36659
+width=2
+height=1
+Sell_Prapor=18329
+Sell_Fence=14663
+Sell_Skier=17962
+Sell_Peacekeeper=139
+Sell_Mechanic=20529
+Sell_Flea Market=20000
+weight=0.290000
+fleaMarketFee=1943
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Aimpoint Micro Standard Mount/|
 	Aimpoint Micro H-2 Standard Mount/|
@@ -12,16 +25,3 @@ ChildParts=[
 ]
 Recoil=-8.000000
 Ergonomics=-13.000000
-Information_Eng=A pistol sound suppressor with a Weaver rail made for mounting an alternative sight. Manufactured by Alpha Dog.
-basePrice=36659
-width=2
-height=1
-Sell_Prapor=18329
-Sell_Fence=14663
-Sell_Skier=17962
-Sell_Peacekeeper=139
-Sell_Mechanic=20529
-Sell_Flea Market=20900
-weight=0.290000
-fleaMarketFee=1935
-propertiestype=ItemPropertiesWeaponMod

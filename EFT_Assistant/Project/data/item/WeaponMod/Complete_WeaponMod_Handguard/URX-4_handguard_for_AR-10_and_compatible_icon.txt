@@ -2,6 +2,27 @@ IDstr=5df916dfbb49d91fb446d6b9
 Name=AR-10 KAC URX 4 14.5 inch handguard
 ShortName=URX4 14.5"
 Itemtype=Handguard
+Information_Eng=URX 4 is a 14.5 inch long lightweight M-LOK-compatible handguard for AR-10 system rifles. Manufactured by Knight's Armament Company.
+basePrice=16500
+width=3
+height=1
+Sell_Prapor=8250
+Sell_Fence=6600
+Sell_Skier=8085
+Sell_Peacekeeper=62
+Sell_Mechanic=9240
+Sell_Flea Market=117777
+weight=0.420000
+fleaMarketFee=11518
+Conflict=[
+	AR-10 JP Enterprises Gas System-6/|
+	M4A1 front sight with gas block/|
+	AR-15 Windham Weaponry Rail Gas Block/|
+	AR-15 5.56x45 260mm barrel/|
+	AR-15 5.56x45 370mm barrel/|
+	AR-15 5.56x45 Molot Arms 406mm barrel
+]
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	NcSTAR MPR45 Backup mount
 ]
@@ -47,26 +68,5 @@ ChildParts=[
 	Magpul M-LOK Offset Light Mount/|
 	Magpul M-LOK Cantilever Mount
 ]
-Conflict=[
-	AR-10 JP Enterprises Gas System-6/|
-	M4A1 front sight with gas block/|
-	AR-15 Windham Weaponry Rail Gas Block/|
-	AR-15 5.56x45 260mm barrel/|
-	AR-15 5.56x45 370mm barrel/|
-	AR-15 5.56x45 Molot Arms 406mm barrel
-]
 Recoil=-1.000000
 Ergonomics=7.000000
-Information_Eng=URX 4 is a 14.5 inch long lightweight M-LOK-compatible handguard for AR-10 system rifles. Manufactured by Knight's Armament Company.
-basePrice=16500
-width=3
-height=1
-Sell_Prapor=8250
-Sell_Fence=6600
-Sell_Skier=8085
-Sell_Peacekeeper=62
-Sell_Mechanic=9240
-Sell_Flea Market=15000
-weight=0.420000
-fleaMarketFee=942
-propertiestype=ItemPropertiesWeaponMod

@@ -2,6 +2,28 @@ IDstr=5f2aa49f9b44de6b1b4e68d4
 Name=RFB scope rail mount
 ShortName=RFB rail
 Itemtype=Mount
+Information_Eng=A universal rail for mounting various optics on to the RFB rifle, manufactured by Kel-Tec.
+basePrice=2640
+width=2
+height=1
+Sell_Prapor=1320
+Sell_Fence=1056
+Sell_Skier=1293
+Sell_Peacekeeper=10
+Sell_Mechanic=1478
+Sell_Jaeger=1584
+Sell_Flea Market=79997
+weight=0.090000
+fleaMarketFee=19991
+Conflict=[
+	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
+	OKP-7 reflex sight (Dovetail)/|
+	BelOMO PSO-1M2-1 4x24 scope/|
+	NSPU-M night vision scope/|
+	Axion Kobra dovetail mount/|
+	VOMZ Pilad 043-02 dovetail mount
+]
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
 	ELCAN SpecterDR 1x/4x scope (FDE)/|
@@ -84,27 +106,5 @@ ChildParts=[
 	MCX flip-up front sight/|
 	MPX flip-up front sight
 ]
-Conflict=[
-	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
-	OKP-7 reflex sight (Dovetail)/|
-	BelOMO PSO-1M2-1 4x24 scope/|
-	NSPU-M night vision scope/|
-	Axion Kobra dovetail mount/|
-	VOMZ Pilad 043-02 dovetail mount
-]
 Recoil=0.000000
 Ergonomics=0.000000
-Information_Eng=A universal rail for mounting various optics on to the RFB rifle, manufactured by Kel-Tec.
-basePrice=2640
-width=2
-height=1
-Sell_Prapor=1320
-Sell_Fence=1056
-Sell_Skier=1293
-Sell_Peacekeeper=10
-Sell_Mechanic=1478
-Sell_Jaeger=1584
-Sell_Flea Market=79997
-weight=0.090000
-fleaMarketFee=19991
-propertiestype=ItemPropertiesWeaponMod

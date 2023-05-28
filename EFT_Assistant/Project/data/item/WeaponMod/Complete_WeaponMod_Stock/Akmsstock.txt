@@ -2,11 +2,6 @@ IDstr=59ff3b6a86f77477562ff5ed
 Name=AKMS shoulder piece (6P4 Sb.1-19)
 ShortName=6P4 Sb.1-19
 Itemtype=Stock
-ChildParts=[
-	AK GP-25 accessory kit recoil pad
-]
-Recoil=-30.000002
-Ergonomics=9.000000
 Information_Eng=A folding shoulder piece assembly for AKMS automatic rifles, manufactured by Izhmash.
 basePrice=1557
 width=2
@@ -21,3 +16,8 @@ Sell_Flea Market=33333
 weight=0.600000
 fleaMarketFee=6608
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	AK GP-25 accessory kit recoil pad
+]
+Recoil=-30.000002
+Ergonomics=9.000000

@@ -2,14 +2,6 @@ IDstr=5bfd36ad0db834001c38ef66
 Name=Mosin Rifle sawn-off stock
 ShortName=Mosin sawn-off
 Itemtype=Stock
-ChildParts=[
-	Mosin Rifle Tacfire pistol grip
-]
-Conflict=[
-	Mosin Rifle Kochetov mount
-]
-Recoil=-4.000000
-Ergonomics=16.000000
 Information_Eng=A sawn-off wooden stock for the Mosin rifle. Compact and deadly.
 basePrice=1600
 width=2
@@ -23,4 +15,12 @@ Sell_Jaeger=960
 Sell_Flea Market=22222
 weight=0.800000
 fleaMarketFee=3315
+Conflict=[
+	Mosin Rifle Kochetov mount
+]
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Mosin Rifle Tacfire pistol grip
+]
+Recoil=-4.000000
+Ergonomics=16.000000

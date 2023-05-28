@@ -2,11 +2,6 @@ IDstr=5c4eec9b2e2216398b5aaba2
 Name=SV-98 7.62x54R thread adapter
 ShortName=SV98 thr.
 Itemtype=Flashhider
-ChildParts=[
-	SV-98 7.62x54R sound suppressor
-]
-Recoil=0.000000
-Ergonomics=-2.000000
 Information_Eng=A standard-issue threaded adapter for 7.62x54R sound suppressor installation on the SV-98 sniper rifle.
 basePrice=4817
 width=1
@@ -16,7 +11,12 @@ Sell_Fence=1926
 Sell_Skier=2360
 Sell_Peacekeeper=18
 Sell_Mechanic=2697
-Sell_Flea Market=46666
+Sell_Flea Market=77777
 weight=0.060000
-fleaMarketFee=5522
+fleaMarketFee=12803
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	SV-98 7.62x54R sound suppressor
+]
+Recoil=0.000000
+Ergonomics=-2.000000

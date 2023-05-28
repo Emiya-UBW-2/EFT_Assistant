@@ -2,15 +2,6 @@ IDstr=5cc701d7e4a94900100ac4e7
 Name=FN P90 5.7x28 16 inch barrel
 ShortName=P90 16"
 Itemtype=Barrel
-Conflict=[
-	HK 416A5 MRS KeyMod 14 inch handguard/|
-	HK 416A5 Quad Rail Extended handguard/|
-	HK 416A5 Midwest Industries 13.5 inch M-LOK handguard/|
-	HK 416A5 Strike Industries CRUX 15 inch M-LOK handguard/|
-	HK 416A5 TROY M-LOK 13 inch handguard
-]
-Recoil=-13.000000
-Ergonomics=-13.000000
 Information_Eng=A 16 inch (407mm) barrel for FN P90 SMG, chambered in 5.7x28mm ammo.
 basePrice=22300
 width=3
@@ -24,4 +15,13 @@ Sell_Jaeger=13380
 Sell_Flea Market=50000
 weight=0.800000
 fleaMarketFee=2757
+Conflict=[
+	HK 416A5 MRS KeyMod 14 inch handguard/|
+	HK 416A5 Quad Rail Extended handguard/|
+	HK 416A5 Midwest Industries 13.5 inch M-LOK handguard/|
+	HK 416A5 Strike Industries CRUX 15 inch M-LOK handguard/|
+	HK 416A5 TROY M-LOK 13 inch handguard
+]
 propertiestype=ItemPropertiesBarrel
+Recoil=-13.000000
+Ergonomics=-13.000000

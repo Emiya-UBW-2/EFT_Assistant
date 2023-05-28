@@ -2,16 +2,6 @@ IDstr=61816734d8e3106d9806c1f3
 Name=FN SCAR folding polymer stock
 ShortName=SCAR fold.
 Itemtype=Stock
-ChildParts=[
-	FN SCAR retractable polymer stock/|
-	FN SCAR retractable polymer stock (FDE)
-]
-ChildParts=[
-	FN SCAR cheek rest/|
-	FN SCAR cheek rest (FDE)
-]
-Recoil=-5.000000
-Ergonomics=0.000000
 Information_Eng=A folding polymer stock for the SCAR-series rifles, manufactured by Fabrique Nationale Herstal.
 basePrice=6000
 width=2
@@ -22,7 +12,17 @@ Sell_Skier=2940
 Sell_Peacekeeper=23
 Sell_Mechanic=3360
 Sell_Jaeger=3600
-Sell_Flea Market=31321
+Sell_Flea Market=20000
 weight=0.350000
-fleaMarketFee=2542
+fleaMarketFee=1281
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	FN SCAR retractable polymer stock/|
+	FN SCAR retractable polymer stock (FDE)
+]
+ChildParts=[
+	FN SCAR cheek rest/|
+	FN SCAR cheek rest (FDE)
+]
+Recoil=-5.000000
+Ergonomics=0.000000

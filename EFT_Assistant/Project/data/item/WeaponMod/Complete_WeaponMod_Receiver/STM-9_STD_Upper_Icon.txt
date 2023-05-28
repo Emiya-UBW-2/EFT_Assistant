@@ -2,6 +2,19 @@ IDstr=602e63fb6335467b0c5ac94d
 Name=STM-9 9x19 upper receiver
 ShortName=STM-9
 Itemtype=Receiver
+Information_Eng=An upper receiver for the STM-9 9x19 carbine. Equipped with a mount for attaching additional tactical devices.
+basePrice=4198
+width=2
+height=1
+Sell_Prapor=2099
+Sell_Fence=1679
+Sell_Skier=2057
+Sell_Peacekeeper=16
+Sell_Mechanic=2350
+Sell_Flea Market=45999
+weight=0.270000
+fleaMarketFee=5888
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
 	ELCAN SpecterDR 1x/4x scope (FDE)/|
@@ -97,16 +110,3 @@ ChildParts=[
 ]
 Recoil=0.000000
 Ergonomics=4.000000
-Information_Eng=An upper receiver for the STM-9 9x19 carbine. Equipped with a mount for attaching additional tactical devices.
-basePrice=4198
-width=2
-height=1
-Sell_Prapor=2099
-Sell_Fence=1679
-Sell_Skier=2057
-Sell_Peacekeeper=16
-Sell_Mechanic=2350
-Sell_Flea Market=45999
-weight=0.270000
-fleaMarketFee=5888
-propertiestype=ItemPropertiesWeaponMod

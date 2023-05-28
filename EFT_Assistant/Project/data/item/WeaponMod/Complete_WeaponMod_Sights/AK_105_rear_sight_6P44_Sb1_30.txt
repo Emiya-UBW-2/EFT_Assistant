@@ -2,12 +2,6 @@ IDstr=5ac733a45acfc400192630e2
 Name=AK-105 rear sight (6P44 Sb.1-30)
 ShortName=6P44 Sb.1-30
 Itemtype=Ironsight
-SightRange=0
-ChildParts=[
-	AKMP system rear sight device
-]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A standard rear sight for AK-105 automatic rifles, manufactured by Izhmash.
 basePrice=472
 width=1
@@ -21,3 +15,9 @@ Sell_Flea Market=40000
 weight=0.025000
 fleaMarketFee=20075
 propertiestype=ItemPropertiesScope
+SightRange=0
+ChildParts=[
+	AKMP system rear sight device
+]
+Recoil=0.000000
+Ergonomics=0.000000

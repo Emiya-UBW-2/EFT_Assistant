@@ -2,14 +2,6 @@ IDstr=5aa66a9be5b5b0214e506e89
 Name=Nightforce Magmount 34mm ring scope mount
 ShortName=NF 34mm
 Itemtype=Mount
-ChildParts=[
-	Hensoldt FF 4-16x56 34mm riflescope/|
-	Nightforce ATACR 7-35x56 34mm riflescope/|
-	Schmidt & Bender PM II 3-12x50 34mm riflescope/|
-	Schmidt & Bender PM II 5-25x56 34mm riflescope
-]
-Recoil=0.000000
-Ergonomics=-2.000000
 Information_Eng=Nightforce X-Treme Duty Ultralite one piece Magmount is a universal 34mm scope base mount for installation on Picatinny rails.
 basePrice=9509
 width=2
@@ -20,7 +12,15 @@ Sell_Skier=4659
 Sell_Peacekeeper=36
 Sell_Mechanic=5325
 Sell_Jaeger=5705
-Sell_Flea Market=25000
+Sell_Flea Market=20000
 weight=0.226000
-fleaMarketFee=1450
+fleaMarketFee=1085
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Hensoldt FF 4-16x56 34mm riflescope/|
+	Nightforce ATACR 7-35x56 34mm riflescope/|
+	Schmidt & Bender PM II 3-12x50 34mm riflescope/|
+	Schmidt & Bender PM II 5-25x56 34mm riflescope
+]
+Recoil=0.000000
+Ergonomics=-2.000000

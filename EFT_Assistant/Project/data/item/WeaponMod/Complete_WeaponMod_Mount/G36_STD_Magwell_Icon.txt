@@ -2,6 +2,19 @@ IDstr=622f02437762f55aaa68ac85
 Name=HK G36 magwell
 ShortName=G36 std.
 Itemtype=Mount
+Information_Eng=A standard-issue magwell for the G36 assault rifle, manufactured by Heckler & Koch.
+basePrice=1000
+width=1
+height=1
+Sell_Prapor=500
+Sell_Fence=400
+Sell_Skier=490
+Sell_Peacekeeper=4
+Sell_Mechanic=560
+Sell_Jaeger=600
+Sell_Flea Market=29989
+weight=0.020000
+fleaMarketFee=7442
 Conflict=[
 	5.56x45 Colt AR-15 STANAG 30-round magazine/|
 	FN SCAR-L 5.56x45 30-round magazine/|
@@ -22,19 +35,6 @@ Conflict=[
 	5.56x45 SureFire MAG5-60 STANAG 60-round magazine/|
 	5.56x45 TROY BattleMag STANAG 30-round magazine
 ]
+propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=0.500000
-Information_Eng=A standard-issue magwell for the G36 assault rifle, manufactured by Heckler & Koch.
-basePrice=1000
-width=1
-height=1
-Sell_Prapor=500
-Sell_Fence=400
-Sell_Skier=490
-Sell_Peacekeeper=4
-Sell_Mechanic=560
-Sell_Jaeger=600
-Sell_Flea Market=29989
-weight=0.020000
-fleaMarketFee=7442
-propertiestype=ItemPropertiesWeaponMod

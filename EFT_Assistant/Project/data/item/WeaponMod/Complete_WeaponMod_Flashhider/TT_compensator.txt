@@ -2,11 +2,6 @@ IDstr=5bffd7ed0db834001d23ebf9
 Name=TT PM-Laser DTK-TT muzzle brake-compensator
 ShortName=DTK-TT
 Itemtype=Flashhider
-Conflict=[
-	TT 7.62x25 makeshift sound suppressor
-]
-Recoil=-12.000000
-Ergonomics=-1.000000
 Information_Eng=A custom compensator for TT pistols manufactured by PM-Laser.
 basePrice=3800
 width=1
@@ -16,7 +11,12 @@ Sell_Fence=1520
 Sell_Skier=1862
 Sell_Peacekeeper=14
 Sell_Mechanic=2128
-Sell_Flea Market=2500
+Sell_Flea Market=5555
 weight=0.036000
-fleaMarketFee=200
+fleaMarketFee=294
+Conflict=[
+	TT 7.62x25 makeshift sound suppressor
+]
 propertiestype=ItemPropertiesWeaponMod
+Recoil=-12.000000
+Ergonomics=-1.000000

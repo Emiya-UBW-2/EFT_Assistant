@@ -2,6 +2,23 @@ IDstr=5ab372a310e891001717f0d8
 Name=M14 TROY S.A.S.S. Chassis stock
 ShortName=S.A.S.S.
 Itemtype=Stock
+Information_Eng=The TROY Semi-Automatic Sniper System chassis is designed to match the ergonomics of M16/M4 weapon systems. This modular quad-rail system allows unlimited mounting options and keeps all optics and sights mounted and undisturbed while field stripping.
+basePrice=36580
+width=3
+height=1
+Sell_Prapor=18290
+Sell_Fence=14632
+Sell_Skier=17924
+Sell_Peacekeeper=138
+Sell_Mechanic=20484
+Sell_Jaeger=21948
+Sell_Flea Market=22221
+weight=2.100000
+fleaMarketFee=1925
+Conflict=[
+	M14 SA Enlarged Military Aperture rear sight
+]
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	BCM GUNFIGHTER MOD 3 vertical foregrip/|
 	ASh-12 vertical foregrip/|
@@ -231,22 +248,5 @@ ChildParts=[
 	MCX flip-up rear sight/|
 	MPX flip-up rear sight
 ]
-Conflict=[
-	M14 SA Enlarged Military Aperture rear sight
-]
 Recoil=-10.000000
 Ergonomics=28.000000
-Information_Eng=The TROY Semi-Automatic Sniper System chassis is designed to match the ergonomics of M16/M4 weapon systems. This modular quad-rail system allows unlimited mounting options and keeps all optics and sights mounted and undisturbed while field stripping.
-basePrice=36580
-width=3
-height=1
-Sell_Prapor=18290
-Sell_Fence=14632
-Sell_Skier=17924
-Sell_Peacekeeper=138
-Sell_Mechanic=20484
-Sell_Jaeger=21948
-Sell_Flea Market=63333
-weight=2.100000
-fleaMarketFee=3340
-propertiestype=ItemPropertiesWeaponMod

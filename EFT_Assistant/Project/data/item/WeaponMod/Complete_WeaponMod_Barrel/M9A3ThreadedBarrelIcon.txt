@@ -2,15 +2,6 @@ IDstr=5cadc1c6ae9215000f2775a4
 Name=M9A3 9x19 threaded barrel
 ShortName=M9A3 thr.
 Itemtype=Barrel
-ChildParts=[
-	M9A3 thread protection cap/|
-	AAC Illusion 9 9x19 sound suppressor/|
-	Alpha Dog Alpha 9 9x19 sound suppressor/|
-	SIG Sauer SRD9 9x19 sound suppressor/|
-	SilencerCo Osprey 9 9x19 sound suppressor
-]
-Recoil=-3.000000
-Ergonomics=-4.000000
 Information_Eng=A standard threaded barrel for the Beretta M9A3 9x19 pistol.
 basePrice=1660
 width=1
@@ -21,7 +12,16 @@ Sell_Skier=813
 Sell_Peacekeeper=6
 Sell_Mechanic=929
 Sell_Jaeger=996
-Sell_Flea Market=35000
+Sell_Flea Market=25000
 weight=0.200000
-fleaMarketFee=6869
+fleaMarketFee=3932
 propertiestype=ItemPropertiesBarrel
+ChildParts=[
+	M9A3 thread protection cap/|
+	AAC Illusion 9 9x19 sound suppressor/|
+	Alpha Dog Alpha 9 9x19 sound suppressor/|
+	SIG Sauer SRD9 9x19 sound suppressor/|
+	SilencerCo Osprey 9 9x19 sound suppressor
+]
+Recoil=-3.000000
+Ergonomics=-4.000000

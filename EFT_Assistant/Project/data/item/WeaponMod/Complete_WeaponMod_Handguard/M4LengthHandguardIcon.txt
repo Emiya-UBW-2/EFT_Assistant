@@ -2,11 +2,6 @@ IDstr=5ae30db85acfc408fb139a05
 Name=AR-15 Colt M4 Carbine Length handguard
 ShortName=M4 Carbine
 Itemtype=Handguard
-ChildParts=[
-	AR-15 Colt M4 Carbine Length lower handguard
-]
-Recoil=0.000000
-Ergonomics=2.000000
 Information_Eng=A carbine length handguard manufactured by Colt, a standard-issue handguard for the M4A1 assault rifles.
 basePrice=1424
 width=2
@@ -20,3 +15,8 @@ Sell_Flea Market=2500
 weight=0.193000
 fleaMarketFee=132
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	AR-15 Colt M4 Carbine Length lower handguard
+]
+Recoil=0.000000
+Ergonomics=2.000000

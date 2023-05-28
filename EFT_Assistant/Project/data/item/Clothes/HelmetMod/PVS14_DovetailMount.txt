@@ -2,11 +2,6 @@ IDstr=5a16b93dfcdbcbcae6687261
 Name=AN/PVS-14 Dual Dovetail Mount
 ShortName=DDT
 Itemtype=Mount
-ChildParts=[
-	AN/PVS-14 Night Vision Monocular
-]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=The Dual Dovetail Interface Arm mount for the AN/PVS-14 night vision monocular device.
 basePrice=2454
 width=1
@@ -17,7 +12,12 @@ Sell_Skier=1202
 Sell_Peacekeeper=9
 Sell_Mechanic=1374
 Sell_Jaeger=1472
-Sell_Flea Market=14891
+Sell_Flea Market=20000
 weight=0.070000
-fleaMarketFee=1320
+fleaMarketFee=2123
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	AN/PVS-14 Night Vision Monocular
+]
+Recoil=0.000000
+Ergonomics=0.000000

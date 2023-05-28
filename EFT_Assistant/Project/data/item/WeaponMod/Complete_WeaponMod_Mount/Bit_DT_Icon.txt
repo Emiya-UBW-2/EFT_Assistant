@@ -2,20 +2,19 @@ IDstr=638db77630c4240f9e06f8b6
 Name=SAG Bit low profile dovetail sidemount
 ShortName=Bit DT
 Itemtype=Mount
-ChildParts=[
-	BelOMO PK-06 reflex sight/|
-	Torrey Pines Logic T12W 30Hz thermal reflex sight/|
-	Aimpoint Micro Standard Mount/|
-	Aimpoint Micro H-2 Standard Mount/|
-	B&T QD NAR mount for Aimpoint ACRO/|
-	Burris FastFire Weaver Base/|
-	DeltaPoint Cross Slot Mount base/|
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights/|
-	SIG Sauer ROMEO sight mount/|
-	Trijicon RMR high profile mount/|
-	Trijicon RMR low profile mount/|
-	UNV DLOC-IRD sight mount
-]
+Information_Eng=The Bit low-profile side mount is designed to mount compact sights and collimators on AK rifles and their numerous versions: Saiga, VAL, etc. Manufactured by Sureshot Armament Group.
+basePrice=6100
+width=1
+height=1
+Sell_Prapor=3050
+Sell_Fence=2440
+Sell_Skier=2989
+Sell_Peacekeeper=23
+Sell_Mechanic=3416
+Sell_Jaeger=3660
+Sell_Flea Market=16969
+weight=0.075000
+fleaMarketFee=1006
 Conflict=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
 	BelOMO PK-AA dovetail reflex sight/|
@@ -42,19 +41,20 @@ Conflict=[
 	AK TDI X47 tactical handguard rail system/|
 	SVD modernization kit top rail
 ]
+propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	BelOMO PK-06 reflex sight/|
+	Torrey Pines Logic T12W 30Hz thermal reflex sight/|
+	Aimpoint Micro Standard Mount/|
+	Aimpoint Micro H-2 Standard Mount/|
+	B&T QD NAR mount for Aimpoint ACRO/|
+	Burris FastFire Weaver Base/|
+	DeltaPoint Cross Slot Mount base/|
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights/|
+	SIG Sauer ROMEO sight mount/|
+	Trijicon RMR high profile mount/|
+	Trijicon RMR low profile mount/|
+	UNV DLOC-IRD sight mount
+]
 Recoil=0.000000
 Ergonomics=-1.000000
-Information_Eng=The Bit low-profile side mount is designed to mount compact sights and collimators on AK rifles and their numerous versions: Saiga, VAL, etc. Manufactured by Sureshot Armament Group.
-basePrice=6100
-width=1
-height=1
-Sell_Prapor=3050
-Sell_Fence=2440
-Sell_Skier=2989
-Sell_Peacekeeper=23
-Sell_Mechanic=3416
-Sell_Jaeger=3660
-Sell_Flea Market=20999
-weight=0.075000
-fleaMarketFee=1366
-propertiestype=ItemPropertiesWeaponMod

@@ -2,6 +2,19 @@ IDstr=59fb375986f7741b681b81a6
 Name=AK Krebs Custom UFM KeyMod handguard
 ShortName=UFM
 Itemtype=Handguard
+Information_Eng=The Krebs Custom UFM Keymod System lightweight aluminum handguard for AK family assault rifles with KeyMod slots for rail installation. The Kiba Arms VDM CS gas tube is required for installation.
+basePrice=20355
+width=2
+height=1
+Sell_Prapor=10177
+Sell_Fence=8142
+Sell_Skier=9973
+Sell_Peacekeeper=77
+Sell_Mechanic=11398
+Sell_Flea Market=10500
+weight=0.260000
+fleaMarketFee=1087
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Axion Kobra EKP-8-18 reflex sight/|
 	OKP-7 reflex sight/|
@@ -67,16 +80,3 @@ ChildParts=[
 ]
 Recoil=-3.000000
 Ergonomics=11.000000
-Information_Eng=The Krebs Custom UFM Keymod System lightweight aluminum handguard for AK family assault rifles with KeyMod slots for rail installation. The Kiba Arms VDM CS gas tube is required for installation.
-basePrice=20355
-width=2
-height=1
-Sell_Prapor=10177
-Sell_Fence=8142
-Sell_Skier=9973
-Sell_Peacekeeper=77
-Sell_Mechanic=11398
-Sell_Flea Market=12000
-weight=0.260000
-fleaMarketFee=1072
-propertiestype=ItemPropertiesWeaponMod

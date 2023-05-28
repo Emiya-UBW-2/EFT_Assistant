@@ -2,6 +2,17 @@ IDstr=60363c0c92ec1c31037959f5
 Name=GP-7 gas mask
 ShortName=GP-7
 Itemtype=Face Cover
+Information_Eng=The GP-7 civilian gas mask is a filtering means of individual protection of respiratory organs, eyes, and face skin.
+basePrice=8386
+width=2
+height=2
+Sell_Fence=3354
+Sell_Skier=4109
+Sell_Peacekeeper=32
+Sell_Ragman=5199
+Sell_Flea Market=42222
+weight=0.600000
+fleaMarketFee=3357
 Conflict=[
 	Army cap/|
 	Baseball cap/|
@@ -48,15 +59,4 @@ Conflict=[
 	Team Wendy EXFIL Ballistic face shield (Black)/|
 	GSSh-01 active headset
 ]
-Information_Eng=The GP-7 civilian gas mask is a filtering means of individual protection of respiratory organs, eyes, and face skin.
-basePrice=8386
-width=2
-height=2
-Sell_Fence=3354
-Sell_Skier=4109
-Sell_Peacekeeper=32
-Sell_Ragman=5199
-Sell_Flea Market=34000
-weight=0.600000
-fleaMarketFee=2401
 propertiestype=

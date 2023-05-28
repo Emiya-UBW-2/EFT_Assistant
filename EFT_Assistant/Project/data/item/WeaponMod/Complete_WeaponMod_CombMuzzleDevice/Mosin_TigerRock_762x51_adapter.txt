@@ -2,6 +2,19 @@ IDstr=5cf79599d7f00c10875d9212
 Name=Mosin Rifle Tiger Rock 7.62x51 thread adapter
 ShortName=TR thr.
 Itemtype=Comb. muzzle device
+Information_Eng=The Tiger Rock muzzle device adapter. Provides the ability to install modern 7.62x51 NATO muzzle devices on the Mosin rifle.
+basePrice=2950
+width=1
+height=1
+Sell_Prapor=1475
+Sell_Fence=1180
+Sell_Skier=1445
+Sell_Peacekeeper=11
+Sell_Mechanic=1652
+Sell_Flea Market=8500
+weight=0.070000
+fleaMarketFee=511
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AWC PSR 7.62x51 muzzle brake/|
 	AR-10 2A Armanent X3 7.62x51 compensator/|
@@ -29,16 +42,3 @@ ChildParts=[
 ]
 Recoil=-1.000000
 Ergonomics=0.000000
-Information_Eng=The Tiger Rock muzzle device adapter. Provides the ability to install modern 7.62x51 NATO muzzle devices on the Mosin rifle.
-basePrice=2950
-width=1
-height=1
-Sell_Prapor=1475
-Sell_Fence=1180
-Sell_Skier=1445
-Sell_Peacekeeper=11
-Sell_Mechanic=1652
-Sell_Flea Market=8500
-weight=0.070000
-fleaMarketFee=511
-propertiestype=ItemPropertiesWeaponMod

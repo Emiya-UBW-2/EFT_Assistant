@@ -2,13 +2,6 @@ IDstr=5c0111ab0db834001966914d
 Name=ME Cylinder 12ga muzzle adapter
 ShortName=Cylinder 12ga
 Itemtype=Comb. muzzle device
-ChildParts=[
-	GK-02 12ga muzzle brake/|
-	Tromix Monster Claw 12ga muzzle brake/|
-	Hexagon 12K 12ga sound suppressor
-]
-Recoil=0.000000
-Ergonomics=-1.000000
 Information_Eng=A muzzle thread adapter for 12ga barrels, designed for installing additional muzzle devices.
 basePrice=2150
 width=1
@@ -18,7 +11,14 @@ Sell_Fence=860
 Sell_Skier=1053
 Sell_Peacekeeper=8
 Sell_Mechanic=1204
-Sell_Flea Market=15000
+Sell_Flea Market=8888
 weight=0.120000
-fleaMarketFee=1447
+fleaMarketFee=634
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	GK-02 12ga muzzle brake/|
+	Tromix Monster Claw 12ga muzzle brake/|
+	Hexagon 12K 12ga sound suppressor
+]
+Recoil=0.000000
+Ergonomics=-1.000000

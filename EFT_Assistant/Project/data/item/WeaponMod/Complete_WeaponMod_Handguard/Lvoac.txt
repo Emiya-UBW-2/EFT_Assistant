@@ -2,6 +2,23 @@ IDstr=595cfa8b86f77427437e845b
 Name=AR-15 War Sport LVOA-C handguard (Black)
 ShortName=LVOA-C
 Itemtype=Handguard
+Information_Eng=The War Sport LVOA-C lightweight handguard is designed for use with sport rifles based on AR-15 rifles.
+basePrice=28988
+width=3
+height=1
+Sell_Prapor=14494
+Sell_Fence=11595
+Sell_Skier=14204
+Sell_Peacekeeper=110
+Sell_Mechanic=16233
+Sell_Flea Market=59000
+weight=0.580000
+fleaMarketFee=3180
+Conflict=[
+	Rotor 43 5.56x45 muzzle brake-compensator/|
+	AR-15 5.56x45 260mm barrel
+]
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	NcSTAR MPR45 Backup mount
 ]
@@ -43,22 +60,5 @@ ChildParts=[
 	MPX flip-up front sight/|
 	AR-15 Leapers UTG Low Profile A2 front sight
 ]
-Conflict=[
-	Rotor 43 5.56x45 muzzle brake-compensator/|
-	AR-15 5.56x45 260mm barrel
-]
 Recoil=-2.000000
 Ergonomics=10.000000
-Information_Eng=The War Sport LVOA-C lightweight handguard is designed for use with sport rifles based on AR-15 rifles.
-basePrice=28988
-width=3
-height=1
-Sell_Prapor=14494
-Sell_Fence=11595
-Sell_Skier=14204
-Sell_Peacekeeper=110
-Sell_Mechanic=16233
-Sell_Flea Market=79999
-weight=0.580000
-fleaMarketFee=4726
-propertiestype=ItemPropertiesWeaponMod

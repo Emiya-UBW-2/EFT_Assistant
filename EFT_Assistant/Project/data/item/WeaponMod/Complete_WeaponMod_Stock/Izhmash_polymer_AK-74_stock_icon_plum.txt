@@ -2,11 +2,6 @@ IDstr=5cbdb1b0ae9215000d50e105
 Name=AK-74 "Plum" polymer stock (6P20 Sb.7)
 ShortName=6P20 Sb.7
 Itemtype=Stock
-ChildParts=[
-	AK GP-25 accessory kit recoil pad
-]
-Recoil=-32.000000
-Ergonomics=5.000000
 Information_Eng=A polymer stock for AK-74 automatic rifles, manufactured by Izhmash. Made out of plum-colored polymer, for which has earned the nickname "Sliva" ("Plum").
 basePrice=2168
 width=2
@@ -21,3 +16,8 @@ Sell_Flea Market=25999
 weight=0.350000
 fleaMarketFee=3527
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	AK GP-25 accessory kit recoil pad
+]
+Recoil=-32.000000
+Ergonomics=5.000000

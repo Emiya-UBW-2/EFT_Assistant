@@ -2,6 +2,19 @@ IDstr=5a788068c5856700137e4c8f
 Name=M870 Magpul MOE handguard
 ShortName=MOE 870
 Itemtype=Handguard
+Information_Eng=The Magpul MOE forend, designed for the Remington Model 870 shotgun.
+basePrice=7852
+width=2
+height=1
+Sell_Prapor=3926
+Sell_Fence=3140
+Sell_Skier=3847
+Sell_Peacekeeper=30
+Sell_Mechanic=4397
+Sell_Flea Market=40000
+weight=0.600000
+fleaMarketFee=3202
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Magpul M-LOK AFG tactical foregrip (Black)/|
 	Magpul M-LOK AFG tactical foregrip (FDE)/|
@@ -19,16 +32,3 @@ ChildParts=[
 ]
 Recoil=0.000000
 Ergonomics=13.000000
-Information_Eng=The Magpul MOE forend, designed for the Remington Model 870 shotgun.
-basePrice=7852
-width=2
-height=1
-Sell_Prapor=3926
-Sell_Fence=3140
-Sell_Skier=3847
-Sell_Peacekeeper=30
-Sell_Mechanic=4397
-Sell_Flea Market=42222
-weight=0.600000
-fleaMarketFee=3486
-propertiestype=ItemPropertiesWeaponMod

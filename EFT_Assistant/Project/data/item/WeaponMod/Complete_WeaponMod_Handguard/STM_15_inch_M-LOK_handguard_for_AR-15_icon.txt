@@ -2,6 +2,28 @@ IDstr=6034e3d953a60014f970617b
 Name=AR-15 Soyuz-TM 15 inch M-LOK handguard
 ShortName=STM 15"
 Itemtype=Handguard
+Information_Eng=A 15 inch handguard for AR-15 systems equipped with an M-LOK interface for installation of additional devices and accessories. Manufactured by Soyuz-TM Arms.
+basePrice=15000
+width=3
+height=1
+Sell_Prapor=7500
+Sell_Fence=6000
+Sell_Skier=7350
+Sell_Peacekeeper=57
+Sell_Mechanic=8400
+Sell_Flea Market=45000
+weight=0.220000
+fleaMarketFee=2750
+Conflict=[
+	AR-10 JP Enterprises Gas System-6/|
+	M4A1 front sight with gas block/|
+	AR-15 Windham Weaponry Rail Gas Block/|
+	AR-15 5.56x45 260mm barrel/|
+	AR-15 5.56x45 370mm barrel/|
+	STM-9 9x19 10.5 inch barrel/|
+	STM-9 9x19 12 inch barrel
+]
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount/|
@@ -38,27 +60,5 @@ ChildParts=[
 	MPX flip-up front sight/|
 	AR-15 Leapers UTG Low Profile A2 front sight
 ]
-Conflict=[
-	AR-10 JP Enterprises Gas System-6/|
-	M4A1 front sight with gas block/|
-	AR-15 Windham Weaponry Rail Gas Block/|
-	AR-15 5.56x45 260mm barrel/|
-	AR-15 5.56x45 370mm barrel/|
-	STM-9 9x19 10.5 inch barrel/|
-	STM-9 9x19 12 inch barrel
-]
 Recoil=-1.000000
 Ergonomics=5.500000
-Information_Eng=A 15 inch handguard for AR-15 systems equipped with an M-LOK interface for installation of additional devices and accessories. Manufactured by Soyuz-TM Arms.
-basePrice=15000
-width=3
-height=1
-Sell_Prapor=7500
-Sell_Fence=6000
-Sell_Skier=7350
-Sell_Peacekeeper=57
-Sell_Mechanic=8400
-Sell_Flea Market=29888
-weight=0.220000
-fleaMarketFee=1604
-propertiestype=ItemPropertiesWeaponMod

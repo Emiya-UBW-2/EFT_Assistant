@@ -2,6 +2,19 @@ IDstr=5e21ca18e4d47f0da15e77dd
 Name=AK CNC Warrior 5.56x45 muzzle device adapter
 ShortName=CNC War.
 Itemtype=Comb. muzzle device
+Information_Eng=The CNC Warrior AK adapter allows to install different AR-15 specific muzzle devices on 5.56x45 AK automatic rifles.
+basePrice=2615
+width=1
+height=1
+Sell_Prapor=1307
+Sell_Fence=1046
+Sell_Skier=1281
+Sell_Peacekeeper=10
+Sell_Mechanic=1464
+Sell_Flea Market=15000
+weight=0.100000
+fleaMarketFee=1286
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AR-15 AAC Blackout 51T 5.56x45 flash hider/|
 	AR-15 ADAR 2-15 5.56x45 flash hider/|
@@ -35,16 +48,3 @@ ChildParts=[
 ]
 Recoil=0.000000
 Ergonomics=0.000000
-Information_Eng=The CNC Warrior AK adapter allows to install different AR-15 specific muzzle devices on 5.56x45 AK automatic rifles.
-basePrice=2615
-width=1
-height=1
-Sell_Prapor=1307
-Sell_Fence=1046
-Sell_Skier=1281
-Sell_Peacekeeper=10
-Sell_Mechanic=1464
-Sell_Flea Market=12000
-weight=0.100000
-fleaMarketFee=906
-propertiestype=ItemPropertiesWeaponMod

@@ -2,12 +2,6 @@ IDstr=602293f023506e50807090cb
 Name=PL-15 extended rear sight
 ShortName=PL15 RS ext.
 Itemtype=Ironsight
-SightRange=0
-Conflict=[
-	PL-15 front sight
-]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=An extended rear sight for the PL-15 pistol, designed for use with a sound suppressor.
 basePrice=950
 width=1
@@ -19,4 +13,10 @@ Sell_Peacekeeper=4
 Sell_Mechanic=532
 weight=0.007000
 fleaMarketFee=57
+Conflict=[
+	PL-15 front sight
+]
 propertiestype=ItemPropertiesScope
+SightRange=0
+Recoil=0.000000
+Ergonomics=0.000000

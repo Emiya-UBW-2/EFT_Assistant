@@ -2,6 +2,19 @@ IDstr=5df8e4080b92095fd441e594
 Name=SR-25 7.62x51 upper receiver
 ShortName=SR-25
 Itemtype=Receiver
+Information_Eng=An upper receiver for the SR-25 rifle, manufactured by Knight's Armament Company.
+basePrice=6800
+width=2
+height=1
+Sell_Prapor=3400
+Sell_Fence=2720
+Sell_Skier=3332
+Sell_Peacekeeper=26
+Sell_Mechanic=3808
+Sell_Flea Market=50000
+weight=0.650000
+fleaMarketFee=4980
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
 	ELCAN SpecterDR 1x/4x scope (FDE)/|
@@ -91,16 +104,3 @@ ChildParts=[
 ]
 Recoil=0.000000
 Ergonomics=5.000000
-Information_Eng=An upper receiver for the SR-25 rifle, manufactured by Knight's Armament Company.
-basePrice=6800
-width=2
-height=1
-Sell_Prapor=3400
-Sell_Fence=2720
-Sell_Skier=3332
-Sell_Peacekeeper=26
-Sell_Mechanic=3808
-Sell_Flea Market=99999
-weight=0.650000
-fleaMarketFee=15485
-propertiestype=ItemPropertiesWeaponMod

@@ -2,11 +2,6 @@ IDstr=5a27b3d0c4a282000d721ec1
 Name=SR-1MP sound suppressor mount
 ShortName=SR-1MP mount
 Itemtype=Mount
-ChildParts=[
-	SR-1MP 9x21 sound suppressor
-]
-Recoil=0.000000
-Ergonomics=-1.000000
 Information_Eng=A mount for SR-1MP from the pistol kit, used for quick installation and removal of the sound suppressor.
 basePrice=2766
 width=1
@@ -21,3 +16,8 @@ Sell_Flea Market=100000
 weight=0.040000
 fleaMarketFee=28135
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	SR-1MP 9x21 sound suppressor
+]
+Recoil=0.000000
+Ergonomics=-1.000000

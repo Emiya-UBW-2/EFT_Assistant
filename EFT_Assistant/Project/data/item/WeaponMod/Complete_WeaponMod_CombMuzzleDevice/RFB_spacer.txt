@@ -2,6 +2,19 @@ IDstr=5f2aa43ba9b91d26f20ae6d2
 Name=RFB thread spacer
 ShortName=RFB spacer
 Itemtype=Comb. muzzle device
+Information_Eng=A thread spacer for the RFB rifle, manufactured by Kel-Tec. It is required for installation of different muzzle devices.
+basePrice=2200
+width=1
+height=1
+Sell_Prapor=1100
+Sell_Fence=880
+Sell_Skier=1078
+Sell_Peacekeeper=8
+Sell_Mechanic=1232
+Sell_Flea Market=50000
+weight=0.091000
+fleaMarketFee=10314
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AWC PSR 7.62x51 muzzle brake/|
 	RFB 7.62x51 flash hider/|
@@ -29,16 +42,3 @@ ChildParts=[
 ]
 Recoil=0.000000
 Ergonomics=0.000000
-Information_Eng=A thread spacer for the RFB rifle, manufactured by Kel-Tec. It is required for installation of different muzzle devices.
-basePrice=2200
-width=1
-height=1
-Sell_Prapor=1100
-Sell_Fence=880
-Sell_Skier=1078
-Sell_Peacekeeper=8
-Sell_Mechanic=1232
-Sell_Flea Market=69420
-weight=0.091000
-fleaMarketFee=17825
-propertiestype=ItemPropertiesWeaponMod

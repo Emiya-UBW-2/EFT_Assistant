@@ -2,17 +2,6 @@ IDstr=5c0000c00db834001a6697fc
 Name=HK MP5 Navy Style 3-lug suppressor adapter
 ShortName=MP5 3Lug
 Itemtype=Comb. muzzle device
-ChildParts=[
-	HK MP5 B&T QD 9x19 muzzle brake/|
-	HK MP5 Noveske-style 9x19 muzzle brake-compensator/|
-	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
-	AAC Illusion 9 9x19 sound suppressor/|
-	Rotor 43 9x19 muzzle brake-compensator/|
-	SIG Sauer SRD9 9x19 sound suppressor/|
-	SilencerCo Osprey 9 9x19 sound suppressor
-]
-Recoil=0.000000
-Ergonomics=-1.000000
 Information_Eng=A 3-lug threaded adapter for installing various sound suppressors on the MP5 SMG. Manufactured by Heckler & Koch.
 basePrice=2970
 width=1
@@ -26,3 +15,14 @@ Sell_Flea Market=155555
 weight=0.091000
 fleaMarketFee=56226
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	HK MP5 B&T QD 9x19 muzzle brake/|
+	HK MP5 Noveske-style 9x19 muzzle brake-compensator/|
+	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
+	AAC Illusion 9 9x19 sound suppressor/|
+	Rotor 43 9x19 muzzle brake-compensator/|
+	SIG Sauer SRD9 9x19 sound suppressor/|
+	SilencerCo Osprey 9 9x19 sound suppressor
+]
+Recoil=0.000000
+Ergonomics=-1.000000

@@ -2,6 +2,25 @@ IDstr=5d00ede1d7ad1a0940739a76
 Name=AR-10 Noveske SWS N6 10.5 inch handguard
 ShortName=SWS N6 10.5"
 Itemtype=Handguard
+Information_Eng=The Noveske SWS N6 10.5 inch handguard is made with light but durable aircraft aluminum alloy. It comes equipped with 4 mounts for the installation of additional devices and accessories.
+basePrice=19200
+width=2
+height=1
+Sell_Prapor=9600
+Sell_Fence=7680
+Sell_Skier=9408
+Sell_Peacekeeper=73
+Sell_Mechanic=10752
+Sell_Flea Market=18000
+weight=0.502000
+fleaMarketFee=1112
+Conflict=[
+	AR-10 JP Enterprises Gas System-6/|
+	M4A1 front sight with gas block/|
+	AR-15 Windham Weaponry Rail Gas Block/|
+	AR-15 5.56x45 260mm barrel
+]
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	BCM GUNFIGHTER MOD 3 vertical foregrip/|
 	ASh-12 vertical foregrip/|
@@ -97,24 +116,5 @@ ChildParts=[
 	Wilcox RAPTAR ES Tactical Rangefinder/|
 	Zenit Perst-3 tactical device
 ]
-Conflict=[
-	AR-10 JP Enterprises Gas System-6/|
-	M4A1 front sight with gas block/|
-	AR-15 Windham Weaponry Rail Gas Block/|
-	AR-15 5.56x45 260mm barrel
-]
 Recoil=-1.000000
 Ergonomics=8.000000
-Information_Eng=The Noveske SWS N6 10.5 inch handguard is made with light but durable aircraft aluminum alloy. It comes equipped with 4 mounts for the installation of additional devices and accessories.
-basePrice=19200
-width=2
-height=1
-Sell_Prapor=9600
-Sell_Fence=7680
-Sell_Skier=9408
-Sell_Peacekeeper=73
-Sell_Mechanic=10752
-Sell_Flea Market=12222
-weight=0.502000
-fleaMarketFee=1011
-propertiestype=ItemPropertiesWeaponMod

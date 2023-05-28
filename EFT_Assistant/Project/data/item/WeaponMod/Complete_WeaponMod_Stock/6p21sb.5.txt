@@ -2,11 +2,6 @@ IDstr=5ab626e4d8ce87272e4c6e43
 Name=AKS-74 metal skeletonized stock (6P21 Sb.5)
 ShortName=6P21 Sb.5
 Itemtype=Stock
-ChildParts=[
-	AK GP-25 accessory kit recoil pad
-]
-Recoil=-30.000002
-Ergonomics=10.000000
 Information_Eng=A metal skeleton stock for AKS-74 automatic rifles, manufactured by IzhMash.
 basePrice=1559
 width=2
@@ -21,3 +16,8 @@ Sell_Flea Market=7777
 weight=0.264000
 fleaMarketFee=615
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	AK GP-25 accessory kit recoil pad
+]
+Recoil=-30.000002
+Ergonomics=10.000000

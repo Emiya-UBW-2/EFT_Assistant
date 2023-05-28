@@ -2,12 +2,6 @@ IDstr=59db7e1086f77448be30ddf3
 Name=Trijicon ACOG TA11D 3.5x35 scope
 ShortName=TA11D
 Itemtype=Assault scope
-SightRange=0
-ChildParts=[
-	Trijicon RMR mount for ACOG scopes
-]
-Recoil=0.000000
-Ergonomics=-2.000000
 Information_Eng=The ACOG 3.5x35 riflescope manufactured by Trijicon. Still remains a favorite among competitive shooters, law enforcement and freedom-loving civilians from everywhere around the world.
 basePrice=23476
 width=2
@@ -18,7 +12,13 @@ Sell_Skier=11503
 Sell_Peacekeeper=89
 Sell_Mechanic=13146
 Sell_Jaeger=14085
-Sell_Flea Market=20000
+Sell_Flea Market=19999
 weight=0.396000
 fleaMarketFee=1306
 propertiestype=ItemPropertiesScope
+SightRange=0
+ChildParts=[
+	Trijicon RMR mount for ACOG scopes
+]
+Recoil=0.000000
+Ergonomics=-2.000000

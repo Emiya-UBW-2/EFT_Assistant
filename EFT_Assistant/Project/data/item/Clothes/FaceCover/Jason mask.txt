@@ -2,14 +2,6 @@ IDstr=5bd071d786f7747e707b93a3
 Name=Jason mask
 ShortName=Mask
 Itemtype=Face Cover
-Conflict=[
-	Army cap/|
-	Baseball cap/|
-	BEAR baseball cap (Green)/|
-	USEC baseball cap (Tan)/|
-	EMERCOM cap/|
-	Police cap
-]
 Information_Eng=A scary mask from some famous horror movie.
 basePrice=15000
 width=2
@@ -18,7 +10,15 @@ Sell_Fence=6000
 Sell_Skier=7350
 Sell_Peacekeeper=57
 Sell_Ragman=9300
-Sell_Flea Market=11000
+Sell_Flea Market=16666
 weight=0.100000
-fleaMarketFee=801
+fleaMarketFee=948
+Conflict=[
+	Army cap/|
+	Baseball cap/|
+	BEAR baseball cap (Green)/|
+	USEC baseball cap (Tan)/|
+	EMERCOM cap/|
+	Police cap
+]
 propertiestype=

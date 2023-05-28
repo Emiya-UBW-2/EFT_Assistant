@@ -2,13 +2,6 @@ IDstr=5e00cdd986f7747473332240
 Name=Team Wendy EXFIL Ballistic face shield (Black)
 ShortName=EXFIL FS
 Itemtype=Armored equipment
-Conflict=[
-	PNV-10T Night Vision Goggles/|
-	Armasight N-15 Night Vision Goggles/|
-	GPNVG-18 Night Vision goggles/|
-	AN/PVS-14 Night Vision Monocular/|
-	T-7 Thermal Goggles with a Night Vision mount
-]
 Information_Eng=A low-profile lightweight bulletproof glass faceplate that quickly and tool-free attaches to the front of the Team Wendy EXFIL helmet. Black version.
 basePrice=31500
 width=2
@@ -19,4 +12,11 @@ Sell_Peacekeeper=119
 Sell_Ragman=19530
 weight=0.800000
 fleaMarketFee=0
+Conflict=[
+	PNV-10T Night Vision Goggles/|
+	Armasight N-15 Night Vision Goggles/|
+	GPNVG-18 Night Vision goggles/|
+	AN/PVS-14 Night Vision Monocular/|
+	T-7 Thermal Goggles with a Night Vision mount
+]
 propertiestype=ItemPropertiesArmorAttachment

@@ -2,6 +2,19 @@ IDstr=5c617a5f2e2216000f1e81b3
 Name=AK Zenit B-10 Handguard
 ShortName=B-10
 Itemtype=Handguard
+Information_Eng=The integrally machined B-10 foregrip is manufactured from aluminum alloy D16T with black coating and can be installed instead of the standard-issue foregrip on an AK. It's fitted with Picatinny rail mounts on two sides, allowing for the installation of additional equipment such as tactical foregrips, flashlights, and laser designators. Manufactured by Zenit.
+basePrice=5194
+width=1
+height=1
+Sell_Prapor=2597
+Sell_Fence=2077
+Sell_Skier=2545
+Sell_Peacekeeper=20
+Sell_Mechanic=2908
+Sell_Flea Market=25420
+weight=0.150000
+fleaMarketFee=1989
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	BCM GUNFIGHTER MOD 3 vertical foregrip/|
 	ASh-12 vertical foregrip/|
@@ -54,16 +67,3 @@ ChildParts=[
 ]
 Recoil=-1.000000
 Ergonomics=3.000000
-Information_Eng=The integrally machined B-10 foregrip is manufactured from aluminum alloy D16T with black coating and can be installed instead of the standard-issue foregrip on an AK. It's fitted with Picatinny rail mounts on two sides, allowing for the installation of additional equipment such as tactical foregrips, flashlights, and laser designators. Manufactured by Zenit.
-basePrice=5194
-width=1
-height=1
-Sell_Prapor=2597
-Sell_Fence=2077
-Sell_Skier=2545
-Sell_Peacekeeper=20
-Sell_Mechanic=2908
-Sell_Flea Market=25555
-weight=0.150000
-fleaMarketFee=2006
-propertiestype=ItemPropertiesWeaponMod

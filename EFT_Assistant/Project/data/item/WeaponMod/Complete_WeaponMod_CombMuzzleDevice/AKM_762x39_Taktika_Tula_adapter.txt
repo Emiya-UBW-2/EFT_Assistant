@@ -2,6 +2,19 @@ IDstr=5a0abb6e1526d8000a025282
 Name=AK 7.62x39 Taktika Tula muzzle adapter
 ShortName=TT AK
 Itemtype=Comb. muzzle device
+Information_Eng=The Taktika Tula muzzle device adapter. Provides the means of installing modern muzzle devices on AK and AKM.
+basePrice=615
+width=1
+height=1
+Sell_Prapor=307
+Sell_Fence=246
+Sell_Skier=301
+Sell_Peacekeeper=2
+Sell_Mechanic=344
+Sell_Flea Market=5555
+weight=0.100000
+fleaMarketFee=629
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AK-103 7.62x39 muzzle brake-compensator/|
 	AK-104 7.62x39 muzzle brake-compensator (6P46 0-20)/|
@@ -13,16 +26,3 @@ ChildParts=[
 ]
 Recoil=0.000000
 Ergonomics=0.000000
-Information_Eng=The Taktika Tula muzzle device adapter. Provides the means of installing modern muzzle devices on AK and AKM.
-basePrice=615
-width=1
-height=1
-Sell_Prapor=307
-Sell_Fence=246
-Sell_Skier=301
-Sell_Peacekeeper=2
-Sell_Mechanic=344
-Sell_Flea Market=4888
-weight=0.100000
-fleaMarketFee=511
-propertiestype=ItemPropertiesWeaponMod

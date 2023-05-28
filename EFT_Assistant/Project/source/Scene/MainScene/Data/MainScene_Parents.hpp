@@ -167,6 +167,38 @@ namespace FPS_n2 {
 		auto&			SetList(void) noexcept { return this->m_List; }
 	};
 
+	//
+	template <class ID, class List>
+	class IDParents {
+		std::string								m_Name;
+		ID										m_ID{ InvalidID };
+	public:
+		const auto& GetName() const noexcept { return m_Name; }
+		const auto& GetID() const noexcept { return m_ID; }
+	public:
+		void		SetName(std::string_view value) noexcept { m_Name = value; }
+		void		SetID(ID value) noexcept { m_ID = value; }
+	public:
+		void		CheckID(const std::vector<List>& taskList, bool DrawErrorLog=true) noexcept {
+			bool isHit = false;
+			for (const auto& t : taskList) {
+				if (m_Name == t.GetName()) {
+					m_ID = t.GetID();
+					isHit = true;
+					break;
+				}
+			}
+			if (!DrawErrorLog) { return; }
+			if (!isHit) {
+				std::string ErrMes = "Error : Invalid ID by CheckID";
+				ErrMes += "[";
+				ErrMes += m_Name;
+				ErrMes += "]";
+				DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+			}
+		}
+	};
+
 	//ŠY“–ID‚Ìƒf[ƒ^‚Ì”’lŠi”[
 	template <class ID>
 	class GetDataParent {

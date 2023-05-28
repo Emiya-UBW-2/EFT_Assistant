@@ -2,15 +2,6 @@ IDstr=56083a334bdc2dc8488b4571
 Name=MP-133/153 plastic pistol grip
 ShortName=133/153
 Itemtype=Stock
-ChildParts=[
-	BelOMO PK-06 reflex sight/|
-	Aimpoint Micro Standard Mount/|
-	Burris FastFire Weaver Base/|
-	DeltaPoint Cross Slot Mount base/|
-	Trijicon RMR low profile mount
-]
-Recoil=-9.000000
-Ergonomics=11.000000
 Information_Eng=A plastic pistol grip for MP-133 and MP-153 shotguns to replace the standard stock, manufactured by Izhmekh.
 basePrice=6510
 width=1
@@ -25,3 +16,12 @@ Sell_Flea Market=10000
 weight=0.100000
 fleaMarketFee=527
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	BelOMO PK-06 reflex sight/|
+	Aimpoint Micro Standard Mount/|
+	Burris FastFire Weaver Base/|
+	DeltaPoint Cross Slot Mount base/|
+	Trijicon RMR low profile mount
+]
+Recoil=-9.000000
+Ergonomics=11.000000

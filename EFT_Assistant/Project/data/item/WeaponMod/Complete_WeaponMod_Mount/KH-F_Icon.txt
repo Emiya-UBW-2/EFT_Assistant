@@ -2,13 +2,6 @@ IDstr=5c86592b2e2216000e69e77c
 Name=IEA Mil-Optics KH/F 34mm one-piece magmount
 ShortName=KH/F 34mm
 Itemtype=Mount
-ChildParts=[
-	Hensoldt FF 4-16x56 34mm riflescope/|
-	Nightforce ATACR 7-35x56 34mm riflescope/|
-	Schmidt & Bender PM II 3-12x50 34mm riflescope
-]
-Recoil=0.000000
-Ergonomics=-1.000000
 Information_Eng=IEA Mil-Optics KH/F is a universal 34mm scope base mount for installation on Picatinny rails, allows installation of various optics.
 basePrice=8500
 width=2
@@ -19,7 +12,14 @@ Sell_Skier=4165
 Sell_Peacekeeper=32
 Sell_Mechanic=4760
 Sell_Jaeger=5100
-Sell_Flea Market=19999
+Sell_Flea Market=28420
 weight=0.199000
-fleaMarketFee=1118
+fleaMarketFee=1823
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Hensoldt FF 4-16x56 34mm riflescope/|
+	Nightforce ATACR 7-35x56 34mm riflescope/|
+	Schmidt & Bender PM II 3-12x50 34mm riflescope
+]
+Recoil=0.000000
+Ergonomics=-1.000000

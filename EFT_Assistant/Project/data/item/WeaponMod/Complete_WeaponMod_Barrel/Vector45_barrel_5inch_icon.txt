@@ -2,13 +2,6 @@ IDstr=5fb65363d1409e5ca04b54f5
 Name=KRISS Vector .45 ACP 5 inch barrel
 ShortName=Vector .45 5"
 Itemtype=Barrel
-ChildParts=[
-	KRISS Vector .45 ACP flash hider/|
-	SilencerCo Omega 45k Direct Thread Mount adapter/|
-	KRISS Vector .45 ACP thread protection cap
-]
-Recoil=-3.000000
-Ergonomics=0.000000
 Information_Eng=A 5 inch (140mm) barrel for the KRISS Vector .45 ACP submachine gun.
 basePrice=8900
 width=2
@@ -19,7 +12,14 @@ Sell_Skier=4361
 Sell_Peacekeeper=34
 Sell_Mechanic=4984
 Sell_Jaeger=5340
-Sell_Flea Market=9999
+Sell_Flea Market=55555
 weight=0.170000
-fleaMarketFee=566
+fleaMarketFee=5009
 propertiestype=ItemPropertiesBarrel
+ChildParts=[
+	KRISS Vector .45 ACP flash hider/|
+	SilencerCo Omega 45k Direct Thread Mount adapter/|
+	KRISS Vector .45 ACP thread protection cap
+]
+Recoil=-3.000000
+Ergonomics=0.000000

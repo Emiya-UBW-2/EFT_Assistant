@@ -2,11 +2,6 @@ IDstr=61faa91878830f069b6b7967
 Name=SV-98 wooden stock
 ShortName=SV98 wood
 Itemtype=Stock
-ChildParts=[
-	SV-98 bipod
-]
-Recoil=-28.000000
-Ergonomics=6.000000
 Information_Eng=A standard-issue wooden stock for the SV-98, manufactured by Izhmash.
 basePrice=3780
 width=4
@@ -21,3 +16,8 @@ Sell_Flea Market=4000
 weight=2.913000
 fleaMarketFee=233
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	SV-98 bipod
+]
+Recoil=-28.000000
+Ergonomics=6.000000

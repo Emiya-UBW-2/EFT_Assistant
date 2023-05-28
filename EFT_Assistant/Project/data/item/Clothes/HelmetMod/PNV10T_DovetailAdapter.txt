@@ -2,11 +2,6 @@ IDstr=5c0695860db834001b735461
 Name=PNV-10T dovetail adapter
 ShortName=10T adpt
 Itemtype=Mount
-ChildParts=[
-	PNV-10T Night Vision Goggles
-]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=The most common problem for owners of PNV-10T is its installation on modern helmets and suspension systems. The problem is solved by a simple adapter made of metal produced by many "workshops".
 basePrice=2310
 width=1
@@ -21,3 +16,8 @@ Sell_Flea Market=75000
 weight=0.080000
 fleaMarketFee=19630
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	PNV-10T Night Vision Goggles
+]
+Recoil=0.000000
+Ergonomics=0.000000

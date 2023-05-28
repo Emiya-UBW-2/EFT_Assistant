@@ -2,12 +2,6 @@ IDstr=5926e16e86f7742f5a0f7ecb
 Name=HK MP5 3-lug thread protector
 ShortName=MP5 3Lug
 Itemtype=Comb. muzzle device
-ChildParts=[
-	HK MP5 B&T QD 9x19 muzzle brake/|
-	HK MP5 Noveske-style 9x19 muzzle brake-compensator
-]
-Recoil=0.000000
-Ergonomics=1.000000
 Information_Eng=A thread protector for MP5 barrels with three lugs for installation of sound suppressors. Manufactured by Heckler & Koch.
 basePrice=2766
 width=1
@@ -21,3 +15,9 @@ Sell_Flea Market=10000
 weight=0.080000
 fleaMarketFee=666
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	HK MP5 B&T QD 9x19 muzzle brake/|
+	HK MP5 Noveske-style 9x19 muzzle brake-compensator
+]
+Recoil=0.000000
+Ergonomics=1.000000

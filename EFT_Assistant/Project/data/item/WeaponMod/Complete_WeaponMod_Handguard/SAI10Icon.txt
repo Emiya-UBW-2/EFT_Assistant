@@ -2,6 +2,28 @@ IDstr=5c78f2612e221600114c9f0d
 Name=AR-15 SAI 10 inch QD Rail handguard
 ShortName=SAI QD 10"
 Itemtype=Handguard
+Information_Eng=The Salient Arms International QD Rail handguard for AR-15 equipped with an M-LOK interface for the installation of additional devices and accessories.
+basePrice=44900
+width=2
+height=1
+Sell_Prapor=22450
+Sell_Fence=17960
+Sell_Skier=22001
+Sell_Peacekeeper=170
+Sell_Mechanic=25144
+Sell_Flea Market=66420
+weight=0.305000
+fleaMarketFee=3509
+Conflict=[
+	AR-10 JP Enterprises Gas System-6/|
+	M4A1 front sight with gas block/|
+	AR-15 Windham Weaponry Rail Gas Block/|
+	AR-15 5.56x45 370mm barrel/|
+	AR-15 5.56x45 18 inch barrel/|
+	AR-15 5.56x45 20 inch barrel/|
+	AR-15 5.56x45 Molot Arms 406mm barrel
+]
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount
@@ -105,27 +127,5 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight
 ]
-Conflict=[
-	AR-10 JP Enterprises Gas System-6/|
-	M4A1 front sight with gas block/|
-	AR-15 Windham Weaponry Rail Gas Block/|
-	AR-15 5.56x45 370mm barrel/|
-	AR-15 5.56x45 18 inch barrel/|
-	AR-15 5.56x45 20 inch barrel/|
-	AR-15 5.56x45 Molot Arms 406mm barrel
-]
 Recoil=-3.000000
 Ergonomics=10.000000
-Information_Eng=The Salient Arms International QD Rail handguard for AR-15 equipped with an M-LOK interface for the installation of additional devices and accessories.
-basePrice=44900
-width=2
-height=1
-Sell_Prapor=22450
-Sell_Fence=17960
-Sell_Skier=22001
-Sell_Peacekeeper=170
-Sell_Mechanic=25144
-Sell_Flea Market=44500
-weight=0.305000
-fleaMarketFee=2679
-propertiestype=ItemPropertiesWeaponMod

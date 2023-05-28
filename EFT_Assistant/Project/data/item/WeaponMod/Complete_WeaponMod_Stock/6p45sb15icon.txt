@@ -2,11 +2,6 @@ IDstr=5ac50c185acfc400163398d4
 Name=AK-74M polymer stock (6P34 Sb.15)
 ShortName=6P34 Sb.15
 Itemtype=Stock
-ChildParts=[
-	AK GP-25 accessory kit recoil pad
-]
-Recoil=-32.000000
-Ergonomics=5.000000
 Information_Eng=A polymer stock for AK-74M automatic rifles, manufactured by Izhmash.
 basePrice=1626
 width=2
@@ -21,3 +16,8 @@ Sell_Flea Market=1772
 weight=0.350000
 fleaMarketFee=102
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	AK GP-25 accessory kit recoil pad
+]
+Recoil=-32.000000
+Ergonomics=5.000000

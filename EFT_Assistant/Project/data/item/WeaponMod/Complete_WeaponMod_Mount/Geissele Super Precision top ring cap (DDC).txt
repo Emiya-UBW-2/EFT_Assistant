@@ -2,11 +2,6 @@ IDstr=618ba91477b82356f91ae0e8
 Name=Geissele Super Precision top ring cap (DDC)
 ShortName=Geis top
 Itemtype=Mount
-Conflict=[
-	AR-15 rear sight carry handle
-]
-Recoil=0.000000
-Ergonomics=0.500000
 Information_Eng=A regular top ring cap for the Geissele Super Precision mounts. Desert Dirt Color version.
 basePrice=1700
 width=1
@@ -17,7 +12,12 @@ Sell_Skier=833
 Sell_Peacekeeper=6
 Sell_Mechanic=952
 Sell_Jaeger=1020
-Sell_Flea Market=19000
+Sell_Flea Market=22222
 weight=0.020000
-fleaMarketFee=2463
+fleaMarketFee=3187
+Conflict=[
+	AR-15 rear sight carry handle
+]
 propertiestype=ItemPropertiesWeaponMod
+Recoil=0.000000
+Ergonomics=0.500000

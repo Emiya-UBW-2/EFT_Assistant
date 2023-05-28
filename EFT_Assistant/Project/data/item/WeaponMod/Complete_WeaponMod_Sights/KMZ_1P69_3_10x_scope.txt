@@ -2,10 +2,19 @@ IDstr=5d0a3e8cd7ad1a6f6a3d35bd
 Name=KMZ 1P69 3-10x riflescope
 ShortName=1P69
 Itemtype=Scope
-SightRange=0
-ChildParts=[
-	KMZ 1P59 scope eyecup
-]
+Information_Eng=The 1P69 "Giperon" pancratic sight is a further development of the "Giperon" sights and is intended for installation on the SV-98 sniper rifle in order to increase the effectiveness on the battlefield. The sight has a flexible adjustment multiples, as well as a fairly accurate range finder, facilitating the operation of combining, measuring the distance to the target and entering the aiming angles.
+basePrice=25200
+width=2
+height=1
+Sell_Prapor=12600
+Sell_Fence=10080
+Sell_Skier=12348
+Sell_Peacekeeper=95
+Sell_Mechanic=14112
+Sell_Jaeger=15120
+Sell_Flea Market=15555
+weight=0.940000
+fleaMarketFee=1326
 Conflict=[
 	Axion Kobra EKP-8-18 reflex sight/|
 	OKP-7 reflex sight/|
@@ -24,19 +33,10 @@ Conflict=[
 	Aimpoint CompM4 reflex sight/|
 	Aimpoint LRP mount for CompM4 sights
 ]
+propertiestype=ItemPropertiesScope
+SightRange=0
+ChildParts=[
+	KMZ 1P59 scope eyecup
+]
 Recoil=0.000000
 Ergonomics=-8.000000
-Information_Eng=The 1P69 "Giperon" pancratic sight is a further development of the "Giperon" sights and is intended for installation on the SV-98 sniper rifle in order to increase the effectiveness on the battlefield. The sight has a flexible adjustment multiples, as well as a fairly accurate range finder, facilitating the operation of combining, measuring the distance to the target and entering the aiming angles.
-basePrice=25200
-width=2
-height=1
-Sell_Prapor=12600
-Sell_Fence=10080
-Sell_Skier=12348
-Sell_Peacekeeper=95
-Sell_Mechanic=14112
-Sell_Jaeger=15120
-Sell_Flea Market=16750
-weight=0.940000
-fleaMarketFee=1329
-propertiestype=ItemPropertiesScope

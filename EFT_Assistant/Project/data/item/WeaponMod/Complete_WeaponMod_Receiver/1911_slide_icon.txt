@@ -2,17 +2,6 @@ IDstr=5e81edc13397a21db957f6a1
 Name=M1911A1 .45 ACP pistol slide
 ShortName=1911 slide
 Itemtype=Receiver
-ChildParts=[
-	M1911A1 rear sight
-]
-ChildParts=[
-	M1911A1 front sight
-]
-ChildParts=[
-	M1911 Anarchy Outdoors .45 ACP muzzle brake
-]
-Recoil=0.000000
-Ergonomics=3.000000
 Information_Eng=A standard-issue slide for the M1911A1 pistol, manufactured by Colt.
 basePrice=3109
 width=2
@@ -26,3 +15,14 @@ Sell_Flea Market=151111
 weight=0.410000
 fleaMarketFee=51921
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	M1911A1 rear sight
+]
+ChildParts=[
+	M1911A1 front sight
+]
+ChildParts=[
+	M1911 Anarchy Outdoors .45 ACP muzzle brake
+]
+Recoil=0.000000
+Ergonomics=3.000000

@@ -2,6 +2,19 @@ IDstr=5894a5b586f77426d2590767
 Name=MPX GEN1 9x19 upper receiver
 ShortName=MPX GEN1
 Itemtype=Receiver
+Information_Eng=A 1st generation upper receiver for the SIG MPX submachine gun, manufactured by SIG Sauer. Features a mount for attaching additional equipment.
+basePrice=3509
+width=2
+height=1
+Sell_Prapor=1754
+Sell_Fence=1403
+Sell_Skier=1719
+Sell_Peacekeeper=13
+Sell_Mechanic=1965
+Sell_Flea Market=4990
+weight=0.488000
+fleaMarketFee=265
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
 	ELCAN SpecterDR 1x/4x scope (FDE)/|
@@ -97,16 +110,3 @@ ChildParts=[
 ]
 Recoil=0.000000
 Ergonomics=5.000000
-Information_Eng=A 1st generation upper receiver for the SIG MPX submachine gun, manufactured by SIG Sauer. Features a mount for attaching additional equipment.
-basePrice=3509
-width=2
-height=1
-Sell_Prapor=1754
-Sell_Fence=1403
-Sell_Skier=1719
-Sell_Peacekeeper=13
-Sell_Mechanic=1965
-Sell_Flea Market=4990
-weight=0.488000
-fleaMarketFee=265
-propertiestype=ItemPropertiesWeaponMod

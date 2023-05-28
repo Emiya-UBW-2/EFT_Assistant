@@ -2,7 +2,18 @@ IDstr=618a5d5852ecee1505530b2a
 Name=NPZ PK1 "Obzor" reflex sight
 ShortName="Obzor"
 Itemtype=Reflex sight
-SightRange=0
+Information_Eng=A reflex sight designed for hunters for fast acquisition of the target while operating in highly cold temperatures, installed on dovetail rails. Manufactured by NPZ.
+basePrice=7000
+width=1
+height=1
+Sell_Prapor=3500
+Sell_Fence=2800
+Sell_Skier=3430
+Sell_Peacekeeper=26
+Sell_Mechanic=3920
+Sell_Flea Market=9999
+weight=0.520000
+fleaMarketFee=530
 Conflict=[
 	BelOMO PSO-1 4x24 scope/|
 	BelOMO PSO-1M2-1 4x24 scope/|
@@ -16,18 +27,7 @@ Conflict=[
 	SVD SAG MK1 chassis/|
 	AKS-74U CAA XRSU47SU tactical handguard
 ]
+propertiestype=ItemPropertiesScope
+SightRange=0
 Recoil=0.000000
 Ergonomics=-3.000000
-Information_Eng=A reflex sight designed for hunters for fast acquisition of the target while operating in highly cold temperatures, installed on dovetail rails. Manufactured by NPZ.
-basePrice=7000
-width=1
-height=1
-Sell_Prapor=3500
-Sell_Fence=2800
-Sell_Skier=3430
-Sell_Peacekeeper=26
-Sell_Mechanic=3920
-Sell_Flea Market=10000
-weight=0.520000
-fleaMarketFee=530
-propertiestype=ItemPropertiesScope

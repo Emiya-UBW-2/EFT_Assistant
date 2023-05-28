@@ -2,6 +2,19 @@ IDstr=5648ae314bdc2d3d1c8b457f
 Name=AK CAA RS47 handguard
 ShortName=RS47
 Itemtype=Handguard
+Information_Eng=The RS47 lightweight polymer handguard, fits the majority of rifles and carbines built on the base of AK-family rifles. Equipped with two short and two long rail mounts for installing additional devices. Manufactured by Command Arms.
+basePrice=10638
+width=1
+height=1
+Sell_Prapor=5319
+Sell_Fence=4255
+Sell_Skier=5212
+Sell_Peacekeeper=40
+Sell_Mechanic=5957
+Sell_Flea Market=13333
+weight=0.220000
+fleaMarketFee=726
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	BCM GUNFIGHTER MOD 3 vertical foregrip/|
 	ASh-12 vertical foregrip/|
@@ -111,16 +124,3 @@ ChildParts=[
 ]
 Recoil=-2.000000
 Ergonomics=7.000000
-Information_Eng=The RS47 lightweight polymer handguard, fits the majority of rifles and carbines built on the base of AK-family rifles. Equipped with two short and two long rail mounts for installing additional devices. Manufactured by Command Arms.
-basePrice=10638
-width=1
-height=1
-Sell_Prapor=5319
-Sell_Fence=4255
-Sell_Skier=5212
-Sell_Peacekeeper=40
-Sell_Mechanic=5957
-Sell_Flea Market=14000
-weight=0.220000
-fleaMarketFee=753
-propertiestype=ItemPropertiesWeaponMod

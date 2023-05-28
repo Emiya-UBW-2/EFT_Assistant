@@ -2,6 +2,18 @@ IDstr=5a7dbfc1159bd40016548fde
 Name=Hera Arms CQR tactical foregrip
 ShortName=CQR
 Itemtype=Foregrip
+Information_Eng=The CQR front grip is an easy to install, lightweight, and compact frontgrip, manufactured by Hera Arms. In combination with the CQR Buttstock, operators will get a lightweight and ergonomic SBR system.
+basePrice=20961
+width=1
+height=1
+Sell_Prapor=10480
+Sell_Fence=8384
+Sell_Skier=10270
+Sell_Peacekeeper=79
+Sell_Mechanic=11738
+Sell_Flea Market=39999
+weight=0.167000
+fleaMarketFee=2131
 Conflict=[
 	AK Krebs Custom UFM KeyMod handguard/|
 	AK Strike Industries TRAX 1 handguard/|
@@ -34,18 +46,6 @@ Conflict=[
 	Saiga-9 9x19 carbine/|
 	Remington Model 700 7.62x51 bolt-action sniper rifle
 ]
+propertiestype=ItemPropertiesWeaponMod
 Recoil=-3.000000
 Ergonomics=4.000000
-Information_Eng=The CQR front grip is an easy to install, lightweight, and compact frontgrip, manufactured by Hera Arms. In combination with the CQR Buttstock, operators will get a lightweight and ergonomic SBR system.
-basePrice=20961
-width=1
-height=1
-Sell_Prapor=10480
-Sell_Fence=8384
-Sell_Skier=10270
-Sell_Peacekeeper=79
-Sell_Mechanic=11738
-Sell_Flea Market=35250
-weight=0.167000
-fleaMarketFee=1856
-propertiestype=ItemPropertiesWeaponMod

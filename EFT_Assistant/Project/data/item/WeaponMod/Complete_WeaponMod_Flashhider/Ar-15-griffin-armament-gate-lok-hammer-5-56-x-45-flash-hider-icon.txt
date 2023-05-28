@@ -2,11 +2,6 @@ IDstr=6386120cd6baa055ad1e201c
 Name=AR-15 Griffin Armament Gate-LOK Hammer 5.56x45 flash hider
 ShortName=G-LOK
 Itemtype=Flashhider
-ChildParts=[
-	AR-15 Griffin Armament M4SD-K 5.56x45 sound suppressor
-]
-Recoil=-8.500000
-Ergonomics=-1.000000
 Information_Eng=The Gate-LOK Hammer reduces recoil and ensures the maximum service life of the suppressor. Manufactured by Griffin Armament.
 basePrice=7700
 width=1
@@ -16,7 +11,12 @@ Sell_Fence=3080
 Sell_Skier=3773
 Sell_Peacekeeper=29
 Sell_Mechanic=4312
-Sell_Flea Market=17000
+Sell_Flea Market=10205
 weight=0.068000
-fleaMarketFee=934
+fleaMarketFee=548
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	AR-15 Griffin Armament M4SD-K 5.56x45 sound suppressor
+]
+Recoil=-8.500000
+Ergonomics=-1.000000

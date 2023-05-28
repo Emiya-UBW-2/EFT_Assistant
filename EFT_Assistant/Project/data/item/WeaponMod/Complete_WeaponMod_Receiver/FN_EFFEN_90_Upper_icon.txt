@@ -2,6 +2,19 @@ IDstr=5cc700ede4a949033c734315
 Name=FN P90 EFFEN 90 5.7x28 upper receiver
 ShortName=EFFEN 90
 Itemtype=Receiver
+Information_Eng=EFFEN 90 is a low-profile upper receiver for the P90 submachine gun, manufactured by Fabrique Nationale Herstal.
+basePrice=3800
+width=2
+height=1
+Sell_Prapor=1900
+Sell_Fence=1520
+Sell_Skier=1862
+Sell_Peacekeeper=14
+Sell_Mechanic=2128
+Sell_Flea Market=23000
+weight=0.250000
+fleaMarketFee=2036
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	FN P90 EFFEN 90 receiver rail
 ]
@@ -55,16 +68,3 @@ ChildParts=[
 ]
 Recoil=0.000000
 Ergonomics=-1.000000
-Information_Eng=EFFEN 90 is a low-profile upper receiver for the P90 submachine gun, manufactured by Fabrique Nationale Herstal.
-basePrice=3800
-width=2
-height=1
-Sell_Prapor=1900
-Sell_Fence=1520
-Sell_Skier=1862
-Sell_Peacekeeper=14
-Sell_Mechanic=2128
-Sell_Flea Market=25420
-weight=0.250000
-fleaMarketFee=2390
-propertiestype=ItemPropertiesWeaponMod

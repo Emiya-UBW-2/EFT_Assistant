@@ -2,6 +2,19 @@ IDstr=55d459824bdc2d892f8b4573
 Name=AR-15 KAC RIS handguard
 ShortName=KAC RIS
 Itemtype=Handguard
+Information_Eng=Knight's Armament Company RIS is a standard service handguard for the M4A1 carbines, but it can be installed on most AR-15 based weapons, provided that the barrel is the right length. It comes equipped with 4 mounts for the installation of a heat shield and additional accessories.
+basePrice=4745
+width=2
+height=1
+Sell_Prapor=2372
+Sell_Fence=1898
+Sell_Skier=2325
+Sell_Peacekeeper=18
+Sell_Mechanic=2657
+Sell_Flea Market=13500
+weight=0.226000
+fleaMarketFee=807
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Holosun LS321 Tactical device/|
 	AN/PEQ-15 tactical device/|
@@ -51,16 +64,3 @@ ChildParts=[
 ]
 Recoil=0.000000
 Ergonomics=1.000000
-Information_Eng=Knight's Armament Company RIS is a standard service handguard for the M4A1 carbines, but it can be installed on most AR-15 based weapons, provided that the barrel is the right length. It comes equipped with 4 mounts for the installation of a heat shield and additional accessories.
-basePrice=4745
-width=2
-height=1
-Sell_Prapor=2372
-Sell_Fence=1898
-Sell_Skier=2325
-Sell_Peacekeeper=18
-Sell_Mechanic=2657
-Sell_Flea Market=13500
-weight=0.226000
-fleaMarketFee=807
-propertiestype=ItemPropertiesWeaponMod

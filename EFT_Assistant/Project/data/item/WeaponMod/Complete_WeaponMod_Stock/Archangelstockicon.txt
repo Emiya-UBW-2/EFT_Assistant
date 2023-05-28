@@ -2,6 +2,23 @@ IDstr=5addbf175acfc408fb13965b
 Name=M1A ProMag Archangel chassis
 ShortName=Archangel M1A
 Itemtype=Stock
+Information_Eng=The Archangel polymer chassis for M1A rifles, manufactured by ProMag.
+basePrice=24862
+width=3
+height=1
+Sell_Prapor=12431
+Sell_Fence=9944
+Sell_Skier=12182
+Sell_Peacekeeper=94
+Sell_Mechanic=13922
+Sell_Jaeger=14917
+Sell_Flea Market=26420
+weight=1.900000
+fleaMarketFee=1534
+Conflict=[
+	M14 7.62x51 X Products X-14 50-round drum magazine
+]
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	M14 Amega Mini Scout Mount system/|
 	M14 UltiMAK M8 Forward Optic mount/|
@@ -26,22 +43,5 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight
 ]
-Conflict=[
-	M14 7.62x51 X Products X-14 50-round drum magazine
-]
 Recoil=-38.000000
 Ergonomics=32.000000
-Information_Eng=The Archangel polymer chassis for M1A rifles, manufactured by ProMag.
-basePrice=24862
-width=3
-height=1
-Sell_Prapor=12431
-Sell_Fence=9944
-Sell_Skier=12182
-Sell_Peacekeeper=94
-Sell_Mechanic=13922
-Sell_Jaeger=14917
-Sell_Flea Market=25000
-weight=1.900000
-fleaMarketFee=1495
-propertiestype=ItemPropertiesWeaponMod

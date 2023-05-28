@@ -2,11 +2,6 @@ IDstr=626667e87379c44d557b7550
 Name=KAC QDC 5.56x45 3-Prong Flash Eliminator
 ShortName=QDC-3 556
 Itemtype=Flashhider
-ChildParts=[
-	KAC QDC 5.56x45 sound suppressor
-]
-Recoil=-6.000000
-Ergonomics=-2.000000
 Information_Eng=Knight's Armament QDC 3-Prong 5.56x45 flash hider is an effective flash suppressor that also serves as a platform for attaching KAC QDC 556 sound suppressor. Can be Installed on AR-15 weapon systems.
 basePrice=7100
 width=1
@@ -16,7 +11,12 @@ Sell_Fence=2840
 Sell_Skier=3479
 Sell_Peacekeeper=27
 Sell_Mechanic=3976
-Sell_Flea Market=18500
+Sell_Flea Market=30000
 weight=0.065000
-fleaMarketFee=1070
+fleaMarketFee=2165
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	KAC QDC 5.56x45 sound suppressor
+]
+Recoil=-6.000000
+Ergonomics=-2.000000

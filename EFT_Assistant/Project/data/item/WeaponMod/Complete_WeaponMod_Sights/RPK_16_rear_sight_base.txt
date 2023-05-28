@@ -2,18 +2,6 @@ IDstr=5beec9450db83400970084fd
 Name=RPK-16 rear sight base
 ShortName=RPK16 RS base
 Itemtype=Ironsight
-SightRange=0
-ChildParts=[
-	AK-105 rear sight (6P44 Sb.1-30)/|
-	AK-74 rear sight (6P20 Sb.2)/|
-	AK-74M rear sight (6P20 Sb.2)/|
-	RPK-16 rear sight
-]
-Conflict=[
-	Nightforce Magmount 30mm ring scope mount
-]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=A detachable base for the Izhmash-manufactured rear sight for the RPK-16 LMG.
 basePrice=800
 width=1
@@ -26,4 +14,16 @@ Sell_Mechanic=448
 Sell_Flea Market=500
 weight=0.050000
 fleaMarketFee=42
+Conflict=[
+	Nightforce Magmount 30mm ring scope mount
+]
 propertiestype=ItemPropertiesScope
+SightRange=0
+ChildParts=[
+	AK-105 rear sight (6P44 Sb.1-30)/|
+	AK-74 rear sight (6P20 Sb.2)/|
+	AK-74M rear sight (6P20 Sb.2)/|
+	RPK-16 rear sight
+]
+Recoil=0.000000
+Ergonomics=0.000000

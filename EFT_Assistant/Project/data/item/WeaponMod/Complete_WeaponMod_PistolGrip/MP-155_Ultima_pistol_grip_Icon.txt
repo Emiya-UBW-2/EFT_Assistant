@@ -2,16 +2,6 @@ IDstr=606eef46232e5a31c233d500
 Name=MP-155 Ultima pistol grip
 ShortName=Ultima
 Itemtype=Pistol grip
-ChildParts=[
-	MP-155 Ultima pistol grip rubber pad/|
-	MP-155 Ultima polymer stock
-]
-Conflict=[
-	Kiba Arms SPRM rail mount for pump-action shotguns/|
-	MP-155 walnut forestock
-]
-Recoil=0.000000
-Ergonomics=9.000000
 Information_Eng=The "Ultima" modification pistol grip for the MP-155 shotgun. Manufactured by Kalashnikov Group.
 basePrice=2608
 width=2
@@ -24,4 +14,14 @@ Sell_Mechanic=1460
 Sell_Flea Market=100000
 weight=0.130000
 fleaMarketFee=29272
+Conflict=[
+	Kiba Arms SPRM rail mount for pump-action shotguns/|
+	MP-155 walnut forestock
+]
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	MP-155 Ultima pistol grip rubber pad/|
+	MP-155 Ultima polymer stock
+]
+Recoil=0.000000
+Ergonomics=9.000000

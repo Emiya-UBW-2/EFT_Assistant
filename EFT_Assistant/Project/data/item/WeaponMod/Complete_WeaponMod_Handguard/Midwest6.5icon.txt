@@ -2,6 +2,19 @@ IDstr=5c5db5fc2e2216000f1b2842
 Name=MPX Midwest Industries 6.5 inch M-LOK handguard
 ShortName=MPX Midwest 6.5"
 Itemtype=Handguard
+Information_Eng=The Midwest Industries 6.5 inch length foregrip for the MPX SMGs equipped with an M-LOK interface for installation of additional devices and accessories.
+basePrice=7600
+width=2
+height=1
+Sell_Prapor=3800
+Sell_Fence=3040
+Sell_Skier=3724
+Sell_Peacekeeper=29
+Sell_Mechanic=4256
+Sell_Flea Market=8700
+weight=0.140000
+fleaMarketFee=489
+propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount/|
@@ -41,16 +54,3 @@ ChildParts=[
 ]
 Recoil=0.000000
 Ergonomics=10.000000
-Information_Eng=The Midwest Industries 6.5 inch length foregrip for the MPX SMGs equipped with an M-LOK interface for installation of additional devices and accessories.
-basePrice=7600
-width=2
-height=1
-Sell_Prapor=3800
-Sell_Fence=3040
-Sell_Skier=3724
-Sell_Peacekeeper=29
-Sell_Mechanic=4256
-Sell_Flea Market=8000
-weight=0.140000
-fleaMarketFee=467
-propertiestype=ItemPropertiesWeaponMod

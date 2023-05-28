@@ -2,18 +2,6 @@ IDstr=5c5db5c62e22160012542255
 Name=MPX 9x19 14 inch barrel
 ShortName=MPX 14"
 Itemtype=Barrel
-ChildParts=[
-	TACCOM Carbine Brake multi-caliber muzzle brake/|
-	Yankee Hill Annihilator multi-caliber flash hider/|
-	MPX A2 9x19 flash hider/|
-	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
-	AAC Illusion 9 9x19 sound suppressor/|
-	Rotor 43 9x19 muzzle brake-compensator/|
-	SIG Sauer SRD9 9x19 sound suppressor/|
-	SilencerCo Osprey 9 9x19 sound suppressor
-]
-Recoil=-7.000000
-Ergonomics=-14.000000
 Information_Eng=A 14 inch (355mm) long barrel for MPX-based weapons chambered in 9x19 ammo.
 basePrice=12380
 width=3
@@ -28,3 +16,15 @@ Sell_Flea Market=55555
 weight=0.350000
 fleaMarketFee=4142
 propertiestype=ItemPropertiesBarrel
+ChildParts=[
+	TACCOM Carbine Brake multi-caliber muzzle brake/|
+	Yankee Hill Annihilator multi-caliber flash hider/|
+	MPX A2 9x19 flash hider/|
+	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
+	AAC Illusion 9 9x19 sound suppressor/|
+	Rotor 43 9x19 muzzle brake-compensator/|
+	SIG Sauer SRD9 9x19 sound suppressor/|
+	SilencerCo Osprey 9 9x19 sound suppressor
+]
+Recoil=-7.000000
+Ergonomics=-14.000000

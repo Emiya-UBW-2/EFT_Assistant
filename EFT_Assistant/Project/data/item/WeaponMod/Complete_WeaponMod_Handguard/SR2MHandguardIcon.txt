@@ -2,16 +2,6 @@ IDstr=62e15547db1a5c41971c1b5e
 Name=SR-2M polymer handguard
 ShortName=SR-2M
 Itemtype=Handguard
-ChildParts=[
-	SR-2M side rail/|
-	SR-2M short side rail
-]
-ChildParts=[
-	SR-2M side rail/|
-	SR-2M short side rail
-]
-Recoil=0.000000
-Ergonomics=5.000000
 Information_Eng=A standard-issue SR-2M "Veresk" polymer handguard for burn protection. Manufactured by TsNIItochmash.
 basePrice=2500
 width=2
@@ -25,3 +15,13 @@ Sell_Flea Market=2500
 weight=0.120000
 fleaMarketFee=150
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	SR-2M side rail/|
+	SR-2M short side rail
+]
+ChildParts=[
+	SR-2M side rail/|
+	SR-2M short side rail
+]
+Recoil=0.000000
+Ergonomics=5.000000

@@ -2,6 +2,17 @@ IDstr=5b432c305acfc40019478128
 Name=GP-5 gas mask
 ShortName=GP-5
 Itemtype=Face Cover
+Information_Eng=The civil gas mask model 5 or GP-5 is a filtering agent for individual protection of the respiratory organs, eyes and skin of a person's face.
+basePrice=6386
+width=2
+height=2
+Sell_Fence=2554
+Sell_Skier=3129
+Sell_Peacekeeper=24
+Sell_Ragman=3959
+Sell_Flea Market=25000
+weight=0.450000
+fleaMarketFee=1733
 Conflict=[
 	Army cap/|
 	Baseball cap/|
@@ -28,15 +39,4 @@ Conflict=[
 	Jack-o'-lantern tactical pumpkin helmet/|
 	Beanie
 ]
-Information_Eng=The civil gas mask model 5 or GP-5 is a filtering agent for individual protection of the respiratory organs, eyes and skin of a person's face.
-basePrice=6386
-width=2
-height=2
-Sell_Fence=2554
-Sell_Skier=3129
-Sell_Peacekeeper=24
-Sell_Ragman=3959
-Sell_Flea Market=22000
-weight=0.450000
-fleaMarketFee=1432
 propertiestype=

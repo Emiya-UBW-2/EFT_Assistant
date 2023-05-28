@@ -2,7 +2,19 @@ IDstr=5b3b99475acfc432ff4dcbee
 Name=EOTech Vudu 1-6x24 30mm riflescope
 ShortName=Vudu 1-6x24
 Itemtype=Scope
-SightRange=0
+Information_Eng=The EOTech Vudu 1-6x24 riflescope, equally effective on AR platforms and bolt-action rifles. Its EOTech-style speed ring reticle is designed for fast target engagement at low power, while delivering the resolution and accuracy needed for longer range targets.
+basePrice=44344
+width=2
+height=1
+Sell_Prapor=22172
+Sell_Fence=17737
+Sell_Skier=21728
+Sell_Peacekeeper=168
+Sell_Mechanic=24832
+Sell_Jaeger=26606
+Sell_Flea Market=175555
+weight=0.570000
+fleaMarketFee=12244
 Conflict=[
 	Axion Kobra EKP-8-18 reflex sight/|
 	OKP-7 reflex sight/|
@@ -20,19 +32,7 @@ Conflict=[
 	Walther MRS reflex sight/|
 	Aimpoint LRP mount for CompM4 sights
 ]
+propertiestype=ItemPropertiesScope
+SightRange=0
 Recoil=0.000000
 Ergonomics=-3.000000
-Information_Eng=The EOTech Vudu 1-6x24 riflescope, equally effective on AR platforms and bolt-action rifles. Its EOTech-style speed ring reticle is designed for fast target engagement at low power, while delivering the resolution and accuracy needed for longer range targets.
-basePrice=44344
-width=2
-height=1
-Sell_Prapor=22172
-Sell_Fence=17737
-Sell_Skier=21728
-Sell_Peacekeeper=168
-Sell_Mechanic=24832
-Sell_Jaeger=26606
-Sell_Flea Market=166666
-weight=0.570000
-fleaMarketFee=11319
-propertiestype=ItemPropertiesScope

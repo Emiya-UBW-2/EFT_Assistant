@@ -2,10 +2,19 @@ IDstr=5a7c74b3e899ef0014332c29
 Name=NSPU-M night vision scope
 ShortName=NSPU-M
 Itemtype=Special scope
-SightRange=0
-ChildParts=[
-	NSPU-M scope eyecup
-]
+Information_Eng=NSPU-M (Nochnoy Strelkovyy Pritsel Unifitsirovannyy Modernizirovannyy - "Night Rifle Scope Unified Modernized"), GRAU Index - 1PN58. An old soviet night vision scope for AK series rifles, designed to fit dovetail rails.
+basePrice=13732
+width=2
+height=1
+Sell_Prapor=6866
+Sell_Fence=5492
+Sell_Skier=6728
+Sell_Peacekeeper=52
+Sell_Mechanic=7689
+Sell_Jaeger=8239
+Sell_Flea Market=13989
+weight=1.900000
+fleaMarketFee=830
 Conflict=[
 	ELCAN SpecterDR 1x/4x scope/|
 	ELCAN SpecterDR 1x/4x scope (FDE)/|
@@ -46,19 +55,10 @@ Conflict=[
 	AK Zenit B-33 dust cover/|
 	PP-19-01 "Vityaz-SN" dust cover
 ]
+propertiestype=ItemPropertiesScope
+SightRange=0
+ChildParts=[
+	NSPU-M scope eyecup
+]
 Recoil=-5.000000
 Ergonomics=-20.000000
-Information_Eng=NSPU-M (Nochnoy Strelkovyy Pritsel Unifitsirovannyy Modernizirovannyy - "Night Rifle Scope Unified Modernized"), GRAU Index - 1PN58. An old soviet night vision scope for AK series rifles, designed to fit dovetail rails.
-basePrice=13732
-width=2
-height=1
-Sell_Prapor=6866
-Sell_Fence=5492
-Sell_Skier=6728
-Sell_Peacekeeper=52
-Sell_Mechanic=7689
-Sell_Jaeger=8239
-Sell_Flea Market=11111
-weight=1.900000
-fleaMarketFee=751
-propertiestype=ItemPropertiesScope

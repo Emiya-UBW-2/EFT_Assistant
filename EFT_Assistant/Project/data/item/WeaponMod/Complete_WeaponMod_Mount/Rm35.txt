@@ -2,11 +2,6 @@ IDstr=5a33bab6c4a28200741e22f8
 Name=Trijicon RMR mount for ACOG scopes
 ShortName=RM35
 Itemtype=Mount
-ChildParts=[
-	Trijicon RMR reflex sight
-]
-Recoil=0.000000
-Ergonomics=-1.000000
 Information_Eng=A universal mount on a place of a backup sight to allow the mounting of the Trijicon RMR reflex sight on the ACOG scopes.
 basePrice=6182
 width=1
@@ -17,7 +12,12 @@ Sell_Skier=3029
 Sell_Peacekeeper=23
 Sell_Mechanic=3461
 Sell_Jaeger=3709
-Sell_Flea Market=62000
+Sell_Flea Market=30000
 weight=0.020000
-fleaMarketFee=7500
+fleaMarketFee=2336
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Trijicon RMR reflex sight
+]
+Recoil=0.000000
+Ergonomics=-1.000000

@@ -2,11 +2,6 @@ IDstr=577d128124597739d65d0e56
 Name=Burris FastFire Weaver Base
 ShortName=FFWB
 Itemtype=Mount
-ChildParts=[
-	Burris FastFire 3 reflex sight
-]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=This base from Burris allows to mount the compact FastFire Series Sights to Weaver or Picatinny-style rails.
 basePrice=1582
 width=1
@@ -17,7 +12,12 @@ Sell_Skier=775
 Sell_Peacekeeper=6
 Sell_Mechanic=885
 Sell_Jaeger=949
-Sell_Flea Market=14420
+Sell_Flea Market=7777
 weight=0.017000
-fleaMarketFee=1642
+fleaMarketFee=610
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Burris FastFire 3 reflex sight
+]
+Recoil=0.000000
+Ergonomics=0.000000

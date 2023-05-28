@@ -2,11 +2,6 @@ IDstr=59bffc1f86f77435b128b872
 Name=SilencerCo Hybrid 46 Direct Thread Mount adapter
 ShortName=DT Hybrid
 Itemtype=Comb. muzzle device
-ChildParts=[
-	SilencerCo Hybrid 46 multi-caliber sound suppressor
-]
-Recoil=0.000000
-Ergonomics=0.000000
 Information_Eng=The Direct Thread Mount adapter for installation of SilencerCo Hybrid 46 silencer directly onto the barrel threading.
 basePrice=4120
 width=1
@@ -16,7 +11,12 @@ Sell_Fence=1648
 Sell_Skier=2018
 Sell_Peacekeeper=16
 Sell_Mechanic=2307
-Sell_Flea Market=25000
+Sell_Flea Market=16666
 weight=0.140000
-fleaMarketFee=2216
+fleaMarketFee=1175
 propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	SilencerCo Hybrid 46 multi-caliber sound suppressor
+]
+Recoil=0.000000
+Ergonomics=0.000000
