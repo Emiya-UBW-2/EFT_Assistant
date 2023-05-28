@@ -55,7 +55,7 @@ NeedItem=[
 	TaskOptional=false
 ]
 
-Reward_Rep=Skier+0.050000
+Reward_Rep=Skier+5
 Reward_Item=[
 	Roublesx100000/|
 	Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle Saboteurx1

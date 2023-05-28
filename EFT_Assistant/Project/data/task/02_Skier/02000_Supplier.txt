@@ -24,7 +24,7 @@ DogTagLv=0
 	TaskOptional=false
 ]
 
-Reward_Rep=Skier+0.050000
+Reward_Rep=Skier+5
 Reward_Item=[
 	Roublesx60000/|
 	Saiga-9 9x19 carbine Defaultx1

@@ -26,8 +26,8 @@ NeedItem=[
 	TaskOptional=false
 ]
 
-Reward_Rep=Prapor+0.040000
-Reward_Rep=Skier+0.020000
+Reward_Rep=Prapor+4
+Reward_Rep=Skier+2
 Reward_Item=[
 	Dollarsx2500/|
 	Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle Urbanax1

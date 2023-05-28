@@ -1,6 +1,11 @@
 #include"../../../Header.hpp"
 
 namespace FPS_n2 {
+	void		TaskList::TaskNeedData::SetNeedTasktoID() noexcept {
+		for (auto& t : m_Parenttask) {
+			t.CheckID(TaskData::Instance());
+		}
+	}
 	//
 	const int		TaskList::Draw(int xp, int yp, int xsize, int ysize) const noexcept {
 		auto* WindowMngr = WindowSystem::WindowManager::Instance();
@@ -452,7 +457,7 @@ namespace FPS_n2 {
 		};
 		auto SetTaskRewards = [&](std::ofstream& outputfile, const TaskJsonData::TaskRewards& obj) {
 			for (auto& m : obj.m_traderStanding) {
-				outputfile << "Reward_Rep=" + m.trader + ((m.standing >= 0) ? "+" : "") + std::to_string(m.standing) + "\n";
+				outputfile << "Reward_Rep=" + m.trader + ((m.standingx100 >= 0) ? "+" : "") + std::to_string(m.standingx100) + "\n";
 			}
 			if (obj.Items.size() > 0) {
 				outputfile << "Reward_Item=[\n";

@@ -67,7 +67,7 @@ Task_Else=èEÇ¡Çƒî[ïi:Shoreline-Single-axis Fiber Optic Gyroscope #2x1
 	TaskOptional=false
 ]
 
-Reward_Rep=Skier+0.050000
+Reward_Rep=Skier+5
 Reward_Item=[
 	Dollarsx3000/|
 	Armasight N-15 Night Vision Gogglesx1

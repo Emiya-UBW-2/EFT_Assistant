@@ -64,7 +64,7 @@ Task_Else=}
 	TaskOptional=false
 ]
 
-Reward_Rep=Prapor+0.030000
+Reward_Rep=Prapor+3
 Reward_Item=[
 	Dollarsx5000/|
 	Pistol casex1/|

@@ -35,7 +35,7 @@ Task_Else=width >= 5
 	TaskOptional=false
 ]
 
-Reward_Rep=Mechanic+0.020000
+Reward_Rep=Mechanic+2
 Reward_Item=[
 	Roublesx75000/|
 	AKS-74U CAA XRSU47SU tactical handguardx2/|

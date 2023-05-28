@@ -48,7 +48,7 @@ Task_Else=脱出ステータス:[Survived]
 	TaskOptional=false
 ]
 
-Reward_Rep=Mechanic+0.020000
+Reward_Rep=Mechanic+2
 Reward_Item=[
 	Roublesx30000/|
 	Factory emergency exit keyx1

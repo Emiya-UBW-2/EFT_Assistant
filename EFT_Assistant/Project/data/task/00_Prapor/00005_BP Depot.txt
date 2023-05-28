@@ -50,8 +50,8 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 Reward_Item=[
 	MS2000 Markerx4
 ]
-Reward_Rep=Prapor+0.030000
-Reward_Rep=Jaeger-0.010000
+Reward_Rep=Prapor+3
+Reward_Rep=Jaeger-1
 Reward_Item=[
 	Roublesx30000/|
 	Expeditionary fuel tankx2

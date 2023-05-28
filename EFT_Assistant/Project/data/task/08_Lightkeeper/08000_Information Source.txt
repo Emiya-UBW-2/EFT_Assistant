@@ -55,7 +55,7 @@ NeedItem=MS2000 Markerx1
 	TaskOptional=false
 ]
 
-Reward_Rep=Lightkeeper+0.010000
+Reward_Rep=Lightkeeper+1
 Reward_Item=[
 	Advanced Electronic Materials textbookx1
 ]

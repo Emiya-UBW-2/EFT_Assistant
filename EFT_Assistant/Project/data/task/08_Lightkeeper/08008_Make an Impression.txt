@@ -26,7 +26,7 @@ Task_Else=‹——£: >= 350m
 	TaskOptional=false
 ]
 
-Reward_Rep=Lightkeeper+0.010000
+Reward_Rep=Lightkeeper+1
 Reward_Item=[
 	Phased array elementx2
 ]

@@ -27,8 +27,8 @@ Task_Else=‹——£: <= 60m
 	TaskOptional=false
 ]
 
-Reward_Rep=Therapist+0.050000
-Reward_Rep=Jaeger+0.010000
+Reward_Rep=Therapist+5
+Reward_Rep=Jaeger+1
 Reward_Item=[
 	Roublesx300000/|
 	Morphine injectorx3/|

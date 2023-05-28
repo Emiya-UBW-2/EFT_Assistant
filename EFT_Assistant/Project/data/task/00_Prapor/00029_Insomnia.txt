@@ -26,7 +26,7 @@ Task_Kill=[
 	TaskOptional=false
 ]
 
-Reward_Rep=Prapor+0.020000
+Reward_Rep=Prapor+2
 Reward_Item=[
 	Roublesx85000/|
 	PNV-10T Night Vision Gogglesx2

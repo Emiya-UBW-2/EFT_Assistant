@@ -18,7 +18,7 @@ DogTagLv=0
 	TaskOptional=false
 ]
 
-Reward_Rep=Fence+1.100000
+Reward_Rep=Fence+110
 Reward_Item=[
 	Roublesx1000000
 ]

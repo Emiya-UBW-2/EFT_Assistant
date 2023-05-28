@@ -23,7 +23,7 @@ Task_Else=E‚Á‚Ä”[•i:Lighthouse-Laptop with informationx1
 	TaskOptional=false
 ]
 
-Reward_Rep=Therapist+0.020000
+Reward_Rep=Therapist+2
 Reward_Item=[
 	Roublesx50000
 ]

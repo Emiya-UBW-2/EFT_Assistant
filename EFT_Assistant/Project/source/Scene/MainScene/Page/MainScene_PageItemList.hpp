@@ -143,7 +143,7 @@ namespace FPS_n2 {
 							if (IsChecktask && PlayerData::Instance()->GetHideoutClear(L.GetName().c_str(), (int)(&Ld - &L.GetLvData().front()) + 1)) {
 								IsChecktask = false;
 							}
-							if(IsChecktask && m_DrawCanClearHideout){
+							if (IsChecktask && m_DrawCanClearHideout) {
 								for (const auto& w : Ld.m_Parent) {
 									if (!PlayerData::Instance()->GetHideoutClear(HideoutData::Instance()->FindPtr(w.GetID())->GetName().c_str(), w.GetValue())) {
 										IsChecktask = false;
@@ -301,7 +301,7 @@ namespace FPS_n2 {
 
 					int ScrPosX = xpos + xsizeAdd;
 					int ScrSizY = ypMax - ypos;
-					m_Scroll.ScrollBox(xpos, ypos, ScrPosX, ypos + ScrSizY, (float)std::max(yp- ypBase, ScrSizY) / (float)ScrSizY, true);
+					m_Scroll.ScrollBox(xpos, ypos, ScrPosX, ypos + ScrSizY, (float)std::max(yp - ypBase, ScrSizY) / (float)ScrSizY, true);
 
 					m_YNow = std::max(0.f, m_Scroll.GetNowScrollYPer()*(float)((yp - ypBase) - ScrSizY));
 				}

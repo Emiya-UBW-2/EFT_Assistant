@@ -27,7 +27,7 @@ Task_Else=’Eoƒ][ƒ“:[D-2 Extract]
 	TaskOptional=false
 ]
 
-Reward_Rep=Mechanic+0.020000
+Reward_Rep=Mechanic+2
 Reward_Item=[
 	Eurosx1000/|
 	SV-98 7.62x54R bolt-action sniper rifle Defaultx1

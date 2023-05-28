@@ -18,6 +18,6 @@ DogTagLv=0
 	TaskOptional=false
 ]
 
-Reward_Rep=Skier+0.050000
+Reward_Rep=Skier+5
 
 Reward_EXP=6300

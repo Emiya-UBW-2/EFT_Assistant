@@ -28,6 +28,6 @@ DogTagLv=0
 	TaskOptional=false
 ]
 
-Reward_Rep=Fence+1.000000
+Reward_Rep=Fence+100
 
 Reward_EXP=0

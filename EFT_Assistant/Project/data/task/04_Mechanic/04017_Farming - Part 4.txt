@@ -37,7 +37,7 @@ DogTagLv=0
 	TaskOptional=false
 ]
 
-Reward_Rep=Mechanic+0.020000
+Reward_Rep=Mechanic+2
 Reward_Item=[
 	Eurosx300/|
 	Glock 17 9x19 pistol Viperx1/|

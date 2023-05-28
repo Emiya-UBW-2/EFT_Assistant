@@ -73,7 +73,7 @@ Task_Else=}
 	TaskOptional=false
 ]
 
-Reward_Rep=Jaeger+0.020000
+Reward_Rep=Jaeger+2
 Reward_Item=[
 	Roublesx35000/|
 	7.62x39mm PS gzhx200/|

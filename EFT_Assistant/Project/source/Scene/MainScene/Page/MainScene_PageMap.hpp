@@ -122,7 +122,7 @@ namespace FPS_n2 {
 						//
 						{
 							int xp = y_r(10);
-							int yp = LineHeight + y_r(20)+ LineHeight;
+							int yp = LineHeight + y_r(20) + LineHeight;
 							MakeList<TaskList>(xp, yp, TaskData::Instance()->GetList(), "Task", (int*)&m_EditTaskID, true, false, false, [&](const auto* tgt) {
 								if (tgt->GetTrader() != m_EditTraderID && m_EditTraderID != InvalidID) {
 									return false;
@@ -249,7 +249,7 @@ namespace FPS_n2 {
 						int yp2 = posy + (int)(std::cos(m_Rad)*Ys2 + std::sin(m_Rad)*Xs2);
 
 						float LenF = std::hypotf((float)(xp1 - xp2), (float)(yp1 - yp2));
-						DrawControl::Instance()->SetDrawCircle(DrawLayer::Normal, xp1, yp1, (int)LenF, Black,false,2);
+						DrawControl::Instance()->SetDrawCircle(DrawLayer::Normal, xp1, yp1, (int)LenF, Black, false, 2);
 
 
 						DrawControl::Instance()->SetDrawCircle(DrawLayer::Front, xp1, yp1, 6, Black);

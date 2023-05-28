@@ -33,7 +33,7 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 	TaskOptional=false
 ]
 
-Reward_Rep=Prapor+0.020000
+Reward_Rep=Prapor+2
 Reward_Item=[
 	Roublesx22000/|
 	EYE MK.2 professional hand-held compassx1/|

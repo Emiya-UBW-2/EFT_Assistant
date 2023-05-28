@@ -29,7 +29,7 @@ NeedItem=[
 	TaskOptional=false
 ]
 
-Reward_Rep=Prapor+0.020000
+Reward_Rep=Prapor+2
 Reward_Item=[
 	Roublesx40000/|
 	6B43 6A Zabralo-Sh body armorx1

@@ -17,7 +17,7 @@ Task_Else=Skill‚ğã‚°‚é:Search+9.000000
 	TaskOptional=false
 ]
 
-Reward_Rep=Ragman+0.030000
+Reward_Rep=Ragman+3
 Reward_Item=[
 	Roublesx65000
 ]

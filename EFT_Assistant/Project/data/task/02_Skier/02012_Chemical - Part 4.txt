@@ -36,7 +36,7 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 Reward_Item=[
 	MS2000 Markerx1
 ]
-Reward_Rep=Skier+0.040000
+Reward_Rep=Skier+4
 Reward_Item=[
 	Roublesx35000/|
 	Grenade casex1
@@ -58,7 +58,7 @@ Task_Else=該当タスク状態:complete
 	TaskOptional=false
 ]
 
-Reward_Rep=Skier-0.250000
+Reward_Rep=Skier-25
 Reward_EXP=6500
 Task_PinPoint=[-0.313585/|-0.115017/|0.000000]
 Task_PinMap=[Customs/|1]

@@ -31,7 +31,7 @@ NeedItem=[
 	TaskOptional=false
 ]
 
-Reward_Rep=Jaeger+0.020000
+Reward_Rep=Jaeger+2
 Reward_Item=[
 	Roublesx80000/|
 	Mosin Rifle Texas Precision Products 7.62x54R muzzle brakex1/|

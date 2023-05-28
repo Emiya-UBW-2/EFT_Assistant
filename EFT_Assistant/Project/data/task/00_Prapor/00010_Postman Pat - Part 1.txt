@@ -33,7 +33,7 @@ Task_Else=ŠY“–ƒ^ƒXƒNó‘Ô:complete
 	TaskOptional=false
 ]
 
-Reward_Rep=Prapor+0.020000
+Reward_Rep=Prapor+2
 Reward_Item=[
 	Roublesx40000/|
 	ANA Tactical Beta 2 Battle backpackx1/|

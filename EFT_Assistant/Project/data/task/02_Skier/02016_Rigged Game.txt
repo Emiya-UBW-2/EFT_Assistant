@@ -43,7 +43,7 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 Reward_Item=[
 	MS2000 Markerx3
 ]
-Reward_Rep=Skier+0.050000
+Reward_Rep=Skier+5
 Reward_Item=[
 	Roublesx150000/|
 	HK MP5 9x19 submachine gun (Navy 3 Round Burst) SDx1/|

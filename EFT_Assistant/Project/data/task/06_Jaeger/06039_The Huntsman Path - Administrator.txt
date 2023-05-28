@@ -29,7 +29,7 @@ Task_Else=É]Å[Éì:[Pinewood Hotel Courtyard]
 	TaskOptional=false
 ]
 
-Reward_Rep=Jaeger+0.020000
+Reward_Rep=Jaeger+2
 Reward_Item=[
 	Roublesx81000/|
 	Remington Model 700 7.62x51 bolt-action sniper rifle Defaultx1

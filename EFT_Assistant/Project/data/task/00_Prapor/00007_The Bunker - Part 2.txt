@@ -54,7 +54,7 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 	TaskOptional=false
 ]
 
-Reward_Rep=Prapor+0.030000
+Reward_Rep=Prapor+3
 Reward_Item=[
 	Roublesx25000/|
 	Kalashnikov AKS-74UB 5.45x39 assault rifle Defaultx1/|

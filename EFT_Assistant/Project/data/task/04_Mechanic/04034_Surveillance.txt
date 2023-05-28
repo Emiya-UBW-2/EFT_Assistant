@@ -24,7 +24,7 @@ Task_Else=E‚Á‚Ä”[•i:Streets of Tarkov-Working hard drivex1
 	TaskOptional=false
 ]
 
-Reward_Rep=Mechanic+0.020000
+Reward_Rep=Mechanic+2
 Reward_Item=[
 	Roublesx126000/|
 	Military power filterx1

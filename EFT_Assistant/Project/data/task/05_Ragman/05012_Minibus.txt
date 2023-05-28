@@ -40,7 +40,7 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 	TaskOptional=false
 ]
 
-Reward_Rep=Ragman+0.030000
+Reward_Rep=Ragman+3
 Reward_Item=[
 	Roublesx50000/|
 	ANA Tactical Beta 2 Battle backpackx1

@@ -37,8 +37,8 @@ DogTagLv=0
 	TaskOptional=false
 ]
 
-Reward_Rep=Skier+0.070000
-Reward_Rep=Fence+0.050000
+Reward_Rep=Skier+7
+Reward_Rep=Fence+5
 Reward_Item=[
 	Roublesx120000/|
 	Dollarsx1000

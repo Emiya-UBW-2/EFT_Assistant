@@ -20,7 +20,7 @@ Task_Else=’Eo’n“_:Primorsky Ave Taxi V-Ex
 	TaskOptional=false
 ]
 
-Reward_Rep=Therapist+0.010000
+Reward_Rep=Therapist+1
 Reward_Item=[
 	Roublesx45000/|
 	Aluminum splintx2/|

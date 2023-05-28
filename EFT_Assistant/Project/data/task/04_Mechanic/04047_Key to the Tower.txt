@@ -58,6 +58,6 @@ Task_Else=E‚Á‚Ä”[•i:Lighthouse-Radio transmitter bodyx1
 	TaskOptional=false
 ]
 
-Reward_Rep=Mechanic+0.010000
+Reward_Rep=Mechanic+1
 
 Reward_EXP=30500

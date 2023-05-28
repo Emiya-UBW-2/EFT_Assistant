@@ -18,6 +18,6 @@ DogTagLv=0
 	TaskOptional=false
 ]
 
-Reward_Rep=Peacekeeper+0.040000
+Reward_Rep=Peacekeeper+4
 
 Reward_EXP=9500

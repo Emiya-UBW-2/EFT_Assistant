@@ -40,7 +40,7 @@ DogTagLv=0
 	TaskOptional=false
 ]
 
-Reward_Rep=Jaeger+0.010000
+Reward_Rep=Jaeger+1
 Reward_Item=[
 	Roublesx22000/|
 	Phase control relayx2/|

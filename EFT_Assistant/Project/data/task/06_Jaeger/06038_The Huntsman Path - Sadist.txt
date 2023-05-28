@@ -22,7 +22,7 @@ Task_Kill=[
 	TaskOptional=false
 ]
 
-Reward_Rep=Jaeger+0.020000
+Reward_Rep=Jaeger+2
 Reward_Item=[
 	Roublesx115000/|
 	Trijicon REAP-IR thermal scopex1/|
@@ -39,5 +39,5 @@ Task_Else=äYìñÉ^ÉXÉNèÛë‘:complete
 	TaskOptional=false
 ]
 
-Reward_Rep=Jaeger-0.100000
+Reward_Rep=Jaeger-10
 Reward_EXP=16300

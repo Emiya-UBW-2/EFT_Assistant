@@ -30,7 +30,7 @@ Task_Else=‹——£: >= 60m
 Reward_Item=[
 	Springfield Armory M1A 7.62x51 rifle REAP-IRx1
 ]
-Reward_Rep=Prapor+0.020000
+Reward_Rep=Prapor+2
 Reward_Item=[
 	Roublesx300000/|
 	RPK-16 5.45x39 light machine gun Drumx2/|

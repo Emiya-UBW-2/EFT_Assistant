@@ -26,7 +26,7 @@ Task_Else=脱出ステータス:[Survived]
 	TaskOptional=false
 ]
 
-Reward_Rep=Mechanic+0.020000
+Reward_Rep=Mechanic+2
 Reward_Item=[
 	Roublesx44000/|
 	Steyr AUG A1 5.56x45 assault rifle Defaultx1/|

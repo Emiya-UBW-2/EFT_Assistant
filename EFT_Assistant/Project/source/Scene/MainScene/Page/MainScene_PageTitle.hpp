@@ -53,7 +53,7 @@ namespace FPS_n2 {
 			xpos = y_r(960 - 480);
 			ypos = y_r(540);
 			DrawOnce(xpos - xsize / 2, ypos - ysize / 2, xpos + xsize / 2, ypos + ysize / 2, "プレイヤー情報", "目標やタスク情報などを管理するページです", BGSelect::PlayerInfo);
-			
+
 
 			xpos = y_r(960);
 			ypos = y_r(1080) - LineHeight;
@@ -97,7 +97,7 @@ namespace FPS_n2 {
 						ItemData::Instance()->GetJsonData(data);
 						ItemData::Instance()->UpdateData();
 						ItemData::Instance()->SaveAsNewData2("data/item/Maked/Maked/");
-						
+
 						if (data["data"]["items"].size() != 20) {
 							break;
 						}
@@ -168,7 +168,7 @@ namespace FPS_n2 {
 			}
 			YPos += Ysize + y_r(5);
 			if (!(ttt == -1)) {
-				WindowSystem::SetMsg(XPos, YPos, XPos + Xsize, YPos + Ysize, Ysize, STRX_MID, White, Black, "更新可能まで %2d:%02d", (TotalTime - NowTime) / 1000 / 60, ((TotalTime - NowTime) / 1000)%60);
+				WindowSystem::SetMsg(XPos, YPos, XPos + Xsize, YPos + Ysize, Ysize, STRX_MID, White, Black, "更新可能まで %2d:%02d", (TotalTime - NowTime) / 1000 / 60, ((TotalTime - NowTime) / 1000) % 60);
 			}
 		}
 		void Dispose_Sub(void) noexcept override {

@@ -23,7 +23,7 @@ Task_Else=E‚Á‚Ä”[•i:Streets of Tarkov-Registered letterx1
 	TaskOptional=false
 ]
 
-Reward_Rep=Prapor+0.020000
+Reward_Rep=Prapor+2
 Reward_Item=[
 	Roublesx28000/|
 	6B47 Ratnik-BSh helmetx1/|

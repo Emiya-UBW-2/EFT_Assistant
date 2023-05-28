@@ -31,7 +31,7 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 	TaskOptional=false
 ]
 
-Reward_Rep=Therapist+0.040000
+Reward_Rep=Therapist+4
 Reward_Item=[
 	Roublesx24000/|
 	Salewa first aid kitx4

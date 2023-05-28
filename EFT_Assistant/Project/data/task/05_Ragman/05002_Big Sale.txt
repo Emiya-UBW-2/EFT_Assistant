@@ -54,7 +54,7 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 	TaskOptional=false
 ]
 
-Reward_Rep=Ragman+0.030000
+Reward_Rep=Ragman+3
 Reward_Item=[
 	Roublesx30000/|
 	Oakley Mechanism heavy duty backpack (Black)x1

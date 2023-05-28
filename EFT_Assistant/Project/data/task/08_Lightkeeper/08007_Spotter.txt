@@ -47,7 +47,7 @@ Task_Else=脱出ステータス:[Survived]
 	TaskOptional=false
 ]
 
-Reward_Rep=Lightkeeper+0.010000
+Reward_Rep=Lightkeeper+1
 Reward_Item=[
 	Microcontroller boardx1
 ]

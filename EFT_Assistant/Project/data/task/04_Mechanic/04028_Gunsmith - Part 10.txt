@@ -28,7 +28,7 @@ Task_Else=width >= 4
 	TaskOptional=false
 ]
 
-Reward_Rep=Mechanic+0.020000
+Reward_Rep=Mechanic+2
 Reward_Item=[
 	Bundle of wiresx5/|
 	Metal spare partsx2

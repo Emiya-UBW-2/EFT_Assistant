@@ -35,7 +35,7 @@ namespace FPS_n2 {
 		std::string					m_LastDataReceive;
 		std::vector<ItemLockData>	m_ItemLockData;
 		std::vector<std::string>	m_TaskClearData;
-		std::vector<std::pair<std::string,int>>	m_HideoutClearData;
+		std::vector<std::pair<std::string, int>>	m_HideoutClearData;
 	private:
 		EnumEdition					m_Edition{ EnumEdition::STANDARD };
 		bool						m_IsNeedLightKeeper{ false };

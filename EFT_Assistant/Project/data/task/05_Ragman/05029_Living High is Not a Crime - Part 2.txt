@@ -64,7 +64,7 @@ DogTagLv=0
 	TaskOptional=false
 ]
 
-Reward_Rep=Ragman+0.050000
+Reward_Rep=Ragman+5
 Reward_Item=[
 	Roublesx110000/|
 	Altyn bulletproof helmetx1/|

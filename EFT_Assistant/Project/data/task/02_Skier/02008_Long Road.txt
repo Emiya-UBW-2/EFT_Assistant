@@ -21,7 +21,7 @@ Task_Else=É]Å[Éì:[Highway]
 	TaskOptional=false
 ]
 
-Reward_Rep=Skier+0.020000
+Reward_Rep=Skier+2
 Reward_Item=[
 	Roublesx45000
 ]

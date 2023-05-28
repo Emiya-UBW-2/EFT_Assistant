@@ -38,7 +38,7 @@ Task_Else=Locate the place where the messenger hid the cargo
 	TaskOptional=true
 ]
 
-Reward_Rep=Skier+0.040000
+Reward_Rep=Skier+4
 Reward_Item=[
 	Dollarsx500/|
 	Molot VPO-209 .366 TKM carbine Defaultx1/|

@@ -33,7 +33,7 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 	TaskOptional=false
 ]
 
-Reward_Rep=Mechanic+0.020000
+Reward_Rep=Mechanic+2
 Reward_Item=[
 	Roublesx10000/|
 	Glock 9x19 SGM Tactical 50-round drum magazinex3

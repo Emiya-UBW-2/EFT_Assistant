@@ -17,7 +17,7 @@ Task_Else=Skill‚ğã‚°‚é:Sniper Rifles+8.000000
 	TaskOptional=false
 ]
 
-Reward_Rep=Mechanic+0.030000
+Reward_Rep=Mechanic+3
 Reward_Item=[
 	Roublesx150000
 ]

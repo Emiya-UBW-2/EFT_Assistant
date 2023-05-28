@@ -33,7 +33,7 @@ DogTagLv=0
 	TaskOptional=false
 ]
 
-Reward_Rep=Jaeger+0.020000
+Reward_Rep=Jaeger+2
 Reward_Item=[
 	Roublesx90000/|
 	Surv12 field surgical kitx1/|

@@ -27,7 +27,7 @@ Task_Else=‹——£: >= 50m
 	TaskOptional=false
 ]
 
-Reward_Rep=Jaeger+0.020000
+Reward_Rep=Jaeger+2
 Reward_Item=[
 	Roublesx60000/|
 	VPX Flash Storage Modulex1/|

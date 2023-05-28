@@ -24,7 +24,7 @@ DogTagLv=0
 	TaskOptional=false
 ]
 
-Reward_Rep=Jaeger+0.020000
+Reward_Rep=Jaeger+2
 Reward_Item=[
 	Roublesx40000/|
 	Remington Model 700 7.62x51 bolt-action sniper rifle AAC SDx1/|

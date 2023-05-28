@@ -39,7 +39,7 @@ Task_Else=}
 	TaskOptional=false
 ]
 
-Reward_Rep=Jaeger+0.020000
+Reward_Rep=Jaeger+2
 Reward_Item=[
 	Roublesx40000/|
 	Armasight Vulcan MG 3.5x Bravo night vision scopex3

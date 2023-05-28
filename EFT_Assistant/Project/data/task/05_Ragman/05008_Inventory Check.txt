@@ -55,7 +55,7 @@ Task_Else=脱出ステータス:[Survived]
 	TaskOptional=false
 ]
 
-Reward_Rep=Ragman+0.030000
+Reward_Rep=Ragman+3
 Reward_Item=[
 	Roublesx30000/|
 	ZSh-1-2M helmetx1

@@ -17,7 +17,7 @@ Task_Else=Skill‚ğã‚°‚é:Sniper Rifles+3.000000
 	TaskOptional=false
 ]
 
-Reward_Rep=Jaeger+0.020000
+Reward_Rep=Jaeger+2
 Reward_Item=[
 	Roublesx80000/|
 	Mosin Rifle AIM Sports Tri-Rail mountx1/|

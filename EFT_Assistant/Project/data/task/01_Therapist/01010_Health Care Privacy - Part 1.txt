@@ -33,7 +33,7 @@ NeedItem=MS2000 Markerx1
 	TaskOptional=false
 ]
 
-Reward_Rep=Therapist+0.030000
+Reward_Rep=Therapist+3
 Reward_Item=[
 	Roublesx22000/|
 	IFAK individual first aid kitx2

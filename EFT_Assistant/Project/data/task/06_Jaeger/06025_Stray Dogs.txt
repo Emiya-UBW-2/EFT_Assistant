@@ -35,7 +35,7 @@ Task_Kill=[
 	TaskOptional=false
 ]
 
-Reward_Rep=Jaeger+0.020000
+Reward_Rep=Jaeger+2
 Reward_Item=[
 	Roublesx125000/|
 	SV-98 7.62x54R bolt-action sniper rifle OVx1/|

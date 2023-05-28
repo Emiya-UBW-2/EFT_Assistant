@@ -20,8 +20,8 @@ Task_Kill=[
 	TaskOptional=false
 ]
 
-Reward_Rep=Therapist+0.030000
-Reward_Rep=Jaeger+0.010000
+Reward_Rep=Therapist+3
+Reward_Rep=Jaeger+1
 Reward_Item=[
 	Roublesx20000/|
 	Esmarch tourniquetx3/|

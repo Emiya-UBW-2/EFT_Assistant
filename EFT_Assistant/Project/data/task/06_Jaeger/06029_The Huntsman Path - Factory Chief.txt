@@ -34,7 +34,7 @@ DogTagLv=0
 	TaskOptional=false
 ]
 
-Reward_Rep=Jaeger+0.020000
+Reward_Rep=Jaeger+2
 Reward_Item=[
 	Roublesx700000/|
 	Factory emergency exit keyx1

@@ -51,7 +51,7 @@ Task_Else=‹——£: >= 40m
 	TaskOptional=false
 ]
 
-Reward_Rep=Jaeger+0.020000
+Reward_Rep=Jaeger+2
 Reward_Item=[
 	Roublesx65000/|
 	Mosin Rifle AIM Sports MNG rail mountx1/|

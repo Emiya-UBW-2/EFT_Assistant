@@ -32,7 +32,7 @@ Task_Else=E‚Á‚Ä”[•i:The Lab-Flash drive marked with blue tapex1
 	TaskOptional=false
 ]
 
-Reward_Rep=Peacekeeper+0.040000
+Reward_Rep=Peacekeeper+4
 Reward_Item=[
 	Dollarsx5000/|
 	Desert Tech MDR 7.62x51 assault rifle Defaultx4/|

@@ -220,7 +220,7 @@ NeedItem=[
 	TaskOptional=false
 ]
 
-Reward_Rep=Jaeger+0.030000
+Reward_Rep=Jaeger+3
 Reward_Item=[
 	Roublesx100000
 ]

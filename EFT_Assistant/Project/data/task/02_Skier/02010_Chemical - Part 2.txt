@@ -38,7 +38,7 @@ Task_Else=E‚Á‚Ä”[•i:Customs-Sealed letter with a TG logox1
 Reward_Item=[
 	Dorm room 220 keyx1
 ]
-Reward_Rep=Skier+0.040000
+Reward_Rep=Skier+4
 Reward_Item=[
 	Roublesx15000/|
 	F-1 hand grenadex3/|

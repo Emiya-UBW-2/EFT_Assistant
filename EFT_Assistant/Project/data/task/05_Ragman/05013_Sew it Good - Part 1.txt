@@ -37,7 +37,7 @@ DogTagLv=0
 	TaskOptional=false
 ]
 
-Reward_Rep=Ragman+0.020000
+Reward_Rep=Ragman+2
 Reward_Item=[
 	Roublesx25000/|
 	LBT-6094A Slick Plate Carrierx1/|

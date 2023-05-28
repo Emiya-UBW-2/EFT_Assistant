@@ -23,7 +23,7 @@ Task_Else=É]Å[Éì:[Office]
 	TaskOptional=false
 ]
 
-Reward_Rep=Jaeger+0.020000
+Reward_Rep=Jaeger+2
 Reward_Item=[
 	Roublesx37000/|
 	Pliers Elitex2/|

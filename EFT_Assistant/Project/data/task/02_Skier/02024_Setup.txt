@@ -30,8 +30,8 @@ Task_Else=}
 	TaskOptional=false
 ]
 
-Reward_Rep=Skier+0.050000
-Reward_Rep=Fence+0.050000
+Reward_Rep=Skier+5
+Reward_Rep=Fence+5
 Reward_Item=[
 	Roublesx150000/|
 	Kel-Tec RFB 7.62x51 rifle Defaultx1/|

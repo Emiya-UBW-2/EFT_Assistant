@@ -24,7 +24,7 @@ Task_Else=E‚Á‚Ä”[•i:Interchange-OLI cargo route documentsx1
 	TaskOptional=false
 ]
 
-Reward_Rep=Ragman+0.030000
+Reward_Rep=Ragman+3
 Reward_Item=[
 	Car batteryx1/|
 	Phase control relayx1

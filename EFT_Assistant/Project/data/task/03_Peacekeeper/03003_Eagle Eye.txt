@@ -48,7 +48,7 @@ Task_Else=E‚Á‚Ä”[•i:Shoreline-UAV SAS disk #2x1
 	TaskOptional=false
 ]
 
-Reward_Rep=Peacekeeper+0.030000
+Reward_Rep=Peacekeeper+3
 Reward_Item=[
 	Dollarsx900/|
 	ELCAN SpecterDR 1x/4x scope (FDE)x1/|

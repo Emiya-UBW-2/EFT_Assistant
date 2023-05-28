@@ -17,7 +17,7 @@ NeedLightkeeper=false
 	TaskOptional=false
 ]
 
-Reward_Rep=Skier+0.040000
+Reward_Rep=Skier+4
 Reward_Item=[
 	Roublesx180000
 ]

@@ -31,7 +31,7 @@ Task_Else=‹——£: <= 25m
 	TaskOptional=false
 ]
 
-Reward_Rep=Jaeger+0.020000
+Reward_Rep=Jaeger+2
 Reward_Item=[
 	Roublesx70000/|
 	Kinda cowboy hatx1/|

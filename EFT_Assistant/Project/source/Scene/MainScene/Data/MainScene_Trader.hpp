@@ -8,9 +8,6 @@ namespace FPS_n2 {
 			std::vector<TaskID>						m_TaskReq;
 			std::vector<ItemGetData>				m_ItemReq;
 			std::vector<ItemGetData>				m_ItemReward;
-
-			std::vector<std::string>					m_ItemReqArgs;
-			std::vector<std::string>					m_ItemRewardArgs;
 		};
 		//開放データ
 		int											NeedLv{ 1 };
@@ -46,12 +43,12 @@ namespace FPS_n2 {
 				if (LEFTBuf == "BarteritemReq") {
 					m_LvData.at(ID).m_ItemBarters.resize(m_LvData.at(ID).m_ItemBarters.size() + 1);
 					for (auto&a : Args) {
-						m_LvData.at(ID).m_ItemBarters.back().m_ItemReqArgs.emplace_back(a);
+						SetGetData<ItemGetData>(&m_LvData.at(ID).m_ItemBarters.back().m_ItemReq, a, "x");
 					}
 				}
 				if (LEFTBuf == "BarteritemReward") {
 					for (auto&a : Args) {
-						m_LvData.at(ID).m_ItemBarters.back().m_ItemRewardArgs.emplace_back(a);
+						SetGetData<ItemGetData>(&m_LvData.at(ID).m_ItemBarters.back().m_ItemReward, a, "x");
 					}
 				}
 			}
@@ -91,7 +88,7 @@ namespace FPS_n2 {
 		void UpdateData() noexcept {
 			for (auto& L : m_List) {
 				for (auto& jd : GetJsonDataList()) {
-					if (L.GetIDstr() == jd->id) {
+					if (L.GetIDstr() == jd->m_id) {
 						jd->OutputData(L.GetFilePath());
 						break;
 					}

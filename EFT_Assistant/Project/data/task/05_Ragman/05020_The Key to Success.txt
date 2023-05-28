@@ -34,7 +34,7 @@ Task_Else=E‚Á‚Ä”[•i:Interchange-Clothes design handbook - Part 2x1
 	TaskOptional=false
 ]
 
-Reward_Rep=Ragman+0.030000
+Reward_Rep=Ragman+3
 Reward_Item=[
 	Roublesx60000/|
 	Ghost balaclavax2

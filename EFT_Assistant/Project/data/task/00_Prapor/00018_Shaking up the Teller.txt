@@ -35,7 +35,7 @@ Task_Else=Gain access to dorm room 214
 	TaskOptional=true
 ]
 
-Reward_Rep=Prapor+0.020000
+Reward_Rep=Prapor+2
 Reward_Item=[
 	Roublesx75000/|
 	Geiger-Muller counterx1

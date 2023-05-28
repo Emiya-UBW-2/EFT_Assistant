@@ -21,7 +21,7 @@ Task_Else=É]Å[Éì:[White Pawn,Black Pawn]
 	TaskOptional=false
 ]
 
-Reward_Rep=Jaeger+0.020000
+Reward_Rep=Jaeger+2
 Reward_Item=[
 	Roublesx20000/|
 	PAID AntiRoach sprayx2/|

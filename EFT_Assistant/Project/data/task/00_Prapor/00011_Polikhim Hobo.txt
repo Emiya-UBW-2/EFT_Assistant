@@ -20,8 +20,8 @@ Task_Kill=[
 	TaskOptional=false
 ]
 
-Reward_Rep=Prapor+0.020000
-Reward_Rep=Jaeger+0.010000
+Reward_Rep=Prapor+2
+Reward_Rep=Jaeger+1
 Reward_Item=[
 	Roublesx50000/|
 	F-1 hand grenadex3/|

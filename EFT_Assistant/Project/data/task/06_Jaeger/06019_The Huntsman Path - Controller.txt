@@ -21,7 +21,7 @@ Task_Else=“G‚ÌˆÙíó‘Ô:[Stunned]
 	TaskOptional=false
 ]
 
-Reward_Rep=Jaeger+0.020000
+Reward_Rep=Jaeger+2
 Reward_Item=[
 	Roublesx50000/|
 	NcSTAR ADO P4 Sniper 3-9x42 riflescopex1

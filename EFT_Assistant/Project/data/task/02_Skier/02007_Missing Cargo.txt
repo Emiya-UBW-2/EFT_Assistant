@@ -30,7 +30,7 @@ Task_Else=E‚Á‚Ä”[•i:Lighthouse-Stolen military documentsx1
 	TaskOptional=false
 ]
 
-Reward_Rep=Skier+0.030000
+Reward_Rep=Skier+3
 Reward_Item=[
 	Roublesx68000
 ]

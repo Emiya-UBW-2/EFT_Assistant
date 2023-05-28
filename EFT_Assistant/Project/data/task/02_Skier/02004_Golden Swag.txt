@@ -27,7 +27,7 @@ Task_Else=E‚Á‚Ä”[•i:Customs-Golden Zibbo lighterx1
 Reward_Item=[
 	Trailer park portable cabin keyx1
 ]
-Reward_Rep=Skier+0.040000
+Reward_Rep=Skier+4
 Reward_Item=[
 	Roublesx17000/|
 	Soyuz-TM STM-9 Gen.2 9x19 carbine Defaultx1/|

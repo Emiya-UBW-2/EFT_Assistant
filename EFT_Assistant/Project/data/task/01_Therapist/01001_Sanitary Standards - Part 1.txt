@@ -32,7 +32,7 @@ DogTagLv=0
 	TaskOptional=false
 ]
 
-Reward_Rep=Therapist+0.030000
+Reward_Rep=Therapist+3
 Reward_Item=[
 	Roublesx14000/|
 	Car first aid kitx2

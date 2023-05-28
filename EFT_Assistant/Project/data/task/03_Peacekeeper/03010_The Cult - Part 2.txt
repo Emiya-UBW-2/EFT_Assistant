@@ -36,7 +36,7 @@ NeedItem=MS2000 Markerx1
 	TaskOptional=false
 ]
 
-Reward_Rep=Peacekeeper+0.030000
+Reward_Rep=Peacekeeper+3
 Reward_Item=[
 	Dollarsx850/|
 	Knight's Armament Company SR-25 7.62x51 marksman rifle Defaultx1

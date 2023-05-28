@@ -34,7 +34,7 @@ Task_Else=width >= 0
 	TaskOptional=false
 ]
 
-Reward_Rep=Mechanic+0.030000
+Reward_Rep=Mechanic+3
 Reward_Item=[
 	Roublesx50000/|
 	EOTech Vudu 1-6x24 30mm riflescopex1/|

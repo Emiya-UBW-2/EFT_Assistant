@@ -27,7 +27,7 @@ Task_Else=脱出ステータス:[Survived]
 	TaskOptional=false
 ]
 
-Reward_Rep=Prapor+0.020000
+Reward_Rep=Prapor+2
 Reward_Item=[
 	Roublesx77000
 ]

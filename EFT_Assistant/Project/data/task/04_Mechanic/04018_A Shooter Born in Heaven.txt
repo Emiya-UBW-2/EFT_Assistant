@@ -65,7 +65,7 @@ Task_Else=‹——£: >= 100m
 	TaskOptional=false
 ]
 
-Reward_Rep=Mechanic+0.030000
+Reward_Rep=Mechanic+3
 Reward_Item=[
 	Roublesx100000/|
 	Mosin Rifle 7.62x54R ProMag Archangel OPFOR 10-round magazinex4/|

@@ -26,7 +26,7 @@ Task_Else=脱出ステータス:[Survived]
 	TaskOptional=false
 ]
 
-Reward_Rep=Jaeger+0.030000
+Reward_Rep=Jaeger+3
 Reward_Item=[
 	Roublesx94000/|
 	Expeditionary fuel tankx2

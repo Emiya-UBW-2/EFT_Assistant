@@ -33,7 +33,7 @@ DogTagLv=0
 	TaskOptional=false
 ]
 
-Reward_Rep=Ragman+0.040000
+Reward_Rep=Ragman+4
 Reward_Item=[
 	Roublesx55000/|
 	IOTV Gen4 body armor (Full Protection Kit)x1

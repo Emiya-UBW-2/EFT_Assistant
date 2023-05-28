@@ -8,9 +8,6 @@ namespace FPS_n2 {
 			int											durationTime{ 0 };
 			std::vector<ItemGetData>					m_ItemReq;
 			std::vector<ItemGetData>					m_ItemReward;
-		public:
-			std::vector<std::string>					m_ItemReqArgs;
-			std::vector<std::string>					m_ItemRewardArgs;
 		};
 		//開放データ
 		int											constructionTime{ 0 };
@@ -21,10 +18,6 @@ namespace FPS_n2 {
 		std::vector<HideoutGetData>					m_Child;
 		//クラフトデータ
 		std::vector<CraftData>						m_ItemCraft;
-	public:
-		std::vector<std::string>					m_ItemReqArgs;
-		std::vector<std::string>					m_ParentArgs;
-		std::vector<std::string>					m_TraderReqArgs;
 	};
 	//
 	class HideoutList : public ListParent<HideoutID> {
@@ -43,7 +36,7 @@ namespace FPS_n2 {
 		const int		Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive) noexcept;
 		void			DrawUnlockWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int Lv, int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept;
 		void			DrawCraftWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int Lv, int xp, int yp, int *xs = nullptr, int* ys = nullptr, int size = 10) noexcept;
-		void			SetOtherPartsID(const std::vector<HideoutList>& HideoutList) noexcept;
+		void			SetOtherPartsID() noexcept;
 	};
 	//
 	class HideoutJsonData :public JsonDataParent {
@@ -75,7 +68,7 @@ namespace FPS_n2 {
 		void UpdateData() noexcept {
 			for (auto& L : m_List) {
 				for (auto& jd : GetJsonDataList()) {
-					if (L.GetIDstr() == jd->id) {
+					if (L.GetIDstr() == jd->m_id) {
 						L.m_CheckJson++;
 
 						jd->OutputData(L.GetFilePath());

@@ -23,8 +23,8 @@ Task_Else=èEÇ¡Çƒî[ïi:Factory-Syringe with a chemicalx1
 	TaskOptional=false
 ]
 
-Reward_Rep=Skier+0.040000
-Reward_Rep=Jaeger-0.010000
+Reward_Rep=Skier+4
+Reward_Rep=Jaeger-1
 Reward_Item=[
 	Roublesx22000/|
 	BelOMO PSO-1M2-1 4x24 scopex1/|

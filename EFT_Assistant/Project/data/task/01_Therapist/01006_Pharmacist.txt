@@ -38,7 +38,7 @@ Task_Else=Find a way inside the two-story dorm room 114 on Customs
 	TaskOptional=true
 ]
 
-Reward_Rep=Therapist+0.040000
+Reward_Rep=Therapist+4
 Reward_Item=[
 	Roublesx25000/|
 	AFAK tactical individual first aid kitx1/|

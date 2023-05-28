@@ -21,7 +21,7 @@ Task_Else=É]Å[Éì:[Underground Warehouse]
 	TaskOptional=false
 ]
 
-Reward_Rep=Skier+0.040000
+Reward_Rep=Skier+4
 Reward_Item=[
 	Roublesx35000/|
 	5.45x39mm BP gs ammo pack (120 pcs)x2/|

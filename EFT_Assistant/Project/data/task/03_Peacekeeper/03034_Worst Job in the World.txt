@@ -26,6 +26,6 @@ Task_Else=‹——£: >= 100m
 	TaskOptional=false
 ]
 
-Reward_Rep=Peacekeeper+0.030000
+Reward_Rep=Peacekeeper+3
 
 Reward_EXP=15400

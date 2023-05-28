@@ -51,7 +51,7 @@ Task_Else=‹——£: >= 45m
 	TaskOptional=false
 ]
 
-Reward_Rep=Jaeger+0.020000
+Reward_Rep=Jaeger+2
 Reward_Item=[
 	Roublesx85000/|
 	Mosin Rifle Witt Machine 7.62x54R muzzle brakex1/|

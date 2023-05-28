@@ -5,16 +5,15 @@ namespace FPS_n2 {
 	class TaskList : public ListParent<TaskID> {
 		class TaskNeedData {
 		private:
-			TraderID								m_Trader{ InvalidID };
-			int										m_Level{ -1 };
-			int										m_LL{ -1 };
-			std::vector<IDParents<TaskID, TaskList>>m_Parenttask;
-			std::vector<ItemGetData>				m_Item;
-			bool									m_kappaRequired{ false };
-			bool									m_lightkeeperRequired{ false };
+			TraderID						m_Trader{ InvalidID };
+			int								m_Level{ -1 };
+			int								m_LL{ -1 };
+			std::vector<IDParents<TaskID>>	m_Parenttask;
+			std::vector<ItemGetData>		m_Item;
+			bool							m_kappaRequired{ false };
+			bool							m_lightkeeperRequired{ false };
 
-			std::string									m_TraderArg;
-			std::vector<std::string>					m_ItemArgs;
+			std::string						m_TraderArg;
 		public:
 			const auto& GetTrader() const noexcept { return m_Trader; }
 			const auto& GetLevel() const noexcept { return m_Level; }
@@ -24,7 +23,7 @@ namespace FPS_n2 {
 			const auto& GetKappaRequired() const noexcept { return m_kappaRequired; }
 			const auto& GetLightKeeperRequired() const noexcept { return m_lightkeeperRequired; }
 		public:
-			void Set(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
+			void		Set(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
 				if (LEFT == "Trader") {
 					m_TraderArg = Args[0];
 				}
@@ -40,7 +39,7 @@ namespace FPS_n2 {
 				}
 				else if (LEFT == "NeedItem") {
 					for (auto&a : Args) {
-						m_ItemArgs.emplace_back(a);
+						SetGetData<ItemGetData>(&this->m_Item, a, "x");
 					}
 				}
 				else if (LEFT == "NeedKappa") {
@@ -52,15 +51,11 @@ namespace FPS_n2 {
 			}
 			void		SetAfter() noexcept {
 				m_Trader = TraderData::Instance()->FindID(m_TraderArg);
-				for (auto& a : m_ItemArgs) {
-					SetGetData<ItemGetData, ItemData>(&this->m_Item, a);
+				for (auto& T : this->m_Item) {
+					T.CheckID(ItemData::Instance());
 				}
 			}
-			void		SetNeedTasktoID(const std::vector<TaskList>& taskList) noexcept {
-				for (auto& t : m_Parenttask) {
-					t.CheckID(taskList);
-				}
-			}
+			void		SetNeedTasktoID() noexcept;
 		};
 		class TaskWorkData {
 			class EnemyKill {
@@ -97,9 +92,6 @@ namespace FPS_n2 {
 		private:
 			std::vector<std::string>					m_EnemyKillArgs;
 
-			std::vector<std::string>					m_FiR_ItemArgs;
-			std::vector<std::string>					m_NotFiR_ItemArgs;
-
 			std::vector<std::string>					m_PresetArgs;
 			std::vector<std::string>					m_MapArgs;
 		public:
@@ -126,12 +118,12 @@ namespace FPS_n2 {
 				}
 				else if (LEFT == "Task_FiR_HandOver") {
 					for (auto&a : Args) {
-						m_FiR_ItemArgs.emplace_back(a);
+						SetGetData<ItemGetData>(&this->m_FiR_Item, a, "x");
 					}
 				}
 				else if (LEFT == "Task_NotFiR_HandOver") {
 					for (auto&a : Args) {
-						m_NotFiR_ItemArgs.emplace_back(a);
+						SetGetData<ItemGetData>(&this->m_NotFiR_Item, a, "x");
 					}
 				}
 				else if (LEFT == "Task_WeaponPreset_HandOver") {
@@ -143,7 +135,7 @@ namespace FPS_n2 {
 					this->m_ElseMsg.emplace_back(Args[0]);
 				}
 				else if (LEFT == "Task_PinPoint") {//特殊　メッセージ
-					this->m_Pin.resize(this->m_Pin.size()+1);
+					this->m_Pin.resize(this->m_Pin.size() + 1);
 					this->m_Pin.back().m_Point.Set(std::stof(Args[0]), std::stof(Args[1]), std::stof(Args[2]));
 				}
 				else if (LEFT == "Task_PinMap") {//特殊　メッセージ
@@ -191,11 +183,11 @@ namespace FPS_n2 {
 					SetKill(a);
 				}
 
-				for (auto& a : m_FiR_ItemArgs) {
-					SetGetData<ItemGetData, ItemData>(&this->m_FiR_Item, a);
+				for (auto& T : this->m_FiR_Item) {
+					T.CheckID(ItemData::Instance());
 				}
-				for (auto& a : m_NotFiR_ItemArgs) {
-					SetGetData<ItemGetData, ItemData>(&this->m_NotFiR_Item, a);
+				for (auto& T : this->m_NotFiR_Item) {
+					T.CheckID(ItemData::Instance());
 				}
 
 
@@ -213,38 +205,27 @@ namespace FPS_n2 {
 		class TaskRewardData {
 			std::vector<TraderLLData>	m_LLAdd;
 			std::vector<ItemGetData>	m_Item;
-
-			std::vector<std::pair<std::string, int>>		m_LLAddArgs;
-			std::vector<std::string>					m_ItemArgs;
 		public:
 			const auto& GetLLAdd() const noexcept { return m_LLAdd; }
 			const auto& GetItem() const noexcept { return m_Item; }
 		public:
 			void Set(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
 				if (LEFT == "Reward_Rep") {
-					auto plus = Args[0].find("+");
-					if (plus != std::string::npos) {
-						m_LLAddArgs.emplace_back(std::make_pair(Args[0].substr(0, plus), (int)(std::stof(Args[0].substr(plus + 1)) * 100.f)));
-					}
-					auto minus = Args[0].find("-");
-					if (minus != std::string::npos) {
-						m_LLAddArgs.emplace_back(std::make_pair(Args[0].substr(0, minus), (int)(std::stof(Args[0].substr(minus + 1)) * 100.f)));
-					}
+					SetGetData(&this->m_LLAdd, Args[0], "+");
+					SetGetData(&this->m_LLAdd, Args[0], "-");
 				}
 				else if (LEFT == "Reward_Item") {
 					for (auto&a : Args) {
-						m_ItemArgs.emplace_back(a);
+						SetGetData<ItemGetData>(&this->m_Item, a, "x");
 					}
 				}
 			}
 			void		SetAfter() noexcept {
-				for (auto& L : m_LLAddArgs) {
-					TraderLLData tmp;
-					tmp.Set(TraderData::Instance()->FindID(L.first.c_str()), L.second);
-					this->m_LLAdd.emplace_back(tmp);
+				for (auto& L : this->m_LLAdd) {
+					L.CheckID(TraderData::Instance());
 				}
-				for (auto& a : m_ItemArgs) {
-					SetGetData<ItemGetData, ItemData>(&this->m_Item, a);
+				for (auto& T : this->m_Item) {
+					T.CheckID(ItemData::Instance());
 				}
 			}
 		};
@@ -280,8 +261,8 @@ namespace FPS_n2 {
 		}
 		void			WhenAfterLoad_Sub() noexcept override {}
 
-		void			SetNeedTasktoID(const std::vector<TaskList>& taskList) noexcept {
-			m_TaskNeedData.SetNeedTasktoID(taskList);
+		void			SetNeedTasktoID() noexcept {
+			m_TaskNeedData.SetNeedTasktoID();
 		}
 		const int		Draw(int xp, int yp, int xsize, int ysize) const noexcept;
 		void			DrawWindow(WindowSystem::WindowControl* window, int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept {
@@ -815,10 +796,10 @@ namespace FPS_n2 {
 		};
 		struct traderStanding {
 			std::string							trader;
-			float								standing;
+			int								standingx100;
 			void GetJsonData(const nlohmann::json& data) {
 				trader = data["trader"]["name"];
-				standing = data["standing"];
+				standingx100 = (int)((float)data["standing"] * 100.f);
 			}
 		};
 		struct skillLevelReward {
@@ -932,13 +913,13 @@ namespace FPS_n2 {
 		}
 		~TaskData() noexcept {}
 	private:
-		
+
 	private:
 		std::vector<int> TraderIDs;
 	public:
 		void			SetNeedTasktoID() noexcept {
 			for (auto& t : m_List) {
-				t.SetNeedTasktoID(m_List);
+				t.SetNeedTasktoID();
 			}
 		}
 		void InitDatabyJson() noexcept {
@@ -948,7 +929,7 @@ namespace FPS_n2 {
 		void SaveDatabyJson() noexcept {
 			for (auto& L : m_List) {
 				for (auto& jd : GetJsonDataList()) {
-					if (L.GetIDstr() == jd->id) {
+					if (L.GetIDstr() == jd->m_id) {
 						L.m_CheckJson++;
 
 						jd->OutputData(L.GetFilePath());
@@ -956,7 +937,7 @@ namespace FPS_n2 {
 						//既存のものを保持しておく
 						std::ofstream outputfile(L.GetFilePath(), std::ios::app);
 						for (const auto& p : L.GetTaskWorkData().GetPin()) {
-							outputfile << "Task_PinPoint=[" + std::to_string(p.m_Point.x()) + DIV_STR + std::to_string(p.m_Point.y()) + DIV_STR + std::to_string(p.m_Point.z())+ "]\n";
+							outputfile << "Task_PinPoint=[" + std::to_string(p.m_Point.x()) + DIV_STR + std::to_string(p.m_Point.y()) + DIV_STR + std::to_string(p.m_Point.z()) + "]\n";
 							outputfile << "Task_PinMap=[" + MapData::Instance()->FindPtr(p.m_MapID)->GetName() + DIV_STR + std::to_string(p.m_MapSel) + "]\n";
 						}
 						outputfile.close();
@@ -995,7 +976,7 @@ namespace FPS_n2 {
 						sprintfDx(tID, "%02d%03d", trID, TraderIDs[trID]);
 						TraderIDs[trID]++;
 						FileName = tID;
-						FileName += "_" + jd->name + ".txt";
+						FileName += "_" + jd->m_name + ".txt";
 
 					}
 					SubStrs(&FileName, ".");

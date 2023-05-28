@@ -45,8 +45,8 @@ Task_Else=E‚Á‚Ä”[•i:Interchange-Chemical container #3x1
 	TaskOptional=false
 ]
 
-Reward_Rep=Skier+0.050000
-Reward_Rep=Jaeger-0.010000
+Reward_Rep=Skier+5
+Reward_Rep=Jaeger-1
 Reward_Item=[
 	Roublesx40000/|
 	Holosun HS401G5 reflex sightx3/|

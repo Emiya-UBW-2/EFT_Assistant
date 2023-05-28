@@ -23,7 +23,7 @@ Task_Else=íEèoínì_:Klimov Street
 Reward_Item=[
 	RSP-30 reactive signal cartridge (Green)x2
 ]
-Reward_Rep=Jaeger+0.020000
+Reward_Rep=Jaeger+2
 Reward_Item=[
 	ZiD SP-81 26x75 signal pistolx1/|
 	26x75mm flare cartridge (Green)x3/|

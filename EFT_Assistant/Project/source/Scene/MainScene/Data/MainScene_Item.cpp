@@ -66,7 +66,6 @@ namespace FPS_n2 {
 			this->m_ItemsData.m_MapID.resize(this->m_ItemsData.m_MapID.size() + 1);
 			this->m_ItemsData.m_MapID.back().SetName(Args[0]);
 		}
-		else if (LEFT == "basePrice") { this->m_ItemsData.m_basePrice = std::stoi(Args[0]); }
 		else if (LEFT == "width") { this->m_ItemsData.m_width = std::stoi(Args[0]); }
 		else if (LEFT == "height") { this->m_ItemsData.m_height = std::stoi(Args[0]); }
 		else if (LEFT.find("Sell_") != std::string::npos) {
@@ -80,12 +79,12 @@ namespace FPS_n2 {
 		m_ItemsData.m_properties.SetData(LEFT, Args);
 	}
 	void			ItemList::Load_Sub() noexcept {
-		this->m_ItemsData.m_TypeID.CheckID(ItemTypeData::Instance()->GetList());
+		this->m_ItemsData.m_TypeID.CheckID(ItemTypeData::Instance());
 		for (auto& m : this->m_ItemsData.m_MapID) {
-			m.CheckID(MapData::Instance()->GetList());
+			m.CheckID(MapData::Instance());
 		}
 		for (auto s : this->m_ItemsData.m_sellFor) {
-			s.first.CheckID(TraderData::Instance()->GetList(),false);//Invalidはフリマなのでエラー出さない
+			s.first.CheckID(TraderData::Instance(), false);//Invalidはフリマなのでエラー出さない
 		}
 		//
 		{
@@ -104,12 +103,12 @@ namespace FPS_n2 {
 	void			ItemList::SetParent() noexcept {
 		for (auto& cp : this->m_ItemsData.m_properties.SetModSlots()) {
 			for (auto& c : cp.m_Data) {
-				c.CheckID(ItemData::Instance()->GetList());
+				c.CheckID(ItemData::Instance());
 			}
 		}
 		this->m_ItemsData.m_ParentPartsID.clear();
 		for (const auto& t : ItemData::Instance()->GetList()) {
-			for (auto& cp : t.m_ItemsData.m_properties.GetModSlots()) {
+			for (auto& cp : t.GetChildParts()) {
 				for (auto& c : cp.m_Data) {
 					if (c.GetID() == this->GetID()) {
 						this->m_ItemsData.m_ParentPartsID.emplace_back(t.GetID());
@@ -125,7 +124,7 @@ namespace FPS_n2 {
 		}
 		//
 		for (auto& cp : this->m_ItemsData.m_properties.SetConflictPartsID()) {
-			cp.CheckID(ItemData::Instance()->GetList());
+			cp.CheckID(ItemData::Instance());
 		}
 		//自分を干渉相手にしている奴を探してそいつもリストに入れる　相思相愛
 		for (const auto& t : ItemData::Instance()->GetList()) {
@@ -655,11 +654,11 @@ namespace FPS_n2 {
 			}
 			//
 			{
-				if (this->m_ItemsData.m_properties.GetModSlots().size() > 0) {
+				if (this->GetChildParts().size() > 0) {
 					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STRX_LEFT, White, Black, "ChildrenMods:") + y_r(30)); yofs += LineHeight + y_r(5);
 				}
 				int ysize = (int)((float)y_r(42));
-				for (const auto& cp : this->m_ItemsData.m_properties.GetModSlots()) {
+				for (const auto& cp : this->GetChildParts()) {
 					for (const auto& c : cp.m_Data) {
 						auto* ptr = ItemData::Instance()->FindPtr(c.GetID());
 						xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, y_r(800), ysize, 0, defaultcolor, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0)), false, true, false) + y_r(30));
@@ -705,57 +704,18 @@ namespace FPS_n2 {
 	}
 	//
 	void ItemJsonData::GetJsonSub(const nlohmann::json& data) noexcept {
-		shortName = data["shortName"];
-		if (data.contains("description")) {
-			if (!data["description"].is_null()) {
-				description = data["description"];
-			}
-		}
-		if (data.contains("basePrice")) {
-			if (!data["basePrice"].is_null()) {
-				m_ItemsData.m_basePrice = data["basePrice"];
-			}
-		}
-		if (data.contains("width")) {
-			m_ItemsData.m_width = data["width"];
-		}
-		if (data.contains("height")) {
-			m_ItemsData.m_height = data["height"];
-		}
-		
-		for (const auto& sf : data["sellFor"]) {
-			std::string vendor = sf["vendor"]["name"];
-			int price = sf["price"];
-			sellFor.emplace_back(std::make_pair(vendor, price));
-		}
-		for (const auto& sf : data["buyFor"]) {
-			std::string vendor = sf["vendor"]["name"];
-			int price = sf["price"];
-			buyFor.emplace_back(std::make_pair(vendor, price));
-		}
-		categorytypes = data["category"]["name"];
+		m_categorytypes = data["category"]["name"];
+		if (data.contains("width")) { m_ItemsData.m_width = data["width"]; }
+		if (data.contains("height")) { m_ItemsData.m_height = data["height"]; }
 		m_ItemsData.m_weight = data["weight"];
+		for (const auto& sf : data["sellFor"]) {
+			m_ItemsData.m_sellFor.resize(m_ItemsData.m_sellFor.size() + 1);
+			m_ItemsData.m_sellFor.back().first.SetName(sf["vendor"]["name"]);
+			m_ItemsData.m_sellFor.back().second = sf["price"];
+		}
 		for (const auto& ts : data["conflictingItems"]) {
 			m_ItemsData.m_properties.SetConflictPartsID().resize(m_ItemsData.m_properties.SetConflictPartsID().size() + 1);
 			m_ItemsData.m_properties.SetConflictPartsID().back().SetName(ts["name"]);
-		}
-		for (const auto& ts : data["usedInTasks"]) {
-			usedInTasks.emplace_back((std::string)ts["name"]);
-		}
-		for (const auto& ts : data["receivedFromTasks"]) {
-			receivedFromTasks.emplace_back((std::string)ts["name"]);
-		}
-		for (const auto& ts : data["bartersFor"]) {
-			bartersFor.emplace_back((std::string)ts["trader"]["name"]);
-		}
-		for (const auto& ts : data["bartersUsing"]) {
-			bartersUsing.emplace_back((std::string)ts["trader"]["name"]);
-		}
-		for (const auto& ts : data["craftsFor"]) {
-			craftsFor.emplace_back((std::string)ts["station"]["name"]);
-		}
-		for (const auto& ts : data["craftsUsing"]) {
-			craftsUsing.emplace_back((std::string)ts["station"]["name"]);
 		}
 		if (data.contains("properties")) {
 			if (!data["properties"].is_null()) {
@@ -764,15 +724,12 @@ namespace FPS_n2 {
 		}
 	}
 	void ItemJsonData::OutputDataSub(std::ofstream& outputfile) noexcept {
-		outputfile << "ShortName=" + this->shortName + "\n";
-		outputfile << "Itemtype=" + this->categorytypes + "\n";
-		outputfile << "Information_Eng=" + this->description + "\n";
-		outputfile << "basePrice=" + std::to_string(this->m_ItemsData.m_basePrice) + "\n";
+		outputfile << "Itemtype=" + this->m_categorytypes + "\n";
 		outputfile << "width=" + std::to_string(this->m_ItemsData.m_width) + "\n";
 		outputfile << "height=" + std::to_string(this->m_ItemsData.m_height) + "\n";
 		outputfile << "weight=" + std::to_string(this->m_ItemsData.m_weight) + "\n";
-		for (auto& sf : this->sellFor) {
-			outputfile << "Sell_" + sf.first + "=" + std::to_string(sf.second) + "\n";
+		for (auto& sf : this->m_ItemsData.m_sellFor) {
+			outputfile << "Sell_" + sf.first.GetName() + "=" + std::to_string(sf.second) + "\n";
 		}
 		outputfile << "fleaMarketFee=" + std::to_string(this->m_ItemsData.m_fleaMarketFee) + "\n";
 		this->m_ItemsData.m_properties.OutputData(outputfile);

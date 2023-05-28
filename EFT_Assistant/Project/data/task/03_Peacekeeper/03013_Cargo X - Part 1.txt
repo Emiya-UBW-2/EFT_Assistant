@@ -24,7 +24,7 @@ Task_Else=èEÇ¡Çƒî[ïi:Shoreline-Toughbook reinforced laptopx1
 	TaskOptional=false
 ]
 
-Reward_Rep=Peacekeeper+0.030000
+Reward_Rep=Peacekeeper+3
 Reward_Item=[
 	Dollarsx700/|
 	Colt M45A1 .45 ACP pistol Mew-mewx2/|

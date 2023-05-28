@@ -60,31 +60,32 @@ namespace FPS_n2 {
 	//
 	class ItemList : public ListParent<ItemID> {
 	public:
-		class ChildItemSettings {
-			std::vector<ItemTypeID>									m_TypeID;
-		public:
-			std::vector<IDParents<ItemID, ItemList>>				m_Data;
-		public:
-			void			SetTypeID(ItemTypeID TypeID) noexcept {
-				bool isHit = false;
-				for (const auto& t : this->m_TypeID) {
-					if (t == TypeID) {
-						isHit = true;
-						break;
+		class ItemProperties {
+			class ChildItemSettings {
+				std::vector<ItemTypeID>									m_TypeID;
+			public:
+				std::vector<IDParents<ItemID>>				m_Data;
+			public:
+				void			SetTypeID(ItemTypeID TypeID) noexcept {
+					bool isHit = false;
+					for (const auto& t : this->m_TypeID) {
+						if (t == TypeID) {
+							isHit = true;
+							break;
+						}
+					}
+					if (!isHit) {
+						this->m_TypeID.emplace_back(TypeID);
 					}
 				}
-				if (!isHit) {
-					this->m_TypeID.emplace_back(TypeID);
-				}
-			}
-			const auto&		GetTypeID() const noexcept { return m_TypeID; }
-		};
-		class ItemProperties {
+				const auto&		GetTypeID() const noexcept { return m_TypeID; }
+			};
+		private:
 			EnumItemProperties						m_Type{ EnumItemProperties::Max };
 			std::array<int, 4>						m_IntParams{ 0,0,0,0 };
 			std::array<float, 4>					m_floatParams{ 0,0,0,0 };
 			std::vector<ChildItemSettings>			m_ChildPartsID;
-			std::vector<IDParents<ItemID, ItemList>>m_ConflictPartsID;
+			std::vector<IDParents<ItemID>>			m_ConflictPartsID;
 		public:
 			const auto*		GetTypeName() const noexcept { return (m_Type != EnumItemProperties::Max) ? ItemPropertiesStr[(int)m_Type] : ""; }
 			const auto&		GetType() const noexcept { return m_Type; }
@@ -479,22 +480,20 @@ namespace FPS_n2 {
 			void			OutputData(std::ofstream& outputfile) noexcept;
 		};
 		struct ItemsData {
-			IDParents<ItemTypeID, ItemTypeList>							m_TypeID;
-			std::vector<IDParents<MapID, MapList>>						m_MapID;
-			std::vector<ItemID>											m_ParentPartsID;
-
-			bool														m_isWeapon{ false };
-			bool														m_isWeaponMod{ false };
-			int															m_basePrice{ 0 };
-			int															m_width{ 0 };
-			int															m_height{ 0 };
-			std::vector<std::pair<IDParents<TraderID, TraderList>, int>>m_sellFor;
-			float														m_weight{ 0.f };
-			int															m_fleaMarketFee{ 0 };
-
-			ItemList::ItemProperties									m_properties;
-			//
-			std::vector<TaskID>											m_UseTaskID;
+			//ÉfÅ[É^
+			IDParents<ItemTypeID>								m_TypeID;
+			std::vector<IDParents<MapID>>						m_MapID;
+			int													m_width{ 0 };
+			int													m_height{ 0 };
+			float												m_weight{ 0.f };
+			std::vector<std::pair<IDParents<TraderID>, int>>	m_sellFor;
+			int													m_fleaMarketFee{ 0 };
+			ItemList::ItemProperties							m_properties;
+			//í«â¡èÓïÒ
+			std::vector<ItemID>									m_ParentPartsID;
+			bool												m_isWeapon{ false };
+			bool												m_isWeaponMod{ false };
+			std::vector<TaskID>									m_UseTaskID;
 		};
 	private:
 		ItemsData												m_ItemsData;
@@ -510,7 +509,6 @@ namespace FPS_n2 {
 		const auto&	GetMapID() const noexcept { return m_ItemsData.m_MapID; }
 		const auto&	GetChildParts() const noexcept { return m_ItemsData.m_properties.GetModSlots(); }
 		const auto&	GetConflictParts() const noexcept { return m_ItemsData.m_properties.GetConflictPartsID(); }
-		const auto&	GetbasePrice() const noexcept { return m_ItemsData.m_basePrice; }
 		const auto&	Getwidth() const noexcept { return m_ItemsData.m_width; }
 		const auto&	Getheight() const noexcept { return m_ItemsData.m_height; }
 		const auto&	GetsellFor() const noexcept { return m_ItemsData.m_sellFor; }
@@ -577,19 +575,7 @@ namespace FPS_n2 {
 	class ItemJsonData :public JsonDataParent {
 	public:
 		ItemList::ItemsData							m_ItemsData;
-
-		std::string									shortName;
-		std::string									description;
-		std::vector<std::pair<std::string, int>>	sellFor;
-		std::vector<std::pair<std::string, int>>	buyFor;
-		std::string									categorytypes;
-
-		std::vector<std::string>					usedInTasks;
-		std::vector<std::string>					receivedFromTasks;
-		std::vector<std::string>					bartersFor;
-		std::vector<std::string>					bartersUsing;
-		std::vector<std::string>					craftsFor;
-		std::vector<std::string>					craftsUsing;
+		std::string									m_categorytypes;
 	public:
 		void GetJsonSub(const nlohmann::json& data) noexcept override;
 		void OutputDataSub(std::ofstream& outputfile) noexcept override;
@@ -630,7 +616,7 @@ namespace FPS_n2 {
 		void UpdateData() noexcept {
 			for (auto& L : m_List) {
 				for (auto& jd : m_ItemJsonData) {
-					if (L.GetIDstr() == jd.id) {
+					if (L.GetIDstr() == jd.m_id) {
 						L.m_CheckJson++;
 
 						jd.OutputData(L.GetFilePath());
@@ -653,7 +639,7 @@ namespace FPS_n2 {
 			bool maked = false;
 			for (auto& jd : m_ItemJsonData) {
 				if (!jd.m_IsFileOpened) {
-					std::string ParentPath = Path + jd.categorytypes;
+					std::string ParentPath = Path + jd.m_categorytypes;
 
 					if (!maked) {
 						CreateDirectory(ParentPath.c_str(), NULL);
@@ -662,7 +648,7 @@ namespace FPS_n2 {
 
 					std::string ChildPath = ParentPath + "/";
 
-					std::string FileName = jd.name;
+					std::string FileName = jd.m_name;
 					SubStrs(&FileName, ".");
 					SubStrs(&FileName, "\\");
 					SubStrs(&FileName, "/");

@@ -37,52 +37,20 @@ namespace FPS_n2 {
 			InterruptParts::Create();
 			WindowSystem::WindowManager::Create();
 			//
-			auto BaseTime = GetNowHiPerformanceCount();
+			//auto BaseTime = GetNowHiPerformanceCount();
 			{
 				ItemCategoryData::Create();//0s
-				{
-					std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000 / 1000);
-					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
-				}
 				ItemTypeData::Create();//0s
-				{
-					std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000 / 1000);
-					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
-				}
 				ItemData::Create();//20s
-				{
-					std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000 / 1000);
-					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
-				}
 				PresetData::Create();//21s
-				{
-					std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000 / 1000);
-					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
-				}
 				EnemyData::Create();//21s
-				{
-					std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000 / 1000);
-					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
-				}
 				TraderData::Create();//21s
-				{
-					std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000 / 1000);
-					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
-				}
 				MapData::Create();//21s
-				{
-					std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000 / 1000);
-					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
-				}
 				TaskData::Create();//24s
-				{
-					std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000 / 1000);
-					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
-				}
 				HideoutData::Create();//24s
 				{
-					std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000 / 1000);
-					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+					//std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000 / 1000);
+					//DataErrorLog::Instance()->AddLog(ErrMes.c_str());
 				}
 			}
 			//
@@ -109,8 +77,8 @@ namespace FPS_n2 {
 				SetUseASyncLoadFlag(FALSE);
 				//24
 				{
-					std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000 / 1000);
-					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+					//std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000 / 1000);
+					//DataErrorLog::Instance()->AddLog(ErrMes.c_str());
 				}
 				m_Loading = true;
 			}

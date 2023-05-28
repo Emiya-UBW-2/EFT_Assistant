@@ -30,7 +30,7 @@ NeedItem=[
 Reward_Item=[
 	SR-2M "Veresk" 9x21 submachine gun FSBx1
 ]
-Reward_Rep=Prapor+0.020000
+Reward_Rep=Prapor+2
 Reward_Item=[
 	Roublesx300000/|
 	ASh-12 12.7x55 assault rifle Silencedx1/|

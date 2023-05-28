@@ -30,7 +30,7 @@ Task_Else=width >= 0
 	TaskOptional=false
 ]
 
-Reward_Rep=Mechanic+0.020000
+Reward_Rep=Mechanic+2
 Reward_Item=[
 	Dollarsx500/|
 	AR-15 Vendetta Precision VP-09 Interceptor 5.56x45 muzzle brakex1/|

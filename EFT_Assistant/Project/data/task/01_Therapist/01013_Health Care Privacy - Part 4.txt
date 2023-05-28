@@ -17,7 +17,7 @@ Task_Else=Skill‚ğã‚°‚é:Health+4.000000
 	TaskOptional=false
 ]
 
-Reward_Rep=Therapist+0.040000
+Reward_Rep=Therapist+4
 Reward_Item=[
 	Roublesx29000/|
 	Grizzly medical kitx2/|

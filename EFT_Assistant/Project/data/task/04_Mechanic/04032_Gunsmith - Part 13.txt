@@ -28,7 +28,7 @@ Task_Else=width >= 0
 	TaskOptional=false
 ]
 
-Reward_Rep=Mechanic+0.020000
+Reward_Rep=Mechanic+2
 Reward_Item=[
 	Dollarsx500/|
 	Corrugated hosex2/|

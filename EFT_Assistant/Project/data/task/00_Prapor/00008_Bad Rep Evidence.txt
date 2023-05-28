@@ -43,7 +43,7 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 	TaskOptional=false
 ]
 
-Reward_Rep=Prapor+0.030000
+Reward_Rep=Prapor+3
 Reward_Item=[
 	Roublesx35000/|
 	PP-91-01 "Kedr-B" 9x18PM submachine gun Defaultx1/|

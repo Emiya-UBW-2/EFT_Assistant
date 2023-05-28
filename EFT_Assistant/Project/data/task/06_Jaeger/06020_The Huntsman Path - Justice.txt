@@ -19,7 +19,7 @@ Task_Kill=[
 	TaskOptional=false
 ]
 
-Reward_Rep=Jaeger+0.020000
+Reward_Rep=Jaeger+2
 Reward_Item=[
 	Roublesx80000/|
 	Expeditionary fuel tankx3/|

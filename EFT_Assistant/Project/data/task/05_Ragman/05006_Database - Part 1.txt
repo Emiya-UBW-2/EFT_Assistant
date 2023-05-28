@@ -46,7 +46,7 @@ Task_Else=E‚Á‚Ä”[•i:Interchange-IDEA cargo manifestsx1
 	TaskOptional=false
 ]
 
-Reward_Rep=Ragman+0.030000
+Reward_Rep=Ragman+3
 Reward_Item=[
 	Roublesx30000/|
 	MSA Sordin Supreme PRO-X/L active headsetx1/|

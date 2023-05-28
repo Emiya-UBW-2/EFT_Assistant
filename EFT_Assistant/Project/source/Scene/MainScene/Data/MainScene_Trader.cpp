@@ -5,11 +5,11 @@ namespace FPS_n2 {
 	void	TraderList::Load_Sub() noexcept {
 		for (auto& L : m_LvData) {
 			for (auto& C : L.m_ItemBarters) {
-				for (auto& a : C.m_ItemReqArgs) {
-					SetGetData<ItemGetData, ItemData>(&C.m_ItemReq, a);
+				for (auto& T : C.m_ItemReq) {
+					T.CheckID(ItemData::Instance());
 				}
-				for (auto& a : C.m_ItemRewardArgs) {
-					SetGetData<ItemGetData, ItemData>(&C.m_ItemReward, a);
+				for (auto& T : C.m_ItemReward) {
+					T.CheckID(ItemData::Instance());
 				}
 			}
 		}
@@ -51,18 +51,17 @@ namespace FPS_n2 {
 						auto& B = L.m_ItemBarters.back();
 						for (const auto&I : m["requiredItems"]) {
 							ItemGetData buf;
-							buf.Set(ItemData::Instance()->FindID((std::string)(I["item"]["name"])), I["count"]);
+							buf.Set(I["item"]["name"], I["count"]);
 							B.m_ItemReq.emplace_back(buf);
 						}
 						for (const auto&I : m["rewardItems"]) {
 							ItemGetData buf;
-							buf.Set(ItemData::Instance()->FindID((std::string)(I["item"]["name"])), I["count"]);
+							buf.Set(I["item"]["name"], I["count"]);
 							B.m_ItemReward.emplace_back(buf);
 						}
 					}
 				}
 			}
-
 			if (Ld.contains("cashOffers")) {
 				if (!Ld["cashOffers"].is_null()) {
 					for (const auto&m : Ld["cashOffers"]) {
@@ -70,22 +69,31 @@ namespace FPS_n2 {
 						auto& B = L.m_ItemBarters.back();
 						{
 							ItemGetData buf;
-							buf.Set(ItemData::Instance()->FindID((std::string)(m["currencyItem"]["name"])), m["price"]);
+							buf.Set(m["currencyItem"]["name"], m["price"]);
 							B.m_ItemReq.emplace_back(buf);
 						}
 						{
 							ItemGetData buf;
-							buf.Set(ItemData::Instance()->FindID((std::string)(m["item"]["name"])), 1);
+							buf.Set(m["item"]["name"], 1);
 							B.m_ItemReward.emplace_back(buf);
 						}
 					}
 				}
 			}
+			for (auto& B : L.m_ItemBarters) {
+				for (auto& T : B.m_ItemReq) {
+					T.CheckID(ItemData::Instance());
+				}
+				for (auto& T : B.m_ItemReward) {
+					T.CheckID(ItemData::Instance());
+				}
+			}
+
 		}
 	}
 	void TraderJsonData::OutputDataSub(std::ofstream& outputfile) noexcept {
 		{
-			auto* ptr = TraderData::Instance()->FindPtr(TraderData::Instance()->FindID(this->name));
+			auto* ptr = TraderData::Instance()->FindPtr(TraderData::Instance()->FindID(this->m_name));
 			outputfile << "Color=[" + std::to_string(ptr->GetColorRGB(0)) + DIV_STR + std::to_string(ptr->GetColorRGB(1)) + DIV_STR + std::to_string(ptr->GetColorRGB(2)) + "]\n";
 		}
 		outputfile << "Information_Eng=" + this->Information_Eng + "\n";

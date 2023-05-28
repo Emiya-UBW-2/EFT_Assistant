@@ -21,7 +21,7 @@ Task_Else=©•ª‚ÌˆÙíó‘Ô:[Tremor]
 	TaskOptional=false
 ]
 
-Reward_Rep=Jaeger+0.020000
+Reward_Rep=Jaeger+2
 Reward_Item=[
 	Roublesx75000
 ]

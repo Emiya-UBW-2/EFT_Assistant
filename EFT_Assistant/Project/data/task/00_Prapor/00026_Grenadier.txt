@@ -30,7 +30,7 @@ NeedItem=[
 	TaskOptional=false
 ]
 
-Reward_Rep=Prapor+0.020000
+Reward_Rep=Prapor+2
 Reward_Item=[
 	Roublesx75000/|
 	12.7x55mm PS12Bx100/|

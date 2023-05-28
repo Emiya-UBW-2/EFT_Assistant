@@ -30,7 +30,7 @@ NeedItem=[
 	TaskOptional=false
 ]
 
-Reward_Rep=Jaeger+0.020000
+Reward_Rep=Jaeger+2
 Reward_Item=[
 	Roublesx85000/|
 	Mosin Rifle ATI Monte Carlo chassisx1/|

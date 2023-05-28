@@ -20,8 +20,8 @@ Task_Kill=[
 	TaskOptional=false
 ]
 
-Reward_Rep=Ragman+0.020000
-Reward_Rep=Jaeger+0.010000
+Reward_Rep=Ragman+2
+Reward_Rep=Jaeger+1
 Reward_Item=[
 	Roublesx25000/|
 	WARTECH TV-109 + TV-106 chest rigx3

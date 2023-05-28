@@ -114,7 +114,7 @@ Reward_Item=[
 	GSSh-01 active headsetx1/|
 	PB 9x18PM silenced pistol Defaultx1
 ]
-Reward_Rep=Prapor+0.030000
+Reward_Rep=Prapor+3
 Reward_Item=[
 	Roublesx50000/|
 	Military cablex2/|

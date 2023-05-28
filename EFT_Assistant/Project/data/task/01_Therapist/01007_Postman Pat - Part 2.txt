@@ -16,7 +16,7 @@ NeedLightkeeper=false
 	TaskOptional=false
 ]
 
-Reward_Rep=Therapist+0.020000
+Reward_Rep=Therapist+2
 Reward_Item=[
 	Roublesx5000
 ]

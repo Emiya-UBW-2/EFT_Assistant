@@ -24,7 +24,7 @@ DogTagLv=0
 	TaskOptional=false
 ]
 
-Reward_Rep=Skier+0.040000
+Reward_Rep=Skier+4
 Reward_Item=[
 	Roublesx30000/|
 	Simonov OP-SKS 7.62x39 carbine (Hunting Rifle Version) UASx1/|

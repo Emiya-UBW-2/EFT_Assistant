@@ -63,7 +63,7 @@ DogTagLv=0
 	TaskOptional=false
 ]
 
-Reward_Rep=Prapor+0.030000
+Reward_Rep=Prapor+3
 Reward_Item=[
 	Roublesx100000/|
 	Colt M4A1 5.56x45 assault rifle SOPMOD II Flashx1

@@ -27,8 +27,8 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 	TaskOptional=false
 ]
 
-Reward_Rep=Therapist+0.030000
-Reward_Rep=Skier-0.020000
+Reward_Rep=Therapist+3
+Reward_Rep=Skier-2
 Reward_Item=[
 	Roublesx14000/|
 	Bottle of water (0.6L)x5/|

@@ -16,6 +16,9 @@ namespace FPS_n2 {
 		std::string				m_FilePath;
 		std::array<int, 3>		m_Color{ 0,0,0 };
 
+		std::unique_ptr<std::thread> m_SetJob{ nullptr };
+		bool					m_SetFinish{ false };
+
 		Graphs					m_Icon;
 	private:
 		void			SetCommon(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
@@ -41,6 +44,7 @@ namespace FPS_n2 {
 		virtual void	Load_Sub() noexcept {}
 		virtual void	WhenAfterLoad_Sub() noexcept {}
 	public:
+		const auto&		GetIsSetFinish() const noexcept { return m_SetFinish; }
 		const auto&		GetID() const noexcept { return m_ID; }
 		const auto&		GetIDstr() const noexcept { return m_IDstr; }
 		const auto&		GetName() const noexcept { return m_Name; }
@@ -52,40 +56,47 @@ namespace FPS_n2 {
 		const auto&		GetIcon() const noexcept { return m_Icon; }
 	public:
 		void			Set(const char* FilePath, ID id, const char* IconPath = nullptr) noexcept {
-			m_ID = id;
-			int mdata = FileRead_open(FilePath, FALSE);
 			m_FilePath = FilePath;
-			while (true) {
-				if (FileRead_eof(mdata) != 0) { break; }
-				auto ALL = getparams::Getstr(mdata);
-				SubRIGHTStrs(&ALL, "//");				//コメントアウト
-				//
-				if (ALL == "") { continue; }
-				auto RIGHT = getparams::getright(ALL);
-				if (RIGHT == "[") {
-					std::vector<std::string> Args;
-					while (true) {
-						if (FileRead_eof(mdata) != 0) { break; }
-						auto ALL2 = getparams::Getstr(mdata);
-						if (ALL2.find("]") != std::string::npos) { break; }
-						SubRIGHTStrs(&ALL2, "//");				//コメントアウト
-						SubStrs(&ALL2, "\t");
-						SubStrs(&ALL2, DIV_STR);
-						SubStrs(&ALL2, ",");
-						Args.emplace_back(ALL2);
+			m_ID = id;
+
+			m_SetFinish = false;
+			m_SetJob = std::make_unique<std::thread>([&]() {
+				std::ifstream File(m_FilePath);
+				std::string line;
+				while (std::getline(File, line)) {
+					SubRIGHTStrs(&line, "//");				//コメントアウト
+					//
+					if (line == "") { continue; }
+					auto RIGHT = getparams::getright(line);
+					if (RIGHT == "[") {
+						std::vector<std::string> Args;
+						std::string line2;
+						while (std::getline(File, line2)) {
+							if (line2.find("]") != std::string::npos) { break; }
+							SubRIGHTStrs(&line2, "//");				//コメントアウト
+							SubStrs(&line2, "\t");
+							SubStrs(&line2, DIV_STR);
+							SubStrs(&line2, ",");
+							Args.emplace_back(line2);
+						}
+						SetCommon(getparams::getleft(line), Args);
 					}
-					SetCommon(getparams::getleft(ALL), Args);
+					else {
+						SetCommon(getparams::getleft(line), GetArgs(RIGHT));
+					}
 				}
-				else {
-					SetCommon(getparams::getleft(ALL), GetArgs(RIGHT));
-				}
-			}
-			FileRead_close(mdata);
+				File.close();
+				m_SetFinish = true;
+			});
+
 			if (IconPath) {
 				m_Icon.SetPath(IconPath);
 			}
 		}
 		void			Load(bool IsPushLog) noexcept {
+			m_SetJob->detach();
+			m_SetJob.release();
+
 			if (!m_Icon.LoadByPath(false) && IsPushLog) {
 				std::string ErrMes = "Error : Not Find Image : ";
 				ErrMes += this->GetName();
@@ -123,6 +134,16 @@ namespace FPS_n2 {
 				m_List[index].Set((d + ".txt").c_str(), (ID)index, (d + ".png").c_str());
 			}
 			DirNames.clear();
+			while (true) {
+				bool isHit = false;
+				for (auto&t : m_List) {
+					if (!t.GetIsSetFinish()) {
+						isHit = true;
+						break;
+					}
+				}
+				if (!isHit) { break; }
+			}
 		}
 	public:
 		void			LoadList(bool IsPushLog) noexcept {
@@ -168,7 +189,7 @@ namespace FPS_n2 {
 	};
 
 	//
-	template <class ID, class List>
+	template <class ID>
 	class IDParents {
 		std::string								m_Name;
 		ID										m_ID{ InvalidID };
@@ -179,17 +200,17 @@ namespace FPS_n2 {
 		void		SetName(std::string_view value) noexcept { m_Name = value; }
 		void		SetID(ID value) noexcept { m_ID = value; }
 	public:
-		void		CheckID(const std::vector<List>& taskList, bool DrawErrorLog=true) noexcept {
+		template <class List>
+		void		CheckID(const DataParent<ID, List>* taskList, bool DrawErrorLog = true) noexcept {
 			bool isHit = false;
-			for (const auto& t : taskList) {
+			for (const auto& t : taskList->GetList()) {
 				if (m_Name == t.GetName()) {
 					m_ID = t.GetID();
 					isHit = true;
-					break;
+					return;
 				}
 			}
-			if (!DrawErrorLog) { return; }
-			if (!isHit) {
+			if (!isHit && DrawErrorLog) {
 				std::string ErrMes = "Error : Invalid ID by CheckID";
 				ErrMes += "[";
 				ErrMes += m_Name;
@@ -202,41 +223,33 @@ namespace FPS_n2 {
 	//該当IDのデータの数値格納
 	template <class ID>
 	class GetDataParent {
-		ID			m_ID;
-		int			m_Value{ 0 };
+		IDParents<ID>	m_ID;
+		int				m_Value{ 0 };
 	public:
-		const auto&		GetID() const noexcept { return m_ID; }
+		const auto&		GetName() const noexcept { return m_ID.GetName(); }
+		const auto&		GetID() const noexcept { return m_ID.GetID(); }
 		const auto&		GetValue() const noexcept { return m_Value; }
-		void			Set(ID id, int lv) noexcept {
-			m_ID = id;
+		void			Set(std::string_view name, int lv) noexcept {
+			m_ID.SetName(name);
 			m_Value = lv;
+		}
+
+		template <class List>
+		void			CheckID(const DataParent<ID, List>* taskList, bool DrawErrorLog = true) noexcept {
+			m_ID.CheckID<List>(taskList, DrawErrorLog);
 		}
 	};
 
 	//文字列(例)"AAAx1"からAAAと1を分離してデータに格納
-	template <class GetDataParentT, class DataParentT>
-	void			SetGetData(std::vector<GetDataParentT>* Data, const std::string& mes) noexcept {
-		auto L = mes.rfind("x");
+	template <class GetDataParentT>
+	void			SetGetData(std::vector<GetDataParentT>* Data, const std::string& Arg, const char* DivStr) noexcept {
+		auto L = Arg.rfind(DivStr);
 		if (L != std::string::npos) {
-			auto id = mes.substr(0, L);
-			if (
-				std::find_if(Data->begin(), Data->end(), [&](const GetDataParentT& obj) {
-				return DataParentT::Instance()->FindPtr(obj.GetID())->GetName() == id;
-			}) == Data->end()
-				) {
-				auto ID = DataParentT::Instance()->FindID(id);
-				if (ID != InvalidID) {
-					GetDataParentT tmp;
-					tmp.Set(ID, std::stoi(mes.substr(L + 1)));
-					Data->emplace_back(tmp);
-				}
-				else {
-
-				}
+			auto id = Arg.substr(0, L);
+			if (std::find_if(Data->begin(), Data->end(), [&](const auto& obj) { return obj.GetName() == id; }) == Data->end()) {
+				Data->resize(Data->size() + 1);
+				Data->back().Set(id, std::stoi(Arg.substr(L + strlenDx(DivStr))));
 			}
-		}
-		else {
-			//int a = 0;
 		}
 	};
 
@@ -245,23 +258,45 @@ namespace FPS_n2 {
 	public:
 		bool										m_IsFileOpened{ false };
 	public:
-		std::string									id;
-		std::string									name;
+		std::string									m_id;
+		std::string									m_name;
+		std::string									m_shortName;
+		std::string									m_description;
 	public:
 		virtual void	GetJsonSub(const nlohmann::json&) noexcept {}
 		virtual void	OutputDataSub(std::ofstream&) noexcept {}
 	public:
 		void GetJson(const nlohmann::json& data) noexcept {
 			m_IsFileOpened = false;
-			id = data["id"];
-			name = data["name"];
+			m_id = data["id"];
+			m_name = data["name"];
+
+			m_shortName = "";
+			if (data.contains("shortName")) {
+				if (!data["shortName"].is_null()) {
+					m_shortName = data["shortName"];
+				}
+			}
+			m_description = "";
+			if (data.contains("description")) {
+				if (!data["description"].is_null()) {
+					m_description = data["description"];
+				}
+			}
+
 			GetJsonSub(data);
 		}
 		void OutputData(const std::string& Path) noexcept {
 			m_IsFileOpened = true;
 			std::ofstream outputfile(Path);
-			outputfile << "IDstr=" + id + "\n";
-			outputfile << "Name=" + name + "\n";
+			outputfile << "IDstr=" + m_id + "\n";
+			outputfile << "Name=" + m_name + "\n";
+			if (this->m_shortName != "") {
+				outputfile << "ShortName=" + this->m_shortName + "\n";
+			}
+			if (this->m_description != "") {
+				outputfile << "Information_Eng=" + this->m_description + "\n";
+			}
 			OutputDataSub(outputfile);
 			outputfile.close();
 		}
@@ -289,7 +324,7 @@ namespace FPS_n2 {
 
 					std::string ChildPath = ParentPath + "/";
 
-					std::string FileName = jd->name;
+					std::string FileName = jd->m_name;
 					SubStrs(&FileName, ".");
 					SubStrs(&FileName, "\\");
 					SubStrs(&FileName, "/");

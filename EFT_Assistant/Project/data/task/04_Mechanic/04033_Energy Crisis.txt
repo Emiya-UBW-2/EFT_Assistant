@@ -40,7 +40,7 @@ NeedItem=MS2000 Markerx1
 	TaskOptional=false
 ]
 
-Reward_Rep=Mechanic+0.020000
+Reward_Rep=Mechanic+2
 Reward_Item=[
 	Roublesx75000
 ]

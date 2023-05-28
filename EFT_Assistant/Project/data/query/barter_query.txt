@@ -2,11 +2,13 @@
  items(offset:OFFSETVAL limit:LIMITVAL){
    id
    name
+
    shortName
    description
-   basePrice
+
    width
    height
+   weight
 
    conflictingItems{name}
 
@@ -14,20 +16,11 @@
     vendor{name}
     price
    }
-   buyFor{
-    vendor{name}
-    price
-   }
    category{name}
-   weight
+
    recoilModifier
    ergonomicsModifier
-   usedInTasks{name}
-   receivedFromTasks{name}
-   bartersFor{trader{name}}
-   bartersUsing{trader{name}}
-   craftsFor{station{name}}
-   craftsUsing{station{name}}
+
    fleaMarketFee
    properties{
     __typename

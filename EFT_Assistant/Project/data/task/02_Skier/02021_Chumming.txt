@@ -43,7 +43,7 @@ Task_Kill=[
 Reward_Item=[
 	Golden neck chainx4
 ]
-Reward_Rep=Skier+0.050000
+Reward_Rep=Skier+5
 Reward_Item=[
 	Roublesx65000/|
 	Roler Submariner gold wrist watchx1/|

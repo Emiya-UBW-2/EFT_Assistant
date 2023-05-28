@@ -37,7 +37,7 @@ DogTagLv=0
 	TaskOptional=false
 ]
 
-Reward_Rep=Therapist+0.040000
+Reward_Rep=Therapist+4
 Reward_Item=[
 	Dollarsx1500/|
 	Grizzly medical kitx1/|

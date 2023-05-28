@@ -31,7 +31,7 @@ Task_Else=width <= 3
 Reward_Item=[
 	Kalashnikov AKS-74U 5.45x39 assault rifle Defaultx1
 ]
-Reward_Rep=Mechanic+0.010000
+Reward_Rep=Mechanic+1
 Reward_Item=[
 	Roublesx15000/|
 	Capacitorsx2/|

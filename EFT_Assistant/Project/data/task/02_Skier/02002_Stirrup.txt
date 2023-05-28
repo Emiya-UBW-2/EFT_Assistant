@@ -45,9 +45,9 @@ NeedItem=[
 	TaskOptional=false
 ]
 
-Reward_Rep=Skier+0.050000
-Reward_Rep=Prapor-0.050000
-Reward_Rep=Therapist-0.020000
+Reward_Rep=Skier+5
+Reward_Rep=Prapor-5
+Reward_Rep=Therapist-2
 Reward_Item=[
 	Roublesx70000/|
 	Camelbak Tri-Zip assault backpackx1
