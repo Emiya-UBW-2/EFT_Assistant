@@ -20,50 +20,40 @@ namespace FPS_n2 {
 		bool													m_isWeapon{ false };
 		bool													m_isWeaponMod{ false };
 
-		int											m_SightRange{ -100 };
+		int														m_SightRange{ -100 };
 
-		int											m_basePrice{ 0 };
-		int											m_width{ 0 };
-		int											m_height{ 0 };
-		std::vector<std::string>					m_types;
-		int											m_avg24hPrice{ 0 };
-		int											m_low24hPrice{ 0 };
-		int											m_lastOfferCount{ 0 };
-		std::vector<std::pair<TraderID, int>>		m_sellFor;
-		float										m_weight{ 0.f };
-		int											m_fleaMarketFee{ 0 };
-		bool										m_IsPreset{ false };
-		std::vector<int>							m_UseTaskID;
+		int														m_basePrice{ 0 };
+		int														m_width{ 0 };
+		int														m_height{ 0 };
+		std::vector<std::string>								m_types;
+		std::vector<std::pair<TraderID, int>>					m_sellFor;
+		float													m_weight{ 0.f };
+		int														m_fleaMarketFee{ 0 };
+		bool													m_IsPreset{ false };
+		std::vector<TaskID>										m_UseTaskID;
 	private:
-		std::string									m_TypeArg;
-		std::vector<std::string>					m_MapArgs;
-		std::vector<std::pair<std::string, std::string>> m_selArgs;
+		std::string												m_TypeArg;
+		std::vector<std::string>								m_MapArgs;
+		std::vector<std::pair<std::string, std::string>>		m_selArgs;
 	public:
-		int										m_CheckJson{ 0 };
+		int														m_CheckJson{ 0 };
 	private:
 		//í«â¡ê›íË
-		void	SetSub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept override;
-		void	Load_Sub() noexcept override;
-		void	WhenAfterLoad_Sub() noexcept override;
+		void		SetSub(const std::string& LEFT, const std::vector<std::string>& Args) noexcept override;
+		void		Load_Sub() noexcept override;
+		void		WhenAfterLoad_Sub() noexcept override;
 	public:
 		const auto&	GetTypeID() const noexcept { return m_TypeID; }
 		const auto&	GetMapID() const noexcept { return m_MapID; }
 		const auto&	GetChildParts() const noexcept { return m_ChildPartsID; }
 		const auto&	GetConflictParts() const noexcept { return m_ConflictPartsID; }
-
 		const auto&	GetRecoil() const noexcept { return m_Recoil; }
 		const auto&	GetErgonomics() const noexcept { return m_Ergonomics; }
 		const auto&	GetSightRange() const noexcept { return m_SightRange; }
-
-
-
 		const auto&	GetbasePrice() const noexcept { return m_basePrice; }
 		const auto&	Getwidth() const noexcept { return m_width; }
 		const auto&	Getheight() const noexcept { return m_height; }
 		const auto&	Gettypes() const noexcept { return m_types; }
-		const auto&	Getavg24hPrice() const noexcept { return m_avg24hPrice; }
-		const auto&	Getlow24hPrice() const noexcept { return m_low24hPrice; }
-		const auto&	GetlastOfferCount() const noexcept { return m_lastOfferCount; }
 		const auto&	GetsellFor() const noexcept { return m_sellFor; }
 		const auto&	Getweight() const noexcept { return m_weight; }
 		const auto&	GetfleaMarketFee() const noexcept { return m_fleaMarketFee; }
@@ -87,10 +77,10 @@ namespace FPS_n2 {
 			return (*pValue != -1);
 		}
 		void		ResetTaskUseID(void) noexcept { this->m_UseTaskID.clear(); }
-		void		AddTaskUseID(int ID) noexcept { this->m_UseTaskID.emplace_back(ID); }
+		void		AddTaskUseID(TaskID ID) noexcept { this->m_UseTaskID.emplace_back(ID); }
 	public:
-		const int		Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive, bool IsFir, bool IsDrawBuy, bool IsIconOnly) const noexcept;
-		void			DrawWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept;
+		const int	Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive, bool IsFir, bool IsDrawBuy, bool IsIconOnly) const noexcept;
+		void		DrawWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept;
 	};
 
 	enum class EnumItemProperties {
@@ -445,9 +435,6 @@ namespace FPS_n2 {
 		int											width{ 0 };
 		int											height{ 0 };
 		std::vector<std::string>					types;
-		int											avg24hPrice{ 0 };
-		int											low24hPrice{ 0 };
-		int											lastOfferCount{ 0 };
 		std::vector<std::pair<std::string, int>>	sellFor;
 		std::vector<std::pair<std::string, int>>	buyFor;
 		std::string									categorytypes;
@@ -475,18 +462,12 @@ namespace FPS_n2 {
 	private:
 		ItemData() noexcept {
 			std::string Path = "data/item/";
-			auto data_t = GetFileNamesInDirectory(Path.c_str());
-			for (auto& d : data_t) {
-				if (d.cFileName[0] != '.') {
-					std::string Path2 = Path + d.cFileName + "/";
-					auto data_t2 = GetFileNamesInDirectory(Path2.c_str());
-					for (auto& d2 : data_t2) {
-						if (d2.cFileName[0] != '.') {
-							SetList((Path2 + d2.cFileName + "/").c_str());
-						}
-					}
-				}
-			}
+			GetDirList(Path.c_str(), [&](const char* RetPath2) {
+				std::string Path2 = Path + RetPath2 + "/";
+				GetDirList(Path2.c_str(), [&](const char* RetPath3) {
+					SetDirList((Path2 + RetPath3 + "/").c_str());
+				});
+			});
 			for (auto& t : m_List) {
 				t.m_CheckJson = 0;
 			}
@@ -507,7 +488,7 @@ namespace FPS_n2 {
 				m_ItemJsonData.back().GetJson(d);
 			}
 		}
-		void SaveDatabyJson() noexcept {
+		void UpdateData() noexcept {
 			for (auto& L : m_List) {
 				for (auto& jd : m_ItemJsonData) {
 					if (L.GetIDstr() == jd.id) {
@@ -528,17 +509,22 @@ namespace FPS_n2 {
 					}
 				}
 			}
+		}
+		void SaveAsNewData2(std::string Path) noexcept {
+			bool maked = false;
 			for (auto& jd : m_ItemJsonData) {
 				if (!jd.m_IsFileOpened) {
-					std::string FolderPath = jd.categorytypes;
+					std::string ParentPath = Path + jd.categorytypes;
 
-					std::string ParentPath = "data/item/Maked/Maked/" + jd.categorytypes;
+					if (!maked) {
+						CreateDirectory(ParentPath.c_str(), NULL);
+						maked = true;
+					}
 
-					CreateDirectory(ParentPath.c_str(), NULL);
+					std::string ChildPath = ParentPath + "/";
 
 					std::string FileName = jd.name;
 					SubStrs(&FileName, ".");
-
 					SubStrs(&FileName, "\\");
 					SubStrs(&FileName, "/");
 					SubStrs(&FileName, ":");
@@ -548,9 +534,9 @@ namespace FPS_n2 {
 					SubStrs(&FileName, ">");
 					SubStrs(&FileName, "<");
 					SubStrs(&FileName, "|");
+					std::string Name = FileName + ".txt";
 
-					std::string Name = ParentPath + "/" + FileName + ".txt";
-					jd.OutputData(Name);
+					jd.OutputData(ChildPath + Name);
 					//RemoveDirectory(Path.c_str());
 				}
 			}

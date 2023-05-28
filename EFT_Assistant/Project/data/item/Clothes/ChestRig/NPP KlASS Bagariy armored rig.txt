@@ -7,9 +7,6 @@ Bagariy was used both by ordinary soldiers of the internal troops, and in specia
 basePrice=94000
 width=4
 height=4
-avg24hPrice=0
-low24hPrice=0
-lastOfferCount=0
 Sell_Fence=37600
 Sell_Skier=46060
 Sell_Ragman=58280

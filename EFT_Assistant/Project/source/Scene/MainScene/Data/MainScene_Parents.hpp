@@ -18,13 +18,13 @@ namespace FPS_n2 {
 
 		Graphs					m_Icon;
 	private:
-		void			SetCommon(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept {
+		void			SetCommon(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
 			if (LEFT == "IDstr") {
-				m_IDstr = RIGHT;
+				m_IDstr = Args[0];
 			}
-			if (LEFT == "Name") {
-				m_Name = RIGHT;
-				m_ShortName = RIGHT;
+			else if (LEFT == "Name") {
+				m_Name = Args[0];
+				m_ShortName = Args[0];
 			}
 			else if (LEFT == "Color") {
 				m_Color[0] = std::stoi(Args[0]);
@@ -32,11 +32,12 @@ namespace FPS_n2 {
 				m_Color[2] = std::stoi(Args[2]);
 			}
 			else if (LEFT == "ShortName") {
-				m_ShortName = RIGHT;
+				m_ShortName = Args[0];
 			}
+			SetSub(LEFT, Args);
 		}
 	protected:
-		virtual void	SetSub(const std::string&, const std::string&, const std::vector<std::string>&) noexcept {}
+		virtual void	SetSub(const std::string&, const std::vector<std::string>&) noexcept {}
 		virtual void	Load_Sub() noexcept {}
 		virtual void	WhenAfterLoad_Sub() noexcept {}
 	public:
@@ -47,9 +48,7 @@ namespace FPS_n2 {
 		const auto&		GetFilePath() const noexcept { return m_FilePath; }
 
 		const auto		GetColorRGB(int no) const noexcept { return std::clamp(m_Color[no], 1, 255); }
-		const auto		GetColors(int colorAdd) const noexcept {
-			return DxLib::GetColor(std::clamp(m_Color[0] + colorAdd, 1, 255), std::clamp(m_Color[1] + colorAdd, 1, 255), std::clamp(m_Color[2] + colorAdd, 1, 255));
-		}
+		const auto		GetColors(int colorAdd) const noexcept { return DxLib::GetColor(std::clamp(m_Color[0] + colorAdd, 1, 255), std::clamp(m_Color[1] + colorAdd, 1, 255), std::clamp(m_Color[2] + colorAdd, 1, 255)); }
 		const auto&		GetIcon() const noexcept { return m_Icon; }
 	public:
 		void			Set(const char* FilePath, ID id, const char* IconPath = nullptr) noexcept {
@@ -59,13 +58,9 @@ namespace FPS_n2 {
 			while (true) {
 				if (FileRead_eof(mdata) != 0) { break; }
 				auto ALL = getparams::Getstr(mdata);
-				//コメントアウト
-				if (ALL.find("//") != std::string::npos) {
-					ALL = ALL.substr(0, ALL.find("//"));
-				}
+				SubRIGHTStrs(&ALL, "//");				//コメントアウト
 				//
 				if (ALL == "") { continue; }
-				auto LEFT = getparams::getleft(ALL);
 				auto RIGHT = getparams::getright(ALL);
 				if (RIGHT == "[") {
 					std::vector<std::string> Args;
@@ -73,18 +68,16 @@ namespace FPS_n2 {
 						if (FileRead_eof(mdata) != 0) { break; }
 						auto ALL2 = getparams::Getstr(mdata);
 						if (ALL2.find("]") != std::string::npos) { break; }
+						SubRIGHTStrs(&ALL2, "//");				//コメントアウト
 						SubStrs(&ALL2, "\t");
 						SubStrs(&ALL2, DIV_STR);
 						SubStrs(&ALL2, ",");
 						Args.emplace_back(ALL2);
 					}
-					SetCommon(LEFT, RIGHT, Args);
-					SetSub(LEFT, RIGHT, Args);
+					SetCommon(getparams::getleft(ALL), Args);
 				}
 				else {
-					auto Args = GetArgs(RIGHT);
-					SetCommon(LEFT, RIGHT, Args);
-					SetSub(LEFT, RIGHT, Args);
+					SetCommon(getparams::getleft(ALL), GetArgs(RIGHT));
 				}
 			}
 			FileRead_close(mdata);
@@ -113,39 +106,36 @@ namespace FPS_n2 {
 	protected:
 		std::vector<List>	m_List;
 	protected:
-		void SetList(const char* DirPath) noexcept {
-			auto data_t = GetFileNamesInDirectory(DirPath);
+		void			SetDirList(const char* DirPath) noexcept {
 			std::vector<std::string> DirNames;
-			for (auto& d : data_t) {
-				if (d.cFileName[0] != '.') {
-					std::string Tmp = d.cFileName;
-					auto txtpos = Tmp.find(".txt");
-					if (txtpos != std::string::npos) {
-						DirNames.emplace_back(Tmp.substr(0, txtpos));
-					}
+
+			GetDirList(DirPath, [&](const char* RetPath4) {
+				std::string Tmp = RetPath4;
+				auto txtpos = Tmp.find(".txt");
+				if (txtpos != std::string::npos) {
+					DirNames.emplace_back(DirPath + Tmp.substr(0, txtpos));
 				}
-			}
+			});
 			int baseIndex = (int)m_List.size();
 			m_List.resize(baseIndex + DirNames.size());
 			for (auto& d : DirNames) {
 				int index = (int)(&d - &DirNames.front()) + baseIndex;
-				m_List[index].Set((DirPath + d + ".txt").c_str(), (ID)index, (DirPath + d + ".png").c_str());
+				m_List[index].Set((d + ".txt").c_str(), (ID)index, (d + ".png").c_str());
 			}
 			DirNames.clear();
-
 		}
 	public:
-		void LoadList(bool IsPushLog) noexcept {
+		void			LoadList(bool IsPushLog) noexcept {
 			for (auto&t : m_List) {
 				t.Load(IsPushLog);
 			}
 		}
-		void WhenAfterLoadListCommon(void) noexcept {
+		void			WhenAfterLoadListCommon(void) noexcept {
 			for (auto&t : m_List) {
 				t.WhenAfterLoadCommon();
 			}
 		}
-		void WhenAfterLoadList(void) noexcept {
+		void			WhenAfterLoadList(void) noexcept {
 			for (auto&t : m_List) {
 				t.WhenAfterLoad();
 			}
@@ -199,9 +189,9 @@ namespace FPS_n2 {
 			auto id = mes.substr(0, L);
 			if (
 				std::find_if(Data->begin(), Data->end(), [&](const GetDataParentT& obj) {
-					return DataParentT::Instance()->FindPtr(obj.GetID())->GetName() == id;
-				}) == Data->end()
-			) {
+				return DataParentT::Instance()->FindPtr(obj.GetID())->GetName() == id;
+			}) == Data->end()
+				) {
 				auto ID = DataParentT::Instance()->FindID(id);
 				if (ID != InvalidID) {
 					GetDataParentT tmp;
@@ -249,7 +239,7 @@ namespace FPS_n2 {
 		std::vector<std::unique_ptr<JsonDataParent>> m_JsonData;
 	public:
 		auto&		GetJsonDataList() noexcept { return m_JsonData; }
-		void GetDataJson(nlohmann::json& data,std::string ListName) {
+		void GetDataJson(nlohmann::json& data, std::string ListName) {
 			m_JsonData.clear();
 			for (const auto& d : data["data"][ListName]) {
 				m_JsonData.emplace_back(std::make_unique<JsonDataParentT>());

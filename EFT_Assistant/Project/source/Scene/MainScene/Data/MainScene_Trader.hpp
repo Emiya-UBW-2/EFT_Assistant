@@ -29,45 +29,35 @@ namespace FPS_n2 {
 		std::vector<TraderLvData>					m_LvData;
 	public:
 		//追加設定
-		void			SetSub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept override {
+		void			SetSub(const std::string& LEFT, const std::vector<std::string>& Args) noexcept override {
 			std::string LEFTBuf = LEFT.substr(3);
 			std::string NumBuf2 = LEFT.substr(2, 1);
 			if (std::all_of(NumBuf2.cbegin(), NumBuf2.cend(), isdigit)) {
 				int ID = std::stoi(NumBuf2) - 1;
 				if (m_LvData.size() <= ID) { m_LvData.resize(ID + 1); }
 				//開放データ
-				if (LEFTBuf == "Reputation") { m_LvData.at(ID).Reputation = std::stof(RIGHT); }
-				if (LEFTBuf == "NeedLv") { m_LvData.at(ID).NeedLv = std::stoi(RIGHT); }
-				if (LEFTBuf == "Commerce") { m_LvData.at(ID).Commerce = std::stoi(RIGHT); }
-				if (LEFTBuf == "payRate") { m_LvData.at(ID).payRate = std::stof(RIGHT); }
-				if (LEFTBuf == "insuranceRate") { m_LvData.at(ID).insuranceRate = std::stof(RIGHT); }
-				if (LEFTBuf == "repairCostMultiplier") { m_LvData.at(ID).repairCostMultiplier = std::stof(RIGHT); }
+				if (LEFTBuf == "Reputation") { m_LvData.at(ID).Reputation = std::stof(Args[0]); }
+				if (LEFTBuf == "NeedLv") { m_LvData.at(ID).NeedLv = std::stoi(Args[0]); }
+				if (LEFTBuf == "Commerce") { m_LvData.at(ID).Commerce = std::stoi(Args[0]); }
+				if (LEFTBuf == "payRate") { m_LvData.at(ID).payRate = std::stof(Args[0]); }
+				if (LEFTBuf == "insuranceRate") { m_LvData.at(ID).insuranceRate = std::stof(Args[0]); }
+				if (LEFTBuf == "repairCostMultiplier") { m_LvData.at(ID).repairCostMultiplier = std::stof(Args[0]); }
 				//
 				if (LEFTBuf == "BarteritemReq") {
 					m_LvData.at(ID).m_ItemBarters.resize(m_LvData.at(ID).m_ItemBarters.size() + 1);
-					if (Args.size() > 0) {
-						for (auto&a : Args) {
-							m_LvData.at(ID).m_ItemBarters.back().m_ItemReqArgs.emplace_back(a);
-						}
-					}
-					else {
-						m_LvData.at(ID).m_ItemBarters.back().m_ItemReqArgs.emplace_back(RIGHT);
+					for (auto&a : Args) {
+						m_LvData.at(ID).m_ItemBarters.back().m_ItemReqArgs.emplace_back(a);
 					}
 				}
 				if (LEFTBuf == "BarteritemReward") {
-					if (Args.size() > 0) {
-						for (auto&a : Args) {
-							m_LvData.at(ID).m_ItemBarters.back().m_ItemRewardArgs.emplace_back(a);
-						}
-					}
-					else {
-						m_LvData.at(ID).m_ItemBarters.back().m_ItemRewardArgs.emplace_back(RIGHT);
+					for (auto&a : Args) {
+						m_LvData.at(ID).m_ItemBarters.back().m_ItemRewardArgs.emplace_back(a);
 					}
 				}
 			}
 			else {
-				if (LEFT == "Information_Eng") { Information_Eng = RIGHT; }
-				if (LEFT == "PayItem") { PayItem = RIGHT; }
+				if (LEFT == "Information_Eng") { Information_Eng = Args[0]; }
+				if (LEFT == "PayItem") { PayItem = Args[0]; }
 			}
 		}
 		void	Load_Sub() noexcept override {
@@ -107,7 +97,7 @@ namespace FPS_n2 {
 		friend class SingletonBase<TraderData>;
 	private:
 		TraderData() noexcept {
-			SetList("data/trader/");
+			SetDirList("data/trader/");
 		}
 		~TraderData() noexcept {}
 	public:

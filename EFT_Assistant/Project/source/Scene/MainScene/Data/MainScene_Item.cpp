@@ -1,136 +1,87 @@
 #include"../../../Header.hpp"
 
 namespace FPS_n2 {
-	void	ItemList::SetSub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept {
-		if (LEFT == "Itemtype") {
-			m_TypeArg = RIGHT;
-		}
-		if (LEFT == "Map") {
-			m_MapArgs.emplace_back(RIGHT);
-		}
-		if (LEFT == "ChildParts") {
-			m_ChildPartsID.resize(m_ChildPartsID.size() + 1);
-			if (Args.size() > 0) {
-				for (auto&a : Args) {
-					if (a == "or") {
+	void			ItemList::SetSub(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
+		if (LEFT == "Itemtype") { m_TypeArg = Args[0]; }
 
-					}
-					else {
-						bool isHit = false;
-						for (auto& d : m_ChildPartsID.back().Data) {
-							if (d.second == a) {
-								isHit = true;
-								break;
-							}
-						}
-						if (!isHit) {
-							m_ChildPartsID.back().Data.resize(m_ChildPartsID.back().Data.size() + 1);
-							m_ChildPartsID.back().Data.back().second = a;
-						}
-					}
-				}
-			}
-			else {
+		else if (LEFT == "Map") { m_MapArgs.emplace_back(Args[0]); }
+
+		else if (LEFT == "ChildParts") {
+			m_ChildPartsID.resize(m_ChildPartsID.size() + 1);
+			for (auto&a : Args) {
 				bool isHit = false;
 				for (auto& d : m_ChildPartsID.back().Data) {
-					if (d.second == RIGHT) {
+					if (d.second == a) {
 						isHit = true;
 						break;
 					}
 				}
 				if (!isHit) {
 					m_ChildPartsID.back().Data.resize(m_ChildPartsID.back().Data.size() + 1);
-					m_ChildPartsID.back().Data.back().second = RIGHT;
+					m_ChildPartsID.back().Data.back().second = a;
 				}
 			}
 		}
-		if (LEFT == "Conflict") {
-			if (Args.size() > 0) {
-				for (auto&a : Args) {
-					if (a == "or") {
-
-					}
-					else {
-						bool isHit = false;
-						for (auto& d : m_ConflictPartsID) {
-							if (d.second == a) {
-								isHit = true;
-								break;
-							}
-						}
-						if (!isHit) {
-							m_ConflictPartsID.resize(m_ConflictPartsID.size() + 1);
-							m_ConflictPartsID.back().second = a;
-						}
-					}
-				}
-			}
-			else {
+		else if (LEFT == "Conflict") {
+			for (auto&a : Args) {
 				bool isHit = false;
 				for (auto& d : m_ConflictPartsID) {
-					if (d.second == RIGHT) {
+					if (d.second == a) {
 						isHit = true;
 						break;
 					}
 				}
 				if (!isHit) {
 					m_ConflictPartsID.resize(m_ConflictPartsID.size() + 1);
-					m_ConflictPartsID.back().second = RIGHT;
+					m_ConflictPartsID.back().second = a;
 				}
 			}
 		}
-
-		if (LEFT == "Recoil") {
-			if (RIGHT.find("+") != std::string::npos) {
-				m_Recoil = std::stof(RIGHT.substr(RIGHT.find("+") + 1));
+		else if (LEFT == "Recoil") {
+			auto div = Args[0].find("+");
+			if (div != std::string::npos) {
+				m_Recoil = std::stof(Args[0].substr(div + 1));
 			}
 			else {
-				if (RIGHT == "") {
-					//int a = 0;
-				}
-				m_Recoil = std::stof(RIGHT);
+				m_Recoil = std::stof(Args[0]);
 			}
 		}
-		if (LEFT == "Ergonomics") {
-			if (RIGHT.find("+") != std::string::npos) {
-				m_Ergonomics = std::stof(RIGHT.substr(RIGHT.find("+") + 1));
+		else if (LEFT == "Ergonomics") {
+			auto div = Args[0].find("+");
+			if (div != std::string::npos) {
+				m_Ergonomics = std::stof(Args[0].substr(div + 1));
 			}
 			else {
-				if (RIGHT == "") {
-					//int a = 0;
-				}
-				m_Ergonomics = std::stof(RIGHT);
+				m_Ergonomics = std::stof(Args[0]);
 			}
 		}
+		else if (LEFT == "SightRange") { m_SightRange = std::stoi(Args[0]); }
 
-		if (LEFT == "SightRange") { m_SightRange = std::stoi(RIGHT); }
-
-		if (LEFT == "basePrice") { m_basePrice = std::stoi(RIGHT); }
-		if (LEFT == "width") { m_width = std::stoi(RIGHT); }
-		if (LEFT == "height") { m_height = std::stoi(RIGHT); }
-		if (LEFT == "avg24hPrice") { m_avg24hPrice = std::stoi(RIGHT); }
-		if (LEFT == "low24hPrice") { m_low24hPrice = std::stoi(RIGHT); }
-		if (LEFT == "lastOfferCount") { m_lastOfferCount = std::stoi(RIGHT); }
-		if (LEFT.find("Sell_") != std::string::npos) {
-			m_selArgs.emplace_back(std::make_pair(LEFT, RIGHT));
-		}
-		if (LEFT == "Sell_Flea Market") {
-			m_sellFor.emplace_back(std::make_pair(InvalidID, std::stoi(RIGHT)));
-		}
-
-		if (LEFT == "weight") { m_weight = std::stof(RIGHT); }
-		if (LEFT == "fleaMarketFee") { m_fleaMarketFee = std::stoi(RIGHT); }
-		if (LEFT == "propertiestype") { m_IsPreset = (RIGHT == "ItemPropertiesPreset"); }
+		else if (LEFT == "basePrice") { m_basePrice = std::stoi(Args[0]); }
+		else if (LEFT == "width") { m_width = std::stoi(Args[0]); }
+		else if (LEFT == "height") { m_height = std::stoi(Args[0]); }
+		else if (LEFT.find("Sell_") != std::string::npos) { m_selArgs.emplace_back(std::make_pair(LEFT, Args[0])); }
+		else if (LEFT == "weight") { m_weight = std::stof(Args[0]); }
+		else if (LEFT == "fleaMarketFee") { m_fleaMarketFee = std::stoi(Args[0]); }
+		else if (LEFT == "propertiestype") { m_IsPreset = (Args[0] == ItemPropertiesStr[(int)EnumItemProperties::ItemPropertiesPreset]); }
 	}
-	void	ItemList::Load_Sub() noexcept {
+	void			ItemList::Load_Sub() noexcept {
 		m_TypeID = ItemTypeData::Instance()->FindID(m_TypeArg.c_str());
 		for (auto& m : m_MapArgs) {
 			m_MapID.emplace_back(MapData::Instance()->FindID(m));
 		}
 		for (auto s : m_selArgs) {
+			bool isHit = false;
 			for (auto& sf : TraderData::Instance()->GetList()) {
 				if (s.first == "Sell_" + sf.GetName()) {
 					m_sellFor.emplace_back(std::make_pair(sf.GetID(), std::stoi(s.second)));
+					isHit = true;
+					break;
+				}
+			}
+			if (!isHit) {
+				if (s.first == "Sell_Flea Market") {
+					m_sellFor.emplace_back(std::make_pair(InvalidID, std::stoi(s.second)));
 				}
 			}
 		}
@@ -151,83 +102,81 @@ namespace FPS_n2 {
 			DataErrorLog::Instance()->AddLog(ErrMes.c_str());
 		}
 	}
-	void	ItemList::SetParent() noexcept {
-		{
-			for (auto& cp : m_ChildPartsID) {
-				for (auto& c : cp.Data) {
-					for (const auto& t : ItemData::Instance()->GetList()) {
-						if (c.second == t.GetName()) {
-							c.first = &t;
-							break;
-						}
-					}
-					if (c.first == nullptr) {
-						std::string ErrMes = "Error : Invalid ChildPartsID[";
-						ErrMes += GetShortName();
-						ErrMes += "][";
-						ErrMes += c.second;
-						ErrMes += "]";
-
-						DataErrorLog::Instance()->AddLog(ErrMes.c_str());
-					}
-				}
-			}
-			m_ParentPartsID.clear();
-			for (const auto& t : ItemData::Instance()->GetList()) {
-				for (auto& cp : t.m_ChildPartsID) {
-					for (auto& c : cp.Data) {
-						if (c.first == this) {
-							m_ParentPartsID.emplace_back(&t);
-						}
-					}
-				}
-			}
-			//
-			for (auto& cp : m_ChildPartsID) {
-				for (const auto& c : cp.Data) {
-					bool isHit = false;
-					for (const auto& t : cp.TypeID) {
-						if (c.first && t == c.first->GetTypeID()) {
-							isHit = true;
-							break;
-						}
-					}
-					if (!isHit && c.first) {
-						cp.TypeID.emplace_back(c.first->GetTypeID());
-					}
-				}
-			}
-			//
-			for (auto& cp : m_ConflictPartsID) {
+	void			ItemList::SetParent() noexcept {
+		for (auto& cp : m_ChildPartsID) {
+			for (auto& c : cp.Data) {
 				for (const auto& t : ItemData::Instance()->GetList()) {
-					if (cp.second == t.GetName()) {
-						cp.first = &t;
+					if (c.second == t.GetName()) {
+						c.first = &t;
 						break;
 					}
 				}
-				if (cp.first == nullptr) {
-					std::string ErrMes = "Error : Invalid ConflictPartsID[";
+				if (c.first == nullptr) {
+					std::string ErrMes = "Error : Invalid ChildPartsID[";
 					ErrMes += GetShortName();
 					ErrMes += "][";
-					ErrMes += cp.second;
+					ErrMes += c.second;
 					ErrMes += "]";
 
 					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
 				}
 			}
-			//Ž©•ª‚ðŠ±Â‘ŠŽè‚É‚µ‚Ä‚¢‚é“z‚ð’T‚µ‚Ä‚»‚¢‚Â‚àƒŠƒXƒg‚É“ü‚ê‚é@‘ŠŽv‘Šˆ¤
-			for (const auto& t : ItemData::Instance()->GetList()) {
-				for (auto& cp : t.GetConflictParts()) {
-					if (cp.first == this) {
-						m_ConflictPartsID.resize(m_ConflictPartsID.size() + 1);
-						m_ConflictPartsID.back().first = &t;
-						m_ConflictPartsID.back().second = t.GetName();
+		}
+		m_ParentPartsID.clear();
+		for (const auto& t : ItemData::Instance()->GetList()) {
+			for (auto& cp : t.m_ChildPartsID) {
+				for (auto& c : cp.Data) {
+					if (c.first == this) {
+						m_ParentPartsID.emplace_back(&t);
 					}
 				}
 			}
 		}
+		//
+		for (auto& cp : m_ChildPartsID) {
+			for (const auto& c : cp.Data) {
+				bool isHit = false;
+				for (const auto& t : cp.TypeID) {
+					if (c.first && t == c.first->GetTypeID()) {
+						isHit = true;
+						break;
+					}
+				}
+				if (!isHit && c.first) {
+					cp.TypeID.emplace_back(c.first->GetTypeID());
+				}
+			}
+		}
+		//
+		for (auto& cp : m_ConflictPartsID) {
+			for (const auto& t : ItemData::Instance()->GetList()) {
+				if (cp.second == t.GetName()) {
+					cp.first = &t;
+					break;
+				}
+			}
+			if (cp.first == nullptr) {
+				std::string ErrMes = "Error : Invalid ConflictPartsID[";
+				ErrMes += GetShortName();
+				ErrMes += "][";
+				ErrMes += cp.second;
+				ErrMes += "]";
+
+				DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+			}
+		}
+		//Ž©•ª‚ðŠ±Â‘ŠŽè‚É‚µ‚Ä‚¢‚é“z‚ð’T‚µ‚Ä‚»‚¢‚Â‚àƒŠƒXƒg‚É“ü‚ê‚é@‘ŠŽv‘Šˆ¤
+		for (const auto& t : ItemData::Instance()->GetList()) {
+			for (auto& cp : t.GetConflictParts()) {
+				if (cp.first == this) {
+					m_ConflictPartsID.resize(m_ConflictPartsID.size() + 1);
+					m_ConflictPartsID.back().first = &t;
+					m_ConflictPartsID.back().second = t.GetName();
+				}
+			}
+		}
 	}
-	void	ItemList::WhenAfterLoad_Sub() noexcept {}
+	void			ItemList::WhenAfterLoad_Sub() noexcept {}
 	const int		ItemList::Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive, bool IsFir, bool IsDrawBuy, bool IsIconOnly) const noexcept {
 		auto* WindowMngr = WindowSystem::WindowManager::Instance();
 		auto* Input = InputControl::Instance();
@@ -818,21 +767,6 @@ namespace FPS_n2 {
 			}
 		}
 		
-		if (data.contains("avg24hPrice")) {
-			avg24hPrice = data["avg24hPrice"];
-		}
-
-		if (data.contains("low24hPrice")) {
-			if (!data["low24hPrice"].is_null()) {
-				low24hPrice = data["low24hPrice"];
-			}
-		}
-
-		if (data.contains("lastOfferCount")) {
-			if (!data["lastOfferCount"].is_null()) {
-				lastOfferCount = data["lastOfferCount"];
-			}
-		}
 		for (const auto& sf : data["sellFor"]) {
 			std::string vendor = sf["vendor"]["name"];
 			int price = sf["price"];
@@ -943,9 +877,6 @@ namespace FPS_n2 {
 		outputfile << "basePrice=" + std::to_string(this->basePrice) + "\n";
 		outputfile << "width=" + std::to_string(this->width) + "\n";
 		outputfile << "height=" + std::to_string(this->height) + "\n";
-		outputfile << "avg24hPrice=" + std::to_string(this->avg24hPrice) + "\n";
-		outputfile << "low24hPrice=" + std::to_string(this->low24hPrice) + "\n";
-		outputfile << "lastOfferCount=" + std::to_string(this->lastOfferCount) + "\n";
 		for (auto& sf : this->sellFor) {
 			outputfile << "Sell_" + sf.first + "=" + std::to_string(sf.second) + "\n";
 		}

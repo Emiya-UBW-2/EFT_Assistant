@@ -4,9 +4,8 @@
 namespace FPS_n2 {
 	class EnemyList : public ListParent<EnemyID> {
 		//í«â¡ê›íË
-		void			SetSub(const std::string&, const std::string&, const std::vector<std::string>&) noexcept override {}
-		void	Load_Sub() noexcept override {
-		}
+		void	SetSub(const std::string&, const std::vector<std::string>&) noexcept override {}
+		void	Load_Sub() noexcept override {}
 		void	WhenAfterLoad_Sub() noexcept override {}
 	};
 	class EnemyData : public SingletonBase<EnemyData>, public DataParent<EnemyID, EnemyList> {
@@ -14,7 +13,7 @@ namespace FPS_n2 {
 		friend class SingletonBase<EnemyData>;
 	private:
 		EnemyData() noexcept {
-			SetList("data/enemy/");
+			SetDirList("data/enemy/");
 		}
 		~EnemyData() noexcept {}
 	};

@@ -39,35 +39,30 @@ namespace FPS_n2 {
 			const auto& GetKappaRequired() const noexcept { return m_kappaRequired; }
 			const auto& GetLightKeeperRequired() const noexcept { return m_lightkeeperRequired; }
 		public:
-			void Set(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept {
+			void Set(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
 				if (LEFT == "Trader") {
-					m_TraderArg = RIGHT;
+					m_TraderArg = Args[0];
 				}
 				else if (LEFT == "NeedTask") {
 					this->m_Parenttask.resize(this->m_Parenttask.size() + 1);
-					this->m_Parenttask.back().SetParentName(RIGHT);
+					this->m_Parenttask.back().SetParentName(Args[0]);
 				}
 				else if (LEFT == "NeedLevel") {
-					this->m_Level = std::stoi(RIGHT);
+					this->m_Level = std::stoi(Args[0]);
 				}
 				else if (LEFT == "NeedLL") {
-					this->m_LL = std::stoi(RIGHT);
+					this->m_LL = std::stoi(Args[0]);
 				}
 				else if (LEFT == "NeedItem") {
-					if (Args.size() > 0) {
-						for (auto&a : Args) {
-							m_ItemArgs.emplace_back(a);
-						}
-					}
-					else {
-						m_ItemArgs.emplace_back(RIGHT);
+					for (auto&a : Args) {
+						m_ItemArgs.emplace_back(a);
 					}
 				}
 				else if (LEFT == "NeedKappa") {
-					this->m_kappaRequired = (RIGHT == "true");
+					this->m_kappaRequired = (Args[0] == "true");
 				}
 				else if (LEFT == "NeedLightkeeper") {
-					this->m_lightkeeperRequired = (RIGHT == "true");
+					this->m_lightkeeperRequired = (Args[0] == "true");
 				}
 			}
 			void		SetAfter() noexcept {
@@ -133,59 +128,34 @@ namespace FPS_n2 {
 
 			auto& SetPin() noexcept { return m_Pin; }
 		public:
-			void Set(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept {
+			void Set(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
 				if (LEFT == "Task_Map") {//ロケーション追加
-					if (Args.size() > 0) {
-						for (auto&a : Args) {
-							m_MapArgs.emplace_back(a);
-						}
-					}
-					else {
-						m_MapArgs.emplace_back(RIGHT);
+					for (auto&a : Args) {
+						m_MapArgs.emplace_back(a);
 					}
 				}
 				else if (LEFT == "Task_Kill") {
-					if (Args.size() > 0) {
-						for (auto&a : Args) {
-							m_EnemyKillArgs.emplace_back(a);
-						}
-					}
-					else {
-						m_EnemyKillArgs.emplace_back(RIGHT);
+					for (auto&a : Args) {
+						m_EnemyKillArgs.emplace_back(a);
 					}
 				}
 				else if (LEFT == "Task_FiR_HandOver") {
-					if (Args.size() > 0) {
-						for (auto&a : Args) {
-							m_FiR_ItemArgs.emplace_back(a);
-						}
-					}
-					else {
-						m_FiR_ItemArgs.emplace_back(RIGHT);
+					for (auto&a : Args) {
+						m_FiR_ItemArgs.emplace_back(a);
 					}
 				}
 				else if (LEFT == "Task_NotFiR_HandOver") {
-					if (Args.size() > 0) {
-						for (auto&a : Args) {
-							m_NotFiR_ItemArgs.emplace_back(a);
-						}
-					}
-					else {
-						m_NotFiR_ItemArgs.emplace_back(RIGHT);
+					for (auto&a : Args) {
+						m_NotFiR_ItemArgs.emplace_back(a);
 					}
 				}
 				else if (LEFT == "Task_WeaponPreset_HandOver") {
-					if (Args.size() > 0) {
-						for (auto&a : Args) {
-							m_PresetArgs.emplace_back(a);
-						}
-					}
-					else {
-						m_PresetArgs.emplace_back(RIGHT);
+					for (auto&a : Args) {
+						m_PresetArgs.emplace_back(a);
 					}
 				}
 				else if (LEFT == "Task_Else") {//特殊　メッセージ
-					this->m_ElseMsg.emplace_back(RIGHT);
+					this->m_ElseMsg.emplace_back(Args[0]);
 				}
 				else if (LEFT == "Task_PinPoint") {//特殊　メッセージ
 					this->m_Pin.resize(this->m_Pin.size()+1);
@@ -265,25 +235,20 @@ namespace FPS_n2 {
 			const auto& GetLLAdd() const noexcept { return m_LLAdd; }
 			const auto& GetItem() const noexcept { return m_Item; }
 		public:
-			void Set(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept {
+			void Set(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
 				if (LEFT == "Reward_Rep") {
-					auto plus = RIGHT.find("+");
+					auto plus = Args[0].find("+");
 					if (plus != std::string::npos) {
-						m_LLAddArgs.emplace_back(std::make_pair(RIGHT.substr(0, plus), (int)(std::stof(RIGHT.substr(plus + 1)) * 100.f)));
+						m_LLAddArgs.emplace_back(std::make_pair(Args[0].substr(0, plus), (int)(std::stof(Args[0].substr(plus + 1)) * 100.f)));
 					}
-					auto minus = RIGHT.find("-");
+					auto minus = Args[0].find("-");
 					if (minus != std::string::npos) {
-						m_LLAddArgs.emplace_back(std::make_pair(RIGHT.substr(0, minus), (int)(std::stof(RIGHT.substr(minus + 1)) * 100.f)));
+						m_LLAddArgs.emplace_back(std::make_pair(Args[0].substr(0, minus), (int)(std::stof(Args[0].substr(minus + 1)) * 100.f)));
 					}
 				}
 				else if (LEFT == "Reward_Item") {
-					if (Args.size() > 0) {
-						for (auto&a : Args) {
-							m_ItemArgs.emplace_back(a);
-						}
-					}
-					else {
-						m_ItemArgs.emplace_back(RIGHT);
+					for (auto&a : Args) {
+						m_ItemArgs.emplace_back(a);
 					}
 				}
 			}
@@ -312,13 +277,13 @@ namespace FPS_n2 {
 
 		auto&			SetTaskWorkData() noexcept { return m_TaskWorkData; }
 	public:
-		void			SetSub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>&Args) noexcept override {
+		void			SetSub(const std::string& LEFT, const std::vector<std::string>&Args) noexcept override {
 			//Need
-			m_TaskNeedData.Set(LEFT, RIGHT, Args);
+			m_TaskNeedData.Set(LEFT, Args);
 			//Work
-			m_TaskWorkData.Set(LEFT, RIGHT, Args);
+			m_TaskWorkData.Set(LEFT, Args);
 			//Reward
-			m_TaskRewardData.Set(LEFT, RIGHT, Args);
+			m_TaskRewardData.Set(LEFT, Args);
 		}
 		void			Load_Sub() noexcept override {
 			//Need
@@ -956,12 +921,9 @@ namespace FPS_n2 {
 	private:
 		TaskData() noexcept {
 			std::string Path = "data/task/";
-			auto data_t = GetFileNamesInDirectory(Path.c_str());
-			for (auto& d : data_t) {
-				if (d.cFileName[0] != '.') {
-					SetList((Path + d.cFileName + "/").c_str());
-				}
-			}
+			GetDirList(Path.c_str(), [&](const char* RetPath2) {
+				SetDirList((Path + RetPath2 + "/").c_str());
+			});
 			for (auto& i : ItemData::Instance()->SetList()) {
 				i.ResetTaskUseID();
 				for (const auto& t : m_List) {

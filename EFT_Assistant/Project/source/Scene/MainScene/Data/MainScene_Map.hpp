@@ -11,27 +11,27 @@ namespace FPS_n2 {
 		std::vector<MapGraphParam>		m_MapGraph;
 	private:
 		//追加設定
-		void			SetSub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>&) noexcept override {
+		void			SetSub(const std::string& LEFT, const std::vector<std::string>& Args) noexcept override {
 			if (LEFT == "InGamePath") {
 				m_MapGraph.resize(m_MapGraph.size() + 1);
-				m_MapGraph.back().m_Graph.SetPath(RIGHT.c_str());
+				m_MapGraph.back().m_Graph.SetPath(Args[0].c_str());
 			}
 			else if (LEFT == "2DPath") {
 				m_MapGraph.resize(m_MapGraph.size() + 1);
-				m_MapGraph.back().m_Graph.SetPath(RIGHT.c_str());
+				m_MapGraph.back().m_Graph.SetPath(Args[0].c_str());
 			}
 			else if (LEFT == "ElsePath") {
 				if (m_MapGraph.size() < 2) {
 					DataErrorLog::Instance()->AddLog(("必要なマップ画像を設定してません:" + GetName()).c_str());
 				}
 				m_MapGraph.resize(m_MapGraph.size() + 1);
-				m_MapGraph.back().m_Graph.SetPath(RIGHT.c_str());
+				m_MapGraph.back().m_Graph.SetPath(Args[0].c_str());
 			}
 			else if (LEFT == "NorthDegree") {
-				m_MapGraph.back().m_Degree = std::stoi(RIGHT);
+				m_MapGraph.back().m_Degree = std::stoi(Args[0]);
 			}
 			else if (LEFT == "SizetoMeter") {
-				m_MapGraph.back().m_SizetoMeter = std::stof(RIGHT);
+				m_MapGraph.back().m_SizetoMeter = std::stof(Args[0]);
 			}
 		}
 		void	Load_Sub() noexcept override {}
@@ -64,7 +64,7 @@ namespace FPS_n2 {
 		friend class SingletonBase<MapData>;
 	private:
 		MapData() noexcept {
-			SetList("data/map/");
+			SetDirList("data/map/");
 		}
 		~MapData() noexcept {}
 	};

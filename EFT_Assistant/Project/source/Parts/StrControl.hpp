@@ -14,6 +14,14 @@ namespace FPS_n2 {
 			}
 		}
 	};
+	//
+	static const auto		SubRIGHTStrs(std::string* Target, const char* str) {
+		auto now = Target->find(str);
+		if (now != std::string::npos) {
+			*Target = Target->substr(0, now);
+		}
+	};
+	//
 	static const auto		GetArgs(const std::string& RIGHT) noexcept {
 		std::vector<std::string> Args;
 		auto L = RIGHT.find("[");
@@ -32,6 +40,9 @@ namespace FPS_n2 {
 					break;
 				}
 			}
+		}
+		else {
+			Args.emplace_back(RIGHT);
 		}
 		return Args;
 	}

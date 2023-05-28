@@ -10,12 +10,12 @@ namespace FPS_n2 {
 		std::vector<std::string>								m_PartsIDBuffer;
 	private:
 		//í«â¡ê›íË
-		void			SetSub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>&) noexcept override {
+		void			SetSub(const std::string& LEFT, const std::vector<std::string>& Args) noexcept override {
 			if (LEFT == "Base") {
-				m_BaseIDBuffer = RIGHT;
+				m_BaseIDBuffer = Args[0];
 			}
 			if (LEFT == "Parts") {
-				m_PartsIDBuffer.emplace_back(RIGHT);
+				m_PartsIDBuffer.emplace_back(Args[0]);
 			}
 		}
 		void	Load_Sub() noexcept override {
@@ -35,12 +35,9 @@ namespace FPS_n2 {
 	private:
 		PresetData() noexcept {
 			std::string Path = "data/Preset/";
-			auto data_t = GetFileNamesInDirectory(Path.c_str());
-			for (auto& d : data_t) {
-				if (d.cFileName[0] != '.') {
-					SetList((Path + d.cFileName + "/").c_str());
-				}
-			}
+			GetDirList(Path.c_str(), [&](const char* RetPath2) {
+				SetDirList((Path + RetPath2 + "/").c_str());
+			});
 		}
 		~PresetData() noexcept {}
 	};

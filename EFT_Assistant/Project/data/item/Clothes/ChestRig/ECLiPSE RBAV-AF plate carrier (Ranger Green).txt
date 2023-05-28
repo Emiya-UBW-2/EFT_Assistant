@@ -7,9 +7,6 @@ The current pouches configuration is assembled for an assault with additional pr
 basePrice=85000
 width=3
 height=4
-avg24hPrice=0
-low24hPrice=0
-lastOfferCount=0
 Sell_Fence=34000
 Sell_Skier=41650
 Sell_Ragman=52700

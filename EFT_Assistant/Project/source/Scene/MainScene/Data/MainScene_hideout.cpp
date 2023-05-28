@@ -137,7 +137,7 @@ namespace FPS_n2 {
 		}
 	}
 
-	void			HideoutList::SetSub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept {
+	void			HideoutList::SetSub(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
 		std::string LEFTBuf = LEFT.substr(3);
 		std::string NumBuf2 = LEFT.substr(2, 1);
 		int ID = 0;
@@ -145,61 +145,36 @@ namespace FPS_n2 {
 			ID = std::stoi(NumBuf2) - 1;
 			if (m_LvData.size() <= ID) { m_LvData.resize(ID + 1); }
 			//開放データ
-			if (LEFTBuf == "constructionTime") { m_LvData.at(ID).constructionTime = std::stoi(RIGHT); }
-			if (LEFTBuf == "Information_Eng") { m_LvData.at(ID).Information_Eng = RIGHT; }
+			if (LEFTBuf == "constructionTime") { m_LvData.at(ID).constructionTime = std::stoi(Args[0]); }
+			if (LEFTBuf == "Information_Eng") { m_LvData.at(ID).Information_Eng = Args[0]; }
 			if (LEFTBuf == "itemReq") {
-				if (Args.size() > 0) {
-					for (auto&a : Args) {
-						m_LvData.at(ID).m_ItemReqArgs.emplace_back(a);
-					}
-				}
-				else {
-					m_LvData.at(ID).m_ItemReqArgs.emplace_back(RIGHT);
+				for (auto&a : Args) {
+					m_LvData.at(ID).m_ItemReqArgs.emplace_back(a);
 				}
 			}
 			if (LEFTBuf == "stationLevelReq") {
-				if (Args.size() > 0) {
-					for (auto&a : Args) {
-						m_LvData.at(ID).m_ParentArgs.emplace_back(a);
-					}
-				}
-				else {
-					m_LvData.at(ID).m_ParentArgs.emplace_back(RIGHT);
+				for (auto&a : Args) {
+					m_LvData.at(ID).m_ParentArgs.emplace_back(a);
 				}
 			}
 			if (LEFTBuf == "traderRequirements") {
-				if (Args.size() > 0) {
-					for (auto&a : Args) {
-						m_LvData.at(ID).m_TraderReqArgs.emplace_back(a);
-					}
-				}
-				else {
-					m_LvData.at(ID).m_TraderReqArgs.emplace_back(RIGHT);
+				for (auto&a : Args) {
+					m_LvData.at(ID).m_TraderReqArgs.emplace_back(a);
 				}
 			}
 			//クラフトレシピ
 			if (LEFTBuf == "craftduration") {
 				m_LvData.at(ID).m_ItemCraft.resize(m_LvData.at(ID).m_ItemCraft.size() + 1);
-				m_LvData.at(ID).m_ItemCraft.back().durationTime = std::stoi(RIGHT);
+				m_LvData.at(ID).m_ItemCraft.back().durationTime = std::stoi(Args[0]);
 			}
 			if (LEFTBuf == "craftitemReq") {
-				if (Args.size() > 0) {
-					for (auto&a : Args) {
-						m_LvData.at(ID).m_ItemCraft.back().m_ItemReqArgs.emplace_back(a);
-					}
-				}
-				else {
-					m_LvData.at(ID).m_ItemCraft.back().m_ItemReqArgs.emplace_back(RIGHT);
+				for (auto&a : Args) {
+					m_LvData.at(ID).m_ItemCraft.back().m_ItemReqArgs.emplace_back(a);
 				}
 			}
 			if (LEFTBuf == "craftitemReward") {
-				if (Args.size() > 0) {
-					for (auto&a : Args) {
-						m_LvData.at(ID).m_ItemCraft.back().m_ItemRewardArgs.emplace_back(a);
-					}
-				}
-				else {
-					m_LvData.at(ID).m_ItemCraft.back().m_ItemRewardArgs.emplace_back(RIGHT);
+				for (auto&a : Args) {
+					m_LvData.at(ID).m_ItemCraft.back().m_ItemRewardArgs.emplace_back(a);
 				}
 			}
 		}

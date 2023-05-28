@@ -57,45 +57,27 @@ namespace FPS_n2 {
 				if (FileRead_eof(mdata) != 0) { break; }
 				auto ALL = getparams::Getstr(mdata);
 				//コメントアウト
-				if (ALL.find("//") != std::string::npos) {
-					ALL = ALL.substr(0, ALL.find("//"));
-				}
+				SubRIGHTStrs(&ALL, "//");
 				//
 				if (ALL == "") { continue; }
 				auto LEFT = getparams::getleft(ALL);
 				auto RIGHT = getparams::getright(ALL);
 				auto Args = GetArgs(RIGHT);
 				//アイテムデータ読みとり
-				if (LEFT == "LastDataReceive") {
-					m_LastDataReceive = RIGHT;
-				}
-				if (LEFT == "ItemData") {
-					SetItemLock(Args.at(0).c_str(), Args.at(1) == "true");
-				}
-				if (LEFT == "ClearTask") {
-					m_TaskClearData.emplace_back(RIGHT);
-				}
-				if (LEFT == "UnlockHideout") {
+				if (LEFT == "LastDataReceive") { m_LastDataReceive = RIGHT; }
+				else if (LEFT == "ItemData") { SetItemLock(Args.at(0).c_str(), Args.at(1) == "true"); }
+				else if (LEFT == "ClearTask") { m_TaskClearData.emplace_back(RIGHT); }
+				else if (LEFT == "UnlockHideout") {
 					auto L = RIGHT.rfind("x");
 					if (L != std::string::npos) {
 						m_HideoutClearData.emplace_back(std::make_pair(RIGHT.substr(0, L), std::stoi(RIGHT.substr(L + 1))));
 					}
 				}
-				if (LEFT == "Edition") {
-					m_Edition = (EnumEdition)(std::stoi(RIGHT));
-				}
-				if (LEFT == "IsNeedLightKeeper") {
-					m_IsNeedLightKeeper = (RIGHT == "TRUE");
-				}
-				if (LEFT == "IsNeedKappa") {
-					m_IsNeedKappa = (RIGHT == "TRUE");
-				}
-				if (LEFT == "MaxLevel") {
-					m_MaxLevel = std::stoi(RIGHT);
-				}
-				if (LEFT == "PMCType") {
-					m_IsUSEC = (RIGHT == "USEC");
-				}
+				else if (LEFT == "Edition") { m_Edition = (EnumEdition)(std::stoi(RIGHT)); }
+				else if (LEFT == "IsNeedLightKeeper") { m_IsNeedLightKeeper = (RIGHT == "TRUE"); }
+				else if (LEFT == "IsNeedKappa") { m_IsNeedKappa = (RIGHT == "TRUE"); }
+				else if (LEFT == "MaxLevel") { m_MaxLevel = std::stoi(RIGHT); }
+				else if (LEFT == "PMCType") { m_IsUSEC = (RIGHT == "USEC"); }
 			}
 			FileRead_close(mdata);
 			SetOutApplicationLogValidFlag(TRUE);
@@ -256,5 +238,14 @@ namespace FPS_n2 {
 		void SetIsUSEC(bool date) noexcept { m_IsUSEC = date; }
 		const auto& GetIsUSEC() const noexcept { return m_IsUSEC; }
 	};
+	//
+	static void GetDirList(const char* DirPath, const std::function<void(const char*)>& Doing) noexcept {
+		auto data_t = GetFileNamesInDirectory(DirPath);
+		for (auto& d : data_t) {
+			if (d.cFileName[0] != '.') {
+				Doing(d.cFileName);
+			}
+		}
+	}
 	//
 };

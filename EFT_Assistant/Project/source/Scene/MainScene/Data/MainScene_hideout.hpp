@@ -32,7 +32,7 @@ namespace FPS_n2 {
 		int m_DrawWindowLv{ 1 };
 	private:
 		//í«â¡ê›íË
-		void	SetSub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>& Args) noexcept override;
+		void	SetSub(const std::string& LEFT, const std::vector<std::string>& Args) noexcept override;
 		void	Load_Sub() noexcept override;
 		void	WhenAfterLoad_Sub() noexcept override {}
 	public:
@@ -60,18 +60,12 @@ namespace FPS_n2 {
 	private:
 		HideoutData() noexcept {
 			std::string Path = "data/Hideout/";
-			auto data_t = GetFileNamesInDirectory(Path.c_str());
-			for (auto& d : data_t) {
-				if (d.cFileName[0] != '.') {
-					std::string Path2 = Path + d.cFileName + "/";
-					auto data_t2 = GetFileNamesInDirectory(Path2.c_str());
-					for (auto& d2 : data_t2) {
-						if (d2.cFileName[0] != '.') {
-							SetList((Path2 + d2.cFileName + "/").c_str());
-						}
-					}
-				}
-			}
+			GetDirList(Path.c_str(), [&](const char* RetPath2) {
+				std::string Path2 = Path + RetPath2 + "/";
+				GetDirList(Path2.c_str(), [&](const char* RetPath3) {
+					SetDirList((Path2 + RetPath3 + "/").c_str());
+				});
+			});
 			for (auto& t : m_List) {
 				t.m_CheckJson = 0;
 			}

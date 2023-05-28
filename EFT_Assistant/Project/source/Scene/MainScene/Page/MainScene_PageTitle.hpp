@@ -95,7 +95,9 @@ namespace FPS_n2 {
 						ProcessMessage();
 						auto data = nlohmann::json::parse(strResult);
 						ItemData::Instance()->GetJsonData(data);
-						ItemData::Instance()->SaveDatabyJson();
+						ItemData::Instance()->UpdateData();
+						ItemData::Instance()->SaveAsNewData2("data/item/Maked/Maked/");
+						
 						if (data["data"]["items"].size() != 20) {
 							break;
 						}

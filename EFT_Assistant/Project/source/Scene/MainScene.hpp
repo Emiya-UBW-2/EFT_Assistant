@@ -37,40 +37,83 @@ namespace FPS_n2 {
 			InterruptParts::Create();
 			WindowSystem::WindowManager::Create();
 			//
-			ItemCategoryData::Create();
-			ItemTypeData::Create();
-			ItemData::Create();
-			PresetData::Create();
-			EnemyData::Create();
-			TraderData::Create();
-			MapData::Create();
-			TaskData::Create();
-			HideoutData::Create();
-
+			auto BaseTime = GetNowHiPerformanceCount();
+			{
+				ItemCategoryData::Create();//0s
+				{
+					std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000 / 1000);
+					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+				}
+				ItemTypeData::Create();//0s
+				{
+					std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000 / 1000);
+					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+				}
+				ItemData::Create();//20s
+				{
+					std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000 / 1000);
+					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+				}
+				PresetData::Create();//21s
+				{
+					std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000 / 1000);
+					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+				}
+				EnemyData::Create();//21s
+				{
+					std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000 / 1000);
+					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+				}
+				TraderData::Create();//21s
+				{
+					std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000 / 1000);
+					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+				}
+				MapData::Create();//21s
+				{
+					std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000 / 1000);
+					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+				}
+				TaskData::Create();//24s
+				{
+					std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000 / 1000);
+					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+				}
+				HideoutData::Create();//24s
+				{
+					std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000 / 1000);
+					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+				}
+			}
 			//
-			SetUseASyncLoadFlag(TRUE);
-			ItemCategoryData::Instance()->LoadList(false);
-			ItemTypeData::Instance()->LoadList(false);
-			PresetData::Instance()->LoadList(false);
+			{
+				SetUseASyncLoadFlag(TRUE);
+				bool DrawLog = false;
 #ifdef DEBUG
-			ItemData::Instance()->LoadList(true);
+				DrawLog = true;
 #else
-			ItemData::Instance()->LoadList(false);
+				DrawLog = false;
 #endif
-			ItemData::Instance()->SetParent();
-			EnemyData::Instance()->LoadList(false);
-			TraderData::Instance()->LoadList(false);
-			MapData::Instance()->LoadList(false);
-			TaskData::Instance()->LoadList(false);
-			TaskData::Instance()->SetNeedTasktoID();
-#ifdef DEBUG
-			HideoutData::Instance()->LoadList(true);
-#else
-			HideoutData::Instance()->LoadList(false);
-#endif
-			//
-			SetUseASyncLoadFlag(FALSE);
-			m_Loading = true;
+				ItemCategoryData::Instance()->LoadList(false);
+				ItemTypeData::Instance()->LoadList(false);
+				PresetData::Instance()->LoadList(false);
+				ItemData::Instance()->LoadList(DrawLog);
+				ItemData::Instance()->SetParent();
+				EnemyData::Instance()->LoadList(false);
+				TraderData::Instance()->LoadList(false);
+				MapData::Instance()->LoadList(false);
+				TaskData::Instance()->LoadList(false);
+				TaskData::Instance()->SetNeedTasktoID();
+				HideoutData::Instance()->LoadList(DrawLog);
+				//
+				SetUseASyncLoadFlag(FALSE);
+				//24
+				{
+					std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000 / 1000);
+					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+				}
+				m_Loading = true;
+			}
 			//
 			m_TitleBG = std::make_shared<TitleBG>();
 			m_TaskBG = std::make_shared<TaskBG>();

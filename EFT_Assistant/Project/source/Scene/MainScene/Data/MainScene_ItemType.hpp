@@ -8,9 +8,9 @@ namespace FPS_n2 {
 		std::string		m_CategoryBuffer;
 	private:
 		//í«â¡ê›íË
-		void			SetSub(const std::string& LEFT, const std::string& RIGHT, const std::vector<std::string>&) noexcept override {
+		void			SetSub(const std::string& LEFT, const std::vector<std::string>& Args) noexcept override {
 			if (LEFT == "Category") {
-				m_CategoryBuffer = RIGHT;
+				m_CategoryBuffer = Args[0];
 			}
 		}
 		void	Load_Sub() noexcept override {
@@ -26,12 +26,9 @@ namespace FPS_n2 {
 	private:
 		ItemTypeData() noexcept {
 			std::string Path = "data/itemtype/";
-			auto data_t = GetFileNamesInDirectory(Path.c_str());
-			for (auto& d : data_t) {
-				if (d.cFileName[0] != '.') {
-					SetList((Path + d.cFileName + "/").c_str());
-				}
-			}
+			GetDirList(Path.c_str(), [&](const char* RetPath2) {
+				SetDirList((Path + RetPath2 + "/").c_str());
+			});
 		}
 		~ItemTypeData() noexcept {}
 	};
