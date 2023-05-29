@@ -1,4 +1,5 @@
-IDstr=5938994586f774523a425196
+Map=Customs
+586f774523a425196
 Name=Dorm room 103 key
 ShortName=Dorm 103
 Information_Eng=A key to the three-story dormitory with a tag reading "103" on it.

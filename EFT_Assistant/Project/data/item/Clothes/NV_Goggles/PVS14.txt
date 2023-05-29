@@ -12,6 +12,6 @@ Sell_Skier=45055
 Sell_Peacekeeper=348
 Sell_Mechanic=51492
 Sell_Jaeger=55170
-Sell_Flea Market=60000
+Sell_Flea Market=67000
 fleaMarketFee=0
 propertiestype=ItemPropertiesNightVision

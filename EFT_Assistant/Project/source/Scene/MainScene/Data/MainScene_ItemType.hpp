@@ -11,17 +11,13 @@ namespace FPS_n2 {
 		void			SetSub(const std::string& LEFT, const std::vector<std::string>& Args) noexcept override {
 			if (LEFT == "Category") { this->m_CategoryBuffer = Args[0]; }
 		}
-		void	Load_Sub() noexcept override {
-			m_CategoryID = ItemCategoryData::Instance()->FindID(m_CategoryBuffer.c_str());
-		}
+		void	Load_Sub() noexcept override;
 		void	WhenAfterLoad_Sub() noexcept override {}
 	public:
 		const auto&	GetCategoryID() const noexcept { return this->m_CategoryID; }
 	};
-	class ItemTypeData : public SingletonBase<ItemTypeData>, public DataParent<ItemTypeID, ItemTypeList> {
-	private:
-		friend class SingletonBase<ItemTypeData>;
-	private:
+	class ItemTypeData : public DataParent<ItemTypeID, ItemTypeList> {
+	public:
 		ItemTypeData() noexcept {
 			std::string Path = "data/itemtype/";
 			GetDirList(Path.c_str(), [&](const char* RetPath2) {

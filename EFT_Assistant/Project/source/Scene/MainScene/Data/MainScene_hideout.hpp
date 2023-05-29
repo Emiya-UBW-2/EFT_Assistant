@@ -47,10 +47,8 @@ namespace FPS_n2 {
 		void OutputDataSub(std::ofstream& outputfile) noexcept override;
 	};
 	//
-	class HideoutData : public SingletonBase<HideoutData>, public DataParent<HideoutID, HideoutList>, public JsonListParent<HideoutJsonData> {
-	private:
-		friend class SingletonBase<HideoutData>;
-	private:
+	class HideoutData : public DataParent<HideoutID, HideoutList>, public JsonListParent<HideoutJsonData> {
+	public:
 		HideoutData() noexcept {
 			std::string Path = "data/Hideout/";
 			GetDirList(Path.c_str(), [&](const char* RetPath2) {

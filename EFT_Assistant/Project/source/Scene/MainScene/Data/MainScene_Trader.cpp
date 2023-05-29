@@ -6,10 +6,10 @@ namespace FPS_n2 {
 		for (auto& L : this->m_LvData) {
 			for (auto& C : L.m_ItemBarters) {
 				for (auto& T : C.m_ItemReq) {
-					T.CheckID(ItemData::Instance());
+					T.CheckID(DataBase::Instance()->GetItemData().get());
 				}
 				for (auto& T : C.m_ItemReward) {
-					T.CheckID(ItemData::Instance());
+					T.CheckID(DataBase::Instance()->GetItemData().get());
 				}
 			}
 		}
@@ -17,7 +17,7 @@ namespace FPS_n2 {
 	}
 	//
 	void TraderJsonData::GetJsonSub(const nlohmann::json& data) noexcept {
-		PayItem = ItemData::Instance()->FindID((std::string)(data["currency"]["name"]));
+		PayItem = DataBase::Instance()->GetItemData()->FindID((std::string)(data["currency"]["name"]));
 		m_LvData.clear();
 		for (auto& Ld : data["levels"]) {
 			m_LvData.resize(m_LvData.size() + 1);
@@ -81,10 +81,10 @@ namespace FPS_n2 {
 			}
 			for (auto& B : L.m_ItemBarters) {
 				for (auto& T : B.m_ItemReq) {
-					T.CheckID(ItemData::Instance());
+					T.CheckID(DataBase::Instance()->GetItemData().get());
 				}
 				for (auto& T : B.m_ItemReward) {
-					T.CheckID(ItemData::Instance());
+					T.CheckID(DataBase::Instance()->GetItemData().get());
 				}
 			}
 
@@ -92,10 +92,10 @@ namespace FPS_n2 {
 	}
 	void TraderJsonData::OutputDataSub(std::ofstream& outputfile) noexcept {
 		{
-			auto* ptr = TraderData::Instance()->FindPtr(TraderData::Instance()->FindID(this->m_name));
+			auto* ptr = DataBase::Instance()->GetTraderData()->FindPtr(DataBase::Instance()->GetTraderData()->FindID(this->m_name));
 			outputfile << "Color=[" + std::to_string(ptr->GetColorRGB(0)) + DIV_STR + std::to_string(ptr->GetColorRGB(1)) + DIV_STR + std::to_string(ptr->GetColorRGB(2)) + "]\n";
 		}
-		outputfile << "PayItem=" + ItemData::Instance()->FindPtr(this->PayItem)->GetName() + "\n";
+		outputfile << "PayItem=" + DataBase::Instance()->GetItemData()->FindPtr(this->PayItem)->GetName() + "\n";
 		for (auto& L2 : this->m_LvData) {
 			auto LV = "Lv" + std::to_string((&L2 - &this->m_LvData.front()) + 1);
 
@@ -114,7 +114,7 @@ namespace FPS_n2 {
 				{
 					outputfile << LV + "BarteritemReq=[";
 					for (auto& m : c.m_ItemReq) {
-						outputfile << ItemData::Instance()->FindPtr(m.GetID())->GetName();
+						outputfile << DataBase::Instance()->GetItemData()->FindPtr(m.GetID())->GetName();
 						outputfile << "x" + std::to_string(m.GetValue());
 						if (&m != &c.m_ItemReq.back()) {
 							outputfile << DIV_STR;
@@ -125,7 +125,7 @@ namespace FPS_n2 {
 				{
 					outputfile << LV + "BarteritemReward=[";
 					for (auto& m : c.m_ItemReward) {
-						outputfile << ItemData::Instance()->FindPtr(m.GetID())->GetName();
+						outputfile << DataBase::Instance()->GetItemData()->FindPtr(m.GetID())->GetName();
 						outputfile << "x" + std::to_string(m.GetValue());
 						if (&m != &c.m_ItemReward.back()) {
 							outputfile << DIV_STR;

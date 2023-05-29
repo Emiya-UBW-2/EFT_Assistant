@@ -22,6 +22,7 @@
     <ClInclude Include="source\Parts\WindowParts.hpp" />
     <ClInclude Include="source\Scene\MainScene.hpp" />
     <ClInclude Include="source\Scene\MainSceneLoader.hpp" />
+    <ClInclude Include="source\Scene\MainScene\Data\MainScene_Base.hpp" />
     <ClInclude Include="source\Scene\MainScene\Data\MainScene_Common.hpp" />
     <ClInclude Include="source\Scene\MainScene\Data\MainScene_Enemy.hpp" />
     <ClInclude Include="source\Scene\MainScene\Data\MainScene_hideout.hpp" />

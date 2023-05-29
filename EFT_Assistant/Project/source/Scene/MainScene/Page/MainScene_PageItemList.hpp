@@ -34,10 +34,10 @@ namespace FPS_n2 {
 					bool	isNeed{ false };
 				};
 				std::vector<std::vector<counts>> Counter;
-				Counter.resize(ItemTypeData::Instance()->GetList().size());
+				Counter.resize(DataBase::Instance()->GetItemTypeData()->GetList().size());
 				//タスク
 				if (m_IsCheckTask) {
-					for (const auto& tasks : TaskData::Instance()->GetList()) {
+					for (const auto& tasks : DataBase::Instance()->GetTaskData()->GetList()) {
 						bool IsChecktask = true;
 						if (IsChecktask && PlayerData::Instance()->GetIsNeedKappa()) {//河童必要タスクだけ書く
 							if (!tasks.GetTaskNeedData().GetKappaRequired()) {
@@ -63,7 +63,7 @@ namespace FPS_n2 {
 						if (IsChecktask && this->m_DrawCanClearTask) {//クリアできるタスクだけ表示
 							if (tasks.GetTaskNeedData().GetParenttaskID().size() > 0) {
 								for (const auto& p : tasks.GetTaskNeedData().GetParenttaskID()) {
-									if (!PlayerData::Instance()->GetTaskClear(TaskData::Instance()->FindPtr(p.GetID())->GetName().c_str())) {
+									if (!PlayerData::Instance()->GetTaskClear(DataBase::Instance()->GetTaskData()->FindPtr(p.GetID())->GetName().c_str())) {
 										IsChecktask = false;
 										break;
 									}
@@ -73,7 +73,7 @@ namespace FPS_n2 {
 						if (!IsChecktask) { continue; }
 						for (const auto& w : tasks.GetTaskWorkData().GetFiR_Item()) {
 							auto ID = w.GetID();
-							auto* ptr = ItemData::Instance()->FindPtr(ID);
+							auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(ID);
 							if (ptr) {
 								auto& Types = Counter.at(ptr->GetTypeID());
 								auto Find = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == ID) && (obj.isFir == true); });
@@ -92,7 +92,7 @@ namespace FPS_n2 {
 						}
 						for (const auto& w : tasks.GetTaskWorkData().GetNotFiR_Item()) {
 							auto ID = w.GetID();
-							auto* ptr = ItemData::Instance()->FindPtr(ID);
+							auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(ID);
 							if (ptr) {
 								auto& Types = Counter.at(ptr->GetTypeID());
 								auto Find = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == ID) && (obj.isFir == false); });
@@ -112,7 +112,7 @@ namespace FPS_n2 {
 						if (m_IsNeedItem) {
 							for (const auto& w : tasks.GetTaskNeedData().GetItem()) {
 								auto ID = w.GetID();
-								auto* ptr = ItemData::Instance()->FindPtr(ID);
+								auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(ID);
 								if (ptr) {
 									auto& Types = Counter.at(ptr->GetTypeID());
 									auto Find = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == ID) && (obj.isNeed == true); });
@@ -137,7 +137,7 @@ namespace FPS_n2 {
 				}
 				//ハイドアウト開放
 				if (m_IsCheckOpenCraft) {
-					for (const auto&L : HideoutData::Instance()->GetList()) {
+					for (const auto&L : DataBase::Instance()->GetHideoutData()->GetList()) {
 						for (const auto& Ld : L.GetLvData()) {
 							bool IsChecktask = true;
 							if (IsChecktask && PlayerData::Instance()->GetHideoutClear(L.GetName().c_str(), (int)(&Ld - &L.GetLvData().front()) + 1)) {
@@ -145,7 +145,7 @@ namespace FPS_n2 {
 							}
 							if (IsChecktask && this->m_DrawCanClearHideout) {
 								for (const auto& w : Ld.m_Parent) {
-									if (!PlayerData::Instance()->GetHideoutClear(HideoutData::Instance()->FindPtr(w.GetID())->GetName().c_str(), w.GetValue())) {
+									if (!PlayerData::Instance()->GetHideoutClear(DataBase::Instance()->GetHideoutData()->FindPtr(w.GetID())->GetName().c_str(), w.GetValue())) {
 										IsChecktask = false;
 										break;
 									}
@@ -154,7 +154,7 @@ namespace FPS_n2 {
 							if (!IsChecktask) { continue; }
 							for (const auto& w : Ld.m_ItemReq) {
 								auto ID = w.GetID();
-								auto* ptr = ItemData::Instance()->FindPtr(ID);
+								auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(ID);
 								if (ptr) {
 									auto& Types = Counter.at(ptr->GetTypeID());
 									auto Find = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == ID) && (obj.isFir == false) && (obj.isNeed == false); });
@@ -185,13 +185,13 @@ namespace FPS_n2 {
 					int ysize = (int)((float)y_r(64));
 					int xsizeAdd = xsize + y_r(30);
 					int ysizeAdd = ysize + y_r(5);
-					for (auto& Cat : ItemCategoryData::Instance()->GetList()) {
+					for (auto& Cat : DataBase::Instance()->GetItemCategoryData()->GetList()) {
 						bool IsHit = false;
-						for (auto& Type : ItemTypeData::Instance()->GetList()) {
+						for (auto& Type : DataBase::Instance()->GetItemTypeData()->GetList()) {
 							if (Type.GetCategoryID() == Cat.GetID()) {
 								auto& Types = Counter.at(Type.GetID());
 								for (auto& c : Types) {
-									auto* ptr = ItemData::Instance()->FindPtr(c.m_ID);
+									auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(c.m_ID);
 									if (ptr) {
 										if (ypos - ysizeAdd < yp && yp < ypMax) {
 											if (ypos - 1 < yp && yp < ypMax - ysizeAdd + 1) {
@@ -204,7 +204,7 @@ namespace FPS_n2 {
 												int ysize2 = ysize / 2 - y_r(3);
 												//ハイドアウトクラフト
 												if (m_IsCheckCraft) {
-													for (const auto&L : HideoutData::Instance()->GetList()) {
+													for (const auto&L : DataBase::Instance()->GetHideoutData()->GetList()) {
 														for (const auto& Ld : L.GetLvData()) {
 															int Lv = (int)(&Ld - &L.GetLvData().front()) + 1;
 															/*
@@ -227,7 +227,7 @@ namespace FPS_n2 {
 
 																		for (const auto& w : C.m_ItemReq) {
 																			auto ID = w.GetID();
-																			auto* ptr2 = ItemData::Instance()->FindPtr(ID);
+																			auto* ptr2 = DataBase::Instance()->GetItemData()->FindPtr(ID);
 																			if (ptr2) {
 																				int count = w.GetValue()*craftcount;
 																				xp2 += ptr2->Draw(xp2, yp2, xsize2, ysize2, (count >= 2) ? count : 0, Gray15, !WindowMngr->PosHitCheck(nullptr), false, false, true) + y_r(5);
@@ -244,7 +244,7 @@ namespace FPS_n2 {
 												}
 												//交換
 												if (m_IsCheckBarter && !c.isFir) {
-													for (auto&L : TraderData::Instance()->SetList()) {
+													for (auto&L : DataBase::Instance()->GetTraderData()->SetList()) {
 														for (const auto& Ld : L.GetLvData()) {
 															int Lv = (int)(&Ld - &L.GetLvData().front()) + 1;
 
@@ -260,7 +260,7 @@ namespace FPS_n2 {
 																		yp2 += ysize2 + y_r(5);
 
 																		for (const auto& r : cf.m_ItemReq) {
-																			auto* ptr2 = ItemData::Instance()->FindPtr(r.GetID());
+																			auto* ptr2 = DataBase::Instance()->GetItemData()->FindPtr(r.GetID());
 																			if (ptr2) {
 																				int count = r.GetValue()*craftcount;
 																				xp2 += ptr2->Draw(xp2, yp2, xsize2, ysize2, (count >= 2) ? count : 0, Gray15, !WindowMngr->PosHitCheck(nullptr), false, false, true) + y_r(5);

@@ -20,7 +20,7 @@ namespace FPS_n2 {
 					}
 				}
 				for (auto& T : L.m_ItemReq) {
-					T.CheckID(ItemData::Instance());
+					T.CheckID(DataBase::Instance()->GetItemData().get());
 				}
 			}
 			{
@@ -35,7 +35,7 @@ namespace FPS_n2 {
 					}
 				}
 				for (auto& T : L.m_Parent) {
-					T.CheckID(HideoutData::Instance());
+					T.CheckID(DataBase::Instance()->GetHideoutData().get());
 				}
 			}
 			{
@@ -50,7 +50,7 @@ namespace FPS_n2 {
 					}
 				}
 				for (auto& T : L.m_TraderReq) {
-					T.CheckID(TraderData::Instance());
+					T.CheckID(DataBase::Instance()->GetTraderData().get());
 				}
 			}
 			//
@@ -72,7 +72,7 @@ namespace FPS_n2 {
 						}
 					}
 					for (auto& T : L.m_ItemCraft.back().m_ItemReq) {
-						T.CheckID(ItemData::Instance());
+						T.CheckID(DataBase::Instance()->GetItemData().get());
 					}
 				}
 				//
@@ -88,7 +88,7 @@ namespace FPS_n2 {
 						}
 					}
 					for (auto& T : L.m_ItemCraft.back().m_ItemReward) {
-						T.CheckID(ItemData::Instance());
+						T.CheckID(DataBase::Instance()->GetItemData().get());
 					}
 				}
 				//
@@ -104,7 +104,7 @@ namespace FPS_n2 {
 			{
 				outputfile << LV + "itemReq=[";
 				for (auto& m : L2.m_ItemReq) {
-					outputfile << ItemData::Instance()->FindPtr(m.GetID())->GetName();
+					outputfile << DataBase::Instance()->GetItemData()->FindPtr(m.GetID())->GetName();
 					outputfile << "x" + std::to_string(m.GetValue());
 					if (&m != &L2.m_ItemReq.back()) {
 						outputfile << DIV_STR;
@@ -115,7 +115,7 @@ namespace FPS_n2 {
 			{
 				outputfile << LV + "stationLevelReq=[";
 				for (auto& m : L2.m_Parent) {
-					outputfile << HideoutData::Instance()->FindPtr(m.GetID())->GetName();
+					outputfile << DataBase::Instance()->GetHideoutData()->FindPtr(m.GetID())->GetName();
 					outputfile << "x" + std::to_string(m.GetValue());
 					if (&m != &L2.m_Parent.back()) {
 						outputfile << DIV_STR;
@@ -126,7 +126,7 @@ namespace FPS_n2 {
 			{
 				outputfile << LV + "traderRequirements=[";
 				for (auto& m : L2.m_TraderReq) {
-					outputfile << TraderData::Instance()->FindPtr(m.GetID())->GetName();
+					outputfile << DataBase::Instance()->GetTraderData()->FindPtr(m.GetID())->GetName();
 					outputfile << "x" + std::to_string(m.GetValue());
 					if (&m != &L2.m_TraderReq.back()) {
 						outputfile << DIV_STR;
@@ -139,7 +139,7 @@ namespace FPS_n2 {
 				{
 					outputfile << LV + "craftitemReq=[";
 					for (auto& m : c.m_ItemReq) {
-						outputfile << ItemData::Instance()->FindPtr(m.GetID())->GetName();
+						outputfile << DataBase::Instance()->GetItemData()->FindPtr(m.GetID())->GetName();
 						outputfile << "x" + std::to_string(m.GetValue());
 						if (&m != &c.m_ItemReq.back()) {
 							outputfile << DIV_STR;
@@ -150,7 +150,7 @@ namespace FPS_n2 {
 				{
 					outputfile << LV + "craftitemReward=[";
 					for (auto& m : c.m_ItemReward) {
-						outputfile << ItemData::Instance()->FindPtr(m.GetID())->GetName();
+						outputfile << DataBase::Instance()->GetItemData()->FindPtr(m.GetID())->GetName();
 						outputfile << "x" + std::to_string(m.GetValue());
 						if (&m != &c.m_ItemReward.back()) {
 							outputfile << DIV_STR;
@@ -207,20 +207,20 @@ namespace FPS_n2 {
 	void			HideoutList::Load_Sub() noexcept {
 		for (auto& L : this->m_LvData) {
 			for (auto& T : L.m_ItemReq) {
-				T.CheckID(ItemData::Instance());
+				T.CheckID(DataBase::Instance()->GetItemData().get());
 			}
 			for (auto& T : L.m_Parent) {
-				T.CheckID(HideoutData::Instance());
+				T.CheckID(DataBase::Instance()->GetHideoutData().get());
 			}
 			for (auto& T : L.m_TraderReq) {
-				T.CheckID(TraderData::Instance());
+				T.CheckID(DataBase::Instance()->GetTraderData().get());
 			}
 			for (auto& C : L.m_ItemCraft) {
 				for (auto& T : C.m_ItemReq) {
-					T.CheckID(ItemData::Instance());
+					T.CheckID(DataBase::Instance()->GetItemData().get());
 				}
 				for (auto& T : C.m_ItemReward) {
-					T.CheckID(ItemData::Instance());
+					T.CheckID(DataBase::Instance()->GetItemData().get());
 				}
 			}
 		}
@@ -311,7 +311,7 @@ namespace FPS_n2 {
 				if (Input->GetCtrlKey().press()) {
 					NameTmp += " Unlock";
 					WindowMngr->Add()->Set(y_r(960) - sizeXBuf / 2, LineHeight + y_r(10), sizeXBuf, sizeYBuf, 0, NameTmp.c_str(), false, true, FreeID, [&](WindowSystem::WindowControl* win) {
-						HideoutData::Instance()->FindPtr((HideoutID)(win->m_FreeID - 0xFFFF))->DrawUnlockWindow(win, Gray10, this->m_DrawWindowLv, win->GetPosX(), win->GetPosY());
+						DataBase::Instance()->GetHideoutData()->FindPtr((HideoutID)(win->m_FreeID - 0xFFFF))->DrawUnlockWindow(win, Gray10, this->m_DrawWindowLv, win->GetPosX(), win->GetPosY());
 					});
 				}
 				else {
@@ -322,7 +322,7 @@ namespace FPS_n2 {
 					auto Total = (ysizet + y_r(5))*(int)(Max);
 
 					WindowMngr->Add()->Set(y_r(960) - sizeXBuf / 2, LineHeight + y_r(10), sizeXBuf, sizeYBuf, Total, NameTmp.c_str(), false, true, FreeID, [&](WindowSystem::WindowControl* win) {
-						HideoutData::Instance()->FindPtr((HideoutID)(win->m_FreeID - 0xFFFF))->DrawCraftWindow(win, Gray10, this->m_DrawWindowLv, win->GetPosX(), win->GetPosY());
+						DataBase::Instance()->GetHideoutData()->FindPtr((HideoutID)(win->m_FreeID - 0xFFFF))->DrawCraftWindow(win, Gray10, this->m_DrawWindowLv, win->GetPosX(), win->GetPosY());
 					});
 				}
 			}
@@ -365,7 +365,7 @@ namespace FPS_n2 {
 				int yofs_buf = yofs_OLD;
 				{
 					for (const auto& I : this->m_LvData.at(Lv - 1).m_ItemReq) {
-						auto* ptr = ItemData::Instance()->FindPtr(I.GetID());
+						auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(I.GetID());
 						if (ptr) {
 							xofs_buf = xofs + y_r(10);
 							int xstart = xp + xofs_buf;
@@ -386,7 +386,7 @@ namespace FPS_n2 {
 				int yofs_buf = yofs_OLD;
 				{
 					for (const auto& I : this->m_LvData.at(Lv - 1).m_Parent) {
-						auto* ptr = HideoutData::Instance()->FindPtr(I.GetID());
+						auto* ptr = DataBase::Instance()->GetHideoutData()->FindPtr(I.GetID());
 						if (ptr) {
 							xofs_buf = xofs + y_r(10);
 							int xstart = xp + xofs_buf;
@@ -407,7 +407,7 @@ namespace FPS_n2 {
 				int yofs_buf = yofs_OLD;
 				{
 					for (const auto& I : this->m_LvData.at(Lv - 1).m_TraderReq) {
-						auto* ptr = TraderData::Instance()->FindPtr(I.GetID());
+						auto* ptr = DataBase::Instance()->GetTraderData()->FindPtr(I.GetID());
 						if (ptr) {
 							xofs_buf = xofs + y_r(10);
 							int xstart = xp + xofs_buf;
@@ -477,7 +477,7 @@ namespace FPS_n2 {
 					xofs_buf = y_r(10);
 					{
 						for (const auto& I : cf.m_ItemReq) {
-							auto* ptr = ItemData::Instance()->FindPtr(I.GetID());
+							auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(I.GetID());
 							if (ptr) {
 								int xstart = xp + xofs_buf;
 								xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs, y_r(200), ysize, I.GetValue(), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true);
@@ -493,7 +493,7 @@ namespace FPS_n2 {
 					}
 					{
 						for (const auto& I : cf.m_ItemReward) {
-							auto* ptr = ItemData::Instance()->FindPtr(I.GetID());
+							auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(I.GetID());
 							if (ptr) {
 								int xstart = xp + xofs_buf;
 								xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs, y_r(200), ysize, I.GetValue(), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true);
@@ -525,7 +525,7 @@ namespace FPS_n2 {
 		for (auto& D : this->m_LvData) {
 			int DLv = (int)(&D - &m_LvData.front()) + 1;
 			D.m_Child.clear();
-			for (const auto&L : HideoutData::Instance()->GetList()) {
+			for (const auto&L : DataBase::Instance()->GetHideoutData()->GetList()) {
 				for (const auto& C : L.GetLvData()) {
 					int Lv = (int)(&C - &L.GetLvData().front()) + 1;
 					for (const auto& P : C.m_Parent) {
@@ -540,7 +540,7 @@ namespace FPS_n2 {
 				}
 			}
 			for (auto& C : D.m_Child) {
-				C.CheckID(HideoutData::Instance());
+				C.CheckID(DataBase::Instance()->GetHideoutData().get());
 			}
 		}
 		//

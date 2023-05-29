@@ -20,11 +20,11 @@ namespace FPS_n2 {
 			{
 				int xp = y_r(10);
 				int yp = LineHeight + y_r(50);
-				MakeList<TraderList>(xp, yp, TraderData::Instance()->GetList(), "Trader", (int*)&m_EditTraderID, true, false, false, [&](const auto*) { return true; });
+				MakeList<TraderList>(xp, yp, DataBase::Instance()->GetTraderData()->GetList(), "Trader", (int*)&m_EditTraderID, true, false, false, [&](const auto*) { return true; });
 			}
 			//
 			if (m_EditTraderID != InvalidID) {
-				auto* ptr = TraderData::Instance()->FindPtr(m_EditTraderID);
+				auto* ptr = DataBase::Instance()->GetTraderData()->FindPtr(m_EditTraderID);
 				for (auto& LL : ptr->GetLvData()) {
 					int index = (int)(&LL - &ptr->GetLvData().front());
 					int xp = y_r(500) + (y_r(100) + y_r(10)) * index;
@@ -65,7 +65,7 @@ namespace FPS_n2 {
 							}
 							{
 								for (const auto& I : Bar.m_ItemReq) {
-									auto* ptr2 = ItemData::Instance()->FindPtr(I.GetID());
+									auto* ptr2 = DataBase::Instance()->GetItemData()->FindPtr(I.GetID());
 									if (ptr2) {
 										int xstart = xp + xofs_buf;
 										xofs_buf += ptr2->Draw(xp + xofs_buf, yp1, y_r(200), ysize, I.GetValue(), Gray25, !WindowMngr->PosHitCheck(nullptr), false, false, true);
@@ -81,7 +81,7 @@ namespace FPS_n2 {
 							}
 							{
 								for (const auto& I : Bar.m_ItemReward) {
-									auto* ptr2 = ItemData::Instance()->FindPtr(I.GetID());
+									auto* ptr2 = DataBase::Instance()->GetItemData()->FindPtr(I.GetID());
 									if (ptr2) {
 										int xstart = xp + xofs_buf;
 										xofs_buf += ptr2->Draw(xp + xofs_buf, yp1, y_r(200), ysize, I.GetValue(), Gray25, !WindowMngr->PosHitCheck(nullptr), false, false, true);

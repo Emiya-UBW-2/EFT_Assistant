@@ -37,49 +37,17 @@ namespace FPS_n2 {
 			InterruptParts::Create();
 			WindowSystem::WindowManager::Create();
 			//
-			//auto BaseTime = GetNowHiPerformanceCount();
-			{
-				ItemCategoryData::Create();//0s
-				ItemTypeData::Create();//0s
-				ItemData::Create();//20s
-				PresetData::Create();//21s
-				EnemyData::Create();//21s
-				TraderData::Create();//21s
-				MapData::Create();//21s
-				TaskData::Create();//24s
-				HideoutData::Create();//24s
-				{
-					//std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000);
-					//DataErrorLog::Instance()->AddLog(ErrMes.c_str());
-				}
-			}
+			DataBase::Create();
+			//
+			DataBase::Instance()->SetList();
 			//
 			{
-				SetUseASyncLoadFlag(TRUE);
 				bool DrawLog = false;
 #ifdef DEBUG
 				DrawLog = true;
-#else
-				DrawLog = false;
 #endif
-				ItemCategoryData::Instance()->LoadList(false);
-				ItemTypeData::Instance()->LoadList(false);
-				PresetData::Instance()->LoadList(false);
-				ItemData::Instance()->LoadList(DrawLog);
-				ItemData::Instance()->SetParent();
-				EnemyData::Instance()->LoadList(false);
-				TraderData::Instance()->LoadList(false);
-				MapData::Instance()->LoadList(false);
-				TaskData::Instance()->LoadList(false);
-				TaskData::Instance()->SetNeedTasktoID();
-				HideoutData::Instance()->LoadList(DrawLog);
-				//
-				SetUseASyncLoadFlag(FALSE);
-				//24
-				{
-					//std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000);
-					//DataErrorLog::Instance()->AddLog(ErrMes.c_str());
-				}
+				DataBase::Instance()->LoadList(DrawLog);
+
 				m_Loading = true;
 			}
 			//
@@ -107,21 +75,9 @@ namespace FPS_n2 {
 			DrawControl::Instance()->ClearList();
 
 			if (m_Loading) {
-				PresetData::Instance()->WhenAfterLoadListCommon();
-				ItemData::Instance()->WhenAfterLoadListCommon();
-				EnemyData::Instance()->WhenAfterLoadListCommon();
-				TraderData::Instance()->WhenAfterLoadListCommon();
-				MapData::Instance()->WhenAfterLoadListCommon();
-				TaskData::Instance()->WhenAfterLoadListCommon();
-				HideoutData::Instance()->WhenAfterLoadListCommon();
+				DataBase::Instance()->WhenAfterLoadListCommon();
 				if (GetASyncLoadNum() == 0) {
-					PresetData::Instance()->WhenAfterLoadList();
-					ItemData::Instance()->WhenAfterLoadList();
-					EnemyData::Instance()->WhenAfterLoadList();
-					TraderData::Instance()->WhenAfterLoadList();
-					MapData::Instance()->WhenAfterLoadList();
-					TaskData::Instance()->WhenAfterLoadList();
-					HideoutData::Instance()->WhenAfterLoadList();
+					DataBase::Instance()->WhenAfterLoadList();
 					m_Loading = false;
 				}
 			}

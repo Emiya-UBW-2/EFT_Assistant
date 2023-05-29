@@ -1,5 +1,4 @@
 #include"Header.hpp"
-#include <WinUser.h>
 
 int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 	SetWindowStyleMode(2);

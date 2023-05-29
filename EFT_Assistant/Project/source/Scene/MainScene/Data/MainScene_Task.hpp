@@ -47,12 +47,7 @@ namespace FPS_n2 {
 					this->m_lightkeeperRequired = (Args[0] == "true");
 				}
 			}
-			void		SetAfter() noexcept {
-				m_Trader.CheckID(TraderData::Instance());
-				for (auto& T : this->m_Item) {
-					T.CheckID(ItemData::Instance());
-				}
-			}
+			void		SetAfter() noexcept;
 			void		SetNeedTasktoID() noexcept;
 		};
 		class TaskWorkData {
@@ -101,104 +96,10 @@ namespace FPS_n2 {
 			const auto& GetElseMsg() const noexcept { return this->m_ElseMsg; }
 			const auto& GetPin() const noexcept { return this->m_Pin; }
 
-			auto& SetPin() noexcept { return this->m_Pin; }
+			auto&		SetPin() noexcept { return this->m_Pin; }
 		public:
-			void Set(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
-				if (LEFT == "Task_Map") {//ロケーション追加
-					for (auto&a : Args) {
-						m_MapArgs.emplace_back(a);
-					}
-				}
-				else if (LEFT == "Task_Kill") {
-					for (auto&a : Args) {
-						m_EnemyKillArgs.emplace_back(a);
-					}
-				}
-				else if (LEFT == "Task_FiR_HandOver") {
-					for (auto&a : Args) {
-						SetGetData<ItemGetData>(&this->m_FiR_Item, a, "x");
-					}
-				}
-				else if (LEFT == "Task_NotFiR_HandOver") {
-					for (auto&a : Args) {
-						SetGetData<ItemGetData>(&this->m_NotFiR_Item, a, "x");
-					}
-				}
-				else if (LEFT == "Task_WeaponPreset_HandOver") {
-					for (auto&a : Args) {
-						m_PresetArgs.emplace_back(a);
-					}
-				}
-				else if (LEFT == "Task_Else") {//特殊　メッセージ
-					this->m_ElseMsg.emplace_back(Args[0]);
-				}
-				else if (LEFT == "Task_PinPoint") {//特殊　メッセージ
-					this->m_Pin.resize(this->m_Pin.size() + 1);
-					this->m_Pin.back().m_Point.Set(std::stof(Args[0]), std::stof(Args[1]), std::stof(Args[2]));
-				}
-				else if (LEFT == "Task_PinMap") {//特殊　メッセージ
-					this->m_Pin.back().m_MapArg = Args[0];
-					this->m_Pin.back().m_MapSel = std::atoi(Args[1].c_str());
-				}
-			}
-			void		SetAfter() noexcept {
-				auto SetKill = [&](const std::string& mes) {
-					auto L = mes.rfind("x");
-					if (L != std::string::npos) {
-						EnemyKill tmp;
-						auto MP = mes.rfind("-");
-						if (MP != std::string::npos) {
-							std::string Name = mes.substr(MP + 1, L - (MP + 1));
-							auto kakko = Name.find("{");
-							if (kakko != std::string::npos) {
-								Name = Name.substr(0, kakko);
-							}
-
-							tmp.Set(
-								MapData::Instance()->FindID(mes.substr(0, MP).c_str()),
-								EnemyData::Instance()->FindID(Name.c_str()),
-								std::stoi(mes.substr(L + 1)));
-						}
-						else {
-							std::string Name = mes.substr(0, L);
-							auto kakko = Name.find("{");
-							if (kakko != std::string::npos) {
-								Name = Name.substr(0, kakko);
-							}
-
-							tmp.Set(
-								InvalidID,
-								EnemyData::Instance()->FindID(Name.c_str()),
-								std::stoi(mes.substr(L + 1)));
-						}
-						this->m_Kill.emplace_back(tmp);
-					}
-					else {
-						//int a = 0;
-					}
-				};
-				for (auto& a : this->m_EnemyKillArgs) {
-					SetKill(a);
-				}
-
-				for (auto& T : this->m_FiR_Item) {
-					T.CheckID(ItemData::Instance());
-				}
-				for (auto& T : this->m_NotFiR_Item) {
-					T.CheckID(ItemData::Instance());
-				}
-
-
-				for (auto& a : this->m_PresetArgs) {
-					m_PresetID.emplace_back(PresetData::Instance()->FindID(a));
-				}
-				for (auto& a : this->m_Pin) {
-					a.m_MapID = MapData::Instance()->FindID(a.m_MapArg);
-				}
-				for (auto& a : this->m_MapArgs) {
-					this->m_Map.emplace_back(MapData::Instance()->FindID(a));
-				}
-			}
+			void		Set(const std::string& LEFT, const std::vector<std::string>& Args) noexcept;
+			void		SetAfter() noexcept;
 		};
 		class TaskRewardData {
 			std::vector<TraderLLData>	m_LLAdd;
@@ -207,7 +108,7 @@ namespace FPS_n2 {
 			const auto& GetLLAdd() const noexcept { return this->m_LLAdd; }
 			const auto& GetItem() const noexcept { return this->m_Item; }
 		public:
-			void Set(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
+			void		Set(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
 				if (LEFT == "Reward_Rep") {
 					SetGetData(&this->m_LLAdd, Args[0], "+");
 					SetGetData(&this->m_LLAdd, Args[0], "-");
@@ -218,14 +119,7 @@ namespace FPS_n2 {
 					}
 				}
 			}
-			void		SetAfter() noexcept {
-				for (auto& L : this->m_LLAdd) {
-					L.CheckID(TraderData::Instance());
-				}
-				for (auto& T : this->m_Item) {
-					T.CheckID(ItemData::Instance());
-				}
-			}
+			void		SetAfter() noexcept;
 		};
 	private:
 		TaskNeedData				m_TaskNeedData;
@@ -261,130 +155,7 @@ namespace FPS_n2 {
 
 		void			SetNeedTasktoID() noexcept { m_TaskNeedData.SetNeedTasktoID(); }
 		const int		Draw(int xp, int yp, int xsize, int ysize) const noexcept;
-		void			DrawWindow(WindowSystem::WindowControl* window, int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept {
-			auto* WindowMngr = WindowSystem::WindowManager::Instance();
-			auto* InterParts = InterruptParts::Instance();
-			int xofs = 0;
-			int yofs = LineHeight;
-			int sizy = LineHeight * 7 / 10;
-			//必要
-			{
-				auto* ptr = TraderData::Instance()->FindPtr(GetTrader());
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "トレーダー:%s Lv %d", ptr->GetName().c_str(), std::max(m_TaskNeedData.GetLL(), 1))); yofs += sizy;
-			}
-			if (m_TaskNeedData.GetLevel() >= 1) {
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "必要レベル:%d", this->m_TaskNeedData.GetLevel())); yofs += sizy;
-			}
-			if (m_TaskNeedData.GetItem().size() > 0) {
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "必要アイテム:")); yofs += sizy;
-				yofs += LineHeight;
-				for (const auto& LL : this->m_TaskNeedData.GetItem()) {
-					auto ID = LL.GetID();
-					auto* ptr = ItemData::Instance()->FindPtr(ID);
-					int total_size = y_r(48);
-					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetValue(), Gray10, !WindowMngr->PosHitCheck(window), false, true, false) + y_r(30));
-					yofs += total_size;
-				}
-			}
-			//タスク内容
-			if (m_TaskWorkData.GetMap().size() > 0) {
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "マップ指定:")); yofs += sizy;
-				for (auto& LL : this->m_TaskWorkData.GetMap()) {
-					auto* ptr = MapData::Instance()->FindPtr(LL);
-					xofs = std::max(xofs, WindowSystem::SetMsg(xp + y_r(30), yp + yofs, xp + y_r(30), yp + sizy + yofs, sizy, STRX_LEFT, ptr->GetColors(0), Black, "%s", ptr->GetName().c_str()) + y_r(30)); yofs += sizy;
-				}
-			}
-			if (m_TaskWorkData.GetKill().size() > 0) {
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "敵をキル:")); yofs += sizy;
-				for (auto& LL : this->m_TaskWorkData.GetKill()) {
-					auto* eny = EnemyData::Instance()->FindPtr(LL.GetEnemyID());
-					xofs = std::max(xofs, WindowSystem::SetMsg(xp + y_r(30), yp + yofs, xp + y_r(30), yp + sizy + yofs, sizy, STRX_LEFT, eny->GetColors(0), Black, "%s x%2d", eny->GetName().c_str(), LL.GetKillCount()) + y_r(30));
-					if (LL.GetMapID() != InvalidID) {
-						auto* ptr = MapData::Instance()->FindPtr(LL.GetMapID());
-						xofs = std::max(xofs, WindowSystem::SetMsg(xp + y_r(250), yp + yofs, xp + y_r(250), yp + sizy + yofs, LineHeight * 8 / 10, STRX_LEFT, ptr->GetColors(0), Black, " in %s", ptr->GetName().c_str()));
-					}
-					yofs += sizy;
-				}
-			}
-			if (m_TaskWorkData.GetFiR_Item().size() > 0) {
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "Firアイテムの納品:")); yofs += sizy;
-				yofs += LineHeight;
-				for (const auto& LL : this->m_TaskWorkData.GetFiR_Item()) {
-					auto ID = LL.GetID();
-					auto* ptr = ItemData::Instance()->FindPtr(ID);
-					int total_size = y_r(48);
-					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetValue(), Gray10, !WindowMngr->PosHitCheck(window), true, true, false) + y_r(30));
-					yofs += total_size;
-				}
-			}
-			if (m_TaskWorkData.GetNotFiR_Item().size() > 0) {
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "Firでなくてよいアイテムの納品:")); yofs += sizy;
-				yofs += LineHeight;
-				for (const auto& LL : this->m_TaskWorkData.GetNotFiR_Item()) {
-					auto ID = LL.GetID();
-					auto* ptr = ItemData::Instance()->FindPtr(ID);
-					int total_size = y_r(48);
-					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetValue(), Gray10, !WindowMngr->PosHitCheck(window), false, true, false) + y_r(30));
-					yofs += total_size;
-				}
-			}
-
-			if (m_TaskWorkData.GetWeaponPreset().size() > 0) {
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "カスタム品の納品:")); yofs += sizy;
-				yofs += LineHeight;
-				//
-				for (const auto& LL : this->m_TaskWorkData.GetWeaponPreset()) {
-					auto* ptr = PresetData::Instance()->FindPtr(LL);
-					int total_size = LineHeight;
-					int XSize = WindowSystem::GetMsgLen(total_size, ptr->GetName());
-
-					if (WindowSystem::ClickCheckBox(xp + y_r(30), yp + yofs, xp + y_r(30) + XSize, yp + yofs + total_size, false, true, Gray10, ptr->GetName())) {
-						InterParts->GotoNext(BGSelect::Custom);
-						InterParts->SetInitParam(0, (int)ptr->GetBase()->GetID());//武器ID
-						InterParts->SetInitParam(1, (int)ptr->GetID());//プリセットID
-					}
-					xofs = std::max(xofs, XSize + y_r(30));
-					yofs += total_size;
-				}
-			}
-			if (m_TaskWorkData.GetElseMsg().size() > 0) {
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "メモ:")); yofs += sizy;
-				for (auto& m : this->m_TaskWorkData.GetElseMsg()) {
-					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, m.c_str())); yofs += sizy;
-				}
-			}
-			//
-			if ((m_TaskRewardData.GetLLAdd().size() > 0) || (m_TaskRewardData.GetItem().size() > 0)) {
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "報酬アイテム:")); yofs += sizy;
-				yofs += LineHeight;
-			}
-			if (m_TaskRewardData.GetLLAdd().size() > 0) {
-				for (auto& LL : this->m_TaskRewardData.GetLLAdd()) {
-					auto* trader2 = TraderData::Instance()->FindPtr(LL.GetID());
-					xofs = std::max(xofs, WindowSystem::SetMsg(xp + y_r(30), yp + yofs, xp + y_r(30), yp + sizy + yofs, sizy, STRX_LEFT, trader2->GetColors(0), Black, "%s %s%4.2f",
-						trader2->GetName().c_str(),
-						(LL.GetValue() >= 0.f) ? "+" : "-",
-						(float)(LL.GetValue()) / 100.f)); yofs += sizy;
-				}
-			}
-			if (m_TaskRewardData.GetItem().size() > 0) {
-				for (const auto& LL : this->m_TaskRewardData.GetItem()) {
-					auto ID = LL.GetID();
-					auto* ptr = ItemData::Instance()->FindPtr(ID);
-					int total_size = y_r(48);
-					xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetValue(), Gray10, !WindowMngr->PosHitCheck(window), true, true, false) + y_r(30));
-					yofs += total_size;
-				}
-				//yofs += sizy;
-			}
-			//
-			if (xs) {
-				*xs = std::max(*xs, xofs + LineHeight / 10);
-			}
-			if (ys) {
-				*ys = std::max(*ys, yofs + LineHeight / 10);
-			}
-		}
+		void			DrawWindow(WindowSystem::WindowControl* window, int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept;
 	};
 
 	enum class EnumTaskObjective {
@@ -497,8 +268,7 @@ namespace FPS_n2 {
 				}
 			}
 		};
-		struct TaskObjective
-		{
+		struct TaskObjective {
 			EnumTaskObjective							TaskObjectiveType{ EnumTaskObjective::Max };
 
 			std::string									type;
@@ -551,244 +321,7 @@ namespace FPS_n2 {
 			Compare										Compares;
 			//
 		public:
-			void GetJsonData(const nlohmann::json& data) {
-				if (data.contains("__typename")) {
-					if (!data["__typename"].is_null()) {
-						std::string buf = data["__typename"];
-						for (int i = 0; i < sizeof(TypesStr) / sizeof(TypesStr[0]); i++) {
-							if (buf == TypesStr[i]) {
-								TaskObjectiveType = (EnumTaskObjective)i;
-							}
-						}
-					}
-				}
-				if (data.contains("type")) {
-					if (!data["type"].is_null()) {
-						type = data["type"];
-					}
-				}
-				if (data.contains("description")) {
-					if (!data["description"].is_null()) {
-						description = data["description"];
-					}
-				}
-				if (data.contains("maps")) {
-					if (!data["maps"].is_null()) {
-						for (const auto&m : data["maps"]) {
-							std::string buf = m["name"];
-							Maps.emplace_back(MapData::Instance()->FindID(buf.c_str()));
-						}
-					}
-				}
-				if (data.contains("optional")) {
-					if (!data["optional"].is_null()) {
-						optional = data["optional"];
-					}
-				}
-				if (data.contains("item")) {
-					if (!data["item"].is_null()) {
-						std::string buf = data["item"]["name"];
-						Items = ItemData::Instance()->FindID(buf.c_str());
-					}
-				}
-				if (data.contains("containsAll")) {
-					if (!data["containsAll"].is_null()) {
-						for (const auto&m : data["containsAll"]) {
-							std::string buf1 = m["name"];
-							containsAll.emplace_back(buf1);
-						}
-					}
-				}
-				if (data.contains("containsCategory")) {
-					if (!data["containsCategory"].is_null()) {
-						for (const auto&m : data["containsCategory"]) {
-							std::string buf1 = m["name"];
-							containsCategory.emplace_back(buf1);
-						}
-					}
-				}
-				if (data.contains("attributes")) {
-					if (!data["attributes"].is_null()) {
-						for (const auto&m : data["attributes"]) {
-							std::string buf1 = m["name"];
-							Compare buf2; buf2.GetJsonData(m["requirement"]);
-							attributes.emplace_back(std::make_pair(buf1, buf2));
-						}
-					}
-				}
-				if (data.contains("healthEffect")) {
-					if (!data["healthEffect"].is_null()) {
-						for (const auto&m : data["healthEffect"]) {
-							HealthEffect buf1; buf1.GetJsonData(m);
-							healthEffect.emplace_back(buf1);
-						}
-					}
-				}
-				if (data.contains("exitStatus")) {
-					if (!data["exitStatus"].is_null()) {
-						for (const auto&m : data["exitStatus"]) {
-							exitStatus.emplace_back(m);
-						}
-					}
-				}
-				if (data.contains("exitName")) {
-					if (!data["exitName"].is_null()) {
-						exitName = data["exitName"];
-					}
-				}
-				if (data.contains("zoneNames")) {
-					if (!data["zoneNames"].is_null()) {
-						for (const auto&m : data["zoneNames"]) {
-							std::string buf1 = m;
-							zoneNames.emplace_back(buf1);
-						}
-					}
-				}
-				if (data.contains("count")) {
-					if (!data["count"].is_null()) {
-						count = data["count"];
-					}
-				}
-				if (data.contains("foundInRaid")) {
-					if (!data["foundInRaid"].is_null()) {
-						foundInRaid = data["foundInRaid"];
-					}
-				}
-				if (data.contains("dogTagLevel")) {
-					if (!data["dogTagLevel"].is_null()) {
-						dogTagLevel = data["dogTagLevel"];
-					}
-				}
-				if (data.contains("maxDurability")) {
-					if (!data["maxDurability"].is_null()) {
-						maxDurability = data["maxDurability"];
-					}
-				}
-				if (data.contains("minDurability")) {
-					if (!data["minDurability"].is_null()) {
-						minDurability = data["minDurability"];
-					}
-				}
-
-				if (data.contains("markerItem")) {
-					if (!data["markerItem"].is_null()) {
-						markerItem = data["markerItem"]["name"];
-					}
-				}
-
-				if (data.contains("questItem")) {
-					if (!data["questItem"].is_null()) {
-						questItem = data["questItem"]["name"];
-					}
-				}
-
-				if (data.contains("target")) {
-					if (!data["target"].is_null()) {
-						std::string buf = data["target"];
-						target = EnemyData::Instance()->FindID(buf.c_str());
-					}
-				}
-				if (data.contains("shotType")) {
-					if (!data["shotType"].is_null()) {
-						shotType = data["shotType"];
-					}
-				}
-				if (data.contains("bodyParts")) {
-					if (!data["bodyParts"].is_null()) {
-						for (const auto&m : data["bodyParts"]) {
-							bodyParts.emplace_back(m);
-						}
-					}
-				}
-				if (data.contains("usingWeapon")) {
-					if (!data["usingWeapon"].is_null()) {
-						for (const auto&m : data["usingWeapon"]) {
-							std::string buf1 = m["name"];
-							usingWeapon.emplace_back(buf1);
-						}
-					}
-				}
-				if (data.contains("usingWeaponMods")) {
-					if (!data["usingWeaponMods"].is_null()) {
-						for (const auto&m : data["usingWeaponMods"]) {
-							for (const auto&m2 : m) {
-								std::string buf1 = m2["name"];
-								usingWeaponMods.emplace_back(buf1);
-							}
-						}
-					}
-				}
-				if (data.contains("wearing")) {
-					if (!data["wearing"].is_null()) {
-						for (const auto&m : data["wearing"]) {
-							for (const auto&m2 : m) {
-								std::string buf1 = m2["name"];
-								wearing.emplace_back(buf1);
-							}
-						}
-					}
-				}
-				if (data.contains("notWearing")) {
-					if (!data["notWearing"].is_null()) {
-						for (const auto&m : data["notWearing"]) {
-							std::string buf1 = m["name"];
-							notWearing.emplace_back(buf1);
-						}
-					}
-				}
-
-				if (data.contains("distance")) {
-					if (!data["distance"].is_null()) {
-						distance.GetJsonData(data["distance"]);
-					}
-				}
-
-
-				if (data.contains("playerHealthEffect")) {
-					if (!data["playerHealthEffect"].is_null()) {
-						playerHealthEffect.GetJsonData(data["playerHealthEffect"]);
-					}
-				}
-				if (data.contains("enemyHealthEffect")) {
-					if (!data["enemyHealthEffect"].is_null()) {
-						enemyHealthEffect.GetJsonData(data["enemyHealthEffect"]);
-					}
-				}
-
-				if (data.contains("skillLevel")) {
-					if (!data["skillLevel"].is_null()) {
-						std::string buf1 = data["skillLevel"]["name"];
-						float buf2 = data["skillLevel"]["level"];
-						skillLevel.emplace_back(std::make_pair(buf1, buf2));
-					}
-				}
-
-				if (data.contains("task")) {
-					if (!data["task"].is_null()) {
-						task = data["task"]["name"];
-					}
-				}
-				if (data.contains("status")) {
-					if (!data["status"].is_null()) {
-						for (const auto&m : data["status"]) {
-							std::string buf1 = m;
-							status.emplace_back(buf1);
-						}
-					}
-				}
-
-				if (data.contains("trader")) {
-					if (!data["trader"].is_null()) {
-						trader = data["trader"]["name"];
-					}
-				}
-				if (data.contains("level")) {
-					if (!data["level"].is_null()) {
-						level = data["level"];
-					}
-				}
-				Compares.GetJsonData(data);
-			}
+			void GetJsonData(const nlohmann::json& data);
 		};
 		struct traderStanding {
 			std::string							trader;
@@ -817,44 +350,7 @@ namespace FPS_n2 {
 			std::vector<skillLevelReward>					m_skillLevelReward;
 			std::vector<std::string>						traderUnlock;
 		public:
-			void GetJsonData(const nlohmann::json& data) {
-				if (data.contains("traderStanding")) {
-					if (!data["traderStanding"].is_null()) {
-						for (const auto&m : data["traderStanding"]) {
-							traderStanding buf1; buf1.GetJsonData(m);
-							m_traderStanding.emplace_back(buf1);
-						}
-					}
-				}
-				if (data.contains("items")) {
-					if (!data["items"].is_null()) {
-						for (const auto&m : data["items"]) {
-							TaskRewardItems buf;
-
-							buf.Name = m["item"]["name"];
-							buf.ID = ItemData::Instance()->FindID(buf.Name.c_str());
-							buf.count = m["count"];
-							Items.emplace_back(buf);
-						}
-					}
-				}
-				if (data.contains("skillLevelReward")) {
-					if (!data["skillLevelReward"].is_null()) {
-						for (const auto&m : data["skillLevelReward"]) {
-							skillLevelReward buf1; buf1.GetJsonData(m);
-							m_skillLevelReward.emplace_back(buf1);
-						}
-					}
-				}
-				if (data.contains("traderUnlock")) {
-					if (!data["traderUnlock"].is_null()) {
-						for (const auto&m : data["traderUnlock"]) {
-							std::string buf1 = m["name"];
-							traderUnlock.emplace_back(buf1);
-						}
-					}
-				}
-			}
+			void GetJsonData(const nlohmann::json& data);
 		};
 	public:
 		TraderID									traderID{ InvalidID };
@@ -877,138 +373,24 @@ namespace FPS_n2 {
 		void OutputDataSub(std::ofstream& outputfile) noexcept override;
 	};
 
-	class TaskData : public SingletonBase<TaskData>, public DataParent<TaskID, TaskList>, public JsonListParent<TaskJsonData> {
-	private:
-		friend class SingletonBase<TaskData>;
-	private:
+	class TaskData : public DataParent<TaskID, TaskList>, public JsonListParent<TaskJsonData> {
+	public:
 		TaskData() noexcept {
 			std::string Path = "data/task/";
 			GetDirList(Path.c_str(), [&](const char* RetPath2) {
 				SetDirList((Path + RetPath2 + "/").c_str());
 			});
-			for (auto& i : ItemData::Instance()->SetList()) {
-				i.ResetTaskUseID();
-				for (const auto& t : this->m_List) {
-					for (const auto& n : t.GetTaskNeedData().GetItem()) {
-						if (i.GetID() == n.GetID()) {
-							i.AddTaskUseID(t.GetID());
-						}
-					}
-					for (const auto& w : t.GetTaskWorkData().GetFiR_Item()) {
-						if (i.GetID() == w.GetID()) {
-							i.AddTaskUseID(t.GetID());
-						}
-					}
-					for (const auto& w : t.GetTaskWorkData().GetNotFiR_Item()) {
-						if (i.GetID() == w.GetID()) {
-							i.AddTaskUseID(t.GetID());
-						}
-					}
-				}
-			}
+			AddTaskUseID();
 		}
 		~TaskData() noexcept {}
 	private:
-
-	private:
-		std::vector<int> TraderIDs;
+		std::vector<int>	TraderIDs;
+		void			AddTaskUseID() noexcept;
 	public:
-		void			SetNeedTasktoID() noexcept {
-			for (auto& t : this->m_List) {
-				t.SetNeedTasktoID();
-			}
-		}
-		void InitDatabyJson() noexcept {
-			TraderIDs.resize(TraderData::Instance()->GetList().size());
-			for (auto&i : TraderIDs) { i = 0; }
-			ResetDataJson();
-		}
-		void UpdateData(int ofset, int size) noexcept {
-			for (auto& L : this->m_List) {
-				for (int loop = ofset; loop < ofset + size; loop++) {
-					if (loop >= (int)GetJsonDataList().size()) { break; }
-					auto& jd = GetJsonDataList().at(loop);
-					if (L.GetIDstr() == jd->m_id) {
-						L.m_CheckJson++;
-						jd->OutputData(L.GetFilePath());
-						break;
-					}
-				}
-			}
-		}
-		void SaveAsNewData2(std::string Path) noexcept {
-			bool maked = false;
-			std::vector<bool> maked_t;
-			maked_t.resize(TraderData::Instance()->GetList().size());
-			for (auto&&i : maked_t) { i = false; }
-
-			for (auto& jd : GetJsonDataList()) {
-				TraderID trID = (dynamic_cast<TaskJsonData*>(jd.get()))->traderID;
-				if (!jd->m_IsFileOpened && (trID != InvalidID)) {
-					std::string ParentPath = Path;
-					if (!maked) {
-						CreateDirectory(ParentPath.c_str(), NULL);
-						maked = true;
-					}
-					std::string ChildPath = ParentPath;
-					{
-						char tID[64];
-						sprintfDx(tID, "%02d", trID);
-						ChildPath += tID;
-						ChildPath += "_" + TraderData::Instance()->FindPtr(trID)->GetName() + "/";
-						if (!maked_t[trID]) {
-							CreateDirectory(ChildPath.c_str(), NULL);
-							maked_t[trID] = true;
-						}
-					}
-					std::string FileName;
-					{
-						char tID[64];
-						sprintfDx(tID, "%02d%03d", trID, TraderIDs[trID]);
-						TraderIDs[trID]++;
-						FileName = tID;
-						FileName += "_" + jd->m_name + ".txt";
-
-					}
-					SubStrs(&FileName, ".");
-					std::string Name = FileName + ".txt";
-					jd->OutputData(ChildPath + Name);
-				}
-			}
-		}
-		void CheckThroughJson(void) noexcept {
-			for (auto& L : this->m_List) {
-				for (auto& jd : GetJsonDataList()) {
-					if (L.GetIDstr() == jd->m_id) {
-						//既存のものを保持しておく
-						std::ofstream outputfile(L.GetFilePath(), std::ios::app);
-						for (const auto& p : L.GetTaskWorkData().GetPin()) {
-							outputfile << "Task_PinPoint=[" + std::to_string(p.m_Point.x()) + DIV_STR + std::to_string(p.m_Point.y()) + DIV_STR + std::to_string(p.m_Point.z()) + "]\n";
-							outputfile << "Task_PinMap=[" + MapData::Instance()->FindPtr(p.m_MapID)->GetName() + DIV_STR + std::to_string(p.m_MapSel) + "]\n";
-						}
-						outputfile.close();
-						break;
-					}
-				}
-			}
-
-			for (auto& t : this->m_List) {
-				if (t.m_CheckJson == 0) {
-					std::string ErrMes = "Error : ThroughJson : ";
-					ErrMes += t.GetName();
-					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
-				}
-			}
-			for (auto& t : this->m_List) {
-				if (t.m_CheckJson >= 2) {
-					std::string ErrMes = "Error : Be repeated ";
-					ErrMes += std::to_string(t.m_CheckJson);
-					ErrMes += " : ";
-					ErrMes += t.GetName();
-
-					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
-				}
-			}
-		}
+		void			SetNeedTasktoID() noexcept;
+		void			InitDatabyJson() noexcept;
+		void			UpdateData(int ofset, int size) noexcept;
+		void			SaveAsNewData2(std::string Path) noexcept;
+		void			CheckThroughJson(void) noexcept;
 	};
 };

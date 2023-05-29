@@ -18,21 +18,14 @@ namespace FPS_n2 {
 				m_PartsIDBuffer.emplace_back(Args[0]);
 			}
 		}
-		void	Load_Sub() noexcept override {
-			m_Base = ItemData::Instance()->FindPtr(ItemData::Instance()->FindID(m_BaseIDBuffer.c_str()));
-			for (auto& P : this->m_PartsIDBuffer) {
-				m_Parts.emplace_back(ItemData::Instance()->FindPtr(ItemData::Instance()->FindID(P.c_str())));
-			}
-		}
+		void	Load_Sub() noexcept override;
 		void	WhenAfterLoad_Sub() noexcept override {}
 	public:
 		const auto&	GetBase() const noexcept { return this->m_Base; }
 		const auto&	GetParts() const noexcept { return this->m_Parts; }
 	};
-	class PresetData : public SingletonBase<PresetData>, public DataParent<PresetID, PresetList> {
-	private:
-		friend class SingletonBase<PresetData>;
-	private:
+	class PresetData : public DataParent<PresetID, PresetList> {
+	public:
 		PresetData() noexcept {
 			std::string Path = "data/Preset/";
 			GetDirList(Path.c_str(), [&](const char* RetPath2) {

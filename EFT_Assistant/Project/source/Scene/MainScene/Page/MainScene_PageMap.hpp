@@ -55,12 +55,12 @@ namespace FPS_n2 {
 			auto* Input = InputControl::Instance();
 			if (m_MapSelect != this->m_SelectBuffer) {
 				if (m_MapSelect != InvalidID) {
-					auto* MapPtr = MapData::Instance()->FindPtr(m_MapSelect);
+					auto* MapPtr = DataBase::Instance()->GetMapData()->FindPtr(m_MapSelect);
 					MapPtr->DisposeMapPics();
 				}
 				m_MapSelect = this->m_SelectBuffer;
 				{
-					auto* MapPtr = MapData::Instance()->FindPtr(m_MapSelect);
+					auto* MapPtr = DataBase::Instance()->GetMapData()->FindPtr(m_MapSelect);
 					if (m_WatchMapSelect <= MapPtr->GetMapPicNum()) { this->m_WatchMapSelect = 0; }
 					m_BaseRad = MapPtr->GetMapNorthRad(m_WatchMapSelect);
 					m_Rad = 0.f;
@@ -74,7 +74,7 @@ namespace FPS_n2 {
 			if (GetASyncLoadNum() == 0) {
 				if (isLoaded) {
 					isLoaded = false;
-					auto* MapPtr = MapData::Instance()->FindPtr(m_MapSelect);
+					auto* MapPtr = DataBase::Instance()->GetMapData()->FindPtr(m_MapSelect);
 					MapPtr->WhenAfterLoadMapPics();
 				}
 			}
@@ -96,10 +96,10 @@ namespace FPS_n2 {
 		}
 		void Draw_Back_Sub(int posx, int posy, float Scale) noexcept override {
 			if (m_MapSelect != InvalidID) {
-				auto* MapPtr = MapData::Instance()->FindPtr(m_MapSelect);
+				auto* MapPtr = DataBase::Instance()->GetMapData()->FindPtr(m_MapSelect);
 				auto* Input = InputControl::Instance();
 				auto* GraphPtr = MapPtr->GetMapGraph((int)m_WatchMapSelect);
-				TaskList* TaskPtr = (m_EditTaskID != InvalidID) ? TaskData::Instance()->FindPtr(m_EditTaskID) : nullptr;
+				TaskList* TaskPtr = (m_EditTaskID != InvalidID) ? DataBase::Instance()->GetTaskData()->FindPtr(m_EditTaskID) : nullptr;
 				if (GraphPtr) {
 					DrawControl::Instance()->SetDrawRotaGraph(DrawLayer::Normal, GraphPtr, posx, posy, Scale / 2.f, this->m_Rad, false);
 					float XSize = (float)MapPtr->GetMapXSize((int)m_WatchMapSelect)*Scale / 2.f;
@@ -123,7 +123,7 @@ namespace FPS_n2 {
 						{
 							int xp = y_r(10);
 							int yp = LineHeight + y_r(20) + LineHeight;
-							MakeList<TaskList>(xp, yp, TaskData::Instance()->GetList(), "Task", (int*)&m_EditTaskID, true, false, false, [&](const auto* tgt) {
+							MakeList<TaskList>(xp, yp, DataBase::Instance()->GetTaskData()->GetList(), "Task", (int*)&m_EditTaskID, true, false, false, [&](const auto* tgt) {
 								if (tgt->GetTrader() != this->m_EditTraderID && this->m_EditTraderID != InvalidID) {
 									return false;
 								}
@@ -190,20 +190,20 @@ namespace FPS_n2 {
 			{
 				int xp = y_r(1920 - 400 - 10);
 				int yp = LineHeight + y_r(10);
-				MakeList<MapList>(xp, yp, MapData::Instance()->GetList(), "Map", (int*)&m_SelectBuffer, true, false, false, [&](const auto *) { return true; });
+				MakeList<MapList>(xp, yp, DataBase::Instance()->GetMapData()->GetList(), "Map", (int*)&m_SelectBuffer, true, false, false, [&](const auto *) { return true; });
 			}
 			//
 			{
 				int xp = y_r(1920 - 400 - 10);
 				int yp = LineHeight + y_r(540);
-				MakeList<TraderList>(xp, yp, TraderData::Instance()->GetList(), "Task Trader Filter", (int*)&m_EditTraderID, true, false, false, [&](const auto*) { return true; });
+				MakeList<TraderList>(xp, yp, DataBase::Instance()->GetTraderData()->GetList(), "Task Trader Filter", (int*)&m_EditTraderID, true, false, false, [&](const auto*) { return true; });
 			}
 			//
 			if (m_MapSelect != InvalidID) {
 				int xp = y_r(1920 - 400 - 10 - 500);
 				int yp = LineHeight + y_r(10);
 
-				auto* MapPtr = MapData::Instance()->FindPtr(m_MapSelect);
+				auto* MapPtr = DataBase::Instance()->GetMapData()->FindPtr(m_MapSelect);
 				int Max = (int)MapPtr->GetMapPicNum();
 				int NextID = (m_WatchMapSelect + 1) % Max;
 				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(400), yp + LineHeight, false, true, Gray25, "Select %s", WatchMapTypeStr[std::clamp(NextID, 0, 2)])) {
@@ -224,7 +224,7 @@ namespace FPS_n2 {
 			float Len = std::hypotf(Xper, Yper);
 			float Rad = std::atan2f(Xper, Yper);
 			if (m_MapSelect != InvalidID) {
-				auto* MapPtr = MapData::Instance()->FindPtr(m_MapSelect);
+				auto* MapPtr = DataBase::Instance()->GetMapData()->FindPtr(m_MapSelect);
 				float XSize = (float)MapPtr->GetMapXSize((int)m_WatchMapSelect)*Scale / 2.f;
 				float YSize = (float)MapPtr->GetMapYSize((int)m_WatchMapSelect)*Scale / 2.f;
 

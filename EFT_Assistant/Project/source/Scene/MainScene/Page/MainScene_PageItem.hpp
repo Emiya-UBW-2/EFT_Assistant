@@ -40,7 +40,7 @@ namespace FPS_n2 {
 			m_TaskMode = false;
 
 			Items.clear();
-			for (auto& L : ItemData::Instance()->GetList()) {//todo
+			for (auto& L : DataBase::Instance()->GetItemData()->GetList()) {//todo
 				Items.emplace_back(&L);
 			}
 			m_TraderSort = true;
@@ -138,7 +138,7 @@ namespace FPS_n2 {
 			for (auto& L : Items) {//todo
 				if (m_ItemIDs[1].first == InvalidID) {
 					bool isHit = false;
-					for (auto& TL : ItemTypeData::Instance()->GetList()) {
+					for (auto& TL : DataBase::Instance()->GetItemTypeData()->GetList()) {
 						if (TL.GetCategoryID() == this->m_ItemIDs[0].first || this->m_ItemIDs[0].first == InvalidID) {
 							isHit = (L->GetTypeID() == TL.GetID());
 							if (isHit) { break; }
@@ -167,7 +167,7 @@ namespace FPS_n2 {
 									auto Color = Green;
 									int YPosAdd = 0;
 									for (auto& t : L->GetUseTaskID()) {
-										auto* ptr = TaskData::Instance()->FindPtr(t);
+										auto* ptr = DataBase::Instance()->GetTaskData()->FindPtr(t);
 										DrawControl::Instance()->SetString(DrawLayer::Front,
 											FontPool::FontType::Nomal_Edge, LineHeight,
 											STRX_RIGHT, STRY_BOTTOM, Input->GetMouseX(), Input->GetMouseY() + YPosAdd, Color, Black,
@@ -183,7 +183,7 @@ namespace FPS_n2 {
 									auto Color = Green;
 									std::string TraderName = "Flea Market";
 									if (ID != InvalidID) {
-										auto* ptr = TraderData::Instance()->FindPtr(ID);
+										auto* ptr = DataBase::Instance()->GetTraderData()->FindPtr(ID);
 										if (ptr) {
 											TraderName = ptr->GetName();
 											Color = ptr->GetColors(50);
@@ -232,19 +232,19 @@ namespace FPS_n2 {
 						if (isChild) {
 							xgoal += xs_add;
 						}
-						MakeList<ItemCategoryList>(xp + xgoal, yp, ItemCategoryData::Instance()->GetList(), "ItemCategory", &IDs->first, !IDs->second, false, true, [&](const auto *) { return true; });
+						MakeList<ItemCategoryList>(xp + xgoal, yp, DataBase::Instance()->GetItemCategoryData()->GetList(), "ItemCategory", &IDs->first, !IDs->second, false, true, [&](const auto *) { return true; });
 					});
 				}
 				//
 				{
 					Layer = 1;
-					bool CanGoNext = ((m_ItemIDs.at(Layer).first != InvalidID) && (ItemTypeData::Instance()->FindPtr(m_ItemIDs.at(Layer).first)->GetName() == "Mechanical Key"));
+					bool CanGoNext = ((m_ItemIDs.at(Layer).first != InvalidID) && (DataBase::Instance()->GetItemTypeData()->FindPtr(m_ItemIDs.at(Layer).first)->GetName() == "Mechanical Key"));
 					MakeLists(Layer, CanGoNext, [&](std::pair<int, bool>* IDs) {
 						isChild |= (Layer >= 1);
 						if (isChild) {
 							xgoal += xs_add;
 						}
-						MakeList<ItemTypeList>(xp + xgoal, yp, ItemTypeData::Instance()->GetList(), "ItemType", &IDs->first, !IDs->second, false, true, [&](const auto *ptr) { return (ptr->GetCategoryID() == this->m_ItemIDs.at(Layer - 1).first); });
+						MakeList<ItemTypeList>(xp + xgoal, yp, DataBase::Instance()->GetItemTypeData()->GetList(), "ItemType", &IDs->first, !IDs->second, false, true, [&](const auto *ptr) { return (ptr->GetCategoryID() == this->m_ItemIDs.at(Layer - 1).first); });
 					});
 				}
 				//
@@ -255,7 +255,7 @@ namespace FPS_n2 {
 						if (isChild) {
 							xgoal += xs_add;
 						}
-						MakeList<MapList>(xp + xgoal, yp, MapData::Instance()->GetList(), "Map", &IDs->first, !IDs->second, true, true, [&](const auto *) { return true; });
+						MakeList<MapList>(xp + xgoal, yp, DataBase::Instance()->GetMapData()->GetList(), "Map", &IDs->first, !IDs->second, true, true, [&](const auto *) { return true; });
 					});
 				}
 				//

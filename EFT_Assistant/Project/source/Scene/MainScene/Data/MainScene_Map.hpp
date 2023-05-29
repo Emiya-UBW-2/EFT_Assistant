@@ -59,10 +59,8 @@ namespace FPS_n2 {
 		const auto	GetMapNorthRad(int ID) const noexcept { return deg2rad(m_MapGraph.at(ID).m_Degree); }
 		const auto&	GeSizetoMeter(int ID) const noexcept { return this->m_MapGraph.at(ID).m_SizetoMeter; }
 	};
-	class MapData : public SingletonBase<MapData>, public DataParent<MapID, MapList> {
-	private:
-		friend class SingletonBase<MapData>;
-	private:
+	class MapData : public DataParent<MapID, MapList> {
+	public:
 		MapData() noexcept {
 			SetDirList("data/map/");
 		}

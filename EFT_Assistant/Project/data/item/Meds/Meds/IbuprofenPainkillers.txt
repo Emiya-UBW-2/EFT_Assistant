@@ -10,6 +10,6 @@ Sell_Prapor=12617
 Sell_Therapist=15898
 Sell_Fence=10094
 Sell_Jaeger=15141
-Sell_Flea Market=97999
+Sell_Flea Market=92999
 fleaMarketFee=0
 propertiestype=ItemPropertiesPainkiller

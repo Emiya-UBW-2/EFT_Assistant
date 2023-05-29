@@ -79,18 +79,18 @@ namespace FPS_n2 {
 		m_ItemsData.m_properties.SetData(LEFT, Args);
 	}
 	void			ItemList::Load_Sub() noexcept {
-		this->m_ItemsData.m_TypeID.CheckID(ItemTypeData::Instance());
+		this->m_ItemsData.m_TypeID.CheckID(DataBase::Instance()->GetItemTypeData().get());
 		for (auto& m : this->m_ItemsData.m_MapID) {
-			m.CheckID(MapData::Instance());
+			m.CheckID(DataBase::Instance()->GetMapData().get());
 		}
 		for (auto s : this->m_ItemsData.m_sellFor) {
-			s.first.CheckID(TraderData::Instance(), false);//Invalidはフリマなのでエラー出さない
+			s.first.CheckID(DataBase::Instance()->GetTraderData().get(), false);//Invalidはフリマなのでエラー出さない
 		}
 		//
 		{
-			auto* typePtr = ItemTypeData::Instance()->FindPtr(this->GetTypeID());
+			auto* typePtr = DataBase::Instance()->GetItemTypeData()->FindPtr(this->GetTypeID());
 			if (typePtr) {
-				auto* catPtr = ItemCategoryData::Instance()->FindPtr(typePtr->GetCategoryID());
+				auto* catPtr = DataBase::Instance()->GetItemCategoryData()->FindPtr(typePtr->GetCategoryID());
 				if (catPtr->GetName() == "Weapons") {
 					this->m_ItemsData.m_isWeapon = true;
 				}
@@ -103,11 +103,11 @@ namespace FPS_n2 {
 	void			ItemList::SetParent() noexcept {
 		for (auto& cp : this->m_ItemsData.m_properties.SetModSlots()) {
 			for (auto& c : cp.m_Data) {
-				c.CheckID(ItemData::Instance());
+				c.CheckID(DataBase::Instance()->GetItemData().get());
 			}
 		}
 		this->m_ItemsData.m_ParentPartsID.clear();
-		for (const auto& t : ItemData::Instance()->GetList()) {
+		for (const auto& t : DataBase::Instance()->GetItemData()->GetList()) {
 			for (auto& cp : t.GetChildParts()) {
 				for (auto& c : cp.m_Data) {
 					if (c.GetID() == this->GetID()) {
@@ -119,15 +119,15 @@ namespace FPS_n2 {
 		//
 		for (auto& cp : this->m_ItemsData.m_properties.SetModSlots()) {
 			for (const auto& c : cp.m_Data) {
-				cp.SetTypeID(ItemData::Instance()->FindPtr(c.GetID())->GetTypeID());
+				cp.SetTypeID(DataBase::Instance()->GetItemData()->FindPtr(c.GetID())->GetTypeID());
 			}
 		}
 		//
 		for (auto& cp : this->m_ItemsData.m_properties.SetConflictPartsID()) {
-			cp.CheckID(ItemData::Instance());
+			cp.CheckID(DataBase::Instance()->GetItemData().get());
 		}
 		//自分を干渉相手にしている奴を探してそいつもリストに入れる　相思相愛
-		for (const auto& t : ItemData::Instance()->GetList()) {
+		for (const auto& t : DataBase::Instance()->GetItemData()->GetList()) {
 			for (auto& cp : t.GetConflictParts()) {
 				if (cp.GetID() == this->GetID()) {
 					this->m_ItemsData.m_properties.SetConflictPartsID().resize(this->m_ItemsData.m_properties.SetConflictPartsID().size() + 1);
@@ -229,7 +229,7 @@ namespace FPS_n2 {
 			if (!isHit) {
 				//ウィンドウ追加
 				WindowMngr->Add()->Set(Input->GetMouseX() - sizeXBuf / 2, Input->GetMouseY(), sizeXBuf, sizeYBuf, 0, GetName().c_str(), false, true, FreeID, [&](WindowSystem::WindowControl* win) {
-					ItemData::Instance()->FindPtr((ItemID)(win->m_FreeID - 0xFFFF))->DrawWindow(win, Gray10, win->GetPosX(), win->GetPosY());
+					DataBase::Instance()->GetItemData()->FindPtr((ItemID)(win->m_FreeID - 0xFFFF))->DrawWindow(win, Gray10, win->GetPosX(), win->GetPosY());
 				});
 			}
 		}
@@ -267,7 +267,7 @@ namespace FPS_n2 {
 					auto Color = Green;
 					std::string TraderName = "Flea Market";
 					if (ID != InvalidID) {
-						auto* ptr = TraderData::Instance()->FindPtr(ID);
+						auto* ptr = DataBase::Instance()->GetTraderData()->FindPtr(ID);
 						if (ptr) {
 							TraderName = ptr->GetName();
 							Color = ptr->GetColors(50);
@@ -298,7 +298,7 @@ namespace FPS_n2 {
 			yofs += LineHeight + y_r(5);
 			//タスク
 			{
-				for (const auto& tasks : TaskData::Instance()->GetList()) {
+				for (const auto& tasks : DataBase::Instance()->GetTaskData()->GetList()) {
 					bool IsChecktask = true;
 					if (false) {//河童必要タスクだけ書く
 						if (!tasks.GetTaskNeedData().GetKappaRequired()) {
@@ -337,7 +337,7 @@ namespace FPS_n2 {
 								//
 								signed long long FreeID = tasks.GetID();
 								WindowMngr->Add()->Set(xp + y_r(800) / 2 - sizeXBuf / 2, yp, sizeXBuf, sizeYBuf, 0, tasks.GetName().c_str(), false, true, FreeID, [&](WindowSystem::WindowControl* win) {
-									TaskData::Instance()->FindPtr((TaskID)win->m_FreeID)->DrawWindow(win, win->GetPosX(), win->GetPosY());
+									DataBase::Instance()->GetTaskData()->FindPtr((TaskID)win->m_FreeID)->DrawWindow(win, win->GetPosX(), win->GetPosY());
 								});
 
 							}
@@ -361,7 +361,7 @@ namespace FPS_n2 {
 								//
 								signed long long FreeID = tasks.GetID();
 								WindowMngr->Add()->Set(xp + y_r(800) / 2 - sizeXBuf / 2, yp, sizeXBuf, sizeYBuf, 0, tasks.GetName().c_str(), false, true, FreeID, [&](WindowSystem::WindowControl* win) {
-									TaskData::Instance()->FindPtr((TaskID)win->m_FreeID)->DrawWindow(win, win->GetPosX(), win->GetPosY());
+									DataBase::Instance()->GetTaskData()->FindPtr((TaskID)win->m_FreeID)->DrawWindow(win, win->GetPosX(), win->GetPosY());
 								});
 
 							}
@@ -385,7 +385,7 @@ namespace FPS_n2 {
 								//
 								signed long long FreeID = tasks.GetID();
 								WindowMngr->Add()->Set(xp + y_r(800) / 2 - sizeXBuf / 2, yp, sizeXBuf, sizeYBuf, 0, tasks.GetName().c_str(), false, true, FreeID, [&](WindowSystem::WindowControl* win) {
-									TaskData::Instance()->FindPtr((TaskID)win->m_FreeID)->DrawWindow(win, win->GetPosX(), win->GetPosY());
+									DataBase::Instance()->GetTaskData()->FindPtr((TaskID)win->m_FreeID)->DrawWindow(win, win->GetPosX(), win->GetPosY());
 								});
 
 							}
@@ -403,7 +403,7 @@ namespace FPS_n2 {
 				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STRX_LEFT, White, Black,
 					"ハイドアウト開放:")); yofs += LineHeight + y_r(5);
 				//ハイドアウト開放
-				for (auto&L : HideoutData::Instance()->SetList()) {
+				for (auto&L : DataBase::Instance()->GetHideoutData()->SetList()) {
 					for (const auto& Ld : L.GetLvData()) {
 						/*
 						bool IsChecktask = true;
@@ -426,7 +426,7 @@ namespace FPS_n2 {
 				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STRX_LEFT, White, Black,
 					"ハイドアウトクラフト:")); yofs += LineHeight + y_r(5);
 				//ハイドアウトクラフト素材
-				for (auto&L : HideoutData::Instance()->SetList()) {
+				for (auto&L : DataBase::Instance()->GetHideoutData()->SetList()) {
 					for (const auto& Ld : L.GetLvData()) {
 						int xofs_buf = y_r(10);
 						int ysize = (int)((float)y_r(64));
@@ -443,7 +443,7 @@ namespace FPS_n2 {
 								xofs_buf = y_r(10);
 								{
 									for (const auto& I : cf.m_ItemReq) {
-										auto* ptr = ItemData::Instance()->FindPtr(I.GetID());
+										auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(I.GetID());
 										if (ptr) {
 											int xstart = xp + xofs_buf;
 											xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs, y_r(200), ysize, I.GetValue(), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true);
@@ -459,7 +459,7 @@ namespace FPS_n2 {
 								}
 								{
 									for (const auto& I : cf.m_ItemReward) {
-										auto* ptr = ItemData::Instance()->FindPtr(I.GetID());
+										auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(I.GetID());
 										if (ptr) {
 											int xstart = xp + xofs_buf;
 											xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs, y_r(200), ysize, I.GetValue(), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true);
@@ -475,7 +475,7 @@ namespace FPS_n2 {
 					}
 				}
 				//ハイドアウトクラフト結果
-				for (auto&L : HideoutData::Instance()->SetList()) {
+				for (auto&L : DataBase::Instance()->GetHideoutData()->SetList()) {
 					for (const auto& Ld : L.GetLvData()) {
 						int xofs_buf = y_r(10);
 						int ysize = (int)((float)y_r(64));
@@ -494,7 +494,7 @@ namespace FPS_n2 {
 								{
 									for (const auto& I : cf.m_ItemReq) {
 										auto ID = I.GetID();
-										auto* ptr = ItemData::Instance()->FindPtr(ID);
+										auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(ID);
 										if (ptr) {
 											int xstart = xp + xofs_buf;
 											xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs, y_r(200), ysize, I.GetValue(), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true);
@@ -511,7 +511,7 @@ namespace FPS_n2 {
 								{
 									for (const auto& I : cf.m_ItemReward) {
 										auto ID = I.GetID();
-										auto* ptr = ItemData::Instance()->FindPtr(ID);
+										auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(ID);
 										if (ptr) {
 											int xstart = xp + xofs_buf;
 											xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs, y_r(200), ysize, I.GetValue(), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true);
@@ -532,7 +532,7 @@ namespace FPS_n2 {
 				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STRX_LEFT, White, Black,
 					"トレーダー交換:")); yofs += LineHeight + y_r(5);
 				//ハイドアウトクラフト素材
-				for (auto&L : TraderData::Instance()->SetList()) {
+				for (auto&L : DataBase::Instance()->GetTraderData()->SetList()) {
 					for (const auto& Ld : L.GetLvData()) {
 						int xofs_buf = y_r(10);
 						int ysize = (int)((float)y_r(64));
@@ -551,7 +551,7 @@ namespace FPS_n2 {
 								{
 									for (const auto& I : cf.m_ItemReq) {
 										auto ID = I.GetID();
-										auto* ptr = ItemData::Instance()->FindPtr(ID);
+										auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(ID);
 										if (ptr) {
 											int xstart = xp + xofs_buf;
 											xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs, y_r(200), ysize, I.GetValue(), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true);
@@ -568,7 +568,7 @@ namespace FPS_n2 {
 								{
 									for (const auto& I : cf.m_ItemReward) {
 										auto ID = I.GetID();
-										auto* ptr = ItemData::Instance()->FindPtr(ID);
+										auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(ID);
 										if (ptr) {
 											int xstart = xp + xofs_buf;
 											xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs, y_r(200), ysize, I.GetValue(), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true);
@@ -584,7 +584,7 @@ namespace FPS_n2 {
 					}
 				}
 				//ハイドアウトクラフト結果
-				for (auto&L : TraderData::Instance()->SetList()) {
+				for (auto&L : DataBase::Instance()->GetTraderData()->SetList()) {
 					for (const auto& Ld : L.GetLvData()) {
 						int xofs_buf = y_r(10);
 						int ysize = (int)((float)y_r(64));
@@ -603,7 +603,7 @@ namespace FPS_n2 {
 								{
 									for (const auto& I : cf.m_ItemReq) {
 										auto ID = I.GetID();
-										auto* ptr = ItemData::Instance()->FindPtr(ID);
+										auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(ID);
 										if (ptr) {
 											int xstart = xp + xofs_buf;
 											xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs, y_r(200), ysize, I.GetValue(), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true);
@@ -620,7 +620,7 @@ namespace FPS_n2 {
 								{
 									for (const auto& I : cf.m_ItemReward) {
 										auto ID = I.GetID();
-										auto* ptr = ItemData::Instance()->FindPtr(ID);
+										auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(ID);
 										if (ptr) {
 											int xstart = xp + xofs_buf;
 											xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs, y_r(200), ysize, I.GetValue(), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true);
@@ -660,7 +660,7 @@ namespace FPS_n2 {
 				int ysize = (int)((float)y_r(42));
 				for (const auto& cp : this->GetChildParts()) {
 					for (const auto& c : cp.m_Data) {
-						auto* ptr = ItemData::Instance()->FindPtr(c.GetID());
+						auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(c.GetID());
 						xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, y_r(800), ysize, 0, defaultcolor, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0)), false, true, false) + y_r(30));
 						yofs += ysize + y_r(5);
 					}
@@ -669,7 +669,7 @@ namespace FPS_n2 {
 					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STRX_LEFT, White, Black, "ParentMods:") + y_r(30)); yofs += LineHeight + y_r(5);
 				}
 				for (const auto& c : this->m_ItemsData.m_ParentPartsID) {
-					auto* ptr = ItemData::Instance()->FindPtr(c);
+					auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(c);
 					xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, y_r(800), ysize, 0, defaultcolor, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0)), false, true, false) + y_r(30));
 					yofs += ysize + y_r(5);
 				}
@@ -735,4 +735,95 @@ namespace FPS_n2 {
 		this->m_ItemsData.m_properties.OutputData(outputfile);
 	}
 	//
+	void ItemData::UpdateData(int ofset, int size) noexcept {
+		for (auto& L : this->m_List) {
+			for (int loop = ofset; loop < ofset + size; loop++) {
+				if (loop >= (int)this->m_ItemJsonData.size()) { break; }
+				auto& jd = this->m_ItemJsonData.at(loop);
+				if (L.GetIDstr() == jd.m_id) {
+					L.m_CheckJson++;
+
+					jd.OutputData(L.GetFilePath());
+
+					//既存のものを保持しておく
+					std::ofstream outputfile(L.GetFilePath(), std::ios::app);
+					for (auto& m : L.GetMapID()) {
+						auto* ptr = DataBase::Instance()->GetMapData()->FindPtr(m.GetID());
+						if (ptr) {
+							outputfile << "Map=" + ptr->GetName() + "\n";
+						}
+					}
+					outputfile.close();
+					break;
+				}
+			}
+		}
+	}
+	void ItemData::SaveAsNewData2(std::string Path) noexcept {
+		bool maked = false;
+		for (auto& jd : this->m_ItemJsonData) {
+			if (!jd.m_IsFileOpened) {
+				std::string ParentPath = Path + jd.m_categorytypes;
+
+				if (!maked) {
+					CreateDirectory(ParentPath.c_str(), NULL);
+					maked = true;
+				}
+
+				std::string ChildPath = ParentPath + "/";
+
+				std::string FileName = jd.m_name;
+				SubStrs(&FileName, ".");
+				SubStrs(&FileName, "\\");
+				SubStrs(&FileName, "/");
+				SubStrs(&FileName, ":");
+				SubStrs(&FileName, "*");
+				SubStrs(&FileName, "?");
+				SubStrs(&FileName, "\"");
+				SubStrs(&FileName, ">");
+				SubStrs(&FileName, "<");
+				SubStrs(&FileName, "|");
+				std::string Name = FileName + ".txt";
+
+				jd.OutputData(ChildPath + Name);
+				//RemoveDirectory(Path.c_str());
+			}
+		}
+	}
+	void ItemData::CheckThroughJson(void) noexcept {
+		for (auto& L : this->m_List) {
+			for (auto& jd : this->m_ItemJsonData) {
+				if (L.GetIDstr() == jd.m_id) {
+					//既存のものを保持しておく
+					std::ofstream outputfile(L.GetFilePath(), std::ios::app);
+					for (auto& m : L.GetMapID()) {
+						auto* ptr = DataBase::Instance()->GetMapData()->FindPtr(m.GetID());
+						if (ptr) {
+							outputfile << "Map=" + ptr->GetName() + "\n";
+						}
+					}
+					outputfile.close();
+					break;
+				}
+			}
+		}
+
+		for (auto& t : this->m_List) {
+			if (t.m_CheckJson == 0) {
+				std::string ErrMes = "Error : ThroughJson : ";
+				ErrMes += t.GetName();
+				DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+			}
+		}
+		for (auto& t : this->m_List) {
+			if (t.m_CheckJson >= 2) {
+				std::string ErrMes = "Error : Be repeated ";
+				ErrMes += std::to_string(t.m_CheckJson);
+				ErrMes += " : ";
+				ErrMes += t.GetName();
+
+				DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+			}
+		}
+	}
 };

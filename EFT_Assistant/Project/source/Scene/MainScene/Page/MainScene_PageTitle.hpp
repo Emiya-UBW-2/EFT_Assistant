@@ -91,14 +91,14 @@ namespace FPS_n2 {
 				auto BaseTime = GetNowHiPerformanceCount();
 
 				int count = 0;
-				ItemData::Instance()->InitDatabyJson();
+				DataBase::Instance()->GetItemData()->InitDatabyJson();
 				while (true) {
 					if (CommonDataRequest("data/query/barter_query.txt", 20 * count, 20, strResult)) {
 						ProcessMessage();
 						auto data = nlohmann::json::parse(strResult);
-						ItemData::Instance()->GetJsonData(data);
-						ItemData::Instance()->UpdateData(20 * count, 20);
-						ItemData::Instance()->SaveAsNewData2("data/item/Maked/Maked/");
+						DataBase::Instance()->GetItemData()->GetJsonData(data);
+						DataBase::Instance()->GetItemData()->UpdateData(20 * count, 20);
+						DataBase::Instance()->GetItemData()->SaveAsNewData2("data/item/Maked/Maked/");
 
 						if (data["data"]["items"].size() != 20) {
 							break;
@@ -106,7 +106,7 @@ namespace FPS_n2 {
 					}
 					count++;
 				}
-				ItemData::Instance()->CheckThroughJson();
+				DataBase::Instance()->GetItemData()->CheckThroughJson();
 				TimeCard();
 				{
 					std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000);
@@ -118,21 +118,21 @@ namespace FPS_n2 {
 				auto BaseTime = GetNowHiPerformanceCount();
 
 				int count = 0;
-				TaskData::Instance()->InitDatabyJson();
+				DataBase::Instance()->GetTaskData()->InitDatabyJson();
 				while (true) {
 					if (CommonDataRequest("data/query/task_query.txt", 20 * count, 20, strResult)) {
 						ProcessMessage();
 						auto data = nlohmann::json::parse(strResult);
-						TaskData::Instance()->GetDataJson(data["data"]["tasks"]);
-						TaskData::Instance()->UpdateData(20 * count, 20);
-						TaskData::Instance()->SaveAsNewData2("data/task/Maked/");
+						DataBase::Instance()->GetTaskData()->GetDataJson(data["data"]["tasks"]);
+						DataBase::Instance()->GetTaskData()->UpdateData(20 * count, 20);
+						DataBase::Instance()->GetTaskData()->SaveAsNewData2("data/task/Maked/");
 						if (data["data"]["tasks"].size() != 20) {
 							break;
 						}
 					}
 					count++;
 				}
-				TaskData::Instance()->CheckThroughJson();
+				DataBase::Instance()->GetTaskData()->CheckThroughJson();
 				TimeCard();
 				{
 					std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000);
@@ -144,21 +144,21 @@ namespace FPS_n2 {
 				auto BaseTime = GetNowHiPerformanceCount();
 
 				int count = 0;
-				HideoutData::Instance()->InitDatabyJson();
+				DataBase::Instance()->GetHideoutData()->InitDatabyJson();
 				while (true) {
 					if (CommonDataRequest("data/query/hideout_query.txt", 20 * count, 20, strResult)) {
 						ProcessMessage();
 						auto data = nlohmann::json::parse(strResult);
-						HideoutData::Instance()->GetDataJson(data["data"]["hideoutStations"]);
-						HideoutData::Instance()->UpdateData(20 * count, 20);
-						HideoutData::Instance()->SaveAsNewData("data/Hideout/Maked/Maked");
+						DataBase::Instance()->GetHideoutData()->GetDataJson(data["data"]["hideoutStations"]);
+						DataBase::Instance()->GetHideoutData()->UpdateData(20 * count, 20);
+						DataBase::Instance()->GetHideoutData()->SaveAsNewData("data/Hideout/Maked/Maked");
 						if (data["data"]["hideoutStations"].size() != 20) {
 							break;
 						}
 					}
 					count++;
 				}
-				HideoutData::Instance()->CheckThroughJson();
+				DataBase::Instance()->GetHideoutData()->CheckThroughJson();
 				TimeCard();
 				{
 					std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000);
@@ -170,21 +170,21 @@ namespace FPS_n2 {
 				auto BaseTime = GetNowHiPerformanceCount();
 
 				int count = 0;
-				TraderData::Instance()->InitDatabyJson();
+				DataBase::Instance()->GetTraderData()->InitDatabyJson();
 				while (true) {
 					if (CommonDataRequest("data/query/trader_query.txt", 2 * count, 2, strResult)) {
 						ProcessMessage();
 						auto data = nlohmann::json::parse(strResult);
-						TraderData::Instance()->GetDataJson(data["data"]["traders"]);
-						TraderData::Instance()->UpdateData(2 * count, 2);
-						TraderData::Instance()->SaveAsNewData("data/trader/Maked");
+						DataBase::Instance()->GetTraderData()->GetDataJson(data["data"]["traders"]);
+						DataBase::Instance()->GetTraderData()->UpdateData(2 * count, 2);
+						DataBase::Instance()->GetTraderData()->SaveAsNewData("data/trader/Maked");
 						if (data["data"]["traders"].size() != 2) {
 							break;
 						}
 					}
 					count++;
 				}
-				TraderData::Instance()->CheckThroughJson();
+				DataBase::Instance()->GetTraderData()->CheckThroughJson();
 				TimeCard();
 				{
 					std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000);

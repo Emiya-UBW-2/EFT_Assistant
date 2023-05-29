@@ -1,22 +1,19 @@
 #pragma once
 
-#define DIV_STR "/|"
-
-#define NOMINMAX
-
 #ifdef _DEBUG
-
 #define DEBUG
-
 #endif // _DEBUG
-
 //#define DEBUG
 
 #include "DXLib_ref/DXLib_ref.h"
 
 using namespace DXLib_ref;
 
+#define DIV_STR "/|"
+
+#define NOMINMAX
 #include <chrono>
+#include <WinUser.h>
 
 #include "Enums.hpp"
 #include "HttpReq.hpp"
@@ -30,17 +27,8 @@ using namespace DXLib_ref;
 #include "Parts/PlayerDataParts.hpp"
 #include "Parts/InterruptParts.hpp"
 //Datas
-#include "Scene/MainScene/Data/MainScene_Parents.hpp"
-#include "Scene/MainScene/Data/MainScene_Common.hpp"
-#include "Scene/MainScene/Data/MainScene_Map.hpp"
-#include "Scene/MainScene/Data/MainScene_ItemCategory.hpp"
-#include "Scene/MainScene/Data/MainScene_ItemType.hpp"
-#include "Scene/MainScene/Data/MainScene_Trader.hpp"
-#include "Scene/MainScene/Data/MainScene_Item.hpp"
-#include "Scene/MainScene/Data/MainScene_Preset.hpp"
-#include "Scene/MainScene/Data/MainScene_Enemy.hpp"
-#include "Scene/MainScene/Data/MainScene_Task.hpp"
-#include "Scene/MainScene/Data/MainScene_Hideout.hpp"
+#include "Scene/MainScene/Data/MainScene_Base.hpp"
+
 //Pages
 #include "Scene/MainScene/Page/MainScene_PageParents.hpp"
 #include "Scene/MainScene/Page/MainScene_PageTitle.hpp"

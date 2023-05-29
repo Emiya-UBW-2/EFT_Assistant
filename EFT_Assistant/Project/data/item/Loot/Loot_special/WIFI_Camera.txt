@@ -9,6 +9,6 @@ weight=0.500000
 Sell_Fence=14036
 Sell_Peacekeeper=133
 Sell_Mechanic=19651
-Sell_Flea Market=300000
+Sell_Flea Market=170000
 fleaMarketFee=0
 propertiestype=

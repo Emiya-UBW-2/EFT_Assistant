@@ -50,7 +50,7 @@ namespace FPS_n2 {
 				m_posxMaxBuffer = 0;
 				m_posyMaxBuffer = 0;
 			}
-			for (const auto& tasks : TaskData::Instance()->GetList()) {
+			for (const auto& tasks : DataBase::Instance()->GetTaskData()->GetList()) {
 				bool IsTrue = false;
 				if (std::find_if(m_Drawed.begin(), this->m_Drawed.end(), [&](const TaskID& obj) {return obj == tasks.GetID(); }) == this->m_Drawed.end()) {
 					if (!IsTrue && tasks.GetTaskNeedData().GetParenttaskID().size() == 0 && ParentID == InvalidID) {
@@ -188,8 +188,8 @@ namespace FPS_n2 {
 			case EnumTaskDrawMode::Fir:
 			{
 				std::vector<std::vector<std::pair<ItemID, int>>> Counter;
-				Counter.resize(ItemTypeData::Instance()->GetList().size());
-				for (const auto& tasks : TaskData::Instance()->GetList()) {
+				Counter.resize(DataBase::Instance()->GetItemTypeData()->GetList().size());
+				for (const auto& tasks : DataBase::Instance()->GetTaskData()->GetList()) {
 					bool IsChecktask = true;
 					if (PlayerData::Instance()->GetIsNeedKappa()) {//河童必要タスクだけ書く
 						if (!tasks.GetTaskNeedData().GetKappaRequired()) {
@@ -214,7 +214,7 @@ namespace FPS_n2 {
 					}
 					if (!IsChecktask) { continue; }
 					for (const auto& w : tasks.GetTaskWorkData().GetFiR_Item()) {
-						auto* ptr = ItemData::Instance()->FindPtr(w.GetID());
+						auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(w.GetID());
 						if (ptr) {
 							auto& Types = Counter.at(ptr->GetTypeID());
 							auto Find = std::find_if(Types.begin(), Types.end(), [&](const std::pair<ItemID, int>& obj) {return obj.first == w.GetID(); });
@@ -238,13 +238,13 @@ namespace FPS_n2 {
 					int xsizeAdd = (int)((float)y_r(640 + 30)*Scale);
 					int ysizeAdd = (int)((float)y_r(96 + 15)*Scale);
 
-					for (auto& Cat : ItemCategoryData::Instance()->GetList()) {
+					for (auto& Cat : DataBase::Instance()->GetItemCategoryData()->GetList()) {
 						bool IsHit = false;
-						for (auto& Type : ItemTypeData::Instance()->GetList()) {
+						for (auto& Type : DataBase::Instance()->GetItemTypeData()->GetList()) {
 							if (Type.GetCategoryID() == Cat.GetID()) {
 								auto& Types = Counter.at(Type.GetID());
 								for (auto& c : Types) {
-									auto* ptr = ItemData::Instance()->FindPtr(c.first);
+									auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(c.first);
 									if (ptr) {
 										ptr->Draw(xp, yp, xsize, ysize, (c.second >= 2) ? c.second : 0, Gray15, !WindowMngr->PosHitCheck(nullptr), false, false, Scale < 0.6f);
 										yp += ysizeAdd;
@@ -268,8 +268,8 @@ namespace FPS_n2 {
 			case EnumTaskDrawMode::NotFir:
 			{
 				std::vector<std::vector<std::pair<ItemID, int>>> Counter;
-				Counter.resize(ItemTypeData::Instance()->GetList().size());
-				for (const auto& tasks : TaskData::Instance()->GetList()) {
+				Counter.resize(DataBase::Instance()->GetItemTypeData()->GetList().size());
+				for (const auto& tasks : DataBase::Instance()->GetTaskData()->GetList()) {
 					bool IsChecktask = true;
 					if (PlayerData::Instance()->GetIsNeedKappa()) {//河童必要タスクだけ書く
 						if (!tasks.GetTaskNeedData().GetKappaRequired()) {
@@ -294,7 +294,7 @@ namespace FPS_n2 {
 					}
 					if (!IsChecktask) { continue; }
 					for (const auto& w : tasks.GetTaskWorkData().GetNotFiR_Item()) {
-						auto* ptr = ItemData::Instance()->FindPtr(w.GetID());
+						auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(w.GetID());
 						if (ptr) {
 							auto& Types = Counter.at(ptr->GetTypeID());
 							auto Find = std::find_if(Types.begin(), Types.end(), [&](const std::pair<ItemID, int>& obj) {return obj.first == w.GetID(); });
@@ -318,13 +318,13 @@ namespace FPS_n2 {
 					int xsizeAdd = (int)((float)y_r(640 + 30)*Scale);
 					int ysizeAdd = (int)((float)y_r(96 + 15)*Scale);
 
-					for (auto& Cat : ItemCategoryData::Instance()->GetList()) {
+					for (auto& Cat : DataBase::Instance()->GetItemCategoryData()->GetList()) {
 						bool IsHit = false;
-						for (auto& Type : ItemTypeData::Instance()->GetList()) {
+						for (auto& Type : DataBase::Instance()->GetItemTypeData()->GetList()) {
 							if (Type.GetCategoryID() == Cat.GetID()) {
 								auto& Types = Counter.at(Type.GetID());
 								for (auto& c : Types) {
-									auto* ptr = ItemData::Instance()->FindPtr(c.first);
+									auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(c.first);
 									if (ptr) {
 										ptr->Draw(xp, yp, xsize, ysize, (c.second >= 2) ? c.second : 0, Gray15, !WindowMngr->PosHitCheck(nullptr), false, false, Scale < 0.6f);
 										yp += ysizeAdd;
@@ -362,7 +362,7 @@ namespace FPS_n2 {
 					int xsizeAdd = xsize + y_r(30);
 					int ysizeAdd = ysize + y_r(5);
 
-					for (const auto& tasks : TaskData::Instance()->GetList()) {
+					for (const auto& tasks : DataBase::Instance()->GetTaskData()->GetList()) {
 						{
 							bool isHit = false;
 							//クリアチェック
@@ -377,7 +377,7 @@ namespace FPS_n2 {
 							if (isHit && this->m_DrawCanClearTask) {
 								if (tasks.GetTaskNeedData().GetParenttaskID().size() > 0) {
 									for (const auto& p : tasks.GetTaskNeedData().GetParenttaskID()) {
-										if (!PlayerData::Instance()->GetTaskClear(TaskData::Instance()->FindPtr(p.GetID())->GetName().c_str())) {
+										if (!PlayerData::Instance()->GetTaskClear(DataBase::Instance()->GetTaskData()->FindPtr(p.GetID())->GetName().c_str())) {
 											isHit = false;
 											break;
 										}

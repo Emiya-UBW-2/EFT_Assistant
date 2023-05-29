@@ -21,7 +21,7 @@ namespace FPS_n2 {
 	private:
 		void Init_Sub(int*, int*, float*) noexcept override {
 			isDrew.clear();
-			for (const auto&L : HideoutData::Instance()->GetList()) {
+			for (const auto&L : DataBase::Instance()->GetHideoutData()->GetList()) {
 				isDrew.resize(isDrew.size() + 1);
 				isDrew.back().first = L.GetID();
 				for (int loop = 0; loop < L.GetLvData().size(); loop++) {
@@ -57,7 +57,7 @@ namespace FPS_n2 {
 			IdDrew->second.at(MyLv - 1).IsDrew = true;
 			IdDrew->second.at(MyLv - 1).xpos = xpos;
 			IdDrew->second.at(MyLv - 1).ypos = *ypos;
-			auto& L = *HideoutData::Instance()->FindPtr(MyID);
+			auto& L = *DataBase::Instance()->GetHideoutData()->FindPtr(MyID);
 			//親が同施設の前レベ以外の時そいつの子にもなれるようにXをずらす
 			for (auto& P : L.GetLvData().at(MyLv - 1).m_Parent) {
 				auto IdDrewParent = std::find_if(isDrew.begin(), isDrew.end(), [&](const auto& tgt) {return tgt.first == P.GetID(); });
@@ -130,7 +130,7 @@ namespace FPS_n2 {
 
 				int xp = xpos, yp = ypos;
 				int xs = y_r(300), ys = LineHeight;
-				for (const auto&L : HideoutData::Instance()->GetList()) {
+				for (const auto&L : DataBase::Instance()->GetHideoutData()->GetList()) {
 					for (const auto& C : L.GetLvData()) {
 						int Lv = (int)(&C - &L.GetLvData().front()) + 1;
 						if (C.m_Parent.size() == 0) {
@@ -144,8 +144,8 @@ namespace FPS_n2 {
 			case EnumHideoutDrawMode::Item:
 			{
 				std::vector<std::vector<std::pair<ItemID, int>>> Counter;
-				Counter.resize(ItemTypeData::Instance()->GetList().size());
-				for (const auto&L : HideoutData::Instance()->GetList()) {
+				Counter.resize(DataBase::Instance()->GetItemTypeData()->GetList().size());
+				for (const auto&L : DataBase::Instance()->GetHideoutData()->GetList()) {
 					for (const auto& Ld : L.GetLvData()) {
 						bool IsChecktask = true;
 						if (PlayerData::Instance()->GetHideoutClear(L.GetName().c_str(), (int)(&Ld - &L.GetLvData().front()) + 1)) {
@@ -153,7 +153,7 @@ namespace FPS_n2 {
 						}
 						if (!IsChecktask) { continue; }
 						for (const auto& w : Ld.m_ItemReq) {
-							auto* ptr = ItemData::Instance()->FindPtr(w.GetID());
+							auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(w.GetID());
 							if (ptr) {
 								auto& Types = Counter.at(ptr->GetTypeID());
 								auto Find = std::find_if(Types.begin(), Types.end(), [&](const std::pair<ItemID, int>& obj) {return obj.first == w.GetID(); });
@@ -178,13 +178,13 @@ namespace FPS_n2 {
 					int xsizeAdd = xsize + y_r(5);
 					int ysizeAdd = ysize + y_r(5);
 
-					for (auto& Cat : ItemCategoryData::Instance()->GetList()) {
+					for (auto& Cat : DataBase::Instance()->GetItemCategoryData()->GetList()) {
 						bool IsHit = false;
-						for (auto& Type : ItemTypeData::Instance()->GetList()) {
+						for (auto& Type : DataBase::Instance()->GetItemTypeData()->GetList()) {
 							if (Type.GetCategoryID() == Cat.GetID()) {
 								auto& Types = Counter.at(Type.GetID());
 								for (auto& c : Types) {
-									auto* ptr = ItemData::Instance()->FindPtr(c.first);
+									auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(c.first);
 									if (ptr) {
 										if (yp >= (y_r(1080) - y_r(50))) {
 											xp += xsizeAdd;

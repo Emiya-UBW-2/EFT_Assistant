@@ -1,4 +1,5 @@
-IDstr=5d80cd1a86f77402aa362f42
+Map=Reserve
+a86f77402aa362f42
 Name=RB-ORB3 key
 ShortName=RB-ORB3
 Information_Eng=A key to one of the Federal State Reserve Agency base eastern barracks' armories.

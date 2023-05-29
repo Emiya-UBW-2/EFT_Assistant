@@ -32,7 +32,7 @@ namespace FPS_n2 {
 					bool IsHit = false;
 					int  Now = 0;
 					for (const auto& cID2 : GetMySlotData().m_Data) {
-						if (PlayerData::Instance()->GetItemLock(ItemData::Instance()->FindPtr(cID2.GetID())->GetIDstr().c_str())) {
+						if (PlayerData::Instance()->GetItemLock(DataBase::Instance()->GetItemData()->FindPtr(cID2.GetID())->GetIDstr().c_str())) {
 							IsHit = true;
 							break;
 						}
@@ -56,7 +56,7 @@ namespace FPS_n2 {
 			const ItemList* GetChildPtr(int parentslot = -1) const noexcept {
 				if ((parentslot == -1) || ((parentslot != -1) && GetPtrIsParentSlot(this->m_ParentPtr, parentslot))) {
 					if (GetIsSelected(parentslot)) {
-						return ItemData::Instance()->FindPtr(this->GetMySlotData().m_Data.at(this->ChildSel).GetID());
+						return DataBase::Instance()->GetItemData()->FindPtr(this->GetMySlotData().m_Data.at(this->ChildSel).GetID());
 					}
 				}
 				return nullptr;
@@ -66,26 +66,26 @@ namespace FPS_n2 {
 				if (ptr) {
 					if (MagFilter) {
 						if (
-							ptr->GetTypeID() == ItemTypeData::Instance()->FindID("Magazine")
+							ptr->GetTypeID() == DataBase::Instance()->GetItemTypeData()->FindID("Magazine")
 							) {
 							IsHit = true;
 						}
 					}
 					if (MountFilter) {
 						if (
-							ptr->GetTypeID() == ItemTypeData::Instance()->FindID("Mount")
+							ptr->GetTypeID() == DataBase::Instance()->GetItemTypeData()->FindID("Mount")
 							) {
 							IsHit = true;
 						}
 					}
 					if (SightFilter) {
 						if (
-							ptr->GetTypeID() == ItemTypeData::Instance()->FindID("Reflex sight")
-							|| ptr->GetTypeID() == ItemTypeData::Instance()->FindID("Compact reflex sight")
-							|| ptr->GetTypeID() == ItemTypeData::Instance()->FindID("Assault scope")
-							|| ptr->GetTypeID() == ItemTypeData::Instance()->FindID("Scope")
-							|| ptr->GetTypeID() == ItemTypeData::Instance()->FindID("Special scope")
-							|| ptr->GetTypeID() == ItemTypeData::Instance()->FindID("Iron sight")
+							ptr->GetTypeID() == DataBase::Instance()->GetItemTypeData()->FindID("Reflex sight")
+							|| ptr->GetTypeID() == DataBase::Instance()->GetItemTypeData()->FindID("Compact reflex sight")
+							|| ptr->GetTypeID() == DataBase::Instance()->GetItemTypeData()->FindID("Assault scope")
+							|| ptr->GetTypeID() == DataBase::Instance()->GetItemTypeData()->FindID("Scope")
+							|| ptr->GetTypeID() == DataBase::Instance()->GetItemTypeData()->FindID("Special scope")
+							|| ptr->GetTypeID() == DataBase::Instance()->GetItemTypeData()->FindID("Iron sight")
 							) {
 							IsHit = true;
 						}
@@ -201,7 +201,7 @@ namespace FPS_n2 {
 					for (const auto& P : Preset.GetParts()) {
 						bool IsHit2 = false;
 						for (auto& cptr : c.m_Data) {
-							if (P == ItemData::Instance()->FindPtr(cptr.GetID())) {
+							if (P == DataBase::Instance()->GetItemData()->FindPtr(cptr.GetID())) {
 								IsHit2 = true;
 								ChildSel = (int)(&cptr - &c.m_Data.front());
 								break;
@@ -270,7 +270,7 @@ namespace FPS_n2 {
 					//
 					auto& cID = this->m_ChildData.back();
 					for (const auto& cID2 : this->m_ChildData.back().GetMySlotData().m_Data) {
-						if (PlayerData::Instance()->GetItemLock(ItemData::Instance()->FindPtr(cID2.GetID())->GetIDstr().c_str())) {
+						if (PlayerData::Instance()->GetItemLock(DataBase::Instance()->GetItemData()->FindPtr(cID2.GetID())->GetIDstr().c_str())) {
 							break;
 						}
 						cID.AddSelect();
@@ -329,9 +329,9 @@ namespace FPS_n2 {
 					Data->resize(Data->size() + 1);//こどもの分岐
 					for (auto& cptr : c.m_Data) {
 						//フィルターに引っかかってなければOK
-						if (!ChildData::ItemPtrChecktoBeFiltered(ItemData::Instance()->FindPtr(cptr.GetID()), !m_EnableMag, !m_EnableMount, !m_EnableSight)) {
+						if (!ChildData::ItemPtrChecktoBeFiltered(DataBase::Instance()->GetItemData()->FindPtr(cptr.GetID()), !m_EnableMag, !m_EnableMount, !m_EnableSight)) {
 							Data->back().resize(Data->back().size() + 1);
-							CalcChildErgRec(Data, (int)Data->back().size() - 1, (int)Data->back().back().m_Parts.size(), ItemData::Instance()->FindPtr(cptr.GetID()));
+							CalcChildErgRec(Data, (int)Data->back().size() - 1, (int)Data->back().back().m_Parts.size(), DataBase::Instance()->GetItemData()->FindPtr(cptr.GetID()));
 						}
 					}
 					for (int i = 0; i < Data->back().size(); i++) {
@@ -353,9 +353,9 @@ namespace FPS_n2 {
 				for (const auto& c : Ptr_Buf->GetChildParts()) {
 					for (auto& cptr : c.m_Data) {
 						//フィルターに引っかかってなければOK
-						if (!ChildData::ItemPtrChecktoBeFiltered(ItemData::Instance()->FindPtr(cptr.GetID()), !m_EnableMag, !m_EnableMount, !m_EnableSight)) {
+						if (!ChildData::ItemPtrChecktoBeFiltered(DataBase::Instance()->GetItemData()->FindPtr(cptr.GetID()), !m_EnableMag, !m_EnableMount, !m_EnableSight)) {
 							IsChild = true;
-							CalcChildErgRec(Data, (int)Data->back().size() - 1, (int)Data->back().back().m_Parts.size(), ItemData::Instance()->FindPtr(cptr.GetID()));
+							CalcChildErgRec(Data, (int)Data->back().size() - 1, (int)Data->back().back().m_Parts.size(), DataBase::Instance()->GetItemData()->FindPtr(cptr.GetID()));
 						}
 					}
 				}
@@ -378,8 +378,8 @@ namespace FPS_n2 {
 			for (const auto& c : Ptr_Buf->GetChildParts()) {
 				for (auto& cptr : c.m_Data) {
 					//フィルターに引っかかってなければOK
-					if (!ChildData::ItemPtrChecktoBeFiltered(ItemData::Instance()->FindPtr(cptr.GetID()), !m_EnableMag, !m_EnableMount, !m_EnableSight)) {
-						CalcChildErgRec(AnsData, ItemData::Instance()->FindPtr(cptr.GetID()));
+					if (!ChildData::ItemPtrChecktoBeFiltered(DataBase::Instance()->GetItemData()->FindPtr(cptr.GetID()), !m_EnableMag, !m_EnableMount, !m_EnableSight)) {
+						CalcChildErgRec(AnsData, DataBase::Instance()->GetItemData()->FindPtr(cptr.GetID()));
 						Now++;
 					}
 				}
@@ -469,8 +469,8 @@ namespace FPS_n2 {
 								if (Input->GetKey('L').trigger()) {
 									//ロックをかける
 									for (const auto& cID2 : cID.GetMySlotData().m_Data) {
-										if (cID.GetChildPtr() != ItemData::Instance()->FindPtr(cID2.GetID())) {
-											PlayerData::Instance()->SetItemLock(ItemData::Instance()->FindPtr(cID2.GetID())->GetIDstr().c_str(), false);
+										if (cID.GetChildPtr() != DataBase::Instance()->GetItemData()->FindPtr(cID2.GetID())) {
+											PlayerData::Instance()->SetItemLock(DataBase::Instance()->GetItemData()->FindPtr(cID2.GetID())->GetIDstr().c_str(), false);
 										}
 									}
 									PlayerData::Instance()->OnOffItemLock(cID.GetChildPtr()->GetIDstr().c_str());
@@ -490,7 +490,7 @@ namespace FPS_n2 {
 							m_ErgAddMin = 1000.f;
 							m_ErgAddMax = -1000.f;
 							for (const auto& cID2 : cID.GetMySlotData().m_Data) {
-								auto* ptr = ItemData::Instance()->FindPtr(cID2.GetID());
+								auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(cID2.GetID());
 								if (!CheckConflict(ptr)) {
 									if (m_RecAddMin > ptr->GetRecoil()) {
 										m_RecAddMin = ptr->GetRecoil();
@@ -518,12 +518,12 @@ namespace FPS_n2 {
 						int xOfset = xsizeMin;
 						int Hight = LineHeight * 3 / 4;
 						for (const auto& t : cID.GetMySlotData().GetTypeID()) {
-							int xOfsetAdd = WindowSystem::GetMsgLen(Hight, "[%s]", ItemTypeData::Instance()->FindPtr(t)->GetName().c_str());
+							int xOfsetAdd = WindowSystem::GetMsgLen(Hight, "[%s]", DataBase::Instance()->GetItemTypeData()->FindPtr(t)->GetName().c_str());
 							if (xOfset + xOfsetAdd > (xsize - xsizeMin * 2)) {
 								break;
 							}
 							WindowSystem::SetMsg(xbase + xOfset, ybase, xbase + xOfset, ybase + Hight, Hight, STRX_LEFT, White, Black,
-								"[%s]", ItemTypeData::Instance()->FindPtr(t)->GetName().c_str());
+								"[%s]", DataBase::Instance()->GetItemTypeData()->FindPtr(t)->GetName().c_str());
 							xOfset += xOfsetAdd;
 						}
 
@@ -537,7 +537,7 @@ namespace FPS_n2 {
 	public:
 		void SetSubparam(int WeaponID, int PresetID) noexcept {
 			m_SelectBuffer = WeaponID;
-			m_BaseWeapon = (m_SelectBuffer != InvalidID) ? ItemData::Instance()->FindPtr(m_SelectBuffer) : nullptr;
+			m_BaseWeapon = (m_SelectBuffer != InvalidID) ? DataBase::Instance()->GetItemData()->FindPtr(m_SelectBuffer) : nullptr;
 			m_SelectPreset = PresetID;
 
 			m_ItemIDs.at(0).first = this->m_BaseWeapon->GetTypeID();
@@ -578,7 +578,7 @@ namespace FPS_n2 {
 				//プリセットを適応
 				if (m_ChildData.size() == 0) {
 					if (m_SelectPreset != InvalidID) {
-						AttachPreset(*PresetData::Instance()->FindPtr(m_SelectPreset));
+						AttachPreset(*DataBase::Instance()->GetPresetData()->FindPtr(m_SelectPreset));
 					}
 				}
 				//
@@ -694,7 +694,7 @@ namespace FPS_n2 {
 						if (isChild) {
 							xgoal += xs_add;
 						}
-						MakeList<ItemTypeList>(xp + xgoal, yp, ItemTypeData::Instance()->GetList(), "ItemType", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (ptr->GetCategoryID() == ItemCategoryData::Instance()->FindID("Weapons")); });
+						MakeList<ItemTypeList>(xp + xgoal, yp, DataBase::Instance()->GetItemTypeData()->GetList(), "ItemType", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (ptr->GetCategoryID() == DataBase::Instance()->GetItemCategoryData()->FindID("Weapons")); });
 					});
 				}
 				//
@@ -705,7 +705,7 @@ namespace FPS_n2 {
 						if (isChild) {
 							xgoal += xs_add;
 						}
-						MakeList<ItemList>(xp + xgoal, yp, ItemData::Instance()->GetList(), "Item", &IDs->first, !IDs->second, false, false,
+						MakeList<ItemList>(xp + xgoal, yp, DataBase::Instance()->GetItemData()->GetList(), "Item", &IDs->first, !IDs->second, false, false,
 							[&](const auto *ptr) { return (!ptr->GetIsPreset()) && (ptr->GetTypeID() == this->m_ItemIDs.at(Layer - 1).first); }
 						);
 					});
@@ -718,7 +718,7 @@ namespace FPS_n2 {
 						if (isChild) {
 							xgoal += xs_add;
 						}
-						MakeList<PresetList>(xp + xgoal, yp, PresetData::Instance()->GetList(), "Preset", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (ptr->GetBase()->GetID() == this->m_ItemIDs.at(Layer - 1).first); });
+						MakeList<PresetList>(xp + xgoal, yp, DataBase::Instance()->GetPresetData()->GetList(), "Preset", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (ptr->GetBase()->GetID() == this->m_ItemIDs.at(Layer - 1).first); });
 					});
 				}
 				//決定
@@ -733,7 +733,7 @@ namespace FPS_n2 {
 					auto prev = this->m_SelectBuffer;
 					m_SelectBuffer = this->m_ItemIDs.at(1).first;
 					if (m_SelectBuffer != prev) {
-						m_BaseWeapon = (m_SelectBuffer != InvalidID) ? ItemData::Instance()->FindPtr(m_SelectBuffer) : nullptr;
+						m_BaseWeapon = (m_SelectBuffer != InvalidID) ? DataBase::Instance()->GetItemData()->FindPtr(m_SelectBuffer) : nullptr;
 						if (m_BaseWeapon == nullptr) {
 							m_ChildData.clear();
 						}

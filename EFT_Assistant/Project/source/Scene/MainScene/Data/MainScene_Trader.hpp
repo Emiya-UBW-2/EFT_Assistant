@@ -75,10 +75,8 @@ namespace FPS_n2 {
 		void OutputDataSub(std::ofstream& outputfile) noexcept override;
 	};
 
-	class TraderData : public SingletonBase<TraderData>, public DataParent<TraderID, TraderList>, public JsonListParent<TraderJsonData> {
-	private:
-		friend class SingletonBase<TraderData>;
-	private:
+	class TraderData : public DataParent<TraderID, TraderList>, public JsonListParent<TraderJsonData> {
+	public:
 		TraderData() noexcept {
 			SetDirList("data/trader/");
 		}
@@ -99,7 +97,6 @@ namespace FPS_n2 {
 				}
 			}
 		}
-		void CheckThroughJson(void) noexcept {
-		}
+		void CheckThroughJson(void) noexcept {}
 	};
 };
