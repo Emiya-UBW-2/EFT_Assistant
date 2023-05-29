@@ -11,6 +11,6 @@ Sell_Therapist=38992
 Sell_Fence=24757
 Sell_Skier=30327
 Sell_Jaeger=37135
-Sell_Flea Market=39000
+Sell_Flea Market=38999
 fleaMarketFee=0
 propertiestype=ItemPropertiesStim

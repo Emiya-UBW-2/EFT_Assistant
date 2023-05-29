@@ -11,3 +11,4 @@ Sell_Therapist=1268
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Customs
+Map=Customs

@@ -10,6 +10,6 @@ Sell_Prapor=31514
 Sell_Therapist=39708
 Sell_Fence=25211
 Sell_Skier=30884
-Sell_Flea Market=44444
+Sell_Flea Market=33333
 fleaMarketFee=0
 propertiestype=

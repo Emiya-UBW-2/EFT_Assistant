@@ -10,6 +10,6 @@ Sell_Fence=9215
 Sell_Skier=11289
 Sell_Peacekeeper=87
 Sell_Mechanic=12902
-Sell_Flea Market=20999
+Sell_Flea Market=16000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset

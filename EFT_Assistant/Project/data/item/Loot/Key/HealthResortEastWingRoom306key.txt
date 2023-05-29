@@ -1,4 +1,5 @@
-IDstr=5a145d4786f7744cbb6f4a12
+Map=Shoreline
+6f7744cbb6f4a12
 Name=Health Resort east wing room 306 key
 ShortName=E306 San
 Information_Eng=A key to the Azure Coast sanatorium east wing room 306.
@@ -8,7 +9,7 @@ height=1
 weight=0.010000
 Sell_Prapor=27510
 Sell_Therapist=34663
-Sell_Flea Market=39000
+Sell_Flea Market=42222
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Shoreline

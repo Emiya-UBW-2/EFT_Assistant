@@ -1,4 +1,5 @@
-IDstr=5addaffe86f77470b455f900
+Map=Interchange
+77470b455f900
 Name=Kiba Arms inner grate door key
 ShortName=KIBA inner
 Information_Eng=A key to the inner gate door of the KIBA Arms International outlet at the ULTRA shopping mall.
@@ -8,7 +9,7 @@ height=1
 weight=0.010000
 Sell_Prapor=83701
 Sell_Therapist=105463
-Sell_Flea Market=99998
+Sell_Flea Market=105550
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Interchange

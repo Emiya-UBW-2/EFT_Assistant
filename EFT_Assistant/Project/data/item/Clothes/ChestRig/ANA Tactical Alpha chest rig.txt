@@ -10,6 +10,6 @@ Sell_Fence=18443
 Sell_Skier=22593
 Sell_Ragman=28587
 Sell_Jaeger=27665
-Sell_Flea Market=48988
+Sell_Flea Market=62000
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig

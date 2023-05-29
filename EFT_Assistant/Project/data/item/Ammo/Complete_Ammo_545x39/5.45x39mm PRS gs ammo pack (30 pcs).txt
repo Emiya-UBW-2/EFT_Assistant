@@ -7,6 +7,6 @@ width=1
 height=1
 weight=0.015000
 Sell_Fence=400
-Sell_Flea Market=1500
+Sell_Flea Market=11111
 fleaMarketFee=0
 propertiestype=
