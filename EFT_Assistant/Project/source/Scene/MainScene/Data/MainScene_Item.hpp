@@ -494,11 +494,13 @@ namespace FPS_n2 {
 			bool												m_isWeapon{ false };
 			bool												m_isWeaponMod{ false };
 			std::vector<TaskID>									m_UseTaskID;
+		public:
+			void SetOtherData(const ItemsData& Data) noexcept {
+
+			}
 		};
 	private:
 		ItemsData												m_ItemsData;
-	public:
-		int														m_CheckJson{ 0 };
 	private:
 		//í«â¡ê›íË
 		void		SetSub(const std::string& LEFT, const std::vector<std::string>& Args) noexcept override;
@@ -568,6 +570,8 @@ namespace FPS_n2 {
 		void		ResetTaskUseID(void) noexcept { this->m_ItemsData.m_UseTaskID.clear(); }
 		void		AddTaskUseID(TaskID ID) noexcept { this->m_ItemsData.m_UseTaskID.emplace_back(ID); }
 	public:
+		void		SetItemsDataByOtherData(const ItemsData& Data) noexcept { this->m_ItemsData.SetOtherData(Data); }
+	public:
 		const int	Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive, bool IsFir, bool IsDrawBuy, bool IsIconOnly) const noexcept;
 		void		DrawWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept;
 	};
@@ -577,11 +581,13 @@ namespace FPS_n2 {
 		ItemList::ItemsData							m_ItemsData;
 		std::string									m_categorytypes;
 	public:
+		const auto&	GetItemsData() const noexcept { return this->m_ItemsData; }
+	public:
 		void GetJsonSub(const nlohmann::json& data) noexcept override;
 		void OutputDataSub(std::ofstream& outputfile) noexcept override;
 	};
 
-	class ItemData : public DataParent<ItemID, ItemList> {
+	class ItemData : public DataParent<ItemID, ItemList>, public JsonListParent<ItemJsonData> {
 	public:
 		ItemData() noexcept {
 			std::string Path = "data/item/";
@@ -591,30 +597,40 @@ namespace FPS_n2 {
 					SetDirList((Path2 + RetPath3 + "/").c_str());
 				});
 			});
-			for (auto& t : this->m_List) {
-				t.m_CheckJson = 0;
-			}
 		}
 		~ItemData() noexcept {}
-	private:
-		std::vector<ItemJsonData>	m_ItemJsonData;
 	public:
-		void SetParent()noexcept {
+		void AfterLoadList()noexcept {
 			for (auto& L : this->m_List) {
 				L.SetParent();
 			}
 		}
-		void GetJsonData(nlohmann::json& data) {
-			for (const auto& d : data["data"]["items"]) {
-				m_ItemJsonData.resize(m_ItemJsonData.size() + 1);
-				m_ItemJsonData.back().GetJson(d);
+		void InitDatabyJson() noexcept {}
+		void UpdateData(int ofset, int size) noexcept {
+			for (auto& L : this->m_List) {
+				for (int loop = ofset; loop < ofset + size; loop++) {
+					if (loop >= (int)GetJsonDataList().size()) { break; }
+					auto& jd = GetJsonDataList().at(loop);
+					if (L.GetIDstr() == jd->m_id) {
+						L.m_CheckJson++;
+						jd->OutputData(L.GetFilePath());
+						break;
+					}
+				}
 			}
 		}
-		void InitDatabyJson() noexcept {
-			m_ItemJsonData.clear();
-		}
-		void UpdateData(int ofset, int size) noexcept;
 		void SaveAsNewData2(std::string Path) noexcept;
-		void CheckThroughJson(void) noexcept;
+		void UpdateAfterbyJson(void) noexcept;
+
+		void UpdateAfterbyJson_Sub(void) noexcept {
+			for (auto& L : this->m_List) {
+				for (const auto& D : GetJsonDataList()) {
+					if (L.GetIDstr() == D->m_id) {
+						L.SetItemsDataByOtherData((dynamic_cast<ItemJsonData*>(D.get()))->m_ItemsData);//
+						break;
+					}
+				}
+			}
+		}
 	};
 };

@@ -9,9 +9,9 @@ weight=1.510000
 Sell_Prapor=15500
 Sell_Fence=12400
 Sell_Skier=15190
-Sell_Peacekeeper=117
+Sell_Peacekeeper=116
 Sell_Mechanic=17360
-Sell_Flea Market=45000
+Sell_Flea Market=70000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -28,5 +28,5 @@ ChildParts=[
 	Steyr AUG A3 5.56x45 receiver/|
 	Steyr AUG A1 STG77 1.5x optic sight
 ]
-Recoil=60.000000
-Ergonomics=84.000000
+Recoil=50.000000
+Ergonomics=88.000000

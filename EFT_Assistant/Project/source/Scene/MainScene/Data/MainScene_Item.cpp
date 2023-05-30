@@ -735,35 +735,11 @@ namespace FPS_n2 {
 		this->m_ItemsData.m_properties.OutputData(outputfile);
 	}
 	//
-	void ItemData::UpdateData(int ofset, int size) noexcept {
-		for (auto& L : this->m_List) {
-			for (int loop = ofset; loop < ofset + size; loop++) {
-				if (loop >= (int)this->m_ItemJsonData.size()) { break; }
-				auto& jd = this->m_ItemJsonData.at(loop);
-				if (L.GetIDstr() == jd.m_id) {
-					L.m_CheckJson++;
-
-					jd.OutputData(L.GetFilePath());
-
-					//Šù‘¶‚Ì‚à‚Ì‚ð•ÛŽ‚µ‚Ä‚¨‚­
-					std::ofstream outputfile(L.GetFilePath(), std::ios::app);
-					for (auto& m : L.GetMapID()) {
-						auto* ptr = DataBase::Instance()->GetMapData()->FindPtr(m.GetID());
-						if (ptr) {
-							outputfile << "Map=" + ptr->GetName() + "\n";
-						}
-					}
-					outputfile.close();
-					break;
-				}
-			}
-		}
-	}
 	void ItemData::SaveAsNewData2(std::string Path) noexcept {
 		bool maked = false;
-		for (auto& jd : this->m_ItemJsonData) {
-			if (!jd.m_IsFileOpened) {
-				std::string ParentPath = Path + jd.m_categorytypes;
+		for (auto& jd : GetJsonDataList()) {
+			if (!jd->m_IsFileOpened) {
+				std::string ParentPath = Path + (dynamic_cast<ItemJsonData*>(jd.get()))->m_categorytypes;
 
 				if (!maked) {
 					CreateDirectory(ParentPath.c_str(), NULL);
@@ -772,7 +748,7 @@ namespace FPS_n2 {
 
 				std::string ChildPath = ParentPath + "/";
 
-				std::string FileName = jd.m_name;
+				std::string FileName = jd->m_name;
 				SubStrs(&FileName, ".");
 				SubStrs(&FileName, "\\");
 				SubStrs(&FileName, "/");
@@ -785,15 +761,15 @@ namespace FPS_n2 {
 				SubStrs(&FileName, "|");
 				std::string Name = FileName + ".txt";
 
-				jd.OutputData(ChildPath + Name);
+				jd->OutputData(ChildPath + Name);
 				//RemoveDirectory(Path.c_str());
 			}
 		}
 	}
-	void ItemData::CheckThroughJson(void) noexcept {
+	void ItemData::UpdateAfterbyJson(void) noexcept {
 		for (auto& L : this->m_List) {
-			for (auto& jd : this->m_ItemJsonData) {
-				if (L.GetIDstr() == jd.m_id) {
+			for (auto& jd : GetJsonDataList()) {
+				if (L.GetIDstr() == jd->m_id) {
 					//Šù‘¶‚Ì‚à‚Ì‚ð•ÛŽ‚µ‚Ä‚¨‚­
 					std::ofstream outputfile(L.GetFilePath(), std::ios::app);
 					for (auto& m : L.GetMapID()) {
@@ -807,23 +783,6 @@ namespace FPS_n2 {
 				}
 			}
 		}
-
-		for (auto& t : this->m_List) {
-			if (t.m_CheckJson == 0) {
-				std::string ErrMes = "Error : ThroughJson : ";
-				ErrMes += t.GetName();
-				DataErrorLog::Instance()->AddLog(ErrMes.c_str());
-			}
-		}
-		for (auto& t : this->m_List) {
-			if (t.m_CheckJson >= 2) {
-				std::string ErrMes = "Error : Be repeated ";
-				ErrMes += std::to_string(t.m_CheckJson);
-				ErrMes += " : ";
-				ErrMes += t.GetName();
-
-				DataErrorLog::Instance()->AddLog(ErrMes.c_str());
-			}
-		}
+		UpdateAfterbyJson_Sub();
 	}
 };

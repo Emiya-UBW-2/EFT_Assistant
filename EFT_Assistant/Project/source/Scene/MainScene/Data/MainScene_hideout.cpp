@@ -104,8 +104,7 @@ namespace FPS_n2 {
 			{
 				outputfile << LV + "itemReq=[";
 				for (auto& m : L2.m_ItemReq) {
-					outputfile << DataBase::Instance()->GetItemData()->FindPtr(m.GetID())->GetName();
-					outputfile << "x" + std::to_string(m.GetValue());
+					outputfile << m.GetOutputStr();
 					if (&m != &L2.m_ItemReq.back()) {
 						outputfile << DIV_STR;
 					}
@@ -115,8 +114,7 @@ namespace FPS_n2 {
 			{
 				outputfile << LV + "stationLevelReq=[";
 				for (auto& m : L2.m_Parent) {
-					outputfile << DataBase::Instance()->GetHideoutData()->FindPtr(m.GetID())->GetName();
-					outputfile << "x" + std::to_string(m.GetValue());
+					outputfile << m.GetOutputStr();
 					if (&m != &L2.m_Parent.back()) {
 						outputfile << DIV_STR;
 					}
@@ -126,8 +124,7 @@ namespace FPS_n2 {
 			{
 				outputfile << LV + "traderRequirements=[";
 				for (auto& m : L2.m_TraderReq) {
-					outputfile << DataBase::Instance()->GetTraderData()->FindPtr(m.GetID())->GetName();
-					outputfile << "x" + std::to_string(m.GetValue());
+					outputfile << m.GetOutputStr();
 					if (&m != &L2.m_TraderReq.back()) {
 						outputfile << DIV_STR;
 					}
@@ -139,8 +136,7 @@ namespace FPS_n2 {
 				{
 					outputfile << LV + "craftitemReq=[";
 					for (auto& m : c.m_ItemReq) {
-						outputfile << DataBase::Instance()->GetItemData()->FindPtr(m.GetID())->GetName();
-						outputfile << "x" + std::to_string(m.GetValue());
+						outputfile << m.GetOutputStr();
 						if (&m != &c.m_ItemReq.back()) {
 							outputfile << DIV_STR;
 						}
@@ -150,8 +146,7 @@ namespace FPS_n2 {
 				{
 					outputfile << LV + "craftitemReward=[";
 					for (auto& m : c.m_ItemReward) {
-						outputfile << DataBase::Instance()->GetItemData()->FindPtr(m.GetID())->GetName();
-						outputfile << "x" + std::to_string(m.GetValue());
+						outputfile << m.GetOutputStr();
 						if (&m != &c.m_ItemReward.back()) {
 							outputfile << DIV_STR;
 						}

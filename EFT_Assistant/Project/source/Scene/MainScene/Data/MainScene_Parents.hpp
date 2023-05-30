@@ -20,6 +20,8 @@ namespace FPS_n2 {
 		bool							m_SetFinish{ false };
 
 		Graphs							m_Icon;
+	public:
+		int														m_CheckJson{ 0 };
 	private:
 		void			SetCommon(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
 			if (LEFT == "IDstr") {
@@ -150,6 +152,9 @@ namespace FPS_n2 {
 			for (auto&t : this->m_List) {
 				t.Load(IsPushLog);
 			}
+			for (auto& t : this->m_List) {
+				t.m_CheckJson = 0;
+			}
 		}
 		void			WhenAfterLoadListCommon(void) noexcept {
 			for (auto&t : this->m_List) {
@@ -186,6 +191,19 @@ namespace FPS_n2 {
 		}
 		const auto&		GetList(void) const noexcept { return this->m_List; }
 		auto&			SetList(void) noexcept { return this->m_List; }
+	public:
+		void CheckThroughJson(void) noexcept {
+			for (auto& L : this->m_List) {
+				if (L.m_CheckJson == 0) {
+					std::string ErrMes = "Error : ThroughJson : " + L.GetName();
+					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+				}
+				else if (L.m_CheckJson >= 2) {
+					std::string ErrMes = "Error : Be repeated " + std::to_string(L.m_CheckJson) + " : " + L.GetName();
+					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+				}
+			}
+		}
 	};
 
 	//
@@ -225,7 +243,9 @@ namespace FPS_n2 {
 	class GetDataParent {
 		IDParents<ID>	m_ID;
 		int				m_Value{ 0 };
+		std::string		m_OutputStr;
 	public:
+		const auto&		GetOutputStr() const noexcept { return this->m_OutputStr; }
 		const auto&		GetName() const noexcept { return this->m_ID.GetName(); }
 		const auto&		GetID() const noexcept { return this->m_ID.GetID(); }
 		const auto&		GetValue() const noexcept { return this->m_Value; }
@@ -237,6 +257,13 @@ namespace FPS_n2 {
 		template <class List>
 		void			CheckID(const DataParent<ID, List>* taskList, bool DrawErrorLog = true) noexcept {
 			m_ID.CheckID<List>(taskList, DrawErrorLog);
+
+			if (this->GetID() != InvalidID) {
+				m_OutputStr = taskList->FindPtr(this->GetID())->GetName() + "x" + std::to_string(this->GetValue());
+			}
+			else {
+				m_OutputStr = this->GetName() + "x" + std::to_string(this->GetValue());
+			}
 		}
 	};
 
@@ -360,6 +387,21 @@ namespace FPS_n2 {
 					jd->OutputData(ChildPath + Name);
 					//RemoveDirectory(Path.c_str());
 				}
+			}
+		}
+		void WaitToAllClear() noexcept {
+			while (true) {
+				bool isHit = false;
+				for (auto& jd : GetJsonDataList()) {
+					if (!jd->GetIsSetFinish()) {
+						isHit = true;
+						break;
+					}
+				}
+				if (!isHit) { break; }
+			}
+			for (auto& jd : GetJsonDataList()) {
+				jd->ResetDataJob();
 			}
 		}
 	};

@@ -82,21 +82,20 @@ namespace FPS_n2 {
 		}
 		~TraderData() noexcept {}
 	public:
-		void InitDatabyJson() noexcept {
-			ResetDataJson();
-		}
+		void InitDatabyJson() noexcept {}
 		void UpdateData(int ofset, int size) noexcept {
 			for (auto& L : this->m_List) {
 				for (int loop = ofset; loop < ofset + size; loop++) {
 					if (loop >= (int)GetJsonDataList().size()) { break; }
 					auto& jd = GetJsonDataList().at(loop);
 					if (L.GetIDstr() == jd->m_id) {
+						L.m_CheckJson++;
 						jd->OutputData(L.GetFilePath());
 						break;
 					}
 				}
 			}
 		}
-		void CheckThroughJson(void) noexcept {}
+		void UpdateAfterbyJson(void) noexcept {}
 	};
 };

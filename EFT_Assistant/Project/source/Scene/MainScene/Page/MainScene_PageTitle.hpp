@@ -86,110 +86,48 @@ namespace FPS_n2 {
 			YPos += Ysize + y_r(5);
 
 			auto Color = (ttt == -1) ? Gray25 : Gray50;
-
-			if (WindowSystem::ClickCheckBox(XPos, YPos, XPos + Xsize, YPos + Ysize, false, (ttt == -1), Color, "アイテム更新")) {
-				auto BaseTime = GetNowHiPerformanceCount();
-
-				int count = 0;
-				DataBase::Instance()->GetItemData()->InitDatabyJson();
-				while (true) {
-					if (CommonDataRequest("data/query/barter_query.txt", 20 * count, 20, strResult)) {
-						ProcessMessage();
-						auto data = nlohmann::json::parse(strResult);
-						DataBase::Instance()->GetItemData()->GetJsonData(data);
-						DataBase::Instance()->GetItemData()->UpdateData(20 * count, 20);
-						DataBase::Instance()->GetItemData()->SaveAsNewData2("data/item/Maked/Maked/");
-
-						if (data["data"]["items"].size() != 20) {
-							break;
-						}
-					}
-					count++;
-				}
-				DataBase::Instance()->GetItemData()->CheckThroughJson();
+			if (DataBase::Instance()->DataUpdate(
+				EnumDataType::ITEMDATA,
+				XPos, YPos, Xsize, Ysize, (ttt == -1), Color, "アイテム更新",
+				"data/query/barter_query.txt",
+				"data/item/Maked/Maked/",
+				"items"
+			)) {
 				TimeCard();
-				{
-					std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000);
-					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
-				}
 			}
 			YPos += Ysize + y_r(5);
-			if (WindowSystem::ClickCheckBox(XPos, YPos, XPos + Xsize, YPos + Ysize, false, (ttt == -1), Color, "タスク更新")) {
-				auto BaseTime = GetNowHiPerformanceCount();
 
-				int count = 0;
-				DataBase::Instance()->GetTaskData()->InitDatabyJson();
-				while (true) {
-					if (CommonDataRequest("data/query/task_query.txt", 20 * count, 20, strResult)) {
-						ProcessMessage();
-						auto data = nlohmann::json::parse(strResult);
-						DataBase::Instance()->GetTaskData()->GetDataJson(data["data"]["tasks"]);
-						DataBase::Instance()->GetTaskData()->UpdateData(20 * count, 20);
-						DataBase::Instance()->GetTaskData()->SaveAsNewData2("data/task/Maked/");
-						if (data["data"]["tasks"].size() != 20) {
-							break;
-						}
-					}
-					count++;
-				}
-				DataBase::Instance()->GetTaskData()->CheckThroughJson();
+			if (DataBase::Instance()->DataUpdate(
+				EnumDataType::TASKDATA,
+				XPos, YPos, Xsize, Ysize, (ttt == -1), Color, "タスク更新",
+				"data/query/task_query.txt",
+				"data/task/Maked/",
+				"tasks"
+			)) {
 				TimeCard();
-				{
-					std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000);
-					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
-				}
 			}
 			YPos += Ysize + y_r(5);
-			if (WindowSystem::ClickCheckBox(XPos, YPos, XPos + Xsize, YPos + Ysize, false, (ttt == -1), Color, "ハイドアウト更新")) {
-				auto BaseTime = GetNowHiPerformanceCount();
 
-				int count = 0;
-				DataBase::Instance()->GetHideoutData()->InitDatabyJson();
-				while (true) {
-					if (CommonDataRequest("data/query/hideout_query.txt", 20 * count, 20, strResult)) {
-						ProcessMessage();
-						auto data = nlohmann::json::parse(strResult);
-						DataBase::Instance()->GetHideoutData()->GetDataJson(data["data"]["hideoutStations"]);
-						DataBase::Instance()->GetHideoutData()->UpdateData(20 * count, 20);
-						DataBase::Instance()->GetHideoutData()->SaveAsNewData("data/Hideout/Maked/Maked");
-						if (data["data"]["hideoutStations"].size() != 20) {
-							break;
-						}
-					}
-					count++;
-				}
-				DataBase::Instance()->GetHideoutData()->CheckThroughJson();
+			if (DataBase::Instance()->DataUpdate(
+				EnumDataType::HIDEOUTDATA,
+				XPos, YPos, Xsize, Ysize, (ttt == -1), Color, "ハイドアウト更新",
+				"data/query/hideout_query.txt",
+				"data/Hideout/Maked/Maked",
+				"hideoutStations"
+			)) {
 				TimeCard();
-				{
-					std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000);
-					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
-				}
 			}
 			YPos += Ysize + y_r(5);
-			if (WindowSystem::ClickCheckBox(XPos, YPos, XPos + Xsize, YPos + Ysize, false, (ttt == -1), Color, "トレーダー更新")) {
-				auto BaseTime = GetNowHiPerformanceCount();
 
-				int count = 0;
-				DataBase::Instance()->GetTraderData()->InitDatabyJson();
-				while (true) {
-					if (CommonDataRequest("data/query/trader_query.txt", 2 * count, 2, strResult)) {
-						ProcessMessage();
-						auto data = nlohmann::json::parse(strResult);
-						DataBase::Instance()->GetTraderData()->GetDataJson(data["data"]["traders"]);
-						DataBase::Instance()->GetTraderData()->UpdateData(2 * count, 2);
-						DataBase::Instance()->GetTraderData()->SaveAsNewData("data/trader/Maked");
-						if (data["data"]["traders"].size() != 2) {
-							break;
-						}
-					}
-					count++;
-				}
-				DataBase::Instance()->GetTraderData()->CheckThroughJson();
+			if (DataBase::Instance()->DataUpdate(
+				EnumDataType::TRADERDATA,
+				XPos, YPos, Xsize, Ysize, (ttt == -1), Color, "トレーダー更新",
+				"data/query/trader_query.txt",
+				"data/trader/Maked",
+				"traders",
+				2
+			)) {
 				TimeCard();
-				{
-					std::string ErrMes = "Load:" + std::to_string((GetNowHiPerformanceCount() - BaseTime) / 1000);
-					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
-				}
 			}
 			YPos += Ysize + y_r(5);
 			if (!(ttt == -1)) {

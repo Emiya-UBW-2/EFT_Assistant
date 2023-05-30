@@ -276,102 +276,83 @@ namespace FPS_n2 {
 	}
 	//
 	void		TaskJsonData::TaskObjective::GetJsonData(const nlohmann::json& data) {
-		if (data.contains("__typename")) {
-			if (!data["__typename"].is_null()) {
-				std::string buf = data["__typename"];
-				for (int i = 0; i < sizeof(TypesStr) / sizeof(TypesStr[0]); i++) {
-					if (buf == TypesStr[i]) {
-						TaskObjectiveType = (EnumTaskObjective)i;
-					}
+		if (data.contains("__typename") && !data["__typename"].is_null()) {
+			std::string buf = data["__typename"];
+			for (int i = 0; i < sizeof(TypesStr) / sizeof(TypesStr[0]); i++) {
+				if (buf == TypesStr[i]) {
+					m_TaskObjectiveType = (EnumTaskObjective)i;
 				}
+
 			}
 		}
-		if (data.contains("type")) {
-			if (!data["type"].is_null()) {
-				type = data["type"];
+		if (data.contains("type") && !data["type"].is_null()) {
+			m_type = data["type"];
+		}
+		if (data.contains("description") && !data["description"].is_null()) {
+			m_description = data["description"];
+		}
+		if (data.contains("maps") && !data["maps"].is_null()) {
+			for (const auto&m : data["maps"]) {
+				std::string buf = m["name"];
+				m_Maps.emplace_back(DataBase::Instance()->GetMapData()->FindID(buf.c_str()));
 			}
 		}
-		if (data.contains("description")) {
-			if (!data["description"].is_null()) {
-				description = data["description"];
+		if (data.contains("optional") && !data["optional"].is_null()) {
+			m_optional = data["optional"];
+		}
+		if (data.contains("item") && !data["item"].is_null()) {
+			m_Items.Set(data["item"]["name"], (data.contains("count") && !data["count"].is_null()) ? (int)data["count"] : 1);
+			m_Items.CheckID(DataBase::Instance()->GetItemData().get());
+		}
+		if (data.contains("containsAll") && !data["containsAll"].is_null()) {
+			for (const auto&m : data["containsAll"]) {
+				std::string buf1 = m["name"];
+				m_containsAll.emplace_back(buf1);
 			}
 		}
-		if (data.contains("maps")) {
-			if (!data["maps"].is_null()) {
-				for (const auto&m : data["maps"]) {
-					std::string buf = m["name"];
-					Maps.emplace_back(DataBase::Instance()->GetMapData()->FindID(buf.c_str()));
-				}
+		if (data.contains("containsCategory") && !data["containsCategory"].is_null()) {
+			for (const auto&m : data["containsCategory"]) {
+				std::string buf1 = m["name"];
+				m_containsCategory.emplace_back(buf1);
 			}
 		}
-		if (data.contains("optional")) {
-			if (!data["optional"].is_null()) {
-				optional = data["optional"];
-			}
-		}
-		if (data.contains("item")) {
-			if (!data["item"].is_null()) {
-				std::string buf = data["item"]["name"];
-				Items = DataBase::Instance()->GetItemData()->FindID(buf.c_str());
-			}
-		}
-		if (data.contains("containsAll")) {
-			if (!data["containsAll"].is_null()) {
-				for (const auto&m : data["containsAll"]) {
-					std::string buf1 = m["name"];
-					containsAll.emplace_back(buf1);
-				}
-			}
-		}
-		if (data.contains("containsCategory")) {
-			if (!data["containsCategory"].is_null()) {
-				for (const auto&m : data["containsCategory"]) {
-					std::string buf1 = m["name"];
-					containsCategory.emplace_back(buf1);
-				}
-			}
-		}
-		if (data.contains("attributes")) {
-			if (!data["attributes"].is_null()) {
-				for (const auto&m : data["attributes"]) {
-					std::string buf1 = m["name"];
-					Compare buf2; buf2.GetJsonData(m["requirement"]);
-					attributes.emplace_back(std::make_pair(buf1, buf2));
-				}
+		if (data.contains("attributes") && !data["attributes"].is_null()) {
+			for (const auto&m : data["attributes"]) {
+				std::string buf1 = m["name"];
+				Compare buf2; buf2.GetJsonData(m["requirement"]);
+				m_attributes.emplace_back(std::make_pair(buf1, buf2));
 			}
 		}
 		if (data.contains("healthEffect")) {
 			if (!data["healthEffect"].is_null()) {
 				for (const auto&m : data["healthEffect"]) {
 					HealthEffect buf1; buf1.GetJsonData(m);
-					healthEffect.emplace_back(buf1);
+					m_healthEffect.emplace_back(buf1);
 				}
 			}
 		}
 		if (data.contains("exitStatus")) {
 			if (!data["exitStatus"].is_null()) {
 				for (const auto&m : data["exitStatus"]) {
-					exitStatus.emplace_back(m);
+					m_exitStatus.emplace_back(m);
 				}
 			}
 		}
 		if (data.contains("exitName")) {
 			if (!data["exitName"].is_null()) {
-				exitName = data["exitName"];
+				m_exitName = data["exitName"];
 			}
 		}
 		if (data.contains("zoneNames")) {
 			if (!data["zoneNames"].is_null()) {
 				for (const auto&m : data["zoneNames"]) {
 					std::string buf1 = m;
-					zoneNames.emplace_back(buf1);
+					m_zoneNames.emplace_back(buf1);
 				}
 			}
 		}
-		if (data.contains("count")) {
-			if (!data["count"].is_null()) {
-				count = data["count"];
-			}
+		if (data.contains("count") && !data["count"].is_null()) {
+			count = data["count"];
 		}
 		if (data.contains("foundInRaid")) {
 			if (!data["foundInRaid"].is_null()) {
@@ -402,7 +383,8 @@ namespace FPS_n2 {
 
 		if (data.contains("questItem")) {
 			if (!data["questItem"].is_null()) {
-				questItem = data["questItem"]["name"];
+				m_QuestItem.Set(data["questItem"]["name"], (data.contains("count") && !data["count"].is_null()) ? (int)data["count"] : 1);
+				m_QuestItem.CheckID(DataBase::Instance()->GetItemData().get());
 			}
 		}
 
@@ -517,20 +499,22 @@ namespace FPS_n2 {
 		if (data.contains("traderStanding")) {
 			if (!data["traderStanding"].is_null()) {
 				for (const auto&m : data["traderStanding"]) {
-					traderStanding buf1; buf1.GetJsonData(m);
-					m_traderStanding.emplace_back(buf1);
+					TraderGetData buf;
+					buf.Set(m["trader"]["name"], (int)((float)m["standing"] * 100.f));
+					m_traderStanding.emplace_back(buf);
+
+					m_traderStanding.back().CheckID(DataBase::Instance()->GetTraderData().get());
 				}
 			}
 		}
 		if (data.contains("items")) {
 			if (!data["items"].is_null()) {
 				for (const auto&m : data["items"]) {
-					TaskRewardItems buf;
+					ItemGetData buf;
+					buf.Set(m["item"]["name"], m["count"]);
+					m_Items.emplace_back(buf);
 
-					buf.Name = m["item"]["name"];
-					buf.ID = DataBase::Instance()->GetItemData()->FindID(buf.Name.c_str());
-					buf.count = m["count"];
-					Items.emplace_back(buf);
+					m_Items.back().CheckID(DataBase::Instance()->GetItemData().get());
 				}
 			}
 		}
@@ -542,24 +526,20 @@ namespace FPS_n2 {
 				}
 			}
 		}
-		if (data.contains("traderUnlock")) {
-			if (!data["traderUnlock"].is_null()) {
-				for (const auto&m : data["traderUnlock"]) {
-					std::string buf1 = m["name"];
-					traderUnlock.emplace_back(buf1);
-				}
+		if (data.contains("traderUnlock") && !data["traderUnlock"].is_null()) {
+			for (const auto&m : data["traderUnlock"]) {
+				std::string buf1 = m["name"];
+				m_traderUnlock.emplace_back(buf1);
 			}
 		}
 	}
 	void		TaskJsonData::GetJsonSub(const nlohmann::json& data) noexcept {
 		{
-			std::string buf = data["trader"]["name"];
-			traderID = DataBase::Instance()->GetTraderData()->FindID(buf.c_str());
+			traderID = DataBase::Instance()->GetTraderData()->FindID(data["trader"]["name"]);
 		}
 		if (data.contains("map")) {
 			if (!data["map"].is_null()) {
-				std::string buf = data["map"]["name"];
-				MapID = DataBase::Instance()->GetMapData()->FindID(buf.c_str());
+				MapID = DataBase::Instance()->GetMapData()->FindID(data["map"]["name"]);
 			}
 		}
 		if (data.contains("experience")) {
@@ -624,34 +604,34 @@ namespace FPS_n2 {
 	void		TaskJsonData::OutputDataSub(std::ofstream& outputfile) noexcept {
 		auto SetTaskObjectiveCommon = [&](std::ofstream& outputfile, const TaskJsonData::TaskObjective& obj) {
 			outputfile << "[\n";
-			outputfile << "\tTaskType=" + obj.type + "\n";
-			outputfile << "\tTaskText=" + obj.description + "\n";
-			outputfile << "\tTaskOptional=" + (std::string)(obj.optional ? "true" : "false") + "\n";
+			outputfile << "\tTaskType=" + obj.m_type + "\n";
+			outputfile << "\tTaskText=" + obj.m_description + "\n";
+			outputfile << "\tTaskOptional=" + (std::string)(obj.m_optional ? "true" : "false") + "\n";
 			outputfile << "]\n";
 		};
 		auto SetTaskObjective = [&](std::ofstream& outputfile, const TaskJsonData::TaskObjective& obj, EnumTaskObjective /*prev*/) {
-			switch ((EnumTaskObjective)obj.TaskObjectiveType) {
+			switch ((EnumTaskObjective)obj.m_TaskObjectiveType) {
 			case FPS_n2::EnumTaskObjective::TaskObjectiveBasic:
 			{
-				outputfile << "Task_Else=TaskType:" + obj.type + "\n";
-				outputfile << "Task_Else=" + obj.description + "\n";
+				outputfile << "Task_Else=TaskType:" + obj.m_type + "\n";
+				outputfile << "Task_Else=" + obj.m_description + "\n";
 			}
 			break;
 			case FPS_n2::EnumTaskObjective::TaskObjectiveBuildItem:
 			{
-				for (auto& m : obj.Maps) {
+				for (auto& m : obj.m_Maps) {
 					outputfile << "Task_Map=" + DataBase::Instance()->GetMapData()->FindPtr(m)->GetName() + "\n";
 				}
-				if (obj.Items != InvalidID) {
-					outputfile << "NeedItem=" + DataBase::Instance()->GetItemData()->FindPtr(obj.Items)->GetName() + "x1\n";
+				if (obj.m_Items.GetID() != InvalidID) {
+					outputfile << "NeedItem=" + obj.m_Items.GetOutputStr() + "\n";
 				}
-				for (auto& m : obj.containsAll) {
+				for (auto& m : obj.m_containsAll) {
 					outputfile << "ContainsAll=" + m + "\n";
 				}
-				for (auto& m : obj.containsCategory) {
+				for (auto& m : obj.m_containsCategory) {
 					outputfile << "ContainsCategory=" + m + "\n";
 				}
-				for (auto& m : obj.attributes) {
+				for (auto& m : obj.m_attributes) {
 					if (m.second.IsActive()) {
 						outputfile << "Task_Else=" + m.first + " " + (std::string)(CompareMethodStr[(int)m.second.compareMethod]) + " " + std::to_string(m.second.value) + "\n";
 					}
@@ -663,10 +643,10 @@ namespace FPS_n2 {
 			break;
 			case FPS_n2::EnumTaskObjective::TaskObjectiveExperience:
 			{
-				for (auto& m : obj.Maps) {
+				for (auto& m : obj.m_Maps) {
 					outputfile << "Task_Map=" + DataBase::Instance()->GetMapData()->FindPtr(m)->GetName() + "\n";
 				}
-				for (auto& m : obj.healthEffect) {
+				for (auto& m : obj.m_healthEffect) {
 					if (m.bodyParts.size() > 0) {
 						outputfile << "Task_Else=Ž©•ª‚Ìó‘ÔˆÙí‰ÓŠ:[";
 						for (auto& m2 : m.bodyParts) {
@@ -695,27 +675,27 @@ namespace FPS_n2 {
 			break;
 			case FPS_n2::EnumTaskObjective::TaskObjectiveExtract:
 			{
-				for (auto& m : obj.Maps) {
+				for (auto& m : obj.m_Maps) {
 					outputfile << "Task_Map=" + DataBase::Instance()->GetMapData()->FindPtr(m)->GetName() + "\n";
 				}
-				if (obj.exitStatus.size() > 0) {
+				if (obj.m_exitStatus.size() > 0) {
 					outputfile << "Task_Else=’EoƒXƒe[ƒ^ƒX:[";
-					for (auto& m : obj.exitStatus) {
+					for (auto& m : obj.m_exitStatus) {
 						outputfile << m;
-						if (&m != &obj.exitStatus.back()) {
+						if (&m != &obj.m_exitStatus.back()) {
 							outputfile << ",";
 						}
 					}
 					outputfile << "]\n";
 				}
-				if (obj.exitName != "") {
-					outputfile << "Task_Else=’Eo’n“_:" + obj.exitName + "\n";
+				if (obj.m_exitName != "") {
+					outputfile << "Task_Else=’Eo’n“_:" + obj.m_exitName + "\n";
 				}
-				if (obj.zoneNames.size() > 0) {
+				if (obj.m_zoneNames.size() > 0) {
 					outputfile << "Task_Else=’Eoƒ][ƒ“:[";
-					for (auto& m : obj.zoneNames) {
+					for (auto& m : obj.m_zoneNames) {
 						outputfile << m;
-						if (&m != &obj.zoneNames.back()) {
+						if (&m != &obj.m_zoneNames.back()) {
 							outputfile << ",";
 						}
 					}
@@ -725,29 +705,27 @@ namespace FPS_n2 {
 			break;
 			case FPS_n2::EnumTaskObjective::TaskObjectiveItem:
 			{
-				if (obj.type == "findItem") {
-					if (obj.Items != InvalidID) {
-						outputfile << "NeedItem=" + DataBase::Instance()->GetItemData()->FindPtr(obj.Items)->GetName() + "x" + std::to_string(obj.count) + "\n";
+				if (obj.m_Items.GetID() != InvalidID) {
+					if (obj.m_type == "findItem") {
+						outputfile << "NeedItem=" + obj.m_Items.GetOutputStr() + "\n";
 					}
-				}
-				else {
-					if (obj.Items != InvalidID) {
+					else {
 						if (obj.foundInRaid) {
-							outputfile << "Task_FiR_HandOver=[" + DataBase::Instance()->GetItemData()->FindPtr(obj.Items)->GetName() + "x" + std::to_string(obj.count) + "]\n";
+							outputfile << "Task_FiR_HandOver=[" + obj.m_Items.GetOutputStr() + "]\n";
 						}
 						else {
-							outputfile << "Task_NotFiR_HandOver=[" + DataBase::Instance()->GetItemData()->FindPtr(obj.Items)->GetName() + "x" + std::to_string(obj.count) + "]\n";
+							outputfile << "Task_NotFiR_HandOver=[" + obj.m_Items.GetOutputStr() + "]\n";
 						}
+						outputfile << "DogTagLv=" + std::to_string(obj.dogTagLevel) + "\n";
+						//outputfile << "Max=" + std::to_string(obj.maxDurability) + "\n";
+						//outputfile << "Min=" + std::to_string(obj.minDurability) + "\n";
 					}
-					outputfile << "DogTagLv=" + std::to_string(obj.dogTagLevel) + "\n";
-					//outputfile << "Max=" + std::to_string(obj.maxDurability) + "\n";
-					//outputfile << "Min=" + std::to_string(obj.minDurability) + "\n";
 				}
 			}
 			break;
 			case FPS_n2::EnumTaskObjective::TaskObjectiveMark:
 			{
-				for (auto& m : obj.Maps) {
+				for (auto& m : obj.m_Maps) {
 					outputfile << "Task_Map=" + DataBase::Instance()->GetMapData()->FindPtr(m)->GetName() + "\n";
 				}
 				outputfile << "NeedItem=" + obj.markerItem + "x1\n";
@@ -755,21 +733,21 @@ namespace FPS_n2 {
 			break;
 			case FPS_n2::EnumTaskObjective::TaskObjectivePlayerLevel:
 			{
-				for (auto& m : obj.Maps) {
+				for (auto& m : obj.m_Maps) {
 					outputfile << "Task_Map=" + DataBase::Instance()->GetMapData()->FindPtr(m)->GetName() + "\n";
 				}
 				outputfile << "Task_Else=ƒŒƒxƒ‹:" + std::to_string(obj.playerLevel) + "\n";
 			}
 			break;
 			case FPS_n2::EnumTaskObjective::TaskObjectiveQuestItem:
-				for (auto& m : obj.Maps) {
-					outputfile << "Task_Else=E‚Á‚Ä”[•i:" + DataBase::Instance()->GetMapData()->FindPtr(m)->GetName() + "-" + obj.questItem + "x" + std::to_string(obj.count) + "\n";
+				for (auto& m : obj.m_Maps) {
+					outputfile << "Task_Else=E‚Á‚Ä”[•i:" + DataBase::Instance()->GetMapData()->FindPtr(m)->GetName() + "-" + obj.m_QuestItem.GetOutputStr() + "\n";
 				}
 				break;
 			case FPS_n2::EnumTaskObjective::TaskObjectiveShoot:
 			{
 				outputfile << "Task_Kill=[\n";
-				if (obj.Maps.size() == 0) {
+				if (obj.m_Maps.size() == 0) {
 					outputfile << "\t" + DataBase::Instance()->GetEnemyData()->FindPtr(obj.target)->GetName();
 					if (obj.bodyParts.size() > 0) {
 						outputfile << "{";
@@ -785,7 +763,7 @@ namespace FPS_n2 {
 					outputfile << "\n";
 				}
 				else {
-					for (auto& m : obj.Maps) {
+					for (auto& m : obj.m_Maps) {
 						outputfile << "\t" + DataBase::Instance()->GetMapData()->FindPtr(m)->GetName() + "-" + DataBase::Instance()->GetEnemyData()->FindPtr(obj.target)->GetName();
 						if (obj.bodyParts.size() > 0) {
 							outputfile << "{";
@@ -798,7 +776,7 @@ namespace FPS_n2 {
 							outputfile << "}";
 						}
 						outputfile << "x" + std::to_string(obj.count);
-						if (&m != &obj.Maps.back()) {
+						if (&m != &obj.m_Maps.back()) {
 							outputfile << DIV_STR;
 						}
 						outputfile << "\n";
@@ -807,11 +785,11 @@ namespace FPS_n2 {
 				outputfile << "]\n";
 
 				//outputfile << "shotType=" + obj.shotType + "\n";
-				if (obj.zoneNames.size() > 0) {
+				if (obj.m_zoneNames.size() > 0) {
 					outputfile << "Task_Else=ƒ][ƒ“:[";
-					for (auto& m : obj.zoneNames) {
+					for (auto& m : obj.m_zoneNames) {
 						outputfile << m;
-						if (&m != &obj.zoneNames.back()) {
+						if (&m != &obj.m_zoneNames.back()) {
 							outputfile << ",";
 						}
 					}
@@ -915,7 +893,7 @@ namespace FPS_n2 {
 				break;
 			case FPS_n2::EnumTaskObjective::TaskObjectiveTaskStatus:
 			{
-				for (auto& m : obj.Maps) {
+				for (auto& m : obj.m_Maps) {
 					outputfile << "Task_Map=" + DataBase::Instance()->GetMapData()->FindPtr(m)->GetName() + "\n";
 				}
 				outputfile << "Task_Else=ŠY“–ƒ^ƒXƒN" + obj.task + "\n";
@@ -943,17 +921,17 @@ namespace FPS_n2 {
 				break;
 			case FPS_n2::EnumTaskObjective::TaskObjectiveUseItem:
 			{
-				for (auto& m : obj.Maps) {
+				for (auto& m : obj.m_Maps) {
 					outputfile << "Task_Map=" + DataBase::Instance()->GetMapData()->FindPtr(m)->GetName() + "\n";
 				}
 				if (obj.Compares.IsActive()) {
 					outputfile << "Task_Else=è‡’l: " + (std::string)(CompareMethodStr[(int)obj.Compares.compareMethod]) + " " + std::to_string(obj.Compares.value) + "\n";
 				}
-				if (obj.zoneNames.size() > 0) {
+				if (obj.m_zoneNames.size() > 0) {
 					outputfile << "Task_Else=ƒ][ƒ“:[";
-					for (auto& m : obj.zoneNames) {
+					for (auto& m : obj.m_zoneNames) {
 						outputfile << m;
-						if (&m != &obj.zoneNames.back()) {
+						if (&m != &obj.m_zoneNames.back()) {
 							outputfile << ",";
 						}
 					}
@@ -967,18 +945,13 @@ namespace FPS_n2 {
 		};
 		auto SetTaskRewards = [&](std::ofstream& outputfile, const TaskJsonData::TaskRewards& obj) {
 			for (auto& m : obj.m_traderStanding) {
-				outputfile << "Reward_Rep=" + m.trader + ((m.standingx100 >= 0) ? "+" : "") + std::to_string(m.standingx100) + "\n";
+				outputfile << "Reward_Rep=" + m.GetName() + ((m.GetValue() >= 0) ? "+" : "") + std::to_string(m.GetValue()) + "\n";
 			}
-			if (obj.Items.size() > 0) {
+			if (obj.m_Items.size() > 0) {
 				outputfile << "Reward_Item=[\n";
-				for (auto& m : obj.Items) {
-					if (m.ID != InvalidID) {
-						outputfile << "\t" + DataBase::Instance()->GetItemData()->FindPtr(m.ID)->GetName() + "x" + std::to_string(m.count);
-					}
-					else {
-						outputfile << "\t" + m.Name + "x" + std::to_string(m.count);
-					}
-					if (&m != &obj.Items.back()) {
+				for (auto& m : obj.m_Items) {
+					outputfile << "\t" + m.GetOutputStr();
+					if (&m != &obj.m_Items.back()) {
 						outputfile << DIV_STR;
 					}
 					outputfile << "\n";
@@ -988,7 +961,7 @@ namespace FPS_n2 {
 			for (auto& m : obj.m_skillLevelReward) {
 				outputfile << "Reward_SkillLevelUp=" + m.name + ((m.level >= 0) ? "+" : "") + std::to_string(m.level) + "\n";
 			}
-			for (auto& m : obj.traderUnlock) {
+			for (auto& m : obj.m_traderUnlock) {
 				outputfile << "Reward_TraderUnlock=" + m + "\n";
 			}
 		};
@@ -1030,7 +1003,7 @@ namespace FPS_n2 {
 				EnumTaskObjective Prev = EnumTaskObjective::Max;
 				for (auto& ob : this->objectives) {
 					SetTaskObjective(outputfile, ob, Prev);
-					Prev = ob.TaskObjectiveType;
+					Prev = ob.m_TaskObjectiveType;
 				}
 			}
 			if (this->objectives.size() > 0) {
@@ -1047,7 +1020,7 @@ namespace FPS_n2 {
 				EnumTaskObjective Prev = EnumTaskObjective::Max;
 				for (auto& ob : this->failConditions) {
 					SetTaskObjective(outputfile, ob, Prev);
-					Prev = ob.TaskObjectiveType;
+					Prev = ob.m_TaskObjectiveType;
 				}
 			}
 			if (this->failConditions.size() > 0) {
@@ -1086,28 +1059,10 @@ namespace FPS_n2 {
 			}
 		}
 	}
-	void		TaskData::SetNeedTasktoID() noexcept {
-		for (auto& t : this->m_List) {
-			t.SetNeedTasktoID();
-		}
-	}
+	//
 	void		TaskData::InitDatabyJson() noexcept {
 		TraderIDs.resize(DataBase::Instance()->GetTraderData()->GetList().size());
 		for (auto&i : TraderIDs) { i = 0; }
-		ResetDataJson();
-	}
-	void		TaskData::UpdateData(int ofset, int size) noexcept {
-		for (auto& L : this->m_List) {
-			for (int loop = ofset; loop < ofset + size; loop++) {
-				if (loop >= (int)GetJsonDataList().size()) { break; }
-				auto& jd = GetJsonDataList().at(loop);
-				if (L.GetIDstr() == jd->m_id) {
-					L.m_CheckJson++;
-					jd->OutputData(L.GetFilePath());
-					break;
-				}
-			}
-		}
 	}
 	void		TaskData::SaveAsNewData2(std::string Path) noexcept {
 		bool maked = false;
@@ -1149,7 +1104,7 @@ namespace FPS_n2 {
 			}
 		}
 	}
-	void		TaskData::CheckThroughJson(void) noexcept {
+	void		TaskData::UpdateAfterbyJson(void) noexcept {
 		for (auto& L : this->m_List) {
 			for (auto& jd : GetJsonDataList()) {
 				if (L.GetIDstr() == jd->m_id) {
@@ -1162,24 +1117,6 @@ namespace FPS_n2 {
 					outputfile.close();
 					break;
 				}
-			}
-		}
-
-		for (auto& t : this->m_List) {
-			if (t.m_CheckJson == 0) {
-				std::string ErrMes = "Error : ThroughJson : ";
-				ErrMes += t.GetName();
-				DataErrorLog::Instance()->AddLog(ErrMes.c_str());
-			}
-		}
-		for (auto& t : this->m_List) {
-			if (t.m_CheckJson >= 2) {
-				std::string ErrMes = "Error : Be repeated ";
-				ErrMes += std::to_string(t.m_CheckJson);
-				ErrMes += " : ";
-				ErrMes += t.GetName();
-
-				DataErrorLog::Instance()->AddLog(ErrMes.c_str());
 			}
 		}
 	}

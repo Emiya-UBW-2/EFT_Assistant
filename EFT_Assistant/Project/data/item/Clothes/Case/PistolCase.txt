@@ -7,6 +7,6 @@ width=2
 height=2
 weight=0.500000
 Sell_Jaeger=6600
-Sell_Flea Market=199000
+Sell_Flea Market=244444
 fleaMarketFee=0
 propertiestype=ItemPropertiesContainer

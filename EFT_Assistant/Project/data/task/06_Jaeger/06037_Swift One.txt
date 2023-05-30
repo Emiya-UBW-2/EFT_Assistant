@@ -101,7 +101,7 @@ Task_Else=  Glorious E lightweight armored mask
 Task_Else=  Death Knight mask
 Task_Else=  Shattered lightweight armored mask
 Task_Else=  Ars Arma A18 Skanda plate carrier
-Task_Else=  Shellback Tactical Banshee plate carrier (A-Tacs AU)
+Task_Else=  Shellback Tactical Banshee plate carrier (A-TACS AU)
 Task_Else=  Hexatac HPC Plate Carrier (Multicam Black)
 Task_Else=}
 

@@ -13,6 +13,18 @@
 #include "MainScene_Hideout.hpp"
 
 namespace FPS_n2 {
+	enum class EnumDataType {
+		ITEMCATEGORYDATA,
+		ITEMTYPEDATA,
+		PRESETDATA,
+		ENEMYDATA,
+		ITEMDATA,
+		TRADERDATA,
+		MAPDATA,
+		TASKDATA,
+		HIDEOUTDATA,
+	};
+
 	class DataBase : public SingletonBase<DataBase> {
 	private:
 		friend class SingletonBase<DataBase>;
@@ -49,11 +61,11 @@ namespace FPS_n2 {
 			m_PresetData->LoadList(false);
 			m_EnemyData->LoadList(false);
 			m_ItemData->LoadList(IsPushLog);
-			m_ItemData->SetParent();
+			m_ItemData->AfterLoadList();
 			m_TraderData->LoadList(false);
 			m_MapData->LoadList(false);
 			m_TaskData->LoadList(false);
-			m_TaskData->SetNeedTasktoID();
+			m_TaskData->AfterLoadList();
 			m_HideoutData->LoadList(IsPushLog);
 
 			SetUseASyncLoadFlag(FALSE);
@@ -90,6 +102,107 @@ namespace FPS_n2 {
 		auto& GetMapData(void) noexcept { return m_MapData; }
 		auto& GetTaskData(void) noexcept { return m_TaskData; }
 		auto& GetHideoutData(void) noexcept { return m_HideoutData; }
+	public:
+		const auto DataUpdate(EnumDataType EnumDataType_t, int XPos, int YPos, int Xsize, int Ysize, bool IsActive, unsigned int Color, const char* mes,
+			const char* queryPath,
+			const char* OutputPath,
+			const char* dataJsonName,
+			int ofsetValue = 20
+		) noexcept {
+			if (WindowSystem::ClickCheckBox(XPos, YPos, XPos + Xsize, YPos + Ysize, false, IsActive, Color, mes)) {
+				auto BaseTime = GetNowHiPerformanceCount();
+				int count = 0;
+				switch (EnumDataType_t) {
+				case FPS_n2::EnumDataType::ITEMDATA:
+					this->m_ItemData->ResetDataJson();
+					this->m_ItemData->InitDatabyJson();
+					break;
+				case FPS_n2::EnumDataType::TRADERDATA:
+					this->m_TraderData->ResetDataJson();
+					this->m_TraderData->InitDatabyJson();
+					break;
+				case FPS_n2::EnumDataType::TASKDATA:
+					this->m_TaskData->ResetDataJson();
+					this->m_TaskData->InitDatabyJson();
+					break;
+				case FPS_n2::EnumDataType::HIDEOUTDATA:
+					this->m_HideoutData->ResetDataJson();
+					this->m_HideoutData->InitDatabyJson();
+					break;
+				default:
+					break;
+				}
+				while (true) {
+					std::string	strResult;
+					if (CommonDataRequest(queryPath, ofsetValue * count, ofsetValue, strResult)) {
+						ProcessMessage();
+						auto data = nlohmann::json::parse(strResult);
+						switch (EnumDataType_t) {
+						case FPS_n2::EnumDataType::ITEMDATA:
+							this->m_ItemData->GetDataJson(data["data"][dataJsonName]);
+							this->m_ItemData->UpdateData(ofsetValue * count, ofsetValue);
+							this->m_ItemData->SaveAsNewData2(OutputPath);
+							break;
+						case FPS_n2::EnumDataType::TRADERDATA:
+							this->m_TraderData->GetDataJson(data["data"][dataJsonName]);
+							this->m_TraderData->UpdateData(ofsetValue * count, ofsetValue);
+							this->m_TraderData->SaveAsNewData(OutputPath);
+							break;
+						case FPS_n2::EnumDataType::TASKDATA:
+							this->m_TaskData->GetDataJson(data["data"][dataJsonName]);
+							this->m_TaskData->UpdateData(ofsetValue * count, ofsetValue);
+							this->m_TaskData->SaveAsNewData2(OutputPath);
+							break;
+						case FPS_n2::EnumDataType::HIDEOUTDATA:
+							this->m_HideoutData->GetDataJson(data["data"][dataJsonName]);
+							this->m_HideoutData->UpdateData(ofsetValue * count, ofsetValue);
+							this->m_HideoutData->SaveAsNewData(OutputPath);
+							break;
+						default:
+							break;
+						}
+
+						if (data["data"][dataJsonName].size() != ofsetValue) {
+							break;
+						}
+					}
+					else {
+						break;
+					}
+					count++;
+				}
+				switch (EnumDataType_t) {
+				case FPS_n2::EnumDataType::ITEMDATA:
+					this->m_ItemData->WaitToAllClear();
+					this->m_ItemData->CheckThroughJson();
+					this->m_ItemData->UpdateAfterbyJson();
+					break;
+				case FPS_n2::EnumDataType::TRADERDATA:
+					this->m_TraderData->WaitToAllClear();
+					this->m_TraderData->CheckThroughJson();
+					this->m_TraderData->UpdateAfterbyJson();
+					break;
+				case FPS_n2::EnumDataType::TASKDATA:
+					this->m_TaskData->WaitToAllClear();
+					this->m_TaskData->CheckThroughJson();
+					this->m_TaskData->UpdateAfterbyJson();
+					break;
+				case FPS_n2::EnumDataType::HIDEOUTDATA:
+					this->m_HideoutData->WaitToAllClear();
+					this->m_HideoutData->CheckThroughJson();
+					this->m_HideoutData->UpdateAfterbyJson();
+					break;
+				default:
+					break;
+				}
+				{
+					std::string ErrMes = "Update Json Time:" + std::to_string((float)((GetNowHiPerformanceCount() - BaseTime) / 1000) / 1000.f) + " s";
+					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+				}
+				return true;
+			}
+			return false;
+		}
 	};
 
 };

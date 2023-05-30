@@ -29,8 +29,6 @@ namespace FPS_n2 {
 		void	Load_Sub() noexcept override;
 		void	WhenAfterLoad_Sub() noexcept override {}
 	public:
-		int										m_CheckJson{ 0 };
-	public:
 		const auto&	GetLvData() const noexcept { return this->m_LvData; }
 	public:
 		const int		Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive) noexcept;
@@ -57,15 +55,10 @@ namespace FPS_n2 {
 					SetDirList((Path2 + RetPath3 + "/").c_str());
 				});
 			});
-			for (auto& t : this->m_List) {
-				t.m_CheckJson = 0;
-			}
 		}
 		~HideoutData() noexcept {}
 	public:
-		void InitDatabyJson() noexcept {
-			ResetDataJson();
-		}
+		void InitDatabyJson() noexcept {}
 		void UpdateData(int ofset, int size) noexcept {
 			for (auto& L : this->m_List) {
 				for (int loop = ofset; loop < ofset + size; loop++) {
@@ -73,39 +66,13 @@ namespace FPS_n2 {
 					auto& jd = GetJsonDataList().at(loop);
 					if (L.GetIDstr() == jd->m_id) {
 						L.m_CheckJson++;
-
 						jd->OutputData(L.GetFilePath());
 						break;
 					}
 				}
 			}
 		}
-		void CheckThroughJson(void) noexcept {
-			while (true) {
-				bool isHit = false;
-				for (auto& jd : GetJsonDataList()) {
-					if (!jd->GetIsSetFinish()) {
-						isHit = true;
-						break;
-					}
-				}
-				if (!isHit) { break; }
-			}
-			for (auto& jd : GetJsonDataList()) {
-				jd->ResetDataJob();
-			}
-
-			for (auto& L : this->m_List) {
-				if (L.m_CheckJson == 0) {
-					std::string ErrMes = "Error : ThroughJson : " + L.GetName();
-					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
-				}
-				else if (L.m_CheckJson >= 2) {
-					std::string ErrMes = "Error : Be repeated " + std::to_string(L.m_CheckJson) + " : " + L.GetName();
-					DataErrorLog::Instance()->AddLog(ErrMes.c_str());
-				}
-			}
-		}
+		void UpdateAfterbyJson(void) noexcept {}
 	};
 	//
 };

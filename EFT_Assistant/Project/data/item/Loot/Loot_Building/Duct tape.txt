@@ -10,6 +10,6 @@ Sell_Prapor=1249
 Sell_Therapist=1574
 Sell_Fence=999
 Sell_Jaeger=1499
-Sell_Flea Market=10000
+Sell_Flea Market=9999
 fleaMarketFee=0
 propertiestype=

@@ -8,6 +8,6 @@ height=2
 weight=1.200000
 Sell_Therapist=3772
 Sell_Fence=2395
-Sell_Flea Market=15555
+Sell_Flea Market=12222
 fleaMarketFee=0
 propertiestype=

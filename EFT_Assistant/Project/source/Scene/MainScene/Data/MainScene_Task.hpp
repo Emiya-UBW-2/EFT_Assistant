@@ -126,8 +126,6 @@ namespace FPS_n2 {
 		TaskWorkData				m_TaskWorkData;
 		TaskRewardData				m_TaskRewardData;
 	public:
-		int							m_CheckJson{ 0 };
-	public:
 		const auto&		GetTrader() const noexcept { return this->m_TaskNeedData.GetTrader(); }
 		const auto&		GetTaskNeedData() const noexcept { return this->m_TaskNeedData; }
 		const auto&		GetTaskWorkData() const noexcept { return this->m_TaskWorkData; }
@@ -269,23 +267,24 @@ namespace FPS_n2 {
 			}
 		};
 		struct TaskObjective {
-			EnumTaskObjective							TaskObjectiveType{ EnumTaskObjective::Max };
+			EnumTaskObjective							m_TaskObjectiveType{ EnumTaskObjective::Max };
 
-			std::string									type;
-			std::string									description;
-			std::vector<MapID>							Maps;
-			bool										optional{ false };
+			std::string									m_type;
+			std::string									m_description;
+			std::vector<MapID>							m_Maps;
+			bool										m_optional{ false };
 			//TaskObjectiveBuildItem
-			ItemID										Items{ InvalidID };
-			std::vector<std::string>					containsAll;
-			std::vector<std::string>					containsCategory;
-			std::vector<std::pair<std::string, Compare>>attributes;
+			ItemGetData									m_Items;
+
+			std::vector<std::string>					m_containsAll;
+			std::vector<std::string>					m_containsCategory;
+			std::vector<std::pair<std::string, Compare>>m_attributes;
 			//TaskObjectiveExperience
-			std::vector<HealthEffect>					healthEffect;
+			std::vector<HealthEffect>					m_healthEffect;
 			//TaskObjectiveExtract
-			std::vector<std::string>					exitStatus;
-			std::string									exitName;
-			std::vector<std::string>					zoneNames;
+			std::vector<std::string>					m_exitStatus;
+			std::string									m_exitName;
+			std::vector<std::string>					m_zoneNames;
 			//TaskObjectiveItem
 			int											count{ 0 };
 			bool										foundInRaid{ false };
@@ -297,7 +296,7 @@ namespace FPS_n2 {
 			//
 			int											playerLevel{ 0 };
 			//TaskObjectiveQuestItem
-			std::string									questItem;
+			ItemGetData									m_QuestItem;
 			//TaskObjectiveShoot
 			EnemyID										target{ InvalidID };
 			std::string									shotType;
@@ -323,14 +322,6 @@ namespace FPS_n2 {
 		public:
 			void GetJsonData(const nlohmann::json& data);
 		};
-		struct traderStanding {
-			std::string							trader;
-			int								standingx100;
-			void GetJsonData(const nlohmann::json& data) {
-				trader = data["trader"]["name"];
-				standingx100 = (int)((float)data["standing"] * 100.f);
-			}
-		};
 		struct skillLevelReward {
 			std::string							name;
 			int									level{ 0 };
@@ -339,16 +330,11 @@ namespace FPS_n2 {
 				level = data["level"];
 			}
 		};
-		struct TaskRewardItems {
-			ItemID ID{ InvalidID };
-			std::string Name;
-			int count{ 0 };
-		};
 		struct TaskRewards {
-			std::vector<traderStanding>						m_traderStanding;
-			std::vector<TaskRewardItems>					Items;
+			std::vector<TraderGetData>						m_traderStanding;
+			std::vector<ItemGetData>						m_Items;
 			std::vector<skillLevelReward>					m_skillLevelReward;
-			std::vector<std::string>						traderUnlock;
+			std::vector<std::string>						m_traderUnlock;
 		public:
 			void GetJsonData(const nlohmann::json& data);
 		};
@@ -387,10 +373,27 @@ namespace FPS_n2 {
 		std::vector<int>	TraderIDs;
 		void			AddTaskUseID() noexcept;
 	public:
-		void			SetNeedTasktoID() noexcept;
+		void			AfterLoadList() noexcept {
+			for (auto& t : this->m_List) {
+				t.SetNeedTasktoID();
+			}
+		}
+	public:
 		void			InitDatabyJson() noexcept;
-		void			UpdateData(int ofset, int size) noexcept;
+		void			UpdateData(int ofset, int size) noexcept {
+			for (auto& L : this->m_List) {
+				for (int loop = ofset; loop < ofset + size; loop++) {
+					if (loop >= (int)GetJsonDataList().size()) { break; }
+					auto& jd = GetJsonDataList().at(loop);
+					if (L.GetIDstr() == jd->m_id) {
+						L.m_CheckJson++;
+						jd->OutputData(L.GetFilePath());
+						break;
+					}
+				}
+			}
+		}
 		void			SaveAsNewData2(std::string Path) noexcept;
-		void			CheckThroughJson(void) noexcept;
+		void			UpdateAfterbyJson(void) noexcept;
 	};
 };
