@@ -1,5 +1,4 @@
-Map=Shoreline
-6f7741290491063
+IDstr=5a13ef7e86f7741290491063
 Name=Health Resort west wing room 301 key
 ShortName=W301 San
 Information_Eng=A key to the Azure Coast sanatorium west wing room 301.
@@ -9,7 +8,7 @@ height=1
 weight=0.010000
 Sell_Prapor=43500
 Sell_Therapist=54810
-Sell_Flea Market=65000
+Sell_Flea Market=149888
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Shoreline

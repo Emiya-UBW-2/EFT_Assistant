@@ -1,5 +1,4 @@
-Map=Streets of Tarkov
-1683efb
+IDstr=63a39fd1c9b3aa4b61683efb
 Name=Stair landing key
 ShortName=Stairs
 Information_Eng=A key to the one of the stair landings of the Chekannaya Street 15 building.
@@ -9,7 +8,7 @@ height=1
 weight=0.010000
 Sell_Prapor=4887
 Sell_Therapist=6157
-Sell_Flea Market=13997
+Sell_Flea Market=19777
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Streets of Tarkov

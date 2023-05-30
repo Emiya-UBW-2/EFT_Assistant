@@ -1,5 +1,4 @@
-Map=Streets of Tarkov
-57f5128
+IDstr=6398fd8ad3de3849057f5128
 Name=Backup hideout key
 ShortName=Hideout
 Information_Eng=A key to the Informant's second hideout.

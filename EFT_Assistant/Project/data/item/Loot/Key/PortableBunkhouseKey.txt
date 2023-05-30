@@ -1,5 +1,4 @@
-Map=Customs
-586f77473c2087145
+IDstr=5938144586f77473c2087145
 Name=Portable bunkhouse key
 ShortName=Bunkhouse
 Information_Eng=A key to one of the portable cabins that was being used as a bunkhouse, located somewhere in the Customs construction area.
@@ -9,7 +8,7 @@ height=1
 weight=0.010000
 Sell_Prapor=1678
 Sell_Therapist=2114
-Sell_Flea Market=99999
+Sell_Flea Market=150000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Customs

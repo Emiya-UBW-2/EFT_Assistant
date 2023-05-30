@@ -1,5 +1,4 @@
-Map=Customs
-586f774523a425196
+IDstr=5938994586f774523a425196
 Name=Dorm room 103 key
 ShortName=Dorm 103
 Information_Eng=A key to the three-story dormitory with a tag reading "103" on it.
@@ -9,7 +8,7 @@ height=1
 weight=0.010000
 Sell_Prapor=1856
 Sell_Therapist=2338
-Sell_Flea Market=7111
+Sell_Flea Market=4000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Customs

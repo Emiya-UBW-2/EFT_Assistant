@@ -236,6 +236,11 @@ namespace FPS_n2 {
 				DataErrorLog::Instance()->AddLog(ErrMes.c_str());
 			}
 		}
+
+		void		operator=(const IDParents& tgt) noexcept {
+			this->m_Name = tgt.m_Name;
+			this->m_ID = tgt.m_ID;
+		}
 	};
 
 	//ŠY“–ID‚Ìƒf[ƒ^‚Ì”’lŠi”[
@@ -264,6 +269,12 @@ namespace FPS_n2 {
 			else {
 				m_OutputStr = this->GetName() + "x" + std::to_string(this->GetValue());
 			}
+		}
+
+		void		operator=(const GetDataParent& tgt) noexcept {
+			this->m_ID = tgt.m_ID;
+			this->m_Value = tgt.m_Value;
+			this->m_OutputStr = tgt.m_OutputStr;
 		}
 	};
 

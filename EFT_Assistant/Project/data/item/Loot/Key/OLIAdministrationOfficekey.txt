@@ -1,5 +1,4 @@
-Map=Interchange
-774446d5706e9
+IDstr=5ad5ccd186f774446d5706e9
 Name=OLI administration office key
 ShortName=OLI office
 Information_Eng=A key to the OLI administration office at the ULTRA shopping mall.
@@ -9,7 +8,7 @@ height=1
 weight=0.010000
 Sell_Prapor=7511
 Sell_Therapist=9463
-Sell_Flea Market=10995
+Sell_Flea Market=9998
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Interchange

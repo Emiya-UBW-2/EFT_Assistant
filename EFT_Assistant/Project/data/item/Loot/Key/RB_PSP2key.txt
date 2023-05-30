@@ -1,5 +1,4 @@
-Map=Reserve
-a86f77424484aa5e9
+IDstr=5d95d6fa86f77424484aa5e9
 Name=RB-PSP2 key
 ShortName=RB-PSP2
 Information_Eng=A key to one of the iron mesh doors in the Federal State Reserve Agency base underground supply warehouse.
@@ -9,7 +8,7 @@ height=1
 weight=0.010000
 Sell_Prapor=14555
 Sell_Therapist=18339
-Sell_Flea Market=22900
+Sell_Flea Market=28123
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Reserve

@@ -62,7 +62,7 @@ namespace FPS_n2 {
 	public:
 		class ItemProperties {
 			class ChildItemSettings {
-				std::vector<ItemTypeID>									m_TypeID;
+				std::vector<ItemTypeID>						m_TypeID;
 			public:
 				std::vector<IDParents<ItemID>>				m_Data;
 			public:
@@ -79,6 +79,17 @@ namespace FPS_n2 {
 					}
 				}
 				const auto&		GetTypeID() const noexcept { return this->m_TypeID; }
+			public:
+				void		operator=(const ChildItemSettings& tgt) noexcept {
+					this->m_TypeID.resize(tgt.m_TypeID.size());
+					for (const auto& m : tgt.m_TypeID) {
+						this->m_TypeID.at(&m - &tgt.m_TypeID.front()) = m;
+					}
+					this->m_Data.resize(tgt.m_Data.size());
+					for (const auto& m : tgt.m_Data) {
+						this->m_Data.at(&m - &tgt.m_Data.front()) = m;
+					}
+				}
 			};
 		private:
 			EnumItemProperties						m_Type{ EnumItemProperties::Max };
@@ -478,6 +489,21 @@ namespace FPS_n2 {
 				}
 			}
 			void			OutputData(std::ofstream& outputfile) noexcept;
+		public:
+			void		operator=(const ItemProperties& tgt) noexcept {
+				this->m_Type = tgt.m_Type;
+				this->m_IntParams = tgt.m_IntParams;
+				this->m_floatParams = tgt.m_floatParams;
+
+				this->m_ChildPartsID.resize(tgt.m_ChildPartsID.size());
+				for (const auto& m : tgt.m_ChildPartsID) {
+					this->m_ChildPartsID.at(&m - &tgt.m_ChildPartsID.front()) = m;
+				}
+				this->m_ConflictPartsID.resize(tgt.m_ConflictPartsID.size());
+				for (const auto& m : tgt.m_ConflictPartsID) {
+					this->m_ConflictPartsID.at(&m - &tgt.m_ConflictPartsID.front()) = m;
+				}
+			}
 		};
 		struct ItemsData {
 			//ÉfÅ[É^
@@ -486,7 +512,7 @@ namespace FPS_n2 {
 			int													m_width{ 0 };
 			int													m_height{ 0 };
 			float												m_weight{ 0.f };
-			std::vector<std::pair<IDParents<TraderID>, int>>	m_sellFor;
+			std::vector<TraderGetData>							m_sellFor;
 			int													m_fleaMarketFee{ 0 };
 			ItemList::ItemProperties							m_properties;
 			//í«â¡èÓïÒ
@@ -496,7 +522,31 @@ namespace FPS_n2 {
 			std::vector<TaskID>									m_UseTaskID;
 		public:
 			void SetOtherData(const ItemsData& Data) noexcept {
-
+				this->m_TypeID = Data.m_TypeID;
+				this->m_MapID.resize(Data.m_MapID.size());
+				for (const auto& m : Data.m_MapID) {
+					this->m_MapID.at(&m - &Data.m_MapID.front()) = m;
+				}
+				this->m_width = Data.m_width;
+				this->m_height = Data.m_height;
+				this->m_weight = Data.m_weight;
+				this->m_sellFor.resize(Data.m_sellFor.size());
+				for (const auto& m : Data.m_sellFor) {
+					this->m_sellFor.at(&m - &Data.m_sellFor.front()) = m;
+				}
+				this->m_fleaMarketFee = Data.m_fleaMarketFee;
+				this->m_properties;//
+				//í«â¡èÓïÒ
+				this->m_ParentPartsID.resize(Data.m_ParentPartsID.size());
+				for (const auto& m : Data.m_ParentPartsID) {
+					this->m_ParentPartsID.at(&m - &Data.m_ParentPartsID.front()) = m;
+				}
+				this->m_isWeapon = Data.m_isWeapon;
+				this->m_isWeaponMod = Data.m_isWeaponMod;
+				this->m_UseTaskID.resize(Data.m_UseTaskID.size());
+				for (const auto& m : Data.m_UseTaskID) {
+					this->m_UseTaskID.at(&m - &Data.m_UseTaskID.front()) = m;
+				}
 			}
 		};
 	private:
@@ -556,13 +606,13 @@ namespace FPS_n2 {
 			*ID = InvalidID;
 			*pValue = -1;
 			for (const auto& sf : GetsellFor()) {
-				auto basev = sf.second;
-				if (sf.first.GetID() == InvalidID) {
+				auto basev = sf.GetValue();
+				if (sf.GetID() == InvalidID) {
 					basev -= GetfleaMarketFee();
 				}
 				if (*pValue < basev) {
 					*pValue = basev;
-					*ID = sf.first.GetID();
+					*ID = sf.GetID();
 				}
 			}
 			return (*pValue != -1);
@@ -611,7 +661,7 @@ namespace FPS_n2 {
 				for (int loop = ofset; loop < ofset + size; loop++) {
 					if (loop >= (int)GetJsonDataList().size()) { break; }
 					auto& jd = GetJsonDataList().at(loop);
-					if (L.GetIDstr() == jd->m_id) {
+					if (L.GetIDstr() == jd->m_id || L.GetName() == jd->m_name) {
 						L.m_CheckJson++;
 						jd->OutputData(L.GetFilePath());
 						break;

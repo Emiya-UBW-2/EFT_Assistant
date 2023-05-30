@@ -77,5 +77,5 @@ ChildParts=[
 ChildParts=[
 	MCX charging handle
 ]
-Recoil=132.000000
+Recoil=127.000000
 Ergonomics=48.000000

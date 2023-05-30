@@ -1,5 +1,4 @@
-Map=Interchange
-77449be26d877
+IDstr=5ad5d20586f77449be26d877
 Name=OLI outlet utility room key
 ShortName=OLI util.
 Information_Eng=A key to the OLI store outlet utility room at the ULTRA shopping mall.
@@ -9,7 +8,7 @@ height=1
 weight=0.010000
 Sell_Prapor=1629
 Sell_Therapist=2052
-Sell_Flea Market=9900
+Sell_Flea Market=6998
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Interchange

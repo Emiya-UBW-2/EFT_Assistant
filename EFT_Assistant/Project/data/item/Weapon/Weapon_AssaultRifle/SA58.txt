@@ -57,5 +57,5 @@ ChildParts=[
 	SA-58 folding stock/|
 	SA-58 SPR stock
 ]
-Recoil=277.000000
-Ergonomics=34.000000
+Recoil=250.000000
+Ergonomics=39.000000

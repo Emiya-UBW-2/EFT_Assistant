@@ -9,6 +9,6 @@ weight=0.100000
 Sell_Therapist=7665
 Sell_Fence=4867
 Sell_Jaeger=7300
-Sell_Flea Market=9490
+Sell_Flea Market=9999
 fleaMarketFee=0
 propertiestype=

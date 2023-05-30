@@ -1,5 +1,4 @@
-Map=Lighthouse
-81af308d7558c6
+IDstr=62987c658081af308d7558c6
 Name=Radar station commandant room key
 ShortName=Radar
 Information_Eng=A key that opens the radar station commandant office room, located somewhere on the Lighthouse peninsula territory.
@@ -9,7 +8,7 @@ height=1
 weight=0.010000
 Sell_Prapor=130000
 Sell_Therapist=163800
-Sell_Flea Market=163777
+Sell_Flea Market=163977
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Lighthouse

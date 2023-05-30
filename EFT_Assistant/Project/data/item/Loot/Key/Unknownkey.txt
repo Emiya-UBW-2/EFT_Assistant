@@ -1,5 +1,4 @@
-Map=Customs
-a86f774068014d9af
+IDstr=593962ca86f774068014d9af
 Name=Unknown key
 ShortName=Unknown
 Information_Eng=A key found on the dead messenger's body. The lock location is unknown.

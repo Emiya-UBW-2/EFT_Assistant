@@ -1,5 +1,4 @@
-Map=Customs
-586f7744014504f72
+IDstr=5da743f586f7744014504f72
 Name=USEC stash key
 ShortName=USEC
 Information_Eng=A key to the USEC stash, located somewhere in the Customs area.
@@ -9,7 +8,7 @@ height=1
 weight=0.010000
 Sell_Prapor=42105
 Sell_Therapist=53052
-Sell_Flea Market=55000
+Sell_Flea Market=55420
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Customs

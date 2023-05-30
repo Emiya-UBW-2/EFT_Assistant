@@ -1,5 +1,4 @@
-Map=Shoreline
-6f77445cb5a0982
+IDstr=5a144dfd86f77445cb5a0982
 Name=Health Resort west wing room 203 key
 ShortName=W203 San
 Information_Eng=A key to the Azure Coast sanatorium west wing room 203.
@@ -9,7 +8,7 @@ height=1
 weight=0.010000
 Sell_Prapor=48615
 Sell_Therapist=61254
-Sell_Flea Market=111111
+Sell_Flea Market=75000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 Map=Shoreline

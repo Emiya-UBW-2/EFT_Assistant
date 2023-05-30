@@ -70,8 +70,7 @@ namespace FPS_n2 {
 		else if (LEFT == "height") { this->m_ItemsData.m_height = std::stoi(Args[0]); }
 		else if (LEFT.find("Sell_") != std::string::npos) {
 			this->m_ItemsData.m_sellFor.resize(this->m_ItemsData.m_sellFor.size() + 1);
-			this->m_ItemsData.m_sellFor.back().first.SetName(LEFT.substr(strlenDx("Sell_")));
-			this->m_ItemsData.m_sellFor.back().second = std::stoi(Args[0]);
+			this->m_ItemsData.m_sellFor.back().Set(LEFT.substr(strlenDx("Sell_")), std::stoi(Args[0]));
 		}
 		else if (LEFT == "weight") { this->m_ItemsData.m_weight = std::stof(Args[0]); }
 		else if (LEFT == "fleaMarketFee") { this->m_ItemsData.m_fleaMarketFee = std::stoi(Args[0]); }
@@ -84,7 +83,7 @@ namespace FPS_n2 {
 			m.CheckID(DataBase::Instance()->GetMapData().get());
 		}
 		for (auto s : this->m_ItemsData.m_sellFor) {
-			s.first.CheckID(DataBase::Instance()->GetTraderData().get(), false);//Invalidはフリマなのでエラー出さない
+			s.CheckID(DataBase::Instance()->GetTraderData().get(), false);//Invalidはフリマなのでエラー出さない
 		}
 		//
 		{
@@ -710,8 +709,7 @@ namespace FPS_n2 {
 		m_ItemsData.m_weight = data["weight"];
 		for (const auto& sf : data["sellFor"]) {
 			m_ItemsData.m_sellFor.resize(m_ItemsData.m_sellFor.size() + 1);
-			m_ItemsData.m_sellFor.back().first.SetName(sf["vendor"]["name"]);
-			m_ItemsData.m_sellFor.back().second = sf["price"];
+			m_ItemsData.m_sellFor.back().Set(sf["vendor"]["name"], sf["price"]);
 		}
 		for (const auto& ts : data["conflictingItems"]) {
 			m_ItemsData.m_properties.SetConflictPartsID().resize(m_ItemsData.m_properties.SetConflictPartsID().size() + 1);
@@ -729,7 +727,7 @@ namespace FPS_n2 {
 		outputfile << "height=" + std::to_string(this->m_ItemsData.m_height) + "\n";
 		outputfile << "weight=" + std::to_string(this->m_ItemsData.m_weight) + "\n";
 		for (auto& sf : this->m_ItemsData.m_sellFor) {
-			outputfile << "Sell_" + sf.first.GetName() + "=" + std::to_string(sf.second) + "\n";
+			outputfile << "Sell_" + sf.GetName() + "=" + std::to_string(sf.GetValue()) + "\n";
 		}
 		outputfile << "fleaMarketFee=" + std::to_string(this->m_ItemsData.m_fleaMarketFee) + "\n";
 		this->m_ItemsData.m_properties.OutputData(outputfile);
