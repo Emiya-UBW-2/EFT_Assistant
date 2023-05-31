@@ -7,7 +7,7 @@ namespace FPS_n2 {
 	private:
 		friend class SingletonBase<InputControl>;
 	private:
-		int						m_mouse_x, m_mouse_y;
+		int						m_mouse_x{ 0 }, m_mouse_y{ 0 };
 
 		switchs					m_LeftClick;
 		float					m_LeftPressTimer{ 0.f };

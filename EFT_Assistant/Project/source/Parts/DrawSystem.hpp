@@ -12,11 +12,11 @@ namespace FPS_n2 {
 	};
 	class DrawData {
 		DrawType								m_type{ DrawType::Box };
-		std::array<int, 6>						m_intParam;
-		std::array<unsigned int, 2>				m_UintParam;
-		std::array<float, 6>					m_floatParam;
-		std::array<bool, 1>						m_boolParam;
-		std::array<const GraphHandle*, 1>		m_GraphHandleParam;
+		std::array<int, 6>						m_intParam{ 0,0,0,0,0,0 };
+		std::array<unsigned int, 2>				m_UintParam{0,0};
+		std::array<float, 6>					m_floatParam{ 0,0,0,0,0,0 };
+		std::array<bool, 1>						m_boolParam{ false };
+		std::array<const GraphHandle*, 1>		m_GraphHandleParam{ nullptr };
 		std::string								m_string;
 	public:
 		void InputType(DrawType type) noexcept { this->m_type = type; }

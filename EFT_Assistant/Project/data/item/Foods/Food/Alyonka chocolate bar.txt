@@ -9,6 +9,6 @@ weight=0.100000
 Sell_Therapist=6604
 Sell_Fence=4193
 Sell_Jaeger=6289
-Sell_Flea Market=26500
+Sell_Flea Market=26000
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink

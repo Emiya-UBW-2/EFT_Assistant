@@ -3,7 +3,7 @@
 
 namespace FPS_n2 {
 	class PresetList : public ListParent<PresetID> {
-		const ItemList*											m_Base;
+		const ItemList*											m_Base{ nullptr };
 		std::vector<const ItemList*>							m_Parts;
 	private:
 		std::string												m_BaseIDBuffer;

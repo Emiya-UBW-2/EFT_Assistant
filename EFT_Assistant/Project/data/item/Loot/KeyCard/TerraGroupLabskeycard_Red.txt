@@ -9,6 +9,6 @@ weight=0.010000
 Sell_Therapist=10395000
 Sell_Peacekeeper=61875
 Sell_Mechanic=9240000
-Sell_Flea Market=49000000
+Sell_Flea Market=56789000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey

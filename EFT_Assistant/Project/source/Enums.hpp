@@ -6,6 +6,7 @@ namespace FPS_n2 {
 	static const float Frame_Rate{ 60.f };
 	//
 	enum class BGSelect {
+		Title,
 		Task,
 		HideOut,
 		Item,

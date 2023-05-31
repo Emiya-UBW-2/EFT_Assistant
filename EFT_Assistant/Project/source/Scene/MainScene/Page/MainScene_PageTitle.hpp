@@ -125,7 +125,7 @@ namespace FPS_n2 {
 				"data/query/trader_query.txt",
 				"data/trader/Maked",
 				"traders",
-				2
+				1
 			)) {
 				TimeCard();
 			}

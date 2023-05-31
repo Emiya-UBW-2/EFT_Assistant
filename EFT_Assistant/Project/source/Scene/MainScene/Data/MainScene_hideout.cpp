@@ -160,9 +160,8 @@ namespace FPS_n2 {
 	void			HideoutList::SetSub(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
 		std::string LEFTBuf = LEFT.substr(3);
 		std::string NumBuf2 = LEFT.substr(2, 1);
-		int ID = 0;
 		if (std::all_of(NumBuf2.cbegin(), NumBuf2.cend(), isdigit)) {
-			ID = std::stoi(NumBuf2) - 1;
+			size_t ID = (size_t)(std::stoi(NumBuf2) - 1);
 			if (m_LvData.size() <= ID) { this->m_LvData.resize(ID + 1); }
 			//開放データ
 			if (LEFTBuf == "constructionTime") { this->m_LvData.at(ID).constructionTime = std::stoi(Args[0]); }

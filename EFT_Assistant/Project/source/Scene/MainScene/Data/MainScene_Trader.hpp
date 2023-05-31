@@ -30,25 +30,26 @@ namespace FPS_n2 {
 			std::string LEFTBuf = LEFT.substr(3);
 			std::string NumBuf2 = LEFT.substr(2, 1);
 			if (std::all_of(NumBuf2.cbegin(), NumBuf2.cend(), isdigit)) {
-				int ID = std::stoi(NumBuf2) - 1;
+				size_t ID = (size_t)(std::stoi(NumBuf2) - 1);
 				if (m_LvData.size() <= ID) { this->m_LvData.resize(ID + 1); }
+				auto& data = this->m_LvData.at(ID);
 				//開放データ
-				if (LEFTBuf == "Reputation") { this->m_LvData.at(ID).Reputation = std::stof(Args[0]); }
-				if (LEFTBuf == "NeedLv") { this->m_LvData.at(ID).NeedLv = std::stoi(Args[0]); }
-				if (LEFTBuf == "Commerce") { this->m_LvData.at(ID).Commerce = std::stoi(Args[0]); }
-				if (LEFTBuf == "payRate") { this->m_LvData.at(ID).payRate = std::stof(Args[0]); }
-				if (LEFTBuf == "insuranceRate") { this->m_LvData.at(ID).insuranceRate = std::stof(Args[0]); }
-				if (LEFTBuf == "repairCostMultiplier") { this->m_LvData.at(ID).repairCostMultiplier = std::stof(Args[0]); }
+				if (LEFTBuf == "Reputation") { data.Reputation = std::stof(Args[0]); }
+				if (LEFTBuf == "NeedLv") { data.NeedLv = std::stoi(Args[0]); }
+				if (LEFTBuf == "Commerce") { data.Commerce = std::stoi(Args[0]); }
+				if (LEFTBuf == "payRate") { data.payRate = std::stof(Args[0]); }
+				if (LEFTBuf == "insuranceRate") { data.insuranceRate = std::stof(Args[0]); }
+				if (LEFTBuf == "repairCostMultiplier") { data.repairCostMultiplier = std::stof(Args[0]); }
 				//
 				if (LEFTBuf == "BarteritemReq") {
-					m_LvData.at(ID).m_ItemBarters.resize(m_LvData.at(ID).m_ItemBarters.size() + 1);
+					data.m_ItemBarters.resize(data.m_ItemBarters.size() + 1);
 					for (auto&a : Args) {
-						SetGetData<ItemGetData>(&m_LvData.at(ID).m_ItemBarters.back().m_ItemReq, a, "x");
+						SetGetData<ItemGetData>(&data.m_ItemBarters.back().m_ItemReq, a, "x");
 					}
 				}
 				if (LEFTBuf == "BarteritemReward") {
 					for (auto&a : Args) {
-						SetGetData<ItemGetData>(&m_LvData.at(ID).m_ItemBarters.back().m_ItemReward, a, "x");
+						SetGetData<ItemGetData>(&data.m_ItemBarters.back().m_ItemReward, a, "x");
 					}
 				}
 			}
@@ -67,7 +68,7 @@ namespace FPS_n2 {
 	//
 	class TraderJsonData :public JsonDataParent {
 	public:
-		ItemID										PayItem;
+		ItemID										PayItem{ InvalidID };
 		std::array<int, 3>							m_Color{ 0,0,0 };
 		std::vector<TraderLvData>					m_LvData;
 	public:

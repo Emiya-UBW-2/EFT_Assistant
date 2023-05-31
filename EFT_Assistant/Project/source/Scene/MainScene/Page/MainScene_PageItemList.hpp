@@ -29,7 +29,7 @@ namespace FPS_n2 {
 				struct counts
 				{
 					ItemID	m_ID{ InvalidID };
-					int		count;
+					int		count{ 0 };
 					bool	isFir{ true };
 					bool	isNeed{ false };
 				};

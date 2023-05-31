@@ -29,20 +29,17 @@ namespace FPS_n2 {
 	private:
 		friend class SingletonBase<DataBase>;
 	private:
-		std::unique_ptr<ItemCategoryData> m_ItemCategoryData;
-		std::unique_ptr<ItemTypeData> m_ItemTypeData;
-		std::unique_ptr<PresetData> m_PresetData;
-		std::unique_ptr<EnemyData> m_EnemyData;
-		std::unique_ptr<ItemData> m_ItemData;
-		std::unique_ptr<TraderData> m_TraderData;
-		std::unique_ptr<MapData> m_MapData;
-		std::unique_ptr<TaskData> m_TaskData;
-		std::unique_ptr<HideoutData> m_HideoutData;
+		std::unique_ptr<ItemCategoryData>	m_ItemCategoryData;
+		std::unique_ptr<ItemTypeData>		m_ItemTypeData;
+		std::unique_ptr<PresetData>			m_PresetData;
+		std::unique_ptr<EnemyData>			m_EnemyData;
+		std::unique_ptr<ItemData>			m_ItemData;
+		std::unique_ptr<TraderData>			m_TraderData;
+		std::unique_ptr<MapData>			m_MapData;
+		std::unique_ptr<TaskData>			m_TaskData;
+		std::unique_ptr<HideoutData>		m_HideoutData;
 	private:
-		DataBase() noexcept {}
-		~DataBase() noexcept {}
-	public:
-		void			SetList(void) noexcept {
+		DataBase() noexcept {
 			m_ItemCategoryData = std::make_unique<ItemCategoryData>();
 			m_ItemTypeData = std::make_unique<ItemTypeData>();
 			m_PresetData = std::make_unique<PresetData>();
@@ -53,7 +50,44 @@ namespace FPS_n2 {
 			m_TaskData = std::make_unique<TaskData>();
 			m_HideoutData = std::make_unique<HideoutData>();
 		}
+		~DataBase() noexcept {}
+	public:
+		void			SetDataList(void) noexcept {
+			auto BaseTime = GetNowHiPerformanceCount();
+			m_ItemCategoryData->SetDataList();
+			m_ItemTypeData->SetDataList();
+			m_PresetData->SetDataList();
+			m_EnemyData->SetDataList();
+			m_ItemData->SetDataList();;
+			m_TraderData->SetDataList();
+			m_MapData->SetDataList();
+			m_TaskData->SetDataList();
+			m_HideoutData->SetDataList();
+			{
+				std::string ErrMes = "Load Data Time:" + std::to_string((float)((GetNowHiPerformanceCount() - BaseTime) / 1000) / 1000.f) + " s";
+				DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+			}
+		}
+		void			WaitDataList(void) noexcept {
+			auto BaseTime = GetNowHiPerformanceCount();
+			m_ItemCategoryData->WaitDataList();
+			m_ItemTypeData->WaitDataList();
+			m_PresetData->WaitDataList();
+			m_EnemyData->WaitDataList();
+			m_ItemData->WaitDataList();;
+			m_TraderData->WaitDataList();
+			m_MapData->WaitDataList();
+			m_TaskData->WaitDataList();
+			m_HideoutData->WaitDataList();
+			//
+			m_TaskData->AddTaskUseID();
+			{
+				std::string ErrMes = "Wait Load Time:" + std::to_string((float)((GetNowHiPerformanceCount() - BaseTime) / 1000) / 1000.f) + " s";
+				DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+			}
+		}
 		void			LoadList(bool IsPushLog) noexcept {
+			auto BaseTime = GetNowHiPerformanceCount();
 			SetUseASyncLoadFlag(TRUE);
 
 			m_ItemCategoryData->LoadList(false);
@@ -69,6 +103,10 @@ namespace FPS_n2 {
 			m_HideoutData->LoadList(IsPushLog);
 
 			SetUseASyncLoadFlag(FALSE);
+			{
+				std::string ErrMes = "Load Image:" + std::to_string((float)((GetNowHiPerformanceCount() - BaseTime) / 1000) / 1000.f) + " s";
+				DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+			}
 		}
 		void			WhenAfterLoadListCommon(void) noexcept {
 			m_ItemCategoryData->WhenAfterLoadListCommon();
@@ -93,15 +131,15 @@ namespace FPS_n2 {
 			m_HideoutData->WhenAfterLoadList();
 		}
 	public:
-		auto& GetItemCategoryData(void) noexcept { return m_ItemCategoryData; }
-		auto& GetItemTypeData(void) noexcept { return m_ItemTypeData; }
-		auto& GetPresetData(void) noexcept { return m_PresetData; }
-		auto& GetEnemyData(void) noexcept { return m_EnemyData; }
-		auto& GetItemData(void) noexcept { return m_ItemData; }
-		auto& GetTraderData(void) noexcept { return m_TraderData; }
-		auto& GetMapData(void) noexcept { return m_MapData; }
-		auto& GetTaskData(void) noexcept { return m_TaskData; }
-		auto& GetHideoutData(void) noexcept { return m_HideoutData; }
+		auto& GetItemCategoryData(void) noexcept { return this->m_ItemCategoryData; }
+		auto& GetItemTypeData(void) noexcept { return this->m_ItemTypeData; }
+		auto& GetPresetData(void) noexcept { return this->m_PresetData; }
+		auto& GetEnemyData(void) noexcept { return this->m_EnemyData; }
+		auto& GetItemData(void) noexcept { return this->m_ItemData; }
+		auto& GetTraderData(void) noexcept { return this->m_TraderData; }
+		auto& GetMapData(void) noexcept { return this->m_MapData; }
+		auto& GetTaskData(void) noexcept { return this->m_TaskData; }
+		auto& GetHideoutData(void) noexcept { return this->m_HideoutData; }
 	public:
 		const auto DataUpdate(EnumDataType EnumDataType_t, int XPos, int YPos, int Xsize, int Ysize, bool IsActive, unsigned int Color, const char* mes,
 			const char* queryPath,

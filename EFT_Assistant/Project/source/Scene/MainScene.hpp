@@ -7,66 +7,45 @@ namespace FPS_n2 {
 		int															m_posx{ 0 };
 		int															m_posy{ 0 };
 		float														m_Scale{ 0.6f };
+		//
+		float														m_NoneActiveTimes{ 0.f };
 		bool														m_IsPullDown{ false };
 		float														m_PullDown{ 1.f };
-
-		std::shared_ptr<BGParent>									m_BGPtr;
-		std::shared_ptr<TitleBG>									m_TitleBG;
-		std::shared_ptr<TaskBG>										m_TaskBG;
-		std::shared_ptr<HideOutBG>									m_HideOutBG;
-		std::shared_ptr<ItemBG>										m_ItemBG;
-		std::shared_ptr<MapBG>										m_MapBG;
-		std::shared_ptr<CustomBG>									m_CustomBG;
-		std::shared_ptr<TraderBG>									m_TraderBG;
-		std::shared_ptr<ItemListBG>									m_ItemListBG;
-		std::shared_ptr<PlayerInfoBG>								m_PlayerInfoBG;
-
+		//
 		bool														m_Loading{ false };
-
+		//
 		bool														m_WindowMove{ false };
-
-		float														m_NoneActiveTimes{ 0.f };
 	public:
-		void Load_Sub(void) noexcept override {}
-		void Set_Sub(void) noexcept override {
-			//
+		void Load_Sub(void) noexcept override {
+			//パーツ
 			PlayerData::Create();
 			InputControl::Create();
 			DataErrorLog::Create();
 			DrawControl::Create();
 			InterruptParts::Create();
 			WindowSystem::WindowManager::Create();
-			//
+			//データベース
 			DataBase::Create();
-			//
-			DataBase::Instance()->SetList();
-			//
-			{
-				bool DrawLog = false;
+		}
+		void Set_Sub(void) noexcept override {
+			bool DrawLog = false;
 #ifdef DEBUG
-				DrawLog = true;
+			DrawLog = true;
 #endif
-				DataBase::Instance()->LoadList(DrawLog);
+			//
+			DataBase::Instance()->SetDataList();
+			DataBase::Instance()->WaitDataList();
+			DataBase::Instance()->LoadList(DrawLog);
+			m_Loading = true;
+			//
+			BGBase::Create();
 
-				m_Loading = true;
-			}
-			//
-			m_TitleBG = std::make_shared<TitleBG>();
-			m_TaskBG = std::make_shared<TaskBG>();
-			m_HideOutBG = std::make_shared<HideOutBG>();
-			m_ItemBG = std::make_shared<ItemBG>();
-			m_MapBG = std::make_shared<MapBG>();
-			m_CustomBG = std::make_shared<CustomBG>();
-			m_TraderBG = std::make_shared<TraderBG>();
-			m_ItemListBG = std::make_shared<ItemListBG>();
-			m_PlayerInfoBG = std::make_shared<PlayerInfoBG>();
-			//
-			m_BGPtr = this->m_TitleBG;
-			//
-			m_BGPtr->Init(&this->m_posx, &this->m_posy, &this->m_Scale);
+			BGBase::Instance()->Init(&this->m_posx, &this->m_posy, &this->m_Scale);
 		}
 
 		bool Update_Sub(void) noexcept override {
+			auto* DataBases = DataBase::Instance();
+			auto* BGs = BGBase::Instance();
 			auto* WindowMngr = WindowSystem::WindowManager::Instance();
 			auto* DrawParts = DXDraw::Instance();
 			auto* Input = InputControl::Instance();
@@ -75,9 +54,9 @@ namespace FPS_n2 {
 			DrawControl::Instance()->ClearList();
 
 			if (m_Loading) {
-				DataBase::Instance()->WhenAfterLoadListCommon();
+				DataBases->WhenAfterLoadListCommon();
 				if (GetASyncLoadNum() == 0) {
-					DataBase::Instance()->WhenAfterLoadList();
+					DataBases->WhenAfterLoadList();
 					m_Loading = false;
 				}
 			}
@@ -92,15 +71,9 @@ namespace FPS_n2 {
 			mouse_moveX = Input->GetMouseX() - mouse_moveX;
 			mouse_moveY = Input->GetMouseY() - mouse_moveY;
 			//ドラッグ開始時の処理
-			bool inMouse = in2_(Input->GetMouseX(), Input->GetMouseY(), 0, 0, y_r(1920), LineHeight);
 			if (Input->GetMiddleClick().press()) {
 				if (Input->GetMiddleClick().trigger()) {
-					m_WindowMove = false;
-					if (m_PullDown >= 1.f) {
-						if (inMouse) {
-							m_WindowMove = true;
-						}
-					}
+					m_WindowMove = ((m_PullDown >= 1.f) && in2_(Input->GetMouseX(), Input->GetMouseY(), 0, 0, y_r(1920), LineHeight));
 				}
 				if (m_WindowMove) {
 					int start_windowX = 0, start_windowY = 0;
@@ -132,103 +105,25 @@ namespace FPS_n2 {
 			}
 			//
 			WindowMngr->Execute();
-			m_BGPtr->LateExecute(&this->m_posx, &this->m_posy, &this->m_Scale);
+			BGs->LateExecute(&this->m_posx, &this->m_posy, &this->m_Scale);
 			//
-			if (m_BGPtr->IsGoNextBG()) {
+			if (BGs->GetNowBG()->IsGoNextBG()) {
 				WindowMngr->DeleteAll();
-				m_BGPtr->Dispose();
-				if (m_BGPtr == this->m_TitleBG) {
-					switch (m_TitleBG->GetNextSelect()) {
-					case BGSelect::Task:
-						m_BGPtr = this->m_TaskBG;
-						break;
-					case BGSelect::HideOut:
-						m_BGPtr = this->m_HideOutBG;
-						break;
-					case BGSelect::Item:
-						m_BGPtr = this->m_ItemBG;
-						break;
-					case BGSelect::Map:
-						m_BGPtr = this->m_MapBG;
-						break;
-					case BGSelect::Custom:
-						m_BGPtr = this->m_CustomBG;
-						break;
-					case BGSelect::Trader:
-						m_BGPtr = this->m_TraderBG;
-						break;
-					case BGSelect::ItemList:
-						m_BGPtr = this->m_ItemListBG;
-						break;
-					case BGSelect::PlayerInfo:
-						m_BGPtr = this->m_PlayerInfoBG;
-						break;
-					default:
-						m_BGPtr = this->m_TaskBG;
-						break;
-					}
-				}
-				else {
-					m_BGPtr = this->m_TitleBG;
-				}
-				m_BGPtr->Init(&this->m_posx, &this->m_posy, &this->m_Scale);
+				BGs->Dispose();
+				BGs->SetNext((BGs->GetNowBG() == BGs->GetTitleBG()) ? BGs->GetTitleBG()->GetNextSelect() : BGSelect::Title);
+				BGs->Init(&this->m_posx, &this->m_posy, &this->m_Scale);
 			}
 			//
 			if (InterParts->IsActive()) {
 				WindowMngr->DeleteAll();
-				m_BGPtr->Dispose();
-				switch ((BGSelect)InterParts->GetNextScene()) {
-				case BGSelect::Task:
-					m_BGPtr = this->m_TaskBG;
-					break;
-				case BGSelect::HideOut:
-					m_BGPtr = this->m_HideOutBG;
-					break;
-				case BGSelect::Item:
-					m_BGPtr = this->m_ItemBG;
-					break;
-				case BGSelect::Map:
-					m_BGPtr = this->m_MapBG;
-					break;
-				case BGSelect::Custom:
-					m_BGPtr = this->m_CustomBG;
-					break;
-				case BGSelect::Trader:
-					m_BGPtr = this->m_TraderBG;
-					break;
-				case BGSelect::ItemList:
-					m_BGPtr = this->m_ItemListBG;
-					break;
-				case BGSelect::PlayerInfo:
-					m_BGPtr = this->m_PlayerInfoBG;
-					break;
-				default:
-					break;
-				}
-				m_BGPtr->Init(&this->m_posx, &this->m_posy, &this->m_Scale);
-				switch ((BGSelect)InterParts->GetNextScene()) {
-				case BGSelect::Task:
-					break;
-				case BGSelect::HideOut:
-					break;
-				case BGSelect::Item:
-					break;
-				case BGSelect::Map:
-					break;
-				case BGSelect::Custom:
-					m_CustomBG->SetSubparam(
+				BGs->Dispose();
+				BGs->SetNext(InterParts->GetNextScene());
+				BGs->Init(&this->m_posx, &this->m_posy, &this->m_Scale);
+				if (InterParts->GetNextScene() == BGSelect::Custom) {
+					BGs->GetCustomBG()->SetSubparam(
 						InterParts->GetInitParam(0),//アイテム名
 						InterParts->GetInitParam(1)//プリセット名
 					);
-					break;
-				case BGSelect::Trader:
-					break;
-				case BGSelect::ItemList:
-					break;
-				case BGSelect::PlayerInfo:
-					break;
-				default:
-					break;
 				}
 				InterParts->Complete();
 			}
@@ -247,73 +142,49 @@ namespace FPS_n2 {
 			//m_NoneActiveTimes = 5.f;
 			//SetDraw
 			{
-				int Xsize = DrawParts->m_DispXSize;
-				int Ysize = DrawParts->m_DispYSize;
-
 				int Xmin = y_r(320);
 				int Ymin = LineHeight;
 
-				DrawControl::Instance()->SetDrawBox(DrawLayer::BackGround, 0, 0, (int)(Lerp((float)Xmin, (float)Xsize, this->m_PullDown)), (int)(Lerp((float)Ymin, (float)Ysize, this->m_PullDown)), Gray75, TRUE);
-				if (m_PullDown >= 1.f) {
-					//Back
-					m_BGPtr->Draw_Back(this->m_posx, this->m_posy, this->m_Scale);
-					//ウィンドウ
-					WindowMngr->Draw();
-				}
-				//タイトルバック
-				int DieCol = std::clamp((int)(Lerp(1.f, 128.f, this->m_NoneActiveTimes / 5.f)), 0, 255);
-				WindowSystem::SetBox(0, 0, (int)(Lerp((float)Xmin, (float)Xsize, this->m_PullDown)), LineHeight, GetColor(DieCol, DieCol, DieCol));
-				//タイトル
-				if (m_PullDown >= 1.f) {
-					if (WindowSystem::ClickCheckBox(Xmin + y_r(10), 0, Xmin + y_r(10 + 220), Ymin, false, true, Gray25, "全窓を閉じる")) {
-						WindowMngr->DeleteAll();
-					}
-
-					WindowSystem::SetMsg(0, 0, y_r(1920), LineHeight, LineHeight, STRX_MID, White, Black, "EFT Assistant");
-					WindowSystem::SetMsg(y_r(1280), LineHeight * 1 / 10, y_r(1280), LineHeight, LineHeight * 8 / 10, STRX_LEFT, White, Black, "ver %d.%d.%d", 0, 3, 2);
-
-					WindowSystem::SetMsg(y_r(960), LineHeight + LineHeight * 1 / 10, y_r(960), LineHeight + LineHeight, LineHeight * 8 / 10, STRX_MID, White, Black, "最終更新:%s", PlayerData::Instance()->GetLastDataReceive().c_str());
-
-					if (WindowSystem::CloseButton(y_r(1920) - LineHeight, 0)) { SetisEnd(true); }
-				}
-				//展開
-				if (WindowSystem::ClickCheckBox(0, 0, Xmin, Ymin, false, true, Gray25, !m_IsPullDown ? "折りたたむ" : "展開")) { this->m_IsPullDown ^= 1; }
 				Easing(&m_PullDown, !m_IsPullDown ? 1.f : 0.f, 0.8f, EasingType::OutExpo);
 				if (m_PullDown >= 0.95f) { this->m_PullDown = 1.f; }
 				if (m_PullDown <= 0.05f) { this->m_PullDown = 0.f; }
-				//
+				int Xwin = (int)(Lerp((float)Xmin, (float)DrawParts->m_DispXSize, this->m_PullDown));
+				int Ywin = (int)(Lerp((float)Ymin, (float)DrawParts->m_DispYSize, this->m_PullDown));
+				int DieCol = std::clamp((int)(Lerp(1.f, 128.f, this->m_NoneActiveTimes / 5.f)), 0, 255);
+
+				DrawControl::Instance()->SetDrawBox(DrawLayer::BackGround, 0, 0, Xwin, Ywin, Gray75, TRUE);
 				if (m_PullDown >= 1.f) {
+					//Back
+					BGs->Draw_Back(this->m_posx, this->m_posy, this->m_Scale);
+					WindowMngr->Draw();
+				}
+				WindowSystem::SetBox(0, 0, Xwin, LineHeight, GetColor(DieCol, DieCol, DieCol));				//タイトルバック
+				//展開
+				if (WindowSystem::ClickCheckBox(0, 0, Xmin, Ymin, false, true, Gray25, !m_IsPullDown ? "折りたたむ" : "展開")) { this->m_IsPullDown ^= 1; }
+				if (m_PullDown >= 1.f) {
+					//タイトル
+					if (WindowSystem::ClickCheckBox(Xmin + y_r(10), 0, Xmin + y_r(230), LineHeight, false, true, Gray25, "全窓を閉じる")) { WindowMngr->DeleteAll(); }
+					WindowSystem::SetMsg(0, 0, DrawParts->m_DispXSize, Ymin, LineHeight, STRX_MID, White, Black, "EFT Assistant");
+					WindowSystem::SetMsg(y_r(1280), LineHeight * 1 / 10, y_r(1280), LineHeight, LineHeight * 8 / 10, STRX_LEFT, White, Black, "ver %d.%d.%d", 0, 3, 2);
+					WindowSystem::SetMsg(0, Ymin + LineHeight * 1 / 10, DrawParts->m_DispXSize, Ymin + LineHeight, LineHeight * 8 / 10, STRX_MID, White, Black, "最終更新:%s", PlayerData::Instance()->GetLastDataReceive().c_str());
+					if (WindowSystem::CloseButton(DrawParts->m_DispXSize - Ymin, 0)) { SetisEnd(true); }
 					//Front
-					m_BGPtr->DrawFront(this->m_posx, this->m_posy, this->m_Scale);
-					//中央位置回避のための小円
-					DrawControl::Instance()->SetDrawCircle(DrawLayer::Front, Xsize, Ysize, y_r(100), TransColor, TRUE);
+					BGs->DrawFront(this->m_posx, this->m_posy, this->m_Scale);
+					DrawControl::Instance()->SetDrawCircle(DrawLayer::Front, DrawParts->m_DispXSize, DrawParts->m_DispYSize, y_r(100), TransColor, TRUE);					//中央位置回避のための小円
 				}
 				DataErrorLog::Instance()->Draw();
 				if (GetASyncLoadNum() > 0) {
-					WindowSystem::SetMsg(0, y_r(1080) - LineHeight, y_r(0), y_r(1080), LineHeight, STRX_LEFT, White, Black, "Loading...");
+					WindowSystem::SetMsg(0, DrawParts->m_DispYSize - LineHeight, y_r(0), DrawParts->m_DispYSize, LineHeight, STRX_LEFT, White, Black, "Loading...");
 				}
 			}
-			//SetIsUpdateDraw(false);
 			return true;
 		}
 		void Dispose_Sub(void) noexcept override {
-			m_BGPtr.reset();
-			m_TaskBG.reset();
-			m_HideOutBG.reset();
-			m_ItemBG.reset();
-			m_MapBG.reset();
-			m_CustomBG.reset();
-			m_TraderBG.reset();
-			m_ItemListBG.reset();
-			m_PlayerInfoBG.reset();
-
 			PlayerData::Instance()->Save();
 			DataErrorLog::Instance()->Save();
 		}
 	public:
 		void BG_Draw_Sub(void) noexcept override {}
-
-		//UI表示
 		void DrawUI_In_Sub(void) noexcept  override {
 			DrawControl::Instance()->Draw();
 		}

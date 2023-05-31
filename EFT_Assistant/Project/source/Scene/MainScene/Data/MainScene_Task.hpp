@@ -151,7 +151,7 @@ namespace FPS_n2 {
 		}
 		void			WhenAfterLoad_Sub() noexcept override {}
 
-		void			SetNeedTasktoID() noexcept { m_TaskNeedData.SetNeedTasktoID(); }
+		void			SetNeedTasktoID() noexcept { this->m_TaskNeedData.SetNeedTasktoID(); }
 		const int		Draw(int xp, int yp, int xsize, int ysize) const noexcept;
 		void			DrawWindow(WindowSystem::WindowControl* window, int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept;
 	};
@@ -350,7 +350,7 @@ namespace FPS_n2 {
 		TaskRewards									finishRewards;
 		std::vector<TaskObjective>					failConditions;
 		TaskRewards									failureOutcome;
-		bool										restartable;
+		bool										restartable{ false };
 		std::vector<std::string>					neededKeys;
 		bool										kappaRequired{ false };
 		bool										lightkeeperRequired{ false };
@@ -366,13 +366,12 @@ namespace FPS_n2 {
 			GetDirList(Path.c_str(), [&](const char* RetPath2) {
 				SetDirList((Path + RetPath2 + "/").c_str());
 			});
-			AddTaskUseID();
 		}
 		~TaskData() noexcept {}
 	private:
 		std::vector<int>	TraderIDs;
-		void			AddTaskUseID() noexcept;
 	public:
+		void			AddTaskUseID() noexcept;
 		void			AfterLoadList() noexcept {
 			for (auto& t : this->m_List) {
 				t.SetNeedTasktoID();

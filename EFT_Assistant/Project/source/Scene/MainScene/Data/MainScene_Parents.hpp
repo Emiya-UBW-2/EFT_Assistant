@@ -116,26 +116,30 @@ namespace FPS_n2 {
 	//
 	template <class ID, class List>
 	class DataParent {
+		std::vector<std::string>	m_ListPathBuffer;
 	protected:
-		std::vector<List>	m_List;
+		std::vector<List>			m_List;
 	protected:
 		void			SetDirList(const char* DirPath) noexcept {
-			std::vector<std::string> DirNames;
-
 			GetDirList(DirPath, [&](const char* RetPath4) {
 				std::string Tmp = RetPath4;
 				auto txtpos = Tmp.find(".txt");
 				if (txtpos != std::string::npos) {
-					DirNames.emplace_back(DirPath + Tmp.substr(0, txtpos));
+					m_ListPathBuffer.emplace_back(DirPath + Tmp.substr(0, txtpos));
 				}
 			});
-			int baseIndex = (int)m_List.size();
-			m_List.resize(baseIndex + DirNames.size());
-			for (auto& d : DirNames) {
-				int index = (int)(&d - &DirNames.front()) + baseIndex;
+		}
+	public:
+		void			SetDataList() noexcept {
+			m_List.resize(m_ListPathBuffer.size());
+			for (auto& d : this->m_ListPathBuffer) {
+				int index = (int)(&d - &m_ListPathBuffer.front());
 				m_List[index].Set((d + ".txt").c_str(), (ID)index, (d + ".png").c_str());
 			}
-			DirNames.clear();
+			m_ListPathBuffer.clear();
+		}
+		void			WaitDataList() noexcept {
+			//‘Ò‚¿
 			while (true) {
 				bool isHit = false;
 				for (auto&t : this->m_List) {
@@ -147,7 +151,6 @@ namespace FPS_n2 {
 				if (!isHit) { break; }
 			}
 		}
-	public:
 		void			LoadList(bool IsPushLog) noexcept {
 			for (auto&t : this->m_List) {
 				t.Load(IsPushLog);
@@ -359,7 +362,7 @@ namespace FPS_n2 {
 	};
 	template <class JsonDataParentT>
 	class JsonListParent {
-		std::vector<std::unique_ptr<JsonDataParent>> m_JsonData;
+		std::vector<std::unique_ptr<JsonDataParent>>	m_JsonData;
 	public:
 		auto&		GetJsonDataList() noexcept { return this->m_JsonData; }
 		void ResetDataJson() {

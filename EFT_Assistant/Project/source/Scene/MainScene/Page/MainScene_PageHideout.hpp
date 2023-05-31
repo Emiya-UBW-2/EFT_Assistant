@@ -48,18 +48,19 @@ namespace FPS_n2 {
 			auto* WindowMngr = WindowSystem::WindowManager::Instance();
 			auto* Input = InputControl::Instance();
 
+			int index = MyLv - 1;
 			auto IdDrew = std::find_if(isDrew.begin(), isDrew.end(), [&](const auto& tgt) {return tgt.first == MyID; });
 			if (IdDrew == isDrew.end()) { return false; }
-			if (IdDrew->second.at(MyLv - 1).IsDrew == true) { return false; }
+			if (IdDrew->second.at(index).IsDrew == true) { return false; }
 			if (MyLv >= 2) {//2以上の時は同施設の前レベが描画されるまで待つ
-				if (IdDrew->second.at(MyLv - 1 - 1).IsDrew == false) { return false; }
+				if (IdDrew->second.at(index - 1).IsDrew == false) { return false; }
 			}
-			IdDrew->second.at(MyLv - 1).IsDrew = true;
-			IdDrew->second.at(MyLv - 1).xpos = xpos;
-			IdDrew->second.at(MyLv - 1).ypos = *ypos;
+			IdDrew->second.at(index).IsDrew = true;
+			IdDrew->second.at(index).xpos = xpos;
+			IdDrew->second.at(index).ypos = *ypos;
 			auto& L = *DataBase::Instance()->GetHideoutData()->FindPtr(MyID);
 			//親が同施設の前レベ以外の時そいつの子にもなれるようにXをずらす
-			for (auto& P : L.GetLvData().at(MyLv - 1).m_Parent) {
+			for (auto& P : L.GetLvData().at(index).m_Parent) {
 				auto IdDrewParent = std::find_if(isDrew.begin(), isDrew.end(), [&](const auto& tgt) {return tgt.first == P.GetID(); });
 				if (IdDrewParent != isDrew.end()) {
 					if (IdDrewParent->second.at(P.GetValue() - 1).IsDrew == true) {
@@ -67,7 +68,7 @@ namespace FPS_n2 {
 					}
 				}
 			}
-			for (auto& P : L.GetLvData().at(MyLv - 1).m_Parent) {
+			for (auto& P : L.GetLvData().at(index).m_Parent) {
 				auto IdDrewParent = std::find_if(isDrew.begin(), isDrew.end(), [&](const auto& tgt) {return tgt.first == P.GetID(); });
 				if (IdDrewParent != isDrew.end()) {
 					if (IdDrewParent->second.at(P.GetValue() - 1).IsDrew == true) {
@@ -107,7 +108,7 @@ namespace FPS_n2 {
 				DrawControl::Instance()->SetDrawRotaFiR(DrawLayer::Normal, xpos + xsize / 2, *ypos + ysize / 2, 1.f, 0.f, true);
 			}
 
-			for (auto& C : L.GetLvData().at(MyLv - 1).m_Child) {
+			for (auto& C : L.GetLvData().at(index).m_Child) {
 				int TmpYPos = *ypos;
 				if (DrawHideoutList(C.GetID(), C.GetValue(), xpos + xsize + y_r(100), &TmpYPos, xsize, ysize)) {
 					*ypos += ysize + y_r(10);
