@@ -42,7 +42,6 @@ namespace FPS_n2 {
 
 			BGBase::Instance()->Init(&this->m_posx, &this->m_posy, &this->m_Scale);
 		}
-
 		bool Update_Sub(void) noexcept override {
 			auto* DataBases = DataBase::Instance();
 			auto* BGs = BGBase::Instance();
@@ -62,7 +61,6 @@ namespace FPS_n2 {
 			}
 			//FirstDoing
 			if (GetIsFirstLoop()) {
-				//SetWindowPosition(-960, 0);//0,0
 				SetWindowPosition(0, 0);//0,0
 			}
 			auto mouse_moveX = Input->GetMouseX();							//ドラッグ前のマウス座標格納

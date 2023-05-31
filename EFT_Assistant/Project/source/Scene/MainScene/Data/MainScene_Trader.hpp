@@ -30,7 +30,7 @@ namespace FPS_n2 {
 			std::string LEFTBuf = LEFT.substr(3);
 			std::string NumBuf2 = LEFT.substr(2, 1);
 			if (std::all_of(NumBuf2.cbegin(), NumBuf2.cend(), isdigit)) {
-				size_t ID = (size_t)(std::stoi(NumBuf2) - 1);
+				size_t ID = (size_t)((int)std::stoi(NumBuf2) - 1);
 				if (m_LvData.size() <= ID) { this->m_LvData.resize(ID + 1); }
 				auto& data = this->m_LvData.at(ID);
 				//開放データ

@@ -51,9 +51,9 @@ namespace FPS_n2 {
 			int index = MyLv - 1;
 			auto IdDrew = std::find_if(isDrew.begin(), isDrew.end(), [&](const auto& tgt) {return tgt.first == MyID; });
 			if (IdDrew == isDrew.end()) { return false; }
-			if (IdDrew->second.at(index).IsDrew == true) { return false; }
+			if (IdDrew->second.at(index).IsDrew) { return false; }
 			if (MyLv >= 2) {//2ˆÈã‚ÌŽž‚Í“¯Ž{Ý‚Ì‘OƒŒƒx‚ª•`‰æ‚³‚ê‚é‚Ü‚Å‘Ò‚Â
-				if (IdDrew->second.at(index - 1).IsDrew == false) { return false; }
+				if (!IdDrew->second.at(index - 1).IsDrew) { return false; }
 			}
 			IdDrew->second.at(index).IsDrew = true;
 			IdDrew->second.at(index).xpos = xpos;
@@ -63,17 +63,19 @@ namespace FPS_n2 {
 			for (auto& P : L.GetLvData().at(index).m_Parent) {
 				auto IdDrewParent = std::find_if(isDrew.begin(), isDrew.end(), [&](const auto& tgt) {return tgt.first == P.GetID(); });
 				if (IdDrewParent != isDrew.end()) {
-					if (IdDrewParent->second.at(P.GetValue() - 1).IsDrew == true) {
-						xpos = std::max(xpos, IdDrewParent->second.at(P.GetValue() - 1).xpos + xsize + y_r(100));
+					auto& Parent = IdDrewParent->second.at(P.GetValue() - 1);
+					if (Parent.IsDrew) {
+						xpos = std::max(xpos, Parent.xpos + xsize + y_r(100));
 					}
 				}
 			}
 			for (auto& P : L.GetLvData().at(index).m_Parent) {
 				auto IdDrewParent = std::find_if(isDrew.begin(), isDrew.end(), [&](const auto& tgt) {return tgt.first == P.GetID(); });
 				if (IdDrewParent != isDrew.end()) {
-					if (IdDrewParent->second.at(P.GetValue() - 1).IsDrew == true) {
-						int start_x = IdDrewParent->second.at(P.GetValue() - 1).xpos + xsize;
-						int start_y = IdDrewParent->second.at(P.GetValue() - 1).ypos + ysize / 2;
+					auto& Parent = IdDrewParent->second.at(P.GetValue() - 1);
+					if (Parent.IsDrew) {
+						int start_x = Parent.xpos + xsize;
+						int start_y = Parent.ypos + ysize / 2;
 
 						int end_x = xpos;
 						int end_y = *ypos + ysize / 2;
@@ -174,8 +176,8 @@ namespace FPS_n2 {
 					int ypBase = ypos;
 					int xp = xpBase;
 					int yp = ypBase;
-					int xsize = (int)((float)y_r(360));
-					int ysize = (int)((float)y_r(32));
+					int xsize = (y_r(360));
+					int ysize = (y_r(32));
 					int xsizeAdd = xsize + y_r(5);
 					int ysizeAdd = ysize + y_r(5);
 

@@ -56,7 +56,7 @@ namespace FPS_n2 {
 
 			int xpos = y_r(40);
 			int ypos = LineHeight + y_r(10) + LineHeight;
-			int ysize = (int)((float)y_r(80));
+			int ysize = (y_r(80));
 
 			int xs = 400;
 			int ScrPosX = y_r(1920 - xs * 3 / 2 - 10) - y_r(80);

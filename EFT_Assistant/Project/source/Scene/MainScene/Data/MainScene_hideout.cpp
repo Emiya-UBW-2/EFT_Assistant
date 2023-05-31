@@ -163,37 +163,38 @@ namespace FPS_n2 {
 		if (std::all_of(NumBuf2.cbegin(), NumBuf2.cend(), isdigit)) {
 			size_t ID = (size_t)(std::stoi(NumBuf2) - 1);
 			if (m_LvData.size() <= ID) { this->m_LvData.resize(ID + 1); }
+			auto& data = this->m_LvData.at(ID);
 			//開放データ
-			if (LEFTBuf == "constructionTime") { this->m_LvData.at(ID).constructionTime = std::stoi(Args[0]); }
-			if (LEFTBuf == "Information_Eng") { this->m_LvData.at(ID).Information_Eng = Args[0]; }
+			if (LEFTBuf == "constructionTime") { data.constructionTime = std::stoi(Args[0]); }
+			if (LEFTBuf == "Information_Eng") { data.Information_Eng = Args[0]; }
 			if (LEFTBuf == "itemReq") {
 				for (auto&a : Args) {
-					SetGetData<ItemGetData>(&m_LvData.at(ID).m_ItemReq, a, "x");
+					SetGetData<ItemGetData>(&data.m_ItemReq, a, "x");
 				}
 			}
 			if (LEFTBuf == "stationLevelReq") {
 				for (auto&a : Args) {
-					SetGetData<HideoutGetData>(&m_LvData.at(ID).m_Parent, a, "x");
+					SetGetData<HideoutGetData>(&data.m_Parent, a, "x");
 				}
 			}
 			if (LEFTBuf == "traderRequirements") {
 				for (auto&a : Args) {
-					SetGetData<TraderGetData>(&m_LvData.at(ID).m_TraderReq, a, "x");
+					SetGetData<TraderGetData>(&data.m_TraderReq, a, "x");
 				}
 			}
 			//クラフトレシピ
 			if (LEFTBuf == "craftduration") {
-				m_LvData.at(ID).m_ItemCraft.resize(m_LvData.at(ID).m_ItemCraft.size() + 1);
-				m_LvData.at(ID).m_ItemCraft.back().durationTime = std::stoi(Args[0]);
+				data.m_ItemCraft.resize(data.m_ItemCraft.size() + 1);
+				data.m_ItemCraft.back().durationTime = std::stoi(Args[0]);
 			}
 			if (LEFTBuf == "craftitemReq") {
 				for (auto&a : Args) {
-					SetGetData<ItemGetData>(&m_LvData.at(ID).m_ItemCraft.back().m_ItemReq, a, "x");
+					SetGetData<ItemGetData>(&data.m_ItemCraft.back().m_ItemReq, a, "x");
 				}
 			}
 			if (LEFTBuf == "craftitemReward") {
 				for (auto&a : Args) {
-					SetGetData<ItemGetData>(&m_LvData.at(ID).m_ItemCraft.back().m_ItemReward, a, "x");
+					SetGetData<ItemGetData>(&data.m_ItemCraft.back().m_ItemReward, a, "x");
 				}
 			}
 		}
@@ -222,6 +223,7 @@ namespace FPS_n2 {
 	}
 
 	const int		HideoutList::Draw(int xp, int yp, int xsize, int ysize, int Lv, unsigned int defaultcolor, bool Clickactive) noexcept {
+		auto& LvData = m_LvData.at(Lv - 1);
 		auto* WindowMngr = WindowSystem::WindowManager::Instance();
 		auto* Input = InputControl::Instance();
 		int xs = xsize;
@@ -242,13 +244,13 @@ namespace FPS_n2 {
 				int Lvbuf = 0;
 				while (true) {
 					if (Lv > 0) {
-						Xsize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, "%s Lv%1d", Name.c_str(), Lv);
+						Xsize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, Name + " Lv%1d", Lv);
 					}
 					else {
-						Xsize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, "%s", Name.c_str());
+						Xsize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, Name);
 					}
 					if ((xs - xg) < Xsize) {
-						Name = Name.substr(0, Name.size() * (xs - xg) / Xsize - 2) + "…";
+						Name = Name.substr(0, (size_t)((int)(Name.size()) * (xs - xg) / Xsize - 2)) + "…";
 					}
 					else {
 						break;
@@ -263,16 +265,16 @@ namespace FPS_n2 {
 			}
 			else {
 				if (Lv > 0) {
-					Xsize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, "%s Lv%1d", Name.c_str(), Lv);
+					Xsize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, Name + " Lv%1d", Lv);
 				}
 				else {
-					Xsize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, "%s", Name.c_str());
+					Xsize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, Name);
 				}
 			}
 			xs = std::max(xs, Xsize);
 		}
 
-		if (m_LvData.at(Lv - 1).m_ItemCraft.size() > 0) {
+		if (LvData.m_ItemCraft.size() > 0) {
 			defaultcolor = Green;//クラフトできるアイテムがあります//ビットコインは除外？
 		}
 
@@ -288,7 +290,7 @@ namespace FPS_n2 {
 				DrawCraftWindow(nullptr, 0, Lv, 0, 0, &sizeXBuf, &sizeYBuf, 100);//試しにサイズ計測
 			}
 			//
-			signed long long FreeID = GetID() + 0xFFFF;
+			signed long long FreeID = (signed long long)GetID() + 0xFFFF;
 			//同じIDの奴いたら消そうぜ
 			WindowMngr->DeleteAll();
 			bool isHit = false;
@@ -310,11 +312,7 @@ namespace FPS_n2 {
 				}
 				else {
 					NameTmp += " Craft";
-
-					int ysizet = (int)((float)y_r(64));
-					int Max = (int)(m_LvData.at(Lv - 1).m_ItemCraft.size());
-					auto Total = (ysizet + y_r(5))*(int)(Max);
-
+					auto Total = (y_r(64) + y_r(5))*(int)(LvData.m_ItemCraft.size());
 					WindowMngr->Add()->Set(y_r(960) - sizeXBuf / 2, LineHeight + y_r(10), sizeXBuf, sizeYBuf, Total, NameTmp.c_str(), false, true, FreeID, [&](WindowSystem::WindowControl* win) {
 						DataBase::Instance()->GetHideoutData()->FindPtr((HideoutID)(win->m_FreeID - 0xFFFF))->DrawCraftWindow(win, Gray10, this->m_DrawWindowLv, win->GetPosX(), win->GetPosY());
 					});
@@ -323,10 +321,10 @@ namespace FPS_n2 {
 		}
 		{
 			if (Lv > 0) {
-				WindowSystem::SetMsg(xp + FirSize, yp, xp + FirSize, yp + ysize, LineHeight * 9 / 10, STRX_LEFT, White, Black, "%s Lv%1d", Name.c_str(), Lv);
+				WindowSystem::SetMsg(xp + FirSize, yp, xp + FirSize, yp + ysize, LineHeight * 9 / 10, STRX_LEFT, White, Black, Name + " Lv%1d", Lv);
 			}
 			else {
-				WindowSystem::SetMsg(xp + FirSize, yp, xp + FirSize, yp + ysize, LineHeight * 9 / 10, STRX_LEFT, White, Black, "%s", Name.c_str());
+				WindowSystem::SetMsg(xp + FirSize, yp, xp + FirSize, yp + ysize, LineHeight * 9 / 10, STRX_LEFT, White, Black, Name);
 			}
 		}
 		if (GetIcon().GetGraph()) {
@@ -353,12 +351,13 @@ namespace FPS_n2 {
 		}
 		if (Lv >= 1) {
 			int yofs_OLD = yofs;
-			int ysize = (int)((float)y_r(80));
-			if (m_LvData.at(Lv - 1).m_ItemReq.size() > 0) {
+			int ysize = (y_r(80));
+			auto& LvData = m_LvData.at(Lv - 1);
+			if (LvData.m_ItemReq.size() > 0) {
 				int xofs_buf = xofs + y_r(10);
 				int yofs_buf = yofs_OLD;
 				{
-					for (const auto& I : this->m_LvData.at(Lv - 1).m_ItemReq) {
+					for (const auto& I : LvData.m_ItemReq) {
 						auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(I.GetID());
 						if (ptr) {
 							xofs_buf = xofs + y_r(10);
@@ -375,11 +374,11 @@ namespace FPS_n2 {
 				xofs = std::max(xofs, xofs_buf + y_r(10));
 				yofs = std::max(yofs, yofs_buf + y_r(10));
 			}
-			if (m_LvData.at(Lv - 1).m_Parent.size() > 0) {
+			if (LvData.m_Parent.size() > 0) {
 				int xofs_buf = xofs + y_r(10);
 				int yofs_buf = yofs_OLD;
 				{
-					for (const auto& I : this->m_LvData.at(Lv - 1).m_Parent) {
+					for (const auto& I : LvData.m_Parent) {
 						auto* ptr = DataBase::Instance()->GetHideoutData()->FindPtr(I.GetID());
 						if (ptr) {
 							xofs_buf = xofs + y_r(10);
@@ -396,11 +395,11 @@ namespace FPS_n2 {
 				xofs = std::max(xofs, xofs_buf + y_r(10));
 				yofs = std::max(yofs, yofs_buf + y_r(10));
 			}
-			if (m_LvData.at(Lv - 1).m_TraderReq.size() > 0) {
+			if (LvData.m_TraderReq.size() > 0) {
 				int xofs_buf = xofs + y_r(10);
 				int yofs_buf = yofs_OLD;
 				{
-					for (const auto& I : this->m_LvData.at(Lv - 1).m_TraderReq) {
+					for (const auto& I : LvData.m_TraderReq) {
 						auto* ptr = DataBase::Instance()->GetTraderData()->FindPtr(I.GetID());
 						if (ptr) {
 							xofs_buf = xofs + y_r(10);
@@ -427,7 +426,7 @@ namespace FPS_n2 {
 				int xofs_buf = xofs + y_r(10);
 				int yofs_buf = yofs_OLD;
 				xofs_buf += WindowSystem::SetMsg(xp + xofs_buf, yp + yofs_buf, xp + 0, yp + yofs_buf + ysize, LineHeight * 9 / 10, STRX_LEFT, White, Black,
-					"%01d:%02d:%02d", (m_LvData.at(Lv - 1).constructionTime / 60 / 60), (m_LvData.at(Lv - 1).constructionTime / 60) % 60, this->m_LvData.at(Lv - 1).constructionTime % 60);
+					"%01d:%02d:%02d", (LvData.constructionTime / 60 / 60), (LvData.constructionTime / 60) % 60, LvData.constructionTime % 60);
 				xofs_buf += y_r(30);
 
 				xofs = std::max(xofs, xofs_buf + y_r(10));
@@ -457,17 +456,18 @@ namespace FPS_n2 {
 			yofs += LineHeight;
 		}
 		if (Lv >= 1) {
-			if (m_LvData.at(Lv - 1).m_ItemCraft.size() > 0) {
+			auto& LvData = m_LvData.at(Lv - 1);
+			if (LvData.m_ItemCraft.size() > 0) {
 				int xofs_buf = y_r(10);
-				int ysize = (int)((float)y_r(64));
+				int ysize = (y_r(64));
 
-				int Max = (int)(m_LvData.at(Lv - 1).m_ItemCraft.size());
+				int Max = (int)(LvData.m_ItemCraft.size());
 				int ofset = (window) ? (int)(window->GetNowScrollPer()*std::max(0, Max - 10 + 1)) : 0;
 
 				auto OLD = yofs;
 				for (int loop = 0; loop < std::min(size, Max - ofset); loop++) {
 					int index = loop + ofset;
-					const auto& cf = this->m_LvData.at(Lv - 1).m_ItemCraft[index];
+					const auto& cf = LvData.m_ItemCraft[index];
 					xofs_buf = y_r(10);
 					{
 						for (const auto& I : cf.m_ItemReq) {

@@ -161,7 +161,7 @@ namespace FPS_n2 {
 						StrXSize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, "%s", Name.c_str());
 					}
 					if ((xs - (GraphXsize + FirXSize)) < StrXSize) {
-						Name = Name.substr(0, Name.size() * (xs - (GraphXsize + FirXSize)) / StrXSize - 2) + "…";
+						Name = Name.substr(0, (size_t)((int)(Name.size()) * (xs - (GraphXsize + FirXSize)) / StrXSize - 2)) + "…";
 					}
 					else {
 						break;
@@ -210,7 +210,7 @@ namespace FPS_n2 {
 			auto sizeYBuf = y_r(0);
 			DrawWindow(nullptr, 0, 0, 0, &sizeXBuf, &sizeYBuf);//試しにサイズ計測
 			//
-			signed long long FreeID = GetID() + 0xFFFF;
+			signed long long FreeID = (signed long long)GetID() + 0xFFFF;
 			//同じIDの奴いたら消そうぜ
 			int Size = (int)WindowMngr->Get().size();
 			bool isHit = false;
@@ -428,7 +428,7 @@ namespace FPS_n2 {
 				for (auto&L : DataBase::Instance()->GetHideoutData()->SetList()) {
 					for (const auto& Ld : L.GetLvData()) {
 						int xofs_buf = y_r(10);
-						int ysize = (int)((float)y_r(64));
+						int ysize = (y_r(64));
 
 						for (const auto& cf : Ld.m_ItemCraft) {
 							bool isHit = false;
@@ -477,7 +477,7 @@ namespace FPS_n2 {
 				for (auto&L : DataBase::Instance()->GetHideoutData()->SetList()) {
 					for (const auto& Ld : L.GetLvData()) {
 						int xofs_buf = y_r(10);
-						int ysize = (int)((float)y_r(64));
+						int ysize = (y_r(64));
 
 						for (const auto& cf : Ld.m_ItemCraft) {
 							bool isHit = false;
@@ -534,7 +534,7 @@ namespace FPS_n2 {
 				for (auto&L : DataBase::Instance()->GetTraderData()->SetList()) {
 					for (const auto& Ld : L.GetLvData()) {
 						int xofs_buf = y_r(10);
-						int ysize = (int)((float)y_r(64));
+						int ysize = (y_r(64));
 
 						for (const auto& cf : Ld.m_ItemBarters) {
 							bool isHit = false;
@@ -586,7 +586,7 @@ namespace FPS_n2 {
 				for (auto&L : DataBase::Instance()->GetTraderData()->SetList()) {
 					for (const auto& Ld : L.GetLvData()) {
 						int xofs_buf = y_r(10);
-						int ysize = (int)((float)y_r(64));
+						int ysize = (y_r(64));
 
 						for (const auto& cf : Ld.m_ItemBarters) {
 							bool isHit = false;
@@ -656,7 +656,7 @@ namespace FPS_n2 {
 				if (this->GetChildParts().size() > 0) {
 					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STRX_LEFT, White, Black, "ChildrenMods:") + y_r(30)); yofs += LineHeight + y_r(5);
 				}
-				int ysize = (int)((float)y_r(42));
+				int ysize = (y_r(42));
 				for (const auto& cp : this->GetChildParts()) {
 					for (const auto& c : cp.m_Data) {
 						auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(c.GetID());

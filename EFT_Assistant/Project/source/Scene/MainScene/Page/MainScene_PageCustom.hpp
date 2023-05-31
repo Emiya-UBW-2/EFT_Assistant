@@ -537,17 +537,18 @@ namespace FPS_n2 {
 	public:
 		void SetSubparam(int WeaponID, int PresetID) noexcept {
 			m_SelectBuffer = WeaponID;
-			m_BaseWeapon = (m_SelectBuffer != InvalidID) ? DataBase::Instance()->GetItemData()->FindPtr(m_SelectBuffer) : nullptr;
 			m_SelectPreset = PresetID;
+			m_BaseWeapon = DataBase::Instance()->GetItemData()->FindPtr(m_SelectBuffer);
+			if (m_BaseWeapon) {
+				m_ItemIDs.at(0).first = this->m_BaseWeapon->GetTypeID();
+				m_ItemIDs.at(0).second = true;
 
-			m_ItemIDs.at(0).first = this->m_BaseWeapon->GetTypeID();
-			m_ItemIDs.at(0).second = true;
+				m_ItemIDs.at(1).first = this->m_SelectBuffer;
+				m_ItemIDs.at(1).second = true;
 
-			m_ItemIDs.at(1).first = this->m_SelectBuffer;
-			m_ItemIDs.at(1).second = true;
-
-			m_ItemIDs.at(2).first = this->m_SelectPreset;
-			m_ItemIDs.at(2).second = true;
+				m_ItemIDs.at(2).first = this->m_SelectPreset;
+				m_ItemIDs.at(2).second = true;
+			}
 		}
 	private:
 		void Init_Sub(int *posx, int *posy, float* Scale) noexcept override {

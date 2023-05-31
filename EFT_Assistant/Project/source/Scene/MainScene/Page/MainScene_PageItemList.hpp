@@ -76,7 +76,7 @@ namespace FPS_n2 {
 							auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(ID);
 							if (ptr) {
 								auto& Types = Counter.at(ptr->GetTypeID());
-								auto Find = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == ID) && (obj.isFir == true); });
+								auto Find = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == ID) && (obj.isFir); });
 								if (Find != Types.end()) {
 									Find->count += w.GetValue();
 								}
@@ -95,7 +95,7 @@ namespace FPS_n2 {
 							auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(ID);
 							if (ptr) {
 								auto& Types = Counter.at(ptr->GetTypeID());
-								auto Find = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == ID) && (obj.isFir == false); });
+								auto Find = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == ID) && (!obj.isFir); });
 								if (Find != Types.end()) {
 									Find->count += w.GetValue();
 								}
@@ -115,12 +115,12 @@ namespace FPS_n2 {
 								auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(ID);
 								if (ptr) {
 									auto& Types = Counter.at(ptr->GetTypeID());
-									auto Find = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == ID) && (obj.isNeed == true); });
+									auto Find = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == ID) && (obj.isNeed); });
 									if (Find != Types.end()) {
 										Find->count += w.GetValue();
 									}
 									else {
-										auto Find2 = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == ID) && (obj.isNeed == false); });
+										auto Find2 = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == ID) && (!obj.isNeed); });
 										if (Find2 == Types.end()) {
 											counts tmp;
 											tmp.m_ID = ID;
@@ -157,7 +157,7 @@ namespace FPS_n2 {
 								auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(ID);
 								if (ptr) {
 									auto& Types = Counter.at(ptr->GetTypeID());
-									auto Find = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == ID) && (obj.isFir == false) && (obj.isNeed == false); });
+									auto Find = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == ID) && (!obj.isFir) && (!obj.isNeed); });
 									if (Find != Types.end()) {
 										Find->count += w.GetValue();
 									}
@@ -181,8 +181,8 @@ namespace FPS_n2 {
 					int xp = xpBase;
 					int yp = ypBase;
 					int ypMax = (y_r(1080) - y_r(240));
-					int xsize = (int)((float)y_r(600));
-					int ysize = (int)((float)y_r(64));
+					int xsize = (y_r(600));
+					int ysize = (y_r(64));
 					int xsizeAdd = xsize + y_r(30);
 					int ysizeAdd = ysize + y_r(5);
 					for (auto& Cat : DataBase::Instance()->GetItemCategoryData()->GetList()) {

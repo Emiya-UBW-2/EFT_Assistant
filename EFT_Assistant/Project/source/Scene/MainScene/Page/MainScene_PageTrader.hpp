@@ -38,7 +38,7 @@ namespace FPS_n2 {
 					int xp = y_r(460);
 					int yp = LineHeight + y_r(50) + y_r(100);
 
-					int ysize = (int)((float)y_r(48));
+					int ysize = (y_r(48));
 					int ysizeAdd = ysize + y_r(5);
 					int yofs = LineHeight;
 
