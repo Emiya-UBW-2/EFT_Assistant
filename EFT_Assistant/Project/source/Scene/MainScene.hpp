@@ -9,12 +9,20 @@ namespace FPS_n2 {
 		float														m_Scale{ 0.6f };
 		//
 		float														m_NoneActiveTimes{ 0.f };
+
+		bool														m_IsPull{ false };
+
+		bool														m_IsPullRight{ false };
 		bool														m_IsPullDown{ false };
+		float														m_PullRight{ 1.f };
 		float														m_PullDown{ 1.f };
 		//
 		bool														m_Loading{ false };
 		//
 		bool														m_WindowMove{ false };
+		bool														m_DrawLog{ false };
+	private:
+		bool IsOpen() const noexcept { return(this->m_PullDown >= 1.f); }
 	public:
 		void Load_Sub(void) noexcept override {
 			//パーツ
@@ -71,7 +79,7 @@ namespace FPS_n2 {
 			//ドラッグ開始時の処理
 			if (Input->GetMiddleClick().press()) {
 				if (Input->GetMiddleClick().trigger()) {
-					m_WindowMove = ((m_PullDown >= 1.f) && in2_(Input->GetMouseX(), Input->GetMouseY(), 0, 0, y_r(1920), LineHeight));
+					m_WindowMove = (IsOpen() && in2_(Input->GetMouseX(), Input->GetMouseY(), 0, 0, y_r(1920), LineHeight));
 				}
 				if (m_WindowMove) {
 					int start_windowX = 0, start_windowY = 0;
@@ -131,7 +139,7 @@ namespace FPS_n2 {
 				}
 				else {
 					m_NoneActiveTimes = 0.f;
-					m_IsPullDown = true;
+					m_IsPull = true;
 				}
 			}
 			else {
@@ -143,25 +151,47 @@ namespace FPS_n2 {
 				int Xmin = y_r(320);
 				int Ymin = LineHeight;
 
-				Easing(&m_PullDown, !m_IsPullDown ? 1.f : 0.f, 0.8f, EasingType::OutExpo);
-				if (m_PullDown >= 0.95f) { this->m_PullDown = 1.f; }
-				if (m_PullDown <= 0.05f) { this->m_PullDown = 0.f; }
-				int Xwin = (int)(Lerp((float)Xmin, (float)DrawParts->m_DispXSize, this->m_PullDown));
+				if (!m_IsPull) {
+					m_IsPullRight = false;
+				}
+				else {
+					m_IsPullDown = true;
+				}
+				Easing(&this->m_PullRight, !m_IsPullRight ? 1.f : 0.f, 0.8f, EasingType::OutExpo);
+				if (this->m_PullRight >= 0.99f) { this->m_PullRight = 1.f; }
+				Easing(&this->m_PullDown, !m_IsPullDown ? 1.f : 0.f, 0.8f, EasingType::OutExpo);
+				if (this->m_PullDown >= 0.95f) { this->m_PullDown = 1.f; }
+
+				if (this->m_PullRight >= 0.99f) { if (!m_IsPull) { m_IsPullDown = false; } }
+				if (this->m_PullDown <= 0.01f) {
+					if (!m_IsPullRight) {
+						int start_windowX = 0, start_windowY = 0;
+						GetWindowPosition(&start_windowX, &start_windowY);			//ウィンドウの位置を格納
+						start_windowX = std::clamp(start_windowX, 0, 1920);
+						start_windowY = std::clamp(start_windowY, 0, 1080 - 100);
+						SetWindowPosition(start_windowX, start_windowY);			//ウィンドウを動かす
+					}
+
+					if (m_IsPull) { m_IsPullRight = true; }
+				}
+
+				int Xwin = (int)(Lerp((float)Xmin, (float)DrawParts->m_DispXSize, this->m_PullRight));
 				int Ywin = (int)(Lerp((float)Ymin, (float)DrawParts->m_DispYSize, this->m_PullDown));
 				int DieCol = std::clamp((int)(Lerp(1.f, 128.f, this->m_NoneActiveTimes / 5.f)), 0, 255);
 
 				DrawControl::Instance()->SetDrawBox(DrawLayer::BackGround, 0, 0, Xwin, Ywin, Gray75, TRUE);
-				if (m_PullDown >= 1.f) {
+				if (IsOpen()) {
 					//Back
 					BGs->Draw_Back(this->m_posx, this->m_posy, this->m_Scale);
 					WindowMngr->Draw();
 				}
 				WindowSystem::SetBox(0, 0, Xwin, LineHeight, GetColor(DieCol, DieCol, DieCol));				//タイトルバック
 				//展開
-				if (WindowSystem::ClickCheckBox(0, 0, Xmin, Ymin, false, true, Gray25, !m_IsPullDown ? "折りたたむ" : "展開")) { this->m_IsPullDown ^= 1; }
-				if (m_PullDown >= 1.f) {
+				if (WindowSystem::ClickCheckBox(0, 0, Xmin, Ymin, false, true, Gray25, !m_IsPull ? "折りたたむ" : "展開")) { this->m_IsPull ^= 1; }
+				if (IsOpen()) {
 					//タイトル
 					if (WindowSystem::ClickCheckBox(Xmin + y_r(10), 0, Xmin + y_r(230), LineHeight, false, true, Gray25, "全窓を閉じる")) { WindowMngr->DeleteAll(); }
+					if (WindowSystem::ClickCheckBox(Xmin + y_r(240), 0, Xmin + y_r(460), LineHeight, false, true, Gray25, "ログ表示")) { m_DrawLog ^= 1; }
 					WindowSystem::SetMsg(0, 0, DrawParts->m_DispXSize, Ymin, LineHeight, STRX_MID, White, Black, "EFT Assistant");
 					WindowSystem::SetMsg(y_r(1280), LineHeight * 1 / 10, y_r(1280), LineHeight, LineHeight * 8 / 10, STRX_LEFT, White, Black, "ver %d.%d.%d", 0, 3, 2);
 					WindowSystem::SetMsg(0, Ymin + LineHeight * 1 / 10, DrawParts->m_DispXSize, Ymin + LineHeight, LineHeight * 8 / 10, STRX_MID, White, Black, "最終更新:%s", PlayerData::Instance()->GetLastDataReceive().c_str());
@@ -170,7 +200,9 @@ namespace FPS_n2 {
 					BGs->DrawFront(this->m_posx, this->m_posy, this->m_Scale);
 					DrawControl::Instance()->SetDrawCircle(DrawLayer::Front, DrawParts->m_DispXSize, DrawParts->m_DispYSize, y_r(100), TransColor, TRUE);					//中央位置回避のための小円
 				}
-				DataErrorLog::Instance()->Draw();
+				if (m_DrawLog) {
+					DataErrorLog::Instance()->Draw();
+				}
 				if (GetASyncLoadNum() > 0) {
 					WindowSystem::SetMsg(0, DrawParts->m_DispYSize - LineHeight, y_r(0), DrawParts->m_DispYSize, LineHeight, STRX_LEFT, White, Black, "Loading...");
 				}
