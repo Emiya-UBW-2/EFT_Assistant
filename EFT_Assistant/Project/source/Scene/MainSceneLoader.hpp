@@ -19,9 +19,8 @@ namespace FPS_n2 {
 	public:
 		//UI•\Ž¦
 		void DrawUI_In_Sub(void) noexcept  override {
-			DrawBox(0, 0, y_r(1920), y_r(1080), GetColor(1, 1, 1), TRUE);
-			FontPool::Instance()->Get(FontPool::FontType::Nomal_Edge, y_r(64)).DrawString(-1, FontHandle::FontXCenter::MIDDLE, FontHandle::FontYCenter::MIDDLE,
-				y_r(960), y_r(540), GetColor(255, 255, 255), GetColor(1, 1, 1), "‹N“®’†...");
+			DrawBox(0, 0, y_r(1920), y_r(1080), Black, TRUE);
+			FontPool::Instance()->Get(FontPool::FontType::Nomal_Edge, y_r(64)).DrawString(-1, STRX_MID, STRY_MIDDLE, y_r(960), y_r(540), White, Black, "‹N“®’†...");
 		}
 	};
 };

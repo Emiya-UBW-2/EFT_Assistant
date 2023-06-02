@@ -58,6 +58,17 @@
     <ClCompile Include="source\Scene\MainScene\Data\MainScene_Preset.cpp" />
     <ClCompile Include="source\Scene\MainScene\Data\MainScene_Task.cpp" />
     <ClCompile Include="source\Scene\MainScene\Data\MainScene_Trader.cpp" />
+    <ClCompile Include="source\Scene\MainScene\Page\MainScene_PageBase.cpp" />
+    <ClCompile Include="source\Scene\MainScene\Page\MainScene_PageCustom.cpp" />
+    <ClCompile Include="source\Scene\MainScene\Page\MainScene_PageHideout.cpp" />
+    <ClCompile Include="source\Scene\MainScene\Page\MainScene_PageItem.cpp" />
+    <ClCompile Include="source\Scene\MainScene\Page\MainScene_PageItemList.cpp" />
+    <ClCompile Include="source\Scene\MainScene\Page\MainScene_PageMap.cpp" />
+    <ClCompile Include="source\Scene\MainScene\Page\MainScene_PageParents.cpp" />
+    <ClCompile Include="source\Scene\MainScene\Page\MainScene_PagePlayerInfo.cpp" />
+    <ClCompile Include="source\Scene\MainScene\Page\MainScene_PageTask.cpp" />
+    <ClCompile Include="source\Scene\MainScene\Page\MainScene_PageTitle.cpp" />
+    <ClCompile Include="source\Scene\MainScene\Page\MainScene_PageTrader.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

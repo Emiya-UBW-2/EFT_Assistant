@@ -22,6 +22,13 @@ namespace FPS_n2 {
 	static const unsigned int Black{ GetColor(1, 1, 1) };
 	static const unsigned int TransColor{ GetColor(0, 0, 0) };
 	//
+	static const auto STRX_LEFT{ FontHandle::FontXCenter::LEFT };
+	static const auto STRX_MID{ FontHandle::FontXCenter::MIDDLE };
+	static const auto STRX_RIGHT{ FontHandle::FontXCenter::RIGHT };
+	static const auto STRY_TOP{ FontHandle::FontYCenter::TOP };
+	static const auto STRY_MIDDLE{ FontHandle::FontYCenter::MIDDLE };
+	static const auto STRY_BOTTOM{ FontHandle::FontYCenter::BOTTOM };
+	//
 	namespace WindowSystem {
 		//箱
 		static void SetBox(int xp1, int yp1, int xp2, int yp2, unsigned int colorSet) {
@@ -42,22 +49,22 @@ namespace FPS_n2 {
 			int ypos = yp1 + (yp2 - yp1) / 2;
 			if ((ypos - size / 2) > DrawParts->m_DispYSize || (ypos + size / 2) < 0) { return 0; }				//画面外は表示しない
 			switch (FontX) {
-			case FontHandle::FontXCenter::LEFT:
+			case STRX_LEFT:
 				xpos = xp1 + y_r(6);
 				if ((xpos) > DrawParts->m_DispXSize || (xpos + xSize) < 0) { return 0; }						//画面外は表示しない
 				break;
-			case FontHandle::FontXCenter::MIDDLE:
+			case STRX_MID:
 				xpos = xp1 + (xp2 - xp1) / 2;
 				if ((xpos - xSize / 2) > DrawParts->m_DispXSize || (xpos + xSize / 2) < 0) { return 0; }		//画面外は表示しない
 				break;
-			case FontHandle::FontXCenter::RIGHT:
+			case STRX_RIGHT:
 				xpos = xp2 - y_r(6);
 				if ((xpos - xSize) > DrawParts->m_DispXSize || (xpos) < 0) { return 0; }						//画面外は表示しない
 				break;
 			default:
 				break;
 			}
-			DrawControl::Instance()->SetString(DrawLayer::Normal, FontPool::FontType::Nomal_Edge, size, FontX, FontHandle::FontYCenter::MIDDLE, xpos, ypos, Color, EdleColor, ((std::string)String).c_str(), args...);
+			DrawControl::Instance()->SetString(DrawLayer::Normal, FontPool::FontType::Nomal_Edge, size, FontX, STRY_MIDDLE, xpos, ypos, Color, EdleColor, ((std::string)String).c_str(), args...);
 			return xSize;//エッジ分
 		};
 		//
@@ -85,7 +92,7 @@ namespace FPS_n2 {
 				SetCursor(hCursor);
 			}
 			SetBox(xp1, yp1, xp2, yp2, color);
-			SetMsg(xp1, yp1, xp2, yp2, std::min(LineHeight, yp2 - yp1) - y_r(6), FontHandle::FontXCenter::MIDDLE, White, Black, String, args...);
+			SetMsg(xp1, yp1, xp2, yp2, std::min(LineHeight, yp2 - yp1) - y_r(6), STRX_MID, White, Black, String, args...);
 			return isHit;
 		};
 
@@ -106,7 +113,7 @@ namespace FPS_n2 {
 				SetCursor(hCursor);
 			}
 			DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xp3 + EdgeSize, yp3 + EdgeSize, xp4 - EdgeSize, yp4 - EdgeSize, color, true);
-			WindowSystem::SetMsg(xp3, yp3, xp4, yp4, LineHeight - EdgeSize * 2 - y_r(6), FontHandle::FontXCenter::MIDDLE, White, Black, "X");
+			WindowSystem::SetMsg(xp3, yp3, xp4, yp4, LineHeight - EdgeSize * 2 - y_r(6), STRX_MID, White, Black, "X");
 			return ans;
 		}
 
@@ -146,7 +153,7 @@ namespace FPS_n2 {
 				*value = std::min(*value + 1, valueMax);
 			}
 			xp = (xmin + (xmax - xmin) / 2);
-			WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, FontHandle::FontXCenter::MIDDLE, White, Black, "%03d", *value);
+			WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_MID, White, Black, "%03d", *value);
 			xp = xmin;
 			if (WindowSystem::ClickCheckBox(xp, yp, xp + LineHeight, yp + LineHeight, true, true, Gray25, "▽")) {
 				*value = std::max(*value - 1, valueMin);
@@ -290,7 +297,7 @@ namespace FPS_n2 {
 				this->m_TotalSizeY = Totalsizey;
 				this->m_TabName = tabName;
 
-				int widthLimit = SetMsg(0, 0, 0, 0 + LineHeight, LineHeight - y_r(6), FontHandle::FontXCenter::LEFT, White, Black, this->m_TabName) + EdgeSize * 2 + LineHeight * 2;
+				int widthLimit = SetMsg(0, 0, 0, 0 + LineHeight, LineHeight - y_r(6), STRX_LEFT, White, Black, this->m_TabName) + EdgeSize * 2 + LineHeight * 2;
 				this->m_SizeX = std::max(this->m_SizeX, widthLimit);
 
 				this->m_CanChageSize = canChageSize;
@@ -332,7 +339,7 @@ namespace FPS_n2 {
 					int xp3 = this->m_PosX + this->m_SizeX - LineHeight - LineHeight;
 					unsigned int color = Gray25;
 					SetBox(xp1, yp1, xp2, yp1 + LineHeight, color);
-					widthLimit = SetMsg(xp1, yp1, xp3, yp1 + LineHeight, LineHeight - y_r(6), FontHandle::FontXCenter::LEFT, White, Black, this->m_TabName) + EdgeSize * 2 + LineHeight * 2;
+					widthLimit = SetMsg(xp1, yp1, xp3, yp1 + LineHeight, LineHeight - y_r(6), STRX_LEFT, White, Black, this->m_TabName) + EdgeSize * 2 + LineHeight * 2;
 				}
 				//最大化ボタン
 				if (m_CanChageSize) {
@@ -368,7 +375,7 @@ namespace FPS_n2 {
 						SetCursor(hCursor);
 					}
 					DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xp3 + EdgeSize, yp3 + EdgeSize, xp4 - EdgeSize, yp4 - EdgeSize, color, TRUE);
-					SetMsg(xp3, yp3, xp4, yp4, LineHeight - EdgeSize * 2 - y_r(6), FontHandle::FontXCenter::MIDDLE, White, Black, !this->m_isMaxSize ? "□" : "ﾛ");
+					SetMsg(xp3, yp3, xp4, yp4, LineHeight - EdgeSize * 2 - y_r(6), STRX_MID, White, Black, !this->m_isMaxSize ? "□" : "ﾛ");
 				}
 				//×ボタン
 				if (this->m_CanPressXButton) {
@@ -705,13 +712,6 @@ namespace FPS_n2 {
 		};
 	};
 	//
-	static const auto STRX_LEFT{ FontHandle::FontXCenter::LEFT };
-	static const auto STRX_MID{ FontHandle::FontXCenter::MIDDLE };
-	static const auto STRX_RIGHT{ FontHandle::FontXCenter::RIGHT };
-	static const auto STRY_TOP{ FontHandle::FontYCenter::TOP };
-	static const auto STRY_MIDDLE{ FontHandle::FontYCenter::MIDDLE };
-	static const auto STRY_BOTTOM{ FontHandle::FontYCenter::BOTTOM };
-	//
 	class DataErrorLog : public SingletonBase<DataErrorLog> {
 	private:
 		friend class SingletonBase<DataErrorLog>;
@@ -727,7 +727,7 @@ namespace FPS_n2 {
 			int xp = 0;
 			int yp = LineHeight;
 			for (auto& m : this->m_Mes) {
-				WindowSystem::SetMsg(xp, yp, xp, yp, LineHeight * 7 / 10, STRX_LEFT, GetColor(255, 150, 150), GetColor(1, 1, 1), m);
+				WindowSystem::SetMsg(xp, yp, xp, yp, LineHeight * 7 / 10, STRX_LEFT, GetColor(255, 150, 150), Black, m);
 				yp += LineHeight * 7 / 10;
 				if (yp > y_r(1080)) { break; }
 			}

@@ -164,5 +164,38 @@
     <ClCompile Include="source\Scene\MainScene\Data\MainScene_Preset.cpp">
       <Filter>ソース ファイル\Scene\Data</Filter>
     </ClCompile>
+    <ClCompile Include="source\Scene\MainScene\Page\MainScene_PageItemList.cpp">
+      <Filter>ソース ファイル\Scene\Page</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene\MainScene\Page\MainScene_PageMap.cpp">
+      <Filter>ソース ファイル\Scene\Page</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene\MainScene\Page\MainScene_PageParents.cpp">
+      <Filter>ソース ファイル\Scene\Page</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene\MainScene\Page\MainScene_PagePlayerInfo.cpp">
+      <Filter>ソース ファイル\Scene\Page</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene\MainScene\Page\MainScene_PageTask.cpp">
+      <Filter>ソース ファイル\Scene\Page</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene\MainScene\Page\MainScene_PageTitle.cpp">
+      <Filter>ソース ファイル\Scene\Page</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene\MainScene\Page\MainScene_PageTrader.cpp">
+      <Filter>ソース ファイル\Scene\Page</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene\MainScene\Page\MainScene_PageBase.cpp">
+      <Filter>ソース ファイル\Scene\Page</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene\MainScene\Page\MainScene_PageCustom.cpp">
+      <Filter>ソース ファイル\Scene\Page</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene\MainScene\Page\MainScene_PageHideout.cpp">
+      <Filter>ソース ファイル\Scene\Page</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene\MainScene\Page\MainScene_PageItem.cpp">
+      <Filter>ソース ファイル\Scene\Page</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
