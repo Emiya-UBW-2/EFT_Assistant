@@ -11,7 +11,7 @@ Sell_Fence=7732
 Sell_Skier=9472
 Sell_Peacekeeper=72
 Sell_Mechanic=10825
-Sell_Flea Market=20000
+Sell_Flea Market=21000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -35,4 +35,14 @@ ChildParts=[
 	SKS Hexagon 7.62x39 sound suppressor
 ]
 Recoil=155.000000
+RecoilHorizontal=400.000000
 Ergonomics=40.000000
+FireRate=40
+centerOfImpact=0.050000
+deviationCurve=1.350000
+recoilDispersion=10
+recoilAngle=90
+cameraRecoil=0.086400
+cameraSnap=2.500000
+deviationMax=23
+convergence=1.300000

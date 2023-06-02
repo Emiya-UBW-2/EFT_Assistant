@@ -10,6 +10,6 @@ Sell_Prapor=2500
 Sell_Therapist=3150
 Sell_Fence=2000
 Sell_Jaeger=3000
-Sell_Flea Market=23000
+Sell_Flea Market=19890
 fleaMarketFee=0
 propertiestype=

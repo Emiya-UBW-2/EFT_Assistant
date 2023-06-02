@@ -11,7 +11,7 @@ Sell_Fence=8095
 Sell_Skier=9916
 Sell_Peacekeeper=76
 Sell_Mechanic=11333
-Sell_Flea Market=25000
+Sell_Flea Market=99999
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -26,4 +26,14 @@ ChildParts=[
 	PP-91 "Kedr" 9x18PM 30-round magazine
 ]
 Recoil=50.000000
+RecoilHorizontal=211.000000
 Ergonomics=65.000000
+FireRate=900
+centerOfImpact=0.200000
+deviationCurve=2.250000
+recoilDispersion=15
+recoilAngle=90
+cameraRecoil=0.028800
+cameraSnap=3.500000
+deviationMax=11
+convergence=2.500000

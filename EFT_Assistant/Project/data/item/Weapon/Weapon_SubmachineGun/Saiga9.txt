@@ -11,7 +11,7 @@ Sell_Fence=3978
 Sell_Skier=4873
 Sell_Peacekeeper=37
 Sell_Mechanic=5569
-Sell_Flea Market=14900
+Sell_Flea Market=10000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -74,4 +74,14 @@ ChildParts=[
 	PP-19-01 "Vityaz" gas tube
 ]
 Recoil=42.000000
+RecoilHorizontal=274.000000
 Ergonomics=32.000000
+FireRate=650
+centerOfImpact=0.070000
+deviationCurve=1.750000
+recoilDispersion=15
+recoilAngle=90
+cameraRecoil=0.043200
+cameraSnap=3.500000
+deviationMax=17
+convergence=1.000000

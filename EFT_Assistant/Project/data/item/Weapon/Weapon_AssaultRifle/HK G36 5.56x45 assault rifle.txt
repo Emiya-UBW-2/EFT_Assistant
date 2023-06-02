@@ -11,7 +11,7 @@ Sell_Fence=5200
 Sell_Skier=6370
 Sell_Peacekeeper=49
 Sell_Mechanic=7280
-Sell_Flea Market=42000
+Sell_Flea Market=36666
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -59,4 +59,14 @@ ChildParts=[
 	HK G36 sight mount
 ]
 Recoil=107.000000
+RecoilHorizontal=367.000000
 Ergonomics=60.000000
+FireRate=750
+centerOfImpact=0.010000
+deviationCurve=1.350000
+recoilDispersion=10
+recoilAngle=90
+cameraRecoil=0.076800
+cameraSnap=3.500000
+deviationMax=23
+convergence=1.450000

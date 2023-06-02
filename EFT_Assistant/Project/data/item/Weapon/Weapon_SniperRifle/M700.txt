@@ -12,7 +12,7 @@ Sell_Skier=8575
 Sell_Peacekeeper=66
 Sell_Mechanic=9800
 Sell_Jaeger=10500
-Sell_Flea Market=44444
+Sell_Flea Market=39999
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -46,4 +46,14 @@ ChildParts=[
 	M700 extended multi-slot Weaver rail base
 ]
 Recoil=199.000000
+RecoilHorizontal=745.000000
 Ergonomics=33.000000
+FireRate=30
+centerOfImpact=0.011000
+deviationCurve=1.000000
+recoilDispersion=10
+recoilAngle=90
+cameraRecoil=0.144000
+cameraSnap=3.500000
+deviationMax=33
+convergence=1.500000

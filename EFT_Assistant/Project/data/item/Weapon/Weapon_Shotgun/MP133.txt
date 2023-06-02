@@ -12,7 +12,7 @@ Sell_Skier=7077
 Sell_Peacekeeper=54
 Sell_Mechanic=8088
 Sell_Jaeger=8665
-Sell_Flea Market=33333
+Sell_Flea Market=31111
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -56,4 +56,14 @@ ChildParts=[
 	Delta-Tek Sprut mount for pump-action shotguns
 ]
 Recoil=442.000000
+RecoilHorizontal=650.000000
 Ergonomics=40.000000
+FireRate=30
+centerOfImpact=0.480000
+deviationCurve=2.500000
+recoilDispersion=15
+recoilAngle=90
+cameraRecoil=0.144000
+cameraSnap=3.000000
+deviationMax=10
+convergence=1.300000

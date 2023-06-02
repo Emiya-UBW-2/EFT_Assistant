@@ -12,7 +12,7 @@ Sell_Skier=3822
 Sell_Peacekeeper=29
 Sell_Mechanic=4368
 Sell_Jaeger=4680
-Sell_Flea Market=16000
+Sell_Flea Market=15000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -24,4 +24,14 @@ ChildParts=[
 	MP-18 wooden stock
 ]
 Recoil=328.000000
+RecoilHorizontal=930.000000
 Ergonomics=44.000000
+FireRate=900
+centerOfImpact=0.010000
+deviationCurve=2.500000
+recoilDispersion=35
+recoilAngle=90
+cameraRecoil=0.129600
+cameraSnap=2.200000
+deviationMax=10
+convergence=1.200000

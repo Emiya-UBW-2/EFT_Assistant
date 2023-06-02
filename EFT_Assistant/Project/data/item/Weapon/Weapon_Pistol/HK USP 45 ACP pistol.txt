@@ -11,7 +11,7 @@ Sell_Fence=3800
 Sell_Skier=4655
 Sell_Peacekeeper=36
 Sell_Mechanic=5320
-Sell_Flea Market=14444
+Sell_Flea Market=15000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -48,4 +48,14 @@ ChildParts=[
 	HK USP rail adapter
 ]
 Recoil=410.000000
+RecoilHorizontal=295.000000
 Ergonomics=82.000000
+FireRate=30
+centerOfImpact=0.000000
+deviationCurve=2.250000
+recoilDispersion=13
+recoilAngle=90
+cameraRecoil=0.011520
+cameraSnap=3.800000
+deviationMax=11
+convergence=6.000000

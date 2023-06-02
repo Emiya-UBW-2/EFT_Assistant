@@ -11,7 +11,7 @@ Sell_Fence=12400
 Sell_Skier=15190
 Sell_Peacekeeper=116
 Sell_Mechanic=17360
-Sell_Flea Market=36666
+Sell_Flea Market=41420
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -39,4 +39,14 @@ ChildParts=[
 	SR-2M pistol grip (Black)
 ]
 Recoil=54.000000
+RecoilHorizontal=260.000000
 Ergonomics=59.000000
+FireRate=950
+centerOfImpact=0.230000
+deviationCurve=2.250000
+recoilDispersion=13
+recoilAngle=90
+cameraRecoil=0.038400
+cameraSnap=3.500000
+deviationMax=11
+convergence=2.100000

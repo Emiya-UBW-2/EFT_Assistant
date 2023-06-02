@@ -140,4 +140,14 @@ ChildParts=[
 	AK Zenit RP-1 charging handle
 ]
 Recoil=152.000000
+RecoilHorizontal=409.000000
 Ergonomics=41.000000
+FireRate=600
+centerOfImpact=0.062000
+deviationCurve=1.350000
+recoilDispersion=15
+recoilAngle=90
+cameraRecoil=0.079200
+cameraSnap=3.300000
+deviationMax=23
+convergence=1.300000

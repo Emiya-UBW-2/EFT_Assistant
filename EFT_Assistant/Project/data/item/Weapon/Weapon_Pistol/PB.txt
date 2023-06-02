@@ -11,7 +11,7 @@ Sell_Fence=4599
 Sell_Skier=5634
 Sell_Peacekeeper=43
 Sell_Mechanic=6438
-Sell_Flea Market=15000
+Sell_Flea Market=12420
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -26,4 +26,14 @@ ChildParts=[
 	PB bakilte side grips
 ]
 Recoil=387.000000
+RecoilHorizontal=260.000000
 Ergonomics=80.000000
+FireRate=30
+centerOfImpact=0.300000
+deviationCurve=2.250000
+recoilDispersion=13
+recoilAngle=85
+cameraRecoil=0.007200
+cameraSnap=3.500000
+deviationMax=11
+convergence=5.000000

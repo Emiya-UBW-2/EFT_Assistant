@@ -11,7 +11,7 @@ Sell_Fence=11320
 Sell_Skier=13867
 Sell_Peacekeeper=106
 Sell_Mechanic=15848
-Sell_Flea Market=46000
+Sell_Flea Market=35000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -77,4 +77,14 @@ ChildParts=[
 	AK Zenit RP-1 charging handle
 ]
 Recoil=91.000000
+RecoilHorizontal=293.000000
 Ergonomics=50.000000
+FireRate=650
+centerOfImpact=0.033000
+deviationCurve=1.350000
+recoilDispersion=15
+recoilAngle=90
+cameraRecoil=0.060000
+cameraSnap=3.500000
+deviationMax=23
+convergence=1.650000

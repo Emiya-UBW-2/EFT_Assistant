@@ -99,4 +99,14 @@ ChildParts=[
 	Kiba Arms 25mm accessory ring mount
 ]
 Recoil=230.000000
+RecoilHorizontal=460.000000
 Ergonomics=51.000000
+FireRate=30
+centerOfImpact=0.700000
+deviationCurve=1.900000
+recoilDispersion=35
+recoilAngle=90
+cameraRecoil=0.024000
+cameraSnap=3.500000
+deviationMax=15
+convergence=1.000000

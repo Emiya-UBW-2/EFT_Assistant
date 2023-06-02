@@ -12,7 +12,7 @@ Sell_Skier=2842
 Sell_Peacekeeper=22
 Sell_Mechanic=3248
 Sell_Jaeger=3480
-Sell_Flea Market=19777
+Sell_Flea Market=8999
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -25,4 +25,14 @@ ChildParts=[
 	MP-43-1C buttpad
 ]
 Recoil=311.000000
+RecoilHorizontal=510.000000
 Ergonomics=44.000000
+FireRate=900
+centerOfImpact=0.010000
+deviationCurve=2.500000
+recoilDispersion=35
+recoilAngle=90
+cameraRecoil=0.129600
+cameraSnap=2.200000
+deviationMax=10
+convergence=1.200000

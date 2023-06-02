@@ -11,7 +11,7 @@ Sell_Fence=3840
 Sell_Skier=4704
 Sell_Peacekeeper=36
 Sell_Mechanic=5376
-Sell_Flea Market=21000
+Sell_Flea Market=16000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -28,4 +28,14 @@ ChildParts=[
 	MTs-255-12 beechwood forestock
 ]
 Recoil=442.000000
+RecoilHorizontal=650.000000
 Ergonomics=50.000000
+FireRate=30
+centerOfImpact=0.480000
+deviationCurve=2.000000
+recoilDispersion=20
+recoilAngle=90
+cameraRecoil=0.105600
+cameraSnap=3.500000
+deviationMax=11
+convergence=1.400000

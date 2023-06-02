@@ -12,7 +12,7 @@ Sell_Skier=13217
 Sell_Peacekeeper=101
 Sell_Mechanic=15105
 Sell_Jaeger=16184
-Sell_Flea Market=55000
+Sell_Flea Market=42000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -29,4 +29,14 @@ ChildParts=[
 	ORSIS T-5000M scope mount
 ]
 Recoil=141.000000
+RecoilHorizontal=630.000000
 Ergonomics=35.000000
+FireRate=30
+centerOfImpact=0.005000
+deviationCurve=1.000000
+recoilDispersion=10
+recoilAngle=90
+cameraRecoil=0.144000
+cameraSnap=3.500000
+deviationMax=33
+convergence=1.300000

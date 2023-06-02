@@ -11,7 +11,7 @@ Sell_Fence=2520
 Sell_Skier=3087
 Sell_Peacekeeper=24
 Sell_Mechanic=3528
-Sell_Flea Market=47999
+Sell_Flea Market=42111
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -100,4 +100,14 @@ ChildParts=[
 	AR-15 Rainier Arms Avalanche MOD2 charging handle
 ]
 Recoil=120.000000
+RecoilHorizontal=383.000000
 Ergonomics=48.000000
+FireRate=800
+centerOfImpact=0.010000
+deviationCurve=1.350000
+recoilDispersion=15
+recoilAngle=90
+cameraRecoil=0.072000
+cameraSnap=3.500000
+deviationMax=23
+convergence=1.500000

@@ -12,7 +12,7 @@ Sell_Skier=7448
 Sell_Peacekeeper=57
 Sell_Mechanic=8513
 Sell_Jaeger=9121
-Sell_Flea Market=50000
+Sell_Flea Market=55999
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -45,4 +45,14 @@ ChildParts=[
 	M870 XS SHOTRAIL rail with Ghost Ring rear sight
 ]
 Recoil=442.000000
+RecoilHorizontal=650.000000
 Ergonomics=45.000000
+FireRate=30
+centerOfImpact=0.400000
+deviationCurve=2.500000
+recoilDispersion=15
+recoilAngle=90
+cameraRecoil=0.144000
+cameraSnap=2.600000
+deviationMax=10
+convergence=1.800000

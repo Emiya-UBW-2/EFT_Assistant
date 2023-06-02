@@ -12,7 +12,7 @@ Sell_Skier=9261
 Sell_Peacekeeper=71
 Sell_Mechanic=10584
 Sell_Jaeger=11340
-Sell_Flea Market=40000
+Sell_Flea Market=34654
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -42,4 +42,14 @@ ChildParts=[
 	MP-155 Ultima top rail
 ]
 Recoil=379.000000
+RecoilHorizontal=565.000000
 Ergonomics=48.000000
+FireRate=40
+centerOfImpact=0.500000
+deviationCurve=2.500000
+recoilDispersion=15
+recoilAngle=90
+cameraRecoil=0.120000
+cameraSnap=2.800000
+deviationMax=10
+convergence=1.400000

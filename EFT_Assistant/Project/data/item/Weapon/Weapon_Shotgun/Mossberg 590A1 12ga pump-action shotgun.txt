@@ -12,7 +12,7 @@ Sell_Skier=7056
 Sell_Peacekeeper=54
 Sell_Mechanic=8065
 Sell_Jaeger=8641
-Sell_Flea Market=31999
+Sell_Flea Market=49990
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -36,4 +36,14 @@ ChildParts=[
 	Mossberg 590A1 Tactical rail
 ]
 Recoil=468.000000
+RecoilHorizontal=610.000000
 Ergonomics=48.000000
+FireRate=30
+centerOfImpact=0.420000
+deviationCurve=2.500000
+recoilDispersion=15
+recoilAngle=95
+cameraRecoil=0.144000
+cameraSnap=2.600000
+deviationMax=10
+convergence=1.700000

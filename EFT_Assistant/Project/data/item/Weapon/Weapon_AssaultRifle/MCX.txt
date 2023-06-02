@@ -11,7 +11,7 @@ Sell_Fence=8520
 Sell_Skier=10437
 Sell_Peacekeeper=80
 Sell_Mechanic=11928
-Sell_Flea Market=45000
+Sell_Flea Market=48000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -78,4 +78,14 @@ ChildParts=[
 	MCX charging handle
 ]
 Recoil=127.000000
+RecoilHorizontal=390.000000
 Ergonomics=48.000000
+FireRate=800
+centerOfImpact=0.010000
+deviationCurve=1.350000
+recoilDispersion=15
+recoilAngle=90
+cameraRecoil=0.081600
+cameraSnap=3.500000
+deviationMax=23
+convergence=1.500000

@@ -93,8 +93,8 @@ namespace FPS_n2 {
 			};
 		private:
 			EnumItemProperties						m_Type{ EnumItemProperties::Max };
-			std::array<int, 4>						m_IntParams{ 0,0,0,0 };
-			std::array<float, 4>					m_floatParams{ 0,0,0,0 };
+			std::array<int, 7>						m_IntParams{ 0,0,0,0,0,0,0 };
+			std::array<float, 6>					m_floatParams{ 0,0,0,0,0,0 };
 			std::vector<ChildItemSettings>			m_ChildPartsID;
 			std::vector<IDParents<ItemID>>			m_ConflictPartsID;
 		public:
@@ -167,16 +167,23 @@ namespace FPS_n2 {
 			const auto		GetIntensity() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesNightVision) ? this->m_IntParams[0] : 0; }
 			const auto		GetDefault() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesPreset) ? this->m_IntParams[0] : 0; }
 			const auto		GetWeaponRecoilVertical() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesWeapon) ? this->m_IntParams[0] : 0; }
+			const auto		GetWeaponRecoilHorizontal() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesWeapon) ? this->m_IntParams[2] : 0; }
+			const auto		GetWeaponFireRate() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesWeapon) ? this->m_IntParams[3] : 0; }
+			const auto		GetWeaponcenterOfImpact() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesWeapon) ? this->m_floatParams[1] : 0.f; }
+			const auto		GetWeapondeviationCurve() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesWeapon) ? this->m_floatParams[2] : 0.f; }
+			const auto		GetWeaponrecoilDispersion() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesWeapon) ? this->m_IntParams[4] : 0; }
+			const auto		GetWeaponrecoilAngle() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesWeapon) ? this->m_IntParams[5] : 0; }
+			const auto		GetWeaponcameraRecoil() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesWeapon) ? this->m_floatParams[3] : 0; }
+			const auto		GetWeaponcameraSnap() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesWeapon) ? this->m_floatParams[4] : 0; }
+			const auto		GetWeapondeviationMax() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesWeapon) ? this->m_IntParams[6] : 0; }
+			const auto		GetWeaponconvergence() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesWeapon) ? this->m_floatParams[5] : 0; }
 			const auto		GetWeaponErgonomics() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesWeapon) ? this->m_floatParams[0] : 0; }
 
 			const auto		GetModRecoil() const noexcept {
 				switch (m_Type) {
 				case EnumItemProperties::ItemPropertiesBarrel:
-					return  this->m_floatParams[0];
 				case EnumItemProperties::ItemPropertiesMagazine:
-					return  this->m_floatParams[0];
 				case EnumItemProperties::ItemPropertiesScope:
-					return  this->m_floatParams[0];
 				case EnumItemProperties::ItemPropertiesWeaponMod:
 					return  this->m_floatParams[0];
 				default:
@@ -186,11 +193,8 @@ namespace FPS_n2 {
 			const auto		GetModErgonomics() const noexcept {
 				switch (m_Type) {
 				case EnumItemProperties::ItemPropertiesBarrel:
-					return  this->m_floatParams[1];
 				case EnumItemProperties::ItemPropertiesMagazine:
-					return  this->m_floatParams[1];
 				case EnumItemProperties::ItemPropertiesScope:
-					return  this->m_floatParams[1];
 				case EnumItemProperties::ItemPropertiesWeaponMod:
 					return  this->m_floatParams[1];
 				default:
@@ -215,14 +219,8 @@ namespace FPS_n2 {
 			void			SetRecoil(float value) noexcept {
 				switch (m_Type) {
 				case EnumItemProperties::ItemPropertiesBarrel:
-					m_floatParams[0] = value / 100.f;
-					break;
 				case EnumItemProperties::ItemPropertiesMagazine:
-					m_floatParams[0] = value / 100.f;
-					break;
 				case EnumItemProperties::ItemPropertiesScope:
-					m_floatParams[0] = value / 100.f;
-					break;
 				case EnumItemProperties::ItemPropertiesWeaponMod:
 					m_floatParams[0] = value / 100.f;
 					break;
@@ -235,6 +233,17 @@ namespace FPS_n2 {
 					break;
 				}
 			}
+			void			SetRecoilHorizontal(int value) noexcept { if (m_Type == EnumItemProperties::ItemPropertiesWeapon) { m_IntParams[2] = value; } }
+			void			SetFireRate(int value) noexcept { if (m_Type == EnumItemProperties::ItemPropertiesWeapon) { m_IntParams[3] = value; } }
+			void			SetcenterOfImpact(float value) noexcept { if (m_Type == EnumItemProperties::ItemPropertiesWeapon) { m_floatParams[1] = value; } }
+			void			SetdeviationCurve(float value) noexcept { if (m_Type == EnumItemProperties::ItemPropertiesWeapon) { m_floatParams[2] = value; } }
+			void			SetrecoilDispersion(int value) noexcept { if (m_Type == EnumItemProperties::ItemPropertiesWeapon) { m_IntParams[4] = value; } }
+			void			SetrecoilAngle(int value) noexcept { if (m_Type == EnumItemProperties::ItemPropertiesWeapon) { m_IntParams[5] = value; } }
+			void			SetcameraRecoil(float value) noexcept { if (m_Type == EnumItemProperties::ItemPropertiesWeapon) { m_floatParams[3] = value; } }
+			void			SetcameraSnap(float value) noexcept { if (m_Type == EnumItemProperties::ItemPropertiesWeapon) { m_floatParams[4] = value; } }
+			void			SetdeviationMax(int value) noexcept { if (m_Type == EnumItemProperties::ItemPropertiesWeapon) { m_IntParams[6] = value; } }
+			void			Setconvergence(float value) noexcept { if (m_Type == EnumItemProperties::ItemPropertiesWeapon) { m_floatParams[5] = value; } }
+
 			void			SetErgonomics(float value) noexcept {
 				switch (m_Type) {
 				case EnumItemProperties::ItemPropertiesBarrel:
@@ -412,8 +421,19 @@ namespace FPS_n2 {
 					break;
 				case EnumItemProperties::ItemPropertiesWeapon:
 					m_IntParams[0] = data["recoilVertical"];
-					m_IntParams[1] = (data.contains("sightingRange")) ? (int)data["sightingRange"] : -100;
+					m_IntParams[2] = data["recoilHorizontal"];
 					m_floatParams[0] = data["ergonomics"];
+					m_IntParams[1] = (data.contains("sightingRange")) ? (int)data["sightingRange"] : -100;
+					m_IntParams[3] = data["fireRate"];
+					m_floatParams[1] = data["centerOfImpact"];
+					m_floatParams[2] = data["deviationCurve"];
+					m_IntParams[4] = data["recoilDispersion"];
+					m_IntParams[5] = data["recoilAngle"];
+					m_floatParams[3] = data["cameraRecoil"];
+					m_floatParams[4] = data["cameraSnap"];
+					m_IntParams[6] = data["deviationMax"];
+					m_floatParams[5] = data["convergence"];
+
 					m_ChildPartsID.clear();
 					for (const auto& s : data["slots"]) {
 						m_ChildPartsID.resize(m_ChildPartsID.size() + 1);
@@ -453,6 +473,18 @@ namespace FPS_n2 {
 			void			SetData(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
 				if (LEFT == "propertiestype") { this->SetType(Args[0]); }
 				else if (LEFT == "Recoil") { this->SetRecoil(std::stof(Args[0])); }
+				else if (LEFT == "RecoilHorizontal") { this->SetRecoilHorizontal(std::stoi(Args[0])); }
+				else if (LEFT == "FireRate") { this->SetFireRate(std::stoi(Args[0])); }
+
+				else if (LEFT == "centerOfImpact") { this->SetcenterOfImpact(std::stof(Args[0])); }
+				else if (LEFT == "deviationCurve") { this->SetdeviationCurve(std::stof(Args[0])); }
+				else if (LEFT == "recoilDispersion") { this->SetrecoilDispersion(std::stoi(Args[0])); }
+				else if (LEFT == "recoilAngle") { this->SetrecoilAngle(std::stoi(Args[0])); }
+				else if (LEFT == "cameraRecoil") { this->SetcameraRecoil(std::stof(Args[0])); }
+				else if (LEFT == "cameraSnap") { this->SetcameraSnap(std::stof(Args[0])); }
+				else if (LEFT == "deviationMax") { this->SetdeviationMax(std::stoi(Args[0])); }
+				else if (LEFT == "convergence") { this->Setconvergence(std::stof(Args[0])); }
+
 				else if (LEFT == "Ergonomics") { this->SetErgonomics(std::stof(Args[0])); }
 				else if (LEFT == "SightRange") { this->SetSightingRange(std::stoi(Args[0])); }
 				else if (LEFT == "ChildParts") {
@@ -583,6 +615,7 @@ namespace FPS_n2 {
 				return 0.f;
 			}
 		}
+		const auto	GetRecoilHorizontal() const noexcept { return m_ItemsData.m_properties.GetWeaponRecoilHorizontal(); }
 		const auto	GetErgonomics() const noexcept {
 			switch (this->m_ItemsData.m_properties.GetType()) {
 			case EnumItemProperties::ItemPropertiesBarrel:
@@ -599,6 +632,15 @@ namespace FPS_n2 {
 			}
 		}
 		const auto	GetSightRange() const noexcept { return this->m_ItemsData.m_properties.GetSightingRange(); }
+		const auto	GetFireRate() const noexcept { return this->m_ItemsData.m_properties.GetWeaponFireRate(); }
+		const auto	GetcenterOfImpact() const noexcept { return this->m_ItemsData.m_properties.GetWeaponcenterOfImpact(); }
+		const auto	GetdeviationCurve() const noexcept { return this->m_ItemsData.m_properties.GetWeapondeviationCurve(); }
+		const auto	GetrecoilDispersion() const noexcept { return this->m_ItemsData.m_properties.GetWeaponrecoilDispersion(); }
+		const auto	GetrecoilAngle() const noexcept { return this->m_ItemsData.m_properties.GetWeaponrecoilAngle(); }
+		const auto	GetcameraRecoil() const noexcept { return this->m_ItemsData.m_properties.GetWeaponcameraRecoil(); }
+		const auto	GetcameraSnap() const noexcept { return this->m_ItemsData.m_properties.GetWeaponcameraSnap(); }
+		const auto	GetdeviationMax() const noexcept { return this->m_ItemsData.m_properties.GetWeapondeviationMax(); }
+		const auto	Getconvergence() const noexcept { return this->m_ItemsData.m_properties.GetWeaponconvergence(); }
 		const auto	GetIsPreset() const noexcept { return this->m_ItemsData.m_properties.GetType() == EnumItemProperties::ItemPropertiesPreset; }
 	public:
 		void		SetParent() noexcept;

@@ -67,4 +67,14 @@ ChildParts=[
 	MPX single latch charging handle
 ]
 Recoil=51.000000
+RecoilHorizontal=299.000000
 Ergonomics=40.000000
+FireRate=850
+centerOfImpact=0.000000
+deviationCurve=2.250000
+recoilDispersion=15
+recoilAngle=90
+cameraRecoil=0.048000
+cameraSnap=3.500000
+deviationMax=11
+convergence=1.500000

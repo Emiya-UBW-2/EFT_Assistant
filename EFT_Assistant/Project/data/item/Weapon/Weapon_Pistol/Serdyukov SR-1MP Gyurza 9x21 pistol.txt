@@ -11,7 +11,7 @@ Sell_Fence=7716
 Sell_Skier=9453
 Sell_Peacekeeper=72
 Sell_Mechanic=10803
-Sell_Flea Market=16000
+Sell_Flea Market=22000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -23,4 +23,14 @@ ChildParts=[
 	SR-1MP 9x21 18-round magazine
 ]
 Recoil=442.000000
+RecoilHorizontal=325.000000
 Ergonomics=82.000000
+FireRate=30
+centerOfImpact=0.220000
+deviationCurve=2.250000
+recoilDispersion=13
+recoilAngle=85
+cameraRecoil=0.014400
+cameraSnap=3.500000
+deviationMax=11
+convergence=5.000000

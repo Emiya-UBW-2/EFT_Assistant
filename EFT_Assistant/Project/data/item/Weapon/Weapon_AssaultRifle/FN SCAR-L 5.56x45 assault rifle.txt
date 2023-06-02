@@ -11,7 +11,7 @@ Sell_Fence=6800
 Sell_Skier=8330
 Sell_Peacekeeper=64
 Sell_Mechanic=9520
-Sell_Flea Market=51111
+Sell_Flea Market=49500
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -75,4 +75,14 @@ ChildParts=[
 	FN SCAR charging handle
 ]
 Recoil=122.000000
+RecoilHorizontal=461.000000
 Ergonomics=45.000000
+FireRate=650
+centerOfImpact=0.010000
+deviationCurve=1.350000
+recoilDispersion=10
+recoilAngle=90
+cameraRecoil=0.081600
+cameraSnap=3.500000
+deviationMax=23
+convergence=1.500000

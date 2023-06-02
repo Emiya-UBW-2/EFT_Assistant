@@ -11,7 +11,7 @@ Sell_Fence=5000
 Sell_Skier=6125
 Sell_Peacekeeper=47
 Sell_Mechanic=7000
-Sell_Flea Market=25555
+Sell_Flea Market=26000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -89,4 +89,14 @@ ChildParts=[
 	STM-9 magwell (Grey)
 ]
 Recoil=45.000000
+RecoilHorizontal=252.000000
 Ergonomics=50.000000
+FireRate=800
+centerOfImpact=0.010000
+deviationCurve=2.250000
+recoilDispersion=5
+recoilAngle=90
+cameraRecoil=0.043200
+cameraSnap=3.500000
+deviationMax=11
+convergence=2.500000

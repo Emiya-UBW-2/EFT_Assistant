@@ -38,4 +38,14 @@ ChildParts=[
 	M14 Leapers UTG 4-Point Locking Deluxe mount
 ]
 Recoil=252.000000
+RecoilHorizontal=530.000000
 Ergonomics=28.000000
+FireRate=700
+centerOfImpact=0.020000
+deviationCurve=1.100000
+recoilDispersion=17
+recoilAngle=90
+cameraRecoil=0.091200
+cameraSnap=3.500000
+deviationMax=30
+convergence=1.100000

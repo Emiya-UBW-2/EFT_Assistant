@@ -11,7 +11,7 @@ Sell_Fence=12437
 Sell_Skier=15235
 Sell_Peacekeeper=117
 Sell_Mechanic=17412
-Sell_Flea Market=70000
+Sell_Flea Market=95500
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -58,4 +58,14 @@ ChildParts=[
 	SA-58 SPR stock
 ]
 Recoil=250.000000
+RecoilHorizontal=510.000000
 Ergonomics=39.000000
+FireRate=700
+centerOfImpact=0.000000
+deviationCurve=1.350000
+recoilDispersion=21
+recoilAngle=90
+cameraRecoil=0.096000
+cameraSnap=3.500000
+deviationMax=23
+convergence=1.200000

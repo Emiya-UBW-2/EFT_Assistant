@@ -11,7 +11,7 @@ Sell_Fence=1920
 Sell_Skier=2352
 Sell_Peacekeeper=18
 Sell_Mechanic=2688
-Sell_Flea Market=12000
+Sell_Flea Market=10980
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -42,4 +42,14 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser (Tan)
 ]
 Recoil=404.000000
+RecoilHorizontal=280.000000
 Ergonomics=70.000000
+FireRate=30
+centerOfImpact=0.000000
+deviationCurve=2.250000
+recoilDispersion=13
+recoilAngle=85
+cameraRecoil=0.009600
+cameraSnap=3.500000
+deviationMax=11
+convergence=5.000000

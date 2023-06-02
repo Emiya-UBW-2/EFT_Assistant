@@ -26,4 +26,14 @@ ChildParts=[
 	AI AXMC .338 LM bolt assembly
 ]
 Recoil=468.000000
+RecoilHorizontal=1080.000000
 Ergonomics=21.000000
+FireRate=30
+centerOfImpact=0.011000
+deviationCurve=1.000000
+recoilDispersion=10
+recoilAngle=90
+cameraRecoil=0.168000
+cameraSnap=3.500000
+deviationMax=33
+convergence=0.900000

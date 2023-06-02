@@ -12,7 +12,7 @@ Sell_Skier=5635
 Sell_Peacekeeper=43
 Sell_Mechanic=6440
 Sell_Jaeger=6900
-Sell_Flea Market=39000
+Sell_Flea Market=30000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -37,4 +37,14 @@ ChildParts=[
 	Mosin Rifle 7.62x54R 730mm regular barrel
 ]
 Recoil=288.000000
+RecoilHorizontal=975.000000
 Ergonomics=17.000000
+FireRate=30
+centerOfImpact=0.011000
+deviationCurve=1.000000
+recoilDispersion=10
+recoilAngle=90
+cameraRecoil=0.192000
+cameraSnap=3.500000
+deviationMax=33
+convergence=1.000000

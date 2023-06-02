@@ -12,7 +12,7 @@ Sell_Skier=20972
 Sell_Peacekeeper=161
 Sell_Mechanic=23968
 Sell_Jaeger=25680
-Sell_Flea Market=69900
+Sell_Flea Market=74986
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -83,4 +83,14 @@ ChildParts=[
 	SVD SAG low profile sidemount
 ]
 Recoil=289.000000
+RecoilHorizontal=750.000000
 Ergonomics=26.000000
+FireRate=700
+centerOfImpact=0.000000
+deviationCurve=1.100000
+recoilDispersion=17
+recoilAngle=90
+cameraRecoil=0.105600
+cameraSnap=3.500000
+deviationMax=30
+convergence=1.100000

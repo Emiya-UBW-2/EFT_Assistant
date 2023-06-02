@@ -58,4 +58,14 @@ ChildParts=[
 	FN SCAR charging handle
 ]
 Recoil=206.000000
+RecoilHorizontal=570.000000
 Ergonomics=45.000000
+FireRate=600
+centerOfImpact=0.010000
+deviationCurve=1.350000
+recoilDispersion=19
+recoilAngle=90
+cameraRecoil=0.091200
+cameraSnap=4.000000
+deviationMax=23
+convergence=1.200000

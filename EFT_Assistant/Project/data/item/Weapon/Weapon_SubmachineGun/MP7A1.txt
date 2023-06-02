@@ -11,7 +11,7 @@ Sell_Fence=17715
 Sell_Skier=21701
 Sell_Peacekeeper=166
 Sell_Mechanic=24801
-Sell_Flea Market=65000
+Sell_Flea Market=68888
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -141,4 +141,14 @@ ChildParts=[
 	HK MP7A2 stock
 ]
 Recoil=50.000000
+RecoilHorizontal=198.000000
 Ergonomics=65.000000
+FireRate=950
+centerOfImpact=0.250000
+deviationCurve=2.250000
+recoilDispersion=18
+recoilAngle=90
+cameraRecoil=0.038400
+cameraSnap=3.500000
+deviationMax=11
+convergence=2.100000

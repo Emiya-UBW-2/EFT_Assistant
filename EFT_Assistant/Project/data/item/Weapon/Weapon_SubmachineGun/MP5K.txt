@@ -11,7 +11,7 @@ Sell_Fence=3800
 Sell_Skier=4655
 Sell_Peacekeeper=36
 Sell_Mechanic=5320
-Sell_Flea Market=12000
+Sell_Flea Market=13000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -27,4 +27,14 @@ ChildParts=[
 	HK MP5K cocking handle
 ]
 Recoil=57.000000
+RecoilHorizontal=297.000000
 Ergonomics=55.000000
+FireRate=900
+centerOfImpact=0.220000
+deviationCurve=2.250000
+recoilDispersion=15
+recoilAngle=90
+cameraRecoil=0.045600
+cameraSnap=3.500000
+deviationMax=11
+convergence=1.700000

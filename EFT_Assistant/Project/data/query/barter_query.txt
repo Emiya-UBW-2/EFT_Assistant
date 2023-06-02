@@ -111,8 +111,26 @@
       useTime
     }
     ...on ItemPropertiesWeapon{
+      caliber
+      defaultAmmo{name}
+      effectiveDistance
+      fireModes
+      repairCost
+      presets{name}
+      allowedAmmo{name}
+
+      centerOfImpact
+      deviationCurve
+      recoilDispersion
+      recoilAngle
+      cameraRecoil
+      cameraSnap
+      deviationMax
+      convergence
+      fireRate
       sightingRange
       recoilVertical
+      recoilHorizontal
       ergonomics
       slots{
        filters{

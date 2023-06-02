@@ -11,7 +11,7 @@ Sell_Fence=7591
 Sell_Skier=9299
 Sell_Peacekeeper=71
 Sell_Mechanic=10627
-Sell_Flea Market=29998
+Sell_Flea Market=24000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -125,4 +125,14 @@ ChildParts=[
 	AKMP system front sight device
 ]
 Recoil=160.000000
+RecoilHorizontal=448.000000
 Ergonomics=30.000000
+FireRate=600
+centerOfImpact=0.069000
+deviationCurve=1.350000
+recoilDispersion=15
+recoilAngle=85
+cameraRecoil=0.081600
+cameraSnap=3.500000
+deviationMax=23
+convergence=1.200000

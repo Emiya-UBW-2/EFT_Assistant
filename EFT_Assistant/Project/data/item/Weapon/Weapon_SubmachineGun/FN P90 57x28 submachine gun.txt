@@ -11,7 +11,7 @@ Sell_Fence=18080
 Sell_Skier=22148
 Sell_Peacekeeper=170
 Sell_Mechanic=25312
-Sell_Flea Market=66555
+Sell_Flea Market=54999
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -36,4 +36,14 @@ ChildParts=[
 	FN P90 K&M The Handler charging handle
 ]
 Recoil=46.000000
+RecoilHorizontal=270.000000
 Ergonomics=60.000000
+FireRate=900
+centerOfImpact=0.250000
+deviationCurve=2.250000
+recoilDispersion=23
+recoilAngle=90
+cameraRecoil=0.067200
+cameraSnap=3.500000
+deviationMax=11
+convergence=2.500000

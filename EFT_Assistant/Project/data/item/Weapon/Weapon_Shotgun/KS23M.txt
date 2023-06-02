@@ -30,4 +30,14 @@ ChildParts=[
 	KS-23M pistol grip
 ]
 Recoil=519.000000
+RecoilHorizontal=740.000000
 Ergonomics=38.000000
+FireRate=30
+centerOfImpact=0.450000
+deviationCurve=2.500000
+recoilDispersion=15
+recoilAngle=90
+cameraRecoil=0.192000
+cameraSnap=2.000000
+deviationMax=10
+convergence=1.100000

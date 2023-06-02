@@ -83,4 +83,14 @@ ChildParts=[
 	Mk47 ambidextrous charging handle
 ]
 Recoil=160.000000
+RecoilHorizontal=466.000000
 Ergonomics=42.000000
+FireRate=650
+centerOfImpact=0.010000
+deviationCurve=1.350000
+recoilDispersion=17
+recoilAngle=90
+cameraRecoil=0.081600
+cameraSnap=3.500000
+deviationMax=23
+convergence=1.700000

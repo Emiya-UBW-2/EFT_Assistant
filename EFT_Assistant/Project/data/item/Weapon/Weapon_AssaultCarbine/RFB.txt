@@ -12,7 +12,7 @@ Sell_Skier=11417
 Sell_Peacekeeper=87
 Sell_Mechanic=13048
 Sell_Jaeger=13980
-Sell_Flea Market=38788
+Sell_Flea Market=35000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -32,4 +32,14 @@ ChildParts=[
 	RFB scope rail mount
 ]
 Recoil=148.000000
+RecoilHorizontal=307.000000
 Ergonomics=48.000000
+FireRate=700
+centerOfImpact=0.000000
+deviationCurve=1.100000
+recoilDispersion=17
+recoilAngle=90
+cameraRecoil=0.105600
+cameraSnap=3.500000
+deviationMax=30
+convergence=1.700000

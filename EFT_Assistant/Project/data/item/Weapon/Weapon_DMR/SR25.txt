@@ -65,4 +65,14 @@ ChildParts=[
 	AR-10 KAC charging handle
 ]
 Recoil=217.000000
+RecoilHorizontal=550.000000
 Ergonomics=47.000000
+FireRate=700
+centerOfImpact=0.000000
+deviationCurve=1.100000
+recoilDispersion=17
+recoilAngle=90
+cameraRecoil=0.096000
+cameraSnap=3.500000
+deviationMax=30
+convergence=1.500000

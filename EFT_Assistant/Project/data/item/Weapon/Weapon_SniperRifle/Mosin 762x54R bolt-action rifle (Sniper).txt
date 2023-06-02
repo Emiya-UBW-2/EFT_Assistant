@@ -12,7 +12,7 @@ Sell_Skier=7632
 Sell_Peacekeeper=58
 Sell_Mechanic=8723
 Sell_Jaeger=9346
-Sell_Flea Market=111888
+Sell_Flea Market=59420
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -40,4 +40,14 @@ ChildParts=[
 	Mosin Rifle Kochetov mount
 ]
 Recoil=288.000000
+RecoilHorizontal=975.000000
 Ergonomics=17.000000
+FireRate=30
+centerOfImpact=0.011000
+deviationCurve=1.000000
+recoilDispersion=10
+recoilAngle=90
+cameraRecoil=0.192000
+cameraSnap=3.500000
+deviationMax=33
+convergence=0.800000

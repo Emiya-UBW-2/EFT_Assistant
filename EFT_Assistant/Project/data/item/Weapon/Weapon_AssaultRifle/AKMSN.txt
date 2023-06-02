@@ -11,7 +11,7 @@ Sell_Fence=11588
 Sell_Skier=14196
 Sell_Peacekeeper=109
 Sell_Mechanic=16224
-Sell_Flea Market=28333
+Sell_Flea Market=29850
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -132,4 +132,14 @@ ChildParts=[
 	SAG Bit low profile dovetail sidemount
 ]
 Recoil=162.000000
+RecoilHorizontal=448.000000
 Ergonomics=24.000000
+FireRate=600
+centerOfImpact=0.067000
+deviationCurve=1.350000
+recoilDispersion=15
+recoilAngle=85
+cameraRecoil=0.081600
+cameraSnap=3.500000
+deviationMax=23
+convergence=1.200000

@@ -11,7 +11,7 @@ Sell_Fence=12660
 Sell_Skier=15508
 Sell_Peacekeeper=119
 Sell_Mechanic=17724
-Sell_Flea Market=79999
+Sell_Flea Market=74000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -109,4 +109,14 @@ ChildParts=[
 	KRISS Vector side rail
 ]
 Recoil=47.000000
+RecoilHorizontal=396.000000
 Ergonomics=65.000000
+FireRate=1100
+centerOfImpact=0.250000
+deviationCurve=2.250000
+recoilDispersion=35
+recoilAngle=80
+cameraRecoil=0.086400
+cameraSnap=4.500000
+deviationMax=11
+convergence=3.400000

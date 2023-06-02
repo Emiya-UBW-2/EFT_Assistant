@@ -12,7 +12,7 @@ Sell_Skier=1727
 Sell_Peacekeeper=13
 Sell_Mechanic=1974
 Sell_Jaeger=2115
-Sell_Flea Market=15000
+Sell_Flea Market=13000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -30,4 +30,14 @@ ChildParts=[
 	TOZ-106 dovetail mount
 ]
 Recoil=663.000000
+RecoilHorizontal=650.000000
 Ergonomics=60.000000
+FireRate=30
+centerOfImpact=0.700000
+deviationCurve=2.500000
+recoilDispersion=30
+recoilAngle=90
+cameraRecoil=0.192000
+cameraSnap=2.300000
+deviationMax=10
+convergence=1.300000

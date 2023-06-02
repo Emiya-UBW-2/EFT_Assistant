@@ -11,7 +11,7 @@ Sell_Fence=4177
 Sell_Skier=5117
 Sell_Peacekeeper=39
 Sell_Mechanic=5848
-Sell_Flea Market=14068
+Sell_Flea Market=24444
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -44,4 +44,14 @@ ChildParts=[
 	Insight WMX200 tactical flashlight
 ]
 Recoil=383.000000
+RecoilHorizontal=280.000000
 Ergonomics=80.000000
+FireRate=30
+centerOfImpact=0.150000
+deviationCurve=2.000000
+recoilDispersion=10
+recoilAngle=80
+cameraRecoil=0.019800
+cameraSnap=3.000000
+deviationMax=11
+convergence=5.800000

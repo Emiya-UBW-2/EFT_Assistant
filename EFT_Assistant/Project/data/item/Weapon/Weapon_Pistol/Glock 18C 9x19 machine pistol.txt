@@ -11,7 +11,7 @@ Sell_Fence=6090
 Sell_Skier=7460
 Sell_Peacekeeper=57
 Sell_Mechanic=8526
-Sell_Flea Market=29999
+Sell_Flea Market=23900
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -54,4 +54,14 @@ ChildParts=[
 	Glock FAB Defense GLR-17 stock
 ]
 Recoil=306.000000
+RecoilHorizontal=286.000000
 Ergonomics=90.000000
+FireRate=1200
+centerOfImpact=0.000000
+deviationCurve=2.250000
+recoilDispersion=13
+recoilAngle=85
+cameraRecoil=0.008640
+cameraSnap=3.500000
+deviationMax=11
+convergence=5.000000

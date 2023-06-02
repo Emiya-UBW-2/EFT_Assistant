@@ -11,7 +11,7 @@ Sell_Fence=7538
 Sell_Skier=9234
 Sell_Peacekeeper=71
 Sell_Mechanic=10553
-Sell_Flea Market=15000
+Sell_Flea Market=18123
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -26,4 +26,14 @@ ChildParts=[
 	PP-91 "Kedr" Rotor 43 RIS mount
 ]
 Recoil=50.000000
+RecoilHorizontal=211.000000
 Ergonomics=65.000000
+FireRate=900
+centerOfImpact=0.250000
+deviationCurve=2.250000
+recoilDispersion=15
+recoilAngle=90
+cameraRecoil=0.038400
+cameraSnap=3.500000
+deviationMax=11
+convergence=2.500000

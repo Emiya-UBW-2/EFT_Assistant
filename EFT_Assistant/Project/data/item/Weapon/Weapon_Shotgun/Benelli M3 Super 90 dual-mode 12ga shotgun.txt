@@ -12,7 +12,7 @@ Sell_Skier=6909
 Sell_Peacekeeper=53
 Sell_Mechanic=7897
 Sell_Jaeger=8461
-Sell_Flea Market=28888
+Sell_Flea Market=32000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -43,4 +43,14 @@ ChildParts=[
 	Benelli M3 Super 90 charging handle
 ]
 Recoil=374.000000
+RecoilHorizontal=690.000000
 Ergonomics=42.000000
+FireRate=60
+centerOfImpact=0.400000
+deviationCurve=2.500000
+recoilDispersion=15
+recoilAngle=90
+cameraRecoil=0.150000
+cameraSnap=2.600000
+deviationMax=10
+convergence=1.900000

@@ -11,7 +11,7 @@ Sell_Fence=4100
 Sell_Skier=5022
 Sell_Peacekeeper=38
 Sell_Mechanic=5740
-Sell_Flea Market=20000
+Sell_Flea Market=26420
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -29,4 +29,14 @@ ChildParts=[
 	PPSh-41 7.62x25 10.6 inch barrel
 ]
 Recoil=59.000000
+RecoilHorizontal=324.000000
 Ergonomics=16.000000
+FireRate=1000
+centerOfImpact=0.100000
+deviationCurve=2.250000
+recoilDispersion=15
+recoilAngle=110
+cameraRecoil=0.086400
+cameraSnap=3.500000
+deviationMax=11
+convergence=1.500000

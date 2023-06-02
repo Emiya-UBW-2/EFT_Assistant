@@ -63,4 +63,14 @@ ChildParts=[
 	Mk-18 .338 LM upper receiver
 ]
 Recoil=536.000000
+RecoilHorizontal=1125.000000
 Ergonomics=14.000000
+FireRate=30
+centerOfImpact=0.000000
+deviationCurve=1.100000
+recoilDispersion=17
+recoilAngle=90
+cameraRecoil=0.144000
+cameraSnap=3.500000
+deviationMax=30
+convergence=0.800000

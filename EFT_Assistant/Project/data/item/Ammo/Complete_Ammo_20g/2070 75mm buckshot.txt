@@ -11,6 +11,6 @@ Sell_Fence=9
 Sell_Skier=11
 Sell_Peacekeeper=0
 Sell_Mechanic=13
-Sell_Flea Market=20
+Sell_Flea Market=30
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo

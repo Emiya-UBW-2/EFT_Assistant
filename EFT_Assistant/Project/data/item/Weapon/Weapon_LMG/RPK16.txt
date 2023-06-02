@@ -69,4 +69,14 @@ ChildParts=[
 	RPK-16 5.45x39 22 inch barrel
 ]
 Recoil=112.000000
+RecoilHorizontal=370.000000
 Ergonomics=45.000000
+FireRate=650
+centerOfImpact=0.040000
+deviationCurve=1.350000
+recoilDispersion=25
+recoilAngle=90
+cameraRecoil=0.096000
+cameraSnap=3.500000
+deviationMax=23
+convergence=1.700000

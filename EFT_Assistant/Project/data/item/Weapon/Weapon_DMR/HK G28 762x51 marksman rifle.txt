@@ -57,4 +57,14 @@ ChildParts=[
 	HK417 E1 extended charging handle
 ]
 Recoil=204.000000
+RecoilHorizontal=600.000000
 Ergonomics=48.000000
+FireRate=700
+centerOfImpact=0.000000
+deviationCurve=1.100000
+recoilDispersion=17
+recoilAngle=90
+cameraRecoil=0.096000
+cameraSnap=3.500000
+deviationMax=30
+convergence=1.200000

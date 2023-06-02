@@ -11,7 +11,7 @@ Sell_Fence=2320
 Sell_Skier=2842
 Sell_Peacekeeper=22
 Sell_Mechanic=3248
-Sell_Flea Market=10000
+Sell_Flea Market=8200
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -27,4 +27,14 @@ ChildParts=[
 	Chiappa Rhino wooden pistol grip
 ]
 Recoil=306.000000
+RecoilHorizontal=200.000000
 Ergonomics=95.000000
+FireRate=30
+centerOfImpact=0.280000
+deviationCurve=2.000000
+recoilDispersion=10
+recoilAngle=85
+cameraRecoil=0.010800
+cameraSnap=3.500000
+deviationMax=11
+convergence=6.900000

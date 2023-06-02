@@ -11,7 +11,7 @@ Sell_Fence=10600
 Sell_Skier=12985
 Sell_Peacekeeper=99
 Sell_Mechanic=14840
-Sell_Flea Market=40000
+Sell_Flea Market=30000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 SightRange=100
@@ -80,4 +80,14 @@ ChildParts=[
 	HK UMP side handguard rail
 ]
 Recoil=72.000000
+RecoilHorizontal=315.000000
 Ergonomics=62.000000
+FireRate=600
+centerOfImpact=0.250000
+deviationCurve=2.250000
+recoilDispersion=29
+recoilAngle=90
+cameraRecoil=0.052800
+cameraSnap=3.500000
+deviationMax=11
+convergence=2.800000

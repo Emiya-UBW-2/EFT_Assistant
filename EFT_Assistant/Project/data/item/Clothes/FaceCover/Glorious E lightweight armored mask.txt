@@ -10,6 +10,6 @@ Sell_Fence=18900
 Sell_Skier=23152
 Sell_Peacekeeper=177
 Sell_Ragman=29295
-Sell_Flea Market=30000
+Sell_Flea Market=39999
 fleaMarketFee=0
 propertiestype=ItemPropertiesHelmet
