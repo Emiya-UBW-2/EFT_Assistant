@@ -1,6 +1,7 @@
 #include"Header.hpp"
 
 int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
+	SetUseCharCodeFormat(DX_CHARCODEFORMAT_UTF8);
 	SetWindowStyleMode(2);
 	SetUseBackBufferTransColorFlag(TRUE);
 	OPTION::Create();
