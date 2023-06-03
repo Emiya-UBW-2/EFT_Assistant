@@ -17,3 +17,4 @@ propertiestype=ItemPropertiesScope
 Recoil=0.000000
 Ergonomics=0.000000
 SightRange=0
+sightZooms=1.000000

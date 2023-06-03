@@ -30,3 +30,5 @@ Conflict=[
 ]
 Recoil=-5.000000
 Ergonomics=-18.000000
+centerOfImpact=0.011000
+deviationMax=33

@@ -19,4 +19,6 @@ ChildParts=[
 ]
 Recoil=0.000000
 Ergonomics=-13.000000
-SightRange=0
+SightRange=500
+sightZooms=2.500000
+sightZooms=2.500000

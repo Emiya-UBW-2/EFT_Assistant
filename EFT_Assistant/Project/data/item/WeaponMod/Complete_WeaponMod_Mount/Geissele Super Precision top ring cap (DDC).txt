@@ -20,3 +20,4 @@ Conflict=[
 ]
 Recoil=0.000000
 Ergonomics=0.500000
+accuracyModifier=0.000000

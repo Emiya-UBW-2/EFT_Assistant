@@ -25,18 +25,73 @@
    properties{
     __typename
     ...on ItemPropertiesAmmo{
+      caliber
+      tracer
+      tracerColor
+      ammoType
+      projectileCount
+      damage
+      armorDamage
+      fragmentationChance
+      ricochetChance
+      penetrationChance
+      penetrationPower
+      accuracyModifier
+      recoilModifier
+      initialSpeed
+      lightBleedModifier
+      heavyBleedModifier
+      durabilityBurnFactor
+      heatFactor
+      staminaBurnPerDamage
+      
       stackMaxSize
     }
     ...on ItemPropertiesArmor{
+      durability
+      repairCost
+      speedPenalty
+      turnPenalty
+      ergoPenalty
+      zones
+      material{name}
+      armorType
+      
       class
     }
     ...on ItemPropertiesArmorAttachment{
-       class
+      durability
+      repairCost
+      speedPenalty
+      turnPenalty
+      ergoPenalty
+      headZones
+      material{name}
+      blindnessProtection
+
+      class
    }
     ...on ItemPropertiesBackpack{
+      speedPenalty
+      turnPenalty
+      ergoPenalty
+      grids{
+        width
+        height
+        filters{
+          allowedCategories{name}
+          allowedItems{name}
+          excludedCategories{name}
+          excludedItems{name}
+        }
+      }
+
       capacity
     }
     ...on ItemPropertiesBarrel{
+      centerOfImpact
+      deviationMax
+
       recoilModifier
       ergonomics
       slots{
@@ -46,24 +101,87 @@
       }
     }
     ...on ItemPropertiesChestRig{
+      durability
+      repairCost
+      speedPenalty
+      turnPenalty
+      ergoPenalty
+      zones
+      armorType
+      material{name}
+      grids{
+        width
+        height
+        filters{
+          allowedCategories{name}
+          allowedItems{name}
+          excludedCategories{name}
+          excludedItems{name}
+        }
+      }
+
       class
       capacity
     }
     ...on ItemPropertiesContainer{
       capacity
+      grids{
+        width
+        height
+        filters{
+          allowedCategories{name}
+          allowedItems{name}
+          excludedCategories{name}
+          excludedItems{name}
+        }
+      }
     }
     ...on ItemPropertiesFoodDrink{
       energy
       hydration
+      units
+      stimEffects{
+        type
+        chance
+        delay
+        duration
+        value
+        percent
+        skillName
+      }
     }
     ...on ItemPropertiesGlasses{
+      durability
+      repairCost
+      material{name}
+      
       class
       blindnessProtection
     }
     ...on ItemPropertiesGrenade{
+      type
+      fuse
+      minExplosionDistance
+      maxExplosionDistance
+      contusionRadius
+
       fragments
     }
     ...on ItemPropertiesHelmet{
+      durability
+      repairCost
+      speedPenalty
+      turnPenalty
+      ergoPenalty
+      headZones
+      material{name}
+      deafening
+      blocksHeadset
+      ricochetX
+      ricochetY
+      ricochetZ
+      armorType
+
       class
     }
     ...on ItemPropertiesKey{
@@ -87,24 +205,49 @@
       }
     }
     ...on ItemPropertiesMedicalItem{
+      uses
+      cures
+
       useTime
     }
     ...on ItemPropertiesMelee{
       slashDamage
+
+      stabDamage
+      hitRadius
     }
     ...on ItemPropertiesMedKit{
+      useTime
+      maxHealPerUse
+      cures
+      hpCostLightBleeding
+      hpCostHeavyBleeding
+
       hitpoints
     }
     ...on ItemPropertiesNightVision{
+      noiseIntensity
+      noiseScale
+      diffuseIntensity
+
       intensity
     }
     ...on ItemPropertiesPainkiller{
+      uses
+      cures
+      painkillerDuration
+      energyImpact
+      hydrationImpact
+      
       useTime
     }
     ...on ItemPropertiesPreset{
+      baseItem{name}
       default
     }
     ...on ItemPropertiesScope{
+      zoomLevels
+      
       sightingRange
       recoilModifier
       ergonomics
@@ -115,6 +258,11 @@
       }
     }
     ...on ItemPropertiesSurgicalKit{
+      uses
+      cures
+      minLimbHealth
+      maxLimbHealth
+
       useTime
     }
     ...on ItemPropertiesWeapon{
@@ -146,6 +294,8 @@
       }
     }
     ...on ItemPropertiesWeaponMod{
+      accuracyModifier
+
       recoilModifier
       ergonomics
       slots{
@@ -155,6 +305,17 @@
       }
     }
     ...on ItemPropertiesStim{
+      cures
+      stimEffects{
+        type
+        chance
+        delay
+        duration
+        value
+        percent
+        skillName
+      }
+
       useTime
     }
    }

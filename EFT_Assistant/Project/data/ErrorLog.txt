@@ -1,3 +1,5 @@
-Load Data Time:3.340000 s
+Load Data Time:3.238000 s
 Wait Load Time:0.005000 s
-Load Image:0.497000 s
+Error : アイテム登録被り:[SA-58/FAL 7.62x51 30-round magazine]
+Error : アイテム登録被り:[SA-58/FAL 7.62x51 30-round magazine]
+Load Image:0.483000 s

@@ -11,7 +11,7 @@ Sell_Fence=7960
 Sell_Skier=9751
 Sell_Peacekeeper=75
 Sell_Mechanic=11144
-Sell_Flea Market=38799
+Sell_Flea Market=33266
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
@@ -78,3 +78,4 @@ Conflict=[
 ]
 Recoil=-1.000000
 Ergonomics=11.000000
+accuracyModifier=0.010000

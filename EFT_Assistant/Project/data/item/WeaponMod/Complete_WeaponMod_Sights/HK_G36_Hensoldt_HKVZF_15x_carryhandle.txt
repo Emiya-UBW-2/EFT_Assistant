@@ -17,4 +17,6 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesScope
 Recoil=0.000000
 Ergonomics=-2.000000
-SightRange=0
+SightRange=800
+sightZooms=1.500000
+sightZooms=1.000000

@@ -335,6 +335,15 @@ namespace FPS_n2 {
 			m_IsFileOpened = true;
 			m_Path = Path;
 
+			SubStrs(&m_Path, ":");
+			SubStrs(&m_Path, "*");
+			SubStrs(&m_Path, "?");
+			SubStrs(&m_Path, "\"");
+			SubStrs(&m_Path, ">");
+			SubStrs(&m_Path, "<");
+			SubStrs(&m_Path, "|");
+			SubStrs(&m_Path, "|");
+
 			m_SetFinish = false;
 			ResetDataJob();
 			m_SetJob = std::make_unique<std::thread>([&]() {

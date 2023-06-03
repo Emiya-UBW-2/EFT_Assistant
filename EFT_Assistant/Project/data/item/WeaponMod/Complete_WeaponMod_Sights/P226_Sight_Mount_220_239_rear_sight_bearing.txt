@@ -11,7 +11,7 @@ Sell_Fence=1527
 Sell_Skier=1871
 Sell_Peacekeeper=14
 Sell_Mechanic=2138
-Sell_Flea Market=2220
+Sell_Flea Market=6000
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
 ChildParts=[
@@ -21,4 +21,5 @@ ChildParts=[
 ]
 Recoil=0.000000
 Ergonomics=-2.000000
-SightRange=0
+SightRange=200
+sightZooms=1.000000

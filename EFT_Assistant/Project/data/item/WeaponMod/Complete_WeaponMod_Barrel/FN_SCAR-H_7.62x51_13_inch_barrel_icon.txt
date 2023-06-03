@@ -47,3 +47,5 @@ ChildParts=[
 ]
 Recoil=-3.000000
 Ergonomics=-6.000000
+centerOfImpact=0.065000
+deviationMax=23

@@ -588,11 +588,11 @@ namespace FPS_n2 {
 			}
 			//
 			if (this->m_ItemsData.m_isWeaponMod) {
-				this->m_ItemsData.m_properties.DrawInfoWeaopnMod(xp, yp, &xofs, &yofs);
+				this->m_ItemsData.m_properties.DrawInfoWeaponMod(xp, yp, &xofs, &yofs);
 			}
 			//
 			if (this->m_ItemsData.m_isWeapon) {
-				this->m_ItemsData.m_properties.DrawInfoWeaopn(xp, yp, &xofs, &yofs);
+				this->m_ItemsData.m_properties.DrawInfoWeapon(xp, yp, &xofs, &yofs);
 			}
 			//
 			{

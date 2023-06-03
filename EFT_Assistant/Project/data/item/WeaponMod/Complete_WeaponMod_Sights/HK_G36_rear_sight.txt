@@ -26,4 +26,5 @@ Conflict=[
 ]
 Recoil=0.000000
 Ergonomics=0.000000
-SightRange=0
+SightRange=600
+sightZooms=1.000000

@@ -16,3 +16,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 Recoil=-9.000000
 Ergonomics=-14.000000
+centerOfImpact=0.016000
+deviationMax=33

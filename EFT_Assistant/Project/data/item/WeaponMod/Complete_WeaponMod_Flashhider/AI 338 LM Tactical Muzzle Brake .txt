@@ -20,3 +20,4 @@ ChildParts=[
 ]
 Recoil=-11.000000
 Ergonomics=-2.000000
+accuracyModifier=0.010000

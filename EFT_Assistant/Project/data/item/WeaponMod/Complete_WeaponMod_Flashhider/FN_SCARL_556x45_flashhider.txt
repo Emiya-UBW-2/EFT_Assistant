@@ -16,3 +16,4 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 Recoil=-7.000000
 Ergonomics=-1.000000
+accuracyModifier=0.010000
