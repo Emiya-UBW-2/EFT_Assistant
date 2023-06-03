@@ -12,10 +12,9 @@ Sell_Skier=13217
 Sell_Peacekeeper=101
 Sell_Mechanic=15105
 Sell_Jaeger=16184
-Sell_Flea Market=42000
+Sell_Flea Market=59999
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
-SightRange=100
 ChildParts=[
 	ORSIS T-5000M 7.62x51 5-round magazine
 ]
@@ -31,6 +30,7 @@ ChildParts=[
 Recoil=141.000000
 RecoilHorizontal=630.000000
 Ergonomics=35.000000
+SightRange=-100
 FireRate=30
 centerOfImpact=0.005000
 deviationCurve=1.000000

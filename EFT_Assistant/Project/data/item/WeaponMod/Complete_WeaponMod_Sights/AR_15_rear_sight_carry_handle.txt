@@ -14,7 +14,6 @@ Sell_Mechanic=460
 Sell_Flea Market=12433
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
-SightRange=0
 ChildParts=[
 	Kiba Arms Short Prism 2.5x scope/|
 	Trijicon ACOG TA01NSN 4x32 scope (Black)/|
@@ -78,3 +77,4 @@ Conflict=[
 ]
 Recoil=0.000000
 Ergonomics=0.000000
+SightRange=0

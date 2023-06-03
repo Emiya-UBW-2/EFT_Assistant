@@ -13,7 +13,6 @@ Sell_Peacekeeper=169
 Sell_Mechanic=25200
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
-SightRange=100
 ChildParts=[
 	RD-704 SLR ION Lite + Railed Gas Tube handguard & gas tube combo
 ]
@@ -142,6 +141,7 @@ ChildParts=[
 Recoil=152.000000
 RecoilHorizontal=409.000000
 Ergonomics=41.000000
+SightRange=-100
 FireRate=600
 centerOfImpact=0.062000
 deviationCurve=1.350000

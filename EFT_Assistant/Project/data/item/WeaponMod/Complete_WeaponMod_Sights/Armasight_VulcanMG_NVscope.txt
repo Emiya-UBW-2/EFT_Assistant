@@ -12,10 +12,9 @@ Sell_Skier=23005
 Sell_Peacekeeper=176
 Sell_Mechanic=26292
 Sell_Jaeger=28170
-Sell_Flea Market=28520
+Sell_Flea Market=29998
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
-SightRange=0
 ChildParts=[
 	BelOMO PK-06 reflex sight/|
 	Aimpoint Micro Standard Mount/|
@@ -28,3 +27,4 @@ ChildParts=[
 ]
 Recoil=0.000000
 Ergonomics=-15.000000
+SightRange=0

@@ -11,10 +11,9 @@ Sell_Fence=8520
 Sell_Skier=10437
 Sell_Peacekeeper=80
 Sell_Mechanic=11928
-Sell_Flea Market=48000
+Sell_Flea Market=69000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
-SightRange=100
 ChildParts=[
 	AR-15 Colt A2 pistol grip/|
 	AR-15 Damage Industries ECS pistol grip (FDE)/|
@@ -80,6 +79,7 @@ ChildParts=[
 Recoil=127.000000
 RecoilHorizontal=390.000000
 Ergonomics=48.000000
+SightRange=-100
 FireRate=800
 centerOfImpact=0.010000
 deviationCurve=1.350000

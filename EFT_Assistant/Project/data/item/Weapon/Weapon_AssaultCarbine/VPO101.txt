@@ -11,10 +11,9 @@ Sell_Fence=15591
 Sell_Skier=19099
 Sell_Peacekeeper=146
 Sell_Mechanic=21827
-Sell_Flea Market=28000
+Sell_Flea Market=24000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
-SightRange=100
 ChildParts=[
 	VPO-101 "Vepr-Hunter" gas tube
 ]
@@ -59,6 +58,7 @@ ChildParts=[
 Recoil=510.000000
 RecoilHorizontal=650.000000
 Ergonomics=29.000000
+SightRange=-100
 FireRate=600
 centerOfImpact=0.065000
 deviationCurve=1.350000

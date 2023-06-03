@@ -11,10 +11,9 @@ Sell_Fence=5900
 Sell_Skier=7227
 Sell_Peacekeeper=55
 Sell_Mechanic=8260
-Sell_Flea Market=19000
+Sell_Flea Market=33333
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
-SightRange=100
 ChildParts=[
 	AK Aeroknox Scorpius pistol grip/|
 	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip/|
@@ -93,6 +92,7 @@ ChildParts=[
 Recoil=58.000000
 RecoilHorizontal=300.000000
 Ergonomics=35.000000
+SightRange=-100
 FireRate=700
 centerOfImpact=0.130000
 deviationCurve=1.900000

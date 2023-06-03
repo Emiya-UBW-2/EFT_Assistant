@@ -15,7 +15,6 @@ Sell_Jaeger=5400
 Sell_Flea Market=49999
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
-SightRange=0
 ChildParts=[
 	BelOMO PK-06 reflex sight/|
 	Aimpoint Micro Standard Mount/|
@@ -42,3 +41,4 @@ ChildParts=[
 ]
 Recoil=0.000000
 Ergonomics=-2.000000
+SightRange=0

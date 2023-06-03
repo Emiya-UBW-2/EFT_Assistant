@@ -11,10 +11,9 @@ Sell_Fence=12437
 Sell_Skier=15235
 Sell_Peacekeeper=117
 Sell_Mechanic=17412
-Sell_Flea Market=95500
+Sell_Flea Market=55555
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
-SightRange=100
 ChildParts=[
 	SA-58 FAB Defense AG-FAL pistol grip/|
 	SA-58 pistol grip/|
@@ -60,6 +59,7 @@ ChildParts=[
 Recoil=250.000000
 RecoilHorizontal=510.000000
 Ergonomics=39.000000
+SightRange=-100
 FireRate=700
 centerOfImpact=0.000000
 deviationCurve=1.350000

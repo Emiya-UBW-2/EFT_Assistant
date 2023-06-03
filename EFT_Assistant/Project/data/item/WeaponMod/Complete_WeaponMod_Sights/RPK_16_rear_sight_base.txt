@@ -14,7 +14,6 @@ Sell_Mechanic=448
 Sell_Flea Market=500
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
-SightRange=0
 ChildParts=[
 	AK-105 rear sight (6P44 Sb.1-30)/|
 	AK-74 rear sight (6P20 Sb.2)/|
@@ -26,3 +25,4 @@ Conflict=[
 ]
 Recoil=0.000000
 Ergonomics=0.000000
+SightRange=0

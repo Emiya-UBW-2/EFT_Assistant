@@ -14,7 +14,6 @@ Sell_Mechanic=1008
 Sell_Flea Market=5300
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
-SightRange=0
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
 	ELCAN SpecterDR 1x/4x scope (FDE)/|
@@ -84,3 +83,4 @@ Conflict=[
 ]
 Recoil=0.000000
 Ergonomics=-2.000000
+SightRange=0

@@ -15,6 +15,6 @@ Sell_Jaeger=29482
 Sell_Flea Market=29999
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
-SightRange=0
 Recoil=0.000000
 Ergonomics=-3.000000
+SightRange=0

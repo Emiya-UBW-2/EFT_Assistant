@@ -15,7 +15,6 @@ Sell_Jaeger=3900
 Sell_Flea Market=5555
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
-SightRange=0
 ChildParts=[
 	Steyr AUG A1 5.56x45 20 inch barrel/|
 	Steyr AUG A3 5.56x45 16 inch barrel/|
@@ -23,3 +22,4 @@ ChildParts=[
 ]
 Recoil=0.000000
 Ergonomics=-3.000000
+SightRange=0

@@ -11,10 +11,9 @@ Sell_Fence=5200
 Sell_Skier=6370
 Sell_Peacekeeper=49
 Sell_Mechanic=7280
-Sell_Flea Market=36666
+Sell_Flea Market=50000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
-SightRange=100
 ChildParts=[
 	HK G36 5.56x45 30-round magazine/|
 	5.56x45 Colt AR-15 STANAG 30-round magazine/|
@@ -61,6 +60,7 @@ ChildParts=[
 Recoil=107.000000
 RecoilHorizontal=367.000000
 Ergonomics=60.000000
+SightRange=-100
 FireRate=750
 centerOfImpact=0.010000
 deviationCurve=1.350000

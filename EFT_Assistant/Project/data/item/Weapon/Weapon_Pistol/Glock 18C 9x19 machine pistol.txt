@@ -11,10 +11,9 @@ Sell_Fence=6090
 Sell_Skier=7460
 Sell_Peacekeeper=57
 Sell_Mechanic=8526
-Sell_Flea Market=23900
+Sell_Flea Market=24999
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
-SightRange=100
 ChildParts=[
 	Glock 18C 9x19 barrel with a compensator
 ]
@@ -56,6 +55,7 @@ ChildParts=[
 Recoil=306.000000
 RecoilHorizontal=286.000000
 Ergonomics=90.000000
+SightRange=-100
 FireRate=1200
 centerOfImpact=0.000000
 deviationCurve=2.250000

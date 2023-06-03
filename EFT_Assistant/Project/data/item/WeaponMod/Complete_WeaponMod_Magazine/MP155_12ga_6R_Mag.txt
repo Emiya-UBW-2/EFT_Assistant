@@ -16,3 +16,7 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesMagazine
 Recoil=0.000000
 Ergonomics=-3.000000
+capacity=6
+loadModifier=0.000000
+ammoCheckModifier=0.000000
+malfunctionChance=0.050000

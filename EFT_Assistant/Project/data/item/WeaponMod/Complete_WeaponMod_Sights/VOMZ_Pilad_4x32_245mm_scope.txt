@@ -12,10 +12,9 @@ Sell_Skier=7089
 Sell_Peacekeeper=54
 Sell_Mechanic=8102
 Sell_Jaeger=8680
-Sell_Flea Market=10000
+Sell_Flea Market=14000
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
-SightRange=0
 Conflict=[
 	Axion Kobra EKP-8-18 reflex sight/|
 	OKP-7 reflex sight/|
@@ -44,3 +43,4 @@ Conflict=[
 ]
 Recoil=0.000000
 Ergonomics=-4.000000
+SightRange=0

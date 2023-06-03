@@ -11,10 +11,9 @@ Sell_Fence=7538
 Sell_Skier=9234
 Sell_Peacekeeper=71
 Sell_Mechanic=10553
-Sell_Flea Market=18123
+Sell_Flea Market=20000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
-SightRange=100
 ChildParts=[
 	PP-91 "Kedr" polymer pistol grip
 ]
@@ -28,6 +27,7 @@ ChildParts=[
 Recoil=50.000000
 RecoilHorizontal=211.000000
 Ergonomics=65.000000
+SightRange=-100
 FireRate=900
 centerOfImpact=0.250000
 deviationCurve=2.250000

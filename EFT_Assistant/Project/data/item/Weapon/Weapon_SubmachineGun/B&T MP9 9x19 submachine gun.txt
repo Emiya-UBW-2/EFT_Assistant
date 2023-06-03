@@ -11,10 +11,9 @@ Sell_Fence=5715
 Sell_Skier=7001
 Sell_Peacekeeper=54
 Sell_Mechanic=8001
-Sell_Flea Market=23000
+Sell_Flea Market=33000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
-SightRange=100
 ChildParts=[
 	MP9 9x19 15-round magazine/|
 	MP9 9x19 20-round magazine/|
@@ -40,6 +39,7 @@ ChildParts=[
 Recoil=54.000000
 RecoilHorizontal=283.000000
 Ergonomics=75.000000
+SightRange=-100
 FireRate=900
 centerOfImpact=0.210000
 deviationCurve=2.250000

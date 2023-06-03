@@ -12,12 +12,12 @@ Sell_Skier=21021
 Sell_Peacekeeper=161
 Sell_Mechanic=24025
 Sell_Jaeger=25741
-Sell_Flea Market=28900
+Sell_Flea Market=44900
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
-SightRange=0
 ChildParts=[
 	Leupold DeltaPoint Reflex Sight
 ]
 Recoil=0.000000
 Ergonomics=-3.500000
+SightRange=0

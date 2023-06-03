@@ -14,6 +14,6 @@ Sell_Mechanic=420
 Sell_Flea Market=6666
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
-SightRange=0
 Recoil=0.000000
 Ergonomics=0.000000
+SightRange=0

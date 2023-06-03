@@ -11,10 +11,9 @@ Sell_Fence=15964
 Sell_Skier=19556
 Sell_Peacekeeper=150
 Sell_Mechanic=22350
-Sell_Flea Market=22222
+Sell_Flea Market=27999
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
-SightRange=100
 ChildParts=[
 	AK-74 gas tube (6P20 Sb.1-2)/|
 	AKM gas tube (6P1 Sb.1-2)/|
@@ -124,6 +123,7 @@ ChildParts=[
 Recoil=154.000000
 RecoilHorizontal=422.000000
 Ergonomics=38.000000
+SightRange=-100
 FireRate=600
 centerOfImpact=0.066000
 deviationCurve=1.350000

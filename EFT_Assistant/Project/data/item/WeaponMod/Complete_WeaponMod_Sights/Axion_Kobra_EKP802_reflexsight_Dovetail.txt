@@ -11,10 +11,9 @@ Sell_Fence=3740
 Sell_Skier=4582
 Sell_Peacekeeper=35
 Sell_Mechanic=5237
-Sell_Flea Market=9000
+Sell_Flea Market=10193
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
-SightRange=0
 ChildParts=[
 	Axion Kobra sight shade
 ]
@@ -23,3 +22,4 @@ Conflict=[
 ]
 Recoil=0.000000
 Ergonomics=-3.000000
+SightRange=0

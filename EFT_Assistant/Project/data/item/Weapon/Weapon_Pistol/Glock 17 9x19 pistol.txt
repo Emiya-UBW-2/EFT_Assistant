@@ -11,10 +11,9 @@ Sell_Fence=2643
 Sell_Skier=3237
 Sell_Peacekeeper=25
 Sell_Mechanic=3700
-Sell_Flea Market=10000
+Sell_Flea Market=15000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
-SightRange=100
 ChildParts=[
 	Glock 9x19 Lone Wolf AlphaWolf threaded barrel/|
 	Glock 9x19 Double Diamond threaded barrel/|
@@ -70,6 +69,7 @@ ChildParts=[
 Recoil=311.000000
 RecoilHorizontal=260.000000
 Ergonomics=90.000000
+SightRange=-100
 FireRate=30
 centerOfImpact=0.000000
 deviationCurve=2.250000

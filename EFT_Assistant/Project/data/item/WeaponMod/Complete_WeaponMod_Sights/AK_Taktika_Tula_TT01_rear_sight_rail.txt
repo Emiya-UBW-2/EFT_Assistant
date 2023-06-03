@@ -11,10 +11,9 @@ Sell_Fence=1079
 Sell_Skier=1322
 Sell_Peacekeeper=10
 Sell_Mechanic=1510
-Sell_Flea Market=8000
+Sell_Flea Market=6666
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
-SightRange=0
 ChildParts=[
 	EOTech EXPS3 holographic sight (Tan)/|
 	EOTech XPS3-0 holographic sight/|
@@ -45,3 +44,4 @@ Conflict=[
 ]
 Recoil=0.000000
 Ergonomics=-1.000000
+SightRange=0

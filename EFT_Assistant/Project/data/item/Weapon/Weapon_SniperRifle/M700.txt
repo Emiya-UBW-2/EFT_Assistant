@@ -12,10 +12,9 @@ Sell_Skier=8575
 Sell_Peacekeeper=66
 Sell_Mechanic=9800
 Sell_Jaeger=10500
-Sell_Flea Market=39999
+Sell_Flea Market=45333
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
-SightRange=100
 ChildParts=[
 	M700 7.62x51 AI AICS 10-round magazine/|
 	M700 7.62x51 AI AICS 5-round magazine/|
@@ -48,6 +47,7 @@ ChildParts=[
 Recoil=199.000000
 RecoilHorizontal=745.000000
 Ergonomics=33.000000
+SightRange=-100
 FireRate=30
 centerOfImpact=0.011000
 deviationCurve=1.000000

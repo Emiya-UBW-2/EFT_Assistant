@@ -10,6 +10,6 @@ Sell_Prapor=17521
 Sell_Therapist=22076
 Sell_Fence=14016
 Sell_Jaeger=21025
-Sell_Flea Market=45000
+Sell_Flea Market=73322
 fleaMarketFee=0
 propertiestype=ItemPropertiesMedKit

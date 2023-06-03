@@ -11,10 +11,9 @@ Sell_Fence=12400
 Sell_Skier=15190
 Sell_Peacekeeper=116
 Sell_Mechanic=17360
-Sell_Flea Market=41420
+Sell_Flea Market=44900
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
-SightRange=100
 ChildParts=[
 	SR-2M 9x21 30-round magazine/|
 	SR-2M 9x21 20-round magazine
@@ -41,6 +40,7 @@ ChildParts=[
 Recoil=54.000000
 RecoilHorizontal=260.000000
 Ergonomics=59.000000
+SightRange=-100
 FireRate=950
 centerOfImpact=0.230000
 deviationCurve=2.250000

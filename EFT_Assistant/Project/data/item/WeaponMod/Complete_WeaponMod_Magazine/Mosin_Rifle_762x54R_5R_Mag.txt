@@ -19,3 +19,7 @@ Conflict=[
 ]
 Recoil=0.000000
 Ergonomics=-1.000000
+capacity=5
+loadModifier=0.000000
+ammoCheckModifier=0.000000
+malfunctionChance=0.030000

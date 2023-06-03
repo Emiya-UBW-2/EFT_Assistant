@@ -12,10 +12,9 @@ Sell_Skier=14594
 Sell_Peacekeeper=112
 Sell_Mechanic=16679
 Sell_Jaeger=17870
-Sell_Flea Market=18999
+Sell_Flea Market=21799
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
-SightRange=0
 Conflict=[
 	AR-15 rear sight carry handle/|
 	RPK-16 rear sight base/|
@@ -23,3 +22,4 @@ Conflict=[
 ]
 Recoil=0.000000
 Ergonomics=-3.000000
+SightRange=0

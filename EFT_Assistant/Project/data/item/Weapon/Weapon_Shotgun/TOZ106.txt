@@ -15,7 +15,6 @@ Sell_Jaeger=2115
 Sell_Flea Market=13000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
-SightRange=100
 ChildParts=[
 	TOZ-106 20ga MTs 20-01 Sb.3 2-shot magazine/|
 	TOZ-106 20ga MTs 20-01 Sb.3 4-shot magazine/|
@@ -32,6 +31,7 @@ ChildParts=[
 Recoil=663.000000
 RecoilHorizontal=650.000000
 Ergonomics=60.000000
+SightRange=-100
 FireRate=30
 centerOfImpact=0.700000
 deviationCurve=2.500000

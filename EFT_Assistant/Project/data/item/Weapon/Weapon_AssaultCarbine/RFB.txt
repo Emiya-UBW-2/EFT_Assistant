@@ -12,10 +12,9 @@ Sell_Skier=11417
 Sell_Peacekeeper=87
 Sell_Mechanic=13048
 Sell_Jaeger=13980
-Sell_Flea Market=35000
+Sell_Flea Market=55420
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
-SightRange=100
 ChildParts=[
 	SA-58/FAL 7.62x51 10-round magazine/|
 	SA-58/FAL 7.62x51 20-round magazine/|
@@ -34,6 +33,7 @@ ChildParts=[
 Recoil=148.000000
 RecoilHorizontal=307.000000
 Ergonomics=48.000000
+SightRange=-100
 FireRate=700
 centerOfImpact=0.000000
 deviationCurve=1.100000

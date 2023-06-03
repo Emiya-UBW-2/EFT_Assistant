@@ -11,10 +11,9 @@ Sell_Fence=2040
 Sell_Skier=2499
 Sell_Peacekeeper=19
 Sell_Mechanic=2856
-Sell_Flea Market=5000
+Sell_Flea Market=6997
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
-SightRange=0
 Conflict=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
 	OKP-7 reflex sight (Dovetail)/|
@@ -46,3 +45,4 @@ Conflict=[
 ]
 Recoil=0.000000
 Ergonomics=-4.000000
+SightRange=0

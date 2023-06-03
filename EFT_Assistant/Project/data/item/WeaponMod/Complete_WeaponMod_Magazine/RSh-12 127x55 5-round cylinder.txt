@@ -41,3 +41,7 @@ ChildParts=[
 ]
 Recoil=-2.000000
 Ergonomics=-5.000000
+capacity=5
+loadModifier=0.000000
+ammoCheckModifier=0.000000
+malfunctionChance=0.000000

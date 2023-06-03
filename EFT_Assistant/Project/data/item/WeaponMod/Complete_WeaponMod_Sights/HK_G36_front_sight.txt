@@ -14,7 +14,6 @@ Sell_Mechanic=1316
 Sell_Flea Market=35000
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
-SightRange=0
 Conflict=[
 	Burris AR-P.E.P.R. 30mm ring scope mount/|
 	Geissele Super Precision 30mm ring scope mount/|
@@ -30,3 +29,4 @@ Conflict=[
 ]
 Recoil=0.000000
 Ergonomics=0.000000
+SightRange=0

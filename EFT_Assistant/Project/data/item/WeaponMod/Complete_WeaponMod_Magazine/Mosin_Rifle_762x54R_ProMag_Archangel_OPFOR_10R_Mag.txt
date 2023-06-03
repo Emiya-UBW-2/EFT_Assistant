@@ -11,7 +11,7 @@ Sell_Fence=2451
 Sell_Skier=3003
 Sell_Peacekeeper=23
 Sell_Mechanic=3432
-Sell_Flea Market=49999
+Sell_Flea Market=66666
 fleaMarketFee=0
 propertiestype=ItemPropertiesMagazine
 Conflict=[
@@ -25,3 +25,7 @@ Conflict=[
 ]
 Recoil=0.000000
 Ergonomics=-4.000000
+capacity=10
+loadModifier=0.000000
+ammoCheckModifier=0.000000
+malfunctionChance=0.040000

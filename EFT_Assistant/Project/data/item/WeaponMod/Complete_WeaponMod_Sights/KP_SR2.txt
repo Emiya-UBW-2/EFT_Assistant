@@ -11,12 +11,12 @@ Sell_Fence=5000
 Sell_Skier=6125
 Sell_Peacekeeper=47
 Sell_Mechanic=7000
-Sell_Flea Market=18998
+Sell_Flea Market=14998
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
-SightRange=0
 ChildParts=[
 	KP-SR2 sight shade
 ]
 Recoil=0.000000
 Ergonomics=-3.000000
+SightRange=0

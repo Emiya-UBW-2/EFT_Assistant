@@ -10,6 +10,6 @@ Sell_Fence=1233
 Sell_Skier=1511
 Sell_Peacekeeper=12
 Sell_Ragman=1912
-Sell_Flea Market=13999
+Sell_Flea Market=8999
 fleaMarketFee=0
 propertiestype=ItemPropertiesGlasses

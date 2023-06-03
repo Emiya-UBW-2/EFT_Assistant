@@ -11,10 +11,9 @@ Sell_Fence=9758
 Sell_Skier=11954
 Sell_Peacekeeper=91
 Sell_Mechanic=13662
-Sell_Flea Market=119999
+Sell_Flea Market=180000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
-SightRange=100
 ChildParts=[
 	AR-15 ADAR 2-15 wooden stock/|
 	AR-15 Hera Arms CQR pistol grip/buttstock/|
@@ -102,6 +101,7 @@ ChildParts=[
 Recoil=113.000000
 RecoilHorizontal=358.000000
 Ergonomics=50.000000
+SightRange=-100
 FireRate=800
 centerOfImpact=0.010000
 deviationCurve=1.350000

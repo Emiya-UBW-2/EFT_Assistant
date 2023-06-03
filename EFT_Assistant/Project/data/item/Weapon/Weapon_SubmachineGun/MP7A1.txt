@@ -11,10 +11,9 @@ Sell_Fence=17715
 Sell_Skier=21701
 Sell_Peacekeeper=166
 Sell_Mechanic=24801
-Sell_Flea Market=68888
+Sell_Flea Market=71000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
-SightRange=100
 ChildParts=[
 	HK MP7 4.6x30 20-round magazine/|
 	HK MP7 4.6x30 30-round magazine/|
@@ -143,6 +142,7 @@ ChildParts=[
 Recoil=50.000000
 RecoilHorizontal=198.000000
 Ergonomics=65.000000
+SightRange=-100
 FireRate=950
 centerOfImpact=0.250000
 deviationCurve=2.250000

@@ -12,10 +12,9 @@ Sell_Skier=7105
 Sell_Peacekeeper=54
 Sell_Mechanic=8120
 Sell_Jaeger=8700
-Sell_Flea Market=15805
+Sell_Flea Market=14000
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
-SightRange=0
 ChildParts=[
 	NPZ USP-1 scope eyecup
 ]
@@ -30,3 +29,4 @@ Conflict=[
 ]
 Recoil=0.000000
 Ergonomics=-6.000000
+SightRange=0

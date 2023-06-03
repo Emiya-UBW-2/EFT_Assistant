@@ -12,10 +12,9 @@ Sell_Skier=21057
 Sell_Peacekeeper=161
 Sell_Mechanic=24065
 Sell_Jaeger=25784
-Sell_Flea Market=75000
+Sell_Flea Market=75420
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
-SightRange=100
 ChildParts=[
 	DVL-10 7.62x51 10-round magazine
 ]
@@ -102,6 +101,7 @@ ChildParts=[
 Recoil=111.000000
 RecoilHorizontal=650.000000
 Ergonomics=40.000000
+SightRange=-100
 FireRate=30
 centerOfImpact=0.005000
 deviationCurve=1.000000

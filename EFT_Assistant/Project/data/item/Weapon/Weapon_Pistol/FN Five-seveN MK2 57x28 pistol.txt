@@ -11,10 +11,9 @@ Sell_Fence=5695
 Sell_Skier=6976
 Sell_Peacekeeper=53
 Sell_Mechanic=7973
-Sell_Flea Market=21000
+Sell_Flea Market=24666
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
-SightRange=100
 ChildParts=[
 	FN Five-seveN 5.7x28 barrel/|
 	FN Five-seveN 5.7x28 threaded barrel
@@ -41,6 +40,7 @@ ChildParts=[
 Recoil=281.000000
 RecoilHorizontal=240.000000
 Ergonomics=86.000000
+SightRange=-100
 FireRate=30
 centerOfImpact=0.000000
 deviationCurve=2.250000

@@ -14,7 +14,6 @@ Sell_Mechanic=700
 Sell_Flea Market=12000
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
-SightRange=0
 Conflict=[
 	Monstrum Tactical Compact Prism Scope 2x32/|
 	SIG Sauer BRAVO4 4x30 scope/|
@@ -27,3 +26,4 @@ Conflict=[
 ]
 Recoil=0.000000
 Ergonomics=0.000000
+SightRange=0

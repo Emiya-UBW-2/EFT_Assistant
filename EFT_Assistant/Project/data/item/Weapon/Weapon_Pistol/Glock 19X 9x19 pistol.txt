@@ -11,10 +11,9 @@ Sell_Fence=3280
 Sell_Skier=4018
 Sell_Peacekeeper=31
 Sell_Mechanic=4592
-Sell_Flea Market=11420
+Sell_Flea Market=16500
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
-SightRange=100
 ChildParts=[
 	Glock 19X 9x19 barrel
 ]
@@ -51,6 +50,7 @@ ChildParts=[
 Recoil=302.000000
 RecoilHorizontal=250.000000
 Ergonomics=93.000000
+SightRange=-100
 FireRate=30
 centerOfImpact=0.000000
 deviationCurve=2.250000

@@ -9,6 +9,6 @@ weight=0.169000
 Sell_Therapist=25541
 Sell_Ragman=25136
 Sell_Jaeger=24325
-Sell_Flea Market=26666
+Sell_Flea Market=26000
 fleaMarketFee=0
 propertiestype=ItemPropertiesContainer

@@ -11,10 +11,9 @@ Sell_Fence=960
 Sell_Skier=1176
 Sell_Peacekeeper=9
 Sell_Mechanic=1344
-Sell_Flea Market=12900
+Sell_Flea Market=19988
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
-SightRange=0
 ChildParts=[
 	OKP-7 reflex sight/|
 	EOTech 553 holographic sight/|
@@ -38,3 +37,4 @@ Conflict=[
 ]
 Recoil=0.000000
 Ergonomics=0.000000
+SightRange=0

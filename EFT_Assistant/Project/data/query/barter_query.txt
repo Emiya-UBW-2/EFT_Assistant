@@ -70,7 +70,14 @@
       uses
     }
     ...on ItemPropertiesMagazine{
+      allowedAmmo{name}
+
       capacity
+
+      loadModifier
+      ammoCheckModifier
+      malfunctionChance
+
       recoilModifier
       ergonomics
       slots{

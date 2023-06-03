@@ -24,6 +24,8 @@ EFT Assistant　ver0.3.3
 	・クラフトリスト追加
 	トレーダー
 	・購入価格
+	バグ
+	・ShiftJISでのコードなので[What’s on the Flash Drive?]でバグる(表示のみ)
 未達
 　　カスタム
 	・銃器カスタマイズ(カスタマイズ最適化)
@@ -40,8 +42,6 @@ EFT Assistant　ver0.3.3
 	・Scavの服早見表
 	トレーダー
 	・アイテムリストへの反映
-	バグ
-	・ShiftJISでのコードなので[What’s on the Flash Drive?]でバグる(表示のみ)
 
 操作
 ・左ボタンでタスクやレベル、折りたたみボタン等のクリック操作

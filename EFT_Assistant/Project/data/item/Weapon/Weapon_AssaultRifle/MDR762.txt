@@ -13,7 +13,6 @@ Sell_Peacekeeper=237
 Sell_Mechanic=35408
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
-SightRange=100
 ChildParts=[
 	MDR pistol grip (FDE)/|
 	MDR pistol grip (Black)
@@ -105,6 +104,7 @@ ChildParts=[
 Recoil=126.000000
 RecoilHorizontal=315.000000
 Ergonomics=72.000000
+SightRange=-100
 FireRate=650
 centerOfImpact=0.010000
 deviationCurve=1.350000

@@ -11,10 +11,9 @@ Sell_Fence=11120
 Sell_Skier=13622
 Sell_Peacekeeper=104
 Sell_Mechanic=15568
-Sell_Flea Market=94999
+Sell_Flea Market=175000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
-SightRange=100
 ChildParts=[
 	Glock 9x19 "Big Stick" 33-round magazine/|
 	Glock 9x19 17-round magazine/|
@@ -116,6 +115,7 @@ ChildParts=[
 Recoil=37.000000
 RecoilHorizontal=351.000000
 Ergonomics=65.000000
+SightRange=-100
 FireRate=950
 centerOfImpact=0.250000
 deviationCurve=2.250000

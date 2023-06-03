@@ -11,10 +11,9 @@ Sell_Fence=10600
 Sell_Skier=12985
 Sell_Peacekeeper=99
 Sell_Mechanic=14840
-Sell_Flea Market=30000
+Sell_Flea Market=32000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
-SightRange=100
 ChildParts=[
 	HK UMP .45 ACP 25-round magazine
 ]
@@ -82,6 +81,7 @@ ChildParts=[
 Recoil=72.000000
 RecoilHorizontal=315.000000
 Ergonomics=62.000000
+SightRange=-100
 FireRate=600
 centerOfImpact=0.250000
 deviationCurve=2.250000

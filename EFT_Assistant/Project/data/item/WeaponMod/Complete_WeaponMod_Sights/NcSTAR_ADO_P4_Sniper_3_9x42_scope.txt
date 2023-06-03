@@ -12,13 +12,13 @@ Sell_Skier=25158
 Sell_Peacekeeper=193
 Sell_Mechanic=28752
 Sell_Jaeger=30806
-Sell_Flea Market=32500
+Sell_Flea Market=32999
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
-SightRange=0
 Conflict=[
 	MPX flip-up front sight/|
 	MPX flip-up rear sight
 ]
 Recoil=0.000000
 Ergonomics=-2.000000
+SightRange=0

@@ -10,6 +10,6 @@ Sell_Therapist=37982
 Sell_Fence=24116
 Sell_Skier=29542
 Sell_Peacekeeper=226
-Sell_Flea Market=37000
+Sell_Flea Market=37982
 fleaMarketFee=0
 propertiestype=

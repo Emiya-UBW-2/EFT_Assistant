@@ -11,10 +11,9 @@ Sell_Fence=3800
 Sell_Skier=4655
 Sell_Peacekeeper=36
 Sell_Mechanic=5320
-Sell_Flea Market=15000
+Sell_Flea Market=24000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
-SightRange=100
 ChildParts=[
 	HK USP .45 ACP barrel/|
 	HK USP Tactical .45 ACP threaded barrel/|
@@ -50,6 +49,7 @@ ChildParts=[
 Recoil=410.000000
 RecoilHorizontal=295.000000
 Ergonomics=82.000000
+SightRange=-100
 FireRate=30
 centerOfImpact=0.000000
 deviationCurve=2.250000

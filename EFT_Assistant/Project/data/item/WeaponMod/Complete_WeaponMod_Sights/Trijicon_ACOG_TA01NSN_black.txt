@@ -12,13 +12,13 @@ Sell_Skier=13554
 Sell_Peacekeeper=104
 Sell_Mechanic=15491
 Sell_Jaeger=16597
-Sell_Flea Market=17999
+Sell_Flea Market=23333
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
-SightRange=0
 ChildParts=[
 	Trijicon ACOG backup rear sight/|
 	Trijicon RMR mount for ACOG scopes
 ]
 Recoil=0.000000
 Ergonomics=-2.000000
+SightRange=0

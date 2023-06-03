@@ -11,10 +11,9 @@ Sell_Fence=8944
 Sell_Skier=10956
 Sell_Peacekeeper=84
 Sell_Mechanic=12521
-Sell_Flea Market=55000
+Sell_Flea Market=67000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
-SightRange=100
 ChildParts=[
 	AK-12 pistol grip/|
 	AK bakelite pistol grip (6P1 Sb.8V)/|
@@ -71,6 +70,7 @@ ChildParts=[
 Recoil=112.000000
 RecoilHorizontal=370.000000
 Ergonomics=45.000000
+SightRange=-100
 FireRate=650
 centerOfImpact=0.040000
 deviationCurve=1.350000

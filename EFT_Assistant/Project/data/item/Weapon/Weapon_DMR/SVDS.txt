@@ -12,10 +12,9 @@ Sell_Skier=20972
 Sell_Peacekeeper=161
 Sell_Mechanic=23968
 Sell_Jaeger=25680
-Sell_Flea Market=74986
+Sell_Flea Market=78000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
-SightRange=100
 ChildParts=[
 	AK Aeroknox Scorpius pistol grip/|
 	AK-12 pistol grip/|
@@ -85,6 +84,7 @@ ChildParts=[
 Recoil=289.000000
 RecoilHorizontal=750.000000
 Ergonomics=26.000000
+SightRange=-100
 FireRate=700
 centerOfImpact=0.000000
 deviationCurve=1.100000

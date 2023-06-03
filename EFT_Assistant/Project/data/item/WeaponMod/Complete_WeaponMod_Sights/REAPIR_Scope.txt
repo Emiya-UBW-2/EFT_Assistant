@@ -14,9 +14,9 @@ Sell_Mechanic=199244
 Sell_Jaeger=213476
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
-SightRange=0
 ChildParts=[
 	Trijicon REAP-IR scope eyecup
 ]
 Recoil=0.000000
 Ergonomics=-13.000000
+SightRange=0

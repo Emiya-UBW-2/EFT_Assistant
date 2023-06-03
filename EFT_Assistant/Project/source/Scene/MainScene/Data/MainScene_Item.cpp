@@ -2,74 +2,6 @@
 
 namespace FPS_n2 {
 	//
-	void ItemList::ItemProperties::OutputData(std::ofstream& outputfile) noexcept {
-		outputfile << "propertiestype=" + (std::string)(this->GetTypeName()) + "\n";
-		if (this->GetSightingRange() >= 0) {
-			outputfile << "SightRange=" + std::to_string(this->GetSightingRange()) + "\n";
-		}
-		if (this->m_ChildPartsID.size() > 0) {
-			for (const auto& m : this->m_ChildPartsID) {
-				if (m.m_Data.size() > 0) {
-					outputfile << "ChildParts=[\n";
-					std::vector<std::string> Names;
-					for (auto& d : m.m_Data) {
-						auto NmBuf = d.GetName();
-						if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
-							outputfile << "\t" + NmBuf + ((&d != &m.m_Data.back()) ? DIV_STR : "") + "\n";
-							Names.emplace_back(NmBuf);
-						}
-					}
-					outputfile << "]\n";
-				}
-			}
-		}
-		if (this->m_ConflictPartsID.size() > 0) {
-			bool isHit = false;
-			std::vector<std::string> Names;
-			for (auto& m : this->m_ConflictPartsID) {
-				auto NmBuf = m.GetName();
-				if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
-					if (!isHit) {
-						isHit = true;
-						outputfile << "Conflict=[\n";
-					}
-					outputfile << "\t" + NmBuf + ((&m != &this->m_ConflictPartsID.back()) ? DIV_STR : "") + "\n";
-					Names.emplace_back(NmBuf);
-				}
-			}
-			if (isHit) {
-				outputfile << "]\n";
-			}
-		}
-		if (this->GetType() == EnumItemProperties::ItemPropertiesWeapon) {
-			outputfile << "Recoil=" + std::to_string((float)this->GetWeaponRecoilVertical()) + "\n";
-			outputfile << "RecoilHorizontal=" + std::to_string((float)this->GetWeaponRecoilHorizontal()) + "\n";
-			outputfile << "Ergonomics=" + std::to_string(this->GetWeaponErgonomics()) + "\n";
-			outputfile << "FireRate=" + std::to_string(this->GetWeaponFireRate()) + "\n";
-			outputfile << "centerOfImpact=" + std::to_string(this->GetWeaponcenterOfImpact()) + "\n";
-			outputfile << "deviationCurve=" + std::to_string(this->GetWeapondeviationCurve()) + "\n";
-			outputfile << "recoilDispersion=" + std::to_string(this->GetWeaponrecoilDispersion()) + "\n";
-			outputfile << "recoilAngle=" + std::to_string(this->GetWeaponrecoilAngle()) + "\n";
-			outputfile << "cameraRecoil=" + std::to_string(this->GetWeaponcameraRecoil()) + "\n";
-			outputfile << "cameraSnap=" + std::to_string(this->GetWeaponcameraSnap()) + "\n";
-			outputfile << "deviationMax=" + std::to_string(this->GetWeapondeviationMax()) + "\n";
-			outputfile << "convergence=" + std::to_string(this->GetWeaponconvergence()) + "\n";
-		}
-		else {
-			switch (this->GetType()) {
-			case EnumItemProperties::ItemPropertiesBarrel:
-			case EnumItemProperties::ItemPropertiesMagazine:
-			case EnumItemProperties::ItemPropertiesScope:
-			case EnumItemProperties::ItemPropertiesWeaponMod:
-				outputfile << "Recoil=" + std::to_string((float)this->GetModRecoil()*100.f) + "\n";
-				outputfile << "Ergonomics=" + std::to_string(this->GetModErgonomics()) + "\n";
-				break;
-			default:
-				break;
-			}
-		}
-	}
-	//
 	void			ItemList::SetSub(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
 		if (LEFT == "Itemtype") { this->m_ItemsData.m_TypeID.SetName(Args[0]); }
 		else if (LEFT == "Map") {
@@ -656,40 +588,11 @@ namespace FPS_n2 {
 			}
 			//
 			if (this->m_ItemsData.m_isWeaponMod) {
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STRX_LEFT, (this->GetRecoil() < 0.f) ? Green : Red, Black,
-					"Recoil(リコイル変動値):%3.1f %%", this->GetRecoil()) + y_r(30)); yofs += LineHeight + y_r(5);
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STRX_LEFT, (this->GetErgonomics() >= 0.f) ? Green : Red, Black,
-					"Ergonomics(エルゴノミクス変動値):%3.1f", this->GetErgonomics()) + y_r(30)); yofs += LineHeight + y_r(5);
+				this->m_ItemsData.m_properties.DrawInfoWeaopnMod(xp, yp, &xofs, &yofs);
 			}
 			//
 			if (this->m_ItemsData.m_isWeapon) {
-				int ysiz = LineHeight * 6 / 10;
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + ysiz + yofs, ysiz, STRX_LEFT, (this->GetRecoil() < 0.f) ? Green : Red, Black,
-					"RecoilVertical    (縦リコイル)     :%3d %%", (int)this->GetRecoil()) + y_r(30)); yofs += ysiz + y_r(5);
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + ysiz + yofs, ysiz, STRX_LEFT, (this->GetRecoilHorizontal() < 0.f) ? Green : Red, Black,
-					"RecoilHorizontal  (横リコイル)     :%3d %%", this->GetRecoilHorizontal()) + y_r(30)); yofs += ysiz + y_r(5);
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + ysiz + yofs, ysiz, STRX_LEFT, White, Black,
-					"Ergonomics        (エルゴノミクス) :%3.1f", this->GetErgonomics()) + y_r(30)); yofs += ysiz + y_r(5);
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + ysiz + yofs, ysiz, STRX_LEFT, White, Black,
-					"SightRange        (照準距離)       :%3d %%", this->GetSightRange()) + y_r(30)); yofs += ysiz + y_r(5);
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + ysiz + yofs, ysiz, STRX_LEFT, White, Black,
-					"FireRate          (発射速度)       :%3d %%", this->GetFireRate()) + y_r(30)); yofs += ysiz + y_r(5);
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + ysiz + yofs, ysiz, STRX_LEFT, White, Black,
-					"CenterOfImpact    (跳ね上がり？)   :%3.2f %%", this->GetcenterOfImpact()) + y_r(30)); yofs += ysiz + y_r(5);
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + ysiz + yofs, ysiz, STRX_LEFT, White, Black,
-					"deviationCurve    (偏差の曲線？)   :%3.1f %%", this->GetdeviationCurve()) + y_r(30)); yofs += ysiz + y_r(5);
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + ysiz + yofs, ysiz, STRX_LEFT, White, Black,
-					"recoilDispersion  (リコイルの分散？):%3d %%", this->GetrecoilDispersion()) + y_r(30)); yofs += ysiz + y_r(5);
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + ysiz + yofs, ysiz, STRX_LEFT, White, Black,
-					"recoilAngle       (リコイルの角度？):%3d %%", this->GetrecoilAngle()) + y_r(30)); yofs += ysiz + y_r(5);
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + ysiz + yofs, ysiz, STRX_LEFT, White, Black,
-					"cameraRecoil      (カメラリコイル？):%3.1f %%", this->GetcameraRecoil()) + y_r(30)); yofs += ysiz + y_r(5);
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + ysiz + yofs, ysiz, STRX_LEFT, White, Black,
-					"cameraSnap        (カメラスナップ？):%3.1f %%", this->GetcameraSnap()) + y_r(30)); yofs += ysiz + y_r(5);
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + ysiz + yofs, ysiz, STRX_LEFT, White, Black,
-					"deviationMax      (偏差の最大値？)  :%3d %%", this->GetdeviationMax()) + y_r(30)); yofs += ysiz + y_r(5);
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + ysiz + yofs, ysiz, STRX_LEFT, White, Black,
-					"convergence       (収束？)          :%3.1f %%", this->Getconvergence()) + y_r(30)); yofs += ysiz + y_r(5);
+				this->m_ItemsData.m_properties.DrawInfoWeaopn(xp, yp, &xofs, &yofs);
 			}
 			//
 			{

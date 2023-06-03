@@ -11,10 +11,9 @@ Sell_Fence=11805
 Sell_Skier=14461
 Sell_Peacekeeper=111
 Sell_Mechanic=16527
-Sell_Flea Market=40000
+Sell_Flea Market=38500
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
-SightRange=100
 ChildParts=[
 	AK Kiba Arms VDM CS gas tube/|
 	AK-74 gas tube (6P20 Sb.1-2)/|
@@ -129,6 +128,7 @@ ChildParts=[
 Recoil=161.000000
 RecoilHorizontal=448.000000
 Ergonomics=26.000000
+SightRange=-100
 FireRate=600
 centerOfImpact=0.067000
 deviationCurve=1.350000

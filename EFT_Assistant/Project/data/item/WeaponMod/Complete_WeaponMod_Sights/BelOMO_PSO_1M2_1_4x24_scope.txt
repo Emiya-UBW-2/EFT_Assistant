@@ -12,10 +12,9 @@ Sell_Skier=9694
 Sell_Peacekeeper=74
 Sell_Mechanic=11079
 Sell_Jaeger=11870
-Sell_Flea Market=17999
+Sell_Flea Market=12200
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
-SightRange=0
 ChildParts=[
 	PSO scope eyecup
 ]
@@ -30,3 +29,4 @@ Conflict=[
 ]
 Recoil=0.000000
 Ergonomics=-7.000000
+SightRange=0

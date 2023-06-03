@@ -11,10 +11,9 @@ Sell_Fence=7732
 Sell_Skier=9472
 Sell_Peacekeeper=72
 Sell_Mechanic=10825
-Sell_Flea Market=21000
+Sell_Flea Market=23261
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
-SightRange=100
 ChildParts=[
 	SKS FAB Defense UAS chassis/|
 	OP-SKS wooden stock/|
@@ -37,6 +36,7 @@ ChildParts=[
 Recoil=155.000000
 RecoilHorizontal=400.000000
 Ergonomics=40.000000
+SightRange=-100
 FireRate=40
 centerOfImpact=0.050000
 deviationCurve=1.350000

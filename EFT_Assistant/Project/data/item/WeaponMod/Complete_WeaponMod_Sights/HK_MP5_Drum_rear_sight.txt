@@ -11,12 +11,12 @@ Sell_Fence=840
 Sell_Skier=1029
 Sell_Peacekeeper=8
 Sell_Mechanic=1176
-Sell_Flea Market=9999
+Sell_Flea Market=4999
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
-SightRange=0
 Conflict=[
 	Nightforce Magmount 30mm ring scope mount
 ]
 Recoil=0.000000
 Ergonomics=0.000000
+SightRange=0

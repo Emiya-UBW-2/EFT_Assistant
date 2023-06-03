@@ -74,8 +74,8 @@ namespace FPS_n2 {
 						ErgonomicsPer += ChildPtr->GetErgonomics();
 					}
 				}
-				m_Recoil = (m_BaseWeapon->GetRecoil()*(100.f + RecoilPer) / 100.f);
-				m_Ergonomics = (m_BaseWeapon->GetErgonomics() + ErgonomicsPer);
+				m_Recoil = ((float)(m_BaseWeapon->GetRecoilVertical())*(100.f + RecoilPer) / 100.f);
+				m_Ergonomics = (m_BaseWeapon->GetWeaponErgonomics() + ErgonomicsPer);
 			}
 		}
 	}
@@ -332,8 +332,8 @@ namespace FPS_n2 {
 			m_PartsChange = false;//‚±‚ê‚Å–³Œø‰»
 			if (m_PartsChange) {
 				m_PartsChange = false;
-				//float RecoilPer2 = this->m_Recoil * 100.f / this->m_BaseWeapon->GetRecoil() - 100.f;
-				//float ErgonomicsPer2 = (m_Ergonomics - this->m_BaseWeapon->GetErgonomics());
+				//float RecoilPer2 = this->m_Recoil * 100.f / (float)(this->m_BaseWeapon->GetRecoilVertical()) - 100.f;
+				//float ErgonomicsPer2 = (m_Ergonomics - this->m_BaseWeapon->GetWeaponErgonomics());
 
 				std::vector<std::vector<std::vector<PartsBaseData>>>	PartsDatas;
 				CalcChildErgRec(&PartsDatas);
@@ -511,9 +511,9 @@ namespace FPS_n2 {
 				int valueMin = 0;
 				int valueMax = 100;
 
-				float ErgonomicsPer2 = (m_Ergonomics - this->m_BaseWeapon->GetErgonomics());
-				float ErgMin = (m_BaseWeapon->GetErgonomics() + ErgonomicsPer2 + this->m_ErgAddMin);
-				float ErgMax = (m_BaseWeapon->GetErgonomics() + ErgonomicsPer2 + this->m_ErgAddMax);
+				float ErgonomicsPer2 = (m_Ergonomics - this->m_BaseWeapon->GetWeaponErgonomics());
+				float ErgMin = (m_BaseWeapon->GetWeaponErgonomics() + ErgonomicsPer2 + this->m_ErgAddMin);
+				float ErgMax = (m_BaseWeapon->GetWeaponErgonomics() + ErgonomicsPer2 + this->m_ErgAddMax);
 
 				int xp_t = 0;
 				{
@@ -579,9 +579,9 @@ namespace FPS_n2 {
 				int valueMin = 0;
 				int valueMax = 100;
 
-				float RecoilPer2 = this->m_Recoil * 100.f / this->m_BaseWeapon->GetRecoil() - 100.f;
-				float RecMin = (m_BaseWeapon->GetRecoil()*(100.f + RecoilPer2 + this->m_RecAddMin) / 100.f);
-				float RecMax = (m_BaseWeapon->GetRecoil()*(100.f + RecoilPer2 + this->m_RecAddMax) / 100.f);
+				float RecoilPer2 = this->m_Recoil * 100.f / (float)(this->m_BaseWeapon->GetRecoilVertical()) - 100.f;
+				float RecMin = ((float)(m_BaseWeapon->GetRecoilVertical())*(100.f + RecoilPer2 + this->m_RecAddMin) / 100.f);
+				float RecMax = ((float)(m_BaseWeapon->GetRecoilVertical())*(100.f + RecoilPer2 + this->m_RecAddMax) / 100.f);
 
 				int xp_t = 0;
 				{

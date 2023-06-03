@@ -12,10 +12,9 @@ Sell_Skier=8093
 Sell_Peacekeeper=62
 Sell_Mechanic=9249
 Sell_Jaeger=9910
-Sell_Flea Market=33333
+Sell_Flea Market=23333
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
-SightRange=100
 ChildParts=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
 	BelOMO PK-AA dovetail reflex sight/|
@@ -97,6 +96,7 @@ ChildParts=[
 Recoil=332.000000
 RecoilHorizontal=650.000000
 Ergonomics=35.000000
+SightRange=-100
 FireRate=40
 centerOfImpact=0.600000
 deviationCurve=2.500000

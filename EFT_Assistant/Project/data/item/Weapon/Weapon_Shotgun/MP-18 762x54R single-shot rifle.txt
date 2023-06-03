@@ -12,10 +12,9 @@ Sell_Skier=3822
 Sell_Peacekeeper=29
 Sell_Mechanic=4368
 Sell_Jaeger=4680
-Sell_Flea Market=15000
+Sell_Flea Market=30000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
-SightRange=100
 ChildParts=[
 	MP-18 7.62x54R 600mm barrel
 ]
@@ -26,6 +25,7 @@ ChildParts=[
 Recoil=328.000000
 RecoilHorizontal=930.000000
 Ergonomics=44.000000
+SightRange=-100
 FireRate=900
 centerOfImpact=0.010000
 deviationCurve=2.500000

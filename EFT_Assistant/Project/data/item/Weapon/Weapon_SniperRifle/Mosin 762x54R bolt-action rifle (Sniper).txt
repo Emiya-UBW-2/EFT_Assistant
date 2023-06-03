@@ -12,10 +12,9 @@ Sell_Skier=7632
 Sell_Peacekeeper=58
 Sell_Mechanic=8723
 Sell_Jaeger=9346
-Sell_Flea Market=59420
+Sell_Flea Market=56666
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
-SightRange=100
 ChildParts=[
 	Mosin Rifle 7.62x54R 5-round magazine/|
 	Mosin Rifle 7.62x54R ProMag Archangel OPFOR 10-round magazine
@@ -42,6 +41,7 @@ ChildParts=[
 Recoil=288.000000
 RecoilHorizontal=975.000000
 Ergonomics=17.000000
+SightRange=-100
 FireRate=30
 centerOfImpact=0.011000
 deviationCurve=1.000000
