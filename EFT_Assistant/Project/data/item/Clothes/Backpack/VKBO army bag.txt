@@ -9,6 +9,6 @@ weight=0.960000
 Sell_Fence=976
 Sell_Ragman=1512
 Sell_Jaeger=1464
-Sell_Flea Market=19555
+Sell_Flea Market=18000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack

@@ -11,6 +11,6 @@ Sell_Therapist=14175
 Sell_Fence=9000
 Sell_Skier=11025
 Sell_Ragman=13950
-Sell_Flea Market=28100
+Sell_Flea Market=37000
 fleaMarketFee=0
 propertiestype=

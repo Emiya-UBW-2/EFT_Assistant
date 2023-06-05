@@ -152,7 +152,6 @@ namespace FPS_n2 {
 					return 0;
 				}
 			}
-			const auto		GetHitpoints() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMedKit) ? this->m_IntParams[0] : 0; }
 			const auto		GetIntensity() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesNightVision) ? this->m_IntParams[0] : 0; }
 			const auto		GetDefault() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesPreset) ? this->m_IntParams[0] : 0; }
 
@@ -412,6 +411,7 @@ namespace FPS_n2 {
 			const auto		GetMedUseTime() const noexcept {
 				switch (m_Type) {
 				case EnumItemProperties::ItemPropertiesMedicalItem:
+				case EnumItemProperties::ItemPropertiesMedKit:
 				case EnumItemProperties::ItemPropertiesPainkiller:
 				case EnumItemProperties::ItemPropertiesSurgicalKit:
 				case EnumItemProperties::ItemPropertiesStim:
@@ -421,22 +421,104 @@ namespace FPS_n2 {
 				}
 			}
 			const auto&		GetMedCures() const noexcept { return m_cures; }
+			//
+			const auto		GetMedUses() const noexcept {
+				switch (m_Type) {
+				case EnumItemProperties::ItemPropertiesMedicalItem:
+				case EnumItemProperties::ItemPropertiesPainkiller:
+				case EnumItemProperties::ItemPropertiesSurgicalKit:
+					return this->m_IntParams[1];
+				default:
+					return 0;
+				}
+			}
+			const auto		GetHitpoints() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMedKit) ? this->m_IntParams[1] : 0; }
+			const auto		GetmaxHealPerUse() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMedKit) ? this->m_IntParams[2] : 0; }
+			const auto		GethpCostLightBleeding() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMedKit) ? this->m_IntParams[3] : -1; }
+			const auto		GethpCostHeavyBleeding() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMedKit) ? this->m_IntParams[4] : -1; }
+			//
+			const auto		GetpainkillerDuration() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMedKit) ? this->m_IntParams[2] : 0; }
+			const auto		GetenergyImpact() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMedKit) ? this->m_IntParams[3] : 0; }
+			const auto		GethydrationImpact() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMedKit) ? this->m_IntParams[4] : 0; }
+			//
+			const auto		GetminLimbHealth() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesSurgicalKit) ? this->m_floatParams[0] : 0; }
+			const auto		GetmaxLimbHealth() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesSurgicalKit) ? this->m_floatParams[1] : 0; }
+			//
 			void			DrawInfoMed(int xp, int yp, int* xofs, int* yofs) const noexcept {
 				int ysiz = LineHeight * 6 / 10;
 				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
 					"使用時間 :%3.1f", this->GetMedUseTime()) + y_r(30)); *yofs += ysiz + y_r(5);
 				for (auto& m : m_cures) {
 					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-						"治療箇所 :%s", m.c_str()) + y_r(30)); *yofs += ysiz + y_r(5);
+						"治療内容 :%s", m.c_str()) + y_r(30)); *yofs += ysiz + y_r(5);
 				}
 				switch (m_Type) {
 				case EnumItemProperties::ItemPropertiesMedicalItem:
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+						"使用回数 :%3d", this->GetMedUses()) + y_r(30)); *yofs += ysiz + y_r(5);
+					break;
+				case EnumItemProperties::ItemPropertiesMedKit:
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+						"HP :%3d", this->GetHitpoints()) + y_r(30)); *yofs += ysiz + y_r(5);
+
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+						"回復消費最大値 :%3d", this->GetmaxHealPerUse()) + y_r(30)); *yofs += ysiz + y_r(5);
+					if (this->GethpCostLightBleeding() > 0) {
+						*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+							"軽出血消費 :%3d", this->GethpCostLightBleeding()) + y_r(30)); *yofs += ysiz + y_r(5);
+					}
+					if (this->GethpCostHeavyBleeding() > 0) {
+						*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+							"重出血消費 :%3d", this->GethpCostHeavyBleeding()) + y_r(30)); *yofs += ysiz + y_r(5);
+					}
 					break;
 				case EnumItemProperties::ItemPropertiesPainkiller:
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+						"使用回数 :%3d", this->GetMedUses()) + y_r(30)); *yofs += ysiz + y_r(5);
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+						"鎮痛時間 :%3d", this->GetpainkillerDuration()) + y_r(30)); *yofs += ysiz + y_r(5);
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+						"エネルギーへの影響 :%3d", this->GetenergyImpact()) + y_r(30)); *yofs += ysiz + y_r(5);
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+						"水分への影響 :%3d", this->GethydrationImpact()) + y_r(30)); *yofs += ysiz + y_r(5);
 					break;
 				case EnumItemProperties::ItemPropertiesSurgicalKit:
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+						"使用回数 :%3d", this->GetMedUses()) + y_r(30)); *yofs += ysiz + y_r(5);
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+						"最小回復 :%3.1f", this->GetminLimbHealth()) + y_r(30)); *yofs += ysiz + y_r(5);
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+						"最高回復 :%3.1f", this->GetmaxLimbHealth()) + y_r(30)); *yofs += ysiz + y_r(5);
 					break;
 				case EnumItemProperties::ItemPropertiesStim:
+					for (const auto& s : m_stimEffects) {
+						{
+							if (s.GetskillName() != "") {
+								*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+									"スキルへの影響 :%s", s.GetskillName().c_str()) + y_r(30));
+								*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + y_r(500), yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+									"%s%3.2f", (s.Getvalue() >= 0) ? "+" : "", s.Getvalue()) + y_r(500) + y_r(30)); *yofs += ysiz + y_r(5);
+							}
+							else {
+								*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+									"効果タイプ :%s", s.Gettype().c_str()) + y_r(30));
+								*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + y_r(500), yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+									"影響数値 :%3.2f", s.Getvalue()) + y_r(500) + y_r(30)); *yofs += ysiz + y_r(5);
+							}
+						}
+						if (s.Getchance() < 1.f) {
+							*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+								"確率 :%3.1f%%", s.Getchance()*100.f) + y_r(30)); *yofs += ysiz + y_r(5);
+						}
+						{
+							*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+								"効果までの遅延 :%3d", s.Getdelay()) + y_r(30));
+							*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + y_r(500), yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+								"効果時間 :%3d", s.Getduration()) + y_r(500) + y_r(30)); *yofs += ysiz + y_r(5);
+						}
+						*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+							"パーセント？ :%s", (s.Getpercent() ? "TRUE" : "FALSE")) + y_r(30)); *yofs += ysiz + y_r(5);
+					}
 					break;
 				default:
 					break;
@@ -450,10 +532,34 @@ namespace FPS_n2 {
 				}
 				switch (m_Type) {
 				case EnumItemProperties::ItemPropertiesMedicalItem:
+					m_IntParams[1] = data["uses"];
+					break;
+				case EnumItemProperties::ItemPropertiesMedKit:
+					m_IntParams[1] = data["hitpoints"];
+					m_IntParams[2] = data["maxHealPerUse"];
+					if (!data["hpCostLightBleeding"].is_null()) {
+						m_IntParams[3] = data["hpCostLightBleeding"];
+					}
+					else {
+						m_IntParams[3] = -1;
+					}
+					if (!data["hpCostHeavyBleeding"].is_null()) {
+						m_IntParams[4] = data["hpCostHeavyBleeding"];
+					}
+					else {
+						m_IntParams[4] = -1;
+					}
 					break;
 				case EnumItemProperties::ItemPropertiesPainkiller:
+					m_IntParams[1] = data["uses"];
+					m_IntParams[2] = data["painkillerDuration"];
+					m_IntParams[3] = data["energyImpact"];
+					m_IntParams[4] = data["hydrationImpact"];
 					break;
 				case EnumItemProperties::ItemPropertiesSurgicalKit:
+					m_IntParams[1] = data["uses"];
+					m_floatParams[0] = data["minLimbHealth"];
+					m_floatParams[1] = data["maxLimbHealth"];
 					break;
 				case EnumItemProperties::ItemPropertiesStim:
 					if (!data["stimEffects"].is_null()) {
@@ -485,6 +591,21 @@ namespace FPS_n2 {
 						m_cures.emplace_back(m);
 					}
 				}
+				//
+				else if (LEFT == "uses") { this->m_IntParams[1] = std::stoi(Args[0]); }
+				//
+				else if (LEFT == "hitpoints") { this->m_IntParams[1] = std::stoi(Args[0]); }
+				else if (LEFT == "maxHealPerUse") { this->m_IntParams[2] = std::stoi(Args[0]); }
+				else if (LEFT == "hpCostLightBleeding") { this->m_IntParams[3] = std::stoi(Args[0]); }
+				else if (LEFT == "hpCostHeavyBleeding") { this->m_IntParams[4] = std::stoi(Args[0]); }
+				//
+				else if (LEFT == "painkillerDuration") { this->m_IntParams[2] = std::stoi(Args[0]); }
+				else if (LEFT == "energyImpact") { this->m_IntParams[3] = std::stoi(Args[0]); }
+				else if (LEFT == "hydrationImpact") { this->m_IntParams[4] = std::stoi(Args[0]); }
+				//
+				else if (LEFT == "minLimbHealth") { this->m_floatParams[0] = std::stof(Args[0]); }
+				else if (LEFT == "maxLimbHealth") { this->m_floatParams[1] = std::stof(Args[0]); }
+				//stim
 				else if (LEFT == "stimEffectsType") {
 					m_stimEffects.resize(m_stimEffects.size() + 1);
 					m_stimEffects.back().m_type = Args[0];
@@ -498,7 +619,7 @@ namespace FPS_n2 {
 			}
 			void			OutputDataMed(std::ofstream& outputfile) noexcept {
 				outputfile << "useTime=" + std::to_string((float)this->GetMedUseTime()) + "\n";
-				{
+				if (m_cures.size() > 0) {
 					outputfile << "cures=[";
 					for (auto& m : m_cures) {
 						outputfile << m;
@@ -510,10 +631,28 @@ namespace FPS_n2 {
 				}
 				switch (m_Type) {
 				case EnumItemProperties::ItemPropertiesMedicalItem:
+					outputfile << "uses=" + std::to_string(this->GetMedUses()) + "\n";
+					break;
+				case EnumItemProperties::ItemPropertiesMedKit:
+					outputfile << "hitpoints=" + std::to_string(this->GetHitpoints()) + "\n";
+					outputfile << "maxHealPerUse=" + std::to_string(this->GetmaxHealPerUse()) + "\n";
+					if (this->GethpCostLightBleeding() >= 0) {
+						outputfile << "hpCostLightBleeding=" + std::to_string(this->GethpCostLightBleeding()) + "\n";
+					}
+					if (this->GethpCostHeavyBleeding() >= 0) {
+						outputfile << "hpCostHeavyBleeding=" + std::to_string(this->GethpCostHeavyBleeding()) + "\n";
+					}
 					break;
 				case EnumItemProperties::ItemPropertiesPainkiller:
+					outputfile << "uses=" + std::to_string(this->GetMedUses()) + "\n";
+					outputfile << "painkillerDuration=" + std::to_string(this->GetpainkillerDuration()) + "\n";
+					outputfile << "energyImpact=" + std::to_string(this->GetenergyImpact()) + "\n";
+					outputfile << "hydrationImpact=" + std::to_string(this->GethydrationImpact()) + "\n";
 					break;
 				case EnumItemProperties::ItemPropertiesSurgicalKit:
+					outputfile << "uses=" + std::to_string(this->GetMedUses()) + "\n";
+					outputfile << "minLimbHealth=" + std::to_string(this->GetminLimbHealth()) + "\n";
+					outputfile << "maxLimbHealth=" + std::to_string(this->GetmaxLimbHealth()) + "\n";
 					break;
 				case EnumItemProperties::ItemPropertiesStim:
 					for (const auto& s : m_stimEffects) {
@@ -573,9 +712,6 @@ namespace FPS_n2 {
 				case EnumItemProperties::ItemPropertiesBackpack:
 					m_IntParams[0] = data["capacity"];
 					break;
-				case EnumItemProperties::ItemPropertiesBarrel:
-					GetJsonDataWeaponMod(data);
-					break;
 				case EnumItemProperties::ItemPropertiesChestRig:
 					if (!data["class"].is_null()) {
 						m_IntParams[0] = data["class"];
@@ -615,41 +751,30 @@ namespace FPS_n2 {
 				case EnumItemProperties::ItemPropertiesKey:
 					m_IntParams[0] = data["uses"];
 					break;
-				case EnumItemProperties::ItemPropertiesMagazine:
-					GetJsonDataWeaponMod(data);
-					break;
-				case EnumItemProperties::ItemPropertiesMedicalItem:
-					GetJsonDataMed(data);
-					break;
 				case EnumItemProperties::ItemPropertiesMelee:
 					m_IntParams[0] = data["slashDamage"];
-					break;
-				case EnumItemProperties::ItemPropertiesMedKit:
-					m_IntParams[0] = data["hitpoints"];
 					break;
 				case EnumItemProperties::ItemPropertiesNightVision:
 					m_floatParams[0] = data["intensity"];
 					break;
-				case EnumItemProperties::ItemPropertiesPainkiller:
-					GetJsonDataMed(data);
-					break;
 				case EnumItemProperties::ItemPropertiesPreset:
 					m_IntParams[0] = data["default"];
 					break;
-				case EnumItemProperties::ItemPropertiesScope:
-					GetJsonDataWeaponMod(data);
-					break;
+				case EnumItemProperties::ItemPropertiesMedicalItem:
+				case EnumItemProperties::ItemPropertiesMedKit:
+				case EnumItemProperties::ItemPropertiesPainkiller:
 				case EnumItemProperties::ItemPropertiesSurgicalKit:
+				case EnumItemProperties::ItemPropertiesStim:
 					GetJsonDataMed(data);
 					break;
 				case EnumItemProperties::ItemPropertiesWeapon:
 					GetJsonDataWeapon(data);
 					break;
+				case EnumItemProperties::ItemPropertiesBarrel:
+				case EnumItemProperties::ItemPropertiesMagazine:
+				case EnumItemProperties::ItemPropertiesScope:
 				case EnumItemProperties::ItemPropertiesWeaponMod:
 					GetJsonDataWeaponMod(data);
-					break;
-				case EnumItemProperties::ItemPropertiesStim:
-					GetJsonDataMed(data);
 					break;
 				default:
 					break;
@@ -702,9 +827,6 @@ namespace FPS_n2 {
 						break;
 					case EnumItemProperties::ItemPropertiesBackpack:
 						break;
-					case EnumItemProperties::ItemPropertiesBarrel:
-						SetDataWeaponMod(LEFT, Args);
-						break;
 					case EnumItemProperties::ItemPropertiesChestRig:
 						break;
 					case EnumItemProperties::ItemPropertiesContainer:
@@ -719,16 +841,7 @@ namespace FPS_n2 {
 						break;
 					case EnumItemProperties::ItemPropertiesKey:
 						break;
-					case EnumItemProperties::ItemPropertiesMagazine:
-						SetDataWeaponMod(LEFT, Args);
-						break;
-					case EnumItemProperties::ItemPropertiesMedicalItem:
-						SetDataMed(LEFT, Args);
-						break;
 					case EnumItemProperties::ItemPropertiesMelee:
-						break;
-					case EnumItemProperties::ItemPropertiesMedKit:
-						SetDataMed(LEFT, Args);
 						break;
 					case EnumItemProperties::ItemPropertiesNightVision:
 						break;
@@ -736,20 +849,20 @@ namespace FPS_n2 {
 						break;
 					case EnumItemProperties::ItemPropertiesPreset:
 						break;
-					case EnumItemProperties::ItemPropertiesScope:
-						SetDataWeaponMod(LEFT, Args);
-						break;
+					case EnumItemProperties::ItemPropertiesMedicalItem:
+					case EnumItemProperties::ItemPropertiesMedKit:
 					case EnumItemProperties::ItemPropertiesSurgicalKit:
+					case EnumItemProperties::ItemPropertiesStim:
 						SetDataMed(LEFT, Args);
 						break;
 					case EnumItemProperties::ItemPropertiesWeapon:
 						SetDataWeapon(LEFT, Args);
 						break;
+					case EnumItemProperties::ItemPropertiesBarrel:
+					case EnumItemProperties::ItemPropertiesMagazine:
+					case EnumItemProperties::ItemPropertiesScope:
 					case EnumItemProperties::ItemPropertiesWeaponMod:
 						SetDataWeaponMod(LEFT, Args);
-						break;
-					case EnumItemProperties::ItemPropertiesStim:
-						SetDataMed(LEFT, Args);
 						break;
 					default:
 						break;
@@ -803,9 +916,6 @@ namespace FPS_n2 {
 					break;
 				case EnumItemProperties::ItemPropertiesBackpack:
 					break;
-				case EnumItemProperties::ItemPropertiesBarrel:
-					OutputDataWeaponMod(outputfile);
-					break;
 				case EnumItemProperties::ItemPropertiesChestRig:
 					break;
 				case EnumItemProperties::ItemPropertiesContainer:
@@ -820,37 +930,27 @@ namespace FPS_n2 {
 					break;
 				case EnumItemProperties::ItemPropertiesKey:
 					break;
-				case EnumItemProperties::ItemPropertiesMagazine:
-					OutputDataWeaponMod(outputfile);
-					break;
-				case EnumItemProperties::ItemPropertiesMedicalItem:
-					OutputDataMed(outputfile);
-					break;
 				case EnumItemProperties::ItemPropertiesMelee:
-					break;
-				case EnumItemProperties::ItemPropertiesMedKit:
 					break;
 				case EnumItemProperties::ItemPropertiesNightVision:
 					break;
-				case EnumItemProperties::ItemPropertiesPainkiller:
-					OutputDataMed(outputfile);
-					break;
 				case EnumItemProperties::ItemPropertiesPreset:
 					break;
-				case EnumItemProperties::ItemPropertiesScope:
-					OutputDataWeaponMod(outputfile);
-					break;
+				case EnumItemProperties::ItemPropertiesMedicalItem:
+				case EnumItemProperties::ItemPropertiesMedKit:
+				case EnumItemProperties::ItemPropertiesPainkiller:
 				case EnumItemProperties::ItemPropertiesSurgicalKit:
+				case EnumItemProperties::ItemPropertiesStim:
 					OutputDataMed(outputfile);
 					break;
 				case EnumItemProperties::ItemPropertiesWeapon:
 					OutputDataWeapon(outputfile);
 					break;
+				case EnumItemProperties::ItemPropertiesBarrel:
+				case EnumItemProperties::ItemPropertiesMagazine:
+				case EnumItemProperties::ItemPropertiesScope:
 				case EnumItemProperties::ItemPropertiesWeaponMod:
 					OutputDataWeaponMod(outputfile);
-					break;
-				case EnumItemProperties::ItemPropertiesStim:
-					OutputDataMed(outputfile);
 					break;
 				default:
 					break;
@@ -890,6 +990,7 @@ namespace FPS_n2 {
 			std::vector<ItemID>									m_ParentPartsID;
 			bool												m_isWeapon{ false };
 			bool												m_isWeaponMod{ false };
+			bool												m_isMedItem{ false };
 			std::vector<TaskID>									m_UseTaskID;
 		public:
 			void SetOtherData(const ItemsData& Data) noexcept {
@@ -914,6 +1015,7 @@ namespace FPS_n2 {
 				}
 				this->m_isWeapon = Data.m_isWeapon;
 				this->m_isWeaponMod = Data.m_isWeaponMod;
+				this->m_isMedItem = Data.m_isMedItem;
 				this->m_UseTaskID.resize(Data.m_UseTaskID.size());
 				for (const auto& m : Data.m_UseTaskID) {
 					this->m_UseTaskID.at(&m - &Data.m_UseTaskID.front()) = m;
@@ -1039,7 +1141,7 @@ namespace FPS_n2 {
 				for (int loop = ofset; loop < ofset + size; loop++) {
 					if (loop >= (int)GetJsonDataList().size()) { break; }
 					auto& jd = GetJsonDataList().at(loop);
-					if (L.GetIDstr() == jd->m_id || L.GetName() == jd->m_name) {
+					if (L.GetIDstr() == jd->m_id) {
 						L.m_CheckJson++;
 						jd->OutputData(L.GetFilePath());
 						break;

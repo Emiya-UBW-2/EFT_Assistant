@@ -8,6 +8,6 @@ height=3
 weight=0.640000
 Sell_Fence=333000
 Sell_Jaeger=499500
-Sell_Flea Market=18666666
+Sell_Flea Market=15000000
 fleaMarketFee=0
 propertiestype=ItemPropertiesMelee

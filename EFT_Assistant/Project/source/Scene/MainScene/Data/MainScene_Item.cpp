@@ -38,6 +38,9 @@ namespace FPS_n2 {
 				else if (catPtr->GetName() == "WeaponMods") {
 					this->m_ItemsData.m_isWeaponMod = true;
 				}
+				else if (catPtr->GetName() == "Medical") {
+					this->m_ItemsData.m_isMedItem = true;
+				}
 			}
 		}
 	}
@@ -585,6 +588,10 @@ namespace FPS_n2 {
 					InterParts->SetInitParam(1, InvalidID);//プリセットID
 				}
 				yofs += LineHeight + y_r(5);
+			}
+			//
+			if (this->m_ItemsData.m_isMedItem) {
+				this->m_ItemsData.m_properties.DrawInfoMed(xp, yp, &xofs, &yofs);
 			}
 			//
 			if (this->m_ItemsData.m_isWeaponMod) {
