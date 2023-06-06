@@ -8,9 +8,19 @@ weight=1.290000
 Sell_Prapor=14184
 Sell_Fence=11347
 Sell_Skier=13899
-Sell_Peacekeeper=106
+Sell_Peacekeeper=104
 Sell_Mechanic=15885
 Sell_Jaeger=2130
-Sell_Flea Market=39000
+Sell_Flea Market=25000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	B&T MP9 9x19 submachine gunx1/|
+	MP9 9x19 30-round magazinex1/|
+	MP9 stockx1/|
+	MP9 9x19 upper receiverx1/|
+	MP9 rear sightx1/|
+	MP9 charging handlex1/|
+	MP9 bottom railx1
+]

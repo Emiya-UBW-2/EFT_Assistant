@@ -8,9 +8,22 @@ weight=2.907000
 Sell_Prapor=19732
 Sell_Fence=15785
 Sell_Skier=19336
-Sell_Peacekeeper=148
+Sell_Peacekeeper=145
 Sell_Mechanic=22099
 Sell_Jaeger=13271
-Sell_Flea Market=35888
+Sell_Flea Market=28000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	ADAR 2-15 5.56x45 carbinex1/|
+	AR-15 ADAR 2-15 wooden stockx1/|
+	5.56x45 Magpul PMAG 10 GEN M3 STANAG 10-round magazinex1/|
+	ADAR 2-15 5.56x45 upper receiverx1/|
+	AR-15 5.56x45 Molot Arms 406mm barrelx1/|
+	AR-15 ADAR 2-15 5.56x45 flash hiderx1/|
+	M4A1 front sight with gas blockx1/|
+	AR-15 ADAR 2-15 wooden handguardx1/|
+	AR-15 ADAR 2-15 buffer tubex1/|
+	AR-15 ADAR 2-15 charging handlex1
+]

@@ -115,9 +115,12 @@ namespace FPS_n2 {
 			std::array<float, 6>					m_floatParams{ 0,0,0,0,0,0 };
 			std::vector<ChildItemSettings>			m_ChildPartsID;
 			std::vector<IDParents<ItemID>>			m_ConflictPartsID;
+			std::vector<ItemGetData>				m_ContainsItemID;
 			std::vector<float>						m_sightModesID;
 			std::vector<std::string>				m_cures;
 			std::vector<stimEffects>				m_stimEffects;
+		public:
+			void			SetParent() noexcept;
 		public:
 			const auto*		GetTypeName() const noexcept { return (m_Type != EnumItemProperties::Max) ? ItemPropertiesStr[(int)m_Type] : ""; }
 			const auto&		GetType() const noexcept { return this->m_Type; }
@@ -153,7 +156,6 @@ namespace FPS_n2 {
 				}
 			}
 			const auto		GetIntensity() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesNightVision) ? this->m_IntParams[0] : 0; }
-			const auto		GetDefault() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesPreset) ? this->m_IntParams[0] : 0; }
 
 		private://Common
 			void			SetType(std::string_view value) noexcept {
@@ -161,6 +163,61 @@ namespace FPS_n2 {
 					if (value == ItemPropertiesStr[i]) {
 						m_Type = (EnumItemProperties)i;
 						break;
+					}
+				}
+			}
+		public://Preset
+			const auto		GetDefault() const noexcept { return ((m_Type == EnumItemProperties::ItemPropertiesPreset) ? this->m_IntParams[0] : 0) == 1; }
+			auto&			SetContainsItem() noexcept { return this->m_ContainsItemID; }
+			const auto&		GetContainsItem() const noexcept { return this->m_ContainsItemID; }
+			void			DrawInfoPreset(int xp, int yp, int* xofs, int* yofs) const noexcept {
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, White, Black,
+					"デフォルトプリセットかどうか:%s", this->GetDefault()?"TRUE":"FALSE") + y_r(30)); *yofs += LineHeight + y_r(5);
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, White, Black,
+					"パーツリスト:") + y_r(30)); *yofs += LineHeight + y_r(5);
+				for (const auto& c : this->m_ContainsItemID) {
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, White, Black,
+						" %s", c.GetName().c_str()) + y_r(30)); *yofs += LineHeight + y_r(5);
+				}
+			}
+		private:
+			void			GetJsonDataPreset(const nlohmann::json& data) {
+				m_IntParams[0] = data["properties"]["default"];
+				if (data.contains("containsItems") && !data["containsItems"].is_null()) {
+					m_ContainsItemID.clear();
+					for (const auto& s : data["containsItems"]) {
+						m_ContainsItemID.resize(m_ContainsItemID.size() + 1);
+						m_ContainsItemID.back().Set(s["item"]["name"], s["count"]);
+					}
+				}
+
+			}
+			void			SetDataPreset(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
+				if (LEFT == "IsDefault") { m_IntParams[0] = (Args[0] == "TRUE") ? 1 : 0; }
+				else if (LEFT == "containsItems") {
+					for (auto&a : Args) {
+						SetGetData<ItemGetData>(&m_ContainsItemID, a, "x");
+					}
+				}
+			}
+			void			OutputDataPreset(std::ofstream& outputfile) noexcept {
+				outputfile << "IsDefault=" + (std::string)(GetDefault() ? "TRUE" : "FALSE") + "\n";
+				if (this->m_ContainsItemID.size() > 0) {
+					bool isHit = false;
+					std::vector<std::string> Names;
+					for (auto& m : this->m_ContainsItemID) {
+						auto NmBuf = m.GetName();
+						if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
+							if (!isHit) {
+								isHit = true;
+								outputfile << "containsItems=[\n";
+							}
+							outputfile << "\t" + m.GetOutputStr() + ((&m != &this->m_ContainsItemID.back()) ? DIV_STR : "") + "\n";
+							Names.emplace_back(NmBuf);
+						}
+					}
+					if (isHit) {
+						outputfile << "]\n";
 					}
 				}
 			}
@@ -671,13 +728,15 @@ namespace FPS_n2 {
 			}
 		public://total
 			void			GetJsonData(const nlohmann::json& data) {
-				if (data.contains("__typename") && !data["__typename"].is_null()) {
-					SetType((std::string)data["__typename"]);
+				auto& d = data["properties"];
+				//
+				if (d.contains("__typename") && !d["__typename"].is_null()) {
+					SetType((std::string)d["__typename"]);
 				}
 				//個別
-				if (data.contains("slots") && !data["slots"].is_null()) {
+				if (d.contains("slots") && !d["slots"].is_null()) {
 					m_ChildPartsID.clear();
-					for (const auto& s : data["slots"]) {
+					for (const auto& s : d["slots"]) {
 						m_ChildPartsID.resize(m_ChildPartsID.size() + 1);
 						for (const auto& f : s["filters"]) {
 							for (const auto& a : f) {
@@ -691,94 +750,96 @@ namespace FPS_n2 {
 				}
 				switch (m_Type) {
 				case EnumItemProperties::ItemPropertiesAmmo:
-					m_IntParams[0] = data["stackMaxSize"];
+					m_IntParams[0] = d["stackMaxSize"];
 					break;
 				case EnumItemProperties::ItemPropertiesArmor:
-					if (!data["class"].is_null()) {
-						m_IntParams[0] = data["class"];
+					if (!d["class"].is_null()) {
+						m_IntParams[0] = d["class"];
 					}
 					else {
 						m_IntParams[0] = 0;
 					}
 					break;
 				case EnumItemProperties::ItemPropertiesArmorAttachment:
-					if (!data["class"].is_null()) {
-						m_IntParams[0] = data["class"];
+					if (!d["class"].is_null()) {
+						m_IntParams[0] = d["class"];
 					}
 					else {
 						m_IntParams[0] = 0;
 					}
 					break;
 				case EnumItemProperties::ItemPropertiesBackpack:
-					m_IntParams[0] = data["capacity"];
+					m_IntParams[0] = d["capacity"];
 					break;
 				case EnumItemProperties::ItemPropertiesChestRig:
-					if (!data["class"].is_null()) {
-						m_IntParams[0] = data["class"];
+					if (!d["class"].is_null()) {
+						m_IntParams[0] = d["class"];
 					}
 					else {
 						m_IntParams[0] = 0;
 					}
-					m_IntParams[1] = data["capacity"];
+					m_IntParams[1] = d["capacity"];
 					break;
 				case EnumItemProperties::ItemPropertiesContainer:
-					m_IntParams[0] = data["capacity"];
+					m_IntParams[0] = d["capacity"];
 					break;
 				case EnumItemProperties::ItemPropertiesFoodDrink:
-					m_IntParams[0] = data["energy"];
-					m_IntParams[1] = data["hydration"];
+					m_IntParams[0] = d["energy"];
+					m_IntParams[1] = d["hydration"];
 					break;
 				case EnumItemProperties::ItemPropertiesGlasses:
-					if (!data["class"].is_null()) {
-						m_IntParams[0] = data["class"];
+					if (!d["class"].is_null()) {
+						m_IntParams[0] = d["class"];
 					}
 					else {
 						m_IntParams[0] = 0;
 					}
-					m_floatParams[0] = data["blindnessProtection"];
+					m_floatParams[0] = d["blindnessProtection"];
 					break;
 				case EnumItemProperties::ItemPropertiesGrenade:
-					m_IntParams[0] = data["fragments"];
+					m_IntParams[0] = d["fragments"];
 					break;
 				case EnumItemProperties::ItemPropertiesHelmet:
-					if (!data["class"].is_null()) {
-						m_IntParams[0] = data["class"];
+					if (!d["class"].is_null()) {
+						m_IntParams[0] = d["class"];
 					}
 					else {
 						m_IntParams[0] = 0;
 					}
 					break;
 				case EnumItemProperties::ItemPropertiesKey:
-					m_IntParams[0] = data["uses"];
+					m_IntParams[0] = d["uses"];
 					break;
 				case EnumItemProperties::ItemPropertiesMelee:
-					m_IntParams[0] = data["slashDamage"];
+					m_IntParams[0] = d["slashDamage"];
 					break;
 				case EnumItemProperties::ItemPropertiesNightVision:
-					m_floatParams[0] = data["intensity"];
+					m_floatParams[0] = d["intensity"];
 					break;
 				case EnumItemProperties::ItemPropertiesPreset:
-					m_IntParams[0] = data["default"];
+					GetJsonDataPreset(data);
 					break;
 				case EnumItemProperties::ItemPropertiesMedicalItem:
 				case EnumItemProperties::ItemPropertiesMedKit:
 				case EnumItemProperties::ItemPropertiesPainkiller:
 				case EnumItemProperties::ItemPropertiesSurgicalKit:
 				case EnumItemProperties::ItemPropertiesStim:
-					GetJsonDataMed(data);
+					GetJsonDataMed(d);
 					break;
 				case EnumItemProperties::ItemPropertiesWeapon:
-					GetJsonDataWeapon(data);
+					GetJsonDataWeapon(d);
 					break;
 				case EnumItemProperties::ItemPropertiesBarrel:
 				case EnumItemProperties::ItemPropertiesMagazine:
 				case EnumItemProperties::ItemPropertiesScope:
 				case EnumItemProperties::ItemPropertiesWeaponMod:
-					GetJsonDataWeaponMod(data);
+					GetJsonDataWeaponMod(d);
 					break;
 				default:
 					break;
 				}
+				//
+				SetParent();
 			}
 			void			SetData(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
 				if (LEFT == "propertiestype") { this->SetType(Args[0]); }
@@ -848,6 +909,7 @@ namespace FPS_n2 {
 					case EnumItemProperties::ItemPropertiesPainkiller:
 						break;
 					case EnumItemProperties::ItemPropertiesPreset:
+						SetDataPreset(LEFT, Args);
 						break;
 					case EnumItemProperties::ItemPropertiesMedicalItem:
 					case EnumItemProperties::ItemPropertiesMedKit:
@@ -935,6 +997,7 @@ namespace FPS_n2 {
 				case EnumItemProperties::ItemPropertiesNightVision:
 					break;
 				case EnumItemProperties::ItemPropertiesPreset:
+					OutputDataPreset(outputfile);
 					break;
 				case EnumItemProperties::ItemPropertiesMedicalItem:
 				case EnumItemProperties::ItemPropertiesMedKit:
@@ -957,7 +1020,7 @@ namespace FPS_n2 {
 				}
 			}
 		public:
-			void		operator=(const ItemProperties& tgt) noexcept {
+			void			operator=(const ItemProperties& tgt) noexcept {
 				this->m_Type = tgt.m_Type;
 				this->m_IntParams = tgt.m_IntParams;
 				this->m_floatParams = tgt.m_floatParams;
@@ -969,6 +1032,10 @@ namespace FPS_n2 {
 				this->m_ConflictPartsID.resize(tgt.m_ConflictPartsID.size());
 				for (const auto& m : tgt.m_ConflictPartsID) {
 					this->m_ConflictPartsID.at(&m - &tgt.m_ConflictPartsID.front()) = m;
+				}
+				this->m_ContainsItemID.resize(tgt.m_ContainsItemID.size());
+				for (const auto& m : tgt.m_ContainsItemID) {
+					this->m_ContainsItemID.at(&m - &tgt.m_ContainsItemID.front()) = m;
 				}
 				this->m_sightModesID.resize(tgt.m_sightModesID.size());
 				for (const auto& m : tgt.m_sightModesID) {

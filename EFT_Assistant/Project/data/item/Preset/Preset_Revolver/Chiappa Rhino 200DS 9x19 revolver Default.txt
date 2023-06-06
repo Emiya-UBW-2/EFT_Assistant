@@ -10,6 +10,13 @@ Sell_Fence=3140
 Sell_Skier=3846
 Sell_Peacekeeper=30
 Sell_Mechanic=4397
-Sell_Flea Market=11550
+Sell_Flea Market=9999
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Chiappa Rhino 200DS 9x19 revolverx1/|
+	Chiappa Rhino 9x19 6-round cylinderx1/|
+	Chiappa Rhino front sightx1/|
+	Chiappa Rhino wooden pistol gripx1
+]

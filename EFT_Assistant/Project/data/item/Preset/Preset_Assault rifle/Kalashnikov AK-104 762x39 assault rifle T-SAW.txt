@@ -8,8 +8,27 @@ weight=4.540000
 Sell_Prapor=155136
 Sell_Fence=124107
 Sell_Skier=152030
-Sell_Peacekeeper=1164
+Sell_Peacekeeper=1153
 Sell_Mechanic=173749
 Sell_Jaeger=98536
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Kalashnikov AK-104 7.62x39 assault riflex1/|
+	AK-74 gas tube (6P20 Sb.1-2)x1/|
+	AK 5.45 Design Aggressor handguardx1/|
+	BCM GUNFIGHTER MOD 3 vertical foregripx1/|
+	NcSTAR MPR45 Backup mountx1/|
+	Trijicon RMR low profile mountx1/|
+	Trijicon RMR reflex sightx1/|
+	AK SRVV 7.62x39 muzzle brake-compensatorx1/|
+	AK Strike Industries Enhanced Pistol Grip (Black)x1/|
+	AK FAB Defense PDC dust coverx1/|
+	FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescopex1/|
+	AK-105 rear sight (6P44 Sb.1-30)x1/|
+	AK-74M CAA AKTS AK74 buffer tubex1/|
+	Strike Industries Viper Mod 1 stockx1/|
+	AK 7.62x39 X Products X-47 50-round drum magazinex1/|
+	AK Zenit RP-1 charging handlex1
+]

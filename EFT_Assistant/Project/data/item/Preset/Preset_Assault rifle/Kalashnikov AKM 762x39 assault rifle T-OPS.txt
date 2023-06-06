@@ -8,8 +8,30 @@ weight=5.536000
 Sell_Prapor=272729
 Sell_Fence=218181
 Sell_Skier=267269
-Sell_Peacekeeper=2046
+Sell_Peacekeeper=2029
 Sell_Mechanic=305454
 Sell_Jaeger=232113
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Kalashnikov AKM 7.62x39 assault riflex1/|
+	AK Kiba Arms VDM CS gas tubex1/|
+	AK Krebs Custom UFM KeyMod handguardx1/|
+	NcSTAR MPR45 Backup mountx1/|
+	Trijicon RMR low profile mountx1/|
+	Trijicon RMR reflex sightx1/|
+	Vltor CASV KeyMod 6 inch railx1/|
+	Magpul AFG tactical foregrip (Black)x1/|
+	Vltor CASV KeyMod 4 inch railx1/|
+	SureFire X400 Ultra tactical flashlight with laserx1/|
+	AKM Hexagon 7.62x39 sound suppressorx1/|
+	AK TAPCO SAW-Style pistol grip (Black)x1/|
+	AK TWS Dog Leg Rail dust coverx1/|
+	UNV DLOC-IRD sight mountx1/|
+	Trijicon REAP-IR thermal scopex1/|
+	AKM/AK-74 ME4 buffer tube adapterx1/|
+	Magpul UBR GEN2 stock (Black)x1/|
+	AK 7.62x39 US Palm "AK30" 30-round magazine (Black)x1/|
+	AK Zenit RP-1 charging handlex1
+]

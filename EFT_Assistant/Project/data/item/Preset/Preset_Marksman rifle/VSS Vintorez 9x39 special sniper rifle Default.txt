@@ -8,9 +8,18 @@ weight=2.591000
 Sell_Prapor=42940
 Sell_Fence=34350
 Sell_Skier=42080
-Sell_Peacekeeper=322
+Sell_Peacekeeper=320
 Sell_Mechanic=48091
 Sell_Jaeger=33672
-Sell_Flea Market=125000
+Sell_Flea Market=105000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	VSS Vintorez 9x39 special sniper riflex1/|
+	VSS 9x39 6L24 10-round magazinex1/|
+	VSS 9x39 integral barrel-suppressorx1/|
+	VSS rear sightx1/|
+	VSS dust coverx1/|
+	VSS wooden stockx1
+]

@@ -2,6 +2,26 @@
 
 namespace FPS_n2 {
 	//
+	void			ItemList::ItemProperties::SetParent() noexcept {
+		for (auto& cp : this->SetModSlots()) {
+			for (auto& c : cp.m_Data) {
+				c.CheckID(DataBase::Instance()->GetItemData().get());
+			}
+		}
+		for (auto& cp : this->SetContainsItem()) {
+			cp.CheckID(DataBase::Instance()->GetItemData().get());
+		}
+		//
+		for (auto& cp : this->SetModSlots()) {
+			for (const auto& c : cp.m_Data) {
+				cp.SetTypeID(DataBase::Instance()->GetItemData()->FindPtr(c.GetID())->GetTypeID());
+			}
+		}
+		//Š±Â
+		for (auto& cp : this->SetConflictPartsID()) {
+			cp.CheckID(DataBase::Instance()->GetItemData().get());
+		}
+	}
 	void			ItemList::SetSub(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
 		if (LEFT == "Itemtype") { this->m_ItemsData.m_TypeID.SetName(Args[0]); }
 		else if (LEFT == "Map") {
@@ -45,31 +65,7 @@ namespace FPS_n2 {
 		}
 	}
 	void			ItemList::SetParent() noexcept {
-		for (auto& cp : this->m_ItemsData.m_properties.SetModSlots()) {
-			for (auto& c : cp.m_Data) {
-				c.CheckID(DataBase::Instance()->GetItemData().get());
-			}
-		}
-		this->m_ItemsData.m_ParentPartsID.clear();
-		for (const auto& t : DataBase::Instance()->GetItemData()->GetList()) {
-			for (auto& cp : t.GetChildParts()) {
-				for (auto& c : cp.m_Data) {
-					if (c.GetID() == this->GetID()) {
-						this->m_ItemsData.m_ParentPartsID.emplace_back(t.GetID());
-					}
-				}
-			}
-		}
-		//
-		for (auto& cp : this->m_ItemsData.m_properties.SetModSlots()) {
-			for (const auto& c : cp.m_Data) {
-				cp.SetTypeID(DataBase::Instance()->GetItemData()->FindPtr(c.GetID())->GetTypeID());
-			}
-		}
-		//
-		for (auto& cp : this->m_ItemsData.m_properties.SetConflictPartsID()) {
-			cp.CheckID(DataBase::Instance()->GetItemData().get());
-		}
+		this->m_ItemsData.m_properties.SetParent();
 		//Ž©•ª‚ðŠ±Â‘ŠŽè‚É‚µ‚Ä‚¢‚é“z‚ð’T‚µ‚Ä‚»‚¢‚Â‚àƒŠƒXƒg‚É“ü‚ê‚é@‘ŠŽv‘Šˆ¤
 		for (const auto& t : DataBase::Instance()->GetItemData()->GetList()) {
 			for (auto& cp : t.GetConflictParts()) {
@@ -77,6 +73,17 @@ namespace FPS_n2 {
 					this->m_ItemsData.m_properties.SetConflictPartsID().resize(this->m_ItemsData.m_properties.SetConflictPartsID().size() + 1);
 					this->m_ItemsData.m_properties.SetConflictPartsID().back().SetID(t.GetID());
 					this->m_ItemsData.m_properties.SetConflictPartsID().back().SetName(t.GetName());
+				}
+			}
+		}
+		//
+		this->m_ItemsData.m_ParentPartsID.clear();
+		for (const auto& t : DataBase::Instance()->GetItemData()->GetList()) {
+			for (auto& cp : t.GetChildParts()) {
+				for (auto& c : cp.m_Data) {
+					if (c.GetID() == this->GetID()) {
+						this->m_ItemsData.m_ParentPartsID.emplace_back(t.GetID());
+					}
 				}
 			}
 		}
@@ -667,7 +674,7 @@ namespace FPS_n2 {
 		}
 		if (data.contains("properties")) {
 			if (!data["properties"].is_null()) {
-				m_ItemsData.m_properties.GetJsonData(data["properties"]);
+				m_ItemsData.m_properties.GetJsonData(data);
 			}
 		}
 	}

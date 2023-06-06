@@ -8,8 +8,33 @@ weight=3.784000
 Sell_Prapor=100850
 Sell_Fence=80678
 Sell_Skier=98830
-Sell_Peacekeeper=754
+Sell_Peacekeeper=749
 Sell_Mechanic=112951
 Sell_Jaeger=17991
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	SIG MCX .300 Blackout assault riflex1/|
+	AR-15 Magpul MOE pistol grip (Black)x1/|
+	5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazinex1/|
+	MCX GEN1 .300 BLK upper receiverx1/|
+	Aimpoint Micro Standard Mountx1/|
+	Aimpoint Micro Spacer Highx1/|
+	Aimpoint Micro T-1 reflex sightx1/|
+	MCX .300 BLK 171mm barrelx1/|
+	SIG Sauer Taper-LOK 7.62x51/.300 BLK muzzle adapterx1/|
+	SIG Sauer 7.62x51 3-prong flash hiderx1/|
+	SIG Sauer SRD762-QD 7.62x51 sound suppressorx1/|
+	MCX gas blockx1/|
+	MCX GEN1 KeyMod 12 inch handguardx1/|
+	Vltor CASV KeyMod 2 inch railx1/|
+	Kiba Arms 25mm accessory ring mountx1/|
+	Ultrafire WF-501B flashlightx1/|
+	KAC Folding front sightx1/|
+	SIG Sauer Vertical Foregrip KeyMod (Black)x1/|
+	KAC Folding rear sightx1/|
+	AN/PEQ-15 tactical devicex1/|
+	MPX/MCX telescoping stockx1/|
+	MCX charging handlex1
+]

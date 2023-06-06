@@ -11,6 +11,16 @@ Sell_Skier=7451
 Sell_Peacekeeper=57
 Sell_Mechanic=8516
 Sell_Jaeger=937
-Sell_Flea Market=10000
+Sell_Flea Market=13888
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	SIG P226R 9x19 pistolx1/|
+	P226 9x19 112mm barrelx1/|
+	P226 polymer pistol grip (Black)x1/|
+	P226R MK25 pistol slidex1/|
+	P226 rear sightx1/|
+	P226 front sightx1/|
+	P226 9x19 15-round magazinex1
+]

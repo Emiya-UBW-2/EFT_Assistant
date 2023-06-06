@@ -8,8 +8,23 @@ weight=3.879000
 Sell_Prapor=87984
 Sell_Fence=70387
 Sell_Skier=86223
-Sell_Peacekeeper=661
+Sell_Peacekeeper=655
 Sell_Mechanic=98542
 Sell_Jaeger=16920
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	FN P90 5.7x28 submachine gunx1/|
+	FN P90 5.7x28 50-round magazinex1/|
+	FN PS90 stockx1/|
+	FN P90 buttpadx1/|
+	FN P90 5.7x28 upper receiverx1/|
+	FN P90 upper receiver top railx1/|
+	EOTech XPS3-2 holographic sightx1/|
+	FN P90 upper receiver side railx2/|
+	FN P90 5.7x28 10.5 inch barrelx1/|
+	FN P90 5.7x28 flash hiderx1/|
+	FN P90 Attenuator 5.7x28 sound suppressorx1/|
+	FN P90 charging handlex1
+]

@@ -8,9 +8,19 @@ weight=2.587000
 Sell_Prapor=47343
 Sell_Fence=37873
 Sell_Skier=46396
-Sell_Peacekeeper=356
+Sell_Peacekeeper=353
 Sell_Mechanic=53024
 Sell_Jaeger=1866
-Sell_Flea Market=137000
+Sell_Flea Market=111111
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	AS VAL 9x39 special assault riflex1/|
+	AS VAL 9x39 integral barrel-suppressorx1/|
+	AS VAL rear sightx1/|
+	AS VAL dust coverx1/|
+	VSS 9x39 6L25 20-round magazinex1/|
+	AS VAL pistol gripx1/|
+	AS VAL skeleton stockx1
+]

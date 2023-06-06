@@ -8,9 +8,19 @@ weight=3.482000
 Sell_Prapor=15052
 Sell_Fence=12040
 Sell_Skier=14749
-Sell_Peacekeeper=114
+Sell_Peacekeeper=113
 Sell_Mechanic=16858
 Sell_Jaeger=15421
-Sell_Flea Market=34000
+Sell_Flea Market=33333
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Mossberg 590A1 12ga pump-action shotgunx1/|
+	Mossberg 590A1 12ga 20 inch barrelx1/|
+	Mossberg 590 Ghost Ring front sightx1/|
+	Mossberg 590A1 SpeedFeed short handguardx1/|
+	Mossberg 590A1 12ga 8-shell magazine capx1/|
+	Mossberg 590A1 polymer stockx1/|
+	Mossberg 590 Ghost Ring rear sightx1
+]

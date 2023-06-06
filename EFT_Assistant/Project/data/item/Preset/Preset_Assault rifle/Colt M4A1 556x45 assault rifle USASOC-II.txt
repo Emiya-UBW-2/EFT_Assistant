@@ -8,8 +8,27 @@ weight=3.787000
 Sell_Prapor=111256
 Sell_Fence=89004
 Sell_Skier=109030
-Sell_Peacekeeper=835
+Sell_Peacekeeper=826
 Sell_Mechanic=124607
 Sell_Jaeger=18264
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Colt M4A1 5.56x45 assault riflex1/|
+	AR-15 Damage Industries ECS pistol grip (FDE)x1/|
+	5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazine (FDE)x1/|
+	M4A1 5.56x45 upper receiverx1/|
+	EOTech HHS-1 hybrid sight (Tan)x1/|
+	AR-15 5.56x45 370mm barrelx1/|
+	AR-15 SureFire SF4P FH556RC 5.56x45 flash hiderx1/|
+	SureFire SOCOM556-RC2 5.56x45 sound suppressorx1/|
+	AR-15 Daniel Defense MK12 Low Profile Gas Blockx1/|
+	AR-15 Geissele SMR MK16 13.5 inch M-LOK handguardx1/|
+	LA-5B/PEQ tactical devicex1/|
+	KAC Folding front sightx1/|
+	KAC Folding rear sightx1/|
+	Colt Carbine buffer tubex1/|
+	LMT SOPMOD stockx1/|
+	AR-15 Geissele ACH charging handlex1
+]

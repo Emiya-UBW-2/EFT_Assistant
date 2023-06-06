@@ -8,9 +8,19 @@ weight=3.606000
 Sell_Prapor=28914
 Sell_Fence=23132
 Sell_Skier=28335
-Sell_Peacekeeper=217
+Sell_Peacekeeper=214
 Sell_Mechanic=32383
 Sell_Jaeger=26259
-Sell_Flea Market=37000
+Sell_Flea Market=32222
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Kel-Tec RFB 7.62x51 riflex1/|
+	SA-58/FAL 7.62x51 20-round magazinex1/|
+	RFB 7.62x51 18 inch barrelx1/|
+	RFB thread protection capx1/|
+	RFB handguardx1/|
+	RFB handguard rail mountx1/|
+	RFB scope rail mountx1
+]

@@ -8,8 +8,28 @@ weight=3.558000
 Sell_Prapor=98479
 Sell_Fence=78781
 Sell_Skier=96505
-Sell_Peacekeeper=738
+Sell_Peacekeeper=732
 Sell_Mechanic=110293
 Sell_Jaeger=24396
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Colt M4A1 5.56x45 assault riflex1/|
+	AR-15 Magpul MIAD pistol grip (FDE)x1/|
+	5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine (FDE)x1/|
+	M4A1 5.56x45 upper receiverx1/|
+	Aimpoint Micro Standard Mountx1/|
+	Aimpoint Micro Spacer Highx1/|
+	Aimpoint Micro T-1 reflex sightx1/|
+	AR-15 5.56x45 370mm barrelx1/|
+	SilencerCo Hybrid 46 Direct Thread Mount adapterx1/|
+	SilencerCo Hybrid 46 multi-caliber sound suppressorx1/|
+	M4A1 front sight with gas blockx1/|
+	AR-15 KAC RIS handguardx1/|
+	AR-15 KAC RIS lower handguardx1/|
+	Zenit RK-1 tactical foregripx1/|
+	AR-15 Colt A2 rear sightx1/|
+	Magpul UBR GEN2 stock (FDE)x1/|
+	AR-15 HK Extended Latch charging handlex1
+]

@@ -8,8 +8,20 @@ weight=1.357000
 Sell_Prapor=40335
 Sell_Fence=32266
 Sell_Skier=39525
-Sell_Peacekeeper=303
+Sell_Peacekeeper=301
 Sell_Mechanic=45174
 Sell_Jaeger=937
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Glock 17 9x19 pistolx1/|
+	Glock 17 9x19 barrelx1/|
+	Glock Pachmayr Tactical Grip Glovex1/|
+	Glock 17 9x19 pistol slidex1/|
+	Glock Dead Ringer Snake Eye rear sightx1/|
+	Glock Dead Ringer Snake Eye front sightx1/|
+	Glock 9x19 17-round magazinex1/|
+	Glock 9x19 Fischer Development FD917 sound suppressorx1/|
+	SureFire XC1 tactical flashlightx1
+]

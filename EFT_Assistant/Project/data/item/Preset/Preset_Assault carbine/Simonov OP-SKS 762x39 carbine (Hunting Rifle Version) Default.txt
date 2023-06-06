@@ -8,9 +8,17 @@ weight=3.770000
 Sell_Prapor=15807
 Sell_Fence=12645
 Sell_Skier=15490
-Sell_Peacekeeper=119
+Sell_Peacekeeper=117
 Sell_Mechanic=17703
 Sell_Jaeger=4741
-Sell_Flea Market=40000
+Sell_Flea Market=31000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Simonov OP-SKS 7.62x39 carbine (Hunting Rifle Version)x1/|
+	OP-SKS wooden stockx1/|
+	SKS rear sightx1/|
+	SKS 7.62x39 10-round internal box magazinex1/|
+	OP-SKS dovetail mountx1
+]

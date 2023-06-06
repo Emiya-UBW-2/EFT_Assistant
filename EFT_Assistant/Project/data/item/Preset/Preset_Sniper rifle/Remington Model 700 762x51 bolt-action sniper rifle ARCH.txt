@@ -8,8 +8,16 @@ weight=4.460000
 Sell_Prapor=32770
 Sell_Fence=26216
 Sell_Skier=32114
-Sell_Peacekeeper=246
+Sell_Peacekeeper=244
 Sell_Mechanic=36702
 Sell_Jaeger=36420
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Remington Model 700 7.62x51 bolt-action sniper riflex1/|
+	M700 7.62x51 ProMag AA-70 10-round magazinex1/|
+	M700 ProMag Archangel chassisx1/|
+	M700 7.62x51 20 inch threaded barrelx1/|
+	M700 thread protection capx1
+]

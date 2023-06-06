@@ -8,8 +8,18 @@ weight=0.791000
 Sell_Prapor=33502
 Sell_Fence=26801
 Sell_Skier=32830
-Sell_Peacekeeper=252
+Sell_Peacekeeper=250
 Sell_Mechanic=37521
 Sell_Jaeger=4768
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Glock 17 9x19 pistolx1/|
+	Glock 9x19 Lone Wolf AlphaWolf threaded barrelx1/|
+	Glock ZEV Tech HEX Spartan RMR pistol slidex1/|
+	Glock ZEV Tech rear sightx1/|
+	Glock ZEV Tech front sightx1/|
+	Trijicon RMR reflex sightx1/|
+	Glock 9x19 "Big Stick" 33-round magazinex1
+]

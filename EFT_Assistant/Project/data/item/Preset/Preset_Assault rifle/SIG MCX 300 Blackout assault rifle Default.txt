@@ -8,9 +8,25 @@ weight=2.718000
 Sell_Prapor=41100
 Sell_Fence=32879
 Sell_Skier=40275
-Sell_Peacekeeper=310
+Sell_Peacekeeper=307
 Sell_Mechanic=46031
 Sell_Jaeger=15790
-Sell_Flea Market=44444
+Sell_Flea Market=54444
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	SIG MCX .300 Blackout assault riflex1/|
+	MCX pistol gripx1/|
+	5.56x45 Colt AR-15 STANAG 30-round magazinex1/|
+	MCX GEN1 .300 BLK upper receiverx1/|
+	MCX .300 BLK 229mm barrelx1/|
+	SIG Sauer Taper-LOK 7.62x51/.300 BLK muzzle adapterx1/|
+	SIG Sauer Two Port Brake 7.62x51 muzzle brakex1/|
+	MCX gas blockx1/|
+	MCX GEN1 KeyMod 8 inch handguardx1/|
+	MCX flip-up front sightx1/|
+	MCX flip-up rear sightx1/|
+	MPX/MCX lightweight stockx1/|
+	MCX charging handlex1
+]

@@ -8,9 +8,17 @@ weight=3.464000
 Sell_Prapor=15126
 Sell_Fence=12100
 Sell_Skier=14823
-Sell_Peacekeeper=114
+Sell_Peacekeeper=113
 Sell_Mechanic=16941
 Sell_Jaeger=16322
-Sell_Flea Market=34940
+Sell_Flea Market=34954
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	MP-155 12ga semi-automatic shotgunx1/|
+	MP-155 12ga 510mm barrelx1/|
+	MP-155 walnut forestockx1/|
+	MP-155 12ga 6-shell magazinex1/|
+	MP-155 walnut stockx1
+]

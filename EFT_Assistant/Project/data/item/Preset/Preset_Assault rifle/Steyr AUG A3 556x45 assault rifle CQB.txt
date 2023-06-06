@@ -8,8 +8,21 @@ weight=3.822000
 Sell_Prapor=65310
 Sell_Fence=52248
 Sell_Skier=64003
-Sell_Peacekeeper=489
+Sell_Peacekeeper=485
 Sell_Mechanic=73147
 Sell_Jaeger=22200
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Steyr AUG A3 5.56x45 assault riflex1/|
+	Steyr AUG 5.56x45 42-round magazinex1/|
+	Steyr AUG A3 charging handlex1/|
+	Steyr AUG A3 5.56x45 receiverx1/|
+	Steyr AUG A3 5.56x45 16 inch barrelx1/|
+	Steyr AUG A3 5.56x45 muzzle brakex1/|
+	Steyr AUG vertical foregripx1/|
+	Steyr AUG A3 M1 high sight mountx1/|
+	EOTech EXPS3 holographic sight (Tan)x1/|
+	Insight WMX200 tactical flashlightx1
+]

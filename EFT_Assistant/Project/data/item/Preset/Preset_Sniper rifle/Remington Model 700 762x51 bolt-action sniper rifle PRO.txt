@@ -8,8 +8,20 @@ weight=4.480000
 Sell_Prapor=36453
 Sell_Fence=29162
 Sell_Skier=35724
-Sell_Peacekeeper=275
+Sell_Peacekeeper=272
 Sell_Mechanic=40827
 Sell_Jaeger=40683
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Remington Model 700 7.62x51 bolt-action sniper riflex1/|
+	M700 7.62x51 Magpul PMAG AC 5-round magazinex1/|
+	M700 Magpul Pro 700 chassisx1/|
+	M700 Magpul Pro 700 folding stockx1/|
+	M700 Magpul Pro 700 pistol gripx1/|
+	M700 Magpul Pro 700 chassis inline mountx1/|
+	Magpul M-LOK 2.5 inch railx3/|
+	M700 7.62x51 20 inch threaded barrelx1/|
+	M700 thread protection capx1
+]

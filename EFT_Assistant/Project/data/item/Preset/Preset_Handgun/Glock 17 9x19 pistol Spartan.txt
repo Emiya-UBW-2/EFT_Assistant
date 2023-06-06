@@ -8,8 +8,19 @@ weight=0.727000
 Sell_Prapor=23176
 Sell_Fence=18539
 Sell_Skier=22709
-Sell_Peacekeeper=175
+Sell_Peacekeeper=172
 Sell_Mechanic=25955
 Sell_Jaeger=6813
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Glock 17 9x19 pistolx1/|
+	Glock 9x19 SAI threaded barrelx1/|
+	Glock SAI 9x19 thread protectorx1/|
+	Glock ZEV Tech HEX Spartan RMR pistol slidex1/|
+	Glock TruGlo TFX rear sightx1/|
+	Glock TruGlo TFX front sightx1/|
+	Glock ZEV Tech sight mount capx1/|
+	Glock 9x19 17-round magazinex1
+]

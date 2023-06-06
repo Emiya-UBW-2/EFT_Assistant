@@ -8,8 +8,15 @@ weight=0.951000
 Sell_Prapor=11584
 Sell_Fence=9267
 Sell_Skier=11351
-Sell_Peacekeeper=87
+Sell_Peacekeeper=86
 Sell_Mechanic=12972
-Sell_Flea Market=9999
+Sell_Flea Market=11111
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	PB 9x18PM silenced pistolx1/|
+	PM 9x18PM 90-93 8-round magazinex1/|
+	PB 9x18PM sound suppressorx1/|
+	PB bakilte side gripsx1
+]

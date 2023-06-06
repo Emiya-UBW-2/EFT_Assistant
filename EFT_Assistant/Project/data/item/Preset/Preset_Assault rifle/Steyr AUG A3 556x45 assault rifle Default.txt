@@ -8,9 +8,20 @@ weight=4.043000
 Sell_Prapor=40333
 Sell_Fence=32266
 Sell_Skier=39526
-Sell_Peacekeeper=303
+Sell_Peacekeeper=299
 Sell_Mechanic=45173
 Sell_Jaeger=20740
-Sell_Flea Market=59999
+Sell_Flea Market=48888
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Steyr AUG A3 5.56x45 assault riflex1/|
+	Steyr AUG 5.56x45 30-round magazinex1/|
+	Steyr AUG A3 charging handlex1/|
+	Steyr AUG A3 5.56x45 receiverx1/|
+	Steyr AUG A1 5.56x45 20 inch barrelx1/|
+	Steyr AUG A3 5.56x45 closed flash hiderx1/|
+	Steyr AUG vertical foregripx1/|
+	Steyr AUG A3 M1 1.5x optic sightx1
+]

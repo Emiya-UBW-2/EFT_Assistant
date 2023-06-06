@@ -8,9 +8,19 @@ weight=1.871000
 Sell_Prapor=12335
 Sell_Fence=9868
 Sell_Skier=12087
-Sell_Peacekeeper=93
+Sell_Peacekeeper=92
 Sell_Mechanic=13815
 Sell_Jaeger=1500
-Sell_Flea Market=14000
+Sell_Flea Market=18888
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	HK MP5K 9x19 submachine gunx1/|
+	HK MP5 9x19 20-round magazinex1/|
+	HK MP5K 9x19 upper receiverx1/|
+	HK MP5K polymer handguardx1/|
+	HK MP5 Drum rear sightx1/|
+	HK MP5K End Cap stockx1/|
+	HK MP5K cocking handlex1
+]

@@ -8,8 +8,24 @@ weight=3.860000
 Sell_Prapor=52071
 Sell_Fence=41658
 Sell_Skier=51029
-Sell_Peacekeeper=391
+Sell_Peacekeeper=387
 Sell_Mechanic=58321
 Sell_Jaeger=35507
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Knight's Armament Company SR-25 7.62x51 marksman riflex1/|
+	AR-15 Colt A2 pistol gripx1/|
+	AR-10 7.62x51 KAC 20-round steel magazinex1/|
+	Colt Carbine buffer tubex1/|
+	LMT SOPMOD stockx1/|
+	SR-25 7.62x51 upper receiverx1/|
+	SR-25 7.62x51 16 inch barrelx1/|
+	AR-10 KAC QDC 7.62x51 Flash Suppressor Kitx1/|
+	AR-10 KAC Low Profile Gas Blockx1/|
+	AR-10 KAC URX 4 14.5 inch handguardx1/|
+	KAC Folding Micro front sightx1/|
+	KAC Folding Micro rear sightx1/|
+	AR-10 KAC charging handlex1
+]

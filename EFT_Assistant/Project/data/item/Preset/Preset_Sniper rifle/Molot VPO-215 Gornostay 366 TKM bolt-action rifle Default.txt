@@ -8,9 +8,18 @@ weight=3.300000
 Sell_Prapor=8850
 Sell_Fence=7080
 Sell_Skier=8672
-Sell_Peacekeeper=68
+Sell_Peacekeeper=66
 Sell_Mechanic=9912
 Sell_Jaeger=9780
 Sell_Flea Market=18000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Molot VPO-215 "Gornostay" .366 TKM bolt-action riflex1/|
+	VPO-215 "Gornostay" .366 TKM 4-round magazinex1/|
+	VPO-215 "Gornostay" stockx1/|
+	VPO-215 "Gornostay" .366TKM 23 inch barrelx1/|
+	VPO-215 "Gornostay" thread protection capx1/|
+	VPO-215 "Gornostay" scope rail mountx1
+]

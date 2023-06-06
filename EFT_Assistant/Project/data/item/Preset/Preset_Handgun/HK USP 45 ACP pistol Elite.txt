@@ -8,8 +8,21 @@ weight=1.388000
 Sell_Prapor=15225
 Sell_Fence=12180
 Sell_Skier=14920
-Sell_Peacekeeper=115
+Sell_Peacekeeper=114
 Sell_Mechanic=17052
 Sell_Jaeger=4800
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	HK USP .45 ACP pistolx1/|
+	HK USP Elite .45 ACP barrelx1/|
+	HK USP Elite .45 ACP pistol slidex1/|
+	HK USP Tactical rear sightx1/|
+	HK USP Tactical front sightx1/|
+	HK USP Tactical .45 ACP 12-round magazinex1/|
+	HK USP triggerx1/|
+	HK USP hammerx1/|
+	HK USP slide lockx1/|
+	HK USP .45 ACP Elite compensatorx1
+]

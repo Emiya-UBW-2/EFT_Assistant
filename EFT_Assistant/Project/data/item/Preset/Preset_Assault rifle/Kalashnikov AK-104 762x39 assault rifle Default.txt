@@ -8,9 +8,21 @@ weight=3.205000
 Sell_Prapor=24717
 Sell_Fence=19771
 Sell_Skier=24220
-Sell_Peacekeeper=186
+Sell_Peacekeeper=184
 Sell_Mechanic=27681
 Sell_Jaeger=975
-Sell_Flea Market=26999
+Sell_Flea Market=28000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Kalashnikov AK-104 7.62x39 assault riflex1/|
+	AK-74 gas tube (6P20 Sb.1-2)x1/|
+	AK-74 polymer handguard (6P20 Sb.9)x1/|
+	AK-104 7.62x39 muzzle brake-compensator (6P46 0-20)x1/|
+	AK polymer pistol grip (6P1 Sb.8)x1/|
+	AK-74M dust cover (6P34 0-1)x1/|
+	AK-105 rear sight (6P44 Sb.1-30)x1/|
+	AK-74M polymer stock (6P34 Sb.15)x1/|
+	AK-103 7.62x39 30-round magazinex1
+]

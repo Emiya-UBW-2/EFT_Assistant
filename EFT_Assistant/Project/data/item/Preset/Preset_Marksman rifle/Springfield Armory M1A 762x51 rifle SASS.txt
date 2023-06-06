@@ -8,8 +8,19 @@ weight=5.400000
 Sell_Prapor=55330
 Sell_Fence=44263
 Sell_Skier=54222
-Sell_Peacekeeper=414
+Sell_Peacekeeper=411
 Sell_Mechanic=61968
 Sell_Jaeger=60064
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Springfield Armory M1A 7.62x51 riflex1/|
+	M1A 7.62x51 20-round magazinex1/|
+	M14 TROY S.A.S.S. Chassis stockx1/|
+	AR-15 Damage Industries ECS pistol grip (FDE)x1/|
+	Colt Carbine buffer tubex1/|
+	Magpul MOE Carbine stock (FDE)x1/|
+	M1A 7.62x51 22 inch barrelx1/|
+	M14 Yankee Hill Phantom 7.62x51 flash hiderx1
+]

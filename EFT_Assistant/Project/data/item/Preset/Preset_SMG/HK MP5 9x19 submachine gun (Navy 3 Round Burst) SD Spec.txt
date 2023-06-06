@@ -8,8 +8,23 @@ weight=3.264000
 Sell_Prapor=52028
 Sell_Fence=41621
 Sell_Skier=50985
-Sell_Peacekeeper=389
+Sell_Peacekeeper=386
 Sell_Mechanic=58268
 Sell_Jaeger=12797
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	HK MP5 9x19 submachine gun (Navy 3 Round Burst)x1/|
+	HK MP5 9x19 30-round magazinex1/|
+	HK MP5 9x19 upper receiverx1/|
+	HK MP5 PTR Tri-Rail handguardx1/|
+	TangoDown Stubby BGV-MK46K foregrip (Black)x1/|
+	HK MP5 Drum rear sightx1/|
+	HK MP5 A3 old model stockx1/|
+	HK MP5 Navy Style 3-lug suppressor adapterx1/|
+	SIG Sauer SRD9 9x19 sound suppressorx1/|
+	HK MP5 MFI HK universal low profile scope mountx1/|
+	Axion Kobra EKP-8-18 reflex sightx1/|
+	HK MP5 cocking handlex1
+]

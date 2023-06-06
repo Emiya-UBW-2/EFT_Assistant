@@ -8,8 +8,21 @@ weight=3.889000
 Sell_Prapor=51168
 Sell_Fence=40935
 Sell_Skier=50144
-Sell_Peacekeeper=385
+Sell_Peacekeeper=380
 Sell_Mechanic=57309
 Sell_Jaeger=8385
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Rifle Dynamics RD-704 7.62x39 assault riflex1/|
+	RD-704 SLR ION Lite + Railed Gas Tube handguard & gas tube combox1/|
+	AR-10 Dead Air Keymount 7.62x51 muzzle brakex1/|
+	AK TangoDown Battle Grip pistol gripx1/|
+	RD-704 dust coverx1/|
+	AK RD Enhanced V2 Rear Sightx1/|
+	AKM/AK-74 RD AK to M4 buffer tube adapterx1/|
+	Colt Carbine buffer tubex1/|
+	SB Tactical SBA3 bracex1/|
+	AK 7.62x39 30-round magazine (issued '55 or later)x1
+]

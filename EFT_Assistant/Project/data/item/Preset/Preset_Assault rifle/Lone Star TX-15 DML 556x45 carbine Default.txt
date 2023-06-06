@@ -8,9 +8,26 @@ weight=3.322000
 Sell_Prapor=98220
 Sell_Fence=78576
 Sell_Skier=96254
-Sell_Peacekeeper=738
+Sell_Peacekeeper=732
 Sell_Mechanic=110006
 Sell_Jaeger=32487
-Sell_Flea Market=108000
+Sell_Flea Market=115420
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Lone Star TX-15 DML 5.56x45 carbinex1/|
+	AR-15 Magpul MOE pistol grip (Black)x1/|
+	5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazinex1/|
+	TX-15 5.56x45 Lightweight upper receiverx1/|
+	AR-15 5.56x45 18 inch barrelx1/|
+	AR-15 Thunder Beast Arms 223CB 5.56x45 muzzle brakex1/|
+	Thunder Beast Arms Ultra 5 sound suppressorx1/|
+	AR-15 Daniel Defense MK12 Low Profile Gas Blockx1/|
+	AR-15 Lone Star Ion Lite handguardx1/|
+	Magpul M-LOK 2.5 inch railx1/|
+	Magpul M-LOK 4.1 inch railx1/|
+	Colt Carbine buffer tubex1/|
+	Magpul PRS GEN3 stock (Grey)x1/|
+	AR-15 Radian Weapons Raptor charging handle (Grey)x1
+]

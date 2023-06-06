@@ -8,7 +8,16 @@ weight=6.640000
 Sell_Prapor=70671
 Sell_Fence=56536
 Sell_Skier=69257
-Sell_Peacekeeper=531
+Sell_Peacekeeper=526
 Sell_Mechanic=79151
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	ASh-12 12.7x55 assault riflex1/|
+	ASh-12 12.7x55 sound suppressorx1/|
+	ASh-12 12.7x55 10-round magazinex1/|
+	ASh-12 folding front sightx1/|
+	ASh-12 polymer handguardx1/|
+	ASh-12 rear sight carry handlex1
+]

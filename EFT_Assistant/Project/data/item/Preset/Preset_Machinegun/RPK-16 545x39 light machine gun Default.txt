@@ -8,9 +8,23 @@ weight=3.142000
 Sell_Prapor=31400
 Sell_Fence=25120
 Sell_Skier=30769
-Sell_Peacekeeper=236
+Sell_Peacekeeper=234
 Sell_Mechanic=35167
 Sell_Jaeger=12864
-Sell_Flea Market=59000
+Sell_Flea Market=57000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	RPK-16 5.45x39 light machine gunx1/|
+	AK-12 pistol gripx1/|
+	RPK-16 dust coverx1/|
+	RPK-16 rear sight basex1/|
+	RPK-16 rear sightx1/|
+	RPK-16 buffer tubex1/|
+	AK-12 stockx1/|
+	RPK-16 handguardx1/|
+	RPK-16 handguard railx2/|
+	RPK-16 5.45x39 15 inch barrelx1/|
+	RPK-16 5.45x39 muzzle brake-compensatorx1
+]

@@ -8,9 +8,21 @@ weight=3.445000
 Sell_Prapor=19206
 Sell_Fence=15363
 Sell_Skier=18817
-Sell_Peacekeeper=145
+Sell_Peacekeeper=144
 Sell_Mechanic=21507
 Sell_Jaeger=934
-Sell_Flea Market=26333
+Sell_Flea Market=40000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Kalashnikov AKMS 7.62x39 assault riflex1/|
+	AKM gas tube (6P1 Sb.1-2)x1/|
+	AKM wooden handguard (6P1 Sb.6-1)x1/|
+	AKM 7.62x39 muzzle brake-compensator (6P1 0-14)x1/|
+	AKM wooden pistol gripx1/|
+	AKM dust cover (6P1 0-1)x1/|
+	AKM rear sight (6P1 Sb.2-1)x1/|
+	AKMS shoulder piece (6P4 Sb.1-19)x1/|
+	AKMS 7.62x39 aluminium 30-round magazinex1
+]

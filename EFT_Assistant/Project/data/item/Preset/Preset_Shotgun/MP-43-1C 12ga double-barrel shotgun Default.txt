@@ -8,9 +8,15 @@ weight=5.820000
 Sell_Prapor=5250
 Sell_Fence=4200
 Sell_Skier=5145
-Sell_Peacekeeper=40
+Sell_Peacekeeper=39
 Sell_Mechanic=5880
 Sell_Jaeger=6300
 Sell_Flea Market=10000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	MP-43-1C 12ga double-barrel shotgunx1/|
+	MP-43-1C 12ga 725mm barrelx1/|
+	MP-43-1C buttpadx1
+]

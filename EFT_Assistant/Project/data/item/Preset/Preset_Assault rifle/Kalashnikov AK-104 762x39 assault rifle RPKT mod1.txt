@@ -8,8 +8,22 @@ weight=4.887000
 Sell_Prapor=85538
 Sell_Fence=68429
 Sell_Skier=83826
-Sell_Peacekeeper=642
+Sell_Peacekeeper=635
 Sell_Mechanic=95802
 Sell_Jaeger=9053
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Kalashnikov AK-104 7.62x39 assault riflex1/|
+	Molot AKM-type gas tubex1/|
+	AK Zenit B-30 handguard with B-31S upper handguard railx1/|
+	Zenit RK-1 tactical foregrip on B-25U mountx1/|
+	EOTech XPS3-0 holographic sightx1/|
+	AK-74 thread type JMac Customs RRD-4C multi-caliber muzzle brakex1/|
+	AK TAPCO SAW-Style pistol grip (FDE)x1/|
+	AK TWS Dog Leg Rail dust coverx1/|
+	AK-74M CAA AKTS AK74 buffer tubex1/|
+	Vltor EMOD stockx1/|
+	AK 7.62x39 Molot 75-round drum magazinex1
+]

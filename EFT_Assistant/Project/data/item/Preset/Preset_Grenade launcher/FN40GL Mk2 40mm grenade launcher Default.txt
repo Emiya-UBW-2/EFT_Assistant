@@ -8,7 +8,12 @@ weight=3.000000
 Sell_Prapor=55799
 Sell_Fence=44639
 Sell_Skier=54683
-Sell_Peacekeeper=419
+Sell_Peacekeeper=415
 Sell_Mechanic=62495
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	FN40GL Mk2 40mm grenade launcherx1/|
+	AR-15 Damage Industries ECS pistol grip (FDE)x1
+]

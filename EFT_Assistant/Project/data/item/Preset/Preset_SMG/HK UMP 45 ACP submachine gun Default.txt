@@ -14,3 +14,12 @@ Sell_Jaeger=10221
 Sell_Flea Market=28000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	HK UMP .45 ACP submachine gunx1/|
+	HK UMP .45 ACP 25-round magazinex1/|
+	HK UMP polymer stockx1/|
+	HK UMP .45 ACP 8 inch barrelx1/|
+	HK UMP bottom handguard railx1/|
+	HK UMP side handguard railx2
+]

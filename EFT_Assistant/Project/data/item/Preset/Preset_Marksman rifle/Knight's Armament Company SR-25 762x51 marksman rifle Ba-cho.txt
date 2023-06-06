@@ -8,8 +8,31 @@ weight=5.563000
 Sell_Prapor=152974
 Sell_Fence=122380
 Sell_Skier=149913
-Sell_Peacekeeper=1148
+Sell_Peacekeeper=1137
 Sell_Mechanic=171331
 Sell_Jaeger=96108
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Knight's Armament Company SR-25 7.62x51 marksman riflex1/|
+	Hogue OverMolded Rubber Grip (FDE)x1/|
+	AR-10 7.62x51 KAC 20-round steel magazinex1/|
+	Colt Carbine buffer tubex1/|
+	AR-15 B5 Systems Precision stockx1/|
+	SR-25 7.62x51 upper receiverx1/|
+	Geissele Super Precision 30mm ring scope mount (DDC)x1/|
+	Vortex Razor HD Gen.2 1-6x24 30mm riflescopex1/|
+	Reptilia ROF-90 RMR mount for Geissele scope mounts (DDC)x1/|
+	Trijicon RMR reflex sightx1/|
+	SR-25 7.62x51 16 inch barrelx1/|
+	AR-10 KAC QDC 7.62x51 Muzzle Brake Kitx1/|
+	KAC PRS/QDC 7.62x51 sound suppressorx1/|
+	AR-10 KAC Low Profile Gas Blockx1/|
+	AR-10 KAC URX 4 14.5 inch handguardx1/|
+	AN/PEQ-15 tactical devicex1/|
+	KAC Folding Micro front sightx1/|
+	Magpul M-LOK AFG tactical foregrip (FDE)x1/|
+	KAC Folding Micro rear sightx1/|
+	AR-10 KAC ambidextrous charging handlex1
+]

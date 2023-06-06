@@ -8,9 +8,27 @@ weight=3.339000
 Sell_Prapor=46581
 Sell_Fence=37265
 Sell_Skier=45648
-Sell_Peacekeeper=351
+Sell_Peacekeeper=348
 Sell_Mechanic=52170
 Sell_Jaeger=32250
-Sell_Flea Market=49876
+Sell_Flea Market=51999
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	FN SCAR-L 5.56x45 assault riflex1/|
+	AR-15 Colt A2 pistol gripx1/|
+	FN SCAR-L 5.56x45 30-round magazinex1/|
+	FN SCAR-L 5.56x45 upper receiverx1/|
+	FN SCAR-L 5.56x45 18 inch barrelx1/|
+	FN SCAR-L 5.56x45 flash hiderx1/|
+	FN SCAR flip-up front sightx1/|
+	FN SCAR flip-up rear sightx1/|
+	FN SCAR bottom railx1/|
+	FN SCAR side railx1/|
+	FN SCAR folding polymer stockx1/|
+	FN SCAR retractable polymer stockx1/|
+	FN SCAR rubber buttpadx1/|
+	FN SCAR cheek restx1/|
+	FN SCAR charging handlex1
+]

@@ -8,8 +8,18 @@ weight=5.149000
 Sell_Prapor=49919
 Sell_Fence=39933
 Sell_Skier=48919
-Sell_Peacekeeper=375
+Sell_Peacekeeper=371
 Sell_Mechanic=55908
 Sell_Jaeger=49377
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Lobaev Arms DVL-10 7.62x51 bolt-action sniper riflex1/|
+	DVL-10 7.62x51 10-round magazinex1/|
+	DVL-10 7.62x51 500mm barrelx1/|
+	DVL-10 7.62x51 muzzle devicex1/|
+	Harris HBR Bipodx1/|
+	Hogue OverMolded Rubber Grip (Olive Drab)x1/|
+	Lobaev Arms stockx1
+]

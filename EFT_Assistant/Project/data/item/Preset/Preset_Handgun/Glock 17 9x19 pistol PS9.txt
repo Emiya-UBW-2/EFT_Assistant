@@ -8,8 +8,21 @@ weight=1.102000
 Sell_Prapor=30843
 Sell_Fence=24672
 Sell_Skier=30222
-Sell_Peacekeeper=231
+Sell_Peacekeeper=230
 Sell_Mechanic=34542
 Sell_Jaeger=6995
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Glock 17 9x19 pistolx1/|
+	Glock 9x19 Double Diamond threaded barrelx1/|
+	Glock Polymer80 PS9 pistol slidex1/|
+	Glock Aimtech Tiger Shark sight mountx1/|
+	Glock 9x19 Double Diamond flash hiderx1/|
+	Trijicon RMR low profile mountx1/|
+	Trijicon RMR reflex sightx1/|
+	Glock rear sightx1/|
+	Glock front sightx1/|
+	Glock 9x19 17-round magazinex1
+]

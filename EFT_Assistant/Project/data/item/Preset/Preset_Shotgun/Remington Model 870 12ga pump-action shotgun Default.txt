@@ -11,6 +11,14 @@ Sell_Skier=14451
 Sell_Peacekeeper=111
 Sell_Mechanic=16517
 Sell_Jaeger=16238
-Sell_Flea Market=45999
+Sell_Flea Market=27999
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Remington Model 870 12ga pump-action shotgunx1/|
+	M870 12ga 508mm barrelx1/|
+	M870 SpeedFeed Short handguardx1/|
+	M870 12ga 4-shell magazine capx1/|
+	M870 SPS polymer stockx1
+]

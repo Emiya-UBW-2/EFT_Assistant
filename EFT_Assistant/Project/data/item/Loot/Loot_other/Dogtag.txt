@@ -11,3 +11,8 @@ Sell_Fence=240
 Sell_Skier=294
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Dogtag BEARx1/|
+	Dogtag USECx1
+]

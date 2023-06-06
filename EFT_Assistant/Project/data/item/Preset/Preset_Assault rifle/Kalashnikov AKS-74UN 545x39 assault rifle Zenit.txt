@@ -8,8 +8,27 @@ weight=4.246000
 Sell_Prapor=59425
 Sell_Fence=47533
 Sell_Skier=58242
-Sell_Peacekeeper=429
+Sell_Peacekeeper=427
 Sell_Mechanic=66562
 Sell_Jaeger=15963
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Kalashnikov AKS-74UN 5.45x39 assault riflex1/|
+	AK Zenit RK-3 pistol gripx1/|
+	AKS-74/AKS-74U Zenit PT Lockx1/|
+	AK Zenit PT-3 "Klassika" stockx1/|
+	AK Zenit RP-1 charging handlex1/|
+	AK-74 5.45x39 6L23 30-round magazinex1/|
+	5.45x39mm BP gsx30/|
+	AK Zenit DTK-1 7.62x39/5.45x39 muzzle brake-compensatorx1/|
+	AKS-74U dust cover (6P26 Sb.7)x1/|
+	AKS-74U Zenit B-18 Mountx1/|
+	EOTech XPS3-2 holographic sightx1/|
+	AKS-74U gas tube (6P26 Sb.1-2)x1/|
+	AKS-74U Zenit B-11 handguardx1/|
+	Magpul RVG foregrip (Black)x1/|
+	AK Zenit B-12 Mountx1/|
+	Holosun LS321 Tactical devicex1
+]

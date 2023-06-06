@@ -8,8 +8,27 @@ weight=3.346000
 Sell_Prapor=128767
 Sell_Fence=103012
 Sell_Skier=126189
-Sell_Peacekeeper=968
+Sell_Peacekeeper=960
 Sell_Mechanic=144217
 Sell_Jaeger=15934
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Lone Star TX-15 DML 5.56x45 carbinex1/|
+	AR-15 Tactical Dynamics Skeletonized pistol gripx1/|
+	5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine (FDE)x1/|
+	AR-15 Vltor MUR-1S 5.56x45 upper receiverx1/|
+	EOTech HHS-1 hybrid sight (Tan)x1/|
+	AR-15 5.56x45 260mm barrelx1/|
+	AR-15 Daniel Defense WAVE 5.56x45 muzzle brakex1/|
+	Daniel Defense WAVE QD sound suppressorx1/|
+	AR-15 JP Enterprises Gas System-5Bx1/|
+	AR-15 KAC URX 3 8 inch handguardx1/|
+	KAC URX 3/3.1 short panel (FDE)x2/|
+	Holosun LS321 Tactical devicex1/|
+	AR-15 KAC URX 3 8 inch lower handguardx1/|
+	KAC URX 3/3.1 stopper panel (FDE)x1/|
+	TROY M7A1 PDW stock (FDE)x1/|
+	AR-15 HK Extended Latch charging handlex1
+]

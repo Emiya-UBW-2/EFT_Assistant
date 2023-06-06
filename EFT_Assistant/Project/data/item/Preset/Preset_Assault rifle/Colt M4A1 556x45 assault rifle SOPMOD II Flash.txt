@@ -8,8 +8,34 @@ weight=4.605000
 Sell_Prapor=123774
 Sell_Fence=99014
 Sell_Skier=121268
-Sell_Peacekeeper=916
+Sell_Peacekeeper=905
 Sell_Mechanic=138606
 Sell_Jaeger=49822
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Colt M4A1 5.56x45 assault riflex1/|
+	AR-15 Damage Industries ECS pistol grip (FDE)x1/|
+	5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazinex1/|
+	5.56x45mm M855x30/|
+	M4A1 5.56x45 upper receiverx1/|
+	ELCAN SpecterDR 1x/4x scope (FDE)x1/|
+	AR-15 5.56x45 260mm barrelx1/|
+	AR-15 KAC QDC 5.56x45 Flash Suppressor Kitx1/|
+	KAC QDSS NT-4 5.56x45 sound suppressor (Black)x1/|
+	AR-15 Daniel Defense MK12 Low Profile Gas Blockx1/|
+	AR-15 Daniel Defense RIS II 9.5 handguard (Coyote Brown)x1/|
+	NcSTAR MPR45 Backup mountx1/|
+	Aimpoint Micro Standard Mountx1/|
+	Aimpoint Micro T-1 reflex sightx1/|
+	Kiba Arms 25mm accessory ring mountx1/|
+	Ultrafire WF-501B flashlightx1/|
+	AN/PEQ-15 tactical devicex1/|
+	AR-15 Daniel Defense RIS II 9.5 lower handguard (Coyote Brown)x1/|
+	TangoDown Stubby BGV-MK46K foregrip (FDE)x1/|
+	Colt Carbine buffer tubex1/|
+	Magpul MOE Carbine stock (FDE)x1/|
+	Magpul MOE Carbine rubber buttpadx1/|
+	AR-15 Badger Ordnance Tactical Charging Handle Latchx1
+]

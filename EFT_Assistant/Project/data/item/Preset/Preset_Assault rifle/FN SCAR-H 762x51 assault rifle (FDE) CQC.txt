@@ -8,8 +8,26 @@ weight=3.702000
 Sell_Prapor=61174
 Sell_Fence=48939
 Sell_Skier=59949
-Sell_Peacekeeper=459
+Sell_Peacekeeper=456
 Sell_Mechanic=68514
 Sell_Jaeger=39030
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	FN SCAR-H 7.62x51 assault rifle (FDE)x1/|
+	AR-15 Damage Industries ECS pistol grip (FDE)x1/|
+	FN SCAR-H 7.62x51 20-round magazine (FDE)x1/|
+	FN SCAR-H 7.62x51 upper receiver (FDE)x1/|
+	FN SCAR-H 7.62x51 13 inch barrelx1/|
+	AAC SCAR-SD 51T 7.62x51 flash hiderx1/|
+	FN SCAR flip-up front sightx1/|
+	FN SCAR flip-up rear sightx1/|
+	FN SCAR bottom railx1/|
+	FN SCAR side railx1/|
+	FN SCAR folding polymer stock (FDE)x1/|
+	FN SCAR retractable polymer stock (FDE)x1/|
+	FN SCAR rubber buttpadx1/|
+	FN SCAR cheek rest (FDE)x1/|
+	FN SCAR charging handlex1
+]

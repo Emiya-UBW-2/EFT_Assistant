@@ -8,8 +8,20 @@ weight=7.426000
 Sell_Prapor=94474
 Sell_Fence=75578
 Sell_Skier=92583
-Sell_Peacekeeper=709
+Sell_Peacekeeper=702
 Sell_Mechanic=105812
 Sell_Jaeger=84628
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Mosin 7.62x54R bolt-action rifle (Sniper)x1/|
+	Mosin Rifle 7.62x54R ProMag Archangel OPFOR 10-round magazinex1/|
+	Mosin Rifle ProMag Archangel OPFOR PRS chassisx1/|
+	Mosin Rifle 7.62x54R 730mm regular barrelx1/|
+	Mosin Rifle front sightx1/|
+	Mosin Rifle AIM Sports Tri-Rail mountx1/|
+	Nightforce Magmount 34mm ring scope mountx1/|
+	Nightforce ATACR 7-35x56 34mm riflescopex1/|
+	Mosin Rifle Bramit 7.62x54R sound suppressorx1
+]

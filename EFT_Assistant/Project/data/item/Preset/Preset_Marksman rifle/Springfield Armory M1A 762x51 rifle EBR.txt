@@ -8,8 +8,20 @@ weight=5.874000
 Sell_Prapor=44559
 Sell_Fence=35644
 Sell_Skier=43665
-Sell_Peacekeeper=334
+Sell_Peacekeeper=332
 Sell_Mechanic=49904
 Sell_Jaeger=47881
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Springfield Armory M1A 7.62x51 riflex1/|
+	M1A 7.62x51 20-round magazinex1/|
+	M14 SAGE International M14ALCS chassisx1/|
+	M14 SAGE International M14ALCS (MOD-0) stockx1/|
+	M14 SAGE International M14ALCS (MOD-0) pistol gripx1/|
+	M1A 7.62x51 16 inch barrelx1/|
+	M1A SOCOM 16 7.62x51 muzzle brake-compensatorx1/|
+	M1A SA XS Post .125 Blade front sightx1/|
+	M14 SA Enlarged Military Aperture rear sightx1
+]

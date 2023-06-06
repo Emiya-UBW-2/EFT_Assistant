@@ -8,8 +8,23 @@ weight=4.336000
 Sell_Prapor=77628
 Sell_Fence=62100
 Sell_Skier=76073
-Sell_Peacekeeper=583
+Sell_Peacekeeper=579
 Sell_Mechanic=86943
 Sell_Jaeger=24976
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	DS Arms SA-58 7.62x51 assault riflex1/|
+	SA-58 FAB Defense AG-FAL pistol gripx1/|
+	SA-58/FAL 7.62x51 X Products X-FAL 50-round drum magazinex1/|
+	SA-58/FAL Vltor CASV-FAS handguardx1/|
+	Vltor CASV 5 inch railx1/|
+	Magpul RVG foregrip (Black)x1/|
+	Vltor CASV 4 inch railx2/|
+	SA-58 7.62x51 11 inch barrelx1/|
+	AR-10 2A Armanent X3 7.62x51 compensatorx1/|
+	SA-58 Holland Type rear sightx1/|
+	SA-58 Extreme Duty dust coverx1/|
+	SA-58 BRS stockx1
+]

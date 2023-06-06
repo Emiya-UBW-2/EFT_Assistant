@@ -8,9 +8,19 @@ weight=1.611000
 Sell_Prapor=13899
 Sell_Fence=11118
 Sell_Skier=13620
-Sell_Peacekeeper=104
+Sell_Peacekeeper=103
 Sell_Mechanic=15565
 Sell_Jaeger=4076
-Sell_Flea Market=15999
+Sell_Flea Market=16000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	APB 9x18PM silenced machine pistolx1/|
+	APS 9x18PM 20-round magazinex1/|
+	APB detachable wire stockx1/|
+	APS bakelite side-piecesx1/|
+	APS front sightx1/|
+	APB rear sightx1/|
+	APB 9x18PM sound suppressorx1
+]

@@ -8,8 +8,17 @@ weight=4.004000
 Sell_Prapor=26193
 Sell_Fence=20953
 Sell_Skier=25668
-Sell_Peacekeeper=197
+Sell_Peacekeeper=195
 Sell_Mechanic=29335
 Sell_Jaeger=13390
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Simonov OP-SKS 7.62x39 carbine (Hunting Rifle Version)x1/|
+	SKS FAB Defense UAS chassisx1/|
+	SKS rear sightx1/|
+	SKS 7.62x39 10-round internal box magazinex1/|
+	OP-SKS dovetail mountx1/|
+	SKS/VZ-58 FAB Defense AG-58 pistol gripx1
+]

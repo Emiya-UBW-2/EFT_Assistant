@@ -8,8 +8,18 @@ weight=2.709000
 Sell_Prapor=45981
 Sell_Fence=36785
 Sell_Skier=45060
-Sell_Peacekeeper=346
+Sell_Peacekeeper=341
 Sell_Mechanic=51499
 Sell_Jaeger=17880
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	FN P90 5.7x28 submachine gunx1/|
+	FN P90 5.7x28 50-round magazinex1/|
+	FN PS90 stockx1/|
+	FN P90 Damage Industries buttpadx1/|
+	FN P90 EFFEN 90 5.7x28 upper receiverx1/|
+	FN P90 5.7x28 16 inch barrelx1/|
+	FN P90 K&M The Handler charging handlex1
+]

@@ -7,10 +7,17 @@ height=2
 weight=1.290000
 Sell_Fence=47070
 Sell_Skier=57660
-Sell_Peacekeeper=441
+Sell_Peacekeeper=437
 Sell_Ragman=12228
 Sell_Prapor=48977
 Sell_Mechanic=54854
 Sell_Jaeger=58772
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Wilcox Skull Lock head mountx1/|
+	Norotos Titanium Advanced Tactical Mountx1/|
+	AN/PVS-14 Dual Dovetail Mountx1/|
+	AN/PVS-14 Night Vision Monocularx1
+]

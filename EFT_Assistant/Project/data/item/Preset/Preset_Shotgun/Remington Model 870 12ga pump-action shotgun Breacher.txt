@@ -8,8 +8,22 @@ weight=4.048000
 Sell_Prapor=41073
 Sell_Fence=32856
 Sell_Skier=40248
-Sell_Peacekeeper=308
+Sell_Peacekeeper=307
 Sell_Mechanic=46001
 Sell_Jaeger=28036
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Remington Model 870 12ga pump-action shotgunx1/|
+	M870 12ga sawn-off 325mm barrelx1/|
+	M870 FAB Defense PR-870 forestockx1/|
+	Magpul RVG foregrip (Black)x1/|
+	M870 12ga 4-shell magazine capx1/|
+	M870 Mesa Tactical LEO stock adapterx1/|
+	Magpul MOE Carbine stock (Black)x1/|
+	Magpul MOE Carbine rubber buttpadx1/|
+	AR-15 Colt A2 pistol gripx1/|
+	M870 XS SHOTRAIL rail with Ghost Ring rear sightx1/|
+	EOTech XPS3-2 holographic sightx1
+]

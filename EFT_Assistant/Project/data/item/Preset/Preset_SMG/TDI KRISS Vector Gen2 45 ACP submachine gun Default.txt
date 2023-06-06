@@ -8,9 +8,21 @@ weight=2.646000
 Sell_Prapor=28592
 Sell_Fence=22874
 Sell_Skier=28019
-Sell_Peacekeeper=215
+Sell_Peacekeeper=213
 Sell_Mechanic=32023
 Sell_Jaeger=10910
-Sell_Flea Market=87650
+Sell_Flea Market=80000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	TDI KRISS Vector Gen.2 .45 ACP submachine gunx1/|
+	Glock .45 ACP 13-round magazinex1/|
+	KRISS Defiance low profile flip-up front sightx1/|
+	KRISS Defiance low profile flip-up rear sightx1/|
+	KRISS Vector Gen.2 folding stockx1/|
+	KRISS Vector .45 ACP 5 inch barrelx1/|
+	KRISS Vector .45 ACP thread protection capx1/|
+	KRISS Vector bottom railx1/|
+	KRISS Vector side railx2
+]

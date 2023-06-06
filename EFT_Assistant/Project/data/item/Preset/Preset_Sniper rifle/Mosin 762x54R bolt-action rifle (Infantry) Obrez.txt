@@ -13,3 +13,10 @@ Sell_Mechanic=9615
 Sell_Jaeger=9120
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Mosin 7.62x54R bolt-action rifle (Infantry)x1/|
+	Mosin Rifle 7.62x54R 5-round magazinex1/|
+	Mosin Rifle sawn-off stockx1/|
+	Mosin Rifle 7.62x54R sawn-off 200mm barrelx1
+]

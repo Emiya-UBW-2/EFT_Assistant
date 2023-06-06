@@ -8,8 +8,23 @@ weight=3.610000
 Sell_Prapor=37860
 Sell_Fence=30288
 Sell_Skier=37101
-Sell_Peacekeeper=283
+Sell_Peacekeeper=281
 Sell_Mechanic=42402
 Sell_Jaeger=16630
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	MP-133 12ga pump-action shotgunx1/|
+	MP-133 12ga 510mm barrelx1/|
+	Remington Tactical Choke 12gax1/|
+	MP-133 custom plastic forestock with railsx1/|
+	Magpul AFG tactical foregrip (Black)x1/|
+	Kiba Arms 25mm accessory ring mountx1/|
+	Armytek Predator Pro v3 XHP35 HI flashlightx1/|
+	MP-133 12ga 6-shell magazinex1/|
+	MP-133/153 plastic stockx1/|
+	Kiba Arms SPRM rail mount for pump-action shotgunsx1/|
+	Trijicon RMR low profile mountx1/|
+	Trijicon RMR reflex sightx1
+]

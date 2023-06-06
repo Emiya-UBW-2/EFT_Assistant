@@ -8,9 +8,19 @@ weight=5.188000
 Sell_Prapor=20886
 Sell_Fence=16707
 Sell_Skier=20467
-Sell_Peacekeeper=158
+Sell_Peacekeeper=157
 Sell_Mechanic=23391
 Sell_Jaeger=17261
-Sell_Flea Market=71111
+Sell_Flea Market=33111
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	SV-98 7.62x54R bolt-action sniper riflex1/|
+	SV-98 7.62x54R 10-round magazinex1/|
+	SV-98 rear sightx1/|
+	SV-98 anti-heat ribbonx1/|
+	SV-98 7.62x54R muzzle devicex1/|
+	SV-98 wooden stockx1/|
+	SV-98 bipodx1
+]

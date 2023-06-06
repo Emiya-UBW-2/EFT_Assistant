@@ -9,6 +9,6 @@ weight=0.500000
 Sell_Fence=6422
 Sell_Skier=7867
 Sell_Ragman=9954
-Sell_Flea Market=18001
+Sell_Flea Market=17700
 fleaMarketFee=0
 propertiestype=

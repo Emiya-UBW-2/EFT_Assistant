@@ -8,8 +8,18 @@ weight=0.896000
 Sell_Prapor=37858
 Sell_Fence=30285
 Sell_Skier=37099
-Sell_Peacekeeper=284
+Sell_Peacekeeper=283
 Sell_Mechanic=42399
 Sell_Jaeger=4768
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Glock 17 9x19 pistolx1/|
+	Glock 9x19 Lone Wolf AlphaWolf threaded barrelx1/|
+	Glock 9x19 CARVER Custom 4 Port compensatorx1/|
+	Glock ZEV Tech HEX Gen3 RMR pistol slidex1/|
+	Trijicon RMR reflex sightx1/|
+	Glock 9x19 17-round magazinex1/|
+	SureFire X400 Ultra tactical flashlight with laserx1
+]

@@ -11,6 +11,18 @@ Sell_Skier=12082
 Sell_Peacekeeper=92
 Sell_Mechanic=13812
 Sell_Jaeger=904
-Sell_Flea Market=17000
+Sell_Flea Market=20999
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	PP-19-01 "Vityaz" 9x19 submachine gunx1/|
+	PP-19-01 "Vityaz" pistol gripx1/|
+	PP-19-01 "Vityaz" metal skeleton stockx1/|
+	PP-19-01 "Vityaz" 9x19 30-round magazinex1/|
+	PP-19-01 "Vityaz" 9x19 muzzle brake-compensatorx1/|
+	PP-19-01 "Vityaz" dust coverx1/|
+	PP-19-01 "Vityaz" rear sightx1/|
+	PP-19-01 "Vityaz" gas tubex1/|
+	AK-74 polymer handguard (6P20 Sb.9)x1
+]

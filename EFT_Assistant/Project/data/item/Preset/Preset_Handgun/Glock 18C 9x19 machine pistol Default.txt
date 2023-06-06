@@ -8,9 +8,18 @@ weight=0.842000
 Sell_Prapor=13763
 Sell_Fence=11008
 Sell_Skier=13486
-Sell_Peacekeeper=104
+Sell_Peacekeeper=102
 Sell_Mechanic=15414
 Sell_Jaeger=1910
-Sell_Flea Market=20000
+Sell_Flea Market=24700
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Glock 18C 9x19 machine pistolx1/|
+	Glock 18C 9x19 barrel with a compensatorx1/|
+	Glock 18C 9x19 pistol slidex1/|
+	Glock rear sightx1/|
+	Glock front sightx1/|
+	Glock 9x19 17-round magazinex1
+]

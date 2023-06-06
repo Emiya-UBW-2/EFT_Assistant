@@ -8,8 +8,30 @@ weight=5.594000
 Sell_Prapor=97078
 Sell_Fence=77666
 Sell_Skier=95127
-Sell_Peacekeeper=720
+Sell_Peacekeeper=715
 Sell_Mechanic=108729
 Sell_Jaeger=12949
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Kalashnikov AKM 7.62x39 assault riflex1/|
+	AK Kiba Arms VDM CS gas tubex1/|
+	AK Krebs Custom UFM KeyMod handguardx1/|
+	Vltor CASV KeyMod 6 inch railx1/|
+	Magpul AFG tactical foregrip (Black)x1/|
+	Vltor CASV KeyMod 4 inch railx2/|
+	Holosun LS321 Tactical devicex1/|
+	Vltor CASV KeyMod 2 inch railx1/|
+	Zenit Klesch-2P flashlight with laserx1/|
+	AKM PBS-1 7.62x39 sound suppressorx1/|
+	AK TAPCO SAW-Style pistol grip (Black)x1/|
+	AKM dust cover (6P1 0-1)x1/|
+	AK Taktika Tula TT01 rear sight railx1/|
+	EOTech XPS3-2 holographic sightx1/|
+	AKM/AK-74 ME4 buffer tube adapterx1/|
+	Colt Carbine buffer tubex1/|
+	MFT BUS stockx1/|
+	AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazinex1/|
+	7.62x39mm PS gzhx30
+]

@@ -8,8 +8,13 @@ weight=0.734000
 Sell_Prapor=4728
 Sell_Fence=3782
 Sell_Skier=4633
-Sell_Peacekeeper=36
+Sell_Peacekeeper=35
 Sell_Mechanic=5295
-Sell_Flea Market=135555
+Sell_Flea Market=44000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Makarov PM (t) 9x18PM pistolx1/|
+	PM 9x18PM 90-93 8-round magazinex1
+]

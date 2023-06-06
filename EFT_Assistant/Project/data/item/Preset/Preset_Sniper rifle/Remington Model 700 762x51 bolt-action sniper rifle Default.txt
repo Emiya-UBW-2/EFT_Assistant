@@ -8,9 +8,16 @@ weight=4.050000
 Sell_Prapor=25025
 Sell_Fence=20020
 Sell_Skier=24524
-Sell_Peacekeeper=188
+Sell_Peacekeeper=187
 Sell_Mechanic=28028
 Sell_Jaeger=28920
-Sell_Flea Market=30000
+Sell_Flea Market=39998
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Remington Model 700 7.62x51 bolt-action sniper riflex1/|
+	M700 7.62x51 Wyatt's Outdoor 5-round magazinex1/|
+	M700 Hogue Overmolded Ghillie stockx1/|
+	M700 7.62x51 20 inch threaded barrelx1
+]

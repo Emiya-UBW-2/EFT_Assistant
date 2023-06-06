@@ -8,8 +8,28 @@ weight=3.870000
 Sell_Prapor=82795
 Sell_Fence=66233
 Sell_Skier=81135
-Sell_Peacekeeper=622
+Sell_Peacekeeper=617
 Sell_Mechanic=92727
 Sell_Jaeger=37792
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	SIG MPX 9x19 submachine gunx1/|
+	Hogue OverMolded Rubber Grip (Black)x1/|
+	MPX 9x19 30-round magazinex1/|
+	MPX GEN1 9x19 upper receiverx1/|
+	SIG Sauer BRAVO4 4x30 scopex1/|
+	DeltaPoint Cross Slot Mount basex1/|
+	Leupold DeltaPoint Reflex Sightx1/|
+	MPX-SD 9x19 165mm barrelx1/|
+	MPX-SD 9x19 integrated sound suppressorx1/|
+	MPX GEN1 handguardx1/|
+	MPX GEN1 handguard 2 inch railx1/|
+	SureFire XC1 tactical flashlightx1/|
+	MPX GEN1 handguard 4 inch railx1/|
+	Fortis Shift tactical foregripx1/|
+	MPX/MCX retractable stock pipe adapterx1/|
+	TROY M7A1 PDW stock (Black)x1/|
+	MPX double latch charging handlex1
+]

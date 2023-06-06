@@ -8,8 +8,19 @@ weight=1.114000
 Sell_Prapor=21968
 Sell_Fence=17573
 Sell_Skier=21527
-Sell_Peacekeeper=166
+Sell_Peacekeeper=165
 Sell_Mechanic=24604
 Sell_Jaeger=1910
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Glock 18C 9x19 machine pistolx1/|
+	Glock 18C 9x19 barrel with a compensatorx1/|
+	Glock Pachmayr Tactical Grip Glovex1/|
+	Glock 18C 9x19 pistol slidex1/|
+	Glock TruGlo TFX rear sightx1/|
+	Glock TruGlo TFX front sightx1/|
+	Glock 9x19 "Big Stick" 33-round magazinex1/|
+	SureFire X400 Ultra tactical flashlight with laserx1
+]

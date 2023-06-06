@@ -8,8 +8,20 @@ weight=3.147000
 Sell_Prapor=45375
 Sell_Fence=36300
 Sell_Skier=44467
-Sell_Peacekeeper=341
+Sell_Peacekeeper=338
 Sell_Mechanic=50820
 Sell_Jaeger=18630
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	FN P90 5.7x28 submachine gunx1/|
+	FN P90 5.7x28 50-round magazinex1/|
+	FN P90 stockx1/|
+	FN P90 buttpadx1/|
+	FN P90 5.7x28 upper receiverx1/|
+	FN P90 upper receiver top railx1/|
+	FN P90 upper receiver side railx2/|
+	FN P90 5.7x28 16 inch barrelx1/|
+	FN P90 charging handlex1
+]

@@ -8,8 +8,16 @@ weight=5.475000
 Sell_Prapor=127858
 Sell_Fence=102286
 Sell_Skier=125301
-Sell_Peacekeeper=960
+Sell_Peacekeeper=951
 Sell_Mechanic=143201
 Sell_Jaeger=1871
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Milkor M32A1 MSGL 40mm grenade launcherx1/|
+	AR-15 Damage Industries ECS pistol grip (FDE)x1/|
+	High Standard M4SS Stockx1/|
+	M32A1 40mm cylinderx1/|
+	Milkor M2A1 grenade launcher reflex sightx1
+]

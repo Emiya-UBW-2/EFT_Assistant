@@ -8,8 +8,21 @@ weight=1.188000
 Sell_Prapor=10554
 Sell_Fence=8443
 Sell_Skier=10341
-Sell_Peacekeeper=81
+Sell_Peacekeeper=79
 Sell_Mechanic=11820
 Sell_Jaeger=1860
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Colt M45A1 .45 ACP pistolx1/|
+	M1911A1 .45 ACP National Match barrelx1/|
+	M45A1 Mil-Tac GVT G10 side gripsx1/|
+	M45A1 .45 ACP pistol slidex1/|
+	M45A1 Novak Lomount rear sightx1/|
+	M45A1 Novak Lomount front sightx1/|
+	M1911A1 .45 ACP Wilson Combat 7-round magazinex1/|
+	M45A1 triggerx1/|
+	M45A1 hammerx1/|
+	M45A1 slide lockx1
+]

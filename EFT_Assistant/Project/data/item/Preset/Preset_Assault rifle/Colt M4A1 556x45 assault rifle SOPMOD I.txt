@@ -8,8 +8,24 @@ weight=2.388000
 Sell_Prapor=34791
 Sell_Fence=27832
 Sell_Skier=34093
-Sell_Peacekeeper=262
+Sell_Peacekeeper=258
 Sell_Mechanic=38965
 Sell_Jaeger=18264
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Colt M4A1 5.56x45 assault riflex1/|
+	AR-15 Colt A2 pistol gripx1/|
+	5.56x45 Colt AR-15 STANAG 30-round magazinex1/|
+	M4A1 5.56x45 upper receiverx1/|
+	AR-15 5.56x45 370mm barrelx1/|
+	AR-15 Colt USGI A2 5.56x45 flash hiderx1/|
+	M4A1 front sight with gas blockx1/|
+	AR-15 KAC RIS handguardx1/|
+	AR-15 KAC RIS lower handguardx1/|
+	AR-15 Colt A2 rear sightx1/|
+	Colt Carbine buffer tubex1/|
+	LMT SOPMOD stockx1/|
+	AR-15 Colt charging handlex1
+]

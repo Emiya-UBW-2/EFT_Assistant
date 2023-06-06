@@ -11,6 +11,14 @@ Sell_Skier=11136
 Sell_Peacekeeper=86
 Sell_Mechanic=12728
 Sell_Jaeger=11967
-Sell_Flea Market=27000
+Sell_Flea Market=19999
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	MP-133 12ga pump-action shotgunx1/|
+	MP-133 12ga 510mm barrelx1/|
+	MP-133 beechwood forestockx1/|
+	MP-133 12ga 6-shell magazinex1/|
+	MP-133/153 wooden stockx1
+]

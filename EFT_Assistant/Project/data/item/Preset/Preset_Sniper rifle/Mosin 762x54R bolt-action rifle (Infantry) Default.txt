@@ -8,9 +8,18 @@ weight=4.890000
 Sell_Prapor=10716
 Sell_Fence=8572
 Sell_Skier=10500
-Sell_Peacekeeper=80
+Sell_Peacekeeper=79
 Sell_Mechanic=12000
 Sell_Jaeger=10836
-Sell_Flea Market=34824
+Sell_Flea Market=30888
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Mosin 7.62x54R bolt-action rifle (Infantry)x1/|
+	Mosin Rifle 7.62x54R 5-round magazinex1/|
+	Mosin Rifle Infantry stockx1/|
+	Mosin Rifle 7.62x54R 730mm regular barrelx1/|
+	Mosin Rifle front sightx1/|
+	Mosin Rifle rear sightx1
+]

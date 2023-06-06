@@ -8,8 +8,25 @@ weight=3.081000
 Sell_Prapor=35111
 Sell_Fence=28088
 Sell_Skier=34407
-Sell_Peacekeeper=264
+Sell_Peacekeeper=261
 Sell_Mechanic=39323
 Sell_Jaeger=17316
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Colt M4A1 5.56x45 assault riflex1/|
+	AR-15 Colt A2 pistol gripx1/|
+	5.56x45 Colt AR-15 STANAG 30-round magazinex1/|
+	M4A1 5.56x45 upper receiverx1/|
+	AR-15 5.56x45 370mm barrelx1/|
+	AR-15 Colt USGI A2 5.56x45 flash hiderx1/|
+	AR-15 Windham Weaponry Rail Gas Blockx1/|
+	AR-15 Leapers UTG Low Profile A2 front sightx1/|
+	AR-15 KAC RIS handguardx1/|
+	AR-15 KAC RIS lower handguardx1/|
+	AR-15 Colt A2 rear sightx1/|
+	Colt Carbine buffer tubex1/|
+	High Standard M4SS Stockx1/|
+	AR-15 Colt charging handlex1
+]

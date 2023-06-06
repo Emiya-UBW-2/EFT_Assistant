@@ -8,8 +8,21 @@ weight=3.910000
 Sell_Prapor=44996
 Sell_Fence=35996
 Sell_Skier=44093
-Sell_Peacekeeper=337
+Sell_Peacekeeper=335
 Sell_Mechanic=50394
 Sell_Jaeger=11605
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Kalashnikov AK-74M 5.45x39 assault riflex1/|
+	AK-74 gas tube (6P20 Sb.1-2)x1/|
+	AK Zenit B-10M handguard with B-19 upper mountx1/|
+	AK Zenit DTK-1 7.62x39/5.45x39 muzzle brake-compensatorx1/|
+	AK Zenit RK-3 pistol gripx1/|
+	AK Zenit B-33 dust coverx1/|
+	AK-74M rear sight (6P20 Sb.2)x1/|
+	AK-74M/AK-100 Zenit PT Lockx1/|
+	AK Zenit PT-3 "Klassika" stockx1/|
+	AK Zenit RP-1 charging handlex1
+]

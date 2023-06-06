@@ -8,8 +8,14 @@ weight=2.200000
 Sell_Prapor=19171
 Sell_Fence=15337
 Sell_Skier=18788
-Sell_Peacekeeper=144
+Sell_Peacekeeper=143
 Sell_Mechanic=21472
-Sell_Flea Market=65000
+Sell_Flea Market=63589
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	RSh-12 12.7x55 revolverx1/|
+	RSh-12 12.7x55 5-round cylinderx1/|
+	RSh-12 pistol gripx1
+]

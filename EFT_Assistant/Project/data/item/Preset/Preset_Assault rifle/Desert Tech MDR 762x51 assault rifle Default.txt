@@ -8,8 +8,17 @@ weight=4.469000
 Sell_Prapor=65916
 Sell_Fence=52732
 Sell_Skier=64594
-Sell_Peacekeeper=494
+Sell_Peacekeeper=490
 Sell_Mechanic=73824
 Sell_Jaeger=29560
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Desert Tech MDR 7.62x51 assault riflex1/|
+	MDR pistol grip (Black)x1/|
+	AR-10 7.62x51 Magpul PMAG 20 SR-LR GEN M3 20-round magazinex1/|
+	MDR handguard (Black)x1/|
+	MDR 7.62x51 16 inch barrelx1/|
+	Desert Tech 7.62x51 flash hiderx1
+]

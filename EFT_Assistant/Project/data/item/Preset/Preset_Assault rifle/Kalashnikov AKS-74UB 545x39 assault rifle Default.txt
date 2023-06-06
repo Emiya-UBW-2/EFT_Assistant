@@ -8,9 +8,20 @@ weight=3.341000
 Sell_Prapor=32487
 Sell_Fence=25988
 Sell_Skier=31836
-Sell_Peacekeeper=246
+Sell_Peacekeeper=243
 Sell_Mechanic=36382
 Sell_Jaeger=926
-Sell_Flea Market=68888
+Sell_Flea Market=49999
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Kalashnikov AKS-74UB 5.45x39 assault riflex1/|
+	AK bakelite pistol grip (6P1 Sb.8V)x1/|
+	AKS-74U metal skeleton stock (6P26 Sb.5)x1/|
+	AK-74 5.45x39 6L20 30-round magazinex1/|
+	AKS-74U PBS-4 5.45x39 sound suppressorx1/|
+	AKS-74UB dust coverx1/|
+	AKS-74U gas tube (6P26 Sb.1-2)x1/|
+	AKS-74U wooden handguard (6P26 Sb.6)x1
+]

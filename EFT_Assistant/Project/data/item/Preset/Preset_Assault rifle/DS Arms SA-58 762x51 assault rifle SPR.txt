@@ -8,8 +8,21 @@ weight=4.277000
 Sell_Prapor=69102
 Sell_Fence=55280
 Sell_Skier=67719
-Sell_Peacekeeper=519
+Sell_Peacekeeper=515
 Sell_Mechanic=77393
 Sell_Jaeger=34800
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	DS Arms SA-58 7.62x51 assault riflex1/|
+	SA-58 SAW-style pistol grip (Black)x1/|
+	SA-58/FAL 7.62x51 MMW polymer 20-round magazinex1/|
+	SA-58/FAL Vltor CASV-FAL handguardx1/|
+	SA-58 7.62x51 21 inch barrelx1/|
+	SA-58 Holland Type rear sightx1/|
+	SA-58 Extreme Duty dust coverx1/|
+	SA-58 SPR stockx1/|
+	Vltor CASV 5 inch railx1/|
+	SA-58 3-Prong Trident 7.62x51 flash hiderx1
+]

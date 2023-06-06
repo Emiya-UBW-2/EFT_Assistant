@@ -8,8 +8,25 @@ weight=3.412000
 Sell_Prapor=38016
 Sell_Fence=30410
 Sell_Skier=37253
-Sell_Peacekeeper=285
+Sell_Peacekeeper=283
 Sell_Mechanic=42576
 Sell_Jaeger=12213
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	SIG MPX 9x19 submachine gunx1/|
+	MPX pistol gripx1/|
+	MPX 9x19 30-round magazinex1/|
+	MPX GEN1 9x19 upper receiverx1/|
+	MPX-SD 9x19 165mm barrelx1/|
+	MPX-SD 9x19 integrated sound suppressorx1/|
+	MPX GEN1 handguardx1/|
+	MPX flip-up front sightx1/|
+	MPX GEN1 handguard 2 inch railx2/|
+	MPX GEN1 handguard 4 inch railx1/|
+	MPX flip-up rear sightx1/|
+	MPX/MCX retractable stock pipe adapterx1/|
+	Armacon Baskak stockx1/|
+	MPX single latch charging handlex1
+]

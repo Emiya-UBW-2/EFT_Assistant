@@ -8,8 +8,22 @@ weight=6.569000
 Sell_Prapor=273654
 Sell_Fence=218919
 Sell_Skier=268177
-Sell_Peacekeeper=2052
+Sell_Peacekeeper=2035
 Sell_Mechanic=306489
 Sell_Jaeger=280388
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Springfield Armory M1A 7.62x51 riflex1/|
+	M14 7.62x51 30-round magazinex1/|
+	M1A ProMag Archangel chassisx1/|
+	M14 UltiMAK M8 Forward Optic mountx1/|
+	M1A 7.62x51 22 inch barrelx1/|
+	SilencerCo Hybrid 46 Direct Thread Mount adapterx1/|
+	SilencerCo Hybrid 46 multi-caliber sound suppressorx1/|
+	M14 SA Enlarged Military Aperture rear sightx1/|
+	M14 Leapers UTG 4-Point Locking Deluxe mountx1/|
+	UNV DLOC-IRD sight mountx1/|
+	Trijicon REAP-IR thermal scopex1
+]

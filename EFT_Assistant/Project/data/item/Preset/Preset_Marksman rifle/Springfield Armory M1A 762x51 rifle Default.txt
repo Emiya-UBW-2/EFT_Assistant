@@ -8,8 +8,19 @@ weight=3.990000
 Sell_Prapor=34908
 Sell_Fence=27924
 Sell_Skier=34207
-Sell_Peacekeeper=262
+Sell_Peacekeeper=261
 Sell_Mechanic=39095
 Sell_Jaeger=37866
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Springfield Armory M1A 7.62x51 riflex1/|
+	M1A 7.62x51 20-round magazinex1/|
+	M1A SOCOM 16 stockx1/|
+	M1A SOCOM 16 upper partx1/|
+	M1A 7.62x51 16 inch barrelx1/|
+	M1A SOCOM 16 7.62x51 muzzle brake-compensatorx1/|
+	M1A SA XS Post .125 Blade front sightx1/|
+	M14 SA Enlarged Military Aperture rear sightx1
+]

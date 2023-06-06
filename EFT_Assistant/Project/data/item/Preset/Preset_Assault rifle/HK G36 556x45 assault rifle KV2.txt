@@ -8,8 +8,21 @@ weight=3.195000
 Sell_Prapor=31375
 Sell_Fence=25100
 Sell_Skier=30747
-Sell_Peacekeeper=236
+Sell_Peacekeeper=233
 Sell_Mechanic=35140
 Sell_Jaeger=19800
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	HK G36 5.56x45 assault riflex1/|
+	HK G36 5.56x45 30-round magazinex1/|
+	HK G36 KV adjustable stockx1/|
+	HK G36 5.56x45 318mm barrelx1/|
+	HK G36 5.56x45 4-prong flash hiderx1/|
+	HK G36 gas blockx1/|
+	HK G36 4-vent handguardx1/|
+	HK G36 hand stopx1/|
+	HK G36 magwellx1/|
+	HK G36 optic rail with flip-up sightsx1
+]

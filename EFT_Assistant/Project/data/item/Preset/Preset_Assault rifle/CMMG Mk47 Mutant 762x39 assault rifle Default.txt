@@ -8,8 +8,24 @@ weight=2.322000
 Sell_Prapor=53024
 Sell_Fence=42418
 Sell_Skier=51962
-Sell_Peacekeeper=397
+Sell_Peacekeeper=395
 Sell_Mechanic=59386
 Sell_Jaeger=20160
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	CMMG Mk47 Mutant 7.62x39 assault riflex1/|
+	AR-15 Magpul MOE pistol grip (Black)x1/|
+	AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazinex1/|
+	Mk47 Resolute 7.62x39 upper receiverx1/|
+	Mk47 254mm barrelx1/|
+	AR-10 CMMG SV Brake 7.62x51 muzzle brakex1/|
+	AR-10 CMMG low profile gas blockx1/|
+	AR-10 CMMG MK3 RML9 9 inch M-LOK handguardx1/|
+	Magpul MBUS Gen2 flip-up front sightx1/|
+	Magpul MBUS Gen2 flip-up rear sightx1/|
+	CMMG buffer tubex1/|
+	CMMG RipStock buttstockx1/|
+	Mk47 ambidextrous charging handlex1
+]

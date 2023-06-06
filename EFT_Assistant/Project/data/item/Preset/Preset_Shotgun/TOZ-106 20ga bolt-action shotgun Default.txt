@@ -11,6 +11,13 @@ Sell_Skier=3301
 Sell_Peacekeeper=25
 Sell_Mechanic=3774
 Sell_Jaeger=3136
-Sell_Flea Market=6969
+Sell_Flea Market=7000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	TOZ-106 20ga bolt-action shotgunx1/|
+	TOZ-106 20ga MTs 20-01 Sb.3 2-shot magazinex1/|
+	TOZ-106 stockx1/|
+	TOZ-106 002 pistol gripx1
+]

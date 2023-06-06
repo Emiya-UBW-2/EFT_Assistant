@@ -8,9 +8,18 @@ weight=3.807000
 Sell_Prapor=23000
 Sell_Fence=18400
 Sell_Skier=22538
-Sell_Peacekeeper=173
+Sell_Peacekeeper=172
 Sell_Mechanic=25759
 Sell_Jaeger=1711
-Sell_Flea Market=34000
+Sell_Flea Market=26999
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Molot VPO-101 "Vepr-Hunter" 7.62x51 carbinex1/|
+	VPO-101 "Vepr-Hunter" gas tubex1/|
+	VPO-101 "Vepr-Hunter" dust coverx1/|
+	VPO-101 "Vepr-Hunter" rear sightx1/|
+	VPO-101 "Vepr-Hunter" stockx1/|
+	VPO-101 "Vepr-Hunter" 7.62x51 5-round magazinex1
+]

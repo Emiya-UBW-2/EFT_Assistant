@@ -8,8 +8,16 @@ weight=3.100000
 Sell_Prapor=13723
 Sell_Fence=10978
 Sell_Skier=13447
-Sell_Peacekeeper=103
+Sell_Peacekeeper=102
 Sell_Mechanic=15370
 Sell_Jaeger=14806
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Mosin 7.62x54R bolt-action rifle (Sniper)x1/|
+	Mosin Rifle 7.62x54R 5-round magazinex1/|
+	Mosin Rifle sawn-off sniper stockx1/|
+	Mosin Rifle 7.62x54R sawn-off 220mm threaded barrelx1/|
+	Mosin Rifle carbine rear sightx1
+]

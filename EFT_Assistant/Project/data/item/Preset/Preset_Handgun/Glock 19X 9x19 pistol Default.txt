@@ -8,9 +8,18 @@ weight=0.698000
 Sell_Prapor=9575
 Sell_Fence=7660
 Sell_Skier=9383
-Sell_Peacekeeper=73
+Sell_Peacekeeper=71
 Sell_Mechanic=10724
 Sell_Jaeger=1380
-Sell_Flea Market=13000
+Sell_Flea Market=15300
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Glock 19X 9x19 pistolx1/|
+	Glock 19X 9x19 barrelx1/|
+	Glock 19X 9x19 pistol slidex1/|
+	Glock 19X rear sightx1/|
+	Glock 19X front sightx1/|
+	Glock 9x19 19-round magazine (Coyote)x1
+]

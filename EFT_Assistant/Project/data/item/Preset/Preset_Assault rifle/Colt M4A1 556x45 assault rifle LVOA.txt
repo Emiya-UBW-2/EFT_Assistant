@@ -8,8 +8,24 @@ weight=2.778000
 Sell_Prapor=71179
 Sell_Fence=56942
 Sell_Skier=69753
-Sell_Peacekeeper=535
+Sell_Peacekeeper=529
 Sell_Mechanic=79722
 Sell_Jaeger=25015
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Colt M4A1 5.56x45 assault riflex1/|
+	Hogue OverMolded Rubber Grip (Black)x1/|
+	AR-15 Vltor MUR-1S 5.56x45 upper receiverx1/|
+	AR-15 5.56x45 370mm barrelx1/|
+	AR-15 KAC QDC 5.56x45 Flash Suppressor Kitx1/|
+	AR-15 Daniel Defense MK12 Low Profile Gas Blockx1/|
+	AR-15 War Sport LVOA-C handguard (Black)x1/|
+	Vltor CASV KeyMod 6 inch railx1/|
+	Vltor CASV KeyMod 4 inch railx1/|
+	Vltor CASV KeyMod 2 inch railx2/|
+	Colt Carbine buffer tubex1/|
+	Vltor EMOD stockx1/|
+	AR-15 Radian Weapons Raptor charging handlex1
+]

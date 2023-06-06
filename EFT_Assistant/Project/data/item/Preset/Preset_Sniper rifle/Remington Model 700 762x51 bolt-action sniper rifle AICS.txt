@@ -8,8 +8,17 @@ weight=2.770000
 Sell_Prapor=34904
 Sell_Fence=27923
 Sell_Skier=34206
-Sell_Peacekeeper=262
+Sell_Peacekeeper=261
 Sell_Mechanic=39093
 Sell_Jaeger=40325
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Remington Model 700 7.62x51 bolt-action sniper riflex1/|
+	M700 7.62x51 AI AICS 5-round magazinex1/|
+	M700 AI AT AICS polymer chassisx1/|
+	Strike Industries KeyMod 4 inch railx1/|
+	M700 7.62x51 20 inch threaded barrelx1/|
+	M700 thread protection capx1
+]

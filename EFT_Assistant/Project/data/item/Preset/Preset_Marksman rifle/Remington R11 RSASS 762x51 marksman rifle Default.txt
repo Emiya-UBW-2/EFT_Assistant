@@ -8,8 +8,20 @@ weight=4.922000
 Sell_Prapor=77793
 Sell_Fence=62232
 Sell_Skier=76235
-Sell_Peacekeeper=583
+Sell_Peacekeeper=579
 Sell_Mechanic=87126
 Sell_Jaeger=66096
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Remington R11 RSASS 7.62x51 marksman riflex1/|
+	AR-15 Magpul MIAD pistol grip (FDE)x1/|
+	AR-10 7.62x51 Magpul PMAG 20 SR-LR GEN M3 20-round magazinex1/|
+	AR-15 Colt A2 buffer tubex1/|
+	Magpul PRS GEN2 stock (FDE)x1/|
+	R11 RSASS handguardx1/|
+	AR-10 7.62x51 22 inch barrelx1/|
+	AR-10 AAC Blackout 51T 7.62x51 flash hiderx1/|
+	AR-10 JP Enterprises Gas System-6x1
+]

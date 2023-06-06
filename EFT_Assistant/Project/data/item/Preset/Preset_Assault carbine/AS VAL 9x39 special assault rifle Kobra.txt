@@ -8,8 +8,20 @@ weight=3.085000
 Sell_Prapor=57543
 Sell_Fence=46033
 Sell_Skier=56392
-Sell_Peacekeeper=433
+Sell_Peacekeeper=429
 Sell_Mechanic=64448
 Sell_Jaeger=5706
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	AS VAL 9x39 special assault riflex1/|
+	AS VAL 9x39 integral barrel-suppressorx1/|
+	AS VAL rear sightx1/|
+	AS VAL dust coverx1/|
+	VSS 9x39 6L25 20-round magazinex1/|
+	AS VAL pistol gripx1/|
+	AS VAL skeleton stockx1/|
+	SVD CAA XD RGL receiver mountx1/|
+	Axion Kobra EKP-8-18 reflex sightx1
+]

@@ -8,8 +8,20 @@ weight=3.789000
 Sell_Prapor=47337
 Sell_Fence=37868
 Sell_Skier=46389
-Sell_Peacekeeper=354
+Sell_Peacekeeper=352
 Sell_Mechanic=53016
 Sell_Jaeger=51874
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	MP-155 12ga semi-automatic shotgunx1/|
+	MP-155 12ga 510mm barrelx1/|
+	MP-155 Ultima polymer forestockx1/|
+	MP-155 12ga 6-shell magazinex1/|
+	MP-155 Ultima pistol gripx1/|
+	MP-155 Ultima polymer stockx1/|
+	MP-155 Ultima thin recoil padx1/|
+	MP-155 Ultima thermal camerax1/|
+	MP-155 Ultima top railx1
+]

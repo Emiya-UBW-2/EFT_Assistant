@@ -8,8 +8,29 @@ weight=3.753000
 Sell_Prapor=111129
 Sell_Fence=88901
 Sell_Skier=108903
-Sell_Peacekeeper=834
+Sell_Peacekeeper=826
 Sell_Mechanic=124463
 Sell_Jaeger=21670
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Colt M4A1 5.56x45 assault riflex1/|
+	AR-15 Hera Arms HG-15 pistol gripx1/|
+	5.56x45 Magpul PMAG D-60 STANAG 60-round magazinex1/|
+	TX-15 5.56x45 Lightweight upper receiverx1/|
+	Vortex Razor AMG UH-1 holographic sightx1/|
+	AR-15 5.56x45 260mm barrelx1/|
+	AR-15 Daniel Defense WAVE 5.56x45 muzzle brakex1/|
+	AR-15 JP Enterprises Gas System-5Bx1/|
+	AR-15 SAI 10 inch QD Rail handguardx1/|
+	Magpul M-LOK 4.1 inch railx1/|
+	Magpul AFG tactical foregrip (Black)x1/|
+	HK MP7 flip-up front sightx1/|
+	AR-15 SAI JailBrake 5.56x45 muzzle devicex1/|
+	Steiner LAS/TAC 2 tactical flashlightx1/|
+	HK MP7 flip-up rear sightx1/|
+	AR-15 DoubleStar ACE SOCOM Gen.4 stockx1/|
+	DoubleStar ACE recoil padx1/|
+	AR-15 Radian Weapons Raptor charging handle (Grey)x1
+]

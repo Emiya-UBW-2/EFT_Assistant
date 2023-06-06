@@ -8,8 +8,20 @@ weight=3.210000
 Sell_Prapor=16105
 Sell_Fence=12881
 Sell_Skier=15780
-Sell_Peacekeeper=122
+Sell_Peacekeeper=121
 Sell_Mechanic=18035
 Sell_Jaeger=1300
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Kalashnikov AK-74 5.45x39 assault riflex1/|
+	AK-74 gas tube (6P20 Sb.1-2)x1/|
+	AK-74 "Plum" polymer handguard (6P20 Sb.9)x1/|
+	AK-74 5.45x39 muzzle brake-compensator (6P20 0-20)x1/|
+	AK bakelite pistol grip (6P1 Sb.8V)x1/|
+	AK-74 dust cover (6P20 0-1)x1/|
+	AK-74 rear sight (6P20 Sb.2)x1/|
+	AK-74 "Plum" polymer stock (6P20 Sb.7)x1/|
+	AK-74 5.45x39 6L23 "Plum" 30-round magazinex1
+]

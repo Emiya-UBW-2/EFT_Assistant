@@ -8,8 +8,16 @@ weight=3.850000
 Sell_Prapor=15795
 Sell_Fence=12635
 Sell_Skier=15478
-Sell_Peacekeeper=119
+Sell_Peacekeeper=118
 Sell_Mechanic=17690
 Sell_Jaeger=16373
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	TOZ KS-23M 23x75mm pump-action shotgunx1/|
+	KS-23 23x75 700mm barrelx1/|
+	KS-23M forestockx1/|
+	KS-23M 23x75 3-shell magazine capx1/|
+	KS-23 wooden stockx1
+]

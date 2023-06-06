@@ -13,3 +13,13 @@ Sell_Mechanic=23223
 Sell_Jaeger=8066
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Simonov SKS 7.62x39 carbinex1/|
+	SKS TAPCO Intrafuse chassisx1/|
+	SKS rear sightx1/|
+	SKS 7.62x39 ProMag SKS-A5 20-round magazinex1/|
+	SKS TAPCO Intrafuse buffer tubex1/|
+	SKS TAPCO Intrafuse kit SAW-Style pistol gripx1/|
+	High Standard M4SS Stockx1
+]

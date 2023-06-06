@@ -8,9 +8,22 @@ weight=4.488000
 Sell_Prapor=39159
 Sell_Fence=31326
 Sell_Skier=38375
-Sell_Peacekeeper=295
+Sell_Peacekeeper=292
 Sell_Mechanic=43858
 Sell_Jaeger=6551
-Sell_Flea Market=41000
+Sell_Flea Market=38888
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	SAG AK-545 5.45x39 carbinex1/|
+	AK-545 SAG Mk. 2.1 gas tubex1/|
+	AK-545 SAG Mk.3 handguardx1/|
+	AK-545 SAG railed dust coverx1/|
+	AK-545 SAG rear sightx1/|
+	AK-74M 5.45x39 muzzle brake-compensator (6P20 0-20)x1/|
+	AK Strike Industries Enhanced Pistol Grip (Black)x1/|
+	AK-545 SAG buffer tubex1/|
+	High Standard M4SS Stockx1/|
+	AK-74 5.45x39 6L23 30-round magazinex1
+]

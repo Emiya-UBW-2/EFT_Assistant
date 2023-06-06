@@ -10,6 +10,12 @@ Sell_Fence=5069
 Sell_Skier=6210
 Sell_Peacekeeper=48
 Sell_Mechanic=7096
-Sell_Flea Market=13000
+Sell_Flea Market=8000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Yarygin MP-443 "Grach" 9x19 pistolx1/|
+	MP-443 "Grach" 9x19 18-round magazinex1/|
+	MP-443 "Grach" polymer pistol gripx1
+]

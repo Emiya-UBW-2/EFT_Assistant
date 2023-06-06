@@ -8,9 +8,16 @@ weight=2.852000
 Sell_Prapor=7650
 Sell_Fence=6120
 Sell_Skier=7497
-Sell_Peacekeeper=57
+Sell_Peacekeeper=56
 Sell_Mechanic=8568
 Sell_Jaeger=7980
-Sell_Flea Market=29555
+Sell_Flea Market=13000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	MP-18 7.62x54R single-shot riflex1/|
+	MP-18 7.62x54R 600mm barrelx1/|
+	MP-18 wooden handguardx1/|
+	MP-18 wooden stockx1
+]

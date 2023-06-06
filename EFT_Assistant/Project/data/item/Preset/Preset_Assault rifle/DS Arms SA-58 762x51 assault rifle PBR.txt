@@ -8,8 +8,24 @@ weight=4.868000
 Sell_Prapor=95381
 Sell_Fence=76303
 Sell_Skier=93470
-Sell_Peacekeeper=717
+Sell_Peacekeeper=710
 Sell_Mechanic=106826
 Sell_Jaeger=31116
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	DS Arms SA-58 7.62x51 assault riflex1/|
+	SA-58 FAB Defense AG-FAL pistol gripx1/|
+	SA-58/FAL 7.62x51 10-round magazinex1/|
+	SA-58/FAL AIM Sports Universal M-LOK handguardx1/|
+	Magpul M-LOK 4.1 inch railx1/|
+	Magpul AFG tactical foregrip (Black)x1/|
+	Magpul M-LOK 2.5 inch railx1/|
+	SA-58 7.62x51 21 inch barrelx1/|
+	SilencerCo Hybrid 46 Direct Thread Mount adapterx1/|
+	SilencerCo Hybrid 46 multi-caliber sound suppressorx1/|
+	SA-58 Holland Type rear sightx1/|
+	SA-58 Extreme Duty dust coverx1/|
+	SA-58/FAL Magpul PRS 2 polymer stockx1
+]

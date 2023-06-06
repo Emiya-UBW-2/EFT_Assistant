@@ -8,8 +8,28 @@ weight=7.563000
 Sell_Prapor=156765
 Sell_Fence=125404
 Sell_Skier=153616
-Sell_Peacekeeper=1170
+Sell_Peacekeeper=1157
 Sell_Mechanic=175572
 Sell_Jaeger=114831
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Saiga 12ga ver.10 12/76 semi-automatic shotgunx1/|
+	Zenit B-13V "Klassika" dovetail rail platformx1/|
+	FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescopex1/|
+	SOK-12 Leapers UTG PRO MTU002 Short Top aluminum handguardx1/|
+	Zenit RK-1 tactical foregrip on B-25U mountx1/|
+	Zenit Perst-3 tactical devicex1/|
+	Zenit Klesch-2U tactical flashlightx2/|
+	Hexagon 12K 12ga sound suppressorx1/|
+	AK TAPCO SAW-Style pistol grip (Black)x1/|
+	SOK-12 dust cover (Sb.0-2)x1/|
+	SOK-12 rear sightx1/|
+	AK-74M CAA AKTS AK74 buffer tubex1/|
+	Magpul MOE Carbine stock (Foliage Green)x1/|
+	Magpul MOE Carbine rubber buttpadx1/|
+	SOK-12 12/76 MaxRounds Powermag 20-round magazinex1/|
+	12/70 "Poleva-3" slugx10/|
+	12/70 makeshift .50 BMG slugx10
+]

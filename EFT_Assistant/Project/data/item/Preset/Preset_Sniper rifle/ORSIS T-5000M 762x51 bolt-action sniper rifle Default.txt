@@ -8,9 +8,24 @@ weight=6.348000
 Sell_Prapor=42507
 Sell_Fence=34004
 Sell_Skier=41654
-Sell_Peacekeeper=318
+Sell_Peacekeeper=316
 Sell_Mechanic=47606
 Sell_Jaeger=40464
-Sell_Flea Market=55555
+Sell_Flea Market=25000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	ORSIS T-5000M 7.62x51 bolt-action sniper riflex1/|
+	ORSIS T-5000M 7.62x51 5-round magazinex1/|
+	T-5000M 7.62x51 660mm barrelx1/|
+	ORSIS T-5000M 7.62x51 muzzle brake-compensatorx1/|
+	ORSIS T-5000M aluminium bodyx1/|
+	ORSIS T-5000M handguardx1/|
+	ORSIS T-5000M medium length railx3/|
+	ORSIS T-5000M long length railx1/|
+	ORSIS T-5000M padded handguard gripx1/|
+	ORSIS T-5000M pistol gripx1/|
+	ORSIS T-5000M stockx1/|
+	ORSIS T-5000M scope mountx1
+]

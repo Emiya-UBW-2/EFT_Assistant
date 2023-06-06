@@ -8,7 +8,16 @@ weight=0.942000
 Sell_Prapor=15688
 Sell_Fence=12550
 Sell_Skier=15374
-Sell_Peacekeeper=117
+Sell_Peacekeeper=116
 Sell_Mechanic=17570
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Chiappa Rhino 50DS .357 revolverx1/|
+	Chiappa Rhino .357 6-round cylinderx1/|
+	Chiappa Rhino Green Fiber Optic rear sightx1/|
+	Chiappa Rhino Green Fiber Optic front sightx1/|
+	Chiappa Rhino plastic pistol gripx1/|
+	SureFire XC1 tactical flashlightx1
+]

@@ -8,9 +8,17 @@ weight=4.050000
 Sell_Prapor=12200
 Sell_Fence=9760
 Sell_Skier=11955
-Sell_Peacekeeper=92
+Sell_Peacekeeper=90
 Sell_Mechanic=13664
 Sell_Jaeger=6192
-Sell_Flea Market=15000
+Sell_Flea Market=65000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	PPSh-41 7.62x25 submachine gunx1/|
+	PPSh-41 stockx1/|
+	PPSh-41 7.62x25 35-round magazinex1/|
+	PPSh-41 dust coverx1/|
+	PPSh-41 7.62x25 10.6 inch barrelx1
+]

@@ -8,8 +8,20 @@ weight=4.529000
 Sell_Prapor=46021
 Sell_Fence=36816
 Sell_Skier=45099
-Sell_Peacekeeper=346
+Sell_Peacekeeper=343
 Sell_Mechanic=51542
 Sell_Jaeger=28245
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	DS Arms SA-58 7.62x51 assault riflex1/|
+	SA-58 pistol gripx1/|
+	SA-58/FAL 7.62x51 30-round magazinex1/|
+	SA-58/FAL Belgian Style handguardx1/|
+	SA-58 7.62x51 21 inch barrelx1/|
+	SA-58 Austrian Style 7.62x51 muzzle brakex1/|
+	SA-58 Holland Type rear sightx1/|
+	FAL standard dust coverx1/|
+	SA-58 folding stockx1
+]

@@ -8,9 +8,23 @@ weight=2.036000
 Sell_Prapor=25093
 Sell_Fence=20073
 Sell_Skier=24590
-Sell_Peacekeeper=188
+Sell_Peacekeeper=186
 Sell_Mechanic=28102
 Sell_Jaeger=7380
-Sell_Flea Market=31000
+Sell_Flea Market=32000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Soyuz-TM STM-9 Gen.2 9x19 carbinex1/|
+	AR-15 DLG Tactical DLG-123 pistol gripx1/|
+	Glock 9x19 "Big Stick" 33-round magazinex1/|
+	STM-9 9x19 upper receiverx1/|
+	STM-9 9x19 10.5 inch barrelx1/|
+	STM-9 9x19 muzzle brakex1/|
+	AR-15 Soyuz-TM 9 inch M-LOK handguardx1/|
+	Soyuz-TM buffer tubex1/|
+	FAB Defense GL-CORE buttstockx1/|
+	AR-15 MASP Industries Ambidextrous Battle Charging Handlex1/|
+	STM-9 magwellx1
+]
