@@ -10,4 +10,5 @@ Sell_Prapor=851
 Sell_Therapist=1072
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
+uses=1
 Map=Streets of Tarkov

@@ -11,7 +11,6 @@ Sell_Fence=12344
 Sell_Skier=15122
 Sell_Peacekeeper=115
 Sell_Mechanic=17282
-Sell_Flea Market=25000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 ChildParts=[

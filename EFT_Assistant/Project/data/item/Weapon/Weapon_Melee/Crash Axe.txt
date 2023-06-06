@@ -10,3 +10,6 @@ Sell_Fence=180000
 Sell_Jaeger=270000
 fleaMarketFee=0
 propertiestype=ItemPropertiesMelee
+slashDamage=31
+stabDamage=52
+hitRadius=0.450000

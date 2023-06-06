@@ -142,8 +142,6 @@ namespace FPS_n2 {
 			const auto		GetHydration() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesFoodDrink) ? this->m_IntParams[1] : 0; }
 			const auto		GetBlindnessProtection() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesGlasses) ? this->m_floatParams[0] : 0.f; }
 			const auto		GetFragments() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesGrenade) ? this->m_IntParams[0] : 0; }
-			const auto		GetUses() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesKey) ? this->m_IntParams[0] : 0; }
-			const auto		GetSlashDamage() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMelee) ? this->m_IntParams[0] : 0; }
 			const auto		GetCapacity() const noexcept {
 				switch (m_Type) {
 				case EnumItemProperties::ItemPropertiesBackpack:
@@ -155,8 +153,6 @@ namespace FPS_n2 {
 					return 0;
 				}
 			}
-			const auto		GetIntensity() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesNightVision) ? this->m_IntParams[0] : 0; }
-
 		private://Common
 			void			SetType(std::string_view value) noexcept {
 				for (int i = 0; i < (int)EnumItemProperties::Max; i++) {
@@ -166,20 +162,96 @@ namespace FPS_n2 {
 					}
 				}
 			}
+
+		public://Melee
+			const auto		GetSlashDamage() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMelee) ? this->m_IntParams[0] : 0; }
+			const auto		GetstabDamage() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMelee) ? this->m_IntParams[1] : 0; }
+			const auto		GethitRadius() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMelee) ? this->m_floatParams[0] : 0.f; }
+		private:
+			void			GetJsonDataMelee(const nlohmann::json& data) {
+				m_IntParams[0] = data["slashDamage"];
+				m_IntParams[1] = data["stabDamage"];
+				m_floatParams[0] = data["hitRadius"];
+			}
+			void			SetDataMelee(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
+				if (LEFT == "slashDamage") { m_IntParams[0] = std::stoi(Args[0]); }
+				else if (LEFT == "stabDamage") { m_IntParams[1] = std::stoi(Args[0]); }
+				else if (LEFT == "hitRadius") { m_floatParams[0] = std::stof(Args[0]); }
+			}
+			void			OutputDataMelee(std::ofstream& outputfile) noexcept {
+				outputfile << "slashDamage=" + std::to_string(GetSlashDamage()) + "\n";
+				outputfile << "stabDamage=" + std::to_string(GetstabDamage()) + "\n";
+				outputfile << "hitRadius=" + std::to_string(GethitRadius()) + "\n";
+			}
+			void			DrawInfoMelee(int xp, int yp, int* xofs, int* yofs) const noexcept {
+				int ysiz = LineHeight * 6 / 10;
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+					"切り付けダメージ :%3d", this->GetSlashDamage()) + y_r(30)); *yofs += ysiz + y_r(5);
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+					"突きダメージ :%3d", this->GetstabDamage()) + y_r(30)); *yofs += ysiz + y_r(5);
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+					"判定判定 :%3.1f", this->GethitRadius()) + y_r(30)); *yofs += ysiz + y_r(5);
+			}
+
+
+		public://key
+			const auto		GetUses() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesKey) ? this->m_IntParams[0] : 0; }
+		private:
+			void			GetJsonDataKey(const nlohmann::json& data) {
+				m_IntParams[0] = data["uses"];
+			}
+			void			SetDataKey(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
+				if (LEFT == "uses") { m_IntParams[0] = std::stoi(Args[0]); }
+			}
+			void			OutputDataKey(std::ofstream& outputfile) noexcept {
+				outputfile << "uses=" + std::to_string(GetUses()) + "\n";
+			}
+			void			DrawInfoKey(int xp, int yp, int* xofs, int* yofs) const noexcept {
+				int ysiz = LineHeight * 6 / 10;
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+					"使用回数 :%3d", this->GetUses()) + y_r(30)); *yofs += ysiz + y_r(5);
+			}
+
+		public://NightVision
+			const auto		GetnoiseIntensity() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesNightVision) ? this->m_floatParams[0] : 0.f; }
+			const auto		GetnoiseScale() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesNightVision) ? this->m_floatParams[1] : 0.f; }
+			const auto		GetdiffuseIntensity() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesNightVision) ? this->m_floatParams[2] : 0.f; }
+			const auto		Getintensity() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesNightVision) ? this->m_floatParams[3] : 0.f; }
+		private:
+			void			GetJsonDataNightVision(const nlohmann::json& data) {
+				m_floatParams[0] = data["noiseIntensity"];
+				m_floatParams[1] = data["noiseScale"];
+				m_floatParams[2] = data["diffuseIntensity"];
+				m_floatParams[3] = data["intensity"];
+			}
+			void			SetDataNightVision(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
+				if (LEFT == "noiseIntensity") { m_floatParams[0] = std::stof(Args[0]); }
+				else if (LEFT == "noiseScale") { m_floatParams[1] = std::stof(Args[0]); }
+				else if (LEFT == "diffuseIntensity") { m_floatParams[2] = std::stof(Args[0]); }
+				else if (LEFT == "intensity") { m_floatParams[3] = std::stof(Args[0]); }
+			}
+			void			OutputDataNightVision(std::ofstream& outputfile) noexcept {
+				outputfile << "noiseIntensity=" + std::to_string(GetnoiseIntensity()) + "\n";
+				outputfile << "noiseScale=" + std::to_string(GetnoiseScale()) + "\n";
+				outputfile << "diffuseIntensity=" + std::to_string(GetdiffuseIntensity()) + "\n";
+				outputfile << "intensity=" + std::to_string(Getintensity()) + "\n";
+			}
+			void			DrawInfoNightVision(int xp, int yp, int* xofs, int* yofs) const noexcept {
+				int ysiz = LineHeight * 6 / 10;
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+					"ノイズ強度 :%3.2f", this->GetnoiseIntensity()) + y_r(30)); *yofs += ysiz + y_r(5);
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+					"ノイズスケール :%3.1f", this->GetnoiseScale()) + y_r(30)); *yofs += ysiz + y_r(5);
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+					"拡散強度 :%3.3f", this->GetdiffuseIntensity()) + y_r(30)); *yofs += ysiz + y_r(5);
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+					"強さ :%3.2f", this->Getintensity()) + y_r(30)); *yofs += ysiz + y_r(5);
+			}
+
 		public://Preset
 			const auto		GetDefault() const noexcept { return ((m_Type == EnumItemProperties::ItemPropertiesPreset) ? this->m_IntParams[0] : 0) == 1; }
 			auto&			SetContainsItem() noexcept { return this->m_ContainsItemID; }
 			const auto&		GetContainsItem() const noexcept { return this->m_ContainsItemID; }
-			void			DrawInfoPreset(int xp, int yp, int* xofs, int* yofs) const noexcept {
-				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, White, Black,
-					"デフォルトプリセットかどうか:%s", this->GetDefault()?"TRUE":"FALSE") + y_r(30)); *yofs += LineHeight + y_r(5);
-				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, White, Black,
-					"パーツリスト:") + y_r(30)); *yofs += LineHeight + y_r(5);
-				for (const auto& c : this->m_ContainsItemID) {
-					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, White, Black,
-						" %s", c.GetName().c_str()) + y_r(30)); *yofs += LineHeight + y_r(5);
-				}
-			}
 		private:
 			void			GetJsonDataPreset(const nlohmann::json& data) {
 				m_IntParams[0] = data["properties"]["default"];
@@ -221,11 +293,23 @@ namespace FPS_n2 {
 					}
 				}
 			}
+			void			DrawInfoPreset(int xp, int yp, int* xofs, int* yofs) const noexcept {
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, White, Black,
+					"デフォルトプリセットかどうか:%s", this->GetDefault() ? "TRUE" : "FALSE") + y_r(30)); *yofs += LineHeight + y_r(5);
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, White, Black,
+					"パーツリスト:") + y_r(30)); *yofs += LineHeight + y_r(5);
+				for (const auto& c : this->m_ContainsItemID) {
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, White, Black,
+						" %s", c.GetName().c_str()) + y_r(30)); *yofs += LineHeight + y_r(5);
+				}
+			}
+
 		public://WeaponMod/Weapon Slots
 			auto&			SetModSlots() noexcept { return this->m_ChildPartsID; }
 			const auto&		GetModSlots() const noexcept { return this->m_ChildPartsID; }
 			auto&			SetConflictPartsID() noexcept { return this->m_ConflictPartsID; }
 			const auto&		GetConflictPartsID() const noexcept { return this->m_ConflictPartsID; }
+
 		public://WeaponMod
 			const auto		GetModRecoil() const noexcept {
 				switch (m_Type) {
@@ -249,54 +333,15 @@ namespace FPS_n2 {
 					return 0.f;
 				}
 			}
-
 			const auto		GetcenterOfImpact() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesBarrel) ? this->m_floatParams[2] : 0; }
 			const auto		GetdeviationMax() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesBarrel) ? this->m_IntParams[0] : 0; }
-
 			const auto		GetModCapacity() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMagazine) ? this->m_IntParams[0] : 0; }
 			const auto		GetloadModifier() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMagazine) ? this->m_floatParams[2] : 0; }
 			const auto		GetammoCheckModifier() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMagazine) ? this->m_floatParams[3] : 0; }
 			const auto		GetmalfunctionChance() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMagazine) ? this->m_floatParams[4] : 0; }
-
 			const auto		GetSightingRange() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesScope) ? this->m_IntParams[1] : -100; }
 			const auto&		GetsightModesID() const noexcept { return this->m_sightModesID; }
-
 			const auto		GetaccuracyModifier() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesWeaponMod) ? this->m_floatParams[2] : 0; }
-
-			void			DrawInfoWeaponMod(int xp, int yp, int* xofs, int* yofs) const noexcept {
-				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetModRecoil() < 0.f) ? Green : Red, Black,
-					"Recoil(リコイル変動値):%3.1f %%", this->GetModRecoil()) + y_r(30)); *yofs += LineHeight + y_r(5);
-				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetModErgonomics() >= 0.f) ? Green : Red, Black,
-					"Ergonomics(エルゴノミクス変動値):%3.1f", this->GetModErgonomics()) + y_r(30)); *yofs += LineHeight + y_r(5);
-				switch (this->GetType()) {
-				case EnumItemProperties::ItemPropertiesBarrel:
-					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetcenterOfImpact() >= 0.f) ? Green : Red, Black,
-						"centerOfImpact(跳ね上がり？):%3.2f", this->GetcenterOfImpact()) + y_r(30)); *yofs += LineHeight + y_r(5);
-					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetdeviationMax() >= 0.f) ? Green : Red, Black,
-						"deviationMax(偏差の最大値？):%3d", this->GetdeviationMax()) + y_r(30)); *yofs += LineHeight + y_r(5);
-					break;
-				case EnumItemProperties::ItemPropertiesMagazine:
-					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, White, Black,
-						"Capacity(マガジン容量):%3d", this->GetModCapacity()) + y_r(30)); *yofs += LineHeight + y_r(5);
-					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetloadModifier() >= 0.f) ? Green : Red, Black,
-						"loadModifier(装弾変動値):%3.1f", this->GetloadModifier()) + y_r(30)); *yofs += LineHeight + y_r(5);
-					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetammoCheckModifier() >= 0.f) ? Green : Red, Black,
-						"ammoCheckModifier(弾数チェック変動値):%3.1f", this->GetammoCheckModifier()) + y_r(30)); *yofs += LineHeight + y_r(5);
-					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetmalfunctionChance() <= 0.f) ? Green : Red, Black,
-						"malfunctionChance(ジャム変動値):%3.1f", this->GetmalfunctionChance()) + y_r(30)); *yofs += LineHeight + y_r(5);
-					break;
-				case EnumItemProperties::ItemPropertiesScope:
-					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, White, Black,
-						"SightingRange(照準距離):%3d", this->GetSightingRange()) + y_r(30)); *yofs += LineHeight + y_r(5);
-					break;
-				case EnumItemProperties::ItemPropertiesWeaponMod:
-					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetaccuracyModifier() <= 0.f) ? Green : Red, Black,
-						"accuracyModifier(精度変動値):%3.1f", this->GetaccuracyModifier()) + y_r(30)); *yofs += LineHeight + y_r(5);
-					break;
-				default:
-					break;
-				}
-			}
 		private:
 			void			GetJsonDataWeaponMod(const nlohmann::json& data) {
 				m_floatParams[0] = data["recoilModifier"];
@@ -375,6 +420,41 @@ namespace FPS_n2 {
 					break;
 				}
 			}
+			void			DrawInfoWeaponMod(int xp, int yp, int* xofs, int* yofs) const noexcept {
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetModRecoil() < 0.f) ? Green : Red, Black,
+					"Recoil(リコイル変動値):%3.1f %%", this->GetModRecoil()) + y_r(30)); *yofs += LineHeight + y_r(5);
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetModErgonomics() >= 0.f) ? Green : Red, Black,
+					"Ergonomics(エルゴノミクス変動値):%3.1f", this->GetModErgonomics()) + y_r(30)); *yofs += LineHeight + y_r(5);
+				switch (this->GetType()) {
+				case EnumItemProperties::ItemPropertiesBarrel:
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetcenterOfImpact() >= 0.f) ? Green : Red, Black,
+						"centerOfImpact(跳ね上がり？):%3.2f", this->GetcenterOfImpact()) + y_r(30)); *yofs += LineHeight + y_r(5);
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetdeviationMax() >= 0.f) ? Green : Red, Black,
+						"deviationMax(偏差の最大値？):%3d", this->GetdeviationMax()) + y_r(30)); *yofs += LineHeight + y_r(5);
+					break;
+				case EnumItemProperties::ItemPropertiesMagazine:
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, White, Black,
+						"Capacity(マガジン容量):%3d", this->GetModCapacity()) + y_r(30)); *yofs += LineHeight + y_r(5);
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetloadModifier() >= 0.f) ? Green : Red, Black,
+						"loadModifier(装弾変動値):%3.1f", this->GetloadModifier()) + y_r(30)); *yofs += LineHeight + y_r(5);
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetammoCheckModifier() >= 0.f) ? Green : Red, Black,
+						"ammoCheckModifier(弾数チェック変動値):%3.1f", this->GetammoCheckModifier()) + y_r(30)); *yofs += LineHeight + y_r(5);
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetmalfunctionChance() <= 0.f) ? Green : Red, Black,
+						"malfunctionChance(ジャム変動値):%3.1f", this->GetmalfunctionChance()) + y_r(30)); *yofs += LineHeight + y_r(5);
+					break;
+				case EnumItemProperties::ItemPropertiesScope:
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, White, Black,
+						"SightingRange(照準距離):%3d", this->GetSightingRange()) + y_r(30)); *yofs += LineHeight + y_r(5);
+					break;
+				case EnumItemProperties::ItemPropertiesWeaponMod:
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetaccuracyModifier() <= 0.f) ? Green : Red, Black,
+						"accuracyModifier(精度変動値):%3.1f", this->GetaccuracyModifier()) + y_r(30)); *yofs += LineHeight + y_r(5);
+					break;
+				default:
+					break;
+				}
+			}
+
 		public://Weapon
 			const auto		GetWeaponRecoilVertical() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesWeapon) ? this->m_IntParams[0] : 0; }
 			const auto		GetWeaponRecoilHorizontal() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesWeapon) ? this->m_IntParams[2] : 0; }
@@ -389,35 +469,6 @@ namespace FPS_n2 {
 			const auto		GetWeaponcameraSnap() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesWeapon) ? this->m_floatParams[4] : 0; }
 			const auto		GetWeapondeviationMax() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesWeapon) ? this->m_IntParams[6] : 0; }
 			const auto		GetWeaponconvergence() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesWeapon) ? this->m_floatParams[5] : 0; }
-			void			DrawInfoWeapon(int xp, int yp, int* xofs, int* yofs) const noexcept {
-				int ysiz = LineHeight * 6 / 10;
-				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-					"RecoilVertical    (縦リコイル)     :%3d %%", this->GetWeaponRecoilVertical()) + y_r(30)); *yofs += ysiz + y_r(5);
-				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-					"RecoilHorizontal  (横リコイル)     :%3d %%", this->GetWeaponRecoilHorizontal()) + y_r(30)); *yofs += ysiz + y_r(5);
-				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-					"Ergonomics        (エルゴノミクス) :%3.1f", this->GetWeaponErgonomics()) + y_r(30)); *yofs += ysiz + y_r(5);
-				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-					"SightRange        (照準距離)       :%3d %%", this->GetWeaponSightingRange()) + y_r(30)); *yofs += ysiz + y_r(5);
-				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-					"FireRate          (発射速度)       :%3d %%", this->GetWeaponFireRate()) + y_r(30)); *yofs += ysiz + y_r(5);
-				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-					"CenterOfImpact    (跳ね上がり？)   :%3.2f %%", this->GetWeaponcenterOfImpact()) + y_r(30)); *yofs += ysiz + y_r(5);
-				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-					"deviationCurve    (偏差の曲線？)   :%3.1f %%", this->GetWeapondeviationCurve()) + y_r(30)); *yofs += ysiz + y_r(5);
-				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-					"recoilDispersion  (リコイルの分散？):%3d %%", this->GetWeaponrecoilDispersion()) + y_r(30)); *yofs += ysiz + y_r(5);
-				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-					"recoilAngle       (リコイルの角度？):%3d %%", this->GetWeaponrecoilAngle()) + y_r(30)); *yofs += ysiz + y_r(5);
-				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-					"cameraRecoil      (カメラリコイル？):%3.1f %%", this->GetWeaponcameraRecoil()) + y_r(30)); *yofs += ysiz + y_r(5);
-				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-					"cameraSnap        (カメラスナップ？):%3.1f %%", this->GetWeaponcameraSnap()) + y_r(30)); *yofs += ysiz + y_r(5);
-				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-					"deviationMax      (偏差の最大値？)  :%3d %%", this->GetWeapondeviationMax()) + y_r(30)); *yofs += ysiz + y_r(5);
-				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-					"convergence       (収束？)          :%3.1f %%", this->GetWeaponconvergence()) + y_r(30)); *yofs += ysiz + y_r(5);
-			}
 		private:
 			void			GetJsonDataWeapon(const nlohmann::json& data) {
 				m_IntParams[0] = data["recoilVertical"];
@@ -464,6 +515,36 @@ namespace FPS_n2 {
 				outputfile << "deviationMax=" + std::to_string(this->GetWeapondeviationMax()) + "\n";
 				outputfile << "convergence=" + std::to_string(this->GetWeaponconvergence()) + "\n";
 			}
+			void			DrawInfoWeapon(int xp, int yp, int* xofs, int* yofs) const noexcept {
+				int ysiz = LineHeight * 6 / 10;
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+					"RecoilVertical    (縦リコイル)     :%3d %%", this->GetWeaponRecoilVertical()) + y_r(30)); *yofs += ysiz + y_r(5);
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+					"RecoilHorizontal  (横リコイル)     :%3d %%", this->GetWeaponRecoilHorizontal()) + y_r(30)); *yofs += ysiz + y_r(5);
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+					"Ergonomics        (エルゴノミクス) :%3.1f", this->GetWeaponErgonomics()) + y_r(30)); *yofs += ysiz + y_r(5);
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+					"SightRange        (照準距離)       :%3d %%", this->GetWeaponSightingRange()) + y_r(30)); *yofs += ysiz + y_r(5);
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+					"FireRate          (発射速度)       :%3d %%", this->GetWeaponFireRate()) + y_r(30)); *yofs += ysiz + y_r(5);
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+					"CenterOfImpact    (跳ね上がり？)   :%3.2f %%", this->GetWeaponcenterOfImpact()) + y_r(30)); *yofs += ysiz + y_r(5);
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+					"deviationCurve    (偏差の曲線？)   :%3.1f %%", this->GetWeapondeviationCurve()) + y_r(30)); *yofs += ysiz + y_r(5);
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+					"recoilDispersion  (リコイルの分散？):%3d %%", this->GetWeaponrecoilDispersion()) + y_r(30)); *yofs += ysiz + y_r(5);
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+					"recoilAngle       (リコイルの角度？):%3d %%", this->GetWeaponrecoilAngle()) + y_r(30)); *yofs += ysiz + y_r(5);
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+					"cameraRecoil      (カメラリコイル？):%3.1f %%", this->GetWeaponcameraRecoil()) + y_r(30)); *yofs += ysiz + y_r(5);
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+					"cameraSnap        (カメラスナップ？):%3.1f %%", this->GetWeaponcameraSnap()) + y_r(30)); *yofs += ysiz + y_r(5);
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+					"deviationMax      (偏差の最大値？)  :%3d %%", this->GetWeapondeviationMax()) + y_r(30)); *yofs += ysiz + y_r(5);
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+					"convergence       (収束？)          :%3.1f %%", this->GetWeaponconvergence()) + y_r(30)); *yofs += ysiz + y_r(5);
+			}
+
 		public://Med
 			const auto		GetMedUseTime() const noexcept {
 				switch (m_Type) {
@@ -478,7 +559,6 @@ namespace FPS_n2 {
 				}
 			}
 			const auto&		GetMedCures() const noexcept { return m_cures; }
-			//
 			const auto		GetMedUses() const noexcept {
 				switch (m_Type) {
 				case EnumItemProperties::ItemPropertiesMedicalItem:
@@ -493,94 +573,11 @@ namespace FPS_n2 {
 			const auto		GetmaxHealPerUse() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMedKit) ? this->m_IntParams[2] : 0; }
 			const auto		GethpCostLightBleeding() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMedKit) ? this->m_IntParams[3] : -1; }
 			const auto		GethpCostHeavyBleeding() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMedKit) ? this->m_IntParams[4] : -1; }
-			//
 			const auto		GetpainkillerDuration() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMedKit) ? this->m_IntParams[2] : 0; }
 			const auto		GetenergyImpact() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMedKit) ? this->m_IntParams[3] : 0; }
 			const auto		GethydrationImpact() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMedKit) ? this->m_IntParams[4] : 0; }
-			//
 			const auto		GetminLimbHealth() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesSurgicalKit) ? this->m_floatParams[0] : 0; }
 			const auto		GetmaxLimbHealth() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesSurgicalKit) ? this->m_floatParams[1] : 0; }
-			//
-			void			DrawInfoMed(int xp, int yp, int* xofs, int* yofs) const noexcept {
-				int ysiz = LineHeight * 6 / 10;
-				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-					"使用時間 :%3.1f", this->GetMedUseTime()) + y_r(30)); *yofs += ysiz + y_r(5);
-				for (auto& m : m_cures) {
-					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-						"治療内容 :%s", m.c_str()) + y_r(30)); *yofs += ysiz + y_r(5);
-				}
-				switch (m_Type) {
-				case EnumItemProperties::ItemPropertiesMedicalItem:
-					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-						"使用回数 :%3d", this->GetMedUses()) + y_r(30)); *yofs += ysiz + y_r(5);
-					break;
-				case EnumItemProperties::ItemPropertiesMedKit:
-					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-						"HP :%3d", this->GetHitpoints()) + y_r(30)); *yofs += ysiz + y_r(5);
-
-					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-						"回復消費最大値 :%3d", this->GetmaxHealPerUse()) + y_r(30)); *yofs += ysiz + y_r(5);
-					if (this->GethpCostLightBleeding() > 0) {
-						*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-							"軽出血消費 :%3d", this->GethpCostLightBleeding()) + y_r(30)); *yofs += ysiz + y_r(5);
-					}
-					if (this->GethpCostHeavyBleeding() > 0) {
-						*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-							"重出血消費 :%3d", this->GethpCostHeavyBleeding()) + y_r(30)); *yofs += ysiz + y_r(5);
-					}
-					break;
-				case EnumItemProperties::ItemPropertiesPainkiller:
-					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-						"使用回数 :%3d", this->GetMedUses()) + y_r(30)); *yofs += ysiz + y_r(5);
-					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-						"鎮痛時間 :%3d", this->GetpainkillerDuration()) + y_r(30)); *yofs += ysiz + y_r(5);
-					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-						"エネルギーへの影響 :%3d", this->GetenergyImpact()) + y_r(30)); *yofs += ysiz + y_r(5);
-					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-						"水分への影響 :%3d", this->GethydrationImpact()) + y_r(30)); *yofs += ysiz + y_r(5);
-					break;
-				case EnumItemProperties::ItemPropertiesSurgicalKit:
-					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-						"使用回数 :%3d", this->GetMedUses()) + y_r(30)); *yofs += ysiz + y_r(5);
-					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-						"最小回復 :%3.1f", this->GetminLimbHealth()) + y_r(30)); *yofs += ysiz + y_r(5);
-					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-						"最高回復 :%3.1f", this->GetmaxLimbHealth()) + y_r(30)); *yofs += ysiz + y_r(5);
-					break;
-				case EnumItemProperties::ItemPropertiesStim:
-					for (const auto& s : m_stimEffects) {
-						{
-							if (s.GetskillName() != "") {
-								*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-									"スキルへの影響 :%s", s.GetskillName().c_str()) + y_r(30));
-								*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + y_r(500), yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-									"%s%3.2f", (s.Getvalue() >= 0) ? "+" : "", s.Getvalue()) + y_r(500) + y_r(30)); *yofs += ysiz + y_r(5);
-							}
-							else {
-								*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-									"効果タイプ :%s", s.Gettype().c_str()) + y_r(30));
-								*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + y_r(500), yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-									"影響数値 :%3.2f", s.Getvalue()) + y_r(500) + y_r(30)); *yofs += ysiz + y_r(5);
-							}
-						}
-						if (s.Getchance() < 1.f) {
-							*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-								"確率 :%3.1f%%", s.Getchance()*100.f) + y_r(30)); *yofs += ysiz + y_r(5);
-						}
-						{
-							*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-								"効果までの遅延 :%3d", s.Getdelay()) + y_r(30));
-							*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + y_r(500), yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-								"効果時間 :%3d", s.Getduration()) + y_r(500) + y_r(30)); *yofs += ysiz + y_r(5);
-						}
-						*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-							"パーセント？ :%s", (s.Getpercent() ? "TRUE" : "FALSE")) + y_r(30)); *yofs += ysiz + y_r(5);
-					}
-					break;
-				default:
-					break;
-				}
-			}
 		private:
 			void			GetJsonDataMed(const nlohmann::json& data) {
 				m_IntParams[0] = data["useTime"];
@@ -726,6 +723,87 @@ namespace FPS_n2 {
 					break;
 				}
 			}
+			void			DrawInfoMed(int xp, int yp, int* xofs, int* yofs) const noexcept {
+				int ysiz = LineHeight * 6 / 10;
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+					"使用時間 :%3.1f", this->GetMedUseTime()) + y_r(30)); *yofs += ysiz + y_r(5);
+				for (auto& m : m_cures) {
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+						"治療内容 :%s", m.c_str()) + y_r(30)); *yofs += ysiz + y_r(5);
+				}
+				switch (m_Type) {
+				case EnumItemProperties::ItemPropertiesMedicalItem:
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+						"使用回数 :%3d", this->GetMedUses()) + y_r(30)); *yofs += ysiz + y_r(5);
+					break;
+				case EnumItemProperties::ItemPropertiesMedKit:
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+						"HP :%3d", this->GetHitpoints()) + y_r(30)); *yofs += ysiz + y_r(5);
+
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+						"回復消費最大値 :%3d", this->GetmaxHealPerUse()) + y_r(30)); *yofs += ysiz + y_r(5);
+					if (this->GethpCostLightBleeding() > 0) {
+						*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+							"軽出血消費 :%3d", this->GethpCostLightBleeding()) + y_r(30)); *yofs += ysiz + y_r(5);
+					}
+					if (this->GethpCostHeavyBleeding() > 0) {
+						*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+							"重出血消費 :%3d", this->GethpCostHeavyBleeding()) + y_r(30)); *yofs += ysiz + y_r(5);
+					}
+					break;
+				case EnumItemProperties::ItemPropertiesPainkiller:
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+						"使用回数 :%3d", this->GetMedUses()) + y_r(30)); *yofs += ysiz + y_r(5);
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+						"鎮痛時間 :%3d", this->GetpainkillerDuration()) + y_r(30)); *yofs += ysiz + y_r(5);
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+						"エネルギーへの影響 :%3d", this->GetenergyImpact()) + y_r(30)); *yofs += ysiz + y_r(5);
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+						"水分への影響 :%3d", this->GethydrationImpact()) + y_r(30)); *yofs += ysiz + y_r(5);
+					break;
+				case EnumItemProperties::ItemPropertiesSurgicalKit:
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+						"使用回数 :%3d", this->GetMedUses()) + y_r(30)); *yofs += ysiz + y_r(5);
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+						"最小回復 :%3.1f", this->GetminLimbHealth()) + y_r(30)); *yofs += ysiz + y_r(5);
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+						"最高回復 :%3.1f", this->GetmaxLimbHealth()) + y_r(30)); *yofs += ysiz + y_r(5);
+					break;
+				case EnumItemProperties::ItemPropertiesStim:
+					for (const auto& s : m_stimEffects) {
+						{
+							if (s.GetskillName() != "") {
+								*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+									"スキルへの影響 :%s", s.GetskillName().c_str()) + y_r(30));
+								*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + y_r(500), yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+									"%s%3.2f", (s.Getvalue() >= 0) ? "+" : "", s.Getvalue()) + y_r(500) + y_r(30)); *yofs += ysiz + y_r(5);
+							}
+							else {
+								*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+									"効果タイプ :%s", s.Gettype().c_str()) + y_r(30));
+								*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + y_r(500), yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+									"影響数値 :%3.2f", s.Getvalue()) + y_r(500) + y_r(30)); *yofs += ysiz + y_r(5);
+							}
+						}
+						if (s.Getchance() < 1.f) {
+							*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+								"確率 :%3.1f%%", s.Getchance()*100.f) + y_r(30)); *yofs += ysiz + y_r(5);
+						}
+						{
+							*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+								"効果までの遅延 :%3d", s.Getdelay()) + y_r(30));
+							*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + y_r(500), yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+								"効果時間 :%3d", s.Getduration()) + y_r(500) + y_r(30)); *yofs += ysiz + y_r(5);
+						}
+						*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+							"パーセント？ :%s", (s.Getpercent() ? "TRUE" : "FALSE")) + y_r(30)); *yofs += ysiz + y_r(5);
+					}
+					break;
+				default:
+					break;
+				}
+			}
+
 		public://total
 			void			GetJsonData(const nlohmann::json& data) {
 				auto& d = data["properties"];
@@ -808,13 +886,13 @@ namespace FPS_n2 {
 					}
 					break;
 				case EnumItemProperties::ItemPropertiesKey:
-					m_IntParams[0] = d["uses"];
+					GetJsonDataKey(d);
 					break;
 				case EnumItemProperties::ItemPropertiesMelee:
-					m_IntParams[0] = d["slashDamage"];
+					GetJsonDataMelee(d);
 					break;
 				case EnumItemProperties::ItemPropertiesNightVision:
-					m_floatParams[0] = d["intensity"];
+					GetJsonDataNightVision(d);
 					break;
 				case EnumItemProperties::ItemPropertiesPreset:
 					GetJsonDataPreset(data);
@@ -901,10 +979,13 @@ namespace FPS_n2 {
 					case EnumItemProperties::ItemPropertiesHelmet:
 						break;
 					case EnumItemProperties::ItemPropertiesKey:
+						SetDataKey(LEFT, Args);
 						break;
 					case EnumItemProperties::ItemPropertiesMelee:
+						SetDataMelee(LEFT, Args);
 						break;
 					case EnumItemProperties::ItemPropertiesNightVision:
+						SetDataNightVision(LEFT, Args);
 						break;
 					case EnumItemProperties::ItemPropertiesPainkiller:
 						break;
@@ -991,10 +1072,13 @@ namespace FPS_n2 {
 				case EnumItemProperties::ItemPropertiesHelmet:
 					break;
 				case EnumItemProperties::ItemPropertiesKey:
+					OutputDataKey(outputfile);
 					break;
 				case EnumItemProperties::ItemPropertiesMelee:
+					OutputDataMelee(outputfile);
 					break;
 				case EnumItemProperties::ItemPropertiesNightVision:
+					OutputDataNightVision(outputfile);
 					break;
 				case EnumItemProperties::ItemPropertiesPreset:
 					OutputDataPreset(outputfile);
@@ -1014,6 +1098,60 @@ namespace FPS_n2 {
 				case EnumItemProperties::ItemPropertiesScope:
 				case EnumItemProperties::ItemPropertiesWeaponMod:
 					OutputDataWeaponMod(outputfile);
+					break;
+				default:
+					break;
+				}
+			}
+			void			DrawInfo(int xp, int yp, int* xofs, int* yofs) const noexcept {
+				switch (m_Type) {
+				case EnumItemProperties::ItemPropertiesAmmo:
+					break;
+				case EnumItemProperties::ItemPropertiesArmor:
+					break;
+				case EnumItemProperties::ItemPropertiesArmorAttachment:
+					break;
+				case EnumItemProperties::ItemPropertiesBackpack:
+					break;
+				case EnumItemProperties::ItemPropertiesChestRig:
+					break;
+				case EnumItemProperties::ItemPropertiesContainer:
+					break;
+				case EnumItemProperties::ItemPropertiesFoodDrink:
+					break;
+				case EnumItemProperties::ItemPropertiesGlasses:
+					break;
+				case EnumItemProperties::ItemPropertiesGrenade:
+					break;
+				case EnumItemProperties::ItemPropertiesHelmet:
+					break;
+				case EnumItemProperties::ItemPropertiesKey:
+					this->DrawInfoKey(xp, yp, xofs, yofs);
+					break;
+				case EnumItemProperties::ItemPropertiesMelee:
+					this->DrawInfoMelee(xp, yp, xofs, yofs);
+					break;
+				case EnumItemProperties::ItemPropertiesNightVision:
+					this->DrawInfoNightVision(xp, yp, xofs, yofs);
+					break;
+				case EnumItemProperties::ItemPropertiesPreset:
+					this->DrawInfoPreset(xp, yp, xofs, yofs);
+					break;
+				case EnumItemProperties::ItemPropertiesMedicalItem:
+				case EnumItemProperties::ItemPropertiesMedKit:
+				case EnumItemProperties::ItemPropertiesPainkiller:
+				case EnumItemProperties::ItemPropertiesSurgicalKit:
+				case EnumItemProperties::ItemPropertiesStim:
+					this->DrawInfoMed(xp, yp, xofs, yofs);
+					break;
+				case EnumItemProperties::ItemPropertiesWeapon:
+					this->DrawInfoWeapon(xp, yp, xofs, yofs);
+					break;
+				case EnumItemProperties::ItemPropertiesBarrel:
+				case EnumItemProperties::ItemPropertiesMagazine:
+				case EnumItemProperties::ItemPropertiesScope:
+				case EnumItemProperties::ItemPropertiesWeaponMod:
+					this->DrawInfoWeaponMod(xp, yp, xofs, yofs);
 					break;
 				default:
 					break;
@@ -1102,6 +1240,7 @@ namespace FPS_n2 {
 		const auto&	Getwidth() const noexcept { return this->m_ItemsData.m_width; }
 		const auto&	Getheight() const noexcept { return this->m_ItemsData.m_height; }
 		const auto&	GetsellFor() const noexcept { return this->m_ItemsData.m_sellFor; }
+		auto&	SetsellFor() noexcept { return this->m_ItemsData.m_sellFor; }
 		const auto&	Getweight() const noexcept { return this->m_ItemsData.m_weight; }
 		const auto&	GetfleaMarketFee() const noexcept { return this->m_ItemsData.m_fleaMarketFee; }
 		const auto&	GetUseTaskID() const noexcept { return this->m_ItemsData.m_UseTaskID; }
@@ -1171,6 +1310,8 @@ namespace FPS_n2 {
 	public:
 		void GetJsonSub(const nlohmann::json& data) noexcept override;
 		void OutputDataSub(std::ofstream& outputfile) noexcept override;
+
+
 	};
 
 	class ItemData : public DataParent<ItemID, ItemList>, public JsonListParent<ItemJsonData> {
@@ -1187,6 +1328,25 @@ namespace FPS_n2 {
 		~ItemData() noexcept {}
 	public:
 		void AfterLoadList()noexcept {
+			//
+			{
+				std::ifstream File("data/item/FleaMarketSell.txt");
+				std::string line;
+				while (std::getline(File, line)) {
+					if (line == "") { continue; }
+					auto LEFT = getparams::getleft(line);
+					auto RIGHT = getparams::getright(line);
+					for (auto& L : this->m_List) {
+						if (L.GetIDstr() == LEFT) {
+							L.SetsellFor().resize(L.SetsellFor().size() + 1);
+							L.SetsellFor().back().Set("Flea Market", std::stoi(RIGHT));
+							break;
+						}
+					}
+				}
+				File.close();
+			}
+			//
 			for (auto& L : this->m_List) {
 				for (auto& L2 : this->m_List) {
 					if (L.GetID()!=L2.GetID() && L.GetIDstr() == L2.GetIDstr()) {
@@ -1228,6 +1388,22 @@ namespace FPS_n2 {
 					}
 				}
 			}
+
+			std::ofstream outputfile("data/item/FleaMarketSell.txt");
+			for (auto& L : this->m_List) {
+				for (const auto& jd : GetJsonDataList()) {
+					if (L.GetIDstr() == jd->m_id) {
+						for (auto& sf : (dynamic_cast<ItemJsonData*>(jd.get()))->GetItemsData().m_sellFor) {
+							if (sf.GetName() == "Flea Market") {
+								outputfile << L.GetIDstr() + "=" + std::to_string(sf.GetValue()) + "\n";
+								break;
+							}
+						}
+						break;
+					}
+				}
+			}
+			outputfile.close();
 		}
 	};
 };

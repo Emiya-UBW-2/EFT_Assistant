@@ -10,6 +10,5 @@ Sell_Prapor=100000
 Sell_Therapist=126000
 Sell_Fence=80000
 Sell_Jaeger=120000
-Sell_Flea Market=259000
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink

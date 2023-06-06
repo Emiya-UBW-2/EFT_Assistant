@@ -8,6 +8,6 @@ height=1
 weight=0.010000
 Sell_Prapor=1606
 Sell_Therapist=2023
-Sell_Flea Market=9890
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
+uses=40

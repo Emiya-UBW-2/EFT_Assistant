@@ -11,7 +11,6 @@ Sell_Skier=22094
 Sell_Peacekeeper=169
 Sell_Mechanic=25253
 Sell_Jaeger=975
-Sell_Flea Market=44000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=TRUE

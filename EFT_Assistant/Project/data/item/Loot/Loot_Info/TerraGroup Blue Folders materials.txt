@@ -8,6 +8,5 @@ height=2
 weight=0.330000
 Sell_Fence=300000
 Sell_Peacekeeper=2789
-Sell_Flea Market=550000
 fleaMarketFee=0
 propertiestype=

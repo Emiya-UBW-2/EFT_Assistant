@@ -9,6 +9,5 @@ weight=0.250000
 Sell_Prapor=2350
 Sell_Fence=1880
 Sell_Skier=2303
-Sell_Flea Market=25000
 fleaMarketFee=0
 propertiestype=ItemPropertiesGrenade

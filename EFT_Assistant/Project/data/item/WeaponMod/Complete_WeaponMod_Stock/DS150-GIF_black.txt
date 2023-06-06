@@ -12,7 +12,6 @@ Sell_Skier=3871
 Sell_Peacekeeper=29
 Sell_Mechanic=4424
 Sell_Jaeger=4740
-Sell_Flea Market=9999
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 Recoil=-32.000000

@@ -44,7 +44,7 @@ namespace FPS_n2 {
 		for (auto& m : this->m_ItemsData.m_MapID) {
 			m.CheckID(DataBase::Instance()->GetMapData().get());
 		}
-		for (auto s : this->m_ItemsData.m_sellFor) {
+		for (auto& s : this->m_ItemsData.m_sellFor) {
 			s.CheckID(DataBase::Instance()->GetTraderData().get(), false);//Invalidはフリマなのでエラー出さない
 		}
 		//
@@ -597,17 +597,7 @@ namespace FPS_n2 {
 				yofs += LineHeight + y_r(5);
 			}
 			//
-			if (this->m_ItemsData.m_isMedItem) {
-				this->m_ItemsData.m_properties.DrawInfoMed(xp, yp, &xofs, &yofs);
-			}
-			//
-			if (this->m_ItemsData.m_isWeaponMod) {
-				this->m_ItemsData.m_properties.DrawInfoWeaponMod(xp, yp, &xofs, &yofs);
-			}
-			//
-			if (this->m_ItemsData.m_isWeapon) {
-				this->m_ItemsData.m_properties.DrawInfoWeapon(xp, yp, &xofs, &yofs);
-			}
+			this->m_ItemsData.m_properties.DrawInfo(xp, yp, &xofs, &yofs);
 			//
 			{
 				if (this->GetChildParts().size() > 0) {
@@ -684,7 +674,9 @@ namespace FPS_n2 {
 		outputfile << "height=" + std::to_string(this->m_ItemsData.m_height) + "\n";
 		outputfile << "weight=" + std::to_string(this->m_ItemsData.m_weight) + "\n";
 		for (auto& sf : this->m_ItemsData.m_sellFor) {
-			outputfile << "Sell_" + sf.GetName() + "=" + std::to_string(sf.GetValue()) + "\n";
+			if (sf.GetName() != "Flea Market") {
+				outputfile << "Sell_" + sf.GetName() + "=" + std::to_string(sf.GetValue()) + "\n";
+			}
 		}
 		outputfile << "fleaMarketFee=" + std::to_string(this->m_ItemsData.m_fleaMarketFee) + "\n";
 		this->m_ItemsData.m_properties.OutputData(outputfile);

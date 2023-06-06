@@ -12,7 +12,6 @@ Sell_Skier=27334
 Sell_Peacekeeper=207
 Sell_Mechanic=31239
 Sell_Jaeger=33470
-Sell_Flea Market=36000
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
 Conflict=[

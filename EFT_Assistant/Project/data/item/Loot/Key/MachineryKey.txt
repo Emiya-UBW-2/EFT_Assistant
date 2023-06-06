@@ -10,5 +10,6 @@ Sell_Prapor=1007
 Sell_Therapist=1268
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
+uses=1
 Map=Customs
 Map=Customs

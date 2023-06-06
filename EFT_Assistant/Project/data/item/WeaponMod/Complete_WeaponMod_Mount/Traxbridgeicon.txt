@@ -12,7 +12,6 @@ Sell_Skier=801
 Sell_Peacekeeper=6
 Sell_Mechanic=915
 Sell_Jaeger=981
-Sell_Flea Market=50000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[

@@ -12,7 +12,6 @@ Sell_Skier=14945
 Sell_Peacekeeper=113
 Sell_Mechanic=17080
 Sell_Jaeger=18300
-Sell_Flea Market=52420
 fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[

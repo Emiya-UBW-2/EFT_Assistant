@@ -20,3 +20,7 @@ Conflict=[
 	Team Wendy EXFIL Ballistic face shield (Black)/|
 	Team Wendy EXFIL Ballistic face shield (Coyote Brown)
 ]
+noiseIntensity=0.020000
+noiseScale=5.000000
+diffuseIntensity=0.023000
+intensity=2.270000

@@ -11,7 +11,6 @@ Sell_Fence=936
 Sell_Skier=1147
 Sell_Peacekeeper=9
 Sell_Mechanic=1311
-Sell_Flea Market=2500
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000

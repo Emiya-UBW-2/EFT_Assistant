@@ -12,10 +12,13 @@ Sell_Skier=36652
 Sell_Peacekeeper=278
 Sell_Mechanic=41888
 Sell_Jaeger=44880
-Sell_Flea Market=49800
 fleaMarketFee=0
 propertiestype=ItemPropertiesNightVision
 Conflict=[
 	Ops-Core FAST Visor/|
 	Ops-Core FAST multi-hit ballistic face shield
 ]
+noiseIntensity=0.040000
+noiseScale=2.000000
+diffuseIntensity=0.021000
+intensity=1.800000

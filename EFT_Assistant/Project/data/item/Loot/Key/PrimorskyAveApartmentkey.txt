@@ -10,3 +10,4 @@ Sell_Prapor=2500
 Sell_Therapist=3150
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
+uses=1
