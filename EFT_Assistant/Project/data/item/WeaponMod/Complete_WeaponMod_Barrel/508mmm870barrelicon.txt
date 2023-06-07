@@ -26,3 +26,5 @@ Recoil=-6.000000
 Ergonomics=-8.000000
 centerOfImpact=0.550000
 deviationMax=10
+Name_Jpn=M870 12ga 508mm barrel
+Information_Jpn=A 508mm 12 gauge barrel for the Remington Model 870 shotgun.

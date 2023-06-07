@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-2.000000
 Ergonomics=5.000000
 accuracyModifier=0.000000
+Name_Jpn=SIG Sauer Vertical Foregrip KeyMod (Black)
+Information_Jpn=The SIG Sauer "Vertical Foregrip" tactical grip for the KeyMod interface. The grip is made from the highest grade materials and is of an inherent SIG Sauer quality.

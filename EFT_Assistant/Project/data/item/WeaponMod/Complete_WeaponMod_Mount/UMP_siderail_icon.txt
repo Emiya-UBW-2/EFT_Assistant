@@ -38,3 +38,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=HK UMP side handguard rail
+Information_Jpn=A side rail for the UMP SMG handguard, allows installation of additional tactical devices.

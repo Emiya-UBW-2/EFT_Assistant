@@ -101,3 +101,5 @@ Conflict=[
 Recoil=0.000000
 Ergonomics=2.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 KAC URX 3.1 10.75 inch handguard
+Information_Jpn=Knights Armament製のAR-15用のURX 3.1 ハンドガード。追加のデバイスやアクセサリーを装着するための特殊なインターフェイスを備えている。

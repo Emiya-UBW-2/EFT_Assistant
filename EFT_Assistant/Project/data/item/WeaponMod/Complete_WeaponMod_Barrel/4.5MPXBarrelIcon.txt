@@ -35,3 +35,5 @@ Recoil=0.000000
 Ergonomics=-2.000000
 centerOfImpact=0.250000
 deviationMax=11
+Name_Jpn=MPX 9x19 4.5 inch barrel
+Information_Jpn=A 4.5 inch (114mm) long barrel for MPX-based weapons chambered in 9x19 ammo.

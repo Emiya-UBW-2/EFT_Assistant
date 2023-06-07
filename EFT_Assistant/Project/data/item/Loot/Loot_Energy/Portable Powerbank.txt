@@ -13,3 +13,5 @@ Sell_Mechanic=11418
 Sell_Jaeger=12234
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=モバイルバッテリー
+Information_Jpn=持ち運びできる充電式の大容量モバイルバッテリー。

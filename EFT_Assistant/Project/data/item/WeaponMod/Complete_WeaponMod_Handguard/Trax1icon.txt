@@ -66,3 +66,5 @@ ChildParts=[
 Recoil=-2.000000
 Ergonomics=6.000000
 accuracyModifier=0.000000
+Name_Jpn=AK Strike Industries TRAX 1 handguard
+Information_Jpn=The Strike Industries AK TRAX 1 rail system is a modular drop-in rail that is versatile, light-weight, and durable. It will provide an adaptable platform for the user to mount their accessories. Can be combined with the TRAX 2 rail for maximum amount of modularity.

@@ -23,3 +23,5 @@ ChildParts=[
 Recoil=-27.000002
 Ergonomics=11.000000
 accuracyModifier=0.000000
+Name_Jpn=Mosin Rifle sniper carbine stock
+Information_Jpn=Mosin-Nagantライフル用の木製スナイパーカービンストック。

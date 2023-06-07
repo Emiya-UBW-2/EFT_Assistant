@@ -10,3 +10,5 @@ Sell_Fence=16060
 Sell_Peacekeeper=149
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=暗号化された USB フラッシュドライブ
+Information_Jpn=セキュリティ機能付きのUSBメモリ。このタイプは TerraGroup の社員にも頻繁に使用されていたらしい。間違いなく機密情報が入っているはずだ。

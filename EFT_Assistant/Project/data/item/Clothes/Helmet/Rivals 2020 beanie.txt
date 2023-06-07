@@ -12,3 +12,5 @@ Sell_Peacekeeper=74
 Sell_Ragman=12400
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Rivals 2020 ビーニー
+Information_Jpn=A special beanie from the Twitch Rivals 2020 event.

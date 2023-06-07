@@ -51,3 +51,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=Nightforce Magmount 34mm ring scope mount with Ruggedized Accessory Platform
+Information_Jpn=Nightforce X-Treme Duty Ultralite one piece Magmount is a universal 34mm scope base mount for installation on Picatinny rails. Comes attached with the Ruggedized Accessory Platform (RAP) for installing additional tactical devices and reflex sights.

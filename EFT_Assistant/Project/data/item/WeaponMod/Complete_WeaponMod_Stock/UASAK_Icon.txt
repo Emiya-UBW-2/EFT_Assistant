@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-38.000000
 Ergonomics=16.000000
 accuracyModifier=0.000000
+Name_Jpn=AKM/AK-74 FAB Defense UAS stock
+Information_Jpn=The UAS stock for AKM/AK74-type non-folding assault rifles. Manufactured by FAB Defense.

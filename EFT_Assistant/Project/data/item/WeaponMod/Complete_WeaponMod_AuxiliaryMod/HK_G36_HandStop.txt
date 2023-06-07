@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=1.000000
 accuracyModifier=0.000000
+Name_Jpn=HK G36 hand stop
+Information_Jpn=A polymer hand stop for the G36. Manufactured by Heckler & Koch.

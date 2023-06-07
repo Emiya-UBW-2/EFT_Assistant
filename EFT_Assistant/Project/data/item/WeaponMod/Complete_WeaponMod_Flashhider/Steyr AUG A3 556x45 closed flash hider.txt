@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-7.500000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=Steyr AUG A3 5.56x45 closed flash hider
+Information_Jpn=A standard AUG A3 flash hider, manufactured by Steyr-Daimler-Puch. Effectively suppresses muzzle flash. Fits AUG 5.56x45 caliber barrels.

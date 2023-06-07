@@ -20,3 +20,5 @@ ChildParts=[
 Recoil=-15.000001
 Ergonomics=-2.000000
 accuracyModifier=0.000000
+Name_Jpn=M14 JP Enterprises 7.62x51 Tactical Compensator
+Information_Jpn=A muzzle brake-compensator for M14 rifles, manufactured by JP Enterprises.

@@ -10,3 +10,5 @@ Sell_Therapist=5327
 Sell_Fence=3382
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=虫よけスプレー
+Information_Jpn=蚊やハエなどの小さな昆虫を寄せ付けないようにするエアゾールタイプの防虫剤。

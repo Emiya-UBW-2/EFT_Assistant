@@ -22,3 +22,5 @@ Recoil=0.000000
 Ergonomics=-2.000000
 SightRange=200
 sightZooms=1.000000
+Name_Jpn=P226 Sight Mount 220-239 rear sight bearing
+Information_Jpn=The 220-239 rear sight bearing manufactured by Sight Mount for SIG Sauer 220, 226, 227, 229, 239 pistols. It is installed as a replacement of the standard rear sight and allows to use it even if no scope is installed.

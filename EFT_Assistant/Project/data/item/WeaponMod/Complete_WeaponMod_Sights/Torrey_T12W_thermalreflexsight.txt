@@ -18,3 +18,5 @@ Recoil=0.000000
 Ergonomics=-1.000000
 SightRange=500
 sightZooms=1.000000
+Name_Jpn=Torrey Pines Logic T12W サーマルリフレックスサイト
+Information_Jpn=A compact termal reflex sight with a low frequency. Manufactured by Torrey Pines Logic.

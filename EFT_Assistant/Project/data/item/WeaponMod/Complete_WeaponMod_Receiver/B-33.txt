@@ -122,3 +122,5 @@ Conflict=[
 Recoil=-1.500000
 Ergonomics=7.000000
 accuracyModifier=0.000000
+Name_Jpn=AK Zenit B-33 dust cover
+Information_Jpn=B-33ダストカバーはピカティニーレイルを備えておりAKをベースにしたライフルもしくはカービンと互換性がある。光学機器の搭載が可能になり、強固に固定されているためダストカバーの開閉を繰り返した場合でも狙点が狂う心配がない。© Zenit

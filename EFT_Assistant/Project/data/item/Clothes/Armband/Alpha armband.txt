@@ -11,3 +11,5 @@ Sell_Skier=49000
 Sell_Ragman=62000
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Alpha armband
+Information_Jpn=An armband for veterans who are still here from the Alpha times.

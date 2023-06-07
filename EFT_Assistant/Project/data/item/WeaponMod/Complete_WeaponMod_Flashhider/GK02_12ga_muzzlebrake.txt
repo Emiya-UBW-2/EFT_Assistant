@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-14.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=GK-02 12ga muzzle brake
+Information_Jpn=The Ilyin GK-02 muzzle brake is a modernized and improved version of Vsevolod Ilyin's muzzle brake, with enhanced recoil and muzzle climb reduction capabilities.

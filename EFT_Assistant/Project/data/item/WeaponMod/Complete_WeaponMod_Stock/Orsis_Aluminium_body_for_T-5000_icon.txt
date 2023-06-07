@@ -32,3 +32,5 @@ Conflict=[
 Recoil=-2.000000
 Ergonomics=16.000000
 accuracyModifier=0.000000
+Name_Jpn=ORSIS T-5000M aluminium body
+Information_Jpn=A standard aluminum body for the T-5000M bolt-action sniper rifle, manufactured by ORSIS.

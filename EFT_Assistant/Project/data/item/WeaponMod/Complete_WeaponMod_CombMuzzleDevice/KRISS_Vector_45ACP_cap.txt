@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=1.000000
 accuracyModifier=0.000000
+Name_Jpn=KRISS Vector .45 ACP thread protection cap
+Information_Jpn=A thread protector cap for the KRISS Vector .45 ACP barrel.

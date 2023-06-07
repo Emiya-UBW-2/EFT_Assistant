@@ -19,3 +19,5 @@ capacity=20
 loadModifier=0.150000
 ammoCheckModifier=0.000000
 malfunctionChance=0.292000
+Name_Jpn=SOK-12 12/76 MaxRounds Powermag 20-round magazine
+Information_Jpn=The MaxRounds Powermag 20-shell magazine for SOK-12 and compatible weapons, intended for use with 12/76 or 12/70 shells.

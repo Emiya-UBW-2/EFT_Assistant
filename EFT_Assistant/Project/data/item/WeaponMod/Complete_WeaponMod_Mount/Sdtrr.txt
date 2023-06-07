@@ -71,3 +71,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=HK MP5SD B&T tri-rail ring mount
+Information_Jpn=The Tri-Rail Ring mount by B&T is installed on the MP5SD silencer and adds 3 Picatinny rails, designed for installation of additional equipment.

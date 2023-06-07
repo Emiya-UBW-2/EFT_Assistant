@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-8.500000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=Steyr AUG A3 5.56x45 muzzle brake
+Information_Jpn=A muzzle brake designed specifically for the AUG A3, manufactured by Steyr-Daimler-Puch. Significantly reduces recoil and barrel rise. Fits AUG 5.56x45 caliber barrels.

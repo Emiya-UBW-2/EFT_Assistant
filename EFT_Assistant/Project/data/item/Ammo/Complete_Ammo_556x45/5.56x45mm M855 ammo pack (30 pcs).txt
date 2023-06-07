@@ -9,3 +9,5 @@ weight=0.010000
 Sell_Fence=400
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=5.56x45mm M855 ammo pack (30 pcs)
+Information_Jpn=A pack of 5.56x45 mm M855 ammo, 30 rounds.

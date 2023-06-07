@@ -12,3 +12,5 @@ Sell_Skier=33222
 Sell_Peacekeeper=252
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=アンティークの花瓶
+Information_Jpn=コレクターが所蔵していた磁器製の花瓶。理屈からいえば、ビールのピッチャーとして使えなくもない。

@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Reserve
+Name_Jpn=RB-KPRLの鍵
+Information_Jpn=A key to the Federal State Reserve Agency base Radar Station guardhouse.

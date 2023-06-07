@@ -11,3 +11,5 @@ Sell_Ragman=6536
 Sell_Jaeger=6325
 fleaMarketFee=0
 propertiestype=ItemPropertiesContainer
+Name_Jpn=シンプルウォレット
+Information_Jpn=金を入れておくためのシンプルな革財布。

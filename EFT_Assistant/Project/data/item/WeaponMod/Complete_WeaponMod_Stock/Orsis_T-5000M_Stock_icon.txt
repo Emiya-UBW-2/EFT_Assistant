@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-25.000000
 Ergonomics=11.000000
 accuracyModifier=0.000000
+Name_Jpn=ORSIS T-5000M stock
+Information_Jpn=A universal standard-issue stock for T-5000M sniper rifles, manufactured by ORSIS.

@@ -36,3 +36,5 @@ Ergonomics=-8.000000
 SightRange=2000
 sightZooms=7.000000
 sightZooms=16.000000
+Name_Jpn=Nightforce ATACR 7-35x56 ライフルスコープ
+Information_Jpn=The NightForce ATACR 7-35x56 versatile scope with an extensive magnification range and a wide field-of-view across the entire range making it easy to see and engage targets.

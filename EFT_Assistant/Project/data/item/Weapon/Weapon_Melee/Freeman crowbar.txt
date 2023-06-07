@@ -13,3 +13,5 @@ propertiestype=ItemPropertiesMelee
 slashDamage=25
 stabDamage=34
 hitRadius=0.500000
+Name_Jpn=フリーマンのバール
+Information_Jpn=A reliable steel crowbar manufactured by Freeman company. Caution! May lead to Resonance Cascade.

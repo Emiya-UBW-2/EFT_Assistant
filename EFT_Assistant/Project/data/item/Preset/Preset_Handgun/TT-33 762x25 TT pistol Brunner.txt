@@ -22,3 +22,4 @@ containsItems=[
 	TT PM-Laser DTK-TT muzzle brake-compensatorx1/|
 	TT DLP Tactical Precision LAM-modulex1
 ]
+Name_Jpn=TT-33 7.62x25 TT pistol Brunner

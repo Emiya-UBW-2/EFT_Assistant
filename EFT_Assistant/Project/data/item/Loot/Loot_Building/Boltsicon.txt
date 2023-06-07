@@ -12,3 +12,5 @@ Sell_Fence=4400
 Sell_Jaeger=6600
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=ボルト
+Information_Jpn=ナットと組み合わせて物を固定するために使用する。ハイドアウトを拡張するために欠かせないアイテムだ。

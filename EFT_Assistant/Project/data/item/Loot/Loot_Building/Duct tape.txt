@@ -12,3 +12,5 @@ Sell_Fence=999
 Sell_Jaeger=1499
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=ダクトテープ
+Information_Jpn=ダクトテープは、動いてはいけないものを固定するために使われる万能なテープだ。

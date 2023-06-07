@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=HK MP5K cocking handle
+Information_Jpn=A standard-issue MP5K cocking handle, manufactured by Heckler & Koch.

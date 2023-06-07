@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=3.000000
 accuracyModifier=0.000000
+Name_Jpn=SR-2M 9x21 hand stopper
+Information_Jpn=A hand stopper for the barrel of the SR-2M "Veresk" 9x21 submachine gun. Manufactured by TsNIItochmash. Protects the shooter's hand from moving forward and getting possible burns by powder gases.

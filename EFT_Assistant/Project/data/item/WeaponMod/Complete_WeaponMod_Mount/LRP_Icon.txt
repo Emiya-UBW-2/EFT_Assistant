@@ -22,3 +22,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=Aimpoint LRP mount for CompM4 sights
+Information_Jpn=Aimpoint LRP is a quick detach base mount for CompM4 sights.

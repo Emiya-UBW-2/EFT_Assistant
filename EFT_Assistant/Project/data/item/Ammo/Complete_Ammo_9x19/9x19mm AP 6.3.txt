@@ -13,3 +13,5 @@ Sell_Peacekeeper=1
 Sell_Mechanic=152
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=9x19mm AP 6.3
+Information_Jpn=A 9x19mm Parabellum AP 6.3 cartridge with a two-part controlled fragmenting projectile, an armor-piercing bullet that features a brass sabot and a hardened steel penetrator of 6.3mm. Thanks to the design of this AP bullet (Armor-Piercing) and despite having an average muzzle velocity relative to other cartridges of the same caliber, it has capabilities of piercing basic ballistic body protection along with some intermediate models.

@@ -19,3 +19,5 @@ capacity=40
 loadModifier=0.000000
 ammoCheckModifier=0.200000
 malfunctionChance=0.184000
+Name_Jpn=AK 7.62x39 Molot 40-round magazine (6P2.Sb-11)
+Information_Jpn=The 6P2 Sb-11 standard-issue 40-round 7.62x39 magazine for the RPK LMG from 1961 and onward, fits any AK-compatible weapon. Can also be supplied with .366 TKM ammo for use with the corresponding caliber AK-compatible weapons.

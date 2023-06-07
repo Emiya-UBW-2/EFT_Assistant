@@ -60,3 +60,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=14.000000
 accuracyModifier=0.000000
+Name_Jpn=HK 416A5 TROY M-LOK 13 inch handguard
+Information_Jpn=The TROY Industries carbon fiber M-LOK foregrip for 416A5 equipped with an M-LOK interface for the installation of additional devices and accessories.

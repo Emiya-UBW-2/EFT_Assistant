@@ -13,3 +13,5 @@ Sell_Peacekeeper=8
 Sell_Mechanic=1260
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=7.62x51mm M993
+Information_Jpn=A 7.62x51mm NATO M993 cartridge with an 8.2 gram armor-piercing bullet with a tungsten carbide penetrator over an aluminum base with a copper jacket, in a brass case. This cartridge was designed during the 1990s to provide United States Armed Forces personnel with capabilities to pierce light covers and light armored vehicles, in addition to providing excellent results against the most modern specialized ballistic body protections.

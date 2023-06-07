@@ -31,3 +31,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=Magpul M-LOK Offset Light Mount
+Information_Jpn=Magpul M-LOK Offset Light/Optic mount allows installation of additional equipment on the handguards with the standard M-LOK interface.

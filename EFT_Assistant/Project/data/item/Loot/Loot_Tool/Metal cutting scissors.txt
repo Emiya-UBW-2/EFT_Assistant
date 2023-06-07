@@ -12,3 +12,5 @@ Sell_Fence=8920
 Sell_Mechanic=12488
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=金切りバサミ
+Information_Jpn=薄い金属板を切断するための特殊なハサミ。

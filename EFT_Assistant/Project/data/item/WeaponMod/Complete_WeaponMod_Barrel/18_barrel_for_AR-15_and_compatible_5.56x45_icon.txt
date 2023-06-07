@@ -65,3 +65,5 @@ Recoil=-5.000000
 Ergonomics=-22.000000
 centerOfImpact=0.041000
 deviationMax=23
+Name_Jpn=AR-15 5.56x45 18 inch barrel
+Information_Jpn=5.56x45 NATO弾を使用するAR-15系用 18 inchバレル

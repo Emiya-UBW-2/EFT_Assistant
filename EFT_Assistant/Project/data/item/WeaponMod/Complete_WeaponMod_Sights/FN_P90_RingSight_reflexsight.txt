@@ -17,3 +17,5 @@ Recoil=0.000000
 Ergonomics=-1.000000
 SightRange=200
 sightZooms=1.000000
+Name_Jpn=FN P90 Ring Sight reflex sight
+Information_Jpn=Ring Sight is a reflex sight for the P90 SMG, manufactured by Fabrique Nationale Herstal.

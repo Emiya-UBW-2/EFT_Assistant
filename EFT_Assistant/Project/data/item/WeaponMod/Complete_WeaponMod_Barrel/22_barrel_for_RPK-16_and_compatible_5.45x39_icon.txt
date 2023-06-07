@@ -29,3 +29,5 @@ Recoil=-7.000000
 Ergonomics=-11.000000
 centerOfImpact=0.032000
 deviationMax=23
+Name_Jpn=RPK-16 5.45x39 22 inch barrel
+Information_Jpn=A 22 inch (550mm) long barrel for RPK-16 light machine gun, chambered in 5.45x39 ammo.

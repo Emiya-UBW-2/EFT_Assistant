@@ -30,3 +30,5 @@ Conflict=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=Glock Aimtech Tiger Shark sight mount
+Information_Jpn=A Glock family sight mount base designed for installation of additional reflex sights on the pistol. Manufactured by Aimtech.

@@ -13,3 +13,5 @@ Sell_Peacekeeper=94
 Sell_Mechanic=14168
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=NIXXOR レンズ
+Information_Jpn=ビデオカメラや防犯カメラなどに使用できるレンズ。

@@ -21,3 +21,4 @@ containsItems=[
 	M700 7.62x51 20 inch threaded barrelx1/|
 	M700 thread protection capx1
 ]
+Name_Jpn=Remington Model 700 7.62x51 bolt-action sniper rifle ARCH

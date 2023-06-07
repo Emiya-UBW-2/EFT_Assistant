@@ -53,3 +53,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=9.000000
 accuracyModifier=0.000000
+Name_Jpn=SA-58/FAL AIM Sports Universal KeyMod handguard
+Information_Jpn=A universal KeyMod handguard by AIM Sports for FAL-series rifles equipped with a KeyMod interface for installation of additional devices and accessories.

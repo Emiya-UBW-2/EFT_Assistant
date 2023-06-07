@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-11.000000
 Ergonomics=-1.000000
 accuracyModifier=0.040000
+Name_Jpn=SA-58 Austrian Style 7.62x51 muzzle brake
+Information_Jpn=An Austrian Style muzzle brake manufactured by DS Arms for SA-58 assault rifles.

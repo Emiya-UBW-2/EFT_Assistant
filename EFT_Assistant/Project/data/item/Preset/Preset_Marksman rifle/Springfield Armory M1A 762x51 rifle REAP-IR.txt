@@ -27,3 +27,4 @@ containsItems=[
 	UNV DLOC-IRD sight mountx1/|
 	Trijicon REAP-IR thermal scopex1
 ]
+Name_Jpn=Springfield Armory M1A 7.62x51 rifle REAP-IR

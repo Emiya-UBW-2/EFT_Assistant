@@ -35,3 +35,5 @@ cameraRecoil=0.129600
 cameraSnap=2.200000
 deviationMax=10
 convergence=1.200000
+Name_Jpn=MP-43-1C 12ga double-barrel shotgun
+Information_Jpn=A hunter's dream. A classic double-barrelled beauty, simple and elegant. Fed with 12 gauge shells.

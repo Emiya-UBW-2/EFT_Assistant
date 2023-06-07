@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Customs
+Name_Jpn=可搬式の詰所の鍵
+Information_Jpn=誰かの寝床として使われていたポータブルキャビンの鍵。Customs の工事現場のどこかに設置されている。

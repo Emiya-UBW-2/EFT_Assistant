@@ -12,3 +12,5 @@ Sell_Skier=40824
 Sell_Peacekeeper=310
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=木製の置時計
+Information_Jpn=双頭の鷲をかたどった芸術的な木製の置時計。希少で高価な品だ。

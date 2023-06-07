@@ -13,3 +13,5 @@ Sell_Peacekeeper=98
 Sell_Ragman=16283
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmor
+Name_Jpn=PACA Soft Armor
+Information_Jpn=A light but durable and reliable body armor protecting only the vital areas, fitted with class 2 (Russian GOST) armor plates.

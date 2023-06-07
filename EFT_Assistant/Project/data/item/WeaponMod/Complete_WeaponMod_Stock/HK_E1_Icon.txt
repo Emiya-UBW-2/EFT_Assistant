@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-33.000000
 Ergonomics=4.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 HK E1 buttstock
+Information_Jpn=The E1 telescopic stock is designed as a replacement for standard HK416 stocks. Made of high grade nylon fiber with a twist off rubber butt pad and ambidextrous sling attachment point. Can be installed on any AR-15 weapon system. Manufactured by Heckler & Koch.

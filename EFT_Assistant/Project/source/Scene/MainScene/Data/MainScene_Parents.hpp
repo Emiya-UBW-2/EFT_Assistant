@@ -377,10 +377,25 @@ namespace FPS_n2 {
 		void ResetDataJson() {
 			m_JsonData.clear();
 		}
+		virtual void InitDatabyJson() noexcept {}
 		void GetDataJson(nlohmann::json& data) {
 			for (const auto& d : data) {
 				m_JsonData.emplace_back(std::make_unique<JsonDataParentT>());
 				m_JsonData.back()->GetJson(d);
+			}
+		}
+		template <class List>
+		void UpdateData(int ofset, int size, std::vector<List>& ListT) noexcept {
+			for (auto& L : ListT) {
+				for (int loop = ofset; loop < ofset + size; loop++) {
+					if (loop >= (int)GetJsonDataList().size()) { break; }
+					auto& jd = GetJsonDataList().at(loop);
+					if (L.GetIDstr() == jd->m_id) {
+						L.m_CheckJson++;
+						jd->OutputData(L.GetFilePath());
+						break;
+					}
+				}
 			}
 		}
 		void SaveAsNewData(std::string ParentPath) noexcept {
@@ -427,5 +442,6 @@ namespace FPS_n2 {
 				jd->ResetDataJob();
 			}
 		}
+		virtual void UpdateAfterbyJson(void) noexcept {}
 	};
 };

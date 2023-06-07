@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=3.000000
 accuracyModifier=0.000000
+Name_Jpn=Axion Kobra sight shade
+Information_Jpn=A sight shade for reflex sights of the Kobra family. Protects the lens against mechanical impacts and suppresses flaring. Manufactured by Axion.

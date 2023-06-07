@@ -13,3 +13,5 @@ Sell_Peacekeeper=1244
 Sell_Ragman=207393
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmor
+Name_Jpn=FORT Defender-2 ボディーアーマー
+Information_Jpn=The FORT OK "Defender-2" operational kit is a modification of the popular body armor FORT "Defender" designed for both VIP and for employees of operational combat units. The kit uses the maximum capabilities of the modular principle of building armor based on steel plates.

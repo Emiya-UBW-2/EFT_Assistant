@@ -13,3 +13,5 @@ Sell_Peacekeeper=112
 Sell_Mechanic=16800
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=26x75mm flare cartridge (Red)
+Information_Jpn=A 26x75mm red flare cartridge for the SP-81 flare gun.

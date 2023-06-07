@@ -13,3 +13,5 @@ Sell_Peacekeeper=617
 Sell_Mechanic=92960
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=フェーズドアレイ アンテナの部品
+Information_Jpn=弾道ミサイル早期警戒システムや電子戦で使用される最先端の技術が詰まったフェーズドアレイ アンテナの部品。

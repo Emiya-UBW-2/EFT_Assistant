@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=5.000000
 accuracyModifier=0.000000
+Name_Jpn=P226 Combat pistol grip (FDE)
+Information_Jpn=Brown Flat Dark Earth polymer SIG Sauer grip panels for P226 pistols. Used as the standard service grip on the Combat P226.

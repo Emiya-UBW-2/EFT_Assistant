@@ -49,3 +49,5 @@ cameraRecoil=0.091200
 cameraSnap=3.500000
 deviationMax=30
 convergence=1.100000
+Name_Jpn=Springfield Armory M1A 7.62x51 rifle
+Information_Jpn=M1A is a civilian version of the M14 rifle designed and manufactured by Springfield Armory, Inc. For the most part, it is identical to the M14. The most notable difference is the removal of the M14's fire selector switch, rendering the rifle permanently semi-automatic. The bayonet lug was also removed from the weapon.

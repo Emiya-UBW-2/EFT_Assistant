@@ -39,3 +39,5 @@ Recoil=-10.000000
 Ergonomics=-13.000000
 centerOfImpact=0.038000
 deviationMax=33
+Name_Jpn=Mosin Rifle 7.62x54R 730mm regular barrel
+Information_Jpn=Mosin-Nagantライフル用の標準730mmバレル。

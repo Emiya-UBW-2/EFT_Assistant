@@ -17,3 +17,4 @@ containsItems=[
 	Makarov PM (t) 9x18PM pistolx1/|
 	PM 9x18PM 90-93 8-round magazinex1
 ]
+Name_Jpn=Makarov PM (t) 9x18PM pistol デフォルト

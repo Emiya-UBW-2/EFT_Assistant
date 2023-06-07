@@ -12,3 +12,5 @@ Sell_Fence=1642
 Sell_Jaeger=2463
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=箱入りのクギ
+Information_Jpn=建設作業用の釘が入った箱。いざという時には仮の住まいや寝床、その他の組み立てにも役立つだろう。

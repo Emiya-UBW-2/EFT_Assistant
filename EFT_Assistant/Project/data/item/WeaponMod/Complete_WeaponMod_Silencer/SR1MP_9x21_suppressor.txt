@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-10.000000
 Ergonomics=-15.000000
 accuracyModifier=0.000000
+Name_Jpn=SR-1MP 9x21 sound suppressor
+Information_Jpn=A standard-issue sound suppressor from the SR-1MP pistol kit. Requires a rail mount to be installed on the weapon.

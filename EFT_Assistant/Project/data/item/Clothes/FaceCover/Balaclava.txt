@@ -12,3 +12,5 @@ Sell_Peacekeeper=10
 Sell_Ragman=1605
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=バラクラバ
+Information_Jpn=黒いウールのバラクラバはただ顔を温めるだけではなく、普段は大人しい人々の義憤にも火をつけ、大胆な行動へと走らせる。

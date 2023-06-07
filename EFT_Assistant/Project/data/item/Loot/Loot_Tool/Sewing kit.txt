@@ -12,3 +12,5 @@ Sell_Fence=15200
 Sell_Mechanic=21280
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=ソーイングセット
+Information_Jpn=服の補修をしたり、ファッションの世界で何か新しいものを生み出すために作られた "Krasavchik" のシンプルな裁縫セット。

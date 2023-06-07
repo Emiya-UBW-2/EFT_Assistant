@@ -15,3 +15,5 @@ propertiestype=ItemPropertiesMedicalItem
 useTime=5.000000
 cures=[Fracture]
 uses=1
+Name_Jpn=イモビライジング スプリント
+Information_Jpn=骨折や脱臼をした患部に添えて固定するための一般的な副子。

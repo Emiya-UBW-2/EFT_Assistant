@@ -12,3 +12,5 @@ Sell_Ragman=81809
 Sell_Jaeger=79170
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
+Name_Jpn=5.11 Tactical TacTec plate carrier
+Information_Jpn=A plate carrier with armor plates made of polyethylene (Russian GOST class 5 protection) and a set of pouches for use with assault rifles. Manufactured by 5.11 Tactical.

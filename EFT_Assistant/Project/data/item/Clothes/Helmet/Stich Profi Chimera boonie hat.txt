@@ -12,3 +12,5 @@ Sell_Peacekeeper=12
 Sell_Ragman=1965
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Stich Profi Chimera boonie hat
+Information_Jpn=A boonie hat with artificial camouflage leaves, manufactured by Stich Profi.

@@ -12,3 +12,5 @@ Sell_Fence=1248
 Sell_Skier=1528
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=ストライク シガレット
+Information_Jpn="ストライク" はトレーダーたちにも愛用者が多い人気の銘柄だ。買い取ってもらえるだろう。

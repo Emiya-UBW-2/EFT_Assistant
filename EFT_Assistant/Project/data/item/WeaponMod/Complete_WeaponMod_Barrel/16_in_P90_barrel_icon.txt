@@ -25,3 +25,5 @@ Recoil=-13.000000
 Ergonomics=-13.000000
 centerOfImpact=0.038000
 deviationMax=17
+Name_Jpn=FN P90 5.7x28 16 inch barrel
+Information_Jpn=A 16 inch (407mm) barrel for FN P90 SMG, chambered in 5.7x28mm ammo.

@@ -111,3 +111,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=4.000000
 accuracyModifier=0.000000
+Name_Jpn=HK 416A5 Quad Rail handguard
+Information_Jpn=A quad rail handguard for 416 and compatibles. Comes with four picatinny rails for attaching wide amount of different tactical accessories. Manufactured by Heckler & Koch.

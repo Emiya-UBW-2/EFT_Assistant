@@ -13,3 +13,5 @@ Sell_Peacekeeper=31
 Sell_Mechanic=4645
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=DVDドライブ
+Information_Jpn=電磁石、半導体レーザー、レンズといった部品が取れるPCのDVDドライブは、知識が豊富な人間の手にかかれば、人感センサーやレーザーデジグネーターなど、手の込んだ品を作るための貴重な資源になる。

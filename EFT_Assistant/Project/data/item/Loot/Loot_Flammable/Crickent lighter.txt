@@ -11,3 +11,5 @@ Sell_Fence=528
 Sell_Jaeger=792
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Crickent ライター
+Information_Jpn=Crickent 製の一般的な使い捨てライター。

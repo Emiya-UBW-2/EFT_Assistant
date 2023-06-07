@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-8.000000
 Ergonomics=-3.000000
 accuracyModifier=0.000000
+Name_Jpn=Lantac BMD 7.62x51 Blast Mitigation Device
+Information_Jpn=The BMD Blast Mitigation Device by Lantac is a unique blast shield that allows the muzzle brake contained inside it to continue to function as normal with regard to muzzle climb mitigation. Installed on 7.62x51 caliber weapons.

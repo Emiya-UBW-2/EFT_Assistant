@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=5.000000
 accuracyModifier=0.000000
+Name_Jpn=MPX pistol grip
+Information_Jpn=A polymer MPX pistol grip is fit for installation on the first and second generations of MPX. Manufactured by SIG Sauer.

@@ -9,3 +9,5 @@ weight=0.015000
 Sell_Fence=400
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=9x18mm PM PSV ammo pack (16 pcs)
+Information_Jpn=A cardboard box of 9x18 mm PM PSV cartridges, 16 pieces.

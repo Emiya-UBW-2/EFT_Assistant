@@ -25,3 +25,5 @@ Recoil=-3.000000
 Ergonomics=-4.000000
 centerOfImpact=0.290000
 deviationMax=11
+Name_Jpn=M9A3 9x19 threaded barrel
+Information_Jpn=A standard threaded barrel for the Beretta M9A3 9x19 pistol.

@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=-2.000000
 accuracyModifier=0.000000
+Name_Jpn=Ultrafire WF-501B フラッシュライト
+Information_Jpn=A simple but powerful LED flashlight with a sturdy body, durable enough for long-time daily usage.

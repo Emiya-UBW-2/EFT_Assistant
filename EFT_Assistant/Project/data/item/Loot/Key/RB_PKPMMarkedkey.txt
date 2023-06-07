@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=10
 Map=Reserve
+Name_Jpn=RB-PKPM marked key
+Information_Jpn=A Federal State Reserve Agency base bunker command office room key with multiple strange symbols scratched onto it where the room label would usually be. The key is stained by blood and appears to have been misused a lot, making it fragile.

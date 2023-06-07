@@ -12,3 +12,5 @@ Sell_Fence=884
 Sell_Skier=1082
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=マルボロ シガレット
+Information_Jpn=紙たばこの中でも "マルボロ" は、富裕層の喫煙者に大好評だ。

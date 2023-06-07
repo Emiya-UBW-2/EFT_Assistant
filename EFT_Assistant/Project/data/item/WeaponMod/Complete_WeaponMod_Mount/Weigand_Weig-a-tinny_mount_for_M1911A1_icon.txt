@@ -29,3 +29,5 @@ Conflict=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=M1911A1 Weigand Weig-a-tinny rail mount
+Information_Jpn=The Weig-a-tinny rail mount for the M1911A1 pistol, manufactured by Weigand.

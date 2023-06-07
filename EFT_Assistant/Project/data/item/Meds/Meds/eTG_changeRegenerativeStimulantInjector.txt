@@ -64,3 +64,5 @@ stimEffectsduration=60
 stimEffectsvalue=-5.000000
 stimEffectspercent=FALSE
 stimEffectsSkiilName=Health
+Name_Jpn=eTG-チェンジの注射器
+Information_Jpn=A powerful stimulant for regeneration processes. It is used for rapid recovery of a soldier after injury, or during transportation of heavily wounded personnel. Allowed to be used only by medical officers and paramedics. Has strong side effects.

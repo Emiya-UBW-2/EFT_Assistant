@@ -33,3 +33,5 @@ Recoil=-1.000000
 Ergonomics=-1.000000
 centerOfImpact=0.190000
 deviationMax=23
+Name_Jpn=Mosin Rifle 7.62x54R sawn-off 220mm threaded barrel
+Information_Jpn=A sawn-off 220mm barrel for the Mosin rifle.

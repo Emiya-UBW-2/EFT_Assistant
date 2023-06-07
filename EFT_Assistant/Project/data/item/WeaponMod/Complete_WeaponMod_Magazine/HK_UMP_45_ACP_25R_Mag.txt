@@ -19,3 +19,5 @@ capacity=25
 loadModifier=0.000000
 ammoCheckModifier=0.000000
 malfunctionChance=0.015000
+Name_Jpn=HK UMP .45 ACP 25-round magazine
+Information_Jpn=A standard 25-round .45 ACP magazine for the UMP 45 SMG, manufactured by Heckler & Koch.

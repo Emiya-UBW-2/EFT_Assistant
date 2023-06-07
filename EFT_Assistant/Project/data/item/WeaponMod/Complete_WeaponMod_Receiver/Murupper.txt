@@ -126,3 +126,5 @@ ChildParts=[
 Recoil=-4.000000
 Ergonomics=8.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 Vltor MUR-1S 5.56x45 upper receiver
+Information_Jpn=The MUR-1S modular upper receiver for AR-based weapons, manufactured by Vltor. Fitted with mounts for attaching additional equipment.

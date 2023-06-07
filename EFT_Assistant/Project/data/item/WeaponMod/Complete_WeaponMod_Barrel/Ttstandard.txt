@@ -18,3 +18,5 @@ Recoil=-3.000000
 Ergonomics=-4.000000
 centerOfImpact=0.350000
 deviationMax=11
+Name_Jpn=TT 7.62x25 116mm barrel
+Information_Jpn=TTピストル用標準バレル

@@ -27,3 +27,4 @@ containsItems=[
 	M870 XS SHOTRAIL rail with Ghost Ring rear sightx1/|
 	EOTech XPS3-2 holographic sightx1
 ]
+Name_Jpn=Remington Model 870 12ga pump-action shotgun Breacher

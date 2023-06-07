@@ -13,3 +13,5 @@ Sell_Peacekeeper=0
 Sell_Mechanic=36
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=20/70 "Poleva-6u" slug
+Information_Jpn=A "Poleva-6u" 20/70 FMJ slug shell for 20 gauge shotguns.

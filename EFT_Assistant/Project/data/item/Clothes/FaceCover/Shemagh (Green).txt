@@ -20,3 +20,5 @@ Conflict=[
 	EMERCOM cap/|
 	Police cap
 ]
+Name_Jpn=Shemagh (Green)
+Information_Jpn=世界中のPMCに人気のかぶり物。

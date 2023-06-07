@@ -13,3 +13,5 @@ Sell_Peacekeeper=1
 Sell_Mechanic=90
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=4.6x30mm Subsonic SX
+Information_Jpn=A 4.6x30mm HK Subsonic SX cartridge with a 5 gram copper-plated tungsten alloy core subsonic bullet in a brass case with a reduced charge. The powder load in this subsonic cartridge is adjusted to operate with the MP7 family of submachine guns, ensuring the weapon's fire cycling and achieving excellent noise reduction when used in conjunction with a suppressor, despite its low muzzle velocity, the bullet has ballistic capabilities to pierce basic ballistic body protections and provides excellent results against intermediate protection models, however, due to its design, it has a high bounce probability off various surfaces.

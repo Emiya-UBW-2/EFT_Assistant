@@ -13,3 +13,5 @@ Sell_Peacekeeper=17
 Sell_Mechanic=2615
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=CPU ファン
+Information_Jpn=物資や電化製品が全く足りない状況の中で、CPUファンは手先が器用な者たちに重宝されているようだ。それらを分解して作られた風力発電機で無線機を充電したり、本来は大きくて重い羽根が使われている扇風機や換気扇の代わりに使われていたりする。

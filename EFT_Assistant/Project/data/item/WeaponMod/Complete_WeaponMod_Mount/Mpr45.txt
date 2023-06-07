@@ -27,3 +27,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=NcStar MPR45 バックアップマウント
+Information_Jpn=A universal mount by NcStar that allows installing an auxiliary sight at 45 degrees angle.

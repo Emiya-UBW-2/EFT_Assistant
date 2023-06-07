@@ -19,3 +19,5 @@ ChildParts=[
 Recoil=-5.000000
 Ergonomics=-1.000000
 accuracyModifier=0.030000
+Name_Jpn=HK Prolonged 7.62x51 flash hider
+Information_Jpn=The Heckler & Koch "Prolonged" 7.62x51 flash hider. Effectively suppresses flash and can also serve as a platform for the B&T QD sound suppressor.

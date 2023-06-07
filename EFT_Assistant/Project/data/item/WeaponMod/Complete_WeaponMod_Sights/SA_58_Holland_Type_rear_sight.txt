@@ -17,3 +17,5 @@ Recoil=0.000000
 Ergonomics=0.000000
 SightRange=500
 sightZooms=1.000000
+Name_Jpn=SA-58 Holland Type rear sight
+Information_Jpn=The Holland Type rear sight for SA-58 assault rifle, manufactured by DS Arms.

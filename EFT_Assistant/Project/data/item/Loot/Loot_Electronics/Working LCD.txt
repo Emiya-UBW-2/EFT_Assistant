@@ -13,3 +13,5 @@ Sell_Peacekeeper=141
 Sell_Mechanic=21280
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=液晶パネル
+Information_Jpn=無傷で正常に動作する液晶パネル。監視カメラのモニターとしても使用できる。

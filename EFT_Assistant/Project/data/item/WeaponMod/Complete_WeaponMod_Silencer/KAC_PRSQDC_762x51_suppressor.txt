@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-12.000000
 Ergonomics=-23.000000
 accuracyModifier=-0.020000
+Name_Jpn=KAC PRS/QDC 7.62x51 sound suppressor
+Information_Jpn=Knight's Armament Company PRS QDC sound suppressor, which can be installed on compatible QDC Flash Suppressor Kit and QDC Muzzle Brake Kit muzzle devices.

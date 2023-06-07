@@ -19,3 +19,5 @@ capacity=30
 loadModifier=0.000000
 ammoCheckModifier=0.000000
 malfunctionChance=0.070000
+Name_Jpn=AK-74 5.45x39 6L20 30-round magazine
+Information_Jpn=A 30-round 5.45x39 6L20 Izhmash bakelite magazine, for AK-74 and compatible systems.

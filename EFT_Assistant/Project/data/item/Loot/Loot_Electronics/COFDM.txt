@@ -13,3 +13,5 @@ Sell_Peacekeeper=541
 Sell_Mechanic=81480
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=軍用 COFDM 無線信号送信機
+Information_Jpn=SG-C10は双方向通信が可能な直交周波数分割多重方式の軍用 AV+ データシグナルトランスミッターだ。

@@ -27,3 +27,5 @@ Recoil=-9.000000
 Ergonomics=-16.000000
 centerOfImpact=0.420000
 deviationMax=10
+Name_Jpn=MP-153 12ga 710mm barrel
+Information_Jpn=A standard factory-produced 710mm barrel for MP-153 12 gauge shotguns.

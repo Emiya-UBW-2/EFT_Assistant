@@ -12,3 +12,5 @@ Sell_Peacekeeper=183
 Sell_Ragman=30442
 fleaMarketFee=0
 propertiestype=ItemPropertiesHelmet
+Name_Jpn=MSA ACH TC-2002 MICH Series helmet
+Information_Jpn=MSA アドバンスドコンバットヘルメット（Advanced Combat Helmet, ACH）は、弾丸、爆発の破片、衝撃から頭部を保護し、長時間装着しても快適に活動できるように設計されている。このヘルメットの浅いデザインのおかげで、目標補足の邪魔になりづらく、NVGやヘッドセットと併用できるようになっている。

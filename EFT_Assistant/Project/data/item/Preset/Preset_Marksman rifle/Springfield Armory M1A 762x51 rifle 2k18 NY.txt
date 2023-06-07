@@ -32,3 +32,4 @@ containsItems=[
 	M1A 7.62x51 22 inch barrelx1/|
 	M14 JP Enterprises 7.62x51 Tactical Compensatorx1
 ]
+Name_Jpn=Springfield Armory M1A 7.62x51 rifle 2k18 NY

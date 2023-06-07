@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=The Lab
+Name_Jpn=TerraGroup Labs 保管庫の鍵
+Information_Jpn=TerraGroup Labsにある厳重に管理された保管庫の鍵。

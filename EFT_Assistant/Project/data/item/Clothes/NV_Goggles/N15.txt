@@ -22,3 +22,5 @@ noiseIntensity=0.040000
 noiseScale=2.000000
 diffuseIntensity=0.021000
 intensity=1.800000
+Name_Jpn=Armasight N-15 Night Vision Goggles
+Information_Jpn=Armasight製N-15-NVG両眼暗視装置。軍用のデバイスを民間仕様に転用したもので、小型で取り回しの良い本体に装置が収められている。

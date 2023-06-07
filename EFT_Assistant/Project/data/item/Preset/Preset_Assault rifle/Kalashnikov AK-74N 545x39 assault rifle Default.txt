@@ -25,3 +25,4 @@ containsItems=[
 	AK-74 wooden stock (6P20 Sb.5)x1/|
 	AK-74 5.45x39 6L20 30-round magazinex1
 ]
+Name_Jpn=AK-74N 5.45x39 アサルトライフル デフォルト

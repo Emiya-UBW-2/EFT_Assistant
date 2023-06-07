@@ -95,3 +95,5 @@ ChildParts=[
 Recoil=-1.000000
 Ergonomics=6.000000
 accuracyModifier=0.000000
+Name_Jpn=Mk-18 .338 LM upper receiver
+Information_Jpn=A regular upper receiver for Mk-18 Mod 1 Mjölnir by SWORD International. Fitted with a mount for attaching additional equipment.

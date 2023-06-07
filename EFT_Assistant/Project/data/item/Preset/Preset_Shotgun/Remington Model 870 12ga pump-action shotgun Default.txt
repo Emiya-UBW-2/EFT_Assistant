@@ -21,3 +21,4 @@ containsItems=[
 	M870 12ga 4-shell magazine capx1/|
 	M870 SPS polymer stockx1
 ]
+Name_Jpn=Remington Model 870 12ga pump-action shotgun デフォルト

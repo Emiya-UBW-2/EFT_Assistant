@@ -11,3 +11,5 @@ Sell_Peacekeeper=52
 Sell_Mechanic=7796
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=MS2000 マーカー
+Information_Jpn=戦闘捜索救難で用いられるストロボマーカーライト。IRモードの動作時は特殊なフィルターを通してナイトビジョンゴーグルでのみ視認可能な赤外線の信号を発する。フィルターを外せば肉眼でも視認できる明るい光で点滅し、拡張モードでは青色の閃光を放つ。

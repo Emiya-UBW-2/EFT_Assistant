@@ -19,3 +19,5 @@ capacity=50
 loadModifier=0.400000
 ammoCheckModifier=0.150000
 malfunctionChance=0.256000
+Name_Jpn=M14 7.62x51 X Products X-14 50-round drum magazine
+Information_Jpn=A 50 round 7.62x51 drum NATO magazine for the M14 rifle. Manufactured by X Products.

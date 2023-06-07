@@ -12,3 +12,5 @@ Sell_Ragman=13282
 Sell_Jaeger=12853
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
+Name_Jpn=UMTBS 6sh112スカウトスナイパー ベスト
+Information_Jpn=The Universal Modular Transport-Combat System (UMTBS) "Scout-sniper" is officially part of the equipment of the armed forces of the Russian Federation. The vest is designed with a modular approach and can be transformed to suit various specific combat tasks. This system includes the vest base, various purpose pouches, and backpacks. Due to the fact that the vest is based on the MOLLE system, it can be used with various compatible pouches beyond those included with the kit. The belt system has soft bumper pads, and its inside is made from breathable materials.

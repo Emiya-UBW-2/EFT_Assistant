@@ -50,3 +50,5 @@ Recoil=-9.000000
 Ergonomics=-6.000000
 centerOfImpact=0.042000
 deviationMax=23
+Name_Jpn=MDR 5.56x45 16 inch barrel
+Information_Jpn=A 16 inch (406mm) barrel for MDR based weapons for 5.56x45 NATO ammo.

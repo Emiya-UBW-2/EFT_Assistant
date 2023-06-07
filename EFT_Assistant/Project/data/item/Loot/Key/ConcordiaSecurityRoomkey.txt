@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Streets of Tarkov
+Name_Jpn=Concordia security room key
+Information_Jpn=A key to the security room inside the Concordia building.

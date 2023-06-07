@@ -20,3 +20,5 @@ ChildParts=[
 Recoil=-30.000002
 Ergonomics=10.000000
 accuracyModifier=0.000000
+Name_Jpn=AKS-74U metal skeleton stock (6P26 Sb.5)
+Information_Jpn=AKS-74U/AKS-74UN/AKS-74UB用 Izhmash製 メタルスケルトンストック。

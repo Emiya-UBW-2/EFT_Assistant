@@ -10,3 +10,5 @@ Sell_Therapist=5544
 Sell_Fence=3520
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=トイレットペーパー
+Information_Jpn=清潔で柔らかなダブルのトイレットペーパー。この暗黒時代に残された宝物だ。

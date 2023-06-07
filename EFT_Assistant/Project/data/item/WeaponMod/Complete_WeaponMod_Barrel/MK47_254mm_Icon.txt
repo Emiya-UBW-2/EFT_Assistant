@@ -56,3 +56,5 @@ Recoil=-2.000000
 Ergonomics=-7.000000
 centerOfImpact=0.076000
 deviationMax=21
+Name_Jpn=Mk47 254mm barrel
+Information_Jpn=A 254mm long barrel for the CMMG Mk47 Mutant assault rifle, chambered in 7.62x39mm.

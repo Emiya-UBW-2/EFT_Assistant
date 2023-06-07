@@ -11,3 +11,5 @@ Sell_Fence=1192
 Sell_Jaeger=1788
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink
+Name_Jpn=エメリャ ライ麦クルトン
+Information_Jpn=今となってはタルコフで子供の姿や映画を目にする機会はなくなってしまったが、様々な味を揃えたエメリャ ライ麦クルトンは子供たちや "冷えたビールを飲みながら映画を楽しむ" 大人たちにとってお気に入りのスナックだった。

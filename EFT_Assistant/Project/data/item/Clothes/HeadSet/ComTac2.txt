@@ -11,3 +11,5 @@ Sell_Skier=18644
 Sell_Ragman=23591
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Peltor ComTac 2 ヘッドセット
+Information_Jpn=The ComTac 2 amplifies low-level sounds while suppressing impulse noises. Water resistant for outdoor usage. Manufactured by Peltor.

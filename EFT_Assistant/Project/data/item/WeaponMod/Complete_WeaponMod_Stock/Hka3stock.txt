@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-33.000000
 Ergonomics=7.000000
 accuracyModifier=0.000000
+Name_Jpn=HK MP5 A3 old model stock
+Information_Jpn=A standard retractable stock for old versions of the MP5A3 submachine gun manufactured by Heckler & Koch.

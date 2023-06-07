@@ -11,3 +11,5 @@ Sell_Fence=1364
 Sell_Jaeger=2047
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink
+Name_Jpn=グランジュース
+Information_Jpn="贅沢" なグレープフルーツジュース。苦みのある人生を求める人にうってつけな飲み物。

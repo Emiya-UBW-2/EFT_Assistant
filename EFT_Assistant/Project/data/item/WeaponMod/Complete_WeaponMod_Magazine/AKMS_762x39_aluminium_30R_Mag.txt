@@ -19,3 +19,5 @@ capacity=30
 loadModifier=-0.050000
 ammoCheckModifier=-0.050000
 malfunctionChance=0.040000
+Name_Jpn=AKMS 7.62x39 aluminium 30-round magazine
+Information_Jpn=A 30-round aluminum magazine for 7.62x39 AKMS and compatibles, nicknamed “Airborne”. Made of light aluminum alloy and reinforced by additional ribs. It's quite a rarity, as it was never in mass production. Can also be supplied with .366 TKM ammo for use with the corresponding caliber AK-compatible weapons.

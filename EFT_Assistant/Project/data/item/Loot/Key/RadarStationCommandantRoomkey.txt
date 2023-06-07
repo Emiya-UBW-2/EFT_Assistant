@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Lighthouse
+Name_Jpn=Radar station commandant room key
+Information_Jpn=A key that opens the radar station commandant office room, located somewhere on the Lighthouse peninsula territory.

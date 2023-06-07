@@ -13,3 +13,5 @@ Sell_Peacekeeper=0
 Sell_Mechanic=43
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=23x75mm "Shrapnel-10" buckshot
+Information_Jpn=A 23x75mmR "Shrapnel-10" buckshot round with a rated maximum effective range of 10 meters.

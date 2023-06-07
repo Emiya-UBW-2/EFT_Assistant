@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=6.000000
 accuracyModifier=0.000000
+Name_Jpn=P226 polymer pistol grip (Black)
+Information_Jpn=Standard black polymer SIG Sauer side grip panels for the P226 pistols. Manufacturer Part Code: GRIP226BLKPOL.

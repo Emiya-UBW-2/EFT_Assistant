@@ -11,3 +11,5 @@ Sell_Fence=971
 Sell_Jaeger=1457
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink
+Name_Jpn=アイスグリーンティー
+Information_Jpn=甘味料入りの緑茶。冷やして飲むのがおすすめ。

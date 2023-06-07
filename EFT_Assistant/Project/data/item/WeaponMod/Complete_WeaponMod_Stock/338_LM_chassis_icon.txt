@@ -25,3 +25,5 @@ ChildParts=[
 Recoil=-1.000000
 Ergonomics=4.000000
 accuracyModifier=0.000000
+Name_Jpn=AI AXMC .338 LM chassis
+Information_Jpn=The factory fitted .338 Lapua Magnum chassis for the AXMC sniper rifle, manufactured by Accuracy International.

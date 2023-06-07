@@ -21,3 +21,5 @@ Conflict=[
 Recoil=-7.000000
 Ergonomics=-19.000000
 accuracyModifier=0.000000
+Name_Jpn=AK-74 Hexagon Wafflemaker 5.45x39 sound suppressor
+Information_Jpn=The "Wafflemaker" prototype sound suppressor manufactured by Hexagon, designed for installation on the Hexagon "Reactor" muzzle brake.

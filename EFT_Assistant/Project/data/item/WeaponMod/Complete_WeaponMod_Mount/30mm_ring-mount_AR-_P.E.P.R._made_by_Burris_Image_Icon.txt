@@ -41,3 +41,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=Burris AR-P.E.P.R. 30mm ring scope mount
+Information_Jpn=The Burris P.E.P.R. universal 30mm scope base mount for installation on Picatinny rails.

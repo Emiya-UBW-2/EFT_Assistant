@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=2.000000
 accuracyModifier=0.000000
+Name_Jpn=Glock ZEV Tech sight mount cap
+Information_Jpn=A protective steel cap covering the mount for reflex sights, manufactured by ZEV Technologies.

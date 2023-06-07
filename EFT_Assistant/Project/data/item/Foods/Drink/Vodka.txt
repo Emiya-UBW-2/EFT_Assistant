@@ -12,3 +12,5 @@ Sell_Fence=10000
 Sell_Jaeger=15000
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink
+Name_Jpn=タルコフスカヤ ウォッカ
+Information_Jpn=いわゆる "タルコフの火酒" 。基本的に飲用はお勧めできないし、言うまでもなくアルコールは有害だ。だが時には戦闘後の息抜きが必要なこともある。そんな時はこれを飲めばいい。エリア51に侵入しなくてもエイリアンに会えるだろう。

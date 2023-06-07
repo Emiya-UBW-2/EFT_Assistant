@@ -19,3 +19,5 @@ capacity=20
 loadModifier=0.000000
 ammoCheckModifier=0.000000
 malfunctionChance=0.035000
+Name_Jpn=SR-2M 9x21 20-round magazine
+Information_Jpn=A standard 20-round capacity magazine for SR-2M "Veresk", manufactured by TsNIItochmash.

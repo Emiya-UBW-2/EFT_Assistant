@@ -13,3 +13,5 @@ Sell_Peacekeeper=1
 Sell_Mechanic=87
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=5.7x28mm R37.X
+Information_Jpn=A 5.7x28mm FN R37.X cartridge with a 2.4 gram open tipped bullet made entirely of copper, in a brass case; produced by R&R Weapon Systems. The bullet is designed to expand upon impact, turning the bullet tip into a three-pointed star shape whose petals are razor sharp, granting an outstanding stopping power effect as well as causing substantial adverse effects on the target after impact, at the cost of penetration capabilities, even against basic ballistic protection.

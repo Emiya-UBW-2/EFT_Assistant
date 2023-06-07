@@ -39,3 +39,5 @@ cameraRecoil=0.192000
 cameraSnap=3.500000
 deviationMax=33
 convergence=1.900000
+Name_Jpn=Molot VPO-215 "Gornostay" .366 TKM bolt-action rifle
+Information_Jpn=VPO-215 "Gornostay" ("Ermine") is a Russian-made bolt-action rifle designed for hunting and sport shooting, manufactured by Molot Arms. Chambered in .366 TKM ammo.

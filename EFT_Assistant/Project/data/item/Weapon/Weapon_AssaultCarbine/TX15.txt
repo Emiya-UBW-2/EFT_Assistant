@@ -110,3 +110,5 @@ cameraRecoil=0.067200
 cameraSnap=3.500000
 deviationMax=23
 convergence=1.600000
+Name_Jpn=Lone Star TX-15 DML 5.56x45 carbine
+Information_Jpn=The Lone Star Armory TX15 Designated Marksman Light (DML) is a high precision civilian rifle designed on the AR-15 system base, chambered in 5.56x45 rounds.

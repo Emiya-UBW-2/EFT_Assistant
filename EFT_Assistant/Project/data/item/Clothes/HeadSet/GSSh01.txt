@@ -11,3 +11,5 @@ Sell_Skier=7867
 Sell_Ragman=9954
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=GSSh-01 アクティブヘッドセット
+Information_Jpn=The GSSh-01 headset is used in the Russian Ratnik military gear set.

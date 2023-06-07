@@ -12,3 +12,5 @@ Sell_Fence=14000
 Sell_Mechanic=19600
 fleaMarketFee=0
 propertiestype=
+Name_Jpn="Master" ヤスリ セット
+Information_Jpn=種類の違う小型のヤスリを揃えたセット。ロシアのガンスミスが "ヤスリング" と呼ばれる黒魔術の儀式を行う際には欠かせないものだ。まあ嘘だが。

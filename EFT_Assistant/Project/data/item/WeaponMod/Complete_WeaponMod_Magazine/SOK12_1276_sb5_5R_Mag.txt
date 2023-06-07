@@ -19,3 +19,5 @@ capacity=5
 loadModifier=-0.150000
 ammoCheckModifier=0.000000
 malfunctionChance=0.010000
+Name_Jpn=SOK-12 12/76 sb.5 5-round magazine
+Information_Jpn=A 5-round Sb.5 polymer plastic magazine for the SOK-12 and compatible weapons, intended for use with 12/76 or 12/70 shells.

@@ -38,3 +38,5 @@ Conflict=[
 Recoil=-3.000000
 Ergonomics=14.000000
 accuracyModifier=0.000000
+Name_Jpn=AK Hexagon tubular handguard
+Information_Jpn=A tubular handguard for AK family automatic rifles, manufactured by Hexagon.

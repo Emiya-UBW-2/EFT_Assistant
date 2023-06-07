@@ -19,3 +19,5 @@ capacity=25
 loadModifier=0.000000
 ammoCheckModifier=0.000000
 malfunctionChance=0.030000
+Name_Jpn=MP9 9x19 25-round magazine
+Information_Jpn=A standard 25-round capacity polymer magazine for MP9-based SMGs, manufactured by Brügger & Thomet.

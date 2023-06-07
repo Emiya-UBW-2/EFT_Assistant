@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-1.500000
 Ergonomics=8.000000
 accuracyModifier=0.000000
+Name_Jpn=Fortis Shift タクティカルグリップ
+Information_Jpn=The Shift vertical grip integrates form with functionality. Its hybrid-designed shape works both as a regular foregrip and as a comfortable hand stop when going with the thumb over bore method. The grip allows you to handle the weapon with the confidence, and the organic design enables the operator to manipulate the rifle in a way that’s most comfortable at any given moment.

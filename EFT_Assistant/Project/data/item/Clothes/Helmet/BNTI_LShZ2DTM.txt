@@ -12,3 +12,5 @@ Sell_Peacekeeper=367
 Sell_Ragman=61132
 fleaMarketFee=0
 propertiestype=ItemPropertiesHelmet
+Name_Jpn=BNTI LShZ-2DTM helmet
+Information_Jpn=The LShZ-2DTM helmet is intended for periodic wearing with the purpose of protection from bullets of small arms of a user’s head, as well as for protection from bullets of small arms of a user’s face and neck when equipped with a visor and aventail.

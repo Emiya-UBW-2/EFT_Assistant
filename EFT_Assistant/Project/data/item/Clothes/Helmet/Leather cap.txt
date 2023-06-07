@@ -12,3 +12,5 @@ Sell_Peacekeeper=15
 Sell_Ragman=2480
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Leather cap
+Information_Jpn=A respected gentleman's headdress. Protects the head from slander.

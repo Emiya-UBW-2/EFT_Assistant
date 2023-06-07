@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=12.000000
 accuracyModifier=0.000000
+Name_Jpn=AK Zenit RK-3 pistol grip
+Information_Jpn=The RK-3 Klassika anatomic pistol grip features a built-in hermetically sealed battery storage compartment and is designed for installation as a replacement for the standard AK pistol grip. ©Zenit

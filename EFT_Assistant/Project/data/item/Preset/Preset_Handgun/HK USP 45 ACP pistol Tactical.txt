@@ -27,3 +27,4 @@ containsItems=[
 	HK USP slide lockx1/|
 	HK USP rail adapterx1
 ]
+Name_Jpn=HK USP .45 ACP pistol Tactical

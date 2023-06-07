@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-12.000000
 Ergonomics=-1.000000
 accuracyModifier=0.020000
+Name_Jpn=TACCOM Carbine Brake multi-caliber muzzle brake
+Information_Jpn=TACCOM製のSIG MPX用の"Carbine brake" マズルブレーキ。.308弾を使用するライフルにも装着できる。

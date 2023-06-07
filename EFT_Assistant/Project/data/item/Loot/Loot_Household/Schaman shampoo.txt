@@ -10,3 +10,5 @@ Sell_Therapist=4410
 Sell_Fence=2800
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=シャーマン シャンプー
+Information_Jpn=洗髪用のシャンプー "シャーマン"。メロン、バーベキュー、バス停の匂いを合わせたような香りだ。

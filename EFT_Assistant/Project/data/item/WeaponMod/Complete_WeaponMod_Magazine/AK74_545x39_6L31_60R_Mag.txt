@@ -19,3 +19,5 @@ capacity=60
 loadModifier=0.850000
 ammoCheckModifier=0.200000
 malfunctionChance=0.299000
+Name_Jpn=AK-74 5.45x39 6L31 60-round magazine
+Information_Jpn=A 60-round 5.45x39 quad-stack polymer Izhmash 6L31 magazine for AK-74 and compatible systems. Produced in a small batch, never serialized.

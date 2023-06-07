@@ -15,3 +15,5 @@ propertiestype=ItemPropertiesArmorAttachment
 Conflict=[
 	Respirator
 ]
+Name_Jpn=Ops-Core FAST Gunsight Mandible
+Information_Jpn=An additional armor module for the Ops-Core FAST helmet, mounted on the Side Armor component.

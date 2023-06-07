@@ -19,3 +19,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=AK-545 SAG Mk. 2.1 gas tube
+Information_Jpn=The Mk. 2.1 gas tube for AK-545 carbines manufactured by Sureshot Armament Group.

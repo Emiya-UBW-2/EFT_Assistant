@@ -82,3 +82,5 @@ Conflict=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=Zenit B-13V "Klassika" dovetail rail platform
+Information_Jpn=The B-13V rail platform is designed to mount on the Dovetail rail on the receiver. Designed for installation on PP-19-01 Vityaz-SN, but can also be installed on any Dovetail receiver weapons. Manufactured by Zenit.

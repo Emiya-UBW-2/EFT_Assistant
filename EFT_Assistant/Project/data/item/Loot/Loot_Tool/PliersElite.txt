@@ -12,3 +12,5 @@ Sell_Fence=11600
 Sell_Mechanic=16240
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Elite ペンチ
+Information_Jpn=ワイヤーを掴んだり、動かしたり、切断するための高品質なペンチ。

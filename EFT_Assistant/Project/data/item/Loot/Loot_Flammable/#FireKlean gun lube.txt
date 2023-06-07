@@ -11,3 +11,5 @@ Sell_Fence=14571
 Sell_Jaeger=21856
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=#FireKlean ガンオイル
+Information_Jpn="FireKlean" は、世界で最も高品質な銃の潤滑剤のひとつだ。別の使い方もあるけどな！

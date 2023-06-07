@@ -18,3 +18,5 @@ Ergonomics=-4.000000
 SightRange=300
 sightZooms=1.000000
 sightZooms=1.000000
+Name_Jpn=Holosun HS401G5 リフレックスサイト
+Information_Jpn=The HS401G5 reflex sight whith a built-in laser designator, manufactured by Holosun.

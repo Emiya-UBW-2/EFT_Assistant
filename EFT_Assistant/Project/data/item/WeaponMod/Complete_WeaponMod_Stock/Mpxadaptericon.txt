@@ -35,3 +35,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-2.000000
 accuracyModifier=0.000000
+Name_Jpn=MPX/MCX retractable stock pipe adapter
+Information_Jpn=An adapter for attaching telescopic tube stocks to the rail mount, manufactured by SIG Sauer.

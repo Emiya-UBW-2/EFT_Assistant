@@ -12,3 +12,5 @@ Sell_Fence=14200
 Sell_Jaeger=21301
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=シュストリロ シーリングフォーム
+Information_Jpn=専用のウレタンガンに装着して使用する発泡ウレタンフォーム。出力、耐久性、安定性など、様々な点で高い品質を誇る "シュストリロ" の製品は、優れた成果も保証してくれる。

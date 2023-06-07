@@ -15,3 +15,5 @@ propertiestype=ItemPropertiesMedicalItem
 useTime=3.000000
 cures=[HeavyBleeding]
 uses=1
+Name_Jpn=CAT ターニケット
+Information_Jpn=CAT "キャット" (Combat Application Tourniquet) は、受傷した腕や脚の血流を止めることで失血を防ぐ止血帯だ。強度の高いバックルを使用しており、ロッドを使用することで素早く適切な強さで締め付けることができる仕組みになっている。

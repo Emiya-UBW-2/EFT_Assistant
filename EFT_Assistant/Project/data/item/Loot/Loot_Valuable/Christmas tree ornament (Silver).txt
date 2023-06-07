@@ -12,3 +12,5 @@ Sell_Skier=4900
 Sell_Peacekeeper=37
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=クリスマスツリーの飾り (シルバー)
+Information_Jpn=クリスマスツリーに吊るして飾るための銀色の玉の装飾品。

@@ -13,3 +13,5 @@ Sell_Peacekeeper=231
 Sell_Mechanic=34720
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=軍用ジャイロタコメーター
+Information_Jpn=軍用車両に使用される角速度を測定するための装置。

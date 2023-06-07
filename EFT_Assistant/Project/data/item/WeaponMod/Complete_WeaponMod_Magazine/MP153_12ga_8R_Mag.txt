@@ -19,3 +19,5 @@ capacity=8
 loadModifier=0.000000
 ammoCheckModifier=0.000000
 malfunctionChance=0.100000
+Name_Jpn=MP-153 12ga 8-shell magazine
+Information_Jpn=An 8-shell magazine extension tube for MP-153 12 gauge shotguns.

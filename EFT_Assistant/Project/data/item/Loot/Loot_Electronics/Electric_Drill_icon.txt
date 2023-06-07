@@ -13,3 +13,5 @@ Sell_Peacekeeper=123
 Sell_Mechanic=18448
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=電動ドリル
+Information_Jpn=コードレスの電動ドリル。建築工事や家具の設置、修理などに使用される。

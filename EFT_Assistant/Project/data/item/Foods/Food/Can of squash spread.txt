@@ -11,3 +11,5 @@ Sell_Fence=6467
 Sell_Jaeger=9700
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink
+Name_Jpn=スカッシュスプレッドの缶詰
+Information_Jpn=数種類の野菜をペースト状にしたスカッシュスプレッドの缶詰。どんな料理にも合う逸品。ビタミンやミネラルも豊富に含まれている。

@@ -12,3 +12,5 @@ Sell_Ragman=133300
 Sell_Jaeger=129000
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
+Name_Jpn=Crye Precision AVS plate carrier (Tagilla Edition)
+Information_Jpn=Tagilla's well-worn plate carrier based on the AVS module system by Crye Precision. It has one front panel with three attached pouches. And that's pretty much it. Nothing more, nothing less.

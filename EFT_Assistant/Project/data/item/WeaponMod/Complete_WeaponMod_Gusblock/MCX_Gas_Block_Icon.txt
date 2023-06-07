@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-3.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=MCX gas block
+Information_Jpn=A gas block designed for the MCX assault rifles, manufactured by SIG Sauer.

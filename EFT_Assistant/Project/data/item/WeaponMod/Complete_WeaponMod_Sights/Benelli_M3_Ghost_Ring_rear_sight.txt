@@ -17,3 +17,5 @@ Recoil=0.000000
 Ergonomics=0.000000
 SightRange=600
 sightZooms=1.000000
+Name_Jpn=Benelli M3 Ghost Ring rear sight
+Information_Jpn=A Ghost Ring type rear sight for M3 S90 shotguns, manufactured by Benelli.

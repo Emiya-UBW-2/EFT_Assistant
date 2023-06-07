@@ -20,3 +20,5 @@ ChildParts=[
 Recoil=-30.000002
 Ergonomics=8.000000
 accuracyModifier=0.000000
+Name_Jpn=Magpul MOE Carbine stock (Foliage Green)
+Information_Jpn=A drop-in replacement buttstock for AR-15/M16 carbines by Magpul Original Equipment. Uses mil-spec sized receiver extension tubes. Frame profile avoids snagging and shields the release latch to prevent accidental activation, includes a standard 0.30" thick rubber butt-pad to prevent slippage even with body armor or modular gear. Foliage Green version.

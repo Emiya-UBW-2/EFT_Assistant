@@ -13,3 +13,5 @@ Sell_Mechanic=184800
 Sell_Jaeger=198000
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=6-STEN-140-M 軍用バッテリー
+Information_Jpn=大容量の戦車用バッテリー。軍の規格に基づいた電気装置だ。

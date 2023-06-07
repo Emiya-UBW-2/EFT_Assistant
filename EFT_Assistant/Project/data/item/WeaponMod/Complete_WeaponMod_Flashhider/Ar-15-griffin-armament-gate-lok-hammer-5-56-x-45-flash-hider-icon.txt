@@ -19,3 +19,5 @@ ChildParts=[
 Recoil=-8.500000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 Griffin Armament Gate-LOK Hammer 5.56x45 flash hider
+Information_Jpn=The Gate-LOK Hammer reduces recoil and ensures the maximum service life of the suppressor. Manufactured by Griffin Armament.

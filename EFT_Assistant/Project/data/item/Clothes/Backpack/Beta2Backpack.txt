@@ -11,3 +11,5 @@ Sell_Ragman=36181
 Sell_Jaeger=35014
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
+Name_Jpn=ANA Tactical Beta 2 Battle backpack
+Information_Jpn=A lightweight and capacious backpack from ANA Tactical. Specially designed for use in dynamic conditions and on rough terrain.

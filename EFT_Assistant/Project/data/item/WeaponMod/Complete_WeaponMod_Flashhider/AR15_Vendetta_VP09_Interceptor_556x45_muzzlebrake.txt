@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-9.000000
 Ergonomics=-2.000000
 accuracyModifier=0.040000
+Name_Jpn=AR-15 Vendetta Precision VP-09 Interceptor 5.56x45 muzzle brake
+Information_Jpn=A muzzle brake developed by Vendetta Precision specifically for the civilian market. Crafted from corrosion resistant titanium and protected by an Altin PVD coating, the Vendetta Precision VP-09 Interceptor is the perfect combination of looks and reliability.

@@ -53,3 +53,5 @@ Recoil=0.000000
 Ergonomics=0.000000
 SightRange=600
 sightZooms=1.000000
+Name_Jpn=AR-15 Colt A2 rear sight
+Information_Jpn=着脱可能なColt A2リアサイト。M4A1に標準装備されている。

@@ -46,3 +46,5 @@ Conflict=[
 Recoil=-4.000000
 Ergonomics=10.000000
 accuracyModifier=0.000000
+Name_Jpn=AK Vltor CMRD KeyMod handguard
+Information_Jpn=The CMRD lightweight handguard by Vltor, compatible with AK-74 and AKM series automatic rifles. Includes KeyMod slots for rail installation.

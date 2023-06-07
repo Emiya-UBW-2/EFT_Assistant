@@ -27,3 +27,4 @@ containsItems=[
 	AKMS 7.62x39 aluminium 30-round magazinex1/|
 	AKMP system front sight devicex1
 ]
+Name_Jpn=AKMS 7.62x39 アサルトライフル (AKMSP)

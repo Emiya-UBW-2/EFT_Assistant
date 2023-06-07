@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-6.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=PP-19-01 "Vityaz" 9x19 muzzle brake-compensator
+Information_Jpn=A standard muzzle brake/compensator made by Izhmash for PP-19-01 Vityaz 9x19 SMG.

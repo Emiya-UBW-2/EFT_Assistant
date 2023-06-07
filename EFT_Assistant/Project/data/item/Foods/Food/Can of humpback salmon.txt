@@ -11,3 +11,5 @@ Sell_Fence=3942
 Sell_Jaeger=5914
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink
+Name_Jpn=カラフトマスの缶詰
+Information_Jpn=カラフトマスの缶詰。脂肪酸やナイアシンがたっぷり含まれた美味しい栄養源だ。

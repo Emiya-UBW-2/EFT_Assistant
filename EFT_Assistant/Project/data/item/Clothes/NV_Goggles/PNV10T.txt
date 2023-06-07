@@ -22,3 +22,5 @@ noiseIntensity=0.050000
 noiseScale=1.000000
 diffuseIntensity=0.020000
 intensity=2.000000
+Name_Jpn=PNV-10T Night Vision Goggles
+Information_Jpn=PNV-10T are pseudo-binocular night vision googles of the second generation. A widespread and popular device of low-price category among hunters and fans of tactical military games.

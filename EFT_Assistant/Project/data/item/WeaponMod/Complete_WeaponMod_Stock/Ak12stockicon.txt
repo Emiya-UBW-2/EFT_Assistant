@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-30.000002
 Ergonomics=3.000000
 accuracyModifier=0.000000
+Name_Jpn=AK-12 stock
+Information_Jpn=A standard-issue telescopic stock for AK-12 automatic rifles, manufactured by Izhmash.

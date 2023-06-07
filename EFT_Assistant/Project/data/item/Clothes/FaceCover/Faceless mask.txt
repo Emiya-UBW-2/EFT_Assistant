@@ -84,3 +84,5 @@ Conflict=[
 	Jack-o'-lantern tactical pumpkin helmet/|
 	Beanie
 ]
+Name_Jpn=Faceless mask
+Information_Jpn=A scary mask from some famous animated movie.

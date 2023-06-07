@@ -12,3 +12,5 @@ Sell_Peacekeeper=222
 Sell_Ragman=36941
 fleaMarketFee=0
 propertiestype=ItemPropertiesHelmet
+Name_Jpn=HighCom Striker ACHHC IIIA helmet (Black)
+Information_Jpn=A combat helmet manufactured by HighCom, the High Cut version. Does not feature any additional mounts. Black version.

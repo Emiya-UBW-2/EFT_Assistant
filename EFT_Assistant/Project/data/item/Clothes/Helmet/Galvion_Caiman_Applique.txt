@@ -12,3 +12,5 @@ Sell_Peacekeeper=224
 Sell_Ragman=37386
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=Galvion Caiman Hybrid Ballistic Applique
+Information_Jpn=Caiman Hybridヘルメットの上から装着し銃弾や破片への防御力を上昇・向上させることができる追加装甲アタッチメント

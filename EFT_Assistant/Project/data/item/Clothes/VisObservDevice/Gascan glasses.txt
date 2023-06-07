@@ -12,3 +12,5 @@ Sell_Peacekeeper=21
 Sell_Ragman=3472
 fleaMarketFee=0
 propertiestype=ItemPropertiesGlasses
+Name_Jpn=Gascan グラス
+Information_Jpn=バリスティックシューティンググラス。着用者の目を守ると同時に、格好もよくなる。

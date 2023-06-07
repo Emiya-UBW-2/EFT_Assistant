@@ -13,3 +13,5 @@ Sell_Peacekeeper=0
 Sell_Mechanic=33
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=7.62x39mm HP
+Information_Jpn=A 7.62x39mm cartridge with an 8 gram lead core hollow-point (HP) bullet with a bimetallic semi-jacket in a steel case; intended for hunting, home defense, and target practice. The bullet in this cartridge has an excellent expansion and impact energy that give it outstanding stopping power effects, as well as being able to cause substantial adverse effects on the target after impact, making it a good choice for hunting.

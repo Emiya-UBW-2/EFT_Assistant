@@ -28,3 +28,4 @@ containsItems=[
 	SVDS rear sightx1/|
 	SVDS dust coverx1
 ]
+Name_Jpn=SVDS 7.62x54R sniper rifle デフォルト

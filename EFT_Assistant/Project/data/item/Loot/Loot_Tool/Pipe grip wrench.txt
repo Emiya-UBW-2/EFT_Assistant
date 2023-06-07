@@ -12,3 +12,5 @@ Sell_Fence=52800
 Sell_Mechanic=73920
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=パイプグリップレンチ
+Information_Jpn=継手の組み付けや分解、摩耗した部品の交換、ケーシングパイプの締め付けなどに使用されるグリップレンチ。

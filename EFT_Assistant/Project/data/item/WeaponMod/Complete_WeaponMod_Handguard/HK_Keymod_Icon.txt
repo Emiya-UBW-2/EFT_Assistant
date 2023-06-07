@@ -76,3 +76,5 @@ ChildParts=[
 Recoil=-3.000000
 Ergonomics=6.000000
 accuracyModifier=0.000000
+Name_Jpn=HK 416A5 MRS KeyMod 14 inch handguard
+Information_Jpn=The HK MRS KeyMod handguard for 416A5 equipped with a KeyMod interface for the installation of additional devices and accessories.

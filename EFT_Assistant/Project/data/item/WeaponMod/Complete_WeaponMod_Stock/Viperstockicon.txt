@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-30.000002
 Ergonomics=11.000000
 accuracyModifier=0.000000
+Name_Jpn=Strike Industries Viper Mod 1 stock
+Information_Jpn=The Viper Mod 1 telescopic stock designed and produced by Strike Industries. The stock is made for the AR-15 platforms and will fit on all Mil-Spec dimension receiver extension tubes. The stock has been redesigned to achieve a lighter and a more compact design.

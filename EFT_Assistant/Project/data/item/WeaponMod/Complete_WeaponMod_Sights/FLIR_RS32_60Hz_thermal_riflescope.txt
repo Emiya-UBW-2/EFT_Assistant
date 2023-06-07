@@ -19,3 +19,5 @@ Ergonomics=-11.000000
 SightRange=500
 sightZooms=2.250000
 sightZooms=9.000000
+Name_Jpn=FLIR RS-32 2.25-9x 35mm 60Hz サーマルライフルスコープ
+Information_Jpn=A versatile thermal imaging telescope/sight with many uses and advantages. It can be installed on weapons for use as a sight, or on the helmet as a monocular via an adapter, or as a separate observation device.

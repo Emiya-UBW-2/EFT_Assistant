@@ -18,3 +18,5 @@ hitpoints=400
 maxHealPerUse=85
 hpCostLightBleeding=45
 hpCostHeavyBleeding=175
+Name_Jpn=Salewa ファーストエイドキット
+Information_Jpn=ビビィ素材の収納袋に入ったファーストエイドキット。様々な種類の包帯や医療用品、器具などが入っている。

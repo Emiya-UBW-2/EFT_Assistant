@@ -74,3 +74,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=AK Zenit B-12 Mount
+Information_Jpn=The B-12 gas tube overhanging rail mount is installed on the side rail of the B-11 or B-10 handguards and provides a weapon with means of installing a complex of sights and tactical devices by forming rail mounts over the weapon's gas tube and on the side of the handguard. Manufactured by Zenit.

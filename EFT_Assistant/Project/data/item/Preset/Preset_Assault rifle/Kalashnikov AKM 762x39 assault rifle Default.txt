@@ -25,3 +25,4 @@ containsItems=[
 	AKM wooden stock (6P1 Sb.5)x1/|
 	AK 7.62x39 30-round magazine (issued '55 or later)x1
 ]
+Name_Jpn=AKM 7.62x39 アサルトライフル デフォルト

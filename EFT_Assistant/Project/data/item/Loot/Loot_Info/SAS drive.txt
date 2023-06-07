@@ -10,3 +10,5 @@ Sell_Fence=36800
 Sell_Peacekeeper=342
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=SAS ドライブ
+Information_Jpn=補強されたケースに入った SAS ハードドライブ。軍需産業の記憶装置として使用されていた。

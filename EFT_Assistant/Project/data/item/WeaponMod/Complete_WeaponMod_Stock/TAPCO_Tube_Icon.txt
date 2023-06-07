@@ -44,3 +44,5 @@ ChildParts=[
 Recoil=-1.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=SKS TAPCO Intrafuse buffer tube
+Information_Jpn=An AR-15-styled Mil-Spec buffer tube designed for the Intrafuse SKS stock system, manufactured by TAPCO.

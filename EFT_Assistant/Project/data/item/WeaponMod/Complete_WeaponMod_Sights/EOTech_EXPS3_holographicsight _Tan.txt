@@ -17,3 +17,5 @@ Recoil=0.000000
 Ergonomics=-2.000000
 SightRange=200
 sightZooms=1.000000
+Name_Jpn=EOTech EXPS3 holographic sight (Tan)
+Information_Jpn=The EOTech EXPS3 holographic sight. Thanks to design features it can be used with a wide range of weapons, even with non-folding sights. Compatible with night vision devices by means of the NV reticle mode. Utilized by US SOCOM as a sight for operations in confined spaces.

@@ -19,3 +19,5 @@ capacity=10
 loadModifier=0.000000
 ammoCheckModifier=0.000000
 malfunctionChance=0.030000
+Name_Jpn=5.56x45 Magpul PMAG 10 GEN M3 STANAG 10-round magazine
+Information_Jpn=A 10-round polymer Magpul PMAG GEN M3 10 magazine, for 5.56x45 ammunition.

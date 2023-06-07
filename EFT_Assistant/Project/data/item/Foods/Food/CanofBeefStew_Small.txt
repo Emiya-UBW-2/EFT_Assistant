@@ -11,3 +11,5 @@ Sell_Fence=5700
 Sell_Jaeger=8551
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink
+Name_Jpn=ビーフシチューの缶詰 (小)
+Information_Jpn=一般に "ツションカ" と呼ばれるビーフシチューの缶詰。コンデンスミルクと同じように長期間保存できるため、野戦食や旅行の際に持ち込む食料として重宝されている。

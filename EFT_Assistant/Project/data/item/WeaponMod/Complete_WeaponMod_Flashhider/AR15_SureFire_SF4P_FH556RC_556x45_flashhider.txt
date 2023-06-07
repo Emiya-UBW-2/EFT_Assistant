@@ -21,3 +21,5 @@ ChildParts=[
 Recoil=-8.000000
 Ergonomics=-1.000000
 accuracyModifier=0.030000
+Name_Jpn=AR-15 SureFire SF4P FH556RC 5.56x45 flash hider
+Information_Jpn=The advanced SureFire FH556RC-556 four-prong flash hider, which fits M4/M16 weapons and variants, features a greatly reduced muzzle flash. Allows the mounting of SOCOM556 Quick Detach sound suppressors.

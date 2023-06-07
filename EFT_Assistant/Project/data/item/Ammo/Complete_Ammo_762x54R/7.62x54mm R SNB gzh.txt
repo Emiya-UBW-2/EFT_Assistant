@@ -13,3 +13,5 @@ Sell_Peacekeeper=7
 Sell_Mechanic=1125
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=7.62x54R SNB
+Information_Jpn=A 7.62x54mm R SNB gzh (GRAU Index - 7N14) cartridge with a 9.8 gram armor-piercing bullet with a pointed heat-strengthened steel core over a lead base with a bimetallic jacket, in a bimetallic case. This SNB cartridge (SNíperskiy s Bronebóynoy púley - "Sniper with Armor-piercing bullet") was developed in the mid-1990s as a modernization of the 7.62x54mm R PS gzh cartridge to improve its penetration capabilities when fired from a sniper or designated marksman rifles, managing of piercing specialized ballistic body protections as well as providing a significant stopping power effect.

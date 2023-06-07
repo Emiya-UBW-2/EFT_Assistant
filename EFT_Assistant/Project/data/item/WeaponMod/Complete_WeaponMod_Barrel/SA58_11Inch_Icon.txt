@@ -53,3 +53,5 @@ Recoil=-2.000000
 Ergonomics=-8.000000
 centerOfImpact=0.080000
 deviationMax=19
+Name_Jpn=SA-58 7.62x51 11 inch barrel
+Information_Jpn=An 11 inch (280mm) long barrel for DS Arms SA-58 7.62x51.

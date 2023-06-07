@@ -20,3 +20,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=DeltaPoint Cross Slot Mount base
+Information_Jpn=Weaver レイル上にLeupold DeltaPointシリーズを取り付けるためのマウントベース。

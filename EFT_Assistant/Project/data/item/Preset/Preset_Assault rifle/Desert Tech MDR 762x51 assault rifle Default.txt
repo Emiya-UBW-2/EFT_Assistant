@@ -22,3 +22,4 @@ containsItems=[
 	MDR 7.62x51 16 inch barrelx1/|
 	Desert Tech 7.62x51 flash hiderx1
 ]
+Name_Jpn=Desert Tech MDR 7.62x51 assault rifle デフォルト

@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=3.000000
 accuracyModifier=0.000000
+Name_Jpn=AK CSS knurled charging handle
+Information_Jpn=The CSS knurled charging handle gives the user an enhanced oversized knob to operate the weapon more easily. This handle works on all Vepr Rifles and Shotguns, Saiga Rifles and Shotguns, and most AK platform weapons.

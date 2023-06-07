@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=5.500000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 DLG Tactical DLG-123 pistol grip
+Information_Jpn=The DLG-123 pistol grip can be installed on any weapon compatible with AR-15 systems. Manufactured by DLG Tactical.

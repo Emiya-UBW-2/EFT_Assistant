@@ -13,3 +13,5 @@ Sell_Peacekeeper=0
 Sell_Mechanic=43
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=9x18 mm PM RG028 gzh
+Information_Jpn=A 9x18mm Makarov RG028 gzh cartridge with a 6 gram hollow-point bullet with a cylindrical hardened steel core with lead cladding and a bimetallic semi-jacket, in a bimetallic case. This cartridge was developed specifically for the PM pistol in the late 1970s by order of the KGB to provide a significant stopping power effect and increase its penetration capabilities against some models of basic ballistic body protection at short distances.

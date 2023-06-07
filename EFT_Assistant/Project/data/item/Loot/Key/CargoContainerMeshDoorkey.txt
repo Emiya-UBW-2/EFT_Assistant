@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=20
 Map=Streets of Tarkov
+Name_Jpn=Cargo container mesh door key
+Information_Jpn=A key to the metal gate in one of the shipping containers.

@@ -37,3 +37,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=AKM/AK-74 RD AK to M4 buffer tube adapter
+Information_Jpn=The AK to M4 Gen 2 adapter for installation of telescopic stock buffer tubes on AK series assault rifles with fixed stocks. Manufactured by Rifle Dynamics.

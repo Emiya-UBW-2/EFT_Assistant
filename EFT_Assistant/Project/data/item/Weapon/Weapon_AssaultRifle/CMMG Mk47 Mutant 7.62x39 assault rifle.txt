@@ -94,3 +94,5 @@ cameraRecoil=0.081600
 cameraSnap=3.500000
 deviationMax=23
 convergence=1.700000
+Name_Jpn=CMMG Mk47 Mutant 7.62x39 assault rifle
+Information_Jpn=CMMG Mk47 Mutant, an American-made carbine chambered in 7.62x39mm, manufactured by CMMG Inc. Works with all types of AK magazines, including steel, polymer and drums. The carbine has shown exceptional reliability, which, together with the classic ergonomics of the AR system, gives an excellent example of a firearm. This variant features a fully automatic firing mode, for Law Enforcement and Millitary use only.

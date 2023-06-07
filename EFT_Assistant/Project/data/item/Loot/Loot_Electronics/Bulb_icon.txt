@@ -13,3 +13,5 @@ Sell_Peacekeeper=35
 Sell_Mechanic=5320
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=白熱電球
+Information_Jpn=昔ながらの白熱電球。壊れやすくて寿命も短いうえに、消費電力に比べれば明るさも足りない。

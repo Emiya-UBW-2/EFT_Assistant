@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-35.000000
 Ergonomics=6.000000
 accuracyModifier=0.000000
+Name_Jpn=Benelli M3 Mesa Tactical Urbino stock
+Information_Jpn=The Urbino fixed-length stock with a pistol grip for the Benelli M3 S90 shotgun manufactured by Mesa Tactical. 

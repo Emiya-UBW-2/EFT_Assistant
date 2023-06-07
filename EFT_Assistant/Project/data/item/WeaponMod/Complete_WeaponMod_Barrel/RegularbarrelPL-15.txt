@@ -18,3 +18,5 @@ Recoil=-3.000000
 Ergonomics=-5.000000
 centerOfImpact=0.320000
 deviationMax=11
+Name_Jpn=PL-15 9x19 barrel
+Information_Jpn=A standard barrel for the PL-15 pistol, chambered in 9x19.

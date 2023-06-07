@@ -21,3 +21,4 @@ containsItems=[
 	AN/PVS-14 Dual Dovetail Mountx1/|
 	AN/PVS-14 Night Vision Monocularx1
 ]
+Name_Jpn=Wilcox Skull Lock ヘッドマウント PVS-14

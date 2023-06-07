@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-37.000000
 Ergonomics=9.000000
 accuracyModifier=0.000000
+Name_Jpn=AK Zenit PT-1 "Klassika" stock
+Information_Jpn=The telescopic PT-1 stock is mounted on the standard place of the stock AK 103, 104, 105, 74M, AKS74U and PP Vityaz, has a length adjustment mechanism and an adjustable cheek. A special lock is required for installation. Manufactured by Zenit.

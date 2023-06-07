@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=1
 Map=Customs
+Name_Jpn=用途不明の鍵
+Information_Jpn=メッセンジャーの遺体から見つかった鍵。どこに使う鍵か分からない。

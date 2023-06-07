@@ -11,3 +11,5 @@ Sell_Fence=8595
 Sell_Jaeger=12893
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink
+Name_Jpn=角砂糖
+Information_Jpn=箱入りの角砂糖。食料不足の状況下では貴重なもの。アルコール飲料の醸造にも使用できる。

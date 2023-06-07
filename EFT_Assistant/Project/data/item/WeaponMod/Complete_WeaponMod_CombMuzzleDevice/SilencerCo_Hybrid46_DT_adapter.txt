@@ -19,3 +19,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=SilencerCo Hybrid 46 Direct Thread Mount adapter
+Information_Jpn=SilencerCo Hybrid 46サイレンサーをバレルスレッドに直接取り付けるための、ダイレクトスレッドマウントアダプター。

@@ -19,3 +19,5 @@ capacity=30
 loadModifier=-0.100000
 ammoCheckModifier=-0.200000
 malfunctionChance=0.020000
+Name_Jpn=AK-12 5.45x39 30-round magazine
+Information_Jpn=A 30-round 5.45x39 windowed, polymer Izhmash magazine for the AK-12 and compatible systems.

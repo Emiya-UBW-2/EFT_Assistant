@@ -126,3 +126,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=4.000000
 accuracyModifier=0.000000
+Name_Jpn=ADAR 2-15 5.56x45 upper receiver
+Information_Jpn=An upper receiver for the ADAR 2-15 carbine manufactured by ADAR. Equipped with a mount for attaching additional devices.

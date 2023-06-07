@@ -10,3 +10,5 @@ Sell_Therapist=1472
 Sell_Fence=934
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=コピー用紙
+Information_Jpn=プリンターやコピー機で使用するための印刷用紙だが、他の紙と同じように書くことはできる。

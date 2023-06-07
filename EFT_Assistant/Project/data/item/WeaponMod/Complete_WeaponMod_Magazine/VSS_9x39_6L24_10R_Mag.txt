@@ -19,3 +19,5 @@ capacity=10
 loadModifier=0.000000
 ammoCheckModifier=0.000000
 malfunctionChance=0.120000
+Name_Jpn=VSS 9x39 6L24 10-round magazine
+Information_Jpn=A 10-round polymer TsNIITochMash 6L24 9x39 magazine for the VSS sniper rifle.

@@ -18,3 +18,5 @@ Recoil=-3.000000
 Ergonomics=-6.000000
 centerOfImpact=0.210000
 deviationMax=11
+Name_Jpn=HK USP Elite .45 ACP barrel
+Information_Jpn=A 153mm barrel for the special version of the USP pistol - USP Elite, chambered in .45 ACP. Manufactured by Heckler & Koch.

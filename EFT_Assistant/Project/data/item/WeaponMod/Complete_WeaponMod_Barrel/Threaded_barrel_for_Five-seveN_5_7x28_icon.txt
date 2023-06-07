@@ -21,3 +21,5 @@ Recoil=-3.000000
 Ergonomics=0.000000
 centerOfImpact=0.240000
 deviationMax=11
+Name_Jpn=FN Five-seveN 5.7x28 threaded barrel
+Information_Jpn=A regular threaded barrel for the FN Five-seveN pistol, manufacted by Fabrique Nationale Herstal.

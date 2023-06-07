@@ -49,3 +49,5 @@ stimEffectsduration=120
 stimEffectsvalue=0.000000
 stimEffectspercent=TRUE
 stimEffectsSkiilName=
+Name_Jpn=TGLabs SJ9 の注射器
+Information_Jpn=特殊部隊の戦闘員のために開発された。短時間で体温を下げ、代謝も著しく低下させる効果がある。SJ9は体内の代謝を安全なレベルに保ったまま外部に放出される熱量を大幅に削減できるため、夜間戦闘の際に使用すればサーマルイメージングデバイスによって視認されることを防げるだろう。

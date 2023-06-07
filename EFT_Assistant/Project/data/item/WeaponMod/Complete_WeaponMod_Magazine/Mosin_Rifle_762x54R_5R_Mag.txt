@@ -22,3 +22,5 @@ capacity=5
 loadModifier=0.000000
 ammoCheckModifier=0.000000
 malfunctionChance=0.030000
+Name_Jpn=Mosin Rifle 7.62x54R 5-round magazine
+Information_Jpn=A standard 7.62x54R 5-round magazine designed for the Mosin rifle. The magazine is installed into the rifle internally and cannot be ejected on the spot, so it's not recommended to take multiple of them into a raid.

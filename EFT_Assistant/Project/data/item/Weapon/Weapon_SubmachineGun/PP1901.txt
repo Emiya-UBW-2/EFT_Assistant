@@ -101,3 +101,5 @@ cameraRecoil=0.048000
 cameraSnap=3.500000
 deviationMax=15
 convergence=1.500000
+Name_Jpn=PP-19-01 "Vityaz" 9x19 submachine gun
+Information_Jpn=The PP-19-01, also known as "Vityaz", is a Russian submachine gun chambered in 9x19 developed in 2004 by Izhmash based on the AK platform. A standard-issue submachine gun in many law enforcement agencies and military units of the Russian Federation.

@@ -12,3 +12,5 @@ Sell_Skier=3430
 Sell_Peacekeeper=26
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=クリスマスツリーの飾り (レッド)
+Information_Jpn=クリスマスツリーに吊るして飾るための赤色の玉の装飾品。

@@ -13,3 +13,5 @@ Sell_Peacekeeper=305
 Sell_Ragman=50840
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmor
+Name_Jpn=BNTI Korund-VM アーマー
+Information_Jpn=The NPP KlASS Korund-VM heavy bulletproof vest, adopted by the units of the Ministry of Internal Affairs of Russia. Provides increased protection against bullets and fragments (class 5 GOST).

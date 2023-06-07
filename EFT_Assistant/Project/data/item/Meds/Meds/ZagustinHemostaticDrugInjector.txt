@@ -50,3 +50,5 @@ stimEffectsduration=40
 stimEffectsvalue=-1.400000
 stimEffectspercent=FALSE
 stimEffectsSkiilName=
+Name_Jpn=ザグスティンの注射器
+Information_Jpn=A military-issue drug. Inhibits activators of profibrinolysin and slows down its transformation in fibrinolysin. Temporarily stops the bleeding and increases resistance to bloodloss. Has side effects. Leads to severe dehydration.

@@ -13,3 +13,5 @@ Sell_Peacekeeper=28
 Sell_Mechanic=4194
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=故障したハードディスク
+Information_Jpn=ランダムアクセスの記憶装置。大半のコンピュータのメインデータドライブとして使用されている。ハードウェアの専門家は壊れたディスクから制御装置や電磁石を回収し、他の電子機器に再利用しているようだ。

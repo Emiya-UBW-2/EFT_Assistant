@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=12.000000
 accuracyModifier=0.000000
+Name_Jpn=AK TangoDown Battle Grip pistol grip (FDE)
+Information_Jpn=A lightweight pistol grip for AK assault rifles, manufactured by TangoDown. Flat Dark Earth version.

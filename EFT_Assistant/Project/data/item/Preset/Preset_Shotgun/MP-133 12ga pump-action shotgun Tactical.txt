@@ -28,3 +28,4 @@ containsItems=[
 	Trijicon RMR low profile mountx1/|
 	Trijicon RMR reflex sightx1
 ]
+Name_Jpn=MP-133 12ga ポンプアクション ショットガン Tactical

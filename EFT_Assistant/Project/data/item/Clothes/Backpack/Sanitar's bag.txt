@@ -11,3 +11,5 @@ Sell_Ragman=28566
 Sell_Jaeger=27645
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
+Name_Jpn=Sanitar's bag
+Information_Jpn=A medical bag, often used by mid and low rank medical personnel, sometimes by doctors, for carrying tools and medicine.

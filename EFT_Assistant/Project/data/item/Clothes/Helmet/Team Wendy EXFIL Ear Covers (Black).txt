@@ -15,3 +15,5 @@ propertiestype=ItemPropertiesArmorAttachment
 Conflict=[
 	Peltor Tactical Sport headset
 ]
+Name_Jpn=Team Wendy EXFIL Ear Covers (Black)
+Information_Jpn=Additional armored ear covers for the Team Wendy EXFIL helmet to ensure a bigger protection area. Black version.

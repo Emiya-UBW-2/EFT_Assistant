@@ -25,3 +25,5 @@ ChildParts=[
 Recoil=-5.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=FN SCAR folding polymer stock (FDE)
+Information_Jpn=A folding polymer stock for the SCAR-series rifles, manufactured by Fabrique Nationale Herstal. Flat Dark Earth version.

@@ -21,3 +21,4 @@ containsItems=[
 	SKS 7.62x39 10-round internal box magazinex1/|
 	OP-SKS dovetail mountx1
 ]
+Name_Jpn=Simonov OP-SKS 7.62x39 carbine (Hunting Rifle Version) デフォルト

@@ -13,3 +13,5 @@ Sell_Peacekeeper=1
 Sell_Mechanic=156
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=12.7x55 mm PS12A
+Information_Jpn=A 12.7x55mm PS12A special cartridge with a 7 gram subsonic light bullet with an aluminum core and two-layer semi-jacket, a lead interior, and a bimetallic exterior, in a brass case. The bullet in this cartridge was designed to crumble and rapidly lose speed when hitting a solid object in order to reduce the probability of ricochets during urban operations at the cost of penetration capabilities, consequently, this endows it with an outstanding stopping power effect thanks to its caliber and capability to inflict critical adverse effects on the target after impact.

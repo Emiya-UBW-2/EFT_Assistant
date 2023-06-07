@@ -12,3 +12,5 @@ Sell_Fence=240
 Sell_Skier=294
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=BEAR ドッグタグ
+Information_Jpn=ドッグタグは、戦闘中の負傷者や死亡者を迅速に識別する目的で使用される。これは民間軍事会社 "BEAR" のオペレーターが身に付けていたものだ。

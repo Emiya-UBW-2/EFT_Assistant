@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Customs
+Name_Jpn=ガソリンスタンドの物置の鍵
+Information_Jpn=ガソリンスタンドの一角にある物置へ入るための鍵。

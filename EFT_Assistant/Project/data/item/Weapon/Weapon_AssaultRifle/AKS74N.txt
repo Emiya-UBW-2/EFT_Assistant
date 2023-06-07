@@ -133,3 +133,5 @@ cameraRecoil=0.076800
 cameraSnap=3.500000
 deviationMax=23
 convergence=1.600000
+Name_Jpn=AKS-74N 5.45x39 アサルトライフル
+Information_Jpn=AKS-74N (Avtomat Kalashnikova Skladnoy 74 Nochnoy - "Kalashnikov's Automatic rifle 74 Night with foldable stock") 5.45x39mm assault rifle equipped with a side-folding metal shoulder stock, designed primarily for use with air assault infantry. The key design difference from the standard AKS-74 is a side dovetail mount for optical and night scopes.

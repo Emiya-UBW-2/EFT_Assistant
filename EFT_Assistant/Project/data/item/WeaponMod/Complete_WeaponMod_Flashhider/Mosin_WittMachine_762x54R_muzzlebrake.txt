@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-29.000000
 Ergonomics=-1.000000
 accuracyModifier=-0.010000
+Name_Jpn=Mosin Rifle Witt Machine 7.62x54R muzzle brake
+Information_Jpn=A muzzle brake for the Mosin rifle, manufactured by Witt Machine.

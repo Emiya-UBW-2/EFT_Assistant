@@ -11,3 +11,5 @@ Sell_Skier=280
 Sell_Ragman=355
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Armband (Blue)
+Information_Jpn=A blue identification armband.

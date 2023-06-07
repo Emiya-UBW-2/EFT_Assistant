@@ -20,3 +20,5 @@ Conflict=[
 	EMERCOM cap/|
 	Police cap
 ]
+Name_Jpn=Shemagh (Tan)
+Information_Jpn=A favorite headpiece of PMCs around the globe.

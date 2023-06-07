@@ -12,3 +12,5 @@ Sell_Fence=7760
 Sell_Jaeger=11640
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=ポキセラム
+Information_Jpn=化学反応の熱で硬化する特殊な接着補修剤。主な成分は金属粉が含まれた2液性エポキシ樹脂だ。

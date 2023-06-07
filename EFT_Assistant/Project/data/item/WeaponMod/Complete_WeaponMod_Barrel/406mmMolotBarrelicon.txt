@@ -60,3 +60,5 @@ Recoil=-4.000000
 Ergonomics=-15.000000
 centerOfImpact=0.064000
 deviationMax=23
+Name_Jpn=AR-15 5.56x45 Molot Arms 406mm barrel
+Information_Jpn=The Molot Arms 406mm barrel for AR-15 based weapons for 5.56x45 NATO ammo. A standard-issue barrel for ADAR 2-15.

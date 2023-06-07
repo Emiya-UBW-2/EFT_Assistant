@@ -12,3 +12,5 @@ Sell_Ragman=20088
 Sell_Jaeger=19440
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
+Name_Jpn=Stich Profi Chest Rig MK2 (Recon, A-TACS FG)
+Information_Jpn=The "Chest-Rig" tactical system can be used as an independent piece of equipment or as an addition to body armor without the MOLLE system. Suitable for combat training instructors, special forces units. Recon preset in A-TACS FG camouflage. Manufactured by Stich Profi.

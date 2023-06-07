@@ -11,3 +11,5 @@ Sell_Ragman=33154
 Sell_Jaeger=32085
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
+Name_Jpn=Eberlestock F5 Switchblade backpack (Dry Earth)
+Information_Jpn=モダンで高品質かつ省スペースなバックパック。あらゆる状況下での作戦行動を想定している。

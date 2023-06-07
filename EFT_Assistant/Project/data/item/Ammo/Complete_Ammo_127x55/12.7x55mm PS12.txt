@@ -13,3 +13,5 @@ Sell_Peacekeeper=1
 Sell_Mechanic=190
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=12.7x55 mm PS12
+Information_Jpn=A 12.7x55mm PS12 special cartridge with a 33 gram subsonic heavy bullet with a lead core and a bimetallic jacket, in a brass case. This cartridge was designed in the early 2010s for the ASh-12 assault rifle and despite its rudimentary design, the bullet is capable of pierce basic ballistic body protections, in addition to providing a considerable stopping power effect and being able to inflict severe adverse effects on the target after impact. However, due to its design, it has a high probability of bouncing off various surfaces.

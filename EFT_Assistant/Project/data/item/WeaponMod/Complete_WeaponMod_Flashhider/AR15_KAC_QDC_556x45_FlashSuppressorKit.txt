@@ -20,3 +20,5 @@ ChildParts=[
 Recoil=-8.000000
 Ergonomics=-1.000000
 accuracyModifier=0.030000
+Name_Jpn=AR-15 KAC QDC 5.56x45 Flash Suppressor Kit
+Information_Jpn=KAC 5.56 QD コンペンセイター/フラッシュハイダーはフラッシュサプレッサーとして高い効果を発揮するだけでなく、KAC QDSS-NT サプレッサーのマウントとしても使用できる。AR-15/M16/M4 系の武器に装着可能だ。

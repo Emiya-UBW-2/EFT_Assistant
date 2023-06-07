@@ -64,3 +64,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-2.000000
 accuracyModifier=0.000000
+Name_Jpn=VOMZ Pilad 043-02 dovetail mount
+Information_Jpn=An aluminum sight support with a Picatinny rail mount for the installation of scopes and accessories.

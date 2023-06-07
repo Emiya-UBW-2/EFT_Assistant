@@ -11,3 +11,5 @@ Sell_Fence=16870
 Sell_Jaeger=25305
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=固形燃料
+Information_Jpn="ドライアルコール" とも呼ばれる固形燃料は、ヘキサメチレンテトラミンを少量のワックスで固めたものだ。キャンプなどに持ち込まれるほか、軍隊や救助隊が野外で食品を加熱したり調理する際に使用されている。

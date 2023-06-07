@@ -31,3 +31,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=MP-443 "Grach" Zenit B-8 mount
+Information_Jpn=The B-8 rail mount can be installed on Yarygin pistols (MP-443 "Grach" and its civilian version MP-446 "Viking") for use with additional attachments, like Zenit Klesch-2P tactical flashlight/laser. Manufactured by Zenit.

@@ -12,3 +12,5 @@ Sell_Ragman=14769
 Sell_Jaeger=14293
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
+Name_Jpn=Dynaforce Triton M43-A chest harness
+Information_Jpn=The Triton M43-A assault chest rig is designed to store and carry ammunition and equipment for use in moderate and hot climates. Manufactured by Dynaforce.

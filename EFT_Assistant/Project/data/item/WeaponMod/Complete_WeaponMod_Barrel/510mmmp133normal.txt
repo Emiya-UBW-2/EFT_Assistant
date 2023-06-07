@@ -23,3 +23,5 @@ Recoil=-3.000000
 Ergonomics=-5.000000
 centerOfImpact=0.620000
 deviationMax=9
+Name_Jpn=MP-133 12ga 510mm barrel
+Information_Jpn=A standard factory-produced 510mm barrel for MP-133 12 gauge shotguns.

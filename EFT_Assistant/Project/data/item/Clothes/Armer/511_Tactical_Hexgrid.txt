@@ -13,3 +13,5 @@ Sell_Peacekeeper=781
 Sell_Ragman=130200
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmor
+Name_Jpn=5.11 Tactical Hexgrid plate carrier
+Information_Jpn=The Hexgrid plate carrier with smooth ergonomic access that allows comfortable movement, intended for use with chest rigs. Manufactured by 5.11 Tactical.

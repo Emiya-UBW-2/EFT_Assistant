@@ -56,3 +56,5 @@ stimEffectsduration=120
 stimEffectsvalue=-0.250000
 stimEffectspercent=FALSE
 stimEffectsSkiilName=
+Name_Jpn=3-(b-TG) の注射器
+Information_Jpn=Combat drug. It has a stimulating effect on the Central nervous system. Increases perception and attention. It can slightly improve strength indicators, due to more powerful signals to the muscles. The active substance is 3-(b-Phenylisopropyl)-sydnonimine hydrochloride. Allowed for use only by military doctors and paramedics.

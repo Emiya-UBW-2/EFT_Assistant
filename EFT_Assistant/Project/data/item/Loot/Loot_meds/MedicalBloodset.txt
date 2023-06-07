@@ -11,3 +11,5 @@ Sell_Fence=3906
 Sell_Jaeger=5859
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=輸血セット
+Information_Jpn=輸血するために必要な医療器具のセット。

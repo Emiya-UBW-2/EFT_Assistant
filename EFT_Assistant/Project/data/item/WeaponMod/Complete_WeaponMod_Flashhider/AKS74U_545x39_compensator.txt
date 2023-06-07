@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-8.000000
 Ergonomics=-2.000000
 accuracyModifier=0.000000
+Name_Jpn=AKS-74U 5.45x39 muzzle brake (6P26 0-20)
+Information_Jpn=A standard-issue IzhMash muzzle brake for the AKS-74U and AKS-74UN, installed on 24x1.5 mm threading.

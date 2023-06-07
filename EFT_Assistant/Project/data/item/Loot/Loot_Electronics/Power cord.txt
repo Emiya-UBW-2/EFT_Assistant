@@ -13,3 +13,5 @@ Sell_Peacekeeper=47
 Sell_Mechanic=7068
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=電源ケーブル
+Information_Jpn=パーソナルコンピュータ用の 220V 電源ケーブル。

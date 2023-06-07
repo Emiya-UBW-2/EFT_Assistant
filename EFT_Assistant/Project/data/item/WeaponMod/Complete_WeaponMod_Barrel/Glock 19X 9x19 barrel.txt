@@ -18,3 +18,5 @@ Recoil=-3.000000
 Ergonomics=-5.000000
 centerOfImpact=0.300000
 deviationMax=11
+Name_Jpn=Glock 19X 9x19 barrel
+Information_Jpn=A standard barrel for the Glock 19X 9x19 pistol. The barrel is treated with an nDLC coating that protects against corrosion and scratches.

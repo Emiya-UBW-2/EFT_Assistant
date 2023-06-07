@@ -18,3 +18,5 @@ Recoil=-3.000000
 Ergonomics=-5.000000
 centerOfImpact=0.340000
 deviationMax=11
+Name_Jpn=Glock 17 9x19 barrel
+Information_Jpn=A standard barrel for the Glock 17 9x19 pistol.

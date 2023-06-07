@@ -18,3 +18,5 @@ Recoil=-9.000000
 Ergonomics=-14.000000
 centerOfImpact=0.016000
 deviationMax=33
+Name_Jpn=M700 7.62x51 26 inch stainless steel barrel
+Information_Jpn=A 26 inches (660mm) long stainless steel barrel for Remington Model 700 sniper rifle chambered in 7.62x51 NATO ammo.

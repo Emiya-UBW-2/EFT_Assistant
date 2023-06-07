@@ -21,3 +21,4 @@ containsItems=[
 	ASh-12 polymer handguardx1/|
 	ASh-12 rear sight carry handlex1
 ]
+Name_Jpn=ASh-12 12.7x55 アサルトライフル 消音

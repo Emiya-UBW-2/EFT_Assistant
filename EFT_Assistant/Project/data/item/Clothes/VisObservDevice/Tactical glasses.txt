@@ -12,3 +12,5 @@ Sell_Peacekeeper=6
 Sell_Ragman=1034
 fleaMarketFee=0
 propertiestype=ItemPropertiesGlasses
+Name_Jpn=タクティカルグラス
+Information_Jpn=A pair of commonplace tactical glasses with glare and impact protection.

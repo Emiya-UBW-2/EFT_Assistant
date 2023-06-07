@@ -68,3 +68,5 @@ Conflict=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=M14 A.R.M.S. #18 scope mount
+Information_Jpn=The A.R.M.S. Inc. scope mount for M14 rifles. Made of 8620 case hardened steel. Equipped with a Weaver rail for installation of various scopes.

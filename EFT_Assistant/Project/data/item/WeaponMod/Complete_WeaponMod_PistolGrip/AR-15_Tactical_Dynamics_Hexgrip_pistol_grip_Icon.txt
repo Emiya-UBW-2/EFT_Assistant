@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=7.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 Tactical Dynamics Hexgrip pistol grip
+Information_Jpn=The Hexgrip ergonomical pistol grip for the AR-15 platform weapon systems, manufactured by Tactical Dynamics.

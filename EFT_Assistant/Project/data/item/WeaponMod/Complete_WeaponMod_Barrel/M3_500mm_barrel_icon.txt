@@ -23,3 +23,5 @@ Recoil=-7.000000
 Ergonomics=-8.000000
 centerOfImpact=0.530000
 deviationMax=9
+Name_Jpn=Benelli M3 Super 90 12ga 500mm barrel
+Information_Jpn=A 500mm barrel for the Benelli M3 S90 12 gauge shotgun.

@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Woods
+Name_Jpn=Yotota車の鍵
+Information_Jpn=A Yotota folding car key with locking buttons.

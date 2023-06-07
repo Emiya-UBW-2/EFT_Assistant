@@ -12,3 +12,5 @@ Sell_Ragman=21990
 Sell_Jaeger=21281
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
+Name_Jpn=Azimut SS "Zhuk" chest harness (Black)
+Information_Jpn=取り外しできないポーチのついたシンプルなナイロン製のリグ。多くの弾薬を持ち運ぶことができ使いやすい。

@@ -37,3 +37,5 @@ cameraRecoil=0.168000
 cameraSnap=3.500000
 deviationMax=33
 convergence=0.900000
+Name_Jpn=Accuracy International AXMC .338 LM bolt-action sniper rifle
+Information_Jpn=The AXMC is the latest in a long and distinguished line of combat proven sniper rifles designed and manufactured by the British company Accuracy International. Chambered in .338 Lapua Magnum, but can be quickly converted to .300 Winchester Magnum and .308 Winchester by changing the barrel, bolt, and magazine/insert.

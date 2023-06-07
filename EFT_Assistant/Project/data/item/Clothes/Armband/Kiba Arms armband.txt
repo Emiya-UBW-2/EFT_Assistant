@@ -11,3 +11,5 @@ Sell_Skier=24500
 Sell_Ragman=31000
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Kiba Arms armband
+Information_Jpn=An armband for Kiba Arms employees.

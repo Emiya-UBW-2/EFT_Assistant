@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Customs
+Name_Jpn=ガソリンスタンドの事務室の鍵
+Information_Jpn=ガソリンスタンドの一角にある事務室へ入るための鍵。

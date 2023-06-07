@@ -13,3 +13,5 @@ Sell_Peacekeeper=1
 Sell_Mechanic=78
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=9x19mm QuakeMaker
+Information_Jpn=A 9x19mm Parabellum QuakeMaker cartridge with an 11.9 gram hollow-point bullet made entirely of lead in a lightweight case of steel with a red anodized aluminum base; intended for home defense and target practice. Due to its design, this cartridge provides an outstanding stopping power effect along with causing severe adverse effects on the target after impact at the cost of penetration capabilities, as well as having a considerably lower muzzle velocity relative to other cartridges of the same caliber.

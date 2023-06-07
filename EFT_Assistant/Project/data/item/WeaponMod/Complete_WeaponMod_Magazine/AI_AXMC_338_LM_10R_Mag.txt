@@ -28,3 +28,5 @@ capacity=10
 loadModifier=-0.150000
 ammoCheckModifier=0.000000
 malfunctionChance=0.020000
+Name_Jpn=AI AXMC .338 LM 10-round magazine
+Information_Jpn=A 10-round AXMC sniper rifle magazine by Accuracy International, for .338 Lapua Magnum cartridges.

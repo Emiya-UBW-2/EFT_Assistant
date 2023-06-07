@@ -33,3 +33,5 @@ Recoil=-1.000000
 Ergonomics=-3.000000
 centerOfImpact=0.200000
 deviationMax=11
+Name_Jpn=MPX 9x19 6.5 inch barrel
+Information_Jpn=A 6.5 inch (165mm) long barrel for MPX-based weapons chambered in 9x19 ammo.

@@ -13,3 +13,5 @@ Sell_Peacekeeper=0
 Sell_Mechanic=16
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=9x18mm PM PS gs PPO
+Information_Jpn=A 9x18mm Makarov PS gs PPO cartridge with a 6.3 gram lead core bullet with a bimetallic jacket in a truncated cone round-nose shape, in a steel case. The PS gs PPO cartridge was developed due to the need for the Ministry of Internal Affairs to equip law enforcement agencies with a cartridge that had reduced ricochet capabilities in order to minimize collateral damage during urban operations.

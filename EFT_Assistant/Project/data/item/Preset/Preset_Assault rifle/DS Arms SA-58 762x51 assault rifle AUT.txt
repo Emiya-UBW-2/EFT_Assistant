@@ -25,3 +25,4 @@ containsItems=[
 	FAL standard dust coverx1/|
 	SA-58 humpback polymer stockx1
 ]
+Name_Jpn=DS Arms SA-58 7.62x51 assault rifle AUT

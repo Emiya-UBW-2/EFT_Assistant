@@ -13,3 +13,5 @@ Sell_Peacekeeper=41
 Sell_Mechanic=6140
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=メモリ
+Information_Jpn=古いメモリはタルコフに残された人々にとって、様々なマイクロコントローラに使用するICチップの主要な供給源になっている。

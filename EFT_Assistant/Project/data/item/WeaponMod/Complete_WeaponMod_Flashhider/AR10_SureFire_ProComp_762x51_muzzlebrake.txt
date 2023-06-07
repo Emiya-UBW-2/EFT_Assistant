@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-11.500000
 Ergonomics=-1.500000
 accuracyModifier=0.030000
+Name_Jpn=AR-10 SureFire ProComp 7.62x51 muzzle brake
+Information_Jpn=The ProComp muzzle brake designed for installation on AR-10-type systems and compatibles. The muzzle brake greatly reduces both recoil impulse and muzzle rise so that the user's weapon tracks straight back to keep them on target for faster shot-to-shot recovery. Manufactured by SureFire.

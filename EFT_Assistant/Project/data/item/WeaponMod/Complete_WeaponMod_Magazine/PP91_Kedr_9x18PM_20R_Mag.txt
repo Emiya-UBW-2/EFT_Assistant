@@ -19,3 +19,5 @@ capacity=20
 loadModifier=0.000000
 ammoCheckModifier=0.000000
 malfunctionChance=0.030000
+Name_Jpn=PP-91 "Kedr" 9x18PM 20-round magazine
+Information_Jpn=A standard 20-round capacity metal magazine for PP-91 Kedr-based 9x18PM SMGs, manufactured by ZMZ.

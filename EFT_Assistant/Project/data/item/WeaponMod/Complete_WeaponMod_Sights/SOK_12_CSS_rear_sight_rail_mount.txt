@@ -38,3 +38,5 @@ Recoil=0.000000
 Ergonomics=0.000000
 SightRange=100
 sightZooms=1.000000
+Name_Jpn=SOK-12 CSS rear sight rail mount
+Information_Jpn=This sight rail mount allows installation of various sights instead of the Saiga carbines standard-issue fixed rear sight.

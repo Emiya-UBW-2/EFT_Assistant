@@ -12,3 +12,5 @@ Sell_Fence=10800
 Sell_Mechanic=15120
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=丸ペンチ
+Information_Jpn=ワイヤーなどの線材を曲げるための工具。先端部分が円錐状になっており、使う位置を変えれば様々な大きさに巻くことができる。

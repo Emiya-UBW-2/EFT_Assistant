@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Streets of Tarkov
+Name_Jpn=Store manager's key
+Information_Jpn=A key to manager's office room inside one of the city stores.

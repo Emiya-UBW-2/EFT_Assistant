@@ -33,3 +33,5 @@ cameraRecoil=0.014400
 cameraSnap=3.500000
 deviationMax=11
 convergence=5.000000
+Name_Jpn=Serdyukov SR-1MP Gyurza 9x21 pistol
+Information_Jpn=The SR-1MP pistol (GRAU index - 6P53), also known as "Gyurza" (Viper) or SPS ("Samozaryádnyy Pistolyét Serdyukóva" - Serdyukov Semiautomatic Pistol), was designed by P. Serdyukov and I. Belyaev with the powerful 9x21 cartridge to replace the APS machine pistol used by the special forces of the Russian Federation. This model can be fitted with a set of mounts to attach additional equipment, as well as work as a base for installing a suppressor.

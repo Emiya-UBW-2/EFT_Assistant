@@ -28,3 +28,5 @@ stimEffectsduration=60
 stimEffectsvalue=-5.000000
 stimEffectspercent=FALSE
 stimEffectsSkiilName=Health
+Name_Jpn=xTG-12 の注射器
+Information_Jpn=Removes most of the known poisons and toxins used in the combat industry. Can be used to relieve the effects of natural poisons. Gives immunity to poisoning while the components are in the blood system. Can reduce health status.

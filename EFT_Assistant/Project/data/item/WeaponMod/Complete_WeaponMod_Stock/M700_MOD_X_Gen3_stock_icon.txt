@@ -57,3 +57,5 @@ Conflict=[
 Recoil=-9.000000
 Ergonomics=13.000000
 accuracyModifier=0.000000
+Name_Jpn=M700 AB Arms MOD*X GEN 3 chassis
+Information_Jpn=The AB Arms MOD*X GEN III Modular Rifle System is a lightweight, ergonomic, drop-in chassis designed for the Remington Model 700 bolt-action sniper rifle.

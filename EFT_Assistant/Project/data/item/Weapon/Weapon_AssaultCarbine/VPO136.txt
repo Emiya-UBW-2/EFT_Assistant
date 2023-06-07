@@ -135,3 +135,5 @@ cameraRecoil=0.081600
 cameraSnap=3.500000
 deviationMax=23
 convergence=1.200000
+Name_Jpn=Molot VPO-136 "Vepr-KM" 7.62x39 carbine
+Information_Jpn=The Molot Vepr-KM/VPO-136 carbine is based on the well-known Kalashnikov AKM and has an almost identical appearance, weight, and overall dimensions. Designed for hunting of medium and big game, as well as for sporting use.

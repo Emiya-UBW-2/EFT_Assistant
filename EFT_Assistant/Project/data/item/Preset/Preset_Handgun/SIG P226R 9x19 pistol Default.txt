@@ -23,3 +23,4 @@ containsItems=[
 	P226 front sightx1/|
 	P226 9x19 15-round magazinex1
 ]
+Name_Jpn=SIG P226R 9x19 pistol デフォルト

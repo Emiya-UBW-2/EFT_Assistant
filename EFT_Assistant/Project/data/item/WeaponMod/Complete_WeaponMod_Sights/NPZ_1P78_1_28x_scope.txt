@@ -30,3 +30,5 @@ Recoil=0.000000
 Ergonomics=-6.000000
 SightRange=600
 sightZooms=3.000000
+Name_Jpn=NPZ 1P78-1 2.8x scope
+Information_Jpn=A 2.8x magnification day scope, installed on dovetail rails. Manufactured by NPZ.

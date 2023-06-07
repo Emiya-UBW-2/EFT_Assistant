@@ -12,3 +12,5 @@ Sell_Fence=3520
 Sell_Skier=4312
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=アラミド繊維の生地
+Information_Jpn=アラミド繊維は耐熱性と強度を合わせ持つ合成繊維の一種だ。航空宇宙産業や軍事用途では防護服やボディーアーマーの素材として利用されている。また自転車のタイヤ、船舶の索具、アスベストの代替品としても使用される。

@@ -10,3 +10,5 @@ Sell_Therapist=8012
 Sell_Fence=5087
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Woods plan map
+Information_Jpn=A paper plan map of Priozersk Natural Reserve.

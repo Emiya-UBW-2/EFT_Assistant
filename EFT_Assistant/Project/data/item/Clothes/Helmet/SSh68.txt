@@ -19,3 +19,5 @@ Conflict=[
 	Walker's Razor Digital headset/|
 	Walker's XCEL 500BT Digital headset
 ]
+Name_Jpn=SSh-68 steel helmet
+Information_Jpn=SSh-68はロシア軍のSSh-60ヘルメットの後継装備として採用された。耐久性が高く、前方部分が大きく傾斜しており、側面のカバーが短いという違いがある。

@@ -37,3 +37,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=SVD CAA DRG L-1 barrel mount rail
+Information_Jpn=A Picatinny rail for the SVD sniper rifle for mounting on the barrel. Allows installation of additional tactical devices.

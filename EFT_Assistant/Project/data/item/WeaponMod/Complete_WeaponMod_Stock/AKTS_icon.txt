@@ -44,3 +44,5 @@ ChildParts=[
 Recoil=-3.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=AKM/AK-74 CAA AKTS buffer tube
+Information_Jpn=CAA Receiver Extension Buffer Tube, 6-position, Mil-Spec diameter will fit any AK-based rifles with a fixed stock.

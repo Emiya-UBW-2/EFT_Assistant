@@ -83,3 +83,5 @@ Conflict=[
 	Jack-o'-lantern tactical pumpkin helmet/|
 	Ushanka ear flap hat
 ]
+Name_Jpn=Tagilla's welding mask "UBEY"
+Information_Jpn=An armored steel welding mask of Tagilla - the Bossman of Factory. Painted with the special "UBEY" ("KILL") art.

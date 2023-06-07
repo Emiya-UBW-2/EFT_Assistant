@@ -12,3 +12,5 @@ Sell_Peacekeeper=112
 Sell_Ragman=18600
 fleaMarketFee=0
 propertiestype=ItemPropertiesGlasses
+Name_Jpn=Gas welder safety goggles
+Information_Jpn=Gas welder safety goggles. Protects against bright flashes and sparks when welding.

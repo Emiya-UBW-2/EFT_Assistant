@@ -17,3 +17,5 @@ Recoil=0.000000
 Ergonomics=1.000000
 SightRange=500
 sightZooms=1.000000
+Name_Jpn=AK RD Enhanced V2 Rear Sight
+Information_Jpn=The V2 Enhanced rear sight for AK automatic rifles, manufactured by Rifle Dynamics.

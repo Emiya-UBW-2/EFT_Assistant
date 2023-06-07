@@ -11,3 +11,5 @@ Sell_Peacekeeper=131
 Sell_Mechanic=19651
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Wi-Fi カメラ
+Information_Jpn=遠隔操作が可能な Wi-Fi カメラ。

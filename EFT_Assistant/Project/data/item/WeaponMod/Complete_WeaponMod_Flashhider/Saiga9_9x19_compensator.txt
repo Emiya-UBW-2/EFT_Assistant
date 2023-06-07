@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-7.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=Saiga-9 9x19 muzzle brake-compensator
+Information_Jpn=A standard muzzle brake-compensator made by Izhmash for Saiga-9 carbines.

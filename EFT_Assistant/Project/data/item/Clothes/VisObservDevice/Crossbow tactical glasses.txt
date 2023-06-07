@@ -12,3 +12,5 @@ Sell_Peacekeeper=13
 Sell_Ragman=2170
 fleaMarketFee=0
 propertiestype=ItemPropertiesGlasses
+Name_Jpn=Crossbow タクティカルグラス
+Information_Jpn=耐衝撃性ポリカーボネートレンズを用いたバリスティックゴーグル

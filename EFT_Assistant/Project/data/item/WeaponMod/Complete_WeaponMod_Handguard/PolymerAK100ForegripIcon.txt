@@ -59,3 +59,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=5.000000
 accuracyModifier=0.000000
+Name_Jpn=AK-100 series polymer handguard
+Information_Jpn=A polymer handguard for the 100-series AKs, manufactured by Izhmash. A further modification of the polymer AK-74M handguard. Features a bottom rail for installation of tactical foregrips.

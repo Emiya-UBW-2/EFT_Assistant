@@ -29,3 +29,5 @@ Recoil=-3.000000
 Ergonomics=-2.000000
 centerOfImpact=0.048000
 deviationMax=23
+Name_Jpn=RPK-16 5.45x39 15 inch barrel
+Information_Jpn=A 15 inch (370mm) long barrel for RPK-16 light machine gun, chambered in 5.45x39 ammo.

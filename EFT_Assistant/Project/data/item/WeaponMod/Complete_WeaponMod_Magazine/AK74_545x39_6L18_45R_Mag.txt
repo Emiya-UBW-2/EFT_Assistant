@@ -19,3 +19,5 @@ capacity=45
 loadModifier=0.000000
 ammoCheckModifier=0.150000
 malfunctionChance=0.158000
+Name_Jpn=AK-74 5.45x39 6L18 45-round magazine
+Information_Jpn=A 45-round 5.45x39 Izhmash 6L18 bakelite magazine, for AK-74 and compatible systems. It's also a standard issue RPK-74 magazine.

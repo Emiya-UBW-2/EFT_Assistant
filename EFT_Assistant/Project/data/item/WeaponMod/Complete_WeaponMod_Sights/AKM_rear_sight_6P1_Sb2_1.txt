@@ -20,3 +20,5 @@ Recoil=0.000000
 Ergonomics=0.000000
 SightRange=500
 sightZooms=1.000000
+Name_Jpn=AKM rear sight (6P1 Sb.2-1)
+Information_Jpn=A standard rear sight for AKM automatic rifles, manufactured by Izhmash.

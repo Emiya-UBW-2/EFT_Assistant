@@ -41,3 +41,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=KRISS Vector bottom rail
+Information_Jpn=A bottom rail for the KRISS Vector submachine gun, allows installation of tactical foregrips and accessories.

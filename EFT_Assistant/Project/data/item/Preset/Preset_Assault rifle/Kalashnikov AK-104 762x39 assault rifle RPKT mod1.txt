@@ -27,3 +27,4 @@ containsItems=[
 	Vltor EMOD stockx1/|
 	AK 7.62x39 Molot 75-round drum magazinex1
 ]
+Name_Jpn=AK-104 7.62x39 アサルトライフル RPKT mod.1

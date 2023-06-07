@@ -12,3 +12,5 @@ Sell_Peacekeeper=470
 Sell_Ragman=78322
 fleaMarketFee=0
 propertiestype=ItemPropertiesHelmet
+Name_Jpn=Maska-1SCh bulletproof helmet (Olive Drab)
+Information_Jpn=The Maska-1 bulletproof protective helmet appeared in service in 1991 as a replacement for the "Sphere" helmet, designed for use by the Ministry of Internal Affairs of the Russian Federation armed forces. The Maska-1SCh ("Mask-1 Shield") modification features a steel bulletproof faceshield to ensure maximum protection of the user's face.

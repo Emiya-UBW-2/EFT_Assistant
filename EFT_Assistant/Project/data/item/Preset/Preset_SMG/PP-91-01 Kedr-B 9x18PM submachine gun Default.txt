@@ -20,3 +20,4 @@ containsItems=[
 	PP-91-01 "Kedr-B" 9x18PM sound suppressorx1/|
 	PP-91 "Kedr" 9x18PM 30-round magazinex1
 ]
+Name_Jpn=PP-91-01 "Kedr-B" 9x18PM submachine gun デフォルト

@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-18.000000
 Ergonomics=-2.000000
 accuracyModifier=0.000000
+Name_Jpn=AK Lantac Drakon 7.62x39 muzzle brake
+Information_Jpn=The Drakon muzzle brake-compensator by Lantac is designed for installation on 7.62x39 AK-based weapon systems. Reduces recoil and counters the muzzle climb.

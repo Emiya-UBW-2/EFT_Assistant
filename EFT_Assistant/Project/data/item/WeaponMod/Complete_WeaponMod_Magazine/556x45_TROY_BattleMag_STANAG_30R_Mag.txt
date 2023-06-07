@@ -19,3 +19,5 @@ capacity=30
 loadModifier=-0.100000
 ammoCheckModifier=0.000000
 malfunctionChance=0.020000
+Name_Jpn=5.56x45 TROY BattleMag STANAG 30-round magazine
+Information_Jpn=The TROY BattleMag polymer 30-round magazine, for 5.56x45 ammunition.

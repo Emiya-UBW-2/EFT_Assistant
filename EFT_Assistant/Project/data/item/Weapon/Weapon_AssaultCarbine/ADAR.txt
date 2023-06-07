@@ -110,3 +110,5 @@ cameraRecoil=0.072000
 cameraSnap=3.500000
 deviationMax=23
 convergence=1.500000
+Name_Jpn=ADAR 2-15 5.56x45 carbine
+Information_Jpn=ADAR 2-15 はAR-15プラットフォームに基づいて設計されたロシアの民間用カービンライフルだ。この銃はイスラエル製の部品と"Molot Oruzhie"製のクロムバレルを用いてサンクトペテルブルグで製造されている。

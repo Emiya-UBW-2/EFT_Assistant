@@ -9,3 +9,5 @@ weight=0.015000
 Sell_Fence=400
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=5.45x39mm T gs ammo pack (30 pcs)
+Information_Jpn=5.45x39 T gs弾が30発入っている包装紙。

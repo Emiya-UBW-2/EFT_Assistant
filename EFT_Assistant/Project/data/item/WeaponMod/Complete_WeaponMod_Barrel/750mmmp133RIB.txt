@@ -27,3 +27,5 @@ Recoil=-10.000000
 Ergonomics=-17.000000
 centerOfImpact=0.300000
 deviationMax=10
+Name_Jpn=MP-133 12ga 750mm barrel with rib
+Information_Jpn=A standard factory-produced 750mm barrel with a wide upper rib for MP-133 12 gauge shotguns.

@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=5.000000
 accuracyModifier=0.000000
+Name_Jpn=MDR pistol grip (Black)
+Information_Jpn=A standard pistol grip for MDR assault rifles, manufactured by Desert Tech. Black version.

@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-9.000000
 Ergonomics=-16.000000
 accuracyModifier=0.000000
+Name_Jpn=SureFire SOCOM556-MONSTER 5.56x45 sound suppressor
+Information_Jpn=The SureFire SOCOM556-MONSTER 5.56x45 and .223 sound suppressor, can only be installed on compatible SureFire muzzle devices.

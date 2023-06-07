@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=8.000000
 accuracyModifier=0.000000
+Name_Jpn=Benelli M3 forend
+Information_Jpn=Benelli M3 black synthetic forend with firing mode switch is constructed from polymer with grooved checkering for an easy grip, manufactured by Benelli.

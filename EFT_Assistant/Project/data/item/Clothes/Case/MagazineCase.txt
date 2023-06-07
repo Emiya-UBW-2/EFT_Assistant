@@ -11,3 +11,5 @@ Sell_Ragman=145700
 Sell_Jaeger=141000
 fleaMarketFee=0
 propertiestype=ItemPropertiesContainer
+Name_Jpn=マガジンケース
+Information_Jpn=キャスターの付いた弾倉保管用のケース。

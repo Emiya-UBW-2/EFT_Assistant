@@ -12,3 +12,5 @@ Sell_Fence=5600
 Sell_Mechanic=7840
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=マイナスドライバー
+Information_Jpn=ねじ部品（一般的には頭部分に切れ込みのあるねじ）を締めたり緩めたりするための工具。通常は先端がマイナスの形になった金属の棒にプラスチックか木製のグリップが付いている。

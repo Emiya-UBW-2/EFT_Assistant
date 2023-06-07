@@ -46,3 +46,5 @@ Recoil=0.000000
 Ergonomics=-4.000000
 SightRange=0
 sightZooms=1.000000
+Name_Jpn=BelOMO PK-AA dovetail reflex sight
+Information_Jpn=The PK-AA reflex sight, designed to fit any AK-style model with a dovetail rail mount. Manufactured by BelOMO.

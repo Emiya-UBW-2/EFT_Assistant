@@ -25,3 +25,4 @@ containsItems=[
 	AKMSN shoulder piece (6P4N Sb.1-19)x1/|
 	AKMS 7.62x39 aluminium 30-round magazinex1
 ]
+Name_Jpn=AKMSN 7.62x39 アサルトライフル デフォルト

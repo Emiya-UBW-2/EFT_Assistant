@@ -12,3 +12,5 @@ Sell_Fence=3463
 Sell_Jaeger=5194
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=プレキシグラス
+Information_Jpn=アクリル樹脂、メタクリル酸メチルを原料とするビニルポリマー、熱可塑性プラスチックなどの有機ガラスは、一般的に "プレキシグラス" という商品名で呼ばれている。

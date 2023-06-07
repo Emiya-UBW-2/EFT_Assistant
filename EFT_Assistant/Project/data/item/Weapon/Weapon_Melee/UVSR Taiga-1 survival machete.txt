@@ -13,3 +13,5 @@ propertiestype=ItemPropertiesMelee
 slashDamage=33
 stabDamage=55
 hitRadius=0.500000
+Name_Jpn=UVSR Taiga-1 survival machete
+Information_Jpn=UVSR "救難作業用デバイス" Taiga-1は、様々な機関で用いるためにソ連で開発・製造された多用途のサバイバルツールだ。武器として、シャベルとして、斧として…想像できる限りのあらゆる用途で使用できる。

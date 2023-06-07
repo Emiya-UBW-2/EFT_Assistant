@@ -44,3 +44,5 @@ ChildParts=[
 Recoil=-2.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=FAB Defense buffer tube for AGR-870
+Information_Jpn=The FAB Defense 4-position buffer tube, made to fit the AGR-870 pistol grip.

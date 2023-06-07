@@ -25,3 +25,5 @@ ChildParts=[
 Recoil=-2.000000
 Ergonomics=10.000000
 accuracyModifier=0.000000
+Name_Jpn=SOK-12 Custom Guns Type-340 handguard
+Information_Jpn=Type-340 is a lightweight aircraft grade aluminium handguard, designed for installation on Saiga carbines. Manufactured by Custom Guns.

@@ -76,3 +76,5 @@ ChildParts=[
 Recoil=-1.000000
 Ergonomics=4.000000
 accuracyModifier=0.000000
+Name_Jpn=MP-133 custom plastic forestock with rails
+Information_Jpn=A nonstandard polymer forestock for MP-133 pump-action shotguns, manufactured by an unknown third-party producer. Equipped with 2 short and 1 long mount for installation of additional equipment.

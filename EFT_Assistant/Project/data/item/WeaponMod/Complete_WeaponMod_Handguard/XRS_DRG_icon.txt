@@ -131,3 +131,5 @@ ChildParts=[
 Recoil=-1.000000
 Ergonomics=7.000000
 accuracyModifier=0.000000
+Name_Jpn=SVD CAA XRS-DRG handguard
+Information_Jpn=The XRS-DRG Picatinny handguard for the SVD sniper rifles provides a rigid lightweight accessory platform and multiple mounting positions. Manufactured by CAA Industries.

@@ -12,3 +12,5 @@ Sell_Fence=24480
 Sell_Jaeger=36720
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=圧力計
+Information_Jpn=配管やタンク内の圧力を測定するための計器。

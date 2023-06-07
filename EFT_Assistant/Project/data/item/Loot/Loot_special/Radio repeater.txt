@@ -11,3 +11,5 @@ Sell_Peacekeeper=65
 Sell_Mechanic=9789
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=ラジオリピータ
+Information_Jpn=無線機の通信範囲を広げるために使用する手作りの中継器。

@@ -34,3 +34,5 @@ ChildParts=[
 Recoil=-2.000000
 Ergonomics=11.000000
 accuracyModifier=0.000000
+Name_Jpn=ORSIS T-5000M handguard
+Information_Jpn=A standard handguard for the T-5000M bolt-action sniper rifle, manufactured by ORSIS.

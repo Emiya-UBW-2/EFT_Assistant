@@ -12,3 +12,5 @@ Sell_Fence=24000
 Sell_Mechanic=33600
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=ハンドドリル
+Information_Jpn=古く珍しいもので紛争の前にはほとんど使われなくなっていたが、このような状況下ではとても有用な工具だ。

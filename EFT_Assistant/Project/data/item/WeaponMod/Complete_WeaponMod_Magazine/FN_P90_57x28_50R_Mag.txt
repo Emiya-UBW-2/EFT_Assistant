@@ -19,3 +19,5 @@ capacity=50
 loadModifier=0.750000
 ammoCheckModifier=-0.200000
 malfunctionChance=0.050000
+Name_Jpn=FN P90 5.7x28 50-round magazine
+Information_Jpn=A 50-round polymer magazine for the 5.7x28mm FN P90 SMG.

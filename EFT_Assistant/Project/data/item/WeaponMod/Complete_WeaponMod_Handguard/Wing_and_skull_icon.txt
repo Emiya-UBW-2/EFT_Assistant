@@ -23,3 +23,5 @@ Conflict=[
 Recoil=0.000000
 Ergonomics=15.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 Unique-ARs Wing & Skull 12 inch handguard
+Information_Jpn=The Wing & Skull 12 inch handguard for AR-15 weapon systems. Manufactured by Unique-ARs.

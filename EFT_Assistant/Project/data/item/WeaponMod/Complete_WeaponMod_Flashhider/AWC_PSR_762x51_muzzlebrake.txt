@@ -20,3 +20,5 @@ ChildParts=[
 Recoil=-10.000000
 Ergonomics=-1.000000
 accuracyModifier=0.010000
+Name_Jpn=AWC PSR 7.62x51 muzzle brake
+Information_Jpn=PSR is an effective muzzle brake manufactured by AWC Silencers for 7.62x51. Reduces recoil and counters the muzzle rise. The brake is threaded and compatible with AWC PSR THOR sound suppressors.

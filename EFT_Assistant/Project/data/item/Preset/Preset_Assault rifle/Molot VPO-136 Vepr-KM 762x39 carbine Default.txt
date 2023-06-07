@@ -25,3 +25,4 @@ containsItems=[
 	VPO-136 "Vepr-KM" wooden stockx1/|
 	AK 7.62x39 aluminium 10-round magazinex1
 ]
+Name_Jpn=Molot VPO-136 "Vepr-KM" 7.62x39 carbine デフォルト

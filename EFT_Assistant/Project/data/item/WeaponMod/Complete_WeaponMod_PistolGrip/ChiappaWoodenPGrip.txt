@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=3.000000
 accuracyModifier=0.000000
+Name_Jpn=Chiappa Rhino wooden pistol grip
+Information_Jpn=A wooden pistol grip for Rhino revolvers, manufactured by Chiappa Firearms.

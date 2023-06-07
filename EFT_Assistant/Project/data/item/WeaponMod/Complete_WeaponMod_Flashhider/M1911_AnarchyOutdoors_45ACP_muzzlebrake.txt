@@ -19,3 +19,5 @@ Conflict=[
 Recoil=-14.000000
 Ergonomics=-2.000000
 accuracyModifier=0.000000
+Name_Jpn=M1911 Anarchy Outdoors .45 ACP muzzle brake
+Information_Jpn=A muzzle brake for the M1911A1 pistol, manufactured by Anarchy Outdoors.

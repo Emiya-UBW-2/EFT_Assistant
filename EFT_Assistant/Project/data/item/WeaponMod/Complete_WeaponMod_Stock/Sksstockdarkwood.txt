@@ -20,3 +20,5 @@ ChildParts=[
 Recoil=-15.000001
 Ergonomics=6.000000
 accuracyModifier=0.000000
+Name_Jpn=SKS TOZ wooden stock (56-A-231 Sb.5)
+Information_Jpn=A standard-issue wooden stock for the SKS carbine, manufactured by TOZ.

@@ -13,3 +13,5 @@ Sell_Mechanic=365
 Sell_Jaeger=391
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=単3形 乾電池
+Information_Jpn=単3形 (AA) 乾電池。一般的な電子機器に幅広く使用されている。

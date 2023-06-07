@@ -20,3 +20,5 @@ Conflict=[
 	Ops-Core SLAAP armor helmet plate (Tan)/|
 	Team Wendy EXFIL Ballistic face shield (Black)
 ]
+Name_Jpn=Diamond Age Bastion helmet armor plate
+Information_Jpn=Diamond Age製Bastionヘルメット用の追加防弾モジュール。

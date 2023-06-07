@@ -30,3 +30,5 @@ Recoil=0.000000
 Ergonomics=-6.000000
 SightRange=600
 sightZooms=4.000000
+Name_Jpn=NPZ USP-1 4x スコープ
+Information_Jpn=The USP-1 "Tyulpan" unified rifle scope is designed to conduct accurate fire from AK-74N, AK-74M, AN-94 assault rifles and RPK-74N and PKMN machine guns in the daytime and at night. Installed on dovetail mount rail.

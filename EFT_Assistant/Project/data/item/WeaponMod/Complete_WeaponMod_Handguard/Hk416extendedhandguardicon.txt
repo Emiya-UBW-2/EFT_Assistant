@@ -116,3 +116,5 @@ Conflict=[
 Recoil=-2.000000
 Ergonomics=5.000000
 accuracyModifier=0.000000
+Name_Jpn=HK 416A5 Quad Rail Extended handguard
+Information_Jpn=An extended-length quad rail handguard for HK 416A5 and compatibles. Comes with four picatinny rails for attaching a wide amount of various tactical accessories. Manufactured by Heckler & Koch.

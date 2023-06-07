@@ -19,3 +19,5 @@ capacity=50
 loadModifier=0.300000
 ammoCheckModifier=0.150000
 malfunctionChance=0.168000
+Name_Jpn=MPX 9x19 F5 MFG 50-round drum magazine
+Information_Jpn=An MPX 9x19 drum magazine with a 50-round capacity. Manufactured by F5 MFG.

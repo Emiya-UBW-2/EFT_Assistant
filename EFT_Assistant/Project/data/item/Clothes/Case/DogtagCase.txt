@@ -11,3 +11,5 @@ Sell_Ragman=192200
 Sell_Jaeger=186000
 fleaMarketFee=0
 propertiestype=ItemPropertiesContainer
+Name_Jpn=ドッグタグケース
+Information_Jpn=ドッグタグを収納するための便利な小型のケース。

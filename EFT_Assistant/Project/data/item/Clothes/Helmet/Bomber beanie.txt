@@ -12,3 +12,5 @@ Sell_Peacekeeper=110
 Sell_Ragman=18414
 fleaMarketFee=0
 propertiestype=ItemPropertiesHelmet
+Name_Jpn=Bomber ビーニー
+Information_Jpn=街をうろつく放浪者のシンボル。正しく着用しないとこのビーニーの不思議な力を発揮することはできない。

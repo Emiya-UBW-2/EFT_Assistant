@@ -24,3 +24,5 @@ Recoil=-5.000000
 Ergonomics=-13.000000
 centerOfImpact=0.013000
 deviationMax=33
+Name_Jpn=DVL-10 M2 7.62x51 660mm barrel
+Information_Jpn=A 660mm long 7.62x51 match-grade stainless steel barrel manufactured by LOBAEV Hummer Barrels for the DVL-10 M2 sniper rifle.

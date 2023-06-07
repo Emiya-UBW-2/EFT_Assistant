@@ -22,3 +22,5 @@ Ergonomics=-13.000000
 SightRange=500
 sightZooms=2.500000
 sightZooms=2.500000
+Name_Jpn=Trijicon REAP-IR thermal scope
+Information_Jpn=A versatile thermal imaging telescope/sight. It can be installed on weapons for use in the form of a riflesight, on a helmet - via adapter - as a monocular, and as a separate observation device.

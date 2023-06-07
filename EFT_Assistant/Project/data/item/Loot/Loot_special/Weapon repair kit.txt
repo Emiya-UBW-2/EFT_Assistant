@@ -11,3 +11,5 @@ Sell_Peacekeeper=372
 Sell_Mechanic=56000
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=ウェポンリペアキット
+Information_Jpn=銃器の手入れに必要な工具やメンテナンス用品が入ったツールセット。

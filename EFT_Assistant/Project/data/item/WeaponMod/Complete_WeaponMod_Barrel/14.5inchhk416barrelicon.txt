@@ -60,3 +60,5 @@ Recoil=-3.000000
 Ergonomics=-15.000000
 centerOfImpact=0.055000
 deviationMax=23
+Name_Jpn=HK 416A5 5.56x45 14.5 inch barrel
+Information_Jpn=A 14.5 inch (368mm) barrel for HK416 based weapons for 5.56x45 NATO ammo, includes a flip-up front sight.

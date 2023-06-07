@@ -20,3 +20,5 @@ ChildParts=[
 Recoil=-8.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=M14 Yankee Hill Phantom 7.62x51 flash hider
+Information_Jpn=A muzzle brake-compensator manufactured by Yankee Hill to fit M14 rifles.

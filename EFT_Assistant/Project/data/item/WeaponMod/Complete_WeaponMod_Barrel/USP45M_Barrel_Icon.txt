@@ -18,3 +18,5 @@ Recoil=-4.000000
 Ergonomics=-7.000000
 centerOfImpact=0.230000
 deviationMax=11
+Name_Jpn=HK USP Match .45 ACP barrel
+Information_Jpn=A 153mm barrel for the special version of the USP pistol - USP Match, chambered in .45 ACP. Manufactured by Heckler & Koch.

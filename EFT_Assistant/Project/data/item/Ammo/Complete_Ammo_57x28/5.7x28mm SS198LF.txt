@@ -13,3 +13,5 @@ Sell_Peacekeeper=0
 Sell_Mechanic=75
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=5.7x28mm SS198LF
+Information_Jpn=A 5.7x28mm FN SS198LF cartridge with a 1.8 gram aluminum core open tipped bullet with a copper jacket, in a brass case. This cartridge was designed for use by police forces, reaching higher muzzle velocities compared to other cartridges of the same caliber and providing a considerable stopping power effect, although its own design decreased its capabilities to pierce even the most basic ballistic body protections.

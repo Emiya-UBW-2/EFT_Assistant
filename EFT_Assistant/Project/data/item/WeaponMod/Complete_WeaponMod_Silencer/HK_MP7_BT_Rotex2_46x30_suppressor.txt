@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-10.000000
 Ergonomics=-20.000000
 accuracyModifier=0.000000
+Name_Jpn=HK MP7 B&T Rotex 2 4.6x30 sound suppressor
+Information_Jpn=Rotex 2 is a 4.6x30mm sound suppressor manufactured by Brügger & Thomet. Installed on the HK MP7 submachine guns.

@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-16.000000
 Ergonomics=-27.000000
 accuracyModifier=-0.010000
+Name_Jpn=Hexagon 12K 12ga sound suppressor
+Information_Jpn=12ゲージショットガンやカービン（Saiga、Veprやその他）用のHexagon製サプレッサー。

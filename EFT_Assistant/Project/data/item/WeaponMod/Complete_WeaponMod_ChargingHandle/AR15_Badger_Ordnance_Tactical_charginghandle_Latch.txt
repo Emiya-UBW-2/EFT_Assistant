@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=1.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 Badger Ordnance Tactical Charging Handle Latch
+Information_Jpn=Badger Ordnanceタクティカルチャージングハンドルは軍用のAR-15/M16/M4系ライフルに最適化され、高く評価されている同社の第1世代タクティカルラッチを標準搭載している。全ての部品が6061アルミニウム合金から削り出され 、Mil Spec Type IIIハードコートアルマイト処理が施されている。

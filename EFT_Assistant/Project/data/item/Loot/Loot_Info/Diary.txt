@@ -10,3 +10,5 @@ Sell_Fence=23200
 Sell_Peacekeeper=216
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=ダイアリー
+Information_Jpn=様々な人物の氏名や住所、電話番号といった個人情報が記された黒革の手帖。何かの役に立つかもしれない。

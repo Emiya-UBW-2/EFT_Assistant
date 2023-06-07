@@ -20,3 +20,5 @@ ChildParts=[
 Recoil=-24.000000
 Ergonomics=3.000000
 accuracyModifier=0.000000
+Name_Jpn=FN SCAR retractable polymer stock (FDE)
+Information_Jpn=A retractable polymer stock for the SCAR-series assault rifles, manufactured by Fabrique Nationale Herstal. Flat Dark Earth version.

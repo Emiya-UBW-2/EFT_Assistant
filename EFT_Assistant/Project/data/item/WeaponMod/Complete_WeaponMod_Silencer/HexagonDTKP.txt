@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-10.000000
 Ergonomics=-21.000000
 accuracyModifier=-0.010000
+Name_Jpn=AK Hexagon DTKP MK.2 7.62x39 sound suppressor
+Information_Jpn=The DTKP 7.62x39 sound suppressor manufactured by Hexagon. Designed for modern modification of AK with a 24x1.5 thread.

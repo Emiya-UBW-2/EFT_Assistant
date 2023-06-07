@@ -13,3 +13,5 @@ propertiestype=ItemPropertiesKey
 uses=40
 Map=Customs
 Map=Customs
+Name_Jpn=社員寮114号室の鍵
+Information_Jpn="114" と書かれたタグが付いた2階建ての社員寮の鍵。

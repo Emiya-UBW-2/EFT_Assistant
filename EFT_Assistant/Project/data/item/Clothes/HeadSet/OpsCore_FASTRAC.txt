@@ -19,3 +19,5 @@ Conflict=[
 	GSSh-01 active headset/|
 	Peltor Tactical Sport headset
 ]
+Name_Jpn=Ops-Core FAST RAC ヘッドセット
+Information_Jpn=A component for the Ops-Core FAST helmet - a system of noise reduction and amplification of quiet sounds, as well as a radio headset when connected to the communication device.

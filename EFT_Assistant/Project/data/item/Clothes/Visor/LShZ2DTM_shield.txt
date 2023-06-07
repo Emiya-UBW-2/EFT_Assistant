@@ -19,3 +19,5 @@ Conflict=[
 	AN/PVS-14 Night Vision Monocular/|
 	T-7 Thermal Goggles with a Night Vision mount
 ]
+Name_Jpn=LShZ-2DTM face shield
+Information_Jpn=LSHZ-2DTMヘルメット用の防弾フェイスシールドは、複合材料と防弾ガラスを組み合わせた保護構造を持つ。ヘルメットに装着すれば顔面を保護してくれる。

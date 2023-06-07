@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=9.000000
 accuracyModifier=0.000000
+Name_Jpn=Hogue OverMolded Rubber Grip (Black)
+Information_Jpn=A fiberglass rubber-overmolded anti-slip pistol grip for AR systems, manufactured by Hogue. Black version.

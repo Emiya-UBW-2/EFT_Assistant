@@ -13,3 +13,5 @@ Sell_Peacekeeper=216
 Sell_Ragman=36056
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmor
+Name_Jpn=BNTI Kirasa-N アーマー
+Information_Jpn="Kirasa N"ボディアーマーは軍や警察の特殊部隊向けに開発された、胴体を丸ごと覆う防弾ベストだ。クッションにより通気性が良く、また着弾時の衝撃も抑えられている。

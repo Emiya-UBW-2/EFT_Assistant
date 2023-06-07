@@ -17,3 +17,5 @@ Recoil=0.000000
 Ergonomics=0.000000
 SightRange=200
 sightZooms=1.000000
+Name_Jpn=P226 Meprolight TRU-DOT Night front sight
+Information_Jpn=The TRU-DOT Night front sight for P226 pistols with tritium bars for precision aiming, manufactured by Meprolight.

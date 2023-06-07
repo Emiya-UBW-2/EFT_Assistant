@@ -72,3 +72,5 @@ cameraRecoil=0.076800
 cameraSnap=3.000000
 deviationMax=15
 convergence=1.700000
+Name_Jpn=AS VAL 9x39 special assault rifle
+Information_Jpn=AS VAL (Avtomat Specialniy VAL - "Special Automatic rifle VAL") is a silenced automatic rifle with an integral suppressor designed for special forces units. Developed in TsNIITochMash and based on the VSS Vintorez platform.

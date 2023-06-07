@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=10.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 Magpul MOE pistol grip (FDE)
+Information_Jpn=ポリマー製 Magpul MOE（Magpul Original Equipment）ピストルグリップはAR-15 ピストルグリップと互換性のあるどの銃にも取り付けることができ、人間工学に基づいた形状や滑り止め加工により操作性を向上させることができる。グリップ内部にはスペアパーツや工具、アクセサリーキットや電池などを収納できるスペースがある。

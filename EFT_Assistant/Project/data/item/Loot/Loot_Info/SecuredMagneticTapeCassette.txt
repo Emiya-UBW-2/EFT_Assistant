@@ -10,3 +10,5 @@ Sell_Fence=58000
 Sell_Peacekeeper=539
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=SMT データカートリッジ
+Information_Jpn=SMT は暗号化機能をもつ最先端の大容量テープカートリッジだ。非常に重要な機密情報が入っている可能性が高い。こういった磁気メディアは、アナログデータの信頼性の高さも含めて情報技術の分野においては今なお重宝されている。

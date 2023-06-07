@@ -13,3 +13,5 @@ Sell_Peacekeeper=67
 Sell_Mechanic=10080
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=電子部品
+Information_Jpn=電子機器やあらゆる装置の修理、製作に必要な電子部品を集めたもの。

@@ -84,3 +84,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=Axion Kobra dovetail mount
+Information_Jpn=An aluminum mount for installation of sights and various accessories, commonly can be found in the kit with Kobra sights. Manufactured by Axion.

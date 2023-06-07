@@ -12,3 +12,5 @@ Sell_Fence=80000
 Sell_Jaeger=120000
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink
+Name_Jpn=密造酒 "フィアス ハッチリング"
+Information_Jpn=ハイドアウトで作られた不純物のない一級品の密造酒。沸点の違いを利用した分離と濃縮など、6つの工程からなる蒸留を行うことで、このアルコール度数79度の飲み物が誕生した。ただし、飲めば大抵は悲惨な結果を招くことも忘れずに。

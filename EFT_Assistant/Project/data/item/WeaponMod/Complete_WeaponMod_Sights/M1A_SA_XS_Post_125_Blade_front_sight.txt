@@ -17,3 +17,5 @@ Recoil=0.000000
 Ergonomics=0.000000
 SightRange=500
 sightZooms=1.000000
+Name_Jpn=M1A SA XS Post .125 Blade front sight
+Information_Jpn=The XS Post .125 Blade detachable front sight, manufactured by Springfield Armory.

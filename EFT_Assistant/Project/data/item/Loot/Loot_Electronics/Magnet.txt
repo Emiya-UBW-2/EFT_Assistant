@@ -13,3 +13,5 @@ Sell_Peacekeeper=47
 Sell_Mechanic=7119
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=電磁石
+Information_Jpn=手製の電磁石。きちんと動く電子機器や電動機が不足している状況においては、とても貴重なものだ。

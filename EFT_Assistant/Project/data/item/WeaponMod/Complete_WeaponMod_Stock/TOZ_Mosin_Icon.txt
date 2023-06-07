@@ -20,3 +20,5 @@ ChildParts=[
 Recoil=-42.000000
 Ergonomics=9.000000
 accuracyModifier=0.000000
+Name_Jpn=TOZ-106 custom cut Mosin stock
+Information_Jpn=通常のMosin-NagantストックからTOZ-106に合うようにカットされたカスタムストック。古より伝わるロシアの闇の魔術 "Napiling（現物合わせ）"によって生み出された代物だ。

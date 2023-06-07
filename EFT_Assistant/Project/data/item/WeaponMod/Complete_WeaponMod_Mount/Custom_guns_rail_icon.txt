@@ -38,3 +38,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=Custom Guns レイルガイド
+Information_Jpn=Custom Guns レイルガイド。ハンドガードに追加の装備を取り付けることができる。

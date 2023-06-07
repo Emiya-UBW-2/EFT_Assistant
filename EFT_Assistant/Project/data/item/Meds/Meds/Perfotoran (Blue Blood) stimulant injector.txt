@@ -57,3 +57,5 @@ stimEffectsduration=60
 stimEffectsvalue=-1.100000
 stimEffectspercent=FALSE
 stimEffectsSkiilName=
+Name_Jpn=ペルフォトラン (ブルーブラッド) の注射器
+Information_Jpn=1980年代にソ連の科学者によって開発された酸素運搬能を持つ代用血液。毒素や毒物、放射線障害を和らげる強力な解毒剤として使用される。有機フッ素化合物をベースにしたサブミクロンエマルジョンで、血中に入ると一時的に代謝を促し組織を再生させる。過剰摂取や拒絶反応を起こした場合、健康に悪影響を及ぼす。

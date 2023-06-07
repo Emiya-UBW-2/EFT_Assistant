@@ -19,3 +19,5 @@ ChildParts=[
 Recoil=-7.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 Colt USGI A2 5.56x45 flash hider
+Information_Jpn=The 5.56x45 Colt USGI A2 flash hider (a.k.a. Bird Cage) is designed for mounting on 5.56x45 weapons built on the AR-15 system. However, it can be installed on other weapons of the same caliber provided that barrel has the same threading for muzzle devices. A service muzzle device for M4A1.

@@ -19,3 +19,5 @@ capacity=10
 loadModifier=-0.150000
 ammoCheckModifier=0.000000
 malfunctionChance=0.050000
+Name_Jpn=DVL-10 7.62x51 10-round magazine
+Information_Jpn=A standard-issue DVL-10 sniper rifle magazine by Lobaev Arms, for 7.62x51 cartridges.

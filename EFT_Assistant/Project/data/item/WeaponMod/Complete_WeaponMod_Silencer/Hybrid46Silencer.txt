@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-9.500000
 Ergonomics=-17.000000
 accuracyModifier=0.000000
+Name_Jpn=SilencerCo Hybrid 46 multi-caliber sound suppressor
+Information_Jpn=The SilencerCo Hybrid 46 multi-caliber silencer is designed for use with pistols from 9mm to .45 ACP and rifles from 5.56mm to .45. Respective adapter required for installation on the system.

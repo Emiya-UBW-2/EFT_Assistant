@@ -18,3 +18,5 @@ Recoil=-2.000000
 Ergonomics=-3.000000
 centerOfImpact=0.640000
 deviationMax=9
+Name_Jpn=M870 12ga 355mm barrel
+Information_Jpn=A 355mm barrel for the Remington Model 870 12 gauge shotgun.

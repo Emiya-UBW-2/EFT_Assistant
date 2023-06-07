@@ -52,3 +52,5 @@ cameraRecoil=0.009600
 cameraSnap=3.500000
 deviationMax=11
 convergence=5.000000
+Name_Jpn=Beretta M9A3 9x19ピストル
+Information_Jpn=The Beretta M9A3 is the newest addition to the M9 series of pistols. It was designed for military and police forces, as well as for sport and a home defense use. The main features of the A3 generation are a more ergonomic and durable FDE coating.

@@ -46,3 +46,5 @@ cameraRecoil=0.007200
 cameraSnap=3.500000
 deviationMax=11
 convergence=5.500000
+Name_Jpn=PL-15 9x19 ピストル
+Information_Jpn=Kalashnikov社のドミトリー・レベデフ氏が率いる設計者チームがロシアの法執行機関のニーズに合わせて開発した、9x19mm口径のセルフローディングピストル。

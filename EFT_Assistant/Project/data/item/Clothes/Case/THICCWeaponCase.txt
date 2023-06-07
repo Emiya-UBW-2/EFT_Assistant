@@ -11,3 +11,5 @@ Sell_Ragman=837000
 Sell_Jaeger=810000
 fleaMarketFee=0
 propertiestype=ItemPropertiesContainer
+Name_Jpn=T H I C C ウェポンケース
+Information_Jpn=武器や弾薬、パーツなどを収納できるケース。より大きく長い武器にも対応するために容量を増やした特別仕様。

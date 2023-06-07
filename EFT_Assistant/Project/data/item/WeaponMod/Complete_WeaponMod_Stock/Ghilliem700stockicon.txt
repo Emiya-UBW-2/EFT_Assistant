@@ -43,3 +43,5 @@ Conflict=[
 Recoil=-30.000002
 Ergonomics=14.000000
 accuracyModifier=0.000000
+Name_Jpn=M700 Hogue Overmolded Ghillie stock
+Information_Jpn=The Overmolded Ghillie stock for the Remington Model 700 bolt-action sniper rifle. Manufactured by Hogue.

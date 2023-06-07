@@ -12,3 +12,5 @@ Sell_Ragman=56544
 Sell_Jaeger=54720
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
+Name_Jpn=WARTECH TV-110 plate carrier
+Information_Jpn=A plate carrier with armor plates made of armored steel (Russian GOST class 4 protection) with chest and back protection only, equipped with a set of pouches. Manufactured by WARTECH.

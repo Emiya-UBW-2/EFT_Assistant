@@ -12,3 +12,5 @@ Sell_Peacekeeper=415
 Sell_Ragman=69207
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=Ops-Core SLAAP armor helmet plate (Tan)
+Information_Jpn=Ops-Core製 FASTヘルメットに装着できる追加装甲。特殊ポリエチレンプレート製でクラス5の保護性能を持つ。

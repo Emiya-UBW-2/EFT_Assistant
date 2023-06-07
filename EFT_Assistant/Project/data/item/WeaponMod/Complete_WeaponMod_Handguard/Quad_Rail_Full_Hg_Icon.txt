@@ -127,3 +127,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=6.000000
 accuracyModifier=0.000000
+Name_Jpn=SA-58 quad rail full length handguard
+Information_Jpn=The DS Arms full length quad rail handguard for SA-58 rifles. Equipped with 4 mounts for installation of additional devices and accessories.

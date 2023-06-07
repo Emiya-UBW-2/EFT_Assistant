@@ -22,3 +22,5 @@ Conflict=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=SilencerCo Omega 45k Piston Mount adapter
+Information_Jpn=The Piston Mount adapter for installation of SilencerCo Omega 45k sound suppressor directly onto the barrel threading.

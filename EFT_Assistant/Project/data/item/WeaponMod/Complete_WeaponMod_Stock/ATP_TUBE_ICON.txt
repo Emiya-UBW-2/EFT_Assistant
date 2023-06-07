@@ -44,3 +44,5 @@ ChildParts=[
 Recoil=-2.500000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 RTM ATP buffer tube
+Information_Jpn=The ATP buffer tube, 6-position, Mil-Spec diameter, will fit any AR-15-based carbine. Manufactured by RTM.

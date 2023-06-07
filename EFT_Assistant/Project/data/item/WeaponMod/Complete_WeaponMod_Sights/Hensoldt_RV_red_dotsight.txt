@@ -17,3 +17,5 @@ Recoil=0.000000
 Ergonomics=-2.000000
 SightRange=0
 sightZooms=1.000000
+Name_Jpn=Hensoldt RV red dot sight
+Information_Jpn=Hensoldt RV is part of the HKV sighting system. RV has a light accumulator, which allows it to operate from an external light source. The red dot manually switches to AA battery power in the absence of a sufficient level of illumination.

@@ -22,3 +22,5 @@ Recoil=0.000000
 Ergonomics=-2.000000
 SightRange=800
 sightZooms=4.000000
+Name_Jpn=Trijicon ACOG TA01NSN 4x32 scope (Tan)
+Information_Jpn=Designed to the exact specifications of the US Special Operations Command for use by elite US forces, the Trijicon ACOG TA01NSN is Trijicon’s most popular ACOG. The ranging reticle allows for bullet drop compensation out to 600 meters without any manual adjustments. Additional backup rear sights can be mounted. No batteries needed. Tan version.

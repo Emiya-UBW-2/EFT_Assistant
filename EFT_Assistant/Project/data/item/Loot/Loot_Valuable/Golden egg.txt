@@ -12,3 +12,5 @@ Sell_Skier=33320
 Sell_Peacekeeper=253
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=ゴールデンエッグ
+Information_Jpn="Meyer" と刻印された金色のタマゴ。

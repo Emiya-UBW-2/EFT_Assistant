@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=14.000000
 accuracyModifier=0.000000
+Name_Jpn=AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip
+Information_Jpn=A lightweight ergonomic pistol grip for AK series weapon systems, features the "Sniper Kit" palm shelf for user comfort and hand rest. Manufactured by Custom Arms.

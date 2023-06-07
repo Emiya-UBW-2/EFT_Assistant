@@ -11,3 +11,5 @@ Sell_Ragman=22320
 Sell_Jaeger=21600
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
+Name_Jpn=Hazard 4 Drawbridge backpack (Coyote Tan)
+Information_Jpn=Drawbridge is an ergonomical medium-size 25L backpack with an impressive amount of modular pouches and straps. Manufactured by Hazard 4.

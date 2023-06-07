@@ -25,3 +25,4 @@ containsItems=[
 	Benelli M3 Ghost Ring rear sightx1/|
 	Benelli M3 Super 90 charging handlex1
 ]
+Name_Jpn=Benelli M3 Super 90 dual-mode 12ga shotgun デフォルト

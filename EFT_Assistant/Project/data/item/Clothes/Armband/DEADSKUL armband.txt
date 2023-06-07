@@ -11,3 +11,5 @@ Sell_Skier=34300
 Sell_Ragman=43400
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=DEADSKUL armband
+Information_Jpn=An armband from Fence, only for real collectors.

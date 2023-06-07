@@ -128,3 +128,5 @@ cameraRecoil=0.074400
 cameraSnap=3.500000
 deviationMax=23
 convergence=1.600000
+Name_Jpn=AK-105 5.45x39 アサルトライフル
+Information_Jpn=The AK-105 5.45x39mm assault rifle is a further modernized version of AK-74M base. A short compact version equipped with a side-folding shoulder stock and a side mount for optical and night scopes. The 100-series AKs are produced by the Izhmash factories in Izhevsk, Russia.

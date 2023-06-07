@@ -60,3 +60,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=FN SCAR side rail
+Information_Jpn=A side rail for the SCAR-series handguards that allows installation of additional tactical equipment.

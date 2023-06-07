@@ -68,3 +68,5 @@ Conflict=[
 Recoil=-1.000000
 Ergonomics=5.500000
 accuracyModifier=0.000000
+Name_Jpn=AR-10 CMMG MK3 RML15 15 inch M-LOK handguard
+Information_Jpn=A 15 inch handguard for AR-10 weapon systems, equipped with an M-LOK interface for attaching additional equipment. Manufactured by CMMG.

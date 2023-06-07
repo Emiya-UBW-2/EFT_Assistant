@@ -58,3 +58,5 @@ Conflict=[
 	Team Wendy EXFIL Ballistic face shield (Black)/|
 	GSSh-01 active headset
 ]
+Name_Jpn=GP-7 gas mask
+Information_Jpn=GP-7民生用ガスマスクは呼吸器や目、顔といった器官を保護する個人防護具だ。

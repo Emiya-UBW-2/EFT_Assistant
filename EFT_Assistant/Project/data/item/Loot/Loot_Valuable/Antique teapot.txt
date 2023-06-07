@@ -12,3 +12,5 @@ Sell_Skier=22981
 Sell_Peacekeeper=174
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=アンティークのティーポット
+Information_Jpn=蒐集品としても希少価値の高いアンティークの銀製ティーセットの中の一品。

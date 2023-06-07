@@ -28,3 +28,4 @@ containsItems=[
 	Magpul MOE Carbine stock (Black)x1/|
 	Magpul MOE Carbine rubber buttpadx1
 ]
+Name_Jpn=DS Arms SA-58 7.62x51 assault rifle デフォルト

@@ -39,3 +39,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=SR-2M side rail
+Information_Jpn=A side rail for SR-2M "Veresk" that allows installation of additional tactical equipment.

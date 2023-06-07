@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=3.000000
 accuracyModifier=0.000000
+Name_Jpn=KAC URX 3/3.1 long panel
+Information_Jpn=A long rail cover for the URX 3/3.1 handguards, manufactured by Knight's Armament Company.

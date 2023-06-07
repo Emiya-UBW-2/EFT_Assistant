@@ -90,3 +90,5 @@ cameraRecoil=0.052800
 cameraSnap=3.500000
 deviationMax=11
 convergence=2.800000
+Name_Jpn=HK UMP .45 ACP submachine gun
+Information_Jpn=The Heckler & Koch UMP submachine gun was designed by the German company Heckler & Koch in the 1990s as a lighter and cheaper analog to the MP5. This version is designed to fire a .45 ACP cartridge and has a reduced fire rate of 600 rpm.

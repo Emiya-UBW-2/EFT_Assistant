@@ -19,3 +19,5 @@ capacity=30
 loadModifier=0.000000
 ammoCheckModifier=0.000000
 malfunctionChance=0.080000
+Name_Jpn=AK-74 5.45x39 6L23 30-round magazine
+Information_Jpn=A 30-round polymer Izhmash 6L23 magazine for 5.45x39 ammo, for AK-74 and compatible systems.

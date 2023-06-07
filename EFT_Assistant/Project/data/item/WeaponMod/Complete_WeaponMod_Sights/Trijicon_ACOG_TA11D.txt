@@ -21,3 +21,5 @@ Recoil=0.000000
 Ergonomics=-2.000000
 SightRange=800
 sightZooms=3.500000
+Name_Jpn=Trijicon ACOG 3.5x35 スコープ
+Information_Jpn=The ACOG 3.5x35 riflescope manufactured by Trijicon. Still remains a favorite among competitive shooters, law enforcement and freedom-loving civilians from everywhere around the world.

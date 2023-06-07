@@ -12,3 +12,5 @@ Sell_Peacekeeper=296
 Sell_Ragman=49265
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=Rys-T フェイスシールド
+Information_Jpn=Rysヘビーヘルメット用の特殊な防弾フェイスシールド。銃弾や破片から着用者を保護し生存率を向上させる。

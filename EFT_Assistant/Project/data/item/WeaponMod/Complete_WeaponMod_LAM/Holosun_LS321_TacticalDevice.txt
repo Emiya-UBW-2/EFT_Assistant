@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=-2.000000
 accuracyModifier=0.000000
+Name_Jpn=Holosun LS321 タクティカルデバイス
+Information_Jpn=Holosun LS321はマルチレーザータクティカルデバイスであり、グリーンレーザーやIRレーザー、IRサーチライトの照射機能を備えている。

@@ -13,3 +13,5 @@ propertiestype=ItemPropertiesMelee
 slashDamage=30
 stabDamage=40
 hitRadius=0.500000
+Name_Jpn=SP-8 サバイバルマチェット
+Information_Jpn=SP-8 is a survival machete made of a single piece of high carbon steel. Manufactured by Ontario Knife Company.

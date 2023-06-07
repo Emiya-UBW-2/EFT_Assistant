@@ -30,3 +30,5 @@ Recoil=0.000000
 Ergonomics=-3.000000
 SightRange=0
 sightZooms=1.000000
+Name_Jpn=NPZ PK1 "Obzor" reflex sight
+Information_Jpn=A reflex sight designed for hunters for fast acquisition of the target while operating in highly cold temperatures, installed on dovetail rails. Manufactured by NPZ.

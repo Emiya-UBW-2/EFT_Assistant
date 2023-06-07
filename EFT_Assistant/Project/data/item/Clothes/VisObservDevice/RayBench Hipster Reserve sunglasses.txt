@@ -12,3 +12,5 @@ Sell_Peacekeeper=13
 Sell_Ragman=2219
 fleaMarketFee=0
 propertiestype=ItemPropertiesGlasses
+Name_Jpn=RayBench ヒップスターリザーブ サングラス
+Information_Jpn=流行の最先端に立ちたいのならこのサングラスがオススメだ。プレゼントとしても喜ばれるだろう。

@@ -19,3 +19,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=SilencerCo Omega 45k Direct Thread Mount adapter
+Information_Jpn=The Direct Thread Mount adapter for installation of SilencerCo Omega 45k sound suppressor directly onto the barrel threading.

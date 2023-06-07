@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=1.000000
 accuracyModifier=0.000000
+Name_Jpn=Glock SAI 9x19 thread protector
+Information_Jpn=A thread protector for threaded barrels of Glock family pistols, manufactured by Salient Arms International.

@@ -13,3 +13,5 @@ Sell_Peacekeeper=1
 Sell_Mechanic=169
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=12/70 RIP
+Information_Jpn=RIP（Radically Invasive Projectile）弾は極めて効果の高い対人用の弾薬だ。この12ゲージ弾は精密機械加工された銅製の鉛不使用の弾頭を持ち、人体に破壊的なダメージを与えるように設計されている。

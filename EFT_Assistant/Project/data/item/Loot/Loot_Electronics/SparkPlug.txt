@@ -13,3 +13,5 @@ Sell_Peacekeeper=41
 Sell_Mechanic=6153
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=スパークプラグ
+Information_Jpn=ガソリンエンジンで使用される点火プラグ。エンジンの燃焼サイクルのうち燃焼工程になる度に電極間で数千～数万ボルトの放電を行って燃料と空気の混合気に点火する。

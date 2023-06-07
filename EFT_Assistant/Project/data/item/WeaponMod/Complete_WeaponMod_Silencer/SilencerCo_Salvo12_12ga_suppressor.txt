@@ -21,3 +21,5 @@ Conflict=[
 Recoil=-18.000000
 Ergonomics=-28.000000
 accuracyModifier=0.070000
+Name_Jpn=SilencerCo Salvo 12 12ga sound suppressor
+Information_Jpn=A sound moderator made by SilencerCo for 12ga shotguns and carbines (Saiga, Vepr and others). Quite heavy, but very effective nonetheless. Requires an adapter.

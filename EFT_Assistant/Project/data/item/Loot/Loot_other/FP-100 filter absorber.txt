@@ -12,3 +12,5 @@ Sell_Fence=32800
 Sell_Skier=40180
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=FP-100 フィルターアブソーバー
+Information_Jpn=FP-100 フィルターアブソーバーは、化学工場のような場所から排出される汚染された空気を浄化するために設計された。放射性物質や細菌によるエアロゾル感染にも対応できる。

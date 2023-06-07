@@ -105,3 +105,5 @@ cameraRecoil=0.120000
 cameraSnap=2.500000
 deviationMax=10
 convergence=1.500000
+Name_Jpn=Saiga 12ga ver.10 12/76 semi-automatic shotgun
+Information_Jpn=A semi-automatic 12 gauge shotgun with a folding stock, equipped with a firing mechanism safety lock that only allows firing from extended stock position. Features a short 430mm barrel.

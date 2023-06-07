@@ -20,3 +20,5 @@ Recoil=0.000000
 Ergonomics=-3.000000
 SightRange=200
 sightZooms=1.000000
+Name_Jpn=SR-2M KP-SR2 reflex sight
+Information_Jpn=The KP-SR2 reflex sight is designed to increase the efficiency of firing SR-2M "Veresk" submachine gun. The sight facilitates the process of aiming a weapon at a target, especially in low light conditions, and allows you to increase combat efficiency. Manufactured by TsNIItochmash.

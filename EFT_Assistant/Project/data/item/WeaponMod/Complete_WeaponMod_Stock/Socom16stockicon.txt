@@ -23,3 +23,5 @@ ChildParts=[
 Recoil=-35.000000
 Ergonomics=20.000000
 accuracyModifier=0.000000
+Name_Jpn=M1A SOCOM 16 stock
+Information_Jpn=The SOCOM 16 polymer stock for M1A rifles, manufactured by Springfield Armory.

@@ -11,3 +11,5 @@ Sell_Fence=24241
 Sell_Jaeger=36362
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=フューエルコンディショナー
+Information_Jpn=軽油の品質を向上してくれる燃料添加剤。今となっては希少で用途の限られた組成物だ。

@@ -12,3 +12,5 @@ Sell_Peacekeeper=225
 Sell_Ragman=37487
 fleaMarketFee=0
 propertiestype=ItemPropertiesHelmet
+Name_Jpn=HighCom Striker ACHHC IIIA helmet (Olive)
+Information_Jpn=A combat helmet manufactured by HighCom, the High Cut version. Does not feature any additional mounts. Olive version.

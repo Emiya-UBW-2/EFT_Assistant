@@ -25,3 +25,4 @@ containsItems=[
 	AKM wooden stock (6P1 Sb.5)x1/|
 	AK 7.62x39 6L10 30-round magazinex1
 ]
+Name_Jpn=AKMN 7.62x39 アサルトライフル デフォルト

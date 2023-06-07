@@ -11,3 +11,5 @@ Sell_Fence=20000
 Sell_Jaeger=30000
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink
+Name_Jpn=ダン ジャキール ウィスキー
+Information_Jpn=PMCに最も人気のあるウイスキー。蒸留にサマーラ産のサトウカエデの炭を用いる独特な製法で作られている。当然のことながら、これはアルコール飲料でアルコールは有害だ。俺たちのような傭兵にとっては特に。

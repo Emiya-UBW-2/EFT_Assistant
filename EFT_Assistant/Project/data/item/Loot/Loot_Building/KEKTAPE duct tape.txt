@@ -12,3 +12,5 @@ Sell_Fence=9600
 Sell_Jaeger=14400
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=ケクテープ
+Information_Jpn=強力な "ケクテープ" でも困難に満ちたタルコフの状況を修復することはできないが、これがあれば、ボートの修復や水槽の穴を塞ぐなど、様々なことができるはずだ。

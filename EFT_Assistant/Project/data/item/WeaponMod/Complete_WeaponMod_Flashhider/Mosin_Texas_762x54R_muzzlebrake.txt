@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-23.000000
 Ergonomics=-2.000000
 accuracyModifier=0.030000
+Name_Jpn=Mosin Rifle Texas Precision Products 7.62x54R muzzle brake
+Information_Jpn=A muzzle brake designed for installation on the Mosin rifle, manufactured by Texas Precision Products.

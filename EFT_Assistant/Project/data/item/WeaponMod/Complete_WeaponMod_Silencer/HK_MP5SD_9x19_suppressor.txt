@@ -19,3 +19,5 @@ ChildParts=[
 Recoil=-22.000000
 Ergonomics=-5.000000
 accuracyModifier=0.000000
+Name_Jpn=HK MP5SD 9x19 sound suppressor
+Information_Jpn=A standard MP5SD sound suppressor manufactured by Heckler & Koch.

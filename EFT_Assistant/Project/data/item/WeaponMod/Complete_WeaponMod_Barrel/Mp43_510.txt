@@ -18,3 +18,5 @@ Recoil=-5.000000
 Ergonomics=-5.000000
 centerOfImpact=0.510000
 deviationMax=10
+Name_Jpn=MP-43-1C 12ga 510mm barrel
+Information_Jpn=A 510mm long 12 gauge barrel for the MP-43-1C double-barrelled shotgun.

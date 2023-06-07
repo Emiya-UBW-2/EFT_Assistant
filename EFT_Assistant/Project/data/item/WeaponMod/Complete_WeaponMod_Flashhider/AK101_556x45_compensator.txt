@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-10.000000
 Ergonomics=-2.000000
 accuracyModifier=0.000000
+Name_Jpn=AK-101 5.56x45 muzzle brake-compensator
+Information_Jpn=A standard Izhmash-produced muzzle brake and compensator for the AK-101 and weapon systems based on it.

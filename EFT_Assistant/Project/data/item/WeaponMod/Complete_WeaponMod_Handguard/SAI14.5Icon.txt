@@ -124,3 +124,5 @@ Conflict=[
 Recoil=-3.000000
 Ergonomics=12.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 SAI 14.5 inch QD Rail handguard
+Information_Jpn=The Salient Arms International QD Rail handguard for AR-15 equipped with an M-LOK interface for the installation of additional devices and accessories.

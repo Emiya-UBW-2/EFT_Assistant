@@ -13,3 +13,5 @@ Sell_Peacekeeper=47
 Sell_Mechanic=7139
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=プリント基板
+Information_Jpn=あらゆる電子機器に使われているコンポーネント。電子回路を作るうえで欠かせないものだ。

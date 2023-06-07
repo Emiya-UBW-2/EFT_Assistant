@@ -11,3 +11,5 @@ Sell_Ragman=762596
 Sell_Jaeger=737996
 fleaMarketFee=0
 propertiestype=ItemPropertiesContainer
+Name_Jpn=アイテムケース
+Information_Jpn=あらゆるアイテムを収納できるケース。

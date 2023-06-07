@@ -27,3 +27,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=HK USP rail adapter
+Information_Jpn=An adapter for the USP pistol that allows the installation of additional tactical equipment. Manufactured by Heckler & Koch.

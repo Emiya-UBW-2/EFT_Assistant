@@ -15,3 +15,5 @@ propertiestype=ItemPropertiesArmorAttachment
 Conflict=[
 	Respirator
 ]
+Name_Jpn=Galvion Caiman Hybrid Ballistic Mandible Guard
+Information_Jpn=Galvion Caimanヘルメット用の追加防弾装備。側面のレイルに装着する。

@@ -12,3 +12,5 @@ Sell_Peacekeeper=28
 Sell_Ragman=4650
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=付け白髭
+Information_Jpn=An artificial white beard. Christmas spirit? Maybe...

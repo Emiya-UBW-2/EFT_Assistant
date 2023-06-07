@@ -12,3 +12,5 @@ Sell_Fence=9800
 Sell_Skier=12005
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=ウォーターフィルター
+Information_Jpn=食品業界の生産現場や家庭でも使用されている木炭を利用したろ過装置。有害な不純物を取り除き、水を浄化してくれる。

@@ -67,3 +67,5 @@ cameraRecoil=0.100800
 cameraSnap=3.500000
 deviationMax=23
 convergence=1.500000
+Name_Jpn=Molot VPO-101 "Vepr-Hunter" 7.62x51 carbine
+Information_Jpn=A semi-automatic 7.62x51mm caliber hunting carbine. It was created on the platform of Kalashnikov machine gun (RPK) and has a similar appearance, weight and dimensions. Designed for professional and amateur hunting of medium and big game, as well as sporting use.

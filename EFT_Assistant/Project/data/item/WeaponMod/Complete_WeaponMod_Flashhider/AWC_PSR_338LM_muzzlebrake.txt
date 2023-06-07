@@ -20,3 +20,5 @@ ChildParts=[
 Recoil=-14.000000
 Ergonomics=-1.000000
 accuracyModifier=0.010000
+Name_Jpn=AWC PSR .338 LM muzzle brake
+Information_Jpn=PSR is an effective muzzle brake manufactured by AWC Silencers for .338 LM (8.6x70). Reduces recoil and counters the muzzle rise. The brake is threaded and compatible with AWC PSR THOR sound suppressors.

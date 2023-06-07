@@ -106,3 +106,5 @@ ChildParts=[
 Recoil=-1.000000
 Ergonomics=6.000000
 accuracyModifier=0.000000
+Name_Jpn=HK 416A5 5.56x45 upper receiver
+Information_Jpn=An upper receiver for the 416A5 assault rifle manufactured by Heckler & Koch. Equipped with a mount for attaching additional devices.

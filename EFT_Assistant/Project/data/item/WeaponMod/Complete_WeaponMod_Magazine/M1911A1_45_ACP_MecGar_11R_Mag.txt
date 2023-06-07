@@ -19,3 +19,5 @@ capacity=11
 loadModifier=-0.250000
 ammoCheckModifier=-0.200000
 malfunctionChance=0.070000
+Name_Jpn=M1911A1 .45 ACP Mec-Gar 11-round magazine
+Information_Jpn=An 11-round .45 ACP magazine for the Colt M1911A1 pistol, manufactured by Mec-Gar.

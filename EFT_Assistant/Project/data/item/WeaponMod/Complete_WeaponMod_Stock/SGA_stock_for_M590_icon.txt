@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-42.000000
 Ergonomics=10.000000
 accuracyModifier=0.000000
+Name_Jpn=Mossberg 590A1 Magpul SGA stock
+Information_Jpn=An ergonomic polymer stock for the Mossberg 590A1 shotgun with a rubber butt-plate, manufactured by Magpul.

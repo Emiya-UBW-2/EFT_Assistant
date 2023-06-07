@@ -12,3 +12,5 @@ Sell_Peacekeeper=18
 Sell_Ragman=3007
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=Kolpak-1S face shield
+Information_Jpn=A weak protection from eye and face damage, made to mount on Kolpak-1S helmet.

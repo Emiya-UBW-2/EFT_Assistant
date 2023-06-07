@@ -20,3 +20,4 @@ containsItems=[
 	APS front sightx1/|
 	APS rear sightx1
 ]
+Name_Jpn=Stechkin APS 9x18PM machine pistol デフォルト

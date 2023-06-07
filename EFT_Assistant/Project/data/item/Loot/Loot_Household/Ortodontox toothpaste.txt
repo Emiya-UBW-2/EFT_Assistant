@@ -10,3 +10,5 @@ Sell_Therapist=3402
 Sell_Fence=2160
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=オルトドントックス 歯磨き粉
+Information_Jpn=10人中9人の歯科医師が認めた歯磨き粉。もうひとりが最初に薦めていたのは靴磨きだったらしいから、そいつは正気を失っていたんだろう。

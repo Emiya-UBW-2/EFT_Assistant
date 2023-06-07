@@ -19,3 +19,5 @@ capacity=10
 loadModifier=-0.150000
 ammoCheckModifier=0.000000
 malfunctionChance=0.030000
+Name_Jpn=M700 7.62x51 ProMag AA-70 10-round magazine
+Information_Jpn=A Remington M700 sniper rifle magazine by ProMag, for the Archangel M700 stock. Accepts 7.62x51 cartridges and has a 10-round capacity.

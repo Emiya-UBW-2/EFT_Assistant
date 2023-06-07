@@ -20,3 +20,5 @@ ChildParts=[
 Recoil=-34.000000
 Ergonomics=6.000000
 accuracyModifier=0.000000
+Name_Jpn=PP-19-01 "Vityaz" metal skeleton stock
+Information_Jpn=A skeletonized metal stock for PP-19-01 Vityaz SMGs and Saiga-9 carbines, manufactured by Izhmash.

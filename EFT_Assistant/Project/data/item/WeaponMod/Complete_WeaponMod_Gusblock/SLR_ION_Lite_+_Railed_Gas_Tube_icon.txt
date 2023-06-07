@@ -65,3 +65,5 @@ ChildParts=[
 Recoil=-5.000000
 Ergonomics=9.000000
 accuracyModifier=0.000000
+Name_Jpn=RD-704 SLR ION Lite + Railed Gas Tube handguard & gas tube combo
+Information_Jpn=A combined kit of the ION Lite 9 inch handguard with the Railed Gas Tube, can be installed on RD-704 assault rifles. Manufactured by SLR.

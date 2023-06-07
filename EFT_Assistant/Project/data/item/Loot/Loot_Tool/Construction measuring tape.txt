@@ -12,3 +12,5 @@ Sell_Fence=1507
 Sell_Mechanic=2110
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=コンベックス
+Information_Jpn=長さを測るための道具で、計測部が湾曲した薄い金属製のテープになっている巻尺。建設や改修工事の現場では欠かせないものだ。

@@ -48,3 +48,5 @@ Recoil=-3.000000
 Ergonomics=-6.000000
 centerOfImpact=0.065000
 deviationMax=23
+Name_Jpn=FN SCAR-H 7.62x51 13 inch barrel
+Information_Jpn=A 13 inches long (330mm) barrel for the SCAR-series weapons chambered in 7.62x51 NATO ammo.

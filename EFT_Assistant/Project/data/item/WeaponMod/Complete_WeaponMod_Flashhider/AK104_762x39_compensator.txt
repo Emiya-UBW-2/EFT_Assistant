@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-8.000000
 Ergonomics=-2.000000
 accuracyModifier=0.000000
+Name_Jpn=AK-104 7.62x39 muzzle brake-compensator (6P46 0-20)
+Information_Jpn=A standard Izhmash-produced muzzle brake and compensator for the AK-104 7.62x39 assault rifle.

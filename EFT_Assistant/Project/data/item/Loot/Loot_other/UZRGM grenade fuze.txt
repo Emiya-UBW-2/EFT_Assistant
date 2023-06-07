@@ -12,3 +12,5 @@ Sell_Fence=3240
 Sell_Skier=3969
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=UZRGM グレネードヒューズ
+Information_Jpn=UZRGM (Universalny Zapal Ruchnoy Granaty Modernizirovanny) は "万能な手榴弾用信管の改良型" 。UZRGとは異なる遅延信管で、アジ化物が入った雷管をアルミブッシング内のスリーブに収納している。手榴弾の製造には欠かせない火工品だ。

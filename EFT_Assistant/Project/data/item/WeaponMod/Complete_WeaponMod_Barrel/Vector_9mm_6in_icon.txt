@@ -25,3 +25,5 @@ Recoil=-4.000000
 Ergonomics=-2.000000
 centerOfImpact=0.180000
 deviationMax=8
+Name_Jpn=KRISS Vector 9x19 6 inch barrel
+Information_Jpn=A 6 inch (170mm) threaded barrel for the KRISS Vector 9x19 submachine gun.

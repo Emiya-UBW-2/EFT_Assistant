@@ -15,3 +15,5 @@ propertiestype=ItemPropertiesMedicalItem
 useTime=3.000000
 cures=[HeavyBleeding]
 uses=3
+Name_Jpn=キャロック-B 止血剤
+Information_Jpn=キャロック-Bは、銃創のような開口した傷口に直接、血液凝固を促進する顆粒を注入することで瞬く間に出血を止めることができる止血剤だ。

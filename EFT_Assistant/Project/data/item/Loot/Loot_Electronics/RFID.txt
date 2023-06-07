@@ -13,3 +13,5 @@ Sell_Peacekeeper=179
 Sell_Mechanic=26880
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=UHF RFID リーダー
+Information_Jpn=高性能なUHF帯のRFIDリーダー。独自の効率的なデジタル信号処理アルゴリズムによって、ICタグのコード情報を高速に 読み取る / 書き込む ことが可能なため、物流管理、アクセス制御、偽造防止、生産管理システムなど、RFIDを使用するシステムに幅広く利用できる。

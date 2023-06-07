@@ -19,3 +19,5 @@ Ergonomics=-5.000000
 SightRange=1000
 sightZooms=6.000000
 sightZooms=1.000000
+Name_Jpn=Valday PS-320 1/6x scope
+Information_Jpn=PS-320 1x/6x is a prototype scope designed by Valday.

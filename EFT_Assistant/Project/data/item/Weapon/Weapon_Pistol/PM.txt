@@ -30,3 +30,5 @@ cameraRecoil=0.009600
 cameraSnap=3.500000
 deviationMax=10
 convergence=5.000000
+Name_Jpn=Makarov PM 9x18PM pistol
+Information_Jpn=The time-proven PM pistol (Pistolét Makárova - "Makarov Pistol", GAU Index - 56-A-125). Due to the ubiquitous spread of both the pistol and its ammunition, as well as its exceptional reliability, light weight, and compact size, the PM still sees wide service in both police, military, and security forces. Although the damage makes you wish for the best.

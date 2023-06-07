@@ -12,3 +12,5 @@ Sell_Fence=13200
 Sell_Mechanic=18480
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=マイナスドライバー (長軸)
+Information_Jpn=手が届きにくい場所の作業に最適な長軸のマイナスドライバー。

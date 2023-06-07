@@ -38,3 +38,5 @@ cameraRecoil=0.040800
 cameraSnap=3.500000
 deviationMax=7
 convergence=2.000000
+Name_Jpn=HK MP5 9x19 submachine gun (Navy 3 Round Burst)
+Information_Jpn=3点バーストを搭載した"Navy"タイプのHK製MP5サブマシンガン。サブマシンガンの原型として高く評価されている銃で、GSG9のような特殊部隊が使用する武器として知られている。また映画やゲームで数多く登場したことで有名となった。

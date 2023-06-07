@@ -19,3 +19,5 @@ capacity=95
 loadModifier=0.900000
 ammoCheckModifier=0.250000
 malfunctionChance=0.394000
+Name_Jpn=RPK-16 5.45x39 95-round drum magazine
+Information_Jpn=A 95-round 5.45x39 polymer Izhmash magazine, for the RPK-16 and compatible systems.

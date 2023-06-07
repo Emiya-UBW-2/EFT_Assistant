@@ -69,3 +69,5 @@ cameraRecoil=0.081600
 cameraSnap=3.500000
 deviationMax=23
 convergence=1.500000
+Name_Jpn=VSS Vintorez 9x39 special sniper rifle
+Information_Jpn=VSS (Vintovka Sniperskaya Specialnaya - "Special Sniper Rifle") is an integrally suppressed sniper rifle, designed in the 80s in the TsNIITochMash institute for the needs of special-purpose teams and task forces.

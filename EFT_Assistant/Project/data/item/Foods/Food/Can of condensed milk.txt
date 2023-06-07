@@ -11,3 +11,5 @@ Sell_Fence=9977
 Sell_Jaeger=14965
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink
+Name_Jpn=コンデンスミルク
+Information_Jpn=ロシアでは "スグションカ" とも呼ばれる加糖練乳。かつては南北戦争の北軍兵士が携帯する野戦食の一つに過ぎなかったが、旧ソビエト連邦の国々では空前の人気を博し、今では定番の商品になりつつある。缶詰にすれば、味と栄養価を保ったまま何十年も保存できる。

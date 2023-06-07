@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-33.000000
 Ergonomics=7.000000
 accuracyModifier=0.000000
+Name_Jpn=Mossberg 590A1 polymer stock
+Information_Jpn=A classical-looking polymer stock for Mossberg 590A1 shotguns with a rubber butt-plate.

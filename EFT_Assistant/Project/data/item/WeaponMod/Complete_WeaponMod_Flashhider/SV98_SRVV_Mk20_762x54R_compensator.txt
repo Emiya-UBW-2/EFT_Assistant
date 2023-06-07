@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-19.000000
 Ergonomics=-2.000000
 accuracyModifier=0.060000
+Name_Jpn=SV-98 SRVV Mk.2.0 7.62x54R muzzle brake-compensator
+Information_Jpn=The Mk.2.0 compensator produced by SRVV for SV-98 sniper rifles.

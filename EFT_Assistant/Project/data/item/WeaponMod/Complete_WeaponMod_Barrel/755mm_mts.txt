@@ -25,3 +25,5 @@ Recoil=-10.000000
 Ergonomics=-18.000000
 centerOfImpact=0.280000
 deviationMax=11
+Name_Jpn=MTs-255-12 12ga 755mm barrel with rib
+Information_Jpn=A standard factory-produced 755mm barrel with a wide upper rib for MTs-255 12 gauge shotguns.

@@ -19,3 +19,5 @@ ChildParts=[
 Recoil=-17.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=AK Hexagon Reactor 5.45x39 muzzle brake
+Information_Jpn=The "Reactor" prototype muzzle brake manufactured by Hexagon for 5.45x39 AK platforms. Features mounts required for installation of the "Wafflemaker" sound suppressor.

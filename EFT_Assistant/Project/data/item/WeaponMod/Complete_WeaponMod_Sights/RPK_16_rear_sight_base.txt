@@ -26,3 +26,5 @@ Recoil=0.000000
 Ergonomics=0.000000
 SightRange=600
 sightZooms=1.000000
+Name_Jpn=RPK-16 rear sight base
+Information_Jpn=A detachable base for the Izhmash-manufactured rear sight for the RPK-16 LMG.

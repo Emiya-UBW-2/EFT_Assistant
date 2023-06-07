@@ -12,3 +12,5 @@ Sell_Fence=33211
 Sell_Skier=40684
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=ルートロードのぬいぐるみ
+Information_Jpn="ルートロード" のぬいぐるみはタルコフ在住の有名人、AquaFPS のグッズ。超レアなコレクターズアイテムだ！

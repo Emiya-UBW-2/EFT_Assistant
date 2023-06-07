@@ -10,3 +10,5 @@ Sell_Therapist=3711
 Sell_Fence=2356
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=PAID 殺虫剤
+Information_Jpn=ゴキブリやアリを戦術的に全滅させるための戦闘用スプレー。ハイドアウトのメンテナンスに欠かせないものだ。

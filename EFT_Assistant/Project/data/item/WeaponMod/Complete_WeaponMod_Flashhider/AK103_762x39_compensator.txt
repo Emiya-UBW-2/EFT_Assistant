@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-10.000000
 Ergonomics=-2.000000
 accuracyModifier=0.000000
+Name_Jpn=AK-103 7.62x39 muzzle brake-compensator
+Information_Jpn=A standard Izhmash-produced muzzle brake and compensator for the AK-103.

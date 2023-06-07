@@ -18,3 +18,4 @@ containsItems=[
 	MP-443 "Grach" 9x19 18-round magazinex1/|
 	MP-443 "Grach" polymer pistol gripx1
 ]
+Name_Jpn=Yarygin MP-443 Grach 9x19 ピストル デフォルト

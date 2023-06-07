@@ -13,3 +13,5 @@ Sell_Peacekeeper=0
 Sell_Mechanic=69
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=4.6x30mm FMJ SX
+Information_Jpn=A 4.6x30mm HK FMJ SX cartridge with a 2.6 gram lead-antimony alloy core bullet with a brass full metal jacket (FMJ) in a brass case. This cartridge was developed for general military use, but the ballistic capabilities of its bullet allow it to pierce basic and intermediate ballistic body protections, however, due to its design, it has a high bounce probability off various surfaces.

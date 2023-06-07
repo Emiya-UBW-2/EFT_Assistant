@@ -79,3 +79,5 @@ ChildParts=[
 Recoil=-3.000000
 Ergonomics=11.000000
 accuracyModifier=0.000000
+Name_Jpn=AK Krebs Custom UFM KeyMod handguard
+Information_Jpn=The Krebs Custom UFM Keymod System lightweight aluminum handguard for AK family assault rifles with KeyMod slots for rail installation. The Kiba Arms VDM CS gas tube is required for installation.

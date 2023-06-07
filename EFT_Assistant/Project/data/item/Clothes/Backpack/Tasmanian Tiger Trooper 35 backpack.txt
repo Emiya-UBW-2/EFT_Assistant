@@ -11,3 +11,5 @@ Sell_Ragman=31620
 Sell_Jaeger=30600
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
+Name_Jpn=Tasmanian Tiger Trooper 35 backpack
+Information_Jpn=The TT Trooper Light Pack 35 is a lightweight and functional 35 liter backpack from Tasmanian Tiger with a comfortable and ergonomic PaddenBack suspension system and anatomical shoulder straps.

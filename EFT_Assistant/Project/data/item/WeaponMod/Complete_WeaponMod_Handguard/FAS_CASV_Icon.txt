@@ -47,3 +47,5 @@ ChildParts=[
 Recoil=-2.000000
 Ergonomics=14.000000
 accuracyModifier=0.000000
+Name_Jpn=SA-58/FAL Vltor CASV-FAS handguard
+Information_Jpn=The Vltor CASV-FAS handguard for FAL series rifles, equipped with a CASV interface for installation of additional devices and accessories.

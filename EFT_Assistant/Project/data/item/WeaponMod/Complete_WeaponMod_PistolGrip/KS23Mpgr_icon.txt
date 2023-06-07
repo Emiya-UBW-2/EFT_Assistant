@@ -19,3 +19,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=8.000000
 accuracyModifier=0.000000
+Name_Jpn=KS-23M pistol grip
+Information_Jpn=A polymer pistol grip for the KS-23M shotgun, manufactured by TOZ.

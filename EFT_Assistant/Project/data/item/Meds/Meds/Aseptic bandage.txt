@@ -15,3 +15,5 @@ propertiestype=ItemPropertiesMedicalItem
 useTime=2.000000
 cures=[LightBleeding]
 uses=1
+Name_Jpn=救急包帯
+Information_Jpn=高圧蒸気滅菌器で処理された、最も一般的なガーゼ包帯。

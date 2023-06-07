@@ -34,3 +34,5 @@ Conflict=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=KMZ 1P59 ドーブテイルマウント
+Information_Jpn=ドーブテイルマウントに装着できる、1P59スコープ用ユニバーサルベースマウント。

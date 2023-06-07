@@ -19,3 +19,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=9.000000
 accuracyModifier=0.000000
+Name_Jpn=MP-155 Ultima polymer forestock
+Information_Jpn=The "Ultima" modification polymer forestock for the MP-155 shotgun. Manufactured by Kalashnikov Group.

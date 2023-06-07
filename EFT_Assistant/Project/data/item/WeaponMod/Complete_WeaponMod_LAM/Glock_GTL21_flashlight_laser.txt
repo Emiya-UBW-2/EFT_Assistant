@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=Glock GTL 21 tactical flashlight with laser
+Information_Jpn=An underbarrel-mounted LED flashlight with a laser aiming module manufactured by Glock.

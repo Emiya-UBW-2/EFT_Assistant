@@ -22,3 +22,5 @@ ChildParts=[
 Recoil=-1.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=Lantac BMD Blast Mitigation Device A3 direct thread adapter
+Information_Jpn=The A3 adapter by Lantac designed for installation of the BMD Blast Mitigation Device.

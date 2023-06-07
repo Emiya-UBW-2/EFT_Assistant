@@ -29,3 +29,5 @@ Recoil=-10.000000
 Ergonomics=-19.000000
 centerOfImpact=0.045000
 deviationMax=17
+Name_Jpn=STM-9 9x19 16 inch barrel
+Information_Jpn=A 16 inches (406mm) long barrel for the STM-9 carbine, chambered in 9x19.

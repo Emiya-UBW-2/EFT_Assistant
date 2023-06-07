@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-8.000000
 Ergonomics=-2.000000
 accuracyModifier=0.020000
+Name_Jpn=AR-15 SureFire Warden 5.56x45 blast regulator
+Information_Jpn=The SureFire Warden blast regulator features a stainless steel body that enhances the overall appearance while protecting the inner parts from harm. This blast regulator prevents dirt, dust, debris, etc., from causing internal damage.

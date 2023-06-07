@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=6.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 HK Battle Grip pistol grip
+Information_Jpn=The HK Battle Grip pistol grip can be installed on any weapon compatible with AR-15 grips.

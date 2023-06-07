@@ -11,3 +11,5 @@ Sell_Fence=1400
 Sell_Skier=1715
 fleaMarketFee=0
 propertiestype=ItemPropertiesGrenade
+Name_Jpn=M18 smoke grenade (Green)
+Information_Jpn=The M18 smoke grenade made in the USA. Used in the US Army since the Second World War. The smoke is green-colored.

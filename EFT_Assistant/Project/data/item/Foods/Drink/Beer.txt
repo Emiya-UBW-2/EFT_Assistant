@@ -11,3 +11,5 @@ Sell_Fence=5297
 Sell_Jaeger=7945
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink
+Name_Jpn=ペフコ ライトビール
+Information_Jpn=ああ……ペフコ！タルコフの中心街でも名高いライトビールだ。

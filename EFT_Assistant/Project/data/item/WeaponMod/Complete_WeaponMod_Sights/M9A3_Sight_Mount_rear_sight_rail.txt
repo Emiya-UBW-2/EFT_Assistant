@@ -22,3 +22,5 @@ Recoil=0.000000
 Ergonomics=-2.000000
 SightRange=200
 sightZooms=1.000000
+Name_Jpn=M9A3 Sight Mount rear sight rail
+Information_Jpn=A rear sight rail manufactured by Sight Mount for Beretta M9 pistols. It is installed as a replacement of the standard rear sight, but still allows aiming even without an installed reflex sight.

@@ -151,3 +151,5 @@ cameraRecoil=0.038400
 cameraSnap=3.500000
 deviationMax=11
 convergence=2.100000
+Name_Jpn=HK MP7A1 4.6x30 submachine gun
+Information_Jpn=The HK MP7 submachine gun is extremely compact, lightweight, can be used in very confined spaces, and is practically recoil-free. It can be carried continuously, making it the ideal personal weapon for the soldier of today. Those who carry it will be suitably armed for the broadest range of operations. Manufactured by Heckler & Koch.

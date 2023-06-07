@@ -45,3 +45,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=5.000000
 accuracyModifier=0.000000
+Name_Jpn=ASh-12 polymer handguard
+Information_Jpn=A polymer handguard for ASh-12 assault rifle, manufactured by TsKIB.

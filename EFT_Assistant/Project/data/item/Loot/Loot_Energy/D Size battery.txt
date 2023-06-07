@@ -13,3 +13,5 @@ Sell_Mechanic=1235
 Sell_Jaeger=1324
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=単1形 乾電池
+Information_Jpn=単1形 乾電池 (D、R20、373、Mono、UM とも呼ばれる) は、標準的な規格の電池のひとつだ。ポータブルステレオ、ラジオ、放射線測定器、懐中電灯など電力の必要な機器に広く利用されている。

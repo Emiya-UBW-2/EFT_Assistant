@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-1.000000
 Ergonomics=6.000000
 accuracyModifier=0.000000
+Name_Jpn=ORSIS T-5000M padded handguard grip
+Information_Jpn=A standard-issue padded grip for the T-5000M sniper rifle, manufactured by ORSIS.

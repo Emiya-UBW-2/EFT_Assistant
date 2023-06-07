@@ -22,3 +22,5 @@ Recoil=0.000000
 Ergonomics=-5.000000
 SightRange=500
 sightZooms=3.500000
+Name_Jpn=PU 3.5x ライフルスコープ
+Information_Jpn=The PU 3.5x riflescope for Mosin sniper rifles.

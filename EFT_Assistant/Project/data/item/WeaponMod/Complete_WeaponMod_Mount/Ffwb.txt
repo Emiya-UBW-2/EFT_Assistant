@@ -20,3 +20,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=Burris FastFire Weaverベース
+Information_Jpn=This base from Burris allows to mount the compact FastFire Series Sights to Weaver or Picatinny-style rails.

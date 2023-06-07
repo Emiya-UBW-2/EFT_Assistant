@@ -42,3 +42,5 @@ stimEffectsduration=40
 stimEffectsvalue=0.000000
 stimEffectspercent=FALSE
 stimEffectsSkiilName=
+Name_Jpn=TGLabs SJ6 の注射器
+Information_Jpn=戦闘の直前に使用し身体能力を向上させるための精神刺激薬。TerraGroup Labsで開発されたもので SJ6 と記されている。特殊部隊にのみ使用が許可されており、副作用もある。

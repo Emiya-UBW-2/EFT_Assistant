@@ -12,3 +12,5 @@ Sell_Ragman=27900
 Sell_Jaeger=27000
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
+Name_Jpn=LBT-1961A Load Bearing chest rig
+Information_Jpn=A tactical load-bearing system designed to carry magazines, grenades, and special equipment, while using low-profile body armor. Manufactured by London Bridge Trading.

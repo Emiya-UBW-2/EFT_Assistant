@@ -13,3 +13,5 @@ Sell_Peacekeeper=1
 Sell_Mechanic=143
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=23x75mm "Barrikada" slug
+Information_Jpn=A 23x75mmR "Barrikada" ("Barricade") cartridge with solid steel projectile able to destroy the engine block of a car at up to 100 meters.

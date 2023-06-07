@@ -33,3 +33,5 @@ Recoil=-3.000000
 Ergonomics=-6.000000
 centerOfImpact=0.150000
 deviationMax=10
+Name_Jpn=MPX 9x19 203mm barrel
+Information_Jpn=A 203mm long barrel for MPX-based weapons chambered for 9x19 ammunition.

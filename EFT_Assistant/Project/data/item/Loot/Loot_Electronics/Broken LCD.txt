@@ -13,3 +13,5 @@ Sell_Peacekeeper=80
 Sell_Mechanic=12040
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=壊れた液晶パネル
+Information_Jpn=破損した液晶ディスプレイの液晶パネル。有用な電子部品が多数使われている。

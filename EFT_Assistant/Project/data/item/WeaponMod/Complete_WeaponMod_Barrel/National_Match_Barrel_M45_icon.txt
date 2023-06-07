@@ -18,3 +18,5 @@ Recoil=-3.000000
 Ergonomics=-3.000000
 centerOfImpact=0.300000
 deviationMax=11
+Name_Jpn=M1911A1 .45 ACP National Match barrel
+Information_Jpn=The National Match barrel for the M1911A1 .45 ACP pistol, manufactured by Colt.

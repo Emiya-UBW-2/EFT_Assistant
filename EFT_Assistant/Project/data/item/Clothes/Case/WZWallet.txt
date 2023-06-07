@@ -11,3 +11,5 @@ Sell_Ragman=25136
 Sell_Jaeger=24325
 fleaMarketFee=0
 propertiestype=ItemPropertiesContainer
+Name_Jpn=WZ ウォレット
+Information_Jpn="WillerZ" のレザーウォレット。中は普通の革財布と変わらないが、こっちの方が目立つ。

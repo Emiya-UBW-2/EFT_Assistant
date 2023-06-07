@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=4.000000
 accuracyModifier=0.000000
+Name_Jpn=M1911 Kiba Arms Geneburn custom side grips
+Information_Jpn=Custom grip panels for the M1911 pistol, manufactured by Kiba Arms.

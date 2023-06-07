@@ -13,3 +13,5 @@ Sell_Peacekeeper=58
 Sell_Mechanic=8710
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=紫外線ランプ
+Information_Jpn=家庭用のUVランプは、可視光線より短くX線よりも長い、人の目では見えない波長の光を放つ電球の一種だ。紫外線は人間とすべての動物に有益な効果を持っており、風邪のようなウイルス性で感染力のある病気を予防することにも役立つ。

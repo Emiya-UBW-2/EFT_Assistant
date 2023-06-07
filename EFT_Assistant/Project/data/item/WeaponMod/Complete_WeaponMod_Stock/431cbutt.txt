@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-4.000000
 Ergonomics=4.000000
 accuracyModifier=0.000000
+Name_Jpn=MP-43-1C buttpad
+Information_Jpn=A standard-issue buttpad for MP-43 shotguns.

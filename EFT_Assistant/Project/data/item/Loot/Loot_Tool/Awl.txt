@@ -12,3 +12,5 @@ Sell_Fence=13200
 Sell_Mechanic=18480
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=千枚通し
+Information_Jpn=主に布や革に穴を空けるために使われる裁縫道具。

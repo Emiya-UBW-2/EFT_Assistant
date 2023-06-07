@@ -28,3 +28,4 @@ containsItems=[
 	ORSIS T-5000M stockx1/|
 	ORSIS T-5000M scope mountx1
 ]
+Name_Jpn=ORSIS T-5000M 7.62x51 bolt-action sniper rifle デフォルト

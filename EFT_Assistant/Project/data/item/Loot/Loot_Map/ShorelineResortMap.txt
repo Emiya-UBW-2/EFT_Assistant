@@ -10,3 +10,5 @@ Sell_Therapist=5906
 Sell_Fence=3750
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Shoreline Health Resort plan map
+Information_Jpn=A paper plan map of the Azure Coast health resort on Shoreline.

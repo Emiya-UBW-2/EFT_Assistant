@@ -11,3 +11,5 @@ Sell_Skier=261
 Sell_Ragman=331
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Armband (Yellow)
+Information_Jpn=A yellow identification armband.

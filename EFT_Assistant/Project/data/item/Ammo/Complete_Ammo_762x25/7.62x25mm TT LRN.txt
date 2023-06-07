@@ -13,3 +13,5 @@ Sell_Peacekeeper=0
 Sell_Mechanic=26
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=7.62x25mm TT LRN
+Information_Jpn=A 7.62x25mm Tokarev cartridge with a lead round nose (LRN) bullet; intended for sport shooting and hunting. By design, this cartridge provides a considerable stopping power effect as well as causing substantial adverse effects on the target after impact, this is at the cost of penetration capabilities, even against basic body ballistic protection besides having a low muzzle velocity.

@@ -62,3 +62,5 @@ Conflict=[
 Recoil=-3.000000
 Ergonomics=10.000000
 accuracyModifier=0.000000
+Name_Jpn=M700 AB Arms MOD*X GEN 3 KeyMod handguard
+Information_Jpn=The AB Arms MOD*X GEN 3 KeyMod handguard for M700 sniper rifles equipped with a KeyMod interface for installation of additional devices and accessories.

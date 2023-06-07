@@ -11,3 +11,5 @@ Sell_Fence=3208
 Sell_Skier=3929
 fleaMarketFee=0
 propertiestype=ItemPropertiesGrenade
+Name_Jpn=M67 ハンドグレネード
+Information_Jpn=M67グレネード（M67 破片手榴弾）はアメリカ製の手榴弾で、対人戦での使用を想定して開発され1969年に米軍に正式採用された。

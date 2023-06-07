@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=1.000000
 accuracyModifier=0.000000
+Name_Jpn=AK Zenit RP-1 charging handle
+Information_Jpn=The RP-1 charging handle by Zenit is a milled detail, manufactured with D16T aluminum alloy with black coating. It's compatible with all models of AK family rifles. The RP-1 is larger and more convenient than the standard charging handle, which improves the weapon ergonomics and makes handling more comfortable. The RP-1 is installed above the base handle through kit-enclosed bolts. © Zenit

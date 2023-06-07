@@ -19,3 +19,5 @@ ChildParts=[
 Recoil=-8.000000
 Ergonomics=-1.000000
 accuracyModifier=0.030000
+Name_Jpn=AR-15 AAC Blackout 51T 5.56x45 flash hider
+Information_Jpn=The Advanced Armament Corporation (AAC) Blackout 51T flash hider is an effective flash suppressor that also serves as an attachment platform for the AAC 762-SDN-6 sound suppressor. Can be Installed on AR-15-based rifles.

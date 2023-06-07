@@ -9,3 +9,5 @@ weight=0.100000
 Sell_Fence=400
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=5.45x39mm PP gs ammo pack (120 pcs)
+Information_Jpn=A damaged waterproof package of 5.45x39 PP gs cartridges, 120 pieces.

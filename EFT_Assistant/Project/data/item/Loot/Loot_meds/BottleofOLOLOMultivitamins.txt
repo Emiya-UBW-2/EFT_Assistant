@@ -11,3 +11,5 @@ Sell_Fence=10036
 Sell_Jaeger=15054
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=OLOLO マルチビタミン
+Information_Jpn=数種類のビタミンが配合されたサプリメント。免疫力の低下を防ぐために役立つ。

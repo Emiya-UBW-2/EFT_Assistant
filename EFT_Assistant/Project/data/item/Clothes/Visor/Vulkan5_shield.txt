@@ -12,3 +12,5 @@ Sell_Peacekeeper=232
 Sell_Ragman=38730
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=Vulkan-5 フェイスシールド
+Information_Jpn=A special armored face shield for the Vulkan-5 heavy helmet. Increases the chances of surviving the impacts of bullets and shrapnel.

@@ -33,3 +33,5 @@ Recoil=-8.000000
 Ergonomics=-8.000000
 centerOfImpact=0.070000
 deviationMax=33
+Name_Jpn=Mosin Carbine 7.62x54R 514mm barrel
+Information_Jpn=Mosin-Nagantカービン用の514mm標準バレル。

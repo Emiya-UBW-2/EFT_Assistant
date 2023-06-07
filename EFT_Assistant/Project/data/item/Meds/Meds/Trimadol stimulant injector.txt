@@ -71,3 +71,5 @@ stimEffectsduration=180
 stimEffectsvalue=-0.500000
 stimEffectspercent=FALSE
 stimEffectsSkiilName=
+Name_Jpn=トリマドールの注射器
+Information_Jpn=特殊部隊の工作員のために開発されたオピオイド系鎮痛薬。中枢神経および脊髄の受容体に作用して鎮痛効果（K+チャネルの開口促進、Ca2+チャネルの開口抑制といった細胞内応答を引き起こし、神経インパルスの伝導を抑制、疼痛を緩和する）をもたらすだけでなく戦闘力も高める。過剰摂取すると効果の切れた後、強い倦怠感に見舞われる。

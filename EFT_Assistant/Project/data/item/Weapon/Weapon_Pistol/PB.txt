@@ -36,3 +36,5 @@ cameraRecoil=0.007200
 cameraSnap=3.500000
 deviationMax=11
 convergence=5.000000
+Name_Jpn=PB 9x18PM 消音拳銃
+Information_Jpn=The PB pistol (Pistolét Besshúmnyy - "Silenced Pistol", GRAU Index - 6P9) was designed with a two-part suppressor, the main suppressor and a section built into the barrel, which allows the weapon to be operated without problems even without the main suppressor attached, but operating the weapon in this way will not mitigate the sound or muzzle flash. It was intended for army reconnaissance groups and USSR KGB personnel and was introduced into service in 1967. Still operated nowadays by FSB special forces and internal troops of the Ministry of Internal Affairs.

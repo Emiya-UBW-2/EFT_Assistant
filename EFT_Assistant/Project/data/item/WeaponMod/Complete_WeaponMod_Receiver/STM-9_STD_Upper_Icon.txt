@@ -109,3 +109,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=4.000000
 accuracyModifier=0.000000
+Name_Jpn=STM-9 9x19 upper receiver
+Information_Jpn=An upper receiver for the STM-9 9x19 carbine. Equipped with a mount for attaching additional tactical devices.

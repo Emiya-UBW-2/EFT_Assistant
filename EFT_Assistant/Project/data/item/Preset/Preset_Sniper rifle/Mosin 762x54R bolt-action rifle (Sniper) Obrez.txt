@@ -21,3 +21,4 @@ containsItems=[
 	Mosin Rifle 7.62x54R sawn-off 220mm threaded barrelx1/|
 	Mosin Rifle carbine rear sightx1
 ]
+Name_Jpn=Mosin 7.62x54R bolt-action rifle (Sniper) Obrez

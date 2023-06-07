@@ -45,3 +45,5 @@ ChildParts=[
 Recoil=-1.000000
 Ergonomics=5.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 Daniel Defense RIS II 9.5 lower handguard (Black)
+Information_Jpn=The Daniel Defense RIS II 9.5 lower handguard. Made with light but durable aircraft aluminum alloy. Equipped with RIS interface for installation of additional devices and accessories. Black version.

@@ -49,3 +49,5 @@ Recoil=-8.000000
 Ergonomics=-28.000000
 centerOfImpact=0.029000
 deviationMax=23
+Name_Jpn=SA-58 7.62x51 21 inch barrel
+Information_Jpn=A 21 inch (533mm) barrel for DS Arms SA-58 7.62x51.

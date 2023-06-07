@@ -11,3 +11,5 @@ Sell_Skier=26950
 Sell_Ragman=34100
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=UNTAR armband
+Information_Jpn=An armband for UN troops in Tarkov.

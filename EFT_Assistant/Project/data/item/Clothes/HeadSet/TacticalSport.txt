@@ -11,3 +11,5 @@ Sell_Skier=21805
 Sell_Ragman=27590
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Peltor Tactical Sport ヘッドセット
+Information_Jpn=The Peltor Tactical Sport electronic earmuff uses digital chip technology. It gives users fast shutoff and recovery time while helping protect ears from dangerous impulse noises, such as gunfire. Sound amplification allows the user to hear low-level sounds, including range commands and conversation.

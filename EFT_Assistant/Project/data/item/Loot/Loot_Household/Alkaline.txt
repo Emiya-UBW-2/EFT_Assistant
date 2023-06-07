@@ -10,3 +10,5 @@ Sell_Therapist=5327
 Sell_Fence=3382
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=アルカリクリーナー
+Information_Jpn=アルカリクリーナーは配管内やグリル、エンジンなどに付着した汚れを取り除くのに便利な洗浄剤だ。化学製品製造のオペレーターにも使用されている。

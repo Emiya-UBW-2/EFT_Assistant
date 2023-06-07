@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-27.000002
 Ergonomics=4.000000
 accuracyModifier=0.000000
+Name_Jpn=ハイスタンダード M4SS ストック
+Information_Jpn=The High Standard M4SS telescoping stock closely follows the classic M4A1 stock except for a few geometry details.

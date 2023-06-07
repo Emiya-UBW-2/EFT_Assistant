@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=1.000000
 accuracyModifier=0.000000
+Name_Jpn=FN P90 K&M The Handler charging handle
+Information_Jpn=An ergomomic folding charging handle for FN P90, manufactured by K&M Aerospace. The charging handle is made out of aircraft grade aluminum and anodized to mil spec type III, class 2. Includes a ball detent that keeps the handle folded in when not in use.

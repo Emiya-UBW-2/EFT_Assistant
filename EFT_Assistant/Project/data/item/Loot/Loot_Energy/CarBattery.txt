@@ -13,3 +13,5 @@ Sell_Mechanic=34475
 Sell_Jaeger=36937
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=カーバッテリー
+Information_Jpn=12V、51Ahの一般的な自動車用の鉛蓄電池。電力供給が途絶えた地域で転売できるため、トレーダーには大きな需要がある。

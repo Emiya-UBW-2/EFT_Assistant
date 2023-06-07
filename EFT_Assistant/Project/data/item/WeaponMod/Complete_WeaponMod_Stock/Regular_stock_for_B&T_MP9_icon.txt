@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-18.000000
 Ergonomics=3.000000
 accuracyModifier=0.000000
+Name_Jpn=MP9 stock
+Information_Jpn=A standard-issue foldable stock for the MP9 SMG. Manufactured by Brügger & Thomet.

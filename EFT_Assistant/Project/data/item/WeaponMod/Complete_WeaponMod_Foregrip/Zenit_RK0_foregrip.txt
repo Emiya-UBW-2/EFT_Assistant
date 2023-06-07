@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-2.000000
 Ergonomics=3.000000
 accuracyModifier=0.000000
+Name_Jpn=Zenit RK-0 tactical foregrip
+Information_Jpn=The RK-0 foregrip can be installed on the lower part of handguards with a Weaver rail. It provides better operational control of a weapon during firing. Manufactured by Zenit.

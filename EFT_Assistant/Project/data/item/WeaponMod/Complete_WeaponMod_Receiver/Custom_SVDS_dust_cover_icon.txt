@@ -19,3 +19,5 @@ Conflict=[
 Recoil=0.000000
 Ergonomics=2.000000
 accuracyModifier=0.000000
+Name_Jpn=SVDS custom cut dust cover
+Information_Jpn=A custom cut-off dust cover for SVDS sniper rifles, required for installation of the MK1 Freefloat chassis by Sureshot Armament Group.

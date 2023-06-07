@@ -27,3 +27,4 @@ containsItems=[
 	P226 9x19 15-round magazinex1/|
 	9x19mm Pst gzhx15
 ]
+Name_Jpn=SIG P226R 9x19 pistol Tactical

@@ -12,3 +12,5 @@ Sell_Peacekeeper=78
 Sell_Ragman=13020
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Big Pipe's bandana
+Information_Jpn=Big Pipe's personal headgear. A black bandana with the Goons squad identification symbol.

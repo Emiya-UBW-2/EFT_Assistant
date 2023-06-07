@@ -102,3 +102,5 @@ ChildParts=[
 Recoil=-1.000000
 Ergonomics=4.000000
 accuracyModifier=0.000000
+Name_Jpn=Mk47 Resolute 7.62x39 upper receiver
+Information_Jpn=The Resolute upper receiver for Mk47 Mutant assault rifle, chambered in 7.62x39mm. Equipped with a mount for attaching additional devices. Manufactured by CMMG.

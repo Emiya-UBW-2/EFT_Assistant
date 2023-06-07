@@ -25,3 +25,4 @@ containsItems=[
 	SR-2M side railx1/|
 	SR-2M pistol grip (Black)x1
 ]
+Name_Jpn=SR-2M "Veresk" 9x21 submachine gun FSB

@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-33.000000
 Ergonomics=15.000000
 accuracyModifier=0.000000
+Name_Jpn=VSS wooden stock
+Information_Jpn=A standard-issue wooden stock for VSS Vintorez sniper rifles, manufactured by TsNIITochMash.

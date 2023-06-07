@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=7.000000
 accuracyModifier=0.000000
+Name_Jpn=Glock Pachmayr Tactical Grip Glove
+Information_Jpn=The Pachmayr tactical rubber grip increases the handling and ergonomics of a pistol, designed to fit Glock family pistols.

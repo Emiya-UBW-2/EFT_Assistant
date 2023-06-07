@@ -114,3 +114,5 @@ cameraRecoil=0.096000
 cameraSnap=3.500000
 deviationMax=23
 convergence=1.300000
+Name_Jpn=Desert Tech MDR 7.62x51 assault rifle
+Information_Jpn=The MDR 7.62x51 (.308) bullpup assault rifle, designed and manufactured by Desert Tech LLC. A modular multi-caliber weapon with a compact bullpup layout intended for use by police and military special forces. Barrel lengths and calibers can be changed by the end-user within minutes with a minimum amount of tools.

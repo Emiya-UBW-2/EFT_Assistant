@@ -19,3 +19,5 @@ capacity=30
 loadModifier=0.000000
 ammoCheckModifier=0.000000
 malfunctionChance=0.080000
+Name_Jpn=5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazine
+Information_Jpn=A 30-round polymer Magpul PMAG GEN M3 30 magazine, for 5.56x45 ammunition.

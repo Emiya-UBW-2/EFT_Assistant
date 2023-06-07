@@ -41,3 +41,5 @@ Conflict=[
 Recoil=-1.000000
 Ergonomics=5.000000
 accuracyModifier=0.000000
+Name_Jpn=AK Strike Industries TRAX 2 handguard extension
+Information_Jpn=TRAX 2 is a front rail section that covers the gas block. Provides additional places to mount accessories. Requires the TRAX Bridge rail to be mounted with the TRAX 1 handguard. Manufactured by Strike Industries.

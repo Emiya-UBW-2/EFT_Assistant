@@ -13,3 +13,5 @@ Sell_Peacekeeper=0
 Sell_Mechanic=26
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=20/70 "Poleva-3" slug
+Information_Jpn=A "Poleva-3" 20/70 expanding slug shell for 20 gauge shotguns.

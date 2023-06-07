@@ -23,3 +23,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=Aimpoint Micro Standard Mount
+Information_Jpn=The Aimpoint Micro Standard Mount base for T-1 and H-1 reflex sights of the Micro series.

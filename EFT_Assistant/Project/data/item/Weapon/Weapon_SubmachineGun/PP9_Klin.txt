@@ -36,3 +36,5 @@ cameraRecoil=0.043200
 cameraSnap=3.500000
 deviationMax=11
 convergence=2.700000
+Name_Jpn=PP-9 "Klin" 9x18PMM submachine gun
+Information_Jpn=The PP-9 Klin is a further evolution of the Kedr submachine gun. It has a higher rate of fire and its chamber is designed to use the 9x18 PMM cartridge. It was produced from 1996 to 2002 by order of the Ministry of Internal Affairs.

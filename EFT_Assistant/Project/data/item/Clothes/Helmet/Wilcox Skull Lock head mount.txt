@@ -12,3 +12,5 @@ Sell_Peacekeeper=73
 Sell_Ragman=12228
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Wilcox Skull Lock ヘッドマウント
+Information_Jpn=Scull Lock ヘッドマウント-Liteは、ナイトビジョンや他の光学装置を固定する軽量で薄型の装備だ。すべて布で作られており快適で汎用性も高い。これを使えば、重い防弾ヘルメットを使うことなく様々なアタッチメントを使用することができる。

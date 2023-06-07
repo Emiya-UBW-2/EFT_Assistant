@@ -12,3 +12,5 @@ Sell_Ragman=39320
 Sell_Jaeger=38052
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
+Name_Jpn=6B3TM-01M アーマーリグ
+Information_Jpn=The 6B3 modified general army body armor under the index 6B3TM-01M. Actively used during the war in Afghanistan. It has a comprehensive titanium class 4 (Russian GOST) protection and a set of several pouches for magazines and grenades.

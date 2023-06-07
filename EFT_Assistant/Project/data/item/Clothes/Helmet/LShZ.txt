@@ -12,3 +12,5 @@ Sell_Peacekeeper=203
 Sell_Ragman=33770
 fleaMarketFee=0
 propertiestype=ItemPropertiesHelmet
+Name_Jpn=LZSh ライト ヘルメット
+Information_Jpn=A lightweight protective helmet made in Russia. Essentially, it's a copy of the Ops-Core FAST helmet, but with lower ballistic characteristics.

@@ -27,3 +27,5 @@ Recoil=-4.000000
 Ergonomics=-6.000000
 centerOfImpact=0.580000
 deviationMax=10
+Name_Jpn=MP-133 12ga 610mm barrel with rib
+Information_Jpn=A standard factory-produced 610mm barrel with a wide upper rib for MP-133 12 gauge shotguns.

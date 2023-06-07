@@ -31,3 +31,5 @@ Ergonomics=-7.000000
 SightRange=600
 sightZooms=4.000000
 sightZooms=4.000000
+Name_Jpn=BelOMO PSO-1M2 4x24 scope
+Information_Jpn=The PSO-1M2 military grade optical sniper scope, manufactured by BelOMO. This optical scope is designed for precision sight fire with the Dragunov Sniper Rifle (SVD) on the variety of targets with 4x magnification and 6 degree FOV.

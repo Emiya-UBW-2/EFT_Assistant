@@ -22,3 +22,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=AKS-74U gas tube (6P26 Sb.1-2)
+Information_Jpn=A standard gas tube for AKS-74U automatic rifles. Gas tubes channel the travel direction of gas piston.

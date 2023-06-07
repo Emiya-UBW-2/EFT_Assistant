@@ -43,3 +43,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=M870 Mesa Tactical magazine clamp
+Information_Jpn=A magazine clamp for the Remington Model 870 produced by Mesa Tactical.

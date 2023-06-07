@@ -86,3 +86,5 @@ ChildParts=[
 Recoil=-5.000000
 Ergonomics=17.000000
 accuracyModifier=0.000000
+Name_Jpn=SKS TAPCO Intrafuse chassis
+Information_Jpn=The Intrafuse SKS stock system equips the carbine with an upper handguard with Picatinny-style rail for optics, lights, laser sights, or other modern accessories. Manufactured by TAPCO.

@@ -19,3 +19,5 @@ capacity=4
 loadModifier=-0.200000
 ammoCheckModifier=0.000000
 malfunctionChance=0.052000
+Name_Jpn=TOZ-106 20ga MTs 20-01 Sb.3 4-shot magazine
+Information_Jpn=A 4-shot 20ga magazine for the MTs 20-01 and TOZ-106 hunting shotguns.

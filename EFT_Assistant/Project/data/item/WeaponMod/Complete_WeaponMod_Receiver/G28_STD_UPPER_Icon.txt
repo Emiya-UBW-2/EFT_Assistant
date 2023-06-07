@@ -96,3 +96,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=5.000000
 accuracyModifier=0.000000
+Name_Jpn=HK G28 7.62x51 upper receiver
+Information_Jpn=An upper receiver for the G28 marksman rifle manufactured by Heckler & Koch. Equipped with a top mount for attaching additional devices.

@@ -19,3 +19,5 @@ ChildParts=[
 Recoil=-1.000000
 Ergonomics=0.000000
 accuracyModifier=0.010000
+Name_Jpn=SilencerCo Salvo 12 choke adapter
+Information_Jpn=The SilencerCo choke adapter for Salvo 12g sound suppressors.

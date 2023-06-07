@@ -12,3 +12,5 @@ Sell_Peacekeeper=6
 Sell_Ragman=930
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=LShZ-2DTM cover (Black)
+Information_Jpn=LSHZ-2DTMヘルメット用の反射防止の黒いカバー

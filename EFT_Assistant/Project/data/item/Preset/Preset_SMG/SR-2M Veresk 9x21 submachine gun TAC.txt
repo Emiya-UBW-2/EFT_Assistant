@@ -28,3 +28,4 @@ containsItems=[
 	Zenit Klesch-2P flashlight with laserx1/|
 	SR-2M pistol grip (Black)x1
 ]
+Name_Jpn=SR-2M "Veresk" 9x21 submachine gun TAC

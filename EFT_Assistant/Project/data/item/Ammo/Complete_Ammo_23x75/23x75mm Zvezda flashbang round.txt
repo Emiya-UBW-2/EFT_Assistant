@@ -13,3 +13,5 @@ Sell_Peacekeeper=4
 Sell_Mechanic=548
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=23x75mm "Zvezda" flashbang round
+Information_Jpn=A 23x75 mmR "Zvezda" ("Star") flash-bang grenade cartridge made for psychological effect on the enemy.

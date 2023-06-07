@@ -19,3 +19,5 @@ capacity=8
 loadModifier=-0.200000
 ammoCheckModifier=-0.200000
 malfunctionChance=0.030000
+Name_Jpn=PM 9x18PM 90-93 8-round magazine
+Information_Jpn=A standard 8-round magazine for IzhMekh-produced Makarov PM pistols. It features a side observation slot for checking the magazine capacity.

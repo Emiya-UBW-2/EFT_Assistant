@@ -21,3 +21,5 @@ Recoil=-1.000000
 Ergonomics=2.000000
 centerOfImpact=0.650000
 deviationMax=9
+Name_Jpn=M870 12ga sawn-off 325mm barrel
+Information_Jpn=A sawn-off 325mm barrel for the Remington Model 870 12 gauge shotgun.

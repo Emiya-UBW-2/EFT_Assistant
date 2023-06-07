@@ -11,3 +11,5 @@ Sell_Fence=3192
 Sell_Jaeger=4788
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink
+Name_Jpn=タルコーラ
+Information_Jpn=タルコーラは、紛争が起こる前に現地の飲料メーカーが製造したコーラ味の清涼飲料水。広く普及している。

@@ -109,3 +109,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=5.000000
 accuracyModifier=0.000000
+Name_Jpn=MPX GEN1 9x19 upper receiver
+Information_Jpn=A 1st generation upper receiver for the SIG MPX submachine gun, manufactured by SIG Sauer. Features a mount for attaching additional equipment.

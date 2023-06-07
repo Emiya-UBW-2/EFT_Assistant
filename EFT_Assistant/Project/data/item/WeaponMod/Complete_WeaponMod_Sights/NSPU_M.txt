@@ -61,3 +61,5 @@ Recoil=-5.000000
 Ergonomics=-20.000000
 SightRange=300
 sightZooms=3.500000
+Name_Jpn=NSPU-M night vision scope
+Information_Jpn=NSPU-M (Nochnoy Strelkovyy Pritsel Unifitsirovannyy Modernizirovannyy - "Night Rifle Scope Unified Modernized"), GRAU Index - 1PN58. An old soviet night vision scope for AK series rifles, designed to fit dovetail rails.

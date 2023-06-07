@@ -19,3 +19,5 @@ capacity=30
 loadModifier=0.000000
 ammoCheckModifier=0.000000
 malfunctionChance=0.035000
+Name_Jpn=SR-2M 9x21 30連マガジン
+Information_Jpn=TsNIItochmashで製造されたSR-2M "Veresk"用の30連標準マガジン。

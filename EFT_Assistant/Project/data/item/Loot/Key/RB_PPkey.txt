@@ -11,3 +11,5 @@ Sell_Therapist=3150
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
+Name_Jpn=RB-PPの鍵
+Information_Jpn=A key to the Radar Station bomb shelter under the Federal State Reserve Agency base. Doesn't seem to be actually used for anything though, at least for now.

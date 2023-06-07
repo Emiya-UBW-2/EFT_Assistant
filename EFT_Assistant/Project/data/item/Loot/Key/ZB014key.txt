@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Woods
+Name_Jpn=ZB-014 key
+Information_Jpn=A rather unusual door key with some engravings reading "ZB-014".

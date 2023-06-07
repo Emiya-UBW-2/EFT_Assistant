@@ -13,3 +13,5 @@ Sell_Peacekeeper=0
 Sell_Mechanic=75
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=5.56x45mm MK 255 Mod 0 (RRLP)
+Information_Jpn=A 5.56x45mm NATO MK 255 Mod 0 (RRLP) cartridge with a 4 gram bullet with a copper/polymer composite core with a copper jacket, in a brass case. This cartridge was designed under the name of RRLP (Reduced Ricochet Limited Penetration) in order to substantially reduce collateral damage from ricochets and over-piercing during training and close-quarters operations, as well as providing a substantial stopping power effect.

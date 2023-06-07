@@ -13,3 +13,7 @@ Sell_Ragman=217000
 Sell_Jaeger=210000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
+Name_Jpn=Mystery Ranch NICE COMM 3 BVS frame system
+Information_Jpn=The NICE Frame special system for carrying oversized or heavy loads with an installed COMM 3 backpack for carrying radio systems.
+The COMM 3 main bay is designed for PRC117F or G, PRC119F, 152, or ASIP radios. The Hitchhiker and Daypack lid allows you to carry separate gear if needed. The modular NICE COMM 3 system is ready to adapt to changing tasks.
+An extremely rare thing, for which a real hunt is conducted in Tarkov.

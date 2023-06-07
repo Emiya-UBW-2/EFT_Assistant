@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-12.000000
 Ergonomics=-1.000000
 accuracyModifier=-0.030000
+Name_Jpn=Glock 9x19 Lone Wolf LWD-COMP9 compensator
+Information_Jpn=A Glock 9x19 compensator manufactured by Lone Wolf.

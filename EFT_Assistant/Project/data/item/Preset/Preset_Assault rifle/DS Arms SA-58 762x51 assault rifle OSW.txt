@@ -28,3 +28,4 @@ containsItems=[
 	AR-15 DoubleStar ACE SOCOM Gen.4 stockx1/|
 	DoubleStar ACE recoil padx1
 ]
+Name_Jpn=DS Arms SA-58 7.62x51 assault rifle OSW

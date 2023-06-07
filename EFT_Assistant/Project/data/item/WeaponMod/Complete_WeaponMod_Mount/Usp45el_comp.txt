@@ -23,3 +23,5 @@ Conflict=[
 Recoil=-10.000000
 Ergonomics=-8.000000
 accuracyModifier=0.000000
+Name_Jpn=HK USP .45 ACP Elite compensator
+Information_Jpn=The Elite compensator from the special USP Elite pistol kit will add additional weight to the front of your gun assisting to reduce vertical recoil "bounce". Manufactured by Heckler & Koch.

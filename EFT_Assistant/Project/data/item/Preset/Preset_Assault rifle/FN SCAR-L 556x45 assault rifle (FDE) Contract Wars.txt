@@ -35,3 +35,4 @@ containsItems=[
 	FN SCAR cheek restx1/|
 	FN SCAR charging handlex1
 ]
+Name_Jpn=FN SCAR-L 5.56x45 assault rifle (FDE) Contract Wars

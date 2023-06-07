@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Shoreline
+Name_Jpn=Health Resort universal utility room key
+Information_Jpn=A universal key to all Azure Coast health resort utility storerooms.

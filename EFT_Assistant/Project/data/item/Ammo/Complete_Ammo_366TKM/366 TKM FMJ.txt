@@ -13,3 +13,5 @@ Sell_Peacekeeper=0
 Sell_Mechanic=23
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=.366 TKM FMJ
+Information_Jpn=A .366 TKM (9.55x39mm) FMJ cartridge with a 13 gram lead core bullet with a brass jacket in a steel case; intended for sport shooting and hunting. Although this cartridge is intended for small-game hunting, its design allows it to pierce through basic ballistic body protections in addition to providing an outstanding stopping power effect and being capable of causing severe adverse effects on the target after impact. Its design also allows it to be used in 7.62x39mm AK magazines without any problem.

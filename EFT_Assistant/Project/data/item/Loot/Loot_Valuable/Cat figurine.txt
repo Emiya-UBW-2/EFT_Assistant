@@ -12,3 +12,5 @@ Sell_Skier=30530
 Sell_Peacekeeper=232
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=ネコの置物
+Information_Jpn=マカッサルエボニー（縞黒檀）と呼ばれる希少な木材を使用したアンティークの猫の彫像。

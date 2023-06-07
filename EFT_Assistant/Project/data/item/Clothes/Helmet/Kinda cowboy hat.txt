@@ -12,3 +12,5 @@ Sell_Peacekeeper=73
 Sell_Ragman=12098
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=カウボーイハット
+Information_Jpn=Yeeeeeeee-haaaaaaaaaaaaw! Or not...

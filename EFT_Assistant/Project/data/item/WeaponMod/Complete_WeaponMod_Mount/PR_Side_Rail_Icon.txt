@@ -38,3 +38,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=Precision Reflex handguard short side rail mount
+Information_Jpn=A short rail for handguards by Precision Reflex, which allows you to install additional tactical equipment.

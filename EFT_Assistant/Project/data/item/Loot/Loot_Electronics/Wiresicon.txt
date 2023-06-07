@@ -13,3 +13,5 @@ Sell_Peacekeeper=28
 Sell_Mechanic=4144
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=ビニル絶縁電線
+Information_Jpn=導線の切れ端を集めたものだ。電子機器に使えるかもしれない。

@@ -39,3 +39,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=HK G36 side handguard rail
+Information_Jpn=A side rail for the G36 handguards, allows installation of additional tactical devices.

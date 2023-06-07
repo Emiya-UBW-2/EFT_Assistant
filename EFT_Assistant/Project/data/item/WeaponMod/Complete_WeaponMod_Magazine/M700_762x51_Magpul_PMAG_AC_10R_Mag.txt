@@ -19,3 +19,5 @@ capacity=10
 loadModifier=-0.300000
 ammoCheckModifier=0.000000
 malfunctionChance=0.010000
+Name_Jpn=M700 7.62x51 Magpul PMAG AC 10-round magazine
+Information_Jpn=A Remington M700 sniper rifle polymer magazine by Magpul, with a 10-round capacity for 7.62x51 cartridges.

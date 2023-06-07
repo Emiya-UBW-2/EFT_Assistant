@@ -12,3 +12,5 @@ Sell_Peacekeeper=268
 Sell_Ragman=44640
 fleaMarketFee=0
 propertiestype=ItemPropertiesHelmet
+Name_Jpn=NFM HJELM helmet
+Information_Jpn=The new-gen HJELM system applies new ideas for modularity of attachments and electronics without the extra weight and bulk of previous generations. Manufactured by NFM.

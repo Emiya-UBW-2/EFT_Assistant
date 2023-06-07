@@ -12,3 +12,5 @@ Sell_Ragman=92246
 Sell_Jaeger=89270
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
+Name_Jpn=CQC Osprey MK4A プレートキャリア (Assault, MTP)
+Information_Jpn=The Osprey plate carrier is actively used by the British army and specialists. The Assault preset is provided with heavy armor plates and a maximum of pouches for ammunition and grenades.

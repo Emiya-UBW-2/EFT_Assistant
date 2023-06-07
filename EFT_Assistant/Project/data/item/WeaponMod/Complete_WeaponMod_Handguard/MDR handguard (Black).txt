@@ -51,3 +51,5 @@ ChildParts=[
 Recoil=-1.000000
 Ergonomics=9.000000
 accuracyModifier=0.000000
+Name_Jpn=MDR handguard (Black)
+Information_Jpn=A standard-issue handguard for MDR assault rifles, manufactured by Desert Tech. Equipped with an M-LOK interface for installation of additional tactical devices and accessories. Black version.

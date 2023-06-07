@@ -143,3 +143,5 @@ ChildParts=[
 Recoil=-38.000000
 Ergonomics=15.000000
 accuracyModifier=0.000000
+Name_Jpn=SKS FAB Defense UAS chassis
+Information_Jpn=Lightweight polymer chassis for SKS carbine, manufactured by FAB Defense. Features a quad Picatinny system for mounting various tactical devices, a folding buttstock and an integrated enhanced magazine release lever.

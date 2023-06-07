@@ -11,3 +11,5 @@ Sell_Ragman=29589
 Sell_Jaeger=28635
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
+Name_Jpn=Camelbak Tri-Zip assault backpack
+Information_Jpn=A Mid-sized versatile assault pack. Spacious, sturdy and comfortable, this backpack is loved both by military and hikers worldwide. 34L of total space, a hydration system, easy access to side pockets, near-perfect suspension, and a MOLLE attachment system make it a great choice for up to 72 hours of autonomous hiking... or carrying a good load of loot.

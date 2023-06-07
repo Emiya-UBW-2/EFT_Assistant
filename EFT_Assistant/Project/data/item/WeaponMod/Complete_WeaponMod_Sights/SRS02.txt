@@ -17,3 +17,5 @@ Recoil=0.000000
 Ergonomics=-1.000000
 SightRange=200
 sightZooms=1.000000
+Name_Jpn=Trijicon SRS-02 リフレックスサイト
+Information_Jpn=The Trijicon SRS Sealed Reflex Sight is compact and takes up less rail space while maintaining durability and performance. The large 38mm aperture allows for a wide field of view and rapid target engagement. The Trijicon SRS Sealed Reflex Sight features a 1.75 MOA dot for precision. The SRS is powered by a solar cell and a single AA battery.

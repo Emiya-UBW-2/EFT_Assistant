@@ -12,3 +12,5 @@ Sell_Peacekeeper=37
 Sell_Ragman=6200
 fleaMarketFee=0
 propertiestype=ItemPropertiesHelmet
+Name_Jpn=ジャックオーランタン タクティカル パンプキン ヘルメット
+Information_Jpn=Jack-o'-lantern is here to protect you from the Evil.

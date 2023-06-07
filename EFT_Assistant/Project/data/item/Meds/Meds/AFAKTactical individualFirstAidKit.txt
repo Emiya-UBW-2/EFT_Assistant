@@ -18,3 +18,5 @@ hitpoints=400
 maxHealPerUse=60
 hpCostLightBleeding=30
 hpCostHeavyBleeding=170
+Name_Jpn=AFAK ファーストエイドキット
+Information_Jpn=AFAK "エイファク" (Adaptive First Aid Kit) は、IFAKをさらに進化させた個人用の応急処置キットだ。コンパクトなキットだが、兵士や法執行官が戦闘による外傷を効果的に治療するために必要なものが詰まっている。

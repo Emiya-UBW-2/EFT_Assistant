@@ -34,3 +34,5 @@ Conflict=[
 Recoil=-1.000000
 Ergonomics=14.000000
 accuracyModifier=0.000000
+Name_Jpn=AK Magpul Zhukov-U handguard (Plum)
+Information_Jpn=The Magpul Zhukov-U handguard is installed on AKM/AK-74-compatible weapon systems. Equipped with licensed M-LOK mounts for installation of additional devices or rails. Plum-colored polymer version.

@@ -13,3 +13,5 @@ Sell_Peacekeeper=0
 Sell_Mechanic=39
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=7.62x25mm TT Pst gzh
+Information_Jpn=A 7.62x25mm Tokarev Pst gzh (GAU Index - 57-N-134S) cartridge with a 5.4 gram steel core bullet with a lead cladding and a bimetallic jacket, in a bimetallic case. Although this cartridge was created with the intention of neutralizing hostile personnel behind objects with low structural strength, it is currently capable of efficiently piercing basic ballistic body protections as well as some intermediate models at close range.

@@ -13,3 +13,5 @@ Sell_Peacekeeper=3
 Sell_Mechanic=420
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=.338 Lapua Magnum UCW
+Information_Jpn=A .338 Lapua Magnum (8.6x70mm) UCW cartridge with a 16.2 gram lead core bullet with a brass jacket in a brass case; intended for hunting and target practice, produced by Ulyanovsk Cartridge Works. This cartridge is intended for Big Game Hunting, as despite its rudimentary design, it has an outstanding stopping power effect and is capable of causing severe adverse effects on the target after impact and can even pierce through basic ballistic body protections as well as some intermediate models. However, due to its design, it has a high probability of bouncing off various surfaces.

@@ -11,3 +11,5 @@ Sell_Fence=1382
 Sell_Jaeger=2073
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink
+Name_Jpn=ビタジュース
+Information_Jpn=ビタミンの豊富なミックスフルーツジュース。味はともかくとして健康に良いことは間違いない。

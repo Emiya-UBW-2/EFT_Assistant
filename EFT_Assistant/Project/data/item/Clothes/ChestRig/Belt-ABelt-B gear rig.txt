@@ -12,3 +12,5 @@ Sell_Ragman=25621
 Sell_Jaeger=24795
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
+Name_Jpn=Belt-A + Belt-B リグ
+Information_Jpn=Belt-A is the legendary rig from the Afghan war era. This rig was adopted in 1989 and was used by the GRU Special Forces until the beginning of the 21st century. It comes equipped with an added Belt-B that has 10 pouches for VOG grenades.

@@ -12,3 +12,5 @@ Sell_Peacekeeper=89
 Sell_Ragman=14843
 fleaMarketFee=0
 propertiestype=ItemPropertiesHelmet
+Name_Jpn=Shattered lightweight armored mask
+Information_Jpn=The "Shattered" face protection mask, reinforced with aramid fibers.

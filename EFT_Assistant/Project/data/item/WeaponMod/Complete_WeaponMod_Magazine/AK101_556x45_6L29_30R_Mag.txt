@@ -19,3 +19,5 @@ capacity=30
 loadModifier=0.000000
 ammoCheckModifier=0.000000
 malfunctionChance=0.098000
+Name_Jpn=AK-101 5.56x45 6L29 30-round magazine
+Information_Jpn=A 30-round 5.56x45 Izhmash 6L29 polymer magazine for AK-101 and compatible systems.

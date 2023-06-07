@@ -25,3 +25,4 @@ containsItems=[
 	VPO-209 wooden stockx1/|
 	AK 7.62x39 aluminium 10-round magazinex1
 ]
+Name_Jpn=Molot VPO-209 .366 TKM carbine デフォルト

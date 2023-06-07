@@ -11,3 +11,5 @@ Sell_Fence=980
 Sell_Jaeger=1470
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink
+Name_Jpn=水の入ったボトル (0.6L)
+Information_Jpn=0.6リットルの水が入ったペットボトル。外側は少し汚れているかもしれないが、中の水はきれいだ。そう願いたい。

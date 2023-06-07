@@ -11,3 +11,5 @@ Sell_Fence=3403
 Sell_Jaeger=5104
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=生理食塩水
+Information_Jpn=血液と同じ浸透圧をもつ生理食塩水。生理溶液にはいくつかの種類があるが、その成分や濃度は用途によって異なる。

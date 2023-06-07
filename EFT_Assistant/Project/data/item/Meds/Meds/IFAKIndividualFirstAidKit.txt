@@ -18,3 +18,5 @@ hitpoints=300
 maxHealPerUse=50
 hpCostLightBleeding=30
 hpCostHeavyBleeding=210
+Name_Jpn=IFAK ファーストエイドキット
+Information_Jpn=IFAK "アイファク" (Individual First Aid Kit of the United States Marine Corps) は、アメリカ合衆国の海兵隊で使用されている第3世代の個人用応急処置キット。洗練されたデザインで内容品も豊富だ。

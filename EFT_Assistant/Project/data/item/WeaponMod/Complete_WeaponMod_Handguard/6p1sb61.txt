@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=4.000000
 accuracyModifier=0.000000
+Name_Jpn=AKM wooden handguard (6P1 Sb.6-1)
+Information_Jpn=A standard Izhmash-produced wooden AKM handguard.

@@ -20,3 +20,5 @@ Conflict=[
 	EMERCOM cap/|
 	Police cap
 ]
+Name_Jpn=Misha Mayorov mask
+Information_Jpn=A spooky mask of the famous "The Scary Movie" horror movie anti-hero - Misha Mayorov.

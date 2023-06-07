@@ -104,3 +104,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=5.000000
 accuracyModifier=0.000000
+Name_Jpn=MCX GEN1 .300 BLK upper receiver
+Information_Jpn=An upper receiver for the first generation MCX assault rifles manufactured by SIG Sauer. Features a mount for attaching additional equipment.

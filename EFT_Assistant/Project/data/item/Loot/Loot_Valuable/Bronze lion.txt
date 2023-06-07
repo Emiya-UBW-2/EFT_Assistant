@@ -12,3 +12,5 @@ Sell_Skier=79838
 Sell_Peacekeeper=606
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=青銅のライオン
+Information_Jpn=蒐集品としての価値が高い青銅製のライオンの置物。見た目にも美しく重厚な作りで、売っても飾って眺めても良い品だ。

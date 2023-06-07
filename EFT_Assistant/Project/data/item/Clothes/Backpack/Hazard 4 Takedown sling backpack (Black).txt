@@ -11,3 +11,5 @@ Sell_Ragman=21390
 Sell_Jaeger=20700
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
+Name_Jpn=Hazard 4 Takedown sling backpack (Black)
+Information_Jpn=A single-strap sling backpack designed for carrying long-barreled weapons. Additional external pockets are designed to carry magazines, cleaning kit, or extra parts. Manufactured by Hazard 4. Black version.

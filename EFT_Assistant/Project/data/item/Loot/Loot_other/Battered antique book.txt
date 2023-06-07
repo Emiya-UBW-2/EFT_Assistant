@@ -12,3 +12,5 @@ Sell_Fence=25211
 Sell_Skier=30884
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=アンティークの本
+Information_Jpn=ぼろぼろな見た目のアンティーク本。古くて珍しいものを集めるコレクターなら興味を持つだろう。ちょっとまて、しおりの代わりに挟んであるのは靴下か？

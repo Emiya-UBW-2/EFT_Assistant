@@ -129,3 +129,5 @@ cameraRecoil=0.067200
 cameraSnap=3.500000
 deviationMax=23
 convergence=1.600000
+Name_Jpn=Desert Tech MDR 5.56x45 assault rifle
+Information_Jpn=The MDR 5.56x45 bullpup assault rifle, designed and manufactured by Desert Tech LLC. A modular multi-caliber weapon with a compact bullpup layout intended for use by police and military special forces. Barrel lengths and calibers can be changed by the end-user within minutes with a minimum amount of tools.

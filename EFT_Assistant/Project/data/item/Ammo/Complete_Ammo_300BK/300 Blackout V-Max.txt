@@ -13,3 +13,5 @@ Sell_Peacekeeper=0
 Sell_Mechanic=70
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=.300 Blackout V-Max
+Information_Jpn=A special soft-point high-precision round, designed for small game hunting.

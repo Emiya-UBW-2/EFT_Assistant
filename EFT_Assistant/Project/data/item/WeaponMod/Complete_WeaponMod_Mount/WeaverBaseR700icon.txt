@@ -95,3 +95,5 @@ Conflict=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=M700 Weaver extended multi-slot rail base
+Information_Jpn=A Weaver-type extended multi-slot rail base for the Remington Model 700 bolt-action sniper rifle for installation of various optics.

@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-3.000000
 Ergonomics=2.000000
 accuracyModifier=0.000000
+Name_Jpn=Magpul MOE Carbine rubber buttpad
+Information_Jpn=A standard rubber butt-pad for the Magpul MOE Carbine stock series. However, it can also be installed on other models of the series.

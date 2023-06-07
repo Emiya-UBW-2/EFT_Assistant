@@ -10,3 +10,5 @@ Sell_Fence=27600
 Sell_Peacekeeper=257
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=機密情報フォルダー
+Information_Jpn=第三者にとっても、非常に有益で価値のある様々な資料が入っているフォルダー。

@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-25.000000
 Ergonomics=20.000000
 accuracyModifier=0.000000
+Name_Jpn=M700 Magpul Pro 700 folding stock
+Information_Jpn=A folding stock for the Pro 700 chasiss for the Remington M700 sniper rifle, manufactured by Magpul.

@@ -35,3 +35,4 @@ containsItems=[
 	AK 7.62x39 US Palm "AK30" 30-round magazine (Black)x1/|
 	AK Zenit RP-1 charging handlex1
 ]
+Name_Jpn=AKM 7.62x39 アサルトライフル T-OPS

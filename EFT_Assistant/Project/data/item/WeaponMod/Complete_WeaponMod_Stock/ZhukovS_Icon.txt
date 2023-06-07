@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-40.000000
 Ergonomics=15.000000
 accuracyModifier=0.000000
+Name_Jpn=AKM/AK-74 Magpul Zhukov-S stock
+Information_Jpn=The Zhukov-S stock, designed for installation on AKM/AK-74-type non-folding assault rifles. Manufactured by Magpul.

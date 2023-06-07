@@ -20,3 +20,5 @@ Recoil=0.000000
 Ergonomics=0.000000
 SightRange=300
 sightZooms=1.000000
+Name_Jpn=VPO-209 rear sight
+Information_Jpn=A standard rear sight for VPO-209 AKM carbines, manufactured by Molot Arms.

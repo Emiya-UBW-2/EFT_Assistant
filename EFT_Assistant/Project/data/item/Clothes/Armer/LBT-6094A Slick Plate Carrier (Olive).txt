@@ -13,3 +13,5 @@ Sell_Peacekeeper=1462
 Sell_Ragman=243799
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmor
+Name_Jpn=LBT-6094A Slick Plate Carrier (Olive)
+Information_Jpn=A simple yet effective plate carrier by London Bridge Trading company. The most minimalistic design intended for use with chest rigs. Olive version.

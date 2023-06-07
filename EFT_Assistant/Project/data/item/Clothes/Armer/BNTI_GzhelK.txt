@@ -13,3 +13,5 @@ Sell_Peacekeeper=487
 Sell_Ragman=81159
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmor
+Name_Jpn=BNTI Gzhel-K アーマー
+Information_Jpn=Gzhelアサルト防弾ベストはロシアの内務省や他の法執行機関の攻撃部隊向けに設計された。Gzhel-Kアーマーという特殊派生型は、コランダムをベースとしたセラミック製防弾パネルを装備している。GOST基準でクラス4の防弾性能を持つ。

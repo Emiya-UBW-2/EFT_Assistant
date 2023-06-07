@@ -26,3 +26,5 @@ Recoil=-2.000000
 Ergonomics=-3.000000
 centerOfImpact=0.180000
 deviationMax=8
+Name_Jpn=MPX-SD 9x19 165mm barrel
+Information_Jpn=A special 165mm long barrel for the MPX-SD. Chambered for 9x19 ammunition.

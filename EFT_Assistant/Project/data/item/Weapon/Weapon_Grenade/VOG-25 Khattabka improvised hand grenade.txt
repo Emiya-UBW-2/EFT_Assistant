@@ -11,3 +11,5 @@ Sell_Fence=1880
 Sell_Skier=2303
 fleaMarketFee=0
 propertiestype=ItemPropertiesGrenade
+Name_Jpn=VOG-25 Khattabka グレネード
+Information_Jpn=The "Khattabka" hand-made hand grenade based on the VOG-25 grenade launcher shell. The grenade is a VOG-25 shell with a removed head part containing a detonator and self-destructor. A short fuse has been installed to speed up the ignition. An extremely deadly grenade.

@@ -95,3 +95,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=VSS/VAL TOZ 6P29M mount
+Information_Jpn=The TOZ 6P29M mount, developed for a modified version of the VSS sniper rifle. It is installed on the VSS standard silencer and forms 3 rails intended for mounting additional equipment on the weapon.

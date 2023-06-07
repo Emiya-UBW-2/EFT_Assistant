@@ -12,3 +12,5 @@ Sell_Peacekeeper=162
 Sell_Ragman=26945
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=Altyn フェイスシールド
+Information_Jpn=A special armored face shield for the "Altyn" heavy assault helmet. Increases the chances of surviving the impacts of bullets and shrapnel.

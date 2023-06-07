@@ -33,3 +33,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=SR-1MP single rail mount
+Information_Jpn= A mount for SR-1MP, included in the pistol kit, designed to form a single rail and silencer installation place.

@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-2.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=SVDS gas tube
+Information_Jpn=A standard gas tube for SVDS sniper rifles. Gas tubes channel the travel direction of gas piston.

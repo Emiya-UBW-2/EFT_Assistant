@@ -37,3 +37,5 @@ Conflict=[
 Recoil=0.000000
 Ergonomics=0.500000
 accuracyModifier=0.000000
+Name_Jpn=HK G36 magwell
+Information_Jpn=A standard-issue magwell for the G36 assault rifle, manufactured by Heckler & Koch.

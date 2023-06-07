@@ -180,3 +180,5 @@ cameraRecoil=0.038400
 cameraSnap=3.500000
 deviationMax=11
 convergence=2.100000
+Name_Jpn=HK MP7A2 4.6x30 submachine gun
+Information_Jpn=MP7A2 is a further modification of the MP7A1 SMG. The key feature of this submachine gun is the replacement of the standard folding foregrip for a Picatinny rail, allowing mounting of various vertical foregrips. Manufactured by Heckler & Koch.

@@ -13,3 +13,5 @@ propertiestype=ItemPropertiesMelee
 slashDamage=34
 stabDamage=51
 hitRadius=0.700000
+Name_Jpn=Miller Bros. Blades M-2 Tactical Sword
+Information_Jpn=The "M-2" short tactical sword, manufactured by Miller Bros. Blades.

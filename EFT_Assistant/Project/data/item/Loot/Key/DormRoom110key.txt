@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Customs
+Name_Jpn=社員寮110号室の鍵
+Information_Jpn="110" と書かれたタグが付いた2階建ての社員寮の鍵。

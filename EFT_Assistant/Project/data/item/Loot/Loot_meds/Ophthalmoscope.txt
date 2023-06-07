@@ -11,3 +11,5 @@ Sell_Fence=33964
 Sell_Jaeger=50947
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=検眼鏡
+Information_Jpn=網膜や視神経など、眼の内部を検査するための医療機器。

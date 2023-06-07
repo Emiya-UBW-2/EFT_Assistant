@@ -11,3 +11,5 @@ Sell_Fence=2240
 Sell_Skier=2744
 fleaMarketFee=0
 propertiestype=ItemPropertiesGrenade
+Name_Jpn=F-1 hand grenade
+Information_Jpn=F-1ハンドグレネード（GRAU Index 57-G-721）は、防衛戦闘で敵を無力化するために設計された対人破片手榴弾だ。危害半径が非常に広いため、コンクリート壁、装甲車または戦車などの遮蔽物の後ろから投げる必要がある。

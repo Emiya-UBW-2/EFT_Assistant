@@ -17,3 +17,5 @@ Recoil=0.000000
 Ergonomics=0.000000
 SightRange=600
 sightZooms=1.000000
+Name_Jpn=AR-15 Leapers UTG Low Profile A2 front sight
+Information_Jpn=The UTG Low Profile A2 front sight, installed on the Windham Weaponry gas block. Manufactured by Leapers Inc.

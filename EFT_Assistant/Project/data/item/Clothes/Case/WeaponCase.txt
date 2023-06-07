@@ -11,3 +11,5 @@ Sell_Ragman=677788
 Sell_Jaeger=655924
 fleaMarketFee=0
 propertiestype=ItemPropertiesContainer
+Name_Jpn=ウェポンケース
+Information_Jpn=武器や弾薬、パーツなどを収納するためのケース。

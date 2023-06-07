@@ -13,3 +13,5 @@ Sell_Peacekeeper=447
 Sell_Ragman=74493
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmor
+Name_Jpn=HighCom Trooper TFO body armor (Multicam)
+Information_Jpn=A plate armor vest by HighCom, popular among USEC PMCs. The lightweight AR500 class 4 (Russian GOST) protection plates cover only the chest and back areas. Multicam camouflage version.

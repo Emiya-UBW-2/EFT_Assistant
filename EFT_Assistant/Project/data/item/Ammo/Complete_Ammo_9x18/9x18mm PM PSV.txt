@@ -13,3 +13,5 @@ Sell_Peacekeeper=0
 Sell_Mechanic=38
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=9x18mm PM PSV
+Information_Jpn=A 9x18mm Makarov PSV cartridge with a 7.5 gram hollow-point bullet; intended for sport shooting and hunting. Despite its low muzzle velocity, it has a considerable stopping power effect thanks to its exceptional expansion capability after hitting the target.

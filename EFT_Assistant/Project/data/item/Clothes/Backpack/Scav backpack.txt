@@ -11,3 +11,5 @@ Sell_Ragman=11156
 Sell_Jaeger=10796
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
+Name_Jpn=Scav backpack
+Information_Jpn=A cheap replica of some 3-day assault pack with a MOLLE attachment system, adapted and enhanced by the owner as much as their creativity allowed. Does not offer much comfort, and volume is far lower than that of a proper 3-day pack, but it's still a backpack alright.

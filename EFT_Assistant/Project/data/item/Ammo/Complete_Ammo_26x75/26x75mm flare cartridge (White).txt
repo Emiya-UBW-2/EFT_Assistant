@@ -13,3 +13,5 @@ Sell_Peacekeeper=19
 Sell_Mechanic=2800
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=26x75mm flare cartridge (White)
+Information_Jpn=A 26x75mm 7S15 (26 OP) night flare cartridge for the SP-81 flare gun.

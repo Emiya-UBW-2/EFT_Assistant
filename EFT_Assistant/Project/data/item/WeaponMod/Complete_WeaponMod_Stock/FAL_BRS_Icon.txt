@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-37.000000
 Ergonomics=9.000000
 accuracyModifier=0.000000
+Name_Jpn=SA-58 BRS stock
+Information_Jpn=The BRS (Battle Rifle Stock) buttstock for SA-58 assault rifles. Manufactured by DS Arms.

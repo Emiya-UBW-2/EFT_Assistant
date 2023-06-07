@@ -13,3 +13,5 @@ Sell_Peacekeeper=1325
 Sell_Ragman=220875
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmor
+Name_Jpn=BNTI Zhuk-6a body armor
+Information_Jpn=A class 6 (Russian GOST) protection armored vest designed for assault units. Based on the Gzhel armor, serving as its lightweight copy.

@@ -10,3 +10,5 @@ Sell_Therapist=1214
 Sell_Fence=770
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=歯磨き粉
+Information_Jpn=今、この街で歯の健康を気にする奴などいないが、機会があるなら使ったほうが良いだろう。

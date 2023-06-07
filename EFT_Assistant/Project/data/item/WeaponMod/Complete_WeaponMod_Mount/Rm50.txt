@@ -20,3 +20,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=P226 Trijicon RMR mount
+Information_Jpn=A universal base for installation of the Trijicon RMR series reflex sights, replaces the standard rear sight of the SIG Sauer pistols.

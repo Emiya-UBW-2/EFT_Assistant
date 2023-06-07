@@ -25,3 +25,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=3.000000
 accuracyModifier=0.000000
+Name_Jpn=M1911A1 .45 ACP pistol slide
+Information_Jpn=A standard-issue slide for the M1911A1 pistol, manufactured by Colt.

@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-13.000000
 Ergonomics=-23.000000
 accuracyModifier=-0.030000
+Name_Jpn=Thunder Beast Arms Ultra 5 sound suppressor
+Information_Jpn=The Ultra 5 sound suppressor is designed for use with 7.62x51 NATO rounds, but also functions as a superb multi-caliber suppressor for multiple hosts, providing excellent performance on 7.62 NATO, .300, 6.8 SPC, 6.5, and 5.56mm NATO. Can only be installed on compatible muzzle devices made by Thunder Beast Arms.

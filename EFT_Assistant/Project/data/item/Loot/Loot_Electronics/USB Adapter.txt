@@ -13,3 +13,5 @@ Sell_Peacekeeper=6
 Sell_Mechanic=972
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=USB アダプター
+Information_Jpn=USB充電器。かつては生活になくてはならないものだった。

@@ -13,3 +13,5 @@ Sell_Peacekeeper=54
 Sell_Mechanic=8120
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=電熱線
+Information_Jpn=工業用の暖房器具に使用されている螺旋状に巻かれた金属線。電気を流すことで発熱するため、その輻射熱をラジエーターリフレクターなどで反射して室内を温める。

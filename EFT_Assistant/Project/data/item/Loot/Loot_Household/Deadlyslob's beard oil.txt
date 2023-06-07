@@ -10,3 +10,5 @@ Sell_Therapist=34932
 Sell_Fence=22179
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=DeadlySlob's ビアードオイル
+Information_Jpn=メープルシロップの香りをつけた "DeadlySlob's" ブランドの髭オイル。愛好家のための希少な逸品だ！

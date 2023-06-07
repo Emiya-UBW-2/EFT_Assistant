@@ -13,3 +13,5 @@ Sell_Skier=1960
 Sell_Ragman=2480
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=フリースの生地
+Information_Jpn=フリースは軽量で保温性、撥水性にも優れた素材だ。軍用、民生用を問わず様々な衣服の製造に使用されている。

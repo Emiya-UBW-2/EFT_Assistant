@@ -152,3 +152,5 @@ Conflict=[
 Recoil=-1.000000
 Ergonomics=3.000000
 accuracyModifier=0.000000
+Name_Jpn=AKS-74U Alfa Arms Goliaf handguard
+Information_Jpn=This integrally machined handguard is manufactured from aluminum alloy D16T with coyote brown coating and can be installed instead of the standard-issue foregrip on the AKS-74U. It comes fitted with Picatinny rail mounts on three sides, allowing for the installation of additional equipment such as tactical foregrips, flashlights, and laser designators.

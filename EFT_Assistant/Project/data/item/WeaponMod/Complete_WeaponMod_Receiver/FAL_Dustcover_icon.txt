@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=2.000000
 accuracyModifier=0.000000
+Name_Jpn=FAL standard dust cover
+Information_Jpn=A standard-issue dust cover for FAL-series rifles.

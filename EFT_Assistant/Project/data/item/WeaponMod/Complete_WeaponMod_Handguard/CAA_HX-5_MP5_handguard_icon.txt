@@ -118,3 +118,5 @@ ChildParts=[
 Recoil=-3.000000
 Ergonomics=13.000000
 accuracyModifier=0.000000
+Name_Jpn=HK MP5 CAA HX-5 handguard
+Information_Jpn=The HX-5 handguard for HK MP5 SMG manufactured by Command Arms Accessories, equipped with 5 rail mounts for installation of additional tactical devices.

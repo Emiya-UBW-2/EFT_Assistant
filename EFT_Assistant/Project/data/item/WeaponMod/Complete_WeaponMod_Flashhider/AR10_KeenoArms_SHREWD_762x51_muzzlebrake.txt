@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-11.000000
 Ergonomics=-1.000000
 accuracyModifier=0.020000
+Name_Jpn=AR-10 Keeno Arms SHREWD 7.62x51 muzzle brake
+Information_Jpn=The SHREWD muzzle brake designed for installation on AR-10-type systems and compatibles. Manufactured by Keeno Arms.

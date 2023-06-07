@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-38.000000
 Ergonomics=7.000000
 accuracyModifier=0.000000
+Name_Jpn=MC 20-01 ストック
+Information_Jpn=A standard stock for MTs 20-01 hunting rifles, but can be also installed on various different shotguns including the bolt-action TOZ-106.

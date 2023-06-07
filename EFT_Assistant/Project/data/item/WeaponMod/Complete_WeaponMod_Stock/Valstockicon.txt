@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-30.000002
 Ergonomics=8.000000
 accuracyModifier=0.000000
+Name_Jpn=AS VAL skeleton stock
+Information_Jpn=A standard-issue foldable skeleton stock for AS VAL, manufactured by TsNIITochMash.

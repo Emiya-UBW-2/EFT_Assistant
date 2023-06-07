@@ -13,3 +13,5 @@ Sell_Peacekeeper=318
 Sell_Ragman=53087
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmor
+Name_Jpn=6B23-2 body armor (Mountain Flora)
+Information_Jpn=The Zabralo-8 main armored vest for personnel of combat units of the ground forces, airborne troops, marines, etc. The vest is designed to protect vital organs from being hit by firearms, shell fragments, mines, grenades, and cold weapons, reducing the severity of armor contusion injury when performing combat missions.

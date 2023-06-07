@@ -138,3 +138,5 @@ Conflict=[
 Recoil=-1.000000
 Ergonomics=8.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-10 Noveske SWS N6 Split handguard
+Information_Jpn=The Noveske SWS N6 Split handguard is made with light but durable aircraft aluminum alloy. It comes equipped with 4 mounts for the installation of additional devices and accessories. Fits AR-10 compatible weapon systems.

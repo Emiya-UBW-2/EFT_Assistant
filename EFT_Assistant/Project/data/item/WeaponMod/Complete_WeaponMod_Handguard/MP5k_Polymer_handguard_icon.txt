@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-3.000000
 Ergonomics=12.000000
 accuracyModifier=0.000000
+Name_Jpn=HK MP5K polymer handguard
+Information_Jpn=A polymer handguard for the MP5K submachine gun, manufactured by Heckler & Koch.

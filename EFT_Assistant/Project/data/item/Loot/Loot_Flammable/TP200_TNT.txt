@@ -11,3 +11,5 @@ Sell_Fence=14000
 Sell_Jaeger=21000
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=TP-200 TNT火薬
+Information_Jpn=TP-200 は、主に地質調査で用いられる爆薬だ。ボーリングの孔中発破の起爆や岩石などの破砕、特殊な掘削作業にも使用されている。

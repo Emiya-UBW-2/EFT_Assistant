@@ -19,3 +19,5 @@ SightRange=200
 sightZooms=1.000000
 sightZooms=1.000000
 sightZooms=1.000000
+Name_Jpn=VOMZ Pilad P1x42 Weaver reflex sight
+Information_Jpn=An open-type reflex sight designed for precision aiming of sport and hunting weapons at different types of targets, including the fast-moving ones. Manufactured by VOMZ.

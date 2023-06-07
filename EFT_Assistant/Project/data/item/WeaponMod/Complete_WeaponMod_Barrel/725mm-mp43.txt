@@ -18,3 +18,5 @@ Recoil=-12.000000
 Ergonomics=-9.000000
 centerOfImpact=0.380000
 deviationMax=10
+Name_Jpn=MP-43-1C 12ga 725mm barrel
+Information_Jpn=A 725mm long 12 gauge barrel for the MP-43-1C double-barrelled shotgun.

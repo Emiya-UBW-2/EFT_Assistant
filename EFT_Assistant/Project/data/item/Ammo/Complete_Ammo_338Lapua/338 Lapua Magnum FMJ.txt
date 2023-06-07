@@ -13,3 +13,5 @@ Sell_Peacekeeper=9
 Sell_Mechanic=1350
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=.338 Lapua Magnum FMJ
+Information_Jpn=A .338 Lapua Magnum (8.6x70mm) FMJ cartridge with a 16.2 gram lead core bullet with a bimetallic jacket in a brass case. Despite its rudimentary design, this cartridge possesses capabilities of piercing basic and intermediate ballistic body protections, as well as providing a considerable stopping power effect and being capable of causing critical adverse effects on the target after impact. However, due to its design, it has a high probability of bouncing off various surfaces.

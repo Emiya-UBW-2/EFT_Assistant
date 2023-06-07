@@ -11,3 +11,5 @@ Sell_Ragman=100782
 Sell_Jaeger=97531
 fleaMarketFee=0
 propertiestype=ItemPropertiesContainer
+Name_Jpn=弾薬ケース
+Information_Jpn=Kiba Arms International の樹脂製のアンモボックス。

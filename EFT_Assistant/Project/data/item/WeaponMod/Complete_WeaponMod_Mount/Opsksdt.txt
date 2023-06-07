@@ -31,3 +31,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=OP-SKS dovetail mount
+Information_Jpn=A mount for installation of sights and other additional devices on the OP-SKS carbines.

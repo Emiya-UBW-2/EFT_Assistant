@@ -35,3 +35,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=AI AXMC AT X Top Rail 
+Information_Jpn=A top handguard rail for installation on the KeySlot interface for the AXMC sniper rifle, manufactured by Accuracy International.

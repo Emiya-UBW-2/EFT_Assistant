@@ -25,3 +25,5 @@ ChildParts=[
 Recoil=-20.000000
 Ergonomics=-5.000000
 accuracyModifier=0.000000
+Name_Jpn=VSS 9x39 integral barrel-suppressor
+Information_Jpn=TsNIITochMash製 VSS Vintorez用 一体型サプレッサーモジュール

@@ -11,3 +11,5 @@ Sell_Ragman=31061
 Sell_Jaeger=30059
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
+Name_Jpn=Pilgrim バックパック
+Information_Jpn=A large and brightly colored backpack that is perfect for tourists on a raid.

@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Shoreline
+Name_Jpn=Health Resort east wing room 316 key
+Information_Jpn=A key to the Azure Coast sanatorium east wing room 316.

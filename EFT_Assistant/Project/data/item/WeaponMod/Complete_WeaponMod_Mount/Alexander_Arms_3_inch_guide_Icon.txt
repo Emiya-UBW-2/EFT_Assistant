@@ -38,3 +38,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=Alexander Arms 3 inch rail
+Information_Jpn=The Alexander Arms 3 inch rail allows installation of additional equipment on the MK10 handguard.

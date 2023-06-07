@@ -12,3 +12,5 @@ Sell_Ragman=2603
 Sell_Jaeger=2519
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
+Name_Jpn=Scavベスト
+Information_Jpn=釣り人用のベストも、必要であればチェストリグの代用となる。

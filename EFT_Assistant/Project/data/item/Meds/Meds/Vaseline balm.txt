@@ -18,3 +18,5 @@ uses=7
 painkillerDuration=0
 energyImpact=0
 hydrationImpact=0
+Name_Jpn=ワセリン バーム
+Information_Jpn=ワセリンに有効成分を混ぜた軟膏剤。基剤の白色ワセリンは、その撥水性、潤滑性を生かして、小さな切り傷や火傷の治療、腐食しやすい物のコーティング、非酸性の潤滑剤を必要とする歯車など、様々な用途に使用されている。

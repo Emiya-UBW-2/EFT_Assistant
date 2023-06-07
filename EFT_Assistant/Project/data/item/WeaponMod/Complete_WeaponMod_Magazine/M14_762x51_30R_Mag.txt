@@ -19,3 +19,5 @@ capacity=30
 loadModifier=0.000000
 ammoCheckModifier=0.000000
 malfunctionChance=0.080000
+Name_Jpn=M14 7.62x51 30-round magazine
+Information_Jpn=A 30-round double-stack 7.62x51 NATO magazine for the M1 rifle. Produced by Triple K.

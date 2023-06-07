@@ -11,3 +11,5 @@ Sell_Ragman=465000
 Sell_Jaeger=450000
 fleaMarketFee=0
 propertiestype=ItemPropertiesContainer
+Name_Jpn=S I C C ポーチ
+Information_Jpn=紙幣やコイン、金属製の鍵のほか、キーカードやドッグタグなど、様々な小物を整頓して持ち歩くのに便利なコーデュラナイロンのオーガナイゼーショナル ポーチ。

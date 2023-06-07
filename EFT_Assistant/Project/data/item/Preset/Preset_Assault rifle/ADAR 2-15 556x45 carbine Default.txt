@@ -26,3 +26,4 @@ containsItems=[
 	AR-15 ADAR 2-15 buffer tubex1/|
 	AR-15 ADAR 2-15 charging handlex1
 ]
+Name_Jpn=ADAR 2-15 5.56x45 carbine デフォルト

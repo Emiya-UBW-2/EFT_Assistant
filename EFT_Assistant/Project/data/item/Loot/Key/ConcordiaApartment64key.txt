@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Streets of Tarkov
+Name_Jpn=Concordia apartment 64 key
+Information_Jpn=A key to the premium apartment inside the Concordia building.

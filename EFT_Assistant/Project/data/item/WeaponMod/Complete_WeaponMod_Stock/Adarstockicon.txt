@@ -54,3 +54,5 @@ Conflict=[
 Recoil=-28.000000
 Ergonomics=13.000000
 accuracyModifier=0.000000
+Name_Jpn=ADAR 2-15 木製ストック
+Information_Jpn=A wooden SVD-style stock for ADAR 2-15 carbines.

@@ -12,3 +12,5 @@ Sell_Peacekeeper=38
 Sell_Ragman=6324
 fleaMarketFee=0
 propertiestype=
+Name_Jpn="Door Kicker" ブーニーハット
+Information_Jpn=A well-worn "PriceLess" boonie hat. It is believed that those who wear it can open any door in this world.

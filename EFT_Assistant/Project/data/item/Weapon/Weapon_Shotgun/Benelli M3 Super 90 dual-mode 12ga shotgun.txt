@@ -53,3 +53,5 @@ cameraRecoil=0.150000
 cameraSnap=2.600000
 deviationMax=10
 convergence=1.900000
+Name_Jpn=Benelli M3 Super 90 dual-mode 12ga shotgun
+Information_Jpn=The Benelli M3 S90 is a dual-mode shotgun designed and manufactured by Benelli. The M3 is notable for allowing the user to choose between semi-automatic or pump-action operation. Benelli shotguns show excellent ballistic performance, and the finish and fine workmanship are the epitome of traditional Italian style.

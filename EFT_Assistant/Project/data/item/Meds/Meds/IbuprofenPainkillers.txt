@@ -18,3 +18,5 @@ uses=15
 painkillerDuration=0
 energyImpact=0
 hydrationImpact=0
+Name_Jpn=イブプロフェン
+Information_Jpn=イブプロフェンは、非ステロイド性抗炎症薬 (NSAIDs) の一種で、痛みや炎症、発熱を抑える鎮痛剤だ。

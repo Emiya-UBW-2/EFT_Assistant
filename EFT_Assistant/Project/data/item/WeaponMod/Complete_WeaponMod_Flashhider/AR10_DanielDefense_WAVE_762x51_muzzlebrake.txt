@@ -19,3 +19,5 @@ ChildParts=[
 Recoil=-9.000000
 Ergonomics=-1.000000
 accuracyModifier=0.010000
+Name_Jpn=AR-10 Daniel Defense WAVE 7.62x51 muzzle brake
+Information_Jpn=The Daniel Defense WAVE muzzle brake is designed to securely mount the Daniel Defense WAVE suppressor to the host firearm, but also functions effectively without it. It's manufactured from aerospace 17-4 PH stainless steel and had a salt bath nitride finish for minimal corrosion.

@@ -12,3 +12,5 @@ Sell_Fence=52800
 Sell_Mechanic=73920
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=フィアスブロウ スレッジハンマー
+Information_Jpn=この "フィアスブロウ" スレッジハンマーはドアや壁の破壊など、建造物の解体を行うための道具として使用されている。

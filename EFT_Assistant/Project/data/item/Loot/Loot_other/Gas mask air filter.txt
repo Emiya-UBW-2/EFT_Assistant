@@ -12,3 +12,5 @@ Sell_Fence=4015
 Sell_Skier=4919
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=ガスマスクのフィルター
+Information_Jpn=GP-7 ガスマスク用のメタルケースに収められた GP-7k FPK フィルター。

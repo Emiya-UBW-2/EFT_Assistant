@@ -24,3 +24,5 @@ Recoil=-9.000000
 Ergonomics=-12.000000
 centerOfImpact=0.320000
 deviationMax=10
+Name_Jpn=M870 12ga 660mm vent rib barrel
+Information_Jpn=A 660mm 12 gauge barrel with a vent rib for the Remington Model 870 shotgun.

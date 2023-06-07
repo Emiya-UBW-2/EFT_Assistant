@@ -18,3 +18,5 @@ Recoil=-5.000000
 Ergonomics=-5.000000
 centerOfImpact=0.350000
 deviationMax=11
+Name_Jpn=Glock 17 9x19 barrel with a compensator
+Information_Jpn=A 114mm long barrel with a mounted compensator for Glock 17 pistols.

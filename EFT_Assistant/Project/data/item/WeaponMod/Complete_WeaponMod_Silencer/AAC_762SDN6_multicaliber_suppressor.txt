@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-14.000000
 Ergonomics=-26.000000
 accuracyModifier=-0.020000
+Name_Jpn=AAC 762-SDN-6 multi-caliber sound suppressor
+Information_Jpn=The AAC 762-SDN-6 sound suppressor is designed for use with 7.62x51 NATO ammo, but also functions as a superb multi-caliber suppressor for multiple hosts, providing excellent performance on 7.62 NATO, .300 AAC, 6.8 SPC, 6.5, and 5.56mm NATO. Can only be installed on compatible with "51T" devices.

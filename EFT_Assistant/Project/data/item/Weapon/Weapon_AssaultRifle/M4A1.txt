@@ -111,3 +111,6 @@ cameraRecoil=0.074400
 cameraSnap=3.500000
 deviationMax=23
 convergence=1.500000
+Name_Jpn=Colt M4A1 5.56x45 assault rifle
+Information_Jpn=The Colt M4A1 carbine is a fully automatic variant of the basic M4 Carbine and was primarily designed for special operations use.
+However, U.S. Special Operations Command (USSOCOM) was soon to adopt the M4A1 for almost all special operations units, followed later by general introduction of the M4A1 into service with the U.S. Army and Marine Corps.

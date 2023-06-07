@@ -19,3 +19,5 @@ capacity=20
 loadModifier=0.000000
 ammoCheckModifier=0.000000
 malfunctionChance=0.020000
+Name_Jpn=HK MP7 4.6x30 20-round magazine
+Information_Jpn=A standard 20-round 4.6x30 magazine for the MP7 SMGs, manufactured by Heckler & Koch.

@@ -18,3 +18,5 @@ Ergonomics=-3.000000
 SightRange=600
 sightZooms=3.000000
 sightZooms=1.000000
+Name_Jpn=EOTech HHS-1 hybrid sight (Tan)
+Information_Jpn=The HHS-1 (Holographic Hybrid Sight 1) hybrid optical complex features the EXPS3-4 holographic sight with the G33.STS magnifier. Manufactured by EOTech. Tan version.

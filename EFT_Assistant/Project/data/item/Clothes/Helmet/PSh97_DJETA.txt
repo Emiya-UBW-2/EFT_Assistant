@@ -12,3 +12,5 @@ Sell_Peacekeeper=60
 Sell_Ragman=10044
 fleaMarketFee=0
 propertiestype=ItemPropertiesHelmet
+Name_Jpn=PSh-97 DJETA riot helmet
+Information_Jpn=The PSh-97 "DJETA" police helmet is designed to protect the head from being hit by heavy objects, metal rods, etc.

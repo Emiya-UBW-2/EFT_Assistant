@@ -21,3 +21,5 @@ Recoil=0.000000
 Ergonomics=-3.500000
 SightRange=800
 sightZooms=4.000000
+Name_Jpn=Leupold Mark 4 HAMR 4x24 DeltaPoint hybrid assault scope
+Information_Jpn=The Hybrid Leupold-produced scope comprises of the Mark 4 HAMR 4x24mm optical sight with the DeltaPoint reflex sight installed on top of it. It was developed for precision mid-range carbine fire using the 4x optics while being equally effective in close quarters thanks to use of compact reflex sight when necessary.

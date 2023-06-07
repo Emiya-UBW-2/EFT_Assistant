@@ -13,3 +13,5 @@ Sell_Peacekeeper=1
 Sell_Mechanic=191
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=12/70 AP-20 スラグ
+Information_Jpn=A 12/70 armor-piercing slug shell for 12 gauge shotguns. Designed for law enforcement forces of our overseas ʕ•ᴥ•ʔ friends ʕ•ᴥ•ʔ.

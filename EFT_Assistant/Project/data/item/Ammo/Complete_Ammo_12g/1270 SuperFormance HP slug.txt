@@ -13,3 +13,5 @@ Sell_Peacekeeper=1
 Sell_Mechanic=107
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=12/70 SuperFormance HP slug
+Information_Jpn=A SuperFormance 12/70 hollow-point slug shell for 12 gauge shotguns.

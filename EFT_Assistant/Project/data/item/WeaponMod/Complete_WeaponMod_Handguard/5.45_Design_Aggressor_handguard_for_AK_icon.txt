@@ -163,3 +163,5 @@ ChildParts=[
 Recoil=-3.000000
 Ergonomics=5.000000
 accuracyModifier=0.000000
+Name_Jpn=AK 5.45 Design Aggressor handguard
+Information_Jpn=Aggressor is a railed handguard for AK series rifles manufactured by 5.45 Design. Features 4 side rails for installation of tactical devices and 2 long rails for installation of various optics and foregrips.

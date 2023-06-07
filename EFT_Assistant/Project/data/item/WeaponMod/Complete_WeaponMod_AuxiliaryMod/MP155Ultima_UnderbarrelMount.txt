@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=5.000000
 accuracyModifier=0.000000
+Name_Jpn=MP-155 Ultima underbarrel mount
+Information_Jpn=The "Ultima" modification underbarrel mount for the MP-155 shotgun. Manufactured by Kalashnikov Group.

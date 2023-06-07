@@ -11,3 +11,5 @@ Sell_Peacekeeper=78
 Sell_Mechanic=11777
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Leatherman マルチツール
+Information_Jpn=このコンパクトなマルチツールさえあれば、道具の心配をする必要はないだろう。

@@ -17,3 +17,5 @@ Recoil=0.000000
 Ergonomics=-2.000000
 SightRange=0
 sightZooms=1.000000
+Name_Jpn=Aimpoint COMP M4 リフレックスサイト
+Information_Jpn=CompM4シリーズはAimpoint社の製品の中でもっとも頑丈であり、多くのNATO加盟国で歩兵用の標準サイトとして採用されている。単三電池一本で最大8年もの間、連続して動作させることが可能だ。アメリカ軍もこのCompM4をM68CCO（Close-Combat Optic - 近接戦闘用サイト）として使用している。

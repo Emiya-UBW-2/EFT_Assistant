@@ -12,3 +12,5 @@ Sell_Fence=7560
 Sell_Jaeger=11340
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=シリコンチューブ
+Information_Jpn=直径20mmのシリコン製チューブ。化学産業や、密造酒の製造には特に不可欠なものだ。

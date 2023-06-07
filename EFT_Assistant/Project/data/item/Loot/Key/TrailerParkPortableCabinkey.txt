@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Customs
+Name_Jpn=トレーラーパークの可搬式詰所の鍵
+Information_Jpn=Customsのトレーラーパークにある可搬式の監視員詰所の鍵。

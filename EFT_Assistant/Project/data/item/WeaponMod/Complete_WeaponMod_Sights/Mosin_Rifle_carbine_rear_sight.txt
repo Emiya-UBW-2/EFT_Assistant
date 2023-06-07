@@ -39,3 +39,5 @@ Recoil=0.000000
 Ergonomics=0.000000
 SightRange=600
 sightZooms=1.000000
+Name_Jpn=Mosin Rifle carbine rear sight
+Information_Jpn=A standard rear iron sight for the Mosin carbine.

@@ -84,3 +84,5 @@ Conflict=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=TOZ-106 スコープマウント
+Information_Jpn=A universal Weaver rail mount for TOZ-106. Provides a rail that allows installing various scopes on the weapon. Requires a dovetail mount.

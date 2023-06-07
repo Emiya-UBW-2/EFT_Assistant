@@ -19,3 +19,5 @@ capacity=84
 loadModifier=0.250000
 ammoCheckModifier=0.250000
 malfunctionChance=0.259000
+Name_Jpn=PM 9x18PM 84-round makeshift drum magazine
+Information_Jpn=A makeshift 84-round PM magazine. First assembled by an unknown genius by combining PM and PPSh magazines into a single design for operations in narrow spaces with the aid of ballistic shields. Although it was never serialized even in the smallest number, it can be crafted pretty easily, provided you have the donor mags and skillful hands.

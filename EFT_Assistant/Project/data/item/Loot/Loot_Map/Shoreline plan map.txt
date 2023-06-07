@@ -10,3 +10,5 @@ Sell_Therapist=12568
 Sell_Fence=7980
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Shoreline plan map
+Information_Jpn=A detailed plan map of the Shoreline area.

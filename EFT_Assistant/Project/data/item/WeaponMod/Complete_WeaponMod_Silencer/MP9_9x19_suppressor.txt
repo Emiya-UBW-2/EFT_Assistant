@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-9.000000
 Ergonomics=-16.000000
 accuracyModifier=0.010000
+Name_Jpn=MP9 9x19 sound suppressor
+Information_Jpn=A sound suppressor for the MP9 9x19 SMG, manufactured by Brügger & Thomet.

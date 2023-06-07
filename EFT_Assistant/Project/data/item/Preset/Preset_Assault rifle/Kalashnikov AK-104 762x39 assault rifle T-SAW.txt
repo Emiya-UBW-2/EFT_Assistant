@@ -32,3 +32,4 @@ containsItems=[
 	AK 7.62x39 X Products X-47 50-round drum magazinex1/|
 	AK Zenit RP-1 charging handlex1
 ]
+Name_Jpn=AK-104 7.62x39 アサルトライフル T-SAW

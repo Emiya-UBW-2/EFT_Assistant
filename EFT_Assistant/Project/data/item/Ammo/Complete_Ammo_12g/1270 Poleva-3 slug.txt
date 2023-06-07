@@ -13,3 +13,5 @@ Sell_Peacekeeper=0
 Sell_Mechanic=28
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=12/70 "Poleva-3" スラグ
+Information_Jpn=A "Poleva-3" 12/70 expanding slug shell for 12 gauge shotguns.

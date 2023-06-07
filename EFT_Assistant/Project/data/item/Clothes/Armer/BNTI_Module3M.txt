@@ -13,3 +13,5 @@ Sell_Peacekeeper=85
 Sell_Ragman=14144
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmor
+Name_Jpn=BNTI Module-3M ボディアーマー
+Information_Jpn=GOST-R 規格で クラス2 の防弾性能をもつ軽量な防弾ベスト。民間警備会社や現金輸送などで使用されている。

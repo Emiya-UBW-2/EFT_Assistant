@@ -22,3 +22,5 @@ Recoil=-2.000000
 Ergonomics=-3.000000
 centerOfImpact=0.270000
 deviationMax=11
+Name_Jpn=HK USP Tactical .45 ACP threaded barrel
+Information_Jpn=A 129mm threaded barrel for the special version of the USP pistol - USP Tactical, chambered in .45 ACP. Manufactured by Heckler & Koch.

@@ -11,3 +11,5 @@ Sell_Fence=12644
 Sell_Jaeger=18967
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink
+Name_Jpn=Aquamari フィルター付きウォーターボトル
+Information_Jpn=CR-100フィルターで浄化された水の入っている水筒。容量は0.6リットル。

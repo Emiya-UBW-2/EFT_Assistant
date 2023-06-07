@@ -11,3 +11,5 @@ Sell_Skier=30380
 Sell_Ragman=38440
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=RFARMY armband
+Information_Jpn=An armband with the Russian flag. Used by the contingent of the RF Armed Forces on the territory of the city of Tarkov and its suburbs.

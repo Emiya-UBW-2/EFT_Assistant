@@ -12,3 +12,5 @@ Sell_Peacekeeper=626
 Sell_Ragman=104372
 fleaMarketFee=0
 propertiestype=ItemPropertiesHelmet
+Name_Jpn=Altyn bulletproof helmet
+Information_Jpn=The "Altyn" helmets passed real combat tests in Afghanistan and Chechnya and are still in service with the Ministry of Internal Affairs of the Russian Federation and the army special forces. Can be equipped with an armored faceshield visor.

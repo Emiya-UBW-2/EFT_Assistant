@@ -13,3 +13,5 @@ Sell_Mechanic=14560
 Sell_Jaeger=15600
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=GreenBat リチウムイオン電池
+Information_Jpn=公称容量3400mAh、電圧3.7ボルトのリチウムイオン電池。照明や工具の電源として使用されている。

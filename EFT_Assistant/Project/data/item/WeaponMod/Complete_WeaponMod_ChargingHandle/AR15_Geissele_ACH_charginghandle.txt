@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=2.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 Geissele ACH charging handle
+Information_Jpn=AR-15系用のGeissele Airborneチャージングハンドル。

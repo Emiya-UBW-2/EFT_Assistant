@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=20
 Map=Streets of Tarkov
+Name_Jpn=Car dealership director's office room key
+Information_Jpn=A key to one of the offices in the LexOs car dealership.

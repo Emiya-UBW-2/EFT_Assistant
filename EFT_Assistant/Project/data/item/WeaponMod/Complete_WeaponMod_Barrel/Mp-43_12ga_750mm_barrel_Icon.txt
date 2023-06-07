@@ -18,3 +18,5 @@ Recoil=-14.000000
 Ergonomics=-11.000000
 centerOfImpact=0.310000
 deviationMax=11
+Name_Jpn=MP-43 12ga 750mm barrel
+Information_Jpn=A 750mm long 12 gauge barrel for the MP-43 double-barrelled shotgun.

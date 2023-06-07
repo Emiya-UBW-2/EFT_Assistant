@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=7.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 HK Battle Grip Beavertail pistol grip (RAL 8000)
+Information_Jpn=The HK Battle Grip pistol grip with Beavertail can be installed on any weapon compatible with AR-15 grips. RAL 8000 color version.

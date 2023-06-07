@@ -20,3 +20,5 @@ Conflict=[
 	EMERCOM cap/|
 	Police cap
 ]
+Name_Jpn=Hockey player mask "Brawler"
+Information_Jpn=Frightening mask from a children's cartoon about hockey.

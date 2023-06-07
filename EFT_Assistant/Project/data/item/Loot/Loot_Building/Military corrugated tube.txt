@@ -12,3 +12,5 @@ Sell_Fence=10000
 Sell_Jaeger=15000
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=軍用コルゲートチューブ
+Information_Jpn=軍事施設内の換気装置や空気清浄機などに使用されているコルゲートチューブ。

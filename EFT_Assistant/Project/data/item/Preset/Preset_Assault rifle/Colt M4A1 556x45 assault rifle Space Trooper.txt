@@ -35,3 +35,4 @@ containsItems=[
 	Colt Carbine buffer tubex1/|
 	AR-15 Badger Ordnance Tactical Charging Handle Latchx1
 ]
+Name_Jpn=Colt M4A1 5.56x45 assault rifle Space Trooper

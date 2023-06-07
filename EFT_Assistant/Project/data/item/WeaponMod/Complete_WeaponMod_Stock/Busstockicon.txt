@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-32.000000
 Ergonomics=2.000000
 accuracyModifier=0.000000
+Name_Jpn=MFT BUS ストック
+Information_Jpn=The BATTLELINK Utility Stock polymer buttstock manufactured by Mission First Tactical. Adapts and changes based on environment or operational needs, from storing additional items in the rear compartment to utilizing custom accessory mounts.

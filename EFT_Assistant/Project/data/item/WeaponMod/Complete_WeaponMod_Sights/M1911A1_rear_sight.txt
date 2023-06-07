@@ -17,3 +17,5 @@ Recoil=0.000000
 Ergonomics=0.000000
 SightRange=200
 sightZooms=1.000000
+Name_Jpn=M1911A1 rear sight
+Information_Jpn=A standard-issue rear sight for the M1911A1 pistol, manufactured by Colt.

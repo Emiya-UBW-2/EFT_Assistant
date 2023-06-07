@@ -12,3 +12,5 @@ Sell_Peacekeeper=165
 Sell_Ragman=27466
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Smoke バラクラバ
+Information_Jpn=Tarkovの有名ヒップホップアーティスト、Smokeのサイン入りバラクラバ。

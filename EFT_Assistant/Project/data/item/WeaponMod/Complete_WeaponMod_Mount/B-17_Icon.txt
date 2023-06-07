@@ -48,3 +48,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=SR-2M Zenit B-17 マウント
+Information_Jpn=SR-2Mのダブテールトップレールからピカティニーレールに替えるためのB-17マウント。Zenit製。

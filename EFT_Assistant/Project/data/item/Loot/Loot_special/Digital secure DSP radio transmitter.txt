@@ -8,3 +8,5 @@ height=1
 weight=0.170000
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Digital secure DSP radio transmitter
+Information_Jpn=A special digital radio transmitter for user status identification system.

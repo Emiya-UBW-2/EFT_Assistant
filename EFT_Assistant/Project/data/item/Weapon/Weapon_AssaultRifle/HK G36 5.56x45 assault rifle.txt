@@ -69,3 +69,5 @@ cameraRecoil=0.076800
 cameraSnap=3.500000
 deviationMax=23
 convergence=1.450000
+Name_Jpn=HK G36 5.56x45 assault rifle
+Information_Jpn=G36 is a 5.56x45mm assault rifle designed in the early 1990s by German company Heckler & Koch as a replacement for the heavier 7.62x51mm G3 battle rifle. It was accepted into service with the Bundeswehr in 1997, replacing the G3. Since then, it has also been a popular export, and the G36 has seen active service in military and police units in several countries, including Germany, Spain, and the United Kingdom.

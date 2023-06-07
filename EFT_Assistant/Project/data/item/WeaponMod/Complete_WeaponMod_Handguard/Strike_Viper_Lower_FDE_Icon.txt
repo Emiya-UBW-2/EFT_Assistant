@@ -26,3 +26,5 @@ Conflict=[
 Recoil=0.000000
 Ergonomics=7.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 Strike Industries Viper carbine length M-LOK lower handguard (FDE)
+Information_Jpn=The Strike Industries Viper handguard cover for AR-15 equipped with an M-LOK interface for the installation of additional devices and accessories. Flat Dark Earth version.

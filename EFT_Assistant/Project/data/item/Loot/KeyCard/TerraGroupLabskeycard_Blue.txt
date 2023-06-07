@@ -12,3 +12,5 @@ Sell_Mechanic=5040000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=0
+Name_Jpn=TerraGroup Labs キーカード (ブルー)
+Information_Jpn=United Securityが発行したTerraGroup Labsのキーカード。ブルーセクターに所属する従業員用。

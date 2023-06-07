@@ -13,3 +13,5 @@ Sell_Peacekeeper=0
 Sell_Mechanic=19
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=12/70 5.25mm バックショット
+Information_Jpn=A 12/70 shell loaded with 15 5.25mm buckshot pellets for 12 gauge shotguns.

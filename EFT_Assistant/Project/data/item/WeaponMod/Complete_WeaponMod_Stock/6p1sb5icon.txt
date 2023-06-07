@@ -20,3 +20,5 @@ ChildParts=[
 Recoil=-33.000000
 Ergonomics=3.000000
 accuracyModifier=0.000000
+Name_Jpn=AKM wooden stock (6P1 Sb.5)
+Information_Jpn=A standard-issue wooden stock for AKM automatic rifles, manufactured by Izhmash.

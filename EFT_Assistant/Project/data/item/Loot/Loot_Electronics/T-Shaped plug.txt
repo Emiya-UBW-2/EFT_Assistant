@@ -13,3 +13,5 @@ Sell_Peacekeeper=9
 Sell_Mechanic=1389
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=T型プラグ
+Information_Jpn=壁のコンセントに挿して使用するT字型の電源タップ。

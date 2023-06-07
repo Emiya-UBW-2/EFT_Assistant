@@ -123,3 +123,5 @@ Conflict=[
 Recoil=-2.500000
 Ergonomics=5.000000
 accuracyModifier=0.000000
+Name_Jpn=AK CNC Guns OV GP handguard
+Information_Jpn=The OV GP handguard for AK series assault rifles, equipped with a KeyMod interface for the installation of additional devices and accessories. Manufactured by CNC Guns.

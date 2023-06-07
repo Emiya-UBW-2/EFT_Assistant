@@ -12,3 +12,5 @@ Sell_Peacekeeper=176
 Sell_Ragman=29295
 fleaMarketFee=0
 propertiestype=ItemPropertiesHelmet
+Name_Jpn=Glorious E lightweight armored mask
+Information_Jpn=The "Glorious E" face protection mask, reinforced with aramid fibers.

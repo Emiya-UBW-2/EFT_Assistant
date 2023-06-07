@@ -10,3 +10,5 @@ Sell_Therapist=3772
 Sell_Fence=2395
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Ox 漂白剤
+Information_Jpn="Ox" は衣類の染み抜きや色素汚れに特化した漂白剤だ。これらに用いられる主成分は化学結合を断ち切るため、化学製品製造にも頻繁に利用されている。

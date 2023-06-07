@@ -34,3 +34,5 @@ Conflict=[
 Recoil=-2.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 Windham Weaponry Rail Gas Block
+Information_Jpn=Installed as replacement to standard AR-15-based weapons gas blocks, it adds a Picatinny rail that allows the installation of your own front sight.

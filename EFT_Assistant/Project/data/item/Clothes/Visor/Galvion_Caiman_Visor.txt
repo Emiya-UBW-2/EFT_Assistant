@@ -19,3 +19,5 @@ Conflict=[
 	AN/PVS-14 Night Vision Monocular/|
 	T-7 Thermal Goggles with a Night Vision mount
 ]
+Name_Jpn=Galvion Caiman Fixed Arm Visor
+Information_Jpn=A locked-in ballistic visor shield for installation on the Caiman Hybrid helmet's shroud. Manufactured by Galvion.

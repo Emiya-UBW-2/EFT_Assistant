@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-10.000000
 Ergonomics=-12.000000
 accuracyModifier=0.000000
+Name_Jpn=TT 7.62x25 makeshift sound suppressor
+Information_Jpn=A makeshift sound suppressor for TT with a homespun barrel. Install and operate at your own discretion.

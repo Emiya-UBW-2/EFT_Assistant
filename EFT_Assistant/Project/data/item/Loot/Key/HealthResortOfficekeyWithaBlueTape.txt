@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Shoreline
+Name_Jpn=Health Resort office key with a blue tape
+Information_Jpn=青色のダクトテープで目印がつけられた鍵。

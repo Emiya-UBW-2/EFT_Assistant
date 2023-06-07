@@ -68,3 +68,5 @@ cameraRecoil=0.096000
 cameraSnap=3.500000
 deviationMax=23
 convergence=1.200000
+Name_Jpn=DS Arms SA-58 7.62x51 assault rifle
+Information_Jpn=The SA-58 OSW (Operations Specialist Weapon), manufactured by American company DSA (or DS Arms - David Selvaggio Arms), is a legal copy of the FAL. It's made with the same Steyr-Daimler-Puch production line equipment as the StG-58. It may come with a different barrel length, an aluminum-alloy lower receiver, and improved glass-filled nylon furniture. Civilian models are semi-automatic, but military and law enforcement clients can procure select-fire models that have a fully automatic cyclic rate of 750 rounds/minute. The DSA-58 can use any metric-measurement FAL magazines.

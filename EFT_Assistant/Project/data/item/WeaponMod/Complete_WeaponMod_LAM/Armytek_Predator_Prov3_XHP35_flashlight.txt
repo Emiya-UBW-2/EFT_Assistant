@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=-2.000000
 accuracyModifier=0.000000
+Name_Jpn=Armytek Predator Pro v3 XHP35 HI flashlight
+Information_Jpn=A powerful flashlight in a heavy-duty frame, manufactured by Armytek.

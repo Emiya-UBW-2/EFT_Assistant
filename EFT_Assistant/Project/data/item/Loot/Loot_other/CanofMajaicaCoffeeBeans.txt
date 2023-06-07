@@ -12,3 +12,5 @@ Sell_Fence=5990
 Sell_Skier=7338
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=マジャイカ コーヒー豆
+Information_Jpn="マジャイカ" ブランドのアラビカ種100%コーヒー。風味を損なわずに長期間保存できる。

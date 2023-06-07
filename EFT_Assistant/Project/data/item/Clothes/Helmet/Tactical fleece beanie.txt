@@ -12,3 +12,5 @@ Sell_Peacekeeper=17
 Sell_Ragman=2796
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=タクティカル フリースキャップ
+Information_Jpn=Operate properly only in the tactical fleece hat. It's tactical.

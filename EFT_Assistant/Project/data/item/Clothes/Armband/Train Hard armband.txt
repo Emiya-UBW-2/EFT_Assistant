@@ -11,3 +11,5 @@ Sell_Skier=24500
 Sell_Ragman=31000
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Train Hard armband
+Information_Jpn=An armband from Jaeger. "Fall 715 times, but rise 716 times."

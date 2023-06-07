@@ -19,3 +19,5 @@ capacity=20
 loadModifier=-0.100000
 ammoCheckModifier=0.000000
 malfunctionChance=0.010000
+Name_Jpn=SA-58/FAL 7.62x51 MMW polymer 20-round magazine
+Information_Jpn=A 20-round double-stack plastic magazine for FAL/SA-58 7.62x51 NATO rounds. Manufactured by Moses Machine Works.

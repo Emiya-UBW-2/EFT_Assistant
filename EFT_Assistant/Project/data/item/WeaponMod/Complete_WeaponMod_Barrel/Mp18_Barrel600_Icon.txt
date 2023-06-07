@@ -25,3 +25,5 @@ Recoil=-8.000000
 Ergonomics=-13.000000
 centerOfImpact=0.090000
 deviationMax=10
+Name_Jpn=MP-18 7.62x54R 600mm barrel
+Information_Jpn=A standard factory-produced 600mm barrel with a front sight for MP-18 7.62x54R hunting rifles.

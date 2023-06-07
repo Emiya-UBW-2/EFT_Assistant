@@ -38,3 +38,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=AI AXMC Adapter Kit short length rail
+Information_Jpn=A short rail for installation on the KeySlot interface on the AXMC sniper rifle, manufactured by Accuracy International.

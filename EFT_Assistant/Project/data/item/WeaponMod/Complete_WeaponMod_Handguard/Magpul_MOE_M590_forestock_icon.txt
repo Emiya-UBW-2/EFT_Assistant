@@ -31,3 +31,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=13.000000
 accuracyModifier=0.000000
+Name_Jpn=Mossberg 590A1 Magpul MOE forestock
+Information_Jpn=The MOE handguard, designed for Mossberg 500/590 shotguns. Manufactured by Magpul.

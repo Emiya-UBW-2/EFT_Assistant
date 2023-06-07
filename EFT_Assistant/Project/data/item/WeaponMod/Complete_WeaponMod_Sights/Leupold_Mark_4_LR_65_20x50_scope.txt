@@ -35,3 +35,5 @@ Recoil=0.000000
 Ergonomics=-3.000000
 SightRange=1500
 sightZooms=20.000000
+Name_Jpn=Leupold Mark 4 LR 6.5-20x50 ライフルスコープ
+Information_Jpn=Precise, accurate, durable and dependable - the Leupold Mark 4 6.5-20x50 rifle scope. The model provides 6.5 - 20x magnification giving you a clear idea of the actual size of the targeted object.

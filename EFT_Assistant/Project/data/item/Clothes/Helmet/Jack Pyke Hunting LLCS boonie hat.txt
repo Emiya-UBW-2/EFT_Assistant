@@ -12,3 +12,5 @@ Sell_Peacekeeper=36
 Sell_Ragman=5924
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Jack Pyke Hunting LLCS boonie hat
+Information_Jpn=The Jack Pyke Hunting LLCS camouflage boonie hat from the 3D Concealment Suit. Equipped with a masking net for the face.

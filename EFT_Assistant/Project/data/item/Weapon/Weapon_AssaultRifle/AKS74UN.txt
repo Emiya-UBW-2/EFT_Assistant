@@ -111,3 +111,5 @@ cameraRecoil=0.079200
 cameraSnap=3.500000
 deviationMax=15
 convergence=1.700000
+Name_Jpn=Kalashnikov AKS-74UN 5.45x39 assault rifle
+Information_Jpn=AKS-74UN (Avtomat Kalashnikova Skladnoy 74 Ukorochenny Nochnoy - "Kalashnikov's Shortened Automatic rifle 74 Night with a foldable stock") is a shortened version of the AKS-74 assault rifle, developed in the early 80s for combat vehicle crews and airborne troops, also became very popular with law enforcement and special forces for its compact size. The N (Nochnoy - "Night") version is equipped with a dovetail mount for the installation of night vision scopes.

@@ -31,3 +31,5 @@ Recoil=-6.000000
 Ergonomics=-18.000000
 centerOfImpact=0.036000
 deviationMax=23
+Name_Jpn=Steyr AUG A1 5.56x45 20 inch barrel
+Information_Jpn=A barrel for Steyr AUG A1 designed for 5.56x45 NATO ammo, 20 inches (508mm) long.

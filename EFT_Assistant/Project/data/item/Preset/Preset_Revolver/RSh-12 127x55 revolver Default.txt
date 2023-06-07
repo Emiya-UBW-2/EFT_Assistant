@@ -18,3 +18,4 @@ containsItems=[
 	RSh-12 12.7x55 5-round cylinderx1/|
 	RSh-12 pistol gripx1
 ]
+Name_Jpn=RSh-12 12.7x55 revolver デフォルト

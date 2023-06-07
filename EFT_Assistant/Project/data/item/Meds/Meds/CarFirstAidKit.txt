@@ -17,3 +17,5 @@ cures=[LightBleeding]
 hitpoints=220
 maxHealPerUse=70
 hpCostLightBleeding=50
+Name_Jpn=カー ファーストエイドキット
+Information_Jpn=車載の応急処置キットは消火器と同様に、路上で緊急事態が発生した際の備えとして重要なものだ。

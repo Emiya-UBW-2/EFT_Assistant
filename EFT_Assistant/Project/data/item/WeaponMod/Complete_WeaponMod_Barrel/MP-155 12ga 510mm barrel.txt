@@ -23,3 +23,5 @@ Recoil=-3.000000
 Ergonomics=-5.000000
 centerOfImpact=0.620000
 deviationMax=9
+Name_Jpn=MP-155 12ga 510mm barrel
+Information_Jpn=A standard serially produced 510mm barrel for MP-155 12 gauge shotguns.

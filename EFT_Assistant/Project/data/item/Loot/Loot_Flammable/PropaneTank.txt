@@ -11,3 +11,5 @@ Sell_Fence=5058
 Sell_Jaeger=7587
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=プロパンタンク (5L)
+Information_Jpn=プロパンは非常に危険な可燃性のガスで、溶接に使われるほか、ガスが供給されていない家屋や場所ではガスコンロやガスストーブの燃料としても使用されている。

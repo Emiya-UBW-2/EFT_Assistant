@@ -11,3 +11,5 @@ Sell_Fence=1520
 Sell_Jaeger=2280
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=ハンティングマッチ
+Information_Jpn=風の中でも水の中でも火がつく (いや、マジで！) 特殊な狩猟用のマッチ。ソビエト時代の遺産だ。

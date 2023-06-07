@@ -44,3 +44,5 @@ ChildParts=[
 Recoil=-3.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=HK Enhanced Tube buffer tube
+Information_Jpn=Heckler & Koch Receiver Extension Buffer Tube, Mil-Spec diameter will fit any 416-based carbine or rifle.

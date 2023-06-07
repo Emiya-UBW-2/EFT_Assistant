@@ -19,3 +19,5 @@ capacity=10
 loadModifier=0.000000
 ammoCheckModifier=0.000000
 malfunctionChance=0.020000
+Name_Jpn=Saiga-9 9x19 sb.7 10-round magazine
+Information_Jpn=The Izh.9x19 Sb.7 magazine for Saiga-9 carbines with a 10-round capacity limiter.

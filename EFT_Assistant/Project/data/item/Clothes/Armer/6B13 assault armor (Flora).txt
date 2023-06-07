@@ -13,3 +13,5 @@ Sell_Peacekeeper=227
 Sell_Ragman=37882
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmor
+Name_Jpn=6B13 assault armor (Flora)
+Information_Jpn=ロシアの陸軍歩兵、空挺部隊、海軍歩兵部隊といった戦闘部隊員向けの主力防弾ベスト。このベストは銃弾や砲弾の破片、地雷、グレネード、鋭利な刃物による攻撃といった戦闘中に受けるダメージから重要な臓器を保護し、また衝撃を吸収、軽減できるように設計されている。

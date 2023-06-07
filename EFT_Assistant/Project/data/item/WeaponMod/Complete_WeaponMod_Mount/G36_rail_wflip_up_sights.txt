@@ -87,3 +87,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=HK G36 optic rail with flip-up sights
+Information_Jpn=An HK G36 optic rail that features flip-up front and rear sights, giving you more space to mount scopes and tactical attachments.

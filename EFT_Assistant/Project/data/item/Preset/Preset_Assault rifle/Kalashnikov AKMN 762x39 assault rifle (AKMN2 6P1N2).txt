@@ -27,3 +27,4 @@ containsItems=[
 	NSPU-M night vision scopex1/|
 	NSPU-M scope eyecupx1
 ]
+Name_Jpn=AKMN 7.62x39 アサルトライフル (AKMN2 6P1N2)

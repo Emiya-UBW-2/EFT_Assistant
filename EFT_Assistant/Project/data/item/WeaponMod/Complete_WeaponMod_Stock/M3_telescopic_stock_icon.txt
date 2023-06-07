@@ -20,3 +20,5 @@ ChildParts=[
 Recoil=-30.000002
 Ergonomics=10.000000
 accuracyModifier=0.000000
+Name_Jpn=Benelli M3 telescopic stock
+Information_Jpn=An adjustable stock for M3 S90 shotguns, manufactured by Benelli.

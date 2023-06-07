@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Reserve
+Name_Jpn=RB-ORB1の鍵
+Information_Jpn=A key to one of the Federal State Reserve Agency base southern barracks' armories.

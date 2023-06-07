@@ -11,3 +11,5 @@ Sell_Ragman=1512
 Sell_Jaeger=1464
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
+Name_Jpn=VKBO アーミーバッグ
+Information_Jpn=全天候基本装備キット（VKBO）に含まれているバックパック。個人装備の輸送及び保管用に設計されている。

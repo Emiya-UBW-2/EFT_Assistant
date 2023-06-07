@@ -13,3 +13,5 @@ Sell_Peacekeeper=1072
 Sell_Ragman=178717
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmor
+Name_Jpn=IOTV Gen4 body armor (Full Protection Kit)
+Information_Jpn=Improved Outer Tactical Vest（IOTV - 改良型タクティカルボディアーマー）の第4世代Gen IVは、体を自由に動かせるように設計されており射撃姿勢をとる際にも妨げとならない。最適化されたデザインにより装備の重量を最適に分散することができ、着心地と耐久性と機動性が向上している。これは全身を保護するバージョンだ。

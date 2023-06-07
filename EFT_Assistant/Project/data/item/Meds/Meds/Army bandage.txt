@@ -15,3 +15,5 @@ propertiestype=ItemPropertiesMedicalItem
 useTime=2.000000
 cures=[LightBleeding]
 uses=2
+Name_Jpn=軍用 救急包帯
+Information_Jpn=軍支給品のガーゼ包帯。

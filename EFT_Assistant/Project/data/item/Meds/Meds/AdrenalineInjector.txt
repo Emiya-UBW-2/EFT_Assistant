@@ -64,3 +64,5 @@ stimEffectsduration=30
 stimEffectsvalue=-0.800000
 stimEffectspercent=FALSE
 stimEffectsSkiilName=
+Name_Jpn=アドレナリンの注射器
+Information_Jpn=A sterile disposable syringe with a dose of adrenaline - the main hormone of the adrenal medulla. It is used to enhance the physiological response associated with the preparation of all muscles to increased activity. Temporarily boosts strength and endurance. Relieves the sensation of pain.

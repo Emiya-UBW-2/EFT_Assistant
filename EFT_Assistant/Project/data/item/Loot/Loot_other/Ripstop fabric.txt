@@ -13,3 +13,5 @@ Sell_Skier=2842
 Sell_Ragman=3596
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=リップストップの生地
+Information_Jpn=リップストップは主にナイロンなどの繊維を格子状に織り込んだ素材で、その特殊な構造から破れにくく裂けにくい。軍用の衣類や装備品、アウトドア用品などに使用されている。

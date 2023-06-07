@@ -30,3 +30,4 @@ containsItems=[
 	Magpul PRS GEN3 stock (Grey)x1/|
 	AR-15 Radian Weapons Raptor charging handle (Grey)x1
 ]
+Name_Jpn=Lone Star TX-15 DML 5.56x45 carbine デフォルト

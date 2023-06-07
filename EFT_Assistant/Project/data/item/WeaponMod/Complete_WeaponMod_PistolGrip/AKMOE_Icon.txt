@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=12.000000
 accuracyModifier=0.000000
+Name_Jpn=AK Magpul MOE pistol grip (Black)
+Information_Jpn=The MOE (Magpul Original Equipment) lightweight pistol grip for AK weapon systems, manufactured by Magpul.

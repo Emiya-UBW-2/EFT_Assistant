@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=9.000000
 accuracyModifier=0.000000
+Name_Jpn=SOK-12 polymer handguard (Sb.7-1)
+Information_Jpn=Sb.7-1はSOK-12とSOK-12S用の標準的なスリングスイベル付ポリマー製ハンドガード。

@@ -20,3 +20,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-2.000000
 accuracyModifier=0.000000
+Name_Jpn=MP-133/153 Taktika Tula 12003 stock adapter
+Information_Jpn=The Taktika Tula 12003 stock adapter designed for mounting various FAB Defense stocks on MP-133/153 shotguns.

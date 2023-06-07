@@ -13,3 +13,5 @@ Sell_Peacekeeper=144
 Sell_Ragman=23975
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmor
+Name_Jpn=BNTI Zhuk-3 body armor (Press)
+Information_Jpn=An armored vest of class 3 (Russian GOST) protection for the journalists working in combat zones.

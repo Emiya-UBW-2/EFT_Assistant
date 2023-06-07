@@ -11,3 +11,5 @@ Sell_Ragman=753466
 Sell_Jaeger=729161
 fleaMarketFee=0
 propertiestype=ItemPropertiesContainer
+Name_Jpn=Lucky Scav ジャンクボックス
+Information_Jpn=物々交換やハイドアウトの拡張、製作などに必要な戦利品を保管するための大容量のボックス。

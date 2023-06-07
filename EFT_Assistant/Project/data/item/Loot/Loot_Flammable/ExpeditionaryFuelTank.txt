@@ -12,3 +12,5 @@ Sell_Fence=20000
 Sell_Jaeger=30000
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=携行燃料タンク
+Information_Jpn=燃料を持ち運ぶための軽量なプラスチック製運搬容器。

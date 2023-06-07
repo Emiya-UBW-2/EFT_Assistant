@@ -22,3 +22,4 @@ containsItems=[
 	HK UMP bottom handguard railx1/|
 	HK UMP side handguard railx2
 ]
+Name_Jpn=HK UMP .45 ACP submachine gun デフォルト

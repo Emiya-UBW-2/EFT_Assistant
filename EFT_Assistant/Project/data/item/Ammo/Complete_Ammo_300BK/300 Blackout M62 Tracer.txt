@@ -13,3 +13,5 @@ Sell_Peacekeeper=1
 Sell_Mechanic=86
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=.300 Blackout M62 Tracer
+Information_Jpn=A .300 Blackout round with a tracer projectile intended for target designation and fire adjustment (Trace color: Red).

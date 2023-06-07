@@ -12,3 +12,5 @@ Sell_Skier=26950
 Sell_Peacekeeper=205
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=金のスカルリング
+Information_Jpn=ドクロの形をした指輪。ならず者として成功を手にした証だ。

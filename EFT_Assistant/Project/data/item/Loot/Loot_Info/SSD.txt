@@ -10,3 +10,5 @@ Sell_Fence=32000
 Sell_Peacekeeper=298
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=SSD
+Information_Jpn=ソリッドステートドライブ。書き込み / 読み込みの速度に優れた記憶装置だ。

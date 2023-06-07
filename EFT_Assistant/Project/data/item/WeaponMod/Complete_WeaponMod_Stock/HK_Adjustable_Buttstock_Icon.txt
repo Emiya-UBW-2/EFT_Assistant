@@ -20,3 +20,5 @@ ChildParts=[
 Recoil=-33.000000
 Ergonomics=6.000000
 accuracyModifier=0.000000
+Name_Jpn=HK Adjustable Buttstock
+Information_Jpn=An adjustable stock designed and manufactured by Heckler & Koch. This stock is fully adjustable for length of pull as well as the cheek height. Features a mount for installation of a cheek rest.

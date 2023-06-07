@@ -20,3 +20,5 @@ ChildParts=[
 Recoil=-28.000000
 Ergonomics=6.000000
 accuracyModifier=0.000000
+Name_Jpn=SV-98 wooden stock
+Information_Jpn=A standard-issue wooden stock for the SV-98, manufactured by Izhmash.

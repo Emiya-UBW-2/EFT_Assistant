@@ -36,3 +36,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-2.000000
 accuracyModifier=0.000000
+Name_Jpn=KRISS Vector non-folding stock adapter
+Information_Jpn=A non-folding adapter for the installation of telescopic stock buffer tubes on the KRISS Vector submachine gun.

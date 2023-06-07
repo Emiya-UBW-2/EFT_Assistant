@@ -11,3 +11,5 @@ Sell_Ragman=210800
 Sell_Jaeger=204000
 fleaMarketFee=0
 propertiestype=ItemPropertiesContainer
+Name_Jpn=Mr. Holodilnick クーラーバッグ
+Information_Jpn=食品の保存にも適したサーマルエレクトリックバッグ。Mr. Holodilnick のクーラーバッグはどんなものでも冷やせるらしい。

@@ -15,3 +15,5 @@ propertiestype=ItemPropertiesMedKit
 useTime=2.000000
 hitpoints=100
 maxHealPerUse=50
+Name_Jpn=AI-2 メディキット
+Information_Jpn=AI-2 メディキットはソ連の民間防衛軍や法執行機関向けの標準的な応急処置キットとして開発された。大量破壊兵器の使用が想定されるような全面戦争が起きた場合には、被災地域の住民にも配布される予定だったものだ。

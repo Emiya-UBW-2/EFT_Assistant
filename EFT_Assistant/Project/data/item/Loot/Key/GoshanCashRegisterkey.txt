@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Interchange
+Name_Jpn=Goshan cash register key
+Information_Jpn=A key to the Goshan store outlet cash registers at the ULTRA shopping mall.

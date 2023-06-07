@@ -50,3 +50,5 @@ ChildParts=[
 Recoil=-3.000000
 Ergonomics=11.000000
 accuracyModifier=0.000000
+Name_Jpn=HK 416A5 Strike Industries CRUX 15 inch M-LOK handguard
+Information_Jpn=The Strike Industries CRUX foregrip for 416A5 equipped with an M-LOK interface for the installation of additional devices and accessories.

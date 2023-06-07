@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=1
 Map=Streets of Tarkov
+Name_Jpn=Primorsky 46-48 skybridge key
+Information_Jpn=A key to the skybridge linking Primorsky 46-48, leading to the apartment of the ballet master.

@@ -20,3 +20,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=PNV-10T ドーブテイルアダプター
+Information_Jpn=最新のヘルメットやマウントにどうやってPNV-10Tを取り付ければよいのか、多くの人々が頭を抱えてきた。その問題を解決するのがこちら、ご家庭の"ワークショップ"で製造されたシンプルな金属製のアダプターである。

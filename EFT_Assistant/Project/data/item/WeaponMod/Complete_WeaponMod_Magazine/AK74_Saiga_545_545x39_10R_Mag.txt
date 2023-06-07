@@ -19,3 +19,5 @@ capacity=10
 loadModifier=-0.100000
 ammoCheckModifier=-0.300000
 malfunctionChance=0.090000
+Name_Jpn=AK-74 "Saiga 545" 5.45x39 10-round magazine
+Information_Jpn=A 10-round 5.45x39 Izhmash polymer magazine Saiga 545, for the AK-based civilian carbine of the same name.

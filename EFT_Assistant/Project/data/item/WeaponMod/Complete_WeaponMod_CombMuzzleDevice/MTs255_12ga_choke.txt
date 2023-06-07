@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-2.000000
 Ergonomics=0.000000
 accuracyModifier=0.030000
+Name_Jpn=MTs-255-12 12ga choke
+Information_Jpn=A cylinder bore choke designed for MTs-255 12 gauge shotguns. Manufactured by TsKIB.

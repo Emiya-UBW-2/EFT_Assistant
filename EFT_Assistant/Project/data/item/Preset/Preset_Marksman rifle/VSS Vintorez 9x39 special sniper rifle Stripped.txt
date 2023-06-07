@@ -19,3 +19,4 @@ containsItems=[
 	VSS 9x39 integral barrel-suppressorx1/|
 	VSS wooden stockx1
 ]
+Name_Jpn=VSS Vintorez 9x39 special sniper rifle Stripped

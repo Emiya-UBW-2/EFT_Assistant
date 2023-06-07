@@ -49,3 +49,5 @@ Recoil=-9.000000
 Ergonomics=-22.000000
 centerOfImpact=0.023000
 deviationMax=30
+Name_Jpn=AR-10 7.62x51 22 inch barrel
+Information_Jpn=A 22 inch (558mm) barrel for AR-10 based weapons for 7.62x51 NATO ammo.

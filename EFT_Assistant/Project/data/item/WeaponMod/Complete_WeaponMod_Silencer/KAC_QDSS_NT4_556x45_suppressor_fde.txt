@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-10.000000
 Ergonomics=-21.000000
 accuracyModifier=-0.010000
+Name_Jpn=KAC QDSS NT-4 5.56x45 sound suppressor (FDE)
+Information_Jpn=The Knight's Armament Company QDSS NT-4 5.56x45 and .223 sound suppressor can only be installed on compatible KAC muzzle devices. Flat Dark Earth version.

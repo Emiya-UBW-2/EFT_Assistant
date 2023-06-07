@@ -15,3 +15,5 @@ propertiestype=ItemPropertiesMedicalItem
 useTime=3.000000
 cures=[Fracture]
 uses=5
+Name_Jpn=アルミスプリント
+Information_Jpn=骨折や脱臼をした患部に添えて固定するためのアルミ二ウム製の副子。

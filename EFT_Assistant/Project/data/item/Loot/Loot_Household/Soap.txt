@@ -10,3 +10,5 @@ Sell_Therapist=2450
 Sell_Fence=1556
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=固形石鹸
+Information_Jpn=ふつうの石鹸。食べられません！

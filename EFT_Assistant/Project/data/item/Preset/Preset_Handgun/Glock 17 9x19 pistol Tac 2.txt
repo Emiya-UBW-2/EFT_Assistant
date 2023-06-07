@@ -24,3 +24,4 @@ containsItems=[
 	Burris FastFire Weaver Basex1/|
 	Burris FastFire 3 reflex sightx1
 ]
+Name_Jpn=Glock 17 9x19 pistol Tac 2

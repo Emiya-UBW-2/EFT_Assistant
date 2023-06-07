@@ -18,3 +18,6 @@ noiseIntensity=0.020000
 noiseScale=5.000000
 diffuseIntensity=0.022000
 intensity=2.270000
+Name_Jpn=AN/PVS-14 単眼式ナイトビジョン
+Information_Jpn=AN/PVS-14 単眼式ナイトビジョン。
+陸軍/海軍向けの個人用索敵装置で、夜間に視野角40°の範囲を350m先まで視認する事ができる。輝度の調整も可能。

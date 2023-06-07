@@ -15,3 +15,5 @@ Map=Shoreline
 Map=Shoreline
 Map=Shoreline
 Map=Shoreline
+Name_Jpn=Health Resort management office safe key
+Information_Jpn=A key to the Azure Coast sanatorium administration office safe, located in the Administration building.

@@ -25,3 +25,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=3.000000
 accuracyModifier=0.000000
+Name_Jpn=HK USP .45 ACP pistol slide
+Information_Jpn=A standard-issue slide for the USP45 pistol, manufactured by Heckler & Koch.

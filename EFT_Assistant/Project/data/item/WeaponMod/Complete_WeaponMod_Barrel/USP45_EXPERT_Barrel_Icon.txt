@@ -18,3 +18,5 @@ Recoil=-2.500000
 Ergonomics=-4.000000
 centerOfImpact=0.260000
 deviationMax=11
+Name_Jpn=HK USP Expert .45 ACP barrel
+Information_Jpn=A 132mm barrel for the special version of the USP pistol - USP Expert, chambered in .45 ACP. Manufactured by Heckler & Koch.

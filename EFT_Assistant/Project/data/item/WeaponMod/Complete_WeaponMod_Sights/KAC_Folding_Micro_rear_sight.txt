@@ -17,3 +17,5 @@ Recoil=0.000000
 Ergonomics=1.000000
 SightRange=300
 sightZooms=1.000000
+Name_Jpn=KAC Folding Micro rear sight
+Information_Jpn=A compact removable folding rear sight by Knight's Armament Company.

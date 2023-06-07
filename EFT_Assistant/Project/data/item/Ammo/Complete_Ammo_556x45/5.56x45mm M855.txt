@@ -13,3 +13,5 @@ Sell_Peacekeeper=0
 Sell_Mechanic=61
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=5.56x45mm M855
+Information_Jpn=A 5.56x45mm NATO M855 cartridge with a 4 gram bullet with a steel penetrator tip over a lead core with a copper jacket in a brass case. This cartridge was designed in the 1980s as the equivalent to the FN SS109 cartridge for the 5.56x45mm NATO caliber armament used by the United States Army. Thanks to its design, the bullet in this cartridge is capable of piercing through basic ballistic protection equipment, as well as certain intermediate protection equipment, however, it has a high probability of rebound on various surfaces.

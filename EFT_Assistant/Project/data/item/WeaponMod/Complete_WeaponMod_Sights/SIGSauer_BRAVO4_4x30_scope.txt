@@ -25,3 +25,5 @@ Recoil=0.000000
 Ergonomics=-2.000000
 SightRange=800
 sightZooms=4.000000
+Name_Jpn=SIG Sauer BRAVO4 4x30 scope
+Information_Jpn=Designed by SIG Sauer, the BRAVO4 4x30 optical scope sight features the uniquely large FOV, 43% wider than closest competitors. It also has an extra rail mount on top of it that allows installation of a backup compact sight.

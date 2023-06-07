@@ -682,37 +682,6 @@ namespace FPS_n2 {
 		this->m_ItemsData.m_properties.OutputData(outputfile);
 	}
 	//
-	void ItemData::SaveAsNewData2(std::string Path) noexcept {
-		bool maked = false;
-		for (auto& jd : GetJsonDataList()) {
-			if (!jd->m_IsFileOpened) {
-				std::string ParentPath = Path + (dynamic_cast<ItemJsonData*>(jd.get()))->m_categorytypes;
-
-				if (!maked) {
-					CreateDirectory(ParentPath.c_str(), NULL);
-					maked = true;
-				}
-
-				std::string ChildPath = ParentPath + "/";
-
-				std::string FileName = jd->m_name;
-				SubStrs(&FileName, ".");
-				SubStrs(&FileName, "\\");
-				SubStrs(&FileName, "/");
-				SubStrs(&FileName, ":");
-				SubStrs(&FileName, "*");
-				SubStrs(&FileName, "?");
-				SubStrs(&FileName, "\"");
-				SubStrs(&FileName, ">");
-				SubStrs(&FileName, "<");
-				SubStrs(&FileName, "|");
-				std::string Name = FileName + ".txt";
-
-				jd->OutputData(ChildPath + Name);
-				//RemoveDirectory(Path.c_str());
-			}
-		}
-	}
 	void ItemData::UpdateAfterbyJson(void) noexcept {
 		for (auto& L : this->m_List) {
 			for (auto& jd : GetJsonDataList()) {

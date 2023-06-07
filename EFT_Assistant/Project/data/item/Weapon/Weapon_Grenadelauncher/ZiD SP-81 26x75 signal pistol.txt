@@ -26,3 +26,5 @@ cameraRecoil=0.024000
 cameraSnap=3.500000
 deviationMax=15
 convergence=1.000000
+Name_Jpn=ZiD SP-81 26x75 signal pistol
+Information_Jpn=A smoothbore hand pistol designed for firing signal flare cartridges of various burning colors. Manufactured by V.A. Degtyarev Plant.

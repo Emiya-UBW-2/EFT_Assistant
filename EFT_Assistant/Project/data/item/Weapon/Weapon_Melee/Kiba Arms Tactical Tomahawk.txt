@@ -13,3 +13,5 @@ propertiestype=ItemPropertiesMelee
 slashDamage=25
 stabDamage=35
 hitRadius=0.500000
+Name_Jpn=Kiba Arms タクティカルトマホーク
+Information_Jpn=タクティカルトマホーク。マルチツールでありブリーチングツールにもなる何でも屋。

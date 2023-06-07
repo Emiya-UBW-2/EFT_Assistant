@@ -11,3 +11,5 @@ Sell_Ragman=316200
 Sell_Jaeger=306000
 fleaMarketFee=0
 propertiestype=ItemPropertiesContainer
+Name_Jpn=グレネードケース
+Information_Jpn=手榴弾や発煙弾などを保管できる大型のケース。

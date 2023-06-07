@@ -12,3 +12,5 @@ Sell_Fence=22400
 Sell_Skier=27440
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=OFZ 30x160mm 砲弾
+Information_Jpn=装甲戦闘車両及びヘリコプターに搭載される30mm 2A42機関砲用の30mm榴弾。

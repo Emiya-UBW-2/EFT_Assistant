@@ -12,3 +12,5 @@ Sell_Ragman=25234
 Sell_Jaeger=24420
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
+Name_Jpn=BlackRock チェストリグ
+Information_Jpn=市街地戦などの際にアーマーの上から着るカスタムメイドチェストリグ。丈夫で汎用性が高く、MOLLEやALICEアタッチメントシステムにも対応する。

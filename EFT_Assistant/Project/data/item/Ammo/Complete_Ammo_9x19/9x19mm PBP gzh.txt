@@ -13,3 +13,5 @@ Sell_Peacekeeper=3
 Sell_Mechanic=406
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=9x19mm PBP gzh
+Information_Jpn=A 9x19mm Parabellum PBP gzh (GRAU Index - 7N31) cartridge with a 4.1 gram armor-piercing bullet with a hardened carbon steel core with a cylindrical aluminum cladding and bimetallic semi-jacket in a bimetallic case. This bullet design is based on experiences with various armor-piercing pistol cartridges in the late 1990s, aimed to neutralize hostile personnel equipped with basic and intermediate ballistic body protection, in addition to being capable of piercing light covers, and having an outstanding muzzle velocity.

@@ -13,3 +13,5 @@ Sell_Peacekeeper=81
 Sell_Mechanic=12150
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=ガスアナライザー
+Information_Jpn=複数種のガス濃度や成分を定性的・定量的に測定できる分析機器。環境保全のための調査や内燃機関の調整、医療など、幅広い分野で活用されている。

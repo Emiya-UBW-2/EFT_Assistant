@@ -47,3 +47,5 @@ Recoil=-6.000000
 Ergonomics=-13.000000
 centerOfImpact=0.033000
 deviationMax=30
+Name_Jpn=HK417 7.62x51 16.5 inch barrel
+Information_Jpn=A 16.5 inch (421mm) barrel for HK417-based weapons for 7.62x51 ammo.

@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-33.000000
 Ergonomics=3.000000
 accuracyModifier=0.000000
+Name_Jpn=MPX/MCX PMM ULSS foldable stock
+Information_Jpn=ULSS（ultralight skeleton stock - 超軽量スケルトンストック）はParker Mountain Machine製のMCX/MPX用の折り畳み式ストックだ。

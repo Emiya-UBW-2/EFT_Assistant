@@ -13,3 +13,5 @@ Sell_Peacekeeper=23
 Sell_Mechanic=3479
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=26x75mm flare cartridge (Green)
+Information_Jpn=A 26x75mm green flare cartridge for the SP-81 flare gun.

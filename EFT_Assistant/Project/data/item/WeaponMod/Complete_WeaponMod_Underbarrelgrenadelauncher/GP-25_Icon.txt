@@ -76,3 +76,5 @@ Conflict=[
 Recoil=-8.000000
 Ergonomics=-35.000000
 accuracyModifier=0.000000
+Name_Jpn=GP-25 "Kostyor" 40mm underbarrel grenade launcher
+Information_Jpn=An underbarrel grenade launcher for 40mm VOG-25 grenades, designed for installation on all full length AK automatic rifles.

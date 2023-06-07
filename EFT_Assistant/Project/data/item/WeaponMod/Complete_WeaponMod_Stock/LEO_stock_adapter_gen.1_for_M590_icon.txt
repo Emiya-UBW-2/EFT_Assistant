@@ -53,3 +53,5 @@ ChildParts=[
 Recoil=-2.000000
 Ergonomics=10.000000
 accuracyModifier=0.000000
+Name_Jpn=Mossberg 590A1 Mesa Tactical LEO gen.1 stock adapter
+Information_Jpn=Mesa Tactical の伸縮ストックコンバージョンキットは標準バットストックを置き換えて、AR系の伸縮ストックとピストルグリップを装着可能にするアダプターだ。

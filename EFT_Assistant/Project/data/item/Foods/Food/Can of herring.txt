@@ -11,3 +11,5 @@ Sell_Fence=6779
 Sell_Jaeger=10168
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink
+Name_Jpn=ニシンの缶詰
+Information_Jpn=ニシンの缶詰。おそらくは魚の缶詰の中で最も軽食に適しており、カルシウムやマグネシウムも豊富に含まれている。

@@ -124,3 +124,5 @@ cameraRecoil=0.081600
 cameraSnap=3.500000
 deviationMax=23
 convergence=1.200000
+Name_Jpn=AKMS 7.62x39 アサルトライフル
+Information_Jpn=AKMS (Avtomát Kaláshnikova Modernizírovanny Skladnóy - "Kalashnikov's Automatic rifle Modernised with foldable stock") 7.62x39 assault rifle (GRAU Index — 6P4) is a variant of the AKM rifle with a folding shoulder piece (stock). Folds forward-down, under the handguard. Designed specifically for airborne troops.

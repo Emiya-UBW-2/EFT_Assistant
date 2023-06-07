@@ -19,3 +19,5 @@ Conflict=[
 	Peltor Tactical Sport headset/|
 	Walker's Razor Digital headset
 ]
+Name_Jpn=Crye Precision AirFrame Ears
+Information_Jpn=An additional armor module for the Crye Precision AirFrame helmet, which protects the ear area from fragmentation and small-caliber ricochets.

@@ -118,3 +118,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=SKS Leapers UTG SOCOM rail mount
+Information_Jpn=SKS SOCOM Rail is a set of 4 rail mounts that can be installed on an SKS gas block. Manufactured by Leapers Inc.

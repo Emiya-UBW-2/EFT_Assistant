@@ -12,3 +12,5 @@ Sell_Ragman=2418
 Sell_Jaeger=2340
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
+Name_Jpn=セキュリティベスト
+Information_Jpn=警備会社で使われるシンプルな日常使いのベスト。

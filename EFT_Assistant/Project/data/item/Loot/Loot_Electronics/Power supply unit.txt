@@ -13,3 +13,5 @@ Sell_Peacekeeper=30
 Sell_Mechanic=4444
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=電源ユニット
+Information_Jpn=PC用の電源ユニット。少しいじれば、低電圧の充電池や電子機器用の汎用充電器として作り変えることができるだろう。

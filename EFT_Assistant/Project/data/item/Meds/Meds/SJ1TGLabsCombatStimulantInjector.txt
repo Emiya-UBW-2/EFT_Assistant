@@ -49,3 +49,5 @@ stimEffectsduration=200
 stimEffectsvalue=-0.300000
 stimEffectspercent=FALSE
 stimEffectsSkiilName=
+Name_Jpn=TGLabs SJ1 の注射器
+Information_Jpn=A combat stimulant. It is used for gaining strength and endurance before combat. Decreases sensation of pain. Stimulant is allowed to use by the special forces units. Developed by TerraGroup Labs, marked as SJ1. Has side effects.

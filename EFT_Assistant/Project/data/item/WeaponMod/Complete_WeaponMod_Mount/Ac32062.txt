@@ -20,3 +20,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=Trijicon RMR high profile mount
+Information_Jpn=A high-profile mount for installation of the Trijicon RMR series reflex sights on Picatinny and Weaver rails.

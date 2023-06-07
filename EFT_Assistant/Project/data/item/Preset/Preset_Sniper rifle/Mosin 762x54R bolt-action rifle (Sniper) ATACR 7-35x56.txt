@@ -25,3 +25,4 @@ containsItems=[
 	Nightforce ATACR 7-35x56 34mm riflescopex1/|
 	Mosin Rifle Bramit 7.62x54R sound suppressorx1
 ]
+Name_Jpn=Mosin 7.62x54R bolt-action rifle (Sniper) ATACR 7-35x56

@@ -32,3 +32,5 @@ Recoil=-5.000000
 Ergonomics=-18.000000
 centerOfImpact=0.011000
 deviationMax=33
+Name_Jpn=AI AXMC .338 LM 28 inch barrel
+Information_Jpn=A 28 inch (686mm) barrel for the AI AXMC chambered in .338 Lapua Magnum ammo.

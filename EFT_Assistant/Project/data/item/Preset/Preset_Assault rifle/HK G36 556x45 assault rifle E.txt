@@ -25,3 +25,4 @@ containsItems=[
 	HK G36 magwellx1/|
 	HK G36 Hensoldt HKV ZF 1.5x carry handlex1
 ]
+Name_Jpn=HK G36 5.56x45 assault rifle E

@@ -13,3 +13,5 @@ propertiestype=ItemPropertiesMelee
 slashDamage=19
 stabDamage=25
 hitRadius=0.350000
+Name_Jpn=Bars A-2607 95H18 knife
+Information_Jpn=The Bars A-2607 knife, forged of 95H18 steel with a fine wood handle and brass guard.

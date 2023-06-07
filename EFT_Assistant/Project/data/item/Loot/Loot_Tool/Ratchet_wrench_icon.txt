@@ -12,3 +12,5 @@ Sell_Fence=49600
 Sell_Mechanic=69440
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=ラチェットレンチ
+Information_Jpn=サービスステーションの錠前師や整備士なら誰もが持っている車体整備用の工具。ヘッドのサイズを素早く変更できるうえ限られたスペースでの作業も可能にする素晴らしい工具だ！

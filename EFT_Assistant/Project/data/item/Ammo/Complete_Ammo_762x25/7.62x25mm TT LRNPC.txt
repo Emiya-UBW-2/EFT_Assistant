@@ -13,3 +13,5 @@ Sell_Peacekeeper=0
 Sell_Mechanic=38
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=7.62x25mm TT LRNPC
+Information_Jpn=A 7.62x25mm Tokarev cartridge with a lead round nose, polymer coated (LRNPC) bullet; intended for sport shooting and hunting. This cartridge provides an outstanding stopping power effect compared to other cartridges of the same caliber used by the military, as it can cause substantial adverse effects on the target after impact, however, its muzzle velocity is lower, not to mention its poor penetration capabilities.

@@ -20,3 +20,5 @@ Conflict=[
 	EMERCOM cap/|
 	Police cap
 ]
+Name_Jpn=ジェイソンマスク
+Information_Jpn=有名なホラー映画の恐ろしいマスク。

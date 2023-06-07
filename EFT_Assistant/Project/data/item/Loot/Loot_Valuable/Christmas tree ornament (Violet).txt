@@ -12,3 +12,5 @@ Sell_Skier=9800
 Sell_Peacekeeper=74
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=クリスマスツリーの飾り (ヴァイオレット)
+Information_Jpn=クリスマスツリーに吊るして飾るための紫色の玉の装飾品。

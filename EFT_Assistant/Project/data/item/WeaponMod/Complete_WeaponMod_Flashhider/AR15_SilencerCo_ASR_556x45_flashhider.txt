@@ -19,3 +19,5 @@ ChildParts=[
 Recoil=-9.000000
 Ergonomics=-2.000000
 accuracyModifier=0.030000
+Name_Jpn=AR-15 SilencerCo ASR 5.56x45 flash hider
+Information_Jpn=The SilencerCo ASR 5.56x45 flash hider is an effective flash suppressor that also serves as a platform for attaching the SilencerCo Saker 556 sound suppressor. Can be Installed on AR-15 weapon systems.

@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Lighthouse
+Name_Jpn=Merin car trunk key
+Information_Jpn=A key to a trunk of the Merin sports coupe car.

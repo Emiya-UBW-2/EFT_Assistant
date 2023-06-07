@@ -13,3 +13,5 @@ Sell_Skier=11025
 Sell_Ragman=13950
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=パラコード
+Information_Jpn=軽量なナイロン製の丸紐。元々はパラシュート用として開発されたものだが、軍用、民生用を問わず様々な用途に使用することができる。

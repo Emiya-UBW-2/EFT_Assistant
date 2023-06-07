@@ -19,3 +19,5 @@ capacity=10
 loadModifier=0.000000
 ammoCheckModifier=0.000000
 malfunctionChance=0.050000
+Name_Jpn=ASh-12 12.7x55 10-round magazine
+Information_Jpn=A 10-round magazine for the 12.7x55 ASh-12 assault rifle.

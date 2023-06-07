@@ -11,3 +11,5 @@ Sell_Ragman=2480
 Sell_Jaeger=2400
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
+Name_Jpn=LK 3F Transfer ツーリストバックパック
+Information_Jpn=A simple and cheap backpack manufactured by LolKek. Not very strong or comfortable, but it manages to carry loot in it, and that's all you need from a backpack.

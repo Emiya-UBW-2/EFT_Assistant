@@ -48,3 +48,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=AKM gas tube (6P1 Sb.1-2)
+Information_Jpn=A standard gas tube for AKM automatic rifles. Gas tubes channel the travel direction of gas piston.

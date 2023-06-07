@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=3.000000
 accuracyModifier=0.000000
+Name_Jpn=Benelli M3 Super 90 charging handle
+Information_Jpn=A standard charging handle for Benelli M3 S90. Simplifies bolt handling.

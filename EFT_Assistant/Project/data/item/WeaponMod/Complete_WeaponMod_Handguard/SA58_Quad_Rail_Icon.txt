@@ -106,3 +106,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=7.000000
 accuracyModifier=0.000000
+Name_Jpn=SA-58 quad rail handguard
+Information_Jpn=A quad rail handguard for SA-58 rifles, manufactured by DS Arms. Equipped with 4 mounts for installation of additional devices and accessories.

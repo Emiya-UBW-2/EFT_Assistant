@@ -24,3 +24,5 @@ ChildParts=[
 Recoil=-9.000000
 Ergonomics=11.000000
 accuracyModifier=0.000000
+Name_Jpn=MP-133/153 plastic pistol grip
+Information_Jpn=A plastic pistol grip for MP-133 and MP-153 shotguns to replace the standard stock, manufactured by Izhmekh.

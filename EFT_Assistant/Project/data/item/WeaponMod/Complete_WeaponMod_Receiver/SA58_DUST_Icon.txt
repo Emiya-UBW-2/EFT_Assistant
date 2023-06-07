@@ -76,3 +76,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=4.000000
 accuracyModifier=0.000000
+Name_Jpn=SA-58 Extreme Duty dust cover
+Information_Jpn=The Extreme Duty dust cover with an integrated Picatinny rail for SA-58 assault rifles, manufactured by DS Arms.

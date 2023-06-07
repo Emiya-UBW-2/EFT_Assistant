@@ -139,3 +139,5 @@ cameraRecoil=0.079200
 cameraSnap=3.500000
 deviationMax=23
 convergence=1.300000
+Name_Jpn=AK-103 7.62x39 アサルトライフル
+Information_Jpn=The AK-103 7.62x39mm assault rifle is a further modernized version of AK-74M base. AK-103 is equipped with a side-folding shoulder stock and a side mount for optical and night scopes. The 100-series AKs are produced by the Izhmash factories in Izhevsk, Russia.

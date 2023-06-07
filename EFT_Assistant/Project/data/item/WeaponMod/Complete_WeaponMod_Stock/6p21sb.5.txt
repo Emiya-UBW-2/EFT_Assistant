@@ -20,3 +20,5 @@ ChildParts=[
 Recoil=-30.000002
 Ergonomics=10.000000
 accuracyModifier=0.000000
+Name_Jpn=AKS-74 metal skeletonized stock (6P21 Sb.5)
+Information_Jpn=A metal skeleton stock for AKS-74 automatic rifles, manufactured by IzhMash.

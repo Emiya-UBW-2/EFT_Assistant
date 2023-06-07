@@ -155,3 +155,5 @@ cameraRecoil=0.081600
 cameraSnap=3.500000
 deviationMax=23
 convergence=1.200000
+Name_Jpn=AKMN 7.62x39 アサルトライフル
+Information_Jpn=AKMN (Avtomat Kalashnikova Modernizirovanny Nochnoy - "Kalashnikov's Automatic Rifle Modernised Night") is a small arms system consisting of a modified AKM automatic rifle with a dovetail mount for installation of the NSP family night vision scopes — NSP-2/3/3A, NSPU, NSPU-M.

@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-24.000000
 Ergonomics=-5.000000
 accuracyModifier=0.000000
+Name_Jpn=Tromix Monster Claw 12ゲージ マズルブレーキ
+Information_Jpn=The Monster Claw muzzle brake from Tromix significantly reduces recoil and can be used for breaking tempered glass.

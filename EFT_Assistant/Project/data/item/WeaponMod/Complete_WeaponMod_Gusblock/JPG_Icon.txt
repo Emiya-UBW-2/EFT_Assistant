@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-3.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=JP Enterprises Gas System-5B
+Information_Jpn=A low-profile gas system that can be installed on AR-15/AR-10 weapon systems. Manufactured by JP Enterprises.

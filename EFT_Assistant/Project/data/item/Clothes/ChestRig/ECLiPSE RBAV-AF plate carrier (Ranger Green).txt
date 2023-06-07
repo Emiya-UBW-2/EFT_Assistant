@@ -13,3 +13,6 @@ Sell_Ragman=52700
 Sell_Jaeger=51000
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
+Name_Jpn=ECLiPSE RBAV-AF plate carrier (Ranger Green)
+Information_Jpn=This new BAE ECLiPSE RBAV (Releasable Body Armor Vest, Air Force) variant is designed specifically for the Guardian Angel Weapon System (USAF PJ) and contains several new features not found in other versions.
+The current pouches configuration is assembled for an assault with additional protection.

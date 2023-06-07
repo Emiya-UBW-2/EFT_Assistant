@@ -83,3 +83,5 @@ Conflict=[
 Recoil=0.000000
 Ergonomics=-2.000000
 accuracyModifier=0.000000
+Name_Jpn=M14 Leapers UTG 4-Point Locking Deluxe mount
+Information_Jpn=The 4-Point Locking Deluxe mount for M14 rifles, manufactured by Leapers Inc. It has Weaver/Picatinny type rails for mounting various scopes and reflex sights.

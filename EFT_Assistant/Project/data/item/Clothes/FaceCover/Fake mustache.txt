@@ -12,3 +12,5 @@ Sell_Peacekeeper=84
 Sell_Ragman=14067
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=付け髭
+Information_Jpn=Quite a strange item for current events, but, nevertheless, will allow you to get a real tactical look of a 80-90s spec-ops operator. Sequisha style!

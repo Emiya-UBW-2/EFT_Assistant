@@ -12,3 +12,5 @@ Sell_Peacekeeper=25
 Sell_Ragman=4208
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=ゴースト バラクラバ
+Information_Jpn=A tactical balaclava with a skull print. "Bloody yanks! I thought they were the good guys!"

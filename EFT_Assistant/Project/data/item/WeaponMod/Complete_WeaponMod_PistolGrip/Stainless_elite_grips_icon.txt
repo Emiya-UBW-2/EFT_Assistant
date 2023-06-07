@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=8.000000
 accuracyModifier=0.000000
+Name_Jpn=P226 Stainless Elite Wooden pistol grip
+Information_Jpn=Wooden side grip panels from the Stainless Elite kit for P226 pistols, manufactured by SIG Sauer.

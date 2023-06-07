@@ -30,3 +30,4 @@ containsItems=[
 	HK 416A5 flip-up rear sightx1/|
 	HK417 E1 extended charging handlex1
 ]
+Name_Jpn=HK G28 7.62x51 marksman rifle Patrol

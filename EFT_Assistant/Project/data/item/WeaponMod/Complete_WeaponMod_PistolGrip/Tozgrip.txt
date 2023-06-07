@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=3.000000
 accuracyModifier=0.000000
+Name_Jpn=TOZ-106 002 pistol grip
+Information_Jpn=The TOZ 002 pistol grip for the TOZ-106 bolt-action shotgun.

@@ -44,3 +44,5 @@ capacity=5
 loadModifier=0.000000
 ammoCheckModifier=0.000000
 malfunctionChance=0.000000
+Name_Jpn=RSh-12 12.7x55 5-round cylinder
+Information_Jpn=A 5-round 12.7x55 cylinder for the RSh-12 revolver.

@@ -13,3 +13,5 @@ Sell_Peacekeeper=0
 Sell_Mechanic=21
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=20/70 7.3mm バックショット
+Information_Jpn=A 20/70 gauge shell loaded with 7.3mm buckshot.

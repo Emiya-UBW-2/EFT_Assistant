@@ -56,3 +56,5 @@ Recoil=-3.000000
 Ergonomics=-12.000000
 centerOfImpact=0.060000
 deviationMax=22
+Name_Jpn=HK G36 5.56x45 318mm barrel
+Information_Jpn=A 318mm 5.56x45 NATO barrel for the HK G36 assault rifle.

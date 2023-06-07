@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-7.000000
 Ergonomics=-1.000000
 accuracyModifier=0.030000
+Name_Jpn=MPX A2 9x19 flash hider
+Information_Jpn=The A2 Bird Cage flash hider, designed for installation on MPX 9x19 SMGs, manufactured by SIG Sauer.

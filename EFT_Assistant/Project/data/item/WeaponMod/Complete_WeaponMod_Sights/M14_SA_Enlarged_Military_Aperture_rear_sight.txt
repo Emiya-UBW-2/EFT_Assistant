@@ -17,3 +17,5 @@ Recoil=0.000000
 Ergonomics=0.000000
 SightRange=500
 sightZooms=1.000000
+Name_Jpn=M14 SA Enlarged Military Aperture rear sight
+Information_Jpn=The Enlarged Military Aperture rear sight for M14 rifles manufactured by Springfield Armory.

@@ -11,3 +11,5 @@ Sell_Fence=6824
 Sell_Jaeger=10236
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink
+Name_Jpn=MRE レーションパック
+Information_Jpn=MRE (Meal, Ready-to-Eat) は、アメリカ陸軍のために開発された個人用の戦闘糧食だ。パッケージは過酷な環境や風雨にも耐えうるよう設計されており保管状況を気にする必要はない。野外で空腹を満たすための様々な食料が入っている。

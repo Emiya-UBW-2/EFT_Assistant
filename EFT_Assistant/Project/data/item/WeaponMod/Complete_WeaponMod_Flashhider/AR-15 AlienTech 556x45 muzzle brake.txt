@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-11.000000
 Ergonomics=-2.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 AlienTech 5.56x45 muzzle brake
+Information_Jpn=A competition steel muzzle brake with one closed and five open ports designed by George Gubich, a six-time champion in practical shooting in Russia. Installed on AR-15 family weapons.

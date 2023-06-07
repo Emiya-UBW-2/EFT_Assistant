@@ -12,3 +12,5 @@ Sell_Fence=11101
 Sell_Skier=13599
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=42 シグニチャーブレンド 英国紅茶
+Information_Jpn=42 シグニチャーブレンドのイギリス紅茶。本物の愛好家に贈る一品だ。

@@ -11,3 +11,5 @@ Sell_Fence=3560
 Sell_Skier=4361
 fleaMarketFee=0
 propertiestype=ItemPropertiesGrenade
+Name_Jpn=Model 7290 Flash Bang grenade
+Information_Jpn=Model 7290 is a standard distracting explosive device. Produces 175 dB and a powerful light flash.

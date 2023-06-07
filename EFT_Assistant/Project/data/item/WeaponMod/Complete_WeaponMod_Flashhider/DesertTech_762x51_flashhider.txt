@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-8.000000
 Ergonomics=-2.000000
 accuracyModifier=0.010000
+Name_Jpn=Desert Tech 7.62x51 flash hider
+Information_Jpn=A flash hider developed by Desert Tech specifically for the MDR 7.62x51 (.308) assault rifles.

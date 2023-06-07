@@ -87,3 +87,5 @@ cameraRecoil=0.060000
 cameraSnap=3.500000
 deviationMax=23
 convergence=1.650000
+Name_Jpn=SAG AK-545 5.45x39 carbine
+Information_Jpn=The AK-545 carbine by Sureshot Armament Group, based on modern AK platforms.

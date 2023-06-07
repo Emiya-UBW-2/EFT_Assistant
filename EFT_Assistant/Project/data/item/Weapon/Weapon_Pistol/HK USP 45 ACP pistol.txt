@@ -58,3 +58,5 @@ cameraRecoil=0.011520
 cameraSnap=3.800000
 deviationMax=11
 convergence=6.000000
+Name_Jpn=HK USP .45 ACP pistol
+Information_Jpn=The HK USP (Universelle Selbstladepistole - "Universal Self-loading Pistol") pistol is a further replacement of the HK P7 series pistols. Internationally accepted as an accurate and ultra-reliable handgun. Using a modified Browning-type action with a special patented recoil reduction system, the USP recoil reduction system reduces recoil effects on pistol components and also lowers the recoil forces felt by the shooter. This particular variant is chambered in .45 ACP. Manufactured by Heckler & Koch.

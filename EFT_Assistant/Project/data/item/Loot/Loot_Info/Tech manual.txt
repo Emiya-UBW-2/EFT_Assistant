@@ -10,3 +10,5 @@ Sell_Fence=1560
 Sell_Peacekeeper=15
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=サービスマニュアル
+Information_Jpn=車種別の整備や点検方法など、技術的な情報が記載された整備要領書。

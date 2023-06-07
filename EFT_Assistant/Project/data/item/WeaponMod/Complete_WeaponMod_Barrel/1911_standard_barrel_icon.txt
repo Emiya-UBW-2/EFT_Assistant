@@ -18,3 +18,5 @@ Recoil=-3.000000
 Ergonomics=-5.000000
 centerOfImpact=0.350000
 deviationMax=11
+Name_Jpn=M1911A1 .45 ACP 127mm barrel
+Information_Jpn=A standard-issue 127mm .45 ACP barrel for M1911A1 pistols, manufactured by Colt.

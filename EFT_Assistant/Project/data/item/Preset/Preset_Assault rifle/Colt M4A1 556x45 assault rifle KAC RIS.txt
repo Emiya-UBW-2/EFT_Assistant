@@ -30,3 +30,4 @@ containsItems=[
 	High Standard M4SS Stockx1/|
 	AR-15 Colt charging handlex1
 ]
+Name_Jpn=Colt M4A1 5.56x45 assault rifle KAC RIS

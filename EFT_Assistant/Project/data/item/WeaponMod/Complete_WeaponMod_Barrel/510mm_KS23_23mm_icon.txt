@@ -18,3 +18,5 @@ Recoil=-4.000000
 Ergonomics=-4.000000
 centerOfImpact=0.750000
 deviationMax=9
+Name_Jpn=KS-23 23x75 510mm barrel
+Information_Jpn=A 510mm long barrel for the KS-23 23x75mm pump-action shotgun.

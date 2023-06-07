@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=2.000000
 accuracyModifier=0.000000
+Name_Jpn=TT PM-Laser TT-206 side grips with laser sight
+Information_Jpn=The TT-206 side grips with a laser aiming module, designed for TT pistols. Manufactured by PM-Laser.

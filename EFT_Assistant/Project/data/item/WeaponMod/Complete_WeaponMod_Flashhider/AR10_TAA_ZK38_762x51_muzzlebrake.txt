@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-9.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-10 TAA ZK-38 7.62x51 muzzle brake
+Information_Jpn=The ZK is single-chamber highly effective slant face muzzle brake manufactured by Tactical Advantage Armory. The front is rather pointy and doubles as a CQB threat deterrent and soft target weapon. Not recommended for situations where high concussion is a concern.

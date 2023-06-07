@@ -12,3 +12,5 @@ Sell_Peacekeeper=739
 Sell_Ragman=123144
 fleaMarketFee=0
 propertiestype=ItemPropertiesHelmet
+Name_Jpn=Vulkan-5（LShZ-5）ヘビーヘルメット
+Information_Jpn=The Vulkan-5 LShZ-5 high-level protection helmet is intended for use in a set of combat equipment with circular 6-class (Russian GOST) head protection from medium to heavy projectiles.

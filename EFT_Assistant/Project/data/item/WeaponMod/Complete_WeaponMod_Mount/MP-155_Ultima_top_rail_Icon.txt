@@ -144,3 +144,5 @@ ChildParts=[
 Recoil=-2.000000
 Ergonomics=-2.000000
 accuracyModifier=0.000000
+Name_Jpn=MP-155 Ultima top rail
+Information_Jpn=The "Ultima" modification top tail for the MP-155 shotgun. Manufactured by Kalashnikov Group.

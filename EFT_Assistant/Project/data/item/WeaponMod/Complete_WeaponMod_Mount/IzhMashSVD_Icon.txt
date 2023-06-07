@@ -97,3 +97,5 @@ Conflict=[
 Recoil=-2.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=SVD modernization kit top rail
+Information_Jpn=A prototype top rail designed for the modernized SVD sniper rifle kit, manufactured by Izhmash.

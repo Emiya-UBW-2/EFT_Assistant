@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-7.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=AKM 7.62x39 muzzle brake-compensator (6P1 0-14)
+Information_Jpn=A standard Izhmash-produced muzzle brake-compensator for AKM automatic rifles and weapon systems based on it.

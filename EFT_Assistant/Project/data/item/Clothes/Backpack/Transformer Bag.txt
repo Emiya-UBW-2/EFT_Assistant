@@ -11,3 +11,5 @@ Sell_Ragman=1135
 Sell_Jaeger=1098
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
+Name_Jpn=トランスフォーマーバッグ
+Information_Jpn=大きめのメッセンジャーバッグで、ランチボックスやノートパソコン、書類といったものが入り、小さな非常用サバイバルキットも入る。肩紐の長さを調節して、かばんや小さなリュックサックとして利用することができる。

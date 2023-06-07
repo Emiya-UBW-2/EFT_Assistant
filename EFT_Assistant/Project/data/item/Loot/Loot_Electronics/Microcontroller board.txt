@@ -13,3 +13,5 @@ Sell_Peacekeeper=372
 Sell_Mechanic=56000
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=マイコンボード
+Information_Jpn=マイクロコントローラを載せるためのプリント基板。あらゆる最先端の電子部品の製造に利用されている。

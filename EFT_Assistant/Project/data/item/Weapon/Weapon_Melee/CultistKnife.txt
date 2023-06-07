@@ -13,3 +13,5 @@ propertiestype=ItemPropertiesMelee
 slashDamage=25
 stabDamage=32
 hitRadius=0.350000
+Name_Jpn=Cultist knife
+Information_Jpn=A knife of a strange shape and with strange signs, taken from the cultists. Seems like it is used as a ritual knife, but apparently it's not limited to this use. It has technological changes in the design intended for the use of toxic substances - it's better not to touch the blade.

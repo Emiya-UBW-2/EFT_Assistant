@@ -38,3 +38,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=VSS/VAL Zenit B-3 ring mount
+Information_Jpn=The B-3 mounts are installed on the VSS/VAL suppressor to form a Picatinny rail for the installation of additional weapon equipment. Manufactured by Zenit.

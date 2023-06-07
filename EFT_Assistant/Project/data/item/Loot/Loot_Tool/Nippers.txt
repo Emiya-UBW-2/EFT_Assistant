@@ -12,3 +12,5 @@ Sell_Fence=6800
 Sell_Mechanic=9520
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=ニッパー
+Information_Jpn=主にワイヤーなどの線材を切断するために作られた工具。

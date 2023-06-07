@@ -11,3 +11,5 @@ Sell_Ragman=30380
 Sell_Jaeger=29400
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
+Name_Jpn=Gruppa 99 T30 backpack
+Information_Jpn=A thirty-liter assault backpack from Gruppa 99. A high-quality solution for conducting special raid operations.

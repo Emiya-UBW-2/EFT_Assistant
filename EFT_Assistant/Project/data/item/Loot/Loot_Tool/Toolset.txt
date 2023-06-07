@@ -12,3 +12,5 @@ Sell_Fence=12400
 Sell_Mechanic=17360
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=ツールセット
+Information_Jpn=様々な工具がセットになった修理工のバッグ。

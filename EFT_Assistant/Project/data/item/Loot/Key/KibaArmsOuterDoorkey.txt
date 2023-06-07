@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Interchange
+Name_Jpn=Kiba Arms outer door key
+Information_Jpn=A key to the outer door of the KIBA Arms International outlet at the ULTRA shopping mall.

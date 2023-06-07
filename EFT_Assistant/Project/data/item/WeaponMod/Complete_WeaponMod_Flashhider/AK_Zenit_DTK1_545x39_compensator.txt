@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-13.000000
 Ergonomics=-2.000000
 accuracyModifier=0.000000
+Name_Jpn=AK Zenit DTK-1 7.62x39/5.45x39 muzzle brake-compensator
+Information_Jpn=The DTK-1 muzzle brake-compensator by Zenit is designed to be installed on 7.62x39 and 5.45x39 AK-based weapon systems. It reduces recoil and counters barrel climb. The crown on the DTK nose is meant for breaking through tempered glass. It has 24x1.5 mm threading. ©Zenit

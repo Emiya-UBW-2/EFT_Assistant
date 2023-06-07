@@ -12,3 +12,5 @@ Sell_Fence=8920
 Sell_Skier=10927
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=アルセニー ソバの実
+Information_Jpn=困難な時期にソバの実ほど貴重なものはない。粒状の金、神々の食べ物だ。

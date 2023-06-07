@@ -19,3 +19,5 @@ capacity=30
 loadModifier=0.000000
 ammoCheckModifier=0.000000
 malfunctionChance=0.010000
+Name_Jpn=AK-74 5.45x39 Magpul PMAG 30 GEN M3 30-round magazine
+Information_Jpn=A 30-round polymer Magpul Pmag 30 AK74 GEN M3 magazine for 5.45x39 AK and compatible weapons.

@@ -20,3 +20,5 @@ ChildParts=[
 Recoil=-15.000001
 Ergonomics=6.000000
 accuracyModifier=0.000000
+Name_Jpn=OP-SKS wooden stock
+Information_Jpn=Molot製の標準的な木製 OP-SKSストック。

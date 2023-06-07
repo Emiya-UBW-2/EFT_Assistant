@@ -45,3 +45,5 @@ ChildParts=[
 Recoil=-3.000000
 Ergonomics=16.000000
 accuracyModifier=0.020000
+Name_Jpn=AK-545 SAG Mk.3 handguard
+Information_Jpn=The Sureshot Armament Group Mk.3 handguard for AK-545, equipped with an M-LOK interface for the installation of additional devices and accessories and a picatinny rail on top for sights and tactical equipment mounting.

@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Customs
+Name_Jpn=軍の検問所の鍵
+Information_Jpn=軍事基地の検問所にある守衛詰所の鍵。

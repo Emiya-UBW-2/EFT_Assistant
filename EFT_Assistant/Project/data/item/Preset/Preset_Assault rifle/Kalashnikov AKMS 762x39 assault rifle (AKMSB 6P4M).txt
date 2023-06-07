@@ -25,3 +25,4 @@ containsItems=[
 	AKMS shoulder piece (6P4 Sb.1-19)x1/|
 	AKMS 7.62x39 aluminium 30-round magazinex1
 ]
+Name_Jpn=AKMS 7.62x39 アサルトライフル (AKMSB 6P4M)

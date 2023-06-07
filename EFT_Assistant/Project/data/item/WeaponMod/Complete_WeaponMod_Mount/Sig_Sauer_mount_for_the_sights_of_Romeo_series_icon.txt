@@ -22,3 +22,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=SIG Sauer ROMEO sight mount
+Information_Jpn=The SIG Sauer mount base for ROMEO-type reflex sights.

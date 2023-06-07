@@ -13,3 +13,5 @@ Sell_Peacekeeper=8
 Sell_Mechanic=1188
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=5.45x39mm 7N40
+Information_Jpn=The newest legendary cartridge with increased accuracy of fire 7N40. Made as part of the Ratnik program together with 7N39 PPBS "Igolnik".

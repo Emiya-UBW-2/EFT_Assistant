@@ -20,3 +20,5 @@ ChildParts=[
 Recoil=-32.000000
 Ergonomics=4.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 DoubleStar ACE SOCOM Gen.4 stock
+Information_Jpn=The 4th generation of a recently famous SOCOM stock manufactured by DoubleStar. The stock features a sturdy integral buffer tube and a closed cell foam overtube cover that provides a comfortable cheek weld.

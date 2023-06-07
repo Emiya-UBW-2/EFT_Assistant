@@ -86,3 +86,5 @@ ChildParts=[
 Recoil=-1.000000
 Ergonomics=11.000000
 accuracyModifier=0.000000
+Name_Jpn=HK MP5 PTR Tri-Rail handguard
+Information_Jpn=A handguard for HK MP5 SMG manufactured by PTR, equipped with 3 rail mounts for installation of additional tactical devices.

@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-30.000002
 Ergonomics=15.000000
 accuracyModifier=0.000000
+Name_Jpn=MPX/MCX Maxim Defense CQB telescoping stock
+Information_Jpn=A telescopic retractable CQB stock for MPX/MCX weapons, manufactured by Maxim Defense.

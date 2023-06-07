@@ -11,3 +11,5 @@ Sell_Therapist=32199
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=20
+Name_Jpn=Factory 非常口の鍵
+Information_Jpn=Factoryの非常口の鍵。壊れやすそうに見える。

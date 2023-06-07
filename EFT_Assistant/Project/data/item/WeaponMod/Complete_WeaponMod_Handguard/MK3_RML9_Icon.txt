@@ -58,3 +58,5 @@ Conflict=[
 Recoil=0.000000
 Ergonomics=6.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-10 CMMG MK3 RML9 9 inch M-LOK handguard
+Information_Jpn=A 9 inch handguard for AR-10 weapon systems, equipped with an M-LOK interface for attaching additional equipment. Manufactured by CMMG.

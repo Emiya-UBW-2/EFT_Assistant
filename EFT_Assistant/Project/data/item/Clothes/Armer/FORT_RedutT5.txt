@@ -13,3 +13,5 @@ Sell_Peacekeeper=945
 Sell_Ragman=157603
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmor
+Name_Jpn=FORT Redut-T5 ボディアーマー
+Information_Jpn=The FORT "Redut T5" armor vest is a reinforced version of Redut armor series, designed with account of the many years of experience in counter-terrorism operations in the Russian Federation.

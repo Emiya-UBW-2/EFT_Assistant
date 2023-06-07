@@ -13,3 +13,5 @@ Sell_Peacekeeper=0
 Sell_Mechanic=72
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=5.45x39mm BP gs
+Information_Jpn=A 5.45x39mm BP gs (GRAU Index - 7N22) cartridge with a 3.7 gram armor-piercing bullet with a hardened carbon steel core with lead cladding on the tip and bimetallic jacket, in a steel case. This BP bullet (Bronebóynaya Púlya - "Armor-piercing Bullet") was developed by TsNIITochMash in 1998 based on the 5.45x39mm PP gs cartridge to improve its design and penetration capabilities, resulting in an improvement at piercing some intermediate models of body ballistic protection, however, due to its design, it has a significant bounce probability off various surfaces.

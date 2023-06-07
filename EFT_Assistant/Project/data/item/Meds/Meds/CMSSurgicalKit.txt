@@ -17,3 +17,5 @@ cures=[LostLimb]
 uses=5
 minLimbHealth=0.250000
 maxLimbHealth=0.450000
+Name_Jpn=CMS サージカルキット
+Information_Jpn=銃弾による射創や重傷の治療に適したコンパクトな手術キット。

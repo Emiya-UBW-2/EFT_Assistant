@@ -44,3 +44,5 @@ ChildParts=[
 Recoil=-3.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=AK-74M CAA AKTS AK74 buffer tube
+Information_Jpn=CAA製レシーバーエクステンション。6ポジションのミルスペック径バッファーチューブで、側面に折り畳めるストックを持つ全てのAKライフルに使用できる。

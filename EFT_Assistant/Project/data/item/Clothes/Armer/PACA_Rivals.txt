@@ -13,3 +13,5 @@ Sell_Peacekeeper=197
 Sell_Ragman=32760
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmor
+Name_Jpn=PACA Soft Armor (Rivals Edition)
+Information_Jpn=A light but durable and reliable body armor protecting only the vital areas, fitted with class 2 (Russian GOST) armor plates. Twitch Rivals 2021 special edition.

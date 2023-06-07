@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-8.500000
 Ergonomics=-21.000000
 accuracyModifier=-0.020000
+Name_Jpn=AKM Zenit DTK-4M 7.62x39 sound suppressor
+Information_Jpn=The Zenit DTK-4M muzzle brake, manufactured from titanium alloy, is designed for installation on modern 7.62x39 AK assault rifles. Although positioned as a muzzle brake, it can only be purchased by the staff of particular authorities.

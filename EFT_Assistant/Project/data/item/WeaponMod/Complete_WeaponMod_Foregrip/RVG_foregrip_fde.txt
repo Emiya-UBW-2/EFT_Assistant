@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-2.000000
 Ergonomics=7.000000
 accuracyModifier=0.000000
+Name_Jpn=Magpul RVG foregrip (FDE)
+Information_Jpn=Magpul製RVG(Rail Vertical Grip)タクティカルグリップ。広く普及しており単純な構造で安価である。取り回しやすい形をしたバーティカルフォアグリップだ。

@@ -17,3 +17,5 @@ Recoil=0.000000
 Ergonomics=-4.000000
 SightRange=200
 sightZooms=1.000000
+Name_Jpn=Valday PK-120 (1P87) holographic sight
+Information_Jpn=PK-120 (GRAU index - 1P87) is a holographic sight produced by Valday. It is part of the DPSK complex (day-night sight-observation complex) of the experimental design work "Ratnik".

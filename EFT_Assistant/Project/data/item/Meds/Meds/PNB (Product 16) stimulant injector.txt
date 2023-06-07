@@ -57,3 +57,5 @@ stimEffectsduration=20
 stimEffectsvalue=0.000000
 stimEffectspercent=FALSE
 stimEffectsSkiilName=
+Name_Jpn=PNB (Product 16) の注射器
+Information_Jpn=TerraGroup Labsが開発した戦闘用の精神刺激薬。PNBと表示されたラベルが貼られている。深層筋を短時間に活性化し過緊張の状態にすることで受けるダメージを軽減すると共にタンパク質生合成によって組織の再生を促進する。戦闘における重要な局面に生存能力を高めるため特殊部隊での使用が許可されているが、副作用がある。

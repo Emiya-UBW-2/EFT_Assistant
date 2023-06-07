@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=8.000000
 accuracyModifier=0.000000
+Name_Jpn=ORSIS T-5000M pistol grip
+Information_Jpn=An ergonomic pistol grip for the T-5000M bolt-action sniper rifle, manufactured by ORSIS.

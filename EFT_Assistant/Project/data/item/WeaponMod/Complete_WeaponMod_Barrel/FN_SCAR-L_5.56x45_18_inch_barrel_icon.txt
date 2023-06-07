@@ -54,3 +54,5 @@ Recoil=-6.000000
 Ergonomics=-19.000000
 centerOfImpact=0.045000
 deviationMax=23
+Name_Jpn=FN SCAR-L 5.56x45 18 inch barrel
+Information_Jpn=An 18 inches long (457mm) LB barrel for the SCAR-series weapons chambered in 5.56x45 NATO ammo.

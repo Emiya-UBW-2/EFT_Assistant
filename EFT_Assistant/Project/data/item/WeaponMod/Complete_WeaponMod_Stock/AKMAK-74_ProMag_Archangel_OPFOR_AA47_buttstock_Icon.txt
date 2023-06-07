@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-39.000000
 Ergonomics=17.000000
 accuracyModifier=0.000000
+Name_Jpn=AKM/AK-74 ProMag Archangel OPFOR AA47 buttstock
+Information_Jpn=The OPFOR AA47 stock from the Archangel kit for AKM/AK-74-type non-folding weapon systems. Manufactured by ProMag.

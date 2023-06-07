@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-2.000000
 Ergonomics=4.000000
 accuracyModifier=0.000000
+Name_Jpn=SV-98 bipod
+Information_Jpn=A standard-issue Izhmash bipod for the SV-98 sniper rifle. Folded into the handguard when not used.

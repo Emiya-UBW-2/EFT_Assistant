@@ -120,3 +120,5 @@ ChildParts=[
 Recoil=-9.000000
 Ergonomics=18.000000
 accuracyModifier=0.000000
+Name_Jpn=M14 SAGE International M14ALCS chassis
+Information_Jpn=The M14ALCS chassis for M14 rifles from the Enhanced Battle Rifle (EBR) kit. Manufactured by SAGE International.

@@ -79,3 +79,5 @@ Conflict=[
 Recoil=0.000000
 Ergonomics=-1.500000
 accuracyModifier=0.000000
+Name_Jpn=HK MP5 B&T tri-rail receiver mount
+Information_Jpn=A rail mount designed by Brügger & Thomet for the HK MP5 submachine gun. It is mounted on the weapon's receiver and allows additional installation of scopes and reflex sights.

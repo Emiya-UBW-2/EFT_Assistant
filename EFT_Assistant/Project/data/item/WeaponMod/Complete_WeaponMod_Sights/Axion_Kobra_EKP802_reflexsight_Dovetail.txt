@@ -26,3 +26,5 @@ sightZooms=1.000000
 sightZooms=1.000000
 sightZooms=1.000000
 sightZooms=1.000000
+Name_Jpn=Axion Kobra EKP-8-02 reflex sight (Dovetail)
+Information_Jpn=Kobra is a very popular reflex sight among security agencies and civilian shooters. It was designed for the armed forces of the Russian Federation, but was never formally adopted. This version is designed for installing on dovetail type rail. Manufactured by Axion.

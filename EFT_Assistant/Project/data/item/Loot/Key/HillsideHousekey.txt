@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Shoreline
+Name_Jpn=Hillside house key
+Information_Jpn=A key that opens one of the old village houses.

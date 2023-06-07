@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Interchange
+Name_Jpn=OLI logistics department office key
+Information_Jpn=A key to the OLI logistics department office at the ULTRA shopping mall.

@@ -10,3 +10,5 @@ Sell_Fence=23200
 Sell_Peacekeeper=216
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=BakeEzy レシピ本
+Information_Jpn=美味しくて健康的な料理を紹介する "BakeEzy" には、ビジネスでの宴会はもちろん、小汚いガレージ裏での酒盛りにもぴったりな料理のレシピがたくさん掲載されている。ボナペティ！

@@ -18,3 +18,5 @@ Recoil=0.000000
 Ergonomics=-3.000000
 SightRange=300
 sightZooms=1.000000
+Name_Jpn=MP-155 Ultima thermal camera
+Information_Jpn=A special thermal imaging camera for the "Ultima" modification for the MP-155 shotgun. The image from the camera is displayed on the front display on the back of the weapon. Manufactured by Kalashnikov Group.

@@ -12,3 +12,5 @@ Sell_Peacekeeper=27
 Sell_Ragman=4544
 fleaMarketFee=0
 propertiestype=ItemPropertiesHelmet
+Name_Jpn=Kolpak-1S ライオットヘルメット
+Information_Jpn=Kolpak-1S protects the head from the cold piercing-cutting weapons in a special class of protection GOST R50744-95, from fragmentation with an energy of impact up to 50 J, and also serves to reduce the dynamic loads arising from the above-mentioned means of destruction. Kolpak-1 protective helmets are recommended by the Interdepartmental Commission for equipping units of the patrol service, traffic police, OMON and other special units of the Ministry of Internal Affairs of Russia.

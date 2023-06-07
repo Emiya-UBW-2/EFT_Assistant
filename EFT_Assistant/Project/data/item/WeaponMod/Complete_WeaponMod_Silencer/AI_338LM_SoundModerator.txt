@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-15.000001
 Ergonomics=-30.000000
 accuracyModifier=-0.040000
+Name_Jpn=AI .338 LM Tactical Sound Moderator
+Information_Jpn=A sound moderator manufactured by Accuracy International, designed to fit .338 Lapua Magnum weapons.

@@ -17,3 +17,5 @@ Recoil=0.000000
 Ergonomics=1.000000
 SightRange=300
 sightZooms=1.000000
+Name_Jpn=KAC Folding front sight
+Information_Jpn=A removable folding front sight by Knight's Armament Company, installed on the mount.

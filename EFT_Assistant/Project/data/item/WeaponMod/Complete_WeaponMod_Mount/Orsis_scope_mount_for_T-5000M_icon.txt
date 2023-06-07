@@ -85,3 +85,5 @@ Conflict=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=ORSIS T-5000M scope mount
+Information_Jpn=A universal scope mount for the T-5000M sniper rifle, manufactured by ORSIS. Allows installation of various scopes.

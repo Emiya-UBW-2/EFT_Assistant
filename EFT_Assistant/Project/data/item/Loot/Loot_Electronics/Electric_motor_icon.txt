@@ -13,3 +13,5 @@ Sell_Peacekeeper=160
 Sell_Mechanic=24080
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=モーター
+Information_Jpn=電気エネルギーを力学的エネルギーに変換する電動機。製造や工業においては欠かせないものだ。

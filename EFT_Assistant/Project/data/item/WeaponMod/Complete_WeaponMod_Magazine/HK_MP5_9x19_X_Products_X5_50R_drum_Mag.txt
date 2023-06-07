@@ -19,3 +19,5 @@ capacity=50
 loadModifier=0.300000
 ammoCheckModifier=0.150000
 malfunctionChance=0.150000
+Name_Jpn=HK MP5 9x19 X Products X-5 50-round drum magazine
+Information_Jpn=A 50-round 9x19 drum magazine for the MP5 submachine gun. Manufactured by X Products.

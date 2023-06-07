@@ -19,3 +19,5 @@ capacity=45
 loadModifier=0.000000
 ammoCheckModifier=0.150000
 malfunctionChance=0.151000
+Name_Jpn=AK-74 5.45x39 6L26 45-round magazine
+Information_Jpn=A 45-round 5.45x39 polymer Izhmash 6L26 magazine for AK-74 and compatible systems.

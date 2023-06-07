@@ -13,3 +13,5 @@ propertiestype=ItemPropertiesMelee
 slashDamage=24
 stabDamage=31
 hitRadius=0.400000
+Name_Jpn=6Kh5 Bayonet
+Information_Jpn=The so-called "Item 6Kh5" is a bayonet knife adopted in 1989 as a standard-issue for use with AK-74 assault rifles.

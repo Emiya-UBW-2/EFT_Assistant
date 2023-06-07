@@ -20,3 +20,5 @@ ChildParts=[
 Recoil=-30.000002
 Ergonomics=9.000000
 accuracyModifier=0.000000
+Name_Jpn=AKMS shoulder piece (6P4 Sb.1-19)
+Information_Jpn=A folding shoulder piece assembly for AKMS automatic rifles, manufactured by Izhmash.

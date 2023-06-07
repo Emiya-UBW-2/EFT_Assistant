@@ -11,3 +11,5 @@ Sell_Ragman=61612
 Sell_Jaeger=59625
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
+Name_Jpn=Eberlestock F4 Terminator load bearing backpack (Tiger Stripe)
+Information_Jpn=An extremely versatile full-format load bearing backpack for military use. Manufactured by Eberlestock.

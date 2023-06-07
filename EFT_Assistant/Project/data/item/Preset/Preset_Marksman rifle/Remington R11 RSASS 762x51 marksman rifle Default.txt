@@ -25,3 +25,4 @@ containsItems=[
 	AR-10 AAC Blackout 51T 7.62x51 flash hiderx1/|
 	AR-10 JP Enterprises Gas System-6x1
 ]
+Name_Jpn=Remington R11 RSASS 7.62x51 marksman rifle デフォルト

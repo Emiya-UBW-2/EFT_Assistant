@@ -13,3 +13,5 @@ Sell_Peacekeeper=3
 Sell_Mechanic=406
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=.45 ACP AP
+Information_Jpn=A .45 ACP (11.43x23mm) AP cartridge with a two-part controlled fragmenting projectile, an armor-piercing bullet that features a brass sabot and a hardened steel penetrator of 7mm. Thanks to the design of this AP bullet (Armor-Piercing) and despite having an average muzzle velocity relative to other cartridges of the same caliber, it has capabilities of piercing basic ballistic body protection along with some intermediate models and still provides a significant stopping power effect.

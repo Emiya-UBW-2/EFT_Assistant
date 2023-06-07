@@ -11,3 +11,5 @@ Sell_Therapist=18900
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
+Name_Jpn=Missam forklift key
+Information_Jpn=A Missam forklift key. The name of the former owner is written on the ribbon.

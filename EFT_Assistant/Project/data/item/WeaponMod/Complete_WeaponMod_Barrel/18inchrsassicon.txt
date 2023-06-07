@@ -49,3 +49,5 @@ Recoil=-5.000000
 Ergonomics=-13.000000
 centerOfImpact=0.035000
 deviationMax=30
+Name_Jpn=AR-10 7.62x51 18 inch barrel
+Information_Jpn=An 18 inch (457mm) barrel for AR-10 based weapons for 7.62x51 NATO ammo.

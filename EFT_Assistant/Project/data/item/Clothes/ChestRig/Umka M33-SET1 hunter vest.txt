@@ -12,3 +12,5 @@ Sell_Ragman=15934
 Sell_Jaeger=15420
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
+Name_Jpn=Umka M33-SET1 hunter vest
+Information_Jpn=Umka M33-SET1はハンターや旅行者、警備員、捜索救難の専門家のためにデザインされたベストだ。

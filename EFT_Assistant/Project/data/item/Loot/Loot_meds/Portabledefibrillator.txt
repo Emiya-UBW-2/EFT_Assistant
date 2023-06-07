@@ -11,3 +11,5 @@ Sell_Fence=89840
 Sell_Jaeger=134760
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=除細動器
+Information_Jpn=不整脈による心停止 (心室細動) は、いつでも、何処でも、誰にでも起こり得る。Phipils のハートスタート AED は二相性波形 "SMART Biphasic" を採用しており、通電のエネルギー量を適切に調節することで、電気ショックを行う際に心臓へのダメージを最小限に抑えられる。

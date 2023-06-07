@@ -10,3 +10,5 @@ Sell_Therapist=5040
 Sell_Fence=3200
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=食用塩
+Information_Jpn=調理には欠かせないシンプルな食塩。

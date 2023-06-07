@@ -26,3 +26,4 @@ containsItems=[
 	AK Zenit PT-3 "Klassika" stockx1/|
 	AK Zenit RP-1 charging handlex1
 ]
+Name_Jpn=AK-74M 5.45x39 アサルトライフル ZenitCo

@@ -12,3 +12,5 @@ Sell_Ragman=17743
 Sell_Jaeger=17170
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
+Name_Jpn=BlackHawk! Commando chest harness (Desert Tan)
+Information_Jpn=Designed for comfort and quick access, this harness puts a lot of additional magazines at the user's fingertips. Manufactured by BlackHawk. Desert Tan version.

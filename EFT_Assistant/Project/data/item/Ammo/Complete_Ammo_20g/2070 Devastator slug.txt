@@ -13,3 +13,5 @@ Sell_Peacekeeper=1
 Sell_Mechanic=100
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=20/70 Devastator スラグ
+Information_Jpn=A 20/70 hollow point slug shell for 20 gauge shotguns.

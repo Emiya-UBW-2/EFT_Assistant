@@ -26,3 +26,5 @@ Recoil=-3.000000
 Ergonomics=-4.000000
 centerOfImpact=0.300000
 deviationMax=11
+Name_Jpn=P226 9x19 threaded barrel
+Information_Jpn=A standard-issue threaded barrel for SIG Sauer P226 9x19 pistols.

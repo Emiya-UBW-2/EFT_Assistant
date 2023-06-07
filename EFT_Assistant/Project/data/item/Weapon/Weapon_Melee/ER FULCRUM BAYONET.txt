@@ -13,3 +13,5 @@ propertiestype=ItemPropertiesMelee
 slashDamage=25
 stabDamage=27
 hitRadius=0.400000
+Name_Jpn=ER FULCRUM BAYONET
+Information_Jpn=Following on from the successful FULCRUM knife, Extrema Ratio developed a bayonet version of that design. Like the original FULCRUM, this bayonet is extremely versatile and strong. The tanto-shaped blade allows for large amounts of work and wear while still keeping a sharp edge at its exceedingly sturdy tip. This feature, combined with a sharp false edge, makes the knife retain sufficient combat penetration capability to engage targets covered in heavy clothing, padding, or soft ballistic protections. Thanks to its weight and top-heavy balancing, the FULCRUM BAYONET blade is suitable for hard work on the field.

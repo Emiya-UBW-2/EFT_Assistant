@@ -12,3 +12,5 @@ Sell_Skier=29542
 Sell_Peacekeeper=224
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=シルバーバッジ
+Information_Jpn=古い銀色のバッジ。おそらくはどこかの保安官のものだろう。

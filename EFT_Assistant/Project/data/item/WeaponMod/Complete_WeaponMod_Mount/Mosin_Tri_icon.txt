@@ -123,3 +123,5 @@ Conflict=[
 Recoil=0.000000
 Ergonomics=-2.000000
 accuracyModifier=0.000000
+Name_Jpn=Mosin Rifle AIM Sports Tri-Rail mount
+Information_Jpn=A Weaver rail for the Mosin rifle, mounted instead of the regular rear sight. Manufactured by AIM Sports.

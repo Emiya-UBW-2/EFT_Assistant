@@ -11,3 +11,5 @@ Sell_Fence=6400
 Sell_Jaeger=9600
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=SurvL サバイバルライター
+Information_Jpn=過酷な環境でのサバイバルに役立つ防水性、防風性に優れたターボライターだ。まあ、タバコに火をつけるためだけに使ってもいいし、お前の好きにすればいいさ、兄弟。

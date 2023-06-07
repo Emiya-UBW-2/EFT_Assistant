@@ -26,3 +26,4 @@ containsItems=[
 	EOTech EXPS3 holographic sight (Tan)x1/|
 	Insight WMX200 tactical flashlightx1
 ]
+Name_Jpn=Steyr AUG A3 5.56x45 assault rifle CQB

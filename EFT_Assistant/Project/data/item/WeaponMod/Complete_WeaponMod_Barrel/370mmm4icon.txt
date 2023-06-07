@@ -59,3 +59,5 @@ Recoil=-3.000000
 Ergonomics=-14.000000
 centerOfImpact=0.053000
 deviationMax=23
+Name_Jpn=AR-15 5.56x45 370mm barrel
+Information_Jpn=A 370mm barrel for AR-15 based weapons for 5.56x45 NATO ammo. Corresponds with standard service M4A1 barrel.

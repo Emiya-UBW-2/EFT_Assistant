@@ -12,3 +12,5 @@ Sell_Ragman=11904
 Sell_Jaeger=11520
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
+Name_Jpn=Splav Tarzan M22 chest rig
+Information_Jpn=単純な構造で使いやすいタクティカルリグ。ロシアの警備会社や法執行機関、民間の射撃愛好家により現在も使用されている。

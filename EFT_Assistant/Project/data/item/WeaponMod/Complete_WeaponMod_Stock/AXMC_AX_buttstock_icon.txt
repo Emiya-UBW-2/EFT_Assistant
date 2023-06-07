@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-27.000002
 Ergonomics=4.000000
 accuracyModifier=0.000000
+Name_Jpn=AI AXMC AX buttstock
+Information_Jpn=The AX buttstock for the AXMC sniper rifle, manufactured by Accuracy International.

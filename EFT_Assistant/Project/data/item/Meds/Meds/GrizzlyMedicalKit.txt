@@ -18,3 +18,5 @@ hitpoints=1800
 maxHealPerUse=175
 hpCostLightBleeding=40
 hpCostHeavyBleeding=130
+Name_Jpn=Grizzly 応急処置キット
+Information_Jpn=Sportsman Series Grizzly 応急処置キットには過酷な状況下で適切な治療を行うために必要なものがすべて揃っている。最高のファーストエイドキットの1つと言えるだろう。

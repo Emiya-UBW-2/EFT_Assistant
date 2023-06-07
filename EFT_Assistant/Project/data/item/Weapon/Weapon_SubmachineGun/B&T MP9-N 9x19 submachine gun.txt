@@ -48,3 +48,5 @@ cameraRecoil=0.038400
 cameraSnap=3.500000
 deviationMax=11
 convergence=2.200000
+Name_Jpn=B&T MP9-N 9x19 submachine gun
+Information_Jpn=MP9-NはMP-9 サブマシンガンの改良版で、警察や軍隊の特殊部隊用に洗練され最適化されている。世界中の特殊部隊で採用されているほか、VIPの護衛部隊などでも使用されている。個人防衛武器（PDW）としても優秀な銃だ。

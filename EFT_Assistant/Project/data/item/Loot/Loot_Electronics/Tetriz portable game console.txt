@@ -13,3 +13,5 @@ Sell_Peacekeeper=446
 Sell_Mechanic=67200
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Tetriz ポータブルゲーム機
+Information_Jpn=失われた過去の遺物だ。電子機器の熱心な収集家としても知られる Mechanic なら興味を持つかもしれない。

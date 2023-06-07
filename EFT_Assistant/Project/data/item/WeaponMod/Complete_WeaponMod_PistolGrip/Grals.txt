@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=15.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 Naroh Arms GRAL-S pistol grip
+Information_Jpn=Naroh Arms製のGRAL-Sポリマーピストルグリップは、AR-15ピストルグリップと互換性のあるすべての武器に装着する事ができる。

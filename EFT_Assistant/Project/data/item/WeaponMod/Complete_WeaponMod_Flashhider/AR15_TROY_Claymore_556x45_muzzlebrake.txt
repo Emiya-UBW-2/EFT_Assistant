@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-8.000000
 Ergonomics=-2.000000
 accuracyModifier=0.030000
+Name_Jpn=AR-15 TROY Claymore 5.56x45 muzzle brake
+Information_Jpn=Claymore is an effective muzzle brake for AR-15 base weapon systems, produced by TROY.

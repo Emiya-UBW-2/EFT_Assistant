@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Shoreline
+Name_Jpn=HEP station storage room key
+Information_Jpn=A key to the USEC stash inside hydroelectric power station, located somewhere near the Azure Coast sanatorium.

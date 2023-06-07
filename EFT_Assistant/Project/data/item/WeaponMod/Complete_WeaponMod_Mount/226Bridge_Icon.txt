@@ -38,3 +38,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=P226 Bridge sight mount
+Information_Jpn=The SIG Sauer Bridge sight mount for pistols. Allows mounting of various sights or tactical accesories.

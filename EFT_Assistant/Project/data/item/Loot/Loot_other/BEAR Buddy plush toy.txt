@@ -12,3 +12,5 @@ Sell_Fence=34680
 Sell_Skier=42483
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=BEAR バディのぬいぐるみ
+Information_Jpn="BEAR バディ" のぬいぐるみはタルコフ在住の有名人、Annemunition のグッズ。超レアなコレクターズアイテムだ！

@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=4.000000
 accuracyModifier=0.000000
+Name_Jpn=M1911A1 side grips
+Information_Jpn=Standard-issue side grip panels for the M1911A1 pistol, manufactured by Colt.

@@ -36,3 +36,4 @@ containsItems=[
 	Magpul MOE Carbine rubber buttpadx1/|
 	AR-15 Colt charging handlex1
 ]
+Name_Jpn=Colt M4A1 5.56x45 assault rifle SOPMOD II

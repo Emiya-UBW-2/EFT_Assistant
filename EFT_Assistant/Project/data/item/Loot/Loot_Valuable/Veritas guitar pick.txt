@@ -12,3 +12,5 @@ Sell_Skier=26950
 Sell_Peacekeeper=205
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Veritas ギターピック
+Information_Jpn="Veritas" のロゴが入った高品質な0.5mm厚のギターピック。

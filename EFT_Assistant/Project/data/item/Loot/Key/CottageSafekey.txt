@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Shoreline
+Name_Jpn=Cottage safe key
+Information_Jpn=A key to the safe inside one of the cottages, located somewhere near the Azure Coast sanatorium.

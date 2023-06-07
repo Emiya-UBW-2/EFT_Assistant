@@ -60,3 +60,5 @@ Recoil=-5.000000
 Ergonomics=-20.000000
 centerOfImpact=0.045000
 deviationMax=23
+Name_Jpn=HK 416A5 5.56x45 16.5 inch barrel with flip-up front sight
+Information_Jpn=A barrel for 416 based weapons for 5.56x45 NATO ammo, 16.5 inches (419mm) long with a flip-up front sight.

@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-15.000001
 Ergonomics=-5.000000
 accuracyModifier=-0.010000
+Name_Jpn=MPX-SD 9x19 integrated sound suppressor
+Information_Jpn=An integrated sound suppressor manufactured by SIG Sauer for the special "silent" version of the MPX, designated as MPX-SD.

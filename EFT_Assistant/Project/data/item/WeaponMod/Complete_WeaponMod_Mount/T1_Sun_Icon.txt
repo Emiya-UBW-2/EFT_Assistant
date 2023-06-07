@@ -23,3 +23,5 @@ Conflict=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights
+Information_Jpn=The Recknagel Era-Tac Sunshade mount for the Aimpoint Micro T-1 reflex sight.

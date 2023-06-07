@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-5.000000
 Ergonomics=2.000000
 accuracyModifier=0.000000
+Name_Jpn=MP-155 Ultima thin recoil pad
+Information_Jpn=The "Ultima" modification small rubber recoil butt-pad for the MP-155 shotgun. Manufactured by Kalashnikov Group.

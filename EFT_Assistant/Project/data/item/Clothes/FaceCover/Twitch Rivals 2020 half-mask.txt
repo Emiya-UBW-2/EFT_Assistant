@@ -12,3 +12,5 @@ Sell_Peacekeeper=119
 Sell_Ragman=19840
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Twitch Rivals 2020 ハーフマスク
+Information_Jpn=A special half-mask from the Twitch Rivals 2020 event.

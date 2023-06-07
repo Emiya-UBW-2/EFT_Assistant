@@ -19,3 +19,5 @@ capacity=10
 loadModifier=-0.100000
 ammoCheckModifier=-0.300000
 malfunctionChance=0.010000
+Name_Jpn=AK 7.62x39 ribbed metal 10-round magazine
+Information_Jpn=A custom-cut ribbed metal 7.62x39mm 10-round magazine for AK-compatible systems. Made by sawing off a military magazine to comply with the Russian Federation's laws for use with civilian firearms. Can also be supplied with .366 TKM ammo for use with the corresponding caliber AK-compatible weapons.

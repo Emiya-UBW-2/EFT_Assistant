@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=8.000000
 accuracyModifier=0.000000
+Name_Jpn=M1911 Pachmayr American Legend Grip #423
+Information_Jpn=The "American Legend Grip #423" grips for the M1911 pistol, manufactured by Pachmayr.

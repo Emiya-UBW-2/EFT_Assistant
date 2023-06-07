@@ -52,3 +52,5 @@ cameraRecoil=0.120000
 cameraSnap=2.800000
 deviationMax=10
 convergence=1.400000
+Name_Jpn=MP-155 12ゲージ セミオートマチックショットガン
+Information_Jpn=The Russian MP-155 smoothbore multi-shot 12 gauge shotgun, manufactured by IzhMekh ("Izhevsky Mechanical Plant"). The gun weighs less than its predecessor MP-153 and features enhanced ergonomics and an easy-to-replace barrel mechanism. The new design also makes it easier to use for left-handed users.

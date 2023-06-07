@@ -378,21 +378,8 @@ namespace FPS_n2 {
 			}
 		}
 	public:
-		void			InitDatabyJson() noexcept;
-		void			UpdateData(int ofset, int size) noexcept {
-			for (auto& L : this->m_List) {
-				for (int loop = ofset; loop < ofset + size; loop++) {
-					if (loop >= (int)GetJsonDataList().size()) { break; }
-					auto& jd = GetJsonDataList().at(loop);
-					if (L.GetIDstr() == jd->m_id) {
-						L.m_CheckJson++;
-						jd->OutputData(L.GetFilePath());
-						break;
-					}
-				}
-			}
-		}
+		void			InitDatabyJson() noexcept override;
 		void			SaveAsNewData2(std::string Path) noexcept;
-		void			UpdateAfterbyJson(void) noexcept;
+		void			UpdateAfterbyJson(void) noexcept override;
 	};
 };

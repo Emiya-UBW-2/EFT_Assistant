@@ -19,3 +19,5 @@ Ergonomics=-8.000000
 SightRange=2000
 sightZooms=25.000000
 sightZooms=5.000000
+Name_Jpn=Schmidt & Bender PM II 5-25x56 34mm riflescope
+Information_Jpn=The Schmidt & Bender PM II 5-25x56 riflescope was originally created for elite military forces for high-quality target acquisition and pinpoint accuracy.

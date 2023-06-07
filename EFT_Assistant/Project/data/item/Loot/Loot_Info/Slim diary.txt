@@ -10,3 +10,5 @@ Sell_Fence=28400
 Sell_Peacekeeper=264
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=ポケットダイアリー
+Information_Jpn=様々な人物の氏名や住所、電話番号といった個人情報が記されたポケットサイズの手帳。この情報を欲しがる者もいるだろう。

@@ -12,3 +12,5 @@ Sell_Ragman=120125
 Sell_Jaeger=116250
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
+Name_Jpn=CQC Osprey MK4A プレートキャリア (Protection, MTP)
+Information_Jpn=イギリス軍や特殊部隊によって使用されているOspreyプレートキャリア。Protectionセットには頑丈な防弾プレートの上に弾薬やグレネード、特殊装備を収納できるポーチが十分な数備わっている。

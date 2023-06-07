@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-30.000002
 Ergonomics=5.000000
 accuracyModifier=0.000000
+Name_Jpn=HK Slim Line ストック
+Information_Jpn=A telescoping stock from the Slim Line series, designed and manufactured by Heckler & Koch.

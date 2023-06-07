@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-34.000000
 Ergonomics=6.000000
 accuracyModifier=0.000000
+Name_Jpn=MP-133/153 wooden stock
+Information_Jpn=MP-133とMP-153用のIzhmekh製 ラバーバットプレート付きの木製ストック。

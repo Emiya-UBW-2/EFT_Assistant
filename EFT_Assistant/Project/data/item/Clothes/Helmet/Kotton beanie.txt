@@ -12,3 +12,5 @@ Sell_Peacekeeper=89
 Sell_Ragman=14883
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Kotton ビーニー
+Information_Jpn=A knitted "Kotton" brand beanie. Warm and faaaaancy.

@@ -11,3 +11,5 @@ Sell_Fence=4853
 Sell_Jaeger=7280
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink
+Name_Jpn=デビルドッグ マヨネーズ
+Information_Jpn=タルコフでは名の知れた "デビルドッグ" ブランドのマヨネーズ。茹でたジャガイモと一緒に使うのがおすすめ。

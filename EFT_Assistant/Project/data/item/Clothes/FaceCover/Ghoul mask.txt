@@ -57,3 +57,5 @@ Conflict=[
 	Beanie/|
 	Ushanka ear flap hat
 ]
+Name_Jpn=Ghoul mask
+Information_Jpn=A rubber mask of a Ghoul. If you want to terrify Scavs and make them look for new pants, this mask is for you.

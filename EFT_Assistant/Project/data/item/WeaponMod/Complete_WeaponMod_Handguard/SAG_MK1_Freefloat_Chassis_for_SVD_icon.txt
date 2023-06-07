@@ -127,3 +127,5 @@ Conflict=[
 Recoil=-3.000000
 Ergonomics=11.000000
 accuracyModifier=0.000000
+Name_Jpn=SVD SAG MK1 chassis
+Information_Jpn=The MK1 Freefloat modular chassis with KeyMod slots designed for SVD rifles for installation of various optics and tactical devices. Requires a custom-cut dust cover to fit on to the weapon. Manufactured by Sureshot Armament Group.

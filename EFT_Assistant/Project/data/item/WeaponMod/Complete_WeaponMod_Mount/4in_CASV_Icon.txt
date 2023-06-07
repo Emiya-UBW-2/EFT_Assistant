@@ -38,3 +38,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=Vltor CASV 4 inch rail
+Information_Jpn=The Vltor CASV 4 inch rail allows installation of additional equipment on the handguards with the standard CASV interface.

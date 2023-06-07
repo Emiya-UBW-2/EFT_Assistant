@@ -36,3 +36,5 @@ Ergonomics=-3.000000
 SightRange=800
 sightZooms=1.000000
 sightZooms=4.000000
+Name_Jpn=Burris FullField TAC30 1-4x24 30mm riflescope
+Information_Jpn=The TAC30 offers a very wide field of view, and 1x magnification at the lower end - making for easy, fast target acquisition. The 4x full zoom and Ballistic CQ reticle make shots out to about 300 yards very practical. The illuminated center dot and large, bright circle allow for instant target engagement at close distances.

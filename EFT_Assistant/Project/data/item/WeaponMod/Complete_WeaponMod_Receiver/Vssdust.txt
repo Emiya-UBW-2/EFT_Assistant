@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=2.000000
 accuracyModifier=0.000000
+Name_Jpn=VSS Vintrez用 ダストカバー
+Information_Jpn=A standard-issue dust cover for VSS Vintorez sniper rifles, manufactured by TsNIITochMash.

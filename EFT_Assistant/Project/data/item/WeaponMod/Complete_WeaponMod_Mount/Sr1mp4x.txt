@@ -80,3 +80,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=SR-1MP quad rail mount
+Information_Jpn=A mount for the SR-1MP pistol that forms four guide rails, allowing installation of the sound suppressor.

@@ -12,3 +12,5 @@ Sell_Fence=20800
 Sell_Skier=25480
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Dr. Lupo's コーヒー豆
+Information_Jpn=有名な Dr. Lupo の巨大なコーヒー豆。本当にどデカいんだって！徹底的に焙煎されているし、間違いなく強烈な味がするだろう。

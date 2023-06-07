@@ -12,3 +12,5 @@ Sell_Mechanic=56000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=1
+Name_Jpn=TerraGroup Labs アクセスキーカード
+Information_Jpn=United Securityが発行したTerraGroup Labsに入るためのキーカード。一度しか使用できない。

@@ -30,3 +30,4 @@ containsItems=[
 	Armacon Baskak stockx1/|
 	MPX single latch charging handlex1
 ]
+Name_Jpn=SIG MPX 9x19 submachine gun 消音

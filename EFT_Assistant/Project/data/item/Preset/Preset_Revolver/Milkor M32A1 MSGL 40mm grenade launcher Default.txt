@@ -21,3 +21,4 @@ containsItems=[
 	M32A1 40mm cylinderx1/|
 	Milkor M2A1 grenade launcher reflex sightx1
 ]
+Name_Jpn=M32A1 MSGL 40mm grenade launcher デフォルト

@@ -19,3 +19,5 @@ ChildParts=[
 Recoil=-10.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=PP-91-01 "Kedr-B" threaded suppressor adapter
+Information_Jpn=A muzzle thread piece for the PP-91-01 "Kedr-B" submachine gun with an expansion chamber, allows installation of sound suppressors.

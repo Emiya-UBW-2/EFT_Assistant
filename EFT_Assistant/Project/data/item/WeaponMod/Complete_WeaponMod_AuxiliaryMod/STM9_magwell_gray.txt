@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=5.000000
 accuracyModifier=0.000000
+Name_Jpn=STM-9 magwell (Grey)
+Information_Jpn=A regular magazine well for the Soyuz-TM STM-9 carbine. Grey version.

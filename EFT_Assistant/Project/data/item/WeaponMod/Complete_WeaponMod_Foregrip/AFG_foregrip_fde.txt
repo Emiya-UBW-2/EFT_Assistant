@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-2.000000
 Ergonomics=6.000000
 accuracyModifier=0.000000
+Name_Jpn=Magpul AFG tactical foregrip (FDE)
+Information_Jpn=The Magpul AFG (Angled Fore Grip) tactical grip enables a more natural grip against the barrel axis. Thanks to that, recoil is reduced and weapon control is improved. Flat Dark Earth version.

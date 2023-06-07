@@ -12,3 +12,5 @@ Sell_Fence=2000
 Sell_Jaeger=3000
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=金属製のスペアパーツ
+Information_Jpn=金属製の技術部品、クランプ、スペーサーなどを集めたもの。機械や装置の組み立て、修理の際にはとても役立つはずだ。

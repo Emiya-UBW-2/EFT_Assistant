@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-7.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=RFB 7.62x51 flash hider
+Information_Jpn=A standard bird cage flash hider designed for installation on RFB 7.62x51 rifles. Manufactured by Kel-Tec.

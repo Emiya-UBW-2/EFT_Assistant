@@ -17,3 +17,5 @@ Recoil=0.000000
 Ergonomics=0.000000
 SightRange=200
 sightZooms=1.000000
+Name_Jpn=Glock 19X front sight
+Information_Jpn=A standard-issue front sight for the Glock 19X pistol.

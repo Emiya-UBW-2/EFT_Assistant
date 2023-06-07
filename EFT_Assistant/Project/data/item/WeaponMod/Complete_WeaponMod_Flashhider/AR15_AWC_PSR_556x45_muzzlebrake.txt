@@ -20,3 +20,5 @@ ChildParts=[
 Recoil=-10.000000
 Ergonomics=-1.000000
 accuracyModifier=0.010000
+Name_Jpn=AR-15 AWC PSR 5.56x45 muzzle brake
+Information_Jpn=PSR is an effective muzzle brake manufactured by AWC Silencers for 5.56x45. Reduces recoil and counters the muzzle rise. The brake is threaded and compatible with AWC PSR THOR sound suppressors.

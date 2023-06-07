@@ -87,3 +87,5 @@ ChildParts=[
 Recoil=-1.000000
 Ergonomics=3.000000
 accuracyModifier=0.000000
+Name_Jpn=AKS-74U Zenit B-11 handguard
+Information_Jpn=The integrally machined B-11 foregrip is manufactured from aluminum alloy D16T with black coating and can be installed instead of the standard-issue foregrip on the AKS-74U. The foregrip is fitted with Picatinny rail mounts on three sides, allowing for the installation of additional equipment such as tactical foregrips, flashlights, and laser designators. Manufactured by Zenit.

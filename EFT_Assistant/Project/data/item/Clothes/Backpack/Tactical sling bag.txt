@@ -11,3 +11,5 @@ Sell_Ragman=1142
 Sell_Jaeger=1105
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
+Name_Jpn=タクティカルスリングバッグ
+Information_Jpn=通勤やお出かけにピッタリで毎日使えるバッグ。

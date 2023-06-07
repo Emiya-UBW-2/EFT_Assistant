@@ -54,3 +54,5 @@ cameraRecoil=0.019800
 cameraSnap=3.000000
 deviationMax=11
 convergence=5.800000
+Name_Jpn=Chiappa Rhino 50DS .357 revolver
+Information_Jpn=The Rhino revolvers, manufactured by the Italian company Armi Chiappa, are distinguished by a revolutionary patented design and construction with an unusual barrel arrangement for revolvers opposite the lower drum chamber.

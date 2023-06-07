@@ -11,3 +11,5 @@ Sell_Fence=3573
 Sell_Jaeger=5360
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink
+Name_Jpn=マックスエナジー
+Information_Jpn=エナジードリンク "マックスエナジー" は電池のようなデザインをしているが、中身はいたって普通のカフェイン、砂糖、香料で出来ている。

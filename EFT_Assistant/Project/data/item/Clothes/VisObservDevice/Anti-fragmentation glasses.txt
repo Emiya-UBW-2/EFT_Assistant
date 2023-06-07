@@ -12,3 +12,5 @@ Sell_Peacekeeper=8
 Sell_Ragman=1352
 fleaMarketFee=0
 propertiestype=ItemPropertiesGlasses
+Name_Jpn=耐破片用ゴーグル
+Information_Jpn=These anti-fragmentation glasses are designed to protect the eyes and part of user's face from shell fragments, drops of chemically aggressive liquids and oils, coarsely dispersed aerosols, thermal factors, atmospheric influences, and mechanical damages in all types of combat operations and during daily activities.

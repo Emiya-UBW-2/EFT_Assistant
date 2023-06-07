@@ -11,3 +11,5 @@ Sell_Ragman=6979
 Sell_Jaeger=6754
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
+Name_Jpn=Flyye MBSS backpack
+Information_Jpn=An extra durable backpack made from 1000D Cordura with a separate pocket for a water bladder and a MOLLE attachment system on the sides.

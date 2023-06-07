@@ -27,3 +27,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=6.000000
 accuracyModifier=0.000000
+Name_Jpn=AK TDI AKM-L handguard (Anodized Bronze)
+Information_Jpn=The TDI Arms AKM-L can be installed on AKM/AK-74 compatible weapon systems. Equipped with M-LOK mounts for installation of additional devices or rails. Anodized Bronze version.

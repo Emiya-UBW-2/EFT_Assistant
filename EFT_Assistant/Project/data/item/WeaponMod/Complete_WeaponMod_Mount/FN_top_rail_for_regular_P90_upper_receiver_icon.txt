@@ -88,3 +88,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=FN P90 upper receiver top rail
+Information_Jpn=The FN top rail allows installation of additional equipment on the FN P90 standard upper receivers.

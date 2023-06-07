@@ -32,3 +32,5 @@ Recoil=-4.000000
 Ergonomics=-4.000000
 centerOfImpact=0.300000
 deviationMax=11
+Name_Jpn=Glock 9x19 Lone Wolf AlphaWolf threaded barrel
+Information_Jpn=A threaded barrel for 9x19 pistols of the Glock family. Manufactured by Lone Wolf.

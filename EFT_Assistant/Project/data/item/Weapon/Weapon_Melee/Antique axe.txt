@@ -13,3 +13,5 @@ propertiestype=ItemPropertiesMelee
 slashDamage=28
 stabDamage=49
 hitRadius=0.450000
+Name_Jpn=アンティークの斧
+Information_Jpn=持ち手の折れたアンティーク斧。WYCCと呼ばれる古のハチェットマン達が使用していた。

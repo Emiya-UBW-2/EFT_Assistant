@@ -25,3 +25,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=3.000000
 accuracyModifier=0.000000
+Name_Jpn=HK USP Tactical .45 ACP pistol slide
+Information_Jpn=A pistol slide for the special version of the USP45 pistol - USP45 Tactical, manufactured by Heckler & Koch.

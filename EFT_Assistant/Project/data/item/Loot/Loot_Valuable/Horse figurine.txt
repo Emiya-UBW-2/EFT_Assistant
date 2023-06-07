@@ -12,3 +12,5 @@ Sell_Skier=5609
 Sell_Peacekeeper=43
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=ウマの置物
+Information_Jpn=おそろしく安っぽい作りの馬の置物。タルコフでは ‐ 他の場所でも ‐ 何の役にも立たないはずだが、こんなものでも買い手がつくのだから理解に苦しむ。

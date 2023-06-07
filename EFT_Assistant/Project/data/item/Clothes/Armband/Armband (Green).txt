@@ -11,3 +11,5 @@ Sell_Skier=258
 Sell_Ragman=326
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Armband (Green)
+Information_Jpn=A green identification armband.

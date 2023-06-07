@@ -144,3 +144,5 @@ Conflict=[
 Recoil=-3.000000
 Ergonomics=2.000000
 accuracyModifier=0.000000
+Name_Jpn=SOK-12 Leapers UTG PRO MTU002 Long Top aluminum handguard
+Information_Jpn=The UTG PRO MTU002 Long Top Tactical Quad Rail is a lightweight aircraft grade aluminum handguard with a sling swivel, designed for installation on Saiga carbines. Manufactured by Leapers Inc.

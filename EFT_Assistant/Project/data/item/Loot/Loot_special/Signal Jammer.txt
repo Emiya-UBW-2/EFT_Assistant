@@ -11,3 +11,5 @@ Sell_Peacekeeper=65
 Sell_Mechanic=9789
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=シグナルジャマー
+Information_Jpn=組み立てられた電波妨害装置。特定の周波数の電波を送出することで電波障害を起こし、データ通信を妨害する。

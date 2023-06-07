@@ -11,3 +11,5 @@ Sell_Ragman=54560
 Sell_Jaeger=52800
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
+Name_Jpn=Mystery Ranch Blackjack 50 backpack (Multicam)
+Information_Jpn=A backpack made for long and successful raids, manufactured by Mystery Ranch.

@@ -11,3 +11,5 @@ Sell_Fence=3564
 Sell_Jaeger=5347
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink
+Name_Jpn=キビナゴの缶詰
+Information_Jpn=Alconafter社の美味しいキビナゴ缶詰。

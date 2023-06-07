@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=7.000000
 accuracyModifier=0.000000
+Name_Jpn=Mossberg 590A1 SpeedFeed short handguard
+Information_Jpn=A polymer handguard made for the Mossberg 590A1 pump-action shotgun.

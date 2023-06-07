@@ -56,3 +56,5 @@ Conflict=[
 	Team Wendy EXFIL Ballistic face shield (Coyote Brown)/|
 	Vulkan-5 face shield
 ]
+Name_Jpn=Pestily ペストマスク
+Information_Jpn=ペスト医師のPestilyが着けていたマスクの復元品。珍しい品物で恐ろしい見た目をしており、タルコフではカルト集団が着用している。

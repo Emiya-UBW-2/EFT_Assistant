@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=6.000000
 accuracyModifier=0.000000
+Name_Jpn=AK bakelite pistol grip
+Information_Jpn=A bakelite pistol grip for AK assault rifles and compatible weapon systems, manufactured by Molot Arms.

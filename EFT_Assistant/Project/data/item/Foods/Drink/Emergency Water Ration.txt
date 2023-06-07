@@ -11,3 +11,5 @@ Sell_Fence=6880
 Sell_Jaeger=10320
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink
+Name_Jpn=非常用備蓄水
+Information_Jpn=災害時や緊急時などの水分補給に使用する飲料水。数年間保存できる。

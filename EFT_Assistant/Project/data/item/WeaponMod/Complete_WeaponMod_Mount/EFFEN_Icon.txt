@@ -38,3 +38,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=FN P90 EFFEN 90 receiver rail
+Information_Jpn=The EFFEN 90 rail allows installation of additional tactical equipment on the handguard of the same name.

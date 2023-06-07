@@ -11,3 +11,5 @@ Sell_Skier=438
 Sell_Ragman=554
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Armband (Red)
+Information_Jpn=A red identification armband.

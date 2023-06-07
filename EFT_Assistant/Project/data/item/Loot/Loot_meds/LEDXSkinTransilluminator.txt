@@ -11,3 +11,5 @@ Sell_Fence=388000
 Sell_Jaeger=582000
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=LEDX 静脈発見器
+Information_Jpn=皮膚の上から静脈の位置を正確に把握するために設計された医療機器。

@@ -13,3 +13,5 @@ Sell_Peacekeeper=119
 Sell_Mechanic=17920
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=壊れた GPhone X
+Information_Jpn=Wepple がスマートフォン市場で発売した最後の製品。壊れていて使用することはできないが、中には有用な部品が詰まっている。

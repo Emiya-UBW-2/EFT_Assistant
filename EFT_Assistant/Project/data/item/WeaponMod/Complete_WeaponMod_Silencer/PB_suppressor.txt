@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-12.000000
 Ergonomics=-21.000000
 accuracyModifier=0.000000
+Name_Jpn=PB 9x18PM sound suppressor
+Information_Jpn=A standard-issue detachable sound suppressor for the PB pistol.

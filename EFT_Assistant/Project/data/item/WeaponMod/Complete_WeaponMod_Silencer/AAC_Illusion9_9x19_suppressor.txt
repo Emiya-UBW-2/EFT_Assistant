@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-7.000000
 Ergonomics=-15.000000
 accuracyModifier=0.020000
+Name_Jpn=AAC Illusion 9 9x19 sound suppressor
+Information_Jpn=Illusion 9 is a compact, high performance sound suppressor for modern 9mm semi-automatic pistols. Manufactured by Advanced Armament Corporation.

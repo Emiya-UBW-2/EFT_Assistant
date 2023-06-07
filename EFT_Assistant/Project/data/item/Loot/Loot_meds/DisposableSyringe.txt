@@ -11,3 +11,5 @@ Sell_Fence=1200
 Sell_Jaeger=1800
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=使い捨て注射器
+Information_Jpn=個別包装された滅菌済みのシリンジ。

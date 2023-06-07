@@ -19,3 +19,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=2.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 Colt M4 Carbine Length handguard
+Information_Jpn=A carbine length handguard manufactured by Colt, a standard-issue handguard for the M4A1 assault rifles.

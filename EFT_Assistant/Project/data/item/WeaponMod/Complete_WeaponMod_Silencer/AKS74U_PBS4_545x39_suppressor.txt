@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-10.000000
 Ergonomics=-25.000000
 accuracyModifier=0.000000
+Name_Jpn=AKS-74U PBS-4 5.45x39 sound suppressor
+Information_Jpn=The PBS-4 (Pribór Besshúmnoy Strel'bý - "Silent Firing Device") sound suppressor, manufactured by TsNIITochMash for use as a part of the "Canary" assault rifle grenade launcher system.

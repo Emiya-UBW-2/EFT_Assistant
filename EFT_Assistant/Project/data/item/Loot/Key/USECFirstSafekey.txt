@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Lighthouse
+Name_Jpn=USEC first safe key
+Information_Jpn=A key to the safe that belonged to one of the USEC operatives stationed in the roadside cottage area.

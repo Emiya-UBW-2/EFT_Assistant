@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=7.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 Colt M4 Carbine Length lower handguard
+Information_Jpn=A carbine length lower handguard part manufactured by Colt, a standard-issue handguard for the M4A1 assault rifles.

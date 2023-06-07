@@ -42,3 +42,5 @@ sightZooms=3.000000
 sightZooms=3.000000
 sightZooms=10.000000
 sightZooms=10.000000
+Name_Jpn=KMZ 1P69 3-10x ライフルスコープ
+Information_Jpn=The 1P69 "Giperon" pancratic sight is a further development of the "Giperon" sights and is intended for installation on the SV-98 sniper rifle in order to increase the effectiveness on the battlefield. The sight has a flexible adjustment multiples, as well as a fairly accurate range finder, facilitating the operation of combining, measuring the distance to the target and entering the aiming angles.

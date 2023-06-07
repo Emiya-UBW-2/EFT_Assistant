@@ -36,3 +36,5 @@ ChildParts=[
 Recoil=-2.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=AKM/AK-74 ME4 buffer tube adapter
+Information_Jpn=An adapter for the installation of telescopic stock buffer tubes on AKs with non-folding stocks.

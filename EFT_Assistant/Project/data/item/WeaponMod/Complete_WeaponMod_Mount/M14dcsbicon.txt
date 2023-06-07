@@ -76,3 +76,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=M14 SAGE International DCSB mount
+Information_Jpn=The M14 DCSB (Detachable Cantilevered Sight Base) mount for M14 rifles, manufactured by SAGE International. It has a Weaver-type rail for mounting various different sights. Can only be installed on the EBR chassis.

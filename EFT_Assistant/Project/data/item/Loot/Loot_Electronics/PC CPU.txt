@@ -13,3 +13,5 @@ Sell_Peacekeeper=52
 Sell_Mechanic=7791
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=CPU
+Information_Jpn=パーソナルコンピュータの中央処理装置。最近のタルコフでは正常に動作するPCも少ないため、アンテナに取り付ける電波妨害装置の部品として使われることもある。

@@ -24,3 +24,4 @@ containsItems=[
 	HK MP5 3-lug thread protectorx1/|
 	HK MP5 cocking handlex1
 ]
+Name_Jpn=HK MP5 9x19 submachine gun (Navy 3 Round Burst) デフォルト

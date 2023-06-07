@@ -12,3 +12,5 @@ Sell_Peacekeeper=25
 Sell_Ragman=4154
 fleaMarketFee=0
 propertiestype=ItemPropertiesGlasses
+Name_Jpn=レイベンチ アビエイターグラス
+Information_Jpn=Legendary mercenary glasses around the world. Wear them if you want to be cool, like Vovan from the hood.

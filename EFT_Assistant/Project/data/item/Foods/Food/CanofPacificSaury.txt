@@ -11,3 +11,5 @@ Sell_Fence=3422
 Sell_Jaeger=5133
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink
+Name_Jpn=サンマの缶詰
+Information_Jpn=サンマの燻製の缶詰は良質なたんぱく質や脂肪酸を摂取できるため、レーションに加える一品としても優れている。

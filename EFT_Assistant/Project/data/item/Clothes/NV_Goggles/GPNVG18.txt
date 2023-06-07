@@ -24,3 +24,5 @@ noiseIntensity=0.020000
 noiseScale=5.000000
 diffuseIntensity=0.023000
 intensity=2.270000
+Name_Jpn=GPNVG-18 Night Vision goggles
+Information_Jpn=The GPNVG-18 (Ground Panoramic Night Vision Goggle) panoramic night vision goggles. The cardinal difference of this NVG from the others is the presence of four separate image intensifier tubes, two for each eye. Two Central IITs are directed forward, while two more are directed outward from the center. This innovative solution allowed to expand the field of view to 97 degrees.

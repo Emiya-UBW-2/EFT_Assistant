@@ -13,3 +13,5 @@ propertiestype=ItemPropertiesMelee
 slashDamage=31
 stabDamage=52
 hitRadius=0.450000
+Name_Jpn=クラッシュアックス
+Information_Jpn=硬質の表面にも対応できるよう設計されたツール。素材と構造を工夫することで最適な衝撃力と強度を兼ね備えている。斧の頭部は厚さ2.85インチの6AL4Vチタン製。

@@ -47,3 +47,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=9.000000
 accuracyModifier=0.000000
+Name_Jpn=MCX GEN1 KeyMod 8 inch handguard
+Information_Jpn=A first-gen 8 inch handguard for the MCX assault rifle, equipped with a KeyMod interface for attaching additional equipment. Manufactured by SIG Sauer.

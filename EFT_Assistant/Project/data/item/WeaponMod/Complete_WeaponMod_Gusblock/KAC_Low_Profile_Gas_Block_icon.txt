@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-2.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-10 KAC Low Profile Gas Block
+Information_Jpn=A low-profile gas block designed for use in SR-25 marksman rifles and AR-10 compatible weapon systems. Manufactured by Knight's Armament Company.

@@ -19,3 +19,5 @@ capacity=42
 loadModifier=0.000000
 ammoCheckModifier=0.000000
 malfunctionChance=0.080000
+Name_Jpn=Steyr AUG 5.56x45 42-round magazine
+Information_Jpn=A 42-round polymer Steyr AUG magazine, for 5.56x45 ammunition.

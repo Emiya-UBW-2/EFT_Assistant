@@ -12,3 +12,5 @@ Sell_Fence=3193
 Sell_Skier=3912
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=ウィルストン シガレット
+Information_Jpn=ストリートパンクといえば "ウィルストン" の紙巻たばこを抜きにしては語れないだろう。

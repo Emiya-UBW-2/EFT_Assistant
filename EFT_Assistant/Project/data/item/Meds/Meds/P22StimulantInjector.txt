@@ -56,3 +56,5 @@ stimEffectsduration=60
 stimEffectsvalue=-0.800000
 stimEffectspercent=FALSE
 stimEffectsSkiilName=
+Name_Jpn=P22 (Product 22) の注射器
+Information_Jpn=A combat stimulant. Developed by TerraGroup Labs, marked as P22. It allows the tissues of the body to receive less damage when physically exposed due to passive inclusion in the work of internal muscles. It is used to expand the body's abilities before a fight. Authorized for use by special forces soldiers. Has side effects.

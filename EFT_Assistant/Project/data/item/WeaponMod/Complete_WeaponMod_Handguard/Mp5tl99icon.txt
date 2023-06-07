@@ -86,3 +86,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=6.000000
 accuracyModifier=0.000000
+Name_Jpn=HK MP5 B&T TL-99 aluminum handguard
+Information_Jpn=An aluminum handguard for the MP5 SMGs, manufactured by Brügger & Thomet. Equipped with 3 rail mounts for the installation of additional devices.

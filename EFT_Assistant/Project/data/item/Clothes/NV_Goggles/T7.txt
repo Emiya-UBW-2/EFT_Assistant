@@ -14,3 +14,5 @@ Sell_Mechanic=268800
 Sell_Jaeger=288000
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=T-7 Thermal Goggles with a Night Vision mount
+Information_Jpn=The T-7 thermal imaging binocular/goggles takes a clever approach to individual soldier imaging systems. The T-7 thermal binocular brings the best features of the night vision goggles and adapted them into a full function thermal imager. Requires adapters to fit on helmets.

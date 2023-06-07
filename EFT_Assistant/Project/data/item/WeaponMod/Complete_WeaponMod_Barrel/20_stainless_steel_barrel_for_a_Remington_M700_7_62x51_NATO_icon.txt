@@ -47,3 +47,5 @@ Recoil=-4.000000
 Ergonomics=-10.000000
 centerOfImpact=0.024000
 deviationMax=33
+Name_Jpn=M700 7.62x51 20 inch stainless steel threaded barrel
+Information_Jpn=A 20 inches (508mm) long stainless steel threaded barrel for the Remington Model 700 sniper rifle chambered in 7.62x51 NATO ammo.

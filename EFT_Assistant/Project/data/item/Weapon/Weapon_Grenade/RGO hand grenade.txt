@@ -11,3 +11,5 @@ Sell_Fence=4320
 Sell_Skier=5292
 fleaMarketFee=0
 propertiestype=ItemPropertiesGrenade
+Name_Jpn=RGO hand grenade
+Information_Jpn=RGO (Ruchnaya Granata Oboronitel'naya - "Defensive Hand Grenade") is a defensive anti-personnel fragmentation hand grenade of impact action.

@@ -13,3 +13,5 @@ Sell_Peacekeeper=260
 Sell_Ragman=43400
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmor
+Name_Jpn=DRD body armor
+Information_Jpn=A light but durable and reliable body armor. Special edition from the one and only Dr. Disrespect. Ruthless!

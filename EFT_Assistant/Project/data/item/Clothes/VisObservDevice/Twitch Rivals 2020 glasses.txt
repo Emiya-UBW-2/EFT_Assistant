@@ -12,3 +12,5 @@ Sell_Peacekeeper=95
 Sell_Ragman=15872
 fleaMarketFee=0
 propertiestype=ItemPropertiesGlasses
+Name_Jpn=Twitch Rivals 2020 グラス
+Information_Jpn=Special glasses from the Twitch Rivals 2020 event.

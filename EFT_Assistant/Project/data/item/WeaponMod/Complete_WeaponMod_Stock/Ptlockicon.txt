@@ -21,3 +21,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=AK-74M/AK-100 Zenit PT Lock
+Information_Jpn=The lock is designed to install the PT-1 and PT-3 stocks to a weapon. This model is designed for installation on the AK-74M and AK-100-series assault rifles. Manufactured by Zenit.

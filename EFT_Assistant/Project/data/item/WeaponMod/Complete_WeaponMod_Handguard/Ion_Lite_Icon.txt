@@ -78,3 +78,5 @@ Conflict=[
 Recoil=-1.000000
 Ergonomics=11.000000
 accuracyModifier=0.010000
+Name_Jpn=AR-15 Lone Star Ion Lite handguard
+Information_Jpn=The Ion Lite lightweight handguard by Lone Star Armory, designed for use with sport rifles based on the AR-15 platform.

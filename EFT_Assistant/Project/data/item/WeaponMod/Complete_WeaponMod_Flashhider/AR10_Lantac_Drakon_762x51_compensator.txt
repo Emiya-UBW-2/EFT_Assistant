@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-15.000001
 Ergonomics=-2.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-10 Lantac Drakon 7.62x51 muzzle brake-compensator
+Information_Jpn=The Drakon muzzle brake by Lantac is designed for installation on 7.62x51mm weapon systems. Reduces recoil and counters the muzzle climb.

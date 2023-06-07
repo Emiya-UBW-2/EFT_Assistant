@@ -20,3 +20,5 @@ sightZooms=1.000000
 sightZooms=1.000000
 sightZooms=1.000000
 sightZooms=1.000000
+Name_Jpn=Walther MRS リフレックスサイト
+Information_Jpn=The Walther MRS (Multi-Reticle Sight) reflex sight features 2 dots and 2 reticles with adjustable brightness levels. Cheap, accurate (but has to be zeroed every time the reticle type is switched), compact and offers good battery life - but not too sturdy and reliable.

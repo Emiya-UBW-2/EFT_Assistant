@@ -33,3 +33,4 @@ containsItems=[
 	12/70 "Poleva-3" slugx10/|
 	12/70 makeshift .50 BMG slugx10
 ]
+Name_Jpn=Saiga 12ga ver.10 12/76 semi-automatic shotgun NERFGUN

@@ -36,3 +36,5 @@ Conflict=[
 	Ops-Core SLAAP armor helmet plate (Tan)/|
 	Team Wendy EXFIL Ballistic face shield (Black)
 ]
+Name_Jpn=Tac-Kek Heavy Trooper mask for Ops-Core-type helmets
+Information_Jpn=The Tac-Kek Heavy Trooper mask is an additional ballistic module for Ops-Core-type helmets, based on the famous movie universe. This is the way.

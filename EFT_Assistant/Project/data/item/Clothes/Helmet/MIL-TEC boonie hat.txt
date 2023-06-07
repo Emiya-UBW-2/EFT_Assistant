@@ -12,3 +12,5 @@ Sell_Peacekeeper=8
 Sell_Ragman=1345
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=MIL-TEC boonie hat
+Information_Jpn=MIL-TEC-produced boonie hat, which can be used for protection from the sun. Or you can operate wearing it like a true SEAL Team Six operator.

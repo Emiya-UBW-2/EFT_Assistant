@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=5.000000
 accuracyModifier=0.000000
+Name_Jpn=SVDS pistol grip
+Information_Jpn=An Izhmash pistol grip for SVDS and compatible weapon systems.

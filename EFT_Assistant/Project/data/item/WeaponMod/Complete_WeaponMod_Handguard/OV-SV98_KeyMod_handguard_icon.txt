@@ -38,3 +38,5 @@ Conflict=[
 Recoil=-2.000000
 Ergonomics=9.000000
 accuracyModifier=0.000000
+Name_Jpn=SV-98 CNC Guns OV-SV98 KeyMod handguard
+Information_Jpn=CNC Guns Keymod System aircraft-grade aluminum handguard for the OV-SV98 stock with KeyMod slots for rail installation.

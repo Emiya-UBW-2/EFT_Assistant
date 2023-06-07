@@ -17,3 +17,5 @@ Recoil=0.000000
 Ergonomics=0.000000
 SightRange=300
 sightZooms=1.000000
+Name_Jpn=FN SCAR flip-up front sight
+Information_Jpn=A removable flip-up front sight for the SCAR-series assault rifles, installed on the gas block. Manufactured by Fabrique Nationale Herstal.

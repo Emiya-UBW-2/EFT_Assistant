@@ -63,3 +63,5 @@ ChildParts=[
 Recoil=-4.500000
 Ergonomics=10.000000
 accuracyModifier=0.000000
+Name_Jpn=AK TROY Full Length Rail handguard & gas tube combo
+Information_Jpn=The Full Length Rail handguard and gas tube combo. The cooling holes allow the rail to run cool, even after extended firing. Machined from hardened aircraft aluminum with stainless steel components and finished in MIL-SPEC hardcoat anodizing. Features a 5 inch top rail for installation of optics and tactical devices. Manufactured by TROY Industries.

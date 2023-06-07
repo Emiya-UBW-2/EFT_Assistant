@@ -8,3 +8,5 @@ height=2
 weight=0.800000
 fleaMarketFee=0
 propertiestype=ItemPropertiesContainer
+Name_Jpn=セキュアコンテナ Beta
+Information_Jpn=A medium-sized secure container used by PMCs formerly deployed in Tarkov.

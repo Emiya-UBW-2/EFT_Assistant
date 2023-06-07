@@ -12,3 +12,5 @@ Sell_Fence=5696
 Sell_Skier=6977
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=銃器のパーツ
+Information_Jpn=銃器の部品を集めたもの。壊れたパーツの交換や、手製の武器を製作する際に必要だ。

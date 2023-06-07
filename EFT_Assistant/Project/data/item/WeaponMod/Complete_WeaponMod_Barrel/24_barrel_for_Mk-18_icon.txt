@@ -35,3 +35,5 @@ Recoil=-4.000000
 Ergonomics=-12.000000
 centerOfImpact=0.017000
 deviationMax=30
+Name_Jpn=Mk-18 .338 LM 24 inch barrel
+Information_Jpn=A 24 inch (610mm) barrel for Mk-18 .338 LM sniper rifle, manufactured by SWORD International.

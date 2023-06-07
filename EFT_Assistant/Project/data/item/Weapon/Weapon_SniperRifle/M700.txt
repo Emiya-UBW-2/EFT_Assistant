@@ -56,3 +56,5 @@ cameraRecoil=0.144000
 cameraSnap=3.500000
 deviationMax=33
 convergence=1.500000
+Name_Jpn=Remington Model 700 7.62x51 bolt-action sniper rifle
+Information_Jpn=The Remington Model 700 is a series of bolt-action centerfire rifles manufactured by Remington Arms since 1962.

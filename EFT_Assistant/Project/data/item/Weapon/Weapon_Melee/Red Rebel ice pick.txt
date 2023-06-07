@@ -13,3 +13,5 @@ propertiestype=ItemPropertiesMelee
 slashDamage=29
 stabDamage=35
 hitRadius=0.600000
+Name_Jpn=Red Rebel ice pick
+Information_Jpn=完璧にバランスの取れたアイスピックで、先端は一枚の硬化金属でできている。

@@ -11,3 +11,5 @@ Sell_Skier=357
 Sell_Ragman=451
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Armband (White)
+Information_Jpn=A white identification armband.

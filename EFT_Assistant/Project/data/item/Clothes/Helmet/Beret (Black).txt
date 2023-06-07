@@ -12,3 +12,5 @@ Sell_Peacekeeper=6
 Sell_Ragman=930
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Beret (Black)
+Information_Jpn=ただの黒いベレー帽

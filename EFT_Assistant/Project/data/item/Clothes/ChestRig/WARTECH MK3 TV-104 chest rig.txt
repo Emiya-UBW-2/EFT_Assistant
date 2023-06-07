@@ -12,3 +12,5 @@ Sell_Ragman=22913
 Sell_Jaeger=22174
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
+Name_Jpn=WARTECH MK3 TV-104 chest rig
+Information_Jpn=This chest rig platform is designed for placing equipment in the chest and abdomen areas, with an open back. Includes integrated pouches, designed for 8 magazines. Can be used both separately and on top of the armor vest. Manufactured by WARTECH.

@@ -33,3 +33,5 @@ ChildParts=[
 Recoil=-1.000000
 Ergonomics=2.000000
 accuracyModifier=0.000000
+Name_Jpn=Glock Lone Wolf AlphaWolf pistol slide
+Information_Jpn=Lone Wolf社によって製造されているGlockシリーズ向けスライド。

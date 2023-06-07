@@ -12,3 +12,5 @@ Sell_Peacekeeper=10
 Sell_Ragman=1620
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=ハーフマスク
+Information_Jpn=布きれ、典型的なバンダナ。顔を半分覆うのはストリートギャングのステータスだ。

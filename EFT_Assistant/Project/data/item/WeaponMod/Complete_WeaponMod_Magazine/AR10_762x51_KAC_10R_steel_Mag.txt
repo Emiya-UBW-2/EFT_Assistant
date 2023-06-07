@@ -19,3 +19,5 @@ capacity=10
 loadModifier=0.000000
 ammoCheckModifier=0.000000
 malfunctionChance=0.050000
+Name_Jpn=AR-10 7.62x51 KAC 10-round steel magazine
+Information_Jpn=A 10-round double-stack steel magazine for 7.62x51 NATO cartridges. Manufactured by Knight's Armament Company.

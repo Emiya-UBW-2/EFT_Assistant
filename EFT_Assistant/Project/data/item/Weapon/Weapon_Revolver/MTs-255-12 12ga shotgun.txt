@@ -38,3 +38,5 @@ cameraRecoil=0.105600
 cameraSnap=3.500000
 deviationMax=11
 convergence=1.400000
+Name_Jpn=MTs-255-12 12ga shotgun
+Information_Jpn=MTs-255-12 is a unique for Russian market 12 gauge revolver shotgun.

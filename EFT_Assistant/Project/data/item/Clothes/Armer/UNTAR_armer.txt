@@ -13,3 +13,5 @@ Sell_Peacekeeper=149
 Sell_Ragman=24816
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmor
+Name_Jpn=MF-UNTAR body armor
+Information_Jpn=A class III body armor used by UN soldiers during the UNTAR mission in Tarkov.

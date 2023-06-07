@@ -12,3 +12,5 @@ Sell_Peacekeeper=45
 Sell_Ragman=7440
 fleaMarketFee=0
 propertiestype=ItemPropertiesGlasses
+Name_Jpn=NPP KlASS Condor glasses
+Information_Jpn=耐衝撃性の高いレンズを使用した頑丈なバリスティックシューティンググラス。

@@ -64,3 +64,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=MP-18 sight mount
+Information_Jpn=A RIS sight mount for the MP-18 rifles.

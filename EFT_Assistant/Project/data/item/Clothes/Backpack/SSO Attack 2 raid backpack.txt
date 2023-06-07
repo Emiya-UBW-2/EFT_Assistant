@@ -11,3 +11,5 @@ Sell_Ragman=43710
 Sell_Jaeger=42300
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
+Name_Jpn=SSO "Attack-2" レイドバックパック
+Information_Jpn=The 60-liter "Attack 2" raid backpack is intended for carrying personal belongings and equipment through tough field conditions.

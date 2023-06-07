@@ -13,3 +13,5 @@ Sell_Peacekeeper=40
 Sell_Mechanic=6060
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=電球形蛍光灯
+Information_Jpn=一般的な白熱電球と比べて発光効率（電力に対して光源から発する全光束の効率を評価する指標）が大幅に向上している省エネルギーの電球形蛍光灯。白熱電球と交換することで消費電力を抑え環境保護にも貢献できる。

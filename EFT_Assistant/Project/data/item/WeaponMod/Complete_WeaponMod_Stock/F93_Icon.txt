@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-30.000002
 Ergonomics=10.000000
 accuracyModifier=0.000000
+Name_Jpn=ERGO F93 PRO stock
+Information_Jpn=The F93 PRO telescoping stock, manufactured by ERGO.

@@ -12,3 +12,5 @@ Sell_Fence=25360
 Sell_Mechanic=35505
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=古いファイヤースチール
+Information_Jpn=火をおこすためのファイヤースチールだと思われる不思議な形をした道具。古びたアンティークの品だ。

@@ -19,3 +19,5 @@ capacity=8
 loadModifier=-0.150000
 ammoCheckModifier=-0.200000
 malfunctionChance=0.030000
+Name_Jpn=TT 7.62x25 tt-105 8-round magazine
+Information_Jpn=A standard late-issue 8-round magazine for the TT pistol. It comes without a lanyard ring.

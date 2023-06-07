@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-12.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=HK MP5 B&T QD 9x19 muzzle brake
+Information_Jpn=A muzzle brake for MP5-based weapons with a quick-detach lever for easy removal and installation. Manufactured by Brugger & Thomet.

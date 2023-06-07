@@ -24,3 +24,5 @@ Ergonomics=-3.000000
 SightRange=600
 sightZooms=1.500000
 sightZooms=1.000000
+Name_Jpn=Steyr AUG A1 STG77 1.5x optic sight
+Information_Jpn=STG77 is a standard optic sight for the AUG A1. The sight provides a 1.5x zoom and has an open non-removable ironsights in the upper part of the optics. Manufactured by Swarovski Optik.

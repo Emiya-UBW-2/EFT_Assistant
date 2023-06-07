@@ -20,3 +20,5 @@ Conflict=[
 Recoil=0.000000
 Ergonomics=7.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 ADAR 2-15 wooden handguard
+Information_Jpn=An SVD-style wooden handguard for ADAR 2-15 carbines.

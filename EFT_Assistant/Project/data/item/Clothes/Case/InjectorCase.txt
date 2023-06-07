@@ -11,3 +11,5 @@ Sell_Ragman=257300
 Sell_Jaeger=249000
 fleaMarketFee=0
 propertiestype=ItemPropertiesContainer
+Name_Jpn=インジェクターケース
+Information_Jpn=精神刺激薬や特殊な薬物のオートインジェクターを収納するためのケース。

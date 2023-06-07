@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-40.000000
 Ergonomics=17.000000
 accuracyModifier=0.000000
+Name_Jpn=VPO-215 "Gornostay" stock
+Information_Jpn=A standard-issue stock for the VPO-215 "Gornostay" rifle.

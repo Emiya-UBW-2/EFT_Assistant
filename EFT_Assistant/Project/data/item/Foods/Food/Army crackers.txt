@@ -11,3 +11,5 @@ Sell_Fence=960
 Sell_Jaeger=1441
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink
+Name_Jpn=軍用クラッカー
+Information_Jpn=ロシア軍の戦闘糧食にありがちな小分けされた塩味のクラッカー。

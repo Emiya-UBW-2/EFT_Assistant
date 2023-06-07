@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=11.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 F1 Firearms Skeletonized Style 1 pistol grip
+Information_Jpn=A lightweight ergonomical pistol grip for AR-15 weapon systems, manufactured by F1 Firearms.

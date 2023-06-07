@@ -13,3 +13,5 @@ Sell_Peacekeeper=1
 Sell_Mechanic=190
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=9x21mm PS gzh
+Information_Jpn=A 9x21mm Gyurza PS gzh (SP10, GRAU Index - 7N29) cartridge with a 6.7 gram armor-piercing bullet with a heat-strengthened steel core and a two-layer semi-jacket, a polyethylene interior and a bimetallic exterior, in a bimetallic case. This cartridge was designed in the 1990s by TsNIITochMash to provide superior penetration capabilities compared to its standard 9x19mm counterparts, being capable of piercing basic ballistic body protection equipment and some intermediate models, however, due to its design, it has a high probability of bouncing off various surfaces.

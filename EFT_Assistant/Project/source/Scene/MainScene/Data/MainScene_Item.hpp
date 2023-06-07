@@ -1310,8 +1310,66 @@ namespace FPS_n2 {
 	public:
 		void GetJsonSub(const nlohmann::json& data) noexcept override;
 		void OutputDataSub(std::ofstream& outputfile) noexcept override;
+	};
+	class ItemJpInfoData {
+	public:
+		bool										m_IsFileOpened{ false };
+		std::string									m_Path;
 
+		std::unique_ptr<std::thread>				m_SetJob{ nullptr };
+		bool										m_SetFinish{ false };
+	public:
+		std::string									m_id;
+		std::string									m_name_jp;
+		std::string									m_description_jp;
+	public:
+		const auto&	Getname_jp() const noexcept { return this->m_name_jp; }
+		const auto&	Getdescription_jp() const noexcept { return this->m_description_jp; }
+	public:
+		void GetJson(const nlohmann::json& data) noexcept {
+			m_IsFileOpened = false;
 
+			m_id = data["id"];
+			m_name_jp = data["name"];
+			m_description_jp = "";
+			if (data.contains("description")) {
+				if (!data["description"].is_null()) {
+					m_description_jp = data["description"];
+				}
+			}
+		}
+		void OutputData(const std::string& Path) noexcept {
+			m_IsFileOpened = true;
+			m_Path = Path;
+
+			SubStrs(&m_Path, ":");
+			SubStrs(&m_Path, "*");
+			SubStrs(&m_Path, "?");
+			SubStrs(&m_Path, "\"");
+			SubStrs(&m_Path, ">");
+			SubStrs(&m_Path, "<");
+			SubStrs(&m_Path, "|");
+			SubStrs(&m_Path, "|");
+
+			m_SetFinish = false;
+			ResetDataJob();
+			m_SetJob = std::make_unique<std::thread>([&]() {
+				std::ofstream outputfile(m_Path, std::ios::app);
+				outputfile << "Name_Jpn=" + this->m_name_jp + "\n";
+				if (this->m_description_jp != "") {
+					outputfile << "Information_Jpn=" + this->m_description_jp + "\n";
+				}
+				outputfile.close();
+				m_SetFinish = true;
+			});
+		}
+		void ResetDataJob() noexcept {
+			if (m_SetJob) {
+				m_SetJob->join();
+				m_SetJob.release();
+			}
+		}
+		const auto&		GetIsSetFinish() const noexcept { return this->m_SetFinish; }
 	};
 
 	class ItemData : public DataParent<ItemID, ItemList>, public JsonListParent<ItemJsonData> {
@@ -1362,23 +1420,39 @@ namespace FPS_n2 {
 				L.SetParent();
 			}
 		}
-		void InitDatabyJson() noexcept {}
-		void UpdateData(int ofset, int size) noexcept {
-			for (auto& L : this->m_List) {
-				for (int loop = ofset; loop < ofset + size; loop++) {
-					if (loop >= (int)GetJsonDataList().size()) { break; }
-					auto& jd = GetJsonDataList().at(loop);
-					if (L.GetIDstr() == jd->m_id) {
-						L.m_CheckJson++;
-						jd->OutputData(L.GetFilePath());
-						break;
+	public:
+		void SaveAsNewData2(std::string Path) noexcept {
+			bool maked = false;
+			for (auto& jd : GetJsonDataList()) {
+				if (!jd->m_IsFileOpened) {
+					std::string ParentPath = Path + (dynamic_cast<ItemJsonData*>(jd.get()))->m_categorytypes;
+
+					if (!maked) {
+						CreateDirectory(ParentPath.c_str(), NULL);
+						maked = true;
 					}
+
+					std::string ChildPath = ParentPath + "/";
+
+					std::string FileName = jd->m_name;
+					SubStrs(&FileName, ".");
+					SubStrs(&FileName, "\\");
+					SubStrs(&FileName, "/");
+					SubStrs(&FileName, ":");
+					SubStrs(&FileName, "*");
+					SubStrs(&FileName, "?");
+					SubStrs(&FileName, "\"");
+					SubStrs(&FileName, ">");
+					SubStrs(&FileName, "<");
+					SubStrs(&FileName, "|");
+					std::string Name = FileName + ".txt";
+
+					jd->OutputData(ChildPath + Name);
+					//RemoveDirectory(Path.c_str());
 				}
 			}
 		}
-		void SaveAsNewData2(std::string Path) noexcept;
-		void UpdateAfterbyJson(void) noexcept;
-
+		void UpdateAfterbyJson(void) noexcept override;
 		void UpdateAfterbyJson_Sub(void) noexcept {
 			for (auto& L : this->m_List) {
 				for (const auto& D : GetJsonDataList()) {
@@ -1404,6 +1478,78 @@ namespace FPS_n2 {
 				}
 			}
 			outputfile.close();
+		}
+	private:
+		std::vector<std::unique_ptr<ItemJpInfoData>> m_ItemJpInfoData;
+	public:
+		void InitJpDatabyJson() {
+			m_ItemJpInfoData.clear();
+		}
+		void GetJpDataJson(nlohmann::json& data) {
+			for (const auto& d : data) {
+				m_ItemJpInfoData.emplace_back(std::make_unique<ItemJpInfoData>());
+				m_ItemJpInfoData.back()->GetJson(d);
+			}
+		}
+		template <class List>
+		void UpdateJpData(int ofset, int size, std::vector<List>& ListT) noexcept {
+			for (auto& L : ListT) {
+				for (int loop = ofset; loop < ofset + size; loop++) {
+					if (loop >= (int)m_ItemJpInfoData.size()) { break; }
+					auto& jd = m_ItemJpInfoData.at(loop);
+					if (L.GetIDstr() == jd->m_id) {
+						L.m_CheckJson++;
+						jd->OutputData(L.GetFilePath());
+						break;
+					}
+				}
+			}
+		}
+		void SaveAsNewJpData(std::string Path) noexcept {
+			bool maked = false;
+			for (auto& jd : m_ItemJpInfoData) {
+				if (!jd->m_IsFileOpened) {
+					std::string ParentPath = Path;
+
+					if (!maked) {
+						CreateDirectory(ParentPath.c_str(), NULL);
+						maked = true;
+					}
+
+					std::string ChildPath = ParentPath + "/";
+
+					std::string FileName = jd->m_name_jp;
+					SubStrs(&FileName, ".");
+					SubStrs(&FileName, "\\");
+					SubStrs(&FileName, "/");
+					SubStrs(&FileName, ":");
+					SubStrs(&FileName, "*");
+					SubStrs(&FileName, "?");
+					SubStrs(&FileName, "\"");
+					SubStrs(&FileName, ">");
+					SubStrs(&FileName, "<");
+					SubStrs(&FileName, "|");
+					std::string Name = FileName + ".txt";
+
+					jd->OutputData(ChildPath + Name);
+					//RemoveDirectory(Path.c_str());
+				}
+			}
+		}
+		void WaitToAllClearJp() noexcept {
+			while (true) {
+				bool isHit = false;
+				for (auto& jd : m_ItemJpInfoData) {
+					if (!jd->GetIsSetFinish()) {
+						isHit = true;
+						break;
+					}
+				}
+				if (!isHit) { break; }
+			}
+			for (auto& jd : m_ItemJpInfoData) {
+				jd->ResetDataJob();
+			}
 		}
 	};
 };

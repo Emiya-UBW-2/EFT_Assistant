@@ -13,3 +13,5 @@ Sell_Peacekeeper=6
 Sell_Mechanic=845
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=9x39mm BP gs
+Information_Jpn=A 9x39mm BP gs (GRAU Index - 7N12) special cartridge with a 15.5 gram subsonic armor-piercing bullet with a hardened carbon steel core with a two-layer semi-jacket, a lead interior and a bimetallic exterior, in a steel case. This BP cartridge (Bronebóynaya Púlya - "Armor-piercing Bullet") was developed in the early 2000s based on the 9x39mm SP-6 cartridge to improve its design and penetration capabilities, resulting in an improvement at piercing most models of specialized ballistic body protections, in addition to provide a significant stopping power effect. However, due to its design, it has a high probability of bouncing off various surfaces.

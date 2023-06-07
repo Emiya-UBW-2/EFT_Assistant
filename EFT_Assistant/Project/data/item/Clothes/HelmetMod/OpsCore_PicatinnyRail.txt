@@ -21,3 +21,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=Ops-Core Picatinny Rail Adapter mount
+Information_Jpn=A mount adapter for installation of universal rails on the helmet, for consecutive installation of additional equipment.

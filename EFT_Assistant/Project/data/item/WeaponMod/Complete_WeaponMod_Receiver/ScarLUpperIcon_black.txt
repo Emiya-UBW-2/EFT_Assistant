@@ -124,3 +124,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=2.000000
 accuracyModifier=0.000000
+Name_Jpn=FN SCAR-L 5.56x45 upper receiver
+Information_Jpn=An upper receiver for the SCAR-L assault rifle, manufactured by Fabrique Nationale Herstal. Features a top rail for installation of additional equipment.

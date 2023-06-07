@@ -19,3 +19,5 @@ ChildParts=[
 Recoil=-5.000000
 Ergonomics=-1.000000
 accuracyModifier=0.030000
+Name_Jpn=HK MP7A1 4.6x30 flash hider
+Information_Jpn=A flash hider designed for installation on the MP7 SMGs chambered in 4.6x30mm, manufactured by Heckler & Koch.

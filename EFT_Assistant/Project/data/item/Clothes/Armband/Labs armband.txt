@@ -11,3 +11,5 @@ Sell_Skier=13720
 Sell_Ragman=17360
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Labs armband
+Information_Jpn=An armband for TerraGroup Labs employees.

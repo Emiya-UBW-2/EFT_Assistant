@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=4.000000
 accuracyModifier=0.000000
+Name_Jpn=VPO-136 "Vepr-KM" wooden handguard
+Information_Jpn=A standard wooden handguard for VPO-136 Vepr KM carbines, manufactured by Molot Arms.

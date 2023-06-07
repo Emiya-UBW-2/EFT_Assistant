@@ -21,3 +21,5 @@ Recoil=-3.250000
 Ergonomics=-5.000000
 centerOfImpact=0.270000
 deviationMax=11
+Name_Jpn=TT 7.62x25 121mm homespun threaded barrel
+Information_Jpn=A homespun barrel for TT pistol with threading for sound suppressor installation.

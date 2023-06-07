@@ -12,3 +12,5 @@ Sell_Fence=807
 Sell_Jaeger=1211
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=絶縁テープ
+Information_Jpn=絶縁テープは主に配線の絶縁に使用されるものだが、創造力さえあれば無限の可能性を持っている。簡単なメンテナンスやパーツの接合、結束、ハンドルの滑り止めなど、いくらでも使い道を思いつくはずだ。

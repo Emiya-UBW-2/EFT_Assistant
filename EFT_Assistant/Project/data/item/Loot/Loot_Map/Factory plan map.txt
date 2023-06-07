@@ -10,3 +10,5 @@ Sell_Therapist=10156
 Sell_Fence=6448
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Factory plan map
+Information_Jpn=A simplified and updated copy of the Chemical Plant No. 16 facility blueprint.

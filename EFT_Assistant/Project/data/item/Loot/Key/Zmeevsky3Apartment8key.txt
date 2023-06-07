@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Streets of Tarkov
+Name_Jpn=Zmeevsky 3 apartment 8 key
+Information_Jpn=A key to one of the apartments at Zmeevsky 3.

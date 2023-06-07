@@ -11,3 +11,5 @@ Sell_Therapist=12097
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
+Name_Jpn=Health Resort management warehouse safe key
+Information_Jpn=A key to the Azure Coast sanatorium warehouse safe, located in the Administration building.

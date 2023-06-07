@@ -12,3 +12,5 @@ Sell_Skier=255791
 Sell_Peacekeeper=1941
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=ビットコインの金貨
+Information_Jpn=暗号通貨であるビットコインの現物（0.2BTC 相当）として使える金貨。

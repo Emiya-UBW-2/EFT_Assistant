@@ -20,3 +20,4 @@ containsItems=[
 	Mosin Rifle sawn-off stockx1/|
 	Mosin Rifle 7.62x54R sawn-off 200mm barrelx1
 ]
+Name_Jpn=Mosin 7.62x54R bolt-action rifle (Infantry) Obrez

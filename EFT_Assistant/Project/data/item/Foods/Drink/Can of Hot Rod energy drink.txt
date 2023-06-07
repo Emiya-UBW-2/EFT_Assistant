@@ -11,3 +11,5 @@ Sell_Fence=3694
 Sell_Jaeger=5541
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink
+Name_Jpn=ホットロッド
+Information_Jpn=ホットロッドは世界で最も有名なエナジードリンクだが、競合の製品と比べても、それほど強力というわけではない。スタンダードとは得てしてそういうものだ。

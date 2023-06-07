@@ -10,3 +10,5 @@ Sell_Therapist=6930
 Sell_Fence=4400
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=塩素剤
+Information_Jpn=危険性の高い次亜塩素酸カルシウムが主成分の塩素剤。消石灰に塩素を吸収させて製造されており、漂白や消毒といった用途で幅広く利用されている。

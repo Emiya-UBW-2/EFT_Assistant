@@ -11,3 +11,5 @@ Sell_Skier=22063
 Sell_Ragman=27916
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=MSA Sordin Supreme PRO-X/L active headset
+Information_Jpn=Sordin Supreme PRO-X/Lは騒音を低減しつつ小さな音を増幅する。屋外での耐水性も持ち合わせている。

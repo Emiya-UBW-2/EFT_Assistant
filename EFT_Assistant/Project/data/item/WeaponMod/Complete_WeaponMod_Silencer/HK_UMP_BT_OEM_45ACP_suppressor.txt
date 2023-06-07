@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-11.000000
 Ergonomics=-16.000000
 accuracyModifier=0.020000
+Name_Jpn=HK UMP B&T OEM .45 ACP sound suppressor
+Information_Jpn=A hard to find sound suppressor, designed for the HK UMP 45 submachine gun and utilizes a locking gate QD to allow for quick attachment and removal. Imported by H&K from Brugger & Thomet Switzerland.

@@ -11,3 +11,5 @@ Sell_Ragman=94395
 Sell_Jaeger=91350
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
+Name_Jpn=6Sh118 raid backpack
+Information_Jpn=The 6Sh118 raid backpack is part of the 2nd generation "Ratnik" gear kit for combat. The 6Sh118 tactical army backpack is a modernization of the 6B38 Permyachka model raid backpack. The raid 6Sh118 backpack is designed to carry fire support equipment, weapons, ammunition, elements of mountain equipment, as well as the personal belongings of individual soldiers. The backpack can be used during combat operations, long hikes, and raid events.

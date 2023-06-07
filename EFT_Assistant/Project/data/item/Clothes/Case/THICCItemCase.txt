@@ -11,3 +11,5 @@ Sell_Ragman=1922000
 Sell_Jaeger=1860000
 fleaMarketFee=0
 propertiestype=ItemPropertiesContainer
+Name_Jpn=T H I C C アイテムケース
+Information_Jpn=この T H I C C は容量を増やした先進的なアイテムケースだ。あらゆるアイテムを収納できる。

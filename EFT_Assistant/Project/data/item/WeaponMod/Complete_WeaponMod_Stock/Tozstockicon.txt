@@ -23,3 +23,5 @@ ChildParts=[
 Recoil=-34.000000
 Ergonomics=6.000000
 accuracyModifier=0.000000
+Name_Jpn=TOZ-106 stock
+Information_Jpn=TOZ-106用の標準ショルダーピース付き折り畳み式ストック。

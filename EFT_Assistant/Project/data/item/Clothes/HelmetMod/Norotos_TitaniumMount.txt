@@ -22,3 +22,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=Norotos Titanium Advanced Tactical Mount
+Information_Jpn=A lightweight titanium mount for installation on the Shroud connector on the helmet. It is necessary for further installation of the night vision goggles or other optical devices. Manufactured by Norotos Inc.

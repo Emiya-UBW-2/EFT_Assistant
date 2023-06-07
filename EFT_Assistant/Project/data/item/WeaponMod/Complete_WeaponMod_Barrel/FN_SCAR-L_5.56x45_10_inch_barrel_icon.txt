@@ -54,3 +54,5 @@ Recoil=-2.000000
 Ergonomics=-5.000000
 centerOfImpact=0.078000
 deviationMax=19
+Name_Jpn=FN SCAR-L 5.56x45 10 inch barrel
+Information_Jpn=A 10 inches long (254mm) CQB barrel for the SCAR-series weapons chambered in 5.56x45 NATO ammo.

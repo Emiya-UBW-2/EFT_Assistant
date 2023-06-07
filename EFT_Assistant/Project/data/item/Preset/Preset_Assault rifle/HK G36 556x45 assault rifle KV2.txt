@@ -26,3 +26,4 @@ containsItems=[
 	HK G36 magwellx1/|
 	HK G36 optic rail with flip-up sightsx1
 ]
+Name_Jpn=HK G36 5.56x45 assault rifle KV2

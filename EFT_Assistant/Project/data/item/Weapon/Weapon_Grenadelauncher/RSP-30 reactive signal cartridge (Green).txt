@@ -26,3 +26,5 @@ cameraRecoil=0.024000
 cameraSnap=3.500000
 deviationMax=15
 convergence=1.000000
+Name_Jpn=RSP-30 reactive signal cartridge (Green)
+Information_Jpn=RSP-30 is a reactive signal cartridge for controlling units and maintaining their interaction. Multi-star rocket cartridges are used as flares.

@@ -19,3 +19,5 @@ Ergonomics=-3.000000
 SightRange=500
 sightZooms=2.000000
 sightZooms=2.000000
+Name_Jpn=Monstrum Compact prism スコープ 2x32
+Information_Jpn=Monstrum製の2倍の倍率を持つCompact prismaticスコープ

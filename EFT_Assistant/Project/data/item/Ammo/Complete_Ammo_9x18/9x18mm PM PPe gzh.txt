@@ -13,3 +13,5 @@ Sell_Peacekeeper=0
 Sell_Mechanic=28
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=9x18mm PM PPe gzh
+Information_Jpn=A 9x18mm Makarov PPe gzh cartridge with a 7.6 gram lead core hollow-point bullet with a bimetallic semi-jacket, in a bimetallic case. The design of this bullet is based on experiences gained from other 9x18mm PM hollow-point cartridges. The PPe cartridge has a conical hole in its core and the jacket has six notches to improve its expandability on impact, thus achieving a significant stopping power effect.

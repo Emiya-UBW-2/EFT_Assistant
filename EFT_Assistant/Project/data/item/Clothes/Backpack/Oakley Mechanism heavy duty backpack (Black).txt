@@ -11,3 +11,5 @@ Sell_Ragman=33170
 Sell_Jaeger=32100
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
+Name_Jpn=Oakley Mechanism heavy duty backpack (Black)
+Information_Jpn=The Mechanism backpack offers versatility and durable construction that accommodates any adventure. Heavy-duty metal clips, zips, and hook-and-loop closures create secure storage, and a flap-top opening means more room for hauling larger items. A variety of specialized pockets deliver military-style organization and easy access, and padded adjustable shoulder straps keep every excursion comfortable.

@@ -25,3 +25,5 @@ Conflict=[
 Recoil=-7.000000
 Ergonomics=-1.000000
 accuracyModifier=-0.010000
+Name_Jpn=Glock 9x19 Lone Wolf AlphaWolf Bullnose compensator
+Information_Jpn=Lone Wolf製コンペンセイター。Alpha Woldは先端の表面が丸みを帯びた"bullnosed"スライドにのみ装着が可能だ。

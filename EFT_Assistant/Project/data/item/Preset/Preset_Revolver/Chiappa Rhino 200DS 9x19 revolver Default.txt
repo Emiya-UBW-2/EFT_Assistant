@@ -19,3 +19,4 @@ containsItems=[
 	Chiappa Rhino front sightx1/|
 	Chiappa Rhino wooden pistol gripx1
 ]
+Name_Jpn=Chiappa Rhino 200DS 9x19 revolver デフォルト

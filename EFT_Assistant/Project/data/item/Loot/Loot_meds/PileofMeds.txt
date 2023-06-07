@@ -11,3 +11,5 @@ Sell_Fence=2600
 Sell_Jaeger=3900
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=医薬品
+Information_Jpn=様々な医薬品を寄せ集めたもの。薬品の製造やファーストエイドキットの中身を補充するために必要だ。

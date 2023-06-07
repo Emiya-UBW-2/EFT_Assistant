@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=5.000000
 accuracyModifier=0.000000
+Name_Jpn=M45A1 Mil-Tac GVT G10 side grips
+Information_Jpn=The GVT G10 fiberglass grip panels for the Colt M45A1 pistol, manufactured by Mil-Tac.

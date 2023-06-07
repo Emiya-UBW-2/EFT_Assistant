@@ -10,3 +10,5 @@ Sell_Fence=24000
 Sell_Peacekeeper=223
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=ミリタリーフラッシュドライブ
+Information_Jpn=軍用のセキュリティ機能付きフラッシュドライブ。情報を暗号化できるうえに振動にも強い特殊な記憶装置だ。

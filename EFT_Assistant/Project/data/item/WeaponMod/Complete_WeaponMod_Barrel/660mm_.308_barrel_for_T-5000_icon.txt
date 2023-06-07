@@ -39,3 +39,5 @@ Recoil=-5.000000
 Ergonomics=-10.000000
 centerOfImpact=0.019000
 deviationMax=33
+Name_Jpn=T-5000M 7.62x51 660mm barrel
+Information_Jpn=A 660mm long match-grade barrel manufactured by ORSIS for the T-5000M 7.62x51 bolt-action sniper rifle.

@@ -11,3 +11,5 @@ Sell_Fence=854
 Sell_Jaeger=1281
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink
+Name_Jpn=パイナップルジュース "ロシアンアーミー"
+Information_Jpn=濃縮還元パイナップルジュース "ロシアンアーミー" 。封鎖された状況下で糖質とビタミンを摂取するためにこれ以上の物は思いつかない。

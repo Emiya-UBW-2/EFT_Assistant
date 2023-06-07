@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-19.000000
 Ergonomics=-2.000000
 accuracyModifier=0.000000
+Name_Jpn=AK-74 thread type JMac Customs RRD-4C multi-caliber muzzle brake
+Information_Jpn=The RRD-4C muzzle brake by JMac Customs is designed for installation on modern AK-74 type thread weapon systems. The universal muzzle brake can be used with 5.45x39, 5.56x45 and 7.62x39 (requires an adapter mount) ammunition. Reduces recoil and counters the barrel climb.

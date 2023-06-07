@@ -13,3 +13,5 @@ propertiestype=ItemPropertiesMelee
 slashDamage=32
 stabDamage=40
 hitRadius=0.450000
+Name_Jpn=SOG Voodoo Hawk tactical tomahawk
+Information_Jpn=SOG has combined its three best features: an extended cutting head, compact glass-reinforced nylon handle, and a metal butt cap on the end.

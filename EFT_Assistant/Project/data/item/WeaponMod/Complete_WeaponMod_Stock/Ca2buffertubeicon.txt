@@ -22,3 +22,5 @@ ChildParts=[
 Recoil=-2.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=Colt A2 buffer tube
+Information_Jpn=Colt製レシーバーエクステンション。4ポジションのミルスペック径バッファーチューブで、AR-15系のカービンやライフルに装着が可能だ。

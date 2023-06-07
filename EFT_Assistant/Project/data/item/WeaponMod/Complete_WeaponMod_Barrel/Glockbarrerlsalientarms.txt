@@ -32,3 +32,5 @@ Recoil=-8.000000
 Ergonomics=-3.000000
 centerOfImpact=0.270000
 deviationMax=11
+Name_Jpn=Glock 9x19 SAI threaded barrel
+Information_Jpn=A threaded barrel for 9x19 pistols of Glock family. Manufactured by Salient Arms International.

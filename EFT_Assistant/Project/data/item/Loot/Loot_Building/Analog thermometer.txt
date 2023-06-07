@@ -12,3 +12,5 @@ Sell_Fence=18240
 Sell_Jaeger=27360
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=アナログ温度計
+Information_Jpn=液体の温度を測定して制御するために設計されたアナログ式の温度計。

@@ -19,3 +19,5 @@ capacity=30
 loadModifier=-0.250000
 ammoCheckModifier=-0.300000
 malfunctionChance=0.169000
+Name_Jpn=Glock .45 ACP KRISS G30 MagEx 30-round magazine
+Information_Jpn=A G30 MagEx 30-round magazine for .45 ACP rounds, made to fit Glock pistols and other weapons of the same caliber. Manufactured by KRISS.

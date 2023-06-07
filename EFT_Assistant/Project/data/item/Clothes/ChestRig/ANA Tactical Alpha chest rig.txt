@@ -12,3 +12,5 @@ Sell_Ragman=26586
 Sell_Jaeger=25728
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
+Name_Jpn=ANA Tactical Alpha チェストリグ
+Information_Jpn=高品質な"Alpha" チェストリグ。信頼性と機能性で完全に軍からの要求水準を満たしている。組み込まれたポーチとMOLLEストラップの組み合わせで膨大な数の必要な装備を携帯することができるようになっている。ベストは旧来のチェストリグとして設計されており、このタイプのベストではすべての装備品はベスト正面と両側面に位置している一方、背面には調整用ベルトとストラップがある。

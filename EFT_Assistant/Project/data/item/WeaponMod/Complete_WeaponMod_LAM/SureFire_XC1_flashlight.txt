@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=SureFire XC1 tactical flashlight
+Information_Jpn=A compact tactical LED flashlight, manufactured by SureFire.

@@ -26,3 +26,5 @@ cameraRecoil=0.024000
 cameraSnap=3.500000
 deviationMax=15
 convergence=1.000000
+Name_Jpn=ROP-30 reactive flare cartridge (White)
+Information_Jpn=ROP-30 is a reactive flare cartridge for lighting up low-visibility areas during night time.

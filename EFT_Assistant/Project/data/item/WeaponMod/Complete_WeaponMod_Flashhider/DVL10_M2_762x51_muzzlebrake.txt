@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-11.000000
 Ergonomics=-2.000000
 accuracyModifier=0.000000
+Name_Jpn=DVL-10 M2 7.62x51 muzzle brake
+Information_Jpn=A standard-issue DVL-10 M2 sniper rifle muzzle brake, manufactured by Lobaev Arms.

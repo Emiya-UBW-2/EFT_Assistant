@@ -37,3 +37,5 @@ cameraRecoil=0.010800
 cameraSnap=3.500000
 deviationMax=11
 convergence=6.900000
+Name_Jpn=Chiappa Rhino 200DS 9x19 revolver
+Information_Jpn=The Rhino revolvers, manufactured by the Italian company Armi Chiappa, are distinguished by a revolutionary patented design and construction with an unusual barrel arrangement for revolvers opposite the lower drum chamber. The short-size "pocket" model with a 2 inch barrel chambered in 9x19mm.

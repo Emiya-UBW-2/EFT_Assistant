@@ -28,3 +28,5 @@ Recoil=-4.000000
 Ergonomics=-14.000000
 centerOfImpact=0.046000
 deviationMax=23
+Name_Jpn=Steyr AUG A3 5.56x45 16 inch barrel
+Information_Jpn=A barrel for Steyr AUG A3 designed for 5.56x45 NATO ammo, 16 inches (417mm) long.

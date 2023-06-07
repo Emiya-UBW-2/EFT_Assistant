@@ -17,3 +17,5 @@ Recoil=0.000000
 Ergonomics=-3.500000
 SightRange=200
 sightZooms=1.000000
+Name_Jpn=SIG Sauer ROMEO8T reflex sight
+Information_Jpn=The ROMEO8T reflex sight, designed for precision shooting for modern sporting rifles and shotguns. Manufactured by SIG Sauer.

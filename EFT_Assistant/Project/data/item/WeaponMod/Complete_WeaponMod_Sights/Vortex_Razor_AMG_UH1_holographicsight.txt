@@ -17,3 +17,5 @@ Recoil=0.000000
 Ergonomics=-4.000000
 SightRange=300
 sightZooms=1.000000
+Name_Jpn=Vortex Razor AMG UH-1 holographic sight
+Information_Jpn=The Vortex Razor AMG UH-1 holographic sight is not only made with futuristic design, but, according to its creators, is also a revolution among holographic and reflex sights.

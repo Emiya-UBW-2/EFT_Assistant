@@ -122,3 +122,5 @@ cameraRecoil=0.096000
 cameraSnap=3.500000
 deviationMax=23
 convergence=1.400000
+Name_Jpn=Molot VPO-209 .366 TKM carbine
+Information_Jpn=The Molot VPO-209 carbine is based on the well-known Kalashnikov AKM and has an almost identical appearance, weight, and overall dimensions. It has a smooth bore barrel with the last 120 mm of the barrel being rifled (a so called "paradox"-bore). VPO-209 is chambered in .366 TKM, that together with the "paradox" rifling classifies the weapon as a shotgun under Russian law.

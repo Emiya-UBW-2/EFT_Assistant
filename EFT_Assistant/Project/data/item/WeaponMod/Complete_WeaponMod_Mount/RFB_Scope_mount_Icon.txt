@@ -107,3 +107,5 @@ Conflict=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=RFB scope rail mount
+Information_Jpn=A universal rail for mounting various optics on to the RFB rifle, manufactured by Kel-Tec.

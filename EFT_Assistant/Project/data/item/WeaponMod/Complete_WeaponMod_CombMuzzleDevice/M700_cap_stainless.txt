@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=1.000000
 accuracyModifier=0.000000
+Name_Jpn=M700 thread protection cap (Stainless steel)
+Information_Jpn=A stainless steel threading protection cap for the Remington M700 7.62x51 barrels.

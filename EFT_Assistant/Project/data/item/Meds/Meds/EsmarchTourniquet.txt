@@ -15,3 +15,5 @@ propertiestype=ItemPropertiesMedicalItem
 useTime=5.000000
 cures=[HeavyBleeding]
 uses=1
+Name_Jpn=エスマルヒ 止血帯
+Information_Jpn=ドイツの外科医 フリードリヒ・アウグスト・フォン・エスマルヒ に因んで名付けられた。彼は止血帯の使用方法だけでなく、戦場での様々な治療法を考案した人物だ。

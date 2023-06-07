@@ -30,3 +30,5 @@ Recoil=0.000000
 Ergonomics=0.000000
 SightRange=300
 sightZooms=1.000000
+Name_Jpn=HK G36 front sight
+Information_Jpn=A detachable front sight for the G36 assault rifle, manufactured by Heckler & Koch.

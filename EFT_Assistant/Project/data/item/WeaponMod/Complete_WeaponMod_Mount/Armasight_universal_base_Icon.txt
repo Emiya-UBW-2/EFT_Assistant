@@ -20,3 +20,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=Armasight Vulcan universal base
+Information_Jpn=スコープを取り付けるためのArmasightユニバーサルベース。

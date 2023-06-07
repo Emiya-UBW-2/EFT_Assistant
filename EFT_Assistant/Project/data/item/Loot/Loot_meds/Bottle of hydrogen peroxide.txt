@@ -11,3 +11,5 @@ Sell_Fence=4867
 Sell_Jaeger=7300
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=過酸化水素水
+Information_Jpn=過酸化水素水は、傷口の洗浄や消毒のために医療現場で使用されている。

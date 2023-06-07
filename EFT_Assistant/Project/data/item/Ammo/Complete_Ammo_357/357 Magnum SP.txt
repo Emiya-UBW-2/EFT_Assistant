@@ -13,3 +13,5 @@ Sell_Peacekeeper=0
 Sell_Mechanic=56
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=.357 Magnum Soft Point
+Information_Jpn=An American-made high-power .357 Magnum revolver cartridge manufactured by Smith & Wesson.

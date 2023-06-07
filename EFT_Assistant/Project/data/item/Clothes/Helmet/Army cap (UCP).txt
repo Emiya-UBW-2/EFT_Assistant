@@ -12,3 +12,5 @@ Sell_Peacekeeper=9
 Sell_Ragman=1458
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Army cap (UCP)
+Information_Jpn=A regular army cap, colored in UCP camouflage.

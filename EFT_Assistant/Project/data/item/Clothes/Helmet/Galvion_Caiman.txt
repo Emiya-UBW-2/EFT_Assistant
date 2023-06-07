@@ -12,3 +12,5 @@ Sell_Peacekeeper=308
 Sell_Ragman=51388
 fleaMarketFee=0
 propertiestype=ItemPropertiesHelmet
+Name_Jpn=Galvion Caiman Hybrid helmet
+Information_Jpn=The Caiman Hybrid helmet is a new generation of lightweight special forces helmet. A series of modular accessories enhances the package, providing users with lightweight, comfortable and maximum head protection. Manufactured by Galvion.

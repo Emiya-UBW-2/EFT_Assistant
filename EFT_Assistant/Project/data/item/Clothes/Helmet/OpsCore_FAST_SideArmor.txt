@@ -19,3 +19,5 @@ Conflict=[
 	Peltor Tactical Sport headset/|
 	Walker's Razor Digital headset
 ]
+Name_Jpn=Ops-Core FAST Side Armor
+Information_Jpn=An additional armor module for the Ops-Core FAST helmet, protects the ears from shrapnel and small caliber ricochets.

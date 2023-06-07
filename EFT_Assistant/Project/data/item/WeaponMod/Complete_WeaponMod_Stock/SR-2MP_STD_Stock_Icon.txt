@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-27.000002
 Ergonomics=8.000000
 accuracyModifier=0.000000
+Name_Jpn=SR-2MP folding stock
+Information_Jpn=A folding stock for SR-2MP submachine gun, manufactured by TsNIItochmash. The buttstock has a spring-loaded butt plate which reduces the time it takes to shoulder the weapon.

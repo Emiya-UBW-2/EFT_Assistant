@@ -13,3 +13,5 @@ Sell_Peacekeeper=0
 Sell_Mechanic=54
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=4.6x30mm Action SX
+Information_Jpn=A 4.6x30mm HK Action SX cartridge with a 2 gram hollow-point bullet made entirely of brass, in a brass case. This cartridge is designed to effectively incapacitate an aggressor during close-quarters operations thanks to its considerable stopping power effect, in addition to preventing over-piercing, however, due to its design, it has a significant bounce probability off various surfaces.

@@ -12,3 +12,5 @@ Sell_Ragman=11718
 Sell_Jaeger=11340
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
+Name_Jpn=CSA チェストリグ
+Information_Jpn=The simplest chest rig, sewn hastily from dubious materials. Designed for airsoft. Military use of this model is possible, but not recommended.

@@ -57,3 +57,5 @@ ChildParts=[
 Recoil=-1.000000
 Ergonomics=9.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 War Sport LVOA-S handguard (Black)
+Information_Jpn=The War Sport LVOA-S (SBR) lightweight handguard is designed for use with sport rifles based on AR-15 rifles.

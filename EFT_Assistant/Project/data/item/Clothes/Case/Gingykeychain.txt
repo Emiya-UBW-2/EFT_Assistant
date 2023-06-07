@@ -11,3 +11,5 @@ Sell_Ragman=49600
 Sell_Jaeger=48000
 fleaMarketFee=0
 propertiestype=ItemPropertiesContainer
+Name_Jpn=Gingy のキーホルダー
+Information_Jpn=四つ葉のクローバーの形をしたキーホルダー。

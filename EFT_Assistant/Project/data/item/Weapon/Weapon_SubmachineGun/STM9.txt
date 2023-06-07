@@ -99,3 +99,5 @@ cameraRecoil=0.043200
 cameraSnap=3.500000
 deviationMax=11
 convergence=2.500000
+Name_Jpn=Soyuz-TM STM-9 Gen.2 9x19 carbine
+Information_Jpn=A PCC carbine with excellent performance already "out of the box", manufactured by Soyuz-TM Arms. Designed with the participation of world bronze medalist in Semi-Auto Rifle Vadim Mikhailov. Accuracy, speed, comfort of recoil. Compatible with Glock 9x19 magazines.

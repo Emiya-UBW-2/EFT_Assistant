@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=11.000000
 accuracyModifier=0.000000
+Name_Jpn=AK TAPCO SAW-Style pistol grip (Black)
+Information_Jpn=An anatomical pistol grip for AK series assault rifles, inspired by the M249 SAW LMG grip, manufactured by TAPCO. Black version.

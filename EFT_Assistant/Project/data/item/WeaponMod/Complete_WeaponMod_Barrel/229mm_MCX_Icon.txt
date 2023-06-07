@@ -26,3 +26,5 @@ Recoil=-5.000000
 Ergonomics=-6.000000
 centerOfImpact=0.080000
 deviationMax=19
+Name_Jpn=MCX .300 BLK 229mm barrel
+Information_Jpn=A 229mm barrel for MCX-based weapons, chambered in .300 BLK.

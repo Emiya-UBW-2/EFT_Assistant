@@ -13,3 +13,5 @@ Sell_Peacekeeper=736
 Sell_Mechanic=110880
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=グラフィックカード
+Information_Jpn=グラフィックスカードは、ファン、GPU、集積回路といった電子部品を手に入れるために最適なものだ。

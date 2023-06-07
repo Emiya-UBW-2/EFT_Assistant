@@ -18,3 +18,5 @@ Recoil=-2.000000
 Ergonomics=-4.000000
 centerOfImpact=0.280000
 deviationMax=11
+Name_Jpn=HK USP .45 ACP standard barrel
+Information_Jpn=A standard-issue 112mm .45 ACP barrel for the USP pistol, manufactured by Heckler & Koch.

@@ -25,3 +25,4 @@ containsItems=[
 	Glock 9x19 SGM Tactical 50-round drum magazinex1/|
 	SureFire XC1 tactical flashlightx1
 ]
+Name_Jpn=Glock 17 9x19 pistol Tac 3

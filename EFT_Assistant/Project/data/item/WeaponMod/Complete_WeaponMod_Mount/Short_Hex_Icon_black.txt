@@ -39,3 +39,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=Hexagon short length rail
+Information_Jpn=Hexagonハンドガード用のショートレイル。追加装備の装着が可能になる。

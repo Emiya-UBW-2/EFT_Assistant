@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=20
 Map=Streets of Tarkov
+Name_Jpn=Chekannaya 15 apartment key
+Information_Jpn=A key to one of the apartments located at Chekannaya 15.

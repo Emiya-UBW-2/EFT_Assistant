@@ -12,3 +12,5 @@ Sell_Ragman=96193
 Sell_Jaeger=93090
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
+Name_Jpn=Ars Arma A18 Skanda プレートキャリア
+Information_Jpn=A plate carrier with armor plates (Russian GOST class 4 protection) with chest and back protection. Equipped with a set of pouches. Manufactured by Ars Arma.

@@ -147,3 +147,5 @@ cameraRecoil=0.105600
 cameraSnap=3.500000
 deviationMax=11
 convergence=1.100000
+Name_Jpn=M32A1 MSGL 40mm grenade launcher
+Information_Jpn=M32A1 MSGL 40mm six-shot grenade launcher manufactured by Milkor USA. This grenade launcher uses the well-established principle of a revolver to achieve a high rate of accurate fire that can be quickly aimed at a target.

@@ -24,3 +24,4 @@ containsItems=[
 	M1A 7.62x51 22 inch barrelx1/|
 	M14 Yankee Hill Phantom 7.62x51 flash hiderx1
 ]
+Name_Jpn=Springfield Armory M1A 7.62x51 rifle SASS

@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Streets of Tarkov
+Name_Jpn=Stair landing key
+Information_Jpn=A key to the one of the stair landings of the Chekannaya Street 15 building.

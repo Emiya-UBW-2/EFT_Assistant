@@ -42,3 +42,5 @@ Conflict=[
 Recoil=-35.000000
 Ergonomics=16.000000
 accuracyModifier=0.000000
+Name_Jpn=AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock
+Information_Jpn=Designed for both the civilian market and military use. The CQR47 stock can be easily mounted in place of the standard attachment of the AK/AKM non-folding stock. Manufactured by Hera Arms.

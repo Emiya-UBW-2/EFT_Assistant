@@ -17,3 +17,5 @@ Recoil=0.000000
 Ergonomics=0.000000
 SightRange=150
 sightZooms=1.000000
+Name_Jpn=Aimpoint Micro T-1 リフレックスサイト
+Information_Jpn=Aimpoint社のMicro T-1リフレックスサイトは様々な銃に使用されており、ときには弓に使われることさえある。軽量でコンパクト、それでいて堅牢なサイトだ。

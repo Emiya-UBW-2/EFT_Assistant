@@ -12,3 +12,5 @@ Sell_Peacekeeper=7
 Sell_Ragman=1107
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=防毒マスク
+Information_Jpn=レスピレーターマスク、または 防毒 / 防塵 マスクは、フィルターを通して空気中の有毒ガスや有害物質を除去する一般的な保護マスクだ。

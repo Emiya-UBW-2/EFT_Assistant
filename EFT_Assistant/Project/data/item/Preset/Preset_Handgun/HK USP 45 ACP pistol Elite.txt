@@ -26,3 +26,4 @@ containsItems=[
 	HK USP slide lockx1/|
 	HK USP .45 ACP Elite compensatorx1
 ]
+Name_Jpn=HK USP .45 ACP pistol Elite

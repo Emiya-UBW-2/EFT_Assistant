@@ -12,3 +12,5 @@ Sell_Fence=1400
 Sell_Mechanic=1960
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=プラスドライバー
+Information_Jpn=ねじ部品（一般的には頭部分に切れ込みのあるねじ）を締めたり緩めたりするための工具。通常は先端がプラスの形になった金属の棒にプラスチックか木製のグリップが付いている。

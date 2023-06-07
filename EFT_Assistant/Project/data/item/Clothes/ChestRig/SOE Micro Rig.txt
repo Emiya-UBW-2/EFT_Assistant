@@ -12,3 +12,5 @@ Sell_Ragman=5952
 Sell_Jaeger=5760
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
+Name_Jpn=SOE マイクロリグ
+Information_Jpn=必要最小限のポーチしか持たない、極めて軽量でコンパクトなチェストリグ。

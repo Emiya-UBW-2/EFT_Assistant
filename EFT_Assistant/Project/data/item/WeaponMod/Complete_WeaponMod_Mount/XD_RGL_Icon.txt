@@ -92,3 +92,5 @@ Conflict=[
 Recoil=0.000000
 Ergonomics=-2.000000
 accuracyModifier=0.000000
+Name_Jpn=SVD CAA XD RGL receiver mount
+Information_Jpn=A quick-detach side clip mount with a Weaver/Picatinny rail for the SVD sniper rifle and compatibles, manufactured by CAA.

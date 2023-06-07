@@ -18,3 +18,5 @@ Ergonomics=-3.000000
 SightRange=300
 sightZooms=1.000000
 sightZooms=1.000000
+Name_Jpn=Leapers UTG reflex sight
+Information_Jpn=The UTG reflex sight with a Red/Green circle dot, manufactured by Leapers Inc. This model is a compact, small-size reflex sight, which mounts on Weaver/Picatinny rails. 

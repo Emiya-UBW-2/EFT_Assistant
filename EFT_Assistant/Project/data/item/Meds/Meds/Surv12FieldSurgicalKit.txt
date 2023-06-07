@@ -17,3 +17,5 @@ cures=[Fracture/|LostLimb]
 uses=15
 minLimbHealth=0.600000
 maxLimbHealth=0.720000
+Name_Jpn=サーヴ12 フィールド サージカルキット
+Information_Jpn=良質の医療器具を揃えた高度な外科手術用キット。戦場で重度の外傷を治療できる。

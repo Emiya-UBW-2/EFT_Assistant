@@ -23,3 +23,5 @@ Conflict=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=M4A1 front sight
+Information_Jpn=A standard-issue front sight for the M4A1 assault rifles, manufactured by Colt.

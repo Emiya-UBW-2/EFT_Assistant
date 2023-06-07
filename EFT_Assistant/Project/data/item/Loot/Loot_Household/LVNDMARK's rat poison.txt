@@ -10,3 +10,5 @@ Sell_Therapist=32061
 Sell_Fence=20356
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=LVNDMARK's 殺鼠剤
+Information_Jpn=物陰や Factory に潜むネズミをまとめてノックダウン！有効成分 "CHAD" 配合。

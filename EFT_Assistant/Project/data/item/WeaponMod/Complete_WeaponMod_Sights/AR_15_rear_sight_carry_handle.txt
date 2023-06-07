@@ -78,3 +78,5 @@ Recoil=0.000000
 Ergonomics=0.000000
 SightRange=600
 sightZooms=1.000000
+Name_Jpn=AR-15 rear sight carry handle
+Information_Jpn=A detachable carry handle with a rear sight for AR-15 rifles. Standard-issue for M4A1 assault rifles.

@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=2.000000
 accuracyModifier=0.000000
+Name_Jpn=SOK-12 dust cover (Sb.0-2)
+Information_Jpn=A standard-issue dust cover for Saiga 12, manufactured by Izhmash.

@@ -17,3 +17,5 @@ Recoil=0.000000
 Ergonomics=1.000000
 SightRange=300
 sightZooms=1.000000
+Name_Jpn=Magpul MBUS Gen2 flip-up front sight (FDE)
+Information_Jpn=The MBUS Gen2 removable flip-up front sight, installed on the mount. Manufactured by Magpul. Flat Dark Earth version.

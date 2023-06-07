@@ -12,3 +12,5 @@ Sell_Peacekeeper=100
 Sell_Ragman=16674
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=ZSh-1-2M フェイスシールド
+Information_Jpn=A special face shield for the ZSH-1-2M armored helmet. Made of heavy-duty materials.

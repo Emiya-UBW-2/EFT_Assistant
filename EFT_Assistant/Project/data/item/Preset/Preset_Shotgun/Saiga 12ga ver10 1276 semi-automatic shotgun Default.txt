@@ -24,3 +24,4 @@ containsItems=[
 	SOK-12 AK-style stockx1/|
 	SOK-12 12/76 sb.5 5-round magazinex1
 ]
+Name_Jpn=Saiga 12ga ver.10 12/76 semi-automatic shotgun デフォルト

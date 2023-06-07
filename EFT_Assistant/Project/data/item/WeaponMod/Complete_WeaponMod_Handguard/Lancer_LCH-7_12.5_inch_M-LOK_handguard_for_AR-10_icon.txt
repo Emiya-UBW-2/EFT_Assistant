@@ -38,3 +38,5 @@ Conflict=[
 Recoil=-1.000000
 Ergonomics=10.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-10 Lancer LCH7 12.5 inch M-LOK handguard
+Information_Jpn=The Lancer LCH7 12.5 inch M-LOK handguard for AR-10 systems equipped with an M-LOK interface for installation of additional devices and accessories.

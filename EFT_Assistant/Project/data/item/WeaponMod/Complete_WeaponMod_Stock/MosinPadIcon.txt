@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-5.000000
 Ergonomics=6.000000
 accuracyModifier=0.000000
+Name_Jpn=Mosin Rifle AIM Sports Recoil Pad
+Information_Jpn=A rubberized recoil pad for the Mosin rifle. Produced by AIM Sports.

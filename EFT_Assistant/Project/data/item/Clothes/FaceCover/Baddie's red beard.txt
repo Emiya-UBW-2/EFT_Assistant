@@ -12,3 +12,5 @@ Sell_Peacekeeper=130
 Sell_Ragman=21700
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Baddie's red beard
+Information_Jpn=An artificial red beard from Baddie.

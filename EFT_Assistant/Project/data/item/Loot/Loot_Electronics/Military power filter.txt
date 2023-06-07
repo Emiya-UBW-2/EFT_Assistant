@@ -13,3 +13,5 @@ Sell_Peacekeeper=205
 Sell_Mechanic=30800
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=軍用パワーフィルター
+Information_Jpn=装甲車に使用されている軍用のパワーフィルター。

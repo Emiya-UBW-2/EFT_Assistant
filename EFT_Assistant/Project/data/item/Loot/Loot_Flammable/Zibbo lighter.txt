@@ -11,3 +11,5 @@ Sell_Fence=3846
 Sell_Jaeger=5770
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Zibbo ライター
+Information_Jpn=信頼性と防風性の高さで知られる Zibbo の金属製オイルライター。

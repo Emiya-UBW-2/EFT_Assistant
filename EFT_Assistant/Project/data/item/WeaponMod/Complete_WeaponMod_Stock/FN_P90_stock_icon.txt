@@ -21,3 +21,5 @@ ChildParts=[
 Recoil=-9.000000
 Ergonomics=26.000000
 accuracyModifier=0.000000
+Name_Jpn=FN P90 ストック
+Information_Jpn=A standard-issue polymer stock for the P90 SMG, manufactured by Fabrique Nationale Herstal.

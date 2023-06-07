@@ -12,3 +12,5 @@ Sell_Ragman=86180
 Sell_Jaeger=83400
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
+Name_Jpn=Ars Arma CPC MOD.2 プレートキャリア
+Information_Jpn=The first generation of the modified CPC plate carrier originally designed by Crye Precision and adapted by Ars Arma for use by special forces of the Russian Federation. This modular body armor is based on a polymer harness that fits the body, which avoids the plate carrier backlash during active movement and also contributes to a more even distribution of weight. Made in the assault configuration of pouches and armor elements. Manufactured by Ars Arma.

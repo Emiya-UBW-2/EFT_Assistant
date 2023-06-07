@@ -26,3 +26,5 @@ ChildParts=[
 Recoil=-1.000000
 Ergonomics=2.000000
 accuracyModifier=0.000000
+Name_Jpn=P226 Legion full size pistol slide
+Information_Jpn=A full-size slide from the Legion modification for the P226 9x19 pistols, manufactured by SIG Sauer.

@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Factory
+Name_Jpn=Pumping station front door key
+Information_Jpn=An old soviet factory key labeled "Pumping Station".

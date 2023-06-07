@@ -24,3 +24,5 @@ Recoil=0.000000
 Ergonomics=-2.000000
 SightRange=200
 sightZooms=1.000000
+Name_Jpn=HK USP Red Dot sight mount
+Information_Jpn=A rear sight mount allows the installation of Burris FastFire, Docter, and other similar reflex sights.

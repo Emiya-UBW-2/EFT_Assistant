@@ -85,3 +85,5 @@ Conflict=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=VPO-215 "Gornostay" scope rail mount
+Information_Jpn=A universal rail mount for the VPO-215 "Gornostay" rifle, allows installation of various optics.

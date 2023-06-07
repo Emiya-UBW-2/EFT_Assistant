@@ -12,3 +12,5 @@ Sell_Skier=17542
 Sell_Peacekeeper=133
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=GP コイン
+Information_Jpn=奇妙な形の金貨。噂によれば、契約戦争の際にPMCへの支払い手段として積極的に使用されていたらしい。

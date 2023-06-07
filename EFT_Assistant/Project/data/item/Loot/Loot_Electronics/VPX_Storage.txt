@@ -13,3 +13,5 @@ Sell_Peacekeeper=567
 Sell_Mechanic=85344
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=VPX フラッシュストレージモジュール
+Information_Jpn=VPX フラッシュストレージモジュールは、特定用途向け集積回路 (ASIC) によって、256ビット暗号鍵を使用する堅固な暗号化方式 AES256 でデータを暗号化できる高性能かつ大容量のSATA SSDだ。

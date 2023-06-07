@@ -36,3 +36,5 @@ Ergonomics=-4.000000
 SightRange=1500
 sightZooms=6.000000
 sightZooms=1.000000
+Name_Jpn=Vortex Razor HD Gen.2 1-6x24 30mm riflescope
+Information_Jpn=A tactical riflescope designed for quick target acquisition and maximum precision. Manufactured by Vortex Optics.

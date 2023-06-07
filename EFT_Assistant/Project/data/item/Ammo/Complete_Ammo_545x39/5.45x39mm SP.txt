@@ -13,3 +13,5 @@ Sell_Peacekeeper=0
 Sell_Mechanic=33
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=5.45x39mm SP
+Information_Jpn=A 5.45x39mm cartridge with a 3.6 gram lead core soft-point (SP) bullet with a bimetallic semi-jacket in a steel case, intended for hunting, home defense, and target practice. This bullet has a good initial expansion on impact due to the exposure of the lead core at the tip, giving it considerable stopping power effects at the cost of penetration capabilities, even against basic ballistic protection, as well as being able to cause substantial adverse effects on the target after impact.

@@ -11,3 +11,5 @@ Sell_Ragman=1286
 Sell_Jaeger=1245
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
+Name_Jpn=ダッフルバッグ
+Information_Jpn=かつてはフィットネス愛好家や長距離通勤者に使われたダッフルバックだが、今や一般的なScavの持ち物だ。

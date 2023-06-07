@@ -12,3 +12,5 @@ Sell_Fence=1000
 Sell_Skier=1225
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=アポロ ソユーズ シガレット
+Information_Jpn=銘柄 "アポロ ソユーズ" の紙巻たばこ。目に映る星までむせ返るような力強い吸い応えが特徴。

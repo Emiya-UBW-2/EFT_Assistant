@@ -19,3 +19,5 @@ SightRange=100
 sightZooms=1.000000
 sightZooms=1.000000
 sightZooms=1.000000
+Name_Jpn=BelOMO PK-06 reflex sight
+Information_Jpn=A modern open reflex sight with automatic reticle brightness adjustment and switching between 3 reticle types, manufactured by Zenit-BelOMO.

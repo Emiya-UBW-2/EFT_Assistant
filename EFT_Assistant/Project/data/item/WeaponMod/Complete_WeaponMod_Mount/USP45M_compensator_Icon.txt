@@ -35,3 +35,5 @@ Conflict=[
 Recoil=-15.000001
 Ergonomics=-12.000000
 accuracyModifier=0.000000
+Name_Jpn=HK USP .45 ACP Match compensator
+Information_Jpn=The Match compensator from the special USP Match pistol kit will add additional weight to the front of your gun assisting to reduce vertical recoil "bounce". Features a mount for installation of additional tactical equipment. Manufactured by Heckler & Koch.

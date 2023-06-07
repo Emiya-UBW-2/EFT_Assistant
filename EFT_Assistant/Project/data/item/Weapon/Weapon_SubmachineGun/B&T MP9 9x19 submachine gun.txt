@@ -48,3 +48,5 @@ cameraRecoil=0.040800
 cameraSnap=3.500000
 deviationMax=11
 convergence=2.200000
+Name_Jpn=B&T MP9 9x19 submachine gun
+Information_Jpn=The Brügger & Thomet MP9 (Maschinenpistole 9mm, German for machine pistol) is a selective-fire 9x19mm Parabellum caliber machine pistol designed and manufactured by Brügger & Thomet of Switzerland. A perfect choice for a Personal Defense Weapon (PDW).

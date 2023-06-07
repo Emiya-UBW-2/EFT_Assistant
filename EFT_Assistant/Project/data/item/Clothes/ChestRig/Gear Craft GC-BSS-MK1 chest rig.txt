@@ -12,3 +12,5 @@ Sell_Ragman=18609
 Sell_Jaeger=18009
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
+Name_Jpn=Gear Craft GC-BSS-MK1 chest rig
+Information_Jpn=The new generation shoulder belt system, made for patrol and assault operations.

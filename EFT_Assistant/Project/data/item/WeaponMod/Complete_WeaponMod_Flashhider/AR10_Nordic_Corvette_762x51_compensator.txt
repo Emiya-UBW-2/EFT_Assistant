@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-10.000000
 Ergonomics=-1.000000
 accuracyModifier=0.030000
+Name_Jpn=AR-10 Nordic Components Corvette 7.62x51 compensator
+Information_Jpn=The Corvette 7.62x51 Compensator Muzzle Brake from Nordic Components reduces recoil and muzzle flip by directing gases upward and to the side.

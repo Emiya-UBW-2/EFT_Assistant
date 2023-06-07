@@ -13,3 +13,5 @@ Sell_Peacekeeper=62
 Sell_Mechanic=9343
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=ガイガーカウンター
+Information_Jpn=ガイガーミュラー計数管は、電離放射線を検知し自動的にその回数をカウントすることで放射線量を測定できる計測器だ。

@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=10.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 Magpul MOE pistol grip (Black)
+Information_Jpn=The polymer Magpul MOE (Magpul Original Equipment) pistol grip can be installed on any weapon compatible with AR-15 pistol grips. Thanks to the ergonomic shape and anti-slip texture, it makes the weapon grip and control more comfortably. The inside of the grip contains free space for spare parts, tools, batteries, and an accessories kit.

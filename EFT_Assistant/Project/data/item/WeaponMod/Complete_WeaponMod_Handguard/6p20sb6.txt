@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=4.000000
 accuracyModifier=0.000000
+Name_Jpn=AK-74 wooden handguard (6P20 Sb.6)
+Information_Jpn=A standard Izhmash-produced wooden handguard for AK-74 assault rifles.

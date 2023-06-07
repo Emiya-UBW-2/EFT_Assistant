@@ -38,3 +38,5 @@ Conflict=[
 Recoil=-1.000000
 Ergonomics=10.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 Magpul MOE SL medium length M-LOK handguard
+Information_Jpn=The Magpul MOE SL medium length handguard for AR-15 systems, equipped with an M-LOK interface for the installation of additional devices and accessories.

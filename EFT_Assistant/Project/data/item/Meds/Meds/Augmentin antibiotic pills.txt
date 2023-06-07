@@ -18,3 +18,5 @@ uses=1
 painkillerDuration=0
 energyImpact=0
 hydrationImpact=0
+Name_Jpn=オーグメンチン
+Information_Jpn=オーグメンチンは細菌感染症の治療に使用される複合抗生物質製剤だ。

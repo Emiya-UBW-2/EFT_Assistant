@@ -19,3 +19,5 @@ capacity=100
 loadModifier=0.300000
 ammoCheckModifier=0.300000
 malfunctionChance=0.450000
+Name_Jpn=5.56x45 SureFire MAG5-100 STANAG 100-round magazine
+Information_Jpn=A 100-round 5.56x45 SureFire MAG5-100 metal high capacity magazine.

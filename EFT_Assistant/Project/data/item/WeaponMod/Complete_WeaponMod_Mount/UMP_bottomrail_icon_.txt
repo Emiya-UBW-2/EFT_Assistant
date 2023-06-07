@@ -45,3 +45,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=HK UMP bottom handguard rail
+Information_Jpn=A bottom rail for the UMP SMG handguard, allows installation of various tactical foregrips.

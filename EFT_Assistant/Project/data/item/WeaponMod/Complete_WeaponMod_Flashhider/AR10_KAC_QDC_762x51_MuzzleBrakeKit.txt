@@ -19,3 +19,5 @@ ChildParts=[
 Recoil=-13.000000
 Ergonomics=-1.000000
 accuracyModifier=0.030000
+Name_Jpn=AR-10 KAC QDC 7.62x51 Muzzle Brake Kit
+Information_Jpn=Knight's Armament Company Muzzle Brake Kit is an effective muzzle brake that also serves as a platform for attaching the PRS QDC sound suppressor. It can be Installed on AR-10 platform weapons.

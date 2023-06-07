@@ -59,3 +59,5 @@ Conflict=[
 Recoil=0.000000
 Ergonomics=6.500000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 Soyuz-TM 12 inch M-LOK handguard
+Information_Jpn=A 12 inch handguard for AR-15 systems equipped with an M-LOK interface for installation of additional devices and accessories. Manufactured by Soyuz-TM Arms.

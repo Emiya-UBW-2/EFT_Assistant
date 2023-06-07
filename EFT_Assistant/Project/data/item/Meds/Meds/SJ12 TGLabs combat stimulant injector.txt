@@ -49,3 +49,5 @@ stimEffectsduration=300
 stimEffectsvalue=6.000000
 stimEffectspercent=FALSE
 stimEffectsSkiilName=
+Name_Jpn=TGLabs SJ12 の注射器
+Information_Jpn=特殊部隊の工作員向けに開発された戦闘用の精神刺激薬。身体の一部機能を鈍化させ、一時的にエネルギー回生を行うことで効果を発揮する。この薬は視床下部で合成されるバソプレシンを強制的に放出させることで副腎の働きに変化をもたらし、体温を下げて知覚を高めるが、効果の終了後、異常な身体的負荷の代償として40～42度まで体温が上がってしまう。

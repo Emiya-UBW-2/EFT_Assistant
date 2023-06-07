@@ -11,3 +11,5 @@ Sell_Ragman=14012
 Sell_Jaeger=13560
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
+Name_Jpn=LBT-8005A デイパック
+Information_Jpn=A simple and reliable 14-liter backpack in Multicam Black camouflage. Manufactured by London Bridge Trading.

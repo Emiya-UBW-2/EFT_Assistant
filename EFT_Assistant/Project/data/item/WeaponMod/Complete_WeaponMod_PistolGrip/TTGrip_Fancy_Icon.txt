@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=5.000000
 accuracyModifier=0.000000
+Name_Jpn=TT ornated side grips
+Information_Jpn=戦後に登場した豪華なTTピストル用のサイドグリップ。

@@ -9,3 +9,5 @@ weight=0.010000
 Sell_Fence=400
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=12/70 RIP ammo pack (5 pcs)
+Information_Jpn=A cardboard box of 12/70 RIP ammo containing 5 shells.

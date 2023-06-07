@@ -13,3 +13,5 @@ Sell_Peacekeeper=1
 Sell_Mechanic=89
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=9x39mm SP-5 gs
+Information_Jpn=A 9x39mm SP-5 gs (GRAU Index - 7N8) special cartridge with a 16 gram subsonic bullet with a pointed steel core over a lead base with a bimetallic jacket, in a steel case. This cartridge was designed in the mid-1980s based on the 7.62x39mm US gzh cartridge for use in the VSS Vintorez special sniper rifle, being capable of piercing through basic ballistic body protections as well as providing outstanding results against some intermediate protection models, added to its considerable stopping power effect, however, due to its design, it has a high probability of bouncing off various surfaces.

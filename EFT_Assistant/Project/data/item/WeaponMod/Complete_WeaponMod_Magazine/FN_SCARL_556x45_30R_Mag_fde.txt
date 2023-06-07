@@ -19,3 +19,5 @@ capacity=30
 loadModifier=0.000000
 ammoCheckModifier=0.000000
 malfunctionChance=0.080000
+Name_Jpn=FN SCAR-L 5.56x45 30-round magazine (FDE)
+Information_Jpn=A 30-round 5.56x45 metal magazine designed for the SCAR-series weapons. Flat Dark Earth version.

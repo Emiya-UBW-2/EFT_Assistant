@@ -11,3 +11,5 @@ Sell_Peacekeeper=244
 Sell_Mechanic=36792
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=EYE MK.2 プロフェッショナル コンパス
+Information_Jpn=地質学者や測量技師など、専門家も使用する高品質な方位磁針。地磁気を利用して簡単に方位を知ることができるため、素早く目的地に向かうための助けになる。

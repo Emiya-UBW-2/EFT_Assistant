@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=5.500000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 Damage Industries ECS pistol grip (FDE)
+Information_Jpn=The ECS polymer pistol grip can be installed on any weapon compatible with AR-15 grips. Flat Dark Earth version.

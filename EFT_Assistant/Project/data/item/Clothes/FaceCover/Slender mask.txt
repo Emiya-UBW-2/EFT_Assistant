@@ -33,3 +33,5 @@ Conflict=[
 	Rivals 2020 beanie/|
 	USEC baseball cap (Black)
 ]
+Name_Jpn=スレンダーマスク
+Information_Jpn=A non-combat facemask for intimidation effect. Would've probably actually intimidated someone back in 2012.

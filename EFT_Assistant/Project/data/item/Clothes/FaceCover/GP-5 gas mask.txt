@@ -38,3 +38,5 @@ Conflict=[
 	Jack-o'-lantern tactical pumpkin helmet/|
 	Beanie
 ]
+Name_Jpn=GP-5 gas mask
+Information_Jpn=民間用ガスマスクモデル5（GP-5）は着用者の呼吸器や目、顔などを守るガスマスクだ。

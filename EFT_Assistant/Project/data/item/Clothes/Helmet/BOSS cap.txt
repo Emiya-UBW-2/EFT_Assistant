@@ -19,3 +19,5 @@ Conflict=[
 	GP-7 gas mask/|
 	Pestily plague mask
 ]
+Name_Jpn=BOSS キャップ
+Information_Jpn=A fancy red BOSS cap. Yo, fella, you da real BOSS now!

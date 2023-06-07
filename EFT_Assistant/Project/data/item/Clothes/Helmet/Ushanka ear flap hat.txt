@@ -12,3 +12,5 @@ Sell_Peacekeeper=19
 Sell_Ragman=3108
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Ushanka ear flap hat
+Information_Jpn=The Ushanka ear flap hat is a classic hat worn by Russian people, or that is at least what most people from the west seem to believe.

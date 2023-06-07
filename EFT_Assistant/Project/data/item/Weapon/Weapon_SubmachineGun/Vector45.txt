@@ -119,3 +119,5 @@ cameraRecoil=0.086400
 cameraSnap=4.500000
 deviationMax=11
 convergence=3.400000
+Name_Jpn=TDI KRISS Vector Gen.2 .45 ACP submachine gun
+Information_Jpn=The KRISS Vector SMG is the ideal choice for law enforcement and military seeking a controllable and compact weapon system for close quarter combat environments. The low bore axis and Super V recoil mitigation system allow for controllable shots when firing in full-automatic, or fast semi-automatic follow up shots. Compatible with Glock .45 ACP magazines.

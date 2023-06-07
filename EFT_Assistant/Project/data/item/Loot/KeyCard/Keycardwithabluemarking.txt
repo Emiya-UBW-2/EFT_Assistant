@@ -12,3 +12,5 @@ Sell_Mechanic=28000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=1
+Name_Jpn=Keycard with a blue marking
+Information_Jpn=A single-use plastic keycard with a blue color marking, probably for identification. The logo covered by the marking resembles the TerraGroup Labs logo.

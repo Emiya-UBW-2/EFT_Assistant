@@ -21,3 +21,5 @@ Recoil=-3.000000
 Ergonomics=-4.000000
 centerOfImpact=0.290000
 deviationMax=11
+Name_Jpn=M1911A1 .45 ACP threaded barrel
+Information_Jpn=A standard-issue threaded barrel for the M1911A1 .45 ACP pistol, manufactured by Colt.

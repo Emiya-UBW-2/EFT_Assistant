@@ -12,3 +12,5 @@ Sell_Fence=5600
 Sell_Skier=6860
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=ガンパウダー "カイト"
+Information_Jpn=弾薬を作るために必要な火薬の入ったボトル。この "カイト" はニトロセルロースと静電気の発生を抑制するためのグラファイトを含有していることが特徴だ。

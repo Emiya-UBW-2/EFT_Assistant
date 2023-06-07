@@ -47,3 +47,5 @@ Conflict=[
 Recoil=-1.000000
 Ergonomics=4.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 KAC URX 3 8 inch lower handguard
+Information_Jpn=The Knight's Armament URX 3 lower handguard for AR-15 equipped with a unique interface for installation of additional devices and accessories.

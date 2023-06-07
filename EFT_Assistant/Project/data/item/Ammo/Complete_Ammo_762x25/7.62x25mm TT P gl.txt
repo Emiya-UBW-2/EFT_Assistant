@@ -13,3 +13,5 @@ Sell_Peacekeeper=0
 Sell_Mechanic=29
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=7.62x25mm TT P gl
+Information_Jpn=A 7.62x25mm Tokarev P gl (GAU Index - 57-N-132) cartridge with a 5.5 gram lead core bullet with a bimetallic jacket in a brass case. This is a rudimentary cartridge that was released alongside the adoption of the TT pistol in the USSR.

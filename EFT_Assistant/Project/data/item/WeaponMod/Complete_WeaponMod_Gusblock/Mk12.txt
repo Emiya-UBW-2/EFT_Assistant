@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-2.000000
 Ergonomics=1.000000
 accuracyModifier=0.000000
+Name_Jpn=MK12 ロープロファイル ガスブロック
+Information_Jpn=A gas block for MK12 Special Purpose Rifle, can also be installed on most AR-15 system barrels. Manufactured by Daniel Defense.

@@ -10,3 +10,5 @@ Sell_Therapist=4484
 Sell_Fence=2847
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=クリン ガラスクリーナー
+Information_Jpn="クリン" は窓や鏡などのガラス面に使用する洗浄剤だ。自家製の化学製品の製造にも使用されている。

@@ -19,3 +19,5 @@ capacity=12
 loadModifier=-0.100000
 ammoCheckModifier=-0.200000
 malfunctionChance=0.018000
+Name_Jpn=HK USP Tactical .45 ACP 12-round magazine
+Information_Jpn=A 12-round .45 ACP magazine for the special version of the USP45 pistol - USP45 Tactical.

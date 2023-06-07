@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Lighthouse
+Name_Jpn=Water treatment plant storage room key
+Information_Jpn=A key that opens the storage room, located somewhere at the water treatment plant.

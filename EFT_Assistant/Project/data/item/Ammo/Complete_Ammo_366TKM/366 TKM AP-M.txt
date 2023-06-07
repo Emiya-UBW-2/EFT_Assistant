@@ -13,3 +13,5 @@ Sell_Peacekeeper=2
 Sell_Mechanic=259
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=.366 TKM AP-M
+Information_Jpn=A .366 TKM (9.55x39mm) AP-M cartridge loaded with an 16 gram armor-piercing bullet from a 9x39mm SP-6 gs cartridge, composed of a hardened carbon steel core with a two-layer semi-jacket, a lead interior and a bimetallic exterior, in a modified steel case. This ingeniously improvised cartridge was created by Mechanic due to the precarious situation of its customers in Tarkov, resulting in a cartridge that can pierce through basic and intermediate ballistic body protection, as well as providing a considerable stopping power effect, however, its own design alters its flight pattern, making it less accurate. Its design also allows it to be used in 7.62x39mm AK magazines without any problem.

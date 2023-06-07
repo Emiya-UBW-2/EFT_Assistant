@@ -42,3 +42,5 @@ cameraRecoil=0.105600
 cameraSnap=3.500000
 deviationMax=30
 convergence=1.700000
+Name_Jpn=Kel-Tec RFB 7.62x51 rifle
+Information_Jpn=The Kel-Tec RFB (Rifle, Forward-ejection, Bullpup) is a gas-operated bullpup type semi-automatic rifle, manufactured by Kel-Tec. Chambered in 7.62x51mm NATO/.308 Winchester ammunition. The RFB uses metric FAL magazines, which insert straight into the magazine well and do not need to rock into place. The weapon is fully ambidextrous, much in the style of the Belgian F2000 rifle. The RFB is delivered without iron sights. A mil-spec Picatinny rail is provided for mounting a wide range of optics and tactical accessories.

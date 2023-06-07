@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=2.000000
 accuracyModifier=0.000000
+Name_Jpn=Steyr AUG A1 charging handle
+Information_Jpn=A standard charging handle for AUG A1. Manufactured by Steyr-Daimler-Puch.

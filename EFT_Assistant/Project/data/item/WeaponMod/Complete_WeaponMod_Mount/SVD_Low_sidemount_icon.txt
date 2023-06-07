@@ -91,3 +91,5 @@ Conflict=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=SVD SAG low profile sidemount
+Information_Jpn=A low-profile side mount, all-milled from a bar of high-strength aluminum alloy B95T. Designed to fit on SVD sniper for various optics installation, but can also be fitted on Vepr Hunter, AS Val and VSS rifles. Manufactured by Sureshot Armament Group.

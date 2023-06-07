@@ -20,3 +20,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=PVS-7用 Wilcox インターフェイス
+Information_Jpn=AN/PVS-7B/7D用Wilcox NVGインターフェイスは、さまざまなナイトビジョンデバイスに付属するプラスチック製シューマウントに代わるものとして設計された。

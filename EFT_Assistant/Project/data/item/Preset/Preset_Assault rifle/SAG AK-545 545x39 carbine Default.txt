@@ -26,3 +26,4 @@ containsItems=[
 	High Standard M4SS Stockx1/|
 	AK-74 5.45x39 6L23 30-round magazinex1
 ]
+Name_Jpn=SAG AK-545 5.45x39 carbine デフォルト

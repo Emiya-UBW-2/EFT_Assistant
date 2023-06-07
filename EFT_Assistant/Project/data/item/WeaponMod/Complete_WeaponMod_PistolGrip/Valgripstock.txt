@@ -41,3 +41,5 @@ Conflict=[
 Recoil=0.000000
 Ergonomics=5.000000
 accuracyModifier=0.000000
+Name_Jpn=AS VAL Rotor 43 pistol grip & buffer tube
+Information_Jpn=A pistol grip with an integrated Mil-Spec buffer tube for AS VAL, manufactured by Rotor 43.

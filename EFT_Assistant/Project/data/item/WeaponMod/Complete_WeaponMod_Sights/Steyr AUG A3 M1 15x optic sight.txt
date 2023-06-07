@@ -42,3 +42,5 @@ Recoil=0.000000
 Ergonomics=-2.000000
 SightRange=600
 sightZooms=1.500000
+Name_Jpn=Steyr AUG A3 M1 1.5x optic sight
+Information_Jpn=A standard optic sight for the AUG A3 M1 assault rifle. The sight provides a 1.5x zoom and has mounts for red dot sights and tactical equipment. Manufactured by Steyr-Daimler-Puch.

@@ -35,3 +35,5 @@ stimEffectsduration=120
 stimEffectsvalue=-0.300000
 stimEffectspercent=FALSE
 stimEffectsSkiilName=
+Name_Jpn=AHF1-M の注射器
+Information_Jpn=血液凝固因子を基とした軍用ドラッグで、USECのオペレーターが使用する強力な止血剤としてTerraGroup Labsにより開発された。一時的に出血を止め、また新たな出血も起こりにくくなる。僅かに体調も良くなるが代わりに脱水症状を起こしやすくなる。

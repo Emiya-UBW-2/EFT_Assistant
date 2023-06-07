@@ -69,3 +69,5 @@ Conflict=[
 Recoil=-1.000000
 Ergonomics=7.000000
 accuracyModifier=0.010000
+Name_Jpn=AR-10 KAC URX 4 14.5 inch handguard
+Information_Jpn=URX 4 is a 14.5 inch long lightweight M-LOK-compatible handguard for AR-10 system rifles. Manufactured by Knight's Armament Company.

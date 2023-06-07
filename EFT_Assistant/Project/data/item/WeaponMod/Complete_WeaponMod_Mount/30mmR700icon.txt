@@ -25,3 +25,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-1.500000
 accuracyModifier=0.000000
+Name_Jpn=M700 30mm integral ring scope mount
+Information_Jpn=model 700に取り付けるためのユニバーサル30mm スコープベースマウント。

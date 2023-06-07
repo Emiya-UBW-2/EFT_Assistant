@@ -25,3 +25,4 @@ containsItems=[
 	MP-155 Ultima thermal camerax1/|
 	MP-155 Ultima top railx1
 ]
+Name_Jpn=MP-155 12ゲージ セミオートマチックショットガン Ultima

@@ -12,3 +12,5 @@ Sell_Peacekeeper=6
 Sell_Ragman=933
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=警察キャップ
+Information_Jpn=A Tarkov police cap, ususally worn by patrol units.

@@ -34,3 +34,5 @@ Conflict=[
 Recoil=-2.000000
 Ergonomics=14.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 Precision Reflex GEN III Delta Carbon handguard
+Information_Jpn=The GEN III Delta Carbon handguard for AR-15 systems, equipped with a custom interface for the installation of additional devices and accessories. Manufactured by Precision Reflex.

@@ -13,3 +13,5 @@ Sell_Peacekeeper=107
 Sell_Ragman=17794
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmor
+Name_Jpn=6B2 body armor (Flora)
+Information_Jpn=An old army body armor from Afghanistan war times, mainly designed to protect against pistol bullets and explosion fragments. It fulfilled its mission, but was soon replaced by bulletproof vests with differentiated protection.

@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=2.000000
 accuracyModifier=0.000000
+Name_Jpn=SV-98 sound suppressor heat shield
+Information_Jpn=A standard-issue heat shield for SV-98 sound suppressors.

@@ -8,3 +8,5 @@ height=3
 weight=2.000000
 fleaMarketFee=0
 propertiestype=ItemPropertiesContainer
+Name_Jpn=セキュアコンテナ Kappa
+Information_Jpn=A secret TerraGroup invention - the Kappa secured container.

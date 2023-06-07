@@ -13,3 +13,5 @@ Sell_Peacekeeper=446
 Sell_Mechanic=67200
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Virtex プログラマブルプロセッサ
+Information_Jpn=軍用の特殊なプログラマブルプロセッサ。大量の情報を遅延なく処理し高速通信を行うための装置だ。

@@ -20,3 +20,4 @@ containsItems=[
 	TT ornated side gripsx1/|
 	TT 7.62x25 tt-105 8-round magazinex1
 ]
+Name_Jpn=TT-33 7.62x25 TT pistol (Golden) デフォルト

@@ -12,3 +12,5 @@ Sell_Ragman=26843
 Sell_Jaeger=25977
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
+Name_Jpn=Velocity Systems 多目的パトロールベスト
+Information_Jpn=Multi-Purpose Patrol Vest is designed for those patrolling situations where armor is not needed. A lightweight rig with a lot of pouches. Manufactured by Velocity Systems.

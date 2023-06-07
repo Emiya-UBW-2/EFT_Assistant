@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-7.500000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 Yankee Hill Phantom 5.56x45 flash hider
+Information_Jpn=The Phantom flash hider designed for the AR-15 platform, manufactured by Yankee Hill. Fits 5.56x45 barrels.

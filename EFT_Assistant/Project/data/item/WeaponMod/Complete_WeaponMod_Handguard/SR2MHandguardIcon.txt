@@ -24,3 +24,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=5.000000
 accuracyModifier=0.000000
+Name_Jpn=SR-2M ポリマーハンドガード
+Information_Jpn=火傷を防止するためのTsNIItochmash製SR-2M "Veresk"標準ポリマーハンドガード。

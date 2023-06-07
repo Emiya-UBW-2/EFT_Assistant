@@ -19,3 +19,5 @@ capacity=20
 loadModifier=0.000000
 ammoCheckModifier=0.000000
 malfunctionChance=0.090000
+Name_Jpn=SVD 7.62x54R 20-round magazine
+Information_Jpn=A 20-round 7.62x54R steel Izhmash SVD magazine, for SVD-based rifles.

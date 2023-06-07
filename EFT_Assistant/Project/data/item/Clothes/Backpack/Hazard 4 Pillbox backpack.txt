@@ -11,3 +11,5 @@ Sell_Ragman=13640
 Sell_Jaeger=13200
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
+Name_Jpn=Hazard 4 Pillbox backpack
+Information_Jpn=A compact backpack for safe storage of fragile items, electronics and other valuables. Military modular webbing (MOLLE) is provided throughout on the sides, straps, and interior along with velcro panels to allow expansion with pouches, velcro i.d. patches, etc. Manufactured by Hazard 4.

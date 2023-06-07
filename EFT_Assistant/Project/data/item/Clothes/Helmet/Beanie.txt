@@ -12,3 +12,5 @@ Sell_Peacekeeper=4
 Sell_Ragman=663
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=ビーニー帽
+Information_Jpn=暖かいビーニー帽。元々はスキーをする人のために作られたものだが、様々な人が着用している。

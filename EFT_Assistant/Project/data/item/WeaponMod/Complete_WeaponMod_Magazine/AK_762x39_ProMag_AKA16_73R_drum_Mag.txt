@@ -19,3 +19,5 @@ capacity=73
 loadModifier=0.600000
 ammoCheckModifier=0.150000
 malfunctionChance=0.350000
+Name_Jpn=AK 7.62x39 ProMag AK-A-16 73-round drum magazine
+Information_Jpn=A 73-round polymer ProMag magazine for 7.62x39 AKM and compatible systems.

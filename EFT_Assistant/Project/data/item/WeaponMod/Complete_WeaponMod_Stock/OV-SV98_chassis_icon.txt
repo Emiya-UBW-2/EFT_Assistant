@@ -47,3 +47,5 @@ ChildParts=[
 Recoil=-6.000000
 Ergonomics=10.000000
 accuracyModifier=0.000000
+Name_Jpn=SV-98 CNC Guns OV-SV98 chassis
+Information_Jpn=The OV-SV98 chassis for the SV-98 sniper rifle, manufactured by CNC Guns.

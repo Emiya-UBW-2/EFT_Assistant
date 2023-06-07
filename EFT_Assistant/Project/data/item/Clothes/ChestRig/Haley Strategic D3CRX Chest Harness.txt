@@ -12,3 +12,5 @@ Sell_Ragman=19592
 Sell_Jaeger=18960
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
+Name_Jpn=Haley Strategic D3CRX チェストハーネス
+Information_Jpn=Haley Strategic製D3CRXコンバットチェストリグはもっと高く評価されているPMC向けリグのひとつ。最適な数のポーチにより、楽にそして快適に使用できる。

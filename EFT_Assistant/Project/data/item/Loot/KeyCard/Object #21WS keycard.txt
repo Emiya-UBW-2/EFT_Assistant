@@ -12,3 +12,5 @@ Sell_Mechanic=28000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=15
+Name_Jpn=Object #21WS キーカード
+Information_Jpn=An electronic limited-use access keycard that, according to the logo on the front, belongs to TerraGroup.

@@ -18,3 +18,5 @@ Recoil=-3.000000
 Ergonomics=-5.000000
 centerOfImpact=0.210000
 deviationMax=7
+Name_Jpn=PPSh-41 7.62x25 10.6 inch barrel
+Information_Jpn=A 10.6 inch (269mm) long barrel for the PPSh-41, chambered in 7.62x25.

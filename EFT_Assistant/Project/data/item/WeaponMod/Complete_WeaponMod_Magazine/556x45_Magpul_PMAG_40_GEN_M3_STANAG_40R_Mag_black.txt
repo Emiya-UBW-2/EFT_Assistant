@@ -19,3 +19,5 @@ capacity=40
 loadModifier=0.100000
 ammoCheckModifier=0.150000
 malfunctionChance=0.170000
+Name_Jpn=5.56x45 Magpul PMAG 40 GEN M3 STANAG 40-round magazine
+Information_Jpn=The PMAG 40 GEN M3 is a 40-round 5.56x45 NATO (.223 Remington) polymer magazine for AR-15/M4 compatible weapons.

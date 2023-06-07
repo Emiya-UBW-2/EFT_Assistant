@@ -24,3 +24,5 @@ capacity=11
 loadModifier=0.000000
 ammoCheckModifier=0.000000
 malfunctionChance=0.012000
+Name_Jpn=Benelli M3 Super 90 12ga Toni System 11-shell magazine
+Information_Jpn=A 12ga 11-shell capacity tube magazine by Toni System for Benelli M3 S90 shotguns.

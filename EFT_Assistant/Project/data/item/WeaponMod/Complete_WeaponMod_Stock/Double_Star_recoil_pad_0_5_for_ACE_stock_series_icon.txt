@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-3.000000
 Ergonomics=2.000000
 accuracyModifier=0.000000
+Name_Jpn=DoubleStar ACE recoil pad
+Information_Jpn=A short 0.5 inch recoil pad for DoubleStar ACE stocks.

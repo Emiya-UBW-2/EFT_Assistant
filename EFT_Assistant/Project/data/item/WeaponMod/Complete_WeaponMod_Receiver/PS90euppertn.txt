@@ -26,3 +26,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-5.000000
 accuracyModifier=0.000000
+Name_Jpn=FN PS90 5.7x28 upper receiver
+Information_Jpn=A regular upper receiver for the PS90, produced by Fabrique Nationale Herstal.

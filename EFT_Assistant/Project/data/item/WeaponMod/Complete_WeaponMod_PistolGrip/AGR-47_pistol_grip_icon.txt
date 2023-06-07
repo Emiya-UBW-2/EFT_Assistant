@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=7.000000
 accuracyModifier=0.000000
+Name_Jpn=AK FAB Defense AGR-47 pistol grip
+Information_Jpn=The AGR-47 pistol grip for AK-family automatic rifles and compatibles, manufactured by FAB Defense.

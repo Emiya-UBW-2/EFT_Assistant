@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-13.000000
 Ergonomics=-28.000000
 accuracyModifier=0.000000
+Name_Jpn=AWC Thor PSR XL multi-caliber sound suppressor
+Information_Jpn=The Thor PSR XL sound suppressor is designed for use with 7.62x51 NATO rounds, but is also compatible with several other calibers. Requires an AWC PSR muzzle brake for installation. Manufactured by AWC Silencers.

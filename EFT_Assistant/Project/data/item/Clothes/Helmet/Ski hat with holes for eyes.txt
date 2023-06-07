@@ -12,3 +12,5 @@ Sell_Peacekeeper=21
 Sell_Ragman=3444
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=目出しスキー帽
+Information_Jpn=Wow, man! This is where the style is. As well as warmth and comfort.

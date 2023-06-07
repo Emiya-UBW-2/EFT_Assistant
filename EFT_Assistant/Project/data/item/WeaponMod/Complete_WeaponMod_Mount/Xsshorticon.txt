@@ -47,3 +47,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=M870 XS SHOTRAIL rail with Ghost Ring rear sight
+Information_Jpn=A Picatinny rail with a Ghost Ring type rear sight for the Remington Model 870 shotgun, which is mounted on top of the standard receiver.

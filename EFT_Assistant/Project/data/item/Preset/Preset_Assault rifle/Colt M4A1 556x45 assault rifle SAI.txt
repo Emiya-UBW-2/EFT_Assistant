@@ -34,3 +34,4 @@ containsItems=[
 	DoubleStar ACE recoil padx1/|
 	AR-15 Radian Weapons Raptor charging handle (Grey)x1
 ]
+Name_Jpn=Colt M4A1 5.56x45 assault rifle SAI

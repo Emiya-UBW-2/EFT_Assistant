@@ -12,3 +12,5 @@ Sell_Fence=42000
 Sell_Mechanic=58800
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Bulbex ラチェットケーブルカッター
+Information_Jpn=ラチェット操作で簡単に電線を切断できる高品質なケーブルカッター。一般電気工事、変電設備工事、通信線敷設工事などに使用される。

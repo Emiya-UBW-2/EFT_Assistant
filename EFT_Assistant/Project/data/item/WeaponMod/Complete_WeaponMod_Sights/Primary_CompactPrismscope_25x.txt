@@ -18,3 +18,5 @@ Recoil=0.000000
 Ergonomics=-3.000000
 SightRange=800
 sightZooms=2.500000
+Name_Jpn=Kiba Arms Short Prism 2.5x scope
+Information_Jpn=The Short Prism 2.5x magnification scope, manufactured by Kiba Arms. The low magnification and bright illuminated reticle allow for fast both-eyes-open shooting at close range.

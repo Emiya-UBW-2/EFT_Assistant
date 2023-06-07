@@ -9,3 +9,5 @@ weight=0.020000
 Sell_Fence=400
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=9x39mm SPP gs ammo pack (8 pcs)
+Information_Jpn=A package of 9x39mm SPP gs cartridges, 8 pieces.

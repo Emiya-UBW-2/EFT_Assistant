@@ -66,3 +66,5 @@ cameraRecoil=0.144000
 cameraSnap=3.000000
 deviationMax=10
 convergence=1.300000
+Name_Jpn=MP-133 12ga ポンプアクション ショットガン
+Information_Jpn=MP-133 は、IzhMekh が製造した手動連発式のポンプアクション ショットガンだ。初期の IZh-81 を発展させたモデルで、主に狩猟またはセキュリティ市場向けの散弾銃として量産された。

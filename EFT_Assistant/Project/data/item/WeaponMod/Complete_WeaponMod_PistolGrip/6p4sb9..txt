@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=6.000000
 accuracyModifier=0.000000
+Name_Jpn=AK bakelite pistol grip (6P4 Sb.9)
+Information_Jpn=A bakelite Izhmash-manufatured pistol grip for the AK automatic rifles and compatible weapon systems.

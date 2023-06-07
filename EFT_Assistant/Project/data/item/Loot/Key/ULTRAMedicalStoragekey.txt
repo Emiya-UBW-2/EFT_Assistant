@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Interchange
+Name_Jpn=ULTRA 医薬品倉庫の鍵
+Information_Jpn=A key to the ULTRA shopping mall medical storage room.

@@ -12,3 +12,5 @@ Sell_Peacekeeper=376
 Sell_Ragman=62620
 fleaMarketFee=0
 propertiestype=ItemPropertiesHelmet
+Name_Jpn=Diamond Age Bastion helmet
+Information_Jpn=メーカーによると、Bastionは銃口初速のライフルの徹甲弾でさえも防ぐことができる世界で初めてのコンバットヘルメットだ。

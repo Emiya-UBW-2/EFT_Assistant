@@ -11,3 +11,5 @@ Sell_Therapist=3150
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=1
+Name_Jpn=Primorsky Ave apartment key
+Information_Jpn=Choreographer key at Primorsky 48.

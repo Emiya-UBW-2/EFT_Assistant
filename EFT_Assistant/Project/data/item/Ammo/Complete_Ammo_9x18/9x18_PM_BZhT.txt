@@ -13,3 +13,5 @@ Sell_Peacekeeper=0
 Sell_Mechanic=36
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=9x18mm PM BZhT gzh
+Information_Jpn=A 9x18mm Makarov BZhT gzh (GRAU Index - 7N15) cartridge with a 5 gram bullet made of solid hardened steel in a bimetallic case. The bullet in this cartridge has a truncated cone design in order to increase its penetration capabilities against some models of basic ballistic body protection.

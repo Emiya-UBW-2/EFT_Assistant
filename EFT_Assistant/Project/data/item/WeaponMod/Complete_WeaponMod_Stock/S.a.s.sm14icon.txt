@@ -249,3 +249,5 @@ Conflict=[
 Recoil=-10.000000
 Ergonomics=28.000000
 accuracyModifier=0.000000
+Name_Jpn=M14 TROY S.A.S.S. Chassis stock
+Information_Jpn=The TROY Semi-Automatic Sniper System chassis is designed to match the ergonomics of M16/M4 weapon systems. This modular quad-rail system allows unlimited mounting options and keeps all optics and sights mounted and undisturbed while field stripping.

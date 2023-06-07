@@ -20,3 +20,5 @@ Conflict=[
 	EMERCOM cap/|
 	Police cap
 ]
+Name_Jpn=ネオプレーンマスク
+Information_Jpn=燃え盛る炎のイラストが描かれたネオプレーンマスク。これなら格好いいだけではなく、危険な雰囲気も纏うことができる。

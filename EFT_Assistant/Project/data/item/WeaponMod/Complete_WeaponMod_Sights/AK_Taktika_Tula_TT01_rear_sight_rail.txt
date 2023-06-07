@@ -45,3 +45,5 @@ Recoil=0.000000
 Ergonomics=-1.000000
 SightRange=500
 sightZooms=1.000000
+Name_Jpn=AK Taktika Tula TT01 rear sight rail
+Information_Jpn=The TT01 rear sight adapter, designed by Taktika Tula for AK family assault rifles. Installed in place of a standard rear sight and can be used as an iron sight if no reflex sight is installed.

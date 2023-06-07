@@ -13,3 +13,5 @@ Sell_Mechanic=47600
 Sell_Jaeger=51000
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Cyclon 充電式バッテリー
+Information_Jpn=産業機器や軍事機器に使用される特殊な蓄電池。

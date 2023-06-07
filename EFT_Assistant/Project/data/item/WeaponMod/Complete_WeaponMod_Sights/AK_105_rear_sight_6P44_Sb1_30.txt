@@ -20,3 +20,5 @@ Recoil=0.000000
 Ergonomics=0.000000
 SightRange=500
 sightZooms=1.000000
+Name_Jpn=AK-105 rear sight (6P44 Sb.1-30)
+Information_Jpn=A standard rear sight for AK-105 automatic rifles, manufactured by Izhmash.

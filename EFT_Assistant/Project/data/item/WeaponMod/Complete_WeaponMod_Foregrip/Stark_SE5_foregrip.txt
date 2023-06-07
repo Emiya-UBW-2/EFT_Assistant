@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-2.000000
 Ergonomics=8.000000
 accuracyModifier=0.000000
+Name_Jpn=Stark SE-5 Express Forward foregrip
+Information_Jpn=The Stark SE-5 Express Forward tactical grip enables a more natural grip against the barrel axis. Thanks to that, it reduces recoil and improves the weapon control.

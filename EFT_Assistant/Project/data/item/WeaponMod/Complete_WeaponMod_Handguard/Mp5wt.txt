@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=10.000000
 accuracyModifier=0.000000
+Name_Jpn=MP5 Wide Tropical ポリマーハンドガード
+Information_Jpn=HK製 MP5 SMG用のポリマー製ハンドガード。いわゆるワイドトロピカル型。

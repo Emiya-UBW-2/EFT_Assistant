@@ -11,3 +11,5 @@ Sell_Ragman=226985
 Sell_Jaeger=219663
 fleaMarketFee=0
 propertiestype=ItemPropertiesContainer
+Name_Jpn=医薬品ケース
+Information_Jpn=医薬品を保管するためのケース。

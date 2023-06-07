@@ -17,3 +17,5 @@ Recoil=0.000000
 Ergonomics=-2.000000
 SightRange=400
 sightZooms=1.000000
+Name_Jpn=EOTech XPS3-2 holographic sight
+Information_Jpn=XPS3は他のホロサイトと同等の性能を持ちながらもコンパクトなため、マウントスペースが広がり更に多くの装備品の装着が可能になる。ハンターと兵士の双方から高く評価されており、特に長時間にわたる作戦時などはその小型軽量さの真価が発揮される。この3-2モデルは1MOAの2ドットレティクルを備える。

@@ -12,3 +12,5 @@ Sell_Ragman=23250
 Sell_Jaeger=22500
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
+Name_Jpn=Stich Profi Chest Rig MK2 (Assault, A-TACS FG)
+Information_Jpn=The "Chest-Rig" tactical system can be used as an independent piece of equipment or as an addition to body armor without the MOLLE system. Suitable for combat training instructors, special forces units. Assault preset in A-TACS FG camouflage. Manufactured by Stich Profi.

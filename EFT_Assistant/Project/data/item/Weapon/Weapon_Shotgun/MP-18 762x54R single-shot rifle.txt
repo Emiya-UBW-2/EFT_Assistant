@@ -34,3 +34,5 @@ cameraRecoil=0.129600
 cameraSnap=2.200000
 deviationMax=10
 convergence=1.200000
+Name_Jpn=MP-18 7.62x54R single-shot rifle
+Information_Jpn=MP-18 is the legendary Soviet single-barreled rifle. This gun behaves perfectly in all weather conditions, no breakdowns or failures have ever been identified.

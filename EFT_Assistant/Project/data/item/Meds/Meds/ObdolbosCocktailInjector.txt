@@ -112,3 +112,5 @@ stimEffectsduration=1800
 stimEffectsvalue=0.000000
 stimEffectspercent=TRUE
 stimEffectsSkiilName=
+Name_Jpn="オブドルボス" カクテルの注射器
+Information_Jpn=TerraGroup Labsの元従業員によって作られた自家製ドラッグの注射器。副作用はその都度異なる。使用にはリスクを伴うが、もはや失うものなど何もないだろう。

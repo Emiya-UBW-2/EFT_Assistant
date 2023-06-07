@@ -12,3 +12,5 @@ Sell_Peacekeeper=17
 Sell_Ragman=2914
 fleaMarketFee=0
 propertiestype=ItemPropertiesGlasses
+Name_Jpn=Oakley SI M Frame safety glasses
+Information_Jpn=耐衝撃性ポリカーボネイト製のセーフティグラス。

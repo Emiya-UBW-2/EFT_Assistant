@@ -33,3 +33,4 @@ containsItems=[
 	TROY M7A1 PDW stock (Black)x1/|
 	MPX double latch charging handlex1
 ]
+Name_Jpn=SIG MPX 9x19 submachine gun MQB

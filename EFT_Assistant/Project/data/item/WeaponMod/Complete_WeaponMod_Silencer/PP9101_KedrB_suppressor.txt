@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-13.000000
 Ergonomics=-16.000000
 accuracyModifier=0.000000
+Name_Jpn=PP-91-01 "Kedr-B" 9x18PM sound suppressor
+Information_Jpn=A standard-issue detachable PP-91-01 Kedr-B 9x18PM sound suppressor. It can be removed for compact carrying purposes.

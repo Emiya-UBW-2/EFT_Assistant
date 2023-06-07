@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=10.000000
 accuracyModifier=0.000000
+Name_Jpn=Benelli M3 telescopic stock pistol grip
+Information_Jpn=A special pistol grip for M3 telescopic stocks manufactured by Benelli.

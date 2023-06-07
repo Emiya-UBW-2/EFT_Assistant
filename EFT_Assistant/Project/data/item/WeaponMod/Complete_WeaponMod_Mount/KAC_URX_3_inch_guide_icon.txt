@@ -45,3 +45,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=KAC URX 3 3 inch rail
+Information_Jpn=The KAC URX3 3 inch rail allows installation of additional equipment on the Knight's Armanent Company URX handguards.

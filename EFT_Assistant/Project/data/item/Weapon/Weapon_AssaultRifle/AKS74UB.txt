@@ -110,3 +110,5 @@ cameraRecoil=0.079200
 cameraSnap=3.500000
 deviationMax=15
 convergence=1.700000
+Name_Jpn=Kalashnikov AKS-74UB 5.45x39 assault rifle
+Information_Jpn=A special version of the AKS-74U assault rifle, modification B (Besshumny - "Silenced") is issued with a dovetail scope mount, a sound suppressor device, and special sights designed for firing subsonic ammunition.

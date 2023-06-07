@@ -98,6 +98,17 @@ namespace FPS_n2 {
 			YPos += Ysize + y_r(5);
 
 			if (DataBase::Instance()->DataUpdate(
+				EnumDataType::ITEMDATAJP,
+				XPos, YPos, Xsize, Ysize, (ttt == -1), Color, "アイテム日本語更新",
+				"data/query/barter_ja_query.txt",
+				"data/item/Maked/Maked/",
+				"items"
+			)) {
+				TimeCard();
+			}
+			YPos += Ysize + y_r(5);
+
+			if (DataBase::Instance()->DataUpdate(
 				EnumDataType::TASKDATA,
 				XPos, YPos, Xsize, Ysize, (ttt == -1), Color, "タスク更新",
 				"data/query/task_query.txt",

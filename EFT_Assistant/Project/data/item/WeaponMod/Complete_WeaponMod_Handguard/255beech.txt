@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-2.000000
 Ergonomics=9.000000
 accuracyModifier=0.000000
+Name_Jpn=MTs-255-12 beechwood forestock
+Information_Jpn=A standard-issue forestock for the MTs-255 shotgun, made out of beechwood.

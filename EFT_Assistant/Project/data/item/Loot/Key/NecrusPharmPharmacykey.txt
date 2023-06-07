@@ -13,3 +13,5 @@ propertiestype=ItemPropertiesKey
 uses=40
 Map=Interchange
 Map=Interchange
+Name_Jpn=NecrusPharm pharmacy key
+Information_Jpn=A key to the NecrusPharm pharmacy at the ULTRA shopping mall.

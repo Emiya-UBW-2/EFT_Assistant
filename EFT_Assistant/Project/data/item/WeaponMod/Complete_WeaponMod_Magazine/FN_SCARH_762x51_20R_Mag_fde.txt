@@ -19,3 +19,5 @@ capacity=20
 loadModifier=0.000000
 ammoCheckModifier=0.000000
 malfunctionChance=0.015000
+Name_Jpn=FN SCAR-H 7.62x51 20-round magazine (FDE)
+Information_Jpn=A 20-round magazine for the FN SCAR-H 7.62x51 battle rifle. Flat Dark Earth version.

@@ -36,3 +36,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=PP-91 "Kedr" Rotor 43 RIS mount
+Information_Jpn=A RIS mount for PP-91 Kedr SMG, manufactured by Rotor 43.

@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-34.000000
 Ergonomics=16.000000
 accuracyModifier=0.000000
+Name_Jpn=SA-58/FAL Magpul PRS 2 polymer stock
+Information_Jpn=The PRS 2 polymer stock for FAL series rifles. Manufactured by Magpul.

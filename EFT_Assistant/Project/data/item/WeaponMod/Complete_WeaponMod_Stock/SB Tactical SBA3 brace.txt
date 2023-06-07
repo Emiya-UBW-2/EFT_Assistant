@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-29.000000
 Ergonomics=10.000000
 accuracyModifier=0.000000
+Name_Jpn=SB Tactical SBA3 brace
+Information_Jpn=The SBA3 Pistol Stabilizing Brace, designed and manufactured by SB Tactical. Installed on AR-15 weapon systems.

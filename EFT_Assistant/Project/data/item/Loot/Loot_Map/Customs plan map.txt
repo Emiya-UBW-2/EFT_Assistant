@@ -10,3 +10,5 @@ Sell_Therapist=8459
 Sell_Fence=5371
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Customs plan map
+Information_Jpn=A paper plan map of the vast Customs premises. Not the most up-to-date copy, but it's better than nothing.

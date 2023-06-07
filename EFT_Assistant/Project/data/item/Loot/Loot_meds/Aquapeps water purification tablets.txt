@@ -11,3 +11,5 @@ Sell_Fence=12036
 Sell_Jaeger=18054
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Aquapeps 浄水タブレット
+Information_Jpn=病原体に汚染されている可能性のある飲料水を浄化するために使用するタブレット。

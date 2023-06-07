@@ -12,3 +12,5 @@ Sell_Peacekeeper=6
 Sell_Ragman=1070
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=BEAR baseball cap (Green)
+Information_Jpn=A tactical BEAR PMC baseball cap. Green version.

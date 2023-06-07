@@ -44,3 +44,5 @@ ChildParts=[
 Recoil=-5.000000
 Ergonomics=-3.000000
 accuracyModifier=0.000000
+Name_Jpn=Mesa Tactical Crosshair Hydraulic バッファーチューブ
+Information_Jpn=The Crosshair Hydraulic buffer tube by Mesa Tactical. Has a moving hydraulic element that mitigates recoil. Requires a LEO stock adapter for installation.

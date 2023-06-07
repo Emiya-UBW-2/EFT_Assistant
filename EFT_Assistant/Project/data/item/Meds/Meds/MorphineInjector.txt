@@ -18,3 +18,5 @@ uses=1
 painkillerDuration=0
 energyImpact=0
 hydrationImpact=0
+Name_Jpn=モルヒネの注射器
+Information_Jpn=モルヒネで満たされた使い捨ての注射器。強力な薬で主に急性および慢性的な疼痛の軽減のために使用される。

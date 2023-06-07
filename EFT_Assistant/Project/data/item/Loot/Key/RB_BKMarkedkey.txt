@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=10
 Map=Reserve
+Name_Jpn=RB-BK marked key
+Information_Jpn=A Federal State Reserve Agency base eastern barracks metalsmiths' room key with multiple strange symbols scratched onto it where the room label would usually be. The key is stained by blood and appears to have been misused a lot, making it fragile.

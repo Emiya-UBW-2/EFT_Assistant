@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Customs
+Name_Jpn=ポータブルキャビンの鍵
+Information_Jpn=現地で移動できるように作られた可搬式の税関監視員詰所の鍵。

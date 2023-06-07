@@ -13,3 +13,5 @@ Sell_Peacekeeper=0
 Sell_Mechanic=25
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=5.45x39mm PRS gs
+Information_Jpn=A 5.45x39mm PRS gs cartridge with a 3.9 gram soft lead core bullet with a bimetallic jacket in a steel case. This PRS bullet (Ponízhennoy Rikoshetíruyushchey Sposóbnosti - "Reduced Ricochet Ability") was designed in the early 2000s to crumble and rapidly lose speed when hitting a solid object in order to substantially reduce collateral damage from ricochets during urban operations carried out by law enforcement agencies and groups from the Ministry of Internal Affairs, thus achieving a considerable stopping power effect on the target at the cost of penetration capabilities, even against basic ballistic protection.

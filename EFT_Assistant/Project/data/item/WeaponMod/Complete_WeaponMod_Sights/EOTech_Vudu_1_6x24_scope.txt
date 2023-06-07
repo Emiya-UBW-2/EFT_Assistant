@@ -36,3 +36,5 @@ Ergonomics=-3.000000
 SightRange=1500
 sightZooms=6.000000
 sightZooms=1.000000
+Name_Jpn=EOTech Vudu 1-6x24 30mm riflescope
+Information_Jpn=The EOTech Vudu 1-6x24 riflescope, equally effective on AR platforms and bolt-action rifles. Its EOTech-style speed ring reticle is designed for fast target engagement at low power, while delivering the resolution and accuracy needed for longer range targets.

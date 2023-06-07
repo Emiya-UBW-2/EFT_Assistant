@@ -50,3 +50,5 @@ ChildParts=[
 Recoil=-2.000000
 Ergonomics=5.000000
 accuracyModifier=0.000000
+Name_Jpn=R11 RSASS handguard
+Information_Jpn=A standard handguard manufactured by JP Enterprises for the Remington R11 RSASS marksman rifle. Can also be mounted on any AR-10/AR-15 base receivers.

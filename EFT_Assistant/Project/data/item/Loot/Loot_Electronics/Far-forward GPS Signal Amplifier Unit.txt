@@ -13,3 +13,5 @@ Sell_Peacekeeper=446
 Sell_Mechanic=67200
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=GPS 信号増幅器
+Information_Jpn=低ノイズで広い入力電圧範囲を持つフィルター機能付きのGPSアンプ。

@@ -30,3 +30,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=3.000000
 accuracyModifier=0.000000
+Name_Jpn=Glock 18C 9x19 pistol slide
+Information_Jpn=Glock 18C 9x19ピストル用標準スライド

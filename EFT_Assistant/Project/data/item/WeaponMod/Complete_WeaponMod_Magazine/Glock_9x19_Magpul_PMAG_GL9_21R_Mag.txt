@@ -19,3 +19,5 @@ capacity=21
 loadModifier=-0.100000
 ammoCheckModifier=-0.300000
 malfunctionChance=0.075000
+Name_Jpn=Glock 9x19 Magpul PMAG GL9 21-round magazine
+Information_Jpn=A 21-round GL9 polymer magazine, manufactured by Magpul.

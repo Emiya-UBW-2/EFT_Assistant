@@ -11,3 +11,5 @@ Sell_Fence=1368
 Sell_Jaeger=2053
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink
+Name_Jpn=アップルジュース
+Information_Jpn=さわやかな甘さの濃縮還元アップルジュース。

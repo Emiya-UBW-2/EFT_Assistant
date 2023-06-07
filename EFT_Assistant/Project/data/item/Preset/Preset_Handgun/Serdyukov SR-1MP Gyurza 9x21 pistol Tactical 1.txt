@@ -21,3 +21,4 @@ containsItems=[
 	SR-1MP 9x21 sound suppressorx1/|
 	SR-1MP 9x21 18-round magazinex1
 ]
+Name_Jpn=Serdyukov SR-1MP Gyurza 9x21 pistol Tactical 1

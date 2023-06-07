@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=1
 Map=Streets of Tarkov
+Name_Jpn=Backup hideout key
+Information_Jpn=A key to the Informant's second hideout.

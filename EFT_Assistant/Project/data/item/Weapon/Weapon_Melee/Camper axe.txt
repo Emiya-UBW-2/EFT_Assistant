@@ -13,3 +13,5 @@ propertiestype=ItemPropertiesMelee
 slashDamage=32
 stabDamage=35
 hitRadius=0.500000
+Name_Jpn=キャンプ用斧
+Information_Jpn=A universal travel axe for use in field conditions or in household. Also works as a melee weapon if things get too desperate.

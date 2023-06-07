@@ -12,3 +12,5 @@ Sell_Peacekeeper=10
 Sell_Ragman=1708
 fleaMarketFee=0
 propertiestype=ItemPropertiesGlasses
+Name_Jpn=6B34 anti-fragmentation glasses
+Information_Jpn=A pair of 6B34 anti-fragmentation glasses from the Ratnik Russian military gear set.

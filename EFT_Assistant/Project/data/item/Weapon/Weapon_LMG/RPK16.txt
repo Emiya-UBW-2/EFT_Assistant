@@ -79,3 +79,5 @@ cameraRecoil=0.096000
 cameraSnap=3.500000
 deviationMax=23
 convergence=1.700000
+Name_Jpn=RPK-16 5.45×39 ライトマシンガン
+Information_Jpn=RPK-16 (Ruchnoy Pulemyot Kalashnikova 16 - "Kalashnikov's Hand-held machine gun 16) is the newest Russian light machine gun chambered in 5.45x39mm rounds. Some key features of this new weapon are the quickly detachable barrels, enhanced ergonomics, and weaver rails on the handguard and dust cover.

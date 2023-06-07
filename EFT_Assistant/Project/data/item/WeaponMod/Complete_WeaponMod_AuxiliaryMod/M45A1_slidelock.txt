@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=2.000000
 accuracyModifier=0.000000
+Name_Jpn=M45A1 slide lock
+Information_Jpn=A standard-issue slide lock lever for M45A1 pistols, manufactured by Colt.

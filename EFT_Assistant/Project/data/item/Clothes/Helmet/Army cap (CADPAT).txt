@@ -12,3 +12,5 @@ Sell_Peacekeeper=12
 Sell_Ragman=2078
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Army cap (CADPAT)
+Information_Jpn=A regular army cap, colored in CADPAT camouflage.

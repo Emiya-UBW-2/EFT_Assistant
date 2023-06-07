@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-15.000001
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-10 Fortis RED Brake 7.62x51 muzzle brake
+Information_Jpn=The RED Brake muzzle brake designed for installation on AR-10-type systems and compatibles. Manufactured by Fortis.

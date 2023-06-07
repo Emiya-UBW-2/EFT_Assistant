@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-6.500000
 Ergonomics=-17.000000
 accuracyModifier=-0.020000
+Name_Jpn=Rotor 43 9x19 マズルブレーキ
+Information_Jpn=The Rotor 43 muzzle brake, designed for installation on PP-19-01 Vityaz 9x19 SMGs. Although positioned as a muzzle brake, it also works as a sound suppressor.

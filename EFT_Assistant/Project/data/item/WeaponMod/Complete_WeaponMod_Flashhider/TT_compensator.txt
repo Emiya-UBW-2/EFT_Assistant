@@ -19,3 +19,5 @@ Conflict=[
 Recoil=-12.000000
 Ergonomics=-1.000000
 accuracyModifier=0.020000
+Name_Jpn=TT PM-Laser DTK-TT muzzle brake-compensator
+Information_Jpn=A custom compensator for TT pistols manufactured by PM-Laser.

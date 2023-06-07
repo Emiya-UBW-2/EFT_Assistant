@@ -10,3 +10,5 @@ Sell_Fence=27600
 Sell_Peacekeeper=257
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=映画 "サイボーグ・キラー" のビデオ
+Information_Jpn=殺人サイボーグとの戦いを描いた1990年代のアクション映画が録画されたVHSビデオテープ。

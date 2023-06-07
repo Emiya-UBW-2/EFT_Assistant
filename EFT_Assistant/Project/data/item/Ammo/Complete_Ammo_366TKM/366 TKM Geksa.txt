@@ -13,3 +13,5 @@ Sell_Peacekeeper=0
 Sell_Mechanic=31
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=.366 TKM Geksa
+Information_Jpn=A .366 TKM (9.55x39mm) Geksa cartridge with a 15.5 gram lead core soft-point (SP) bullet with a brass semi-jacket in a steel case; intended for sport shooting and hunting. This bullet has a good initial expansion on impact due to the exposure of the lead core at the tip, giving it a superior stopping power effect of its caliber, in addition to being able to inflict substantial adverse effects on the target after impact. Its design also allows it to be used in 7.62x39mm AK magazines without any problem.

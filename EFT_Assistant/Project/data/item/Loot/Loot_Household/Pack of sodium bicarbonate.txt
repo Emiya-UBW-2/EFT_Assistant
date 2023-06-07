@@ -10,3 +10,5 @@ Sell_Therapist=6426
 Sell_Fence=4080
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=炭酸水素ナトリウム
+Information_Jpn=一般には "重曹" と呼ばれることが多い炭酸水素塩。通常は粒の細かい白色の粉末で食品業界や一般家庭では洗浄、脱臭などの目的や食品添加物に、医薬品としては胃酸を中和する制酸剤、酸による皮膚の火傷などに使用されている。

@@ -44,3 +44,5 @@ ChildParts=[
 Recoil=-4.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=RPK-16 buffer tube
+Information_Jpn=A standard buffer tube for RPK-16 LMG, manufactured by Izhmash.

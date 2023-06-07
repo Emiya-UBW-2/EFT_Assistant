@@ -19,3 +19,5 @@ capacity=10
 loadModifier=0.000000
 ammoCheckModifier=-0.150000
 malfunctionChance=0.050000
+Name_Jpn=VPO-101 "Vepr-Hunter" 7.62x51 10-round magazine
+Information_Jpn=A 10-round magazine for VPO-101 carbines and compatible 7.62x51 systems, manufactured by Molot Arms.

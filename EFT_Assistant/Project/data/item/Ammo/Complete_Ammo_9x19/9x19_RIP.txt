@@ -13,3 +13,5 @@ Sell_Peacekeeper=1
 Sell_Mechanic=215
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=9x19mm RIP
+Information_Jpn=A 9x19mm Parabellum RIP (Radically Invasive Projectile), is a cartridge with a 6 gram frangible bullet designed to produce multiple wound channels to incapacitate assailants quickly. In a departure from conventional hollow-point design, the "R.I.P." round features 8 machined lead-free copper petals or "trocars", designed to fragment quickly and move in multiple directions, thus providing a superior stopping power effect of its caliber, in addition to being able to inflict substantial adverse effects on the target after impact.

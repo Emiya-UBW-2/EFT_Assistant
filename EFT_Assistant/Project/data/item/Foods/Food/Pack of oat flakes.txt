@@ -11,3 +11,5 @@ Sell_Fence=3027
 Sell_Jaeger=4540
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink
+Name_Jpn=オートフレーク
+Information_Jpn=箱入りのオートミール。粥にして食べるのが健康的な朝食の定番。

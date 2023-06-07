@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-20.000000
 Ergonomics=-2.000000
 accuracyModifier=0.000000
+Name_Jpn=AKM thread type JMac Customs RRD-4C 7.62x39 muzzle brake
+Information_Jpn=The RRD-4C 7.62x39 muzzle brake by JMac Customs is designed for installation on AK or AKM type thread weapon systems. Reduces recoil and counters the barrel climb.

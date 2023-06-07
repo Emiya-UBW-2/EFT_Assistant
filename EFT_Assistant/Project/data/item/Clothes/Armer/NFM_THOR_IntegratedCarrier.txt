@@ -13,3 +13,5 @@ Sell_Peacekeeper=1281
 Sell_Ragman=213590
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmor
+Name_Jpn=NFM THOR Integrated Carrier body armor
+Information_Jpn=The THOR full protection assault body armor equipped with soft and hard armor elements to protect against shrapnel and bullets of pistol and rifle calibers. Manufactured by NFM.

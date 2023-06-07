@@ -16,3 +16,4 @@ containsItems=[
 	Dogtag BEARx1/|
 	Dogtag USECx1
 ]
+Name_Jpn=ドッグタグ

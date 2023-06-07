@@ -12,3 +12,5 @@ Sell_Peacekeeper=5
 Sell_Ragman=895
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=EMERCOM cap
+Information_Jpn=A cap of Emergency Committee (EMERCOM of Russian Federation), usually worn by patrol units.

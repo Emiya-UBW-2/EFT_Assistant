@@ -12,3 +12,5 @@ Sell_Peacekeeper=78
 Sell_Ragman=13020
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Big Pipe's smoking pipe
+Information_Jpn=A smoking pipe owned by one of the commanders of the Rogues - Big Pipe.

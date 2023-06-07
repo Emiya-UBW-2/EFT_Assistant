@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=1.000000
 accuracyModifier=0.000000
+Name_Jpn=RFB スレッドプロテクションキャップ
+Information_Jpn=A threading protection cap for the Kel-Tec RFB 7.62x51 rifle barrel.

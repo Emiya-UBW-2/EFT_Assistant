@@ -20,3 +20,5 @@ ChildParts=[
 Recoil=-7.000000
 Ergonomics=-2.000000
 accuracyModifier=0.020000
+Name_Jpn=M1A National Match 7.62x51 flash suppressor
+Information_Jpn=A muzzle brake-compensator for M1A rifles, manufactured by Springfield Armory.

@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-9.000000
 Ergonomics=-2.000000
 accuracyModifier=0.010000
+Name_Jpn=SilencerCo AC-858 ASR .338 LM マズルブレーキ
+Information_Jpn=A .338 LM muzzle brake developed by SilencerCo.

@@ -56,3 +56,5 @@ Recoil=-2.000000
 Ergonomics=-7.000000
 centerOfImpact=0.070000
 deviationMax=22
+Name_Jpn=AR-15 5.56x45 260mm barrel
+Information_Jpn=A 260mm barrel for AR-15 based weapons for 5.56x45 NATO ammo. Corresponds with standard service M4 CQBR barrel.

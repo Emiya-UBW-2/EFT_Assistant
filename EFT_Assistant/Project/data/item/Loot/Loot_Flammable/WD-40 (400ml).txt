@@ -11,3 +11,5 @@ Sell_Fence=6904
 Sell_Jaeger=10356
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=WD-40 (400ml)
+Information_Jpn=WD-40 (Water Displacement-40th Attempt) は、工業用として開発された撥水性の高い防錆潤滑剤だ。現在では一般家庭でも様々な用途に使用されている。製品の主成分は炭化水素で、配合を40回目の試作で完成させたことが名前の由来になっているらしい。

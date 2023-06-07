@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-5.000000
 Ergonomics=2.000000
 accuracyModifier=0.000000
+Name_Jpn=FN P90 Damage Industries buttpad
+Information_Jpn=An ergonomic butt-pad for the FN P90 SMG, also serves as the stock extension. Manufactured by Damage Industries.

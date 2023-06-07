@@ -23,3 +23,5 @@ Recoil=-5.000000
 Ergonomics=-5.000000
 centerOfImpact=0.158000
 deviationMax=10
+Name_Jpn=HK UMP .45 ACP 8 inch threaded barrel
+Information_Jpn=A threaded barrel for the HK UMP submachine gun, chambered in .45 ACP ammo, 8 inches (203mm) long.

@@ -46,3 +46,5 @@ Conflict=[
 Recoil=-1.000000
 Ergonomics=3.000000
 accuracyModifier=0.000000
+Name_Jpn=FN SCAR Kinetic MREX 6.5 M-LOK rail
+Information_Jpn=The MREX 6.5 M-LOK rail for SCAR series rifles allows the installation of additional equipment. Manufactured by Kinetic.

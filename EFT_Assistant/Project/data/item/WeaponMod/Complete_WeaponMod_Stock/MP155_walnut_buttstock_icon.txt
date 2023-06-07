@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-34.000000
 Ergonomics=6.000000
 accuracyModifier=0.000000
+Name_Jpn=MP-155 walnut stock
+Information_Jpn=A Monte Carlo-style wooden walnut stock for MP-155 shotguns with a rubber butt-plate. Manufactured by Izhmekh.

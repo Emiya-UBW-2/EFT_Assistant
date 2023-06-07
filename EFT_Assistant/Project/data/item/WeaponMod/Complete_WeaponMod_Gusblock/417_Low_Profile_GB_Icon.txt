@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-2.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=HK417 low profile gas block
+Information_Jpn=A standard gas block for HK417 assault rifles and compatibles, manufactured by Heckler & Koch.

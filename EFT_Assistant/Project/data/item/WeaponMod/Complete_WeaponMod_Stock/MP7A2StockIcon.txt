@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-17.000000
 Ergonomics=3.000000
 accuracyModifier=0.000000
+Name_Jpn=HK MP7A2 stock
+Information_Jpn=A standard-issue retractable stock for the MP7A2 submachine gun. Manufactured by Heckler & Koch.

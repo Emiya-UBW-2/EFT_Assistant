@@ -38,3 +38,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=Remington RAHG 2 inch rail
+Information_Jpn=The Remington RAHG 2 inch rail allows installation of additional equipment on the RAHG handguards.

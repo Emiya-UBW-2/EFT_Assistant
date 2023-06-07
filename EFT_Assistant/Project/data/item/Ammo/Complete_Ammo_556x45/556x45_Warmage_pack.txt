@@ -9,3 +9,5 @@ weight=0.010000
 Sell_Fence=400
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=5.56x45mm Warmageddon ammo pack (20 pcs)
+Information_Jpn=A pack of 5.56x45 Warmageddon cartridges, 20 pieces.

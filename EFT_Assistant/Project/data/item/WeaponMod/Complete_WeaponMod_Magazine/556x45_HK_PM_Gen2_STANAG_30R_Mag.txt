@@ -19,3 +19,5 @@ capacity=30
 loadModifier=0.000000
 ammoCheckModifier=0.000000
 malfunctionChance=0.070000
+Name_Jpn=5.56x45 HK PM Gen.2 STANAG 30-round magazine
+Information_Jpn=A 30-round polymer HK PM Gen.2 magazine, for 5.56x45 ammunition.

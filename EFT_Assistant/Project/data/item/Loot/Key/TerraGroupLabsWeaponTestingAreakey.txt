@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=The Lab
+Name_Jpn=TerraGroup Labs 武器試験場の鍵
+Information_Jpn=TerraGroup Labsにある武器の試験場の鍵。

@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=5.000000
 accuracyModifier=0.000000
+Name_Jpn=MP-155 Ultima pistol grip rubber pad
+Information_Jpn=The "Ultima" modification ergonomical rubber pad for the MP-155 pistol grip. Manufactured by Kalashnikov Group.

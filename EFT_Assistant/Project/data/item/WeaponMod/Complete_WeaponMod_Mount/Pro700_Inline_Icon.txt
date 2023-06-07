@@ -44,3 +44,5 @@ Conflict=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=M700 Magpul Pro 700 chassis inline mount
+Information_Jpn=A universal mount rail by Magpul for installation of additional tactical devices, can be installed on the Pro 700 chasiss for the Remington M700 sniper rifle.

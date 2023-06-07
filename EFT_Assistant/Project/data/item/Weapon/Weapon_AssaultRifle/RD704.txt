@@ -151,3 +151,5 @@ cameraRecoil=0.079200
 cameraSnap=3.300000
 deviationMax=23
 convergence=1.300000
+Name_Jpn=Rifle Dynamics RD-704 7.62x39 assault rifle
+Information_Jpn=Rifle Dynamics 704 assault rifle 7.62x39mm, an improved version of the AK system manufactured by Rifle Dynamics. The main difference from the standard AK: the design of the front part shifts the center of gravity closer to the receiver, which significantly improves the controllability of the weapon.

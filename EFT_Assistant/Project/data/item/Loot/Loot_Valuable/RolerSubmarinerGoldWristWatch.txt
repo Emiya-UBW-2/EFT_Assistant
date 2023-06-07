@@ -12,3 +12,5 @@ Sell_Skier=34814
 Sell_Peacekeeper=264
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Roler サブマリーナー
+Information_Jpn=有名なブランド Roler の腕時計。ケース部分の素材はイエローゴールド (K18YG) 。

@@ -24,3 +24,5 @@ Recoil=-4.000000
 Ergonomics=-10.000000
 centerOfImpact=0.022000
 deviationMax=33
+Name_Jpn=DVL-10 7.62x51 500mm barrel
+Information_Jpn=A 500 mm long 7.62x51 match-grade stainless steel barrel with an integral sound suppressor manufactured by LOBAEV Hummer Barrels for the DVL-10 sniper rifle.

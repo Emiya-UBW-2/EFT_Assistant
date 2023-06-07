@@ -31,3 +31,5 @@ Conflict=[
 Recoil=-4.000000
 Ergonomics=-2.000000
 accuracyModifier=0.000000
+Name_Jpn=JP Enterpirses Gas System-6
+Information_Jpn=Installed as a standard AR-10/AR-15-based weapons gas block, adding a Picatinny rail that allows installing alternative accessory front sights.

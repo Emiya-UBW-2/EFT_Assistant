@@ -24,3 +24,5 @@ SightRange=1000
 sightZooms=3.000000
 sightZooms=9.000000
 sightZooms=1.000000
+Name_Jpn=NcSTAR ADO P4 Sniper 3-9x42 ライフルスコープ
+Information_Jpn=The Advance Dual Optic (ADO) 3X-9X variable magnification scope with a 42mm objective lens. The ADO Scope features an integrated Red Dot Reflex Optic on top of the scope body. Manufactured by NcSTAR.

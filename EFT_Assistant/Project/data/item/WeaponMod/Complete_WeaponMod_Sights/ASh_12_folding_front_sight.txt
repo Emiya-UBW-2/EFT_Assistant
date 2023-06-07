@@ -17,3 +17,5 @@ Recoil=0.000000
 Ergonomics=0.000000
 SightRange=300
 sightZooms=1.000000
+Name_Jpn=ASh-12 folding front sight
+Information_Jpn=A removable folding front sight for the ASh-12 assault rifle, installed on the mount.

@@ -12,3 +12,5 @@ Sell_Ragman=57660
 Sell_Jaeger=55800
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
+Name_Jpn=Eagle Industries MMAC plate carrier (Ranger Green)
+Information_Jpn=The Eagle Industries Multi-Mission Tactical Vest (MMAC) is a traditional profile vest offering modularity and scalability. The tactical vest is constructed of MIL-SPEC 500 denier nylon and is fully MOLLE/PALS compatible. It features padded shoulders with detachable retention loops, push-to-talk (PTT) attachment points at upper left and right chest and many other features.

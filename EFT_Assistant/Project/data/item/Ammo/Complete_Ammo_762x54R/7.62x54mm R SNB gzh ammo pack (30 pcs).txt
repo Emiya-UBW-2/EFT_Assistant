@@ -9,3 +9,5 @@ weight=0.015000
 Sell_Fence=400
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=7.62x54mm R SNB gzh ammo pack (30 pcs)
+Information_Jpn=A 30-round pack of 7.62x54R SNB cartridges.

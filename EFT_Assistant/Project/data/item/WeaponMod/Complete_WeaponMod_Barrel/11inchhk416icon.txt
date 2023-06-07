@@ -60,3 +60,5 @@ Recoil=-2.000000
 Ergonomics=-8.000000
 centerOfImpact=0.070000
 deviationMax=22
+Name_Jpn=HK 416A5 5.56x45 11 inch barrel
+Information_Jpn=A barrel for 416 based weapons for 5.56x45 NATO ammo, 11 inches (279mm) long.

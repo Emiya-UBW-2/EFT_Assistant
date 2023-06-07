@@ -19,3 +19,5 @@ Conflict=[
 	AN/PVS-14 Night Vision Monocular/|
 	T-7 Thermal Goggles with a Night Vision mount
 ]
+Name_Jpn=Ops-Core FAST バイザー
+Information_Jpn=The FAST visor, designed to protect the eyes and part of the user's face from shell fragments, mines, grenades, drops of chemically aggressive liquids and oils, coarsely dispersed aerosols, thermal factors, atmospheric influences and mechanical damages in all types of combat operations.

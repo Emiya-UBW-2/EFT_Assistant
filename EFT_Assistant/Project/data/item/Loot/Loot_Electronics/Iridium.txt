@@ -13,3 +13,5 @@ Sell_Peacekeeper=302
 Sell_Mechanic=45472
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Iridium 軍用サーマルビジョンモジュール
+Information_Jpn=軍用車両で使用されるサーマルビジョンシステムのモジュール。

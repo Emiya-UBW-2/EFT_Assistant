@@ -11,3 +11,5 @@ Sell_Fence=7743
 Sell_Jaeger=11614
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink
+Name_Jpn=イスクラ レーションパック
+Information_Jpn=このレーションの小さなパッケージには、過酷な状況下で成人が1日に必要とするすべての栄養素が含まれている。

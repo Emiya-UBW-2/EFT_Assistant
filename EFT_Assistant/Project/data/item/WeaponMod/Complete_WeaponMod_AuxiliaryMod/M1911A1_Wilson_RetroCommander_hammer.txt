@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=2.000000
 accuracyModifier=0.000000
+Name_Jpn=M1911A1 Wilson Retro Commander hammer
+Information_Jpn=The Retro Commander hammer for the M1911A1 pistol, manufactured by Wilson.

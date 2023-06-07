@@ -13,3 +13,5 @@ Sell_Peacekeeper=1
 Sell_Mechanic=103
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=5.7x28mm R37.F
+Information_Jpn=A 5.7x28mm FN R37.F cartridge with a 2.4 gram frangible bullet made entirely of copper, in a brass case; produced by R&R Weapon Systems. The bullet is designed to fragment upon impact, turning the bullet tip into three razor sharp petals, thus providing a superior stopping power effect of its caliber, as well as causing substantial adverse effects on the target after impact, at the cost of penetration capabilities, even against basic ballistic protection.

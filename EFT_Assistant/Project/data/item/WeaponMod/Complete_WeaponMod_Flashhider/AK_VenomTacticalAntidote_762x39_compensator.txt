@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-17.000000
 Ergonomics=-2.000000
 accuracyModifier=0.020000
+Name_Jpn=AK Venom Tactical Antidote 7.62x39 muzzle brake-compensator
+Information_Jpn=The Antidote muzzle brake & compensator by Venom Tactical and Rifle Dynamics is designed for installation on classic AK-based weapon systems. Reduces recoil and counters the barrel climb.

@@ -12,3 +12,5 @@ Sell_Skier=41650
 Sell_Peacekeeper=316
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Prokill メダリオン
+Information_Jpn=チェーンを付けた Prokill のメダリオン。契約戦争では熟練の傭兵であることを示す象徴になっていたが、今となっては過去の遺物だ。

@@ -27,3 +27,5 @@ Recoil=-3.000000
 Ergonomics=-4.000000
 centerOfImpact=0.095000
 deviationMax=16
+Name_Jpn=MCX .300 BLK 171mm barrel
+Information_Jpn=A 171mm barrel for MCX-based weapons, chambered in .300 BLK.

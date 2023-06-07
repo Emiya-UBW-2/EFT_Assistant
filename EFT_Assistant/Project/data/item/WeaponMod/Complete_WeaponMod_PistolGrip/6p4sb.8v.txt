@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=6.000000
 accuracyModifier=0.000000
+Name_Jpn=AK bakelite pistol grip (6P1 Sb.8V)
+Information_Jpn=AK用のIzhmash製 ベークライトピストルグリップ。

@@ -8,3 +8,5 @@ height=2
 weight=0.600000
 fleaMarketFee=0
 propertiestype=ItemPropertiesContainer
+Name_Jpn=セキュアコンテナ Alpha
+Information_Jpn=A small secure container used by PMCs formerly deployed in Tarkov.

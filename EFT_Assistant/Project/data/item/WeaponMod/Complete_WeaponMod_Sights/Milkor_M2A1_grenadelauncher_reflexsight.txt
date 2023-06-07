@@ -36,3 +36,5 @@ Recoil=0.000000
 Ergonomics=-6.000000
 SightRange=300
 sightZooms=1.000000
+Name_Jpn=Milkor M2A1 grenade launcher reflex sight
+Information_Jpn=The M2A1 sight was designed to compensate for the natural drift of the 40mm grenade. The built-in light sensor dims the reticle during daylight hours and allows for a brighter reticle during night time operations. The M2A1 reflex sight enhances the overall capabilities and usage of the MUSA MSGLs.

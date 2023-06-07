@@ -26,3 +26,5 @@ Conflict=[
 Recoil=-36.000000
 Ergonomics=28.000000
 accuracyModifier=0.030000
+Name_Jpn=M700 ProMag Archangel chassis
+Information_Jpn=The Archangel ergonomic polymer chassis for the Remington M700 sniper rifle. Manufactured by ProMag.

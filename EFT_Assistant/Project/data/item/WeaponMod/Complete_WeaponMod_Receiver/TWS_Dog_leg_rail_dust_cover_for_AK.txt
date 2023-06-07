@@ -98,3 +98,5 @@ Conflict=[
 Recoil=0.000000
 Ergonomics=7.000000
 accuracyModifier=0.000000
+Name_Jpn=AK TWS Dog Leg Rail dust cover
+Information_Jpn=The Texas Weapon Systems Dog Leg Rail dust cover with an integrated Picatinny rail is compatible with all models of Kalashnikov automatic rifles and carbines based on the AK platform.

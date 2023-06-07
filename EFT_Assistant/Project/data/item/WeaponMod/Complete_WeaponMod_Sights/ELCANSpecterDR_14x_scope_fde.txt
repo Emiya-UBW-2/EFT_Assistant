@@ -20,3 +20,5 @@ SightRange=800
 sightZooms=4.000000
 sightZooms=1.000000
 sightZooms=1.000000
+Name_Jpn=ELCAN SpecterDR 1x/4x scope (FDE)
+Information_Jpn=The SpecterDR (Dual Role) 1x/4x scope from Specter scope series designed by ELCAN has marked a breakthrough in the optic sight development by becoming the first variable scope that truly has two work modes, switching from 4x magnification to 1x in one touch. Also features a backup iron sight. Flat Dark Earth version.

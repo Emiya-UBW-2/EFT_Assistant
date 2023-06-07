@@ -23,3 +23,5 @@ Recoil=0.000000
 Ergonomics=-3.000000
 SightRange=500
 sightZooms=3.500000
+Name_Jpn=SwampFox Trihawk Prism Scope 3x30
+Information_Jpn=A prismatic scope with 3x magnification manufactured by SwampFox.

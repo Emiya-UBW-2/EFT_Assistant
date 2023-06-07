@@ -13,3 +13,5 @@ Sell_Peacekeeper=1
 Sell_Mechanic=143
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=40x46mm M576 (MP-APERS) grenade
+Information_Jpn=40x46mm M576 (MP-APERS) Multi Projectile buckshot cartridge for grenade launchers fitted with twenty 24-grain bullets for maximum damage in close quarters combat.

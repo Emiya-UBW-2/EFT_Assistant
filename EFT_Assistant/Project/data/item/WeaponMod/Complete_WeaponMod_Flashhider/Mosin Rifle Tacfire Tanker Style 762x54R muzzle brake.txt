@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-13.000000
 Ergonomics=-3.000000
 accuracyModifier=0.020000
+Name_Jpn=Mosin Rifle Tacfire Tanker Style 7.62x54R muzzle brake
+Information_Jpn=Mosin-Nagantライフル用のTacfire製Tankerスタイル マズルブレーキ。

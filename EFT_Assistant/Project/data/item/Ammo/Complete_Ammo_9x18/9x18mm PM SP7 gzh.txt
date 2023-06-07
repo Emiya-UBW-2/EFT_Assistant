@@ -13,3 +13,5 @@ Sell_Peacekeeper=0
 Sell_Mechanic=54
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=9x18mm PM SP7 gzh
+Information_Jpn=A 9x18mm Makarov SP7 gzh cartridge with a 5.2 gram expanding bullet with a lead core in a plastic plug with a brass semi-jacket, in a bimetallic case with an enhanced charge. This cartridge was developed by TsNIITochMash in the mid-1980s to provide an outstanding stopping effect at the cost of penetration capabilities, as well as causing substantial adverse effects on the target after impact, and thanks to its increased powder load it can achieve a high muzzle velocity without compromising the weapon or its operator.

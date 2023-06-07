@@ -19,3 +19,5 @@ ChildParts=[
 Recoil=-8.000000
 Ergonomics=-1.000000
 accuracyModifier=0.030000
+Name_Jpn=AR-10 KAC QDC 7.62x51 Flash Suppressor Kit
+Information_Jpn=Knight's Armament Company Flash Suppressor Kit is an effective flash hider that also serves as a platform for attaching a PRS QDC sound suppressor. It can be Installed on AR-10 platform weapons.

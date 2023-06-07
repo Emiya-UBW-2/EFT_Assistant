@@ -12,3 +12,5 @@ Sell_Fence=19200
 Sell_Jaeger=28800
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=金属製燃料タンク
+Information_Jpn=可燃性液体を保管しておくための金属製燃料タンク。

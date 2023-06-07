@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-26.000000
 Ergonomics=17.000000
 accuracyModifier=0.000000
+Name_Jpn=MPX/MCX collapsing/telescoping stock
+Information_Jpn=A telescopic retractable stock for early issues of MCX/MPX manufactured by SIG Sauer.

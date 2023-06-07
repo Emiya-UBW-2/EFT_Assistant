@@ -12,3 +12,5 @@ Sell_Peacekeeper=7
 Sell_Ragman=1236
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=バンダナ
+Information_Jpn=A green colored headgear, actively used by special forces around the world.

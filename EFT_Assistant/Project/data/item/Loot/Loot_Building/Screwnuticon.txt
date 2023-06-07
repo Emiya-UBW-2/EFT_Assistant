@@ -12,3 +12,5 @@ Sell_Fence=3480
 Sell_Jaeger=5220
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=ナット
+Information_Jpn=一掴みほどの、ありふれたナット。使用された形跡はない。ハイドアウトの拡張には欠かせないアイテムだ。

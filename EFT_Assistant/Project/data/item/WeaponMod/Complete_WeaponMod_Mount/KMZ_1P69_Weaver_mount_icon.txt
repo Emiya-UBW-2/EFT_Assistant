@@ -37,3 +37,5 @@ Conflict=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=KMZ 1P69 Weaver マウント
+Information_Jpn=A universal base with an integrated power supply for installation of the 1P69 scope on the "Weaver" type rails.

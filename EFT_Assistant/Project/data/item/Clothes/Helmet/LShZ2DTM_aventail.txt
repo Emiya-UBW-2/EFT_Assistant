@@ -12,3 +12,5 @@ Sell_Peacekeeper=123
 Sell_Ragman=20584
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=LSHZ-2DTM Aventail
+Information_Jpn=LSHZ-2DTMヘルメットに装着し首回りを保護する追加アーマー。

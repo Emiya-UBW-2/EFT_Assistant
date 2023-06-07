@@ -21,3 +21,4 @@ containsItems=[
 	Chiappa Rhino plastic pistol gripx1/|
 	SureFire XC1 tactical flashlightx1
 ]
+Name_Jpn=Chiappa Rhino 50DS .357 revolver Tactical

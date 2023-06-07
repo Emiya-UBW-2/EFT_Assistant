@@ -12,3 +12,5 @@ Sell_Peacekeeper=4
 Sell_Ragman=633
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=ベースボールキャップ
+Information_Jpn=ベースボールキャップ。日射しを遮る最も基本的な装備。

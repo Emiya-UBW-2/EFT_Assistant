@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-15.000001
 Ergonomics=-3.000000
 accuracyModifier=0.000000
+Name_Jpn=HK MP5 Noveske-style 9x19 muzzle brake-compensator
+Information_Jpn=The "Noveske style" muzzle brake-compensator for MP5 SMGs and compatibles. Manufactured by Heckler & Koch.

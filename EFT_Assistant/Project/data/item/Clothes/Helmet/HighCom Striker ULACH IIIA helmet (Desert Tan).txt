@@ -12,3 +12,5 @@ Sell_Peacekeeper=325
 Sell_Ragman=54204
 fleaMarketFee=0
 propertiestype=ItemPropertiesHelmet
+Name_Jpn=HighCom Striker ULACH IIIA helmet (Desert Tan)
+Information_Jpn=A combat helmet with the ears and back of the head protection, manufactured by HighCom. Does not feature any additional mounts. Desert Tan version.

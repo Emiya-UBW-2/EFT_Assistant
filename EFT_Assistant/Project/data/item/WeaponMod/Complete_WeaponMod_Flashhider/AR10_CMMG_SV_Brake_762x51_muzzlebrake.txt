@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-8.000000
 Ergonomics=-1.000000
 accuracyModifier=0.030000
+Name_Jpn=AR-10 CMMG SV Brake 7.62x51 muzzle brake
+Information_Jpn=The CMMG SV Brake muzzle compensator is an effective single port brake designed specifically for .308 caliber AR-10 weapon systems. The large port presents a broad surface for gasses to impact against, which keeps the muzzle down and the sights on target.

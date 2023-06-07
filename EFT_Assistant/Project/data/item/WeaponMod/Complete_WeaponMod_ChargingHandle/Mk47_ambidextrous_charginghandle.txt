@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=1.000000
 accuracyModifier=0.000000
+Name_Jpn=Mk47 ambidextrous charging handle
+Information_Jpn=A charging handle for the Mk47 Mutant assault rifle. Ambidextrous latches allow for easy operation no matter which hand you use to charge the weapon. Manufactured by CMMG.

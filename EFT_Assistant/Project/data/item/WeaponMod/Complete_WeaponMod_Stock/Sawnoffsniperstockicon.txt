@@ -20,3 +20,5 @@ ChildParts=[
 Recoil=-4.000000
 Ergonomics=16.000000
 accuracyModifier=0.000000
+Name_Jpn=Mosin Rifle sawn-off sniper stock
+Information_Jpn=A sawn-off wooden sniper stock for the Mosin rifle. Compact and deadly.

@@ -12,3 +12,5 @@ Sell_Fence=1417
 Sell_Mechanic=1984
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=スパナ
+Information_Jpn=両口スパナ。単純な作りの工具だが、ほぼすべての技術分野で、あらゆる機械や装置の組み立てに使われている。

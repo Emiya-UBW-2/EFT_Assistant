@@ -195,3 +195,5 @@ cameraRecoil=0.110400
 cameraSnap=3.500000
 deviationMax=23
 convergence=1.200000
+Name_Jpn=ASh-12 12.7x55 アサルトライフル
+Information_Jpn=The ASh-12.7 (Avtomat Shturmovoy 12 - "Assault Automatic Rifle 12") bullpup assault rifle is a dedicated CQB/Urban Operations weapon, developed by TsKIB SOO ("Central Design and Research Bureau of Sporting and Hunting Arms"), a subsidiary of the KBP Instrument Design Bureau of Tula, Russia, by request from the Russian FSB (Federal Security Service). The weapon was designed with extreme short-range stopping power in mind for FSB urban combat units.

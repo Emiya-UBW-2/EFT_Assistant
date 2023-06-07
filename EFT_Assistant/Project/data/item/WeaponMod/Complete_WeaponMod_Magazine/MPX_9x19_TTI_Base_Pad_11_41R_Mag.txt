@@ -19,3 +19,5 @@ capacity=41
 loadModifier=0.000000
 ammoCheckModifier=-0.500000
 malfunctionChance=0.042000
+Name_Jpn=MPX 9x19 TTI "Base Pad +11" 41-round magazine
+Information_Jpn=A standard 30-round 9x19 MPX magazine that comes with an attached +11-round base pad, produced by Taran Tactical Innovations. This brings the total magazine capacity to 41 rounds.

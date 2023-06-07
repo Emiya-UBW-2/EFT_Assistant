@@ -17,3 +17,5 @@ Conflict=[
 	Ushanka ear flap hat/|
 	Ops-Core FAST RAC Headset
 ]
+Name_Jpn=Opsmen Earmor M32 ヘッドセット
+Information_Jpn=EARMOR M32は戦闘用として理想的なイヤープロテクション機能を持った無線機用ヘッドセットだ。

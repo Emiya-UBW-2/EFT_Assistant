@@ -11,3 +11,5 @@ Sell_Fence=2686
 Sell_Skier=3290
 fleaMarketFee=0
 propertiestype=ItemPropertiesGrenade
+Name_Jpn=Zarya スタングレネード
+Information_Jpn=一瞬のうちに大音響と閃光を発生させ、敵を制圧することを目的としたスタングレネード。犯罪者を逮捕するための特殊作戦や暴動の鎮圧に使用される。

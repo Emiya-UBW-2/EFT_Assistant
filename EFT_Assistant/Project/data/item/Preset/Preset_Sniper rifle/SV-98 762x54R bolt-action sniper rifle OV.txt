@@ -26,3 +26,4 @@ containsItems=[
 	AK FAB Defense AGR-47 pistol gripx1/|
 	CNC Guns OV-SV98 M12B stockx1
 ]
+Name_Jpn=SV-98 7.62x54R ボルトアクション スナイパーライフル OV

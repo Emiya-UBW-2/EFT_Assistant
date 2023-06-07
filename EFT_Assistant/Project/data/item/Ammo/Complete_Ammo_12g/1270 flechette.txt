@@ -13,3 +13,5 @@ Sell_Peacekeeper=1
 Sell_Mechanic=104
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=12/70 フレシェット
+Information_Jpn=A 12/70 shell loaded with razor-sharp flechettes for 12ga shotguns. Far from being the most effective round, but believe us - you definitely don't want to be on the receiving end of the weapon loaded with it.

@@ -17,3 +17,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-42.000000
 Ergonomics=21.000000
 accuracyModifier=0.000000
+Name_Jpn=VPO-101 "Vepr-Hunter" SVD-style stock
+Information_Jpn=An SVD-style wooden stock designed for VPO-101 Vepr-Hunter carbines.

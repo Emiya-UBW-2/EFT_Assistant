@@ -11,3 +11,5 @@ Sell_Fence=4193
 Sell_Jaeger=6289
 fleaMarketFee=0
 propertiestype=ItemPropertiesFoodDrink
+Name_Jpn=アリョンカ チョコレートバー
+Information_Jpn=ソビエト崩壊以降、最もよく知られたミルクチョコレート。甘くてクリーミー。

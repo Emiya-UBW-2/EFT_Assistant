@@ -12,3 +12,5 @@ Sell_Skier=23520
 Sell_Peacekeeper=179
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=カラスの置物
+Information_Jpn=希少な素材を使用した鴉の置物。台座には "Markstrom" と文字が刻まれている。

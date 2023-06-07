@@ -32,3 +32,4 @@ containsItems=[
 	AK Zenit B-12 Mountx1/|
 	Holosun LS321 Tactical devicex1
 ]
+Name_Jpn=Kalashnikov AKS-74UN 5.45x39 assault rifle Zenit

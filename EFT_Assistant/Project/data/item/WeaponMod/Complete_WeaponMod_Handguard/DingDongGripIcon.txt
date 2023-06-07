@@ -16,3 +16,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-1.000000
 Ergonomics=3.000000
 accuracyModifier=0.000000
+Name_Jpn=WASR-10/63 CAF wooden foregrip
+Information_Jpn=A Romanian handguard/foregrip for WASR-10/63 rifles, manufactured by Cugir Arms Factory. Compatible with AK-family weapon systems.

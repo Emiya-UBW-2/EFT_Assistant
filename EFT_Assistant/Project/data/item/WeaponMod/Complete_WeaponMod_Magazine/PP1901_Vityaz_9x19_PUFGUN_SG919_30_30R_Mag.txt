@@ -19,3 +19,5 @@ capacity=30
 loadModifier=-0.150000
 ammoCheckModifier=0.000000
 malfunctionChance=0.090000
+Name_Jpn=PP-19-01 "Vityaz" 9x19 PUFGUN SG-919 30 30-round magazine
+Information_Jpn=The PUFGUN SG-919 30 magazine for PP-19-01 Vityaz 9x19 with a 30-round ammo capacity. Tactical banana yellow camouflage.

@@ -25,3 +25,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=Lobaev Arms 30mm scope mount
+Information_Jpn=A universal 30mm optical scope base mount by Lobaev Arms for installation on Picatinny rails.

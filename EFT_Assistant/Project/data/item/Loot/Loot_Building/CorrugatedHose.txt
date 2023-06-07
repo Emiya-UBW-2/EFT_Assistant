@@ -12,3 +12,5 @@ Sell_Fence=4880
 Sell_Jaeger=7320
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=コルゲートチューブ
+Information_Jpn=屋外の電線、ケーブルだけでなく水撒き用ホースの保護にも使用できるコルゲートチューブ。ハイドアウトの拡張に役立つはずだ。

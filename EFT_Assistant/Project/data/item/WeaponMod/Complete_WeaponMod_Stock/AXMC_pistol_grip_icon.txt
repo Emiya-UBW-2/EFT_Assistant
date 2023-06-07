@@ -23,3 +23,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=5.000000
 accuracyModifier=0.000000
+Name_Jpn=AI AXMC pistol grip
+Information_Jpn=A pistol grip for the AXMC sniper rifle, manufactured by Accuracy International.

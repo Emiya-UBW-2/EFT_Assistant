@@ -12,3 +12,5 @@ Sell_Peacekeeper=115
 Sell_Ragman=19241
 fleaMarketFee=0
 propertiestype=ItemPropertiesHelmet
+Name_Jpn=6B47 Ratnik-BSh helmet (Digital Flora cover)
+Information_Jpn=6B47 is an aramid helmet of Russian origin. As part of the Ratnik program, it is the new standard-issue helmet for most of the Russian Armed Forces. The 6B47 is similar to previous generation helmets such as the 6B7-1M and 6B27. It has equal protection but weighs slightly less, floats in water, and has mounting equipment for lights and night vision devices. The helmet can be fitted with a variety of covers for different environments. Equipped with a Digital Flora camouflage cover.

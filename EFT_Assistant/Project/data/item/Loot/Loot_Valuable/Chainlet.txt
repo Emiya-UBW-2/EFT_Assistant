@@ -12,3 +12,5 @@ Sell_Skier=3545
 Sell_Peacekeeper=27
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=チェーンネックレス
+Information_Jpn=首から下げる小さな装飾品。使用されている素材の種類や重量によっては、今でも高値で取引される。

@@ -13,3 +13,5 @@ Sell_Peacekeeper=0
 Sell_Mechanic=68
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=.357 Magnum Hollow Point
+Information_Jpn=An American-made high-power .357 Magnum revolver cartridge manufactured by Smith & Wesson.

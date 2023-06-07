@@ -42,3 +42,5 @@ cameraRecoil=0.008640
 cameraSnap=3.500000
 deviationMax=11
 convergence=5.000000
+Name_Jpn=Stechkin APS 9x18PM machine pistol
+Information_Jpn=The APS (Avtomatícheskiy Pistolét Stéchkina - "Stechkin Automatic Pistol", GAU Index - 56-A-126) is a Soviet machine pistol chambered in 9x18 PM, developed in the late 1940 by Igor Stechkin. APS is intended for arming officers who are directly involved in combat operations, as well as for soldiers and sergeants of some special units.

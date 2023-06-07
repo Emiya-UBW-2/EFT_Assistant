@@ -74,3 +74,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=LaRue LT101 QD Tactical Picatinny Riser mount
+Information_Jpn=A Quick-Detach Picatinny riser to elevate the reflex or optical sight position, manufactured by LaRue.

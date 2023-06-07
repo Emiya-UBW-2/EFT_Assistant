@@ -56,3 +56,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
+Name_Jpn=M14 UltiMAK M8 Forward Optic mount
+Information_Jpn=The M8 optic mount manufactured by UltiMAK. Lightweight, fully machined 1913 Picatinny-style rail accepts intermediate eye relief scopes, red dot, holographic, and reflex optics. Installs in place of the factory handguard.

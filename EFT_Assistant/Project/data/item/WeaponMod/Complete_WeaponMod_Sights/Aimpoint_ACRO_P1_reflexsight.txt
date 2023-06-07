@@ -17,3 +17,5 @@ Recoil=0.000000
 Ergonomics=0.000000
 SightRange=150
 sightZooms=1.000000
+Name_Jpn=Aimpoint ACRO P-1 reflex sight
+Information_Jpn=The compact ACRO P-1 reflex sight by Aimpoint was designed for use with special mounts. Lightweight, compact, and durable.

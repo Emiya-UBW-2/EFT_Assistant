@@ -12,3 +12,5 @@ Sell_Ragman=18352
 Sell_Jaeger=17760
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
+Name_Jpn=Direct Action Thunderbolt コンパクトチェストリグ
+Information_Jpn=The Thunderbolt fixed chest rig, containing all the basic utility pouches you'd need. Manufactured by Direct Action.

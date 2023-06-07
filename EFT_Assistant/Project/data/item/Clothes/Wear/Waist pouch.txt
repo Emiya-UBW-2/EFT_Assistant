@@ -8,3 +8,5 @@ height=2
 weight=0.400000
 fleaMarketFee=0
 propertiestype=ItemPropertiesContainer
+Name_Jpn=ウエストポーチ
+Information_Jpn=A durable and convenient waist pouch for a variety of things you would want to keep close.

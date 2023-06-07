@@ -19,6 +19,7 @@ namespace FPS_n2 {
 		PRESETDATA,
 		ENEMYDATA,
 		ITEMDATA,
+		ITEMDATAJP,
 		TRADERDATA,
 		MAPDATA,
 		TASKDATA,
@@ -155,6 +156,9 @@ namespace FPS_n2 {
 					this->m_ItemData->ResetDataJson();
 					this->m_ItemData->InitDatabyJson();
 					break;
+				case FPS_n2::EnumDataType::ITEMDATAJP:
+					this->m_ItemData->InitJpDatabyJson();
+					break;
 				case FPS_n2::EnumDataType::TRADERDATA:
 					this->m_TraderData->ResetDataJson();
 					this->m_TraderData->InitDatabyJson();
@@ -178,22 +182,27 @@ namespace FPS_n2 {
 						switch (EnumDataType_t) {
 						case FPS_n2::EnumDataType::ITEMDATA:
 							this->m_ItemData->GetDataJson(data["data"][dataJsonName]);
-							this->m_ItemData->UpdateData(ofsetValue * count, ofsetValue);
+							this->m_ItemData->UpdateData(ofsetValue * count, ofsetValue, this->m_ItemData->SetList());
 							this->m_ItemData->SaveAsNewData2(OutputPath);
+							break;
+						case FPS_n2::EnumDataType::ITEMDATAJP:
+							this->m_ItemData->GetJpDataJson(data["data"][dataJsonName]);
+							this->m_ItemData->UpdateJpData(ofsetValue * count, ofsetValue, this->m_ItemData->SetList());
+							this->m_ItemData->SaveAsNewJpData(OutputPath);
 							break;
 						case FPS_n2::EnumDataType::TRADERDATA:
 							this->m_TraderData->GetDataJson(data["data"][dataJsonName]);
-							this->m_TraderData->UpdateData(ofsetValue * count, ofsetValue);
+							this->m_TraderData->UpdateData(ofsetValue * count, ofsetValue, this->m_TraderData->SetList());
 							this->m_TraderData->SaveAsNewData(OutputPath);
 							break;
 						case FPS_n2::EnumDataType::TASKDATA:
 							this->m_TaskData->GetDataJson(data["data"][dataJsonName]);
-							this->m_TaskData->UpdateData(ofsetValue * count, ofsetValue);
+							this->m_TaskData->UpdateData(ofsetValue * count, ofsetValue, this->m_TaskData->SetList());
 							this->m_TaskData->SaveAsNewData2(OutputPath);
 							break;
 						case FPS_n2::EnumDataType::HIDEOUTDATA:
 							this->m_HideoutData->GetDataJson(data["data"][dataJsonName]);
-							this->m_HideoutData->UpdateData(ofsetValue * count, ofsetValue);
+							this->m_HideoutData->UpdateData(ofsetValue * count, ofsetValue, this->m_HideoutData->SetList());
 							this->m_HideoutData->SaveAsNewData(OutputPath);
 							break;
 						default:
@@ -214,6 +223,9 @@ namespace FPS_n2 {
 					this->m_ItemData->WaitToAllClear();
 					this->m_ItemData->CheckThroughJson();
 					this->m_ItemData->UpdateAfterbyJson();
+					break;
+				case FPS_n2::EnumDataType::ITEMDATAJP:
+					this->m_ItemData->WaitToAllClearJp();
 					break;
 				case FPS_n2::EnumDataType::TRADERDATA:
 					this->m_TraderData->WaitToAllClear();

@@ -17,3 +17,5 @@ Recoil=0.000000
 Ergonomics=0.000000
 SightRange=300
 sightZooms=1.000000
+Name_Jpn=HK MP7 flip-up rear sight
+Information_Jpn=A removable folding flip-up rear sight for MP7 SMGs. Manufactured by Heckler & Koch.

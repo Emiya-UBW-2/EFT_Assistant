@@ -11,3 +11,5 @@ Sell_Ragman=246884
 Sell_Jaeger=238920
 fleaMarketFee=0
 propertiestype=ItemPropertiesContainer
+Name_Jpn=マネーケース
+Information_Jpn=TARBank の堅牢なマネーケース。現金の保管にも最適。

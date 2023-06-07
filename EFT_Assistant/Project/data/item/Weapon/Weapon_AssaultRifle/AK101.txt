@@ -122,3 +122,5 @@ cameraRecoil=0.062400
 cameraSnap=3.500000
 deviationMax=23
 convergence=1.700000
+Name_Jpn=AK-101 5.56x45 アサルトライフル
+Information_Jpn=The AK-101 5.56x45mm assault rifle is a further modernized version of AK-74M base. AK-101 is equipped with a side-folding shoulder stock and a side mount for optical and night scopes. The rifle is chambered to fire 5.56x45mm NATO ammunition, and is designed entirely for export purposes. The 100-series AKs are produced by the Izhmash factories in Izhevsk, Russia.

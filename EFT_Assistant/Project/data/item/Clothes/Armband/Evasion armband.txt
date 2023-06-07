@@ -11,3 +11,5 @@ Sell_Skier=22050
 Sell_Ragman=27900
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=Evasion armband
+Information_Jpn=Sigmaが主催する地域限定のeSportsトーナメント Evasionで使用された特別なアームバンドだ

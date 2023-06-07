@@ -42,3 +42,5 @@ sightZooms=3.000000
 sightZooms=3.000000
 sightZooms=10.000000
 sightZooms=10.000000
+Name_Jpn=KMZ 1P59 3-10x ライフルスコープ
+Information_Jpn=The 1P59 "Giperon" pancratic sight is designed to increase the effectiveness of firing from SVD in comparison with the standard PSO-1 sight by 1.3-2 times (depending on the range and size of the target) due to a larger zoom, the use of a more accurate range finder, combining target ranging and sighting angle input operations, as well as the sighting angle input scale incorporated within the field of view of the sight.

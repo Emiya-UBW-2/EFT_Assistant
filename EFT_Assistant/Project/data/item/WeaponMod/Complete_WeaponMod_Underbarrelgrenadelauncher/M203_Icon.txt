@@ -47,3 +47,5 @@ Conflict=[
 Recoil=-10.000000
 Ergonomics=-41.000000
 accuracyModifier=0.000000
+Name_Jpn=M203 40mm underbarrel grenade launcher
+Information_Jpn=A single-shot 40mm underbarrel grenade launcher, designed for installation on M16 and M4 assault rifles.

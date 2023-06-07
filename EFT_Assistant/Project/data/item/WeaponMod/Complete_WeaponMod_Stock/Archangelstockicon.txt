@@ -44,3 +44,5 @@ Conflict=[
 Recoil=-38.000000
 Ergonomics=32.000000
 accuracyModifier=0.000000
+Name_Jpn=M1A ProMag Archangel chassis
+Information_Jpn=The Archangel polymer chassis for M1A rifles, manufactured by ProMag.

@@ -29,3 +29,5 @@ Conflict=[
 Recoil=-3.000000
 Ergonomics=8.000000
 accuracyModifier=0.000000
+Name_Jpn=AR-15 Alexander Arms MK10 rifle length handguard
+Information_Jpn=The MK10 lightweight handguard system manufactured by Alexander Arms. Made of G10 composite fiberglass and compatible with most AR-15-type carbines.

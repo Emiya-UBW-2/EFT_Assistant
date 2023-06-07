@@ -13,3 +13,5 @@ Sell_Peacekeeper=1
 Sell_Mechanic=110
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
+Name_Jpn=9x21mm PE gzh
+Information_Jpn=A 9x21mm Gyurza PE gzh (SP12) cartridge with a 5.7 gram expansive bullet with a bimetallic semi-jacketed lead core and a ballistic polyethylene tip, in a bimetallic case. This cartridge was developed by TsNIITochMash due to the needs of the FSB to equip its special forces with a cartridge capable of granting outstanding stopping power effects at distances up to 200 meters and maintaining similar criteria to its counterparts of the same caliber, such as recoil, muzzle velocity, and trajectories.

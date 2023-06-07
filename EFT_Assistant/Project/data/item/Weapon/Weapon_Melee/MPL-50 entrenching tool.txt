@@ -13,3 +13,5 @@ propertiestype=ItemPropertiesMelee
 slashDamage=24
 stabDamage=43
 hitRadius=0.550000
+Name_Jpn=MPL-50 トレンチツール
+Information_Jpn=MPL-50は塹壕を掘るためのコンパクトなシャベルだ。しかし大戦中は武器としては勿論、調理器具の代わりとしてなど、様々な用途に使用された。

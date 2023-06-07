@@ -11,3 +11,5 @@ Sell_Fence=808
 Sell_Jaeger=1212
 fleaMarketFee=0
 propertiestype=
+Name_Jpn=マッチ
+Information_Jpn=箱いっぱいの安全マッチ。ライターの方が使いやすく信頼性も高いが、迂闊に渡すとそのまま盗られてしまいかねない。これなら気軽に火を貸すことができる。

@@ -12,3 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Lighthouse
+Name_Jpn=Rogue USEC workshop key
+Information_Jpn=A key to the workshop bunkhouse, located somewhere at the Rogue USEC base.

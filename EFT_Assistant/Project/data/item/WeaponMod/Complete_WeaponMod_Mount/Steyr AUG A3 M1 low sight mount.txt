@@ -64,3 +64,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
+Name_Jpn=Steyr AUG A3 M1 low sight mount
+Information_Jpn=A low-profile sight mount for AUG A3 M1. Manufactured by Steyr-Daimler-Puch.
