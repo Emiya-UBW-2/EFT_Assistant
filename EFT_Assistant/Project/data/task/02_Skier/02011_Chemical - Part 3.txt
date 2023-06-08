@@ -10,7 +10,7 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Factory
-Task_Else=E‚Á‚Ä”[•i:Factory-Syringe with a chemicalx1
+Task_Else=æ‹¾ã£ã¦ç´å“:Factory-Syringe with a chemicalx1
 
 [
 	TaskType=findQuestItem

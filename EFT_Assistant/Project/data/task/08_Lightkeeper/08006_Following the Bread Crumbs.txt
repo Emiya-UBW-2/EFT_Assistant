@@ -16,8 +16,8 @@ Task_Else=TaskType:visit
 Task_Else=Search the weapon testing area
 Task_Else=TaskType:visit
 Task_Else=Search the human experiment room
-Task_Else=E‚Á‚Ä”[•i:The Lab-Secured tapex1
-Task_Else=E‚Á‚Ä”[•i:Lighthouse-Secured tapex1
+Task_Else=æ‹¾ã£ã¦ç´å“:The Lab-Secured tapex1
+Task_Else=æ‹¾ã£ã¦ç´å“:Lighthouse-Secured tapex1
 
 [
 	TaskType=shoot

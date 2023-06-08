@@ -12,7 +12,7 @@ NeedLightkeeper=true
 Task_Map=Shoreline
 Task_Else=TaskType:visit
 Task_Else=Locate the room with reservoirs in the Health Resort
-Task_Else=E‚Á‚Ä”[•i:Shoreline-Secure Folder 0013x1
+Task_Else=æ‹¾ã£ã¦ç´å“:Shoreline-Secure Folder 0013x1
 
 [
 	TaskType=visit

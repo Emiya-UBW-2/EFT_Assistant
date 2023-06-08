@@ -12,10 +12,10 @@ NeedLightkeeper=true
 Task_Map=Shoreline
 Task_Else=TaskType:visit
 Task_Else=Locate the first UAV crash site on Shoreline
-Task_Else=E‚Á‚Ä”[•i:Shoreline-UAV SAS disk #1x1
+Task_Else=æ‹¾ã£ã¦ç´å“:Shoreline-UAV SAS disk #1x1
 Task_Else=TaskType:visit
 Task_Else=Locate the second UAV crash site on Shoreline
-Task_Else=E‚Á‚Ä”[•i:Shoreline-UAV SAS disk #2x1
+Task_Else=æ‹¾ã£ã¦ç´å“:Shoreline-UAV SAS disk #2x1
 
 [
 	TaskType=visit

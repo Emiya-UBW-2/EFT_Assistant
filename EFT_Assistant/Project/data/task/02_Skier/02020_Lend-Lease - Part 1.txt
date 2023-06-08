@@ -10,11 +10,11 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
-Task_Else=E‚Á‚Ä”[•i:Woods-Motor Controller #1x1
-Task_Else=E‚Á‚Ä”[•i:Shoreline-Motor Controller #2x1
-Task_Else=E‚Á‚Ä”[•i:Shoreline-Motor Controller #3x1
-Task_Else=E‚Á‚Ä”[•i:Woods-Single-axis Fiber Optic Gyroscope #1x1
-Task_Else=E‚Á‚Ä”[•i:Shoreline-Single-axis Fiber Optic Gyroscope #2x1
+Task_Else=æ‹¾ã£ã¦ç´å“:Woods-Motor Controller #1x1
+Task_Else=æ‹¾ã£ã¦ç´å“:Shoreline-Motor Controller #2x1
+Task_Else=æ‹¾ã£ã¦ç´å“:Shoreline-Motor Controller #3x1
+Task_Else=æ‹¾ã£ã¦ç´å“:Woods-Single-axis Fiber Optic Gyroscope #1x1
+Task_Else=æ‹¾ã£ã¦ç´å“:Shoreline-Single-axis Fiber Optic Gyroscope #2x1
 
 [
 	TaskType=findQuestItem

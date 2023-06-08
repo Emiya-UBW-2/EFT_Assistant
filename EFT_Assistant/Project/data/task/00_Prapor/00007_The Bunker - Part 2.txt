@@ -21,7 +21,7 @@ Task_Else=Locate one of the two hermetic doors leading to barracks #2 (White Paw
 Task_Else=TaskType:visit
 Task_Else=Locate the hermetic door leading to the building of the air control center (King)
 Task_Map=Reserve
-Task_Else=脱出ステータス:[Survived,Run Through]
+Task_Else=閼ｱ蜃ｺ繧ｹ繝�繝ｼ繧ｿ繧ｹ:[Survived,Run Through]
 
 [
 	TaskType=visit

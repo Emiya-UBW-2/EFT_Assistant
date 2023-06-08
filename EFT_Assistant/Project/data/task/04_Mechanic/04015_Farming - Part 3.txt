@@ -13,7 +13,7 @@ NeedLightkeeper=false
 Task_Map=Customs
 Task_Else=TaskType:visit
 Task_Else=Locate the warehouse of seized goods on Customs
-Task_Else=E‚Á‚Ä”[•i:Customs-Package of graphics cardsx1
+Task_Else=æ‹¾ã£ã¦ç´å“:Customs-Package of graphics cardsx1
 
 [
 	TaskType=visit

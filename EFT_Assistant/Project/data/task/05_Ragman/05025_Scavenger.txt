@@ -9,7 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
-Task_Else=Skill‚ğã‚°‚é:Search+9.000000
+Task_Else=Skillã‚’ä¸Šã’ã‚‹:Search+9.000000
 
 [
 	TaskType=skill

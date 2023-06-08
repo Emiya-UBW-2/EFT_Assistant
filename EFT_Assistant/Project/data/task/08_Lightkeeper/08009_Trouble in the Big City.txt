@@ -18,10 +18,10 @@ Task_Kill=[
 Task_Map=Streets of Tarkov
 NeedItem=MS2000 Markerx1
 Task_Map=Streets of Tarkov
-Task_Else=閾値: >= 0
-Task_Else=ゾーン:[Armored Convoy]
+Task_Else=髢ｾ蛟､: >= 0
+Task_Else=繧ｾ繝ｼ繝ｳ:[Armored Convoy]
 Task_Map=Streets of Tarkov
-Task_Else=脱出ステータス:[Survived]
+Task_Else=閼ｱ蜃ｺ繧ｹ繝�繝ｼ繧ｿ繧ｹ:[Survived]
 
 [
 	TaskType=visit

@@ -13,7 +13,7 @@ Task_Map=Woods
 Task_Kill=[
 	Woods-any PMC operativesx15
 ]
-Task_Else=‘•”õ‚µ‚Ä‚Í‚¢‚¯‚È‚¢:{
+Task_Else=è£…å‚™ã—ã¦ã¯ã„ã‘ãªã„:{
 Task_Else=  6B43 6A Zabralo-Sh body armor
 Task_Else=  BNTI Gzhel-K body armor
 Task_Else=  MF-UNTAR body armor

@@ -17,7 +17,7 @@ Task_Map=Woods
 Task_Map=Customs
 Task_Map=Reserve
 Task_Map=The Lab
-Task_Else=脱出ステータス:[Survived]
+Task_Else=閼ｱ蜃ｺ繧ｹ繝�繝ｼ繧ｿ繧ｹ:[Survived]
 
 [
 	TaskType=experience

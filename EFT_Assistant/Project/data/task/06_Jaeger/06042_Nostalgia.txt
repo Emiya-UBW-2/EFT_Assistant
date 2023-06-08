@@ -12,7 +12,7 @@ NeedLightkeeper=false
 Task_Map=Shoreline
 Task_Else=TaskType:visit
 Task_Else=Locate Jaeger's room with a view of a bay in the Health Resort
-Task_Else=E‚Á‚Ä”[•i:Shoreline-Photo albumx1
+Task_Else=æ‹¾ã£ã¦ç´å“:Shoreline-Photo albumx1
 
 [
 	TaskType=visit

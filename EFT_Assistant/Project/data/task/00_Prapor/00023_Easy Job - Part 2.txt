@@ -13,7 +13,7 @@ Task_Map=Lighthouse
 Task_Kill=[
 	Lighthouse-any targetx20
 ]
-Task_Else=ƒ][ƒ“:[Helicopter at Water Treatment Plant]
+Task_Else=ã‚¾ãƒ¼ãƒ³:[Helicopter at Water Treatment Plant]
 
 [
 	TaskType=shoot

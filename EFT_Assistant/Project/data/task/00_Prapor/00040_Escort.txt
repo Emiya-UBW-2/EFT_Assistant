@@ -74,7 +74,7 @@ Reward_SkillLevelUp=Melee+2
 Reward_SkillLevelUp=Pistols+1
 Reward_SkillLevelUp=Strength+1
 
-Task_Else=脱出ステータス:[Killed in Action (KIA),Left the Action,Missing in Action (MIA)]
+Task_Else=閼ｱ蜃ｺ繧ｹ繝�繝ｼ繧ｿ繧ｹ:[Killed in Action (KIA),Left the Action,Missing in Action (MIA)]
 
 [
 	TaskType=extract

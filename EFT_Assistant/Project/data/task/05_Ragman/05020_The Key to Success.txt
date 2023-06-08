@@ -10,8 +10,8 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Interchange
-Task_Else=E‚Á‚Ä”[•i:Interchange-Clothes design handbook - Part 1x1
-Task_Else=E‚Á‚Ä”[•i:Interchange-Clothes design handbook - Part 2x1
+Task_Else=æ‹¾ã£ã¦ç´å“:Interchange-Clothes design handbook - Part 1x1
+Task_Else=æ‹¾ã£ã¦ç´å“:Interchange-Clothes design handbook - Part 2x1
 
 [
 	TaskType=findQuestItem

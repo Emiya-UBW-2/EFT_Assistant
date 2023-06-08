@@ -18,7 +18,7 @@ NeedItem=[
 	ADAR 2-15 5.56x45 carbinex0/|
 	Lone Star TX-15 DML 5.56x45 carbinex0
 ]
-Task_Else=‹——£: >= 100m
+Task_Else=è·é›¢: >= 100m
 
 [
 	TaskType=shoot

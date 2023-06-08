@@ -13,7 +13,7 @@ Task_Map=Interchange
 Task_Kill=[
 	Interchange-any PMC operativesx30
 ]
-Task_Else=É]Å[Éì:[Inside ULTRA Mall]
+Task_Else=„Çæ„Éº„É≥:[Inside ULTRA Mall]
 
 [
 	TaskType=shoot

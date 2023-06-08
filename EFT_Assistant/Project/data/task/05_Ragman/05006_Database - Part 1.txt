@@ -11,9 +11,9 @@ NeedKappa=true
 NeedLightkeeper=true
 
 Task_Map=Interchange
-Task_Else=E‚Á‚Ä”[•i:Interchange-Goshan cargo manifestsx1
-Task_Else=E‚Á‚Ä”[•i:Interchange-OLI cargo manifestsx1
-Task_Else=E‚Á‚Ä”[•i:Interchange-IDEA cargo manifestsx1
+Task_Else=æ‹¾ã£ã¦ç´å“:Interchange-Goshan cargo manifestsx1
+Task_Else=æ‹¾ã£ã¦ç´å“:Interchange-OLI cargo manifestsx1
+Task_Else=æ‹¾ã£ã¦ç´å“:Interchange-IDEA cargo manifestsx1
 
 [
 	TaskType=findQuestItem

@@ -13,7 +13,7 @@ Task_Map=Reserve
 Task_Kill=[
 	Reserve-Scavsx10
 ]
-Task_Else=É]Å[Éì:[White Pawn,Black Pawn]
+Task_Else=„Çæ„Éº„É≥:[White Pawn,Black Pawn]
 
 [
 	TaskType=shoot

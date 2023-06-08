@@ -13,7 +13,7 @@ Task_Map=Reserve
 Task_Kill=[
 	Reserve-Raiderx5
 ]
-Task_Else=ƒ][ƒ“:[Command Bunker]
+Task_Else=ã‚¾ãƒ¼ãƒ³:[Command Bunker]
 
 [
 	TaskType=shoot

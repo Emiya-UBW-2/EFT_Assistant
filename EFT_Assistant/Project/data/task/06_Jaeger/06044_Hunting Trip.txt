@@ -19,7 +19,7 @@ NeedItem=[
 NeedItem=[
 	March Tactical 3-24x42 FFP 30mm riflescopex0
 ]
-Task_Else=‹——£: >= 50m
+Task_Else=è·é›¢: >= 50m
 
 [
 	TaskType=shoot

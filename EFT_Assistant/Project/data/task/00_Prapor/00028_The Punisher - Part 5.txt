@@ -21,7 +21,7 @@ DogTagLv=0
 Task_Kill=[
 	any PMC operativesx10
 ]
-Task_Else=‘•”õ‚ª•K—v:{
+Task_Else=è£…å‚™ãŒå¿…è¦:{
 Task_Else=  PACA Soft Armor
 Task_Else=  6B47 Ratnik-BSh helmet (Digital Flora cover)
 Task_Else=  PACA Soft Armor

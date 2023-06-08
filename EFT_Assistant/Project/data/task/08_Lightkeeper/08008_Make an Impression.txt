@@ -9,11 +9,11 @@ CanRestart=false
 NeedKappa=false
 NeedLightkeeper=false
 
-Task_Else=Skill‚ğã‚°‚é:Sniper Rifles+10.000000
+Task_Else=Skillã‚’ä¸Šã’ã‚‹:Sniper Rifles+10.000000
 Task_Kill=[
 	Sniperx10
 ]
-Task_Else=‹——£: >= 350m
+Task_Else=è·é›¢: >= 350m
 
 [
 	TaskType=skill

@@ -11,7 +11,7 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Customs
-Task_Else=E‚Á‚Ä”[•i:Customs-Secure Folder 0048x1
+Task_Else=æ‹¾ã£ã¦ç´å“:Customs-Secure Folder 0048x1
 Task_Else=TaskType:visit
 Task_Else=Locate the messenger's body
 Task_Else=TaskType:visit

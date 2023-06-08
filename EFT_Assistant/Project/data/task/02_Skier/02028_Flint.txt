@@ -9,7 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
-Task_Else=Skill‚ğã‚°‚é:Stress Resistance+5.000000
+Task_Else=Skillã‚’ä¸Šã’ã‚‹:Stress Resistance+5.000000
 
 [
 	TaskType=skill

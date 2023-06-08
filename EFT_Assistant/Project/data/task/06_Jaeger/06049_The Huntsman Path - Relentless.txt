@@ -66,7 +66,7 @@ Reward_Item=[
 Reward_SkillLevelUp=Crafting+2
 Reward_SkillLevelUp=Immunity+1
 
-Task_Else=脱出ステータス:[Killed in Action (KIA),Missing in Action (MIA)]
+Task_Else=閼ｱ蜃ｺ繧ｹ繝�繝ｼ繧ｿ繧ｹ:[Killed in Action (KIA),Missing in Action (MIA)]
 
 [
 	TaskType=extract

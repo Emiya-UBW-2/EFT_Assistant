@@ -11,8 +11,8 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Shoreline
-Task_Else=E‚Á‚Ä”[•i:Shoreline-Surgery kit marked with a blue symbolx1
-Task_Else=E‚Á‚Ä”[•i:Shoreline-Marked Ophthalmoscopex1
+Task_Else=æ‹¾ã£ã¦ç´å“:Shoreline-Surgery kit marked with a blue symbolx1
+Task_Else=æ‹¾ã£ã¦ç´å“:Shoreline-Marked Ophthalmoscopex1
 
 [
 	TaskType=findQuestItem

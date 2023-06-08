@@ -15,7 +15,7 @@ Task_Kill=[
 	Factory-any PMC operativesx6/|
 	Night Factory-any PMC operativesx6
 ]
-Task_Else=É]Å[Éì:[Office]
+Task_Else=„Çæ„Éº„É≥:[Office]
 
 [
 	TaskType=shoot

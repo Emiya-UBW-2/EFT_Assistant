@@ -21,7 +21,7 @@ Task_Else=Locate and check the DINO CLOTHES store on Interchange
 Task_Else=TaskType:visit
 Task_Else=Locate and check the TOP BRAND store on Interchange
 Task_Map=Interchange
-Task_Else=脱出ステータス:[Survived,Run Through]
+Task_Else=閼ｱ蜃ｺ繧ｹ繝�繝ｼ繧ｿ繧ｹ:[Survived,Run Through]
 
 [
 	TaskType=visit

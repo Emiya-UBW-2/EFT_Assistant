@@ -11,7 +11,7 @@ NeedKappa=true
 NeedLightkeeper=true
 
 Task_Map=Customs
-Task_Else=E‚Á‚Ä”[•i:Customs-Carbon casex1
+Task_Else=æ‹¾ã£ã¦ç´å“:Customs-Carbon casex1
 Task_Else=TaskType:visit
 Task_Else=Locate the paramedicâ€™s car on Customs
 Task_Else=TaskType:visit

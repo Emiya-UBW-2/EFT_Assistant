@@ -11,7 +11,7 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Reserve
-Task_Else=E‚Á‚Ä”[•i:Reserve-MBT Integrated Navigation Systemx1
+Task_Else=æ‹¾ã£ã¦ç´å“:Reserve-MBT Integrated Navigation Systemx1
 
 [
 	TaskType=findQuestItem

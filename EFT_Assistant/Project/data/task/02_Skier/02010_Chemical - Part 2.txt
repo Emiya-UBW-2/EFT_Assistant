@@ -11,8 +11,8 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Customs
-Task_Else=E‚Á‚Ä”[•i:Customs-Sliderkey Secure Flash drivex1
-Task_Else=E‚Á‚Ä”[•i:Customs-Sealed letter with a TG logox1
+Task_Else=æ‹¾ã£ã¦ç´å“:Customs-Sliderkey Secure Flash drivex1
+Task_Else=æ‹¾ã£ã¦ç´å“:Customs-Sealed letter with a TG logox1
 
 [
 	TaskType=findQuestItem

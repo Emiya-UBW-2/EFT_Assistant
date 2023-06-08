@@ -15,7 +15,7 @@ Task_Else=Locate Prapor's missing convoy on Woods
 Task_Else=TaskType:visit
 Task_Else=Locate the temporary USEC camp
 Task_Map=Woods
-Task_Else=脱出ステータス:[Survived,Run Through]
+Task_Else=閼ｱ蜃ｺ繧ｹ繝�繝ｼ繧ｿ繧ｹ:[Survived,Run Through]
 
 [
 	TaskType=visit

@@ -10,9 +10,9 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
-Task_Else=E‚Á‚Ä”[•i:Shoreline-Chemical container #1x1
-Task_Else=E‚Á‚Ä”[•i:Interchange-Chemical container #2x1
-Task_Else=E‚Á‚Ä”[•i:Interchange-Chemical container #3x1
+Task_Else=æ‹¾ã£ã¦ç´å“:Shoreline-Chemical container #1x1
+Task_Else=æ‹¾ã£ã¦ç´å“:Interchange-Chemical container #2x1
+Task_Else=æ‹¾ã£ã¦ç´å“:Interchange-Chemical container #3x1
 
 [
 	TaskType=findQuestItem

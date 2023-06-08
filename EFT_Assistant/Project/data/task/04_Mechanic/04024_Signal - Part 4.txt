@@ -9,7 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
-Task_Else=Skill‚ğã‚°‚é:Memory+4.000000
+Task_Else=Skillã‚’ä¸Šã’ã‚‹:Memory+4.000000
 
 [
 	TaskType=skill

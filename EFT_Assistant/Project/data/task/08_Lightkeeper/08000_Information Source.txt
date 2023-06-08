@@ -10,17 +10,17 @@ NeedKappa=false
 NeedLightkeeper=false
 
 Task_Map=Woods
-Task_Else=’EoƒXƒe[ƒ^ƒX:[Survived]
-Task_Else=’Eo’n“_:Bridge V-Ex
+Task_Else=è„±å‡ºã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹:[Survived]
+Task_Else=è„±å‡ºåœ°ç‚¹:Bridge V-Ex
 Task_Map=Customs
-Task_Else=’EoƒXƒe[ƒ^ƒX:[Survived]
-Task_Else=’Eo’n“_:Dorms V-Ex
+Task_Else=è„±å‡ºã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹:[Survived]
+Task_Else=è„±å‡ºåœ°ç‚¹:Dorms V-Ex
 Task_Map=Interchange
-Task_Else=’EoƒXƒe[ƒ^ƒX:[Survived]
-Task_Else=’Eo’n“_:Power Station V-Ex
+Task_Else=è„±å‡ºã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹:[Survived]
+Task_Else=è„±å‡ºåœ°ç‚¹:Power Station V-Ex
 Task_Map=Streets of Tarkov
-Task_Else=’EoƒXƒe[ƒ^ƒX:[Survived]
-Task_Else=’Eo’n“_:Primorsky Ave Taxi V-Ex
+Task_Else=è„±å‡ºã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹:[Survived]
+Task_Else=è„±å‡ºåœ°ç‚¹:Primorsky Ave Taxi V-Ex
 NeedItem=MS2000 Markerx1
 NeedItem=MS2000 Markerx1
 

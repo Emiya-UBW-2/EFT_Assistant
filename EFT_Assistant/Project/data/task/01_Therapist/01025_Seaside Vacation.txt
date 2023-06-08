@@ -10,7 +10,7 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Lighthouse
-Task_Else=E‚Á‚Ä”[•i:Lighthouse-Laptop with informationx1
+Task_Else=æ‹¾ã£ã¦ç´å“:Lighthouse-Laptop with informationx1
 
 [
 	TaskType=findQuestItem

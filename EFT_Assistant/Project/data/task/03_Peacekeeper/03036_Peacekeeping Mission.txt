@@ -15,7 +15,7 @@ Task_Kill=[
 NeedItem=[
 	Colt M4A1 5.56x45 assault riflex0
 ]
-Task_Else=‘•”õ‚ª•K—v:{
+Task_Else=è£…å‚™ãŒå¿…è¦:{
 Task_Else=  UNTAR helmet
 Task_Else=  MF-UNTAR body armor
 Task_Else=}
@@ -25,7 +25,7 @@ Task_Kill=[
 NeedItem=[
 	Colt M4A1 5.56x45 assault riflex0
 ]
-Task_Else=‘•”õ‚ª•K—v:{
+Task_Else=è£…å‚™ãŒå¿…è¦:{
 Task_Else=  UNTAR helmet
 Task_Else=  MF-UNTAR body armor
 Task_Else=}
@@ -35,7 +35,7 @@ Task_Kill=[
 NeedItem=[
 	Colt M4A1 5.56x45 assault riflex0
 ]
-Task_Else=‘•”õ‚ª•K—v:{
+Task_Else=è£…å‚™ãŒå¿…è¦:{
 Task_Else=  UNTAR helmet
 Task_Else=  MF-UNTAR body armor
 Task_Else=}
@@ -45,7 +45,7 @@ Task_Kill=[
 NeedItem=[
 	Colt M4A1 5.56x45 assault riflex0
 ]
-Task_Else=‘•”õ‚ª•K—v:{
+Task_Else=è£…å‚™ãŒå¿…è¦:{
 Task_Else=  UNTAR helmet
 Task_Else=  MF-UNTAR body armor
 Task_Else=}
@@ -55,7 +55,7 @@ Task_Kill=[
 NeedItem=[
 	Colt M4A1 5.56x45 assault riflex0
 ]
-Task_Else=‘•”õ‚ª•K—v:{
+Task_Else=è£…å‚™ãŒå¿…è¦:{
 Task_Else=  UNTAR helmet
 Task_Else=  MF-UNTAR body armor
 Task_Else=}

@@ -10,9 +10,9 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Woods
-Task_Else=E‚Á‚Ä”[•i:Woods-Secure Folder 0052x1
+Task_Else=æ‹¾ã£ã¦ç´å“:Woods-Secure Folder 0052x1
 Task_Map=Woods
-Task_Else=’EoƒXƒe[ƒ^ƒX:[Survived,Run Through]
+Task_Else=è„±å‡ºã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹:[Survived,Run Through]
 
 [
 	TaskType=findQuestItem
@@ -36,8 +36,8 @@ Reward_Item=[
 	CMS surgical kitx1
 ]
 
-Task_Else=ŠY“–ƒ^ƒXƒNKind of Sabotage
-Task_Else=ŠY“–ƒ^ƒXƒNó‘Ô:complete
+Task_Else=è©²å½“ã‚¿ã‚¹ã‚¯Kind of Sabotage
+Task_Else=è©²å½“ã‚¿ã‚¹ã‚¯çŠ¶æ…‹:complete
 
 [
 	TaskType=taskStatus

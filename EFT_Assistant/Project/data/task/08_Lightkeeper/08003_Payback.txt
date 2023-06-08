@@ -17,11 +17,11 @@ Task_Kill=[
 	Reserve-Glukhar Guard (Assault)x6
 ]
 Task_Map=Reserve
-Task_Else=閾値: >= 0
-Task_Else=ゾーン:[Radar Station]
+Task_Else=髢ｾ蛟､: >= 0
+Task_Else=繧ｾ繝ｼ繝ｳ:[Radar Station]
 Task_Map=Reserve
-Task_Else=脱出ステータス:[Survived]
-Task_Else=脱出地点:Cliff Descent
+Task_Else=閼ｱ蜃ｺ繧ｹ繝�繝ｼ繧ｿ繧ｹ:[Survived]
+Task_Else=閼ｱ蜃ｺ蝨ｰ轤ｹ:Cliff Descent
 
 [
 	TaskType=shoot

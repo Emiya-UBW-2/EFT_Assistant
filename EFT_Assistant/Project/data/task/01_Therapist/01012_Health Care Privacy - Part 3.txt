@@ -12,9 +12,9 @@ NeedLightkeeper=true
 Task_Map=Woods
 Task_Else=TaskType:visit
 Task_Else=Locate the van that belonged to the head of the health resort Medical Services
-Task_Else=拾って納品:Woods-Blood samplex1
+Task_Else=諡ｾ縺｣縺ｦ邏榊刀:Woods-Blood samplex1
 Task_Map=Woods
-Task_Else=脱出ステータス:[Survived,Run Through]
+Task_Else=閼ｱ蜃ｺ繧ｹ繝�繝ｼ繧ｿ繧ｹ:[Survived,Run Through]
 
 [
 	TaskType=visit

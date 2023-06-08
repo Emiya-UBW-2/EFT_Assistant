@@ -10,7 +10,7 @@ NeedKappa=false
 NeedLightkeeper=false
 
 Task_Map=Lighthouse
-Task_Else=E‚Á‚Ä”[•i:Lighthouse-Secure Flash drive V3x1
+Task_Else=æ‹¾ã£ã¦ç´å“:Lighthouse-Secure Flash drive V3x1
 NeedItem=Digital secure DSP radio transmitterx1
 Task_Else=TaskType:visit
 Task_Else=Visit the Lighthouse building
@@ -38,7 +38,7 @@ Task_Else=Visit the Lighthouse building
 
 Reward_Rep=Mechanic+1
 
-Task_Else=TraderStanding‚Ìè‡’l: <= 0
+Task_Else=TraderStandingã®é–¾å€¤: <= 0
 
 [
 	TaskType=traderStanding

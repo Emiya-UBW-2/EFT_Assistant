@@ -12,7 +12,7 @@ NeedLightkeeper=false
 Task_Kill=[
 	any PMC operativesx20
 ]
-Task_Else=‹——£: >= 100m
+Task_Else=è·é›¢: >= 100m
 
 [
 	TaskType=shoot

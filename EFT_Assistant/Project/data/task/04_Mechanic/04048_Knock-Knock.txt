@@ -13,7 +13,7 @@ Task_Map=Lighthouse
 Task_Else=TaskType:visit
 Task_Else=Check if the transponder works
 Task_Map=Lighthouse
-Task_Else=脱出ステータス:[Survived]
+Task_Else=閼ｱ蜃ｺ繧ｹ繝�繝ｼ繧ｿ繧ｹ:[Survived]
 
 [
 	TaskType=visit

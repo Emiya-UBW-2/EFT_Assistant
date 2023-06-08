@@ -11,8 +11,8 @@ NeedLightkeeper=false
 
 Task_Map=Streets of Tarkov
 Task_Map=Streets of Tarkov
-Task_Else=脱出ステータス:[Survived]
-Task_Else=脱出地点:Klimov Street
+Task_Else=閼ｱ蜃ｺ繧ｹ繝�繝ｼ繧ｿ繧ｹ:[Survived]
+Task_Else=閼ｱ蜃ｺ蝨ｰ轤ｹ:Klimov Street
 
 [
 	TaskType=extract

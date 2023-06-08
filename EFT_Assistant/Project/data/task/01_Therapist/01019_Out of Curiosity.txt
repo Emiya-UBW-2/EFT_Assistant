@@ -15,7 +15,7 @@ Task_Else=Locate the transport with the chemicals on Customs
 Task_Map=Customs
 NeedItem=MS2000 Markerx1
 Task_Map=Customs
-Task_Else=’EoƒXƒe[ƒ^ƒX:[Survived,Run Through]
+Task_Else=è„±å‡ºã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹:[Survived,Run Through]
 
 [
 	TaskType=visit
@@ -39,10 +39,10 @@ Reward_Item=[
 	Injector casex1
 ]
 
-Task_Else=ŠY“–ƒ^ƒXƒNChemical - Part 4
-Task_Else=ŠY“–ƒ^ƒXƒNó‘Ô:complete
-Task_Else=ŠY“–ƒ^ƒXƒNBig Customer
-Task_Else=ŠY“–ƒ^ƒXƒNó‘Ô:complete
+Task_Else=è©²å½“ã‚¿ã‚¹ã‚¯Chemical - Part 4
+Task_Else=è©²å½“ã‚¿ã‚¹ã‚¯çŠ¶æ…‹:complete
+Task_Else=è©²å½“ã‚¿ã‚¹ã‚¯Big Customer
+Task_Else=è©²å½“ã‚¿ã‚¹ã‚¯çŠ¶æ…‹:complete
 
 [
 	TaskType=taskStatus

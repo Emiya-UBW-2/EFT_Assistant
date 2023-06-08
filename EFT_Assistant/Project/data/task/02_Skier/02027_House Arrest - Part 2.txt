@@ -15,7 +15,7 @@ Task_Else=Locate the improvised jail warden's apartment on Streets of Tarkov
 Task_Else=TaskType:visit
 Task_Else=Find out what happened to the warden
 Task_Map=Streets of Tarkov
-Task_Else=脱出ステータス:[Survived]
+Task_Else=閼ｱ蜃ｺ繧ｹ繝�繝ｼ繧ｿ繧ｹ:[Survived]
 
 [
 	TaskType=visit

@@ -9,8 +9,8 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
-Task_Else=ŠY“–ƒ^ƒXƒNColleagues - Part 3
-Task_Else=ŠY“–ƒ^ƒXƒNó‘Ô:active
+Task_Else=è©²å½“ã‚¿ã‚¹ã‚¯Colleagues - Part 3
+Task_Else=è©²å½“ã‚¿ã‚¹ã‚¯çŠ¶æ…‹:active
 NeedItem=TerraGroup Labs access keycardx10
 Task_NotFiR_HandOver=[TerraGroup Labs access keycardx10]
 DogTagLv=0

@@ -11,7 +11,7 @@ NeedLightkeeper=false
 
 Task_Map=Interchange
 Task_Map=Interchange
-Task_Else=脱出ステータス:[Survived]
+Task_Else=閼ｱ蜃ｺ繧ｹ繝�繝ｼ繧ｿ繧ｹ:[Survived]
 
 [
 	TaskType=extract

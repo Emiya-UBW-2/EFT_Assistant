@@ -17,7 +17,7 @@ Task_Else=Locate the fisherman's house in the abandoned village on Shoreline
 Task_Else=TaskType:visit
 Task_Else=Locate the priest's house in the abandoned village on Shoreline
 Task_Map=Shoreline
-Task_Else=脱出ステータス:[Survived]
+Task_Else=閼ｱ蜃ｺ繧ｹ繝�繝ｼ繧ｿ繧ｹ:[Survived]
 
 [
 	TaskType=visit

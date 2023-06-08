@@ -19,7 +19,7 @@ Task_Kill=[
 	Reserve-Scavsx6/|
 	The Lab-Scavsx6
 ]
-Task_Else=‘•”õ‚µ‚Ä‚Í‚¢‚¯‚È‚¢:{
+Task_Else=è£…å‚™ã—ã¦ã¯ã„ã‘ãªã„:{
 Task_Else=  PNV-10T Night Vision Goggles
 Task_Else=  Armasight N-15 Night Vision Goggles
 Task_Else=  GPNVG-18 Night Vision goggles

@@ -11,9 +11,9 @@ NeedKappa=true
 NeedLightkeeper=true
 
 Task_Map=Shoreline
-Task_Else=拾って納品:Shoreline-Secure Folder 0060x1
+Task_Else=諡ｾ縺｣縺ｦ邏榊刀:Shoreline-Secure Folder 0060x1
 Task_Map=Shoreline
-Task_Else=脱出ステータス:[Survived,Run Through]
+Task_Else=閼ｱ蜃ｺ繧ｹ繝�繝ｼ繧ｿ繧ｹ:[Survived,Run Through]
 
 [
 	TaskType=findQuestItem

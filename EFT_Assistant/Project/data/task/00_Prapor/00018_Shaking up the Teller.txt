@@ -15,7 +15,7 @@ traderRequirementsName=Prapor
 traderRequirementsType=level
 traderRequirements=>=
 traderRequirementsValue=2
-Task_Else=E‚Á‚Ä”[•i:Customs-Bank casex1
+Task_Else=æ‹¾ã£ã¦ç´å“:Customs-Bank casex1
 Task_Else=TaskType:visit
 Task_Else=Gain access to dorm room 214
 

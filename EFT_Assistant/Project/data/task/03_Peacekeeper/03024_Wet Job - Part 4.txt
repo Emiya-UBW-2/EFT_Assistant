@@ -10,7 +10,7 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Shoreline
-Task_Else=E‚Á‚Ä”[•i:Shoreline-Sliderkey Flash drivex1
+Task_Else=æ‹¾ã£ã¦ç´å“:Shoreline-Sliderkey Flash drivex1
 
 [
 	TaskType=findQuestItem

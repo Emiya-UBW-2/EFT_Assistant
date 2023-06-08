@@ -10,11 +10,11 @@ NeedKappa=false
 NeedLightkeeper=false
 
 Task_Map=Lighthouse
-Task_Else=’EoƒXƒe[ƒ^ƒX:[Survived,Run Through,Killed in Action (KIA),Missing in Action (MIA)]
-Task_Else=E‚Á‚Ä”[•i:Lighthouse-Forged Lightkeeper intelligencex1
-Task_Else=E‚Á‚Ä”[•i:Reserve-Lightkeeper intelligencex1
-Task_Else=E‚Á‚Ä”[•i:Reserve-Forged Lightkeeper intelligencex1
-Task_Else=E‚Á‚Ä”[•i:Lighthouse-Lightkeeper intelligencex1
+Task_Else=è„±å‡ºã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹:[Survived,Run Through,Killed in Action (KIA),Missing in Action (MIA)]
+Task_Else=æ‹¾ã£ã¦ç´å“:Lighthouse-Forged Lightkeeper intelligencex1
+Task_Else=æ‹¾ã£ã¦ç´å“:Reserve-Lightkeeper intelligencex1
+Task_Else=æ‹¾ã£ã¦ç´å“:Reserve-Forged Lightkeeper intelligencex1
+Task_Else=æ‹¾ã£ã¦ç´å“:Lighthouse-Lightkeeper intelligencex1
 
 [
 	TaskType=extract

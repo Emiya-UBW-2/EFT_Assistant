@@ -12,27 +12,27 @@ NeedLightkeeper=false
 Task_Kill=[
 	Woods-any PMC operatives{head}x3
 ]
-Task_Else=‹——£: >= 100m
+Task_Else=è·é›¢: >= 100m
 Task_Kill=[
 	Reserve-any PMC operatives{head}x3
 ]
-Task_Else=‹——£: >= 100m
+Task_Else=è·é›¢: >= 100m
 Task_Kill=[
 	Shoreline-any PMC operatives{head}x3
 ]
-Task_Else=‹——£: >= 100m
+Task_Else=è·é›¢: >= 100m
 Task_Kill=[
 	Customs-any PMC operatives{head}x3
 ]
-Task_Else=‹——£: >= 100m
+Task_Else=è·é›¢: >= 100m
 Task_Kill=[
 	Lighthouse-any PMC operatives{head}x3
 ]
-Task_Else=‹——£: >= 100m
+Task_Else=è·é›¢: >= 100m
 Task_Kill=[
 	Streets of Tarkov-any PMC operatives{head}x3
 ]
-Task_Else=‹——£: >= 100m
+Task_Else=è·é›¢: >= 100m
 
 [
 	TaskType=shoot

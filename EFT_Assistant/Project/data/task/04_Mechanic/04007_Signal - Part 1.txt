@@ -15,7 +15,7 @@ Task_Else=Locate the first signal source on Shoreline
 Task_Else=TaskType:visit
 Task_Else=Locate the second signal source on Shoreline
 Task_Map=Shoreline
-Task_Else=脱出ステータス:[Survived,Run Through]
+Task_Else=閼ｱ蜃ｺ繧ｹ繝�繝ｼ繧ｿ繧ｹ:[Survived,Run Through]
 
 [
 	TaskType=visit

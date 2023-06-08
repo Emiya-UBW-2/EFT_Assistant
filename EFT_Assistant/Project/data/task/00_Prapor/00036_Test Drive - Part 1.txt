@@ -19,7 +19,7 @@ NeedItem=[
 	SilencerCo Hybrid 46 multi-caliber sound suppressorx0/|
 	Trijicon REAP-IR thermal scopex0
 ]
-Task_Else=‹——£: >= 60m
+Task_Else=è·é›¢: >= 60m
 
 [
 	TaskType=shoot

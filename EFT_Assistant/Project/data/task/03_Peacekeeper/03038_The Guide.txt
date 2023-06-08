@@ -10,24 +10,24 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Woods
-Task_Else=’EoƒXƒe[ƒ^ƒX:[Survived]
+Task_Else=è„±å‡ºã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹:[Survived]
 Task_Map=Customs
-Task_Else=’EoƒXƒe[ƒ^ƒX:[Survived]
+Task_Else=è„±å‡ºã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹:[Survived]
 Task_Map=Interchange
-Task_Else=’EoƒXƒe[ƒ^ƒX:[Survived]
+Task_Else=è„±å‡ºã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹:[Survived]
 Task_Map=Shoreline
-Task_Else=’EoƒXƒe[ƒ^ƒX:[Survived]
+Task_Else=è„±å‡ºã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹:[Survived]
 Task_Map=Factory
 Task_Map=Night Factory
-Task_Else=’EoƒXƒe[ƒ^ƒX:[Survived]
+Task_Else=è„±å‡ºã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹:[Survived]
 Task_Map=The Lab
-Task_Else=’EoƒXƒe[ƒ^ƒX:[Survived]
+Task_Else=è„±å‡ºã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹:[Survived]
 Task_Map=Reserve
-Task_Else=’EoƒXƒe[ƒ^ƒX:[Survived]
+Task_Else=è„±å‡ºã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹:[Survived]
 Task_Map=Lighthouse
-Task_Else=’EoƒXƒe[ƒ^ƒX:[Survived]
+Task_Else=è„±å‡ºã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹:[Survived]
 Task_Map=Streets of Tarkov
-Task_Else=’EoƒXƒe[ƒ^ƒX:[Survived]
+Task_Else=è„±å‡ºã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹:[Survived]
 
 [
 	TaskType=extract
@@ -92,7 +92,7 @@ Task_Map=Customs
 Task_Map=Factory
 Task_Map=Night Factory
 Task_Map=The Lab
-Task_Else=’EoƒXƒe[ƒ^ƒX:[Killed in Action (KIA),Left the Action,Missing in Action (MIA)]
+Task_Else=è„±å‡ºã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹:[Killed in Action (KIA),Left the Action,Missing in Action (MIA)]
 
 [
 	TaskType=extract

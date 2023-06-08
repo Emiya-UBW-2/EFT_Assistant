@@ -11,7 +11,7 @@ NeedKappa=true
 NeedLightkeeper=true
 
 Task_Map=Customs
-Task_Else=E‚Á‚Ä”[•i:Customs-Bronze pocket watch on a chainx1
+Task_Else=æ‹¾ã£ã¦ç´å“:Customs-Bronze pocket watch on a chainx1
 NeedItem=Machinery keyx1
 
 [

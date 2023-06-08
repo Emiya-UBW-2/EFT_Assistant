@@ -30,8 +30,8 @@ Reward_Item=[
 	Surv12 field surgical kitx2
 ]
 
-Task_Else=ŠY“–ƒ^ƒXƒNColleagues - Part 3
-Task_Else=ŠY“–ƒ^ƒXƒNó‘Ô:complete
+Task_Else=è©²å½“ã‚¿ã‚¹ã‚¯Colleagues - Part 3
+Task_Else=è©²å½“ã‚¿ã‚¹ã‚¯çŠ¶æ…‹:complete
 
 [
 	TaskType=taskStatus

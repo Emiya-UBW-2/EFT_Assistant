@@ -203,7 +203,7 @@ Task_FiR_HandOver=[Axel parrot figurinex1]
 DogTagLv=0
 Task_FiR_HandOver=[BEAR Buddy plush toyx1]
 DogTagLv=0
-Task_Else=ƒŒƒxƒ‹:0
+Task_Else=ãƒ¬ãƒ™ãƒ«:0
 
 [
 	TaskType=findItem

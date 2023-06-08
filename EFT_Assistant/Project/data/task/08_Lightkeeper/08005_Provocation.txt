@@ -13,7 +13,7 @@ Task_Map=Interchange
 Task_Kill=[
 	Interchange-any targetx20
 ]
-Task_Else=ゾーン:[Around Kiba Arms store]
+Task_Else=繧ｾ繝ｼ繝ｳ:[Around Kiba Arms store]
 Task_NotFiR_HandOver=[Salty Dog beef sausagex1]
 DogTagLv=0
 Task_NotFiR_HandOver=[Bottle of Fierce Hatchling moonshinex1]
@@ -21,7 +21,7 @@ DogTagLv=0
 Task_NotFiR_HandOver=[Toilet paperx1]
 DogTagLv=0
 Task_Map=Interchange
-Task_Else=脱出ステータス:[Survived]
+Task_Else=閼ｱ蜃ｺ繧ｹ繝�繝ｼ繧ｿ繧ｹ:[Survived]
 
 [
 	TaskType=shoot

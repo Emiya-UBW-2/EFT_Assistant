@@ -14,7 +14,7 @@ Task_Else=TaskType:visit
 Task_Else=Locate the helicopter at the water treatment plant on Lighthouse
 Task_Map=Lighthouse
 NeedItem=MS2000 Markerx1
-Task_Else=脱出ステータス:[Survived]
+Task_Else=閼ｱ蜃ｺ繧ｹ繝�繝ｼ繧ｿ繧ｹ:[Survived]
 
 [
 	TaskType=visit

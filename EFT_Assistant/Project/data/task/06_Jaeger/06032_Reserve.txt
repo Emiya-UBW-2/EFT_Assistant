@@ -12,7 +12,7 @@ NeedLightkeeper=false
 Task_Map=Reserve
 Task_Else=TaskType:visit
 Task_Else=Locate the food storage location on Reserve
-Task_Else=脱出ステータス:[Survived]
+Task_Else=閼ｱ蜃ｺ繧ｹ繝�繝ｼ繧ｿ繧ｹ:[Survived]
 
 [
 	TaskType=visit

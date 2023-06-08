@@ -19,7 +19,7 @@ Task_Else=Locate a good sniping position at Primorsky overlooking the movie thea
 Task_NotFiR_HandOver=[Trijicon REAP-IR thermal scopex1]
 DogTagLv=0
 Task_Map=Streets of Tarkov
-Task_Else=脱出ステータス:[Survived]
+Task_Else=閼ｱ蜃ｺ繧ｹ繝�繝ｼ繧ｿ繧ｹ:[Survived]
 
 [
 	TaskType=visit

@@ -12,15 +12,15 @@ NeedLightkeeper=false
 Task_Kill=[
 	Customs-any PMC operativesx8
 ]
-Task_Else=É]Å[Éì:[Stronghold (Customs)]
+Task_Else=„Çæ„Éº„É≥:[Stronghold (Customs)]
 Task_Kill=[
 	Woods-any PMC operativesx8
 ]
-Task_Else=É]Å[Éì:[Medical Camp (Woods)]
+Task_Else=„Çæ„Éº„É≥:[Medical Camp (Woods)]
 Task_Kill=[
 	Shoreline-any PMC operativesx8
 ]
-Task_Else=É]Å[Éì:[Pier (Shoreline)]
+Task_Else=„Çæ„Éº„É≥:[Pier (Shoreline)]
 
 [
 	TaskType=shoot

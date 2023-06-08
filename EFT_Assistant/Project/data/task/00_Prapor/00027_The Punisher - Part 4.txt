@@ -26,7 +26,7 @@ NeedItem=[
 Task_Kill=[
 	Shoreline-any PMC operativesx10
 ]
-Task_Else=‘•”õ‚ª•K—v:{
+Task_Else=è£…å‚™ãŒå¿…è¦:{
 Task_Else=  Scav Vest
 Task_Else=  Balaclava
 Task_Else=  Scav Vest

@@ -10,7 +10,7 @@ NeedKappa=true
 NeedLightkeeper=true
 
 Task_Map=Customs
-Task_Else=E‚Á‚Ä”[•i:Customs-Flash drive with fake infox1
+Task_Else=æ‹¾ã£ã¦ç´å“:Customs-Flash drive with fake infox1
 Task_NotFiR_HandOver=[SV-98 7.62x54R bolt-action sniper riflex1]
 DogTagLv=0
 Task_NotFiR_HandOver=[Roler Submariner gold wrist watchx1]

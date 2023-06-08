@@ -19,7 +19,7 @@ NeedItem=[
 	MP-155 12ga semi-automatic shotgunx0/|
 	MP-43-1C 12ga double-barrel shotgunx0
 ]
-Task_Else=‘•”õ‚ª•K—v:{
+Task_Else=è£…å‚™ãŒå¿…è¦:{
 Task_Else=  Scav Vest
 Task_Else=  Ushanka ear flap hat
 Task_Else=}

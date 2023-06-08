@@ -18,11 +18,11 @@ NeedItem=MRE ration packx5
 Task_NotFiR_HandOver=[MRE ration packx5]
 DogTagLv=0
 Task_Map=Shoreline
-Task_Else=’EoƒXƒe[ƒ^ƒX:[Survived,Run Through]
+Task_Else=è„±å‡ºã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹:[Survived,Run Through]
 Task_Kill=[
 	Shoreline-Scavsx10
 ]
-Task_Else=‘•”õ‚ª•K—v:{
+Task_Else=è£…å‚™ãŒå¿…è¦:{
 Task_Else=  UNTAR helmet
 Task_Else=  MF-UNTAR body armor
 Task_Else=}

@@ -12,7 +12,7 @@ NeedLightkeeper=true
 Task_Map=Woods
 Task_Else=TaskType:visit
 Task_Else=Find Jaeger's camp at the specified spot on Woods
-Task_Else=E‚Á‚Ä”[•i:Woods-Encrypted messagex1
+Task_Else=æ‹¾ã£ã¦ç´å“:Woods-Encrypted messagex1
 
 [
 	TaskType=visit

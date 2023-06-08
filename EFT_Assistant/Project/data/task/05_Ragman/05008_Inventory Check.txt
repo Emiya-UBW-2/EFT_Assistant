@@ -22,7 +22,7 @@ Task_Else=Check the first arsenal in the southern barracks (White Pawn) on Reser
 Task_Else=TaskType:visit
 Task_Else=Check the second arsenal in the southern barracks (White Pawn) on Reserve
 Task_Map=Reserve
-Task_Else=脱出ステータス:[Survived]
+Task_Else=閼ｱ蜃ｺ繧ｹ繝�繝ｼ繧ｿ繧ｹ:[Survived]
 
 [
 	TaskType=visit

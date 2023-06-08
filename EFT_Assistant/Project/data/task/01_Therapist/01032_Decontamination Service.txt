@@ -14,12 +14,12 @@ Task_Map=Interchange
 Task_Kill=[
 	Interchange-Scavsx40
 ]
-Task_Else=‘•”õ‚ª•K—v:{
+Task_Else=è£…å‚™ãŒå¿…è¦:{
 Task_Else=  Respirator
 Task_Else=  GP-5 gas mask
 Task_Else=  GP-7 gas mask
 Task_Else=}
-Task_Else=‹——£: <= 60m
+Task_Else=è·é›¢: <= 60m
 
 [
 	TaskType=shoot

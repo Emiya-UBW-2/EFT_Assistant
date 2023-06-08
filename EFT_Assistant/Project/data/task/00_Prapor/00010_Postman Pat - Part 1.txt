@@ -10,12 +10,12 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Factory
-Task_Else=E‚Á‚Ä”[•i:Factory-Sealed letterx1
+Task_Else=æ‹¾ã£ã¦ç´å“:Factory-Sealed letterx1
 Task_Map=Factory
 Task_Map=Night Factory
-Task_Else=’EoƒXƒe[ƒ^ƒX:[Survived,Run Through]
-Task_Else=ŠY“–ƒ^ƒXƒNPostman Pat - Part 2
-Task_Else=ŠY“–ƒ^ƒXƒNó‘Ô:complete
+Task_Else=è„±å‡ºã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹:[Survived,Run Through]
+Task_Else=è©²å½“ã‚¿ã‚¹ã‚¯Postman Pat - Part 2
+Task_Else=è©²å½“ã‚¿ã‚¹ã‚¯çŠ¶æ…‹:complete
 
 [
 	TaskType=findQuestItem

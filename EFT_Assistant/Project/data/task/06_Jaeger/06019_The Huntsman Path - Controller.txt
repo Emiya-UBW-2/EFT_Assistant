@@ -12,8 +12,8 @@ NeedLightkeeper=false
 Task_Kill=[
 	any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x2
 ]
-Task_Else=“G‚ÌŠY“–‰ÓŠ‚ÉˆÙíó‘Ô:[head,thorax,stomach,left arm,right arm,left leg,right leg]
-Task_Else=“G‚ÌˆÙíó‘Ô:[Stunned]
+Task_Else=æ•µã®è©²å½“ç®‡æ‰€ã«ç•°å¸¸çŠ¶æ…‹:[head,thorax,stomach,left arm,right arm,left leg,right leg]
+Task_Else=æ•µã®ç•°å¸¸çŠ¶æ…‹:[Stunned]
 
 [
 	TaskType=shoot

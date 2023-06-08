@@ -11,7 +11,7 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Customs
-Task_Else=E‚Á‚Ä”[•i:Customs-Secure Folder 0013x1
+Task_Else=æ‹¾ã£ã¦ç´å“:Customs-Secure Folder 0013x1
 NeedItem=Dorm room 220 keyx1
 Task_NotFiR_HandOver=[Dorm room 220 keyx1]
 DogTagLv=0

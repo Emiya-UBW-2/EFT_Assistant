@@ -13,9 +13,9 @@ NeedLightkeeper=true
 Task_Else=TaskType:visit
 Task_Else=Gain access to the locked room in the office hallway on the third floor on Factory
 NeedItem=Portable bunkhouse keyx1
-Task_Else=拾って納品:Customs-Secure Folder 0031x1
+Task_Else=諡ｾ縺｣縺ｦ邏榊刀:Customs-Secure Folder 0031x1
 Task_Map=Customs
-Task_Else=脱出ステータス:[Survived,Run Through]
+Task_Else=閼ｱ蜃ｺ繧ｹ繝�繝ｼ繧ｿ繧ｹ:[Survived,Run Through]
 
 [
 	TaskType=visit

@@ -15,7 +15,7 @@ Task_Map=Shoreline
 Task_Else=TaskType:visit
 Task_Else=Locate Sanitar's office in the health resort
 Task_Map=Shoreline
-Task_Else=脱出ステータス:[Survived,Run Through]
+Task_Else=閼ｱ蜃ｺ繧ｹ繝�繝ｼ繧ｿ繧ｹ:[Survived,Run Through]
 
 [
 	TaskType=visit

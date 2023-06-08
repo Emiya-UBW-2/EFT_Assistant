@@ -1,3 +1,4 @@
-Load Data Time:3.694000 s
+Load Data Time:3.746000 s
 Wait Load Time:0.005000 s
-Load Image:0.515000 s
+Load Image:0.510000 s
+Update Json Time:18.323000 s

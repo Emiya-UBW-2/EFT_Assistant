@@ -10,7 +10,7 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Reserve
-Task_Else=E‚Á‚Ä”[•i:Reserve-T-90M Commander Control Panelx1
+Task_Else=æ‹¾ã£ã¦ç´å“:Reserve-T-90M Commander Control Panelx1
 
 [
 	TaskType=findQuestItem

@@ -10,12 +10,12 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
-Task_Else=E‚Á‚Ä”[•i:Customs-Secure Folder 0022x1
-Task_Else=E‚Á‚Ä”[•i:Factory-Secure Folder 0022x1
-Task_Else=E‚Á‚Ä”[•i:Night Factory-Secure Folder 0022x1
+Task_Else=æ‹¾ã£ã¦ç´å“:Customs-Secure Folder 0022x1
+Task_Else=æ‹¾ã£ã¦ç´å“:Factory-Secure Folder 0022x1
+Task_Else=æ‹¾ã£ã¦ç´å“:Night Factory-Secure Folder 0022x1
 Task_Map=Factory
 Task_Map=Night Factory
-Task_Else=’EoƒXƒe[ƒ^ƒX:[Survived,Run Through]
+Task_Else=è„±å‡ºã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹:[Survived,Run Through]
 
 [
 	TaskType=findQuestItem

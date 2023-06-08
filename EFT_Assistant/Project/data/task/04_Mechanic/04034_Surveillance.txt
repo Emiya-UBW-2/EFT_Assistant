@@ -11,7 +11,7 @@ NeedKappa=false
 NeedLightkeeper=false
 
 Task_Map=Streets of Tarkov
-Task_Else=E‚Á‚Ä”[•i:Streets of Tarkov-Working hard drivex1
+Task_Else=æ‹¾ã£ã¦ç´å“:Streets of Tarkov-Working hard drivex1
 
 [
 	TaskType=findQuestItem

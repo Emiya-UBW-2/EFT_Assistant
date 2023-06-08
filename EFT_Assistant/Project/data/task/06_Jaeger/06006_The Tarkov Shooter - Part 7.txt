@@ -43,7 +43,7 @@ NeedItem=[
 	SIG Sauer SRD762-QD 7.62x51 sound suppressorx0/|
 	AI .338 LM Tactical Sound Moderatorx0
 ]
-Task_Else=‹——£: >= 45m
+Task_Else=è·é›¢: >= 45m
 
 [
 	TaskType=shoot

@@ -13,7 +13,7 @@ Task_Map=Lighthouse
 Task_Kill=[
 	Lighthouse-any PMC operativesx20
 ]
-Task_Else=É]Å[Éì:[Lighthouse Island]
+Task_Else=„Çæ„Éº„É≥:[Lighthouse Island]
 
 [
 	TaskType=shoot

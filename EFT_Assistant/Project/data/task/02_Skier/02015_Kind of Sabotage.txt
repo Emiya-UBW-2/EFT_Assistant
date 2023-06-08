@@ -22,8 +22,8 @@ Reward_Item=[
 	Roublesx180000
 ]
 
-Task_Else=ŠY“–ƒ^ƒXƒNSupply Plans
-Task_Else=ŠY“–ƒ^ƒXƒNó‘Ô:complete
+Task_Else=è©²å½“ã‚¿ã‚¹ã‚¯Supply Plans
+Task_Else=è©²å½“ã‚¿ã‚¹ã‚¯çŠ¶æ…‹:complete
 
 [
 	TaskType=taskStatus

@@ -14,8 +14,8 @@ Task_Else=TaskType:visit
 Task_Else=Locate the informant's hideout on Streets of Tarkov
 Task_Else=TaskType:visit
 Task_Else=Locate the informant's backup hideout
-Task_Else=E‚Á‚Ä”[•i:Streets of Tarkov-Informant's journalx1
-Task_Else=E‚Á‚Ä”[•i:Lighthouse-Informant's journalx1
+Task_Else=æ‹¾ã£ã¦ç´å“:Streets of Tarkov-Informant's journalx1
+Task_Else=æ‹¾ã£ã¦ç´å“:Lighthouse-Informant's journalx1
 NeedItem=Backup hideout keyx1
 
 [

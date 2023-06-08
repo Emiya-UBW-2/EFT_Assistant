@@ -20,7 +20,7 @@ Task_FiR_HandOver=[Military COFDM Wireless Signal Transmitterx1]
 DogTagLv=0
 Task_FiR_HandOver=[Working LCDx1]
 DogTagLv=0
-Task_Else=E‚Á‚Ä”[•i:Lighthouse-Radio transmitter bodyx1
+Task_Else=æ‹¾ã£ã¦ç´å“:Lighthouse-Radio transmitter bodyx1
 
 [
 	TaskType=giveItem

@@ -11,7 +11,7 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Shoreline
-Task_Else=E‚Á‚Ä”[•i:Shoreline-Working hard drivex1
+Task_Else=æ‹¾ã£ã¦ç´å“:Shoreline-Working hard drivex1
 
 [
 	TaskType=findQuestItem

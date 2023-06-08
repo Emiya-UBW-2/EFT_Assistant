@@ -14,7 +14,7 @@ Task_Kill=[
 	Streets of Tarkov-Sniperx10
 ]
 Task_Map=Streets of Tarkov
-Task_Else=脱出ステータス:[Survived]
+Task_Else=閼ｱ蜃ｺ繧ｹ繝�繝ｼ繧ｿ繧ｹ:[Survived]
 
 [
 	TaskType=shoot

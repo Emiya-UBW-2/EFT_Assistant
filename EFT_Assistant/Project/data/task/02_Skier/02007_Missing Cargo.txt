@@ -12,7 +12,7 @@ NeedLightkeeper=false
 Task_Map=Lighthouse
 Task_Else=TaskType:visit
 Task_Else=Locate the crashed helicopter on Lighthouse
-Task_Else=E‚Á‚Ä”[•i:Lighthouse-Stolen military documentsx1
+Task_Else=æ‹¾ã£ã¦ç´å“:Lighthouse-Stolen military documentsx1
 
 [
 	TaskType=visit

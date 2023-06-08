@@ -16,7 +16,7 @@ Task_Else=Locate the generators in the east wing of the Health Resort
 Task_Else=TaskType:visit
 Task_Else=Locate the generators in the west wing of the Health Resort
 Task_Map=Shoreline
-Task_Else=脱出ステータス:[Survived,Run Through]
+Task_Else=閼ｱ蜃ｺ繧ｹ繝�繝ｼ繧ｿ繧ｹ:[Survived,Run Through]
 
 [
 	TaskType=visit

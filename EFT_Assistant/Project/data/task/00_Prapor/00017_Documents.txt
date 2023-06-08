@@ -10,9 +10,9 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Reserve
-Task_Else=E‚Á‚Ä”[•i:Reserve-Military documents #1x1
-Task_Else=E‚Á‚Ä”[•i:Reserve-Military documents #2x1
-Task_Else=E‚Á‚Ä”[•i:Reserve-Military documents #3x1
+Task_Else=æ‹¾ã£ã¦ç´å“:Reserve-Military documents #1x1
+Task_Else=æ‹¾ã£ã¦ç´å“:Reserve-Military documents #2x1
+Task_Else=æ‹¾ã£ã¦ç´å“:Reserve-Military documents #3x1
 
 [
 	TaskType=findQuestItem
