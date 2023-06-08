@@ -284,10 +284,10 @@ namespace FPS_n2 {
 			auto sizeYBuf = y_r(0);
 
 			if (Input->GetCtrlKey().press()) {
-				DrawUnlockWindow(nullptr, 0, Lv, 0, 0, &sizeXBuf, &sizeYBuf);//試しにサイズ計測
+				DrawUnlockWindow(nullptr, 0, Lv, y_r(1920), y_r(1080), &sizeXBuf, &sizeYBuf);//試しにサイズ計測
 			}
 			else {
-				DrawCraftWindow(nullptr, 0, Lv, 0, 0, &sizeXBuf, &sizeYBuf, 100);//試しにサイズ計測
+				DrawCraftWindow(nullptr, 0, Lv, y_r(1920), y_r(1080), &sizeXBuf, &sizeYBuf, 100);//試しにサイズ計測
 			}
 			//
 			signed long long FreeID = (signed long long)GetID() + 0xFFFF;
@@ -446,66 +446,24 @@ namespace FPS_n2 {
 		}
 	}
 	void			HideoutList::DrawCraftWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int Lv, int xp, int yp, int *xs, int* ys, int size) noexcept {
-		auto* WindowMngr = WindowSystem::WindowManager::Instance();
-		//auto* Input = InputControl::Instance();
-		//auto* InterParts = InterruptParts::Instance();
 		int xofs = 0;
-		int yofs = LineHeight;
-		int yofs2 = yofs;
-		{
-			yofs += LineHeight;
-		}
+		int yofsOLD = LineHeight;
+		int yofs = yofsOLD;
+		yofs += LineHeight;
 		if (Lv >= 1) {
 			auto& LvData = m_LvData.at(Lv - 1);
 			if (LvData.m_ItemCraft.size() > 0) {
-				int xofs_buf = y_r(10);
-				int ysize = (y_r(64));
-
+				int ysize = y_r(64);
 				int Max = (int)(LvData.m_ItemCraft.size());
 				int ofset = (window) ? (int)(window->GetNowScrollPer()*std::max(0, Max - 10 + 1)) : 0;
-
-				auto OLD = yofs;
 				for (int loop = 0; loop < std::min(size, Max - ofset); loop++) {
 					int index = loop + ofset;
-					const auto& cf = LvData.m_ItemCraft[index];
-					xofs_buf = y_r(10);
-					{
-						for (const auto& I : cf.m_ItemReq) {
-							auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(I.GetID());
-							if (ptr) {
-								int xstart = xp + xofs_buf;
-								xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs, y_r(200), ysize, I.GetValue(), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true);
-								DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xstart, yp + yofs, xp + xofs_buf, yp + yofs + ysize, Gray75, false);
-							}
-						}
-					}
-					{
-						xofs_buf = std::max(xofs_buf, y_r(10) + ysize * 16);
-						xofs_buf += WindowSystem::SetMsg(xp + xofs_buf, yp + yofs, xp + 0, yp + yofs + ysize, LineHeight * 9 / 10, STRX_LEFT, White, Black,
-							">%01d:%02d:%02d>", (cf.durationTime / 60 / 60), (cf.durationTime / 60) % 60, cf.durationTime % 60);
-						xofs_buf += y_r(30);
-					}
-					{
-						for (const auto& I : cf.m_ItemReward) {
-							auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(I.GetID());
-							if (ptr) {
-								int xstart = xp + xofs_buf;
-								xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs, y_r(200), ysize, I.GetValue(), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true);
-								DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xstart, yp + yofs, xp + xofs_buf, yp + yofs + ysize, Gray75, false);
-							}
-						}
-					}
-					xofs = std::max(xofs, xofs_buf + y_r(10));
-					yofs += ysize + y_r(5);
+					xofs = std::max(xofs, DrawCraft(window, defaultcolor, xp, yp + yofs + (ysize + y_r(5)) * loop, ysize, Lv, index, false, true, 0) + y_r(10));
 				}
-				yofs = OLD + (ysize + y_r(5)) * 10;
+				yofs += (ysize + y_r(5)) * 10;
 			}
 		}
-		{
-			yofs2 += 64 * 2;
-		}
-
-		yofs = std::max(yofs, yofs2);
+		yofs = std::max(yofs, yofsOLD + 64 * 2);
 		//
 		if (xs) {
 			*xs = std::max(*xs, xofs);
@@ -539,4 +497,40 @@ namespace FPS_n2 {
 		}
 		//
 	}
+	//
+	const int		HideoutList::DrawCraft(WindowSystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int ysize, int Lv, int Select, bool isdrawName, bool isdrawAfter, int count) const noexcept {
+		auto* WindowMngr = WindowSystem::WindowManager::Instance();
+		const auto& cf = this->m_LvData.at(Lv - 1).m_ItemCraft.at(Select);
+		int xofsbuf = y_r(10);
+		int xofsbuf2 = y_r(10);
+		int yofsbuf = 0;
+		int xsize2 = isdrawName ? (ysize / 2) : ysize;
+		int ysize2 = isdrawName ? (ysize / 2 - y_r(3)) : ysize;
+		if (isdrawName) {
+			std::string Name = this->GetName() + " Lv" + std::to_string(Lv);
+			if (count > 1) {
+				Name += " x" + std::to_string(count);
+			}
+			xofsbuf2 = WindowSystem::SetMsg(xp + xofsbuf, yp + yofsbuf, xp + xofsbuf, yp + yofsbuf + ysize2, ysize2, STRX_LEFT, White, Black, Name);
+			yofsbuf += ysize2 + y_r(5);
+		}
+		for (const auto& w : cf.m_ItemReq) {
+			auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(w.GetID());
+			if (ptr) {
+				xofsbuf += ptr->Draw(xp + xofsbuf, yp + yofsbuf, xsize2, ysize2, w.GetValue()*std::max(1, count), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true) + y_r(5);
+			}
+		}
+		xofsbuf = std::max(xofsbuf, xofsbuf2);
+		if (isdrawAfter) {
+			xofsbuf += WindowSystem::SetMsg(xp + xofsbuf, yp + yofsbuf, xp + 0, yp + yofsbuf + ysize2, ysize2, STRX_LEFT, White, Black, ">%01d:%02d:%02d>", (cf.durationTime / 60 / 60), (cf.durationTime / 60) % 60, cf.durationTime % 60) + y_r(30);
+			for (const auto& w : cf.m_ItemReward) {
+				auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(w.GetID());
+				if (ptr) {
+					xofsbuf += ptr->Draw(xp + xofsbuf, yp + yofsbuf, xsize2, ysize2, w.GetValue()*std::max(1, count), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true) + y_r(5);
+				}
+			}
+		}
+		return xofsbuf;
+	}
+	//
 };

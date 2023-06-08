@@ -135,7 +135,7 @@ namespace FPS_n2 {
 			else {
 				auto sizeXBuf = y_r(800);
 				auto sizeYBuf = y_r(0);
-				this->DrawWindow(nullptr, 0, 0, &sizeXBuf, &sizeYBuf);//試しにサイズ計測
+				this->DrawWindow(nullptr, y_r(1920), y_r(1080), &sizeXBuf, &sizeYBuf);//試しにサイズ計測
 				//
 				signed long long FreeID = this->GetID();
 				WindowMngr->Add()->Set(xp + xsize / 2 - sizeXBuf / 2, yp, sizeXBuf, sizeYBuf, 0, this->GetName().c_str(), false, true, FreeID, [&](WindowSystem::WindowControl* win) {

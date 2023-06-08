@@ -2973,7 +2973,6 @@ ItemData=[5d80cd1a86f77402aa362f42/|false]
 ItemData=[5a13ef0686f7746e5a411744/|false]
 ItemData=[customdogtags12345678910/|false]
 ItemData=[63ac5c9658d0485fc039f0b8/|false]
-UnlockHideout=Stashx1
 Edition=0
 IsNeedLightKeeper=FALSE
 IsNeedKappa=FALSE

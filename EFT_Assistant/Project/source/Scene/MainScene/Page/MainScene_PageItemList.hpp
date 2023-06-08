@@ -209,32 +209,16 @@ namespace FPS_n2 {
 															int Lv = (int)(&Ld - &L.GetLvData().front()) + 1;
 															/*
 															bool IsChecktask = true;
-															if (PlayerData::Instance()->GetHideoutClear(L.GetName().c_str(), (int)(&Ld - &L.GetLvData().front()) + 1)) {
+															if (PlayerData::Instance()->GetHideoutClear(L.GetName().c_str(), Lv)) {
 																IsChecktask = false;
 															}
 															if (!IsChecktask) { continue; }
 															//*/
-															for (const auto& C : Ld.m_ItemCraft) {
-																for (const auto& R : C.m_ItemReward) {
-																	int craftcount = std::max(1, c.count / R.GetValue());
-																	if (R.GetID() == c.m_ID) {
-																		yp2 = yp;
-																		std::string NameTmp = L.GetName();
-																		NameTmp += " Lv" + std::to_string(Lv);
-																		NameTmp += "x" + std::to_string(craftcount);
-																		auto xl = xp2 + WindowSystem::SetMsg(xp2, yp2, xp2, yp2 + ysize2, ysize2, STRX_LEFT, White, Black, NameTmp);
-																		yp2 += ysize2 + y_r(5);
-
-																		for (const auto& w : C.m_ItemReq) {
-																			auto ID = w.GetID();
-																			auto* ptr2 = DataBase::Instance()->GetItemData()->FindPtr(ID);
-																			if (ptr2) {
-																				int count = w.GetValue()*craftcount;
-																				xp2 += ptr2->Draw(xp2, yp2, xsize2, ysize2, (count >= 2) ? count : 0, Gray15, !WindowMngr->PosHitCheck(nullptr), false, false, true) + y_r(5);
-																			}
-																		}
-																		xp2 = std::max(xl, xp2);
-																		xp2 += y_r(10);
+															for (const auto& cf : Ld.m_ItemCraft) {
+																for (const auto& I : cf.m_ItemReward) {
+																	int craftcount = std::max(1, c.count / I.GetValue());
+																	if (I.GetID() == c.m_ID) {
+																		xp2 += L.DrawCraft(nullptr, Gray15, xp2, yp2, y_r(64), Lv, (int)(&cf - &Ld.m_ItemCraft.front()), true, false, craftcount) + y_r(10);
 																		break;
 																	}
 																}
@@ -253,10 +237,7 @@ namespace FPS_n2 {
 																	int craftcount = std::max(1, c.count / I.GetValue());
 																	if (I.GetID() == c.m_ID) {
 																		yp2 = yp;
-																		std::string NameTmp = L.GetName();
-																		NameTmp += " Lv" + std::to_string(Lv);
-																		NameTmp += "x" + std::to_string(craftcount);
-																		auto xl = xp2 + WindowSystem::SetMsg(xp2, yp2, xp2, yp2 + ysize2, ysize2, STRX_LEFT, White, Black, NameTmp);
+																		auto xl = xp2 + WindowSystem::SetMsg(xp2, yp2, xp2, yp2 + ysize2, ysize2, STRX_LEFT, White, Black, L.GetName() + " Lv" + std::to_string(Lv) + "x" + std::to_string(craftcount));
 																		yp2 += ysize2 + y_r(5);
 
 																		for (const auto& r : cf.m_ItemReq) {
