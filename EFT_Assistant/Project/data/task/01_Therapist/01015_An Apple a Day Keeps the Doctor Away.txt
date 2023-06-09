@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=false
 NeedLightkeeper=false
 
+factionName=Any
 Task_NotFiR_HandOver=[Roublesx400000]
 DogTagLv=0
 

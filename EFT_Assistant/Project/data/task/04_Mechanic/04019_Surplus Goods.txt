@@ -11,6 +11,8 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Reserve
+factionName=Any
+Task_Map=Reserve
 Task_Else=拾って納品:Reserve-MBT Integrated Navigation Systemx1
 
 [

@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=false
 NeedLightkeeper=false
 
+factionName=USEC
 traderRequirementsName=Ragman
 traderRequirementsType=level
 traderRequirements=>=

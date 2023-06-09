@@ -10,10 +10,12 @@ NeedKappa=true
 NeedLightkeeper=true
 
 Task_Map=Woods
+factionName=Any
 NeedItem=AK-74 5.45x39 6L31 60-round magazinex3
 Task_FiR_HandOver=[AK-74 5.45x39 6L31 60-round magazinex3]
 DogTagLv=0
 NeedItem=ZB-014 keyx1
+Task_Map=Woods
 Task_Else=TaskType:visit
 Task_Else=Locate the locked bunker on Woods
 

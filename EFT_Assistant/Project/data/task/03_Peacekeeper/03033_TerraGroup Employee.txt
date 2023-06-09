@@ -12,8 +12,11 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=The Lab
+factionName=Any
+Task_Map=The Lab
 Task_Else=TaskType:visit
 Task_Else=Find Sanitar's workplace in The Lab
+Task_Map=The Lab
 Task_Else=拾って納品:The Lab-Flash drive marked with blue tapex1
 
 [

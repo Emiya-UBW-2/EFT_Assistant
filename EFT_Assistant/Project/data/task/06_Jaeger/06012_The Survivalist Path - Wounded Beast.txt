@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
 Task_Kill=[
 	Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x3
 ]

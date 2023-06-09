@@ -10,8 +10,12 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Reserve
+factionName=Any
+Task_Map=Reserve
 Task_Else=拾って納品:Reserve-Military documents #1x1
+Task_Map=Reserve
 Task_Else=拾って納品:Reserve-Military documents #2x1
+Task_Map=Reserve
 Task_Else=拾って納品:Reserve-Military documents #3x1
 
 [

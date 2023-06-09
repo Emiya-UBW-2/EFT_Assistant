@@ -10,8 +10,11 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Lighthouse
+factionName=Any
+Task_Map=Lighthouse
 Task_Else=TaskType:visit
 Task_Else=Locate the hideout of Jaeger's friend on Lighthouse
+Task_Map=Lighthouse
 Task_Else=拾って納品:Lighthouse-Sealed letterx1
 
 [

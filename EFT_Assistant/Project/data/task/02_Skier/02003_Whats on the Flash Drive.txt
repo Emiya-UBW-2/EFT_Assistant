@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
+factionName=Any
 NeedItem=Secure Flash drivex2
 Task_FiR_HandOver=[Secure Flash drivex2]
 DogTagLv=0

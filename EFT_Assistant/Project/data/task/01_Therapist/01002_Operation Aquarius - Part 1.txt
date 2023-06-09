@@ -11,6 +11,8 @@ NeedKappa=true
 NeedLightkeeper=true
 
 Task_Map=Customs
+factionName=Any
+Task_Map=Customs
 Task_Else=TaskType:visit
 Task_Else=Locate the water stockpile hidden inside of the dorms on Customs
 Task_Map=Customs

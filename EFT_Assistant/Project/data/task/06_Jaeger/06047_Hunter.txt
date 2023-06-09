@@ -10,10 +10,12 @@ NeedKappa=false
 NeedLightkeeper=false
 
 Task_Map=Woods
+factionName=Any
 traderRequirementsName=Jaeger
 traderRequirementsType=level
 traderRequirements=>=
 traderRequirementsValue=4
+Task_Map=Woods
 Task_Kill=[
 	Woods-Shturmanx20
 ]

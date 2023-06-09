@@ -9,14 +9,19 @@ CanRestart=false
 NeedKappa=false
 NeedLightkeeper=false
 
+factionName=Any
 Task_Kill=[
 	Raiderx20
 ]
+Task_Map=The Lab
 Task_Else=TaskType:visit
 Task_Else=Search the weapon testing area
+Task_Map=The Lab
 Task_Else=TaskType:visit
 Task_Else=Search the human experiment room
+Task_Map=The Lab
 Task_Else=拾って納品:The Lab-Secured tapex1
+Task_Map=Lighthouse
 Task_Else=拾って納品:Lighthouse-Secured tapex1
 
 [

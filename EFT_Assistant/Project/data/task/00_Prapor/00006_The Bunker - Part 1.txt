@@ -10,8 +10,11 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Reserve
+factionName=Any
+Task_Map=Reserve
 Task_Else=TaskType:visit
 Task_Else=Locate the underground bunker on Reserve
+Task_Map=Reserve
 Task_Else=TaskType:visit
 Task_Else=Locate the control room in the underground bunker on Reserve
 Task_Map=Reserve

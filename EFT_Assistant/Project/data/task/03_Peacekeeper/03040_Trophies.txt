@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=false
 NeedLightkeeper=false
 
+factionName=Any
 Task_FiR_HandOver=[Dogtag BEARx20]
 DogTagLv=50
 Task_FiR_HandOver=[Dogtag USECx20]

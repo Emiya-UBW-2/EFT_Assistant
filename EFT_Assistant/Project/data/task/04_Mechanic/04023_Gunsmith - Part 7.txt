@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
 NeedItem=Colt M4A1 5.56x45 assault riflex1
 ContainsCategory=Silencer
 Task_Else=accuracy >= 0

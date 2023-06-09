@@ -10,8 +10,12 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
+factionName=Any
+Task_Map=Shoreline
 Task_Else=拾って納品:Shoreline-Chemical container #1x1
+Task_Map=Interchange
 Task_Else=拾って納品:Interchange-Chemical container #2x1
+Task_Map=Interchange
 Task_Else=拾って納品:Interchange-Chemical container #3x1
 
 [

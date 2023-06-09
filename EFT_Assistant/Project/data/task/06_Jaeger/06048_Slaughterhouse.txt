@@ -10,6 +10,8 @@ CanRestart=false
 NeedKappa=false
 NeedLightkeeper=false
 
+factionName=Any
+Task_Map=Factory
 Task_Kill=[
 	Factory-Scavsx10
 ]
@@ -31,6 +33,7 @@ NeedItem=[
 	Antique axex0/|
 	MPL-50 entrenching toolx0
 ]
+Task_Map=Streets of Tarkov
 Task_Kill=[
 	Streets of Tarkov-Scavsx10
 ]
@@ -52,6 +55,7 @@ NeedItem=[
 	Antique axex0/|
 	MPL-50 entrenching toolx0
 ]
+Task_Map=Lighthouse
 Task_Kill=[
 	Lighthouse-Scavsx10
 ]
@@ -73,6 +77,7 @@ NeedItem=[
 	Antique axex0/|
 	MPL-50 entrenching toolx0
 ]
+Task_Map=Woods
 Task_Kill=[
 	Woods-Scavsx10
 ]
@@ -94,6 +99,7 @@ NeedItem=[
 	Antique axex0/|
 	MPL-50 entrenching toolx0
 ]
+Task_Map=Shoreline
 Task_Kill=[
 	Shoreline-Scavsx10
 ]
@@ -115,6 +121,7 @@ NeedItem=[
 	Antique axex0/|
 	MPL-50 entrenching toolx0
 ]
+Task_Map=Interchange
 Task_Kill=[
 	Interchange-Scavsx10
 ]
@@ -136,6 +143,7 @@ NeedItem=[
 	Antique axex0/|
 	MPL-50 entrenching toolx0
 ]
+Task_Map=Customs
 Task_Kill=[
 	Customs-Scavsx10
 ]
@@ -157,6 +165,7 @@ NeedItem=[
 	Antique axex0/|
 	MPL-50 entrenching toolx0
 ]
+Task_Map=Reserve
 Task_Kill=[
 	Reserve-Scavsx10
 ]

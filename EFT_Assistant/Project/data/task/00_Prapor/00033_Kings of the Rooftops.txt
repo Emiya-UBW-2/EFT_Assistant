@@ -10,6 +10,8 @@ NeedKappa=false
 NeedLightkeeper=false
 
 Task_Map=Streets of Tarkov
+factionName=Any
+Task_Map=Streets of Tarkov
 Task_Kill=[
 	Streets of Tarkov-Sniperx10
 ]

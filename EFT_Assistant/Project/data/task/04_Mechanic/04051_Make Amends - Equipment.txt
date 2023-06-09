@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=false
 NeedLightkeeper=false
 
+factionName=Any
 Task_FiR_HandOver=[SVDS 7.62x54R sniper riflex4]
 DogTagLv=0
 

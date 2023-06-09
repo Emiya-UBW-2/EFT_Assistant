@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
+factionName=Any
 NeedItem=PC CPUx3
 Task_FiR_HandOver=[PC CPUx3]
 DogTagLv=0

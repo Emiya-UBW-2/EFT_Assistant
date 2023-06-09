@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
 NeedItem=Virtex programmable processorx2
 NeedItem=Military COFDM Wireless Signal Transmitterx1
 Task_FiR_HandOver=[Virtex programmable processorx2]

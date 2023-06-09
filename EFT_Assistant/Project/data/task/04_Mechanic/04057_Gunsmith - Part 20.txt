@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
+factionName=Any
 NeedItem=Springfield Armory M1A 7.62x51 riflex1
 ContainsAll=M14 UltiMAK M8 Forward Optic mount
 ContainsAll=Nightforce ATACR 7-35x56 34mm riflescope

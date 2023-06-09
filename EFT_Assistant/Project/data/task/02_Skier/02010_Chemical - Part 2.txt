@@ -11,7 +11,10 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Customs
+factionName=Any
+Task_Map=Customs
 Task_Else=拾って納品:Customs-Sliderkey Secure Flash drivex1
+Task_Map=Customs
 Task_Else=拾って納品:Customs-Sealed letter with a TG logox1
 
 [

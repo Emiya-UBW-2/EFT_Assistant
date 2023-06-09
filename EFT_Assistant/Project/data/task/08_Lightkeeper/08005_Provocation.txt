@@ -10,14 +10,19 @@ NeedKappa=false
 NeedLightkeeper=false
 
 Task_Map=Interchange
+factionName=Any
+Task_Map=Interchange
 Task_Kill=[
 	Interchange-any targetx20
 ]
 Task_Else=ゾーン:[Around Kiba Arms store]
+Task_Map=Interchange
 Task_NotFiR_HandOver=[Salty Dog beef sausagex1]
 DogTagLv=0
+Task_Map=Interchange
 Task_NotFiR_HandOver=[Bottle of Fierce Hatchling moonshinex1]
 DogTagLv=0
+Task_Map=Interchange
 Task_NotFiR_HandOver=[Toilet paperx1]
 DogTagLv=0
 Task_Map=Interchange

@@ -10,8 +10,13 @@ NeedKappa=true
 NeedLightkeeper=true
 
 Task_Map=Factory
+factionName=Any
+Task_Map=Factory
+Task_Map=Night Factory
 Task_NotFiR_HandOver=[Toolsetx1]
 DogTagLv=0
+Task_Map=Factory
+Task_Map=Night Factory
 Task_NotFiR_HandOver=[Toolsetx1]
 DogTagLv=0
 Task_Map=Factory

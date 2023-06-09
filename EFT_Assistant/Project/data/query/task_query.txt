@@ -6,6 +6,7 @@
   map{name}
   experience
   minPlayerLevel
+  factionName
   taskRequirements{
     task{name}
     status

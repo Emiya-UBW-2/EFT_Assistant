@@ -9,8 +9,11 @@ CanRestart=false
 NeedKappa=false
 NeedLightkeeper=false
 
+factionName=Any
+Task_Map=Customs
 Task_NotFiR_HandOver=[Trijicon REAP-IR thermal scopex1]
 DogTagLv=0
+Task_Map=Customs
 Task_NotFiR_HandOver=[Trijicon REAP-IR thermal scopex1]
 DogTagLv=0
 

@@ -10,6 +10,8 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Woods
+factionName=Any
+Task_Map=Woods
 Task_Kill=[
 	Woods-Scavsx15
 ]

@@ -11,6 +11,8 @@ NeedKappa=false
 NeedLightkeeper=false
 
 Task_Map=Interchange
+factionName=Any
+Task_Map=Interchange
 Task_Kill=[
 	Interchange-Killax100
 ]

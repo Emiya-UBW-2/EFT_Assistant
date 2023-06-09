@@ -21,6 +21,7 @@ CanRestart=false
 NeedKappa=false
 NeedLightkeeper=true
 
+factionName=Any
 traderRequirementsName=Fence
 traderRequirementsType=reputation
 traderRequirements=>=

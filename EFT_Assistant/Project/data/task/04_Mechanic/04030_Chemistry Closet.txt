@@ -12,6 +12,8 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Shoreline
+factionName=Any
+Task_Map=Shoreline
 Task_Else=TaskType:visit
 Task_Else=Locate Sanitar's office in the health resort
 Task_Map=Shoreline

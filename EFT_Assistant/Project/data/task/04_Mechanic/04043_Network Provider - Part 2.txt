@@ -10,6 +10,7 @@ NeedKappa=false
 NeedLightkeeper=true
 
 Task_Map=Lighthouse
+factionName=Any
 Task_Map=Lighthouse
 NeedItem=Radio repeaterx1
 Task_Map=Lighthouse

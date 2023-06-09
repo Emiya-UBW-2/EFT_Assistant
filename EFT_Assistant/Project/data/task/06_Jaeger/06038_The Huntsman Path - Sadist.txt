@@ -12,6 +12,8 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Shoreline
+factionName=Any
+Task_Map=Shoreline
 Task_Kill=[
 	Shoreline-Sanitarx1
 ]

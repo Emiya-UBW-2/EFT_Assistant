@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
 NeedItem=Bronze lion figurinex2
 Task_FiR_HandOver=[Bronze lion figurinex2]
 DogTagLv=0

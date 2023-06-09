@@ -10,10 +10,16 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
+Task_Map=Woods
 Task_Else=拾って納品:Woods-Motor Controller #1x1
+Task_Map=Shoreline
 Task_Else=拾って納品:Shoreline-Motor Controller #2x1
+Task_Map=Shoreline
 Task_Else=拾って納品:Shoreline-Motor Controller #3x1
+Task_Map=Woods
 Task_Else=拾って納品:Woods-Single-axis Fiber Optic Gyroscope #1x1
+Task_Map=Shoreline
 Task_Else=拾って納品:Shoreline-Single-axis Fiber Optic Gyroscope #2x1
 
 [

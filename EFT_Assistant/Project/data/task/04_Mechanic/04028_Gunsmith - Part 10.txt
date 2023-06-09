@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
 NeedItem=Kalashnikov AK-105 5.45x39 assault riflex1
 ContainsCategory=Silencer
 Task_Else=accuracy >= 0

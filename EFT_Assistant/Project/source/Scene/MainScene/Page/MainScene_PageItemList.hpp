@@ -38,25 +38,7 @@ namespace FPS_n2 {
 				//タスク
 				if (m_IsCheckTask) {
 					for (const auto& tasks : DataBase::Instance()->GetTaskData()->GetList()) {
-						bool IsChecktask = true;
-						if (IsChecktask && PlayerData::Instance()->GetIsNeedKappa()) {//河童必要タスクだけ書く
-							if (!tasks.GetTaskNeedData().GetKappaRequired()) {
-								IsChecktask = false;
-							}
-							if (IsChecktask) {
-								if (tasks.GetName() == "Collector") {
-									//IsChecktask = false;
-								}
-							}
-						}
-						if (IsChecktask && PlayerData::Instance()->GetIsNeedLightKeeper()) {//ライトキーパー
-							if (!tasks.GetTaskNeedData().GetLightKeeperRequired()) {
-								IsChecktask = false;
-							}
-						}
-						if (IsChecktask && PlayerData::Instance()->GetMaxLevel() < tasks.GetTaskNeedData().GetLevel()) {//最大レベル
-							IsChecktask = false;
-						}
+						bool IsChecktask = tasks.GetIsHittoPlayerInfo();
 						if (IsChecktask && PlayerData::Instance()->GetTaskClear(tasks.GetName().c_str())) {
 							IsChecktask = false;
 						}

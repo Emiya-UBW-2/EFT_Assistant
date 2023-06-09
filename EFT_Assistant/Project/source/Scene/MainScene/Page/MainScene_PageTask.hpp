@@ -46,6 +46,7 @@ namespace FPS_n2 {
 		bool							m_DrawCanClearTask{ false };
 	private:
 		void DrawChildTaskClickBox(float Scale, TaskID ParentID, int start_x, int start_y, int xp, int yp, int xs, int ys, bool parentCanDo = true) noexcept {
+			auto* WindowMngr = WindowSystem::WindowManager::Instance();
 			if (ParentID == InvalidID) {
 				m_posxMaxBuffer = 0;
 				m_posyMaxBuffer = 0;
@@ -67,16 +68,12 @@ namespace FPS_n2 {
 				}
 
 				if (IsTrue) {
-					auto parentCanDo_t = parentCanDo;
 					//信頼度チェック
-					if (parentCanDo_t && (
-						(PlayerData::Instance()->GetMaxLevel() < tasks.GetTaskNeedData().GetLevel()) ||
-						(PlayerData::Instance()->GetIsNeedKappa() ? !tasks.GetTaskNeedData().GetKappaRequired() : false) ||
-						(PlayerData::Instance()->GetIsNeedLightKeeper() ? !tasks.GetTaskNeedData().GetLightKeeperRequired() : false)
-						)) {
-						parentCanDo_t = false;
+					auto parentCanDo_t = parentCanDo && tasks.GetIsHittoPlayerInfo();
+					if (!parentCanDo_t) {
 						continue;
 					}
+
 					if (ParentID != InvalidID) {
 						auto XAddLine = (int)((float)y_r(25) * Scale);
 						if (Scale > 0.6f) {
@@ -109,7 +106,7 @@ namespace FPS_n2 {
 							}
 						}
 					}
-					tasks.Draw(xp, yp, xs, ys);
+					tasks.Draw(xp, yp, xs, ys, 0, !WindowMngr->PosHitCheck(nullptr));
 					int suby = ys;
 					m_posxMaxBuffer = std::max(m_posxMaxBuffer, xp + xs);
 					m_posyMaxBuffer = std::max(m_posyMaxBuffer, yp + ys + suby);
@@ -190,25 +187,7 @@ namespace FPS_n2 {
 				std::vector<std::vector<std::pair<ItemID, int>>> Counter;
 				Counter.resize(DataBase::Instance()->GetItemTypeData()->GetList().size());
 				for (const auto& tasks : DataBase::Instance()->GetTaskData()->GetList()) {
-					bool IsChecktask = true;
-					if (PlayerData::Instance()->GetIsNeedKappa()) {//河童必要タスクだけ書く
-						if (!tasks.GetTaskNeedData().GetKappaRequired()) {
-							IsChecktask = false;
-						}
-						if (IsChecktask) {
-							if (tasks.GetName() == "Collector") {
-								//IsChecktask = false;
-							}
-						}
-					}
-					if (PlayerData::Instance()->GetIsNeedLightKeeper()) {
-						if (!tasks.GetTaskNeedData().GetLightKeeperRequired()) {
-							IsChecktask = false;
-						}
-					}
-					if (PlayerData::Instance()->GetMaxLevel() < tasks.GetTaskNeedData().GetLevel()) {
-						IsChecktask = false;
-					}
+					bool IsChecktask = tasks.GetIsHittoPlayerInfo();
 					if (PlayerData::Instance()->GetTaskClear(tasks.GetName().c_str())) {
 						IsChecktask = false;
 					}
@@ -270,25 +249,7 @@ namespace FPS_n2 {
 				std::vector<std::vector<std::pair<ItemID, int>>> Counter;
 				Counter.resize(DataBase::Instance()->GetItemTypeData()->GetList().size());
 				for (const auto& tasks : DataBase::Instance()->GetTaskData()->GetList()) {
-					bool IsChecktask = true;
-					if (PlayerData::Instance()->GetIsNeedKappa()) {//河童必要タスクだけ書く
-						if (!tasks.GetTaskNeedData().GetKappaRequired()) {
-							IsChecktask = false;
-						}
-						if (IsChecktask) {
-							if (tasks.GetName() == "Collector") {
-								//IsChecktask = false;
-							}
-						}
-					}
-					if (PlayerData::Instance()->GetIsNeedLightKeeper()) {
-						if (!tasks.GetTaskNeedData().GetLightKeeperRequired()) {
-							IsChecktask = false;
-						}
-					}
-					if (PlayerData::Instance()->GetMaxLevel() < tasks.GetTaskNeedData().GetLevel()) {
-						IsChecktask = false;
-					}
+					bool IsChecktask = tasks.GetIsHittoPlayerInfo();
 					if (PlayerData::Instance()->GetTaskClear(tasks.GetName().c_str())) {
 						IsChecktask = false;
 					}
@@ -386,11 +347,7 @@ namespace FPS_n2 {
 							}
 							//
 							if (isHit) {
-								isHit = !(
-									(PlayerData::Instance()->GetMaxLevel() < tasks.GetTaskNeedData().GetLevel()) ||
-									(PlayerData::Instance()->GetIsNeedKappa() ? !tasks.GetTaskNeedData().GetKappaRequired() : false) ||
-									(PlayerData::Instance()->GetIsNeedLightKeeper() ? !tasks.GetTaskNeedData().GetLightKeeperRequired() : false)
-									);
+								isHit = tasks.GetIsHittoPlayerInfo();
 							}
 							//
 							if (!isHit) { continue; }
@@ -407,7 +364,7 @@ namespace FPS_n2 {
 									DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255 - std::clamp(255 * (yp - (ypMax - ysizeAdd)) / ysizeAdd, 0, 255));
 								}
 							}
-							tasks.Draw(xp, yp, xsize, ysize);
+							tasks.Draw(xp, yp, xsize, ysize, 0, !WindowMngr->PosHitCheck(nullptr));
 						}
 						yp += ysizeAdd;
 					}

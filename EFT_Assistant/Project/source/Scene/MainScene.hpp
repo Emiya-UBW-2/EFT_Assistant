@@ -25,6 +25,8 @@ namespace FPS_n2 {
 		bool IsOpen() const noexcept { return(this->m_PullDown >= 1.f); }
 	public:
 		void Load_Sub(void) noexcept override {
+		}
+		void Set_Sub(void) noexcept override {
 			//パーツ
 			PlayerData::Create();
 			InputControl::Create();
@@ -34,8 +36,7 @@ namespace FPS_n2 {
 			WindowSystem::WindowManager::Create();
 			//データベース
 			DataBase::Create();
-		}
-		void Set_Sub(void) noexcept override {
+
 			bool DrawLog = false;
 #ifdef DEBUG
 			DrawLog = true;

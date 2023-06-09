@@ -10,6 +10,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
 NeedItem=Antique teapotx3
 NeedItem=Antique vasex2
 NeedItem=Axel parrot figurinex1

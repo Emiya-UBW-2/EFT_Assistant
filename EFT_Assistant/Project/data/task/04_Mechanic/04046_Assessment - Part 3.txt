@@ -10,6 +10,8 @@ NeedKappa=false
 NeedLightkeeper=true
 
 Task_Map=The Lab
+factionName=Any
+Task_Map=The Lab
 Task_Kill=[
 	The Lab-Raiderx10
 ]

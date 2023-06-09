@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
+factionName=Any
 Task_Kill=[
 	any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x8
 ]

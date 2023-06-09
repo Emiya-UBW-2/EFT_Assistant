@@ -10,9 +10,13 @@ NeedKappa=true
 NeedLightkeeper=true
 
 Task_Map=Customs
+factionName=Any
+Task_Map=Customs
 Task_Else=拾って納品:Customs-Flash drive with fake infox1
+Task_Map=Customs
 Task_NotFiR_HandOver=[SV-98 7.62x54R bolt-action sniper riflex1]
 DogTagLv=0
+Task_Map=Customs
 Task_NotFiR_HandOver=[Roler Submariner gold wrist watchx1]
 DogTagLv=0
 
@@ -44,6 +48,7 @@ Reward_Item=[
 	Dollarsx1000
 ]
 
+Task_Map=Customs
 Task_Kill=[
 	Customs-Scavsx1
 ]

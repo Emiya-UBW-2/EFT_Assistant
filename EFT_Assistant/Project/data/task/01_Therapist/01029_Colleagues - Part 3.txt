@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
+factionName=Any
 Task_Else=該当タスクColleagues - Part 3
 Task_Else=該当タスク状態:active
 NeedItem=TerraGroup Labs access keycardx10

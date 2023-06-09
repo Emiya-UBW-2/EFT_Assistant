@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
+factionName=Any
 NeedItem=Can of beef stew (Small)x15
 Task_FiR_HandOver=[Can of beef stew (Small)x15]
 DogTagLv=0

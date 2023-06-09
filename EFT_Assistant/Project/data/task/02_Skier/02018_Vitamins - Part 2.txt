@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
+factionName=Any
 Task_FiR_HandOver=[Respiratorx4]
 DogTagLv=0
 NeedItem=Respiratorx4

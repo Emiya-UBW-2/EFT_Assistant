@@ -9,26 +9,33 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
+factionName=Any
+Task_Map=Woods
 Task_Kill=[
 	Woods-any PMC operatives{head}x3
 ]
 Task_Else=距離: >= 100m
+Task_Map=Reserve
 Task_Kill=[
 	Reserve-any PMC operatives{head}x3
 ]
 Task_Else=距離: >= 100m
+Task_Map=Shoreline
 Task_Kill=[
 	Shoreline-any PMC operatives{head}x3
 ]
 Task_Else=距離: >= 100m
+Task_Map=Customs
 Task_Kill=[
 	Customs-any PMC operatives{head}x3
 ]
 Task_Else=距離: >= 100m
+Task_Map=Lighthouse
 Task_Kill=[
 	Lighthouse-any PMC operatives{head}x3
 ]
 Task_Else=距離: >= 100m
+Task_Map=Streets of Tarkov
 Task_Kill=[
 	Streets of Tarkov-any PMC operatives{head}x3
 ]

@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
 NeedItem=Fuel conditionerx4
 Task_FiR_HandOver=[Fuel conditionerx4]
 DogTagLv=0

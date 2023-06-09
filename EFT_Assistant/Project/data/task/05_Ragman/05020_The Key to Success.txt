@@ -10,7 +10,10 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Interchange
+factionName=Any
+Task_Map=Interchange
 Task_Else=拾って納品:Interchange-Clothes design handbook - Part 1x1
+Task_Map=Interchange
 Task_Else=拾って納品:Interchange-Clothes design handbook - Part 2x1
 
 [

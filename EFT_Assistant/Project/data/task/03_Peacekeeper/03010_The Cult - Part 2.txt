@@ -10,6 +10,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
+factionName=Any
 NeedItem=MS2000 Markerx1
 NeedItem=MS2000 Markerx1
 NeedItem=MS2000 Markerx1

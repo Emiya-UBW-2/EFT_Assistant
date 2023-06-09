@@ -10,6 +10,8 @@ NeedKappa=false
 NeedLightkeeper=true
 
 Task_Map=Lighthouse
+factionName=Any
+Task_Map=Lighthouse
 Task_Else=TaskType:visit
 Task_Else=Check if the transponder works
 Task_Map=Lighthouse

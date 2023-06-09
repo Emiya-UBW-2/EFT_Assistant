@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
+factionName=Any
 Task_Else=traderLL:RagmanLL4
 Task_Else=traderLL:SkierLL4
 Task_Else=traderLL:MechanicLL4

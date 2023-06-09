@@ -18,6 +18,9 @@ namespace FPS_n2 {
 				m_MapArgs.emplace_back(a);
 			}
 		}
+		else if (LEFT == "factionName") {
+
+		}
 		else if (LEFT == "Task_Kill") {
 			for (auto&a : Args) {
 				m_EnemyKillArgs.emplace_back(a);
@@ -117,7 +120,7 @@ namespace FPS_n2 {
 		}
 	}
 	//
-	const int	TaskList::Draw(int xp, int yp, int xsize, int ysize) const noexcept {
+	const int	TaskList::Draw(int xp, int yp, int xsize, int ysize, int count, bool Clickactive) const noexcept {
 		auto* WindowMngr = WindowSystem::WindowManager::Instance();
 		auto* Input = InputControl::Instance();
 
@@ -128,7 +131,11 @@ namespace FPS_n2 {
 		if (IsClearTask) {
 			color = ptr->GetColors(-150);
 		}
-		if (WindowSystem::ClickCheckBox(xp, yp, xp + xsize, yp + ysize, false, !WindowMngr->PosHitCheck(nullptr), color, this->GetName())) {
+		std::string Name = this->GetName();
+		if (count > 0) {
+			Name += " x" + std::to_string(count);
+		}
+		if (WindowSystem::ClickCheckBox(xp, yp, xp + xsize, yp + ysize, false, Clickactive, color, Name)) {
 			if (Input->GetSpaceKey().press()) {
 				PlayerData::Instance()->OnOffTaskClear(this->GetName().c_str());
 			}
@@ -136,7 +143,6 @@ namespace FPS_n2 {
 				auto sizeXBuf = y_r(800);
 				auto sizeYBuf = y_r(0);
 				this->DrawWindow(nullptr, y_r(1920), y_r(1080), &sizeXBuf, &sizeYBuf);//試しにサイズ計測
-				//
 				signed long long FreeID = this->GetID();
 				WindowMngr->Add()->Set(xp + xsize / 2 - sizeXBuf / 2, yp, sizeXBuf, sizeYBuf, 0, this->GetName().c_str(), false, true, FreeID, [&](WindowSystem::WindowControl* win) {
 					DataBase::Instance()->GetTaskData()->FindPtr((TaskID)win->m_FreeID)->DrawWindow(win, win->GetPosX(), win->GetPosY());
@@ -537,10 +543,11 @@ namespace FPS_n2 {
 		{
 			traderID = DataBase::Instance()->GetTraderData()->FindID(data["trader"]["name"]);
 		}
-		if (data.contains("map")) {
-			if (!data["map"].is_null()) {
-				MapID = DataBase::Instance()->GetMapData()->FindID(data["map"]["name"]);
-			}
+		if (data.contains("map") && !data["map"].is_null()) {
+			m_MapID = DataBase::Instance()->GetMapData()->FindID(data["map"]["name"]);
+		}
+		if (data.contains("factionName") && !data["factionName"].is_null()) {
+			m_factionName = data["factionName"];
 		}
 		if (data.contains("experience")) {
 			if (!data["experience"].is_null()) {
@@ -610,6 +617,10 @@ namespace FPS_n2 {
 			outputfile << "]\n";
 		};
 		auto SetTaskObjective = [&](std::ofstream& outputfile, const TaskJsonData::TaskObjective& obj, EnumTaskObjective /*prev*/) {
+			for (auto& m : obj.m_Maps) {
+				outputfile << "Task_Map=" + DataBase::Instance()->GetMapData()->FindPtr(m)->GetName() + "\n";
+			}
+
 			switch ((EnumTaskObjective)obj.m_TaskObjectiveType) {
 			case FPS_n2::EnumTaskObjective::TaskObjectiveBasic:
 			{
@@ -619,9 +630,6 @@ namespace FPS_n2 {
 			break;
 			case FPS_n2::EnumTaskObjective::TaskObjectiveBuildItem:
 			{
-				for (auto& m : obj.m_Maps) {
-					outputfile << "Task_Map=" + DataBase::Instance()->GetMapData()->FindPtr(m)->GetName() + "\n";
-				}
 				if (obj.m_Items.GetID() != InvalidID) {
 					outputfile << "NeedItem=" + obj.m_Items.GetOutputStr() + "\n";
 				}
@@ -643,9 +651,6 @@ namespace FPS_n2 {
 			break;
 			case FPS_n2::EnumTaskObjective::TaskObjectiveExperience:
 			{
-				for (auto& m : obj.m_Maps) {
-					outputfile << "Task_Map=" + DataBase::Instance()->GetMapData()->FindPtr(m)->GetName() + "\n";
-				}
 				for (auto& m : obj.m_healthEffect) {
 					if (m.bodyParts.size() > 0) {
 						outputfile << "Task_Else=自分の状態異常箇所:[";
@@ -675,9 +680,6 @@ namespace FPS_n2 {
 			break;
 			case FPS_n2::EnumTaskObjective::TaskObjectiveExtract:
 			{
-				for (auto& m : obj.m_Maps) {
-					outputfile << "Task_Map=" + DataBase::Instance()->GetMapData()->FindPtr(m)->GetName() + "\n";
-				}
 				if (obj.m_exitStatus.size() > 0) {
 					outputfile << "Task_Else=脱出ステータス:[";
 					for (auto& m : obj.m_exitStatus) {
@@ -725,17 +727,11 @@ namespace FPS_n2 {
 			break;
 			case FPS_n2::EnumTaskObjective::TaskObjectiveMark:
 			{
-				for (auto& m : obj.m_Maps) {
-					outputfile << "Task_Map=" + DataBase::Instance()->GetMapData()->FindPtr(m)->GetName() + "\n";
-				}
 				outputfile << "NeedItem=" + obj.markerItem + "x1\n";
 			}
 			break;
 			case FPS_n2::EnumTaskObjective::TaskObjectivePlayerLevel:
 			{
-				for (auto& m : obj.m_Maps) {
-					outputfile << "Task_Map=" + DataBase::Instance()->GetMapData()->FindPtr(m)->GetName() + "\n";
-				}
 				outputfile << "Task_Else=レベル:" + std::to_string(obj.playerLevel) + "\n";
 			}
 			break;
@@ -893,9 +889,6 @@ namespace FPS_n2 {
 				break;
 			case FPS_n2::EnumTaskObjective::TaskObjectiveTaskStatus:
 			{
-				for (auto& m : obj.m_Maps) {
-					outputfile << "Task_Map=" + DataBase::Instance()->GetMapData()->FindPtr(m)->GetName() + "\n";
-				}
 				outputfile << "Task_Else=該当タスク" + obj.task + "\n";
 				if (obj.status.size() > 0) {
 					outputfile << "Task_Else=該当タスク状態:";
@@ -921,9 +914,6 @@ namespace FPS_n2 {
 				break;
 			case FPS_n2::EnumTaskObjective::TaskObjectiveUseItem:
 			{
-				for (auto& m : obj.m_Maps) {
-					outputfile << "Task_Map=" + DataBase::Instance()->GetMapData()->FindPtr(m)->GetName() + "\n";
-				}
 				if (obj.Compares.IsActive()) {
 					outputfile << "Task_Else=閾値: " + (std::string)(CompareMethodStr[(int)obj.Compares.compareMethod]) + " " + std::to_string(obj.Compares.value) + "\n";
 				}
@@ -990,9 +980,10 @@ namespace FPS_n2 {
 			outputfile << "NeedLightkeeper=" + (std::string)(this->lightkeeperRequired ? "true" : "false") + "\n";
 			outputfile << "\n";
 			//
-			if (this->MapID != InvalidID) {
-				outputfile << "Task_Map=" + DataBase::Instance()->GetMapData()->FindPtr(this->MapID)->GetName() + "\n";
+			if (this->m_MapID != InvalidID) {
+				outputfile << "Task_Map=" + DataBase::Instance()->GetMapData()->FindPtr(this->m_MapID)->GetName() + "\n";
 			}
+			outputfile << "factionName=" + m_factionName + "\n";
 			for (auto& tr : this->traderRequirements) {
 				outputfile << "traderRequirementsName=" + tr.m_name + "\n";
 				outputfile << "traderRequirementsType=" + tr.m_requirementType + "\n";

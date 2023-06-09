@@ -8,6 +8,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
 Task_Kill=[
 	Scavsx5
 ]

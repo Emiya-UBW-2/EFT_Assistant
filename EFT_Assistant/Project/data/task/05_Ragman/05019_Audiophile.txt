@@ -11,8 +11,11 @@ NeedKappa=false
 NeedLightkeeper=false
 
 Task_Map=Streets of Tarkov
+factionName=Any
+Task_Map=Streets of Tarkov
 Task_Else=TaskType:visit
 Task_Else=Locate the musician gathering spot on Streets of Tarkov
+Task_Map=Streets of Tarkov
 Task_Else=拾って納品:Streets of Tarkov-AG guitar pickx1
 
 [

@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
+factionName=Any
 Task_FiR_HandOver=[Portable defibrillatorx1]
 DogTagLv=0
 NeedItem=CMS surgical kitx2

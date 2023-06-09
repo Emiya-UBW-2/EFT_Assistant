@@ -9,8 +9,11 @@ CanRestart=false
 NeedKappa=false
 NeedLightkeeper=false
 
+factionName=Any
+Task_Map=Lighthouse
 Task_Else=拾って納品:Lighthouse-Secure Flash drive V3x1
 NeedItem=Digital secure DSP radio transmitterx1
+Task_Map=Lighthouse
 Task_Else=TaskType:visit
 Task_Else=Visit the Lighthouse building
 

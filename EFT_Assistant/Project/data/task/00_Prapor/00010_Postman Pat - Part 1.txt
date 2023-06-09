@@ -10,6 +10,8 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Factory
+factionName=Any
+Task_Map=Factory
 Task_Else=拾って納品:Factory-Sealed letterx1
 Task_Map=Factory
 Task_Map=Night Factory

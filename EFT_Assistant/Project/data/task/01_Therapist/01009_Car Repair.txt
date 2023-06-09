@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
+factionName=Any
 NeedItem=Car batteryx4
 NeedItem=Spark plugx8
 Task_FiR_HandOver=[Car batteryx4]

@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
 NeedItem=HK 416A5 5.56x45 assault riflex1
 ContainsAll=SureFire SOCOM556-RC2 5.56x45 sound suppressor
 ContainsAll=Magpul RVG foregrip (FDE)

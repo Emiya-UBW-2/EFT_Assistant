@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
 Task_Else=Skillを上げる:Sniper Rifles+3.000000
 
 [

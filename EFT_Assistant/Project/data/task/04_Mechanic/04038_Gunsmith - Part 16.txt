@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
+factionName=Any
 NeedItem=Lobaev Arms DVL-10 7.62x51 bolt-action sniper riflex1
 ContainsCategory=Comb. tact. device
 Task_Else=accuracy >= 0

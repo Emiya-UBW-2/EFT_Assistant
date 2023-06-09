@@ -10,6 +10,7 @@ NeedKappa=false
 NeedLightkeeper=false
 
 Task_Map=Streets of Tarkov
+factionName=Any
 Task_Map=Streets of Tarkov
 NeedItem=MS2000 Markerx1
 Task_Map=Streets of Tarkov

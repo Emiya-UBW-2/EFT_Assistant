@@ -10,6 +10,7 @@ NeedKappa=false
 NeedLightkeeper=false
 
 Task_Map=Streets of Tarkov
+factionName=Any
 Task_Map=Streets of Tarkov
 Task_Else=脱出ステータス:[Survived]
 Task_Else=脱出地点:Primorsky Ave Taxi V-Ex

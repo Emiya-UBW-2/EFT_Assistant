@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
+factionName=Any
 NeedItem=Bottle of Tarkovskaya vodkax10
 NeedItem=Bottle of Dan Jackiel whiskeyx10
 NeedItem=Canister with purified waterx3

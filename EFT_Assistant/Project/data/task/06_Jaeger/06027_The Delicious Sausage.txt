@@ -10,12 +10,17 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Streets of Tarkov
+factionName=Any
+Task_Map=Streets of Tarkov
 Task_Else=TaskType:visit
 Task_Else=Scout the Shestyorochka store at Nikitskaya street
+Task_Map=Streets of Tarkov
 Task_Else=TaskType:visit
 Task_Else=Scout the Sparja store at Primorsky ave
+Task_Map=Streets of Tarkov
 Task_Else=TaskType:visit
 Task_Else=Scout the Sparja store in Pinewood hotel
+Task_Map=Streets of Tarkov
 Task_Else=TaskType:visit
 Task_Else=Scout the Goshan store in Concordia
 Task_FiR_HandOver=[Salty Dog beef sausagex1]

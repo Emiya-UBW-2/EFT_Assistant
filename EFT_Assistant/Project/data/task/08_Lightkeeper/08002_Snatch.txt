@@ -9,11 +9,16 @@ CanRestart=false
 NeedKappa=false
 NeedLightkeeper=false
 
+factionName=Any
 Task_Map=Lighthouse
 Task_Else=脱出ステータス:[Survived,Run Through,Killed in Action (KIA),Missing in Action (MIA)]
+Task_Map=Lighthouse
 Task_Else=拾って納品:Lighthouse-Forged Lightkeeper intelligencex1
+Task_Map=Reserve
 Task_Else=拾って納品:Reserve-Lightkeeper intelligencex1
+Task_Map=Reserve
 Task_Else=拾って納品:Reserve-Forged Lightkeeper intelligencex1
+Task_Map=Lighthouse
 Task_Else=拾って納品:Lighthouse-Lightkeeper intelligencex1
 
 [

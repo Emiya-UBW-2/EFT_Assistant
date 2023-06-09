@@ -107,6 +107,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
+factionName=Any
 NeedItem=Old firesteelx1
 Task_FiR_HandOver=[Old firesteelx1]
 DogTagLv=0

@@ -11,6 +11,7 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Interchange
+factionName=Any
 Task_Map=Interchange
 NeedItem=MS2000 Markerx1
 Task_Map=Interchange

@@ -40,7 +40,7 @@ namespace FPS_n2 {
 			m_BaseRad = 0.f;
 			m_ComPassRad = 0.f;
 
-			ComPass.SetPath("data/UI/Compass.png");
+			ComPass.SetPath(u8"data/UI/Compass.png");
 			ComPass.SetIsTrans(true);
 			ComPass.LoadByPath(false);
 			ComPass.WhenAfterLoad();
@@ -125,6 +125,9 @@ namespace FPS_n2 {
 							int yp = LineHeight + y_r(20) + LineHeight;
 							MakeList<TaskList>(xp, yp, DataBase::Instance()->GetTaskData()->GetList(), "Task", (int*)&m_EditTaskID, true, false, false, [&](const auto* tgt) {
 								if (tgt->GetTrader() != this->m_EditTraderID && this->m_EditTraderID != InvalidID) {
+									return false;
+								}
+								if (!tgt->GetIsUSECorBEAR()) {
 									return false;
 								}
 

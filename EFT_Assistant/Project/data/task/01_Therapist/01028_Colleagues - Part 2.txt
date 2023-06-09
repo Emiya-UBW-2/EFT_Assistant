@@ -11,7 +11,10 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Shoreline
+factionName=Any
+Task_Map=Shoreline
 Task_Else=拾って納品:Shoreline-Surgery kit marked with a blue symbolx1
+Task_Map=Shoreline
 Task_Else=拾って納品:Shoreline-Marked Ophthalmoscopex1
 
 [

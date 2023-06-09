@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
 NeedItem=Power cordx2
 Task_FiR_HandOver=[Power cordx2]
 DogTagLv=0

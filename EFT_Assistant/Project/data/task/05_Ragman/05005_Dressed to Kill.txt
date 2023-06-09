@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
+factionName=Any
 NeedItem=Kinda cowboy hatx2
 NeedItem=Ushanka ear flap hatx2
 Task_FiR_HandOver=[Ushanka ear flap hatx2]

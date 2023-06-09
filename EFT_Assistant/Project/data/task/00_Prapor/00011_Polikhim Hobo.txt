@@ -10,6 +10,8 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Customs
+factionName=Any
+Task_Map=Customs
 Task_Kill=[
 	Customs-Scavsx25
 ]

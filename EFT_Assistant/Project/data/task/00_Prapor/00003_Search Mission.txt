@@ -10,8 +10,11 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Woods
+factionName=Any
+Task_Map=Woods
 Task_Else=TaskType:visit
 Task_Else=Locate Prapor's missing convoy on Woods
+Task_Map=Woods
 Task_Else=TaskType:visit
 Task_Else=Locate the temporary USEC camp
 Task_Map=Woods

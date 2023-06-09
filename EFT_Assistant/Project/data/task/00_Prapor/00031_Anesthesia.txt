@@ -10,6 +10,7 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Shoreline
+factionName=Any
 Task_Map=Shoreline
 NeedItem=MS2000 Markerx1
 Task_Map=Shoreline

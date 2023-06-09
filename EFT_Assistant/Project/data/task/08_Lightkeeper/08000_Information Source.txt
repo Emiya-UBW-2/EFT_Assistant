@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=false
 NeedLightkeeper=false
 
+factionName=Any
 Task_Map=Woods
 Task_Else=脱出ステータス:[Survived]
 Task_Else=脱出地点:Bridge V-Ex

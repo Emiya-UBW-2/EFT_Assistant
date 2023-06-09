@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=false
 NeedLightkeeper=false
 
+factionName=Any
 NeedItem=VPX Flash Storage Modulex5
 NeedItem=UHF RFID Readerx5
 NeedItem=Virtex programmable processorx5

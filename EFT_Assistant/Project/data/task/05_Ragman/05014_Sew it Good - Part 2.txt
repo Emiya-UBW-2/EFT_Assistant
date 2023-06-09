@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
 NeedItem=BNTI Gzhel-K body armorx1
 Task_NotFiR_HandOver=[BNTI Gzhel-K body armorx1]
 DogTagLv=0

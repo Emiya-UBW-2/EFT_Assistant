@@ -64,6 +64,9 @@ namespace FPS_n2 {
 		const auto&	GetInformation() const noexcept { return Information_Eng; }
 		const auto&	GetPayItem() const noexcept { return PayItem; }
 		const auto&	GetLvData() const noexcept { return this->m_LvData; }
+
+
+		const int		DrawBarter(WindowSystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int ysize, int Lv, int Select, bool isdrawName, bool isdrawAfter, int count) const noexcept;
 	};
 	//
 	class TraderJsonData :public JsonDataParent {

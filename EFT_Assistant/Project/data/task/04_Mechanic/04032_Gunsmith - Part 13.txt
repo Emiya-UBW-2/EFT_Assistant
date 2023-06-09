@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
 NeedItem=Remington R11 RSASS 7.62x51 marksman riflex1
 ContainsCategory=Silencer
 Task_Else=accuracy >= 0

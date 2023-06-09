@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=false
 NeedLightkeeper=false
 
+factionName=Any
 NeedItem=M67 hand grenadex10
 Task_NotFiR_HandOver=[M67 hand grenadex10]
 DogTagLv=0

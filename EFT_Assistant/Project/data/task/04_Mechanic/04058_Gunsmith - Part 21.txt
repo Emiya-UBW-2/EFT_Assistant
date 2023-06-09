@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
+factionName=Any
 NeedItem=Remington Model 700 7.62x51 bolt-action sniper riflex1
 ContainsAll=M700 AB Arms MOD*X GEN 3 chassis
 ContainsAll=M700 AB Arms MOD*X GEN 3 KeyMod handguard

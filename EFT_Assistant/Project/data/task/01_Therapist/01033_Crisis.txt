@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=false
 NeedLightkeeper=false
 
+factionName=Any
 NeedItem=Portable defibrillatorx5
 NeedItem=Ophthalmoscopex5
 NeedItem=LEDX Skin Transilluminatorx3

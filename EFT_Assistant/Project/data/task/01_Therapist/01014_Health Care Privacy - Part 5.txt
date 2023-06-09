@@ -10,8 +10,11 @@ NeedKappa=true
 NeedLightkeeper=true
 
 Task_Map=Night Factory
+factionName=Any
+Task_Map=Night Factory
 Task_Else=TaskType:visit
 Task_Else=Locate the drop spot on night-time Factory
+Task_Map=Night Factory
 Task_NotFiR_HandOver=[Gunpowder "Kite"x3]
 DogTagLv=0
 

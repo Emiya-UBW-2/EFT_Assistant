@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
 NeedItem=Kalashnikov AKS-74U 5.45x39 assault riflex1
 ContainsAll=AKS-74U Zenit B-11 handguard
 Task_Else=accuracy >= 0

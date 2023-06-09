@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
+factionName=Any
 Task_Else=Skillを上げる:Stress Resistance+5.000000
 
 [

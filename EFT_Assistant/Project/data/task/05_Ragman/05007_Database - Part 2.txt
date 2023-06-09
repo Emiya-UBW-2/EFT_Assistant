@@ -11,6 +11,8 @@ NeedKappa=true
 NeedLightkeeper=true
 
 Task_Map=Interchange
+factionName=Any
+Task_Map=Interchange
 Task_Else=拾って納品:Interchange-OLI cargo route documentsx1
 
 [

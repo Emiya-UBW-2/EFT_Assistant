@@ -8,6 +8,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
 NeedItem=MP-133 12ga pump-action shotgunx1
 ContainsCategory=Comb. tact. device
 Task_Else=accuracy >= 0

@@ -10,6 +10,8 @@ NeedKappa=false
 NeedLightkeeper=false
 
 Task_Map=Reserve
+factionName=Any
+Task_Map=Reserve
 Task_Kill=[
 	Reserve-Raiderx40
 ]

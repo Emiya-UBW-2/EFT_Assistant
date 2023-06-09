@@ -10,10 +10,14 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Lighthouse
+factionName=Any
+Task_Map=Lighthouse
 Task_Else=TaskType:visit
 Task_Else=Recon the roof of the first office building on Lighthouse
+Task_Map=Lighthouse
 Task_Else=TaskType:visit
 Task_Else=Recon the roof of the second office building on Lighthouse
+Task_Map=Lighthouse
 Task_Else=TaskType:visit
 Task_Else=Recon the roof of the third office building on Lighthouse
 Task_Map=Lighthouse

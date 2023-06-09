@@ -10,6 +10,8 @@ NeedKappa=false
 NeedLightkeeper=true
 
 Task_Map=Lighthouse
+factionName=Any
+Task_Map=Lighthouse
 Task_Kill=[
 	Lighthouse-any PMC operativesx20
 ]

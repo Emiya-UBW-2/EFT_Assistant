@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
+factionName=Any
 NeedItem=Kalashnikov AK-102 5.56x45 assault riflex1
 ContainsAll=Ferfrans CRD 5.56x45 Concussion Reduction Device
 ContainsAll=SLR-106/AK 5.56x45 Circle 10 30-round magazine

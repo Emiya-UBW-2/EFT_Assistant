@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
 Task_FiR_HandOver=[Iskra ration packx3]
 DogTagLv=0
 Task_FiR_HandOver=[Emelya rye croutonsx2]

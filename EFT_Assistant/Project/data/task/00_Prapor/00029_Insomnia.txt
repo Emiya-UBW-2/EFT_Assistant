@@ -9,6 +9,15 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
+factionName=Any
+Task_Map=Interchange
+Task_Map=Shoreline
+Task_Map=Streets of Tarkov
+Task_Map=Lighthouse
+Task_Map=Woods
+Task_Map=Customs
+Task_Map=Reserve
+Task_Map=The Lab
 Task_Kill=[
 	Interchange-any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x30/|
 	Shoreline-any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x30/|

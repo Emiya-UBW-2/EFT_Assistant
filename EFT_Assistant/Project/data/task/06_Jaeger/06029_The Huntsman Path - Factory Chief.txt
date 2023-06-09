@@ -11,6 +11,8 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Factory
+factionName=Any
+Task_Map=Factory
 Task_Kill=[
 	Factory-Tagillax1
 ]

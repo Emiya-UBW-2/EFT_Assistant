@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
+factionName=Any
 NeedItem=SVDS 7.62x54R sniper riflex1
 ContainsAll=Magpul UBR GEN2 stock (Black)
 ContainsAll=SVD SAG MK1 chassis

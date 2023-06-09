@@ -9,12 +9,17 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
+Task_Map=Interchange
 Task_NotFiR_HandOver=[Golden neck chainx3]
 DogTagLv=0
+Task_Map=Customs
 Task_NotFiR_HandOver=[Golden neck chainx3]
 DogTagLv=0
+Task_Map=Woods
 Task_NotFiR_HandOver=[Golden neck chainx3]
 DogTagLv=0
+Task_Map=Interchange
 Task_Kill=[
 	Interchange-any PMC operativesx5
 ]

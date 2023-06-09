@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
+factionName=Any
 NeedItem=TerraGroup Labs access keycardx2
 Task_FiR_HandOver=[TerraGroup Labs access keycardx2]
 DogTagLv=0

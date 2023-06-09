@@ -10,6 +10,7 @@ NeedKappa=true
 NeedLightkeeper=true
 
 Task_Map=Woods
+factionName=Any
 Task_Map=Woods
 NeedItem=MS2000 Markerx1
 Task_Map=Woods

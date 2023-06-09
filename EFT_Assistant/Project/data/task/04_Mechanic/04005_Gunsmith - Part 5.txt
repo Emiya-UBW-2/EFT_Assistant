@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
 NeedItem=Remington Model 870 12ga pump-action shotgunx1
 ContainsAll=M870 Magpul MOE handguard
 ContainsCategory=Comb. tact. device

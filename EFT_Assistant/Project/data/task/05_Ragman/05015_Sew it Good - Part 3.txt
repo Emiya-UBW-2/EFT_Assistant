@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
 NeedItem=6B43 6A Zabralo-Sh body armorx1
 Task_NotFiR_HandOver=[6B43 6A Zabralo-Sh body armorx1]
 DogTagLv=0

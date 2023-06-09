@@ -1,4 +1,4 @@
-LastDataReceive=2023 06/09 01:01
+LastDataReceive=2023 06/10 02:33
 ItemData=[5a01ad4786f77450561fda02/|false]
 ItemData=[59c6633186f7740cf0493bb9/|false]
 ItemData=[59d64ec286f774171d1e0a42/|false]
@@ -2973,6 +2973,7 @@ ItemData=[5d80cd1a86f77402aa362f42/|false]
 ItemData=[5a13ef0686f7746e5a411744/|false]
 ItemData=[customdogtags12345678910/|false]
 ItemData=[63ac5c9658d0485fc039f0b8/|false]
+UnlockHideout=Stashx1
 Edition=0
 IsNeedLightKeeper=FALSE
 IsNeedKappa=FALSE

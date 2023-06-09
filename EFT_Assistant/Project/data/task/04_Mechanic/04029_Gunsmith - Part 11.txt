@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
 NeedItem=TDI KRISS Vector Gen.2 9x19 submachine gunx1
 ContainsAll=KRISS Vector Mk.5 modular rail
 ContainsAll=Tactical Dynamics Skeletonized Foregrip

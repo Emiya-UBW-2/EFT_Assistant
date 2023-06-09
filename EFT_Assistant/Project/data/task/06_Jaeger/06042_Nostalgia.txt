@@ -10,8 +10,11 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Shoreline
+factionName=Any
+Task_Map=Shoreline
 Task_Else=TaskType:visit
 Task_Else=Locate Jaeger's room with a view of a bay in the Health Resort
+Task_Map=Shoreline
 Task_Else=拾って納品:Shoreline-Photo albumx1
 
 [

@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
 NeedItem=HK MP5 9x19 submachine gun (Navy 3 Round Burst)x1
 ContainsCategory=Silencer
 ContainsCategory=Comb. tact. device

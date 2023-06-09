@@ -12,7 +12,12 @@ namespace FPS_n2 {
 			std::vector<ItemGetData>		m_Item;
 			bool							m_kappaRequired{ false };
 			bool							m_lightkeeperRequired{ false };
+			std::string						m_factionName;
+			int								m_IsUsec{ -1 };
 		public:
+			const auto& GetfactionName() const noexcept { return this->m_factionName; }
+			const auto GetIsUSEC() const noexcept { return this->m_IsUsec != 1; }
+			const auto GetIsBEAR() const noexcept { return this->m_IsUsec != 0; }
 			const auto& GetTrader() const noexcept { return this->m_Trader.GetID(); }
 			const auto& GetLevel() const noexcept { return this->m_Level; }
 			const auto& GetLL() const noexcept { return this->m_LL; }
@@ -45,6 +50,18 @@ namespace FPS_n2 {
 				}
 				else if (LEFT == "NeedLightkeeper") {
 					this->m_lightkeeperRequired = (Args[0] == "true");
+				}
+				else if (LEFT == "factionName") {
+					this->m_factionName = Args[0];
+					if (this->m_factionName == "USEC") {
+						m_IsUsec = 0;
+					}
+					else if (this->m_factionName == "BEAR") {
+						m_IsUsec = 1;
+					}
+					else {
+						m_IsUsec = -1;
+					}
 				}
 			}
 			void		SetAfter() noexcept;
@@ -126,12 +143,42 @@ namespace FPS_n2 {
 		TaskWorkData				m_TaskWorkData;
 		TaskRewardData				m_TaskRewardData;
 	public:
+		const auto&		GetfactionName() const noexcept { return this->m_TaskNeedData.GetfactionName(); }
 		const auto&		GetTrader() const noexcept { return this->m_TaskNeedData.GetTrader(); }
 		const auto&		GetTaskNeedData() const noexcept { return this->m_TaskNeedData; }
 		const auto&		GetTaskWorkData() const noexcept { return this->m_TaskWorkData; }
 		const auto&		GetTaskRewardData() const noexcept { return this->m_TaskRewardData; }
 
 		auto&			SetTaskWorkData() noexcept { return this->m_TaskWorkData; }
+
+		const auto		GetIsUSECorBEAR() const noexcept {
+			bool IsHit = true;
+			if (PlayerData::Instance()->GetIsUSEC()) {
+				if (!this->m_TaskNeedData.GetIsUSEC()) {
+					IsHit = false;
+				}
+			}
+			else {
+				if (!this->m_TaskNeedData.GetIsBEAR()) {
+					IsHit = false;
+				}
+			}
+			return IsHit;
+		}
+		const auto		GetIsHittoPlayerInfo() const noexcept {
+			bool IsHit = true;
+			if (
+				(PlayerData::Instance()->GetMaxLevel() < this->GetTaskNeedData().GetLevel()) ||
+				(PlayerData::Instance()->GetIsNeedKappa() ? !this->GetTaskNeedData().GetKappaRequired() : false) ||
+				(PlayerData::Instance()->GetIsNeedLightKeeper() ? !this->GetTaskNeedData().GetLightKeeperRequired() : false)
+				) {
+				IsHit = false;
+			}
+			if (IsHit) {
+				IsHit = GetIsUSECorBEAR();
+			}
+			return IsHit;
+		}
 	public:
 		void			SetSub(const std::string& LEFT, const std::vector<std::string>&Args) noexcept override {
 			//Need
@@ -152,8 +199,10 @@ namespace FPS_n2 {
 		void			WhenAfterLoad_Sub() noexcept override {}
 
 		void			SetNeedTasktoID() noexcept { this->m_TaskNeedData.SetNeedTasktoID(); }
-		const int		Draw(int xp, int yp, int xsize, int ysize) const noexcept;
+		const int		Draw(int xp, int yp, int xsize, int ysize, int count, bool Clickactive) const noexcept;
 		void			DrawWindow(WindowSystem::WindowControl* window, int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept;
+
+
 	};
 
 	enum class EnumTaskObjective {
@@ -340,7 +389,8 @@ namespace FPS_n2 {
 		};
 	public:
 		TraderID									traderID{ InvalidID };
-		MapID										MapID{ InvalidID };
+		MapID										m_MapID{ InvalidID };
+		std::string									m_factionName;
 		int											experience{ 0 };
 		int											minPlayerLevel{ 0 };
 		std::vector<std::pair<std::string, std::string>>	taskRequirements;

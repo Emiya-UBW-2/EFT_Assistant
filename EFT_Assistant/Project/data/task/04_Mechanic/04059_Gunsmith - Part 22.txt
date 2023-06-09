@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
+factionName=Any
 NeedItem=Colt M4A1 5.56x45 assault riflex1
 ContainsAll=KAC QDSS NT-4 5.56x45 sound suppressor (FDE)
 ContainsAll=AR-15 Alexander Arms MK10 rifle length handguard

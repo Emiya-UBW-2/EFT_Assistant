@@ -11,9 +11,13 @@ NeedKappa=true
 NeedLightkeeper=true
 
 Task_Map=Customs
+factionName=Any
+Task_Map=Customs
 Task_Else=拾って納品:Customs-Carbon casex1
+Task_Map=Customs
 Task_Else=TaskType:visit
 Task_Else=Locate the paramedic’s car on Customs
+Task_Map=Customs
 Task_Else=TaskType:visit
 Task_Else=Find a way inside the two-story dorm room 114 on Customs
 

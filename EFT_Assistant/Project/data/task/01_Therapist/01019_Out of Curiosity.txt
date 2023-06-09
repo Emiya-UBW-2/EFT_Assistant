@@ -10,6 +10,8 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Customs
+factionName=Any
+Task_Map=Customs
 Task_Else=TaskType:visit
 Task_Else=Locate the transport with the chemicals on Customs
 Task_Map=Customs

@@ -10,6 +10,8 @@ NeedKappa=true
 NeedLightkeeper=true
 
 Task_Map=Interchange
+factionName=Any
+Task_Map=Interchange
 Task_Kill=[
 	Interchange-Scavsx25
 ]

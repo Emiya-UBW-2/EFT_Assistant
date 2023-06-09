@@ -10,12 +10,16 @@ NeedKappa=false
 NeedLightkeeper=false
 
 Task_Map=Woods
+factionName=Any
+Task_Map=Woods
 Task_Kill=[
 	Woods-any PMC operativesx15
 ]
 Task_Else=ゾーン:[Woods Mountain]
+Task_Map=Woods
 Task_NotFiR_HandOver=[TerraGroup "Blue Folders" materialsx1]
 DogTagLv=0
+Task_Map=Woods
 Task_NotFiR_HandOver=[TerraGroup "Blue Folders" materialsx1]
 DogTagLv=0
 

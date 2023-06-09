@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
+factionName=Any
 NeedItem=Bundle of wiresx5
 NeedItem=Capacitorsx5
 Task_FiR_HandOver=[Bundle of wiresx5]

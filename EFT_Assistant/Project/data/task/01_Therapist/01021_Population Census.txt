@@ -10,6 +10,8 @@ NeedKappa=false
 NeedLightkeeper=false
 
 Task_Map=Streets of Tarkov
+factionName=Any
+Task_Map=Streets of Tarkov
 Task_Else=拾って納品:Streets of Tarkov-Housing office journalx1
 
 [

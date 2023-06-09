@@ -9,6 +9,8 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
+Task_Map=Woods
 Task_Kill=[
 	Woods-Scavsx12
 ]
@@ -19,6 +21,7 @@ Task_Else=装備が必要:{
 Task_Else=  UNTAR helmet
 Task_Else=  MF-UNTAR body armor
 Task_Else=}
+Task_Map=Customs
 Task_Kill=[
 	Customs-Scavsx12
 ]
@@ -29,6 +32,7 @@ Task_Else=装備が必要:{
 Task_Else=  UNTAR helmet
 Task_Else=  MF-UNTAR body armor
 Task_Else=}
+Task_Map=Interchange
 Task_Kill=[
 	Interchange-Scavsx12
 ]
@@ -39,6 +43,7 @@ Task_Else=装備が必要:{
 Task_Else=  UNTAR helmet
 Task_Else=  MF-UNTAR body armor
 Task_Else=}
+Task_Map=Shoreline
 Task_Kill=[
 	Shoreline-Scavsx12
 ]
@@ -49,6 +54,7 @@ Task_Else=装備が必要:{
 Task_Else=  UNTAR helmet
 Task_Else=  MF-UNTAR body armor
 Task_Else=}
+Task_Map=Streets of Tarkov
 Task_Kill=[
 	Streets of Tarkov-Scavsx12
 ]

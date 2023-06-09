@@ -10,9 +10,12 @@ NeedKappa=false
 NeedLightkeeper=false
 
 Task_Map=Reserve
+factionName=Any
+Task_Map=Reserve
 Task_Kill=[
 	Reserve-Glukharx1
 ]
+Task_Map=Reserve
 Task_Kill=[
 	Reserve-Glukhar Guard (Assault)x6
 ]

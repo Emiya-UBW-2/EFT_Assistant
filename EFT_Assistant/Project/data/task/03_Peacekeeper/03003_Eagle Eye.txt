@@ -10,11 +10,16 @@ NeedKappa=true
 NeedLightkeeper=true
 
 Task_Map=Shoreline
+factionName=Any
+Task_Map=Shoreline
 Task_Else=TaskType:visit
 Task_Else=Locate the first UAV crash site on Shoreline
+Task_Map=Shoreline
 Task_Else=拾って納品:Shoreline-UAV SAS disk #1x1
+Task_Map=Shoreline
 Task_Else=TaskType:visit
 Task_Else=Locate the second UAV crash site on Shoreline
+Task_Map=Shoreline
 Task_Else=拾って納品:Shoreline-UAV SAS disk #2x1
 
 [

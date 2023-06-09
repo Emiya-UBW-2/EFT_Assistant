@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
+factionName=Any
 NeedItem=Malboro Cigarettesx5
 Task_FiR_HandOver=[Malboro Cigarettesx5]
 DogTagLv=0

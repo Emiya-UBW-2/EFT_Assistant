@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=false
 NeedLightkeeper=false
 
+factionName=BEAR
 NeedItem=Fleece fabricx10
 Task_FiR_HandOver=[Fleece fabricx10]
 DogTagLv=0

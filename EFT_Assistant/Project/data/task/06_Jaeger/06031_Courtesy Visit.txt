@@ -10,10 +10,14 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Shoreline
+factionName=Any
+Task_Map=Shoreline
 Task_Else=TaskType:visit
 Task_Else=Locate the chairman's house in the abandoned village on Shoreline
+Task_Map=Shoreline
 Task_Else=TaskType:visit
 Task_Else=Locate the fisherman's house in the abandoned village on Shoreline
+Task_Map=Shoreline
 Task_Else=TaskType:visit
 Task_Else=Locate the priest's house in the abandoned village on Shoreline
 Task_Map=Shoreline

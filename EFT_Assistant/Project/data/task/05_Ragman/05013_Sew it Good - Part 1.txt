@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
 NeedItem=Ski hat with holes for eyesx1
 Task_FiR_HandOver=[Ski hat with holes for eyesx1]
 DogTagLv=0

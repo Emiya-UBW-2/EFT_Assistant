@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
 NeedItem=WD-40 (100ml)x1
 Task_FiR_HandOver=[WD-40 (100ml)x1]
 DogTagLv=0

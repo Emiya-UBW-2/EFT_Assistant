@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
 NeedItem=SIG MPX 9x19 submachine gunx1
 ContainsAll=AR-15 Tactical Dynamics Skeletonized pistol grip
 ContainsAll=Yankee Hill Annihilator multi-caliber flash hider

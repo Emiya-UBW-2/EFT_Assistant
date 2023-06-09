@@ -10,6 +10,8 @@ NeedKappa=false
 NeedLightkeeper=false
 
 Task_Map=Lighthouse
+factionName=BEAR
+Task_Map=Lighthouse
 Task_Kill=[
 	Lighthouse-USEC operativesx20
 ]

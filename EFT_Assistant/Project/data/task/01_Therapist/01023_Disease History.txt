@@ -11,7 +11,10 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Reserve
+factionName=Any
+Task_Map=Reserve
 Task_Else=拾って納品:Reserve-Medical record #1x1
+Task_Map=Reserve
 Task_Else=拾って納品:Reserve-Medical record #2x1
 
 [

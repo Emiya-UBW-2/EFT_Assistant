@@ -10,7 +10,11 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
+Task_Map=Customs
 Task_Else=拾って納品:Customs-Secure Folder 0022x1
+Task_Map=Factory
+Task_Map=Night Factory
 Task_Else=拾って納品:Factory-Secure Folder 0022x1
 Task_Else=拾って納品:Night Factory-Secure Folder 0022x1
 Task_Map=Factory

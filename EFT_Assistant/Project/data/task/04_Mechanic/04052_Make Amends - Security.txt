@@ -10,12 +10,17 @@ NeedKappa=false
 NeedLightkeeper=false
 
 Task_Map=Lighthouse
+factionName=Any
+Task_Map=Lighthouse
 Task_NotFiR_HandOver=[WI-FI Camerax1]
 DogTagLv=0
+Task_Map=Lighthouse
 Task_NotFiR_HandOver=[WI-FI Camerax1]
 DogTagLv=0
+Task_Map=Lighthouse
 Task_NotFiR_HandOver=[WI-FI Camerax1]
 DogTagLv=0
+Task_Map=Lighthouse
 Task_NotFiR_HandOver=[WI-FI Camerax1]
 DogTagLv=0
 

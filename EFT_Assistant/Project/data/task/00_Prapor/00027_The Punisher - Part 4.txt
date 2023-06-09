@@ -9,6 +9,8 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
+Task_Map=Woods
 Task_Kill=[
 	Woods-Scavsx10
 ]
@@ -23,6 +25,7 @@ NeedItem=[
 	MTs-255-12 12ga shotgunx0/|
 	Benelli M3 Super 90 dual-mode 12ga shotgunx0
 ]
+Task_Map=Shoreline
 Task_Kill=[
 	Shoreline-any PMC operativesx10
 ]

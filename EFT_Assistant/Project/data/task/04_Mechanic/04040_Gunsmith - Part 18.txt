@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
+factionName=Any
 NeedItem=Kalashnikov AKMN 7.62x39 assault riflex1
 ContainsAll=AK Magpul MOE AKM handguard (Black)
 ContainsAll=AK Magpul MOE pistol grip (Black)

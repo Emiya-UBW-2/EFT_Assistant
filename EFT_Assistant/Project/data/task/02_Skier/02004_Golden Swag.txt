@@ -11,6 +11,8 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Customs
+factionName=Any
+Task_Map=Customs
 Task_Else=拾って納品:Customs-Golden Zibbo lighterx1
 
 [

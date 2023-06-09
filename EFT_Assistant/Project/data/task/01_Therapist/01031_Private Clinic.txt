@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
 NeedItem=Ophthalmoscopex1
 NeedItem=LEDX Skin Transilluminatorx1
 Task_FiR_HandOver=[Ophthalmoscopex1]

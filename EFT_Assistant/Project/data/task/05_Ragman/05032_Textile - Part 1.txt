@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=false
 NeedLightkeeper=false
 
+factionName=BEAR
 traderRequirementsName=Ragman
 traderRequirementsType=level
 traderRequirements=>=

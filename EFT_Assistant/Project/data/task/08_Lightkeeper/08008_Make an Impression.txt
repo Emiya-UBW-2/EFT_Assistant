@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=false
 NeedLightkeeper=false
 
+factionName=Any
 Task_Else=Skillを上げる:Sniper Rifles+10.000000
 Task_Kill=[
 	Sniperx10

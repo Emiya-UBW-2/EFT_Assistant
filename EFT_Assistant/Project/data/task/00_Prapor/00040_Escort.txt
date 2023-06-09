@@ -9,24 +9,32 @@ CanRestart=true
 NeedKappa=false
 NeedLightkeeper=false
 
+factionName=Any
+Task_Map=Factory
 Task_Kill=[
 	Factory-any PMC operativesx4
 ]
+Task_Map=Customs
 Task_Kill=[
 	Customs-any PMC operativesx4
 ]
+Task_Map=Shoreline
 Task_Kill=[
 	Shoreline-any PMC operativesx4
 ]
+Task_Map=Reserve
 Task_Kill=[
 	Reserve-any PMC operativesx4
 ]
+Task_Map=Woods
 Task_Kill=[
 	Woods-any PMC operativesx4
 ]
+Task_Map=Interchange
 Task_Kill=[
 	Interchange-any PMC operativesx4
 ]
+Task_Map=The Lab
 Task_Kill=[
 	The Lab-any PMC operativesx4
 ]

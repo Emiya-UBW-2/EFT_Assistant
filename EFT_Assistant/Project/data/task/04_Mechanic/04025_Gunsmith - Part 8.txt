@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
 NeedItem=Kalashnikov AKS-74N 5.45x39 assault riflex1
 ContainsAll=AK Zenit DTK-1 7.62x39/5.45x39 muzzle brake-compensator
 ContainsAll=AK Zenit B-33 dust cover

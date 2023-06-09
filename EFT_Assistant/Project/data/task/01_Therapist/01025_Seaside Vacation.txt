@@ -10,6 +10,8 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Lighthouse
+factionName=Any
+Task_Map=Lighthouse
 Task_Else=拾って納品:Lighthouse-Laptop with informationx1
 
 [

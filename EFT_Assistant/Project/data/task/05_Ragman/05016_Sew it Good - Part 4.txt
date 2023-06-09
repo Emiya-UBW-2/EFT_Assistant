@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
+factionName=Any
 NeedItem=WARTECH TV-109 + TV-106 chest rigx2
 Task_FiR_HandOver=[WARTECH TV-109 + TV-106 chest rigx2]
 DogTagLv=0

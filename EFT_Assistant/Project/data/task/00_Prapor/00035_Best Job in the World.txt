@@ -10,6 +10,7 @@ CanRestart=false
 NeedKappa=false
 NeedLightkeeper=false
 
+factionName=Any
 Task_Kill=[
 	any targetx30
 ]

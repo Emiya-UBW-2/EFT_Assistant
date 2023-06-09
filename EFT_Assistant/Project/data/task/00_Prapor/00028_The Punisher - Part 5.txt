@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
 NeedItem=Kalashnikov AK-74N 5.45x39 assault riflex1
 Task_FiR_HandOver=[Kalashnikov AK-74N 5.45x39 assault riflex1]
 DogTagLv=0

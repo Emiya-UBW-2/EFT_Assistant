@@ -10,6 +10,8 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Woods
+factionName=Any
+Task_Map=Woods
 Task_Else=拾って納品:Woods-Secure Folder 0052x1
 Task_Map=Woods
 Task_Else=脱出ステータス:[Survived,Run Through]

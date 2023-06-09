@@ -10,10 +10,14 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Interchange
+factionName=Any
+Task_Map=Interchange
 Task_NotFiR_HandOver=[Peltor ComTac 2 headsetx2]
 DogTagLv=0
+Task_Map=Interchange
 Task_NotFiR_HandOver=[6B47 Ratnik-BSh helmetx2]
 DogTagLv=0
+Task_Map=Interchange
 Task_NotFiR_HandOver=[BNTI Gzhel-K body armorx2]
 DogTagLv=0
 

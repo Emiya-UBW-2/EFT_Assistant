@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
 NeedItem=SIG P226R 9x19 pistolx1
 ContainsAll=P226 Stainless Elite Wooden pistol grip
 ContainsAll=P226 Stainless Elite pistol slide

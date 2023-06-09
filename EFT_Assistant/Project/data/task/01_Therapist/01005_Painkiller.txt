@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
 NeedItem=Morphine injectorx4
 Task_FiR_HandOver=[Morphine injectorx4]
 DogTagLv=0

@@ -15,6 +15,40 @@ namespace FPS_n2 {
 		}
 
 	}
+	const int		TraderList::DrawBarter(WindowSystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int ysize, int Lv, int Select, bool isdrawName, bool isdrawAfter, int count) const noexcept {
+		auto* WindowMngr = WindowSystem::WindowManager::Instance();
+		const auto& cf = this->m_LvData.at(Lv - 1).m_ItemBarters.at(Select);
+		int xofsbuf = y_r(10);
+		int xofsbuf2 = y_r(10);
+		int yofsbuf = 0;
+		int xsize2 = isdrawName ? (ysize / 2) : ysize;
+		int ysize2 = isdrawName ? (ysize / 2 - y_r(3)) : ysize;
+		if (isdrawName) {
+			std::string Name = this->GetName() + " Lv" + std::to_string(Lv);
+			if (count > 1) {
+				Name += " x" + std::to_string(count);
+			}
+			xofsbuf2 = WindowSystem::SetMsg(xp + xofsbuf, yp + yofsbuf, xp + xofsbuf, yp + yofsbuf + ysize2, ysize2, STRX_LEFT, White, Black, Name);
+			yofsbuf += ysize2 + y_r(5);
+		}
+		for (const auto& w : cf.m_ItemReq) {
+			auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(w.GetID());
+			if (ptr) {
+				xofsbuf += ptr->Draw(xp + xofsbuf, yp + yofsbuf, xsize2, ysize2, w.GetValue()*std::max(1, count), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true) + y_r(5);
+			}
+		}
+		xofsbuf = std::max(xofsbuf, xofsbuf2);
+		if (isdrawAfter) {
+			xofsbuf += WindowSystem::SetMsg(xp + xofsbuf, yp + yofsbuf, xp + 0, yp + yofsbuf + ysize2, ysize2, STRX_LEFT, White, Black, "->") + y_r(30);
+			for (const auto& w : cf.m_ItemReward) {
+				auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(w.GetID());
+				if (ptr) {
+					xofsbuf += ptr->Draw(xp + xofsbuf, yp + yofsbuf, xsize2, ysize2, w.GetValue()*std::max(1, count), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true) + y_r(5);
+				}
+			}
+		}
+		return xofsbuf;
+	}
 	//
 	void TraderJsonData::GetJsonSub(const nlohmann::json& data) noexcept {
 		PayItem = DataBase::Instance()->GetItemData()->FindID((std::string)(data["currency"]["name"]));

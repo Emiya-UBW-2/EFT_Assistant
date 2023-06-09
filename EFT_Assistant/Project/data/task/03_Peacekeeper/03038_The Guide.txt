@@ -9,6 +9,7 @@ CanRestart=true
 NeedKappa=true
 NeedLightkeeper=false
 
+factionName=Any
 Task_Map=Woods
 Task_Else=脱出ステータス:[Survived]
 Task_Map=Customs

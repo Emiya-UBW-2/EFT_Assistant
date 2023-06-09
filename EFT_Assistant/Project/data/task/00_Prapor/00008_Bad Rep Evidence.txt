@@ -10,9 +10,13 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
+Task_Map=Factory
+Task_Map=Night Factory
 Task_Else=TaskType:visit
 Task_Else=Gain access to the locked room in the office hallway on the third floor on Factory
 NeedItem=Portable bunkhouse keyx1
+Task_Map=Customs
 Task_Else=拾って納品:Customs-Secure Folder 0031x1
 Task_Map=Customs
 Task_Else=脱出ステータス:[Survived,Run Through]

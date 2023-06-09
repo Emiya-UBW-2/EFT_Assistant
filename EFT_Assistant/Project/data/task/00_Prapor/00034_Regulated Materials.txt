@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=false
 
+factionName=Any
 NeedItem=6-STEN-140-M military batteryx1
 Task_FiR_HandOver=[6-STEN-140-M military batteryx1]
 DogTagLv=0

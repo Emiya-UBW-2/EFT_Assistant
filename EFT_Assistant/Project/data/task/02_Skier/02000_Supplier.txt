@@ -8,6 +8,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
 Task_FiR_HandOver=[BNTI Module-3M body armorx1]
 DogTagLv=0
 Task_FiR_HandOver=[TOZ-106 20ga bolt-action shotgunx1]

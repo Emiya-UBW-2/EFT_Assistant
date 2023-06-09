@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
 NeedItem=AS VAL 9x39 special assault riflex1
 ContainsAll=FAB Defense GL-SHOCK buttstock
 ContainsAll=AN/PEQ-15 tactical device

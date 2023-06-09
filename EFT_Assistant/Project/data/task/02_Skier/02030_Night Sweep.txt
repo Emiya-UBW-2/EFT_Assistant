@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=false
 NeedLightkeeper=false
 
+factionName=Any
 NeedItem=Cultist knifex12
 Task_FiR_HandOver=[Cultist knifex12]
 DogTagLv=0

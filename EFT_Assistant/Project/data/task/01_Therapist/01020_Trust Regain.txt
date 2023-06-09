@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=false
 NeedLightkeeper=false
 
+factionName=Any
 NeedItem=Dorm room 303 keyx1
 NeedItem=ZB-014 keyx1
 NeedItem=Military checkpoint keyx1

@@ -8,6 +8,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
 NeedItem=Salewa first aid kitx3
 Task_FiR_HandOver=[Salewa first aid kitx3]
 DogTagLv=0

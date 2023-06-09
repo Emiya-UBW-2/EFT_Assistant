@@ -10,6 +10,7 @@ NeedKappa=true
 NeedLightkeeper=true
 
 Task_Map=Shoreline
+factionName=Any
 Task_Map=Shoreline
 NeedItem=MS2000 Markerx1
 Task_Map=Shoreline
@@ -19,6 +20,7 @@ Task_NotFiR_HandOver=[MRE ration packx5]
 DogTagLv=0
 Task_Map=Shoreline
 Task_Else=脱出ステータス:[Survived,Run Through]
+Task_Map=Shoreline
 Task_Kill=[
 	Shoreline-Scavsx10
 ]
@@ -26,8 +28,10 @@ Task_Else=装備が必要:{
 Task_Else=  UNTAR helmet
 Task_Else=  MF-UNTAR body armor
 Task_Else=}
+Task_Map=Shoreline
 Task_Else=TaskType:visit
 Task_Else=Locate the first truck that was holding the lost UN cargo on Shoreline
+Task_Map=Shoreline
 Task_Else=TaskType:visit
 Task_Else=Locate the second truck that was holding the lost UN cargo on Shoreline
 

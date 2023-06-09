@@ -11,11 +11,14 @@ NeedKappa=true
 NeedLightkeeper=true
 
 Task_Map=Customs
+factionName=Any
 traderRequirementsName=Prapor
 traderRequirementsType=level
 traderRequirements=>=
 traderRequirementsValue=2
+Task_Map=Customs
 Task_Else=拾って納品:Customs-Bank casex1
+Task_Map=Customs
 Task_Else=TaskType:visit
 Task_Else=Gain access to dorm room 214
 

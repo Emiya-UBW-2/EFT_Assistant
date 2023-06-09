@@ -10,6 +10,7 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+factionName=Any
 NeedItem=Gas analyzerx2
 Task_FiR_HandOver=[Gas analyzerx2]
 DogTagLv=0

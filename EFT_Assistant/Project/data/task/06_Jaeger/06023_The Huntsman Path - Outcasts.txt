@@ -10,6 +10,8 @@ NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Lighthouse
+factionName=Any
+Task_Map=Lighthouse
 Task_Kill=[
 	Lighthouse-Roguex10
 ]
