@@ -37,9 +37,9 @@ namespace FPS_n2 {
 				xofsbuf += ptr->Draw(xp + xofsbuf, yp + yofsbuf, xsize2, ysize2, w.GetValue()*std::max(1, count), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true) + y_r(5);
 			}
 		}
-		xofsbuf = std::max(xofsbuf, xofsbuf2);
 		if (isdrawAfter) {
-			xofsbuf += WindowSystem::SetMsg(xp + xofsbuf, yp + yofsbuf, xp + 0, yp + yofsbuf + ysize2, ysize2, STRX_LEFT, White, Black, "->") + y_r(30);
+			xofsbuf = std::max(xofsbuf, xsize2 * 10);
+			xofsbuf += WindowSystem::SetMsg(xp + xofsbuf, yp, xp + 0, yp + ysize, (ysize / 2 - y_r(3)), STRX_LEFT, White, Black, "->") + y_r(30);
 			for (const auto& w : cf.m_ItemReward) {
 				auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(w.GetID());
 				if (ptr) {
@@ -47,6 +47,7 @@ namespace FPS_n2 {
 				}
 			}
 		}
+		xofsbuf = std::max(xofsbuf, xofsbuf2);
 		return xofsbuf;
 	}
 	//
@@ -169,7 +170,6 @@ namespace FPS_n2 {
 				}
 			}
 		}
-
 	}
 	//
 };

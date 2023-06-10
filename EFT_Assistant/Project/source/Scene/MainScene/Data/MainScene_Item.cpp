@@ -101,25 +101,24 @@ namespace FPS_n2 {
 		int  StrXSize = 0;
 
 		std::string Name = "";
+		std::string AfterName = "";
+		if (count > 0) {
+			AfterName += " x" + std::to_string(count);
+		}
 		if (!IsIconOnly) {
-			Name = this->GetShortName();
+			Name = this->GetName();
 			if (xsize > 0) {
 				int countbuf = 0;
 				while (true) {
-					if (count > 0) {
-						StrXSize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, "%s x%2d", Name.c_str(), count);
-					}
-					else {
-						StrXSize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, "%s", Name.c_str());
-					}
+					StrXSize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, Name + AfterName);
 					if ((xs - (GraphXsize + FirXSize)) < StrXSize) {
-						Name = Name.substr(0, (size_t)((int)(Name.size()) * (xs - (GraphXsize + FirXSize)) / StrXSize - 2)) + "…";
+						Name = Name.substr(0, (size_t)(((int)(Name.size()) * (xs - (GraphXsize + FirXSize)) / StrXSize) - AfterName.size() - 2)) + "…";
 					}
 					else {
 						break;
 					}
 					countbuf++;
-					if (countbuf > 100) {
+					if (countbuf > 10) {
 						Name = "…";
 						StrXSize = LineHeight * 9 / 10;
 						break;
@@ -127,12 +126,7 @@ namespace FPS_n2 {
 				}
 			}
 			else {
-				if (count > 0) {
-					StrXSize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, "%s x%2d", Name.c_str(), count);
-				}
-				else {
-					StrXSize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, "%s", Name.c_str());
-				}
+				StrXSize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, Name + AfterName);
 			}
 			Xsize += StrXSize;
 		}
@@ -141,16 +135,11 @@ namespace FPS_n2 {
 			Xsize += (GraphXsize + FirXSize);
 		}
 		if (!IsIconOnly) {
-			if (count > 0) {
-				Xsize = std::max(Xsize, FirXSize + WindowSystem::GetMsgLen(LineHeight * 9 / 10, Name + " x%1d", count));
-			}
-			else {
-				Xsize = std::max(Xsize, FirXSize + WindowSystem::GetMsgLen(LineHeight * 9 / 10, Name));
-			}
+			Xsize = std::max(Xsize, FirXSize + WindowSystem::GetMsgLen(LineHeight * 9 / 10, Name + AfterName));
 		}
 		else {
 			if (count > 0) {
-				Xsize = std::max(Xsize, (GraphXsize + FirXSize) + WindowSystem::GetMsgLen(LineHeight * 9 / 10, "x%1d", count));
+				Xsize = std::max(Xsize, (GraphXsize + FirXSize) + WindowSystem::GetMsgLen(LineHeight * 9 / 10, AfterName));
 			}
 		}
 
@@ -257,57 +246,38 @@ namespace FPS_n2 {
 		{
 			//タスク
 			{
-				int OLDyofs = yofs;
 				{
 					int xofsBuf = y_r(10);
+					int OLDyofs = yofs;
 					int yofsBuf = OLDyofs;
-					{
-						int count = 0;
-						for (const auto& tasks : DataBase::Instance()->GetTaskData()->GetList()) {
-							if (tasks.GetIsUSECorBEAR()) {
-								for (const auto& w : tasks.GetTaskWorkData().GetFiR_Item()) {
-									if (w.GetID() == GetID()) {
-										count++;
-										break;
-									}
-								}
-							}
-						}
-
-						int count2 = 0;
-						for (const auto& tasks : DataBase::Instance()->GetTaskData()->GetList()) {
-							if (tasks.GetIsUSECorBEAR()) {
-								for (const auto& w : tasks.GetTaskWorkData().GetFiR_Item()) {
-									if (w.GetID() == GetID()) {
-										if (count2 == 0) {
-											WindowSystem::SetMsg(xp + xofsBuf, yp + yofsBuf, xp + xofsBuf, yp + LineHeight + yofsBuf, LineHeight, STRX_LEFT, White, Black, "Firタスク納品:");
-											yofsBuf += LineHeight + y_r(5);
-										}
-										if (count > 1 && (count / 2) <= count2) {
-											xofsBuf = y_r(600) + y_r(10);
-											yofsBuf = OLDyofs + LineHeight + y_r(5);
-										}
-										tasks.Draw(xp + xofsBuf, yp + yofsBuf, y_r(600) - y_r(10) * 2, LineHeight, w.GetValue(), !WindowMngr->PosHitCheck(window)); yofsBuf += LineHeight + y_r(5);
-										count2++;
-										break;
-									}
+					int count = 0;
+					for (const auto& tasks : DataBase::Instance()->GetTaskData()->GetList()) {
+						if (tasks.GetIsUSECorBEAR()) {
+							for (const auto& w : tasks.GetTaskWorkData().GetFiR_Item()) {
+								if (w.GetID() == GetID()) {
+									count++;
+									break;
 								}
 							}
 						}
 					}
-					{
-						bool isFirst = true;
-						for (const auto& tasks : DataBase::Instance()->GetTaskData()->GetList()) {
-							if (tasks.GetIsUSECorBEAR()) {
-								for (const auto& w : tasks.GetTaskWorkData().GetNotFiR_Item()) {
-									if (w.GetID() == GetID()) {
-										if (isFirst) {
-											isFirst = false;
-											WindowSystem::SetMsg(xp + xofsBuf, yp + yofsBuf, xp + xofsBuf, yp + LineHeight + yofsBuf, LineHeight, STRX_LEFT, White, Black, "Firでないタスク納品:"); yofsBuf += LineHeight + y_r(5);
-										}
-										tasks.Draw(xp + xofsBuf, yp + yofsBuf, y_r(600) - y_r(10) * 2, LineHeight, w.GetValue(), !WindowMngr->PosHitCheck(window)); yofsBuf += LineHeight + y_r(5);
-										break;
+
+					int count2 = 0;
+					for (const auto& tasks : DataBase::Instance()->GetTaskData()->GetList()) {
+						if (tasks.GetIsUSECorBEAR()) {
+							for (const auto& w : tasks.GetTaskWorkData().GetFiR_Item()) {
+								if (w.GetID() == GetID()) {
+									if (count2 == 0) {
+										WindowSystem::SetMsg(xp + xofsBuf, yp + yofsBuf, xp + xofsBuf, yp + LineHeight + yofsBuf, LineHeight, STRX_LEFT, White, Black, "Firタスク納品:"); yofsBuf += LineHeight + y_r(5);
 									}
+									if (count > 1 && (count / 2) <= count2) {
+										xofsBuf = y_r(600) + y_r(10);
+										yofs = std::max(yofs, yofsBuf);
+										yofsBuf = OLDyofs + LineHeight + y_r(5);
+									}
+									tasks.Draw(xp + xofsBuf, yp + yofsBuf, y_r(600) - y_r(10) * 2, LineHeight, w.GetValue(), !WindowMngr->PosHitCheck(window)); yofsBuf += LineHeight + y_r(5);
+									count2++;
+									break;
 								}
 							}
 						}
@@ -315,41 +285,115 @@ namespace FPS_n2 {
 					yofs = std::max(yofs, yofsBuf);
 				}
 				{
-					int xofsBuf = y_r(600) + y_r(10);
+					int xofsBuf = y_r(10);
+					int OLDyofs = yofs;
 					int yofsBuf = OLDyofs;
-					{
-						bool isFirst = true;
-						for (const auto& tasks : DataBase::Instance()->GetTaskData()->GetList()) {
-							bool isHit = false;
-							if (!isHit) {
-								for (const auto& w : tasks.GetTaskWorkData().GetFiR_Item()) {
-									if (w.GetID() == GetID()) {
-										isHit = true;
-										break;
-									}
+					int count = 0;
+					for (const auto& tasks : DataBase::Instance()->GetTaskData()->GetList()) {
+						if (tasks.GetIsUSECorBEAR()) {
+							for (const auto& w : tasks.GetTaskWorkData().GetNotFiR_Item()) {
+								if (w.GetID() == GetID()) {
+									count++;
+									break;
 								}
 							}
-							if (!isHit) {
-								for (const auto& w : tasks.GetTaskWorkData().GetNotFiR_Item()) {
-									if (w.GetID() == GetID()) {
-										isHit = true;
-										break;
+						}
+					}
+
+					int count2 = 0;
+					for (const auto& tasks : DataBase::Instance()->GetTaskData()->GetList()) {
+						if (tasks.GetIsUSECorBEAR()) {
+							for (const auto& w : tasks.GetTaskWorkData().GetNotFiR_Item()) {
+								if (w.GetID() == GetID()) {
+									if (count2 == 0) {
+										WindowSystem::SetMsg(xp + xofsBuf, yp + yofsBuf, xp + xofsBuf, yp + LineHeight + yofsBuf, LineHeight, STRX_LEFT, White, Black, "Firでないタスク納品:"); yofsBuf += LineHeight + y_r(5);
 									}
+									if (count > 1 && (count / 2) <= count2) {
+										xofsBuf = y_r(600) + y_r(10);
+										yofs = std::max(yofs, yofsBuf);
+										yofsBuf = OLDyofs + LineHeight + y_r(5);
+									}
+									tasks.Draw(xp + xofsBuf, yp + yofsBuf, y_r(600) - y_r(10) * 2, LineHeight, w.GetValue(), !WindowMngr->PosHitCheck(window)); yofsBuf += LineHeight + y_r(5);
+									count2++;
+									break;
 								}
 							}
-							if (isHit) {
-								continue;
+						}
+					}
+					yofs = std::max(yofs, yofsBuf);
+				}
+				{
+					int xofsBuf = y_r(10);
+					int OLDyofs = yofs;
+					int yofsBuf = OLDyofs;
+					int count = 0;
+					for (const auto& tasks : DataBase::Instance()->GetTaskData()->GetList()) {
+						bool isHit = false;
+						if (!isHit) {
+							for (const auto& w : tasks.GetTaskWorkData().GetFiR_Item()) {
+								if (w.GetID() == GetID()) {
+									isHit = true;
+									break;
+								}
 							}
-							if (tasks.GetIsUSECorBEAR()) {
-								for (const auto& w : tasks.GetTaskNeedData().GetItem()) {
-									if (w.GetID() == GetID()) {
-										if (isFirst) {
-											isFirst = false;
-											WindowSystem::SetMsg(xp + xofsBuf, yp + yofsBuf, xp + xofsBuf, yp + LineHeight + yofsBuf, LineHeight, STRX_LEFT, White, Black, "タスクに必要:"); yofsBuf += LineHeight + y_r(5);
-										}
-										tasks.Draw(xp + xofsBuf, yp + yofsBuf, y_r(600) - y_r(10) * 2, LineHeight, w.GetValue(), !WindowMngr->PosHitCheck(window)); yofsBuf += LineHeight + y_r(5);
-										break;
+						}
+						if (!isHit) {
+							for (const auto& w : tasks.GetTaskWorkData().GetNotFiR_Item()) {
+								if (w.GetID() == GetID()) {
+									isHit = true;
+									break;
+								}
+							}
+						}
+						if (isHit) {
+							continue;
+						}
+						if (tasks.GetIsUSECorBEAR()) {
+							for (const auto& w : tasks.GetTaskNeedData().GetItem()) {
+								if (w.GetID() == GetID()) {
+									count++;
+									break;
+								}
+							}
+						}
+					}
+
+					int count2 = 0;
+					for (const auto& tasks : DataBase::Instance()->GetTaskData()->GetList()) {
+						bool isHit = false;
+						if (!isHit) {
+							for (const auto& w : tasks.GetTaskWorkData().GetFiR_Item()) {
+								if (w.GetID() == GetID()) {
+									isHit = true;
+									break;
+								}
+							}
+						}
+						if (!isHit) {
+							for (const auto& w : tasks.GetTaskWorkData().GetNotFiR_Item()) {
+								if (w.GetID() == GetID()) {
+									isHit = true;
+									break;
+								}
+							}
+						}
+						if (isHit) {
+							continue;
+						}
+						if (tasks.GetIsUSECorBEAR()) {
+							for (const auto& w : tasks.GetTaskNeedData().GetItem()) {
+								if (w.GetID() == GetID()) {
+									if (count2 == 0) {
+										WindowSystem::SetMsg(xp + xofsBuf, yp + yofsBuf, xp + xofsBuf, yp + LineHeight + yofsBuf, LineHeight, STRX_LEFT, White, Black, "タスクに必要:"); yofsBuf += LineHeight + y_r(5);
 									}
+									if (count > 1 && (count / 2) <= count2) {
+										xofsBuf = y_r(600) + y_r(10);
+										yofs = std::max(yofs, yofsBuf);
+										yofsBuf = OLDyofs + LineHeight + y_r(5);
+									}
+									tasks.Draw(xp + xofsBuf, yp + yofsBuf, y_r(600) - y_r(10) * 2, LineHeight, w.GetValue(), !WindowMngr->PosHitCheck(window)); yofsBuf += LineHeight + y_r(5);
+									count2++;
+									break;
 								}
 							}
 						}
@@ -368,8 +412,7 @@ namespace FPS_n2 {
 									isFirst = false;
 									xofs = std::max(xofs, WindowSystem::SetMsg(xp + y_r(10), yp + yofs, xp + y_r(10), yp + LineHeight + yofs, LineHeight, STRX_LEFT, White, Black,"ハイドアウト開放:")); yofs += LineHeight + y_r(5);
 								}
-								L.Draw(xp + y_r(10), yp + yofs, y_r(600) - y_r(10) * 2, LineHeight, (int)(&Ld - &L.GetLvData().front()) + 1, defaultcolor, !WindowMngr->PosHitCheck(window));
-								WindowSystem::SetMsg(xp + y_r(600), yp + yofs, xp + y_r(600), yp + yofs + LineHeight, LineHeight, STRX_LEFT, White, Black, " x%d", w.GetValue());
+								L.Draw(xp + y_r(10), yp + yofs, y_r(600) - y_r(10) * 2, LineHeight, (int)(&Ld - &L.GetLvData().front()) + 1, defaultcolor, !WindowMngr->PosHitCheck(window), w.GetValue());
 								yofs += LineHeight + y_r(5);
 								break;
 							}

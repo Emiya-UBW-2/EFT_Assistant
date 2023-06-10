@@ -15,7 +15,6 @@ namespace FPS_n2 {
 		void LateExecute_Sub(int*, int*, float*) noexcept override {
 		}
 		void Draw_Back_Sub(int, int, float) noexcept override {
-			auto* WindowMngr = WindowSystem::WindowManager::Instance();
 			//
 			{
 				int xp = y_r(10);
@@ -63,32 +62,7 @@ namespace FPS_n2 {
 									DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255 - std::clamp(255 * (yp1 - (ypMax - ysizeAdd)) / ysizeAdd, 0, 255));
 								}
 							}
-							{
-								for (const auto& I : Bar.m_ItemReq) {
-									auto* ptr2 = DataBase::Instance()->GetItemData()->FindPtr(I.GetID());
-									if (ptr2) {
-										int xstart = xp + xofs_buf;
-										xofs_buf += ptr2->Draw(xp + xofs_buf, yp1, y_r(200), ysize, I.GetValue(), Gray25, !WindowMngr->PosHitCheck(nullptr), false, false, true);
-										DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xstart, yp1, xp + xofs_buf, yp1 + ysize, Gray75, false);
-									}
-								}
-							}
-							{
-								xofs_buf = std::max(xofs_buf, y_r(10) + ysize * 16);
-								xofs_buf += WindowSystem::SetMsg(xp + xofs_buf, yp1, xp + 0, yp1 + ysize, LineHeight * 9 / 10, STRX_LEFT, White, Black,
-									"->");
-								xofs_buf += y_r(30);
-							}
-							{
-								for (const auto& I : Bar.m_ItemReward) {
-									auto* ptr2 = DataBase::Instance()->GetItemData()->FindPtr(I.GetID());
-									if (ptr2) {
-										int xstart = xp + xofs_buf;
-										xofs_buf += ptr2->Draw(xp + xofs_buf, yp1, y_r(200), ysize, I.GetValue(), Gray25, !WindowMngr->PosHitCheck(nullptr), false, false, true);
-										DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xstart, yp1, xp + xofs_buf, yp1 + ysize, Gray75, false);
-									}
-								}
-							}
+							ptr->DrawBarter(nullptr, Gray15, xp + xofs_buf, yp1, ysize, m_LLSelect + 1, (int)(&Bar - &ptr->GetLvData().at(m_LLSelect).m_ItemBarters.front()), false, true, 0);
 						}
 						yofs += ysizeAdd;
 						yp1 += ysizeAdd;

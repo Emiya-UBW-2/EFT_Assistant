@@ -145,14 +145,28 @@ namespace FPS_n2 {
 				m_TaskRect.clear();
 			}
 		}
+
+		void DrawTab(int xp, int yp, std::string_view Info) noexcept {
+			xp -= y_r(64 + 4);
+			auto size = WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_RIGHT, White, Black, Info);
+			DrawControl::Instance()->SetDrawLine(DrawLayer::Normal, xp - size, yp + LineHeight, xp + y_r(64), yp + LineHeight, Gray25, y_r(4));
+		}
+		void DrawCheckBox(int xp, int yp, std::string_view Info, bool* Check) noexcept {
+			xp -= y_r(64 + 4);
+			auto OLD = *Check;
+			WindowSystem::CheckBox(xp, yp, Check);
+			WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_RIGHT, White, Black, Info);
+			if (OLD != *Check) {
+				//m_IsListChange = true;
+			}
+		}
 	private:
 		void Init_Sub(int *posx, int *posy, float* Scale) noexcept override {
 			*Scale = 0.3f;
-			int xs = (int)((float)y_r(800) * *Scale);
-			int ys = (int)((float)LineHeight * 2 * *Scale);
 
-			*posx = y_r(1920 / 2) - xs / 2;
-			*posy = LineHeight + y_r(1080 / 2) - ys / 2;
+			*posx = y_r(20);
+			*posy = LineHeight + y_r(120);
+
 			m_Mode = EnumTaskDrawMode::Normal;
 
 			m_DrawClearTask = true;
@@ -163,11 +177,9 @@ namespace FPS_n2 {
 		void LateExecute_Sub(int*posx, int*posy, float*Scale) noexcept override {
 			if (m_Mode == EnumTaskDrawMode::List) {
 				*Scale = 0.3f;
-				int xs = (int)((float)y_r(800) * *Scale);
-				int ys = (int)((float)LineHeight * 2 * *Scale);
 
-				*posx = y_r(1920 / 2) - xs / 2;
-				*posy = LineHeight + y_r(1080 / 2) - ys / 2;
+				*posx = y_r(20);
+				*posy = LineHeight + y_r(120);
 			}
 		}
 		void Draw_Back_Sub(int posx, int posy, float Scale) noexcept override {
@@ -317,7 +329,7 @@ namespace FPS_n2 {
 					int ypBase = ypos - (int)m_YNow;
 					int xp = xpBase;
 					int yp = ypBase;
-					int ypMax = (y_r(1080) - y_r(200));
+					int ypMax = (y_r(1080) - y_r(40));
 					int xsize = y_r(1200);
 					int ysize = LineHeight;
 					int xsizeAdd = xsize + y_r(30);
@@ -409,47 +421,6 @@ namespace FPS_n2 {
 						(m_Mode == (EnumTaskDrawMode)i) ? Green : Gray25);
 				}
 			}
-			//ライトキーパーに必要か
-			{
-				auto tmp = PlayerData::Instance()->GetIsNeedLightKeeper();
-				int xp = y_r(48);
-				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(42) - y_r(42);
-				WindowSystem::CheckBox(xp, yp, &tmp);
-				WindowSystem::SetMsg(xp + y_r(64), yp, xp + y_r(64), yp + LineHeight, LineHeight, STRX_LEFT, White, Black, "ライトキーパー開放までに絞る");
-				if (tmp) {
-					PlayerData::Instance()->SetIsNeedKappa(false);
-				}
-				PlayerData::Instance()->SetIsNeedLightKeeper(tmp);
-			}
-			//カッパに必要か
-			{
-				auto tmp = PlayerData::Instance()->GetIsNeedKappa();
-				int xp = y_r(48);
-				int yp = y_r(1080) - y_r(48) - y_r(5) - y_r(42);
-				WindowSystem::CheckBox(xp, yp, &tmp);
-				WindowSystem::SetMsg(xp + y_r(64), yp, xp + y_r(64), yp + LineHeight, LineHeight, STRX_LEFT, White, Black, "カッパー開放までに絞る");
-				if (tmp) {
-					PlayerData::Instance()->SetIsNeedLightKeeper(false);
-				}
-				PlayerData::Instance()->SetIsNeedKappa(tmp);
-			}
-			//レベル操作
-			{
-				int xp = y_r(5);
-				int yp = y_r(1080) - y_r(48) - y_r(5);
-				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(100), yp + y_r(48), true, !WindowMngr->PosHitCheck(nullptr), Red, "DOWN")) {
-					PlayerData::Instance()->SetMaxLevel(PlayerData::Instance()->GetMaxLevel() - 1);
-				}
-				xp += y_r(105);
-				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(100), yp + y_r(48), true, !WindowMngr->PosHitCheck(nullptr), Green, "UP")) {
-					PlayerData::Instance()->SetMaxLevel(PlayerData::Instance()->GetMaxLevel() + 1);
-				}
-				PlayerData::Instance()->SetMaxLevel(std::clamp(PlayerData::Instance()->GetMaxLevel(), 1, 71));
-				xp += y_r(105);
-				WindowSystem::SetMsg(xp, yp + y_r(12), xp, yp + y_r(12) + y_r(36), y_r(36), STRX_LEFT, White, Black, "MaxLevel");
-				xp += y_r(250);
-				WindowSystem::SetMsg(xp, yp, xp, yp + y_r(48), y_r(48), STRX_RIGHT, White, Black, "%d", PlayerData::Instance()->GetMaxLevel());
-			}
 			//
 			if (m_Mode == EnumTaskDrawMode::Tree) {
 				//場所ガイド
@@ -487,26 +458,20 @@ namespace FPS_n2 {
 			}
 			//
 			if (m_Mode == EnumTaskDrawMode::List) {
-				//
+				int xp = y_r(1920) - y_r(16);
+				int yp = y_r(1080) - y_r(110) - y_r(40) * 4;
+				//背景
 				{
-					int xp = y_r(1300);
-					int yp = y_r(540) + y_r(42) * 0;
-					WindowSystem::CheckBox(xp, yp, &m_DrawClearTask);
-					WindowSystem::SetMsg(xp + y_r(64), yp, xp + y_r(64), yp + LineHeight, LineHeight, STRX_LEFT, White, Black, "クリア済のタスクを表示");
+					DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 32);
+					DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xp - y_r(340), yp, xp + y_r(5), yp + y_r(40) * 4 + y_r(5), Black, true);
+					DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255);
 				}
 				//
 				{
-					int xp = y_r(1300);
-					int yp = y_r(540) + y_r(42) * 1;
-					WindowSystem::CheckBox(xp, yp, &m_DrawNotClearTask);
-					WindowSystem::SetMsg(xp + y_r(64), yp, xp + y_r(64), yp + LineHeight, LineHeight, STRX_LEFT, White, Black, "未クリアのタスクを表示");
-				}
-				//
-				{
-					int xp = y_r(1300);
-					int yp = y_r(540) + y_r(42) * 2;
-					WindowSystem::CheckBox(xp, yp, &m_DrawCanClearTask);
-					WindowSystem::SetMsg(xp + y_r(64), yp, xp + y_r(64), yp + LineHeight, LineHeight, STRX_LEFT, White, Black, "クリア可能タスクだけを表示");
+					DrawTab(xp, yp, "タスクを表示:"); yp += y_r(40);
+					DrawCheckBox(xp, yp, "クリア済", &m_DrawClearTask); yp += y_r(40);
+					DrawCheckBox(xp, yp, "未クリア", &m_DrawNotClearTask); yp += y_r(40);
+					DrawCheckBox(xp, yp, "クリア可能", &m_DrawCanClearTask); yp += y_r(40);
 				}
 			}
 		}

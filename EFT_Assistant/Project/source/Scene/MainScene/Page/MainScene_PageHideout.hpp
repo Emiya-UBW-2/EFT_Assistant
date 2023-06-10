@@ -105,7 +105,7 @@ namespace FPS_n2 {
 					PlayerData::Instance()->OnOffHideoutClear(L.GetName().c_str(), MyLv);
 				}
 			}
-			L.Draw(xpos, *ypos, xsize, ysize, MyLv, color, !Input->GetSpaceKey().press() && !WindowMngr->PosHitCheck(nullptr));
+			L.Draw(xpos, *ypos, xsize, ysize, MyLv, color, !Input->GetSpaceKey().press() && !WindowMngr->PosHitCheck(nullptr), 0);
 			if (PlayerData::Instance()->GetHideoutClear(L.GetName().c_str(), MyLv)) {
 				DrawControl::Instance()->SetDrawRotaFiR(DrawLayer::Normal, xpos + xsize / 2, *ypos + ysize / 2, 1.f, 0.f, true);
 			}

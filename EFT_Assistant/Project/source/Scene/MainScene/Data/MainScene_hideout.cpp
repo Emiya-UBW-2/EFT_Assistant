@@ -222,7 +222,7 @@ namespace FPS_n2 {
 		SetOtherPartsID();
 	}
 
-	const int		HideoutList::Draw(int xp, int yp, int xsize, int ysize, int Lv, unsigned int defaultcolor, bool Clickactive) noexcept {
+	const int		HideoutList::Draw(int xp, int yp, int xsize, int ysize, int Lv, unsigned int defaultcolor, bool Clickactive, int count) noexcept {
 		auto& LvData = m_LvData.at(Lv - 1);
 		auto* WindowMngr = WindowSystem::WindowManager::Instance();
 		auto* Input = InputControl::Instance();
@@ -238,19 +238,21 @@ namespace FPS_n2 {
 		bool IsLocked = false;// PlayerData::Instance()->GetHideoutLock(this->GetIDstr().c_str());
 		int FirSize = (IsLocked) ? 36 : 0;
 		xg += FirSize;
-		auto Name = this->GetShortName();
+		std::string Name = this->GetShortName();
+		std::string AfterName = "";
+		if (Lv > 0) {
+			AfterName += " Lv" + std::to_string(Lv);
+		}
+		if (count > 0) {
+			AfterName += " x" + std::to_string(count);
+		}
 		{
 			if (xsize > 0) {
 				int Lvbuf = 0;
 				while (true) {
-					if (Lv > 0) {
-						Xsize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, Name + " Lv%1d", Lv);
-					}
-					else {
-						Xsize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, Name);
-					}
+					Xsize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, Name + AfterName);
 					if ((xs - xg) < Xsize) {
-						Name = Name.substr(0, (size_t)((int)(Name.size()) * (xs - xg) / Xsize - 2)) + "c";
+						Name = Name.substr(0, (size_t)((int)(Name.size()) * (xs - xg) / Xsize - AfterName.length())) + "c";
 					}
 					else {
 						break;
@@ -264,12 +266,7 @@ namespace FPS_n2 {
 				}
 			}
 			else {
-				if (Lv > 0) {
-					Xsize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, Name + " Lv%1d", Lv);
-				}
-				else {
-					Xsize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, Name);
-				}
+				Xsize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, Name + AfterName, Lv);
 			}
 			xs = std::max(xs, Xsize);
 		}
@@ -280,7 +277,7 @@ namespace FPS_n2 {
 
 
 		if (WindowSystem::ClickCheckBox(xp, yp, xp + xs, yp + ysize, false, Clickactive, defaultcolor, "")) {
-			auto sizeXBuf = y_r(800);
+			auto sizeXBuf = y_r(0);
 			auto sizeYBuf = y_r(0);
 
 			if (Input->GetCtrlKey().press()) {
@@ -383,7 +380,7 @@ namespace FPS_n2 {
 						if (ptr) {
 							xofs_buf = xofs + y_r(10);
 							int xstart = xp + xofs_buf;
-							xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs_buf, y_r(300), ysize, I.GetValue(), defaultcolor, !WindowMngr->PosHitCheck(window));
+							xofs_buf += ptr->Draw(xp + xofs_buf, yp + yofs_buf, y_r(300), ysize, I.GetValue(), defaultcolor, !WindowMngr->PosHitCheck(window), 0);
 							DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xstart, yp + yofs_buf, xp + xofs_buf, yp + yofs_buf + ysize, Gray75, false);
 							yofs_buf += ysize + y_r(5);
 						}
@@ -447,6 +444,9 @@ namespace FPS_n2 {
 	}
 	void			HideoutList::DrawCraftWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int Lv, int xp, int yp, int *xs, int* ys, int size) noexcept {
 		int xofs = 0;
+		if (xs) {
+			*xs = xofs;
+		}
 		int yofsOLD = LineHeight;
 		int yofs = yofsOLD;
 		yofs += LineHeight;
@@ -457,8 +457,7 @@ namespace FPS_n2 {
 				int Max = (int)(LvData.m_ItemCraft.size());
 				int ofset = (window) ? (int)(window->GetNowScrollPer()*std::max(0, Max - 10 + 1)) : 0;
 				for (int loop = 0; loop < std::min(size, Max - ofset); loop++) {
-					int index = loop + ofset;
-					xofs = std::max(xofs, DrawCraft(window, defaultcolor, xp, yp + yofs + (ysize + y_r(5)) * loop, ysize, Lv, index, false, true, 0) + y_r(10));
+					xofs = std::max(xofs, DrawCraft(window, defaultcolor, xp, yp + yofs + (ysize + y_r(5)) * loop, ysize, Lv, loop + ofset, false, true, 0) + y_r(10));
 				}
 				yofs += (ysize + y_r(5)) * 10;
 			}
@@ -520,9 +519,9 @@ namespace FPS_n2 {
 				xofsbuf += ptr->Draw(xp + xofsbuf, yp + yofsbuf, xsize2, ysize2, w.GetValue()*std::max(1, count), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true) + y_r(5);
 			}
 		}
-		xofsbuf = std::max(xofsbuf, xofsbuf2);
 		if (isdrawAfter) {
-			xofsbuf += WindowSystem::SetMsg(xp + xofsbuf, yp + yofsbuf, xp + 0, yp + yofsbuf + ysize2, ysize2, STRX_LEFT, White, Black, ">%01d:%02d:%02d>", (cf.durationTime / 60 / 60), (cf.durationTime / 60) % 60, cf.durationTime % 60) + y_r(30);
+			xofsbuf = std::max(xofsbuf, xsize2 * 10);
+			xofsbuf += WindowSystem::SetMsg(xp + xofsbuf, yp, xp + xofsbuf, yp + ysize, (ysize / 2 - y_r(3)), STRX_LEFT, White, Black, ">%01d:%02d:%02d>", (cf.durationTime / 60 / 60), (cf.durationTime / 60) % 60, cf.durationTime % 60) + y_r(30);
 			for (const auto& w : cf.m_ItemReward) {
 				auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(w.GetID());
 				if (ptr) {
@@ -530,6 +529,7 @@ namespace FPS_n2 {
 				}
 			}
 		}
+		xofsbuf = std::max(xofsbuf, xofsbuf2);
 		return xofsbuf;
 	}
 	//
