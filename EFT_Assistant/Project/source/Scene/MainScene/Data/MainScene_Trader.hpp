@@ -44,12 +44,12 @@ namespace FPS_n2 {
 				if (LEFTBuf == "BarteritemReq") {
 					data.m_ItemBarters.resize(data.m_ItemBarters.size() + 1);
 					for (auto&a : Args) {
-						SetGetData<ItemGetData>(&data.m_ItemBarters.back().m_ItemReq, a, "x");
+						SetGetData<ItemGetData>(&data.m_ItemBarters.back().m_ItemReq, a, "x", false);
 					}
 				}
 				if (LEFTBuf == "BarteritemReward") {
 					for (auto&a : Args) {
-						SetGetData<ItemGetData>(&data.m_ItemBarters.back().m_ItemReward, a, "x");
+						SetGetData<ItemGetData>(&data.m_ItemBarters.back().m_ItemReward, a, "x", false);
 					}
 				}
 			}

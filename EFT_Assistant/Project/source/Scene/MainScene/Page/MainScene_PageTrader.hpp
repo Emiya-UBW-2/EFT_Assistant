@@ -16,17 +16,11 @@ namespace FPS_n2 {
 		}
 		void Draw_Back_Sub(int, int, float) noexcept override {
 			//
-			{
-				int xp = y_r(10);
-				int yp = LineHeight + y_r(50);
-				MakeList<TraderList>(xp, yp, DataBase::Instance()->GetTraderData()->GetList(), "Trader", (int*)&m_EditTraderID, true, false, false, [&](const auto*) { return true; });
-			}
-			//
 			if (m_EditTraderID != InvalidID) {
 				auto* ptr = DataBase::Instance()->GetTraderData()->FindPtr(m_EditTraderID);
 				for (auto& LL : ptr->GetLvData()) {
 					int index = (int)(&LL - &ptr->GetLvData().front());
-					int xp = y_r(500) + (y_r(100) + y_r(10)) * index;
+					int xp = y_r(100) + (y_r(100) + y_r(10)) * index;
 					int yp = LineHeight + y_r(50);
 					if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(100), yp + LineHeight, false, true, (m_LLSelect == index) ? Gray15 : Gray50, "Lv%d", index + 1)) {
 						m_LLSelect = index;
@@ -34,7 +28,7 @@ namespace FPS_n2 {
 				}
 				m_LLSelect = std::min(m_LLSelect, (int)(ptr->GetLvData().size()) - 1);
 				{
-					int xp = y_r(460);
+					int xp = y_r(60);
 					int yp = LineHeight + y_r(50) + y_r(100);
 
 					int ysize = (y_r(48));
@@ -72,13 +66,19 @@ namespace FPS_n2 {
 					{
 						float Total = (float)yofs / (ypMax - ypMin);
 						if (Total > 1.f) {
-							m_Scroll.ScrollBox(xp, ypMin, y_r(1920) - y_r(100), ypMax, Total, true);
+							m_Scroll.ScrollBox(xp, ypMin, y_r(1920) - y_r(600), ypMax, Total, true);
 						}
 					}
 				}
 			}
 		}
 		void DrawFront_Sub(int, int, float) noexcept override {
+			//
+			{
+				int xp = y_r(1920 - 400 - 10);
+				int yp = LineHeight + y_r(50);
+				MakeList<TraderList>(xp, yp, DataBase::Instance()->GetTraderData()->GetList(), "Trader", (int*)&m_EditTraderID, true, false, false, [&](const auto*) { return true; });
+			}
 			//
 			{
 				int xp = y_r(10);

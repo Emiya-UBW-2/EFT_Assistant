@@ -169,17 +169,17 @@ namespace FPS_n2 {
 			if (LEFTBuf == "Information_Eng") { data.Information_Eng = Args[0]; }
 			if (LEFTBuf == "itemReq") {
 				for (auto&a : Args) {
-					SetGetData<ItemGetData>(&data.m_ItemReq, a, "x");
+					SetGetData<ItemGetData>(&data.m_ItemReq, a, "x", false);
 				}
 			}
 			if (LEFTBuf == "stationLevelReq") {
 				for (auto&a : Args) {
-					SetGetData<HideoutGetData>(&data.m_Parent, a, "x");
+					SetGetData<HideoutGetData>(&data.m_Parent, a, "x", false);
 				}
 			}
 			if (LEFTBuf == "traderRequirements") {
 				for (auto&a : Args) {
-					SetGetData<TraderGetData>(&data.m_TraderReq, a, "x");
+					SetGetData<TraderGetData>(&data.m_TraderReq, a, "x", false);
 				}
 			}
 			//クラフトレシピ
@@ -189,12 +189,12 @@ namespace FPS_n2 {
 			}
 			if (LEFTBuf == "craftitemReq") {
 				for (auto&a : Args) {
-					SetGetData<ItemGetData>(&data.m_ItemCraft.back().m_ItemReq, a, "x");
+					SetGetData<ItemGetData>(&data.m_ItemCraft.back().m_ItemReq, a, "x", false);
 				}
 			}
 			if (LEFTBuf == "craftitemReward") {
 				for (auto&a : Args) {
-					SetGetData<ItemGetData>(&data.m_ItemCraft.back().m_ItemReward, a, "x");
+					SetGetData<ItemGetData>(&data.m_ItemCraft.back().m_ItemReward, a, "x", false);
 				}
 			}
 		}

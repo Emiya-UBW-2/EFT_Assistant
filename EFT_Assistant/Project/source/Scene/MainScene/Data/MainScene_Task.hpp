@@ -42,7 +42,7 @@ namespace FPS_n2 {
 				}
 				else if (LEFT == "NeedItem") {
 					for (auto&a : Args) {
-						SetGetData<ItemGetData>(&this->m_Item, a, "x");
+						SetGetData<ItemGetData>(&this->m_Item, a, "x", false);
 					}
 				}
 				else if (LEFT == "NeedKappa") {
@@ -127,12 +127,12 @@ namespace FPS_n2 {
 		public:
 			void		Set(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
 				if (LEFT == "Reward_Rep") {
-					SetGetData(&this->m_LLAdd, Args[0], "+");
-					SetGetData(&this->m_LLAdd, Args[0], "-");
+					SetGetData(&this->m_LLAdd, Args[0], "+", false);
+					SetGetData(&this->m_LLAdd, Args[0], "-", false);
 				}
 				else if (LEFT == "Reward_Item") {
 					for (auto&a : Args) {
-						SetGetData<ItemGetData>(&this->m_Item, a, "x");
+						SetGetData<ItemGetData>(&this->m_Item, a, "x", false);
 					}
 				}
 			}

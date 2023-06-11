@@ -268,7 +268,7 @@ namespace FPS_n2 {
 				if (LEFT == "IsDefault") { m_IntParams[0] = (Args[0] == "TRUE") ? 1 : 0; }
 				else if (LEFT == "containsItems") {
 					for (auto&a : Args) {
-						SetGetData<ItemGetData>(&m_ContainsItemID, a, "x");
+						SetGetData<ItemGetData>(&m_ContainsItemID, a, "x", false);
 					}
 				}
 			}

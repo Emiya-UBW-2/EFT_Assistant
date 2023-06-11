@@ -41,6 +41,20 @@ namespace FPS_n2 {
 		};
 		std::vector<std::vector<counts>> Counter;
 	private:
+		void AddItemList(std::vector<counts>* Types,ItemID ID,int value,bool isFiR, bool isNeed) noexcept {
+			auto Find = std::find_if(Types->begin(), Types->end(), [&](const counts& obj) {return (obj.m_ID == ID) && (obj.isFir == isFiR) && (obj.isNeed == isNeed); });
+			if (Find != Types->end()) {
+				Find->count += value;
+			}
+			else {
+				counts tmp;
+				tmp.m_ID = ID;
+				tmp.count = value;
+				tmp.isFir = isFiR;
+				tmp.isNeed = isNeed;
+				Types->emplace_back(tmp);
+			}
+		}
 		void SetItemList() noexcept {
 			Counter.resize(DataBase::Instance()->GetItemTypeData()->GetList().size());
 			for (auto& Types : Counter) {
@@ -67,64 +81,42 @@ namespace FPS_n2 {
 				}
 				if (m_Mode != EnumListDrawMode::Hideout) {
 					for (const auto& w : tasks.GetTaskWorkData().GetFiR_Item()) {
-						auto ID = w.GetID();
-						auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(ID);
+						auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(w.GetID());
 						if (ptr) {
-							auto& Types = Counter.at(ptr->GetTypeID());
-							auto Find = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == ID) && (obj.isFir); });
-							if (Find != Types.end()) {
-								Find->count += w.GetValue();
-							}
-							else {
-								counts tmp;
-								tmp.m_ID = ID;
-								tmp.count = w.GetValue();
-								tmp.isFir = true;
-								tmp.isNeed = false;
-								Types.emplace_back(tmp);
-							}
+							AddItemList(&Counter.at(ptr->GetTypeID()), w.GetID(), w.GetValue(), true, false);
 						}
 					}
 					for (const auto& w : tasks.GetTaskWorkData().GetNotFiR_Item()) {
-						auto ID = w.GetID();
-						auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(ID);
+						auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(w.GetID());
 						if (ptr) {
-							auto& Types = Counter.at(ptr->GetTypeID());
-							auto Find = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == ID) && (!obj.isFir); });
-							if (Find != Types.end()) {
-								Find->count += w.GetValue();
-							}
-							else {
-								counts tmp;
-								tmp.m_ID = ID;
-								tmp.count = w.GetValue();
-								tmp.isFir = false;
-								tmp.isNeed = false;
-								Types.emplace_back(tmp);
-							}
+							AddItemList(&Counter.at(ptr->GetTypeID()), w.GetID(), w.GetValue(), false, false);
 						}
 					}
-					for (const auto& w : tasks.GetTaskNeedData().GetItem()) {
-						auto ID = w.GetID();
-						auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(ID);
-						if (ptr) {
-							if (m_IsNeedItem) {
-								auto& Types = Counter.at(ptr->GetTypeID());
-								auto Find = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == ID) && (obj.isNeed); });
-								if (Find != Types.end()) {
-									Find->count += w.GetValue();
-								}
-								else {
-									auto Find2 = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == ID) && (!obj.isNeed); });
-									if (Find2 == Types.end()) {
-										counts tmp;
-										tmp.m_ID = ID;
-										tmp.count = w.GetValue();
-										tmp.isFir = false;
-										tmp.isNeed = true;
-										Types.emplace_back(tmp);
+					if (m_IsNeedItem) {
+						for (const auto& w : tasks.GetTaskNeedData().GetItem()) {
+							bool isHit = false;
+							if (!isHit) {
+								for (const auto& w2 : tasks.GetTaskWorkData().GetFiR_Item()) {
+									if (w2.GetID() == w.GetID()) {
+										isHit = true;
+										break;
 									}
 								}
+							}
+							if (!isHit) {
+								for (const auto& w2 : tasks.GetTaskWorkData().GetNotFiR_Item()) {
+									if (w2.GetID() == w.GetID()) {
+										isHit = true;
+										break;
+									}
+								}
+							}
+							if (isHit) {
+								continue;
+							}
+							auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(w.GetID());
+							if (ptr) {
+								AddItemList(&Counter.at(ptr->GetTypeID()), w.GetID(), w.GetValue(), false, false);
 							}
 						}
 					}
@@ -150,22 +142,9 @@ namespace FPS_n2 {
 					}
 					if (m_Mode != EnumListDrawMode::Task) {
 						for (const auto& w : Ld.m_ItemReq) {
-							auto ID = w.GetID();
-							auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(ID);
+							auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(w.GetID());
 							if (ptr) {
-								auto& Types = Counter.at(ptr->GetTypeID());
-								auto Find = std::find_if(Types.begin(), Types.end(), [&](const counts& obj) {return (obj.m_ID == ID) && (!obj.isFir) && (!obj.isNeed); });
-								if (Find != Types.end()) {
-									Find->count += w.GetValue();
-								}
-								else {
-									counts tmp;
-									tmp.m_ID = ID;
-									tmp.count = w.GetValue();
-									tmp.isFir = false;
-									tmp.isNeed = true;
-									Types.emplace_back(tmp);
-								}
+								AddItemList(&Counter.at(ptr->GetTypeID()), w.GetID(), w.GetValue(), false, false);
 							}
 						}
 					}
@@ -238,14 +217,9 @@ namespace FPS_n2 {
 				for (auto& Types : Counter) {
 					Types.clear();
 				}
-				for (auto& H : HitIDs) {
-					auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(H);
-					counts tmp;
-					tmp.m_ID = H;
-					tmp.count = 1;
-					tmp.isFir = false;
-					tmp.isNeed = false;
-					Counter.at(ptr->GetTypeID()).emplace_back(tmp);
+				for (auto& ID : HitIDs) {
+					auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(1);
+					AddItemList(&Counter.at(ptr->GetTypeID()), ID, 1, false, false);
 				}
 			}
 		}

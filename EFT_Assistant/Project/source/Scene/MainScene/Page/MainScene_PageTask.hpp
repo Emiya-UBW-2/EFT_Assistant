@@ -395,7 +395,6 @@ namespace FPS_n2 {
 			}
 		}
 		void DrawFront_Sub(int posx, int posy, float) noexcept override {
-			auto* WindowMngr = WindowSystem::WindowManager::Instance();
 			auto* DrawParts = DXDraw::Instance();
 			auto* Input = InputControl::Instance();
 			//–ß‚é

@@ -588,7 +588,19 @@ namespace FPS_n2 {
 				if (L.GetIDstr() == jd->m_id) {
 					//Šù‘¶‚Ì‚à‚Ì‚ğ•Û‚µ‚Ä‚¨‚­
 					std::ofstream outputfile(L.GetFilePath(), std::ios::app);
-					for (auto& m : L.GetMapID()) {
+					auto size = L.GetMapID().size();
+					for (size_t loop = 0; loop < size; loop++) {
+						auto& m = L.GetMapID().at(loop);
+
+						bool isHit = false;
+						for (size_t loop2 = loop + 1; loop2 < size; loop2++) {
+							auto& m2 = L.GetMapID().at(loop2);
+							if (m.GetID() == m2.GetID()) {
+								isHit = true;
+								break;
+							}
+						}
+						if (isHit) { continue; }
 						auto* ptr = DataBase::Instance()->GetMapData()->FindPtr(m.GetID());
 						if (ptr) {
 							outputfile << "Map=" + ptr->GetName() + "\n";

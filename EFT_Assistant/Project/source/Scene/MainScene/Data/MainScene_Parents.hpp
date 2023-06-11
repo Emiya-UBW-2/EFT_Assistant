@@ -283,14 +283,15 @@ namespace FPS_n2 {
 
 	//•¶š—ñ(—á)"AAAx1"‚©‚çAAA‚Æ1‚ğ•ª—£‚µ‚Äƒf[ƒ^‚ÉŠi”[
 	template <class GetDataParentT>
-	void			SetGetData(std::vector<GetDataParentT>* Data, const std::string& Arg, const char* DivStr) noexcept {
+	void			SetGetData(std::vector<GetDataParentT>* Data, const std::string& Arg, const char* DivStr, bool CheckSameName) noexcept {
 		auto L = Arg.rfind(DivStr);
 		if (L != std::string::npos) {
 			auto id = Arg.substr(0, L);
-			if (std::find_if(Data->begin(), Data->end(), [&](const auto& obj) { return obj.GetName() == id; }) == Data->end()) {
-				Data->resize(Data->size() + 1);
-				Data->back().Set(id, std::stoi(Arg.substr(L + strlenDx(DivStr))));
+			if (CheckSameName && (std::find_if(Data->begin(), Data->end(), [&](const auto& obj) { return obj.GetName() == id; }) != Data->end())) {
+				return;
 			}
+			Data->resize(Data->size() + 1);
+			Data->back().Set(id, std::stoi(Arg.substr(L + strlenDx(DivStr))));
 		}
 	};
 

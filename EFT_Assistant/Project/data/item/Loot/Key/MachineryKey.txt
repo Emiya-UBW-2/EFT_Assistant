@@ -12,6 +12,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=1
 Map=Customs
-Map=Customs
 Name_Jpn=特殊車両の鍵
 Information_Jpn=タンクローリー、トラクター、舗装工事用の重機など特殊車両のものと思われる鍵。

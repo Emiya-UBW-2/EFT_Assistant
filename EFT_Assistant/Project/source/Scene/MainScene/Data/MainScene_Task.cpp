@@ -28,12 +28,12 @@ namespace FPS_n2 {
 		}
 		else if (LEFT == "Task_FiR_HandOver") {
 			for (auto&a : Args) {
-				SetGetData<ItemGetData>(&this->m_FiR_Item, a, "x");
+				SetGetData<ItemGetData>(&this->m_FiR_Item, a, "x", false);
 			}
 		}
 		else if (LEFT == "Task_NotFiR_HandOver") {
 			for (auto&a : Args) {
-				SetGetData<ItemGetData>(&this->m_NotFiR_Item, a, "x");
+				SetGetData<ItemGetData>(&this->m_NotFiR_Item, a, "x", false);
 			}
 		}
 		else if (LEFT == "Task_WeaponPreset_HandOver") {
@@ -108,6 +108,14 @@ namespace FPS_n2 {
 			a.m_MapID = DataBase::Instance()->GetMapData()->FindID(a.m_MapArg);
 		}
 		for (auto& a : this->m_MapArgs) {
+			bool isHit = false;
+			for (auto& p : this->m_Map) {
+				if (DataBase::Instance()->GetMapData()->FindPtr(p)->GetName() == a) {
+					isHit = true;
+					break;
+				}
+			}
+			if (isHit) { continue; }
 			this->m_Map.emplace_back(DataBase::Instance()->GetMapData()->FindID(a));
 		}
 	}

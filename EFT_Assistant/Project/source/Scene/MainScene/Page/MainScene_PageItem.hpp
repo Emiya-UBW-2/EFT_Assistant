@@ -269,7 +269,7 @@ namespace FPS_n2 {
 				int xp = y_r(1910) - LineHeight * 3;
 				int yp = y_r(900);
 				WindowSystem::CheckBox(xp, yp, &m_RaidMode);
-				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_RIGHT, White, Black, "レイドモード(ルート品のみ)");
+				WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_RIGHT, White, Black, "売却価格モード");
 				yp += LineHeight + y_r(6);
 			}
 			//検索
