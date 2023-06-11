@@ -14,7 +14,7 @@ namespace FPS_n2 {
 			const auto			GetPtrIsParentSlot(const ItemList* parentptr, int parentslot) const noexcept { return (this->m_ParentPtr == parentptr) && (this->m_ParentSlot == parentslot); }
 			const auto			GetIsSelected(int parentslot = -1) const noexcept {
 				if ((parentslot == -1) || ((parentslot != -1) && GetPtrIsParentSlot(this->m_ParentPtr, parentslot))) {
-					return (this->ChildSel < (int)(GetMySlotData().m_Data.size()));
+					return (this->ChildSel < (int)(GetMySlotData().GetData().size()));
 				}
 				return false;
 			}
@@ -22,7 +22,7 @@ namespace FPS_n2 {
 				if (this->m_PartsOn == InvalidID) {
 					if (GetIsSelected()) {
 						this->m_PartsOn = this->ChildSel;
-						this->ChildSel = (int)(GetMySlotData().m_Data.size());
+						this->ChildSel = (int)(GetMySlotData().GetData().size());
 					}
 					else {
 						this->ChildSel = 0;
@@ -31,7 +31,7 @@ namespace FPS_n2 {
 				else {
 					bool IsHit = false;
 					int  Now = 0;
-					for (const auto& cID2 : GetMySlotData().m_Data) {
+					for (const auto& cID2 : GetMySlotData().GetData()) {
 						if (PlayerData::Instance()->GetItemLock(DataBase::Instance()->GetItemData()->FindPtr(cID2.GetID())->GetIDstr().c_str())) {
 							IsHit = true;
 							break;
@@ -44,19 +44,19 @@ namespace FPS_n2 {
 			}
 			void				AddSelect() noexcept {
 				this->m_PartsOn = InvalidID;
-				++this->ChildSel %= (GetMySlotData().m_Data.size() + 1);
+				++this->ChildSel %= (GetMySlotData().GetData().size() + 1);
 			}
 			void				SubSelect() noexcept {
 				this->m_PartsOn = InvalidID;
 				--this->ChildSel;
 				if (this->ChildSel < 0) {
-					this->ChildSel = (int)(GetMySlotData().m_Data.size());
+					this->ChildSel = (int)(GetMySlotData().GetData().size());
 				}
 			}
 			const ItemList*		GetChildPtr(int parentslot = -1) const noexcept {
 				if ((parentslot == -1) || ((parentslot != -1) && GetPtrIsParentSlot(this->m_ParentPtr, parentslot))) {
 					if (GetIsSelected(parentslot)) {
-						return DataBase::Instance()->GetItemData()->FindPtr(this->GetMySlotData().m_Data.at(this->ChildSel).GetID());
+						return DataBase::Instance()->GetItemData()->FindPtr(this->GetMySlotData().GetData().at(this->ChildSel).GetID());
 					}
 				}
 				return nullptr;
@@ -142,19 +142,6 @@ namespace FPS_n2 {
 		bool									m_PartsChange{ true };
 	private:
 		//
-		std::vector<std::pair<int, bool>>		m_ItemIDs;
-		float									m_XChild{ 0.f };
-		void MakeLists(int Layer, bool AndNext, const std::function<void(std::pair<int, bool>*)>& ListSet) noexcept {
-			auto& NowSel = this->m_ItemIDs.at(Layer);
-			NowSel.second = ((NowSel.first != InvalidID) && AndNext);
-			if (Layer == 0 || (Layer >= 1 && this->m_ItemIDs.at(Layer - 1).second)) {
-				ListSet(&NowSel);
-			}
-			else {
-				NowSel.first = InvalidID;
-			}
-		}
-		//
 		void AddPartsSeek(int i) noexcept {
 			if (i >= 0) {
 				m_PartsSeek[i]++;
@@ -188,10 +175,10 @@ namespace FPS_n2 {
 					int ChildSel = -1;
 					for (const auto& P : Preset.GetParts()) {
 						bool IsHit2 = false;
-						for (auto& cptr : c.m_Data) {
+						for (auto& cptr : c.GetData()) {
 							if (P == DataBase::Instance()->GetItemData()->FindPtr(cptr.GetID())) {
 								IsHit2 = true;
-								ChildSel = (int)(&cptr - &c.m_Data.front());
+								ChildSel = (int)(&cptr - &c.GetData().front());
 								break;
 							}
 						}

@@ -4,49 +4,36 @@
 namespace FPS_n2 {
 	class ItemBG :public BGParent {
 	private:
-		std::vector<std::pair<int, bool>>	m_ItemIDs;
 		ItemTypeID						m_ItemTypeSel{ InvalidID };
 		MapID							m_MapTypeSel{ InvalidID };
 		WindowSystem::ScrollBoxClass	m_Scroll;
 		float							m_YNow{ 0.f };
-		float							m_XChild{ 0.f };
 		bool							m_RaidMode{ false };
 
 		std::vector<const ItemList*>	Items;
 		bool							m_TraderSort{ false };
 		bool							m_ValueSort{ false };
 		bool							m_ValuePerSort{ false };
-	private:
-		void MakeLists(int Layer, bool AndNext, const std::function<void(std::pair<int, bool>*)>& ListSet) noexcept {
-			auto& NowSel = this->m_ItemIDs.at(Layer);
-			NowSel.second = ((NowSel.first != InvalidID) && AndNext);
-			if (Layer == 0 || (Layer >= 1 && this->m_ItemIDs.at(Layer - 1).second)) {
-				ListSet(&NowSel);
-			}
-			else {
-				NowSel.first = InvalidID;
-			}
-		}
+
+		bool							m_Search{ false };
+		std::string						m_SearchWord;
 	private:
 		void Init_Sub(int *, int *, float*) noexcept override {
-			m_XChild = 0.f;
-			m_ItemIDs.clear();
-			m_ItemIDs.emplace_back(std::make_pair<int, bool>((int)InvalidID, false));
-			m_ItemIDs.emplace_back(std::make_pair<int, bool>((int)InvalidID, false));
-			m_ItemIDs.emplace_back(std::make_pair<int, bool>((int)InvalidID, false));
-
-			m_RaidMode = false;
-
 			Items.clear();
 			for (auto& L : DataBase::Instance()->GetItemData()->GetList()) {//todo
 				Items.emplace_back(&L);
 			}
+			//
+			m_RaidMode = false;
 			m_TraderSort = true;
 			m_ValueSort = true;
 			m_ValuePerSort = true;
+			//
+			InitLists(3, y_r(1920 - 10) - y_r(400), LineHeight + y_r(5), y_r(400));
+
+			m_SearchWord = "";
 		}
-		void LateExecute_Sub(int*, int*, float*) noexcept override {
-		}
+		void LateExecute_Sub(int*, int*, float*) noexcept override {}
 		void Draw_Back_Sub(int, int, float) noexcept override {
 			auto* WindowMngr = WindowSystem::WindowManager::Instance();
 			auto* DrawParts = DXDraw::Instance();
@@ -134,10 +121,10 @@ namespace FPS_n2 {
 				}
 			}
 			for (auto& L : Items) {//todo
-				if (m_ItemIDs[1].first == InvalidID) {
+				if (ListsSel(1) == InvalidID) {
 					bool isHit = false;
 					for (auto& TL : DataBase::Instance()->GetItemTypeData()->GetList()) {
-						if (TL.GetCategoryID() == this->m_ItemIDs[0].first || this->m_ItemIDs[0].first == InvalidID) {
+						if (TL.GetCategoryID() == ListsSel(0) || ListsSel(0) == InvalidID) {
 							isHit = (L->GetTypeID() == TL.GetID());
 							if (isHit) { break; }
 						}
@@ -146,18 +133,26 @@ namespace FPS_n2 {
 				}
 				if (L->GetIsPreset()) { continue; }
 
-				if (L->GetTypeID() == this->m_ItemIDs[1].first || this->m_ItemIDs[1].first == InvalidID) {
+				if (L->GetTypeID() == ListsSel(1) || ListsSel(1) == InvalidID) {
 					bool ishit = false;
 					for (auto& m : L->GetMapID()) {
-						if (m.GetID() == this->m_ItemIDs[2].first) {
+						if (m.GetID() == ListsSel(2)) {
 							ishit = true;
 							break;
 						}
 					}
-					if (m_ItemIDs[2].first == ElseSelectID) {
+					if (ListsSel(2) == ElseSelectID) {
 						ishit = (L->GetMapID().size() == 0);
 					}
-					if (ishit || this->m_ItemIDs[2].first == InvalidID) {
+					ishit |= (ListsSel(2) == InvalidID);
+					if (ishit) {
+						if (m_SearchWord != "") {
+							std::string Name = L->GetName();
+							std::transform(Name.begin(), Name.end(), Name.begin(), [](unsigned char c) { return (char)(std::tolower(c)); });
+							ishit = (Name.find(m_SearchWord) != std::string::npos);
+						}
+					}
+					if (ishit) {
 						if (((0 - ysize) < yp0) && (yp0 < DrawParts->m_DispYSize)) {
 							L->Draw(xpos, yp0, ScrPxItem - xpos - y_r(36), ysize, 0, Gray75, !WindowMngr->PosHitCheck(nullptr), false, !m_RaidMode, false);
 							if (m_RaidMode) {
@@ -193,54 +188,25 @@ namespace FPS_n2 {
 			m_Scroll.ScrollBox(xpos, ypos, ScrPosX, ypos + ScrSizY, (float)std::max(yp0, ScrSizY) / (float)ScrSizY, true);
 
 			m_YNow = std::max(0.f, this->m_Scroll.GetNowScrollYPer()*(float)(yp0 - ScrSizY));
-			//
+			//List
 			{
 				int xgoal = 0;
-				int xsize = y_r(400);
-				int xs_add = -(xsize + y_r(50));
-				int xp = y_r(1920 - 10) - xsize - (int)m_XChild;
-				int yp = LineHeight + y_r(5);
+				int xs_add = m_ListXSize + y_r(50);
 				bool isChild = false;
-				int Layer = 0;
 				//
-				{
-					Layer = 0;
-					MakeLists(Layer, true, [&](std::pair<int, bool>* IDs) {
-						isChild |= (Layer >= 1);
-						if (isChild) {
-							xgoal += xs_add;
-						}
-						MakeList<ItemCategoryList>(xp + xgoal, yp, DataBase::Instance()->GetItemCategoryData()->GetList(), "ItemCategory", &IDs->first, !IDs->second, false, true, [&](const auto *) { return true; });
-					});
-				}
-				//
-				{
-					Layer = 1;
-					bool CanGoNext = ((m_ItemIDs.at(Layer).first != InvalidID) && (DataBase::Instance()->GetItemTypeData()->FindPtr(m_ItemIDs.at(Layer).first)->GetName() == "Mechanical Key"));
-					MakeLists(Layer, CanGoNext, [&](std::pair<int, bool>* IDs) {
-						isChild |= (Layer >= 1);
-						if (isChild) {
-							xgoal += xs_add;
-						}
-						MakeList<ItemTypeList>(xp + xgoal, yp, DataBase::Instance()->GetItemTypeData()->GetList(), "ItemType", &IDs->first, !IDs->second, false, true, [&](const auto *ptr) { return (ptr->GetCategoryID() == this->m_ItemIDs.at(Layer - 1).first); });
-					});
-				}
-				//
-				{
-					Layer = 2;
-					MakeLists(Layer, false, [&](std::pair<int, bool>* IDs) {
-						isChild |= (Layer >= 1);
-						if (isChild) {
-							xgoal += xs_add;
-						}
-						MakeList<MapList>(xp + xgoal, yp, DataBase::Instance()->GetMapData()->GetList(), "Map", &IDs->first, !IDs->second, true, true, [&](const auto *) { return true; });
-					});
-				}
-				//
-				if (isChild) {
-					xgoal -= xs_add / 2;
-				}
-				Easing(&m_XChild, (float)xgoal, 0.8f, EasingType::OutExpo);
+				isChild |= MakeLists(0, true, [&](std::pair<int, bool>* IDs, bool IsChild) {
+					if (IsChild) { xgoal -= xs_add; }
+					MakeList<ItemCategoryList>(m_ListXPos + xgoal, m_ListYPos, DataBase::Instance()->GetItemCategoryData()->GetList(), "ItemCategory", &IDs->first, !IDs->second, false, true, [&](const auto *) { return true; });
+				});
+				isChild |= MakeLists(1, ((ListsSel(1) != InvalidID) && (DataBase::Instance()->GetItemTypeData()->FindPtr(ListsSel(1))->GetName() == "Mechanical Key")), [&](std::pair<int, bool>* IDs, bool IsChild) {
+					if (IsChild) { xgoal -= xs_add; }
+					MakeList<ItemTypeList>(m_ListXPos + xgoal, m_ListYPos, DataBase::Instance()->GetItemTypeData()->GetList(), "ItemType", &IDs->first, !IDs->second, false, true, [&](const auto *ptr) { return (ptr->GetCategoryID() == ListsSel(1 - 1)); });
+				});
+				isChild |= MakeLists(2, false, [&](std::pair<int, bool>* IDs, bool IsChild) {
+					if (IsChild) { xgoal -= xs_add; }
+					MakeList<MapList>(m_ListXPos + xgoal, m_ListYPos, DataBase::Instance()->GetMapData()->GetList(), "Map", &IDs->first, !IDs->second, true, true, [&](const auto *) { return true; });
+				});
+				ExecuteLists(isChild, xgoal);
 			}
 		}
 		void DrawFront_Sub(int, int, float) noexcept override {
@@ -249,17 +215,7 @@ namespace FPS_n2 {
 				int xp = y_r(10);
 				int yp = LineHeight + y_r(10);
 				if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(200), yp + LineHeight, false, true, Gray25, "戻る")) {
-					bool isHit = false;
-					if (!m_RaidMode) {
-						for (auto it = this->m_ItemIDs.rbegin(); it != this->m_ItemIDs.rend(); ++it) {
-							if (it->first != InvalidID) {
-								it->first = InvalidID;
-								isHit = true;
-								break;
-							}
-						}
-					}
-					if (!isHit) {
+					if (!(!m_RaidMode && BackLists())) {
 						TurnOnGoNextBG();
 					}
 				}
@@ -274,10 +230,29 @@ namespace FPS_n2 {
 			}
 			//検索
 			{
+				auto* Input = InputControl::Instance();
+				int xp1 = y_r(1910) - y_r(500);
+				int yp1 = y_r(850);
+				int xp2 = xp1 + y_r(500);
+				int yp2 = yp1 + LineHeight+y_r(6);
+				m_Search = in2_(Input->GetMouseX(), Input->GetMouseY(), xp1, yp1, xp2, yp2);
 
+				if (m_Search) {
+					for (char az = 'a'; az <= 'z'; az++) {
+						if (Input->GetKey(az).trigger()) {
+							m_SearchWord += az;
+						}
+					}
+					if ((Input->GetBackSpaceKey().trigger() || Input->GetBackSpaceKey().trigger()) && m_SearchWord != "") {
+						m_SearchWord.pop_back();
+					}
+				}
+
+				WindowSystem::SetBox(xp1, yp1, xp2, yp2, m_Search ? Gray15 : Gray25);
+				WindowSystem::SetMsg(xp1, yp1, xp2, yp2, LineHeight, STRX_LEFT, White, Black, (m_SearchWord != "") ? m_SearchWord.c_str() : "キーワードを入力…");
+				//m_Search
 			}
 		}
-		void Dispose_Sub(void) noexcept override {
-		}
+		void Dispose_Sub(void) noexcept override {}
 	};
 };

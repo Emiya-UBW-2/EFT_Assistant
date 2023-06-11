@@ -63,7 +63,6 @@ namespace FPS_n2 {
 		class ItemProperties {
 			class ChildItemSettings {
 				std::vector<ItemTypeID>						m_TypeID;
-			public:
 				std::vector<IDParents<ItemID>>				m_Data;
 			public:
 				void			SetTypeID(ItemTypeID TypeID) noexcept {
@@ -79,6 +78,12 @@ namespace FPS_n2 {
 					}
 				}
 				const auto&		GetTypeID() const noexcept { return this->m_TypeID; }
+				void			SetData(std::string_view Data) noexcept {
+					this->m_Data.resize(this->m_Data.size() + 1);
+					this->m_Data.back().SetName(Data);
+				}
+				const auto&		GetData() const noexcept { return this->m_Data; }
+				void			CheckData() noexcept;
 			public:
 				void		operator=(const ChildItemSettings& tgt) noexcept {
 					this->m_TypeID.resize(tgt.m_TypeID.size());
@@ -668,7 +673,7 @@ namespace FPS_n2 {
 				else if (LEFT == "stimEffectsdelay") { m_stimEffects.back().m_delay = std::stoi(Args[0]); }
 				else if (LEFT == "stimEffectsduration") { m_stimEffects.back().m_duration = std::stoi(Args[0]); }
 				else if (LEFT == "stimEffectsvalue") { m_stimEffects.back().m_value = std::stof(Args[0]); }
-				else if (LEFT == "stimEffectspercent") { m_stimEffects.back().m_percent = (Args[0]=="TRUE"); }
+				else if (LEFT == "stimEffectspercent") { m_stimEffects.back().m_percent = (Args[0] == "TRUE"); }
 				else if (LEFT == "stimEffectsSkiilName") { m_stimEffects.back().m_skillName = Args[0]; }
 			}
 			void			OutputDataMed(std::ofstream& outputfile) noexcept {
@@ -819,8 +824,7 @@ namespace FPS_n2 {
 						for (const auto& f : s["filters"]) {
 							for (const auto& a : f) {
 								for (const auto& n : a) {
-									m_ChildPartsID.back().m_Data.resize(m_ChildPartsID.back().m_Data.size() + 1);
-									m_ChildPartsID.back().m_Data.back().SetName(n);
+									m_ChildPartsID.back().SetData(n);
 								}
 							}
 						}
@@ -925,18 +929,16 @@ namespace FPS_n2 {
 					{
 						if (LEFT == "ChildParts") {
 							this->m_ChildPartsID.resize(this->m_ChildPartsID.size() + 1);
-							auto& CP = this->m_ChildPartsID.back().m_Data;
 							for (auto&a : Args) {
 								bool isHit = false;
-								for (auto& d : CP) {
+								for (auto& d : this->m_ChildPartsID.back().GetData()) {
 									if (d.GetName() == a) {
 										isHit = true;
 										break;
 									}
 								}
 								if (!isHit) {
-									CP.resize(CP.size() + 1);
-									CP.back().SetName(a);
+									this->m_ChildPartsID.back().SetData(a);
 								}
 							}
 						}
@@ -1017,13 +1019,13 @@ namespace FPS_n2 {
 
 				if (this->m_ChildPartsID.size() > 0) {
 					for (const auto& m : this->m_ChildPartsID) {
-						if (m.m_Data.size() > 0) {
+						if (m.GetData().size() > 0) {
 							outputfile << "ChildParts=[\n";
 							std::vector<std::string> Names;
-							for (auto& d : m.m_Data) {
+							for (const auto& d : m.GetData()) {
 								auto NmBuf = d.GetName();
 								if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
-									outputfile << "\t" + NmBuf + ((&d != &m.m_Data.back()) ? DIV_STR : "") + "\n";
+									outputfile << "\t" + NmBuf + ((&d != &m.GetData().back()) ? DIV_STR : "") + "\n";
 									Names.emplace_back(NmBuf);
 								}
 							}
@@ -1407,7 +1409,7 @@ namespace FPS_n2 {
 			//
 			for (auto& L : this->m_List) {
 				for (auto& L2 : this->m_List) {
-					if (L.GetID()!=L2.GetID() && L.GetIDstr() == L2.GetIDstr()) {
+					if (L.GetID() != L2.GetID() && L.GetIDstr() == L2.GetIDstr()) {
 						std::string ErrMes = "Error : ƒAƒCƒeƒ€“o˜^”í‚è:";
 						ErrMes += "[";
 						ErrMes += L.GetName();

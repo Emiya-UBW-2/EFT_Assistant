@@ -34,58 +34,111 @@ namespace FPS_n2 {
 		void Dispose(void) noexcept {
 			Dispose_Sub();
 		}
-	};
+	protected:
+		int										m_ListXPos{ 0 };
+		int										m_ListYPos{ 0 };
+		int										m_ListXSize{ 0 };
+		std::vector<std::pair<int, bool>>		m_ItemIDs;
+		float									m_XChild{ 0.f };
+		template<class ListChild>
+		void MakeList(int xp1, int yp1, const std::vector<ListChild>& List, std::string_view Name, int*Select, bool isActive, bool isElseSelect, bool isAllSelect, const std::function<bool(const ListChild*)>& CheckLocal) noexcept {
+			xp1 -= (int)m_XChild;
+			auto* WindowMngr = WindowSystem::WindowManager::Instance();
+			int xsize = m_ListXSize;
+			int ysize = LineHeight - y_r(3);
+			int count = 0;
 
-	template<class ListChild>
-	static void MakeList(int xp1, int yp1, const std::vector<ListChild>& List, std::string_view Name, int*Select, bool isActive, bool isElseSelect, bool isAllSelect, const std::function<bool(const ListChild*)>& CheckLocal) noexcept {
-		auto* WindowMngr = WindowSystem::WindowManager::Instance();
-		int xsize = y_r(400);
-		int ysize = LineHeight - y_r(3);
-		int count = 0;
-
-		WindowSystem::SetMsg(xp1, yp1, xp1 + xsize, yp1 + ysize - y_r(5), ysize - y_r(5), STRX_MID, White, Black, Name);
-		yp1 += ysize;
-		int yp_t = yp1;
-		if (isAllSelect) {
-			yp_t += ysize + y_r(3);
-		}
-		//
-		int IDBuf = InvalidID;
-		bool NotSelect = (*Select == InvalidID);
-		for (const auto& L2 : List) {
-			if (!CheckLocal(&L2)) { continue; }
-			IDBuf = L2.GetID();
-			bool SelectIt = (*Select == IDBuf);
-			auto color = NotSelect ? Gray25 : (SelectIt ? Gray10 : Gray50);
-			if (WindowSystem::ClickCheckBox(xp1 - (SelectIt ? y_r(25) : 0), yp_t, xp1 + xsize, yp_t + ysize, false, (isActive || (!isActive && SelectIt)) && !WindowMngr->PosHitCheck(nullptr), color, L2.GetShortName().c_str())) {
-				*Select = (isActive) ? IDBuf : InvalidID;
+			WindowSystem::SetMsg(xp1, yp1, xp1 + xsize, yp1 + ysize - y_r(5), ysize - y_r(5), STRX_MID, White, Black, Name);
+			yp1 += ysize;
+			int yp_t = yp1;
+			if (isAllSelect) {
+				yp_t += ysize + y_r(3);
 			}
-			yp_t += ysize + y_r(3);
-			count++;
-		}
-		if (count > 0 && isElseSelect) {//その他
-			bool ElseSelect = (*Select == ElseSelectID);
-			auto color = ElseSelect ? Gray25 : Gray50;
-			if (WindowSystem::ClickCheckBox(xp1 - (ElseSelect ? y_r(25) : 0), yp_t, xp1 + xsize, yp_t + ysize, false, isActive && !WindowMngr->PosHitCheck(nullptr), color, "Else")) {
-				*Select = ElseSelectID;
-			}
-		}
-		//全部選択
-		if (isAllSelect) {
-			if (count > 1) {
-				auto color = NotSelect ? Gray10 : Gray50;
-				if (WindowSystem::ClickCheckBox(xp1 - (NotSelect ? y_r(25) : 0), yp1, xp1 + xsize, yp1 + ysize, false, isActive && !WindowMngr->PosHitCheck(nullptr), color, "ALL")) {
-					*Select = InvalidID;
+			//
+			int IDBuf = InvalidID;
+			bool NotSelect = (*Select == InvalidID);
+			for (const auto& L2 : List) {
+				if (!CheckLocal(&L2)) { continue; }
+				IDBuf = L2.GetID();
+				bool SelectIt = (*Select == IDBuf);
+				auto color = NotSelect ? Gray25 : (SelectIt ? Gray10 : Gray50);
+				if (WindowSystem::ClickCheckBox(xp1 - (SelectIt ? y_r(25) : 0), yp_t, xp1 + xsize, yp_t + ysize, false, (isActive || (!isActive && SelectIt)) && !WindowMngr->PosHitCheck(nullptr), color, L2.GetShortName().c_str())) {
+					*Select = (isActive) ? IDBuf : InvalidID;
 				}
+				yp_t += ysize + y_r(3);
+				count++;
+			}
+			if (count > 0 && isElseSelect) {//その他
+				bool ElseSelect = (*Select == ElseSelectID);
+				auto color = ElseSelect ? Gray25 : Gray50;
+				if (WindowSystem::ClickCheckBox(xp1 - (ElseSelect ? y_r(25) : 0), yp_t, xp1 + xsize, yp_t + ysize, false, isActive && !WindowMngr->PosHitCheck(nullptr), color, "Else")) {
+					*Select = ElseSelectID;
+				}
+			}
+			//全部選択
+			if (isAllSelect) {
+				if (count > 1) {
+					auto color = NotSelect ? Gray10 : Gray50;
+					if (WindowSystem::ClickCheckBox(xp1 - (NotSelect ? y_r(25) : 0), yp1, xp1 + xsize, yp1 + ysize, false, isActive && !WindowMngr->PosHitCheck(nullptr), color, "ALL")) {
+						*Select = InvalidID;
+					}
+				}
+				else {
+					if (IDBuf != InvalidID) {
+						*Select = IDBuf;
+					}
+				}
+			}
+			if (count == 0) {
+				if (WindowSystem::ClickCheckBox(xp1, yp1, xp1 + xsize, yp1 + ysize, false, false, Gray50, "None")) {}
+			}
+		};
+	protected:
+		const auto& ListsSel(int Sel) const noexcept { return this->m_ItemIDs.at(Sel).first; }
+
+		auto BackLists() noexcept {
+			for (auto it = this->m_ItemIDs.rbegin(); it != this->m_ItemIDs.rend(); ++it) {
+				if (it->first != InvalidID) {
+					it->first = InvalidID;
+					return true;
+				}
+			}
+			return false;
+		}
+
+		bool MakeLists(int Layer, bool AndNext, const std::function<void(std::pair<int, bool>*, bool)>& ListSet) noexcept {
+			auto& NowSel = this->m_ItemIDs.at(Layer);
+			NowSel.second = ((ListsSel(Layer) != InvalidID) && AndNext);
+			if (Layer == 0 || (Layer >= 1 && this->m_ItemIDs.at(Layer - 1).second)) {
+				ListSet(&NowSel, (Layer >= 1));
+				return (Layer >= 1);
 			}
 			else {
-				if (IDBuf != InvalidID) {
-					*Select = IDBuf;
-				}
+				NowSel.first = InvalidID;
+			}
+			return false;
+		}
+
+		void InitLists(int listtotal, int xpos, int ypos, int xsize) noexcept {
+			m_XChild = 0.f;
+			//
+			m_ListXPos = xpos;
+			m_ListYPos = ypos;
+			m_ListXSize = xsize;
+			m_ItemIDs.clear();
+			for (int i = 0; i < listtotal; i++) {
+				m_ItemIDs.emplace_back(std::make_pair<int, bool>((int)InvalidID, false));
 			}
 		}
-		if (count == 0) {
-			if (WindowSystem::ClickCheckBox(xp1, yp1, xp1 + xsize, yp1 + ysize, false, false, Gray50, "None")) {}
+		void ExecuteLists(bool isChild, int xgoal) noexcept {
+			int xs_add = m_ListXSize + y_r(50);
+			if (isChild) {
+				xgoal += xs_add / 2;
+			}
+			Easing(&m_XChild, (float)xgoal, 0.8f, EasingType::OutExpo);
 		}
+
+
 	};
+
 };

@@ -19,6 +19,7 @@ namespace FPS_n2 {
 		switchs					m_ShiftKey;
 		switchs					m_SpaceKey;
 		switchs					m_CtrlKey;
+		switchs					m_BackSpaceKey;
 		std::array<switchs, 26>	m_AtoZKey;
 
 		int						m_WheelAdd{ 0 };
@@ -31,6 +32,7 @@ namespace FPS_n2 {
 			m_ShiftKey.Set(false);
 			m_SpaceKey.Set(false);
 			m_CtrlKey.Set(false);
+			m_BackSpaceKey.Set(false);
 			for (auto& k : this->m_AtoZKey) {
 				k.Set(false);
 			}
@@ -46,6 +48,7 @@ namespace FPS_n2 {
 		const auto&		GetShiftKey(void) const noexcept { return this->m_ShiftKey; }
 		const auto&		GetSpaceKey(void) const noexcept { return this->m_SpaceKey; }
 		const auto&		GetCtrlKey(void) const noexcept { return this->m_CtrlKey; }
+		const auto&		GetBackSpaceKey(void) const noexcept { return this->m_BackSpaceKey; }
 		const auto&		GetKey(char AtoZ) const noexcept {
 			if ('A' <= AtoZ && AtoZ <= 'Z') {
 				return this->m_AtoZKey.at(AtoZ - 'A');
@@ -77,6 +80,7 @@ namespace FPS_n2 {
 			this->m_ShiftKey.Execute(CheckHitKeyWithCheck(KEY_INPUT_LSHIFT) != 0);
 			this->m_SpaceKey.Execute(CheckHitKeyWithCheck(KEY_INPUT_SPACE) != 0);
 			this->m_CtrlKey.Execute(CheckHitKeyWithCheck(KEY_INPUT_LCONTROL) != 0);
+			this->m_BackSpaceKey.Execute(CheckHitKeyWithCheck(KEY_INPUT_BACK) != 0);
 
 			int KEYS[26] = {
 				KEY_INPUT_A,

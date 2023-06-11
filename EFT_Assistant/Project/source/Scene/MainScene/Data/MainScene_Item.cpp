@@ -2,18 +2,21 @@
 
 namespace FPS_n2 {
 	//
+	void			ItemList::ItemProperties::ChildItemSettings::CheckData() noexcept {
+		for (auto& c : this->m_Data) {
+			c.CheckID(DataBase::Instance()->GetItemData().get());
+		}
+	}
 	void			ItemList::ItemProperties::SetParent() noexcept {
 		for (auto& cp : this->SetModSlots()) {
-			for (auto& c : cp.m_Data) {
-				c.CheckID(DataBase::Instance()->GetItemData().get());
-			}
+			cp.CheckData();
 		}
 		for (auto& cp : this->SetContainsItem()) {
 			cp.CheckID(DataBase::Instance()->GetItemData().get());
 		}
 		//
 		for (auto& cp : this->SetModSlots()) {
-			for (const auto& c : cp.m_Data) {
+			for (const auto& c : cp.GetData()) {
 				cp.SetTypeID(DataBase::Instance()->GetItemData()->FindPtr(c.GetID())->GetTypeID());
 			}
 		}
@@ -80,7 +83,7 @@ namespace FPS_n2 {
 		this->m_ItemsData.m_ParentPartsID.clear();
 		for (const auto& t : DataBase::Instance()->GetItemData()->GetList()) {
 			for (auto& cp : t.GetChildParts()) {
-				for (auto& c : cp.m_Data) {
+				for (auto& c : cp.GetData()) {
 					if (c.GetID() == this->GetID()) {
 						this->m_ItemsData.m_ParentPartsID.emplace_back(t.GetID());
 					}
@@ -507,7 +510,7 @@ namespace FPS_n2 {
 			{
 				bool isFirst = true;
 				for (const auto& cp : this->GetChildParts()) {
-					for (const auto& c : cp.m_Data) {
+					for (const auto& c : cp.GetData()) {
 						if (isFirst) {
 							isFirst = false;
 							xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STRX_LEFT, White, Black, "ChildrenMods:") + y_r(30)); yofs += LineHeight + y_r(5);

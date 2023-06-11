@@ -29,7 +29,7 @@ namespace FPS_n2 {
 				m_ChildData.back().Set(Ptr_Buf, Index, 0);
 				//
 				auto& cID = this->m_ChildData.back();
-				for (const auto& cID2 : this->m_ChildData.back().GetMySlotData().m_Data) {
+				for (const auto& cID2 : this->m_ChildData.back().GetMySlotData().GetData()) {
 					if (PlayerData::Instance()->GetItemLock(DataBase::Instance()->GetItemData()->FindPtr(cID2.GetID())->GetIDstr().c_str())) {
 						break;
 					}
@@ -87,7 +87,7 @@ namespace FPS_n2 {
 			Ptr_Buf = this->m_BaseWeapon;
 			for (const auto& c : Ptr_Buf->GetChildParts()) {
 				Data->resize(Data->size() + 1);//こどもの分岐
-				for (auto& cptr : c.m_Data) {
+				for (auto& cptr : c.GetData()) {
 					//フィルターに引っかかってなければOK
 					if (!ChildData::ItemPtrChecktoBeFiltered(DataBase::Instance()->GetItemData()->FindPtr(cptr.GetID()), !m_EnableMag, !m_EnableMount, !m_EnableSight)) {
 						Data->back().resize(Data->back().size() + 1);
@@ -111,7 +111,7 @@ namespace FPS_n2 {
 
 			bool IsChild = false;
 			for (const auto& c : Ptr_Buf->GetChildParts()) {
-				for (auto& cptr : c.m_Data) {
+				for (auto& cptr : c.GetData()) {
 					//フィルターに引っかかってなければOK
 					if (!ChildData::ItemPtrChecktoBeFiltered(DataBase::Instance()->GetItemData()->FindPtr(cptr.GetID()), !m_EnableMag, !m_EnableMount, !m_EnableSight)) {
 						IsChild = true;
@@ -136,7 +136,7 @@ namespace FPS_n2 {
 		}
 		int Now = 0;
 		for (const auto& c : Ptr_Buf->GetChildParts()) {
-			for (auto& cptr : c.m_Data) {
+			for (auto& cptr : c.GetData()) {
 				//フィルターに引っかかってなければOK
 				if (!ChildData::ItemPtrChecktoBeFiltered(DataBase::Instance()->GetItemData()->FindPtr(cptr.GetID()), !m_EnableMag, !m_EnableMount, !m_EnableSight)) {
 					CalcChildErgRec(AnsData, DataBase::Instance()->GetItemData()->FindPtr(cptr.GetID()));
@@ -227,7 +227,7 @@ namespace FPS_n2 {
 							DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xbase, ybase, xbase + xsize, ybase + ysize, RedPop, false);
 							if (Input->GetKey('L').trigger()) {
 								//ロックをかける
-								for (const auto& cID2 : cID.GetMySlotData().m_Data) {
+								for (const auto& cID2 : cID.GetMySlotData().GetData()) {
 									if (cID.GetChildPtr() != DataBase::Instance()->GetItemData()->FindPtr(cID2.GetID())) {
 										PlayerData::Instance()->SetItemLock(DataBase::Instance()->GetItemData()->FindPtr(cID2.GetID())->GetIDstr().c_str(), false);
 									}
@@ -248,7 +248,7 @@ namespace FPS_n2 {
 						m_RecAddMax = -1000.f;
 						m_ErgAddMin = 1000.f;
 						m_ErgAddMax = -1000.f;
-						for (const auto& cID2 : cID.GetMySlotData().m_Data) {
+						for (const auto& cID2 : cID.GetMySlotData().GetData()) {
 							auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(cID2.GetID());
 							if (!CheckConflict(ptr)) {
 								if (m_RecAddMin > ptr->GetRecoil()) {
@@ -310,11 +310,7 @@ namespace FPS_n2 {
 
 		m_ChildData.clear();
 
-		m_XChild = 0.f;
-		m_ItemIDs.clear();
-		m_ItemIDs.emplace_back(std::make_pair<int, bool>((int)InvalidID, false));
-		m_ItemIDs.emplace_back(std::make_pair<int, bool>((int)InvalidID, false));
-		m_ItemIDs.emplace_back(std::make_pair<int, bool>((int)InvalidID, false));
+		InitLists(3, y_r(1920 - 10) - y_r(400), LineHeight + y_r(5), y_r(400));
 	}
 	void CustomBG::LateExecute_Sub(int*, int*, float*) noexcept {
 		if (m_BaseWeapon) {
@@ -398,6 +394,44 @@ namespace FPS_n2 {
 				DrawChild(xpos, ypos, 0, 0, Scale, &Lane);
 			}
 		}
+		//
+		{
+			int xgoal = 0;
+			int xs_add = m_ListXSize + y_r(50);
+			bool isChild = false;
+			isChild |= MakeLists(0, true, [&](std::pair<int, bool>* IDs, bool IsChild) {
+				if (IsChild) { xgoal -= xs_add; }
+				MakeList<ItemTypeList>(m_ListXPos + xgoal, m_ListYPos, DataBase::Instance()->GetItemTypeData()->GetList(), "ItemType", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (ptr->GetCategoryID() == DataBase::Instance()->GetItemCategoryData()->FindID("Weapons")); });
+			});
+			isChild |= MakeLists(1, true, [&](std::pair<int, bool>* IDs, bool IsChild) {
+				if (IsChild) { xgoal -= xs_add; }
+				MakeList<ItemList>(m_ListXPos + xgoal, m_ListYPos, DataBase::Instance()->GetItemData()->GetList(), "Item", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (!ptr->GetIsPreset()) && (ptr->GetTypeID() == ListsSel(1 - 1)); });
+			});
+			isChild |= MakeLists(2, false, [&](std::pair<int, bool>* IDs, bool IsChild) {
+				if (IsChild) { xgoal -= xs_add; }
+				MakeList<PresetList>(m_ListXPos + xgoal, m_ListYPos, DataBase::Instance()->GetPresetData()->GetList(), "Preset", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (ptr->GetBase()->GetID() == ListsSel(2 - 1)); });
+			});
+			if ((ListsSel(1) != InvalidID) && (ListsSel(2) != InvalidID)) {
+				xgoal -= xs_add * 3;
+			}
+			ExecuteLists(isChild, xgoal);
+		}
+		//List
+		{
+			if ((ListsSel(2) != InvalidID) && (ListsSel(2) != this->m_SelectPreset)) {
+				m_ChildData.clear();
+			}
+			m_SelectPreset = ListsSel(2);
+		}
+		{
+			if (ListsSel(1) != this->m_SelectBuffer) {
+				m_BaseWeapon = (ListsSel(1) != InvalidID) ? DataBase::Instance()->GetItemData()->FindPtr(ListsSel(1)) : nullptr;
+				if (m_BaseWeapon == nullptr) {
+					m_ChildData.clear();
+				}
+			}
+			m_SelectBuffer = ListsSel(1);
+		}
 	}
 	void CustomBG::DrawFront_Sub(int posx, int posy, float) noexcept {
 		auto* DrawParts = DXDraw::Instance();
@@ -406,89 +440,10 @@ namespace FPS_n2 {
 			int xp = y_r(10);
 			int yp = LineHeight + y_r(10);
 			if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(200), yp + LineHeight, false, true, Gray25, "戻る")) {
-				bool isHit = false;
-				for (auto it = this->m_ItemIDs.rbegin(); it != this->m_ItemIDs.rend(); ++it) {
-					if (it->first != InvalidID) {
-						it->first = InvalidID;
-						isHit = true;
-						break;
-					}
-				}
-				if (!isHit) {
+				if (!BackLists()) {
 					TurnOnGoNextBG();
 				}
 			}
-		}
-		//
-		{
-			int xgoal = 0;
-			int xsize = y_r(400);
-			int xs_add = -(xsize + y_r(50));
-			int xp = y_r(1920 - 10) - xsize - (int)m_XChild;
-			int yp = LineHeight + y_r(10);
-			bool isChild = false;
-			int Layer = 0;
-			//
-			{
-				Layer = 0;
-				MakeLists(Layer, true, [&](std::pair<int, bool>* IDs) {
-					isChild |= (Layer >= 1);
-					if (isChild) {
-						xgoal += xs_add;
-					}
-					MakeList<ItemTypeList>(xp + xgoal, yp, DataBase::Instance()->GetItemTypeData()->GetList(), "ItemType", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (ptr->GetCategoryID() == DataBase::Instance()->GetItemCategoryData()->FindID("Weapons")); });
-				});
-			}
-			//
-			{
-				Layer = 1;
-				MakeLists(Layer, true, [&](std::pair<int, bool>* IDs) {
-					isChild |= (Layer >= 1);
-					if (isChild) {
-						xgoal += xs_add;
-					}
-					MakeList<ItemList>(xp + xgoal, yp, DataBase::Instance()->GetItemData()->GetList(), "Item", &IDs->first, !IDs->second, false, false,
-						[&](const auto *ptr) { return (!ptr->GetIsPreset()) && (ptr->GetTypeID() == this->m_ItemIDs.at(Layer - 1).first); }
-					);
-				});
-			}
-			//
-			{
-				Layer = 2;
-				MakeLists(Layer, false, [&](std::pair<int, bool>* IDs) {
-					isChild |= (Layer >= 1);
-					if (isChild) {
-						xgoal += xs_add;
-					}
-					MakeList<PresetList>(xp + xgoal, yp, DataBase::Instance()->GetPresetData()->GetList(), "Preset", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (ptr->GetBase()->GetID() == this->m_ItemIDs.at(Layer - 1).first); });
-				});
-			}
-			//決定
-			{
-				auto prev = this->m_SelectPreset;
-				m_SelectPreset = this->m_ItemIDs.at(2).first;
-				if ((m_SelectPreset != InvalidID) && (m_SelectPreset != prev)) {
-					m_ChildData.clear();
-				}
-			}
-			{
-				auto prev = this->m_SelectBuffer;
-				m_SelectBuffer = this->m_ItemIDs.at(1).first;
-				if (m_SelectBuffer != prev) {
-					m_BaseWeapon = (m_SelectBuffer != InvalidID) ? DataBase::Instance()->GetItemData()->FindPtr(m_SelectBuffer) : nullptr;
-					if (m_BaseWeapon == nullptr) {
-						m_ChildData.clear();
-					}
-				}
-			}
-			//
-			if (isChild) {
-				xgoal -= xs_add / 2;
-			}
-			if ((m_SelectBuffer != InvalidID) && (m_SelectPreset != InvalidID)) {
-				xgoal += xs_add * 3;
-			}
-			Easing(&m_XChild, (float)xgoal, 0.8f, EasingType::OutExpo);
 		}
 		//下から上に
 		if (m_BaseWeapon) {
