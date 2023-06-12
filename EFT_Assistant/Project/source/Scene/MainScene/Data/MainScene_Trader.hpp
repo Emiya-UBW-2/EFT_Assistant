@@ -5,7 +5,7 @@ namespace FPS_n2 {
 	//
 	struct TraderLvData {
 		struct BartersData {
-			std::vector<TaskID>						m_TaskReq;
+			std::vector<IDParents<TaskID>>			m_TaskReq;
 			std::vector<ItemGetData>				m_ItemReq;
 			std::vector<ItemGetData>				m_ItemReward;
 		};
@@ -41,8 +41,14 @@ namespace FPS_n2 {
 				if (LEFTBuf == "insuranceRate") { data.insuranceRate = std::stof(Args[0]); }
 				if (LEFTBuf == "repairCostMultiplier") { data.repairCostMultiplier = std::stof(Args[0]); }
 				//
-				if (LEFTBuf == "BarteritemReq") {
+				if (LEFTBuf == "taskUnlock") {
 					data.m_ItemBarters.resize(data.m_ItemBarters.size() + 1);
+					for (auto&a : Args) {
+						data.m_ItemBarters.back().m_TaskReq.resize(data.m_ItemBarters.back().m_TaskReq.size() + 1);
+						data.m_ItemBarters.back().m_TaskReq.back().SetName(a);
+					}
+				}
+				if (LEFTBuf == "BarteritemReq") {
 					for (auto&a : Args) {
 						SetGetData<ItemGetData>(&data.m_ItemBarters.back().m_ItemReq, a, "x", false);
 					}

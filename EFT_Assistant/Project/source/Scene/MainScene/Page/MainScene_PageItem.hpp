@@ -15,8 +15,7 @@ namespace FPS_n2 {
 		bool							m_ValueSort{ false };
 		bool							m_ValuePerSort{ false };
 
-		bool							m_Search{ false };
-		std::string						m_SearchWord;
+		WindowSystem::SearchBox			m_SearchBox;
 	private:
 		void Init_Sub(int *, int *, float*) noexcept override {
 			Items.clear();
@@ -31,7 +30,7 @@ namespace FPS_n2 {
 			//
 			InitLists(3, y_r(1920 - 10) - y_r(400), LineHeight + y_r(5), y_r(400));
 
-			m_SearchWord = "";
+			m_SearchBox.Init();
 		}
 		void LateExecute_Sub(int*, int*, float*) noexcept override {}
 		void Draw_Back_Sub(int, int, float) noexcept override {
@@ -145,13 +144,7 @@ namespace FPS_n2 {
 						ishit = (L->GetMapID().size() == 0);
 					}
 					ishit |= (ListsSel(2) == InvalidID);
-					if (ishit) {
-						if (m_SearchWord != "") {
-							std::string Name = L->GetName();
-							std::transform(Name.begin(), Name.end(), Name.begin(), [](unsigned char c) { return (char)(std::tolower(c)); });
-							ishit = (Name.find(m_SearchWord) != std::string::npos);
-						}
-					}
+					ishit |= m_SearchBox.GetIsHit(L->GetName());
 					if (ishit) {
 						if (((0 - ysize) < yp0) && (yp0 < DrawParts->m_DispYSize)) {
 							L->Draw(xpos, yp0, ScrPxItem - xpos - y_r(36), ysize, 0, Gray75, !WindowMngr->PosHitCheck(nullptr), false, !m_RaidMode, false);
@@ -185,7 +178,7 @@ namespace FPS_n2 {
 
 
 			int ScrSizY = (DrawParts->m_DispYSize - (y_r(10) + LineHeight)) - ypos;
-			m_Scroll.ScrollBox(xpos, ypos, ScrPosX, ypos + ScrSizY, (float)std::max(yp0, ScrSizY) / (float)ScrSizY, true);
+			m_Scroll.ScrollBox(xpos, ypos, ScrPosX, ypos + ScrSizY, (float)std::max(yp0, ScrSizY) / (float)ScrSizY, !WindowMngr->PosHitCheck(nullptr));
 
 			m_YNow = std::max(0.f, this->m_Scroll.GetNowScrollYPer()*(float)(yp0 - ScrSizY));
 			//List
@@ -229,29 +222,7 @@ namespace FPS_n2 {
 				yp += LineHeight + y_r(6);
 			}
 			//検索
-			{
-				auto* Input = InputControl::Instance();
-				int xp1 = y_r(1910) - y_r(500);
-				int yp1 = y_r(850);
-				int xp2 = xp1 + y_r(500);
-				int yp2 = yp1 + LineHeight+y_r(6);
-				m_Search = in2_(Input->GetMouseX(), Input->GetMouseY(), xp1, yp1, xp2, yp2);
-
-				if (m_Search) {
-					for (char az = 'a'; az <= 'z'; az++) {
-						if (Input->GetKey(az).trigger()) {
-							m_SearchWord += az;
-						}
-					}
-					if ((Input->GetBackSpaceKey().trigger() || Input->GetBackSpaceKey().trigger()) && m_SearchWord != "") {
-						m_SearchWord.pop_back();
-					}
-				}
-
-				WindowSystem::SetBox(xp1, yp1, xp2, yp2, m_Search ? Gray15 : Gray25);
-				WindowSystem::SetMsg(xp1, yp1, xp2, yp2, LineHeight, STRX_LEFT, White, Black, (m_SearchWord != "") ? m_SearchWord.c_str() : "キーワードを入力…");
-				//m_Search
-			}
+			m_SearchBox.Draw(y_r(1910) - y_r(500), y_r(850));
 		}
 		void Dispose_Sub(void) noexcept override {}
 	};

@@ -15,6 +15,7 @@ namespace FPS_n2 {
 		void LateExecute_Sub(int*, int*, float*) noexcept override {
 		}
 		void Draw_Back_Sub(int, int, float) noexcept override {
+			auto* WindowMngr = WindowSystem::WindowManager::Instance();
 			//
 			if (m_EditTraderID != InvalidID) {
 				auto* ptr = DataBase::Instance()->GetTraderData()->FindPtr(m_EditTraderID);
@@ -66,7 +67,7 @@ namespace FPS_n2 {
 					{
 						float Total = (float)yofs / (ypMax - ypMin);
 						if (Total > 1.f) {
-							m_Scroll.ScrollBox(xp, ypMin, y_r(1920) - y_r(600), ypMax, Total, true);
+							m_Scroll.ScrollBox(xp, ypMin, y_r(1920) - y_r(600), ypMax, Total, !WindowMngr->PosHitCheck(nullptr));
 						}
 					}
 				}

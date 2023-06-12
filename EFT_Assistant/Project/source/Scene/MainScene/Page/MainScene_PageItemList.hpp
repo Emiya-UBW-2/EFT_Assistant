@@ -26,6 +26,7 @@ namespace FPS_n2 {
 		bool							m_DrawCanClearTask{ false };
 		bool							m_DrawCanClearHideout{ false };
 
+		WindowSystem::SearchBox			m_SearchBox;
 		WindowSystem::ScrollBoxClass	m_Scroll;
 		float							m_YNow{ 0.f };
 
@@ -242,6 +243,8 @@ namespace FPS_n2 {
 		void Init_Sub(int*, int*, float*) noexcept override {
 			m_Mode = EnumListDrawMode::Normal;
 			m_IsListChange = true;
+
+			m_SearchBox.Init();
 		}
 		void LateExecute_Sub(int*, int*, float*) noexcept override {}
 
@@ -276,6 +279,11 @@ namespace FPS_n2 {
 								for (auto& c : Types) {
 									auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(c.m_ID);
 									if (ptr) {
+										//åüçıåãâ 
+										if(!m_SearchBox.GetIsHit(ptr->GetName())){
+											continue;
+										}
+										//
 										if (ypos - ysizeAdd < yp && yp < ypMax) {
 											if (ypos - 1 < yp && yp < ypMax - ysizeAdd + 1) {
 												DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255);
@@ -365,7 +373,7 @@ namespace FPS_n2 {
 
 					int ScrPosX = xpos + xsizeAdd;
 					int ScrSizY = ypMax - ypos;
-					m_Scroll.ScrollBox(xpos, ypos, ScrPosX, ypos + ScrSizY, (float)std::max(yp - ypBase, ScrSizY) / (float)ScrSizY, true);
+					m_Scroll.ScrollBox(xpos, ypos, ScrPosX, ypos + ScrSizY, (float)std::max(yp - ypBase, ScrSizY) / (float)ScrSizY, !WindowMngr->PosHitCheck(nullptr));
 
 					m_YNow = std::max(0.f, this->m_Scroll.GetNowScrollYPer()*(float)((yp - ypBase) - ScrSizY));
 				}
@@ -399,7 +407,7 @@ namespace FPS_n2 {
 			//
 			{
 				int xp = y_r(1920) - y_r(16);
-				int yp = y_r(1080) - y_r(110) - y_r(40)*8;
+				int yp = y_r(1080) - y_r(110) - y_r(40) * 8;
 				//îwåi
 				{
 					DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 32);
@@ -424,6 +432,8 @@ namespace FPS_n2 {
 					DrawCheckBox(xp, yp, "äJï˙â¬î\ëŒè€ÇÃÇ›", &m_DrawCanClearHideout); yp += y_r(40);
 				}
 			}
+			//åüçı
+			m_SearchBox.Draw(y_r(1910) - y_r(500), y_r(1080) - y_r(110) - y_r(40) * 8 - y_r(40));
 			//
 		}
 		void Dispose_Sub(void) noexcept override {}

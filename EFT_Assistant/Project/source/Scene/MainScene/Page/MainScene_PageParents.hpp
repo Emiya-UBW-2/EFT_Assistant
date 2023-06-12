@@ -44,7 +44,7 @@ namespace FPS_n2 {
 		void MakeList(int xp1, int yp1, const std::vector<ListChild>& List, std::string_view Name, int*Select, bool isActive, bool isElseSelect, bool isAllSelect, const std::function<bool(const ListChild*)>& CheckLocal) noexcept {
 			xp1 -= (int)m_XChild;
 			auto* WindowMngr = WindowSystem::WindowManager::Instance();
-			int xsize = m_ListXSize;
+			int xsize = (m_ListXSize != 0) ? m_ListXSize : y_r(400);
 			int ysize = LineHeight - y_r(3);
 			int count = 0;
 

@@ -516,8 +516,8 @@ namespace FPS_n2 {
 							xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STRX_LEFT, White, Black, "ChildrenMods:") + y_r(30)); yofs += LineHeight + y_r(5);
 						}
 						auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(c.GetID());
-						xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, y_r(800), y_r(42), 0, defaultcolor, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0)), false, true, false) + y_r(30));
-						yofs += y_r(42) + y_r(5);
+						xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, y_r(800), y_r(24), 0, defaultcolor, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0)), false, true, false) + y_r(30));
+						yofs += y_r(24) + y_r(5);
 					}
 				}
 			}
@@ -529,8 +529,8 @@ namespace FPS_n2 {
 						xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STRX_LEFT, White, Black, "ParentMods:") + y_r(30)); yofs += LineHeight + y_r(5);
 					}
 					auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(c);
-					xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, y_r(800), y_r(42), 0, defaultcolor, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0)), false, true, false) + y_r(30));
-					yofs += y_r(42) + y_r(5);
+					xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, y_r(800), y_r(24), 0, defaultcolor, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0)), false, true, false) + y_r(30));
+					yofs += y_r(24) + y_r(5);
 				}
 			}
 			//

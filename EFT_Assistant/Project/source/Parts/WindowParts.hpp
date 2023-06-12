@@ -710,6 +710,56 @@ namespace FPS_n2 {
 				m_WindowControl.clear();
 			}
 		};
+		class SearchBox {
+			bool							m_Search{ false };
+			std::string						m_SearchWord;
+		public:
+			void		Init() noexcept {
+				m_SearchWord = "";
+			}
+			void		Draw(int xp1, int yp1) noexcept {
+				auto* Input = InputControl::Instance();
+				int xp2 = xp1 + y_r(500);
+				int yp2 = yp1 + LineHeight + y_r(6);
+				m_Search = in2_(Input->GetMouseX(), Input->GetMouseY(), xp1, yp1, xp2, yp2);
+
+				if (m_Search) {
+					for (char az = 'a'; az <= 'z'; az++) {
+						if (Input->GetKey(az).trigger()) {
+							m_SearchWord += az;
+						}
+					}
+					for (char az = 0; az <= 9; az++) {
+						if (Input->GetNumKey((int)az).trigger()) {
+							m_SearchWord += ('0' + az);
+						}
+					}
+					if ((Input->GetBackSpaceKey().trigger() || Input->GetBackSpaceKey().trigger()) && m_SearchWord != "") {
+						m_SearchWord.pop_back();
+					}
+				}
+
+				WindowSystem::SetBox(xp1, yp1, xp2, yp2, m_Search ? Gray15 : Gray25);
+				WindowSystem::SetMsg(xp1, yp1, xp2, yp2, LineHeight, STRX_LEFT, White, Black, (m_SearchWord != "") ? (m_SearchWord + (m_Search ? "|" : "")).c_str() : "マウスをかざして入力…");
+				if (WindowSystem::CloseButton(xp2 - LineHeight - 1, yp1 + 1)) {
+					m_SearchWord = "";
+				}
+			}
+			const auto	GetIsHit(std::string Name) const noexcept {
+				if (m_SearchWord != "") {
+					SubStrs(&Name, ",");
+					SubStrs(&Name, ".");
+					SubStrs(&Name, "-");
+					SubStrs(&Name, " ");
+					SubStrs(&Name, "?");
+					SubStrs(&Name, "’");
+					SubStrs(&Name, "．");
+					std::transform(Name.begin(), Name.end(), Name.begin(), [](unsigned char c) { return (char)(std::tolower(c)); });
+					return (Name.find(m_SearchWord) != std::string::npos);
+				}
+				return true;//何も入力されていないので一応true
+			}
+		};
 	};
 	//
 	class DataErrorLog : public SingletonBase<DataErrorLog> {

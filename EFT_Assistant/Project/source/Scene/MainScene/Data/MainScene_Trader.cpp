@@ -5,6 +5,9 @@ namespace FPS_n2 {
 	void	TraderList::Load_Sub() noexcept {
 		for (auto& L : this->m_LvData) {
 			for (auto& C : L.m_ItemBarters) {
+				for (auto& T : C.m_TaskReq) {
+					T.CheckID(DataBase::Instance()->GetTaskData().get());
+				}
 				for (auto& T : C.m_ItemReq) {
 					T.CheckID(DataBase::Instance()->GetItemData().get());
 				}
@@ -28,7 +31,13 @@ namespace FPS_n2 {
 			if (count > 1) {
 				Name += " x" + std::to_string(count);
 			}
-			xofsbuf2 = WindowSystem::SetMsg(xp + xofsbuf, yp + yofsbuf, xp + xofsbuf, yp + yofsbuf + ysize2, ysize2, STRX_LEFT, White, Black, Name);
+			xofsbuf2 = WindowSystem::SetMsg(xp + xofsbuf, yp + yofsbuf, xp + xofsbuf, yp + yofsbuf + ysize2, ysize2, STRX_LEFT, White, Black, Name) + y_r(30);
+			for (const auto& w : cf.m_TaskReq) {
+				auto* ptr = DataBase::Instance()->GetTaskData()->FindPtr(w.GetID());
+				if (ptr) {
+					xofsbuf2 += ptr->Draw(xp + xofsbuf2, yp + yofsbuf, xsize2 * 10, ysize2, 0, !WindowMngr->PosHitCheck(window)) + y_r(5);
+				}
+			}
 			yofsbuf += ysize2 + y_r(5);
 		}
 		for (const auto& w : cf.m_ItemReq) {
@@ -44,6 +53,14 @@ namespace FPS_n2 {
 				auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(w.GetID());
 				if (ptr) {
 					xofsbuf += ptr->Draw(xp + xofsbuf, yp + yofsbuf, xsize2, ysize2, w.GetValue()*std::max(1, count), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true) + y_r(5);
+				}
+			}
+		}
+		if (!isdrawName) {
+			for (const auto& w : cf.m_TaskReq) {
+				auto* ptr = DataBase::Instance()->GetTaskData()->FindPtr(w.GetID());
+				if (ptr) {
+					xofsbuf += ptr->Draw(xp + xofsbuf, yp + yofsbuf, xsize2 * 10, ysize2, 0, !WindowMngr->PosHitCheck(window)) + y_r(5);
 				}
 			}
 		}
@@ -83,6 +100,11 @@ namespace FPS_n2 {
 					for (const auto&m : Ld["barters"]) {
 						L.m_ItemBarters.resize(L.m_ItemBarters.size() + 1);
 						auto& B = L.m_ItemBarters.back();
+						if (!m["taskUnlock"].is_null()) {
+							IDParents<TaskID> buf;
+							buf.SetName(m["taskUnlock"]["name"]);
+							B.m_TaskReq.emplace_back(buf);
+						}
 						for (const auto&I : m["requiredItems"]) {
 							ItemGetData buf;
 							buf.Set(I["item"]["name"], I["count"]);
@@ -101,6 +123,11 @@ namespace FPS_n2 {
 					for (const auto&m : Ld["cashOffers"]) {
 						L.m_ItemBarters.resize(L.m_ItemBarters.size() + 1);
 						auto& B = L.m_ItemBarters.back();
+						if (!m["taskUnlock"].is_null()) {
+							IDParents<TaskID> buf;
+							buf.SetName(m["taskUnlock"]["name"]);
+							B.m_TaskReq.emplace_back(buf);
+						}
 						{
 							ItemGetData buf;
 							buf.Set(m["currencyItem"]["name"], m["price"]);
@@ -115,6 +142,9 @@ namespace FPS_n2 {
 				}
 			}
 			for (auto& B : L.m_ItemBarters) {
+				for (auto& T : B.m_TaskReq) {
+					T.CheckID(DataBase::Instance()->GetTaskData().get());
+				}
 				for (auto& T : B.m_ItemReq) {
 					T.CheckID(DataBase::Instance()->GetItemData().get());
 				}
@@ -146,11 +176,18 @@ namespace FPS_n2 {
 			}
 			for (auto& c : L2.m_ItemBarters) {
 				//m_TaskReq
+				outputfile << LV + "taskUnlock=[";
+				for (auto& m : c.m_TaskReq) {
+					outputfile << m.GetName();
+					if (&m != &c.m_TaskReq.back()) {
+						outputfile << DIV_STR;
+					}
+				}
+				outputfile << "]\n";
 				{
 					outputfile << LV + "BarteritemReq=[";
 					for (auto& m : c.m_ItemReq) {
-						outputfile << DataBase::Instance()->GetItemData()->FindPtr(m.GetID())->GetName();
-						outputfile << "x" + std::to_string(m.GetValue());
+						outputfile << m.GetOutputStr();
 						if (&m != &c.m_ItemReq.back()) {
 							outputfile << DIV_STR;
 						}
@@ -160,8 +197,7 @@ namespace FPS_n2 {
 				{
 					outputfile << LV + "BarteritemReward=[";
 					for (auto& m : c.m_ItemReward) {
-						outputfile << DataBase::Instance()->GetItemData()->FindPtr(m.GetID())->GetName();
-						outputfile << "x" + std::to_string(m.GetValue());
+						outputfile << m.GetOutputStr();
 						if (&m != &c.m_ItemReward.back()) {
 							outputfile << DIV_STR;
 						}

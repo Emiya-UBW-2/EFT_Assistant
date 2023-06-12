@@ -21,6 +21,7 @@ namespace FPS_n2 {
 		switchs					m_CtrlKey;
 		switchs					m_BackSpaceKey;
 		std::array<switchs, 26>	m_AtoZKey;
+		std::array<switchs, 10>	m_NumKey;
 
 		int						m_WheelAdd{ 0 };
 		bool					m_ScaleActive{ true };
@@ -34,6 +35,9 @@ namespace FPS_n2 {
 			m_CtrlKey.Set(false);
 			m_BackSpaceKey.Set(false);
 			for (auto& k : this->m_AtoZKey) {
+				k.Set(false);
+			}
+			for (auto& k : this->m_NumKey) {
 				k.Set(false);
 			}
 		}
@@ -58,7 +62,12 @@ namespace FPS_n2 {
 			}
 			return this->m_AtoZKey.at(0);
 		}
-
+		const auto&		GetNumKey(int Num) const noexcept {
+			if (0 <= Num && Num <= 9) {
+				return this->m_NumKey.at(Num);
+			}
+			return this->m_NumKey.at(0);
+		}
 		const auto&		GetWheelAdd(void) const noexcept { return this->m_WheelAdd; }
 		const auto&		GetScaleActive(void) const noexcept { return this->m_ScaleActive; }
 		void			SetScaleActive(bool value) noexcept { this->m_ScaleActive = value; }
@@ -112,6 +121,21 @@ namespace FPS_n2 {
 			};
 			for (int loop = 0; loop < this->m_AtoZKey.size(); loop++) {
 				m_AtoZKey[loop].Execute(CheckHitKeyWithCheck(KEYS[loop]) != 0);
+			}
+			int NUMKEYS[10] = {
+				KEY_INPUT_0,
+				KEY_INPUT_1,
+				KEY_INPUT_2,
+				KEY_INPUT_3,
+				KEY_INPUT_4,
+				KEY_INPUT_5,
+				KEY_INPUT_6,
+				KEY_INPUT_7,
+				KEY_INPUT_8,
+				KEY_INPUT_9,
+			};
+			for (int loop = 0; loop < this->m_NumKey.size(); loop++) {
+				m_NumKey[loop].Execute(CheckHitKeyWithCheck(NUMKEYS[loop]) != 0);
 			}
 			m_WheelAdd = GetMouseWheelRotVolWithCheck();
 		}
