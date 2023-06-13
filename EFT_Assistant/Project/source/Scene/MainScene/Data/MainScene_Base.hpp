@@ -146,9 +146,10 @@ namespace FPS_n2 {
 			const char* queryPath,
 			const char* OutputPath,
 			const char* dataJsonName,
-			int ofsetValue = 20
+			int ofsetValue = 20,
+			bool fastDo = false
 		) noexcept {
-			if (WindowSystem::ClickCheckBox(XPos, YPos, XPos + Xsize, YPos + Ysize, false, IsActive, Color, mes)) {
+			if (WindowSystem::ClickCheckBox(XPos, YPos, XPos + Xsize, YPos + Ysize, false, IsActive, Color, mes) || fastDo) {
 				auto BaseTime = GetNowHiPerformanceCount();
 				int count = 0;
 				switch (EnumDataType_t) {

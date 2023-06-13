@@ -141,6 +141,55 @@ namespace FPS_n2 {
 				TimeCard();
 			}
 			YPos += Ysize + y_r(5);
+			if (WindowSystem::ClickCheckBox(XPos, YPos, XPos + Xsize, YPos + Ysize, false, (ttt == -1), Color, "全て更新")) {
+				if (DataBase::Instance()->DataUpdate(
+					EnumDataType::ITEMDATA,
+					XPos, YPos, Xsize, Ysize, (ttt == -1), Color, "アイテム更新",
+					"data/query/barter_query.txt",
+					"data/item/Maked/Maked/",
+					"items",
+					20, true
+				)) {
+				}
+				if (DataBase::Instance()->DataUpdate(
+					EnumDataType::ITEMDATAJP,
+					XPos, YPos, Xsize, Ysize, (ttt == -1), Color, "アイテム日本語更新",
+					"data/query/barter_ja_query.txt",
+					"data/item/Maked/Maked/",
+					"items",
+					20, true
+				)) {
+				}
+				if (DataBase::Instance()->DataUpdate(
+					EnumDataType::TASKDATA,
+					XPos, YPos, Xsize, Ysize, (ttt == -1), Color, "タスク更新",
+					"data/query/task_query.txt",
+					"data/task/Maked/",
+					"tasks",
+					20, true
+				)) {
+				}
+				if (DataBase::Instance()->DataUpdate(
+					EnumDataType::HIDEOUTDATA,
+					XPos, YPos, Xsize, Ysize, (ttt == -1), Color, "ハイドアウト更新",
+					"data/query/hideout_query.txt",
+					"data/Hideout/Maked/Maked",
+					"hideoutStations",
+					20, true
+				)) {
+				}
+				if (DataBase::Instance()->DataUpdate(
+					EnumDataType::TRADERDATA,
+					XPos, YPos, Xsize, Ysize, (ttt == -1), Color, "トレーダー更新",
+					"data/query/trader_query.txt",
+					"data/trader/Maked",
+					"traders",
+					1, true
+				)) {
+				}
+				TimeCard();
+			}
+			YPos += Ysize + y_r(5);
 			if (!(ttt == -1)) {
 				WindowSystem::SetMsg(XPos, YPos, XPos + Xsize, YPos + Ysize, Ysize, STRX_MID, White, Black, "更新可能まで %2d:%02d", (TotalTime - NowTime) / 1000 / 60, ((TotalTime - NowTime) / 1000) % 60);
 			}
