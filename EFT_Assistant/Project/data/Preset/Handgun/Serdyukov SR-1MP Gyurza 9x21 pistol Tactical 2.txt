@@ -1,0 +1,6 @@
+Name=Serdyukov SR-1MP Gyurza 9x21 pistol Tactical 2
+Base=Serdyukov SR-1MP Gyurza 9x21 pistol
+Parts=SR-1MP quad rail mount
+Parts=SR-1MP sound suppressor mount
+Parts=SR-1MP 9x21 sound suppressor
+Parts=SR-1MP 9x21 18-round magazine

@@ -1,0 +1,11 @@
+Name=FN P90 5.7x28 submachine gun Default
+Base=FN P90 5.7x28 submachine gun
+Parts=FN P90 5.7x28 50-round magazine
+Parts=FN P90 stock
+Parts=FN P90 buttpad
+Parts=FN P90 5.7x28 upper receiver
+Parts=FN P90 Ring Sight reflex sight
+Parts=FN P90 upper receiver side rail
+Parts=FN P90 5.7x28 10.5 inch barrel
+Parts=FN P90 5.7x28 flash hider
+Parts=FN P90 charging handle

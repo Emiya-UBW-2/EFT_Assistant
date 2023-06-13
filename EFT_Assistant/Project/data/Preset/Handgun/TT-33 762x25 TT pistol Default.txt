@@ -1,0 +1,5 @@
+Name=TT-33 7.62x25 TT pistol Default
+Base=TT-33 7.62x25 TT pistol
+Parts=TT 7.62x25 116mm barrel
+Parts=TT side grips
+Parts=TT 7.62x25 tt-105 8-round magazine

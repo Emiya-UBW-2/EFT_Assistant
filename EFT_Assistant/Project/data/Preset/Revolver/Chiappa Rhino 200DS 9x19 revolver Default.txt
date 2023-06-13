@@ -1,0 +1,5 @@
+Name=Chiappa Rhino 200DS 9x19 revolver Default
+Base=Chiappa Rhino 200DS 9x19 revolver
+Parts=Chiappa Rhino 9x19 6-round cylinder
+Parts=Chiappa Rhino front sight
+Parts=Chiappa Rhino wooden pistol grip

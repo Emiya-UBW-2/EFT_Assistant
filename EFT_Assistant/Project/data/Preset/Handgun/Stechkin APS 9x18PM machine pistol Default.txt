@@ -1,0 +1,6 @@
+Name=Stechkin APS 9x18PM machine pistol Default
+Base=Stechkin APS 9x18PM machine pistol
+Parts=APS 9x18PM 20-round magazine
+Parts=APS bakelite side-pieces
+Parts=APS front sight
+Parts=APS rear sight

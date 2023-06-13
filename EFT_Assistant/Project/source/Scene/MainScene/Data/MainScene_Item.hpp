@@ -1277,6 +1277,7 @@ namespace FPS_n2 {
 		const auto	GetRecoilHorizontal() const noexcept { return m_ItemsData.m_properties.GetWeaponRecoilHorizontal(); }
 		const auto	GetWeaponErgonomics() const noexcept { return this->m_ItemsData.m_properties.GetWeaponErgonomics(); }
 		const auto	GetIsPreset() const noexcept { return this->m_ItemsData.m_properties.GetType() == EnumItemProperties::ItemPropertiesPreset; }
+		const auto	GetIsWeapon() const noexcept { return this->m_ItemsData.m_properties.GetType() == EnumItemProperties::ItemPropertiesWeapon; }
 	public:
 		void		SetParent() noexcept;
 		const auto	GetSellValue(TraderID* ID, int* pValue) const noexcept {
@@ -1440,13 +1441,6 @@ namespace FPS_n2 {
 					SubStrs(&FileName, ".");
 					SubStrs(&FileName, "\\");
 					SubStrs(&FileName, "/");
-					SubStrs(&FileName, ":");
-					SubStrs(&FileName, "*");
-					SubStrs(&FileName, "?");
-					SubStrs(&FileName, "\"");
-					SubStrs(&FileName, ">");
-					SubStrs(&FileName, "<");
-					SubStrs(&FileName, "|");
 					std::string Name = FileName + ".txt";
 
 					jd->OutputData(ChildPath + Name);
@@ -1480,7 +1474,11 @@ namespace FPS_n2 {
 				}
 			}
 			outputfile.close();
+
+			//プリセットデータに反映
+			OutputPresetbyJson();
 		}
+		void OutputPresetbyJson(void) noexcept;
 	private:
 		std::vector<std::unique_ptr<ItemJpInfoData>> m_ItemJpInfoData;
 	public:

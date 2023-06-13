@@ -1,0 +1,14 @@
+Name=HK G36 5.56x45 assault rifle C
+Base=HK G36 5.56x45 assault rifle
+Parts=HK G36 5.56x45 30-round magazine
+Parts=HK G36 polymer stock
+Parts=HK G36 5.56x45 228mm barrel
+Parts=HK G36C 5.56x45 4-prong flash hider
+Parts=HK G36 gas block
+Parts=HK G36 2-vent handguard
+Parts=HK G36 bottom handguard rail
+Parts=HK G36 hand stop
+Parts=HK G36 magwell
+Parts=HK G36 sight mount
+Parts=HK G36 front sight
+Parts=HK G36 rear sight

@@ -1,0 +1,17 @@
+Name=Colt M4A1 5.56x45 assault rifle USASOC-II
+Base=Colt M4A1 5.56x45 assault rifle
+Parts=AR-15 Damage Industries ECS pistol grip (FDE)
+Parts=5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazine (FDE)
+Parts=M4A1 5.56x45 upper receiver
+Parts=EOTech HHS-1 hybrid sight (Tan)
+Parts=AR-15 5.56x45 370mm barrel
+Parts=AR-15 SureFire SF4P FH556RC 5.56x45 flash hider
+Parts=SureFire SOCOM556-RC2 5.56x45 sound suppressor
+Parts=AR-15 Daniel Defense MK12 Low Profile Gas Block
+Parts=AR-15 Geissele SMR MK16 13.5 inch M-LOK handguard
+Parts=LA-5B/PEQ tactical device
+Parts=KAC Folding front sight
+Parts=KAC Folding rear sight
+Parts=Colt Carbine buffer tube
+Parts=LMT SOPMOD stock
+Parts=AR-15 Geissele ACH charging handle

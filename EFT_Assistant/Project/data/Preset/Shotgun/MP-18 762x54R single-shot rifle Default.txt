@@ -1,0 +1,5 @@
+Name=MP-18 7.62x54R single-shot rifle Default
+Base=MP-18 7.62x54R single-shot rifle
+Parts=MP-18 7.62x54R 600mm barrel
+Parts=MP-18 wooden handguard
+Parts=MP-18 wooden stock

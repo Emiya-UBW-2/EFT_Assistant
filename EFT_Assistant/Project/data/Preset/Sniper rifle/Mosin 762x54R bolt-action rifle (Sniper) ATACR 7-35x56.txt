@@ -1,0 +1,10 @@
+Name=Mosin 7.62x54R bolt-action rifle (Sniper) ATACR 7-35x56
+Base=Mosin 7.62x54R bolt-action rifle (Sniper)
+Parts=Mosin Rifle 7.62x54R ProMag Archangel OPFOR 10-round magazine
+Parts=Mosin Rifle ProMag Archangel OPFOR PRS chassis
+Parts=Mosin Rifle 7.62x54R 730mm regular barrel
+Parts=Mosin Rifle front sight
+Parts=Mosin Rifle AIM Sports Tri-Rail mount
+Parts=Nightforce Magmount 34mm ring scope mount
+Parts=Nightforce ATACR 7-35x56 34mm riflescope
+Parts=Mosin Rifle Bramit 7.62x54R sound suppressor

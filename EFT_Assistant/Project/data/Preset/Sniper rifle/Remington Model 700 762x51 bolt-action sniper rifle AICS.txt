@@ -1,0 +1,7 @@
+Name=Remington Model 700 7.62x51 bolt-action sniper rifle AICS
+Base=Remington Model 700 7.62x51 bolt-action sniper rifle
+Parts=M700 7.62x51 AI AICS 5-round magazine
+Parts=M700 AI AT AICS polymer chassis
+Parts=Strike Industries KeyMod 4 inch rail
+Parts=M700 7.62x51 20 inch threaded barrel
+Parts=M700 thread protection cap

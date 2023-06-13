@@ -1,0 +1,8 @@
+Name=Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle Urbana
+Base=Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle
+Parts=DVL-10 7.62x51 10-round magazine
+Parts=DVL-10 M2 7.62x51 660mm barrel
+Parts=DVL-10 M2 7.62x51 muzzle brake
+Parts=DVL-10 M2 handguard
+Parts=Hogue OverMolded Rubber Grip (Olive Drab)
+Parts=Lobaev Arms stock

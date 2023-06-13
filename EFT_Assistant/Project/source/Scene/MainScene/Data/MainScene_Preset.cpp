@@ -6,5 +6,11 @@ namespace FPS_n2 {
 		for (auto& P : this->m_PartsIDBuffer) {
 			m_Parts.emplace_back(DataBase::Instance()->GetItemData()->FindPtr(DataBase::Instance()->GetItemData()->FindID(P.c_str())));
 		}
+		if (GetName().find("Default") != std::string::npos) {
+			SetShortName("デフォルト");
+		}
+		else if (m_Base->GetName().length() < GetName().length()) {
+			SetShortName(GetName().substr(m_Base->GetName().length()));
+		}
 	}
 };

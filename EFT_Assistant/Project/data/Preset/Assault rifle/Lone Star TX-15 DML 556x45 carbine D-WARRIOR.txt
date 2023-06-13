@@ -1,0 +1,17 @@
+Name=Lone Star TX-15 DML 5.56x45 carbine D-WARRIOR
+Base=Lone Star TX-15 DML 5.56x45 carbine
+Parts=AR-15 Tactical Dynamics Skeletonized pistol grip
+Parts=5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine (FDE)
+Parts=AR-15 Vltor MUR-1S 5.56x45 upper receiver
+Parts=EOTech HHS-1 hybrid sight (Tan)
+Parts=AR-15 5.56x45 260mm barrel
+Parts=AR-15 Daniel Defense WAVE 5.56x45 muzzle brake
+Parts=Daniel Defense WAVE QD sound suppressor
+Parts=AR-15 JP Enterprises Gas System-5B
+Parts=AR-15 KAC URX 3 8 inch handguard
+Parts=KAC URX 3/3.1 short panel (FDE)
+Parts=Holosun LS321 Tactical device
+Parts=AR-15 KAC URX 3 8 inch lower handguard
+Parts=KAC URX 3/3.1 stopper panel (FDE)
+Parts=TROY M7A1 PDW stock (FDE)
+Parts=AR-15 HK Extended Latch charging handle

@@ -1,0 +1,9 @@
+Name=Glock 17 9x19 pistol Tac 2
+Base=Glock 17 9x19 pistol
+Parts=Glock 9x19 Double Diamond threaded barrel
+Parts=SilencerCo Osprey 9 9x19 sound suppressor
+Parts=Glock 17 9x19 pistol slide
+Parts=Glock 9x19 Magpul PMAG GL9 21-round magazine
+Parts=Glock Aimtech mount base
+Parts=Burris FastFire Weaver Base
+Parts=Burris FastFire 3 reflex sight

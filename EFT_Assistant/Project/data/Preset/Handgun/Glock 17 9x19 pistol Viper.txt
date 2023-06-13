@@ -1,0 +1,9 @@
+Name=Glock 17 9x19 pistol Viper
+Base=Glock 17 9x19 pistol
+Parts=Glock 9x19 Lone Wolf AlphaWolf threaded barrel
+Parts=Glock 9x19 CARVER Custom 4 Port compensator
+Parts=Glock Viper Cut pistol slide
+Parts=Glock 9x19 "Big Stick" 33-round magazine
+Parts=UM Tactical UM3 pistol sight mount
+Parts=DeltaPoint Cross Slot Mount base
+Parts=Leupold DeltaPoint Reflex Sight

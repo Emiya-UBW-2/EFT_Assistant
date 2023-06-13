@@ -1,8 +1,0 @@
-Name=ASVAL_Normal
-Base=AS VAL 9x39 special assault rifle
-Parts=AS VAL 9x39 integral barrel-suppressor
-Parts=AS VAL rear sight
-Parts=AS VAL pistol grip
-Parts=AS VAL dust cover
-Parts=AS VAL skeleton stock
-Parts=VSS 9x39 6L25 20-round magazine

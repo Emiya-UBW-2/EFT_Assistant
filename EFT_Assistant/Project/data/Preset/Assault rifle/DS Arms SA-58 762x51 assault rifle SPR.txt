@@ -1,0 +1,11 @@
+Name=DS Arms SA-58 7.62x51 assault rifle SPR
+Base=DS Arms SA-58 7.62x51 assault rifle
+Parts=SA-58 SAW-style pistol grip (Black)
+Parts=SA-58/FAL 7.62x51 MMW polymer 20-round magazine
+Parts=SA-58/FAL Vltor CASV-FAL handguard
+Parts=SA-58 7.62x51 21 inch barrel
+Parts=SA-58 Holland Type rear sight
+Parts=SA-58 Extreme Duty dust cover
+Parts=SA-58 SPR stock
+Parts=Vltor CASV 5 inch rail
+Parts=SA-58 3-Prong Trident 7.62x51 flash hider

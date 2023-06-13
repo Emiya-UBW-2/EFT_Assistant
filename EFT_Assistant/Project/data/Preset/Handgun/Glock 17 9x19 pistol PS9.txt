@@ -1,0 +1,11 @@
+Name=Glock 17 9x19 pistol PS9
+Base=Glock 17 9x19 pistol
+Parts=Glock 9x19 Double Diamond threaded barrel
+Parts=Glock Polymer80 PS9 pistol slide
+Parts=Glock Aimtech Tiger Shark sight mount
+Parts=Glock 9x19 Double Diamond flash hider
+Parts=Trijicon RMR low profile mount
+Parts=Trijicon RMR reflex sight
+Parts=Glock rear sight
+Parts=Glock front sight
+Parts=Glock 9x19 17-round magazine

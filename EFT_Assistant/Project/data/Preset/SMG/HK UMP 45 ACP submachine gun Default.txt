@@ -1,0 +1,7 @@
+Name=HK UMP .45 ACP submachine gun Default
+Base=HK UMP .45 ACP submachine gun
+Parts=HK UMP .45 ACP 25-round magazine
+Parts=HK UMP polymer stock
+Parts=HK UMP .45 ACP 8 inch barrel
+Parts=HK UMP bottom handguard rail
+Parts=HK UMP side handguard rail

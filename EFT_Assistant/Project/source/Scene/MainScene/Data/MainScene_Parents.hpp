@@ -56,6 +56,7 @@ namespace FPS_n2 {
 		const auto		GetColorRGB(int no) const noexcept { return std::clamp(m_Color[no], 1, 255); }
 		const auto		GetColors(int colorAdd) const noexcept { return DxLib::GetColor(std::clamp(m_Color[0] + colorAdd, 1, 255), std::clamp(m_Color[1] + colorAdd, 1, 255), std::clamp(m_Color[2] + colorAdd, 1, 255)); }
 		const auto&		GetIcon() const noexcept { return this->m_Icon; }
+		void			SetShortName(std::string_view value) noexcept { m_ShortName = value; }
 	public:
 		void			Set(const char* FilePath, ID id, const char* IconPath = nullptr) noexcept {
 			m_FilePath = FilePath;
@@ -342,7 +343,6 @@ namespace FPS_n2 {
 			SubStrs(&m_Path, "\"");
 			SubStrs(&m_Path, ">");
 			SubStrs(&m_Path, "<");
-			SubStrs(&m_Path, "|");
 			SubStrs(&m_Path, "|");
 
 			m_SetFinish = false;

@@ -1,6 +1,0 @@
-Name=MP155_Normal
-Base=MP-155 12ga semi-automatic shotgun
-Parts=MP-155 12ga 510mm barrel
-Parts=MP-155 walnut forestock
-Parts=MP-155 walnut stock
-Parts=MP-155 12ga 6-shell magazine

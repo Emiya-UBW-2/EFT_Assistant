@@ -1,0 +1,15 @@
+Name=Lone Star TX-15 DML 5.56x45 carbine Default
+Base=Lone Star TX-15 DML 5.56x45 carbine
+Parts=AR-15 Magpul MOE pistol grip (Black)
+Parts=5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazine
+Parts=TX-15 5.56x45 Lightweight upper receiver
+Parts=AR-15 5.56x45 18 inch barrel
+Parts=AR-15 Thunder Beast Arms 223CB 5.56x45 muzzle brake
+Parts=Thunder Beast Arms Ultra 5 sound suppressor
+Parts=AR-15 Daniel Defense MK12 Low Profile Gas Block
+Parts=AR-15 Lone Star Ion Lite handguard
+Parts=Magpul M-LOK 2.5 inch rail
+Parts=Magpul M-LOK 4.1 inch rail
+Parts=Colt Carbine buffer tube
+Parts=Magpul PRS GEN3 stock (Grey)
+Parts=AR-15 Radian Weapons Raptor charging handle (Grey)

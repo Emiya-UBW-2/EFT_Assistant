@@ -1,0 +1,14 @@
+Name=SIG MPX 9x19 submachine gun Default
+Base=SIG MPX 9x19 submachine gun
+Parts=MPX pistol grip
+Parts=MPX 9x19 30-round magazine
+Parts=MPX GEN1 9x19 upper receiver
+Parts=MPX 9x19 203mm barrel
+Parts=MPX A2 9x19 flash hider
+Parts=MPX GEN1 handguard
+Parts=MPX flip-up front sight
+Parts=MPX GEN1 handguard 2 inch rail
+Parts=MPX GEN1 handguard 4 inch rail
+Parts=MPX flip-up rear sight
+Parts=MPX/MCX collapsing/telescoping stock
+Parts=MPX double latch charging handle

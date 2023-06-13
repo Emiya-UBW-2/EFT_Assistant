@@ -1,0 +1,10 @@
+Name=DS Arms SA-58 7.62x51 assault rifle AUT
+Base=DS Arms SA-58 7.62x51 assault rifle
+Parts=SA-58 pistol grip
+Parts=SA-58/FAL 7.62x51 20-round magazine
+Parts=FAL original handguard
+Parts=SA-58 7.62x51 21 inch barrel
+Parts=SA-58 Austrian Style 7.62x51 muzzle brake
+Parts=SA-58 Holland Type rear sight
+Parts=FAL standard dust cover
+Parts=SA-58 humpback polymer stock

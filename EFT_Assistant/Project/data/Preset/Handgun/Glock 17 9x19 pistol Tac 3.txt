@@ -1,0 +1,10 @@
+Name=Glock 17 9x19 pistol Tac 3
+Base=Glock 17 9x19 pistol
+Parts=Glock 17 9x19 barrel
+Parts=Glock Pachmayr Tactical Grip Glove
+Parts=Glock 17 9x19 pistol slide
+Parts=Glock ZEV Tech rear sight
+Parts=Glock ZEV Tech front sight
+Parts=Glock 9x19 Strike Industries G4 SlideComp compensator
+Parts=Glock 9x19 SGM Tactical 50-round drum magazine
+Parts=SureFire XC1 tactical flashlight

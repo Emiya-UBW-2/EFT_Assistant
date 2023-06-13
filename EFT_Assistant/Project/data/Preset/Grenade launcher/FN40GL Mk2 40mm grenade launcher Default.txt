@@ -1,0 +1,3 @@
+Name=FN40GL Mk2 40mm grenade launcher Default
+Base=FN40GL Mk2 40mm grenade launcher
+Parts=AR-15 Damage Industries ECS pistol grip (FDE)

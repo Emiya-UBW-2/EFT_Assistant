@@ -1,0 +1,7 @@
+Name=HK MP7A1 4.6x30 submachine gun Default
+Base=HK MP7A1 4.6x30 submachine gun
+Parts=HK MP7 4.6x30 20-round magazine
+Parts=HK MP7A1 4.6x30 flash hider
+Parts=HK MP7 flip-up front sight
+Parts=HK MP7 flip-up rear sight
+Parts=HK MP7A1 stock

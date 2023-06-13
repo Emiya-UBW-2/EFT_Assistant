@@ -1,0 +1,7 @@
+Name=Mosin 7.62x54R bolt-action rifle (Infantry) Default
+Base=Mosin 7.62x54R bolt-action rifle (Infantry)
+Parts=Mosin Rifle 7.62x54R 5-round magazine
+Parts=Mosin Rifle Infantry stock
+Parts=Mosin Rifle 7.62x54R 730mm regular barrel
+Parts=Mosin Rifle front sight
+Parts=Mosin Rifle rear sight

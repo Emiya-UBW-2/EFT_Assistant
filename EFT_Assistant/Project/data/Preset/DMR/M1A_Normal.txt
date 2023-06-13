@@ -1,9 +1,0 @@
-Name=M1A_Normal
-Base=Springfield Armory M1A 7.62x51 rifle
-Parts=M1A 7.62x51 16 inch barrel
-Parts=M1A SOCOM 16 7.62x51 muzzle brake-compensator
-Parts=M1A SA National Match .062 Blade front sight
-Parts=M14 SA Enlarged Military Aperture rear sight
-Parts=M1A SOCOM 16 stock
-Parts=M1A SOCOM 16 upper part
-Parts=M1A 7.62x51 20-round magazine

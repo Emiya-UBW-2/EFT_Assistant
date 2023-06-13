@@ -1,0 +1,9 @@
+Name=B&T MP9-N 9x19 submachine gun Default
+Base=B&T MP9-N 9x19 submachine gun
+Parts=MP9 9x19 30-round magazine
+Parts=MP9 stock
+Parts=MP9-N vertical foregrip
+Parts=MP9-N 9x19 upper receiver
+Parts=MP9 rear sight
+Parts=MP9 side rail
+Parts=MP9 charging handle

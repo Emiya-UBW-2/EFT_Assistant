@@ -1,0 +1,6 @@
+Name=PPSh-41 7.62x25 submachine gun Default
+Base=PPSh-41 7.62x25 submachine gun
+Parts=PPSh-41 stock
+Parts=PPSh-41 7.62x25 35-round magazine
+Parts=PPSh-41 dust cover
+Parts=PPSh-41 7.62x25 10.6 inch barrel

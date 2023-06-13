@@ -1,0 +1,9 @@
+Name=Beretta M9A3 9x19 pistol Default
+Base=Beretta M9A3 9x19 pistol
+Parts=M9A3 9x19 threaded barrel
+Parts=M9A3 thread protection cap
+Parts=M9A3 polymer side grips
+Parts=M9A3 9x19 pistol slide
+Parts=M9A3 rear sight
+Parts=M9A3 front sight
+Parts=M9A3 9x19 17-round magazine

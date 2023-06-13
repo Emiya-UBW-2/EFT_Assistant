@@ -1,0 +1,4 @@
+Name=MP-43-1C 12ga double-barrel shotgun Default
+Base=MP-43-1C 12ga double-barrel shotgun
+Parts=MP-43-1C 12ga 725mm barrel
+Parts=MP-43-1C buttpad

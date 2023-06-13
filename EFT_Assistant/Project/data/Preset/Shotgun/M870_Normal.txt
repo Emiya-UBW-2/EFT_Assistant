@@ -1,6 +1,0 @@
-Name=M870_Normal
-Base=Remington Model 870 12ga pump-action shotgun
-Parts=M870 12ga 508mm barrel with a fixed sight
-Parts=M870 SpeedFeed Short handguard
-Parts=M870 SPS polymer stock
-Parts=M870 12ga 4-shell magazine cap

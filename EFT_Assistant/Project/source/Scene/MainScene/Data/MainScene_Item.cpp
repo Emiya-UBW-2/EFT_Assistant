@@ -616,4 +616,56 @@ namespace FPS_n2 {
 		}
 		UpdateAfterbyJson_Sub();
 	}
+
+	void ItemData::OutputPresetbyJson(void) noexcept {
+		for (const auto& jd : GetJsonDataList()) {
+			auto& itemdata = (dynamic_cast<ItemJsonData*>(jd.get()))->GetItemsData();
+			if (itemdata.m_properties.GetType() == EnumItemProperties::ItemPropertiesPreset) {
+				ItemList* ptr = nullptr;
+				for (const auto& I : itemdata.m_properties.GetContainsItem()) {
+					ItemList* ptrBuf = DataBase::Instance()->GetItemData()->FindPtr(DataBase::Instance()->GetItemData()->FindID(I.GetName()));
+					if (ptrBuf && ptrBuf->GetIsWeapon()) {
+						ptr = ptrBuf;
+						break;
+					}
+				}
+				if (ptr) {
+					std::string ChildPath = "data/Preset/";
+
+					auto* typePtr = DataBase::Instance()->GetItemTypeData()->FindPtr(ptr->GetTypeID());
+					if (typePtr) {
+						ChildPath += typePtr->GetName() + "/";
+
+						CreateDirectory(ChildPath.c_str(), NULL);
+					}
+					std::string FileName = jd->m_name;
+					SubStrs(&FileName, ".");
+					SubStrs(&FileName, "\\");
+					SubStrs(&FileName, "/");
+					SubStrs(&FileName, ":");
+					SubStrs(&FileName, "*");
+					SubStrs(&FileName, "?");
+					SubStrs(&FileName, "\"");
+					SubStrs(&FileName, ">");
+					SubStrs(&FileName, "<");
+					SubStrs(&FileName, "|");
+					std::string Name = FileName + ".txt";
+
+					{
+						std::ofstream outputfile(ChildPath + Name);
+						outputfile << "Name=" + jd->m_name + "\n";
+						outputfile << "Base=" + ptr->GetName() + "\n";
+						for (const auto& I : itemdata.m_properties.GetContainsItem()) {
+							ItemList* ptrBuf = DataBase::Instance()->GetItemData()->FindPtr(DataBase::Instance()->GetItemData()->FindID(I.GetName()));
+							if (ptrBuf && !ptrBuf->GetIsWeapon()) {
+								outputfile << "Parts=" + ptrBuf->GetName() + "\n";
+							}
+						}
+						outputfile.close();
+					}
+				}
+			}
+		}
+	}
+	
 };

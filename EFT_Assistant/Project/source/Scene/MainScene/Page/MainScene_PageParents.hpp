@@ -47,6 +47,21 @@ namespace FPS_n2 {
 			int xsize = (m_ListXSize != 0) ? m_ListXSize : y_r(400);
 			int ysize = LineHeight - y_r(3);
 			int count = 0;
+			//
+			{
+				int yp_t = yp1;
+				if (isAllSelect) {
+					yp_t += ysize + y_r(3);
+				}
+				for (const auto& L2 : List) {
+					if (!CheckLocal(&L2)) { continue; }
+					yp_t += ysize + y_r(3);
+					count++;
+				}
+				if (yp_t > y_r(1080 - 24)) {
+					ysize = (y_r(1080 - 24) - yp1) / (count) - y_r(3);
+				}
+			}
 
 			WindowSystem::SetMsg(xp1, yp1, xp1 + xsize, yp1 + ysize - y_r(5), ysize - y_r(5), STRX_MID, White, Black, Name);
 			yp1 += ysize;
@@ -66,7 +81,6 @@ namespace FPS_n2 {
 					*Select = (isActive) ? IDBuf : InvalidID;
 				}
 				yp_t += ysize + y_r(3);
-				count++;
 			}
 			if (count > 0 && isElseSelect) {//‚»‚Ì‘¼
 				bool ElseSelect = (*Select == ElseSelectID);

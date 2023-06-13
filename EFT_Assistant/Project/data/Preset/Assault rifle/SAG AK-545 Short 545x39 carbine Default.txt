@@ -1,0 +1,11 @@
+Name=SAG AK-545 Short 5.45x39 carbine Default
+Base=SAG AK-545 Short 5.45x39 carbine
+Parts=AK-545 SAG Mk. 2.1 gas tube
+Parts=AK-545 SAG Mk.3 handguard
+Parts=AK-545 SAG railed dust cover
+Parts=AK-545 SAG rear sight
+Parts=AK-74 PWS CQB 74 5.45x39 muzzle brake
+Parts=AK Strike Industries Enhanced Pistol Grip (Black)
+Parts=AK-545 SAG buffer tube
+Parts=High Standard M4SS Stock
+Parts=AK-74 5.45x39 6L23 30-round magazine

@@ -1,0 +1,7 @@
+Name=Molot VPO-215 "Gornostay" .366 TKM bolt-action rifle Default
+Base=Molot VPO-215 "Gornostay" .366 TKM bolt-action rifle
+Parts=VPO-215 "Gornostay" .366 TKM 4-round magazine
+Parts=VPO-215 "Gornostay" stock
+Parts=VPO-215 "Gornostay" .366TKM 23 inch barrel
+Parts=VPO-215 "Gornostay" thread protection cap
+Parts=VPO-215 "Gornostay" scope rail mount
