@@ -2,7 +2,6 @@ IDstr=596a101f86f7741ddb481582
 Name=Kind of Sabotage
 Trader=Skier
 
-NeedTask=Pharmacist
 NeedTask=Supply Plans
 NeedLevel=13
 
