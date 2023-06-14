@@ -43,9 +43,12 @@ namespace FPS_n2 {
 				//
 				if (LEFTBuf == "taskUnlock") {
 					data.m_ItemBarters.resize(data.m_ItemBarters.size() + 1);
+					data.m_ItemBarters.back().m_TaskReq.clear();
 					for (auto&a : Args) {
-						data.m_ItemBarters.back().m_TaskReq.resize(data.m_ItemBarters.back().m_TaskReq.size() + 1);
-						data.m_ItemBarters.back().m_TaskReq.back().SetName(a);
+						if (a != "") {
+							data.m_ItemBarters.back().m_TaskReq.resize(data.m_ItemBarters.back().m_TaskReq.size() + 1);
+							data.m_ItemBarters.back().m_TaskReq.back().SetName(a);
+						}
 					}
 				}
 				if (LEFTBuf == "BarteritemReq") {

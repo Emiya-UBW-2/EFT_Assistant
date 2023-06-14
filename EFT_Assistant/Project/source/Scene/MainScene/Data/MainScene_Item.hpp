@@ -1391,16 +1391,16 @@ namespace FPS_n2 {
 		void AfterLoadList()noexcept {
 			//
 			{
-				std::ifstream File("data/item/FleaMarketSell.txt");
+				std::ifstream File("data/item/TraderSell.txt");
 				std::string line;
 				while (std::getline(File, line)) {
 					if (line == "") { continue; }
 					auto LEFT = getparams::getleft(line);
-					auto RIGHT = getparams::getright(line);
+					auto Args = GetArgs(getparams::getright(line));
 					for (auto& L : this->m_List) {
 						if (L.GetIDstr() == LEFT) {
 							L.SetsellFor().resize(L.SetsellFor().size() + 1);
-							L.SetsellFor().back().Set("Flea Market", std::stoi(RIGHT));
+							L.SetsellFor().back().Set(Args[0], std::stoi(Args[1]));
 							break;
 						}
 					}
@@ -1459,15 +1459,12 @@ namespace FPS_n2 {
 				}
 			}
 
-			std::ofstream outputfile("data/item/FleaMarketSell.txt");
+			std::ofstream outputfile("data/item/TraderSell.txt");
 			for (auto& L : this->m_List) {
 				for (const auto& jd : GetJsonDataList()) {
 					if (L.GetIDstr() == jd->m_id) {
 						for (auto& sf : (dynamic_cast<ItemJsonData*>(jd.get()))->GetItemsData().m_sellFor) {
-							if (sf.GetName() == "Flea Market") {
-								outputfile << L.GetIDstr() + "=" + std::to_string(sf.GetValue()) + "\n";
-								break;
-							}
+							outputfile << L.GetIDstr() + "=[" + sf.GetName() + DIV_STR + std::to_string(sf.GetValue()) + "]\n";
 						}
 						break;
 					}

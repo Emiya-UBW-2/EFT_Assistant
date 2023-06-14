@@ -33,10 +33,6 @@ namespace FPS_n2 {
 		}
 		else if (LEFT == "width") { this->m_ItemsData.m_width = std::stoi(Args[0]); }
 		else if (LEFT == "height") { this->m_ItemsData.m_height = std::stoi(Args[0]); }
-		else if (LEFT.find("Sell_") != std::string::npos) {
-			this->m_ItemsData.m_sellFor.resize(this->m_ItemsData.m_sellFor.size() + 1);
-			this->m_ItemsData.m_sellFor.back().Set(LEFT.substr(strlenDx("Sell_")), std::stoi(Args[0]));
-		}
 		else if (LEFT == "weight") { this->m_ItemsData.m_weight = std::stof(Args[0]); }
 		else if (LEFT == "fleaMarketFee") { this->m_ItemsData.m_fleaMarketFee = std::stoi(Args[0]); }
 
@@ -46,9 +42,6 @@ namespace FPS_n2 {
 		this->m_ItemsData.m_TypeID.CheckID(DataBase::Instance()->GetItemTypeData().get());
 		for (auto& m : this->m_ItemsData.m_MapID) {
 			m.CheckID(DataBase::Instance()->GetMapData().get());
-		}
-		for (auto& s : this->m_ItemsData.m_sellFor) {
-			s.CheckID(DataBase::Instance()->GetTraderData().get(), false);//Invalidはフリマなのでエラー出さない
 		}
 		//
 		{
@@ -68,6 +61,9 @@ namespace FPS_n2 {
 		}
 	}
 	void			ItemList::SetParent() noexcept {
+		for (auto& s : this->m_ItemsData.m_sellFor) {
+			s.CheckID(DataBase::Instance()->GetTraderData().get(), false);//Invalidはフリマなのでエラー出さない
+		}
 		this->m_ItemsData.m_properties.SetParent();
 		//自分を干渉相手にしている奴を探してそいつもリストに入れる　相思相愛
 		for (const auto& t : DataBase::Instance()->GetItemData()->GetList()) {
@@ -576,11 +572,6 @@ namespace FPS_n2 {
 		outputfile << "width=" + std::to_string(this->m_ItemsData.m_width) + "\n";
 		outputfile << "height=" + std::to_string(this->m_ItemsData.m_height) + "\n";
 		outputfile << "weight=" + std::to_string(this->m_ItemsData.m_weight) + "\n";
-		for (auto& sf : this->m_ItemsData.m_sellFor) {
-			if (sf.GetName() != "Flea Market") {
-				outputfile << "Sell_" + sf.GetName() + "=" + std::to_string(sf.GetValue()) + "\n";
-			}
-		}
 		outputfile << "fleaMarketFee=" + std::to_string(this->m_ItemsData.m_fleaMarketFee) + "\n";
 		this->m_ItemsData.m_properties.OutputData(outputfile);
 	}
