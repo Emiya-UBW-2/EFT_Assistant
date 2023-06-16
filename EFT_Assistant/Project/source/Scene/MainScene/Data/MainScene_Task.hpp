@@ -347,7 +347,7 @@ namespace FPS_n2 {
 			//TaskObjectiveQuestItem
 			ItemGetData									m_QuestItem;
 			//TaskObjectiveShoot
-			EnemyID										target{ InvalidID };
+			IDParents<EnemyID>							target;
 			std::string									shotType;
 			std::vector<std::string>					bodyParts;
 			std::vector<std::string>					usingWeapon;

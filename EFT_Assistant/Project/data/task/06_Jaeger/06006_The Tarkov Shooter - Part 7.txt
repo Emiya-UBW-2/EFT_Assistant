@@ -42,7 +42,8 @@ NeedItem=[
 	Rotor 43 .366 TKM muzzle brake-compensatorx0/|
 	SIG Sauer SRD762Ti 7.62x51 sound suppressorx0/|
 	SIG Sauer SRD762-QD 7.62x51 sound suppressorx0/|
-	AI .338 LM Tactical Sound Moderatorx0
+	AI .338 LM Tactical Sound Moderatorx0/|
+	AWC Thor PSR XL multi-caliber sound suppressorx0
 ]
 Task_Else=距離: >= 45m
 

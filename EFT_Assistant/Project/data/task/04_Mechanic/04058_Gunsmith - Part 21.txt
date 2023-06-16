@@ -22,7 +22,7 @@ Task_Else=height >= 0
 Task_Else=magazineCapacity <= 5
 Task_Else=muzzleVelocity >= 0
 Task_Else=recoil <= 400
-Task_Else=weight <= 6
+Task_Else=weight >= 0
 Task_Else=width >= 0
 NeedItem=Colt M1911A1 .45 ACP pistolx1
 ContainsAll=M1911 Pachmayr American Legend Grip #423
@@ -36,7 +36,7 @@ Task_Else=height >= 0
 Task_Else=magazineCapacity >= 7
 Task_Else=muzzleVelocity >= 0
 Task_Else=recoil <= 750
-Task_Else=weight <= 1
+Task_Else=weight >= 0
 Task_Else=width >= 0
 
 [

@@ -84,15 +84,16 @@ Reward_Item=[
 	AR-15 Vltor MUR-1S 5.56x45 upper receiverx3
 ]
 
-Task_Map=Interchange
-Task_Map=Lighthouse
-Task_Map=Reserve
-Task_Map=Shoreline
-Task_Map=Woods
-Task_Map=Customs
 Task_Map=Factory
-Task_Map=Night Factory
 Task_Map=The Lab
+Task_Map=Night Factory
+Task_Map=Interchange
+Task_Map=Shoreline
+Task_Map=Lighthouse
+Task_Map=Customs
+Task_Map=Woods
+Task_Map=Reserve
+Task_Map=Streets of Tarkov
 Task_Else=脱出ステータス:[Killed in Action (KIA),Left the Action,Missing in Action (MIA)]
 
 [

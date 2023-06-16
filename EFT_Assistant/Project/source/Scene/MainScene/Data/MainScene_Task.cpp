@@ -404,8 +404,7 @@ namespace FPS_n2 {
 
 		if (data.contains("target")) {
 			if (!data["target"].is_null()) {
-				std::string buf = data["target"];
-				target = DataBase::Instance()->GetEnemyData()->FindID(buf.c_str());
+				target.SetName(data["target"]);
 			}
 		}
 		if (data.contains("shotType")) {
@@ -752,7 +751,7 @@ namespace FPS_n2 {
 			{
 				outputfile << "Task_Kill=[\n";
 				if (obj.m_Maps.size() == 0) {
-					outputfile << "\t" + DataBase::Instance()->GetEnemyData()->FindPtr(obj.target)->GetName();
+					outputfile << "\t" + obj.target.GetName();
 					if (obj.bodyParts.size() > 0) {
 						outputfile << "{";
 						for (auto& m2 : obj.bodyParts) {
@@ -768,7 +767,7 @@ namespace FPS_n2 {
 				}
 				else {
 					for (auto& m : obj.m_Maps) {
-						outputfile << "\t" + DataBase::Instance()->GetMapData()->FindPtr(m)->GetName() + "-" + DataBase::Instance()->GetEnemyData()->FindPtr(obj.target)->GetName();
+						outputfile << "\t" + DataBase::Instance()->GetMapData()->FindPtr(m)->GetName() + "-" + obj.target.GetName();
 						if (obj.bodyParts.size() > 0) {
 							outputfile << "{";
 							for (auto& m2 : obj.bodyParts) {

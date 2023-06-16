@@ -28,4 +28,4 @@ Reward_Item=[
 	Dollarsx1100
 ]
 
-Reward_EXP=12000
+Reward_EXP=8500

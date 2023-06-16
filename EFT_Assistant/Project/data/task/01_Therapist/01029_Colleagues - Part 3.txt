@@ -13,7 +13,7 @@ factionName=Any
 Task_Else=該当タスクColleagues - Part 3
 Task_Else=該当タスク状態:active
 NeedItem=TerraGroup Labs access keycardx10
-Task_NotFiR_HandOver=[TerraGroup Labs access keycardx10]
+Task_FiR_HandOver=[TerraGroup Labs access keycardx10]
 DogTagLv=0
 NeedItem=AHF1-M stimulant injectorx1
 Task_FiR_HandOver=[AHF1-M stimulant injectorx1]
@@ -64,10 +64,9 @@ Reward_Item=[
 	Roublesx150000/|
 	L1 (Norepinephrine) injectorx3/|
 	Meldonin injectorx3/|
-	TerraGroup Labs keycard (Black)x1/|
-	Grizzly medical kitx4/|
 	"Obdolbos 2" cocktail injectorx5/|
-	TerraGroup Labs keycard (Violet)x2/|
+	Grizzly medical kitx4/|
+	TerraGroup Labs keycard (Black)x1/|
 	Medicine casex1
 ]
 

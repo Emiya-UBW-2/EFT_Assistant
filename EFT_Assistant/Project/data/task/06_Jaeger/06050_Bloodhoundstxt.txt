@@ -1,0 +1,28 @@
+IDstr=64764abcd125ab430a14ccb5
+Name=Bloodhounds
+Trader=Jaeger
+
+NeedLevel=25
+
+CanRestart=true
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_Kill=[
+	arenaFighterEventx30
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Bloodhounds
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+15
+Reward_Item=[
+	MP-43-1C 12ga double-barrel shotgun Defaultx1/|
+	12/70 flechettex120
+]
+
+Reward_EXP=0

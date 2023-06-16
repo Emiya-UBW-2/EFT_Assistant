@@ -1,0 +1,118 @@
+IDstr=647710905320c660d91c15a5
+Name=Hint
+Trader=Skier
+
+NeedLevel=25
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_Kill=[
+	Reshalax1
+]
+Task_Kill=[
+	Glukharx1
+]
+Task_Kill=[
+	Killax1
+]
+Task_Kill=[
+	Shturmanx1
+]
+Task_Kill=[
+	Death Knightx1
+]
+Task_Kill=[
+	Big Pipex1
+]
+Task_Kill=[
+	Birdeyex1
+]
+Task_Kill=[
+	Sanitarx1
+]
+Task_Kill=[
+	Tagillax1
+]
+Task_Kill=[
+	Raiderx5
+]
+Task_Kill=[
+	Roguex5
+]
+Task_Kill=[
+	Cultist Priestx1
+]
+
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Reshala
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Glukhar
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Killa
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Shturman
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Knight
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Big Pipe
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Birdeye
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Sanitar
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Tagilla
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate Raiders
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate Rogues
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Priest
+	TaskOptional=false
+]
+
+Reward_Rep=Skier+15
+Reward_Item=[
+	TDI KRISS Vector Gen.2 9x19 submachine gunx1/|
+	TDI KRISS Vector Gen.2 .45 ACP submachine gunx1/|
+	Glock 9x19 "Big Stick" 33-round magazinex3/|
+	Glock .45 ACP KRISS G30 MagEx 30-round magazinex3
+]
+
+Reward_EXP=0

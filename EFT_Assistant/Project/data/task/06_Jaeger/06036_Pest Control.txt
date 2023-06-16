@@ -32,4 +32,4 @@ Reward_Item=[
 	Can of thermitex2
 ]
 
-Reward_EXP=15300
+Reward_EXP=7400
