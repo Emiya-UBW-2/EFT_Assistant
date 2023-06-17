@@ -33,6 +33,7 @@ namespace FPS_n2 {
 		Circle,
 		Line,
 		String,
+		StringAutoFit,
 		RotaGraph,
 	};
 	class DrawData {
@@ -93,6 +94,15 @@ namespace FPS_n2 {
 				FontPool::Instance()->Get((FontPool::FontType)m_intParam[0], this->m_intParam[1]).DrawString(
 					-1,
 					(FontHandle::FontXCenter)m_intParam[2], (FontHandle::FontYCenter)m_intParam[3],
+					m_intParam[4], this->m_intParam[5],
+					m_UintParam[0],
+					m_UintParam[1],
+					m_string.c_str()
+				);
+				break;
+			case DrawType::StringAutoFit:
+				FontPool::Instance()->Get((FontPool::FontType)m_intParam[0], this->m_intParam[1]).DrawStringAutoFit(
+					m_intParam[2], m_intParam[3],
 					m_intParam[4], this->m_intParam[5],
 					m_UintParam[0],
 					m_UintParam[1],
@@ -327,12 +337,12 @@ namespace FPS_n2 {
 		}
 		//
 		template <typename... Args>
-		void	SetString(DrawLayer Layer, FontPool::FontType type, int fontSize, FontHandle::FontXCenter FontX, FontHandle::FontYCenter FontY, int x, int y, unsigned int Color, unsigned int EdgeColor, const std::string& String, Args&&... args) noexcept {
-			if (String == "") { return; }
+		void	SetString(DrawLayer Layer, FontPool::FontType type, int fontSize, FontHandle::FontXCenter FontX, FontHandle::FontYCenter FontY, int x, int y, unsigned int Color, unsigned int EdgeColor, const std::string& Str, Args&&... args) noexcept {
+			if (Str == "") { return; }
 			auto* DrawParts = DXDraw::Instance();
 			auto* Fonts = FontPool::Instance();
 
-			int xSize = Fonts->Get(type, fontSize).GetStringWidth(-1, String.c_str(), args...);
+			int xSize = Fonts->Get(type, fontSize).GetStringWidth(-1, Str.c_str(), args...);
 
 			if ((y - fontSize) > DrawParts->m_DispYSize || (y + fontSize) < 0) { return; }				//‰æ–ÊŠO‚Í•\Ž¦‚µ‚È‚¢
 
@@ -365,8 +375,25 @@ namespace FPS_n2 {
 			Back->InputUintParam(1, EdgeColor);
 
 			char ptr[1024];
-			snprintfDx(ptr, 1024, String.c_str(), args...);
+			snprintfDx(ptr, 1024, Str.c_str(), args...);
 			Back->InputStringParam(ptr);
+		}
+		//
+		void	SetStringAutoFit(DrawLayer Layer, FontPool::FontType type, int fontSize, int x1, int y1, int x2, int y2, unsigned int Color, unsigned int EdgeColor, const std::string& Str) noexcept {
+			if (Str == "") { return; }
+			DrawData*Back = GetBack(Layer);
+			Back->InputType(DrawType::StringAutoFit);
+
+			Back->InputintParam(0, (int)type);
+			Back->InputintParam(1, fontSize);
+			Back->InputintParam(2, x1);
+			Back->InputintParam(3, y1);
+			Back->InputintParam(4, x2);
+			Back->InputintParam(5, y2);
+			Back->InputUintParam(0, Color);
+			Back->InputUintParam(1, EdgeColor);
+
+			Back->InputStringParam(Str);
 		}
 		//
 	public:

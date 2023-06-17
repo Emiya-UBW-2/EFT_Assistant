@@ -16,6 +16,9 @@ namespace FPS_n2 {
 		std::string						m_FilePath;
 		std::array<int, 3>				m_Color{ 0,0,0 };
 
+		std::string						m_Information_Eng;
+		std::string						m_Information_Jpn;
+
 		std::unique_ptr<std::thread>	m_SetJob{ nullptr };
 		bool							m_SetFinish{ false };
 
@@ -39,6 +42,13 @@ namespace FPS_n2 {
 			else if (LEFT == "ShortName") {
 				m_ShortName = Args[0];
 			}
+			else if (LEFT == "Information_Eng") {
+				m_Information_Eng = Args[0];
+			}
+			else if (LEFT == "Information_Jpn") {
+				m_Information_Jpn = Args[0];
+			}
+
 			SetSub(LEFT, Args);
 		}
 	protected:
@@ -57,6 +67,9 @@ namespace FPS_n2 {
 		const auto		GetColors(int colorAdd) const noexcept { return DxLib::GetColor(std::clamp(m_Color[0] + colorAdd, 1, 255), std::clamp(m_Color[1] + colorAdd, 1, 255), std::clamp(m_Color[2] + colorAdd, 1, 255)); }
 		const auto&		GetIcon() const noexcept { return this->m_Icon; }
 		void			SetShortName(std::string_view value) noexcept { m_ShortName = value; }
+
+		const auto&		GetInformation_Eng() const noexcept { return m_Information_Eng; }
+		const auto&		GetInformation_Jpn() const noexcept { return m_Information_Jpn; }
 	public:
 		void			Set(const char* FilePath, ID id, const char* IconPath = nullptr) noexcept {
 			m_FilePath = FilePath;
@@ -308,7 +321,7 @@ namespace FPS_n2 {
 		std::string									m_id;
 		std::string									m_name;
 		std::string									m_shortName;
-		std::string									m_description;
+		std::string									m_Information_Eng;
 	public:
 		virtual void	GetJsonSub(const nlohmann::json&) noexcept {}
 		virtual void	OutputDataSub(std::ofstream&) noexcept {}
@@ -324,10 +337,10 @@ namespace FPS_n2 {
 					m_shortName = data["shortName"];
 				}
 			}
-			m_description = "";
+			m_Information_Eng = "";
 			if (data.contains("description")) {
 				if (!data["description"].is_null()) {
-					m_description = data["description"];
+					m_Information_Eng = data["description"];
 				}
 			}
 
@@ -354,8 +367,8 @@ namespace FPS_n2 {
 				if (this->m_shortName != "") {
 					outputfile << "ShortName=" + this->m_shortName + "\n";
 				}
-				if (this->m_description != "") {
-					outputfile << "Information_Eng=" + this->m_description + "\n";
+				if (this->m_Information_Eng != "") {
+					outputfile << "Information_Eng=" + this->m_Information_Eng + "\n";
 				}
 				OutputDataSub(outputfile);
 				outputfile.close();

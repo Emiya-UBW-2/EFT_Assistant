@@ -11,7 +11,7 @@ namespace FPS_n2 {
 		};
 		//開放データ
 		int											constructionTime{ 0 };
-		std::string									Information_Eng;
+		std::string									m_Information_Eng;
 		std::vector<ItemGetData>					m_ItemReq;
 		std::vector<TraderGetData>					m_TraderReq;
 		std::vector<HideoutGetData>					m_Parent;

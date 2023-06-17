@@ -21,7 +21,6 @@ namespace FPS_n2 {
 	};
 	//
 	class TraderList : public ListParent<TraderID> {
-		std::string									Information_Eng;
 		std::string									PayItem;
 		std::vector<TraderLvData>					m_LvData;
 	public:
@@ -63,14 +62,12 @@ namespace FPS_n2 {
 				}
 			}
 			else {
-				if (LEFT == "Information_Eng") { Information_Eng = Args[0]; }
 				if (LEFT == "PayItem") { PayItem = Args[0]; }
 			}
 		}
 		void	Load_Sub() noexcept override;
 		void	WhenAfterLoad_Sub() noexcept override {}
 	public:
-		const auto&	GetInformation() const noexcept { return Information_Eng; }
 		const auto&	GetPayItem() const noexcept { return PayItem; }
 		const auto&	GetLvData() const noexcept { return this->m_LvData; }
 

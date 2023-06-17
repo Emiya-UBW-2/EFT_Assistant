@@ -1324,20 +1324,20 @@ namespace FPS_n2 {
 	public:
 		std::string									m_id;
 		std::string									m_name_jp;
-		std::string									m_description_jp;
+		std::string									m_Information_Jpn;
 	public:
 		const auto&	Getname_jp() const noexcept { return this->m_name_jp; }
-		const auto&	Getdescription_jp() const noexcept { return this->m_description_jp; }
+		const auto&	Getdescription_jp() const noexcept { return this->m_Information_Jpn; }
 	public:
 		void GetJson(const nlohmann::json& data) noexcept {
 			m_IsFileOpened = false;
 
 			m_id = data["id"];
 			m_name_jp = data["name"];
-			m_description_jp = "";
+			m_Information_Jpn = "";
 			if (data.contains("description")) {
 				if (!data["description"].is_null()) {
-					m_description_jp = data["description"];
+					m_Information_Jpn = data["description"];
 				}
 			}
 		}
@@ -1359,8 +1359,8 @@ namespace FPS_n2 {
 			m_SetJob = std::make_unique<std::thread>([&]() {
 				std::ofstream outputfile(m_Path, std::ios::app);
 				outputfile << "Name_Jpn=" + this->m_name_jp + "\n";
-				if (this->m_description_jp != "") {
-					outputfile << "Information_Jpn=" + this->m_description_jp + "\n";
+				if (this->m_Information_Jpn != "") {
+					outputfile << "Information_Jpn=" + this->m_Information_Jpn + "\n";
 				}
 				outputfile.close();
 				m_SetFinish = true;

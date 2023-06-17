@@ -7,7 +7,7 @@ namespace FPS_n2 {
 			m_LvData.resize(m_LvData.size() + 1);
 			auto& L = this->m_LvData.back();
 			L.constructionTime = Ld["constructionTime"];
-			L.Information_Eng = Ld["description"];
+			L.m_Information_Eng = Ld["description"];
 			{
 				L.m_ItemReq.clear();
 				if (Ld.contains("itemRequirements")) {
@@ -100,7 +100,7 @@ namespace FPS_n2 {
 			auto LV = "Lv" + std::to_string((&L2 - &this->m_LvData.front()) + 1);
 
 			outputfile << LV + "constructionTime=" + std::to_string(L2.constructionTime) + "\n";
-			outputfile << LV + "Information_Eng=" + L2.Information_Eng + "\n";
+			outputfile << LV + "Information_Eng=" + L2.m_Information_Eng + "\n";
 			{
 				outputfile << LV + "itemReq=[";
 				for (auto& m : L2.m_ItemReq) {
@@ -166,7 +166,7 @@ namespace FPS_n2 {
 			auto& data = this->m_LvData.at(ID);
 			//開放データ
 			if (LEFTBuf == "constructionTime") { data.constructionTime = std::stoi(Args[0]); }
-			if (LEFTBuf == "Information_Eng") { data.Information_Eng = Args[0]; }
+			if (LEFTBuf == "Information_Eng") { data.m_Information_Eng = Args[0]; }
 			if (LEFTBuf == "itemReq") {
 				for (auto&a : Args) {
 					SetGetData<ItemGetData>(&data.m_ItemReq, a, "x", false);

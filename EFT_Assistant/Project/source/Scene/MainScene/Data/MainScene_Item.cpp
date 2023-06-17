@@ -504,6 +504,15 @@ namespace FPS_n2 {
 			this->m_ItemsData.m_properties.DrawInfo(xp, yp, &xofs, &yofs);
 			//
 			{
+				xofs = std::max(xofs, WindowSystem::SetMsg(xp + y_r(10), yp + yofs, xp + y_r(10), yp + LineHeight + yofs, LineHeight, STRX_LEFT, White, Black, "à–¾:")); yofs += LineHeight + y_r(5);
+
+				int ysize = LineHeight * 6 / 10;
+				int ysizetotal = ysize * 10;
+				DrawControl::Instance()->SetStringAutoFit(DrawLayer::Normal, FontPool::FontType::Nomal_Edge, ysize, xp + y_r(10), yp + yofs, xp + xofs - y_r(10), yp + yofs + ysizetotal,
+					White, Black, this->GetInformation_Jpn()); yofs += ysizetotal + y_r(5);
+			}
+			//
+			{
 				bool isFirst = true;
 				for (const auto& cp : this->GetChildParts()) {
 					for (const auto& c : cp.GetData()) {
