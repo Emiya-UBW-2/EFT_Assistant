@@ -379,8 +379,8 @@ namespace FPS_n2 {
 			Back->InputStringParam(ptr);
 		}
 		//
-		void	SetStringAutoFit(DrawLayer Layer, FontPool::FontType type, int fontSize, int x1, int y1, int x2, int y2, unsigned int Color, unsigned int EdgeColor, const std::string& Str) noexcept {
-			if (Str == "") { return; }
+		const auto	SetStringAutoFit(DrawLayer Layer, FontPool::FontType type, int fontSize, int x1, int y1, int x2, int y2, unsigned int Color, unsigned int EdgeColor, const std::string& Str) noexcept {
+			if (Str == "") { return 0.f; }
 			DrawData*Back = GetBack(Layer);
 			Back->InputType(DrawType::StringAutoFit);
 
@@ -394,6 +394,14 @@ namespace FPS_n2 {
 			Back->InputUintParam(1, EdgeColor);
 
 			Back->InputStringParam(Str);
+
+			return FontPool::Instance()->Get((FontPool::FontType)type, fontSize).DrawStringAutoFit(
+				x1 + 1920, y1 + 1080,
+				x2 + 1920, y2 + 1080,
+				Color,
+				EdgeColor,
+				Str
+			);
 		}
 		//
 	public:

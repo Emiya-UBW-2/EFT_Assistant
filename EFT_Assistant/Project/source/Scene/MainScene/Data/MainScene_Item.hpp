@@ -427,9 +427,11 @@ namespace FPS_n2 {
 			}
 			void			DrawInfoWeaponMod(int xp, int yp, int* xofs, int* yofs) const noexcept {
 				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetModRecoil() < 0.f) ? Green : Red, Black,
-					"Recoil(リコイル変動値):%3.1f %%", this->GetModRecoil()) + y_r(30)); *yofs += LineHeight + y_r(5);
-				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetModErgonomics() >= 0.f) ? Green : Red, Black,
-					"Ergonomics(エルゴノミクス変動値):%3.1f", this->GetModErgonomics()) + y_r(30)); *yofs += LineHeight + y_r(5);
+					"Recoil(リコイル変動値):%3.1f %%", this->GetModRecoil()) + y_r(30));
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + *xofs / 2, yp + *yofs, xp + *xofs / 2, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetModErgonomics() >= 0.f) ? Green : Red, Black,
+					"Ergonomics(エルゴノミクス変動値):%3.1f", this->GetModErgonomics()) + y_r(30));
+				*yofs += LineHeight + y_r(5);
+
 				switch (this->GetType()) {
 				case EnumItemProperties::ItemPropertiesBarrel:
 					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetcenterOfImpact() >= 0.f) ? Green : Red, Black,
@@ -523,29 +525,37 @@ namespace FPS_n2 {
 			void			DrawInfoWeapon(int xp, int yp, int* xofs, int* yofs) const noexcept {
 				int ysiz = LineHeight * 6 / 10;
 				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-					"RecoilVertical    (縦リコイル)     :%3d %%", this->GetWeaponRecoilVertical()) + y_r(30)); *yofs += ysiz + y_r(5);
+					"RecoilVertical    (縦リコイル)     :%3d %%", this->GetWeaponRecoilVertical()) + y_r(30));
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + *xofs / 2, yp + *yofs, xp + *xofs / 2, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+					"RecoilHorizontal  (横リコイル)     :%3d %%", this->GetWeaponRecoilHorizontal()) + y_r(30));
+				*yofs += ysiz + y_r(5);
+
 				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-					"RecoilHorizontal  (横リコイル)     :%3d %%", this->GetWeaponRecoilHorizontal()) + y_r(30)); *yofs += ysiz + y_r(5);
+					"Ergonomics        (エルゴノミクス) :%3.1f", this->GetWeaponErgonomics()) + y_r(30));
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + *xofs / 2, yp + *yofs, xp + *xofs / 2, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+					"SightRange        (照準距離)       :%3d %%", this->GetWeaponSightingRange()) + y_r(30));
+				*yofs += ysiz + y_r(5);
+
 				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-					"Ergonomics        (エルゴノミクス) :%3.1f", this->GetWeaponErgonomics()) + y_r(30)); *yofs += ysiz + y_r(5);
-				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-					"SightRange        (照準距離)       :%3d %%", this->GetWeaponSightingRange()) + y_r(30)); *yofs += ysiz + y_r(5);
-				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-					"FireRate          (発射速度)       :%3d %%", this->GetWeaponFireRate()) + y_r(30)); *yofs += ysiz + y_r(5);
-				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+					"FireRate          (発射速度)       :%3d %%", this->GetWeaponFireRate()) + y_r(30));
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + *xofs / 2, yp + *yofs, xp + *xofs / 2, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
 					"CenterOfImpact    (跳ね上がり？)   :%3.2f %%", this->GetWeaponcenterOfImpact()) + y_r(30)); *yofs += ysiz + y_r(5);
+
 				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-					"deviationCurve    (偏差の曲線？)   :%3.1f %%", this->GetWeapondeviationCurve()) + y_r(30)); *yofs += ysiz + y_r(5);
-				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+					"deviationCurve    (偏差の曲線？)   :%3.1f %%", this->GetWeapondeviationCurve()) + y_r(30));
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + *xofs / 2, yp + *yofs, xp + *xofs / 2, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
 					"recoilDispersion  (リコイルの分散？):%3d %%", this->GetWeaponrecoilDispersion()) + y_r(30)); *yofs += ysiz + y_r(5);
+
 				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-					"recoilAngle       (リコイルの角度？):%3d %%", this->GetWeaponrecoilAngle()) + y_r(30)); *yofs += ysiz + y_r(5);
-				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+					"recoilAngle       (リコイルの角度？):%3d %%", this->GetWeaponrecoilAngle()) + y_r(30));
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + *xofs / 2, yp + *yofs, xp + *xofs / 2, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
 					"cameraRecoil      (カメラリコイル？):%3.1f %%", this->GetWeaponcameraRecoil()) + y_r(30)); *yofs += ysiz + y_r(5);
+
 				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-					"cameraSnap        (カメラスナップ？):%3.1f %%", this->GetWeaponcameraSnap()) + y_r(30)); *yofs += ysiz + y_r(5);
-				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+					"cameraSnap        (カメラスナップ？):%3.1f %%", this->GetWeaponcameraSnap()) + y_r(30));
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + *xofs / 2, yp + *yofs, xp + *xofs / 2, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
 					"deviationMax      (偏差の最大値？)  :%3d %%", this->GetWeapondeviationMax()) + y_r(30)); *yofs += ysiz + y_r(5);
+
 				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
 					"convergence       (収束？)          :%3.1f %%", this->GetWeaponconvergence()) + y_r(30)); *yofs += ysiz + y_r(5);
 			}
@@ -1231,6 +1241,9 @@ namespace FPS_n2 {
 		};
 	private:
 		ItemsData												m_ItemsData;
+
+
+		std::array<WindowSystem::ScrollBoxClass, 2>				m_Scroll;
 	private:
 		//追加設定
 		void		SetSub(const std::string& LEFT, const std::vector<std::string>& Args) noexcept override;
@@ -1280,6 +1293,7 @@ namespace FPS_n2 {
 		const auto	GetIsWeapon() const noexcept { return this->m_ItemsData.m_properties.GetType() == EnumItemProperties::ItemPropertiesWeapon; }
 	public:
 		void		SetParent() noexcept;
+		void		SetParent2() noexcept;
 		const auto	GetSellValue(TraderID* ID, int* pValue) const noexcept {
 			*ID = InvalidID;
 			*pValue = -1;
@@ -1300,8 +1314,8 @@ namespace FPS_n2 {
 	public:
 		void		SetItemsDataByOtherData(const ItemsData& Data) noexcept { this->m_ItemsData.SetOtherData(Data); }
 	public:
-		const int	Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive, bool IsFir, bool IsDrawBuy, bool IsIconOnly) const noexcept;
-		void		DrawWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept;
+		const int	Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive, bool IsFir, bool IsDrawBuy, bool IsIconOnly) noexcept;
+		void		DrawWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int *xs = nullptr, int* ys = nullptr) noexcept;
 	};
 
 	class ItemJsonData :public JsonDataParent {
@@ -1421,6 +1435,9 @@ namespace FPS_n2 {
 			}
 			for (auto& L : this->m_List) {
 				L.SetParent();
+			}
+			for (auto& L : this->m_List) {
+				L.SetParent2();
 			}
 		}
 	public:

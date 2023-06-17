@@ -3,6 +3,7 @@ Name=Big Customer
 Trader=Prapor
 
 NeedTask=Chemical - Part 4
+NeedTask=Chemical - Part 3
 NeedLevel=11
 
 CanRestart=false

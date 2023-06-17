@@ -217,7 +217,7 @@ namespace FPS_n2 {
 
 					//
 					if (cID.GetIsSelected()) {
-						cID.GetChildPtr()->Draw(xbase + xsizeMin, ybase, xsize - xsizeMin * 2, ysize, 0, Gray10, false, false, true, false);
+						const_cast<ItemList*>(cID.GetChildPtr())->Draw(xbase + xsizeMin, ybase, xsize - xsizeMin * 2, ysize, 0, Gray10, false, false, true, false);
 
 						if (DrawChild(xposbase, yposbase, xbase + xsize, yp2, Scale, Lane, Nest + 1, cID.GetChildPtr())) {
 							(*Lane)--;

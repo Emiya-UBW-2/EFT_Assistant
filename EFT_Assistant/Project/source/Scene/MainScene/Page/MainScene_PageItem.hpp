@@ -147,7 +147,7 @@ namespace FPS_n2 {
 					ishit |= m_SearchBox.GetIsHit(L->GetName());
 					if (ishit) {
 						if (((0 - ysize) < yp0) && (yp0 < DrawParts->m_DispYSize)) {
-							L->Draw(xpos, yp0, ScrPxItem - xpos - y_r(36), ysize, 0, Gray75, !WindowMngr->PosHitCheck(nullptr), false, !m_RaidMode, false);
+							const_cast<ItemList*>(L)->Draw(xpos, yp0, ScrPxItem - xpos - y_r(36), ysize, 0, Gray75, !WindowMngr->PosHitCheck(nullptr), false, !m_RaidMode, false);
 							if (m_RaidMode) {
 								TraderID ID = InvalidID;
 								int Value = -1;

@@ -65,6 +65,8 @@ namespace FPS_n2 {
 			s.CheckID(DataBase::Instance()->GetTraderData().get(), false);//Invalidはフリマなのでエラー出さない
 		}
 		this->m_ItemsData.m_properties.SetParent();
+	}
+	void			ItemList::SetParent2() noexcept {
 		//自分を干渉相手にしている奴を探してそいつもリストに入れる　相思相愛
 		for (const auto& t : DataBase::Instance()->GetItemData()->GetList()) {
 			for (auto& cp : t.GetConflictParts()) {
@@ -88,7 +90,7 @@ namespace FPS_n2 {
 		}
 	}
 	void			ItemList::WhenAfterLoad_Sub() noexcept {}
-	const int		ItemList::Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive, bool IsFir, bool IsDrawBuy, bool IsIconOnly) const noexcept {
+	const int		ItemList::Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive, bool IsFir, bool IsDrawBuy, bool IsIconOnly) noexcept {
 		auto* WindowMngr = WindowSystem::WindowManager::Instance();
 		auto* Input = InputControl::Instance();
 		int xs = xsize;
@@ -227,7 +229,7 @@ namespace FPS_n2 {
 		}
 		return Xsize;
 	}
-	void			ItemList::DrawWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int *xs, int* ys) const noexcept {
+	void			ItemList::DrawWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int *xs, int* ys) noexcept {
 		auto* WindowMngr = WindowSystem::WindowManager::Instance();
 		auto* InterParts = InterruptParts::Instance();
 		int xofs = y_r(600) * 2;
@@ -505,37 +507,108 @@ namespace FPS_n2 {
 			//
 			{
 				xofs = std::max(xofs, WindowSystem::SetMsg(xp + y_r(10), yp + yofs, xp + y_r(10), yp + LineHeight + yofs, LineHeight, STRX_LEFT, White, Black, "説明:")); yofs += LineHeight + y_r(5);
-
 				int ysize = LineHeight * 6 / 10;
-				int ysizetotal = ysize * 10;
-				DrawControl::Instance()->SetStringAutoFit(DrawLayer::Normal, FontPool::FontType::Nomal_Edge, ysize, xp + y_r(10), yp + yofs, xp + xofs - y_r(10), yp + yofs + ysizetotal,
+				int ysizetotal = DrawControl::Instance()->SetStringAutoFit(DrawLayer::Normal, FontPool::FontType::Nomal_Edge, ysize, xp + y_r(10), yp + yofs, xp + xofs - y_r(10), yp + yofs + ysize * 15,
 					White, Black, this->GetInformation_Jpn()); yofs += ysizetotal + y_r(5);
 			}
 			//
 			{
-				bool isFirst = true;
+				int Max = 0;
 				for (const auto& cp : this->GetChildParts()) {
-					for (const auto& c : cp.GetData()) {
-						if (isFirst) {
-							isFirst = false;
-							xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STRX_LEFT, White, Black, "ChildrenMods:") + y_r(30)); yofs += LineHeight + y_r(5);
+					Max += (int)cp.GetData().size();
+				}
+				if (Max > 0) {
+					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STRX_LEFT, White, Black, "ChildrenMods:") + y_r(30)); yofs += LineHeight + y_r(5);
+
+					int ysize = y_r(36);
+					int ysizeAdd = ysize + y_r(5);
+
+					int ofset = (int)(this->m_Scroll.at(0).GetNowScrollYPer()*(std::max(0, Max - 4 + 1)*ysizeAdd));
+					int yofs_t = yofs;
+					yofs_t += LineHeight + y_r(5);
+					int ypMin = yp + yofs_t;
+					int ypMax = yp + yofs_t + ysizeAdd * 4;
+					int yp1 = yp + yofs_t - ofset;
+					for (const auto& cp : this->GetChildParts()) {
+						for (const auto& c : cp.GetData()) {
+							int xofs_buf = y_r(10);
+							if (ypMin - ysizeAdd < yp1 && yp1 < ypMax) {
+								if (ypMin < yp1 && yp1 < ypMax - ysizeAdd) {
+									DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255);
+								}
+								else {
+									if (yp1 <= ypMin) {
+										DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255 - std::clamp(255 * (ypMin - yp1) / ysizeAdd, 0, 255));
+									}
+									else {
+										DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255 - std::clamp(255 * (yp1 - (ypMax - ysizeAdd)) / ysizeAdd, 0, 255));
+									}
+								}
+								auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(c.GetID());
+								ptr->Draw(xp + y_r(30), yp1, y_r(800), ysize, 0, Gray25, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0)), false, true, false);
+							}
+							yofs_t += ysizeAdd;
+							yp1 += ysizeAdd;
 						}
-						auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(c.GetID());
-						xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, y_r(800), y_r(24), 0, defaultcolor, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0)), false, true, false) + y_r(30));
-						yofs += y_r(24) + y_r(5);
 					}
+					DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255);
+					//スクロールバー
+					{
+						float Total = (float)(yofs_t - yofs) / (ypMax - ypMin);
+						if (Total > 1.f) {
+							this->m_Scroll.at(0).ScrollBox(xp + y_r(30), ypMin, xp + y_r(30) + y_r(800) + y_r(30), ypMax, Total, !WindowMngr->PosHitCheck(window));
+						}
+					}
+					yofs = ypMax - yp;
+					//
+					yofs += LineHeight + y_r(5);
 				}
 			}
 			{
-				bool isFirst = true;
-				for (const auto& c : this->m_ItemsData.m_ParentPartsID) {
-					if (isFirst) {
-						isFirst = false;
-						xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STRX_LEFT, White, Black, "ParentMods:") + y_r(30)); yofs += LineHeight + y_r(5);
+				int Max = (int)this->m_ItemsData.m_ParentPartsID.size();
+				if (Max > 0) {
+					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STRX_LEFT, White, Black, "ParentMods:") + y_r(30)); yofs += LineHeight + y_r(5);
+
+					int ysize = y_r(36);
+					int ysizeAdd = ysize + y_r(5);
+
+					int ofset = (int)(this->m_Scroll.at(1).GetNowScrollYPer()*(std::max(0, Max - 4 + 1)*ysizeAdd));
+					int yofs_t = yofs;
+					yofs_t += LineHeight + y_r(5);
+					int ypMin = yp + yofs_t;
+					int ypMax = yp + yofs_t + ysizeAdd * 4;
+					int yp1 = yp + yofs_t - ofset;
+					for (const auto& c : this->m_ItemsData.m_ParentPartsID) {
+						int xofs_buf = y_r(10);
+						if (ypMin - ysizeAdd < yp1 && yp1 < ypMax) {
+							if (ypMin < yp1 && yp1 < ypMax - ysizeAdd) {
+								DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255);
+							}
+							else {
+								if (yp1 <= ypMin) {
+									DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255 - std::clamp(255 * (ypMin - yp1) / ysizeAdd, 0, 255));
+								}
+								else {
+									DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255 - std::clamp(255 * (yp1 - (ypMax - ysizeAdd)) / ysizeAdd, 0, 255));
+								}
+							}
+							auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(c);
+							ptr->Draw(xp + y_r(30), yp1, y_r(800), ysize, 0, Gray25, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0)), false, true, false);
+						}
+						yofs_t += ysizeAdd;
+						yp1 += ysizeAdd;
 					}
-					auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(c);
-					xofs = std::max<int>(xofs, ptr->Draw(xp + y_r(30), yp + yofs, y_r(800), y_r(24), 0, defaultcolor, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0)), false, true, false) + y_r(30));
-					yofs += y_r(24) + y_r(5);
+					DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255);
+					//スクロールバー
+					{
+						float Total = (float)(yofs_t - yofs) / (ypMax - ypMin);
+						if (Total > 1.f) {
+							this->m_Scroll.at(1).ScrollBox(xp + y_r(30), ypMin, xp + y_r(30) + y_r(800) + y_r(30), ypMax, Total, !WindowMngr->PosHitCheck(window));
+						}
+					}
+					yofs = ypMax - yp;
+					//
+					yofs += LineHeight + y_r(5);
 				}
 			}
 			//
