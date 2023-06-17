@@ -2,8 +2,33 @@
 #include"../Header.hpp"
 
 namespace FPS_n2 {
+	//
+	class Rect2D {
+		int			m_PosX{ 0 };
+		int			m_PosY{ 0 };
+		int			m_SizeX{ 0 };
+		int			m_SizeY{ 0 };
+	public:
+		const auto&		GetPosX() const noexcept { return this->m_PosX; }
+		const auto&		GetPosY() const noexcept { return this->m_PosY; }
+		void			Set(int posx, int posy, int sizex, int sizey) noexcept {
+			m_PosX = posx;
+			m_PosY = posy;
+			m_SizeX = sizex;
+			m_SizeY = sizey;
+		}
+	public:
+		bool			IsHit(const Rect2D& target) noexcept {
+			return (
+				((this->m_PosX >= target.m_PosX && this->m_PosX < (target.m_PosX + target.m_SizeX)) || (target.m_PosX > this->m_PosX && target.m_PosX <= (this->m_PosX + this->m_SizeX))) &&
+				((this->m_PosY >= target.m_PosY && this->m_PosY < (target.m_PosY + target.m_SizeY)) || (target.m_PosY > this->m_PosY && target.m_PosY <= (this->m_PosY + this->m_SizeY)))
+				);
+		}
+	};
+
 	enum class DrawType : int {
 		Alpha,
+		Bright,
 		Box,
 		Circle,
 		Line,
@@ -28,18 +53,41 @@ namespace FPS_n2 {
 		void InputStringParam(std::string_view param) noexcept { this->m_string = param; }
 	public:
 		void Output() const noexcept {
+			Rect2D Widow; Widow.Set(y_r(0), y_r(0), y_r(1920), y_r(1080));
+
 			switch (m_type) {
 			case DrawType::Alpha:
 				SetDrawBlendMode(DX_BLENDMODE_ALPHA, this->m_intParam[0]);
 				break;
+			case DrawType::Bright:
+				SetDrawBright(this->m_intParam[0], this->m_intParam[1], this->m_intParam[2]);
+				break;
 			case DrawType::Box:
-				DxLib::DrawBox(m_intParam[0], this->m_intParam[1], this->m_intParam[2], this->m_intParam[3], this->m_UintParam[0], (m_boolParam[0]) ? TRUE : FALSE);
+			{
+				Rect2D One; One.Set(std::min(this->m_intParam[0], this->m_intParam[2]), std::min(this->m_intParam[1], this->m_intParam[3]),
+					std::abs(this->m_intParam[0] - this->m_intParam[2]), std::abs(this->m_intParam[1] - this->m_intParam[3]));
+				if (Widow.IsHit(One)) {
+					DxLib::DrawBox(m_intParam[0], this->m_intParam[1], this->m_intParam[2], this->m_intParam[3], this->m_UintParam[0], (m_boolParam[0]) ? TRUE : FALSE);
+				}
+			}
 				break;
 			case DrawType::Circle:
-				DxLib::DrawCircle(m_intParam[0], this->m_intParam[1], this->m_intParam[2], this->m_UintParam[0], (m_boolParam[0]) ? TRUE : FALSE, this->m_intParam[3]);
+			{
+				Rect2D One; One.Set(this->m_intParam[0] - this->m_intParam[2] / 2, this->m_intParam[1] - this->m_intParam[2] / 2,
+					this->m_intParam[2] * 2, this->m_intParam[2] * 2);
+				if (Widow.IsHit(One)) {
+					DxLib::DrawCircle(m_intParam[0], this->m_intParam[1], this->m_intParam[2], this->m_UintParam[0], (m_boolParam[0]) ? TRUE : FALSE, this->m_intParam[3]);
+				}
+			}
 				break;
 			case DrawType::Line:
-				DxLib::DrawLine(m_intParam[0], this->m_intParam[1], this->m_intParam[2], this->m_intParam[3], this->m_UintParam[0], this->m_intParam[4]);
+			{
+				Rect2D One; One.Set(std::min(this->m_intParam[0], this->m_intParam[2]), std::min(this->m_intParam[1], this->m_intParam[3]),
+					std::abs(this->m_intParam[0] - this->m_intParam[2]), std::abs(this->m_intParam[1] - this->m_intParam[3]));
+				if (Widow.IsHit(One)) {
+					DxLib::DrawLine(m_intParam[0], this->m_intParam[1], this->m_intParam[2], this->m_intParam[3], this->m_UintParam[0], this->m_intParam[4]);
+				}
+			}
 				break;
 			case DrawType::String:
 				FontPool::Instance()->Get((FontPool::FontType)m_intParam[0], this->m_intParam[1]).DrawString(
@@ -67,29 +115,6 @@ namespace FPS_n2 {
 			default:
 				break;
 			}
-		}
-	};
-	//
-	class Rect2D {
-		int			m_PosX{ 0 };
-		int			m_PosY{ 0 };
-		int			m_SizeX{ 0 };
-		int			m_SizeY{ 0 };
-	public:
-		const auto&		GetPosX() const noexcept { return this->m_PosX; }
-		const auto&		GetPosY() const noexcept { return this->m_PosY; }
-		void			Set(int posx, int posy, int sizex, int sizey) noexcept {
-			m_PosX = posx;
-			m_PosY = posy;
-			m_SizeX = sizex;
-			m_SizeY = sizey;
-		}
-	public:
-		bool			IsHit(const Rect2D& target) noexcept {
-			return (
-				((this->m_PosX >= target.m_PosX && this->m_PosX < (target.m_PosX + target.m_SizeX)) || (target.m_PosX > this->m_PosX && target.m_PosX <= (this->m_PosX + this->m_SizeX))) &&
-				((this->m_PosY >= target.m_PosY && this->m_PosY < (target.m_PosY + target.m_SizeY)) || (target.m_PosY > this->m_PosY && target.m_PosY <= (this->m_PosY + this->m_SizeY)))
-				);
 		}
 	};
 	//
@@ -146,6 +171,7 @@ namespace FPS_n2 {
 			}
 		}
 	public:
+		const auto&	GetPath() const noexcept { return this->m_Path; }
 		const auto*	GetGraph() const noexcept { return (this->m_Loaded) ? &this->m_Handle : nullptr; }
 		const auto	GetXSize() const noexcept { return (this->m_Loaded) ? this->m_X : -1; }
 		const auto	GetYSize() const noexcept { return (this->m_Loaded) ? this->m_Y : -1; }
@@ -171,6 +197,7 @@ namespace FPS_n2 {
 
 		Graphs					FirGraph;
 		Graphs					LockGraph;
+		std::vector<Graphs>		GuideIcon;
 	private:
 		DrawControl() noexcept {
 			FirGraph.SetPath(u8"data/UI/FiR.png");
@@ -182,12 +209,28 @@ namespace FPS_n2 {
 			LockGraph.SetIsTrans(true);
 			LockGraph.LoadByPath(false);
 			LockGraph.WhenAfterLoad();
+
+			auto data_t = GetFileNamesInDirectory("data/UI/icon/");
+			for (auto& d : data_t) {
+				std::string Name = d.cFileName;
+				GuideIcon.resize(GuideIcon.size() + 1);
+				GuideIcon.back().SetPath(("data/UI/icon/" + Name).c_str());
+				GuideIcon.back().SetIsTrans(true);
+				GuideIcon.back().LoadByPath(false);
+			}
+			for (auto& G : GuideIcon) {
+				G.WhenAfterLoad();
+			}
 		}
 		~DrawControl() noexcept {
 			ClearList();
 
 			FirGraph.DisposeGraph();
 			LockGraph.DisposeGraph();
+			for (auto& G : GuideIcon) {
+				G.DisposeGraph();
+			}
+			GuideIcon.clear();
 		}
 
 		DrawData* GetBack(DrawLayer Layer) noexcept {
@@ -200,6 +243,14 @@ namespace FPS_n2 {
 			DrawData*Back = GetBack(Layer);
 			Back->InputType(DrawType::Alpha);
 			Back->InputintParam(0, Alpha);
+		}
+		//
+		void	SetBright(DrawLayer Layer, int valueR, int valueG, int valueB) {
+			DrawData*Back = GetBack(Layer);
+			Back->InputType(DrawType::Bright);
+			Back->InputintParam(0, valueR);
+			Back->InputintParam(1, valueG);
+			Back->InputintParam(2, valueB);
 		}
 		//
 		void	SetDrawBox(DrawLayer Layer, int x1, int y1, int x2, int y2, unsigned int color1, bool IsFill) {
@@ -266,6 +317,15 @@ namespace FPS_n2 {
 			}
 		}
 		//
+		void SetDrawRotaGuide(std::string_view name, DrawLayer Layer, int posx, int posy, float Exrate, float rad, bool trns) noexcept {
+			for (auto& G : GuideIcon) {
+				if (!G.GetGraph()) { continue; }
+				if (G.GetPath().find(name) == std::string::npos) { continue; }
+				SetDrawRotaGraph(Layer, G.GetGraph(), posx, posy, Exrate, rad, trns);
+				break;
+			}
+		}
+		//
 		template <typename... Args>
 		void	SetString(DrawLayer Layer, FontPool::FontType type, int fontSize, FontHandle::FontXCenter FontX, FontHandle::FontYCenter FontY, int x, int y, unsigned int Color, unsigned int EdgeColor, const std::string& String, Args&&... args) noexcept {
 			if (String == "") { return; }
@@ -322,6 +382,8 @@ namespace FPS_n2 {
 				for (auto& da : ds) {
 					da.Output();
 				}
+				SetDrawBlendMode(DX_BLENDMODE_ALPHA, 255);
+				SetDrawBright(255,255,255);
 			}
 		}
 	};

@@ -1,11 +1,11 @@
-Load Data Time:3.681000 s
+Load Data Time:3.767000 s
 Wait Load Time:0.005000 s
 Error : Not Find Item : Cultist Priest
 Error : Not Find Item : arenaFighterEvent
-Load Image:0.628000 s
+Load Image:0.623000 s
 Error : ThroughJson : Chiappa Rhino .357 6-round speedloader
-Update Json Time:111.042000 s
-Update Json Time:82.257004 s
+Update Json Time:139.979996 s
+Update Json Time:78.702003 s
 Error : Invalid ID by CheckID[Bronze pocket watch on a chain]
 Error : Invalid ID by CheckID[Bronze pocket watch on a chain]
 Error : Invalid ID by CheckID[Encrypted message]
@@ -147,6 +147,6 @@ Error : Invalid ID by CheckID[Secure Flash drive V3]
 Error : Invalid ID by CheckID[Secure Flash drive V3]
 Error : Invalid ID by CheckID[Working hard drive]
 Error : Invalid ID by CheckID[Working hard drive]
-Update Json Time:13.327000 s
-Update Json Time:1.441000 s
-Update Json Time:7.164000 s
+Update Json Time:12.727000 s
+Update Json Time:1.841000 s
+Update Json Time:6.249000 s

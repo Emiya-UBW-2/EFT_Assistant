@@ -157,6 +157,51 @@ namespace FPS_n2 {
 				});
 			}
 		}
+		{
+			int Xofs = xsize / 2;
+			int ysizeI = ysize - 4;
+			if (this->GetTaskWorkData().GetKill().size() > 0) {
+				DrawControl::Instance()->SetBright(DrawLayer::Normal, 128, 128, 128);
+				DrawControl::Instance()->SetDrawRotaGuide("Task_Kill", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2 + 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				DrawControl::Instance()->SetDrawRotaGuide("Task_Kill", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2 - 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				DrawControl::Instance()->SetDrawRotaGuide("Task_Kill", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2 - 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				DrawControl::Instance()->SetDrawRotaGuide("Task_Kill", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2 + 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				DrawControl::Instance()->SetBright(DrawLayer::Normal, 255, 0, 0);
+				DrawControl::Instance()->SetDrawRotaGuide("Task_Kill", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				Xofs -= (int)(64.f*(float)(ysize) / (float)(64.f));
+			}
+			if (this->GetTaskWorkData().GetFiR_Item().size() > 0) {
+				DrawControl::Instance()->SetBright(DrawLayer::Normal, 32, 32, 32);
+				DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2 + 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2 - 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2 - 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2 + 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				DrawControl::Instance()->SetBright(DrawLayer::Normal, 255, 255, 0);
+				DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				Xofs -= (int)(64.f*(float)(ysize) / (float)(64.f));
+			}
+			if (this->GetTaskWorkData().GetNotFiR_Item().size() > 0) {
+				DrawControl::Instance()->SetBright(DrawLayer::Normal, 192, 192, 192);
+				DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2 + 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2 - 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2 - 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2 + 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				DrawControl::Instance()->SetBright(DrawLayer::Normal, 0, 0, 255);
+				DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				Xofs -= (int)(64.f*(float)(ysize) / (float)(64.f));
+			}
+			if (this->GetTaskWorkData().GetMap().size() > 0) {
+				DrawControl::Instance()->SetBright(DrawLayer::Normal, 255, 255, 255);
+				DrawControl::Instance()->SetDrawRotaGuide("Map", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2 + 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				DrawControl::Instance()->SetDrawRotaGuide("Map", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2 - 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				DrawControl::Instance()->SetDrawRotaGuide("Map", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2 - 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				DrawControl::Instance()->SetDrawRotaGuide("Map", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2 + 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				DrawControl::Instance()->SetBright(DrawLayer::Normal, 0, 128, 0);
+				DrawControl::Instance()->SetDrawRotaGuide("Map", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				Xofs -= (int)(64.f*(float)(ysize) / (float)(64.f));
+			}
+			DrawControl::Instance()->SetBright(DrawLayer::Normal, 255, 255, 255);
+		}
 		if (IsClearTask) {
 			DrawControl::Instance()->SetDrawRotaFiR(DrawLayer::Normal, xp + xsize / 2, yp + ysize / 2, (float)(yp) / (float)(LineHeight), 0.f, true);
 		}

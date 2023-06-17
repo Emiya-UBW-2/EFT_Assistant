@@ -458,11 +458,11 @@ namespace FPS_n2 {
 			//
 			if (m_Mode == EnumTaskDrawMode::List) {
 				int xp = y_r(1920) - y_r(16);
-				int yp = y_r(1080) - y_r(110) - y_r(40) * 4;
+				int yp = y_r(1080) - y_r(110) - y_r(40) * 9;
 				//背景
 				{
 					DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 32);
-					DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xp - y_r(340), yp, xp + y_r(5), yp + y_r(40) * 4 + y_r(5), Black, true);
+					DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xp - y_r(340), yp, xp + y_r(5), yp + y_r(40) * 9 + y_r(5), Black, true);
 					DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255);
 				}
 				//
@@ -471,6 +471,60 @@ namespace FPS_n2 {
 					DrawCheckBox(xp, yp, "クリア済", &m_DrawClearTask); yp += y_r(40);
 					DrawCheckBox(xp, yp, "未クリア", &m_DrawNotClearTask); yp += y_r(40);
 					DrawCheckBox(xp, yp, "クリア可能", &m_DrawCanClearTask); yp += y_r(40);
+				}
+				//
+				{
+					DrawTab(xp, yp, "凡例:"); yp += y_r(40);
+					int ysize = y_r(40);
+					int ysizeI = ysize - 4;
+					{
+						DrawControl::Instance()->SetBright(DrawLayer::Normal, 255, 255, 255);
+						WindowSystem::SetMsg(xp - ysize, yp + ysize / 2, xp - ysize, yp + ysize / 2, LineHeight, STRX_RIGHT, White, Black, "敵をキル");
+						DrawControl::Instance()->SetBright(DrawLayer::Normal, 128, 128, 128);
+						DrawControl::Instance()->SetDrawRotaGuide("Task_Kill", DrawLayer::Normal, xp - ysize / 2, yp + ysize / 2 + 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
+						DrawControl::Instance()->SetDrawRotaGuide("Task_Kill", DrawLayer::Normal, xp - ysize / 2, yp + ysize / 2 - 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
+						DrawControl::Instance()->SetDrawRotaGuide("Task_Kill", DrawLayer::Normal, xp - ysize / 2 - 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+						DrawControl::Instance()->SetDrawRotaGuide("Task_Kill", DrawLayer::Normal, xp - ysize / 2 + 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+						DrawControl::Instance()->SetBright(DrawLayer::Normal, 255, 0, 0);
+						DrawControl::Instance()->SetDrawRotaGuide("Task_Kill", DrawLayer::Normal, xp - ysize / 2, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+						yp += y_r(40);
+					}
+					{
+						DrawControl::Instance()->SetBright(DrawLayer::Normal, 255, 255, 255);
+						WindowSystem::SetMsg(xp - ysize, yp + ysize / 2, xp - ysize, yp + ysize / 2, LineHeight, STRX_RIGHT, White, Black, "FiR品を納品");
+						DrawControl::Instance()->SetBright(DrawLayer::Normal, 32, 32, 32);
+						DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp - ysize / 2, yp + ysize / 2 + 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
+						DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp - ysize / 2, yp + ysize / 2 - 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
+						DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp - ysize / 2 - 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+						DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp - ysize / 2 + 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+						DrawControl::Instance()->SetBright(DrawLayer::Normal, 255, 255, 0);
+						DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp - ysize / 2, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+						yp += y_r(40);
+					}
+					{
+						DrawControl::Instance()->SetBright(DrawLayer::Normal, 255, 255, 255);
+						WindowSystem::SetMsg(xp - ysize, yp + ysize / 2, xp - ysize, yp + ysize / 2, LineHeight, STRX_RIGHT, White, Black, "NotFiR品を納品");
+						DrawControl::Instance()->SetBright(DrawLayer::Normal, 192, 192, 192);
+						DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp - ysize / 2, yp + ysize / 2 + 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
+						DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp - ysize / 2, yp + ysize / 2 - 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
+						DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp - ysize / 2 - 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+						DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp - ysize / 2 + 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+						DrawControl::Instance()->SetBright(DrawLayer::Normal, 0, 0, 255);
+						DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp - ysize / 2, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+						yp += y_r(40);
+					}
+					{
+						DrawControl::Instance()->SetBright(DrawLayer::Normal, 255, 255, 255);
+						WindowSystem::SetMsg(xp - ysize, yp + ysize / 2, xp - ysize, yp + ysize / 2, LineHeight, STRX_RIGHT, White, Black, "マップ指定");
+						DrawControl::Instance()->SetBright(DrawLayer::Normal, 255, 255, 255);
+						DrawControl::Instance()->SetDrawRotaGuide("Map", DrawLayer::Normal, xp - ysize / 2, yp + ysize / 2 + 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
+						DrawControl::Instance()->SetDrawRotaGuide("Map", DrawLayer::Normal, xp - ysize / 2, yp + ysize / 2 - 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
+						DrawControl::Instance()->SetDrawRotaGuide("Map", DrawLayer::Normal, xp - ysize / 2 - 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+						DrawControl::Instance()->SetDrawRotaGuide("Map", DrawLayer::Normal, xp - ysize / 2 + 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+						DrawControl::Instance()->SetBright(DrawLayer::Normal, 0, 128, 0);
+						DrawControl::Instance()->SetDrawRotaGuide("Map", DrawLayer::Normal, xp - ysize / 2, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+						yp += y_r(40);
+					}
 				}
 			}
 		}
