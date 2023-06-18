@@ -39,6 +39,9 @@ namespace FPS_n2 {
 		std::unique_ptr<MapData>			m_MapData;
 		std::unique_ptr<TaskData>			m_TaskData;
 		std::unique_ptr<HideoutData>		m_HideoutData;
+
+		const int							m_MaxCount{ 9 };
+		int									m_SetCount{ 0 };
 	private:
 		DataBase() noexcept {
 			m_ItemCategoryData = std::make_unique<ItemCategoryData>();
@@ -50,27 +53,50 @@ namespace FPS_n2 {
 			m_MapData = std::make_unique<MapData>();
 			m_TaskData = std::make_unique<TaskData>();
 			m_HideoutData = std::make_unique<HideoutData>();
+			m_SetCount = 0;
 		}
 		~DataBase() noexcept {}
 	public:
-		void			SetDataList(void) noexcept {
-			auto BaseTime = GetNowHiPerformanceCount();
-			m_ItemCategoryData->SetDataList();
-			m_ItemTypeData->SetDataList();
-			m_PresetData->SetDataList();
-			m_EnemyData->SetDataList();
-			m_ItemData->SetDataList();;
-			m_TraderData->SetDataList();
-			m_MapData->SetDataList();
-			m_TaskData->SetDataList();
-			m_HideoutData->SetDataList();
-			{
-				std::string ErrMes = "Load Data Time:" + std::to_string((float)((GetNowHiPerformanceCount() - BaseTime) / 1000) / 1000.f) + " s";
-				DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+		const auto		GetMaxCount(void) noexcept { return m_MaxCount; }
+		const auto		GetSetCount(void) noexcept { return m_SetCount; }
+
+		const auto		SetDataList(void) noexcept {
+			switch (m_SetCount) {
+			case 0:
+				m_ItemCategoryData->SetDataList();
+				break;
+			case 1:
+				m_ItemTypeData->SetDataList();
+				break;
+			case 2:
+				m_PresetData->SetDataList();
+				break;
+			case 3:
+				m_EnemyData->SetDataList();
+				break;
+			case 4:
+				m_ItemData->SetDataList();
+				break;
+			case 5:
+				m_TraderData->SetDataList();
+				break;
+			case 6:
+				m_MapData->SetDataList();
+				break;
+			case 7:
+				m_TaskData->SetDataList();
+				break;
+			case 8:
+				m_HideoutData->SetDataList();
+				break;
+			default:
+				return true;
+				break;
 			}
+			m_SetCount++;
+			return false;
 		}
-		void			WaitDataList(void) noexcept {
-			auto BaseTime = GetNowHiPerformanceCount();
+		void			LoadList(bool IsPushLog) noexcept {
 			m_ItemCategoryData->WaitDataList();
 			m_ItemTypeData->WaitDataList();
 			m_PresetData->WaitDataList();
@@ -82,32 +108,22 @@ namespace FPS_n2 {
 			m_HideoutData->WaitDataList();
 			//
 			m_TaskData->AddTaskUseID();
-			{
-				std::string ErrMes = "Wait Load Time:" + std::to_string((float)((GetNowHiPerformanceCount() - BaseTime) / 1000) / 1000.f) + " s";
-				DataErrorLog::Instance()->AddLog(ErrMes.c_str());
-			}
-		}
-		void			LoadList(bool IsPushLog) noexcept {
-			auto BaseTime = GetNowHiPerformanceCount();
+			//
 			SetUseASyncLoadFlag(TRUE);
-
-			m_ItemCategoryData->LoadList(false);
-			m_ItemTypeData->LoadList(false);
-			m_PresetData->LoadList(false);
-			m_EnemyData->LoadList(false);
-			m_ItemData->LoadList(IsPushLog);
-			m_ItemData->AfterLoadList();
-			m_TraderData->LoadList(false);
-			m_MapData->LoadList(false);
-			m_TaskData->LoadList(false);
-			m_TaskData->AfterLoadList();
-			m_HideoutData->LoadList(IsPushLog);
-
-			SetUseASyncLoadFlag(FALSE);
 			{
-				std::string ErrMes = "Load Image:" + std::to_string((float)((GetNowHiPerformanceCount() - BaseTime) / 1000) / 1000.f) + " s";
-				DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+				m_ItemCategoryData->LoadList(false);
+				m_ItemTypeData->LoadList(false);
+				m_PresetData->LoadList(false);
+				m_EnemyData->LoadList(false);
+				m_ItemData->LoadList(IsPushLog);
+				m_ItemData->AfterLoadList();
+				m_TraderData->LoadList(false);
+				m_MapData->LoadList(false);
+				m_TaskData->LoadList(false);
+				m_TaskData->AfterLoadList();
+				m_HideoutData->LoadList(IsPushLog);
 			}
+			SetUseASyncLoadFlag(FALSE);
 		}
 		void			WhenAfterLoadListCommon(void) noexcept {
 			m_ItemCategoryData->WhenAfterLoadListCommon();

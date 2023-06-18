@@ -508,7 +508,7 @@ namespace FPS_n2 {
 			{
 				xofs = std::max(xofs, WindowSystem::SetMsg(xp + y_r(10), yp + yofs, xp + y_r(10), yp + LineHeight + yofs, LineHeight, STRX_LEFT, White, Black, "à–¾:")); yofs += LineHeight + y_r(5);
 				int ysize = LineHeight * 6 / 10;
-				int ysizetotal = DrawControl::Instance()->SetStringAutoFit(DrawLayer::Normal, FontPool::FontType::Nomal_Edge, ysize, xp + y_r(10), yp + yofs, xp + xofs - y_r(10), yp + yofs + ysize * 15,
+				int ysizetotal = (int)DrawControl::Instance()->SetStringAutoFit(DrawLayer::Normal, FontPool::FontType::Nomal_Edge, ysize, xp + y_r(10), yp + yofs, xp + xofs - y_r(10), yp + yofs + ysize * 15,
 					White, Black, this->GetInformation_Jpn()); yofs += ysizetotal + y_r(5);
 			}
 			//
@@ -531,7 +531,6 @@ namespace FPS_n2 {
 					int yp1 = yp + yofs_t - ofset;
 					for (const auto& cp : this->GetChildParts()) {
 						for (const auto& c : cp.GetData()) {
-							int xofs_buf = y_r(10);
 							if (ypMin - ysizeAdd < yp1 && yp1 < ypMax) {
 								if (ypMin < yp1 && yp1 < ypMax - ysizeAdd) {
 									DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255);
@@ -579,7 +578,6 @@ namespace FPS_n2 {
 					int ypMax = yp + yofs_t + ysizeAdd * 4;
 					int yp1 = yp + yofs_t - ofset;
 					for (const auto& c : this->m_ItemsData.m_ParentPartsID) {
-						int xofs_buf = y_r(10);
 						if (ypMin - ysizeAdd < yp1 && yp1 < ypMax) {
 							if (ypMin < yp1 && yp1 < ypMax - ysizeAdd) {
 								DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255);

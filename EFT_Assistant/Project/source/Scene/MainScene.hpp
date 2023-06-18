@@ -27,29 +27,9 @@ namespace FPS_n2 {
 		void Load_Sub(void) noexcept override {
 		}
 		void Set_Sub(void) noexcept override {
-			//パーツ
-			PlayerData::Create();
-			InputControl::Create();
-			DataErrorLog::Create();
-			DrawControl::Create();
-			InterruptParts::Create();
-			WindowSystem::WindowManager::Create();
-			//データベース
-			DataBase::Create();
-
-			bool DrawLog = false;
-#ifdef DEBUG
-			DrawLog = true;
-#endif
-			//
-			DataBase::Instance()->SetDataList();
-			DataBase::Instance()->WaitDataList();
-			DataBase::Instance()->LoadList(DrawLog);
-			m_Loading = true;
-			//
 			BGBase::Create();
-
 			BGBase::Instance()->Init(&this->m_posx, &this->m_posy, &this->m_Scale);
+			m_Loading = true;
 		}
 		bool Update_Sub(void) noexcept override {
 			auto* DataBases = DataBase::Instance();

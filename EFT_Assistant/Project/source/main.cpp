@@ -5,7 +5,7 @@ int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 	SetWindowStyleMode(2);
 	SetUseBackBufferTransColorFlag(TRUE);
 	OPTION::Create();
-	DXDraw::Create("EFT_Assistant", 950, 950 * 9 / 16);	//汎用
+	DXDraw::Create("EFT Assistant", 950, 950 * 9 / 16);	//汎用
 	EffectResource::Create();
 	PostPassEffect::Create();							//シェーダー
 	//SoundPool::Create();								//サウンド
@@ -15,6 +15,13 @@ int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 	auto* DebugParts = DebugClass::Instance();			//デバッグ
 #endif // DEBUG
 	auto* DrawParts = DXDraw::Instance();
+	//パーツ
+	FPS_n2::PlayerData::Create();
+	FPS_n2::InputControl::Create();
+	FPS_n2::DataErrorLog::Create();
+	FPS_n2::DrawControl::Create();
+	FPS_n2::InterruptParts::Create();
+	FPS_n2::WindowSystem::WindowManager::Create();
 	//シーン
 	auto MAINLOOPloader = std::make_shared<FPS_n2::MAINLOOPLOADER>();
 

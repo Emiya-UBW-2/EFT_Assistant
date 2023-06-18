@@ -25,9 +25,9 @@ using namespace DXLib_ref;
 #include "Parts/WindowParts.hpp"
 #include "Parts/PlayerDataParts.hpp"
 #include "Parts/InterruptParts.hpp"
-//Load
-#include "Scene/MainSceneLoader.hpp"
-//Main
+//
 #include "Scene/MainScene/Data/MainScene_Base.hpp"//Datas
 #include "Scene/MainScene/Page/MainScene_PageBase.hpp"//Pages
+//
+#include "Scene/MainSceneLoader.hpp"//Load
 #include "Scene/MainScene.hpp"//Main

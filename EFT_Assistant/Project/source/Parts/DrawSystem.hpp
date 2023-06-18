@@ -126,6 +126,27 @@ namespace FPS_n2 {
 				break;
 			}
 		}
+	public:
+		void		operator=(const DrawData& tgt) noexcept {
+			this->m_type = tgt.m_type;
+			this->m_intParam = tgt.m_intParam;
+			this->m_UintParam = tgt.m_UintParam;
+			this->m_floatParam = tgt.m_floatParam;
+			this->m_boolParam = tgt.m_boolParam;
+			this->m_GraphHandleParam = tgt.m_GraphHandleParam;
+			this->m_string = tgt.m_string;
+		}
+		bool		operator==(const DrawData& tgt) const noexcept {
+			return (
+				this->m_type == tgt.m_type &&
+				this->m_intParam == tgt.m_intParam &&
+				this->m_UintParam == tgt.m_UintParam &&
+				this->m_floatParam == tgt.m_floatParam &&
+				this->m_boolParam == tgt.m_boolParam &&
+				this->m_GraphHandleParam == tgt.m_GraphHandleParam &&
+				this->m_string == tgt.m_string
+				);
+		}
 	};
 	//
 	class Graphs {
@@ -204,10 +225,12 @@ namespace FPS_n2 {
 		friend class SingletonBase<DrawControl>;
 	private:
 		std::vector<std::vector<DrawData>>	m_DrawDatas;
+		std::vector<std::vector<DrawData>>	m_PrevDrawDatas;
 
 		Graphs					FirGraph;
 		Graphs					LockGraph;
 		std::vector<Graphs>		GuideIcon;
+		GraphHandle				m_BufferScreen;
 	private:
 		DrawControl() noexcept {
 			FirGraph.SetPath(u8"data/UI/FiR.png");
@@ -231,9 +254,22 @@ namespace FPS_n2 {
 			for (auto& G : GuideIcon) {
 				G.WhenAfterLoad();
 			}
+
+			this->m_DrawDatas.resize((int)DrawLayer::Max);
+			this->m_PrevDrawDatas.resize((int)DrawLayer::Max);
+
+			m_BufferScreen = GraphHandle::Make(y_r(1920), y_r(1080), false);
 		}
 		~DrawControl() noexcept {
-			ClearList();
+			for (auto& d : this->m_DrawDatas) {
+				d.clear();
+			}
+			this->m_DrawDatas.clear();
+
+			for (auto& d : this->m_PrevDrawDatas) {
+				d.clear();
+			}
+			this->m_PrevDrawDatas.clear();
 
 			FirGraph.DisposeGraph();
 			LockGraph.DisposeGraph();
@@ -244,8 +280,8 @@ namespace FPS_n2 {
 		}
 
 		DrawData* GetBack(DrawLayer Layer) noexcept {
-			m_DrawDatas.at((int)Layer).resize(m_DrawDatas.at((int)Layer).size() + 1);
-			return &m_DrawDatas.at((int)Layer).back();
+			this->m_DrawDatas.at((int)Layer).resize(this->m_DrawDatas.at((int)Layer).size() + 1);
+			return &this->m_DrawDatas.at((int)Layer).back();
 		}
 	public:
 		//
@@ -407,19 +443,54 @@ namespace FPS_n2 {
 	public:
 		void	ClearList() noexcept {
 			for (auto& d : this->m_DrawDatas) {
+				auto& pd = this->m_PrevDrawDatas.at(&d - &this->m_DrawDatas.front());
+				pd.clear();
+				for (auto& d2 : d) {
+					pd.resize(pd.size() + 1);
+					pd.back() = d2;
+				}
+			}
+			for (auto& d : this->m_DrawDatas) {
 				d.clear();
 			}
-			m_DrawDatas.clear();
-			m_DrawDatas.resize((int)DrawLayer::Max);
 		}
 		void	Draw() noexcept {
-			for (auto& ds : this->m_DrawDatas) {
-				for (auto& da : ds) {
-					da.Output();
+			bool IsHit = false;
+			//同じかどうかチェック
+			for (auto& d : this->m_DrawDatas) {
+				auto& pd = this->m_PrevDrawDatas.at(&d - &this->m_DrawDatas.front());
+				if (pd.size() == d.size()) {
+					for (auto& d2 : d) {
+						auto& pd2 = pd.at(&d2 - &d.front());
+						if (!(pd2 == d2)) {
+							IsHit = true;
+							break;
+						}
+					}
 				}
-				SetDrawBlendMode(DX_BLENDMODE_ALPHA, 255);
-				SetDrawBright(255,255,255);
+				else {
+					IsHit = true;
+				}
 			}
+			//
+			if (IsHit) {
+				{
+					auto NowScreen = GetDrawScreen();
+					m_BufferScreen.SetDraw_Screen(true);
+					{
+						for (auto& d : this->m_DrawDatas) {
+							for (auto& d2 : d) {
+								d2.Output();
+							}
+							SetDrawBlendMode(DX_BLENDMODE_ALPHA, 255);
+							SetDrawBright(255, 255, 255);
+						}
+					}
+					GraphHandle::SetDraw_Screen(NowScreen, false);
+				}
+			}
+			//前に描画したものをそのまま出す
+			m_BufferScreen.DrawGraph(0, 0, false);
 		}
 	};
 	//

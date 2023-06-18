@@ -133,7 +133,7 @@ namespace FPS_n2 {
 				if (L->GetIsPreset()) { continue; }
 
 				if (L->GetTypeID() == ListsSel(1) || ListsSel(1) == InvalidID) {
-					bool ishit = false;
+					bool ishit = (ListsSel(2) == InvalidID);
 					for (auto& m : L->GetMapID()) {
 						if (m.GetID() == ListsSel(2)) {
 							ishit = true;
@@ -143,9 +143,7 @@ namespace FPS_n2 {
 					if (ListsSel(2) == ElseSelectID) {
 						ishit = (L->GetMapID().size() == 0);
 					}
-					ishit |= (ListsSel(2) == InvalidID);
-					ishit |= m_SearchBox.GetIsHit(L->GetName());
-					if (ishit) {
+					if (ishit && m_SearchBox.GetIsHit(L->GetName())) {
 						if (((0 - ysize) < yp0) && (yp0 < DrawParts->m_DispYSize)) {
 							const_cast<ItemList*>(L)->Draw(xpos, yp0, ScrPxItem - xpos - y_r(36), ysize, 0, Gray75, !WindowMngr->PosHitCheck(nullptr), false, !m_RaidMode, false);
 							if (m_RaidMode) {

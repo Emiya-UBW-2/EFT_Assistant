@@ -12,7 +12,6 @@ NeedTask=Gunsmith - Part 15
 NeedTask=Bullshit
 NeedTask=Peacekeeping Mission
 NeedTask=Living High is Not a Crime - Part 2
-NeedTask=The Blood of War - Part 3
 NeedTask=House Arrest - Part 1
 NeedTask=Decontamination Service
 NeedLevel=35
