@@ -1,4 +1,4 @@
-EFT Assistant　ver0.3.6　　　　　　作成者　EMIYA_UBW
+EFT Assistant　ver0.3.6a　　　　　　作成者　EMIYA_UBW
 
 このアプリケーションについて
 　　Escape From Tarkovのアイテム売買、タスククリア、ハイドアウト解放などをアシストするオーバーレイツールになります。
