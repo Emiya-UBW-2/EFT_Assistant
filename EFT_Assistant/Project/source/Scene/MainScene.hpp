@@ -174,7 +174,7 @@ namespace FPS_n2 {
 					if (WindowSystem::ClickCheckBox(Xmin + y_r(10), 0, Xmin + y_r(230), LineHeight, false, true, Gray25, "全窓を閉じる")) { WindowMngr->DeleteAll(); }
 					if (WindowSystem::ClickCheckBox(Xmin + y_r(240), 0, Xmin + y_r(460), LineHeight, false, true, Gray25, "ログ表示")) { m_DrawLog ^= 1; }
 					WindowSystem::SetMsg(0, 0, DrawParts->m_DispXSize, Ymin, LineHeight, STRX_MID, White, Black, "EFT Assistant");
-					WindowSystem::SetMsg(y_r(1280), LineHeight * 1 / 10, y_r(1280), LineHeight, LineHeight * 8 / 10, STRX_LEFT, White, Black, "ver %d.%d.%d", 0, 3, 2);
+					WindowSystem::SetMsg(y_r(1280), LineHeight * 1 / 10, y_r(1280), LineHeight, LineHeight * 8 / 10, STRX_LEFT, White, Black, "ver %d.%d.%d", 0, 3, 6);
 					WindowSystem::SetMsg(0, Ymin + LineHeight * 1 / 10, DrawParts->m_DispXSize, Ymin + LineHeight, LineHeight * 8 / 10, STRX_MID, White, Black, "最終更新:%s", PlayerData::Instance()->GetLastDataReceive().c_str());
 					if (WindowSystem::CloseButton(DrawParts->m_DispXSize - Ymin, 0)) { SetisEnd(true); }
 					//Front

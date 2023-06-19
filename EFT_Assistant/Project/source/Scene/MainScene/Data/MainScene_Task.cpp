@@ -203,7 +203,7 @@ namespace FPS_n2 {
 			DrawControl::Instance()->SetBright(DrawLayer::Normal, 255, 255, 255);
 		}
 		if (IsClearTask) {
-			DrawControl::Instance()->SetDrawRotaFiR(DrawLayer::Normal, xp + xsize / 2, yp + ysize / 2, (float)(yp) / (float)(LineHeight), 0.f, true);
+			DrawControl::Instance()->SetDrawRotaFiR(DrawLayer::Normal, xp + xsize / 2, yp + ysize / 2, (float)(ysize) / (float)(LineHeight), 0.f, true);
 		}
 
 

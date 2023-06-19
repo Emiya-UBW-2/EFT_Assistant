@@ -1,0 +1,12 @@
+IDstr=648986bbc827d4637f01791e
+Name=5.7x28mm SS190 ammo pack (50 pcs)
+ShortName=SS190
+Information_Eng=A pack of 5.7x28mm SS190 ammo, 50 rounds.
+Itemtype=Ammo container
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=5.7x28mm SS190 ammo pack (50 pcs)
+Information_Jpn=A pack of 5.7x28mm SS190 ammo, 50 rounds.
