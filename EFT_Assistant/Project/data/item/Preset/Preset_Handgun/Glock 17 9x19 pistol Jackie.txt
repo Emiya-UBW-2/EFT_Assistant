@@ -18,3 +18,4 @@ containsItems=[
 	Glock 9x19 "Big Stick" 33-round magazinex1
 ]
 Name_Jpn=Glock 17 9x19 pistol Jackie
+Information_Jpn=

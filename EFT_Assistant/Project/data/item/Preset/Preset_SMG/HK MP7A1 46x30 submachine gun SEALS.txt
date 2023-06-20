@@ -22,3 +22,4 @@ containsItems=[
 	HK MP7A1 stockx1
 ]
 Name_Jpn=HK MP7A1 4.6x30 submachine gun SEALS
+Information_Jpn=

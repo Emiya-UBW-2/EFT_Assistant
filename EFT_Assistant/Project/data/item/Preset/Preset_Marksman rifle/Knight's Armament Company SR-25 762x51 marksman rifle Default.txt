@@ -24,3 +24,4 @@ containsItems=[
 	AR-10 KAC charging handlex1
 ]
 Name_Jpn=Knight's Armament Company SR-25 7.62x51 marksman rifle デフォルト
+Information_Jpn=

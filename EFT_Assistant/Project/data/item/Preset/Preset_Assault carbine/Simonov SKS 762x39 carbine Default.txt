@@ -15,3 +15,4 @@ containsItems=[
 	SKS 7.62x39 10-round internal box magazinex1
 ]
 Name_Jpn=Simonov SKS 7.62x39 carbine デフォルト
+Information_Jpn=

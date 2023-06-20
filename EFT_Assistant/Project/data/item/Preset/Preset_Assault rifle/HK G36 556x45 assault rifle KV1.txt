@@ -22,3 +22,4 @@ containsItems=[
 	Hensoldt RIS top railx1
 ]
 Name_Jpn=HK G36 5.56x45 assault rifle KV1
+Information_Jpn=

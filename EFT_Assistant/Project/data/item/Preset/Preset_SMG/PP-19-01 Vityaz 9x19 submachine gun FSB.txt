@@ -25,3 +25,4 @@ containsItems=[
 	Aimpoint Micro T-1 reflex sightx1
 ]
 Name_Jpn=PP-19-01 "Vityaz" 9x19 submachine gun FSB
+Information_Jpn=

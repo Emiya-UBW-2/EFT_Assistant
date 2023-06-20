@@ -20,3 +20,4 @@ containsItems=[
 	M700 thread protection capx1
 ]
 Name_Jpn=Remington Model 700 7.62x51 bolt-action sniper rifle PRO
+Information_Jpn=

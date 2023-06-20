@@ -22,3 +22,4 @@ containsItems=[
 	AKMP system front sight devicex1
 ]
 Name_Jpn=AKM 7.62x39 アサルトライフル (AKMP)
+Information_Jpn=

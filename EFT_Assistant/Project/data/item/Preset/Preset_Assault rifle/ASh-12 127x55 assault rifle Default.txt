@@ -18,3 +18,4 @@ containsItems=[
 	ASh-12 rear sight carry handlex1
 ]
 Name_Jpn=ASh-12 12.7x55 アサルトライフル デフォルト
+Information_Jpn=

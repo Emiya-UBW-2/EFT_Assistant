@@ -20,3 +20,4 @@ containsItems=[
 	AK-74 polymer handguard (6P20 Sb.9)x1
 ]
 Name_Jpn=PP-19-01 "Vityaz" 9x19 submachine gun デフォルト
+Information_Jpn=

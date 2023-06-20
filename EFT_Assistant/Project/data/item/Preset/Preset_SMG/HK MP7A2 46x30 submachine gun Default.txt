@@ -17,3 +17,4 @@ containsItems=[
 	HK MP7A2 stockx1
 ]
 Name_Jpn=HK MP7A2 4.6x30 submachine gun デフォルト
+Information_Jpn=

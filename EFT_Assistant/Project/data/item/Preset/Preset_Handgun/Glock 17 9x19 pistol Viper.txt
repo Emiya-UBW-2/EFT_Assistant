@@ -19,3 +19,4 @@ containsItems=[
 	Leupold DeltaPoint Reflex Sightx1
 ]
 Name_Jpn=Glock 17 9x19 pistol Viper
+Information_Jpn=

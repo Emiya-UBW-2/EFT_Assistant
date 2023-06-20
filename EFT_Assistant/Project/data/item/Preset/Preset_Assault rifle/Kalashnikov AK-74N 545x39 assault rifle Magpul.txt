@@ -25,3 +25,4 @@ containsItems=[
 	AK-74 5.45x39 6L31 60-round magazinex1
 ]
 Name_Jpn=AK-74N 5.45x39 アサルトライフル Magpul
+Information_Jpn=

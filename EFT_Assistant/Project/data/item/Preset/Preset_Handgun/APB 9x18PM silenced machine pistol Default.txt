@@ -18,3 +18,4 @@ containsItems=[
 	APB 9x18PM sound suppressorx1
 ]
 Name_Jpn=APB 9x18PM silenced machine pistol デフォルト
+Information_Jpn=

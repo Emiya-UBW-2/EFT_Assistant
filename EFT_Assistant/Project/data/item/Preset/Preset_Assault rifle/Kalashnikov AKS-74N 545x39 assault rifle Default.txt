@@ -20,3 +20,4 @@ containsItems=[
 	AK-74 5.45x39 6L20 30-round magazinex1
 ]
 Name_Jpn=AKS-74N 5.45x39 アサルトライフル デフォルト
+Information_Jpn=

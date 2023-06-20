@@ -23,3 +23,4 @@ containsItems=[
 	RPK-16 5.45x39 95-round drum magazinex1
 ]
 Name_Jpn=RPK-16 5.45×39 ライトマシンガン Drum
+Information_Jpn=

@@ -20,3 +20,4 @@ containsItems=[
 	Mosin Rifle Bramit 7.62x54R sound suppressorx1
 ]
 Name_Jpn=Mosin 7.62x54R bolt-action rifle (Sniper) ATACR 7-35x56
+Information_Jpn=

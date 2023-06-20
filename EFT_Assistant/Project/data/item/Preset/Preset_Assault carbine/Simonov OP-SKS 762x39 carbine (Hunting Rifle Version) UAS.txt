@@ -17,3 +17,4 @@ containsItems=[
 	SKS/VZ-58 FAB Defense AG-58 pistol gripx1
 ]
 Name_Jpn=Simonov OP-SKS 7.62x39 carbine (Hunting Rifle Version) UAS
+Information_Jpn=

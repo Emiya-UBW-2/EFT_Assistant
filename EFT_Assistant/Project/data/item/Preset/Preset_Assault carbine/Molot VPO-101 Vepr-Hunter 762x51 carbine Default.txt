@@ -17,3 +17,4 @@ containsItems=[
 	VPO-101 "Vepr-Hunter" 7.62x51 5-round magazinex1
 ]
 Name_Jpn=Molot VPO-101 "Vepr-Hunter" 7.62x51 carbine デフォルト
+Information_Jpn=

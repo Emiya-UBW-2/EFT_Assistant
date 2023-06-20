@@ -20,3 +20,4 @@ containsItems=[
 	AR-10 JP Enterprises Gas System-6x1
 ]
 Name_Jpn=Remington R11 RSASS 7.62x51 marksman rifle デフォルト
+Information_Jpn=

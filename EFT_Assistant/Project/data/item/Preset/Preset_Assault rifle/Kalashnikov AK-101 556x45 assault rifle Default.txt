@@ -20,3 +20,4 @@ containsItems=[
 	AK-101 5.56x45 6L29 30-round magazinex1
 ]
 Name_Jpn=AK-101 5.56x45 アサルトライフル デフォルト
+Information_Jpn=

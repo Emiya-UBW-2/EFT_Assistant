@@ -24,3 +24,4 @@ containsItems=[
 	MCX charging handlex1
 ]
 Name_Jpn=SIG MCX .300 Blackout assault rifle デフォルト
+Information_Jpn=

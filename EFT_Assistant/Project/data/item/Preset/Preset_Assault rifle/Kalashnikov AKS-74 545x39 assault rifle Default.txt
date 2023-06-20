@@ -20,3 +20,4 @@ containsItems=[
 	AK-74 5.45x39 6L20 30-round magazinex1
 ]
 Name_Jpn=Kalashnikov AKS-74 5.45x39 assault rifle デフォルト
+Information_Jpn=

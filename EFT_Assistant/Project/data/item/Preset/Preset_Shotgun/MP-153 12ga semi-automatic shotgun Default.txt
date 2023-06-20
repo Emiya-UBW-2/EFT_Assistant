@@ -16,3 +16,4 @@ containsItems=[
 	MP-133/153 plastic stockx1
 ]
 Name_Jpn=MP-153 12ゲージ セミオートマチックショットガン デフォルト
+Information_Jpn=

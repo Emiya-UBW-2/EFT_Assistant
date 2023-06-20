@@ -20,3 +20,4 @@ containsItems=[
 	KRISS Vector side railx2
 ]
 Name_Jpn=TDI KRISS Vector Gen.2 9x19 submachine gun デフォルト
+Information_Jpn=

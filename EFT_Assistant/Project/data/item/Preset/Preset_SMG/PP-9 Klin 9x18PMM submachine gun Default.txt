@@ -14,3 +14,4 @@ containsItems=[
 	PP-91 "Kedr" 9x18PM 30-round magazinex1
 ]
 Name_Jpn=PP-9 "Klin" 9x18PMM submachine gun デフォルト
+Information_Jpn=

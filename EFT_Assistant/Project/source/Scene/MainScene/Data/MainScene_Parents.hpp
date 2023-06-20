@@ -310,6 +310,64 @@ namespace FPS_n2 {
 	};
 
 	//Json“Ç‚ÝŽæ‚è
+	class JpJsonData {
+	public:
+		bool										m_IsFileOpened{ false };
+		std::string									m_Path;
+
+		std::unique_ptr<std::thread>				m_SetJob{ nullptr };
+		bool										m_SetFinish{ false };
+	public:
+		std::string									m_id;
+		std::string									m_name_jp;
+		std::string									m_Information_Jpn;
+	public:
+		const auto&	Getname_jp() const noexcept { return this->m_name_jp; }
+		const auto&	Getdescription_jp() const noexcept { return this->m_Information_Jpn; }
+	public:
+		void GetJson(const nlohmann::json& data) noexcept {
+			m_IsFileOpened = false;
+
+			m_id = data["id"];
+			m_name_jp = data["name"];
+			m_Information_Jpn = "";
+			if (data.contains("description")) {
+				if (!data["description"].is_null()) {
+					m_Information_Jpn = data["description"];
+				}
+			}
+		}
+		void OutputData(const std::string& Path) noexcept {
+			m_IsFileOpened = true;
+			m_Path = Path;
+
+			SubStrs(&m_Path, ":");
+			SubStrs(&m_Path, "*");
+			SubStrs(&m_Path, "?");
+			SubStrs(&m_Path, "\"");
+			SubStrs(&m_Path, ">");
+			SubStrs(&m_Path, "<");
+			SubStrs(&m_Path, "|");
+			SubStrs(&m_Path, "|");
+
+			m_SetFinish = false;
+			ResetDataJob();
+			m_SetJob = std::make_unique<std::thread>([&]() {
+				std::ofstream outputfile(m_Path, std::ios::app);
+				outputfile << "Name_Jpn=" + this->m_name_jp + "\n";
+				outputfile << "Information_Jpn=" + this->m_Information_Jpn + "\n";
+				outputfile.close();
+				m_SetFinish = true;
+			});
+		}
+		void ResetDataJob() noexcept {
+			if (m_SetJob) {
+				m_SetJob->join();
+				m_SetJob.release();
+			}
+		}
+		const auto&		GetIsSetFinish() const noexcept { return this->m_SetFinish; }
+	};
 	class JsonDataParent {
 	public:
 		bool										m_IsFileOpened{ false };
@@ -386,6 +444,7 @@ namespace FPS_n2 {
 	template <class JsonDataParentT>
 	class JsonListParent {
 		std::vector<std::unique_ptr<JsonDataParent>>	m_JsonData;
+		std::vector<std::unique_ptr<JpJsonData>> m_JpJsonData;
 	public:
 		auto&		GetJsonDataList() noexcept { return this->m_JsonData; }
 		void ResetDataJson() {
@@ -457,5 +516,77 @@ namespace FPS_n2 {
 			}
 		}
 		virtual void UpdateAfterbyJson(void) noexcept {}
+	public:
+		auto&		GetJpJsonDataList() noexcept { return this->m_JpJsonData; }
+		void InitJpDatabyJson() {
+			m_JpJsonData.clear();
+		}
+		void GetJpDataJson(nlohmann::json& data) {
+			for (const auto& d : data) {
+				m_JpJsonData.emplace_back(std::make_unique<JpJsonData>());
+				m_JpJsonData.back()->GetJson(d);
+			}
+		}
+		template <class List>
+		void UpdateJpData(int ofset, int size, std::vector<List>& ListT) noexcept {
+			for (auto& L : ListT) {
+				for (int loop = ofset; loop < ofset + size; loop++) {
+					if (loop >= (int)m_JpJsonData.size()) { break; }
+					auto& jd = m_JpJsonData.at(loop);
+					if (L.GetIDstr() == jd->m_id) {
+						L.m_CheckJson++;
+						jd->OutputData(L.GetFilePath());
+						break;
+					}
+				}
+			}
+		}
+		void SaveAsNewJpData(std::string Path) noexcept {
+			bool maked = false;
+			for (auto& jd : m_JpJsonData) {
+				if (!jd->m_IsFileOpened) {
+					std::string ParentPath = Path;
+
+					if (!maked) {
+						CreateDirectory(ParentPath.c_str(), NULL);
+						maked = true;
+					}
+
+					std::string ChildPath = ParentPath + "/";
+
+					std::string FileName = jd->m_name_jp;
+					SubStrs(&FileName, ".");
+					SubStrs(&FileName, "\\");
+					SubStrs(&FileName, "/");
+					SubStrs(&FileName, ":");
+					SubStrs(&FileName, "*");
+					SubStrs(&FileName, "?");
+					SubStrs(&FileName, "\"");
+					SubStrs(&FileName, ">");
+					SubStrs(&FileName, "<");
+					SubStrs(&FileName, "|");
+					std::string Name = FileName + ".txt";
+
+					jd->OutputData(ChildPath + Name);
+					//RemoveDirectory(Path.c_str());
+				}
+			}
+		}
+		void WaitToAllClearJp() noexcept {
+			while (true) {
+				bool isHit = false;
+				for (auto& jd : m_JpJsonData) {
+					if (!jd->GetIsSetFinish()) {
+						isHit = true;
+						break;
+					}
+				}
+				if (!isHit) { break; }
+			}
+			for (auto& jd : m_JpJsonData) {
+				jd->ResetDataJob();
+			}
+		}
+		//
 	};
 };

@@ -34,3 +34,4 @@ containsItems=[
 	AR-15 Badger Ordnance Tactical Charging Handle Latchx1
 ]
 Name_Jpn=Colt M4A1 5.56x45 assault rifle SOPMOD II Flash
+Information_Jpn=

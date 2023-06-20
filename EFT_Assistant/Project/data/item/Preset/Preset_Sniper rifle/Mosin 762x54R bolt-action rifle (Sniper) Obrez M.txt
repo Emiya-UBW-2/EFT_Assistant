@@ -16,3 +16,4 @@ containsItems=[
 	Mosin Rifle AIM Sports Tri-Rail mountx1
 ]
 Name_Jpn=Mosin 7.62x54R bolt-action rifle (Sniper) Obrez M
+Information_Jpn=

@@ -17,3 +17,4 @@ containsItems=[
 	MTs-255-12 beechwood forestockx1
 ]
 Name_Jpn=MTs-255-12 12ga shotgun デフォルト
+Information_Jpn=

@@ -20,3 +20,4 @@ containsItems=[
 	PU 3.5x riflescopex1
 ]
 Name_Jpn=Mosin 7.62x54R bolt-action rifle (Sniper) カービン
+Information_Jpn=

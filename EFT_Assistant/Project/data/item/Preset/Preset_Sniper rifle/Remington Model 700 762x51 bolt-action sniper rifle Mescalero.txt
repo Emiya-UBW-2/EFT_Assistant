@@ -24,3 +24,4 @@ containsItems=[
 	Schmidt & Bender PM II 3-12x50 34mm riflescopex1
 ]
 Name_Jpn=Remington Model 700 7.62x51 bolt-action sniper rifle Mescalero
+Information_Jpn=

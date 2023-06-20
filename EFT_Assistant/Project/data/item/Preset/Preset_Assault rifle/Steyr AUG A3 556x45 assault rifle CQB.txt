@@ -21,3 +21,4 @@ containsItems=[
 	Insight WMX200 tactical flashlightx1
 ]
 Name_Jpn=Steyr AUG A3 5.56x45 assault rifle CQB
+Information_Jpn=

@@ -19,3 +19,4 @@ containsItems=[
 	MP9 charging handlex1
 ]
 Name_Jpn=B&T MP9-N 9x19 submachine gun デフォルト
+Information_Jpn=

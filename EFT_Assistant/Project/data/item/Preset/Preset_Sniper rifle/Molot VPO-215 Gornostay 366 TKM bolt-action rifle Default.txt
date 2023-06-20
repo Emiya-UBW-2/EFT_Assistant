@@ -17,3 +17,4 @@ containsItems=[
 	VPO-215 "Gornostay" scope rail mountx1
 ]
 Name_Jpn=Molot VPO-215 "Gornostay" .366 TKM bolt-action rifle デフォルト
+Information_Jpn=

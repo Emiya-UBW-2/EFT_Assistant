@@ -16,3 +16,4 @@ containsItems=[
 	M870 SPS polymer stockx1
 ]
 Name_Jpn=Remington Model 870 12ga pump-action shotgun デフォルト
+Information_Jpn=

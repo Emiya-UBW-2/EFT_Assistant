@@ -24,3 +24,4 @@ containsItems=[
 	Leupold Mark 4 LR 6.5-20x50 30mm riflescopex1
 ]
 Name_Jpn=Remington R11 RSASS 7.62x51 marksman rifle Kiowa
+Information_Jpn=

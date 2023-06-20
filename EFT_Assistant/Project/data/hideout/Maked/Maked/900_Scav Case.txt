@@ -2,6 +2,7 @@ IDstr=5d494a175b56502f18c98a04
 Name=Scav Case
 Lv1constructionTime=288000
 Lv1Information_Eng=A special box where specially hired Scavs drop off various items that they've found.
+Lv1Information_Jpn=
 Lv1itemReq=[Bronze lion figurinex3/|Gold skull ringx6/|Golden neck chainx8/|Roler Submariner gold wrist watchx4/|Bottle of Fierce Hatchling moonshinex3/|Lucky Scav Junk boxx1/|Golden rooster figurinex1]
 Lv1stationLevelReq=[Intelligence Centerx2]
 Lv1traderRequirements=[]

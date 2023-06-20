@@ -27,3 +27,4 @@ containsItems=[
 	Holosun LS321 Tactical devicex1
 ]
 Name_Jpn=Kalashnikov AKS-74UN 5.45x39 assault rifle Zenit
+Information_Jpn=

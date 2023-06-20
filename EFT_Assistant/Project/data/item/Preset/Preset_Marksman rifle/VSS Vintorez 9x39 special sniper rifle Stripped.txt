@@ -14,3 +14,4 @@ containsItems=[
 	VSS wooden stockx1
 ]
 Name_Jpn=VSS Vintorez 9x39 special sniper rifle Stripped
+Information_Jpn=

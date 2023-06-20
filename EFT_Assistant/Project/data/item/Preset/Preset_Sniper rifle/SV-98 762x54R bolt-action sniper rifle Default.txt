@@ -18,3 +18,4 @@ containsItems=[
 	SV-98 bipodx1
 ]
 Name_Jpn=SV-98 7.62x54R ボルトアクション スナイパーライフル デフォルト
+Information_Jpn=

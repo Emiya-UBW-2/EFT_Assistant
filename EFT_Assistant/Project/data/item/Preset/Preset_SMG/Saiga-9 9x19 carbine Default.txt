@@ -20,3 +20,4 @@ containsItems=[
 	AK-74 polymer handguard (6P20 Sb.9)x1
 ]
 Name_Jpn=Saiga-9 9x19 carbine デフォルト
+Information_Jpn=

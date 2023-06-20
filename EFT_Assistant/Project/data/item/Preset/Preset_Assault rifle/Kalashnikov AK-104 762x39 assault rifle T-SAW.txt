@@ -27,3 +27,4 @@ containsItems=[
 	AK Zenit RP-1 charging handlex1
 ]
 Name_Jpn=AK-104 7.62x39 アサルトライフル T-SAW
+Information_Jpn=

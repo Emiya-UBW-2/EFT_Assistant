@@ -20,3 +20,4 @@ containsItems=[
 	AKMS 7.62x39 aluminium 30-round magazinex1
 ]
 Name_Jpn=AKMS 7.62x39 アサルトライフル (AKMSB 6P4M)
+Information_Jpn=

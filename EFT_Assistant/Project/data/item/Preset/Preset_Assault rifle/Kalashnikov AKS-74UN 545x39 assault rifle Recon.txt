@@ -20,3 +20,4 @@ containsItems=[
 	AKS-74U wooden handguard (6P26 Sb.6)x1
 ]
 Name_Jpn=Kalashnikov AKS-74UN 5.45x39 assault rifle Recon
+Information_Jpn=

@@ -1,0 +1,3 @@
+Name=Cultist Priest
+ShortName=Cultist Priest
+Color=[10/|0/|0]

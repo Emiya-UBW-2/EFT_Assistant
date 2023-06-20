@@ -21,3 +21,4 @@ containsItems=[
 	HK USP .45 ACP Match compensatorx1
 ]
 Name_Jpn=HK USP .45 ACP pistol Match
+Information_Jpn=

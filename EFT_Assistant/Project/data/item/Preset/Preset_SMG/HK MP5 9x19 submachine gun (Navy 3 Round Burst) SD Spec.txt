@@ -23,3 +23,4 @@ containsItems=[
 	HK MP5 cocking handlex1
 ]
 Name_Jpn=HK MP5 9x19 submachine gun (Navy 3 Round Burst) SD Spec
+Information_Jpn=

@@ -20,3 +20,4 @@ containsItems=[
 	MP-155 Ultima top railx1
 ]
 Name_Jpn=MP-155 12ゲージ セミオートマチックショットガン Ultima
+Information_Jpn=

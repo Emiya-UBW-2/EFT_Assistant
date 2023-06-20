@@ -15,3 +15,4 @@ containsItems=[
 	PB bakilte side gripsx1
 ]
 Name_Jpn=PB 9x18PM 消音拳銃 デフォルト
+Information_Jpn=

@@ -20,3 +20,4 @@ containsItems=[
 	HK USP slide lockx1
 ]
 Name_Jpn=HK USP .45 ACP pistol Expert
+Information_Jpn=

@@ -28,3 +28,4 @@ containsItems=[
 	AR-15 HK Extended Latch charging handlex1
 ]
 Name_Jpn=Colt M4A1 5.56x45 assault rifle Custom
+Information_Jpn=

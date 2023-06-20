@@ -19,3 +19,4 @@ containsItems=[
 	Leupold Mark 4 LR 6.5-20x50 30mm riflescopex1
 ]
 Name_Jpn=Remington Model 700 7.62x51 bolt-action sniper rifle AAC SD
+Information_Jpn=

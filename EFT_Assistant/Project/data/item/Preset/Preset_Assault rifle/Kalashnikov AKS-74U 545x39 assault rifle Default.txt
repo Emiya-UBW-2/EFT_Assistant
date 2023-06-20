@@ -19,3 +19,4 @@ containsItems=[
 	AKS-74U wooden handguard (6P26 Sb.6)x1
 ]
 Name_Jpn=Kalashnikov AKS-74U 5.45x39 assault rifle デフォルト
+Information_Jpn=

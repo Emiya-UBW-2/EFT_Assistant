@@ -20,3 +20,4 @@ containsItems=[
 	Axion Kobra EKP-8-18 reflex sightx1
 ]
 Name_Jpn=AS VAL 9x39 special assault rifle Kobra
+Information_Jpn=

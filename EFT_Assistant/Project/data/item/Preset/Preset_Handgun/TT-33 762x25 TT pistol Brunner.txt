@@ -17,3 +17,4 @@ containsItems=[
 	TT DLP Tactical Precision LAM-modulex1
 ]
 Name_Jpn=TT-33 7.62x25 TT pistol Brunner
+Information_Jpn=

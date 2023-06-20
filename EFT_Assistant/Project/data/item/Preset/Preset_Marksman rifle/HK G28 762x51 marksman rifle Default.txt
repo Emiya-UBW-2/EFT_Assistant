@@ -30,3 +30,4 @@ containsItems=[
 	HK417 E1 extended charging handlex1
 ]
 Name_Jpn=HK G28 7.62x51 marksman rifle デフォルト
+Information_Jpn=

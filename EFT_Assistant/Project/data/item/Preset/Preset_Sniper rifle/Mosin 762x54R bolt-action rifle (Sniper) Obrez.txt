@@ -16,3 +16,4 @@ containsItems=[
 	Mosin Rifle carbine rear sightx1
 ]
 Name_Jpn=Mosin 7.62x54R bolt-action rifle (Sniper) Obrez
+Information_Jpn=

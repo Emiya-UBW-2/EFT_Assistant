@@ -18,3 +18,4 @@ containsItems=[
 	High Standard M4SS Stockx1
 ]
 Name_Jpn=Simonov SKS 7.62x39 carbine TAPCO Intrafuse
+Information_Jpn=

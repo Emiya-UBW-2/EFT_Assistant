@@ -1,0 +1,38 @@
+IDstr=641dbfd7f43eda9d810d7137
+Name=Important Patient
+Trader=Therapist
+
+NeedLevel=20
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_NotFiR_HandOver=[Aseptic bandagex1]
+DogTagLv=0
+Task_NotFiR_HandOver=[Army bandagex1]
+DogTagLv=0
+
+[
+	TaskType=giveItem
+	TaskText=Hand over Aseptic bandages
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over Army bandages
+	TaskOptional=false
+]
+
+Reward_Item=[
+	Medicine casex1/|
+	Grizzly medical kitx4/|
+	Vaseline balmx2/|
+	Propital regenerative stimulant injectorx5/|
+	eTG-change regenerative stimulant injectorx3
+]
+Reward_SkillLevelUp=Surgery+5
+Reward_SkillLevelUp=Health+5
+
+Reward_EXP=0

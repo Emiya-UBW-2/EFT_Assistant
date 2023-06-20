@@ -22,3 +22,4 @@ containsItems=[
 	EOTech XPS3-2 holographic sightx1
 ]
 Name_Jpn=Remington Model 870 12ga pump-action shotgun Breacher
+Information_Jpn=

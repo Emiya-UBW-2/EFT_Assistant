@@ -13,3 +13,4 @@ containsItems=[
 	Dogtag USECx1
 ]
 Name_Jpn=ドッグタグ
+Information_Jpn=

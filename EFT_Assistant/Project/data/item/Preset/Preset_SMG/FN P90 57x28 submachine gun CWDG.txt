@@ -23,3 +23,4 @@ containsItems=[
 	FN P90 charging handlex1
 ]
 Name_Jpn=FN P90 5.7x28 submachine gun CWDG
+Information_Jpn=

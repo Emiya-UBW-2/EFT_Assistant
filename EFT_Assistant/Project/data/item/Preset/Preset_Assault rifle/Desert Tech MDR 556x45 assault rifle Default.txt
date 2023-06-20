@@ -17,3 +17,4 @@ containsItems=[
 	Desert Tech 5.56x45 flash hiderx1
 ]
 Name_Jpn=Desert Tech MDR 5.56x45 assault rifle デフォルト
+Information_Jpn=

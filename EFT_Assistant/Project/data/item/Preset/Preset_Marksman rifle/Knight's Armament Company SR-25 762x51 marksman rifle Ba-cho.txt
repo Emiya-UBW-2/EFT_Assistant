@@ -31,3 +31,4 @@ containsItems=[
 	AR-10 KAC ambidextrous charging handlex1
 ]
 Name_Jpn=Knight's Armament Company SR-25 7.62x51 marksman rifle Ba-cho
+Information_Jpn=

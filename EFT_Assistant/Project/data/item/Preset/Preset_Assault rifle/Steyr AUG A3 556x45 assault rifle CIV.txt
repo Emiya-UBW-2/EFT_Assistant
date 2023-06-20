@@ -19,3 +19,4 @@ containsItems=[
 	Steyr AUG A3 M1 1.5x optic sightx1
 ]
 Name_Jpn=Steyr AUG A3 5.56x45 assault rifle CIV
+Information_Jpn=

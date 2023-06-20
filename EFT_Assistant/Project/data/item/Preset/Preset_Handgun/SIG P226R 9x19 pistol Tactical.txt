@@ -22,3 +22,4 @@ containsItems=[
 	9x19mm Pst gzhx15
 ]
 Name_Jpn=SIG P226R 9x19 pistol Tactical
+Information_Jpn=

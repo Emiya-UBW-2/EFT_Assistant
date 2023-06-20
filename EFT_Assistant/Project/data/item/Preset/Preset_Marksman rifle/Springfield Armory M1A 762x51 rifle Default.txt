@@ -19,3 +19,4 @@ containsItems=[
 	M14 SA Enlarged Military Aperture rear sightx1
 ]
 Name_Jpn=Springfield Armory M1A 7.62x51 rifle デフォルト
+Information_Jpn=

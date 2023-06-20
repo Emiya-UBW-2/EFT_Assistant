@@ -24,3 +24,4 @@ containsItems=[
 	AR-15 Radian Weapons Raptor charging handlex1
 ]
 Name_Jpn=Colt M4A1 5.56x45 assault rifle LVOA
+Information_Jpn=

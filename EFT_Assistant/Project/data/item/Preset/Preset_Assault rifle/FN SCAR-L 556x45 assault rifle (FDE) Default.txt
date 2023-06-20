@@ -26,3 +26,4 @@ containsItems=[
 	FN SCAR charging handlex1
 ]
 Name_Jpn=FN SCAR-L 5.56x45 assault rifle (FDE) デフォルト
+Information_Jpn=

@@ -25,3 +25,4 @@ containsItems=[
 	KAC Folding Micro rear sightx1
 ]
 Name_Jpn=Desert Tech MDR 7.62x51 assault rifle Killtube
+Information_Jpn=

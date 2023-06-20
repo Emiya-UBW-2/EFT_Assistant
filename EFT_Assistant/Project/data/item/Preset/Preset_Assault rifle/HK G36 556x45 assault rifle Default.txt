@@ -21,3 +21,4 @@ containsItems=[
 	Hensoldt RV red dot sightx1
 ]
 Name_Jpn=HK G36 5.56x45 assault rifle デフォルト
+Information_Jpn=

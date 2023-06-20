@@ -18,3 +18,4 @@ containsItems=[
 	AS VAL skeleton stockx1
 ]
 Name_Jpn=AS VAL 9x39 special assault rifle デフォルト
+Information_Jpn=

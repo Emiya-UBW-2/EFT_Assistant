@@ -31,3 +31,4 @@ containsItems=[
 	AR-15 Colt charging handlex1
 ]
 Name_Jpn=Colt M4A1 5.56x45 assault rifle SOPMOD II
+Information_Jpn=

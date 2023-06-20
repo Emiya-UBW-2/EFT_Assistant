@@ -20,3 +20,4 @@ containsItems=[
 	SureFire XC1 tactical flashlightx1
 ]
 Name_Jpn=Glock 17 9x19 pistol Fischer
+Information_Jpn=

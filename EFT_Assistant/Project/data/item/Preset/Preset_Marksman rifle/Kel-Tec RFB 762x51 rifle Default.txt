@@ -18,3 +18,4 @@ containsItems=[
 	RFB scope rail mountx1
 ]
 Name_Jpn=Kel-Tec RFB 7.62x51 rifle デフォルト
+Information_Jpn=

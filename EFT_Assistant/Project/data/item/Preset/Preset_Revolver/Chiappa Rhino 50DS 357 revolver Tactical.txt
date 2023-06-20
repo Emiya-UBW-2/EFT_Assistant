@@ -17,3 +17,4 @@ containsItems=[
 	SureFire XC1 tactical flashlightx1
 ]
 Name_Jpn=Chiappa Rhino 50DS .357 revolver Tactical
+Information_Jpn=

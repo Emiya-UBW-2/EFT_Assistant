@@ -101,6 +101,7 @@ namespace FPS_n2 {
 
 			outputfile << LV + "constructionTime=" + std::to_string(L2.constructionTime) + "\n";
 			outputfile << LV + "Information_Eng=" + L2.m_Information_Eng + "\n";
+			outputfile << LV + "Information_Jpn=" + L2.m_Information_Jpn + "\n";
 			{
 				outputfile << LV + "itemReq=[";
 				for (auto& m : L2.m_ItemReq) {
@@ -167,6 +168,7 @@ namespace FPS_n2 {
 			//開放データ
 			if (LEFTBuf == "constructionTime") { data.constructionTime = std::stoi(Args[0]); }
 			if (LEFTBuf == "Information_Eng") { data.m_Information_Eng = Args[0]; }
+			if (LEFTBuf == "Information_Jpn") { data.m_Information_Jpn = Args[0]; }
 			if (LEFTBuf == "itemReq") {
 				for (auto&a : Args) {
 					SetGetData<ItemGetData>(&data.m_ItemReq, a, "x", false);

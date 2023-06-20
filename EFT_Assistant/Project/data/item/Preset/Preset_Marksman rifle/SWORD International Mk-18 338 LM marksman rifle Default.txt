@@ -21,3 +21,4 @@ containsItems=[
 	Mk-18 18 inch handguardx1
 ]
 Name_Jpn=SWORD International Mk-18 .338 LM marksman rifle デフォルト
+Information_Jpn=

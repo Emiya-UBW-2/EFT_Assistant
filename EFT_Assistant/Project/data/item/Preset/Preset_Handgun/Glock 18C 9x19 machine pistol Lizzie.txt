@@ -19,3 +19,4 @@ containsItems=[
 	SureFire X400 Ultra tactical flashlight with laserx1
 ]
 Name_Jpn=Glock 18C 9x19 machine pistol Lizzie
+Information_Jpn=

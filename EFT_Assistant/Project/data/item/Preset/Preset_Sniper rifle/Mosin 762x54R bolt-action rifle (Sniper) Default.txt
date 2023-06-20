@@ -17,3 +17,4 @@ containsItems=[
 	Mosin Rifle rear sightx1
 ]
 Name_Jpn=Mosin 7.62x54R bolt-action rifle (Sniper) デフォルト
+Information_Jpn=

@@ -17,3 +17,4 @@ containsItems=[
 	PL-15 9x19 16-round magazinex1
 ]
 Name_Jpn=PL-15 9x19 ピストル デフォルト
+Information_Jpn=
