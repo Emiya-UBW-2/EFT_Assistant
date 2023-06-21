@@ -78,12 +78,11 @@ DogTagLv=0
 ]
 
 Reward_Item=[
-	AFAK tactical individual first aid kitx5/|
 	SJ9 TGLabs combat stimulant injectorx5/|
 	Medicine casex1
 ]
 Reward_SkillLevelUp=Immunity+2
 Reward_SkillLevelUp=Vitality+2
-Reward_SkillLevelUp=Surgery+2
+Reward_SkillLevelUp=Surgery+1
 
 Reward_EXP=97000

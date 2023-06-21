@@ -34,4 +34,4 @@ Reward_Item=[
 Reward_SkillLevelUp=Crafting+1
 Reward_SkillLevelUp=Intellect+1
 
-Reward_EXP=137000
+Reward_EXP=115000

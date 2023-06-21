@@ -115,8 +115,8 @@ Task_Else=}
 
 Reward_Item=[
 	Train Hard armbandx1/|
-	.338 Lapua Magnum APx20/|
-	7.62x39mm MAI APx60
+	.338 Lapua Magnum APx40/|
+	7.62x39mm MAI APx100
 ]
 Reward_SkillLevelUp=Stress Resistance+1
 Reward_SkillLevelUp=Endurance+1

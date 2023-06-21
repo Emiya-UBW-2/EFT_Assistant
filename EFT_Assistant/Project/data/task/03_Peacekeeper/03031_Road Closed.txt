@@ -38,7 +38,7 @@ Task_Else=脱出ステータス:[Survived]
 
 Reward_Rep=Peacekeeper+2
 Reward_Item=[
-	Roublesx62300/|
+	Roublesx64000/|
 	HK MP7A1 4.6x30 submachine gun Defaultx1/|
 	HK MP7 4.6x30 20-round magazinex3/|
 	4.6x30mm Action SXx80

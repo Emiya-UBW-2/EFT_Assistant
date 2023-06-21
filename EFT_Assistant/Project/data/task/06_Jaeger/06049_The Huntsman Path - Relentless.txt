@@ -2,7 +2,13 @@ IDstr=60e71e8ed54b755a3b53eb67
 Name=The Huntsman Path - Relentless
 Trader=Jaeger
 
-NeedLevel=65
+NeedTask=The Huntsman Path - Trophy
+NeedTask=The Huntsman Path - Factory Chief
+NeedTask=The Huntsman Path - Woods Keeper
+NeedTask=The Huntsman Path - Eraser - Part 1
+NeedTask=The Huntsman Path - Sadist
+NeedTask=The Huntsman Path - Sellout
+NeedLevel=30
 
 CanRestart=true
 NeedKappa=false
@@ -67,7 +73,7 @@ Reward_Item=[
 Reward_SkillLevelUp=Crafting+2
 Reward_SkillLevelUp=Immunity+1
 
-Task_Else=脱出ステータス:[Killed in Action (KIA),Missing in Action (MIA)]
+Task_Else=脱出ステータス:[Killed in Action (KIA),Left the Action,Missing in Action (MIA)]
 
 [
 	TaskType=extract

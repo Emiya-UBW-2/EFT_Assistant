@@ -3,7 +3,7 @@ Name=Special Equipment
 Trader=Peacekeeper
 
 NeedTask=Trophies
-NeedLevel=60
+NeedLevel=55
 
 CanRestart=false
 NeedKappa=false
@@ -78,9 +78,9 @@ DogTagLv=0
 ]
 
 Reward_Item=[
-	Weapon casex1/|
 	TerraGroup Labs access keycardx7/|
-	Iridium military thermal vision modulex4
+	Iridium military thermal vision modulex4/|
+	Weapon casex1
 ]
 
 Reward_EXP=177000
