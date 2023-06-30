@@ -1,0 +1,46 @@
+*Merin car trunk key
+//imgページではなく個別ページに添付する
+
+//命名規則
+//「アイテム名-summary.webp」スペースはアンダーバー「_｣
+CENTER:&ref();
+
+*概要
+//概要を記載
+A key to a trunk of the Merin sports coupe car.
+
+*性能
+//アイコンは、imgページではなく個別ページに添付する
+
+//命名規則
+//「短縮名-icon.webp」スペースはアンダーバー「_｣
+|CENTER:BGCOLOR(#D8F781):アイコン|CENTER:&ref();|
+|CENTER:BGCOLOR(#D8F781):短縮名|Merin|
+|CENTER:BGCOLOR(#D8F781):重量|0.010kg|
+|CENTER:BGCOLOR(#D8F781):サイズ|1x1|
+|CENTER:BGCOLOR(#D8F781):使用回数|40|
+
+*鍵の入手方法
+**レイド内
+//-オブジェクト
+//--[[Drawer]]
+//--[[Jacket]]
+
+*使用場所
+//使用する場所を記載
+
+**入手できるもの
+//なければ無しと記載
+
+//-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
+//--
+//改行
+//-スポーン
+//--
+
+**画像
+//サイズは600x600
+//拡張子はjpgかpngかwebp
+
+*コメント
+//編集掲示板でzawazawaのコメントを作成するように依頼してください

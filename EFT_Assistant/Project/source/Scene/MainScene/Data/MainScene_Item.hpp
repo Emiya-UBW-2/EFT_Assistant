@@ -1224,7 +1224,7 @@ namespace FPS_n2 {
 					this->m_sellFor.at(&m - &Data.m_sellFor.front()) = m;
 				}
 				this->m_fleaMarketFee = Data.m_fleaMarketFee;
-				this->m_properties;//
+				//this->m_properties;//
 				//’Ç‰Áî•ñ
 				this->m_ParentPartsID.resize(Data.m_ParentPartsID.size());
 				for (const auto& m : Data.m_ParentPartsID) {
@@ -1259,6 +1259,8 @@ namespace FPS_n2 {
 		const auto&	Getweight() const noexcept { return this->m_ItemsData.m_weight; }
 		const auto&	GetfleaMarketFee() const noexcept { return this->m_ItemsData.m_fleaMarketFee; }
 		const auto&	GetUseTaskID() const noexcept { return this->m_ItemsData.m_UseTaskID; }
+	public://Key
+		const auto&	GetKeyUses() const noexcept { return this->m_ItemsData.m_properties.GetUses(); }
 	public://WeaponMod/Weapon Slots
 		const auto&	GetChildParts() const noexcept { return this->m_ItemsData.m_properties.GetModSlots(); }
 		const auto&	GetConflictParts() const noexcept { return this->m_ItemsData.m_properties.GetConflictPartsID(); }

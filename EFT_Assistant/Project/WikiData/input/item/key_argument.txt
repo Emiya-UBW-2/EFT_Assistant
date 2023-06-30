@@ -1,0 +1,31 @@
+//*********************************************************************//
+//EFTA_FullName							//フルネーム
+//EFTA_ShortName						//ショートネーム
+//EFTA_InfoJpn							//日本語説明文
+//EFTA_DefaultWeight					//デフォルト状態の重さ(X.XXXkg)
+//EFTA_DefaultWidth						//デフォルト状態の横サイズ
+//EFTA_DefaultHeight					//デフォルト状態の縦サイズ
+//EFTA_Usecount							//使用回数
+//
+//<EFTA_BarterTrade_Check>				//トレーダー交換情報があったらその行を書き込む
+//<EFTA_BarterTrade_For>				//以降の行に沿ってトレーダー交換情報を書き込む
+//EFTA_BarterTrade_TraderName
+//EFTA_BarterTrade_TraderLv
+//EFTA_BarterTrade_NeedItem
+//EFTA_BarterTrade_RewardItem
+//EFTA_BarterTrade_UnlockTask
+//
+//<EFTA_TaskReward_Check>				//タスク取得情報があったらその行を書き込む
+//<EFTA_TaskReward_For>					//以降の行に沿ってタスク取得情報を書き込む
+//EFTA_TaskReward_TraderName
+//EFTA_TaskReward_TaskName
+//
+//<EFTA_TaskNeed_Check>					//タスク必須情報があったらその行を書き込む
+//<EFTA_TaskNeed_For>					//以降の行に沿ってタスク必須情報を書き込む
+//EFTA_TaskNeed_TraderName
+//EFTA_TaskNeed_TaskName
+//
+//
+//
+//
+//*********************************************************************//
