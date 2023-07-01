@@ -28,8 +28,6 @@ A paper plan map of the vast Customs premises. Not the most up-to-date copy, but
 
 *使用場所
 //使用する場所を記載
-<EFTA_UsePoint>
-</EFTA_UsePoint>
 
 **入手できるもの
 //なければ無しと記載

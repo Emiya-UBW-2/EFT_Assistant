@@ -37,8 +37,6 @@ A simplified and updated copy of the Chemical Plant No. 16 facility blueprint.
 
 *使用場所
 //使用する場所を記載
-<EFTA_UsePoint>
-</EFTA_UsePoint>
 
 **入手できるもの
 //なければ無しと記載

@@ -42,8 +42,6 @@ Detailed plan map of the Interchange location, including the Ultra shopping mall
 
 *使用場所
 //使用する場所を記載
-<EFTA_UsePoint>
-</EFTA_UsePoint>
 
 **入手できるもの
 //なければ無しと記載

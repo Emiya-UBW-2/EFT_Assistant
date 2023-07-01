@@ -42,8 +42,6 @@ United Securityが発行したTerraGroup Labsのキーカード。トップレベルの権限を持つ管
 
 *使用場所
 //使用する場所を記載
-<EFTA_UsePoint>
-</EFTA_UsePoint>
 
 **入手できるもの
 //なければ無しと記載

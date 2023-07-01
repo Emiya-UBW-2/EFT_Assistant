@@ -41,8 +41,6 @@ A key to the Goshan store outlet cash registers at the ULTRA shopping mall.
 -[[Ragman/Supervisor]]
 *使用場所
 //使用する場所を記載
-<EFTA_UsePoint>
-</EFTA_UsePoint>
 
 **入手できるもの
 //なければ無しと記載

@@ -43,9 +43,64 @@ Factoryの非常口の鍵。壊れやすそうに見える。
 
 *使用場所
 //使用する場所を記載
-<EFTA_UsePoint>
-</EFTA_UsePoint>
+#accordion(Customs,**,open){{{
+#accordion(Dorms(3階寮,open){{
+&ref(img/fe2k-The office-door.jpg,600x600);
+&ref(img/factorykey_droms.jpg,600x600);
+}}
+#accordion(SMOKE,***,open){{
+&ref(img/fe2k-The-building.jpg,600x600);
+&ref(img/factory_key_cutoms_boilerarea.jpg,600x600);
+}}
+#accordion(Old Gas Station,***,open){{
+&ref(img/fe2k-old-gus.jpg,600x600);
+}}
+}}}
 
+#accordion(Customs,**,open){{{
+#accordion(SHORT CUT,***,open){{
+''新ガスステーション側''
+&ref(img/fe2k-shortcut1.jpg,600x600);
+''旧ガスステーション側''
+&ref(img/fe2k-shortcut2.jpg,600x600);
+}}
+
+#accordion(FORT,***,open){{
+''新建築''
+&ref(img/fe2k-fort.jpg,600x600);
+&ref(img/fe2k-fort-under.jpg,600x600);
+}}
+}}}
+
+#accordion(Factory,**,open){{{
+#accordion(Gate 0 extraction,***,open){{
+&ref(img/fe2k-factory-gate0-a.jpg,600x600);
+&ref(img/fe2k-factory-gate0-b.jpg,600x600);
+}}
+
+#accordion(Med tent gates extraction,***,open){{
+&ref(img/fe2k-med-tent-gates-0-a.jpg,600x600);
+&ref(img/fe2k-med-tent-gates-0-b.jpg,600x600);
+}}
+
+#accordion(Cellars extraction,***,open){{
+&ref(img/fe2k-cellars-0-a.jpg,600x600);
+&ref(img/fe2k-cellars-0-b.jpg,600x600);
+}}
+
+#accordion(The lock Door,***,open){{
+&ref(img/Portable bunkhouse key-summary-door.jpg,600x600);
+&ref(img/Portable-bunkhouse-key-jacket.jpg,600x600);
+}}
+}}}
+
+#accordion(Shoreline,**,open){{
+&ref(img/fe2k-shoreline.jpg,600x600);
+}}
+
+#accordion(Interchange,**,open){{
+&ref(img/fe2k-interchange.jpg,600x600);
+}}
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ

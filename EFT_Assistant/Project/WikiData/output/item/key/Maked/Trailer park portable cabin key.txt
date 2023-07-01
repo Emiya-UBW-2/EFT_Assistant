@@ -37,8 +37,6 @@ Customsのトレーラーパークにある可搬式の監視員詰所の鍵。
 -[[Skier/Golden Swag]]
 *使用場所
 //使用する場所を記載
-<EFTA_UsePoint>
-</EFTA_UsePoint>
 
 **入手できるもの
 //なければ無しと記載

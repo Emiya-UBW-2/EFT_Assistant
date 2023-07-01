@@ -37,8 +37,6 @@ A detailed plan map of the Shoreline area.
 
 *使用場所
 //使用する場所を記載
-<EFTA_UsePoint>
-</EFTA_UsePoint>
 
 **入手できるもの
 //なければ無しと記載

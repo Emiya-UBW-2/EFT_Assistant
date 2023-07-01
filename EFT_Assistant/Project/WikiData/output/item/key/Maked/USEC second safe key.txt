@@ -28,8 +28,6 @@ A key to the safe that belonged to one of the USEC operatives stationed in the r
 
 *使用場所
 //使用する場所を記載
-<EFTA_UsePoint>
-</EFTA_UsePoint>
 
 **入手できるもの
 //なければ無しと記載

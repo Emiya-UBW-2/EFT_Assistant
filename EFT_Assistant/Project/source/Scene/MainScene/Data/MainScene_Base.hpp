@@ -313,6 +313,11 @@ namespace FPS_n2 {
 				//処理
 				std::string STR;
 				std::string COMMENT;
+
+				int IsUsePoint = -1;
+				std::string USEPOINT_BEFORE;
+				std::string USEPOINT_AFTER;
+
 				switch (EnumWikiDataType_t) {
 				case FPS_n2::EnumWikiDataType::ITEMDATA_KEY:
 					for (auto& W : m_WikiTex) {
@@ -354,7 +359,6 @@ namespace FPS_n2 {
 						//
 						for (int loop = 0; loop < W.second.size(); loop++) {
 							auto& L = W.second[loop];
-							if (L == "") { continue; }
 							auto commendLine = L.find("//");
 							if (commendLine != std::string::npos) {
 								STR = L.substr(0, commendLine);
@@ -364,6 +368,7 @@ namespace FPS_n2 {
 								STR = L;
 								COMMENT = "";
 							}
+							if (STR == "") { continue; }
 							//トレーダー交換
 							{
 								auto BarterTrade = STR.find("<EFTA_BarterTrade_Check>");
@@ -502,6 +507,22 @@ namespace FPS_n2 {
 									continue;
 								}
 							}
+							//使用できる箇所を代入
+							{
+								auto useline = L.find("<EFTA_UsePoint>");
+								if (useline != std::string::npos) {
+									SubStrs(&STR, "<EFTA_UsePoint>");
+									//ひとつ前の行を取得
+									if ((1 < loop) && (loop < W.second.size() - 1 - 1)) {
+										USEPOINT_BEFORE = W.second[loop - 1];
+										USEPOINT_AFTER = W.second[loop + 1];
+										IsUsePoint = loop;
+									}
+									W.second.erase(W.second.begin() + loop);
+									loop--;
+									continue;
+								}
+							}
 							//代入
 							{
 								ReplaceStrs(&STR, "EFTA_FullName", ptr->GetName().c_str());							//EFTA_FullName							//日本語フルネーム
@@ -517,6 +538,45 @@ namespace FPS_n2 {
 							}
 							L = STR + COMMENT;
 						}
+						//使用できる箇所を代入
+						if (IsUsePoint != -1) {
+							std::string FileStr = OutputPath;
+
+							FileStr += "Base/";
+
+							std::string FileName = ptr->GetName();
+							SubStrs(&FileName, ".");
+							SubStrs(&FileName, "\\");
+							SubStrs(&FileName, "/");
+							SubStrs(&FileName, ":");
+							SubStrs(&FileName, "*");
+							SubStrs(&FileName, "?");
+							SubStrs(&FileName, "\"");
+							SubStrs(&FileName, ">");
+							SubStrs(&FileName, "<");
+							SubStrs(&FileName, "|");
+
+							std::ifstream File(FileStr + FileName + ".txt");
+							std::string line;
+							bool start = false;
+							while (std::getline(File, line)) {
+								if (line.find(USEPOINT_BEFORE) != std::string::npos) {
+									//次から終わりまでをW.secondに加える
+									start = true;
+									continue;
+								}
+								if (line.find(USEPOINT_AFTER) != std::string::npos) {
+									//次から終わりまでをW.secondに加える
+									start = false;
+									continue;
+								}
+								if (start) {
+									W.second.insert(W.second.begin() + IsUsePoint, line);
+									IsUsePoint++;
+								}
+							}
+							File.close();
+						}
 						//int a = 0;
 					}
 					break;
@@ -526,11 +586,6 @@ namespace FPS_n2 {
 				//後始末
 				switch (EnumWikiDataType_t) {
 				case FPS_n2::EnumWikiDataType::ITEMDATA_KEY:
-					break;
-				default:
-					break;
-				}
-				{
 					for (auto& W : m_WikiTex) {
 						auto* ptr = GetItemData()->FindPtr(W.first);
 						std::string FileStr = OutputPath;
@@ -555,6 +610,9 @@ namespace FPS_n2 {
 						}
 						outputfile.close();
 					}
+					break;
+				default:
+					break;
 				}
 				{
 					std::string ErrMes = "Update Wiki Time:" + std::to_string((float)((GetNowHiPerformanceCount() - BaseTime) / 1000) / 1000.f) + " s";

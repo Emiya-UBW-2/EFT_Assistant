@@ -32,8 +32,6 @@ A key that opens the operating room with broadcasting equipment, located somewhe
 -[[Mechanic/Broadcast - Part 1]]
 *使用場所
 //使用する場所を記載
-<EFTA_UsePoint>
-</EFTA_UsePoint>
 
 **入手できるもの
 //なければ無しと記載

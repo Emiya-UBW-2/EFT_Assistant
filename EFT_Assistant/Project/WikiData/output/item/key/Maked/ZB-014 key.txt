@@ -33,8 +33,6 @@ A rather unusual door key with some engravings reading "ZB-014".
 -[[Prapor/Ice Cream Cones]]
 *使用場所
 //使用する場所を記載
-<EFTA_UsePoint>
-</EFTA_UsePoint>
 
 **入手できるもの
 //なければ無しと記載

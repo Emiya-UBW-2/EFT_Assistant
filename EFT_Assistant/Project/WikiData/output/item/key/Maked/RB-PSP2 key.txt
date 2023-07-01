@@ -37,8 +37,6 @@ A key to one of the iron mesh doors in the Federal State Reserve Agency base und
 
 *使用場所
 //使用する場所を記載
-<EFTA_UsePoint>
-</EFTA_UsePoint>
 
 **入手できるもの
 //なければ無しと記載

@@ -26,7 +26,6 @@
 //EFTA_TaskNeed_TraderName
 //EFTA_TaskNeed_TaskName
 //
-//<EFTA_UsePoint>
-//</EFTA_UsePoint>
+//<EFTA_UsePoint>						//1行前の記述がクリソツだったら代入開始,1行あとの記述がクリソツだったら代入終了
 //
 //*********************************************************************//

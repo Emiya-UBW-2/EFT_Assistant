@@ -32,8 +32,6 @@ CENTER:&ref(Machinery key-summary.webp);
 -[[Prapor/Checking]]
 *使用場所
 //使用する場所を記載
-<EFTA_UsePoint>
-</EFTA_UsePoint>
 
 **入手できるもの
 //なければ無しと記載
