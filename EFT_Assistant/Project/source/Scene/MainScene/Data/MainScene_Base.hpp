@@ -535,6 +535,8 @@ namespace FPS_n2 {
 						auto* ptr = GetItemData()->FindPtr(W.first);
 						std::string FileStr = OutputPath;
 
+						FileStr += "Maked/";
+
 						std::string FileName = ptr->GetName();
 						SubStrs(&FileName, ".");
 						SubStrs(&FileName, "\\");
