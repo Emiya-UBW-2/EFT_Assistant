@@ -25,12 +25,12 @@ NeedItem=MS2000 Markerx1
 ]
 [
 	TaskType=mark
-	TaskText=Locate and mark the first ambulance with an MS2000 Marker on Shoreline
+	TaskText=Locate and mark the second ambulance with an MS2000 Marker on Shoreline
 	TaskOptional=false
 ]
 [
 	TaskType=mark
-	TaskText=Locate and mark the second ambulance with an MS2000 Marker on Shoreline
+	TaskText=Locate and mark the third ambulance with an MS2000 Marker on Shoreline
 	TaskOptional=false
 ]
 

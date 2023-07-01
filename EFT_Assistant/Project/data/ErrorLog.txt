@@ -1,5 +1,3 @@
 Error : Invalid ID by CheckID[]
 Error : Not Find ID :-1
 Error : Not Find Item : arenaFighterEvent
-Error : Not Find ID :-1
-Update Wiki Time:0.128000 s
