@@ -11,12 +11,14 @@ namespace FPS_n2 {
 	private:
 		ID								m_ID{ InvalidID };
 		std::string						m_IDstr;
-		std::string						m_Name;
+		std::string						m_Name_Eng;
 		std::string						m_ShortName;
 		std::string						m_FilePath;
 		std::array<int, 3>				m_Color{ 0,0,0 };
 
 		std::string						m_Information_Eng;
+
+		std::string						m_Name_Jpn;
 		std::string						m_Information_Jpn;
 
 		std::unique_ptr<std::thread>	m_SetJob{ nullptr };
@@ -31,7 +33,7 @@ namespace FPS_n2 {
 				m_IDstr = Args[0];
 			}
 			else if (LEFT == "Name") {
-				m_Name = Args[0];
+				m_Name_Eng = Args[0];
 				m_ShortName = Args[0];
 			}
 			else if (LEFT == "Color") {
@@ -44,6 +46,9 @@ namespace FPS_n2 {
 			}
 			else if (LEFT == "Information_Eng") {
 				m_Information_Eng = Args[0];
+			}
+			else if (LEFT == "Name_Jpn") {
+				m_Name_Jpn = Args[0];
 			}
 			else if (LEFT == "Information_Jpn") {
 				m_Information_Jpn = Args[0];
@@ -59,7 +64,7 @@ namespace FPS_n2 {
 		const auto&		GetIsSetFinish() const noexcept { return this->m_SetFinish; }
 		const auto&		GetID() const noexcept { return this->m_ID; }
 		const auto&		GetIDstr() const noexcept { return this->m_IDstr; }
-		const auto&		GetName() const noexcept { return this->m_Name; }
+		const auto&		GetName() const noexcept { return this->m_Name_Eng; }
 		const auto&		GetShortName() const noexcept { return this->m_ShortName; }
 		const auto&		GetFilePath() const noexcept { return this->m_FilePath; }
 
@@ -67,6 +72,8 @@ namespace FPS_n2 {
 		const auto		GetColors(int colorAdd) const noexcept { return DxLib::GetColor(std::clamp(m_Color[0] + colorAdd, 1, 255), std::clamp(m_Color[1] + colorAdd, 1, 255), std::clamp(m_Color[2] + colorAdd, 1, 255)); }
 		const auto&		GetIcon() const noexcept { return this->m_Icon; }
 		void			SetShortName(std::string_view value) noexcept { m_ShortName = value; }
+
+		const auto&		GetName_Jpn() const noexcept { return m_Name_Jpn; }
 
 		const auto&		GetInformation_Eng() const noexcept { return m_Information_Eng; }
 		const auto&		GetInformation_Jpn() const noexcept { return m_Information_Jpn; }

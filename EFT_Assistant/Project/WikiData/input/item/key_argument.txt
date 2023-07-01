@@ -1,5 +1,6 @@
 //*********************************************************************//
 //EFTA_FullName							//フルネーム
+//EFTA_JpnFullName						//日本語フルネーム
 //EFTA_ShortName						//ショートネーム
 //EFTA_InfoJpn							//日本語説明文
 //EFTA_DefaultWeight					//デフォルト状態の重さ(X.XXXkg)
@@ -25,7 +26,7 @@
 //EFTA_TaskNeed_TraderName
 //EFTA_TaskNeed_TaskName
 //
-//
-//
+//<EFTA_UsePoint>
+//</EFTA_UsePoint>
 //
 //*********************************************************************//

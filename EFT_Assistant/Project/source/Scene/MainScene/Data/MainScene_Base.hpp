@@ -384,21 +384,21 @@ namespace FPS_n2 {
 
 									W.second.erase(W.second.begin() + loop);
 
-									for (const auto&L : GetTraderData()->SetList()) {
-										for (const auto& Ld : L.GetLvData()) {
-											int Lv = (int)(&Ld - &L.GetLvData().front()) + 1;
+									for (const auto& L2 : GetTraderData()->SetList()) {
+										for (const auto& Ld : L2.GetLvData()) {
+											int Lv = (int)(&Ld - &L2.GetLvData().front()) + 1;
 											for (const auto& cf : Ld.m_ItemBarters) {
 												for (const auto& I : cf.m_ItemReward) {
 													if (I.GetID() == W.first) {
 														std::string STRB = STR;
-														ReplaceStrs(&STRB, "EFTA_BarterTrade_TraderName", L.GetName().c_str());			//EFTA_BarterTrade_TraderName
+														ReplaceStrs(&STRB, "EFTA_BarterTrade_TraderName", L2.GetName().c_str());			//EFTA_BarterTrade_TraderName
 														ReplaceStrs(&STRB, "EFTA_BarterTrade_TraderLv", std::to_string(Lv).c_str());	//EFTA_BarterTrade_TraderLv
 														std::string Need;
 														for (const auto& I2 : cf.m_ItemReq) {
 															Need += I2.GetName();
 															Need += " x";
 															Need += std::to_string(I2.GetValue());
-															if ((&I2 - &cf.m_ItemReq.front()) != cf.m_ItemReq.size() - 1) {
+															if ((int)(&I2 - &cf.m_ItemReq.front()) != (int)(cf.m_ItemReq.size()) - 1) {
 																Need += " &br;";
 															}
 														}
@@ -408,7 +408,7 @@ namespace FPS_n2 {
 															Reward += I2.GetName();
 															Reward += " x";
 															Reward += std::to_string(I2.GetValue());
-															if ((&I2 - &cf.m_ItemReward.front()) != cf.m_ItemReward.size() - 1) {
+															if ((int)(&I2 - &cf.m_ItemReward.front()) != (int)(cf.m_ItemReward.size()) - 1) {
 																Reward += " &br;";
 															}
 														}
@@ -416,7 +416,7 @@ namespace FPS_n2 {
 														std::string Unlock;
 														for (const auto& I2 : cf.m_TaskReq) {
 															Unlock += I2.GetName();
-															if ((&I2 - &cf.m_TaskReq.front()) != cf.m_TaskReq.size() - 1) {
+															if ((int)(&I2 - &cf.m_TaskReq.front()) != (int)(cf.m_TaskReq.size()) - 1) {
 																Unlock += " &br;";
 															}
 														}
@@ -506,6 +506,7 @@ namespace FPS_n2 {
 							{
 								ReplaceStrs(&STR, "EFTA_FullName", ptr->GetName().c_str());							//EFTA_FullName							//日本語フルネーム
 								ReplaceStrs(&STR, "EFTA_ShortName", ptr->GetShortName().c_str());					//EFTA_ShortName						//日本語フルネーム
+								ReplaceStrs(&STR, "EFTA_JpnFullName", UTF8toSjis(ptr->GetName_Jpn()).c_str());		//EFTA_ShortName						//日本語フルネーム
 								ReplaceStrs(&STR, "EFTA_InfoJpn", UTF8toSjis(ptr->GetInformation_Jpn()).c_str());	//EFTA_InfoJpn							//日本語フルネーム
 								char tID[64];
 								sprintfDx(tID, "%5.3fkg", ptr->Getweight());
@@ -516,7 +517,7 @@ namespace FPS_n2 {
 							}
 							L = STR + COMMENT;
 						}
-						int a = 0;
+						//int a = 0;
 					}
 					break;
 				default:
