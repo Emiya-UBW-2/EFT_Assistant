@@ -3,7 +3,7 @@ Name=Special Equipment
 Trader=Peacekeeper
 
 NeedTask=Trophies
-NeedLevel=55
+NeedLevel=60
 
 CanRestart=false
 NeedKappa=false
