@@ -279,6 +279,7 @@ namespace FPS_n2 {
 	public:
 		const auto WikiDataUpdate(EnumWikiDataType EnumWikiDataType_t, int XPos, int YPos, int Xsize, int Ysize, bool IsActive, unsigned int Color, const char* mes,
 			const char* InputFilePath,
+			const char* InputPath,
 			const char* OutputPath,
 			bool fastDo = false
 		) noexcept {
@@ -540,10 +541,7 @@ namespace FPS_n2 {
 						}
 						//Žg—p‚Å‚«‚é‰ÓŠ‚ð‘ã“ü
 						if (IsUsePoint != -1) {
-							std::string FileStr = OutputPath;
-
-							FileStr += "Base/";
-
+							std::string FileStr = InputPath;
 							std::string FileName = ptr->GetName();
 							SubStrs(&FileName, ".");
 							SubStrs(&FileName, "\\");
@@ -589,9 +587,6 @@ namespace FPS_n2 {
 					for (auto& W : m_WikiTex) {
 						auto* ptr = GetItemData()->FindPtr(W.first);
 						std::string FileStr = OutputPath;
-
-						FileStr += "Maked/";
-
 						std::string FileName = ptr->GetName();
 						SubStrs(&FileName, ".");
 						SubStrs(&FileName, "\\");

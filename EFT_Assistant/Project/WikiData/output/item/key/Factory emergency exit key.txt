@@ -1,0 +1,117 @@
+*Factory emergency exit key/Factory 非常口の鍵
+//imgページではなく個別ページに添付する
+
+//命名規則
+//「アイテム名-summary.webp」スペースはアンダーバー「_｣
+CENTER:&ref(Factory emergency exit key-summary.webp);
+
+*概要
+//概要を記載
+Factoryの非常口の鍵。壊れやすそうに見える。
+
+*性能
+//アイコンは、imgページではなく個別ページに添付する
+
+//命名規則
+//「短縮名-icon.webp」スペースはアンダーバー「_｣
+|CENTER:BGCOLOR(#D8F781):アイコン|CENTER:&ref(Factory-icon.webp);|
+|CENTER:BGCOLOR(#D8F781):短縮名|Factory|
+|CENTER:BGCOLOR(#D8F781):重量|0.010kg|
+|CENTER:BGCOLOR(#D8F781):サイズ|1x1|
+|CENTER:BGCOLOR(#D8F781):使用回数|20|
+
+*鍵の入手方法
+**レイド内
+-[[オブジェクト]]
+--[[Jacket]]
+--[[Drawer]]
+
+**トレード
+//なければ項目ごと削除
+
+//===============================LIST
+|BGCOLOR(#D8F781):''トレーダー''|BGCOLOR(#D8F781):''トレーダーLV''|BGCOLOR(#D8F781):''必要なアイテム''|BGCOLOR(#D8F781):''入手できるアイテム''|BGCOLOR(#D8F781):''備考''|
+//
+|Jaeger|2|Factory emergency exit key x1 &br;Iskra ration pack x4 &br;MRE ration pack x1|Factory emergency exit key x1||
+//===============================LISTEND
+
+**タスク報酬
+//なければ項目ごと削除
+//-[[Therapist/Private Clinic]]
+-[[Jaeger/The Huntsman Path - Factory Chief]]
+-[[Mechanic/Scout]]
+
+*使用場所
+//使用する場所を記載
+#accordion(Customs,**,open){{{
+#accordion(Dorms(3階寮,open){{
+&ref(img/fe2k-The office-door.jpg,600x600);
+&ref(img/factorykey_droms.jpg,600x600);
+}}
+#accordion(SMOKE,***,open){{
+&ref(img/fe2k-The-building.jpg,600x600);
+&ref(img/factory_key_cutoms_boilerarea.jpg,600x600);
+}}
+#accordion(Old Gas Station,***,open){{
+&ref(img/fe2k-old-gus.jpg,600x600);
+}}
+}}}
+
+#accordion(Customs,**,open){{{
+#accordion(SHORT CUT,***,open){{
+''新ガスステーション側''
+&ref(img/fe2k-shortcut1.jpg,600x600);
+''旧ガスステーション側''
+&ref(img/fe2k-shortcut2.jpg,600x600);
+}}
+
+#accordion(FORT,***,open){{
+''新建築''
+&ref(img/fe2k-fort.jpg,600x600);
+&ref(img/fe2k-fort-under.jpg,600x600);
+}}
+}}}
+
+#accordion(Factory,**,open){{{
+#accordion(Gate 0 extraction,***,open){{
+&ref(img/fe2k-factory-gate0-a.jpg,600x600);
+&ref(img/fe2k-factory-gate0-b.jpg,600x600);
+}}
+
+#accordion(Med tent gates extraction,***,open){{
+&ref(img/fe2k-med-tent-gates-0-a.jpg,600x600);
+&ref(img/fe2k-med-tent-gates-0-b.jpg,600x600);
+}}
+
+#accordion(Cellars extraction,***,open){{
+&ref(img/fe2k-cellars-0-a.jpg,600x600);
+&ref(img/fe2k-cellars-0-b.jpg,600x600);
+}}
+
+#accordion(The lock Door,***,open){{
+&ref(img/Portable bunkhouse key-summary-door.jpg,600x600);
+&ref(img/Portable-bunkhouse-key-jacket.jpg,600x600);
+}}
+}}}
+
+#accordion(Shoreline,**,open){{
+&ref(img/fe2k-shoreline.jpg,600x600);
+}}
+
+#accordion(Interchange,**,open){{
+&ref(img/fe2k-interchange.jpg,600x600);
+}}
+**入手できるもの
+//なければ無しと記載
+//-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
+//--
+//改行
+//-スポーン
+//--
+
+**画像
+//サイズは600x600
+//拡張子はjpgかpngかwebp
+
+*コメント
+//編集掲示板でzawazawaのコメントを作成するように依頼してください

@@ -1,0 +1,54 @@
+*RB-PP key/RB-PPの鍵
+//imgページではなく個別ページに添付する
+
+//命名規則
+//「アイテム名-summary.webp」スペースはアンダーバー「_｣
+CENTER:&ref(RB-PP key-summary.webp);
+
+*概要
+//概要を記載
+A key to the Radar Station bomb shelter under the Federal State Reserve Agency base. Doesn't seem to be actually used for anything though, at least for now.
+
+*性能
+//アイコンは、imgページではなく個別ページに添付する
+
+//命名規則
+//「短縮名-icon.webp」スペースはアンダーバー「_｣
+|CENTER:BGCOLOR(#D8F781):アイコン|CENTER:&ref(RB-PP-icon.webp);|
+|CENTER:BGCOLOR(#D8F781):短縮名|RB-PP|
+|CENTER:BGCOLOR(#D8F781):重量|0.010kg|
+|CENTER:BGCOLOR(#D8F781):サイズ|1x1|
+|CENTER:BGCOLOR(#D8F781):使用回数|40|
+
+*鍵の入手方法
+**レイド内
+-[[オブジェクト]]
+--[[Jacket]]
+--[[Drawer]]
+
+**トレード
+//なければ項目ごと削除
+
+//===============================LIST
+|BGCOLOR(#D8F781):''トレーダー''|BGCOLOR(#D8F781):''トレーダーLV''|BGCOLOR(#D8F781):''必要なアイテム''|BGCOLOR(#D8F781):''入手できるアイテム''|BGCOLOR(#D8F781):''備考''|
+//
+|Jaeger|4|Can of RatCola soda x4 &br;Pompon hat x8 &br;Ushanka ear flap hat x4|RB-PP key x1||
+//===============================LISTEND
+
+*使用場所
+//使用する場所を記載
+
+**入手できるもの
+//なければ無しと記載
+//-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
+//--
+//改行
+//-スポーン
+//--
+
+**画像
+//サイズは600x600
+//拡張子はjpgかpngかwebp
+
+*コメント
+//編集掲示板でzawazawaのコメントを作成するように依頼してください

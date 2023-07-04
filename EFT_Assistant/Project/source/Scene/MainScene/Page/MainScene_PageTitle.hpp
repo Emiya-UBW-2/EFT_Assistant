@@ -199,6 +199,7 @@ namespace FPS_n2 {
 				EnumWikiDataType::ITEMDATA_KEY,
 				XPos, YPos, Xsize, Ysize, true, Color, "キー情報更新",
 				"WikiData/input/item/key.txt",
+				"WikiData/input/item/key/",
 				"WikiData/output/item/key/"
 			)) {}
 			YPos += Ysize + y_r(5);
