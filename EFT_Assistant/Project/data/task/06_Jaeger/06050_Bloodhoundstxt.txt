@@ -10,7 +10,7 @@ NeedLightkeeper=false
 
 factionName=Any
 Task_Kill=[
-	arenaFighterEventx30
+	Bloodhoundx30
 ]
 
 [

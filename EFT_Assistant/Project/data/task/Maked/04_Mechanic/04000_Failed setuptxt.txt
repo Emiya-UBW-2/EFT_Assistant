@@ -22,7 +22,7 @@ Task_Kill=[
 Reward_Rep=Mechanic+15
 
 Task_Kill=[
-	assaultx1
+	Sniperx1
 ]
 
 [
