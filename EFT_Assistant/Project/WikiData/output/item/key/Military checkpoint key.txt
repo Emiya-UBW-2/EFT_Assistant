@@ -28,7 +28,6 @@ CENTER:&ref(Military checkpoint key-summary.webp);
 
 **トレード
 //なければ項目ごと削除
-
 //===============================LIST
 |BGCOLOR(#D8F781):''トレーダー''|BGCOLOR(#D8F781):''トレーダーLV''|BGCOLOR(#D8F781):''必要なアイテム''|BGCOLOR(#D8F781):''入手できるアイテム''|BGCOLOR(#D8F781):''備考''|
 //
@@ -37,7 +36,6 @@ CENTER:&ref(Military checkpoint key-summary.webp);
 
 *タスク
 //なければ項目ごと削除
-//例：-[[Peacekeeper/Cargo X - Part 1]]
 -[[Therapist/Trust Regain]]
 *使用場所
 //使用する場所を記載

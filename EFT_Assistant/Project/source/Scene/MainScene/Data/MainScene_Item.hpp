@@ -1260,7 +1260,7 @@ namespace FPS_n2 {
 		const auto&	GetfleaMarketFee() const noexcept { return this->m_ItemsData.m_fleaMarketFee; }
 		const auto&	GetUseTaskID() const noexcept { return this->m_ItemsData.m_UseTaskID; }
 	public://Key
-		const auto&	GetKeyUses() const noexcept { return this->m_ItemsData.m_properties.GetUses(); }
+		const auto	GetKeyUses() const noexcept { return this->m_ItemsData.m_properties.GetUses(); }
 	public://WeaponMod/Weapon Slots
 		const auto&	GetChildParts() const noexcept { return this->m_ItemsData.m_properties.GetModSlots(); }
 		const auto&	GetConflictParts() const noexcept { return this->m_ItemsData.m_properties.GetConflictPartsID(); }

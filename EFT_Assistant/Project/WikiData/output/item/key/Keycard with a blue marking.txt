@@ -28,7 +28,6 @@ A single-use plastic keycard with a blue color marking, probably for identificat
 
 *タスク
 //なければ項目ごと削除
-//例：-[[Peacekeeper/Cargo X - Part 1]]
 -[[Peacekeeper/TerraGroup Employee]]
 *使用場所
 //使用する場所を記載

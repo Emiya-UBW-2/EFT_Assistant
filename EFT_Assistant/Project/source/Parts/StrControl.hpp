@@ -32,7 +32,18 @@ namespace FPS_n2 {
 		auto now = Target->find(str);
 		if (now != std::string::npos) {
 			*Target = Target->substr(0, now);
+			return true;
 		}
+		return false;
+	};
+	//
+	static const auto		ReplaceRIGHTStrs(std::string* Target, const char* str, const char* str2) {
+		auto now = Target->find(str);
+		if (now != std::string::npos) {
+			*Target = Target->replace(now, strlenDx(str), str2);
+			return true;
+		}
+		return false;
 	};
 	//
 	static const auto		GetArgs(const std::string& RIGHT) noexcept {

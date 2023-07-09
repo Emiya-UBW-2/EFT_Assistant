@@ -28,7 +28,6 @@ A key that opens the radar station commandant office room, located somewhere on 
 
 *タスク
 //なければ項目ごと削除
-//例：-[[Peacekeeper/Cargo X - Part 1]]
 -[[Skier/Top Secret]]
 *使用場所
 //使用する場所を記載

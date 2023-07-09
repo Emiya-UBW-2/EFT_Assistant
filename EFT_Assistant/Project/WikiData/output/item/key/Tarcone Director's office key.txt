@@ -28,7 +28,6 @@ CENTER:&ref(Tarcone Director's office key-summary.webp);
 
 **トレード
 //なければ項目ごと削除
-
 //===============================LIST
 |BGCOLOR(#D8F781):''トレーダー''|BGCOLOR(#D8F781):''トレーダーLV''|BGCOLOR(#D8F781):''必要なアイテム''|BGCOLOR(#D8F781):''入手できるアイテム''|BGCOLOR(#D8F781):''備考''|
 //
@@ -38,7 +37,6 @@ CENTER:&ref(Tarcone Director's office key-summary.webp);
 
 *タスク
 //なければ項目ごと削除
-//例：-[[Peacekeeper/Cargo X - Part 1]]
 -[[Mechanic/Farming - Part 3]]
 -[[Prapor/Delivery from the Past]]
 *使用場所

@@ -28,7 +28,6 @@ A key to the EMERCOM medical care unit at the ULTRA shopping mall.
 
 *タスク
 //なければ項目ごと削除
-//例：-[[Peacekeeper/Cargo X - Part 1]]
 -[[Skier/Vitamins - Part 1]]
 *使用場所
 //使用する場所を記載

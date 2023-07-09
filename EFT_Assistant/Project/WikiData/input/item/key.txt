@@ -28,7 +28,6 @@ EFTA_InfoJpn
 
 <EFTA_BarterTrade_Check>**トレード
 <EFTA_BarterTrade_Check>//なければ項目ごと削除
-<EFTA_BarterTrade_Check>
 <EFTA_BarterTrade_Check>//===============================LIST
 <EFTA_BarterTrade_Check>|BGCOLOR(#D8F781):''トレーダー''|BGCOLOR(#D8F781):''トレーダーLV''|BGCOLOR(#D8F781):''必要なアイテム''|BGCOLOR(#D8F781):''入手できるアイテム''|BGCOLOR(#D8F781):''備考''|
 <EFTA_BarterTrade_Check>//
@@ -37,15 +36,12 @@ EFTA_InfoJpn
 <EFTA_BarterTrade_Check>
 <EFTA_TaskReward_Check>**タスク報酬
 <EFTA_TaskReward_Check>//なければ項目ごと削除
-<EFTA_TaskReward_Check>//-[[Therapist/Private Clinic]]
 <EFTA_TaskReward_Check><EFTA_TaskReward_For>-[[EFTA_TaskReward_TraderName/EFTA_TaskReward_TaskName]]
 <EFTA_TaskReward_Check>
 <EFTA_TaskNeed_Check>*タスク
 <EFTA_TaskNeed_Check>//なければ項目ごと削除
-<EFTA_TaskNeed_Check>//例：-[[Peacekeeper/Cargo X - Part 1]]
 <EFTA_TaskNeed_Check><EFTA_TaskNeed_For>-[[EFTA_TaskNeed_TraderName/EFTA_TaskNeed_TaskName]]
 *使用場所
-//使用する場所を記載
 <EFTA_UsePoint>
 **入手できるもの
 //なければ無しと記載
@@ -60,4 +56,4 @@ EFTA_InfoJpn
 //拡張子はjpgかpngかwebp
 
 *コメント
-//編集掲示板でzawazawaのコメントを作成するように依頼してください
+<EFTA_CommentPoint>

@@ -28,7 +28,6 @@ A key to one of the Federal State Reserve Agency base guard barracks' armories.
 
 **タスク報酬
 //なければ項目ごと削除
-//-[[Therapist/Private Clinic]]
 -[[Peacekeeper/Spa Tour - Part 5]]
 
 *使用場所

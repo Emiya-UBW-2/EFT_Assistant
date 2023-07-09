@@ -28,7 +28,6 @@ A rather unusual door key with some engravings reading "ZB-014".
 
 *タスク
 //なければ項目ごと削除
-//例：-[[Peacekeeper/Cargo X - Part 1]]
 -[[Therapist/Trust Regain]]
 -[[Prapor/Ice Cream Cones]]
 *使用場所

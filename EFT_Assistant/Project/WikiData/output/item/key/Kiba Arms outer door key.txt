@@ -28,7 +28,6 @@ A key to the outer door of the KIBA Arms International outlet at the ULTRA shopp
 
 **トレード
 //なければ項目ごと削除
-
 //===============================LIST
 |BGCOLOR(#D8F781):''トレーダー''|BGCOLOR(#D8F781):''トレーダーLV''|BGCOLOR(#D8F781):''必要なアイテム''|BGCOLOR(#D8F781):''入手できるアイテム''|BGCOLOR(#D8F781):''備考''|
 //

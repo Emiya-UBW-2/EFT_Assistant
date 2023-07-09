@@ -28,7 +28,6 @@ A key to the Azure Coast sanatorium west wing room 220.
 
 *タスク
 //なければ項目ごと削除
-//例：-[[Peacekeeper/Cargo X - Part 1]]
 -[[Peacekeeper/Spa Tour - Part 4]]
 *使用場所
 //使用する場所を記載

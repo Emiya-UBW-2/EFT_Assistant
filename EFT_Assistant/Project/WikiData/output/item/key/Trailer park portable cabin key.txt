@@ -28,12 +28,10 @@ Customsのトレーラーパークにある可搬式の監視員詰所の鍵。
 
 **タスク報酬
 //なければ項目ごと削除
-//-[[Therapist/Private Clinic]]
 -[[Skier/Golden Swag]]
 
 *タスク
 //なければ項目ごと削除
-//例：-[[Peacekeeper/Cargo X - Part 1]]
 -[[Skier/Golden Swag]]
 *使用場所
 //使用する場所を記載

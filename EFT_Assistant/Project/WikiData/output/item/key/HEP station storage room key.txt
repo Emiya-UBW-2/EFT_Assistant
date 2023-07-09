@@ -28,7 +28,6 @@ A key to the USEC stash inside hydroelectric power station, located somewhere ne
 
 **タスク報酬
 //なければ項目ごと削除
-//-[[Therapist/Private Clinic]]
 -[[Jaeger/Nostalgia]]
 
 *使用場所

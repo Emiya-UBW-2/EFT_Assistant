@@ -5,8 +5,8 @@ int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 	SetWindowStyleMode(2);
 	SetUseBackBufferTransColorFlag(TRUE);
 	OPTION::Create();
-	DXDraw::Create("EFT Assistant", 950, 950 * 9 / 16);	//汎用
-	//DXDraw::Create("EFT Assistant", 1920, 720);	//汎用
+	//DXDraw::Create("EFT Assistant", 950, 950 * 9 / 16);	//汎用
+	DXDraw::Create("EFT Assistant", 1920, 720);	//汎用
 	EffectResource::Create();
 	PostPassEffect::Create();							//シェーダー
 	//SoundPool::Create();								//サウンド
@@ -19,7 +19,29 @@ int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 
 	while(false)
 	{
-		auto GetTagStr = [&](std::string* line, const char* Left, const char* Right) {
+		//
+		auto SubStrs = [&](std::string* line) {
+			std::vector<std::string> Ret;
+			while (true) {
+				auto Start = line->find("\"");
+				if (Start != std::string::npos) {
+					auto Startp = Start + strlenDx("\"");
+					auto End = line->find("\"", Startp);
+					if (End != std::string::npos) {
+						Ret.emplace_back(line->substr(Startp, End - Startp));
+						*line = line->substr(0, Start) + line->substr(End + strlenDx("\""));
+					}
+					else {
+						break;
+					}
+				}
+				else {
+					break;
+				}
+			}
+			return Ret;
+		};
+		auto GetStrInTag = [&](std::string* line, const char* Left, const char* Right) {
 			auto Start = line->find(Left);
 			if (Start != std::string::npos) {
 				auto Ofs = Start + strlenDx(Left);
@@ -31,10 +53,10 @@ int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 			}
 			return false;
 		};
-		auto SubTag = [&](std::string* line, const char* Left, const char* Right) {
+		auto SubComment = [&](std::string* line) {
 			while (true) {
 				std::string line_t = *line;
-				if (GetTagStr(&line_t, Left, Right)) {					//メタ
+				if (GetStrInTag(&line_t, "<!--", "-->")) {					//メタ
 					if (line_t != "") {
 						FPS_n2::SubStrs(line, line_t.c_str());
 					}
@@ -42,58 +64,128 @@ int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 				else {
 					break;
 				}
-				std::string Total = Left;
-				Total += Right;
-				FPS_n2::SubStrs(line, Total.c_str());
+				FPS_n2::SubStrs(line, "<!---->");
 			}
 		};
-		auto ReplaceTag = [&](std::string* line, const char* Left, const char* Right, const char* After) {
-			while (true) {
-				std::string line_t = *line;
-				if (GetTagStr(&line_t, Left, Right)) {					//メタ
-					if (line_t != "") {
-						FPS_n2::SubStrs(line, line_t.c_str());
-					}
-				}
-				else {
-					break;
-				}
-				std::string Total = Left;
-				Total += Right;
-				FPS_n2::ReplaceStrs(line, Total.c_str(), After);
-			}
-		};
-		auto ReplaceTags = [&](std::string* line, const char* Tag, const char* Type1, const char* After) {
-			std::string Left = "<";	Left += Tag;
-			std::string Total = Left; Total += ">";
+		//
+		auto ReplaceTags = [&](std::string* line, const char* Tag, const char* Type1, const char* AfterStart, const char* AfterEnd) {
+			bool isHit = false;
+			bool isEnd = true;
 
+			std::string Left_Start = "<";	Left_Start += Tag;
+			std::string Total_Start = Left_Start; Total_Start += ">";
 
-			std::string line_p = *line;
+			std::string Left_End = "</";	Left_End += Tag;
+			std::string Total_End = Left_End; Total_End += ">";
+
+			std::string line_ret = *line;
+
+			std::string line_p = line_ret;
 			while (true) {
 				std::string line_t = line_p;
-				if (GetTagStr(&line_t, Left.c_str(), ">")) {					//メタ
+				if (GetStrInTag(&line_t, Left_Start.c_str(), ">")) {
+					isHit = true;
+					isEnd = false;
 					if (line_t != "") {
 						FPS_n2::SubStrs(&line_p, line_t.c_str());
-						if (Type1 != "") {
-							if (line_t.find(Type1) != std::string::npos) {
-								*line = line_p;
-							}
-							else {
-
-							}
+					}
+					FPS_n2::ReplaceRIGHTStrs(&line_p, Total_Start.c_str(), AfterStart);
+					if (FPS_n2::ReplaceRIGHTStrs(&line_p, Total_End.c_str(), AfterEnd)) {
+						isEnd = true;
+					}
+					if (Type1 != nullptr) {
+						if (Type1 == "") {
+							line_ret = line_p;
 						}
 						else {
-							*line = line_p;
+							if ((line_t != "") && (line_t.find(Type1) != std::string::npos)) {
+								line_ret = line_p;
+							}
+						}
+					}
+					else {
+						//何も書いてない場合だけ
+						if (line_t == "") {
+							line_ret = line_p;
+						}
+						else {
+
 						}
 					}
 				}
 				else {
 					break;
 				}
-				FPS_n2::ReplaceStrs(&line_p, Total.c_str(), After);
-				FPS_n2::ReplaceStrs(line, Total.c_str(), After);
+			}
+
+			*line = line_ret;
+			return isEnd;
+		};
+		auto ReplaceTags_P = [&](std::vector<std::string>& lines_before, int now, const char* Tag, const char* Type1, const char* AfterStart, const char* AfterEnd) {
+			std::string Left_End = "</";	Left_End += Tag;
+			std::string Total_End = Left_End; Total_End += ">";
+			auto& line = lines_before[now];
+			if (!ReplaceTags(&line, Tag, Type1, AfterStart, AfterEnd)) {//todo
+				for (int k = now + 1; k < lines_before.size(); k++) {
+					auto& linek = lines_before[k];
+					if (FPS_n2::ReplaceRIGHTStrs(&linek, Total_End.c_str(), AfterEnd)) {
+						break;
+					}
+				}
 			}
 		};
+		auto ReplaceImageTags_P = [&](std::vector<std::string>& lines_before, int now) {
+			while (true) {
+				std::string line_t = lines_before[now];
+				if (GetStrInTag(&line_t, "<img", ">")) {
+					bool isHit = false;
+					if (line_t != "") {
+						FPS_n2::SubStrs(&lines_before[now], line_t.c_str());
+						std::string FileName = "";
+						std::string FileWidth = "";
+						std::string FileHeight = "";
+						{
+							std::string line_t2 = line_t;
+							if (GetStrInTag(&line_t2, " alt=\"", "\" ")) {					//メタ
+								if (line_t2 != "") {
+									FileName = line_t2;
+									isHit = true;
+								}
+							}
+						}
+						{
+							std::string line_t2 = line_t;
+							if (GetStrInTag(&line_t2, " width=\"", "\" ")) {					//メタ
+								if (line_t2 != "") {
+									FileWidth = line_t2;
+									isHit = true;
+								}
+							}
+						}
+						{
+							std::string line_t2 = line_t;
+							if (GetStrInTag(&line_t2, " height=\"", "\" ")) {					//メタ
+								if (line_t2 != "") {
+									FileHeight = line_t2;
+									isHit = true;
+								}
+							}
+						}
+						if (isHit) {
+							line_t = "&ref(img/" + FileName + "," + FileWidth + "x" + FileHeight + ");";
+							FPS_n2::ReplaceRIGHTStrs(&lines_before[now], "<img>", line_t.c_str());
+						}
+					}
+					if (!isHit) {
+						FPS_n2::ReplaceRIGHTStrs(&lines_before[now], "<img>", "&ref();");
+					}
+				}
+				else {
+					break;
+				}
+			}
+		};
+		//
 		auto SpaceOnlyCheck = [&](std::string* line) {
 			if (*line == "") { return true; }					//もう空白しかねえ
 			FPS_n2::SubStrs(line, "	");							//タグけし
@@ -105,119 +197,60 @@ int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 			}
 			return false;
 		};
-
-		auto SubStrs = [&](std::string* line) {
-			std::vector<std::string> Ret;
+		//
+		auto SubLeftSpace = [&](std::string* line) {
 			while (true) {
-				auto Start = line->find("\"");
-				if (Start != std::string::npos) {
-					auto End = line->find("\"",Start + strlenDx("\""));
-					if (End != std::string::npos) {
-						Ret.emplace_back(line->substr(Start + strlenDx("\""), End));
-						*line = line->substr(0, Start) + line->substr(End + strlenDx("\""));
-					}
-					else {
-						break;
-					}
+				if ((*line)[0] == ' ') {
+					*line = line->substr(1);
 				}
 				else {
 					break;
 				}
 			}
-			return;
 		};
-
+		//
+		std::vector<std::string> lines_before;
 		std::vector<std::string> lines;
-		std::ifstream File("WikiData/input/item/key_html/Factory emergency exit key - Escape from Tarkov Wiki_.html");
-		std::string line;
 		bool isStart = false;
 		bool isScript = false;
-		while (std::getline(File, line)) {
-			//これらのキーワードがハイライトされています～コメント
-			{
-				if (!isStart) {
-					auto Start = line.find("これらのキーワードがハイライトされています");
-					if (Start != std::string::npos) {
-						isStart = true;
+		std::array<int, 32> count;
+		for (auto& c : count) { c = 0; }
+		{
+			std::string filename = "WikiData/input/item/key_html/Factory emergency exit keyのソース - Escape from Tarkov Wiki_.html";
+			std::ifstream File(FPS_n2::UTF8toSjis(filename));
+			std::string line;
+			while (std::getline(File, line)) {
+				//これらのキーワードがハイライトされています～コメント
+				{
+					if (!isStart) {
+						auto Start = line.find("<code>");
+						if (Start != std::string::npos) {
+							isStart = true;
+							line = line.substr(Start+strlenDx("<code>"));
+						}
+						else {
+							continue;
+						}
 					}
 					else {
-						continue;
+						auto Start = line.find("</code>");
+						if (Start != std::string::npos) {
+							isStart = false;
+							continue;
+						}
 					}
 				}
-				else {
-					auto Start = line.find("コメント");
-					if (Start != std::string::npos) {
-						isStart = false;
-						continue;
-					}
-				}
+				lines.emplace_back(line);
 			}
-			//スクリプトをスルー
-			{
-				if (!isScript) {
-					auto Start = line.find("<script>");
-					if (Start != std::string::npos) {
-						isScript = true;
-						continue;
-					}
-				}
-				else {
-					auto Start = line.find("</script>");
-					if (Start != std::string::npos) {
-						isScript = false;
-					}
-					continue;
-				}
-			}
-			{
-				SubTag(&line, "<!--", "-->");		//コメント消す
-				//SubTag(&line, "\"", "\"");
-				//FPS_n2::SubStrs(&line, "\"");
-				//FPS_n2::SubStrs(&line, "\/");
-			}
-			if (SpaceOnlyCheck(&line)) { continue; }
-			{
-				SubStrs(&line);
-
-				//ReplaceTags(&line, "a", "class", "");
-				//ReplaceTags(&line, "a", "href", "");
-				ReplaceTags(&line, "a", "", "");			FPS_n2::SubStrs(&line, "</a>");
-
-				ReplaceTags(&line, "br", "", "");
-				ReplaceTags(&line, "b", "", "");			FPS_n2::SubStrs(&line, "</b>");
-
-				ReplaceTags(&line, "div", "", "");			FPS_n2::SubStrs(&line, "</div>");
-				ReplaceTags(&line, "hr", "", "");
-				ReplaceTags(&line, "h1", "", "");			FPS_n2::SubStrs(&line, "</h1>");
-				ReplaceTags(&line, "h2", "", "");			FPS_n2::SubStrs(&line, "</h2>");
-				ReplaceTags(&line, "h3", "", "");			FPS_n2::SubStrs(&line, "</h3>");
-				ReplaceTags(&line, "h4", "", "");			FPS_n2::SubStrs(&line, "</h4>");
-				ReplaceTags(&line, "h5", "", "");			FPS_n2::SubStrs(&line, "</h5>");
-				ReplaceTags(&line, "h6", "", "");			FPS_n2::SubStrs(&line, "</h6>");
-				//ReplaceTags(&line, "img", "", "");
-				//ReplaceTags(&line, "i", "", "");			FPS_n2::SubStrs(&line, "</i>");
-				ReplaceTags(&line, "meta", "", "");
-				ReplaceTags(&line, "path", "", "");			FPS_n2::SubStrs(&line, "</path>");
-				ReplaceTags(&line, "p", "", "");			FPS_n2::SubStrs(&line, "</p>");
-				ReplaceTags(&line, "span", "", "");			FPS_n2::SubStrs(&line, "</span>");
-				ReplaceTags(&line, "strong", "", "");		FPS_n2::SubStrs(&line, "</strong>");
-				ReplaceTags(&line, "svg", "", "");			FPS_n2::SubStrs(&line, "</svg>");
-				ReplaceTags(&line, "s", "", "");			FPS_n2::SubStrs(&line, "</s>");
-				ReplaceTags(&line, "ul", "", "");			FPS_n2::SubStrs(&line, "</ul>");
-
-				ReplaceTags(&line, "table", "","[");				FPS_n2::ReplaceStrs(&line, "</table>", "]");
-				ReplaceTags(&line, "thead", "", "[");				FPS_n2::ReplaceStrs(&line, "</thead>", "]");
-				ReplaceTags(&line, "tbody", "", "[");				FPS_n2::ReplaceStrs(&line, "</tbody>", "]");
-				ReplaceTags(&line, "tr", "", "/[");				FPS_n2::ReplaceStrs(&line, "</tr>", "]/");
-				ReplaceTags(&line, "td", "", "[");				FPS_n2::ReplaceStrs(&line, "</td>", "]");
-				ReplaceTags(&line, "li", "", "[");				FPS_n2::ReplaceStrs(&line, "</li>", "]");
-			}
-			if (SpaceOnlyCheck(&line)) { continue; }
-
-			lines.emplace_back(line);
+			File.close();
 		}
-		File.close();
-
+		{
+			std::ofstream outputfile("WikiData/input/item/key_html/tmp.txt");
+			for (auto& L : lines) {
+				outputfile << L + "\n";
+			}
+			outputfile.close();
+		}
 		SetLogFontSize(10);
 		setPrintColorDx(GetColor(0, 255, 0), GetColor(0, 64, 0));
 		int yofs = 0;

@@ -28,12 +28,10 @@ A key to the Azure Coast sanatorium west wing room 306.
 
 **タスク報酬
 //なければ項目ごと削除
-//-[[Therapist/Private Clinic]]
 -[[Peacekeeper/Spa Tour - Part 1]]
 
 *タスク
 //なければ項目ごと削除
-//例：-[[Peacekeeper/Cargo X - Part 1]]
 -[[Therapist/Health Care Privacy - Part 2]]
 *使用場所
 //使用する場所を記載

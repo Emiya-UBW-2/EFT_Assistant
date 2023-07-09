@@ -28,7 +28,6 @@ A key to the IDEA store outlet cash registers at the ULTRA shopping mall.
 
 **タスク報酬
 //なければ項目ごと削除
-//-[[Therapist/Private Clinic]]
 -[[Jaeger/The Huntsman Path - Sellout]]
 
 *使用場所

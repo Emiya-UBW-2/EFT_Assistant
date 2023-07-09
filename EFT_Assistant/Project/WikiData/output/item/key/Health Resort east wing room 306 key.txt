@@ -28,12 +28,10 @@ A key to the Azure Coast sanatorium east wing room 306.
 
 **タスク報酬
 //なければ項目ごと削除
-//-[[Therapist/Private Clinic]]
 -[[Therapist/Private Clinic]]
 
 *タスク
 //なければ項目ごと削除
-//例：-[[Peacekeeper/Cargo X - Part 1]]
 -[[Peacekeeper/Cargo X - Part 1]]
 -[[Skier/Lend-Lease - Part 1]]
 *使用場所

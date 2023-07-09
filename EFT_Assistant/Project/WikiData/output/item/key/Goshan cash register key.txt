@@ -28,7 +28,6 @@ A key to the Goshan store outlet cash registers at the ULTRA shopping mall.
 
 **トレード
 //なければ項目ごと削除
-
 //===============================LIST
 |BGCOLOR(#D8F781):''トレーダー''|BGCOLOR(#D8F781):''トレーダーLV''|BGCOLOR(#D8F781):''必要なアイテム''|BGCOLOR(#D8F781):''入手できるアイテム''|BGCOLOR(#D8F781):''備考''|
 //
@@ -37,7 +36,6 @@ A key to the Goshan store outlet cash registers at the ULTRA shopping mall.
 
 *タスク
 //なければ項目ごと削除
-//例：-[[Peacekeeper/Cargo X - Part 1]]
 -[[Ragman/Supervisor]]
 *使用場所
 //使用する場所を記載

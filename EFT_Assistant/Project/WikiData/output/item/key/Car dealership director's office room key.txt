@@ -28,7 +28,6 @@ A key to one of the offices in the LexOs car dealership.
 
 **タスク報酬
 //なければ項目ごと削除
-//-[[Therapist/Private Clinic]]
 -[[Peacekeeper/Your Car Needs a Service]]
 
 *使用場所

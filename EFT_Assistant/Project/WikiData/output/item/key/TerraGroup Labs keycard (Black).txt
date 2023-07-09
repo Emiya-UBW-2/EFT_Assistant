@@ -28,7 +28,6 @@ United Securityが発行したTerraGroup Labsのキーカード。トップレベルの権限を持つ管
 
 **トレード
 //なければ項目ごと削除
-
 //===============================LIST
 |BGCOLOR(#D8F781):''トレーダー''|BGCOLOR(#D8F781):''トレーダーLV''|BGCOLOR(#D8F781):''必要なアイテム''|BGCOLOR(#D8F781):''入手できるアイテム''|BGCOLOR(#D8F781):''備考''|
 //
@@ -37,7 +36,6 @@ United Securityが発行したTerraGroup Labsのキーカード。トップレベルの権限を持つ管
 
 **タスク報酬
 //なければ項目ごと削除
-//-[[Therapist/Private Clinic]]
 -[[Therapist/Colleagues - Part 3]]
 
 *使用場所

@@ -28,7 +28,6 @@ CENTER:&ref(Unknown key-summary.webp);
 
 *タスク
 //なければ項目ごと削除
-//例：-[[Peacekeeper/Cargo X - Part 1]]
 -[[Skier/The Extortionist]]
 *使用場所
 //使用する場所を記載

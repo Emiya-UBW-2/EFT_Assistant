@@ -28,7 +28,6 @@ A key to the Federal State Reserve Agency base eastern barracks' duty officer's 
 
 *タスク
 //なければ項目ごと削除
-//例：-[[Peacekeeper/Cargo X - Part 1]]
 -[[Ragman/Inventory Check]]
 *使用場所
 //使用する場所を記載

@@ -28,7 +28,6 @@ United Securityが発行したTerraGroup Labsに入るためのキーカード。一度しか使用でき
 
 **トレード
 //なければ項目ごと削除
-
 //===============================LIST
 |BGCOLOR(#D8F781):''トレーダー''|BGCOLOR(#D8F781):''トレーダーLV''|BGCOLOR(#D8F781):''必要なアイテム''|BGCOLOR(#D8F781):''入手できるアイテム''|BGCOLOR(#D8F781):''備考''|
 //
@@ -39,13 +38,11 @@ United Securityが発行したTerraGroup Labsに入るためのキーカード。一度しか使用でき
 
 **タスク報酬
 //なければ項目ごと削除
-//-[[Therapist/Private Clinic]]
 -[[Jaeger/The Huntsman Path - Woods Keeper]]
 -[[Peacekeeper/Special Equipment]]
 
 *タスク
 //なければ項目ごと削除
-//例：-[[Peacekeeper/Cargo X - Part 1]]
 -[[Jaeger/Fishing Place]]
 -[[Therapist/Colleagues - Part 3]]
 *使用場所

@@ -28,7 +28,6 @@ A paper plan map of the Azure Coast health resort on Shoreline.
 
 **トレード
 //なければ項目ごと削除
-
 //===============================LIST
 |BGCOLOR(#D8F781):''トレーダー''|BGCOLOR(#D8F781):''トレーダーLV''|BGCOLOR(#D8F781):''必要なアイテム''|BGCOLOR(#D8F781):''入手できるアイテム''|BGCOLOR(#D8F781):''備考''|
 //
@@ -37,7 +36,6 @@ A paper plan map of the Azure Coast health resort on Shoreline.
 
 **タスク報酬
 //なければ項目ごと削除
-//-[[Therapist/Private Clinic]]
 -[[Peacekeeper/Wet Job - Part 4]]
 
 *使用場所

@@ -28,7 +28,6 @@ CENTER:&ref(Health Resort office key with a blue tape-summary.webp);
 
 *タスク
 //なければ項目ごと削除
-//例：-[[Peacekeeper/Cargo X - Part 1]]
 -[[Mechanic/Chemistry Closet]]
 *使用場所
 //使用する場所を記載

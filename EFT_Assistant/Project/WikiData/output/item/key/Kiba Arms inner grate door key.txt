@@ -28,7 +28,6 @@ A key to the inner gate door of the KIBA Arms International outlet at the ULTRA 
 
 **タスク報酬
 //なければ項目ごと削除
-//-[[Therapist/Private Clinic]]
 -[[Mechanic/Gunsmith - Part 15]]
 
 *使用場所

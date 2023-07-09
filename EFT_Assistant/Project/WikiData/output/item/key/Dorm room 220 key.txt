@@ -28,7 +28,6 @@ CENTER:&ref(Dorm room 220 key-summary.webp);
 
 **トレード
 //なければ項目ごと削除
-
 //===============================LIST
 |BGCOLOR(#D8F781):''トレーダー''|BGCOLOR(#D8F781):''トレーダーLV''|BGCOLOR(#D8F781):''必要なアイテム''|BGCOLOR(#D8F781):''入手できるアイテム''|BGCOLOR(#D8F781):''備考''|
 //
@@ -37,12 +36,10 @@ CENTER:&ref(Dorm room 220 key-summary.webp);
 
 **タスク報酬
 //なければ項目ごと削除
-//-[[Therapist/Private Clinic]]
 -[[Skier/Chemical - Part 2]]
 
 *タスク
 //なければ項目ごと削除
-//例：-[[Peacekeeper/Cargo X - Part 1]]
 -[[Skier/Chemical - Part 2]]
 -[[Skier/Chemical - Part 1]]
 *使用場所
