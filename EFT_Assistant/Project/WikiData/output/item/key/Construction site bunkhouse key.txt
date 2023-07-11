@@ -26,6 +26,7 @@ A key to the locked bunkhouse at the city construction site.
 --[[Jacket]]
 --[[Drawer]]
 
+
 *使用場所
 //使用する場所を記載
 

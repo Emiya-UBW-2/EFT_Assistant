@@ -26,6 +26,7 @@ A key to the safe inside one of the village stores, located somewhere near the A
 --[[Jacket]]
 --[[Drawer]]
 
+
 *使用場所
 //使用する場所を記載
 

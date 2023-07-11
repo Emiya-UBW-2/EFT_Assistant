@@ -26,6 +26,7 @@ A key that opens the conference room, located somewhere on the Lighthouse penins
 --[[Jacket]]
 --[[Drawer]]
 
+
 *使用場所
 //使用する場所を記載
 

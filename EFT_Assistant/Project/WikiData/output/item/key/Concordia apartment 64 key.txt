@@ -26,6 +26,7 @@ A key to the premium apartment inside the Concordia building.
 --[[Jacket]]
 --[[Drawer]]
 
+
 *使用場所
 //使用する場所を記載
 

@@ -26,6 +26,7 @@ A key that opens a storage room inside the roadside convenience store.
 --[[Jacket]]
 --[[Drawer]]
 
+
 *使用場所
 //使用する場所を記載
 

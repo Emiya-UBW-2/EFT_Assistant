@@ -26,6 +26,7 @@ A key to the archive room inside one of the buildings in the central part of the
 --[[Jacket]]
 --[[Drawer]]
 
+
 *使用場所
 //使用する場所を記載
 

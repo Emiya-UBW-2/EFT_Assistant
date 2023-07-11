@@ -26,6 +26,7 @@ A key that opens one of the old village houses.
 --[[Jacket]]
 --[[Drawer]]
 
+
 *使用場所
 //使用する場所を記載
 

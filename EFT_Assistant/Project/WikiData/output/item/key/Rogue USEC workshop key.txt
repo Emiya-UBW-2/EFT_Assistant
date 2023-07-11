@@ -26,6 +26,7 @@ A key to the workshop bunkhouse, located somewhere at the Rogue USEC base.
 --[[Jacket]]
 --[[Drawer]]
 
+
 *使用場所
 //使用する場所を記載
 

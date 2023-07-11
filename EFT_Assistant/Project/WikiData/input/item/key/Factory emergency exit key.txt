@@ -23,9 +23,6 @@ CENTER:&amp;ref(Factory emergency exit key-summary.png);
 --[[Jacket]]
 //--Pockets and bags of Scavs
 
-**タスク報酬 [#x13b935c]
--[[Jaeger/The Huntsman Path - Factory Chief]]
-
 #accordion(Customs,**,open){{{
 #accordion(Dorms(3階寮,open){{
 &amp;ref(img/fe2k-The office-door.jpg,600x600);
@@ -39,6 +36,10 @@ CENTER:&amp;ref(Factory emergency exit key-summary.png);
 &amp;ref(img/fe2k-old-gus.jpg,600x600);
 }}
 }}}
+
+**タスク報酬 [#x13b935c]
+-[[Jaeger/The Huntsman Path - Factory Chief]]
+
 **トレード [#z256762e]
 |CENTER:BGCOLOR(#D8F781):''必要なアイテム''|CENTER:BGCOLOR(#D8F781):|CENTER:BGCOLOR(#D8F781):''トレーダー''|BGCOLOR(#D8F781):|CENTER:BGCOLOR(#D8F781):''交換できるアイテム''|h
 //

@@ -26,6 +26,7 @@ A key that opens a cabin of the abandoned police transport truck.
 --[[Jacket]]
 --[[Drawer]]
 
+
 *使用場所
 //使用する場所を記載
 

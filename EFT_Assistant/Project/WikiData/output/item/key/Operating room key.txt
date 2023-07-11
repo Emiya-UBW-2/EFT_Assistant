@@ -26,6 +26,7 @@ A key that opens the operating room with broadcasting equipment, located somewhe
 --[[Jacket]]
 --[[Drawer]]
 
+
 *ƒ^ƒXƒN
 //‚È‚¯‚ê‚Î€–Ú‚²‚Æíœ
 -[[Mechanic/Broadcast - Part 1]]

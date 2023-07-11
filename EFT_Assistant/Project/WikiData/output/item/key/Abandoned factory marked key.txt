@@ -26,6 +26,7 @@ A mysterious key to an unknown door at the abandoned city factory. There is a st
 --[[Jacket]]
 --[[Drawer]]
 
+
 *使用場所
 //使用する場所を記載
 

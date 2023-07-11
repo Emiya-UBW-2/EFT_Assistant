@@ -26,6 +26,7 @@ A key to one of the Federal State Reserve Agency base southern barracks' armorie
 --[[Jacket]]
 --[[Drawer]]
 
+
 *ƒ^ƒXƒN
 //‚È‚¯‚ê‚Î€–Ú‚²‚Æíœ
 -[[Ragman/Inventory Check]]

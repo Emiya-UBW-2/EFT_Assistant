@@ -26,6 +26,7 @@ A Missam forklift key. The name of the former owner is written on the ribbon.
 --[[Jacket]]
 --[[Drawer]]
 
+
 *使用場所
 //使用する場所を記載
 

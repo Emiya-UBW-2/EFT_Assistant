@@ -323,6 +323,10 @@ namespace FPS_n2 {
 				std::string COMMENTPOINT_BEFORE;
 				std::string COMMENTPOINT_AFTER;
 
+				int IsFindPoint = -1;
+				std::string FINDPOINT_BEFORE;
+				std::string FINDPOINT_AFTER;
+
 				switch (EnumWikiDataType_t) {
 				case FPS_n2::EnumWikiDataType::ITEMDATA_KEY:
 					for (auto& W : m_WikiTex) {
@@ -364,6 +368,7 @@ namespace FPS_n2 {
 						//
 						IsUsePoint = -1;
 						IsCommentPoint = -1;
+						IsFindPoint = -1;
 						for (int loop = 0; loop < W.second.size(); loop++) {
 							auto& L = W.second[loop];
 							auto commendLine = L.find("//");
@@ -515,6 +520,27 @@ namespace FPS_n2 {
 									}
 								}
 							}
+							//レイド内発見箇所を代入
+							{
+								auto useline = L.find("<EFTA_FindPoint>");
+								if (useline != std::string::npos) {
+									SubStrs(&STR, "<EFTA_FindPoint>");
+									//ひとつ前の行を取得
+									if ((1 < loop) && (loop < W.second.size())) {
+										FINDPOINT_BEFORE = W.second[loop - 1];
+										if (loop < W.second.size() - 1) {
+											FINDPOINT_AFTER = W.second[loop + 1];
+										}
+										else {
+											FINDPOINT_AFTER = "";
+										}
+										IsFindPoint = loop;
+									}
+									W.second.erase(W.second.begin() + loop);
+									loop--;
+									continue;
+								}
+							}
 							//使用できる箇所を代入
 							{
 								auto useline = L.find("<EFTA_UsePoint>");
@@ -573,7 +599,11 @@ namespace FPS_n2 {
 							L = STR + COMMENT;
 						}
 						//使用できる箇所を代入
-						if (IsUsePoint != -1 || IsCommentPoint != -1) {
+						if (
+							IsUsePoint != -1 ||
+							IsCommentPoint != -1 ||
+							IsFindPoint != -1
+							) {
 							std::string FileStr = InputPath;
 							std::string FileName = ptr->GetName();
 							SubStrs(&FileName, ".");
@@ -589,9 +619,39 @@ namespace FPS_n2 {
 
 							std::ifstream File(FileStr + FileName + ".txt");
 							std::string line;
+							bool startFindPoint = false;
 							bool startUsePoint = false;
 							bool startCommentPoint = false;
 							while (std::getline(File, line)) {
+								if (IsFindPoint != -1) {
+									bool isInsFindPoint = true;
+									if (!startFindPoint) {
+										//次から終わりまでをW.secondに加える
+										if (line.find(FINDPOINT_BEFORE) != std::string::npos) {
+											startFindPoint = true;
+											isInsFindPoint = false;
+										}
+									}
+									else {
+										//次から終わりまでをW.secondに加える
+										if (line.find("*") == 0) {
+											startFindPoint = false;
+										}
+										else if ((FINDPOINT_AFTER != "") && (line.find(FINDPOINT_AFTER) != std::string::npos)) {
+											startFindPoint = false;
+										}
+									}
+									if (startFindPoint && isInsFindPoint) {
+										W.second.insert(W.second.begin() + IsFindPoint, line);
+										IsFindPoint++;
+										if (IsUsePoint != -1) {
+											IsUsePoint++;
+										}
+										if (IsCommentPoint != -1) {
+											IsCommentPoint++;
+										}
+									}
+								}
 								if (IsUsePoint != -1) {
 									bool isInsUsePoint = true;
 									if (!startUsePoint) {

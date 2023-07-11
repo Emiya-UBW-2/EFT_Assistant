@@ -26,6 +26,7 @@ Customsのトレーラーパークにある可搬式の監視員詰所の鍵。
 --[[Jacket]]
 --[[Drawer]]
 
+
 **タスク報酬
 //なければ項目ごと削除
 -[[Skier/Golden Swag]]

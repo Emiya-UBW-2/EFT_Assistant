@@ -26,6 +26,7 @@ A key to manager's office room inside one of the city stores.
 --[[Jacket]]
 --[[Drawer]]
 
+
 *使用場所
 //使用する場所を記載
 

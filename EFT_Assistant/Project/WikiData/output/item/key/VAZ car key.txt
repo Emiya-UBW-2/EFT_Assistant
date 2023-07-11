@@ -26,6 +26,7 @@ A key to one of the VAZ cars commonly known as Shestyorka ("the sixth one").
 --[[Jacket]]
 --[[Drawer]]
 
+
 *使用場所
 //使用する場所を記載
 

@@ -256,7 +256,7 @@ Error : Invalid ID by CheckID[Failed setup]
 Error : Invalid ID by CheckID[Failed setup]
 Error : Invalid ID by CheckID[Failed setup]
 Error : Invalid ID by CheckID[Failed setup]
-Error : Not Find Item : arenaFighterEvent
+Error : Not Find Item : Bloodhound
 Error : Not Find Image : Defective Wall
 Error : Not Find Image : Security
 Error : Not Find Image : Medstation

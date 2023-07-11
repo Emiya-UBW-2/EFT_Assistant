@@ -26,6 +26,7 @@ A key to one of the rooms in apartment 34 inside the Concordia building.
 --[[Jacket]]
 --[[Drawer]]
 
+
 *使用場所
 //使用する場所を記載
 

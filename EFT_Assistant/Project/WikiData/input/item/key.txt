@@ -22,9 +22,7 @@ EFTA_InfoJpn
 
 *鍵の入手方法
 **レイド内
--[[オブジェクト]]
---[[Jacket]]
---[[Drawer]]
+<EFTA_FindPoint>
 
 <EFTA_BarterTrade_Check>**トレード
 <EFTA_BarterTrade_Check>//なければ項目ごと削除

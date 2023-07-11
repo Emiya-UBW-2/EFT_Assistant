@@ -26,6 +26,7 @@ A key that opens the shared bedroom, located somewhere on the Lighthouse peninsu
 --[[Jacket]]
 --[[Drawer]]
 
+
 *使用場所
 //使用する場所を記載
 

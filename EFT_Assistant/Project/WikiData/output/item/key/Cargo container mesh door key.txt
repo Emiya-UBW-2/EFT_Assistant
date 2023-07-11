@@ -26,6 +26,7 @@ A key to the metal gate in one of the shipping containers.
 --[[Jacket]]
 --[[Drawer]]
 
+
 *使用場所
 //使用する場所を記載
 

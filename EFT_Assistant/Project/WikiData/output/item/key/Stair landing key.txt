@@ -26,6 +26,7 @@ A key to the one of the stair landings of the Chekannaya Street 15 building.
 --[[Jacket]]
 --[[Drawer]]
 
+
 *使用場所
 //使用する場所を記載
 

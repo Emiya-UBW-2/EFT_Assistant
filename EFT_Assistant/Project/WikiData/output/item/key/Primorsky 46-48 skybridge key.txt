@@ -26,6 +26,7 @@ A key to the skybridge linking Primorsky 46-48, leading to the apartment of the 
 --[[Jacket]]
 --[[Drawer]]
 
+
 *使用場所
 //使用する場所を記載
 

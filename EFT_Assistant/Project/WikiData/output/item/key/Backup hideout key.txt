@@ -26,6 +26,7 @@ A key to the Informant's second hideout.
 --[[Jacket]]
 --[[Drawer]]
 
+
 *ƒ^ƒXƒN
 //‚È‚¯‚ê‚Î€–Ú‚²‚Æíœ
 -[[Lightkeeper/Missing Informant]]

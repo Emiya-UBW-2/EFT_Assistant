@@ -26,6 +26,7 @@ A key that opens the storage room, located somewhere at the water treatment plan
 --[[Jacket]]
 --[[Drawer]]
 
+
 *使用場所
 //使用する場所を記載
 
