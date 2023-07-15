@@ -527,9 +527,9 @@ namespace FPS_n2 {
 									SubStrs(&STR, "<EFTA_FindPoint>");
 									//ひとつ前の行を取得
 									if ((1 < loop) && (loop < W.second.size())) {
-										FINDPOINT_BEFORE = W.second[loop - 1];
+										FINDPOINT_BEFORE = FPS_n2::SjistoUTF8(W.second[loop - 1]);
 										if (loop < W.second.size() - 1) {
-											FINDPOINT_AFTER = W.second[loop + 1];
+											FINDPOINT_AFTER = FPS_n2::SjistoUTF8(W.second[loop + 1]);
 										}
 										else {
 											FINDPOINT_AFTER = "";
@@ -548,9 +548,9 @@ namespace FPS_n2 {
 									SubStrs(&STR, "<EFTA_UsePoint>");
 									//ひとつ前の行を取得
 									if ((1 < loop) && (loop < W.second.size() - 1)) {
-										USEPOINT_BEFORE = W.second[loop - 1];
+										USEPOINT_BEFORE = FPS_n2::SjistoUTF8(W.second[loop - 1]);
 										if (loop < W.second.size() - 1) {
-											USEPOINT_AFTER = W.second[loop + 1];
+											USEPOINT_AFTER = FPS_n2::SjistoUTF8(W.second[loop + 1]);
 										}
 										else {
 											USEPOINT_AFTER = "";
@@ -569,9 +569,9 @@ namespace FPS_n2 {
 									SubStrs(&STR, "<EFTA_CommentPoint>");
 									//ひとつ前の行を取得
 									if ((1 < loop) && (loop < W.second.size())) {
-										COMMENTPOINT_BEFORE = W.second[loop - 1];
+										COMMENTPOINT_BEFORE = FPS_n2::SjistoUTF8(W.second[loop - 1]);
 										if (loop < W.second.size() - 1) {
-											COMMENTPOINT_AFTER = W.second[loop + 1];
+											COMMENTPOINT_AFTER = FPS_n2::SjistoUTF8(W.second[loop + 1]);
 										}
 										else {
 											COMMENTPOINT_AFTER = "";
@@ -617,88 +617,111 @@ namespace FPS_n2 {
 							SubStrs(&FileName, "<");
 							SubStrs(&FileName, "|");
 
-							std::ifstream File(FileStr + FileName + ".txt");
+							std::ifstream File(FPS_n2::UTF8toSjis(FileStr + FileName + ".html"));
+							//std::ifstream File(FPS_n2::UTF8toSjis(FileStr + FileName + ".txt"));
 							std::string line;
 							bool startFindPoint = false;
 							bool startUsePoint = false;
 							bool startCommentPoint = false;
+
+							bool isStart = false;
 							while (std::getline(File, line)) {
-								if (IsFindPoint != -1) {
-									bool isInsFindPoint = true;
-									if (!startFindPoint) {
-										//次から終わりまでをW.secondに加える
-										if (line.find(FINDPOINT_BEFORE) != std::string::npos) {
-											startFindPoint = true;
-											isInsFindPoint = false;
+								//line = FPS_n2::SjistoUTF8(line);
+								//line += "\0";
+
+								if (!isStart) {
+									auto Start = line.find("<code>");
+									if (Start != std::string::npos) {
+										isStart = true;
+										line = line.substr(Start + strlenDx("<code>"));
+									}
+								}
+								else {
+									auto Start = line.find("</code>");
+									if (Start != std::string::npos) {
+										isStart = false;
+									}
+								}
+								if (isStart) {
+
+									if (IsFindPoint != -1) {
+										bool isInsFindPoint = true;
+										if (!startFindPoint) {
+											//次から終わりまでをW.secondに加える
+											if (line.find(FINDPOINT_BEFORE) != std::string::npos) {
+												startFindPoint = true;
+												isInsFindPoint = false;
+											}
+										}
+										else {
+											//次から終わりまでをW.secondに加える
+											if (line.find("*") == 0) {
+												startFindPoint = false;
+											}
+											else if ((FINDPOINT_AFTER != "") && (line.find(FINDPOINT_AFTER) != std::string::npos)) {
+												startFindPoint = false;
+											}
+										}
+										if (startFindPoint && isInsFindPoint) {
+											W.second.insert(W.second.begin() + IsFindPoint, FPS_n2::UTF8toSjis(line));
+											IsFindPoint++;
+											if (IsUsePoint != -1) {
+												IsUsePoint++;
+											}
+											if (IsCommentPoint != -1) {
+												IsCommentPoint++;
+											}
 										}
 									}
-									else {
-										//次から終わりまでをW.secondに加える
-										if (line.find("*") == 0) {
-											startFindPoint = false;
+									if (IsUsePoint != -1) {
+										bool isInsUsePoint = true;
+										if (!startUsePoint) {
+											//次から終わりまでをW.secondに加える
+											if (line.find(USEPOINT_BEFORE) != std::string::npos) {
+												startUsePoint = true;
+												isInsUsePoint = false;
+											}
 										}
-										else if ((FINDPOINT_AFTER != "") && (line.find(FINDPOINT_AFTER) != std::string::npos)) {
-											startFindPoint = false;
+										else {
+											//次から終わりまでをW.secondに加える
+											if (line.find("*") == 0) {
+												startUsePoint = false;
+											}
+											else if ((USEPOINT_AFTER != "") && (line.find(USEPOINT_AFTER) != std::string::npos)) {
+												startUsePoint = false;
+											}
 										}
-									}
-									if (startFindPoint && isInsFindPoint) {
-										W.second.insert(W.second.begin() + IsFindPoint, line);
-										IsFindPoint++;
-										if (IsUsePoint != -1) {
+										if (startUsePoint && isInsUsePoint) {
+											W.second.insert(W.second.begin() + IsUsePoint, FPS_n2::UTF8toSjis(line));
 											IsUsePoint++;
+											if (IsCommentPoint != -1) {
+												IsCommentPoint++;
+											}
 										}
-										if (IsCommentPoint != -1) {
+									}
+									if (IsCommentPoint != -1) {
+										auto line_buf = line;
+										bool isInsCommentPoint = true;
+										if (!startCommentPoint) {
+											//次から終わりまでをW.secondに加える
+											if (line_buf.find(COMMENTPOINT_BEFORE) != std::string::npos) {
+												startCommentPoint = true;
+												isInsCommentPoint = false;
+											}
+										}
+										else {
+											//次から終わりまでをW.secondに加える
+											if (line_buf.find("*") == 0) {
+												startCommentPoint = false;
+											}
+											else if ((COMMENTPOINT_AFTER != "") && (line_buf.find(COMMENTPOINT_AFTER) != std::string::npos)) {
+												startCommentPoint = false;
+											}
+										}
+										if (startCommentPoint && isInsCommentPoint) {
+											W.second.insert(W.second.begin() + IsCommentPoint, FPS_n2::UTF8toSjis(line_buf));
 											IsCommentPoint++;
 										}
-									}
-								}
-								if (IsUsePoint != -1) {
-									bool isInsUsePoint = true;
-									if (!startUsePoint) {
-										//次から終わりまでをW.secondに加える
-										if (line.find(USEPOINT_BEFORE) != std::string::npos) {
-											startUsePoint = true;
-											isInsUsePoint = false;
-										}
-									}
-									else {
-										//次から終わりまでをW.secondに加える
-										if (line.find("*") == 0) {
-											startUsePoint = false;
-										}
-										else if ((USEPOINT_AFTER != "") && (line.find(USEPOINT_AFTER) != std::string::npos)) {
-											startUsePoint = false;
-										}
-									}
-									if (startUsePoint && isInsUsePoint) {
-										W.second.insert(W.second.begin() + IsUsePoint, line);
-										IsUsePoint++;
-										if (IsCommentPoint != -1) {
-											IsCommentPoint++;
-										}
-									}
-								}
-								if(IsCommentPoint != -1){
-									bool isInsCommentPoint = true;
-									if (!startCommentPoint) {
-										//次から終わりまでをW.secondに加える
-										if (line.find(COMMENTPOINT_BEFORE) != std::string::npos) {
-											startCommentPoint = true;
-											isInsCommentPoint = false;
-										}
-									}
-									else {
-										//次から終わりまでをW.secondに加える
-										if (line.find("*") == 0) {
-											startCommentPoint = false;
-										}
-										else if ((COMMENTPOINT_AFTER != "") && (line.find(COMMENTPOINT_AFTER) != std::string::npos)) {
-											startCommentPoint = false;
-										}
-									}
-									if (startCommentPoint && isInsCommentPoint) {
-										W.second.insert(W.second.begin() + IsCommentPoint, line);
-										IsCommentPoint++;
 									}
 								}
 							}

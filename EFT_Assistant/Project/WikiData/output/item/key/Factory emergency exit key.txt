@@ -26,20 +26,6 @@ Factoryの非常口の鍵。壊れやすそうに見える。
 --[[Jacket]]
 //--Pockets and bags of Scavs
 
-#accordion(Customs,**,open){{{
-#accordion(Dorms(3階寮,open){{
-&amp;ref(img/fe2k-The office-door.jpg,600x600);
-&amp;ref(img/factorykey_droms.jpg,600x600);
-}}
-#accordion(SMOKE,***,open){{
-&amp;ref(img/fe2k-The-building.jpg,600x600);
-&amp;ref(img/factory_key_cutoms_boilerarea.jpg,600x600);
-}}
-#accordion(Old Gas Station,***,open){{
-&amp;ref(img/fe2k-old-gus.jpg,600x600);
-}}
-}}}
-
 
 **トレード
 //なければ項目ごと削除
