@@ -22,12 +22,35 @@ A key to one of the Federal State Reserve Agency base guard barracks' armories.
 
 *鍵の入手方法
 **レイド内
+//
+-オブジェクト
+--[[Drawer]]
+--[[Jacket]]
+-その他
+--SCAV、プレイヤーSCAVがインベントリ内に所持している。
+--リゾート北側のバンカー内にあるベッドに直湧き
+#fold(場所){{
+&amp;ref(./Rb-ao-key.webp,400x400);
+}}
+
 
 **タスク報酬
 //なければ項目ごと削除
 -[[Peacekeeper/Spa Tour - Part 5]]
 
 *使用場所
+//使用する場所を記載
+[[RESERVE]]　北西にある建物（南北に長い兵舎）の１階南側にある施錠された扉
+&amp;ref(RB-AO key/RB-AO_icon_MAP.jpg,700x700);
+#br
+//
+//+LLLLLLI00|LLLLLLI1|LLLLLLI2|LLLLLLL3|LLLLLLI4|LLLLLLI5|LLLLLLL6|LLLLLLI7|LLLLLLI8|
+|CENTER:050|CENTER:|c
+//
+|&gt;|~道順|
+|~入口 &amp;br;|&amp;ref(RB-AO key/RB-AO_Rt_1.jpg,400x400);|
+|~扉前|&amp;ref(RB-AO key/RB-AO_Rt_Door.jpg,400x400);|
+
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
@@ -41,3 +64,4 @@ A key to one of the Federal State Reserve Agency base guard barracks' armories.
 //拡張子はjpgかpngかwebp
 
 *コメント
+//編集掲示板でzawazawaのコメントを作成するように依頼してください

@@ -22,8 +22,19 @@ A key to the Azure Coast sanatorium west wing room 303.
 
 *鍵の入手方法
 **レイド内
+&#039;&#039;オブジェクト&#039;&#039;
+-[[Drawer]]
+-[[Jacket]]
+-Pockets and bags of Scavs
+
+&#039;&#039;フィールド上の特定の場所にスポーン&#039;&#039;
+-Shoreline:
+--リゾート裏手、屋根付きベンチの段ボール箱の上
+
 
 *使用場所
+保養地西棟303号室の鍵だが、施錠されてないため不要
+
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
@@ -37,3 +48,4 @@ A key to the Azure Coast sanatorium west wing room 303.
 //拡張子はjpgかpngかwebp
 
 *コメント
+#zcomment(t=eft%2F429&amp;h=350&amp;size=10)

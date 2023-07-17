@@ -22,8 +22,24 @@ A key that opens one of the old village houses.
 
 *鍵の入手方法
 **レイド内
+//-オブジェクト
+//--[[Drawer]]
+//--[[Jacket]]
+
 
 *使用場所
+//使用する場所を記載
+[[LIGHTHOUSE]]　中州に繋がる細い橋（中央東側）の南西にある塀に囲まれた家の扉
+&amp;ref(Hillside house key/House_icon_MAP.jpg,700x700);
+#br
+//
+//+LLLLLLI00|LLLLLLI1|LLLLLLI2|LLLLLLL3|LLLLLLI4|LLLLLLI5|LLLLLLL6|LLLLLLI7|LLLLLLI8|
+|CENTER:050|CENTER:|c
+//
+|&gt;|~道順|
+|~外観 &amp;br;|&amp;ref(Hillside house key/House_Rt_1.jpg,400x400);|
+|~扉前|&amp;ref(Hillside house key/House_Rt_Door.jpg,400x400);|
+
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
@@ -37,3 +53,4 @@ A key that opens one of the old village houses.
 //拡張子はjpgかpngかwebp
 
 *コメント
+//編集掲示板でzawazawaのコメントを作成するように依頼してください

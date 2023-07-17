@@ -23,10 +23,28 @@ A key that opens the radar station commandant office room, located somewhere on 
 *鍵の入手方法
 **レイド内
 
+-[[Drawer]]
+-[[Jacket]]
+-Pockets and bags of Scavs
+
+
 *タスク
 //なければ項目ごと削除
 -[[Skier/Top Secret]]
 *使用場所
+//使用する場所を記載
+[[LIGHTHOUSE]]　天球の真下側からはいって突き当りにある部屋
+&amp;ref(Radar station commandant room key/Radar_icon_MAP.jpg,700x700);
+#br
+//
+//+LLLLLLI00|LLLLLLI1|LLLLLLI2|LLLLLLL3|LLLLLLI4|LLLLLLI5|LLLLLLL6|LLLLLLI7|LLLLLLI8|
+|CENTER:050|CENTER:|CENTER:|CENTER:|CENTER:|CENTER:|CENTER:|CENTER:|CENTER:|c
+//
+|~道順|~1|~2|~3|~4|~5|~6|~7|~8|
+|~入口 &amp;br;|&amp;ref(Radar station commandant room key/Radar_ByR_Rt_1.jpg,400x400);|&amp;ref(Radar station commandant room key/Radar_ByR_Rt_2.jpg,400x400);|&amp;ref(Radar station commandant room key/Radar_ByR_Rt_3.jpg,400x400);|&amp;ref(Radar station commandant room key/Radar_ByR_Rt_4.jpg,400x400);|&amp;ref(Radar station commandant room key/Radar_ByR_Rt_5.jpg,400x400);|&amp;ref(Radar station commandant room key/Radar_ByR_Rt_6.jpg,400x400);|&amp;ref(Radar station commandant room key/Radar_ByR_Rt_7.jpg,400x400);|&amp;ref(Radar station commandant room key/Radar_ByR_Rt_8.jpg,400x400);|
+|~扉前|&amp;ref(Radar station commandant room key/Radar_ByR_Rt_Door.jpg,400x400);|&gt;|&gt;|&gt;|&gt;|&gt;|&gt;||
+
+
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
@@ -40,3 +58,4 @@ A key that opens the radar station commandant office room, located somewhere on 
 //拡張子はjpgかpngかwebp
 
 *コメント
+//編集掲示板でzawazawaのコメントを作成するように依頼してください

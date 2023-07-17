@@ -22,8 +22,29 @@ A key to the Federal State Reserve Agency base Radar Station guardhouse.
 
 *鍵の入手方法
 **レイド内
+//
+-オブジェクト
+--[[Drawer]]
+--[[Jacket]]
+-その他
+--SCAV、プレイヤーSCAVがインベントリ内に所持している。
+
 
 *使用場所
+//使用する場所を記載
+[[RESERVE]]　南側丘上にある白クイーン建物のすぐ北東にある小屋の施錠された扉
+&amp;ref(RB-KPRL key/RB-KPRL_icon_MAP.jpg,700x700);
+#br
+//
+//+LLLLLLI00|LLLLLLI1|LLLLLLI2|LLLLLLL3|LLLLLLI4|LLLLLLI5|LLLLLLL6|LLLLLLI7|LLLLLLI8|
+|CENTER:050|CENTER:|c
+//
+|&gt;|~道順|
+|~西側扉 &amp;br;|&amp;ref(RB-KPRL key/RB-KPRL_Rt_DoorW.jpg,400x400);|
+|~東側扉 &amp;br;|&amp;ref(RB-KPRL key/RB-KPRL_Rt_DoorE.jpg,400x400);|
+
+
+
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
@@ -37,3 +58,4 @@ A key to the Federal State Reserve Agency base Radar Station guardhouse.
 //拡張子はjpgかpngかwebp
 
 *コメント
+//編集掲示板でzawazawaのコメントを作成するように依頼してください

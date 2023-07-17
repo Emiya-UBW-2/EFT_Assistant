@@ -22,8 +22,24 @@ A key to a small office room at the city's financial institution.
 
 *鍵の入手方法
 **レイド内
+//-オブジェクト
+//--[[Drawer]]
+//--[[Jacket]]
+
 
 *使用場所
+//使用する場所を記載
+[[STREETS OF TARKOV]]東側の事務所（WEST OFFICE）1階にある施錠された部屋
+&amp;ref(Financial institution small office key/Finance_S_MAP.jpg,700x700);
+#br
+//
+//-/////////0|////////1|////////2|/////////3|
+|CENTER:50|CENTER:|CENTER:|CENTER:|c
+//
+|~道順|~1|~2|~3|
+|~北側 &amp;br;|&amp;ref(Financial institution small office key/Finance_S_Rt_1N.jpg,400x400);|&amp;ref(Financial institution small office key/Finance_S_Rt_2.jpg,400x400);|&amp;ref(Financial institution small office key/Finance_S_Rt_3.jpg,400x400);|
+|~南側 &amp;br;|&amp;ref(Financial institution small office key/Finance_S_Rt_1S.jpg,400x400);|~|~|
+|~扉前|&amp;ref(Financial institution small office key/Finance_S_Rt_Door.jpg,400x400);|~|~|
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
@@ -37,3 +53,5 @@ A key to a small office room at the city's financial institution.
 //拡張子はjpgかpngかwebp
 
 *コメント
+//編集掲示板でzawazawaのコメントを作成するように依頼してください
+#zcomment(t=eft%2F455&amp;h=350&amp;size=10)

@@ -22,8 +22,34 @@ A key to one of the iron mesh doors in the Federal State Reserve Agency base und
 
 *鍵の入手方法
 **レイド内
+//
+-オブジェクト
+--[[Drawer]]
+--[[Jacket]]
+-その他
+--SCAV、プレイヤーSCAVがインベントリ内に所持している。
+//#fold(もっと見る){{
+//隠されていたテキスト
+//複数行
+//}}
+
 
 *使用場所
+//使用する場所を記載
+[[RESERVE]]　北北西にあるДバンカー（地下補給倉庫）の地下１階北西側にある施錠された金網の扉
+&amp;ref(RB-PSP1 key/RB-PSP1_icon_MAP.jpg,700x700);
+#br
+//
+//+LLLLLLI00|LLLLLLI1|LLLLLLI2|LLLLLLL3|LLLLLLI4|LLLLLLI5|LLLLLLL6|LLLLLLI7|LLLLLLI8|
+|CENTER:050|CENTER:|CENTER:|CENTER:|CENTER:|c
+//
+|~道順|~北東側|~北西側|~南東側|~南西側|
+|~入口 &amp;br;|&amp;ref(RB-PSP1 key/Д_Rt_NE1.jpg,400x400);|&amp;ref(RB-PSP1 key/Д_Rt_NW1.jpg,400x400);|&amp;ref(RB-PSP1 key/Д_Rt_SE1.jpg,400x400);|&amp;ref(RB-PSP1 key/Д_Rt_SW1.jpg,400x400);|
+#br
+|CENTER:050|CENTER:|CENTER:|c
+|~扉前|~北側|~南側|
+|~|&amp;ref(RB-PSP1 key/RB-PSP1_Rt_DoorN.jpg,400x400);|&amp;ref(RB-PSP1 key/RB-PSP1_Rt_DoorS.jpg,400x400);|
+
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
@@ -37,3 +63,4 @@ A key to one of the iron mesh doors in the Federal State Reserve Agency base und
 //拡張子はjpgかpngかwebp
 
 *コメント
+//編集掲示板でzawazawaのコメントを作成するように依頼してください

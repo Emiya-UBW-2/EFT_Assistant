@@ -43,14 +43,14 @@ Factoryの非常口の鍵。壊れやすそうに見える。
 *使用場所
 #accordion(Customs,**,open){{{
 #accordion(SHORT CUT,***,open){{
-''新ガスステーション側''
+&#039;&#039;新ガスステーション側&#039;&#039;
 &amp;ref(img/fe2k-shortcut1.jpg,600x600);
-''旧ガスステーション側''
+&#039;&#039;旧ガスステーション側&#039;&#039;
 &amp;ref(img/fe2k-shortcut2.jpg,600x600);
 }}
 
 #accordion(FORT,***,open){{
-''新建築''
+&#039;&#039;新建築&#039;&#039;
 &amp;ref(img/fe2k-fort.jpg,600x600);
 &amp;ref(img/fe2k-fort-under.jpg,600x600);
 }}

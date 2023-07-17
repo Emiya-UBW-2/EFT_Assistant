@@ -22,6 +22,13 @@ CENTER:&ref(RB-ST key-summary.webp);
 
 *鍵の入手方法
 **レイド内
+//
+-オブジェクト
+--[[Drawer]]
+--[[Jacket]]
+-その他
+--SCAV、プレイヤーSCAVがインベントリ内に所持している。
+
 
 **タスク報酬
 //なければ項目ごと削除
@@ -32,6 +39,19 @@ CENTER:&ref(RB-ST key-summary.webp);
 -[[Mechanic/Surplus Goods]]
 -[[Peacekeeper/Revision - Reserve]]
 *使用場所
+//使用する場所を記載
+[[RESERVE]]　南西にある修理所の１階南側にある施錠された鉄格子の扉
+&amp;ref(RB-ST key/RB-ST_icon_MAP.jpg,700x700);
+#br
+//
+//+LLLLLLI00|LLLLLLI1|LLLLLLI2|LLLLLLL3|LLLLLLI4|LLLLLLI5|LLLLLLL6|LLLLLLI7|LLLLLLI8|
+|CENTER:050|CENTER:|c
+//
+|&gt;|~道順|
+|~東側 &amp;br;|&amp;ref(RB-ST key/RB-ST_Rt_E1.jpg,400x400);|
+|~西側 &amp;br;|&amp;ref(RB-ST key/RB-ST_Rt_Wa1.jpg,400x400);|
+|~扉前|&amp;ref(RB-ST key/RB-ST_Rt_Door.jpg,400x400);|
+
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
@@ -45,3 +65,4 @@ CENTER:&ref(RB-ST key-summary.webp);
 //拡張子はjpgかpngかwebp
 
 *コメント
+//編集掲示板でzawazawaのコメントを作成するように依頼してください

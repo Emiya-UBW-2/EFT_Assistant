@@ -22,11 +22,18 @@ A key to the Azure Coast sanatorium east wing room 328.
 
 *鍵の入手方法
 **レイド内
+-オブジェクト
+--[[Drawer]]
+--[[Jacket]]
+
 
 *タスク
 //なければ項目ごと削除
 -[[Peacekeeper/Wet Job - Part 5]]
 *使用場所
+保養所東棟328号室の鍵。
+ベランダを通して327(utility room)にいける
+
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
@@ -40,3 +47,4 @@ A key to the Azure Coast sanatorium east wing room 328.
 //拡張子はjpgかpngかwebp
 
 *コメント
+#zcomment(t=eft%2F410&amp;h=350&amp;size=10)

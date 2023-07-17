@@ -22,8 +22,15 @@ An SMW folding car key with locking buttons.
 
 *鍵の入手方法
 **レイド内
+-オブジェクト
+--[[Jacket]]
+--Drawers
+//--Pockets and bags of Scavs
+
 
 *使用場所
+コテージの敷地内にある青い車のトランクを解錠できます。
+
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
@@ -37,3 +44,4 @@ An SMW folding car key with locking buttons.
 //拡張子はjpgかpngかwebp
 
 *コメント
+#zcomment(t=eft%2F437&amp;h=350&amp;size=10)

@@ -22,6 +22,11 @@ Customsのトレーラーパークにある可搬式の監視員詰所の鍵。
 
 *鍵の入手方法
 **レイド内
+&#039;&#039;オブジェクト&#039;&#039;
+-[[Jacket]]
+-Drawers
+-Pockets and bags of Scavs
+
 
 **タスク報酬
 //なければ項目ごと削除
@@ -44,3 +49,4 @@ Customsのトレーラーパークにある可搬式の監視員詰所の鍵。
 //拡張子はjpgかpngかwebp
 
 *コメント
+#zcomment(t=eft%2F480&amp;h=350&amp;size=10)

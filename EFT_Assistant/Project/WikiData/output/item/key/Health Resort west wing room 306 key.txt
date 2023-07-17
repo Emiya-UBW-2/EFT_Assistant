@@ -22,6 +22,15 @@ A key to the Azure Coast sanatorium west wing room 306.
 
 *鍵の入手方法
 **レイド内
+-オブジェクト
+--[[Drawer]]
+--[[Jacket]]
+//--Pockets and bags of Scavs
+
+&#039;&#039;フィールド上の特定の場所にスポーン&#039;&#039;
+-Factory
+--GATE 3側から事務所2Fのロッカールームに入り、すぐに右に曲がって左から5個目の扉がつぶれたロッカーの中
+
 
 **タスク報酬
 //なければ項目ごと削除
@@ -31,6 +40,8 @@ A key to the Azure Coast sanatorium west wing room 306.
 //なければ項目ごと削除
 -[[Therapist/Health Care Privacy - Part 2]]
 *使用場所
+保養地西棟306号室の鍵を開けられます。
+
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
@@ -44,3 +55,4 @@ A key to the Azure Coast sanatorium west wing room 306.
 //拡張子はjpgかpngかwebp
 
 *コメント
+#zcomment(t=eft%2F430&amp;h=350&amp;size=10)

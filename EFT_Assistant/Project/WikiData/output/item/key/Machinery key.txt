@@ -22,6 +22,19 @@ CENTER:&ref(Machinery key-summary.webp);
 
 *鍵の入手方法
 **レイド内
+&#039;&#039;[[オブジェクト]]&#039;&#039;
+-[[Jacket]]
+-Pockets and bags of Scavs
+
+#accordion(Customs,***,open){{
+//-&#039;&#039;マップ&#039;&#039;
+//&amp;ref(img/Checking_map.png);
+
+-&#039;&#039;寮の205号室&#039;&#039;
+&amp;ref(img/Checking-dorm-205.jpg,600x600);
+&amp;ref(img/Checking-inroom.jpg,600x600);
+}}
+
 
 *タスク
 //なければ項目ごと削除
@@ -40,3 +53,8 @@ CENTER:&ref(Machinery key-summary.webp);
 //拡張子はjpgかpngかwebp
 
 *コメント
+#zcomment(t=eft%2F287&amp;h=200&amp;style=wikiwiki&amp;size=10)
+
+//#fold(&amp;color(Black){旧コメント欄};){{
+//#pcomment(*Machinery key,10,noname,below,reply)
+//}}

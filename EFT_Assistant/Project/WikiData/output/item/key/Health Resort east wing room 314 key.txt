@@ -22,6 +22,10 @@ A key to the Azure Coast sanatorium east wing room 314.
 
 *鍵の入手方法
 **レイド内
+-オブジェクト
+--[[Drawer]]
+--[[Jacket]]
+
 
 *使用場所
 **入手できるもの
@@ -37,3 +41,4 @@ A key to the Azure Coast sanatorium east wing room 314.
 //拡張子はjpgかpngかwebp
 
 *コメント
+#zcomment(t=eft%2F406&amp;h=350&amp;size=10)

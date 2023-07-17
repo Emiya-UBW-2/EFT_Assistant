@@ -22,8 +22,14 @@ A key to the Azure Coast sanatorium east wing room 316.
 
 *鍵の入手方法
 **レイド内
+-オブジェクト
+--[[Drawer]]
+--[[Jacket]]
+
 
 *使用場所
+保養所東棟316号室
+
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
@@ -37,3 +43,4 @@ A key to the Azure Coast sanatorium east wing room 316.
 //拡張子はjpgかpngかwebp
 
 *コメント
+#zcomment(t=eft%2F407&amp;h=350&amp;size=10)

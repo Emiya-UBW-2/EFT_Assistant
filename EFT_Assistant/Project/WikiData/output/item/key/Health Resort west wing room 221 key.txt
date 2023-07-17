@@ -22,6 +22,15 @@ A key to the Azure Coast sanatorium west wing room 221.
 
 *鍵の入手方法
 **レイド内
+-オブジェクト
+--[[Drawer]]
+--[[Jacket]]
+//--Pockets and bags of Scavs
+
+&#039;&#039;フィールド上の特定の場所にスポーン&#039;&#039;
+-Shoreline:
+--ガソリンステーションから灯台間の海岸線にあるデッキチェアの上
+
 
 **トレード
 //なければ項目ごと削除
@@ -45,3 +54,4 @@ A key to the Azure Coast sanatorium west wing room 221.
 //拡張子はjpgかpngかwebp
 
 *コメント
+#zcomment(t=eft%2F426&amp;h=350&amp;size=10)

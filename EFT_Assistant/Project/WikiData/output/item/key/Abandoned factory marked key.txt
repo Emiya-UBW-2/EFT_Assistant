@@ -22,8 +22,29 @@ A mysterious key to an unknown door at the abandoned city factory. There is a st
 
 *鍵の入手方法
 **レイド内
+-オブジェクト
+--[[Drawer]]
+--[[Jacket]]
+
+-その他
+--プレイヤースカブ・NPCスカブがインベントリ内に所持していることがある
+
 
 *使用場所
+//使用する場所を記載
+[[STREETS OF TARKOV]]東側の廃工場（ABANDONED FACTORY）３階にある施錠された扉
+&amp;ref(Abandoned factory marked key/Aband._MAP.jpg,700x700);
+#br
+//
+//+LLLLLLI00|LLLLLLI1|LLLLLLI2|LLLLLLL3|LLLLLLI4|LLLLLLI5|LLLLLLL6|LLLLLLI7|LLLLLLI8|
+|CENTER:050|CENTER:|CENTER:|CENTER:|CENTER:|c
+//
+|~道順|~1|~2|~3|~4|
+|~北側 &amp;br;|&amp;ref(Abandoned factory marked key/Aband._Rt_N1.jpg,400x400);|&amp;ref(Abandoned factory marked key/Aband._Rt_N2.jpg,400x400);|&amp;ref(Abandoned factory marked key/Aband._Rt_N3.jpg,400x400);|&amp;ref(Abandoned factory marked key/Aband._Rt_N4.jpg,400x400);|
+|~西側 &amp;br;|&amp;ref(Abandoned factory marked key/Aband._Rt_W1.jpg,400x400);|&amp;ref(Abandoned factory marked key/Aband._Rt_W2.jpg,400x400);|&amp;ref(Abandoned factory marked key/Aband._Rt_W3.jpg,400x400);|~|
+|~扉前|&amp;ref(Abandoned factory marked key/Aband._Rt_Door.jpg,400x400);|&gt;|&gt;||
+|~補足|&amp;ref(Abandoned factory marked key/Aband._Rt_W0.jpg,400x400); &amp;br;南西側からのアクセス一覧|&gt;|&gt;||
+
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
@@ -37,3 +58,5 @@ A mysterious key to an unknown door at the abandoned city factory. There is a st
 //拡張子はjpgかpngかwebp
 
 *コメント
+#zcomment(t=eft%2F464&amp;h=350&amp;size=10)
+

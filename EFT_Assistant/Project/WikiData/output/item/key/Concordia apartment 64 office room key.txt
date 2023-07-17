@@ -22,8 +22,25 @@ A key to the office room of the premium apartment inside the Concordia building.
 
 *鍵の入手方法
 **レイド内
+//-オブジェクト
+//--[[Drawer]]
+//--[[Jacket]]
+
 
 *使用場所
+//使用する場所を記載
+[[STREETS OF TARKOV]]南西のL字になっているアパート（CONCORDIA）西側２階64号室の室内にある施錠された扉
+この室内に入るには玄関が別の鍵で施錠されているため、&amp;color(red){入るためには&#039;&#039;[[Concordia apartment 64 key]]&#039;&#039;も必要になる};
+&amp;ref(Concordia apartment 64 office room key/Concd_off._MAP.jpg,700x700);
+#br
+//
+//+LLLLLLI00|LLLLLLI1|LLLLLLI2|LLLLLLL3|LLLLLLI4|LLLLLLI5|LLLLLLL6|LLLLLLI7|LLLLLLI8|
+|CENTER:050|CENTER:|CENTER:|CENTER:|c
+//
+|~道順|~1|~2|~3|
+|~東側 &amp;br;|&amp;ref(Concordia apartment 64 office room key/Concd_off._Rt_1.jpg,400x400);|&amp;ref(Concordia apartment 64 office room key/Concd_off._Rt_2.jpg,400x400); &amp;br;別の鍵[[Concordia apartment 64 key]]で開錠する|&amp;ref(Concordia apartment 64 office room key/Concd_off._Rt_3.jpg,400x400);|
+|~扉前|&amp;ref(Concordia apartment 64 office room key/Concd_off._Rt_Door.jpg,400x400);|&gt;||
+
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
@@ -37,3 +54,5 @@ A key to the office room of the premium apartment inside the Concordia building.
 //拡張子はjpgかpngかwebp
 
 *コメント
+//編集掲示板でzawazawaのコメントを作成するように依頼してください
+#zcomment(t=eft%2F469&amp;h=350&amp;size=10)

@@ -194,7 +194,20 @@ namespace FPS_n2 {
 				WindowSystem::SetMsg(XPos, YPos, XPos + Xsize, YPos + Ysize, Ysize, STRX_MID, White, Black, "更新可能まで %2d:%02d", (TotalTime - NowTime) / 1000 / 60, ((TotalTime - NowTime) / 1000) % 60);
 			}
 			//
+			Xsize = y_r(500);
+			XPos = y_r(1920) - Xsize - y_r(10);
 			YPos = y_r(340);
+			WindowSystem::SetMsg(XPos, YPos, XPos + Xsize, YPos + Ysize, Ysize, STRX_MID, White, Black, "Wikiページ生成");
+			YPos += Ysize + y_r(5);
+			if (DataBase::Instance()->WikiDataUpdate(
+				EnumWikiDataType::ITEMDATA_KEY_WIKI_HTML,
+				XPos, YPos, Xsize, Ysize, true, Color, "キーのhtmlをWikiから取得",
+				"WikiData/input/item/key.txt",
+				"WikiData/input/item/key_html/",
+				"WikiData/output/item/key/"
+			)) {
+			}
+			YPos += Ysize + y_r(5);
 			if (DataBase::Instance()->WikiDataUpdate(
 				EnumWikiDataType::ITEMDATA_KEY,
 				XPos, YPos, Xsize, Ysize, true, Color, "キー情報更新",

@@ -22,6 +22,13 @@ A key to the Radar Station bomb shelter under the Federal State Reserve Agency b
 
 *鍵の入手方法
 **レイド内
+//
+-オブジェクト
+--[[Drawer]]
+--[[Jacket]]
+-その他
+--SCAV、プレイヤーSCAVがインベントリ内に所持している。
+
 
 **トレード
 //なければ項目ごと削除
@@ -32,6 +39,19 @@ A key to the Radar Station bomb shelter under the Federal State Reserve Agency b
 //===============================LISTEND
 
 *使用場所
+//使用する場所を記載
+[[RESERVE]]　&amp;color(red){&#039;&#039;Ver0.13.0.5.23399では、開錠できる扉が存在しない&#039;&#039;};
+&amp;ref(RB-PP key/RB-PP_icon_MAP.jpg,700x700);
+#br
+//
+//+LLLLLLI00|LLLLLLI1|LLLLLLI2|LLLLLLL3|LLLLLLI4|LLLLLLI5|LLLLLLL6|LLLLLLI7|LLLLLLI8|
+|CENTER:050|CENTER:|CENTER:|CENTER:|CENTER:|CENTER:|CENTER:|CENTER:|CENTER:|c
+//
+//|~道順|~1|~2|~3|~4|
+//|~入口 &amp;br;|&amp;ref(img/.jpg,400x400);|&amp;ref(.jpg,400x400);|&amp;ref(.jpg,400x400);|&amp;ref(.jpg,400x400);|
+//|~入口 &amp;br;|&amp;ref(.jpg,400x400);|&amp;ref(.jpg,400x400);|&amp;ref(.jpg,400x400);|&amp;ref(.jpg,400x400);|
+//|~扉前|&amp;ref(.jpg,400x400);|&gt;|&gt;||
+
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
@@ -45,3 +65,4 @@ A key to the Radar Station bomb shelter under the Federal State Reserve Agency b
 //拡張子はjpgかpngかwebp
 
 *コメント
+//編集掲示板でzawazawaのコメントを作成するように依頼してください

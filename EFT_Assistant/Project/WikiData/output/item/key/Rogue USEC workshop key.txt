@@ -22,8 +22,23 @@ A key to the workshop bunkhouse, located somewhere at the Rogue USEC base.
 
 *鍵の入手方法
 **レイド内
+//-オブジェクト
+//--[[Drawer]]
+//--[[Jacket]]
+
 
 *使用場所
+//使用する場所を記載
+[[LIGHTHOUSE]]　ローグUSEC基地（浄水場）の南東にあるプレハブ小屋（３棟）の北側の施錠された扉
+&amp;ref(Rogue USEC workshop key/Workshop_icon_MAP.jpg,700x700);
+#br
+//
+//+LLLLLLI00|LLLLLLI1|LLLLLLI2|LLLLLLL3|LLLLLLI4|LLLLLLI5|LLLLLLL6|LLLLLLI7|LLLLLLI8|
+|CENTER:050|CENTER:|c
+//
+|&gt;|~道順|
+|~扉前|&amp;ref(Rogue USEC workshop key/Workshop_Rt_Door.jpg,400x400);|
+
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
@@ -37,3 +52,4 @@ A key to the workshop bunkhouse, located somewhere at the Rogue USEC base.
 //拡張子はjpgかpngかwebp
 
 *コメント
+//編集掲示板でzawazawaのコメントを作成するように依頼してください

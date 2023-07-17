@@ -22,6 +22,19 @@ A key to the power substation utility cabin adjacent to the ULTRA shopping mall.
 
 *鍵の入手方法
 **レイド内
+-オブジェクト
+--[[Drawer]]
+--[[Jacket]]
+-その他
+--SCAV、SCAVプレイヤーがインベントリ内に所持している。
+//-フィールド上の特定の場所にスポーン
+-[[FACTORY]]
+--Cellars extractionの真上にある青いロッカー
+//#fold(&amp;color(Black){展開};){{
+//&amp;ref(img/wakipo_INTERCHANGE_POWER.JPG);
+//}}
+
+
 
 *使用場所
 **入手できるもの
@@ -37,3 +50,6 @@ A key to the power substation utility cabin adjacent to the ULTRA shopping mall.
 //拡張子はjpgかpngかwebp
 
 *コメント
+[[オブジェクト]]のページに従い、既出で無い入手情報、クラフトレシピ等があれば当ページ、編集要請への書き込みをお願いします。
+(入手方法に書かれているオブジェクト内には場所を問わず湧きます。入手方法に当該オブジェクトが記載されている場合は書き込む必要はありません。)
+#pcomment(*Power substation utility cabin ke,10,noname,below,reply)

@@ -22,8 +22,31 @@ A Federal State Reserve Agency base guard barracks key with multiple strange sym
 
 *鍵の入手方法
 **レイド内
+//
+-オブジェクト
+--[[Drawer]]
+--[[Jacket]]
+-その他
+--SCAV、プレイヤーSCAVがインベントリ内に所持している。
+//#fold(もっと見る){{
+//隠されていたテキスト
+//複数行
+//}}
+
 
 *使用場所
+//使用する場所を記載
+[[RESERVE]]　北西にある建物（南北に長い兵舎）の１階北側にある施錠された扉
+&amp;ref(RB-VO marked key/RB-VO_mrk_icon_MAP.jpg,700x700);
+#br
+//
+//+LLLLLLI00|LLLLLLI1|LLLLLLI2|LLLLLLL3|LLLLLLI4|LLLLLLI5|LLLLLLL6|LLLLLLI7|LLLLLLI8|
+|CENTER:050|CENTER:|c
+//
+|&gt;|~道順|
+|~入口 &amp;br;|&amp;ref(RB-VO marked key/RB-VO_mrk_Rt_1.jpg,400x400);|
+|~扉前|&amp;ref(RB-VO marked key/RB-VO_mrk_Rt_Door.jpg,400x400);|
+
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
@@ -37,3 +60,4 @@ A Federal State Reserve Agency base guard barracks key with multiple strange sym
 //拡張子はjpgかpngかwebp
 
 *コメント
+//編集掲示板でzawazawaのコメントを作成するように依頼してください

@@ -22,11 +22,29 @@ A key to the Federal State Reserve Agency base eastern barracks' duty officer's 
 
 *鍵の入手方法
 **レイド内
+-オブジェクト
+--[[Drawer]]
+--[[Jacket]]
+-その他
+--SCAV、プレイヤーSCAVがインベントリ内に所持している。
+
 
 *タスク
 //なければ項目ごと削除
 -[[Ragman/Inventory Check]]
 *使用場所
+//使用する場所を記載
+[[RESERVE]]　南東にある黒ポーン建物の３階北側にある施錠された扉
+&amp;ref(RB-OB key/RB-OB_icon_MAP.jpg,700x700);
+#br
+//
+//+LLLLLLI00|LLLLLLI1|LLLLLLI2|LLLLLLL3|LLLLLLI4|LLLLLLI5|LLLLLLL6|LLLLLLI7|LLLLLLI8|
+|CENTER:050|CENTER:|CENTER:|CENTER:|c
+//
+|~道順|~1|~2|~3|
+|~入口 &amp;br;|&amp;ref(RB-OB key/RB-OB_Rt_1.jpg,400x400);|&amp;ref(RB-OB key/RB-OB_Rt_2.jpg,400x400);|&amp;ref(RB-OB key/RB-OB_Rt_3.jpg,400x400);|
+|~扉前|&amp;ref(RB-OB key/RB-OB_Rt_Door.jpg,400x400);|&gt;||
+
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
@@ -40,3 +58,4 @@ A key to the Federal State Reserve Agency base eastern barracks' duty officer's 
 //拡張子はjpgかpngかwebp
 
 *コメント
+//編集掲示板でzawazawaのコメントを作成するように依頼してください

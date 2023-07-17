@@ -22,11 +22,23 @@ A key to the EMERCOM medical care unit at the ULTRA shopping mall.
 
 *鍵の入手方法
 **レイド内
+-オブジェクト
+--[[Drawer]]
+--[[Jacket]]
+-その他
+--SCAV、SCAVプレイヤーがインベントリ内に所持している。
+//-フィールド上の特定の場所にスポーン
+-[[CUSTOMS]]
+--ガスステーション正面にある救急車の中の一番奥の椅子の上に沸く。
+&amp;ref(img/EMERCOM medical unit key-location1.jpg,600x600);
+&amp;ref(img/EMERCOM medical unit key-location2.jpg,600x600);
+
 
 *タスク
 //なければ項目ごと削除
 -[[Skier/Vitamins - Part 1]]
 *使用場所
+
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ

@@ -24,6 +24,8 @@ A key to the safe inside one of the village stores, located somewhere near the A
 **レイド内
 
 *使用場所
+村の店
+
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
@@ -37,3 +39,4 @@ A key to the safe inside one of the village stores, located somewhere near the A
 //拡張子はjpgかpngかwebp
 
 *コメント
+#zcomment(t=eft%2F440&amp;h=350&amp;size=10)

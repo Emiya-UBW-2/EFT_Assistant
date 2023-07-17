@@ -22,8 +22,28 @@ A key to the security room inside the Concordia building.
 
 *鍵の入手方法
 **レイド内
+//-オブジェクト
+//--[[Drawer]]
+//--[[Jacket]]
+
 
 *使用場所
+//使用する場所を記載
+[[STREETS OF TARKOV]]南西側の公園地下駐車場にある施錠された扉
+&amp;ref(Concordia security room key/Concd_sec._MAP.jpg,700x700);
+#br
+//
+//+LLLLLLI00|LLLLLLI1|LLLLLLI2|LLLLLLL3|LLLLLLI4|LLLLLLI5|LLLLLLL6|LLLLLLI7|LLLLLLI8|
+|CENTER:050|CENTER:|CENTER:|CENTER:|c
+//
+|~道順|~1|~2|~3|
+|~北側 &amp;br;|&amp;ref(Concordia security room key/Concd_sec._Rt_N1.jpg,400x400);|&amp;ref(Concordia security room key/Concd_sec._Rt_N2.jpg,400x400);|&amp;ref(Concordia security room key/Concd_sec._Rt_3.jpg,400x400);|
+|~南東 &amp;br;|&amp;ref(Concordia security room key/Concd_sec._Rt_S1.jpg,400x400);|&amp;ref(Concordia security room key/Concd_sec._Rt_SE2.jpg,400x400);|~|
+|~南西 &amp;br;|~|&amp;ref(Concordia security room key/Concd_sec._Rt_SW2.jpg,400x400);|~|
+|~西側 &amp;br;|&amp;ref(Concordia security room key/Concd_sec._Rt_W1.jpg,400x400);|&amp;ref(Concordia security room key/Concd_sec._Rt_W2.jpg,400x400);|~|
+|~東側 &amp;br;|&amp;ref(Concordia security room key/Concd_sec._Rt_E1.jpg,400x400);|&amp;ref(Concordia security room key/Concd_sec._Rt_E2.jpg,400x400);|~|
+|~扉前|&amp;ref(Concordia security room key/Concd_sec._Rt_Door.jpg,400x400);|&amp;ref(Concordia security room key/Concd_sec._Rt_0.jpg,400x400);|&gt;|
+
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
@@ -37,3 +57,5 @@ A key to the security room inside the Concordia building.
 //拡張子はjpgかpngかwebp
 
 *コメント
+//編集掲示板でzawazawaのコメントを作成するように依頼してください
+#zcomment(t=eft%2F466&amp;h=350&amp;size=10)

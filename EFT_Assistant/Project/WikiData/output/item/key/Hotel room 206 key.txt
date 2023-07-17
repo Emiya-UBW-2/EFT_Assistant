@@ -22,8 +22,25 @@ A key to Pinewood hotel room 206.
 
 *鍵の入手方法
 **レイド内
+//-オブジェクト
+//--[[Drawer]]
+//--[[Jacket]]
+
 
 *使用場所
+//使用する場所を記載
+[[STREETS OF TARKOV]]北東側のパインウッドホテル（PINEWOOD HOTEL）２階の施錠された206号室扉
+&amp;ref(Hotel room 206 key/Pnwd_206_MAP.jpg,700x700);
+#br
+//
+//+LLLLLLI00|LLLLLLI1|LLLLLLI2|LLLLLLL3|LLLLLLI4|LLLLLLI5|LLLLLLL6|LLLLLLI7|LLLLLLI8|
+|CENTER:050|CENTER:|CENTER:|CENTER:|CENTER:|c
+//
+|~道順|~1|~2|~3|~4|
+|~北東 &amp;br;|&amp;ref(Hotel room 206 key/Pnwd_206_Rt_E1.jpg,400x400);|&amp;ref(Hotel room 206 key/Pnwd_206_Rt_E2.jpg,400x400);|&amp;ref(Hotel room 206 key/Pnwd_206_Rt_E3.jpg,400x400);|&amp;ref(Hotel room 206 key/Pnwd_206_Rt_E4.jpg,400x400);|
+|~北西 &amp;br;|&amp;ref(Hotel room 206 key/Pnwd_206_Rt_W1.jpg,400x400);|&amp;ref(Hotel room 206 key/Pnwd_206_Rt_W2.jpg,400x400);|&amp;ref(Hotel room 206 key/Pnwd_206_Rt_W3.jpg,400x400);|&amp;ref(Hotel room 206 key/Pnwd_206_Rt_W4.jpg,400x400);|
+|~扉前|&amp;ref(Hotel room 206 key/Pnwd_206_Rt_Door.jpg,400x400);|&gt;|&gt;||
+
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
@@ -37,3 +54,5 @@ A key to Pinewood hotel room 206.
 //拡張子はjpgかpngかwebp
 
 *コメント
+//編集掲示板でzawazawaのコメントを作成するように依頼してください
+#zcomment(t=eft%2F470&amp;h=350&amp;size=10)

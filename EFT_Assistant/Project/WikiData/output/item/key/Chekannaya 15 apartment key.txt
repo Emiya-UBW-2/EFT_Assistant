@@ -22,8 +22,25 @@ A key to one of the apartments located at Chekannaya 15.
 
 *鍵の入手方法
 **レイド内
+//-オブジェクト
+//--[[Drawer]]
+//--[[Jacket]]
+
 
 *使用場所
+//使用する場所を記載
+[[STREETS OF TARKOV]]北西側の建物（CELLS）２階にある施錠された扉
+&amp;ref(Chekannaya 15 apartment key/Chek_15_MAP.jpg,700x700);
+#br
+//
+//+LLLLLLI00|LLLLLLI1|LLLLLLI2|LLLLLLL3|LLLLLLI4|
+|CENTER:050|CENTER:|CENTER:|CENTER:|CENTER:|c
+//
+|~道順|~1|~2|~3|~4|
+|~入口 &amp;br;|&amp;ref(Chekannaya 15 apartment key/Chek_15_Rt_0.jpg,400x400);|&amp;ref(Chekannaya 15 apartment key/Chek_15_Rt_2.jpg,400x400);|&amp;ref(Chekannaya 15 apartment key/Chek_15_Rt_3.jpg,400x400);|&amp;ref(Chekannaya 15 apartment key/Chek_15_Rt_4.jpg,400x400);|
+|~|&gt;|&#039;&#039;[[Iron gate key]]&#039;&#039;を使用する階にある５の扉をくぐる &amp;br;※階を素通りするだけなら、Irone gate keyは不要|&gt;|匍匐して進む|
+|~扉前|&amp;ref(Chekannaya 15 apartment key/Chek_15_Rt_Door.jpg,400x400); &amp;br;右側（南）の扉を開錠できる &amp;br;※&#039;&#039;[[Stair landing key]]&#039;&#039;で使う扉は左側|&gt;|&gt;||
+
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
@@ -37,3 +54,4 @@ A key to one of the apartments located at Chekannaya 15.
 //拡張子はjpgかpngかwebp
 
 *コメント
+#zcomment(t=eft%2F472&amp;h=350&amp;size=10)

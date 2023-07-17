@@ -22,8 +22,22 @@ A key to the safe inside one of the cottages, located somewhere near the Azure C
 
 *鍵の入手方法
 **レイド内
+-オブジェクト
+--[[Jacket]]
+--Drawers
+//--Pockets and bags of Scavs
+
+#accordion(Shoreline,***,open){{
+村の戦車の近くにあるバスの中に低確率で沸きます。
+----
+&amp;ref(img/Cottage safe key-location1.png,600x600);
+&amp;ref(img/Cottage safe key-location2.jpg,600x600);
+}}
+
 
 *使用場所
+[[Cottage back door key]]を使用しては入れる家の２階にある金庫を解錠できます。
+
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
@@ -37,3 +51,4 @@ A key to the safe inside one of the cottages, located somewhere near the Azure C
 //拡張子はjpgかpngかwebp
 
 *コメント
+#zcomment(t=eft%2F436&amp;h=350&amp;size=10)

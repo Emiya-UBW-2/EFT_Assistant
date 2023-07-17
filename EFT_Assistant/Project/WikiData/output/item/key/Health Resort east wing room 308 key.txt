@@ -22,12 +22,19 @@ A key to the Azure Coast sanatorium east wing room 308.
 
 *鍵の入手方法
 **レイド内
+-オブジェクト
+--[[Drawer]]
+--[[Jacket]]
+
 
 *タスク
 //なければ項目ごと削除
 -[[Peacekeeper/Cargo X - Part 1]]
 -[[Skier/Lend-Lease - Part 1]]
 *使用場所
+保養所東棟308号室の鍵
+306号室とベランダを通して繋がっている
+
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
@@ -41,3 +48,4 @@ A key to the Azure Coast sanatorium east wing room 308.
 //拡張子はjpgかpngかwebp
 
 *コメント
+#zcomment(t=eft%2F403&amp;h=350&amp;size=10)

@@ -22,8 +22,22 @@ CENTER:&ref(Dorm guard desk key-summary.webp);
 
 *鍵の入手方法
 **レイド内
+-オブジェクト
+--[[Jacket]]
+--Drawers
+//--Pockets and bags of Scavs
+
+#accordion(Customs(2階寮),***,open){{
+デッドスカブが持っていることがあります。※確定ではありません。
+----
+&amp;ref(https://cdn.discordapp.com/attachments/1081054458596835438/1081057250594009189/Dorm_guard_desk_key-location1.jpg,600x600);
+&amp;ref(https://cdn.discordapp.com/attachments/1081054458596835438/1081057250887606322/Dorm_guard_desk_key-location2.jpg,600x600);
+}}
+
 
 *使用場所
+2階寮の警備室で使用する鍵
+
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
@@ -37,3 +51,4 @@ CENTER:&ref(Dorm guard desk key-summary.webp);
 //拡張子はjpgかpngかwebp
 
 *コメント
+#zcomment(t=eft%2F482&amp;h=350&amp;size=10)

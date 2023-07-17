@@ -22,11 +22,20 @@ A key to the back door to one of the cottages, located somewhere near the Azure 
 
 *鍵の入手方法
 **レイド内
+-[[オブジェクト]]
+--[[Jacket]]
+
+#accordion(Shoreline,***,open){{
+&amp;ref(img/Cottage back door key-key location.jpg,600x600);
+&amp;ref(img/Cottage back door key-key location2.jpg,600x600);
+}}
+
 
 *タスク
 //なければ項目ごと削除
 -[[Therapist/Colleagues - Part 2]]
 *使用場所
+
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
@@ -40,3 +49,4 @@ A key to the back door to one of the cottages, located somewhere near the Azure 
 //拡張子はjpgかpngかwebp
 
 *コメント
+#zcomment(t=eft%2F435&amp;h=350&amp;size=10)

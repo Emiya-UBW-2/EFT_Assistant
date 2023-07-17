@@ -22,6 +22,13 @@ A key to the Goshan store outlet cash registers at the ULTRA shopping mall.
 
 *鍵の入手方法
 **レイド内
+-オブジェクト
+--[[Drawer]]
+--[[Jacket]]
+
+-Customs
+--新ガス近くのバスの座席の上
+
 
 **トレード
 //なければ項目ごと削除
@@ -35,6 +42,9 @@ A key to the Goshan store outlet cash registers at the ULTRA shopping mall.
 //なければ項目ごと削除
 -[[Ragman/Supervisor]]
 *使用場所
+//使用する場所を記載
+Goshanのレジ
+
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
@@ -48,3 +58,4 @@ A key to the Goshan store outlet cash registers at the ULTRA shopping mall.
 //拡張子はjpgかpngかwebp
 
 *コメント
+//編集掲示板でzawazawaのコメントを作成するように依頼してください

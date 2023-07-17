@@ -22,8 +22,25 @@ A key that opens the shared bedroom, located somewhere on the Lighthouse peninsu
 
 *鍵の入手方法
 **レイド内
+//-オブジェクト
+//--[[Drawer]]
+//--[[Jacket]]
+
 
 *使用場所
+//使用する場所を記載
+[[LIGHTHOUSE]]　灯台エリア（追加エリア)正面入り口から入って右の建物の2階
+ドアに雷のマークあり
+&amp;ref(Shared bedroom marked key/Bedroom_icon_MAP.jpg,700x700);
+#br
+//
+//+LLLLLLI00|LLLLLLI1|LLLLLLI2|LLLLLLL3|LLLLLLI4|LLLLLLI5|LLLLLLL6|LLLLLLI7|LLLLLLI8|
+|CENTER:050|CENTER:|CENTER:|CENTER:|CENTER:|CENTER:|c
+//
+|~道順|~1|~2|~3|~4|~5|
+|~入口 &amp;br;|&amp;ref(Shared bedroom marked key/Bedroom_ByR_Rt_1.jpg,400x400);|&amp;ref(Shared bedroom marked key/Bedroom_ByR_Rt_2.jpg,400x400);|&amp;ref(Shared bedroom marked key/Bedroom_ByR_Rt_3.jpg,400x400);|&amp;ref(Shared bedroom marked key/Bedroom_ByR_Rt_4.jpg,400x400);|&amp;ref(Shared bedroom marked key/Bedroom_ByR_Rt_5.jpg,400x400);|
+|~扉前|&amp;ref(Shared bedroom marked key/Bedroom_ByR_Rt_Door.jpg,400x400);|&gt;|&gt;|&gt;||
+
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
@@ -37,3 +54,4 @@ A key that opens the shared bedroom, located somewhere on the Lighthouse peninsu
 //拡張子はjpgかpngかwebp
 
 *コメント
+//編集掲示板でzawazawaのコメントを作成するように依頼してください

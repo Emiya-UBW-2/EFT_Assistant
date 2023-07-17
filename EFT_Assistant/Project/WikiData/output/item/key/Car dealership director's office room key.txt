@@ -22,12 +22,29 @@ A key to one of the offices in the LexOs car dealership.
 
 *鍵の入手方法
 **レイド内
+//-オブジェクト
+//--[[Drawer]]
+//--[[Jacket]]
+
 
 **タスク報酬
 //なければ項目ごと削除
 -[[Peacekeeper/Your Car Needs a Service]]
 
 *使用場所
+//使用する場所を記載
+[[STREETS OF TARKOV]]中央の自動車販売店（LEXOS）2階にある施錠された部屋
+この部屋がある区画は別の鍵で施錠されているため、&amp;color(red){入るためには&#039;&#039;[[Car dealership closed section key]]&#039;&#039;も必要になる};
+&amp;ref(Car dealership director&#039;s office room key/LexOs_MAP.jpg,700x700);
+#br
+//
+//+LLLLLLI00|LLLLLLI1|LLLLLLI2|LLLLLLL3|LLLLLLI4|LLLLLLI5|LLLLLLL6|LLLLLLI7|LLLLLLI8|
+|CENTER:050|CENTER:|c
+//
+|&gt;|~道順|
+|&gt;|&#039;&#039;[[Car dealership closed section key]]&#039;&#039;の鍵で開錠した先に部屋がある|
+|~扉前|&amp;ref(Car dealership director&#039;s office room key/LexOs_Rt_Door.jpg,400x400);|
+
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
@@ -41,3 +58,5 @@ A key to one of the offices in the LexOs car dealership.
 //拡張子はjpgかpngかwebp
 
 *コメント
+//編集掲示板でzawazawaのコメントを作成するように依頼してください
+#zcomment(t=eft%2F456&amp;h=350&amp;size=10)

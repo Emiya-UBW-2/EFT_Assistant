@@ -22,8 +22,13 @@ A key to the Azure Coast sanatorium east wing room 310.
 
 *鍵の入手方法
 **レイド内
+-オブジェクト
+--[[Drawer]]
+--[[Jacket]]
+
 
 *使用場所
+
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
@@ -37,3 +42,4 @@ A key to the Azure Coast sanatorium east wing room 310.
 //拡張子はjpgかpngかwebp
 
 *コメント
+#zcomment(t=eft%2F404&amp;h=350&amp;size=10)

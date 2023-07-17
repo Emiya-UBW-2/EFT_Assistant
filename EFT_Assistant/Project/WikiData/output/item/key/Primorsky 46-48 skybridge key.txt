@@ -22,8 +22,33 @@ A key to the skybridge linking Primorsky 46-48, leading to the apartment of the 
 
 *鍵の入手方法
 **レイド内
+//-オブジェクト
+//--[[Drawer]]
+//--[[Jacket]]
+#accordion(Streets of Tarkov,***,close){{
+&amp;ref(img/skybridge key-location-map.jpg,400x400);
+&amp;ref(img/skybridge key-location1.jpg,400x400);
+&amp;ref(img/skybridge key-location2.jpg,400x400);
+}}
+
 
 *使用場所
+//使用する場所を記載
+[[STREETS OF TARKOV]]の北西区画の薬局（PHARMACY)の屋上（連絡通路）にある施錠された扉
+&amp;ref(Primorsky 46-48 skybridge key/Skybridge_MAP.jpg,500x500);
+//
+//+LLLLLLI00|LLLLLLI1|LLLLLLI2|LLLLLLL3|LLLLLLI4|LLLLLLI5|LLLLLLL6|LLLLLLI7|LLLLLLI8|
+|CENTER:050|CENTER:|CENTER:|CENTER:|c
+//
+|~道順|~1|~2|~3|
+|~西側 &amp;br;|&amp;ref(Primorsky 46-48 skybridge key/Skybridge_Rt_1a.jpg,400x400);|&amp;ref(Primorsky 46-48 skybridge key/Skybridge_Rt_2.jpg,400x400);|&amp;ref(Primorsky 46-48 skybridge key/Skybridge_Rt_3.jpg,400x400);|
+|~|POST OFFICE 南西側の扉から入る|４階まで上る|4階と5階の踊り場の扉を進む|
+|~扉前|&amp;ref(Primorsky 46-48 skybridge key/Skybridge_Rt_Door.jpg,400x400);|&gt;|※他にもPOST OFFICEの東側（路面電車の道路）や西側（公園側）の各扉からも行けます。|
+&amp;br;
+|CENTER:050|CENTER:|CENTER:|CENTER:|c
+|~補足|&amp;ref(Primorsky 46-48 skybridge key/Skybridge_Rt_Back0.jpg,400x400);|&amp;ref(Primorsky 46-48 skybridge key/Skybridge_Rt_BackDoor.jpg,400x400);|&amp;ref(Primorsky 46-48 skybridge key/Skybridge_Rt_Back1.jpg,400x400);|
+|~|この扉を蹴破る（ブリーチする）と外に出られる|外からは開けられない|繋がっている場所|
+
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
@@ -37,3 +62,5 @@ A key to the skybridge linking Primorsky 46-48, leading to the apartment of the 
 //拡張子はjpgかpngかwebp
 
 *コメント
+#zcomment(t=eft%2F473&amp;h=350&amp;size=10)
+

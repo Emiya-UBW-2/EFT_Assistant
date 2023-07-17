@@ -22,11 +22,49 @@ A key to one of the Federal State Reserve Agency base southern barracks' armorie
 
 *鍵の入手方法
 **レイド内
+-オブジェクト
+--[[Drawer]]
+--[[Jacket]]
+-その他
+--SCAV、プレイヤーSCAVがインベントリ内に所持している。
+
+#accordion(Woods,***,close){{
+&#039;&#039;マップ&#039;&#039;
+&amp;ref(img/RB-ORB2_key_location-woods-map.jpg,600x600);
+
+&#039;&#039;RUAF Roadblock&#039;&#039;
+&amp;ref(img/RB-ORB2_key_location-woods.jpg,600x600);
+}}
+
+#accordion(Reserve,***,close){{
+&#039;&#039;マップ&#039;&#039;
+&amp;ref(img/RB-ORB2_key_location-reserve.jpg,600x600);
+
+&#039;&#039;D2地下&#039;&#039;
+&amp;ref(img/RB-ORB2_key_location-reserve1.jpg,600x600);
+&amp;br;
+&amp;ref(img/RB-ORB2_key_location-reserve2-1.jpg,600x600);
+&amp;ref(img/RB-ORB2_key_location-reserve2.jpg,600x600);
+
+}}
+
 
 *タスク
 //なければ項目ごと削除
 -[[Ragman/Inventory Check]]
 *使用場所
+//使用する場所を記載
+[[RESERVE]]　南東にある白ポーン建物の２階東側にある施錠された鉄格子の扉
+&amp;ref(RB-ORB2 key/RB-ORB2_icon_MAP.jpg,700x700);
+#br
+//
+//+LLLLLLI00|LLLLLLI1|LLLLLLI2|LLLLLLL3|LLLLLLI4|LLLLLLI5|LLLLLLL6|LLLLLLI7|LLLLLLI8|
+|CENTER:050|CENTER:|CENTER:|CENTER:|c
+//
+|~道順|~1|~2|~3|
+|~入口 &amp;br;|&amp;ref(RB-ORB2 key/RB-ORB2_Rt_1.jpg,400x400);|&amp;ref(RB-ORB2 key/RB-ORB2_Rt_2.jpg,400x400);|&amp;ref(RB-ORB2 key/RB-ORB2_Rt_3.jpg,400x400);|
+|~扉前|&amp;ref(RB-ORB2 key/RB-ORB2_Rt_Door.jpg,400x400);|&gt;||
+
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
@@ -40,3 +78,4 @@ A key to one of the Federal State Reserve Agency base southern barracks' armorie
 //拡張子はjpgかpngかwebp
 
 *コメント
+//編集掲示板でzawazawaのコメントを作成するように依頼してください
