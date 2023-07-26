@@ -1,0 +1,35 @@
+IDstr=649af47d717cb30e7e4b5e26
+Name=Cocktail Tasting
+Trader=Skier
+
+NeedLevel=0
+
+CanRestart=true
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_Kill=[
+	any PMC operativesx20
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives while under the influence of the "Obdolbos" cocktail
+	TaskOptional=false
+]
+
+Reward_Rep=Skier+15
+Reward_Item=[
+	SWORD International Mk-18 .338 LM marksman riflex1
+]
+
+Task_Else=脱出ステータス:[Killed in Action (KIA),Missing in Action (MIA),Left the Action]
+
+[
+	TaskType=extract
+	TaskText=You must not die or leave the raid while the task is active (Status: KIA, Left the Action, MIA)
+	TaskOptional=false
+]
+
+Reward_EXP=0

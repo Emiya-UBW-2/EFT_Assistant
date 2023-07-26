@@ -2,7 +2,7 @@ IDstr=64764abcd125ab430a14ccb5
 Name=Bloodhounds
 Trader=Jaeger
 
-NeedLevel=25
+NeedLevel=0
 
 CanRestart=true
 NeedKappa=false

@@ -2,7 +2,7 @@ IDstr=647710905320c660d91c15a5
 Name=Hint
 Trader=Skier
 
-NeedLevel=25
+NeedLevel=0
 
 CanRestart=false
 NeedKappa=false

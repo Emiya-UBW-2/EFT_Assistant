@@ -2,7 +2,7 @@ IDstr=649570491bb4d158bc4d0168
 Name=Tourists
 Trader=Prapor
 
-NeedLevel=25
+NeedLevel=0
 
 CanRestart=false
 NeedKappa=false
