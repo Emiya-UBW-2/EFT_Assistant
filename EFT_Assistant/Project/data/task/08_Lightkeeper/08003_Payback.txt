@@ -49,7 +49,10 @@ Task_Else=脱出地点:Cliff Descent
 
 Reward_Rep=Lightkeeper+1
 Reward_Item=[
-	Microcontroller boardx1
+	Microcontroller boardx1/|
+	LEDX Skin Transilluminatorx1/|
+	LEDX Skin Transilluminatorx1/|
+	LEDX Skin Transilluminatorx1
 ]
 
 Reward_EXP=0

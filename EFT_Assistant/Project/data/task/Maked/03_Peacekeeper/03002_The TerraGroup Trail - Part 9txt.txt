@@ -1,0 +1,58 @@
+IDstr=64b907b5b1548514f3015707
+Name=The TerraGroup Trail - Part 9
+Trader=Peacekeeper
+
+NeedTask=The TerraGroup Trail - Part 8
+NeedLevel=0
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_NotFiR_HandOver=[Bottle of Dan Jackiel whiskeyx2]
+DogTagLv=0
+Task_NotFiR_HandOver=[SP-8 Survival Machetex1]
+DogTagLv=0
+Task_NotFiR_HandOver=[Desert Tech MDR 7.62x51 assault riflex1]
+DogTagLv=0
+Task_NotFiR_HandOver=[EOTech HHS-1 hybrid sightx2]
+DogTagLv=0
+Task_NotFiR_HandOver=[GPNVG-18 Night Vision gogglesx1]
+DogTagLv=0
+
+[
+	TaskType=plantItem
+	TaskText=Stash 2 Bottles of Dan Jackiel whiskey in the Revis store on Interchange
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Stash an SP-8 Survival Machete inside the pumping station on Factory
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Stash a Desert Tech MDR 7.62x51 assault rifle in dorm room 302 on Customs
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Stash 2 EOTech HHS-1 hybrid sights in the sawmill guard post on Woods
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Stash GPNVG-18 Night Vision goggles in the third structure of the railroad warehouse on Reserve
+	TaskOptional=false
+]
+
+Reward_Rep=Peacekeeper+3
+Reward_Item=[
+	Dollarsx550/|
+	Colt M4A1 5.56x45 assault rifle USASOC-IIx1/|
+	5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazine (FDE)x3/|
+	5.56x45mm M855A1x120
+]
+
+Reward_EXP=27400

@@ -1,0 +1,40 @@
+IDstr=64b90792f43eebce7c01e7af
+Name=The TerraGroup Trail - Part 2
+Trader=Therapist
+
+NeedTask=The TerraGroup Trail - Part 1
+NeedLevel=0
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_Kill=[
+	crazyAssaultEventx2
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate the weird Scavs 
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find the source of their abnormal behavior
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found evidence
+	TaskOptional=false
+]
+
+Reward_Rep=Therapist+2
+Reward_Item=[
+	Roublesx38000/|
+	Grizzly medical kitx2/|
+	Propital regenerative stimulant injectorx2
+]
+
+Reward_EXP=12700

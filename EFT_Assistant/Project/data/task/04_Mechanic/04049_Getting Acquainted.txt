@@ -42,9 +42,16 @@ Task_Else=Visit the Lighthouse building
 Reward_Rep=Mechanic+1
 
 Task_Else=TraderStandingの閾値: <= 0
+Task_Else=該当タスクThe TerraGroup Trail - Part 13
+Task_Else=該当タスク状態:active
 
 [
 	TaskType=traderStanding
+	TaskText=
+	TaskOptional=false
+]
+[
+	TaskType=taskStatus
 	TaskText=
 	TaskOptional=false
 ]

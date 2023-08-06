@@ -57,4 +57,13 @@ DogTagLv=0
 
 Reward_Rep=Mechanic+1
 
+Task_Else=該当タスクThe TerraGroup Trail - Part 11
+Task_Else=該当タスク状態:active
+
+[
+	TaskType=taskStatus
+	TaskText=
+	TaskOptional=false
+]
+
 Reward_EXP=18600

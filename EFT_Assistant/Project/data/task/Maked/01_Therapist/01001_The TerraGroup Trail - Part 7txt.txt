@@ -1,0 +1,24 @@
+IDstr=64b907ad60d47bcb98044d10
+Name=The TerraGroup Trail - Part 7
+Trader=Therapist
+
+NeedTask=The TerraGroup Trail - Part 6
+NeedLevel=0
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_Else=該当タスクThe TerraGroup Trail - Part 8
+Task_Else=該当タスク状態:active
+
+[
+	TaskType=taskStatus
+	TaskText=Deal with Peacekeeper
+	TaskOptional=false
+]
+
+Reward_Rep=Therapist+1
+
+Reward_EXP=5000

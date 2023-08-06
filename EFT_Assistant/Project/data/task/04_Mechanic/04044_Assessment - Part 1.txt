@@ -25,4 +25,13 @@ Task_Else=ゾーン:[Lighthouse Island]
 
 Reward_Rep=Mechanic+1
 
+Task_Else=該当タスクThe TerraGroup Trail - Part 12
+Task_Else=該当タスク状態:active
+
+[
+	TaskType=taskStatus
+	TaskText=
+	TaskOptional=false
+]
+
 Reward_EXP=23500

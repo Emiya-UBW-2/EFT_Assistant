@@ -2,6 +2,7 @@ IDstr=63966faeea19ac7ed845db2c
 Name=Information Source
 Trader=Lightkeeper
 
+NeedTask=The TerraGroup Trail - Part 14
 NeedTask=Getting Acquainted
 NeedLevel=35
 

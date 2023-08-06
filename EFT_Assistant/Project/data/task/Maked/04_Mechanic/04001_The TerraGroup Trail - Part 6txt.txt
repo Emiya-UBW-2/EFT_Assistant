@@ -1,0 +1,27 @@
+IDstr=64b907a85e9b86ab7a08cf0d
+Name=The TerraGroup Trail - Part 6
+Trader=Mechanic
+
+NeedTask=The TerraGroup Trail - Part 5
+NeedLevel=0
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_NotFiR_HandOver=[Physical bitcoinx5]
+DogTagLv=0
+
+[
+	TaskType=giveItem
+	TaskText=Hand over the Physical Bitcoins
+
+
+
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+2
+
+Reward_EXP=19300

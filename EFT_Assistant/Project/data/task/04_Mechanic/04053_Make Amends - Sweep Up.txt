@@ -3,7 +3,7 @@ Name=Make Amends - Sweep Up
 Trader=Mechanic
 
 NeedTask=Make Amends - Security
-NeedLevel=35
+NeedLevel=0
 
 CanRestart=false
 NeedKappa=false

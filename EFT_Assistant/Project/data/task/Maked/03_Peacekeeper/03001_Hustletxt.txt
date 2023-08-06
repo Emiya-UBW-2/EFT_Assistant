@@ -1,0 +1,76 @@
+IDstr=649567f359eab30d1b7c9585
+Name=Hustle
+Trader=Peacekeeper
+
+NeedLevel=0
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_Kill=[
+	Reshalax1
+]
+Task_Kill=[
+	Glukharx1
+]
+Task_Kill=[
+	Killax1
+]
+Task_Kill=[
+	Shturmanx1
+]
+Task_Kill=[
+	Sanitarx1
+]
+Task_Kill=[
+	Tagillax1
+]
+Task_Else=脱出ステータス:[Survived]
+
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Reshala in a single raid
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Glukhar in a single raid
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Killa in a single raid
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Shturman in a single raid
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Sanitar in a single raid
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Tagilla in a single raid
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Peacekeeper+15
+Reward_Item=[
+	Dollarsx50000/|
+	T-7 Thermal Goggles with a Night Vision mountx1/|
+	SIG MCX .300 Blackout assault riflex1/|
+	SIG MPX 9x19 submachine gunx1
+]
+
+Reward_EXP=0

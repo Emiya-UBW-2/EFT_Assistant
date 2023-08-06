@@ -1,0 +1,40 @@
+IDstr=64b907bae1ed4f11f209e8de
+Name=The TerraGroup Trail - Part 10
+Trader=Peacekeeper
+
+NeedTask=The TerraGroup Trail - Part 9
+NeedLevel=0
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_Kill=[
+	any targetx30
+]
+NeedItem=[
+	VSS Vintorez 9x39 special sniper riflex0
+]
+Task_NotFiR_HandOver=[Sanitar's bagx1]
+DogTagLv=0
+
+[
+	TaskType=shoot
+	TaskText=Eliminate any target while using VSS Vintorez 9x39 special sniper rifle in the car dealership area on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Plant Sanitar's bag on the second floor of the car dealership near Kaban's office
+	TaskOptional=false
+]
+
+Reward_Rep=Peacekeeper+3
+Reward_Item=[
+	Dollarsx600/|
+	M203 40mm underbarrel grenade launcherx1/|
+	40x46mm M386 (HE) grenadex5
+]
+
+Reward_EXP=28500

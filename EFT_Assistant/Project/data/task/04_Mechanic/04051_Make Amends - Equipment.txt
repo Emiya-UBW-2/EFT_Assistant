@@ -3,7 +3,7 @@ Name=Make Amends - Equipment
 Trader=Mechanic
 
 NeedTask=Make Amends - Buyout
-NeedLevel=35
+NeedLevel=0
 
 CanRestart=false
 NeedKappa=false

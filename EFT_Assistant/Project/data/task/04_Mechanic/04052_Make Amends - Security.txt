@@ -3,7 +3,7 @@ Name=Make Amends - Security
 Trader=Mechanic
 
 NeedTask=Make Amends - Equipment
-NeedLevel=35
+NeedLevel=0
 
 CanRestart=false
 NeedKappa=false
