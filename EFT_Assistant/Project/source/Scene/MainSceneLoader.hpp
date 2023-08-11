@@ -10,7 +10,7 @@ namespace FPS_n2 {
 		void Set_Sub(void) noexcept override {
 			DataBase::Create();
 		}
-		bool Update_Sub(void) noexcept override {
+		bool Update_Sub(bool*) noexcept override {
 			return !(!GetIsFirstLoop() && DataBase::Instance()->SetDataList());
 		}
 		void Dispose_Sub(void) noexcept override {

@@ -31,7 +31,7 @@ namespace FPS_n2 {
 			BGBase::Instance()->Init(&this->m_posx, &this->m_posy, &this->m_Scale);
 			m_Loading = true;
 		}
-		bool Update_Sub(void) noexcept override {
+		bool Update_Sub(bool*) noexcept override {
 			auto* DataBases = DataBase::Instance();
 			auto* BGs = BGBase::Instance();
 			auto* WindowMngr = WindowSystem::WindowManager::Instance();
