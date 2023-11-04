@@ -30,7 +30,8 @@ ChildParts=[
 	PP-19-01 "Vityaz" pistol grip/|
 	AK FAB Defense AGR-47 pistol grip/|
 	AK TangoDown Battle Grip pistol grip/|
-	AK TangoDown Battle Grip pistol grip (FDE)
+	AK TangoDown Battle Grip pistol grip (FDE)/|
+	AK Mission First Tactical ENGAGE AK47 pistol grip
 ]
 ChildParts=[
 	AK-74M CAA AKTS AK74 buffer tube/|

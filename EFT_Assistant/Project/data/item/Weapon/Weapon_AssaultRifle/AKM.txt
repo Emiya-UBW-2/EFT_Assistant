@@ -61,7 +61,8 @@ ChildParts=[
 	PP-19-01 "Vityaz" pistol grip/|
 	AK FAB Defense AGR-47 pistol grip/|
 	AK TangoDown Battle Grip pistol grip/|
-	AK TangoDown Battle Grip pistol grip (FDE)
+	AK TangoDown Battle Grip pistol grip (FDE)/|
+	AK Mission First Tactical ENGAGE AK47 pistol grip
 ]
 ChildParts=[
 	AK AKademia Bastion dust cover/|
@@ -110,7 +111,8 @@ ChildParts=[
 	AK 7.62x39 US Palm "AK30" 30-round magazine (Black)/|
 	AK 7.62x39 US Palm "AK30" 30-round magazine (FDE)/|
 	AK 7.62x39 X Products X-47 50-round drum magazine/|
-	AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine
+	AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine/|
+	AK 7.62x39 Magpul PMAG 20 GEN M3 20-round magazine
 ]
 ChildParts=[
 	AK CSS knurled charging handle/|
@@ -133,4 +135,4 @@ cameraSnap=3.500000
 deviationMax=23
 convergence=1.200000
 Name_Jpn=AKM 7.62x39 アサルトライフル
-Information_Jpn=The AKM (Avtomát Kaláshnikova Modernizírovanny - Kalashnikov's Automatic Rifle Modernised) 7.62x39mm automatic rifle was adopted in 1959 to replace AK as a standard service weapon of the Soviet Army. Main differences compared to AK: enhanced accuracy range, lower weight, new stock, trigger, hammer retarder, muzzle compensator, and other design changes aimed at improving the efficiency of the rifle.
+Information_Jpn=AKM (Avtomát Kaláshnikova Modernizírovanny - カラシニコフ自動小銃 改良版) は、1959年にソビエト陸軍の制式装備として従来の AK の代替として採用された。 AK との主な違いは、改良された精度射程、重量、ストック、引き金、ハンマー、マズルコンペンセイター、その他ライフルの能力を向上させることを目的とした設計変更が施されている

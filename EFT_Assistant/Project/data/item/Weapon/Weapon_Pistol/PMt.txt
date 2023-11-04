@@ -19,16 +19,25 @@ ChildParts=[
 	SIG Sauer SRD9 9x19 sound suppressor/|
 	SilencerCo Osprey 9 9x19 sound suppressor
 ]
-Recoil=408.000000
+ChildParts=[
+	PM pistol slide
+]
+ChildParts=[
+	PM FAB Defense PM-G pistol grip/|
+	PM Tactic Kit pistol grip/|
+	PM bakelite side grips/|
+	PM FAB Defense PM-G pistol grip (Olive Drab)
+]
+Recoil=480.000000
 RecoilHorizontal=305.000000
 Ergonomics=80.000000
 SightRange=-100
 FireRate=30
 centerOfImpact=0.380000
 deviationCurve=2.500000
-recoilDispersion=13
+recoilDispersion=20
 recoilAngle=85
-cameraRecoil=0.009600
+cameraRecoil=0.016000
 cameraSnap=3.500000
 deviationMax=10
 convergence=5.000000

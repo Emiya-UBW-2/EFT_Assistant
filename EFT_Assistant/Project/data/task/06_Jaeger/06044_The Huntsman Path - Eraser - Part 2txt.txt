@@ -1,0 +1,30 @@
+IDstr=5d25e45e86f77408251c4bfa
+Name=The Huntsman Path - Eraser - Part 2
+Trader=Jaeger
+
+NeedTask=The Huntsman Path - Secured Perimeter
+NeedTask=The Huntsman Path - Eraser - Part 1
+NeedLevel=30
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+factionName=Any
+Task_Kill=[
+	Raiderx6
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Raiders
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+2
+Reward_Item=[
+	Roublesx80000/|
+	FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescopex1
+]
+
+Reward_EXP=22500

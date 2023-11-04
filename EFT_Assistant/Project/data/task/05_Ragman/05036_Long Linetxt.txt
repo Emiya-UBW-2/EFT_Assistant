@@ -1,0 +1,31 @@
+IDstr=60e71dc0a94be721b065bbfc
+Name=Long Line
+Trader=Ragman
+
+NeedTask=Supervisor
+NeedLevel=45
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Interchange
+factionName=Any
+Task_Map=Interchange
+Task_Kill=[
+	Interchange-any PMC operativesx30
+]
+Task_Else=ゾーン:[Inside ULTRA Mall]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives inside the ULTRA mall on Interchange
+	TaskOptional=false
+]
+
+Reward_Item=[
+	6Sh118 raid backpackx1/|
+	Rys-T bulletproof helmetx1
+]
+
+Reward_EXP=84000

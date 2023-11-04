@@ -1,0 +1,2 @@
+Name_Jpn=TerraGroup の警備用武器保管室の鍵
+Information_Jpn=TerraGroup のオフィスにある警備用武器保管室の鍵。

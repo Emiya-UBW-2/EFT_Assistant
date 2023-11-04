@@ -36,7 +36,9 @@ ChildParts=[
 	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights/|
 	SIG Sauer ROMEO sight mount/|
 	Trijicon RMR high profile mount/|
-	Trijicon RMR low profile mount
+	Trijicon RMR low profile mount/|
+	ELCAN Specter HCO holographic sight/|
+	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope
 ]
 ChildParts=[
 	BCM GUNFIGHTER MOD 3 vertical foregrip/|
@@ -71,7 +73,8 @@ ChildParts=[
 	AN/PEQ-15 tactical device/|
 	LA-5B/PEQ tactical device/|
 	SureFire XC1 tactical flashlight/|
-	Zenit Perst-3 tactical device
+	Zenit Perst-3 tactical device/|
+	MAWL-C1+ tactical device
 ]
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
@@ -91,7 +94,8 @@ ChildParts=[
 	Daniel Defense 25mm accessory ring mount/|
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
-	Insight WMX200 tactical flashlight
+	Insight WMX200 tactical flashlight/|
+	MAWL-C1+ tactical device
 ]
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
@@ -113,7 +117,8 @@ ChildParts=[
 	Daniel Defense 25mm accessory ring mount/|
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
-	Insight WMX200 tactical flashlight
+	Insight WMX200 tactical flashlight/|
+	MAWL-C1+ tactical device
 ]
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
@@ -155,7 +160,8 @@ ChildParts=[
 	Daniel Defense 25mm accessory ring mount/|
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
-	Insight WMX200 tactical flashlight
+	Insight WMX200 tactical flashlight/|
+	MAWL-C1+ tactical device
 ]
 Conflict=[
 	BelOMO PSO-1 4x24 scope/|

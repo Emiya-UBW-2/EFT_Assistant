@@ -12,7 +12,7 @@ containsItems=[
 	PB 9x18PM silenced pistolx1/|
 	PM 9x18PM 90-93 8-round magazinex1/|
 	PB 9x18PM sound suppressorx1/|
-	PB bakilte side gripsx1
+	PB bakelite side gripsx1
 ]
 Name_Jpn=PB 9x18PM 消音拳銃 デフォルト
 Information_Jpn=

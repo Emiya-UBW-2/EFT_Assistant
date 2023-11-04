@@ -25,7 +25,8 @@ ChildParts=[
 	Kiba Arms 25mm accessory ring mount/|
 	Daniel Defense 25mm accessory ring mount/|
 	Olight Baldr Pro tactical flashlight with laser/|
-	Olight Baldr Pro tactical flashlight with laser (Tan)
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
+	MAWL-C1+ tactical device
 ]
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
@@ -46,7 +47,8 @@ ChildParts=[
 	Kiba Arms 25mm accessory ring mount/|
 	Daniel Defense 25mm accessory ring mount/|
 	Olight Baldr Pro tactical flashlight with laser/|
-	Olight Baldr Pro tactical flashlight with laser (Tan)
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
+	MAWL-C1+ tactical device
 ]
 ChildParts=[
 	BCM GUNFIGHTER MOD 3 vertical foregrip/|

@@ -1,0 +1,40 @@
+IDstr=5d25e4d586f77443e625e388
+Name=Reserve
+Trader=Jaeger
+
+NeedTask=The Delicious Sausage
+NeedLevel=20
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Reserve
+factionName=Any
+Task_Map=Reserve
+Task_Else=TaskType:visit
+Task_Else=Locate the food storage location on Reserve
+Task_Map=Reserve
+Task_Else=脱出ステータス:[Survived]
+
+[
+	TaskType=visit
+	TaskText=Locate the food storage location on Reserve
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+2
+Reward_Item=[
+	Roublesx16000/|
+	Pack of nailsx3/|
+	Pack of screwsx3/|
+	Silicone tubex1/|
+	Broken LCDx2
+]
+
+Reward_EXP=11800

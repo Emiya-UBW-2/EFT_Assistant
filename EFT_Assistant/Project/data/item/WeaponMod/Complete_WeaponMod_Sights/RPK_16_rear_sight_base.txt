@@ -12,7 +12,9 @@ ChildParts=[
 	AK-105 rear sight (6P44 Sb.1-30)/|
 	AK-74 rear sight (6P20 Sb.2)/|
 	AK-74M rear sight (6P20 Sb.2)/|
-	RPK-16 rear sight
+	RPK-16 rear sight/|
+	AK-12 rear sight/|
+	AK RD Enhanced V2 Rear Sight
 ]
 Conflict=[
 	Nightforce Magmount 30mm ring scope mount

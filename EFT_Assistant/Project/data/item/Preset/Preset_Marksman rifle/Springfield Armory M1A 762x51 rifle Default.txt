@@ -4,13 +4,13 @@ ShortName=M1A Default
 Itemtype=Marksman rifle
 width=5
 height=2
-weight=3.990000
+weight=3.923000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	Springfield Armory M1A 7.62x51 riflex1/|
-	M1A 7.62x51 20-round magazinex1/|
+	M1A 7.62x51 10-round magazinex1/|
 	M1A SOCOM 16 stockx1/|
 	M1A SOCOM 16 upper partx1/|
 	M1A 7.62x51 16 inch barrelx1/|

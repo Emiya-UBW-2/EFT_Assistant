@@ -1,7 +1,7 @@
 IDstr=5ea16ada09aa976f2e7a51be
-Name=AR-15 Geissele SMR MK16 13.5 inch M-LOK handguard
+Name=AR-15 Geissele SMR MK16 13.5 inch M-LOK handguard (DDC)
 ShortName=SMR MK16 13.5"
-Information_Eng=The Geissele SMR 13.5 inch M-LOK handguard for AR-15 equipped with an M-LOK interface for installation of additional devices and accessories.
+Information_Eng=The Geissele SMR 13.5 inch M-LOK handguard for AR-15 equipped with an M-LOK interface for installation of additional devices and accessories. Desert Dirt Color version.
 Itemtype=Handguard
 width=3
 height=1
@@ -30,7 +30,8 @@ ChildParts=[
 	LA-5B/PEQ tactical device/|
 	SureFire XC1 tactical flashlight/|
 	Wilcox RAPTAR ES Tactical Rangefinder/|
-	Zenit Perst-3 tactical device
+	Zenit Perst-3 tactical device/|
+	MAWL-C1+ tactical device
 ]
 ChildParts=[
 	NcSTAR MPR45 Backup mount

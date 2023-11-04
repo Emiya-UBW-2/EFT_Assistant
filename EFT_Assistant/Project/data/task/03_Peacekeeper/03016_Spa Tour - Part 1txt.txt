@@ -1,0 +1,47 @@
+IDstr=5a03153686f77442d90e2171
+Name=Spa Tour - Part 1
+Trader=Peacekeeper
+
+NeedTask=Friend from the West - Part 2
+NeedTask=Humanitarian Supplies
+NeedLevel=12
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Map=Shoreline
+factionName=Any
+Task_Map=Shoreline
+Task_Kill=[
+	Shoreline-Scavs{head}x7
+]
+NeedItem=[
+	Saiga 12ga ver.10 12/76 semi-automatic shotgunx0/|
+	MP-133 12ga pump-action shotgunx0/|
+	MP-153 12ga semi-automatic shotgunx0/|
+	MP-43-1C 12ga double-barrel shotgunx0/|
+	MP-155 12ga semi-automatic shotgunx0/|
+	Mossberg 590A1 12ga pump-action shotgunx0/|
+	Remington Model 870 12ga pump-action shotgunx0/|
+	MTs-255-12 12ga shotgunx0/|
+	Benelli M3 Super 90 dual-mode 12ga shotgunx0/|
+	MP-43 12ga sawed-off double-barrel shotgunx0
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs with headshots while using a 12ga shotgun on Shoreline
+	TaskOptional=false
+]
+
+Reward_Rep=Peacekeeper+3
+Reward_Item=[
+	Dollarsx950/|
+	SIG MPX 9x19 submachine gun Silencedx1/|
+	MPX 9x19 30-round magazinex3/|
+	9x19mm RIPx90/|
+	Health Resort west wing room 306 keyx1
+]
+
+Reward_EXP=7400

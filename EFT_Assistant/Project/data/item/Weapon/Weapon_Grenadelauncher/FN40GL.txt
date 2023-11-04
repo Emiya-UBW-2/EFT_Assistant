@@ -22,7 +22,8 @@ ChildParts=[
 	Hogue OverMolded Rubber Grip (Olive Drab)/|
 	AR-15 Magpul MIAD pistol grip (FDE)/|
 	AR-15 Tactical Dynamics Hexgrip pistol grip/|
-	AR-15 Tactical Dynamics Skeletonized pistol grip
+	AR-15 Tactical Dynamics Skeletonized pistol grip/|
+	AR-15 Aeroknox Orion pistol grip
 ]
 ChildParts=[
 	HK MP7 flip-up front sight/|
@@ -50,7 +51,8 @@ ChildParts=[
 	AN/PEQ-2 tactical device/|
 	LA-5B/PEQ tactical device/|
 	Wilcox RAPTAR ES Tactical Rangefinder/|
-	Zenit Perst-3 tactical device
+	Zenit Perst-3 tactical device/|
+	MAWL-C1+ tactical device
 ]
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
@@ -70,7 +72,8 @@ ChildParts=[
 	Zenit Klesch-2U tactical flashlight/|
 	Zenit Perst-3 tactical device/|
 	Daniel Defense 25mm accessory ring mount/|
-	Kiba Arms 25mm accessory ring mount
+	Kiba Arms 25mm accessory ring mount/|
+	MAWL-C1+ tactical device
 ]
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|

@@ -1,6 +1,184 @@
-#include"../../../Header.hpp"
+#include"MainScene_PageCustom.hpp"
+#include "../Data/MainScene_Base.hpp"
+#include "../../../Parts/WindowParts.hpp"
+#include "../../../Parts/StrControl.hpp"
+#include "../../../Parts/DrawSystem.hpp"
+#include "../../../Parts/InputParts.hpp"
+#include "../../../Parts/PlayerDataParts.hpp"
+#include "../../../Parts/InterruptParts.hpp"
+#include"MainScene_PageParents.hpp"
 
 namespace FPS_n2 {
+	const ItemList::ItemProperties::ChildItemSettings&			CustomBG::ChildData::GetMySlotData() const noexcept { return this->m_ParentPtr->GetChildParts().at(this->m_ParentSlot); }
+	const bool			CustomBG::ChildData::GetPtrIsParentSlot(const ItemList* parentptr, int parentslot) const noexcept { return (this->m_ParentPtr == parentptr) && (this->m_ParentSlot == parentslot); }
+	const bool			CustomBG::ChildData::GetIsSelected(int parentslot) const noexcept {
+		if ((parentslot == -1) || ((parentslot != -1) && GetPtrIsParentSlot(this->m_ParentPtr, parentslot))) {
+			return (this->ChildSel < (int)(GetMySlotData().GetData().size()));
+		}
+		return false;
+	}
+	void				CustomBG::ChildData::OnOffSelect() noexcept {
+		if (this->m_PartsOn == InvalidID) {
+			if (GetIsSelected()) {
+				this->m_PartsOn = this->ChildSel;
+				this->ChildSel = (int)(GetMySlotData().GetData().size());
+			}
+			else {
+				this->ChildSel = 0;
+			}
+		}
+		else {
+			bool IsHit = false;
+			int  Now = 0;
+			for (const auto& cID2 : GetMySlotData().GetData()) {
+				if (PlayerData::Instance()->GetItemLock(DataBase::Instance()->GetItemData()->FindPtr(cID2.GetID())->GetIDstr().c_str())) {
+					IsHit = true;
+					break;
+				}
+				Now++;
+			}
+			this->ChildSel = IsHit ? Now : this->m_PartsOn;
+			this->m_PartsOn = InvalidID;
+		}
+	}
+	void				CustomBG::ChildData::AddSelect() noexcept {
+		this->m_PartsOn = InvalidID;
+		++this->ChildSel %= (GetMySlotData().GetData().size() + 1);
+	}
+	void				CustomBG::ChildData::SubSelect() noexcept {
+		this->m_PartsOn = InvalidID;
+		--this->ChildSel;
+		if (this->ChildSel < 0) {
+			this->ChildSel = (int)(GetMySlotData().GetData().size());
+		}
+	}
+	const ItemList*		CustomBG::ChildData::GetChildPtr(int parentslot) const noexcept {
+		if ((parentslot == -1) || ((parentslot != -1) && GetPtrIsParentSlot(this->m_ParentPtr, parentslot))) {
+			if (GetIsSelected(parentslot)) {
+				return DataBase::Instance()->GetItemData()->FindPtr(this->GetMySlotData().GetData().at(this->ChildSel).GetID());
+			}
+		}
+		return nullptr;
+	}
+	const bool			CustomBG::ChildData::ItemPtrChecktoBeFiltered(const ItemList* ptr, bool MagFilter, bool MountFilter, bool SightFilter) noexcept {
+		bool IsHit = false;
+		if (ptr) {
+			if (MagFilter) {
+				if (
+					ptr->GetTypeID() == DataBase::Instance()->GetItemTypeData()->FindID("Magazine")
+					) {
+					IsHit = true;
+				}
+			}
+			if (MountFilter) {
+				if (
+					ptr->GetTypeID() == DataBase::Instance()->GetItemTypeData()->FindID("Mount")
+					) {
+					IsHit = true;
+				}
+			}
+			if (SightFilter) {
+				if (
+					ptr->GetTypeID() == DataBase::Instance()->GetItemTypeData()->FindID("Reflex sight")
+					|| ptr->GetTypeID() == DataBase::Instance()->GetItemTypeData()->FindID("Compact reflex sight")
+					|| ptr->GetTypeID() == DataBase::Instance()->GetItemTypeData()->FindID("Assault scope")
+					|| ptr->GetTypeID() == DataBase::Instance()->GetItemTypeData()->FindID("Scope")
+					|| ptr->GetTypeID() == DataBase::Instance()->GetItemTypeData()->FindID("Special scope")
+					|| ptr->GetTypeID() == DataBase::Instance()->GetItemTypeData()->FindID("Iron sight")
+					) {
+					IsHit = true;
+				}
+			}
+		}
+		return IsHit;
+	}
+	const bool			CustomBG::ChildData::ChecktoBeFiltered(int parentslot, bool MagFilter, bool MountFilter, bool SightFilter) const noexcept {
+		return ItemPtrChecktoBeFiltered(GetChildPtr(parentslot), MagFilter, MountFilter, SightFilter);
+	}
+	void				CustomBG::ChildData::Set(const ItemList* parentptr, int parentslot, int Select) noexcept {
+		this->m_ParentPtr = parentptr;
+		this->m_ParentSlot = parentslot;
+		this->ChildSel = Select;
+		this->watchCounter = 1;
+	}
+
+
+	//
+	void CustomBG::AddPartsSeek(int i) noexcept {
+		if (i >= 0) {
+			m_PartsSeek[i]++;
+			if (m_PartsSeek[i] >= this->m_PartsBaseData[i].size()) {
+				m_PartsSeek[i] = 0;
+				AddPartsSeek(i - 1);
+			}
+		}
+	}
+	//プリセットを適応
+	void CustomBG::AttachPreset(const PresetList& Preset, const ItemList* Ptr) noexcept {
+		auto* Ptr_Buf = Ptr;
+		if (Ptr == nullptr) {
+			m_ChildData.clear();
+			Ptr_Buf = this->m_BaseWeapon;
+		}
+		for (const auto& c : Ptr_Buf->GetChildParts()) {
+			auto Index = (int)(&c - &Ptr_Buf->GetChildParts().front());
+			bool IsHit = false;
+			for (auto& cID : this->m_ChildData) {
+				if (cID.GetPtrIsParentSlot(Ptr_Buf, Index)) {
+					if (cID.GetIsSelected() && cID.GetChildPtr()) {
+						AttachPreset(Preset, cID.GetChildPtr());
+					}
+					IsHit = true;
+					break;
+				}
+			}
+			if (!IsHit) {
+				//設定ベクターに追加
+				int ChildSel = -1;
+				for (const auto& P : Preset.GetParts()) {
+					bool IsHit2 = false;
+					for (auto& cptr : c.GetData()) {
+						if (P == DataBase::Instance()->GetItemData()->FindPtr(cptr.GetID())) {
+							IsHit2 = true;
+							ChildSel = (int)(&cptr - &c.GetData().front());
+							break;
+						}
+					}
+					if (IsHit2) { break; }
+				}
+				if (ChildSel != -1) {
+					//設定vectorに追加
+					m_ChildData.resize(m_ChildData.size() + 1);
+					m_ChildData.back().Set(Ptr_Buf, Index, ChildSel);
+					AttachPreset(Preset, this->m_ChildData.back().GetChildPtr());
+				}
+			}
+		}
+	}
+	//設定
+	bool CustomBG::CheckConflict(const ItemList* MyPtr, const ItemList* Ptr) noexcept {
+		auto* Ptr_Buf = Ptr;
+		if (Ptr == nullptr) {
+			Ptr_Buf = this->m_BaseWeapon;
+		}
+		for (const auto& cP : Ptr_Buf->GetConflictParts()) {
+			if (cP.GetID() == MyPtr->GetID()) {
+				return true;
+			}
+		}
+		for (const auto& c : Ptr_Buf->GetChildParts()) {
+			auto Index = (int)(&c - &Ptr_Buf->GetChildParts().front());
+			for (const auto& cID : this->m_ChildData) {
+				if (cID.GetPtrIsParentSlot(Ptr_Buf, Index)) {
+					if (cID.GetIsSelected() && CheckConflict(MyPtr, cID.GetChildPtr())) {
+						return true;
+					}
+					break;
+				}
+			}
+		}
+		return false;
+	}
 	//
 	void CustomBG::CalcChild(const ItemList* Ptr) noexcept {
 		auto* Ptr_Buf = Ptr;
@@ -294,6 +472,22 @@ namespace FPS_n2 {
 		return HaveChild;
 	}
 
+	void CustomBG::SetSubparam(int WeaponID, int PresetID) noexcept {
+		m_SelectBuffer = WeaponID;
+		m_SelectPreset = PresetID;
+		m_BaseWeapon = DataBase::Instance()->GetItemData()->FindPtr(m_SelectBuffer);
+		if (m_BaseWeapon) {
+			m_ItemIDs.at(0).first = this->m_BaseWeapon->GetTypeID();
+			m_ItemIDs.at(0).second = true;
+
+			m_ItemIDs.at(1).first = this->m_SelectBuffer;
+			m_ItemIDs.at(1).second = true;
+
+			m_ItemIDs.at(2).first = this->m_SelectPreset;
+			m_ItemIDs.at(2).second = true;
+		}
+	}
+
 	void CustomBG::Init_Sub(int *posx, int *posy, float* Scale) noexcept {
 		*posx = y_r(100);
 		*posy = LineHeight + y_r(100);
@@ -401,15 +595,15 @@ namespace FPS_n2 {
 			bool isChild = false;
 			isChild |= MakeLists(0, true, [&](std::pair<int, bool>* IDs, bool IsChild) {
 				if (IsChild) { xgoal -= xs_add; }
-				MakeList<ItemTypeList>(m_ListXPos + xgoal, m_ListYPos, DataBase::Instance()->GetItemTypeData()->GetList(), "ItemType", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (ptr->GetCategoryID() == DataBase::Instance()->GetItemCategoryData()->FindID("Weapons")); });
+				BGParent::MakeList<ItemTypeList>(m_ListXPos + xgoal, m_ListYPos, DataBase::Instance()->GetItemTypeData()->GetList(), "ItemType", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (ptr->GetCategoryID() == DataBase::Instance()->GetItemCategoryData()->FindID("Weapons")); });
 			});
 			isChild |= MakeLists(1, true, [&](std::pair<int, bool>* IDs, bool IsChild) {
 				if (IsChild) { xgoal -= xs_add; }
-				MakeList<ItemList>(m_ListXPos + xgoal, m_ListYPos, DataBase::Instance()->GetItemData()->GetList(), "Item", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (!ptr->GetIsPreset()) && (ptr->GetTypeID() == ListsSel(1 - 1)); });
+				BGParent::MakeList<ItemList>(m_ListXPos + xgoal, m_ListYPos, DataBase::Instance()->GetItemData()->GetList(), "Item", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (!ptr->GetIsPreset()) && (ptr->GetTypeID() == ListsSel(1 - 1)); });
 			});
 			isChild |= MakeLists(2, false, [&](std::pair<int, bool>* IDs, bool IsChild) {
 				if (IsChild) { xgoal -= xs_add; }
-				MakeList<PresetList>(m_ListXPos + xgoal, m_ListYPos, DataBase::Instance()->GetPresetData()->GetList(), "Preset", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (ptr->GetBase()->GetID() == ListsSel(2 - 1)); });
+				BGParent::MakeList<PresetList>(m_ListXPos + xgoal, m_ListYPos, DataBase::Instance()->GetPresetData()->GetList(), "Preset", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (ptr->GetBase()->GetID() == ListsSel(2 - 1)); });
 			});
 			if ((ListsSel(1) != InvalidID) && (ListsSel(2) != InvalidID)) {
 				xgoal -= xs_add * 3;
@@ -633,5 +827,8 @@ namespace FPS_n2 {
 			}
 		}
 		//
+	}
+	void CustomBG::Dispose_Sub(void) noexcept {
+		m_ChildData.clear();
 	}
 };

@@ -1,4 +1,4 @@
-*Supply department director's office key/Supply department director's office key
+*Supply department director's office key/供給部門責任者の事務室の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Supply department director's office key-summary.webp);
 
 *概要
 //概要を記載
-A key to one of the offices in the "Aspect" LLC building.
+合同会社 "Aspect" 内にある事務室に入るための鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する

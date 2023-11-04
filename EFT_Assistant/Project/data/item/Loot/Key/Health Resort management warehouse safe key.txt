@@ -9,5 +9,5 @@ weight=0.010000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
-Name_Jpn=Health Resort management warehouse safe key
-Information_Jpn=A key to the Azure Coast sanatorium warehouse safe, located in the Administration building.
+Name_Jpn=保養所 管理棟倉庫の金庫の鍵
+Information_Jpn=保養所 "アズール・コースト" 管理棟の倉庫にある金庫の鍵。

@@ -1,0 +1,12 @@
+IDstr=64be7095047e826eae02b0c1
+Name=Zulu Nylon Gear M4 Reduced Signature Chest Rig
+ShortName=M4 RSCR
+Information_Eng=The M4 RSCR chest system was designed to be a lightweight and minimalist system for carrying just the essentials. Manufactured by Zulu Nylon Gear.
+Itemtype=Chest rig
+width=2
+height=3
+weight=0.521000
+fleaMarketFee=0
+propertiestype=ItemPropertiesChestRig
+Name_Jpn=Zulu Nylon Gear M4 Reduced Signature Chest Rig
+Information_Jpn=The M4 RSCR chest system was designed to be a lightweight and minimalist system for carrying just the essentials. Manufactured by Zulu Nylon Gear.

@@ -1,6 +1,6 @@
 IDstr=5af08cf886f774223c269184
-Name=Colt M4A1 5.56x45 assault rifle Standard
-ShortName=M4A1 Standard
+Name=Colt M4A1 5.56x45 assault rifle Carbine
+ShortName=M4A1 Carbine
 Itemtype=Assault rifle
 width=5
 height=2
@@ -23,5 +23,5 @@ containsItems=[
 	High Standard M4SS Stockx1/|
 	AR-15 Colt charging handlex1
 ]
-Name_Jpn=Colt M4A1 5.56x45 assault rifle 標準
+Name_Jpn=Colt M4A1 5.56x45 assault rifle Standard
 Information_Jpn=

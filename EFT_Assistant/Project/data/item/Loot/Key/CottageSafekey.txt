@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Shoreline
-Name_Jpn=Cottage safe key
-Information_Jpn=A key to the safe inside one of the cottages, located somewhere near the Azure Coast sanatorium.
+Name_Jpn=コテージの金庫の鍵
+Information_Jpn=保養所 "アズール・コースト" 近くにあるコテージの金庫の鍵。

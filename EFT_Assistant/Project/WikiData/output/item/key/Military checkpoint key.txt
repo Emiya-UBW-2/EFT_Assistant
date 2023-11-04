@@ -37,7 +37,7 @@ CENTER:&ref(Military checkpoint key-summary.webp);
 //===============================LIST
 |BGCOLOR(#D8F781):''トレーダー''|BGCOLOR(#D8F781):''トレーダーLV''|BGCOLOR(#D8F781):''必要なアイテム''|BGCOLOR(#D8F781):''入手できるアイテム''|BGCOLOR(#D8F781):''備考''|
 //
-|Jaeger|2|Tech manual x2 &br;Bottle of Tarkovskaya vodka x4 &br;Can of beef stew (Small) x2|Military checkpoint key x1||
+|Jaeger|2|Can of beef stew (Small) x2 &br;Tech manual x2 &br;Bottle of Tarkovskaya vodka x4|Military checkpoint key x1||
 //===============================LISTEND
 
 *タスク

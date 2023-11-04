@@ -8,5 +8,5 @@ height=2
 weight=0.450000
 fleaMarketFee=0
 propertiestype=ItemPropertiesHelmet
-Name_Jpn=Tac-Kek FAST MT helmet (replica)
+Name_Jpn=Tac-Kek FAST MT helmet (Replica)
 Information_Jpn=A lower protection class replica of the Ops-Core FAST MT Super High Cut Helmet from Tac-Kek. Features Ops-Core ARC Rails for attaching various components to the helmet.

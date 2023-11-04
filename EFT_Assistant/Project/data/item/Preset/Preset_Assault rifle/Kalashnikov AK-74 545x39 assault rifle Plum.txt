@@ -19,5 +19,5 @@ containsItems=[
 	AK-74 "Plum" polymer stock (6P20 Sb.7)x1/|
 	AK-74 5.45x39 6L23 "Plum" 30-round magazinex1
 ]
-Name_Jpn=Kalashnikov AK-74 5.45x39 assault rifle Plum
+Name_Jpn=AK-74 5.45x39 アサルトライフル Plum
 Information_Jpn=

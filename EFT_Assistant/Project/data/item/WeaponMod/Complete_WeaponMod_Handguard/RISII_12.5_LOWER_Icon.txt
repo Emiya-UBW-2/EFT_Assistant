@@ -55,7 +55,8 @@ ChildParts=[
 	Kiba Arms 25mm accessory ring mount/|
 	Insight WMX200 tactical flashlight/|
 	Olight Baldr Pro tactical flashlight with laser/|
-	Olight Baldr Pro tactical flashlight with laser (Tan)
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
+	MAWL-C1+ tactical device
 ]
 Recoil=-2.000000
 Ergonomics=5.000000

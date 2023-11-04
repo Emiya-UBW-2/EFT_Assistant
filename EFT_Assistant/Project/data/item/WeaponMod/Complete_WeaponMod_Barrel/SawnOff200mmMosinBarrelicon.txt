@@ -1,7 +1,7 @@
 IDstr=5bfd4cc90db834001d23e846
-Name=Mosin Rifle 7.62x54R sawn-off 200mm barrel
+Name=Mosin Rifle 7.62x54R sawed-off 200mm barrel
 ShortName=Mosin 200mm
-Information_Eng=A sawn-off 200mm barrel for the Mosin rifle.
+Information_Eng=A sawed-off 200mm barrel for the Mosin rifle.
 Itemtype=Barrel
 width=2
 height=1
@@ -20,5 +20,5 @@ Recoil=0.000000
 Ergonomics=-2.000000
 centerOfImpact=0.180000
 deviationMax=23
-Name_Jpn=Mosin Rifle 7.62x54R sawn-off 200mm barrel
-Information_Jpn=A sawn-off 200mm barrel for the Mosin rifle.
+Name_Jpn=Mosin Rifle 7.62x54R sawed-off 200mm barrel
+Information_Jpn=A sawed-off 200mm barrel for the Mosin rifle.

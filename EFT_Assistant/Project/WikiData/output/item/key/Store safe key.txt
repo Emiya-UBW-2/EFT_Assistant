@@ -1,4 +1,4 @@
-*Store safe key/Store safe key
+*Store safe key/店の金庫の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Store safe key-summary.webp);
 
 *概要
 //概要を記載
-A key to the safe inside one of the village stores, located somewhere near the Azure Coast sanatorium.
+保養所 "アズール・コースト" 近くの村にある商店の金庫の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -24,7 +24,7 @@ A key to the safe inside one of the village stores, located somewhere near the A
 **レイド内
 
 *使用場所
-村の店
+なし
 
 **入手できるもの
 //なければ無しと記載

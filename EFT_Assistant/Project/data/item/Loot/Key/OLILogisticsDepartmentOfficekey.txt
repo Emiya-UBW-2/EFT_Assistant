@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Interchange
-Name_Jpn=OLI logistics department office key
-Information_Jpn=A key to the OLI logistics department office at the ULTRA shopping mall.
+Name_Jpn=OLI 物流部事務室の鍵
+Information_Jpn=ショッピングモール "ULTRA" にある OLI の物流部事務室の鍵。

@@ -28,7 +28,8 @@ ChildParts=[
 	AN/PEQ-2 tactical device/|
 	LA-5B/PEQ tactical device/|
 	Wilcox RAPTAR ES Tactical Rangefinder/|
-	Zenit Perst-3 tactical device
+	Zenit Perst-3 tactical device/|
+	MAWL-C1+ tactical device
 ]
 ChildParts=[
 	Magpul M-LOK AFG tactical foregrip (Black)/|

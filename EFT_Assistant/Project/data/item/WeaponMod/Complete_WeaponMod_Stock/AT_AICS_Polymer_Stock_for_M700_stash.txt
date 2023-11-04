@@ -22,5 +22,5 @@ Conflict=[
 Recoil=-34.000000
 Ergonomics=38.000000
 accuracyModifier=0.060000
-Name_Jpn=M700 AT AICS polymer stock
+Name_Jpn=M700 AI AT AICS polymer chassis
 Information_Jpn=The AT AICS polymer chassis for the Remington M700 sniper rifle. Manufactured by Accuracy International.

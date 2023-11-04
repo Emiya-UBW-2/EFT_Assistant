@@ -1,0 +1,28 @@
+IDstr=5dc53acb86f77469c740c893
+Name=The Stylish One
+Trader=Ragman
+
+NeedTask=The Key to Success
+NeedTask=The Huntsman Path - Sellout
+NeedLevel=30
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Interchange
+factionName=Any
+Task_Map=Interchange
+Task_Kill=[
+	Interchange-Killax50
+]
+
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Killa
+	TaskOptional=false
+]
+
+Reward_SkillLevelUp=Charisma+1
+
+Reward_EXP=0

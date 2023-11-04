@@ -30,7 +30,8 @@ ChildParts=[
 	PP-19-01 "Vityaz" pistol grip/|
 	AK FAB Defense AGR-47 pistol grip/|
 	AK TangoDown Battle Grip pistol grip (FDE)/|
-	AK TangoDown Battle Grip pistol grip
+	AK TangoDown Battle Grip pistol grip/|
+	AK Mission First Tactical ENGAGE AK47 pistol grip
 ]
 ChildParts=[
 	AK-74M CAA AKTS AK74 buffer tube/|
@@ -67,12 +68,12 @@ ChildParts=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
 	BelOMO PK-AA dovetail reflex sight/|
 	OKP-7 reflex sight (Dovetail)/|
-	NPZ PK1 "Obzor" reflex sight/|
+	NPZ PK1 "Obzor" dovetail reflex sight/|
 	BelOMO PSO-1 4x24 scope/|
 	BelOMO PSO-1M2-1 4x24 scope/|
 	BelOMO PSO-1M2 4x24 scope/|
 	NPZ USP-1 "Tyulpan" 4x scope/|
-	NSPU-M night vision scope/|
+	NSPU-M 3.5x dovetail night vision scope/|
 	Axion Kobra dovetail mount/|
 	KMZ 1P59 dovetail mount/|
 	NPZ 1P78-1 dovetail mount/|

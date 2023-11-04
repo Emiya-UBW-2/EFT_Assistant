@@ -1,4 +1,4 @@
-*Police truck cabin key/Police truck cabin key
+*Police truck cabin key/護送車の車室の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Police truck cabin key-summary.webp);
 
 *概要
 //概要を記載
-A key that opens a cabin of the abandoned police transport truck.
+放置された警察の護送車の車室を開けるための鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -53,3 +53,4 @@ A key that opens a cabin of the abandoned police transport truck.
 
 *コメント
 //編集掲示板でzawazawaのコメントを作成するように依頼してください
+#zcomment(t=eft%2F510&amp;h=350&amp;size=10)

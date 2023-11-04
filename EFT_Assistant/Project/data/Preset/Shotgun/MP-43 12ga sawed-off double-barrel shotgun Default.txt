@@ -1,0 +1,3 @@
+Name=MP-43 12ga sawed-off double-barrel shotgun Default
+Base=MP-43 12ga sawed-off double-barrel shotgun
+Parts=MP-43 12ga sawed-off 310mm barrel

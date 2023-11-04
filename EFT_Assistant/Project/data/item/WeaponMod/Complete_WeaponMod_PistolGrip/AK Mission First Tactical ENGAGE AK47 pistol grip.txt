@@ -1,0 +1,15 @@
+IDstr=63f4da90f31d4a33b87bd054
+Name=AK Mission First Tactical ENGAGE AK47 pistol grip
+ShortName=MFT47
+Information_Eng=The ENGAGE AK47 pistol grip for AK-family automatic rifles and compatibles, manufactured by Mission First Tactical.
+Itemtype=Pistol grip
+width=1
+height=1
+weight=0.120000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=0.000000
+Ergonomics=8.000000
+accuracyModifier=0.000000
+Name_Jpn=AK Mission First Tactical ENGAGE AK47 pistol grip
+Information_Jpn=The ENGAGE AK47 pistol grip for AK-family automatic rifles and compatibles, manufactured by Mission First Tactical.

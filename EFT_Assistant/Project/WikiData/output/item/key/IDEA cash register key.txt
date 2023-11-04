@@ -1,4 +1,4 @@
-*IDEA cash register key/IDEA cash register key
+*IDEA cash register key/IDEA のレジの鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(IDEA cash register key-summary.webp);
 
 *概要
 //概要を記載
-A key to the IDEA store outlet cash registers at the ULTRA shopping mall.
+ショッピングモール "ULTRA" にある IDEA のキャッシュレジスターの鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する

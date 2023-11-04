@@ -1,0 +1,2 @@
+Name=Kaban Guard
+Color=[128/|192/|0]

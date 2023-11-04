@@ -1,0 +1,54 @@
+IDstr=5a27bb8386f7741c770d2d0a
+Name=Wet Job - Part 1
+Trader=Peacekeeper
+
+NeedTask=Spa Tour - Part 7
+NeedLevel=14
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Shoreline
+factionName=Any
+Task_Map=Shoreline
+Task_Kill=[
+	Shoreline-Scavsx10
+]
+NeedItem=[
+	ADAR 2-15 5.56x45 carbinex0/|
+	Colt M4A1 5.56x45 assault riflex0/|
+	Lone Star TX-15 DML 5.56x45 carbinex0
+]
+NeedItem=[
+	SureFire SOCOM556-MONSTER 5.56x45 sound suppressorx0/|
+	SilencerCo Hybrid 46 multi-caliber sound suppressorx0/|
+	SureFire SOCOM556-MINI MONSTER 5.56x45 sound suppressorx0/|
+	Gemtech ONE multi-caliber sound suppressorx0/|
+	KAC QDSS NT-4 5.56x45 sound suppressor (Black)x0/|
+	KAC QDSS NT-4 5.56x45 sound suppressor (FDE)x0/|
+	Rotor 43 5.56x45 muzzle brake-compensatorx0/|
+	AAC 762-SDN-6 multi-caliber sound suppressorx0/|
+	AR-15 Daniel Defense WAVE 5.56x45 muzzle brakex0/|
+	AR-15 SureFire SF4P 5.56x45 flash hiderx0/|
+	SureFire SOCOM556-RC2 5.56x45 sound suppressorx0/|
+	Thunder Beast Arms Ultra 5 sound suppressorx0/|
+	SilencerCo Saker ASR 556 5.56x45 sound suppressorx0/|
+	KAC QDC 5.56x45 sound suppressorx0/|
+	AR-15 Griffin Armament M4SD-K 5.56x45 sound suppressorx0/|
+	AWC Thor PSR XL multi-caliber sound suppressorx0
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs while using a suppressed M4A1, ADAR, or TX-15 on Shoreline
+	TaskOptional=false
+]
+
+Reward_Rep=Peacekeeper+4
+Reward_Item=[
+	Dollarsx1100/|
+	Secure magnetic tape cassettex2
+]
+
+Reward_EXP=11400

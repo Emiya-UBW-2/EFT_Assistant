@@ -1,5 +1,6 @@
 #pragma once
 #include"../../../Header.hpp"
+#include "../Data/MainScene_Parents.hpp"
 
 namespace FPS_n2 {
 	//Map

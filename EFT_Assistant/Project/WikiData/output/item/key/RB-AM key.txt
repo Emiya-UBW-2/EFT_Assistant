@@ -1,4 +1,4 @@
-*RB-AM key/RB-AMの鍵
+*RB-AM key/RB-AM の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(RB-AM key-summary.webp);
 
 *概要
 //概要を記載
-A key to the Federal State Reserve Agency base Educational Building workshop.
+連邦国家準備局の基地内にある教育棟の作業室の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -59,3 +59,4 @@ A key to the Federal State Reserve Agency base Educational Building workshop.
 
 *コメント
 //編集掲示板でzawazawaのコメントを作成するように依頼してください
+#zcomment(t=eft%2F544&amp;h=350&amp;size=10)

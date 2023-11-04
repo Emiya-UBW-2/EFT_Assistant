@@ -1,4 +1,4 @@
-*Water treatment plant storage room key/Water treatment plant storage room key
+*Water treatment plant storage room key/浄水場の保管室の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Water treatment plant storage room key-summary.webp);
 
 *概要
 //概要を記載
-A key that opens the storage room, located somewhere at the water treatment plant.
+浄水場のどこかにある保管室に入るための鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -54,5 +54,5 @@ A key that opens the storage room, located somewhere at the water treatment plan
 //拡張子はjpgかpngかwebp
 
 *コメント
-#pcomment(*Water treatment plant storage room key,10,noname,below,reply)
+#zcomment(t=eft%2F515&amp;h=350&amp;size=10)
 

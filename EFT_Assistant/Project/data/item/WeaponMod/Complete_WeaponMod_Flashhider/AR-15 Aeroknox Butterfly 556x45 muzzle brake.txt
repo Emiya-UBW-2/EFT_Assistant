@@ -1,0 +1,15 @@
+IDstr=6405ff6bd4578826ec3e377a
+Name=AR-15 Aeroknox Butterfly 5.56x45 muzzle brake
+ShortName=Aeroknox
+Information_Eng=The Butterfly muzzle brake designed for 5.56x45 caliber barrels. Reduces recoil and barrel rise. Manufactured by Aeroknox.
+Itemtype=Flashhider
+width=1
+height=1
+weight=0.070000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=-9.500000
+Ergonomics=-1.500000
+accuracyModifier=0.040000
+Name_Jpn=AR-15 Aeroknox Butterfly 5.56x45 muzzle brake
+Information_Jpn=The Butterfly muzzle brake designed for 5.56x45 caliber barrels. Reduces recoil and barrel rise. Manufactured by Aeroknox.

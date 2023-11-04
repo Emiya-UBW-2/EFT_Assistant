@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Interchange
-Name_Jpn=Power substation utility cabin key
-Information_Jpn=A key to the power substation utility cabin adjacent to the ULTRA shopping mall.
+Name_Jpn=変電所の作業小屋の鍵
+Information_Jpn=ショッピングモール "ULTRA" に隣接する変電所にある仮設の作業小屋の鍵。

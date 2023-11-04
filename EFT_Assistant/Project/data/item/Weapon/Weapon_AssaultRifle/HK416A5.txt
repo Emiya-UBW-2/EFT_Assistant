@@ -34,7 +34,8 @@ ChildParts=[
 	AR-15 Stark AR Rifle Grip (Black)/|
 	AR-15 Stark AR Rifle Grip (FDE)/|
 	AR-15 Tactical Dynamics Hexgrip pistol grip/|
-	AR-15 Tactical Dynamics Skeletonized pistol grip
+	AR-15 Tactical Dynamics Skeletonized pistol grip/|
+	AR-15 Aeroknox Orion pistol grip
 ]
 ChildParts=[
 	5.56x45 Colt AR-15 STANAG 30-round magazine/|
@@ -72,7 +73,7 @@ ChildParts=[
 	AR-15 ADAR 2-15 charging handle/|
 	AR-15 Badger Ordnance Tactical Charging Handle Latch/|
 	AR-15 Colt charging handle/|
-	AR-15 Geissele ACH charging handle/|
+	AR-15 Geissele ACH charging handle (DDC)/|
 	AR-15 HK Extended Latch charging handle/|
 	AR-15 MASP Industries Ambidextrous Battle Charging Handle/|
 	AR-15 Radian Weapons Raptor charging handle/|
@@ -92,5 +93,5 @@ cameraRecoil=0.076800
 cameraSnap=3.000000
 deviationMax=23
 convergence=1.500000
-Name_Jpn=HK 416A5 5.56x45 assault rifle
-Information_Jpn=The HK416 A5 is a further development of the HK416 assault rifle in 5.56x45mm NATO caliber. The most striking changes compared to its previous versions as well as to market available AR platforms include an improved and tool-less gas regulator for suppressor use, a redesigned, user-friendly lower receiver, which allows complete ambidextrous operation of the weapon and ensures optimised magazine compatibility. Additionally, numerous technical improvements to maximize the safety of the operator, weapon reliability, ammunition compatibility, and durability under real operating conditions.
+Name_Jpn=HK 416A5 5.56x45 アサルトライフル
+Information_Jpn=HK416 A5 は、5.56x45mm NATO 弾薬を使ものだ用する HK416 アサルトライフルをさらに改良したものだ。従来のアサルトライフル規格と比較して、最も目立つ変更点には、消音器用の改良されたツール不要のガス圧力調整器、利便性が向上したロアレシーバーが含まれているだけでなく、左右両方の利き手での操作を可能にし、マガジンの互換性も確保している。さらに、使用者の安全性、信頼性、弾薬の互換性、および実際の運用状況での耐久性を最大限に向上させるための多数の技術的な改良が行われている。

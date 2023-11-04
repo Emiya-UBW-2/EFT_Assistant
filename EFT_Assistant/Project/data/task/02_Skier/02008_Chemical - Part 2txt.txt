@@ -1,0 +1,51 @@
+IDstr=597a0b2986f77426d66c0633
+Name=Chemical - Part 2
+Trader=Skier
+
+NeedTask=Chemical - Part 1
+NeedLevel=10
+NeedItem=[Dorm room 220 keyx1]
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Customs
+factionName=Any
+Task_Map=Customs
+Task_Else=拾って納品:Customs-Sliderkey Secure Flash drivex1
+Task_Map=Customs
+Task_Else=拾って納品:Customs-Sealed letter with a TG logox1
+
+[
+	TaskType=findQuestItem
+	TaskText=Find any evidence that could help with the investigation on Customs
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the evidence
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Find any information that could help with the investigation on Customs
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the info
+	TaskOptional=false
+]
+
+Reward_Item=[
+	Dorm room 220 keyx1
+]
+Reward_Rep=Skier+4
+Reward_Item=[
+	Roublesx15000/|
+	F-1 hand grenadex3/|
+	TP-200 TNT brickx2
+]
+
+Reward_EXP=4800

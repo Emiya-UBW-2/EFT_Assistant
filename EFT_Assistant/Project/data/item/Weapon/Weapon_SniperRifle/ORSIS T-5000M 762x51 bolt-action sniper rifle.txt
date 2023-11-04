@@ -12,7 +12,7 @@ ChildParts=[
 	ORSIS T-5000M 7.62x51 5-round magazine
 ]
 ChildParts=[
-	T-5000M 7.62x51 660mm barrel
+	ORSIS T-5000M 7.62x51 660mm barrel
 ]
 ChildParts=[
 	ORSIS T-5000M aluminium body

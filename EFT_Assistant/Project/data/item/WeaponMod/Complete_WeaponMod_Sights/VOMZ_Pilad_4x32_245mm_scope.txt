@@ -32,7 +32,9 @@ Conflict=[
 	Magpul MBUS Gen2 flip-up rear sight (FDE)/|
 	MCX flip-up rear sight/|
 	MPX flip-up rear sight/|
-	Aimpoint LRP mount for CompM4 sights
+	ELCAN Specter HCO holographic sight/|
+	Leapers UTG reflex sight/|
+	SIG Sauer ROMEO7 1x30 reflex sight (prototype)
 ]
 Recoil=0.000000
 Ergonomics=-4.000000

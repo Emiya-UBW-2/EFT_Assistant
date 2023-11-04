@@ -1,0 +1,3 @@
+Name_Jpn="Obdolbos N" cocktail injector
+Information_Jpn=A syringe with a makeshift drug made by a former employee of TerraGroup Labs. The negative effects are different every time. The N mark on the syringe suggests that it is better not to take risks and not to test it.
+Itemtype=Medical supplies

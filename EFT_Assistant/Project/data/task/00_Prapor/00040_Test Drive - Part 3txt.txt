@@ -1,0 +1,40 @@
+IDstr=64f5deac39e45b527a7c4232
+Name=Test Drive - Part 3
+Trader=Prapor
+
+NeedTask=Test Drive - Part 2
+NeedLevel=30
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Lighthouse
+factionName=Any
+Task_Map=Lighthouse
+Task_Kill=[
+	Lighthouse-any PMC operativesx20
+]
+NeedItem=[
+	Kalashnikov AK-12 5.45x39 assault riflex0
+]
+NeedItem=[
+	AK-12 5.45x39 sound suppressorx0/|
+	Valday PS-320 1/6x scopex0
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives while using an AK-12 with a suppressor and Valday PS-320 1/6x scope on Lighthouse
+	TaskOptional=false
+]
+
+Reward_Rep=Prapor+2
+Reward_Item=[
+	Roublesx400000/|
+	RPK-16 5.45x39 light machine gun Defaultx1/|
+	AK-74 5.45x39 6L31 60-round magazinex4/|
+	5.45x39mm 7N40 ammo pack (30 pcs)x8
+]
+
+Reward_EXP=35300

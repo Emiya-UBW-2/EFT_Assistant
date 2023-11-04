@@ -25,13 +25,15 @@ ChildParts=[
 	DeltaPoint Cross Slot Mount base/|
 	SIG Sauer ROMEO sight mount/|
 	Trijicon RMR high profile mount/|
-	Trijicon RMR low profile mount
+	Trijicon RMR low profile mount/|
+	ELCAN Specter HCO holographic sight/|
+	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope
 ]
 Conflict=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
 	OKP-7 reflex sight (Dovetail)/|
 	BelOMO PSO-1M2-1 4x24 scope/|
-	NSPU-M night vision scope/|
+	NSPU-M 3.5x dovetail night vision scope/|
 	Zenit B-13 "Klassika" dovetail rail platform/|
 	Zenit B-13V "Klassika" dovetail rail platform/|
 	AK Zenit B-33 dust cover

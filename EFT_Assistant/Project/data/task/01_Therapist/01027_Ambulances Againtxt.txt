@@ -1,0 +1,44 @@
+IDstr=64f3176921045e77405d63b5
+Name=Ambulances Again
+Trader=Therapist
+
+NeedTask=Cease Fire!
+NeedTask=Urban Medicine
+NeedLevel=17
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+factionName=Any
+Task_Map=Streets of Tarkov
+Task_Else=拾って納品:Streets of Tarkov-Paramedic's GPhone Xx1
+Task_Map=Streets of Tarkov
+Task_Else=脱出ステータス:[Survived,Run Through]
+Task_Else=脱出地点:Primorsky Ave Taxi V-Ex
+
+[
+	TaskType=findQuestItem
+	TaskText=Locate and obtain the ambulance paramedic's smartphone on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Extract from Streets of Tarkov through Primorsky Ave Taxi V-Ex
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the smartphone
+	TaskOptional=false
+]
+
+Reward_Rep=Therapist+1
+Reward_Item=[
+	Roublesx100000/|
+	Grizzly medical kitx2/|
+	Surv12 field surgical kitx2
+]
+
+Reward_EXP=12000

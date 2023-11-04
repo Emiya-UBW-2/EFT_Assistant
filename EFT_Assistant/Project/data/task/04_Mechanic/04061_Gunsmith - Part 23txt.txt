@@ -1,0 +1,40 @@
+IDstr=64f83bb69878a0569d6ecfbe
+Name=Gunsmith - Part 23
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 22
+NeedLevel=39
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+NeedItem=CMMG Mk47 Mutant 7.62x39 assault riflex1
+ContainsAll=AR-10 Noveske SWS N6 Split handguard
+ContainsAll=Vortex Razor AMG UH-1 holographic sight
+ContainsAll=Glock GTL 21 tactical flashlight with laser
+Task_Else=accuracy >= 0
+Task_Else=durability >= 60
+Task_Else=effectiveDistance >= 300
+Task_Else=ergonomics >= 30
+Task_Else=height >= 0
+Task_Else=magazineCapacity >= 73
+Task_Else=muzzleVelocity >= 0
+Task_Else=recoil <= 300
+Task_Else=weight >= 0
+Task_Else=width >= 0
+
+[
+	TaskType=buildWeapon
+	TaskText=Modify a CMMG Mk47 Mutant to comply with the given specifications
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+3
+Reward_Item=[
+	Eurosx1300/|
+	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scopex1
+]
+
+Reward_EXP=29500

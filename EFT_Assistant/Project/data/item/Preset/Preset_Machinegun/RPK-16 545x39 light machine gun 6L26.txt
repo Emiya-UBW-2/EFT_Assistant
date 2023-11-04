@@ -1,0 +1,26 @@
+IDstr=rpk166L26000000000000001
+Name=RPK-16 5.45x39 light machine gun 6L26
+ShortName=RPK-16 6L26
+Itemtype=Machinegun
+width=6
+height=3
+weight=3.427000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	RPK-16 5.45x39 light machine gunx1/|
+	AK-12 pistol gripx1/|
+	RPK-16 dust coverx1/|
+	RPK-16 rear sight basex1/|
+	RPK-16 rear sightx1/|
+	RPK-16 buffer tubex1/|
+	AK-12 stockx1/|
+	RPK-16 handguardx1/|
+	RPK-16 handguard railx2/|
+	RPK-16 5.45x39 22 inch barrelx1/|
+	RPK-16 5.45x39 muzzle brake-compensatorx1/|
+	AK-74 5.45x39 6L26 45-round magazinex1
+]
+Name_Jpn=RPK-16 5.45×39 ライトマシンガン 6L26
+Information_Jpn=

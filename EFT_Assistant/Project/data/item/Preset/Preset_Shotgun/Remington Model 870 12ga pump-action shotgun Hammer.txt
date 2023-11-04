@@ -10,7 +10,7 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	Remington Model 870 12ga pump-action shotgunx1/|
-	M870 12ga sawn-off 325mm barrelx1/|
+	M870 12ga sawed-off 325mm barrelx1/|
 	M870 SpeedFeed Short handguardx1/|
 	M870 12ga 4-shell magazine capx1/|
 	M870 FAB Defense AGR-870 pistol gripx1/|

@@ -9,5 +9,5 @@ weight=0.120000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
-Name_Jpn=Missam forklift key
-Information_Jpn=A Missam forklift key. The name of the former owner is written on the ribbon.
+Name_Jpn=Missam のフォークリフトの鍵
+Information_Jpn=Missam のフォークリフトの鍵。ストラップに前の持ち主の名前が書かれている。

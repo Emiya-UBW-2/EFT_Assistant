@@ -1,4 +1,4 @@
-*Car dealership director's office room key/Car dealership director's office room key
+*Car dealership director's office room key/カーディーラーの役員室の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Car dealership director's office room key-summary.webp);
 
 *概要
 //概要を記載
-A key to one of the offices in the LexOs car dealership.
+LexOs のディーラー内にある役員室の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する

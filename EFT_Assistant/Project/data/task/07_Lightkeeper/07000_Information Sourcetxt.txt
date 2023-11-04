@@ -1,0 +1,66 @@
+IDstr=63966faeea19ac7ed845db2c
+Name=Information Source
+Trader=Lightkeeper
+
+NeedTask=Knock-Knock
+NeedLevel=35
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_Map=Woods
+Task_Else=脱出ステータス:[Survived]
+Task_Else=脱出地点:Bridge V-Ex
+Task_Map=Customs
+Task_Else=脱出ステータス:[Survived]
+Task_Else=脱出地点:Dorms V-Ex
+Task_Map=Interchange
+Task_Else=脱出ステータス:[Survived]
+Task_Else=脱出地点:Power Station V-Ex
+Task_Map=Streets of Tarkov
+Task_Else=脱出ステータス:[Survived]
+Task_Else=脱出地点:Primorsky Ave Taxi V-Ex
+Task_Map=Streets of Tarkov
+NeedItem=MS2000 Markerx1
+Task_Map=Streets of Tarkov
+NeedItem=MS2000 Markerx1
+
+[
+	TaskType=extract
+	TaskText=Survive and extract from Woods through Bridge V-Ex
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from Customs through Dorms V-Ex
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from Interchange through Power Station V-Ex
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from Streets of Tarkov through Primorsky Ave Taxi V-Ex
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Locate and mark the first Patrol-A armored vehicle with an MS2000 Marker on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Locate and mark the second Patrol-A armored vehicle with an MS2000 Marker on Streets of Tarkov
+	TaskOptional=false
+]
+
+Reward_Rep=Lightkeeper+1
+Reward_Item=[
+	Advanced Electronic Materials textbookx1
+]
+
+Reward_EXP=0

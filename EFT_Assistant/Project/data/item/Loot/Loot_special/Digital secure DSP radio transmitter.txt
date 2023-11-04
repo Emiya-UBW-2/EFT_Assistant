@@ -8,5 +8,5 @@ height=1
 weight=0.170000
 fleaMarketFee=0
 propertiestype=
-Name_Jpn=Digital secure DSP radio transmitter
-Information_Jpn=A special digital radio transmitter for user status identification system.
+Name_Jpn=暗号化機能付 DSP 無線送信機
+Information_Jpn=所有者の身元を識別するための特殊なデジタル無線送信機。

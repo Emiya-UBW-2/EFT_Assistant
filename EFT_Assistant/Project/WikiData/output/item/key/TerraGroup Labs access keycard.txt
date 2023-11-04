@@ -23,8 +23,8 @@ United Securityが発行したTerraGroup Labsに入るためのキーカード。一度しか使用でき
 *鍵の入手方法
 **レイド内
 //-オブジェクト
-//--[[Drawer]]
-//--[[Jacket]]
+[[Drawer]]
+[[Jacket]]
 
 
 **トレード
@@ -33,7 +33,7 @@ United Securityが発行したTerraGroup Labsに入るためのキーカード。一度しか使用でき
 |BGCOLOR(#D8F781):''トレーダー''|BGCOLOR(#D8F781):''トレーダーLV''|BGCOLOR(#D8F781):''必要なアイテム''|BGCOLOR(#D8F781):''入手できるアイテム''|BGCOLOR(#D8F781):''備考''|
 //
 |Mechanic|4|GP coin x10|TerraGroup Labs access keycard x1||
-|Mechanic|3|Bulbex cable cutter x1 &br;Pipe grip wrench x1 &br;Pliers Elite x4|TerraGroup Labs access keycard x1||
+|Mechanic|3|Pliers Elite x4 &br;Pipe grip wrench x1 &br;Bulbex cable cutter x1|TerraGroup Labs access keycard x1||
 |Therapist|4|Roubles x166500|TerraGroup Labs access keycard x1||
 //===============================LISTEND
 
@@ -64,3 +64,4 @@ United Securityが発行したTerraGroup Labsに入るためのキーカード。一度しか使用でき
 
 *コメント
 //編集掲示板でzawazawaのコメントを作成するように依頼してください
+#zcomment(t=eft%2F517&amp;h=350&amp;size=10)

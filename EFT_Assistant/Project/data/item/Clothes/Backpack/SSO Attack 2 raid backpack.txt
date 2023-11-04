@@ -9,4 +9,4 @@ weight=2.800000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
 Name_Jpn=SSO "Attack-2" レイドバックパック
-Information_Jpn=The 60-liter "Attack 2" raid backpack is intended for carrying personal belongings and equipment through tough field conditions.
+Information_Jpn=60Lサイズの "Attack-2" レイドバックパックは、過酷な環境下で個人携行品及び装備等を持ち歩くために使用される。

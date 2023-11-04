@@ -1,0 +1,41 @@
+IDstr=643ea5b23db6f9f57107d9fd
+Name=Tokarev SVT-40 7.62x54R rifle
+ShortName=SVT-40
+Information_Eng=The SVT-40 was the only mass-produced personal weapon in the early years of WW2, before the mass production of submachine guns began. The soldiers affectionately called this rifle "Sveta". When "Sveta" went to the troops, it turned out that not all Red Army soldiers were able to truly master this weapon. The SVT was best used by marine infantry units and snipers. The production of SVT-40 continued until the end of the war, and this semi-automatic rifle made an important contribution to the overall victory.
+Itemtype=Assault carbine
+width=2
+height=1
+weight=1.075000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeapon
+ChildParts=[
+	AVT-40 wooden stock 
+]
+ChildParts=[
+	SVT-40 7.62x54R 625mm barrel
+]
+ChildParts=[
+	AVT-40 7.62x54R 15-round magazine/|
+	SVT-40 7.62x54R 10-round magazine
+]
+ChildParts=[
+	SVT dust cover 
+]
+ChildParts=[
+	SVT-40 Tokarev PU mount
+]
+Recoil=175.000000
+RecoilHorizontal=750.000000
+Ergonomics=20.000000
+SightRange=-100
+FireRate=50
+centerOfImpact=0.000000
+deviationCurve=1.350000
+recoilDispersion=20
+recoilAngle=90
+cameraRecoil=0.103600
+cameraSnap=3.500000
+deviationMax=23
+convergence=1.250000
+Name_Jpn=Tokarev SVT-40 7.62x54R rifle
+Information_Jpn=The SVT-40 was the only mass-produced personal weapon in the early years of WW2, before the mass production of submachine guns began. The soldiers affectionately called this rifle "Sveta". When "Sveta" went to the troops, it turned out that not all Red Army soldiers were able to truly master this weapon. The SVT was best used by marine infantry units and snipers. The production of SVT-40 continued until the end of the war, and this semi-automatic rifle made an important contribution to the overall victory.

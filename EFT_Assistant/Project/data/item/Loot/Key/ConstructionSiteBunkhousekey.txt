@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Streets of Tarkov
-Name_Jpn=Construction site bunkhouse key
-Information_Jpn=A key to the locked bunkhouse at the city construction site.
+Name_Jpn=建設現場の寝床の鍵
+Information_Jpn=中心街の建設現場にある施錠された寝床の鍵。

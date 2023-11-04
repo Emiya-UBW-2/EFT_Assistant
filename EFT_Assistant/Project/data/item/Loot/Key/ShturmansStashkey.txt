@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=1
 Map=Woods
-Name_Jpn=Shturman's stash key
-Information_Jpn=The Svetloozersk gang's common fund stash key, usually kept by Shturman. The key looks very flimsy, it could break from even a single use.
+Name_Jpn=Shturman の保管庫の鍵
+Information_Jpn=スヴェトローゼルスク・ギャングの隠し保管庫の鍵。普段は Shturman が持っている。薄く脆そうな作りで一度使っただけでも壊れてしまいそうだ。

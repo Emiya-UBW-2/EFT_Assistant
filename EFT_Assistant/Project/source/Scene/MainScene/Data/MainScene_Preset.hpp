@@ -1,5 +1,8 @@
 #pragma once
 #include"../../../Header.hpp"
+#include "../Data/MainScene_Common.hpp"
+#include "../Page/MainScene_PageBase.hpp"
+#include "MainScene_Item.hpp"
 
 namespace FPS_n2 {
 	class PresetList : public ListParent<PresetID> {

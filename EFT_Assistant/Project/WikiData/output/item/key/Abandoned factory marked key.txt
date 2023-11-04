@@ -1,4 +1,4 @@
-*Abandoned factory marked key/Abandoned factory marked key
+*Abandoned factory marked key/マークの刻まれた廃工場の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Abandoned factory marked key-summary.webp);
 
 *概要
 //概要を記載
-A mysterious key to an unknown door at the abandoned city factory. There is a strange symbol scratched onto it.
+廃墟と化した町工場の中にあるという謎めいた開かずの扉の鍵。奇妙なマークが刻まれている。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する

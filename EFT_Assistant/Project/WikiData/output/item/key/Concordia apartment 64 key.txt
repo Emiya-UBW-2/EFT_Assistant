@@ -1,4 +1,4 @@
-*Concordia apartment 64 key/Concordia apartment 64 key
+*Concordia apartment 64 key/コンコルディア・アパート 64号室の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,15 +7,15 @@ CENTER:&ref(Concordia apartment 64 key-summary.webp);
 
 *概要
 //概要を記載
-A key to the premium apartment inside the Concordia building.
+コンコルディア・ビル内にある集合住宅の64号室の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
 
 //命名規則
 //「短縮名-icon.webp」スペースはアンダーバー「_｣
-|CENTER:BGCOLOR(#D8F781):アイコン|CENTER:&ref(Concd 64-icon.webp);|
-|CENTER:BGCOLOR(#D8F781):短縮名|Concd 64|
+|CENTER:BGCOLOR(#D8F781):アイコン|CENTER:&ref(Conc 64-icon.webp);|
+|CENTER:BGCOLOR(#D8F781):短縮名|Conc 64|
 |CENTER:BGCOLOR(#D8F781):重量|0.010kg|
 |CENTER:BGCOLOR(#D8F781):サイズ|1x1|
 |CENTER:BGCOLOR(#D8F781):使用回数|40|

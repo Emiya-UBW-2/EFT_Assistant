@@ -1,0 +1,36 @@
+IDstr=64f6aafd67e11a7c6206e0d0
+Name=Beyond the Red Meat - Part 2
+Trader=Skier
+
+NeedTask=Beyond the Red Meat - Part 1
+NeedLevel=22
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+factionName=Any
+Task_Map=Streets of Tarkov
+Task_Else=拾って納品:Streets of Tarkov-Secret componentx1
+
+[
+	TaskType=findQuestItem
+	TaskText=Locate and obtain the secret ingredient at the TerraGroup office on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the chemical additive
+	TaskOptional=false
+]
+
+Reward_Rep=Skier+3
+Reward_Item=[
+	Roublesx120000/|
+	SIG MCX .300 Blackout assault rifle Defaultx1/|
+	5.56x45 Colt AR-15 STANAG 30-round magazinex3/|
+	.300 Blackout CBJx120
+]
+
+Reward_EXP=21300

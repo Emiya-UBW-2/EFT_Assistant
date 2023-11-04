@@ -16,18 +16,18 @@ ChildParts=[
 	PB 9x18PM sound suppressor
 ]
 ChildParts=[
-	PB bakilte side grips
+	PB bakelite side grips
 ]
-Recoil=387.000000
+Recoil=455.000000
 RecoilHorizontal=260.000000
 Ergonomics=80.000000
 SightRange=-100
 FireRate=30
 centerOfImpact=0.300000
 deviationCurve=2.250000
-recoilDispersion=13
+recoilDispersion=20
 recoilAngle=85
-cameraRecoil=0.007200
+cameraRecoil=0.012000
 cameraSnap=3.500000
 deviationMax=11
 convergence=5.000000

@@ -1,4 +1,4 @@
-*OLI cash register key/OLI cash register key
+*OLI cash register key/OLI のレジの鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(OLI cash register key-summary.webp);
 
 *概要
 //概要を記載
-A key to the OLI store outlet cash registers at the ULTRA shopping mall.
+ショッピングモール "ULTRA" にある OLI のキャッシュレジスターの鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する

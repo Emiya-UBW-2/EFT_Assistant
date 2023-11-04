@@ -22,5 +22,5 @@ containsItems=[
 	AR-15 HK Slim Line buttstockx1/|
 	AR-15 HK Extended Latch charging handlex1
 ]
-Name_Jpn=HK 416A5 5.56x45 assault rifle デフォルト
+Name_Jpn=HK 416A5 5.56x45 アサルトライフル デフォルト
 Information_Jpn=

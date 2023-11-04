@@ -30,6 +30,9 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)
 ]
+Conflict=[
+	SilencerCo Hybrid 46 multi-caliber sound suppressor
+]
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000

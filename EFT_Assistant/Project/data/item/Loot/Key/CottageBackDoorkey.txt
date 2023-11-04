@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Shoreline
-Name_Jpn=Cottage back door key
-Information_Jpn=A key to the back door to one of the cottages, located somewhere near the Azure Coast sanatorium.
+Name_Jpn=コテージの裏口の鍵
+Information_Jpn=保養所 "アズール・コースト" 近くにあるコテージの裏口の鍵。

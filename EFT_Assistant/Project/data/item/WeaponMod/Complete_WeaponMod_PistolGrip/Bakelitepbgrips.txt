@@ -1,5 +1,5 @@
 IDstr=56e05a6ed2720bd0748b4567
-Name=PB bakilte side grips
+Name=PB bakelite side grips
 ShortName=PB bak.
 Information_Eng=Standard-issue bakelite side grip panels for the PB pistol, manufactured by TsNIITochMash.
 Itemtype=Pistol grip
@@ -11,5 +11,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=5.000000
 accuracyModifier=0.000000
-Name_Jpn=PB bakilte side grips
+Name_Jpn=PB bakelite side grips
 Information_Jpn=Standard-issue bakelite side grip panels for the PB pistol, manufactured by TsNIITochMash.

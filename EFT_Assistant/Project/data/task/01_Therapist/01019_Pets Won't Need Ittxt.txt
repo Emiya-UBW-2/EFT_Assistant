@@ -1,0 +1,47 @@
+IDstr=64f731ab83cfca080a361e42
+Name=Pets Won't Need It
+Trader=Therapist
+
+NeedTask=Population Census
+NeedLevel=12
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+factionName=Any
+Task_Map=Streets of Tarkov
+Task_Else=TaskType:visit
+Task_Else=Locate and scout the vet clinic on Streets of Tarkov
+Task_Map=Streets of Tarkov
+Task_Else=TaskType:visit
+Task_Else=Locate and scout the x-ray technician's room on Streets of Tarkov
+Task_Map=Streets of Tarkov
+Task_Else=脱出ステータス:[Survived]
+
+[
+	TaskType=visit
+	TaskText=Locate and scout the vet clinic on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate and scout the x-ray technician's room on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Therapist+1
+Reward_Item=[
+	Roublesx43000/|
+	Adrenaline injectorx4/|
+	Medical bloodsetx2/|
+	Bottle of saline solutionx2
+]
+
+Reward_EXP=8100

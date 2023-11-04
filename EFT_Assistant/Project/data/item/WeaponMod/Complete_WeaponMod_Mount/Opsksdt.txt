@@ -16,11 +16,12 @@ ChildParts=[
 	BelOMO PSO-1M2-1 4x24 scope/|
 	BelOMO PSO-1M2 4x24 scope/|
 	NPZ USP-1 "Tyulpan" 4x scope/|
-	NSPU-M night vision scope/|
+	NSPU-M 3.5x dovetail night vision scope/|
 	Axion Kobra dovetail mount/|
 	NPZ 1P78-1 dovetail mount/|
 	VOMZ Pilad 043-02 dovetail mount/|
-	SAG Bit low profile dovetail sidemount
+	SAG Bit low profile dovetail sidemount/|
+	SAG AK dovetail sidemount
 ]
 Recoil=0.000000
 Ergonomics=-1.000000

@@ -1,4 +1,4 @@
-*Primorsky Ave apartment key/Primorsky Ave apartment key
+*Primorsky Ave apartment key/プリモルスキー通りの賃貸住宅の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Primorsky Ave apartment key-summary.webp);
 
 *概要
 //概要を記載
-Choreographer key at Primorsky 48.
+プリモルスキー通り48番地に住んでいる振付師の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する

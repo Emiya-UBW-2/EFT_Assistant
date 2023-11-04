@@ -23,7 +23,8 @@ ChildParts=[
 	Daniel Defense 25mm accessory ring mount/|
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
-	Insight WMX200 tactical flashlight
+	Insight WMX200 tactical flashlight/|
+	MAWL-C1+ tactical device
 ]
 Conflict=[
 	M700 7.62x51 AI AICS 10-round magazine/|

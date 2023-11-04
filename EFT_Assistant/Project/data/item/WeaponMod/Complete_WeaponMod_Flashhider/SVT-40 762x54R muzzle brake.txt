@@ -1,0 +1,18 @@
+IDstr=64119d1f2c6d6f921a0929f8
+Name=SVT-40 7.62x54R muzzle brake
+ShortName=SVT
+Information_Eng=A standard-issue muzzle brake for the SVT rifle.
+Itemtype=Flashhider
+width=2
+height=1
+weight=0.070000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	SVT-40 front sight
+]
+Recoil=-10.000000
+Ergonomics=-1.000000
+accuracyModifier=0.000000
+Name_Jpn=SVT-40 7.62x54R muzzle brake
+Information_Jpn=A standard-issue muzzle brake for the SVT rifle.

@@ -1,4 +1,4 @@
-*RB-PSV2 key/RB-PSV2 key
+*RB-PSV2 key/RB-PSV2 の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(RB-PSV2 key-summary.webp);
 
 *概要
 //概要を記載
-A key to one of the iron mesh doors in the Federal State Reserve Agency base underground supply warehouse.
+連邦国家準備局の基地内にある地下補給倉庫の鉄網扉を開けるための鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -64,3 +64,4 @@ A key to one of the iron mesh doors in the Federal State Reserve Agency base und
 
 *コメント
 //編集掲示板でzawazawaのコメントを作成するように依頼してください
+#zcomment(t=eft%2F556&amp;h=350&amp;size=10)

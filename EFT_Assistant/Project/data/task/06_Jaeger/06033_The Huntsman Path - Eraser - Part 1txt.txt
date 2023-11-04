@@ -1,0 +1,32 @@
+IDstr=5d25e44f86f77443e625e385
+Name=The Huntsman Path - Eraser - Part 1
+Trader=Jaeger
+
+NeedTask=Pest Control
+NeedLevel=20
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Reserve
+factionName=Any
+Task_Map=Reserve
+Task_Kill=[
+	Reserve-Glukharx1
+]
+
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Glukhar
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+2
+Reward_Item=[
+	Roublesx200000/|
+	Dollarsx5000/|
+	Weapon casex1
+]
+
+Reward_EXP=18300

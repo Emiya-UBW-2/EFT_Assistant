@@ -1,0 +1,65 @@
+IDstr=64f1cc571a5f313cb144bf90
+Name=Overseas Trust - Part 1
+Trader=Lightkeeper
+
+NeedTask=Trouble in the Big City
+NeedLevel=35
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_Kill=[
+	Reshalax15
+]
+Task_Kill=[
+	Glukharx15
+]
+Task_Kill=[
+	Killax15
+]
+Task_Kill=[
+	Shturmanx15
+]
+Task_Kill=[
+	Sanitarx15
+]
+Task_Kill=[
+	Tagillax15
+]
+
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Reshala
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Glukhar
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Killa
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Shturman
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Sanitar
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Tagilla
+	TaskOptional=false
+]
+
+Reward_Rep=Lightkeeper+5
+
+Reward_EXP=100000

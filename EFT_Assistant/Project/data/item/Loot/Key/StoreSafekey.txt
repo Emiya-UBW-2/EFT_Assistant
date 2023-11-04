@@ -9,5 +9,5 @@ weight=0.010000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
-Name_Jpn=Store safe key
-Information_Jpn=A key to the safe inside one of the village stores, located somewhere near the Azure Coast sanatorium.
+Name_Jpn=店の金庫の鍵
+Information_Jpn=保養所 "アズール・コースト" 近くの村にある商店の金庫の鍵。

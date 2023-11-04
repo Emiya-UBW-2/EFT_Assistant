@@ -1,0 +1,60 @@
+IDstr=63967028c4a91c5cb76abd81
+Name=Trouble in the Big City
+Trader=Lightkeeper
+
+NeedTask=Make an Impression
+NeedLevel=35
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+factionName=Any
+Task_Map=Streets of Tarkov
+Task_Else=TaskType:visit
+Task_Else=Locate the transport holding the cargo on Streets of Tarkov
+Task_Map=Streets of Tarkov
+Task_Kill=[
+	Streets of Tarkov-any PMC operativesx50
+]
+Task_Map=Streets of Tarkov
+NeedItem=MS2000 Markerx1
+Task_Map=Streets of Tarkov
+Task_Else=閾値: >= 0
+Task_Else=ゾーン:[Armored Convoy]
+Task_Map=Streets of Tarkov
+Task_Else=脱出ステータス:[Survived]
+
+[
+	TaskType=visit
+	TaskText=Locate the transport holding the cargo on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Secure the area from hostile PMC operatives
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Mark the cargo area with an MS2000 Marker
+	TaskOptional=false
+]
+[
+	TaskType=useItem
+	TaskText=Launch a yellow flare near the armored convoy to confirm that the job is done
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Lightkeeper+1
+Reward_Item=[
+	Advanced current converterx1
+]
+
+Reward_EXP=0

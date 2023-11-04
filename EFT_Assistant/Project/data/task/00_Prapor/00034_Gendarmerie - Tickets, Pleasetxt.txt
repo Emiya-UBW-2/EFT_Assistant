@@ -1,0 +1,54 @@
+IDstr=64e7b9a4aac4cd0a726562cb
+Name=Gendarmerie - Tickets, Please
+Trader=Prapor
+
+NeedTask=Gendarmerie - Mall Cop
+NeedLevel=21
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+factionName=Any
+Task_Map=Streets of Tarkov
+Task_Kill=[
+	Streets of Tarkov-any targetx25
+]
+NeedItem=[
+	B&T MP9 9x19 submachine gunx0/|
+	B&T MP9-N 9x19 submachine gunx0/|
+	FN P90 5.7x28 submachine gunx0/|
+	HK MP5K 9x19 submachine gunx0/|
+	HK MP5 9x19 submachine gun (Navy 3 Round Burst)x0/|
+	HK MP7A1 4.6x30 submachine gunx0/|
+	HK MP7A2 4.6x30 submachine gunx0/|
+	HK UMP .45 ACP submachine gunx0/|
+	PP-19-01 "Vityaz" 9x19 submachine gunx0/|
+	Saiga-9 9x19 carbinex0/|
+	SIG MPX 9x19 submachine gunx0/|
+	Soyuz-TM STM-9 Gen.2 9x19 carbinex0/|
+	TDI KRISS Vector Gen.2 .45 ACP submachine gunx0/|
+	TDI KRISS Vector Gen.2 9x19 submachine gunx0/|
+	SR-2M "Veresk" 9x21 submachine gunx0/|
+	PPSh-41 7.62x25 submachine gunx0/|
+	PP-91-01 "Kedr-B" 9x18PM submachine gunx0/|
+	PP-91 "Kedr" 9x18PM submachine gunx0/|
+	PP-9 "Klin" 9x18PMM submachine gunx0
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate any target at the Rodina cinema while using SMGs on Streets of Tarkov
+	TaskOptional=false
+]
+
+Reward_Rep=Prapor+3
+Reward_Item=[
+	Roublesx150000/|
+	Kalashnikov AK-103 7.62x39 assault rifle Defaultx2/|
+	AK-103 7.62x39 30-round magazinex4/|
+	7.62x39mm PP gzhx180
+]
+
+Reward_EXP=22600

@@ -1,4 +1,4 @@
-*RB-BK marked key/RB-BK marked key
+*RB-BK marked key/マークの刻まれた RB-BK の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(RB-BK marked key-summary.webp);
 
 *概要
 //概要を記載
-A Federal State Reserve Agency base eastern barracks metalsmiths' room key with multiple strange symbols scratched onto it where the room label would usually be. The key is stained by blood and appears to have been misused a lot, making it fragile.
+連邦国家準備局の基地内にある東兵舎に住んでいた板金工の部屋の鍵。通常なら部屋番号を書いたラベルを貼る部分に奇妙なマークがいくつも刻まれており、血がこびり付いた外観からは、ずっと乱暴に扱われてきたことがうかがえる。あと何回か使用するだけで壊れてしまうかもしれない。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -56,3 +56,4 @@ A Federal State Reserve Agency base eastern barracks metalsmiths' room key with 
 
 *コメント
 //編集掲示板でzawazawaのコメントを作成するように依頼してください
+#zcomment(t=eft%2F531&amp;h=350&amp;size=10)

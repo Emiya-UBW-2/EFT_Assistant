@@ -8,5 +8,5 @@ height=7
 weight=2.010000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
-Name_Jpn=3V Gear Paratus 3-Day Operator's Tactical backpack
+Name_Jpn=3V Gear Paratus 3-Day オペレーターズ タクティカルバックパック
 Information_Jpn=A modular PVC-backed polyester backpack for PMC operators who are going to be traversing across the rugged terrain of the Norvinsk region.

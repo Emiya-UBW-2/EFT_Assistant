@@ -21,7 +21,7 @@ ChildParts=[
 	AR-15 Nordic Components Corvette 5.56x45 compensator/|
 	AR-15 SilencerCo ASR 5.56x45 flash hider/|
 	AR-15 SureFire SF3P 5.56x45 Flash hider/|
-	AR-15 SureFire SF4P FH556RC 5.56x45 flash hider/|
+	AR-15 SureFire SF4P 5.56x45 flash hider/|
 	AR-15 SureFire WarComp 5.56x45 flash hider/|
 	AR-15 Thunder Beast Arms 223CB 5.56x45 muzzle brake/|
 	AR-15 TROY Claymore 5.56x45 muzzle brake/|
@@ -30,7 +30,8 @@ ChildParts=[
 	AR-15 SureFire Warden 5.56x45 blast regulator/|
 	AR-15 Yankee Hill Phantom 5.56x45 flash hider/|
 	AR-15 Griffin Armament Gate-LOK Hammer 5.56x45 flash hider/|
-	AR-15 AlienTech 5.56x45 muzzle brake
+	AR-15 AlienTech 5.56x45 muzzle brake/|
+	AR-15 Aeroknox Butterfly 5.56x45 muzzle brake
 ]
 ChildParts=[
 	HK 416A5 low profile gas block

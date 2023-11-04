@@ -1,0 +1,16 @@
+IDstr=64785e7c19d732620e045e15
+Name=ELCAN Specter HCO holographic sight
+ShortName=HCO
+Information_Eng=The Specter Holographic Combat Optic sight. Manufactured by ELCAN.
+Itemtype=Reflex sight
+width=1
+height=1
+weight=0.433000
+fleaMarketFee=0
+propertiestype=ItemPropertiesScope
+Recoil=0.000000
+Ergonomics=-2.000000
+SightRange=200
+sightZooms=1.000000
+Name_Jpn=ELCAN Specter HCO holographic sight
+Information_Jpn=The Specter Holographic Combat Optic sight. Manufactured by ELCAN.

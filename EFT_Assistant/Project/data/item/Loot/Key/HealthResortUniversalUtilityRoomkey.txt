@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Shoreline
-Name_Jpn=Health Resort universal utility room key
-Information_Jpn=A universal key to all Azure Coast health resort utility storerooms.
+Name_Jpn=保養所 保管室の鍵
+Information_Jpn=保養所 "アズール・コースト" にあるすべての保管室の共用の鍵。

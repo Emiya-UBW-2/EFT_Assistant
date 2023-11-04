@@ -9,5 +9,5 @@ weight=0.010000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
-Name_Jpn=RB-PPの鍵
-Information_Jpn=A key to the Radar Station bomb shelter under the Federal State Reserve Agency base. Doesn't seem to be actually used for anything though, at least for now.
+Name_Jpn=RB-PP の鍵
+Information_Jpn=連邦国家準備局の基地内にあるレーダー管制施設の地下壕の鍵。現在は使われていないようだ。

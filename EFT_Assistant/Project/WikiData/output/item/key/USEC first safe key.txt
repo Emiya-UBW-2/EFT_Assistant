@@ -1,4 +1,4 @@
-*USEC first safe key/USEC first safe key
+*USEC first safe key/USEC の1番金庫の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(USEC first safe key-summary.webp);
 
 *概要
 //概要を記載
-A key to the safe that belonged to one of the USEC operatives stationed in the roadside cottage area.
+沿道の別荘地に駐屯する USEC の一員が持っていた金庫の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -54,3 +54,4 @@ A key to the safe that belonged to one of the USEC operatives stationed in the r
 
 *コメント
 //編集掲示板でzawazawaのコメントを作成するように依頼してください
+#zcomment(t=eft%2F505&amp;h=350&amp;size=10)

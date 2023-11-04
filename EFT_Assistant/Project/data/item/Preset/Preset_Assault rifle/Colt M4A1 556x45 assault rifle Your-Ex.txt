@@ -20,7 +20,7 @@ containsItems=[
 	AR-15 SureFire WarComp 5.56x45 flash hiderx1/|
 	SureFire SOCOM556-MINI MONSTER 5.56x45 sound suppressorx1/|
 	AR-15 Daniel Defense MK12 Low Profile Gas Blockx1/|
-	AR-15 Geissele SMR MK16 9.5 inch M-LOK handguardx1/|
+	AR-15 Geissele SMR MK16 9.5 inch M-LOK handguard (DDC)x1/|
 	Magpul M-LOK 2.5 inch railx1/|
 	NcSTAR Tactical blue laser LAM-modulex1/|
 	Magpul M-LOK 4.1 inch railx1/|

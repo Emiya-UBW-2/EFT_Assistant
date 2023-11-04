@@ -10,7 +10,8 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 Conflict=[
 	AR-15 5.56x45 260mm barrel/|
-	AR-15 5.56x45 370mm barrel
+	AR-15 5.56x45 370mm barrel/|
+	AR-15 Hanson Carbine 5.56x45 13.7 inch barrel
 ]
 Recoil=0.000000
 Ergonomics=7.000000

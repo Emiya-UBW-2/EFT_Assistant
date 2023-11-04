@@ -17,16 +17,16 @@ containsItems=[
 	Aimpoint Standard Spacerx1/|
 	Aimpoint CompM4 reflex sightx1/|
 	AR-15 5.56x45 260mm barrelx1/|
-	AR-15 SureFire SF4P FH556RC 5.56x45 flash hiderx1/|
+	AR-15 SureFire SF4P 5.56x45 flash hiderx1/|
 	SureFire SOCOM556-RC2 5.56x45 sound suppressorx1/|
 	AR-15 JP Enterprises Gas System-5Bx1/|
-	AR-15 Geissele SMR MK16 9.5 inch M-LOK handguardx1/|
+	AR-15 Geissele SMR MK16 9.5 inch M-LOK handguard (DDC)x1/|
 	LA-5B/PEQ tactical devicex1/|
 	Magpul MBUS Gen2 flip-up front sight (FDE)x1/|
 	Magpul MBUS Gen2 flip-up rear sight (FDE)x1/|
 	Colt Carbine buffer tubex1/|
 	Magpul CTR Carbine stock (FDE)x1/|
-	AR-15 Geissele ACH charging handlex1
+	AR-15 Geissele ACH charging handle (DDC)x1
 ]
 Name_Jpn=Colt M4A1 5.56x45 assault rifle USASOC-I
 Information_Jpn=

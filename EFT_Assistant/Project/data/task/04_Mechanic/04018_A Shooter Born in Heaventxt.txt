@@ -1,0 +1,165 @@
+IDstr=5c0bde0986f77479cf22c2f8
+Name=A Shooter Born in Heaven
+Trader=Mechanic
+
+NeedTask=Farming - Part 3
+NeedLevel=14
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+factionName=Any
+Task_Map=Woods
+Task_Kill=[
+	Woods-any PMC operatives{head}x5
+]
+NeedItem=[
+	Accuracy International AXMC .338 LM bolt-action sniper riflex0/|
+	Mosin 7.62x54R bolt-action rifle (Sniper)x0/|
+	SV-98 7.62x54R bolt-action sniper riflex0/|
+	Lobaev Arms DVL-10 7.62x51 bolt-action sniper riflex0/|
+	ORSIS T-5000M 7.62x51 bolt-action sniper riflex0/|
+	Remington Model 700 7.62x51 bolt-action sniper riflex0/|
+	MP-18 7.62x54R single-shot riflex0/|
+	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
+	Molot VPO-215 "Gornostay" .366 TKM bolt-action riflex0
+]
+Task_Map=Reserve
+Task_Kill=[
+	Reserve-any PMC operatives{head}x5
+]
+NeedItem=[
+	Accuracy International AXMC .338 LM bolt-action sniper riflex0/|
+	Mosin 7.62x54R bolt-action rifle (Sniper)x0/|
+	SV-98 7.62x54R bolt-action sniper riflex0/|
+	Lobaev Arms DVL-10 7.62x51 bolt-action sniper riflex0/|
+	ORSIS T-5000M 7.62x51 bolt-action sniper riflex0/|
+	Remington Model 700 7.62x51 bolt-action sniper riflex0/|
+	MP-18 7.62x54R single-shot riflex0/|
+	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
+	Molot VPO-215 "Gornostay" .366 TKM bolt-action riflex0
+]
+Task_Map=Shoreline
+Task_Kill=[
+	Shoreline-any PMC operatives{head}x5
+]
+NeedItem=[
+	Accuracy International AXMC .338 LM bolt-action sniper riflex0/|
+	Mosin 7.62x54R bolt-action rifle (Sniper)x0/|
+	SV-98 7.62x54R bolt-action sniper riflex0/|
+	Lobaev Arms DVL-10 7.62x51 bolt-action sniper riflex0/|
+	ORSIS T-5000M 7.62x51 bolt-action sniper riflex0/|
+	Remington Model 700 7.62x51 bolt-action sniper riflex0/|
+	MP-18 7.62x54R single-shot riflex0/|
+	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
+	Molot VPO-215 "Gornostay" .366 TKM bolt-action riflex0
+]
+Task_Map=Customs
+Task_Kill=[
+	Customs-any PMC operatives{head}x5
+]
+NeedItem=[
+	Accuracy International AXMC .338 LM bolt-action sniper riflex0/|
+	Mosin 7.62x54R bolt-action rifle (Sniper)x0/|
+	SV-98 7.62x54R bolt-action sniper riflex0/|
+	Lobaev Arms DVL-10 7.62x51 bolt-action sniper riflex0/|
+	ORSIS T-5000M 7.62x51 bolt-action sniper riflex0/|
+	Remington Model 700 7.62x51 bolt-action sniper riflex0/|
+	MP-18 7.62x54R single-shot riflex0/|
+	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
+	Molot VPO-215 "Gornostay" .366 TKM bolt-action riflex0
+]
+Task_Map=Lighthouse
+Task_Kill=[
+	Lighthouse-any PMC operatives{head}x5
+]
+NeedItem=[
+	Accuracy International AXMC .338 LM bolt-action sniper riflex0/|
+	Mosin 7.62x54R bolt-action rifle (Sniper)x0/|
+	SV-98 7.62x54R bolt-action sniper riflex0/|
+	Lobaev Arms DVL-10 7.62x51 bolt-action sniper riflex0/|
+	ORSIS T-5000M 7.62x51 bolt-action sniper riflex0/|
+	Remington Model 700 7.62x51 bolt-action sniper riflex0/|
+	MP-18 7.62x54R single-shot riflex0/|
+	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
+	Molot VPO-215 "Gornostay" .366 TKM bolt-action riflex0
+]
+Task_Map=Streets of Tarkov
+Task_Kill=[
+	Streets of Tarkov-any PMC operatives{head}x5
+]
+NeedItem=[
+	Accuracy International AXMC .338 LM bolt-action sniper riflex0/|
+	Mosin 7.62x54R bolt-action rifle (Sniper)x0/|
+	SV-98 7.62x54R bolt-action sniper riflex0/|
+	Lobaev Arms DVL-10 7.62x51 bolt-action sniper riflex0/|
+	ORSIS T-5000M 7.62x51 bolt-action sniper riflex0/|
+	Remington Model 700 7.62x51 bolt-action sniper riflex0/|
+	MP-18 7.62x54R single-shot riflex0/|
+	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
+	Molot VPO-215 "Gornostay" .366 TKM bolt-action riflex0
+]
+Task_Map=Interchange
+Task_Kill=[
+	Interchange-any PMC operatives{head}x5
+]
+NeedItem=[
+	Accuracy International AXMC .338 LM bolt-action sniper riflex0/|
+	Mosin 7.62x54R bolt-action rifle (Sniper)x0/|
+	SV-98 7.62x54R bolt-action sniper riflex0/|
+	Lobaev Arms DVL-10 7.62x51 bolt-action sniper riflex0/|
+	ORSIS T-5000M 7.62x51 bolt-action sniper riflex0/|
+	Remington Model 700 7.62x51 bolt-action sniper riflex0/|
+	MP-18 7.62x54R single-shot riflex0/|
+	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
+	Molot VPO-215 "Gornostay" .366 TKM bolt-action riflex0
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives with a headshot while using a bolt-action rifle on Woods
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives with a headshot while using a bolt-action rifle on Reserve
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives with a headshot while using a bolt-action rifle on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives with a headshot while using a bolt-action rifle on Customs
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives with a headshot while using a bolt-action rifle on Lighthouse 
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives with a headshot while using a bolt-action rifle on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives with a headshot while using a bolt-action rifle on Interchange
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+3
+Reward_Item=[
+	Roublesx150000/|
+	HK G28 7.62x51 marksman rifle Defaultx1/|
+	HK417/G28 7.62x51 20-round magazinex2/|
+	7.62x51mm M993x40/|
+	GP coinx3
+]
+Reward_SkillLevelUp=Sniper Rifles+5
+
+Reward_EXP=12500

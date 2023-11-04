@@ -17,5 +17,5 @@ Recoil=-10.000000
 Ergonomics=-19.000000
 centerOfImpact=0.300000
 deviationMax=10
-Name_Jpn=MP-133 12ga 750mm barrel
-Information_Jpn=A standard factory-produced 750mm barrel for MP-133 12 gauge shotguns.
+Name_Jpn=MP-133 12ga 750mm バレル
+Information_Jpn=MP-133 12ゲージ ショットガン用の純正 750mm バレル。

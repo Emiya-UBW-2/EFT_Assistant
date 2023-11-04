@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Shoreline
-Name_Jpn=Health Resort west wing office room 112 key
-Information_Jpn=A key to the Azure Coast sanatorium west wing office room 112.
+Name_Jpn=保養所 西棟休憩室112号室の鍵
+Information_Jpn=保養所 "アズール・コースト" 西棟の休憩室112号室の鍵。

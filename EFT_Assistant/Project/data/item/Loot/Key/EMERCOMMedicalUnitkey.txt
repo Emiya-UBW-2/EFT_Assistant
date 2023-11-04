@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Interchange
-Name_Jpn=EMERCOM medical unit key
-Information_Jpn=A key to the EMERCOM medical care unit at the ULTRA shopping mall.
+Name_Jpn=EMERCOM の仮設診療所の鍵
+Information_Jpn=ショッピングモール "ULTRA" にある EMERCOM の仮設診療所の鍵。

@@ -28,7 +28,7 @@ CENTER:&ref(Dorm room 220 key-summary.webp);
 //===============================LIST
 |BGCOLOR(#D8F781):''トレーダー''|BGCOLOR(#D8F781):''トレーダーLV''|BGCOLOR(#D8F781):''必要なアイテム''|BGCOLOR(#D8F781):''入手できるアイテム''|BGCOLOR(#D8F781):''備考''|
 //
-|Therapist|2|Pack of Arseniy buckwheat x1 &br;Aquapeps water purification tablets x1 &br;Pile of meds x5|Dorm room 220 key x1||
+|Therapist|2|Pile of meds x5 &br;Pack of Arseniy buckwheat x1 &br;Aquapeps water purification tablets x1|Dorm room 220 key x1||
 //===============================LISTEND
 
 **タスク報酬

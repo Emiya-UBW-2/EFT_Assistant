@@ -1,6 +1,6 @@
 Name=Springfield Armory M1A 7.62x51 rifle Default
 Base=Springfield Armory M1A 7.62x51 rifle
-Parts=M1A 7.62x51 20-round magazine
+Parts=M1A 7.62x51 10-round magazine
 Parts=M1A SOCOM 16 stock
 Parts=M1A SOCOM 16 upper part
 Parts=M1A 7.62x51 16 inch barrel

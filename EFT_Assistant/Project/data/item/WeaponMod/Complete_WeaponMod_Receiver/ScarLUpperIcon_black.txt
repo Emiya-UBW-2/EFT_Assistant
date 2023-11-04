@@ -66,7 +66,11 @@ ChildParts=[
 	UNV DLOC-IRD sight mount/|
 	Leapers UTG 25mm ring scope mount/|
 	SwampFox Trihawk Prism Scope 3x30/|
-	AI AX-50 34mm scope mount
+	AI AX-50 34mm scope mount/|
+	Armasight Zeus universal base/|
+	SIG Sauer ROMEO7 1x30 reflex sight (prototype)/|
+	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope/|
+	ELCAN Specter HCO holographic sight
 ]
 ChildParts=[
 	FN SCAR-L 5.56x45 10 inch barrel/|
@@ -104,7 +108,8 @@ ChildParts=[
 	LA-5B/PEQ tactical device/|
 	SureFire XC1 tactical flashlight/|
 	Wilcox RAPTAR ES Tactical Rangefinder/|
-	Zenit Perst-3 tactical device
+	Zenit Perst-3 tactical device/|
+	MAWL-C1+ tactical device
 ]
 ChildParts=[
 	FN SCAR bottom rail/|

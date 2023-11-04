@@ -1,0 +1,474 @@
+IDstr=5c51aac186f77432ea65c552
+Name=Collector
+Trader=Fence
+
+NeedTask=The Tarkov Shooter - Part 8
+NeedTask=The Survivalist Path - Junkie
+NeedTask=The Huntsman Path - Justice
+NeedTask=The Huntsman Path - Controller
+NeedTask=The Huntsman Path - Evil Watchman
+NeedTask=Search Mission
+NeedTask=Stirrup
+NeedTask=Car Repair
+NeedTask=Bad Habit
+NeedTask=Insider
+NeedTask=The Cult - Part 2
+NeedTask=Documents
+NeedTask=The Huntsman Path - Factory Chief
+NeedTask=Broadcast - Part 1
+NeedTask=A Shooter Born in Heaven
+NeedTask=Classified Technologies
+NeedTask=Surplus Goods
+NeedTask=Revision - Lighthouse
+NeedTask=Signal - Part 4
+NeedTask=Overpopulation
+NeedTask=Safe Corridor
+NeedTask=Inventory Check
+NeedTask=Corporate Secrets
+NeedTask=Seaside Vacation
+NeedTask=Drug Trafficking
+NeedTask=Easy Job - Part 2
+NeedTask=Reconnaissance
+NeedTask=The Hermit
+NeedTask=Vitamins - Part 2
+NeedTask=The Huntsman Path - Outcasts
+NeedTask=TerraGroup Employee
+NeedTask=Minibus
+NeedTask=Ambulance
+NeedTask=Insomnia
+NeedTask=Energy Crisis
+NeedTask=Charisma Brings Success
+NeedTask=Regulated Materials
+NeedTask=No Fuss Needed
+NeedTask=Fishing Place
+NeedTask=Scavenger
+NeedTask=Setup
+NeedTask=Living High is Not a Crime - Part 2
+NeedTask=Fertilizers
+NeedTask=Test Drive - Part 1
+NeedTask=The Huntsman Path - Eraser - Part 2
+NeedTask=Missing Cargo
+NeedTask=Peacekeeping Mission
+NeedTask=Hunting Trip
+NeedTask=Decontamination Service
+NeedTask=Flint
+NeedTask=Psycho Sniper
+NeedTask=Perfect Mediator
+NeedTask=Import
+NeedTask=Stray Dogs
+NeedTask=Gunsmith - Part 22
+NeedTask=Supervisor
+NeedTask=The Guide
+NeedTask=Intimidator
+NeedTask=Crisis
+NeedLevel=48
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+factionName=Any
+NeedItem=Old firesteelx1
+Task_FiR_HandOver=[Old firesteelx1]
+DogTagLv=0
+NeedItem=Antique axex1
+Task_FiR_HandOver=[Antique axex1]
+DogTagLv=0
+NeedItem=Battered antique bookx1
+Task_FiR_HandOver=[Battered antique bookx1]
+DogTagLv=0
+NeedItem=#FireKlean gun lubex1
+Task_FiR_HandOver=[#FireKlean gun lubex1]
+DogTagLv=0
+NeedItem=Golden rooster figurinex1
+Task_FiR_HandOver=[Golden rooster figurinex1]
+DogTagLv=0
+NeedItem=Silver Badgex1
+Task_FiR_HandOver=[Silver Badgex1]
+DogTagLv=0
+NeedItem=Deadlyslob's beard oilx1
+Task_FiR_HandOver=[Deadlyslob's beard oilx1]
+DogTagLv=0
+NeedItem=Golden 1GPhone smartphonex1
+Task_FiR_HandOver=[Golden 1GPhone smartphonex1]
+DogTagLv=0
+NeedItem=Jar of DevilDog mayox1
+Task_FiR_HandOver=[Jar of DevilDog mayox1]
+DogTagLv=0
+NeedItem=Can of spratsx1
+Task_FiR_HandOver=[Can of spratsx1]
+DogTagLv=0
+NeedItem=Fake mustachex1
+Task_FiR_HandOver=[Fake mustachex1]
+DogTagLv=0
+NeedItem=Kotton beaniex1
+Task_FiR_HandOver=[Kotton beaniex1]
+DogTagLv=0
+NeedItem=Raven figurinex1
+Task_FiR_HandOver=[Raven figurinex1]
+DogTagLv=0
+NeedItem=Pestily plague maskx1
+Task_FiR_HandOver=[Pestily plague maskx1]
+DogTagLv=0
+NeedItem=Shroud half-maskx1
+Task_FiR_HandOver=[Shroud half-maskx1]
+DogTagLv=0
+NeedItem=Can of Dr. Lupo's coffee beansx1
+Task_FiR_HandOver=[Can of Dr. Lupo's coffee beansx1]
+DogTagLv=0
+NeedItem=42 Signature Blend English Teax1
+Task_FiR_HandOver=[42 Signature Blend English Teax1]
+DogTagLv=0
+NeedItem=Veritas guitar pickx1
+Task_FiR_HandOver=[Veritas guitar pickx1]
+DogTagLv=0
+NeedItem=Evasion armbandx1
+Task_FiR_HandOver=[Evasion armbandx1]
+DogTagLv=0
+NeedItem=Can of RatCola sodax1
+Task_FiR_HandOver=[Can of RatCola sodax1]
+DogTagLv=0
+NeedItem=Loot Lord plushiex1
+Task_FiR_HandOver=[Loot Lord plushiex1]
+DogTagLv=0
+Task_FiR_HandOver=[Smoke balaclavax1]
+DogTagLv=0
+NeedItem=Smoke balaclavax1
+NeedItem=WZ Walletx1
+Task_FiR_HandOver=[WZ Walletx1]
+DogTagLv=0
+NeedItem=LVNDMARK's rat poisonx1
+Task_FiR_HandOver=[LVNDMARK's rat poisonx1]
+DogTagLv=0
+Task_FiR_HandOver=[Missam forklift keyx1]
+DogTagLv=0
+Task_FiR_HandOver=[Video cassette with the Cyborg Killer moviex1]
+DogTagLv=0
+Task_FiR_HandOver=[BakeEzy cook bookx1]
+DogTagLv=0
+Task_FiR_HandOver=[JohnB Liquid DNB glassesx1]
+DogTagLv=0
+Task_FiR_HandOver=[Glorious E lightweight armored maskx1]
+DogTagLv=0
+Task_FiR_HandOver=[Baddie's red beardx1]
+DogTagLv=0
+Task_FiR_HandOver=[DRD body armorx1]
+DogTagLv=0
+Task_FiR_HandOver=[Gingy keychainx1]
+DogTagLv=0
+Task_FiR_HandOver=[Golden eggx1]
+DogTagLv=0
+Task_FiR_HandOver=[Press pass (issued for NoiceGuy)x1]
+DogTagLv=0
+Task_FiR_HandOver=[Axel parrot figurinex1]
+DogTagLv=0
+Task_FiR_HandOver=[BEAR Buddy plush toyx1]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Find Old firesteel in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the Old firesteel
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Antique axe in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the Antique axe
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Battered antique book in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the Battered antique book
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find #FireKlean gun lube in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the #FireKlean gun lube
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Golden rooster in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the Golden rooster
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Silver Badge in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the Silver Badge
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Deadlyslob's beard oil in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the Deadlyslob's beard oil
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Golden 1GPhone smartphone in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the Golden 1GPhone smartphone
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Jar of DevilDog mayo in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the Jar of DevilDog mayo
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Can of sprats in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the Can of sprats
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Fake mustache in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the Fake mustache
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Kotton beanie in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the Kotton beanie
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Raven figurine in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the Raven figurine
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Pestily plague mask in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the Pestily plague mask
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Shroud half-mask in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the Shroud half-mask
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Can of Dr. Lupo's coffee beans in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the Can of Dr. Lupo's coffee beans
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find 42 Signature Blend English Tea in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the 42 Signature Blend English Tea
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Veritas guitar pick in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the Veritas guitar pick
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Evasion armband in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the Evasion armband
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Can of RatCola soda in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the Can of RatCola soda
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Loot Lord plushie in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the Loot Lord plushie
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the Smoke balaclava
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Smoke balaclava in raid
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find WZ Wallet in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the WZ Wallet
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find LVNDMARK's rat poison in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the LVNDMARK's rat poison
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid item: Missam forklift key
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid item: Video cassette with the Cyborg Killer movie
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid item: BakeEzy cook book
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid item: JohnB Liquid DNB glasses
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid item: Glorious E lightweight armored mask
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid item: Baddie's red beard
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid item: DRD body armor
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid item: Gingy keychain
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid item: Golden egg
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid item: Press pass (issued for NoiceGuy)
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid item: Axel parrot figurine
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid item: BEAR Buddy plush toy
+	TaskOptional=false
+]
+
+Reward_Item=[
+	Secure container Kappax1/|
+	DEADSKUL armbandx1
+]
+
+Reward_EXP=0

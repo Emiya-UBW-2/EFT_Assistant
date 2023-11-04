@@ -66,19 +66,23 @@ ChildParts=[
 	UNV DLOC-IRD sight mount/|
 	Leapers UTG 25mm ring scope mount/|
 	SwampFox Trihawk Prism Scope 3x30/|
-	AI AX-50 34mm scope mount
+	AI AX-50 34mm scope mount/|
+	Armasight Zeus universal base/|
+	SIG Sauer ROMEO7 1x30 reflex sight (prototype)/|
+	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope/|
+	ELCAN Specter HCO holographic sight
 ]
 Conflict=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
 	BelOMO PK-AA dovetail reflex sight/|
 	OKP-7 reflex sight (Dovetail)/|
-	NPZ PK1 "Obzor" reflex sight/|
+	NPZ PK1 "Obzor" dovetail reflex sight/|
 	AK Taktika Tula TT01 rear sight rail/|
 	BelOMO PSO-1 4x24 scope/|
 	BelOMO PSO-1M2-1 4x24 scope/|
 	BelOMO PSO-1M2 4x24 scope/|
 	NPZ USP-1 "Tyulpan" 4x scope/|
-	NSPU-M night vision scope/|
+	NSPU-M 3.5x dovetail night vision scope/|
 	Axion Kobra dovetail mount/|
 	SVD CAA XD RGL receiver mount/|
 	KMZ 1P59 dovetail mount/|

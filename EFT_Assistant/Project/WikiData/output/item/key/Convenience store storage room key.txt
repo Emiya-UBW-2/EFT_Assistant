@@ -1,4 +1,4 @@
-*Convenience store storage room key/Convenience store storage room key
+*Convenience store storage room key/コンビニエンスストアの貯蔵室の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Convenience store storage room key-summary.webp);
 
 *概要
 //概要を記載
-A key that opens a storage room inside the roadside convenience store.
+道路沿いのコンビニエンスストア内にある貯蔵室に入るための鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -57,4 +57,4 @@ A key that opens a storage room inside the roadside convenience store.
 //拡張子はjpgかpngかwebp
 
 *コメント
-#pcomment(*Convenience store storage room key,10,noname,below,reply)
+#zcomment(t=eft%2F507&amp;h=350&amp;size=10)

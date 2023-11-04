@@ -1,0 +1,12 @@
+IDstr=64b7af734b75259c590fa895
+Name=7.62x39mm SP
+ShortName=SP
+Information_Eng=7.62x39 rifled ammunition with SP 123 gr (8 g) bullet is great for practice and recreational shooting.
+Itemtype=Ammo
+width=1
+height=1
+weight=0.012000
+fleaMarketFee=0
+propertiestype=ItemPropertiesAmmo
+Name_Jpn=7.62x39mm SP
+Information_Jpn=7.62x39 rifled ammunition with SP 123 gr (8 g) bullet is great for practice and recreational shooting.

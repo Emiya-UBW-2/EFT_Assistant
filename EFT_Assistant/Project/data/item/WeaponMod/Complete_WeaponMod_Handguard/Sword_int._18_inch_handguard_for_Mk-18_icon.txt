@@ -18,7 +18,8 @@ ChildParts=[
 	LA-5B/PEQ tactical device/|
 	SureFire XC1 tactical flashlight/|
 	Wilcox RAPTAR ES Tactical Rangefinder/|
-	Zenit Perst-3 tactical device
+	Zenit Perst-3 tactical device/|
+	MAWL-C1+ tactical device
 ]
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|

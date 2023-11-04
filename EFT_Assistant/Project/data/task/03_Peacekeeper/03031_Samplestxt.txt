@@ -1,0 +1,115 @@
+IDstr=5edac020218d181e29451446
+Name=Samples
+Trader=Peacekeeper
+
+NeedTask=Friend from the West - Part 2
+NeedTask=Fishing Gear
+NeedTask=Anesthesia
+NeedLevel=21
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+factionName=Any
+NeedItem=M.U.L.E. stimulant injectorx1
+Task_FiR_HandOver=[M.U.L.E. stimulant injectorx1]
+DogTagLv=0
+NeedItem="Obdolbos" cocktail injectorx1
+Task_FiR_HandOver=["Obdolbos" cocktail injectorx1]
+DogTagLv=0
+NeedItem=Meldonin injectorx1
+Task_FiR_HandOver=[Meldonin injectorx1]
+DogTagLv=0
+NeedItem=AHF1-M stimulant injectorx1
+Task_FiR_HandOver=[AHF1-M stimulant injectorx1]
+DogTagLv=0
+NeedItem=P22 (Product 22) stimulant injectorx1
+Task_FiR_HandOver=[P22 (Product 22) stimulant injectorx1]
+DogTagLv=0
+NeedItem=L1 (Norepinephrine) injectorx1
+Task_FiR_HandOver=[L1 (Norepinephrine) injectorx1]
+DogTagLv=0
+NeedItem=3-(b-TG) stimulant injectorx1
+Task_FiR_HandOver=[3-(b-TG) stimulant injectorx1]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Find M.U.L.E. stimulant injector in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the injector
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find "Obdolbos" cocktail injector in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the injector
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find Meldonin stimulant injector in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the injector
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find AHF1-M stimulant injector in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the injector
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find P22 stimulant injector in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the injector
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find L1 (Norepinephrine) stimulant injector in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the injector
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find 3-(b-TG) stimulant injector in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the injector
+	TaskOptional=false
+]
+
+Reward_Rep=Peacekeeper+4
+Reward_Item=[
+	Dollarsx4000/|
+	Ammunition casex1/|
+	DS Arms SA-58 7.62x51 assault rifle BELx1
+]
+
+Reward_EXP=15300

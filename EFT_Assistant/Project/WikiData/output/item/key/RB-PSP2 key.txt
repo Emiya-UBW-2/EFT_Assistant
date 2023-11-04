@@ -1,4 +1,4 @@
-*RB-PSP2 key/RB-PSP2 key
+*RB-PSP2 key/RB-PSP2 の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(RB-PSP2 key-summary.webp);
 
 *概要
 //概要を記載
-A key to one of the iron mesh doors in the Federal State Reserve Agency base underground supply warehouse.
+連邦国家準備局の基地内にある地下補給倉庫の鉄網扉を開けるための鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -39,7 +39,7 @@ A key to one of the iron mesh doors in the Federal State Reserve Agency base und
 //===============================LIST
 |BGCOLOR(#D8F781):''トレーダー''|BGCOLOR(#D8F781):''トレーダーLV''|BGCOLOR(#D8F781):''必要なアイテム''|BGCOLOR(#D8F781):''入手できるアイテム''|BGCOLOR(#D8F781):''備考''|
 //
-|Jaeger|4|Cyclon rechargeable battery x7 &br;GreenBat lithium battery x10 &br;Flat screwdriver (Long) x5|RB-PSP2 key x1||
+|Jaeger|4|Flat screwdriver (Long) x5 &br;GreenBat lithium battery x10 &br;Cyclon rechargeable battery x7|RB-PSP2 key x1||
 //===============================LISTEND
 
 *使用場所
@@ -72,3 +72,4 @@ A key to one of the iron mesh doors in the Federal State Reserve Agency base und
 
 *コメント
 //編集掲示板でzawazawaのコメントを作成するように依頼してください
+#zcomment(t=eft%2F557&amp;h=350&amp;size=10)

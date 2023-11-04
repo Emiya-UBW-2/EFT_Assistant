@@ -1,4 +1,4 @@
-*Health Resort west wing room 222 key/Health Resort west wing room 222 key
+*Health Resort west wing room 222 key/保養所 西棟222号室の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Health Resort west wing room 222 key-summary.webp);
 
 *概要
 //概要を記載
-A key to the Azure Coast sanatorium west wing room 222.
+保養所 "アズール・コースト" 西棟の222号室の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -31,8 +31,6 @@ A key to the Azure Coast sanatorium west wing room 222.
 
 
 *使用場所
-保養地西棟222号室の鍵を開けられます。
-218号室と221号室にベランダを介してつながっている
 
 **入手できるもの
 //なければ無しと記載

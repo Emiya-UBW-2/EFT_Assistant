@@ -1,0 +1,15 @@
+IDstr=6492efe46cc7e29a6f03b2a0
+Name=PKM 7.62x54R muzzle brake
+ShortName=PKM
+Information_Eng=A standard-issue muzzle brake-compensator for Kalashnikov Machine gun. Manufactured by V.A. Degtyarev Plant.
+Itemtype=Flashhider
+width=1
+height=1
+weight=0.063000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=-3.000000
+Ergonomics=-1.000000
+accuracyModifier=0.010000
+Name_Jpn=PKM 7.62x54R muzzle brake
+Information_Jpn=A standard-issue muzzle brake-compensator for Kalashnikov Machine gun. Manufactured by V.A. Degtyarev Plant.

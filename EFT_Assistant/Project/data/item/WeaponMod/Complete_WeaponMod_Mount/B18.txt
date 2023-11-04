@@ -27,7 +27,8 @@ ChildParts=[
 	SIG Sauer ROMEO8T reflex sight/|
 	Trijicon SRS-02 reflex sight/|
 	VOMZ Pilad P1x42 Weaver reflex sight/|
-	Walther MRS reflex sight
+	Walther MRS reflex sight/|
+	ELCAN Specter HCO holographic sight
 ]
 Recoil=0.000000
 Ergonomics=-1.000000

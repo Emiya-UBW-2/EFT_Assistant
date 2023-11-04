@@ -16,8 +16,8 @@ ChildParts=[
 ]
 Conflict=[
 	Mosin Carbine 7.62x54R 514mm barrel/|
-	Mosin Rifle 7.62x54R sawn-off 220mm threaded barrel/|
-	Mosin Rifle 7.62x54R sawn-off 200mm barrel
+	Mosin Rifle 7.62x54R sawed-off 220mm threaded barrel/|
+	Mosin Rifle 7.62x54R sawed-off 200mm barrel
 ]
 Recoil=-29.000000
 Ergonomics=10.000000

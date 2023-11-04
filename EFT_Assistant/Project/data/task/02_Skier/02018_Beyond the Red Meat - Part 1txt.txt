@@ -1,0 +1,36 @@
+IDstr=64f5e20652fc01298e2c61e3
+Name=Beyond the Red Meat - Part 1
+Trader=Skier
+
+NeedTask=Vitamins - Part 2
+NeedLevel=22
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+factionName=Any
+Task_Map=Streets of Tarkov
+Task_Else=拾って納品:Streets of Tarkov-Chef's diaryx1
+
+[
+	TaskType=findQuestItem
+	TaskText=Locate and obtain information on culinary secrets at the Beluga restaurant on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the found data
+	TaskOptional=false
+]
+
+Reward_Rep=Skier+2
+Reward_Item=[
+	Roublesx80000/|
+	SAG AK-545 5.45x39 carbine Defaultx2/|
+	AK-74 5.45x39 6L23 30-round magazinex4/|
+	5.45x39mm BT gs ammo pack (30 pcs)x6
+]
+
+Reward_EXP=18400

@@ -34,5 +34,5 @@ cameraRecoil=0.067200
 cameraSnap=3.500000
 deviationMax=23
 convergence=1.600000
-Name_Jpn=Steyr AUG A1 5.56x45 assault rifle
-Information_Jpn=Steyr AUG A1 is a 5.56x45 bullpup assault rifle, developed by the Austrian company Steyr-Daimler-Puch. AUG is known for good ergonomics, decent accuracy, low recoil and sufficient reliability. The rifle also stands out for its futuristic design.
+Name_Jpn=AUG A1 5.56x45 アサルトライフル
+Information_Jpn=Steyr AUG A1 は、オーストリアの企業であるシュタイア・ダイムラー・プフによって開発された、5.56x45mm弾を使用するのブルパップ方式アサルトライフルで、優れたエルゴノミクス、ある程度の精度、低い反動、そして十分な信頼性で知られているだけでなく、未来的なデザインの目立つ武器だ。

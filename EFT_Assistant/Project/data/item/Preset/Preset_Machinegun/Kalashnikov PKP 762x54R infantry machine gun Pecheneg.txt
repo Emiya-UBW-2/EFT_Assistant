@@ -1,0 +1,21 @@
+IDstr=64cf7b2d033b747d625b7666
+Name=Kalashnikov PKP 7.62x54R infantry machine gun Pecheneg
+ShortName=PKP Pecheneg
+Itemtype=Machinegun
+width=6
+height=3
+weight=9.637000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Kalashnikov PKP 7.62x54R infantry machine gunx1/|
+	PK pistol grip (Black)x1/|
+	PKP 7.62x54R 658mm barrelx1/|
+	PK 7.62x54R 100-round boxx1/|
+	PKP polymer stockx1/|
+	PK bipodx1/|
+	PK rear sightx1
+]
+Name_Jpn=Kalashnikov PKP 7.62x54R infantry machine gun Pecheneg
+Information_Jpn=

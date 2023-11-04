@@ -3,7 +3,7 @@ Name=Steyr AUG A3 5.56x45 assault rifle CQB
 ShortName=AUG A3 CQB
 Itemtype=Assault rifle
 width=4
-height=3
+height=2
 weight=3.822000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
@@ -20,5 +20,5 @@ containsItems=[
 	EOTech EXPS3 holographic sight (Tan)x1/|
 	Insight WMX200 tactical flashlightx1
 ]
-Name_Jpn=Steyr AUG A3 5.56x45 assault rifle CQB
+Name_Jpn=AUG A3 5.56x45 アサルトライフル CQB
 Information_Jpn=

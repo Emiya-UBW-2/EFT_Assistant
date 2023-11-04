@@ -11,8 +11,8 @@ IsDefault=FALSE
 containsItems=[
 	Mosin 7.62x54R bolt-action rifle (Infantry)x1/|
 	Mosin Rifle 7.62x54R 5-round magazinex1/|
-	Mosin Rifle sawn-off stockx1/|
-	Mosin Rifle 7.62x54R sawn-off 200mm barrelx1
+	Mosin Rifle sawed-off stockx1/|
+	Mosin Rifle 7.62x54R sawed-off 200mm barrelx1
 ]
 Name_Jpn=Mosin 7.62x54R bolt-action rifle (Infantry) Obrez
 Information_Jpn=

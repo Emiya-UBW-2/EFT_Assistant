@@ -30,7 +30,7 @@ Conflict=[
 	BelOMO PSO-1M2-1 4x24 scope/|
 	BelOMO PSO-1M2 4x24 scope/|
 	NPZ USP-1 "Tyulpan" 4x scope/|
-	NSPU-M night vision scope/|
+	NSPU-M 3.5x dovetail night vision scope/|
 	Axion Kobra dovetail mount/|
 	KMZ 1P59 dovetail mount/|
 	VOMZ Pilad 043-02 dovetail mount/|
@@ -49,7 +49,7 @@ Conflict=[
 	SVD modernization kit top rail
 ]
 Recoil=0.000000
-Ergonomics=-1.000000
+Ergonomics=-0.500000
 accuracyModifier=0.000000
 Name_Jpn=SAG Bit low profile dovetail sidemount
 Information_Jpn=The Bit low-profile side mount is designed to mount compact sights and collimators on AK rifles and their numerous versions: Saiga, VAL, etc. Manufactured by Sureshot Armament Group.

@@ -30,7 +30,8 @@ ChildParts=[
 	PP-19-01 "Vityaz" pistol grip/|
 	AK FAB Defense AGR-47 pistol grip/|
 	AK TangoDown Battle Grip pistol grip (FDE)/|
-	AK TangoDown Battle Grip pistol grip
+	AK TangoDown Battle Grip pistol grip/|
+	AK Mission First Tactical ENGAGE AK47 pistol grip
 ]
 ChildParts=[
 	AKS-74/AKS-74U Zenit PT Lock/|
@@ -51,7 +52,9 @@ ChildParts=[
 	AK-74 "Saiga 545" 5.45x39 10-round magazine/|
 	AK-74 5.45x39 Magpul PMAG 30 GEN M3 30-round magazine/|
 	AK-12 5.45x39 30-round magazine/|
-	RPK-16 5.45x39 95-round drum magazine
+	RPK-16 5.45x39 95-round drum magazine/|
+	AK-12 5.45x39 early model 30-round magazine/|
+	AK-74 "Saiga 545" 5.45x39 20-round magazine
 ]
 ChildParts=[
 	AK-105 5.45x39 muzzle brake-compensator (6P44 0-20)/|
@@ -88,5 +91,5 @@ cameraRecoil=0.079200
 cameraSnap=3.500000
 deviationMax=15
 convergence=1.700000
-Name_Jpn=Kalashnikov AKS-74U 5.45x39 assault rifle
-Information_Jpn=AKS-74U (Avtomat Kalashnikova Skladnoy 74 Ukorochenny - "Kalashnikov's Shortened Automatic rifle 74 with a foldable stock") is a shortened version of the AKS-74 assault rifle, developed in the early 80s for combat vehicle crews and airborne troops, also became very popular with law enforcement and special forces for its compact size.
+Name_Jpn=AKS-74U 5.45x39 アサルトライフル
+Information_Jpn=AKS-74U（Avtomat Kalashnikova Skladnoy 74 Ukorochenny - "カラシニコフ自動小銃74 短縮型"）は、AKS-74 の短縮型で、1980年代初頭に戦車の乗組員や空挺部隊向けに開発された。そのコンパクトなサイズから、法執行機関や特殊部隊にも非常に人気がある銃だった。

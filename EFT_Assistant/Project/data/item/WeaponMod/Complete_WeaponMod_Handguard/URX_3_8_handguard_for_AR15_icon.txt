@@ -34,7 +34,8 @@ ChildParts=[
 	SureFire XC1 tactical flashlight/|
 	Wilcox RAPTAR ES Tactical Rangefinder/|
 	Zenit Perst-3 tactical device/|
-	NcSTAR MPR45 Backup mount
+	NcSTAR MPR45 Backup mount/|
+	MAWL-C1+ tactical device
 ]
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
@@ -55,7 +56,8 @@ ChildParts=[
 	Daniel Defense 25mm accessory ring mount/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Olight Baldr Pro tactical flashlight with laser/|
-	Insight WMX200 tactical flashlight
+	Insight WMX200 tactical flashlight/|
+	MAWL-C1+ tactical device
 ]
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
@@ -76,7 +78,8 @@ ChildParts=[
 	Daniel Defense 25mm accessory ring mount/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Olight Baldr Pro tactical flashlight with laser/|
-	Insight WMX200 tactical flashlight
+	Insight WMX200 tactical flashlight/|
+	MAWL-C1+ tactical device
 ]
 ChildParts=[
 	AR-15 KAC URX 3 8 inch lower handguard

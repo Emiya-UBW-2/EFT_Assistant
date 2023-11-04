@@ -1,6 +1,6 @@
 IDstr=63a39c7964283b5e9c56b280
 Name=Concordia security room key
-ShortName=Concd sec.
+ShortName=Conc sec.
 Information_Eng=A key to the security room inside the Concordia building.
 Itemtype=Mechanical Key
 width=1
@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Streets of Tarkov
-Name_Jpn=Concordia security room key
-Information_Jpn=A key to the security room inside the Concordia building.
+Name_Jpn=コンコルディアの警備室の鍵
+Information_Jpn=コンコルディア・ビル内にある警備室の鍵。

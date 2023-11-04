@@ -1,0 +1,48 @@
+IDstr=59674eb386f774539f14813a
+Name=Delivery from the Past
+Trader=Prapor
+
+NeedTask=Checking
+NeedLevel=5
+NeedItem=[Tarcone Director's office keyx1]
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+factionName=Any
+Task_Map=Customs
+Task_Else=拾って納品:Customs-Secure Folder 0022x1
+Task_Map=Factory
+Task_Map=Night Factory
+Task_Else=拾って納品:Factory-Secure Folder 0022x1
+Task_Else=拾って納品:Night Factory-Secure Folder 0022x1
+Task_Map=Factory
+Task_Map=Night Factory
+Task_Else=脱出ステータス:[Survived,Run Through]
+
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the secure folder in the Tarcone Director's office at the Customs terminal warehouse
+	TaskOptional=false
+]
+[
+	TaskType=plantQuestItem
+	TaskText=Stash the package in the Factory break room (2nd floor near Gate 3)
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from Factory
+	TaskOptional=false
+]
+
+Reward_Rep=Prapor+3
+Reward_Item=[
+	Roublesx20000/|
+	Saiga 12ga ver.10 12/76 semi-automatic shotgun Defaultx1/|
+	SOK-12 12/76 sb.5 5-round magazinex4/|
+	12/70 7mm buckshotx40
+]
+
+Reward_EXP=4000

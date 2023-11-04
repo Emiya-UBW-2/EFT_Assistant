@@ -1,0 +1,45 @@
+IDstr=64f83bcdde58fc437700d8fa
+Name=Gunsmith - Part 24
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 23
+NeedLevel=39
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+NeedItem=Knight's Armament Company SR-25 7.62x51 marksman riflex1
+ContainsAll=Stark SE-5 Express Forward foregrip
+ContainsAll=AR-15 HK Ergo PSG-1 style pistol grip
+ContainsAll=FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescope
+ContainsAll=Steiner DBAL-PL tactical device
+ContainsAll=Burris FastFire 3 reflex sight
+ContainsAll=NcSTAR MPR45 Backup mount
+ContainsAll=KAC PRS/QDC 7.62x51 sound suppressor
+Task_Else=accuracy >= 0
+Task_Else=durability >= 60
+Task_Else=effectiveDistance >= 500
+Task_Else=ergonomics >= 25
+Task_Else=height >= 0
+Task_Else=magazineCapacity >= 10
+Task_Else=muzzleVelocity >= 0
+Task_Else=recoil <= 300
+Task_Else=weight <= 6
+Task_Else=width >= 0
+
+[
+	TaskType=buildWeapon
+	TaskText=Modify a KAC SR-25 to comply with the given specifications
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+3
+Reward_Item=[
+	Eurosx1500/|
+	Pipe grip wrenchx3/|
+	FP-100 filter absorberx2
+]
+
+Reward_EXP=31250

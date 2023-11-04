@@ -1,0 +1,11 @@
+Name=Tokarev SVT-40 7.62x54R rifle Sniper
+Base=Tokarev SVT-40 7.62x54R rifle
+Parts=AVT-40 wooden stock 
+Parts=SVT-40 7.62x54R 625mm barrel
+Parts=SVT-40 7.62x54R muzzle brake
+Parts=SVT-40 front sight
+Parts=SVT-40 rear sight
+Parts=SVT dust cover 
+Parts=SVT-40 7.62x54R 10-round magazine
+Parts=SVT-40 Tokarev PU mount
+Parts=PU 3.5x riflescope

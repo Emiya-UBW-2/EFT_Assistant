@@ -1,4 +1,4 @@
-*RB-TB key/RB-TBの鍵
+*RB-TB key/RB-TB の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(RB-TB key-summary.webp);
 
 *概要
 //概要を記載
-A key to the Federal State Reserve Agency base eastern barracks' underground shooting range.
+連邦国家準備局の基地内にある東兵舎の地下射撃場の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -55,3 +55,4 @@ A key to the Federal State Reserve Agency base eastern barracks' underground sho
 
 *コメント
 //編集掲示板でzawazawaのコメントを作成するように依頼してください
+#zcomment(t=eft%2F532&amp;h=350&amp;size=10)

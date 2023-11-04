@@ -9,4 +9,4 @@ weight=0.049000
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
 Name_Jpn=.338 ラプアマグナム AP
-Information_Jpn=239グレインの徹甲弾頭を備えた .338 Lapua Magnum AP弾
+Information_Jpn=A .338 Lapua Magnum (8.6x70mm) AP cartridge with a two-part armor-piercing projectile of 15.4 grams, the bullet consists of a sabot and a tungsten carbide penetrator body, in a brass case. This cartridge was designed to increase, in a limited way, the anti-materiel capabilities of the .338 Lapua Magnum caliber rifles, managing to pierce through light armored vehicles not to mention its excellent results against the most modern specialized ballistic body protections as well as having a considerable stopping power effect and be able to inflict devastating adverse effects on the target after impact. However, due to its design, it has a significant probability of bouncing off various surfaces.

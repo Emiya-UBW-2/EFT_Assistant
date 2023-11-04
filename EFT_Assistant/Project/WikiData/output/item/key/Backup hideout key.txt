@@ -1,4 +1,4 @@
-*Backup hideout key/Backup hideout key
+*Backup hideout key/予備の隠れ家の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Backup hideout key-summary.webp);
 
 *概要
 //概要を記載
-A key to the Informant's second hideout.
+情報屋が所有する2番目の隠れ家の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する

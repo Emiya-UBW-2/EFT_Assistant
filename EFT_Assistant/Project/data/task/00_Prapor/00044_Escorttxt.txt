@@ -1,0 +1,93 @@
+IDstr=60e71b62a0beca400d69efc4
+Name=Escort
+Trader=Prapor
+
+NeedTask=The Punisher - Part 6
+NeedLevel=60
+
+CanRestart=true
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_Map=Factory
+Task_Kill=[
+	Factory-any PMC operativesx4
+]
+Task_Map=Customs
+Task_Kill=[
+	Customs-any PMC operativesx4
+]
+Task_Map=Shoreline
+Task_Kill=[
+	Shoreline-any PMC operativesx4
+]
+Task_Map=Reserve
+Task_Kill=[
+	Reserve-any PMC operativesx4
+]
+Task_Map=Woods
+Task_Kill=[
+	Woods-any PMC operativesx4
+]
+Task_Map=Interchange
+Task_Kill=[
+	Interchange-any PMC operativesx4
+]
+Task_Map=The Lab
+Task_Kill=[
+	The Lab-any PMC operativesx4
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives on daytime Factory
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives on Customs
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives on Reserve
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives on Woods
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives on Interchange
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives in The Lab
+	TaskOptional=false
+]
+
+Reward_Item=[
+	6B43 6A Zabralo-Sh body armorx1
+]
+Reward_SkillLevelUp=Melee+2
+Reward_SkillLevelUp=Pistols+1
+Reward_SkillLevelUp=Strength+1
+
+Task_Else=脱出ステータス:[Killed in Action (KIA),Left the Action,Missing in Action (MIA)]
+
+[
+	TaskType=extract
+	TaskText=You must not die or leave the raid while the task is active (Status: KIA, Left the Action, MIA, Ran Through)
+	TaskOptional=false
+]
+
+Reward_EXP=177000

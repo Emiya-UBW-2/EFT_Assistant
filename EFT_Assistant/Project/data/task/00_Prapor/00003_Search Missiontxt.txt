@@ -1,0 +1,46 @@
+IDstr=5fd9fad9c1ce6b1a3b486d00
+Name=Search Mission
+Trader=Prapor
+
+NeedTask=Debut
+NeedLevel=5
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Woods
+factionName=Any
+Task_Map=Woods
+Task_Else=TaskType:visit
+Task_Else=Locate Prapor's missing convoy on Woods
+Task_Map=Woods
+Task_Else=TaskType:visit
+Task_Else=Locate the temporary USEC camp
+Task_Map=Woods
+Task_Else=脱出ステータス:[Survived,Run Through]
+
+[
+	TaskType=visit
+	TaskText=Locate Prapor's missing convoy on Woods
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate the temporary USEC camp
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Prapor+2
+Reward_Item=[
+	Roublesx22000/|
+	EYE MK.2 professional hand-held compassx1/|
+	Woods plan mapx1
+]
+
+Reward_EXP=2800

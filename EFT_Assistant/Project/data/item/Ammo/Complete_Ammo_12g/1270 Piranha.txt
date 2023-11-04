@@ -1,0 +1,12 @@
+IDstr=64b8ee384b75259c590fa89b
+Name=12/70 Piranha
+ShortName=Piranha
+Information_Eng=This 12 gauge round contains dozens of razor sharp steel tacks that blast out at high velocity which virtually guarantees that there will be no response from the perpetrator. Each round is buffed with #12 shot thus creating a double shock to the wound area. Absolutely will not harm your shotgun. To be used no closer than 10 feet and no further than 50 feet.
+Itemtype=Ammo
+width=1
+height=1
+weight=0.050000
+fleaMarketFee=0
+propertiestype=ItemPropertiesAmmo
+Name_Jpn=12/70 Piranha
+Information_Jpn=This 12 gauge round contains dozens of razor sharp steel tacks that blast out at high velocity which virtually guarantees that there will be no response from the perpetrator. Each round is buffed with #12 shot thus creating a double shock to the wound area. Absolutely will not harm your shotgun. To be used no closer than 10 feet and no further than 50 feet.

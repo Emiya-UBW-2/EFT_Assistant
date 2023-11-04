@@ -1,5 +1,5 @@
 IDstr=59faff1d86f7746c51718c9c
-Name=Physical bitcoin
+Name=Physical Bitcoin
 ShortName=0.2BTC
 Information_Eng=A physical equivalent of the Bitcoin cryptocurrency (0.2 BTC value).
 Itemtype=Jewelry

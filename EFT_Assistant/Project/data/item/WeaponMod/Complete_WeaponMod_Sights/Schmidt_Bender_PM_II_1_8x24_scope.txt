@@ -8,6 +8,21 @@ height=1
 weight=0.900000
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
+Conflict=[
+	Axion Kobra EKP-8-18 reflex sight/|
+	OKP-7 reflex sight/|
+	ELCAN Specter HCO holographic sight/|
+	EOTech 553 holographic sight/|
+	EOTech EXPS3 holographic sight (Tan)/|
+	Holosun HS401G5 reflex sight/|
+	Leapers UTG reflex sight/|
+	SIG Sauer ROMEO8T reflex sight/|
+	SIG Sauer ROMEO7 1x30 reflex sight (prototype)/|
+	Trijicon SRS-02 reflex sight/|
+	Valday PK-120 (1P87) holographic sight/|
+	Valday Krechet reflex sight/|
+	Walther MRS reflex sight
+]
 Recoil=0.000000
 Ergonomics=-3.000000
 SightRange=1500

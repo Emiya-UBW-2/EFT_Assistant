@@ -37,7 +37,8 @@ ChildParts=[
 	AR-15 Stark AR Rifle Grip (Black)/|
 	AR-15 Stark AR Rifle Grip (FDE)/|
 	AR-15 Tactical Dynamics Hexgrip pistol grip/|
-	AR-15 Tactical Dynamics Skeletonized pistol grip
+	AR-15 Tactical Dynamics Skeletonized pistol grip/|
+	AR-15 Aeroknox Orion pistol grip
 ]
 ChildParts=[
 	5.56x45 Colt AR-15 STANAG 30-round magazine/|
@@ -60,11 +61,12 @@ ChildParts=[
 	5.56x45 TROY BattleMag STANAG 30-round magazine
 ]
 ChildParts=[
-	ADAR 2-15 5.56x45 upper receiver/|
+	AR-15 ADAR 2-15 5.56x45 upper receiver/|
 	M4A1 5.56x45 upper receiver/|
 	TX-15 5.56x45 Lightweight upper receiver/|
 	AR-15 Noveske Gen.3 5.56x45 upper receiver/|
-	AR-15 Vltor MUR-1S 5.56x45 upper receiver
+	AR-15 Vltor MUR-1S 5.56x45 upper receiver/|
+	AR-15 Aeroknox AX-15 5.56x45 upper receiver
 ]
 ChildParts=[
 	AR-15 Colt A2 buffer tube/|
@@ -86,7 +88,7 @@ ChildParts=[
 	AR-15 ADAR 2-15 charging handle/|
 	AR-15 Badger Ordnance Tactical Charging Handle Latch/|
 	AR-15 Colt charging handle/|
-	AR-15 Geissele ACH charging handle/|
+	AR-15 Geissele ACH charging handle (DDC)/|
 	AR-15 HK Extended Latch charging handle/|
 	AR-15 MASP Industries Ambidextrous Battle Charging Handle/|
 	AR-15 Radian Weapons Raptor charging handle/|
@@ -107,5 +109,4 @@ cameraSnap=3.500000
 deviationMax=23
 convergence=1.500000
 Name_Jpn=Colt M4A1 5.56x45 assault rifle
-Information_Jpn=The Colt M4A1 carbine is a fully automatic variant of the basic M4 Carbine and was primarily designed for special operations use.
-However, U.S. Special Operations Command (USSOCOM) was soon to adopt the M4A1 for almost all special operations units, followed later by general introduction of the M4A1 into service with the U.S. Army and Marine Corps.
+Information_Jpn=Colt M4A1 カービンは、基本的な M4 カービンをフルオート化した派生型で主に特殊作戦用として設計されたが、アメリカ特殊作戦軍 (USSOCOM) はすぐに、ほぼすべての特殊部隊に M4A1 を採用し、後に続いてアメリカ陸軍や海兵隊でも広く運用されるようになっていった。

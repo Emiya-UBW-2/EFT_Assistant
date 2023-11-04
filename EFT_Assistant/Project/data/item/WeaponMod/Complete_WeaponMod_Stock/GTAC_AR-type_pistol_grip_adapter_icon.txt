@@ -26,7 +26,8 @@ ChildParts=[
 	AR-15 Magpul MIAD pistol grip (FDE)/|
 	AR-15 Naroh Arms GRAL-S pistol grip/|
 	AR-15 Tactical Dynamics Hexgrip pistol grip/|
-	AR-15 Tactical Dynamics Skeletonized pistol grip
+	AR-15 Tactical Dynamics Skeletonized pistol grip/|
+	AR-15 Aeroknox Orion pistol grip
 ]
 ChildParts=[
 	AI AXMC .338 LM chassis

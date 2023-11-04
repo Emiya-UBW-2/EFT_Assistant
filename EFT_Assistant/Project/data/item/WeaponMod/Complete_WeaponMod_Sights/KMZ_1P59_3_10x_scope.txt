@@ -27,7 +27,10 @@ Conflict=[
 	Vortex Razor AMG UH-1 holographic sight/|
 	Walther MRS reflex sight/|
 	Aimpoint CompM4 reflex sight/|
-	Aimpoint LRP mount for CompM4 sights
+	Aimpoint LRP mount for CompM4 sights/|
+	ELCAN Specter HCO holographic sight/|
+	Leapers UTG reflex sight/|
+	SIG Sauer ROMEO7 1x30 reflex sight (prototype)
 ]
 Recoil=0.000000
 Ergonomics=-8.000000

@@ -1,4 +1,4 @@
-*RB-SMP key/RB-SMPの鍵
+*RB-SMP key/RB-SMP の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(RB-SMP key-summary.webp);
 
 *概要
 //概要を記載
-A key to the Federal State Reserve Agency base Military unit Headquarters' medical storage room.
+連邦国家準備局の基地内にある部隊司令部の医薬品保管室の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -60,3 +60,4 @@ A key to the Federal State Reserve Agency base Military unit Headquarters' medic
 
 *コメント
 //編集掲示板でzawazawaのコメントを作成するように依頼してください
+#zcomment(t=eft%2F545&amp;h=350&amp;size=10)

@@ -1,4 +1,4 @@
-*Health Resort west wing room 303 key/Health Resort west wing room 303 key
+*Health Resort west wing room 303 key/保養所 西棟303号室の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Health Resort west wing room 303 key-summary.webp);
 
 *概要
 //概要を記載
-A key to the Azure Coast sanatorium west wing room 303.
+保養所 "アズール・コースト" 西棟の303号室の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -33,7 +33,6 @@ A key to the Azure Coast sanatorium west wing room 303.
 
 
 *使用場所
-保養地西棟303号室の鍵だが、施錠されてないため不要
 
 **入手できるもの
 //なければ無しと記載

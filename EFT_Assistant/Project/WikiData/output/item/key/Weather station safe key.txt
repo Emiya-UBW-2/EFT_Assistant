@@ -7,7 +7,7 @@ CENTER:&ref(Weather station safe key-summary.webp);
 
 *概要
 //概要を記載
-A key to the safe inside the weather station, located somewhere near the Azure Coast sanatorium.
+保養所 "アズール・コースト" 近くの気象台にある金庫の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -24,7 +24,6 @@ A key to the safe inside the weather station, located somewhere near the Azure C
 **レイド内
 
 *使用場所
-Shorelineにある気象台の金庫。施錠されていない。
 
 **入手できるもの
 //なければ無しと記載

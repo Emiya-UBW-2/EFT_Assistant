@@ -197,5 +197,32 @@
     <ClCompile Include="source\Scene\MainScene\Page\MainScene_PageItem.cpp">
       <Filter>ソース ファイル\Scene\Page</Filter>
     </ClCompile>
+    <ClCompile Include="source\Parts\DrawSystem.cpp">
+      <Filter>ソース ファイル\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Parts\InputParts.cpp">
+      <Filter>ソース ファイル\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Parts\InterruptParts.cpp">
+      <Filter>ソース ファイル\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Parts\PlayerDataParts.cpp">
+      <Filter>ソース ファイル\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Parts\StrControl.cpp">
+      <Filter>ソース ファイル\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Parts\WindowParts.cpp">
+      <Filter>ソース ファイル\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene\MainScene\Data\MainScene_Base.cpp">
+      <Filter>ソース ファイル\Scene\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene\MainSceneLoader.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene\MainScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

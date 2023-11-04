@@ -1,0 +1,2 @@
+Name_Jpn=Kalashnikov AK-12 5.45x39 assault rifle
+Information_Jpn=The Kalashnikov AK-12 5.45 automatic rifle is the primary model of individual small arms for personnel of motorized and other units of the Russian Armed Forces. The AK-12 is a part of the Ratnik equipment system.

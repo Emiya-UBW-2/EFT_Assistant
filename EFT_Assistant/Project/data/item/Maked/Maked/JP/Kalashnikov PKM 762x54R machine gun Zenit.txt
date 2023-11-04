@@ -1,0 +1,2 @@
+Name_Jpn=Kalashnikov PKM 7.62x54R machine gun Zenit
+Information_Jpn=

@@ -1,4 +1,4 @@
-*RB-RLSA key/RB-RLSA key
+*RB-RLSA key/RB-RLSA の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(RB-RLSA key-summary.webp);
 
 *概要
 //概要を記載
-A key to the Federal State Reserve Agency base Radar Station document archives.
+連邦国家準備局の基地内にあるレーダー管制施設の資料保管室の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -62,3 +62,4 @@ A key to the Federal State Reserve Agency base Radar Station document archives.
 
 *コメント
 //編集掲示板でzawazawaのコメントを作成するように依頼してください
+#zcomment(t=eft%2F553&amp;h=350&amp;size=10)

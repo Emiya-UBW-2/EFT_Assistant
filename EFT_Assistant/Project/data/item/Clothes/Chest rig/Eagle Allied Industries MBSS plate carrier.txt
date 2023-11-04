@@ -1,0 +1,12 @@
+IDstr=64a5366719bab53bd203bf33
+Name=Eagle Allied Industries MBSS plate carrier
+ShortName=MBSS
+Information_Eng=The MBSS vest with high-density polyethylene armor plates (class 3) is part of the Maritime Ballistic Survivor System. The vest can be used with flotation inserts to provide buoyancy as it is not equipped with a quick release system. Manufactured by Eagle Allied Industries.
+Itemtype=Chest rig
+width=3
+height=3
+weight=5.200000
+fleaMarketFee=0
+propertiestype=ItemPropertiesChestRig
+Name_Jpn=Eagle Allied Industries MBSS plate carrier
+Information_Jpn=The MBSS vest with high-density polyethylene armor plates (class 3) is part of the Maritime Ballistic Survivor System. The vest can be used with flotation inserts to provide buoyancy as it is not equipped with a quick release system. Manufactured by Eagle Allied Industries.

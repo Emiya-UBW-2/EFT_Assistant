@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Shoreline
-Name_Jpn=Health Resort west wing room 220 key
-Information_Jpn=A key to the Azure Coast sanatorium west wing room 220.
+Name_Jpn=保養所 西棟220号室の鍵
+Information_Jpn=保養所 "アズール・コースト" 西棟の220号室の鍵。

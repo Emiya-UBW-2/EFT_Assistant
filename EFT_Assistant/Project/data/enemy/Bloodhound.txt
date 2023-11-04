@@ -1,0 +1,2 @@
+Name=Bloodhound
+Color=[128/|192/|0]

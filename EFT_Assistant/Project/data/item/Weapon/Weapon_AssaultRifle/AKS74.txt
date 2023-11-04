@@ -58,7 +58,8 @@ ChildParts=[
 	PP-19-01 "Vityaz" pistol grip/|
 	AK FAB Defense AGR-47 pistol grip/|
 	AK TangoDown Battle Grip pistol grip/|
-	AK TangoDown Battle Grip pistol grip (FDE)
+	AK TangoDown Battle Grip pistol grip (FDE)/|
+	AK Mission First Tactical ENGAGE AK47 pistol grip
 ]
 ChildParts=[
 	AK-74 dust cover (6P20 0-1)/|
@@ -74,7 +75,9 @@ ChildParts=[
 	AK-74 rear sight (6P20 Sb.2)/|
 	AK-74M rear sight (6P20 Sb.2)/|
 	AK Taktika Tula TT01 rear sight rail/|
-	AK RD Enhanced V2 Rear Sight
+	AK RD Enhanced V2 Rear Sight/|
+	AK-12 rear sight/|
+	RPK-16 rear sight
 ]
 ChildParts=[
 	AKS-74/AKS-74U Zenit PT Lock/|
@@ -91,7 +94,9 @@ ChildParts=[
 	AK-74 "Saiga 545" 5.45x39 10-round magazine/|
 	AK-74 5.45x39 Magpul PMAG 30 GEN M3 30-round magazine/|
 	AK-12 5.45x39 30-round magazine/|
-	RPK-16 5.45x39 95-round drum magazine
+	RPK-16 5.45x39 95-round drum magazine/|
+	AK-12 5.45x39 early model 30-round magazine/|
+	AK-74 "Saiga 545" 5.45x39 20-round magazine
 ]
 ChildParts=[
 	AK CSS knurled charging handle/|
@@ -110,5 +115,5 @@ cameraRecoil=0.076800
 cameraSnap=3.500000
 deviationMax=23
 convergence=1.600000
-Name_Jpn=Kalashnikov AKS-74 5.45x39 assault rifle
-Information_Jpn=The AKS-74 (Avtomat Kalashnikova Skladnoy 74 - "Kalashnikov's Automatic rifle 74 with a foldable stock") 5.45x39mm assault rifle is a variant of AK-74 equipped with a side-folding metal shoulder stock, designed primarily for use with air assault infantry and developed alongside the basic AK-74. The AKS-74 stock is fabricated from stamped sheet metal struts, machine pressed into a "U" shape and assembled by punch fit and welding.
+Name_Jpn=AK-74 5.45x39 アサルトライフル
+Information_Jpn=AKS-74 (Avtomat Kalashnikova Skladnoy 74 - "折りたたみ式ストックを装備したカラシニコフ自動小銃 74") 5.45x39mm アサルトライフルは、AK-74 の派生型で、折りたたみ式の金属製ストックを装備し、主に空挺兵向けに設計され、AK-74 と並行して開発された。ストックは、押し抜きと溶接によって組み立てられ、押し出し成形された板金の支柱から製造されている。

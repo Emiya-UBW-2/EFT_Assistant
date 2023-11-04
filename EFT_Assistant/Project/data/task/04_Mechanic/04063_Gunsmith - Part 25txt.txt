@@ -1,0 +1,43 @@
+IDstr=64f83bd983cfca080a362c82
+Name=Gunsmith - Part 25
+Trader=Mechanic
+
+NeedTask=Gunsmith - Part 24
+NeedLevel=39
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+NeedItem=Kalashnikov PKP 7.62x54R infantry machine gunx1
+ContainsAll=PK Zenit B-50 handguard
+ContainsAll=PK Zenit PT-2 "Klassika" stock
+ContainsAll=PK Zenit DTK-1P 7.62x54R muzzle brake
+ContainsAll=NPZ USP-1 "Tyulpan" 4x scope
+ContainsAll=PK 7.62x54R 100-round box
+ContainsCategory=Comb. tact. device
+Task_Else=accuracy >= 0
+Task_Else=durability >= 60
+Task_Else=effectiveDistance >= 500
+Task_Else=ergonomics >= 10
+Task_Else=height >= 0
+Task_Else=magazineCapacity >= 0
+Task_Else=muzzleVelocity >= 0
+Task_Else=recoil <= 850
+Task_Else=weight >= 0
+Task_Else=width >= 0
+
+[
+	TaskType=buildWeapon
+	TaskText=Modify a PKP machine gun to comply with the given specifications
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+4
+Reward_Item=[
+	Physical Bitcoinx5/|
+	Weapon casex1
+]
+
+Reward_EXP=35000

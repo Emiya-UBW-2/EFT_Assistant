@@ -1,0 +1,50 @@
+IDstr=626bdcc3a371ee3a7a3514c5
+Name=Stray Dogs
+Trader=Jaeger
+
+NeedTask=The Huntsman Path - Trophy
+NeedTask=The Huntsman Path - Woods Keeper
+NeedTask=The Huntsman Path - Sellout
+NeedLevel=35
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+factionName=Any
+Task_Kill=[
+	Death Knightx1
+]
+Task_Kill=[
+	Big Pipex1
+]
+Task_Kill=[
+	Birdeyex1
+]
+
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Knight
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Big Pipe
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Birdeye
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+2
+Reward_Item=[
+	Roublesx230000/|
+	S I C C organizational pouchx1/|
+	SWORD International Mk-18 .338 LM marksman rifle Defaultx1/|
+	Mk-18 .338 LM 10-round magazinex2/|
+	.338 Lapua Magnum FMJx20
+]
+
+Reward_EXP=35000

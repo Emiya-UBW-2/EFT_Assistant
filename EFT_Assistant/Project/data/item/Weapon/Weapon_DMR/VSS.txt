@@ -38,9 +38,9 @@ ChildParts=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
 	BelOMO PK-AA dovetail reflex sight/|
 	OKP-7 reflex sight (Dovetail)/|
-	NPZ PK1 "Obzor" reflex sight/|
+	NPZ PK1 "Obzor" dovetail reflex sight/|
 	NPZ USP-1 "Tyulpan" 4x scope/|
-	NSPU-M night vision scope/|
+	NSPU-M 3.5x dovetail night vision scope/|
 	Axion Kobra dovetail mount/|
 	SVD CAA XD RGL receiver mount/|
 	KMZ 1P59 dovetail mount/|

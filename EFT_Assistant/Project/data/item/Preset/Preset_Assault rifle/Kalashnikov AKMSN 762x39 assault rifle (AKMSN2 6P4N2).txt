@@ -18,7 +18,7 @@ containsItems=[
 	AKM rear sight (6P1 Sb.2-1)x1/|
 	AKMSN shoulder piece (6P4N Sb.1-19)x1/|
 	AKMS 7.62x39 aluminium 30-round magazinex1/|
-	NSPU-M night vision scopex1/|
+	NSPU-M 3.5x dovetail night vision scopex1/|
 	NSPU-M scope eyecupx1
 ]
 Name_Jpn=AKMSN 7.62x39 アサルトライフル (AKMSN2 6P4N2)

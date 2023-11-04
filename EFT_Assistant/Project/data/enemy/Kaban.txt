@@ -1,0 +1,2 @@
+Name=Kaban
+Color=[128/|192/|0]

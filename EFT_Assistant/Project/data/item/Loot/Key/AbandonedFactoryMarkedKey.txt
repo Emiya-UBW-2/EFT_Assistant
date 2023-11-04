@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=10
 Map=Streets of Tarkov
-Name_Jpn=Abandoned factory marked key
-Information_Jpn=A mysterious key to an unknown door at the abandoned city factory. There is a strange symbol scratched onto it.
+Name_Jpn=マークの刻まれた廃工場の鍵
+Information_Jpn=廃墟と化した町工場の中にあるという謎めいた開かずの扉の鍵。奇妙なマークが刻まれている。

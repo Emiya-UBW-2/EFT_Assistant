@@ -33,7 +33,8 @@ ChildParts=[
 	AK TAPCO SAW-Style pistol grip (FDE)/|
 	AK US Palm pistol grip/|
 	AK Zenit RK-3 pistol grip/|
-	PP-19-01 "Vityaz" pistol grip
+	PP-19-01 "Vityaz" pistol grip/|
+	AK Mission First Tactical ENGAGE AK47 pistol grip
 ]
 ChildParts=[
 	CNC Guns OV-SV98 M12B stock

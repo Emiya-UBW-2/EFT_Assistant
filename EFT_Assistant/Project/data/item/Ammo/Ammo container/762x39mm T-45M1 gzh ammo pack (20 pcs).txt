@@ -1,0 +1,12 @@
+IDstr=64acea09c4eda9354b0226ad
+Name=7.62x39mm T-45M1 gzh ammo pack (20 pcs)
+ShortName=T-45M1
+Information_Eng=A 20-round package of 7.62x39 T-45M1 gzh cartridges.
+Itemtype=Ammo container
+width=1
+height=1
+weight=0.015000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=7.62x39mm T-45M1 gzh ammo pack (20 pcs)
+Information_Jpn=A 20-round package of 7.62x39 T-45M1 gzh cartridges.

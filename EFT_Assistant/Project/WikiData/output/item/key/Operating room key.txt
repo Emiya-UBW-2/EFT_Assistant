@@ -1,4 +1,4 @@
-*Operating room key/Operating room key
+*Operating room key/手術室の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Operating room key-summary.webp);
 
 *概要
 //概要を記載
-A key that opens the operating room with broadcasting equipment, located somewhere at the water treatment plant.
+浄水場のどこかにある放送機器を備えた手術室に入るための鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する

@@ -12,19 +12,20 @@ ChildParts=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
 	BelOMO PK-AA dovetail reflex sight/|
 	OKP-7 reflex sight (Dovetail)/|
-	NPZ PK1 "Obzor" reflex sight/|
+	NPZ PK1 "Obzor" dovetail reflex sight/|
 	BelOMO PSO-1 4x24 scope/|
 	BelOMO PSO-1M2-1 4x24 scope/|
 	BelOMO PSO-1M2 4x24 scope/|
 	NPZ USP-1 "Tyulpan" 4x scope/|
-	NSPU-M night vision scope/|
+	NSPU-M 3.5x dovetail night vision scope/|
 	Axion Kobra dovetail mount/|
 	KMZ 1P59 dovetail mount/|
 	NPZ 1P78-1 dovetail mount/|
 	VOMZ Pilad 043-02 dovetail mount/|
 	Zenit B-13 "Klassika" dovetail rail platform/|
 	Zenit B-13V "Klassika" dovetail rail platform/|
-	SAG Bit low profile dovetail sidemount
+	SAG Bit low profile dovetail sidemount/|
+	SAG AK dovetail sidemount
 ]
 ChildParts=[
 	SOK-12 Bravo-18 aluminium handguard/|
@@ -62,7 +63,8 @@ ChildParts=[
 	PP-19-01 "Vityaz" pistol grip/|
 	AK FAB Defense AGR-47 pistol grip/|
 	AK TangoDown Battle Grip pistol grip (FDE)/|
-	AK TangoDown Battle Grip pistol grip
+	AK TangoDown Battle Grip pistol grip/|
+	AK Mission First Tactical ENGAGE AK47 pistol grip
 ]
 ChildParts=[
 	SOK-12 dust cover (Sb.0-2)

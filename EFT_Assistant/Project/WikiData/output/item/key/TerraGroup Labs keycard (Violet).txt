@@ -47,3 +47,4 @@ United Securityが発行したTerraGroup Labsのキーカード。研究員用。
 
 *コメント
 //編集掲示板でzawazawaのコメントを作成するように依頼してください
+#zcomment(t=eft%2F523&amp;h=350&amp;size=10)

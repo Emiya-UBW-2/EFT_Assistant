@@ -1,0 +1,9 @@
+Name=Kalashnikov PKM 7.62x54R machine gun Default
+Base=Kalashnikov PKM 7.62x54R machine gun
+Parts=PK pistol grip
+Parts=PKM 7.62x54R 658mm barrel
+Parts=PKM 7.62x54R slotted flash hider
+Parts=PK 7.62x54R 100-round box
+Parts=PKM wooden stock
+Parts=PK bipod
+Parts=PK rear sight

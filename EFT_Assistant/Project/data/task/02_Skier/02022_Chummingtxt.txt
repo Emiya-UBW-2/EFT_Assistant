@@ -1,0 +1,58 @@
+IDstr=5b4795fb86f7745876267770
+Name=Chumming
+Trader=Skier
+
+NeedTask=Informed Means Armed
+NeedLevel=27
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+factionName=Any
+Task_Map=Interchange
+Task_NotFiR_HandOver=[Golden neck chainx3]
+DogTagLv=0
+Task_Map=Customs
+Task_NotFiR_HandOver=[Golden neck chainx3]
+DogTagLv=0
+Task_Map=Woods
+Task_NotFiR_HandOver=[Golden neck chainx3]
+DogTagLv=0
+Task_Map=Interchange
+Task_Kill=[
+	Interchange-any PMC operativesx5
+]
+
+[
+	TaskType=plantItem
+	TaskText=Stash Golden neck chains under the mattress next to BTR-82A in Generic Store on Interchange
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Stash Golden neck chains in the microwave on the 3rd floor of the dorm on Customs
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Stash Golden neck chains in the middle wooden cabin at the sawmill on Woods
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives in the time period of 22:00-10:00 on Interchange
+	TaskOptional=false
+]
+
+Reward_Item=[
+	Golden neck chainx4
+]
+Reward_Rep=Skier+5
+Reward_Item=[
+	Roublesx65000/|
+	Roler Submariner gold wrist watchx1/|
+	GP coinx2
+]
+
+Reward_EXP=19100

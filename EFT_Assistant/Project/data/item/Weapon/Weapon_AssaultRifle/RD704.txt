@@ -23,7 +23,7 @@ ChildParts=[
 	AR-10 KAC QDC 7.62x51 Flash Suppressor Kit/|
 	AR-10 KAC QDC 7.62x51 Muzzle Brake Kit/|
 	AR-10 Keeno Arms SHREWD 7.62x51 muzzle brake/|
-	AR-10 Lantac Drakon 7.62x51 muzzle brake-compensator/|
+	AR-10 Lantac Dragon 7.62x51 muzzle brake-compensator/|
 	AR-10 Nordic Components Corvette 7.62x51 compensator/|
 	AR-10 Odin Works ATLAS-7 7.62x51 muzzle brake/|
 	AR-10 Precision Armanent M11 Severe-Duty 7.62x51 muzzle brake/|
@@ -59,7 +59,8 @@ ChildParts=[
 	AK TAPCO SAW-Style pistol grip (FDE)/|
 	AK US Palm pistol grip/|
 	AK Zenit RK-3 pistol grip/|
-	PP-19-01 "Vityaz" pistol grip
+	PP-19-01 "Vityaz" pistol grip/|
+	AK Mission First Tactical ENGAGE AK47 pistol grip
 ]
 ChildParts=[
 	AK-74 dust cover (6P20 0-1)/|
@@ -76,7 +77,9 @@ ChildParts=[
 	AK-74 rear sight (6P20 Sb.2)/|
 	AK-74M rear sight (6P20 Sb.2)/|
 	AK RD Enhanced V2 Rear Sight/|
-	AK Taktika Tula TT01 rear sight rail
+	AK Taktika Tula TT01 rear sight rail/|
+	AK-12 rear sight/|
+	RPK-16 rear sight
 ]
 ChildParts=[
 	AK-74 polymer stock (6P20 Sb.7)/|
@@ -110,24 +113,27 @@ ChildParts=[
 	AK 7.62x39 ProMag AK-A-16 73-round drum magazine/|
 	AK 7.62x39 US Palm "AK30" 30-round magazine (Black)/|
 	AK 7.62x39 US Palm "AK30" 30-round magazine (FDE)/|
-	AK 7.62x39 X Products X-47 50-round drum magazine
+	AK 7.62x39 X Products X-47 50-round drum magazine/|
+	AK 7.62x39 Magpul PMAG 20 GEN M3 20-round magazine
 ]
 ChildParts=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
 	BelOMO PK-AA dovetail reflex sight/|
 	OKP-7 reflex sight (Dovetail)/|
-	NPZ PK1 "Obzor" reflex sight/|
+	NPZ PK1 "Obzor" dovetail reflex sight/|
 	BelOMO PSO-1 4x24 scope/|
 	BelOMO PSO-1M2-1 4x24 scope/|
 	BelOMO PSO-1M2 4x24 scope/|
 	NPZ USP-1 "Tyulpan" 4x scope/|
-	NSPU-M night vision scope/|
+	NSPU-M 3.5x dovetail night vision scope/|
 	Axion Kobra dovetail mount/|
 	KMZ 1P59 dovetail mount/|
 	NPZ 1P78-1 dovetail mount/|
 	VOMZ Pilad 043-02 dovetail mount/|
 	Zenit B-13 "Klassika" dovetail rail platform/|
-	Zenit B-13V "Klassika" dovetail rail platform
+	Zenit B-13V "Klassika" dovetail rail platform/|
+	SAG AK dovetail sidemount/|
+	SAG Bit low profile dovetail sidemount
 ]
 ChildParts=[
 	AK CSS knurled charging handle/|

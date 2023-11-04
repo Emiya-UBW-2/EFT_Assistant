@@ -97,7 +97,11 @@ ChildParts=[
 	UNV DLOC-IRD sight mount/|
 	Leapers UTG 25mm ring scope mount/|
 	SwampFox Trihawk Prism Scope 3x30/|
-	AI AX-50 34mm scope mount
+	AI AX-50 34mm scope mount/|
+	Armasight Zeus universal base/|
+	SIG Sauer ROMEO7 1x30 reflex sight (prototype)/|
+	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope/|
+	ELCAN Specter HCO holographic sight
 ]
 ChildParts=[
 	HK MP7 flip-up rear sight/|
@@ -124,5 +128,5 @@ cameraRecoil=0.067200
 cameraSnap=3.500000
 deviationMax=23
 convergence=1.600000
-Name_Jpn=Desert Tech MDR 5.56x45 assault rifle
-Information_Jpn=The MDR 5.56x45 bullpup assault rifle, designed and manufactured by Desert Tech LLC. A modular multi-caliber weapon with a compact bullpup layout intended for use by police and military special forces. Barrel lengths and calibers can be changed by the end-user within minutes with a minimum amount of tools.
+Name_Jpn=MDR 5.56x45 アサルトライフル
+Information_Jpn=MDR は、デザートテック LLC によって設計および製造された、5.56x45mm弾を使用するブルパップ方式アサルトライフルで、組み立てユニットのマルチキャリバーライフルで、コンパクトなブルパップのレイアウトを備え、警察および軍の特殊部隊向けに設計されている。銃身の長さや口径は、最小限の工具を使用して、数分でエンドユーザーによって改造ができる。

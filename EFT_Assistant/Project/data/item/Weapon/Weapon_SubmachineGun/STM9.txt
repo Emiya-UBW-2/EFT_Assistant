@@ -36,7 +36,8 @@ ChildParts=[
 	AR-15 Stark AR Rifle Grip (Black)/|
 	AR-15 Stark AR Rifle Grip (FDE)/|
 	AR-15 Tactical Dynamics Hexgrip pistol grip/|
-	AR-15 Tactical Dynamics Skeletonized pistol grip
+	AR-15 Tactical Dynamics Skeletonized pistol grip/|
+	AR-15 Aeroknox Orion pistol grip
 ]
 ChildParts=[
 	Glock 9x19 "Big Stick" 33-round magazine/|
@@ -70,7 +71,7 @@ ChildParts=[
 	AR-15 ADAR 2-15 charging handle/|
 	AR-15 Badger Ordnance Tactical Charging Handle Latch/|
 	AR-15 Colt charging handle/|
-	AR-15 Geissele ACH charging handle/|
+	AR-15 Geissele ACH charging handle (DDC)/|
 	AR-15 HK Extended Latch charging handle/|
 	AR-15 MASP Industries Ambidextrous Battle Charging Handle/|
 	AR-15 Radian Weapons Raptor charging handle/|

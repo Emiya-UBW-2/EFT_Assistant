@@ -69,7 +69,11 @@ ChildParts=[
 	Trijicon RMR low profile mount/|
 	Trijicon TA51 sight mount/|
 	UNV DLOC-IRD sight mount/|
-	Leapers UTG 25mm ring scope mount
+	Leapers UTG 25mm ring scope mount/|
+	Armasight Zeus universal base/|
+	SIG Sauer ROMEO7 1x30 reflex sight (prototype)/|
+	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope/|
+	ELCAN Specter HCO holographic sight
 ]
 Recoil=0.000000
 Ergonomics=3.000000

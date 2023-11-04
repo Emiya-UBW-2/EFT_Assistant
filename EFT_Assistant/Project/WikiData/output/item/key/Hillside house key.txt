@@ -1,4 +1,4 @@
-*Hillside house key/Hillside house key
+*Hillside house key/丘陵地の家の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Hillside house key-summary.webp);
 
 *概要
 //概要を記載
-A key that opens one of the old village houses.
+古い村にある民家のひとつに入るための鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -54,3 +54,4 @@ A key that opens one of the old village houses.
 
 *コメント
 //編集掲示板でzawazawaのコメントを作成するように依頼してください
+#zcomment(t=eft%2F508&amp;h=350&amp;size=10)

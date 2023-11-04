@@ -1,4 +1,4 @@
-*RB-ORB1 key/RB-ORB1の鍵
+*RB-ORB1 key/RB-ORB1 の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(RB-ORB1 key-summary.webp);
 
 *概要
 //概要を記載
-A key to one of the Federal State Reserve Agency base southern barracks' armories.
+連邦国家準備局の基地内にある南兵舎の武器保管室の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -69,3 +69,4 @@ A key to one of the Federal State Reserve Agency base southern barracks' armorie
 
 *コメント
 //編集掲示板でzawazawaのコメントを作成するように依頼してください
+#zcomment(t=eft%2F536&amp;h=350&amp;size=10)

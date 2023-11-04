@@ -1,7 +1,7 @@
 Name=ORSIS T-5000M 7.62x51 bolt-action sniper rifle Default
 Base=ORSIS T-5000M 7.62x51 bolt-action sniper rifle
 Parts=ORSIS T-5000M 7.62x51 5-round magazine
-Parts=T-5000M 7.62x51 660mm barrel
+Parts=ORSIS T-5000M 7.62x51 660mm barrel
 Parts=ORSIS T-5000M 7.62x51 muzzle brake-compensator
 Parts=ORSIS T-5000M aluminium body
 Parts=ORSIS T-5000M handguard

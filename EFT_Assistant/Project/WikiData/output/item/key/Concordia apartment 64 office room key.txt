@@ -1,4 +1,4 @@
-*Concordia apartment 64 office room key/Concordia apartment 64 office room key
+*Concordia apartment 64 office room key/コンコルディア・アパート 64号室の事務室の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,15 +7,15 @@ CENTER:&ref(Concordia apartment 64 office room key-summary.webp);
 
 *概要
 //概要を記載
-A key to the office room of the premium apartment inside the Concordia building.
+コンコルディア・ビルの高級な集合住宅の中にある事務室の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
 
 //命名規則
 //「短縮名-icon.webp」スペースはアンダーバー「_｣
-|CENTER:BGCOLOR(#D8F781):アイコン|CENTER:&ref(Concd off.-icon.webp);|
-|CENTER:BGCOLOR(#D8F781):短縮名|Concd off.|
+|CENTER:BGCOLOR(#D8F781):アイコン|CENTER:&ref(Conc off.-icon.webp);|
+|CENTER:BGCOLOR(#D8F781):短縮名|Conc off.|
 |CENTER:BGCOLOR(#D8F781):重量|0.010kg|
 |CENTER:BGCOLOR(#D8F781):サイズ|1x1|
 |CENTER:BGCOLOR(#D8F781):使用回数|40|

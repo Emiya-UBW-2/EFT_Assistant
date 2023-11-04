@@ -27,7 +27,8 @@ ChildParts=[
 	Zenit Klesch-2U tactical flashlight/|
 	Zenit Perst-3 tactical device/|
 	Daniel Defense 25mm accessory ring mount/|
-	Kiba Arms 25mm accessory ring mount
+	Kiba Arms 25mm accessory ring mount/|
+	MAWL-C1+ tactical device
 ]
 Recoil=0.000000
 Ergonomics=0.000000

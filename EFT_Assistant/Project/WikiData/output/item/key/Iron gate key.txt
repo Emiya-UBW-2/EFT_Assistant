@@ -1,4 +1,4 @@
-*Iron gate key/Iron gate key
+*Iron gate key/鉄格子の扉の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Iron gate key-summary.webp);
 
 *概要
 //概要を記載
-A key to an unknown iron gate.
+どこかにある鉄格子の扉を開けるための鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する

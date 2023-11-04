@@ -10,7 +10,7 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesArmorAttachment
 Conflict=[
 	Peltor ComTac 2 headset/|
-	MSA Sordin Supreme PRO-X/L active headset/|
+	MSA Sordin Supreme PRO-X/L headset/|
 	GSSh-01 active headset/|
 	Peltor Tactical Sport headset/|
 	Walker's Razor Digital headset

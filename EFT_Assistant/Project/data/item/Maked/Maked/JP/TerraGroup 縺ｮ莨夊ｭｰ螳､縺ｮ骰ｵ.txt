@@ -1,0 +1,2 @@
+Name_Jpn=TerraGroup の会議室の鍵
+Information_Jpn=テラグループの自社ビルにある会議室の鍵。

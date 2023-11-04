@@ -30,7 +30,7 @@ United Securityが発行したTerraGroup Labsのキーカード。トップレベルの権限を持つ管
 //===============================LIST
 |BGCOLOR(#D8F781):''トレーダー''|BGCOLOR(#D8F781):''トレーダーLV''|BGCOLOR(#D8F781):''必要なアイテム''|BGCOLOR(#D8F781):''入手できるアイテム''|BGCOLOR(#D8F781):''備考''|
 //
-|Mechanic|4|6-STEN-140-M military battery x5 &br;Cyclon rechargeable battery x8 &br;UHF RFID Reader x2 &br;Secured magnetic tape cassette x1|TerraGroup Labs keycard (Black) x1||
+|Mechanic|4|UHF RFID Reader x2 &br;6-STEN-140-M military battery x5 &br;Cyclon rechargeable battery x8 &br;Secure magnetic tape cassette x1|TerraGroup Labs keycard (Black) x1|Gunsmith - Part 25|
 //===============================LISTEND
 
 **タスク報酬
@@ -53,4 +53,4 @@ LabのG12
 //拡張子はjpgかpngかwebp
 
 *コメント
-#pcomment(*Lab. Black keycard,10,noname,below,reply)
+#zcomment(t=eft%2F519&amp;h=350&amp;size=10)

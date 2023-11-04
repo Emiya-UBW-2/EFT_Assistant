@@ -1,4 +1,4 @@
-*Gas station safe key/Gas station safe key
+*Gas station safe key/ガソリンスタンドの金庫の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Gas station safe key-summary.webp);
 
 *概要
 //概要を記載
-A key to the safe inside the gas station, located somewhere near the Azure Coast sanatorium.
+保養所 "アズール・コースト" 近くのガソリンスタンドにある金庫の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する

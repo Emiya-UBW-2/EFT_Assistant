@@ -1,0 +1,28 @@
+IDstr=5ae4499a86f77449783815db
+Name=Charisma Brings Success
+Trader=Ragman
+
+NeedTask=The Blood of War - Part 1
+NeedTask=Sew it Good - Part 4
+NeedLevel=25
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+factionName=Any
+Task_Else=Skillを上げる:Charisma+10.000000
+
+[
+	TaskType=skill
+	TaskText=Reach the required Charisma skill level
+	TaskOptional=false
+]
+
+Reward_Rep=Ragman+3
+Reward_Item=[
+	Roublesx60000/|
+	Ars Arma A18 Skanda plate carrierx1
+]
+
+Reward_EXP=15600

@@ -8,5 +8,5 @@ height=7
 weight=3.265000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
-Name_Jpn=Mystery Ranch Blackjack 50 backpack (Multicam)
-Information_Jpn=A backpack made for long and successful raids, manufactured by Mystery Ranch.
+Name_Jpn=Mystery Ranch ブラックジャック 50 バックパック (マルチカム)
+Information_Jpn=Mystery Ranch 社製の、長時間にわたる行軍を行うためのバックパックだ。

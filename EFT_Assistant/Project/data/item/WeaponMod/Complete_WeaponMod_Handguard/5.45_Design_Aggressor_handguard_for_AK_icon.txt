@@ -67,7 +67,9 @@ ChildParts=[
 	DeltaPoint Cross Slot Mount base/|
 	NcSTAR MPR45 Backup mount/|
 	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights/|
-	Trijicon RMR low profile mount
+	Trijicon RMR low profile mount/|
+	ELCAN Specter HCO holographic sight/|
+	MAWL-C1+ tactical device
 ]
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
@@ -153,7 +155,8 @@ ChildParts=[
 	Daniel Defense 25mm accessory ring mount/|
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
-	Insight WMX200 tactical flashlight
+	Insight WMX200 tactical flashlight/|
+	MAWL-C1+ tactical device
 ]
 Recoil=-3.000000
 Ergonomics=5.000000

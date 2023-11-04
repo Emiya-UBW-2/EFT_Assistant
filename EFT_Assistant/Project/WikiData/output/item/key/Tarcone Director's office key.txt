@@ -35,7 +35,7 @@ CENTER:&ref(Tarcone Director's office key-summary.webp);
 |BGCOLOR(#D8F781):''トレーダー''|BGCOLOR(#D8F781):''トレーダーLV''|BGCOLOR(#D8F781):''必要なアイテム''|BGCOLOR(#D8F781):''入手できるアイテム''|BGCOLOR(#D8F781):''備考''|
 //
 |Therapist|2|Golden neck chain x4|Tarcone Director's office key x1||
-|Therapist|1|Can of Ice Green tea x2 &br;Army crackers x4 &br;Can of squash spread x2|Tarcone Director's office key x1||
+|Therapist|1|Army crackers x4 &br;Can of squash spread x2 &br;Can of Ice Green tea x2|Tarcone Director's office key x1||
 //===============================LISTEND
 
 *タスク

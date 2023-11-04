@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=10
 Map=Reserve
-Name_Jpn=RB-VO marked key
-Information_Jpn=A Federal State Reserve Agency base guard barracks key with multiple strange symbols scratched onto it where the room label would usually be. The key is stained by blood and appears to have been misused a lot, making it fragile.
+Name_Jpn=マークの刻まれた RB-VO の鍵
+Information_Jpn=連邦国家準備局の基地内にある警備隊兵舎の鍵。通常なら部屋番号を書いたラベルを貼る部分に奇妙なマークがいくつも刻まれており、血がこびり付いた外観からは、ずっと乱暴に扱われてきたことがうかがえる。あと何回か使用するだけで壊れてしまうかもしれない。

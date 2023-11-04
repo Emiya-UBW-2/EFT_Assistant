@@ -1,4 +1,4 @@
-*Shared bedroom marked key/Shared bedroom marked key
+*Shared bedroom marked key/マークの刻まれた共同寝室の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Shared bedroom marked key-summary.webp);
 
 *概要
 //概要を記載
-A key that opens the shared bedroom, located somewhere on the Lighthouse peninsula territory. It has some strange symbols scratched onto it.
+灯台がそびえ立つ半島のどこかにある共同寝室に入るための鍵。奇妙なマークが刻まれている。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -55,3 +55,4 @@ A key that opens the shared bedroom, located somewhere on the Lighthouse peninsu
 
 *コメント
 //編集掲示板でzawazawaのコメントを作成するように依頼してください
+#zcomment(t=eft%2F511&amp;h=350&amp;size=10)

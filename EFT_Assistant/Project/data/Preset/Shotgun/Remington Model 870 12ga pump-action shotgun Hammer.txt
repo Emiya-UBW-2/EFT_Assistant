@@ -1,6 +1,6 @@
 Name=Remington Model 870 12ga pump-action shotgun Hammer
 Base=Remington Model 870 12ga pump-action shotgun
-Parts=M870 12ga sawn-off 325mm barrel
+Parts=M870 12ga sawed-off 325mm barrel
 Parts=M870 SpeedFeed Short handguard
 Parts=M870 12ga 4-shell magazine cap
 Parts=M870 FAB Defense AGR-870 pistol grip

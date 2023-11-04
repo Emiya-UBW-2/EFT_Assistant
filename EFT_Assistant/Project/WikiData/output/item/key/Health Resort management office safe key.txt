@@ -1,4 +1,4 @@
-*Health Resort management office safe key/Health Resort management office safe key
+*Health Resort management office safe key/保養所 管理事務室の金庫の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Health Resort management office safe key-summary.webp);
 
 *概要
 //概要を記載
-A key to the Azure Coast sanatorium administration office safe, located in the Administration building.
+保養所 "アズール・コースト" 管理棟の管理事務室にある金庫の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する

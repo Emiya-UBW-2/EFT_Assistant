@@ -8,5 +8,5 @@ height=7
 weight=4.194000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
-Name_Jpn=Eberlestock F4 Terminator load bearing backpack (Tiger Stripe)
-Information_Jpn=An extremely versatile full-format load bearing backpack for military use. Manufactured by Eberlestock.
+Name_Jpn=Eberlestock F4 ターミネーター耐荷重性バックパック (タイガーストライプ)
+Information_Jpn=Eberlestock 社によって作られた、非常に汎用性が高く、一体型の各ポーチ別に収納可能な軍用耐荷重性バックパックだ。

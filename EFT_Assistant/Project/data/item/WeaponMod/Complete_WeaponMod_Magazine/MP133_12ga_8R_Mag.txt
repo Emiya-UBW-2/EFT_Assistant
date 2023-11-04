@@ -14,5 +14,5 @@ capacity=8
 loadModifier=0.000000
 ammoCheckModifier=0.000000
 malfunctionChance=0.010000
-Name_Jpn=MP-133 12ga 8-shell magazine
-Information_Jpn=An 8-shell capacity 12 gauge tube magazine by Izhmekh, for MP-133 shotguns.
+Name_Jpn=MP-133 12ga 8発装填 マガジンチューブ
+Information_Jpn=MP-133 ショットガンに使用する Izhmekh 製の 12ゲージ 8発装填 マガジンチューブ。

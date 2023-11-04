@@ -1,0 +1,50 @@
+IDstr=5a27ba1c86f77461ea5a3c56
+Name=The Cult - Part 2
+Trader=Peacekeeper
+
+NeedTask=The Cult - Part 1
+NeedLevel=12
+NeedItem=[Dorm room 314 marked keyx1]
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+factionName=Any
+Task_Map=Woods
+NeedItem=MS2000 Markerx1
+Task_Map=Customs
+NeedItem=MS2000 Markerx1
+Task_Map=Woods
+NeedItem=MS2000 Markerx1
+Task_Map=Shoreline
+NeedItem=MS2000 Markerx1
+
+[
+	TaskType=mark
+	TaskText=Locate and mark the first ritual spot with an MS2000 Marker on Woods
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Locate and mark the ritual spot with an MS2000 Marker on Customs
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Locate and mark the second ritual spot with an MS2000 Marker on Woods
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Locate and mark the ritual spot with an MS2000 Marker on Shoreline
+	TaskOptional=false
+]
+
+Reward_Rep=Peacekeeper+3
+Reward_Item=[
+	Dollarsx850/|
+	Knight's Armament Company SR-25 7.62x51 marksman rifle Defaultx1
+]
+
+Reward_EXP=7500

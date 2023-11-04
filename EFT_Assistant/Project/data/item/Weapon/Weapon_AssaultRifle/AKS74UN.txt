@@ -30,7 +30,8 @@ ChildParts=[
 	PP-19-01 "Vityaz" pistol grip/|
 	AK FAB Defense AGR-47 pistol grip/|
 	AK TangoDown Battle Grip pistol grip (FDE)/|
-	AK TangoDown Battle Grip pistol grip
+	AK TangoDown Battle Grip pistol grip/|
+	AK Mission First Tactical ENGAGE AK47 pistol grip
 ]
 ChildParts=[
 	AKS-74/AKS-74U Zenit PT Lock/|
@@ -51,7 +52,9 @@ ChildParts=[
 	AK-74 "Saiga 545" 5.45x39 10-round magazine/|
 	AK-74 5.45x39 Magpul PMAG 30 GEN M3 30-round magazine/|
 	AK-12 5.45x39 30-round magazine/|
-	RPK-16 5.45x39 95-round drum magazine
+	RPK-16 5.45x39 95-round drum magazine/|
+	AK-12 5.45x39 early model 30-round magazine/|
+	AK-74 "Saiga 545" 5.45x39 20-round magazine
 ]
 ChildParts=[
 	AK-105 5.45x39 muzzle brake-compensator (6P44 0-20)/|
@@ -76,19 +79,20 @@ ChildParts=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
 	BelOMO PK-AA dovetail reflex sight/|
 	OKP-7 reflex sight (Dovetail)/|
-	NPZ PK1 "Obzor" reflex sight/|
+	NPZ PK1 "Obzor" dovetail reflex sight/|
 	BelOMO PSO-1 4x24 scope/|
 	BelOMO PSO-1M2-1 4x24 scope/|
 	BelOMO PSO-1M2 4x24 scope/|
 	NPZ USP-1 "Tyulpan" 4x scope/|
-	NSPU-M night vision scope/|
+	NSPU-M 3.5x dovetail night vision scope/|
 	Axion Kobra dovetail mount/|
 	KMZ 1P59 dovetail mount/|
 	NPZ 1P78-1 dovetail mount/|
 	VOMZ Pilad 043-02 dovetail mount/|
 	Zenit B-13 "Klassika" dovetail rail platform/|
 	Zenit B-13V "Klassika" dovetail rail platform/|
-	SAG Bit low profile dovetail sidemount
+	SAG Bit low profile dovetail sidemount/|
+	SAG AK dovetail sidemount
 ]
 ChildParts=[
 	AKS-74U gas tube (6P26 Sb.1-2)
@@ -106,5 +110,5 @@ cameraRecoil=0.079200
 cameraSnap=3.500000
 deviationMax=15
 convergence=1.700000
-Name_Jpn=Kalashnikov AKS-74UN 5.45x39 assault rifle
-Information_Jpn=AKS-74UN (Avtomat Kalashnikova Skladnoy 74 Ukorochenny Nochnoy - "Kalashnikov's Shortened Automatic rifle 74 Night with a foldable stock") is a shortened version of the AKS-74 assault rifle, developed in the early 80s for combat vehicle crews and airborne troops, also became very popular with law enforcement and special forces for its compact size. The N (Nochnoy - "Night") version is equipped with a dovetail mount for the installation of night vision scopes.
+Name_Jpn=AKS-74UN 5.45x39 アサルトライフル
+Information_Jpn=AKS-74UN（Avtomat Kalashnikova Skladnoy 74 Ukorochenny Nochnoy - "カラシニコフ自動小銃74 短縮型 ナイト"）は、80年代初頭に戦車の乗組員や空挺部隊向けに開発された、AKS-74 アサルトライフルの短縮版だ。そのコンパクトなサイズから、法執行機関や特殊部隊にも非常に人気のある銃だった。N（Nochnoy - "ナイト"）バージョンは、夜間用の光学照準器を取り付けるためのマウントを装備している。

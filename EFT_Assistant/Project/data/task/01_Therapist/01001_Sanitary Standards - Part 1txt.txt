@@ -1,0 +1,44 @@
+IDstr=59689ee586f7740d1570bbd5
+Name=Sanitary Standards - Part 1
+Trader=Therapist
+
+NeedTask=Shortage
+NeedLevel=4
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Map=Factory
+factionName=Any
+Task_Map=Factory
+Task_Map=Night Factory
+Task_Else=TaskType:visit
+Task_Else=Gain access to the locked pumping station on Factory
+NeedItem=Gas analyzerx1
+Task_FiR_HandOver=[Gas analyzerx1]
+DogTagLv=0
+
+[
+	TaskType=visit
+	TaskText=Gain access to the locked pumping station on Factory
+	TaskOptional=true
+]
+[
+	TaskType=findItem
+	TaskText=Find Gas analyzer in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the Gas analyzer
+	TaskOptional=false
+]
+
+Reward_Rep=Therapist+3
+Reward_Item=[
+	Roublesx14000/|
+	Car first aid kitx2
+]
+
+Reward_EXP=2200

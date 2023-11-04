@@ -1,0 +1,61 @@
+IDstr=59c124d686f774189b3c843f
+Name=BP Depot
+Trader=Prapor
+
+NeedTask=Delivery from the Past
+NeedLevel=5
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Map=Customs
+factionName=Any
+Task_Map=Customs
+NeedItem=MS2000 Markerx1
+Task_Map=Customs
+NeedItem=MS2000 Markerx1
+Task_Map=Customs
+NeedItem=MS2000 Markerx1
+Task_Map=Customs
+NeedItem=MS2000 Markerx1
+Task_Map=Customs
+Task_Else=脱出ステータス:[Survived,Run Through]
+
+[
+	TaskType=mark
+	TaskText=Locate and mark the first fuel tank with an MS2000 Marker on Customs
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Locate and mark the second fuel tank with an MS2000 Marker on Customs
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Locate and mark the third fuel tank with an MS2000 Marker on Customs
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Locate and mark the fourth fuel tank with an MS2000 Marker on Customs
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Item=[
+	MS2000 Markerx4
+]
+Reward_Rep=Prapor+3
+Reward_Rep=Jaeger-1
+Reward_Item=[
+	Roublesx30000/|
+	Expeditionary fuel tankx2
+]
+
+Reward_EXP=2800

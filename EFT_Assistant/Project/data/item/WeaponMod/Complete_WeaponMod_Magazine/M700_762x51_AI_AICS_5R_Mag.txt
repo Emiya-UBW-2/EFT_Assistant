@@ -14,5 +14,5 @@ capacity=5
 loadModifier=-0.150000
 ammoCheckModifier=0.000000
 malfunctionChance=0.020000
-Name_Jpn=M700 7.62x51 AICS 5-round magazine
+Name_Jpn=M700 7.62x51 AI AICS 5-round magazine
 Information_Jpn=A 5-round Remington M700 sniper rifle magazine by Accuracy International, for 7.62x51 cartridges.

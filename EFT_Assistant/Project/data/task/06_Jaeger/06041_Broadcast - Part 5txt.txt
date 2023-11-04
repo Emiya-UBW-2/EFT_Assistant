@@ -1,0 +1,52 @@
+IDstr=64ee99639878a0569d6ec8c9
+Name=Broadcast - Part 5
+Trader=Jaeger
+
+NeedTask=Broadcast - Part 4
+NeedLevel=27
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_Kill=[
+	Cultist Priestx1
+]
+Task_Map=Streets of Tarkov
+Task_Else=TaskType:visit
+Task_Else=Locate the ritual spot on Chekannaya st. on Streets of Tarkov
+Task_Map=Streets of Tarkov
+Task_NotFiR_HandOver=[Cultist knifex1]
+DogTagLv=0
+Task_Else=脱出ステータス:[Survived,Run Through]
+
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Priest
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate the ritual spot on Chekannaya st. on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Stash a Cultist knife at the ritual spot
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+3
+Reward_Item=[
+	Roublesx75000/|
+	Molot VPO-101 "Vepr-Hunter" 7.62x51 carbine SVDx2/|
+	7.62x51mm M61x40
+]
+
+Reward_EXP=24000

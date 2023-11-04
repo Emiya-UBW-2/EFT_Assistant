@@ -1,4 +1,4 @@
-*Financial institution small office key/Financial institution small office key
+*Financial institution small office key/金融機関の事務室の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Financial institution small office key-summary.webp);
 
 *概要
 //概要を記載
-A key to a small office room at the city's financial institution.
+中心街の金融機関にある小さい方の事務室の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する

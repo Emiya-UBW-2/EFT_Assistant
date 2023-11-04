@@ -59,11 +59,12 @@ ChildParts=[
 	5.56x45 TROY BattleMag STANAG 30-round magazine
 ]
 ChildParts=[
-	ADAR 2-15 5.56x45 upper receiver/|
+	AR-15 ADAR 2-15 5.56x45 upper receiver/|
 	M4A1 5.56x45 upper receiver/|
 	TX-15 5.56x45 Lightweight upper receiver/|
 	AR-15 Noveske Gen.3 5.56x45 upper receiver/|
-	AR-15 Vltor MUR-1S 5.56x45 upper receiver
+	AR-15 Vltor MUR-1S 5.56x45 upper receiver/|
+	AR-15 Aeroknox AX-15 5.56x45 upper receiver
 ]
 ChildParts=[
 	AR-15 Colt A2 buffer tube/|
@@ -85,7 +86,7 @@ ChildParts=[
 	AR-15 ADAR 2-15 charging handle/|
 	AR-15 Badger Ordnance Tactical Charging Handle Latch/|
 	AR-15 Colt charging handle/|
-	AR-15 Geissele ACH charging handle/|
+	AR-15 Geissele ACH charging handle (DDC)/|
 	AR-15 HK Extended Latch charging handle/|
 	AR-15 MASP Industries Ambidextrous Battle Charging Handle/|
 	AR-15 Radian Weapons Raptor charging handle/|

@@ -12,6 +12,9 @@ ChildParts=[
 	Armytek Predator Pro v3 XHP35 HI flashlight/|
 	Ultrafire WF-501B flashlight
 ]
+Conflict=[
+	Ops-Core FAST multi-hit ballistic face shield
+]
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000

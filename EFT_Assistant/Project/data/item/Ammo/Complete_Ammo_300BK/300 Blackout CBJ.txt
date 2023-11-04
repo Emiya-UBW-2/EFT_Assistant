@@ -1,0 +1,12 @@
+IDstr=64b8725c4b75259c590fa899
+Name=.300 Blackout CBJ
+ShortName=CBJ
+Information_Eng=Experimental armor piercing round by CBJ Tech. Contains a 6.1g tungsten core projectile inside 1g plastic sabot. It has improved armor penetrating capabilities and improved velocity.
+Itemtype=Ammo
+width=1
+height=1
+weight=0.015000
+fleaMarketFee=0
+propertiestype=ItemPropertiesAmmo
+Name_Jpn=.300 Blackout CBJ
+Information_Jpn=Experimental armor piercing round by CBJ Tech. Contains a 6.1g tungsten core projectile inside 1g plastic sabot. It has improved armor penetrating capabilities and improved velocity.

@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Streets of Tarkov
-Name_Jpn=Primorsky 48 apartment key
-Information_Jpn=A key to one of the apartments at Primorsky Ave 48.
+Name_Jpn=プリモルスキー通り48番地の集合住宅の鍵
+Information_Jpn=プリモルスキー通り48番地の集合住宅の鍵。

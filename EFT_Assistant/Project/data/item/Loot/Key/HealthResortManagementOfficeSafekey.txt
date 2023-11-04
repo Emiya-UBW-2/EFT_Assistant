@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Shoreline
-Name_Jpn=Health Resort management office safe key
-Information_Jpn=A key to the Azure Coast sanatorium administration office safe, located in the Administration building.
+Name_Jpn=保養所 管理事務室の金庫の鍵
+Information_Jpn=保養所 "アズール・コースト" 管理棟の管理事務室にある金庫の鍵。

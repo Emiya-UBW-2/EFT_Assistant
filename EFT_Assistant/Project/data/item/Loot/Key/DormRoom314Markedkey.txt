@@ -9,6 +9,5 @@ weight=0.010000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=10
-Map=Customs
 Name_Jpn=マークの刻まれた社員寮314号室の鍵
 Information_Jpn=社員寮314号室の鍵。通常は部屋番号を書いたラベルが貼られている場所に奇妙なマークが刻まれている。完全に錆びていて今にも折れてしまいそうだ。

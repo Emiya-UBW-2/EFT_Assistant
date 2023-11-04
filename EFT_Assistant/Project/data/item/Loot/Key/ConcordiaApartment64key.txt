@@ -1,6 +1,6 @@
 IDstr=63a71e922b25f7513905ca20
 Name=Concordia apartment 64 key
-ShortName=Concd 64
+ShortName=Conc 64
 Information_Eng=A key to the premium apartment inside the Concordia building.
 Itemtype=Mechanical Key
 width=1
@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Streets of Tarkov
-Name_Jpn=Concordia apartment 64 key
-Information_Jpn=A key to the premium apartment inside the Concordia building.
+Name_Jpn=コンコルディア・アパート 64号室の鍵
+Information_Jpn=コンコルディア・ビル内にある集合住宅の64号室の鍵。

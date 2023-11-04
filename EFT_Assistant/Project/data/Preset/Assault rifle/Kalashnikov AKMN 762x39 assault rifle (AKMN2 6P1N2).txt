@@ -8,5 +8,5 @@ Parts=AKM dust cover (6P1 0-1)
 Parts=AKM rear sight (6P1 Sb.2-1)
 Parts=AKM wooden stock (6P1 Sb.5)
 Parts=AK 7.62x39 30-round magazine (issued '55 or later)
-Parts=NSPU-M night vision scope
+Parts=NSPU-M 3.5x dovetail night vision scope
 Parts=NSPU-M scope eyecup

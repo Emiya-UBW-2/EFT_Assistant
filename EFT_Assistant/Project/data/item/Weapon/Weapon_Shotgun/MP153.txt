@@ -51,5 +51,5 @@ cameraRecoil=0.144000
 cameraSnap=2.800000
 deviationMax=10
 convergence=1.600000
-Name_Jpn=MP-153 12ゲージ セミオートマチックショットガン
+Name_Jpn=MP-153 12ga セミオートショットガン
 Information_Jpn=Izhmekh製スムースボア連発式MP-153ショットガン。信頼性が高く、狩りや護身に適した武器。

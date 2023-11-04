@@ -1,4 +1,4 @@
-*Rogue USEC barrack key/Rogue USEC barrack key
+*Rogue USEC barrack key/Rogue USEC の兵舎の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Rogue USEC barrack key-summary.webp);
 
 *概要
 //概要を記載
-A key that opens one of the Rogues' makeshift barracks.
+Rogues の仮設の兵舎に入るための鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -55,3 +55,4 @@ A key that opens one of the Rogues' makeshift barracks.
 
 *コメント
 //編集掲示板でzawazawaのコメントを作成するように依頼してください
+#zcomment(t=eft%2F516&amp;h=350&amp;size=10)

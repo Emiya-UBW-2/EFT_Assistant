@@ -48,7 +48,8 @@ ChildParts=[
 	PP-19-01 "Vityaz" pistol grip/|
 	AK FAB Defense AGR-47 pistol grip/|
 	AK TangoDown Battle Grip pistol grip/|
-	AK TangoDown Battle Grip pistol grip (FDE)
+	AK TangoDown Battle Grip pistol grip (FDE)/|
+	AK Mission First Tactical ENGAGE AK47 pistol grip
 ]
 ChildParts=[
 	AK AKademia Bastion dust cover/|
@@ -95,7 +96,8 @@ ChildParts=[
 	AK 7.62x39 US Palm "AK30" 30-round magazine (Black)/|
 	AK 7.62x39 US Palm "AK30" 30-round magazine (FDE)/|
 	AK 7.62x39 X Products X-47 50-round drum magazine/|
-	AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine
+	AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine/|
+	AK 7.62x39 Magpul PMAG 20 GEN M3 20-round magazine
 ]
 ChildParts=[
 	AK CSS knurled charging handle/|

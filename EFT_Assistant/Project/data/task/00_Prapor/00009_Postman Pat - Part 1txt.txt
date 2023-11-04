@@ -1,0 +1,47 @@
+IDstr=59675ea386f77414b32bded2
+Name=Postman Pat - Part 1
+Trader=Prapor
+
+NeedTask=Ice Cream Cones
+NeedLevel=10
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Factory
+factionName=Any
+Task_Map=Factory
+Task_Map=Night Factory
+Task_Else=拾って納品:Factory-Sealed letterx1
+Task_Else=拾って納品:Night Factory-Sealed letterx1
+Task_Map=Factory
+Task_Map=Night Factory
+Task_Else=脱出ステータス:[Survived,Run Through]
+Task_Else=該当タスクPostman Pat - Part 2
+Task_Else=該当タスク状態:complete
+
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the letter on the messenger's body on Factory
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+[
+	TaskType=taskStatus
+	TaskText=Hand over the letter to Therapist
+	TaskOptional=false
+]
+
+Reward_Rep=Prapor+2
+Reward_Item=[
+	Roublesx40000/|
+	ANA Tactical Beta 2 Battle backpackx1/|
+	6B23-1 body armor (Digital Flora)x1
+]
+
+Reward_EXP=5900

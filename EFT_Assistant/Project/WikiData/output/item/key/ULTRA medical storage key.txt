@@ -1,4 +1,4 @@
-*ULTRA medical storage key/ULTRA 医薬品倉庫の鍵
+*ULTRA medical storage key/ULTRA 医薬品保管室の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(ULTRA medical storage key-summary.webp);
 
 *概要
 //概要を記載
-A key to the ULTRA shopping mall medical storage room.
+ショッピングモール "ULTRA" にある医薬品保管室の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する

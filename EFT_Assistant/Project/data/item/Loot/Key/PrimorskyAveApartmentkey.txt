@@ -9,5 +9,5 @@ weight=0.010000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=1
-Name_Jpn=Primorsky Ave apartment key
-Information_Jpn=Choreographer key at Primorsky 48.
+Name_Jpn=プリモルスキー通りの賃貸住宅の鍵
+Information_Jpn=プリモルスキー通り48番地に住んでいる振付師の鍵。

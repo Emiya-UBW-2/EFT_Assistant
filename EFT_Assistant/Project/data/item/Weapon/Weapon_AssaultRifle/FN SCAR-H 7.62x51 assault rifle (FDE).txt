@@ -34,7 +34,8 @@ ChildParts=[
 	AR-15 Stark AR Rifle Grip (Black)/|
 	AR-15 Stark AR Rifle Grip (FDE)/|
 	AR-15 Tactical Dynamics Hexgrip pistol grip/|
-	AR-15 Tactical Dynamics Skeletonized pistol grip
+	AR-15 Tactical Dynamics Skeletonized pistol grip/|
+	AR-15 Aeroknox Orion pistol grip
 ]
 ChildParts=[
 	FN SCAR-H 7.62x51 20-round magazine/|

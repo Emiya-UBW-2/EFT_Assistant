@@ -17,5 +17,5 @@ Recoil=-6.000000
 Ergonomics=-12.000000
 centerOfImpact=0.500000
 deviationMax=10
-Name_Jpn=MP-133 12ga 660mm barrel
-Information_Jpn=A standard factory-produced 660mm barrel for MP-133 12 gauge shotguns.
+Name_Jpn=MP-133 12ga 660mm バレル
+Information_Jpn=MP-133 12ゲージ ショットガン用の純正 660mm バレル。

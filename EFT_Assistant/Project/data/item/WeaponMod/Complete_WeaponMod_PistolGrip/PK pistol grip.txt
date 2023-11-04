@@ -1,0 +1,15 @@
+IDstr=646371779f5f0ea59a04c204
+Name=PK pistol grip
+ShortName=PK
+Information_Eng=A standard-issue pistol grip for Kalashnikov Machine gun. Manufactured by V.A. Degtyarev Plant.
+Itemtype=Pistol grip
+width=1
+height=1
+weight=0.090000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=0.000000
+Ergonomics=6.000000
+accuracyModifier=0.000000
+Name_Jpn=PK pistol grip
+Information_Jpn=A standard-issue pistol grip for Kalashnikov Machine gun. Manufactured by V.A. Degtyarev Plant.

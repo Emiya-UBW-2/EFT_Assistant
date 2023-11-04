@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Shoreline
-Name_Jpn=SMW車の鍵
-Information_Jpn=An SMW folding car key with locking buttons.
+Name_Jpn=SMW 車の鍵
+Information_Jpn=ロックボタンの付いた折りたたみ式の SMW の車の鍵。

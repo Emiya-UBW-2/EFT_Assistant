@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Reserve
-Name_Jpn=RB-TBの鍵
-Information_Jpn=A key to the Federal State Reserve Agency base eastern barracks' underground shooting range.
+Name_Jpn=RB-TB の鍵
+Information_Jpn=連邦国家準備局の基地内にある東兵舎の地下射撃場の鍵。

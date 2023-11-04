@@ -1,4 +1,4 @@
-*Concordia security room key/Concordia security room key
+*Concordia security room key/コンコルディアの警備室の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,15 +7,15 @@ CENTER:&ref(Concordia security room key-summary.webp);
 
 *概要
 //概要を記載
-A key to the security room inside the Concordia building.
+コンコルディア・ビル内にある警備室の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
 
 //命名規則
 //「短縮名-icon.webp」スペースはアンダーバー「_｣
-|CENTER:BGCOLOR(#D8F781):アイコン|CENTER:&ref(Concd sec.-icon.webp);|
-|CENTER:BGCOLOR(#D8F781):短縮名|Concd sec.|
+|CENTER:BGCOLOR(#D8F781):アイコン|CENTER:&ref(Conc sec.-icon.webp);|
+|CENTER:BGCOLOR(#D8F781):短縮名|Conc sec.|
 |CENTER:BGCOLOR(#D8F781):重量|0.010kg|
 |CENTER:BGCOLOR(#D8F781):サイズ|1x1|
 |CENTER:BGCOLOR(#D8F781):使用回数|40|

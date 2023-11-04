@@ -1,0 +1,59 @@
+IDstr=64e7b99017ab941a6f7bf9d7
+Name=Gendarmerie - Mall Cop
+Trader=Prapor
+
+NeedTask=The Punisher - Part 6
+NeedLevel=21
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+factionName=Any
+Task_Map=Streets of Tarkov
+Task_Kill=[
+	Streets of Tarkov-any targetx15
+]
+Task_Else=ゾーン:[Inside the Stylobate building]
+NeedItem=[
+	Beretta M9A3 9x19 pistolx0/|
+	Colt M1911A1 .45 ACP pistolx0/|
+	Colt M45A1 .45 ACP pistolx0/|
+	FN Five-seveN MK2 5.7x28 pistolx0/|
+	FN Five-seveN MK2 5.7x28 pistol (FDE)x0/|
+	Glock 17 9x19 pistolx0/|
+	Glock 18C 9x19 machine pistolx0/|
+	Glock 19X 9x19 pistolx0/|
+	HK USP .45 ACP pistolx0/|
+	Lebedev PL-15 9x19 pistolx0/|
+	Yarygin MP-443 "Grach" 9x19 pistolx0/|
+	Makarov PM 9x18PM pistolx0/|
+	Makarov PM (t) 9x18PM pistolx0/|
+	Stechkin APS 9x18PM machine pistolx0/|
+	SIG P226R 9x19 pistolx0/|
+	PB 9x18PM silenced pistolx0/|
+	Serdyukov SR-1MP Gyurza 9x21 pistolx0/|
+	APB 9x18PM silenced machine pistolx0/|
+	TT-33 7.62x25 TT pistolx0/|
+	TT-33 7.62x25 TT pistol (Golden)x0/|
+	Chiappa Rhino 200DS 9x19 revolverx0/|
+	Chiappa Rhino 50DS .357 revolverx0/|
+	RSh-12 12.7x55 revolverx0
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate any target at the stylobate building while using Pistols on Streets of Tarkov
+	TaskOptional=false
+]
+
+Reward_Rep=Prapor+2
+Reward_Item=[
+	Roublesx120000/|
+	SR-2M "Veresk" 9x21 submachine gun Defaultx1/|
+	SR-2M 9x21 30-round magazinex4/|
+	9x21mm PS gzhx140
+]
+
+Reward_EXP=21500

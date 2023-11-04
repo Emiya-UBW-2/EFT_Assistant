@@ -51,7 +51,8 @@ ChildParts=[
 	PP-19-01 "Vityaz" pistol grip/|
 	AK FAB Defense AGR-47 pistol grip/|
 	AK TangoDown Battle Grip pistol grip/|
-	AK TangoDown Battle Grip pistol grip (FDE)
+	AK TangoDown Battle Grip pistol grip (FDE)/|
+	AK Mission First Tactical ENGAGE AK47 pistol grip
 ]
 ChildParts=[
 	AK-74 dust cover (6P20 0-1)/|
@@ -67,14 +68,17 @@ ChildParts=[
 	AK-74 rear sight (6P20 Sb.2)/|
 	AK-74M rear sight (6P20 Sb.2)/|
 	AK Taktika Tula TT01 rear sight rail/|
-	AK RD Enhanced V2 Rear Sight
+	AK RD Enhanced V2 Rear Sight/|
+	AK-12 rear sight/|
+	RPK-16 rear sight
 ]
 ChildParts=[
 	AK-74M polymer stock (6P34 Sb.15)/|
 	AK-74M CAA AKTS AK74 buffer tube/|
 	AK-74M/AK-100 Zenit PT Lock/|
 	RPK-16 buffer tube/|
-	AK 100-series metal skeletonized stock
+	AK 100-series metal skeletonized stock/|
+	AK-12 buffer tube
 ]
 ChildParts=[
 	AK-74 5.45x39 6L18 45-round magazine/|
@@ -86,25 +90,28 @@ ChildParts=[
 	AK-74 "Saiga 545" 5.45x39 10-round magazine/|
 	AK-74 5.45x39 Magpul PMAG 30 GEN M3 30-round magazine/|
 	AK-12 5.45x39 30-round magazine/|
-	RPK-16 5.45x39 95-round drum magazine
+	RPK-16 5.45x39 95-round drum magazine/|
+	AK-12 5.45x39 early model 30-round magazine/|
+	AK-74 "Saiga 545" 5.45x39 20-round magazine
 ]
 ChildParts=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
 	BelOMO PK-AA dovetail reflex sight/|
 	OKP-7 reflex sight (Dovetail)/|
-	NPZ PK1 "Obzor" reflex sight/|
+	NPZ PK1 "Obzor" dovetail reflex sight/|
 	BelOMO PSO-1 4x24 scope/|
 	BelOMO PSO-1M2-1 4x24 scope/|
 	BelOMO PSO-1M2 4x24 scope/|
 	NPZ USP-1 "Tyulpan" 4x scope/|
-	NSPU-M night vision scope/|
+	NSPU-M 3.5x dovetail night vision scope/|
 	Axion Kobra dovetail mount/|
 	KMZ 1P59 dovetail mount/|
 	NPZ 1P78-1 dovetail mount/|
 	VOMZ Pilad 043-02 dovetail mount/|
 	Zenit B-13 "Klassika" dovetail rail platform/|
 	Zenit B-13V "Klassika" dovetail rail platform/|
-	SAG Bit low profile dovetail sidemount
+	SAG Bit low profile dovetail sidemount/|
+	SAG AK dovetail sidemount
 ]
 ChildParts=[
 	AK CSS knurled charging handle/|
@@ -124,4 +131,4 @@ cameraSnap=3.500000
 deviationMax=23
 convergence=1.600000
 Name_Jpn=AK-105 5.45x39 アサルトライフル
-Information_Jpn=The AK-105 5.45x39mm assault rifle is a further modernized version of AK-74M base. A short compact version equipped with a side-folding shoulder stock and a side mount for optical and night scopes. The 100-series AKs are produced by the Izhmash factories in Izhevsk, Russia.
+Information_Jpn=AK-105 5.45x39mm アサルトライフルはAK-74M に近代化改修を施した派生型で、折りたたみ式のストックと光学照準器用のサイドマウントを備えている。こういった100番台の AK はすべてロシアのイジェフスク機械製作工場 (Izhmash) で生産されている。

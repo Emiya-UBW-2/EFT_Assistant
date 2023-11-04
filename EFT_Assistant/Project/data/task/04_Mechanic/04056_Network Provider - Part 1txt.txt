@@ -1,0 +1,60 @@
+IDstr=625d6ff5ddc94657c21a1625
+Name=Network Provider - Part 1
+Trader=Mechanic
+
+NeedTask=The Tarkov Shooter - Part 7
+NeedTask=The Huntsman Path - Forest Cleaning
+NeedTask=Cargo X - Part 4
+NeedTask=Broadcast - Part 2
+NeedTask=Drug Trafficking
+NeedTask=The Punisher - Part 5
+NeedTask=Gunsmith - Part 15
+NeedTask=Bullshit
+NeedTask=Peacekeeping Mission
+NeedTask=Living High is Not a Crime - Part 2
+NeedTask=House Arrest - Part 1
+NeedTask=Decontamination Service
+NeedLevel=35
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=true
+
+factionName=Any
+traderRequirementsName=Fence
+traderRequirementsType=reputation
+traderRequirements=>=
+traderRequirementsValue=2
+Task_FiR_HandOver=[Electronic componentsx4]
+DogTagLv=0
+Task_FiR_HandOver=[Military COFDM Wireless Signal Transmitterx4]
+DogTagLv=0
+Task_FiR_HandOver=[Gas analyzerx4]
+DogTagLv=0
+Task_FiR_HandOver=[Broken GPhone smartphonex4]
+DogTagLv=0
+
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid Electronic components
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid Military COFDM Wireless Signal Transmitters
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid Gas analyzers
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid Broken GPhone smartphones
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+1
+
+Reward_EXP=18600

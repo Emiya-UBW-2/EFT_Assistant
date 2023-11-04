@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Streets of Tarkov
-Name_Jpn=Iron gate key
-Information_Jpn=A key to an unknown iron gate.
+Name_Jpn=鉄格子の扉の鍵
+Information_Jpn=どこかにある鉄格子の扉を開けるための鍵。

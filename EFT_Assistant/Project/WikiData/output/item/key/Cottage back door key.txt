@@ -1,4 +1,4 @@
-*Cottage back door key/Cottage back door key
+*Cottage back door key/コテージの裏口の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Cottage back door key-summary.webp);
 
 *概要
 //概要を記載
-A key to the back door to one of the cottages, located somewhere near the Azure Coast sanatorium.
+保養所 "アズール・コースト" 近くにあるコテージの裏口の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -35,7 +35,6 @@ A key to the back door to one of the cottages, located somewhere near the Azure 
 //なければ項目ごと削除
 -[[Therapist/Colleagues - Part 2]]
 *使用場所
-
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ

@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Lighthouse
-Name_Jpn=Rogue USEC barrack key
-Information_Jpn=A key that opens one of the Rogues' makeshift barracks.
+Name_Jpn=Rogue USEC の兵舎の鍵
+Information_Jpn=Rogues の仮設の兵舎に入るための鍵。

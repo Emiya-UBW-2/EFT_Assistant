@@ -33,7 +33,8 @@ ChildParts=[
 	LA-5B/PEQ tactical device/|
 	SureFire XC1 tactical flashlight/|
 	Wilcox RAPTAR ES Tactical Rangefinder/|
-	Zenit Perst-3 tactical device
+	Zenit Perst-3 tactical device/|
+	MAWL-C1+ tactical device
 ]
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
@@ -90,7 +91,11 @@ ChildParts=[
 	Trijicon RMR low profile mount/|
 	Trijicon TA51 sight mount/|
 	UNV DLOC-IRD sight mount/|
-	SwampFox Trihawk Prism Scope 3x30
+	SwampFox Trihawk Prism Scope 3x30/|
+	ELCAN Specter HCO holographic sight/|
+	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope/|
+	SIG Sauer ROMEO7 1x30 reflex sight (prototype)/|
+	Armasight Zeus universal base
 ]
 ChildParts=[
 	Monstrum Tactical Vertical Fore Grip KeyMod/|
@@ -109,7 +114,7 @@ Conflict=[
 	BelOMO PSO-1M2-1 4x24 scope/|
 	BelOMO PSO-1M2 4x24 scope/|
 	NPZ USP-1 "Tyulpan" 4x scope/|
-	NSPU-M night vision scope/|
+	NSPU-M 3.5x dovetail night vision scope/|
 	Axion Kobra dovetail mount/|
 	SVD CAA XD RGL receiver mount/|
 	KMZ 1P59 dovetail mount/|

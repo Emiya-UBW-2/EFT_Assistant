@@ -1,4 +1,4 @@
-*Stair landing key/Stair landing key
+*Stair landing key/階段の踊り場の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Stair landing key-summary.webp);
 
 *概要
 //概要を記載
-A key to the one of the stair landings of the Chekannaya Street 15 building.
+チェカンナヤ通り15番地の建物にある階段の踊り場の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する

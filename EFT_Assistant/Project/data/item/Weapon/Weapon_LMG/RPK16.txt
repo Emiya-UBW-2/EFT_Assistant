@@ -30,7 +30,8 @@ ChildParts=[
 	AK TangoDown Battle Grip pistol grip (FDE)/|
 	AK KGB MG-47 pistol grip (Anodized Red)/|
 	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip/|
-	AK Aeroknox Scorpius pistol grip
+	AK Aeroknox Scorpius pistol grip/|
+	AK Mission First Tactical ENGAGE AK47 pistol grip
 ]
 ChildParts=[
 	RPK-16 dust cover
@@ -45,14 +46,17 @@ ChildParts=[
 	AK-74 "Saiga 545" 5.45x39 10-round magazine/|
 	AK-74 5.45x39 Magpul PMAG 30 GEN M3 30-round magazine/|
 	AK-12 5.45x39 30-round magazine/|
-	RPK-16 5.45x39 95-round drum magazine
+	RPK-16 5.45x39 95-round drum magazine/|
+	AK-74 "Saiga 545" 5.45x39 20-round magazine/|
+	AK-12 5.45x39 early model 30-round magazine
 ]
 ChildParts=[
 	AK CSS knurled charging handle/|
 	AK Zenit RP-1 charging handle
 ]
 ChildParts=[
-	RPK-16 buffer tube
+	RPK-16 buffer tube/|
+	AK-12 buffer tube
 ]
 ChildParts=[
 	RPK-16 handguard

@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Reserve
-Name_Jpn=RB-PSP2 key
-Information_Jpn=A key to one of the iron mesh doors in the Federal State Reserve Agency base underground supply warehouse.
+Name_Jpn=RB-PSP2 の鍵
+Information_Jpn=連邦国家準備局の基地内にある地下補給倉庫の鉄網扉を開けるための鍵。

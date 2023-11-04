@@ -1,0 +1,22 @@
+IDstr=6410758c857473525b08bb77
+Name=SVT-40 7.62x54R 625mm barrel
+ShortName=SVT 625mm
+Information_Eng=A regular 625mm barrel for the SVT rifle.
+Itemtype=Barrel
+width=3
+height=1
+weight=1.330000
+fleaMarketFee=0
+propertiestype=ItemPropertiesBarrel
+ChildParts=[
+	SVT-40 7.62x54R muzzle brake
+]
+ChildParts=[
+	SVT-40 rear sight
+]
+Recoil=-10.000000
+Ergonomics=-7.000000
+centerOfImpact=0.038000
+deviationMax=33
+Name_Jpn=SVT-40 7.62x54R 625mm barrel
+Information_Jpn=A regular 625mm barrel for the SVT rifle.

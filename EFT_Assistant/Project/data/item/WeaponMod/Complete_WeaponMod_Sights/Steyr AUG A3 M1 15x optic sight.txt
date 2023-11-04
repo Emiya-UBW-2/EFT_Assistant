@@ -30,7 +30,8 @@ ChildParts=[
 	Zenit Klesch-2IKS IR illuminator with laser/|
 	Zenit Klesch-2P flashlight with laser/|
 	Zenit Klesch-2U tactical flashlight/|
-	Glock GTL 21 tactical flashlight with laser
+	Glock GTL 21 tactical flashlight with laser/|
+	MAWL-C1+ tactical device
 ]
 Recoil=0.000000
 Ergonomics=-2.000000

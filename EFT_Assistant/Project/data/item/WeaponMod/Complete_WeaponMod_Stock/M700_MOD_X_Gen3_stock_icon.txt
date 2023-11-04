@@ -37,7 +37,8 @@ ChildParts=[
 	Hogue OverMolded Rubber Grip (Olive Drab)/|
 	AR-15 Magpul MIAD pistol grip (FDE)/|
 	AR-15 Tactical Dynamics Hexgrip pistol grip/|
-	AR-15 Tactical Dynamics Skeletonized pistol grip
+	AR-15 Tactical Dynamics Skeletonized pistol grip/|
+	AR-15 Aeroknox Orion pistol grip
 ]
 ChildParts=[
 	M700 AB Arms MOD*X GEN 3 KeyMod handguard

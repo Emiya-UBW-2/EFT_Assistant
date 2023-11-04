@@ -11,4 +11,4 @@ propertiestype=ItemPropertiesKey
 uses=40
 Map=Reserve
 Name_Jpn=RB-MP22の鍵
-Information_Jpn=A key to one of the Federal State Reserve Agency base Service and Repair Center workshop rooms.
+Information_Jpn=連邦国家準備局の基地内にある整備場2階の作業室の鍵。

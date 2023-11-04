@@ -16,5 +16,5 @@ containsItems=[
 	Mosin Rifle front sightx1/|
 	Mosin Rifle carbine rear sightx1
 ]
-Name_Jpn=Mosin 7.62x54R bolt-action rifle (Infantry) カービン
+Name_Jpn=Mosin 7.62x54R bolt-action rifle (Infantry) Carbine
 Information_Jpn=

@@ -66,14 +66,20 @@ ChildParts=[
 	UNV DLOC-IRD sight mount/|
 	Leapers UTG 25mm ring scope mount/|
 	SwampFox Trihawk Prism Scope 3x30/|
-	AI AX-50 34mm scope mount
+	AI AX-50 34mm scope mount/|
+	Armasight Zeus universal base/|
+	SIG Sauer ROMEO7 1x30 reflex sight (prototype)/|
+	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope/|
+	ELCAN Specter HCO holographic sight
 ]
 ChildParts=[
 	AR-15 5.56x45 260mm barrel/|
 	AR-15 5.56x45 370mm barrel/|
 	AR-15 5.56x45 18 inch barrel/|
 	AR-15 5.56x45 20 inch barrel/|
-	AR-15 5.56x45 Molot Arms 406mm barrel
+	AR-15 5.56x45 Molot Arms 406mm barrel/|
+	AR-15 Hanson Carbine 5.56x45 13.7 inch barrel/|
+	AR-15 Hanson Carbine 5.56x45 16 inch barrel
 ]
 ChildParts=[
 	AR-15 ADAR 2-15 wooden handguard/|
@@ -96,7 +102,9 @@ ChildParts=[
 	AR-15 Unique-ARs Wing & Skull 12 inch handguard/|
 	AR-15 War Sport LVOA-C handguard (Black)/|
 	AR-15 War Sport LVOA-S handguard (Black)/|
-	AR-15 Precision Reflex GEN III Delta Carbon handguard
+	AR-15 Precision Reflex GEN III Delta Carbon handguard/|
+	AR-15 Aeroknox AX-15 4 inch M-LOK handguard/|
+	AR-15 Aeroknox AX-15 15.8 inch M-LOK handguard
 ]
 ChildParts=[
 	HK 416A5 flip-up rear sight/|

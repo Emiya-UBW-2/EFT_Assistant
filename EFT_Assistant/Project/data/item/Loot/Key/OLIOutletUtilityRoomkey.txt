@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Interchange
-Name_Jpn=OLI outlet utility room key
-Information_Jpn=A key to the OLI store outlet utility room at the ULTRA shopping mall.
+Name_Jpn=OLI 備品保管室の鍵
+Information_Jpn=ショッピングモール "ULTRA" にある OLI の備品保管室の鍵。

@@ -28,7 +28,7 @@ CENTER:&ref(Dorm room 303 key-summary.webp);
 //===============================LIST
 |BGCOLOR(#D8F781):''トレーダー''|BGCOLOR(#D8F781):''トレーダーLV''|BGCOLOR(#D8F781):''必要なアイテム''|BGCOLOR(#D8F781):''入手できるアイテム''|BGCOLOR(#D8F781):''備考''|
 //
-|Therapist|1|T-Shaped plug x7 &br;Insulating tape x3|Dorm room 303 key x1||
+|Therapist|1|Insulating tape x3 &br;T-Shaped plug x7|Dorm room 303 key x1||
 //===============================LISTEND
 
 *タスク

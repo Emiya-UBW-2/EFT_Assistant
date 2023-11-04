@@ -9,5 +9,5 @@ weight=0.010000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
-Name_Jpn=Health Resort west wing room 325 key
-Information_Jpn=A key to the Azure Coast sanatorium west wing room 325.
+Name_Jpn=保養所 西棟325号室の鍵
+Information_Jpn=保養所 "アズール・コースト" 西棟の325号室の鍵。

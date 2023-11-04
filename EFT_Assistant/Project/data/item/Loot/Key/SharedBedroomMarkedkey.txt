@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=10
 Map=Lighthouse
-Name_Jpn=Shared bedroom marked key
-Information_Jpn=A key that opens the shared bedroom, located somewhere on the Lighthouse peninsula territory. It has some strange symbols scratched onto it.
+Name_Jpn=マークの刻まれた共同寝室の鍵
+Information_Jpn=灯台がそびえ立つ半島のどこかにある共同寝室に入るための鍵。奇妙なマークが刻まれている。

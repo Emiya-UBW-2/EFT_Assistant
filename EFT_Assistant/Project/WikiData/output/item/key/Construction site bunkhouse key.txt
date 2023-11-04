@@ -1,4 +1,4 @@
-*Construction site bunkhouse key/Construction site bunkhouse key
+*Construction site bunkhouse key/建設現場の寝床の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Construction site bunkhouse key-summary.webp);
 
 *概要
 //概要を記載
-A key to the locked bunkhouse at the city construction site.
+中心街の建設現場にある施錠された寝床の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する

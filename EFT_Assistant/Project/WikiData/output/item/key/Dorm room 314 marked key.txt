@@ -34,7 +34,7 @@ CENTER:&ref(Dorm room 314 marked key-summary.webp);
 //===============================LIST
 |BGCOLOR(#D8F781):''トレーダー''|BGCOLOR(#D8F781):''トレーダーLV''|BGCOLOR(#D8F781):''必要なアイテム''|BGCOLOR(#D8F781):''入手できるアイテム''|BGCOLOR(#D8F781):''備考''|
 //
-|Jaeger|3|RB-VO marked key x1 &br;RB-PKPM marked key x1 &br;RB-BK marked key x1|Dorm room 314 marked key x1||
+|Jaeger|3|RB-BK marked key x1 &br;RB-VO marked key x1 &br;RB-PKPM marked key x1|Dorm room 314 marked key x1||
 //===============================LISTEND
 
 *タスク

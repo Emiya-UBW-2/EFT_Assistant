@@ -1,4 +1,4 @@
-*OLI logistics department office key/OLI logistics department office key
+*OLI logistics department office key/OLI 物流部事務室の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(OLI logistics department office key-summary.webp);
 
 *概要
 //概要を記載
-A key to the OLI logistics department office at the ULTRA shopping mall.
+ショッピングモール "ULTRA" にある OLI の物流部事務室の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -31,7 +31,7 @@ A key to the OLI logistics department office at the ULTRA shopping mall.
 //===============================LIST
 |BGCOLOR(#D8F781):''トレーダー''|BGCOLOR(#D8F781):''トレーダーLV''|BGCOLOR(#D8F781):''必要なアイテム''|BGCOLOR(#D8F781):''入手できるアイテム''|BGCOLOR(#D8F781):''備考''|
 //
-|Jaeger|3|Hunting matches x4 &br;SurvL Survivor Lighter x2 &br;Dry fuel x1|OLI logistics department office key x1||
+|Jaeger|3|Dry fuel x1 &br;Hunting matches x4 &br;SurvL Survivor Lighter x2|OLI logistics department office key x1||
 //===============================LISTEND
 
 *タスク

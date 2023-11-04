@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Lighthouse
-Name_Jpn=Rogue USEC stash key
-Information_Jpn=A key to the stash, located somewhere at the Rogue USEC base.
+Name_Jpn=Rogue USEC の保管庫の鍵
+Information_Jpn=Rogue USEC の拠点のどこかにある保管庫の鍵。

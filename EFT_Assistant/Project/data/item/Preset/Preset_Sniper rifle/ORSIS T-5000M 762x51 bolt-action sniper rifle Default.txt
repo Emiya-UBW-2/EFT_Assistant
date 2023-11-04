@@ -11,7 +11,7 @@ IsDefault=TRUE
 containsItems=[
 	ORSIS T-5000M 7.62x51 bolt-action sniper riflex1/|
 	ORSIS T-5000M 7.62x51 5-round magazinex1/|
-	T-5000M 7.62x51 660mm barrelx1/|
+	ORSIS T-5000M 7.62x51 660mm barrelx1/|
 	ORSIS T-5000M 7.62x51 muzzle brake-compensatorx1/|
 	ORSIS T-5000M aluminium bodyx1/|
 	ORSIS T-5000M handguardx1/|

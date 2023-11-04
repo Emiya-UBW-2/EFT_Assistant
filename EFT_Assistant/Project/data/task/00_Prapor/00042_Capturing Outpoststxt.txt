@@ -1,0 +1,54 @@
+IDstr=60e71b9bbd90872cb85440f3
+Name=Capturing Outposts
+Trader=Prapor
+
+NeedTask=The Punisher - Part 6
+NeedLevel=42
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_Map=Customs
+Task_Kill=[
+	Customs-any PMC operativesx8
+]
+Task_Else=ゾーン:[Stronghold (Customs)]
+Task_Map=Woods
+Task_Kill=[
+	Woods-any PMC operativesx8
+]
+Task_Else=ゾーン:[Medical Camp (Woods)]
+Task_Map=Shoreline
+Task_Kill=[
+	Shoreline-any PMC operativesx8
+]
+Task_Else=ゾーン:[Inside Resort]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives at the Scav base on Customs
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives at the Scav base on Woods
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives at the Health Resort on Shoreline
+	TaskOptional=false
+]
+
+Reward_Item=[
+	ASh-12 12.7x55 assault rifle Silencedx1/|
+	RFARMY armbandx1/|
+	USEC armbandx1/|
+	Rys-T bulletproof helmetx1/|
+	Rys-T face shieldx2/|
+	6B43 6A Zabralo-Sh body armorx1
+]
+
+Reward_EXP=69999

@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Shoreline
-Name_Jpn=Health Resort office key with a blue tape
-Information_Jpn=青色のダクトテープで目印がつけられた鍵。
+Name_Jpn=青いテープの貼られた保養所の事務室の鍵
+Information_Jpn=青いダクトテープで目印が付けられた保養所 "アズール・コースト" の事務室の鍵。

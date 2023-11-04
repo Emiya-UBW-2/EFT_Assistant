@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Reserve
-Name_Jpn=RB-AKの鍵
-Information_Jpn=A key to the Federal State Reserve Agency base Educational Building storage room.
+Name_Jpn=RB-AK の鍵
+Information_Jpn=連邦国家準備局の基地内にある教育棟の保管室の鍵。

@@ -1,0 +1,64 @@
+IDstr=5ae4493486f7744efa289417
+Name=Database - Part 1
+Trader=Ragman
+
+NeedTask=Big Sale
+NeedTask=Make ULTRA Great Again
+NeedLevel=17
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Map=Interchange
+factionName=Any
+Task_Map=Interchange
+Task_Else=拾って納品:Interchange-Goshan cargo manifestsx1
+Task_Map=Interchange
+Task_Else=拾って納品:Interchange-OLI cargo manifestsx1
+Task_Map=Interchange
+Task_Else=拾って納品:Interchange-IDEA cargo manifestsx1
+
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the Goshan cargo manifests on Interchange
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the Goshan cargo manifests
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the OLI cargo manifests on Interchange
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the OLI cargo manifests
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the IDEA cargo manifests on Interchange
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the IDEA cargo manifests
+	TaskOptional=false
+]
+
+Reward_Rep=Ragman+3
+Reward_Item=[
+	Roublesx30000/|
+	MSA Sordin Supreme PRO-X/L headsetx1/|
+	Army capx1/|
+	Lower half-maskx1/|
+	RayBench Aviator glassesx1/|
+	Malboro Cigarettesx2/|
+	Crickent lighterx1
+]
+
+Reward_EXP=8400

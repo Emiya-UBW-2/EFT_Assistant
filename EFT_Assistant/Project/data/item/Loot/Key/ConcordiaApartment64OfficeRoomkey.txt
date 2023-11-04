@@ -1,6 +1,6 @@
 IDstr=63a71e86b7f4570d3a293169
 Name=Concordia apartment 64 office room key
-ShortName=Concd off.
+ShortName=Conc off.
 Information_Eng=A key to the office room of the premium apartment inside the Concordia building.
 Itemtype=Mechanical Key
 width=1
@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Streets of Tarkov
-Name_Jpn=Concordia apartment 64 office room key
-Information_Jpn=A key to the office room of the premium apartment inside the Concordia building.
+Name_Jpn=コンコルディア・アパート 64号室の事務室の鍵
+Information_Jpn=コンコルディア・ビルの高級な集合住宅の中にある事務室の鍵。

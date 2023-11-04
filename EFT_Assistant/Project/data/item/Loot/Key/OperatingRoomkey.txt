@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Lighthouse
-Name_Jpn=Operating room key
-Information_Jpn=A key that opens the operating room with broadcasting equipment, located somewhere at the water treatment plant.
+Name_Jpn=手術室の鍵
+Information_Jpn=浄水場のどこかにある放送機器を備えた手術室に入るための鍵。

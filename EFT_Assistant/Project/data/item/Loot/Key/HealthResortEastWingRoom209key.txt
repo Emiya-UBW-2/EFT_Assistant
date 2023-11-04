@@ -9,5 +9,5 @@ weight=0.010000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
-Name_Jpn=Health Resort east wing room 209 key
-Information_Jpn=A key to the Azure Coast sanatorium east wing room 209.
+Name_Jpn=保養所 東棟209号室の鍵
+Information_Jpn=保養所 "アズール・コースト" 東棟の209号室の鍵。

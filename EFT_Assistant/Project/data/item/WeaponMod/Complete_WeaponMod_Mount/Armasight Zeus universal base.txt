@@ -1,0 +1,22 @@
+IDstr=63fc449f5bd61c6cf3784a88
+Name=Armasight Zeus universal base
+ShortName=Zeus
+Information_Eng=The Armasight universal base mount for installation of the Zeus series scopes.
+Itemtype=Mount
+width=1
+height=1
+weight=0.017000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Armasight Zeus-Pro 640 2-8x50 30Hz thermal scope
+]
+Conflict=[
+	AR-15 Colt A2 rear sight/|
+	AR-15 rear sight carry handle
+]
+Recoil=0.000000
+Ergonomics=0.000000
+accuracyModifier=0.000000
+Name_Jpn=Armasight Zeus universal base
+Information_Jpn=The Armasight universal base mount for installation of the Zeus series scopes.

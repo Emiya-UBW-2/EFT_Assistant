@@ -1,0 +1,15 @@
+IDstr=649ec2af961514b22506b10f
+Name=AK-12 5.45x39 muzzle brake
+ShortName=AK-12 MB
+Information_Eng=A standard-issue muzzle brake for AK-12 automatic rifles. Manufactured by Izhmash.
+Itemtype=Flashhider
+width=1
+height=1
+weight=0.100000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=-9.000000
+Ergonomics=-2.000000
+accuracyModifier=0.000000
+Name_Jpn=AK-12 5.45x39 muzzle brake
+Information_Jpn=A standard-issue muzzle brake for AK-12 automatic rifles. Manufactured by Izhmash.

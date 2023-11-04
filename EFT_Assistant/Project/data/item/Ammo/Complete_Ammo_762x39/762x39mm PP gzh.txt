@@ -1,0 +1,12 @@
+IDstr=64b7af434b75259c590fa893
+Name=7.62x39mm PP gzh
+ShortName=PP
+Information_Eng=A PP gzh (GRAU index - 7N27) cartridge with an improved penetration bullet. The PP bullet consists of a tompak-clad steel jacket with a truncated tip, a sharp core of hardened steel, a cap of thin metal foil coated with green varnish, and a lead jacket. The foil is used to prevent wear and tear on the gun and magazine when feeding cartridges.
+Itemtype=Ammo
+width=1
+height=1
+weight=0.016000
+fleaMarketFee=0
+propertiestype=ItemPropertiesAmmo
+Name_Jpn=7.62x39mm PP gzh
+Information_Jpn=A PP gzh (GRAU index - 7N27) cartridge with an improved penetration bullet. The PP bullet consists of a tompak-clad steel jacket with a truncated tip, a sharp core of hardened steel, a cap of thin metal foil coated with green varnish, and a lead jacket. The foil is used to prevent wear and tear on the gun and magazine when feeding cartridges.

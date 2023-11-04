@@ -1,0 +1,40 @@
+IDstr=5f04886a3937dc337a6b8238
+Name=Chemistry Closet
+Trader=Mechanic
+
+NeedTask=Anesthesia
+NeedTask=Colleagues - Part 1
+NeedLevel=22
+NeedItem=[Health Resort office key with a blue tapex1]
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Shoreline
+factionName=Any
+Task_Map=Shoreline
+Task_Else=TaskType:visit
+Task_Else=Locate Sanitar's office in the health resort
+Task_Map=Shoreline
+Task_Else=脱出ステータス:[Survived,Run Through]
+
+[
+	TaskType=visit
+	TaskText=Locate Sanitar's office in the health resort
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+5
+Reward_Item=[
+	Eurosx1000/|
+	SilencerCo Hybrid 46 multi-caliber sound suppressorx2/|
+	Graphics cardx1
+]
+
+Reward_EXP=13400

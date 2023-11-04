@@ -19,5 +19,5 @@ containsItems=[
 	SVD CAA XD RGL receiver mountx1/|
 	Axion Kobra EKP-8-18 reflex sightx1
 ]
-Name_Jpn=AS VAL 9x39 special assault rifle Kobra
+Name_Jpn=AS VAL 9x39 特殊アサルトライフル Kobra
 Information_Jpn=

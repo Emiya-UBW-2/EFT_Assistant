@@ -1,12 +1,12 @@
 IDstr=560d75f54bdc2da74d8b4573
-Name=7.62x54mm R SNB gzh ammo pack (30 pcs)
+Name=7.62x54mm R SNB gzh ammo pack (20 pcs)
 ShortName=SNB
-Information_Eng=A 30-round pack of 7.62x54R SNB cartridges.
+Information_Eng=A 20-round pack of 7.62x54R SNB cartridges.
 Itemtype=Ammo container
 width=1
 height=1
 weight=0.015000
 fleaMarketFee=0
 propertiestype=
-Name_Jpn=7.62x54mm R SNB gzh ammo pack (30 pcs)
-Information_Jpn=A 30-round pack of 7.62x54R SNB cartridges.
+Name_Jpn=7.62x54mm R SNB gzh ammo pack (20 pcs)
+Information_Jpn=A 20-round pack of 7.62x54R SNB cartridges.

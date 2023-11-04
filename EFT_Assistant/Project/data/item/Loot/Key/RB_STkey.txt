@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Reserve
-Name_Jpn=RB-STの鍵
+Name_Jpn=RB-ST の鍵
 Information_Jpn=連邦国家準備局の基地にある軍用車両・機器の整備場の鉄扉を開くための鍵。

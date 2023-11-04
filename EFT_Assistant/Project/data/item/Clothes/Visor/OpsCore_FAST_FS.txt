@@ -15,7 +15,9 @@ Conflict=[
 	GPNVG-18 Night Vision goggles/|
 	AN/PVS-14 Night Vision Monocular/|
 	T-7 Thermal Goggles with a Night Vision mount/|
-	Norotos Titanium Advanced Tactical Mount
+	Norotos Titanium Advanced Tactical Mount/|
+	Ops-Core Picatinny Rail Adapter mount/|
+	Ops-Core Single Clamp Rail Adapter mount
 ]
 Name_Jpn=Ops-Core FAST multi-hit ballistic face shield
 Information_Jpn=A special high-strength ballistic visor for the Ops-Core FAST helmet, used by the special forces assault teams.

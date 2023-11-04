@@ -1,6 +1,11 @@
 #include"Header.hpp"
 #include <wininet.h>
-
+#include "Parts/WindowParts.hpp"
+#include "Parts/StrControl.hpp"
+#include "Parts/DrawSystem.hpp"
+#include "Parts/InputParts.hpp"
+#include "Parts/PlayerDataParts.hpp"
+#include "Parts/InterruptParts.hpp"
 
 class MainClass {
 private:
@@ -10,16 +15,10 @@ public:
 		SetWindowStyleMode(2);
 		SetUseBackBufferTransColorFlag(TRUE);
 
-		OPTION::Create();
-		DXDraw::Create("EFT Assistant", 950, 950 * 9 / 16);	//汎用
-		//DXDraw::Create("EFT Assistant", 1920, 720);	//汎用
-		EffectResource::Create();
+		DXDraw::Create();	//汎用//950, 950 * 9 / 16
+		SetMainWindowText("EFT Assistant");
 		PostPassEffect::Create();							//シェーダー
-		//SoundPool::Create();								//サウンド
-		FontPool::Create();									//フォント
-#ifdef DEBUG
-		DebugClass::Create();
-#endif // DEBUG
+		DXDraw::Instance()->PauseIn();
 		//パーツ
 		FPS_n2::PlayerData::Create();
 		FPS_n2::InputControl::Create();

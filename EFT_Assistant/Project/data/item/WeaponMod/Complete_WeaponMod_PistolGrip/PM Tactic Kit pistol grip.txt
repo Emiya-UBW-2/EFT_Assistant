@@ -1,0 +1,19 @@
+IDstr=637b6d610aef6cfc5e02dd14
+Name=PM Tactic Kit pistol grip
+ShortName=PM TK
+Information_Eng=An ergonomic Makarov Pistol grip. Provides a comfortable grip and allows installation of additional accessories under the barrel. Manufactured by Gun Custom Tuning.
+Itemtype=Pistol grip
+width=2
+height=1
+weight=0.114000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	SureFire XC1 tactical flashlight/|
+	UM Tactical UM3 pistol sight mount
+]
+Recoil=0.000000
+Ergonomics=12.000000
+accuracyModifier=0.000000
+Name_Jpn=PM Tactic Kit pistol grip
+Information_Jpn=An ergonomic Makarov Pistol grip. Provides a comfortable grip and allows installation of additional accessories under the barrel. Manufactured by Gun Custom Tuning.

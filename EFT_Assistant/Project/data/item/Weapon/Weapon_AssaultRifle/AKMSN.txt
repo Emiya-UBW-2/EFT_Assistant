@@ -60,7 +60,8 @@ ChildParts=[
 	PP-19-01 "Vityaz" pistol grip/|
 	AK FAB Defense AGR-47 pistol grip/|
 	AK TangoDown Battle Grip pistol grip (FDE)/|
-	AK TangoDown Battle Grip pistol grip
+	AK TangoDown Battle Grip pistol grip/|
+	AK Mission First Tactical ENGAGE AK47 pistol grip
 ]
 ChildParts=[
 	AK AKademia Bastion dust cover/|
@@ -97,7 +98,8 @@ ChildParts=[
 	AK 7.62x39 US Palm "AK30" 30-round magazine (Black)/|
 	AK 7.62x39 US Palm "AK30" 30-round magazine (FDE)/|
 	AK 7.62x39 X Products X-47 50-round drum magazine/|
-	AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine
+	AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine/|
+	AK 7.62x39 Magpul PMAG 20 GEN M3 20-round magazine
 ]
 ChildParts=[
 	AK CSS knurled charging handle/|
@@ -110,19 +112,20 @@ ChildParts=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
 	BelOMO PK-AA dovetail reflex sight/|
 	OKP-7 reflex sight (Dovetail)/|
-	NPZ PK1 "Obzor" reflex sight/|
+	NPZ PK1 "Obzor" dovetail reflex sight/|
 	BelOMO PSO-1 4x24 scope/|
 	BelOMO PSO-1M2-1 4x24 scope/|
 	BelOMO PSO-1M2 4x24 scope/|
 	NPZ USP-1 "Tyulpan" 4x scope/|
-	NSPU-M night vision scope/|
+	NSPU-M 3.5x dovetail night vision scope/|
 	Axion Kobra dovetail mount/|
 	KMZ 1P59 dovetail mount/|
 	NPZ 1P78-1 dovetail mount/|
 	VOMZ Pilad 043-02 dovetail mount/|
 	Zenit B-13 "Klassika" dovetail rail platform/|
 	Zenit B-13V "Klassika" dovetail rail platform/|
-	SAG Bit low profile dovetail sidemount
+	SAG Bit low profile dovetail sidemount/|
+	SAG AK dovetail sidemount
 ]
 Recoil=162.000000
 RecoilHorizontal=448.000000
@@ -138,4 +141,4 @@ cameraSnap=3.500000
 deviationMax=23
 convergence=1.200000
 Name_Jpn=AKMSN 7.62x39 アサルトライフル
-Information_Jpn=AKMSN 7.62x39 (Avtomát Kaláshnikova Modernizírovanny Skladnóy Nochnóy - "Kalashnikov's Automatic rifle Modernised Night with a foldable stock") is a modified AKMS automatic rifle with a dovetail mount for installation of the NSP family night vision scopes — NSP-2/3/3A, NSPU, NSPU-M.
+Information_Jpn=AKMSN 7.62x39 (Avtomát Kaláshnikova Modernizírovanny Skladnóy Nochnóy - "折りたたみ式ストックを装備したカラシニコフ自動小銃 改良版 ナイト") は、折りたたみ式ストックを装備した改良型の AKMS 自動小銃で、NSP シリーズの暗視スコープ (NSP-2/3/3A、NSPU、NSPU-M) を取り付けるためのマウントを備えたライフルだ。

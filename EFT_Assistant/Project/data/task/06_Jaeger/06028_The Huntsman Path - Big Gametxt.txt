@@ -1,0 +1,42 @@
+IDstr=64e7b971f9d6fa49d6769b44
+Name=The Huntsman Path - Big Game
+Trader=Jaeger
+
+NeedTask=The Huntsman Path - Forest Cleaning
+NeedTask=Urban Medicine
+NeedLevel=17
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+factionName=Any
+Task_Map=Streets of Tarkov
+Task_Kill=[
+	Streets of Tarkov-Kabanx1
+]
+Task_Map=Streets of Tarkov
+Task_Kill=[
+	Streets of Tarkov-Kaban Guardx5
+]
+
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Kaban
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate Kaban's guards at the car dealership on Streets of Tarkov
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+2
+Reward_Item=[
+	Roublesx250000/|
+	6-STEN-140-M military batteryx1/|
+	Military circuit boardx5
+]
+
+Reward_EXP=33000

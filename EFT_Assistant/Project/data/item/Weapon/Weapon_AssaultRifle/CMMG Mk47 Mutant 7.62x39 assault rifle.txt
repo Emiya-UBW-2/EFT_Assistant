@@ -34,7 +34,8 @@ ChildParts=[
 	AR-15 Stark AR Rifle Grip (Black)/|
 	AR-15 Stark AR Rifle Grip (FDE)/|
 	AR-15 Tactical Dynamics Hexgrip pistol grip/|
-	AR-15 Tactical Dynamics Skeletonized pistol grip
+	AR-15 Tactical Dynamics Skeletonized pistol grip/|
+	AR-15 Aeroknox Orion pistol grip
 ]
 ChildParts=[
 	AK 7.62x39 ribbed metal 10-round magazine/|
@@ -51,7 +52,8 @@ ChildParts=[
 	AK 7.62x39 ProMag AK-A-16 73-round drum magazine/|
 	AK 7.62x39 US Palm "AK30" 30-round magazine (Black)/|
 	AK 7.62x39 US Palm "AK30" 30-round magazine (FDE)/|
-	AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine
+	AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine/|
+	AK 7.62x39 Magpul PMAG 20 GEN M3 20-round magazine
 ]
 ChildParts=[
 	Mk47 Resolute 7.62x39 upper receiver

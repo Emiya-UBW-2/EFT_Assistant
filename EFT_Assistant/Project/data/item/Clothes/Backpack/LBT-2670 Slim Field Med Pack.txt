@@ -9,4 +9,4 @@ weight=1.920000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
 Name_Jpn=LBT-2670 スリムフィールドメディカルバッグ
-Information_Jpn=A low-profile medical backpack, designed to carry large amounts of specialized medical equipment and supplies. Manufactured by London Bridge Trading.
+Information_Jpn=薄型の医療用バックパックで、特殊な医療機器や医薬品を大量に持ち運べるように設計されている。London Bridge Trading社製。

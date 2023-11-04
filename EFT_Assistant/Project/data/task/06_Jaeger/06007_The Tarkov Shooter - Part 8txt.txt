@@ -1,0 +1,50 @@
+IDstr=5bc4893c86f774626f5ebf3e
+Name=The Tarkov Shooter - Part 8
+Trader=Jaeger
+
+NeedTask=The Tarkov Shooter - Part 7
+NeedLevel=2
+
+CanRestart=true
+NeedKappa=true
+NeedLightkeeper=false
+
+factionName=Any
+Task_Kill=[
+	any PMC operatives{head}x3
+]
+NeedItem=[
+	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
+	Mosin 7.62x54R bolt-action rifle (Sniper)x0/|
+	SV-98 7.62x54R bolt-action sniper riflex0/|
+	Lobaev Arms DVL-10 7.62x51 bolt-action sniper riflex0/|
+	Remington Model 700 7.62x51 bolt-action sniper riflex0/|
+	Molot VPO-215 "Gornostay" .366 TKM bolt-action riflex0/|
+	ORSIS T-5000M 7.62x51 bolt-action sniper riflex0/|
+	MP-18 7.62x54R single-shot riflex0/|
+	Accuracy International AXMC .338 LM bolt-action sniper riflex0
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives with a headshot without dying while using a bolt-action rifle
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+1
+Reward_Item=[
+	Roublesx400000/|
+	Mosin 7.62x54R bolt-action rifle (Sniper) ATACR 7-35x56x1/|
+	Military flash drivex1
+]
+Reward_SkillLevelUp=Sniper Rifles+3
+
+Task_Else=脱出ステータス:[Killed in Action (KIA),Missing in Action (MIA),Left the Action]
+
+[
+	TaskType=extract
+	TaskText=You cannot die or leave the raid until the quest is handed over to the customer (Status: Killed, Ran through, MIA)
+	TaskOptional=false
+]
+
+Reward_EXP=30000

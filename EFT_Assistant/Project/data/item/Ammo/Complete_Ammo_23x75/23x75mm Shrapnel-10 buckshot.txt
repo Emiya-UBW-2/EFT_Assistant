@@ -1,5 +1,5 @@
 IDstr=5e85a9a6eacf8c039e4e2ac1
-Name=23x75mm "Shrapnel-10" buckshot
+Name=23x75mm Shrapnel-10 buckshot
 ShortName=Shrap-10
 Information_Eng=A 23x75mmR "Shrapnel-10" buckshot round with a rated maximum effective range of 10 meters.
 Itemtype=Ammo
@@ -8,5 +8,5 @@ height=1
 weight=0.080000
 fleaMarketFee=0
 propertiestype=ItemPropertiesAmmo
-Name_Jpn=23x75mm "Shrapnel-10" buckshot
+Name_Jpn=23x75mm Shrapnel-10 buckshot
 Information_Jpn=A 23x75mmR "Shrapnel-10" buckshot round with a rated maximum effective range of 10 meters.

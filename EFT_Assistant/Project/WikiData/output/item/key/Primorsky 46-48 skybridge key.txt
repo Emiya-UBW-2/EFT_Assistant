@@ -1,4 +1,4 @@
-*Primorsky 46-48 skybridge key/Primorsky 46-48 skybridge key
+*Primorsky 46-48 skybridge key/プリモルスキー通り46～48番地 スカイブリッジの鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Primorsky 46-48 skybridge key-summary.webp);
 
 *概要
 //概要を記載
-A key to the skybridge linking Primorsky 46-48, leading to the apartment of the ballet master.
+プリモルスキー通り46～48番地を結ぶ "スカイブリッジ" の鍵。バレエマスターのアパートに通じている。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -25,10 +25,10 @@ A key to the skybridge linking Primorsky 46-48, leading to the apartment of the 
 //-オブジェクト
 //--[[Drawer]]
 //--[[Jacket]]
-#accordion(Streets of Tarkov,***,close){{
-&amp;ref(img/skybridge key-location-map.jpg,400x400);
-&amp;ref(img/skybridge key-location1.jpg,400x400);
-&amp;ref(img/skybridge key-location2.jpg,400x400);
+#accordion(Streets of Tarkov,***,open){{
+&amp;ref(img/skybridge key-location-map.jpg,600x600);
+&amp;ref(img/skybridge key-location1.jpg,600x600);
+&amp;ref(img/skybridge key-location2.jpg,600x600);
 }}
 
 

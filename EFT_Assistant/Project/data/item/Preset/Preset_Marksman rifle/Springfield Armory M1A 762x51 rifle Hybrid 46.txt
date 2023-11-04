@@ -1,0 +1,30 @@
+IDstr=m1ahybrid46archangel0001
+Name=Springfield Armory M1A 7.62x51 rifle Hybrid 46
+ShortName=M1A Hybrid 46
+Itemtype=Marksman rifle
+width=7
+height=2
+weight=7.740000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Springfield Armory M1A 7.62x51 riflex1/|
+	M1A 7.62x51 20-round magazinex1/|
+	7.62x51mm M62 Tracerx20/|
+	M1A ProMag Archangel chassisx1/|
+	M14 UltiMAK M8 Forward Optic mountx1/|
+	NcSTAR MPR45 Backup mountx1/|
+	DeltaPoint Cross Slot Mount basex1/|
+	Leupold DeltaPoint Reflex Sightx1/|
+	Insight WMX200 tactical flashlightx1/|
+	M1A 7.62x51 22 inch barrelx1/|
+	SilencerCo Hybrid 46 Direct Thread Mount adapterx1/|
+	SilencerCo Hybrid 46 multi-caliber sound suppressorx1/|
+	M14 SA Enlarged Military Aperture rear sightx1/|
+	M14 Leapers UTG 4-Point Locking Deluxe mountx1/|
+	Lobaev Arms 30mm scope mountx1/|
+	Schmidt & Bender PM II 1-8x24 30mm riflescopex1
+]
+Name_Jpn=Springfield Armory M1A 7.62x51 rifle Hybrid 46
+Information_Jpn=

@@ -1,4 +1,4 @@
-*Shturman's stash key/Shturman's stash key
+*Shturman's stash key/Shturman の保管庫の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Shturman's stash key-summary.webp);
 
 *概要
 //概要を記載
-The Svetloozersk gang's common fund stash key, usually kept by Shturman. The key looks very flimsy, it could break from even a single use.
+スヴェトローゼルスク・ギャングの隠し保管庫の鍵。普段は Shturman が持っている。薄く脆そうな作りで一度使っただけでも壊れてしまいそうだ。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -46,3 +46,4 @@ The Svetloozersk gang's common fund stash key, usually kept by Shturman. The key
 
 *コメント
 //編集掲示板でzawazawaのコメントを作成するように依頼してください
+#zcomment(t=eft%2F530&amp;h=350&amp;size=10)

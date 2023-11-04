@@ -30,7 +30,7 @@ CENTER:&ref(Machinery key-summary.webp);
 //-&#039;&#039;ƒ}ƒbƒv&#039;&#039;
 //&amp;ref(img/Checking_map.png);
 
--&#039;&#039;—¾‚Ì205†º&#039;&#039;
+-&#039;&#039;3ŠK—¾‚Ì205†º&#039;&#039;
 &amp;ref(img/Checking-dorm-205.jpg,600x600);
 &amp;ref(img/Checking-inroom.jpg,600x600);
 }}

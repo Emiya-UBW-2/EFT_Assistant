@@ -40,4 +40,4 @@ United Securityが発行したTerraGroup Labsのキーカード。イエローセクターに所属する
 //拡張子はjpgかpngかwebp
 
 *コメント
-#pcomment(*Lab. Yellow keycard,10,noname,below,reply)
+#zcomment(t=eft%2F524&amp;h=350&amp;size=10)

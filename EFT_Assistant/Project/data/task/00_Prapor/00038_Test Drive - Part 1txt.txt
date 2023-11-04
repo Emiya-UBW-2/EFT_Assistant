@@ -1,0 +1,41 @@
+IDstr=5c0bd94186f7747a727f09b2
+Name=Test Drive - Part 1
+Trader=Prapor
+
+NeedTask=Grenadier
+NeedLevel=30
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+factionName=Any
+Task_Kill=[
+	any PMC operativesx5
+]
+NeedItem=[
+	Springfield Armory M1A 7.62x51 riflex0
+]
+NeedItem=[
+	SilencerCo Hybrid 46 multi-caliber sound suppressorx0/|
+	Schmidt & Bender PM II 1-8x24 30mm riflescopex0
+]
+Task_Else=距離: >= 60m
+
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives from over 60 meters away while using an M1A rifle with Hybrid 46 suppressor and Schmidt & Bender PM II 1-8x24 scope
+	TaskOptional=false
+]
+
+Reward_Item=[
+	Springfield Armory M1A 7.62x51 rifle Hybrid 46x1
+]
+Reward_Rep=Prapor+2
+Reward_Item=[
+	VSS Vintorez 9x39 special sniper rifle Defaultx1/|
+	9x39 SR3M.130 30-round magazinex2/|
+	9x39mm SP-6 gsx120
+]
+
+Reward_EXP=18200

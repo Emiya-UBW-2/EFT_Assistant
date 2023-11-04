@@ -1,4 +1,4 @@
-*Health Resort west wing office room 112 key/Health Resort west wing office room 112 key
+*Health Resort west wing office room 112 key/保養所 西棟休憩室112号室の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Health Resort west wing office room 112 key-summary.webp);
 
 *概要
 //概要を記載
-A key to the Azure Coast sanatorium west wing office room 112.
+保養所 "アズール・コースト" 西棟の休憩室112号室の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -34,7 +34,6 @@ A key to the Azure Coast sanatorium west wing office room 112.
 //なければ項目ごと削除
 -[[Skier/Vitamins - Part 1]]
 *使用場所
-保養所西棟112号
 
 **入手できるもの
 //なければ無しと記載

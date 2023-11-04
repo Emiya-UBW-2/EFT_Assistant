@@ -1,4 +1,4 @@
-*Cottage safe key/Cottage safe key
+*Cottage safe key/コテージの金庫の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Cottage safe key-summary.webp);
 
 *概要
 //概要を記載
-A key to the safe inside one of the cottages, located somewhere near the Azure Coast sanatorium.
+保養所 "アズール・コースト" 近くにあるコテージの金庫の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する

@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Lighthouse
-Name_Jpn=USEC first safe key
-Information_Jpn=A key to the safe that belonged to one of the USEC operatives stationed in the roadside cottage area.
+Name_Jpn=USEC の1番金庫の鍵
+Information_Jpn=沿道の別荘地に駐屯する USEC の一員が持っていた金庫の鍵。

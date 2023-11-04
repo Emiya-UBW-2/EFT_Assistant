@@ -1,4 +1,4 @@
-*Health Resort east wing office room 108 key/Health Resort east wing office room 108 key
+*Health Resort east wing office room 108 key/保養所 東棟診療室108号室の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Health Resort east wing office room 108 key-summary.webp);
 
 *概要
 //概要を記載
-A key to the Azure Coast sanatorium east wing office room 108.
+保養所 "アズール・コースト" 東棟の診療室108号室の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -29,7 +29,6 @@ A key to the Azure Coast sanatorium east wing office room 108.
 
 
 *使用場所
-保養所東棟108号室の鍵ですが施錠されてないため使わない。
 
 **入手できるもの
 //なければ無しと記載

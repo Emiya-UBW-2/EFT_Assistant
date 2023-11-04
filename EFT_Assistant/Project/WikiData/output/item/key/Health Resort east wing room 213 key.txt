@@ -1,4 +1,4 @@
-*Health Resort east wing room 213 key/Health Resort east wing room 213 key
+*Health Resort east wing room 213 key/保養所 東棟213号室の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Health Resort east wing room 213 key-summary.webp);
 
 *概要
 //概要を記載
-A key to the Azure Coast sanatorium east wing room 213.
+保養所 "アズール・コースト" 東棟の213号室の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -28,8 +28,6 @@ A key to the Azure Coast sanatorium east wing room 213.
 
 
 *使用場所
-保養所東棟の213の鍵。施錠されていない。
-209と繋がってる。
 
 **入手できるもの
 //なければ無しと記載

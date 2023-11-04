@@ -1,0 +1,12 @@
+IDstr=64b7af5a8532cf95ee0a0dbd
+Name=7.62x39mm FMJ
+ShortName=FMJ
+Information_Eng=Lead bullet with full metal jacket. Excellent for practical and recreational shooting.
+Itemtype=Ammo
+width=1
+height=1
+weight=0.012000
+fleaMarketFee=0
+propertiestype=ItemPropertiesAmmo
+Name_Jpn=7.62x39mm FMJ
+Information_Jpn=Lead bullet with full metal jacket. Excellent for practical and recreational shooting.

@@ -1,4 +1,4 @@
-*Archive room key/Archive room key
+*Archive room key/資料室の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Archive room key-summary.webp);
 
 *概要
 //概要を記載
-A key to the archive room inside one of the buildings in the central part of the city.
+市の中心街にある建物のひとつに作られた資料室の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する

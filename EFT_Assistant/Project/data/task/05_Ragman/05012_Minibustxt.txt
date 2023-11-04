@@ -1,0 +1,50 @@
+IDstr=5b478d0f86f7744d190d91b5
+Name=Minibus
+Trader=Ragman
+
+NeedTask=Database - Part 2
+NeedLevel=24
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Interchange
+factionName=Any
+Task_Map=Interchange
+NeedItem=MS2000 Markerx1
+Task_Map=Interchange
+NeedItem=MS2000 Markerx1
+Task_Map=Interchange
+NeedItem=MS2000 Markerx1
+Task_Map=Interchange
+Task_Else=脱出ステータス:[Survived,Run Through]
+
+[
+	TaskType=mark
+	TaskText=Locate and mark the first yellow minibus with an MS2000 Marker on Interchange
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Locate and mark the second yellow minibus with an MS2000 Marker on Interchange
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Locate and mark the third yellow minibus with an MS2000 Marker on Interchange
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Ragman+3
+Reward_Item=[
+	Roublesx50000/|
+	ANA Tactical Beta 2 Battle backpackx1
+]
+
+Reward_EXP=13800

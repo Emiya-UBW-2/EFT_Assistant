@@ -1,0 +1,15 @@
+IDstr=646371a9f2404ab67905c8e6
+Name=PKM wooden stock
+ShortName=PKM
+Information_Eng=A standard-issue wooden stock for Kalashnikov Machine gun. Manufactured by V.A. Degtyarev Plant.
+Itemtype=Stock
+width=2
+height=1
+weight=0.600000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=-28.000000
+Ergonomics=3.000000
+accuracyModifier=0.000000
+Name_Jpn=PKM wooden stock
+Information_Jpn=A standard-issue wooden stock for Kalashnikov Machine gun. Manufactured by V.A. Degtyarev Plant.

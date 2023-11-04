@@ -1,4 +1,4 @@
-*RB-PP key/RB-PPの鍵
+*RB-PP key/RB-PP の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(RB-PP key-summary.webp);
 
 *概要
 //概要を記載
-A key to the Radar Station bomb shelter under the Federal State Reserve Agency base. Doesn't seem to be actually used for anything though, at least for now.
+連邦国家準備局の基地内にあるレーダー管制施設の地下壕の鍵。現在は使われていないようだ。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -35,7 +35,7 @@ A key to the Radar Station bomb shelter under the Federal State Reserve Agency b
 //===============================LIST
 |BGCOLOR(#D8F781):''トレーダー''|BGCOLOR(#D8F781):''トレーダーLV''|BGCOLOR(#D8F781):''必要なアイテム''|BGCOLOR(#D8F781):''入手できるアイテム''|BGCOLOR(#D8F781):''備考''|
 //
-|Jaeger|4|Can of RatCola soda x4 &br;Pompon hat x8 &br;Ushanka ear flap hat x4|RB-PP key x1||
+|Jaeger|4|Ushanka ear flap hat x4 &br;Pompon hat x8 &br;Can of RatCola soda x4|RB-PP key x1||
 //===============================LISTEND
 
 *使用場所
@@ -66,3 +66,4 @@ A key to the Radar Station bomb shelter under the Federal State Reserve Agency b
 
 *コメント
 //編集掲示板でzawazawaのコメントを作成するように依頼してください
+#zcomment(t=eft%2F561&amp;h=350&amp;size=10)

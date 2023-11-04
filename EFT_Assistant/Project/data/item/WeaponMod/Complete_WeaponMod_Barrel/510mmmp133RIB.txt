@@ -21,5 +21,5 @@ Recoil=-3.000000
 Ergonomics=-3.000000
 centerOfImpact=0.620000
 deviationMax=9
-Name_Jpn=MP-133 12ga 510mm barrel with rib
-Information_Jpn=A standard factory-produced 510mm barrel with a wide upper rib for MP-133 12 gauge shotguns.
+Name_Jpn=MP-133 12ga 510mm リブ付きバレル
+Information_Jpn=上部に幅広のリブを備えた MP-133 12ゲージ ショットガン用の純正 510mm バレル。

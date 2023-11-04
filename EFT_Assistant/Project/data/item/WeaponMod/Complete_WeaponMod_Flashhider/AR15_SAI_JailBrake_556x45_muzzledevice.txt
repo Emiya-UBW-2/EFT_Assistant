@@ -31,7 +31,9 @@ Conflict=[
 	KAC QDC 5.56x45 sound suppressor/|
 	AR-15 SureFire Warden 5.56x45 blast regulator/|
 	AR-15 Griffin Armament M4SD-K 5.56x45 sound suppressor/|
-	AWC Thor PSR XL multi-caliber sound suppressor
+	AWC Thor PSR XL multi-caliber sound suppressor/|
+	AR-15 Hanson Carbine 5.56x45 13.7 inch barrel/|
+	AR-15 Hanson Carbine 5.56x45 16 inch barrel
 ]
 Recoil=-8.000000
 Ergonomics=-2.000000

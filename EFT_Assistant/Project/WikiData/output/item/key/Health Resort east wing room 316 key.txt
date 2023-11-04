@@ -1,4 +1,4 @@
-*Health Resort east wing room 316 key/Health Resort east wing room 316 key
+*Health Resort east wing room 316 key/保養所 東棟316号室の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -28,7 +28,6 @@ A key to the Azure Coast sanatorium east wing room 316.
 
 
 *使用場所
-保養所東棟316号室
 
 **入手できるもの
 //なければ無しと記載

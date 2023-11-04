@@ -65,7 +65,11 @@ ChildParts=[
 	Trijicon RMR high profile mount/|
 	Trijicon RMR low profile mount/|
 	Trijicon TA51 sight mount/|
-	UNV DLOC-IRD sight mount
+	UNV DLOC-IRD sight mount/|
+	Armasight Zeus universal base/|
+	SIG Sauer ROMEO7 1x30 reflex sight (prototype)/|
+	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope/|
+	ELCAN Specter HCO holographic sight
 ]
 ChildParts=[
 	HK MP7 flip-up front sight/|

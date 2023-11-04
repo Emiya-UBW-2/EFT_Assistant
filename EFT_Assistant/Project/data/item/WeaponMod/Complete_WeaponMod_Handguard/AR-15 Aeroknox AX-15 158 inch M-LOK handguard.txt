@@ -1,0 +1,70 @@
+IDstr=640b20359ab20e15ee445fa9
+Name=AR-15 Aeroknox AX-15 15.8 inch M-LOK handguard
+ShortName=AX-15 15.8"
+Information_Eng=The AX-15 15.8 inch handguard for AR-15 systems, equipped with an M-LOK interface for the installation of additional devices and accessories. Manufactured by Aeroknox.
+Itemtype=Handguard
+width=3
+height=1
+weight=0.343000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail/|
+	Magpul M-LOK Cantilever Mount/|
+	Magpul M-LOK Offset Light Mount
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail/|
+	Magpul M-LOK Cantilever Mount/|
+	Magpul M-LOK Offset Light Mount
+]
+ChildParts=[
+	Holosun LS321 Tactical device/|
+	AN/PEQ-15 tactical device/|
+	AN/PEQ-2 tactical device/|
+	LA-5B/PEQ tactical device/|
+	Steiner DBAL-PL tactical device/|
+	SureFire XC1 tactical flashlight/|
+	Wilcox RAPTAR ES Tactical Rangefinder/|
+	MAWL-C1+ tactical device
+]
+ChildParts=[
+	Magpul M-LOK AFG tactical foregrip (Black)/|
+	Magpul M-LOK AFG tactical foregrip (FDE)/|
+	Magpul M-LOK AFG tactical foregrip (Olive Drab)/|
+	Magpul M-LOK AFG tactical foregrip (Stealth Gray)/|
+	Magpul M-LOK 4.1 inch rail
+]
+ChildParts=[
+	HK MP7 flip-up front sight/|
+	KAC Folding Micro front sight/|
+	KAC Folding front sight/|
+	KRISS Defiance low profile flip-up front sight/|
+	Magpul MBUS Gen2 flip-up front sight/|
+	Magpul MBUS Gen2 flip-up front sight (FDE)/|
+	MCX flip-up front sight/|
+	MPX flip-up front sight/|
+	AR-15 Leapers UTG Low Profile A2 front sight
+]
+ChildParts=[
+	NcSTAR MPR45 Backup mount
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail/|
+	Magpul M-LOK Cantilever Mount/|
+	Magpul M-LOK Offset Light Mount
+]
+Conflict=[
+	AR-10 JP Enterprises Gas System-6/|
+	M4A1 front sight with gas block/|
+	AR-15 Windham Weaponry Rail Gas Block/|
+	AR-15 5.56x45 260mm barrel/|
+	AR-15 5.56x45 370mm barrel/|
+	AR-15 Hanson Carbine 5.56x45 13.7 inch barrel/|
+	AR-15 Hanson Carbine 5.56x45 16 inch barrel
+]
+Recoil=-1.500000
+Ergonomics=12.000000
+accuracyModifier=0.000000
+Name_Jpn=AR-15 Aeroknox AX-15 15.8 inch M-LOK handguard
+Information_Jpn=The AX-15 15.8 inch handguard for AR-15 systems, equipped with an M-LOK interface for the installation of additional devices and accessories. Manufactured by Aeroknox.

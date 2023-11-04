@@ -1,0 +1,44 @@
+IDstr=64f5aac4b63b74469b6c14c2
+Name=Glory to CPSU - Part 2
+Trader=Prapor
+
+NeedTask=Glory to CPSU - Part 1
+NeedLevel=15
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+factionName=Any
+Task_Map=Streets of Tarkov
+Task_Else=TaskType:visit
+Task_Else=Locate the place of work of Prapor's friend on Streets of Tarkov
+Task_Map=Streets of Tarkov
+Task_Else=拾って納品:Streets of Tarkov-Journalx1
+
+[
+	TaskType=visit
+	TaskText=Locate the place of work of Prapor's friend on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Obtain any information on the fate of Prapor's friend
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the found data
+	TaskOptional=false
+]
+
+Reward_Rep=Prapor+1
+Reward_Item=[
+	Roublesx50000/|
+	Tokarev SVT-40 7.62x54R rifle Sniperx1/|
+	SVT-40 7.62x54R 10-round magazinex2/|
+	7.62x54mm R PS gzhx30
+]
+
+Reward_EXP=10100

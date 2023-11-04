@@ -1,0 +1,70 @@
+IDstr=608974af4b05530f55550c21
+Name=Inventory Check
+Trader=Ragman
+
+NeedTask=A Fuel Matter
+NeedLevel=17
+NeedItem=[RB-ORB1 keyx1/|RB-ORB2 keyx1/|RB-ORB3 keyx1/|RB-OB keyx1]
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Reserve
+factionName=Any
+Task_Map=Reserve
+Task_Else=TaskType:visit
+Task_Else=Check the first arsenal in the eastern barracks (Black Pawn) on Reserve
+Task_Map=Reserve
+Task_Else=TaskType:visit
+Task_Else=Check the duty room in the eastern barracks (Black Pawn) on Reserve
+Task_Map=Reserve
+Task_Else=TaskType:visit
+Task_Else=Check the second arsenal in the eastern barracks (Black Pawn) on Reserve
+Task_Map=Reserve
+Task_Else=TaskType:visit
+Task_Else=Check the first arsenal in the southern barracks (White Pawn) on Reserve
+Task_Map=Reserve
+Task_Else=TaskType:visit
+Task_Else=Check the second arsenal in the southern barracks (White Pawn) on Reserve
+Task_Map=Reserve
+Task_Else=脱出ステータス:[Survived]
+
+[
+	TaskType=visit
+	TaskText=Check the first arsenal in the eastern barracks (Black Pawn) on Reserve
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Check the duty room in the eastern barracks (Black Pawn) on Reserve
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Check the second arsenal in the eastern barracks (Black Pawn) on Reserve
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Check the first arsenal in the southern barracks (White Pawn) on Reserve
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Check the second arsenal in the southern barracks (White Pawn) on Reserve
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Ragman+3
+Reward_Item=[
+	Roublesx30000/|
+	ZSh-1-2M helmetx1
+]
+
+Reward_EXP=10000

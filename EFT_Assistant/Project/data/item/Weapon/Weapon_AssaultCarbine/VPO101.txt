@@ -30,12 +30,12 @@ ChildParts=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
 	BelOMO PK-AA dovetail reflex sight/|
 	OKP-7 reflex sight (Dovetail)/|
-	NPZ PK1 "Obzor" reflex sight/|
+	NPZ PK1 "Obzor" dovetail reflex sight/|
 	BelOMO PSO-1 4x24 scope/|
 	BelOMO PSO-1M2-1 4x24 scope/|
 	BelOMO PSO-1M2 4x24 scope/|
 	NPZ USP-1 "Tyulpan" 4x scope/|
-	NSPU-M night vision scope/|
+	NSPU-M 3.5x dovetail night vision scope/|
 	Axion Kobra dovetail mount/|
 	VPO-102 Arbalet mount/|
 	KMZ 1P59 dovetail mount/|
@@ -44,19 +44,20 @@ ChildParts=[
 	SVD SAG low profile sidemount/|
 	Zenit B-13 "Klassika" dovetail rail platform/|
 	Zenit B-13V "Klassika" dovetail rail platform/|
-	SAG Bit low profile dovetail sidemount
+	SAG Bit low profile dovetail sidemount/|
+	SAG AK dovetail sidemount
 ]
 ChildParts=[
 	VPO-101 "Vepr-Hunter" Rotor 43 7.62x51 muzzle brake-compensator
 ]
-Recoil=510.000000
+Recoil=150.000000
 RecoilHorizontal=650.000000
 Ergonomics=29.000000
 SightRange=-100
 FireRate=600
 centerOfImpact=0.065000
 deviationCurve=1.350000
-recoilDispersion=25
+recoilDispersion=18
 recoilAngle=85
 cameraRecoil=0.100800
 cameraSnap=3.500000

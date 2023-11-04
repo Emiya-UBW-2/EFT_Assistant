@@ -1,0 +1,72 @@
+IDstr=5ede567cfa6dc072ce15d6e3
+Name=The Bunker - Part 2
+Trader=Prapor
+
+NeedTask=The Bunker - Part 1
+NeedLevel=11
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Reserve
+factionName=Any
+Task_Map=Reserve
+Task_Else=TaskType:visit
+Task_Else=Locate the hermetic door leading to the hospital (White Bishop)
+Task_Map=Reserve
+Task_Else=TaskType:visit
+Task_Else=Locate one of the two hermetic doors leading to the academy building (Black Bishop)
+Task_Map=Reserve
+Task_Else=TaskType:visit
+Task_Else=Locate one of the two hermetic doors leading to barracks #1 (Black Pawn)
+Task_Map=Reserve
+Task_Else=TaskType:visit
+Task_Else=Locate one of the two hermetic doors leading to barracks #2 (White Pawn)
+Task_Map=Reserve
+Task_Else=TaskType:visit
+Task_Else=Locate the hermetic door leading to the building of the air control center (King)
+Task_Map=Reserve
+Task_Else=脱出ステータス:[Survived,Run Through]
+
+[
+	TaskType=visit
+	TaskText=Locate the hermetic door leading to the hospital (White Bishop)
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate one of the two hermetic doors leading to the academy building (Black Bishop)
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate one of the two hermetic doors leading to barracks #1 (Black Pawn)
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate one of the two hermetic doors leading to barracks #2 (White Pawn)
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate the hermetic door leading to the building of the air control center (King)
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Prapor+3
+Reward_Item=[
+	Roublesx25000/|
+	Kalashnikov AKS-74UB 5.45x39 assault rifle Defaultx1/|
+	5.45x39mm BS gsx120/|
+	AK CAA RS47 handguardx1/|
+	AK-74M CAA AKTS AK74 buffer tubex1
+]
+
+Reward_EXP=9200

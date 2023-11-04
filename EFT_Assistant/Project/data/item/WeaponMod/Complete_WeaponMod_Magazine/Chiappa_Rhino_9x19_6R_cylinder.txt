@@ -16,7 +16,8 @@ ChildParts=[
 	9x19mm AP 6.3/|
 	9x19mm Luger CCI/|
 	9x19mm QuakeMaker/|
-	9x19mm RIP
+	9x19mm RIP/|
+	9x19mm FMJ M882
 ]
 ChildParts=[
 	9x19mm PBP gzh/|
@@ -26,7 +27,8 @@ ChildParts=[
 	9x19mm AP 6.3/|
 	9x19mm Luger CCI/|
 	9x19mm QuakeMaker/|
-	9x19mm RIP
+	9x19mm RIP/|
+	9x19mm FMJ M882
 ]
 ChildParts=[
 	9x19mm PBP gzh/|
@@ -36,7 +38,8 @@ ChildParts=[
 	9x19mm AP 6.3/|
 	9x19mm Luger CCI/|
 	9x19mm QuakeMaker/|
-	9x19mm RIP
+	9x19mm RIP/|
+	9x19mm FMJ M882
 ]
 ChildParts=[
 	9x19mm PBP gzh/|
@@ -46,7 +49,8 @@ ChildParts=[
 	9x19mm AP 6.3/|
 	9x19mm Luger CCI/|
 	9x19mm QuakeMaker/|
-	9x19mm RIP
+	9x19mm RIP/|
+	9x19mm FMJ M882
 ]
 ChildParts=[
 	9x19mm PBP gzh/|
@@ -56,7 +60,8 @@ ChildParts=[
 	9x19mm AP 6.3/|
 	9x19mm Luger CCI/|
 	9x19mm QuakeMaker/|
-	9x19mm RIP
+	9x19mm RIP/|
+	9x19mm FMJ M882
 ]
 ChildParts=[
 	9x19mm PBP gzh/|
@@ -66,7 +71,8 @@ ChildParts=[
 	9x19mm AP 6.3/|
 	9x19mm Luger CCI/|
 	9x19mm QuakeMaker/|
-	9x19mm RIP
+	9x19mm RIP/|
+	9x19mm FMJ M882
 ]
 Recoil=0.000000
 Ergonomics=-2.000000

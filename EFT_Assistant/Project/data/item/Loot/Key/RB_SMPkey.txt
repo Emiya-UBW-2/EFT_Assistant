@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Reserve
-Name_Jpn=RB-SMPの鍵
-Information_Jpn=A key to the Federal State Reserve Agency base Military unit Headquarters' medical storage room.
+Name_Jpn=RB-SMP の鍵
+Information_Jpn=連邦国家準備局の基地内にある部隊司令部の医薬品保管室の鍵。

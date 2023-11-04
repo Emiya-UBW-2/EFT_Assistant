@@ -1,4 +1,4 @@
-*RB-MP11 key/RB-MP11の鍵
+*RB-MP11 key/RB-MP11 の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(RB-MP11 key-summary.webp);
 
 *概要
 //概要を記載
-A key to one of the Federal State Reserve Agency base Service and Repair Center workshop rooms.
+連邦国家準備局の基地内にある整備場1階の作業室の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -56,3 +56,4 @@ A key to one of the Federal State Reserve Agency base Service and Repair Center 
 
 *コメント
 //編集掲示板でzawazawaのコメントを作成するように依頼してください
+#zcomment(t=eft%2F537&amp;h=350&amp;size=10)

@@ -1,0 +1,12 @@
+IDstr=5ab8e79e86f7742d8b372e78
+Name=BNTI Gzhel-K body armor
+ShortName=Gzhel-K
+Information_Eng=The Gzhel assault bulletproof vest is designed for assault units of the Ministry of Internal Affairs and other law enforcement agencies. A special variant of Gzhel-K armor is equipped with ceramic armored panels based on corundum (Russian GOST class 5 protection).
+Itemtype=Armor
+width=3
+height=3
+weight=8.900000
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmor
+Name_Jpn=BNTI Gzhel-K ボディアーマー
+Information_Jpn=Gzhel アサルト防弾ベストは、ロシアの国内軍や法執行機関に所属する特殊部隊向けに設計された。その中でも Gzhel-K "グジェリ - カ" と呼ばれる特殊派生型は、コランダムという非常に硬い酸化アルミニウムの結晶をベースとしたセラミック製防弾プレートを装備しており、GOST規格でクラス4の防弾性能を有している。

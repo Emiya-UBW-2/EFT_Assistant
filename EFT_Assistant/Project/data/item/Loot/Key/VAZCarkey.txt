@@ -9,5 +9,5 @@ weight=0.010000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
-Name_Jpn=VAZ car key
-Information_Jpn=A key to one of the VAZ cars commonly known as Shestyorka ("the sixth one").
+Name_Jpn=VAZ 車の鍵
+Information_Jpn=通称 "シュスチョルカ" (6番目のモデル) と呼ばれる型式の VAZ の車の鍵。

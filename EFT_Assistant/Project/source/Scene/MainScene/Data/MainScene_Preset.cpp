@@ -1,4 +1,5 @@
-#include"../../../Header.hpp"
+#include"MainScene_Preset.hpp"
+#include "../Data/MainScene_Base.hpp"
 
 namespace FPS_n2 {
 	void	PresetList::Load_Sub() noexcept {

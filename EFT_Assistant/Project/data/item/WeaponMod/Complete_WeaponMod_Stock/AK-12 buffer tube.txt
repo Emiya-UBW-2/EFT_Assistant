@@ -1,0 +1,42 @@
+IDstr=649ec87d8007560a9001ab36
+Name=AK-12 buffer tube
+ShortName=AK-12 BT
+Information_Eng=A standard-issue buffer tube for AK-12 automatic rifles, manufactured by Izhmash.
+Itemtype=Stock
+width=2
+height=1
+weight=0.142000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	FAB Defense GL-CORE buttstock/|
+	FAB Defense GL-SHOCK buttstock/|
+	FAB Defense GLR-16-S stock/|
+	High Standard M4SS Stock/|
+	AR-15 HK E1 buttstock/|
+	AR-15 HK Slim Line buttstock/|
+	AK-12 stock/|
+	LMT SOPMOD stock/|
+	Magpul CTR Carbine stock (Black)/|
+	Magpul CTR Carbine stock (FDE)/|
+	Magpul MOE Carbine stock (Black)/|
+	Magpul MOE Carbine stock (FDE)/|
+	Magpul MOE Carbine stock (Foliage Green)/|
+	Magpul MOE Carbine stock (Olive Drab)/|
+	Magpul MOE Carbine stock (Stealth Gray)/|
+	MFT BUS stock/|
+	Strike Industries Viper Mod 1 stock/|
+	Vltor EMOD stock/|
+	KRISS Defiance DS150 stock (Black)/|
+	KRISS Defiance DS150 stock (FDE)/|
+	AR-15 B5 Systems Precision stock/|
+	CMMG RipStock buttstock/|
+	SB Tactical SBA3 brace/|
+	Magpul PRS GEN3 stock (Black)/|
+	Magpul PRS GEN3 stock (Grey)
+]
+Recoil=-4.000000
+Ergonomics=0.000000
+accuracyModifier=0.000000
+Name_Jpn=AK-12 buffer tube
+Information_Jpn=A standard-issue buffer tube for AK-12 automatic rifles, manufactured by Izhmash.

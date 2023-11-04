@@ -1,4 +1,11 @@
-#include"../../../Header.hpp"
+#include"MainScene_Item.hpp"
+#include "../Data/MainScene_Base.hpp"
+#include "../../../Parts/WindowParts.hpp"
+#include "../../../Parts/StrControl.hpp"
+#include "../../../Parts/DrawSystem.hpp"
+#include "../../../Parts/InputParts.hpp"
+#include "../../../Parts/PlayerDataParts.hpp"
+#include "../../../Parts/InterruptParts.hpp"
 
 namespace FPS_n2 {
 	//
@@ -17,7 +24,10 @@ namespace FPS_n2 {
 		//
 		for (auto& cp : this->SetModSlots()) {
 			for (const auto& c : cp.GetData()) {
-				cp.SetTypeID(DataBase::Instance()->GetItemData()->FindPtr(c.GetID())->GetTypeID());
+				auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(c.GetID());
+				if(ptr) {
+					cp.SetTypeID(ptr->GetTypeID());
+				}
 			}
 		}
 		//干渉
@@ -25,6 +35,226 @@ namespace FPS_n2 {
 			cp.CheckID(DataBase::Instance()->GetItemData().get());
 		}
 	}
+	const int		ItemList::ItemProperties::GetArmerClass() const noexcept {
+		switch (m_Type) {
+		case EnumItemProperties::ItemPropertiesArmor:
+		case EnumItemProperties::ItemPropertiesArmorAttachment:
+		case EnumItemProperties::ItemPropertiesChestRig:
+		case EnumItemProperties::ItemPropertiesGlasses:
+		case EnumItemProperties::ItemPropertiesHelmet:
+			return this->m_IntParams[0];
+		default:
+			return 0;
+		}
+	}
+	const int		ItemList::ItemProperties::GetCapacity() const noexcept {
+		switch (m_Type) {
+		case EnumItemProperties::ItemPropertiesBackpack:
+		case EnumItemProperties::ItemPropertiesContainer:
+			return this->m_IntParams[0];
+		case EnumItemProperties::ItemPropertiesChestRig:
+			return this->m_IntParams[1];
+		default:
+			return 0;
+		}
+	}
+	void			ItemList::ItemProperties::SetType(std::string_view value) noexcept {
+		for (int i = 0; i < (int)EnumItemProperties::Max; i++) {
+			if (value == ItemPropertiesStr[i]) {
+				m_Type = (EnumItemProperties)i;
+				break;
+			}
+		}
+	}
+	void			ItemList::ItemProperties::DrawInfoMelee(int xp, int yp, int* xofs, int* yofs) const noexcept {
+		int ysiz = LineHeight * 6 / 10;
+		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+			"切り付けダメージ :%3d", this->GetSlashDamage()) + y_r(30)); *yofs += ysiz + y_r(5);
+		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+			"突きダメージ :%3d", this->GetstabDamage()) + y_r(30)); *yofs += ysiz + y_r(5);
+		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+			"判定判定 :%3.1f", this->GethitRadius()) + y_r(30)); *yofs += ysiz + y_r(5);
+	}
+	void			ItemList::ItemProperties::DrawInfoKey(int xp, int yp, int* xofs, int* yofs) const noexcept {
+		int ysiz = LineHeight * 6 / 10;
+		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+			"使用回数 :%3d", this->GetUses()) + y_r(30)); *yofs += ysiz + y_r(5);
+	}
+	void			ItemList::ItemProperties::DrawInfoNightVision(int xp, int yp, int* xofs, int* yofs) const noexcept {
+		int ysiz = LineHeight * 6 / 10;
+		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+			"ノイズ強度 :%3.2f", this->GetnoiseIntensity()) + y_r(30)); *yofs += ysiz + y_r(5);
+		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+			"ノイズスケール :%3.1f", this->GetnoiseScale()) + y_r(30)); *yofs += ysiz + y_r(5);
+		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+			"拡散強度 :%3.3f", this->GetdiffuseIntensity()) + y_r(30)); *yofs += ysiz + y_r(5);
+		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+			"強さ :%3.2f", this->Getintensity()) + y_r(30)); *yofs += ysiz + y_r(5);
+	}
+	void			ItemList::ItemProperties::DrawInfoPreset(int xp, int yp, int* xofs, int* yofs) const noexcept {
+		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, White, Black,
+			"デフォルトプリセットかどうか:%s", this->GetDefault() ? "TRUE" : "FALSE") + y_r(30)); *yofs += LineHeight + y_r(5);
+		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, White, Black,
+			"パーツリスト:") + y_r(30)); *yofs += LineHeight + y_r(5);
+		for (const auto& c : this->m_ContainsItemID) {
+			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, White, Black,
+				" %s", c.GetName().c_str()) + y_r(30)); *yofs += LineHeight + y_r(5);
+		}
+	}
+	void			ItemList::ItemProperties::DrawInfoWeaponMod(int xp, int yp, int* xofs, int* yofs) const noexcept {
+		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetModRecoil() < 0.f) ? Green : Red, Black,
+			"Recoil(リコイル変動値):%3.1f %%", this->GetModRecoil()) + y_r(30));
+		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + *xofs / 2, yp + *yofs, xp + *xofs / 2, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetModErgonomics() >= 0.f) ? Green : Red, Black,
+			"Ergonomics(エルゴノミクス変動値):%3.1f", this->GetModErgonomics()) + y_r(30));
+		*yofs += LineHeight + y_r(5);
+
+		switch (this->GetType()) {
+		case EnumItemProperties::ItemPropertiesBarrel:
+			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetcenterOfImpact() >= 0.f) ? Green : Red, Black,
+				"centerOfImpact(跳ね上がり？):%3.2f", this->GetcenterOfImpact()) + y_r(30)); *yofs += LineHeight + y_r(5);
+			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetdeviationMax() >= 0.f) ? Green : Red, Black,
+				"deviationMax(偏差の最大値？):%3d", this->GetdeviationMax()) + y_r(30)); *yofs += LineHeight + y_r(5);
+			break;
+		case EnumItemProperties::ItemPropertiesMagazine:
+			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, White, Black,
+				"Capacity(マガジン容量):%3d", this->GetModCapacity()) + y_r(30)); *yofs += LineHeight + y_r(5);
+			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetloadModifier() >= 0.f) ? Green : Red, Black,
+				"loadModifier(装弾変動値):%3.1f", this->GetloadModifier()) + y_r(30)); *yofs += LineHeight + y_r(5);
+			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetammoCheckModifier() >= 0.f) ? Green : Red, Black,
+				"ammoCheckModifier(弾数チェック変動値):%3.1f", this->GetammoCheckModifier()) + y_r(30)); *yofs += LineHeight + y_r(5);
+			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetmalfunctionChance() <= 0.f) ? Green : Red, Black,
+				"malfunctionChance(ジャム変動値):%3.1f", this->GetmalfunctionChance()) + y_r(30)); *yofs += LineHeight + y_r(5);
+			break;
+		case EnumItemProperties::ItemPropertiesScope:
+			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, White, Black,
+				"SightingRange(照準距離):%3d", this->GetSightingRange()) + y_r(30)); *yofs += LineHeight + y_r(5);
+			break;
+		case EnumItemProperties::ItemPropertiesWeaponMod:
+			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetaccuracyModifier() <= 0.f) ? Green : Red, Black,
+				"accuracyModifier(精度変動値):%3.1f", this->GetaccuracyModifier()) + y_r(30)); *yofs += LineHeight + y_r(5);
+			break;
+		default:
+			break;
+		}
+	}
+	void			ItemList::ItemProperties::DrawInfoWeapon(int xp, int yp, int* xofs, int* yofs) const noexcept {
+		int ysiz = LineHeight * 6 / 10;
+		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+			"RecoilVertical    (縦リコイル)     :%3d %%", this->GetWeaponRecoilVertical()) + y_r(30));
+		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + *xofs / 2, yp + *yofs, xp + *xofs / 2, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+			"RecoilHorizontal  (横リコイル)     :%3d %%", this->GetWeaponRecoilHorizontal()) + y_r(30));
+		*yofs += ysiz + y_r(5);
+
+		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+			"Ergonomics        (エルゴノミクス) :%3.1f", this->GetWeaponErgonomics()) + y_r(30));
+		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + *xofs / 2, yp + *yofs, xp + *xofs / 2, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+			"SightRange        (照準距離)       :%3d %%", this->GetWeaponSightingRange()) + y_r(30));
+		*yofs += ysiz + y_r(5);
+
+		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+			"FireRate          (発射速度)       :%3d %%", this->GetWeaponFireRate()) + y_r(30));
+		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + *xofs / 2, yp + *yofs, xp + *xofs / 2, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+			"CenterOfImpact    (跳ね上がり？)   :%3.2f %%", this->GetWeaponcenterOfImpact()) + y_r(30)); *yofs += ysiz + y_r(5);
+
+		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+			"deviationCurve    (偏差の曲線？)   :%3.1f %%", this->GetWeapondeviationCurve()) + y_r(30));
+		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + *xofs / 2, yp + *yofs, xp + *xofs / 2, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+			"recoilDispersion  (リコイルの分散？):%3d %%", this->GetWeaponrecoilDispersion()) + y_r(30)); *yofs += ysiz + y_r(5);
+
+		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+			"recoilAngle       (リコイルの角度？):%3d %%", this->GetWeaponrecoilAngle()) + y_r(30));
+		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + *xofs / 2, yp + *yofs, xp + *xofs / 2, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+			"cameraRecoil      (カメラリコイル？):%3.1f %%", this->GetWeaponcameraRecoil()) + y_r(30)); *yofs += ysiz + y_r(5);
+
+		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+			"cameraSnap        (カメラスナップ？):%3.1f %%", this->GetWeaponcameraSnap()) + y_r(30));
+		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + *xofs / 2, yp + *yofs, xp + *xofs / 2, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+			"deviationMax      (偏差の最大値？)  :%3d %%", this->GetWeapondeviationMax()) + y_r(30)); *yofs += ysiz + y_r(5);
+
+		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+			"convergence       (収束？)          :%3.1f %%", this->GetWeaponconvergence()) + y_r(30)); *yofs += ysiz + y_r(5);
+	}
+	void			ItemList::ItemProperties::DrawInfoMed(int xp, int yp, int* xofs, int* yofs) const noexcept {
+		int ysiz = LineHeight * 6 / 10;
+		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+			"使用時間 :%3.1f", this->GetMedUseTime()) + y_r(30)); *yofs += ysiz + y_r(5);
+		for (auto& m : m_cures) {
+			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+				"治療内容 :%s", m.c_str()) + y_r(30)); *yofs += ysiz + y_r(5);
+		}
+		switch (m_Type) {
+		case EnumItemProperties::ItemPropertiesMedicalItem:
+			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+				"使用回数 :%3d", this->GetMedUses()) + y_r(30)); *yofs += ysiz + y_r(5);
+			break;
+		case EnumItemProperties::ItemPropertiesMedKit:
+			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+				"HP :%3d", this->GetHitpoints()) + y_r(30)); *yofs += ysiz + y_r(5);
+
+			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+				"回復消費最大値 :%3d", this->GetmaxHealPerUse()) + y_r(30)); *yofs += ysiz + y_r(5);
+			if (this->GethpCostLightBleeding() > 0) {
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+					"軽出血消費 :%3d", this->GethpCostLightBleeding()) + y_r(30)); *yofs += ysiz + y_r(5);
+			}
+			if (this->GethpCostHeavyBleeding() > 0) {
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+					"重出血消費 :%3d", this->GethpCostHeavyBleeding()) + y_r(30)); *yofs += ysiz + y_r(5);
+			}
+			break;
+		case EnumItemProperties::ItemPropertiesPainkiller:
+			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+				"使用回数 :%3d", this->GetMedUses()) + y_r(30)); *yofs += ysiz + y_r(5);
+			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+				"鎮痛時間 :%3d", this->GetpainkillerDuration()) + y_r(30)); *yofs += ysiz + y_r(5);
+			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+				"エネルギーへの影響 :%3d", this->GetenergyImpact()) + y_r(30)); *yofs += ysiz + y_r(5);
+			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+				"水分への影響 :%3d", this->GethydrationImpact()) + y_r(30)); *yofs += ysiz + y_r(5);
+			break;
+		case EnumItemProperties::ItemPropertiesSurgicalKit:
+			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+				"使用回数 :%3d", this->GetMedUses()) + y_r(30)); *yofs += ysiz + y_r(5);
+			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+				"最小回復 :%3.1f", this->GetminLimbHealth()) + y_r(30)); *yofs += ysiz + y_r(5);
+			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+				"最高回復 :%3.1f", this->GetmaxLimbHealth()) + y_r(30)); *yofs += ysiz + y_r(5);
+			break;
+		case EnumItemProperties::ItemPropertiesStim:
+			for (const auto& s : m_stimEffects) {
+				{
+					if (s.GetskillName() != "") {
+						*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+							"スキルへの影響 :%s", s.GetskillName().c_str()) + y_r(30));
+						*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + y_r(500), yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+							"%s%3.2f", (s.Getvalue() >= 0) ? "+" : "", s.Getvalue()) + y_r(500) + y_r(30)); *yofs += ysiz + y_r(5);
+					}
+					else {
+						*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+							"効果タイプ :%s", s.Gettype().c_str()) + y_r(30));
+						*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + y_r(500), yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+							"影響数値 :%3.2f", s.Getvalue()) + y_r(500) + y_r(30)); *yofs += ysiz + y_r(5);
+					}
+				}
+				if (s.Getchance() < 1.f) {
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+						"確率 :%3.1f%%", s.Getchance()*100.f) + y_r(30)); *yofs += ysiz + y_r(5);
+				}
+				{
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+						"効果までの遅延 :%3d", s.Getdelay()) + y_r(30));
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + y_r(500), yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+						"効果時間 :%3d", s.Getduration()) + y_r(500) + y_r(30)); *yofs += ysiz + y_r(5);
+				}
+				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+					"パーセント？ :%s", (s.Getpercent() ? "TRUE" : "FALSE")) + y_r(30)); *yofs += ysiz + y_r(5);
+			}
+			break;
+		default:
+			break;
+		}
+	}
+	//
 	void			ItemList::SetSub(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
 		if (LEFT == "Itemtype") { this->m_ItemsData.m_TypeID.SetName(Args[0]); }
 		else if (LEFT == "Map") {

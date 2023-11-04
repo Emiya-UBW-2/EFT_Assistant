@@ -1,0 +1,26 @@
+IDstr=64c1510bda0f6d156000cc17
+Name=Kalashnikov AK-12 5.45x39 assault rifle Default
+ShortName=AK-12 Default
+Itemtype=Assault rifle
+width=5
+height=2
+weight=3.606000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Kalashnikov AK-12 5.45x39 assault riflex1/|
+	AK-12 gas tubex1/|
+	AK-12 pistol gripx1/|
+	AK-12 handguardx1/|
+	RPK-16 handguard railx1/|
+	AK-12 5.45x39 muzzle brakex1/|
+	AK-12 dust coverx1/|
+	AK-12 rear sight basex1/|
+	AK-12 rear sightx1/|
+	AK-12 5.45x39 early model 30-round magazinex1/|
+	AK-12 buffer tubex1/|
+	AK-12 stockx1
+]
+Name_Jpn=Kalashnikov AK-12 5.45x39 assault rifle デフォルト
+Information_Jpn=

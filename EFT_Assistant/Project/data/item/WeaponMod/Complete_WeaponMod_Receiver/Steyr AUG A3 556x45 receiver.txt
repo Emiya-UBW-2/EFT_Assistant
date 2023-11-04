@@ -31,7 +31,8 @@ ChildParts=[
 	SureFire XC1 tactical flashlight/|
 	Zenit Klesch-2IKS IR illuminator with laser/|
 	Zenit Klesch-2P flashlight with laser/|
-	Kiba Arms 25mm accessory ring mount
+	Kiba Arms 25mm accessory ring mount/|
+	MAWL-C1+ tactical device
 ]
 Recoil=0.000000
 Ergonomics=-1.000000

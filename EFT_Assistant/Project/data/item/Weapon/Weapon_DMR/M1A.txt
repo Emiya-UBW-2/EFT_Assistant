@@ -11,7 +11,8 @@ propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	M1A 7.62x51 20-round magazine/|
 	M14 7.62x51 30-round magazine/|
-	M14 7.62x51 X Products X-14 50-round drum magazine
+	M14 7.62x51 X Products X-14 50-round drum magazine/|
+	M1A 7.62x51 10-round magazine
 ]
 ChildParts=[
 	M14 SAGE International M14ALCS chassis/|

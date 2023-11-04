@@ -1,0 +1,43 @@
+IDstr=5a03173786f77451cb427172
+Name=Spa Tour - Part 2
+Trader=Peacekeeper
+
+NeedTask=Spa Tour - Part 1
+NeedLevel=12
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Map=Shoreline
+factionName=Any
+Task_Map=Shoreline
+NeedItem=MS2000 Markerx1
+Task_Map=Shoreline
+NeedItem=MS2000 Markerx1
+Task_Map=Shoreline
+Task_Else=脱出ステータス:[Survived,Run Through]
+
+[
+	TaskType=mark
+	TaskText=Mark the helicopter with an MS2000 Marker on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Mark the safe road with an MS2000 Marker on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Peacekeeper+2
+Reward_Item=[
+	Dollarsx900/|
+	Physical Bitcoinx1
+]
+
+Reward_EXP=6300

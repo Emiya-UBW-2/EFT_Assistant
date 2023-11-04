@@ -1,0 +1,12 @@
+IDstr=64abd93857958b4249003418
+Name=Interceptor OTV body armor (UCP)
+ShortName=OTV
+Information_Eng=The Interceptor vest consists of a fabric Outer Tactical Vest (OTV) with dorsal and thoracic pockets and two protective ceramic-composite SAPI or ESAPI inserts. The Outer Tactical Vest (OTV) is a basic vest equipped with aramid fabric pouches that protect against ammunition fragments and 9mm handgun bullets.
+Itemtype=Armor
+width=3
+height=3
+weight=7.400000
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmor
+Name_Jpn=Interceptor OTV body armor (UCP)
+Information_Jpn=The Interceptor vest consists of a fabric Outer Tactical Vest (OTV) with dorsal and thoracic pockets and two protective ceramic-composite SAPI or ESAPI inserts. The Outer Tactical Vest (OTV) is a basic vest equipped with aramid fabric pouches that protect against ammunition fragments and 9mm handgun bullets.

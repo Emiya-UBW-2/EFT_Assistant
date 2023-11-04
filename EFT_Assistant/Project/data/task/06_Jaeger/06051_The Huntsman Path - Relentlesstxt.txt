@@ -1,0 +1,84 @@
+IDstr=60e71e8ed54b755a3b53eb67
+Name=The Huntsman Path - Relentless
+Trader=Jaeger
+
+NeedTask=The Huntsman Path - Trophy
+NeedTask=The Huntsman Path - Factory Chief
+NeedTask=The Huntsman Path - Woods Keeper
+NeedTask=The Huntsman Path - Eraser - Part 1
+NeedTask=The Huntsman Path - Sadist
+NeedTask=The Huntsman Path - Sellout
+NeedLevel=65
+
+CanRestart=true
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_Kill=[
+	Tagillax1
+]
+Task_Kill=[
+	Killax1
+]
+Task_Kill=[
+	Reshalax1
+]
+Task_Kill=[
+	Shturmanx1
+]
+Task_Kill=[
+	Glukharx1
+]
+Task_Kill=[
+	Sanitarx1
+]
+
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Tagilla
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Killa
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Reshala
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Shturman
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Glukhar
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Locate and eliminate Sanitar
+	TaskOptional=false
+]
+
+Reward_Item=[
+	FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescopex1/|
+	Expeditionary fuel tankx5/|
+	GP coinx20
+]
+Reward_SkillLevelUp=Crafting+2
+Reward_SkillLevelUp=Immunity+1
+
+Task_Else=脱出ステータス:[Killed in Action (KIA),Left the Action,Missing in Action (MIA)]
+
+[
+	TaskType=extract
+	TaskText=You must not die or leave the raid while the task is active (Status: KIA, Left the Action, MIA, Ran Through)
+	TaskOptional=false
+]
+
+Reward_EXP=280000

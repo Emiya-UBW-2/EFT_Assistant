@@ -1,7 +1,7 @@
 IDstr=61bf7c024770ee6f9c6b8b53
-Name=Secured magnetic tape cassette
+Name=Secure magnetic tape cassette
 ShortName=SMT
-Information_Eng=The SMT special secured magnetic tape. Most likely contains important and valuable information. Magnetic media are still valued in information technology, including due to the high analog data reliability factor.
+Information_Eng=The SMT special secure magnetic tape. Most likely contains important and valuable information. Magnetic media are still valued in information technology, including due to the high analog data reliability factor.
 Itemtype=Info
 width=1
 height=1

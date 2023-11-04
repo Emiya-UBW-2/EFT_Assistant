@@ -1,4 +1,4 @@
-*Goshan cash register key/Goshan cash register key
+*Goshan cash register key/Goshan のレジの鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Goshan cash register key-summary.webp);
 
 *概要
 //概要を記載
-A key to the Goshan store outlet cash registers at the ULTRA shopping mall.
+ショッピングモール "ULTRA" にある Goshan のキャッシュレジスターの鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -35,8 +35,12 @@ A key to the Goshan store outlet cash registers at the ULTRA shopping mall.
 //===============================LIST
 |BGCOLOR(#D8F781):''トレーダー''|BGCOLOR(#D8F781):''トレーダーLV''|BGCOLOR(#D8F781):''必要なアイテム''|BGCOLOR(#D8F781):''入手できるアイテム''|BGCOLOR(#D8F781):''備考''|
 //
-|Jaeger|3|Toilet paper x6 &br;Repellent x5 &br;SurvL Survivor Lighter x2 &br;Pack of chlorine x2|Goshan cash register key x1||
+|Jaeger|3|Toilet paper x6 &br;Repellent x5 &br;Pack of chlorine x2 &br;SurvL Survivor Lighter x2|Goshan cash register key x1||
 //===============================LISTEND
+
+**タスク報酬
+//なければ項目ごと削除
+-[[Jaeger/The Huntsman Path - Sellout]]
 
 *タスク
 //なければ項目ごと削除

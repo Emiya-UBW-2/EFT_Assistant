@@ -26,7 +26,8 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight/|
-	Kiba Arms 25mm accessory ring mount
+	Kiba Arms 25mm accessory ring mount/|
+	MAWL-C1+ tactical device
 ]
 ChildParts=[
 	Leapers UTG reflex sight/|
@@ -56,7 +57,8 @@ ChildParts=[
 	DeltaPoint Cross Slot Mount base/|
 	Lobaev Arms 30mm scope mount/|
 	Trijicon RMR low profile mount/|
-	Torrey Pines Logic T12W 30Hz thermal reflex sight
+	Torrey Pines Logic T12W 30Hz thermal reflex sight/|
+	ELCAN Specter HCO holographic sight
 ]
 Conflict=[
 	March Tactical 3-24x42 FFP 30mm riflescope/|

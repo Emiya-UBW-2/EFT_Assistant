@@ -1,0 +1,38 @@
+IDstr=6410733d5dd49d77bd07847e
+Name=Tokarev AVT-40 7.62x54R automatic rifle
+ShortName=AVT-40
+Information_Eng=The AVT-40 partially compensated for the lack of handguns and submachine guns at the beginning of WW2. The AVT-40 is similar to the SVT-40 in its design, but due to the presence of a fire selector, the role of which is played by the safety lever, it can fire both single and automatic fire.
+Itemtype=Assault carbine
+width=2
+height=1
+weight=1.069000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeapon
+ChildParts=[
+	AVT-40 wooden stock 
+]
+ChildParts=[
+	SVT-40 7.62x54R 625mm barrel
+]
+ChildParts=[
+	AVT-40 7.62x54R 15-round magazine/|
+	SVT-40 7.62x54R 10-round magazine
+]
+ChildParts=[
+	SVT dust cover 
+]
+Recoil=175.000000
+RecoilHorizontal=750.000000
+Ergonomics=20.000000
+SightRange=-100
+FireRate=750
+centerOfImpact=0.000000
+deviationCurve=1.350000
+recoilDispersion=20
+recoilAngle=90
+cameraRecoil=0.103600
+cameraSnap=3.500000
+deviationMax=23
+convergence=1.250000
+Name_Jpn=Tokarev AVT-40 7.62x54R automatic rifle
+Information_Jpn=The AVT-40 partially compensated for the lack of handguns and submachine guns at the beginning of WW2. The AVT-40 is similar to the SVT-40 in its design, but due to the presence of a fire selector, the role of which is played by the safety lever, it can fire both single and automatic fire.

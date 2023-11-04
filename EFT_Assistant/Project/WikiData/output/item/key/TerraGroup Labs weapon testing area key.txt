@@ -44,3 +44,4 @@ TerraGroup Labsにある武器の試験場の鍵。
 
 *コメント
 //編集掲示板でzawazawaのコメントを作成するように依頼してください
+#zcomment(t=eft%2F527&amp;h=350&amp;size=10)

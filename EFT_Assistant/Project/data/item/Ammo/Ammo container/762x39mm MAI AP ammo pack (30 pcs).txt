@@ -1,12 +1,12 @@
 IDstr=6489851fc827d4637f01791b
-Name=7.62x39mm MAI AP ammo pack (30 pcs)
+Name=7.62x39mm MAI AP ammo pack (20 pcs)
 ShortName=MAI AP
-Information_Eng=A pack of 7.62x39 mm MAI AP ammo, 30 rounds.
+Information_Eng=A pack of 7.62x39 mm MAI AP ammo, 20 rounds.
 Itemtype=Ammo container
 width=1
 height=1
 weight=0.010000
 fleaMarketFee=0
 propertiestype=
-Name_Jpn=7.62x39mm MAI AP ammo pack (30 pcs)
-Information_Jpn=A pack of 7.62x39 mm MAI AP ammo, 30 rounds.
+Name_Jpn=7.62x39mm MAI AP ammo pack (20 pcs)
+Information_Jpn=A pack of 7.62x39 mm MAI AP ammo, 20 rounds.

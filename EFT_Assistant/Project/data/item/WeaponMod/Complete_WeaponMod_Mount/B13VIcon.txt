@@ -65,7 +65,11 @@ ChildParts=[
 	UNV DLOC-IRD sight mount/|
 	Leapers UTG 25mm ring scope mount/|
 	SwampFox Trihawk Prism Scope 3x30/|
-	AI AX-50 34mm scope mount
+	AI AX-50 34mm scope mount/|
+	Armasight Zeus universal base/|
+	SIG Sauer ROMEO7 1x30 reflex sight (prototype)/|
+	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope/|
+	ELCAN Specter HCO holographic sight
 ]
 Conflict=[
 	BelOMO PSO-1 4x24 scope/|
@@ -74,7 +78,7 @@ Conflict=[
 	PP-19-01 "Vityaz-SN" dust cover
 ]
 Recoil=0.000000
-Ergonomics=-1.000000
+Ergonomics=-2.000000
 accuracyModifier=0.000000
 Name_Jpn=Zenit B-13V "Klassika" dovetail rail platform
 Information_Jpn=The B-13V rail platform is designed to mount on the Dovetail rail on the receiver. Designed for installation on PP-19-01 Vityaz-SN, but can also be installed on any Dovetail receiver weapons. Manufactured by Zenit.

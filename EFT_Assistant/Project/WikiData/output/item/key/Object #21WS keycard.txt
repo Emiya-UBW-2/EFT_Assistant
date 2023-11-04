@@ -1,4 +1,4 @@
-*Object #21WS keycard/Object #21WS キーカード
+*Object #21WS keycard/オブジェクト #21WS のキーカード
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Object #21WS keycard-summary.webp);
 
 *概要
 //概要を記載
-An electronic limited-use access keycard that, according to the logo on the front, belongs to TerraGroup.
+使用制限付きのキーカード。表面にあるロゴから判断すれば TerraGroup のものに違いない。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する

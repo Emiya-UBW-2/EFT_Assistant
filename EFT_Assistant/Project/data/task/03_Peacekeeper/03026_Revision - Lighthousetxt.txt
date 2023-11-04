@@ -1,0 +1,49 @@
+IDstr=6179b4d1bca27a099552e04e
+Name=Revision - Lighthouse
+Trader=Peacekeeper
+
+NeedTask=Revision - Reserve
+NeedLevel=14
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Lighthouse
+factionName=Any
+Task_Map=Lighthouse
+NeedItem=MS2000 Markerx1
+Task_Map=Lighthouse
+NeedItem=MS2000 Markerx1
+Task_Map=Lighthouse
+NeedItem=MS2000 Markerx1
+Task_Map=Lighthouse
+NeedItem=MS2000 Markerx1
+
+[
+	TaskType=mark
+	TaskText=Locate and mark the first BRDM with an MS2000 Marker on Lighthouse
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Locate and mark the second BRDM with an MS2000 Marker on Lighthouse
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Locate and mark the first Stryker with an MS2000 Marker on Lighthouse
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Locate and mark the second Stryker with an MS2000 Marker on Lighthouse
+	TaskOptional=false
+]
+
+Reward_Rep=Peacekeeper+3
+Reward_Item=[
+	Dollarsx850
+]
+
+Reward_EXP=7800

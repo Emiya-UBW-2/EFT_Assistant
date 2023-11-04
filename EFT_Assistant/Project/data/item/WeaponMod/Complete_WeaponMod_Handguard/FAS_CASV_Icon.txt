@@ -37,7 +37,8 @@ ChildParts=[
 	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights/|
 	SIG Sauer ROMEO sight mount/|
 	Trijicon RMR high profile mount/|
-	Trijicon RMR low profile mount
+	Trijicon RMR low profile mount/|
+	MAWL-C1+ tactical device
 ]
 Recoil=-2.000000
 Ergonomics=14.000000

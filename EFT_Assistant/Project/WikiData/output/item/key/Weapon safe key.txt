@@ -7,7 +7,7 @@ CENTER:&ref(Weapon safe key-summary.webp);
 
 *概要
 //概要を記載
-A key to some weapon safe.
+どこかにある武器保管庫の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する

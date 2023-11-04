@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Streets of Tarkov
-Name_Jpn=Supply department director's office key
-Information_Jpn=A key to one of the offices in the "Aspect" LLC building.
+Name_Jpn=供給部門責任者の事務室の鍵
+Information_Jpn=合同会社 "Aspect" 内にある事務室に入るための鍵。

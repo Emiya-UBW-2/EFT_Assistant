@@ -1,0 +1,38 @@
+IDstr=5a68669a86f774255929b4d4
+Name=Health Care Privacy - Part 5
+Trader=Therapist
+
+NeedTask=Health Care Privacy - Part 4
+NeedLevel=10
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Map=Night Factory
+factionName=Any
+Task_Map=Night Factory
+Task_Else=TaskType:visit
+Task_Else=Locate the drop spot on night-time Factory
+Task_Map=Night Factory
+Task_NotFiR_HandOver=[Gunpowder "Kite"x3]
+DogTagLv=0
+
+[
+	TaskType=visit
+	TaskText=Locate the drop spot on night-time Factory
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Obtain 3 packs of Gunpowder "Kite" and stash them in the designated spot
+	TaskOptional=false
+]
+
+Reward_Rep=Therapist+4
+Reward_Item=[
+	Roublesx35000/|
+	Medicine casex1
+]
+
+Reward_EXP=7300

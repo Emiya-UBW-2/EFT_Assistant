@@ -1,0 +1,43 @@
+IDstr=5c0d190cd09282029f5390d8
+Name=Grenadier
+Trader=Prapor
+
+NeedLevel=20
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+factionName=Any
+Task_Kill=[
+	any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x8
+]
+NeedItem=[
+	RDG-2B smoke grenadex0/|
+	"Zarya" stun grenadex0/|
+	M67 hand grenadex0/|
+	VOG-25 Khattabka improvised hand grenadex0/|
+	VOG-17 Khattabka improvised hand grenadex0/|
+	RGD-5 hand grenadex0/|
+	F-1 hand grenadex0/|
+	RGO hand grenadex0/|
+	RGN hand grenadex0
+]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives while using hand grenades
+	TaskOptional=false
+]
+
+Reward_Rep=Prapor+2
+Reward_Item=[
+	Roublesx75000/|
+	12.7x55mm PS12Bx100/|
+	F-1 hand grenadex5/|
+	VOG-17 Khattabka improvised hand grenadex5/|
+	VOG-25 Khattabka improvised hand grenadex5/|
+	RGN hand grenadex2
+]
+
+Reward_EXP=18000

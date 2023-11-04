@@ -1,4 +1,4 @@
-*Yotota car key/Yotota車の鍵
+*Yotota car key/Yotota 車の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Yotota car key-summary.webp);
 
 *概要
 //概要を記載
-A Yotota folding car key with locking buttons.
+ロックボタンの付いた折りたたみ式の Yotota の車の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -44,3 +44,4 @@ A Yotota folding car key with locking buttons.
 
 *コメント
 //編集掲示板でzawazawaのコメントを作成するように依頼してください
+#zcomment(t=eft%2F528&amp;h=350&amp;size=10)

@@ -1,4 +1,4 @@
-*Missam forklift key/Missam forklift key
+*Missam forklift key/Missam のフォークリフトの鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Missam forklift key-summary.webp);
 
 *概要
 //概要を記載
-A Missam forklift key. The name of the former owner is written on the ribbon.
+Missam のフォークリフトの鍵。ストラップに前の持ち主の名前が書かれている。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -22,8 +22,16 @@ A Missam forklift key. The name of the former owner is written on the ribbon.
 
 *鍵の入手方法
 **レイド内
+-オブジェクト
+--[[Drawer]]
+--[[Jacket]]
+
+
 
 *使用場所
+//使用する場所を記載
+なし
+
 **入手できるもの
 //なければ無しと記載
 //-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
@@ -37,3 +45,5 @@ A Missam forklift key. The name of the former owner is written on the ribbon.
 //拡張子はjpgかpngかwebp
 
 *コメント
+//編集掲示板でzawazawaのコメントを作成するように依頼してください
+#zcomment(t=eft%2F672&amp;h=350&amp;size=10)

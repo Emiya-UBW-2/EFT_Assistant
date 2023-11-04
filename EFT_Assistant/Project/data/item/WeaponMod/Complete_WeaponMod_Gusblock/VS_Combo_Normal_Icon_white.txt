@@ -36,7 +36,8 @@ ChildParts=[
 	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights/|
 	SIG Sauer ROMEO sight mount/|
 	Trijicon RMR high profile mount/|
-	Trijicon RMR low profile mount
+	Trijicon RMR low profile mount/|
+	ELCAN Specter HCO holographic sight
 ]
 ChildParts=[
 	Vltor CASV KeyMod 2 inch rail/|

@@ -1,7 +1,7 @@
 IDstr=63a39df18a56922e82001f25
-Name=Zmeevsky 5 apartment 20 key
+Name=Zmeisky 5 apartment 20 key
 ShortName=Zm apt. 20
-Information_Eng=A key to one of the apartments at Zmeevsky 5.
+Information_Eng=A key to one of the apartments at Zmeisky Alley 5.
 Itemtype=Mechanical Key
 width=1
 height=1
@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Streets of Tarkov
-Name_Jpn=Zmeevsky 5 apartment 20 key
-Information_Jpn=A key to one of the apartments at Zmeevsky 5.
+Name_Jpn=ズミ―スキー通り5番地のアパート20号室の鍵
+Information_Jpn=ズミースキー通り5番地の集合住宅の鍵。

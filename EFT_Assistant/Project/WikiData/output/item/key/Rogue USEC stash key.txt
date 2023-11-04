@@ -1,4 +1,4 @@
-*Rogue USEC stash key/Rogue USEC stash key
+*Rogue USEC stash key/Rogue USEC の保管庫の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Rogue USEC stash key-summary.webp);
 
 *概要
 //概要を記載
-A key to the stash, located somewhere at the Rogue USEC base.
+Rogue USEC の拠点のどこかにある保管庫の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -53,3 +53,4 @@ A key to the stash, located somewhere at the Rogue USEC base.
 
 *コメント
 //編集掲示板でzawazawaのコメントを作成するように依頼してください
+#zcomment(t=eft%2F504&amp;h=350&amp;size=10)

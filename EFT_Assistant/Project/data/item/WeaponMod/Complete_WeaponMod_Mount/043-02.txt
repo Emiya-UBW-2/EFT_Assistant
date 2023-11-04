@@ -53,10 +53,14 @@ ChildParts=[
 	Trijicon TA51 sight mount/|
 	UNV DLOC-IRD sight mount/|
 	Leapers UTG 25mm ring scope mount/|
-	SwampFox Trihawk Prism Scope 3x30
+	SwampFox Trihawk Prism Scope 3x30/|
+	Armasight Zeus universal base/|
+	SIG Sauer ROMEO7 1x30 reflex sight (prototype)/|
+	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope/|
+	ELCAN Specter HCO holographic sight
 ]
 Recoil=0.000000
-Ergonomics=-2.000000
+Ergonomics=-3.000000
 accuracyModifier=0.000000
 Name_Jpn=VOMZ Pilad 043-02 dovetail mount
 Information_Jpn=An aluminum sight support with a Picatinny rail mount for the installation of scopes and accessories.

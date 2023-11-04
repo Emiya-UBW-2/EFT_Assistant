@@ -59,7 +59,8 @@ ChildParts=[
 	PP-19-01 "Vityaz" pistol grip/|
 	AK FAB Defense AGR-47 pistol grip/|
 	AK TangoDown Battle Grip pistol grip/|
-	AK TangoDown Battle Grip pistol grip (FDE)
+	AK TangoDown Battle Grip pistol grip (FDE)/|
+	AK Mission First Tactical ENGAGE AK47 pistol grip
 ]
 ChildParts=[
 	AK-74 dust cover (6P20 0-1)/|
@@ -75,7 +76,9 @@ ChildParts=[
 	AK-74 rear sight (6P20 Sb.2)/|
 	AK-74M rear sight (6P20 Sb.2)/|
 	AK Taktika Tula TT01 rear sight rail/|
-	AK RD Enhanced V2 Rear Sight
+	AK RD Enhanced V2 Rear Sight/|
+	AK-12 rear sight/|
+	RPK-16 rear sight
 ]
 ChildParts=[
 	AK-74 polymer stock (6P20 Sb.7)/|
@@ -103,7 +106,9 @@ ChildParts=[
 	AK-74 "Saiga 545" 5.45x39 10-round magazine/|
 	AK-74 5.45x39 Magpul PMAG 30 GEN M3 30-round magazine/|
 	AK-12 5.45x39 30-round magazine/|
-	RPK-16 5.45x39 95-round drum magazine
+	RPK-16 5.45x39 95-round drum magazine/|
+	AK-12 5.45x39 early model 30-round magazine/|
+	AK-74 "Saiga 545" 5.45x39 20-round magazine
 ]
 ChildParts=[
 	AK CSS knurled charging handle/|
@@ -122,5 +127,5 @@ cameraRecoil=0.072000
 cameraSnap=3.500000
 deviationMax=23
 convergence=1.600000
-Name_Jpn=Kalashnikov AK-74 5.45x39 assault rifle
-Information_Jpn=The AK-74 (Avtomat Kalashnikova 74 - "Kalashnikov's Automatic rifle 74") 5.45x39mm assault rifle, developed in 1970 by М. T. Kalashnikov, became a further evolution of the AKM due to adoption of the new 5.45x39 ammunition by the military. The AK-74 was equipped with a new buttstock, handguard (which retained the AKM-type finger swells), and gas cylinder. The stock has a shoulder pad different from that on the AKM, which is rubber and serrated for improved seating against the shooter. In addition, there are lightening cuts on each side of the buttstock. The buttstock, lower handguard, and upper heatguard were first manufactured from laminated wood, this later changed to a synthetic, plum or dark brown colored fiberglass.
+Name_Jpn=AK-74 5.45x39 アサルトライフル
+Information_Jpn=AK-74 (Avtomat Kalashnikova 74 - "カラシニコフ自動小銃 74") 5.45x39mm アサルトライフルは、1970年にM. T. カラシニコフによって開発された。新しい 5.45x39mm 弾薬を採用したことにより、AKM の進化版となった。 これには、新型のストック、ハンドガード（AKMと同様の形状）、ガスシリンダーを装備していて、ストックは、使用者に対する射撃姿勢を向上させるためにゴム製のギザギザしている台尻が追加された。さらに、ストックの両側に重量軽減のための切削が施されている。以前のストック、ハンドガードの下部、および熱シールドの上部は集成材から製造されたが、後に李色または深褐色のガラス繊維強化樹脂製に変わった。

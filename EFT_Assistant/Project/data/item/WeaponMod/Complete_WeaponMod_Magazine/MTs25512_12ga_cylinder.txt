@@ -24,7 +24,8 @@ ChildParts=[
 	12/70 Copper Sabot Premier HP slug/|
 	12/70 "Poleva-3" slug/|
 	12/70 "Poleva-6u" slug/|
-	12/70 SuperFormance HP slug
+	12/70 SuperFormance HP slug/|
+	12/70 Piranha
 ]
 ChildParts=[
 	12/70 7mm buckshot/|
@@ -42,7 +43,8 @@ ChildParts=[
 	12/70 Copper Sabot Premier HP slug/|
 	12/70 "Poleva-3" slug/|
 	12/70 "Poleva-6u" slug/|
-	12/70 SuperFormance HP slug
+	12/70 SuperFormance HP slug/|
+	12/70 Piranha
 ]
 ChildParts=[
 	12/70 7mm buckshot/|
@@ -60,7 +62,8 @@ ChildParts=[
 	12/70 Copper Sabot Premier HP slug/|
 	12/70 "Poleva-3" slug/|
 	12/70 "Poleva-6u" slug/|
-	12/70 SuperFormance HP slug
+	12/70 SuperFormance HP slug/|
+	12/70 Piranha
 ]
 ChildParts=[
 	12/70 7mm buckshot/|
@@ -78,7 +81,8 @@ ChildParts=[
 	12/70 Copper Sabot Premier HP slug/|
 	12/70 "Poleva-3" slug/|
 	12/70 "Poleva-6u" slug/|
-	12/70 SuperFormance HP slug
+	12/70 SuperFormance HP slug/|
+	12/70 Piranha
 ]
 ChildParts=[
 	12/70 7mm buckshot/|
@@ -96,7 +100,8 @@ ChildParts=[
 	12/70 Copper Sabot Premier HP slug/|
 	12/70 "Poleva-3" slug/|
 	12/70 "Poleva-6u" slug/|
-	12/70 SuperFormance HP slug
+	12/70 SuperFormance HP slug/|
+	12/70 Piranha
 ]
 Recoil=0.000000
 Ergonomics=-2.000000

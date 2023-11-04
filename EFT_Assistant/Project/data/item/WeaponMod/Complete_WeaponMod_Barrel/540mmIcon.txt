@@ -17,5 +17,5 @@ Recoil=-3.500000
 Ergonomics=-6.000000
 centerOfImpact=0.600000
 deviationMax=9
-Name_Jpn=MP-133 12ga 540mm barrel
-Information_Jpn=A standard factory-produced 540mm barrel for MP-133 12 gauge shotguns.
+Name_Jpn=MP-133 12ga 540mm バレル
+Information_Jpn=MP-133 12ゲージ ショットガン用の純正 540mm バレル。

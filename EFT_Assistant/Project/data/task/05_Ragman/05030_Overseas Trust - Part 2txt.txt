@@ -1,0 +1,23 @@
+IDstr=64f1d6e732bed22c3e0c7423
+Name=Overseas Trust - Part 2
+Trader=Ragman
+
+NeedTask=Overseas Trust - Part 1
+NeedLevel=35
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_NotFiR_HandOver=[Dollarsx50000]
+DogTagLv=0
+
+[
+	TaskType=giveItem
+	TaskText=Hand over USD
+	TaskOptional=false
+]
+
+
+Reward_EXP=0

@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Interchange
-Name_Jpn=NecrusPharm pharmacy key
-Information_Jpn=A key to the NecrusPharm pharmacy at the ULTRA shopping mall.
+Name_Jpn=薬局 NecrusPharm の鍵
+Information_Jpn=ショッピングモール "ULTRA" にある薬局 ネクルス・ファーム の鍵。

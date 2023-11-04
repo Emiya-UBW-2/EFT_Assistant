@@ -10,4 +10,4 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Name_Jpn=気象台の金庫の鍵
-Information_Jpn=A key to the safe inside the weather station, located somewhere near the Azure Coast sanatorium.
+Information_Jpn=保養所 "アズール・コースト" 近くの気象台にある金庫の鍵。

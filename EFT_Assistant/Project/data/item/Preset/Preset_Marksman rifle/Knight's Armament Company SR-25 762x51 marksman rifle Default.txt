@@ -10,18 +10,18 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	Knight's Armament Company SR-25 7.62x51 marksman riflex1/|
-	AR-10 KAC charging handlex1/|
-	AR-10 7.62x51 KAC 20-round steel magazinex1/|
 	AR-15 Colt A2 pistol gripx1/|
+	AR-10 7.62x51 KAC 20-round steel magazinex1/|
+	Colt Carbine buffer tubex1/|
+	LMT SOPMOD stockx1/|
 	SR-25 7.62x51 upper receiverx1/|
 	SR-25 7.62x51 16 inch barrelx1/|
-	AR-10 KAC Low Profile Gas Blockx1/|
 	AR-10 KAC QDC 7.62x51 Flash Suppressor Kitx1/|
+	AR-10 KAC Low Profile Gas Blockx1/|
 	AR-10 KAC URX 4 14.5 inch handguardx1/|
 	KAC Folding Micro front sightx1/|
 	KAC Folding Micro rear sightx1/|
-	Colt Carbine buffer tubex1/|
-	LMT SOPMOD stockx1
+	AR-10 KAC charging handlex1
 ]
 Name_Jpn=Knight's Armament Company SR-25 7.62x51 marksman rifle デフォルト
 Information_Jpn=

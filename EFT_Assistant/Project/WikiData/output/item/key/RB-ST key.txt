@@ -1,4 +1,4 @@
-*RB-ST key/RB-STの鍵
+*RB-ST key/RB-ST の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -66,3 +66,4 @@ CENTER:&ref(RB-ST key-summary.webp);
 
 *コメント
 //編集掲示板でzawazawaのコメントを作成するように依頼してください
+#zcomment(t=eft%2F542&amp;h=350&amp;size=10)

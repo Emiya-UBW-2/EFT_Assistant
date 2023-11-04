@@ -1,4 +1,4 @@
-*Health Resort west wing room 219 key/Health Resort west wing room 219 key
+*Health Resort west wing room 219 key/保養所 西棟219号室の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -36,7 +36,6 @@ A key to the Azure Coast sanatorium west wing room 219.
 //なければ項目ごと削除
 -[[Peacekeeper/Spa Tour - Part 4]]
 *使用場所
-保養所西棟219号室の鍵を開けられます。
 
 **入手できるもの
 //なければ無しと記載

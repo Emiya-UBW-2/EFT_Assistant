@@ -1,0 +1,166 @@
+IDstr=64edbb1317ab941a6f7cc247
+Name=Out of Time
+Trader=Ragman
+
+NeedTask=Ballet Lover
+NeedTask=Scavenger
+NeedLevel=29
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_Map=Streets of Tarkov
+Task_Else=拾って納品:Streets of Tarkov-Picture 1x1
+Task_Map=Streets of Tarkov
+Task_Else=拾って納品:Streets of Tarkov-Picture 2x1
+Task_Map=Streets of Tarkov
+Task_Else=拾って納品:Streets of Tarkov-Picture 3x1
+Task_Map=Streets of Tarkov
+Task_Else=拾って納品:Streets of Tarkov-Picture 4x1
+Task_Map=Streets of Tarkov
+Task_Else=拾って納品:Streets of Tarkov-Picture 5x1
+Task_Map=Streets of Tarkov
+Task_Else=拾って納品:Streets of Tarkov-Picture 6x1
+Task_Map=Customs
+Task_Else=拾って納品:Customs-Picture 7x1
+Task_Map=The Lab
+Task_Else=拾って納品:The Lab-Picture 8x1
+Task_Map=Reserve
+Task_Else=拾って納品:Reserve-Picture 9x1
+Task_Map=Shoreline
+Task_Else=拾って納品:Shoreline-Picture 10x1
+Task_Map=Interchange
+Task_Else=拾って納品:Interchange-Picture 11x1
+Task_Map=Lighthouse
+Task_Else=拾って納品:Lighthouse-Picture 12x1
+
+[
+	TaskType=findQuestItem
+	TaskText=Locate and obtain clock dial painting #1
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the painting
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Locate and obtain clock dial painting #2
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the painting
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Locate and obtain clock dial painting #3
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the painting
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Locate and obtain clock dial painting #4
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the painting
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Locate and obtain clock dial painting #5
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the painting
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Locate and obtain clock dial painting #6
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the painting
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Locate and obtain clock dial painting #7
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the painting
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Locate and obtain clock dial painting #8
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the painting
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Locate and obtain clock dial painting #9
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the painting
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Locate and obtain clock dial painting #10
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the painting
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Locate and obtain clock dial painting #11
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the painting
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Locate and obtain clock dial painting #12
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the painting
+	TaskOptional=false
+]
+
+Reward_Rep=Ragman+3
+Reward_Item=[
+	Roublesx1000000/|
+	FORT Defender-2 body armorx3
+]
+
+Reward_EXP=25700

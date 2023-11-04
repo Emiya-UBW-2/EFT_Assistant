@@ -1,4 +1,4 @@
-*VAZ car key/VAZ car key
+*VAZ car key/VAZ 車の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(VAZ car key-summary.webp);
 
 *概要
 //概要を記載
-A key to one of the VAZ cars commonly known as Shestyorka ("the sixth one").
+通称 "シュスチョルカ" (6番目のモデル) と呼ばれる型式の VAZ の車の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する

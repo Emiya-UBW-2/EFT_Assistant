@@ -1,4 +1,4 @@
-*Health Resort east wing room 328 key/Health Resort east wing room 328 key
+*Health Resort east wing room 328 key/保養所 東棟328号室の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Health Resort east wing room 328 key-summary.webp);
 
 *概要
 //概要を記載
-A key to the Azure Coast sanatorium east wing room 328.
+保養所 "アズール・コースト" 東棟の328号室の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -31,8 +31,6 @@ A key to the Azure Coast sanatorium east wing room 328.
 //なければ項目ごと削除
 -[[Peacekeeper/Wet Job - Part 5]]
 *使用場所
-保養所東棟328号室の鍵。
-ベランダを通して327(utility room)にいける
 
 **入手できるもの
 //なければ無しと記載

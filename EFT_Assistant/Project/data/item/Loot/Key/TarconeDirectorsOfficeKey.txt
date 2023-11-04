@@ -9,6 +9,5 @@ weight=0.010000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
-Map=Customs
 Name_Jpn=Tarcone 管理事務室の鍵
 Information_Jpn=税関の物流倉庫内にある Tarcone の管理事務室の鍵。

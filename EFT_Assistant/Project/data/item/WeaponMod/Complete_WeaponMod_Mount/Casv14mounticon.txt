@@ -62,7 +62,11 @@ ChildParts=[
 	Trijicon TA51 sight mount/|
 	UNV DLOC-IRD sight mount/|
 	SwampFox Trihawk Prism Scope 3x30/|
-	AI AX-50 34mm scope mount
+	AI AX-50 34mm scope mount/|
+	Armasight Zeus universal base/|
+	SIG Sauer ROMEO7 1x30 reflex sight (prototype)/|
+	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope/|
+	ELCAN Specter HCO holographic sight
 ]
 ChildParts=[
 	Axion Kobra EKP-8-18 reflex sight/|
@@ -87,7 +91,8 @@ ChildParts=[
 	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights/|
 	SIG Sauer ROMEO sight mount/|
 	Trijicon RMR high profile mount/|
-	Trijicon RMR low profile mount
+	Trijicon RMR low profile mount/|
+	ELCAN Specter HCO holographic sight
 ]
 ChildParts=[
 	Holosun LS321 Tactical device/|
@@ -96,7 +101,8 @@ ChildParts=[
 	LA-5B/PEQ tactical device/|
 	SureFire XC1 tactical flashlight/|
 	Wilcox RAPTAR ES Tactical Rangefinder/|
-	Zenit Perst-3 tactical device
+	Zenit Perst-3 tactical device/|
+	MAWL-C1+ tactical device
 ]
 ChildParts=[
 	Vltor CASV 2 inch rail/|

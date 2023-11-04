@@ -28,7 +28,8 @@ ChildParts=[
 	AN/PEQ-2 tactical device/|
 	LA-5B/PEQ tactical device/|
 	Wilcox RAPTAR ES Tactical Rangefinder/|
-	Zenit Klesch-2U tactical flashlight
+	Zenit Klesch-2U tactical flashlight/|
+	MAWL-C1+ tactical device
 ]
 Recoil=0.000000
 Ergonomics=0.000000

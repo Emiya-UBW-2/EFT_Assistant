@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Streets of Tarkov
-Name_Jpn=Archive room key
-Information_Jpn=A key to the archive room inside one of the buildings in the central part of the city.
+Name_Jpn=資料室の鍵
+Information_Jpn=市の中心街にある建物のひとつに作られた資料室の鍵。

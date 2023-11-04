@@ -1,6 +1,6 @@
 IDstr=5b0e794b5acfc47a877359b2
 Name=AKM/AK-74 Magpul Zhukov-S stock
-ShortName=Zhukov-S AK
+ShortName=Zhukov-S
 Information_Eng=The Zhukov-S stock, designed for installation on AKM/AK-74-type non-folding assault rifles. Manufactured by Magpul.
 Itemtype=Stock
 width=2

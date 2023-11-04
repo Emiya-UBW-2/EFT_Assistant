@@ -1,0 +1,22 @@
+IDstr=64cbdff43ccb85468628d5fc
+Name=Kalashnikov PKM 7.62x54R machine gun Default
+ShortName=PKM Default
+Itemtype=Machinegun
+width=6
+height=3
+weight=8.994000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Kalashnikov PKM 7.62x54R machine gunx1/|
+	PK pistol gripx1/|
+	PKM 7.62x54R 658mm barrelx1/|
+	PKM 7.62x54R slotted flash hiderx1/|
+	PK 7.62x54R 100-round boxx1/|
+	PKM wooden stockx1/|
+	PK bipodx1/|
+	PK rear sightx1
+]
+Name_Jpn=Kalashnikov PKM 7.62x54R machine gun デフォルト
+Information_Jpn=

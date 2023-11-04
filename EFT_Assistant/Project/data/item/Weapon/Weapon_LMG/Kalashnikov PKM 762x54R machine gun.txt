@@ -1,0 +1,50 @@
+IDstr=64637076203536ad5600c990
+Name=Kalashnikov PKM 7.62x54R machine gun
+ShortName=PKM
+Information_Eng=PKM (Pulemyot Kalashnikova Modernizirovanny - "Kalashnikov's Machine Gun Modernized") is a modernized version of Kalashnikov PK machine gun, operating with 7.62x54R ammunition. The PKM proved to be a powerful, simple, reliable and effective weapon. It was in demand for many decades, starting from the late 60s of the last century and up to the present time. Manufactured by V.A. Degtyarev Plant.
+Itemtype=Machinegun
+width=3
+height=1
+weight=3.852000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeapon
+ChildParts=[
+	PK pistol grip/|
+	PK pistol grip (Black)
+]
+ChildParts=[
+	PK 7.62x54R 100-round box
+]
+ChildParts=[
+	PKM wooden stock/|
+	PK Zenit PT-2 "Klassika" stock/|
+	PKP polymer stock
+]
+ChildParts=[
+	PKP 7.62x54R 658mm barrel/|
+	PKM 7.62x54R 658mm barrel
+]
+ChildParts=[
+	PK bipod
+]
+ChildParts=[
+	PK Zenit B-50 handguard
+]
+ChildParts=[
+	PK rear sight
+]
+Recoil=210.000000
+RecoilHorizontal=1300.000000
+Ergonomics=35.000000
+SightRange=-100
+FireRate=650
+centerOfImpact=0.000000
+deviationCurve=1.350000
+recoilDispersion=25
+recoilAngle=90
+cameraRecoil=0.296000
+cameraSnap=3.500000
+deviationMax=23
+convergence=1.150000
+Name_Jpn=Kalashnikov PKM 7.62x54R machine gun
+Information_Jpn=PKM (Pulemyot Kalashnikova Modernizirovanny - "Kalashnikov's Machine Gun Modernized") is a modernized version of Kalashnikov PK machine gun, operating with 7.62x54R ammunition. The PKM proved to be a powerful, simple, reliable and effective weapon. It was in demand for many decades, starting from the late 60s of the last century and up to the present time. Manufactured by V.A. Degtyarev Plant.

@@ -27,8 +27,8 @@ ChildParts=[
 	Strike Industries Viper PDW stock/|
 	AR-15 RTM ATP buffer tube
 ]
-Recoil=-1.000000
-Ergonomics=-1.000000
+Recoil=0.000000
+Ergonomics=-0.500000
 accuracyModifier=0.000000
 Name_Jpn=SVDS Lynx Arms Hinge buffer tube adapter
 Information_Jpn=An adapter for installation of telescopic stock buffer tubes on the SVD sniper rifles and Rys carbines with folding stocks. Manufactured by Lynx Arms.

@@ -15,5 +15,5 @@ containsItems=[
 	MP-155 12ga 6-shell magazinex1/|
 	MP-155 walnut stockx1
 ]
-Name_Jpn=MP-155 12ゲージ セミオートマチックショットガン デフォルト
+Name_Jpn=MP-155 12ga セミオートショットガン デフォルト
 Information_Jpn=

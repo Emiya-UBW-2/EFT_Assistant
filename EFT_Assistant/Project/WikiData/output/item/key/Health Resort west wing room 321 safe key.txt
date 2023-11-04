@@ -1,4 +1,4 @@
-*Health Resort west wing room 321 safe key/Health Resort west wing room 321 safe key
+*Health Resort west wing room 321 safe key/保養所 西棟321号室の金庫の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Health Resort west wing room 321 safe key-summary.webp);
 
 *概要
 //概要を記載
-A key to the Azure Coast sanatorium west wing room 321 safe.
+保養所 "アズール・コースト" 西棟の321号室にある金庫の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する

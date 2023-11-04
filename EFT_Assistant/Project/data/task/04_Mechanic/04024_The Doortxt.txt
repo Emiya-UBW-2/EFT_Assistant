@@ -1,0 +1,54 @@
+IDstr=64ee9df4496db64f9b7a4432
+Name=The Door
+Trader=Mechanic
+
+NeedTask=Signal - Part 3
+NeedLevel=15
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+factionName=Any
+Task_Map=Streets of Tarkov
+Task_Else=TaskType:visit
+Task_Else=Locate the cause of the signal jamming on Streets of Tarkov
+Task_Map=Streets of Tarkov
+Task_NotFiR_HandOver=[WI-FI Camerax1]
+DogTagLv=0
+Task_Map=Streets of Tarkov
+Task_NotFiR_HandOver=[WI-FI Camerax1]
+DogTagLv=0
+Task_Else=脱出ステータス:[Survived,Run Through]
+
+[
+	TaskType=visit
+	TaskText=Locate the cause of the signal jamming on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Install a WI-FI Camera to watch the door
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Install a WI-FI Camera to watch the stairwell
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+1
+Reward_Item=[
+	Eurosx500/|
+	Beretta M9A3 9x19 pistol Defaultx1/|
+	Remington Model 870 12ga pump-action shotgun Defaultx1/|
+	Rusted bloody keyx1
+]
+
+Reward_EXP=30200

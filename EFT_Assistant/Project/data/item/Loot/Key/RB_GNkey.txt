@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Reserve
-Name_Jpn=RB-GNの鍵
-Information_Jpn=A key to the Federal State Reserve Agency base Airspace Control Center bunker generator room.
+Name_Jpn=RB-GN の鍵
+Information_Jpn=連邦国家準備局の基地内にある航空管制センター地下壕の発電機室の鍵。

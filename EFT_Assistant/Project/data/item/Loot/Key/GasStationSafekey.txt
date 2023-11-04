@@ -9,5 +9,5 @@ weight=0.010000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
-Name_Jpn=Gas station safe key
-Information_Jpn=A key to the safe inside the gas station, located somewhere near the Azure Coast sanatorium.
+Name_Jpn=ガソリンスタンドの金庫の鍵
+Information_Jpn=保養所 "アズール・コースト" 近くのガソリンスタンドにある金庫の鍵。

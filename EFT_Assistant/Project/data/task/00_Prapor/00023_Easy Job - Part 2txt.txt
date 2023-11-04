@@ -1,0 +1,31 @@
+IDstr=6179acbdc760af5ad2053585
+Name=Easy Job - Part 2
+Trader=Prapor
+
+NeedTask=Easy Job - Part 1
+NeedLevel=18
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Lighthouse
+factionName=Any
+Task_Map=Lighthouse
+Task_Kill=[
+	Lighthouse-any targetx20
+]
+Task_Else=ゾーン:[Helicopter at Water Treatment Plant]
+
+[
+	TaskType=shoot
+	TaskText=Eliminate any target around the helicopter area at the water treatment plant on Lighthouse
+	TaskOptional=false
+]
+
+Reward_Rep=Prapor+2
+Reward_Item=[
+	Roublesx155000
+]
+
+Reward_EXP=18000

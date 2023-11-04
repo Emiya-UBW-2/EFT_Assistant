@@ -1,4 +1,4 @@
-*TerraGroup Labs arsenal storage room key/TerraGroup Labs 保管庫の鍵
+*TerraGroup Labs arsenal storage room key/TerraGroup Labs 保管室の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(TerraGroup Labs arsenal storage room key-summary.webp);
 
 *概要
 //概要を記載
-TerraGroup Labsにある厳重に管理された保管庫の鍵。
+TerraGroup Labsにある厳重に管理された保管室の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -44,3 +44,4 @@ TerraGroup Labsにある厳重に管理された保管庫の鍵。
 
 *コメント
 //編集掲示板でzawazawaのコメントを作成するように依頼してください
+#zcomment(t=eft%2F525&amp;h=350&amp;size=10)

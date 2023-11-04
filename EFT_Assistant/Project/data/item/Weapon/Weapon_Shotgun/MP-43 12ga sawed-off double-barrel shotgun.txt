@@ -1,0 +1,28 @@
+IDstr=64748cb8de82c85eaf0a273a
+Name=MP-43 12ga sawed-off double-barrel shotgun
+ShortName=Sawed-off
+Information_Eng=A double-barreled sawed-off classic. Ryzhy's personal weapon. Loaded with 12-gauge rounds.
+Itemtype=Shotgun
+width=1
+height=1
+weight=1.300000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeapon
+ChildParts=[
+	MP-43 12ga sawed-off 310mm barrel
+]
+Recoil=311.000000
+RecoilHorizontal=510.000000
+Ergonomics=50.000000
+SightRange=-100
+FireRate=900
+centerOfImpact=0.010000
+deviationCurve=2.500000
+recoilDispersion=35
+recoilAngle=90
+cameraRecoil=0.129600
+cameraSnap=2.200000
+deviationMax=10
+convergence=1.200000
+Name_Jpn=MP-43 12ga sawed-off double-barrel shotgun
+Information_Jpn=A double-barreled sawed-off classic. Ryzhy's personal weapon. Loaded with 12-gauge rounds.

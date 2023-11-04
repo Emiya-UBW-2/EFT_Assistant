@@ -11,7 +11,7 @@ propertiestype=
 Conflict=[
 	Ops-Core FAST Side Armor/|
 	Peltor ComTac 2 headset/|
-	MSA Sordin Supreme PRO-X/L active headset/|
+	MSA Sordin Supreme PRO-X/L headset/|
 	Peltor ComTac 4 Hybrid headset/|
 	GSSh-01 active headset/|
 	Peltor Tactical Sport headset

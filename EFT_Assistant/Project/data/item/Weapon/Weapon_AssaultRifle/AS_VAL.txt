@@ -36,9 +36,9 @@ ChildParts=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
 	BelOMO PK-AA dovetail reflex sight/|
 	OKP-7 reflex sight (Dovetail)/|
-	NPZ PK1 "Obzor" reflex sight/|
+	NPZ PK1 "Obzor" dovetail reflex sight/|
 	NPZ USP-1 "Tyulpan" 4x scope/|
-	NSPU-M night vision scope/|
+	NSPU-M 3.5x dovetail night vision scope/|
 	Axion Kobra dovetail mount/|
 	SVD CAA XD RGL receiver mount/|
 	KMZ 1P59 dovetail mount/|
@@ -67,5 +67,5 @@ cameraRecoil=0.076800
 cameraSnap=3.000000
 deviationMax=15
 convergence=1.700000
-Name_Jpn=AS VAL 9x39 special assault rifle
-Information_Jpn=AS VAL (Avtomat Specialniy VAL - "Special Automatic rifle VAL") is a silenced automatic rifle with an integral suppressor designed for special forces units. Developed in TsNIITochMash and based on the VSS Vintorez platform.
+Name_Jpn=AS VAL 9x39 特殊アサルトライフル
+Information_Jpn=AS VAL（Avtomat Specialniy VAL - "特殊自動小銃 VAL"）は、特殊部隊向けに設計されていて、内蔵された消音器を備えた消音自動小銃だ。VSS ヴィントレスを基に、ロシアの防衛関連企業ツニートチマッシ（TsNIITochMash）で開発された。

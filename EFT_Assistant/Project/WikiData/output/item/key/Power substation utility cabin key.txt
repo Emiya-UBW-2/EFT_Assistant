@@ -1,4 +1,4 @@
-*Power substation utility cabin key/Power substation utility cabin key
+*Power substation utility cabin key/変電所の作業小屋の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(Power substation utility cabin key-summary.webp);
 
 *概要
 //概要を記載
-A key to the power substation utility cabin adjacent to the ULTRA shopping mall.
+ショッピングモール "ULTRA" に隣接する変電所にある仮設の作業小屋の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -27,6 +27,7 @@ A key to the power substation utility cabin adjacent to the ULTRA shopping mall.
 --[[Jacket]]
 -その他
 --SCAV、SCAVプレイヤーがインベントリ内に所持している。
+--[[Therapist]]の[[オペレーショナルタスク]](デイリータスク)の報酬。
 //-フィールド上の特定の場所にスポーン
 -[[FACTORY]]
 --Cellars extractionの真上にある青いロッカー

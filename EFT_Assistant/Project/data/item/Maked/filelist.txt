@@ -1,0 +1,24 @@
+46x30mm JSP SX ammo pack (40 pcs).txt 
+Kalashnikov AK-12 545x39 assault rifle Default.txt 
+MP-43 12ga sawed-off 310mm barrel.txt 
+PKM 762x54R 658mm barrel.txt 
+PKP 762x54R 658mm barrel.txt 
+SVT-40 762x54R 625mm barrel.txt 
+AK-12 gas tube.txt 
+Aspect company office key.txt 
+PE teacher's office key.txt 
+Armasight Zeus universal base.txt 
+PK Zenit B-50 16mm top mount.txt 
+PK Zenit B-50 66mm top mount.txt 
+SAG AK dovetail sidemount.txt 
+SVT-40 Tokarev PU mount.txt 
+AK Mission First Tactical ENGAGE AK47 pistol grip.txt 
+AR-15 Aeroknox Orion pistol grip.txt 
+PK pistol grip (Black).txt 
+PK pistol grip.txt 
+PM bakelite side grips.txt 
+PM FAB Defense pistol grip (Olive Drab).txt 
+PM FAB Defense pistol grip.txt 
+PM Tactic Kit pistol grip.txt 
+Sealed weapon case.txt 
+SIG Sauer ROMEO7 1x30 reflex sight (prototype).txt 

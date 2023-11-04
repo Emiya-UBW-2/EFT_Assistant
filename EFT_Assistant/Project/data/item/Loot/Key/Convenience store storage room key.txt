@@ -9,5 +9,5 @@ weight=0.010000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
-Name_Jpn=Convenience store storage room key
-Information_Jpn=A key that opens a storage room inside the roadside convenience store.
+Name_Jpn=コンビニエンスストアの貯蔵室の鍵
+Information_Jpn=道路沿いのコンビニエンスストア内にある貯蔵室に入るための鍵。

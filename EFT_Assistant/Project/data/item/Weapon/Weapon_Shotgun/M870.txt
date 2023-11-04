@@ -13,7 +13,7 @@ ChildParts=[
 	M870 12ga 355mm barrel/|
 	M870 12ga 508mm barrel/|
 	M870 12ga 660mm vent rib barrel/|
-	M870 12ga sawn-off 325mm barrel
+	M870 12ga sawed-off 325mm barrel
 ]
 ChildParts=[
 	M870 FAB Defense PR-870 forestock/|

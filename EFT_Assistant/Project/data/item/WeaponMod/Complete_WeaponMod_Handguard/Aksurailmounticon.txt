@@ -77,7 +77,11 @@ ChildParts=[
 	Trijicon RMR low profile mount/|
 	Trijicon TA51 sight mount/|
 	UNV DLOC-IRD sight mount/|
-	SwampFox Trihawk Prism Scope 3x30
+	SwampFox Trihawk Prism Scope 3x30/|
+	Armasight Zeus universal base/|
+	ELCAN Specter HCO holographic sight/|
+	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope/|
+	SIG Sauer ROMEO7 1x30 reflex sight (prototype)
 ]
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
@@ -99,7 +103,8 @@ ChildParts=[
 	Daniel Defense 25mm accessory ring mount/|
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
-	Insight WMX200 tactical flashlight
+	Insight WMX200 tactical flashlight/|
+	MAWL-C1+ tactical device
 ]
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
@@ -120,7 +125,8 @@ ChildParts=[
 	Daniel Defense 25mm accessory ring mount/|
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
-	Insight WMX200 tactical flashlight
+	Insight WMX200 tactical flashlight/|
+	MAWL-C1+ tactical device
 ]
 ChildParts=[
 	EOTech EXPS3 holographic sight (Tan)/|
@@ -148,7 +154,8 @@ ChildParts=[
 	DeltaPoint Cross Slot Mount base/|
 	NcSTAR MPR45 Backup mount/|
 	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights/|
-	Trijicon RMR low profile mount
+	Trijicon RMR low profile mount/|
+	MAWL-C1+ tactical device
 ]
 Conflict=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
@@ -158,7 +165,7 @@ Conflict=[
 	BelOMO PSO-1M2-1 4x24 scope/|
 	BelOMO PSO-1M2 4x24 scope/|
 	NPZ USP-1 "Tyulpan" 4x scope/|
-	NSPU-M night vision scope/|
+	NSPU-M 3.5x dovetail night vision scope/|
 	Axion Kobra dovetail mount/|
 	KMZ 1P59 dovetail mount/|
 	VOMZ Pilad 043-02 dovetail mount/|

@@ -1,4 +1,4 @@
-*SMW car key/SMW車の鍵
+*SMW car key/SMW 車の鍵
 //imgページではなく個別ページに添付する
 
 //命名規則
@@ -7,7 +7,7 @@ CENTER:&ref(SMW car key-summary.webp);
 
 *概要
 //概要を記載
-An SMW folding car key with locking buttons.
+ロックボタンの付いた折りたたみ式の SMW の車の鍵。
 
 *性能
 //アイコンは、imgページではなく個別ページに添付する
@@ -29,7 +29,6 @@ An SMW folding car key with locking buttons.
 
 
 *使用場所
-コテージの敷地内にある青い車のトランクを解錠できます。
 
 **入手できるもの
 //なければ無しと記載

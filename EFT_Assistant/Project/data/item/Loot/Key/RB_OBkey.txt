@@ -10,5 +10,5 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
 Map=Reserve
-Name_Jpn=RB-OBの鍵
-Information_Jpn=A key to the Federal State Reserve Agency base eastern barracks' duty officer's room.
+Name_Jpn=RB-OB の鍵
+Information_Jpn=連邦国家準備局の基地内にある東兵舎の当直士官室の鍵。

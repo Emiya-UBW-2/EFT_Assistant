@@ -1,0 +1,15 @@
+IDstr=6410745d5dd49d77bd078485
+Name=AVT-40 wooden stock 
+ShortName=AVT wood
+Information_Eng=A standard-issue wooden stock for the AVT-40 rifle, manufactured by TOZ.
+Itemtype=Stock
+width=4
+height=1
+weight=1.217000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=-25.000000
+Ergonomics=6.000000
+accuracyModifier=0.000000
+Name_Jpn=AVT-40 wooden stock 
+Information_Jpn=A standard-issue wooden stock for the AVT-40 rifle, manufactured by TOZ.

@@ -1,0 +1,68 @@
+*Rusted bloody key/錆びと血の鍵
+//imgページではなく個別ページに添付する
+
+//命名規則
+//「アイテム名-summary.webp」スペースはアンダーバー「_｣
+CENTER:&ref(Rusted bloody key-summary.webp);
+
+*概要
+//概要を記載
+錆びと血がついた鍵。"この鍵を持つ者 永久にさまよい続けよ" と刻まれている。
+
+*性能
+//アイコンは、imgページではなく個別ページに添付する
+
+//命名規則
+//「短縮名-icon.webp」スペースはアンダーバー「_｣
+|CENTER:BGCOLOR(#D8F781):アイコン|CENTER:&ref(Rusted-icon.webp);|
+|CENTER:BGCOLOR(#D8F781):短縮名|Rusted|
+|CENTER:BGCOLOR(#D8F781):重量|0.010kg|
+|CENTER:BGCOLOR(#D8F781):サイズ|1x1|
+|CENTER:BGCOLOR(#D8F781):使用回数|1|
+
+*鍵の入手方法
+**レイド内
+#accordion(Streets of Tarkov(クリックして展開),***,close){{
+&amp;ref(https://cdn.discordapp.com/attachments/1009027763585421386/1150354157765677056/latest.png,600x600);
+&amp;ref(https://cdn.discordapp.com/attachments/1009027763585421386/1150365474803159081/image.png,600x600);
+&amp;ref(https://cdn.discordapp.com/attachments/1009027763585421386/1150365560094330930/image.png,600x600);
+&amp;ref(https://cdn.discordapp.com/attachments/1009027763585421386/1150354221435191397/latest.png,600x600);
+}}
+
+-オブジェクト
+--[[Drawer]]
+--[[Jacket]]
+--[[Dead Scav]]
+
+
+
+**タスク報酬
+//なければ項目ごと削除
+-[[Mechanic/The Door]]
+
+*使用場所
+//使用する場所を記載
+&amp;ref(https://cdn.discordapp.com/attachments/1009027763585421386/1150370865255555102/image.png,50%);
+宇宙飛行士のイラストが描いてある建物に入り、ゴミでふさがれている階段をジャンプしながら乗り越えて3Fに行きます。
+&amp;ref(https://cdn.discordapp.com/attachments/1009027763585421386/1150359930226872411/image.png,50%);
+&amp;ref(https://cdn.discordapp.com/attachments/1009027763585421386/1150360388924342382/image.png,50%);
+3FのドアにRusted bloody keyを使用し、中に入ります。
+&amp;ref(https://cdn.discordapp.com/attachments/1009027763585421386/1150361214002667653/image.png,50%);
+マネキンが置かれている廊下を進んでいくと、鎖で封鎖されたドアがある。
+
+**入手できるもの
+//なければ無しと記載
+//-オブジェクト //[[オブジェクト]]又は[[その他テンプレート]]から対象をコピペ
+//--
+//改行
+//-スポーン
+//--
+
+**画像
+//サイズは600x600
+//拡張子はjpgかpngかwebp
+
+*コメント
+//編集掲示板でzawazawaのコメントを作成するように依頼してください
+#zcomment(t=eft%2F688&amp;h=350&amp;size=10)
+

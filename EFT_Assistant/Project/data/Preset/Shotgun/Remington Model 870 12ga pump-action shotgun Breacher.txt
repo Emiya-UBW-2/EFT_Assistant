@@ -1,6 +1,6 @@
 Name=Remington Model 870 12ga pump-action shotgun Breacher
 Base=Remington Model 870 12ga pump-action shotgun
-Parts=M870 12ga sawn-off 325mm barrel
+Parts=M870 12ga sawed-off 325mm barrel
 Parts=M870 FAB Defense PR-870 forestock
 Parts=Magpul RVG foregrip (Black)
 Parts=M870 12ga 4-shell magazine cap
