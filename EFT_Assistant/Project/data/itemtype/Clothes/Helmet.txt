@@ -1,2 +1,2 @@
-Name=Headwear
+Name=headwear
 Category=Clothes

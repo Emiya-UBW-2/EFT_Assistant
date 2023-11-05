@@ -1,7 +1,7 @@
 IDstr=5a88acfb86f77457fd2c0d8f
 Name=Glock 17 9x19 pistol Default
 ShortName=Glock 17 Default
-Itemtype=Handgun
+Itemtype=handgun
 width=2
 height=1
 weight=0.877000

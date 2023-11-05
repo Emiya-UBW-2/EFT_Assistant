@@ -14,7 +14,9 @@
     <ClInclude Include="source\Enums.hpp" />
     <ClInclude Include="source\Header.hpp" />
     <ClInclude Include="source\HttpReq.hpp" />
+    <ClInclude Include="source\PartsHeader.hpp" />
     <ClInclude Include="source\Parts\DrawSystem.hpp" />
+    <ClInclude Include="source\Parts\EnumParts.hpp" />
     <ClInclude Include="source\Parts\InputParts.hpp" />
     <ClInclude Include="source\Parts\InterruptParts.hpp" />
     <ClInclude Include="source\Parts\PlayerDataParts.hpp" />
@@ -49,6 +51,7 @@
   <ItemGroup>
     <ClCompile Include="source\main.cpp" />
     <ClCompile Include="source\Parts\DrawSystem.cpp" />
+    <ClCompile Include="source\Parts\EnumParts.cpp" />
     <ClCompile Include="source\Parts\InputParts.cpp" />
     <ClCompile Include="source\Parts\InterruptParts.cpp" />
     <ClCompile Include="source\Parts\PlayerDataParts.cpp" />

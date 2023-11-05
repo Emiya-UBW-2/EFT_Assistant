@@ -1,7 +1,7 @@
 IDstr=64c1525e3319a1cf380c4e09
 Name=Tokarev AVT-40 7.62x54R automatic rifle Default
 ShortName=AVT-40 Default
-Itemtype=Assault carbine
+Itemtype=assault-carbine
 width=6
 height=2
 weight=4.219000

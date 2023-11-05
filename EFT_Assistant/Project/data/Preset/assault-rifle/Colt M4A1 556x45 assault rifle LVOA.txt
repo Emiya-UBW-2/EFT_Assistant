@@ -1,0 +1,14 @@
+Name=Colt M4A1 5.56x45 assault rifle LVOA
+Base=Colt M4A1 5.56x45 assault rifle
+Parts=Hogue OverMolded Rubber Grip (Black)
+Parts=AR-15 Vltor MUR-1S 5.56x45 upper receiver
+Parts=AR-15 5.56x45 370mm barrel
+Parts=AR-15 KAC QDC 5.56x45 Flash Suppressor Kit
+Parts=AR-15 Daniel Defense MK12 Low Profile Gas Block
+Parts=AR-15 War Sport LVOA-C handguard (Black)
+Parts=Vltor CASV KeyMod 6 inch rail
+Parts=Vltor CASV KeyMod 4 inch rail
+Parts=Vltor CASV KeyMod 2 inch rail
+Parts=Colt Carbine buffer tube
+Parts=Vltor EMOD stock
+Parts=AR-15 Radian Weapons Raptor charging handle

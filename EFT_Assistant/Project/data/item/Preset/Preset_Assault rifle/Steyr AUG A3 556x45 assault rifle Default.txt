@@ -1,7 +1,7 @@
 IDstr=63986752a28b76105a33c095
 Name=Steyr AUG A3 5.56x45 assault rifle Default
 ShortName=AUG A3 Default
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=5
 height=2
 weight=4.043000

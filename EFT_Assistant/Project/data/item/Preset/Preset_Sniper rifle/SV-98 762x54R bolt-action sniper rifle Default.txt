@@ -1,7 +1,7 @@
 IDstr=58414a16245977599247970a
 Name=SV-98 7.62x54R bolt-action sniper rifle Default
 ShortName=SV-98 Default
-Itemtype=Sniper rifle
+Itemtype=sniper-rifle
 width=6
 height=2
 weight=5.188000

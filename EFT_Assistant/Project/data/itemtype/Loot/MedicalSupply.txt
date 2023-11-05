@@ -1,2 +1,2 @@
-Name=Medical supplies
+Name=medical-supplies
 Category=Loot

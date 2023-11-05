@@ -1,7 +1,7 @@
 IDstr=5d383f5d86f7742a15793872
 Name=Remington Model 700 7.62x51 bolt-action sniper rifle PRO
 ShortName=M700 PRO
-Itemtype=Sniper rifle
+Itemtype=sniper-rifle
 width=5
 height=2
 weight=4.480000

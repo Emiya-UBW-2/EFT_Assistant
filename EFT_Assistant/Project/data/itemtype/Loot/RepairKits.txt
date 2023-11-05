@@ -1,3 +1,3 @@
-Name=Repair Kits
+Name=repair-kits
 ShortName=RepairKits
 Category=Loot

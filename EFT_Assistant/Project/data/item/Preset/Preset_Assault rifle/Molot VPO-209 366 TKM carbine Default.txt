@@ -1,7 +1,7 @@
 IDstr=59ef247086f77439967a900a
 Name=Molot VPO-209 .366 TKM carbine Default
 ShortName=VPO-209 Default
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=5
 height=2
 weight=3.235000

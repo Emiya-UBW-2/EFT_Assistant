@@ -1,7 +1,7 @@
 IDstr=5bbf1c1c88a45017144d28c5
 Name=Kalashnikov AK-74M 5.45x39 assault rifle Zenitco
 ShortName=AK-74M Zenitco
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=5
 height=2
 weight=3.630000

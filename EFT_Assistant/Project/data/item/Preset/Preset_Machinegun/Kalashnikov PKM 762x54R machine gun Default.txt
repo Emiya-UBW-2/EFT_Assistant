@@ -1,7 +1,7 @@
 IDstr=64cbdff43ccb85468628d5fc
 Name=Kalashnikov PKM 7.62x54R machine gun Default
 ShortName=PKM Default
-Itemtype=Machinegun
+Itemtype=machinegun
 width=6
 height=3
 weight=8.994000

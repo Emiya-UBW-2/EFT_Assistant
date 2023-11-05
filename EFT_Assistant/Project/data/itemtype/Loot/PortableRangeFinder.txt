@@ -1,3 +1,3 @@
-Name=Portable Range Finder
+Name=portable-range-finder
 ShortName=Portable Range Finder
 Category=Loot

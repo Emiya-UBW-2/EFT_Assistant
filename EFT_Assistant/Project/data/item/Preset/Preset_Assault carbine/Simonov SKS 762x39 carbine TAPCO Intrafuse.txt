@@ -1,7 +1,7 @@
 IDstr=sksintrafuse000000000001
 Name=Simonov SKS 7.62x39 carbine TAPCO Intrafuse
 ShortName=SKS TAPCO Intrafuse
-Itemtype=Assault carbine
+Itemtype=assault-carbine
 width=5
 height=2
 weight=4.489000

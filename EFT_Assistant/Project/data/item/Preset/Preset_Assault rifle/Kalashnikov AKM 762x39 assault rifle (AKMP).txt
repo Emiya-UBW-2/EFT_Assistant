@@ -1,7 +1,7 @@
 IDstr=5ba3a3dfd4351e0032020190
 Name=Kalashnikov AKM 7.62x39 assault rifle (AKMP)
 ShortName=AKM (AKMP)
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=5
 height=2
 weight=3.515000

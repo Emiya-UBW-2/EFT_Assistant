@@ -1,7 +1,7 @@
 IDstr=6287549856af630b0f672cc4
 Name=Desert Tech MDR 7.62x51 assault rifle Killtube
 ShortName=MDR Killtube
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=4
 height=2
 weight=5.377000

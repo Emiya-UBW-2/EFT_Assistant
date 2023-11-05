@@ -1,7 +1,7 @@
 IDstr=5eb2963686f7742d3f5ab0f8
 Name=PPSh-41 7.62x25 submachine gun Default
 ShortName=PPSh41 Default
-Itemtype=SMG
+Itemtype=smg
 width=4
 height=2
 weight=4.050000

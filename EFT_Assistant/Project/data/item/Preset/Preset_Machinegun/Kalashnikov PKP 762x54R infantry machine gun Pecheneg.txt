@@ -1,7 +1,7 @@
 IDstr=64cf7b2d033b747d625b7666
 Name=Kalashnikov PKP 7.62x54R infantry machine gun Pecheneg
 ShortName=PKP Pecheneg
-Itemtype=Machinegun
+Itemtype=machinegun
 width=6
 height=3
 weight=9.637000

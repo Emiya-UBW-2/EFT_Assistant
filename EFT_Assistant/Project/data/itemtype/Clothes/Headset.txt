@@ -1,2 +1,2 @@
-Name=Headphones
+Name=headphones
 Category=Clothes

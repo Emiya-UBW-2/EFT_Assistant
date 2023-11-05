@@ -1,0 +1,13 @@
+IDstr=64ccc1ec1779ad6ba200a137
+Name=Concordia apartment 8 home cinema key
+ShortName=Cinema
+Information_Eng=A key to the home cinema in apartment 8 in the Concordia building.
+Itemtype=mechanical-key
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=ItemPropertiesKey
+uses=40
+Name_Jpn=コンコルディア・アパート 8号室のシアタールームの鍵
+Information_Jpn=コンコルディア・ビル内にある集合住宅の8号室のシアタールームの鍵。

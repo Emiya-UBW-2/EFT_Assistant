@@ -1,7 +1,7 @@
 IDstr=opsksuas0000000000000001
 Name=Simonov OP-SKS 7.62x39 carbine (Hunting Rifle Version) UAS
 ShortName=OP-SKS UAS
-Itemtype=Assault carbine
+Itemtype=assault-carbine
 width=5
 height=2
 weight=4.004000

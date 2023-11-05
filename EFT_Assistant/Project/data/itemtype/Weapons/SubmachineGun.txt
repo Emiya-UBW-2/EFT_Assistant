@@ -1,2 +1,2 @@
-Name=SMG
+Name=smg
 Category=Weapons

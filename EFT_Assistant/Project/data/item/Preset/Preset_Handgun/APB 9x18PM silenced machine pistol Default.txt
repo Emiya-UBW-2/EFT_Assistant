@@ -1,7 +1,7 @@
 IDstr=5ac4ac9486f774181345c3d2
 Name=APB 9x18PM silenced machine pistol Default
 ShortName=APB Default
-Itemtype=Handgun
+Itemtype=handgun
 width=4
 height=1
 weight=1.611000

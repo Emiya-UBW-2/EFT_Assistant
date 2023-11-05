@@ -1,7 +1,7 @@
 IDstr=5a327f4a86f774766866140b
 Name=Kalashnikov AKMS 7.62x39 assault rifle Default
 ShortName=AKMS Default
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=5
 height=2
 weight=3.445000

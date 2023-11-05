@@ -1,7 +1,7 @@
 IDstr=5af08bfd86f774223d4528e2
 Name=Springfield Armory M1A 7.62x51 rifle EBR
 ShortName=M1A EBR
-Itemtype=Marksman rifle
+Itemtype=marksman-rifle
 width=5
 height=2
 weight=5.874000

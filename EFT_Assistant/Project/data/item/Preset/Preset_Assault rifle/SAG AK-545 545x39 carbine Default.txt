@@ -1,7 +1,7 @@
 IDstr=62971cf67af74c3ff577954b
 Name=SAG AK-545 5.45x39 carbine Default
 ShortName=AK-545 Default
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=5
 height=2
 weight=4.488000

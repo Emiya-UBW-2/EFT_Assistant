@@ -1,11 +1,6 @@
 #pragma once
-#include"../../../Header.hpp"
-#include "../../../Parts/WindowParts.hpp"
-#include "../../../Parts/StrControl.hpp"
-#include "../../../Parts/DrawSystem.hpp"
-#include "../../../Parts/InputParts.hpp"
-#include "../../../Parts/PlayerDataParts.hpp"
-#include "../../../Parts/InterruptParts.hpp"
+#include "../../../Header.hpp"
+#include "../../../PartsHeader.hpp"
 #include "../Data/MainScene_Parents.hpp"
 
 namespace FPS_n2 {

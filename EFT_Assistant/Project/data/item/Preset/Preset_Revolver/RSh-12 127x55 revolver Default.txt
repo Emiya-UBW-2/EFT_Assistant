@@ -1,7 +1,7 @@
 IDstr=639868a207a3eb0207197bb5
 Name=RSh-12 12.7x55 revolver Default
 ShortName=RSh-12 Default
-Itemtype=Revolver
+Itemtype=revolver
 width=2
 height=1
 weight=2.200000

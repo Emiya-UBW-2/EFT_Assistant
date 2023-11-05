@@ -1,7 +1,7 @@
 IDstr=60479c3f420fac5ebc199f86
 Name=Soyuz-TM STM-9 Gen.2 9x19 carbine Default
 ShortName=STM-9 Default
-Itemtype=SMG
+Itemtype=smg
 width=4
 height=2
 weight=2.036000

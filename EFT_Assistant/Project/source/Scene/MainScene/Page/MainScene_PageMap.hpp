@@ -1,12 +1,19 @@
 #pragma once
-#include"../../../Header.hpp"
+#include "../../../Header.hpp"
 #include "../Data/MainScene_Common.hpp"
 #include "../Page/MainScene_PageBase.hpp"
 #include "../Data/MainScene_Parents.hpp"
 
 
 namespace FPS_n2 {
-	static const char* WatchMapTypeStr[3] = {
+	enum class EnumWatchMapType {
+		Normal,
+		InGameMap = Normal,
+		Map2D,
+		Else,
+		Max,
+	};
+	static const char* WatchMapTypeStr[(int)EnumWatchMapType::Max] = {
 		"InGameMap",
 		"2DMap",
 		"Else",

@@ -1,7 +1,7 @@
 IDstr=629775539f1b474e440c45c1
 Name=HK G36 5.56x45 assault rifle KV1
 ShortName=G36 KV1
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=5
 height=2
 weight=2.955000

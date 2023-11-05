@@ -1,2 +1,0 @@
-Name_Jpn=Aspect company office key
-Information_Jpn=A key from the entrance to the office of Aspect LLC on 56 Primorsky Ave.

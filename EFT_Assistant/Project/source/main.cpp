@@ -1,11 +1,5 @@
-#include"Header.hpp"
-#include <wininet.h>
-#include "Parts/WindowParts.hpp"
-#include "Parts/StrControl.hpp"
-#include "Parts/DrawSystem.hpp"
-#include "Parts/InputParts.hpp"
-#include "Parts/PlayerDataParts.hpp"
-#include "Parts/InterruptParts.hpp"
+#include "Header.hpp"
+#include "PartsHeader.hpp"
 
 class MainClass {
 private:
@@ -47,25 +41,6 @@ public:
 		return true;
 	}
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 	MainClass mainClass;

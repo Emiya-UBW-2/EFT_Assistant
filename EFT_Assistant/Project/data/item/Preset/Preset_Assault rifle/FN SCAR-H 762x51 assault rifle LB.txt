@@ -1,7 +1,7 @@
 IDstr=6193e4a46bb904059c382295
 Name=FN SCAR-H 7.62x51 assault rifle LB
 ShortName=Mk 17 LB
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=6
 height=2
 weight=3.922000

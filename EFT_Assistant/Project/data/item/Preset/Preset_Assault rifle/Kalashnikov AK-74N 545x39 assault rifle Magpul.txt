@@ -1,7 +1,7 @@
 IDstr=59430b9b86f77403c27945fd
 Name=Kalashnikov AK-74N 5.45x39 assault rifle Magpul
 ShortName=AK-74N Magpul
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=5
 height=2
 weight=4.309000

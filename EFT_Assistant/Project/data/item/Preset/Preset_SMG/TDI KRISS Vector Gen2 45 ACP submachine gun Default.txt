@@ -1,7 +1,7 @@
 IDstr=5fd251ee16cac650092f5d02
 Name=TDI KRISS Vector Gen.2 .45 ACP submachine gun Default
 ShortName=Vector .45ACP Default
-Itemtype=SMG
+Itemtype=smg
 width=3
 height=2
 weight=2.646000

@@ -1,7 +1,7 @@
 IDstr=62975de85c32d414f8797433
 Name=Benelli M3 Super 90 dual-mode 12ga shotgun Default
 ShortName=M3 Super 90 Default
-Itemtype=Shotgun
+Itemtype=shotgun
 width=5
 height=2
 weight=3.306000

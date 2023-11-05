@@ -1,2 +1,2 @@
-Name=Map
+Name=map
 Category=Keys_Intel

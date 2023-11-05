@@ -1,0 +1,13 @@
+IDstr=64ccc1fe088064307e14a6f7
+Name=Beluga restaurant director key
+ShortName=Beluga
+Information_Eng=A key to the director’s office in the Beluga restaurant.
+Itemtype=mechanical-key
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=ItemPropertiesKey
+uses=40
+Name_Jpn=レストラン "ベルーガ" の支配人の鍵
+Information_Jpn=レストラン "ベルーガ" にある支配人室の鍵。

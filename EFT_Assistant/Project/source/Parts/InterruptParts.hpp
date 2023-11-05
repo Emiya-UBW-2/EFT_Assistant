@@ -1,5 +1,5 @@
 #pragma once
-#include"../Header.hpp"
+#include "../Header.hpp"
 
 namespace FPS_n2 {
 	class InterruptParts : public SingletonBase<InterruptParts> {

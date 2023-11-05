@@ -1,3 +1,3 @@
-Name=Reflex sight
+Name=reflex-sight
 ShortName=Reflex
 Category=WeaponMods

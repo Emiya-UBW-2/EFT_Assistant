@@ -1,2 +1,2 @@
-Name=Chest rig
+Name=chest-rig
 Category=Clothes

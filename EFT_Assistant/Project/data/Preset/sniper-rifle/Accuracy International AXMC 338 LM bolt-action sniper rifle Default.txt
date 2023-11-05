@@ -1,0 +1,16 @@
+Name=Accuracy International AXMC .338 LM bolt-action sniper rifle Default
+Base=Accuracy International AXMC .338 LM bolt-action sniper rifle
+Parts=AI AXMC .338 LM 10-round magazine
+Parts=AI AXMC pistol grip
+Parts=AI AXMC AX buttstock
+Parts=AI AXMC .338 LM chassis
+Parts=AI AXMC AX KeySlot 16 inch handguard
+Parts=AI AXMC AT X Top Rail 
+Parts=AI AXMC Adapter Kit short length rail
+Parts=AI AXMC Adapter Kit medium length rail
+Parts=AI AXMC padded handguard grip
+Parts=AI AXMC upper receiver
+Parts=AI AXMC .338 LM 28 inch barrel
+Parts=AI .338 LM Tactical Muzzle Brake 
+Parts=AI AXMC thread protection cap
+Parts=AI AXMC .338 LM bolt assembly

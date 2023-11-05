@@ -1,7 +1,7 @@
 IDstr=5ebbff0841a637322117a5fb
 Name=Colt M4A1 5.56x45 assault rifle USASOC-II
 ShortName=M4A1 USASOC-II
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=6
 height=2
 weight=3.787000

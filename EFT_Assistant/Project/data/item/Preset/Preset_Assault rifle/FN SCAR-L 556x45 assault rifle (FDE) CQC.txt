@@ -1,7 +1,7 @@
 IDstr=6193e108c1982475fa2a7f16
 Name=FN SCAR-L 5.56x45 assault rifle (FDE) CQC
 ShortName=Mk 16 CQC
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=4
 height=2
 weight=3.189000

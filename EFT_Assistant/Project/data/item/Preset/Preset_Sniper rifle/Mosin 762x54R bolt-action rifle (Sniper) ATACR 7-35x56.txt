@@ -1,7 +1,7 @@
 IDstr=mosinsniperatacr00000001
 Name=Mosin 7.62x54R bolt-action rifle (Sniper) ATACR 7-35x56
 ShortName=Mosin (Sniper) ATACR 7-35x56
-Itemtype=Sniper rifle
+Itemtype=sniper-rifle
 width=7
 height=2
 weight=7.426000

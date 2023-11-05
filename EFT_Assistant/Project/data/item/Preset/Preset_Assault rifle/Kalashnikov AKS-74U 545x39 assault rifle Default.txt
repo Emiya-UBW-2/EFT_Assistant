@@ -1,7 +1,7 @@
 IDstr=584147732459775a2b6d9f12
 Name=Kalashnikov AKS-74U 5.45x39 assault rifle Default
 ShortName=AKS-74U Default
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=4
 height=2
 weight=2.694000

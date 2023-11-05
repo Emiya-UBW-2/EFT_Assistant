@@ -1,2 +1,2 @@
-Name=UBGL
+Name=ubgl
 Category=WeaponMods

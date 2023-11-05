@@ -1,7 +1,7 @@
 IDstr=customdogtags12345678910
 Name=Dogtag
 ShortName=Dogtag
-Itemtype=Other
+Itemtype=other
 width=1
 height=1
 weight=0.010000

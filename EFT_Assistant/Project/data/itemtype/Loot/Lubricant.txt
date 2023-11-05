@@ -1,2 +1,2 @@
-Name=Lubricant
+Name=lubricant
 Category=Loot

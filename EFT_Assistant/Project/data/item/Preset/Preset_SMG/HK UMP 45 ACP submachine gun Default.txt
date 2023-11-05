@@ -1,7 +1,7 @@
 IDstr=5fd2517dbdd50d684f73a474
 Name=HK UMP .45 ACP submachine gun Default
 ShortName=UMP 45 Default
-Itemtype=SMG
+Itemtype=smg
 width=3
 height=2
 weight=2.219000

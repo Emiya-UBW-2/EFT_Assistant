@@ -1,7 +1,7 @@
 IDstr=5e03511086f7744ccb1fb6cf
 Name=Knight's Armament Company SR-25 7.62x51 marksman rifle Default
 ShortName=SR-25 Default
-Itemtype=Marksman rifle
+Itemtype=marksman-rifle
 width=5
 height=2
 weight=3.860000

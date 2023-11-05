@@ -1,2 +1,2 @@
-Name=Armored equipment
+Name=armored-equipment
 Category=Clothes

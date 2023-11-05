@@ -1,0 +1,13 @@
+IDstr=64ccc24de61ea448b507d34d
+Name=TerraGroup security armory key
+ShortName=TG arm.
+Information_Eng=A key to TerraGroup's office security armory.
+Itemtype=mechanical-key
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=ItemPropertiesKey
+uses=40
+Name_Jpn=TerraGroup の警備用武器保管室の鍵
+Information_Jpn=TerraGroup のオフィスにある警備用武器保管室の鍵。

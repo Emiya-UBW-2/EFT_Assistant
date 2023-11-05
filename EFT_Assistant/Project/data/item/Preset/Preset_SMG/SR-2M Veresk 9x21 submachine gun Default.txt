@@ -1,7 +1,7 @@
 IDstr=63986a38608a960125446db5
 Name=SR-2M "Veresk" 9x21 submachine gun Default
 ShortName=SR-2M Default
-Itemtype=SMG
+Itemtype=smg
 width=3
 height=2
 weight=1.773000

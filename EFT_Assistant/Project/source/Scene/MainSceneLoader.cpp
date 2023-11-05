@@ -1,12 +1,7 @@
-#include"MainSceneLoader.hpp"
+#include "MainSceneLoader.hpp"
 #include "MainScene/Data/MainScene_Base.hpp"
 #include "MainScene/Page/MainScene_PageBase.hpp"
-#include "../Parts/WindowParts.hpp"
-#include "../Parts/StrControl.hpp"
-#include "../Parts/DrawSystem.hpp"
-#include "../Parts/InputParts.hpp"
-#include "../Parts/PlayerDataParts.hpp"
-#include "../Parts/InterruptParts.hpp"
+#include "../PartsHeader.hpp"
 
 namespace FPS_n2 {
 	void MAINLOOPLOADER::Set_Sub(void) noexcept {

@@ -1,5 +1,5 @@
 #pragma once
-#include"../../../Header.hpp"
+#include "../../../Header.hpp"
 //*
 #include "MainScene_Parents.hpp"
 #include "MainScene_Common.hpp"
@@ -14,24 +14,6 @@
 #include "MainScene_Hideout.hpp"
 //*/
 namespace FPS_n2 {
-	enum class EnumDataType {
-		ITEMCATEGORYDATA,
-		ITEMTYPEDATA,
-		PRESETDATA,
-		ENEMYDATA,
-		ITEMDATA,
-		ITEMDATAJP,
-		TRADERDATA,
-		MAPDATA,
-		TASKDATA,
-		HIDEOUTDATA,
-	};
-
-	enum class EnumWikiDataType {
-		ITEMDATA_KEY_WIKI_HTML,
-		ITEMDATA_KEY,
-	};
-
 	class DataBase : public SingletonBase<DataBase> {
 	private:
 		friend class SingletonBase<DataBase>;

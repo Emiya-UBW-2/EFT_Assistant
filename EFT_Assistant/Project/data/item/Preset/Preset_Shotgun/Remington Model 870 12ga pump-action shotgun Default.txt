@@ -1,7 +1,7 @@
 IDstr=5ac4ad7586f7747d14551da3
 Name=Remington Model 870 12ga pump-action shotgun Default
 ShortName=M870 Default
-Itemtype=Shotgun
+Itemtype=shotgun
 width=5
 height=1
 weight=3.140000

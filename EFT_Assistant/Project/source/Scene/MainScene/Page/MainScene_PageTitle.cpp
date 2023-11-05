@@ -1,4 +1,4 @@
-#include"MainScene_PageTitle.hpp"
+#include "MainScene_PageTitle.hpp"
 #include "../Data/MainScene_Base.hpp"
 
 namespace FPS_n2 {

@@ -1,7 +1,7 @@
 IDstr=629766c15c9e3c392f7c2db0
 Name=SV-98 7.62x54R bolt-action sniper rifle OV
 ShortName=SV-98 OV
-Itemtype=Sniper rifle
+Itemtype=sniper-rifle
 width=6
 height=2
 weight=3.960000

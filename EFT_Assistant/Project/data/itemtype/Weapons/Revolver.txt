@@ -1,3 +1,3 @@
-Name=Revolver
+Name=revolver
 ShortName=Revolver
 Category=Weapons

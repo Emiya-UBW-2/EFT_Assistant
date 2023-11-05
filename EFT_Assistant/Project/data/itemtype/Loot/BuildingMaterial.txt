@@ -1,2 +1,2 @@
-Name=Building material
+Name=building-material
 Category=Loot

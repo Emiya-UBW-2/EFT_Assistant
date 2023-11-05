@@ -1,2 +1,2 @@
-Name=Backpack
+Name=backpack
 Category=Clothes

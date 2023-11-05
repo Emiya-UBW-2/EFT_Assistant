@@ -1,7 +1,7 @@
 IDstr=5c0d1e9386f77440120288b7
 Name=HK 416A5 5.56x45 assault rifle Default
 ShortName=HK 416A5 Default
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=5
 height=2
 weight=3.819000

@@ -1,7 +1,7 @@
 IDstr=5af08cc686f77424a61595f2
 Name=Colt M4A1 5.56x45 assault rifle SOPMOD I
 ShortName=M4A1 SOPMOD I
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=5
 height=2
 weight=2.388000

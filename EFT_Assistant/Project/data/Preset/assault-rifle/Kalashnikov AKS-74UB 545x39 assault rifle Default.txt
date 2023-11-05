@@ -1,0 +1,9 @@
+Name=Kalashnikov AKS-74UB 5.45x39 assault rifle Default
+Base=Kalashnikov AKS-74UB 5.45x39 assault rifle
+Parts=AK bakelite pistol grip (6P1 Sb.8V)
+Parts=AKS-74U metal skeleton stock (6P26 Sb.5)
+Parts=AK-74 5.45x39 6L20 30-round magazine
+Parts=AKS-74U PBS-4 5.45x39 sound suppressor
+Parts=AKS-74UB dust cover
+Parts=AKS-74U gas tube (6P26 Sb.1-2)
+Parts=AKS-74U wooden handguard (6P26 Sb.6)

@@ -1,7 +1,7 @@
 IDstr=5d4d617f86f77449c463d107
 Name=Lone Star TX-15 DML 5.56x45 carbine Default
 ShortName=TX-15 DML Default
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=6
 height=2
 weight=3.322000

@@ -1,7 +1,7 @@
 IDstr=584149ea2459775a6c55e940
 Name=PP-91-01 "Kedr-B" 9x18PM submachine gun Default
 ShortName=PP-91-01 "Kedr-B" Default
-Itemtype=SMG
+Itemtype=smg
 width=4
 height=2
 weight=1.729000

@@ -1,7 +1,7 @@
 IDstr=5841482e2459775a050cdda9
 Name=AS VAL 9x39 special assault rifle Default
 ShortName=AS VAL Default
-Itemtype=Assault carbine
+Itemtype=assault-carbine
 width=5
 height=2
 weight=2.587000

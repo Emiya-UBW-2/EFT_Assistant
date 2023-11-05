@@ -1,7 +1,7 @@
 IDstr=5a3b898486f77467720a2f29
 Name=Wilcox Skull Lock head mount PVS-14
 ShortName=Skull Lock PVS-14
-Itemtype=Headwear
+Itemtype=headwear
 width=2
 height=2
 weight=1.290000

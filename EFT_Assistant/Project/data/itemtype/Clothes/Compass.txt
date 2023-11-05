@@ -1,2 +1,2 @@
-Name=Compass
+Name=compass
 Category=Clothes

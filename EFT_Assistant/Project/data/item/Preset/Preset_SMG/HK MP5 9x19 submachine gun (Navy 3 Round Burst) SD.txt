@@ -1,7 +1,7 @@
 IDstr=59411abb86f77478f702b5d2
 Name=HK MP5 9x19 submachine gun (Navy 3 Round Burst) SD
 ShortName=MP5 SD
-Itemtype=SMG
+Itemtype=smg
 width=4
 height=2
 weight=2.852000

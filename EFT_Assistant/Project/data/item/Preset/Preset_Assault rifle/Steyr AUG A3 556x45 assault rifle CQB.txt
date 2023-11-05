@@ -1,7 +1,7 @@
 IDstr=6398681b9f81ff62557b8225
 Name=Steyr AUG A3 5.56x45 assault rifle CQB
 ShortName=AUG A3 CQB
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=4
 height=2
 weight=3.822000

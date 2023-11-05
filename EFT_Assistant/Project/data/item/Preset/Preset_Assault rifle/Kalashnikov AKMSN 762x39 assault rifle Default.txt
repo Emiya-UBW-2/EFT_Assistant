@@ -1,7 +1,7 @@
 IDstr=5ac4ab8886f7747d0f66429a
 Name=Kalashnikov AKMSN 7.62x39 assault rifle Default
 ShortName=AKMSN Default
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=5
 height=2
 weight=3.445000

@@ -1,2 +1,2 @@
-Name=Ammo
+Name=ammo
 Category=Ammunition

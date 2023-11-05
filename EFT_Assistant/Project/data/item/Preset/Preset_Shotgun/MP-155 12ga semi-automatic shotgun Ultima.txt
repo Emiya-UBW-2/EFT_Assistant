@@ -1,7 +1,7 @@
 IDstr=60b7c2bd95047637182d90a4
 Name=MP-155 12ga semi-automatic shotgun Ultima
 ShortName=MP-155 Ultima
-Itemtype=Shotgun
+Itemtype=shotgun
 width=5
 height=2
 weight=3.789000

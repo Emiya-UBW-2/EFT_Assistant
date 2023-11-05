@@ -1,7 +1,7 @@
 IDstr=624d7a3691f0160c7324c3f4
 Name=Chiappa Rhino 50DS .357 revolver Default
 ShortName=CR 50DS Default
-Itemtype=Revolver
+Itemtype=revolver
 width=2
 height=1
 weight=0.902000

@@ -1,2 +1,2 @@
-Name=Keycard
+Name=keycard
 Category=Keys_Intel

@@ -1,0 +1,13 @@
+IDstr=64ccc246ff54fb38131acf29
+Name=X-ray room key
+ShortName=X-ray
+Information_Eng=The key to the control room in the radial diagnostics room of Children's Polyclinic No. 69.
+Itemtype=mechanical-key
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=ItemPropertiesKey
+uses=40
+Name_Jpn=放射線治療室の鍵
+Information_Jpn=第69小児総合病院にある放射線治療室の制御室の鍵。

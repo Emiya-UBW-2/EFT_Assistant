@@ -1,7 +1,7 @@
 IDstr=5a43a85186f7746c914b947a
 Name=Kalashnikov AKS-74UN 5.45x39 assault rifle Zenit
 ShortName=AKS-74UN Zenit
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=4
 height=2
 weight=3.966000

@@ -1,65 +1,9 @@
 #pragma once
-#include"../../../Header.hpp"
+#include "../../../Header.hpp"
 #include "../Data/MainScene_Common.hpp"
 #include "../Page/MainScene_PageBase.hpp"
-#include "../Data/MainScene_Parents.hpp"
 
 namespace FPS_n2 {
-	//
-	enum class EnumItemProperties {
-		ItemPropertiesAmmo,
-		ItemPropertiesArmor,
-		ItemPropertiesArmorAttachment,
-		ItemPropertiesBackpack,
-		ItemPropertiesBarrel,
-		ItemPropertiesChestRig,
-		ItemPropertiesContainer,
-		ItemPropertiesFoodDrink,
-		ItemPropertiesGlasses,
-		ItemPropertiesGrenade,
-		ItemPropertiesHelmet,
-		ItemPropertiesKey,
-		ItemPropertiesMagazine,
-		ItemPropertiesMedicalItem,
-		ItemPropertiesMelee,
-		ItemPropertiesMedKit,
-		ItemPropertiesNightVision,
-		ItemPropertiesPainkiller,
-		ItemPropertiesPreset,
-		ItemPropertiesScope,
-		ItemPropertiesSurgicalKit,
-		ItemPropertiesWeapon,
-		ItemPropertiesWeaponMod,
-		ItemPropertiesStim,
-		Max,
-	};
-	static const char* ItemPropertiesStr[(int)EnumItemProperties::Max] = {
-		"ItemPropertiesAmmo",
-		"ItemPropertiesArmor",
-		"ItemPropertiesArmorAttachment",
-		"ItemPropertiesBackpack",
-		"ItemPropertiesBarrel",
-		"ItemPropertiesChestRig",
-		"ItemPropertiesContainer",
-		"ItemPropertiesFoodDrink",
-		"ItemPropertiesGlasses",
-		"ItemPropertiesGrenade",
-		"ItemPropertiesHelmet",
-		"ItemPropertiesKey",
-		"ItemPropertiesMagazine",
-		"ItemPropertiesMedicalItem",
-		"ItemPropertiesMelee",
-		"ItemPropertiesMedKit",
-		"ItemPropertiesNightVision",
-		"ItemPropertiesPainkiller",
-		"ItemPropertiesPreset",
-		"ItemPropertiesScope",
-		"ItemPropertiesSurgicalKit",
-		"ItemPropertiesWeapon",
-		"ItemPropertiesWeaponMod",
-		"ItemPropertiesStim",
-	};
-	//
 	class ItemList : public ListParent<ItemID> {
 	public:
 		class ItemProperties {
@@ -141,7 +85,6 @@ namespace FPS_n2 {
 			const auto		GetFragments() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesGrenade) ? this->m_IntParams[0] : 0; }
 			const int		GetCapacity() const noexcept;
 		private://Common
-			void			SetType(std::string_view value) noexcept;
 		public://Melee
 			const auto		GetSlashDamage() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMelee) ? this->m_IntParams[0] : 0; }
 			const auto		GetstabDamage() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMelee) ? this->m_IntParams[1] : 0; }
@@ -617,7 +560,7 @@ namespace FPS_n2 {
 				auto& d = data["properties"];
 				//
 				if (d.contains("__typename") && !d["__typename"].is_null()) {
-					SetType((std::string)d["__typename"]);
+					m_Type = GetStringToEnumItemProperties((std::string)d["__typename"]);
 				}
 				//ŒÂ•Ê
 				if (d.contains("slots") && !d["slots"].is_null()) {
@@ -727,7 +670,9 @@ namespace FPS_n2 {
 				SetParent();
 			}
 			void			SetData(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
-				if (LEFT == "propertiestype") { this->SetType(Args[0]); }
+				if (LEFT == "propertiestype") {
+					this->m_Type = GetStringToEnumItemProperties(Args[0]);
+				}
 				else {
 					{
 						if (LEFT == "ChildParts") {
@@ -1164,6 +1109,9 @@ namespace FPS_n2 {
 						ErrMes += "[";
 						ErrMes += L.GetName();
 						ErrMes += "]";
+						ErrMes += "/[";
+						ErrMes += L2.GetName();
+						ErrMes += "]";
 						DataErrorLog::Instance()->AddLog(ErrMes.c_str());
 					}
 				}
@@ -1193,7 +1141,7 @@ namespace FPS_n2 {
 					SubStrs(&FileName, ".");
 					SubStrs(&FileName, "\\");
 					SubStrs(&FileName, "/");
-					std::string Name = FileName + ".txt";
+					std::string Name = FileName + std::to_string((int)(&jd - &GetJsonDataList().front())) + ".txt";
 
 					jd->OutputData(ChildPath + Name);
 					//RemoveDirectory(Path.c_str());

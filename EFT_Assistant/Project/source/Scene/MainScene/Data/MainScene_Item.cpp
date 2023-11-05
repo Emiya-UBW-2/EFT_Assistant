@@ -1,11 +1,6 @@
-#include"MainScene_Item.hpp"
+#include "MainScene_Item.hpp"
 #include "../Data/MainScene_Base.hpp"
-#include "../../../Parts/WindowParts.hpp"
-#include "../../../Parts/StrControl.hpp"
-#include "../../../Parts/DrawSystem.hpp"
-#include "../../../Parts/InputParts.hpp"
-#include "../../../Parts/PlayerDataParts.hpp"
-#include "../../../Parts/InterruptParts.hpp"
+#include "../../../PartsHeader.hpp"
 
 namespace FPS_n2 {
 	//
@@ -56,14 +51,6 @@ namespace FPS_n2 {
 			return this->m_IntParams[1];
 		default:
 			return 0;
-		}
-	}
-	void			ItemList::ItemProperties::SetType(std::string_view value) noexcept {
-		for (int i = 0; i < (int)EnumItemProperties::Max; i++) {
-			if (value == ItemPropertiesStr[i]) {
-				m_Type = (EnumItemProperties)i;
-				break;
-			}
 		}
 	}
 	void			ItemList::ItemProperties::DrawInfoMelee(int xp, int yp, int* xofs, int* yofs) const noexcept {
@@ -859,7 +846,7 @@ namespace FPS_n2 {
 	}
 	//
 	void ItemJsonData::GetJsonSub(const nlohmann::json& data) noexcept {
-		m_categorytypes = data["category"]["name"];
+		m_categorytypes = data["category"]["normalizedName"];
 		if (data.contains("width")) { this->m_ItemsData.m_width = data["width"]; }
 		if (data.contains("height")) { this->m_ItemsData.m_height = data["height"]; }
 		m_ItemsData.m_weight = data["weight"];

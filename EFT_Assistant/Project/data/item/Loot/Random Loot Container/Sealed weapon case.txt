@@ -1,8 +1,8 @@
-IDstr=6489d812cf0cd80b7e749071
+IDstr=6489d89debac5a4a1b73caf7
 Name=Sealed weapon case
 ShortName=Weapon (sealed)
 Information_Eng=Sealed weapon case
-Itemtype=Random Loot Container
+Itemtype=random-loot-container
 width=5
 height=2
 weight=15.000000

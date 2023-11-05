@@ -1,11 +1,6 @@
 #pragma once
-#include"../../../Header.hpp"
-#include "../../../Parts/WindowParts.hpp"
-#include "../../../Parts/StrControl.hpp"
-#include "../../../Parts/DrawSystem.hpp"
-#include "../../../Parts/InputParts.hpp"
-#include "../../../Parts/PlayerDataParts.hpp"
-#include "../../../Parts/InterruptParts.hpp"
+#include "../../../Header.hpp"
+#include "../../../PartsHeader.hpp"
 
 namespace FPS_n2 {
 	//
@@ -334,6 +329,7 @@ namespace FPS_n2 {
 		std::string									m_id;
 		std::string									m_name_jp;
 		std::string									m_Information_Jpn;
+		std::string									m_categorytypes;
 	public:
 		const auto&	Getname_jp() const noexcept { return this->m_name_jp; }
 		const auto&	Getdescription_jp() const noexcept { return this->m_Information_Jpn; }
@@ -349,6 +345,7 @@ namespace FPS_n2 {
 					m_Information_Jpn = data["description"];
 				}
 			}
+			m_categorytypes = data["category"]["normalizedName"];
 		}
 		void OutputData(const std::string& Path) noexcept {
 			m_IsFileOpened = true;
@@ -558,7 +555,7 @@ namespace FPS_n2 {
 			bool maked = false;
 			for (auto& jd : m_JpJsonData) {
 				if (!jd->m_IsFileOpened) {
-					std::string ParentPath = Path;
+					std::string ParentPath = Path + jd->m_categorytypes;
 
 					if (!maked) {
 						CreateDirectory(ParentPath.c_str(), NULL);
@@ -578,7 +575,7 @@ namespace FPS_n2 {
 					SubStrs(&FileName, ">");
 					SubStrs(&FileName, "<");
 					SubStrs(&FileName, "|");
-					std::string Name = FileName + ".txt";
+					std::string Name = FileName + std::to_string((int)(&jd - &m_JpJsonData.front())) + ".txt";
 
 					jd->OutputData(ChildPath + Name);
 					//RemoveDirectory(Path.c_str());

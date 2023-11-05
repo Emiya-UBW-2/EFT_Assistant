@@ -1,2 +1,2 @@
-Name=Random Loot Container
+Name=random-loot-container
 Category=Loot

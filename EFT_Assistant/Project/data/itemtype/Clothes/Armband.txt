@@ -1,2 +1,2 @@
-Name=Arm Band
+Name=arm-band
 Category=Clothes

@@ -1,7 +1,7 @@
 IDstr=5a8ae65f86f774377a23ed55
 Name=PP-19-01 "Vityaz" 9x19 submachine gun Zenit
 ShortName=PP-19-01 Zenit
-Itemtype=SMG
+Itemtype=smg
 width=4
 height=2
 weight=4.156000

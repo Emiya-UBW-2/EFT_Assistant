@@ -1,7 +1,7 @@
 IDstr=6297738b9f1b474e440c45b5
 Name=HK G36 5.56x45 assault rifle Default
 ShortName=G36 Default
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=6
 height=2
 weight=3.029000

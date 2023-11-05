@@ -1,0 +1,7 @@
+Name=Desert Tech MDR 5.56x45 assault rifle Default
+Base=Desert Tech MDR 5.56x45 assault rifle
+Parts=MDR pistol grip (FDE)
+Parts=5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine
+Parts=MDR handguard (FDE)
+Parts=MDR 5.56x45 16 inch barrel
+Parts=Desert Tech 5.56x45 flash hider

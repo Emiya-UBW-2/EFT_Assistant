@@ -1,7 +1,7 @@
 IDstr=5841474424597759ba49be91
 Name=Kalashnikov AK-74N 5.45x39 assault rifle Default
 ShortName=AK-74N Default
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=5
 height=2
 weight=3.420000

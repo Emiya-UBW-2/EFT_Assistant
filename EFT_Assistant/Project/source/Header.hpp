@@ -9,6 +9,7 @@ using namespace DXLib_ref;
 #define NOMINMAX
 #include <chrono>
 #include <WinUser.h>
+#include <wininet.h>
 
 //FPS(‹¤’Ê)
 inline float FPS{ 60.f };

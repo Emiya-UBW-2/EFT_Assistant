@@ -1,7 +1,7 @@
 IDstr=5a88b1f686f774159949926e
 Name=Glock 17 9x19 pistol Spartan
 ShortName=Glock 17 Spartan
-Itemtype=Handgun
+Itemtype=handgun
 width=2
 height=1
 weight=0.727000

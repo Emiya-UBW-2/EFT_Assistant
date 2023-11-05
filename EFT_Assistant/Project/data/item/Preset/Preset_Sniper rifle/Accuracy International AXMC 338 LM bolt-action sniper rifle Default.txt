@@ -1,7 +1,7 @@
 IDstr=62973e474bb5ab23071c2a70
 Name=Accuracy International AXMC .338 LM bolt-action sniper rifle Default
 ShortName=AXMC Default
-Itemtype=Sniper rifle
+Itemtype=sniper-rifle
 width=6
 height=2
 weight=5.790000

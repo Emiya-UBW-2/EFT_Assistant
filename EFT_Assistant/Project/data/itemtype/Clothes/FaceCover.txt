@@ -1,2 +1,2 @@
-Name=Face Cover
+Name=face-cover
 Category=Clothes

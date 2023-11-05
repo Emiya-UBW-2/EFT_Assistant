@@ -1,7 +1,7 @@
 IDstr=6398636bb483a550805be5e5
 Name=Steyr AUG A1 5.56x45 assault rifle Default
 ShortName=AUG A1 Default
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=5
 height=2
 weight=3.826000

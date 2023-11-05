@@ -1,10 +1,5 @@
 #include "MainScene_Base.hpp"
-#include "../../../Parts/WindowParts.hpp"
-#include "../../../Parts/StrControl.hpp"
-#include "../../../Parts/DrawSystem.hpp"
-#include "../../../Parts/InputParts.hpp"
-#include "../../../Parts/PlayerDataParts.hpp"
-#include "../../../Parts/InterruptParts.hpp"
+#include "../../../PartsHeader.hpp"
 
 const FPS_n2::DataBase* SingletonBase<FPS_n2::DataBase>::m_Singleton = nullptr;
 

@@ -1,7 +1,7 @@
 IDstr=5b83f29886f7746d956305a1
 Name=DS Arms SA-58 7.62x51 assault rifle PBR
 ShortName=SA-58 PBR
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=7
 height=2
 weight=4.868000

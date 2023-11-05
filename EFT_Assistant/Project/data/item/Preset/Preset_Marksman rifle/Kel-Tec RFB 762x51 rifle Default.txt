@@ -1,7 +1,7 @@
 IDstr=5f676b779ab5ec19f028eaf3
 Name=Kel-Tec RFB 7.62x51 rifle Default
 ShortName=RFB Default
-Itemtype=Marksman rifle
+Itemtype=marksman-rifle
 width=4
 height=2
 weight=3.606000

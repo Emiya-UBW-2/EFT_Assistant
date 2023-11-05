@@ -1,7 +1,7 @@
 IDstr=5d23404b86f7740d62079098
 Name=FN P90 5.7x28 submachine gun SBR
 ShortName=P90 SBR
-Itemtype=SMG
+Itemtype=smg
 width=4
 height=2
 weight=3.147000

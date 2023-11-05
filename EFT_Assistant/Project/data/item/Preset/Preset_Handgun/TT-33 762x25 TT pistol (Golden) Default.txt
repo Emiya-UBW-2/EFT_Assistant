@@ -1,7 +1,7 @@
 IDstr=5b44abe986f774283e2e3512
 Name=TT-33 7.62x25 TT pistol (Golden) Default
 ShortName=TT Gold Default
-Itemtype=Handgun
+Itemtype=handgun
 width=2
 height=1
 weight=0.874000

@@ -1,10 +1,6 @@
-#include"PlayerDataParts.hpp"
+#include "PlayerDataParts.hpp"
 
-#include"WindowParts.hpp"
-#include "StrControl.hpp"
-#include "DrawSystem.hpp"
-#include "InputParts.hpp"
-#include "InterruptParts.hpp"
+#include "../PartsHeader.hpp"
 
 const FPS_n2::PlayerData* SingletonBase<FPS_n2::PlayerData>::m_Singleton = nullptr;
 namespace FPS_n2 {

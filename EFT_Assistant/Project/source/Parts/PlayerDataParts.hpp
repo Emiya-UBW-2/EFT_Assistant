@@ -1,5 +1,5 @@
 #pragma once
-#include"../Header.hpp"
+#include "../Header.hpp"
 
 namespace FPS_n2 {
 	//
@@ -12,20 +12,6 @@ namespace FPS_n2 {
 
 		void	SetID(const char* Name) noexcept { this->m_ID = Name; }
 		void	SetIsLock(bool value) noexcept { this->m_IsLock = value; }
-	};
-	//
-	enum class EnumEdition : int {
-		STANDARD,
-		LEFT_BEHIND,
-		PREPARE_FOR_ESCAPE,
-		EDGE_OF_DARKNESS,
-		Max,
-	};
-	static const char* EnumEditionStr[(int)EnumEdition::Max] = {
-		"STANDARD",
-		"LEFT BEHIND",
-		"PREPARE FOR ESCAPE",
-		"EDGE OF DARKNESS",
 	};
 	//
 	class PlayerData : public SingletonBase<PlayerData> {

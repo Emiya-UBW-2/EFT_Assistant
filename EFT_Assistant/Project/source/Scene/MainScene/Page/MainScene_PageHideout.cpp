@@ -1,4 +1,4 @@
-#include"MainScene_PageHideout.hpp"
+#include "MainScene_PageHideout.hpp"
 #include "../Data/MainScene_Base.hpp"
 
 namespace FPS_n2 {

@@ -1,7 +1,7 @@
 IDstr=5d23376786f77459bb77d838
 Name=FN P90 5.7x28 submachine gun Default
 ShortName=P90 Default
-Itemtype=SMG
+Itemtype=smg
 width=3
 height=2
 weight=2.974000

@@ -1,7 +1,7 @@
 IDstr=618ab00ef236914bab050ca0
 Name=FN P90 5.7x28 submachine gun DEVGRU
 ShortName=P90 DEVGRU
-Itemtype=SMG
+Itemtype=smg
 width=4
 height=2
 weight=3.909000

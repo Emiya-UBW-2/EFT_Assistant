@@ -1,2 +1,2 @@
-Name=Mechanical Key
+Name=mechanical-key
 Category=Keys_Intel

@@ -20,7 +20,7 @@
     vendor{name}
     price
    }
-   category{name}
+   category{normalizedName}
 
    recoilModifier
    ergonomicsModifier

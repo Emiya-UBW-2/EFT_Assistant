@@ -1,7 +1,7 @@
 IDstr=5c0d1ec986f77439512a1a72
 Name=RPK-16 5.45x39 light machine gun Default
 ShortName=RPK-16 Default
-Itemtype=Machinegun
+Itemtype=machinegun
 width=5
 height=2
 weight=3.017000

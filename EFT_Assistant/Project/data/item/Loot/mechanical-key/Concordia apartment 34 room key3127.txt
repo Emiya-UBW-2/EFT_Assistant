@@ -1,0 +1,13 @@
+IDstr=64ccc1d4a0f13c24561edf27
+Name=Concordia apartment 34 room key
+ShortName=Conc 34
+Information_Eng=A key to one of the rooms in apartment 34 inside the Concordia building.
+Itemtype=mechanical-key
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=ItemPropertiesKey
+uses=40
+Name_Jpn=コンコルディア・アパート 34号室の鍵
+Information_Jpn=コンコルディア・ビル内にある集合住宅の34号室の鍵。

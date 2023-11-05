@@ -1,7 +1,7 @@
 IDstr=59e8d2b386f77445830dd299
 Name=Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle Saboteur
 ShortName=DVL-10 Saboteur
-Itemtype=Sniper rifle
+Itemtype=sniper-rifle
 width=5
 height=2
 weight=5.149000

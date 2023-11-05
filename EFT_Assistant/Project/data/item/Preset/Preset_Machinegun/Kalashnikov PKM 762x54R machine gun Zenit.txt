@@ -1,7 +1,7 @@
 IDstr=64cbe20d5aa0a53ad12f96c9
 Name=Kalashnikov PKM 7.62x54R machine gun Zenit
 ShortName=PKM Zenit
-Itemtype=Machinegun
+Itemtype=machinegun
 width=6
 height=3
 weight=9.524000

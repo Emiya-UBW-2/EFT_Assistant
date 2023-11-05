@@ -1,2 +1,2 @@
-Name=Drug
+Name=drug
 Category=Medical

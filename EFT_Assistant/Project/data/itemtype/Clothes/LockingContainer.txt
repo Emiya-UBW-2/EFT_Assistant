@@ -1,2 +1,2 @@
-Name=Locking container
+Name=locking-container
 Category=Clothes

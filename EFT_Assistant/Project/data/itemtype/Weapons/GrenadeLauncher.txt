@@ -1,3 +1,3 @@
-Name=Grenade launcher
+Name=grenade-launcher
 ShortName=GL
 Category=Weapons

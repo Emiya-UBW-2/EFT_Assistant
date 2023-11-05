@@ -1,2 +1,2 @@
-Name=Ammo container
+Name=ammo-container
 Category=Ammunition

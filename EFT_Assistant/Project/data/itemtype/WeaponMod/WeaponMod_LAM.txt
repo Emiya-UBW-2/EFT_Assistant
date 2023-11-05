@@ -1,3 +1,3 @@
-Name=Comb. tact. device
+Name=comb-tact-device
 ShortName=LAM
 Category=WeaponMods

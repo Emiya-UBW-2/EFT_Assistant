@@ -1,0 +1,13 @@
+IDstr=64ccc2111779ad6ba200a139
+Name=Tarbank cash register department key
+ShortName=Tarbank
+Information_Eng=An access key to the cash registers of the regional branch of Tarbank.
+Itemtype=mechanical-key
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=ItemPropertiesKey
+uses=40
+Name_Jpn=タルバンクのレジ部門の鍵
+Information_Jpn=タルバンクの地方支店にあるレジ部門の扉を開けるための鍵。

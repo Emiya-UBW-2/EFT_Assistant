@@ -1,2 +1,2 @@
-Name=Night Vision
+Name=night-vision
 Category=WeaponMods

@@ -1,11 +1,6 @@
-#include"MainScene_Task.hpp"
+#include "MainScene_Task.hpp"
 #include "../Data/MainScene_Base.hpp"
-#include "../../../Parts/WindowParts.hpp"
-#include "../../../Parts/StrControl.hpp"
-#include "../../../Parts/DrawSystem.hpp"
-#include "../../../Parts/InputParts.hpp"
-#include "../../../Parts/PlayerDataParts.hpp"
-#include "../../../Parts/InterruptParts.hpp"
+#include "../../../PartsHeader.hpp"
 
 namespace FPS_n2 {
 	void		TaskList::TaskNeedData::SetAfter() noexcept {
@@ -343,13 +338,7 @@ namespace FPS_n2 {
 	//
 	void		TaskJsonData::TaskObjective::GetJsonData(const nlohmann::json& data) {
 		if (data.contains("__typename") && !data["__typename"].is_null()) {
-			std::string buf = data["__typename"];
-			for (int i = 0; i < sizeof(TypesStr) / sizeof(TypesStr[0]); i++) {
-				if (buf == TypesStr[i]) {
-					m_TaskObjectiveType = (EnumTaskObjective)i;
-				}
-
-			}
+			m_TaskObjectiveType = GetStringToEnumTaskObjective(data["__typename"]);
 		}
 		if (data.contains("type") && !data["type"].is_null()) {
 			m_type = data["type"];
@@ -700,7 +689,7 @@ namespace FPS_n2 {
 				}
 				for (auto& m : obj.m_attributes) {
 					if (m.second.IsActive()) {
-						outputfile << "Task_Else=" + m.first + " " + (std::string)(CompareMethodStr[(int)m.second.compareMethod]) + " " + std::to_string(m.second.value) + "\n";
+						outputfile << "Task_Else=" + m.first + " " + GetEnumCompareMethodToString(m.second.compareMethod) + " " + std::to_string(m.second.value) + "\n";
 					}
 					else {
 						outputfile << "Task_Else=" + m.first + "\n";
@@ -732,7 +721,7 @@ namespace FPS_n2 {
 						outputfile << "]\n";
 					}
 					if (m.m_time.IsActive()) {
-						outputfile << "Task_Else=耐久時間: " + (std::string)(CompareMethodStr[(int)m.m_time.compareMethod]) + " " + std::to_string(m.m_time.value) + "\n";
+						outputfile << "Task_Else=耐久時間: " + GetEnumCompareMethodToString(m.m_time.compareMethod) + " " + std::to_string(m.m_time.value) + "\n";
 					}
 				}
 			}
@@ -887,7 +876,7 @@ namespace FPS_n2 {
 					outputfile << "Task_Else=}\n";
 				}
 				if (obj.distance.IsActive()) {
-					outputfile << "Task_Else=距離: " + (std::string)(CompareMethodStr[(int)obj.distance.compareMethod]) + " " + std::to_string(obj.distance.value) + "m\n";
+					outputfile << "Task_Else=距離: " + GetEnumCompareMethodToString(obj.distance.compareMethod) + " " + std::to_string(obj.distance.value) + "m\n";
 				}
 				{
 					if (obj.playerHealthEffect.bodyParts.size() > 0) {
@@ -911,7 +900,7 @@ namespace FPS_n2 {
 						outputfile << "]\n";
 					}
 					if (obj.playerHealthEffect.m_time.IsActive()) {
-						outputfile << "Task_Else=閾値: " + (std::string)(CompareMethodStr[(int)obj.playerHealthEffect.m_time.compareMethod]) + " " + std::to_string(obj.playerHealthEffect.m_time.value) + "\n";
+						outputfile << "Task_Else=閾値: " + GetEnumCompareMethodToString(obj.playerHealthEffect.m_time.compareMethod) + " " + std::to_string(obj.playerHealthEffect.m_time.value) + "\n";
 					}
 				}
 				{
@@ -936,7 +925,7 @@ namespace FPS_n2 {
 						outputfile << "]\n";
 					}
 					if (obj.enemyHealthEffect.m_time.IsActive()) {
-						outputfile << "Task_Else=閾値: " + (std::string)(CompareMethodStr[(int)obj.enemyHealthEffect.m_time.compareMethod]) + " " + std::to_string(obj.enemyHealthEffect.m_time.value) + "\n";
+						outputfile << "Task_Else=閾値: " + GetEnumCompareMethodToString(obj.enemyHealthEffect.m_time.compareMethod) + " " + std::to_string(obj.enemyHealthEffect.m_time.value) + "\n";
 					}
 				}
 			}
@@ -968,13 +957,13 @@ namespace FPS_n2 {
 			break;
 			case FPS_n2::EnumTaskObjective::TaskObjectiveTraderStanding:
 				if (obj.Compares.IsActive()) {
-					outputfile << "Task_Else=TraderStandingの閾値: " + (std::string)(CompareMethodStr[(int)obj.Compares.compareMethod]) + " " + std::to_string(obj.Compares.value) + "\n";
+					outputfile << "Task_Else=TraderStandingの閾値: " + GetEnumCompareMethodToString(obj.Compares.compareMethod) + " " + std::to_string(obj.Compares.value) + "\n";
 				}
 				break;
 			case FPS_n2::EnumTaskObjective::TaskObjectiveUseItem:
 			{
 				if (obj.Compares.IsActive()) {
-					outputfile << "Task_Else=閾値: " + (std::string)(CompareMethodStr[(int)obj.Compares.compareMethod]) + " " + std::to_string(obj.Compares.value) + "\n";
+					outputfile << "Task_Else=閾値: " + GetEnumCompareMethodToString(obj.Compares.compareMethod) + " " + std::to_string(obj.Compares.value) + "\n";
 				}
 				if (obj.m_zoneNames.size() > 0) {
 					outputfile << "Task_Else=ゾーン:[";

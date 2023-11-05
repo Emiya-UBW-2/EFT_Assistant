@@ -1,7 +1,7 @@
 IDstr=618aaeb931ddad66c15eb7e9
 Name=AS VAL 9x39 special assault rifle Kobra
 ShortName=AS VAL Kobra
-Itemtype=Assault carbine
+Itemtype=assault-carbine
 width=5
 height=2
 weight=3.085000

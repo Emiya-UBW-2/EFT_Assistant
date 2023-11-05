@@ -1,3 +1,3 @@
-Name=Flashlight
+Name=flashlight
 ShortName=Light
 Category=WeaponMods

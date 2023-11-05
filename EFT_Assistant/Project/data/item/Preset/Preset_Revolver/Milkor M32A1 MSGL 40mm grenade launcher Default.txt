@@ -1,7 +1,7 @@
 IDstr=629744d002667c48a467e9f9
 Name=Milkor M32A1 MSGL 40mm grenade launcher Default
 ShortName=MSGL Default
-Itemtype=Revolver
+Itemtype=revolver
 width=4
 height=2
 weight=5.475000

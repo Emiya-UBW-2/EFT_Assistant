@@ -1,7 +1,7 @@
 IDstr=sa58xfal0000000000000001
 Name=DS Arms SA-58 7.62x51 assault rifle X-FAL
 ShortName=SA-58 X-FAL
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=5
 height=2
 weight=4.336000

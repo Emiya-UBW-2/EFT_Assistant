@@ -1,7 +1,7 @@
 IDstr=58414907245977598f1ad38d
 Name=MP-153 12ga semi-automatic shotgun Default
 ShortName=MP-153 Default
-Itemtype=Shotgun
+Itemtype=shotgun
 width=7
 height=1
 weight=3.620000

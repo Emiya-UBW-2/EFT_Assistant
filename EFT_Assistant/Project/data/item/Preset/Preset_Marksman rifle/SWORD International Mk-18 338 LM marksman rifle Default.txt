@@ -1,7 +1,7 @@
 IDstr=5fd25119dd870108a754a163
 Name=SWORD International Mk-18 .338 LM marksman rifle Default
 ShortName=Mk-18 Mjölnir Default
-Itemtype=Marksman rifle
+Itemtype=marksman-rifle
 width=6
 height=2
 weight=6.502000

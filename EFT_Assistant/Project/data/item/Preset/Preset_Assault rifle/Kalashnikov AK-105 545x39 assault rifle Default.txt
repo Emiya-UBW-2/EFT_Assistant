@@ -1,7 +1,7 @@
 IDstr=5acf7e7986f774401e19c3a0
 Name=Kalashnikov AK-105 5.45x39 assault rifle Default
 ShortName=AK-105 Default
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=4
 height=2
 weight=3.205000

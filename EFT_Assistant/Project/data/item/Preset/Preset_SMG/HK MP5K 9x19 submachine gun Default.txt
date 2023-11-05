@@ -1,7 +1,7 @@
 IDstr=5d3f06c886f7743bb5318c6a
 Name=HK MP5K 9x19 submachine gun Default
 ShortName=MP5K-N Default
-Itemtype=SMG
+Itemtype=smg
 width=2
 height=1
 weight=1.871000

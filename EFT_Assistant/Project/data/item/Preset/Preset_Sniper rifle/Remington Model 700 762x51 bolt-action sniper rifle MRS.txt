@@ -1,7 +1,7 @@
 IDstr=5d38517786f7742a1468cf6a
 Name=Remington Model 700 7.62x51 bolt-action sniper rifle MRS
 ShortName=M700 MRS
-Itemtype=Sniper rifle
+Itemtype=sniper-rifle
 width=5
 height=2
 weight=4.927000

@@ -1,7 +1,7 @@
 IDstr=619e61e70459e93c12392ba7
 Name=FN SCAR-L 5.56x45 assault rifle (FDE) Contract Wars
 ShortName=Mk 16 Contract Wars
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=5
 height=2
 weight=4.192000

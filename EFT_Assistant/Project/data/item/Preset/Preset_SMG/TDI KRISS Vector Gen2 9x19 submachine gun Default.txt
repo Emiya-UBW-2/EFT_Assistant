@@ -1,7 +1,7 @@
 IDstr=5fd251c90d9c95034825edb5
 Name=TDI KRISS Vector Gen.2 9x19 submachine gun Default
 ShortName=Vector 9x19 Default
-Itemtype=SMG
+Itemtype=smg
 width=3
 height=2
 weight=2.576000

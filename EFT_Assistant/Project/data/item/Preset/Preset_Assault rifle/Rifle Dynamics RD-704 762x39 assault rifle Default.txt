@@ -1,7 +1,7 @@
 IDstr=62972a7d91492d1a34152fbe
 Name=Rifle Dynamics RD-704 7.62x39 assault rifle Default
 ShortName=RD-704 Default
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=4
 height=2
 weight=3.889000

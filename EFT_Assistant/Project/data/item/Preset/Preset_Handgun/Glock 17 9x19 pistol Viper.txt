@@ -1,7 +1,7 @@
 IDstr=5a88ae4a86f77457fd2c0dae
 Name=Glock 17 9x19 pistol Viper
 ShortName=Glock 17 Viper
-Itemtype=Handgun
+Itemtype=handgun
 width=2
 height=2
 weight=1.065000

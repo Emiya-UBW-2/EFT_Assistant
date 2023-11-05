@@ -1,12 +1,6 @@
-#include"MainScene_PageCustom.hpp"
+#include "MainScene_PageCustom.hpp"
 #include "../Data/MainScene_Base.hpp"
-#include "../../../Parts/WindowParts.hpp"
-#include "../../../Parts/StrControl.hpp"
-#include "../../../Parts/DrawSystem.hpp"
-#include "../../../Parts/InputParts.hpp"
-#include "../../../Parts/PlayerDataParts.hpp"
-#include "../../../Parts/InterruptParts.hpp"
-#include"MainScene_PageParents.hpp"
+#include "../../../PartsHeader.hpp"
 
 namespace FPS_n2 {
 	const ItemList::ItemProperties::ChildItemSettings&			CustomBG::ChildData::GetMySlotData() const noexcept { return this->m_ParentPtr->GetChildParts().at(this->m_ParentSlot); }

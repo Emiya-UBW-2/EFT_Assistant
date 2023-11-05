@@ -1,7 +1,7 @@
 IDstr=6193e380069d61205d490dc7
 Name=FN SCAR-H 7.62x51 assault rifle (FDE) CQC
 ShortName=Mk 17 CQC
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=5
 height=2
 weight=3.702000

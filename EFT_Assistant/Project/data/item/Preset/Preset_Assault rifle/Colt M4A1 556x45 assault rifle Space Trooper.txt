@@ -1,7 +1,7 @@
 IDstr=5a8ae36686f774377d6ce226
 Name=Colt M4A1 5.56x45 assault rifle Space Trooper
 ShortName=M4A1 Space Trooper
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=4
 height=2
 weight=4.254000

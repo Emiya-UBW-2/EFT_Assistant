@@ -1,7 +1,7 @@
 IDstr=5d23467086f77443f37fc602
 Name=ASh-12 12.7x55 assault rifle Default
 ShortName=ASh-12 Default
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=4
 height=2
 weight=6.170000

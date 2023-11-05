@@ -1,7 +1,7 @@
 IDstr=628754510c9eb3366b5218f8
 Name=Glock 17 9x19 pistol Jackie
 ShortName=Glock 17 Jackie
-Itemtype=Handgun
+Itemtype=handgun
 width=2
 height=2
 weight=0.791000

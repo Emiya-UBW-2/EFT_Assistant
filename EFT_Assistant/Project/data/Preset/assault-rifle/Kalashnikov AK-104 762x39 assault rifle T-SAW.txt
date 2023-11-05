@@ -1,0 +1,17 @@
+Name=Kalashnikov AK-104 7.62x39 assault rifle T-SAW
+Base=Kalashnikov AK-104 7.62x39 assault rifle
+Parts=AK-74 gas tube (6P20 Sb.1-2)
+Parts=AK 5.45 Design Aggressor handguard
+Parts=BCM GUNFIGHTER MOD 3 vertical foregrip
+Parts=NcSTAR MPR45 Backup mount
+Parts=Trijicon RMR low profile mount
+Parts=Trijicon RMR reflex sight
+Parts=AK SRVV 7.62x39 muzzle brake-compensator
+Parts=AK Strike Industries Enhanced Pistol Grip (Black)
+Parts=AK FAB Defense PDC dust cover
+Parts=FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescope
+Parts=AK-105 rear sight (6P44 Sb.1-30)
+Parts=AK-74M CAA AKTS AK74 buffer tube
+Parts=Strike Industries Viper Mod 1 stock
+Parts=AK 7.62x39 X Products X-47 50-round drum magazine
+Parts=AK Zenit RP-1 charging handle

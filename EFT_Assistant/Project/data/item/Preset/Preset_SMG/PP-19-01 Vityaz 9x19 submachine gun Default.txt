@@ -1,7 +1,7 @@
 IDstr=59b81f7386f77421ac688a0a
 Name=PP-19-01 "Vityaz" 9x19 submachine gun Default
 ShortName=PP-19-01 Default
-Itemtype=SMG
+Itemtype=smg
 width=3
 height=2
 weight=2.858000

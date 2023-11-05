@@ -1,7 +1,7 @@
 IDstr=619d267f36b5be1f3236f9ba
 Name=HK USP .45 ACP pistol Default
 ShortName=USP .45 Default
-Itemtype=Handgun
+Itemtype=handgun
 width=2
 height=1
 weight=0.888000

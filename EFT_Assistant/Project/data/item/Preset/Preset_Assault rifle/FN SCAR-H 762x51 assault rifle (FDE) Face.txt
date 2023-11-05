@@ -1,7 +1,7 @@
 IDstr=628755f166bb7d4a3c32bc45
 Name=FN SCAR-H 7.62x51 assault rifle (FDE) Face
 ShortName=Mk 17 Face
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=5
 height=2
 weight=4.564000

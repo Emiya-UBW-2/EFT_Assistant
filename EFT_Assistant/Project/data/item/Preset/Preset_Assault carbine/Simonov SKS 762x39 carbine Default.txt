@@ -1,7 +1,7 @@
 IDstr=58dffce486f77409f40f8162
 Name=Simonov SKS 7.62x39 carbine Default
 ShortName=SKS Default
-Itemtype=Assault carbine
+Itemtype=assault-carbine
 width=5
 height=1
 weight=3.750000

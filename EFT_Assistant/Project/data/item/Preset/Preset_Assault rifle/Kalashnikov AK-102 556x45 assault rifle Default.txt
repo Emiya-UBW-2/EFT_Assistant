@@ -1,7 +1,7 @@
 IDstr=5acf7dfc86f774401e19c390
 Name=Kalashnikov AK-102 5.56x45 assault rifle Default
 ShortName=AK-102 Default
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=4
 height=2
 weight=3.205000

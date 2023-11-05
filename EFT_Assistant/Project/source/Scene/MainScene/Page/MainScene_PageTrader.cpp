@@ -1,11 +1,6 @@
-#include"MainScene_PageTrader.hpp"
+#include "MainScene_PageTrader.hpp"
 #include "../Data/MainScene_Base.hpp"
-#include "../../../Parts/WindowParts.hpp"
-#include "../../../Parts/StrControl.hpp"
-#include "../../../Parts/DrawSystem.hpp"
-#include "../../../Parts/InputParts.hpp"
-#include "../../../Parts/PlayerDataParts.hpp"
-#include "../../../Parts/InterruptParts.hpp"
+#include "../../../PartsHeader.hpp"
 
 namespace FPS_n2 {
 	void TraderBG::Init_Sub(int *, int *, float*) noexcept {

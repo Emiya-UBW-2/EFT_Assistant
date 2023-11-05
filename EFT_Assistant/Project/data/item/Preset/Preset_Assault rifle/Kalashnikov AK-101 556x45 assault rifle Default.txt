@@ -1,7 +1,7 @@
 IDstr=5acf7dd986f774486e1281bf
 Name=Kalashnikov AK-101 5.56x45 assault rifle Default
 ShortName=AK-101 Default
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=5
 height=2
 weight=3.605000

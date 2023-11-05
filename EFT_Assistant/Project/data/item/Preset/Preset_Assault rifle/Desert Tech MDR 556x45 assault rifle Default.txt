@@ -1,7 +1,7 @@
 IDstr=5c98bd7386f7740cfb15654e
 Name=Desert Tech MDR 5.56x45 assault rifle Default
 ShortName=MDR Default
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=4
 height=2
 weight=3.996000

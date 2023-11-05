@@ -1,7 +1,7 @@
 IDstr=vepruntersvd000000000001
 Name=Molot VPO-101 "Vepr-Hunter" 7.62x51 carbine SVD
 ShortName=VPO-101 "Vepr-Hunter" SVD
-Itemtype=Assault carbine
+Itemtype=assault-carbine
 width=6
 height=2
 weight=5.132000

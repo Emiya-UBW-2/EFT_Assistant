@@ -1,7 +1,7 @@
 IDstr=5e0340ab86f7745bb7339235
 Name=B&T MP9 9x19 submachine gun Default
 ShortName=MP9 Default
-Itemtype=SMG
+Itemtype=smg
 width=3
 height=2
 weight=1.290000

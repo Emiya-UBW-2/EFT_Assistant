@@ -1,7 +1,7 @@
 IDstr=64c152953319a1cf380c4e1b
 Name=MP-43 12ga sawed-off double-barrel shotgun Default
 ShortName=Sawed-off Default
-Itemtype=Shotgun
+Itemtype=shotgun
 width=3
 height=1
 weight=2.100000

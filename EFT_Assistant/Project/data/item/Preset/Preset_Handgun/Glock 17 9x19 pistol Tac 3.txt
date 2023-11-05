@@ -1,7 +1,7 @@
 IDstr=5a88ad7b86f77479aa7226af
 Name=Glock 17 9x19 pistol Tac 3
 ShortName=Glock 17 Tac 3
-Itemtype=Handgun
+Itemtype=handgun
 width=2
 height=2
 weight=1.616000

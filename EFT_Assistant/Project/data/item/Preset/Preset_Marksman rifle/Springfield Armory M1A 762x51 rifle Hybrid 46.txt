@@ -1,7 +1,7 @@
 IDstr=m1ahybrid46archangel0001
 Name=Springfield Armory M1A 7.62x51 rifle Hybrid 46
 ShortName=M1A Hybrid 46
-Itemtype=Marksman rifle
+Itemtype=marksman-rifle
 width=7
 height=2
 weight=7.740000

@@ -1,7 +1,7 @@
 IDstr=5c123fe086f7742a60324263
 Name=Springfield Armory M1A 7.62x51 rifle 2k18 NY
 ShortName=M1A 2k18 NY
-Itemtype=Marksman rifle
+Itemtype=marksman-rifle
 width=6
 height=2
 weight=7.280000

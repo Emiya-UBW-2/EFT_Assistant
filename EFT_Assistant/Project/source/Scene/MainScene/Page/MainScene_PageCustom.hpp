@@ -1,9 +1,9 @@
 #pragma once
-#include"../../../Header.hpp"
+#include "../../../Header.hpp"
 #include "../Data/MainScene_Common.hpp"
 #include "../Page/MainScene_PageBase.hpp"
-#include"../Data/MainScene_Item.hpp"
-#include"../Data/MainScene_Preset.hpp"
+#include "../Data/MainScene_Item.hpp"
+#include "../Data/MainScene_Preset.hpp"
 
 namespace FPS_n2 {
 	class CustomBG :public BGParent {

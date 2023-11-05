@@ -1,5 +1,5 @@
 #pragma once
-#include"../../../Header.hpp"
+#include "../../../Header.hpp"
 #include "../Data/MainScene_Common.hpp"
 #include "../Page/MainScene_PageBase.hpp"
 
@@ -207,56 +207,6 @@ namespace FPS_n2 {
 
 	};
 
-	enum class EnumTaskObjective {
-		TaskObjectiveBasic,
-		TaskObjectiveBuildItem,
-		TaskObjectiveExperience,
-		TaskObjectiveExtract,
-		TaskObjectiveItem,
-		TaskObjectiveMark,
-		TaskObjectivePlayerLevel,
-		TaskObjectiveQuestItem,
-		TaskObjectiveShoot,
-		TaskObjectiveSkill,
-		TaskObjectiveTaskStatus,
-		TaskObjectiveTraderLevel,
-		TaskObjectiveTraderStanding,
-		TaskObjectiveUseItem,
-		Max,
-	};
-	static const char* TypesStr[(int)EnumTaskObjective::Max] = {
-		"TaskObjectiveBasic",
-		"TaskObjectiveBuildItem",
-		"TaskObjectiveExperience",
-		"TaskObjectiveExtract",
-		"TaskObjectiveItem",
-		"TaskObjectiveMark",
-		"TaskObjectivePlayerLevel",
-		"TaskObjectiveQuestItem",
-		"TaskObjectiveShoot",
-		"TaskObjectiveSkill",
-		"TaskObjectiveTaskStatus",
-		"TaskObjectiveTraderLevel",
-		"TaskObjectiveTraderStanding",
-		"TaskObjectiveUseItem",
-	};
-
-	enum class EnumCompareMethod {
-		Equal,//=
-		Higher,//>=
-		Lower,//<=
-		More,//>
-		Less,//<
-		Max,
-	};
-	static const char* CompareMethodStr[] = {
-	"=",
-	">=",
-	"<=",
-	">",
-	"<",
-	};
-
 	class TaskJsonData :public JsonDataParent {
 	public:
 		struct TraderRequirements {
@@ -273,12 +223,7 @@ namespace FPS_n2 {
 			void GetJsonData(const nlohmann::json& data) {
 				if (data.contains("compareMethod")) {
 					if (!data["compareMethod"].is_null()) {
-						std::string buf = data["compareMethod"];
-						for (int i = 0; i < sizeof(CompareMethodStr) / sizeof(CompareMethodStr[0]); i++) {
-							if (buf == CompareMethodStr[i]) {
-								compareMethod = (EnumCompareMethod)i;
-							}
-						}
+						compareMethod = GetStringToEnumCompareMethod(data["compareMethod"]);
 					}
 				}
 				if (data.contains("value")) {

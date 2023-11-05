@@ -1,9 +1,5 @@
-#include"WindowParts.hpp"
-#include "StrControl.hpp"
-#include "DrawSystem.hpp"
-#include "InputParts.hpp"
-#include "PlayerDataParts.hpp"
-#include "InterruptParts.hpp"
+#include "WindowParts.hpp"
+#include "../PartsHeader.hpp"
 
 const FPS_n2::WindowSystem::WindowManager* SingletonBase<FPS_n2::WindowSystem::WindowManager>::m_Singleton = nullptr;
 const FPS_n2::DataErrorLog* SingletonBase<FPS_n2::DataErrorLog>::m_Singleton = nullptr;

@@ -1,0 +1,13 @@
+IDstr=64ccc1f4ff54fb38131acf27
+Name=Concordia apartment 63 room key
+ShortName=Conc 63
+Information_Eng=A key to one of the rooms in apartment 63 in the Concordia building.
+Itemtype=mechanical-key
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=ItemPropertiesKey
+uses=40
+Name_Jpn=コンコルディア・アパート 63号室の鍵
+Information_Jpn=コンコルディア・ビル内にある集合住宅の63号室の鍵。

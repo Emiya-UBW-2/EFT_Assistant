@@ -1,11 +1,6 @@
-#include"MainScene_PageMap.hpp"
+#include "MainScene_PageMap.hpp"
 #include "../Data/MainScene_Base.hpp"
-#include "../../../Parts/WindowParts.hpp"
-#include "../../../Parts/StrControl.hpp"
-#include "../../../Parts/DrawSystem.hpp"
-#include "../../../Parts/InputParts.hpp"
-#include "../../../Parts/PlayerDataParts.hpp"
-#include "../../../Parts/InterruptParts.hpp"
+#include "../../../PartsHeader.hpp"
 
 namespace FPS_n2 {
 	void MapBG::Init_Sub(int *posx, int *posy, float* Scale) noexcept {
@@ -188,7 +183,7 @@ namespace FPS_n2 {
 			auto* MapPtr = DataBase::Instance()->GetMapData()->FindPtr(m_MapSelect);
 			int Max = (int)MapPtr->GetMapPicNum();
 			int NextID = (m_WatchMapSelect + 1) % Max;
-			if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(400), yp + LineHeight, false, true, Gray25, "Select %s", WatchMapTypeStr[std::clamp(NextID, 0, 2)])) {
+			if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(400), yp + LineHeight, false, true, Gray25, "Select %s", WatchMapTypeStr[std::clamp(NextID, 0, (int)EnumWatchMapType::Max)])) {
 				m_WatchMapSelect = NextID;
 				m_BaseRad = MapPtr->GetMapNorthRad(m_WatchMapSelect);
 				m_Rad = 0.f;

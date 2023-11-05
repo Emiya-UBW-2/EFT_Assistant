@@ -1,7 +1,7 @@
 IDstr=64c1510bda0f6d156000cc17
 Name=Kalashnikov AK-12 5.45x39 assault rifle Default
 ShortName=AK-12 Default
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=5
 height=2
 weight=3.606000

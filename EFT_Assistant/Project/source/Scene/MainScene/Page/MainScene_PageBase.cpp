@@ -1,10 +1,5 @@
-#include"MainScene_PageBase.hpp"
-#include "../../../Parts/WindowParts.hpp"
-#include "../../../Parts/StrControl.hpp"
-#include "../../../Parts/DrawSystem.hpp"
-#include "../../../Parts/InputParts.hpp"
-#include "../../../Parts/PlayerDataParts.hpp"
-#include "../../../Parts/InterruptParts.hpp"
+#include "MainScene_PageBase.hpp"
+#include "../../../PartsHeader.hpp"
 
 #include "MainScene_PageCustom.hpp"
 #include "MainScene_PageItem.hpp"

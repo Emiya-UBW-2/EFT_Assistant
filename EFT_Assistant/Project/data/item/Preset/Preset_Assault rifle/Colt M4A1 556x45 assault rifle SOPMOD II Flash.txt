@@ -1,7 +1,7 @@
 IDstr=m4a1sopmodiiflash0000001
 Name=Colt M4A1 5.56x45 assault rifle SOPMOD II Flash
 ShortName=M4A1 SOPMOD II Flash
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=5
 height=2
 weight=4.605000

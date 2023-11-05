@@ -1,7 +1,7 @@
 IDstr=5b439b5686f77428bd137424
 Name=DS Arms SA-58 7.62x51 assault rifle Default
 ShortName=SA-58 Default
-Itemtype=Assault rifle
+Itemtype=assault-rifle
 width=5
 height=2
 weight=3.951000

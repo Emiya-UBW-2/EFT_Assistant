@@ -1,0 +1,13 @@
+IDstr=64ccc206793ca11c8f450a38
+Name=TerraGroup meeting room key
+ShortName=TG meeting
+Information_Eng=A key to the meeting room at the TerraGroup office.
+Itemtype=mechanical-key
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=ItemPropertiesKey
+uses=40
+Name_Jpn=TerraGroup の会議室の鍵
+Information_Jpn=テラグループの自社ビルにある会議室の鍵。
