@@ -1,7 +1,7 @@
 #pragma once
 #include "../../../Header.hpp"
 #include "../Data/MainScene_Common.hpp"
-#include "../Page/MainScene_PageBase.hpp"
+#include "../Page/MainScene_PageManager.hpp"
 
 namespace FPS_n2 {
 	struct MapGraphParam {
@@ -61,7 +61,7 @@ namespace FPS_n2 {
 		const auto	GetMapNorthRad(int ID) const noexcept { return deg2rad(m_MapGraph.at(ID).m_Degree); }
 		const auto&	GeSizetoMeter(int ID) const noexcept { return this->m_MapGraph.at(ID).m_SizetoMeter; }
 	};
-	class MapData : public DataParent<MapID, MapList> {
+	class MapData : public DataParent<MapList> {
 	public:
 		MapData() noexcept {
 			SetDirList("data/map/");

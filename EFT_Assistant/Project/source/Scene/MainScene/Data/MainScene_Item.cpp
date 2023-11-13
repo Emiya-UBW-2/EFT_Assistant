@@ -209,19 +209,17 @@ namespace FPS_n2 {
 			break;
 		case EnumItemProperties::ItemPropertiesStim:
 			for (const auto& s : m_stimEffects) {
-				{
-					if (s.GetskillName() != "") {
-						*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-							"スキルへの影響 :%s", s.GetskillName().c_str()) + y_r(30));
-						*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + y_r(500), yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-							"%s%3.2f", (s.Getvalue() >= 0) ? "+" : "", s.Getvalue()) + y_r(500) + y_r(30)); *yofs += ysiz + y_r(5);
-					}
-					else {
-						*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-							"効果タイプ :%s", s.Gettype().c_str()) + y_r(30));
-						*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + y_r(500), yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-							"影響数値 :%3.2f", s.Getvalue()) + y_r(500) + y_r(30)); *yofs += ysiz + y_r(5);
-					}
+				if (s.GetskillName() != "") {
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+						"スキルへの影響 :%s", s.GetskillName().c_str()) + y_r(30));
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + y_r(600), yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+						"%s%3.2f", (s.Getvalue() >= 0) ? "+" : "", s.Getvalue()) + y_r(600) + y_r(30)); *yofs += ysiz + y_r(5);
+				}
+				else {
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+						"効果タイプ :%s", s.Gettype().c_str()) + y_r(30));
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + y_r(600), yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+						"%3.2f%s", s.Getvalue()*(s.Getpercent() ? 100.f : 1.f), (s.Getpercent() ? "%%" : "")) + y_r(600) + y_r(30)); *yofs += ysiz + y_r(5);
 				}
 				if (s.Getchance() < 1.f) {
 					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
@@ -230,11 +228,9 @@ namespace FPS_n2 {
 				{
 					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
 						"効果までの遅延 :%3d", s.Getdelay()) + y_r(30));
-					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + y_r(500), yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-						"効果時間 :%3d", s.Getduration()) + y_r(500) + y_r(30)); *yofs += ysiz + y_r(5);
+					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + y_r(600), yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
+						"%3d秒", s.Getduration()) + y_r(600) + y_r(30)); *yofs += ysiz + y_r(5);
 				}
-				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-					"パーセント？ :%s", (s.Getpercent() ? "TRUE" : "FALSE")) + y_r(30)); *yofs += ysiz + y_r(5);
 			}
 			break;
 		default:
@@ -481,7 +477,7 @@ namespace FPS_n2 {
 					}
 
 					int count2 = 0;
-					for (const auto& tasks : DataBase::Instance()->GetTaskData()->GetList()) {
+					for (auto& tasks : DataBase::Instance()->GetTaskData()->SetList()) {
 						if (tasks.GetIsUSECorBEAR()) {
 							for (const auto& w : tasks.GetTaskWorkData().GetFiR_Item()) {
 								if (w.GetID() == GetID()) {
@@ -519,7 +515,7 @@ namespace FPS_n2 {
 					}
 
 					int count2 = 0;
-					for (const auto& tasks : DataBase::Instance()->GetTaskData()->GetList()) {
+					for (auto& tasks : DataBase::Instance()->GetTaskData()->SetList()) {
 						if (tasks.GetIsUSECorBEAR()) {
 							for (const auto& w : tasks.GetTaskWorkData().GetNotFiR_Item()) {
 								if (w.GetID() == GetID()) {
@@ -577,7 +573,7 @@ namespace FPS_n2 {
 					}
 
 					int count2 = 0;
-					for (const auto& tasks : DataBase::Instance()->GetTaskData()->GetList()) {
+					for (auto& tasks : DataBase::Instance()->GetTaskData()->SetList()) {
 						bool isHit = false;
 						if (!isHit) {
 							for (const auto& w : tasks.GetTaskWorkData().GetFiR_Item()) {

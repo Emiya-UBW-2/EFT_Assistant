@@ -1,7 +1,7 @@
 #pragma once
 #include "../../../Header.hpp"
 #include "../Data/MainScene_Common.hpp"
-#include "../Page/MainScene_PageBase.hpp"
+#include "../Page/MainScene_PageManager.hpp"
 
 namespace FPS_n2 {
 	enum class EnumListDrawMode {
@@ -19,7 +19,7 @@ namespace FPS_n2 {
 	"未使用",
 	};
 
-	class ItemListBG :public BGParent {
+	class ItemListBG :public PageParent {
 	private:
 		bool							m_IsCheckCraft{ true };//タスクに必要なアイテムを省くか否か
 		bool							m_IsCheckBarter{ true };//タスクに必要なアイテムを省くか否か

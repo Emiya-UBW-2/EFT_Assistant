@@ -1,7 +1,7 @@
 #pragma once
 #include "../../../Header.hpp"
 #include "../Data/MainScene_Common.hpp"
-#include "../Page/MainScene_PageBase.hpp"
+#include "../Page/MainScene_PageManager.hpp"
 #include "MainScene_Item.hpp"
 
 namespace FPS_n2 {
@@ -27,7 +27,7 @@ namespace FPS_n2 {
 		const auto&	GetBase() const noexcept { return this->m_Base; }
 		const auto&	GetParts() const noexcept { return this->m_Parts; }
 	};
-	class PresetData : public DataParent<PresetID, PresetList> {
+	class PresetData : public DataParent<PresetList> {
 	public:
 		PresetData() noexcept {
 			std::string Path = "data/Preset/";

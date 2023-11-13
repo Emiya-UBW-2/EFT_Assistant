@@ -25,4 +25,28 @@ namespace FPS_n2 {
 	//Hideout
 	typedef int HideoutID;
 	class HideoutGetData : public GetDataParent<HideoutID> {};
+
+	enum class EnumData {
+		Map,
+		Trader,
+		ItemCategory,
+		ItemType,
+		Item,
+		Preset,
+		Enemy,
+		Task,
+		Hideout,
+		Max,
+	};
+	static const char* EnumDataStr[(int)EnumData::Max] = {
+		"Map",
+		"Trader",
+		"ItemCategory",
+		"ItemType",
+		"Item",
+		"Preset",
+		"Enemy",
+		"Task",
+		"Hideout",
+	};
 };

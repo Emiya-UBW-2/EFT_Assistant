@@ -337,14 +337,6 @@ namespace FPS_n2 {
 		}
 	}
 	void ItemListBG::DrawFront_Sub(int, int, float) noexcept {
-		//
-		{
-			int xp = y_r(10);
-			int yp = LineHeight + y_r(10);
-			if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(200), yp + LineHeight, false, true, Gray25, "戻る")) {
-				TurnOnGoNextBG();
-			}
-		}
 		//モードセレクト
 		{
 			int xp = y_r(10) + y_r(200) + y_r(10);

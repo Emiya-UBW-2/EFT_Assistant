@@ -8,7 +8,7 @@ namespace FPS_n2 {
 			m_posxMaxBuffer = 0;
 			m_posyMaxBuffer = 0;
 		}
-		for (const auto& tasks : DataBase::Instance()->GetTaskData()->GetList()) {
+		for (auto& tasks : DataBase::Instance()->GetTaskData()->SetList()) {
 			bool IsTrue = false;
 			if (std::find_if(m_Drawed.begin(), this->m_Drawed.end(), [&](const TaskID& obj) {return obj == tasks.GetID(); }) == this->m_Drawed.end()) {
 				if (!IsTrue && tasks.GetTaskNeedData().GetParenttaskID().size() == 0 && ParentID == InvalidID) {
@@ -292,7 +292,7 @@ namespace FPS_n2 {
 				int xsizeAdd = xsize + y_r(30);
 				int ysizeAdd = ysize + y_r(5);
 
-				for (const auto& tasks : DataBase::Instance()->GetTaskData()->GetList()) {
+				for (auto& tasks : DataBase::Instance()->GetTaskData()->SetList()) {
 					{
 						bool isHit = false;
 						//クリアチェック
@@ -354,14 +354,6 @@ namespace FPS_n2 {
 	void TaskBG::DrawFront_Sub(int posx, int posy, float) noexcept {
 		auto* DrawParts = DXDraw::Instance();
 		auto* Input = InputControl::Instance();
-		//戻る
-		{
-			int xp = y_r(10);
-			int yp = LineHeight + y_r(10);
-			if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(200), yp + LineHeight, false, true, Gray25, "戻る")) {
-				TurnOnGoNextBG();
-			}
-		}
 		//モードセレクト
 		{
 			int xp = y_r(10) + y_r(200) + y_r(10);
@@ -482,6 +474,7 @@ namespace FPS_n2 {
 					DrawControl::Instance()->SetDrawRotaGuide("Map", DrawLayer::Normal, xp - ysize / 2, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
 					yp += y_r(40);
 				}
+				DrawControl::Instance()->SetBright(DrawLayer::Normal, 255, 255, 255);
 			}
 		}
 	}

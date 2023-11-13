@@ -30,6 +30,7 @@ namespace FPS_n2 {
 			else if (LEFT == "Edition") { this->m_Edition = (EnumEdition)(std::stoi(RIGHT)); }
 			else if (LEFT == "IsNeedLightKeeper") { this->m_IsNeedLightKeeper = (RIGHT == "TRUE"); }
 			else if (LEFT == "IsNeedKappa") { this->m_IsNeedKappa = (RIGHT == "TRUE"); }
+			else if (LEFT == "IsOpenFreaMarket") { this->m_IsOpenFreaMarket = (RIGHT == "TRUE"); }
 			else if (LEFT == "MaxLevel") { this->m_MaxLevel = std::stoi(RIGHT); }
 			else if (LEFT == "PMCType") { this->m_IsUSEC = (RIGHT == "USEC"); }
 		}
@@ -53,6 +54,7 @@ namespace FPS_n2 {
 		outputfile << "Edition=" + std::to_string((int)m_Edition) + "\n";
 		outputfile << "IsNeedLightKeeper=" + (std::string)(m_IsNeedLightKeeper ? "TRUE" : "FALSE") + "\n";
 		outputfile << "IsNeedKappa=" + (std::string)(m_IsNeedKappa ? "TRUE" : "FALSE") + "\n";
+		outputfile << "IsOpenFreaMarket=" + (std::string)(m_IsOpenFreaMarket ? "TRUE" : "FALSE") + "\n";
 		outputfile << "MaxLevel=" + std::to_string(m_MaxLevel) + "\n";
 		outputfile << "PMCType=" + (std::string)(m_IsUSEC ? "USEC" : "BEAR") + "\n";
 

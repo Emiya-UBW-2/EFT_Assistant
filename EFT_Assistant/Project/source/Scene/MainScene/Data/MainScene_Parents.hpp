@@ -136,7 +136,7 @@ namespace FPS_n2 {
 		}
 	};
 	//
-	template <class ID, class List>
+	template <class List>
 	class DataParent {
 		std::vector<std::string>	m_ListPathBuffer;
 	protected:
@@ -156,7 +156,7 @@ namespace FPS_n2 {
 			m_List.resize(m_ListPathBuffer.size());
 			for (auto& d : this->m_ListPathBuffer) {
 				int index = (int)(&d - &m_ListPathBuffer.front());
-				m_List[index].Set((d + ".txt").c_str(), (ID)index, (d + ".png").c_str());
+				m_List[index].Set((d + ".txt").c_str(), index, (d + ".png").c_str());
 			}
 			m_ListPathBuffer.clear();
 		}
@@ -192,7 +192,7 @@ namespace FPS_n2 {
 			}
 		}
 	public:
-		const ID		FindID(std::string_view name) const noexcept {
+		const int		FindID(std::string_view name) const noexcept {
 			for (const auto&t : this->m_List) {
 				if (t.GetName() == name) {
 					return t.GetID();
@@ -203,7 +203,7 @@ namespace FPS_n2 {
 			DataErrorLog::Instance()->AddLog(ErrMes.c_str());
 			return InvalidID;
 		}
-		List*			FindPtr(ID id) const noexcept {
+		List*			FindPtr(int id) const noexcept {
 			for (auto&t : this->m_List) {
 				if (t.GetID() == id) {
 					return (List*)&t;
@@ -229,6 +229,76 @@ namespace FPS_n2 {
 				}
 			}
 		}
+	public:
+		void DrawList(int xp1, int yp1, int xs1, std::string_view Name, int*Select, bool isActive, bool isElseSelect, bool isAllSelect, const std::function<bool(const List*)>& CheckLocal) noexcept {
+			auto* WindowMngr = WindowSystem::WindowManager::Instance();
+			int xsize = xs1;
+			int ysize = LineHeight - y_r(3);
+			int count = 0;
+			//
+			{
+				int yp_t = yp1;
+				if (isAllSelect) {
+					yp_t += ysize + y_r(3);
+				}
+				for (const auto& L2 : m_List) {
+					if (!CheckLocal(&L2)) { continue; }
+					yp_t += ysize + y_r(3);
+					count++;
+				}
+				if (yp_t > y_r(1080 - 24)) {
+					ysize = (y_r(1080 - 24) - yp1) / (count)-y_r(3);
+				}
+			}
+
+			WindowSystem::SetMsg(xp1, yp1, xp1 + xsize, yp1 + ysize - y_r(5), ysize - y_r(5), STRX_MID, White, Black, Name);
+			yp1 += ysize;
+			int yp_t = yp1;
+			if (isAllSelect) {
+				yp_t += ysize + y_r(3);
+			}
+			//
+			int IDBuf = InvalidID;
+			bool NotSelect = (*Select == InvalidID);
+			for (const auto& L2 : m_List) {
+				if (!CheckLocal(&L2)) { continue; }
+				IDBuf = L2.GetID();
+				bool SelectIt = (*Select == IDBuf);
+				auto color = NotSelect ? Gray25 : (SelectIt ? Gray10 : Gray50);
+				if (WindowSystem::ClickCheckBox(xp1 - (SelectIt ? y_r(25) : 0), yp_t, xp1 + xsize, yp_t + ysize, false, (isActive || (!isActive && SelectIt)) && !WindowMngr->PosHitCheck(nullptr), color, L2.GetShortName().c_str())) {
+					*Select = (isActive) ? IDBuf : InvalidID;
+				}
+				yp_t += ysize + y_r(3);
+			}
+			if (count > 0 && isElseSelect) {//‚»‚Ì‘¼
+				bool ElseSelect = (*Select == ElseSelectID);
+				auto color = ElseSelect ? Gray25 : Gray50;
+				if (WindowSystem::ClickCheckBox(xp1 - (ElseSelect ? y_r(25) : 0), yp_t, xp1 + xsize, yp_t + ysize, false, isActive && !WindowMngr->PosHitCheck(nullptr), color, "Else")) {
+					*Select = ElseSelectID;
+				}
+			}
+			//‘S•”‘I‘ð
+			if (isAllSelect) {
+				if (count > 1) {
+					auto color = NotSelect ? Gray10 : Gray50;
+					if (WindowSystem::ClickCheckBox(xp1 - (NotSelect ? y_r(25) : 0), yp1, xp1 + xsize, yp1 + ysize, false, isActive && !WindowMngr->PosHitCheck(nullptr), color, "ALL")) {
+						*Select = InvalidID;
+					}
+				}
+				else {
+					if (IDBuf != InvalidID) {
+						*Select = IDBuf;
+					}
+				}
+			}
+			if (count == 0) {
+				if (WindowSystem::ClickCheckBox(xp1, yp1, xp1 + xsize, yp1 + ysize, false, false, Gray50, "None")) {}
+			}
+		};
+
+		void DrawList(int xp1, int yp1, int xs1, std::string_view Name, int*Select, bool isActive, bool isElseSelect, bool isAllSelect) noexcept {
+			DrawList(xp1, yp1, xs1, Name, Select, isActive, isElseSelect, isAllSelect, [&](const auto *) { return true; });
+		};
 	};
 
 	//
@@ -244,7 +314,7 @@ namespace FPS_n2 {
 		void		SetID(ID value) noexcept { this->m_ID = value; }
 	public:
 		template <class List>
-		void		CheckID(const DataParent<ID, List>* taskList, bool DrawErrorLog = true) noexcept {
+		void		CheckID(const DataParent<List>* taskList, bool DrawErrorLog = true) noexcept {
 			bool isHit = false;
 			for (const auto& t : taskList->GetList()) {
 				if (m_Name == t.GetName()) {
@@ -285,7 +355,7 @@ namespace FPS_n2 {
 		}
 
 		template <class List>
-		void			CheckID(const DataParent<ID, List>* taskList, bool DrawErrorLog = true) noexcept {
+		void			CheckID(const DataParent<List>* taskList, bool DrawErrorLog = true) noexcept {
 			m_ID.CheckID<List>(taskList, DrawErrorLog);
 
 			if (this->GetID() != InvalidID) {
@@ -399,19 +469,18 @@ namespace FPS_n2 {
 			m_id = data["id"];
 			m_name = data["name"];
 
-			m_shortName = "";
-			if (data.contains("shortName")) {
-				if (!data["shortName"].is_null()) {
-					m_shortName = data["shortName"];
-				}
+			if (data.contains("shortName") && !data["shortName"].is_null()) {
+				m_shortName = data["shortName"];
 			}
-			m_Information_Eng = "";
-			if (data.contains("description")) {
-				if (!data["description"].is_null()) {
-					m_Information_Eng = data["description"];
-				}
+			else {
+				m_shortName = "";
 			}
-
+			if (data.contains("description") && !data["description"].is_null()) {
+				m_Information_Eng = data["description"];
+			}
+			else {
+				m_Information_Eng = "";
+			}
 			GetJsonSub(data);
 		}
 		void OutputData(const std::string& Path) noexcept {
@@ -471,8 +540,8 @@ namespace FPS_n2 {
 		void UpdateData(int ofset, int size, std::vector<List>& ListT) noexcept {
 			for (auto& L : ListT) {
 				for (int loop = ofset; loop < ofset + size; loop++) {
-					if (loop >= (int)GetJsonDataList().size()) { break; }
-					auto& jd = GetJsonDataList().at(loop);
+					if (loop >= (int)this->m_JsonData.size()) { break; }
+					auto& jd = this->m_JsonData.at(loop);
 					if (L.GetIDstr() == jd->m_id) {
 						L.m_CheckJson++;
 						jd->OutputData(L.GetFilePath());
@@ -513,7 +582,7 @@ namespace FPS_n2 {
 		void WaitToAllClear() noexcept {
 			while (true) {
 				bool isHit = false;
-				for (auto& jd : GetJsonDataList()) {
+				for (auto& jd : this->m_JsonData) {
 					if (!jd->GetIsSetFinish()) {
 						isHit = true;
 						break;
@@ -521,7 +590,7 @@ namespace FPS_n2 {
 				}
 				if (!isHit) { break; }
 			}
-			for (auto& jd : GetJsonDataList()) {
+			for (auto& jd : this->m_JsonData) {
 				jd->ResetDataJob();
 			}
 		}

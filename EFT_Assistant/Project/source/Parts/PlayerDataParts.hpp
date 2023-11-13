@@ -25,6 +25,7 @@ namespace FPS_n2 {
 	private:
 		EnumEdition					m_Edition{ EnumEdition::STANDARD };
 		bool						m_IsNeedLightKeeper{ false };
+		bool						m_IsOpenFreaMarket{ false };
 		bool						m_IsNeedKappa{ false };
 		int							m_MaxLevel{ 71 };
 	private:
@@ -155,7 +156,14 @@ namespace FPS_n2 {
 			}
 		}
 
-		void SetLastDataReceive(const char* date) noexcept { this->m_LastDataReceive = date; }
+		void SetLastDataReceive() noexcept {
+			time_t t = time(NULL);				// Œ»Ý“úŽž‚ðŽæ“¾‚·‚é
+			tm local;							// “úŽžî•ñ‚ðŠi”[‚·‚é•Ï”‚ð—pˆÓ‚·‚é
+			localtime_s(&local, &t);			// ƒ[ƒJƒ‹“úŽž‚ð•Ï”‚ÉŠi”[‚·‚é
+			char buffer[256];
+			strftime(buffer, sizeof(buffer), "%Y %m/%d %H:%M", &local);
+			this->m_LastDataReceive = buffer;
+		}
 		const auto& GetLastDataReceive() const noexcept { return this->m_LastDataReceive; }
 
 		void SetIsNeedLightKeeper(bool date) noexcept { this->m_IsNeedLightKeeper = date; }
@@ -164,6 +172,8 @@ namespace FPS_n2 {
 		void SetEdition(EnumEdition date) noexcept { this->m_Edition = date; }
 		const auto& GetEdition() const noexcept { return this->m_Edition; }
 
+		void SetIsOpenFreaMarket(bool date) noexcept { this->m_IsOpenFreaMarket = date; }
+		const auto& GetIsOpenFreaMarket() const noexcept { return this->m_IsOpenFreaMarket; }
 		void SetIsNeedKappa(bool date) noexcept { this->m_IsNeedKappa = date; }
 		const auto& GetIsNeedKappa() const noexcept { return this->m_IsNeedKappa; }
 		void SetMaxLevel(int date) noexcept { this->m_MaxLevel = date; }

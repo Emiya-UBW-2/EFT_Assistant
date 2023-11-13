@@ -1,7 +1,7 @@
 #pragma once
 #include "../../../Header.hpp"
 #include "../Data/MainScene_Common.hpp"
-#include "../Page/MainScene_PageBase.hpp"
+#include "../Page/MainScene_PageManager.hpp"
 
 namespace FPS_n2 {
 	//
@@ -87,7 +87,7 @@ namespace FPS_n2 {
 		void OutputDataSub(std::ofstream& outputfile) noexcept override;
 	};
 
-	class TraderData : public DataParent<TraderID, TraderList>, public JsonListParent<TraderJsonData> {
+	class TraderData : public DataParent<TraderList>, public JsonListParent<TraderJsonData> {
 	public:
 		TraderData() noexcept {
 			SetDirList("data/trader/");

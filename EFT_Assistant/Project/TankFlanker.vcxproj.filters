@@ -126,14 +126,14 @@
     <ClInclude Include="source\Scene\MainScene\Data\MainScene_Base.hpp">
       <Filter>ソース ファイル\Scene\Data</Filter>
     </ClInclude>
-    <ClInclude Include="source\Scene\MainScene\Page\MainScene_PageBase.hpp">
-      <Filter>ソース ファイル\Scene\Page</Filter>
-    </ClInclude>
     <ClInclude Include="source\PartsHeader.hpp">
       <Filter>ソース ファイル</Filter>
     </ClInclude>
     <ClInclude Include="source\Parts\EnumParts.hpp">
       <Filter>ソース ファイル\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Scene\MainScene\Page\MainScene_PageManager.hpp">
+      <Filter>ソース ファイル\Scene\Page</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -191,9 +191,6 @@
     <ClCompile Include="source\Scene\MainScene\Page\MainScene_PageTrader.cpp">
       <Filter>ソース ファイル\Scene\Page</Filter>
     </ClCompile>
-    <ClCompile Include="source\Scene\MainScene\Page\MainScene_PageBase.cpp">
-      <Filter>ソース ファイル\Scene\Page</Filter>
-    </ClCompile>
     <ClCompile Include="source\Scene\MainScene\Page\MainScene_PageCustom.cpp">
       <Filter>ソース ファイル\Scene\Page</Filter>
     </ClCompile>
@@ -232,6 +229,9 @@
     </ClCompile>
     <ClCompile Include="source\Parts\EnumParts.cpp">
       <Filter>ソース ファイル\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene\MainScene\Page\MainScene_PageManager.cpp">
+      <Filter>ソース ファイル\Scene\Page</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

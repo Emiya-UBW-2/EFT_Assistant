@@ -17,6 +17,12 @@ namespace FPS_n2 {
 		InitLists(3, y_r(1920 - 10) - y_r(400), LineHeight + y_r(5), y_r(400));
 
 		m_SearchBox.Init();
+		m_ReturnButtonPress = [&]() {
+			auto* PageMngr = PageManager::Instance();
+			if (!(!m_RaidMode && BackLists())) {
+				PageMngr->TurnOnGoNextPage();
+			}
+		};
 	}
 	void ItemBG::Draw_Back_Sub(int, int, float) noexcept {
 		auto* WindowMngr = WindowSystem::WindowManager::Instance();
@@ -172,30 +178,20 @@ namespace FPS_n2 {
 			//
 			isChild |= MakeLists(0, true, [&](std::pair<int, bool>* IDs, bool IsChild) {
 				if (IsChild) { xgoal -= xs_add; }
-				BGParent::MakeList<ItemCategoryList>(m_ListXPos + xgoal, m_ListYPos, DataBase::Instance()->GetItemCategoryData()->GetList(), "ItemCategory", &IDs->first, !IDs->second, false, true, [&](const auto *) { return true; });
+				PageParent::DrawLists<ItemCategoryList>(xgoal, DataBase::Instance()->GetItemCategoryData().get(), "ItemCategory", &IDs->first, !IDs->second, false, true, [&](const auto *) { return true; });
 			});
 			isChild |= MakeLists(1, ((ListsSel(1) != InvalidID) && (DataBase::Instance()->GetItemTypeData()->FindPtr(ListsSel(1))->GetName() == "Mechanical Key")), [&](std::pair<int, bool>* IDs, bool IsChild) {
 				if (IsChild) { xgoal -= xs_add; }
-				BGParent::MakeList<ItemTypeList>(m_ListXPos + xgoal, m_ListYPos, DataBase::Instance()->GetItemTypeData()->GetList(), "ItemType", &IDs->first, !IDs->second, false, true, [&](const auto *ptr) { return (ptr->GetCategoryID() == ListsSel(1 - 1)); });
+				PageParent::DrawLists<ItemTypeList>(xgoal, DataBase::Instance()->GetItemTypeData().get(), "ItemType", &IDs->first, !IDs->second, false, true, [&](const auto *ptr) { return (ptr->GetCategoryID() == ListsSel(1 - 1)); });
 			});
 			isChild |= MakeLists(2, false, [&](std::pair<int, bool>* IDs, bool IsChild) {
 				if (IsChild) { xgoal -= xs_add; }
-				BGParent::MakeList<MapList>(m_ListXPos + xgoal, m_ListYPos, DataBase::Instance()->GetMapData()->GetList(), "Map", &IDs->first, !IDs->second, true, true, [&](const auto *) { return true; });
+				PageParent::DrawLists<MapList>(xgoal, DataBase::Instance()->GetMapData().get(), "Map", &IDs->first, !IDs->second, true, true, [&](const auto *) { return true; });
 			});
 			ExecuteLists(isChild, xgoal);
 		}
 	}
 	void ItemBG::DrawFront_Sub(int, int, float) noexcept {
-		//
-		{
-			int xp = y_r(10);
-			int yp = LineHeight + y_r(10);
-			if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(200), yp + LineHeight, false, true, Gray25, "–ß‚é")) {
-				if (!(!m_RaidMode && BackLists())) {
-					TurnOnGoNextBG();
-				}
-			}
-		}
 		//
 		{
 			int xp = y_r(1910) - LineHeight * 3;

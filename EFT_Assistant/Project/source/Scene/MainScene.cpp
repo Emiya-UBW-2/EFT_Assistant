@@ -1,18 +1,18 @@
 #include "MainScene.hpp"
 #include "MainScene/Data/MainScene_Base.hpp"
-#include "MainScene/Page/MainScene_PageBase.hpp"
+#include "MainScene/Page/MainScene_PageManager.hpp"
 
 #include "MainScene/Page/MainScene_PageCustom.hpp"
 
 namespace FPS_n2 {
 	void MAINLOOP::Set_Sub(void) noexcept {
-		BGBase::Create();
-		BGBase::Instance()->Init(&this->m_posx, &this->m_posy, &this->m_Scale);
+		PageManager::Create();
+		PageManager::Instance()->Init();
 		m_Loading = true;
 	}
 	bool MAINLOOP::Update_Sub(void) noexcept {
 		auto* DataBases = DataBase::Instance();
-		auto* BGs = BGBase::Instance();
+		auto* PageMngr = PageManager::Instance();
 		auto* WindowMngr = WindowSystem::WindowManager::Instance();
 		auto* DrawParts = DXDraw::Instance();
 		auto* Input = InputControl::Instance();
@@ -31,11 +31,7 @@ namespace FPS_n2 {
 		if (GetIsFirstLoop()) {
 			SetWindowPosition(0, 0);//0,0
 		}
-		auto mouse_moveX = Input->GetMouseX();							//ドラッグ前のマウス座標格納
-		auto mouse_moveY = Input->GetMouseY();
 		Input->Execute();
-		mouse_moveX = Input->GetMouseX() - mouse_moveX;
-		mouse_moveY = Input->GetMouseY() - mouse_moveY;
 		//ドラッグ開始時の処理
 		if (Input->GetMiddleClick().press()) {
 			if (Input->GetMiddleClick().trigger()) {
@@ -44,8 +40,8 @@ namespace FPS_n2 {
 			if (m_WindowMove) {
 				int start_windowX = 0, start_windowY = 0;
 				GetWindowPosition(&start_windowX, &start_windowY);			//ウィンドウの位置を格納
-				start_windowX += mouse_moveX;
-				start_windowY += mouse_moveY;
+				start_windowX += Input->GetMouseMoveX();
+				start_windowY += Input->GetMouseMoveY();
 				SetWindowPosition(start_windowX, start_windowY);			//マウス位置の差を算出し、ウィンドウを動かす
 				Input->SetMouse();
 				HCURSOR hCursor = LoadCursor(NULL, IDC_SIZEALL);
@@ -53,40 +49,14 @@ namespace FPS_n2 {
 			}
 		}
 		//
-		if ((Input->GetWheelAdd() != 0) && !WindowMngr->PosHitCheck(nullptr) && Input->GetScaleActive()) {
-			auto PrevScale = this->m_Scale;
-			this->m_Scale = std::clamp(this->m_Scale + (float)Input->GetWheelAdd() / 10.f, 0.1f, 2.f);
-			auto ScaleChange = (this->m_Scale - PrevScale);
-			if (ScaleChange != 0.f) {
-				this->m_posx -= (int)((float)(Input->GetMouseX() - this->m_posx) * ScaleChange / this->m_Scale);
-				this->m_posy -= (int)((float)(Input->GetMouseY() - this->m_posy) * ScaleChange / this->m_Scale);
-			}
-		}
-		Input->SetScaleActive(true);
-		if ((Input->GetRightClick().press()) && !WindowMngr->PosHitCheck(nullptr)) {
-			this->m_posx += mouse_moveX;
-			this->m_posy += mouse_moveY;
-			HCURSOR hCursor = LoadCursor(NULL, IDC_SIZEALL);
-			SetCursor(hCursor);
-		}
-		//
+		PageMngr->FirstExecute();
 		WindowMngr->Execute();
-		BGs->LateExecute(&this->m_posx, &this->m_posy, &this->m_Scale);
-		//
-		if (BGs->GetNowBG()->IsGoNextBG()) {
-			WindowMngr->DeleteAll();
-			BGs->Dispose();
-			BGs->SetNext((BGs->GetNowBG() == BGs->GetTitleBG()) ? ((std::shared_ptr<TitleBG>&)BGs->GetTitleBG())->GetNextSelect() : BGSelect::Title);
-			BGs->Init(&this->m_posx, &this->m_posy, &this->m_Scale);
-		}
-		//
+		PageMngr->LateExecute();
+		//割り込み出のページ切替
 		if (InterParts->IsActive()) {
-			WindowMngr->DeleteAll();
-			BGs->Dispose();
-			BGs->SetNext(InterParts->GetNextScene());
-			BGs->Init(&this->m_posx, &this->m_posy, &this->m_Scale);
+			PageMngr->ChangePage(InterParts->GetNextScene());
 			if (InterParts->GetNextScene() == BGSelect::Custom) {
-				((std::shared_ptr<CustomBG>&)BGs->GetCustomBG())->SetSubparam(
+				((std::shared_ptr<CustomBG>&)PageMngr->GetPage(BGSelect::Custom))->SetSubparam(
 					InterParts->GetInitParam(0),//アイテム名
 					InterParts->GetInitParam(1)//プリセット名
 				);
@@ -142,7 +112,7 @@ namespace FPS_n2 {
 			DrawControl::Instance()->SetDrawBox(DrawLayer::BackGround, 0, 0, Xwin, Ywin, Gray75, TRUE);
 			if (IsOpen()) {
 				//Back
-				BGs->Draw_Back(this->m_posx, this->m_posy, this->m_Scale);
+				PageMngr->Draw_Back();
 				WindowMngr->Draw();
 			}
 			WindowSystem::SetBox(0, 0, Xwin, LineHeight, GetColor(DieCol, DieCol, DieCol));				//タイトルバック
@@ -157,7 +127,7 @@ namespace FPS_n2 {
 				WindowSystem::SetMsg(0, Ymin + LineHeight * 1 / 10, DrawParts->m_DispXSize, Ymin + LineHeight, LineHeight * 8 / 10, STRX_MID, White, Black, "最終更新:%s", PlayerData::Instance()->GetLastDataReceive().c_str());
 				if (WindowSystem::CloseButton(DrawParts->m_DispXSize - Ymin, 0)) { SetisEnd(true); }
 				//Front
-				BGs->DrawFront(this->m_posx, this->m_posy, this->m_Scale);
+				PageMngr->DrawFront();
 				DrawControl::Instance()->SetDrawCircle(DrawLayer::Front, DrawParts->m_DispXSize, DrawParts->m_DispYSize, y_r(100), TransColor, TRUE);					//中央位置回避のための小円
 			}
 			if (m_DrawLog) {

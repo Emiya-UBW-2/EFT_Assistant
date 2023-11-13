@@ -94,23 +94,19 @@ namespace FPS_n2 {
 					}
 
 					//
-					{
-						int xp = y_r(10);
-						int yp = LineHeight + y_r(20) + LineHeight;
-						BGParent::MakeList<TaskList>(xp, yp, DataBase::Instance()->GetTaskData()->GetList(), "Task", (int*)&m_EditTaskID, true, false, false, [&](const auto* tgt) {
-							if (tgt->GetTrader() != this->m_EditTraderID && this->m_EditTraderID != InvalidID) {
-								return false;
-							}
-							if (!tgt->GetIsUSECorBEAR()) {
-								return false;
-							}
-
-							for (const auto& m : tgt->GetTaskWorkData().GetMap()) {
-								if (m == this->m_MapSelect) { return true; }
-							}
+					DataBase::Instance()->GetTaskData()->DrawList(y_r(10), LineHeight + y_r(20) + LineHeight, y_r(400), "Task", (int*)&m_EditTaskID, true, false, false, [&](const auto* tgt) {
+						if (tgt->GetTrader() != this->m_EditTraderID && this->m_EditTraderID != InvalidID) {
 							return false;
-						});
-					}
+						}
+						if (!tgt->GetIsUSECorBEAR()) {
+							return false;
+						}
+
+						for (const auto& m : tgt->GetTaskWorkData().GetMap()) {
+							if (m == this->m_MapSelect) { return true; }
+						}
+						return false;
+					});
 
 					if (TaskPtr) {
 						auto& Pins = TaskPtr->SetTaskWorkData().SetPin();
@@ -164,17 +160,9 @@ namespace FPS_n2 {
 	}
 	void MapBG::DrawFront_Sub(int posx, int posy, float Scale) noexcept {
 		//
-		{
-			int xp = y_r(1920 - 400 - 10);
-			int yp = LineHeight + y_r(10);
-			BGParent::MakeList<MapList>(xp, yp, DataBase::Instance()->GetMapData()->GetList(), "Map", (int*)&m_SelectBuffer, true, false, false, [&](const auto *) { return true; });
-		}
+		DataBase::Instance()->GetMapData()->DrawList(y_r(1920 - 400 - 10), LineHeight + y_r(10), y_r(400), "Map", (int*)&m_SelectBuffer, true, false, false);
 		//
-		{
-			int xp = y_r(1920 - 400 - 10);
-			int yp = LineHeight + y_r(540);
-			BGParent::MakeList<TraderList>(xp, yp, DataBase::Instance()->GetTraderData()->GetList(), "Task Trader Filter", (int*)&m_EditTraderID, true, false, false, [&](const auto*) { return true; });
-		}
+		DataBase::Instance()->GetTraderData()->DrawList(y_r(1920 - 400 - 10), LineHeight + y_r(540), y_r(400), "Task Trader Filter", (int*)&m_EditTraderID, true, false, false);
 		//
 		if (m_MapSelect != InvalidID) {
 			int xp = y_r(1920 - 400 - 10 - 500);
@@ -246,14 +234,6 @@ namespace FPS_n2 {
 						"%dÅ`%dm", LenPer * (Len2 / LenPer), LenPer * (Len2 / LenPer + 1)
 					);
 				}
-			}
-		}
-		//
-		{
-			int xp = y_r(10);
-			int yp = LineHeight + y_r(10);
-			if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(200), yp + LineHeight, false, true, Gray25, "ñﬂÇÈ")) {
-				TurnOnGoNextBG();
 			}
 		}
 	}

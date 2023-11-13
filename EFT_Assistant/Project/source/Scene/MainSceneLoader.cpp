@@ -1,6 +1,6 @@
 #include "MainSceneLoader.hpp"
 #include "MainScene/Data/MainScene_Base.hpp"
-#include "MainScene/Page/MainScene_PageBase.hpp"
+#include "MainScene/Page/MainScene_PageManager.hpp"
 #include "../PartsHeader.hpp"
 
 namespace FPS_n2 {
@@ -34,9 +34,8 @@ namespace FPS_n2 {
 		int commonEdge = y_r(5);
 		int XMinGauge = XMin + commonEdge + commonEdge;
 		int XMaxGauge = XMax - commonEdge - commonEdge;
-		float Per = (float)(DataBase::Instance()->GetSetCount()) / (float)(DataBase::Instance()->GetMaxCount());
 		DrawBox(XMin + commonEdge, YPosMin + YSize1 + commonEdge, XMax - commonEdge, YPosMax - commonEdge, Gray25, TRUE);
 		DrawBox(XMinGauge, YPosMin + YSize1 + commonEdge + commonEdge, XMaxGauge, YPosMax - commonEdge - commonEdge, Gray50, TRUE);
-		DrawBox(XMinGauge, YPosMin + YSize1 + commonEdge + commonEdge, XMinGauge + (int)((float)(XMaxGauge - XMinGauge)*Per), YPosMax - commonEdge - commonEdge, Green, TRUE);
+		DrawBox(XMinGauge, YPosMin + YSize1 + commonEdge + commonEdge, XMinGauge + (int)((float)(XMaxGauge - XMinGauge)*DataBase::Instance()->GetSetPer()), YPosMax - commonEdge - commonEdge, Green, TRUE);
 	}
 };

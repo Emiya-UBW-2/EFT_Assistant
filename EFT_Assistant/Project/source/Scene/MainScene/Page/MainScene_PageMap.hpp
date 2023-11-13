@@ -1,7 +1,7 @@
 #pragma once
 #include "../../../Header.hpp"
 #include "../Data/MainScene_Common.hpp"
-#include "../Page/MainScene_PageBase.hpp"
+#include "../Page/MainScene_PageManager.hpp"
 #include "../Data/MainScene_Parents.hpp"
 
 
@@ -19,7 +19,7 @@ namespace FPS_n2 {
 		"Else",
 	};
 
-	class MapBG :public BGParent {
+	class MapBG :public PageParent {
 	private:
 		MapID		m_SelectBuffer{ InvalidID };
 		MapID		m_MapSelect{ InvalidID };

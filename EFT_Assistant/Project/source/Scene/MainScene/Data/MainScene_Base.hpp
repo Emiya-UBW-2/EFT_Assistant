@@ -1,8 +1,8 @@
 #pragma once
 #include "../../../Header.hpp"
-//*
 #include "MainScene_Parents.hpp"
 #include "MainScene_Common.hpp"
+//*
 #include "MainScene_Map.hpp"
 #include "MainScene_ItemCategory.hpp"
 #include "MainScene_ItemType.hpp"
@@ -28,15 +28,12 @@ namespace FPS_n2 {
 		std::unique_ptr<TaskData>			m_TaskData;
 		std::unique_ptr<HideoutData>		m_HideoutData;
 
-		const int							m_MaxCount{ 9 };
 		int									m_SetCount{ 0 };
 	private:
 		DataBase() noexcept;
 		~DataBase() noexcept {}
 	public:
-		const auto		GetMaxCount(void) noexcept { return m_MaxCount; }
-		const auto		GetSetCount(void) noexcept { return m_SetCount; }
-
+		const auto		GetSetPer(void) noexcept { return (float)m_SetCount / (float)9; }
 		const bool		SetDataList(void) noexcept;
 		void			LoadList(bool IsPushLog) noexcept;
 		void			WhenAfterLoadListCommon(void) noexcept;
@@ -52,22 +49,11 @@ namespace FPS_n2 {
 		auto& GetTaskData(void) noexcept { return this->m_TaskData; }
 		auto& GetHideoutData(void) noexcept { return this->m_HideoutData; }
 	public:
-		const bool DataUpdate(EnumDataType EnumDataType_t, int XPos, int YPos, int Xsize, int Ysize, bool IsActive, unsigned int Color, const char* mes,
-			const char* queryPath,
-			const char* OutputPath,
-			const char* dataJsonName,
-			int ofsetValue = 20,
-			bool fastDo = false
-		) noexcept;
+		const void DataUpdate(EnumDataType EnumDataType_t, const char* queryPath, const char* OutputPath, const char* dataJsonName, int ofsetValue = 20) noexcept;
 	private:
 		std::vector<std::pair<ItemID, std::vector<std::string>>>	m_WikiTex;
 	public:
-		const bool WikiDataUpdate(EnumWikiDataType EnumWikiDataType_t, int XPos, int YPos, int Xsize, int Ysize, bool IsActive, unsigned int Color, const char* mes,
-			const char* InputFilePath,
-			const char* InputPath,
-			const char* OutputPath,
-			bool fastDo = false
-		) noexcept;
+		const void WikiDataUpdate(EnumWikiDataType EnumWikiDataType_t, const char* InputFilePath, const char* InputPath, const char* OutputPath) noexcept;
 	};
 
 };

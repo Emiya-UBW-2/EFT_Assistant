@@ -1,7 +1,7 @@
 #pragma once
 #include "../../../Header.hpp"
 #include "../Data/MainScene_Common.hpp"
-#include "../Page/MainScene_PageBase.hpp"
+#include "../Page/MainScene_PageManager.hpp"
 
 namespace FPS_n2 {
 	//
@@ -50,7 +50,7 @@ namespace FPS_n2 {
 		void OutputDataSub(std::ofstream& outputfile) noexcept override;
 	};
 	//
-	class HideoutData : public DataParent<HideoutID, HideoutList>, public JsonListParent<HideoutJsonData> {
+	class HideoutData : public DataParent<HideoutList>, public JsonListParent<HideoutJsonData> {
 	public:
 		HideoutData() noexcept {
 			std::string Path = "data/Hideout/";

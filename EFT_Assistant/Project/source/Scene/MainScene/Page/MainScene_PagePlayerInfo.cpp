@@ -55,6 +55,15 @@ namespace FPS_n2 {
 			WindowSystem::SetMsg(xp, ypos, xp, ypos + y_r(48), y_r(48), STRX_RIGHT, White, Black, "%d", PlayerData::Instance()->GetMaxLevel());
 			ypos += y_r(48);
 		}
+		//フリマ開放したか
+		{
+			auto tmp = PlayerData::Instance()->GetIsOpenFreaMarket();
+			int xp = xpos + y_r(24);
+			WindowSystem::CheckBox(xp, ypos, &tmp);
+			WindowSystem::SetMsg(xp + y_r(210), ypos, xp + y_r(210), ypos + y_r(48), LineHeight, STRX_LEFT, White, Black, "フリーマーケットを開放しているか");
+			PlayerData::Instance()->SetIsOpenFreaMarket(tmp);
+			ypos += y_r(48);
+		}
 		//プレイヤーデータ---------------------------
 		{
 			WindowSystem::SetMsg(xpos, ypos, xpos, ypos + LineHeight, LineHeight, STRX_LEFT, White, Black, "プレイヤーデータ");
@@ -112,13 +121,5 @@ namespace FPS_n2 {
 			ypos += LineHeight + y_r(15);
 		}
 		//-------------------------------------------
-		//戻る
-		{
-			int xp = y_r(10);
-			int yp = LineHeight + y_r(10);
-			if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(200), yp + LineHeight, false, true, Gray25, "戻る")) {
-				TurnOnGoNextBG();
-			}
-		}
 	}
 };

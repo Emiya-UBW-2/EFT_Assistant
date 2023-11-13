@@ -130,7 +130,7 @@ namespace FPS_n2 {
 		}
 	}
 	//
-	const int	TaskList::Draw(int xp, int yp, int xsize, int ysize, int count, bool Clickactive) const noexcept {
+	const int	TaskList::Draw(int xp, int yp, int xsize, int ysize, int count, bool Clickactive) noexcept {
 		auto* WindowMngr = WindowSystem::WindowManager::Instance();
 		auto* Input = InputControl::Instance();
 
@@ -211,7 +211,7 @@ namespace FPS_n2 {
 
 		return xsize;
 	}
-	void		TaskList::DrawWindow(WindowSystem::WindowControl* window, int xp, int yp, int *xs, int* ys) const noexcept {
+	void		TaskList::DrawWindow(WindowSystem::WindowControl* window, int xp, int yp, int *xs, int* ys) noexcept {
 		auto* WindowMngr = WindowSystem::WindowManager::Instance();
 		auto* InterParts = InterruptParts::Instance();
 		int xofs = 0;
@@ -227,13 +227,52 @@ namespace FPS_n2 {
 		}
 		if (m_TaskNeedData.GetItem().size() > 0) {
 			xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "必要アイテム:")); yofs += sizy;
-			yofs += LineHeight;
-			for (const auto& LL : this->m_TaskNeedData.GetItem()) {
-				auto ID = LL.GetID();
-				auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(ID);
-				int total_size = y_r(48);
-				xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetValue(), Gray10, !WindowMngr->PosHitCheck(window), false, true, false) + y_r(30));
-				yofs += total_size;
+			{
+				int Max = (int)this->m_TaskNeedData.GetItem().size();
+				if (Max > 0) {
+					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STRX_LEFT, White, Black, "ChildrenMods:") + y_r(30)); yofs += LineHeight + y_r(5);
+
+					int ysize = y_r(36);
+					int ysizeAdd = ysize + y_r(5);
+
+					int ofset = (int)(this->m_Scroll.at(0).GetNowScrollYPer()*(std::max(0, Max - 4 + 1)*ysizeAdd));
+					int yofs_t = yofs;
+					yofs_t += LineHeight + y_r(5);
+					int ypMin = yp + yofs_t;
+					int ypMax = yp + yofs_t + ysizeAdd * 4;
+					int yp1 = yp + yofs_t - ofset;
+
+					for (const auto& LL : this->m_TaskNeedData.GetItem()) {
+						if (ypMin - ysizeAdd < yp1 && yp1 < ypMax) {
+							if (ypMin < yp1 && yp1 < ypMax - ysizeAdd) {
+								DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255);
+							}
+							else {
+								if (yp1 <= ypMin) {
+									DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255 - std::clamp(255 * (ypMin - yp1) / ysizeAdd, 0, 255));
+								}
+								else {
+									DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255 - std::clamp(255 * (yp1 - (ypMax - ysizeAdd)) / ysizeAdd, 0, 255));
+								}
+							}
+							auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(LL.GetID());
+							xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp1, y_r(800), ysize, LL.GetValue(), Gray10, !WindowMngr->PosHitCheck(window), false, true, false) + y_r(30));
+						}
+						yofs_t += ysizeAdd;
+						yp1 += ysizeAdd;
+					}
+
+					DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255);
+					//スクロールバー
+					{
+						float Total = (float)(yofs_t - yofs) / (ypMax - ypMin);
+						if (Total > 1.f) {
+							this->m_Scroll.at(0).ScrollBox(xp + y_r(30), ypMin, xp + y_r(30) + y_r(800) + y_r(30), ypMax, Total, !WindowMngr->PosHitCheck(window));
+						}
+						xofs += y_r(30) + y_r(30);
+					}
+					yofs = ypMax - yp;
+				}
 			}
 		}
 		//タスク内容

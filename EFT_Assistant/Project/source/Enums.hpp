@@ -13,6 +13,7 @@ namespace FPS_n2 {
 		Trader,
 		ItemList,
 		PlayerInfo,
+		Max,
 	};
 	//
 	enum class EnumDataType {

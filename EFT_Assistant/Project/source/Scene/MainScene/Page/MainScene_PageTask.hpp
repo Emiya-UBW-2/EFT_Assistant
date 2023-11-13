@@ -1,7 +1,7 @@
 #pragma once
 #include "../../../Header.hpp"
 #include "../Data/MainScene_Common.hpp"
-#include "../Page/MainScene_PageBase.hpp"
+#include "../Page/MainScene_PageManager.hpp"
 
 namespace FPS_n2 {
 	enum class EnumTaskDrawMode {
@@ -20,7 +20,7 @@ namespace FPS_n2 {
 	};
 
 
-	class TaskBG :public BGParent {
+	class TaskBG :public PageParent {
 	private:
 		int															m_posxMaxBuffer{ 0 };
 		int															m_posyMaxBuffer{ 0 };

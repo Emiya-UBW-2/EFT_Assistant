@@ -471,14 +471,9 @@ namespace FPS_n2 {
 		m_SelectPreset = PresetID;
 		m_BaseWeapon = DataBase::Instance()->GetItemData()->FindPtr(m_SelectBuffer);
 		if (m_BaseWeapon) {
-			m_ItemIDs.at(0).first = this->m_BaseWeapon->GetTypeID();
-			m_ItemIDs.at(0).second = true;
-
-			m_ItemIDs.at(1).first = this->m_SelectBuffer;
-			m_ItemIDs.at(1).second = true;
-
-			m_ItemIDs.at(2).first = this->m_SelectPreset;
-			m_ItemIDs.at(2).second = true;
+			SetList(0, this->m_BaseWeapon->GetTypeID());
+			SetList(1, this->m_SelectBuffer);
+			SetList(2, this->m_SelectPreset);
 		}
 	}
 
@@ -499,6 +494,12 @@ namespace FPS_n2 {
 		m_ChildData.clear();
 
 		InitLists(3, y_r(1920 - 10) - y_r(400), LineHeight + y_r(5), y_r(400));
+		m_ReturnButtonPress = [&]() {
+			auto* PageMngr = PageManager::Instance();
+			if (!BackLists()) {
+				PageMngr->TurnOnGoNextPage();
+			}
+		};
 	}
 	void CustomBG::LateExecute_Sub(int*, int*, float*) noexcept {
 		if (m_BaseWeapon) {
@@ -589,15 +590,15 @@ namespace FPS_n2 {
 			bool isChild = false;
 			isChild |= MakeLists(0, true, [&](std::pair<int, bool>* IDs, bool IsChild) {
 				if (IsChild) { xgoal -= xs_add; }
-				BGParent::MakeList<ItemTypeList>(m_ListXPos + xgoal, m_ListYPos, DataBase::Instance()->GetItemTypeData()->GetList(), "ItemType", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (ptr->GetCategoryID() == DataBase::Instance()->GetItemCategoryData()->FindID("Weapons")); });
+				PageParent::DrawLists<ItemTypeList>(xgoal, DataBase::Instance()->GetItemTypeData().get(), "ItemType", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (ptr->GetCategoryID() == DataBase::Instance()->GetItemCategoryData()->FindID("Weapons")); });
 			});
 			isChild |= MakeLists(1, true, [&](std::pair<int, bool>* IDs, bool IsChild) {
 				if (IsChild) { xgoal -= xs_add; }
-				BGParent::MakeList<ItemList>(m_ListXPos + xgoal, m_ListYPos, DataBase::Instance()->GetItemData()->GetList(), "Item", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (!ptr->GetIsPreset()) && (ptr->GetTypeID() == ListsSel(1 - 1)); });
+				PageParent::DrawLists<ItemList>(xgoal, DataBase::Instance()->GetItemData().get(), "Item", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (!ptr->GetIsPreset()) && (ptr->GetTypeID() == ListsSel(1 - 1)); });
 			});
 			isChild |= MakeLists(2, false, [&](std::pair<int, bool>* IDs, bool IsChild) {
 				if (IsChild) { xgoal -= xs_add; }
-				BGParent::MakeList<PresetList>(m_ListXPos + xgoal, m_ListYPos, DataBase::Instance()->GetPresetData()->GetList(), "Preset", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (ptr->GetBase()->GetID() == ListsSel(2 - 1)); });
+				PageParent::DrawLists<PresetList>(xgoal, DataBase::Instance()->GetPresetData().get(), "Preset", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (ptr->GetBase()->GetID() == ListsSel(2 - 1)); });
 			});
 			if ((ListsSel(1) != InvalidID) && (ListsSel(2) != InvalidID)) {
 				xgoal -= xs_add * 3;
@@ -623,16 +624,6 @@ namespace FPS_n2 {
 	}
 	void CustomBG::DrawFront_Sub(int posx, int posy, float) noexcept {
 		auto* DrawParts = DXDraw::Instance();
-		//
-		{
-			int xp = y_r(10);
-			int yp = LineHeight + y_r(10);
-			if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(200), yp + LineHeight, false, true, Gray25, "–ß‚é")) {
-				if (!BackLists()) {
-					TurnOnGoNextBG();
-				}
-			}
-		}
 		//‰º‚©‚çã‚É
 		if (m_BaseWeapon) {
 			bool PrevSight = this->m_EnableSight;
@@ -820,7 +811,6 @@ namespace FPS_n2 {
 				DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xp, yp, xp + xs, yp + ys, Red, FALSE);
 			}
 		}
-		//
 	}
 	void CustomBG::Dispose_Sub(void) noexcept {
 		m_ChildData.clear();

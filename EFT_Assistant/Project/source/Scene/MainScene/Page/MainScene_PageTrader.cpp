@@ -5,6 +5,15 @@
 namespace FPS_n2 {
 	void TraderBG::Init_Sub(int *, int *, float*) noexcept {
 		m_EditTraderID = InvalidID;
+		m_ReturnButtonPress = [&]() {
+			auto* PageMngr = PageManager::Instance();
+			if (m_EditTraderID != InvalidID) {
+				m_EditTraderID = InvalidID;
+			}
+			else {
+				PageMngr->TurnOnGoNextPage();
+			}
+		};
 	}
 	void TraderBG::Draw_Back_Sub(int, int, float) noexcept {
 		auto* WindowMngr = WindowSystem::WindowManager::Instance();
@@ -66,24 +75,6 @@ namespace FPS_n2 {
 		}
 	}
 	void TraderBG::DrawFront_Sub(int, int, float) noexcept {
-		//
-		{
-			int xp = y_r(1920 - 400 - 10);
-			int yp = LineHeight + y_r(50);
-			BGParent::MakeList<TraderList>(xp, yp, DataBase::Instance()->GetTraderData()->GetList(), "Trader", (int*)&m_EditTraderID, true, false, false, [&](const auto*) { return true; });
-		}
-		//
-		{
-			int xp = y_r(10);
-			int yp = LineHeight + y_r(10);
-			if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(200), yp + LineHeight, false, true, Gray25, "–ß‚é")) {
-				if (m_EditTraderID != InvalidID) {
-					m_EditTraderID = InvalidID;
-				}
-				else {
-					TurnOnGoNextBG();
-				}
-			}
-		}
+		DataBase::Instance()->GetTraderData()->DrawList(y_r(1920 - 400 - 10), LineHeight + y_r(50), y_r(400), "Trader", (int*)&m_EditTraderID, true, false, false);
 	}
 };

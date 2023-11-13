@@ -1,25 +1,27 @@
 #pragma once
 #include "../../../Header.hpp"
 #include "../Data/MainScene_Common.hpp"
-#include "../Page/MainScene_PageBase.hpp"
+#include "../Page/MainScene_PageManager.hpp"
 #include "../../../PartsHeader.hpp"
 
 namespace FPS_n2 {
-	class TitleBG :public BGParent {
+	class TitleBG :public PageParent {
 	private:
 		BGSelect	m_Select{ (BGSelect)0 };
-		std::string	strResult;
-		std::string	InfoStr;
-		int			ttt{ -1 };
+		std::string	m_strResult;
+		std::string	m_InfoStr;
+		int			m_CoolTimeCount{ -1 };
 	private:
+		const auto CanUpdateData() { return m_CoolTimeCount == -1; }
 		void DrawOnce(int xpos1, int ypos1, int xpos2, int ypos2, const char* Name, const char* Info, BGSelect SelWindow) noexcept {
+			auto* PageMngr = PageManager::Instance();
 			auto* Input = InputControl::Instance();
 			if (in2_(Input->GetMouseX(), Input->GetMouseY(), xpos1, ypos1, xpos2, ypos2)) {
-				InfoStr = Info;
+				m_InfoStr = Info;
 			}
 			if (WindowSystem::ClickCheckBox(xpos1, ypos1, xpos2, ypos2, false, true, Gray25, Name)) {
 				m_Select = SelWindow;
-				TurnOnGoNextBG();
+				PageMngr->TurnOnGoNextPage();
 			}
 		}
 	private:

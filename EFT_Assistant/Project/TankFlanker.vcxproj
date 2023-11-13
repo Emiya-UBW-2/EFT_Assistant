@@ -36,7 +36,7 @@
     <ClInclude Include="source\Scene\MainScene\Data\MainScene_Preset.hpp" />
     <ClInclude Include="source\Scene\MainScene\Data\MainScene_Task.hpp" />
     <ClInclude Include="source\Scene\MainScene\Data\MainScene_Trader.hpp" />
-    <ClInclude Include="source\Scene\MainScene\Page\MainScene_PageBase.hpp" />
+    <ClInclude Include="source\Scene\MainScene\Page\MainScene_PageManager.hpp" />
     <ClInclude Include="source\Scene\MainScene\Page\MainScene_PageCustom.hpp" />
     <ClInclude Include="source\Scene\MainScene\Page\MainScene_PageHideout.hpp" />
     <ClInclude Include="source\Scene\MainScene\Page\MainScene_PageItem.hpp" />
@@ -70,7 +70,7 @@
     <ClCompile Include="source\Scene\MainScene\Data\MainScene_Preset.cpp" />
     <ClCompile Include="source\Scene\MainScene\Data\MainScene_Task.cpp" />
     <ClCompile Include="source\Scene\MainScene\Data\MainScene_Trader.cpp" />
-    <ClCompile Include="source\Scene\MainScene\Page\MainScene_PageBase.cpp" />
+    <ClCompile Include="source\Scene\MainScene\Page\MainScene_PageManager.cpp" />
     <ClCompile Include="source\Scene\MainScene\Page\MainScene_PageCustom.cpp" />
     <ClCompile Include="source\Scene\MainScene\Page\MainScene_PageHideout.cpp" />
     <ClCompile Include="source\Scene\MainScene\Page\MainScene_PageItem.cpp" />

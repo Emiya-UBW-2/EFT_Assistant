@@ -13,6 +13,15 @@ namespace FPS_n2 {
 			}
 		}
 		m_Mode = EnumHideoutDrawMode::Normal;
+		m_ReturnButtonPress = [&]() {
+			auto* PageMngr = PageManager::Instance();
+			if (m_Mode != EnumHideoutDrawMode::Normal) {
+				m_Mode = EnumHideoutDrawMode::Normal;
+			}
+			else {
+				PageMngr->TurnOnGoNextPage();
+			}
+		};
 	}
 	void HideOutBG::LateExecute_Sub(int* xpos, int*ypos, float*) noexcept {
 		switch (m_Mode) {
@@ -199,19 +208,6 @@ namespace FPS_n2 {
 	}
 	void HideOutBG::DrawFront_Sub(int, int, float) noexcept {
 		auto* Input = InputControl::Instance();
-		//
-		{
-			int xp = y_r(10);
-			int yp = LineHeight + y_r(10);
-			if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(200), yp + LineHeight, false, true, Gray25, "–ß‚é")) {
-				if (m_Mode != EnumHideoutDrawMode::Normal) {
-					m_Mode = EnumHideoutDrawMode::Normal;
-				}
-				else {
-					TurnOnGoNextBG();
-				}
-			}
-		}
 		//
 		{
 			int xp = y_r(10) + y_r(200) + y_r(10);

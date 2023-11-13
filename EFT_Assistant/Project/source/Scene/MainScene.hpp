@@ -4,14 +4,8 @@
 namespace FPS_n2 {
 	class MAINLOOP : public TEMPSCENE {
 	private:
-		int															m_posx{ 0 };
-		int															m_posy{ 0 };
-		float														m_Scale{ 0.6f };
-		//
 		float														m_NoneActiveTimes{ 0.f };
-
 		bool														m_IsPull{ false };
-
 		bool														m_IsPullRight{ false };
 		bool														m_IsPullDown{ false };
 		float														m_PullRight{ 1.f };

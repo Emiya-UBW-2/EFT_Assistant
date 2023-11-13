@@ -1,7 +1,7 @@
 #pragma once
 #include "../../../Header.hpp"
 #include "../Data/MainScene_Common.hpp"
-#include "../Page/MainScene_PageBase.hpp"
+#include "../Page/MainScene_PageManager.hpp"
 
 namespace FPS_n2 {
 	class ItemList : public ListParent<ItemID> {
@@ -1038,9 +1038,16 @@ namespace FPS_n2 {
 			*ID = InvalidID;
 			*pValue = -1;
 			for (const auto& sf : GetsellFor()) {
-				auto basev = sf.GetValue();
+				int basev = 0;
 				if (sf.GetID() == InvalidID) {
+					if (!PlayerData::Instance()->GetIsOpenFreaMarket()) {
+						continue;
+					}
+					basev = sf.GetValue();
 					basev -= GetfleaMarketFee();
+				}
+				else {
+					basev = sf.GetValue();
 				}
 				if (*pValue < basev) {
 					*pValue = basev;
@@ -1069,7 +1076,7 @@ namespace FPS_n2 {
 		void OutputDataSub(std::ofstream& outputfile) noexcept override;
 	};
 
-	class ItemData : public DataParent<ItemID, ItemList>, public JsonListParent<ItemJsonData> {
+	class ItemData : public DataParent<ItemList>, public JsonListParent<ItemJsonData> {
 	public:
 		ItemData() noexcept {
 			std::string Path = "data/item/";

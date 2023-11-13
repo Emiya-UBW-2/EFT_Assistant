@@ -1,7 +1,7 @@
 #pragma once
 #include "../../../Header.hpp"
 #include "../Data/MainScene_Common.hpp"
-#include "../Page/MainScene_PageBase.hpp"
+#include "../Page/MainScene_PageManager.hpp"
 
 namespace FPS_n2 {
 	enum class EnumHideoutDrawMode {
@@ -9,7 +9,7 @@ namespace FPS_n2 {
 		Item,
 	};
 
-	class HideOutBG :public BGParent {
+	class HideOutBG :public PageParent {
 	private:
 		struct DrewData {
 			bool IsDrew{ false };

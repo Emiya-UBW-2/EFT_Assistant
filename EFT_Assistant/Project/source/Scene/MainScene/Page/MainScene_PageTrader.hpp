@@ -1,11 +1,11 @@
 #pragma once
 #include "../../../Header.hpp"
 #include "../Data/MainScene_Common.hpp"
-#include "../Page/MainScene_PageBase.hpp"
+#include "../Page/MainScene_PageManager.hpp"
 
 
 namespace FPS_n2 {
-	class TraderBG :public BGParent {
+	class TraderBG :public PageParent {
 	private:
 		TraderID	m_EditTraderID{ InvalidID };
 		int			m_LLSelect{ 0 };

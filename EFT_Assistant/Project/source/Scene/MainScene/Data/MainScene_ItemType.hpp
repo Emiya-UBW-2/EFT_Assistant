@@ -1,7 +1,7 @@
 #pragma once
 #include "../../../Header.hpp"
 #include "../Data/MainScene_Common.hpp"
-#include "../Page/MainScene_PageBase.hpp"
+#include "../Page/MainScene_PageManager.hpp"
 
 namespace FPS_n2 {
 	class ItemTypeList : public ListParent<ItemTypeID> {
@@ -18,7 +18,7 @@ namespace FPS_n2 {
 	public:
 		const auto&	GetCategoryID() const noexcept { return this->m_CategoryID; }
 	};
-	class ItemTypeData : public DataParent<ItemTypeID, ItemTypeList> {
+	class ItemTypeData : public DataParent<ItemTypeList> {
 	public:
 		ItemTypeData() noexcept {
 			std::string Path = "data/itemtype/";

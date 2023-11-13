@@ -3,7 +3,7 @@
 
 namespace FPS_n2 {
 	void TitleBG::Draw_Back_Sub(int, int, float) noexcept {
-		InfoStr = "";
+		m_InfoStr = "";
 
 		int xpos = y_r(960);
 		int ypos = y_r(440);
@@ -34,164 +34,45 @@ namespace FPS_n2 {
 
 		xpos = y_r(960);
 		ypos = y_r(1080) - LineHeight;
-		WindowSystem::SetMsg(xpos, ypos, xpos, ypos, LineHeight, STRX_MID, White, Black, InfoStr);
+		WindowSystem::SetMsg(xpos, ypos, xpos, ypos, LineHeight, STRX_MID, White, Black, m_InfoStr);
 	}
 	void TitleBG::DrawFront_Sub(int, int, float) noexcept {
 		int Xsize = y_r(400);
 		int Ysize = LineHeight;
 		int XPos = y_r(1920) - Xsize - y_r(10);
 		int YPos = LineHeight + y_r(10);
-
-		auto NowTime = (GetNowCount() - ttt);
-		auto TotalTime = 1000 * 60 * 5;
-
-		if (ttt != -1) {
-			if (NowTime > TotalTime) {
-				ttt = -1;
-			}
-		}
-		auto TimeCard = [&]() {
-			time_t t = time(NULL);				// 現在日時を取得する
-			tm local;							// 日時情報を格納する変数を用意する
-			localtime_s(&local, &t);			// ローカル日時を変数に格納する
-			char buffer[256];
-			strftime(buffer, sizeof(buffer), "%Y %m/%d %H:%M", &local);
-			PlayerData::Instance()->SetLastDataReceive(buffer);
-			ttt = GetNowCount();
-		};
+		//
 		WindowSystem::SetMsg(XPos, YPos, XPos + Xsize, YPos + Ysize, Ysize, STRX_MID, White, Black, "データをAPIから更新");
 		YPos += Ysize + y_r(5);
-
-		auto Color = (ttt == -1) ? Gray25 : Gray50;
-		if (DataBase::Instance()->DataUpdate(
-			EnumDataType::ITEMDATA,
-			XPos, YPos, Xsize, Ysize, (ttt == -1), Color, "アイテム更新",
-			"data/query/barter_query.txt",
-			"data/item/Maked/Maked/",
-			"items"
-		)) {
-
-			if (DataBase::Instance()->DataUpdate(
-				EnumDataType::ITEMDATAJP,
-				XPos, YPos, Xsize, Ysize, (ttt == -1), Color, "アイテム日本語更新",
-				"data/query/barter_ja_query.txt",
-				"data/item/Maked/Maked/",
-				"items",
-				20, true
-			)) {
-			}
-
-			TimeCard();
-		}
-		YPos += Ysize + y_r(5);
-
-		if (DataBase::Instance()->DataUpdate(
-			EnumDataType::TASKDATA,
-			XPos, YPos, Xsize, Ysize, (ttt == -1), Color, "タスク更新",
-			"data/query/task_query.txt",
-			"data/task/Maked/",
-			"tasks"
-		)) {
-			TimeCard();
-		}
-		YPos += Ysize + y_r(5);
-
-		if (DataBase::Instance()->DataUpdate(
-			EnumDataType::HIDEOUTDATA,
-			XPos, YPos, Xsize, Ysize, (ttt == -1), Color, "ハイドアウト更新",
-			"data/query/hideout_query.txt",
-			"data/Hideout/Maked/Maked",
-			"hideoutStations"
-		)) {
-			TimeCard();
-		}
-		YPos += Ysize + y_r(5);
-
-		if (DataBase::Instance()->DataUpdate(
-			EnumDataType::TRADERDATA,
-			XPos, YPos, Xsize, Ysize, (ttt == -1), Color, "トレーダー更新",
-			"data/query/trader_query.txt",
-			"data/trader/Maked",
-			"traders",
-			1
-		)) {
-			TimeCard();
-		}
-		YPos += Ysize + y_r(5);
-		if (WindowSystem::ClickCheckBox(XPos, YPos, XPos + Xsize, YPos + Ysize, false, (ttt == -1), Color, "全て更新")) {
-			if (DataBase::Instance()->DataUpdate(
-				EnumDataType::ITEMDATA,
-				XPos, YPos, Xsize, Ysize, (ttt == -1), Color, "アイテム更新",
-				"data/query/barter_query.txt",
-				"data/item/Maked/Maked/",
-				"items",
-				20, true
-			)) {
-			}
-			if (DataBase::Instance()->DataUpdate(
-				EnumDataType::ITEMDATAJP,
-				XPos, YPos, Xsize, Ysize, (ttt == -1), Color, "アイテム日本語更新",
-				"data/query/barter_ja_query.txt",
-				"data/item/Maked/Maked/",
-				"items",
-				20, true
-			)) {
-			}
-			if (DataBase::Instance()->DataUpdate(
-				EnumDataType::TASKDATA,
-				XPos, YPos, Xsize, Ysize, (ttt == -1), Color, "タスク更新",
-				"data/query/task_query.txt",
-				"data/task/Maked/",
-				"tasks",
-				20, true
-			)) {
-			}
-			if (DataBase::Instance()->DataUpdate(
-				EnumDataType::HIDEOUTDATA,
-				XPos, YPos, Xsize, Ysize, (ttt == -1), Color, "ハイドアウト更新",
-				"data/query/hideout_query.txt",
-				"data/Hideout/Maked/Maked",
-				"hideoutStations",
-				20, true
-			)) {
-			}
-			if (DataBase::Instance()->DataUpdate(
-				EnumDataType::TRADERDATA,
-				XPos, YPos, Xsize, Ysize, (ttt == -1), Color, "トレーダー更新",
-				"data/query/trader_query.txt",
-				"data/trader/Maked",
-				"traders",
-				1, true
-			)) {
-			}
-			TimeCard();
-		}
-		YPos += Ysize + y_r(5);
-		if (!(ttt == -1)) {
-			WindowSystem::SetMsg(XPos, YPos, XPos + Xsize, YPos + Ysize, Ysize, STRX_MID, White, Black, "更新可能まで %2d:%02d", (TotalTime - NowTime) / 1000 / 60, ((TotalTime - NowTime) / 1000) % 60);
-		}
 		//
-		Xsize = y_r(500);
-		XPos = y_r(1920) - Xsize - y_r(10);
-		YPos = y_r(340);
+		if (WindowSystem::ClickCheckBox(XPos, YPos, XPos + Xsize, YPos + Ysize, false, CanUpdateData(), CanUpdateData() ? Gray25 : Gray50, "ゲーム内情報更新")) {
+			DataBase::Instance()->DataUpdate(EnumDataType::ITEMDATA, "data/query/barter_query.txt", "data/item/Maked/Maked/", "items", 60);
+			DataBase::Instance()->DataUpdate(EnumDataType::ITEMDATAJP, "data/query/barter_ja_query.txt", "data/item/Maked/Maked/", "items", 120);
+			DataBase::Instance()->DataUpdate(EnumDataType::TASKDATA, "data/query/task_query.txt", "data/task/Maked/", "tasks", 60);
+			DataBase::Instance()->DataUpdate(EnumDataType::HIDEOUTDATA, "data/query/hideout_query.txt", "data/Hideout/Maked/Maked", "hideoutStations", 40);
+			DataBase::Instance()->DataUpdate(EnumDataType::TRADERDATA, "data/query/trader_query.txt", "data/trader/Maked", "traders", 1);
+			PlayerData::Instance()->SetLastDataReceive();
+			m_CoolTimeCount = GetNowCount();
+		}
+		YPos += Ysize + y_r(5);
+		//
+		if (!CanUpdateData()) {
+			auto LastTimeSec = 60 * 5 - (GetNowCount() - m_CoolTimeCount) / 1000;
+			if (LastTimeSec < 0) {
+				m_CoolTimeCount = -1;
+			}
+			WindowSystem::SetMsg(XPos, YPos, XPos + Xsize, YPos + Ysize, Ysize, STRX_MID, White, Black, "更新可能まで %2d:%02d", LastTimeSec / 60, LastTimeSec % 60);
+		}
+		YPos += Ysize + y_r(5);
+		//
+		YPos += Ysize + y_r(5);
+		//
 		WindowSystem::SetMsg(XPos, YPos, XPos + Xsize, YPos + Ysize, Ysize, STRX_MID, White, Black, "Wikiページ生成");
 		YPos += Ysize + y_r(5);
-		if (DataBase::Instance()->WikiDataUpdate(
-			EnumWikiDataType::ITEMDATA_KEY_WIKI_HTML,
-			XPos, YPos, Xsize, Ysize, true, Color, "キーのhtmlをWikiから取得",
-			"WikiData/input/item/key.txt",
-			"WikiData/input/item/key_html/",
-			"WikiData/output/item/key/"
-		)) {
-		}
-		YPos += Ysize + y_r(5);
-		if (DataBase::Instance()->WikiDataUpdate(
-			EnumWikiDataType::ITEMDATA_KEY,
-			XPos, YPos, Xsize, Ysize, true, Color, "キー情報更新",
-			"WikiData/input/item/key.txt",
-			"WikiData/input/item/key_html/",
-			"WikiData/output/item/key/"
-		)) {
+		//
+		if (WindowSystem::ClickCheckBox(XPos, YPos, XPos + Xsize, YPos + Ysize, false, true, Gray25, "鍵ページ生成")) {
+			DataBase::Instance()->WikiDataUpdate(EnumWikiDataType::ITEMDATA_KEY_WIKI_HTML, "WikiData/input/item/key.txt", "WikiData/input/item/key_html/", "WikiData/output/item/key/");
+			DataBase::Instance()->WikiDataUpdate(EnumWikiDataType::ITEMDATA_KEY, "WikiData/input/item/key.txt", "WikiData/input/item/key_html/", "WikiData/output/item/key/");
 		}
 		YPos += Ysize + y_r(5);
 	}

@@ -1,7 +1,7 @@
 #pragma once
 #include "../../../Header.hpp"
 #include "../Data/MainScene_Common.hpp"
-#include "../Page/MainScene_PageBase.hpp"
+#include "../Page/MainScene_PageManager.hpp"
 
 namespace FPS_n2 {
 	class TaskList : public ListParent<TaskID> {
@@ -44,7 +44,7 @@ namespace FPS_n2 {
 				}
 				else if (LEFT == "NeedItem") {
 					for (auto&a : Args) {
-						SetGetData<ItemGetData>(&this->m_Item, a, "x", false);
+						SetGetData<ItemGetData>(&this->m_Item, a, "x", true);
 					}
 				}
 				else if (LEFT == "NeedKappa") {
@@ -144,6 +144,8 @@ namespace FPS_n2 {
 		TaskNeedData				m_TaskNeedData;
 		TaskWorkData				m_TaskWorkData;
 		TaskRewardData				m_TaskRewardData;
+
+		std::array<WindowSystem::ScrollBoxClass, 2>				m_Scroll;
 	public:
 		const auto&		GetfactionName() const noexcept { return this->m_TaskNeedData.GetfactionName(); }
 		const auto&		GetTrader() const noexcept { return this->m_TaskNeedData.GetTrader(); }
@@ -201,10 +203,8 @@ namespace FPS_n2 {
 		void			WhenAfterLoad_Sub() noexcept override {}
 
 		void			SetNeedTasktoID() noexcept { this->m_TaskNeedData.SetNeedTasktoID(); }
-		const int		Draw(int xp, int yp, int xsize, int ysize, int count, bool Clickactive) const noexcept;
-		void			DrawWindow(WindowSystem::WindowControl* window, int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept;
-
-
+		const int		Draw(int xp, int yp, int xsize, int ysize, int count, bool Clickactive) noexcept;
+		void			DrawWindow(WindowSystem::WindowControl* window, int xp, int yp, int *xs = nullptr, int* ys = nullptr) noexcept;
 	};
 
 	class TaskJsonData :public JsonDataParent {
@@ -356,7 +356,7 @@ namespace FPS_n2 {
 		void OutputDataSub(std::ofstream& outputfile) noexcept override;
 	};
 
-	class TaskData : public DataParent<TaskID, TaskList>, public JsonListParent<TaskJsonData> {
+	class TaskData : public DataParent<TaskList>, public JsonListParent<TaskJsonData> {
 	public:
 		TaskData() noexcept {
 			std::string Path = "data/task/";

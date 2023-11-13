@@ -8,6 +8,7 @@ namespace FPS_n2 {
 		friend class SingletonBase<InputControl>;
 	private:
 		int						m_mouse_x{ 0 }, m_mouse_y{ 0 };
+		int						mouse_moveX{ 0 }, mouse_moveY{ 0 };
 
 		switchs					m_LeftClick;
 		float					m_LeftPressTimer{ 0.f };
@@ -43,6 +44,8 @@ namespace FPS_n2 {
 		}
 		~InputControl(void) noexcept { }
 	public:
+		const auto&		GetMouseMoveX(void) const noexcept { return this->mouse_moveX; }
+		const auto&		GetMouseMoveY(void) const noexcept { return this->mouse_moveY; }
 		const auto&		GetMouseX(void) const noexcept { return this->m_mouse_x; }
 		const auto&		GetMouseY(void) const noexcept { return this->m_mouse_y; }
 		const auto&		GetLeftClick(void) const noexcept { return this->m_LeftClick; }
@@ -76,6 +79,8 @@ namespace FPS_n2 {
 		}
 	public:
 		void	Execute(void) noexcept {
+			mouse_moveX = this->m_mouse_x;							//ドラッグ前のマウス座標格納
+			mouse_moveY = this->m_mouse_y;
 			SetMouse();
 			this->m_LeftClick.Execute((GetMouseInputWithCheck() & MOUSE_INPUT_LEFT) != 0);
 			if (this->m_LeftClick.press()) {
@@ -138,6 +143,8 @@ namespace FPS_n2 {
 				m_NumKey[loop].Execute(CheckHitKeyWithCheck(NUMKEYS[loop]) != 0);
 			}
 			m_WheelAdd = GetMouseWheelRotVolWithCheck();
+			mouse_moveX = this->m_mouse_x - mouse_moveX;							//ドラッグ前のマウス座標格納
+			mouse_moveY = this->m_mouse_y - mouse_moveY;
 		}
 	};
 
