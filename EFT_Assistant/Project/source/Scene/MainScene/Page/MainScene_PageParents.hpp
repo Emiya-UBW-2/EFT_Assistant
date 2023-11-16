@@ -12,13 +12,7 @@ namespace FPS_n2 {
 		std::vector<std::pair<int, bool>>		m_ItemIDs;
 		float									m_XChild{ 0.f };
 	protected:
-		template<class TaskList>
-		void DrawLists(int xp1, DataParent<TaskList>* List, std::string_view Name, int*Select, bool isActive, bool isElseSelect, bool isAllSelect, const std::function<bool(const TaskList*)>& CheckLocal) noexcept {
-			int xsize = (m_ListXSize != 0) ? m_ListXSize : y_r(400);
-			List->DrawList(m_ListXPos - (int)m_XChild + xp1, m_ListYPos, xsize, Name, Select, isActive, isElseSelect, isAllSelect, CheckLocal);
-		};
-
-		bool MakeLists(int Layer, bool AndNext, const std::function<void(std::pair<int, bool>*, bool)>& ListSet) noexcept;
+		bool MakeLists(int Layer, bool AndNext, const std::function<void(std::pair<int, bool>*, bool, int, int, int)>& ListSet) noexcept;
 
 		const auto& ListsSel(int Sel) const noexcept { return this->m_ItemIDs.at(Sel).first; }
 		bool BackLists() noexcept;

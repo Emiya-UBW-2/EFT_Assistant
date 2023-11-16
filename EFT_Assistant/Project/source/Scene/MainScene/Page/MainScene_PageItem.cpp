@@ -14,7 +14,7 @@ namespace FPS_n2 {
 		m_ValueSort = true;
 		m_ValuePerSort = true;
 		//
-		InitLists(3, y_r(1920 - 10) - y_r(400), LineHeight + y_r(5), y_r(400));
+		InitLists(2, y_r(1920 - 10) - y_r(400), LineHeight + y_r(5), y_r(400));
 
 		m_SearchBox.Init();
 		m_ReturnButtonPress = [&]() {
@@ -124,6 +124,8 @@ namespace FPS_n2 {
 			if (L->GetIsPreset()) { continue; }
 
 			if (L->GetTypeID() == ListsSel(1) || ListsSel(1) == InvalidID) {
+				bool ishit = true;
+				/*
 				bool ishit = (ListsSel(2) == InvalidID);
 				for (auto& m : L->GetMapID()) {
 					if (m.GetID() == ListsSel(2)) {
@@ -134,6 +136,7 @@ namespace FPS_n2 {
 				if (ListsSel(2) == ElseSelectID) {
 					ishit = (L->GetMapID().size() == 0);
 				}
+				//*/
 				if (ishit && m_SearchBox.GetIsHit(L->GetName())) {
 					if (((0 - ysize) < yp0) && (yp0 < DrawParts->m_DispYSize)) {
 						const_cast<ItemList*>(L)->Draw(xpos, yp0, ScrPxItem - xpos - y_r(36), ysize, 0, Gray75, !WindowMngr->PosHitCheck(nullptr), false, !m_RaidMode, false);
@@ -176,18 +179,21 @@ namespace FPS_n2 {
 			int xs_add = m_ListXSize + y_r(50);
 			bool isChild = false;
 			//
-			isChild |= MakeLists(0, true, [&](std::pair<int, bool>* IDs, bool IsChild) {
+			isChild |= MakeLists(0, true, [&](std::pair<int, bool>* IDs, bool IsChild, int XP, int YP, int XS) {
 				if (IsChild) { xgoal -= xs_add; }
-				PageParent::DrawLists<ItemCategoryList>(xgoal, DataBase::Instance()->GetItemCategoryData().get(), "ItemCategory", &IDs->first, !IDs->second, false, true, [&](const auto *) { return true; });
+				DataBase::Instance()->GetItemCategoryData()->DrawList(XP + xgoal, YP, XS, "ItemCategory", &IDs->first, !IDs->second, false, true);
 			});
-			isChild |= MakeLists(1, ((ListsSel(1) != InvalidID) && (DataBase::Instance()->GetItemTypeData()->FindPtr(ListsSel(1))->GetName() == "Mechanical Key")), [&](std::pair<int, bool>* IDs, bool IsChild) {
+			isChild |= MakeLists(1, ((ListsSel(1) != InvalidID)/* && (DataBase::Instance()->GetItemTypeData()->FindPtr(ListsSel(1))->GetName() == "mechanical-key")*/),
+				[&](std::pair<int, bool>* IDs, bool IsChild, int XP, int YP, int XS) {
 				if (IsChild) { xgoal -= xs_add; }
-				PageParent::DrawLists<ItemTypeList>(xgoal, DataBase::Instance()->GetItemTypeData().get(), "ItemType", &IDs->first, !IDs->second, false, true, [&](const auto *ptr) { return (ptr->GetCategoryID() == ListsSel(1 - 1)); });
+				DataBase::Instance()->GetItemTypeData()->DrawList(XP + xgoal, YP, XS, "ItemType", &IDs->first, !IDs->second, false, true , [&](const auto *ptr) { return (ptr->GetCategoryID() == ListsSel(1 - 1)); });
 			});
-			isChild |= MakeLists(2, false, [&](std::pair<int, bool>* IDs, bool IsChild) {
+			/*
+			isChild |= MakeLists(2, false, [&](std::pair<int, bool>* IDs, bool IsChild, int XP, int YP, int XS) {
 				if (IsChild) { xgoal -= xs_add; }
-				PageParent::DrawLists<MapList>(xgoal, DataBase::Instance()->GetMapData().get(), "Map", &IDs->first, !IDs->second, true, true, [&](const auto *) { return true; });
+				DataBase::Instance()->GetMapData()->DrawList(XP + xgoal, YP, XS, "Map", &IDs->first, !IDs->second, true, true);
 			});
+			//*/
 			ExecuteLists(isChild, xgoal);
 		}
 	}

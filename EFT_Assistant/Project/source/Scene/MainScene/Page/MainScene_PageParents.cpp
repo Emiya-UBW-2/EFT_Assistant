@@ -3,11 +3,12 @@
 #include "../../../PartsHeader.hpp"
 
 namespace FPS_n2 {
-	bool ListControl::MakeLists(int Layer, bool AndNext, const std::function<void(std::pair<int, bool>*, bool)>& ListSet) noexcept {
+	bool ListControl::MakeLists(int Layer, bool AndNext, const std::function<void(std::pair<int, bool>*, bool, int, int, int)>& ListSet) noexcept {
 		auto& NowSel = this->m_ItemIDs.at(Layer);
 		NowSel.second = ((ListsSel(Layer) != InvalidID) && AndNext);
 		if (Layer == 0 || (Layer >= 1 && this->m_ItemIDs.at(Layer - 1).second)) {
-			ListSet(&NowSel, (Layer >= 1));
+			int xsize = (m_ListXSize != 0) ? m_ListXSize : y_r(400);
+			ListSet(&NowSel, (Layer >= 1), m_ListXPos - (int)m_XChild, m_ListYPos, xsize);
 			return (Layer >= 1);
 		}
 		else {

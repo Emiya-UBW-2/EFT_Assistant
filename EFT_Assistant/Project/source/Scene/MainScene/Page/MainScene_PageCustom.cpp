@@ -588,17 +588,17 @@ namespace FPS_n2 {
 			int xgoal = 0;
 			int xs_add = m_ListXSize + y_r(50);
 			bool isChild = false;
-			isChild |= MakeLists(0, true, [&](std::pair<int, bool>* IDs, bool IsChild) {
+			isChild |= MakeLists(0, true, [&](std::pair<int, bool>* IDs, bool IsChild, int XP, int YP, int XS) {
 				if (IsChild) { xgoal -= xs_add; }
-				PageParent::DrawLists<ItemTypeList>(xgoal, DataBase::Instance()->GetItemTypeData().get(), "ItemType", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (ptr->GetCategoryID() == DataBase::Instance()->GetItemCategoryData()->FindID("Weapons")); });
+				DataBase::Instance()->GetItemTypeData()->DrawList(XP + xgoal, YP, XS, "ItemType", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (ptr->GetCategoryID() == DataBase::Instance()->GetItemCategoryData()->FindID("Weapons")); });
 			});
-			isChild |= MakeLists(1, true, [&](std::pair<int, bool>* IDs, bool IsChild) {
+			isChild |= MakeLists(1, true, [&](std::pair<int, bool>* IDs, bool IsChild, int XP, int YP, int XS) {
 				if (IsChild) { xgoal -= xs_add; }
-				PageParent::DrawLists<ItemList>(xgoal, DataBase::Instance()->GetItemData().get(), "Item", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (!ptr->GetIsPreset()) && (ptr->GetTypeID() == ListsSel(1 - 1)); });
+				DataBase::Instance()->GetItemData()->DrawList(XP + xgoal, YP, XS, "Item", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (!ptr->GetIsPreset()) && (ptr->GetTypeID() == ListsSel(1 - 1)); });
 			});
-			isChild |= MakeLists(2, false, [&](std::pair<int, bool>* IDs, bool IsChild) {
+			isChild |= MakeLists(2, false, [&](std::pair<int, bool>* IDs, bool IsChild, int XP, int YP, int XS) {
 				if (IsChild) { xgoal -= xs_add; }
-				PageParent::DrawLists<PresetList>(xgoal, DataBase::Instance()->GetPresetData().get(), "Preset", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (ptr->GetBase()->GetID() == ListsSel(2 - 1)); });
+				DataBase::Instance()->GetPresetData()->DrawList(XP + xgoal, YP, XS, "Preset", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (ptr->GetBase()->GetID() == ListsSel(2 - 1)); });
 			});
 			if ((ListsSel(1) != InvalidID) && (ListsSel(2) != InvalidID)) {
 				xgoal -= xs_add * 3;

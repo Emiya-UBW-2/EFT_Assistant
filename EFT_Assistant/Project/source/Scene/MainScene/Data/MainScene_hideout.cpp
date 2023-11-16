@@ -98,6 +98,37 @@ namespace FPS_n2 {
 		}
 	}
 	void HideoutJsonData::OutputDataSub(std::ofstream& outputfile) noexcept {
+		for (const auto&H : DataBase::Instance()->GetHideoutData()->GetList()) {
+			if (H.GetName() != m_name) { continue; }
+			for (const auto& L : H.GetLvData()) {
+				int Lv = (int)(&L - &H.GetLvData().front());
+				auto& L2 = this->m_LvData.at(Lv);
+				for (auto& C : L.m_ItemCraft) {
+					for (auto&C2 : L2.m_ItemCraft) {
+						C2.sortbuffer = -1;
+						bool IsHit = true;
+						for (auto& T : C.m_ItemReward) {
+							for (auto& T2 : C2.m_ItemReward) {
+								if (T.GetID() != T2.GetID()) {
+									IsHit = false;
+									break;
+								}
+								if (T.GetValue() != T2.GetValue()) {
+									IsHit = false;
+									break;
+								}
+							}
+						}
+						if (IsHit) {
+							C2.sortbuffer = (int)(&C - &L.m_ItemCraft.front());
+						}
+					}
+					std::sort(L2.m_ItemCraft.begin(), L2.m_ItemCraft.end(),
+						[&](const HideoutLvData::CraftData& a, const HideoutLvData::CraftData& b) { return a.sortbuffer < b.sortbuffer; });
+				}
+			}
+			break;
+		}
 		for (auto& L2 : this->m_LvData) {
 			auto LV = "Lv" + std::to_string((&L2 - &this->m_LvData.front()) + 1);
 

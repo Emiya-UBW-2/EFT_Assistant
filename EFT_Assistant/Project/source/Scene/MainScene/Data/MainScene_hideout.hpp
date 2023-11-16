@@ -10,6 +10,8 @@ namespace FPS_n2 {
 			int											durationTime{ 0 };
 			std::vector<ItemGetData>					m_ItemReq;
 			std::vector<ItemGetData>					m_ItemReward;
+			//ソート用のバッファー
+			int sortbuffer;
 		};
 		//開放データ
 		int											constructionTime{ 0 };
@@ -44,7 +46,7 @@ namespace FPS_n2 {
 	//
 	class HideoutJsonData :public JsonDataParent {
 	public:
-		std::vector<HideoutLvData>							m_LvData;
+		std::vector<HideoutLvData>	m_LvData;
 	public:
 		void GetJsonSub(const nlohmann::json& data) noexcept override;
 		void OutputDataSub(std::ofstream& outputfile) noexcept override;
