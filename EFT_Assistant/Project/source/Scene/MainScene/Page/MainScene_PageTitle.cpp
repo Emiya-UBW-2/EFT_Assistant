@@ -71,8 +71,12 @@ namespace FPS_n2 {
 		YPos += Ysize + y_r(5);
 		//
 		if (WindowSystem::ClickCheckBox(XPos, YPos, XPos + Xsize, YPos + Ysize, false, true, Gray25, "鍵ページ生成")) {
-			DataBase::Instance()->WikiDataUpdate(EnumWikiDataType::ITEMDATA_KEY_WIKI_HTML, "WikiData/input/item/key.txt", "WikiData/input/item/key_html/", "WikiData/output/item/key/");
+			DataBase::Instance()->WikiDataUpdate(EnumWikiDataType::ITEMDATA_KEY_WIKI_HTML, nullptr, "WikiData/input/item/key_html/", "WikiData/output/item/key/");
 			DataBase::Instance()->WikiDataUpdate(EnumWikiDataType::ITEMDATA_KEY, "WikiData/input/item/key.txt", "WikiData/input/item/key_html/", "WikiData/output/item/key/");
+		}
+		YPos += Ysize + y_r(5);
+		if (WindowSystem::ClickCheckBox(XPos, YPos, XPos + Xsize, YPos + Ysize, false, true, Gray25, "ルートページ生成")) {
+			DataBase::Instance()->WikiDataUpdate(EnumWikiDataType::LOOT_WIKI_HTML, nullptr, "WikiData/input/item/loot_html/", "WikiData/output/item/loot/");
 		}
 		YPos += Ysize + y_r(5);
 	}

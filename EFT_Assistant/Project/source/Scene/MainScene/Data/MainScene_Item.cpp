@@ -922,18 +922,7 @@ namespace FPS_n2 {
 
 						CreateDirectory(ChildPath.c_str(), NULL);
 					}
-					std::string FileName = jd->m_name;
-					SubStrs(&FileName, ".");
-					SubStrs(&FileName, "\\");
-					SubStrs(&FileName, "/");
-					SubStrs(&FileName, ":");
-					SubStrs(&FileName, "*");
-					SubStrs(&FileName, "?");
-					SubStrs(&FileName, "\"");
-					SubStrs(&FileName, ">");
-					SubStrs(&FileName, "<");
-					SubStrs(&FileName, "|");
-					std::string Name = FileName + ".txt";
+					std::string Name = jd->m_CanUseFileName + ".txt";
 
 					{
 						std::ofstream outputfile(ChildPath + Name);

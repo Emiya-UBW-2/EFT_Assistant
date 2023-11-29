@@ -218,7 +218,7 @@ namespace FPS_n2 {
 		auto BaseTime = GetNowHiPerformanceCount();
 		std::vector<std::string> InputTex;
 		//開始
-		{
+		if(InputFilePath){
 			//InputFilePathの中身を書き出す
 			std::ifstream File(InputFilePath);
 			std::string line;
@@ -233,8 +233,19 @@ namespace FPS_n2 {
 			for (auto& L : GetItemData()->GetList()) {
 				auto* typePtr = GetItemTypeData()->FindPtr(L.GetTypeID());
 				if (typePtr) {
-					auto* catPtr = DataBase::Instance()->GetItemCategoryData()->FindPtr(typePtr->GetCategoryID());
+					auto* catPtr = GetItemCategoryData()->FindPtr(typePtr->GetCategoryID());
 					if (catPtr->GetName() == "Keys_Intel") {
+						m_WikiTex.emplace_back(std::make_pair(L.GetID(), InputTex));
+					}
+				}
+			}
+			break;
+		case FPS_n2::EnumWikiDataType::LOOT_WIKI_HTML:
+			for (auto& L : GetItemData()->GetList()) {
+				auto* typePtr = GetItemTypeData()->FindPtr(L.GetTypeID());
+				if (typePtr) {
+					auto* catPtr = GetItemCategoryData()->FindPtr(typePtr->GetCategoryID());
+					if (catPtr->GetName() == "Loot") {
 						m_WikiTex.emplace_back(std::make_pair(L.GetID(), InputTex));
 					}
 				}
@@ -405,7 +416,7 @@ namespace FPS_n2 {
 									for (const auto& I : tasks.GetTaskRewardData().GetItem()) {
 										if (I.GetID() == W.first) {
 											std::string STRB = STR;
-											auto* trd = DataBase::Instance()->GetTraderData()->FindPtr(tasks.GetTrader());
+											auto* trd = GetTraderData()->FindPtr(tasks.GetTrader());
 											ReplaceStrs(&STRB, "EFTA_TaskReward_TraderName", trd->GetName().c_str());			//EFTA_TaskReward_TraderName
 											ReplaceStrs(&STRB, "EFTA_TaskReward_TaskName", tasks.GetName().c_str());			//EFTA_TaskReward_TaskName
 											W.second.insert(W.second.begin() + loop, STRB);
@@ -440,7 +451,7 @@ namespace FPS_n2 {
 									for (const auto& I : tasks.GetTaskNeedData().GetItem()) {
 										if (I.GetID() == W.first) {
 											std::string STRB = STR;
-											auto* trd = DataBase::Instance()->GetTraderData()->FindPtr(tasks.GetTrader());
+											auto* trd = GetTraderData()->FindPtr(tasks.GetTrader());
 											ReplaceStrs(&STRB, "EFTA_TaskNeed_TraderName", trd->GetName().c_str());			//EFTA_TaskNeed_TraderName
 											ReplaceStrs(&STRB, "EFTA_TaskNeed_TaskName", tasks.GetName().c_str());			//EFTA_TaskNeed_TaskName
 											W.second.insert(W.second.begin() + loop, STRB);
@@ -537,17 +548,7 @@ namespace FPS_n2 {
 					IsFindPoint != -1
 					) {
 					std::string FileStr = InputPath;
-					std::string FileName = ptr->GetName();
-					SubStrs(&FileName, ".");
-					SubStrs(&FileName, "\\");
-					SubStrs(&FileName, "/");
-					SubStrs(&FileName, ":");
-					SubStrs(&FileName, "*");
-					SubStrs(&FileName, "?");
-					SubStrs(&FileName, "\"");
-					SubStrs(&FileName, ">");
-					SubStrs(&FileName, "<");
-					SubStrs(&FileName, "|");
+					std::string FileName = ptr->GetCanUseFileName();
 
 					std::ifstream File(FPS_n2::UTF8toSjis(FileStr + FileName + ".html"));
 					//std::ifstream File(FPS_n2::UTF8toSjis(FileStr + FileName + ".txt"));
@@ -663,293 +664,13 @@ namespace FPS_n2 {
 			}
 			break;
 		case FPS_n2::EnumWikiDataType::ITEMDATA_KEY_WIKI_HTML:
+		case FPS_n2::EnumWikiDataType::LOOT_WIKI_HTML:
 			for (auto& W : m_WikiTex) {
 				auto* ptr = GetItemData()->FindPtr(W.first);
-				//トレーダー交換
-				int BarterCount = 0;
-				for (const auto&L : GetTraderData()->SetList()) {
-					for (const auto& Ld : L.GetLvData()) {
-						for (const auto& cf : Ld.m_ItemBarters) {
-							for (const auto& I : cf.m_ItemReward) {
-								if (I.GetID() == W.first) {
-									BarterCount++;
-									break;
-								}
-							}
-						}
-					}
-				}
-				//タスク報酬
-				int TaskRewardCount = 0;
-				for (const auto& tasks : GetTaskData()->GetList()) {
-					for (const auto& I : tasks.GetTaskRewardData().GetItem()) {
-						if (I.GetID() == W.first) {
-							TaskRewardCount++;
-							break;
-						}
-					}
-				}
-				//タスク報酬
-				int TaskNeedCount = 0;
-				for (const auto& tasks : GetTaskData()->GetList()) {
-					for (const auto& I : tasks.GetTaskNeedData().GetItem()) {
-						if (I.GetID() == W.first) {
-							TaskNeedCount++;
-							break;
-						}
-					}
-				}
-				//
-				IsUsePoint = -1;
-				IsCommentPoint = -1;
-				IsFindPoint = -1;
-				for (int loop = 0; loop < W.second.size(); loop++) {
-					auto& L = W.second[loop];
-					auto commendLine = L.find("//");
-					if (commendLine != std::string::npos) {
-						STR = L.substr(0, commendLine);
-						COMMENT = L.substr(commendLine);
-					}
-					else {
-						STR = L;
-						COMMENT = "";
-					}
-					if (STR != "") {
-						//トレーダー交換
-						{
-							auto BarterTrade = STR.find("<EFTA_BarterTrade_Check>");
-							if (BarterTrade != std::string::npos) {
-								if (BarterCount == 0) {
-									W.second.erase(W.second.begin() + loop);
-									loop--;
-									continue;
-								}
-								SubStrs(&STR, "<EFTA_BarterTrade_Check>");
-							}
-						}
-						//トレーダー交換for
-						{
-							auto BarterTrade = STR.find("<EFTA_BarterTrade_For>");
-							if (BarterTrade != std::string::npos) {
-								SubStrs(&STR, "<EFTA_BarterTrade_For>");
-
-								W.second.erase(W.second.begin() + loop);
-
-								for (const auto& L2 : GetTraderData()->SetList()) {
-									for (const auto& Ld : L2.GetLvData()) {
-										int Lv = (int)(&Ld - &L2.GetLvData().front()) + 1;
-										for (const auto& cf : Ld.m_ItemBarters) {
-											for (const auto& I : cf.m_ItemReward) {
-												if (I.GetID() == W.first) {
-													std::string STRB = STR;
-													ReplaceStrs(&STRB, "EFTA_BarterTrade_TraderName", L2.GetName().c_str());			//EFTA_BarterTrade_TraderName
-													ReplaceStrs(&STRB, "EFTA_BarterTrade_TraderLv", std::to_string(Lv).c_str());	//EFTA_BarterTrade_TraderLv
-													std::string Need;
-													for (const auto& I2 : cf.m_ItemReq) {
-														Need += I2.GetName();
-														Need += " x";
-														Need += std::to_string(I2.GetValue());
-														if ((int)(&I2 - &cf.m_ItemReq.front()) != (int)(cf.m_ItemReq.size()) - 1) {
-															Need += " &br;";
-														}
-													}
-													ReplaceStrs(&STRB, "EFTA_BarterTrade_NeedItem", Need.c_str());		//EFTA_BarterTrade_NeedItem
-													std::string Reward;
-													for (const auto& I2 : cf.m_ItemReward) {
-														Reward += I2.GetName();
-														Reward += " x";
-														Reward += std::to_string(I2.GetValue());
-														if ((int)(&I2 - &cf.m_ItemReward.front()) != (int)(cf.m_ItemReward.size()) - 1) {
-															Reward += " &br;";
-														}
-													}
-													ReplaceStrs(&STRB, "EFTA_BarterTrade_RewardItem", Reward.c_str());		//EFTA_BarterTrade_RewardItem
-													std::string Unlock;
-													for (const auto& I2 : cf.m_TaskReq) {
-														Unlock += I2.GetName();
-														if ((int)(&I2 - &cf.m_TaskReq.front()) != (int)(cf.m_TaskReq.size()) - 1) {
-															Unlock += " &br;";
-														}
-													}
-													ReplaceStrs(&STRB, "EFTA_BarterTrade_UnlockTask", Unlock.c_str());		//EFTA_BarterTrade_UnlockTask
-
-													W.second.insert(W.second.begin() + loop, STRB);
-													break;
-												}
-											}
-										}
-									}
-								}
-								continue;
-							}
-						}
-						//タスク報酬
-						{
-							auto BarterTrade = STR.find("<EFTA_TaskReward_Check>");
-							if (BarterTrade != std::string::npos) {
-								if (TaskRewardCount == 0) {
-									W.second.erase(W.second.begin() + loop);
-									loop--;
-									continue;
-								}
-								SubStrs(&STR, "<EFTA_TaskReward_Check>");
-							}
-						}
-						//タスク報酬for
-						{
-							auto BarterTrade = STR.find("<EFTA_TaskReward_For>");
-							if (BarterTrade != std::string::npos) {
-								SubStrs(&STR, "<EFTA_TaskReward_For>");
-
-								W.second.erase(W.second.begin() + loop);
-
-								for (const auto& tasks : GetTaskData()->GetList()) {
-									for (const auto& I : tasks.GetTaskRewardData().GetItem()) {
-										if (I.GetID() == W.first) {
-											std::string STRB = STR;
-											auto* trd = DataBase::Instance()->GetTraderData()->FindPtr(tasks.GetTrader());
-											ReplaceStrs(&STRB, "EFTA_TaskReward_TraderName", trd->GetName().c_str());			//EFTA_TaskReward_TraderName
-											ReplaceStrs(&STRB, "EFTA_TaskReward_TaskName", tasks.GetName().c_str());			//EFTA_TaskReward_TaskName
-											W.second.insert(W.second.begin() + loop, STRB);
-											break;
-										}
-									}
-								}
-								continue;
-							}
-						}
-						//タスク必要
-						{
-							auto BarterTrade = STR.find("<EFTA_TaskNeed_Check>");
-							if (BarterTrade != std::string::npos) {
-								if (TaskNeedCount == 0) {
-									W.second.erase(W.second.begin() + loop);
-									loop--;
-									continue;
-								}
-								SubStrs(&STR, "<EFTA_TaskNeed_Check>");
-							}
-						}
-						//タスク必要for
-						{
-							auto BarterTrade = STR.find("<EFTA_TaskNeed_For>");
-							if (BarterTrade != std::string::npos) {
-								SubStrs(&STR, "<EFTA_TaskNeed_For>");
-
-								W.second.erase(W.second.begin() + loop);
-
-								for (const auto& tasks : GetTaskData()->GetList()) {
-									for (const auto& I : tasks.GetTaskNeedData().GetItem()) {
-										if (I.GetID() == W.first) {
-											std::string STRB = STR;
-											auto* trd = DataBase::Instance()->GetTraderData()->FindPtr(tasks.GetTrader());
-											ReplaceStrs(&STRB, "EFTA_TaskNeed_TraderName", trd->GetName().c_str());			//EFTA_TaskNeed_TraderName
-											ReplaceStrs(&STRB, "EFTA_TaskNeed_TaskName", tasks.GetName().c_str());			//EFTA_TaskNeed_TaskName
-											W.second.insert(W.second.begin() + loop, STRB);
-											break;
-										}
-									}
-								}
-								continue;
-							}
-						}
-					}
-					//レイド内発見箇所を代入
-					{
-						auto useline = L.find("<EFTA_FindPoint>");
-						if (useline != std::string::npos) {
-							SubStrs(&STR, "<EFTA_FindPoint>");
-							//ひとつ前の行を取得
-							if ((1 < loop) && (loop < W.second.size())) {
-								FINDPOINT_BEFORE = FPS_n2::SjistoUTF8(W.second[loop - 1]);
-								if (loop < W.second.size() - 1) {
-									FINDPOINT_AFTER = FPS_n2::SjistoUTF8(W.second[loop + 1]);
-								}
-								else {
-									FINDPOINT_AFTER = "";
-								}
-								IsFindPoint = loop;
-							}
-							W.second.erase(W.second.begin() + loop);
-							loop--;
-							continue;
-						}
-					}
-					//使用できる箇所を代入
-					{
-						auto useline = L.find("<EFTA_UsePoint>");
-						if (useline != std::string::npos) {
-							SubStrs(&STR, "<EFTA_UsePoint>");
-							//ひとつ前の行を取得
-							if ((1 < loop) && (loop < W.second.size() - 1)) {
-								USEPOINT_BEFORE = FPS_n2::SjistoUTF8(W.second[loop - 1]);
-								if (loop < W.second.size() - 1) {
-									USEPOINT_AFTER = FPS_n2::SjistoUTF8(W.second[loop + 1]);
-								}
-								else {
-									USEPOINT_AFTER = "";
-								}
-								IsUsePoint = loop;
-							}
-							W.second.erase(W.second.begin() + loop);
-							loop--;
-							continue;
-						}
-					}
-					//コメント箇所を代入
-					{
-						auto useline = L.find("<EFTA_CommentPoint>");
-						if (useline != std::string::npos) {
-							SubStrs(&STR, "<EFTA_CommentPoint>");
-							//ひとつ前の行を取得
-							if ((1 < loop) && (loop < W.second.size())) {
-								COMMENTPOINT_BEFORE = FPS_n2::SjistoUTF8(W.second[loop - 1]);
-								if (loop < W.second.size() - 1) {
-									COMMENTPOINT_AFTER = FPS_n2::SjistoUTF8(W.second[loop + 1]);
-								}
-								else {
-									COMMENTPOINT_AFTER = "";
-								}
-								IsCommentPoint = loop;
-							}
-							W.second.erase(W.second.begin() + loop);
-							loop--;
-							continue;
-						}
-					}
-					//代入
-					{
-						ReplaceStrs(&STR, "EFTA_FullName", ptr->GetName().c_str());							//EFTA_FullName							//日本語フルネーム
-						ReplaceStrs(&STR, "EFTA_ShortName", ptr->GetShortName().c_str());					//EFTA_ShortName						//日本語フルネーム
-						ReplaceStrs(&STR, "EFTA_JpnFullName", UTF8toSjis(ptr->GetName_Jpn()).c_str());		//EFTA_ShortName						//日本語フルネーム
-						ReplaceStrs(&STR, "EFTA_InfoJpn", UTF8toSjis(ptr->GetInformation_Jpn()).c_str());	//EFTA_InfoJpn							//日本語フルネーム
-						char tID[64];
-						sprintfDx(tID, "%5.3fkg", ptr->Getweight());
-						ReplaceStrs(&STR, "EFTA_DefaultWeight", tID);										//EFTA_DefaultWeight					//デフォルト状態の重さ(X.XXXkg)
-						ReplaceStrs(&STR, "EFTA_DefaultWidth", std::to_string(ptr->Getwidth()).c_str());	//EFTA_DefaultWidth						//デフォルト状態の横サイズ
-						ReplaceStrs(&STR, "EFTA_DefaultHeight", std::to_string(ptr->Getheight()).c_str());	//EFTA_DefaultHeight					//デフォルト状態の縦サイズ
-						ReplaceStrs(&STR, "EFTA_Usecount", std::to_string(ptr->GetKeyUses()).c_str());		//EFTA_Usecount							//使用回数
-					}
-					L = STR + COMMENT;
-				}
-				//使用できる箇所を代入
-				if (
-					IsUsePoint != -1 ||
-					IsCommentPoint != -1 ||
-					IsFindPoint != -1
-					) {
+				//HTML取得
+				{
 					std::string FileStr = InputPath;
-					std::string FileName = ptr->GetName();
-					SubStrs(&FileName, ".");
-					SubStrs(&FileName, "\\");
-					SubStrs(&FileName, "/");
-					SubStrs(&FileName, ":");
-					SubStrs(&FileName, "*");
-					SubStrs(&FileName, "?");
-					SubStrs(&FileName, "\"");
-					SubStrs(&FileName, ">");
-					SubStrs(&FileName, "<");
-					SubStrs(&FileName, "|");
+					std::string FileName = ptr->GetCanUseFileName();
 
 					{
 						//
@@ -1004,28 +725,6 @@ namespace FPS_n2 {
 								InternetCloseHandle(hService);
 							}
 							InternetCloseHandle(hSession);
-							/*
-							lines.clear();
-							bool isStart = false;
-							for (auto& line : lines_buf) {
-								if (!isStart) {
-									auto Start = line.find("<code>");
-									if (Start != std::string::npos) {
-										isStart = true;
-										line = line.substr(Start + strlenDx("<code>"));
-									}
-								}
-								else {
-									auto Start = line.find("</code>");
-									if (Start != std::string::npos) {
-										isStart = false;
-									}
-								}
-								if (isStart) {
-									lines.emplace_back(line);
-								}
-							}
-							//*/
 						}
 
 						std::ofstream outputfile(FPS_n2::UTF8toSjis(FileStr + FileName + ".html"));
@@ -1040,14 +739,12 @@ namespace FPS_n2 {
 
 						if (((int)(&W - &m_WikiTex.front()) % Oneminute) == Oneminute - 1) {
 							WaitTimer((60000 - Onetime * Oneminute));
-							//break;
 						}
 						else {
 							WaitTimer(Onetime);
 						}
 					}
 				}
-				//int a = 0;
 			}
 			break;
 		default:
@@ -1059,17 +756,7 @@ namespace FPS_n2 {
 			for (auto& W : m_WikiTex) {
 				auto* ptr = GetItemData()->FindPtr(W.first);
 				std::string FileStr = OutputPath;
-				std::string FileName = ptr->GetName();
-				SubStrs(&FileName, ".");
-				SubStrs(&FileName, "\\");
-				SubStrs(&FileName, "/");
-				SubStrs(&FileName, ":");
-				SubStrs(&FileName, "*");
-				SubStrs(&FileName, "?");
-				SubStrs(&FileName, "\"");
-				SubStrs(&FileName, ">");
-				SubStrs(&FileName, "<");
-				SubStrs(&FileName, "|");
+				std::string FileName = ptr->GetCanUseFileName();
 
 				std::ofstream outputfile(FileStr + FileName + ".txt");
 				for (auto& L : W.second) {
@@ -1079,6 +766,7 @@ namespace FPS_n2 {
 			}
 			break;
 		case FPS_n2::EnumWikiDataType::ITEMDATA_KEY_WIKI_HTML:
+		case FPS_n2::EnumWikiDataType::LOOT_WIKI_HTML:
 			break;
 		default:
 			break;

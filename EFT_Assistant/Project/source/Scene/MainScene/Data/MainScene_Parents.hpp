@@ -13,6 +13,7 @@ namespace FPS_n2 {
 		ID								m_ID{ InvalidID };
 		std::string						m_IDstr;
 		std::string						m_Name_Eng;
+		std::string						m_CanUseFileName;
 		std::string						m_ShortName;
 		std::string						m_FilePath;
 		std::array<int, 3>				m_Color{ 0,0,0 };
@@ -36,6 +37,18 @@ namespace FPS_n2 {
 			else if (LEFT == "Name") {
 				m_Name_Eng = Args[0];
 				m_ShortName = Args[0];
+
+				m_CanUseFileName = m_Name_Eng;
+				SubStrs(&m_CanUseFileName, ".");
+				SubStrs(&m_CanUseFileName, "\\");
+				SubStrs(&m_CanUseFileName, "/");
+				SubStrs(&m_CanUseFileName, ":");
+				SubStrs(&m_CanUseFileName, "*");
+				SubStrs(&m_CanUseFileName, "?");
+				SubStrs(&m_CanUseFileName, "\"");
+				SubStrs(&m_CanUseFileName, ">");
+				SubStrs(&m_CanUseFileName, "<");
+				SubStrs(&m_CanUseFileName, "|");
 			}
 			else if (LEFT == "Color") {
 				m_Color[0] = std::stoi(Args[0]);
@@ -66,6 +79,7 @@ namespace FPS_n2 {
 		const auto&		GetID() const noexcept { return this->m_ID; }
 		const auto&		GetIDstr() const noexcept { return this->m_IDstr; }
 		const auto&		GetName() const noexcept { return this->m_Name_Eng; }
+		const auto&		GetCanUseFileName() const noexcept { return this->m_CanUseFileName; }
 		const auto&		GetShortName() const noexcept { return this->m_ShortName; }
 		const auto&		GetFilePath() const noexcept { return this->m_FilePath; }
 
@@ -398,6 +412,7 @@ namespace FPS_n2 {
 	public:
 		std::string									m_id;
 		std::string									m_name_jp;
+		std::string									m_CanUseFileNameJP;
 		std::string									m_Information_Jpn;
 		std::string									m_categorytypes;
 	public:
@@ -409,6 +424,19 @@ namespace FPS_n2 {
 
 			m_id = data["id"];
 			m_name_jp = data["name"];
+			m_CanUseFileNameJP = m_name_jp;
+			SubStrs(&m_CanUseFileNameJP, ".");
+			SubStrs(&m_CanUseFileNameJP, "\\");
+			SubStrs(&m_CanUseFileNameJP, "/");
+			SubStrs(&m_CanUseFileNameJP, ":");
+			SubStrs(&m_CanUseFileNameJP, "*");
+			SubStrs(&m_CanUseFileNameJP, "?");
+			SubStrs(&m_CanUseFileNameJP, "\"");
+			SubStrs(&m_CanUseFileNameJP, ">");
+			SubStrs(&m_CanUseFileNameJP, "<");
+			SubStrs(&m_CanUseFileNameJP, "|");
+
+
 			m_Information_Jpn = "";
 			if (data.contains("description")) {
 				if (!data["description"].is_null()) {
@@ -458,6 +486,7 @@ namespace FPS_n2 {
 	public:
 		std::string									m_id;
 		std::string									m_name;
+		std::string									m_CanUseFileName;
 		std::string									m_shortName;
 		std::string									m_Information_Eng;
 	public:
@@ -468,6 +497,17 @@ namespace FPS_n2 {
 			m_IsFileOpened = false;
 			m_id = data["id"];
 			m_name = data["name"];
+			m_CanUseFileName = m_name;
+			SubStrs(&m_CanUseFileName, ".");
+			SubStrs(&m_CanUseFileName, "\\");
+			SubStrs(&m_CanUseFileName, "/");
+			SubStrs(&m_CanUseFileName, ":");
+			SubStrs(&m_CanUseFileName, "*");
+			SubStrs(&m_CanUseFileName, "?");
+			SubStrs(&m_CanUseFileName, "\"");
+			SubStrs(&m_CanUseFileName, ">");
+			SubStrs(&m_CanUseFileName, "<");
+			SubStrs(&m_CanUseFileName, "|");
 
 			if (data.contains("shortName") && !data["shortName"].is_null()) {
 				m_shortName = data["shortName"];
@@ -561,18 +601,7 @@ namespace FPS_n2 {
 
 					std::string ChildPath = ParentPath + "/";
 
-					std::string FileName = jd->m_name;
-					SubStrs(&FileName, ".");
-					SubStrs(&FileName, "\\");
-					SubStrs(&FileName, "/");
-					SubStrs(&FileName, ":");
-					SubStrs(&FileName, "*");
-					SubStrs(&FileName, "?");
-					SubStrs(&FileName, "\"");
-					SubStrs(&FileName, ">");
-					SubStrs(&FileName, "<");
-					SubStrs(&FileName, "|");
-					std::string Name = FileName + ".txt";
+					std::string Name = jd->m_CanUseFileName + ".txt";
 
 					jd->OutputData(ChildPath + Name);
 					//RemoveDirectory(Path.c_str());
@@ -633,18 +662,7 @@ namespace FPS_n2 {
 
 					std::string ChildPath = ParentPath + "/";
 
-					std::string FileName = jd->m_name_jp;
-					SubStrs(&FileName, ".");
-					SubStrs(&FileName, "\\");
-					SubStrs(&FileName, "/");
-					SubStrs(&FileName, ":");
-					SubStrs(&FileName, "*");
-					SubStrs(&FileName, "?");
-					SubStrs(&FileName, "\"");
-					SubStrs(&FileName, ">");
-					SubStrs(&FileName, "<");
-					SubStrs(&FileName, "|");
-					std::string Name = FileName + std::to_string((int)(&jd - &m_JpJsonData.front())) + ".txt";
+					std::string Name = jd->m_CanUseFileNameJP + std::to_string((int)(&jd - &m_JpJsonData.front())) + ".txt";
 
 					jd->OutputData(ChildPath + Name);
 					//RemoveDirectory(Path.c_str());

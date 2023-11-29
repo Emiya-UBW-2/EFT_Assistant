@@ -29,6 +29,7 @@ namespace FPS_n2 {
 		HIDEOUTDATA,
 	};
 	enum class EnumWikiDataType {
+		LOOT_WIKI_HTML,
 		ITEMDATA_KEY_WIKI_HTML,
 		ITEMDATA_KEY,
 	};

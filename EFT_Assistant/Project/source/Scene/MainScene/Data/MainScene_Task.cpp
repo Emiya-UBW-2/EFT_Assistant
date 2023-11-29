@@ -1173,10 +1173,9 @@ namespace FPS_n2 {
 					sprintfDx(tID, "%02d%03d", trID, TraderIDs[trID]);
 					TraderIDs[trID]++;
 					FileName = tID;
-					FileName += "_" + jd->m_name + ".txt";
+					FileName += "_" + jd->m_CanUseFileName + ".txt";
 
 				}
-				SubStrs(&FileName, ".");
 				std::string Name = FileName + ".txt";
 				jd->OutputData(ChildPath + Name);
 			}

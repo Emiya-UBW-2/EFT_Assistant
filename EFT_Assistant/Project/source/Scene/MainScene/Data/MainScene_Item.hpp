@@ -1143,12 +1143,7 @@ namespace FPS_n2 {
 					}
 
 					std::string ChildPath = ParentPath + "/";
-
-					std::string FileName = jd->m_name;
-					SubStrs(&FileName, ".");
-					SubStrs(&FileName, "\\");
-					SubStrs(&FileName, "/");
-					std::string Name = FileName + std::to_string((int)(&jd - &GetJsonDataList().front())) + ".txt";
+					std::string Name = jd->m_CanUseFileName + std::to_string((int)(&jd - &GetJsonDataList().front())) + ".txt";
 
 					jd->OutputData(ChildPath + Name);
 					//RemoveDirectory(Path.c_str());
