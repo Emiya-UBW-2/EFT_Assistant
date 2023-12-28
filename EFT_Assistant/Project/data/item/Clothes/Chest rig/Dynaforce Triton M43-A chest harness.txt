@@ -1,5 +1,5 @@
 IDstr=5ca20abf86f77418567a43f2
-Name=Dynaforce Triton M43-A chest harness
+Name=Dynaforce Triton M43-A chest harness (Black)
 ShortName=Triton
 Information_Eng=The Triton M43-A assault chest rig is designed to store and carry ammunition and equipment for use in moderate and hot climates. Manufactured by Dynaforce.
 Itemtype=chest-rig

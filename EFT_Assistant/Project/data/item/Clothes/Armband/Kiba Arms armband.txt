@@ -1,5 +1,5 @@
 IDstr=619bde3dc9546643a67df6f2
-Name=Kiba Arms armband
+Name=Armband (Kiba Arms)
 ShortName=Kiba
 Information_Eng=An armband for Kiba Arms employees.
 Itemtype=arm-band

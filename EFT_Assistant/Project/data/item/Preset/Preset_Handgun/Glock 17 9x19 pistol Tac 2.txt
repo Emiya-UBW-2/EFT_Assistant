@@ -12,7 +12,7 @@ containsItems=[
 	Glock 17 9x19 pistolx1/|
 	Glock 9x19 Double Diamond threaded barrelx1/|
 	SilencerCo Osprey 9 9x19 sound suppressorx1/|
-	Glock 17 9x19 pistol slidex1/|
+	Glock 17 pistol slidex1/|
 	Glock 9x19 Magpul PMAG GL9 21-round magazinex1/|
 	Glock Aimtech mount basex1/|
 	Burris FastFire Weaver Basex1/|

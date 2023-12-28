@@ -17,8 +17,8 @@ containsItems=[
 	AK-74 PWS CQB 74 5.45x39 muzzle brakex1/|
 	AK Strike Industries Enhanced Pistol Grip (Black)x1/|
 	AK-545 SAG buffer tubex1/|
-	High Standard M4SS Stockx1/|
+	AR-15 High Standard M4SS Stockx1/|
 	AK-74 5.45x39 6L23 30-round magazinex1
 ]
-Name_Jpn=SAG AK-545 Short 5.45x39 carbine デフォルト
+Name_Jpn=AK-545 Short 5.45x39 カービン デフォルト
 Information_Jpn=

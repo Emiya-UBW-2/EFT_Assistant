@@ -2,7 +2,7 @@ IDstr=59674eb386f774539f14813a
 Name=Delivery from the Past
 Trader=Prapor
 
-NeedTask=Checking
+NeedTask=Background Check
 NeedLevel=5
 NeedItem=[Tarcone Director's office keyx1]
 

@@ -45,7 +45,7 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 Reward_Rep=Jaeger+3
 Reward_Item=[
 	Roublesx75000/|
-	Molot VPO-101 "Vepr-Hunter" 7.62x51 carbine SVDx2/|
+	Molot Arms VPO-101 "Vepr-Hunter" 7.62x51 carbine SVDx2/|
 	7.62x51mm M61x40
 ]
 

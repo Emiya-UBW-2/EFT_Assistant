@@ -22,5 +22,5 @@ containsItems=[
 	SA-58 Extreme Duty dust coverx1/|
 	SA-58 BRS stockx1
 ]
-Name_Jpn=DS Arms SA-58 7.62x51 assault rifle X-FAL
+Name_Jpn=SA-58 7.62x51 アサルトライフル X-FAL
 Information_Jpn=

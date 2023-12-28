@@ -21,18 +21,18 @@ ChildParts=[
 	PM Tactic Kit pistol grip/|
 	PM FAB Defense PM-G pistol grip (Olive Drab)
 ]
-Recoil=480.000000
-RecoilHorizontal=305.000000
+Recoil=380.000000
+RecoilHorizontal=265.000000
 Ergonomics=85.000000
 SightRange=-100
 FireRate=30
 centerOfImpact=0.390000
 deviationCurve=2.500000
-recoilDispersion=20
+recoilDispersion=12
 recoilAngle=85
-cameraRecoil=0.016000
-cameraSnap=3.500000
+cameraRecoil=0.000000
+cameraSnap=5.000000
 deviationMax=10
-convergence=5.000000
+convergence=0.000000
 Name_Jpn=Makarov PM 9x18PM pistol
 Information_Jpn=The time-proven PM pistol (Pistolét Makárova - "Makarov Pistol", GAU Index - 56-A-125). Due to the ubiquitous spread of both the pistol and its ammunition, as well as its exceptional reliability, light weight, and compact size, the PM still sees wide service in both police, military, and security forces. Although the damage makes you wish for the best.

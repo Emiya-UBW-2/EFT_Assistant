@@ -1,5 +1,5 @@
 IDstr=5e0359bd86f7746b243db876
-Name=Molot VPO-215 "Gornostay" .366 TKM bolt-action rifle Default
+Name=Molot Arms VPO-215 "Gornostay" .366 TKM bolt-action rifle Default
 ShortName=VPO-215 "Gornostay" Default
 Itemtype=sniper-rifle
 width=5
@@ -9,7 +9,7 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
-	Molot VPO-215 "Gornostay" .366 TKM bolt-action riflex1/|
+	Molot Arms VPO-215 "Gornostay" .366 TKM bolt-action riflex1/|
 	VPO-215 "Gornostay" .366 TKM 4-round magazinex1/|
 	VPO-215 "Gornostay" stockx1/|
 	VPO-215 "Gornostay" .366TKM 23 inch barrelx1/|

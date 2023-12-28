@@ -1,0 +1,12 @@
+IDstr=655c652d60d0ac437100fed7
+Name=BEAR operative figurine
+ShortName=BEAR
+Information_Eng=The Tarko collectible figure of a BEAR PMC fighter. This collectible image of a soldier with an MP-155 Ultima perfectly conveys the spirit and willingness of Bears to fight to the end.
+Itemtype=jewelry
+width=1
+height=2
+weight=0.200000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=BEAR operative figurine
+Information_Jpn=The Tarko collectible figure of a BEAR PMC fighter. This collectible image of a soldier with an MP-155 Ultima perfectly conveys the spirit and willingness of Bears to fight to the end.

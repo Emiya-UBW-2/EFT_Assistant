@@ -31,17 +31,17 @@ ChildParts=[
 	MP9 charging handle
 ]
 Recoil=51.000000
-RecoilHorizontal=283.000000
+RecoilHorizontal=254.000000
 Ergonomics=75.000000
 SightRange=-100
 FireRate=1100
 centerOfImpact=0.210000
 deviationCurve=2.250000
-recoilDispersion=15
+recoilDispersion=10
 recoilAngle=95
-cameraRecoil=0.038400
+cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=11
-convergence=2.200000
-Name_Jpn=B&T MP9-N 9x19 submachine gun
+convergence=0.000000
+Name_Jpn=MP9-N 9x19 サブマシンガン
 Information_Jpn=MP9-NはMP-9 サブマシンガンの改良版で、警察や軍隊の特殊部隊用に洗練され最適化されている。世界中の特殊部隊で採用されているほか、VIPの護衛部隊などでも使用されている。個人防衛武器（PDW）としても優秀な銃だ。

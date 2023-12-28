@@ -45,7 +45,8 @@ ChildParts=[
 	Zenit Perst-3 tactical device/|
 	ELCAN Specter HCO holographic sight/|
 	MAWL-C1+ tactical device/|
-	SIG Sauer ROMEO7 1x30 reflex sight (prototype)
+	SIG Sauer ROMEO7 1x30 reflex sight (Prototype)/|
+	Wilcox BOSS Xe reflex sight
 ]
 ChildParts=[
 	BCM GUNFIGHTER MOD 3 vertical foregrip/|
@@ -64,7 +65,7 @@ ChildParts=[
 	Strike Industries Cobra Tactical foregrip/|
 	TangoDown Stubby BGV-MK46K foregrip (Black)/|
 	TangoDown Stubby BGV-MK46K foregrip (FDE)/|
-	TangoDown Stubby BGV-MK46K foregrip (Stealth Gray)/|
+	TangoDown Stubby BGV-MK46K foregrip (Stealth Grey)/|
 	Tactical Dynamics Skeletonized Foregrip/|
 	Viking Tactics UVG tactical foregrip/|
 	Zenit RK-1 tactical foregrip on B-25U mount/|
@@ -73,7 +74,13 @@ ChildParts=[
 	Zenit RK-2 tactical foregrip/|
 	Zenit RK-4 tactical foregrip/|
 	Zenit RK-5 tactical foregrip/|
-	Zenit RK-6 tactical foregrip
+	Zenit RK-6 tactical foregrip/|
+	RTM Osovets P-2 tactical foregrip/|
+	RTM Osovets P-2 tactical foregrip (Khaki)/|
+	RTM Pillau tactical foregrip (Sand)/|
+	RTM Pillau P-2 tactical foregrip (Red)/|
+	Stark SE-5 Express Forward foregrip (FDE)/|
+	Strike Industries Cobra Tactical foregrip (FDE)
 ]
 Recoil=-1.000000
 Ergonomics=8.000000

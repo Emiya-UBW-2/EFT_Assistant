@@ -1,11 +1,11 @@
 IDstr=628cd624459354321c4b7fa2
-Name=Tasmanian Tiger SK plate carrier (Multicam Black)
+Name=Tasmanian Tiger SK plate carrier (MultiCam Black)
 ShortName=TT SK
 Information_Eng=The ultra-light and skeletal TT Plate Carrier SK vest is made primarily from lightweight, thin and durable TPU-laminated Cordura nylon material with a claimed density of at least 700 denier. The design of the vest provides two lightweight covers for plates, adjustable shoulder straps and a light waist jumper. Equipped with a front panel for 4 magazines.
 Itemtype=chest-rig
 width=3
 height=3
-weight=7.500000
+weight=1.500000
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
 Name_Jpn=Tasmanian Tiger SK plate carrier (Multicam Black)

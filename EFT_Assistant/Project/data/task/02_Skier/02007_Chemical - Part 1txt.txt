@@ -50,7 +50,7 @@ Task_Else=Locate the sleeping place of the former Deputy Chief of Security on Cu
 Reward_Rep=Skier+4
 Reward_Item=[
 	Roublesx15000/|
-	MSA ACH TC-2002 MICH Series helmetx1
+	MSA ACH TC-2002 MICH Series helmet (Olive Drab)x1
 ]
 
 Reward_EXP=4800

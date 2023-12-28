@@ -20,17 +20,17 @@ ChildParts=[
 	HK MP5K cocking handle
 ]
 Recoil=57.000000
-RecoilHorizontal=297.000000
+RecoilHorizontal=267.000000
 Ergonomics=55.000000
 SightRange=-100
 FireRate=900
 centerOfImpact=0.220000
 deviationCurve=2.250000
-recoilDispersion=15
+recoilDispersion=10
 recoilAngle=90
-cameraRecoil=0.045600
+cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=11
-convergence=1.700000
-Name_Jpn=HK MP5K 9x19 submachine gun
-Information_Jpn=HK MP5K (K from the German word Kurz - "short") is a shorter version of MP5 SMG which was designed for close quarters combat use by clandestine operations and special services.
+convergence=0.000000
+Name_Jpn=MP5K 9x19 サブマシンガン
+Information_Jpn=HK MP5K（Kはドイツ語の"Kurz"からきていて、"短い"を意味する）は、MP5 サブマシンガンの短縮版で、秘密作戦や特殊部隊による近接戦闘での使用を目的として設計されたものだ。

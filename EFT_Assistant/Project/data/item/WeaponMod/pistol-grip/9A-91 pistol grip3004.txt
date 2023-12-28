@@ -1,0 +1,15 @@
+IDstr=6450f21a3d52156624001fcf
+Name=9A-91 pistol grip
+ShortName=9A-91 PG
+Information_Eng=A standard-issue pistol grip for the 9A-91 assault rifle. Manufactured by Tula KPB Instrument Design Bureau.
+Itemtype=pistol-grip
+width=1
+height=1
+weight=0.146000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=0.000000
+Ergonomics=5.000000
+accuracyModifier=0.000000
+Name_Jpn=9A-91 pistol grip
+Information_Jpn=A standard-issue pistol grip for the 9A-91 assault rifle. Manufactured by Tula KPB Instrument Design Bureau.

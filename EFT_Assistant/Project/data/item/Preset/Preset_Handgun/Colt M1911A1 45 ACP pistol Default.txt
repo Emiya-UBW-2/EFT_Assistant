@@ -12,7 +12,7 @@ containsItems=[
 	Colt M1911A1 .45 ACP pistolx1/|
 	M1911A1 .45 ACP 127mm barrelx1/|
 	M1911A1 side gripsx1/|
-	M1911A1 .45 ACP pistol slidex1/|
+	M1911A1 pistol slidex1/|
 	M1911A1 rear sightx1/|
 	M1911A1 front sightx1/|
 	M1911A1 .45 ACP 7-round magazinex1/|

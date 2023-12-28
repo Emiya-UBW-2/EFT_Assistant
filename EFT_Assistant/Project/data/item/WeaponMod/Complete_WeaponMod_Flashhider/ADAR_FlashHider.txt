@@ -11,7 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AR-15 Griffin Armament M4SD-K 5.56x45 sound suppressor
 ]
-Recoil=-7.000000
+Recoil=-5.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
 Name_Jpn=AR-15 ADAR 2-15 5.56x45 flash hider

@@ -1,0 +1,12 @@
+IDstr=65815f0e647e3d7246384e14
+Name=Pack of Tarker dried meat
+ShortName=Tarker
+Information_Eng=A vacuum pack with slices of beef jerky. Yum yum.
+Itemtype=food
+width=1
+height=1
+weight=0.280000
+fleaMarketFee=0
+propertiestype=ItemPropertiesFoodDrink
+Name_Jpn=Pack of Tarker dried meat
+Information_Jpn=A vacuum pack with slices of beef jerky. Yum yum.

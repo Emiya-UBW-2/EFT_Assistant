@@ -27,18 +27,18 @@ ChildParts=[
 	Mossberg 590 Ghost Ring rear sight/|
 	Mossberg 590A1 Tactical rail
 ]
-Recoil=468.000000
-RecoilHorizontal=610.000000
+Recoil=421.000000
+RecoilHorizontal=494.000000
 Ergonomics=48.000000
 SightRange=-100
 FireRate=30
 centerOfImpact=0.420000
 deviationCurve=2.500000
-recoilDispersion=15
+recoilDispersion=10
 recoilAngle=95
-cameraRecoil=0.144000
+cameraRecoil=0.000000
 cameraSnap=2.600000
 deviationMax=10
-convergence=1.700000
+convergence=0.000000
 Name_Jpn=Mossberg 590A1 12ga pump-action shotgun
 Information_Jpn=The Mossberg 500 Series is one of the most famous and widespread pump-action shotguns in the world. Protects your front lawn since 1961.

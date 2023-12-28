@@ -1,0 +1,4 @@
+Name_Jpn=SVDS dust cover
+Information_Jpn=A standard-issue dust cover for SVDS sniper rifles, manufactued by Izhmash.
+Name_Jpn=SVDS dust cover
+Information_Jpn=A standard-issue dust cover for SVDS sniper rifles, manufactued by Izhmash.

@@ -37,7 +37,8 @@ ChildParts=[
 	Insight WMX200 tactical flashlight/|
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
-	MAWL-C1+ tactical device
+	MAWL-C1+ tactical device/|
+	Zenit KR-2 old gen mount
 ]
 Recoil=0.000000
 Ergonomics=9.000000

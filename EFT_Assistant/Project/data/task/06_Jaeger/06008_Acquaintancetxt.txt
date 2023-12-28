@@ -19,17 +19,17 @@ DogTagLv=0
 
 [
 	TaskType=giveItem
-	TaskText=Find Iskra ration packs in raid
+	TaskText=Hand over the found in raid Iskra ration packs
 	TaskOptional=false
 ]
 [
 	TaskType=giveItem
-	TaskText=Find Emelya rye croutons in raid
+	TaskText=Hand over the found in raid Packs of instant noodles
 	TaskOptional=false
 ]
 [
 	TaskType=giveItem
-	TaskText=Find Cans of beef stew (Large) in raid
+	TaskText=Hand over the found in raid Cans of beef stew (Large)
 	TaskOptional=false
 ]
 

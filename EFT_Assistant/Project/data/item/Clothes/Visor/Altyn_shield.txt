@@ -1,5 +1,5 @@
 IDstr=5aa7e373e5b5b000137b76f0
-Name=Altyn face shield
+Name=Altyn helmet face shield
 ShortName=Altyn FS
 Information_Eng=A special armored face shield for the "Altyn" heavy assault helmet. Increases the chances of surviving the impacts of bullets and shrapnel.
 Itemtype=armored-equipment

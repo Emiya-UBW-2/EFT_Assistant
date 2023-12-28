@@ -15,7 +15,9 @@ ChildParts=[
 ChildParts=[
 	AR-10 7.62x51 KAC 10-round steel magazine/|
 	AR-10 7.62x51 KAC 20-round steel magazine/|
-	AR-10 7.62x51 Magpul PMAG 20 SR-LR GEN M3 20-round magazine
+	AR-10 7.62x51 Magpul PMAG 20 SR-LR GEN M3 20-round magazine/|
+	AR-10 7.62x51 Lancer L7AWM 20-round magazine/|
+	AR-10 7.62x51 Lancer L7AWM 25-round magazine
 ]
 ChildParts=[
 	MDR handguard (FDE)/|
@@ -85,8 +87,11 @@ ChildParts=[
 	Leapers UTG 25mm ring scope mount/|
 	Armasight Zeus universal base/|
 	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope/|
-	SIG Sauer ROMEO7 1x30 reflex sight (prototype)/|
-	ELCAN Specter HCO holographic sight
+	SIG Sauer ROMEO7 1x30 reflex sight (Prototype)/|
+	ELCAN Specter HCO holographic sight/|
+	GBRS Aimpoint Hydra Mount Kit (Black)/|
+	GBRS Aimpoint Hydra Mount Kit (FDE)/|
+	Wilcox BOSS Xe reflex sight
 ]
 ChildParts=[
 	HK MP7 flip-up rear sight/|
@@ -100,18 +105,18 @@ ChildParts=[
 	AR-15 Colt A2 rear sight/|
 	AR-15 rear sight carry handle
 ]
-Recoil=126.000000
+Recoil=101.000000
 RecoilHorizontal=315.000000
 Ergonomics=72.000000
 SightRange=-100
 FireRate=650
 centerOfImpact=0.010000
 deviationCurve=1.350000
-recoilDispersion=15
+recoilDispersion=12
 recoilAngle=90
-cameraRecoil=0.096000
+cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=23
-convergence=1.300000
+convergence=0.000000
 Name_Jpn=MDR 7.62x51 アサルトライフル
 Information_Jpn=MDR 7.62x51（.308）は、デザートテックLLCによって設計および製造された、ブルパップ方式アサルトライフルで、組み立てユニットのマルチキャリバーライフルで、コンパクトなブルパップのレイアウトを備え、警察および軍の特殊部隊向けに設計されている。銃身の長さや口径は、最小限の工具を使用して、数分でエンドユーザーによって改造ができる。

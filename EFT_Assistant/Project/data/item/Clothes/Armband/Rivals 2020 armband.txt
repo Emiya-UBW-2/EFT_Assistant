@@ -1,5 +1,5 @@
 IDstr=5f9949d869e2777a0e779ba5
-Name=Rivals 2020 armband
+Name=Armband (Rivals 2020)
 ShortName=Rivals
 Information_Eng=An exclusive armband from the Twitch Rivals 2020 event.
 Itemtype=arm-band

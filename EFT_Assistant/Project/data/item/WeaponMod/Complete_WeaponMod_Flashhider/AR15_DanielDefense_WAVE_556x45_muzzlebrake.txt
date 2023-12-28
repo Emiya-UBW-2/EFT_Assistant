@@ -11,7 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Daniel Defense WAVE QD sound suppressor
 ]
-Recoil=-9.000000
+Recoil=-6.000000
 Ergonomics=-1.000000
 accuracyModifier=0.010000
 Name_Jpn=AR-15 Daniel Defense WAVE 5.56x45 muzzle brake

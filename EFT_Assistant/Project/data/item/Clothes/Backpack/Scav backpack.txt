@@ -8,5 +8,5 @@ height=5
 weight=2.214000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
-Name_Jpn=Scav backpack
-Information_Jpn=A cheap replica of some 3-day assault pack with a MOLLE attachment system, adapted and enhanced by the owner as much as their creativity allowed. Does not offer much comfort, and volume is far lower than that of a proper 3-day pack, but it's still a backpack alright.
+Name_Jpn=Scav バックパック
+Information_Jpn=MOLLE システムを備えた 3-day アサルトパックを意識して作られた粗末な模造品。以前の持ち主によって想像力の及ぶ限り拡張されたようだが、あまり快適とは言えず、容量も本物と比べると遠く及ばない。それでも一応バックパックとして使えるから、まあ大丈夫だろう。

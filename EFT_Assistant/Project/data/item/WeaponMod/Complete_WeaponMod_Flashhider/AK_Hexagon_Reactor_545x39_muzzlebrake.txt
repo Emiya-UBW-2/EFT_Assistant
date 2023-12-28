@@ -11,7 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AK-74 Hexagon Wafflemaker 5.45x39 sound suppressor
 ]
-Recoil=-17.000000
+Recoil=-12.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
 Name_Jpn=AK Hexagon Reactor 5.45x39 muzzle brake

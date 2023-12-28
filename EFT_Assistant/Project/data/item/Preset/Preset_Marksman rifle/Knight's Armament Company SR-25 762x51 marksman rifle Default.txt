@@ -12,8 +12,8 @@ containsItems=[
 	Knight's Armament Company SR-25 7.62x51 marksman riflex1/|
 	AR-15 Colt A2 pistol gripx1/|
 	AR-10 7.62x51 KAC 20-round steel magazinex1/|
-	Colt Carbine buffer tubex1/|
-	LMT SOPMOD stockx1/|
+	AR-15 Colt Carbine buffer tubex1/|
+	AR-15 LMT SOPMOD stockx1/|
 	SR-25 7.62x51 upper receiverx1/|
 	SR-25 7.62x51 16 inch barrelx1/|
 	AR-10 KAC QDC 7.62x51 Flash Suppressor Kitx1/|

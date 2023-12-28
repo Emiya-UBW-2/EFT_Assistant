@@ -1,0 +1,12 @@
+IDstr=654a4a964b446df1ad03f192
+Name=Granit 4RS ballistic plates (Back)
+ShortName=Granit 4RS Back
+Information_Eng=Two armor plates for the back section of 6B13 body armor. Features improved ergonomic characteristics: anatomical shape and division into two panels provides an optimal fit to the user's figure, increasing the comfort of use.
+Itemtype=armor-plate
+width=2
+height=2
+weight=3.800000
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=Granit 4RS ballistic plates (Back)
+Information_Jpn=Two armor plates for the back section of 6B13 body armor. Features improved ergonomic characteristics: anatomical shape and division into two panels provides an optimal fit to the user's figure, increasing the comfort of use.

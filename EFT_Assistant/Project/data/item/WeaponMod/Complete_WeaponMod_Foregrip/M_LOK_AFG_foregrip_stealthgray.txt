@@ -1,7 +1,7 @@
 IDstr=57cffce524597763b31685d8
-Name=Magpul M-LOK AFG tactical foregrip (Stealth Gray)
+Name=Magpul M-LOK AFG tactical foregrip (Stealth Grey)
 ShortName=AFG M-LOK
-Information_Eng=The Magpul M-LOK AFG tactical grip. It can only be installed on Magpul licensed M-LOK slots on applicable equipment. Stealth Gray version.
+Information_Eng=The Magpul M-LOK AFG tactical grip. It can only be installed on Magpul licensed M-LOK slots on applicable equipment. Stealth Grey version.
 Itemtype=foregrip
 width=1
 height=1

@@ -1,0 +1,15 @@
+IDstr=652910bc24cbe3c74a05e5b9
+Name=MCX SPEAR Adjustable Gas Piston
+ShortName=SPEAR gas
+Information_Eng=A gas piston for the MCX SPEAR assault rifle. Manufactured by SIG Sauer.
+Itemtype=gas-block
+width=1
+height=1
+weight=0.049000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=-3.000000
+Ergonomics=-1.000000
+accuracyModifier=0.000000
+Name_Jpn=MCX SPEAR Adjustable Gas Piston
+Information_Jpn=A gas piston for the MCX SPEAR assault rifle. Manufactured by SIG Sauer.

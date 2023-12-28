@@ -80,9 +80,12 @@ ChildParts=[
 	UNV DLOC-IRD sight mount/|
 	SwampFox Trihawk Prism Scope 3x30/|
 	Armasight Zeus universal base/|
-	SIG Sauer ROMEO7 1x30 reflex sight (prototype)/|
+	SIG Sauer ROMEO7 1x30 reflex sight (Prototype)/|
 	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope/|
-	ELCAN Specter HCO holographic sight
+	ELCAN Specter HCO holographic sight/|
+	GBRS Aimpoint Hydra Mount Kit (Black)/|
+	GBRS Aimpoint Hydra Mount Kit (FDE)/|
+	Wilcox BOSS Xe reflex sight
 ]
 ChildParts=[
 	Holosun LS321 Tactical device/|
@@ -111,18 +114,18 @@ ChildParts=[
 ChildParts=[
 	KRISS Vector side rail
 ]
-Recoil=37.000000
-RecoilHorizontal=351.000000
+Recoil=48.000000
+RecoilHorizontal=315.000000
 Ergonomics=65.000000
 SightRange=-100
 FireRate=950
 centerOfImpact=0.250000
 deviationCurve=2.250000
-recoilDispersion=30
+recoilDispersion=20
 recoilAngle=85
-cameraRecoil=0.072000
+cameraRecoil=0.000000
 cameraSnap=4.700000
 deviationMax=11
-convergence=3.400000
+convergence=0.000000
 Name_Jpn=TDI KRISS Vector Gen.2 9x19 submachine gun
 Information_Jpn=The KRISS Vector SMG is the ideal choice for law enforcement and military seeking a controllable and compact weapon system for close quarter combat environments. The low bore axis and Super V recoil mitigation system allow for controllable shots when firing in full-automatic, or fast semi-automatic follow up shots. Compatible with Glock 9x19 magazines.

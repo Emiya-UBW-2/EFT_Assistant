@@ -31,7 +31,9 @@ ChildParts=[
 	AK KGB MG-47 pistol grip (Anodized Red)/|
 	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip/|
 	AK Aeroknox Scorpius pistol grip/|
-	AK Mission First Tactical ENGAGE AK47 pistol grip
+	AK Mission First Tactical ENGAGE AK47 pistol grip/|
+	AK CG101 AR-type pistol grip adapter/|
+	AK PUFGUN SG-M2 pistol grip
 ]
 ChildParts=[
 	RPK-16 dust cover
@@ -66,17 +68,17 @@ ChildParts=[
 	RPK-16 5.45x39 22 inch barrel
 ]
 Recoil=112.000000
-RecoilHorizontal=370.000000
+RecoilHorizontal=333.000000
 Ergonomics=45.000000
 SightRange=-100
 FireRate=650
 centerOfImpact=0.040000
 deviationCurve=1.350000
-recoilDispersion=25
+recoilDispersion=8
 recoilAngle=90
-cameraRecoil=0.096000
+cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=23
-convergence=1.700000
+convergence=0.000000
 Name_Jpn=RPK-16 5.45×39 ライトマシンガン
-Information_Jpn=RPK-16 (Ruchnoy Pulemyot Kalashnikova 16 - "Kalashnikov's Hand-held machine gun 16) is the newest Russian light machine gun chambered in 5.45x39mm rounds. Some key features of this new weapon are the quickly detachable barrels, enhanced ergonomics, and weaver rails on the handguard and dust cover.
+Information_Jpn=RPK-16（Ruchnoy Pulemyot Kalashnikova 16 - "カラシニコフ携行式機関銃 16"）は、新型のロシアの軽機関銃で、5.45x39mm 弾薬を使い、主な特徴は、取り回しの良い銃身、扱いやすく改良されたエルゴノミクス、ハンドガードとダストカバーに備えられたウェーバーレールだ。

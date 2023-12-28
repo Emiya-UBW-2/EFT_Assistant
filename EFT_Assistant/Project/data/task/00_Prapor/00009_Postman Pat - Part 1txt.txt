@@ -40,7 +40,7 @@ Task_Else=該当タスク状態:complete
 Reward_Rep=Prapor+2
 Reward_Item=[
 	Roublesx40000/|
-	ANA Tactical Beta 2 Battle backpackx1/|
+	ANA Tactical Beta 2 Battle backpack (Olive Drab)x1/|
 	6B23-1 body armor (Digital Flora)x1
 ]
 

@@ -15,7 +15,7 @@ containsItems=[
 	Magpul RVG foregrip (Black)x1/|
 	M870 12ga 4-shell magazine capx1/|
 	M870 Mesa Tactical LEO stock adapterx1/|
-	Magpul MOE Carbine stock (Black)x1/|
+	AR-15 Magpul MOE Carbine stock (Black)x1/|
 	Magpul MOE Carbine rubber buttpadx1/|
 	AR-15 Colt A2 pistol gripx1/|
 	M870 XS SHOTRAIL rail with Ghost Ring rear sightx1/|

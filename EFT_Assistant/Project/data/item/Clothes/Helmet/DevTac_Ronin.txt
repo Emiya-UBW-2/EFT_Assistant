@@ -7,6 +7,6 @@ width=2
 height=2
 weight=1.600000
 fleaMarketFee=0
-propertiestype=ItemPropertiesHelmet
+propertiestype=
 Name_Jpn=DevTac Ronin ballistic helmet
 Information_Jpn=A Japan-styled tactical helmet, manufactured by DevTac. Not used by any military or special forces. Just somehow happened to be in Tarkov for some frivolous price. Features a full protection of the whole head, but the armor class is not good enough to actually be useful in combat.

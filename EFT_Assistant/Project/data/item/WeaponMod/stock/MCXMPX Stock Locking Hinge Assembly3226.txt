@@ -1,0 +1,18 @@
+IDstr=6529348224cbe3c74a05e5c4
+Name=MCX/MPX Stock Locking Hinge Assembly
+ShortName=MCX/MPX
+Information_Eng=A folding stock adapter for SIG rifles and SMGs. Manufactured by SIG Sauer.
+Itemtype=stock
+width=1
+height=1
+weight=0.200000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	MCX/MPX folding stock adapter buffer tube (Coyote Tan)
+]
+Recoil=0.000000
+Ergonomics=-2.000000
+accuracyModifier=0.000000
+Name_Jpn=MCX/MPX Stock Locking Hinge Assembly
+Information_Jpn=A folding stock adapter for SIG rifles and SMGs. Manufactured by SIG Sauer.

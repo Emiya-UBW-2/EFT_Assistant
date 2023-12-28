@@ -1,0 +1,22 @@
+IDstr=657315e270bb0b8dba00cc48
+Name=Burning Rubber
+Trader=Skier
+
+NeedLevel=0
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+
+Reward_Item=[
+	Roublesx5000
+]
+Reward_Rep=Skier+1
+Reward_Item=[
+	Roublesx12000/|
+	OPSMEN Earmor M32 headsetx1
+]
+
+Reward_EXP=1900

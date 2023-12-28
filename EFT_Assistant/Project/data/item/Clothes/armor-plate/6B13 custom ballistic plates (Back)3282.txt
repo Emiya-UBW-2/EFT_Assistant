@@ -1,0 +1,12 @@
+IDstr=656efd66034e8e01c407f35c
+Name=6B13 custom ballistic plates (Back)
+ShortName=6B13 Back
+Information_Eng=Custom homespun ballistic plates for the 6B13 bulletproof vest.
+Itemtype=armor-plate
+width=2
+height=2
+weight=4.100000
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=6B13 custom ballistic plates (Back)
+Information_Jpn=Custom homespun ballistic plates for the 6B13 bulletproof vest.

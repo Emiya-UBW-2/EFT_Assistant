@@ -1,0 +1,12 @@
+IDstr=657023eccfc010a0f50069ef
+Name=.357 Magnum SP ammo pack (25 pcs)
+ShortName=SP
+Information_Eng=A box of .357 Magnum SP cartridges, 25 pieces.
+Itemtype=ammo-container
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=.357 Magnum SP ammo pack (25 pcs)
+Information_Jpn=A box of .357 Magnum SP cartridges, 25 pieces.

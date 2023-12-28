@@ -41,7 +41,9 @@ ChildParts=[
 	AK US Palm pistol grip/|
 	AK Zenit RK-3 pistol grip/|
 	PP-19-01 "Vityaz" pistol grip/|
-	AK Mission First Tactical ENGAGE AK47 pistol grip
+	AK Mission First Tactical ENGAGE AK47 pistol grip/|
+	AK CG101 AR-type pistol grip adapter/|
+	AK PUFGUN SG-M2 pistol grip
 ]
 ChildParts=[
 	AK-12 dust cover
@@ -75,17 +77,17 @@ ChildParts=[
 	AK-12 handguard
 ]
 Recoil=100.000000
-RecoilHorizontal=336.000000
+RecoilHorizontal=302.000000
 Ergonomics=36.000000
 SightRange=-100
 FireRate=700
 centerOfImpact=0.046000
 deviationCurve=1.350000
-recoilDispersion=12
+recoilDispersion=8
 recoilAngle=90
-cameraRecoil=0.062600
+cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=23
-convergence=1.650000
-Name_Jpn=Kalashnikov AK-12 5.45x39 assault rifle
+convergence=0.000000
+Name_Jpn=Kalashnikov AK-12 5.45x39 アサルトライフル
 Information_Jpn=The Kalashnikov AK-12 5.45 automatic rifle is the primary model of individual small arms for personnel of motorized and other units of the Russian Armed Forces. The AK-12 is a part of the Ratnik equipment system.

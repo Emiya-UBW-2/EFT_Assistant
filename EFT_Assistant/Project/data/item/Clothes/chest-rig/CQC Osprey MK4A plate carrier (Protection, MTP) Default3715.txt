@@ -1,0 +1,18 @@
+IDstr=657664ae303700411c02428c
+Name=CQC Osprey MK4A plate carrier (Protection, MTP) Default
+ShortName=Osprey MK4A (P) Default
+Itemtype=chest-rig
+width=4
+height=3
+weight=15.900000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	CQC Osprey MK4A plate carrier (Protection, MTP)x1/|
+	Aramid insertx1/|
+	TallCom Guardian ballistic platex2/|
+	SSAPI level III+ ballistic plate (Side)x2
+]
+Name_Jpn=CQC Osprey MK4A プレートキャリア (Protection, MTP) デフォルト
+Information_Jpn=

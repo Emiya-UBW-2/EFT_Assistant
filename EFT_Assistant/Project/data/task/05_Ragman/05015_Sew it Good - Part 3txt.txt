@@ -10,11 +10,11 @@ NeedKappa=true
 NeedLightkeeper=true
 
 factionName=Any
-NeedItem=6B43 6A Zabralo-Sh body armorx1
-Task_NotFiR_HandOver=[6B43 6A Zabralo-Sh body armorx1]
+NeedItem=6B43 Zabralo-Sh body armor (Digital Flora)x1
+Task_NotFiR_HandOver=[6B43 Zabralo-Sh body armor (Digital Flora)x1]
 DogTagLv=0
-NeedItem=6B43 6A Zabralo-Sh body armorx1
-Task_NotFiR_HandOver=[6B43 6A Zabralo-Sh body armorx1]
+NeedItem=6B43 Zabralo-Sh body armor (Digital Flora)x1
+Task_NotFiR_HandOver=[6B43 Zabralo-Sh body armor (Digital Flora)x1]
 DogTagLv=0
 
 [
@@ -41,7 +41,7 @@ DogTagLv=0
 Reward_Rep=Ragman+3
 Reward_Item=[
 	Roublesx65000/|
-	FORT Redut-T5 body armorx1
+	FORT Redut-T5 body armor (Smog)x1
 ]
 
 Reward_EXP=18200

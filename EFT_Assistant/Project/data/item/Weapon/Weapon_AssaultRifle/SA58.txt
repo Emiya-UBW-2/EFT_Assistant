@@ -50,18 +50,18 @@ ChildParts=[
 	SA-58 folding stock/|
 	SA-58 SPR stock
 ]
-Recoil=250.000000
-RecoilHorizontal=510.000000
+Recoil=147.000000
+RecoilHorizontal=355.000000
 Ergonomics=39.000000
 SightRange=-100
 FireRate=700
 centerOfImpact=0.000000
 deviationCurve=1.350000
-recoilDispersion=21
+recoilDispersion=11
 recoilAngle=90
-cameraRecoil=0.096000
+cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=23
-convergence=1.200000
-Name_Jpn=DS Arms SA-58 7.62x51 assault rifle
-Information_Jpn=The SA-58 OSW (Operations Specialist Weapon), manufactured by American company DSA (or DS Arms - David Selvaggio Arms), is a legal copy of the FAL. It's made with the same Steyr-Daimler-Puch production line equipment as the StG-58. It may come with a different barrel length, an aluminum-alloy lower receiver, and improved glass-filled nylon furniture. Civilian models are semi-automatic, but military and law enforcement clients can procure select-fire models that have a fully automatic cyclic rate of 750 rounds/minute. The DSA-58 can use any metric-measurement FAL magazines.
+convergence=0.000000
+Name_Jpn=SA-58 7.62x51 アサルトライフル
+Information_Jpn=SA-58 OSW（Operations Specialist Weapon）は、アメリカの企業である DSA（または DS Arms - David Selvaggio Arms）によって製造された、FAL の合法的なコピーであり、StG-58 と同じ Steyr-Daimler-Puch の製造ライン使用して製造されており、長さの違う銃身、アルミニウム合金の下部レシーバー、および改良されたガラス繊維強化ポリアミドの備品が装備されていることもある。民間モデルはセミオートだが、軍隊および法執行機関の客は、フルオートの発射速度が750発/分のセレクトファイアモデルを調達することができる。また、SA-58 メートル規格の FAL マガジンを使用できる。

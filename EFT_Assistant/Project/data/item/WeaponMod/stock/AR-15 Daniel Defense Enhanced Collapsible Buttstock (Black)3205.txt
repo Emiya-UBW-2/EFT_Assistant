@@ -1,0 +1,23 @@
+IDstr=6516e91f609aaf354b34b3e2
+Name=AR-15 Daniel Defense Enhanced Collapsible Buttstock (Black)
+ShortName=DD ECB
+Information_Eng=A quick detach buttstock for AR-15 carbines. Manufactured by Daniel Defense. Black version.
+Itemtype=stock
+width=2
+height=1
+weight=0.227000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Daniel Defense TCS 12mm Buttpad /|
+	Daniel Defense TCS 20mm Buttpad 
+]
+Conflict=[
+	AR-15 ADAR 2-15 wooden stock/|
+	AR-15 Hera Arms CQR pistol grip/buttstock
+]
+Recoil=-20.000000
+Ergonomics=14.000000
+accuracyModifier=0.000000
+Name_Jpn=AR-15 Daniel Defense Enhanced Collapsible Buttstock (Black)
+Information_Jpn=A quick detach buttstock for AR-15 carbines. Manufactured by Daniel Defense. Black version.

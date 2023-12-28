@@ -1,12 +1,12 @@
 IDstr=5ab8ebf186f7742d8b372e80
-Name=SSO Attack 2 raid backpack
+Name=SSO Attack 2 raid backpack (Khaki)
 ShortName=Attack 2
-Information_Eng=The 60-liter "Attack 2" raid backpack is intended for carrying personal belongings and equipment through tough field conditions.
+Information_Eng=The 60-liter Ataka 2 ("Attack 2") raid backpack is intended for carrying personal belongings and equipment through tough field conditions.
 Itemtype=backpack
 width=5
 height=7
 weight=2.800000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
-Name_Jpn=SSO "Attack-2" レイドバックパック
-Information_Jpn=60Lサイズの "Attack-2" レイドバックパックは、過酷な環境下で個人携行品及び装備等を持ち歩くために使用される。
+Name_Jpn=SSO "Attack-2" レイド バックパック
+Information_Jpn=60Lの容量を持つ "アタカ 2" レイド バックパックは、過酷な環境下で個人携行品及び装備等を持ち歩くことを目的として設計されている。

@@ -1,0 +1,12 @@
+IDstr=656fa25e94b480b8a500c0e0
+Name=Kiba Arms Titan ballistic plate
+ShortName=KA Titan
+Information_Eng=A titanium plate for torso front and back pouches of plate carrier.
+Itemtype=armor-plate
+width=2
+height=2
+weight=2.250000
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=Kiba Arms Titan ballistic plate
+Information_Jpn=A titanium plate for torso front and back pouches of plate carrier.

@@ -1,5 +1,5 @@
 IDstr=5b44c6ae86f7742d1627baea
-Name=ANA Tactical Beta 2 Battle backpack
+Name=ANA Tactical Beta 2 Battle backpack (Olive Drab)
 ShortName=Beta 2
 Information_Eng=A lightweight and capacious backpack from ANA Tactical. Specially designed for use in dynamic conditions and on rough terrain.
 Itemtype=backpack
@@ -8,5 +8,5 @@ height=5
 weight=2.000000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
-Name_Jpn=ANA Tactical Beta 2 Battle backpack
-Information_Jpn=A lightweight and capacious backpack from ANA Tactical. Specially designed for use in dynamic conditions and on rough terrain.
+Name_Jpn=ANA Tactical ベータ2 バトル バックパック
+Information_Jpn=ANA Tactical 社製の軽量で大容量のバックパックだ。刻一刻と変わる状況や悪路での使用にも対応できるように設計されている。

@@ -1,5 +1,5 @@
 IDstr=5c0e446786f7742013381639
-Name=6B5-15 Zh-86 Uley armored rig
+Name=6B5-15 Zh-86 Uley armored rig (Flora)
 ShortName=6B5-15
 Information_Eng=The 6B5 bulletproof vest was adopted by the armed forces of the USSR in 1986. Option 6B5-15 is designed for assault units (class 4 protection, boron carbide). Also has several pouches for magazines and other equipment.
 Itemtype=chest-rig

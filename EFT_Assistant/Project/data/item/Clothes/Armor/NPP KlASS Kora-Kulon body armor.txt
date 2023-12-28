@@ -1,5 +1,5 @@
 IDstr=64be79c487d1510151095552
-Name=NPP KlASS Kora-Kulon body armor
+Name=NPP KlASS Kora-Kulon body armor (Black)
 ShortName=Kora-Kulon
 Information_Eng=The Kora-Kulon bulletproof vest is a means of individual armor protection of long-term wear, allowing to perform all types of professional activities of the personnel of the Ministry of Internal Affairs and Ministry of Defense units. The design of the bulletproof vest allows its use in concealed operation under outer clothing. Designed to protect the wearer from firearms and sharp weapons. Black version.
 Itemtype=armor

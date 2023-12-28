@@ -22,18 +22,18 @@ ChildParts=[
 	KS-23 wooden stock/|
 	KS-23M pistol grip
 ]
-Recoil=519.000000
-RecoilHorizontal=740.000000
+Recoil=467.000000
+RecoilHorizontal=601.000000
 Ergonomics=38.000000
 SightRange=-100
 FireRate=30
 centerOfImpact=0.450000
 deviationCurve=2.500000
-recoilDispersion=15
+recoilDispersion=12
 recoilAngle=90
-cameraRecoil=0.192000
+cameraRecoil=0.000000
 cameraSnap=2.000000
 deviationMax=10
-convergence=1.100000
+convergence=0.000000
 Name_Jpn=TOZ KS-23M 23x75mm pump-action shotgun
 Information_Jpn=KS-23はロシア製のショットガンだ。ただし銃身にライフリングが刻まれているためロシア軍では公式にはカービン銃に分類されており、KSとはKarabin Spetsialniy "特殊カービン"を意味する。口径が23mmと大きいことで有名で、これはイギリスやアメリカの規格では6.27ゲージ、現在の欧州の規格（CIPのメートル換算）ではおよそ4ゲージに相当し、現在使用されているショットガンとしては最も口径が大きいものだ。

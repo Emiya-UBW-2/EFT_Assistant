@@ -10,11 +10,11 @@ NeedKappa=true
 NeedLightkeeper=false
 
 factionName=Any
-NeedItem=WARTECH TV-109 + TV-106 chest rigx2
-Task_FiR_HandOver=[WARTECH TV-109 + TV-106 chest rigx2]
+NeedItem=WARTECH TV-109 + TV-106 chest rig (A-TACS FG)x2
+Task_FiR_HandOver=[WARTECH TV-109 + TV-106 chest rig (A-TACS FG)x2]
 DogTagLv=0
-NeedItem=BlackRock chest rigx2
-Task_FiR_HandOver=[BlackRock chest rigx2]
+NeedItem=BlackRock chest rig (Gray)x2
+Task_FiR_HandOver=[BlackRock chest rig (Gray)x2]
 DogTagLv=0
 
 [
@@ -41,8 +41,8 @@ DogTagLv=0
 Reward_Rep=Ragman+3
 Reward_Item=[
 	Roublesx30000/|
-	ANA Tactical M2 plate carrierx1/|
-	ANA Tactical M2 plate carrierx1
+	ANA Tactical M2 plate carrier (Digital Flora)x1/|
+	ANA Tactical M2 plate carrier (Digital Flora)x1
 ]
 
 Reward_EXP=18500

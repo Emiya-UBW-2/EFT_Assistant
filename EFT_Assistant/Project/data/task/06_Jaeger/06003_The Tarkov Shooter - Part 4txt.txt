@@ -14,7 +14,7 @@ Task_Else=Skillを上げる:Sniper Rifles+3.000000
 
 [
 	TaskType=skill
-	TaskText=Reach the required Sniper Rifles skill level
+	TaskText=Eliminate PMC operatives from over 80 meters away while using a bolt-action rifle
 	TaskOptional=false
 ]
 

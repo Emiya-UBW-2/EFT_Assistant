@@ -1,0 +1,10 @@
+IDstr=657f9eb7e9433140ad0baf86
+Name=Armor steel
+Itemtype=built-in-armor
+width=1
+height=1
+weight=0.000000
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=Armor steel
+Information_Jpn=

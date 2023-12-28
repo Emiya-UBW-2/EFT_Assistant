@@ -1,11 +1,11 @@
 IDstr=5c0e722886f7740458316a57
-Name=ANA Tactical M1 plate carrier
+Name=ANA Tactical M1 plate carrier (Olive Drab)
 ShortName=ANA M1
-Information_Eng=A tactical rig with additional class 4 (Russian GOST) armor plates. The vest is created with the use of the best experience of Russian special forces operators. The versatility of the system makes it possible to use this vest both when carrying out city tasks and when performing tasks on rough terrain. Equipped with additional pouches. Manufactured by ANA Tactical.
+Information_Eng=The M1 vest is created with the use of the best experience of Russian special forces operators. The versatility of the system makes it possible to use this vest both when carrying out city tasks and when performing tasks on rough terrain. Equipped with additional pouches. Manufactured by ANA Tactical.
 Itemtype=chest-rig
 width=4
 height=4
-weight=8.300000
+weight=2.950000
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
 Name_Jpn=ANA Tactical M1 アーマーリグ

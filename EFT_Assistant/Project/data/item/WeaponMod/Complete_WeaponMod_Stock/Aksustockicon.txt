@@ -9,9 +9,10 @@ weight=0.218000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
-	AK GP-25 accessory kit recoil pad
+	AK GP-25 accessory kit recoil pad/|
+	AK Custom Arms ST-EF 74 skeleton stock extension
 ]
-Recoil=-30.000002
+Recoil=-21.000000
 Ergonomics=10.000000
 accuracyModifier=0.000000
 Name_Jpn=AKS-74U metal skeleton stock (6P26 Sb.5)

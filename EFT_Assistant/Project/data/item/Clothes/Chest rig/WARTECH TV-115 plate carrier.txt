@@ -1,11 +1,11 @@
 IDstr=64a536392d2c4e6e970f4121
-Name=WARTECH TV-115 plate carrier
+Name=WARTECH TV-115 plate carrier (Olive Drab)
 ShortName=TV-115
 Information_Eng=Operational armor system TV-115 with high-density polyethylene (class 3) plates, protecting only the chest and the back. Manufactured by WARTECH.
 Itemtype=chest-rig
 width=3
 height=3
-weight=4.500000
+weight=2.720000
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
 Name_Jpn=WARTECH TV-115 plate carrier

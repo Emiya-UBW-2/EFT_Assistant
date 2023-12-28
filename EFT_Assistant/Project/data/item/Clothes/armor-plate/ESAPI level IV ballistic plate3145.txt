@@ -1,0 +1,12 @@
+IDstr=64afdcb83efdfea28601d041
+Name=ESAPI level IV ballistic plate
+ShortName=ESAPI IV
+Information_Eng=Enhanced Small Arms Protective Insert (ESAPI) is a ceramic ballistic plate for torso front and back pouches of plate carrier.
+Itemtype=armor-plate
+width=2
+height=2
+weight=3.200000
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=ESAPI level IV ballistic plate
+Information_Jpn=Enhanced Small Arms Protective Insert (ESAPI) is a ceramic ballistic plate for torso front and back pouches of plate carrier.

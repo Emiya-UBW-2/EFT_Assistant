@@ -1,0 +1,8 @@
+IDstr=656f0f98d80a697f855d34b1
+Name=BTR Driver
+Information_Eng=<Classified>
+PayItem=Roubles
+Lv1NeedLv=1
+Lv1Reputation=0.000000
+Lv1Commerce=0
+Lv1payRate=0.000100

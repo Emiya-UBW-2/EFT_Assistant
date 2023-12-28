@@ -4,7 +4,7 @@ ShortName=PKM Zenit
 Itemtype=machinegun
 width=6
 height=3
-weight=9.524000
+weight=9.364000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
@@ -15,11 +15,11 @@ containsItems=[
 	PK Zenit DTK-1P 7.62x54R muzzle brakex1/|
 	PK 7.62x54R 100-round boxx1/|
 	PK Zenit PT-2 "Klassika" stockx1/|
-	AK Zenit RK-3 pistol gripx1/|
+	AK polymer pistol grip (6P1 Sb.8)x1/|
 	PK rear sightx1/|
 	PK Zenit B-50 handguardx1/|
 	Zenit RK-1 tactical foregrip on B-25U mountx1/|
 	PK Zenit B-50 16mm top mountx1
 ]
-Name_Jpn=Kalashnikov PKM 7.62x54R machine gun Zenit
+Name_Jpn=Kalashnikov PKM 7.62x54R マシンガン Zenit
 Information_Jpn=

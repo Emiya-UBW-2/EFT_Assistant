@@ -25,7 +25,7 @@ Conflict=[
 	Walther MRS reflex sight/|
 	Aimpoint LRP mount for CompM4 sights/|
 	Leapers UTG reflex sight/|
-	SIG Sauer ROMEO7 1x30 reflex sight (prototype)/|
+	SIG Sauer ROMEO7 1x30 reflex sight (Prototype)/|
 	ELCAN Specter HCO holographic sight
 ]
 Recoil=0.000000

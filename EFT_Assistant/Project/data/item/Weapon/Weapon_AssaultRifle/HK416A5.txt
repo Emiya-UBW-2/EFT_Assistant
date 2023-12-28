@@ -35,7 +35,8 @@ ChildParts=[
 	AR-15 Stark AR Rifle Grip (FDE)/|
 	AR-15 Tactical Dynamics Hexgrip pistol grip/|
 	AR-15 Tactical Dynamics Skeletonized pistol grip/|
-	AR-15 Aeroknox Orion pistol grip
+	AR-15 Aeroknox Orion pistol grip/|
+	AR-15 SIG M400 Reduced Angle Pistol Grip (Coyote Tan)
 ]
 ChildParts=[
 	5.56x45 Colt AR-15 STANAG 30-round magazine/|
@@ -61,13 +62,13 @@ ChildParts=[
 	HK 416A5 5.56x45 upper receiver
 ]
 ChildParts=[
-	ERGO F93 PRO stock/|
+	AR-15 ERGO F93 PRO stock/|
 	HK Enhanced Tube buffer tube/|
-	Magpul UBR GEN2 stock (Black)/|
-	Magpul UBR GEN2 stock (FDE)/|
-	TROY M7A1 PDW stock (Black)/|
-	TROY M7A1 PDW stock (FDE)/|
-	Strike Industries Viper PDW stock
+	AR-15 Magpul UBR GEN2 stock (Black)/|
+	AR-15 Magpul UBR GEN2 stock (FDE)/|
+	AR-15 TROY M7A1 PDW stock (Black)/|
+	AR-15 TROY M7A1 PDW stock (FDE)/|
+	AR-15 Strike Industries Viper PDW stock
 ]
 ChildParts=[
 	AR-15 ADAR 2-15 charging handle/|
@@ -78,20 +79,21 @@ ChildParts=[
 	AR-15 MASP Industries Ambidextrous Battle Charging Handle/|
 	AR-15 Radian Weapons Raptor charging handle/|
 	AR-15 Radian Weapons Raptor charging handle (Grey)/|
-	AR-15 Rainier Arms Avalanche MOD2 charging handle
+	AR-15 Rainier Arms Avalanche MOD2 charging handle/|
+	AR-15 Daniel Defense GRIP-N-RIP charging handle
 ]
 Recoil=125.000000
-RecoilHorizontal=398.000000
+RecoilHorizontal=358.000000
 Ergonomics=51.000000
 SightRange=-100
 FireRate=850
 centerOfImpact=0.010000
 deviationCurve=1.350000
-recoilDispersion=15
+recoilDispersion=10
 recoilAngle=90
-cameraRecoil=0.076800
+cameraRecoil=0.000000
 cameraSnap=3.000000
 deviationMax=23
-convergence=1.500000
+convergence=0.000000
 Name_Jpn=HK 416A5 5.56x45 アサルトライフル
-Information_Jpn=HK416 A5 は、5.56x45mm NATO 弾薬を使ものだ用する HK416 アサルトライフルをさらに改良したものだ。従来のアサルトライフル規格と比較して、最も目立つ変更点には、消音器用の改良されたツール不要のガス圧力調整器、利便性が向上したロアレシーバーが含まれているだけでなく、左右両方の利き手での操作を可能にし、マガジンの互換性も確保している。さらに、使用者の安全性、信頼性、弾薬の互換性、および実際の運用状況での耐久性を最大限に向上させるための多数の技術的な改良が行われている。
+Information_Jpn=HK416 A5 は、5.56x45mm NATO 弾薬を使用する HK416 アサルトライフルをさらに改良したものだ。従来のアサルトライフル規格と比較して、最も目立つ変更点には、消音器用の改良されたツール不要のガス圧力調整器、利便性が向上したロアレシーバーが含まれているだけでなく、左右両方の利き手での操作を可能にし、マガジンの互換性も確保している。さらに、使用者の安全性、信頼性、弾薬の互換性、および実際の運用状況での耐久性を最大限に向上させるための多数の技術的な改良が行われている。

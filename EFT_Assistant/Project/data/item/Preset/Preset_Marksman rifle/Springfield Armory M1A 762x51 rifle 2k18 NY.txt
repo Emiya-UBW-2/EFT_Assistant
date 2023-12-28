@@ -20,8 +20,8 @@ containsItems=[
 	Burris FastFire 3 reflex sightx1/|
 	AN/PEQ-15 tactical devicex1/|
 	AR-15 Damage Industries ECS pistol grip (FDE)x1/|
-	Colt Carbine buffer tubex1/|
-	Magpul MOE Carbine stock (FDE)x1/|
+	AR-15 Colt Carbine buffer tubex1/|
+	AR-15 Magpul MOE Carbine stock (FDE)x1/|
 	Magpul MOE Carbine rubber buttpadx1/|
 	M1A 7.62x51 22 inch barrelx1/|
 	M14 JP Enterprises 7.62x51 Tactical Compensatorx1

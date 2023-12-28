@@ -1,0 +1,47 @@
+IDstr=647db1eca8d3399c380d195c
+Name=AKS-74U Alfa Arms Goliaf M-LOK handguard
+ShortName=Goliaf MLOK
+Information_Eng=This integrally machined handguard can be installed instead of the standard-issue foregrip on the AKS-74U. It comes fitted with place for M-LOK rail mounts on three sides, allowing for the installation of additional equipment such as tactical foregrips, flashlights, and laser designators.
+Itemtype=handguard
+width=1
+height=1
+weight=0.250000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Magpul M-LOK AFG tactical foregrip (Black)/|
+	Magpul M-LOK AFG tactical foregrip (FDE)/|
+	Magpul M-LOK AFG tactical foregrip (Olive Drab)/|
+	Magpul M-LOK AFG tactical foregrip (Stealth Grey)/|
+	Magpul M-LOK 4.1 inch rail/|
+	Daniel Defense Enhanced M-LOK Vertical Foregrip (Black)/|
+	Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown)
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail/|
+	Magpul M-LOK Cantilever Mount/|
+	Magpul M-LOK Offset Light Mount
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail/|
+	Magpul M-LOK Cantilever Mount/|
+	Magpul M-LOK Offset Light Mount
+]
+Conflict=[
+	AK-105 5.45x39 muzzle brake-compensator (6P44 0-20)/|
+	AK-74M 5.45x39 muzzle brake-compensator (6P20 0-20)/|
+	AK-74 5.45x39 muzzle brake-compensator (6P20 0-20)/|
+	AK-74 thread type JMac Customs RRD-4C multi-caliber muzzle brake/|
+	AK-74 PWS CQB 74 5.45x39 muzzle brake/|
+	AK-74 SRVV MBR Jet 5.45x39 muzzle brake/|
+	AK Hexagon Reactor 5.45x39 muzzle brake/|
+	AK Zenit DTK-1 7.62x39/5.45x39 muzzle brake-compensator/|
+	AK-74 Hexagon 5.45x39 sound suppressor/|
+	AKS-74U PBS-4 5.45x39 sound suppressor/|
+	AK-74 Hexagon Wafflemaker 5.45x39 sound suppressor
+]
+Recoil=-1.000000
+Ergonomics=6.000000
+accuracyModifier=0.000000
+Name_Jpn=AKS-74U Alfa Arms Goliaf M-LOK handguard
+Information_Jpn=This integrally machined handguard can be installed instead of the standard-issue foregrip on the AKS-74U. It comes fitted with place for M-LOK rail mounts on three sides, allowing for the installation of additional equipment such as tactical foregrips, flashlights, and laser designators.

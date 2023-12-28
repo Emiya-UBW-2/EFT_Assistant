@@ -99,9 +99,12 @@ ChildParts=[
 	SwampFox Trihawk Prism Scope 3x30/|
 	AI AX-50 34mm scope mount/|
 	Armasight Zeus universal base/|
-	SIG Sauer ROMEO7 1x30 reflex sight (prototype)/|
+	SIG Sauer ROMEO7 1x30 reflex sight (Prototype)/|
 	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope/|
-	ELCAN Specter HCO holographic sight
+	ELCAN Specter HCO holographic sight/|
+	GBRS Aimpoint Hydra Mount Kit (Black)/|
+	GBRS Aimpoint Hydra Mount Kit (FDE)/|
+	Wilcox BOSS Xe reflex sight
 ]
 ChildParts=[
 	HK MP7 flip-up rear sight/|
@@ -122,11 +125,11 @@ SightRange=-100
 FireRate=650
 centerOfImpact=0.010000
 deviationCurve=1.350000
-recoilDispersion=15
+recoilDispersion=10
 recoilAngle=90
-cameraRecoil=0.067200
+cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=23
-convergence=1.600000
+convergence=0.000000
 Name_Jpn=MDR 5.56x45 アサルトライフル
 Information_Jpn=MDR は、デザートテック LLC によって設計および製造された、5.56x45mm弾を使用するブルパップ方式アサルトライフルで、組み立てユニットのマルチキャリバーライフルで、コンパクトなブルパップのレイアウトを備え、警察および軍の特殊部隊向けに設計されている。銃身の長さや口径は、最小限の工具を使用して、数分でエンドユーザーによって改造ができる。

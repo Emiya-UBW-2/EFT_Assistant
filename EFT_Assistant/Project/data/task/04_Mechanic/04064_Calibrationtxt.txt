@@ -24,7 +24,7 @@ Task_Else=距離: >= 100m
 Reward_Item=[
 	Can of thermitex5/|
 	Magazine casex1/|
-	Kiba Arms armbandx1
+	Armband (Kiba Arms)x1
 ]
 Reward_SkillLevelUp=Perception+1
 

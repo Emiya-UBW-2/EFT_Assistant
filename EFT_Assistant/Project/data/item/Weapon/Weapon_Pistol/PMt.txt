@@ -28,18 +28,18 @@ ChildParts=[
 	PM bakelite side grips/|
 	PM FAB Defense PM-G pistol grip (Olive Drab)
 ]
-Recoil=480.000000
-RecoilHorizontal=305.000000
+Recoil=380.000000
+RecoilHorizontal=265.000000
 Ergonomics=80.000000
 SightRange=-100
 FireRate=30
 centerOfImpact=0.380000
 deviationCurve=2.500000
-recoilDispersion=20
+recoilDispersion=12
 recoilAngle=85
-cameraRecoil=0.016000
-cameraSnap=3.500000
+cameraRecoil=0.000000
+cameraSnap=5.000000
 deviationMax=10
-convergence=5.000000
+convergence=0.000000
 Name_Jpn=Makarov PM (t) 9x18PM pistol
 Information_Jpn=A semi-mythical Makarov pistol with an extended threaded barrel for equipping a sound suppressor. Some claim it was a limited production series manufactured in Bulgaria, whilst others insist on it being East German, or even a handcrafted upgrade. As for how it ended up in the Norvinsk region, no living soul could tell you now.

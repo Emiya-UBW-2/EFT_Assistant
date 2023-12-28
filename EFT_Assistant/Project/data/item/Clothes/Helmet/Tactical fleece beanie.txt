@@ -1,7 +1,7 @@
 IDstr=5aa2ba19e5b5b00014028f4e
-Name=Tactical fleece beanie
+Name=Tactical fleece beanie (Tan)
 ShortName=Fleece
-Information_Eng=Operate properly only in the tactical fleece hat. It's tactical.
+Information_Eng=Operate like a real man in the tactical fleece hat. It's very tactical.
 Itemtype=headwear
 width=1
 height=1

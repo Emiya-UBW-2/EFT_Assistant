@@ -69,8 +69,9 @@ Conflict=[
 	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights/|
 	AI AX-50 34mm scope mount/|
 	ELCAN Specter HCO holographic sight/|
-	SIG Sauer ROMEO7 1x30 reflex sight (prototype)/|
-	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope
+	SIG Sauer ROMEO7 1x30 reflex sight (Prototype)/|
+	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope/|
+	Wilcox BOSS Xe reflex sight
 ]
 Recoil=0.000000
 Ergonomics=0.000000

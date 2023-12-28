@@ -1,0 +1,15 @@
+IDstr=655dccfdbdcc6b5df71382b6
+Name=Strike Industries Cobra Tactical foregrip (FDE)
+ShortName=SI Cobra
+Information_Eng=The Cobra Tactical foregrip integrates the form with functionality. Its hybrid-designed shape works both as a regular foregrip and as a comfortable hand stop when going with the thumb over bore method. The grip allows you to handle the weapon with confidence and the organic design enables the operator to manipulate the rifle in a way that’s most comfortable at any given moment. Flat Dark Earth version.
+Itemtype=foregrip
+width=1
+height=1
+weight=0.080000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=-1.000000
+Ergonomics=9.000000
+accuracyModifier=0.000000
+Name_Jpn=Strike Industries Cobra Tactical foregrip (FDE)
+Information_Jpn=The Cobra Tactical foregrip integrates the form with functionality. Its hybrid-designed shape works both as a regular foregrip and as a comfortable hand stop when going with the thumb over bore method. The grip allows you to handle the weapon with confidence and the organic design enables the operator to manipulate the rifle in a way that’s most comfortable at any given moment. Flat Dark Earth version.

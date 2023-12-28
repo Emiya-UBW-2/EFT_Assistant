@@ -12,7 +12,7 @@ containsItems=[
 	Glock 17 9x19 pistolx1/|
 	Glock 17 9x19 barrelx1/|
 	Glock Pachmayr Tactical Grip Glovex1/|
-	Glock 17 9x19 pistol slidex1/|
+	Glock 17 pistol slidex1/|
 	Glock ZEV Tech rear sightx1/|
 	Glock ZEV Tech front sightx1/|
 	Glock 9x19 Strike Industries G4 SlideComp compensatorx1/|

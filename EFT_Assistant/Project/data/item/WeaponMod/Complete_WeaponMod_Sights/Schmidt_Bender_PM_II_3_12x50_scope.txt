@@ -19,7 +19,7 @@ Conflict=[
 	Holosun HS401G5 reflex sight/|
 	Leapers UTG reflex sight/|
 	SIG Sauer ROMEO8T reflex sight/|
-	SIG Sauer ROMEO7 1x30 reflex sight (prototype)/|
+	SIG Sauer ROMEO7 1x30 reflex sight (Prototype)/|
 	Trijicon SRS-02 reflex sight/|
 	Valday PK-120 (1P87) holographic sight/|
 	Valday Krechet reflex sight/|

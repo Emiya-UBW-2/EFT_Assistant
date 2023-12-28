@@ -9,11 +9,11 @@ weight=0.162000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
-	Magpul PRS GEN2 stock (FDE)/|
-	Magpul PRS GEN3 stock (Black)/|
-	Magpul PRS GEN3 stock (Grey)
+	AR-15 Magpul PRS GEN2 stock (FDE)/|
+	AR-15 Magpul PRS GEN3 stock (Black)/|
+	AR-15 Magpul PRS GEN3 stock (Grey)
 ]
-Recoil=-2.000000
+Recoil=-1.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
 Name_Jpn=Colt A2 buffer tube

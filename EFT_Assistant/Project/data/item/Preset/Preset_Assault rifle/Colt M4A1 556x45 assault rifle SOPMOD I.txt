@@ -19,9 +19,9 @@ containsItems=[
 	AR-15 KAC RIS handguardx1/|
 	AR-15 KAC RIS lower handguardx1/|
 	AR-15 Colt A2 rear sightx1/|
-	Colt Carbine buffer tubex1/|
-	LMT SOPMOD stockx1/|
+	AR-15 Colt Carbine buffer tubex1/|
+	AR-15 LMT SOPMOD stockx1/|
 	AR-15 Colt charging handlex1
 ]
-Name_Jpn=Colt M4A1 5.56x45 assault rifle SOPMOD I
+Name_Jpn=M4A1 5.56x45 アサルトライフル SOPMOD I
 Information_Jpn=

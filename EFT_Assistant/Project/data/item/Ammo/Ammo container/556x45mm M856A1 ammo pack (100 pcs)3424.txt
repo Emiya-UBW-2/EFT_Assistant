@@ -1,0 +1,12 @@
+IDstr=6570265bcfc010a0f5006a56
+Name=5.56x45mm M856A1 ammo pack (100 pcs)
+ShortName=M856A1
+Information_Eng=A box of 5.56x45mm M856A1 cartridges, 100 pieces.
+Itemtype=ammo-container
+width=2
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=5.56x45mm M856A1 ammo pack (100 pcs)
+Information_Jpn=A box of 5.56x45mm M856A1 cartridges, 100 pieces.

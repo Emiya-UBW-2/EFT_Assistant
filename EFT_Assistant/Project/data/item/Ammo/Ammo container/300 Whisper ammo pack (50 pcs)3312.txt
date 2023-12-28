@@ -1,0 +1,12 @@
+IDstr=657023c61419851aef03e6eb
+Name=.300 Whisper ammo pack (50 pcs)
+ShortName=Whisper
+Information_Eng=A box of .300 Whisper cartridges, 50 pieces.
+Itemtype=ammo-container
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=.300 Whisper ammo pack (50 pcs)
+Information_Jpn=A box of .300 Whisper cartridges, 50 pieces.

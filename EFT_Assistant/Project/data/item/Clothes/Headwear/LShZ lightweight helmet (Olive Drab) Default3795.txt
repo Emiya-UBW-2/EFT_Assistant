@@ -1,0 +1,16 @@
+IDstr=657bc772aab96fccee08bebc
+Name=LShZ lightweight helmet (Olive Drab) Default
+ShortName=LShZ Default
+Itemtype=headwear
+width=2
+height=2
+weight=0.950000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	LShZ lightweight helmet (Olive Drab)x1/|
+	Layers of aramid fiberx1/|
+]
+Name_Jpn=LZSh ライト ヘルメット デフォルト
+Information_Jpn=

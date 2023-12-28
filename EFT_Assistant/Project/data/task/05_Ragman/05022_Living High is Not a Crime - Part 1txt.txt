@@ -81,7 +81,7 @@ DogTagLv=0
 Reward_Rep=Ragman+3
 Reward_Item=[
 	Golden neck chainx3/|
-	Vulkan-5 (LShZ-5) bulletproof helmetx1
+	Vulkan-5 LShZ-5 bulletproof helmet (Black)x1
 ]
 
 Reward_EXP=19900

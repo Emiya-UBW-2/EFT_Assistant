@@ -21,5 +21,5 @@ containsItems=[
 	Ultrafire WF-501B flashlightx1/|
 	HK MP7A1 stockx1
 ]
-Name_Jpn=HK MP7A1 4.6x30 submachine gun SEALS
+Name_Jpn=MP7A1 4.6x30 サブマシンガン SEALS
 Information_Jpn=

@@ -12,7 +12,7 @@ containsItems=[
 	Knight's Armament Company SR-25 7.62x51 marksman riflex1/|
 	Hogue OverMolded Rubber Grip (FDE)x1/|
 	AR-10 7.62x51 KAC 20-round steel magazinex1/|
-	Colt Carbine buffer tubex1/|
+	AR-15 Colt Carbine buffer tubex1/|
 	AR-15 B5 Systems Precision stockx1/|
 	SR-25 7.62x51 upper receiverx1/|
 	Geissele Super Precision 30mm ring scope mount (DDC)x1/|

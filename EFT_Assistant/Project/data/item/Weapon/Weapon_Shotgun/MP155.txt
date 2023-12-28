@@ -33,18 +33,18 @@ ChildParts=[
 	Kiba Arms SPRM rail mount for pump-action shotguns/|
 	MP-155 Ultima top rail
 ]
-Recoil=379.000000
-RecoilHorizontal=565.000000
+Recoil=341.000000
+RecoilHorizontal=457.000000
 Ergonomics=48.000000
 SightRange=-100
 FireRate=40
 centerOfImpact=0.500000
 deviationCurve=2.500000
-recoilDispersion=15
+recoilDispersion=10
 recoilAngle=90
-cameraRecoil=0.120000
+cameraRecoil=0.000000
 cameraSnap=2.800000
 deviationMax=10
-convergence=1.400000
+convergence=0.000000
 Name_Jpn=MP-155 12ga セミオートショットガン
 Information_Jpn=The Russian MP-155 smoothbore multi-shot 12 gauge shotgun, manufactured by IzhMekh ("Izhevsky Mechanical Plant"). The gun weighs less than its predecessor MP-153 and features enhanced ergonomics and an easy-to-replace barrel mechanism. The new design also makes it easier to use for left-handed users.

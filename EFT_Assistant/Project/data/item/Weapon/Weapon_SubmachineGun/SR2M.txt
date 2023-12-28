@@ -17,8 +17,8 @@ ChildParts=[
 	SR-2M 9x21 hand stopper
 ]
 ChildParts=[
-	SR-2M folding stock/|
-	SR-2MP folding stock
+	SR-2M top-folding stock/|
+	SR-2MP top-folding stock
 ]
 ChildParts=[
 	SR-2M dust cover
@@ -32,17 +32,17 @@ ChildParts=[
 	SR-2M pistol grip (Black)
 ]
 Recoil=54.000000
-RecoilHorizontal=260.000000
+RecoilHorizontal=234.000000
 Ergonomics=59.000000
 SightRange=-100
 FireRate=950
 centerOfImpact=0.230000
 deviationCurve=2.250000
-recoilDispersion=13
+recoilDispersion=10
 recoilAngle=90
-cameraRecoil=0.038400
+cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=11
-convergence=2.100000
+convergence=0.000000
 Name_Jpn=SR-2M "Veresk" 9x21 submachine gun
 Information_Jpn=SR-2M "Veresk" is a compact submachine gun designed for a powerful 9x21mm armor-piercing cartridge by order of the FSB and the FSO of the Russian Federation. This submachine gun is part of a high-performance rifle complex designed for special forces. Equipped with a folding foregrip. Developed by TsNIItochmash.

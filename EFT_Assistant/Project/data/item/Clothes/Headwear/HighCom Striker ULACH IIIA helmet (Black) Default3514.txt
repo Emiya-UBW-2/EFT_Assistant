@@ -1,0 +1,16 @@
+IDstr=657120b36fe59548840cb542
+Name=HighCom Striker ULACH IIIA helmet (Black) Default
+ShortName=ULACH Default
+Itemtype=headwear
+width=2
+height=2
+weight=1.900000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	HighCom Striker ULACH IIIA helmet (Black)x1/|
+	Layer of UHMWPEx1/|
+]
+Name_Jpn=HighCom Striker ULACH IIIA helmet (Black) デフォルト
+Information_Jpn=

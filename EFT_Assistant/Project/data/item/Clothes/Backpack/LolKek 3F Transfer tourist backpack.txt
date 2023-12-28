@@ -9,4 +9,4 @@ weight=0.984000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
 Name_Jpn=LK 3F Transfer ツーリストバックパック
-Information_Jpn=A simple and cheap backpack manufactured by LolKek. Not very strong or comfortable, but it manages to carry loot in it, and that's all you need from a backpack.
+Information_Jpn=LolKek社のシンプルで安価なバックパック。あまり丈夫でも快適でもないが、一応戦利品を運ぶことができるし、それさえできればバックパックとしては十分だ。

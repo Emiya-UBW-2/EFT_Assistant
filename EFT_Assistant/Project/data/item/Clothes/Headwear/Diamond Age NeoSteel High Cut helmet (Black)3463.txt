@@ -1,0 +1,18 @@
+IDstr=65709d2d21b9f815e208ff95
+Name=Diamond Age NeoSteel High Cut helmet (Black)
+ShortName=NeoSteel
+Information_Eng=The Diamond Age NeoSteel helmet features a unique design that combines high-strength steel with composite materials to provide advanced protection against ballistic and impact threats. It is designed to withstand high velocity impacts and can provide protection against a variety of threats.
+Itemtype=headwear
+width=2
+height=2
+weight=1.200000
+fleaMarketFee=0
+propertiestype=
+Conflict=[
+	MAWL-C1+ tactical device/|
+	NcSTAR Tactical blue laser LAM-module/|
+	Wilcox RAPTAR ES Tactical Rangefinder/|
+	Galvion Caiman Fixed Arm Visor
+]
+Name_Jpn=Diamond Age NeoSteel High Cut helmet (Black)
+Information_Jpn=The Diamond Age NeoSteel helmet features a unique design that combines high-strength steel with composite materials to provide advanced protection against ballistic and impact threats. It is designed to withstand high velocity impacts and can provide protection against a variety of threats.

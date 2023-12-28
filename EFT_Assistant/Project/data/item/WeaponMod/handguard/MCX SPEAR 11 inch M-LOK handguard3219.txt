@@ -1,0 +1,45 @@
+IDstr=652910ef50dc782999054b97
+Name=MCX SPEAR 11 inch M-LOK handguard
+ShortName=SPEAR 11"
+Information_Eng=An 11 inch handguard for the MCX SPEAR assault rifle equipped with an M-LOK interface for installation of additional devices and accessories. Manufactured by SIG Sauer.
+Itemtype=handguard
+width=3
+height=1
+weight=0.430000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail/|
+	Magpul M-LOK Cantilever Mount/|
+	Magpul M-LOK Offset Light Mount
+]
+ChildParts=[
+	Magpul M-LOK 2.5 inch rail/|
+	Magpul M-LOK Cantilever Mount/|
+	Magpul M-LOK Offset Light Mount
+]
+ChildParts=[
+	HK MP7 flip-up front sight/|
+	KAC Folding Micro front sight/|
+	KAC Folding front sight/|
+	KRISS Defiance low profile flip-up front sight/|
+	Magpul MBUS Gen2 flip-up front sight/|
+	Magpul MBUS Gen2 flip-up front sight (FDE)/|
+	MCX flip-up front sight/|
+	MPX flip-up front sight/|
+	AR-15 Leapers UTG Low Profile A2 front sight
+]
+ChildParts=[
+	Magpul M-LOK 4.1 inch rail/|
+	Magpul M-LOK AFG tactical foregrip (Black)/|
+	Magpul M-LOK AFG tactical foregrip (FDE)/|
+	Magpul M-LOK AFG tactical foregrip (Olive Drab)/|
+	Magpul M-LOK AFG tactical foregrip (Stealth Grey)/|
+	Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown)/|
+	Daniel Defense Enhanced M-LOK Vertical Foregrip (Black)
+]
+Recoil=-1.000000
+Ergonomics=6.000000
+accuracyModifier=0.000000
+Name_Jpn=MCX SPEAR 11 inch M-LOK handguard
+Information_Jpn=An 11 inch handguard for the MCX SPEAR assault rifle equipped with an M-LOK interface for installation of additional devices and accessories. Manufactured by SIG Sauer.

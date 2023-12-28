@@ -13,7 +13,7 @@ containsItems=[
 	M9A3 9x19 threaded barrelx1/|
 	M9A3 thread protection capx1/|
 	M9A3 polymer side gripsx1/|
-	M9A3 9x19 pistol slidex1/|
+	M9A3 pistol slidex1/|
 	M9A3 rear sightx1/|
 	M9A3 front sightx1/|
 	M9A3 9x19 17-round magazinex1

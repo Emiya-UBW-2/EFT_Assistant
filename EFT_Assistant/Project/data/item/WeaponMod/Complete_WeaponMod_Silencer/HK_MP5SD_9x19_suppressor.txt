@@ -11,7 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	HK MP5SD B&T tri-rail ring mount
 ]
-Recoil=-22.000000
+Recoil=-15.000001
 Ergonomics=-5.000000
 accuracyModifier=0.000000
 Name_Jpn=HK MP5SD 9x19 sound suppressor

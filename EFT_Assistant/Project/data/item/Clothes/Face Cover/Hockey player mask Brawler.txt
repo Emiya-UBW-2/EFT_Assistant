@@ -1,5 +1,5 @@
 IDstr=62a5c333ec21e50cad3b5dc6
-Name=Hockey player mask "Brawler"
+Name=Hockey player mask (Brawler)
 ShortName=Brawler
 Information_Eng=Frightening mask from a children's cartoon about hockey.
 Itemtype=face-cover
@@ -11,10 +11,12 @@ propertiestype=
 Conflict=[
 	Army cap/|
 	Baseball cap/|
-	BEAR baseball cap (Green)/|
-	USEC baseball cap (Tan)/|
+	BEAR baseball cap (Olive Drab)/|
+	USEC baseball cap (Coyote)/|
 	EMERCOM cap/|
-	Police cap
+	Police cap/|
+	Basmach leather cap/|
+	Gus baseball cap
 ]
 Name_Jpn=Hockey player mask "Brawler"
 Information_Jpn=Frightening mask from a children's cartoon about hockey.

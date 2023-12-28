@@ -11,7 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	FN P90 Attenuator 5.7x28 sound suppressor
 ]
-Recoil=-7.000000
+Recoil=-5.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
 Name_Jpn=FN P90 5.7x2 フラッシュハイダー

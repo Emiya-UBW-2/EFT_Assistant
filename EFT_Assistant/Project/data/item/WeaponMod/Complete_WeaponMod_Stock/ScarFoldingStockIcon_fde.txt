@@ -16,7 +16,7 @@ ChildParts=[
 	FN SCAR cheek rest/|
 	FN SCAR cheek rest (FDE)
 ]
-Recoil=-5.000000
+Recoil=-4.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
 Name_Jpn=FN SCAR folding polymer stock (FDE)

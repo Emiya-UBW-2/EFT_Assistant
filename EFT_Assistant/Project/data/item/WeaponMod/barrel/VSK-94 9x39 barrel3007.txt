@@ -1,0 +1,24 @@
+IDstr=645123013d52156624001fd1
+Name=VSK-94 9x39 barrel
+ShortName=VSK-94
+Information_Eng=A standard-issue 180mm barrel for the VSK-94 marksman rifle. Manufactured by Tula KPB Instrument Design Bureau.
+Itemtype=barrel
+width=2
+height=1
+weight=0.409000
+fleaMarketFee=0
+propertiestype=ItemPropertiesBarrel
+ChildParts=[
+	9A-91 handguard retainer/|
+	9A-91 9x39 sound suppressor
+]
+ChildParts=[
+	9A-91 handguard/|
+	VSK-94 handguard
+]
+Recoil=-2.000000
+Ergonomics=0.000000
+centerOfImpact=0.127000
+deviationMax=15
+Name_Jpn=VSK-94 9x39 barrel
+Information_Jpn=A standard-issue 180mm barrel for the VSK-94 marksman rifle. Manufactured by Tula KPB Instrument Design Bureau.

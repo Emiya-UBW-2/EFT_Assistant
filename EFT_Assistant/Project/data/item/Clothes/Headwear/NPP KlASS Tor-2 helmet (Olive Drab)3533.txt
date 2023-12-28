@@ -1,0 +1,16 @@
+IDstr=65719f0775149d62ce0a670b
+Name=NPP KlASS Tor-2 helmet (Olive Drab)
+ShortName=Tor-2
+Information_Eng=NPP KlASS Tor-2 is an assault protective helmet with a removable bullet-resistant visor and an integrated system for installing additional equipment (NVG, headsets, tactical lights, cameras, IR strobe lights, etc.).
+Itemtype=headwear
+width=2
+height=2
+weight=2.400000
+fleaMarketFee=0
+propertiestype=
+Conflict=[
+	Walker's Razor Digital headset/|
+	Walker's XCEL 500BT Digital headset
+]
+Name_Jpn=NPP KlASS Tor-2 helmet (Olive Drab)
+Information_Jpn=NPP KlASS Tor-2 is an assault protective helmet with a removable bullet-resistant visor and an integrated system for installing additional equipment (NVG, headsets, tactical lights, cameras, IR strobe lights, etc.).

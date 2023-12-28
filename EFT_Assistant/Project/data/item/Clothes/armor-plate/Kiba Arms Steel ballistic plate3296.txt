@@ -1,0 +1,12 @@
+IDstr=656fa76500d62bcd2e024080
+Name=Kiba Arms Steel ballistic plate
+ShortName=KA Steel
+Information_Eng=An armored steel plate for torso front and back pouches of plate carrier.
+Itemtype=armor-plate
+width=2
+height=2
+weight=5.100000
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=Kiba Arms Steel ballistic plate
+Information_Jpn=An armored steel plate for torso front and back pouches of plate carrier.

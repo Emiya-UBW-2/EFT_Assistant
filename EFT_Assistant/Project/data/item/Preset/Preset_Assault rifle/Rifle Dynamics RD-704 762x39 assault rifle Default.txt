@@ -16,9 +16,9 @@ containsItems=[
 	RD-704 dust coverx1/|
 	AK RD Enhanced V2 Rear Sightx1/|
 	AKM/AK-74 RD AK to M4 buffer tube adapterx1/|
-	Colt Carbine buffer tubex1/|
-	SB Tactical SBA3 bracex1/|
+	AR-15 Colt Carbine buffer tubex1/|
+	AR-15 SB Tactical SBA3 bracex1/|
 	AK 7.62x39 30-round magazine (issued '55 or later)x1
 ]
-Name_Jpn=Rifle Dynamics RD-704 7.62x39 assault rifle デフォルト
+Name_Jpn=RD-704 7.62x39 アサルトライフル デフォルト
 Information_Jpn=

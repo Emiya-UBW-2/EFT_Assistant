@@ -122,8 +122,8 @@ DogTagLv=0
 NeedItem=Veritas guitar pickx1
 Task_FiR_HandOver=[Veritas guitar pickx1]
 DogTagLv=0
-NeedItem=Evasion armbandx1
-Task_FiR_HandOver=[Evasion armbandx1]
+NeedItem=Armband (Evasion)x1
+Task_FiR_HandOver=[Armband (Evasion)x1]
 DogTagLv=0
 NeedItem=Can of RatCola sodax1
 Task_FiR_HandOver=[Can of RatCola sodax1]
@@ -468,7 +468,7 @@ DogTagLv=0
 
 Reward_Item=[
 	Secure container Kappax1/|
-	DEADSKUL armbandx1
+	Armband (DEADSKUL)x1
 ]
 
 Reward_EXP=0

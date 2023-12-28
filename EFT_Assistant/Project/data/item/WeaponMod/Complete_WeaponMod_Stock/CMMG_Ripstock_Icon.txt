@@ -1,5 +1,5 @@
 IDstr=606587d11246154cad35d635
-Name=CMMG RipStock buttstock
+Name=AR-15 CMMG RipStock buttstock
 ShortName=RipStock
 Information_Eng=The RipStock minimalistic telescopic buttstock, engineered for lightning-fast deployment to the user's personal setting. Manufactured by CMMG.
 Itemtype=stock
@@ -8,7 +8,7 @@ height=1
 weight=0.280000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
-Recoil=-27.000002
+Recoil=-19.000000
 Ergonomics=8.000000
 accuracyModifier=0.000000
 Name_Jpn=CMMG RipStock buttstock

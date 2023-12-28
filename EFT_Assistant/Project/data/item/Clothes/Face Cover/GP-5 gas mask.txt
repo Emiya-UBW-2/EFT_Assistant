@@ -11,14 +11,14 @@ propertiestype=
 Conflict=[
 	Army cap/|
 	Baseball cap/|
-	BEAR baseball cap (Green)/|
-	USEC baseball cap (Tan)/|
+	BEAR baseball cap (Olive Drab)/|
+	USEC baseball cap (Coyote)/|
 	EMERCOM cap/|
 	Police cap/|
 	UX PRO beanie/|
-	Tactical fleece beanie/|
+	Tactical fleece beanie (Tan)/|
 	Ski hat with holes for eyes/|
-	Altyn bulletproof helmet/|
+	Altyn bulletproof helmet (Olive Drab)/|
 	Kolpak-1S riot helmet/|
 	Wilcox Skull Lock head mount/|
 	DevTac Ronin ballistic helmet/|
@@ -28,11 +28,14 @@ Conflict=[
 	MIL-TEC boonie hat/|
 	USEC baseball cap (Black)/|
 	Maska-1SCh bulletproof helmet (Olive Drab)/|
-	Maska-1SCh bulletproof helmet (Killa)/|
+	Maska-1SCh bulletproof helmet (Killa Edition)/|
 	PSh-97 DJETA riot helmet/|
 	ShPM Firefighter helmet/|
 	Jack-o'-lantern tactical pumpkin helmet/|
-	Beanie
+	Beanie/|
+	Diamond Age NeoSteel High Cut helmet (Black)/|
+	Basmach leather cap/|
+	Gus baseball cap
 ]
 Name_Jpn=GP-5 gas mask
 Information_Jpn=民間用ガスマスクモデル5（GP-5）は着用者の呼吸器や目、顔などを守るガスマスクだ。

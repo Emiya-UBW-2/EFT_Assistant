@@ -25,17 +25,17 @@ ChildParts=[
 	SVT-40 Tokarev PU mount
 ]
 Recoil=175.000000
-RecoilHorizontal=750.000000
+RecoilHorizontal=675.000000
 Ergonomics=20.000000
 SightRange=-100
 FireRate=50
 centerOfImpact=0.000000
 deviationCurve=1.350000
-recoilDispersion=20
+recoilDispersion=15
 recoilAngle=90
-cameraRecoil=0.103600
+cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=23
-convergence=1.250000
-Name_Jpn=Tokarev SVT-40 7.62x54R rifle
-Information_Jpn=The SVT-40 was the only mass-produced personal weapon in the early years of WW2, before the mass production of submachine guns began. The soldiers affectionately called this rifle "Sveta". When "Sveta" went to the troops, it turned out that not all Red Army soldiers were able to truly master this weapon. The SVT was best used by marine infantry units and snipers. The production of SVT-40 continued until the end of the war, and this semi-automatic rifle made an important contribution to the overall victory.
+convergence=0.000000
+Name_Jpn=SVT-40 7.62x54R ライフル
+Information_Jpn=SVT-40は、第二次世界大戦初期、サブマシンガンの大量生産が始まる前に製造された唯一の大量生産された個人用武器だ。兵士たちはこのライフルをスヴェタ（Sveta）と愛称で呼びました。しかし、スヴェタ（Sveta）が部隊に配備された際、赤軍すべての兵士がこの武器を使いこなすことが不可能であることが判明し、代わりに海兵隊の部隊や狙撃手で効果的に活用された。生産は戦争の終わりまで続き、SVT-40は総合的な勝利に貢献を果たした。

@@ -1,0 +1,16 @@
+IDstr=657120376d197c216005b33e
+Name=Team Wendy EXFIL Ballistic Helmet (Coyote Brown) Default
+ShortName=EXFIL Default
+Itemtype=headwear
+width=2
+height=2
+weight=1.180000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Team Wendy EXFIL Ballistic Helmet (Coyote Brown)x1/|
+	Hybrid composite materialsx1/|
+]
+Name_Jpn=Team Wendy EXFIL Ballistic Helmet (Coyote Brown) デフォルト
+Information_Jpn=

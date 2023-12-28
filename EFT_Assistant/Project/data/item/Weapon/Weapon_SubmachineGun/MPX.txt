@@ -36,7 +36,8 @@ ChildParts=[
 	AR-15 Tactical Dynamics Hexgrip pistol grip/|
 	AR-15 Tactical Dynamics Skeletonized pistol grip/|
 	MPX pistol grip/|
-	AR-15 Aeroknox Orion pistol grip
+	AR-15 Aeroknox Orion pistol grip/|
+	AR-15 SIG M400 Reduced Angle Pistol Grip (Coyote Tan)
 ]
 ChildParts=[
 	MPX 9x19 F5 MFG 50-round drum magazine/|
@@ -48,12 +49,13 @@ ChildParts=[
 	MPX GEN1 9x19 upper receiver
 ]
 ChildParts=[
-	MPX/MCX retractable stock pipe adapter/|
+	MPX/MCX retractable stock adapter/|
 	MPX/MCX collapsing/telescoping stock/|
 	MPX/MCX telescoping stock/|
 	MPX/MCX lightweight stock/|
 	MPX/MCX Maxim Defense CQB telescoping stock/|
-	MPX/MCX PMM ULSS foldable stock
+	MPX/MCX PMM ULSS foldable stock/|
+	MCX/MPX Stock Locking Hinge Assembly
 ]
 ChildParts=[
 	MPX Geissele SCH charging handle/|
@@ -61,17 +63,17 @@ ChildParts=[
 	MPX single latch charging handle
 ]
 Recoil=51.000000
-RecoilHorizontal=299.000000
+RecoilHorizontal=269.000000
 Ergonomics=40.000000
 SightRange=-100
 FireRate=850
 centerOfImpact=0.000000
 deviationCurve=2.250000
-recoilDispersion=15
+recoilDispersion=10
 recoilAngle=90
-cameraRecoil=0.048000
+cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=11
-convergence=1.500000
-Name_Jpn=SIG MPX 9x19 submachine gun
+convergence=0.000000
+Name_Jpn=MPX 9x19 サブマシンガン
 Information_Jpn=The SIG Sauer MPX submachine gun boasts an unprecedented operation speed in the familiar form factor of the AR platform. Short-stroke gas piston allows SIG MPX to use the full range of 9 mm ammunition without any adjustments to the gas valve. The full-sized mount provides the means of installing a wide range of scopes and sighting devices.

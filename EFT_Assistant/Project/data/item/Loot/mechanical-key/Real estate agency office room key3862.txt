@@ -1,0 +1,13 @@
+IDstr=6582dc5740562727a654ebb1
+Name=Real estate agency office room key
+ShortName=REA
+Information_Eng=A key to the office inside the city real estate agency. 
+Itemtype=mechanical-key
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=ItemPropertiesKey
+uses=40
+Name_Jpn=Real estate agency office room key
+Information_Jpn=A key to the office inside the city real estate agency. 

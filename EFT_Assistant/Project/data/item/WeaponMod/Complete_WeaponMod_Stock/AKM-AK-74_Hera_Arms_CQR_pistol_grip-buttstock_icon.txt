@@ -33,7 +33,7 @@ Conflict=[
 	AKS-74U metal skeleton stock (6P26 Sb.5)/|
 	AKM/AK-74 RD AK to M4 buffer tube adapter
 ]
-Recoil=-35.000000
+Recoil=-25.000000
 Ergonomics=16.000000
 accuracyModifier=0.000000
 Name_Jpn=AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock

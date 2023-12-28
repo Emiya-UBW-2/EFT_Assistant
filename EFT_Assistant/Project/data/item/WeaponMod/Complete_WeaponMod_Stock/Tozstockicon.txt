@@ -14,7 +14,7 @@ ChildParts=[
 ChildParts=[
 	TOZ-106 FAB Defense GPCP cheek rest
 ]
-Recoil=-34.000000
+Recoil=-24.000000
 Ergonomics=6.000000
 accuracyModifier=0.000000
 Name_Jpn=TOZ-106 stock

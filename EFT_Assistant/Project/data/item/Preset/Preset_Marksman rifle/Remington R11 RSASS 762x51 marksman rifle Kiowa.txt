@@ -13,7 +13,7 @@ containsItems=[
 	AR-15 Magpul MIAD pistol grip (FDE)x1/|
 	AR-10 7.62x51 Magpul PMAG 20 SR-LR GEN M3 20-round magazinex1/|
 	AR-15 Colt A2 buffer tubex1/|
-	Magpul PRS GEN2 stock (FDE)x1/|
+	AR-15 Magpul PRS GEN2 stock (FDE)x1/|
 	R11 RSASS handguardx1/|
 	Remington RAHG 4 inch railx1/|
 	Magpul RVG foregrip (FDE)x1/|

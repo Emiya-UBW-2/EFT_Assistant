@@ -12,7 +12,7 @@ containsItems=[
 	SR-2M "Veresk" 9x21 submachine gunx1/|
 	SR-2M 9x21 30-round magazinex1/|
 	SR-2M 9x21 sound suppressor (SV-1381)x1/|
-	SR-2MP folding stockx1/|
+	SR-2MP top-folding stockx1/|
 	SR-2M dust coverx1/|
 	SR-2M Zenit B-17 mountx1/|
 	Aimpoint Micro H-2 Standard Mountx1/|

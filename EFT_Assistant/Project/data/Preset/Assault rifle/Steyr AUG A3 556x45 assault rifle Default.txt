@@ -1,9 +1,0 @@
-Name=Steyr AUG A3 5.56x45 assault rifle Default
-Base=Steyr AUG A3 5.56x45 assault rifle
-Parts=Steyr AUG 5.56x45 30-round magazine
-Parts=Steyr AUG A3 charging handle
-Parts=Steyr AUG A3 5.56x45 receiver
-Parts=Steyr AUG A1 5.56x45 20 inch barrel
-Parts=Steyr AUG A3 5.56x45 closed flash hider
-Parts=Steyr AUG vertical foregrip
-Parts=Steyr AUG A3 M1 1.5x optic sight

@@ -15,7 +15,7 @@ ContainsAll=SureFire SOCOM556-RC2 5.56x45 sound suppressor
 ContainsAll=Magpul RVG foregrip (FDE)
 ContainsAll=EOTech EXPS3 holographic sight (Tan)
 ContainsAll=AR-15 Magpul MOE pistol grip (FDE)
-ContainsAll=Magpul UBR GEN2 stock (FDE)
+ContainsAll=AR-15 Magpul UBR GEN2 stock (FDE)
 ContainsAll=LA-5B/PEQ tactical device
 Task_Else=accuracy >= 0
 Task_Else=durability >= 80

@@ -1,0 +1,40 @@
+IDstr=6570aead4d84f81fd002a033
+Name=Death Shadow lightweight armored mask
+ShortName=Death Shadow
+Information_Eng=The "Death Shadow" mask for face protection, reinforced with aramid fibers.
+Itemtype=face-cover
+width=2
+height=2
+weight=0.250000
+fleaMarketFee=0
+propertiestype=ItemPropertiesHelmet
+Conflict=[
+	Army cap/|
+	Baseball cap/|
+	BEAR baseball cap (Olive Drab)/|
+	USEC baseball cap (Coyote)/|
+	EMERCOM cap/|
+	Police cap/|
+	Gus baseball cap/|
+	Basmach leather cap/|
+	Door Kicker boonie hat/|
+	Rivals 2020 cap/|
+	Leather cap/|
+	Army cap (Black)/|
+	Army cap (Coyote Tan)/|
+	Army cap (CADPAT)/|
+	Army cap (Flora)/|
+	Army cap (Desert)/|
+	Army cap (UCP)/|
+	Jack-o'-lantern tactical pumpkin helmet/|
+	FORT Kiver-M bulletproof helmet/|
+	BEAR baseball cap (Black)/|
+	USEC baseball cap (Black)/|
+	Tactical fleece beanie (Tan)/|
+	SSSh-94 SFERA-S helmet/|
+	TSh-4M-L soft tank crew helmet/|
+	Maska-1SCh face shield (Killa Edition)/|
+	Maska-1SCh face shield (Olive Drab)
+]
+Name_Jpn=Death Shadow lightweight armored mask
+Information_Jpn=The "Death Shadow" mask for face protection, reinforced with aramid fibers.

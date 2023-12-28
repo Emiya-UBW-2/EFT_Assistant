@@ -11,7 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	DoubleStar ACE recoil pad
 ]
-Recoil=-32.000000
+Recoil=-22.000000
 Ergonomics=4.000000
 accuracyModifier=0.000000
 Name_Jpn=AR-15 DoubleStar ACE SOCOM Gen.4 stock

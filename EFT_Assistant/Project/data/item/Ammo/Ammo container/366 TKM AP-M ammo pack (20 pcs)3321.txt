@@ -1,0 +1,12 @@
+IDstr=657023f81419851aef03e6f1
+Name=.366 TKM AP-M ammo pack (20 pcs)
+ShortName=AP-M
+Information_Eng=A box of .366 TKM AP-M cartridges, 20 pieces.
+Itemtype=ammo-container
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=.366 TKM AP-M ammo pack (20 pcs)
+Information_Jpn=A box of .366 TKM AP-M cartridges, 20 pieces.

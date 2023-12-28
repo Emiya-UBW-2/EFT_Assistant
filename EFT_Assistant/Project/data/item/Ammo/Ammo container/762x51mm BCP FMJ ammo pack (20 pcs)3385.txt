@@ -1,0 +1,12 @@
+IDstr=65702561cfc010a0f5006a28
+Name=7.62x51mm BCP FMJ ammo pack (20 pcs)
+ShortName=BCP FMJ
+Information_Eng=A box of 7.62x51mm BCP FMJ cartridges, 20 pieces.
+Itemtype=ammo-container
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=7.62x51mm BCP FMJ ammo pack (20 pcs)
+Information_Jpn=A box of 7.62x51mm BCP FMJ cartridges, 20 pieces.

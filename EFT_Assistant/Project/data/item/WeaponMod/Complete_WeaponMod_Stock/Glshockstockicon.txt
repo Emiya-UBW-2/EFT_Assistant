@@ -1,5 +1,5 @@
 IDstr=5a9eb32da2750c00171b3f9c
-Name=FAB Defense GL-SHOCK buttstock
+Name=AR-15 FAB Defense GL-SHOCK buttstock
 ShortName=GL-SHOCK
 Information_Eng=A telescopic stock with an adjustable cheek rest kit, manufactured by FAB Defense.
 Itemtype=stock
@@ -8,7 +8,7 @@ height=1
 weight=0.308000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
-Recoil=-29.000000
+Recoil=-20.000000
 Ergonomics=13.000000
 accuracyModifier=0.000000
 Name_Jpn=FAB Defense GL-SHOCK buttstock

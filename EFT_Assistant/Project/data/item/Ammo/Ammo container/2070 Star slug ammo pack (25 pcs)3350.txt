@@ -1,0 +1,12 @@
+IDstr=6570249f1419851aef03e709
+Name=20/70 Star slug ammo pack (25 pcs)
+ShortName=Star
+Information_Eng=A box of 20/70 Star slug cartridges, 25 pieces.
+Itemtype=ammo-container
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=20/70 Star slug ammo pack (25 pcs)
+Information_Jpn=A box of 20/70 Star slug cartridges, 25 pieces.

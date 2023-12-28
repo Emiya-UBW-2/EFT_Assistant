@@ -58,7 +58,8 @@ ChildParts=[
 	Lobaev Arms 30mm scope mount/|
 	Trijicon RMR low profile mount/|
 	Torrey Pines Logic T12W 30Hz thermal reflex sight/|
-	ELCAN Specter HCO holographic sight
+	ELCAN Specter HCO holographic sight/|
+	Wilcox BOSS Xe reflex sight
 ]
 Conflict=[
 	March Tactical 3-24x42 FFP 30mm riflescope/|
@@ -71,11 +72,11 @@ SightRange=-100
 FireRate=30
 centerOfImpact=0.200000
 deviationCurve=2.000000
-recoilDispersion=25
+recoilDispersion=16
 recoilAngle=90
-cameraRecoil=0.138000
+cameraRecoil=0.000000
 cameraSnap=3.000000
 deviationMax=11
-convergence=0.700000
+convergence=0.000000
 Name_Jpn=RSh-12 12.7x55 revolver
 Information_Jpn=The powerful RSh-12 (Revolver Shturmovoy 12 - "Assault Revolver 12") revolver, manufactured by KBP Instrument Design Bureau, designed for use by special forces. Despite the powerful 12.7x55 mm caliber, RSh-12 has less recoil than many other large-caliber revolvers and pistols, since the shot is fired from the bottom chamber of the cylinder.

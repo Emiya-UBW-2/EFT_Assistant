@@ -20,9 +20,9 @@ containsItems=[
 	MPX GEN1 handguard 2 inch railx2/|
 	MPX GEN1 handguard 4 inch railx1/|
 	MPX flip-up rear sightx1/|
-	MPX/MCX retractable stock pipe adapterx1/|
-	Armacon Baskak stockx1/|
+	MPX/MCX retractable stock adapterx1/|
+	AR-15 Armacon Baskak stockx1/|
 	MPX single latch charging handlex1
 ]
-Name_Jpn=SIG MPX 9x19 submachine gun Silenced
+Name_Jpn=MPX 9x19 サブマシンガン Silenced
 Information_Jpn=

@@ -20,5 +20,5 @@ containsItems=[
 	Vltor CASV 5 inch railx1/|
 	SA-58 3-Prong Trident 7.62x51 flash hiderx1
 ]
-Name_Jpn=DS Arms SA-58 7.62x51 assault rifle SPR
+Name_Jpn=SA-58 7.62x51 アサルトライフル SPR
 Information_Jpn=

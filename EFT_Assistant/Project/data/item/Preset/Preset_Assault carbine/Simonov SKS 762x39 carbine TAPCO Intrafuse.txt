@@ -1,21 +1,21 @@
 IDstr=sksintrafuse000000000001
-Name=Simonov SKS 7.62x39 carbine TAPCO Intrafuse
+Name=TOZ Simonov SKS 7.62x39 carbine TAPCO Intrafuse
 ShortName=SKS TAPCO Intrafuse
 Itemtype=assault-carbine
-width=5
+width=3
 height=2
-weight=4.489000
+weight=2.682000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
-	Simonov SKS 7.62x39 carbinex1/|
+	TOZ Simonov SKS 7.62x39 carbinex1/|
 	SKS TAPCO Intrafuse chassisx1/|
 	SKS rear sightx1/|
-	SKS 7.62x39 ProMag SKS-A5 20-round magazinex1/|
+	SKS 7.62x39 TAPCO 6610 20-round magazinex1/|
 	SKS TAPCO Intrafuse buffer tubex1/|
-	SKS TAPCO Intrafuse kit SAW-Style pistol gripx1/|
-	High Standard M4SS Stockx1
+	SKS TAPCO Intrafuse SAW-Style pistol gripx1/|
+	AR-15 High Standard M4SS Stockx1
 ]
-Name_Jpn=Simonov SKS 7.62x39 carbine TAPCO Intrafuse
+Name_Jpn=SKS 7.62x39 カービン TAPCO Intrafuse
 Information_Jpn=

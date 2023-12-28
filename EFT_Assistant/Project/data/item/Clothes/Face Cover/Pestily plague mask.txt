@@ -11,15 +11,15 @@ propertiestype=
 Conflict=[
 	Army cap/|
 	Baseball cap/|
-	BEAR baseball cap (Green)/|
-	USEC baseball cap (Tan)/|
+	BEAR baseball cap (Olive Drab)/|
+	USEC baseball cap (Coyote)/|
 	Ded Moroz hat/|
 	EMERCOM cap/|
 	Police cap/|
 	Santa hat/|
 	UX PRO beanie/|
 	Kinda cowboy hat/|
-	Tactical fleece beanie/|
+	Tactical fleece beanie (Tan)/|
 	Armasight NVG head strap/|
 	Wilcox Skull Lock head mount/|
 	Rivals 2020 cap/|
@@ -28,7 +28,7 @@ Conflict=[
 	BEAR baseball cap (Black)/|
 	Beret (Black)/|
 	Beret (Blue)/|
-	Beret (Olive)/|
+	Beret (Olive Drab)/|
 	Door Kicker boonie hat/|
 	Kotton beanie/|
 	MIL-TEC boonie hat/|
@@ -37,7 +37,7 @@ Conflict=[
 	USEC baseball cap (Black)/|
 	PSh-97 DJETA riot helmet/|
 	Jack-o'-lantern tactical pumpkin helmet/|
-	Altyn face shield/|
+	Altyn helmet face shield/|
 	Ops-Core FAST Gunsight Mandible/|
 	Ops-Core FAST Visor/|
 	Ops-Core FAST multi-hit ballistic face shield/|
@@ -47,10 +47,13 @@ Conflict=[
 	Kiver-M face shield/|
 	LShZ-2DTM face shield/|
 	Maska-1SCh face shield (Olive Drab)/|
-	Maska-1SCh face shield (Killa)/|
+	Maska-1SCh face shield (Killa Edition)/|
 	Team Wendy EXFIL Ballistic face shield (Black)/|
 	Team Wendy EXFIL Ballistic face shield (Coyote Brown)/|
-	Vulkan-5 face shield
+	Vulkan-5 helmet face shield/|
+	Diamond Age NeoSteel High Cut helmet (Black)/|
+	Gus baseball cap/|
+	Basmach leather cap
 ]
 Name_Jpn=Pestily ペストマスク
 Information_Jpn=ペスト医師のPestilyが着けていたマスクの復元品。珍しい品物で恐ろしい見た目をしており、タルコフではカルト集団が着用している。

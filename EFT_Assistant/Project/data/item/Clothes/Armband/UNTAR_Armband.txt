@@ -1,5 +1,5 @@
 IDstr=619bdf9cc9546643a67df6f8
-Name=UNTAR armband
+Name=Armband (UNTAR)
 ShortName=UNTAR
 Information_Eng=An armband for UN troops in Tarkov.
 Itemtype=arm-band

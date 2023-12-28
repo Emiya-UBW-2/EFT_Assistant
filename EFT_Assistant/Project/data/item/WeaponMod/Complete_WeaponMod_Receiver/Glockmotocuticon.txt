@@ -1,5 +1,5 @@
 IDstr=5a9685b1a2750c0032157104
-Name=Glock 9x19 Moto Cut pistol slide
+Name=Glock Moto Cut pistol slide
 ShortName=G MotoCut
 Information_Eng=A lightweight slide for Glock 9x19 pistols.
 Itemtype=receiver

@@ -11,7 +11,8 @@ propertiestype=ItemPropertiesScope
 Conflict=[
 	BelOMO PSO-1M2 4x24 scope/|
 	BelOMO PSO-1 4x24 scope/|
-	KMZ 1P59 dovetail mount
+	KMZ 1P59 dovetail mount/|
+	AR-15 rear sight carry handle
 ]
 Recoil=0.000000
 Ergonomics=-10.000000

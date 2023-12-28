@@ -1,6 +1,0 @@
-Name=Remington Model 700 7.62x51 bolt-action sniper rifle ARCH
-Base=Remington Model 700 7.62x51 bolt-action sniper rifle
-Parts=M700 7.62x51 ProMag AA-70 10-round magazine
-Parts=M700 ProMag Archangel chassis
-Parts=M700 7.62x51 20 inch threaded barrel
-Parts=M700 thread protection cap

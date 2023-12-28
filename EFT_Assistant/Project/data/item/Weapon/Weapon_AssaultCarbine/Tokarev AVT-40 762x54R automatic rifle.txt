@@ -22,17 +22,17 @@ ChildParts=[
 	SVT dust cover 
 ]
 Recoil=175.000000
-RecoilHorizontal=750.000000
+RecoilHorizontal=675.000000
 Ergonomics=20.000000
 SightRange=-100
 FireRate=750
 centerOfImpact=0.000000
 deviationCurve=1.350000
-recoilDispersion=20
+recoilDispersion=15
 recoilAngle=90
-cameraRecoil=0.103600
+cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=23
-convergence=1.250000
-Name_Jpn=Tokarev AVT-40 7.62x54R automatic rifle
-Information_Jpn=The AVT-40 partially compensated for the lack of handguns and submachine guns at the beginning of WW2. The AVT-40 is similar to the SVT-40 in its design, but due to the presence of a fire selector, the role of which is played by the safety lever, it can fire both single and automatic fire.
+convergence=0.000000
+Name_Jpn=AVT-40 7.62x54R オートマチックライフル
+Information_Jpn=AVT-40 は、第二次世界大戦初期の拳銃やサブマシンガンの不足を一部補うために開発された。SVT-40 と似た形状をしているが、SVT-40 とは違い、セーフティレバーが単発と連射の使い分けを可能にしている。

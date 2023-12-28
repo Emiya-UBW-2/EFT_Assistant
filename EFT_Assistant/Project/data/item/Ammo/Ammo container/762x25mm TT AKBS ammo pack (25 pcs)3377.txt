@@ -1,0 +1,12 @@
+IDstr=6570253ec5d7d4cb4d078573
+Name=7.62x25mm TT AKBS ammo pack (25 pcs)
+ShortName=AKBS
+Information_Eng=A box of 7.62x25mm TT AKBS cartridges, 25 pieces.
+Itemtype=ammo-container
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=7.62x25mm TT AKBS ammo pack (25 pcs)
+Information_Jpn=A box of 7.62x25mm TT AKBS cartridges, 25 pieces.

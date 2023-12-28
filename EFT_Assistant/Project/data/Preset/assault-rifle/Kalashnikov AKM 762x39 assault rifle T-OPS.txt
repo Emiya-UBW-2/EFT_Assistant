@@ -15,6 +15,6 @@ Parts=AK TWS Dog Leg Rail dust cover
 Parts=UNV DLOC-IRD sight mount
 Parts=Trijicon REAP-IR thermal scope
 Parts=AKM/AK-74 ME4 buffer tube adapter
-Parts=Magpul UBR GEN2 stock (Black)
+Parts=AR-15 Magpul UBR GEN2 stock (Black)
 Parts=AK 7.62x39 US Palm "AK30" 30-round magazine (Black)
 Parts=AK Zenit RP-1 charging handle

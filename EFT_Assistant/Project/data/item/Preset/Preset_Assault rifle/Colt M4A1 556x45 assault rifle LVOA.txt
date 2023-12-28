@@ -19,9 +19,9 @@ containsItems=[
 	Vltor CASV KeyMod 6 inch railx1/|
 	Vltor CASV KeyMod 4 inch railx1/|
 	Vltor CASV KeyMod 2 inch railx2/|
-	Colt Carbine buffer tubex1/|
-	Vltor EMOD stockx1/|
+	AR-15 Colt Carbine buffer tubex1/|
+	AR-15 Vltor EMOD stockx1/|
 	AR-15 Radian Weapons Raptor charging handlex1
 ]
-Name_Jpn=Colt M4A1 5.56x45 assault rifle LVOA
+Name_Jpn=M4A1 5.56x45 アサルトライフル LVOA
 Information_Jpn=

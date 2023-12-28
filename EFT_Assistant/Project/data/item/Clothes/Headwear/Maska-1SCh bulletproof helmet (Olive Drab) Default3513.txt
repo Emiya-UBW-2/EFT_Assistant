@@ -1,0 +1,16 @@
+IDstr=65712075f1074598bf0c02a7
+Name=Maska-1SCh bulletproof helmet (Olive Drab) Default
+ShortName=Maska-1SCh Default
+Itemtype=headwear
+width=2
+height=2
+weight=2.600000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Maska-1SCh bulletproof helmet (Olive Drab)x1/|
+	Armor steelx1/|
+]
+Name_Jpn=Maska-1SCh bulletproof helmet (Olive Drab) デフォルト
+Information_Jpn=

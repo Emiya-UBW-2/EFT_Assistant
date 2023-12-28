@@ -1,0 +1,12 @@
+IDstr=656fac30c6baea13cd07e10c
+Name=PRTCTR Lightweight ballistic plate
+ShortName=PRTCTR Light
+Information_Eng=A UHMWPE plate for torso front and back pouches of plate carrier.
+Itemtype=armor-plate
+width=2
+height=2
+weight=0.430000
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=PRTCTR Lightweight ballistic plate
+Information_Jpn=A UHMWPE plate for torso front and back pouches of plate carrier.

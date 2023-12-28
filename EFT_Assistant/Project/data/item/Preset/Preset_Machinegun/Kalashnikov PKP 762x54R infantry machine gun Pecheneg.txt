@@ -17,5 +17,5 @@ containsItems=[
 	PK bipodx1/|
 	PK rear sightx1
 ]
-Name_Jpn=Kalashnikov PKP 7.62x54R infantry machine gun Pecheneg
+Name_Jpn=Kalashnikov PKP 7.62x54R ライトマシンガン Pecheneg
 Information_Jpn=

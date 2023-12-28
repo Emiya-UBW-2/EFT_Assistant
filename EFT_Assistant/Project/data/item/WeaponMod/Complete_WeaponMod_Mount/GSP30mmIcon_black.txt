@@ -14,7 +14,8 @@ ChildParts=[
 	Leupold Mark 4 LR 6.5-20x50 30mm riflescope/|
 	March Tactical 3-24x42 FFP 30mm riflescope/|
 	Vortex Razor HD Gen.2 1-6x24 30mm riflescope/|
-	Schmidt & Bender PM II 1-8x24 30mm riflescope
+	Schmidt & Bender PM II 1-8x24 30mm riflescope/|
+	SIG TANGO6T 1-6x24 30mm riflescope
 ]
 ChildParts=[
 	Geissele Super Precision top ring cap/|

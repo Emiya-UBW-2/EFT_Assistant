@@ -1,0 +1,54 @@
+IDstr=645e0c6b3b381ede770e1cc9
+Name=KBP VSK-94 9x39 rifle
+ShortName=VSK-94
+Information_Eng=The VSK-94 (Voyskovoy Snayperskiy Kompleks - "Military Sniper Complex") is a marksman rifle designed on the base of the 9A-91 assault rifle as a cheaper alternative to the VSS "Vintorez". The silencer, unlike the VSS, is not integrated, which allows the rifle to be used without it if needed. Manufactured by Tula KBP Instrument Design Bureau.
+Itemtype=assault-carbine
+width=2
+height=1
+weight=0.920000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeapon
+ChildParts=[
+	9A-91 9x39 20-round magazine
+]
+ChildParts=[
+	VSK-94 stock
+]
+ChildParts=[
+	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
+	BelOMO PK-AA dovetail reflex sight/|
+	OKP-7 reflex sight (Dovetail)/|
+	NPZ PK1 "Obzor" dovetail reflex sight/|
+	BelOMO PSO-1 4x24 scope/|
+	BelOMO PSO-1M2-1 4x24 scope/|
+	BelOMO PSO-1M2 4x24 scope/|
+	NPZ USP-1 "Tyulpan" 4x scope/|
+	NSPU-M 3.5x dovetail night vision scope/|
+	Axion Kobra dovetail mount/|
+	KMZ 1P59 dovetail mount/|
+	NPZ 1P78-1 dovetail mount/|
+	VOMZ Pilad 043-02 dovetail mount/|
+	Zenit B-13 "Klassika" dovetail rail platform/|
+	Zenit B-13V "Klassika" dovetail rail platform/|
+	SAG Bit low profile dovetail sidemount/|
+	Axion Kobra EKP-1S-03 reflex sight (Dovetail)
+]
+ChildParts=[
+	9A-91 9x39 barrel/|
+	VSK-94 9x39 barrel
+]
+Recoil=115.000000
+RecoilHorizontal=300.000000
+Ergonomics=50.000000
+SightRange=-100
+FireRate=900
+centerOfImpact=0.100000
+deviationCurve=1.900000
+recoilDispersion=14
+recoilAngle=90
+cameraRecoil=0.000000
+cameraSnap=2.200000
+deviationMax=15
+convergence=0.000000
+Name_Jpn=KBP VSK-94 9x39 rifle
+Information_Jpn=The VSK-94 (Voyskovoy Snayperskiy Kompleks - "Military Sniper Complex") is a marksman rifle designed on the base of the 9A-91 assault rifle as a cheaper alternative to the VSS "Vintorez". The silencer, unlike the VSS, is not integrated, which allows the rifle to be used without it if needed. Manufactured by Tula KBP Instrument Design Bureau.

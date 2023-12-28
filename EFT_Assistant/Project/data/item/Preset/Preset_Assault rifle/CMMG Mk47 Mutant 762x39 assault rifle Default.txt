@@ -20,8 +20,8 @@ containsItems=[
 	Magpul MBUS Gen2 flip-up front sightx1/|
 	Magpul MBUS Gen2 flip-up rear sightx1/|
 	CMMG buffer tubex1/|
-	CMMG RipStock buttstockx1/|
+	AR-15 CMMG RipStock buttstockx1/|
 	Mk47 ambidextrous charging handlex1
 ]
-Name_Jpn=CMMG Mk47 Mutant 7.62x39 assault rifle デフォルト
+Name_Jpn=Mk47 Mutant 7.62x39 アサルトライフル デフォルト
 Information_Jpn=

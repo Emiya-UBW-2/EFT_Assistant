@@ -1,5 +1,5 @@
 IDstr=5645bcc04bdc2d363b8b4572
-Name=Peltor ComTac 2 headset
+Name=Peltor ComTac 2 headset (OD Green)
 ShortName=ComTac 2
 Information_Eng=The ComTac 2 amplifies low-level sounds while suppressing impulse noises. Water resistant for outdoor usage. Manufactured by Peltor.
 Itemtype=headphones

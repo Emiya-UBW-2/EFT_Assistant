@@ -1,7 +1,7 @@
 IDstr=5bd073c986f7747f627e796c
 Name=Kotton beanie
 ShortName=Kotton
-Information_Eng=A knitted "Kotton" brand beanie. Warm and faaaaancy.
+Information_Eng=A knitted Kotton brand beanie. Warm and faaaaancy.
 Itemtype=headwear
 width=1
 height=1

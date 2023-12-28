@@ -1,5 +1,5 @@
 IDstr=628a85ee6b1d481ff772e9d5
-Name=SB Tactical SBA3 brace
+Name=AR-15 SB Tactical SBA3 brace
 ShortName=SBA3
 Information_Eng=The SBA3 Pistol Stabilizing Brace, designed and manufactured by SB Tactical. Installed on AR-15 weapon systems.
 Itemtype=stock
@@ -8,7 +8,7 @@ height=1
 weight=0.213000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
-Recoil=-29.000000
+Recoil=-20.000000
 Ergonomics=10.000000
 accuracyModifier=0.000000
 Name_Jpn=SB Tactical SBA3 brace

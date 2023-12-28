@@ -5,4 +5,4 @@ Parts=DVL-10 7.62x51 500mm barrel
 Parts=DVL-10 7.62x51 muzzle device
 Parts=Harris HBR Bipod
 Parts=Hogue OverMolded Rubber Grip (Olive Drab)
-Parts=Lobaev Arms stock
+Parts=DVL-10 Lobaev Arms stock

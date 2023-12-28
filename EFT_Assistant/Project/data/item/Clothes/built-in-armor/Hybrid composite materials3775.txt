@@ -1,0 +1,10 @@
+IDstr=657bbcc9a1c61ee0c3036327
+Name=Hybrid composite materials
+Itemtype=built-in-armor
+width=1
+height=1
+weight=0.000000
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=Hybrid composite materials
+Information_Jpn=

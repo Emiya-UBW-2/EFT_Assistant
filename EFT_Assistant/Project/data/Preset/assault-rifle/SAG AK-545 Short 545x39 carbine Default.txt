@@ -7,5 +7,5 @@ Parts=AK-545 SAG rear sight
 Parts=AK-74 PWS CQB 74 5.45x39 muzzle brake
 Parts=AK Strike Industries Enhanced Pistol Grip (Black)
 Parts=AK-545 SAG buffer tube
-Parts=High Standard M4SS Stock
+Parts=AR-15 High Standard M4SS Stock
 Parts=AK-74 5.45x39 6L23 30-round magazine

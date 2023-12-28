@@ -26,7 +26,8 @@ ChildParts=[
 	Daniel Defense 25mm accessory ring mount/|
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
-	MAWL-C1+ tactical device
+	MAWL-C1+ tactical device/|
+	Zenit KR-2 old gen mount
 ]
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
@@ -48,7 +49,8 @@ ChildParts=[
 	Daniel Defense 25mm accessory ring mount/|
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
-	MAWL-C1+ tactical device
+	MAWL-C1+ tactical device/|
+	Zenit KR-2 old gen mount
 ]
 ChildParts=[
 	BCM GUNFIGHTER MOD 3 vertical foregrip/|
@@ -67,7 +69,7 @@ ChildParts=[
 	Strike Industries Cobra Tactical foregrip/|
 	TangoDown Stubby BGV-MK46K foregrip (Black)/|
 	TangoDown Stubby BGV-MK46K foregrip (FDE)/|
-	TangoDown Stubby BGV-MK46K foregrip (Stealth Gray)/|
+	TangoDown Stubby BGV-MK46K foregrip (Stealth Grey)/|
 	Tactical Dynamics Skeletonized Foregrip/|
 	Viking Tactics UVG tactical foregrip/|
 	Zenit RK-1 tactical foregrip on B-25U mount/|
@@ -86,7 +88,13 @@ ChildParts=[
 	Daniel Defense 25mm accessory ring mount/|
 	Insight WMX200 tactical flashlight/|
 	Olight Baldr Pro tactical flashlight with laser/|
-	Olight Baldr Pro tactical flashlight with laser (Tan)
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
+	RTM Osovets P-2 tactical foregrip/|
+	RTM Osovets P-2 tactical foregrip (Khaki)/|
+	RTM Pillau tactical foregrip (Sand)/|
+	RTM Pillau P-2 tactical foregrip (Red)/|
+	Stark SE-5 Express Forward foregrip (FDE)/|
+	Strike Industries Cobra Tactical foregrip (FDE)
 ]
 Recoil=0.000000
 Ergonomics=-1.000000

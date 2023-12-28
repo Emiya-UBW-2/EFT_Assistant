@@ -11,7 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AK GP-25 accessory kit recoil pad
 ]
-Recoil=-30.000002
+Recoil=-21.000000
 Ergonomics=9.000000
 accuracyModifier=0.000000
 Name_Jpn=AKMSN shoulder piece (6P4N Sb.1-19)

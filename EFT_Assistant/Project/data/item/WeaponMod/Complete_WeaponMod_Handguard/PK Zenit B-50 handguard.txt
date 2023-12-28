@@ -28,7 +28,8 @@ ChildParts=[
 	AN/PEQ-2 tactical device/|
 	LA-5B/PEQ tactical device/|
 	Zenit Perst-3 tactical device/|
-	MAWL-C1+ tactical device
+	MAWL-C1+ tactical device/|
+	Zenit KR-2 old gen mount
 ]
 ChildParts=[
 	PK Zenit B-50 66mm top mount/|
@@ -54,7 +55,8 @@ ChildParts=[
 	AN/PEQ-2 tactical device/|
 	LA-5B/PEQ tactical device/|
 	Zenit Perst-3 tactical device/|
-	MAWL-C1+ tactical device
+	MAWL-C1+ tactical device/|
+	Zenit KR-2 old gen mount
 ]
 ChildParts=[
 	Zenit RK-1 tactical foregrip on B-25U mount

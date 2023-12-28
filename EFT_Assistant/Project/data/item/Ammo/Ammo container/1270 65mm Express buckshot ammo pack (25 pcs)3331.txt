@@ -1,0 +1,12 @@
+IDstr=65702432bfc87b3a3409321c
+Name=12/70 6.5mm Express buckshot ammo pack (25 pcs)
+ShortName=Express
+Information_Eng=A box of 12/70 6.5mm Express buckshot cartridges, 25 pieces.
+Itemtype=ammo-container
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=12/70 6.5mm Express buckshot ammo pack (25 pcs)
+Information_Jpn=A box of 12/70 6.5mm Express buckshot cartridges, 25 pieces.

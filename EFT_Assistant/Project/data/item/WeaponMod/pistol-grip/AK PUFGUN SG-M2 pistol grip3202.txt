@@ -1,0 +1,15 @@
+IDstr=651580dc71a4f10aec4b6056
+Name=AK PUFGUN SG-M2 pistol grip
+ShortName=SG-M2
+Information_Eng=The SG-M2 pistol grip for AK and compatible rifles. Manufactured by PUFGUN.
+Itemtype=pistol-grip
+width=1
+height=1
+weight=0.132000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=0.000000
+Ergonomics=11.500000
+accuracyModifier=0.000000
+Name_Jpn=AK PUFGUN SG-M2 pistol grip
+Information_Jpn=The SG-M2 pistol grip for AK and compatible rifles. Manufactured by PUFGUN.

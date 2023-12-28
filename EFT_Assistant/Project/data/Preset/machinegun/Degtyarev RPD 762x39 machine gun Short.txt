@@ -1,0 +1,8 @@
+Name=Degtyarev RPD 7.62x39 machine gun Short
+Base=Degtyarev RPD 7.62x39 machine gun
+Parts=RPD 7.62x39 "Buben" 100-round box
+Parts=RPD wooden stock
+Parts=RPD wooden pistol grip
+Parts=RPD 7.62x39 sawed-off 350mm barrel
+Parts=RPD wooden handguard
+Parts=RPD rear sight

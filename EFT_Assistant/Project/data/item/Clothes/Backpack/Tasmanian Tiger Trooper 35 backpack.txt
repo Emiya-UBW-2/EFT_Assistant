@@ -1,5 +1,5 @@
 IDstr=639346cc1c8f182ad90c8972
-Name=Tasmanian Tiger Trooper 35 backpack
+Name=Tasmanian Tiger Trooper 35 backpack (Khaki)
 ShortName=Trooper 35
 Information_Eng=The TT Trooper Light Pack 35 is a lightweight and functional 35 liter backpack from Tasmanian Tiger with a comfortable and ergonomic PaddenBack suspension system and anatomical shoulder straps.
 Itemtype=backpack
@@ -9,4 +9,4 @@ weight=1.004000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
 Name_Jpn=Tasmanian Tiger トルーパー 35 バックパック
-Information_Jpn=Tasmanian Tiger トルーパーライトパック 35 は35Lの容量を備えた軽量で機能的なバックパックだ。人間工学・解剖学的に基づいており、背面にパッド付サスペンションシステムやショルダーストラップを備えている。
+Information_Jpn=Tasmanian Tiger トルーパー ライトパック 35 は35Lの容量を備えた軽量で機能的なバックパックだ。人間工学・解剖学に基づいた背面のパッド付サスペンションシステムやショルダーストラップを備えている。

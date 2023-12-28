@@ -1,5 +1,5 @@
 IDstr=619bddffc9546643a67df6f0
-Name=Train Hard armband
+Name=Armband (Train Hard)
 ShortName=THGP
 Information_Eng=An armband from Jaeger. "Fall 715 times, but rise 716 times."
 Itemtype=arm-band

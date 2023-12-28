@@ -1,0 +1,12 @@
+IDstr=657089638db3adca1009f4ca
+Name=Atomic Defense CQCM ballistic mask (Black)
+ShortName=CQCM
+Information_Eng=Atomic Defense's CQCM ballistic mask provides protection against short-range weapons including pistols, shotguns and knives. This heavyweight reinforced mask covers the wearer's face completely. It features an inner lining and wraps slightly around the sides of the head for added protection. The mask also features five-point adjustable straps to ensure a comfortable and precise fit.
+Itemtype=face-cover
+width=2
+height=2
+weight=2.100000
+fleaMarketFee=0
+propertiestype=ItemPropertiesHelmet
+Name_Jpn=Atomic Defense CQCM ballistic mask (Black)
+Information_Jpn=Atomic Defense's CQCM ballistic mask provides protection against short-range weapons including pistols, shotguns and knives. This heavyweight reinforced mask covers the wearer's face completely. It features an inner lining and wraps slightly around the sides of the head for added protection. The mask also features five-point adjustable straps to ensure a comfortable and precise fit.

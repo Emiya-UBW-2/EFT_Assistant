@@ -1,0 +1,17 @@
+IDstr=65765fbe234b9f6e050a4292
+Name=NFM THOR Concealable Reinforced Vest body armor Default
+ShortName=THOR CRV Default
+Itemtype=armor
+width=3
+height=3
+weight=10.480000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	NFM THOR Concealable Reinforced Vest body armorx1/|
+	Aramid insertx1/|
+	SPRTN Omega ballistic platex2
+]
+Name_Jpn=NFM THOR Concealable Reinforced Vest body armor デフォルト
+Information_Jpn=

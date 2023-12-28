@@ -20,9 +20,9 @@ containsItems=[
 	AR-15 KAC RIS handguardx1/|
 	AR-15 KAC RIS lower handguardx1/|
 	AR-15 Colt A2 rear sightx1/|
-	Colt Carbine buffer tubex1/|
-	High Standard M4SS Stockx1/|
+	AR-15 Colt Carbine buffer tubex1/|
+	AR-15 High Standard M4SS Stockx1/|
 	AR-15 Colt charging handlex1
 ]
-Name_Jpn=Colt M4A1 5.56x45 assault rifle KAC RIS
+Name_Jpn=M4A1 5.56x45 アサルトライフル KAC RIS
 Information_Jpn=

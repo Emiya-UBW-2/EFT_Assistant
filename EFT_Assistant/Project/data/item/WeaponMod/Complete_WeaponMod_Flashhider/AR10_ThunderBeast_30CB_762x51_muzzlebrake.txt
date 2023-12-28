@@ -11,7 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Thunder Beast Arms Ultra 5 sound suppressor
 ]
-Recoil=-9.000000
+Recoil=-6.000000
 Ergonomics=-1.000000
 accuracyModifier=0.010000
 Name_Jpn=AR-10 Thunder Beast Arms 30CB 7.62x51 muzzle brake

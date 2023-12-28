@@ -23,7 +23,7 @@ Conflict=[
 	SilencerCo Osprey 9 9x19 sound suppressor/|
 	Glock 9x19 Fischer Development FD917 sound suppressor
 ]
-Recoil=-14.000000
+Recoil=-10.000000
 Ergonomics=-1.000000
 accuracyModifier=0.030000
 Name_Jpn=Glock 9x19 Strike Industries G4 SlideComp compensator

@@ -1,12 +1,12 @@
 IDstr=62a1b7fbc30cfa1d366af586
-Name=Gruppa 99 T30 backpack (Multicam)
+Name=Gruppa 99 T30 backpack (MultiCam)
 ShortName=T30
-Information_Eng=A thirty-liter assault backpack from Gruppa 99. A high-quality solution for conducting special raid operations. Multicam camouflage version.
+Information_Eng=A thirty-liter assault backpack from Gruppa 99. A high-quality solution for conducting special raid operations. MultiCam camouflage version.
 Itemtype=backpack
 width=5
 height=6
 weight=1.400000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
-Name_Jpn=Gruppa 99 T30 backpack (Multicam)
-Information_Jpn=A thirty-liter assault backpack from Gruppa 99. A high-quality solution for conducting special raid operations. Multicam camouflage version.
+Name_Jpn=Gruppa 99 T30 バックパック (マルチカム)
+Information_Jpn=Gruppa 99 社製の30Lアサルトバックパックで、 軍事作戦を行う際に良い選択肢となるバックパックだ。マルチカム迷彩版。

@@ -49,7 +49,9 @@ ChildParts=[
 	AK US Palm pistol grip/|
 	AK Zenit RK-3 pistol grip/|
 	PP-19-01 "Vityaz" pistol grip/|
-	AK Mission First Tactical ENGAGE AK47 pistol grip
+	AK Mission First Tactical ENGAGE AK47 pistol grip/|
+	AK CG101 AR-type pistol grip adapter/|
+	AK PUFGUN SG-M2 pistol grip
 ]
 ChildParts=[
 	AK-545 SAG buffer tube
@@ -73,17 +75,18 @@ ChildParts=[
 	AK Zenit RP-1 charging handle
 ]
 Recoil=91.000000
-RecoilHorizontal=293.000000
+RecoilHorizontal=263.000000
 Ergonomics=50.000000
 SightRange=-100
 FireRate=650
 centerOfImpact=0.033000
 deviationCurve=1.350000
-recoilDispersion=15
+recoilDispersion=10
 recoilAngle=90
-cameraRecoil=0.060000
+cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=23
-convergence=1.650000
-Name_Jpn=SAG AK-545 5.45x39 carbine
-Information_Jpn=The AK-545 carbine by Sureshot Armament Group, based on modern AK platforms.
+convergence=0.000000
+Name_Jpn=AK-545 5.45x39 カービン
+Information_Jpn=Sureshot Armament Group による AK-545 カービン、現代の AK プラットフォームを基にしている。
+。

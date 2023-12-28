@@ -1,0 +1,12 @@
+IDstr=6576f4708ca9c4381d16cd9d
+Name=9x21mm 7N42 "Zubilo"
+ShortName=7N42
+Information_Eng=The 9x21mm PP cartridge (GRAU Index - 7N42) with increased penetration bullet is designed to engage armored personnel. The head part of the core is made with a cut edge. This design ensures the tearing of the threads of the fabric base of the body armor and significantly increases the penetration of the bullet. The core protrudes from the jacket, which increases its penetration capability. The bullet head is colored black.
+Itemtype=ammo
+width=1
+height=1
+weight=0.023000
+fleaMarketFee=0
+propertiestype=ItemPropertiesAmmo
+Name_Jpn=9x21mm 7N42 "Zubilo"
+Information_Jpn=The 9x21mm PP cartridge (GRAU Index - 7N42) with increased penetration bullet is designed to engage armored personnel. The head part of the core is made with a cut edge. This design ensures the tearing of the threads of the fabric base of the body armor and significantly increases the penetration of the bullet. The core protrudes from the jacket, which increases its penetration capability. The bullet head is colored black.

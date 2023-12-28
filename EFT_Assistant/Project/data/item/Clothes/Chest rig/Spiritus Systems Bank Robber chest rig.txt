@@ -1,5 +1,5 @@
 IDstr=5e4abc1f86f774069619fbaa
-Name=Spiritus Systems Bank Robber chest rig
+Name=Spiritus Systems Bank Robber chest rig (MultiCam Black)
 ShortName=Bank Robber
 Information_Eng=An ultra-compact and lightweight chest rig for mobility and comfort. Manufactured by Spiritus Systems.
 Itemtype=chest-rig

@@ -1,5 +1,5 @@
 IDstr=619bdfd4c9546643a67df6fa
-Name=USEC armband
+Name=Armband (USEC)
 ShortName=USEC
 Information_Eng=An armband for hardcore USEC operators.
 Itemtype=arm-band

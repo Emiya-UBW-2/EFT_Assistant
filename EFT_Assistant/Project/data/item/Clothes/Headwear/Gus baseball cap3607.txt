@@ -1,0 +1,12 @@
+IDstr=65749cb8e0423b9ebe0c79c9
+Name=Gus baseball cap
+ShortName=Gus
+Information_Eng=A black baseball cap.
+Itemtype=headwear
+width=1
+height=1
+weight=0.100000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=Gus baseball cap
+Information_Jpn=A black baseball cap.

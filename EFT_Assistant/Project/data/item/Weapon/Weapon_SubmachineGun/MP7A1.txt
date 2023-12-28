@@ -81,9 +81,12 @@ ChildParts=[
 	UNV DLOC-IRD sight mount/|
 	SwampFox Trihawk Prism Scope 3x30/|
 	Armasight Zeus universal base/|
-	SIG Sauer ROMEO7 1x30 reflex sight (prototype)/|
+	SIG Sauer ROMEO7 1x30 reflex sight (Prototype)/|
 	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope/|
-	ELCAN Specter HCO holographic sight
+	ELCAN Specter HCO holographic sight/|
+	GBRS Aimpoint Hydra Mount Kit (Black)/|
+	GBRS Aimpoint Hydra Mount Kit (FDE)/|
+	Wilcox BOSS Xe reflex sight
 ]
 ChildParts=[
 	Holosun LS321 Tactical device/|
@@ -112,7 +115,8 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight/|
-	MAWL-C1+ tactical device
+	MAWL-C1+ tactical device/|
+	Zenit KR-2 old gen mount
 ]
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
@@ -134,24 +138,25 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight/|
-	MAWL-C1+ tactical device
+	MAWL-C1+ tactical device/|
+	Zenit KR-2 old gen mount
 ]
 ChildParts=[
 	HK MP7A1 stock/|
 	HK MP7A2 stock
 ]
 Recoil=50.000000
-RecoilHorizontal=198.000000
+RecoilHorizontal=178.000000
 Ergonomics=65.000000
 SightRange=-100
 FireRate=950
 centerOfImpact=0.250000
 deviationCurve=2.250000
-recoilDispersion=18
+recoilDispersion=12
 recoilAngle=90
-cameraRecoil=0.038400
+cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=11
-convergence=2.100000
-Name_Jpn=HK MP7A1 4.6x30 submachine gun
-Information_Jpn=The HK MP7 submachine gun is extremely compact, lightweight, can be used in very confined spaces, and is practically recoil-free. It can be carried continuously, making it the ideal personal weapon for the soldier of today. Those who carry it will be suitably armed for the broadest range of operations. Manufactured by Heckler & Koch.
+convergence=0.000000
+Name_Jpn=MP7A1 4.6x30 サブマシンガン
+Information_Jpn=HK MP7 サブマシンガンは非常にコンパクトで軽量なだけでなく、狭いスペースで使用でき、実質的な反動はほとんどない。常に携行でき、現役の兵士にとって理想的な個人用武器で、幅広い種類の作戦に使われるだろう。製造はヘッケラー&コッホ（Heckler & Koch）によって行われている。

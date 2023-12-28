@@ -11,8 +11,8 @@ propertiestype=ItemPropertiesWeaponMod
 Conflict=[
 	HK 416A5 5.56x45 10.6 inch barrel
 ]
-Recoil=-14.000000
+Recoil=-10.000000
 Ergonomics=-19.000000
-accuracyModifier=-0.010000
+accuracyModifier=0.000000
 Name_Jpn=AR-15 Griffin Armament M4SD-K 5.56x45 sound suppressor
 Information_Jpn=The M4SD-K sound suppressor, designed for use with 5.56x45 caliber weapon systems. Can only be installed on the SDQD mounting interface flash hiders. Manufactured by Griffin Armament.

@@ -1,5 +1,5 @@
 IDstr=57ade1442459771557167e15
-Name=Armacon Baskak stock
+Name=AR-15 Armacon Baskak stock
 ShortName=Baskak
 Information_Eng=A Russian-made light tube stock of very spartan-like design for use with AK systems that can be installed both on Mil-Spec and Com-Spec M/AR standard receiver adaptors. Not compatible with AR systems.
 Itemtype=stock
@@ -8,7 +8,7 @@ height=1
 weight=0.270000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
-Recoil=-35.000000
+Recoil=-25.000000
 Ergonomics=2.000000
 accuracyModifier=0.000000
 Name_Jpn=Armacon Baskak ストック

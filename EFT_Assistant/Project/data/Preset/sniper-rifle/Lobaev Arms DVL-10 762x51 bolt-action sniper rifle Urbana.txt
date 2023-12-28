@@ -5,4 +5,4 @@ Parts=DVL-10 M2 7.62x51 660mm barrel
 Parts=DVL-10 M2 7.62x51 muzzle brake
 Parts=DVL-10 M2 handguard
 Parts=Hogue OverMolded Rubber Grip (Olive Drab)
-Parts=Lobaev Arms stock
+Parts=DVL-10 Lobaev Arms stock

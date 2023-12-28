@@ -44,7 +44,7 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 Reward_Rep=Peacekeeper+3
 Reward_Item=[
 	Dollarsx900/|
-	Direct Action Thunderbolt compact chest rigx1/|
+	Direct Action Thunderbolt compact chest rig (Shadow Grey)x1/|
 	M67 hand grenadex2
 ]
 

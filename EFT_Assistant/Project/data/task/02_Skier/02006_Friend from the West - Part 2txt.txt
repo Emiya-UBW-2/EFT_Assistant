@@ -1,8 +1,8 @@
 IDstr=5a27d2af86f7744e1115b323
-Name=Friend from the West - Part 2
+Name=Friend From the West - Part 2
 Trader=Skier
 
-NeedTask=Friend from the West - Part 1
+NeedTask=Friend From the West - Part 1
 NeedLevel=9
 
 CanRestart=false

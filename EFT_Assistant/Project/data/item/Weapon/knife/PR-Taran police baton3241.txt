@@ -1,0 +1,15 @@
+IDstr=6540d2162ae6d96b540afcaf
+Name=PR-Taran police baton
+ShortName=PR-Taran
+Information_Eng=The PR-Taran baton with side handle is used by law enforcement agencies for protection and crowd control.
+Itemtype=knife
+width=1
+height=2
+weight=0.750000
+fleaMarketFee=0
+propertiestype=ItemPropertiesMelee
+slashDamage=26
+stabDamage=43
+hitRadius=0.500000
+Name_Jpn=PR-Taran police baton
+Information_Jpn=The PR-Taran baton with side handle is used by law enforcement agencies for protection and crowd control.

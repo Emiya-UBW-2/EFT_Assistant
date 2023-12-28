@@ -1,0 +1,21 @@
+IDstr=657eb19b7ba4217c5e65b689
+Name=KBP 9A-91 9x39 compact assault rifle Default
+ShortName=9A-91 Default
+Itemtype=assault-carbine
+width=4
+height=2
+weight=2.452000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	KBP 9A-91 9x39 compact assault riflex1/|
+	9A-91 9x39 20-round magazinex1/|
+	9A-91 pistol gripx1/|
+	9A-91 top-folding stockx1/|
+	9A-91 9x39 barrelx1/|
+	9A-91 handguard retainerx1/|
+	9A-91 handguardx1
+]
+Name_Jpn=KBP 9A-91 9x39 compact assault rifle デフォルト
+Information_Jpn=

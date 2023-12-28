@@ -13,7 +13,7 @@ containsItems=[
 	M700 7.62x51 AI AICS 10-round magazinex1/|
 	M700 AB Arms MOD*X GEN 3 chassisx1/|
 	AR-15 Colt A2 buffer tubex1/|
-	Magpul PRS GEN2 stock (FDE)x1/|
+	AR-15 Magpul PRS GEN2 stock (FDE)x1/|
 	AR-15 Magpul MIAD pistol grip (FDE)x1/|
 	M700 AB Arms MOD*X GEN 3 KeyMod handguardx1/|
 	Strike Industries KeyMod 4 inch railx3/|

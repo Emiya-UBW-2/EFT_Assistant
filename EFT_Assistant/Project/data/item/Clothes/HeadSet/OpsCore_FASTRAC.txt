@@ -10,9 +10,9 @@ fleaMarketFee=0
 propertiestype=
 Conflict=[
 	Ops-Core FAST Side Armor/|
-	Peltor ComTac 2 headset/|
+	Peltor ComTac 2 headset (OD Green)/|
 	MSA Sordin Supreme PRO-X/L headset/|
-	Peltor ComTac 4 Hybrid headset/|
+	Peltor ComTac 4 Hybrid headset (Coyote Brown)/|
 	GSSh-01 active headset/|
 	Peltor Tactical Sport headset
 ]

@@ -11,15 +11,15 @@ propertiestype=
 Conflict=[
 	Army cap/|
 	Baseball cap/|
-	BEAR baseball cap (Green)/|
-	USEC baseball cap (Tan)/|
+	BEAR baseball cap (Olive Drab)/|
+	USEC baseball cap (Coyote)/|
 	Ded Moroz hat/|
 	EMERCOM cap/|
 	Police cap/|
 	Santa hat/|
 	UX PRO beanie/|
 	Kinda cowboy hat/|
-	Tactical fleece beanie/|
+	Tactical fleece beanie (Tan)/|
 	Ski hat with holes for eyes/|
 	Armasight NVG head strap/|
 	TSh-4M-L soft tank crew helmet/|
@@ -30,7 +30,7 @@ Conflict=[
 	BEAR baseball cap (Black)/|
 	Beret (Black)/|
 	Beret (Blue)/|
-	Beret (Olive)/|
+	Beret (Olive Drab)/|
 	Bomber beanie/|
 	Door Kicker boonie hat/|
 	Kotton beanie/|
@@ -47,11 +47,13 @@ Conflict=[
 	BOSS cap/|
 	USEC baseball cap (Black)/|
 	Maska-1SCh bulletproof helmet (Olive Drab)/|
-	Maska-1SCh bulletproof helmet (Killa)/|
-	Rys-T bulletproof helmet/|
+	Maska-1SCh bulletproof helmet (Killa Edition)/|
+	Rys-T bulletproof helmet (Black)/|
 	Jack-o'-lantern tactical pumpkin helmet/|
 	Beanie/|
-	Ushanka ear flap hat
+	Ushanka ear flap hat/|
+	Gus baseball cap/|
+	Basmach leather cap
 ]
 Name_Jpn=Ghoul mask
 Information_Jpn=A rubber mask of a Ghoul. If you want to terrify Scavs and make them look for new pants, this mask is for you.

@@ -1,0 +1,77 @@
+IDstr=65290f395ae2ae97b80fdf2d
+Name=SIG MCX SPEAR 6.8x51 assault rifle
+ShortName=SPEAR 6.8
+Information_Eng=The MCX SPEAR is a multi-caliber assault rifle designed and manufactured by SIG Sauer based on the MCX assault rifle. Primarily chambered in the new 6.8x51mm (.277 FURY) ammunition. Designed specifically for the US Military to replace the M4 carbine.
+Itemtype=assault-rifle
+width=1
+height=1
+weight=0.400000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeapon
+ChildParts=[
+	AR-15 Colt A2 pistol grip/|
+	AR-15 Damage Industries ECS pistol grip (FDE)/|
+	AR-15 DLG Tactical DLG-123 pistol grip/|
+	AR-15 F1 Firearms Skeletonized Style 1 pistol grip/|
+	AR-15 F1 Firearms Skeletonized Style 2 PC pistol grip/|
+	AR-15 F1 Firearms Skeletonized Style 2 pistol grip/|
+	AR-15 Hera Arms HG-15 pistol grip/|
+	AR-15 HK Battle Grip pistol grip/|
+	AR-15 HK Battle Grip Beavertail pistol grip/|
+	AR-15 HK Battle Grip Beavertail pistol grip (RAL 8000)/|
+	AR-15 HK Ergo PSG-1 style pistol grip/|
+	AR-15 HK V2 pistol grip/|
+	Hogue OverMolded Rubber Grip (Black)/|
+	Hogue OverMolded Rubber Grip (FDE)/|
+	Hogue OverMolded Rubber Grip (Ghillie Earth)/|
+	Hogue OverMolded Rubber Grip (Ghillie Green)/|
+	Hogue OverMolded Rubber Grip (Olive Drab)/|
+	AR-15 Magpul MIAD pistol grip (FDE)/|
+	AR-15 Magpul MOE pistol grip (Black)/|
+	AR-15 Magpul MOE pistol grip (FDE)/|
+	AR-15 Naroh Arms GRAL-S pistol grip/|
+	MCX pistol grip/|
+	AR-15 Stark AR Rifle Grip (Black)/|
+	AR-15 Stark AR Rifle Grip (FDE)/|
+	AR-15 Tactical Dynamics Hexgrip pistol grip/|
+	AR-15 Tactical Dynamics Skeletonized pistol grip/|
+	AR-15 Aeroknox Orion pistol grip/|
+	AR-15 SIG M400 Reduced Angle Pistol Grip (Coyote Tan)
+]
+ChildParts=[
+	AR-10 7.62x51 Lancer L7AWM 20-round magazine/|
+	AR-10 7.62x51 Lancer L7AWM 25-round magazine/|
+	AR-10 7.62x51 Magpul PMAG 20 SR-LR GEN M3 20-round magazine/|
+	AR-10 7.62x51 KAC 20-round steel magazine/|
+	AR-10 7.62x51 KAC 10-round steel magazine
+]
+ChildParts=[
+	MCX SPEAR 6.8x51 upper receiver
+]
+ChildParts=[
+	MPX/MCX retractable stock adapter/|
+	MPX/MCX collapsing/telescoping stock/|
+	MPX/MCX telescoping stock/|
+	MPX/MCX lightweight stock/|
+	MPX/MCX Maxim Defense CQB telescoping stock/|
+	MPX/MCX PMM ULSS foldable stock/|
+	MCX/MPX Stock Locking Hinge Assembly
+]
+ChildParts=[
+	MCX SPEAR charging handle
+]
+Recoil=130.000000
+RecoilHorizontal=372.000000
+Ergonomics=46.000000
+SightRange=-100
+FireRate=800
+centerOfImpact=0.010000
+deviationCurve=1.350000
+recoilDispersion=10
+recoilAngle=90
+cameraRecoil=0.000000
+cameraSnap=3.500000
+deviationMax=23
+convergence=0.000000
+Name_Jpn=SIG MCX SPEAR 6.8x51 assault rifle
+Information_Jpn=The MCX SPEAR is a multi-caliber assault rifle designed and manufactured by SIG Sauer based on the MCX assault rifle. Primarily chambered in the new 6.8x51mm (.277 FURY) ammunition. Designed specifically for the US Military to replace the M4 carbine.

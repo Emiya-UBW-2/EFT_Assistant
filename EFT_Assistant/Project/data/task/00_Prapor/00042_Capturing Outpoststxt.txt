@@ -44,11 +44,11 @@ Task_Else=ゾーン:[Inside Resort]
 
 Reward_Item=[
 	ASh-12 12.7x55 assault rifle Silencedx1/|
-	RFARMY armbandx1/|
-	USEC armbandx1/|
-	Rys-T bulletproof helmetx1/|
+	Armband (RFARMY)x1/|
+	Armband (USEC)x1/|
+	Rys-T bulletproof helmet (Black)x1/|
 	Rys-T face shieldx2/|
-	6B43 6A Zabralo-Sh body armorx1
+	6B43 Zabralo-Sh body armor (Digital Flora)x1
 ]
 
 Reward_EXP=69999

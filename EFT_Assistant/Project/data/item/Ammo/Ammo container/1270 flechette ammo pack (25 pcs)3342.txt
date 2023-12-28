@@ -1,0 +1,12 @@
+IDstr=65702474bfc87b3a34093226
+Name=12/70 flechette ammo pack (25 pcs)
+ShortName=Flechette
+Information_Eng=A box of 12/70 flechette cartridges, 25 pieces.
+Itemtype=ammo-container
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=12/70 flechette ammo pack (25 pcs)
+Information_Jpn=A box of 12/70 flechette cartridges, 25 pieces.

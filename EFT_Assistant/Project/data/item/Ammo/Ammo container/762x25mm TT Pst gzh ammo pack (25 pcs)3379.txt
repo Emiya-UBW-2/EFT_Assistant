@@ -1,0 +1,12 @@
+IDstr=65702546cfc010a0f5006a1f
+Name=7.62x25mm TT Pst gzh ammo pack (25 pcs)
+ShortName=Pst
+Information_Eng=A box of 7.62x25mm TT Pst gzh cartridges, 25 pieces.
+Itemtype=ammo-container
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=7.62x25mm TT Pst gzh ammo pack (25 pcs)
+Information_Jpn=A box of 7.62x25mm TT Pst gzh cartridges, 25 pieces.

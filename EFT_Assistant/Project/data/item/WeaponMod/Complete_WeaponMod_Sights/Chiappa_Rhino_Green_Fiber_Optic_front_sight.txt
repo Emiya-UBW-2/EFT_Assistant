@@ -1,7 +1,7 @@
 IDstr=619f52454c58466fe122843b
-Name=Chiappa Rhino Green Fiber Optic front sight
-ShortName=CR GF
-Information_Eng=A Green Fiber tritium front sight for Rhino revolvers, manufactured by Chiappa Firearms.
+Name=Chiappa Rhino Red Fiber Optic front sight
+ShortName=CR RF
+Information_Eng=A Red Fiber tritium front sight for Rhino revolvers, manufactured by Chiappa Firearms.
 Itemtype=ironsight
 width=1
 height=1

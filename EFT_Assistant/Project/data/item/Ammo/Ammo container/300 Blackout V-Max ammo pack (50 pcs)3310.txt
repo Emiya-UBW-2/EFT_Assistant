@@ -1,0 +1,12 @@
+IDstr=657023b71419851aef03e6e8
+Name=.300 Blackout V-Max ammo pack (50 pcs)
+ShortName=V-Max
+Information_Eng=A box of .300 Blackout V-Max cartridges, 50 pieces.
+Itemtype=ammo-container
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=.300 Blackout V-Max ammo pack (50 pcs)
+Information_Jpn=A box of .300 Blackout V-Max cartridges, 50 pieces.

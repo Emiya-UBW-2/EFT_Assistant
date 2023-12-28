@@ -43,7 +43,9 @@ ChildParts=[
 	SIG Sauer ROMEO sight mount/|
 	Trijicon RMR high profile mount/|
 	Trijicon RMR low profile mount/|
-	ELCAN Specter HCO holographic sight
+	ELCAN Specter HCO holographic sight/|
+	MAWL-C1+ tactical device/|
+	Wilcox BOSS Xe reflex sight
 ]
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail
@@ -55,8 +57,10 @@ ChildParts=[
 	Magpul M-LOK AFG tactical foregrip (Black)/|
 	Magpul M-LOK AFG tactical foregrip (FDE)/|
 	Magpul M-LOK AFG tactical foregrip (Olive Drab)/|
-	Magpul M-LOK AFG tactical foregrip (Stealth Gray)/|
-	Magpul M-LOK 4.1 inch rail
+	Magpul M-LOK AFG tactical foregrip (Stealth Grey)/|
+	Magpul M-LOK 4.1 inch rail/|
+	Daniel Defense Enhanced M-LOK Vertical Foregrip (Black)/|
+	Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown)
 ]
 Recoil=-5.000000
 Ergonomics=9.000000

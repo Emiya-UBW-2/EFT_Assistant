@@ -1,0 +1,16 @@
+IDstr=6571214fc50461e8750d1f6b
+Name=BNTI Module-3M body armor Default
+ShortName=Module-3M Default
+Itemtype=armor
+width=3
+height=3
+weight=6.000000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	BNTI Module-3M body armorx1/|
+	Aramid insertx1/|
+]
+Name_Jpn=BNTI Module-3M ボディアーマー デフォルト
+Information_Jpn=

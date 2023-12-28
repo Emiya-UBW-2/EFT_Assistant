@@ -1,9 +1,0 @@
-Name=Springfield Armory M1A 7.62x51 rifle SASS
-Base=Springfield Armory M1A 7.62x51 rifle
-Parts=M1A 7.62x51 20-round magazine
-Parts=M14 TROY S.A.S.S. Chassis stock
-Parts=AR-15 Damage Industries ECS pistol grip (FDE)
-Parts=Colt Carbine buffer tube
-Parts=Magpul MOE Carbine stock (FDE)
-Parts=M1A 7.62x51 22 inch barrel
-Parts=M14 Yankee Hill Phantom 7.62x51 flash hider

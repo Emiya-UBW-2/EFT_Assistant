@@ -13,7 +13,7 @@ ChildParts=[
 	SureFire SOCOM556-MONSTER 5.56x45 sound suppressor/|
 	SureFire SOCOM556-RC2 5.56x45 sound suppressor
 ]
-Recoil=-8.000000
+Recoil=-6.000000
 Ergonomics=-1.000000
 accuracyModifier=0.030000
 Name_Jpn=AR-15 SureFire SF3P 5.56x45 Flash hider

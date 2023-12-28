@@ -25,30 +25,32 @@ ChildParts=[
 ]
 ChildParts=[
 	AR-15 B5 Systems Precision stock/|
-	CMMG RipStock buttstock/|
-	FAB Defense GL-CORE buttstock/|
-	FAB Defense GL-SHOCK buttstock/|
-	FAB Defense GLR-16-S stock/|
-	High Standard M4SS Stock/|
+	AR-15 CMMG RipStock buttstock/|
+	AR-15 FAB Defense GL-CORE buttstock/|
+	AR-15 FAB Defense GL-SHOCK buttstock/|
+	AR-15 FAB Defense GLR-16-S stock/|
+	AR-15 High Standard M4SS Stock/|
 	AR-15 HK E1 buttstock/|
 	AR-15 HK Slim Line buttstock/|
 	AK-12 stock/|
-	KRISS Defiance DS150 stock (Black)/|
-	KRISS Defiance DS150 stock (FDE)/|
-	LMT SOPMOD stock/|
-	Magpul CTR Carbine stock (Black)/|
-	Magpul CTR Carbine stock (FDE)/|
-	Magpul MOE Carbine stock (Black)/|
-	Magpul MOE Carbine stock (FDE)/|
-	Magpul MOE Carbine stock (Foliage Green)/|
-	Magpul MOE Carbine stock (Olive Drab)/|
-	Magpul MOE Carbine stock (Stealth Gray)/|
-	Magpul PRS GEN3 stock (Black)/|
-	Magpul PRS GEN3 stock (Grey)/|
-	MFT BUS stock/|
-	SB Tactical SBA3 brace/|
-	Strike Industries Viper Mod 1 stock/|
-	Vltor EMOD stock
+	AR-15 KRISS Defiance DS150 stock (Black)/|
+	AR-15 KRISS Defiance DS150 stock (FDE)/|
+	AR-15 LMT SOPMOD stock/|
+	AR-15 Magpul CTR Carbine stock (Black)/|
+	AR-15 Magpul CTR Carbine stock (FDE)/|
+	AR-15 Magpul MOE Carbine stock (Black)/|
+	AR-15 Magpul MOE Carbine stock (FDE)/|
+	AR-15 Magpul MOE Carbine stock (Foliage Green)/|
+	AR-15 Magpul MOE Carbine stock (Olive Drab)/|
+	AR-15 Magpul MOE Carbine stock (Stealth Grey)/|
+	AR-15 Magpul PRS GEN3 stock (Black)/|
+	AR-15 Magpul PRS GEN3 stock (Grey)/|
+	AR-15 MFT BUS stock/|
+	AR-15 SB Tactical SBA3 brace/|
+	AR-15 Strike Industries Viper Mod 1 stock/|
+	AR-15 Vltor EMOD stock/|
+	AR-15 Daniel Defense Enhanced Collapsible Buttstock (Black)/|
+	AR-15 Daniel Defense Enhanced Collapsible Buttstock (FDE)
 ]
 ChildParts=[
 	M32A1 40mm cylinder
@@ -70,7 +72,7 @@ ChildParts=[
 	Strike Industries Cobra Tactical foregrip/|
 	TangoDown Stubby BGV-MK46K foregrip (Black)/|
 	TangoDown Stubby BGV-MK46K foregrip (FDE)/|
-	TangoDown Stubby BGV-MK46K foregrip (Stealth Gray)/|
+	TangoDown Stubby BGV-MK46K foregrip (Stealth Grey)/|
 	Tactical Dynamics Skeletonized Foregrip/|
 	Viking Tactics UVG tactical foregrip/|
 	Zenit RK-1 tactical foregrip on B-25U mount/|
@@ -79,7 +81,13 @@ ChildParts=[
 	Zenit RK-2 tactical foregrip/|
 	Zenit RK-4 tactical foregrip/|
 	Zenit RK-5 tactical foregrip/|
-	Zenit RK-6 tactical foregrip
+	Zenit RK-6 tactical foregrip/|
+	RTM Pillau tactical foregrip (Sand)/|
+	RTM Osovets P-2 tactical foregrip (Khaki)/|
+	RTM Osovets P-2 tactical foregrip/|
+	RTM Pillau P-2 tactical foregrip (Red)/|
+	Stark SE-5 Express Forward foregrip (FDE)/|
+	Strike Industries Cobra Tactical foregrip (FDE)
 ]
 ChildParts=[
 	Milkor M2A1 grenade launcher reflex sight
@@ -140,9 +148,9 @@ centerOfImpact=0.480000
 deviationCurve=2.000000
 recoilDispersion=20
 recoilAngle=90
-cameraRecoil=0.105600
+cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=11
-convergence=1.100000
+convergence=0.000000
 Name_Jpn=M32A1 MSGL 40mm grenade launcher
 Information_Jpn=M32A1 MSGL 40mm six-shot grenade launcher manufactured by Milkor USA. This grenade launcher uses the well-established principle of a revolver to achieve a high rate of accurate fire that can be quickly aimed at a target.

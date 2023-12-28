@@ -12,7 +12,7 @@ ChildParts=[
 	AWC PSR muzzle brake protector/|
 	AWC Thor PSR XL multi-caliber sound suppressor
 ]
-Recoil=-10.000000
+Recoil=-7.000000
 Ergonomics=-1.000000
 accuracyModifier=0.010000
 Name_Jpn=AR-15 AWC PSR 5.56x45 muzzle brake

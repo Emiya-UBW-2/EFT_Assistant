@@ -11,7 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 Conflict=[
 	AK Krebs Custom UFM KeyMod handguard/|
 	AK Strike Industries TRAX 1 handguard/|
-	Molot VPO-101 "Vepr-Hunter" 7.62x51 carbine/|
+	Molot Arms VPO-101 "Vepr-Hunter" 7.62x51 carbine/|
 	DS Arms SA-58 7.62x51 assault rifle/|
 	Desert Tech MDR 5.56x45 assault rifle/|
 	Kalashnikov AK-101 5.56x45 assault rifle/|
@@ -31,8 +31,8 @@ Conflict=[
 	Kalashnikov AKS-74U 5.45x39 assault rifle/|
 	Kalashnikov AKS-74UB 5.45x39 assault rifle/|
 	Kalashnikov AKS-74UN 5.45x39 assault rifle/|
-	Molot VPO-209 .366 TKM carbine/|
-	Molot VPO-136 "Vepr-KM" 7.62x39 carbine/|
+	Molot Arms VPO-209 .366 TKM carbine/|
+	Molot Arms VPO-136 "Vepr-KM" 7.62x39 carbine/|
 	RPK-16 5.45x39 light machine gun/|
 	SVDS 7.62x54R sniper rifle/|
 	Saiga 12ga ver.10 12/76 semi-automatic shotgun/|

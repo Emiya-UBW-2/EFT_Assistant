@@ -2,7 +2,7 @@ IDstr=6193850f60b34236ee0483de
 Name=Long Road
 Trader=Skier
 
-NeedTask=Friend from the West - Part 2
+NeedTask=Friend From the West - Part 2
 NeedLevel=20
 
 CanRestart=false

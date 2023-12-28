@@ -30,5 +30,5 @@ containsItems=[
 	DoubleStar ACE recoil padx1/|
 	Mk47 ambidextrous charging handlex1
 ]
-Name_Jpn=CMMG Mk47 Mutant 7.62x39 assault rifle Mace
+Name_Jpn=Mk47 Mutant 7.62x39 アサルトライフル Mace
 Information_Jpn=

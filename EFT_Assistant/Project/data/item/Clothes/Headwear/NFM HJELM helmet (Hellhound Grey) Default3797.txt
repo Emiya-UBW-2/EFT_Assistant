@@ -1,0 +1,16 @@
+IDstr=657bc7d6aab96fccee08bec4
+Name=NFM HJELM helmet (Hellhound Grey) Default
+ShortName=HJELM Default
+Itemtype=headwear
+width=2
+height=2
+weight=0.800000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	NFM HJELM helmet (Hellhound Grey)x1/|
+	Hybrid composite materialsx1/|
+]
+Name_Jpn=NFM HJELM helmet デフォルト
+Information_Jpn=

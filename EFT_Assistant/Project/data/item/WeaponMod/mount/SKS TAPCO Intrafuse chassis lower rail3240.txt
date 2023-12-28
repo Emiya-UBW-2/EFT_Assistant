@@ -1,0 +1,49 @@
+IDstr=653ed19d22e1ef3d9002c328
+Name=SKS TAPCO Intrafuse chassis lower rail
+ShortName=TAPCO Intrafuse
+Information_Eng=A short Weaver/Picatinny type rail for installation of tactical foregrips on the Intrafuse chassis. Manufactured by TAPCO.
+Itemtype=mount
+width=1
+height=1
+weight=0.100000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	BCM GUNFIGHTER MOD 3 vertical foregrip/|
+	ASh-12 vertical foregrip/|
+	Fortis Shift tactical foregrip/|
+	HK Sturmgriff foregrip/|
+	KAC vertical foregrip/|
+	Magpul AFG tactical foregrip (Black)/|
+	Magpul AFG tactical foregrip (FDE)/|
+	Magpul AFG tactical foregrip (Forest Green)/|
+	Magpul AFG tactical foregrip (Olive Drab)/|
+	Magpul RVG foregrip (Black)/|
+	Magpul RVG foregrip (FDE)/|
+	RTM Pillau tactical foregrip/|
+	Stark SE-5 Express Forward foregrip/|
+	Strike Industries Cobra Tactical foregrip/|
+	TangoDown Stubby BGV-MK46K foregrip (Black)/|
+	TangoDown Stubby BGV-MK46K foregrip (FDE)/|
+	TangoDown Stubby BGV-MK46K foregrip (Stealth Grey)/|
+	Tactical Dynamics Skeletonized Foregrip/|
+	Viking Tactics UVG tactical foregrip/|
+	Zenit RK-1 tactical foregrip on B-25U mount/|
+	Zenit RK-0 tactical foregrip/|
+	Zenit RK-1 tactical foregrip/|
+	Zenit RK-2 tactical foregrip/|
+	Zenit RK-4 tactical foregrip/|
+	Zenit RK-5 tactical foregrip/|
+	Zenit RK-6 tactical foregrip/|
+	RTM Osovets P-2 tactical foregrip/|
+	RTM Osovets P-2 tactical foregrip (Khaki)/|
+	RTM Pillau P-2 tactical foregrip (Red)/|
+	RTM Pillau tactical foregrip (Sand)/|
+	Stark SE-5 Express Forward foregrip (FDE)/|
+	Strike Industries Cobra Tactical foregrip (FDE)
+]
+Recoil=0.000000
+Ergonomics=0.000000
+accuracyModifier=0.000000
+Name_Jpn=SKS TAPCO Intrafuse chassis lower rail
+Information_Jpn=A short Weaver/Picatinny type rail for installation of tactical foregrips on the Intrafuse chassis. Manufactured by TAPCO.

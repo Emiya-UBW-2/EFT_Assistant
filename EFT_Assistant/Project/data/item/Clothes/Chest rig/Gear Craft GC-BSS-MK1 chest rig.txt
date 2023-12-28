@@ -1,5 +1,5 @@
 IDstr=5fd4c60f875c30179f5d04c2
-Name=Gear Craft GC-BSS-MK1 chest rig
+Name=Gear Craft GC-BSS-MK1 chest rig (A-TACS FG)
 ShortName=BSS-MK1
 Information_Eng=The new generation shoulder belt system, made for patrol and assault operations.
 Itemtype=chest-rig

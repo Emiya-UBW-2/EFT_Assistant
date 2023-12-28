@@ -11,10 +11,12 @@ propertiestype=
 Conflict=[
 	Army cap/|
 	Baseball cap/|
-	BEAR baseball cap (Green)/|
-	USEC baseball cap (Tan)/|
+	BEAR baseball cap (Olive Drab)/|
+	USEC baseball cap (Coyote)/|
 	EMERCOM cap/|
-	Police cap
+	Police cap/|
+	Gus baseball cap/|
+	Basmach leather cap
 ]
 Name_Jpn=ネオプレーンマスク
 Information_Jpn=燃え盛る炎のイラストが描かれたネオプレーンマスク。これなら格好いいだけではなく、危険な雰囲気も纏うことができる。

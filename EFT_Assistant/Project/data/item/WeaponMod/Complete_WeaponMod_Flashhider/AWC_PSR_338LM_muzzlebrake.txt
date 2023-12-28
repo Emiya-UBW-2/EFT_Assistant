@@ -12,7 +12,7 @@ ChildParts=[
 	AWC PSR muzzle brake protector/|
 	AWC Thor PSR XL multi-caliber sound suppressor
 ]
-Recoil=-14.000000
+Recoil=-10.000000
 Ergonomics=-1.000000
 accuracyModifier=0.010000
 Name_Jpn=AWC PSR .338 LM muzzle brake

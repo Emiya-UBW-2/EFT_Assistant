@@ -1,5 +1,5 @@
 IDstr=5fbbaa86f9986c4cff3fe5f6
-Name=KRISS Defiance DS150 stock (Black)
+Name=AR-15 KRISS Defiance DS150 stock (Black)
 ShortName=DS150
 Information_Eng=A drop-in replacement buttstock for AR-15/M16 carbines. It uses mil-spec sized receiver extension tubes. The frame profile avoids snagging and shields the release latch, preventing accidental activation. It includes a standard 0.30" thick rubber butt-pad to prevent slippage even with body armor or modular gear. Black version.
 Itemtype=stock
@@ -8,7 +8,7 @@ height=1
 weight=0.400000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
-Recoil=-32.000000
+Recoil=-22.000000
 Ergonomics=9.000000
 accuracyModifier=0.000000
 Name_Jpn=KRISS Defiance DS150 stock (Black)

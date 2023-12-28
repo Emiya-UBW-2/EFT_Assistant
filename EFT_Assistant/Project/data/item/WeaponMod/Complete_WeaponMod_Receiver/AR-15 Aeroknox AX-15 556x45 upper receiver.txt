@@ -69,8 +69,12 @@ ChildParts=[
 	AI AX-50 34mm scope mount/|
 	Armasight Zeus universal base/|
 	ELCAN Specter HCO holographic sight/|
-	SIG Sauer ROMEO7 1x30 reflex sight (prototype)/|
-	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope
+	SIG Sauer ROMEO7 1x30 reflex sight (Prototype)/|
+	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope/|
+	GBRS Aimpoint Hydra Mount Kit (Black)/|
+	GBRS Aimpoint Hydra Mount Kit (FDE)/|
+	Wilcox BOSS Xe reflex sight/|
+	SIG ALPHA4 30mm ring scope mount
 ]
 ChildParts=[
 	AR-15 5.56x45 260mm barrel/|
@@ -105,7 +109,8 @@ ChildParts=[
 	AR-15 War Sport LVOA-S handguard (Black)/|
 	AR-15 Precision Reflex GEN III Delta Carbon handguard/|
 	AR-15 Aeroknox AX-15 4 inch M-LOK handguard/|
-	AR-15 Aeroknox AX-15 15.8 inch M-LOK handguard
+	AR-15 Aeroknox AX-15 15.8 inch M-LOK handguard/|
+	AR-15 AB Arms MOD1 handguard
 ]
 ChildParts=[
 	HK 416A5 flip-up rear sight/|

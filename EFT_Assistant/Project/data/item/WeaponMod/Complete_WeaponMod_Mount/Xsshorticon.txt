@@ -38,8 +38,9 @@ ChildParts=[
 	UNV DLOC-IRD sight mount/|
 	Torrey Pines Logic T12W 30Hz thermal reflex sight/|
 	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope/|
-	SIG Sauer ROMEO7 1x30 reflex sight (prototype)/|
-	ELCAN Specter HCO holographic sight
+	SIG Sauer ROMEO7 1x30 reflex sight (Prototype)/|
+	ELCAN Specter HCO holographic sight/|
+	Wilcox BOSS Xe reflex sight
 ]
 Recoil=0.000000
 Ergonomics=-1.000000

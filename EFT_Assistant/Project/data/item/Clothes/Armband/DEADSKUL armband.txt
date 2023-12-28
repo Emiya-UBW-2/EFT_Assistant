@@ -1,5 +1,5 @@
 IDstr=619bddc6c9546643a67df6ee
-Name=DEADSKUL armband
+Name=Armband (DEADSKUL)
 ShortName=DEADSKUL
 Information_Eng=An armband from Fence, only for real collectors.
 Itemtype=arm-band

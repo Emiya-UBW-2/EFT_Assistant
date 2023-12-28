@@ -11,8 +11,8 @@ propertiestype=ItemPropertiesWeaponMod
 Conflict=[
 	Steyr AUG Relfex T4AUG Ranger 5.56x45 sound suppressor
 ]
-Recoil=-10.000000
+Recoil=-7.000000
 Ergonomics=-24.000000
-accuracyModifier=-0.020000
+accuracyModifier=0.000000
 Name_Jpn=Steyr AUG Ase Utra S Series SL7i 5.56x45 sound suppressor
 Information_Jpn=The S Series SL7i sound suppressor for Steyr AUG 5.56x45 rifles. Manufactured by Ase Utra.

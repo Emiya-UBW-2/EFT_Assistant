@@ -45,10 +45,10 @@ Task_Else=Locate the place where the messenger hid the cargo
 Reward_Rep=Skier+4
 Reward_Item=[
 	Dollarsx500/|
-	Molot VPO-209 .366 TKM carbine Defaultx1/|
+	Molot Arms VPO-209 .366 TKM carbine Defaultx1/|
 	AK 7.62x39 30-round magazine (issued '55 or later)x3/|
 	.366 TKM EKOx120/|
-	BNTI Zhuk-3 body armor (Press)x1
+	BNTI Zhuk body armor (Press)x1
 ]
 
 Reward_EXP=3200

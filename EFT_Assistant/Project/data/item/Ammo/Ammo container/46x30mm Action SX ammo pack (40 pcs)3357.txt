@@ -1,0 +1,12 @@
+IDstr=657024c81419851aef03e712
+Name=4.6x30mm Action SX ammo pack (40 pcs)
+ShortName=Action SX
+Information_Eng=A box of 4.6x30mm Action SX cartridges, 40 pieces.
+Itemtype=ammo-container
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=4.6x30mm Action SX ammo pack (40 pcs)
+Information_Jpn=A box of 4.6x30mm Action SX cartridges, 40 pieces.

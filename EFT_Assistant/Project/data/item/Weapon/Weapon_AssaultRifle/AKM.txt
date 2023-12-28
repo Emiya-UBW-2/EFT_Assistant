@@ -12,7 +12,7 @@ ChildParts=[
 	AK Kiba Arms VDM CS gas tube/|
 	AK-74 gas tube (6P20 Sb.1-2)/|
 	AKM gas tube (6P1 Sb.1-2)/|
-	Molot AKM-type gas tube/|
+	Molot Arms AKM-type gas tube/|
 	AK TROY Full Length Rail handguard & gas tube combo/|
 	AK UltiMAK M1-B gas tube & handguard/|
 	AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo/|
@@ -36,7 +36,8 @@ ChildParts=[
 	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
 	AKM Hexagon 7.62x39 sound suppressor/|
 	AKM PBS-1 7.62x39 sound suppressor/|
-	Rotor 43 7.62x39 muzzle brake-compensator
+	Rotor 43 7.62x39 muzzle brake-compensator/|
+	AK Vector VR-05T 7.62x39 muzzle brake
 ]
 ChildParts=[
 	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock/|
@@ -62,13 +63,15 @@ ChildParts=[
 	AK FAB Defense AGR-47 pistol grip/|
 	AK TangoDown Battle Grip pistol grip/|
 	AK TangoDown Battle Grip pistol grip (FDE)/|
-	AK Mission First Tactical ENGAGE AK47 pistol grip
+	AK Mission First Tactical ENGAGE AK47 pistol grip/|
+	AK CG101 AR-type pistol grip adapter/|
+	AK PUFGUN SG-M2 pistol grip
 ]
 ChildParts=[
 	AK AKademia Bastion dust cover/|
 	AK FAB Defense PDC dust cover/|
 	AKM dust cover (6P1 0-1)/|
-	Molot AKM-type dust cover/|
+	Molot Arms AKM-type dust cover/|
 	AK TWS Dog Leg Rail dust cover/|
 	AK Zenit B-33 dust cover/|
 	RD-704 dust cover
@@ -102,11 +105,11 @@ ChildParts=[
 	AK 7.62x39 30-round magazine (issued '55 or later)/|
 	AK 7.62x39 aluminium 10-round magazine/|
 	AKMS 7.62x39 aluminium 30-round magazine/|
-	AK 7.62x39 Molot 40-round magazine (6P2.Sb-11)/|
+	AK 7.62x39 Molot Arms 40-round magazine (6P2.Sb-11)/|
 	AK 7.62x39 bakelite 40-round magazine/|
 	AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine/|
 	AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine (Banana)/|
-	AK 7.62x39 Molot 75-round drum magazine/|
+	AK 7.62x39 Molot Arms 75-round drum magazine/|
 	AK 7.62x39 ProMag AK-A-16 73-round drum magazine/|
 	AK 7.62x39 US Palm "AK30" 30-round magazine (Black)/|
 	AK 7.62x39 US Palm "AK30" 30-round magazine (FDE)/|
@@ -122,17 +125,17 @@ ChildParts=[
 	AKMP system front sight device
 ]
 Recoil=161.000000
-RecoilHorizontal=448.000000
+RecoilHorizontal=403.000000
 Ergonomics=26.000000
 SightRange=-100
 FireRate=600
 centerOfImpact=0.067000
 deviationCurve=1.350000
-recoilDispersion=15
+recoilDispersion=11
 recoilAngle=85
-cameraRecoil=0.081600
+cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=23
-convergence=1.200000
-Name_Jpn=AKM 7.62x39 アサルトライフル
+convergence=0.000000
+Name_Jpn=Kalashnikov AKM 7.62x39 アサルトライフル
 Information_Jpn=AKM (Avtomát Kaláshnikova Modernizírovanny - カラシニコフ自動小銃 改良版) は、1959年にソビエト陸軍の制式装備として従来の AK の代替として採用された。 AK との主な違いは、改良された精度射程、重量、ストック、引き金、ハンマー、マズルコンペンセイター、その他ライフルの能力を向上させることを目的とした設計変更が施されている

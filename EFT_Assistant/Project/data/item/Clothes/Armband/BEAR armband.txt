@@ -1,5 +1,5 @@
 IDstr=619bdd8886e01e16f839a99c
-Name=BEAR armband
+Name=Armband (BEAR)
 ShortName=BEAR
 Information_Eng=An armband for hardened BEAR operators.
 Itemtype=arm-band

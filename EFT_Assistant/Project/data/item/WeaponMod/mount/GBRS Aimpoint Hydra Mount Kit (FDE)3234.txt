@@ -1,0 +1,32 @@
+IDstr=653931da5db71d30ab1d6296
+Name=GBRS Aimpoint Hydra Mount Kit (FDE)
+ShortName=Hydra
+Information_Eng=The Hydra Mount Kit for Aimpoint Micro T-1 and H-1 series sights and tactical equipment. Manufactured by GBRS Group. Flat Dark Earth version.
+Itemtype=mount
+width=2
+height=1
+weight=0.141000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Holosun LS321 Tactical device/|
+	AN/PEQ-15 tactical device/|
+	LA-5B/PEQ tactical device/|
+	Wilcox RAPTAR ES Tactical Rangefinder/|
+	Zenit Perst-3 tactical device/|
+	MAWL-C1+ tactical device
+]
+ChildParts=[
+	Aimpoint Micro H-2 reflex sight/|
+	Aimpoint Micro T-1 reflex sight/|
+	SIG Sauer ROMEO4 reflex sight/|
+	Aimpoint Micro Spacer High
+]
+Conflict=[
+	AR-15 rear sight carry handle
+]
+Recoil=0.000000
+Ergonomics=-2.000000
+accuracyModifier=0.000000
+Name_Jpn=GBRS Aimpoint Hydra Mount Kit (FDE)
+Information_Jpn=The Hydra Mount Kit for Aimpoint Micro T-1 and H-1 series sights and tactical equipment. Manufactured by GBRS Group. Flat Dark Earth version.

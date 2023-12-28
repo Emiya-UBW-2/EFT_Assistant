@@ -4,7 +4,7 @@ Trader=Prapor
 
 NeedTask=Ice Cream Cones
 NeedLevel=15
-NeedItem=[Dorm room 203 keyx1]
+NeedItem=[Dorm room 203 keyx1/|Dorm room 214 keyx1]
 
 CanRestart=false
 NeedKappa=true

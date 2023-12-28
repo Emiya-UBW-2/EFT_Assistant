@@ -1,0 +1,18 @@
+IDstr=65765d5086f11bca4106d316
+Name=6B5-16 Zh-86 Uley armored rig (Khaki) Default
+ShortName=6B5-16 Default
+Itemtype=chest-rig
+width=3
+height=4
+weight=7.100000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	6B5-16 Zh-86 Uley armored rig (Khaki)x1/|
+	6.5 mm aramid insert and titanium platesx1/|
+	1.25 mm aramid insert and titanium platesx1/|
+	Aramid insertx1/|
+]
+Name_Jpn=6B5-16 Zh-86 Uley armored rig デフォルト
+Information_Jpn=

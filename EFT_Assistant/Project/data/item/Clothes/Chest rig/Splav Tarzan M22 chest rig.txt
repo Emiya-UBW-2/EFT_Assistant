@@ -1,7 +1,7 @@
 IDstr=5e4abfed86f77406a2713cf7
-Name=Splav Tarzan M22 chest rig
+Name=Splav Tarzan M22 chest rig (Smog)
 ShortName=Tarzan
-Information_Eng=A simple and fairly practical tactical rig from 2002. It is still actively used by security and law enforcement agencies and civilian shooters in Russia.
+Information_Eng=A simple and fairly practical tactical rig from 2002. It is still actively used by security and law enforcement agencies and civilian shooters in Russia. Smog camouflage version.
 Itemtype=chest-rig
 width=4
 height=3

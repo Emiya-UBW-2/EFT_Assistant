@@ -19,16 +19,16 @@ ChildParts=[
 	Glock Pachmayr Tactical Grip Glove
 ]
 ChildParts=[
-	Glock 17 9x19 MOS pistol slide/|
-	Glock 17 9x19 pistol slide/|
-	Glock 9x19 Moto Cut pistol slide/|
+	Glock 17 MOS pistol slide/|
+	Glock 17 pistol slide/|
+	Glock Moto Cut pistol slide/|
 	Glock Viper Cut pistol slide/|
 	Glock Lone Wolf AlphaWolf pistol slide/|
 	Glock Lone Wolf AlphaWolf Custom pistol slide/|
 	Glock Polymer80 PS9 pistol slide/|
 	Glock ZEV Tech HEX Gen3 RMR pistol slide/|
 	Glock ZEV Tech HEX Spartan RMR pistol slide/|
-	Glock 19X 9x19 pistol slide
+	Glock 19X pistol slide
 ]
 ChildParts=[
 	Glock 9x19 "Big Stick" 33-round magazine/|
@@ -67,11 +67,11 @@ SightRange=-100
 FireRate=30
 centerOfImpact=0.000000
 deviationCurve=2.250000
-recoilDispersion=13
+recoilDispersion=8
 recoilAngle=85
-cameraRecoil=0.008640
-cameraSnap=3.500000
+cameraRecoil=0.000000
+cameraSnap=5.000000
 deviationMax=11
-convergence=5.000000
+convergence=0.000000
 Name_Jpn=Glock 17 9x19 pistol
 Information_Jpn=Glock 17 is an Austrian pistol designed by Glock company for the Austrian army purposes. Thanks to both its impressive combat characteristics and reliablity it gained wide recognition and popularity as a police, shooting sports and civilian self-defense weapon.

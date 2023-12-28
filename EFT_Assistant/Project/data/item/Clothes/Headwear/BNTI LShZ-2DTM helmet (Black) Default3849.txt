@@ -1,0 +1,16 @@
+IDstr=657fa996e9433140ad0bafb5
+Name=BNTI LShZ-2DTM helmet (Black) Default
+ShortName=LShZ-2DTM Default
+Itemtype=headwear
+width=2
+height=2
+weight=3.400000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	BNTI LShZ-2DTM helmet (Black)x1/|
+	Hybrid composite materialsx1/|
+]
+Name_Jpn=BNTI LShZ-2DTM helmet デフォルト
+Information_Jpn=

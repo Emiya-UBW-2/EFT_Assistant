@@ -26,8 +26,9 @@ ChildParts=[
 	ELCAN Specter HCO holographic sight/|
 	Trijicon SRS-02 reflex sight/|
 	Leapers UTG reflex sight/|
-	SIG Sauer ROMEO7 1x30 reflex sight (prototype)/|
-	SIG Sauer ROMEO8T reflex sight
+	SIG Sauer ROMEO7 1x30 reflex sight (Prototype)/|
+	SIG Sauer ROMEO8T reflex sight/|
+	Wilcox BOSS Xe reflex sight
 ]
 Conflict=[
 	SOK-12 Bravo-18 aluminium handguard/|

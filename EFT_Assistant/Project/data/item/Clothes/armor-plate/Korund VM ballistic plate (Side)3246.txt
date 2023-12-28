@@ -1,0 +1,12 @@
+IDstr=654a4f8bc721968a4404ef18
+Name=Korund VM ballistic plate (Side)
+ShortName=Korund VM Side
+Information_Eng=Steel ballistic plate for side pouches of Russian bulletproof vests.
+Itemtype=armor-plate
+width=1
+height=1
+weight=1.100000
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=Korund VM ballistic plate (Side)
+Information_Jpn=Steel ballistic plate for side pouches of Russian bulletproof vests.

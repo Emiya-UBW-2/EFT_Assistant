@@ -19,9 +19,9 @@ containsItems=[
 	AR-15 Colt M4 Carbine Length handguardx1/|
 	AR-15 Colt M4 Carbine Length lower handguardx1/|
 	AR-15 rear sight carry handlex1/|
-	Colt Carbine buffer tubex1/|
-	High Standard M4SS Stockx1/|
+	AR-15 Colt Carbine buffer tubex1/|
+	AR-15 High Standard M4SS Stockx1/|
 	AR-15 Colt charging handlex1
 ]
-Name_Jpn=Colt M4A1 5.56x45 assault rifle Standard
+Name_Jpn=M4A1 5.56x45 アサルトライフル Standard
 Information_Jpn=

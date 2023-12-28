@@ -21,5 +21,5 @@ containsItems=[
 	NSPU-M 3.5x dovetail night vision scopex1/|
 	NSPU-M scope eyecupx1
 ]
-Name_Jpn=AKMSN 7.62x39 アサルトライフル (AKMSN2 6P4N2)
+Name_Jpn=Kalashnikov AKMSN 7.62x39 アサルトライフル (AKMSN2 6P4N2)
 Information_Jpn=

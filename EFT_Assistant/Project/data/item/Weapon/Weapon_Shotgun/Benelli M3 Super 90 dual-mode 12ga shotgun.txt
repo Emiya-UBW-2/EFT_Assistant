@@ -34,18 +34,18 @@ ChildParts=[
 ChildParts=[
 	Benelli M3 Super 90 charging handle
 ]
-Recoil=374.000000
-RecoilHorizontal=690.000000
+Recoil=336.000000
+RecoilHorizontal=595.000000
 Ergonomics=42.000000
 SightRange=-100
 FireRate=60
 centerOfImpact=0.400000
 deviationCurve=2.500000
-recoilDispersion=15
+recoilDispersion=10
 recoilAngle=90
-cameraRecoil=0.150000
+cameraRecoil=0.000000
 cameraSnap=2.600000
 deviationMax=10
-convergence=1.900000
+convergence=0.000000
 Name_Jpn=Benelli M3 Super 90 dual-mode 12ga shotgun
 Information_Jpn=The Benelli M3 S90 is a dual-mode shotgun designed and manufactured by Benelli. The M3 is notable for allowing the user to choose between semi-automatic or pump-action operation. Benelli shotguns show excellent ballistic performance, and the finish and fine workmanship are the epitome of traditional Italian style.

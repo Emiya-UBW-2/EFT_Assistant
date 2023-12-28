@@ -1,0 +1,12 @@
+IDstr=656f603f94b480b8a500c0d6
+Name=6B33 ballistic plate (Front)
+ShortName=6B33 Front
+Information_Eng=An armored steel plate for torso front pouch of Zhuk, Gzhel, 6B13, 6B23-2 bulletproof vests.
+Itemtype=armor-plate
+width=2
+height=3
+weight=3.700000
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=6B33 ballistic plate (Front)
+Information_Jpn=An armored steel plate for torso front pouch of Zhuk, Gzhel, 6B13, 6B23-2 bulletproof vests.

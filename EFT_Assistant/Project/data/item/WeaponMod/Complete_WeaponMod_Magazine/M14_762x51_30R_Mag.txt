@@ -1,7 +1,7 @@
 IDstr=5addcce35acfc4001a5fc635
 Name=M14 7.62x51 30-round magazine
 ShortName=M14
-Information_Eng=A 30-round double-stack 7.62x51 NATO magazine for the M1 rifle. Produced by Triple K.
+Information_Eng=A 30-round double-stack 7.62x51 NATO magazine for the M1 rifle. Manufactured by Triple K.
 Itemtype=magazine
 width=1
 height=2

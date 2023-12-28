@@ -44,8 +44,8 @@ Task_Else=脱出ステータス:[Survived]
 Reward_Rep=Ragman+4
 Reward_Item=[
 	Roublesx75000/|
-	HighCom Trooper TFO body armor (Multicam)x2/|
-	Mystery Ranch Blackjack 50 backpack (Multicam)x1
+	HighCom Trooper TFO body armor (MultiCam)x2/|
+	Mystery Ranch Blackjack 50 backpack (MultiCam)x1
 ]
 
 Reward_EXP=21300

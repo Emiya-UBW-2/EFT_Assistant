@@ -12,7 +12,7 @@ ChildParts=[
 	AK Kiba Arms VDM CS gas tube/|
 	AK-74 gas tube (6P20 Sb.1-2)/|
 	AKM gas tube (6P1 Sb.1-2)/|
-	Molot AKM-type gas tube/|
+	Molot Arms AKM-type gas tube/|
 	AK TROY Full Length Rail handguard & gas tube combo/|
 	AK UltiMAK M1-B gas tube & handguard/|
 	AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo/|
@@ -59,7 +59,9 @@ ChildParts=[
 	AK FAB Defense AGR-47 pistol grip/|
 	AK TangoDown Battle Grip pistol grip/|
 	AK TangoDown Battle Grip pistol grip (FDE)/|
-	AK Mission First Tactical ENGAGE AK47 pistol grip
+	AK Mission First Tactical ENGAGE AK47 pistol grip/|
+	AK CG101 AR-type pistol grip adapter/|
+	AK PUFGUN SG-M2 pistol grip
 ]
 ChildParts=[
 	AK-74 dust cover (6P20 0-1)/|
@@ -103,17 +105,17 @@ ChildParts=[
 	AK Zenit RP-1 charging handle
 ]
 Recoil=120.000000
-RecoilHorizontal=398.000000
+RecoilHorizontal=322.000000
 Ergonomics=31.000000
 SightRange=-100
 FireRate=650
 centerOfImpact=0.058000
 deviationCurve=1.350000
-recoilDispersion=15
+recoilDispersion=10
 recoilAngle=90
-cameraRecoil=0.076800
+cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=23
-convergence=1.600000
-Name_Jpn=AK-74 5.45x39 アサルトライフル
+convergence=0.000000
+Name_Jpn=Kalashnikov AKS-74 5.45x39 アサルトライフル
 Information_Jpn=AKS-74 (Avtomat Kalashnikova Skladnoy 74 - "折りたたみ式ストックを装備したカラシニコフ自動小銃 74") 5.45x39mm アサルトライフルは、AK-74 の派生型で、折りたたみ式の金属製ストックを装備し、主に空挺兵向けに設計され、AK-74 と並行して開発された。ストックは、押し抜きと溶接によって組み立てられ、押し出し成形された板金の支柱から製造されている。

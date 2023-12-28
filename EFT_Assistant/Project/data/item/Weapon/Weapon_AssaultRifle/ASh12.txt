@@ -55,7 +55,7 @@ ChildParts=[
 	Strike Industries Cobra Tactical foregrip/|
 	TangoDown Stubby BGV-MK46K foregrip (Black)/|
 	TangoDown Stubby BGV-MK46K foregrip (FDE)/|
-	TangoDown Stubby BGV-MK46K foregrip (Stealth Gray)/|
+	TangoDown Stubby BGV-MK46K foregrip (Stealth Grey)/|
 	Tactical Dynamics Skeletonized Foregrip/|
 	Viking Tactics UVG tactical foregrip/|
 	Zenit RK-1 tactical foregrip on B-25U mount/|
@@ -65,7 +65,13 @@ ChildParts=[
 	Zenit RK-4 tactical foregrip/|
 	Zenit RK-5 tactical foregrip/|
 	Zenit RK-6 tactical foregrip/|
-	ASh-12 polymer handguard
+	ASh-12 polymer handguard/|
+	RTM Pillau P-2 tactical foregrip (Red)/|
+	RTM Pillau tactical foregrip (Sand)/|
+	RTM Osovets P-2 tactical foregrip (Khaki)/|
+	RTM Osovets P-2 tactical foregrip/|
+	Stark SE-5 Express Forward foregrip (FDE)/|
+	Strike Industries Cobra Tactical foregrip (FDE)
 ]
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
@@ -127,9 +133,12 @@ ChildParts=[
 	SwampFox Trihawk Prism Scope 3x30/|
 	AI AX-50 34mm scope mount/|
 	Armasight Zeus universal base/|
-	SIG Sauer ROMEO7 1x30 reflex sight (prototype)/|
+	SIG Sauer ROMEO7 1x30 reflex sight (Prototype)/|
 	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope/|
-	ELCAN Specter HCO holographic sight
+	ELCAN Specter HCO holographic sight/|
+	GBRS Aimpoint Hydra Mount Kit (Black)/|
+	GBRS Aimpoint Hydra Mount Kit (FDE)/|
+	Wilcox BOSS Xe reflex sight
 ]
 ChildParts=[
 	Holosun LS321 Tactical device/|
@@ -160,7 +169,8 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight/|
-	MAWL-C1+ tactical device
+	MAWL-C1+ tactical device/|
+	Zenit KR-2 old gen mount
 ]
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
@@ -182,7 +192,8 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight/|
-	MAWL-C1+ tactical device
+	MAWL-C1+ tactical device/|
+	Zenit KR-2 old gen mount
 ]
 Recoil=128.000000
 RecoilHorizontal=425.000000
@@ -191,11 +202,11 @@ SightRange=-100
 FireRate=650
 centerOfImpact=0.052000
 deviationCurve=1.350000
-recoilDispersion=15
+recoilDispersion=12
 recoilAngle=90
-cameraRecoil=0.110400
+cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=23
-convergence=1.200000
+convergence=0.000000
 Name_Jpn=ASh-12 12.7x55 アサルトライフル
 Information_Jpn=ASh-12.7（Avtomat Shturmovoy 12 - "アサルト自動小銃12"）は、ロシアのチュラにあるKBP器械製造設計局の子会社であるTsKIB SOO（"スポーツと狩猟用武器の中央設計研究局"）によって、ロシアのFSB（連邦保安庁）の要請に応じて開発されたブルパップ方式のアサルトライフルだ。この武器は、FSBの都市戦闘部隊向けに、極端な近接射撃能力を考慮して設計された。

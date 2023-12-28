@@ -1,0 +1,12 @@
+IDstr=657026251419851aef03e72a
+Name=9x18mm PM PSV ammo pack (50 pcs)
+ShortName=PSV
+Information_Eng=A box of 9x18mm PM PSV cartridges, 50 pieces.
+Itemtype=ammo-container
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=9x18mm PM PSV ammo pack (50 pcs)
+Information_Jpn=A box of 9x18mm PM PSV cartridges, 50 pieces.

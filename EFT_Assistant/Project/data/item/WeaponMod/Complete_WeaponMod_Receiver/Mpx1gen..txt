@@ -67,9 +67,13 @@ ChildParts=[
 	SwampFox Trihawk Prism Scope 3x30/|
 	AI AX-50 34mm scope mount/|
 	Armasight Zeus universal base/|
-	SIG Sauer ROMEO7 1x30 reflex sight (prototype)/|
+	SIG Sauer ROMEO7 1x30 reflex sight (Prototype)/|
 	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope/|
-	ELCAN Specter HCO holographic sight
+	ELCAN Specter HCO holographic sight/|
+	GBRS Aimpoint Hydra Mount Kit (Black)/|
+	GBRS Aimpoint Hydra Mount Kit (FDE)/|
+	Wilcox BOSS Xe reflex sight/|
+	SIG ALPHA4 30mm ring scope mount
 ]
 ChildParts=[
 	MPX 9x19 4.5 inch barrel/|

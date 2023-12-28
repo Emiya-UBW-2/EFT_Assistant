@@ -1,0 +1,25 @@
+IDstr=657eb1c4aebd1b6d254bf6d5
+Name=KBP 9A-91 9x39 compact assault rifle Tactical
+ShortName=9A-91 Tactical
+Itemtype=assault-carbine
+width=5
+height=2
+weight=3.537000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	KBP 9A-91 9x39 compact assault riflex1/|
+	9A-91 9x39 20-round magazinex1/|
+	9A-91 pistol gripx1/|
+	9A-91 top-folding stockx1/|
+	Axion Kobra EKP-1S-03 reflex sight (Dovetail)x1/|
+	9A-91 9x39 barrelx1/|
+	9A-91 9x39 sound suppressorx1/|
+	VSS/VAL Zenit B-3 ring mountx1/|
+	Zenit KR-2 old gen mountx1/|
+	Zenit 2D flashlightx1/|
+	9A-91 handguardx1
+]
+Name_Jpn=KBP 9A-91 9x39 compact assault rifle Tactical
+Information_Jpn=

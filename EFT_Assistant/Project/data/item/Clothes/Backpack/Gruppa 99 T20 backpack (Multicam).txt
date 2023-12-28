@@ -1,12 +1,12 @@
 IDstr=619cf0335771dd3c390269ae
-Name=Gruppa 99 T20 backpack (Multicam)
+Name=Gruppa 99 T20 backpack (MultiCam)
 ShortName=T20
-Information_Eng=A backpack with a volume of 22 liters with an ergonomic harness for time-limited tasks. The backpack can be used for both operational tasks and urban carry. With proper packing, the inner volume of the backpack can be 25-27 liters. The minimalistic design and military functionality will be useful in urban environments. Manufactured by Gruppa 99. Multicam camouflage version.
+Information_Eng=A backpack with a volume of 22 liters with an ergonomic harness for time-limited tasks. The backpack can be used for both operational tasks and urban carry. With proper packing, the inner volume of the backpack can be 25-27 liters. The minimalistic design and military functionality will be useful in urban environments. Manufactured by Gruppa 99. MultiCam camouflage version.
 Itemtype=backpack
 width=5
 height=5
 weight=1.250000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
-Name_Jpn=Gruppa 99 T20 backpack (Multicam)
-Information_Jpn=A backpack with a volume of 22 liters with an ergonomic harness for time-limited tasks. The backpack can be used for both operational tasks and urban carry. With proper packing, the inner volume of the backpack can be 25-27 liters. The minimalistic design and military functionality will be useful in urban environments. Manufactured by Gruppa 99. Multicam camouflage version.
+Name_Jpn=Gruppa 99 T20 バックパック(マルチカム)
+Information_Jpn=人間工学に基づきサスペンションシステムを備えた22Lサイズのバックパックだ。軍民問わず使用されているバックパックで、うまく荷物を詰め込められれば25～27Lの荷物が入る。ミニマルデザインで高い機能性は街中でも使いやすいだろう。Gruppa 99社製。マルチカム迷彩版。

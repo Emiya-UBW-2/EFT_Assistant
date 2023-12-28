@@ -1,0 +1,18 @@
+IDstr=64527a3a7da7133e5a09ca99
+Name=9A-91 9x39 sound suppressor
+ShortName=9A-91
+Information_Eng=A detachable sound suppressor for the 9A-91 compact assault rifle and compatible models. Manufactured by Tula KPB Instrument Design Bureau.
+Itemtype=silencer
+width=2
+height=1
+weight=0.496000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	VSS/VAL Zenit B-3 ring mount
+]
+Recoil=-14.000000
+Ergonomics=-4.000000
+accuracyModifier=0.000000
+Name_Jpn=9A-91 9x39 sound suppressor
+Information_Jpn=A detachable sound suppressor for the 9A-91 compact assault rifle and compatible models. Manufactured by Tula KPB Instrument Design Bureau.

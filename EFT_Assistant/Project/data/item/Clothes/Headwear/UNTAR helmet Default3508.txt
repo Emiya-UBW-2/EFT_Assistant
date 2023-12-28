@@ -1,0 +1,16 @@
+IDstr=65711f2bc50461e8750d1f4f
+Name=UNTAR helmet Default
+ShortName=UNTAR Default
+Itemtype=headwear
+width=2
+height=2
+weight=2.200000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	UNTAR helmetx1/|
+	Layers of aramid fiberx1/|
+]
+Name_Jpn=UNTAR ヘルメット デフォルト
+Information_Jpn=

@@ -1,5 +1,5 @@
 IDstr=59ef24b986f77439987b8762
-Name=Molot VPO-136 "Vepr-KM" 7.62x39 carbine Default
+Name=Molot Arms VPO-136 "Vepr-KM" 7.62x39 carbine Default
 ShortName=VPO-136 "Vepr-KM" Default
 Itemtype=assault-rifle
 width=5
@@ -9,15 +9,15 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
-	Molot VPO-136 "Vepr-KM" 7.62x39 carbinex1/|
-	Molot AKM-type gas tubex1/|
+	Molot Arms VPO-136 "Vepr-KM" 7.62x39 carbinex1/|
+	Molot Arms AKM-type gas tubex1/|
 	VPO-136 "Vepr-KM" wooden handguardx1/|
 	VPO-136 "Vepr-KM" 7.62x39 muzzle brake-compensatorx1/|
 	AK bakelite pistol gripx1/|
-	Molot AKM-type dust coverx1/|
+	Molot Arms AKM-type dust coverx1/|
 	AKM rear sight (6P1 Sb.2-1)x1/|
 	VPO-136 "Vepr-KM" wooden stockx1/|
 	AK 7.62x39 aluminium 10-round magazinex1
 ]
-Name_Jpn=Molot VPO-136 "Vepr-KM" 7.62x39 carbine デフォルト
+Name_Jpn=ヴェープル KM 7.62x39 カービン デフォルト
 Information_Jpn=

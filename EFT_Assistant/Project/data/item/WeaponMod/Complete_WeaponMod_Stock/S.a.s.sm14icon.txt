@@ -25,7 +25,7 @@ ChildParts=[
 	Strike Industries Cobra Tactical foregrip/|
 	TangoDown Stubby BGV-MK46K foregrip (Black)/|
 	TangoDown Stubby BGV-MK46K foregrip (FDE)/|
-	TangoDown Stubby BGV-MK46K foregrip (Stealth Gray)/|
+	TangoDown Stubby BGV-MK46K foregrip (Stealth Grey)/|
 	Tactical Dynamics Skeletonized Foregrip/|
 	Viking Tactics UVG tactical foregrip/|
 	Zenit RK-1 tactical foregrip on B-25U mount/|
@@ -34,7 +34,13 @@ ChildParts=[
 	Zenit RK-2 tactical foregrip/|
 	Zenit RK-4 tactical foregrip/|
 	Zenit RK-5 tactical foregrip/|
-	Zenit RK-6 tactical foregrip
+	Zenit RK-6 tactical foregrip/|
+	RTM Osovets P-2 tactical foregrip/|
+	RTM Osovets P-2 tactical foregrip (Khaki)/|
+	RTM Pillau tactical foregrip (Sand)/|
+	RTM Pillau P-2 tactical foregrip (Red)/|
+	Stark SE-5 Express Forward foregrip (FDE)/|
+	Strike Industries Cobra Tactical foregrip (FDE)
 ]
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
@@ -97,8 +103,12 @@ ChildParts=[
 	AI AX-50 34mm scope mount/|
 	Armasight Zeus universal base/|
 	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope/|
-	SIG Sauer ROMEO7 1x30 reflex sight (prototype)/|
-	ELCAN Specter HCO holographic sight
+	SIG Sauer ROMEO7 1x30 reflex sight (Prototype)/|
+	ELCAN Specter HCO holographic sight/|
+	GBRS Aimpoint Hydra Mount Kit (Black)/|
+	GBRS Aimpoint Hydra Mount Kit (FDE)/|
+	Wilcox BOSS Xe reflex sight/|
+	SIG ALPHA4 30mm ring scope mount
 ]
 ChildParts=[
 	BelOMO PK-06 reflex sight/|
@@ -140,7 +150,8 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight/|
-	MAWL-C1+ tactical device
+	MAWL-C1+ tactical device/|
+	Zenit KR-2 old gen mount
 ]
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
@@ -163,7 +174,8 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight/|
-	MAWL-C1+ tactical device
+	MAWL-C1+ tactical device/|
+	Zenit KR-2 old gen mount
 ]
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
@@ -184,7 +196,8 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight/|
-	MAWL-C1+ tactical device
+	MAWL-C1+ tactical device/|
+	Zenit KR-2 old gen mount
 ]
 ChildParts=[
 	AR-15 Colt A2 pistol grip/|
@@ -206,22 +219,22 @@ ChildParts=[
 	AR-15 Aeroknox Orion pistol grip
 ]
 ChildParts=[
-	Armacon Baskak stock/|
+	AR-15 Armacon Baskak stock/|
 	CMMG buffer tube/|
 	AR-15 Colt A2 buffer tube/|
 	AR-15 ADAR 2-15 buffer tube/|
-	Colt Carbine buffer tube/|
+	AR-15 Colt Carbine buffer tube/|
 	AR-15 DoubleStar ACE SOCOM Gen.4 stock/|
-	ERGO F93 PRO stock/|
-	Magpul UBR GEN2 stock (Black)/|
-	Magpul UBR GEN2 stock (FDE)/|
+	AR-15 ERGO F93 PRO stock/|
+	AR-15 Magpul UBR GEN2 stock (Black)/|
+	AR-15 Magpul UBR GEN2 stock (FDE)/|
 	Mesa Tactical Crosshair Hydraulic buffer tube/|
-	Soyuz-TM buffer tube/|
-	Strike Industries Advanced Receiver Extension buffer tube/|
-	Strike Industries Advanced Receiver Extension buffer tube (Anodized Red)/|
-	TROY M7A1 PDW stock (Black)/|
-	TROY M7A1 PDW stock (FDE)/|
-	Strike Industries Viper PDW stock/|
+	AR-15 Soyuz-TM buffer tube/|
+	AR-15 Strike Industries Advanced Receiver Extension buffer tube/|
+	AR-15 Strike Industries Advanced Receiver Extension buffer tube (Anodized Red)/|
+	AR-15 TROY M7A1 PDW stock (Black)/|
+	AR-15 TROY M7A1 PDW stock (FDE)/|
+	AR-15 Strike Industries Viper PDW stock/|
 	AR-15 RTM ATP buffer tube
 ]
 ChildParts=[
@@ -249,7 +262,7 @@ ChildParts=[
 Conflict=[
 	M14 SA Enlarged Military Aperture rear sight
 ]
-Recoil=-10.000000
+Recoil=-7.000000
 Ergonomics=28.000000
 accuracyModifier=0.000000
 Name_Jpn=M14 TROY S.A.S.S. Chassis stock

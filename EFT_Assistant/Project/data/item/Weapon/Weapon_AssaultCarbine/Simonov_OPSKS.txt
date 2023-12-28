@@ -1,47 +1,51 @@
 IDstr=587e02ff24597743df3deaeb
-Name=Simonov OP-SKS 7.62x39 carbine (Hunting Rifle Version)
+Name=Molot Arms Simonov OP-SKS 7.62x39 carbine
 ShortName=OP-SKS
-Information_Eng=Molot OP-SKS Carbine is designed for loading with 7,62x39 — the most popular ammunition. The weight and dimensions make the carbine ergonomic for shooters of any age and height. It has been used for all types of traditional Russian hunting for more than 50 years. Tested on predators in Africa, Southeast Asia, Central America, Middle East.
+Information_Eng=The Molot OP-SKS Carbine is designed for loading with 7,62x39 — the most popular ammunition. The weight and dimensions make the carbine ergonomic for shooters of any age and height. It has been used for all types of traditional Russian hunting for more than 50 years. Tested on predators in Africa, Southeast Asia, Central America, Middle East.
 Itemtype=assault-carbine
-width=4
+width=2
 height=1
-weight=2.627000
+weight=0.820000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	SKS FAB Defense UAS chassis/|
 	OP-SKS wooden stock/|
 	SKS TAPCO Intrafuse chassis/|
-	SKS TOZ wooden stock (56-A-231 Sb.5)
+	SKS TOZ wooden stock (56-A-231 Sb.5)/|
+	SKS ATI Monte Carlo chassis
 ]
 ChildParts=[
-	SKS rear sight
+	OP-SKS 7.62x39 520mm barrel/|
+	SKS 7.62x39 520mm barrel
 ]
 ChildParts=[
 	SKS 7.62x39 KCI 75-round drum magazine/|
 	SKS 7.62x39 ProMag AALVX 35-round magazine/|
-	SKS 7.62x39 ProMag SKS-A5 20-round magazine/|
+	SKS 7.62x39 TAPCO 6610 20-round magazine/|
 	SKS 7.62x39 10-round internal box magazine
 ]
 ChildParts=[
-	OP-SKS dovetail mount
+	OP-SKS dovetail mount/|
+	SKS CHOATE scope mount
 ]
 ChildParts=[
-	SKS Weapon Tuning 7.62x39 thread adapter/|
-	SKS Hexagon 7.62x39 sound suppressor
+	OP-SKS dust cover/|
+	SKS dust cover/|
+	SKS Leapers UTG PRO MTU017 receiver cover mount
 ]
 Recoil=155.000000
-RecoilHorizontal=400.000000
+RecoilHorizontal=360.000000
 Ergonomics=40.000000
 SightRange=-100
 FireRate=40
 centerOfImpact=0.070000
 deviationCurve=1.400000
-recoilDispersion=15
+recoilDispersion=10
 recoilAngle=90
-cameraRecoil=0.086400
+cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=22
-convergence=1.300000
-Name_Jpn=Simonov OP-SKS 7.62x39 carbine (Hunting Rifle Version)
-Information_Jpn=Molot OP-SKS Carbine is designed for loading with 7,62x39 — the most popular ammunition. The weight and dimensions make the carbine ergonomic for shooters of any age and height. It has been used for all types of traditional Russian hunting for more than 50 years. Tested on predators in Africa, Southeast Asia, Central America, Middle East.
+convergence=0.000000
+Name_Jpn=OP-SKS 7.62x39 カービン (狩猟ライフルバージョン)
+Information_Jpn=OP-SKS カービンは、最も一般的な弾薬である 7.62x39mm 弾を装填するために設計されている。重量や寸法は、様々な年齢や身長の使用者が使いやすいカービンとなっていて、50年以上にわたり、いろんな種類の伝統的なロシアの狩猟に使用されてきた。ロシアだけでなく、アフリカ、東南アジア、中央アメリカ、中東などで肉食動物に対するテストも行われている。

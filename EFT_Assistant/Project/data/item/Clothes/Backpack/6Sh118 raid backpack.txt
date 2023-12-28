@@ -1,5 +1,5 @@
 IDstr=5df8a4d786f77412672a1e3b
-Name=6Sh118 raid backpack
+Name=6Sh118 raid backpack (Digital Flora)
 ShortName=6Sh118
 Information_Eng=The 6Sh118 raid backpack is part of the 2nd generation "Ratnik" gear kit for combat. The 6Sh118 tactical army backpack is a modernization of the 6B38 Permyachka model raid backpack. The raid 6Sh118 backpack is designed to carry fire support equipment, weapons, ammunition, elements of mountain equipment, as well as the personal belongings of individual soldiers. The backpack can be used during combat operations, long hikes, and raid events.
 Itemtype=backpack
@@ -8,6 +8,5 @@ height=7
 weight=3.500000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
-Name_Jpn=6Sh118 レイドバックパック
-Information_Jpn=6Sh118 レイドバックパックは、ラトニクプログラムにおける第二世代の歩兵装備のひとつだ。
-このバックパックは6B38 ペルミャチカバックパックを近代化した装備で、個人携行品に加えて火力支援装備、登山用品なども運搬することも想定している。戦闘任務や長距離の行軍、強襲作戦などにも適している。
+Name_Jpn=6Sh118 レイド バックパック
+Information_Jpn=6Sh118 は、ロシア軍の "ラトニク" の第2世代で採用された歩兵用装備のひとつで、6B38 ペルミャチカ を近代化したレイド バックパックだ。個人携行品に加えて火力支援装備、登山用品なども運搬することを想定して設計されており、戦闘任務や長距離の行軍、強襲作戦にも適している。

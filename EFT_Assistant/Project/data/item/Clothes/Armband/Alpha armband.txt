@@ -1,5 +1,5 @@
 IDstr=619bc61e86e01e16f839a999
-Name=Alpha armband
+Name=Armband (Alpha)
 ShortName=Alpha
 Information_Eng=An armband for veterans who are still here from the Alpha times.
 Itemtype=arm-band

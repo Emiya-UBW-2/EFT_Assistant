@@ -31,12 +31,13 @@ ChildParts=[
 	EOTech XPS3-2 holographic sight/|
 	Holosun HS401G5 reflex sight/|
 	SIG Sauer ROMEO8T reflex sight/|
-	SIG Sauer ROMEO7 1x30 reflex sight (prototype)/|
+	SIG Sauer ROMEO7 1x30 reflex sight (Prototype)/|
 	Trijicon SRS-02 reflex sight/|
 	Valday PK-120 (1P87) holographic sight/|
 	Valday Krechet reflex sight/|
 	Vortex Razor AMG UH-1 holographic sight/|
-	Walther MRS reflex sight
+	Walther MRS reflex sight/|
+	Wilcox BOSS Xe reflex sight
 ]
 Recoil=0.000000
 Ergonomics=0.000000

@@ -15,18 +15,18 @@ ChildParts=[
 	MP-18 polymer stock/|
 	MP-18 wooden stock
 ]
-Recoil=328.000000
-RecoilHorizontal=930.000000
+Recoil=295.000000
+RecoilHorizontal=753.000000
 Ergonomics=44.000000
 SightRange=-100
 FireRate=900
 centerOfImpact=0.010000
 deviationCurve=2.500000
-recoilDispersion=35
+recoilDispersion=22
 recoilAngle=90
-cameraRecoil=0.129600
+cameraRecoil=0.000000
 cameraSnap=2.200000
 deviationMax=10
-convergence=1.200000
+convergence=0.000000
 Name_Jpn=MP-18 7.62x54R single-shot rifle
 Information_Jpn=MP-18 is the legendary Soviet single-barreled rifle. This gun behaves perfectly in all weather conditions, no breakdowns or failures have ever been identified.

@@ -69,9 +69,15 @@ ChildParts=[
 	SwampFox Trihawk Prism Scope 3x30/|
 	AI AX-50 34mm scope mount/|
 	Armasight Zeus universal base/|
-	SIG Sauer ROMEO7 1x30 reflex sight (prototype)/|
+	SIG Sauer ROMEO7 1x30 reflex sight (Prototype)/|
 	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope/|
-	ELCAN Specter HCO holographic sight
+	ELCAN Specter HCO holographic sight/|
+	GBRS Aimpoint Hydra Mount Kit (Black)/|
+	GBRS Aimpoint Hydra Mount Kit (FDE)/|
+	Wilcox BOSS Xe reflex sight/|
+	SIG ALPHA4 30mm ring scope mount/|
+	Kiba Arms Short Mount sight adapter/|
+	LaRue LT101 QD Tactical Picatinny Riser mount
 ]
 ChildParts=[
 	DVL-10 7.62x51 500mm barrel/|
@@ -94,10 +100,10 @@ ChildParts=[
 	AR-15 Aeroknox Orion pistol grip
 ]
 ChildParts=[
-	Lobaev Arms stock
+	DVL-10 Lobaev Arms stock
 ]
 Recoil=111.000000
-RecoilHorizontal=650.000000
+RecoilHorizontal=585.000000
 Ergonomics=40.000000
 SightRange=-100
 FireRate=30
@@ -105,9 +111,9 @@ centerOfImpact=0.005000
 deviationCurve=1.000000
 recoilDispersion=10
 recoilAngle=90
-cameraRecoil=0.144000
+cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=33
-convergence=1.600000
+convergence=0.000000
 Name_Jpn=Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle
 Information_Jpn=DVL-10 is a lightweight, compact, and silenced rifle in proprietary and current military subsonic calibers. Developed for special service and combat missions where exceptional accuracy and range are needed. Equipped with a standard Lobaev Arms foldable buttstock and Lobaev Hummer Barrels stainless steel match-grade barrel.

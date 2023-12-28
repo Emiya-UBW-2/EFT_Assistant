@@ -1,0 +1,12 @@
+IDstr=6570259bc5d7d4cb4d07857f
+Name=9x19mm Luger CCI ammo pack (50 pcs)
+ShortName=Luger CCI
+Information_Eng=A box of 9x19mm Luger CCI cartridges, 50 pieces.
+Itemtype=ammo-container
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=9x19mm Luger CCI ammo pack (50 pcs)
+Information_Jpn=A box of 9x19mm Luger CCI cartridges, 50 pieces.

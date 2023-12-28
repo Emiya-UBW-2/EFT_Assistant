@@ -23,8 +23,8 @@ containsItems=[
 	Holosun LS321 Tactical devicex1/|
 	AR-15 KAC URX 3 8 inch lower handguardx1/|
 	KAC URX 3/3.1 stopper panel (FDE)x1/|
-	TROY M7A1 PDW stock (FDE)x1/|
+	AR-15 TROY M7A1 PDW stock (FDE)x1/|
 	AR-15 HK Extended Latch charging handlex1
 ]
-Name_Jpn=Lone Star TX-15 DML 5.56x45 carbine D-WARRIOR
+Name_Jpn=TX-15 DML 5.56x45 カービン D-WARRIOR
 Information_Jpn=

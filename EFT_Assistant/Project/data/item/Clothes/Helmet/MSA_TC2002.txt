@@ -1,5 +1,5 @@
 IDstr=5d5e9c74a4b9364855191c40
-Name=MSA ACH TC-2002 MICH Series helmet
+Name=MSA ACH TC-2002 MICH Series helmet (Olive Drab)
 ShortName=TC-2002
 Information_Eng=The MSA Advanced Combat Helmet (ACH) delivers advanced ballistic, fragmentation, and impact head protection, with comfort for long-term use. The helmet’s low-profile design reduces the risk of interference in target acquisition and ensures compatibility with NVGs and headsets.
 Itemtype=headwear
@@ -7,6 +7,6 @@ width=2
 height=2
 weight=1.450000
 fleaMarketFee=0
-propertiestype=ItemPropertiesHelmet
+propertiestype=
 Name_Jpn=MSA ACH TC-2002 MICH Series helmet
 Information_Jpn=MSA アドバンスドコンバットヘルメット（Advanced Combat Helmet, ACH）は、弾丸、爆発の破片、衝撃から頭部を保護し、長時間装着しても快適に活動できるように設計されている。このヘルメットの浅いデザインのおかげで、目標補足の邪魔になりづらく、NVGやヘッドセットと併用できるようになっている。

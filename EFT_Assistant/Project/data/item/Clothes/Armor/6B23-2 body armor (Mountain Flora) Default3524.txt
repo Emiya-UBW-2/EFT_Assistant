@@ -1,0 +1,18 @@
+IDstr=65712763c50461e8750d1fae
+Name=6B23-2 body armor (Mountain Flora) Default
+ShortName=6B23-2 MF Default
+Itemtype=armor
+width=3
+height=4
+weight=10.500000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	6B23-2 body armor (Mountain Flora)x1/|
+	Aramid insertx1/|
+	6B33 ballistic plate (Front)x1/|
+	6B23-2 ballistic plate (Back)x1
+]
+Name_Jpn=6B23-2 body armor (Mountain Flora) デフォルト
+Information_Jpn=

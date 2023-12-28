@@ -35,7 +35,8 @@ ChildParts=[
 	AR-15 Stark AR Rifle Grip (FDE)/|
 	AR-15 Tactical Dynamics Hexgrip pistol grip/|
 	AR-15 Tactical Dynamics Skeletonized pistol grip/|
-	AR-15 Aeroknox Orion pistol grip
+	AR-15 Aeroknox Orion pistol grip/|
+	AR-15 SIG M400 Reduced Angle Pistol Grip (Coyote Tan)
 ]
 ChildParts=[
 	5.56x45 Colt AR-15 STANAG 30-round magazine/|
@@ -61,28 +62,29 @@ ChildParts=[
 	MCX GEN1 .300 BLK upper receiver
 ]
 ChildParts=[
-	MPX/MCX retractable stock pipe adapter/|
+	MPX/MCX retractable stock adapter/|
 	MPX/MCX collapsing/telescoping stock/|
 	MPX/MCX telescoping stock/|
 	MPX/MCX lightweight stock/|
 	MPX/MCX Maxim Defense CQB telescoping stock/|
-	MPX/MCX PMM ULSS foldable stock
+	MPX/MCX PMM ULSS foldable stock/|
+	MCX/MPX Stock Locking Hinge Assembly
 ]
 ChildParts=[
 	MCX charging handle
 ]
 Recoil=127.000000
-RecoilHorizontal=390.000000
+RecoilHorizontal=351.000000
 Ergonomics=48.000000
 SightRange=-100
 FireRate=800
 centerOfImpact=0.010000
 deviationCurve=1.350000
-recoilDispersion=15
+recoilDispersion=10
 recoilAngle=90
-cameraRecoil=0.081600
+cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=23
-convergence=1.500000
-Name_Jpn=SIG MCX .300 Blackout assault rifle
-Information_Jpn=The .300 Blackout MCX line, designed and manufactured by SIG Sauer, is available in both semi-automatic and automatic versions and features a short-stroke gas piston system, which is inherited from the earlier SIG MPX submachine gun. The .300 Blackout ammo and the MCX are compatible with all AR-15 magazines.
+convergence=0.000000
+Name_Jpn=MCX .300 Blackout アサルトライフル
+Information_Jpn=シグ・ザウエルが設計および製造された MCX 系のライフルは、セミオート、フルオートの両方可能で、初期の MPX サブマシンガンから引き継がれている、ショートストロークなガス圧作動方式が特徴だ。.300 Blackout 弾薬と MCX は、すべての AR-15 マガジンと互換性がある。

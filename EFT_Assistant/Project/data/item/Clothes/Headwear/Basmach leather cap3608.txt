@@ -1,0 +1,12 @@
+IDstr=65749ccf33fdc9c0cf06d3ca
+Name=Basmach leather cap
+ShortName=Basmach
+Information_Eng=A real bandit's attribute - the black leather baseball cap.
+Itemtype=headwear
+width=1
+height=1
+weight=0.100000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=Basmach leather cap
+Information_Jpn=A real bandit's attribute - the black leather baseball cap.

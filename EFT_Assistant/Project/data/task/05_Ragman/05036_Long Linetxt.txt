@@ -24,8 +24,8 @@ Task_Else=ゾーン:[Inside ULTRA Mall]
 ]
 
 Reward_Item=[
-	6Sh118 raid backpackx1/|
-	Rys-T bulletproof helmetx1
+	6Sh118 raid backpack (Digital Flora)x1/|
+	Rys-T bulletproof helmet (Black)x1
 ]
 
 Reward_EXP=84000

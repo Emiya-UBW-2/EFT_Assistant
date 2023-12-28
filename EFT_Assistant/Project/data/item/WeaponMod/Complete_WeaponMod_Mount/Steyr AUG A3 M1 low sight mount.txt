@@ -54,9 +54,12 @@ ChildParts=[
 	Trijicon RMR low profile mount/|
 	UNV DLOC-IRD sight mount/|
 	Leapers UTG 25mm ring scope mount/|
-	SIG Sauer ROMEO7 1x30 reflex sight (prototype)/|
+	SIG Sauer ROMEO7 1x30 reflex sight (Prototype)/|
 	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope/|
-	ELCAN Specter HCO holographic sight
+	ELCAN Specter HCO holographic sight/|
+	GBRS Aimpoint Hydra Mount Kit (Black)/|
+	GBRS Aimpoint Hydra Mount Kit (FDE)/|
+	Wilcox BOSS Xe reflex sight
 ]
 Recoil=0.000000
 Ergonomics=0.000000

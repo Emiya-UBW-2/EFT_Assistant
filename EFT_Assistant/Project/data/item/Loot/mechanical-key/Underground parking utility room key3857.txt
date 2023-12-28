@@ -1,0 +1,13 @@
+IDstr=658199972dc4e60f6d556a2f
+Name=Underground parking utility room key
+ShortName=Utility
+Information_Eng=A key to the utility room at the underground parking in the city center.
+Itemtype=mechanical-key
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=ItemPropertiesKey
+uses=40
+Name_Jpn=Underground parking utility room key
+Information_Jpn=A key to the utility room at the underground parking in the city center.

@@ -15,7 +15,7 @@ containsItems=[
 	DVL-10 7.62x51 muzzle devicex1/|
 	Harris HBR Bipodx1/|
 	Hogue OverMolded Rubber Grip (Olive Drab)x1/|
-	Lobaev Arms stockx1
+	DVL-10 Lobaev Arms stockx1
 ]
 Name_Jpn=Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle Saboteur
 Information_Jpn=

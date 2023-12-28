@@ -1,5 +1,5 @@
 IDstr=619bdef8c9546643a67df6f6
-Name=TerraGroup armband
+Name=Armband (TerraGroup)
 ShortName=TG
 Information_Eng=An armband for the TerraGroup security detail.
 Itemtype=arm-band

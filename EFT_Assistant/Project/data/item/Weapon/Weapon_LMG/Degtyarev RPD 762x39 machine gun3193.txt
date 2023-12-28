@@ -1,0 +1,41 @@
+IDstr=6513ef33e06849f06c0957ca
+Name=Degtyarev RPD 7.62x39 machine gun
+ShortName=RPD
+Information_Eng=The Degtyarev hand-held machine gun chambered in 7.62x39 caliber. This machine gun was adopted by the Soviet Army and was used as a means of reinforcing infantry squads and platoons from the late forties to the early sixties. The RPD is elegantly designed, resulting in a compact, reliable and quite powerful fire support weapon. Manufactured by V.A. Degtyarev Plant.
+Itemtype=machinegun
+width=3
+height=1
+weight=2.880000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeapon
+ChildParts=[
+	RPD 7.62x39 "Buben" 100-round box
+]
+ChildParts=[
+	RPD wooden stock
+]
+ChildParts=[
+	RPD 7.62x39 520mm barrel/|
+	RPD 7.62x39 sawed-off 350mm barrel
+]
+ChildParts=[
+	RPD wooden handguard
+]
+ChildParts=[
+	RPD rear sight
+]
+Recoil=107.000000
+RecoilHorizontal=502.000000
+Ergonomics=35.000000
+SightRange=-100
+FireRate=700
+centerOfImpact=0.000000
+deviationCurve=1.350000
+recoilDispersion=10
+recoilAngle=90
+cameraRecoil=0.000000
+cameraSnap=3.500000
+deviationMax=23
+convergence=0.000000
+Name_Jpn=Degtyarev RPD 7.62x39 machine gun
+Information_Jpn=The Degtyarev hand-held machine gun chambered in 7.62x39 caliber. This machine gun was adopted by the Soviet Army and was used as a means of reinforcing infantry squads and platoons from the late forties to the early sixties. The RPD is elegantly designed, resulting in a compact, reliable and quite powerful fire support weapon. Manufactured by V.A. Degtyarev Plant.

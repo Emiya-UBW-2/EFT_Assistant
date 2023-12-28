@@ -1,0 +1,15 @@
+IDstr=634f06262e5def262d0b30ca
+Name=OP-SKS dust cover
+ShortName=OP-SKS DC
+Information_Eng=A standard-issue dust cover for the OP-SKS carbine, manufactued by Molot Arms.
+Itemtype=receiver
+width=1
+height=1
+weight=0.090000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=0.000000
+Ergonomics=2.000000
+accuracyModifier=0.000000
+Name_Jpn=SVDS dust cover
+Information_Jpn=A standard-issue dust cover for SVDS sniper rifles, manufactued by Izhmash.

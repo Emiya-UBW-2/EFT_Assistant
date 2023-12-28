@@ -19,5 +19,5 @@ containsItems=[
 	AK-74M polymer stock (6P34 Sb.15)x1/|
 	AK-101 5.56x45 6L29 30-round magazinex1
 ]
-Name_Jpn=AK-101 5.56x45 アサルトライフル デフォルト
+Name_Jpn=Kalashnikov AK-101 5.56x45 アサルトライフル デフォルト
 Information_Jpn=

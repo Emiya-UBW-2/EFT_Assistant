@@ -21,5 +21,5 @@ containsItems=[
 	AK 7.62x39 30-round magazine (issued '55 or later)x1/|
 	AKMP system front sight devicex1
 ]
-Name_Jpn=AKM 7.62x39 アサルトライフル (AKMP)
+Name_Jpn=Kalashnikov AKM 7.62x39 アサルトライフル (AKMP)
 Information_Jpn=

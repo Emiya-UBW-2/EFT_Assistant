@@ -26,7 +26,7 @@ Task_Else=装備が必要:{
 Task_Else=  PACA Soft Armor
 Task_Else=  6B47 Ratnik-BSh helmet (Digital Flora cover)
 Task_Else=  PACA Soft Armor
-Task_Else=  6B47 Ratnik-BSh helmet
+Task_Else=  6B47 Ratnik-BSh helmet (Olive Drab)
 Task_Else=}
 
 [

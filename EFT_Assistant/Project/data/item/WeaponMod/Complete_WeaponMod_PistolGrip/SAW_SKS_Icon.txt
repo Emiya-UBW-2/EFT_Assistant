@@ -1,5 +1,5 @@
 IDstr=5afd7e445acfc4001637e35a
-Name=SKS TAPCO Intrafuse kit SAW-Style pistol grip
+Name=SKS TAPCO Intrafuse SAW-Style pistol grip
 ShortName=SAW SKS
 Information_Eng=An anatomical pistol grip inspired by the M249 SAW LMG grip. Designed for the Intrafuse SKS stock system. Manufactured by TAPCO.
 Itemtype=pistol-grip

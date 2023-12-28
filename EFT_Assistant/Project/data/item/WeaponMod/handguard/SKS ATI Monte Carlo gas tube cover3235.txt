@@ -1,0 +1,15 @@
+IDstr=653ecc425a1690d9d90491e4
+Name=SKS ATI Monte Carlo gas tube cover
+ShortName=SKS MC
+Information_Eng=A cover for the SKS carbine gas tube. Manufactured by ATI Outdoors.
+Itemtype=handguard
+width=1
+height=1
+weight=0.100000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=0.000000
+Ergonomics=6.000000
+accuracyModifier=0.000000
+Name_Jpn=SKS ATI Monte Carlo gas tube cover
+Information_Jpn=A cover for the SKS carbine gas tube. Manufactured by ATI Outdoors.

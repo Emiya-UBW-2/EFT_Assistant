@@ -1,0 +1,15 @@
+IDstr=634f08a21f9f536910079b5a
+Name=SKS gas tube cover
+ShortName=SKS cover
+Information_Eng=A standard wooden gas tube cover for the SKS carbine, manufactured by Tula Arms.
+Itemtype=handguard
+width=1
+height=1
+weight=0.100000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=0.000000
+Ergonomics=4.000000
+accuracyModifier=0.000000
+Name_Jpn=VPO-209 wooden handguard
+Information_Jpn=A standard wooden handguard for VPO-209 AKM carbines, manufactured by Molot Arms.

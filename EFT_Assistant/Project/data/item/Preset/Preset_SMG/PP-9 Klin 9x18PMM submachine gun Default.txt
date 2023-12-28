@@ -13,5 +13,5 @@ containsItems=[
 	PP-91 "Kedr" polymer pistol gripx1/|
 	PP-91 "Kedr" 9x18PM 30-round magazinex1
 ]
-Name_Jpn=PP-9 "Klin" 9x18PMM submachine gun デフォルト
+Name_Jpn=PP-9 "クリン" 9x18PMM サブマシンガン デフォルト
 Information_Jpn=

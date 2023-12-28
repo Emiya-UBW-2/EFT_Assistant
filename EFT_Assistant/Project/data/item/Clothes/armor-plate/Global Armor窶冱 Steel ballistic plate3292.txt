@@ -1,0 +1,12 @@
+IDstr=656fa0fb498d1b7e3e071d9c
+Name=Global Armor’s Steel ballistic plate
+ShortName=GA Steel
+Information_Eng=An armored steel plate for torso front and back pouches of plate carrier.
+Itemtype=armor-plate
+width=2
+height=2
+weight=3.400000
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=Global Armor’s Steel ballistic plate
+Information_Jpn=An armored steel plate for torso front and back pouches of plate carrier.

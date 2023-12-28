@@ -9,15 +9,15 @@ weight=0.036000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 Conflict=[
-	Glock 17 9x19 pistol slide/|
-	Glock 9x19 Moto Cut pistol slide/|
+	Glock 17 pistol slide/|
+	Glock Moto Cut pistol slide/|
 	Glock Viper Cut pistol slide/|
 	Glock Lone Wolf AlphaWolf pistol slide/|
 	Glock Polymer80 PS9 pistol slide/|
 	Glock ZEV Tech HEX Gen3 RMR pistol slide/|
 	Glock ZEV Tech HEX Spartan RMR pistol slide
 ]
-Recoil=-7.000000
+Recoil=-5.000000
 Ergonomics=-1.000000
 accuracyModifier=-0.010000
 Name_Jpn=Glock 9x19 Lone Wolf AlphaWolf Bullnose compensator

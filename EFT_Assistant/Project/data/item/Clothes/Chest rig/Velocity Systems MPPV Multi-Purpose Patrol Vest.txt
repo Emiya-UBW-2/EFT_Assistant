@@ -1,5 +1,5 @@
 IDstr=5df8a42886f77412640e2e75
-Name=Velocity Systems MPPV Multi-Purpose Patrol Vest
+Name=Velocity Systems MPPV Multi-Purpose Patrol Vest (Wolf Grey)
 ShortName=MPPV
 Information_Eng=Multi-Purpose Patrol Vest is designed for those patrolling situations where armor is not needed. A lightweight rig with a lot of pouches. Manufactured by Velocity Systems.
 Itemtype=chest-rig

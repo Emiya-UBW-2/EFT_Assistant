@@ -1,0 +1,12 @@
+IDstr=6576f96220d53a5b8f3e395e
+Name=9x39mm FMJ
+ShortName=FMJ
+Information_Eng=The 9x39mm TCW FMJ cartridge is intended for firing from civilian weapons. The cartridge does not lose its qualities when used in various climatic and meteorological conditions, regardless of the time of year.
+Itemtype=ammo
+width=1
+height=1
+weight=0.023000
+fleaMarketFee=0
+propertiestype=ItemPropertiesAmmo
+Name_Jpn=9x39mm FMJ
+Information_Jpn=The 9x39mm TCW FMJ cartridge is intended for firing from civilian weapons. The cartridge does not lose its qualities when used in various climatic and meteorological conditions, regardless of the time of year.

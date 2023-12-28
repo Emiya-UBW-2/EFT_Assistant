@@ -12,7 +12,7 @@ ChildParts=[
 	KAC QDSS NT-4 5.56x45 sound suppressor (Black)/|
 	KAC QDSS NT-4 5.56x45 sound suppressor (FDE)
 ]
-Recoil=-8.000000
+Recoil=-6.000000
 Ergonomics=-1.000000
 accuracyModifier=0.030000
 Name_Jpn=AR-15 KAC QDC 5.56x45 Flash Suppressor Kit

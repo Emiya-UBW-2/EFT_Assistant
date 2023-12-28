@@ -1,0 +1,23 @@
+IDstr=657eb30326f0eb0718056204
+Name=Degtyarev RPDN 7.62x39 machine gun Default
+ShortName=RDPN Default
+Itemtype=machinegun
+width=6
+height=3
+weight=7.460000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Degtyarev RPDN 7.62x39 machine gunx1/|
+	RPD 7.62x39 "Buben" 100-round boxx1/|
+	RPD wooden stockx1/|
+	RPD wooden pistol gripx1/|
+	RPD 7.62x39 520mm barrelx1/|
+	RPD bipodx1/|
+	RPD barrel thread protectorx1/|
+	RPD wooden handguardx1/|
+	RPD rear sightx1
+]
+Name_Jpn=Degtyarev RPDN 7.62x39 machine gun デフォルト
+Information_Jpn=

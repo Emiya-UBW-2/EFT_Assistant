@@ -1,0 +1,15 @@
+IDstr=651a8e529829226ceb67c319
+Name=Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown)
+ShortName=DD M-LOK
+Information_Eng=The Enhanced M-LOK Vertical Foregrip, installed on M-LOK interface handguards. Manufactured by Daniel Defense. Coyote Brown version.
+Itemtype=foregrip
+width=1
+height=1
+weight=0.028000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=-1.500000
+Ergonomics=6.000000
+accuracyModifier=0.000000
+Name_Jpn=Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown)
+Information_Jpn=The Enhanced M-LOK Vertical Foregrip, installed on M-LOK interface handguards. Manufactured by Daniel Defense. Coyote Brown version.

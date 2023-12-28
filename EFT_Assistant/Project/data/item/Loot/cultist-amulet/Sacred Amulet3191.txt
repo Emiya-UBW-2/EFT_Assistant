@@ -1,0 +1,12 @@
+IDstr=64d0b40fbe2eed70e254e2d4
+Name=Sacred Amulet
+ShortName=Amulet
+Information_Eng=A mysterious amulet given to you by Lightkeeper. Serves as a reminder of the wearer's important role in Tarkov's history. Very fragile.
+Itemtype=cultist-amulet
+width=1
+height=1
+weight=0.100000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=Sacred Amulet
+Information_Jpn=A mysterious amulet given to you by Lightkeeper. Serves as a reminder of the wearer's important role in Tarkov's history. Very fragile.

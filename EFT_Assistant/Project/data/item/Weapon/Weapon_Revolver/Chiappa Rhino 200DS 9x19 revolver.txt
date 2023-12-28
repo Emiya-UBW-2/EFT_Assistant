@@ -12,7 +12,7 @@ ChildParts=[
 	Chiappa Rhino 9x19 6-round cylinder
 ]
 ChildParts=[
-	Chiappa Rhino Green Fiber Optic front sight/|
+	Chiappa Rhino Red Fiber Optic front sight/|
 	Chiappa Rhino front sight
 ]
 ChildParts=[
@@ -28,9 +28,9 @@ centerOfImpact=0.280000
 deviationCurve=2.000000
 recoilDispersion=10
 recoilAngle=85
-cameraRecoil=0.010800
+cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=11
-convergence=6.900000
+convergence=0.000000
 Name_Jpn=Chiappa Rhino 200DS 9x19 revolver
 Information_Jpn=The Rhino revolvers, manufactured by the Italian company Armi Chiappa, are distinguished by a revolutionary patented design and construction with an unusual barrel arrangement for revolvers opposite the lower drum chamber. The short-size "pocket" model with a 2 inch barrel chambered in 9x19mm.

@@ -1,0 +1,32 @@
+IDstr=648ae3e356c6310a830fc291
+Name=AK CG101 AR-type pistol grip adapter
+ShortName=CG101
+Information_Eng=An adapter that allows AR-type pistol grips installation on the AK rifles.
+Itemtype=pistol-grip
+width=1
+height=1
+weight=0.045000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	AR-15 Colt A2 pistol grip/|
+	AR-15 Damage Industries ECS pistol grip (FDE)/|
+	AR-15 F1 Firearms Skeletonized Style 1 pistol grip/|
+	AR-15 F1 Firearms Skeletonized Style 2 PC pistol grip/|
+	AR-15 F1 Firearms Skeletonized Style 2 pistol grip/|
+	AR-15 HK Battle Grip pistol grip/|
+	Hogue OverMolded Rubber Grip (Black)/|
+	Hogue OverMolded Rubber Grip (FDE)/|
+	Hogue OverMolded Rubber Grip (Ghillie Earth)/|
+	Hogue OverMolded Rubber Grip (Ghillie Green)/|
+	Hogue OverMolded Rubber Grip (Olive Drab)/|
+	AR-15 Magpul MIAD pistol grip (FDE)/|
+	AR-15 Tactical Dynamics Hexgrip pistol grip/|
+	AR-15 Tactical Dynamics Skeletonized pistol grip/|
+	AR-15 Aeroknox Orion pistol grip
+]
+Recoil=0.000000
+Ergonomics=-1.000000
+accuracyModifier=0.000000
+Name_Jpn=AK CG101 AR-type pistol grip adapter
+Information_Jpn=An adapter that allows AR-type pistol grips installation on the AK rifles.

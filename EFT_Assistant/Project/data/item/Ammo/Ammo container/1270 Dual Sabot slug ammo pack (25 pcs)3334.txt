@@ -1,0 +1,12 @@
+IDstr=6570243fcfc010a0f50069fb
+Name=12/70 Dual Sabot slug ammo pack (25 pcs)
+ShortName=DualSabot
+Information_Eng=A box of 12/70 Dual Sabot slug cartridges, 25 pieces.
+Itemtype=ammo-container
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=12/70 Dual Sabot slug ammo pack (25 pcs)
+Information_Jpn=A box of 12/70 Dual Sabot slug cartridges, 25 pieces.

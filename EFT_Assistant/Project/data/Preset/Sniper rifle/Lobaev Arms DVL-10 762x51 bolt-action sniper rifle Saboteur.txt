@@ -1,8 +1,0 @@
-Name=Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle Saboteur
-Base=Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle
-Parts=DVL-10 7.62x51 10-round magazine
-Parts=DVL-10 7.62x51 500mm barrel
-Parts=DVL-10 7.62x51 muzzle device
-Parts=Harris HBR Bipod
-Parts=Hogue OverMolded Rubber Grip (Olive Drab)
-Parts=Lobaev Arms stock

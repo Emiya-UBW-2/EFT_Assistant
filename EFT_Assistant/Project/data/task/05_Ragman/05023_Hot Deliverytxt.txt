@@ -12,10 +12,10 @@ NeedLightkeeper=false
 Task_Map=Interchange
 factionName=Any
 Task_Map=Interchange
-Task_NotFiR_HandOver=[Peltor ComTac 2 headsetx2]
+Task_NotFiR_HandOver=[Peltor ComTac 2 headset (OD Green)x2]
 DogTagLv=0
 Task_Map=Interchange
-Task_NotFiR_HandOver=[6B47 Ratnik-BSh helmetx2]
+Task_NotFiR_HandOver=[6B47 Ratnik-BSh helmet (Olive Drab)x2]
 DogTagLv=0
 Task_Map=Interchange
 Task_NotFiR_HandOver=[BNTI Gzhel-K body armorx2]
@@ -40,7 +40,7 @@ DogTagLv=0
 Reward_Rep=Ragman+4
 Reward_Item=[
 	Roublesx55000/|
-	IOTV Gen4 body armor (Full Protection Kit)x1
+	IOTV Gen4 body armor (Full Protection Kit, MultiCam)x1
 ]
 
 Reward_EXP=20300

@@ -14,7 +14,7 @@ ChildParts=[
 ChildParts=[
 	SVDS Rotor 43 thread adapter
 ]
-Recoil=-7.000000
+Recoil=-5.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
 Name_Jpn=SVDS 7.62x54R muzzle brake-compensator

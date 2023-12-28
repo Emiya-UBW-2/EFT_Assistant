@@ -1,0 +1,18 @@
+IDstr=6529113b5ae2ae97b80fdf39
+Name=MCX SPEAR Clutch-Lok QD 6.8x51 Shouldered Flash Hider
+ShortName=CLQD
+Information_Eng=The SPEAR Clutch-Lok Shouldered Flash Hider is an effective flash suppressor that also serves as an attachment platform for the SLX/SLH sound suppressor. Manufactured by SIG Sauer.
+Itemtype=flashhider
+width=1
+height=1
+weight=0.122000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	MCX SPEAR SLX68-MG-QD 6.8x51 sound suppressor
+]
+Recoil=-7.000000
+Ergonomics=-1.000000
+accuracyModifier=0.030000
+Name_Jpn=MCX SPEAR Clutch-Lok QD 6.8x51 Shouldered Flash Hider
+Information_Jpn=The SPEAR Clutch-Lok Shouldered Flash Hider is an effective flash suppressor that also serves as an attachment platform for the SLX/SLH sound suppressor. Manufactured by SIG Sauer.

@@ -12,7 +12,7 @@ containsItems=[
 	Colt M45A1 .45 ACP pistolx1/|
 	M1911A1 .45 ACP National Match barrelx1/|
 	M45A1 Mil-Tac GVT G10 side gripsx1/|
-	M45A1 .45 ACP pistol slidex1/|
+	M45A1 pistol slidex1/|
 	M45A1 Novak Lomount rear sightx1/|
 	M45A1 Novak Lomount front sightx1/|
 	M1911A1 .45 ACP Wilson Combat 7-round magazinex1/|

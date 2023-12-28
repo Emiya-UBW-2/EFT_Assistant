@@ -1,5 +1,5 @@
 IDstr=635267f063651329f75a4ee8
-Name=26x75mm distress signal flare (poison green)
+Name=26x75mm distress signal flare (Poison Green)
 ShortName=DSF
 Information_Eng=Signal cartridge caliber 26x75mm for SP-81. The unusual color indicates that the cartridge is used for some special signals to "friends". It makes sense to try to use it to save lives in the presence of scavs or bosses.
 Itemtype=ammo

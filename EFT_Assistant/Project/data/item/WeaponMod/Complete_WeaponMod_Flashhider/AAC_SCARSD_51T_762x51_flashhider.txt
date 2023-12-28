@@ -11,7 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AAC 762-SDN-6 multi-caliber sound suppressor
 ]
-Recoil=-7.000000
+Recoil=-5.000000
 Ergonomics=-2.000000
 accuracyModifier=0.040000
 Name_Jpn=AAC SCAR-SD 51T 7.62x51 flash hider

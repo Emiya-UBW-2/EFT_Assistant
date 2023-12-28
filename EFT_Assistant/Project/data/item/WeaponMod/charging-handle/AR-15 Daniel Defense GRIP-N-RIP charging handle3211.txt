@@ -1,0 +1,15 @@
+IDstr=651bf5617b3b552ef6712cb7
+Name=AR-15 Daniel Defense GRIP-N-RIP charging handle
+ShortName=GNR
+Information_Eng=The GRIP-N-RIP charging handle for AR-15 style weapons. Manufactured by Daniel Defense.
+Itemtype=charging-handle
+width=1
+height=1
+weight=0.043000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=0.000000
+Ergonomics=2.000000
+accuracyModifier=0.000000
+Name_Jpn=AR-15 Daniel Defense GRIP-N-RIP charging handle
+Information_Jpn=The GRIP-N-RIP charging handle for AR-15 style weapons. Manufactured by Daniel Defense.

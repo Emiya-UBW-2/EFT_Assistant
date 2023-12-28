@@ -12,7 +12,8 @@ ChildParts=[
 	AKS-74U Alfa Arms Goliaf handguard/|
 	AKS-74U CAA XRSU47SU tactical handguard/|
 	AKS-74U wooden handguard (6P26 Sb.6)/|
-	AKS-74U Zenit B-11 handguard
+	AKS-74U Zenit B-11 handguard/|
+	AKS-74U Alfa Arms Goliaf M-LOK handguard
 ]
 Recoil=0.000000
 Ergonomics=0.000000

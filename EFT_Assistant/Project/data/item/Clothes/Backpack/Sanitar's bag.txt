@@ -9,4 +9,4 @@ weight=1.440000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
 Name_Jpn=Sanitar's bag
-Information_Jpn=A medical bag, often used by mid and low rank medical personnel, sometimes by doctors, for carrying tools and medicine.
+Information_Jpn=メディカルバッグは新人から中堅の医療従事者、時には医師が使用するもので、医療道具や薬を持ち運ぶのによく使われる。

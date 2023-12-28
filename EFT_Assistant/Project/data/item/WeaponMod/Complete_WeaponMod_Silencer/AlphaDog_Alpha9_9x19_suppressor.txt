@@ -16,8 +16,8 @@ ChildParts=[
 	DeltaPoint Cross Slot Mount base/|
 	Trijicon RMR low profile mount
 ]
-Recoil=-8.000000
+Recoil=-6.000000
 Ergonomics=-13.000000
-accuracyModifier=0.020000
+accuracyModifier=0.000000
 Name_Jpn=Alpha Dog Alpha 9 9x19 サウンドサプレッサー
 Information_Jpn=A pistol sound suppressor with a Weaver rail made for mounting an alternative sight. Manufactured by Alpha Dog.

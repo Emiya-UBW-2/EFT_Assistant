@@ -1,0 +1,12 @@
+IDstr=65702572c5d7d4cb4d078576
+Name=7.62x54mm R BT gzh ammo pack (20 pcs)
+ShortName=BT
+Information_Eng=A box of 7.62x54mm R BT gzh cartridges, 20 pieces.
+Itemtype=ammo-container
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=7.62x54mm R BT gzh ammo pack (20 pcs)
+Information_Jpn=A box of 7.62x54mm R BT gzh cartridges, 20 pieces.

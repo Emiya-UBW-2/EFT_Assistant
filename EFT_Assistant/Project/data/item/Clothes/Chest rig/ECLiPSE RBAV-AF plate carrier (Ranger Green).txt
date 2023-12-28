@@ -1,12 +1,11 @@
 IDstr=628dc750b910320f4c27a732
 Name=ECLiPSE RBAV-AF plate carrier (Ranger Green)
 ShortName=RBAV-AF
-Information_Eng=This new BAE ECLiPSE RBAV (Releasable Body Armor Vest, Air Force) variant is designed specifically for the Guardian Angel Weapon System (USAF PJ) and contains several new features not found in other versions.
-The current pouches configuration is assembled for an assault with additional protection.
+Information_Eng=The BAE ECLiPSE RBAV (Releasable Body Armor Vest, Air Force) variant is designed specifically for the Guardian Angel Weapon System (USAF PJ) and contains several new features not found in other versions.
 Itemtype=chest-rig
 width=3
 height=4
-weight=7.500000
+weight=2.650000
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
 Name_Jpn=ECLiPSE RBAV-AF plate carrier (Ranger Green)

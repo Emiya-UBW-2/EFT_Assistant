@@ -26,7 +26,7 @@ Conflict=[
 	Strike Industries Cobra Tactical foregrip/|
 	TangoDown Stubby BGV-MK46K foregrip (Black)/|
 	TangoDown Stubby BGV-MK46K foregrip (FDE)/|
-	TangoDown Stubby BGV-MK46K foregrip (Stealth Gray)/|
+	TangoDown Stubby BGV-MK46K foregrip (Stealth Grey)/|
 	Tactical Dynamics Skeletonized Foregrip/|
 	Viking Tactics UVG tactical foregrip/|
 	Zenit RK-1 tactical foregrip on B-25U mount/|
@@ -42,7 +42,7 @@ Conflict=[
 	Magpul M-LOK AFG tactical foregrip (Black)/|
 	Magpul M-LOK AFG tactical foregrip (FDE)/|
 	Magpul M-LOK AFG tactical foregrip (Olive Drab)/|
-	Magpul M-LOK AFG tactical foregrip (Stealth Gray)/|
+	Magpul M-LOK AFG tactical foregrip (Stealth Grey)/|
 	AK TROY Full Length Rail handguard & gas tube combo/|
 	AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo/|
 	AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo (White)/|
@@ -60,13 +60,19 @@ Conflict=[
 	AK Magpul MOE AKM handguard (FDE)/|
 	AK Magpul MOE AKM handguard (Olive Drab)/|
 	AK Magpul MOE AKM handguard (Plum)/|
-	AK Magpul MOE AKM handguard (Stealth Gray)/|
+	AK Magpul MOE AKM handguard (Stealth Grey)/|
 	AK Magpul Zhukov-U handguard (Black)/|
 	AK Magpul Zhukov-U handguard (FDE)/|
 	AK Magpul Zhukov-U handguard (Plum)/|
 	AK TDI X47 tactical handguard rail system/|
 	AK Vltor CMRD KeyMod handguard/|
-	AK Zenit B-30 handguard with B-31S upper handguard rail
+	AK Zenit B-30 handguard with B-31S upper handguard rail/|
+	RTM Osovets P-2 tactical foregrip/|
+	RTM Osovets P-2 tactical foregrip (Khaki)/|
+	RTM Pillau P-2 tactical foregrip (Red)/|
+	RTM Pillau tactical foregrip (Sand)/|
+	Stark SE-5 Express Forward foregrip (FDE)/|
+	Strike Industries Cobra Tactical foregrip (FDE)
 ]
 Recoil=-8.000000
 Ergonomics=-35.000000

@@ -11,30 +11,30 @@ propertiestype=
 Conflict=[
 	Army cap/|
 	Baseball cap/|
-	BEAR baseball cap (Green)/|
-	USEC baseball cap (Tan)/|
+	BEAR baseball cap (Olive Drab)/|
+	USEC baseball cap (Coyote)/|
 	EMERCOM cap/|
 	Police cap/|
 	Santa hat/|
 	UX PRO beanie/|
 	Kinda cowboy hat/|
-	Tactical fleece beanie/|
+	Tactical fleece beanie (Tan)/|
 	Ski hat with holes for eyes/|
 	FORT Kiver-M bulletproof helmet/|
 	6B47 Ratnik-BSh helmet (Digital Flora cover)/|
-	Altyn bulletproof helmet/|
+	Altyn bulletproof helmet (Olive Drab)/|
 	Armasight NVG head strap/|
 	TSh-4M-L soft tank crew helmet/|
 	Kolpak-1S riot helmet/|
-	MSA ACH TC-2001 MICH Series helmet/|
-	MSA ACH TC-2002 MICH Series helmet/|
+	MSA ACH TC-2001 MICH Series helmet (Olive Drab)/|
+	MSA ACH TC-2002 MICH Series helmet (Olive Drab)/|
 	Ops-Core FAST MT Super High Cut helmet (Black)/|
-	Ops-Core FAST MT Super High Cut helmet (Tan)/|
-	6B47 Ratnik-BSh helmet/|
+	Ops-Core FAST MT Super High Cut helmet (Urban Tan)/|
+	6B47 Ratnik-BSh helmet (Olive Drab)/|
 	SSSh-94 SFERA-S helmet/|
 	UNTAR helmet/|
 	Wilcox Skull Lock head mount/|
-	ZSh-1-2M helmet/|
+	ZSh-1-2M helmet (Olive Drab)/|
 	ZSh-1-2M helmet (Black cover)/|
 	Rivals 2020 cap/|
 	DevTac Ronin ballistic helmet/|
@@ -42,7 +42,7 @@ Conflict=[
 	BEAR baseball cap (Black)/|
 	Beret (Black)/|
 	Beret (Blue)/|
-	Beret (Olive)/|
+	Beret (Olive Drab)/|
 	Bomber beanie/|
 	Door Kicker boonie hat/|
 	Kotton beanie/|
@@ -60,25 +60,27 @@ Conflict=[
 	USEC baseball cap (Black)/|
 	HighCom Striker ACHHC IIIA helmet (Black)/|
 	HighCom Striker ACHHC IIIA helmet (Olive Drab)/|
-	LShZ light helmet/|
+	LShZ lightweight helmet (Olive Drab)/|
 	HighCom Striker ULACH IIIA helmet (Black)/|
 	HighCom Striker ULACH IIIA helmet (Desert Tan)/|
 	Crye Precision AirFrame helmet (Tan)/|
-	Diamond Age Bastion helmet/|
-	Galvion Caiman Hybrid helmet/|
+	Diamond Age Bastion helmet (Black)/|
+	Galvion Caiman Hybrid helmet (Grey)/|
 	Tac-Kek FAST MT helmet (Replica)/|
-	BNTI LShZ-2DTM helmet/|
+	BNTI LShZ-2DTM helmet (Black)/|
 	Maska-1SCh bulletproof helmet (Olive Drab)/|
-	Maska-1SCh bulletproof helmet (Killa)/|
+	Maska-1SCh bulletproof helmet (Killa Edition)/|
 	PSh-97 DJETA riot helmet/|
 	ShPM Firefighter helmet/|
-	SSh-68 steel helmet/|
-	MSA Gallet TC 800 High Cut combat helmet/|
+	SSh-68 steel helmet (Olive Drab)/|
+	MSA Gallet TC 800 High Cut combat helmet (Black)/|
 	Team Wendy EXFIL Ballistic Helmet (Black)/|
 	Team Wendy EXFIL Ballistic Helmet (Coyote Brown)/|
-	Vulkan-5 (LShZ-5) bulletproof helmet/|
+	Vulkan-5 LShZ-5 bulletproof helmet (Black)/|
 	Jack-o'-lantern tactical pumpkin helmet/|
-	Beanie
+	Beanie/|
+	Gus baseball cap/|
+	Basmach leather cap
 ]
 Name_Jpn=Faceless mask
 Information_Jpn=A scary mask from some famous animated movie.

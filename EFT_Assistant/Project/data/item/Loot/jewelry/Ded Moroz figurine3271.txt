@@ -1,0 +1,12 @@
+IDstr=655c67ab0d37ca5135388f4b
+Name=Ded Moroz figurine
+ShortName=Ded Moroz
+Information_Eng=The Tarko collectible figure of a Ded Moroz. This time, the craftsman portrayed a collective image of one of the Scavs who changes his clothes every Christmas and New Year and gives everyone in the city gifts that he managed to loot during the year. Traditionally, PMC fighters and Scavs do not attack this oddball.
+Itemtype=jewelry
+width=1
+height=2
+weight=0.200000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=Ded Moroz figurine
+Information_Jpn=The Tarko collectible figure of a Ded Moroz. This time, the craftsman portrayed a collective image of one of the Scavs who changes his clothes every Christmas and New Year and gives everyone in the city gifts that he managed to loot during the year. Traditionally, PMC fighters and Scavs do not attack this oddball.

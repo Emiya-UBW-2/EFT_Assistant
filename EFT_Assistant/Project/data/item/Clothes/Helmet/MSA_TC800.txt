@@ -1,5 +1,5 @@
 IDstr=5e4bfc1586f774264f7582d3
-Name=MSA Gallet TC 800 High Cut combat helmet
+Name=MSA Gallet TC 800 High Cut combat helmet (Black)
 ShortName=TC 800
 Information_Eng=The MSA TC 800 ballistic helmet, designed for use by tactical teams of police special forces, in combat and reconnaissance operations. It can be modified by various components.
 Itemtype=headwear
@@ -7,6 +7,6 @@ width=2
 height=2
 weight=1.170000
 fleaMarketFee=0
-propertiestype=ItemPropertiesHelmet
+propertiestype=
 Name_Jpn=MSA Gallet TC 800 High Cut コンバットヘルメット
 Information_Jpn=MSA TC 800バリスティックヘルメットは警察系特殊部隊の戦闘任務及び偵察任務のために設計された。様々なパーツを加えて改造することができる。

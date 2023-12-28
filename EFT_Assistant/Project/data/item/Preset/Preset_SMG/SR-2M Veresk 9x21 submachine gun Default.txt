@@ -12,7 +12,7 @@ containsItems=[
 	SR-2M "Veresk" 9x21 submachine gunx1/|
 	SR-2M 9x21 20-round magazinex1/|
 	SR-2M 9x21 hand stopperx1/|
-	SR-2M folding stockx1/|
+	SR-2M top-folding stockx1/|
 	SR-2M dust coverx1/|
 	SR-2M polymer handguardx1/|
 	SR-2M short side railx1/|

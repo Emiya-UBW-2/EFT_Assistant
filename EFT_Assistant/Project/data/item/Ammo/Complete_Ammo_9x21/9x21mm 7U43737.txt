@@ -1,0 +1,12 @@
+IDstr=6576f93989f0062e741ba952
+Name=9x21mm 7U4
+ShortName=7U4
+Information_Eng=The 9x21mm 7U4 round (GRAU index - 7U4) with reduced bullet velocity, designed for flameless and low-noise firing. The cartridge features a cut edge on the front end of the core, formed by two flat edges, and increased weight.
+Itemtype=ammo
+width=1
+height=1
+weight=0.027000
+fleaMarketFee=0
+propertiestype=ItemPropertiesAmmo
+Name_Jpn=9x21mm 7U4
+Information_Jpn=The 9x21mm 7U4 round (GRAU index - 7U4) with reduced bullet velocity, designed for flameless and low-noise firing. The cartridge features a cut edge on the front end of the core, formed by two flat edges, and increased weight.

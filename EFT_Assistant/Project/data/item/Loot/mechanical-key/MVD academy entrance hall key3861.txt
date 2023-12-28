@@ -1,0 +1,13 @@
+IDstr=6582dc4b6ba9e979af6b79f4
+Name=MVD academy entrance hall key
+ShortName=MVD
+Information_Eng=A key to the entrance hall inside the city MVD (Ministry of the Interior) academy.
+Itemtype=mechanical-key
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=ItemPropertiesKey
+uses=40
+Name_Jpn=MVD academy entrance hall key
+Information_Jpn=A key to the entrance hall inside the city MVD (Ministry of the Interior) academy.

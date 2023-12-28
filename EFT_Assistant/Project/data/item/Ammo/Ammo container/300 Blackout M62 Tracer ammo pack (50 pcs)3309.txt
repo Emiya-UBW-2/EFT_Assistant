@@ -1,0 +1,12 @@
+IDstr=657023b1cfc010a0f50069e5
+Name=.300 Blackout M62 Tracer ammo pack (50 pcs)
+ShortName=M62
+Information_Eng=A box of .300 Blackout M62 Tracer cartridges, 50 pieces.
+Itemtype=ammo-container
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=.300 Blackout M62 Tracer ammo pack (50 pcs)
+Information_Jpn=A box of .300 Blackout M62 Tracer cartridges, 50 pieces.

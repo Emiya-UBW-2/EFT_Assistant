@@ -1,12 +1,12 @@
 IDstr=5447ac644bdc2d6c208b4567
-Name=5.56x45mm M855 ammo pack (30 pcs)
+Name=5.56x45mm M855 ammo pack (50 pcs)
 ShortName=M855
-Information_Eng=A pack of 5.56x45 mm M855 ammo, 30 rounds.
+Information_Eng=A pack of 5.56x45 mm M855 ammo, 50 rounds.
 Itemtype=ammo-container
 width=1
 height=1
 weight=0.010000
 fleaMarketFee=0
 propertiestype=
-Name_Jpn=5.56x45mm M855 ammo pack (30 pcs)
-Information_Jpn=A pack of 5.56x45 mm M855 ammo, 30 rounds.
+Name_Jpn=5.56x45mm M855 ammo pack (50 pcs)
+Information_Jpn=A pack of 5.56x45 mm M855 ammo, 50 rounds.

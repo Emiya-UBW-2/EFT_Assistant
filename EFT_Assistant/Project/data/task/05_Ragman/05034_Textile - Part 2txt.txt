@@ -53,7 +53,7 @@ DogTagLv=0
 
 Reward_Item=[
 	Roublesx100000/|
-	Mystery Ranch Blackjack 50 backpack (Multicam)x1
+	Mystery Ranch Blackjack 50 backpack (MultiCam)x1
 ]
 
 Reward_EXP=34300

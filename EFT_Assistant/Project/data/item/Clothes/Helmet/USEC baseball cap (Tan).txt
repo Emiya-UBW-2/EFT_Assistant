@@ -1,7 +1,7 @@
 IDstr=5aa2a7e8e5b5b00016327c16
-Name=USEC baseball cap (Tan)
+Name=USEC baseball cap (Coyote)
 ShortName=USEC
-Information_Eng=A tactical USEC PMC baseball cap. Tan version.
+Information_Eng=A tactical USEC PMC baseball cap. Coyote version.
 Itemtype=headwear
 width=1
 height=1

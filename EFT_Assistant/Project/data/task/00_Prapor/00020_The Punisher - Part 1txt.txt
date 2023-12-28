@@ -20,7 +20,7 @@ NeedItem=[
 	Kalashnikov AKM 7.62x39 assault riflex0/|
 	Kalashnikov AKMS 7.62x39 assault riflex0/|
 	Kalashnikov AKMN 7.62x39 assault riflex0/|
-	Molot VPO-136 "Vepr-KM" 7.62x39 carbinex0/|
+	Molot Arms VPO-136 "Vepr-KM" 7.62x39 carbinex0/|
 	Kalashnikov AK-103 7.62x39 assault riflex0/|
 	Kalashnikov AK-104 7.62x39 assault riflex0
 ]
@@ -34,7 +34,7 @@ NeedItem=[
 Reward_Rep=Prapor+2
 Reward_Item=[
 	Roublesx40000/|
-	6B43 6A Zabralo-Sh body armorx1
+	6B43 Zabralo-Sh body armor (Digital Flora)x1
 ]
 
 Reward_EXP=10200

@@ -14,5 +14,5 @@ Parts=AR-15 KAC RIS handguard
 Parts=AR-15 KAC RIS lower handguard
 Parts=Zenit RK-1 tactical foregrip
 Parts=AR-15 Colt A2 rear sight
-Parts=Magpul UBR GEN2 stock (FDE)
+Parts=AR-15 Magpul UBR GEN2 stock (FDE)
 Parts=AR-15 HK Extended Latch charging handle

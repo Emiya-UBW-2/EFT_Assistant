@@ -11,7 +11,7 @@ IsDefault=TRUE
 containsItems=[
 	Milkor M32A1 MSGL 40mm grenade launcherx1/|
 	AR-15 Damage Industries ECS pistol grip (FDE)x1/|
-	High Standard M4SS Stockx1/|
+	AR-15 High Standard M4SS Stockx1/|
 	M32A1 40mm cylinderx1/|
 	Milkor M2A1 grenade launcher reflex sightx1
 ]

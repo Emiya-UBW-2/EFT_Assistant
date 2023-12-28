@@ -1,0 +1,15 @@
+IDstr=653ecef836fae5a82f02b869
+Name=SKS ATI Monte Carlo chassis
+ShortName=SKS MC
+Information_Eng=A lightweight Monte Carlo-style stock for the SKS carbine, designed for sport shooting and hunting. Manufactured by ATI outdoors.
+Itemtype=stock
+width=4
+height=1
+weight=1.100000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=-20.000000
+Ergonomics=18.000000
+accuracyModifier=0.000000
+Name_Jpn=SKS ATI Monte Carlo chassis
+Information_Jpn=A lightweight Monte Carlo-style stock for the SKS carbine, designed for sport shooting and hunting. Manufactured by ATI outdoors.

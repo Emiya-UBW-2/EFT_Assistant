@@ -1,0 +1,18 @@
+IDstr=646f6322f43d0c5d62063715
+Name=Zenit KR-2 old gen mount
+ShortName=KR-2
+Information_Eng=The KR-2 mount designed for installing various tactical illumination devices on Weaver type rails. Manufactured by Zenit.
+Itemtype=mount
+width=1
+height=1
+weight=0.036000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Zenit 2D flashlight
+]
+Recoil=0.000000
+Ergonomics=0.000000
+accuracyModifier=0.000000
+Name_Jpn=Zenit KR-2 old gen mount
+Information_Jpn=The KR-2 mount designed for installing various tactical illumination devices on Weaver type rails. Manufactured by Zenit.

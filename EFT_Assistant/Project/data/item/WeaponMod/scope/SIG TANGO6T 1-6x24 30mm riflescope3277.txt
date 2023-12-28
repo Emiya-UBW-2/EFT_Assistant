@@ -1,0 +1,37 @@
+IDstr=6567e7681265c8a131069b0f
+Name=SIG TANGO6T 1-6x24 30mm riflescope
+ShortName=TANGO6T
+Information_Eng=The TANGO6T is a rugged and well-built low power variable optic. This model features a 1x to 6x magnification and a first focal plane reticle. This rifle scope is ideal for short and medium distances, as well as for backcountry hunting. Manufactured by SIG Sauer.
+Itemtype=scope
+width=2
+height=1
+weight=0.626000
+fleaMarketFee=0
+propertiestype=ItemPropertiesScope
+Conflict=[
+	Axion Kobra EKP-8-18 reflex sight/|
+	OKP-7 reflex sight/|
+	EOTech 553 holographic sight/|
+	EOTech EXPS3 holographic sight (Tan)/|
+	EOTech XPS3-0 holographic sight/|
+	EOTech XPS3-2 holographic sight/|
+	Holosun HS401G5 reflex sight/|
+	SIG Sauer ROMEO8T reflex sight/|
+	Trijicon SRS-02 reflex sight/|
+	Valday PK-120 (1P87) holographic sight/|
+	Valday Krechet reflex sight/|
+	VOMZ Pilad P1x42 Weaver reflex sight/|
+	Vortex Razor AMG UH-1 holographic sight/|
+	Walther MRS reflex sight/|
+	Aimpoint LRP mount for CompM4 sights/|
+	Leapers UTG reflex sight/|
+	SIG Sauer ROMEO7 1x30 reflex sight (Prototype)/|
+	ELCAN Specter HCO holographic sight
+]
+Recoil=0.000000
+Ergonomics=-4.000000
+SightRange=1500
+sightZooms=6.000000
+sightZooms=1.000000
+Name_Jpn=SIG TANGO6T 1-6x24 30mm riflescope
+Information_Jpn=The TANGO6T is a rugged and well-built low power variable optic. This model features a 1x to 6x magnification and a first focal plane reticle. This rifle scope is ideal for short and medium distances, as well as for backcountry hunting. Manufactured by SIG Sauer.

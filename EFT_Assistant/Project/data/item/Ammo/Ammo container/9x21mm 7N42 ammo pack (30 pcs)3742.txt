@@ -1,0 +1,12 @@
+IDstr=6579847c5a0e5879d12f2873
+Name=9x21mm 7N42 ammo pack (30 pcs)
+ShortName=7N42
+Information_Eng=A box of 9x21mm 7N42 cartridges, 30 pieces.
+Itemtype=ammo-container
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=9x21mm 7N42 ammo pack (30 pcs)
+Information_Jpn=A box of 9x21mm 7N42 cartridges, 30 pieces.

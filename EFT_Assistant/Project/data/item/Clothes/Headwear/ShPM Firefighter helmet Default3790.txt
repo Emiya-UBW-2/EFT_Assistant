@@ -1,0 +1,17 @@
+IDstr=657bc644bbd440df880b2de2
+Name=ShPM Firefighter helmet Default
+ShortName=ShPM Default
+Itemtype=headwear
+width=2
+height=2
+weight=1.500000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	ShPM Firefighter helmetx1/|
+	Layers of aramid fiberx1/|
+	ShPM firefighter helmet built-in face shieldx1/|
+]
+Name_Jpn=ShPM Firefighter helmet デフォルト
+Information_Jpn=

@@ -9,7 +9,7 @@ weight=1.200000
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmorAttachment
 Conflict=[
-	Peltor ComTac 2 headset/|
+	Peltor ComTac 2 headset (OD Green)/|
 	MSA Sordin Supreme PRO-X/L headset/|
 	GSSh-01 active headset/|
 	Peltor Tactical Sport headset/|

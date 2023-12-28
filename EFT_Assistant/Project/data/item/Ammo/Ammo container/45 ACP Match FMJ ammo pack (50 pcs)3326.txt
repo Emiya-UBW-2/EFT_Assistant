@@ -1,0 +1,12 @@
+IDstr=6570240ecfc010a0f50069f2
+Name=.45 ACP Match FMJ ammo pack (50 pcs)
+ShortName=FMJ
+Information_Eng=A box of .45 ACP Match FMJ cartridges, 50 pieces.
+Itemtype=ammo-container
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=.45 ACP Match FMJ ammo pack (50 pcs)
+Information_Jpn=A box of .45 ACP Match FMJ cartridges, 50 pieces.

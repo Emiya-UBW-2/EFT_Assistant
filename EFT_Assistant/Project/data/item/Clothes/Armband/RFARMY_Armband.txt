@@ -1,5 +1,5 @@
 IDstr=619bdeb986e01e16f839a99e
-Name=RFARMY armband
+Name=Armband (RFARMY)
 ShortName=RFARMY
 Information_Eng=An armband with the Russian flag. Used by the contingent of the RF Armed Forces on the territory of the city of Tarkov and its suburbs.
 Itemtype=arm-band

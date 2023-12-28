@@ -1,11 +1,11 @@
 IDstr=6038b4b292ec1c3103795a0b
-Name=LBT-6094A Slick Plate Carrier (Tan)
+Name=LBT-6094A Slick Plate Carrier (Coyote Tan)
 ShortName=Slick
-Information_Eng=A simple yet effective plate carrier by London Bridge Trading company. The most minimalistic design intended for use with chest rigs. Tan version.
+Information_Eng=A simple yet effective plate carrier by London Bridge Trading company. The most minimalistic design intended for use with chest rigs. Coyote Tan version.
 Itemtype=armor
 width=3
 height=3
-weight=9.700000
+weight=1.300000
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmor
 Name_Jpn=LBT-6094A Slick Plate Carrier (Tan)

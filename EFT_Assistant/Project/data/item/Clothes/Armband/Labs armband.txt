@@ -1,5 +1,5 @@
 IDstr=619bde7fc9546643a67df6f4
-Name=Labs armband
+Name=Armband (Labs)
 ShortName=Labs
 Information_Eng=An armband for TerraGroup Labs employees.
 Itemtype=arm-band

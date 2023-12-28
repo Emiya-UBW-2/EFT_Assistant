@@ -1,0 +1,12 @@
+IDstr=656fb0bd7c2d57afe200c0dc
+Name=SPRTN Elaphros ballistic plate
+ShortName=SPRTN Elaphros
+Information_Eng=A ceramic ballistic plate for torso front and back pouches of plate carrier.
+Itemtype=armor-plate
+width=2
+height=2
+weight=1.600000
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=SPRTN Elaphros ballistic plate
+Information_Jpn=A ceramic ballistic plate for torso front and back pouches of plate carrier.

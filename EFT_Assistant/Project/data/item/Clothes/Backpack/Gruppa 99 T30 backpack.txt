@@ -1,12 +1,12 @@
 IDstr=628e1ffc83ec92260c0f437f
-Name=Gruppa 99 T30 backpack
+Name=Gruppa 99 T30 backpack (Black)
 ShortName=T30
-Information_Eng=A thirty-liter assault backpack from Gruppa 99. A high-quality solution for conducting special raid operations.
+Information_Eng=A thirty-liter assault backpack from Gruppa 99. A high-quality solution for conducting special raid operations. Black version.
 Itemtype=backpack
 width=5
 height=6
 weight=1.400000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
-Name_Jpn=Gruppa 99 T30 backpack
-Information_Jpn=A thirty-liter assault backpack from Gruppa 99. A high-quality solution for conducting special raid operations.
+Name_Jpn=Gruppa 99 T30 バックパック
+Information_Jpn=Gruppa 99 社製の30Lアサルトバックパックで、軍事作戦を行う際に良い選択肢となるバックパックだ。

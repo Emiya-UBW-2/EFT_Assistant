@@ -1,5 +1,5 @@
 IDstr=544a5cde4bdc2d39388b456b
-Name=Flyye MBSS backpack
+Name=Flyye MBSS backpack (UCP)
 ShortName=MBSS
 Information_Eng=An extra durable backpack made from 1000D Cordura with a separate pocket for a water bladder and a MOLLE attachment system on the sides.
 Itemtype=backpack
@@ -8,5 +8,5 @@ height=4
 weight=1.100000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
-Name_Jpn=Flyye MBSS backpack
-Information_Jpn=An extra durable backpack made from 1000D Cordura with a separate pocket for a water bladder and a MOLLE attachment system on the sides.
+Name_Jpn=Flyye MBSSバックパック
+Information_Jpn=耐久性の高い1000デニール コーデュラナイロンで作られた、ウォーターパック収納用のポケットとサイドのMOLLEシステムが特徴のバックパックだ。

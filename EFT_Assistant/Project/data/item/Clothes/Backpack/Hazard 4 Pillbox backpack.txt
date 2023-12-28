@@ -1,5 +1,5 @@
 IDstr=60a2828e8689911a226117f9
-Name=Hazard 4 Pillbox backpack
+Name=Hazard 4 Pillbox backpack (Black)
 ShortName=Pillbox
 Information_Eng=A compact backpack for safe storage of fragile items, electronics and other valuables. Military modular webbing (MOLLE) is provided throughout on the sides, straps, and interior along with velcro panels to allow expansion with pouches, velcro i.d. patches, etc. Manufactured by Hazard 4.
 Itemtype=backpack
@@ -8,5 +8,5 @@ height=4
 weight=2.338000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
-Name_Jpn=Hazard 4 Pillbox backpack
-Information_Jpn=A compact backpack for safe storage of fragile items, electronics and other valuables. Military modular webbing (MOLLE) is provided throughout on the sides, straps, and interior along with velcro panels to allow expansion with pouches, velcro i.d. patches, etc. Manufactured by Hazard 4.
+Name_Jpn=Hazard 4 ピルボックス バックパック
+Information_Jpn=壊れやすいものや電子機器、貴重品などを安全に運ぶためのコンパクトなバックパック。MOLLEシステムがバックパックのサイドやストラップ、内部の至る場所に使われ、ポーチやベルクロパッチなどを取り付けられる。Hazard 4社製。

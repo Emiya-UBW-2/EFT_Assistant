@@ -1,5 +1,5 @@
 IDstr=5b39f8db5acfc40016387a1b
-Name=Vltor EMOD stock
+Name=AR-15 Vltor EMOD stock
 ShortName=EMOD
 Information_Eng=The EMOD buttstock designed for AR-15 weapon systems. Manufactured by Vltor.
 Itemtype=stock
@@ -8,7 +8,7 @@ height=1
 weight=0.390000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
-Recoil=-31.000000
+Recoil=-22.000000
 Ergonomics=9.000000
 accuracyModifier=0.000000
 Name_Jpn=Vltor EMOD stock

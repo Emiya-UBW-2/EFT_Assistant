@@ -1,0 +1,10 @@
+IDstr=6570e59b0b57c03ec90b970e
+Name=Aramid insert
+Itemtype=built-in-armor
+width=1
+height=1
+weight=0.000000
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=Aramid insert
+Information_Jpn=

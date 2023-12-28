@@ -21,7 +21,7 @@ ChildParts=[
 	Magpul AFG tactical foregrip (Olive Drab)/|
 	Magpul RVG foregrip (Black)/|
 	RTM Pillau tactical foregrip/|
-	TangoDown Stubby BGV-MK46K foregrip (Stealth Gray)/|
+	TangoDown Stubby BGV-MK46K foregrip (Stealth Grey)/|
 	Stark SE-5 Express Forward foregrip/|
 	TangoDown Stubby BGV-MK46K foregrip (Black)/|
 	Strike Industries Cobra Tactical foregrip/|
@@ -35,7 +35,13 @@ ChildParts=[
 	Zenit RK-2 tactical foregrip/|
 	Fortis Shift tactical foregrip/|
 	HK Sturmgriff foregrip/|
-	Hera Arms CQR tactical foregrip
+	Hera Arms CQR tactical foregrip/|
+	RTM Osovets P-2 tactical foregrip/|
+	RTM Osovets P-2 tactical foregrip (Khaki)/|
+	RTM Pillau tactical foregrip (Sand)/|
+	RTM Pillau P-2 tactical foregrip (Red)/|
+	Stark SE-5 Express Forward foregrip (FDE)/|
+	Strike Industries Cobra Tactical foregrip (FDE)
 ]
 Recoil=0.000000
 Ergonomics=0.000000

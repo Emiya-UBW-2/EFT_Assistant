@@ -23,7 +23,7 @@ NeedItem=[
 	Remington Model 700 7.62x51 bolt-action sniper riflex0/|
 	MP-18 7.62x54R single-shot riflex0/|
 	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
-	Molot VPO-215 "Gornostay" .366 TKM bolt-action riflex0
+	Molot Arms VPO-215 "Gornostay" .366 TKM bolt-action riflex0
 ]
 Task_Map=Reserve
 Task_Kill=[
@@ -38,7 +38,7 @@ NeedItem=[
 	Remington Model 700 7.62x51 bolt-action sniper riflex0/|
 	MP-18 7.62x54R single-shot riflex0/|
 	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
-	Molot VPO-215 "Gornostay" .366 TKM bolt-action riflex0
+	Molot Arms VPO-215 "Gornostay" .366 TKM bolt-action riflex0
 ]
 Task_Map=Shoreline
 Task_Kill=[
@@ -53,7 +53,7 @@ NeedItem=[
 	Remington Model 700 7.62x51 bolt-action sniper riflex0/|
 	MP-18 7.62x54R single-shot riflex0/|
 	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
-	Molot VPO-215 "Gornostay" .366 TKM bolt-action riflex0
+	Molot Arms VPO-215 "Gornostay" .366 TKM bolt-action riflex0
 ]
 Task_Map=Customs
 Task_Kill=[
@@ -68,7 +68,7 @@ NeedItem=[
 	Remington Model 700 7.62x51 bolt-action sniper riflex0/|
 	MP-18 7.62x54R single-shot riflex0/|
 	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
-	Molot VPO-215 "Gornostay" .366 TKM bolt-action riflex0
+	Molot Arms VPO-215 "Gornostay" .366 TKM bolt-action riflex0
 ]
 Task_Map=Lighthouse
 Task_Kill=[
@@ -83,7 +83,7 @@ NeedItem=[
 	Remington Model 700 7.62x51 bolt-action sniper riflex0/|
 	MP-18 7.62x54R single-shot riflex0/|
 	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
-	Molot VPO-215 "Gornostay" .366 TKM bolt-action riflex0
+	Molot Arms VPO-215 "Gornostay" .366 TKM bolt-action riflex0
 ]
 Task_Map=Streets of Tarkov
 Task_Kill=[
@@ -98,7 +98,7 @@ NeedItem=[
 	Remington Model 700 7.62x51 bolt-action sniper riflex0/|
 	MP-18 7.62x54R single-shot riflex0/|
 	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
-	Molot VPO-215 "Gornostay" .366 TKM bolt-action riflex0
+	Molot Arms VPO-215 "Gornostay" .366 TKM bolt-action riflex0
 ]
 Task_Map=Interchange
 Task_Kill=[
@@ -113,7 +113,7 @@ NeedItem=[
 	Remington Model 700 7.62x51 bolt-action sniper riflex0/|
 	MP-18 7.62x54R single-shot riflex0/|
 	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
-	Molot VPO-215 "Gornostay" .366 TKM bolt-action riflex0
+	Molot Arms VPO-215 "Gornostay" .366 TKM bolt-action riflex0
 ]
 
 [

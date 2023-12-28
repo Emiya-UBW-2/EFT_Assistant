@@ -1,0 +1,15 @@
+Name=SIG MCX SPEAR 6.8x51 assault rifle CQB
+Base=SIG MCX SPEAR 6.8x51 assault rifle
+Parts=AR-15 SIG M400 Reduced Angle Pistol Grip (Coyote Tan)
+Parts=AR-10 7.62x51 Lancer L7AWM 25-round magazine
+Parts=MCX SPEAR 6.8x51 upper receiver
+Parts=MCX SPEAR 6.8x51 330mm barrel
+Parts=MCX SPEAR Clutch-Lok QD 6.8x51 Shouldered Flash Hider
+Parts=MCX SPEAR Adjustable Gas Piston
+Parts=MCX SPEAR 11 inch M-LOK handguard
+Parts=Magpul M-LOK 2.5 inch rail
+Parts=Magpul MBUS Gen2 flip-up front sight (FDE)
+Parts=Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown)
+Parts=Magpul MBUS Gen2 flip-up rear sight (FDE)
+Parts=MPX/MCX PMM ULSS foldable stock
+Parts=MCX SPEAR charging handle

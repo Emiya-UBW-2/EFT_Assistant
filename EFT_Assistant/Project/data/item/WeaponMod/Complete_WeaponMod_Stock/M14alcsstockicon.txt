@@ -41,7 +41,8 @@ ChildParts=[
 	Trijicon RMR high profile mount/|
 	Trijicon RMR low profile mount/|
 	M14 SAGE International DCSB mount/|
-	ELCAN Specter HCO holographic sight
+	ELCAN Specter HCO holographic sight/|
+	Wilcox BOSS Xe reflex sight
 ]
 ChildParts=[
 	Holosun LS321 Tactical device/|
@@ -116,7 +117,7 @@ ChildParts=[
 	Insight WMX200 tactical flashlight/|
 	MAWL-C1+ tactical device
 ]
-Recoil=-9.000000
+Recoil=-6.000000
 Ergonomics=18.000000
 accuracyModifier=0.000000
 Name_Jpn=M14 SAGE International M14ALCS chassis

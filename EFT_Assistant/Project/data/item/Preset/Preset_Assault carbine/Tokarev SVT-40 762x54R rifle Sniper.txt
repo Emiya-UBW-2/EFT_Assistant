@@ -20,5 +20,5 @@ containsItems=[
 	SVT-40 Tokarev PU mountx1/|
 	PU 3.5x riflescopex1
 ]
-Name_Jpn=Tokarev SVT-40 7.62x54R rifle Sniper
+Name_Jpn=SVT-40 7.62x54R ライフル Sniper
 Information_Jpn=

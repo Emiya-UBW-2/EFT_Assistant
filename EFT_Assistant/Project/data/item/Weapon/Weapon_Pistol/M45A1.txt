@@ -17,8 +17,8 @@ ChildParts=[
 	M45A1 Mil-Tac GVT G10 side grips
 ]
 ChildParts=[
-	M1911A1 .45 ACP pistol slide/|
-	M45A1 .45 ACP pistol slide
+	M1911A1 pistol slide/|
+	M45A1 pistol slide
 ]
 ChildParts=[
 	M1911A1 .45 ACP 7-round magazine/|
@@ -61,11 +61,11 @@ SightRange=-100
 FireRate=30
 centerOfImpact=0.000000
 deviationCurve=2.250000
-recoilDispersion=14
+recoilDispersion=10
 recoilAngle=70
-cameraRecoil=0.013440
-cameraSnap=3.500000
+cameraRecoil=0.000000
+cameraSnap=6.000000
 deviationMax=11
-convergence=6.000000
+convergence=0.000000
 Name_Jpn=Colt M45A1 .45 ACP ピストル
 Information_Jpn=The MEU(SOC) pistol, ("Marine Expeditionary Unit"; "Special Operations Capable") officially designated the M45 MEUSOC, is a magazine-fed, recoil-operated, single-action, semiautomatic pistol chambered for the .45 ACP cartridge. It's a variant of the M1911, and has been the standard-issue side arm for the Force Recon Element of the United States Marine Corps' Marine Expeditionary Units since 1985. The improved M45A1 features several changes to the original M1911A1 design. One feature is the dual recoil spring system that spreads out the recoil force of the .45 ACP round by lowering the peak force of the recoil pulse. It also has 3-dot tritium night sights, a 5-inch national match barrel, ambidextrous safety, a picatinny rail, and a desert tan Cerakote finish.

@@ -1,20 +1,20 @@
 IDstr=opsksuas0000000000000001
-Name=Simonov OP-SKS 7.62x39 carbine (Hunting Rifle Version) UAS
+Name=Molot Arms Simonov OP-SKS 7.62x39 carbine UAS
 ShortName=OP-SKS UAS
 Itemtype=assault-carbine
-width=5
+width=3
 height=2
-weight=4.004000
+weight=1.763000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
-	Simonov OP-SKS 7.62x39 carbine (Hunting Rifle Version)x1/|
+	Molot Arms Simonov OP-SKS 7.62x39 carbinex1/|
 	SKS FAB Defense UAS chassisx1/|
 	SKS rear sightx1/|
 	SKS 7.62x39 10-round internal box magazinex1/|
 	OP-SKS dovetail mountx1/|
 	SKS/VZ-58 FAB Defense AG-58 pistol gripx1
 ]
-Name_Jpn=Simonov OP-SKS 7.62x39 carbine (Hunting Rifle Version) UAS
+Name_Jpn=OP-SKS 7.62x39 カービン (狩猟ライフルバージョン) UAS
 Information_Jpn=

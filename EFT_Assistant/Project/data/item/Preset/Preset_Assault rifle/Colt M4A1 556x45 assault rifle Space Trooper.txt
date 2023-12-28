@@ -26,8 +26,8 @@ containsItems=[
 	Hera Arms CQR tactical foregripx1/|
 	Vltor CASV KeyMod 4 inch railx1/|
 	SureFire XC1 tactical flashlightx1/|
-	Colt Carbine buffer tubex1/|
+	AR-15 Colt Carbine buffer tubex1/|
 	AR-15 Badger Ordnance Tactical Charging Handle Latchx1
 ]
-Name_Jpn=Colt M4A1 5.56x45 assault rifle Space Trooper
+Name_Jpn=M4A1 5.56x45 アサルトライフル Space Trooper
 Information_Jpn=

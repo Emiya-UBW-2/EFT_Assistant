@@ -12,7 +12,7 @@ containsItems=[
 	SWORD International Mk-18 .338 LM marksman riflex1/|
 	Hogue OverMolded Rubber Grip (Black)x1/|
 	Mk-18 .338 LM 10-round magazinex1/|
-	Colt Carbine buffer tubex1/|
+	AR-15 Colt Carbine buffer tubex1/|
 	AR-15 B5 Systems Precision stockx1/|
 	Mk-18 .338 LM upper receiverx1/|
 	Mk-18 .338 LM 24 inch barrelx1/|

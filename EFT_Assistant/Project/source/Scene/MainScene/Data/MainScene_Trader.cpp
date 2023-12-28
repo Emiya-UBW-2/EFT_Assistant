@@ -160,7 +160,9 @@ namespace FPS_n2 {
 	void TraderJsonData::OutputDataSub(std::ofstream& outputfile) noexcept {
 		{
 			auto* ptr = DataBase::Instance()->GetTraderData()->FindPtr(DataBase::Instance()->GetTraderData()->FindID(this->m_name));
-			outputfile << "Color=[" + std::to_string(ptr->GetColorRGB(0)) + DIV_STR + std::to_string(ptr->GetColorRGB(1)) + DIV_STR + std::to_string(ptr->GetColorRGB(2)) + "]\n";
+			if (ptr) {
+				outputfile << "Color=[" + std::to_string(ptr->GetColorRGB(0)) + DIV_STR + std::to_string(ptr->GetColorRGB(1)) + DIV_STR + std::to_string(ptr->GetColorRGB(2)) + "]\n";
+			}
 		}
 		outputfile << "PayItem=" + DataBase::Instance()->GetItemData()->FindPtr(this->PayItem)->GetName() + "\n";
 		for (auto& L2 : this->m_LvData) {

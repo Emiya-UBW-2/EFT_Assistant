@@ -1,11 +1,11 @@
 IDstr=5c0e625a86f7742d77340f62
-Name=BNTI Zhuk-6a body armor
-ShortName=Zhuk-6a
-Information_Eng=A class 6 (Russian GOST) protection armored vest designed for assault units. Based on the Gzhel armor, serving as its lightweight copy.
+Name=BNTI Zhuk body armor (Digital Flora)
+ShortName=Zhuk EMR
+Information_Eng=An armored vest designed for assault units. Based on the Gzhel armor, serving as its lightweight copy.
 Itemtype=armor
 width=3
 height=3
-weight=9.000000
+weight=2.970000
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmor
 Name_Jpn=BNTI Zhuk-6a body armor

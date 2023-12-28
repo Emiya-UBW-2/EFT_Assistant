@@ -46,7 +46,8 @@ ChildParts=[
 	VOMZ Pilad 043-02 dovetail mount/|
 	Zenit B-13 "Klassika" dovetail rail platform/|
 	Zenit B-13V "Klassika" dovetail rail platform/|
-	SAG Bit low profile dovetail sidemount
+	SAG Bit low profile dovetail sidemount/|
+	Axion Kobra EKP-1S-03 reflex sight (Dovetail)
 ]
 ChildParts=[
 	BelOMO PSO-1 4x24 scope/|
@@ -55,17 +56,17 @@ ChildParts=[
 	SVD SAG low profile sidemount
 ]
 Recoil=80.000000
-RecoilHorizontal=300.000000
+RecoilHorizontal=270.000000
 Ergonomics=46.000000
 SightRange=-100
 FireRate=900
 centerOfImpact=0.100000
 deviationCurve=1.900000
-recoilDispersion=20
+recoilDispersion=13
 recoilAngle=90
-cameraRecoil=0.076800
+cameraRecoil=0.000000
 cameraSnap=3.000000
 deviationMax=15
-convergence=1.700000
+convergence=0.000000
 Name_Jpn=AS VAL 9x39 特殊アサルトライフル
 Information_Jpn=AS VAL（Avtomat Specialniy VAL - "特殊自動小銃 VAL"）は、特殊部隊向けに設計されていて、内蔵された消音器を備えた消音自動小銃だ。VSS ヴィントレスを基に、ロシアの防衛関連企業ツニートチマッシ（TsNIITochMash）で開発された。

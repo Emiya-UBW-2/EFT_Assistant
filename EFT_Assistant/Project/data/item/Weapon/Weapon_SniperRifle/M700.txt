@@ -38,7 +38,7 @@ ChildParts=[
 	M700 extended multi-slot Weaver rail base
 ]
 Recoil=199.000000
-RecoilHorizontal=745.000000
+RecoilHorizontal=670.000000
 Ergonomics=33.000000
 SightRange=-100
 FireRate=30
@@ -46,9 +46,9 @@ centerOfImpact=0.011000
 deviationCurve=1.000000
 recoilDispersion=10
 recoilAngle=90
-cameraRecoil=0.144000
+cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=33
-convergence=1.500000
+convergence=0.000000
 Name_Jpn=Remington Model 700 7.62x51 bolt-action sniper rifle
 Information_Jpn=The Remington Model 700 is a series of bolt-action centerfire rifles manufactured by Remington Arms since 1962.

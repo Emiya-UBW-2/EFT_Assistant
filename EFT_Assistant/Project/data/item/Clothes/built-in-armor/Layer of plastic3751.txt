@@ -1,0 +1,10 @@
+IDstr=657ba2eef58ba5a625010798
+Name=Layer of plastic
+Itemtype=built-in-armor
+width=1
+height=1
+weight=0.000000
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=Layer of plastic
+Information_Jpn=

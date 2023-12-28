@@ -1,5 +1,5 @@
 IDstr=6034d0230ca681766b6a0fb5
-Name=CSA chest rig
+Name=CSA chest rig (Black)
 ShortName=CSA
 Information_Eng=The simplest chest rig, sewn hastily from dubious materials. Designed for airsoft. Military use of this model is possible, but not recommended.
 Itemtype=chest-rig

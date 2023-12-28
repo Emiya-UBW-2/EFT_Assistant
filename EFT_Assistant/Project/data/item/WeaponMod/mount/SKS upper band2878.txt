@@ -1,0 +1,22 @@
+IDstr=634f04d82e5def262d0b30c6
+Name=SKS upper band
+ShortName=SKS UB
+Information_Eng=A standard upper band for SKS manufactured by TOZ, allows installation of rear sights.
+Itemtype=mount
+width=1
+height=1
+weight=0.250000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	OP-SKS gas tube/|
+	SKS gas tube
+]
+ChildParts=[
+	SKS rear sight
+]
+Recoil=0.000000
+Ergonomics=-1.000000
+accuracyModifier=0.000000
+Name_Jpn=SVDS upper band
+Information_Jpn=A standard upper band for SVDS sniper rifles and compatibles, allows installation of rear sights.

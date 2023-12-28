@@ -1,0 +1,12 @@
+IDstr=657b22485f444d6dff0c6c2f
+Name=6B23-2 ballistic plate (Back)
+ShortName=6B23-2 Back
+Information_Eng=An armored steel plate for torso rear pouch of 6b23-1, 6b23-2, Korund and Bagariy bulletproof vests.
+Itemtype=armor-plate
+width=2
+height=2
+weight=3.500000
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=6B23-2 ballistic plate (Back)
+Information_Jpn=An armored steel plate for torso rear pouch of 6b23-1, 6b23-2, Korund and Bagariy bulletproof vests.

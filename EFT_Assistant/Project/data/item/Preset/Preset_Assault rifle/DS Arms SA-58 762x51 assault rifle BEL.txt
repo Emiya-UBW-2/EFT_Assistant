@@ -19,5 +19,5 @@ containsItems=[
 	FAL standard dust coverx1/|
 	SA-58 folding stockx1
 ]
-Name_Jpn=DS Arms SA-58 7.62x51 assault rifle BEL
+Name_Jpn=SA-58 7.62x51 アサルトライフル BEL
 Information_Jpn=

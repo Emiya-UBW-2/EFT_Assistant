@@ -1,0 +1,17 @@
+IDstr=6576670586f11bca4106d36f
+Name=LBT-6094A Slick Plate Carrier (Coyote Tan) Default
+ShortName=Slick Default
+Itemtype=armor
+width=3
+height=3
+weight=11.500000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	LBT-6094A Slick Plate Carrier (Coyote Tan)x1/|
+	Aramid insertx1/|
+	Kiba Arms Steel ballistic platex2
+]
+Name_Jpn=LBT-6094A Slick Plate Carrier (Tan) デフォルト
+Information_Jpn=

@@ -31,7 +31,9 @@ ChildParts=[
 	AK FAB Defense AGR-47 pistol grip/|
 	AK TangoDown Battle Grip pistol grip/|
 	AK TangoDown Battle Grip pistol grip (FDE)/|
-	AK Mission First Tactical ENGAGE AK47 pistol grip
+	AK Mission First Tactical ENGAGE AK47 pistol grip/|
+	AK CG101 AR-type pistol grip adapter/|
+	AK PUFGUN SG-M2 pistol grip
 ]
 ChildParts=[
 	AK-74M CAA AKTS AK74 buffer tube/|
@@ -68,17 +70,17 @@ ChildParts=[
 	PP-19-01 "Vityaz" gas tube
 ]
 Recoil=42.000000
-RecoilHorizontal=274.000000
+RecoilHorizontal=246.000000
 Ergonomics=32.000000
 SightRange=-100
 FireRate=650
 centerOfImpact=0.070000
 deviationCurve=1.750000
-recoilDispersion=15
+recoilDispersion=10
 recoilAngle=90
-cameraRecoil=0.043200
+cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=17
-convergence=1.000000
+convergence=0.000000
 Name_Jpn=Saiga-9 9x19 carbine
 Information_Jpn=The Saiga-9 carbine was developed as a semi-automatic variant of the PP-19-01 Vityaz SMG for civilian market and designed for purposes of shooting sports and plinking.

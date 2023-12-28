@@ -1,0 +1,12 @@
+IDstr=65818e4e566d2de69901b1b1
+Name=ShPM firefighter helmet built-in face shield
+ShortName=ShPM FS
+Information_Eng=A built-in heatproof face shield for the ShPM firefighter helmet, designed to protect the user's face from fire and heat.
+Itemtype=built-in-armor
+width=1
+height=1
+weight=0.000000
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=ShPM firefighter helmet built-in face shield
+Information_Jpn=A built-in heatproof face shield for the ShPM firefighter helmet, designed to protect the user's face from fire and heat.

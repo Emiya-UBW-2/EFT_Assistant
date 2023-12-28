@@ -81,9 +81,12 @@ ChildParts=[
 	UNV DLOC-IRD sight mount/|
 	SwampFox Trihawk Prism Scope 3x30/|
 	Armasight Zeus universal base/|
-	SIG Sauer ROMEO7 1x30 reflex sight (prototype)/|
+	SIG Sauer ROMEO7 1x30 reflex sight (Prototype)/|
 	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope/|
-	ELCAN Specter HCO holographic sight
+	ELCAN Specter HCO holographic sight/|
+	GBRS Aimpoint Hydra Mount Kit (Black)/|
+	GBRS Aimpoint Hydra Mount Kit (FDE)/|
+	Wilcox BOSS Xe reflex sight
 ]
 ChildParts=[
 	Holosun LS321 Tactical device/|
@@ -113,7 +116,8 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight/|
-	MAWL-C1+ tactical device
+	MAWL-C1+ tactical device/|
+	Zenit KR-2 old gen mount
 ]
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
@@ -135,7 +139,8 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight/|
-	MAWL-C1+ tactical device
+	MAWL-C1+ tactical device/|
+	Zenit KR-2 old gen mount
 ]
 ChildParts=[
 	HK MP7A1 stock/|
@@ -158,7 +163,7 @@ ChildParts=[
 	Strike Industries Cobra Tactical foregrip/|
 	TangoDown Stubby BGV-MK46K foregrip (Black)/|
 	TangoDown Stubby BGV-MK46K foregrip (FDE)/|
-	TangoDown Stubby BGV-MK46K foregrip (Stealth Gray)/|
+	TangoDown Stubby BGV-MK46K foregrip (Stealth Grey)/|
 	Tactical Dynamics Skeletonized Foregrip/|
 	Viking Tactics UVG tactical foregrip/|
 	Zenit RK-1 tactical foregrip on B-25U mount/|
@@ -167,20 +172,26 @@ ChildParts=[
 	Zenit RK-2 tactical foregrip/|
 	Zenit RK-4 tactical foregrip/|
 	Zenit RK-5 tactical foregrip/|
-	Zenit RK-6 tactical foregrip
+	Zenit RK-6 tactical foregrip/|
+	RTM Osovets P-2 tactical foregrip/|
+	RTM Osovets P-2 tactical foregrip (Khaki)/|
+	RTM Pillau tactical foregrip (Sand)/|
+	RTM Pillau P-2 tactical foregrip (Red)/|
+	Stark SE-5 Express Forward foregrip (FDE)/|
+	Strike Industries Cobra Tactical foregrip (FDE)
 ]
 Recoil=50.000000
-RecoilHorizontal=198.000000
+RecoilHorizontal=178.000000
 Ergonomics=65.000000
 SightRange=-100
 FireRate=950
 centerOfImpact=0.250000
 deviationCurve=2.250000
-recoilDispersion=17
+recoilDispersion=11
 recoilAngle=90
-cameraRecoil=0.038400
+cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=11
-convergence=2.100000
-Name_Jpn=HK MP7A2 4.6x30 submachine gun
-Information_Jpn=MP7A2 is a further modification of the MP7A1 SMG. The key feature of this submachine gun is the replacement of the standard folding foregrip for a Picatinny rail, allowing mounting of various vertical foregrips. Manufactured by Heckler & Koch.
+convergence=0.000000
+Name_Jpn=MP7A2 4.6x30 サブマシンガン
+Information_Jpn=MP7A2 は MP7A1 の改良型で、主な特徴は、折りたたみ式のフォアグリップをピカティニーレールに換え、バーチカルフォアグリップを取り付けることを可能にした点だ。製造はヘッケラー&コッホ（Heckler & Koch）によって行われている。

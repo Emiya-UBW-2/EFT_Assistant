@@ -1,0 +1,19 @@
+IDstr=65266fd43341ed9aa903dd56
+Name=RPD 7.62x39 sawed-off 350mm barrel
+ShortName=RPD 350mm
+Information_Eng=A 350mm barrel shortened by an unknown artisan for the RPD machine gun.
+Itemtype=barrel
+width=3
+height=1
+weight=1.100000
+fleaMarketFee=0
+propertiestype=ItemPropertiesBarrel
+ChildParts=[
+	RPD barrel thread protector
+]
+Recoil=-2.000000
+Ergonomics=-3.000000
+centerOfImpact=0.062000
+deviationMax=23
+Name_Jpn=RPD 7.62x39 sawed-off 350mm barrel
+Information_Jpn=A 350mm barrel shortened by an unknown artisan for the RPD machine gun.

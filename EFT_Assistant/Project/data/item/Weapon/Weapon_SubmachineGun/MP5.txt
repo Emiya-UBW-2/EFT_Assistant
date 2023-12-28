@@ -21,17 +21,17 @@ ChildParts=[
 	HK MP5 cocking handle
 ]
 Recoil=56.000000
-RecoilHorizontal=306.000000
+RecoilHorizontal=275.000000
 Ergonomics=50.000000
 SightRange=-100
 FireRate=800
 centerOfImpact=0.200000
 deviationCurve=3.500000
-recoilDispersion=13
+recoilDispersion=8
 recoilAngle=90
-cameraRecoil=0.040800
+cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=7
-convergence=2.000000
-Name_Jpn=HK MP5 9x19 submachine gun (Navy 3 Round Burst)
+convergence=0.000000
+Name_Jpn=MP5 9x19 サブマシンガン
 Information_Jpn=3点バーストを搭載した"Navy"タイプのHK製MP5サブマシンガン。サブマシンガンの原型として高く評価されている銃で、GSG9のような特殊部隊が使用する武器として知られている。また映画やゲームで数多く登場したことで有名となった。

@@ -52,17 +52,17 @@ ChildParts=[
 	HK G36 sight mount
 ]
 Recoil=107.000000
-RecoilHorizontal=367.000000
+RecoilHorizontal=330.000000
 Ergonomics=60.000000
 SightRange=-100
 FireRate=750
 centerOfImpact=0.010000
 deviationCurve=1.350000
-recoilDispersion=10
+recoilDispersion=8
 recoilAngle=90
-cameraRecoil=0.076800
+cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=23
-convergence=1.450000
-Name_Jpn=HK G36 5.56x45 assault rifle
-Information_Jpn=G36 is a 5.56x45mm assault rifle designed in the early 1990s by German company Heckler & Koch as a replacement for the heavier 7.62x51mm G3 battle rifle. It was accepted into service with the Bundeswehr in 1997, replacing the G3. Since then, it has also been a popular export, and the G36 has seen active service in military and police units in several countries, including Germany, Spain, and the United Kingdom.
+convergence=0.000000
+Name_Jpn=G36 5.56x45 アサルトライフル
+Information_Jpn=G36 は、1990年代初頭にドイツの企業であるヘッケラー＆コッホによって設計された、7.62x51mm 弾を使用する重い G3 バトルライフルの代替として開発された5.56x45mm弾を使用するアサルトライフルだ。1997年にはドイツ連邦軍に制式武器として採用され、G3 の代わりとして使われ、G36 は多くの国に輸出され、ドイツ、スペイン、イギリスなど、いくつかの国の軍隊および警察部隊で活躍している。

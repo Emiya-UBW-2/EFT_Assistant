@@ -1,11 +1,11 @@
 IDstr=60a3c70cde5f453f634816a3
 Name=CQC Osprey MK4A plate carrier (Assault, MTP)
 ShortName=Osprey MK4A (A)
-Information_Eng=The Osprey plate carrier is actively used by the British army and specialists. The Assault preset is provided with heavy armor plates and a maximum of pouches for ammunition and grenades.
+Information_Eng=The Osprey plate carrier is actively used by the British army and specialists. The Assault preset features a large amount of pouches for ammunition and grenades.
 Itemtype=chest-rig
 width=4
 height=3
-weight=10.700000
+weight=6.400000
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
 Name_Jpn=CQC Osprey MK4A プレートキャリア (Assault, MTP)

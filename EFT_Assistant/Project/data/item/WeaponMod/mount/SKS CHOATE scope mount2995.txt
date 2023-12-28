@@ -1,0 +1,48 @@
+IDstr=6415d33eda439c6a97048b5b
+Name=SKS CHOATE scope mount
+ShortName=CHOATE
+Information_Eng=A mount for installing various sights on the SKS carbine. Manufactured by CHOATE.
+Itemtype=mount
+width=1
+height=1
+weight=0.175000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Leupold Mark 4 HAMR 4x24 DeltaPoint hybrid assault scope/|
+	Valday PS-320 1/6x scope/|
+	Axion Kobra EKP-8-18 reflex sight/|
+	OKP-7 reflex sight/|
+	Valday PK-120 (1P87) holographic sight/|
+	Valday Krechet reflex sight/|
+	FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescope/|
+	Torrey Pines Logic T12W 30Hz thermal reflex sight/|
+	Armasight Vulcan universal base/|
+	JP Enterprises Flat-Top 30mm ring scope mount/|
+	Nightforce Magmount 30mm ring scope mount/|
+	Recknagel Era-Tac 30mm ring scope mount/|
+	Recknagel Era-Tac 34mm ring scope mount/|
+	Leapers UTG 25mm ring scope mount
+]
+Conflict=[
+	BelOMO PSO-1 4x24 scope/|
+	BelOMO PSO-1M2-1 4x24 scope/|
+	BelOMO PSO-1M2 4x24 scope/|
+	Axion Kobra dovetail mount/|
+	VPO-102 Arbalet mount/|
+	SVD CAA XD RGL receiver mount/|
+	KMZ 1P59 dovetail mount/|
+	TOZ-106 rail scope mount/|
+	NPZ 1P78-1 dovetail mount/|
+	VOMZ Pilad 043-02 dovetail mount/|
+	SAG AK dovetail sidemount/|
+	SAG Bit low profile dovetail sidemount/|
+	Zenit B-13 "Klassika" dovetail rail platform/|
+	SVD SAG low profile sidemount/|
+	Zenit B-13V "Klassika" dovetail rail platform
+]
+Recoil=0.000000
+Ergonomics=-1.000000
+accuracyModifier=0.000000
+Name_Jpn=SKS CHOATE scope mount
+Information_Jpn=A mount for installing various sights on the SKS carbine. Manufactured by CHOATE.

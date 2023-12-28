@@ -1,0 +1,12 @@
+IDstr=655c66e40b2de553b618d4b8
+Name=Politician Mutkevich figurine
+ShortName=Mutkevich
+Information_Eng=The Tarko collectible figure of a politician called Mutkevich. The unknown craftsman was impressed with how the former politician and current fighter of the Arena cleanup crew from is fighting for his life.
+Itemtype=jewelry
+width=1
+height=2
+weight=0.200000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=Politician Mutkevich figurine
+Information_Jpn=The Tarko collectible figure of a politician called Mutkevich. The unknown craftsman was impressed with how the former politician and current fighter of the Arena cleanup crew from is fighting for his life.

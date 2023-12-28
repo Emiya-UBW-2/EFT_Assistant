@@ -1,5 +1,5 @@
 IDstr=5ab8dab586f77441cd04f2a2
-Name=WARTECH MK3 TV-104 chest rig
+Name=WARTECH MK3 TV-104 chest rig (MultiCam)
 ShortName=MK3 TV-104
 Information_Eng=This chest rig platform is designed for placing equipment in the chest and abdomen areas, with an open back. Includes integrated pouches, designed for 8 magazines. Can be used both separately and on top of the armor vest. Manufactured by WARTECH.
 Itemtype=chest-rig

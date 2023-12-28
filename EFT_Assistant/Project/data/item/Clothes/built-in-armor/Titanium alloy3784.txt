@@ -1,0 +1,10 @@
+IDstr=657bc2c5a1c61ee0c3036333
+Name=Titanium alloy
+Itemtype=built-in-armor
+width=1
+height=1
+weight=0.000000
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=Titanium alloy
+Information_Jpn=

@@ -1,0 +1,15 @@
+IDstr=6516e9bc5901745209404287
+Name=Daniel Defense TCS 12mm Buttpad 
+ShortName=TCS 12
+Information_Eng=The 12mm Thicker Convex Shape Buttpad for Daniel Defense buttstocks. Manufactured by Daniel Defense.
+Itemtype=stock
+width=1
+height=1
+weight=0.055000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=-1.000000
+Ergonomics=0.000000
+accuracyModifier=0.000000
+Name_Jpn=Daniel Defense TCS 12mm Buttpad 
+Information_Jpn=The 12mm Thicker Convex Shape Buttpad for Daniel Defense buttstocks. Manufactured by Daniel Defense.

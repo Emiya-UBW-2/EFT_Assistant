@@ -1,0 +1,15 @@
+IDstr=6513f13a8cb24472490ee32f
+Name=RPD wooden pistol grip
+ShortName=RPD PG
+Information_Eng=A standard-issue wooden pistol grip for the RPD machine gun. Manufactured by V.A. Degtyarev Plant.
+Itemtype=pistol-grip
+width=1
+height=1
+weight=0.060000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=0.000000
+Ergonomics=2.000000
+accuracyModifier=0.000000
+Name_Jpn=RPD wooden pistol grip
+Information_Jpn=A standard-issue wooden pistol grip for the RPD machine gun. Manufactured by V.A. Degtyarev Plant.

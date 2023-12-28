@@ -8,5 +8,5 @@ height=6
 weight=1.632000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
-Name_Jpn=Eberlestock F5 Switchblade backpack (Dry Earth)
+Name_Jpn=Eberlestock F5 スイッチブレード バックパック (ドライアース)
 Information_Jpn=モダンで高品質かつ省スペースなバックパック。あらゆる状況下での作戦行動を想定している。

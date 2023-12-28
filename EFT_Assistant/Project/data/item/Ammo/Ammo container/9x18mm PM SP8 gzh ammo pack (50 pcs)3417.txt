@@ -1,0 +1,12 @@
+IDstr=65702639bfc87b3a3409325c
+Name=9x18mm PM SP8 gzh ammo pack (50 pcs)
+ShortName=SP8
+Information_Eng=A box of 9x18mm PM SP8 gzh cartridges, 50 pieces.
+Itemtype=ammo-container
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=9x18mm PM SP8 gzh ammo pack (50 pcs)
+Information_Jpn=A box of 9x18mm PM SP8 gzh cartridges, 50 pieces.

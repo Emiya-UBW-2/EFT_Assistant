@@ -1,0 +1,12 @@
+IDstr=6570266bc5d7d4cb4d078594
+Name=5.56x45mm MK 318 Mod 0 (SOST) ammo pack (100 pcs)
+ShortName=SOST
+Information_Eng=A box of 5.56x45mm MK 318 Mod 0 (SOST) cartridges, 100 pieces.
+Itemtype=ammo-container
+width=2
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=5.56x45mm MK 318 Mod 0 (SOST) ammo pack (100 pcs)
+Information_Jpn=A box of 5.56x45mm MK 318 Mod 0 (SOST) cartridges, 100 pieces.

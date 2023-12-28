@@ -1,5 +1,5 @@
 IDstr=6477772ea8a38bb2050ed4db
-Name=SIG Sauer ROMEO7 1x30 reflex sight (prototype)
+Name=SIG Sauer ROMEO7 1x30 reflex sight (Prototype)
 ShortName=ROMEO7
 Information_Eng=An early prototype of the ROMEO7 1x30 reflex sight. Manufactured by SIG Sauer.
 Itemtype=reflex-sight

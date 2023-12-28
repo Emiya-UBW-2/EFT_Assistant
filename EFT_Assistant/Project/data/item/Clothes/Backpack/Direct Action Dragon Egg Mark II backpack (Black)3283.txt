@@ -1,0 +1,12 @@
+IDstr=656f198fb27298d6fd005466
+Name=Direct Action Dragon Egg Mark II backpack (Black)
+ShortName=Dragon Egg MKII
+Information_Eng=A lightweight and versatile backpack with a volume of over 25 liters, designed for military and law enforcement personnel. 
+Itemtype=backpack
+width=5
+height=5
+weight=2.950000
+fleaMarketFee=0
+propertiestype=ItemPropertiesBackpack
+Name_Jpn=Direct Action Dragon Egg Mark II backpack (Black)
+Information_Jpn=A lightweight and versatile backpack with a volume of over 25 liters, designed for military and law enforcement personnel. 

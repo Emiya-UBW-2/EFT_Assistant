@@ -1,0 +1,12 @@
+IDstr=656df4fec921ad01000481a2
+Name=Pack of instant noodles
+ShortName=Noodles
+Information_Eng=A pack of instant noodles. No hot water? Too bad. Eat it dry.
+Itemtype=food
+width=1
+height=1
+weight=0.090000
+fleaMarketFee=0
+propertiestype=ItemPropertiesFoodDrink
+Name_Jpn=Pack of instant noodles
+Information_Jpn=A pack of instant noodles. No hot water? Too bad. Eat it dry.

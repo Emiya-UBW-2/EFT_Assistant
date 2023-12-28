@@ -1,0 +1,16 @@
+IDstr=657bc54eb588f345450a6d56
+Name=TSh-4M-L soft tank crew helmet Default
+ShortName=Tank helmet Default
+Itemtype=headwear
+width=2
+height=2
+weight=0.900000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	TSh-4M-L soft tank crew helmetx1/|
+	Layers of aramid fiberx1/|
+]
+Name_Jpn=TSh-4M-L soft tank crew helmet デフォルト
+Information_Jpn=

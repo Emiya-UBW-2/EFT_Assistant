@@ -1,0 +1,12 @@
+IDstr=657026451419851aef03e733
+Name=5.56x45mm FMJ ammo pack (100 pcs)
+ShortName=FMJ
+Information_Eng=A box of 5.56x45mm FMJ cartridges, 100 pieces.
+Itemtype=ammo-container
+width=2
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=5.56x45mm FMJ ammo pack (100 pcs)
+Information_Jpn=A box of 5.56x45mm FMJ cartridges, 100 pieces.

@@ -1,0 +1,12 @@
+IDstr=6570240a1419851aef03e6f7
+Name=.45 ACP Lasermatch FMJ ammo pack (50 pcs)
+ShortName=Laser-FMJ
+Information_Eng=A box of .45 ACP Lasermatch FMJ cartridges, 50 pieces.
+Itemtype=ammo-container
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=.45 ACP Lasermatch FMJ ammo pack (50 pcs)
+Information_Jpn=A box of .45 ACP Lasermatch FMJ cartridges, 50 pieces.

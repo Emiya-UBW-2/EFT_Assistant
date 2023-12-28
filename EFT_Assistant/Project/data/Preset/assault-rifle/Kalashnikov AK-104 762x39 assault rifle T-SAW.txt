@@ -12,6 +12,6 @@ Parts=AK FAB Defense PDC dust cover
 Parts=FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescope
 Parts=AK-105 rear sight (6P44 Sb.1-30)
 Parts=AK-74M CAA AKTS AK74 buffer tube
-Parts=Strike Industries Viper Mod 1 stock
+Parts=AR-15 Strike Industries Viper Mod 1 stock
 Parts=AK 7.62x39 X Products X-47 50-round drum magazine
 Parts=AK Zenit RP-1 charging handle

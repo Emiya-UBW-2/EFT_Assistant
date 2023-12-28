@@ -1,0 +1,13 @@
+IDstr=6582dbe43a2e5248357dbe9a
+Name="Negotiation" room key
+ShortName=Negotiations
+Information_Eng=A key to the room for important meetings inside one of the city offices.
+Itemtype=mechanical-key
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=ItemPropertiesKey
+uses=40
+Name_Jpn="Negotiation" room key
+Information_Jpn=A key to the room for important meetings inside one of the city offices.

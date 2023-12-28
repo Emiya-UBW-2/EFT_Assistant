@@ -47,17 +47,17 @@ DogTagLv=0
 
 [
 	TaskType=shoot
-	TaskText=Eliminate Scavs while using a 12ga shotgun on Woods
+	TaskText=Eliminate Scavs while using a 12ga shotgun on Lighthouse
 	TaskOptional=false
 ]
 [
 	TaskType=shoot
-	TaskText=Eliminate PMC operatives while wearing a balaclava (any type) and Scav vest on Shoreline
+	TaskText=Eliminate PMC operatives while wearing a balaclava and Scav vest on Lighthouse
 	TaskOptional=false
 ]
 [
 	TaskType=findItem
-	TaskText=Find Bars A-2607 95H18 knives in raid
+	TaskText=Find Bars A-2607 95Kh18 knives in raid
 	TaskOptional=false
 ]
 [

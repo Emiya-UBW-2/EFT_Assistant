@@ -36,18 +36,18 @@ ChildParts=[
 	M870 Leapers UTG PRO MTU-028SG rail/|
 	M870 XS SHOTRAIL rail with Ghost Ring rear sight
 ]
-Recoil=442.000000
-RecoilHorizontal=650.000000
+Recoil=397.000000
+RecoilHorizontal=471.000000
 Ergonomics=45.000000
 SightRange=-100
 FireRate=30
 centerOfImpact=0.400000
 deviationCurve=2.500000
-recoilDispersion=15
+recoilDispersion=10
 recoilAngle=90
-cameraRecoil=0.144000
+cameraRecoil=0.000000
 cameraSnap=2.600000
 deviationMax=10
-convergence=1.800000
+convergence=0.000000
 Name_Jpn=Remington Model 870 12ga pump-action shotgun
 Information_Jpn=Remington Model 870はRemington Arms Company, LLC製のポンプアクションショットガンだ。射撃競技、狩猟、自衛のために民間でも使われている他、世界中の法執行機関や軍隊でも使われている。

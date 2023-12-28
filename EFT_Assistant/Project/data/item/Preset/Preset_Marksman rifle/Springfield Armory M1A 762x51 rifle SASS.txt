@@ -13,8 +13,8 @@ containsItems=[
 	M1A 7.62x51 20-round magazinex1/|
 	M14 TROY S.A.S.S. Chassis stockx1/|
 	AR-15 Damage Industries ECS pistol grip (FDE)x1/|
-	Colt Carbine buffer tubex1/|
-	Magpul MOE Carbine stock (FDE)x1/|
+	AR-15 Colt Carbine buffer tubex1/|
+	AR-15 Magpul MOE Carbine stock (FDE)x1/|
 	M1A 7.62x51 22 inch barrelx1/|
 	M14 Yankee Hill Phantom 7.62x51 flash hiderx1
 ]

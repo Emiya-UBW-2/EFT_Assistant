@@ -44,7 +44,8 @@ ChildParts=[
 	Trijicon RMR high profile mount/|
 	Trijicon RMR low profile mount/|
 	ELCAN Specter HCO holographic sight/|
-	MAWL-C1+ tactical device
+	MAWL-C1+ tactical device/|
+	Wilcox BOSS Xe reflex sight
 ]
 Recoil=0.000000
 Ergonomics=-1.000000

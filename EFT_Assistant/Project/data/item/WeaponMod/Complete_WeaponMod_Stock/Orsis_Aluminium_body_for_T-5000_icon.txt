@@ -23,7 +23,7 @@ Conflict=[
 	M700 7.62x51 Wyatt's Outdoor 10-round magazine/|
 	M700 7.62x51 Wyatt's Outdoor 5-round magazine
 ]
-Recoil=-2.000000
+Recoil=-1.000000
 Ergonomics=16.000000
 accuracyModifier=0.000000
 Name_Jpn=ORSIS T-5000M aluminium body

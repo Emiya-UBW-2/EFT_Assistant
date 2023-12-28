@@ -67,7 +67,8 @@ ChildParts=[
 	FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescope/|
 	Torrey Pines Logic T12W 30Hz thermal reflex sight/|
 	Armasight Zeus universal base/|
-	ELCAN Specter HCO holographic sight
+	ELCAN Specter HCO holographic sight/|
+	Wilcox BOSS Xe reflex sight
 ]
 ChildParts=[
 	Monstrum Tactical Vertical Fore Grip KeyMod/|

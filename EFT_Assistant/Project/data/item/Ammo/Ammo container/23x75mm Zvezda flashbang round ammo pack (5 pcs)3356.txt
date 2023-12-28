@@ -1,0 +1,12 @@
+IDstr=657024bdc5d7d4cb4d078564
+Name=23x75mm Zvezda flashbang round ammo pack (5 pcs)
+ShortName=Zvezda
+Information_Eng=A box of 23x75mm Zvezda flashbang round cartridges, 5 pieces.
+Itemtype=ammo-container
+width=2
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=23x75mm Zvezda flashbang round ammo pack (5 pcs)
+Information_Jpn=A box of 23x75mm Zvezda flashbang round cartridges, 5 pieces.

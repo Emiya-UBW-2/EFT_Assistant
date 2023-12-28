@@ -7,7 +7,7 @@ width=2
 height=2
 weight=0.900000
 fleaMarketFee=0
-propertiestype=ItemPropertiesHelmet
+propertiestype=
 Conflict=[
 	Fake white beard/|
 	Jason mask/|

@@ -38,7 +38,9 @@ ChildParts=[
 	Magpul M-LOK AFG tactical foregrip (Black)/|
 	Magpul M-LOK AFG tactical foregrip (FDE)/|
 	Magpul M-LOK AFG tactical foregrip (Olive Drab)/|
-	Magpul M-LOK AFG tactical foregrip (Stealth Gray)
+	Magpul M-LOK AFG tactical foregrip (Stealth Grey)/|
+	Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown)/|
+	Daniel Defense Enhanced M-LOK Vertical Foregrip (Black)
 ]
 Recoil=-3.000000
 Ergonomics=12.000000

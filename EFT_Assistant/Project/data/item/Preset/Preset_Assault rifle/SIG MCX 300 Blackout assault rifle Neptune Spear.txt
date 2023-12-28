@@ -32,5 +32,5 @@ containsItems=[
 	MPX/MCX telescoping stockx1/|
 	MCX charging handlex1
 ]
-Name_Jpn=SIG MCX .300 Blackout assault rifle Neptune Spear
+Name_Jpn=MCX .300 Blackout アサルトライフル Neptune Spear
 Information_Jpn=

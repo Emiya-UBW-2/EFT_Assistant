@@ -12,8 +12,8 @@ containsItems=[
 	Remington Model 700 7.62x51 bolt-action sniper riflex1/|
 	M700 7.62x51 MDT AICS 12-round magazinex1/|
 	M700 AB Arms MOD*X GEN 3 chassisx1/|
-	Colt Carbine buffer tubex1/|
-	Magpul PRS GEN3 stock (Grey)x1/|
+	AR-15 Colt Carbine buffer tubex1/|
+	AR-15 Magpul PRS GEN3 stock (Grey)x1/|
 	AR-15 Magpul MIAD pistol grip (FDE)x1/|
 	M700 AB Arms MOD*X GEN 3 KeyMod handguardx1/|
 	M700 7.62x51 20 inch threaded barrelx1/|

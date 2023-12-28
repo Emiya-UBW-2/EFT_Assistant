@@ -8,5 +8,5 @@ height=7
 weight=4.194000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
-Name_Jpn=Eberlestock F4 ターミネーター耐荷重性バックパック (タイガーストライプ)
-Information_Jpn=Eberlestock 社によって作られた、非常に汎用性が高く、一体型の各ポーチ別に収納可能な軍用耐荷重性バックパックだ。
+Name_Jpn=Eberlestock F4 ターミネーター バックパック (タイガーストライプ)
+Information_Jpn=非常に高い汎用性と耐荷重性能を兼ね備えた軍用のバックパック。Eberlestock 社製。

@@ -17,7 +17,7 @@ ChildParts=[
 Conflict=[
 	Mosin Rifle Kochetov mount
 ]
-Recoil=-27.000002
+Recoil=-19.000000
 Ergonomics=14.000000
 accuracyModifier=0.000000
 Name_Jpn=Mosin-Nagant カービンストック

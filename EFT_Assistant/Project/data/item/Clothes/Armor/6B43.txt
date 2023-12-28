@@ -1,11 +1,11 @@
 IDstr=545cdb794bdc2d3a198b456a
-Name=6B43 6A Zabralo-Sh body armor
-ShortName=6B43 6A
-Information_Eng=The 6B43 bulletproof vest of the 6A protection class (roughly equivalent to IIIA protection class) is designed for protection from light weapon bullets - including BP and PP - fragments of grenades, mines, and melee weapons, as well as reducing the risk of after-penetration effects during combat situations.
+Name=6B43 Zabralo-Sh body armor (Digital Flora)
+ShortName=6B43
+Information_Eng=The 6B43 bulletproof vest is designed for protection from light weapon bullets - including BP and PP - fragments of grenades, mines, and melee weapons, as well as reducing the risk of after-penetration effects during combat situations.
 Itemtype=armor
 width=4
 height=4
-weight=20.000000
+weight=10.800000
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmor
 Name_Jpn=6B43 6A Zabralo-Sh body armor

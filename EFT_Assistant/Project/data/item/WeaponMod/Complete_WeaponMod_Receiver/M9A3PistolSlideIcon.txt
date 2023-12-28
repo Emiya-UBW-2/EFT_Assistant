@@ -1,5 +1,5 @@
 IDstr=5cadc55cae921500103bb3be
-Name=M9A3 9x19 pistol slide
+Name=M9A3 pistol slide
 ShortName=M9A3
 Information_Eng=A standard-issue pistol slide for Beretta M9A3 9x19 pistols.
 Itemtype=receiver

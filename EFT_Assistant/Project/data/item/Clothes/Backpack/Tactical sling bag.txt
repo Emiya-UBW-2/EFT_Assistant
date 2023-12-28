@@ -1,5 +1,5 @@
 IDstr=5ab8f04f86f774585f4237d8
-Name=Tactical sling bag
+Name=Tactical sling bag (Khaki)
 ShortName=Sling
 Information_Eng=An original sling bag for everyday wear or for active rest.
 Itemtype=backpack

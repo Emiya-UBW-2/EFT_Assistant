@@ -34,12 +34,14 @@ ChildParts=[
 	AK US Palm pistol grip/|
 	AK Zenit RK-3 pistol grip/|
 	PP-19-01 "Vityaz" pistol grip/|
-	AK Mission First Tactical ENGAGE AK47 pistol grip
+	AK Mission First Tactical ENGAGE AK47 pistol grip/|
+	AK CG101 AR-type pistol grip adapter/|
+	AK PUFGUN SG-M2 pistol grip
 ]
 ChildParts=[
 	CNC Guns OV-SV98 M12B stock
 ]
-Recoil=-6.000000
+Recoil=-4.000000
 Ergonomics=10.000000
 accuracyModifier=0.000000
 Name_Jpn=SV-98 CNC Guns OV-SV98 chassis

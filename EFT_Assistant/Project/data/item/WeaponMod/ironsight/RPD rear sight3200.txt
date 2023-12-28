@@ -1,0 +1,16 @@
+IDstr=6513f153e63f29908d0ffaba
+Name=RPD rear sight
+ShortName=RPD RS
+Information_Eng=A standard-issue rear sight for the RPD machine gun. Manufactured by V.A. Degtyarev Plant.
+Itemtype=ironsight
+width=1
+height=1
+weight=0.025000
+fleaMarketFee=0
+propertiestype=ItemPropertiesScope
+Recoil=0.000000
+Ergonomics=0.000000
+SightRange=1000
+sightZooms=1.000000
+Name_Jpn=RPD rear sight
+Information_Jpn=A standard-issue rear sight for the RPD machine gun. Manufactured by V.A. Degtyarev Plant.

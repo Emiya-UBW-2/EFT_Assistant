@@ -15,7 +15,7 @@ containsItems=[
 	DVL-10 M2 7.62x51 muzzle brakex1/|
 	DVL-10 M2 handguardx1/|
 	Hogue OverMolded Rubber Grip (Olive Drab)x1/|
-	Lobaev Arms stockx1
+	DVL-10 Lobaev Arms stockx1
 ]
 Name_Jpn=Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle Urbana
 Information_Jpn=

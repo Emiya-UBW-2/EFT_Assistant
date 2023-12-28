@@ -1,0 +1,26 @@
+IDstr=65719f9ef392ad76c50a2ec8
+Name=NPP KlASS Tor-2 helmet face shield
+ShortName=Tor-2 FS
+Information_Eng=A special visor for the NPP KlASS Tor-2 helmet, made of heavy-duty glass.
+Itemtype=armored-equipment
+width=2
+height=1
+weight=1.150000
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
+Conflict=[
+	PNV-10T Night Vision Goggles/|
+	Armasight N-15 Night Vision Goggles/|
+	GPNVG-18 Night Vision goggles/|
+	AN/PVS-14 Night Vision Monocular/|
+	T-7 Thermal Goggles with a Night Vision mount/|
+	Ops-Core Picatinny Rail Adapter mount/|
+	Ops-Core Single Clamp Rail Adapter mount/|
+	GP-5 gas mask/|
+	GP-7 gas mask/|
+	Pestily plague mask/|
+	Respirator/|
+	Faceless mask
+]
+Name_Jpn=NPP KlASS Tor-2 helmet face shield
+Information_Jpn=A special visor for the NPP KlASS Tor-2 helmet, made of heavy-duty glass.

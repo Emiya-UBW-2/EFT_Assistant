@@ -1,0 +1,12 @@
+IDstr=6557458f83942d705f0c4962
+Name=SSAPI level III+ ballistic plate (Side)
+ShortName=SSAPI III+ Side
+Information_Eng=Side Small Arms Protective Insert (SSAPI) is a ceramic ballistic plate for torso side plate pouches.
+Itemtype=armor-plate
+width=1
+height=1
+weight=1.000000
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=SSAPI level III+ ballistic plate (Side)
+Information_Jpn=Side Small Arms Protective Insert (SSAPI) is a ceramic ballistic plate for torso side plate pouches.

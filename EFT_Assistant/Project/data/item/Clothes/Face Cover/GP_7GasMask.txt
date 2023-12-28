@@ -11,13 +11,13 @@ propertiestype=
 Conflict=[
 	Army cap/|
 	Baseball cap/|
-	BEAR baseball cap (Green)/|
-	USEC baseball cap (Tan)/|
+	BEAR baseball cap (Olive Drab)/|
+	USEC baseball cap (Coyote)/|
 	EMERCOM cap/|
 	Police cap/|
 	UX PRO beanie/|
 	Kinda cowboy hat/|
-	Tactical fleece beanie/|
+	Tactical fleece beanie (Tan)/|
 	Ski hat with holes for eyes/|
 	FORT Kiver-M bulletproof helmet/|
 	Armasight NVG head strap/|
@@ -27,7 +27,7 @@ Conflict=[
 	BEAR baseball cap (Black)/|
 	Beret (Black)/|
 	Beret (Blue)/|
-	Beret (Olive)/|
+	Beret (Olive Drab)/|
 	Door Kicker boonie hat/|
 	Kotton beanie/|
 	Army cap (Black)/|
@@ -40,19 +40,22 @@ Conflict=[
 	USEC baseball cap (Black)/|
 	PSh-97 DJETA riot helmet/|
 	ShPM Firefighter helmet/|
-	MSA Gallet TC 800 High Cut combat helmet/|
+	MSA Gallet TC 800 High Cut combat helmet (Black)/|
 	Jack-o'-lantern tactical pumpkin helmet/|
 	Beanie/|
-	Altyn face shield/|
+	Altyn helmet face shield/|
 	Ops-Core FAST Gunsight Mandible/|
 	Ops-Core FAST multi-hit ballistic face shield/|
 	Galvion Caiman Hybrid Ballistic Mandible Guard/|
 	LShZ-2DTM face shield/|
 	Maska-1SCh face shield (Olive Drab)/|
-	Maska-1SCh face shield (Killa)/|
+	Maska-1SCh face shield (Killa Edition)/|
 	Rys-T face shield/|
 	Team Wendy EXFIL Ballistic face shield (Black)/|
-	GSSh-01 active headset
+	GSSh-01 active headset/|
+	Diamond Age NeoSteel High Cut helmet (Black)/|
+	Basmach leather cap/|
+	Gus baseball cap
 ]
 Name_Jpn=GP-7 gas mask
 Information_Jpn=GP-7民生用ガスマスクは呼吸器や目、顔といった器官を保護する個人防護具だ。

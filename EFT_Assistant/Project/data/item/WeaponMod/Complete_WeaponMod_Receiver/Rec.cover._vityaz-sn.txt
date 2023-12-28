@@ -53,9 +53,12 @@ ChildParts=[
 	Leapers UTG 25mm ring scope mount/|
 	SwampFox Trihawk Prism Scope 3x30/|
 	AI AX-50 34mm scope mount/|
-	SIG Sauer ROMEO7 1x30 reflex sight (prototype)/|
+	SIG Sauer ROMEO7 1x30 reflex sight (Prototype)/|
 	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope/|
-	ELCAN Specter HCO holographic sight
+	ELCAN Specter HCO holographic sight/|
+	GBRS Aimpoint Hydra Mount Kit (Black)/|
+	GBRS Aimpoint Hydra Mount Kit (FDE)/|
+	Wilcox BOSS Xe reflex sight
 ]
 Conflict=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
@@ -67,7 +70,8 @@ Conflict=[
 	NSPU-M 3.5x dovetail night vision scope/|
 	Axion Kobra dovetail mount/|
 	VOMZ Pilad 043-02 dovetail mount/|
-	NPZ PK1 "Obzor" dovetail reflex sight
+	NPZ PK1 "Obzor" dovetail reflex sight/|
+	Axion Kobra EKP-1S-03 reflex sight (Dovetail)
 ]
 Recoil=0.000000
 Ergonomics=5.000000

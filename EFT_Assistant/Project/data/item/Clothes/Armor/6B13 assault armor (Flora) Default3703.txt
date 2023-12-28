@@ -1,0 +1,18 @@
+IDstr=65765f39526e320fbe0357b1
+Name=6B13 assault armor (Flora) Default
+ShortName=6B13 FL Default
+Itemtype=armor
+width=3
+height=4
+weight=10.600000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	6B13 assault armor (Flora)x1/|
+	Aramid insertx1/|
+	6B33 ballistic plate (Front)x1/|
+	6B13 custom ballistic plates (Back)x1
+]
+Name_Jpn=6B13 assault armor (Flora) デフォルト
+Information_Jpn=

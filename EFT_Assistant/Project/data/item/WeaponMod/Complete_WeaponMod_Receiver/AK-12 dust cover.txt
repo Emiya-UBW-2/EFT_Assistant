@@ -69,8 +69,12 @@ ChildParts=[
 	AI AX-50 34mm scope mount/|
 	Armasight Zeus universal base/|
 	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope/|
-	SIG Sauer ROMEO7 1x30 reflex sight (prototype)/|
-	ELCAN Specter HCO holographic sight
+	SIG Sauer ROMEO7 1x30 reflex sight (Prototype)/|
+	ELCAN Specter HCO holographic sight/|
+	GBRS Aimpoint Hydra Mount Kit (Black)/|
+	GBRS Aimpoint Hydra Mount Kit (FDE)/|
+	Wilcox BOSS Xe reflex sight/|
+	SIG ALPHA4 30mm ring scope mount
 ]
 ChildParts=[
 	RPK-16 rear sight base/|

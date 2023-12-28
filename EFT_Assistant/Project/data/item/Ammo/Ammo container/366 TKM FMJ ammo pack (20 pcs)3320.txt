@@ -1,0 +1,12 @@
+IDstr=657023f1bfc87b3a34093210
+Name=.366 TKM FMJ ammo pack (20 pcs)
+ShortName=FMJ
+Information_Eng=A box of .366 TKM FMJ cartridges, 20 pieces.
+Itemtype=ammo-container
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=.366 TKM FMJ ammo pack (20 pcs)
+Information_Jpn=A box of .366 TKM FMJ cartridges, 20 pieces.

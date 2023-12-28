@@ -1,8 +1,0 @@
-Name=Steyr AUG A1 5.56x45 assault rifle Default
-Base=Steyr AUG A1 5.56x45 assault rifle
-Parts=Steyr AUG 5.56x45 30-round magazine
-Parts=Steyr AUG A1 charging handle
-Parts=Steyr AUG A1 STG77 1.5x optic sight
-Parts=Steyr AUG A1 5.56x45 20 inch barrel
-Parts=Steyr AUG A1 5.56x45 closed flash hider
-Parts=Steyr AUG vertical foregrip

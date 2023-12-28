@@ -11,7 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 Conflict=[
 	TT 7.62x25 makeshift sound suppressor
 ]
-Recoil=-12.000000
+Recoil=-8.000000
 Ergonomics=-1.000000
 accuracyModifier=0.020000
 Name_Jpn=TT PM-Laser DTK-TT muzzle brake-compensator

@@ -1,0 +1,15 @@
+IDstr=64942bfc6ee699f6890dff95
+Name=AK Vector VR-05T 7.62x39 muzzle brake
+ShortName=VR05T
+Information_Eng=A muzzle brake for AK 7.62x39 assault rifles and compatibles. Manufactured by Vector 7.62.
+Itemtype=flashhider
+width=1
+height=1
+weight=0.116000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=-14.000000
+Ergonomics=-2.000000
+accuracyModifier=0.000000
+Name_Jpn=AK Vector VR-05T 7.62x39 muzzle brake
+Information_Jpn=A muzzle brake for AK 7.62x39 assault rifles and compatibles. Manufactured by Vector 7.62.

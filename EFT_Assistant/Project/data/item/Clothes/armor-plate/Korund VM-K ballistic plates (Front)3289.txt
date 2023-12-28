@@ -1,0 +1,12 @@
+IDstr=656f66b5c6baea13cd07e108
+Name=Korund VM-K ballistic plates (Front)
+ShortName=Korund VM-K Front
+Information_Eng=A combination of a big ceramic plate and small armored steel plate for torso front pouches of Russian bulletproof vests.
+Itemtype=armor-plate
+width=2
+height=3
+weight=4.000000
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=Korund VM-K ballistic plates (Front)
+Information_Jpn=A combination of a big ceramic plate and small armored steel plate for torso front pouches of Russian bulletproof vests.

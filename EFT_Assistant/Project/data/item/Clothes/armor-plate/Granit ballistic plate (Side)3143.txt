@@ -1,0 +1,12 @@
+IDstr=64afd81707e2cf40e903a316
+Name=Granit ballistic plate (Side)
+ShortName=Granit Side
+Information_Eng=Granit Side is a ceramic ballistic plate for torso side pouches of Russian bulletproof vests and plate carriers.
+Itemtype=armor-plate
+width=1
+height=1
+weight=1.300000
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=Granit ballistic plate (Side)
+Information_Jpn=Granit Side is a ceramic ballistic plate for torso side pouches of Russian bulletproof vests and plate carriers.

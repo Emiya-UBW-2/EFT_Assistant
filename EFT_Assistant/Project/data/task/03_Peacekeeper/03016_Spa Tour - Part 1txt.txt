@@ -2,7 +2,7 @@ IDstr=5a03153686f77442d90e2171
 Name=Spa Tour - Part 1
 Trader=Peacekeeper
 
-NeedTask=Friend from the West - Part 2
+NeedTask=Friend From the West - Part 2
 NeedTask=Humanitarian Supplies
 NeedLevel=12
 

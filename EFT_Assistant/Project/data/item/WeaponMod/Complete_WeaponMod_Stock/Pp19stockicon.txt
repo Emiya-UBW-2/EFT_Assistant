@@ -9,9 +9,10 @@ weight=0.218000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
-	AK GP-25 accessory kit recoil pad
+	AK GP-25 accessory kit recoil pad/|
+	AK Custom Arms ST-EF 74 skeleton stock extension
 ]
-Recoil=-34.000000
+Recoil=-24.000000
 Ergonomics=6.000000
 accuracyModifier=0.000000
 Name_Jpn=PP-19-01 "Vityaz" metal skeleton stock

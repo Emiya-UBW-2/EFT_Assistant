@@ -15,7 +15,7 @@ Task_Kill=[
 ]
 NeedItem=[
 	SV-98 7.62x54R bolt-action sniper riflex0/|
-	Molot VPO-215 "Gornostay" .366 TKM bolt-action riflex0/|
+	Molot Arms VPO-215 "Gornostay" .366 TKM bolt-action riflex0/|
 	Lobaev Arms DVL-10 7.62x51 bolt-action sniper riflex0/|
 	Mosin 7.62x54R bolt-action rifle (Sniper)x0/|
 	ORSIS T-5000M 7.62x51 bolt-action sniper riflex0/|
@@ -30,7 +30,7 @@ Task_Kill=[
 ]
 NeedItem=[
 	SV-98 7.62x54R bolt-action sniper riflex0/|
-	Molot VPO-215 "Gornostay" .366 TKM bolt-action riflex0/|
+	Molot Arms VPO-215 "Gornostay" .366 TKM bolt-action riflex0/|
 	Lobaev Arms DVL-10 7.62x51 bolt-action sniper riflex0/|
 	Mosin 7.62x54R bolt-action rifle (Sniper)x0/|
 	ORSIS T-5000M 7.62x51 bolt-action sniper riflex0/|
@@ -56,7 +56,7 @@ Reward_Rep=Jaeger+2
 Reward_Item=[
 	Roublesx65000/|
 	Mosin Rifle AIM Sports MNG rail mountx1/|
-	Umka M33-SET1 hunter vestx2
+	Umka M33-SET1 hunter vest (Olive Drab)x2
 ]
 
 Reward_EXP=12400

@@ -1,0 +1,12 @@
+IDstr=656e0436d44a1bb4220303a0
+Name=Mystery Ranch SATL Bridger Assault Pack (Foliage)
+ShortName=SATL
+Information_Eng=The Mystery Ranch SATL assault backpack has been the standard gear for SOCOM assault operations for nearly a decade. It now features a removable BVS system and a redirect waist belt for effective weight distribution, even when the backpack is worn over body armor.
+Itemtype=backpack
+width=5
+height=7
+weight=2.950000
+fleaMarketFee=0
+propertiestype=ItemPropertiesBackpack
+Name_Jpn=Mystery Ranch SATL Bridger Assault Pack (Foliage)
+Information_Jpn=The Mystery Ranch SATL assault backpack has been the standard gear for SOCOM assault operations for nearly a decade. It now features a removable BVS system and a redirect waist belt for effective weight distribution, even when the backpack is worn over body armor.

@@ -1,0 +1,25 @@
+IDstr=657eb42546a703073a5b91f1
+Name=Molot Arms Simonov OP-SKS 7.62x39 carbine Sniper
+ShortName=OP-SKS Sniper
+Itemtype=assault-carbine
+width=5
+height=1
+weight=4.413000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Molot Arms Simonov OP-SKS 7.62x39 carbinex1/|
+	OP-SKS wooden stockx1/|
+	OP-SKS 7.62x39 520mm barrelx1/|
+	OP-SKS upper bandx1/|
+	OP-SKS gas tubex1/|
+	OP-SKS gas tube coverx1/|
+	SKS rear sightx1/|
+	SKS 7.62x39 10-round internal box magazinex1/|
+	OP-SKS dovetail mountx1/|
+	BelOMO PSO-1M2 4x24 scopex1/|
+	OP-SKS dust coverx1
+]
+Name_Jpn=OP-SKS 7.62x39 カービン (狩猟ライフルバージョン) Sniper
+Information_Jpn=

@@ -1,7 +1,7 @@
 IDstr=5aa2b87de5b5b00016327c25
-Name=BEAR baseball cap (Green)
+Name=BEAR baseball cap (Olive Drab)
 ShortName=BEAR
-Information_Eng=A tactical BEAR PMC baseball cap. Green version.
+Information_Eng=A tactical BEAR PMC baseball cap. Olive Drab version.
 Itemtype=headwear
 width=1
 height=1

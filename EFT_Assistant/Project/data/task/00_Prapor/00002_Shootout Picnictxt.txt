@@ -2,7 +2,7 @@ IDstr=59674cd986f7744ab26e32f2
 Name=Shootout Picnic
 Trader=Prapor
 
-NeedTask=Checking
+NeedTask=Background Check
 NeedLevel=3
 
 CanRestart=false

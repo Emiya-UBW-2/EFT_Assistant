@@ -1,0 +1,12 @@
+IDstr=657b28d25f444d6dff0c6c77
+Name=Korund-VM-K ballistic plate (Back)
+ShortName=Korund-VM-K Back
+Information_Eng=A ceramic plate for torso rear pouch of 6b23-1, 6b23-2, Korund and Bagariy bulletproof vests.
+Itemtype=armor-plate
+width=2
+height=2
+weight=2.700000
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=Korund-VM-K ballistic plate (Back)
+Information_Jpn=A ceramic plate for torso rear pouch of 6b23-1, 6b23-2, Korund and Bagariy bulletproof vests.

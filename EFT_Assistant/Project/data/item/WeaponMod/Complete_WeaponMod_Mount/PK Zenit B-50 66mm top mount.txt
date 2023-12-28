@@ -38,7 +38,8 @@ ChildParts=[
 	VOMZ Pilad P1x42 Weaver reflex sight/|
 	Vortex Razor AMG UH-1 holographic sight/|
 	Walther MRS reflex sight/|
-	MAWL-C1+ tactical device
+	MAWL-C1+ tactical device/|
+	Wilcox BOSS Xe reflex sight
 ]
 Recoil=0.000000
 Ergonomics=-1.000000

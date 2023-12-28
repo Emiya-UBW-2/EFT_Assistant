@@ -1,5 +1,5 @@
 IDstr=5c0e842486f77443a74d2976
-Name=Maska-1SCh face shield (Killa)
+Name=Maska-1SCh face shield (Killa Edition)
 ShortName=1SCh FS
 Information_Eng=A special steel bulletproof faceshield for the Maska-1SCh ("Mask-1 Shield") helmet. This particular one is Killa's personal face shield, painted in black with three stylish vertical stripes.
 Itemtype=armored-equipment

@@ -15,7 +15,7 @@ ChildParts=[
 	Glock Pachmayr Tactical Grip Glove
 ]
 ChildParts=[
-	Glock 19X 9x19 pistol slide
+	Glock 19X pistol slide
 ]
 ChildParts=[
 	Glock 9x19 "Big Stick" 33-round magazine/|
@@ -48,11 +48,11 @@ SightRange=-100
 FireRate=30
 centerOfImpact=0.000000
 deviationCurve=2.250000
-recoilDispersion=13
+recoilDispersion=8
 recoilAngle=90
-cameraRecoil=0.007200
-cameraSnap=3.500000
+cameraRecoil=0.000000
+cameraSnap=5.000000
 deviationMax=11
-convergence=5.000000
+convergence=0.000000
 Name_Jpn=Glock 19X 9x19 pistol
 Information_Jpn=The Glock 19X is an Austrian pistol based on the Glock 19 Modular Handgun System developed by Glock. Glock 19X is a hybrid of the Glock 17 and Glock 19 models: bolt and barrel of the 19th model, and the long handle of the very first 17th model. Also, the Glock 19X is devoid of sub-finger recesses, but has a loop for a safety cord. The gun is made in the Coyote color.

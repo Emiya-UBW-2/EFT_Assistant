@@ -47,18 +47,18 @@ ChildParts=[
 ChildParts=[
 	Delta-Tek Sprut mount for pump-action shotguns
 ]
-Recoil=442.000000
-RecoilHorizontal=650.000000
+Recoil=397.000000
+RecoilHorizontal=522.000000
 Ergonomics=40.000000
 SightRange=-100
 FireRate=30
 centerOfImpact=0.480000
 deviationCurve=2.500000
-recoilDispersion=15
+recoilDispersion=10
 recoilAngle=90
-cameraRecoil=0.144000
+cameraRecoil=0.000000
 cameraSnap=3.000000
 deviationMax=10
-convergence=1.300000
+convergence=0.000000
 Name_Jpn=MP-133 12ga ポンプアクション ショットガン
 Information_Jpn=MP-133 は、IzhMekh が製造した手動連発式のポンプアクション ショットガンだ。初期の IZh-81 を発展させたモデルで、主に狩猟またはセキュリティ市場向けの散弾銃として量産された。

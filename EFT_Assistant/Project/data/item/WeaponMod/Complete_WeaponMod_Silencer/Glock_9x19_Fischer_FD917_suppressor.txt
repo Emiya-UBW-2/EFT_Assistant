@@ -32,7 +32,7 @@ Conflict=[
 	SIG Sauer SRD9 9x19 sound suppressor/|
 	SilencerCo Osprey 9 9x19 sound suppressor
 ]
-Recoil=-20.000000
+Recoil=-14.000000
 Ergonomics=-22.000000
 accuracyModifier=0.000000
 Name_Jpn=Glock 9x19 Fischer Development FD917 sound suppressor

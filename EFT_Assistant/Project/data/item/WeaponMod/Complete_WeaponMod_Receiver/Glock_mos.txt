@@ -1,5 +1,5 @@
 IDstr=615d8dbd290d254f5e6b2ed6
-Name=Glock 17 9x19 MOS pistol slide
+Name=Glock 17 MOS pistol slide
 ShortName=G MOS
 Information_Eng=The MOS (Modular Optic System) slide designed for Glock 9x19 pistols. Manufactured by Glock.
 Itemtype=receiver

@@ -1,5 +1,5 @@
 IDstr=55d4ae6c4bdc2d8b2f8b456e
-Name=High Standard M4SS Stock
+Name=AR-15 High Standard M4SS Stock
 ShortName=M4SS
 Information_Eng=The High Standard M4SS telescoping stock closely follows the classic M4A1 stock except for a few geometry details.
 Itemtype=stock
@@ -8,7 +8,7 @@ height=1
 weight=0.695000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
-Recoil=-27.000002
+Recoil=-19.000000
 Ergonomics=4.000000
 accuracyModifier=0.000000
 Name_Jpn=ハイスタンダード M4SS ストック

@@ -1,0 +1,12 @@
+IDstr=656fad8c498d1b7e3e071da0
+Name=Monoclete level III PE ballistic plate
+ShortName=Monoclete PE
+Information_Eng=A UHMWPE plate for torso front and back pouches of plate carrier.
+Itemtype=armor-plate
+width=2
+height=2
+weight=1.350000
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=Monoclete level III PE ballistic plate
+Information_Jpn=A UHMWPE plate for torso front and back pouches of plate carrier.

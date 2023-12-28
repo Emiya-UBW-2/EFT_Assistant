@@ -1,5 +1,5 @@
 IDstr=5f3e7823ddc4f03b010e2045
-Name=M45A1 .45 ACP pistol slide
+Name=M45A1 pistol slide
 ShortName=M45A1 slide
 Information_Eng=A standard-issue slide for the M45A1 pistol, manufactured by Colt.
 Itemtype=receiver

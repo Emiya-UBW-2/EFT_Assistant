@@ -22,5 +22,5 @@ containsItems=[
 	FN P90 Attenuator 5.7x28 sound suppressorx1/|
 	FN P90 charging handlex1
 ]
-Name_Jpn=FN P90 5.7x28 submachine gun CWDG
+Name_Jpn=FN P90 5.7x28 サブマシンガン CWDG
 Information_Jpn=

@@ -1,0 +1,10 @@
+IDstr=6570460471369562b300ce9f
+Name=Aluminum insert
+Itemtype=built-in-armor
+width=1
+height=1
+weight=0.000000
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=Aluminum insert
+Information_Jpn=

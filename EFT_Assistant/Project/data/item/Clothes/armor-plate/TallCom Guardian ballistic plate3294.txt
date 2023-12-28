@@ -1,0 +1,12 @@
+IDstr=656fa53d94b480b8a500c0e4
+Name=TallCom Guardian ballistic plate
+ShortName=TC Guardian
+Information_Eng=A combined materials ballistic plate for torso front and back pouches of plate carrier.
+Itemtype=armor-plate
+width=2
+height=2
+weight=3.500000
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=TallCom Guardian ballistic plate
+Information_Jpn=A combined materials ballistic plate for torso front and back pouches of plate carrier.

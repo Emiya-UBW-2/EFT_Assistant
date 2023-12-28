@@ -10,5 +10,5 @@ Parts=AR-10 CMMG MK3 RML9 9 inch M-LOK handguard
 Parts=Magpul MBUS Gen2 flip-up front sight
 Parts=Magpul MBUS Gen2 flip-up rear sight
 Parts=CMMG buffer tube
-Parts=CMMG RipStock buttstock
+Parts=AR-15 CMMG RipStock buttstock
 Parts=Mk47 ambidextrous charging handle

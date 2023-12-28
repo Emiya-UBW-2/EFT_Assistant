@@ -1,0 +1,10 @@
+IDstr=65764fae2bc38ef78e07648d
+Name=1.25 mm aramid insert and titanium plates
+Itemtype=built-in-armor
+width=1
+height=1
+weight=0.000000
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=1.25 mm aramid insert and titanium plates
+Information_Jpn=

@@ -71,9 +71,13 @@ ChildParts=[
 	UNV DLOC-IRD sight mount/|
 	Leapers UTG 25mm ring scope mount/|
 	Armasight Zeus universal base/|
-	SIG Sauer ROMEO7 1x30 reflex sight (prototype)/|
+	SIG Sauer ROMEO7 1x30 reflex sight (Prototype)/|
 	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope/|
-	ELCAN Specter HCO holographic sight
+	ELCAN Specter HCO holographic sight/|
+	GBRS Aimpoint Hydra Mount Kit (Black)/|
+	GBRS Aimpoint Hydra Mount Kit (FDE)/|
+	Wilcox BOSS Xe reflex sight/|
+	SIG ALPHA4 30mm ring scope mount
 ]
 ChildParts=[
 	SV-98 rear sight
@@ -91,7 +95,7 @@ ChildParts=[
 	SV-98 wooden stock
 ]
 Recoil=250.000000
-RecoilHorizontal=790.000000
+RecoilHorizontal=711.000000
 Ergonomics=24.000000
 SightRange=-100
 FireRate=30
@@ -99,9 +103,9 @@ centerOfImpact=0.016000
 deviationCurve=1.000000
 recoilDispersion=10
 recoilAngle=90
-cameraRecoil=0.168000
+cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=33
-convergence=1.200000
+convergence=0.000000
 Name_Jpn=SV-98 7.62x54R ボルトアクション スナイパーライフル
 Information_Jpn=SV-98は、ロシアの IzhMash が製造するボルトアクション式の狙撃銃だ。1998年から2000年にかけて、ウラジミール・ストロンスキーを中心とした技術者グループによって開発された。1000m以内での戦闘を想定して設計されており、標準のボックスマガジンには10発の弾薬を装填できる。

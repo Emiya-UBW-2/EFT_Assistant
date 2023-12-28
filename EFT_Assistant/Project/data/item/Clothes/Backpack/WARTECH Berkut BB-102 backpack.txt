@@ -1,5 +1,5 @@
 IDstr=5ca20d5986f774331e7c9602
-Name=WARTECH Berkut BB-102 backpack
+Name=WARTECH Berkut BB-102 backpack (A-TACS FG)
 ShortName=Berkut
 Information_Eng=A tactical backpack with front loading capabilities. Suitable for use by military and security forces, or for military tactical games. Manufactured in WARTECH.
 Itemtype=backpack
@@ -8,5 +8,5 @@ height=5
 weight=1.000000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
-Name_Jpn=WARTECH Berkut BB-102 backpack
-Information_Jpn=A tactical backpack with front loading capabilities. Suitable for use by military and security forces, or for military tactical games. Manufactured in WARTECH.
+Name_Jpn=WARTECH ベルクート BB-102 バックパック
+Information_Jpn=フロントローディングタイプのタクティカルバックパック。軍や治安部隊のほか、サバイバルゲームといった用途に適している。WARTECH社製。

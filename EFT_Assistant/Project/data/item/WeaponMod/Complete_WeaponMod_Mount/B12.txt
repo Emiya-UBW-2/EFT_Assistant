@@ -43,7 +43,8 @@ ChildParts=[
 	SIG Sauer ROMEO sight mount/|
 	Trijicon RMR high profile mount/|
 	Trijicon RMR low profile mount/|
-	ELCAN Specter HCO holographic sight
+	ELCAN Specter HCO holographic sight/|
+	Wilcox BOSS Xe reflex sight
 ]
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
@@ -65,7 +66,8 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight/|
-	MAWL-C1+ tactical device
+	MAWL-C1+ tactical device/|
+	Zenit KR-2 old gen mount
 ]
 Recoil=0.000000
 Ergonomics=-1.000000

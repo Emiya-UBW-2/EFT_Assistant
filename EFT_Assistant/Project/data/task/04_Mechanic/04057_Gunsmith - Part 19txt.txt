@@ -11,7 +11,7 @@ NeedLightkeeper=false
 
 factionName=Any
 NeedItem=SVDS 7.62x54R sniper riflex1
-ContainsAll=Magpul UBR GEN2 stock (Black)
+ContainsAll=AR-15 Magpul UBR GEN2 stock (Black)
 ContainsAll=SVD SAG MK1 chassis
 ContainsAll=AK Magpul MOE pistol grip (Black)
 ContainsAll=March Tactical 3-24x42 FFP 30mm riflescope

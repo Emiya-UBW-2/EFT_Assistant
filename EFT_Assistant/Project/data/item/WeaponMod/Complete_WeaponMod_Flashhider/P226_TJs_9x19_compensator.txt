@@ -9,15 +9,15 @@ weight=0.036000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 Conflict=[
-	Glock 17 9x19 pistol slide/|
-	Glock 9x19 Moto Cut pistol slide/|
+	Glock 17 pistol slide/|
+	Glock Moto Cut pistol slide/|
 	Glock Viper Cut pistol slide/|
 	Glock Lone Wolf AlphaWolf pistol slide/|
 	Glock Polymer80 PS9 pistol slide/|
 	Glock ZEV Tech HEX Gen3 RMR pistol slide/|
 	Glock ZEV Tech HEX Spartan RMR pistol slide
 ]
-Recoil=-12.000000
+Recoil=-8.000000
 Ergonomics=-1.000000
 accuracyModifier=-0.020000
 Name_Jpn=P226 TJ's Custom 9x19 compensator

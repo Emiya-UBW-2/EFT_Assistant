@@ -1,0 +1,12 @@
+IDstr=65573fa5655447403702a816
+Name=Granit Br4 ballistic plate
+ShortName=Granit Br4
+Information_Eng=Granit Br4 ballistic plates are unified for use in both chest and back sections of the body armor. Features improved ergonomic characteristics: anatomical shape and division into two panels provides an optimal fit to the user's figure, increasing the comfort of use.
+Itemtype=armor-plate
+width=2
+height=2
+weight=2.900000
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=Granit Br4 ballistic plate
+Information_Jpn=Granit Br4 ballistic plates are unified for use in both chest and back sections of the body armor. Features improved ergonomic characteristics: anatomical shape and division into two panels provides an optimal fit to the user's figure, increasing the comfort of use.

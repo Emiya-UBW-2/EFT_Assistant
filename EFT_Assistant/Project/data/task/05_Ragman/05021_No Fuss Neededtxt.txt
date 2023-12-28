@@ -21,7 +21,7 @@ Task_Else=traderLL:TherapistLL3
 Reward_Rep=Ragman+3
 Reward_Item=[
 	Roublesx32000/|
-	Altyn bulletproof helmetx1
+	Altyn bulletproof helmet (Olive Drab)x1
 ]
 
 Reward_EXP=15800

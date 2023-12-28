@@ -1,0 +1,2 @@
+Name_Jpn=SKS 7.62x39 カービン Tactical
+Information_Jpn=

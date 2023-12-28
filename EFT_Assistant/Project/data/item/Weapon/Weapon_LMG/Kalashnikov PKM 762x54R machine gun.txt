@@ -10,7 +10,30 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	PK pistol grip/|
-	PK pistol grip (Black)
+	PK pistol grip (Black)/|
+	AK Aeroknox Scorpius pistol grip/|
+	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip/|
+	AK FAB Defense AGR-47 pistol grip/|
+	AK bakelite pistol grip (6P1 Sb.8V)/|
+	AK polymer pistol grip (6P1 Sb.8)/|
+	AKM bakelite pistol grip/|
+	AKM wooden pistol grip/|
+	AK bakelite pistol grip (6P4 Sb.9)/|
+	AK KGB MG-47 pistol grip/|
+	AK KGB MG-47 pistol grip (Anodized Red)/|
+	AK Magpul MOE pistol grip (Black)/|
+	AK Mission First Tactical ENGAGE AK47 pistol grip/|
+	AK Strike Industries Enhanced Pistol Grip (Black)/|
+	AK bakelite pistol grip/|
+	AK Strike Industries Enhanced Pistol Grip (FDE)/|
+	AK TangoDown Battle Grip pistol grip/|
+	AK TangoDown Battle Grip pistol grip (FDE)/|
+	AK TAPCO SAW-Style pistol grip (Black)/|
+	AK TAPCO SAW-Style pistol grip (FDE)/|
+	AK US Palm pistol grip/|
+	AK Zenit RK-3 pistol grip/|
+	AK CG101 AR-type pistol grip adapter/|
+	AK PUFGUN SG-M2 pistol grip
 ]
 ChildParts=[
 	PK 7.62x54R 100-round box
@@ -33,18 +56,18 @@ ChildParts=[
 ChildParts=[
 	PK rear sight
 ]
-Recoil=210.000000
-RecoilHorizontal=1300.000000
+Recoil=138.000000
+RecoilHorizontal=515.000000
 Ergonomics=35.000000
 SightRange=-100
 FireRate=650
 centerOfImpact=0.000000
 deviationCurve=1.350000
-recoilDispersion=25
+recoilDispersion=16
 recoilAngle=90
-cameraRecoil=0.296000
-cameraSnap=3.500000
+cameraRecoil=0.000000
+cameraSnap=3.000000
 deviationMax=23
-convergence=1.150000
-Name_Jpn=Kalashnikov PKM 7.62x54R machine gun
-Information_Jpn=PKM (Pulemyot Kalashnikova Modernizirovanny - "Kalashnikov's Machine Gun Modernized") is a modernized version of Kalashnikov PK machine gun, operating with 7.62x54R ammunition. The PKM proved to be a powerful, simple, reliable and effective weapon. It was in demand for many decades, starting from the late 60s of the last century and up to the present time. Manufactured by V.A. Degtyarev Plant.
+convergence=0.000000
+Name_Jpn=Kalashnikov PKM 7.62x54R マシンガン
+Information_Jpn=PKM（Pulemyot Kalashnikova Modernizirovanny - "カラシニコフ機関銃 近代化版"）は、7.62x54R 弾薬を使用するカラシニコフ PK 機関銃を近代化改修したもので、PKM は強力なうえ、シンプルで信頼性があるから、実用的な武器として証明された。約60年前から現在にかけて常に需要があり、製造は V・A・デグチャリョフ記念工場（V.A. Degtyarev Plant）で行われている。

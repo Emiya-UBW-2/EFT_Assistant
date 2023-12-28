@@ -23,5 +23,5 @@ containsItems=[
 	HK G36 front sightx1/|
 	HK G36 rear sightx1
 ]
-Name_Jpn=HK G36 5.56x45 assault rifle C
+Name_Jpn=G36 5.56x45 アサルトライフル C
 Information_Jpn=

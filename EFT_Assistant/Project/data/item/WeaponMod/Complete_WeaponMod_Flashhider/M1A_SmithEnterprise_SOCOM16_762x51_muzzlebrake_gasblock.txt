@@ -20,7 +20,7 @@ ChildParts=[
 	Gemtech ONE Direct Thread Mount adapter/|
 	SilencerCo Hybrid 46 Direct Thread Mount adapter
 ]
-Recoil=-3.000000
+Recoil=-2.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000
 Name_Jpn=M1A Smith Enterprise SOCOM 16 7.62x51 threaded muzzle brake & gas block

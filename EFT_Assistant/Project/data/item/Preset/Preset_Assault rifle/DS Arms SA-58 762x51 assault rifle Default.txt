@@ -18,9 +18,9 @@ containsItems=[
 	SA-58 Holland Type rear sightx1/|
 	SA-58 Extreme Duty dust coverx1/|
 	SA-58 buffer tube adapterx1/|
-	Colt Carbine buffer tubex1/|
-	Magpul MOE Carbine stock (Black)x1/|
+	AR-15 Colt Carbine buffer tubex1/|
+	AR-15 Magpul MOE Carbine stock (Black)x1/|
 	Magpul MOE Carbine rubber buttpadx1
 ]
-Name_Jpn=DS Arms SA-58 7.62x51 assault rifle デフォルト
+Name_Jpn=SA-58 7.62x51 アサルトライフル デフォルト
 Information_Jpn=

@@ -12,26 +12,13 @@ ChildParts=[
 	AK GP-25 accessory kit recoil pad
 ]
 ChildParts=[
-	AK Aeroknox Scorpius pistol grip/|
-	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip/|
-	AK FAB Defense AGR-47 pistol grip/|
-	AK polymer pistol grip (6P1 Sb.8)/|
 	AK bakelite pistol grip (6P1 Sb.8V)/|
 	AKM bakelite pistol grip/|
-	AKM wooden pistol grip/|
-	AK bakelite pistol grip (6P4 Sb.9)/|
-	AK KGB MG-47 pistol grip/|
-	AK KGB MG-47 pistol grip (Anodized Red)/|
 	AK bakelite pistol grip/|
-	AK Strike Industries Enhanced Pistol Grip (Black)/|
-	AK TangoDown Battle Grip pistol grip/|
-	AK Strike Industries Enhanced Pistol Grip (FDE)/|
-	AK TangoDown Battle Grip pistol grip (FDE)/|
-	AK TAPCO SAW-Style pistol grip (Black)/|
-	AK Zenit RK-3 pistol grip/|
-	AK TAPCO SAW-Style pistol grip (FDE)
+	AK polymer pistol grip (6P1 Sb.8)/|
+	AK bakelite pistol grip (6P4 Sb.9)
 ]
-Recoil=-30.000002
+Recoil=-21.000000
 Ergonomics=-3.000000
 accuracyModifier=0.000000
 Name_Jpn=PK Zenit PT-2 "Klassika" stock

@@ -1,0 +1,12 @@
+IDstr=657024e3c5d7d4cb4d07856a
+Name=5.56x45mm M855A1 ammo pack (50 pcs)
+ShortName=M885A1
+Information_Eng=A box of 5.56x45mm M855A1 cartridges, 50 pieces.
+Itemtype=ammo-container
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=5.56x45mm M855A1 ammo pack (50 pcs)
+Information_Jpn=A box of 5.56x45mm M855A1 cartridges, 50 pieces.

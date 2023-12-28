@@ -1,0 +1,15 @@
+IDstr=6513f0f5e63f29908d0ffab8
+Name=RPD barrel thread protector
+ShortName=RPD thr.
+Information_Eng=A standard-issue barrel thread protector for the RPD machine gun. Manufactured by V.A. Degtyarev Plant.
+Itemtype=comb-muzzle-device
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=0.000000
+Ergonomics=2.000000
+accuracyModifier=0.000000
+Name_Jpn=RPD barrel thread protector
+Information_Jpn=A standard-issue barrel thread protector for the RPD machine gun. Manufactured by V.A. Degtyarev Plant.

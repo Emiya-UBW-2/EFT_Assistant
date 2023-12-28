@@ -21,7 +21,7 @@ containsItems=[
 	SOK-12 dust cover (Sb.0-2)x1/|
 	SOK-12 rear sightx1/|
 	AK-74M CAA AKTS AK74 buffer tubex1/|
-	Magpul MOE Carbine stock (Foliage Green)x1/|
+	AR-15 Magpul MOE Carbine stock (Foliage Green)x1/|
 	Magpul MOE Carbine rubber buttpadx1/|
 	SOK-12 12/76 MaxRounds Powermag 20-round magazinex1/|
 	12/70 "Poleva-3" slugx10/|

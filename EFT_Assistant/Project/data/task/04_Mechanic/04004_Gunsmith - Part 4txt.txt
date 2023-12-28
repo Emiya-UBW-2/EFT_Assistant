@@ -11,7 +11,7 @@ NeedKappa=true
 NeedLightkeeper=true
 
 factionName=Any
-NeedItem=Simonov OP-SKS 7.62x39 carbine (Hunting Rifle Version)x1
+NeedItem=Molot Arms Simonov OP-SKS 7.62x39 carbinex1
 ContainsCategory=Silencer
 Task_Else=accuracy >= 0
 Task_Else=durability >= 60

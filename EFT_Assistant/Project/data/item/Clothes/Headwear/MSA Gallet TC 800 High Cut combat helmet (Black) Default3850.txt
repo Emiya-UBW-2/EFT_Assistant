@@ -1,0 +1,16 @@
+IDstr=657fa9cf87e11c61f70bfadd
+Name=MSA Gallet TC 800 High Cut combat helmet (Black) Default
+ShortName=TC 800 Default
+Itemtype=headwear
+width=2
+height=2
+weight=1.170000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	MSA Gallet TC 800 High Cut combat helmet (Black)x1/|
+	Hybrid composite materialsx1/|
+]
+Name_Jpn=MSA Gallet TC 800 High Cut コンバットヘルメット デフォルト
+Information_Jpn=

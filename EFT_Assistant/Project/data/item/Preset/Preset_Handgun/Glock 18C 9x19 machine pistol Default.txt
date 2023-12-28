@@ -11,7 +11,7 @@ IsDefault=TRUE
 containsItems=[
 	Glock 18C 9x19 machine pistolx1/|
 	Glock 18C 9x19 barrel with a compensatorx1/|
-	Glock 18C 9x19 pistol slidex1/|
+	Glock 18C pistol slidex1/|
 	Glock rear sightx1/|
 	Glock front sightx1/|
 	Glock 9x19 17-round magazinex1

@@ -1,0 +1,12 @@
+IDstr=657023dabfc87b3a3409320d
+Name=.338 Lapua Magnum UCW ammo pack (20 pcs)
+ShortName=UCW
+Information_Eng=A box of .338 Lapua Magnum UCW cartridges, 20 pieces.
+Itemtype=ammo-container
+width=2
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=.338 Lapua Magnum UCW ammo pack (20 pcs)
+Information_Jpn=A box of .338 Lapua Magnum UCW cartridges, 20 pieces.

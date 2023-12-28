@@ -1,0 +1,20 @@
+IDstr=657315df034d76585f032e01
+Name=Shooting Cans
+Trader=Prapor
+
+NeedLevel=0
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+
+Reward_Rep=Prapor+1
+Reward_Item=[
+	Roublesx13000/|
+	Mosin 7.62x54R bolt-action rifle (Infantry) Defaultx1/|
+	7.62x54mm R FMJ ammo pack (20 pcs)x3
+]
+
+Reward_EXP=1600

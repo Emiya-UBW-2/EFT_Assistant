@@ -1,0 +1,16 @@
+IDstr=657bc88ebbd440df880b2dfe
+Name=Altyn bulletproof helmet (Olive Drab) Default
+ShortName=Altyn Default
+Itemtype=headwear
+width=2
+height=2
+weight=4.000000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Altyn bulletproof helmet (Olive Drab)x1/|
+	Armor steelx1/|
+]
+Name_Jpn=Altyn bulletproof helmet デフォルト
+Information_Jpn=

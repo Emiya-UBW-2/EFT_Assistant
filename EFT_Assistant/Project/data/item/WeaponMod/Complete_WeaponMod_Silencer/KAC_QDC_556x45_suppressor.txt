@@ -11,8 +11,8 @@ propertiestype=ItemPropertiesWeaponMod
 Conflict=[
 	HK 416A5 5.56x45 10.6 inch barrel
 ]
-Recoil=-14.000000
+Recoil=-10.000000
 Ergonomics=-20.000000
-accuracyModifier=-0.010000
+accuracyModifier=0.000000
 Name_Jpn=KAC QDC 5.56x45 sound suppressor
 Information_Jpn=The Knight's Armament Company QDC 556 sound suppressor, designed for use with 5.56x45 caliber weapon systems. Can only be installed on the KAC QDC 3-Prong Flash Eliminator.

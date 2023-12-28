@@ -1,0 +1,15 @@
+IDstr=6452519e3d52156624001fd5
+Name=VSK-94 stock
+ShortName=VSK-94
+Information_Eng=A standard-issue stock for the VSK-94 marksman rifle. Manufactured by Tula KPB Instrument Design Bureau.
+Itemtype=stock
+width=2
+height=1
+weight=0.700000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=-23.000000
+Ergonomics=15.000000
+accuracyModifier=0.000000
+Name_Jpn=VSK-94 stock
+Information_Jpn=A standard-issue stock for the VSK-94 marksman rifle. Manufactured by Tula KPB Instrument Design Bureau.

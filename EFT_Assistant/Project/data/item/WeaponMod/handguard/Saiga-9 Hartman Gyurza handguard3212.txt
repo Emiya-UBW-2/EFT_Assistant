@@ -1,0 +1,32 @@
+IDstr=651bfe4d1065f87f082e7209
+Name=Saiga-9 Hartman Gyurza handguard
+ShortName=Gyurza-9
+Information_Eng=A tubular handguard for the Saiga-9 carbine. Manufactured by Hartman.
+Itemtype=handguard
+width=2
+height=1
+weight=0.270000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Hartman Lenok 70mm rail
+]
+ChildParts=[
+	Hartman Lenok 70mm rail
+]
+ChildParts=[
+	Hartman Lenok 70mm rail
+]
+Conflict=[
+	SilencerCo Osprey 9 9x19 sound suppressor/|
+	PP-19-01 "Vityaz" 9x19 sound suppressor/|
+	SIG Sauer SRD9 9x19 sound suppressor/|
+	Rotor 43 9x19 muzzle brake-compensator/|
+	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
+	PP-19-01 "Vityaz" 9x19 submachine gun
+]
+Recoil=-2.000000
+Ergonomics=15.000000
+accuracyModifier=0.000000
+Name_Jpn=Saiga-9 Hartman Gyurza handguard
+Information_Jpn=A tubular handguard for the Saiga-9 carbine. Manufactured by Hartman.

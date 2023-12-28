@@ -1,0 +1,12 @@
+IDstr=6529302b8c26af6326029fb7
+Name=6.8x51mm SIG FMJ
+ShortName=FMJ
+Information_Eng=A civilian 6.8x51mm (.277 FURY) Elite Ball FMJ (Full Metal Jacket) 135 grain rifle round, manufactured by SIG Sauer.
+Itemtype=ammo
+width=1
+height=1
+weight=0.024000
+fleaMarketFee=0
+propertiestype=ItemPropertiesAmmo
+Name_Jpn=6.8x51mm SIG FMJ
+Information_Jpn=A civilian 6.8x51mm (.277 FURY) Elite Ball FMJ (Full Metal Jacket) 135 grain rifle round, manufactured by SIG Sauer.

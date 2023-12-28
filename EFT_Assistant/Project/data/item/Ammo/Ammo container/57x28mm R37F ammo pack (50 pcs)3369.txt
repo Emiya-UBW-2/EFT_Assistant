@@ -1,0 +1,12 @@
+IDstr=6570251ccfc010a0f5006a13
+Name=5.7x28mm R37.F ammo pack (50 pcs)
+ShortName=R37.F
+Information_Eng=A box of 5.7x28mm R37.F cartridges, 50 pieces.
+Itemtype=ammo-container
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=5.7x28mm R37.F ammo pack (50 pcs)
+Information_Jpn=A box of 5.7x28mm R37.F cartridges, 50 pieces.

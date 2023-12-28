@@ -31,7 +31,9 @@ ChildParts=[
 	AK FAB Defense AGR-47 pistol grip/|
 	AK TangoDown Battle Grip pistol grip (FDE)/|
 	AK TangoDown Battle Grip pistol grip/|
-	AK Mission First Tactical ENGAGE AK47 pistol grip
+	AK Mission First Tactical ENGAGE AK47 pistol grip/|
+	AK CG101 AR-type pistol grip adapter/|
+	AK PUFGUN SG-M2 pistol grip
 ]
 ChildParts=[
 	AK-74M CAA AKTS AK74 buffer tube/|
@@ -79,23 +81,24 @@ ChildParts=[
 	NPZ 1P78-1 dovetail mount/|
 	VOMZ Pilad 043-02 dovetail mount/|
 	Zenit B-13V "Klassika" dovetail rail platform/|
-	SAG Bit low profile dovetail sidemount
+	SAG Bit low profile dovetail sidemount/|
+	Axion Kobra EKP-1S-03 reflex sight (Dovetail)
 ]
 ChildParts=[
 	PP-19-01 "Vityaz" gas tube
 ]
 Recoil=58.000000
-RecoilHorizontal=300.000000
+RecoilHorizontal=270.000000
 Ergonomics=35.000000
 SightRange=-100
 FireRate=700
 centerOfImpact=0.130000
 deviationCurve=1.900000
-recoilDispersion=12
+recoilDispersion=8
 recoilAngle=90
-cameraRecoil=0.048000
+cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=15
-convergence=1.500000
-Name_Jpn=PP-19-01 "Vityaz" 9x19 submachine gun
-Information_Jpn=The PP-19-01, also known as "Vityaz", is a Russian submachine gun chambered in 9x19 developed in 2004 by Izhmash based on the AK platform. A standard-issue submachine gun in many law enforcement agencies and military units of the Russian Federation.
+convergence=0.000000
+Name_Jpn=PP-19-01 "ヴィチャズ" 9x19 サブマシンガン
+Information_Jpn=PP-19-01 、またの名をヴィチャズ （Vityaz）として知られているのは、2004年にイジェフスク機械製作工場（Izhmash）によって開発された、AKプラットフォームをベースにした 9x19mm 口径のロシアのサブマシンガンで、ロシア連邦の多くの法執行機関および軍隊部隊で採用されている標準的なサブマシンガンだ。

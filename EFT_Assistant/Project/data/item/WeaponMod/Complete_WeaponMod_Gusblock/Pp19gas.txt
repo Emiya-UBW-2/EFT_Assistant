@@ -20,7 +20,7 @@ ChildParts=[
 	AK Magpul MOE AKM handguard (FDE)/|
 	AK Magpul MOE AKM handguard (Olive Drab)/|
 	AK Magpul MOE AKM handguard (Plum)/|
-	AK Magpul MOE AKM handguard (Stealth Gray)/|
+	AK Magpul MOE AKM handguard (Stealth Grey)/|
 	AK Magpul Zhukov-U handguard (Black)/|
 	AK Magpul Zhukov-U handguard (FDE)/|
 	AK Magpul Zhukov-U handguard (Plum)/|
@@ -31,7 +31,9 @@ ChildParts=[
 	AK TDI AKM-L handguard (Anodized Bronze)/|
 	AK TDI AKM-L handguard (Anodized Red)/|
 	AK Zenit B-10 Handguard/|
-	AK Zenit B-10M handguard with B-19 upper mount
+	AK Zenit B-10M handguard with B-19 upper mount/|
+	AK AKdemia Dominator handguard/|
+	Saiga-9 Hartman Gyurza handguard
 ]
 Recoil=0.000000
 Ergonomics=0.000000

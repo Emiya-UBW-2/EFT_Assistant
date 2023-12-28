@@ -30,8 +30,10 @@ ChildParts=[
 	Magpul M-LOK AFG tactical foregrip (Black)/|
 	Magpul M-LOK AFG tactical foregrip (FDE)/|
 	Magpul M-LOK AFG tactical foregrip (Olive Drab)/|
-	Magpul M-LOK AFG tactical foregrip (Stealth Gray)/|
-	Magpul M-LOK 4.1 inch rail
+	Magpul M-LOK AFG tactical foregrip (Stealth Grey)/|
+	Magpul M-LOK 4.1 inch rail/|
+	Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown)/|
+	Daniel Defense Enhanced M-LOK Vertical Foregrip (Black)
 ]
 Conflict=[
 	M700 7.62x51 ProMag AA-70 10-round magazine/|
@@ -39,7 +41,7 @@ Conflict=[
 	M700 7.62x51 Wyatt's Outdoor 10-round magazine/|
 	M700 7.62x51 Wyatt's Outdoor 5-round magazine
 ]
-Recoil=-7.000000
+Recoil=-5.000000
 Ergonomics=22.000000
 accuracyModifier=0.000000
 Name_Jpn=M700 Magpul Pro 700 chassis

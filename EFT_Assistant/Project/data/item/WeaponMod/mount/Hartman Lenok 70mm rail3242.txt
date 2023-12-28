@@ -1,0 +1,38 @@
+IDstr=65434a4e4e3a01736a6c9706
+Name=Hartman Lenok 70mm rail
+ShortName=Lenok
+Information_Eng=The "Lenok" Weaver rail allows installation of additional equipment on Hartman tubular handguards.
+Itemtype=mount
+width=1
+height=1
+weight=0.019000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser/|
+	Holosun LS321 Tactical device/|
+	AN/PEQ-15 tactical device/|
+	LA-5B/PEQ tactical device/|
+	NcSTAR Tactical blue laser LAM-module/|
+	Steiner DBAL-PL tactical device/|
+	Steiner LAS/TAC 2 tactical flashlight/|
+	SureFire X400 Ultra tactical flashlight with laser/|
+	SureFire XC1 tactical flashlight/|
+	Wilcox RAPTAR ES Tactical Rangefinder/|
+	Zenit Klesch-2IKS IR illuminator with laser/|
+	Zenit Klesch-2P flashlight with laser/|
+	Zenit Klesch-2U tactical flashlight/|
+	Zenit Perst-3 tactical device/|
+	Kiba Arms 25mm accessory ring mount/|
+	Daniel Defense 25mm accessory ring mount/|
+	Olight Baldr Pro tactical flashlight with laser/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
+	Insight WMX200 tactical flashlight/|
+	MAWL-C1+ tactical device/|
+	Zenit KR-2 old gen mount
+]
+Recoil=0.000000
+Ergonomics=0.000000
+accuracyModifier=0.000000
+Name_Jpn=Hartman Lenok 70mm rail
+Information_Jpn=The "Lenok" Weaver rail allows installation of additional equipment on Hartman tubular handguards.

@@ -12,8 +12,10 @@ ChildParts=[
 	Magpul M-LOK AFG tactical foregrip (Black)/|
 	Magpul M-LOK AFG tactical foregrip (FDE)/|
 	Magpul M-LOK AFG tactical foregrip (Olive Drab)/|
-	Magpul M-LOK AFG tactical foregrip (Stealth Gray)/|
-	Remington RAHG 4 inch rail
+	Magpul M-LOK AFG tactical foregrip (Stealth Grey)/|
+	Remington RAHG 4 inch rail/|
+	Daniel Defense Enhanced M-LOK Vertical Foregrip (Black)/|
+	Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown)
 ]
 ChildParts=[
 	NcSTAR MPR45 Backup mount

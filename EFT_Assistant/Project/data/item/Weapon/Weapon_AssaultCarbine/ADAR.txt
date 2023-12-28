@@ -37,7 +37,8 @@ ChildParts=[
 	AR-15 Stark AR Rifle Grip (FDE)/|
 	AR-15 Tactical Dynamics Hexgrip pistol grip/|
 	AR-15 Tactical Dynamics Skeletonized pistol grip/|
-	AR-15 Aeroknox Orion pistol grip
+	AR-15 Aeroknox Orion pistol grip/|
+	AR-15 SIG M400 Reduced Angle Pistol Grip (Coyote Tan)
 ]
 ChildParts=[
 	5.56x45 Colt AR-15 STANAG 30-round magazine/|
@@ -70,17 +71,17 @@ ChildParts=[
 ChildParts=[
 	AR-15 Colt A2 buffer tube/|
 	AR-15 ADAR 2-15 buffer tube/|
-	Colt Carbine buffer tube/|
+	AR-15 Colt Carbine buffer tube/|
 	AR-15 DoubleStar ACE SOCOM Gen.4 stock/|
-	ERGO F93 PRO stock/|
-	Magpul UBR GEN2 stock (Black)/|
-	Magpul UBR GEN2 stock (FDE)/|
-	Soyuz-TM buffer tube/|
-	Strike Industries Advanced Receiver Extension buffer tube/|
-	Strike Industries Advanced Receiver Extension buffer tube (Anodized Red)/|
-	TROY M7A1 PDW stock (Black)/|
-	TROY M7A1 PDW stock (FDE)/|
-	Strike Industries Viper PDW stock/|
+	AR-15 ERGO F93 PRO stock/|
+	AR-15 Magpul UBR GEN2 stock (Black)/|
+	AR-15 Magpul UBR GEN2 stock (FDE)/|
+	AR-15 Soyuz-TM buffer tube/|
+	AR-15 Strike Industries Advanced Receiver Extension buffer tube/|
+	AR-15 Strike Industries Advanced Receiver Extension buffer tube (Anodized Red)/|
+	AR-15 TROY M7A1 PDW stock (Black)/|
+	AR-15 TROY M7A1 PDW stock (FDE)/|
+	AR-15 Strike Industries Viper PDW stock/|
 	AR-15 RTM ATP buffer tube
 ]
 ChildParts=[
@@ -92,20 +93,21 @@ ChildParts=[
 	AR-15 MASP Industries Ambidextrous Battle Charging Handle/|
 	AR-15 Radian Weapons Raptor charging handle/|
 	AR-15 Radian Weapons Raptor charging handle (Grey)/|
-	AR-15 Rainier Arms Avalanche MOD2 charging handle
+	AR-15 Rainier Arms Avalanche MOD2 charging handle/|
+	AR-15 Daniel Defense GRIP-N-RIP charging handle
 ]
 Recoil=120.000000
-RecoilHorizontal=383.000000
+RecoilHorizontal=344.000000
 Ergonomics=48.000000
 SightRange=-100
 FireRate=800
 centerOfImpact=0.010000
 deviationCurve=1.350000
-recoilDispersion=15
+recoilDispersion=10
 recoilAngle=90
-cameraRecoil=0.072000
+cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=23
-convergence=1.500000
-Name_Jpn=ADAR 2-15 5.56x45 carbine
+convergence=0.000000
+Name_Jpn=ADAR 2-15 5.56x45 カービン
 Information_Jpn=ADAR 2-15 はAR-15プラットフォームに基づいて設計されたロシアの民間用カービンライフルだ。この銃はイスラエル製の部品と"Molot Oruzhie"製のクロムバレルを用いてサンクトペテルブルグで製造されている。

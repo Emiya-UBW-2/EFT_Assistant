@@ -1,5 +1,5 @@
 IDstr=59e6449086f7746c9f75e822
-Name=Molot AKM-type dust cover
+Name=Molot Arms AKM-type dust cover
 ShortName=Molot
 Information_Eng=A standard-issue dust cover for AKM-type Vepr carbines, manufactured by Molot Arms.
 Itemtype=receiver

@@ -1,12 +1,12 @@
 IDstr=6038d614d10cbf667352dd44
-Name=Hazard 4 Takedown sling backpack (Multicam)
+Name=Hazard 4 Takedown sling backpack (MultiCam)
 ShortName=Takedown
-Information_Eng=A single-strap sling backpack designed for carrying long-barreled weapons. Additional external pockets are designed to carry magazines, cleaning kit, or extra parts. Manufactured by Hazard 4. Multicam camouflage version.
+Information_Eng=A single-strap sling backpack designed for carrying long-barreled weapons. Additional external pockets are designed to carry magazines, cleaning kit, or extra parts. Manufactured by Hazard 4. MultiCam camouflage version.
 Itemtype=backpack
 width=3
 height=7
 weight=1.580000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
-Name_Jpn=Hazard 4 Takedown sling backpack (Multicam)
-Information_Jpn=A single-strap sling backpack designed for carrying long-barreled weapons. Additional external pockets are designed to carry magazines, cleaning kit, or extra parts. Manufactured by Hazard 4. Multicam camouflage version.
+Name_Jpn=Hazard4 テイクダウン スリングバックパック (マルチカム)
+Information_Jpn=銃身の長い武器を持ち運ぶ用途で作られたシングルストラップのスリングバックパックだ。マガジンや銃のメンテナンス用品、予備のパーツを入れるためのポケットが備わっている。Hazard 4社製。マルチカム迷彩バージョン。

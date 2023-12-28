@@ -11,10 +11,12 @@ propertiestype=
 Conflict=[
 	Army cap/|
 	Baseball cap/|
-	BEAR baseball cap (Green)/|
-	USEC baseball cap (Tan)/|
+	BEAR baseball cap (Olive Drab)/|
+	USEC baseball cap (Coyote)/|
 	EMERCOM cap/|
-	Police cap
+	Police cap/|
+	Basmach leather cap/|
+	Gus baseball cap
 ]
 Name_Jpn=ジェイソンマスク
 Information_Jpn=有名なホラー映画の恐ろしいマスク。

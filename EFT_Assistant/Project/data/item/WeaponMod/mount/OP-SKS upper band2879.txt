@@ -1,0 +1,22 @@
+IDstr=634f05a21f9f536910079b56
+Name=OP-SKS upper band
+ShortName=OP-SKS UB
+Information_Eng=A standard upper band for the OP-SKS carbine manufactured by Molot Arms, allows installation of rear sights.
+Itemtype=mount
+width=1
+height=1
+weight=0.250000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	OP-SKS gas tube/|
+	SKS gas tube
+]
+ChildParts=[
+	SKS rear sight
+]
+Recoil=0.000000
+Ergonomics=-1.000000
+accuracyModifier=0.000000
+Name_Jpn=SVDS upper band
+Information_Jpn=A standard upper band for SVDS sniper rifles and compatibles, allows installation of rear sights.

@@ -1,0 +1,12 @@
+IDstr=655746010177119f4a097ff7
+Name=SAPI level III+ ballistic plate
+ShortName=SAPI III+
+Information_Eng=Small Arms Protective Insert (SAPI) is a ceramic ballistic plate for torso front and back pouches of plate carrier.
+Itemtype=armor-plate
+width=2
+height=2
+weight=1.820000
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=SAPI level III+ ballistic plate
+Information_Jpn=Small Arms Protective Insert (SAPI) is a ceramic ballistic plate for torso front and back pouches of plate carrier.

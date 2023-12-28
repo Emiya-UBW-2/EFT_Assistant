@@ -1,5 +1,5 @@
 IDstr=617155ee50224f204c1da3cd
-Name=HK Adjustable Buttstock
+Name=HK417 Adjustable Buttstock
 ShortName=HK Adj.
 Information_Eng=An adjustable stock designed and manufactured by Heckler & Koch. This stock is fully adjustable for length of pull as well as the cheek height. Features a mount for installation of a cheek rest.
 Itemtype=stock
@@ -11,7 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	HK Adjustable Buttstock cheek rest
 ]
-Recoil=-33.000000
+Recoil=-23.000000
 Ergonomics=6.000000
 accuracyModifier=0.000000
 Name_Jpn=HK Adjustable Buttstock

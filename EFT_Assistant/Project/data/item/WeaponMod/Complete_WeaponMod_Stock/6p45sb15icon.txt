@@ -11,7 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AK GP-25 accessory kit recoil pad
 ]
-Recoil=-32.000000
+Recoil=-22.000000
 Ergonomics=5.000000
 accuracyModifier=0.000000
 Name_Jpn=AK-74M polymer stock (6P34 Sb.15)

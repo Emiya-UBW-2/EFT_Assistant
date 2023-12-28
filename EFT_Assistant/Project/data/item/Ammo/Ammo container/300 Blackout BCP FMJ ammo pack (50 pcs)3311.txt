@@ -1,0 +1,12 @@
+IDstr=657023bebfc87b3a34093207
+Name=.300 Blackout BCP FMJ ammo pack (50 pcs)
+ShortName=FMJ
+Information_Eng=A box of .300 Blackout BCP FMJ cartridges, 50 pieces.
+Itemtype=ammo-container
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=.300 Blackout BCP FMJ ammo pack (50 pcs)
+Information_Jpn=A box of .300 Blackout BCP FMJ cartridges, 50 pieces.

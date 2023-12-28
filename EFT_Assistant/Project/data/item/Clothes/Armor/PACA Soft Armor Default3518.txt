@@ -1,0 +1,16 @@
+IDstr=65712184f1074598bf0c02bc
+Name=PACA Soft Armor Default
+ShortName=PACA Default
+Itemtype=armor
+width=3
+height=3
+weight=3.500000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	PACA Soft Armorx1/|
+	Aramid insertx1/|
+]
+Name_Jpn=PACA Soft Armor デフォルト
+Information_Jpn=

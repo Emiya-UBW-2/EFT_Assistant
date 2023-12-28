@@ -1,5 +1,5 @@
 IDstr=5a6f5e048dc32e00094b97da
-Name=Glock 17 9x19 pistol slide
+Name=Glock 17 pistol slide
 ShortName=G17
 Information_Eng=A standard-issue slide for Glock 17 9x19 pistols.
 Itemtype=receiver

@@ -16,5 +16,5 @@ Parts=Vltor CASV KeyMod 6 inch rail
 Parts=Hera Arms CQR tactical foregrip
 Parts=Vltor CASV KeyMod 4 inch rail
 Parts=SureFire XC1 tactical flashlight
-Parts=Colt Carbine buffer tube
+Parts=AR-15 Colt Carbine buffer tube
 Parts=AR-15 Badger Ordnance Tactical Charging Handle Latch

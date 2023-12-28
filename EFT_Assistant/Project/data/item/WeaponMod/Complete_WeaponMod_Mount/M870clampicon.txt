@@ -19,7 +19,8 @@ ChildParts=[
 	Zenit Klesch-2P flashlight with laser/|
 	Zenit Klesch-2U tactical flashlight/|
 	Kiba Arms 25mm accessory ring mount/|
-	Daniel Defense 25mm accessory ring mount
+	Daniel Defense 25mm accessory ring mount/|
+	MAWL-C1+ tactical device
 ]
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
@@ -32,7 +33,8 @@ ChildParts=[
 	Zenit Klesch-2P flashlight with laser/|
 	Zenit Klesch-2U tactical flashlight/|
 	Kiba Arms 25mm accessory ring mount/|
-	Daniel Defense 25mm accessory ring mount
+	Daniel Defense 25mm accessory ring mount/|
+	MAWL-C1+ tactical device
 ]
 Recoil=0.000000
 Ergonomics=-1.000000

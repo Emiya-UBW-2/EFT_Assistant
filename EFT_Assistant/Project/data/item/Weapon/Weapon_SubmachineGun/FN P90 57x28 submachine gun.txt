@@ -28,18 +28,18 @@ ChildParts=[
 	FN P90 charging handle/|
 	FN P90 K&M The Handler charging handle
 ]
-Recoil=46.000000
-RecoilHorizontal=270.000000
+Recoil=54.000000
+RecoilHorizontal=243.000000
 Ergonomics=60.000000
 SightRange=-100
 FireRate=900
 centerOfImpact=0.250000
 deviationCurve=2.250000
-recoilDispersion=23
+recoilDispersion=15
 recoilAngle=90
-cameraRecoil=0.067200
+cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=11
-convergence=2.500000
-Name_Jpn=FN P90 5.7x28 submachine gun
-Information_Jpn=FN P90, also known as the FN Project 1990, is a compact personal defense weapon (PDW) designed and manufactured by FN Herstal in Belgium. Created in response to NATO requests for a replacement for 9x19mm Parabellum firearms, the P90 was designed as a compact but powerful firearm for vehicle crews, operators of crew-served weapons, support personnel, special forces, and counter-terrorist groups.
+convergence=0.000000
+Name_Jpn=FN P90 5.7x28 サブマシンガン
+Information_Jpn=FN P90 、FN Project 1990 として知られるのは、ベルギーの FN ハースタルによって設計・製造されたコンパクトな個人用武器（PDW）だ。9x19mmパラベラム弾を使用する銃の代替品の要求に応じて作成され、車両の操縦者、重火器の操作員、サポート要員、特殊部隊、対テロ組織が活用できるようデザインされた。

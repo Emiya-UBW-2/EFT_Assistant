@@ -1,5 +1,5 @@
 IDstr=5d6d3716a4b9361bc8618872
-Name=BNTI LShZ-2DTM helmet
+Name=BNTI LShZ-2DTM helmet (Black)
 ShortName=LShZ-2DTM
 Information_Eng=The LShZ-2DTM helmet is intended for periodic wearing with the purpose of protection from bullets of small arms of a user’s head, as well as for protection from bullets of small arms of a user’s face and neck when equipped with a visor and aventail.
 Itemtype=headwear
@@ -7,6 +7,6 @@ width=2
 height=2
 weight=3.400000
 fleaMarketFee=0
-propertiestype=ItemPropertiesHelmet
+propertiestype=
 Name_Jpn=BNTI LShZ-2DTM helmet
 Information_Jpn=The LShZ-2DTM helmet is intended for periodic wearing with the purpose of protection from bullets of small arms of a user’s head, as well as for protection from bullets of small arms of a user’s face and neck when equipped with a visor and aventail.

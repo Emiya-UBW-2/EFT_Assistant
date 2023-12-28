@@ -51,7 +51,7 @@ Reward_Rep=Prapor-5
 Reward_Rep=Therapist-2
 Reward_Item=[
 	Roublesx70000/|
-	Camelbak Tri-Zip assault backpackx1
+	Camelbak Tri-Zip assault backpack (Foliage)x1
 ]
 
 Reward_EXP=5300

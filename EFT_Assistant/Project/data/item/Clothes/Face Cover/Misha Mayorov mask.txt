@@ -11,10 +11,14 @@ propertiestype=
 Conflict=[
 	Army cap/|
 	Baseball cap/|
-	BEAR baseball cap (Green)/|
-	USEC baseball cap (Tan)/|
+	BEAR baseball cap (Olive Drab)/|
+	USEC baseball cap (Coyote)/|
 	EMERCOM cap/|
-	Police cap
+	Police cap/|
+	Diamond Age NeoSteel High Cut helmet (Black)/|
+	NPP KlASS Tor-2 helmet (Olive Drab)/|
+	Basmach leather cap/|
+	Gus baseball cap
 ]
 Name_Jpn=Misha Mayorov mask
 Information_Jpn=A spooky mask of the famous "The Scary Movie" horror movie anti-hero - Misha Mayorov.

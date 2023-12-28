@@ -14,7 +14,7 @@ ChildParts=[
 ChildParts=[
 	Mosin Rifle Tacfire pistol grip
 ]
-Recoil=-27.000002
+Recoil=-19.000000
 Ergonomics=11.000000
 accuracyModifier=0.000000
 Name_Jpn=Mosin Rifle sniper carbine stock

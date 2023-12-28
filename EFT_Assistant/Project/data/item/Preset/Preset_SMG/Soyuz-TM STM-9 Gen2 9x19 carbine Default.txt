@@ -16,8 +16,8 @@ containsItems=[
 	STM-9 9x19 10.5 inch barrelx1/|
 	STM-9 9x19 muzzle brakex1/|
 	AR-15 Soyuz-TM 9 inch M-LOK handguardx1/|
-	Soyuz-TM buffer tubex1/|
-	FAB Defense GL-CORE buttstockx1/|
+	AR-15 Soyuz-TM buffer tubex1/|
+	AR-15 FAB Defense GL-CORE buttstockx1/|
 	AR-15 MASP Industries Ambidextrous Battle Charging Handlex1/|
 	STM-9 magwellx1
 ]

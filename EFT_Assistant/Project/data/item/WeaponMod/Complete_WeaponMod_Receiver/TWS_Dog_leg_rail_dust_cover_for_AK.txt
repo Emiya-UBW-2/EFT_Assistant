@@ -69,8 +69,12 @@ ChildParts=[
 	AI AX-50 34mm scope mount/|
 	Armasight Zeus universal base/|
 	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope/|
-	SIG Sauer ROMEO7 1x30 reflex sight (prototype)/|
-	ELCAN Specter HCO holographic sight
+	SIG Sauer ROMEO7 1x30 reflex sight (Prototype)/|
+	ELCAN Specter HCO holographic sight/|
+	GBRS Aimpoint Hydra Mount Kit (Black)/|
+	GBRS Aimpoint Hydra Mount Kit (FDE)/|
+	Wilcox BOSS Xe reflex sight/|
+	SIG ALPHA4 30mm ring scope mount
 ]
 Conflict=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
@@ -92,7 +96,10 @@ Conflict=[
 	VOMZ Pilad 043-02 dovetail mount/|
 	Zenit B-13 "Klassika" dovetail rail platform/|
 	Zenit B-13V "Klassika" dovetail rail platform/|
-	AK RD Enhanced V2 Rear Sight
+	AK RD Enhanced V2 Rear Sight/|
+	AK-12 rear sight/|
+	AKMP system rear sight device/|
+	RPK-16 rear sight
 ]
 Recoil=0.000000
 Ergonomics=7.000000

@@ -13,5 +13,5 @@ Parts=KAC URX 3/3.1 short panel (FDE)
 Parts=Holosun LS321 Tactical device
 Parts=AR-15 KAC URX 3 8 inch lower handguard
 Parts=KAC URX 3/3.1 stopper panel (FDE)
-Parts=TROY M7A1 PDW stock (FDE)
+Parts=AR-15 TROY M7A1 PDW stock (FDE)
 Parts=AR-15 HK Extended Latch charging handle

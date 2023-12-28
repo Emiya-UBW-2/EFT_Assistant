@@ -24,5 +24,5 @@ containsItems=[
 	AK-12 5.45x39 early model 30-round magazinex1/|
 	AK Zenit RP-1 charging handlex1
 ]
-Name_Jpn=Kalashnikov AK-12 5.45x39 assault rifle Silenced
+Name_Jpn=Kalashnikov AK-12 5.45x39 アサルトライフル Silenced
 Information_Jpn=

@@ -1,5 +1,5 @@
 IDstr=5a27c99a86f7747d2c6bdd8e
-Name=Friend from the West - Part 1
+Name=Friend From the West - Part 1
 Trader=Skier
 
 NeedTask=Supplier

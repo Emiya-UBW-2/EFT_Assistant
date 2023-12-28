@@ -1,5 +1,5 @@
 IDstr=60b0f988c4449e4cb624c1da
-Name=Evasion armband
+Name=Armband (Evasion)
 ShortName=Evasion
 Information_Eng=A special identification armband from Evasion, a local esports tournament by Sigma.
 Itemtype=arm-band

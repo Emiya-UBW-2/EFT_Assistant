@@ -76,7 +76,7 @@ Task_Kill=[
 ]
 
 Reward_Item=[
-	6B43 6A Zabralo-Sh body armorx1
+	6B43 Zabralo-Sh body armor (Digital Flora)x1
 ]
 Reward_SkillLevelUp=Melee+2
 Reward_SkillLevelUp=Pistols+1

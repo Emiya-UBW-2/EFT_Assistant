@@ -329,19 +329,19 @@ namespace FPS_n2 {
 			const auto		GetWeaponconvergence() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesWeapon) ? this->m_floatParams[5] : 0; }
 		private:
 			void			GetJsonDataWeapon(const nlohmann::json& data) {
-				m_IntParams[0] = data["recoilVertical"];
-				m_IntParams[2] = data["recoilHorizontal"];
-				m_floatParams[0] = data["ergonomics"];
+				m_IntParams[0] = (data.contains("recoilVertical")) ? (int)data["recoilVertical"] : 0;
+				m_IntParams[2] = (data.contains("recoilHorizontal")) ? (int)data["recoilHorizontal"] : 0;
+				m_floatParams[0] = (data.contains("ergonomics")) ? (float)data["ergonomics"] : 0.f;
 				m_IntParams[1] = (data.contains("sightingRange")) ? (int)data["sightingRange"] : -100;
-				m_IntParams[3] = data["fireRate"];
-				m_floatParams[1] = data["centerOfImpact"];
-				m_floatParams[2] = data["deviationCurve"];
-				m_IntParams[4] = data["recoilDispersion"];
-				m_IntParams[5] = data["recoilAngle"];
-				m_floatParams[3] = data["cameraRecoil"];
-				m_floatParams[4] = data["cameraSnap"];
-				m_IntParams[6] = data["deviationMax"];
-				m_floatParams[5] = data["convergence"];
+				m_IntParams[3] = (data.contains("fireRate")) ? (int)data["fireRate"] : 0;
+				m_floatParams[1] = (data.contains("centerOfImpact")) ? (float)data["centerOfImpact"] : 0.f;
+				m_floatParams[2] = (data.contains("deviationCurve")) ? (float)data["deviationCurve"] : 0.f;
+				m_IntParams[4] = (data.contains("recoilDispersion")) ? (int)data["recoilDispersion"] : 0;
+				m_IntParams[5] = (data.contains("recoilAngle")) ? (int)data["recoilAngle"] : 0;
+				m_floatParams[3] = (data.contains("cameraRecoil") && data["cameraRecoil"].is_number()) ? (float)data["cameraRecoil"] : 0.f;
+				m_floatParams[4] = (data.contains("cameraSnap")) ? (float)data["cameraSnap"] : 0.f;
+				m_IntParams[6] = (data.contains("deviationMax")) ? (int)data["deviationMax"] : 0;
+				m_floatParams[5] = (data.contains("convergence") && data["convergence"].is_number()) ? (float)data["convergence"] : 0.f;
 			}
 			void			SetDataWeapon(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
 				if (LEFT == "Recoil") { this->m_IntParams[0] = std::stoi(Args[0]); }

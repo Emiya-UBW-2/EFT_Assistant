@@ -1,0 +1,16 @@
+IDstr=657bc59526820ea7da04f2e8
+Name=Tac-Kek FAST MT helmet (Replica) Default
+ShortName=TK FAST MT Default
+Itemtype=headwear
+width=2
+height=2
+weight=0.450000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Tac-Kek FAST MT helmet (Replica)x1/|
+	Layer of plasticx1/|
+]
+Name_Jpn=Tac-Kek FAST MT helmet (Replica) デフォルト
+Information_Jpn=

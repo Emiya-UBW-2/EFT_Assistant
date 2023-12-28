@@ -1,0 +1,20 @@
+IDstr=657315ddab5a49b71f098853
+Name=First in Line
+Trader=Therapist
+
+NeedLevel=0
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+
+Reward_Rep=Therapist+1
+Reward_Item=[
+	Roublesx6400/|
+	Factory plan mapx1/|
+	Bottle of water (0.6L)x2
+]
+
+Reward_EXP=1200

@@ -1,5 +1,5 @@
 IDstr=61bca7cda0eae612383adf57
-Name=NFM HJELM helmet
+Name=NFM HJELM helmet (Hellhound Grey)
 ShortName=HJELM
 Information_Eng=The new-gen HJELM system applies new ideas for modularity of attachments and electronics without the extra weight and bulk of previous generations. Manufactured by NFM.
 Itemtype=headwear
@@ -7,6 +7,6 @@ width=2
 height=2
 weight=0.800000
 fleaMarketFee=0
-propertiestype=ItemPropertiesHelmet
+propertiestype=
 Name_Jpn=NFM HJELM helmet
 Information_Jpn=The new-gen HJELM system applies new ideas for modularity of attachments and electronics without the extra weight and bulk of previous generations. Manufactured by NFM.

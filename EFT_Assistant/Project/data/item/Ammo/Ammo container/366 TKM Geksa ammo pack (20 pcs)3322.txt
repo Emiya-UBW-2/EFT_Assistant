@@ -1,0 +1,12 @@
+IDstr=657023fcbfc87b3a34093213
+Name=.366 TKM Geksa ammo pack (20 pcs)
+ShortName=Geksa
+Information_Eng=A box of .366 TKM Geksa cartridges, 20 pieces.
+Itemtype=ammo-container
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=.366 TKM Geksa ammo pack (20 pcs)
+Information_Jpn=A box of .366 TKM Geksa cartridges, 20 pieces.

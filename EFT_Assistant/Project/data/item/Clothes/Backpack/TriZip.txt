@@ -1,5 +1,5 @@
 IDstr=545cdae64bdc2d39198b4568
-Name=Camelbak Tri-Zip assault backpack
+Name=Camelbak Tri-Zip assault backpack (Foliage)
 ShortName=Tri-Zip
 Information_Eng=A Mid-sized versatile assault pack. Spacious, sturdy and comfortable, this backpack is loved both by military and hikers worldwide. 34L of total space, a hydration system, easy access to side pockets, near-perfect suspension, and a MOLLE attachment system make it a great choice for up to 72 hours of autonomous hiking... or carrying a good load of loot.
 Itemtype=backpack
@@ -8,5 +8,5 @@ height=6
 weight=2.200000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBackpack
-Name_Jpn=Camelbak Tri-Zip assault backpack
-Information_Jpn=A Mid-sized versatile assault pack. Spacious, sturdy and comfortable, this backpack is loved both by military and hikers worldwide. 34L of total space, a hydration system, easy access to side pockets, near-perfect suspension, and a MOLLE attachment system make it a great choice for up to 72 hours of autonomous hiking... or carrying a good load of loot.
+Name_Jpn=Camelbak Tri-Zip アサルトバックパック
+Information_Jpn=この中型の多目的アサルトパックバックパックは大容量で丈夫かつ快適性を備えており、軍民を問わず世界中で愛用されている。計34Lの容量があり、ハイドレーションシステム、便利なサイドポケット、ほぼ完璧なサスペンションに加えMOLLEシステムを備えているため、72時間以上活動する登山客にとっては最高のバックパックの一つだろう… だが、もちろん戦利品を運ぶのにもぴったりだ。

@@ -1,0 +1,12 @@
+IDstr=6570259fcfc010a0f5006a32
+Name=9x19mm QuakeMaker ammo pack (50 pcs)
+ShortName=QuakeMaker
+Information_Eng=A box of 9x19mm QuakeMaker cartridges, 50 pieces.
+Itemtype=ammo-container
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=9x19mm QuakeMaker ammo pack (50 pcs)
+Information_Jpn=A box of 9x19mm QuakeMaker cartridges, 50 pieces.

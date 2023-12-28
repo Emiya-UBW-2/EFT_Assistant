@@ -1,0 +1,12 @@
+IDstr=657024581419851aef03e700
+Name=12/70 "Poleva-6u" slug ammo pack (25 pcs)
+ShortName=Poleva-6u
+Information_Eng=A box of 12/70 "Poleva-6u" slug cartridges, 25 pieces.
+Itemtype=ammo-container
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=12/70 "Poleva-6u" slug ammo pack (25 pcs)
+Information_Jpn=A box of 12/70 "Poleva-6u" slug cartridges, 25 pieces.

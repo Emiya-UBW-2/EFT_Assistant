@@ -11,7 +11,7 @@ NeedLightkeeper=true
 
 factionName=Any
 NeedItem=AS VAL 9x39 special assault riflex1
-ContainsAll=FAB Defense GL-SHOCK buttstock
+ContainsAll=AR-15 FAB Defense GL-SHOCK buttstock
 ContainsAll=AN/PEQ-15 tactical device
 ContainsAll=NSPU-M 3.5x dovetail night vision scope
 Task_Else=accuracy >= 0

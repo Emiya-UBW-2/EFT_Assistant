@@ -11,7 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Mosin Rifle AIM Sports Recoil Pad
 ]
-Recoil=-42.000000
+Recoil=-29.000000
 Ergonomics=9.000000
 accuracyModifier=0.000000
 Name_Jpn=TOZ-106 custom cut Mosin stock

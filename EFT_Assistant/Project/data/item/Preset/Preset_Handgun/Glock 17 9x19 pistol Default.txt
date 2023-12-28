@@ -11,7 +11,7 @@ IsDefault=TRUE
 containsItems=[
 	Glock 17 9x19 pistolx1/|
 	Glock 17 9x19 barrelx1/|
-	Glock 17 9x19 pistol slidex1/|
+	Glock 17 pistol slidex1/|
 	Glock rear sightx1/|
 	Glock front sightx1/|
 	Glock 9x19 17-round magazinex1

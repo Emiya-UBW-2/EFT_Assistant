@@ -21,7 +21,8 @@ ChildParts=[
 	NPZ 1P78-1 dovetail mount/|
 	VOMZ Pilad 043-02 dovetail mount/|
 	SAG Bit low profile dovetail sidemount/|
-	SAG AK dovetail sidemount
+	SAG AK dovetail sidemount/|
+	Axion Kobra EKP-1S-03 reflex sight (Dovetail)
 ]
 Recoil=0.000000
 Ergonomics=-1.000000

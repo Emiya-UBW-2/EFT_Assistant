@@ -40,8 +40,10 @@ ChildParts=[
 	Magpul M-LOK AFG tactical foregrip (Black)/|
 	Magpul M-LOK AFG tactical foregrip (FDE)/|
 	Magpul M-LOK AFG tactical foregrip (Olive Drab)/|
-	Magpul M-LOK AFG tactical foregrip (Stealth Gray)/|
-	Magpul M-LOK 4.1 inch rail
+	Magpul M-LOK AFG tactical foregrip (Stealth Grey)/|
+	Magpul M-LOK 4.1 inch rail/|
+	Daniel Defense Enhanced M-LOK Vertical Foregrip (Black)/|
+	Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown)
 ]
 ChildParts=[
 	HK MP7 flip-up front sight/|
@@ -63,5 +65,5 @@ Conflict=[
 Recoil=-1.000000
 Ergonomics=10.000000
 accuracyModifier=0.000000
-Name_Jpn=AR-15 Geissele SMR MK16 13.5 inch M-LOK handguard
-Information_Jpn=The Geissele SMR 13.5 inch M-LOK handguard for AR-15 equipped with an M-LOK interface for installation of additional devices and accessories.
+Name_Jpn=AR-15 Geissele SMR MK16 13.5 inch M-LOK handguard (DDC)
+Information_Jpn=The Geissele SMR 13.5 inch M-LOK handguard for AR-15 equipped with an M-LOK interface for installation of additional devices and accessories. Desert Dirt Color version.

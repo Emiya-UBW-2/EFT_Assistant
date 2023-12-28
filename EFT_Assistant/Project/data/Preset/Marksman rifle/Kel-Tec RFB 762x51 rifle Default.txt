@@ -1,8 +1,0 @@
-Name=Kel-Tec RFB 7.62x51 rifle Default
-Base=Kel-Tec RFB 7.62x51 rifle
-Parts=SA-58/FAL 7.62x51 20-round magazine
-Parts=RFB 7.62x51 18 inch barrel
-Parts=RFB thread protection cap
-Parts=RFB handguard
-Parts=RFB handguard rail mount
-Parts=RFB scope rail mount

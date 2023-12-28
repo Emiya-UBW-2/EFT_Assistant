@@ -1,0 +1,17 @@
+IDstr=65766582234b9f6e050a42c1
+Name=IOTV Gen4 body armor (High Mobility Kit, MultiCam) Default
+ShortName=Gen4 HMK Default
+Itemtype=armor
+width=3
+height=4
+weight=13.000000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	IOTV Gen4 body armor (High Mobility Kit, MultiCam)x1/|
+	Aramid insertx1/|
+	Cult Locust ballistic platex2
+]
+Name_Jpn=IOTV Gen4 body armor (High Mobility Kit) デフォルト
+Information_Jpn=

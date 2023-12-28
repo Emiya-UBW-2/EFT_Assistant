@@ -1,0 +1,16 @@
+IDstr=657fa7c0e65c0122b70ffdb0
+Name=Ops-Core FAST MT Super High Cut helmet (Black) Default
+ShortName=FAST MT Default
+Itemtype=headwear
+width=2
+height=2
+weight=0.900000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Ops-Core FAST MT Super High Cut helmet (Black)x1/|
+	Hybrid composite materialsx1/|
+]
+Name_Jpn=Ops-Core FAST MT Super High Cut helmet (Black) デフォルト
+Information_Jpn=

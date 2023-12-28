@@ -27,7 +27,8 @@ ChildParts=[
 	Zenit Perst-3 tactical device/|
 	Daniel Defense 25mm accessory ring mount/|
 	Kiba Arms 25mm accessory ring mount/|
-	MAWL-C1+ tactical device
+	MAWL-C1+ tactical device/|
+	Zenit KR-2 old gen mount
 ]
 Recoil=0.000000
 Ergonomics=1.000000

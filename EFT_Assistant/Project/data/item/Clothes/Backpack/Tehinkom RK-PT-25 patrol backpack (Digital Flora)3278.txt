@@ -1,0 +1,12 @@
+IDstr=656ddcf0f02d7bcea90bf395
+Name=Tehinkom RK-PT-25 patrol backpack (Digital Flora)
+ShortName=RK-PT-25
+Information_Eng=This backpack is a multifunctional piece of equipment designed for transportation of various items of combat and marching equipment, additional weaponry, etc. It can be used both as a part of the UMTBS transport and unloading system (ZHTU 6Sh112) and independently, as a part of various sets of combat individual equipment. It can be used both as part of the UMTBS transportation and gear system (ZhTU 6Sh112) and independently, as part of various sets of individual combat equipment.
+Itemtype=backpack
+width=5
+height=5
+weight=1.100000
+fleaMarketFee=0
+propertiestype=ItemPropertiesBackpack
+Name_Jpn=Tehinkom RK-PT-25 patrol backpack (Digital Flora)
+Information_Jpn=This backpack is a multifunctional piece of equipment designed for transportation of various items of combat and marching equipment, additional weaponry, etc. It can be used both as a part of the UMTBS transport and unloading system (ZHTU 6Sh112) and independently, as a part of various sets of combat individual equipment. It can be used both as part of the UMTBS transportation and gear system (ZhTU 6Sh112) and independently, as part of various sets of individual combat equipment.

@@ -15,7 +15,7 @@ ChildParts=[
 	DeltaPoint Cross Slot Mount base/|
 	Trijicon RMR low profile mount
 ]
-Recoil=-9.000000
+Recoil=-6.000000
 Ergonomics=11.000000
 accuracyModifier=0.000000
 Name_Jpn=MP-133/153 plastic pistol grip

@@ -27,18 +27,18 @@ ChildParts=[
 ChildParts=[
 	APB 9x18PM sound suppressor
 ]
-Recoil=387.000000
+Recoil=328.000000
 RecoilHorizontal=260.000000
 Ergonomics=80.000000
 SightRange=-100
 FireRate=750
 centerOfImpact=0.320000
 deviationCurve=2.250000
-recoilDispersion=13
+recoilDispersion=8
 recoilAngle=85
-cameraRecoil=0.013440
-cameraSnap=3.500000
+cameraRecoil=0.000000
+cameraSnap=5.000000
 deviationMax=11
-convergence=5.000000
+convergence=0.000000
 Name_Jpn=APB 9x18PM silenced machine pistol
 Information_Jpn=The APB pistol (Avtomatícheskiy Pistolét Besshúmnyy - "Silenced Automatic Pistol", GRAU Index - 6P13) is a silenced version of the Stechkin machine pistol, widely used by different Russian special forces.

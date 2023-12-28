@@ -1,0 +1,16 @@
+IDstr=65765d08b7ea14f3b70da69b
+Name=NPP KlASS Kora-Kulon body armor (Digital Flora) Default
+ShortName=Kora-Kulon DFL Default
+Itemtype=armor
+width=3
+height=3
+weight=11.100000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	NPP KlASS Kora-Kulon body armor (Digital Flora)x1/|
+	Armor steel insertx1/|
+]
+Name_Jpn=NPP KlASS Kora-Kulon body armor (Digital Flora) デフォルト
+Information_Jpn=

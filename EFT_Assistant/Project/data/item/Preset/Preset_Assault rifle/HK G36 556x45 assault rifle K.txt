@@ -20,5 +20,5 @@ containsItems=[
 	HK G36 Hensoldt HKV 3x carry handlex1/|
 	Hensoldt RV red dot sightx1
 ]
-Name_Jpn=HK G36 5.56x45 assault rifle K
+Name_Jpn=G36 5.56x45 アサルトライフル K
 Information_Jpn=

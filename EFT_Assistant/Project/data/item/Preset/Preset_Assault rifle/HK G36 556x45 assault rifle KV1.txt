@@ -21,5 +21,5 @@ containsItems=[
 	HK G36 Hensoldt HKV 3x carry handlex1/|
 	Hensoldt RIS top railx1
 ]
-Name_Jpn=HK G36 5.56x45 assault rifle KV1
+Name_Jpn=G36 5.56x45 アサルトライフル KV1
 Information_Jpn=

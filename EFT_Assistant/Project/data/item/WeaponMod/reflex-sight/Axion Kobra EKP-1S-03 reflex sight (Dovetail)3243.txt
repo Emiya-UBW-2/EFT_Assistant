@@ -1,0 +1,35 @@
+IDstr=6544d4187c5457729210d277
+Name=Axion Kobra EKP-1S-03 reflex sight (Dovetail)
+ShortName=EKP-1S-03
+Information_Eng=Kobra is a highly popular red dot sight among law enforcement agencies and civilian shooters. It was developed for the Armed Forces of the Russian Federation. EKP-1S-03 has earned a reputation of reliable, fail-safe in the harshest field conditions among hunters, sports shooters, soldiers and collectors. This sight is designed for installation on the Dovetail type mounts. Manufactured by Axion.
+Itemtype=reflex-sight
+width=1
+height=1
+weight=0.273000
+fleaMarketFee=0
+propertiestype=ItemPropertiesScope
+Conflict=[
+	SOK-12 Leapers UTG PRO MTU002 Long Top aluminum handguard/|
+	AK Zenit B-33 dust cover/|
+	AK FAB Defense PDC dust cover/|
+	AK AKademia Bastion dust cover/|
+	AK TWS Dog Leg Rail dust cover/|
+	AK CNC Guns OV GP handguard/|
+	AK TDI X47 tactical handguard rail system/|
+	SVD SAG MK1 chassis/|
+	BelOMO PK-AA dovetail reflex sight/|
+	BelOMO PSO-1 4x24 scope/|
+	BelOMO PSO-1M2 4x24 scope/|
+	BelOMO PSO-1M2-1 4x24 scope/|
+	SVD SAG low profile sidemount/|
+	AKS-74U CAA XRSU47SU tactical handguard
+]
+Recoil=0.000000
+Ergonomics=-3.000000
+SightRange=200
+sightZooms=1.000000
+sightZooms=1.000000
+sightZooms=1.000000
+sightZooms=1.000000
+Name_Jpn=Axion Kobra EKP-1S-03 reflex sight (Dovetail)
+Information_Jpn=Kobra is a highly popular red dot sight among law enforcement agencies and civilian shooters. It was developed for the Armed Forces of the Russian Federation. EKP-1S-03 has earned a reputation of reliable, fail-safe in the harshest field conditions among hunters, sports shooters, soldiers and collectors. This sight is designed for installation on the Dovetail type mounts. Manufactured by Axion.

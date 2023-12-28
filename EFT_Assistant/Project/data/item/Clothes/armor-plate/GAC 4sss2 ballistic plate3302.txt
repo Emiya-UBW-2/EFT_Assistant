@@ -1,0 +1,12 @@
+IDstr=656faf0ca0dce000a2020f77
+Name=GAC 4sss2 ballistic plate
+ShortName=GAC 4sss2
+Information_Eng=A UHMWPE plate for torso front and back pouches of plate carrier.
+Itemtype=armor-plate
+width=2
+height=2
+weight=2.700000
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
+Name_Jpn=GAC 4sss2 ballistic plate
+Information_Jpn=A UHMWPE plate for torso front and back pouches of plate carrier.

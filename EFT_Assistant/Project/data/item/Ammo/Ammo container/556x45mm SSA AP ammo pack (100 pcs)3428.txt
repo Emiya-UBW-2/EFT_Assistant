@@ -1,0 +1,12 @@
+IDstr=65702681bfc87b3a3409325f
+Name=5.56x45mm SSA AP ammo pack (100 pcs)
+ShortName=SSA AP
+Information_Eng=A box of 5.56x45mm SSA AP cartridges, 100 pieces.
+Itemtype=ammo-container
+width=2
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=5.56x45mm SSA AP ammo pack (100 pcs)
+Information_Jpn=A box of 5.56x45mm SSA AP cartridges, 100 pieces.

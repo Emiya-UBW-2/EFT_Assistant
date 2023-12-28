@@ -19,8 +19,8 @@ ChildParts=[
 	M1911 Kiba Arms Geneburn custom side grips
 ]
 ChildParts=[
-	M1911A1 .45 ACP pistol slide/|
-	M45A1 .45 ACP pistol slide
+	M1911A1 pistol slide/|
+	M45A1 pistol slide
 ]
 ChildParts=[
 	M1911A1 .45 ACP 7-round magazine/|
@@ -57,11 +57,11 @@ SightRange=-100
 FireRate=30
 centerOfImpact=0.000000
 deviationCurve=2.250000
-recoilDispersion=15
+recoilDispersion=10
 recoilAngle=80
-cameraRecoil=0.014400
-cameraSnap=3.500000
+cameraRecoil=0.000000
+cameraSnap=5.000000
 deviationMax=11
-convergence=5.000000
+convergence=0.000000
 Name_Jpn=Colt M1911A1 .45 ACP ピストル
 Information_Jpn=Commonly known as just "1911", the M1911 is one of the most famous handguns on the planet. It went through both World Wars as the US Army's standard-issue, and despite being replaced in 1986, its further variations are still being used as the sidearm of different US Special Forces. The M1911A1 is the second generation of the original M1911 pistol. After World War I, the military's Model 1911 went through various changes including a shorter trigger with frame cuts, improved iron sights, an arched mainspring housing, and a redesigned grip safety.

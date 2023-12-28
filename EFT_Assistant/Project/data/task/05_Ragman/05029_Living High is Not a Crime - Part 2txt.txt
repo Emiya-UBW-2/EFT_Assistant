@@ -68,9 +68,9 @@ DogTagLv=0
 Reward_Rep=Ragman+5
 Reward_Item=[
 	Roublesx110000/|
-	Altyn bulletproof helmetx1/|
-	Altyn face shieldx1/|
-	Ars Arma CPC MOD.1 plate carrierx1
+	Altyn bulletproof helmet (Olive Drab)x1/|
+	Altyn helmet face shieldx1/|
+	Ars Arma CPC MOD.1 plate carrier (A-TACS FG)x1
 ]
 
 Reward_EXP=25900

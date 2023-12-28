@@ -1,7 +1,7 @@
 IDstr=628baf0b967de16aab5a4f36
 Name=LBT-1961A Load Bearing Chest Rig (Goons Edition)
 ShortName=LBCR GE
-Information_Eng=A tactical load-bearing system designed to carry magazines, grenades, and special equipment, while using low-profile body armor. Manufactured by London Bridge Trading. Special configuration by Birdeye, member of The Goons squad.
+Information_Eng=A tactical load-bearing system designed to carry magazines, grenades, and special equipment, while using low-profile body armor. Manufactured by London Bridge Trading. Special configuration by Birdeye, member of the Goons squad.
 Itemtype=chest-rig
 width=3
 height=3

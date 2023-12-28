@@ -22,17 +22,17 @@ ChildParts=[
 	TOZ-106 dovetail mount
 ]
 Recoil=663.000000
-RecoilHorizontal=650.000000
+RecoilHorizontal=585.000000
 Ergonomics=60.000000
 SightRange=-100
 FireRate=30
 centerOfImpact=0.700000
 deviationCurve=2.500000
-recoilDispersion=30
+recoilDispersion=20
 recoilAngle=90
-cameraRecoil=0.192000
+cameraRecoil=0.000000
 cameraSnap=2.300000
 deviationMax=10
-convergence=1.300000
+convergence=0.000000
 Name_Jpn=TOZ-106 20ga ボルトアクション ショットガン
 Information_Jpn=単銃身で20ゲージの散弾を使用するボルトアクション方式の狩猟用散弾銃。違法に銃身を切り詰めて銃床も短くしたソビエト連邦の散弾銃は、コルホーズのような歴史的な背景もあって "Смерть председателя" (スニャルチ プレチダーチリャ / 議長の死) という通称で呼ばれたが、この TOZ-106 もコンパクトなサイズからその名で広く知られている。
