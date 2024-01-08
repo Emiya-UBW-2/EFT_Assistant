@@ -17,5 +17,5 @@ containsItems=[
 	SV-98 wooden stockx1/|
 	SV-98 bipodx1
 ]
-Name_Jpn=SV-98 7.62x54R ボルトアクション スナイパーライフル デフォルト
+Name_Jpn=SV-98 7.62x54R bolt-action sniper rifle Default
 Information_Jpn=

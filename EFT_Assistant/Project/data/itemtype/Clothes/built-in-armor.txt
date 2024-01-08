@@ -1,0 +1,2 @@
+Name=built-in-armor
+Category=Clothes

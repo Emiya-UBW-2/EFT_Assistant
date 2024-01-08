@@ -1,0 +1,16 @@
+IDstr=657660a1526e320fbe0357c1
+Name=ECLiPSE RBAV-AF plate carrier (Ranger Green) Default
+ShortName=RBAV-AF Default
+Itemtype=chest-rig
+width=3
+height=4
+weight=7.150000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	ECLiPSE RBAV-AF plate carrier (Ranger Green)x1/|
+	Kiba Arms Titan ballistic platex2
+]
+Name_Jpn=ECLiPSE RBAV-AF plate carrier (Ranger Green) Default
+Information_Jpn=

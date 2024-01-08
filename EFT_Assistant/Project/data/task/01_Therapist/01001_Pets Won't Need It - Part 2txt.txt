@@ -1,0 +1,56 @@
+IDstr=6573387d0b26ed4fde798de3
+Name=Pets Won't Need It - Part 2
+Trader=Therapist
+
+NeedTask=Pets Won't Need It - Part 1
+NeedLevel=12
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+factionName=Any
+Task_Map=Streets of Tarkov
+Task_Else=TaskType:visit
+Task_Else=Locate the first pharmacy on Primorsky Ave on Streets of Tarkov
+Task_Map=Streets of Tarkov
+Task_Else=TaskType:visit
+Task_Else=Locate the second pharmacy on Primorsky Ave on Streets of Tarkov
+Task_Map=Streets of Tarkov
+Task_Else=TaskType:visit
+Task_Else=Locate the third pharmacy at Cardinal apartment complex on Streets of Tarkov
+Task_Map=Streets of Tarkov
+Task_Else=脱出ステータス:[ExpBonusExpBonusSurvived]
+
+[
+	TaskType=visit
+	TaskText=Locate the first pharmacy on Primorsky Ave on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate the second pharmacy on Primorsky Ave on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate the third pharmacy at Cardinal apartment complex on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Therapist+2
+Reward_Item=[
+	Roublesx55000/|
+	Disposable syringex4/|
+	Pile of medsx4/|
+	Morphine injectorx2/|
+	L1 (Norepinephrine) injectorx2
+]
+
+Reward_EXP=9000

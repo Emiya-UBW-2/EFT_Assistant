@@ -20,5 +20,5 @@ containsItems=[
 	M45A1 hammerx1/|
 	M45A1 slide lockx1
 ]
-Name_Jpn=Colt M45A1 .45 ACP ピストル デフォルト
+Name_Jpn=Colt M45A1 .45 ACP pistol Default
 Information_Jpn=

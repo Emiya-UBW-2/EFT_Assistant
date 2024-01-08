@@ -1,0 +1,16 @@
+IDstr=657bc821aab96fccee08becc
+Name=Maska-1SCh bulletproof helmet (Killa Edition) Default
+ShortName=Maska-1SCh KE Default
+Itemtype=headwear
+width=2
+height=2
+weight=3.700000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Maska-1SCh bulletproof helmet (Killa Edition)x1/|
+	Maska-1SCh face shield (Killa Edition)x1
+]
+Name_Jpn=Maska-1SCh bulletproof helmet (Killa Edition) Default
+Information_Jpn=

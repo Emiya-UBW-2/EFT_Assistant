@@ -19,5 +19,5 @@ containsItems=[
 	AKS-74 metal skeletonized stock (6P21 Sb.5)x1/|
 	AK-74 5.45x39 6L20 30-round magazinex1
 ]
-Name_Jpn=Kalashnikov AKS-74N 5.45x39 アサルトライフル デフォルト
+Name_Jpn=Kalashnikov AKS-74N 5.45x39 assault rifle Default
 Information_Jpn=

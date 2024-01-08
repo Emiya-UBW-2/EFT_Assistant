@@ -22,5 +22,5 @@ containsItems=[
 	AR-15 Magpul MOE Carbine stock (Black)x1/|
 	Magpul MOE Carbine rubber buttpadx1
 ]
-Name_Jpn=SA-58 7.62x51 アサルトライフル デフォルト
+Name_Jpn=DS Arms SA-58 7.62x51 assault rifle Default
 Information_Jpn=

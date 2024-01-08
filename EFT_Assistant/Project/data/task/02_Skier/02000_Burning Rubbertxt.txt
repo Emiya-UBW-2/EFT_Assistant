@@ -1,0 +1,32 @@
+IDstr=657315e270bb0b8dba00cc48
+Name=Burning Rubber
+Trader=Skier
+
+NeedLevel=1
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Map=Ground Zero
+factionName=Any
+Task_Map=Ground Zero
+Task_Else=脱出ステータス:[Run Through,Survived]
+Task_Else=脱出地点:Police Cordon V-Ex
+
+[
+	TaskType=extract
+	TaskText=Use the paid vehicle extraction on Ground Zero
+	TaskOptional=false
+]
+
+Reward_Item=[
+	Roublesx5000
+]
+Reward_Rep=Skier+1
+Reward_Item=[
+	Roublesx12000/|
+	OPSMEN Earmor M32 headsetx1
+]
+
+Reward_EXP=1900

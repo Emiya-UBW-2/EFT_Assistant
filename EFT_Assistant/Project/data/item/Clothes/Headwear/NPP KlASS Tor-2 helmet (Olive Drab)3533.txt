@@ -7,7 +7,7 @@ width=2
 height=2
 weight=2.400000
 fleaMarketFee=0
-propertiestype=
+propertiestype=ItemPropertiesHelmet
 Conflict=[
 	Walker's Razor Digital headset/|
 	Walker's XCEL 500BT Digital headset

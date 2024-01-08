@@ -19,5 +19,5 @@ containsItems=[
 	RPD wooden handguardx1/|
 	RPD rear sightx1
 ]
-Name_Jpn=Degtyarev RPD 7.62x39 machine gun デフォルト
+Name_Jpn=Degtyarev RPD 7.62x39 machine gun Default
 Information_Jpn=

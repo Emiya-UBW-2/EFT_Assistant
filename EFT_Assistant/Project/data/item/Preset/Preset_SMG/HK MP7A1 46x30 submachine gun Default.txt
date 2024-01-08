@@ -16,5 +16,5 @@ containsItems=[
 	HK MP7 flip-up rear sightx1/|
 	HK MP7A1 stockx1
 ]
-Name_Jpn=MP7A1 4.6x30 サブマシンガン デフォルト
+Name_Jpn=HK MP7A1 4.6x30 submachine gun Default
 Information_Jpn=

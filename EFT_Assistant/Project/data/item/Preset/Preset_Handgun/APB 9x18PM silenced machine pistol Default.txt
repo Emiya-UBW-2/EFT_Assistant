@@ -17,5 +17,5 @@ containsItems=[
 	APB rear sightx1/|
 	APB 9x18PM sound suppressorx1
 ]
-Name_Jpn=APB 9x18PM silenced machine pistol デフォルト
+Name_Jpn=APB 9x18PM silenced machine pistol Default
 Information_Jpn=

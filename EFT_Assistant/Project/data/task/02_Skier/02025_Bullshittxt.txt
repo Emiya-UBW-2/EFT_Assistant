@@ -6,7 +6,7 @@ NeedTask=Silent Caliber
 NeedLevel=30
 
 CanRestart=true
-NeedKappa=true
+NeedKappa=false
 NeedLightkeeper=true
 
 Task_Map=Customs

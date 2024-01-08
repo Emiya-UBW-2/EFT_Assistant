@@ -1,0 +1,58 @@
+IDstr=6578ec473dbd035d04531a8d
+Name=Steady Signal
+Trader=Mechanic
+
+NeedTask=Signal - Part 4
+NeedLevel=15
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Woods
+factionName=Any
+Task_Map=Woods
+NeedItem=MS2000 Markerx1
+Task_Map=Woods
+NeedItem=MS2000 Markerx1
+Task_Map=Woods
+NeedItem=MS2000 Markerx1
+Task_Map=Woods
+NeedItem=MS2000 Markerx1
+Task_Map=Woods
+NeedItem=MS2000 Markerx1
+
+[
+	TaskType=mark
+	TaskText=Mark the first weather station with an MS2000 Marker on Woods
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Mark the second weather station with an MS2000 Marker on Woods
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Mark the third weather station with an MS2000 Marker on Woods
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Mark the fourth weather station with an MS2000 Marker on Woods
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Mark the fifth weather station with an MS2000 Marker on Woods
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+2
+Reward_Item=[
+	Roublesx50000/|
+	Military cablex1/|
+	Military circuit boardx1
+]
+
+Reward_EXP=14000

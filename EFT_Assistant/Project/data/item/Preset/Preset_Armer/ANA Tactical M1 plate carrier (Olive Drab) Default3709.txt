@@ -1,0 +1,16 @@
+IDstr=6576616086f11bca4106d35f
+Name=ANA Tactical M1 plate carrier (Olive Drab) Default
+ShortName=ANA M1 Default
+Itemtype=chest-rig
+width=4
+height=4
+weight=9.750000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	ANA Tactical M1 plate carrier (Olive Drab)x1/|
+	Global Armor’s Steel ballistic platex2
+]
+Name_Jpn=ANA Tactical M1 plate carrier (Olive Drab) Default
+Information_Jpn=

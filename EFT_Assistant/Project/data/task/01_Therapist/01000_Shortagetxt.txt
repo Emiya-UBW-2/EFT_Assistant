@@ -2,6 +2,7 @@ IDstr=5967733e86f774602332fc84
 Name=Shortage
 Trader=Therapist
 
+NeedTask=First in Line
 NeedLevel=1
 
 CanRestart=false

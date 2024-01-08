@@ -1,0 +1,16 @@
+IDstr=6576676d86f11bca4106d37b
+Name=5.11 Tactical Hexgrid plate carrier Default
+ShortName=Hexgrid Default
+Itemtype=armor
+width=3
+height=3
+weight=6.420000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	5.11 Tactical Hexgrid plate carrierx1/|
+	GAC 4sss2 ballistic platex2
+]
+Name_Jpn=5.11 Tactical Hexgrid plate carrier Default
+Information_Jpn=

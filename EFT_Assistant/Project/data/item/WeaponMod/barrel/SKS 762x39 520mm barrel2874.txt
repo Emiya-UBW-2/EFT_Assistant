@@ -23,5 +23,5 @@ Recoil=-8.000000
 Ergonomics=-8.000000
 centerOfImpact=0.050000
 deviationMax=23
-Name_Jpn=Mosin Carbine 7.62x54R 514mm barrel
-Information_Jpn=Mosin-Nagantカービン用の514mm標準バレル。
+Name_Jpn=SKS 7.62x39 520mm barrel
+Information_Jpn=A standard-issue 520mm barrel for the SKS carbine. Manufactured by TOZ.

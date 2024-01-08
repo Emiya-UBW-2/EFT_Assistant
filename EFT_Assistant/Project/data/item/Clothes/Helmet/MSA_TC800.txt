@@ -7,6 +7,6 @@ width=2
 height=2
 weight=1.170000
 fleaMarketFee=0
-propertiestype=
+propertiestype=ItemPropertiesHelmet
 Name_Jpn=MSA Gallet TC 800 High Cut コンバットヘルメット
 Information_Jpn=MSA TC 800バリスティックヘルメットは警察系特殊部隊の戦闘任務及び偵察任務のために設計された。様々なパーツを加えて改造することができる。

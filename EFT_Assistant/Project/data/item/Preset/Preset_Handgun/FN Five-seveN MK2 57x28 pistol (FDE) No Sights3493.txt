@@ -1,0 +1,18 @@
+IDstr=fnfivesevenfdenosights01
+Name=FN Five-seveN MK2 5.7x28 pistol (FDE) No Sights
+ShortName=FN 5-7 FDE No Sights
+Itemtype=handgun
+width=2
+height=1
+weight=0.648000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	FN Five-seveN MK2 5.7x28 pistol (FDE)x1/|
+	FN Five-seveN 5.7x28 barrelx1/|
+	FN Five-seveN MK2 pistol slidex1/|
+	FN Five-seveN 5.7x28 20-round magazinex1
+]
+Name_Jpn=FN Five-seveN MK2 5.7x28 pistol (FDE) No Sights
+Information_Jpn=

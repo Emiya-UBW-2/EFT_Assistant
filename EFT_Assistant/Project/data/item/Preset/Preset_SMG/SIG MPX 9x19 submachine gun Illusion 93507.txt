@@ -1,0 +1,27 @@
+IDstr=sigmpxillusion9000000001
+Name=SIG MPX 9x19 submachine gun Illusion 9
+ShortName=MPX Illusion 9
+Itemtype=smg
+width=6
+height=2
+weight=3.255000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	SIG MPX 9x19 submachine gunx1/|
+	MPX pistol gripx1/|
+	MPX GEN1 9x19 upper receiverx1/|
+	MPX 9x19 14 inch barrelx1/|
+	AAC Illusion 9 9x19 sound suppressorx1/|
+	MPX Midwest Industries 14 inch M-LOK handguardx1/|
+	Magpul M-LOK 2.5 inch railx2/|
+	Magpul M-LOK 4.1 inch railx1/|
+	MPX flip-up front sightx1/|
+	MPX flip-up rear sightx1/|
+	MPX double latch charging handlex1/|
+	MPX 9x19 30-round magazinex1/|
+	MPX/MCX Maxim Defense CQB telescoping stockx1
+]
+Name_Jpn=MPX 9x19 サブマシンガン Illusion 9
+Information_Jpn=

@@ -14,5 +14,5 @@ containsItems=[
 	M700 Hogue Overmolded Ghillie stockx1/|
 	M700 7.62x51 20 inch threaded barrelx1
 ]
-Name_Jpn=Remington Model 700 7.62x51 bolt-action sniper rifle デフォルト
+Name_Jpn=Remington Model 700 7.62x51 bolt-action sniper rifle Default
 Information_Jpn=

@@ -7,6 +7,6 @@ width=2
 height=2
 weight=1.500000
 fleaMarketFee=0
-propertiestype=
+propertiestype=ItemPropertiesHelmet
 Name_Jpn=ShPM Firefighter helmet
 Information_Jpn=消防士ヘルメットは高温や衝撃、有害物質といった、消火救命活動中に生じる危険から消防士の頭部を保護する個人装備だ。

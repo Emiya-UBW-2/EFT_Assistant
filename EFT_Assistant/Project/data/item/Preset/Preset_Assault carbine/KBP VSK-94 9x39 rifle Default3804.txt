@@ -16,5 +16,5 @@ containsItems=[
 	9A-91 handguard retainerx1/|
 	VSK-94 handguardx1
 ]
-Name_Jpn=KBP VSK-94 9x39 rifle デフォルト
+Name_Jpn=KBP VSK-94 9x39 rifle Default
 Information_Jpn=

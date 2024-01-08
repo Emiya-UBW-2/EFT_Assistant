@@ -2,12 +2,12 @@ IDstr=5c1234c286f77406fa13baeb
 Name=Setup
 Trader=Skier
 
-NeedTask=Bullshit
-NeedLevel=30
+NeedTask=Friend From the West - Part 2
+NeedLevel=18
 
 CanRestart=false
 NeedKappa=true
-NeedLightkeeper=false
+NeedLightkeeper=true
 
 Task_Map=Customs
 factionName=Any

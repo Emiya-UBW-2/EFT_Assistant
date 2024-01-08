@@ -25,5 +25,5 @@ containsItems=[
 	FN SCAR cheek rest (FDE)x1/|
 	FN SCAR charging handlex1
 ]
-Name_Jpn=FN SCAR-L 5.56x45 assault rifle (FDE) デフォルト
+Name_Jpn=FN SCAR-L 5.56x45 assault rifle (FDE) Default
 Information_Jpn=

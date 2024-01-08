@@ -16,5 +16,5 @@ containsItems=[
 	Glock front sightx1/|
 	Glock 9x19 17-round magazinex1
 ]
-Name_Jpn=Glock 18C 9x19 machine pistol デフォルト
+Name_Jpn=Glock 18C 9x19 machine pistol Default
 Information_Jpn=

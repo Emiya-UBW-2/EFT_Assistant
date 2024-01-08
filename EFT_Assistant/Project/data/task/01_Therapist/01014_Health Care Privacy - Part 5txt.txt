@@ -3,7 +3,7 @@ Name=Health Care Privacy - Part 5
 Trader=Therapist
 
 NeedTask=Health Care Privacy - Part 4
-NeedLevel=10
+NeedLevel=20
 
 CanRestart=false
 NeedKappa=true

@@ -3,7 +3,7 @@ Name=Lost Contact
 Trader=Therapist
 
 NeedTask=Health Care Privacy - Part 2
-NeedLevel=17
+NeedLevel=20
 
 CanRestart=false
 NeedKappa=true

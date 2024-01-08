@@ -18,5 +18,5 @@ containsItems=[
 	SVT dust cover x1/|
 	SVT-40 7.62x54R 10-round magazinex1
 ]
-Name_Jpn=SVT-40 7.62x54R ライフル デフォルト
+Name_Jpn=Tokarev SVT-40 7.62x54R rifle Default
 Information_Jpn=

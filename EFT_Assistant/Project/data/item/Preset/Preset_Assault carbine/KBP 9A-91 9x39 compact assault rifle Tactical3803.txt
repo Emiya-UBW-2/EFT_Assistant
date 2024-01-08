@@ -21,5 +21,5 @@ containsItems=[
 	Zenit 2D flashlightx1/|
 	9A-91 handguardx1
 ]
-Name_Jpn=KBP 9A-91 9x39 compact assault rifle Tactical
+Name_Jpn=undefined undefined
 Information_Jpn=

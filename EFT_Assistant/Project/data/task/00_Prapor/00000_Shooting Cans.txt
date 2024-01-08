@@ -1,0 +1,48 @@
+IDstr=657315df034d76585f032e01
+Name=Shooting Cans
+Trader=Prapor
+
+NeedLevel=1
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Map=Ground Zero
+factionName=Any
+Task_Map=Ground Zero
+Task_Else=TaskType:visit
+Task_Else=Locate the Utyos machine gun on Ground Zero
+Task_Map=Ground Zero
+Task_Else=TaskType:visit
+Task_Else=Locate the AGS grenade launcher on Ground Zero
+Task_Map=Ground Zero
+Task_Kill=[
+	Ground Zero-savagex5
+]
+Task_Else=距離: >= 0m
+
+[
+	TaskType=visit
+	TaskText=Locate the Utyos machine gun on Ground Zero
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate the AGS grenade launcher on Ground Zero
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate any target on Ground Zero
+	TaskOptional=false
+]
+
+Reward_Rep=Prapor+1
+Reward_Item=[
+	Roublesx13000/|
+	Mosin 7.62x54R bolt-action rifle (Infantry) Defaultx1/|
+	7.62x54mm R FMJ ammo pack (20 pcs)x3
+]
+
+Reward_EXP=1600

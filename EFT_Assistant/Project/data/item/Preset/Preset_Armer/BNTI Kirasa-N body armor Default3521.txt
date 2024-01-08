@@ -1,0 +1,16 @@
+IDstr=657122506fe59548840cb559
+Name=BNTI Kirasa-N body armor Default
+ShortName=Kirasa-N Default
+Itemtype=armor
+width=3
+height=3
+weight=10.700000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	BNTI Kirasa-N body armorx1/|
+	AR500 Legacy Plate ballistic platex2
+]
+Name_Jpn=BNTI Kirasa-N body armor Default
+Information_Jpn=

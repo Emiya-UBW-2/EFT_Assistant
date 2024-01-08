@@ -23,5 +23,5 @@ containsItems=[
 	MPX/MCX lightweight stockx1/|
 	MCX charging handlex1
 ]
-Name_Jpn=MCX .300 Blackout アサルトライフル デフォルト
+Name_Jpn=SIG MCX .300 Blackout assault rifle Default
 Information_Jpn=

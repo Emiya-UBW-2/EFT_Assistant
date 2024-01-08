@@ -16,5 +16,5 @@ containsItems=[
 	Glock 19X front sightx1/|
 	Glock 9x19 19-round magazine (Coyote)x1
 ]
-Name_Jpn=Glock 19X 9x19 pistol デフォルト
+Name_Jpn=Glock 19X 9x19 pistol Default
 Information_Jpn=

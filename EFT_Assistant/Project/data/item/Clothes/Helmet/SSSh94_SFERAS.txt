@@ -7,7 +7,7 @@ width=2
 height=2
 weight=3.500000
 fleaMarketFee=0
-propertiestype=
+propertiestype=ItemPropertiesHelmet
 Conflict=[
 	RayBench Hipster Reserve sunglasses
 ]

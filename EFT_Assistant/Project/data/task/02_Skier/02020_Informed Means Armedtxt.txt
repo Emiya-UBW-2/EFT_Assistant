@@ -2,7 +2,7 @@ IDstr=5b47926a86f7747ccc057c15
 Name=Informed Means Armed
 Trader=Skier
 
-NeedTask=Friend From the West - Part 2
+NeedTask=Setup
 NeedLevel=24
 
 CanRestart=false

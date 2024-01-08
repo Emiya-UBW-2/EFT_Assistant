@@ -20,5 +20,5 @@ containsItems=[
 	FN P90 5.7x28 flash hiderx1/|
 	FN P90 charging handlex1
 ]
-Name_Jpn=FN P90 5.7x28 サブマシンガン デフォルト
+Name_Jpn=FN P90 5.7x28 submachine gun Default
 Information_Jpn=

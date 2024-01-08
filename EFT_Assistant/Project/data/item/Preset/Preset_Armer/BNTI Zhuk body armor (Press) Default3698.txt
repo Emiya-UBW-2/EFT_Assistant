@@ -1,0 +1,17 @@
+IDstr=65765a38526e320fbe035795
+Name=BNTI Zhuk body armor (Press) Default
+ShortName=Zhuk Default
+Itemtype=armor
+width=3
+height=3
+weight=5.200000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	BNTI Zhuk body armor (Press)x1/|
+	Zhuk-3 ballistic plate (Front)x1/|
+	PRTCTR Lightweight ballistic platex1
+]
+Name_Jpn=BNTI Zhuk body armor (Press) Default
+Information_Jpn=

@@ -3,7 +3,7 @@ Name=Health Care Privacy - Part 2
 Trader=Therapist
 
 NeedTask=Health Care Privacy - Part 1
-NeedLevel=10
+NeedLevel=20
 NeedItem=[Health Resort west wing room 306 keyx1]
 
 CanRestart=false

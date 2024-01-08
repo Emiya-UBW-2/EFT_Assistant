@@ -7,6 +7,6 @@ width=2
 height=2
 weight=0.960000
 fleaMarketFee=0
-propertiestype=
+propertiestype=ItemPropertiesHelmet
 Name_Jpn=Diamond Age Bastion helmet
 Information_Jpn=メーカーによると、Bastionは銃口初速のライフルの徹甲弾でさえも防ぐことができる世界で初めてのコンバットヘルメットだ。

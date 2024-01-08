@@ -2,6 +2,7 @@ IDstr=596b36c586f77450d6045ad2
 Name=Supplier
 Trader=Skier
 
+NeedTask=Burning Rubber
 NeedLevel=5
 
 CanRestart=false

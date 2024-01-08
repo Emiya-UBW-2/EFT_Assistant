@@ -18,5 +18,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
-Name_Jpn=VPO-101 "Vepr-Hunter" gas tube
-Information_Jpn=A standard gas tube for VPO-101 Vepr Hunter carbines. Gas tubes channel the travel direction of gas piston.
+Name_Jpn=SKS gas tube
+Information_Jpn=A standard gas tube for the SKS carbine manufactured by TOZ. Gas tubes channel the travel direction of gas piston.

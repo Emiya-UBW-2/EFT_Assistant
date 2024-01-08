@@ -18,5 +18,5 @@ containsItems=[
 	MP9 side railx1/|
 	MP9 charging handlex1
 ]
-Name_Jpn=MP9-N 9x19 サブマシンガン デフォルト
+Name_Jpn=B&T MP9-N 9x19 submachine gun Default
 Information_Jpn=

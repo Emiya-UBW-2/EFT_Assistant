@@ -1,0 +1,18 @@
+IDstr=65766278526e320fbe0357d4
+Name=NPP KlASS Korund-VM body armor Default
+ShortName=Korund-VM Default
+Itemtype=armor
+width=3
+height=4
+weight=9.800000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	NPP KlASS Korund-VM body armorx1/|
+	Korund VM ballistic plates (Front)x1/|
+	Korund VM ballistic plate (Side)x2/|
+	Korund-VM ballistic plate (Back)x1
+]
+Name_Jpn=NPP KlASS Korund-VM body armor Default
+Information_Jpn=

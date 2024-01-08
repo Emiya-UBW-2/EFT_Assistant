@@ -38,7 +38,7 @@ Task_Else=ゾーン:[Inside Resort]
 ]
 [
 	TaskType=shoot
-	TaskText=Eliminate PMC operatives at the Health Resort on Shoreline
+	TaskText=Eliminate PMC operatives at the River Station on Shoreline
 	TaskOptional=false
 ]
 

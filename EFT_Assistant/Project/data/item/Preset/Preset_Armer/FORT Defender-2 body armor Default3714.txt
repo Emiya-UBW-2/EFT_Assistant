@@ -1,0 +1,16 @@
+IDstr=657663ff303700411c024278
+Name=FORT Defender-2 body armor Default
+ShortName=Defender-2 Default
+Itemtype=armor
+width=3
+height=4
+weight=11.500000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	FORT Defender-2 body armorx1/|
+	Granit Br4 ballistic platex2
+]
+Name_Jpn=FORT Defender-2 body armor Default
+Information_Jpn=

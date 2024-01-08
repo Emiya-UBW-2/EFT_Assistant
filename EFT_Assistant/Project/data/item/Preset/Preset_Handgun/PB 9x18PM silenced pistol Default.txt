@@ -14,5 +14,5 @@ containsItems=[
 	PB 9x18PM sound suppressorx1/|
 	PB bakelite side gripsx1
 ]
-Name_Jpn=PB 9x18PM 消音拳銃 デフォルト
+Name_Jpn=PB 9x18PM silenced pistol Default
 Information_Jpn=

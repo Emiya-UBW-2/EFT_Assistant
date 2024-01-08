@@ -705,7 +705,10 @@ namespace FPS_n2 {
 		};
 		auto SetTaskObjective = [&](std::ofstream& outputfile, const TaskJsonData::TaskObjective& obj, EnumTaskObjective /*prev*/) {
 			for (auto& m : obj.m_Maps) {
-				outputfile << "Task_Map=" + DataBase::Instance()->GetMapData()->FindPtr(m)->GetName() + "\n";
+				auto* ptr = DataBase::Instance()->GetMapData()->FindPtr(m);
+				if (ptr) {
+					outputfile << "Task_Map=" + ptr->GetName() + "\n";
+				}
 			}
 
 			switch ((EnumTaskObjective)obj.m_TaskObjectiveType) {

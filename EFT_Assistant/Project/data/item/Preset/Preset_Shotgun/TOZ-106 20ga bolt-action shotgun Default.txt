@@ -14,5 +14,5 @@ containsItems=[
 	TOZ-106 stockx1/|
 	TOZ-106 002 pistol gripx1
 ]
-Name_Jpn=TOZ-106 20ga ボルトアクション ショットガン デフォルト
+Name_Jpn=TOZ-106 20ga bolt-action shotgun Default
 Information_Jpn=

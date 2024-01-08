@@ -15,5 +15,5 @@ containsItems=[
 	MP-133 12ga 6-shell magazinex1/|
 	MP-133/153 wooden stockx1
 ]
-Name_Jpn=MP-133 12ga ポンプアクション ショットガン デフォルト
+Name_Jpn=MP-133 12ga pump-action shotgun Default
 Information_Jpn=

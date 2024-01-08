@@ -21,5 +21,5 @@ containsItems=[
 	RPK-16 5.45x39 15 inch barrelx1/|
 	RPK-16 5.45x39 muzzle brake-compensatorx1
 ]
-Name_Jpn=RPK-16 5.45×39 ライトマシンガン デフォルト
+Name_Jpn=RPK-16 5.45x39 light machine gun Default
 Information_Jpn=

@@ -1,0 +1,16 @@
+IDstr=657b351d306ad0bf99008208
+Name=WARTECH TV-110 plate carrier (Coyote) Default
+ShortName=TV-110 Default
+Itemtype=chest-rig
+width=4
+height=3
+weight=10.300000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	WARTECH TV-110 plate carrier (Coyote)x1/|
+	Global Armor’s Steel ballistic platex2
+]
+Name_Jpn=WARTECH TV-110 plate carrier (Coyote) Default
+Information_Jpn=

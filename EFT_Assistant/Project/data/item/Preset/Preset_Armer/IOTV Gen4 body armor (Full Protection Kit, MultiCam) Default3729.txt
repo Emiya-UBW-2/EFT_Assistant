@@ -1,0 +1,17 @@
+IDstr=65766910303700411c0242da
+Name=IOTV Gen4 body armor (Full Protection Kit, MultiCam) Default
+ShortName=Gen4 Full Default
+Itemtype=armor
+width=4
+height=4
+weight=16.200001
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	IOTV Gen4 body armor (Full Protection Kit, MultiCam)x1/|
+	Cult Locust ballistic platex2/|
+	SSAPI level III+ ballistic plate (Side)x2
+]
+Name_Jpn=IOTV Gen4 body armor (Full Protection Kit, MultiCam) Default
+Information_Jpn=

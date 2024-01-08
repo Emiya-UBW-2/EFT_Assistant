@@ -3,7 +3,7 @@ Name=An Apple a Day Keeps the Doctor Away
 Trader=Therapist
 
 NeedTask=Health Care Privacy - Part 4
-NeedLevel=10
+NeedLevel=20
 
 CanRestart=false
 NeedKappa=false

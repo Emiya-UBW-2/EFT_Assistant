@@ -2,6 +2,7 @@ IDstr=5936d90786f7742b1420ba5b
 Name=Debut
 Trader=Prapor
 
+NeedTask=Shooting Cans
 NeedLevel=1
 
 CanRestart=false

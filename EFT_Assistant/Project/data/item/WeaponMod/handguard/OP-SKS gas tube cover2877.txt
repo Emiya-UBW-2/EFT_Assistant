@@ -11,5 +11,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=4.000000
 accuracyModifier=0.000000
-Name_Jpn=VPO-209 wooden handguard
-Information_Jpn=A standard wooden handguard for VPO-209 AKM carbines, manufactured by Molot Arms.
+Name_Jpn=OP-SKS gas tube cover
+Information_Jpn=A standard wooden gas tube cover for the OP-SKS carbine, manufactured by Molot Arms.

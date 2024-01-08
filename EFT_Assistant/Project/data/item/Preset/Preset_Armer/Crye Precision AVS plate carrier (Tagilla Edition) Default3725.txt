@@ -1,0 +1,17 @@
+IDstr=657667b5234b9f6e050a42e4
+Name=Crye Precision AVS plate carrier (Tagilla Edition) Default
+ShortName=AVS TE Default
+Itemtype=chest-rig
+width=3
+height=3
+weight=9.230000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Crye Precision AVS plate carrier (Tagilla Edition)x1/|
+	Cult Termite ballistic platex1/|
+	Global Armor’s Steel ballistic platex1
+]
+Name_Jpn=Crye Precision AVS plate carrier (Tagilla Edition) Default
+Information_Jpn=

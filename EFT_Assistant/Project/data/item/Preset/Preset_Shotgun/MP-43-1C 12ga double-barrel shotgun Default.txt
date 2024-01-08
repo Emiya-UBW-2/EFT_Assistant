@@ -13,5 +13,5 @@ containsItems=[
 	MP-43-1C 12ga 725mm barrelx1/|
 	MP-43-1C buttpadx1
 ]
-Name_Jpn=MP-43-1C 12ga ダブルバレルショットガン デフォルト
+Name_Jpn=MP-43-1C 12ga double-barrel shotgun Default
 Information_Jpn=

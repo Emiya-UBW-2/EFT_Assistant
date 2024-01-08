@@ -1,0 +1,37 @@
+IDstr=657315ddab5a49b71f098853
+Name=First in Line
+Trader=Therapist
+
+NeedLevel=1
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Map=Ground Zero
+factionName=Any
+Task_Map=Ground Zero
+Task_Else=TaskType:visit
+Task_Else=Locate the Emercom station on Ground Zero
+Task_FiR_HandOver=[Augmentin antibiotic pillsx3]
+DogTagLv=0
+
+[
+	TaskType=visit
+	TaskText=Locate the Emercom station on Ground Zero
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over any medicine items
+	TaskOptional=false
+]
+
+Reward_Rep=Therapist+1
+Reward_Item=[
+	Roublesx6400/|
+	Factory plan mapx1/|
+	Bottle of water (0.6L)x2
+]
+
+Reward_EXP=1200

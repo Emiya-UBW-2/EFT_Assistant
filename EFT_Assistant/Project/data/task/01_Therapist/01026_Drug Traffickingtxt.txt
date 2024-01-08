@@ -3,7 +3,7 @@ Name=Drug Trafficking
 Trader=Therapist
 
 NeedTask=Lost Contact
-NeedLevel=17
+NeedLevel=20
 
 CanRestart=false
 NeedKappa=true

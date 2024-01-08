@@ -1,0 +1,47 @@
+IDstr=6573397ef3f8344c4575cd87
+Name=Properties All Around
+Trader=Prapor
+
+NeedTask=Glory to CPSU - Part 2
+NeedLevel=15
+NeedItem=[Real estate agency office room keyx1]
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+factionName=Any
+Task_Map=Streets of Tarkov
+Task_Else=TaskType:visit
+Task_Else=Locate the real estate fund on Streets of Tarkov
+Task_Map=Lighthouse
+Task_Map=Streets of Tarkov
+Task_Else=拾って納品:Lighthouse-Cadastral registry recordsx1
+Task_Else=拾って納品:Streets of Tarkov-Cadastral registry recordsx1
+
+[
+	TaskType=visit
+	TaskText=Locate the real estate fund on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Locate and obtain the Tarkov real estate transactions document
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the obtained information
+	TaskOptional=false
+]
+
+Reward_Rep=Prapor+2
+Reward_Item=[
+	Roublesx80000/|
+	SR-2M "Veresk" 9x21 submachine gun Defaultx1/|
+	SR-2M 9x21 30-round magazinex3/|
+	9x21mm PS gzh ammo pack (30 pcs)x4
+]
+
+Reward_EXP=11600

@@ -2,6 +2,7 @@ IDstr=5ac23c6186f7741247042bad
 Name=Gunsmith - Part 1
 Trader=Mechanic
 
+NeedTask=Saving the Mole
 NeedLevel=2
 
 CanRestart=false

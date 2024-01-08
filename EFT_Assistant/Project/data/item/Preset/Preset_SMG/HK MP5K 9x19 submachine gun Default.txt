@@ -17,5 +17,5 @@ containsItems=[
 	HK MP5K End Cap stockx1/|
 	HK MP5K cocking handlex1
 ]
-Name_Jpn=MP5K 9x19 サブマシンガン デフォルト
+Name_Jpn=HK MP5K 9x19 submachine gun Default
 Information_Jpn=

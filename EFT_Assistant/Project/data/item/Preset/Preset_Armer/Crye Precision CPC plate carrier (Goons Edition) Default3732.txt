@@ -1,0 +1,17 @@
+IDstr=65766a20234b9f6e050a4306
+Name=Crye Precision CPC plate carrier (Goons Edition) Default
+ShortName=CPC GE Default
+Itemtype=chest-rig
+width=4
+height=3
+weight=12.700000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Crye Precision CPC plate carrier (Goons Edition)x1/|
+	TallCom Guardian ballistic platex2/|
+	SSAPI level III+ ballistic plate (Side)x2
+]
+Name_Jpn=Crye Precision CPC plate carrier (Goons Edition) Default
+Information_Jpn=

@@ -16,5 +16,5 @@ containsItems=[
 	MDR 5.56x45 16 inch barrelx1/|
 	Desert Tech 5.56x45 flash hiderx1
 ]
-Name_Jpn=MDR 5.56x45 アサルトライフル デフォルト
+Name_Jpn=Desert Tech MDR 5.56x45 assault rifle Default
 Information_Jpn=

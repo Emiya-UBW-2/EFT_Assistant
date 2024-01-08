@@ -25,5 +25,5 @@ containsItems=[
 	AR-15 Magpul MOE SL-K buttstock (Coyote Tan)x1/|
 	MCX SPEAR charging handlex1
 ]
-Name_Jpn=SIG MCX SPEAR 6.8x51 assault rifle デフォルト
+Name_Jpn=SIG MCX SPEAR 6.8x51 assault rifle Default
 Information_Jpn=

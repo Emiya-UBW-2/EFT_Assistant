@@ -20,5 +20,5 @@ containsItems=[
 	Mk-18 gas blockx1/|
 	Mk-18 18 inch handguardx1
 ]
-Name_Jpn=SWORD International Mk-18 .338 LM marksman rifle デフォルト
+Name_Jpn=SWORD International Mk-18 .338 LM marksman rifle Default
 Information_Jpn=

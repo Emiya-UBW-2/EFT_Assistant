@@ -11,5 +11,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=2.000000
 accuracyModifier=0.000000
-Name_Jpn=SVDS dust cover
-Information_Jpn=A standard-issue dust cover for SVDS sniper rifles, manufactued by Izhmash.
+Name_Jpn=SKS dust cover
+Information_Jpn=A standard-issue dust cover for the SKS carbine, manufactured by TOZ.

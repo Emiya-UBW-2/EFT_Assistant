@@ -15,5 +15,5 @@ containsItems=[
 	PM rear sightx1/|
 	PM bakelite side gripsx1
 ]
-Name_Jpn=Makarov PM 9x18PM pistol デフォルト
+Name_Jpn=Makarov PM 9x18PM pistol Default
 Information_Jpn=
