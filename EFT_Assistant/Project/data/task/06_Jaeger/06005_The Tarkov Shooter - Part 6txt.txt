@@ -24,6 +24,7 @@ NeedItem=[
 	MP-18 7.62x54R single-shot riflex0/|
 	Accuracy International AXMC .338 LM bolt-action sniper riflex0
 ]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot

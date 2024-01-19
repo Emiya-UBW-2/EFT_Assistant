@@ -11,10 +11,12 @@ NeedLightkeeper=true
 
 factionName=Any
 Task_Kill=[
-	Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x3
+	Scavsx3
 ]
+Task_Else=距離: >= 0m
 Task_Else=自分の該当箇所に異常状態:[head,thorax,stomach,left arm,right arm,left leg,right leg]
 Task_Else=自分の異常状態:[Pain]
+Task_Else=閾値: >= 0
 
 [
 	TaskType=shoot

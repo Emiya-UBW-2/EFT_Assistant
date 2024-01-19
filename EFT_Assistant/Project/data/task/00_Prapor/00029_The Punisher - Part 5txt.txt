@@ -20,7 +20,7 @@ NeedItem=Makarov PM 9x18PM pistolx2
 Task_FiR_HandOver=[Makarov PM 9x18PM pistolx2]
 DogTagLv=0
 Task_Kill=[
-	any PMC operativesx10
+	Scavsx10
 ]
 Task_Else=装備が必要:{
 Task_Else=  PACA Soft Armor
@@ -28,6 +28,7 @@ Task_Else=  6B47 Ratnik-BSh helmet (Digital Flora cover)
 Task_Else=  PACA Soft Armor
 Task_Else=  6B47 Ratnik-BSh helmet (Olive Drab)
 Task_Else=}
+Task_Else=距離: >= 0m
 
 [
 	TaskType=findItem

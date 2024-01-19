@@ -40,5 +40,5 @@ cameraRecoil=0.000000
 cameraSnap=5.000000
 deviationMax=11
 convergence=0.000000
-Name_Jpn=APB 9x18PM silenced machine pistol
-Information_Jpn=The APB pistol (Avtomatícheskiy Pistolét Besshúmnyy - "Silenced Automatic Pistol", GRAU Index - 6P13) is a silenced version of the Stechkin machine pistol, widely used by different Russian special forces.
+Name_Jpn=APB 9х18PM 消音拳銃
+Information_Jpn=APB ピストル（Avtomatícheskiy Pistolét Besshúmnyy - "消音自動拳銃" GRAU インデックス - 6P13）は、スチェッキン・マシンピストルの消音版で、ロシア特殊部隊で広く使われている。

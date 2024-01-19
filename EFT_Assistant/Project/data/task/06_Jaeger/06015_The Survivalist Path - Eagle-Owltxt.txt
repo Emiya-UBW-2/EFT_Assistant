@@ -43,6 +43,7 @@ Task_Else=  Torrey Pines Logic T12W 30Hz thermal reflex sight
 Task_Else=  SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope
 Task_Else=  Armasight Zeus-Pro 640 2-8x50 30Hz thermal scope
 Task_Else=}
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot

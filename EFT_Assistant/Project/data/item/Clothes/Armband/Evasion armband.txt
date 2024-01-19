@@ -8,5 +8,5 @@ height=1
 weight=0.050000
 fleaMarketFee=0
 propertiestype=
-Name_Jpn=Evasion armband
+Name_Jpn=Armband (Evasion)
 Information_Jpn=Sigmaが主催する地域限定のeSportsトーナメント Evasionで使用された特別なアームバンドだ

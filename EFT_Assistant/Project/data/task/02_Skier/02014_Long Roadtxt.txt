@@ -16,6 +16,7 @@ Task_Kill=[
 	Lighthouse-Scavsx15
 ]
 Task_Else=ゾーン:[Highway]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot

@@ -1,0 +1,37 @@
+IDstr=65802b627b44fa5e14638899
+Name=Nothing Fishy About This
+Trader=Ragman
+
+NeedTask=Big Sale
+NeedLevel=17
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Shoreline
+factionName=Any
+Task_Map=Shoreline
+Task_Else=TaskType:visit
+Task_Else=Locate Ragman's SUV on Shoreline
+Task_Map=Shoreline
+Task_Else=脱出ステータス:[Survived]
+
+[
+	TaskType=visit
+	TaskText=Locate Ragman's SUV on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from the location
+	TaskOptional=false
+]
+
+Reward_Rep=Ragman+1
+Reward_Item=[
+	Roublesx25000/|
+	Stich Profi Chest Rig MK2 (Recon, A-TACS FG)x1
+]
+
+Reward_EXP=7200

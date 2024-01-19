@@ -19,5 +19,5 @@ containsItems=[
 	HK USP hammerx1/|
 	HK USP slide lockx1
 ]
-Name_Jpn=HK USP .45 ACP pistol Default
+Name_Jpn=HK USP .45 ACP pistol デフォルト
 Information_Jpn=

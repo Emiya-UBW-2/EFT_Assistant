@@ -70,5 +70,5 @@ cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=30
 convergence=0.000000
-Name_Jpn=SWORD International Mk-18 .338 LM marksman rifle
-Information_Jpn=The Mk-18 Mod 1 Extreme Distance Capable Semi-Automatic Rifle was designed to take advantage of the ballistic capabilities of the .338 Lapua Magnum, .338 Norma Magnum, and .300 Norma Magnum cartridges. The system provides extreme distance capability in a lightweight and mobile semi-auto platform. Utilizing SWORD’s proprietary short-stroke piston system the rifle is precise, reliable, and durable. Featuring ambidextrous controls, ergonomic features, and built-in modularity, the Mk-18 is a great choice for the avid hunter, long-range enthusiast, and competition shooter.
+Name_Jpn=SWORD International Mk-18 .338 LM マークスマンライフル
+Information_Jpn=Mk-18 Mod 1 高有効射程 セミオートライフルは、.338 Lapua Magnum .338 Norma Magnum .300 Norma Magnum 弾薬の弾道能力を最大限に活かすために設計され、軽量で携帯性の高いセミオート武器プラットフォームの中で高い射程能力を提供しているだけでなく、SWORD 社独自のショートストロークピストン式を活用することによって、精密性、信頼性、耐久性にも優れている。両手利き向けの操作性、人間工学に基づいた機能性、モジュラリティを備えた Mk-18 は、熱心なハンターや長距離射撃愛好家、射撃競技選手にとって良い選択肢と言えるだろう。

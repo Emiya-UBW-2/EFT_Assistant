@@ -18,5 +18,5 @@ containsItems=[
 	SVT dust cover x1/|
 	AVT-40 7.62x54R 15-round magazinex1
 ]
-Name_Jpn=Tokarev AVT-40 7.62x54R automatic rifle Default
+Name_Jpn=AVT-40 7.62x54R オートマチックライフル デフォルト
 Information_Jpn=

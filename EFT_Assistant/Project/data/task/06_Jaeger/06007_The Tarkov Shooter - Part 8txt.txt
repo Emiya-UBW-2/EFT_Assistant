@@ -11,7 +11,7 @@ NeedLightkeeper=false
 
 factionName=Any
 Task_Kill=[
-	any PMC operatives{head}x3
+	Scavs{head}x3
 ]
 NeedItem=[
 	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
@@ -24,6 +24,7 @@ NeedItem=[
 	MP-18 7.62x54R single-shot riflex0/|
 	Accuracy International AXMC .338 LM bolt-action sniper riflex0
 ]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot

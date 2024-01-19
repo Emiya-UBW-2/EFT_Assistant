@@ -1,0 +1,52 @@
+IDstr=65734c186dc1e402c80dc19e
+Name=Dandies
+Trader=Ragman
+
+NeedTask=Ballet Lover
+NeedLevel=33
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+factionName=Any
+Task_Map=Streets of Tarkov
+Task_Kill=[
+	Streets of Tarkov-Scavsx30
+]
+Task_Else=装備が必要:{
+Task_Else=  Bomber beanie
+Task_Else=  RayBench Hipster Reserve sunglasses
+Task_Else=}
+Task_Else=距離: >= 0m
+Task_Map=Streets of Tarkov
+Task_NotFiR_HandOver=[Bomber beaniex1]
+DogTagLv=0
+Task_Map=Streets of Tarkov
+Task_NotFiR_HandOver=[RayBench Hipster Reserve sunglassesx1]
+DogTagLv=0
+
+[
+	TaskType=shoot
+	TaskText=Eliminate any enemy while wearing a Bomber beanie and Raybench Hipster Reserve sunglasses on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Stash a Bomber beanie inside the barber shop on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Stash Raybench Hipster Reserve sunglasses inside the barber shop on Streets of Tarkov
+	TaskOptional=false
+]
+
+Reward_Rep=Ragman+3
+Reward_Item=[
+	Roublesx350000/|
+	FORT Redut-M body armorx1
+]
+
+Reward_EXP=33000

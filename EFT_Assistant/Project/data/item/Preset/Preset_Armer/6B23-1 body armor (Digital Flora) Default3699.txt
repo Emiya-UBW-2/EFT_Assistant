@@ -12,5 +12,5 @@ containsItems=[
 	6B23-1 body armor (Digital Flora)x1/|
 	6B12 ballistic plates (Front)x1
 ]
-Name_Jpn=6B23-1 body armor (Digital Flora) Default
+Name_Jpn=6B23-1 body armor (Digital Flora) デフォルト
 Information_Jpn=

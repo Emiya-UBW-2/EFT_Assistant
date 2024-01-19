@@ -17,5 +17,5 @@ containsItems=[
 	Trijicon RMR reflex sightx1/|
 	Glock 9x19 "Big Stick" 33-round magazinex1
 ]
-Name_Jpn=Glock 17 9x19 pistol Jackie
+Name_Jpn=Glock 17 9x19 ピストル Jackie
 Information_Jpn=

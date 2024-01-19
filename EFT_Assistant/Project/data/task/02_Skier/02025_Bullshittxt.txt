@@ -2,8 +2,8 @@ IDstr=5c0bbaa886f7746941031d82
 Name=Bullshit
 Trader=Skier
 
-NeedTask=Silent Caliber
-NeedLevel=30
+NeedTask=Chumming
+NeedLevel=25
 
 CanRestart=true
 NeedKappa=false
@@ -54,6 +54,7 @@ Task_Map=Customs
 Task_Kill=[
 	Customs-Scavsx1
 ]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot

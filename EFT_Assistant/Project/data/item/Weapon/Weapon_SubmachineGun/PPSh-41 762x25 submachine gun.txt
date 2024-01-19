@@ -34,5 +34,5 @@ cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=11
 convergence=0.000000
-Name_Jpn=PPSh-41 7.62x25 submachine gun
+Name_Jpn=PPSh-41 7.62x25 サブマシンガン
 Information_Jpn=The PPSh-41 (Pistolet-Pulemyot Shpagina obraztsa 1941 goda - "Shpagin's submachine gun, 1941 version") is a Soviet submachine gun designed by Georgy Shpagin as a cheap, reliable, and simplified alternative to the PPD-40.

@@ -12,5 +12,5 @@ containsItems=[
 	Ars Arma A18 Skanda plate carrier (MultiCam)x1/|
 	SPRTN Omega ballistic platex2
 ]
-Name_Jpn=Ars Arma A18 Skanda plate carrier (MultiCam) Default
+Name_Jpn=Ars Arma A18 Skanda プレートキャリア デフォルト
 Information_Jpn=

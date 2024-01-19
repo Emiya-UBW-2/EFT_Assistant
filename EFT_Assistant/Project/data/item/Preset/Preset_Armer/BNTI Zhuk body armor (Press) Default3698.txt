@@ -13,5 +13,5 @@ containsItems=[
 	Zhuk-3 ballistic plate (Front)x1/|
 	PRTCTR Lightweight ballistic platex1
 ]
-Name_Jpn=BNTI Zhuk body armor (Press) Default
+Name_Jpn=BNTI Zhuk body armor (Press) デフォルト
 Information_Jpn=

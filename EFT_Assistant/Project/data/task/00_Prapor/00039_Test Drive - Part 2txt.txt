@@ -13,7 +13,7 @@ Task_Map=Streets of Tarkov
 factionName=Any
 Task_Map=Streets of Tarkov
 Task_Kill=[
-	Streets of Tarkov-any PMC operativesx20
+	Streets of Tarkov-Scavsx20
 ]
 NeedItem=[
 	SR-2M "Veresk" 9x21 submachine gunx0
@@ -22,6 +22,7 @@ NeedItem=[
 	SR-2M KP-SR2 reflex sightx0/|
 	SR-2M 9x21 sound suppressor (SV-1381)x0
 ]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot

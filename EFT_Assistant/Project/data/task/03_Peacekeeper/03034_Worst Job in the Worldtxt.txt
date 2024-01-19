@@ -12,7 +12,7 @@ NeedLightkeeper=false
 
 factionName=Any
 Task_Kill=[
-	any targetx30
+	Scavsx30
 ]
 NeedItem=[
 	Colt M4A1 5.56x45 assault riflex0/|

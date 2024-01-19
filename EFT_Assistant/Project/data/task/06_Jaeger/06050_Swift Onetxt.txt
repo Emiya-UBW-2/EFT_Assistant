@@ -13,7 +13,7 @@ Task_Map=Woods
 factionName=Any
 Task_Map=Woods
 Task_Kill=[
-	Woods-any PMC operativesx15
+	Woods-Scavsx15
 ]
 Task_Else=装備してはいけない:{
 Task_Else=  6B43 Zabralo-Sh body armor (Digital Flora)
@@ -46,7 +46,7 @@ Task_Else=  FORT Defender-2 body armor
 Task_Else=  Ars Arma CPC MOD.1 plate carrier (A-TACS FG)
 Task_Else=  LBT-6094A Slick Plate Carrier (Black)
 Task_Else=  5.11 Tactical Hexgrid plate carrier
-Task_Else=  NPP KlASS Korund-VM body armor
+Task_Else=  NPP KlASS Korund-VM body armor (Black)
 Task_Else=  6B2 body armor (Flora)
 Task_Else=  ANA Tactical M1 plate carrier (Olive Drab)
 Task_Else=  LBT-6094A Slick Plate Carrier (Olive Drab)
@@ -110,7 +110,12 @@ Task_Else=  WARTECH TV-115 plate carrier (Olive Drab)
 Task_Else=  Interceptor OTV body armor (UCP)
 Task_Else=  NPP KlASS Kora-Kulon body armor (Black)
 Task_Else=  NPP KlASS Kora-Kulon body armor (Digital Flora)
+Task_Else=  NPP KlASS Tor-2 helmet (Olive Drab)
+Task_Else=  Diamond Age NeoSteel High Cut helmet (Black)
+Task_Else=  Atomic Defense CQCM ballistic mask (Black)
+Task_Else=  Death Shadow lightweight armored mask
 Task_Else=}
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot

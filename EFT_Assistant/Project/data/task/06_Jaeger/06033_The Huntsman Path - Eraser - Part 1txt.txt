@@ -15,6 +15,7 @@ Task_Map=Reserve
 Task_Kill=[
 	Reserve-Glukharx1
 ]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot

@@ -1,6 +1,6 @@
 IDstr=65766a7b86f11bca4106d3c3
 Name=BNTI Zhuk body armor (Digital Flora) Default
-ShortName=Zhuk EMR Default
+ShortName=Zhuk DFL Default
 Itemtype=armor
 width=3
 height=3
@@ -14,5 +14,5 @@ containsItems=[
 	KITECO SC-IV SA ballistic platex1/|
 	Granit ballistic plate (Side)x2
 ]
-Name_Jpn=BNTI Zhuk body armor (Digital Flora) Default
+Name_Jpn=BNTI Zhuk body armor (Digital Flora) デフォルト
 Information_Jpn=

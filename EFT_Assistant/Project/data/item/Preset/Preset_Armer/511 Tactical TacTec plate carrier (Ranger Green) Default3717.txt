@@ -12,5 +12,5 @@ containsItems=[
 	5.11 Tactical TacTec plate carrier (Ranger Green)x1/|
 	GAC 3s15m ballistic platex2
 ]
-Name_Jpn=5.11 Tactical TacTec plate carrier (Ranger Green) Default
+Name_Jpn=5.11 Tactical TacTec plate carrier (Ranger Green) デフォルト
 Information_Jpn=

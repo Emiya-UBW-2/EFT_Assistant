@@ -22,5 +22,5 @@ containsItems=[
 	AK-12 buffer tubex1/|
 	AK-12 stockx1
 ]
-Name_Jpn=Kalashnikov AK-12 5.45x39 assault rifle Default
+Name_Jpn=Kalashnikov AK-12 5.45x39 アサルトライフル デフォルト
 Information_Jpn=

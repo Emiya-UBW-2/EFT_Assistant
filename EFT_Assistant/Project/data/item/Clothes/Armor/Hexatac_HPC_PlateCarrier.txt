@@ -8,5 +8,5 @@ height=3
 weight=0.470000
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmor
-Name_Jpn=Hexatac HPC Plate Carrier (Multicam Black)
-Information_Jpn=A plate carrier by Hexatac. A minimalistic version designed to be used with chest rigs. Multicam Black version.
+Name_Jpn=Hexatac HPC Plate Carrier (MultiCam Black)
+Information_Jpn=A plate carrier by Hexatac. A minimalistic version designed to be used with chest rigs. MultiCam Black version.

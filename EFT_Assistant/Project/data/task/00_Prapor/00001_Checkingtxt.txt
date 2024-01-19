@@ -2,7 +2,7 @@ IDstr=5936da9e86f7742d65037edf
 Name=Background Check
 Trader=Prapor
 
-NeedTask=Debut
+NeedTask=Luxurious Life
 NeedLevel=2
 NeedItem=[Machinery keyx1]
 
@@ -35,7 +35,7 @@ NeedItem=Machinery keyx1
 Reward_Rep=Prapor+3
 Reward_Item=[
 	Roublesx15000/|
-	TOZ Simonov SKS 7.62x39 carbinex1/|
+	TOZ Simonov SKS 7.62x39 carbine Defaultx1/|
 	7.62x39mm PS gzhx60
 ]
 

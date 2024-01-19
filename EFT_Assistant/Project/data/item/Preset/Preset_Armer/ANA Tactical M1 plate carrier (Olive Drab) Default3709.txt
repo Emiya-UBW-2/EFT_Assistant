@@ -12,5 +12,5 @@ containsItems=[
 	ANA Tactical M1 plate carrier (Olive Drab)x1/|
 	Global Armor’s Steel ballistic platex2
 ]
-Name_Jpn=ANA Tactical M1 plate carrier (Olive Drab) Default
+Name_Jpn=ANA Tactical M1 アーマーリグ デフォルト
 Information_Jpn=

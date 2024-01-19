@@ -13,5 +13,5 @@ containsItems=[
 	Granit Br5 ballistic platex2/|
 	Granit ballistic plate (Side)x2
 ]
-Name_Jpn=6B43 Zabralo-Sh body armor (Digital Flora) Default
+Name_Jpn=6B43 Zabralo-Sh body armor (Digital Flora) デフォルト
 Information_Jpn=

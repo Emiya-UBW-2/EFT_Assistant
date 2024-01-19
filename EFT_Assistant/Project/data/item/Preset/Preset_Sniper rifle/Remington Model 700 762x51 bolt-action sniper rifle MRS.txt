@@ -22,5 +22,5 @@ containsItems=[
 	M700 thread protection capx1/|
 	M700 AB Arms MOD*X rail mountx1
 ]
-Name_Jpn=Remington Model 700 7.62x51 bolt-action sniper rifle MRS
+Name_Jpn=Remington Model 700 7.62x51 ボルトアクション スナイパーライフル MRS
 Information_Jpn=

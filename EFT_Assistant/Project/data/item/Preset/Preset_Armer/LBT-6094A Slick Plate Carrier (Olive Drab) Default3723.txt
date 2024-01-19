@@ -12,5 +12,5 @@ containsItems=[
 	LBT-6094A Slick Plate Carrier (Olive Drab)x1/|
 	Kiba Arms Steel ballistic platex2
 ]
-Name_Jpn=LBT-6094A Slick Plate Carrier (Olive Drab) Default
+Name_Jpn=LBT-6094A Slick Plate Carrier (Olive Drab) デフォルト
 Information_Jpn=

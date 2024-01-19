@@ -16,6 +16,7 @@ Task_Map=Factory
 Task_Kill=[
 	Factory-Tagillax1
 ]
+Task_Else=距離: >= 0m
 NeedItem=BOSS capx1
 Task_FiR_HandOver=[BOSS capx1]
 DogTagLv=0

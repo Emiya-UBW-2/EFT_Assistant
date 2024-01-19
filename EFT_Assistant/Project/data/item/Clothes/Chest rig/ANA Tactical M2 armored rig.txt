@@ -9,4 +9,4 @@ weight=2.250000
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
 Name_Jpn=ANA Tactical M2 アーマーリグ
-Information_Jpn=A tactical rig with additional class 4 (Russian GOST) armor plates. The vest is created with the use of the best experience of Russian special forces operators. The versatility of the system makes it possible to use this vest both when carrying out city tasks and when performing tasks on rough terrain. Equipped with additional pouches for 8 magazines. Manufactured by ANA Tactical.
+Information_Jpn=The M2 vest is created with the use of the best experience of Russian special forces operators. The versatility of the system makes it possible to use this vest both when carrying out urban tasks and when performing tasks on rough terrain. Equipped with additional pouches for 8 magazines. Manufactured by ANA Tactical.

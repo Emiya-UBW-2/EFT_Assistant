@@ -23,5 +23,5 @@ containsItems=[
 	KAC Folding Micro rear sightx1/|
 	AR-10 KAC charging handlex1
 ]
-Name_Jpn=Knight's Armament Company SR-25 7.62x51 marksman rifle Default
+Name_Jpn=Knight's Armament Company SR-25 7.62x51 マークスマンライフル デフォルト
 Information_Jpn=

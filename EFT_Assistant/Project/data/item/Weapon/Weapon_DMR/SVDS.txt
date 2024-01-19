@@ -68,5 +68,5 @@ cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=30
 convergence=0.000000
-Name_Jpn=SVDS 7.62x54R sniper rifle
-Information_Jpn=The SVDS (Snáyperskaya Vintóvka Dragunóva Skladnáya - "Dragunov's Sniper Rifle with a foldable stock") sniper rifle was specially designed for Russian paratroopers and special forces units. Features a tubular metal stock that folds to the right side of the receiver (equipped with a synthetic shoulder pad and a fixed cheek riser) and a synthetic pistol grip. The barrel was also given a heavier profile, the receiver housing was strengthened, the gas cylinder block was improved and a ported, shorter conical flash suppressor was adopted. Chambered in 7.62x54R ammo.
+Name_Jpn=SVDS 7.62x54R スナイパーライフル
+Information_Jpn=SVDS（Snáyperskaya Vintóvka Dragunóva Skladnáya - "折り畳み式ストックを持つドラグノフ狙撃銃"）狙撃銃は、ロシアの空挺部隊や特殊部隊向けに特別に設計されたものだ。右側に折り畳むことができるチューブ状の金属製ストック（合成素材の後床と固定チークライザー付）と合成素材のピストルグリップが特徴だ。銃身はより重い外形になっており、機関部、ガスシリンダーブロックが改良され、ポーテッドで短い円錐形のフラッシュサプレッサーが採用された。7.62x54R弾を使用する。

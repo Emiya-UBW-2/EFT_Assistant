@@ -13,12 +13,12 @@ containsItems=[
 	SA-58 SAW-style pistol grip (Black)x1/|
 	SA-58/FAL 7.62x51 MMW polymer 20-round magazinex1/|
 	SA-58/FAL Vltor CASV-FAL handguardx1/|
+	Vltor CASV 5 inch railx1/|
 	SA-58 7.62x51 21 inch barrelx1/|
+	SA-58 3-Prong Trident 7.62x51 flash hiderx1/|
 	SA-58 Holland Type rear sightx1/|
 	SA-58 Extreme Duty dust coverx1/|
-	SA-58 SPR stockx1/|
-	Vltor CASV 5 inch railx1/|
-	SA-58 3-Prong Trident 7.62x51 flash hiderx1
+	SA-58 SPR stockx1
 ]
 Name_Jpn=SA-58 7.62x51 アサルトライフル SPR
 Information_Jpn=

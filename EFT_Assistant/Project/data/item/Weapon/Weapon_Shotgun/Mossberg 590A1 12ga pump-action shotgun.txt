@@ -40,5 +40,5 @@ cameraRecoil=0.000000
 cameraSnap=2.600000
 deviationMax=10
 convergence=0.000000
-Name_Jpn=Mossberg 590A1 12ga pump-action shotgun
-Information_Jpn=The Mossberg 500 Series is one of the most famous and widespread pump-action shotguns in the world. Protects your front lawn since 1961.
+Name_Jpn=Mossberg 590A1 12ゲージ ポンプアクションショットガン
+Information_Jpn=モスバーグ 500シリーズは世界で最も有名で、広く使われているポンプアクションショットガンの一つだ。1961年からあなたの身の回りを守っている。

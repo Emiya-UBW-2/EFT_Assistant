@@ -3,7 +3,7 @@ Name=Glory to CPSU - Part 1
 Trader=Prapor
 
 NeedTask=You've Got Mail
-NeedLevel=15
+NeedLevel=17
 
 CanRestart=false
 NeedKappa=false

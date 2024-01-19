@@ -13,5 +13,5 @@ containsItems=[
 	Granit 4 ballistic plate (Front)x1/|
 	Granit 4 ballistic plates (Back)x1
 ]
-Name_Jpn=6B13 M assault armor (Killa Edition) Default
+Name_Jpn=6B13 M assault armor (Killa Edition) デフォルト
 Information_Jpn=

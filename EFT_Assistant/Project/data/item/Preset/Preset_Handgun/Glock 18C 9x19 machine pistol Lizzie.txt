@@ -18,5 +18,5 @@ containsItems=[
 	Glock 9x19 "Big Stick" 33-round magazinex1/|
 	SureFire X400 Ultra tactical flashlight with laserx1
 ]
-Name_Jpn=Glock 18C 9x19 machine pistol Lizzie
+Name_Jpn=Glock 18C 9x19 マシンピストル Lizzie
 Information_Jpn=

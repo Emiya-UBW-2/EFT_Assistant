@@ -9,7 +9,7 @@ weight=0.200000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
-	AR-15 Armacon Baskak stock/|
+	Armacon Baskak stock/|
 	AR-15 Colt A2 buffer tube/|
 	AR-15 ADAR 2-15 buffer tube/|
 	AR-15 Colt Carbine buffer tube/|
@@ -29,5 +29,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=-2.000000
 accuracyModifier=0.000000
-Name_Jpn=MPX/MCX retractable stock pipe adapter
+Name_Jpn=MPX/MCX retractable stock adapter
 Information_Jpn=An adapter for attaching telescopic tube stocks to the rail mount, manufactured by SIG Sauer.

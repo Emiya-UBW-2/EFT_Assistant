@@ -15,10 +15,11 @@ Task_Map=Lighthouse
 Task_Kill=[
 	Lighthouse-Roguex10
 ]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot
-	TaskText=Eliminate Rogue USEC operatives
+	TaskText=Eliminate Rogues on Lighthouse
 	TaskOptional=false
 ]
 

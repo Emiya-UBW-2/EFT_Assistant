@@ -9,10 +9,11 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
+Task_Map=Lighthouse
 factionName=Any
-Task_Map=Woods
+Task_Map=Lighthouse
 Task_Kill=[
-	Woods-Scavsx10
+	Lighthouse-Scavsx10
 ]
 NeedItem=[
 	Saiga 12ga ver.10 12/76 semi-automatic shotgunx0/|
@@ -26,9 +27,10 @@ NeedItem=[
 	Benelli M3 Super 90 dual-mode 12ga shotgunx0/|
 	MP-43 12ga sawed-off double-barrel shotgunx0
 ]
-Task_Map=Shoreline
+Task_Else=距離: >= 0m
+Task_Map=Lighthouse
 Task_Kill=[
-	Shoreline-any PMC operativesx10
+	Lighthouse-Scavsx10
 ]
 Task_Else=装備が必要:{
 Task_Else=  Balaclava
@@ -41,6 +43,7 @@ Task_Else=  Zryachiy's balaclava
 Task_Else=  Scav Vest
 Task_Else=  Security vest
 Task_Else=}
+Task_Else=距離: >= 0m
 NeedItem=Bars A-2607 95Kh18 knifex5
 Task_FiR_HandOver=[Bars A-2607 95Kh18 knifex5]
 DogTagLv=0

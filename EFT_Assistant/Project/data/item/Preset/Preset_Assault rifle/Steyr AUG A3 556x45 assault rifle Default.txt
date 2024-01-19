@@ -18,5 +18,5 @@ containsItems=[
 	Steyr AUG vertical foregripx1/|
 	Steyr AUG A3 M1 1.5x optic sightx1
 ]
-Name_Jpn=Steyr AUG A3 5.56x45 assault rifle Default
+Name_Jpn=AUG A3 5.56x45 アサルトライフル デフォルト
 Information_Jpn=

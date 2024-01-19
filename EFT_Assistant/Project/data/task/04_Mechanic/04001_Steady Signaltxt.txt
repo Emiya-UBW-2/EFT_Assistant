@@ -50,7 +50,7 @@ NeedItem=MS2000 Markerx1
 
 Reward_Rep=Mechanic+2
 Reward_Item=[
-	Roublesx50000/|
+	Roublesx48000/|
 	Military cablex1/|
 	Military circuit boardx1
 ]

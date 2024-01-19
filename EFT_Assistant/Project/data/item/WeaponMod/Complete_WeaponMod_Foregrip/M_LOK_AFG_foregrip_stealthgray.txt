@@ -11,5 +11,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-2.000000
 Ergonomics=7.000000
 accuracyModifier=0.000000
-Name_Jpn=Magpul M-LOK AFG tactical foregrip (Stealth Gray)
-Information_Jpn=The Magpul M-LOK AFG tactical grip. It can only be installed on Magpul licensed M-LOK slots on applicable equipment. Stealth Gray version.
+Name_Jpn=Magpul M-LOK AFG tactical foregrip (Stealth Grey)
+Information_Jpn=The Magpul M-LOK AFG tactical grip. It can only be installed on Magpul licensed M-LOK slots on applicable equipment. Stealth Grey version.

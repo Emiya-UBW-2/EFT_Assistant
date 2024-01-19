@@ -15,5 +15,5 @@ containsItems=[
 	Chiappa Rhino front sightx1/|
 	Chiappa Rhino wooden pistol gripx1
 ]
-Name_Jpn=Chiappa Rhino 50DS .357 revolver Default
+Name_Jpn=Chiappa Rhino 50DS .357 revolver デフォルト
 Information_Jpn=

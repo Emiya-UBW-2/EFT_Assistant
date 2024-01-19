@@ -13,6 +13,7 @@ factionName=Any
 Task_Kill=[
 	Scavsx5
 ]
+Task_Else=距離: >= 0m
 Task_NotFiR_HandOver=[MP-133 12ga pump-action shotgunx2]
 DogTagLv=0
 

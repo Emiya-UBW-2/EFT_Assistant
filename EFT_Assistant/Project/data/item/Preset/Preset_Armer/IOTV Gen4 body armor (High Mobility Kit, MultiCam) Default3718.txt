@@ -12,5 +12,5 @@ containsItems=[
 	IOTV Gen4 body armor (High Mobility Kit, MultiCam)x1/|
 	Cult Locust ballistic platex2
 ]
-Name_Jpn=IOTV Gen4 body armor (High Mobility Kit, MultiCam) Default
+Name_Jpn=IOTV Gen4 body armor (High Mobility Kit, MultiCam) デフォルト
 Information_Jpn=

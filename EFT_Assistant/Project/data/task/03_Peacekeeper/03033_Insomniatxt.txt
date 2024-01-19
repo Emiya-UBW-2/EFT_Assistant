@@ -18,14 +18,15 @@ Task_Map=Lighthouse
 Task_Map=Reserve
 Task_Map=Shoreline
 Task_Kill=[
-	Interchange-any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x30/|
-	Customs-any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x30/|
-	Streets of Tarkov-any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x30/|
-	Woods-any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x30/|
-	Lighthouse-any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x30/|
-	Reserve-any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x30/|
-	Shoreline-any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x30
+	Interchange-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x30/|
+	Customs-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x30/|
+	Streets of Tarkov-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x30/|
+	Woods-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x30/|
+	Lighthouse-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x30/|
+	Reserve-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x30/|
+	Shoreline-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x30
 ]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot

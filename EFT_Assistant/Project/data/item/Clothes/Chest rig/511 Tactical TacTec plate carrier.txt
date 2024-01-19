@@ -8,5 +8,5 @@ height=4
 weight=2.350000
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
-Name_Jpn=5.11 Tactical TacTec plate carrier
-Information_Jpn=A plate carrier with armor plates made of polyethylene (Russian GOST class 5 protection) and a set of pouches for use with assault rifles. Manufactured by 5.11 Tactical.
+Name_Jpn=5.11 Tactical TacTec plate carrier (Ranger Green)
+Information_Jpn=A plate carrier with a set of pouches for use with assault rifles. Manufactured by 5.11 Tactical.

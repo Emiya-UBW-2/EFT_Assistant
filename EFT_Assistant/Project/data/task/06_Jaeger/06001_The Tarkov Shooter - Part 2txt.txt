@@ -11,7 +11,7 @@ NeedLightkeeper=true
 
 factionName=Any
 Task_Kill=[
-	any target{left leg/right leg}x3
+	Scavs{left leg/right leg}x3
 ]
 NeedItem=[
 	SV-98 7.62x54R bolt-action sniper riflex0/|
@@ -26,7 +26,7 @@ NeedItem=[
 ]
 Task_Else=距離: >= 40m
 Task_Kill=[
-	any target{head}x2
+	Scavs{head}x2
 ]
 NeedItem=[
 	SV-98 7.62x54R bolt-action sniper riflex0/|

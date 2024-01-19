@@ -13,7 +13,7 @@ Task_Map=Customs
 factionName=Any
 Task_Map=Customs
 Task_Kill=[
-	Customs-any PMC operativesx15
+	Customs-Scavsx15
 ]
 NeedItem=[
 	MP-133 12ga pump-action shotgunx0/|
@@ -25,6 +25,7 @@ Task_Else=装備が必要:{
 Task_Else=  Scav Vest
 Task_Else=  Ushanka ear flap hat
 Task_Else=}
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot

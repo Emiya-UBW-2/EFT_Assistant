@@ -18,5 +18,5 @@ containsItems=[
 	PK bipodx1/|
 	PK rear sightx1
 ]
-Name_Jpn=Kalashnikov PKM 7.62x54R machine gun Default
+Name_Jpn=Kalashnikov PKM 7.62x54R マシンガン デフォルト
 Information_Jpn=

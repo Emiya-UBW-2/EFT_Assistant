@@ -1,6 +1,6 @@
 IDstr=65268d8ecb944ff1e90ea385
 Name=Degtyarev RPDN 7.62x39 machine gun
-ShortName=RDPN
+ShortName=RPDN
 Information_Eng=The Degtyarev hand-held machine gun chambered in 7.62x39 caliber. This machine gun was adopted by the Soviet Army and was used as a means of reinforcing infantry squads and platoons from the late forties to the early sixties. The RPD is elegantly designed, resulting in a compact, reliable and quite powerful fire support weapon. The RPDN variant is equipped with a hinged dovetail mount for installing optics. Manufactured by V.A. Degtyarev Plant.
 Itemtype=machinegun
 width=3

@@ -8,5 +8,5 @@ height=4
 weight=2.800000
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmor
-Name_Jpn=6B13 M modified assault armor (Tan)
-Information_Jpn=A 6B13 armored vest that has had its ceramic armored plates replaced with lightweight polyethylene plates. The protection class is higher and the weight is lower. This particular set of armor has been personally modified by Killa.
+Name_Jpn=6B13 M assault armor (Killa Edition)
+Information_Jpn=A tan version of the 6B13 armored vest that was personally modified by Killa with a revolutionary and trendy design.

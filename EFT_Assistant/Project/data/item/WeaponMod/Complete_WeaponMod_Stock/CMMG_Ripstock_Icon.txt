@@ -11,5 +11,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-19.000000
 Ergonomics=8.000000
 accuracyModifier=0.000000
-Name_Jpn=CMMG RipStock buttstock
+Name_Jpn=AR-15 CMMG RipStock buttstock
 Information_Jpn=The RipStock minimalistic telescopic buttstock, engineered for lightning-fast deployment to the user's personal setting. Manufactured by CMMG.

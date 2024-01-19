@@ -14,5 +14,5 @@ containsItems=[
 	MP-18 wooden handguardx1/|
 	MP-18 wooden stockx1
 ]
-Name_Jpn=MP-18 7.62x54R single-shot rifle Default
+Name_Jpn=MP-18 7.62x54R 単発ライフル デフォルト
 Information_Jpn=

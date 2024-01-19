@@ -44,5 +44,5 @@ cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=11
 convergence=0.000000
-Name_Jpn=SR-2M "Veresk" 9x21 submachine gun
-Information_Jpn=SR-2M "Veresk" is a compact submachine gun designed for a powerful 9x21mm armor-piercing cartridge by order of the FSB and the FSO of the Russian Federation. This submachine gun is part of a high-performance rifle complex designed for special forces. Equipped with a folding foregrip. Developed by TsNIItochmash.
+Name_Jpn=SR-2M "ヴェレスク" 9x21 サブマシンガン
+Information_Jpn=SR-2M "ヴェレスク" は、ツニートチマッシ（TsNIItochmash） によって開発された、ロシア連邦の FSB と FSO の指示で設計された強力な 9x21mm 徹甲弾用のコンパクトなサブマシンガンだ。特殊部隊向けに設計された高性能ライフルコンプレックスの一部で、折りたたみ式の前部グリップを備えている。

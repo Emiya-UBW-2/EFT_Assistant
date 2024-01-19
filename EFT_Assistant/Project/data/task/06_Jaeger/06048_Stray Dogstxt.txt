@@ -15,12 +15,15 @@ factionName=Any
 Task_Kill=[
 	Death Knightx1
 ]
+Task_Else=距離: >= 0m
 Task_Kill=[
 	Big Pipex1
 ]
+Task_Else=距離: >= 0m
 Task_Kill=[
 	Birdeyex1
 ]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot

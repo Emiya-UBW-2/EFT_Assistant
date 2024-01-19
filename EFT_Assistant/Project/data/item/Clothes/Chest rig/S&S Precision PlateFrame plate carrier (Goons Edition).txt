@@ -9,4 +9,4 @@ weight=1.320000
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
 Name_Jpn=S&S Precision PlateFrame plate carrier (Goons Edition)
-Information_Jpn=Minimalistic, lightweight, semi rigid plastic design provides a rigid mounting platform unlike any other plate carrier on the market. The frame gives the operator the capability to scale their load out up or down to meet operational requirements. The PlateFrame allows for easy attachment of accessory pouches and will accommodate standard MOLLE/PALS pouches.
+Information_Jpn=A plate carrier with a minimalistic, lightweight, semi rigid plastic design, which was configured by Big Pipe - member of the Goons squad. Manufactured by S&S Precision.

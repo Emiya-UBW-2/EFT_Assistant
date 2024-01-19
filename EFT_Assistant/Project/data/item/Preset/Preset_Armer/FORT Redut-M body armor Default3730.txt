@@ -12,5 +12,5 @@ containsItems=[
 	FORT Redut-M body armorx1/|
 	Granit Br4 ballistic platex2
 ]
-Name_Jpn=FORT Redut-M body armor Default
+Name_Jpn=FORT Redut-M ボディアーマー デフォルト
 Information_Jpn=

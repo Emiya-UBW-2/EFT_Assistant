@@ -41,5 +41,5 @@ cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=33
 convergence=0.000000
-Name_Jpn=Mosin 7.62x54R bolt-action rifle (Infantry)
-Information_Jpn=Mosin–Nagant is one of the most famous russian rifles, which was commonly used by Russian soldiers during WW2. Developed from 1882 to 1891, it was used by the armed forces of the Russian Empire, the Soviet Union and various other nations. It is one of the most mass-produced military bolt-action rifles in history with over 37 million units having been made since 1891. In spite of its age, it has been used in various conflicts around the world up to the present day.
+Name_Jpn=Mosin 7.62x54R ボルトアクション ライフル (歩兵用)
+Information_Jpn=モシン・ナガンは、第二次世界大戦中にロシアの兵士によって使用された最も有名なロシア製ライフルの1つだ。1882年から1891年にかけて開発され、ロシア帝国、ソビエト連邦、他の多くの国の武装部隊で使用された。1891年以来、3700万丁以上が製造された歴史上最も大量生産された軍用ボルトアクションライフルの1つだ。その年月を経たにも関わらず、現在に至るまで世界中のさまざまな紛争で使用され続けている。

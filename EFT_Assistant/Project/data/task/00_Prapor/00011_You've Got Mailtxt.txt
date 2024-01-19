@@ -3,7 +3,7 @@ Name=You've Got Mail
 Trader=Prapor
 
 NeedTask=Postman Pat - Part 1
-NeedLevel=10
+NeedLevel=15
 
 CanRestart=false
 NeedKappa=false

@@ -12,5 +12,5 @@ containsItems=[
 	NFM THOR Concealable Reinforced Vest body armorx1/|
 	SPRTN Omega ballistic platex2
 ]
-Name_Jpn=NFM THOR Concealable Reinforced Vest body armor Default
+Name_Jpn=NFM THOR Concealable Reinforced Vest body armor デフォルト
 Information_Jpn=

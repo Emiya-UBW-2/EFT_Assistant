@@ -31,5 +31,5 @@ cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=11
 convergence=0.000000
-Name_Jpn=PP-91-01 "Kedr-B" 9x18PM submachine gun
-Information_Jpn=A rare silenced version of the PP-91 Kedr submachine gun, denominated as PP-91-01 Kedr-B.
+Name_Jpn=PP-91-01 "Kedr-B" 9x18PM サブマシンガン
+Information_Jpn=PP-91 ”ケダール” サブマシンガンの珍しい消音型で、PP-91-01 "ケダール-B" と呼ばれている。

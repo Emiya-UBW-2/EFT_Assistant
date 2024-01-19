@@ -12,5 +12,5 @@ containsItems=[
 	FORT Defender-2 body armorx1/|
 	Granit Br4 ballistic platex2
 ]
-Name_Jpn=FORT Defender-2 body armor Default
+Name_Jpn=FORT Defender-2 ボディーアーマー デフォルト
 Information_Jpn=

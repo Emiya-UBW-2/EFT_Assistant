@@ -8,5 +8,5 @@ height=2
 weight=4.000000
 fleaMarketFee=0
 propertiestype=ItemPropertiesHelmet
-Name_Jpn=Altyn bulletproof helmet
+Name_Jpn=Altyn bulletproof helmet (Olive Drab)
 Information_Jpn=The "Altyn" helmets passed real combat tests in Afghanistan and Chechnya and are still in service with the Ministry of Internal Affairs of the Russian Federation and the army special forces. Can be equipped with an armored faceshield visor.

@@ -11,7 +11,7 @@ NeedLightkeeper=false
 
 factionName=Any
 Task_Kill=[
-	any PMC operativesx20
+	Scavsx20
 ]
 Task_Else=距離: >= 100m
 
@@ -23,7 +23,6 @@ Task_Else=距離: >= 100m
 
 Reward_Item=[
 	Can of thermitex5/|
-	Magazine casex1/|
 	Armband (Kiba Arms)x1
 ]
 Reward_SkillLevelUp=Perception+1

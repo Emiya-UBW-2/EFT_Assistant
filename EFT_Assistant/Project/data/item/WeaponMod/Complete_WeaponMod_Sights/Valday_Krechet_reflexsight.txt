@@ -1,7 +1,7 @@
 IDstr=609a63b6e2ff132951242d09
 Name=Valday Krechet reflex sight
 ShortName=Krechet
-Information_Eng=The Krechet reflex sight, designed for precision shooting at day and at night when used in combination with a night vision device. Manufactured by Valday.
+Information_Eng=The Krechet reflex sight, designed for precision shooting at day and at night when used in combination with a night vision device.
 Itemtype=reflex-sight
 width=1
 height=1

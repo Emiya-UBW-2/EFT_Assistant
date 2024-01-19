@@ -13,5 +13,5 @@ containsItems=[
 	GAC 3s15m ballistic platex2/|
 	SSAPI level III+ ballistic plate (Side)x2
 ]
-Name_Jpn=Ars Arma CPC MOD.1 plate carrier (A-TACS FG) Default
+Name_Jpn=Ars Arma CPC MOD.1 plate carrier (A-TACS FG) デフォルト
 Information_Jpn=

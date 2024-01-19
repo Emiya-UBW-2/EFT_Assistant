@@ -11,7 +11,7 @@ NeedLightkeeper=true
 
 factionName=Any
 Task_Kill=[
-	any PMC operativesx5
+	Scavsx5
 ]
 NeedItem=[
 	SV-98 7.62x54R bolt-action sniper riflex0/|

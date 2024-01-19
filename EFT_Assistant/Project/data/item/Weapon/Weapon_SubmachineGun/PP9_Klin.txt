@@ -32,4 +32,4 @@ cameraSnap=3.500000
 deviationMax=11
 convergence=0.000000
 Name_Jpn=PP-9 "クリン" 9x18PMM サブマシンガン
-Information_Jpn=The PP-9 Klin is a further evolution of the Kedr submachine gun. It has a higher rate of fire and its chamber is designed to use the 9x18 PMM cartridge. It was produced from 1996 to 2002 by order of the Ministry of Internal Affairs.
+Information_Jpn=PP-9 “クリン” は、”ケダール” サブマシンガンの進化型で、発射速度が高く、その薬室は 9x18 PMM 弾薬が使用できるように設計されている。1996年から2002年にかけて総務省の命令によって製造されている。

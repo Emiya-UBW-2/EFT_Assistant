@@ -13,6 +13,7 @@ factionName=Any
 Task_Kill=[
 	Reshala Guardx3
 ]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot

@@ -11,7 +11,7 @@ NeedLightkeeper=false
 
 factionName=Any
 Task_Kill=[
-	any PMC operativesx3
+	Scavsx3
 ]
 NeedItem=[
 	Beretta M9A3 9x19 pistolx0/|
@@ -39,6 +39,7 @@ NeedItem=[
 	RSh-12 12.7x55 revolverx0/|
 	Glock 19X 9x19 pistolx0
 ]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot

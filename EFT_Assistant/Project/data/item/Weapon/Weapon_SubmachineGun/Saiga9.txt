@@ -82,5 +82,5 @@ cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=17
 convergence=0.000000
-Name_Jpn=Saiga-9 9x19 carbine
-Information_Jpn=The Saiga-9 carbine was developed as a semi-automatic variant of the PP-19-01 Vityaz SMG for civilian market and designed for purposes of shooting sports and plinking.
+Name_Jpn=Saiga-9 9x19 カービン
+Information_Jpn=Saiga-9 カービンは、市民市場向けの PP-19-01 "ヴィチャズ" SMG の半自動版として開発され、射撃競技や標的射撃のために設計された。

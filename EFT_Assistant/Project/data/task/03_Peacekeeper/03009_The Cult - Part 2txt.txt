@@ -3,7 +3,7 @@ Name=The Cult - Part 2
 Trader=Peacekeeper
 
 NeedTask=The Cult - Part 1
-NeedLevel=12
+NeedLevel=18
 NeedItem=[Dorm room 314 marked keyx1]
 
 CanRestart=false

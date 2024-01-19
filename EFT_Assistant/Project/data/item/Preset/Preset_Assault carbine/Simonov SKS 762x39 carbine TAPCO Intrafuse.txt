@@ -11,16 +11,16 @@ IsDefault=FALSE
 containsItems=[
 	TOZ Simonov SKS 7.62x39 carbinex1/|
 	SKS TAPCO Intrafuse chassisx1/|
-	SKS rear sightx1/|
-	SKS 7.62x39 TAPCO 6610 20-round magazinex1/|
 	SKS TAPCO Intrafuse buffer tubex1/|
-	SKS TAPCO Intrafuse SAW-Style pistol gripx1/|
 	AR-15 High Standard M4SS Stockx1/|
+	SKS TAPCO Intrafuse SAW-Style pistol gripx1/|
 	SKS TAPCO Intrafuse chassis lower railx1/|
+	SKS 7.62x39 TAPCO 6610 20-round magazinex1/|
 	SKS 7.62x39 520mm barrelx1/|
 	SKS upper bandx1/|
 	SKS gas tubex1/|
 	SKS TAPCO railed gas tube coverx1/|
+	SKS rear sightx1/|
 	SKS dust coverx1
 ]
 Name_Jpn=SKS 7.62x39 カービン TAPCO Intrafuse

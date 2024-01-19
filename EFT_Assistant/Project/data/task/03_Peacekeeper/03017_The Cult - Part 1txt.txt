@@ -2,7 +2,6 @@ IDstr=5a27b9de86f77464e5044585
 Name=The Cult - Part 1
 Trader=Peacekeeper
 
-NeedTask=Friend From the West - Part 2
 NeedTask=Humanitarian Supplies
 NeedLevel=12
 

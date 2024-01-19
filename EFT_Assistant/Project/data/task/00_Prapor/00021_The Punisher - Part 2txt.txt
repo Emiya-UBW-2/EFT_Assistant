@@ -9,11 +9,11 @@ CanRestart=false
 NeedKappa=true
 NeedLightkeeper=true
 
-Task_Map=Shoreline
+Task_Map=Reserve
 factionName=Any
-Task_Map=Shoreline
+Task_Map=Reserve
 Task_Kill=[
-	Shoreline-Scavsx12
+	Reserve-Scavsx12
 ]
 NeedItem=[
 	SilencerCo Hybrid 46 Direct Thread Mount adapterx0/|
@@ -90,8 +90,11 @@ NeedItem=[
 	Steyr AUG Ase Utra S Series SL7i 5.56x45 sound suppressorx0/|
 	Steyr AUG Relfex T4AUG Ranger 5.56x45 sound suppressorx0/|
 	SR-2M 9x21 sound suppressor (SV-1381)x0/|
-	AK-12 5.45x39 sound suppressorx0
+	AK-12 5.45x39 sound suppressorx0/|
+	MCX SPEAR SLX68-MG-QD 6.8x51 sound suppressorx0/|
+	9A-91 9x39 sound suppressorx0
 ]
+Task_Else=距離: >= 0m
 NeedItem=Lower half-maskx7
 Task_FiR_HandOver=[Lower half-maskx7]
 DogTagLv=0

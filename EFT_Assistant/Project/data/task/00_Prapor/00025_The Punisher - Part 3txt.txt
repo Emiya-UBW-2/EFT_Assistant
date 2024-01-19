@@ -21,6 +21,7 @@ NeedItem=[
 	Kalashnikov AKS-74U 5.45x39 assault riflex0/|
 	SAG AK-545 Short 5.45x39 carbinex0
 ]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot

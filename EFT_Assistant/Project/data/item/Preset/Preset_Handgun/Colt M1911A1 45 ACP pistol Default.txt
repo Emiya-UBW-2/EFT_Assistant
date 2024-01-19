@@ -20,5 +20,5 @@ containsItems=[
 	M1911A1 hammerx1/|
 	M1911A1 slide stopx1
 ]
-Name_Jpn=Colt M1911A1 .45 ACP pistol Default
+Name_Jpn=Colt M1911A1 .45 ACP ピストル デフォルト
 Information_Jpn=

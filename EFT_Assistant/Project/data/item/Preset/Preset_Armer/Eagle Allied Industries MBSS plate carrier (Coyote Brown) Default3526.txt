@@ -12,5 +12,5 @@ containsItems=[
 	Eagle Allied Industries MBSS plate carrier (Coyote Brown)x1/|
 	PRTCTR Lightweight ballistic platex2
 ]
-Name_Jpn=Eagle Allied Industries MBSS plate carrier (Coyote Brown) Default
+Name_Jpn=Eagle Allied Industries MBSS plate carrier (Coyote Brown) デフォルト
 Information_Jpn=

@@ -3,7 +3,7 @@ Name=The Bunker - Part 2
 Trader=Prapor
 
 NeedTask=The Bunker - Part 1
-NeedLevel=11
+NeedLevel=15
 
 CanRestart=false
 NeedKappa=true

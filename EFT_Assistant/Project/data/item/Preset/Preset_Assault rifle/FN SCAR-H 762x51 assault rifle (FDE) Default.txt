@@ -25,5 +25,5 @@ containsItems=[
 	FN SCAR cheek rest (FDE)x1/|
 	FN SCAR charging handlex1
 ]
-Name_Jpn=FN SCAR-H 7.62x51 assault rifle (FDE) Default
+Name_Jpn=SCAR-H 7.62x51 アサルトライフル デフォルト
 Information_Jpn=

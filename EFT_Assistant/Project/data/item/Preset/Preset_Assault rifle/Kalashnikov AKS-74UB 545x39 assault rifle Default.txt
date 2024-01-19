@@ -18,5 +18,5 @@ containsItems=[
 	AKS-74U gas tube (6P26 Sb.1-2)x1/|
 	AKS-74U wooden handguard (6P26 Sb.6)x1
 ]
-Name_Jpn=Kalashnikov AKS-74UB 5.45x39 assault rifle Default
+Name_Jpn=Kalashnikov AKS-74UB 5.45x39 アサルトライフル デフォルト
 Information_Jpn=

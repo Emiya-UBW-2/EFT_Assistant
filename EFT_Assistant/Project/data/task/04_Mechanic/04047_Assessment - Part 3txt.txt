@@ -15,6 +15,7 @@ Task_Map=The Lab
 Task_Kill=[
 	The Lab-Raiderx10
 ]
+Task_Else=距離: >= 0m
 Task_FiR_HandOver=[SJ1 TGLabs combat stimulant injectorx20]
 DogTagLv=0
 Task_FiR_HandOver=[SJ6 TGLabs combat stimulant injectorx8]

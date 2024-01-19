@@ -16,6 +16,7 @@ Task_Map=Interchange
 Task_Kill=[
 	Interchange-Killax50
 ]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot

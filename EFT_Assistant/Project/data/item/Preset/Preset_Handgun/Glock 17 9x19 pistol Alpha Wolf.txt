@@ -15,5 +15,5 @@ containsItems=[
 	Glock Lone Wolf AlphaWolf pistol slidex1/|
 	Glock 9x19 17-round magazinex1
 ]
-Name_Jpn=Glock 17 9x19 pistol Alpha Wolf
+Name_Jpn=Glock 17 9x19 ピストル Alpha Wolf
 Information_Jpn=

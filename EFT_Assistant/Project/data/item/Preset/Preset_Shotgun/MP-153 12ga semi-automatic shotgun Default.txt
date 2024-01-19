@@ -15,5 +15,5 @@ containsItems=[
 	MP-153 12ga 4-shell magazine capx1/|
 	MP-133/153 plastic stockx1
 ]
-Name_Jpn=MP-153 12ga semi-automatic shotgun Default
+Name_Jpn=MP-153 12ga セミオートショットガン デフォルト
 Information_Jpn=

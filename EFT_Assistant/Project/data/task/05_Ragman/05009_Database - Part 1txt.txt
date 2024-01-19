@@ -54,11 +54,8 @@ Reward_Rep=Ragman+3
 Reward_Item=[
 	Roublesx30000/|
 	MSA Sordin Supreme PRO-X/L headsetx1/|
-	Army capx1/|
-	Lower half-maskx1/|
 	RayBench Aviator glassesx1/|
-	Malboro Cigarettesx2/|
-	Crickent lighterx1
+	Malboro Cigarettesx2
 ]
 
 Reward_EXP=8400

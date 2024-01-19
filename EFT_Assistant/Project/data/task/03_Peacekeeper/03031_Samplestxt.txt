@@ -2,7 +2,6 @@ IDstr=5edac020218d181e29451446
 Name=Samples
 Trader=Peacekeeper
 
-NeedTask=Friend From the West - Part 2
 NeedTask=Fishing Gear
 NeedTask=Anesthesia
 NeedLevel=21

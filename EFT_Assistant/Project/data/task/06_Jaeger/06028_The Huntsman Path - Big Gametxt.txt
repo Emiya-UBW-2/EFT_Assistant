@@ -16,10 +16,12 @@ Task_Map=Streets of Tarkov
 Task_Kill=[
 	Streets of Tarkov-Kabanx1
 ]
+Task_Else=距離: >= 0m
 Task_Map=Streets of Tarkov
 Task_Kill=[
 	Streets of Tarkov-Kaban Guardx5
 ]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot

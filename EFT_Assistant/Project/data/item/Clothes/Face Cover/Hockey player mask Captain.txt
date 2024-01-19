@@ -18,5 +18,5 @@ Conflict=[
 	Gus baseball cap/|
 	Basmach leather cap
 ]
-Name_Jpn=Hockey player mask "Captain"
+Name_Jpn=Hockey player mask (Captain)
 Information_Jpn=Frightening mask from a children's cartoon about hockey.

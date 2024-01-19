@@ -18,7 +18,7 @@ Task_Else=TaskType:visit
 Task_Else=Locate the AGS grenade launcher on Ground Zero
 Task_Map=Ground Zero
 Task_Kill=[
-	Ground Zero-savagex5
+	Ground Zero-Scavsx5
 ]
 Task_Else=距離: >= 0m
 
@@ -43,6 +43,14 @@ Reward_Item=[
 	Roublesx13000/|
 	Mosin 7.62x54R bolt-action rifle (Infantry) Defaultx1/|
 	7.62x54mm R FMJ ammo pack (20 pcs)x3
+]
+
+Task_Else=レベル:0
+
+[
+	TaskType=playerLevel
+	TaskText=
+	TaskOptional=false
 ]
 
 Reward_EXP=1600

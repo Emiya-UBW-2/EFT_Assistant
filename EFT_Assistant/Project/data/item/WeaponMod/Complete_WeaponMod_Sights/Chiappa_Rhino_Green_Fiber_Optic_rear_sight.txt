@@ -12,5 +12,5 @@ Recoil=0.000000
 Ergonomics=0.000000
 SightRange=200
 sightZooms=1.000000
-Name_Jpn=Chiappa Rhino Green Fiber Optic rear sight
-Information_Jpn=A Green Fiber tritium rear sight for Rhino revolvers, manufactured by Chiappa Firearms.
+Name_Jpn=Chiappa Rhino Red Fiber Optic rear sight
+Information_Jpn=A Red Fiber tritium rear sight for Rhino revolvers, manufactured by Chiappa Firearms.

@@ -2,7 +2,6 @@ IDstr=5a03153686f77442d90e2171
 Name=Spa Tour - Part 1
 Trader=Peacekeeper
 
-NeedTask=Friend From the West - Part 2
 NeedTask=Humanitarian Supplies
 NeedLevel=12
 
@@ -28,6 +27,7 @@ NeedItem=[
 	Benelli M3 Super 90 dual-mode 12ga shotgunx0/|
 	MP-43 12ga sawed-off double-barrel shotgunx0
 ]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot

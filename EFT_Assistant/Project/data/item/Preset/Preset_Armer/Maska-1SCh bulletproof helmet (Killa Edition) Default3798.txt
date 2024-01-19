@@ -12,5 +12,5 @@ containsItems=[
 	Maska-1SCh bulletproof helmet (Killa Edition)x1/|
 	Maska-1SCh face shield (Killa Edition)x1
 ]
-Name_Jpn=Maska-1SCh bulletproof helmet (Killa Edition) Default
+Name_Jpn=Maska-1SCh bulletproof helmet (Killa Edition) デフォルト
 Information_Jpn=

@@ -13,7 +13,7 @@ Task_Map=Woods
 factionName=Any
 Task_Map=Woods
 Task_Else=TaskType:visit
-Task_Else=Locate the van that belonged to the head of the health resort Medical Services
+Task_Else=Locate the van of the Health Resort medical services director on Woods
 Task_Map=Woods
 Task_Else=拾って納品:Woods-Blood samplex1
 Task_Map=Woods
@@ -21,7 +21,7 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 
 [
 	TaskType=visit
-	TaskText=Locate the van that belonged to the head of the health resort Medical Services
+	TaskText=Locate the van of the Health Resort medical services director on Woods
 	TaskOptional=false
 ]
 [

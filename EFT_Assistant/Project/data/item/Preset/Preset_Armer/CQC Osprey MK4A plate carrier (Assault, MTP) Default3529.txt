@@ -12,5 +12,5 @@ containsItems=[
 	CQC Osprey MK4A plate carrier (Assault, MTP)x1/|
 	NewSphereTech level III ballistic platex2
 ]
-Name_Jpn=CQC Osprey MK4A plate carrier (Assault, MTP) Default
+Name_Jpn=CQC Osprey MK4A プレートキャリア (Assault, MTP) デフォルト
 Information_Jpn=

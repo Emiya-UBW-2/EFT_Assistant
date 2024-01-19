@@ -21,5 +21,5 @@ containsItems=[
 	AR-15 MASP Industries Ambidextrous Battle Charging Handlex1/|
 	STM-9 magwellx1
 ]
-Name_Jpn=Soyuz-TM STM-9 Gen.2 9x19 carbine Default
+Name_Jpn=Soyuz-TM STM-9 Gen.2 9x19 カービン デフォルト
 Information_Jpn=

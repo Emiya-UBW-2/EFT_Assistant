@@ -11,5 +11,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-24.000000
 Ergonomics=3.000000
 accuracyModifier=0.000000
-Name_Jpn=Magpul PRS GEN3 stock (Grey)
+Name_Jpn=AR-15 Magpul PRS GEN3 stock (Grey)
 Information_Jpn=The Magpul Precision Rifle/Sniper GEN3 is a field precision stock for AR-15/M16 and AR-10/SR-25 platforms. Featuring tool-less length of pull and cheek piece height adjustments via aluminum detent knobs, the PRS GEN3 stock provides a stable interface intended for semi-automatic sniper or varmint rifles. Grey version.

@@ -1,6 +1,6 @@
 IDstr=657eb30326f0eb0718056204
 Name=Degtyarev RPDN 7.62x39 machine gun Default
-ShortName=RDPN Default
+ShortName=RPDN Default
 Itemtype=machinegun
 width=6
 height=3
@@ -19,5 +19,5 @@ containsItems=[
 	RPD wooden handguardx1/|
 	RPD rear sightx1
 ]
-Name_Jpn=Degtyarev RPDN 7.62x39 machine gun Default
+Name_Jpn=Degtyarev RPDN 7.62x39 machine gun デフォルト
 Information_Jpn=

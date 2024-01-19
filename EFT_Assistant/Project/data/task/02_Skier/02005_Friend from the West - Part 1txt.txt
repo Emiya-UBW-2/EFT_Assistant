@@ -11,8 +11,9 @@ NeedLightkeeper=true
 
 factionName=Any
 Task_Kill=[
-	USEC operativesx7
+	Scavsx7
 ]
+Task_Else=距離: >= 0m
 NeedItem=Dogtag USECx7
 Task_NotFiR_HandOver=[Dogtag USECx7]
 DogTagLv=0

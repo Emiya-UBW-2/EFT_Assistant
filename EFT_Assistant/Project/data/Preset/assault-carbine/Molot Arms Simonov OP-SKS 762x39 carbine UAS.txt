@@ -1,7 +1,13 @@
 Name=Molot Arms Simonov OP-SKS 7.62x39 carbine UAS
 Base=Molot Arms Simonov OP-SKS 7.62x39 carbine
 Parts=SKS FAB Defense UAS chassis
-Parts=SKS rear sight
+Parts=SKS/VZ-58 FAB Defense AG-58 pistol grip
+Parts=SKS FAB Defense UAS buttstock
 Parts=SKS 7.62x39 10-round internal box magazine
 Parts=OP-SKS dovetail mount
-Parts=SKS/VZ-58 FAB Defense AG-58 pistol grip
+Parts=OP-SKS 7.62x39 520mm barrel
+Parts=OP-SKS upper band
+Parts=OP-SKS gas tube
+Parts=OP-SKS gas tube cover
+Parts=SKS rear sight
+Parts=OP-SKS dust cover

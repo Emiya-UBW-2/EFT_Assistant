@@ -68,7 +68,5 @@ Reward_Item=[
 	Paracordx3/|
 	Piece of plexiglassx10
 ]
-Reward_SkillLevelUp=Attention+1
-Reward_SkillLevelUp=Crafting+0
 
 Reward_EXP=107000

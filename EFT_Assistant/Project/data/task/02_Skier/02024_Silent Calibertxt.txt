@@ -2,12 +2,12 @@ IDstr=5c0bc91486f7746ab41857a2
 Name=Silent Caliber
 Trader=Skier
 
-NeedTask=Chumming
+NeedTask=Bullshit
 NeedLevel=30
 
 CanRestart=false
 NeedKappa=false
-NeedLightkeeper=true
+NeedLightkeeper=false
 
 factionName=Any
 Task_Kill=[
@@ -27,8 +27,9 @@ NeedItem=[
 	SilencerCo Salvo 12 12ga sound suppressorx0/|
 	Hexagon 12K 12ga sound suppressorx0
 ]
+Task_Else=距離: >= 0m
 Task_Kill=[
-	any PMC operativesx10
+	Scavsx10
 ]
 NeedItem=[
 	Saiga 12ga ver.10 12/76 semi-automatic shotgunx0/|
@@ -44,6 +45,7 @@ NeedItem=[
 	SilencerCo Salvo 12 12ga sound suppressorx0/|
 	Hexagon 12K 12ga sound suppressorx0
 ]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot
@@ -59,7 +61,7 @@ NeedItem=[
 Reward_Rep=Skier+5
 Reward_Item=[
 	Roublesx100000/|
-	Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle Saboteurx1
+	MP-155 12ga semi-automatic shotgun Ultimax1
 ]
 
 Reward_EXP=18000

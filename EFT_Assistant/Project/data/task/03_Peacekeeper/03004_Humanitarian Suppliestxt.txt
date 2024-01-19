@@ -28,6 +28,7 @@ Task_Else=装備が必要:{
 Task_Else=  UNTAR helmet
 Task_Else=  MF-UNTAR body armor
 Task_Else=}
+Task_Else=距離: >= 0m
 Task_Map=Shoreline
 Task_Else=TaskType:visit
 Task_Else=Locate the first truck that was holding the lost UN cargo on Shoreline

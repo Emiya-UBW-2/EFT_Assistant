@@ -17,5 +17,5 @@ containsItems=[
 	Mossberg 590A1 polymer stockx1/|
 	Mossberg 590 Ghost Ring rear sightx1
 ]
-Name_Jpn=Mossberg 590A1 12ga pump-action shotgun Default
+Name_Jpn=Mossberg 590A1 12ゲージ ポンプアクションショットガン デフォルト
 Information_Jpn=

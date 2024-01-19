@@ -34,4 +34,12 @@ Reward_Item=[
 	Bottle of water (0.6L)x2
 ]
 
+Task_Else=レベル:0
+
+[
+	TaskType=playerLevel
+	TaskText=
+	TaskOptional=false
+]
+
 Reward_EXP=1200

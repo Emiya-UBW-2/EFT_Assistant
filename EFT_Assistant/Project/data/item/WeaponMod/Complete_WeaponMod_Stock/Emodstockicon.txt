@@ -11,5 +11,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-22.000000
 Ergonomics=9.000000
 accuracyModifier=0.000000
-Name_Jpn=Vltor EMOD stock
+Name_Jpn=AR-15 Vltor EMOD stock
 Information_Jpn=The EMOD buttstock designed for AR-15 weapon systems. Manufactured by Vltor.

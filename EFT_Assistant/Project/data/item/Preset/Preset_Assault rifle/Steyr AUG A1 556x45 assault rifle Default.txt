@@ -17,5 +17,5 @@ containsItems=[
 	Steyr AUG A1 5.56x45 closed flash hiderx1/|
 	Steyr AUG vertical foregripx1
 ]
-Name_Jpn=Steyr AUG A1 5.56x45 assault rifle Default
+Name_Jpn=AUG A1 5.56x45 アサルトライフル デフォルト
 Information_Jpn=

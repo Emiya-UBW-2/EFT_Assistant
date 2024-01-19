@@ -39,9 +39,9 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 Reward_Rep=Prapor+3
 Reward_Item=[
 	Roublesx20000/|
-	Kalashnikov AK-105 5.45x39 assault rifle Defaultx1/|
-	5.45x39mm PPBS gs "Igolnik"x60/|
-	5.45x39mm BT gsx30
+	SR-2M "Veresk" 9x21 submachine gun Defaultx1/|
+	9x21mm BT gzhx80/|
+	SR-2M 9x21 20-round magazinex3
 ]
 
 Reward_EXP=5700

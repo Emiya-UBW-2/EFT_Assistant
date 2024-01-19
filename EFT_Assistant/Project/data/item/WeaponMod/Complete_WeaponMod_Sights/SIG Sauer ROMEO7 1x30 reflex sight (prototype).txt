@@ -12,5 +12,5 @@ Recoil=0.000000
 Ergonomics=-3.000000
 SightRange=800
 sightZooms=1.000000
-Name_Jpn=SIG Sauer ROMEO7 1x30 reflex sight (prototype)
+Name_Jpn=SIG Sauer ROMEO7 1x30 reflex sight (Prototype)
 Information_Jpn=An early prototype of the ROMEO7 1x30 reflex sight. Manufactured by SIG Sauer.

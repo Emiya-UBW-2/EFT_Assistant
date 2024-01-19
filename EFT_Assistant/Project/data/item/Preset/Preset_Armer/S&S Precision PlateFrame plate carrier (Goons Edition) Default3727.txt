@@ -12,5 +12,5 @@ containsItems=[
 	S&S Precision PlateFrame plate carrier (Goons Edition)x1/|
 	GAC 3s15m ballistic platex2
 ]
-Name_Jpn=S&S Precision PlateFrame plate carrier (Goons Edition) Default
+Name_Jpn=S&S Precision PlateFrame plate carrier (Goons Edition) デフォルト
 Information_Jpn=

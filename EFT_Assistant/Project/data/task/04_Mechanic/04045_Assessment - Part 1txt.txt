@@ -13,9 +13,10 @@ Task_Map=Lighthouse
 factionName=Any
 Task_Map=Lighthouse
 Task_Kill=[
-	Lighthouse-any PMC operativesx20
+	Lighthouse-Scavsx20
 ]
 Task_Else=ゾーン:[Lighthouse Island]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot

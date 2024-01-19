@@ -8,5 +8,5 @@ height=3
 weight=2.370000
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmor
-Name_Jpn=BNTI Zhuk-3 body armor (Press)
-Information_Jpn=An armored vest of class 3 (Russian GOST) protection for the journalists working in combat zones.
+Name_Jpn=BNTI Zhuk body armor (Press)
+Information_Jpn=An armored vest for journalists working in combat zones.

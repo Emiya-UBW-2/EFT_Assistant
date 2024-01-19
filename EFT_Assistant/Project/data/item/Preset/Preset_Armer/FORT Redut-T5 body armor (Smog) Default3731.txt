@@ -13,5 +13,5 @@ containsItems=[
 	Granit Br4 ballistic platex2/|
 	Granit ballistic plate (Side)x2
 ]
-Name_Jpn=FORT Redut-T5 body armor (Smog) Default
+Name_Jpn=FORT Redut-T5 ボディアーマー デフォルト
 Information_Jpn=

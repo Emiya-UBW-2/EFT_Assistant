@@ -10,8 +10,8 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	NPP KlASS Bagariy armored rig (Digital Flora)x1/|
-	Korund VM ballistic plates (Front)x1/|
+	Korund-VM ballistic plates (Front)x1/|
 	Korund-VM ballistic plate (Back)x1
 ]
-Name_Jpn=NPP KlASS Bagariy armored rig (Digital Flora) Default
+Name_Jpn=NPP KlASS Bagariy armored rig (Digital Flora) デフォルト
 Information_Jpn=

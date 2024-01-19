@@ -31,5 +31,5 @@ cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=11
 convergence=0.000000
-Name_Jpn=PP-91 "Kedr" 9x18PM submachine gun
-Information_Jpn=The PP-91 Kedr is a submachine gun chambered in 9x18 PM, designed by Yevgeny Dragunov in the early 90s by order of the Ministry of Internal Affairs and produced at ZMZ (Zlatoústovskiy Mashinostroítelnyy Zavód - "Zlatoust Machine-Building Plant"). This submachine gun has a simple but effective design. Its light weight makes it more comfortable to carry without affecting its performance, and it provides a high rate of fire without affecting its recoil. Thanks to these characteristics, it's still used as a service weapon in almost all Russian law enforcement agencies.
+Name_Jpn=PP-91 "Kedr" 9x18PM サブマシンガン
+Information_Jpn=PP-91 "ケダール" は、9x18mm PM口径のサブマシンガンで、エフゲニー・ドラグノフによって総務省の命令で1990年代初頭に設計され、ZMZ（Zlatoústovskiy Mashinostroítelnyy Zavód - "ズラトゥースト機械製造工場"）で生産されている。シンプルで効率的な設計がされていて、軽量だからパフォーマンスに影響を与えずに快適に運ぶことができるだけなく、反動に影響を与えないで高い発射速度を備えている。これらの特性から、ほとんどのロシアの法執行機関で現在も制式武器として使用されている。

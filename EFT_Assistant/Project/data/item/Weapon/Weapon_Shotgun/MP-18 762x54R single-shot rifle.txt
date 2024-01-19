@@ -28,5 +28,5 @@ cameraRecoil=0.000000
 cameraSnap=2.200000
 deviationMax=10
 convergence=0.000000
-Name_Jpn=MP-18 7.62x54R single-shot rifle
-Information_Jpn=MP-18 is the legendary Soviet single-barreled rifle. This gun behaves perfectly in all weather conditions, no breakdowns or failures have ever been identified.
+Name_Jpn=MP-18 7.62x54R 単発ライフル
+Information_Jpn=MP-18 は伝説的なソビエトの単発ライフルだ。あらゆる気象条件下で完璧に機能し、これまで一度も不具合や故障は見つかっていない。

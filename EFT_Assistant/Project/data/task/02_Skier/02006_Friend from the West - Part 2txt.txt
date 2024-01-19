@@ -10,7 +10,7 @@ NeedKappa=true
 NeedLightkeeper=true
 
 factionName=Any
-Task_NotFiR_HandOver=[Dollarsx6000]
+Task_NotFiR_HandOver=[Dollarsx5000]
 DogTagLv=0
 
 [
@@ -21,4 +21,4 @@ DogTagLv=0
 
 Reward_Rep=Skier+5
 
-Reward_EXP=6300
+Reward_EXP=10000

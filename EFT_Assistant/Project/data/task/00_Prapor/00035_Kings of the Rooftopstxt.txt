@@ -15,6 +15,7 @@ Task_Map=Streets of Tarkov
 Task_Kill=[
 	Streets of Tarkov-Sniperx10
 ]
+Task_Else=距離: >= 0m
 Task_Map=Streets of Tarkov
 Task_Else=脱出ステータス:[Survived]
 

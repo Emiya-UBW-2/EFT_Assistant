@@ -20,5 +20,5 @@ containsItems=[
 	AR-15 SB Tactical SBA3 bracex1/|
 	AK 7.62x39 30-round magazine (issued '55 or later)x1
 ]
-Name_Jpn=Rifle Dynamics RD-704 7.62x39 assault rifle Default
+Name_Jpn=RD-704 7.62x39 アサルトライフル デフォルト
 Information_Jpn=

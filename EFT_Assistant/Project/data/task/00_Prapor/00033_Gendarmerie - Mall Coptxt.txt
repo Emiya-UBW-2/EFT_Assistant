@@ -13,7 +13,7 @@ Task_Map=Streets of Tarkov
 factionName=Any
 Task_Map=Streets of Tarkov
 Task_Kill=[
-	Streets of Tarkov-any targetx15
+	Streets of Tarkov-Scavsx15
 ]
 Task_Else=ゾーン:[Inside the Stylobate building]
 NeedItem=[
@@ -41,6 +41,7 @@ NeedItem=[
 	Chiappa Rhino 50DS .357 revolverx0/|
 	RSh-12 12.7x55 revolverx0
 ]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot

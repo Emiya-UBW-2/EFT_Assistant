@@ -12,7 +12,7 @@ NeedLightkeeper=false
 
 factionName=Any
 Task_Kill=[
-	any targetx30
+	Scavsx30
 ]
 NeedItem=[
 	Kalashnikov AK-74 5.45x39 assault riflex0/|

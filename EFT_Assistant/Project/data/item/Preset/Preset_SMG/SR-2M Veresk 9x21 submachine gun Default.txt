@@ -18,5 +18,5 @@ containsItems=[
 	SR-2M short side railx1/|
 	SR-2M pistol gripx1
 ]
-Name_Jpn=SR-2M "Veresk" 9x21 submachine gun Default
+Name_Jpn=SR-2M "ヴェレスク" 9x21 サブマシンガン デフォルト
 Information_Jpn=

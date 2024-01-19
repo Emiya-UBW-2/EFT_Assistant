@@ -74,5 +74,5 @@ cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=30
 convergence=0.000000
-Name_Jpn=Knight's Armament Company SR-25 7.62x51 marksman rifle
-Information_Jpn=The SR-25 Precision Rifle is the latest evolution of the precision 7.62mm NATO semi-automatic rifle. An ambidextrous bolt release, selector, and magazine release offers the left-handed user the ergonomic advantages inherent to AR-15 based controls, as well as giving right-handed users alternate methods of manipulation to increase efficiency of movement. The Drop-In 2-Stage Trigger serves as an aid to long range precision marksmanship. The E2 bolt and gas system provides superior reliability in function whether suppressed or unsuppressed.
+Name_Jpn=Knight's Armament Company SR-25 7.62x51 マークスマンライフル
+Information_Jpn=SR-25 狙撃銃は、7.62mm NATO 弾を使用する半自動狙撃銃の最新版だ。両方の利き手に対応するボルトリリース、セレクター、マガジンリリースは、AR-15 を基にしたコントロールに独自の人間工学的な利点によって両方の利き手の使用者が操作できるようになっている。また、ツーステージトリガーは、長距離精密射撃を支援する役割を果たし、E2ボルトとガスシステムは、消音器の有無に関係なく優れた信頼性を提供する。

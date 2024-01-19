@@ -1,7 +1,7 @@
 IDstr=6582dc4b6ba9e979af6b79f4
-Name=MVD academy entrance hall key
+Name=MVD academy entrance hall guard room key
 ShortName=MVD
-Information_Eng=A key to the entrance hall inside the city MVD (Ministry of the Interior) academy.
+Information_Eng=A key to the guard room at the entrance hall inside the city MVD (Ministry of the Interior) academy.
 Itemtype=mechanical-key
 width=1
 height=1

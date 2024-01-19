@@ -13,6 +13,7 @@ ChildParts=[
 	SA-58/FAL 7.62x51 20-round magazine/|
 	SA-58/FAL 7.62x51 30-round magazine/|
 	SA-58/FAL 7.62x51 MMW polymer 20-round magazine/|
+	SA-58/FAL/SLR 7.62x51 30-round magazine
 ]
 ChildParts=[
 	RFB 7.62x51 18 inch barrel

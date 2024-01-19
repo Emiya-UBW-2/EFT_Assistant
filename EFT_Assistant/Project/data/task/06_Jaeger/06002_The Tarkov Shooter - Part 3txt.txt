@@ -11,7 +11,7 @@ NeedLightkeeper=true
 
 factionName=Any
 Task_Kill=[
-	any PMC operativesx3
+	Scavsx3
 ]
 NeedItem=[
 	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
@@ -35,10 +35,8 @@ Task_Else=距離: <= 25m
 Reward_Rep=Jaeger+2
 Reward_Item=[
 	Roublesx70000/|
-	Kinda cowboy hatx1/|
 	Mosin Rifle Tacfire Tanker Style 7.62x54R muzzle brakex1/|
-	Mosin Rifle AIM Sports Recoil Padx1/|
-	Cold Fear infrared balaclavax1
+	Mosin Rifle AIM Sports Recoil Padx1
 ]
 
 Reward_EXP=10500

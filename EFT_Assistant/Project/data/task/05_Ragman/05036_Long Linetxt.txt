@@ -13,9 +13,10 @@ Task_Map=Interchange
 factionName=Any
 Task_Map=Interchange
 Task_Kill=[
-	Interchange-any PMC operativesx30
+	Interchange-Scavsx30
 ]
 Task_Else=ゾーン:[Inside ULTRA Mall]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot

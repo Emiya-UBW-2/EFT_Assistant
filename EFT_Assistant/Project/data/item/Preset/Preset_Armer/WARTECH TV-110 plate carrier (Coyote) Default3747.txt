@@ -12,5 +12,5 @@ containsItems=[
 	WARTECH TV-110 plate carrier (Coyote)x1/|
 	Global Armor’s Steel ballistic platex2
 ]
-Name_Jpn=WARTECH TV-110 plate carrier (Coyote) Default
+Name_Jpn=WARTECH TV-110 plate carrier (Coyote) デフォルト
 Information_Jpn=

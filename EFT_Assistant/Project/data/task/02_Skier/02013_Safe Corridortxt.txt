@@ -16,6 +16,7 @@ Task_Kill=[
 	Reserve-Scavsx10
 ]
 Task_Else=ゾーン:[Underground Warehouse]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot

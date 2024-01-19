@@ -18,6 +18,7 @@ ChildParts=[
 	SA-58/FAL 7.62x51 20-round magazine/|
 	SA-58/FAL 7.62x51 30-round magazine/|
 	SA-58/FAL 7.62x51 MMW polymer 20-round magazine/|
+	SA-58/FAL/SLR 7.62x51 30-round magazine/|
 	SA-58/FAL 7.62x51 X Products X-FAL 50-round drum magazine
 ]
 ChildParts=[

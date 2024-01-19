@@ -12,5 +12,5 @@ containsItems=[
 	BNTI Kirasa-N body armorx1/|
 	AR500 Legacy Plate ballistic platex2
 ]
-Name_Jpn=BNTI Kirasa-N body armor Default
+Name_Jpn=BNTI Kirasa-N アーマー デフォルト
 Information_Jpn=

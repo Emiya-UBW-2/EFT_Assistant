@@ -36,7 +36,9 @@ Task_Else=脱出ステータス:[Survived]
 
 Reward_Rep=Prapor+2
 Reward_Item=[
-	Roublesx120000
+	Roublesx120000/|
+	6Sh118 raid backpack (Digital Flora)x1/|
+	Kalashnikov AK-12 5.45x39 assault rifle Defaultx1
 ]
 
 Reward_EXP=15000

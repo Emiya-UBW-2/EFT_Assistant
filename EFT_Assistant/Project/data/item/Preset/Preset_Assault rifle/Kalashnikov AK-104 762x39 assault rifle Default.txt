@@ -19,5 +19,5 @@ containsItems=[
 	AK-74M polymer stock (6P34 Sb.15)x1/|
 	AK-103 7.62x39 30-round magazinex1
 ]
-Name_Jpn=Kalashnikov AK-104 7.62x39 assault rifle Default
+Name_Jpn=Kalashnikov AK-104 7.62x39 アサルトライフル デフォルト
 Information_Jpn=

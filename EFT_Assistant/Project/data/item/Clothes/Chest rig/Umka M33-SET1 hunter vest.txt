@@ -8,5 +8,5 @@ height=4
 weight=1.200000
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
-Name_Jpn=Umka M33-SET1 hunter vest
+Name_Jpn=Umka M33-SET1 hunter vest (Olive Drab)
 Information_Jpn=Umka M33-SET1はハンターや旅行者、警備員、捜索救難の専門家のためにデザインされたベストだ。

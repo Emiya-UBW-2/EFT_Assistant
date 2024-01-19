@@ -15,5 +15,5 @@ containsItems=[
 	APS front sightx1/|
 	APS rear sightx1
 ]
-Name_Jpn=Stechkin APS 9x18PM machine pistol Default
+Name_Jpn=Stechkin APS 9x18PM 自動拳銃 デフォルト
 Information_Jpn=

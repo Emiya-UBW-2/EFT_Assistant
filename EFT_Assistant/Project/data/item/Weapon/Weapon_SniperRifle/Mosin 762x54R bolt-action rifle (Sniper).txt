@@ -44,5 +44,5 @@ cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=33
 convergence=0.000000
-Name_Jpn=Mosin 7.62x54R bolt-action rifle (Sniper)
+Name_Jpn=Mosin 7.62x54R ボルトアクション ライフル (スナイパー)
 Information_Jpn=Mosin-Nagant M91/30 PUは有名なロシア製ライフルの狙撃仕様だ。第二次世界大戦では多くのソ連軍狙撃兵が使用した。

@@ -11,5 +11,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-24.000000
 Ergonomics=2.000000
 accuracyModifier=0.000000
-Name_Jpn=Magpul PRS GEN2 stock (FDE)
+Name_Jpn=AR-15 Magpul PRS GEN2 stock (FDE)
 Information_Jpn=The PRS GEN2 stock manufactured by Magpul. Flat Dark Earth version.

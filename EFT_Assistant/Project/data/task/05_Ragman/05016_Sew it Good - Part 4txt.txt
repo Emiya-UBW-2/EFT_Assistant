@@ -42,7 +42,7 @@ Reward_Rep=Ragman+3
 Reward_Item=[
 	Roublesx30000/|
 	ANA Tactical M2 plate carrier (Digital Flora)x1/|
-	ANA Tactical M2 plate carrier (Digital Flora)x1
+	Oakley Mechanism heavy duty backpack (Black)x1
 ]
 
 Reward_EXP=18500

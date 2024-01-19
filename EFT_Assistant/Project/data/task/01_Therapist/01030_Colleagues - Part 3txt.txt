@@ -73,6 +73,7 @@ Reward_Item=[
 Task_Kill=[
 	Sanitarx1
 ]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot

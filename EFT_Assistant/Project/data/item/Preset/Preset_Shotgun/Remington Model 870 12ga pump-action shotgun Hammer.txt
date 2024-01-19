@@ -19,5 +19,5 @@ containsItems=[
 	Trijicon RMR low profile mountx1/|
 	Trijicon RMR reflex sightx1
 ]
-Name_Jpn=Remington Model 870 12ga pump-action shotgun Hammer
+Name_Jpn=Remington Model 870 12ゲージ ポンプアクションショットガン Hammer
 Information_Jpn=

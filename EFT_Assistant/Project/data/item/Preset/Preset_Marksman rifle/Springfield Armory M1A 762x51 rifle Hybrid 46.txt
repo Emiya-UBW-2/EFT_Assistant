@@ -26,5 +26,5 @@ containsItems=[
 	Lobaev Arms 30mm scope mountx1/|
 	Schmidt & Bender PM II 1-8x24 30mm riflescopex1
 ]
-Name_Jpn=Springfield Armory M1A 7.62x51 rifle Hybrid 46
+Name_Jpn=Springfield Armory M1A 7.62x51 ライフル Hybrid 46
 Information_Jpn=

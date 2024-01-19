@@ -3,7 +3,7 @@ Name=Glory to CPSU - Part 2
 Trader=Prapor
 
 NeedTask=Glory to CPSU - Part 1
-NeedLevel=15
+NeedLevel=22
 
 CanRestart=false
 NeedKappa=false

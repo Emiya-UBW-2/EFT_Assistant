@@ -13,5 +13,5 @@ containsItems=[
 	TallCom Guardian ballistic platex2/|
 	SSAPI level III+ ballistic plate (Side)x2
 ]
-Name_Jpn=Crye Precision CPC plate carrier (Goons Edition) Default
+Name_Jpn=Crye Precision CPC plate carrier (Goons Edition) デフォルト
 Information_Jpn=

@@ -8,5 +8,5 @@ height=4
 weight=7.100000
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
-Name_Jpn=6B5-16 Zh-86 Uley armored rig
+Name_Jpn=6B5-16 Zh-86 Uley armored rig (Khaki)
 Information_Jpn=The 6B5 bulletproof vest was adopted by the armed forces of the USSR in 1986. Option 6B5-16 is designed to protect against fragments and bullets of fire arms (class 3 protection, titanium). Also has several pouches for magazines and other equipment.

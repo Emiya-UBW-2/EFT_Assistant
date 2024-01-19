@@ -2,7 +2,7 @@ IDstr=5a27b75b86f7742e97191958
 Name=Fishing Gear
 Trader=Peacekeeper
 
-NeedTask=Friend From the West - Part 1
+NeedTask=Friend From the West - Part 2
 NeedLevel=10
 
 CanRestart=false

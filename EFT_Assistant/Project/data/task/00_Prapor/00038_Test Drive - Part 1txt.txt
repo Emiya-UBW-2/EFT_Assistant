@@ -11,7 +11,7 @@ NeedLightkeeper=false
 
 factionName=Any
 Task_Kill=[
-	any PMC operativesx5
+	Scavsx5
 ]
 NeedItem=[
 	Springfield Armory M1A 7.62x51 riflex0
@@ -35,7 +35,7 @@ Reward_Rep=Prapor+2
 Reward_Item=[
 	VSS Vintorez 9x39 special sniper rifle Defaultx1/|
 	9x39 SR3M.130 30-round magazinex2/|
-	9x39mm SP-6 gsx120
+	9x39mm PAB-9 gsx120
 ]
 
 Reward_EXP=18200

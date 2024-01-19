@@ -21,5 +21,5 @@ containsItems=[
 	BelOMO PSO-1M2 4x24 scopex1/|
 	OP-SKS dust coverx1
 ]
-Name_Jpn=OP-SKS 7.62x39 カービン (狩猟ライフルバージョン) undefined
+Name_Jpn=OP-SKS 7.62x39 カービン (狩猟ライフルバージョン) Sniper
 Information_Jpn=

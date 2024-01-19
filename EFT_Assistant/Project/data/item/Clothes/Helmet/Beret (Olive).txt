@@ -8,5 +8,5 @@ height=1
 weight=0.100000
 fleaMarketFee=0
 propertiestype=
-Name_Jpn=Beret (Olive)
-Information_Jpn=You can call it a green beret, but it's an olive beret.
+Name_Jpn=Beret (Olive Drab)
+Information_Jpn=You can call it a green beret, but it's definitely an Olive Drab beret.

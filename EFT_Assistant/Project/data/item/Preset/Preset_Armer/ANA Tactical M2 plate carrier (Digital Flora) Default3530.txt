@@ -12,5 +12,5 @@ containsItems=[
 	ANA Tactical M2 plate carrier (Digital Flora)x1/|
 	Kiba Arms Titan ballistic platex2
 ]
-Name_Jpn=ANA Tactical M2 plate carrier (Digital Flora) Default
+Name_Jpn=ANA Tactical M2 アーマーリグ デフォルト
 Information_Jpn=

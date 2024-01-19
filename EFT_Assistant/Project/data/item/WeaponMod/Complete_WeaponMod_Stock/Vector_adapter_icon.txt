@@ -9,7 +9,7 @@ weight=0.280000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
-	AR-15 Armacon Baskak stock/|
+	Armacon Baskak stock/|
 	AR-15 Colt A2 buffer tube/|
 	AR-15 ADAR 2-15 buffer tube/|
 	AR-15 Colt Carbine buffer tube/|

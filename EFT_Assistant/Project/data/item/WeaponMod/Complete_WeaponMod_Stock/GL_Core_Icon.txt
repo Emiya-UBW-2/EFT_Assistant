@@ -11,5 +11,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-19.000000
 Ergonomics=15.000000
 accuracyModifier=0.000000
-Name_Jpn=FAB Defense GL-CORE buttstock
+Name_Jpn=AR-15 FAB Defense GL-CORE buttstock
 Information_Jpn=A telescopic stock, manufactured by FAB Defense. The integrated cheek weld, ergonomic buttpad and an interchanging tube adapter provide an unmatched fit on Mil-Spec and Commercial buffer tubes, with a high level of efficiency and comfort. Includes an ergonomically shaped rubberized butt-pad for quick shouldering and easy maneuvering of the weapon.

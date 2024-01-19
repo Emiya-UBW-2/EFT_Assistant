@@ -15,8 +15,10 @@ Task_Map=Woods
 Task_Kill=[
 	Woods-Scavs{head}x15
 ]
+Task_Else=距離: >= 0m
 Task_Else=自分の該当箇所に異常状態:[head]
 Task_Else=自分の異常状態:[Stimulant]
+Task_Else=閾値: >= 0
 
 [
 	TaskType=shoot

@@ -13,6 +13,7 @@ factionName=Any
 Task_Kill=[
 	Scavs{head}x40
 ]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot
@@ -20,7 +21,7 @@ Task_Kill=[
 	TaskOptional=false
 ]
 
-Reward_SkillLevelUp=Aim drills+1
-Reward_SkillLevelUp=Assault Rifles+0
+Reward_SkillLevelUp=Aim Drills+3
+Reward_SkillLevelUp=Assault Rifles+3
 
 Reward_EXP=84000

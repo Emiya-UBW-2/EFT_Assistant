@@ -38,6 +38,7 @@ NeedItem=[
 	AR-15 Griffin Armament M4SD-K 5.56x45 sound suppressorx0/|
 	AWC Thor PSR XL multi-caliber sound suppressorx0
 ]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot

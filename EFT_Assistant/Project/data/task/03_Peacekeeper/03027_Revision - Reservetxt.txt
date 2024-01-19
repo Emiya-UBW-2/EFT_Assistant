@@ -2,7 +2,6 @@ IDstr=6086c852c945025d41566124
 Name=Revision - Reserve
 Trader=Peacekeeper
 
-NeedTask=Friend From the West - Part 2
 NeedTask=Humanitarian Supplies
 NeedLevel=14
 NeedItem=[RB-ST keyx1]

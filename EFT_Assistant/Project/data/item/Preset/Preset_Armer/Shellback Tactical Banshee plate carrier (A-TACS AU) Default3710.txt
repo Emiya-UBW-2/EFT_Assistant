@@ -12,5 +12,5 @@ containsItems=[
 	Shellback Tactical Banshee plate carrier (A-TACS AU)x1/|
 	Monoclete level III PE ballistic platex2
 ]
-Name_Jpn=Shellback Tactical Banshee plate carrier (A-TACS AU) Default
+Name_Jpn=Shellback Tactical Banshee plate carrier (A-TACS AU) デフォルト
 Information_Jpn=

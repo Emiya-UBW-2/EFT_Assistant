@@ -16,5 +16,5 @@ containsItems=[
 	PL-15 front sightx1/|
 	PL-15 9x19 16-round magazinex1
 ]
-Name_Jpn=Lebedev PL-15 9x19 pistol Default
+Name_Jpn=PL-15 9x19 ピストル デフォルト
 Information_Jpn=

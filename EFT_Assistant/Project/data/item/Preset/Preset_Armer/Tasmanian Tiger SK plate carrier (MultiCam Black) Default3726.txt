@@ -12,5 +12,5 @@ containsItems=[
 	Tasmanian Tiger SK plate carrier (MultiCam Black)x1/|
 	ESAPI level IV ballistic platex2
 ]
-Name_Jpn=Tasmanian Tiger SK plate carrier (MultiCam Black) Default
+Name_Jpn=Tasmanian Tiger SK plate carrier (MultiCam Black) デフォルト
 Information_Jpn=

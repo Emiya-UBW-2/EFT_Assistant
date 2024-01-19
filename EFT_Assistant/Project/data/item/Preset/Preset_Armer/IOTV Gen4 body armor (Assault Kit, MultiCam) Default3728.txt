@@ -13,5 +13,5 @@ containsItems=[
 	Cult Locust ballistic platex2/|
 	SSAPI level III+ ballistic plate (Side)x2
 ]
-Name_Jpn=IOTV Gen4 body armor (Assault Kit, MultiCam) Default
+Name_Jpn=IOTV Gen4 body armor (Assault Kit, MultiCam) デフォルト
 Information_Jpn=

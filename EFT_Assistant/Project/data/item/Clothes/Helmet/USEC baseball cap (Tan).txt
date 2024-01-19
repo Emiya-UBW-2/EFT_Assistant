@@ -9,4 +9,4 @@ weight=0.100000
 fleaMarketFee=0
 propertiestype=
 Name_Jpn=USEC ベースボールキャップ
-Information_Jpn=A tactical USEC PMC baseball cap. Tan version.
+Information_Jpn=A tactical USEC PMC baseball cap. Coyote version.

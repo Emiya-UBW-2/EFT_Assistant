@@ -18,5 +18,5 @@ containsItems=[
 	DeltaPoint Cross Slot Mount basex1/|
 	Leupold DeltaPoint Reflex Sightx1
 ]
-Name_Jpn=Glock 17 9x19 pistol Viper
+Name_Jpn=Glock 17 9x19 ピストル Viper
 Information_Jpn=

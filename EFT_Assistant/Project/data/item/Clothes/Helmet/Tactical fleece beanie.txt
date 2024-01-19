@@ -9,4 +9,4 @@ weight=0.100000
 fleaMarketFee=0
 propertiestype=
 Name_Jpn=タクティカル フリースキャップ
-Information_Jpn=Operate properly only in the tactical fleece hat. It's tactical.
+Information_Jpn=Operate like a real man in the tactical fleece hat. It's very tactical.

@@ -16,5 +16,5 @@ containsItems=[
 	MTs-255-12 wooden stockx1/|
 	MTs-255-12 beechwood forestockx1
 ]
-Name_Jpn=MTs-255-12 12ga shotgun Default
+Name_Jpn=MTs-255-12 12ゲージ ショットガン デフォルト
 Information_Jpn=

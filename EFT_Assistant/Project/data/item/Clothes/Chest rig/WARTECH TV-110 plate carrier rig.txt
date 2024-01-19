@@ -8,5 +8,5 @@ height=3
 weight=3.500000
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
-Name_Jpn=WARTECH TV-110 plate carrier
-Information_Jpn=A plate carrier with armor plates made of armored steel (Russian GOST class 4 protection) with chest and back protection only, equipped with a set of pouches. Manufactured by WARTECH.
+Name_Jpn=WARTECH TV-110 plate carrier (Coyote)
+Information_Jpn=The LBS TV-110 plate carrier equipped with a set of pouches. Manufactured by WARTECH.

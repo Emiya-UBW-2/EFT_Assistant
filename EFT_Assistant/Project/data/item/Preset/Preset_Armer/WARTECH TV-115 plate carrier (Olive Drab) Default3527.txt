@@ -12,5 +12,5 @@ containsItems=[
 	WARTECH TV-115 plate carrier (Olive Drab)x1/|
 	PRTCTR Lightweight ballistic platex2
 ]
-Name_Jpn=WARTECH TV-115 plate carrier (Olive Drab) Default
+Name_Jpn=WARTECH TV-115 plate carrier (Olive Drab) デフォルト
 Information_Jpn=

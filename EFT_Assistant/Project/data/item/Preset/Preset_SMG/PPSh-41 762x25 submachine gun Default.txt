@@ -15,5 +15,5 @@ containsItems=[
 	PPSh-41 dust coverx1/|
 	PPSh-41 7.62x25 10.6 inch barrelx1
 ]
-Name_Jpn=PPSh-41 7.62x25 submachine gun Default
+Name_Jpn=PPSh-41 7.62x25 サブマシンガン デフォルト
 Information_Jpn=

@@ -15,6 +15,7 @@ Task_Map=Streets of Tarkov
 Task_Kill=[
 	Streets of Tarkov-any targetx25
 ]
+Task_Else=ゾーン:[Rodina Cinema]
 NeedItem=[
 	B&T MP9 9x19 submachine gunx0/|
 	B&T MP9-N 9x19 submachine gunx0/|

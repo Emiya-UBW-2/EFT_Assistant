@@ -8,5 +8,5 @@ height=3
 weight=2.750000
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
-Name_Jpn=Ars Arma CPC MOD.1 plate carrier
-Information_Jpn=The first generation of the modified CPC plate carrier originally designed by Crye Precision and adapted by Ars Arma for use by special forces of the Russian Federation. This modular body armor is based on a polymer harness that fits the body, which avoids the plate carrier backlash during active movement and also contributes to a more even distribution of weight. Made in the assault configuration of pouches and armor elements. Manufactured by Ars Arma.
+Name_Jpn=Ars Arma CPC MOD.1 plate carrier (A-TACS FG)
+Information_Jpn=The first generation of the modified CPC plate carrier originally designed by Crye Precision and adapted by Ars Arma for use by special forces of the Russian Federation. This modular body armor is based on a polymer harness that fits the thorax, which avoids the plate carrier backlash during active movement and also contributes to a more even distribution of weight. Made in the assault configuration of pouches. Manufactured by Ars Arma.

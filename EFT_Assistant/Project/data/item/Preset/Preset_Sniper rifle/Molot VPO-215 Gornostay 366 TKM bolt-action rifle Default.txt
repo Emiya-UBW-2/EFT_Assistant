@@ -16,5 +16,5 @@ containsItems=[
 	VPO-215 "Gornostay" thread protection capx1/|
 	VPO-215 "Gornostay" scope rail mountx1
 ]
-Name_Jpn=Molot Arms VPO-215 "Gornostay" .366 TKM bolt-action rifle Default
+Name_Jpn=Molot Arms VPO-215 "Gornostay" .366 TKM ボルトアクション ライフル デフォルト
 Information_Jpn=

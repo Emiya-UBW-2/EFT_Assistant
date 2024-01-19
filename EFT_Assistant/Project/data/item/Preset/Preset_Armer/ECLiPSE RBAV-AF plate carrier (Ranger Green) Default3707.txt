@@ -12,5 +12,5 @@ containsItems=[
 	ECLiPSE RBAV-AF plate carrier (Ranger Green)x1/|
 	Kiba Arms Titan ballistic platex2
 ]
-Name_Jpn=ECLiPSE RBAV-AF plate carrier (Ranger Green) Default
+Name_Jpn=ECLiPSE RBAV-AF plate carrier (Ranger Green) デフォルト
 Information_Jpn=

@@ -3,7 +3,7 @@ Name=No Place for Renegades
 Trader=Prapor
 
 NeedTask=The Bunker - Part 2
-NeedLevel=12
+NeedLevel=17
 
 CanRestart=false
 NeedKappa=true
@@ -16,6 +16,7 @@ Task_Kill=[
 	Reserve-Raiderx5
 ]
 Task_Else=ゾーン:[Command Bunker]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot

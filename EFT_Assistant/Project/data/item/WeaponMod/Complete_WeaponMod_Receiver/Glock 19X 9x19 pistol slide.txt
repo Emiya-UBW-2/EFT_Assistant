@@ -25,5 +25,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=4.000000
 accuracyModifier=0.000000
-Name_Jpn=Glock 19X 9x19 pistol slide
+Name_Jpn=Glock 19X pistol slide
 Information_Jpn=A standard-issue slide for the Glock 19X 9x19 pistol. Slide surfaces are treated with an advanced nPVD coating that protects the steel from corrosion, chemical attack and harsh environmental conditions.

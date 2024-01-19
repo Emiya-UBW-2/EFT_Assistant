@@ -24,5 +24,5 @@ ChildParts=[
 Recoil=-2.000000
 Ergonomics=10.000000
 accuracyModifier=0.000000
-Name_Jpn=AK Magpul MOE AKM handguard (Stealth Gray)
-Information_Jpn=The Magpul MOE AKM hand guard is installed on AKM/AK-74 compatible weapon systems. It comes equipped with licensed M-LOK mounts for the installation of additional devices or rails. Stealth Gray version.
+Name_Jpn=AK Magpul MOE AKM handguard (Stealth Grey)
+Information_Jpn=The Magpul MOE AKM hand guard is installed on AKM/AK-74 compatible weapon systems. It comes equipped with licensed M-LOK mounts for the installation of additional devices or rails. Stealth Grey version.

@@ -17,5 +17,5 @@ containsItems=[
 	Glock 9x19 17-round magazinex1/|
 	SureFire X400 Ultra tactical flashlight with laserx1
 ]
-Name_Jpn=Glock 17 9x19 pistol Hex
+Name_Jpn=Glock 17 9x19 ピストル Hex
 Information_Jpn=

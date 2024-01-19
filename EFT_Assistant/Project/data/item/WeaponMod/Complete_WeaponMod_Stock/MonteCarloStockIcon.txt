@@ -12,4 +12,4 @@ Recoil=-24.000000
 Ergonomics=22.000000
 accuracyModifier=0.000000
 Name_Jpn=Mosin Rifle ATI Monte Carlo chassis
-Information_Jpn=Monte Carlo-style chassis for the Mosin rifle, transforms the weapon into a more modern-looking rifle. Manufactured by ATI.
+Information_Jpn=Monte Carlo-style chassis for the Mosin rifle, transforms the weapon into a more modern-looking rifle. Manufactured by ATI outdoors.

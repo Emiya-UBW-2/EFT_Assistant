@@ -16,5 +16,5 @@ containsItems=[
 	KS-23M pistol gripx1/|
 	KS-23M wire stockx1
 ]
-Name_Jpn=TOZ KS-23M 23x75mm pump-action shotgun Drozd
+Name_Jpn=TOZ KS-23M 23x75mm ポンプアクション ショットガン Drozd
 Information_Jpn=

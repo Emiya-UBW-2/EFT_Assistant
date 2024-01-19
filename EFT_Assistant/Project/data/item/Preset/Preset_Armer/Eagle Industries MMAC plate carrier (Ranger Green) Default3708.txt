@@ -12,5 +12,5 @@ containsItems=[
 	Eagle Industries MMAC plate carrier (Ranger Green)x1/|
 	Monoclete level III PE ballistic platex2
 ]
-Name_Jpn=Eagle Industries MMAC plate carrier (Ranger Green) Default
+Name_Jpn=Eagle Industries MMAC plate carrier (Ranger Green) デフォルト
 Information_Jpn=

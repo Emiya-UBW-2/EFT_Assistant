@@ -15,6 +15,7 @@ Task_Map=Customs
 Task_Kill=[
 	Customs-Scavsx25
 ]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot

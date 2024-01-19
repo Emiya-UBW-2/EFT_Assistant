@@ -19,5 +19,5 @@ containsItems=[
 	AK-74M polymer stock (6P34 Sb.15)x1/|
 	AK-74 5.45x39 6L23 30-round magazinex1
 ]
-Name_Jpn=Kalashnikov AK-74M 5.45x39 assault rifle Default
+Name_Jpn=Kalashnikov AK-74M 5.45x39 アサルトライフル デフォルト
 Information_Jpn=

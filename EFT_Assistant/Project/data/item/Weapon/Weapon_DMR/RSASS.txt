@@ -161,5 +161,5 @@ cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=30
 convergence=0.000000
-Name_Jpn=Remington R11 RSASS 7.62x51 marksman rifle
+Name_Jpn=Remington R11 RSASS 7.62x51 マークスマンライフル
 Information_Jpn=Remington Semi Automatic Sniper System - RSASSは、高精度かつ速射可能なスナイパーライフルを開発しようというRemington ArmsとJP Enterprisesの共同開発の集大成である。セミオートマチックライフルとしての戦術的優位性を持ちつつ、800 m以上に及ぶsub-MOA（着弾範囲が1 MOA以内）の精度を誇る。

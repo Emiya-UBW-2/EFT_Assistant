@@ -20,7 +20,7 @@ Task_Else=ergonomics >= 45
 Task_Else=height >= 0
 Task_Else=magazineCapacity >= 50
 Task_Else=muzzleVelocity >= 0
-Task_Else=recoil <= 200
+Task_Else=recoil <= 210
 Task_Else=weight <= 4
 Task_Else=width >= 0
 

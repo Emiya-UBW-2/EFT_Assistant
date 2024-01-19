@@ -3,7 +3,7 @@ Name=Documents
 Trader=Prapor
 
 NeedTask=No Place for Renegades
-NeedLevel=12
+NeedLevel=19
 
 CanRestart=false
 NeedKappa=true

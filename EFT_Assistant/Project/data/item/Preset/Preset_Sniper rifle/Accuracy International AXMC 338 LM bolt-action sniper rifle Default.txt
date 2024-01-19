@@ -25,5 +25,5 @@ containsItems=[
 	AI AXMC thread protection capx1/|
 	AI AXMC .338 LM bolt assemblyx1
 ]
-Name_Jpn=Accuracy International AXMC .338 LM bolt-action sniper rifle Default
+Name_Jpn=Accuracy International AXMC .338 LM ボルトアクション スナイパーライフル デフォルト
 Information_Jpn=

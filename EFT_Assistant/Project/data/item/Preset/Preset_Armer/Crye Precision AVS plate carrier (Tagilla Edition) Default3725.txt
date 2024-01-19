@@ -13,5 +13,5 @@ containsItems=[
 	Cult Termite ballistic platex1/|
 	Global Armor’s Steel ballistic platex1
 ]
-Name_Jpn=Crye Precision AVS plate carrier (Tagilla Edition) Default
+Name_Jpn=Crye Precision AVS plate carrier (Tagilla Edition) デフォルト
 Information_Jpn=

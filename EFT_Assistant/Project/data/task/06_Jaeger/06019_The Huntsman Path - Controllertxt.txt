@@ -11,8 +11,9 @@ NeedLightkeeper=false
 
 factionName=Any
 Task_Kill=[
-	any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x2
+	Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x2
 ]
+Task_Else=距離: >= 0m
 Task_Else=敵の該当箇所に異常状態:[head,thorax,stomach,left arm,right arm,left leg,right leg]
 Task_Else=敵の異常状態:[Stunned]
 

@@ -12,5 +12,5 @@ containsItems=[
 	5.11 Tactical Hexgrid plate carrierx1/|
 	GAC 4sss2 ballistic platex2
 ]
-Name_Jpn=5.11 Tactical Hexgrid plate carrier Default
+Name_Jpn=5.11 Tactical Hexgrid plate carrier デフォルト
 Information_Jpn=

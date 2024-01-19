@@ -49,5 +49,5 @@ cameraRecoil=0.000000
 cameraSnap=2.600000
 deviationMax=10
 convergence=0.000000
-Name_Jpn=Remington Model 870 12ga pump-action shotgun
+Name_Jpn=Remington Model 870 12ゲージ ポンプアクションショットガン
 Information_Jpn=Remington Model 870はRemington Arms Company, LLC製のポンプアクションショットガンだ。射撃競技、狩猟、自衛のために民間でも使われている他、世界中の法執行機関や軍隊でも使われている。

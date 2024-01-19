@@ -8,5 +8,5 @@ height=2
 weight=0.900000
 fleaMarketFee=0
 propertiestype=ItemPropertiesHelmet
-Name_Jpn=Ops-Core FAST MT Super High Cut helmet (Tan)
-Information_Jpn=The Ops-Core FAST ballistic helmet is popular in special forces all around the world. Can be modified with different components. Tan version.
+Name_Jpn=Ops-Core FAST MT Super High Cut helmet (Urban Tan)
+Information_Jpn=The Ops-Core FAST ballistic helmet is popular in special forces all around the world. Can be modified with different components. Urban Tan version.

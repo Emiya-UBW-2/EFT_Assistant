@@ -12,5 +12,5 @@ containsItems=[
 	HighCom Trooper TFO body armor (MultiCam)x1/|
 	Monoclete level III PE ballistic platex2
 ]
-Name_Jpn=HighCom Trooper TFO body armor (MultiCam) Default
+Name_Jpn=HighCom Trooper TFO body armor (MultiCam) デフォルト
 Information_Jpn=

@@ -15,10 +15,12 @@ Task_Map=Reserve
 Task_Kill=[
 	Reserve-Glukharx1
 ]
+Task_Else=距離: >= 0m
 Task_Map=Reserve
 Task_Kill=[
 	Reserve-Glukhar Guard (Assault)x6
 ]
+Task_Else=距離: >= 0m
 Task_Map=Reserve
 Task_Else=閾値: >= 0
 Task_Else=ゾーン:[Radar Station]
@@ -47,7 +49,7 @@ Task_Else=脱出地点:Cliff Descent
 	TaskOptional=false
 ]
 
-Reward_Rep=Lightkeeper+1
+Reward_Rep=Lightkeeper+3
 Reward_Item=[
 	Microcontroller boardx1/|
 	LEDX Skin Transilluminatorx1/|

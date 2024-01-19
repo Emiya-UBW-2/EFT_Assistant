@@ -1,5 +1,5 @@
 IDstr=5929a2a086f7744f4b234d43
-Name=UMTBS 6sh112 Scout-Sniper (Digital Flora)
+Name=UMTBS 6Sh112 Scout-Sniper chest rig (Digital Flora)
 ShortName=6sh112 S-S
 Information_Eng=The Universal Modular Transport-Combat System (UMTBS) "Scout-sniper" is officially part of the equipment of the armed forces of the Russian Federation. The vest is designed with a modular approach and can be transformed to suit various specific combat tasks. This system includes the vest base, various purpose pouches, and backpacks. Due to the fact that the vest is based on the MOLLE system, it can be used with various compatible pouches beyond those included with the kit. The belt system has soft bumper pads, and its inside is made from breathable materials.
 Itemtype=chest-rig

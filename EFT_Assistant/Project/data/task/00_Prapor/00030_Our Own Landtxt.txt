@@ -3,7 +3,7 @@ Name=Our Own Land
 Trader=Prapor
 
 NeedTask=The Punisher - Part 5
-NeedLevel=20
+NeedLevel=30
 
 CanRestart=false
 NeedKappa=false
@@ -13,8 +13,9 @@ Task_Map=Lighthouse
 factionName=BEAR
 Task_Map=Lighthouse
 Task_Kill=[
-	Lighthouse-USEC operativesx20
+	Lighthouse-Scavsx20
 ]
+Task_Else=距離: >= 0m
 Task_NotFiR_HandOver=[Dogtag USECx20]
 DogTagLv=0
 

@@ -15,6 +15,7 @@ Task_Map=Woods
 Task_Kill=[
 	Woods-Scavsx15
 ]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot

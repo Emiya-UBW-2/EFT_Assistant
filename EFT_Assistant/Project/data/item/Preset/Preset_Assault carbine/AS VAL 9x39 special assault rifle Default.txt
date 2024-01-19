@@ -17,5 +17,5 @@ containsItems=[
 	AS VAL pistol gripx1/|
 	AS VAL skeleton stockx1
 ]
-Name_Jpn=AS VAL 9x39 special assault rifle Default
+Name_Jpn=AS VAL 9x39 特殊アサルトライフル デフォルト
 Information_Jpn=

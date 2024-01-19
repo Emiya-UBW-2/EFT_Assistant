@@ -11,5 +11,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=0.000000
 Ergonomics=5.000000
 accuracyModifier=0.000000
-Name_Jpn=Molot AKM-type dust cover
+Name_Jpn=Molot Arms AKM-type dust cover
 Information_Jpn=A standard-issue dust cover for AKM-type Vepr carbines, manufactured by Molot Arms.

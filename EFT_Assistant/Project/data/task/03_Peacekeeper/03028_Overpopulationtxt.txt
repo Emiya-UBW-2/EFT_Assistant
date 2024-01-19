@@ -16,6 +16,7 @@ Task_Kill=[
 	Lighthouse-Scavsx12
 ]
 Task_Else=ゾーン:[Chalets]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot

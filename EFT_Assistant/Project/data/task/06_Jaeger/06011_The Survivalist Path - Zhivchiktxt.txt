@@ -10,14 +10,15 @@ NeedKappa=true
 NeedLightkeeper=true
 
 factionName=Any
+Task_Map=The Lab
+Task_Map=Customs
+Task_Map=Ground Zero
+Task_Map=Reserve
 Task_Map=Interchange
 Task_Map=Shoreline
+Task_Map=Woods
 Task_Map=Streets of Tarkov
 Task_Map=Lighthouse
-Task_Map=Woods
-Task_Map=Customs
-Task_Map=Reserve
-Task_Map=The Lab
 Task_Else=脱出ステータス:[Survived]
 
 [

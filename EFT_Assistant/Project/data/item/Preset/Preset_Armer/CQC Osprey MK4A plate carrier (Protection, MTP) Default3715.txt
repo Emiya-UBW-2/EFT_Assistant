@@ -13,5 +13,5 @@ containsItems=[
 	TallCom Guardian ballistic platex2/|
 	SSAPI level III+ ballistic plate (Side)x2
 ]
-Name_Jpn=CQC Osprey MK4A plate carrier (Protection, MTP) Default
+Name_Jpn=CQC Osprey MK4A プレートキャリア (Protection, MTP) デフォルト
 Information_Jpn=

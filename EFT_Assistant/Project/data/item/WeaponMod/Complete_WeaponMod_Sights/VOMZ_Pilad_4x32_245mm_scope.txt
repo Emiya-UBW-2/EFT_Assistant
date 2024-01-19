@@ -1,5 +1,5 @@
 IDstr=5dff772da3651922b360bf91
-Name=VOMZ Pilad 4x32 24.5mm riflescope
+Name=VOMZ Pilad 4x32 25.4mm riflescope
 ShortName=Pilad 4x32
 Information_Eng=Designed for shooting at small and medium distances. The sight will be practical for shooting at moving objects at a distance of up to 150m.
 Itemtype=scope

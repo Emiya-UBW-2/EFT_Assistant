@@ -8,5 +8,5 @@ height=3
 weight=8.180000
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmor
-Name_Jpn=IOTV Gen4 body armor (Assault Kit)
+Name_Jpn=IOTV Gen4 body armor (Assault Kit, MultiCam)
 Information_Jpn=Improved Outer Tactical Vest（IOTV - 改良型タクティカルボディアーマー）の第4世代Gen IVは、体を自由に動かせるように設計されており射撃姿勢をとる際にも妨げとならない。最適化されたデザインにより装備の重量を最適に分散することができ、着心地と耐久性と機動性が向上している。これはエルゴノミクスが向上したアサルトバージョンだ。

@@ -1,7 +1,7 @@
 IDstr=655c669103999d3c810c025b
 Name=Cultist figurine
 ShortName=Cultist
-Information_Eng=The Tarko collectible figure of a hooded cultist. The craftsman has very meticulously portrayed these hooded unidentified individuals. Particular attention was paid to the unusual blade. Looks like the author had familiarized himself firsthand with the sharpness of its blade.
+Information_Eng=The Tarko collectible figure of a local cultist. The craftsman has very meticulously portrayed these hooded unidentified individuals. Particular attention was paid to the unusual knife. Looks like the author had familiarized himself firsthand with the sharpness of its blade.
 Itemtype=jewelry
 width=1
 height=2

@@ -73,5 +73,5 @@ cameraRecoil=0.000000
 cameraSnap=5.000000
 deviationMax=11
 convergence=0.000000
-Name_Jpn=Glock 17 9x19 pistol
-Information_Jpn=Glock 17 is an Austrian pistol designed by Glock company for the Austrian army purposes. Thanks to both its impressive combat characteristics and reliablity it gained wide recognition and popularity as a police, shooting sports and civilian self-defense weapon.
+Name_Jpn=Glock 17 9x19 ピストル
+Information_Jpn=Glock 17 は、オーストリアのグロック社がオーストリア軍のために設計したピストルだ。卓越した実用性と信頼性から、警察、射撃競技、護身用など、様々な場所で認知され人気がある。

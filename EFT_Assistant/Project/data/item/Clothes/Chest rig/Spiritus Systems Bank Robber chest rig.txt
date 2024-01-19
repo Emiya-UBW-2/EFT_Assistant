@@ -8,5 +8,5 @@ height=2
 weight=0.700000
 fleaMarketFee=0
 propertiestype=ItemPropertiesChestRig
-Name_Jpn=Spiritus Systems Bank Robber chest rig
+Name_Jpn=Spiritus Systems Bank Robber chest rig (MultiCam Black)
 Information_Jpn=An ultra-compact and lightweight chest rig for mobility and comfort. Manufactured by Spiritus Systems.

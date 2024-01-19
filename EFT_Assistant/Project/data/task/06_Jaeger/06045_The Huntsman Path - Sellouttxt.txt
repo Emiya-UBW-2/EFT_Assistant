@@ -16,6 +16,7 @@ Task_Map=Interchange
 Task_Kill=[
 	Interchange-Killax1
 ]
+Task_Else=距離: >= 0m
 NeedItem=Maska-1SCh bulletproof helmet (Killa Edition)x1
 Task_FiR_HandOver=[Maska-1SCh bulletproof helmet (Killa Edition)x1]
 DogTagLv=0

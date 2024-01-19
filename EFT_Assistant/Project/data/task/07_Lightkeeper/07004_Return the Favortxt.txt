@@ -13,9 +13,10 @@ Task_Map=Woods
 factionName=Any
 Task_Map=Woods
 Task_Kill=[
-	Woods-any PMC operativesx15
+	Woods-Scavsx15
 ]
 Task_Else=ゾーン:[Woods Mountain]
+Task_Else=距離: >= 0m
 Task_Map=Woods
 Task_NotFiR_HandOver=[TerraGroup "Blue Folders" materialsx1]
 DogTagLv=0
@@ -39,7 +40,7 @@ DogTagLv=0
 	TaskOptional=false
 ]
 
-Reward_Rep=Lightkeeper+1
+Reward_Rep=Lightkeeper+3
 Reward_Item=[
 	Silicon Optoelectronic Integrated Circuits textbookx1
 ]

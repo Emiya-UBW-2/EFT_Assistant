@@ -1,7 +1,7 @@
 IDstr=5b432d215acfc4771e1c6624
 Name=LShZ lightweight helmet (Olive Drab)
 ShortName=LShZ
-Information_Eng=A lightweight protective helmet made in Russia. In fact the copy of Ops-Core FAST helmet, but with lower characteristics.
+Information_Eng=A lightweight protective helmet made in Russia. Basically a cheap copy of Ops-Core FAST helmet with lower characteristics.
 Itemtype=headwear
 width=2
 height=2

@@ -24,6 +24,7 @@ NeedItem=[
 	Kalashnikov AK-103 7.62x39 assault riflex0/|
 	Kalashnikov AK-104 7.62x39 assault riflex0
 ]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot

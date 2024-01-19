@@ -33,5 +33,5 @@ cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=33
 convergence=0.000000
-Name_Jpn=ORSIS T-5000M 7.62x51 bolt-action sniper rifle
-Information_Jpn=ORSIS T-5000M is a Russian bolt-action sniper rifle. It was the first product developed by ORSIS, and is produced in their Moscow factory. The rifle was introduced in 2011 at the international exhibition of Russian weapons in Nizhny Tagil, and is entirely original, using no third-party components. The rifle ensures maximum comfort of the user while aiming and shooting, featuring a quick sighting line recovery, high reliability and ergonomics. The stainless steel barrel has a thread for installing a muzzle brake-compensator or a sound suppressor. The equipped muzzle brake-compensator effectively reduces impulse and allows the most comfortable recoil handling.
+Name_Jpn=ORSIS T-5000M 7.62x51 ボルトアクション スナイパーライフル
+Information_Jpn=ORSIS T-5000M はロシアのボルトアクションスナイパーライフルだ。ORSIS が開発した最初の製品で、モスクワの工場で生産されている。2011年にロシアのニジニ・タギルで行われたロシア兵器展示会で発表され、他社の部品を一切使用していない完全なオリジナルだ。優れた使用感、素早い照準からの射撃、高い信頼性、エルゴノミクスも特徴だ。また、ステンレス鋼製の銃身には、マズルブレーキ・コンペンセーターやサプレッサーを取り付けるためのネジがついている。マズルブレーキ等を装備することによって、反動による衝撃を効率的に減少させ、反動制御がしやすくなる。

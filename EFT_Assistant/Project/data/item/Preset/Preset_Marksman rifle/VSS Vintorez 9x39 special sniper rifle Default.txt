@@ -16,5 +16,5 @@ containsItems=[
 	VSS dust coverx1/|
 	VSS wooden stockx1
 ]
-Name_Jpn=VSS Vintorez 9x39 special sniper rifle Default
+Name_Jpn=VSS Vintorez 9x39 特殊スナイパーライフル デフォルト
 Information_Jpn=

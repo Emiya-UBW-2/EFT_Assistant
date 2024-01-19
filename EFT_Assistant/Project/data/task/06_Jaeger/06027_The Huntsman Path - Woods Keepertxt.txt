@@ -16,6 +16,7 @@ Task_Map=Woods
 Task_Kill=[
 	Woods-Shturmanx1
 ]
+Task_Else=距離: >= 0m
 NeedItem=Shturman's stash keyx1
 Task_FiR_HandOver=[Shturman's stash keyx1]
 DogTagLv=0

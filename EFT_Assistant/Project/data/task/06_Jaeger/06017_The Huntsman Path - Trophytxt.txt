@@ -15,6 +15,7 @@ Task_Map=Customs
 Task_Kill=[
 	Customs-Reshalax1
 ]
+Task_Else=距離: >= 0m
 NeedItem=TT-33 7.62x25 TT pistol (Golden)x1
 Task_FiR_HandOver=[TT-33 7.62x25 TT pistol (Golden)x1]
 DogTagLv=0

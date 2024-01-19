@@ -23,5 +23,5 @@ containsItems=[
 	MPX/MCX collapsing/telescoping stockx1/|
 	MPX double latch charging handlex1
 ]
-Name_Jpn=SIG MPX 9x19 submachine gun Default
+Name_Jpn=MPX 9x19 サブマシンガン デフォルト
 Information_Jpn=

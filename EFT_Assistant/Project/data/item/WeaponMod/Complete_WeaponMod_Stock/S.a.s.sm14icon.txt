@@ -219,7 +219,7 @@ ChildParts=[
 	AR-15 Aeroknox Orion pistol grip
 ]
 ChildParts=[
-	AR-15 Armacon Baskak stock/|
+	Armacon Baskak stock/|
 	CMMG buffer tube/|
 	AR-15 Colt A2 buffer tube/|
 	AR-15 ADAR 2-15 buffer tube/|

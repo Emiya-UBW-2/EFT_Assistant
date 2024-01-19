@@ -14,5 +14,5 @@ capacity=20
 loadModifier=0.100000
 ammoCheckModifier=0.100000
 malfunctionChance=0.070000
-Name_Jpn=SKS 7.62x39 ProMag SKS-A5 20-round magazine
+Name_Jpn=SKS 7.62x39 TAPCO 6610 20-round magazine
 Information_Jpn=A 20-round polymer detachable SKS magazine for 7.62x39 cartridges.

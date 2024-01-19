@@ -1,6 +1,6 @@
 IDstr=rpdnokp70000000000000001
 Name=Degtyarev RPDN 7.62x39 machine gun OKP-7 DT
-ShortName=RDPN OKP-7 DT
+ShortName=RPDN OKP-7 DT
 Itemtype=machinegun
 width=5
 height=3
@@ -18,5 +18,5 @@ containsItems=[
 	RPD rear sightx1/|
 	OKP-7 reflex sight (Dovetail)x1
 ]
-Name_Jpn=undefined OKP-7 DT
+Name_Jpn=Degtyarev RPDN 7.62x39 machine gun OKP-7 DT
 Information_Jpn=

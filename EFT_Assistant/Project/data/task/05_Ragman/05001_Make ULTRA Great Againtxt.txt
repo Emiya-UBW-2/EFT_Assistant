@@ -15,6 +15,7 @@ Task_Map=Interchange
 Task_Kill=[
 	Interchange-Scavsx25
 ]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot

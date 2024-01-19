@@ -115,5 +115,5 @@ cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=33
 convergence=0.000000
-Name_Jpn=Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle
-Information_Jpn=DVL-10 is a lightweight, compact, and silenced rifle in proprietary and current military subsonic calibers. Developed for special service and combat missions where exceptional accuracy and range are needed. Equipped with a standard Lobaev Arms foldable buttstock and Lobaev Hummer Barrels stainless steel match-grade barrel.
+Name_Jpn=Lobaev Arms DVL-10 7.62x51 ボルトアクション スナイパーライフル
+Information_Jpn=DVL-10 は、軍独自の亜音速口径を使用した、軽量でコンパクトなサイレンサー付ライフルで、特殊な作戦や精密射撃が必要な戦闘作戦向けに開発された。標準の Lobaev Arms 製の折り畳み式バットストックと Lobaev Hummer Barrels 製ステンレススチールのマッチグレード・バレルが装備されている。

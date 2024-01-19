@@ -11,5 +11,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-20.000000
 Ergonomics=13.000000
 accuracyModifier=0.000000
-Name_Jpn=FAB Defense GLR-16-S stock
+Name_Jpn=AR-15 FAB Defense GLR-16-S stock
 Information_Jpn=The GLR-16-S telescoping buttstock. Manufactured by FAB Defense.

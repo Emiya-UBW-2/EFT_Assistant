@@ -12,8 +12,6 @@ NeedTask=Stirrup
 NeedTask=Car Repair
 NeedTask=Bad Habit
 NeedTask=Insider
-NeedTask=The Cult - Part 2
-NeedTask=Documents
 NeedTask=The Huntsman Path - Factory Chief
 NeedTask=Broadcast - Part 1
 NeedTask=A Shooter Born in Heaven
@@ -26,10 +24,11 @@ NeedTask=Safe Corridor
 NeedTask=Inventory Check
 NeedTask=Corporate Secrets
 NeedTask=Seaside Vacation
+NeedTask=The Cult - Part 2
 NeedTask=Easy Job - Part 2
 NeedTask=Reconnaissance
+NeedTask=Documents
 NeedTask=The Hermit
-NeedTask=Drug Trafficking
 NeedTask=Vitamins - Part 2
 NeedTask=The Huntsman Path - Outcasts
 NeedTask=TerraGroup Employee
@@ -40,6 +39,7 @@ NeedTask=Energy Crisis
 NeedTask=Charisma Brings Success
 NeedTask=Regulated Materials
 NeedTask=No Fuss Needed
+NeedTask=Drug Trafficking
 NeedTask=Fishing Place
 NeedTask=Scavenger
 NeedTask=Living High is Not a Crime - Part 2
@@ -146,8 +146,6 @@ DogTagLv=0
 Task_FiR_HandOver=[BakeEzy cook bookx1]
 DogTagLv=0
 Task_FiR_HandOver=[JohnB Liquid DNB glassesx1]
-DogTagLv=0
-Task_FiR_HandOver=[Glorious E lightweight armored maskx1]
 DogTagLv=0
 Task_FiR_HandOver=[Baddie's red beardx1]
 DogTagLv=0
@@ -422,11 +420,6 @@ DogTagLv=0
 [
 	TaskType=giveItem
 	TaskText=Hand over the found in raid item: JohnB Liquid DNB glasses
-	TaskOptional=false
-]
-[
-	TaskType=giveItem
-	TaskText=Hand over the found in raid item: Glorious E lightweight armored mask
 	TaskOptional=false
 ]
 [

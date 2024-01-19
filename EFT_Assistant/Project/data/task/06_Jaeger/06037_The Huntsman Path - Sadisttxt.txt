@@ -17,6 +17,7 @@ Task_Map=Shoreline
 Task_Kill=[
 	Shoreline-Sanitarx1
 ]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot

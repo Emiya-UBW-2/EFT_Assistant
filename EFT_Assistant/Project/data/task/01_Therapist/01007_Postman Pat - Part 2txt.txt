@@ -13,7 +13,7 @@ factionName=Any
 
 [
 	TaskType=giveQuestItem
-	TaskText=Hand over the letter from the messenger to Therapist
+	TaskText=Hand over the letter from Prapor's messenger
 	TaskOptional=false
 ]
 

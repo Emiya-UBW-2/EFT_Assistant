@@ -45,4 +45,4 @@ cameraSnap=7.000000
 deviationMax=11
 convergence=0.000000
 Name_Jpn=FN Five-seveN MK2 5.7x28 ピストル
-Information_Jpn=FN Five-Seven, trademarked as the Five-seveN, is a semi-automatic pistol designed and manufactured by FN Herstal in Belgium. The pistol was developed in the early 1990s and features a cold hammer-forged barrel that is chrome-lined for extended service life. The polymer-framed Five-Seven offers single-action operation, low felt recoil, 20-round magazine capacity, and is equipped with an ambidextrous, forward-mounted manual safety, and an accessory rail that accepts tactical lights and lasers.
+Information_Jpn=Five-seveN として商標登録されてる FN Five-Seven は、ベルギーのFNヘルスタルによって設計・製造された半自動拳銃だ。1990年代初頭に開発され、銃身は冷間鍛造によって加工された金属で出来ていて、寿命を延ばすためにクロムメッキが施されている。Five-Seven の特徴は、ポリマーフレーム、シングルアクション動作、低反動、20発のマガジン容量、両利き向けの安全装置、そしてライトやレーザーを取り付けることができるアクセサリーレールがある事だ。

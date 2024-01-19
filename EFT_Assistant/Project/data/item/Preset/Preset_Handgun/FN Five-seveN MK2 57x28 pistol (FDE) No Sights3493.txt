@@ -1,6 +1,6 @@
 IDstr=fnfivesevenfdenosights01
-Name=FN Five-seveN MK2 5.7x28 pistol (FDE) No Sights
-ShortName=FN 5-7 FDE No Sights
+Name=FN Five-seveN MK2 5.7x28 pistol (FDE) Stripped
+ShortName=FN 5-7 FDE Stripped
 Itemtype=handgun
 width=2
 height=1
@@ -14,5 +14,5 @@ containsItems=[
 	FN Five-seveN MK2 pistol slidex1/|
 	FN Five-seveN 5.7x28 20-round magazinex1
 ]
-Name_Jpn=FN Five-seveN MK2 5.7x28 pistol (FDE) No Sights
+Name_Jpn=FN Five-seveN MK2 5.7x28 pistol (FDE) Stripped
 Information_Jpn=

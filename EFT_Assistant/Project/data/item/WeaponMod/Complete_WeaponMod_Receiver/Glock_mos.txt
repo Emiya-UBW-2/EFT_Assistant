@@ -31,5 +31,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=4.000000
 accuracyModifier=0.000000
-Name_Jpn=Glock 17 9x19 MOS pistol slide
+Name_Jpn=Glock 17 MOS pistol slide
 Information_Jpn=The MOS (Modular Optic System) slide designed for Glock 9x19 pistols. Manufactured by Glock.

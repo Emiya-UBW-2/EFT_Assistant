@@ -19,5 +19,5 @@ containsItems=[
 	SKS 7.62x39 10-round internal box magazinex1/|
 	SKS dust coverx1
 ]
-Name_Jpn=TOZ Simonov SKS 7.62x39 carbine Default
+Name_Jpn=SKS 7.62x39 カービン デフォルト
 Information_Jpn=

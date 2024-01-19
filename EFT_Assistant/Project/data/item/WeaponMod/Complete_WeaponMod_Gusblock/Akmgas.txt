@@ -45,5 +45,5 @@ ChildParts=[
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
-Name_Jpn=Molot AKM-type gas tube
+Name_Jpn=Molot Arms AKM-type gas tube
 Information_Jpn=A gas tube for AKM-type automatic rifles and Vepr carbines, manufactured by Molot Arms. Gas tubes channel the travel direction of gas piston.

@@ -8,5 +8,5 @@ height=1
 weight=0.050000
 fleaMarketFee=0
 propertiestype=
-Name_Jpn=DEADSKUL armband
+Name_Jpn=Armband (DEADSKUL)
 Information_Jpn=An armband from Fence, only for real collectors.

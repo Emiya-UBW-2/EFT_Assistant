@@ -1,6 +1,6 @@
 IDstr=656f664200d62bcd2e024077
-Name=Korund VM ballistic plates (Front)
-ShortName=Korund VM Front
+Name=Korund-VM ballistic plates (Front)
+ShortName=Korund-VM Front
 Information_Eng=A combination of armored steel plates for torso front pouches of Russian bulletproof vests.
 Itemtype=armor-plate
 width=2

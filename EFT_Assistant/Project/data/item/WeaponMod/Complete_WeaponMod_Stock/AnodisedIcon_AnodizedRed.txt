@@ -41,5 +41,5 @@ ChildParts=[
 Recoil=-2.000000
 Ergonomics=2.000000
 accuracyModifier=0.050000
-Name_Jpn=Strike Industries Advanced Receiver Extension buffer tube (Anodized Red)
+Name_Jpn=AR-15 Strike Industries Advanced Receiver Extension buffer tube (Anodized Red)
 Information_Jpn=The Advanced Receiver Extension buffer tube, Mil-Spec diameter will fit any AR-15-based carbine or rifle. The buffer tube has a distinctive scalloping that decreases friction with the stock and reduces weight while retaining strength in areas that get the most stress. Manufactured by Strike Industries. Anodized Red version.

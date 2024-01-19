@@ -64,5 +64,5 @@ cameraRecoil=0.000000
 cameraSnap=3.500000
 deviationMax=30
 convergence=0.000000
-Name_Jpn=HK G28 7.62x51 marksman rifle
-Information_Jpn=The HK G28 rifle was developed by Heckler & Koch specifically for the Bundeswehr as a support weapon for small infantry units. The G28 is based on the HK MR308, which, in turn, is a civilian version of the HK 417 automatic rifle. Despite several differences, the HK G28 is 75% interchangeable with the HK 417. This rifle is designed to shoot at distances inaccessible to standard 5.56mm assault rifles.
+Name_Jpn=HK G28 7.62x51 マークスマンライフル
+Information_Jpn=HK G28 ライフルは、ヘッケラー＆コッホが特にドイツ連邦軍向けに開発した小規模歩兵部隊の支援武器で、標準的な 5.56mm アサルトライフルでは射撃できない距離を撃つために設計されている。HK MR308 がベースになっていて、HK 417 ライフルの民間モデルにもなっている。多少の違いはあるが、HK G28 は HK 417 と75%の互換性がある。

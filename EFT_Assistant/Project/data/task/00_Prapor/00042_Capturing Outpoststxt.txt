@@ -12,19 +12,22 @@ NeedLightkeeper=false
 factionName=Any
 Task_Map=Customs
 Task_Kill=[
-	Customs-any PMC operativesx8
+	Customs-Scavsx8
 ]
 Task_Else=ゾーン:[Stronghold (Customs)]
+Task_Else=距離: >= 0m
 Task_Map=Woods
 Task_Kill=[
-	Woods-any PMC operativesx8
+	Woods-Scavsx8
 ]
 Task_Else=ゾーン:[Medical Camp (Woods)]
+Task_Else=距離: >= 0m
 Task_Map=Shoreline
 Task_Kill=[
-	Shoreline-any PMC operativesx8
+	Shoreline-Scavsx8
 ]
 Task_Else=ゾーン:[Inside Resort]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot
@@ -43,7 +46,6 @@ Task_Else=ゾーン:[Inside Resort]
 ]
 
 Reward_Item=[
-	ASh-12 12.7x55 assault rifle Silencedx1/|
 	Armband (RFARMY)x1/|
 	Armband (USEC)x1/|
 	Rys-T bulletproof helmet (Black)x1/|

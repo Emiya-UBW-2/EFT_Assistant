@@ -17,5 +17,5 @@ containsItems=[
 	RFB handguard rail mountx1/|
 	RFB scope rail mountx1
 ]
-Name_Jpn=Kel-Tec RFB 7.62x51 rifle Default
+Name_Jpn=RFB 7.62x51 ライフル デフォルト
 Information_Jpn=

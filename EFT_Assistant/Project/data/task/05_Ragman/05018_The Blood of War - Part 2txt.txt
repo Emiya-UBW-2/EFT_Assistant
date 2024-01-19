@@ -30,7 +30,7 @@ Reward_Rep=Ragman+3
 Reward_Item=[
 	Roublesx20000/|
 	HighCom Striker ACHHC IIIA helmet (Black)x1/|
-	NPP KlASS Korund-VM body armorx1
+	NPP KlASS Korund-VM body armor (Black)x1
 ]
 
 Reward_EXP=14600

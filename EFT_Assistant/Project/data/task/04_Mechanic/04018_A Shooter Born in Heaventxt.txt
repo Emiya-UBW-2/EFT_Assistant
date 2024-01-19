@@ -12,7 +12,7 @@ NeedLightkeeper=false
 factionName=Any
 Task_Map=Woods
 Task_Kill=[
-	Woods-any PMC operatives{head}x5
+	Woods-Scavs{head}x5
 ]
 NeedItem=[
 	Accuracy International AXMC .338 LM bolt-action sniper riflex0/|
@@ -25,9 +25,10 @@ NeedItem=[
 	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
 	Molot Arms VPO-215 "Gornostay" .366 TKM bolt-action riflex0
 ]
+Task_Else=距離: >= 0m
 Task_Map=Reserve
 Task_Kill=[
-	Reserve-any PMC operatives{head}x5
+	Reserve-Scavs{head}x5
 ]
 NeedItem=[
 	Accuracy International AXMC .338 LM bolt-action sniper riflex0/|
@@ -40,9 +41,10 @@ NeedItem=[
 	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
 	Molot Arms VPO-215 "Gornostay" .366 TKM bolt-action riflex0
 ]
+Task_Else=距離: >= 0m
 Task_Map=Shoreline
 Task_Kill=[
-	Shoreline-any PMC operatives{head}x5
+	Shoreline-Scavs{head}x5
 ]
 NeedItem=[
 	Accuracy International AXMC .338 LM bolt-action sniper riflex0/|
@@ -55,9 +57,10 @@ NeedItem=[
 	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
 	Molot Arms VPO-215 "Gornostay" .366 TKM bolt-action riflex0
 ]
+Task_Else=距離: >= 0m
 Task_Map=Customs
 Task_Kill=[
-	Customs-any PMC operatives{head}x5
+	Customs-Scavs{head}x5
 ]
 NeedItem=[
 	Accuracy International AXMC .338 LM bolt-action sniper riflex0/|
@@ -70,9 +73,10 @@ NeedItem=[
 	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
 	Molot Arms VPO-215 "Gornostay" .366 TKM bolt-action riflex0
 ]
+Task_Else=距離: >= 0m
 Task_Map=Lighthouse
 Task_Kill=[
-	Lighthouse-any PMC operatives{head}x5
+	Lighthouse-Scavs{head}x5
 ]
 NeedItem=[
 	Accuracy International AXMC .338 LM bolt-action sniper riflex0/|
@@ -85,9 +89,10 @@ NeedItem=[
 	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
 	Molot Arms VPO-215 "Gornostay" .366 TKM bolt-action riflex0
 ]
+Task_Else=距離: >= 0m
 Task_Map=Streets of Tarkov
 Task_Kill=[
-	Streets of Tarkov-any PMC operatives{head}x5
+	Streets of Tarkov-Scavs{head}x5
 ]
 NeedItem=[
 	Accuracy International AXMC .338 LM bolt-action sniper riflex0/|
@@ -100,9 +105,10 @@ NeedItem=[
 	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
 	Molot Arms VPO-215 "Gornostay" .366 TKM bolt-action riflex0
 ]
+Task_Else=距離: >= 0m
 Task_Map=Interchange
 Task_Kill=[
-	Interchange-any PMC operatives{head}x5
+	Interchange-Scavs{head}x5
 ]
 NeedItem=[
 	Accuracy International AXMC .338 LM bolt-action sniper riflex0/|
@@ -115,6 +121,7 @@ NeedItem=[
 	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
 	Molot Arms VPO-215 "Gornostay" .366 TKM bolt-action riflex0
 ]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot
