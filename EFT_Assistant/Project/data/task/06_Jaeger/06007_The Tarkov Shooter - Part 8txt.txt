@@ -10,8 +10,27 @@ NeedKappa=true
 NeedLightkeeper=false
 
 factionName=Any
+Task_Map=Interchange
+Task_Map=Lighthouse
+Task_Map=Reserve
+Task_Map=Ground Zero
+Task_Map=Shoreline
+Task_Map=Streets of Tarkov
+Task_Map=Woods
+Task_Map=Customs
+Task_Map=Factory
+Task_Map=Night Factory
 Task_Kill=[
-	Scavs{head}x3
+	Interchange-Scavs{head}x3/|
+	Lighthouse-Scavs{head}x3/|
+	Reserve-Scavs{head}x3/|
+	Ground Zero-Scavs{head}x3/|
+	Shoreline-Scavs{head}x3/|
+	Streets of Tarkov-Scavs{head}x3/|
+	Woods-Scavs{head}x3/|
+	Customs-Scavs{head}x3/|
+	Factory-Scavs{head}x3/|
+	Night Factory-Scavs{head}x3
 ]
 NeedItem=[
 	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|

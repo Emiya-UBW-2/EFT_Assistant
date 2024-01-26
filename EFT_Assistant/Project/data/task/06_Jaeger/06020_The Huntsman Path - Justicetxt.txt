@@ -10,8 +10,9 @@ NeedKappa=true
 NeedLightkeeper=false
 
 factionName=Any
+Task_Map=Customs
 Task_Kill=[
-	Reshala Guardx3
+	Customs-Reshala Guardx3
 ]
 Task_Else=距離: >= 0m
 

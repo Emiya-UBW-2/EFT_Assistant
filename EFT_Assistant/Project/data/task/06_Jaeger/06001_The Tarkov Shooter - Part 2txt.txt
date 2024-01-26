@@ -10,8 +10,27 @@ NeedKappa=true
 NeedLightkeeper=true
 
 factionName=Any
+Task_Map=Interchange
+Task_Map=Lighthouse
+Task_Map=Reserve
+Task_Map=Ground Zero
+Task_Map=Shoreline
+Task_Map=Streets of Tarkov
+Task_Map=Woods
+Task_Map=Customs
+Task_Map=Factory
+Task_Map=Night Factory
 Task_Kill=[
-	Scavs{left leg/right leg}x3
+	Interchange-Scavs{left leg/right leg}x3/|
+	Lighthouse-Scavs{left leg/right leg}x3/|
+	Reserve-Scavs{left leg/right leg}x3/|
+	Ground Zero-Scavs{left leg/right leg}x3/|
+	Shoreline-Scavs{left leg/right leg}x3/|
+	Streets of Tarkov-Scavs{left leg/right leg}x3/|
+	Woods-Scavs{left leg/right leg}x3/|
+	Customs-Scavs{left leg/right leg}x3/|
+	Factory-Scavs{left leg/right leg}x3/|
+	Night Factory-Scavs{left leg/right leg}x3
 ]
 NeedItem=[
 	SV-98 7.62x54R bolt-action sniper riflex0/|
@@ -25,8 +44,27 @@ NeedItem=[
 	Accuracy International AXMC .338 LM bolt-action sniper riflex0
 ]
 Task_Else=距離: >= 40m
+Task_Map=Interchange
+Task_Map=Lighthouse
+Task_Map=Reserve
+Task_Map=Ground Zero
+Task_Map=Shoreline
+Task_Map=Streets of Tarkov
+Task_Map=Woods
+Task_Map=Customs
+Task_Map=Factory
+Task_Map=Night Factory
 Task_Kill=[
-	Scavs{head}x2
+	Interchange-Scavs{head}x2/|
+	Lighthouse-Scavs{head}x2/|
+	Reserve-Scavs{head}x2/|
+	Ground Zero-Scavs{head}x2/|
+	Shoreline-Scavs{head}x2/|
+	Streets of Tarkov-Scavs{head}x2/|
+	Woods-Scavs{head}x2/|
+	Customs-Scavs{head}x2/|
+	Factory-Scavs{head}x2/|
+	Night Factory-Scavs{head}x2
 ]
 NeedItem=[
 	SV-98 7.62x54R bolt-action sniper riflex0/|

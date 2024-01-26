@@ -10,23 +10,31 @@ NeedKappa=false
 NeedLightkeeper=false
 
 factionName=Any
+Task_Map=Customs
 Task_Kill=[
-	Reshalax15
+	Customs-Reshalax15
 ]
+Task_Map=Reserve
 Task_Kill=[
-	Glukharx15
+	Reserve-Glukharx15
 ]
+Task_Map=Interchange
 Task_Kill=[
-	Killax15
+	Interchange-Killax15
 ]
+Task_Map=Woods
 Task_Kill=[
-	Shturmanx15
+	Woods-Shturmanx15
 ]
+Task_Map=Shoreline
 Task_Kill=[
-	Sanitarx15
+	Shoreline-Sanitarx15
 ]
+Task_Map=Factory
+Task_Map=Night Factory
 Task_Kill=[
-	Tagillax15
+	Factory-Tagillax15/|
+	Night Factory-Tagillax15
 ]
 
 [

@@ -10,8 +10,27 @@ NeedKappa=true
 NeedLightkeeper=true
 
 factionName=Any
+Task_Map=Interchange
+Task_Map=Lighthouse
+Task_Map=Reserve
+Task_Map=Ground Zero
+Task_Map=Shoreline
+Task_Map=Streets of Tarkov
+Task_Map=Woods
+Task_Map=Customs
+Task_Map=Factory
+Task_Map=Night Factory
 Task_Kill=[
-	Scavsx3
+	Interchange-Scavsx3/|
+	Lighthouse-Scavsx3/|
+	Reserve-Scavsx3/|
+	Ground Zero-Scavsx3/|
+	Shoreline-Scavsx3/|
+	Streets of Tarkov-Scavsx3/|
+	Woods-Scavsx3/|
+	Customs-Scavsx3/|
+	Factory-Scavsx3/|
+	Night Factory-Scavsx3
 ]
 Task_Else=距離: >= 0m
 Task_Else=自分の該当箇所に異常状態:[head,thorax,stomach,left arm,right arm,left leg,right leg]

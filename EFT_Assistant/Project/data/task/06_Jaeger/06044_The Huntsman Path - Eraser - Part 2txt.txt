@@ -11,8 +11,11 @@ NeedKappa=true
 NeedLightkeeper=false
 
 factionName=Any
+Task_Map=Reserve
+Task_Map=The Lab
 Task_Kill=[
-	Raiderx6
+	Reserve-Raiderx6/|
+	The Lab-Raiderx6
 ]
 Task_Else=距離: >= 0m
 

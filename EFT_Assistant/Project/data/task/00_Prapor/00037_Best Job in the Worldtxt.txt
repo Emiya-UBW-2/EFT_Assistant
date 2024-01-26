@@ -11,8 +11,27 @@ NeedKappa=false
 NeedLightkeeper=false
 
 factionName=Any
+Task_Map=Interchange
+Task_Map=Lighthouse
+Task_Map=Reserve
+Task_Map=Ground Zero
+Task_Map=Shoreline
+Task_Map=Streets of Tarkov
+Task_Map=Woods
+Task_Map=Customs
+Task_Map=Factory
+Task_Map=Night Factory
 Task_Kill=[
-	Scavsx30
+	Interchange-Scavsx30/|
+	Lighthouse-Scavsx30/|
+	Reserve-Scavsx30/|
+	Ground Zero-Scavsx30/|
+	Shoreline-Scavsx30/|
+	Streets of Tarkov-Scavsx30/|
+	Woods-Scavsx30/|
+	Customs-Scavsx30/|
+	Factory-Scavsx30/|
+	Night Factory-Scavsx30
 ]
 NeedItem=[
 	Kalashnikov AK-74 5.45x39 assault riflex0/|

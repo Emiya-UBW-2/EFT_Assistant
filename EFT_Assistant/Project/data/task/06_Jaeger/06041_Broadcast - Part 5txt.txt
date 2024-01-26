@@ -10,8 +10,15 @@ NeedKappa=false
 NeedLightkeeper=false
 
 factionName=Any
+Task_Map=Shoreline
+Task_Map=Woods
+Task_Map=Customs
+Task_Map=Night Factory
 Task_Kill=[
-	Cultist Priestx1
+	Shoreline-Cultist Priestx1/|
+	Woods-Cultist Priestx1/|
+	Customs-Cultist Priestx1/|
+	Night Factory-Cultist Priestx1
 ]
 Task_Else=距離: >= 0m
 Task_Map=Streets of Tarkov

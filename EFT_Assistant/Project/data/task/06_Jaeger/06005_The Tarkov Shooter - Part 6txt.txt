@@ -10,8 +10,19 @@ NeedKappa=true
 NeedLightkeeper=true
 
 factionName=Any
+Task_Map=Lighthouse
+Task_Map=Ground Zero
+Task_Map=Shoreline
+Task_Map=Streets of Tarkov
+Task_Map=Woods
+Task_Map=Customs
 Task_Kill=[
-	Sniperx5
+	Lighthouse-Sniperx5/|
+	Ground Zero-Sniperx5/|
+	Shoreline-Sniperx5/|
+	Streets of Tarkov-Sniperx5/|
+	Woods-Sniperx5/|
+	Customs-Sniperx5
 ]
 NeedItem=[
 	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|

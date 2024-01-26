@@ -11,8 +11,19 @@ NeedLightkeeper=false
 
 factionName=Any
 Task_Else=Skillを上げる:Sniper Rifles+10.000000
+Task_Map=Lighthouse
+Task_Map=Ground Zero
+Task_Map=Shoreline
+Task_Map=Streets of Tarkov
+Task_Map=Woods
+Task_Map=Customs
 Task_Kill=[
-	Sniperx10
+	Lighthouse-Sniperx10/|
+	Ground Zero-Sniperx10/|
+	Shoreline-Sniperx10/|
+	Streets of Tarkov-Sniperx10/|
+	Woods-Sniperx10/|
+	Customs-Sniperx10
 ]
 Task_Else=距離: >= 350m
 

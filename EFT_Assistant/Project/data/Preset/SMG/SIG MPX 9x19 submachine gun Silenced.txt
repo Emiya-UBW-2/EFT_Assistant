@@ -11,4 +11,5 @@ Parts=MPX GEN1 handguard 2 inch rail
 Parts=MPX GEN1 handguard 4 inch rail
 Parts=MPX flip-up rear sight
 Parts=MPX/MCX retractable stock adapter
+Parts=Armacon Baskak stock
 Parts=MPX single latch charging handle

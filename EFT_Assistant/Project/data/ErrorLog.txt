@@ -136,41 +136,8 @@ Error : Invalid ID by CheckID[IOTV Gen4 body armor (Assault Kit MultiCam)]
 Error : Invalid ID by CheckID[IOTV Gen4 body armor (Full Protection Kit MultiCam)]
 Error : Invalid ID by CheckID[IOTV Gen4 body armor (High Mobility Kit MultiCam)]
 Error : Invalid ID by CheckID[Gendarmerie - District Patrol]
-Error : Not Find Item : savage
 Error : Invalid ID by CheckID[IOTV Gen4 body armor (Full Protection Kit MultiCam)]
-Error : Invalid ID by CheckID[VOMZ Pilad 4x32 25.4mm riflescope]
-Error : Invalid ID by CheckID[Armacon Baskak stock]
-Error : Not Find ID :-1
-Error : Invalid ID by CheckID[Armacon Baskak stock]
-Error : Not Find ID :-1
-Error : Invalid ID by CheckID[Armacon Baskak stock]
-Error : Invalid ID by CheckID[Armacon Baskak stock]
-Error : Not Find ID :-1
-Error : Invalid ID by CheckID[VOMZ Pilad 4x32 25.4mm riflescope]
-Error : Invalid ID by CheckID[Armacon Baskak stock]
-Error : Not Find ID :-1
-Error : Invalid ID by CheckID[SA-58/FAL/SLR 7.62x51 30-round magazine]
-Error : Not Find ID :-1
-Error : Invalid ID by CheckID[Armacon Baskak stock]
-Error : Not Find ID :-1
-Error : Invalid ID by CheckID[VOMZ Pilad 4x32 25.4mm riflescope]
-Error : Not Find ID :-1
-Error : Invalid ID by CheckID[Armacon Baskak stock]
-Error : Not Find ID :-1
-Error : Invalid ID by CheckID[SA-58/FAL/SLR 7.62x51 30-round magazine]
-Error : Not Find ID :-1
-Error : Invalid ID by CheckID[Armacon Baskak stock]
-Error : Not Find ID :-1
-Error : Invalid ID by CheckID[SA-58/FAL/SLR 7.62x51 30-round magazine]
-Error : Invalid ID by CheckID[Armacon Baskak stock]
-Error : Not Find ID :-1
-Error : Invalid ID by CheckID[Armacon Baskak stock]
-Error : Not Find ID :-1
-Error : Invalid ID by CheckID[NPP KlASS Korund-VM body armor (Black)]
-Error : Invalid ID by CheckID[Korund-VM ballistic plates (Front)]
-Error : Invalid ID by CheckID[Korund-VM ballistic plate (Side)]
-Error : Invalid ID by CheckID[Korund-VM ballistic plates (Front)]
-Update Json Time:80.588997 s
+Update Json Time:81.129997 s
 Error : ThroughJson : Aramid insert
 Error : ThroughJson : 1.25 mm aramid insert and titanium plates
 Error : ThroughJson : 1.25 mm aramid insert and titanium plates
@@ -556,19 +523,7 @@ Error : ThroughJson :
 Error : ThroughJson : 
 Error : ThroughJson : 
 Error : ThroughJson : 
-Error : Not Find Item : Armacon Baskak stock
-Error : Not Find ID :-1
-Error : Not Find Item : SA-58/FAL/SLR 7.62x51 30-round magazine
-Error : Not Find ID :-1
-Error : Not Find Item : NPP KlASS Korund-VM body armor (Black)
-Error : Not Find ID :-1
-Error : Not Find Item : Korund-VM ballistic plates (Front)
-Error : Not Find ID :-1
-Error : Not Find Item : Korund-VM ballistic plate (Side)
-Error : Not Find ID :-1
-Error : Not Find Item : Korund-VM ballistic plates (Front)
-Error : Not Find ID :-1
-Update Json Time:26.103001 s
+Update Json Time:28.733999 s
 Error : Invalid ID by CheckID[TerraGroup scientist's hard drive]
 Error : Invalid ID by CheckID[TerraGroup scientist's hard drive]
 Error : Invalid ID by CheckID[Bottle of Le Jean wine]
@@ -650,7 +605,6 @@ Error : Invalid ID by CheckID[OLI cargo manifests]
 Error : Invalid ID by CheckID[OLI cargo manifests]
 Error : Invalid ID by CheckID[IDEA cargo manifests]
 Error : Invalid ID by CheckID[IDEA cargo manifests]
-Error : Invalid ID by CheckID[NPP KlASS Korund-VM body armor (Black)]
 Error : Invalid ID by CheckID[Military documents #1]
 Error : Invalid ID by CheckID[Military documents #2]
 Error : Invalid ID by CheckID[Military documents #3]
@@ -699,7 +653,6 @@ Error : Invalid ID by CheckID[Flash drive with fake info]
 Error : Invalid ID by CheckID[Flash drive with fake info]
 Error : Invalid ID by CheckID[Working hard drive]
 Error : Invalid ID by CheckID[Working hard drive]
-Error : Invalid ID by CheckID[NPP KlASS Korund-VM body armor (Black)]
 Error : Invalid ID by CheckID[AG guitar pick]
 Error : Invalid ID by CheckID[AG guitar pick]
 Error : Invalid ID by CheckID[Clothes design handbook - Part 1]
@@ -734,6 +687,7 @@ Error : Invalid ID by CheckID[Picture 12]
 Error : Invalid ID by CheckID[Picture 12]
 Error : Invalid ID by CheckID[Stolen military documents]
 Error : Invalid ID by CheckID[Stolen military documents]
+Error : Invalid ID by CheckID[Degtyarev RPDN 7.62x39 machine gun 1P78-1]
 Error : Invalid ID by CheckID[Secure Flash drive V3]
 Error : Invalid ID by CheckID[Secure Flash drive V3]
 Error : Invalid ID by CheckID[Informant's journal]
@@ -750,18 +704,10 @@ Error : Invalid ID by CheckID[Secured tape]
 Error : Invalid ID by CheckID[Secured tape]
 Error : Invalid ID by CheckID[Working hard drive]
 Error : Invalid ID by CheckID[Working hard drive]
-Update Json Time:14.893000 s
-Update Json Time:2.642000 s
+Update Json Time:8.279000 s
+Update Json Time:1.491000 s
 Error : ThroughJson : Christmas Tree
-Error : Invalid ID by CheckID[UMTBS 6Sh112 Scout-Sniper chest rig (Digital Flora)]
-Error : Invalid ID by CheckID[Korund-VM ballistic plates (Front)]
 Error : Invalid ID by CheckID[Gendarmerie - District Patrol]
-Error : Invalid ID by CheckID[NPP KlASS Korund-VM body armor (Black) Default]
-Error : Invalid ID by CheckID[Korund-VM ballistic plate (Side)]
-Error : Invalid ID by CheckID[Armacon Baskak stock]
-Error : Invalid ID by CheckID[SA-58/FAL/SLR 7.62x51 30-round magazine]
-Error : Invalid ID by CheckID[UMTBS 6Sh112 Scout-Sniper chest rig (Digital Flora)]
-Error : Invalid ID by CheckID[VOMZ Pilad 4x32 25.4mm riflescope]
 Error : Not Find Item : BTR Driver
 Error : Not Find ID :-1
-Update Json Time:15.779000 s
+Update Json Time:15.387000 s

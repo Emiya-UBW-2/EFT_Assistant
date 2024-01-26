@@ -10,8 +10,11 @@ NeedKappa=false
 NeedLightkeeper=false
 
 factionName=Any
+Task_Map=Reserve
+Task_Map=The Lab
 Task_Kill=[
-	Raiderx20
+	Reserve-Raiderx20/|
+	The Lab-Raiderx20
 ]
 Task_Map=The Lab
 Task_Else=TaskType:visit

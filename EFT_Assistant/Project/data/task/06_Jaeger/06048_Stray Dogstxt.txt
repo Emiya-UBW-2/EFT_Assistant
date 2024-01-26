@@ -12,16 +12,37 @@ NeedKappa=true
 NeedLightkeeper=false
 
 factionName=Any
+Task_Map=Lighthouse
+Task_Map=Shoreline
+Task_Map=Woods
+Task_Map=Customs
 Task_Kill=[
-	Death Knightx1
+	Lighthouse-Death Knightx1/|
+	Shoreline-Death Knightx1/|
+	Woods-Death Knightx1/|
+	Customs-Death Knightx1
 ]
 Task_Else=距離: >= 0m
+Task_Map=Lighthouse
+Task_Map=Shoreline
+Task_Map=Woods
+Task_Map=Customs
 Task_Kill=[
-	Big Pipex1
+	Lighthouse-Big Pipex1/|
+	Shoreline-Big Pipex1/|
+	Woods-Big Pipex1/|
+	Customs-Big Pipex1
 ]
 Task_Else=距離: >= 0m
+Task_Map=Lighthouse
+Task_Map=Shoreline
+Task_Map=Woods
+Task_Map=Customs
 Task_Kill=[
-	Birdeyex1
+	Lighthouse-Birdeyex1/|
+	Shoreline-Birdeyex1/|
+	Woods-Birdeyex1/|
+	Customs-Birdeyex1
 ]
 Task_Else=距離: >= 0m
 

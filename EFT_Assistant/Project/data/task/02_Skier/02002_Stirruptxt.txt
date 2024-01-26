@@ -10,8 +10,27 @@ NeedKappa=true
 NeedLightkeeper=false
 
 factionName=Any
+Task_Map=Interchange
+Task_Map=Lighthouse
+Task_Map=Reserve
+Task_Map=Ground Zero
+Task_Map=Shoreline
+Task_Map=Streets of Tarkov
+Task_Map=Woods
+Task_Map=Customs
+Task_Map=Factory
+Task_Map=Night Factory
 Task_Kill=[
-	Scavsx3
+	Interchange-Scavsx3/|
+	Lighthouse-Scavsx3/|
+	Reserve-Scavsx3/|
+	Ground Zero-Scavsx3/|
+	Shoreline-Scavsx3/|
+	Streets of Tarkov-Scavsx3/|
+	Woods-Scavsx3/|
+	Customs-Scavsx3/|
+	Factory-Scavsx3/|
+	Night Factory-Scavsx3
 ]
 NeedItem=[
 	Beretta M9A3 9x19 pistolx0/|

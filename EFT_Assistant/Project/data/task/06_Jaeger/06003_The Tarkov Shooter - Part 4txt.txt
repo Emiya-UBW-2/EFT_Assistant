@@ -10,8 +10,27 @@ NeedKappa=true
 NeedLightkeeper=true
 
 factionName=Any
+Task_Map=Interchange
+Task_Map=Lighthouse
+Task_Map=Reserve
+Task_Map=Ground Zero
+Task_Map=Shoreline
+Task_Map=Streets of Tarkov
+Task_Map=Woods
+Task_Map=Customs
+Task_Map=Factory
+Task_Map=Night Factory
 Task_Kill=[
-	Scavsx5
+	Interchange-Scavsx5/|
+	Lighthouse-Scavsx5/|
+	Reserve-Scavsx5/|
+	Ground Zero-Scavsx5/|
+	Shoreline-Scavsx5/|
+	Streets of Tarkov-Scavsx5/|
+	Woods-Scavsx5/|
+	Customs-Scavsx5/|
+	Factory-Scavsx5/|
+	Night Factory-Scavsx5
 ]
 NeedItem=[
 	Accuracy International AXMC .338 LM bolt-action sniper riflex0/|

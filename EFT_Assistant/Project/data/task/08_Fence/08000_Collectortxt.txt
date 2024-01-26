@@ -48,6 +48,7 @@ NeedTask=Test Drive - Part 1
 NeedTask=The Huntsman Path - Eraser - Part 2
 NeedTask=Missing Cargo
 NeedTask=Peacekeeping Mission
+NeedTask=Silent Caliber
 NeedTask=Hunting Trip
 NeedTask=Decontamination Service
 NeedTask=Flint

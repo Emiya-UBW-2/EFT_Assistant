@@ -6,12 +6,31 @@ NeedTask=Bullshit
 NeedLevel=30
 
 CanRestart=false
-NeedKappa=false
+NeedKappa=true
 NeedLightkeeper=false
 
 factionName=Any
+Task_Map=Interchange
+Task_Map=Lighthouse
+Task_Map=Reserve
+Task_Map=Ground Zero
+Task_Map=Shoreline
+Task_Map=Streets of Tarkov
+Task_Map=Woods
+Task_Map=Customs
+Task_Map=Factory
+Task_Map=Night Factory
 Task_Kill=[
-	Scavsx20
+	Interchange-Scavsx20/|
+	Lighthouse-Scavsx20/|
+	Reserve-Scavsx20/|
+	Ground Zero-Scavsx20/|
+	Shoreline-Scavsx20/|
+	Streets of Tarkov-Scavsx20/|
+	Woods-Scavsx20/|
+	Customs-Scavsx20/|
+	Factory-Scavsx20/|
+	Night Factory-Scavsx20
 ]
 NeedItem=[
 	Saiga 12ga ver.10 12/76 semi-automatic shotgunx0/|
@@ -28,8 +47,27 @@ NeedItem=[
 	Hexagon 12K 12ga sound suppressorx0
 ]
 Task_Else=距離: >= 0m
+Task_Map=Interchange
+Task_Map=Lighthouse
+Task_Map=Reserve
+Task_Map=Ground Zero
+Task_Map=Shoreline
+Task_Map=Streets of Tarkov
+Task_Map=Woods
+Task_Map=Customs
+Task_Map=Factory
+Task_Map=Night Factory
 Task_Kill=[
-	Scavsx10
+	Interchange-Scavsx10/|
+	Lighthouse-Scavsx10/|
+	Reserve-Scavsx10/|
+	Ground Zero-Scavsx10/|
+	Shoreline-Scavsx10/|
+	Streets of Tarkov-Scavsx10/|
+	Woods-Scavsx10/|
+	Customs-Scavsx10/|
+	Factory-Scavsx10/|
+	Night Factory-Scavsx10
 ]
 NeedItem=[
 	Saiga 12ga ver.10 12/76 semi-automatic shotgunx0/|

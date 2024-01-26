@@ -2,3 +2,5 @@ Name_Jpn=M4A1 5.56x45 アサルトライフル 2k17 NY
 Information_Jpn=
 Name_Jpn=M4A1 5.56x45 アサルトライフル 2k17 NY
 Information_Jpn=
+Name_Jpn=M4A1 5.56x45 アサルトライフル 2k17 NY
+Information_Jpn=
