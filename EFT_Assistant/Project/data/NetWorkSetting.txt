@@ -1,0 +1,10 @@
+Setting0_Port=14112
+Setting0_IP1=160
+Setting0_IP2=251
+Setting0_IP3=151
+Setting0_IP4=146
+Setting1_Port=10850
+Setting1_IP1=127
+Setting1_IP2=0
+Setting1_IP3=0
+Setting1_IP4=1

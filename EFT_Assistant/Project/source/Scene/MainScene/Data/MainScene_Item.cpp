@@ -55,70 +55,113 @@ namespace FPS_n2 {
 	}
 	void			ItemList::ItemProperties::DrawInfoMelee(int xp, int yp, int* xofs, int* yofs) const noexcept {
 		int ysiz = LineHeight * 6 / 10;
-		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-			"切り付けダメージ :%3d", this->GetSlashDamage()) + y_r(30)); *yofs += ysiz + y_r(5);
-		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-			"突きダメージ :%3d", this->GetstabDamage()) + y_r(30)); *yofs += ysiz + y_r(5);
-		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-			"判定判定 :%3.1f", this->GethitRadius()) + y_r(30)); *yofs += ysiz + y_r(5);
+
+		WindowSystem::SetMsg(xp, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+			"切り付けダメージ :%3d", this->GetSlashDamage());
+		*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+			"切り付けダメージ :%3d", this->GetSlashDamage()) + DXDraw::Instance()->GetUIY(30)); *yofs += ysiz + DXDraw::Instance()->GetUIY(5);
+		WindowSystem::SetMsg(xp, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+			"突きダメージ :%3d", this->GetstabDamage());
+		*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+			"突きダメージ :%3d", this->GetstabDamage()) + DXDraw::Instance()->GetUIY(30)); *yofs += ysiz + DXDraw::Instance()->GetUIY(5);
+		WindowSystem::SetMsg(xp, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+			"判定判定 :%3.1f", this->GethitRadius());
+		*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+			"判定判定 :%3.1f", this->GethitRadius()) + DXDraw::Instance()->GetUIY(30)); *yofs += ysiz + DXDraw::Instance()->GetUIY(5);
 	}
 	void			ItemList::ItemProperties::DrawInfoKey(int xp, int yp, int* xofs, int* yofs) const noexcept {
 		int ysiz = LineHeight * 6 / 10;
-		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-			"使用回数 :%3d", this->GetUses()) + y_r(30)); *yofs += ysiz + y_r(5);
+		WindowSystem::SetMsg(xp, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+			"使用回数 :%3d", this->GetUses());
+		*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+			"使用回数 :%3d", this->GetUses()) + DXDraw::Instance()->GetUIY(30)); *yofs += ysiz + DXDraw::Instance()->GetUIY(5);
 	}
 	void			ItemList::ItemProperties::DrawInfoNightVision(int xp, int yp, int* xofs, int* yofs) const noexcept {
 		int ysiz = LineHeight * 6 / 10;
-		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-			"ノイズ強度 :%3.2f", this->GetnoiseIntensity()) + y_r(30)); *yofs += ysiz + y_r(5);
-		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-			"ノイズスケール :%3.1f", this->GetnoiseScale()) + y_r(30)); *yofs += ysiz + y_r(5);
-		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-			"拡散強度 :%3.3f", this->GetdiffuseIntensity()) + y_r(30)); *yofs += ysiz + y_r(5);
-		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-			"強さ :%3.2f", this->Getintensity()) + y_r(30)); *yofs += ysiz + y_r(5);
+		WindowSystem::SetMsg(xp, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+			"ノイズ強度 :%3.2f", this->GetnoiseIntensity());
+		*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+			"ノイズ強度 :%3.2f", this->GetnoiseIntensity()) + DXDraw::Instance()->GetUIY(30)); *yofs += ysiz + DXDraw::Instance()->GetUIY(5);
+		WindowSystem::SetMsg(xp, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+			"ノイズスケール :%3.1f", this->GetnoiseScale());
+		*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+			"ノイズスケール :%3.1f", this->GetnoiseScale()) + DXDraw::Instance()->GetUIY(30)); *yofs += ysiz + DXDraw::Instance()->GetUIY(5);
+		WindowSystem::SetMsg(xp, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+			"拡散強度 :%3.3f", this->GetdiffuseIntensity());
+		*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+			"拡散強度 :%3.3f", this->GetdiffuseIntensity()) + DXDraw::Instance()->GetUIY(30)); *yofs += ysiz + DXDraw::Instance()->GetUIY(5);
+		WindowSystem::SetMsg(xp, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+			"強さ : % 3.2f", this->Getintensity());
+		*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+			"強さ :%3.2f", this->Getintensity()) + DXDraw::Instance()->GetUIY(30)); *yofs += ysiz + DXDraw::Instance()->GetUIY(5);
 	}
 	void			ItemList::ItemProperties::DrawInfoPreset(int xp, int yp, int* xofs, int* yofs) const noexcept {
-		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, White, Black,
-			"デフォルトプリセットかどうか:%s", this->GetDefault() ? "TRUE" : "FALSE") + y_r(30)); *yofs += LineHeight + y_r(5);
-		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, White, Black,
-			"パーツリスト:") + y_r(30)); *yofs += LineHeight + y_r(5);
+		WindowSystem::SetMsg(xp, yp + LineHeight / 2 + *yofs, LineHeight, STRX_LEFT, White, Black,
+			"デフォルトプリセットかどうか:%s", this->GetDefault() ? "TRUE" : "FALSE");
+		*xofs = std::max(*xofs, WindowSystem::GetMsgLen(LineHeight,
+			"デフォルトプリセットかどうか:%s", this->GetDefault() ? "TRUE" : "FALSE") + DXDraw::Instance()->GetUIY(30)); *yofs += LineHeight + DXDraw::Instance()->GetUIY(5);
+		WindowSystem::SetMsg(xp, yp + LineHeight/2 + *yofs, LineHeight, STRX_LEFT, White, Black,
+			"パーツリスト:");
+		*xofs = std::max(*xofs, WindowSystem::GetMsgLen(LineHeight,
+			"パーツリスト:") + DXDraw::Instance()->GetUIY(30)); *yofs += LineHeight + DXDraw::Instance()->GetUIY(5);
 		for (const auto& c : this->m_ContainsItemID) {
-			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, White, Black,
-				" %s", c.GetName().c_str()) + y_r(30)); *yofs += LineHeight + y_r(5);
+			WindowSystem::SetMsg(xp, yp + LineHeight/2 + *yofs, LineHeight, STRX_LEFT, White, Black,
+				" %s", c.GetName().c_str());
+			*xofs = std::max(*xofs, WindowSystem::GetMsgLen(LineHeight,
+				" %s", c.GetName().c_str()) + DXDraw::Instance()->GetUIY(30)); *yofs += LineHeight + DXDraw::Instance()->GetUIY(5);
 		}
 	}
 	void			ItemList::ItemProperties::DrawInfoWeaponMod(int xp, int yp, int* xofs, int* yofs) const noexcept {
-		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetModRecoil() < 0.f) ? Green : Red, Black,
-			"Recoil(リコイル変動値):%3.1f %%", this->GetModRecoil()) + y_r(30));
-		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + *xofs / 2, yp + *yofs, xp + *xofs / 2, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetModErgonomics() >= 0.f) ? Green : Red, Black,
-			"Ergonomics(エルゴノミクス変動値):%3.1f", this->GetModErgonomics()) + y_r(30));
-		*yofs += LineHeight + y_r(5);
+		WindowSystem::SetMsg(xp, yp + LineHeight/2 + *yofs, LineHeight, STRX_LEFT, (this->GetModRecoil() < 0.f) ? Green : Red, Black,
+			"Recoil(リコイル変動値):%3.1f %%", this->GetModRecoil());
+		*xofs = std::max(*xofs, WindowSystem::GetMsgLen(LineHeight,
+			"Recoil(リコイル変動値):%3.1f %%", this->GetModRecoil()) + DXDraw::Instance()->GetUIY(30));
+		WindowSystem::SetMsg(xp + *xofs / 2, yp + LineHeight / 2 + *yofs, LineHeight, STRX_LEFT, (this->GetModErgonomics() >= 0.f) ? Green : Red, Black,
+			"Ergonomics(エルゴノミクス変動値):%3.1f", this->GetModErgonomics());
+		*xofs = std::max(*xofs, WindowSystem::GetMsgLen(LineHeight,
+			"Ergonomics(エルゴノミクス変動値):%3.1f", this->GetModErgonomics()) + DXDraw::Instance()->GetUIY(30));
+		*yofs += LineHeight + DXDraw::Instance()->GetUIY(5);
 
 		switch (this->GetType()) {
 		case EnumItemProperties::ItemPropertiesBarrel:
-			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetcenterOfImpact() >= 0.f) ? Green : Red, Black,
-				"centerOfImpact(跳ね上がり？):%3.2f", this->GetcenterOfImpact()) + y_r(30)); *yofs += LineHeight + y_r(5);
-			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetdeviationMax() >= 0.f) ? Green : Red, Black,
-				"deviationMax(偏差の最大値？):%3d", this->GetdeviationMax()) + y_r(30)); *yofs += LineHeight + y_r(5);
+			WindowSystem::SetMsg(xp, yp + LineHeight/2 + *yofs, LineHeight, STRX_LEFT, (this->GetcenterOfImpact() >= 0.f) ? Green : Red, Black,
+				"centerOfImpact(跳ね上がり？):%3.2f", this->GetcenterOfImpact());
+			*xofs = std::max(*xofs, WindowSystem::GetMsgLen(LineHeight,
+				"centerOfImpact(跳ね上がり？):%3.2f", this->GetcenterOfImpact()) + DXDraw::Instance()->GetUIY(30)); *yofs += LineHeight + DXDraw::Instance()->GetUIY(5);
+			WindowSystem::SetMsg(xp, yp + LineHeight/2 + *yofs, LineHeight, STRX_LEFT, (this->GetdeviationMax() >= 0.f) ? Green : Red, Black,
+				"deviationMax(偏差の最大値？):%3d", this->GetdeviationMax());
+			*xofs = std::max(*xofs, WindowSystem::GetMsgLen(LineHeight,
+				"deviationMax(偏差の最大値？):%3d", this->GetdeviationMax()) + DXDraw::Instance()->GetUIY(30)); *yofs += LineHeight + DXDraw::Instance()->GetUIY(5);
 			break;
 		case EnumItemProperties::ItemPropertiesMagazine:
-			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, White, Black,
-				"Capacity(マガジン容量):%3d", this->GetModCapacity()) + y_r(30)); *yofs += LineHeight + y_r(5);
-			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetloadModifier() >= 0.f) ? Green : Red, Black,
-				"loadModifier(装弾変動値):%3.1f", this->GetloadModifier()) + y_r(30)); *yofs += LineHeight + y_r(5);
-			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetammoCheckModifier() >= 0.f) ? Green : Red, Black,
-				"ammoCheckModifier(弾数チェック変動値):%3.1f", this->GetammoCheckModifier()) + y_r(30)); *yofs += LineHeight + y_r(5);
-			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetmalfunctionChance() <= 0.f) ? Green : Red, Black,
-				"malfunctionChance(ジャム変動値):%3.1f", this->GetmalfunctionChance()) + y_r(30)); *yofs += LineHeight + y_r(5);
+			WindowSystem::SetMsg(xp, yp + LineHeight/2 + *yofs, LineHeight, STRX_LEFT, White, Black,
+				"Capacity(マガジン容量):%3d", this->GetModCapacity());
+			*xofs = std::max(*xofs, WindowSystem::GetMsgLen(LineHeight,
+				"Capacity(マガジン容量):%3d", this->GetModCapacity()) + DXDraw::Instance()->GetUIY(30)); *yofs += LineHeight + DXDraw::Instance()->GetUIY(5);
+			WindowSystem::SetMsg(xp, yp + LineHeight/2 + *yofs, LineHeight, STRX_LEFT, (this->GetloadModifier() >= 0.f) ? Green : Red, Black,
+				"loadModifier(装弾変動値):%3.1f", this->GetloadModifier());
+			*xofs = std::max(*xofs, WindowSystem::GetMsgLen(LineHeight,
+				"loadModifier(装弾変動値):%3.1f", this->GetloadModifier()) + DXDraw::Instance()->GetUIY(30)); *yofs += LineHeight + DXDraw::Instance()->GetUIY(5);
+			WindowSystem::SetMsg(xp, yp + LineHeight/2 + *yofs, LineHeight, STRX_LEFT, (this->GetammoCheckModifier() >= 0.f) ? Green : Red, Black,
+				"ammoCheckModifier(弾数チェック変動値):%3.1f", this->GetammoCheckModifier());
+			*xofs = std::max(*xofs, WindowSystem::GetMsgLen(LineHeight,
+				"ammoCheckModifier(弾数チェック変動値):%3.1f", this->GetammoCheckModifier()) + DXDraw::Instance()->GetUIY(30)); *yofs += LineHeight + DXDraw::Instance()->GetUIY(5);
+			WindowSystem::SetMsg(xp, yp + LineHeight/2 + *yofs, LineHeight, STRX_LEFT, (this->GetmalfunctionChance() <= 0.f) ? Green : Red, Black,
+				"malfunctionChance(ジャム変動値):%3.1f", this->GetmalfunctionChance());
+			*xofs = std::max(*xofs, WindowSystem::GetMsgLen(LineHeight,
+				"malfunctionChance(ジャム変動値):%3.1f", this->GetmalfunctionChance()) + DXDraw::Instance()->GetUIY(30)); *yofs += LineHeight + DXDraw::Instance()->GetUIY(5);
 			break;
 		case EnumItemProperties::ItemPropertiesScope:
-			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, White, Black,
-				"SightingRange(照準距離):%3d", this->GetSightingRange()) + y_r(30)); *yofs += LineHeight + y_r(5);
+			WindowSystem::SetMsg(xp, yp + LineHeight/2 + *yofs, LineHeight, STRX_LEFT, White, Black,
+				"SightingRange(照準距離):%3d", this->GetSightingRange());
+			*xofs = std::max(*xofs, WindowSystem::GetMsgLen(LineHeight,
+				"SightingRange(照準距離):%3d", this->GetSightingRange()) + DXDraw::Instance()->GetUIY(30)); *yofs += LineHeight + DXDraw::Instance()->GetUIY(5);
 			break;
 		case EnumItemProperties::ItemPropertiesWeaponMod:
-			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + LineHeight + *yofs, LineHeight, STRX_LEFT, (this->GetaccuracyModifier() <= 0.f) ? Green : Red, Black,
-				"accuracyModifier(精度変動値):%3.1f", this->GetaccuracyModifier()) + y_r(30)); *yofs += LineHeight + y_r(5);
+			WindowSystem::SetMsg(xp, yp + LineHeight/2 + *yofs, LineHeight, STRX_LEFT, (this->GetaccuracyModifier() <= 0.f) ? Green : Red, Black,
+				"accuracyModifier(精度変動値):%3.1f", this->GetaccuracyModifier());
+			*xofs = std::max(*xofs, WindowSystem::GetMsgLen(LineHeight,
+				"accuracyModifier(精度変動値):%3.1f", this->GetaccuracyModifier()) + DXDraw::Instance()->GetUIY(30)); *yofs += LineHeight + DXDraw::Instance()->GetUIY(5);
 			break;
 		default:
 			break;
@@ -126,110 +169,178 @@ namespace FPS_n2 {
 	}
 	void			ItemList::ItemProperties::DrawInfoWeapon(int xp, int yp, int* xofs, int* yofs) const noexcept {
 		int ysiz = LineHeight * 6 / 10;
-		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-			"RecoilVertical    (縦リコイル)     :%3d %%", this->GetWeaponRecoilVertical()) + y_r(30));
-		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + *xofs / 2, yp + *yofs, xp + *xofs / 2, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-			"RecoilHorizontal  (横リコイル)     :%3d %%", this->GetWeaponRecoilHorizontal()) + y_r(30));
-		*yofs += ysiz + y_r(5);
+		WindowSystem::SetMsg(xp, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+			"RecoilVertical    (縦リコイル)     :%3d %%", this->GetWeaponRecoilVertical());
+		*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+			"RecoilVertical    (縦リコイル)     :%3d %%", this->GetWeaponRecoilVertical()) + DXDraw::Instance()->GetUIY(30));
+		WindowSystem::SetMsg(xp + *xofs / 2, yp + ysiz / 2 + *yofs, ysiz, STRX_LEFT, White, Black,
+			"RecoilHorizontal  (横リコイル)     :%3d %%", this->GetWeaponRecoilHorizontal());
+		*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+			"RecoilHorizontal  (横リコイル)     :%3d %%", this->GetWeaponRecoilHorizontal()) + DXDraw::Instance()->GetUIY(30));
+		*yofs += ysiz + DXDraw::Instance()->GetUIY(5);
 
-		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-			"Ergonomics        (エルゴノミクス) :%3.1f", this->GetWeaponErgonomics()) + y_r(30));
-		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + *xofs / 2, yp + *yofs, xp + *xofs / 2, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-			"SightRange        (照準距離)       :%3d %%", this->GetWeaponSightingRange()) + y_r(30));
-		*yofs += ysiz + y_r(5);
+		WindowSystem::SetMsg(xp, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+			"Ergonomics        (エルゴノミクス) :%3.1f", this->GetWeaponErgonomics());
+		*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+			"Ergonomics        (エルゴノミクス) :%3.1f", this->GetWeaponErgonomics()) + DXDraw::Instance()->GetUIY(30));
+		WindowSystem::SetMsg(xp + *xofs / 2, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+			"SightRange        (照準距離)       :%3d %%", this->GetWeaponSightingRange());
+		*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+			"SightRange        (照準距離)       :%3d %%", this->GetWeaponSightingRange()) + DXDraw::Instance()->GetUIY(30));
+		*yofs += ysiz + DXDraw::Instance()->GetUIY(5);
 
-		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-			"FireRate          (発射速度)       :%3d %%", this->GetWeaponFireRate()) + y_r(30));
-		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + *xofs / 2, yp + *yofs, xp + *xofs / 2, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-			"CenterOfImpact    (跳ね上がり？)   :%3.2f %%", this->GetWeaponcenterOfImpact()) + y_r(30)); *yofs += ysiz + y_r(5);
+		WindowSystem::SetMsg(xp, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+			"FireRate          (発射速度)       :%3d %%", this->GetWeaponFireRate());
+		*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+			"FireRate          (発射速度)       :%3d %%", this->GetWeaponFireRate()) + DXDraw::Instance()->GetUIY(30));
+		WindowSystem::SetMsg(xp + *xofs / 2, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+			"CenterOfImpact    (跳ね上がり？)   :%3.2f %%", this->GetWeaponcenterOfImpact());
+		*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+			"CenterOfImpact    (跳ね上がり？)   :%3.2f %%", this->GetWeaponcenterOfImpact()) + DXDraw::Instance()->GetUIY(30)); *yofs += ysiz + DXDraw::Instance()->GetUIY(5);
 
-		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-			"deviationCurve    (偏差の曲線？)   :%3.1f %%", this->GetWeapondeviationCurve()) + y_r(30));
-		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + *xofs / 2, yp + *yofs, xp + *xofs / 2, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-			"recoilDispersion  (リコイルの分散？):%3d %%", this->GetWeaponrecoilDispersion()) + y_r(30)); *yofs += ysiz + y_r(5);
+		WindowSystem::SetMsg(xp, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+			"deviationCurve    (偏差の曲線？)   :%3.1f %%", this->GetWeapondeviationCurve());
+		*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+			"deviationCurve    (偏差の曲線？)   :%3.1f %%", this->GetWeapondeviationCurve()) + DXDraw::Instance()->GetUIY(30));
+		WindowSystem::SetMsg(xp + *xofs / 2, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+			"recoilDispersion  (リコイルの分散？):%3d %%", this->GetWeaponrecoilDispersion());
+		*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+			"recoilDispersion  (リコイルの分散？):%3d %%", this->GetWeaponrecoilDispersion()) + DXDraw::Instance()->GetUIY(30)); *yofs += ysiz + DXDraw::Instance()->GetUIY(5);
 
-		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-			"recoilAngle       (リコイルの角度？):%3d %%", this->GetWeaponrecoilAngle()) + y_r(30));
-		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + *xofs / 2, yp + *yofs, xp + *xofs / 2, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-			"cameraRecoil      (カメラリコイル？):%3.1f %%", this->GetWeaponcameraRecoil()) + y_r(30)); *yofs += ysiz + y_r(5);
+		WindowSystem::SetMsg(xp, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+			"recoilAngle       (リコイルの角度？):%3d %%", this->GetWeaponrecoilAngle());
+		*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+			"recoilAngle       (リコイルの角度？):%3d %%", this->GetWeaponrecoilAngle()) + DXDraw::Instance()->GetUIY(30));
+		WindowSystem::SetMsg(xp + *xofs / 2, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+			"cameraRecoil      (カメラリコイル？):%3.1f %%", this->GetWeaponcameraRecoil());
+		*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+			"cameraRecoil      (カメラリコイル？):%3.1f %%", this->GetWeaponcameraRecoil()) + DXDraw::Instance()->GetUIY(30)); *yofs += ysiz + DXDraw::Instance()->GetUIY(5);
 
-		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-			"cameraSnap        (カメラスナップ？):%3.1f %%", this->GetWeaponcameraSnap()) + y_r(30));
-		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + *xofs / 2, yp + *yofs, xp + *xofs / 2, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-			"deviationMax      (偏差の最大値？)  :%3d %%", this->GetWeapondeviationMax()) + y_r(30)); *yofs += ysiz + y_r(5);
+		WindowSystem::SetMsg(xp, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+			"cameraSnap        (カメラスナップ？):%3.1f %%", this->GetWeaponcameraSnap());
+		*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+			"cameraSnap        (カメラスナップ？):%3.1f %%", this->GetWeaponcameraSnap()) + DXDraw::Instance()->GetUIY(30));
+		WindowSystem::SetMsg(xp + *xofs / 2, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+			"deviationMax      (偏差の最大値？)  :%3d %%", this->GetWeapondeviationMax());
+		*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+			"deviationMax      (偏差の最大値？)  :%3d %%", this->GetWeapondeviationMax()) + DXDraw::Instance()->GetUIY(30)); *yofs += ysiz + DXDraw::Instance()->GetUIY(5);
 
-		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-			"convergence       (収束？)          :%3.1f %%", this->GetWeaponconvergence()) + y_r(30)); *yofs += ysiz + y_r(5);
+		WindowSystem::SetMsg(xp, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+			"convergence       (収束？)          :%3.1f %%", this->GetWeaponconvergence());
+		*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+			"convergence       (収束？)          :%3.1f %%", this->GetWeaponconvergence()) + DXDraw::Instance()->GetUIY(30)); *yofs += ysiz + DXDraw::Instance()->GetUIY(5);
 	}
 	void			ItemList::ItemProperties::DrawInfoMed(int xp, int yp, int* xofs, int* yofs) const noexcept {
 		int ysiz = LineHeight * 6 / 10;
-		*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-			"使用時間 :%3.1f", this->GetMedUseTime()) + y_r(30)); *yofs += ysiz + y_r(5);
+		WindowSystem::SetMsg(xp, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+			"使用時間 :%3.1f", this->GetMedUseTime());
+		*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+			"使用時間 :%3.1f", this->GetMedUseTime()) + DXDraw::Instance()->GetUIY(30)); *yofs += ysiz + DXDraw::Instance()->GetUIY(5);
 		for (auto& m : m_cures) {
-			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-				"治療内容 :%s", m.c_str()) + y_r(30)); *yofs += ysiz + y_r(5);
+			WindowSystem::SetMsg(xp, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+				"治療内容 :%s", m.c_str());
+			*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+				"治療内容 :%s", m.c_str()) + DXDraw::Instance()->GetUIY(30)); *yofs += ysiz + DXDraw::Instance()->GetUIY(5);
 		}
 		switch (m_Type) {
 		case EnumItemProperties::ItemPropertiesMedicalItem:
-			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-				"使用回数 :%3d", this->GetMedUses()) + y_r(30)); *yofs += ysiz + y_r(5);
+			WindowSystem::SetMsg(xp, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+				"使用回数 :%3d", this->GetMedUses());
+			*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+				"使用回数 :%3d", this->GetMedUses()) + DXDraw::Instance()->GetUIY(30)); *yofs += ysiz + DXDraw::Instance()->GetUIY(5);
 			break;
 		case EnumItemProperties::ItemPropertiesMedKit:
-			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-				"HP :%3d", this->GetHitpoints()) + y_r(30)); *yofs += ysiz + y_r(5);
+			WindowSystem::SetMsg(xp, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+				"HP :%3d", this->GetHitpoints());
+			*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+				"HP :%3d", this->GetHitpoints()) + DXDraw::Instance()->GetUIY(30)); *yofs += ysiz + DXDraw::Instance()->GetUIY(5);
 
-			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-				"回復消費最大値 :%3d", this->GetmaxHealPerUse()) + y_r(30)); *yofs += ysiz + y_r(5);
+			WindowSystem::SetMsg(xp, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+				"回復消費最大値 :%3d", this->GetmaxHealPerUse());
+			*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+				"回復消費最大値 :%3d", this->GetmaxHealPerUse()) + DXDraw::Instance()->GetUIY(30)); *yofs += ysiz + DXDraw::Instance()->GetUIY(5);
 			if (this->GethpCostLightBleeding() > 0) {
-				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-					"軽出血消費 :%3d", this->GethpCostLightBleeding()) + y_r(30)); *yofs += ysiz + y_r(5);
+				WindowSystem::SetMsg(xp, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+					"軽出血消費 :%3d", this->GethpCostLightBleeding());
+				*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+					"軽出血消費 :%3d", this->GethpCostLightBleeding()) + DXDraw::Instance()->GetUIY(30)); *yofs += ysiz + DXDraw::Instance()->GetUIY(5);
 			}
 			if (this->GethpCostHeavyBleeding() > 0) {
-				*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-					"重出血消費 :%3d", this->GethpCostHeavyBleeding()) + y_r(30)); *yofs += ysiz + y_r(5);
+				WindowSystem::SetMsg(xp, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+					"重出血消費 :%3d", this->GethpCostHeavyBleeding());
+				*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+					"重出血消費 :%3d", this->GethpCostHeavyBleeding()) + DXDraw::Instance()->GetUIY(30)); *yofs += ysiz + DXDraw::Instance()->GetUIY(5);
 			}
 			break;
 		case EnumItemProperties::ItemPropertiesPainkiller:
-			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-				"使用回数 :%3d", this->GetMedUses()) + y_r(30)); *yofs += ysiz + y_r(5);
-			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-				"鎮痛時間 :%3d", this->GetpainkillerDuration()) + y_r(30)); *yofs += ysiz + y_r(5);
-			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-				"エネルギーへの影響 :%3d", this->GetenergyImpact()) + y_r(30)); *yofs += ysiz + y_r(5);
-			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-				"水分への影響 :%3d", this->GethydrationImpact()) + y_r(30)); *yofs += ysiz + y_r(5);
+			WindowSystem::SetMsg(xp, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+				"使用回数 :%3d", this->GetMedUses());
+			*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+				"使用回数 :%3d", this->GetMedUses()) + DXDraw::Instance()->GetUIY(30)); *yofs += ysiz + DXDraw::Instance()->GetUIY(5);
+			WindowSystem::SetMsg(xp, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+				"鎮痛時間 :%3d", this->GetpainkillerDuration());
+			*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+				"鎮痛時間 :%3d", this->GetpainkillerDuration()) + DXDraw::Instance()->GetUIY(30)); *yofs += ysiz + DXDraw::Instance()->GetUIY(5);
+			WindowSystem::SetMsg(xp, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+				"エネルギーへの影響 :%3d", this->GetenergyImpact());
+			*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+				"エネルギーへの影響 :%3d", this->GetenergyImpact()) + DXDraw::Instance()->GetUIY(30)); *yofs += ysiz + DXDraw::Instance()->GetUIY(5);
+			WindowSystem::SetMsg(xp, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+				"水分への影響 :%3d", this->GethydrationImpact());
+			*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+				"水分への影響 :%3d", this->GethydrationImpact()) + DXDraw::Instance()->GetUIY(30)); *yofs += ysiz + DXDraw::Instance()->GetUIY(5);
 			break;
 		case EnumItemProperties::ItemPropertiesSurgicalKit:
-			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-				"使用回数 :%3d", this->GetMedUses()) + y_r(30)); *yofs += ysiz + y_r(5);
-			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-				"最小回復 :%3.1f", this->GetminLimbHealth()) + y_r(30)); *yofs += ysiz + y_r(5);
-			*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-				"最高回復 :%3.1f", this->GetmaxLimbHealth()) + y_r(30)); *yofs += ysiz + y_r(5);
+			WindowSystem::SetMsg(xp, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+				"使用回数 :%3d", this->GetMedUses());
+			*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+				"使用回数 :%3d", this->GetMedUses()) + DXDraw::Instance()->GetUIY(30)); *yofs += ysiz + DXDraw::Instance()->GetUIY(5);
+			WindowSystem::SetMsg(xp, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+				"最小回復 :%3.1f", this->GetminLimbHealth());
+			*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+				"最小回復 :%3.1f", this->GetminLimbHealth()) + DXDraw::Instance()->GetUIY(30)); *yofs += ysiz + DXDraw::Instance()->GetUIY(5);
+			WindowSystem::SetMsg(xp, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+				"最高回復 :%3.1f", this->GetmaxLimbHealth());
+			*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+				"最高回復 :%3.1f", this->GetmaxLimbHealth()) + DXDraw::Instance()->GetUIY(30)); *yofs += ysiz + DXDraw::Instance()->GetUIY(5);
 			break;
 		case EnumItemProperties::ItemPropertiesStim:
 			for (const auto& s : m_stimEffects) {
 				if (s.GetskillName() != "") {
-					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-						"スキルへの影響 :%s", s.GetskillName().c_str()) + y_r(30));
-					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + y_r(600), yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-						"%s%3.2f", (s.Getvalue() >= 0) ? "+" : "", s.Getvalue()) + y_r(600) + y_r(30)); *yofs += ysiz + y_r(5);
+					WindowSystem::SetMsg(xp, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+						"スキルへの影響 :%s", s.GetskillName().c_str());
+					*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+						"スキルへの影響 :%s", s.GetskillName().c_str()) + DXDraw::Instance()->GetUIY(30));
+					WindowSystem::SetMsg(xp + DXDraw::Instance()->GetUIY(300), yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+						"%s%3.2f", (s.Getvalue() >= 0) ? "+" : "", s.Getvalue());
+					*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+						"%s%3.2f", (s.Getvalue() >= 0) ? "+" : "", s.Getvalue()) + DXDraw::Instance()->GetUIY(600) + DXDraw::Instance()->GetUIY(30)); *yofs += ysiz + DXDraw::Instance()->GetUIY(5);
 				}
 				else {
-					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-						"効果タイプ :%s", s.Gettype().c_str()) + y_r(30));
-					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + y_r(600), yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-						"%3.2f%s", s.Getvalue()*(s.Getpercent() ? 100.f : 1.f), (s.Getpercent() ? "%%" : "")) + y_r(600) + y_r(30)); *yofs += ysiz + y_r(5);
+					WindowSystem::SetMsg(xp, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+						"効果タイプ :%s", s.Gettype().c_str());
+					*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+						"効果タイプ :%s", s.Gettype().c_str()) + DXDraw::Instance()->GetUIY(30));
+					WindowSystem::SetMsg(xp + DXDraw::Instance()->GetUIY(300), yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+						"%3.2f%s", s.Getvalue() * (s.Getpercent() ? 100.f : 1.f), (s.Getpercent() ? "%%" : ""));
+					*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+						"%3.2f%s", s.Getvalue()*(s.Getpercent() ? 100.f : 1.f), (s.Getpercent() ? "%%" : "")) + DXDraw::Instance()->GetUIY(600) + DXDraw::Instance()->GetUIY(30)); *yofs += ysiz + DXDraw::Instance()->GetUIY(5);
 				}
 				if (s.Getchance() < 1.f) {
-					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-						"確率 :%3.1f%%", s.Getchance()*100.f) + y_r(30)); *yofs += ysiz + y_r(5);
+					WindowSystem::SetMsg(xp, yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+						"確率 :%3.1f%%", s.Getchance() * 100.f);
+					*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+						"確率 :%3.1f%%", s.Getchance()*100.f) + DXDraw::Instance()->GetUIY(30)); *yofs += ysiz + DXDraw::Instance()->GetUIY(5);
 				}
 				{
-					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp, yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-						"効果までの遅延 :%3d", s.Getdelay()) + y_r(30));
-					*xofs = std::max(*xofs, WindowSystem::SetMsg(xp + y_r(600), yp + *yofs, xp, yp + ysiz + *yofs, ysiz, STRX_LEFT, White, Black,
-						"%3d秒", s.Getduration()) + y_r(600) + y_r(30)); *yofs += ysiz + y_r(5);
+					WindowSystem::SetMsg(xp, yp + ysiz / 2 + *yofs, ysiz, STRX_LEFT, White, Black,
+						"効果までの遅延 :%3d", s.Getdelay());
+					*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+						"効果までの遅延 :%3d", s.Getdelay()) + DXDraw::Instance()->GetUIY(30));
+					WindowSystem::SetMsg(xp + DXDraw::Instance()->GetUIY(300), yp + ysiz/2 + *yofs, ysiz, STRX_LEFT, White, Black,
+						"%3d秒", s.Getduration());
+					*xofs = std::max(*xofs, WindowSystem::GetMsgLen(ysiz,
+						"%3d秒", s.Getduration()) + DXDraw::Instance()->GetUIY(600) + DXDraw::Instance()->GetUIY(30)); *yofs += ysiz + DXDraw::Instance()->GetUIY(5);
 				}
 			}
 			break;
@@ -304,8 +415,8 @@ namespace FPS_n2 {
 	}
 	void			ItemList::WhenAfterLoad_Sub() noexcept {}
 	const int		ItemList::Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive, bool IsFir, bool IsDrawBuy, bool IsIconOnly) noexcept {
-		auto* WindowMngr = WindowSystem::WindowManager::Instance();
-		auto* Input = InputControl::Instance();
+		auto* WindowMngr = WindowMySystem::WindowManager::Instance();
+		auto* Pad = PadControl::Instance();
 		int xs = xsize;
 		int  Xsize = 0;
 
@@ -326,7 +437,7 @@ namespace FPS_n2 {
 				while (true) {
 					StrXSize = WindowSystem::GetMsgLen(LineHeight * 9 / 10, Name + AfterName);
 					if ((xs - (GraphXsize + FirXSize)) < StrXSize) {
-						Name = Name.substr(0, (size_t)(((int)(Name.size()) * (xs - (GraphXsize + FirXSize)) / StrXSize) - AfterName.size() - 2)) + "…";
+						Name = Name.substr(0, (size_t)(((int)(Name.size()) * (xs - (GraphXsize + FirXSize)) / StrXSize) - static_cast<int>(AfterName.size()) - 2)) + "…";
 					}
 					else {
 						break;
@@ -360,10 +471,10 @@ namespace FPS_n2 {
 
 		xs = std::max(xs, Xsize);
 
-		if (WindowSystem::ClickCheckBox(xp, yp, xp + xs, yp + ysize, false, Clickactive, defaultcolor, "")) {
-			auto sizeXBuf = y_r(900);
-			auto sizeYBuf = y_r(0);
-			DrawWindow(nullptr, 0, y_r(1920), y_r(1080), &sizeXBuf, &sizeYBuf);//試しにサイズ計測
+		if (WindowSystem::SetMsgClickBox(xp, yp, xp + xs, yp + ysize, ysize, defaultcolor, false, Clickactive, "")) {
+			auto sizeXBuf = DXDraw::Instance()->GetUIY(900);
+			auto sizeYBuf = DXDraw::Instance()->GetUIY(0);
+			DrawWindow(nullptr, 0, DXDraw::Instance()->GetUIY(1920), DXDraw::Instance()->GetUIY(1080), &sizeXBuf, &sizeYBuf);//試しにサイズ計測
 			//
 			signed long long FreeID = (signed long long)GetID() + 0xFFFF;
 			//同じIDの奴いたら消そうぜ
@@ -376,13 +487,13 @@ namespace FPS_n2 {
 					break;
 				}
 			}
-			if (Input->GetMouseY() <= LineHeight) {
+			if (Pad->GetMS_Y() <= LineHeight) {
 				isHit = true;
 			}
 
 			if (!isHit) {
 				//ウィンドウ追加
-				WindowMngr->Add()->Set(Input->GetMouseX() - sizeXBuf / 2, Input->GetMouseY(), sizeXBuf, sizeYBuf, 0, GetName().c_str(), false, true, FreeID, [&](WindowSystem::WindowControl* win) {
+				WindowMngr->Add()->Set(Pad->GetMS_X() - sizeXBuf / 2, Pad->GetMS_Y(), sizeXBuf, sizeYBuf, 0, GetName().c_str(), false, true, FreeID, [&](WindowMySystem::WindowControl* win) {
 					DataBase::Instance()->GetItemData()->FindPtr((ItemID)(win->m_FreeID - 0xFFFF))->DrawWindow(win, Gray10, win->GetPosX(), win->GetPosY());
 				});
 			}
@@ -390,31 +501,35 @@ namespace FPS_n2 {
 		if (GetIcon().GetGraph()) {
 			float Scale = (float)ysize / (float)(std::min(GetIcon().GetXSize(), GetIcon().GetYSize()));
 			float rad = (GetIcon().GetXSize() >= GetIcon().GetYSize()) ? deg2rad(0) : deg2rad(90);
-			DrawControl::Instance()->SetDrawRotaGraph(DrawLayer::Normal, GetIcon().GetGraph(), GraphXPos + (int)(((float)GetIcon().GetXSize() * std::cos(rad) + (float)GetIcon().GetYSize() * std::sin(rad)) / 2.f * Scale), yp + ysize / 2, Scale, rad, false);
+			WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, GetIcon().GetGraph(), GraphXPos + (int)(((float)GetIcon().GetXSize() * std::cos(rad) + (float)GetIcon().GetYSize() * std::sin(rad)) / 2.f * Scale), yp + ysize / 2, Scale, rad, false);
 		}
 		if (!IsIconOnly) {
 			if (count > 0) {
-				WindowSystem::SetMsg(xp + FirXSize, yp, xp + FirXSize, yp + ysize, LineHeight * 9 / 10, STRX_LEFT, White, Black, "%s x%1d", Name.c_str(), count);
+				WindowSystem::SetMsg(xp + FirXSize, yp + ysize / 2, LineHeight * 9 / 10, STRX_LEFT, White, Black, "%s x%1d", Name.c_str(), count);
 			}
 			else {
-				WindowSystem::SetMsg(xp + FirXSize, yp, xp + FirXSize, yp + ysize, LineHeight * 9 / 10, STRX_LEFT, White, Black, "%s", Name.c_str());
+				WindowSystem::SetMsg(xp + FirXSize, yp + ysize / 2, LineHeight * 9 / 10, STRX_LEFT, White, Black, "%s", Name.c_str());
 			}
 		}
 		else {
 			if (count > 0) {
-				WindowSystem::SetMsg(xp + (GraphXsize + FirXSize), yp, xp + (GraphXsize + FirXSize), yp + ysize, LineHeight * 9 / 10, STRX_LEFT, White, Black, "x%1d", count);
+				WindowSystem::SetMsg(xp + (GraphXsize + FirXSize), yp + ysize / 2, LineHeight * 9 / 10, STRX_LEFT, White, Black, "x%1d", count);
 			}
 		}
 
 		if (IsLocked) {
-			DrawControl::Instance()->SetDrawRotaLock(DrawLayer::Front, xp + FirXSize / 2, yp + ysize / 2, 1.f, 0.f, true);
+			if (DrawGraphs::Instance()->GetLockGraph().GetGraph()) {
+				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Front, DrawGraphs::Instance()->GetLockGraph().GetGraph(), xp + FirXSize / 2, yp + ysize / 2, 1.f, 0.f, true);
+			}
 		}
 		if (IsFir) {
-			DrawControl::Instance()->SetDrawRotaFiR(DrawLayer::Normal, xp + FirXSize / 2, yp + ysize / 2, 1.f, 0.f, true);
+			if (DrawGraphs::Instance()->GetFirGraph().GetGraph()) {
+				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetFirGraph().GetGraph(), xp + FirXSize / 2, yp + ysize / 2, 1.f, 0.f, true);
+			}
 		}
 
 		if (IsDrawBuy) {
-			if (in2_(Input->GetMouseX(), Input->GetMouseY(), xp, yp, xp + xs, yp + ysize)) {
+			if (IntoMouse(xp, yp, xp + xs, yp + ysize)) {
 				TraderID ID = InvalidID;
 				int Value = -1;
 				if (GetSellValue(&ID, &Value)) {
@@ -427,14 +542,14 @@ namespace FPS_n2 {
 							Color = ptr->GetColors(50);
 						}
 					}
-					DrawControl::Instance()->SetString(DrawLayer::Front,
-						FontPool::FontType::Nomal_Edge, LineHeight,
-						STRX_RIGHT, STRY_BOTTOM, Input->GetMouseX(), Input->GetMouseY(), Color, Black,
+					WindowSystem::DrawControl::Instance()->SetString(WindowSystem::DrawLayer::Front,
+						FontPool::FontType::MS_Gothic, LineHeight,
+						STRX_RIGHT, STRY_BOTTOM, Pad->GetMS_X(), Pad->GetMS_Y(), Color, Black,
 						"最高値:%s = %d", TraderName.c_str(), Value
 					);
-					DrawControl::Instance()->SetString(DrawLayer::Front,
-						FontPool::FontType::Nomal_Edge, LineHeight,
-						STRX_RIGHT, STRY_TOP, Input->GetMouseX(), Input->GetMouseY(), Color, Black,
+					WindowSystem::DrawControl::Instance()->SetString(WindowSystem::DrawLayer::Front,
+						FontPool::FontType::MS_Gothic, LineHeight,
+						STRX_RIGHT, STRY_TOP, Pad->GetMS_X(), Pad->GetMS_Y(), Color, Black,
 						"マス単価: %d", Value / (Getwidth()*Getheight())
 					);
 				}
@@ -442,26 +557,26 @@ namespace FPS_n2 {
 		}
 		return Xsize;
 	}
-	void			ItemList::DrawWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int *xs, int* ys) noexcept {
-		auto* WindowMngr = WindowSystem::WindowManager::Instance();
+	void			ItemList::DrawWindow(WindowMySystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int *xs, int* ys) noexcept {
+		auto* WindowMngr = WindowMySystem::WindowManager::Instance();
 		auto* InterParts = InterruptParts::Instance();
-		int xofs = y_r(600) * 2;
-		int yofs = LineHeight + y_r(5);
+		int xofs = DXDraw::Instance()->GetUIY(600) * 2;
+		int yofs = LineHeight + DXDraw::Instance()->GetUIY(5);
 		int yofs2 = yofs;
 		if (GetIcon().GetGraph()) {
-			DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 64);
+			WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 64);
 			float Scale = 1.f;
 			float rad = 0.f;
-			DrawControl::Instance()->SetDrawRotaGraph(DrawLayer::Normal, GetIcon().GetGraph(),
+			WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, GetIcon().GetGraph(),
 				xp + (int)(((float)GetIcon().GetXSize() * std::cos(rad) + (float)GetIcon().GetYSize() * std::sin(rad)) / 2.f * Scale),
 				yp + LineHeight + GetIcon().GetYSize() / 2, Scale, rad, false);
-			DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255);
+			WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255);
 		}
 		{
 			//タスク
 			{
 				{
-					int xofsBuf = y_r(10);
+					int xofsBuf = DXDraw::Instance()->GetUIY(10);
 					int OLDyofs = yofs;
 					int yofsBuf = OLDyofs;
 					int count = 0;
@@ -482,14 +597,14 @@ namespace FPS_n2 {
 							for (const auto& w : tasks.GetTaskWorkData().GetFiR_Item()) {
 								if (w.GetID() == GetID()) {
 									if (count2 == 0) {
-										WindowSystem::SetMsg(xp + xofsBuf, yp + yofsBuf, xp + xofsBuf, yp + LineHeight + yofsBuf, LineHeight, STRX_LEFT, White, Black, "Firタスク納品:"); yofsBuf += LineHeight + y_r(5);
+										WindowSystem::SetMsg(xp + xofsBuf, yp + LineHeight / 2 + yofsBuf, LineHeight, STRX_LEFT, White, Black, "Firタスク納品:"); yofsBuf += LineHeight + DXDraw::Instance()->GetUIY(5);
 									}
 									if (count > 1 && (count / 2) <= count2) {
-										xofsBuf = y_r(600) + y_r(10);
+										xofsBuf = DXDraw::Instance()->GetUIY(600) + DXDraw::Instance()->GetUIY(10);
 										yofs = std::max(yofs, yofsBuf);
-										yofsBuf = OLDyofs + LineHeight + y_r(5);
+										yofsBuf = OLDyofs + LineHeight + DXDraw::Instance()->GetUIY(5);
 									}
-									tasks.Draw(xp + xofsBuf, yp + yofsBuf, y_r(600) - y_r(10) * 2, LineHeight, w.GetValue(), !WindowMngr->PosHitCheck(window)); yofsBuf += LineHeight + y_r(5);
+									tasks.Draw(xp + xofsBuf, yp + yofsBuf, DXDraw::Instance()->GetUIY(600) - DXDraw::Instance()->GetUIY(10) * 2, LineHeight, w.GetValue(), !WindowMngr->PosHitCheck(window)); yofsBuf += LineHeight + DXDraw::Instance()->GetUIY(5);
 									count2++;
 									break;
 								}
@@ -499,7 +614,7 @@ namespace FPS_n2 {
 					yofs = std::max(yofs, yofsBuf);
 				}
 				{
-					int xofsBuf = y_r(10);
+					int xofsBuf = DXDraw::Instance()->GetUIY(10);
 					int OLDyofs = yofs;
 					int yofsBuf = OLDyofs;
 					int count = 0;
@@ -520,14 +635,14 @@ namespace FPS_n2 {
 							for (const auto& w : tasks.GetTaskWorkData().GetNotFiR_Item()) {
 								if (w.GetID() == GetID()) {
 									if (count2 == 0) {
-										WindowSystem::SetMsg(xp + xofsBuf, yp + yofsBuf, xp + xofsBuf, yp + LineHeight + yofsBuf, LineHeight, STRX_LEFT, White, Black, "Firでないタスク納品:"); yofsBuf += LineHeight + y_r(5);
+										WindowSystem::SetMsg(xp + xofsBuf, yp + LineHeight / 2 + yofsBuf, LineHeight, STRX_LEFT, White, Black, "Firでないタスク納品:"); yofsBuf += LineHeight + DXDraw::Instance()->GetUIY(5);
 									}
 									if (count > 1 && (count / 2) <= count2) {
-										xofsBuf = y_r(600) + y_r(10);
+										xofsBuf = DXDraw::Instance()->GetUIY(600) + DXDraw::Instance()->GetUIY(10);
 										yofs = std::max(yofs, yofsBuf);
-										yofsBuf = OLDyofs + LineHeight + y_r(5);
+										yofsBuf = OLDyofs + LineHeight + DXDraw::Instance()->GetUIY(5);
 									}
-									tasks.Draw(xp + xofsBuf, yp + yofsBuf, y_r(600) - y_r(10) * 2, LineHeight, w.GetValue(), !WindowMngr->PosHitCheck(window)); yofsBuf += LineHeight + y_r(5);
+									tasks.Draw(xp + xofsBuf, yp + yofsBuf, DXDraw::Instance()->GetUIY(600) - DXDraw::Instance()->GetUIY(10) * 2, LineHeight, w.GetValue(), !WindowMngr->PosHitCheck(window)); yofsBuf += LineHeight + DXDraw::Instance()->GetUIY(5);
 									count2++;
 									break;
 								}
@@ -537,7 +652,7 @@ namespace FPS_n2 {
 					yofs = std::max(yofs, yofsBuf);
 				}
 				{
-					int xofsBuf = y_r(10);
+					int xofsBuf = DXDraw::Instance()->GetUIY(10);
 					int OLDyofs = yofs;
 					int yofsBuf = OLDyofs;
 					int count = 0;
@@ -598,14 +713,14 @@ namespace FPS_n2 {
 							for (const auto& w : tasks.GetTaskNeedData().GetItem()) {
 								if (w.GetID() == GetID()) {
 									if (count2 == 0) {
-										WindowSystem::SetMsg(xp + xofsBuf, yp + yofsBuf, xp + xofsBuf, yp + LineHeight + yofsBuf, LineHeight, STRX_LEFT, White, Black, "タスクに必要:"); yofsBuf += LineHeight + y_r(5);
+										WindowSystem::SetMsg(xp + xofsBuf, yp + LineHeight / 2 + yofsBuf, LineHeight, STRX_LEFT, White, Black, "タスクに必要:"); yofsBuf += LineHeight + DXDraw::Instance()->GetUIY(5);
 									}
 									if (count > 1 && (count / 2) <= count2) {
-										xofsBuf = y_r(600) + y_r(10);
+										xofsBuf = DXDraw::Instance()->GetUIY(600) + DXDraw::Instance()->GetUIY(10);
 										yofs = std::max(yofs, yofsBuf);
-										yofsBuf = OLDyofs + LineHeight + y_r(5);
+										yofsBuf = OLDyofs + LineHeight + DXDraw::Instance()->GetUIY(5);
 									}
-									tasks.Draw(xp + xofsBuf, yp + yofsBuf, y_r(600) - y_r(10) * 2, LineHeight, w.GetValue(), !WindowMngr->PosHitCheck(window)); yofsBuf += LineHeight + y_r(5);
+									tasks.Draw(xp + xofsBuf, yp + yofsBuf, DXDraw::Instance()->GetUIY(600) - DXDraw::Instance()->GetUIY(10) * 2, LineHeight, w.GetValue(), !WindowMngr->PosHitCheck(window)); yofsBuf += LineHeight + DXDraw::Instance()->GetUIY(5);
 									count2++;
 									break;
 								}
@@ -624,10 +739,11 @@ namespace FPS_n2 {
 							if (w.GetID() == GetID()) {
 								if (isFirst) {
 									isFirst = false;
-									xofs = std::max(xofs, WindowSystem::SetMsg(xp + y_r(10), yp + yofs, xp + y_r(10), yp + LineHeight + yofs, LineHeight, STRX_LEFT, White, Black,"ハイドアウト開放:")); yofs += LineHeight + y_r(5);
+									WindowSystem::SetMsg(xp + DXDraw::Instance()->GetUIY(10), yp + LineHeight/2 + yofs, LineHeight, STRX_LEFT, White, Black, "ハイドアウト開放:");
+									xofs = std::max(xofs, WindowSystem::GetMsgLen(LineHeight, "ハイドアウト開放:")); yofs += LineHeight + DXDraw::Instance()->GetUIY(5);
 								}
-								L.Draw(xp + y_r(10), yp + yofs, y_r(600) - y_r(10) * 2, LineHeight, (int)(&Ld - &L.GetLvData().front()) + 1, defaultcolor, !WindowMngr->PosHitCheck(window), w.GetValue());
-								yofs += LineHeight + y_r(5);
+								L.Draw(xp + DXDraw::Instance()->GetUIY(10), yp + yofs, DXDraw::Instance()->GetUIY(600) - DXDraw::Instance()->GetUIY(10) * 2, LineHeight, (int)(&Ld - &L.GetLvData().front()) + 1, defaultcolor, !WindowMngr->PosHitCheck(window), w.GetValue());
+								yofs += LineHeight + DXDraw::Instance()->GetUIY(5);
 								break;
 							}
 						}
@@ -661,10 +777,11 @@ namespace FPS_n2 {
 							if (isHit) {
 								if (isFirst) {
 									isFirst = false;
-									xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STRX_LEFT, White, Black, "ハイドアウトクラフト:")); yofs += LineHeight + y_r(5);
+									WindowSystem::SetMsg(xp, yp + LineHeight/2 + yofs, LineHeight, STRX_LEFT, White, Black, "ハイドアウトクラフト:");
+									xofs = std::max(xofs, WindowSystem::GetMsgLen(LineHeight, "ハイドアウトクラフト:")); yofs += LineHeight + DXDraw::Instance()->GetUIY(5);
 								}
-								xofs = std::max(xofs, L.DrawCraft(window, defaultcolor, xp, yp + yofs, y_r(64), Lv, (int)(&cf - &Ld.m_ItemCraft.front()), true, true, 0));
-								yofs += y_r(64);
+								xofs = std::max(xofs, L.DrawCraft(window, defaultcolor, xp, yp + yofs, DXDraw::Instance()->GetUIY(64), Lv, (int)(&cf - &Ld.m_ItemCraft.front()), true, true, 0));
+								yofs += DXDraw::Instance()->GetUIY(64);
 							}
 						}
 					}
@@ -697,10 +814,11 @@ namespace FPS_n2 {
 							if (isHit) {
 								if (isFirst) {
 									isFirst = false;
-									xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STRX_LEFT, White, Black, "トレーダー交換:")); yofs += LineHeight + y_r(5);
+									WindowSystem::SetMsg(xp, yp + LineHeight/2 + yofs, LineHeight, STRX_LEFT, White, Black, "トレーダー交換:");
+									xofs = std::max(xofs, WindowSystem::GetMsgLen(LineHeight, "トレーダー交換:")); yofs += LineHeight + DXDraw::Instance()->GetUIY(5);
 								}
-								xofs = std::max(xofs, L.DrawBarter(window, defaultcolor, xp, yp + yofs, y_r(64), Lv, (int)(&cf - &Ld.m_ItemBarters.front()), true, true, 0));
-								yofs += y_r(64);
+								xofs = std::max(xofs, L.DrawBarter(window, defaultcolor, xp, yp + yofs, DXDraw::Instance()->GetUIY(64), Lv, (int)(&cf - &Ld.m_ItemBarters.front()), true, true, 0));
+								yofs += DXDraw::Instance()->GetUIY(64);
 							}
 						}
 					}
@@ -708,21 +826,22 @@ namespace FPS_n2 {
 			}
 			//武器ならば
 			if (this->m_ItemsData.m_isWeapon) {
-				if (WindowSystem::ClickCheckBox(xp, yp + yofs, xp + y_r(800), yp + LineHeight + yofs, false, !WindowMngr->PosHitCheck(window), Green, "GotoPreset")) {
+				if (WindowSystem::SetMsgClickBox(xp, yp + yofs, xp + DXDraw::Instance()->GetUIY(800), yp + LineHeight + yofs, LineHeight, Green, false, !WindowMngr->PosHitCheck(window), "GotoPreset")) {
 					InterParts->GotoNext(BGSelect::Custom);
 					InterParts->SetInitParam(0, GetID());//武器ID
 					InterParts->SetInitParam(1, InvalidID);//プリセットID
 				}
-				yofs += LineHeight + y_r(5);
+				yofs += LineHeight + DXDraw::Instance()->GetUIY(5);
 			}
 			//プロパティ
 			this->m_ItemsData.m_properties.DrawInfo(xp, yp, &xofs, &yofs);
 			//
 			{
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp + y_r(10), yp + yofs, xp + y_r(10), yp + LineHeight + yofs, LineHeight, STRX_LEFT, White, Black, "説明:")); yofs += LineHeight + y_r(5);
+				WindowSystem::SetMsg(xp + DXDraw::Instance()->GetUIY(10), yp + LineHeight/2 + yofs, LineHeight, STRX_LEFT, White, Black, "説明:");
+				xofs = std::max(xofs, WindowSystem::GetMsgLen(LineHeight, "説明:")); yofs += LineHeight + DXDraw::Instance()->GetUIY(5);
 				int ysize = LineHeight * 6 / 10;
-				int ysizetotal = (int)DrawControl::Instance()->SetStringAutoFit(DrawLayer::Normal, FontPool::FontType::Nomal_Edge, ysize, xp + y_r(10), yp + yofs, xp + xofs - y_r(10), yp + yofs + ysize * 15,
-					White, Black, this->GetInformation_Jpn()); yofs += ysizetotal + y_r(5);
+				int ysizetotal = (int)WindowSystem::DrawControl::Instance()->SetStringAutoFit(WindowSystem::DrawLayer::Normal, FontPool::FontType::MS_Gothic, ysize, xp + DXDraw::Instance()->GetUIY(10), yp + yofs, xp + xofs - DXDraw::Instance()->GetUIY(10), yp + yofs + ysize * 15,
+					White, Black, this->GetInformation_Jpn()); yofs += ysizetotal + DXDraw::Instance()->GetUIY(5);
 			}
 			//
 			{
@@ -731,14 +850,15 @@ namespace FPS_n2 {
 					Max += (int)cp.GetData().size();
 				}
 				if (Max > 0) {
-					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STRX_LEFT, White, Black, "ChildrenMods:") + y_r(30)); yofs += LineHeight + y_r(5);
+					WindowSystem::SetMsg(xp, yp + LineHeight / 2 + yofs, LineHeight, STRX_LEFT, White, Black, "ChildrenMods:");
+					xofs = std::max(xofs, WindowSystem::GetMsgLen(LineHeight, "ChildrenMods:") + DXDraw::Instance()->GetUIY(30)); yofs += LineHeight + DXDraw::Instance()->GetUIY(5);
 
-					int ysize = y_r(36);
-					int ysizeAdd = ysize + y_r(5);
+					int ysize = DXDraw::Instance()->GetUIY(36);
+					int ysizeAdd = ysize + DXDraw::Instance()->GetUIY(5);
 
 					int ofset = (int)(this->m_Scroll.at(0).GetNowScrollYPer()*(std::max(0, Max - 4 + 1)*ysizeAdd));
 					int yofs_t = yofs;
-					yofs_t += LineHeight + y_r(5);
+					yofs_t += LineHeight + DXDraw::Instance()->GetUIY(5);
 					int ypMin = yp + yofs_t;
 					int ypMax = yp + yofs_t + ysizeAdd * 4;
 					int yp1 = yp + yofs_t - ofset;
@@ -746,80 +866,81 @@ namespace FPS_n2 {
 						for (const auto& c : cp.GetData()) {
 							if (ypMin - ysizeAdd < yp1 && yp1 < ypMax) {
 								if (ypMin < yp1 && yp1 < ypMax - ysizeAdd) {
-									DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255);
+									WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255);
 								}
 								else {
 									if (yp1 <= ypMin) {
-										DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255 - std::clamp(255 * (ypMin - yp1) / ysizeAdd, 0, 255));
+										WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255 - std::clamp(255 * (ypMin - yp1) / ysizeAdd, 0, 255));
 									}
 									else {
-										DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255 - std::clamp(255 * (yp1 - (ypMax - ysizeAdd)) / ysizeAdd, 0, 255));
+										WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255 - std::clamp(255 * (yp1 - (ypMax - ysizeAdd)) / ysizeAdd, 0, 255));
 									}
 								}
 								auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(c.GetID());
-								ptr->Draw(xp + y_r(30), yp1, y_r(800), ysize, 0, Gray25, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0)), false, true, false);
+								ptr->Draw(xp + DXDraw::Instance()->GetUIY(30), yp1, DXDraw::Instance()->GetUIY(800), ysize, 0, Gray25, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0)), false, true, false);
 							}
 							yofs_t += ysizeAdd;
 							yp1 += ysizeAdd;
 						}
 					}
-					DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255);
+					WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255);
 					//スクロールバー
 					{
 						float Total = (float)(yofs_t - yofs) / (ypMax - ypMin);
 						if (Total > 1.f) {
-							this->m_Scroll.at(0).ScrollBox(xp + y_r(30), ypMin, xp + y_r(30) + y_r(800) + y_r(30), ypMax, Total, !WindowMngr->PosHitCheck(window));
+							this->m_Scroll.at(0).ScrollBox(xp + DXDraw::Instance()->GetUIY(30), ypMin, xp + DXDraw::Instance()->GetUIY(30) + DXDraw::Instance()->GetUIY(800) + DXDraw::Instance()->GetUIY(30), ypMax, Total, !WindowMngr->PosHitCheck(window));
 						}
 					}
 					yofs = ypMax - yp;
 					//
-					yofs += LineHeight + y_r(5);
+					yofs += LineHeight + DXDraw::Instance()->GetUIY(5);
 				}
 			}
 			{
 				int Max = (int)this->m_ItemsData.m_ParentPartsID.size();
 				if (Max > 0) {
-					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STRX_LEFT, White, Black, "ParentMods:") + y_r(30)); yofs += LineHeight + y_r(5);
+					WindowSystem::SetMsg(xp, yp + LineHeight/2 + yofs, LineHeight, STRX_LEFT, White, Black, "ParentMods:");
+					xofs = std::max(xofs, WindowSystem::GetMsgLen(LineHeight, "ParentMods:") + DXDraw::Instance()->GetUIY(30)); yofs += LineHeight + DXDraw::Instance()->GetUIY(5);
 
-					int ysize = y_r(36);
-					int ysizeAdd = ysize + y_r(5);
+					int ysize = DXDraw::Instance()->GetUIY(36);
+					int ysizeAdd = ysize + DXDraw::Instance()->GetUIY(5);
 
 					int ofset = (int)(this->m_Scroll.at(1).GetNowScrollYPer()*(std::max(0, Max - 4 + 1)*ysizeAdd));
 					int yofs_t = yofs;
-					yofs_t += LineHeight + y_r(5);
+					yofs_t += LineHeight + DXDraw::Instance()->GetUIY(5);
 					int ypMin = yp + yofs_t;
 					int ypMax = yp + yofs_t + ysizeAdd * 4;
 					int yp1 = yp + yofs_t - ofset;
 					for (const auto& c : this->m_ItemsData.m_ParentPartsID) {
 						if (ypMin - ysizeAdd < yp1 && yp1 < ypMax) {
 							if (ypMin < yp1 && yp1 < ypMax - ysizeAdd) {
-								DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255);
+								WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255);
 							}
 							else {
 								if (yp1 <= ypMin) {
-									DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255 - std::clamp(255 * (ypMin - yp1) / ysizeAdd, 0, 255));
+									WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255 - std::clamp(255 * (ypMin - yp1) / ysizeAdd, 0, 255));
 								}
 								else {
-									DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255 - std::clamp(255 * (yp1 - (ypMax - ysizeAdd)) / ysizeAdd, 0, 255));
+									WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255 - std::clamp(255 * (yp1 - (ypMax - ysizeAdd)) / ysizeAdd, 0, 255));
 								}
 							}
 							auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(c);
-							ptr->Draw(xp + y_r(30), yp1, y_r(800), ysize, 0, Gray25, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0)), false, true, false);
+							ptr->Draw(xp + DXDraw::Instance()->GetUIY(30), yp1, DXDraw::Instance()->GetUIY(800), ysize, 0, Gray25, (!WindowMngr->PosHitCheck(window) && !(xp == 0 && yp == 0)), false, true, false);
 						}
 						yofs_t += ysizeAdd;
 						yp1 += ysizeAdd;
 					}
-					DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255);
+					WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255);
 					//スクロールバー
 					{
 						float Total = (float)(yofs_t - yofs) / (ypMax - ypMin);
 						if (Total > 1.f) {
-							this->m_Scroll.at(1).ScrollBox(xp + y_r(30), ypMin, xp + y_r(30) + y_r(800) + y_r(30), ypMax, Total, !WindowMngr->PosHitCheck(window));
+							this->m_Scroll.at(1).ScrollBox(xp + DXDraw::Instance()->GetUIY(30), ypMin, xp + DXDraw::Instance()->GetUIY(30) + DXDraw::Instance()->GetUIY(800) + DXDraw::Instance()->GetUIY(30), ypMax, Total, !WindowMngr->PosHitCheck(window));
 						}
 					}
 					yofs = ypMax - yp;
 					//
-					yofs += LineHeight + y_r(5);
+					yofs += LineHeight + DXDraw::Instance()->GetUIY(5);
 				}
 			}
 			//

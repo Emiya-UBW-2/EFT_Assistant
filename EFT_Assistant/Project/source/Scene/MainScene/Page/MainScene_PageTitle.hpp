@@ -12,14 +12,13 @@ namespace FPS_n2 {
 		std::string	m_InfoStr;
 		int			m_CoolTimeCount{ -1 };
 	private:
-		const auto CanUpdateData() { return m_CoolTimeCount == -1; }
+		const auto CanUpdateData() const noexcept { return m_CoolTimeCount == -1; }
 		void DrawOnce(int xpos1, int ypos1, int xpos2, int ypos2, const char* Name, const char* Info, BGSelect SelWindow) noexcept {
 			auto* PageMngr = PageManager::Instance();
-			auto* Input = InputControl::Instance();
-			if (in2_(Input->GetMouseX(), Input->GetMouseY(), xpos1, ypos1, xpos2, ypos2)) {
+			if (IntoMouse(xpos1, ypos1, xpos2, ypos2)) {
 				m_InfoStr = Info;
 			}
-			if (WindowSystem::ClickCheckBox(xpos1, ypos1, xpos2, ypos2, false, true, Gray25, Name)) {
+			if (WindowSystem::SetMsgClickBox(xpos1, ypos1, xpos2, ypos2, ypos2 - ypos1, Gray25, false, true, Name)) {
 				m_Select = SelWindow;
 				PageMngr->TurnOnGoNextPage();
 			}

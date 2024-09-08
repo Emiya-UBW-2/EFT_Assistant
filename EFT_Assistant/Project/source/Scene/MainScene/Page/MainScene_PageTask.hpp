@@ -24,7 +24,7 @@ namespace FPS_n2 {
 	private:
 		int															m_posxMaxBuffer{ 0 };
 		int															m_posyMaxBuffer{ 0 };
-		std::vector<Rect2D>											m_TaskRect;
+		std::vector<WindowSystem::Rect2D>							m_TaskRect;
 		struct LinePos {
 			TaskID	m_ID{ InvalidID };
 			int		m_XPos{ 0 };
@@ -40,7 +40,7 @@ namespace FPS_n2 {
 		std::vector<TaskID>											m_Drawed;
 		EnumTaskDrawMode											m_Mode{ EnumTaskDrawMode::Normal };
 
-		WindowSystem::ScrollBoxClass	m_Scroll;
+		WindowMySystem::ScrollBoxClass	m_Scroll;
 		float							m_YNow{ 0.f };
 
 		bool							m_DrawClearTask{ true };

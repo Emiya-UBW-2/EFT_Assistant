@@ -11,7 +11,7 @@ namespace FPS_n2 {
 			std::vector<ItemGetData>					m_ItemReq;
 			std::vector<ItemGetData>					m_ItemReward;
 			//ソート用のバッファー
-			int sortbuffer;
+			int sortbuffer{ 0 };
 		};
 		//開放データ
 		int											constructionTime{ 0 };
@@ -37,11 +37,11 @@ namespace FPS_n2 {
 		const auto&	GetLvData() const noexcept { return this->m_LvData; }
 	public:
 		const int		Draw(int xp, int yp, int xsize, int ysize, int Lv, unsigned int defaultcolor, bool Clickactive, int count) noexcept;
-		void			DrawUnlockWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int Lv, int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept;
-		void			DrawCraftWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int Lv, int xp, int yp, int *xs = nullptr, int* ys = nullptr, int size = 10) noexcept;
+		void			DrawUnlockWindow(WindowMySystem::WindowControl* window, unsigned int defaultcolor, int Lv, int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept;
+		void			DrawCraftWindow(WindowMySystem::WindowControl* window, unsigned int defaultcolor, int Lv, int xp, int yp, int *xs = nullptr, int* ys = nullptr, int size = 10) noexcept;
 		void			SetOtherPartsID() noexcept;
 
-		const int		DrawCraft(WindowSystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int ysize, int Lv, int Select, bool isdrawName, bool isdrawAfter, int count) const noexcept;
+		const int		DrawCraft(WindowMySystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int ysize, int Lv, int Select, bool isdrawName, bool isdrawAfter, int count) const noexcept;
 	};
 	//
 	class HideoutJsonData :public JsonDataParent {

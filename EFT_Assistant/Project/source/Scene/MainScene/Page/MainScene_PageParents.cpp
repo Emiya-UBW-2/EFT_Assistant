@@ -7,7 +7,7 @@ namespace FPS_n2 {
 		auto& NowSel = this->m_ItemIDs.at(Layer);
 		NowSel.second = ((ListsSel(Layer) != InvalidID) && AndNext);
 		if (Layer == 0 || (Layer >= 1 && this->m_ItemIDs.at(Layer - 1).second)) {
-			int xsize = (m_ListXSize != 0) ? m_ListXSize : y_r(400);
+			int xsize = (m_ListXSize != 0) ? m_ListXSize : DXDraw::Instance()->GetUIY(400);
 			ListSet(&NowSel, (Layer >= 1), m_ListXPos - (int)m_XChild, m_ListYPos, xsize);
 			return (Layer >= 1);
 		}
@@ -38,7 +38,7 @@ namespace FPS_n2 {
 		}
 	}
 	void ListControl::ExecuteLists(bool isChild, int xgoal) noexcept {
-		int xs_add = m_ListXSize + y_r(50);
+		int xs_add = m_ListXSize + DXDraw::Instance()->GetUIY(50);
 		if (isChild) {
 			xgoal += xs_add / 2;
 		}
@@ -46,8 +46,8 @@ namespace FPS_n2 {
 	}
 
 	void PageParent::Init(int *posx, int *posy, float* Scale) noexcept {
-		*posx = y_r(50);
-		*posy = LineHeight + y_r(50);
+		*posx = DXDraw::Instance()->GetUIY(50);
+		*posy = LineHeight + DXDraw::Instance()->GetUIY(50);
 		*Scale = 0.8f;
 		m_ReturnButtonPress = [&]() {
 			auto* PageMngr = PageManager::Instance();

@@ -87,7 +87,7 @@ namespace FPS_n2 {
 			};
 			class TaskPin {
 			public:
-				VECTOR_ref	m_Point;
+				Vector3DX	m_Point;
 				MapID		m_MapID{ InvalidID };
 				int			m_MapSel{ 0 };
 
@@ -145,7 +145,7 @@ namespace FPS_n2 {
 		TaskWorkData				m_TaskWorkData;
 		TaskRewardData				m_TaskRewardData;
 
-		std::array<WindowSystem::ScrollBoxClass, 2>				m_Scroll;
+		std::array<WindowMySystem::ScrollBoxClass, 2>				m_Scroll;
 	public:
 		const auto&		GetfactionName() const noexcept { return this->m_TaskNeedData.GetfactionName(); }
 		const auto&		GetTrader() const noexcept { return this->m_TaskNeedData.GetTrader(); }
@@ -204,7 +204,7 @@ namespace FPS_n2 {
 
 		void			SetNeedTasktoID() noexcept { this->m_TaskNeedData.SetNeedTasktoID(); }
 		const int		Draw(int xp, int yp, int xsize, int ysize, int count, bool Clickactive) noexcept;
-		void			DrawWindow(WindowSystem::WindowControl* window, int xp, int yp, int *xs = nullptr, int* ys = nullptr) noexcept;
+		void			DrawWindow(WindowMySystem::WindowControl* window, int xp, int yp, int *xs = nullptr, int* ys = nullptr) noexcept;
 	};
 
 	class TaskJsonData :public JsonDataParent {

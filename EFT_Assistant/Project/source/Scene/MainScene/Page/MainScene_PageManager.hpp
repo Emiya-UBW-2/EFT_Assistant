@@ -12,6 +12,9 @@ namespace FPS_n2 {
 		int															m_posy{ 0 };
 		float														m_Scale{ 0.6f };
 		bool														m_IsGoNextPage{ false };
+
+		bool					m_ScaleActive{ true };
+
 	private:
 		PageManager(void)noexcept;
 		~PageManager(void)noexcept;
@@ -19,6 +22,9 @@ namespace FPS_n2 {
 		auto& GetPage(BGSelect value) noexcept { return this->m_PagePtr.at((int)value); }
 		void TurnOnGoNextPage() noexcept { this->m_IsGoNextPage = true; }
 		void ChangePage(BGSelect Select) noexcept;
+
+		const auto&		GetScaleActive(void) const noexcept { return this->m_ScaleActive; }
+		void			SetScaleActive(bool value) noexcept { this->m_ScaleActive = value; }
 	public:
 		void Init() noexcept;
 		void FirstExecute() noexcept;

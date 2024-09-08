@@ -92,8 +92,8 @@ namespace FPS_n2 {
 
 		std::string strSJis(bufShiftJis);
 
-		delete bufUnicode;
-		delete bufShiftJis;
+		delete[] bufUnicode;
+		delete[] bufShiftJis;
 
 		return strSJis;
 	}

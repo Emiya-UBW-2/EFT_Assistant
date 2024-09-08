@@ -28,8 +28,8 @@ namespace FPS_n2 {
 		case EnumHideoutDrawMode::Normal:
 			break;
 		case EnumHideoutDrawMode::Item:
-			*xpos = std::min(*xpos, y_r(50));
-			*ypos = LineHeight + y_r(50);
+			*xpos = std::min(*xpos, DXDraw::Instance()->GetUIY(50));
+			*ypos = LineHeight + DXDraw::Instance()->GetUIY(50);
 			break;
 		default:
 			break;
@@ -37,15 +37,15 @@ namespace FPS_n2 {
 	}
 
 	bool HideOutBG::DrawHideoutList(HideoutID MyID, int MyLv, int xpos, int* ypos, int xsize, int ysize) noexcept {
-		auto* WindowMngr = WindowSystem::WindowManager::Instance();
-		auto* Input = InputControl::Instance();
+		auto* WindowMngr = WindowMySystem::WindowManager::Instance();
+		auto* Pad = PadControl::Instance();
 
 		int index = MyLv - 1;
 		auto IdDrew = std::find_if(isDrew.begin(), isDrew.end(), [&](const auto& tgt) {return tgt.first == MyID; });
 		if (IdDrew == isDrew.end()) { return false; }
 		if (IdDrew->second.at(index).IsDrew) { return false; }
 		if (MyLv >= 2) {//2以上の時は同施設の前レベが描画されるまで待つ
-			if (!IdDrew->second.at(index - 1).IsDrew) { return false; }
+			if (!IdDrew->second.at(static_cast<size_t>(index - 1)).IsDrew) { return false; }
 		}
 		IdDrew->second.at(index).IsDrew = true;
 		IdDrew->second.at(index).xpos = xpos;
@@ -55,16 +55,16 @@ namespace FPS_n2 {
 		for (auto& P : L.GetLvData().at(index).m_Parent) {
 			auto IdDrewParent = std::find_if(isDrew.begin(), isDrew.end(), [&](const auto& tgt) {return tgt.first == P.GetID(); });
 			if (IdDrewParent != isDrew.end()) {
-				auto& Parent = IdDrewParent->second.at(P.GetValue() - 1);
+				auto& Parent = IdDrewParent->second.at(static_cast<size_t>(P.GetValue() - 1));
 				if (Parent.IsDrew) {
-					xpos = std::max(xpos, Parent.xpos + xsize + y_r(100));
+					xpos = std::max(xpos, Parent.xpos + xsize + DXDraw::Instance()->GetUIY(100));
 				}
 			}
 		}
 		for (auto& P : L.GetLvData().at(index).m_Parent) {
 			auto IdDrewParent = std::find_if(isDrew.begin(), isDrew.end(), [&](const auto& tgt) {return tgt.first == P.GetID(); });
 			if (IdDrewParent != isDrew.end()) {
-				auto& Parent = IdDrewParent->second.at(P.GetValue() - 1);
+				auto& Parent = IdDrewParent->second.at(static_cast<size_t>(P.GetValue() - 1));
 				if (Parent.IsDrew) {
 					int start_x = Parent.xpos + xsize;
 					int start_y = Parent.ypos + ysize / 2;
@@ -73,16 +73,16 @@ namespace FPS_n2 {
 					int end_y = *ypos + ysize / 2;
 
 					float Scale = 1.f;//仮
-					auto XAddLine = (int)((float)y_r(25) * Scale);
+					auto XAddLine = (int)((float)DXDraw::Instance()->GetUIY(25) * Scale);
 					if (Scale > 0.6f) {
-						DrawControl::Instance()->SetDrawLine(DrawLayer::Back, start_x, start_y, start_x + XAddLine, start_y, Black, (int)(15.f * Scale));
-						DrawControl::Instance()->SetDrawLine(DrawLayer::Back, start_x + XAddLine, start_y, end_x - XAddLine, end_y, Black, (int)(15.f * Scale));
-						DrawControl::Instance()->SetDrawLine(DrawLayer::Back, end_x - XAddLine, end_y, end_x, end_y, Black, (int)(15.f * Scale));
+						WindowSystem::DrawControl::Instance()->SetDrawLine(WindowSystem::DrawLayer::Back, start_x, start_y, start_x + XAddLine, start_y, Black, (int)(15.f * Scale));
+						WindowSystem::DrawControl::Instance()->SetDrawLine(WindowSystem::DrawLayer::Back, start_x + XAddLine, start_y, end_x - XAddLine, end_y, Black, (int)(15.f * Scale));
+						WindowSystem::DrawControl::Instance()->SetDrawLine(WindowSystem::DrawLayer::Back, end_x - XAddLine, end_y, end_x, end_y, Black, (int)(15.f * Scale));
 					}
 					int Col = GetColor(255, DrawLineCount % 256, DrawLineCount % 256);
-					DrawControl::Instance()->SetDrawLine(DrawLayer::Back2, start_x, start_y, start_x + XAddLine, start_y, Col, (int)(5.f * Scale));
-					DrawControl::Instance()->SetDrawLine(DrawLayer::Back2, start_x + XAddLine, start_y, end_x - XAddLine, end_y, Col, (int)(5.f * Scale));
-					DrawControl::Instance()->SetDrawLine(DrawLayer::Back2, end_x - XAddLine, end_y, end_x, end_y, Col, (int)(5.f * Scale));
+					WindowSystem::DrawControl::Instance()->SetDrawLine(WindowSystem::DrawLayer::Back2, start_x, start_y, start_x + XAddLine, start_y, Col, (int)(5.f * Scale));
+					WindowSystem::DrawControl::Instance()->SetDrawLine(WindowSystem::DrawLayer::Back2, start_x + XAddLine, start_y, end_x - XAddLine, end_y, Col, (int)(5.f * Scale));
+					WindowSystem::DrawControl::Instance()->SetDrawLine(WindowSystem::DrawLayer::Back2, end_x - XAddLine, end_y, end_x, end_y, Col, (int)(5.f * Scale));
 				}
 			}
 		}
@@ -92,30 +92,32 @@ namespace FPS_n2 {
 		if (PlayerData::Instance()->GetHideoutClear(L.GetName().c_str(), MyLv)) {
 			color = Gray50;
 		}
-		if (WindowSystem::ClickCheckBox(xpos, *ypos, xpos + xsize, *ypos + ysize, false, !WindowMngr->PosHitCheck(nullptr), color, "")) {
-			if (Input->GetSpaceKey().press()) {
+		if (WindowSystem::SetMsgClickBox(xpos, *ypos, xpos + xsize, *ypos + ysize, ysize, color, false, !WindowMngr->PosHitCheck(nullptr),  "")) {
+			if (Pad->GetKey(PADS::JUMP).press()) {
 				PlayerData::Instance()->OnOffHideoutClear(L.GetName().c_str(), MyLv);
 			}
 		}
-		L.Draw(xpos, *ypos, xsize, ysize, MyLv, color, !Input->GetSpaceKey().press() && !WindowMngr->PosHitCheck(nullptr), 0);
+		L.Draw(xpos, *ypos, xsize, ysize, MyLv, color, !Pad->GetKey(PADS::JUMP).press() && !WindowMngr->PosHitCheck(nullptr), 0);
 		if (PlayerData::Instance()->GetHideoutClear(L.GetName().c_str(), MyLv)) {
-			DrawControl::Instance()->SetDrawRotaFiR(DrawLayer::Normal, xpos + xsize / 2, *ypos + ysize / 2, 1.f, 0.f, true);
+			if (DrawGraphs::Instance()->GetFirGraph().GetGraph()) {
+				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetFirGraph().GetGraph(), xpos + xsize / 2, *ypos + ysize / 2, 1.f, 0.f, true);
+			}
 		}
 
 		for (auto& C : L.GetLvData().at(index).m_Child) {
 			int TmpYPos = *ypos;
-			if (DrawHideoutList(C.GetID(), C.GetValue(), xpos + xsize + y_r(100), &TmpYPos, xsize, ysize)) {
-				*ypos += ysize + y_r(10);
+			if (DrawHideoutList(C.GetID(), C.GetValue(), xpos + xsize + DXDraw::Instance()->GetUIY(100), &TmpYPos, xsize, ysize)) {
+				*ypos += ysize + DXDraw::Instance()->GetUIY(10);
 			}
 		}
 		return true;
 	}
 
 	void HideOutBG::Draw_Back_Sub(int xpos, int ypos, float) noexcept {
-		auto* WindowMngr = WindowSystem::WindowManager::Instance();
-		auto* Input = InputControl::Instance();
+		auto* WindowMngr = WindowMySystem::WindowManager::Instance();
+		auto* PageMngr = PageManager::Instance();
 
-		Input->SetScaleActive(false);
+		PageMngr->SetScaleActive(false);
 
 		switch (m_Mode) {
 		case EnumHideoutDrawMode::Normal:
@@ -124,13 +126,13 @@ namespace FPS_n2 {
 			DrawLineCount = 0;
 
 			int xp = xpos, yp = ypos;
-			int xs = y_r(300), ys = LineHeight;
+			int xs = DXDraw::Instance()->GetUIY(300), ys = LineHeight;
 			for (const auto&L : DataBase::Instance()->GetHideoutData()->GetList()) {
 				for (const auto& C : L.GetLvData()) {
 					int Lv = (int)(&C - &L.GetLvData().front()) + 1;
 					if (C.m_Parent.size() == 0) {
 						DrawHideoutList(L.GetID(), Lv, xp, &yp, xs, ys);
-						yp += y_r(130);
+						yp += DXDraw::Instance()->GetUIY(130);
 					}
 				}
 			}
@@ -168,10 +170,10 @@ namespace FPS_n2 {
 				int ypBase = ypos;
 				int xp = xpBase;
 				int yp = ypBase;
-				int xsize = (y_r(360));
-				int ysize = (y_r(32));
-				int xsizeAdd = xsize + y_r(5);
-				int ysizeAdd = ysize + y_r(5);
+				int xsize = (DXDraw::Instance()->GetUIY(360));
+				int ysize = (DXDraw::Instance()->GetUIY(32));
+				int xsizeAdd = xsize + DXDraw::Instance()->GetUIY(5);
+				int ysizeAdd = ysize + DXDraw::Instance()->GetUIY(5);
 
 				for (auto& Cat : DataBase::Instance()->GetItemCategoryData()->GetList()) {
 					bool IsHit = false;
@@ -181,7 +183,7 @@ namespace FPS_n2 {
 							for (auto& c : Types) {
 								auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(c.first);
 								if (ptr) {
-									if (yp >= (y_r(1080) - y_r(50))) {
+									if (yp >= (DXDraw::Instance()->GetUIY(1080) - DXDraw::Instance()->GetUIY(50))) {
 										xp += xsizeAdd;
 										yp = ypBase;
 									}
@@ -207,30 +209,30 @@ namespace FPS_n2 {
 
 	}
 	void HideOutBG::DrawFront_Sub(int, int, float) noexcept {
-		auto* Input = InputControl::Instance();
+		auto* Pad = PadControl::Instance();
 		//
 		{
-			int xp = y_r(10) + y_r(200) + y_r(10);
-			int yp = LineHeight + y_r(10);
-			if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(400), yp + LineHeight, false, this->m_Mode != EnumHideoutDrawMode::Item, (m_Mode != EnumHideoutDrawMode::Item) ? Gray25 : Green, "開放アイテム")) {
+			int xp = DXDraw::Instance()->GetUIY(10) + DXDraw::Instance()->GetUIY(200) + DXDraw::Instance()->GetUIY(10);
+			int yp = LineHeight + DXDraw::Instance()->GetUIY(10);
+			if (WindowSystem::SetMsgClickBox(xp, yp, xp + DXDraw::Instance()->GetUIY(400), yp + LineHeight, LineHeight, (m_Mode != EnumHideoutDrawMode::Item) ? Gray25 : Green, false, this->m_Mode != EnumHideoutDrawMode::Item, "開放アイテム")) {
 				m_Mode = EnumHideoutDrawMode::Item;
 			}
 		}
 		//
 		if (m_Mode == EnumHideoutDrawMode::Normal) {
 			int yofs = 0;
-			if (!Input->GetSpaceKey().press()) {
-				DrawControl::Instance()->SetString(DrawLayer::Front,
-					FontPool::FontType::Nomal_Edge, LineHeight,
-					STRX_RIGHT, STRY_BOTTOM, Input->GetMouseX(), Input->GetMouseY() + yofs, RedPop, Black,
+			if (!Pad->GetKey(PADS::JUMP).press()) {
+				WindowSystem::DrawControl::Instance()->SetString(WindowSystem::DrawLayer::Front,
+					FontPool::FontType::MS_Gothic, LineHeight,
+					STRX_RIGHT, STRY_BOTTOM, Pad->GetMS_X(), Pad->GetMS_Y() + yofs, RedPop, Black,
 					"スペースを押しながらクリックでタスククリア"
 				);
 				yofs -= LineHeight;
 			}
-			if (!Input->GetCtrlKey().press()) {
-				DrawControl::Instance()->SetString(DrawLayer::Front,
-					FontPool::FontType::Nomal_Edge, LineHeight,
-					STRX_RIGHT, STRY_BOTTOM, Input->GetMouseX(), Input->GetMouseY() + yofs, RedPop, Black,
+			if (!Pad->GetKey(PADS::WALK).press()) {
+				WindowSystem::DrawControl::Instance()->SetString(WindowSystem::DrawLayer::Front,
+					FontPool::FontType::MS_Gothic, LineHeight,
+					STRX_RIGHT, STRY_BOTTOM, Pad->GetMS_X(), Pad->GetMS_Y() + yofs, RedPop, Black,
 					"LCtrl中に施設クリックでアンロック条件を表示"
 				);
 				yofs -= LineHeight;

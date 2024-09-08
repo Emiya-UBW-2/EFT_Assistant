@@ -20,41 +20,43 @@ namespace FPS_n2 {
 		}
 
 	}
-	const int		TraderList::DrawBarter(WindowSystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int ysize, int Lv, int Select, bool isdrawName, bool isdrawAfter, int count) const noexcept {
-		auto* WindowMngr = WindowSystem::WindowManager::Instance();
+	const int		TraderList::DrawBarter(WindowMySystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int ysize, int Lv, int Select, bool isdrawName, bool isdrawAfter, int count) const noexcept {
+		auto* WindowMngr = WindowMySystem::WindowManager::Instance();
 		const auto& cf = this->m_LvData.at(Lv - 1).m_ItemBarters.at(Select);
-		int xofsbuf = y_r(10);
-		int xofsbuf2 = y_r(10);
+		int xofsbuf = DXDraw::Instance()->GetUIY(10);
+		int xofsbuf2 = DXDraw::Instance()->GetUIY(10);
 		int yofsbuf = 0;
 		int xsize2 = isdrawName ? (ysize / 2) : ysize;
-		int ysize2 = isdrawName ? (ysize / 2 - y_r(3)) : ysize;
+		int ysize2 = isdrawName ? (ysize / 2 - DXDraw::Instance()->GetUIY(3)) : ysize;
 		if (isdrawName) {
 			std::string Name = this->GetName() + " Lv" + std::to_string(Lv);
 			if (count > 1) {
 				Name += " x" + std::to_string(count);
 			}
-			xofsbuf2 = WindowSystem::SetMsg(xp + xofsbuf, yp + yofsbuf, xp + xofsbuf, yp + yofsbuf + ysize2, ysize2, STRX_LEFT, White, Black, Name) + y_r(30);
+			WindowSystem::SetMsg(xp + xofsbuf, yp + yofsbuf + ysize2 / 2, ysize2, STRX_LEFT, White, Black, Name);
+			xofsbuf2 = WindowSystem::GetMsgLen(ysize2, Name) + DXDraw::Instance()->GetUIY(30);
 			for (const auto& w : cf.m_TaskReq) {
 				auto* ptr = DataBase::Instance()->GetTaskData()->FindPtr(w.GetID());
 				if (ptr) {
-					xofsbuf2 += ptr->Draw(xp + xofsbuf2, yp + yofsbuf, xsize2 * 10, ysize2, 0, !WindowMngr->PosHitCheck(window)) + y_r(5);
+					xofsbuf2 += ptr->Draw(xp + xofsbuf2, yp + yofsbuf, xsize2 * 10, ysize2, 0, !WindowMngr->PosHitCheck(window)) + DXDraw::Instance()->GetUIY(5);
 				}
 			}
-			yofsbuf += ysize2 + y_r(5);
+			yofsbuf += ysize2 + DXDraw::Instance()->GetUIY(5);
 		}
 		for (const auto& w : cf.m_ItemReq) {
 			auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(w.GetID());
 			if (ptr) {
-				xofsbuf += ptr->Draw(xp + xofsbuf, yp + yofsbuf, xsize2, ysize2, w.GetValue()*std::max(1, count), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true) + y_r(5);
+				xofsbuf += ptr->Draw(xp + xofsbuf, yp + yofsbuf, xsize2, ysize2, w.GetValue()*std::max(1, count), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true) + DXDraw::Instance()->GetUIY(5);
 			}
 		}
 		if (isdrawAfter) {
 			xofsbuf = std::max(xofsbuf, xsize2 * 10);
-			xofsbuf += WindowSystem::SetMsg(xp + xofsbuf, yp, xp + 0, yp + ysize, (ysize / 2 - y_r(3)), STRX_LEFT, White, Black, "->") + y_r(30);
+			WindowSystem::SetMsg(xp + xofsbuf/2, yp + ysize/2, (ysize / 2 - DXDraw::Instance()->GetUIY(3)), STRX_LEFT, White, Black, "->");
+			xofsbuf += WindowSystem::GetMsgLen((ysize / 2 - DXDraw::Instance()->GetUIY(3)), "->") + DXDraw::Instance()->GetUIY(30);
 			for (const auto& w : cf.m_ItemReward) {
 				auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(w.GetID());
 				if (ptr) {
-					xofsbuf += ptr->Draw(xp + xofsbuf, yp + yofsbuf, xsize2, ysize2, w.GetValue()*std::max(1, count), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true) + y_r(5);
+					xofsbuf += ptr->Draw(xp + xofsbuf, yp + yofsbuf, xsize2, ysize2, w.GetValue() * std::max(1, count), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true) + DXDraw::Instance()->GetUIY(5);
 				}
 			}
 		}
@@ -62,7 +64,7 @@ namespace FPS_n2 {
 			for (const auto& w : cf.m_TaskReq) {
 				auto* ptr = DataBase::Instance()->GetTaskData()->FindPtr(w.GetID());
 				if (ptr) {
-					xofsbuf += ptr->Draw(xp + xofsbuf, yp + yofsbuf, xsize2 * 10, ysize2, 0, !WindowMngr->PosHitCheck(window)) + y_r(5);
+					xofsbuf += ptr->Draw(xp + xofsbuf, yp + yofsbuf, xsize2 * 10, ysize2, 0, !WindowMngr->PosHitCheck(window)) + DXDraw::Instance()->GetUIY(5);
 				}
 			}
 		}

@@ -31,9 +31,9 @@ namespace FPS_n2 {
 		std::function<void()>					m_ReturnButtonPress;
 	private:
 		void DrawReturnButton() noexcept {
-			int xp = y_r(10);
-			int yp = LineHeight + y_r(10);
-			if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(200), yp + LineHeight, false, true, Gray25, "–ß‚é")) {
+			int xp = DXDraw::Instance()->GetUIY(10);
+			int yp = LineHeight + DXDraw::Instance()->GetUIY(10);
+			if (WindowSystem::SetMsgClickBox(xp, yp, xp + DXDraw::Instance()->GetUIY(200), yp + LineHeight, LineHeight, Gray25, false, true, "–ß‚é")) {
 				if (m_ReturnButtonPress) {
 					m_ReturnButtonPress();
 				}

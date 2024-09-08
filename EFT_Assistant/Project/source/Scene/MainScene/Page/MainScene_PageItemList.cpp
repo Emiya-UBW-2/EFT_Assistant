@@ -186,15 +186,16 @@ namespace FPS_n2 {
 	}
 
 	void ItemListBG::DrawTab(int xp, int yp, std::string_view Info) noexcept {
-		xp -= y_r(64 + 4);
-		auto size = WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_RIGHT, White, Black, Info);
-		DrawControl::Instance()->SetDrawLine(DrawLayer::Normal, xp - size, yp + LineHeight, xp + y_r(64), yp + LineHeight, Gray25, y_r(4));
+		xp -= DXDraw::Instance()->GetUIY(64 + 4);
+		auto size = WindowSystem::GetMsgLen(LineHeight, Info);
+		WindowSystem::SetMsg(xp, yp + LineHeight / 2, LineHeight, STRX_RIGHT, White, Black, Info);
+		WindowSystem::DrawControl::Instance()->SetDrawLine(WindowSystem::DrawLayer::Normal, xp - size, yp + LineHeight, xp + DXDraw::Instance()->GetUIY(64), yp + LineHeight, Gray25, DXDraw::Instance()->GetUIY(4));
 	}
 	void ItemListBG::DrawCheckBox(int xp, int yp, std::string_view Info, bool* Check) noexcept {
-		xp -= y_r(64 + 4);
+		xp -= DXDraw::Instance()->GetUIY(64 + 4);
 		auto OLD = *Check;
-		WindowSystem::CheckBox(xp, yp, Check);
-		WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_RIGHT, White, Black, Info);
+		*Check = WindowSystem::CheckBox(xp, yp, *Check);
+		WindowSystem::SetMsg(xp, yp + LineHeight / 2, LineHeight, STRX_RIGHT, White, Black, Info);
 		if (OLD != *Check) {
 			m_IsListChange = true;
 		}
@@ -206,12 +207,12 @@ namespace FPS_n2 {
 		m_SearchBox.Init();
 	}
 	void ItemListBG::Draw_Back_Sub(int, int, float) noexcept {
-		auto* WindowMngr = WindowSystem::WindowManager::Instance();
+		auto* WindowMngr = WindowMySystem::WindowManager::Instance();
 		//auto* DrawParts = DXDraw::Instance();
-		//auto* Input = InputControl::Instance();
+		//auto* Pad = PadControl::Instance();
 
-		int xpos = y_r(50);
-		int ypos = LineHeight + y_r(10) + LineHeight + y_r(10);
+		int xpos = DXDraw::Instance()->GetUIY(50);
+		int ypos = LineHeight + DXDraw::Instance()->GetUIY(10) + LineHeight + DXDraw::Instance()->GetUIY(10);
 		{
 			if (m_IsListChange) {
 				SetItemList();
@@ -223,11 +224,11 @@ namespace FPS_n2 {
 				int ypBase = ypos - (int)m_YNow;
 				int xp = xpBase;
 				int yp = ypBase;
-				int ypMax = (y_r(1080) - y_r(20));
-				int xsize = (y_r(600));
-				int ysize = (y_r(64));
-				int xsizeAdd = xsize + y_r(30);
-				int ysizeAdd = ysize + y_r(5);
+				int ypMax = (DXDraw::Instance()->GetUIY(1080) - DXDraw::Instance()->GetUIY(20));
+				int xsize = (DXDraw::Instance()->GetUIY(600));
+				int ysize = (DXDraw::Instance()->GetUIY(64));
+				int xsizeAdd = xsize + DXDraw::Instance()->GetUIY(30);
+				int ysizeAdd = ysize + DXDraw::Instance()->GetUIY(5);
 				for (auto& Cat : DataBase::Instance()->GetItemCategoryData()->GetList()) {
 					bool IsHit = false;
 					for (auto& Type : DataBase::Instance()->GetItemTypeData()->GetList()) {
@@ -243,13 +244,13 @@ namespace FPS_n2 {
 									//
 									if (ypos - ysizeAdd < yp && yp < ypMax) {
 										if (ypos - 1 < yp && yp < ypMax - ysizeAdd + 1) {
-											DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255);
+											WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255);
 											ptr->Draw(xp, yp, xsize, ysize, (c.count >= 2) ? c.count : 0, Gray15, !WindowMngr->PosHitCheck(nullptr), c.isFir, false, false);
 											//サイド描画
-											int xp2 = xp + xsizeAdd + y_r(10);
+											int xp2 = xp + xsizeAdd + DXDraw::Instance()->GetUIY(10);
 											int yp2 = yp;
 											int xsize2 = ysize / 2;
-											int ysize2 = ysize / 2 - y_r(3);
+											int ysize2 = ysize / 2 - DXDraw::Instance()->GetUIY(3);
 											//ハイドアウトクラフト
 											if (m_IsCheckCraft) {
 												for (const auto&L : DataBase::Instance()->GetHideoutData()->GetList()) {
@@ -266,7 +267,7 @@ namespace FPS_n2 {
 															for (const auto& I : cf.m_ItemReward) {
 																int craftcount = std::max(1, c.count / I.GetValue());
 																if (I.GetID() == c.m_ID) {
-																	xp2 += L.DrawCraft(nullptr, Gray15, xp2, yp2, y_r(64), Lv, (int)(&cf - &Ld.m_ItemCraft.front()), true, false, craftcount) + y_r(10);
+																	xp2 += L.DrawCraft(nullptr, Gray15, xp2, yp2, DXDraw::Instance()->GetUIY(64), Lv, (int)(&cf - &Ld.m_ItemCraft.front()), true, false, craftcount) + DXDraw::Instance()->GetUIY(10);
 																	break;
 																}
 															}
@@ -285,18 +286,19 @@ namespace FPS_n2 {
 																int craftcount = std::max(1, c.count / I.GetValue());
 																if (I.GetID() == c.m_ID) {
 																	yp2 = yp;
-																	auto xl = xp2 + WindowSystem::SetMsg(xp2, yp2, xp2, yp2 + ysize2, ysize2, STRX_LEFT, White, Black, L.GetName() + " Lv" + std::to_string(Lv) + "x" + std::to_string(craftcount));
-																	yp2 += ysize2 + y_r(5);
+																	WindowSystem::SetMsg(xp2, yp2 + ysize2/2, ysize2, STRX_LEFT, White, Black, L.GetName() + " Lv" + std::to_string(Lv) + "x" + std::to_string(craftcount));
+																	auto xl = xp2 + WindowSystem::GetMsgLen(ysize2, L.GetName() + " Lv" + std::to_string(Lv) + "x" + std::to_string(craftcount));
+																	yp2 += ysize2 + DXDraw::Instance()->GetUIY(5);
 
 																	for (const auto& r : cf.m_ItemReq) {
 																		auto* ptr2 = DataBase::Instance()->GetItemData()->FindPtr(r.GetID());
 																		if (ptr2) {
 																			int count = r.GetValue()*craftcount;
-																			xp2 += ptr2->Draw(xp2, yp2, xsize2, ysize2, (count >= 2) ? count : 0, Gray15, !WindowMngr->PosHitCheck(nullptr), false, false, true) + y_r(5);
+																			xp2 += ptr2->Draw(xp2, yp2, xsize2, ysize2, (count >= 2) ? count : 0, Gray15, !WindowMngr->PosHitCheck(nullptr), false, false, true) + DXDraw::Instance()->GetUIY(5);
 																		}
 																	}
 																	xp2 = std::max(xl, xp2);
-																	xp2 += y_r(10);
+																	xp2 += DXDraw::Instance()->GetUIY(10);
 																	break;
 																}
 															}
@@ -308,10 +310,10 @@ namespace FPS_n2 {
 										}
 										else {
 											if (yp <= ypos) {
-												DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255 - std::clamp(255 * (ypos - yp) / ysizeAdd, 0, 255));
+												WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255 - std::clamp(255 * (ypos - yp) / ysizeAdd, 0, 255));
 											}
 											else {
-												DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255 - std::clamp(255 * (yp - (ypMax - ysizeAdd)) / ysizeAdd, 0, 255));
+												WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255 - std::clamp(255 * (yp - (ypMax - ysizeAdd)) / ysizeAdd, 0, 255));
 											}
 											ptr->Draw(xp, yp, xsize, ysize, (c.count >= 2) ? c.count : 0, Gray15, false, c.isFir, false, false);
 										}
@@ -323,10 +325,10 @@ namespace FPS_n2 {
 						}
 					}
 					if (IsHit) {
-						yp += y_r(10);
+						yp += DXDraw::Instance()->GetUIY(10);
 					}
 				}
-				DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255);
+				WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255);
 
 				int ScrPosX = xpos + xsizeAdd;
 				int ScrSizY = ypMax - ypos;
@@ -339,50 +341,50 @@ namespace FPS_n2 {
 	void ItemListBG::DrawFront_Sub(int, int, float) noexcept {
 		//モードセレクト
 		{
-			int xp = y_r(10) + y_r(200) + y_r(10);
-			int yp = LineHeight + y_r(10);
-			if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(400), yp + LineHeight, false, true, Gray25, ListDrawModeStr[(int)m_Mode])) {
+			int xp = DXDraw::Instance()->GetUIY(10) + DXDraw::Instance()->GetUIY(200) + DXDraw::Instance()->GetUIY(10);
+			int yp = LineHeight + DXDraw::Instance()->GetUIY(10);
+			if (WindowSystem::SetMsgClickBox(xp, yp, xp + DXDraw::Instance()->GetUIY(400), yp + LineHeight, LineHeight, Gray25, false, true, ListDrawModeStr[(int)m_Mode])) {
 				m_Mode = (EnumListDrawMode)(((int)m_Mode + 1) % (int)EnumListDrawMode::Max);
 				m_IsListChange = true;
 			}
 			int Max = (int)EnumListDrawMode::Max;
 			for (int i = 0; i < Max; i++) {
 				WindowSystem::SetBox(
-					xp + y_r(400)*i / Max + y_r(5), yp + LineHeight + y_r(4),
-					xp + y_r(400)*(i + 1) / Max - y_r(5), yp + LineHeight + y_r(4) + y_r(6),
+					xp + DXDraw::Instance()->GetUIY(400)*i / Max + DXDraw::Instance()->GetUIY(5), yp + LineHeight + DXDraw::Instance()->GetUIY(4),
+					xp + DXDraw::Instance()->GetUIY(400)*(i + 1) / Max - DXDraw::Instance()->GetUIY(5), yp + LineHeight + DXDraw::Instance()->GetUIY(4) + DXDraw::Instance()->GetUIY(6),
 					(m_Mode == (EnumListDrawMode)i) ? Green : Gray25);
 			}
 		}
 		//
 		{
-			int xp = y_r(1920) - y_r(16);
-			int yp = y_r(1080) - y_r(110) - y_r(40) * 8;
+			int xp = DXDraw::Instance()->GetUIY(1920) - DXDraw::Instance()->GetUIY(16);
+			int yp = DXDraw::Instance()->GetUIY(1080) - DXDraw::Instance()->GetUIY(110) - DXDraw::Instance()->GetUIY(40) * 8;
 			//背景
 			{
-				DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 32);
-				DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xp - y_r(490), yp, xp + y_r(5), yp + y_r(40) * 8 + y_r(5), Black, true);
-				DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255);
+				WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 32);
+				WindowSystem::SetBox(xp - DXDraw::Instance()->GetUIY(490), yp, xp + DXDraw::Instance()->GetUIY(5), yp + DXDraw::Instance()->GetUIY(40) * 8 + DXDraw::Instance()->GetUIY(5), Black);
+				WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255);
 			}
 			//サイド表示
 			{
-				DrawTab(xp, yp, "サイド表示:"); yp += y_r(40);
-				DrawCheckBox(xp, yp, "トレーダー交換", &m_IsCheckBarter); yp += y_r(40);
-				DrawCheckBox(xp, yp, "クラフト", &m_IsCheckCraft); yp += y_r(40);
+				DrawTab(xp, yp, "サイド表示:"); yp += DXDraw::Instance()->GetUIY(40);
+				DrawCheckBox(xp, yp, "トレーダー交換", &m_IsCheckBarter); yp += DXDraw::Instance()->GetUIY(40);
+				DrawCheckBox(xp, yp, "クラフト", &m_IsCheckCraft); yp += DXDraw::Instance()->GetUIY(40);
 			}
 			//タスク
 			if (m_Mode == EnumListDrawMode::All || m_Mode == EnumListDrawMode::Task) {
-				DrawTab(xp, yp, "タスク:"); yp += y_r(40);
-				DrawCheckBox(xp, yp, "クリア可能対象のみ", &m_DrawCanClearTask); yp += y_r(40);
-				DrawCheckBox(xp, yp, "必要品(鍵など)を追加", &m_IsNeedItem); yp += y_r(40);
+				DrawTab(xp, yp, "タスク:"); yp += DXDraw::Instance()->GetUIY(40);
+				DrawCheckBox(xp, yp, "クリア可能対象のみ", &m_DrawCanClearTask); yp += DXDraw::Instance()->GetUIY(40);
+				DrawCheckBox(xp, yp, "必要品(鍵など)を追加", &m_IsNeedItem); yp += DXDraw::Instance()->GetUIY(40);
 			}
 			//ハイドアウト
 			if (m_Mode == EnumListDrawMode::All || m_Mode == EnumListDrawMode::Hideout) {
-				DrawTab(xp, yp, "ハイドアウト:"); yp += y_r(40);
-				DrawCheckBox(xp, yp, "開放可能対象のみ", &m_DrawCanClearHideout); yp += y_r(40);
+				DrawTab(xp, yp, "ハイドアウト:"); yp += DXDraw::Instance()->GetUIY(40);
+				DrawCheckBox(xp, yp, "開放可能対象のみ", &m_DrawCanClearHideout); yp += DXDraw::Instance()->GetUIY(40);
 			}
 		}
 		//検索
-		m_SearchBox.Draw(y_r(1910) - y_r(500), y_r(1080) - y_r(110) - y_r(40) * 8 - y_r(40));
+		m_SearchBox.Draw(DXDraw::Instance()->GetUIY(1910) - DXDraw::Instance()->GetUIY(500), DXDraw::Instance()->GetUIY(1080) - DXDraw::Instance()->GetUIY(110) - DXDraw::Instance()->GetUIY(40) * 8 - DXDraw::Instance()->GetUIY(40));
 		//
 	}
 };

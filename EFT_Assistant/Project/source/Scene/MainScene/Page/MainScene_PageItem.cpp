@@ -14,7 +14,7 @@ namespace FPS_n2 {
 		m_ValueSort = true;
 		m_ValuePerSort = true;
 		//
-		InitLists(2, y_r(1920 - 10) - y_r(400), LineHeight + y_r(5), y_r(400));
+		InitLists(2, DXDraw::Instance()->GetUIY(1920 - 10) - DXDraw::Instance()->GetUIY(400), LineHeight + DXDraw::Instance()->GetUIY(5), DXDraw::Instance()->GetUIY(400));
 
 		m_SearchBox.Init();
 		m_ReturnButtonPress = [&]() {
@@ -25,24 +25,24 @@ namespace FPS_n2 {
 		};
 	}
 	void ItemBG::Draw_Back_Sub(int, int, float) noexcept {
-		auto* WindowMngr = WindowSystem::WindowManager::Instance();
+		auto* WindowMngr = WindowMySystem::WindowManager::Instance();
 		auto* DrawParts = DXDraw::Instance();
-		auto* Input = InputControl::Instance();
+		auto* Pad = PadControl::Instance();
 
-		int xpos = y_r(40);
-		int ypos = LineHeight + y_r(10) + LineHeight;
-		int ysize = (y_r(80));
+		int xpos = DXDraw::Instance()->GetUIY(40);
+		int ypos = LineHeight + DXDraw::Instance()->GetUIY(10) + LineHeight;
+		int ysize = (DXDraw::Instance()->GetUIY(80));
 
 		int xs = 400;
-		int ScrPosX = y_r(1920 - xs * 3 / 2 - 10) - y_r(80);
+		int ScrPosX = DXDraw::Instance()->GetUIY(1920 - xs * 3 / 2 - 10) - DXDraw::Instance()->GetUIY(80);
 
-		int ScrPxItem = this->m_RaidMode ? (xpos + y_r(400)) : ScrPosX;
+		int ScrPxItem = this->m_RaidMode ? (xpos + DXDraw::Instance()->GetUIY(400)) : ScrPosX;
 
 		int yp0 = ypos - (int)m_YNow;
 		if (m_RaidMode) {
-			int PrevSize = y_r(400);
-			int PerSize = PrevSize + y_r(250);
-			if (WindowSystem::ClickCheckBox(xpos + PrevSize, yp0, xpos + PerSize, DrawParts->m_DispYSize, false, true, Gray75, "")) {
+			int PrevSize = DXDraw::Instance()->GetUIY(400);
+			int PerSize = PrevSize + DXDraw::Instance()->GetUIY(250);
+			if (WindowSystem::SetMsgClickBox(xpos + PrevSize, yp0, xpos + PerSize, DrawParts->GetScreenY(1080), LineHeight, Gray75, false, true, "")) {
 				std::sort(Items.begin(), Items.end(), [&](const ItemList* a, const ItemList* b) {
 					TraderID IDA = InvalidID;
 					int ValueA = -1;
@@ -55,17 +55,17 @@ namespace FPS_n2 {
 				m_TraderSort ^= 1;
 
 			}
-			if (in2_(Input->GetMouseX(), Input->GetMouseY(), xpos + PrevSize, yp0, xpos + PerSize, DrawParts->m_DispYSize)) {
-				DrawControl::Instance()->SetString(DrawLayer::Front,
-					FontPool::FontType::Nomal_Edge, LineHeight,
-					STRX_RIGHT, STRY_BOTTOM, Input->GetMouseX(), Input->GetMouseY(), RedPop, Black,
+			if (IntoMouse(xpos + PrevSize, yp0, xpos + PerSize, DrawParts->GetScreenY(1080))) {
+				WindowSystem::DrawControl::Instance()->SetString(WindowSystem::DrawLayer::Front,
+					FontPool::FontType::MS_Gothic, LineHeight,
+					STRX_RIGHT, STRY_BOTTOM, Pad->GetMS_X(), Pad->GetMS_Y(), RedPop, Black,
 					"トレーダー"
 				);
 			}
 
-			PrevSize = PerSize + y_r(25);
-			PerSize += y_r(250);
-			if (WindowSystem::ClickCheckBox(xpos + PrevSize, yp0, xpos + PerSize, DrawParts->m_DispYSize, false, true, Gray75, "")) {
+			PrevSize = PerSize + DXDraw::Instance()->GetUIY(25);
+			PerSize += DXDraw::Instance()->GetUIY(250);
+			if (WindowSystem::SetMsgClickBox(xpos + PrevSize, yp0, xpos + PerSize, DrawParts->GetScreenY(1080), LineHeight, Gray75, false, true, "")) {
 				std::sort(Items.begin(), Items.end(), [&](const ItemList* a, const ItemList* b) {
 					TraderID IDA = InvalidID;
 					int ValueA = -1;
@@ -77,17 +77,17 @@ namespace FPS_n2 {
 				});
 				m_ValueSort ^= 1;
 			}
-			if (in2_(Input->GetMouseX(), Input->GetMouseY(), xpos + PrevSize, yp0, xpos + PerSize, DrawParts->m_DispYSize)) {
-				DrawControl::Instance()->SetString(DrawLayer::Front,
-					FontPool::FontType::Nomal_Edge, LineHeight,
-					STRX_RIGHT, STRY_BOTTOM, Input->GetMouseX(), Input->GetMouseY(), RedPop, Black,
+			if (IntoMouse(xpos + PrevSize, yp0, xpos + PerSize, DrawParts->GetScreenY(1080))) {
+				WindowSystem::DrawControl::Instance()->SetString(WindowSystem::DrawLayer::Front,
+					FontPool::FontType::MS_Gothic, LineHeight,
+					STRX_RIGHT, STRY_BOTTOM, Pad->GetMS_X(), Pad->GetMS_Y(), RedPop, Black,
 					"売値"
 				);
 			}
 
-			PrevSize = PerSize + y_r(25);
-			PerSize += y_r(250);
-			if (WindowSystem::ClickCheckBox(xpos + PrevSize, yp0, xpos + PerSize, DrawParts->m_DispYSize, false, true, Gray75, "")) {
+			PrevSize = PerSize + DXDraw::Instance()->GetUIY(25);
+			PerSize += DXDraw::Instance()->GetUIY(250);
+			if (WindowSystem::SetMsgClickBox(xpos + PrevSize, yp0, xpos + PerSize, DrawParts->GetScreenY(1080), LineHeight, Gray75, false, true, "")) {
 				std::sort(Items.begin(), Items.end(), [&](const ItemList* a, const ItemList* b) {
 					TraderID IDA = InvalidID;
 					int ValueA = -1;
@@ -102,10 +102,10 @@ namespace FPS_n2 {
 				});
 				m_ValuePerSort ^= 1;
 			}
-			if (in2_(Input->GetMouseX(), Input->GetMouseY(), xpos + PrevSize, yp0, xpos + PerSize, DrawParts->m_DispYSize)) {
-				DrawControl::Instance()->SetString(DrawLayer::Front,
-					FontPool::FontType::Nomal_Edge, LineHeight,
-					STRX_RIGHT, STRY_BOTTOM, Input->GetMouseX(), Input->GetMouseY(), RedPop, Black,
+			if (IntoMouse(xpos + PrevSize, yp0, xpos + PerSize, DrawParts->GetScreenY(1080))) {
+				WindowSystem::DrawControl::Instance()->SetString(WindowSystem::DrawLayer::Front,
+					FontPool::FontType::MS_Gothic, LineHeight,
+					STRX_RIGHT, STRY_BOTTOM, Pad->GetMS_X(), Pad->GetMS_Y(), RedPop, Black,
 					"マス単価"
 				);
 			}
@@ -138,8 +138,8 @@ namespace FPS_n2 {
 				}
 				//*/
 				if (ishit && m_SearchBox.GetIsHit(L->GetName())) {
-					if (((0 - ysize) < yp0) && (yp0 < DrawParts->m_DispYSize)) {
-						const_cast<ItemList*>(L)->Draw(xpos, yp0, ScrPxItem - xpos - y_r(36), ysize, 0, Gray75, !WindowMngr->PosHitCheck(nullptr), false, !m_RaidMode, false);
+					if (((0 - ysize) < yp0) && (yp0 < DrawParts->GetScreenY(1080))) {
+						const_cast<ItemList*>(L)->Draw(xpos, yp0, ScrPxItem - xpos - DXDraw::Instance()->GetUIY(36), ysize, 0, Gray75, !WindowMngr->PosHitCheck(nullptr), false, !m_RaidMode, false);
 						if (m_RaidMode) {
 							TraderID ID = InvalidID;
 							int Value = -1;
@@ -153,12 +153,12 @@ namespace FPS_n2 {
 										Color = ptr->GetColors(50);
 									}
 								}
-								int PerSize = y_r(400) + y_r(250);
-								WindowSystem::SetMsg(xpos + PerSize, yp0, xpos + PerSize, yp0 + ysize, LineHeight * 9 / 10, STRX_RIGHT, Color, Black, "%s", TraderName.c_str());
-								PerSize += y_r(250);
-								WindowSystem::SetMsg(xpos + PerSize, yp0, xpos + PerSize, yp0 + ysize, LineHeight * 9 / 10, STRX_RIGHT, Color, Black, "%6d", Value);
-								PerSize += y_r(250);
-								WindowSystem::SetMsg(xpos + PerSize, yp0, xpos + PerSize, yp0 + ysize, LineHeight * 9 / 10, STRX_RIGHT, Color, Black, "%6d", Value / (L->Getwidth()*L->Getheight()));
+								int PerSize = DXDraw::Instance()->GetUIY(400) + DXDraw::Instance()->GetUIY(250);
+								WindowSystem::SetMsg(xpos + PerSize, yp0 + ysize / 2, LineHeight * 9 / 10, STRX_RIGHT, Color, Black, "%s", TraderName.c_str());
+								PerSize += DXDraw::Instance()->GetUIY(250);
+								WindowSystem::SetMsg(xpos + PerSize, yp0 + ysize / 2, LineHeight * 9 / 10, STRX_RIGHT, Color, Black, "%6d", Value);
+								PerSize += DXDraw::Instance()->GetUIY(250);
+								WindowSystem::SetMsg(xpos + PerSize, yp0 + ysize / 2, LineHeight * 9 / 10, STRX_RIGHT, Color, Black, "%6d", Value / (L->Getwidth()*L->Getheight()));
 							}
 						}
 					}
@@ -169,14 +169,14 @@ namespace FPS_n2 {
 		yp0 -= ypos - (int)m_YNow;
 
 
-		int ScrSizY = (DrawParts->m_DispYSize - (y_r(10) + LineHeight)) - ypos;
+		int ScrSizY = (DrawParts->GetScreenY(1080) - (DXDraw::Instance()->GetUIY(10) + LineHeight)) - ypos;
 		m_Scroll.ScrollBox(xpos, ypos, ScrPosX, ypos + ScrSizY, (float)std::max(yp0, ScrSizY) / (float)ScrSizY, !WindowMngr->PosHitCheck(nullptr));
 
 		m_YNow = std::max(0.f, this->m_Scroll.GetNowScrollYPer()*(float)(yp0 - ScrSizY));
 		//List
 		{
 			int xgoal = 0;
-			int xs_add = m_ListXSize + y_r(50);
+			int xs_add = m_ListXSize + DXDraw::Instance()->GetUIY(50);
 			bool isChild = false;
 			//
 			isChild |= MakeLists(0, true, [&](std::pair<int, bool>* IDs, bool IsChild, int XP, int YP, int XS) {
@@ -200,13 +200,13 @@ namespace FPS_n2 {
 	void ItemBG::DrawFront_Sub(int, int, float) noexcept {
 		//
 		{
-			int xp = y_r(1910) - LineHeight * 3;
-			int yp = y_r(900);
-			WindowSystem::CheckBox(xp, yp, &m_RaidMode);
-			WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_RIGHT, White, Black, "売却価格モード");
-			yp += LineHeight + y_r(6);
+			int xp = DXDraw::Instance()->GetUIY(1910) - LineHeight * 3;
+			int yp = DXDraw::Instance()->GetUIY(900);
+			m_RaidMode = WindowSystem::CheckBox(xp, yp, m_RaidMode);
+			WindowSystem::SetMsg(xp, yp + LineHeight / 2, LineHeight, STRX_RIGHT, White, Black, "売却価格モード");
+			yp += LineHeight + DXDraw::Instance()->GetUIY(6);
 		}
 		//検索
-		m_SearchBox.Draw(y_r(1910) - y_r(500), y_r(850));
+		m_SearchBox.Draw(DXDraw::Instance()->GetUIY(1910) - DXDraw::Instance()->GetUIY(500), DXDraw::Instance()->GetUIY(850));
 	}
 };

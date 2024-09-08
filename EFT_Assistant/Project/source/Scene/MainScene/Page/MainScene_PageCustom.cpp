@@ -325,7 +325,7 @@ namespace FPS_n2 {
 	}
 	//描画
 	bool CustomBG::DrawChild(int xposbase, int yposbase, int xpos, int ypos, float Scale, int* Lane, int Nest, const ItemList* Ptr) noexcept {
-		auto* Input = InputControl::Instance();
+		auto* Pad = PadControl::Instance();
 
 		bool HaveChild = false;
 		auto* Ptr_Buf = Ptr;
@@ -343,17 +343,17 @@ namespace FPS_n2 {
 				if (cID.GetPtrIsParentSlot(Ptr_Buf, Index)) {
 					HaveChild = true;
 
-					int xsize = (int)((float)(600)*Scale);// y_r(400);
-					int xsizeMin = (int)((float)(30)*Scale);// y_r(400);
-					int ysize = (int)((float)(64) * Scale);// y_r(92);
-					int xbase = xposbase + Nest * (xsize + (int)((float)(y_r(30))*Scale / 0.2f));
-					int yp2 = yposbase + (*Lane) * (ysize + (int)((float)(y_r(10))*Scale / 0.2f));
+					int xsize = (int)((float)(600)*Scale);// DXDraw::Instance()->GetUIY(400);
+					int xsizeMin = (int)((float)(30)*Scale);// DXDraw::Instance()->GetUIY(400);
+					int ysize = (int)((float)(64) * Scale);// DXDraw::Instance()->GetUIY(92);
+					int xbase = xposbase + Nest * (xsize + (int)((float)(DXDraw::Instance()->GetUIY(30))*Scale / 0.2f));
+					int yp2 = yposbase + (*Lane) * (ysize + (int)((float)(DXDraw::Instance()->GetUIY(10))*Scale / 0.2f));
 					int ybase = yp2 - ysize / 2;
 					if (Ptr != nullptr) {
-						DrawControl::Instance()->SetDrawLine(DrawLayer::Normal, xpos, ypos, xbase, yp2, Red, y_r(3));
+						WindowSystem::DrawControl::Instance()->SetDrawLine(WindowSystem::DrawLayer::Normal, xpos, ypos, xbase, yp2, Red, DXDraw::Instance()->GetUIY(3));
 					}
-					auto* WindowMngr = WindowSystem::WindowManager::Instance();
-					if (WindowSystem::ClickCheckBox(xbase, ybase, xbase + xsizeMin, ybase + ysize, true, !WindowMngr->PosHitCheck(nullptr), Gray25, "<")) {
+					auto* WindowMngr = WindowMySystem::WindowManager::Instance();
+					if (WindowSystem::SetMsgClickBox(xbase, ybase, xbase + xsizeMin, ybase + ysize, ysize, Gray25, true, !WindowMngr->PosHitCheck(nullptr), "<")) {
 						cID.SubSelect();
 						while (true) {
 							if (cID.GetIsSelected() && CheckConflict(cID.GetChildPtr())) {
@@ -363,7 +363,7 @@ namespace FPS_n2 {
 							break;
 						}
 					}
-					if (WindowSystem::ClickCheckBox(xbase + xsize - xsizeMin, ybase, xbase + xsize, ybase + ysize, true, !WindowMngr->PosHitCheck(nullptr), Gray25, ">")) {
+					if (WindowSystem::SetMsgClickBox(xbase + xsize - xsizeMin, ybase, xbase + xsize, ybase + ysize, ysize, Gray25, true, !WindowMngr->PosHitCheck(nullptr), ">")) {
 						cID.AddSelect();
 						while (true) {
 							if (cID.GetIsSelected() && CheckConflict(cID.GetChildPtr())) {
@@ -373,7 +373,7 @@ namespace FPS_n2 {
 							break;
 						}
 					}
-					if (WindowSystem::ClickCheckBox(xbase + xsizeMin, ybase, xbase + xsize - xsizeMin, ybase + ysize, true, !WindowMngr->PosHitCheck(nullptr), Gray10, "None")) {
+					if (WindowSystem::SetMsgClickBox(xbase + xsizeMin, ybase, xbase + xsize - xsizeMin, ybase + ysize, ysize, Gray10, true, !WindowMngr->PosHitCheck(nullptr), "None")) {
 						cID.OnOffSelect();
 						while (true) {
 							if (cID.GetIsSelected() && CheckConflict(cID.GetChildPtr())) {
@@ -395,9 +395,9 @@ namespace FPS_n2 {
 							(*Lane)--;
 						}
 
-						if (in2_(Input->GetMouseX(), Input->GetMouseY(), xbase, ybase, xbase + xsize, ybase + ysize)) {
-							DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xbase, ybase, xbase + xsize, ybase + ysize, RedPop, false);
-							if (Input->GetKey('L').trigger()) {
+						if (IntoMouse(xbase, ybase, xbase + xsize, ybase + ysize)) {
+							WindowSystem::DrawControl::Instance()->SetDrawBox(WindowSystem::DrawLayer::Normal, xbase, ybase, xbase + xsize, ybase + ysize, RedPop, false);
+							if (Pad->GetAtoZKey('L').trigger()) {
 								//ロックをかける
 								for (const auto& cID2 : cID.GetMySlotData().GetData()) {
 									if (cID.GetChildPtr() != DataBase::Instance()->GetItemData()->FindPtr(cID2.GetID())) {
@@ -406,15 +406,15 @@ namespace FPS_n2 {
 								}
 								PlayerData::Instance()->OnOffItemLock(cID.GetChildPtr()->GetIDstr().c_str());
 							}
-							DrawControl::Instance()->SetString(DrawLayer::Front,
-								FontPool::FontType::Nomal_Edge, LineHeight,
-								STRX_RIGHT, STRY_BOTTOM, Input->GetMouseX(), Input->GetMouseY(), RedPop, Black,
+							WindowSystem::DrawControl::Instance()->SetString(WindowSystem::DrawLayer::Front,
+								FontPool::FontType::MS_Gothic, LineHeight,
+								STRX_RIGHT, STRY_BOTTOM, Pad->GetMS_X(), Pad->GetMS_Y(), RedPop, Black,
 								"Lキーで優先パーツに設定"
 							);
 						}
 					}
 					//
-					if (in2_(Input->GetMouseX(), Input->GetMouseY(), xbase, ybase, xbase + xsize, ybase + ysize)) {
+					if (IntoMouse(xbase, ybase, xbase + xsize, ybase + ysize)) {
 						m_SpecChange = false;
 						m_RecAddMin = 1000.f;
 						m_RecAddMax = -1000.f;
@@ -453,7 +453,7 @@ namespace FPS_n2 {
 						if (xOfset + xOfsetAdd > (xsize - xsizeMin * 2)) {
 							break;
 						}
-						WindowSystem::SetMsg(xbase + xOfset, ybase, xbase + xOfset, ybase + Hight, Hight, STRX_LEFT, White, Black,
+						WindowSystem::SetMsg(xbase + xOfset, ybase + Hight / 2, Hight, STRX_LEFT, White, Black,
 							"[%s]", DataBase::Instance()->GetItemTypeData()->FindPtr(t)->GetName().c_str());
 						xOfset += xOfsetAdd;
 					}
@@ -478,8 +478,8 @@ namespace FPS_n2 {
 	}
 
 	void CustomBG::Init_Sub(int *posx, int *posy, float* Scale) noexcept {
-		*posx = y_r(100);
-		*posy = LineHeight + y_r(100);
+		*posx = DXDraw::Instance()->GetUIY(100);
+		*posy = LineHeight + DXDraw::Instance()->GetUIY(100);
 		*Scale = 0.2f;
 		m_SelectPreset = InvalidID;
 		m_SelectBuffer = InvalidID;
@@ -493,7 +493,7 @@ namespace FPS_n2 {
 
 		m_ChildData.clear();
 
-		InitLists(3, y_r(1920 - 10) - y_r(400), LineHeight + y_r(5), y_r(400));
+		InitLists(3, DXDraw::Instance()->GetUIY(1920 - 10) - DXDraw::Instance()->GetUIY(400), LineHeight + DXDraw::Instance()->GetUIY(5), DXDraw::Instance()->GetUIY(400));
 		m_ReturnButtonPress = [&]() {
 			auto* PageMngr = PageManager::Instance();
 			if (!BackLists()) {
@@ -577,8 +577,8 @@ namespace FPS_n2 {
 	void CustomBG::Draw_Back_Sub(int xpos, int ypos, float scale) noexcept {
 		if (m_BaseWeapon) {
 			if (m_BaseWeapon->GetIcon().GetGraph()) {
-				float Scale = ((float)y_r(1080) / 128) * scale;
-				DrawControl::Instance()->SetDrawRotaGraph(DrawLayer::Normal, this->m_BaseWeapon->GetIcon().GetGraph(), xpos + (int)((float)y_r(960)*scale / 0.2f), ypos + (int)((float)y_r(540)*scale / 0.2f), Scale, 0.f, false);
+				float Scale = ((float)DXDraw::Instance()->GetUIY(1080) / 128) * scale;
+				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, this->m_BaseWeapon->GetIcon().GetGraph(), xpos + (int)((float)DXDraw::Instance()->GetUIY(960)*scale / 0.2f), ypos + (int)((float)DXDraw::Instance()->GetUIY(540)*scale / 0.2f), Scale, 0.f, false);
 				int Lane = 0;
 				DrawChild(xpos, ypos, 0, 0, Scale, &Lane);
 			}
@@ -586,7 +586,7 @@ namespace FPS_n2 {
 		//
 		{
 			int xgoal = 0;
-			int xs_add = m_ListXSize + y_r(50);
+			int xs_add = m_ListXSize + DXDraw::Instance()->GetUIY(50);
 			bool isChild = false;
 			isChild |= MakeLists(0, true, [&](std::pair<int, bool>* IDs, bool IsChild, int XP, int YP, int XS) {
 				if (IsChild) { xgoal -= xs_add; }
@@ -632,16 +632,16 @@ namespace FPS_n2 {
 
 
 			int xp = LineHeight;
-			int yp = y_r(1080) - LineHeight;
+			int yp = DXDraw::Instance()->GetUIY(1080) - LineHeight;
 			//
-			yp -= y_r(80);
-			WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_LEFT, White, Black, "エルゴノミクス");
+			yp -= DXDraw::Instance()->GetUIY(80);
+			WindowSystem::SetMsg(xp, yp + LineHeight / 2, LineHeight, STRX_LEFT, White, Black, "エルゴノミクス");
 			int Erg = (int)m_Ergonomics, OldE = Erg;
-			//WindowSystem::UpDownBar(xp, y_r(640), yp + LineHeight + y_r(5), &Erg, 0, 100);
+			//Erg = WindowSystem::UpDownBar(xp, DXDraw::Instance()->GetUIY(640), yp + LineHeight + DXDraw::Instance()->GetUIY(5), Erg, 0, 100);
 			if (m_BaseWeapon) {
 				int xmin = xp;
-				int xmax = y_r(640);
-				int ypos = yp + LineHeight + y_r(5);
+				int xmax = DXDraw::Instance()->GetUIY(640);
+				int ypos = yp + LineHeight + DXDraw::Instance()->GetUIY(5);
 				int valueMin = 0;
 				int valueMax = 100;
 
@@ -664,35 +664,35 @@ namespace FPS_n2 {
 							xpmin + (xpmax - xpmin)*std::clamp((int)ErgMax - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Blue);
 					}
 
-					DrawControl::Instance()->SetDrawLine(DrawLayer::Normal,
+					WindowSystem::DrawControl::Instance()->SetDrawLine(WindowSystem::DrawLayer::Normal,
 						xpmin + (xpmax - xpmin)*std::clamp(Erg - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos,
 						xpmin + (xpmax - xpmin)*std::clamp(Erg - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Black, 3);
-					DrawControl::Instance()->SetDrawLine(DrawLayer::Normal,
+					WindowSystem::DrawControl::Instance()->SetDrawLine(WindowSystem::DrawLayer::Normal,
 						xpmin + (xpmax - xpmin)*std::clamp(Erg - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos,
 						xpmin + (xpmax - xpmin)*std::clamp(Erg - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Gray15, 1);
 				}
 				/*
 				xp_t = xmax;
-				if (WindowSystem::ClickCheckBox(xp_t, ypos, xp_t + LineHeight, ypos + LineHeight, true, true, Gray25, "△")) {
+				if (WindowSystem::SetMsgClickBox(xp_t, ypos, xp_t + LineHeight, ypos + LineHeight, LineHeight, Gray25, true, true, "△")) {
 					Erg = std::min(Erg + 1, valueMax);
 				}
 				//*/
 				xp_t = (xmin + (xmax - xmin) / 2);
 				if (m_SpecChange) {
 					if ((int)ErgMin == (int)m_Ergonomics) {
-						WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, STRX_MID, White, Black, "               <%5.2f", ErgMax);
+						WindowSystem::SetMsg(xp_t, ypos + LineHeight / 2, LineHeight * 7 / 10, STRX_MID, White, Black, "               <%5.2f", ErgMax);
 					}
 					else if ((int)ErgMax == (int)m_Ergonomics) {
-						WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, STRX_MID, White, Black, "%5.2f<               ", ErgMin);
+						WindowSystem::SetMsg(xp_t, ypos + LineHeight / 2, LineHeight * 7 / 10, STRX_MID, White, Black, "%5.2f<               ", ErgMin);
 					}
 					else {
-						WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, STRX_MID, White, Black, "%5.2f<            <%5.2f", ErgMin, ErgMax);
+						WindowSystem::SetMsg(xp_t, ypos + LineHeight / 2, LineHeight * 7 / 10, STRX_MID, White, Black, "%5.2f<            <%5.2f", ErgMin, ErgMax);
 					}
 				}
-				WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight, STRX_MID, White, Black, "%5.2f", this->m_Ergonomics);
+				WindowSystem::SetMsg(xp_t, ypos + LineHeight / 2, LineHeight, STRX_MID, White, Black, "%5.2f", this->m_Ergonomics);
 				/*
 				xp_t = xmin;
-				if (WindowSystem::ClickCheckBox(xp_t, ypos, xp_t + LineHeight, ypos + LineHeight, true, true, Gray25, "▽")) {
+				if (WindowSystem::SetMsgClickBox(xp_t, ypos, xp_t + LineHeight, ypos + LineHeight, LineHeight, Gray25, true, true, "▽")) {
 					Erg = std::max(Erg - 1, valueMin);
 				}
 				//*/
@@ -702,14 +702,14 @@ namespace FPS_n2 {
 				m_Ergonomics = (float)Erg;
 			}
 			//
-			yp -= y_r(80);
-			WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_LEFT, White, Black, "縦リコイル");
+			yp -= DXDraw::Instance()->GetUIY(80);
+			WindowSystem::SetMsg(xp, yp + LineHeight / 2, LineHeight, STRX_LEFT, White, Black, "縦リコイル");
 			int Rec = (int)m_Recoil, OldR = Rec;
-			//WindowSystem::UpDownBar(xp, y_r(640), yp + LineHeight + y_r(5), &Rec, 10, 200);
+			//Rec = WindowSystem::UpDownBar(xp, DXDraw::Instance()->GetUIY(640), yp + LineHeight + DXDraw::Instance()->GetUIY(5), Rec, 10, 200);
 			if (m_BaseWeapon) {
 				int xmin = xp;
-				int xmax = y_r(640);
-				int ypos = yp + LineHeight + y_r(5);
+				int xmax = DXDraw::Instance()->GetUIY(640);
+				int ypos = yp + LineHeight + DXDraw::Instance()->GetUIY(5);
 				int valueMin = 0;
 				int valueMax = 100;
 
@@ -732,52 +732,52 @@ namespace FPS_n2 {
 							xpmin + (xpmax - xpmin)*std::clamp((int)RecMax - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Red);
 					}
 
-					DrawControl::Instance()->SetDrawLine(DrawLayer::Normal,
+					WindowSystem::DrawControl::Instance()->SetDrawLine(WindowSystem::DrawLayer::Normal,
 						xpmin + (xpmax - xpmin)*std::clamp(Rec - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos,
 						xpmin + (xpmax - xpmin)*std::clamp(Rec - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Black, 3);
-					DrawControl::Instance()->SetDrawLine(DrawLayer::Normal,
+					WindowSystem::DrawControl::Instance()->SetDrawLine(WindowSystem::DrawLayer::Normal,
 						xpmin + (xpmax - xpmin)*std::clamp(Rec - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos,
 						xpmin + (xpmax - xpmin)*std::clamp(Rec - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Gray15, 1);
 				}
 				/*
 				xp_t = xmax;
-				if (WindowSystem::ClickCheckBox(xp_t, ypos, xp_t + LineHeight, ypos + LineHeight, true, true, Gray25, "△")) {
+				if (WindowSystem::SetMsgClickBox(xp_t, ypos, xp_t + LineHeight, ypos + LineHeight, LineHeight, Gray25, true, true, "△")) {
 					Rec = std::min(Rec + 1, valueMax);
 				}
 				//*/
 				xp_t = (xmin + (xmax - xmin) / 2);
 				if (m_SpecChange) {
 					if ((int)RecMin == (int)m_Recoil) {
-						WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, STRX_MID, White, Black, "               <%5.2f", RecMax);
+						WindowSystem::SetMsg(xp_t, ypos + LineHeight / 2, LineHeight * 7 / 10, STRX_MID, White, Black, "               <%5.2f", RecMax);
 					}
 					else if ((int)RecMax == (int)m_Recoil) {
-						WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, STRX_MID, White, Black, "%5.2f<               ", RecMin);
+						WindowSystem::SetMsg(xp_t, ypos + LineHeight / 2, LineHeight * 7 / 10, STRX_MID, White, Black, "%5.2f<               ", RecMin);
 					}
 					else {
-						WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight * 7 / 10, STRX_MID, White, Black, "%5.2f<            <%5.2f", RecMin, RecMax);
+						WindowSystem::SetMsg(xp_t, ypos + LineHeight / 2, LineHeight * 7 / 10, STRX_MID, White, Black, "%5.2f<            <%5.2f", RecMin, RecMax);
 					}
 				}
-				WindowSystem::SetMsg(xp_t, ypos, xp_t, ypos + LineHeight, LineHeight, STRX_MID, White, Black, "%5.2f", this->m_Recoil);
+				WindowSystem::SetMsg(xp_t, ypos + LineHeight / 2, LineHeight, STRX_MID, White, Black, "%5.2f", this->m_Recoil);
 				/*
 				xp_t = xmin;
-				if (WindowSystem::ClickCheckBox(xp_t, ypos, xp_t + LineHeight, ypos + LineHeight, true, true, Gray25, "▽")) {
+				if (WindowSystem::SetMsgClickBox(xp_t, ypos, xp_t + LineHeight, ypos + LineHeight, LineHeight, Gray25, true, true, "▽")) {
 					Rec = std::max(Rec - 1, valueMin);
 				}
 				//*/
 			}
 			if (OldR != Rec) { this->m_Recoil = (float)Rec; }
 			//
-			yp -= y_r(50);
-			WindowSystem::CheckBox(xp, yp, &m_EnableSight);
-			WindowSystem::SetMsg(xp + LineHeight * 3, yp, xp + LineHeight * 3, yp + LineHeight, LineHeight, STRX_LEFT, White, Black, "サイトを含む");
+			yp -= DXDraw::Instance()->GetUIY(50);
+			m_EnableSight = WindowSystem::CheckBox(xp, yp, m_EnableSight);
+			WindowSystem::SetMsg(xp + LineHeight * 3, yp + LineHeight / 2, LineHeight, STRX_LEFT, White, Black, "サイトを含む");
 			//
-			yp -= y_r(50);
-			WindowSystem::CheckBox(xp, yp, &m_EnableMount);
-			WindowSystem::SetMsg(xp + LineHeight * 3, yp, xp + LineHeight * 3, yp + LineHeight, LineHeight, STRX_LEFT, White, Black, "マウントを含む");
+			yp -= DXDraw::Instance()->GetUIY(50);
+			m_EnableMount = WindowSystem::CheckBox(xp, yp, m_EnableMount);
+			WindowSystem::SetMsg(xp + LineHeight * 3, yp + LineHeight / 2, LineHeight, STRX_LEFT, White, Black, "マウントを含む");
 			//
-			yp -= y_r(50);
-			WindowSystem::CheckBox(xp, yp, &m_EnableMag);
-			WindowSystem::SetMsg(xp + LineHeight * 3, yp, xp + LineHeight * 3, yp + LineHeight, LineHeight, STRX_LEFT, White, Black, "マガジンを含む");
+			yp -= DXDraw::Instance()->GetUIY(50);
+			m_EnableMag = WindowSystem::CheckBox(xp, yp, m_EnableMag);
+			WindowSystem::SetMsg(xp + LineHeight * 3, yp + LineHeight / 2, LineHeight, STRX_LEFT, White, Black, "マガジンを含む");
 			//
 			if (m_EnableSight) {
 				m_EnableMount = true;
@@ -793,22 +793,22 @@ namespace FPS_n2 {
 		//場所ガイド
 		if (m_BaseWeapon) {
 			if (m_BaseWeapon->GetIcon().GetGraph()) {
-				int xp = y_r(1440);
-				int yp = y_r(820);
+				int xp = DXDraw::Instance()->GetUIY(1440);
+				int yp = DXDraw::Instance()->GetUIY(820);
 
-				int xs = y_r(320);
-				int ys = y_r(180);
+				int xs = DXDraw::Instance()->GetUIY(320);
+				int ys = DXDraw::Instance()->GetUIY(180);
 
-				int x_p1 = std::max(posx * xs / DrawParts->m_DispXSize, -xs / 2);
-				int y_p1 = std::max(posy * ys / DrawParts->m_DispYSize, -ys / 2);
-				int x_p2 = std::min(this->m_posxMaxBuffer * xs / DrawParts->m_DispXSize, xs + xs / 2);
-				int y_p2 = std::min(this->m_posyMaxBuffer * ys / DrawParts->m_DispYSize, ys + ys / 2);
+				int x_p1 = std::max(posx * xs / DrawParts->GetScreenX(1920), -xs / 2);
+				int y_p1 = std::max(posy * ys / DrawParts->GetScreenY(1080), -ys / 2);
+				int x_p2 = std::min(this->m_posxMaxBuffer * xs / DrawParts->GetScreenX(1920), xs + xs / 2);
+				int y_p2 = std::min(this->m_posyMaxBuffer * ys / DrawParts->GetScreenY(1080), ys + ys / 2);
 
-				DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 64);
-				DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Black, TRUE);
-				DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255);
-				DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Green, FALSE);
-				DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xp, yp, xp + xs, yp + ys, Red, FALSE);
+				WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 64);
+				WindowSystem::SetBox(xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Black);
+				WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255);
+				WindowSystem::DrawControl::Instance()->SetDrawBox(WindowSystem::DrawLayer::Normal, xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Green, FALSE);
+				WindowSystem::DrawControl::Instance()->SetDrawBox(WindowSystem::DrawLayer::Normal, xp, yp, xp + xs, yp + ys, Red, FALSE);
 			}
 		}
 	}

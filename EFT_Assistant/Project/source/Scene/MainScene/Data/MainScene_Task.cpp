@@ -131,8 +131,8 @@ namespace FPS_n2 {
 	}
 	//
 	const int	TaskList::Draw(int xp, int yp, int xsize, int ysize, int count, bool Clickactive) noexcept {
-		auto* WindowMngr = WindowSystem::WindowManager::Instance();
-		auto* Input = InputControl::Instance();
+		auto* WindowMngr = WindowMySystem::WindowManager::Instance();
+		auto* Pad = PadControl::Instance();
 
 		bool IsClearTask = PlayerData::Instance()->GetTaskClear(this->GetName().c_str());
 		auto* ptr = DataBase::Instance()->GetTraderData()->FindPtr(this->GetTrader());
@@ -145,16 +145,16 @@ namespace FPS_n2 {
 		if (count > 0) {
 			Name += " x" + std::to_string(count);
 		}
-		if (WindowSystem::ClickCheckBox(xp, yp, xp + xsize, yp + ysize, false, Clickactive, color, Name)) {
-			if (Input->GetSpaceKey().press()) {
+		if (WindowSystem::SetMsgClickBox(xp, yp, xp + xsize, yp + ysize, ysize, color, false, Clickactive, Name)) {
+			if (Pad->GetKey(PADS::JUMP).press()) {
 				PlayerData::Instance()->OnOffTaskClear(this->GetName().c_str());
 			}
 			else {
-				auto sizeXBuf = y_r(800);
-				auto sizeYBuf = y_r(0);
-				this->DrawWindow(nullptr, y_r(1920), y_r(1080), &sizeXBuf, &sizeYBuf);//試しにサイズ計測
+				auto sizeXBuf = DXDraw::Instance()->GetUIY(800);
+				auto sizeYBuf = DXDraw::Instance()->GetUIY(0);
+				this->DrawWindow(nullptr, DXDraw::Instance()->GetUIY(1920), DXDraw::Instance()->GetUIY(1080), &sizeXBuf, &sizeYBuf);//試しにサイズ計測
 				signed long long FreeID = this->GetID();
-				WindowMngr->Add()->Set(xp + xsize / 2 - sizeXBuf / 2, yp, sizeXBuf, sizeYBuf, 0, this->GetName().c_str(), false, true, FreeID, [&](WindowSystem::WindowControl* win) {
+				WindowMngr->Add()->Set(xp + xsize / 2 - sizeXBuf / 2, yp, sizeXBuf, sizeYBuf, 0, this->GetName().c_str(), false, true, FreeID, [&](WindowMySystem::WindowControl* win) {
 					DataBase::Instance()->GetTaskData()->FindPtr((TaskID)win->m_FreeID)->DrawWindow(win, win->GetPosX(), win->GetPosY());
 				});
 			}
@@ -163,56 +163,58 @@ namespace FPS_n2 {
 			int Xofs = xsize / 2;
 			int ysizeI = ysize - 4;
 			if (this->GetTaskWorkData().GetKill().size() > 0) {
-				DrawControl::Instance()->SetBright(DrawLayer::Normal, 128, 128, 128);
-				DrawControl::Instance()->SetDrawRotaGuide("Task_Kill", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2 + 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
-				DrawControl::Instance()->SetDrawRotaGuide("Task_Kill", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2 - 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
-				DrawControl::Instance()->SetDrawRotaGuide("Task_Kill", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2 - 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
-				DrawControl::Instance()->SetDrawRotaGuide("Task_Kill", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2 + 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
-				DrawControl::Instance()->SetBright(DrawLayer::Normal, 255, 0, 0);
-				DrawControl::Instance()->SetDrawRotaGuide("Task_Kill", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				WindowSystem::DrawControl::Instance()->SetBright(WindowSystem::DrawLayer::Normal, 128, 128, 128);
+				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_Kill").GetGraph(), xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2 + 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_Kill").GetGraph(), xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2 - 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_Kill").GetGraph(), xp + xsize / 2 + Xofs - ysize / 2 - 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_Kill").GetGraph(), xp + xsize / 2 + Xofs - ysize / 2 + 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				WindowSystem::DrawControl::Instance()->SetBright(WindowSystem::DrawLayer::Normal, 255, 0, 0);
+				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_Kill").GetGraph(), xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
 				Xofs -= (int)(64.f*(float)(ysize) / (float)(64.f));
 			}
 			if (this->GetTaskWorkData().GetFiR_Item().size() > 0) {
-				DrawControl::Instance()->SetBright(DrawLayer::Normal, 32, 32, 32);
-				DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2 + 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
-				DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2 - 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
-				DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2 - 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
-				DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2 + 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
-				DrawControl::Instance()->SetBright(DrawLayer::Normal, 255, 255, 0);
-				DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				WindowSystem::DrawControl::Instance()->SetBright(WindowSystem::DrawLayer::Normal, 32, 32, 32);
+				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_FiR").GetGraph(), xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2 + 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_FiR").GetGraph(), xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2 - 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_FiR").GetGraph(), xp + xsize / 2 + Xofs - ysize / 2 - 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_FiR").GetGraph(), xp + xsize / 2 + Xofs - ysize / 2 + 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				WindowSystem::DrawControl::Instance()->SetBright(WindowSystem::DrawLayer::Normal, 255, 255, 0);
+				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_FiR").GetGraph(), xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
 				Xofs -= (int)(64.f*(float)(ysize) / (float)(64.f));
 			}
 			if (this->GetTaskWorkData().GetNotFiR_Item().size() > 0) {
-				DrawControl::Instance()->SetBright(DrawLayer::Normal, 192, 192, 192);
-				DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2 + 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
-				DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2 - 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
-				DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2 - 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
-				DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2 + 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
-				DrawControl::Instance()->SetBright(DrawLayer::Normal, 0, 0, 255);
-				DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				WindowSystem::DrawControl::Instance()->SetBright(WindowSystem::DrawLayer::Normal, 192, 192, 192);
+				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_FiR").GetGraph(), xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2 + 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_FiR").GetGraph(), xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2 - 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_FiR").GetGraph(), xp + xsize / 2 + Xofs - ysize / 2 - 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_FiR").GetGraph(), xp + xsize / 2 + Xofs - ysize / 2 + 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				WindowSystem::DrawControl::Instance()->SetBright(WindowSystem::DrawLayer::Normal, 0, 0, 255);
+				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_FiR").GetGraph(), xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
 				Xofs -= (int)(64.f*(float)(ysize) / (float)(64.f));
 			}
 			if (this->GetTaskWorkData().GetMap().size() > 0) {
-				DrawControl::Instance()->SetBright(DrawLayer::Normal, 255, 255, 255);
-				DrawControl::Instance()->SetDrawRotaGuide("Map", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2 + 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
-				DrawControl::Instance()->SetDrawRotaGuide("Map", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2 - 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
-				DrawControl::Instance()->SetDrawRotaGuide("Map", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2 - 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
-				DrawControl::Instance()->SetDrawRotaGuide("Map", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2 + 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
-				DrawControl::Instance()->SetBright(DrawLayer::Normal, 0, 128, 0);
-				DrawControl::Instance()->SetDrawRotaGuide("Map", DrawLayer::Normal, xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				WindowSystem::DrawControl::Instance()->SetBright(WindowSystem::DrawLayer::Normal, 255, 255, 255);
+				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Map").GetGraph(), xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2 + 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Map").GetGraph(), xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2 - 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Map").GetGraph(), xp + xsize / 2 + Xofs - ysize / 2 - 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Map").GetGraph(), xp + xsize / 2 + Xofs - ysize / 2 + 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+				WindowSystem::DrawControl::Instance()->SetBright(WindowSystem::DrawLayer::Normal, 0, 128, 0);
+				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Map").GetGraph(), xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
 				Xofs -= (int)(64.f*(float)(ysize) / (float)(64.f));
 			}
-			DrawControl::Instance()->SetBright(DrawLayer::Normal, 255, 255, 255);
+			WindowSystem::DrawControl::Instance()->SetBright(WindowSystem::DrawLayer::Normal, 255, 255, 255);
 		}
 		if (IsClearTask) {
-			DrawControl::Instance()->SetDrawRotaFiR(DrawLayer::Normal, xp + xsize / 2, yp + ysize / 2, (float)(ysize) / (float)(LineHeight), 0.f, true);
+			if (DrawGraphs::Instance()->GetFirGraph().GetGraph()) {
+				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetFirGraph().GetGraph(), xp + xsize / 2, yp + ysize / 2, (float)(ysize) / (float)(LineHeight), 0.f, true);
+			}
 		}
 
 
 		return xsize;
 	}
-	void		TaskList::DrawWindow(WindowSystem::WindowControl* window, int xp, int yp, int *xs, int* ys) noexcept {
-		auto* WindowMngr = WindowSystem::WindowManager::Instance();
+	void		TaskList::DrawWindow(WindowMySystem::WindowControl* window, int xp, int yp, int *xs, int* ys) noexcept {
+		auto* WindowMngr = WindowMySystem::WindowManager::Instance();
 		auto* InterParts = InterruptParts::Instance();
 		int xofs = 0;
 		int yofs = LineHeight;
@@ -220,24 +222,28 @@ namespace FPS_n2 {
 		//必要
 		{
 			auto* ptr = DataBase::Instance()->GetTraderData()->FindPtr(GetTrader());
-			xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "トレーダー:%s Lv %d", ptr->GetName().c_str(), std::max(m_TaskNeedData.GetLL(), 1))); yofs += sizy;
+			WindowSystem::SetMsg(xp, yp + sizy/2 + yofs, sizy, STRX_LEFT, White, Black, "トレーダー:%s Lv %d", ptr->GetName().c_str(), std::max(m_TaskNeedData.GetLL(), 1));
+			xofs = std::max(xofs, WindowSystem::GetMsgLen(sizy, "トレーダー:%s Lv %d", ptr->GetName().c_str(), std::max(m_TaskNeedData.GetLL(), 1))); yofs += sizy;
 		}
 		if (m_TaskNeedData.GetLevel() >= 1) {
-			xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "必要レベル:%d", this->m_TaskNeedData.GetLevel())); yofs += sizy;
+			WindowSystem::SetMsg(xp, yp + sizy/2 + yofs, sizy, STRX_LEFT, White, Black, "必要レベル:%d", this->m_TaskNeedData.GetLevel());
+			xofs = std::max(xofs, WindowSystem::GetMsgLen(sizy, "必要レベル:%d", this->m_TaskNeedData.GetLevel())); yofs += sizy;
 		}
 		if (m_TaskNeedData.GetItem().size() > 0) {
-			xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "必要アイテム:")); yofs += sizy;
+			WindowSystem::SetMsg(xp, yp + sizy/2 + yofs, sizy, STRX_LEFT, White, Black, "必要アイテム:");
+			xofs = std::max(xofs, WindowSystem::GetMsgLen(sizy, "必要アイテム:")); yofs += sizy;
 			{
 				int Max = (int)this->m_TaskNeedData.GetItem().size();
 				if (Max > 0) {
-					xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + LineHeight + yofs, LineHeight, STRX_LEFT, White, Black, "ChildrenMods:") + y_r(30)); yofs += LineHeight + y_r(5);
+					WindowSystem::SetMsg(xp, yp + LineHeight/2 + yofs, LineHeight, STRX_LEFT, White, Black, "ChildrenMods:");
+					xofs = std::max(xofs, WindowSystem::GetMsgLen(LineHeight, "ChildrenMods:") + DXDraw::Instance()->GetUIY(30)); yofs += LineHeight + DXDraw::Instance()->GetUIY(5);
 
-					int ysize = y_r(36);
-					int ysizeAdd = ysize + y_r(5);
+					int ysize = DXDraw::Instance()->GetUIY(36);
+					int ysizeAdd = ysize + DXDraw::Instance()->GetUIY(5);
 
 					int ofset = (int)(this->m_Scroll.at(0).GetNowScrollYPer()*(std::max(0, Max - 4 + 1)*ysizeAdd));
 					int yofs_t = yofs;
-					yofs_t += LineHeight + y_r(5);
+					yofs_t += LineHeight + DXDraw::Instance()->GetUIY(5);
 					int ypMin = yp + yofs_t;
 					int ypMax = yp + yofs_t + ysizeAdd * 4;
 					int yp1 = yp + yofs_t - ofset;
@@ -245,31 +251,31 @@ namespace FPS_n2 {
 					for (const auto& LL : this->m_TaskNeedData.GetItem()) {
 						if (ypMin - ysizeAdd < yp1 && yp1 < ypMax) {
 							if (ypMin < yp1 && yp1 < ypMax - ysizeAdd) {
-								DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255);
+								WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255);
 							}
 							else {
 								if (yp1 <= ypMin) {
-									DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255 - std::clamp(255 * (ypMin - yp1) / ysizeAdd, 0, 255));
+									WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255 - std::clamp(255 * (ypMin - yp1) / ysizeAdd, 0, 255));
 								}
 								else {
-									DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255 - std::clamp(255 * (yp1 - (ypMax - ysizeAdd)) / ysizeAdd, 0, 255));
+									WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255 - std::clamp(255 * (yp1 - (ypMax - ysizeAdd)) / ysizeAdd, 0, 255));
 								}
 							}
 							auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(LL.GetID());
-							xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp1, y_r(800), ysize, LL.GetValue(), Gray10, !WindowMngr->PosHitCheck(window), false, true, false) + y_r(30));
+							xofs = std::max(xofs, ptr->Draw(xp + DXDraw::Instance()->GetUIY(30), yp1, DXDraw::Instance()->GetUIY(800), ysize, LL.GetValue(), Gray10, !WindowMngr->PosHitCheck(window), false, true, false) + DXDraw::Instance()->GetUIY(30));
 						}
 						yofs_t += ysizeAdd;
 						yp1 += ysizeAdd;
 					}
 
-					DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255);
+					WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255);
 					//スクロールバー
 					{
 						float Total = (float)(yofs_t - yofs) / (ypMax - ypMin);
 						if (Total > 1.f) {
-							this->m_Scroll.at(0).ScrollBox(xp + y_r(30), ypMin, xp + y_r(30) + y_r(800) + y_r(30), ypMax, Total, !WindowMngr->PosHitCheck(window));
+							this->m_Scroll.at(0).ScrollBox(xp + DXDraw::Instance()->GetUIY(30), ypMin, xp + DXDraw::Instance()->GetUIY(30) + DXDraw::Instance()->GetUIY(800) + DXDraw::Instance()->GetUIY(30), ypMax, Total, !WindowMngr->PosHitCheck(window));
 						}
-						xofs += y_r(30) + y_r(30);
+						xofs += DXDraw::Instance()->GetUIY(30) + DXDraw::Instance()->GetUIY(30);
 					}
 					yofs = ypMax - yp;
 				}
@@ -277,49 +283,57 @@ namespace FPS_n2 {
 		}
 		//タスク内容
 		if (m_TaskWorkData.GetMap().size() > 0) {
-			xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "マップ指定:")); yofs += sizy;
+			WindowSystem::SetMsg(xp, yp + sizy/2 + yofs, sizy, STRX_LEFT, White, Black, "マップ指定:");
+			xofs = std::max(xofs, WindowSystem::GetMsgLen(sizy, "マップ指定:")); yofs += sizy;
 			for (auto& LL : this->m_TaskWorkData.GetMap()) {
 				auto* ptr = DataBase::Instance()->GetMapData()->FindPtr(LL);
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp + y_r(30), yp + yofs, xp + y_r(30), yp + sizy + yofs, sizy, STRX_LEFT, ptr->GetColors(0), Black, "%s", ptr->GetName().c_str()) + y_r(30)); yofs += sizy;
+				WindowSystem::SetMsg(xp + DXDraw::Instance()->GetUIY(30), yp + sizy/2 + yofs, sizy, STRX_LEFT, ptr->GetColors(0), Black, "%s", ptr->GetName().c_str());
+				xofs = std::max(xofs, WindowSystem::GetMsgLen(sizy, "%s", ptr->GetName().c_str()) + DXDraw::Instance()->GetUIY(30)); yofs += sizy;
 			}
 		}
 		if (m_TaskWorkData.GetKill().size() > 0) {
-			xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "敵をキル:")); yofs += sizy;
+			WindowSystem::SetMsg(xp, yp + sizy/2 + yofs, sizy, STRX_LEFT, White, Black, "敵をキル:");
+			xofs = std::max(xofs, WindowSystem::GetMsgLen(sizy, "敵をキル:")); yofs += sizy;
 			for (auto& LL : this->m_TaskWorkData.GetKill()) {
 				auto* eny = DataBase::Instance()->GetEnemyData()->FindPtr(LL.GetEnemyID());
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp + y_r(30), yp + yofs, xp + y_r(30), yp + sizy + yofs, sizy, STRX_LEFT, eny->GetColors(0), Black, "%s x%2d", eny->GetName().c_str(), LL.GetKillCount()) + y_r(30));
+				WindowSystem::SetMsg(xp + DXDraw::Instance()->GetUIY(30), yp + sizy/2 + yofs, sizy, STRX_LEFT, eny->GetColors(0), Black, "%s x%2d", eny->GetName().c_str(), LL.GetKillCount());
+				xofs = std::max(xofs, WindowSystem::GetMsgLen(sizy, "%s x%2d", eny->GetName().c_str(), LL.GetKillCount()) + DXDraw::Instance()->GetUIY(30));
 				if (LL.GetMapID() != InvalidID) {
 					auto* ptr = DataBase::Instance()->GetMapData()->FindPtr(LL.GetMapID());
-					xofs = std::max(xofs, WindowSystem::SetMsg(xp + y_r(250), yp + yofs, xp + y_r(250), yp + sizy + yofs, LineHeight * 8 / 10, STRX_LEFT, ptr->GetColors(0), Black, " in %s", ptr->GetName().c_str()));
+					WindowSystem::SetMsg(xp + DXDraw::Instance()->GetUIY(250), yp + sizy/2 + yofs, LineHeight * 8 / 10, STRX_LEFT, ptr->GetColors(0), Black, " in %s", ptr->GetName().c_str());
+					xofs = std::max(xofs, WindowSystem::GetMsgLen(sizy, " in %s", ptr->GetName().c_str()));
 				}
 				yofs += sizy;
 			}
 		}
 		if (m_TaskWorkData.GetFiR_Item().size() > 0) {
-			xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "Firアイテムの納品:")); yofs += sizy;
+			WindowSystem::SetMsg(xp, yp + sizy / 2 + yofs, sizy, STRX_LEFT, White, Black, "Firアイテムの納品:");
+			xofs = std::max(xofs, WindowSystem::GetMsgLen(sizy, "Firアイテムの納品:")); yofs += sizy;
 			yofs += LineHeight;
 			for (const auto& LL : this->m_TaskWorkData.GetFiR_Item()) {
 				auto ID = LL.GetID();
 				auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(ID);
-				int total_size = y_r(48);
-				xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetValue(), Gray10, !WindowMngr->PosHitCheck(window), true, true, false) + y_r(30));
+				int total_size = DXDraw::Instance()->GetUIY(48);
+				xofs = std::max(xofs, ptr->Draw(xp + DXDraw::Instance()->GetUIY(30), yp + yofs, 0, total_size, LL.GetValue(), Gray10, !WindowMngr->PosHitCheck(window), true, true, false) + DXDraw::Instance()->GetUIY(30));
 				yofs += total_size;
 			}
 		}
 		if (m_TaskWorkData.GetNotFiR_Item().size() > 0) {
-			xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "Firでなくてよいアイテムの納品:")); yofs += sizy;
+			WindowSystem::SetMsg(xp, yp + sizy/2 + yofs, sizy, STRX_LEFT, White, Black, "Firでなくてよいアイテムの納品:");
+			xofs = std::max(xofs, WindowSystem::GetMsgLen(sizy, "Firでなくてよいアイテムの納品:")); yofs += sizy;
 			yofs += LineHeight;
 			for (const auto& LL : this->m_TaskWorkData.GetNotFiR_Item()) {
 				auto ID = LL.GetID();
 				auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(ID);
-				int total_size = y_r(48);
-				xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetValue(), Gray10, !WindowMngr->PosHitCheck(window), false, true, false) + y_r(30));
+				int total_size = DXDraw::Instance()->GetUIY(48);
+				xofs = std::max(xofs, ptr->Draw(xp + DXDraw::Instance()->GetUIY(30), yp + yofs, 0, total_size, LL.GetValue(), Gray10, !WindowMngr->PosHitCheck(window), false, true, false) + DXDraw::Instance()->GetUIY(30));
 				yofs += total_size;
 			}
 		}
 
 		if (m_TaskWorkData.GetWeaponPreset().size() > 0) {
-			xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "カスタム品の納品:")); yofs += sizy;
+			WindowSystem::SetMsg(xp, yp + sizy/2 + yofs, sizy, STRX_LEFT, White, Black, "カスタム品の納品:");
+			xofs = std::max(xofs, WindowSystem::GetMsgLen(sizy, "カスタム品の納品:")); yofs += sizy;
 			yofs += LineHeight;
 			//
 			for (const auto& LL : this->m_TaskWorkData.GetWeaponPreset()) {
@@ -327,30 +341,37 @@ namespace FPS_n2 {
 				int total_size = LineHeight;
 				int XSize = WindowSystem::GetMsgLen(total_size, ptr->GetName());
 
-				if (WindowSystem::ClickCheckBox(xp + y_r(30), yp + yofs, xp + y_r(30) + XSize, yp + yofs + total_size, false, true, Gray10, ptr->GetName())) {
+				if (WindowSystem::SetMsgClickBox(xp + DXDraw::Instance()->GetUIY(30), yp + yofs, xp + DXDraw::Instance()->GetUIY(30) + XSize, yp + yofs + total_size, total_size, Gray10, false, true, ptr->GetName())) {
 					InterParts->GotoNext(BGSelect::Custom);
 					InterParts->SetInitParam(0, (int)ptr->GetBase()->GetID());//武器ID
 					InterParts->SetInitParam(1, (int)ptr->GetID());//プリセットID
 				}
-				xofs = std::max(xofs, XSize + y_r(30));
+				xofs = std::max(xofs, XSize + DXDraw::Instance()->GetUIY(30));
 				yofs += total_size;
 			}
 		}
 		if (m_TaskWorkData.GetElseMsg().size() > 0) {
-			xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "メモ:")); yofs += sizy;
+			WindowSystem::SetMsg(xp, yp + sizy/2 + yofs, sizy, STRX_LEFT, White, Black, "メモ:");
+			xofs = std::max(xofs, WindowSystem::GetMsgLen(sizy, "メモ:")); yofs += sizy;
 			for (auto& m : this->m_TaskWorkData.GetElseMsg()) {
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, m.c_str())); yofs += sizy;
+				WindowSystem::SetMsg(xp, yp + sizy/2 + yofs, sizy, STRX_LEFT, White, Black, m.c_str());
+				xofs = std::max(xofs, WindowSystem::GetMsgLen(sizy, m.c_str())); yofs += sizy;
 			}
 		}
 		//
 		if ((m_TaskRewardData.GetLLAdd().size() > 0) || (m_TaskRewardData.GetItem().size() > 0)) {
-			xofs = std::max(xofs, WindowSystem::SetMsg(xp, yp + yofs, xp, yp + sizy + yofs, sizy, STRX_LEFT, White, Black, "報酬アイテム:")); yofs += sizy;
+			WindowSystem::SetMsg(xp, yp + sizy/2 + yofs, sizy, STRX_LEFT, White, Black, "報酬アイテム:");
+			xofs = std::max(xofs, WindowSystem::GetMsgLen(sizy, "報酬アイテム:")); yofs += sizy;
 			yofs += LineHeight;
 		}
 		if (m_TaskRewardData.GetLLAdd().size() > 0) {
 			for (auto& LL : this->m_TaskRewardData.GetLLAdd()) {
 				auto* trader2 = DataBase::Instance()->GetTraderData()->FindPtr(LL.GetID());
-				xofs = std::max(xofs, WindowSystem::SetMsg(xp + y_r(30), yp + yofs, xp + y_r(30), yp + sizy + yofs, sizy, STRX_LEFT, trader2->GetColors(0), Black, "%s %s%4.2f",
+				WindowSystem::SetMsg(xp + DXDraw::Instance()->GetUIY(30), yp + sizy/2 + yofs, sizy, STRX_LEFT, trader2->GetColors(0), Black, "%s %s%4.2f",
+					trader2->GetName().c_str(),
+					(LL.GetValue() >= 0.f) ? "+" : "-",
+					(float)(LL.GetValue()) / 100.f);
+				xofs = std::max(xofs, WindowSystem::GetMsgLen(sizy, "%s %s%4.2f",
 					trader2->GetName().c_str(),
 					(LL.GetValue() >= 0.f) ? "+" : "-",
 					(float)(LL.GetValue()) / 100.f)); yofs += sizy;
@@ -360,8 +381,8 @@ namespace FPS_n2 {
 			for (const auto& LL : this->m_TaskRewardData.GetItem()) {
 				auto ID = LL.GetID();
 				auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(ID);
-				int total_size = y_r(48);
-				xofs = std::max(xofs, ptr->Draw(xp + y_r(30), yp + yofs, 0, total_size, LL.GetValue(), Gray10, !WindowMngr->PosHitCheck(window), true, true, false) + y_r(30));
+				int total_size = DXDraw::Instance()->GetUIY(48);
+				xofs = std::max(xofs, ptr->Draw(xp + DXDraw::Instance()->GetUIY(30), yp + yofs, 0, total_size, LL.GetValue(), Gray10, !WindowMngr->PosHitCheck(window), true, true, false) + DXDraw::Instance()->GetUIY(30));
 				yofs += total_size;
 			}
 			//yofs += sizy;
@@ -1191,7 +1212,7 @@ namespace FPS_n2 {
 					//既存のものを保持しておく
 					std::ofstream outputfile(L.GetFilePath(), std::ios::app);
 					for (const auto& p : L.GetTaskWorkData().GetPin()) {
-						outputfile << "Task_PinPoint=[" + std::to_string(p.m_Point.x()) + DIV_STR + std::to_string(p.m_Point.y()) + DIV_STR + std::to_string(p.m_Point.z()) + "]\n";
+						outputfile << "Task_PinPoint=[" + std::to_string(p.m_Point.x) + DIV_STR + std::to_string(p.m_Point.y) + DIV_STR + std::to_string(p.m_Point.z) + "]\n";
 						outputfile << "Task_PinMap=[" + DataBase::Instance()->GetMapData()->FindPtr(p.m_MapID)->GetName() + DIV_STR + std::to_string(p.m_MapSel) + "]\n";
 					}
 					outputfile.close();

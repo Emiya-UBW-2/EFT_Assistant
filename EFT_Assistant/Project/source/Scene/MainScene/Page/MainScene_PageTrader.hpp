@@ -9,7 +9,7 @@ namespace FPS_n2 {
 	private:
 		TraderID	m_EditTraderID{ InvalidID };
 		int			m_LLSelect{ 0 };
-		WindowSystem::ScrollBoxClass		m_Scroll;
+		WindowMySystem::ScrollBoxClass		m_Scroll;
 	private:
 		void Init_Sub(int *, int *, float*) noexcept override;
 		void LateExecute_Sub(int*, int*, float*) noexcept override {}

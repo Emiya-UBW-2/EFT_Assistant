@@ -28,8 +28,8 @@ namespace FPS_n2 {
 		bool							m_DrawCanClearTask{ false };
 		bool							m_DrawCanClearHideout{ false };
 
-		WindowSystem::SearchBox			m_SearchBox;
-		WindowSystem::ScrollBoxClass	m_Scroll;
+		WindowMySystem::SearchBox			m_SearchBox;
+		WindowMySystem::ScrollBoxClass	m_Scroll;
 		float							m_YNow{ 0.f };
 
 		EnumListDrawMode				m_Mode{ EnumListDrawMode::Normal };

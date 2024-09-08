@@ -1,24 +1,15 @@
 #pragma once
 #include "../Header.hpp"
 
-#define EdgeSize	y_r(2)
-#define LineHeight	y_r(36)
-
 namespace FPS_n2 {
 	//カラー指定
-	static const unsigned int Red{ GetColor(255, 0, 0) };
 	static const unsigned int Red25{ GetColor(192, 0, 0) };
 	static const unsigned int Red50{ GetColor(128, 0, 0) };
 	static const unsigned int RedPop{ GetColor(255, 50, 50) };
 	static const unsigned int Blue{ GetColor(50, 50, 255) };
 	static const unsigned int DarkGreen{ GetColor(21, 128, 45) };
 	static const unsigned int Green{ GetColor(43, 255, 91) };
-	static const unsigned int White{ GetColor(255, 255, 255) };
 	static const unsigned int Gray10{ GetColor(230, 230, 230) };
-	static const unsigned int Gray15{ GetColor(218, 218, 218) };
-	static const unsigned int Gray25{ GetColor(192, 192, 192) };
-	static const unsigned int Gray50{ GetColor(128, 128, 128) };
-	static const unsigned int Gray75{ GetColor(64, 64, 64) };
 	static const unsigned int Black{ GetColor(1, 1, 1) };
 	static const unsigned int TransColor{ GetColor(0, 0, 0) };
 	//
@@ -29,72 +20,8 @@ namespace FPS_n2 {
 	static const auto STRY_MIDDLE{ FontHandle::FontYCenter::MIDDLE };
 	static const auto STRY_BOTTOM{ FontHandle::FontYCenter::BOTTOM };
 	//
-	namespace WindowSystem {
-		//箱
-		extern void SetBox(int xp1, int yp1, int xp2, int yp2, unsigned int colorSet);
-		//文字
-		template <typename... Args>
-		extern int GetMsgLen(int size, std::string_view String, Args&&... args) {
-			auto* Fonts = FontPool::Instance();
-			return Fonts->Get(FontPool::FontType::Nomal_Edge, size).GetStringWidth(-1, ((std::string)String).c_str(), args...) + y_r(6) + 2;//エッジ分:
-		}
-		template <typename... Args>
-		extern int SetMsg(int xp1, int yp1, int xp2, int yp2, int size, FontHandle::FontXCenter FontX, unsigned int Color, unsigned int EdleColor, std::string_view String, Args&&... args) {
-			if (String == "") { return 0; }
-			auto* DrawParts = DXDraw::Instance();
-			int xSize = GetMsgLen(size, String, args...);
-			int xpos = 0;
-			int ypos = yp1 + (yp2 - yp1) / 2;
-			if ((ypos - size / 2) > DrawParts->m_DispYSize || (ypos + size / 2) < 0) { return 0; }				//画面外は表示しない
-			switch (FontX) {
-			case STRX_LEFT:
-				xpos = xp1 + y_r(6);
-				if ((xpos) > DrawParts->m_DispXSize || (xpos + xSize) < 0) { return 0; }						//画面外は表示しない
-				break;
-			case STRX_MID:
-				xpos = xp1 + (xp2 - xp1) / 2;
-				if ((xpos - xSize / 2) > DrawParts->m_DispXSize || (xpos + xSize / 2) < 0) { return 0; }		//画面外は表示しない
-				break;
-			case STRX_RIGHT:
-				xpos = xp2 - y_r(6);
-				if ((xpos - xSize) > DrawParts->m_DispXSize || (xpos) < 0) { return 0; }						//画面外は表示しない
-				break;
-			default:
-				break;
-			}
-			DrawControl::Instance()->SetString(DrawLayer::Normal, FontPool::FontType::Nomal_Edge, size, FontX, STRY_MIDDLE, xpos, ypos, Color, EdleColor, ((std::string)String).c_str(), args...);
-			return xSize;//エッジ分
-		}
-		template <typename... Args>
-		extern bool ClickCheckBox(int xp1, int yp1, int xp2, int yp2, bool isrepeat, bool IsActive, unsigned int defaultcolor, std::string_view String, Args&&... args) {
-			auto* Input = InputControl::Instance();
-			unsigned int color = defaultcolor;
-			bool isHit = false;
-			if (IsActive && in2_(Input->GetMouseX(), Input->GetMouseY(), xp1, yp1, xp2, yp2)) {
-				color = White;
-				if (Input->GetLeftClick().press()) {
-					if (Input->GetLeftClick().trigger()) {
-						isHit = true;
-					}
-				}
-				if (0 < Input->GetLeftPressTimer() && Input->GetLeftPressTimer() < 0.1f) {
-					color = Black;
-				}
-				if (isrepeat && Input->GetLeftPressTimer() > 0.5f) {
-					isHit = true;
-					color = Gray50;
-				}
-
-				HCURSOR hCursor = LoadCursor(NULL, IDC_HAND);
-				SetCursor(hCursor);
-			}
-			SetBox(xp1, yp1, xp2, yp2, color);
-			SetMsg(xp1, yp1, xp2, yp2, std::min(LineHeight, yp2 - yp1) - y_r(6), STRX_MID, White, Black, String, args...);
-			return isHit;
-		};
+	namespace WindowMySystem {
 		extern bool CloseButton(int xp1, int yp1);
-		extern void CheckBox(int xp1, int yp1, bool* switchturn);
-		extern void	UpDownBar(int xmin, int xmax, int yp, int* value, int valueMin, int valueMax);
 		//
 		class ScrollBoxClass {
 			bool		m_IsChangeScrollY{ false };
@@ -167,7 +94,7 @@ namespace FPS_n2 {
 			WindowManager() noexcept {}
 			~WindowManager() noexcept {}
 		public:
-			const auto	PosHitCheck(WindowSystem::WindowControl* window) const noexcept {
+			const auto	PosHitCheck(WindowMySystem::WindowControl* window) const noexcept {
 				auto res = std::find_if(m_WindowControl.begin(), this->m_WindowControl.end(), [&](const std::shared_ptr<WindowControl>& tgt) { return(tgt.get() == window); });
 				bool isSel = (window == nullptr);
 				for (auto& w : this->m_WindowControl) {

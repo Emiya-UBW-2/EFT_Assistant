@@ -5,7 +5,9 @@ namespace FPS_n2 {
 	class MAINLOOPLOADER : public TEMPSCENE {
 	private:
 	public:
-		MAINLOOPLOADER(void) noexcept {}
+		MAINLOOPLOADER(void) noexcept {
+			Set3DActive(false);
+		}
 	public:
 		void Set_Sub(void) noexcept  override;
 		bool Update_Sub(void) noexcept  override;

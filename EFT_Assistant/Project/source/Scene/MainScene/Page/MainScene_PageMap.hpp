@@ -32,7 +32,7 @@ namespace FPS_n2 {
 		int			mouse_moveX{ 0 };
 		int			mouse_moveY{ 0 };
 
-		VECTOR_ref	m_BaseLength;
+		Vector3DX	m_BaseLength;
 
 		Graphs		ComPass;
 		float		m_ComPassRad{ 0.f };

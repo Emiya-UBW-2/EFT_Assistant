@@ -9,7 +9,7 @@ namespace FPS_n2 {
 	private:
 		ItemTypeID						m_ItemTypeSel{ InvalidID };
 		MapID							m_MapTypeSel{ InvalidID };
-		WindowSystem::ScrollBoxClass	m_Scroll;
+		WindowMySystem::ScrollBoxClass	m_Scroll;
 		float							m_YNow{ 0.f };
 		bool							m_RaidMode{ false };
 
@@ -18,7 +18,7 @@ namespace FPS_n2 {
 		bool							m_ValueSort{ false };
 		bool							m_ValuePerSort{ false };
 
-		WindowSystem::SearchBox			m_SearchBox;
+		WindowMySystem::SearchBox			m_SearchBox;
 	private:
 		void Init_Sub(int *, int *, float*) noexcept override;
 		void LateExecute_Sub(int*, int*, float*) noexcept override {}

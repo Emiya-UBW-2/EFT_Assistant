@@ -1,0 +1,114 @@
+0000=MS UI Gothic
+0001=MS UI Gothic
+
+0010=Your System does not support DirectX11 version. Working with old version.
+
+0020=Close
+
+0100=Exit
+0101=Return to Desktop?
+0102=Yes
+2101=Restart Game?
+2102=Restart
+
+0120=Credit
+
+0109=initial settings. Please check gamepad input system or graphics.
+
+2000=Check PC
+2001=Check CPU
+2002=Good
+2003=Enough
+2004=Not Good
+2005=CPU Not Found
+
+2011=Check RAM(≧2GB)
+2012=Enough
+2013=Not Good
+
+2021=Check GPU
+2022=Good
+2023=Enough
+2024=Not Good
+2025=GPU Not Found
+
+2035=使用中のDirectX
+
+2040=You can get enough FPS.
+2041=Have to Set Middle Graphics Preset.
+2042=Have to Set Low Graphics Preset.
+2043=There is enough memory so no need to change any settings.
+2044=FPS may drop due to lack of memory.
+2045=You can get enough FPS.
+2046=Have to Set Middle Graphics Preset.
+2047=Have to Set Low Graphics Preset.
+2048=If DirectX11 is not available, screen effects cannot be used.
+
+0110=Option
+1110=Change BGM volume
+1111=Change SE volume
+1120=Select Graphics Preset
+1121=Select Window or Borderless
+1122=Change Vertical Fov
+1123=Enable VSync
+1124=Change FPS Limit When Disable VSync
+1125=Change DirectX version(Need Restart)
+1126=Enable FXAA
+1127=Enable Screen Space AO
+1128=Change Reflection Level
+1129=Change Shadow Level
+1130=Enable Draw Objects
+1131=Enable bloom Effect
+1132=Enable Screen Effect
+1133=Enable DoF
+1134=Enable Motion Blur
+1135=Window
+1136=Borderless
+1137=Change Render Scale(Need Restart)
+
+1140=Change X Sensitivity
+1141=Change Y Sensitivity
+1142=Enable Head Bobbing
+1144=Change Pad Input System
+1145=Change Language(Need Restart)
+
+1150=[Need Mouse]Reset Change
+1151=[Need Mouse]Over Pointer and Press Button to Set
+1152=[Need Mouse]Save Key Config
+1153=Go Front/Select Prev
+1154=Go Back/Select Next
+1155=Go Left/Select Left
+1156=Go Right/Select Right
+1157=Select Left Tab
+1158=Select Right Tab
+1159=Return
+1160=Decision
+1161=(Not Use)
+1162=(Not Use)
+1163=Fire Up
+1164=(Not Use)
+1165=Slow Walk
+1166=Men(Head)
+1167=Dou(Torso)
+1168=Kote(Right Arm)
+1169=(Not Use)
+1170=(Not Use)
+1171=(Not Use)
+
+0200=(アイテムログ)
+
+0300=(注意表示)
+
+9990=Exit
+9991=Return
+9992=Decision
+9993=Select
+9994=Change Tab
+
+9900=Move
+9903=Walk
+9905=Fire Up
+9906=Men(Head)
+9907=Dou(Torso)
+9908=Kote(Right Arm)
+9913=Pause

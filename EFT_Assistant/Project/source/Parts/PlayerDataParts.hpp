@@ -183,12 +183,14 @@ namespace FPS_n2 {
 	};
 	//
 	static void GetDirList(const char* DirPath, const std::function<void(const char*)>& Doing) noexcept {
-		auto data_t = GetFileNamesInDirectory(DirPath);
+		std::vector<WIN32_FIND_DATA> data_t;
+		GetFileNamesInDirectory(DirPath, &data_t);
 		for (auto& d : data_t) {
 			if (d.cFileName[0] != '.') {
 				Doing(d.cFileName);
 			}
 		}
+		data_t.clear();
 	}
 	//
 };

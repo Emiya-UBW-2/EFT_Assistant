@@ -39,9 +39,6 @@
     <ClInclude Include="source\Scene\MainSceneLoader.hpp">
       <Filter>ソース ファイル\Scene</Filter>
     </ClInclude>
-    <ClInclude Include="source\Parts\InputParts.hpp">
-      <Filter>ソース ファイル\Parts</Filter>
-    </ClInclude>
     <ClInclude Include="source\Parts\WindowParts.hpp">
       <Filter>ソース ファイル\Parts</Filter>
     </ClInclude>
@@ -201,9 +198,6 @@
       <Filter>ソース ファイル\Scene\Page</Filter>
     </ClCompile>
     <ClCompile Include="source\Parts\DrawSystem.cpp">
-      <Filter>ソース ファイル\Parts</Filter>
-    </ClCompile>
-    <ClCompile Include="source\Parts\InputParts.cpp">
       <Filter>ソース ファイル\Parts</Filter>
     </ClCompile>
     <ClCompile Include="source\Parts\InterruptParts.cpp">

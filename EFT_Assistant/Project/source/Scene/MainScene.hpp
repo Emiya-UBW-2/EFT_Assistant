@@ -15,6 +15,10 @@ namespace FPS_n2 {
 		//
 		bool														m_WindowMove{ false };
 		bool														m_DrawLog{ false };
+	public:
+		MAINLOOP() noexcept {
+			Set3DActive(false);
+		}
 	private:
 		bool IsOpen() const noexcept { return(this->m_PullDown >= 1.f); }
 	public:
@@ -25,6 +29,6 @@ namespace FPS_n2 {
 		void Dispose_Sub(void) noexcept override;
 	public:
 		void BG_Draw_Sub(void) noexcept override {}
-		void DrawUI_In_Sub(void) noexcept override;
+		void DrawUI_In_Sub(void) noexcept override {}
 	};
 };

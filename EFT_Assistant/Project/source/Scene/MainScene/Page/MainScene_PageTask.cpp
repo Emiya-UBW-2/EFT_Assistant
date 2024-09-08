@@ -3,7 +3,7 @@
 
 namespace FPS_n2 {
 	void TaskBG::DrawChildTaskClickBox(float Scale, TaskID ParentID, int start_x, int start_y, int xp, int yp, int xs, int ys, bool parentCanDo) noexcept {
-		auto* WindowMngr = WindowSystem::WindowManager::Instance();
+		auto* WindowMngr = WindowMySystem::WindowManager::Instance();
 		if (ParentID == InvalidID) {
 			m_posxMaxBuffer = 0;
 			m_posyMaxBuffer = 0;
@@ -32,15 +32,15 @@ namespace FPS_n2 {
 				}
 
 				if (ParentID != InvalidID) {
-					auto XAddLine = (int)((float)y_r(25) * Scale);
+					auto XAddLine = (int)((float)DXDraw::Instance()->GetUIY(25) * Scale);
 					if (Scale > 0.6f) {
-						DrawControl::Instance()->SetDrawLine(DrawLayer::Back, start_x, start_y, start_x + XAddLine, start_y, Black, (int)(15.f * Scale));
-						DrawControl::Instance()->SetDrawLine(DrawLayer::Back, start_x + XAddLine, start_y, xp - XAddLine, yp + ys / 2, Black, (int)(15.f * Scale));
-						DrawControl::Instance()->SetDrawLine(DrawLayer::Back, xp - XAddLine, yp + ys / 2, xp, yp + ys / 2, Black, (int)(15.f * Scale));
+						WindowSystem::DrawControl::Instance()->SetDrawLine(WindowSystem::DrawLayer::Back, start_x, start_y, start_x + XAddLine, start_y, Black, (int)(15.f * Scale));
+						WindowSystem::DrawControl::Instance()->SetDrawLine(WindowSystem::DrawLayer::Back, start_x + XAddLine, start_y, xp - XAddLine, yp + ys / 2, Black, (int)(15.f * Scale));
+						WindowSystem::DrawControl::Instance()->SetDrawLine(WindowSystem::DrawLayer::Back, xp - XAddLine, yp + ys / 2, xp, yp + ys / 2, Black, (int)(15.f * Scale));
 					}
-					DrawControl::Instance()->SetDrawLine(DrawLayer::Back2, start_x, start_y, start_x + XAddLine, start_y, Red, (int)(5.f * Scale));
-					DrawControl::Instance()->SetDrawLine(DrawLayer::Back2, start_x + XAddLine, start_y, xp - XAddLine, yp + ys / 2, Red, (int)(5.f * Scale));
-					DrawControl::Instance()->SetDrawLine(DrawLayer::Back2, xp - XAddLine, yp + ys / 2, xp, yp + ys / 2, Red, (int)(5.f * Scale));
+					WindowSystem::DrawControl::Instance()->SetDrawLine(WindowSystem::DrawLayer::Back2, start_x, start_y, start_x + XAddLine, start_y, Red, (int)(5.f * Scale));
+					WindowSystem::DrawControl::Instance()->SetDrawLine(WindowSystem::DrawLayer::Back2, start_x + XAddLine, start_y, xp - XAddLine, yp + ys / 2, Red, (int)(5.f * Scale));
+					WindowSystem::DrawControl::Instance()->SetDrawLine(WindowSystem::DrawLayer::Back2, xp - XAddLine, yp + ys / 2, xp, yp + ys / 2, Red, (int)(5.f * Scale));
 					//
 					if (tasks.GetTaskNeedData().GetParenttaskID().size() > 1) {//2つ以上親がある場合
 						for (const auto& p : tasks.GetTaskNeedData().GetParenttaskID()) {
@@ -49,13 +49,13 @@ namespace FPS_n2 {
 									if (p.GetID() == ppos.m_ID) {
 										//
 										if (Scale > 0.6f) {
-											DrawControl::Instance()->SetDrawLine(DrawLayer::Back3, ppos.m_XPos, ppos.m_YPos, ppos.m_XPos + XAddLine, ppos.m_YPos, Black, (int)(15.f * Scale));
-											DrawControl::Instance()->SetDrawLine(DrawLayer::Back3, ppos.m_XPos + XAddLine, ppos.m_YPos, xp - XAddLine, yp + ys / 2, Black, (int)(15.f * Scale));
-											DrawControl::Instance()->SetDrawLine(DrawLayer::Back3, xp - XAddLine, yp + ys / 2, xp, yp + ys / 2, Black, (int)(15.f * Scale));
+											WindowSystem::DrawControl::Instance()->SetDrawLine(WindowSystem::DrawLayer::Back3, ppos.m_XPos, ppos.m_YPos, ppos.m_XPos + XAddLine, ppos.m_YPos, Black, (int)(15.f * Scale));
+											WindowSystem::DrawControl::Instance()->SetDrawLine(WindowSystem::DrawLayer::Back3, ppos.m_XPos + XAddLine, ppos.m_YPos, xp - XAddLine, yp + ys / 2, Black, (int)(15.f * Scale));
+											WindowSystem::DrawControl::Instance()->SetDrawLine(WindowSystem::DrawLayer::Back3, xp - XAddLine, yp + ys / 2, xp, yp + ys / 2, Black, (int)(15.f * Scale));
 										}
-										DrawControl::Instance()->SetDrawLine(DrawLayer::Back4, ppos.m_XPos, ppos.m_YPos, ppos.m_XPos + XAddLine, ppos.m_YPos, Red, (int)(5.f * Scale));
-										DrawControl::Instance()->SetDrawLine(DrawLayer::Back4, ppos.m_XPos + XAddLine, ppos.m_YPos, xp - XAddLine, yp + ys / 2, Red, (int)(5.f * Scale));
-										DrawControl::Instance()->SetDrawLine(DrawLayer::Back4, xp - XAddLine, yp + ys / 2, xp, yp + ys / 2, Red, (int)(5.f * Scale));
+										WindowSystem::DrawControl::Instance()->SetDrawLine(WindowSystem::DrawLayer::Back4, ppos.m_XPos, ppos.m_YPos, ppos.m_XPos + XAddLine, ppos.m_YPos, Red, (int)(5.f * Scale));
+										WindowSystem::DrawControl::Instance()->SetDrawLine(WindowSystem::DrawLayer::Back4, ppos.m_XPos + XAddLine, ppos.m_YPos, xp - XAddLine, yp + ys / 2, Red, (int)(5.f * Scale));
+										WindowSystem::DrawControl::Instance()->SetDrawLine(WindowSystem::DrawLayer::Back4, xp - XAddLine, yp + ys / 2, xp, yp + ys / 2, Red, (int)(5.f * Scale));
 										//
 									}
 								}
@@ -68,11 +68,11 @@ namespace FPS_n2 {
 				m_posxMaxBuffer = std::max(m_posxMaxBuffer, xp + xs);
 				m_posyMaxBuffer = std::max(m_posyMaxBuffer, yp + ys + suby);
 				{
-					Rect2D tmp; tmp.Set(xp, yp, xs, suby);
+					WindowSystem::Rect2D tmp; tmp.Set(xp, yp, xs, suby);
 					m_TaskRect.emplace_back(tmp);
 				}
-				Rect2D P_Next;
-				P_Next.Set(xp + (xs + (int)((float)y_r(400) * Scale)), yp, xs, suby);
+				WindowSystem::Rect2D P_Next;
+				P_Next.Set(xp + (xs + (int)((float)DXDraw::Instance()->GetUIY(400) * Scale)), yp, xs, suby);
 				//xs, ys
 				//被ってたら下に下げる
 				while (true) {
@@ -80,7 +80,7 @@ namespace FPS_n2 {
 					for (auto&r : this->m_TaskRect) {
 						if (r.IsHit(P_Next)) {
 							isHit = true;
-							P_Next.Set(xp + (xs + (int)((float)y_r(400) * Scale)), P_Next.GetPosY() + ys * 3 / 2, xs, suby);
+							P_Next.Set(xp + (xs + (int)((float)DXDraw::Instance()->GetUIY(400) * Scale)), P_Next.GetPosY() + ys * 3 / 2, xs, suby);
 							break;
 						}
 					}
@@ -91,7 +91,7 @@ namespace FPS_n2 {
 				DrawChildTaskClickBox(Scale, tasks.GetID(), xp + xs, yp + ys / 2, P_Next.GetPosX(), P_Next.GetPosY(), xs, ys, parentCanDo_t);
 				//
 				if (ParentID == InvalidID) {
-					yp += (ys + (int)((float)y_r(800) * Scale));
+					yp += (ys + (int)((float)DXDraw::Instance()->GetUIY(800) * Scale));
 				}
 				else {
 					yp += (ys + suby);
@@ -104,15 +104,16 @@ namespace FPS_n2 {
 	}
 
 	void TaskBG::DrawTab(int xp, int yp, std::string_view Info) noexcept {
-		xp -= y_r(64 + 4);
-		auto size = WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_RIGHT, White, Black, Info);
-		DrawControl::Instance()->SetDrawLine(DrawLayer::Normal, xp - size, yp + LineHeight, xp + y_r(64), yp + LineHeight, Gray25, y_r(4));
+		xp -= DXDraw::Instance()->GetUIY(64 + 4);
+		auto size = WindowSystem::GetMsgLen(LineHeight, Info);
+		WindowSystem::SetMsg(xp, yp + LineHeight / 2, LineHeight, STRX_RIGHT, White, Black, Info);
+		WindowSystem::DrawControl::Instance()->SetDrawLine(WindowSystem::DrawLayer::Normal, xp - size, yp + LineHeight, xp + DXDraw::Instance()->GetUIY(64), yp + LineHeight, Gray25, DXDraw::Instance()->GetUIY(4));
 	}
 	void TaskBG::DrawCheckBox(int xp, int yp, std::string_view Info, bool* Check) noexcept {
-		xp -= y_r(64 + 4);
+		xp -= DXDraw::Instance()->GetUIY(64 + 4);
 		auto OLD = *Check;
-		WindowSystem::CheckBox(xp, yp, Check);
-		WindowSystem::SetMsg(xp, yp, xp, yp + LineHeight, LineHeight, STRX_RIGHT, White, Black, Info);
+		*Check = WindowSystem::CheckBox(xp, yp, *Check);
+		WindowSystem::SetMsg(xp, yp + LineHeight / 2, LineHeight, STRX_RIGHT, White, Black, Info);
 		if (OLD != *Check) {
 			//m_IsListChange = true;
 		}
@@ -121,8 +122,8 @@ namespace FPS_n2 {
 	void TaskBG::Init_Sub(int *posx, int *posy, float* Scale) noexcept {
 		*Scale = 0.3f;
 
-		*posx = y_r(20);
-		*posy = LineHeight + y_r(120);
+		*posx = DXDraw::Instance()->GetUIY(20);
+		*posy = LineHeight + DXDraw::Instance()->GetUIY(120);
 
 		m_Mode = EnumTaskDrawMode::Normal;
 
@@ -135,16 +136,16 @@ namespace FPS_n2 {
 		if (m_Mode == EnumTaskDrawMode::List) {
 			*Scale = 0.3f;
 
-			*posx = y_r(20);
-			*posy = LineHeight + y_r(120);
+			*posx = DXDraw::Instance()->GetUIY(20);
+			*posy = LineHeight + DXDraw::Instance()->GetUIY(120);
 		}
 	}
 	void TaskBG::Draw_Back_Sub(int posx, int posy, float Scale) noexcept {
-		auto* WindowMngr = WindowSystem::WindowManager::Instance();
+		auto* WindowMngr = WindowMySystem::WindowManager::Instance();
 		switch (m_Mode) {
 		case EnumTaskDrawMode::Tree:
 		{
-			int xs = (int)((float)y_r(800) * Scale);
+			int xs = (int)((float)DXDraw::Instance()->GetUIY(800) * Scale);
 			int ys = (int)((float)LineHeight * 2 * Scale);
 			m_ParentLinePos.clear();
 			m_Drawed.clear();
@@ -181,10 +182,10 @@ namespace FPS_n2 {
 				int ypBase = posy;
 				int xp = xpBase;
 				int yp = ypBase;
-				int xsize = (int)((float)y_r(640)*Scale);
-				int ysize = (int)((float)y_r(96)*Scale);
-				int xsizeAdd = (int)((float)y_r(640 + 30)*Scale);
-				int ysizeAdd = (int)((float)y_r(96 + 15)*Scale);
+				int xsize = (int)((float)DXDraw::Instance()->GetUIY(640)*Scale);
+				int ysize = (int)((float)DXDraw::Instance()->GetUIY(96)*Scale);
+				int xsizeAdd = (int)((float)DXDraw::Instance()->GetUIY(640 + 30)*Scale);
+				int ysizeAdd = (int)((float)DXDraw::Instance()->GetUIY(96 + 15)*Scale);
 
 				for (auto& Cat : DataBase::Instance()->GetItemCategoryData()->GetList()) {
 					bool IsHit = false;
@@ -196,7 +197,7 @@ namespace FPS_n2 {
 								if (ptr) {
 									ptr->Draw(xp, yp, xsize, ysize, (c.second >= 2) ? c.second : 0, Gray15, !WindowMngr->PosHitCheck(nullptr), false, false, Scale < 0.6f);
 									yp += ysizeAdd;
-									if ((yp - ypBase) >= (int)((float)y_r(1920)*Scale)) {
+									if ((yp - ypBase) >= (int)((float)DXDraw::Instance()->GetUIY(1920)*Scale)) {
 										xp += xsizeAdd;
 										yp = ypBase;
 									}
@@ -243,10 +244,10 @@ namespace FPS_n2 {
 				int ypBase = posy;
 				int xp = xpBase;
 				int yp = ypBase;
-				int xsize = (int)((float)y_r(640)*Scale);
-				int ysize = (int)((float)y_r(96)*Scale);
-				int xsizeAdd = (int)((float)y_r(640 + 30)*Scale);
-				int ysizeAdd = (int)((float)y_r(96 + 15)*Scale);
+				int xsize = (int)((float)DXDraw::Instance()->GetUIY(640)*Scale);
+				int ysize = (int)((float)DXDraw::Instance()->GetUIY(96)*Scale);
+				int xsizeAdd = (int)((float)DXDraw::Instance()->GetUIY(640 + 30)*Scale);
+				int ysizeAdd = (int)((float)DXDraw::Instance()->GetUIY(96 + 15)*Scale);
 
 				for (auto& Cat : DataBase::Instance()->GetItemCategoryData()->GetList()) {
 					bool IsHit = false;
@@ -258,7 +259,7 @@ namespace FPS_n2 {
 								if (ptr) {
 									ptr->Draw(xp, yp, xsize, ysize, (c.second >= 2) ? c.second : 0, Gray15, !WindowMngr->PosHitCheck(nullptr), false, false, Scale < 0.6f);
 									yp += ysizeAdd;
-									if ((yp - ypBase) >= (int)((float)y_r(1920)*Scale)) {
+									if ((yp - ypBase) >= (int)((float)DXDraw::Instance()->GetUIY(1920)*Scale)) {
 										xp += xsizeAdd;
 										yp = ypBase;
 									}
@@ -277,8 +278,8 @@ namespace FPS_n2 {
 		break;
 		case EnumTaskDrawMode::List:
 		{
-			int xpos = y_r(50);
-			int ypos = LineHeight + y_r(10) + LineHeight + y_r(10);
+			int xpos = DXDraw::Instance()->GetUIY(50);
+			int ypos = LineHeight + DXDraw::Instance()->GetUIY(10) + LineHeight + DXDraw::Instance()->GetUIY(10);
 
 			//描画
 			{
@@ -286,11 +287,11 @@ namespace FPS_n2 {
 				int ypBase = ypos - (int)m_YNow;
 				int xp = xpBase;
 				int yp = ypBase;
-				int ypMax = (y_r(1080) - y_r(40));
-				int xsize = y_r(1200);
+				int ypMax = (DXDraw::Instance()->GetUIY(1080) - DXDraw::Instance()->GetUIY(40));
+				int xsize = DXDraw::Instance()->GetUIY(1200);
 				int ysize = LineHeight;
-				int xsizeAdd = xsize + y_r(30);
-				int ysizeAdd = ysize + y_r(5);
+				int xsizeAdd = xsize + DXDraw::Instance()->GetUIY(30);
+				int ysizeAdd = ysize + DXDraw::Instance()->GetUIY(5);
 
 				for (auto& tasks : DataBase::Instance()->GetTaskData()->SetList()) {
 					{
@@ -323,21 +324,21 @@ namespace FPS_n2 {
 					}
 					if (ypos - ysizeAdd < yp && yp < ypMax) {
 						if (ypos - 1 < yp && yp < ypMax - ysizeAdd + 1) {
-							DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255);
+							WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255);
 						}
 						else {
 							if (yp <= ypos) {
-								DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255 - std::clamp(255 * (ypos - yp) / ysizeAdd, 0, 255));
+								WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255 - std::clamp(255 * (ypos - yp) / ysizeAdd, 0, 255));
 							}
 							else {
-								DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255 - std::clamp(255 * (yp - (ypMax - ysizeAdd)) / ysizeAdd, 0, 255));
+								WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255 - std::clamp(255 * (yp - (ypMax - ysizeAdd)) / ysizeAdd, 0, 255));
 							}
 						}
 						tasks.Draw(xp, yp, xsize, ysize, 0, !WindowMngr->PosHitCheck(nullptr));
 					}
 					yp += ysizeAdd;
 				}
-				DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255);
+				WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255);
 
 				int ScrPosX = xpos + xsizeAdd;
 				int ScrSizY = ypMax - ypos;
@@ -353,19 +354,19 @@ namespace FPS_n2 {
 	}
 	void TaskBG::DrawFront_Sub(int posx, int posy, float) noexcept {
 		auto* DrawParts = DXDraw::Instance();
-		auto* Input = InputControl::Instance();
+		auto* Pad = PadControl::Instance();
 		//モードセレクト
 		{
-			int xp = y_r(10) + y_r(200) + y_r(10);
-			int yp = LineHeight + y_r(10);
-			if (WindowSystem::ClickCheckBox(xp, yp, xp + y_r(400), yp + LineHeight, false, true, Gray25, TaskDrawModeStr[(int)m_Mode])) {
+			int xp = DXDraw::Instance()->GetUIY(10) + DXDraw::Instance()->GetUIY(200) + DXDraw::Instance()->GetUIY(10);
+			int yp = LineHeight + DXDraw::Instance()->GetUIY(10);
+			if (WindowSystem::SetMsgClickBox(xp, yp, xp + DXDraw::Instance()->GetUIY(400), yp + LineHeight, LineHeight, Gray25, false, true, TaskDrawModeStr[(int)m_Mode])) {
 				m_Mode = (EnumTaskDrawMode)(((int)m_Mode + 1) % (int)EnumTaskDrawMode::Max);
 			}
 			int Max = (int)EnumTaskDrawMode::Max;
 			for (int i = 0; i < Max; i++) {
 				WindowSystem::SetBox(
-					xp + y_r(400)*i / Max + y_r(5), yp + LineHeight + y_r(4),
-					xp + y_r(400)*(i + 1) / Max - y_r(5), yp + LineHeight + y_r(4) + y_r(6),
+					xp + DXDraw::Instance()->GetUIY(400)*i / Max + DXDraw::Instance()->GetUIY(5), yp + LineHeight + DXDraw::Instance()->GetUIY(4),
+					xp + DXDraw::Instance()->GetUIY(400)*(i + 1) / Max - DXDraw::Instance()->GetUIY(5), yp + LineHeight + DXDraw::Instance()->GetUIY(4) + DXDraw::Instance()->GetUIY(6),
 					(m_Mode == (EnumTaskDrawMode)i) ? Green : Gray25);
 			}
 		}
@@ -373,32 +374,32 @@ namespace FPS_n2 {
 		if (m_Mode == EnumTaskDrawMode::Tree) {
 			//場所ガイド
 			{
-				int xp = y_r(1440);
-				int yp = y_r(820);
+				int xp = DXDraw::Instance()->GetUIY(1440);
+				int yp = DXDraw::Instance()->GetUIY(820);
 
-				int xs = y_r(320);
-				int ys = y_r(180);
+				int xs = DXDraw::Instance()->GetUIY(320);
+				int ys = DXDraw::Instance()->GetUIY(180);
 
-				int x_p1 = std::max(posx * xs / DrawParts->m_DispXSize, -xs / 2);
-				int y_p1 = std::max(posy * ys / DrawParts->m_DispYSize, -ys / 2);
-				int x_p2 = std::min(this->m_posxMaxBuffer * xs / DrawParts->m_DispXSize, xs + xs / 2);
-				int y_p2 = std::min(this->m_posyMaxBuffer * ys / DrawParts->m_DispYSize, ys + ys / 2);
+				int x_p1 = std::max(posx * xs / DrawParts->GetScreenX(1920), -xs / 2);
+				int y_p1 = std::max(posy * ys / DrawParts->GetScreenY(1080), -ys / 2);
+				int x_p2 = std::min(this->m_posxMaxBuffer * xs / DrawParts->GetScreenX(1920), xs + xs / 2);
+				int y_p2 = std::min(this->m_posyMaxBuffer * ys / DrawParts->GetScreenY(1080), ys + ys / 2);
 
-				DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 64);
-				DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Black, TRUE);
-				DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255);
-				DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Green, FALSE);
-				DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xp, yp, xp + xs, yp + ys, Red, FALSE);
+				WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 64);
+				WindowSystem::SetBox(xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Black);
+				WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255);
+				WindowSystem::DrawControl::Instance()->SetDrawBox(WindowSystem::DrawLayer::Normal, xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Green, FALSE);
+				WindowSystem::DrawControl::Instance()->SetDrawBox(WindowSystem::DrawLayer::Normal, xp, yp, xp + xs, yp + ys, Red, FALSE);
 			}
 		}
 		//
 		if (m_Mode == EnumTaskDrawMode::Tree || this->m_Mode == EnumTaskDrawMode::List) {
 			//
 			{
-				if (!Input->GetSpaceKey().press()) {
-					DrawControl::Instance()->SetString(DrawLayer::Front,
-						FontPool::FontType::Nomal_Edge, LineHeight,
-						STRX_RIGHT, STRY_BOTTOM, Input->GetMouseX(), Input->GetMouseY(), RedPop, Black,
+				if (!Pad->GetKey(PADS::JUMP).press()) {
+					WindowSystem::DrawControl::Instance()->SetString(WindowSystem::DrawLayer::Front,
+						FontPool::FontType::MS_Gothic, LineHeight,
+						STRX_RIGHT, STRY_BOTTOM, Pad->GetMS_X(), Pad->GetMS_Y(), RedPop, Black,
 						"スペースを押しながらクリックでタスククリア"
 					);
 				}
@@ -406,75 +407,75 @@ namespace FPS_n2 {
 		}
 		//
 		if (m_Mode == EnumTaskDrawMode::List) {
-			int xp = y_r(1920) - y_r(16);
-			int yp = y_r(1080) - y_r(110) - y_r(40) * 9;
+			int xp = DXDraw::Instance()->GetUIY(1920) - DXDraw::Instance()->GetUIY(16);
+			int yp = DXDraw::Instance()->GetUIY(1080) - DXDraw::Instance()->GetUIY(110) - DXDraw::Instance()->GetUIY(40) * 9;
 			//背景
 			{
-				DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 32);
-				DrawControl::Instance()->SetDrawBox(DrawLayer::Normal, xp - y_r(340), yp, xp + y_r(5), yp + y_r(40) * 9 + y_r(5), Black, true);
-				DrawControl::Instance()->SetAlpha(DrawLayer::Normal, 255);
+				WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 32);
+				WindowSystem::SetBox(xp - DXDraw::Instance()->GetUIY(340), yp, xp + DXDraw::Instance()->GetUIY(5), yp + DXDraw::Instance()->GetUIY(40) * 9 + DXDraw::Instance()->GetUIY(5), Black);
+				WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255);
 			}
 			//
 			{
-				DrawTab(xp, yp, "タスクを表示:"); yp += y_r(40);
-				DrawCheckBox(xp, yp, "クリア済", &m_DrawClearTask); yp += y_r(40);
-				DrawCheckBox(xp, yp, "未クリア", &m_DrawNotClearTask); yp += y_r(40);
-				DrawCheckBox(xp, yp, "クリア可能", &m_DrawCanClearTask); yp += y_r(40);
+				DrawTab(xp, yp, "タスクを表示:"); yp += DXDraw::Instance()->GetUIY(40);
+				DrawCheckBox(xp, yp, "クリア済", &m_DrawClearTask); yp += DXDraw::Instance()->GetUIY(40);
+				DrawCheckBox(xp, yp, "未クリア", &m_DrawNotClearTask); yp += DXDraw::Instance()->GetUIY(40);
+				DrawCheckBox(xp, yp, "クリア可能", &m_DrawCanClearTask); yp += DXDraw::Instance()->GetUIY(40);
 			}
 			//
 			{
-				DrawTab(xp, yp, "凡例:"); yp += y_r(40);
-				int ysize = y_r(40);
+				DrawTab(xp, yp, "凡例:"); yp += DXDraw::Instance()->GetUIY(40);
+				int ysize = DXDraw::Instance()->GetUIY(40);
 				int ysizeI = ysize - 4;
 				{
-					DrawControl::Instance()->SetBright(DrawLayer::Normal, 255, 255, 255);
-					WindowSystem::SetMsg(xp - ysize, yp + ysize / 2, xp - ysize, yp + ysize / 2, LineHeight, STRX_RIGHT, White, Black, "敵をキル");
-					DrawControl::Instance()->SetBright(DrawLayer::Normal, 128, 128, 128);
-					DrawControl::Instance()->SetDrawRotaGuide("Task_Kill", DrawLayer::Normal, xp - ysize / 2, yp + ysize / 2 + 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
-					DrawControl::Instance()->SetDrawRotaGuide("Task_Kill", DrawLayer::Normal, xp - ysize / 2, yp + ysize / 2 - 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
-					DrawControl::Instance()->SetDrawRotaGuide("Task_Kill", DrawLayer::Normal, xp - ysize / 2 - 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
-					DrawControl::Instance()->SetDrawRotaGuide("Task_Kill", DrawLayer::Normal, xp - ysize / 2 + 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
-					DrawControl::Instance()->SetBright(DrawLayer::Normal, 255, 0, 0);
-					DrawControl::Instance()->SetDrawRotaGuide("Task_Kill", DrawLayer::Normal, xp - ysize / 2, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
-					yp += y_r(40);
+					WindowSystem::DrawControl::Instance()->SetBright(WindowSystem::DrawLayer::Normal, 255, 255, 255);
+					WindowSystem::SetMsg(xp - ysize, yp + ysize / 2, LineHeight, STRX_RIGHT, White, Black, "敵をキル");
+					WindowSystem::DrawControl::Instance()->SetBright(WindowSystem::DrawLayer::Normal, 128, 128, 128);
+					WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_Kill").GetGraph(), xp - ysize / 2, yp + ysize / 2 + 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
+					WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_Kill").GetGraph(), xp - ysize / 2, yp + ysize / 2 - 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
+					WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_Kill").GetGraph(), xp - ysize / 2 - 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+					WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_Kill").GetGraph(), xp - ysize / 2 + 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+					WindowSystem::DrawControl::Instance()->SetBright(WindowSystem::DrawLayer::Normal, 255, 0, 0);
+					WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_Kill").GetGraph(), xp - ysize / 2, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+					yp += DXDraw::Instance()->GetUIY(40);
 				}
 				{
-					DrawControl::Instance()->SetBright(DrawLayer::Normal, 255, 255, 255);
-					WindowSystem::SetMsg(xp - ysize, yp + ysize / 2, xp - ysize, yp + ysize / 2, LineHeight, STRX_RIGHT, White, Black, "FiR品を納品");
-					DrawControl::Instance()->SetBright(DrawLayer::Normal, 32, 32, 32);
-					DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp - ysize / 2, yp + ysize / 2 + 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
-					DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp - ysize / 2, yp + ysize / 2 - 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
-					DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp - ysize / 2 - 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
-					DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp - ysize / 2 + 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
-					DrawControl::Instance()->SetBright(DrawLayer::Normal, 255, 255, 0);
-					DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp - ysize / 2, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
-					yp += y_r(40);
+					WindowSystem::DrawControl::Instance()->SetBright(WindowSystem::DrawLayer::Normal, 255, 255, 255);
+					WindowSystem::SetMsg(xp - ysize, yp + ysize / 2, LineHeight, STRX_RIGHT, White, Black, "FiR品を納品");
+					WindowSystem::DrawControl::Instance()->SetBright(WindowSystem::DrawLayer::Normal, 32, 32, 32);
+					WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_FiR").GetGraph(), xp - ysize / 2, yp + ysize / 2 + 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
+					WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_FiR").GetGraph(), xp - ysize / 2, yp + ysize / 2 - 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
+					WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_FiR").GetGraph(), xp - ysize / 2 - 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+					WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_FiR").GetGraph(), xp - ysize / 2 + 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+					WindowSystem::DrawControl::Instance()->SetBright(WindowSystem::DrawLayer::Normal, 255, 255, 0);
+					WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_FiR").GetGraph(), xp - ysize / 2, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+					yp += DXDraw::Instance()->GetUIY(40);
 				}
 				{
-					DrawControl::Instance()->SetBright(DrawLayer::Normal, 255, 255, 255);
-					WindowSystem::SetMsg(xp - ysize, yp + ysize / 2, xp - ysize, yp + ysize / 2, LineHeight, STRX_RIGHT, White, Black, "NotFiR品を納品");
-					DrawControl::Instance()->SetBright(DrawLayer::Normal, 192, 192, 192);
-					DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp - ysize / 2, yp + ysize / 2 + 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
-					DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp - ysize / 2, yp + ysize / 2 - 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
-					DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp - ysize / 2 - 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
-					DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp - ysize / 2 + 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
-					DrawControl::Instance()->SetBright(DrawLayer::Normal, 0, 0, 255);
-					DrawControl::Instance()->SetDrawRotaGuide("Task_FiR", DrawLayer::Normal, xp - ysize / 2, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
-					yp += y_r(40);
+					WindowSystem::DrawControl::Instance()->SetBright(WindowSystem::DrawLayer::Normal, 255, 255, 255);
+					WindowSystem::SetMsg(xp - ysize, yp + ysize / 2, LineHeight, STRX_RIGHT, White, Black, "NotFiR品を納品");
+					WindowSystem::DrawControl::Instance()->SetBright(WindowSystem::DrawLayer::Normal, 192, 192, 192);
+					WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_FiR").GetGraph(), xp - ysize / 2, yp + ysize / 2 + 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
+					WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_FiR").GetGraph(), xp - ysize / 2, yp + ysize / 2 - 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
+					WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_FiR").GetGraph(), xp - ysize / 2 - 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+					WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_FiR").GetGraph(), xp - ysize / 2 + 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+					WindowSystem::DrawControl::Instance()->SetBright(WindowSystem::DrawLayer::Normal, 0, 0, 255);
+					WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_FiR").GetGraph(), xp - ysize / 2, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+					yp += DXDraw::Instance()->GetUIY(40);
 				}
 				{
-					DrawControl::Instance()->SetBright(DrawLayer::Normal, 255, 255, 255);
-					WindowSystem::SetMsg(xp - ysize, yp + ysize / 2, xp - ysize, yp + ysize / 2, LineHeight, STRX_RIGHT, White, Black, "マップ指定");
-					DrawControl::Instance()->SetBright(DrawLayer::Normal, 255, 255, 255);
-					DrawControl::Instance()->SetDrawRotaGuide("Map", DrawLayer::Normal, xp - ysize / 2, yp + ysize / 2 + 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
-					DrawControl::Instance()->SetDrawRotaGuide("Map", DrawLayer::Normal, xp - ysize / 2, yp + ysize / 2 - 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
-					DrawControl::Instance()->SetDrawRotaGuide("Map", DrawLayer::Normal, xp - ysize / 2 - 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
-					DrawControl::Instance()->SetDrawRotaGuide("Map", DrawLayer::Normal, xp - ysize / 2 + 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
-					DrawControl::Instance()->SetBright(DrawLayer::Normal, 0, 128, 0);
-					DrawControl::Instance()->SetDrawRotaGuide("Map", DrawLayer::Normal, xp - ysize / 2, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
-					yp += y_r(40);
+					WindowSystem::DrawControl::Instance()->SetBright(WindowSystem::DrawLayer::Normal, 255, 255, 255);
+					WindowSystem::SetMsg(xp - ysize, yp + ysize / 2, LineHeight, STRX_RIGHT, White, Black, "マップ指定");
+					WindowSystem::DrawControl::Instance()->SetBright(WindowSystem::DrawLayer::Normal, 255, 255, 255);
+					WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Map").GetGraph(), xp - ysize / 2, yp + ysize / 2 + 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
+					WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Map").GetGraph(), xp - ysize / 2, yp + ysize / 2 - 1, (float)(ysizeI) / (float)(64.f), 0.f, true);
+					WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Map").GetGraph(), xp - ysize / 2 - 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+					WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Map").GetGraph(), xp - ysize / 2 + 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+					WindowSystem::DrawControl::Instance()->SetBright(WindowSystem::DrawLayer::Normal, 0, 128, 0);
+					WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Map").GetGraph(), xp - ysize / 2, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
+					yp += DXDraw::Instance()->GetUIY(40);
 				}
-				DrawControl::Instance()->SetBright(DrawLayer::Normal, 255, 255, 255);
+				WindowSystem::DrawControl::Instance()->SetBright(WindowSystem::DrawLayer::Normal, 255, 255, 255);
 			}
 		}
 	}

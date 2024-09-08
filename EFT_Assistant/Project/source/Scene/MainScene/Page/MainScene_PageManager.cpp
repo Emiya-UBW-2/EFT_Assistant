@@ -36,7 +36,7 @@ namespace FPS_n2 {
 	}
 	//
 	void PageManager::ChangePage(BGSelect Select) noexcept {
-		auto* WindowMngr = WindowSystem::WindowManager::Instance();
+		auto* WindowMngr = WindowMySystem::WindowManager::Instance();
 		WindowMngr->DeleteAll();
 		Dispose();
 		m_NowOpenPagePtr = m_PagePtr.at((int)Select);
@@ -48,22 +48,22 @@ namespace FPS_n2 {
 		this->m_IsGoNextPage = false;
 	}
 	void PageManager::FirstExecute() noexcept {
-		auto* WindowMngr = WindowSystem::WindowManager::Instance();
-		auto* Input = InputControl::Instance();
+		auto* WindowMngr = WindowMySystem::WindowManager::Instance();
+		auto* Pad = PadControl::Instance();
 		auto iSWindowHit = !WindowMngr->PosHitCheck(nullptr);
-		if ((Input->GetWheelAdd() != 0) && !iSWindowHit && Input->GetScaleActive()) {
+		if ((GetMouseWheelRotVolWithCheck() != 0) && !iSWindowHit && GetScaleActive()) {
 			auto PrevScale = this->m_Scale;
-			this->m_Scale = std::clamp(this->m_Scale + (float)Input->GetWheelAdd() / 10.f, 0.1f, 2.f);
+			this->m_Scale = std::clamp(this->m_Scale + (float)GetMouseWheelRotVolWithCheck() / 10.f, 0.1f, 2.f);
 			auto ScaleChange = (this->m_Scale - PrevScale);
 			if (ScaleChange != 0.f) {
-				this->m_posx -= (int)((float)(Input->GetMouseX() - this->m_posx) * ScaleChange / this->m_Scale);
-				this->m_posy -= (int)((float)(Input->GetMouseY() - this->m_posy) * ScaleChange / this->m_Scale);
+				this->m_posx -= (int)((float)(Pad->GetMS_X() - this->m_posx) * ScaleChange / this->m_Scale);
+				this->m_posy -= (int)((float)(Pad->GetMS_Y() - this->m_posy) * ScaleChange / this->m_Scale);
 			}
 		}
-		Input->SetScaleActive(true);
-		if (Input->GetRightClick().press() && !iSWindowHit) {
-			this->m_posx += Input->GetMouseMoveX();
-			this->m_posy += Input->GetMouseMoveY();
+		SetScaleActive(true);
+		if (Pad->GetKey(PADS::AIM).press() && !iSWindowHit) {
+			this->m_posx += static_cast<int>(Pad->GetLS_X());
+			this->m_posy += static_cast<int>(Pad->GetLS_Y());
 			HCURSOR hCursor = LoadCursor(NULL, IDC_SIZEALL);
 			SetCursor(hCursor);
 		}

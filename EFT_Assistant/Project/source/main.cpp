@@ -1,51 +1,59 @@
 #include "Header.hpp"
 #include "PartsHeader.hpp"
-
-class MainClass {
-private:
-public:
-	void Init() {
-		SetUseCharCodeFormat(DX_CHARCODEFORMAT_UTF8);
-		SetWindowStyleMode(2);
-		SetUseBackBufferTransColorFlag(TRUE);
-
-		DXDraw::Create();	//汎用//950, 950 * 9 / 16
-		SetMainWindowText("EFT Assistant");
-		PostPassEffect::Create();							//シェーダー
-		DXDraw::Instance()->PauseIn();
-		//パーツ
-		FPS_n2::PlayerData::Create();
-		FPS_n2::InputControl::Create();
-		FPS_n2::DataErrorLog::Create();
-		FPS_n2::DrawControl::Create();
-		FPS_n2::InterruptParts::Create();
-		FPS_n2::WindowSystem::WindowManager::Create();
-	}
-
-	bool SceneExecute(std::unique_ptr<SceneControl>& NowScene) {
-#ifdef DEBUG
-		auto* DebugParts = DebugClass::Instance();			//デバッグ
-#endif // DEBUG
-		auto* DrawParts = DXDraw::Instance();
-#ifdef DEBUG
-		clsDx();
-		DebugParts->SetStartPoint();
-#endif // DEBUG
-		if (NowScene->Execute()) { return false; }			//更新
-		NowScene->Draw();							//描画
-#ifdef DEBUG
-			//デバッグ画面
-		DebugParts->DebugWindow(50, 50);
-#endif // DEBUG
-		DrawParts->Screen_Flip();					//画面の反映
-		return true;
-	}
-};
+//
+#include "Scene/MainSceneLoader.hpp"
+#include "Scene/MainScene.hpp"
 
 int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
-	MainClass mainClass;
+	SetUseCharCodeFormat(DX_CHARCODEFORMAT_UTF8);
+	//SetWindowStyleMode(2);
+	//SetUseBackBufferTransColorFlag(TRUE);
+	SetDoubleStartValidFlag(TRUE);
+	SetEnableXAudioFlag(TRUE);//Xaudio(ロードが長いとロストするので必要に応じて)
+	DXLib_ref::Create();
+	//使用するボタンの指定
+	auto* Pad = PadControl::Instance();
+	Pad->SetIsUseButton(PADS::MOVE_W, true);
+	Pad->SetIsUseButton(PADS::MOVE_A, true);
+	Pad->SetIsUseButton(PADS::MOVE_S, true);
+	Pad->SetIsUseButton(PADS::MOVE_D, true);
+	Pad->SetIsUseButton(PADS::MOVE_STICK, true);
+	Pad->SetIsUseButton(PADS::DIR_UP, true);
+	Pad->SetIsUseButton(PADS::DIR_DOWN, true);
+	Pad->SetIsUseButton(PADS::DIR_LEFT, true);
+	Pad->SetIsUseButton(PADS::DIR_RIGHT, true);
+	Pad->SetIsUseButton(PADS::DIR_STICK, true);
+	Pad->SetIsUseButton(PADS::LEAN_L, true);//UIのみ
+	Pad->SetIsUseButton(PADS::LEAN_R, true);//UIのみ
+	Pad->SetIsUseButton(PADS::RELOAD, true);//UIのみ
+	Pad->SetIsUseButton(PADS::INTERACT, true);//UIのみ
+	Pad->SetIsUseButton(PADS::THROW, true);
+	Pad->SetIsUseButton(PADS::MELEE, true);
+	Pad->SetIsUseButton(PADS::JUMP, true);
+	Pad->SetIsUseButton(PADS::INVENTORY, true);
+	Pad->SetIsUseButton(PADS::RUN, true);
+	Pad->SetIsUseButton(PADS::WALK, true);
+	Pad->SetIsUseButton(PADS::SHOT, true);
+	Pad->SetIsUseButton(PADS::AIM, true);
+	Pad->SetIsUseButton(PADS::ULT, true);
+	Pad->SetIsUseButton(PADS::SQUAT, true);
+	Pad->SetIsUseButton(PADS::PRONE, true);
+	Pad->SetIsUseButton(PADS::CHECK, true);
+	//
+	auto* DXLib_refParts = DXLib_ref::Instance();
+	if (!DXLib_refParts->StartLogic()) { return 0; }
+	//追加設定
+	SetMainWindowText("EFT Assistant");
+	//SetUseHalfLambertLighting(TRUE);
+	//MV1SetLoadModelReMakeNormal(TRUE);
 
-	mainClass.Init();
+	//パーツ
+	FPS_n2::PlayerData::Create();
+	FPS_n2::DataErrorLog::Create();
+	FPS_n2::DrawGraphs::Create();
+	FPS_n2::InterruptParts::Create();
+	FPS_n2::WindowMySystem::WindowManager::Create();
+
 #if false
 	{
 #ifdef DEBUG
@@ -132,11 +140,10 @@ int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 		int yofs = 0;
 		int ysize = 20;
 		while (ProcessMessage() == 0) {
-			FPS = GetFPS();
 			clsDx();
 			GraphHandle::SetDraw_Screen((int32_t)(DX_SCREEN_BACK), true);
 			{
-				DrawBox(0, 0, y_r(1920) + 1, y_r(1080) + 1, GetColor(1, 1, 1), TRUE);//背景透明
+				DrawBox(0, 0, DXDraw::Instance()->GetUIY(1920) + 1, DXDraw::Instance()->GetUIY(1080) + 1, GetColor(1, 1, 1), TRUE);//背景透明
 
 				yofs = std::clamp(yofs - GetMouseWheelRotVolWithCheck()*ysize, 0, std::max((int)lines.size() - ysize, 0));
 				int i = -yofs;
@@ -201,11 +208,10 @@ int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 		int yofs = 0;
 		int ysize = 70;
 		while (ProcessMessage() == 0) {
-			FPS = GetFPS();
 			clsDx();
 			GraphHandle::SetDraw_Screen((int32_t)(DX_SCREEN_BACK), true);
 			{
-				DrawBox(0, 0, y_r(1920) + 1, y_r(1080) + 1, GetColor(1, 1, 1), TRUE);//背景透明
+				DrawBox(0, 0, DXDraw::Instance()->GetUIY(1920) + 1, DXDraw::Instance()->GetUIY(1080) + 1, GetColor(1, 1, 1), TRUE);//背景透明
 
 				yofs = std::clamp(yofs - GetMouseWheelRotVolWithCheck()*ysize, 0, std::max((int)lines.size() - ysize, 0));
 				int i = 0;
@@ -229,24 +235,14 @@ int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 	auto MAINLOOPloader = std::make_shared<FPS_n2::MAINLOOPLOADER>();
 	auto MAINLOOPscene = std::make_shared<FPS_n2::MAINLOOP>();
 	//遷移先指定
-	MAINLOOPloader->Set_Next(MAINLOOPscene);
-	MAINLOOPscene->Set_Next(MAINLOOPloader);
+	MAINLOOPloader->SetNextSceneList(0, MAINLOOPscene);
+	MAINLOOPscene->SetNextSceneList(0, MAINLOOPloader);
 
-	//シーンコントロール
-	auto NowScene = std::make_unique<SceneControl>(MAINLOOPloader);
-	//繰り返し
-	while (true) {
-		NowScene->StartScene();
-		while (true) {
-			if (ProcessMessage() != 0) { return 0; }
-			FPS = GetFPS();
-			if (!mainClass.SceneExecute(NowScene)) { break; }
-		}
-		if (NowScene->isEnd()) {
-			break;
-		}
-		NowScene->NextScene();							//次のシーンへ移行
-	}
+	auto* SceneParts = SceneControl::Instance();
+	SceneParts->AddList(MAINLOOPloader);
+	SceneParts->AddList(MAINLOOPscene);
+	//最初の読み込み
+	if (!DXLib_refParts->MainLogic()) { return 0; }
 #endif
 	return 0;
 }

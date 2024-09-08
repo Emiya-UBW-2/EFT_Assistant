@@ -245,31 +245,31 @@ namespace FPS_n2 {
 		}
 	public:
 		void DrawList(int xp1, int yp1, int xs1, std::string_view Name, int*Select, bool isActive, bool isElseSelect, bool isAllSelect, const std::function<bool(const List*)>& CheckLocal) noexcept {
-			auto* WindowMngr = WindowSystem::WindowManager::Instance();
+			auto* WindowMngr = WindowMySystem::WindowManager::Instance();
 			int xsize = xs1;
-			int ysize = LineHeight - y_r(3);
+			int ysize = LineHeight - DXDraw::Instance()->GetUIY(3);
 			int count = 0;
 			//
 			{
 				int yp_t = yp1;
 				if (isAllSelect) {
-					yp_t += ysize + y_r(3);
+					yp_t += ysize + DXDraw::Instance()->GetUIY(3);
 				}
 				for (const auto& L2 : m_List) {
 					if (!CheckLocal(&L2)) { continue; }
-					yp_t += ysize + y_r(3);
+					yp_t += ysize + DXDraw::Instance()->GetUIY(3);
 					count++;
 				}
-				if (yp_t > y_r(1080 - 24)) {
-					ysize = (y_r(1080 - 24) - yp1) / (count)-y_r(3);
+				if (yp_t > DXDraw::Instance()->GetUIY(1080 - 24)) {
+					ysize = (DXDraw::Instance()->GetUIY(1080 - 24) - yp1) / (count)-DXDraw::Instance()->GetUIY(3);
 				}
 			}
 
-			WindowSystem::SetMsg(xp1, yp1, xp1 + xsize, yp1 + ysize - y_r(5), ysize - y_r(5), STRX_MID, White, Black, Name);
+			WindowSystem::SetMsg(xp1 + xsize / 2, yp1 + (ysize - DXDraw::Instance()->GetUIY(5)) / 2, ysize - DXDraw::Instance()->GetUIY(5), STRX_MID, White, Black, Name);
 			yp1 += ysize;
 			int yp_t = yp1;
 			if (isAllSelect) {
-				yp_t += ysize + y_r(3);
+				yp_t += ysize + DXDraw::Instance()->GetUIY(3);
 			}
 			//
 			int IDBuf = InvalidID;
@@ -279,15 +279,15 @@ namespace FPS_n2 {
 				IDBuf = L2.GetID();
 				bool SelectIt = (*Select == IDBuf);
 				auto color = NotSelect ? Gray25 : (SelectIt ? Gray10 : Gray50);
-				if (WindowSystem::ClickCheckBox(xp1 - (SelectIt ? y_r(25) : 0), yp_t, xp1 + xsize, yp_t + ysize, false, (isActive || (!isActive && SelectIt)) && !WindowMngr->PosHitCheck(nullptr), color, L2.GetShortName().c_str())) {
+				if (WindowSystem::SetMsgClickBox(xp1 - (SelectIt ? DXDraw::Instance()->GetUIY(25) : 0), yp_t, xp1 + xsize, yp_t + ysize, ysize, color, false, (isActive || (!isActive && SelectIt)) && !WindowMngr->PosHitCheck(nullptr), L2.GetShortName().c_str())) {
 					*Select = (isActive) ? IDBuf : InvalidID;
 				}
-				yp_t += ysize + y_r(3);
+				yp_t += ysize + DXDraw::Instance()->GetUIY(3);
 			}
 			if (count > 0 && isElseSelect) {//‚»‚Ì‘¼
 				bool ElseSelect = (*Select == ElseSelectID);
 				auto color = ElseSelect ? Gray25 : Gray50;
-				if (WindowSystem::ClickCheckBox(xp1 - (ElseSelect ? y_r(25) : 0), yp_t, xp1 + xsize, yp_t + ysize, false, isActive && !WindowMngr->PosHitCheck(nullptr), color, "Else")) {
+				if (WindowSystem::SetMsgClickBox(xp1 - (ElseSelect ? DXDraw::Instance()->GetUIY(25) : 0), yp_t, xp1 + xsize, yp_t + ysize, ysize, color, false, isActive && !WindowMngr->PosHitCheck(nullptr), "Else")) {
 					*Select = ElseSelectID;
 				}
 			}
@@ -295,7 +295,7 @@ namespace FPS_n2 {
 			if (isAllSelect) {
 				if (count > 1) {
 					auto color = NotSelect ? Gray10 : Gray50;
-					if (WindowSystem::ClickCheckBox(xp1 - (NotSelect ? y_r(25) : 0), yp1, xp1 + xsize, yp1 + ysize, false, isActive && !WindowMngr->PosHitCheck(nullptr), color, "ALL")) {
+					if (WindowSystem::SetMsgClickBox(xp1 - (NotSelect ? DXDraw::Instance()->GetUIY(25) : 0), yp1, xp1 + xsize, yp1 + ysize, ysize, color, false, isActive && !WindowMngr->PosHitCheck(nullptr), "ALL")) {
 						*Select = InvalidID;
 					}
 				}
@@ -306,7 +306,7 @@ namespace FPS_n2 {
 				}
 			}
 			if (count == 0) {
-				if (WindowSystem::ClickCheckBox(xp1, yp1, xp1 + xsize, yp1 + ysize, false, false, Gray50, "None")) {}
+				if (WindowSystem::SetMsgClickBox(xp1, yp1, xp1 + xsize, yp1 + ysize, ysize, Gray50, false, false, "None")) {}
 			}
 		};
 

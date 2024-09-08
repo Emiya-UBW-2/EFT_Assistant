@@ -45,13 +45,13 @@ namespace FPS_n2 {
 			};
 			class stimEffects {
 			public:
-				std::string		m_type;
-				float			m_chance;
-				int				m_delay;
-				int				m_duration;
-				float			m_value;
-				bool			m_percent;
-				std::string		m_skillName;
+				std::string		m_type{};
+				float			m_chance{ 0.f };
+				int				m_delay{ 0 };
+				int				m_duration{ 0 };
+				float			m_value{ 0.f };
+				bool			m_percent{ false };
+				std::string		m_skillName{};
 			public:
 				const auto&		Gettype() const noexcept { return this->m_type; }
 				const auto&		Getchance() const noexcept { return this->m_chance; }
@@ -100,7 +100,7 @@ namespace FPS_n2 {
 				else if (LEFT == "stabDamage") { m_IntParams[1] = std::stoi(Args[0]); }
 				else if (LEFT == "hitRadius") { m_floatParams[0] = std::stof(Args[0]); }
 			}
-			void			OutputDataMelee(std::ofstream& outputfile) noexcept {
+			void			OutputDataMelee(std::ofstream& outputfile) const noexcept {
 				outputfile << "slashDamage=" + std::to_string(GetSlashDamage()) + "\n";
 				outputfile << "stabDamage=" + std::to_string(GetstabDamage()) + "\n";
 				outputfile << "hitRadius=" + std::to_string(GethitRadius()) + "\n";
@@ -115,7 +115,7 @@ namespace FPS_n2 {
 			void			SetDataKey(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
 				if (LEFT == "uses") { m_IntParams[0] = std::stoi(Args[0]); }
 			}
-			void			OutputDataKey(std::ofstream& outputfile) noexcept {
+			void			OutputDataKey(std::ofstream& outputfile) const noexcept {
 				outputfile << "uses=" + std::to_string(GetUses()) + "\n";
 			}
 			void			DrawInfoKey(int xp, int yp, int* xofs, int* yofs) const noexcept;
@@ -138,7 +138,7 @@ namespace FPS_n2 {
 				else if (LEFT == "diffuseIntensity") { m_floatParams[2] = std::stof(Args[0]); }
 				else if (LEFT == "intensity") { m_floatParams[3] = std::stof(Args[0]); }
 			}
-			void			OutputDataNightVision(std::ofstream& outputfile) noexcept {
+			void			OutputDataNightVision(std::ofstream& outputfile) const noexcept {
 				outputfile << "noiseIntensity=" + std::to_string(GetnoiseIntensity()) + "\n";
 				outputfile << "noiseScale=" + std::to_string(GetnoiseScale()) + "\n";
 				outputfile << "diffuseIntensity=" + std::to_string(GetdiffuseIntensity()) + "\n";
@@ -178,7 +178,7 @@ namespace FPS_n2 {
 					bool isHit = false;
 					std::vector<std::string> Names;
 					for (auto& m : this->m_ContainsItemID) {
-						auto NmBuf = m.GetName();
+						std::string NmBuf = m.GetName();
 						if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
 							if (!isHit) {
 								isHit = true;
@@ -358,7 +358,7 @@ namespace FPS_n2 {
 				else if (LEFT == "deviationMax") { this->m_IntParams[6] = (std::stoi(Args[0])); }
 				else if (LEFT == "convergence") { this->m_floatParams[5] = (std::stof(Args[0])); }
 			}
-			void			OutputDataWeapon(std::ofstream& outputfile) noexcept {
+			void			OutputDataWeapon(std::ofstream& outputfile) const noexcept {
 				outputfile << "Recoil=" + std::to_string((float)this->GetWeaponRecoilVertical()) + "\n";
 				outputfile << "RecoilHorizontal=" + std::to_string((float)this->GetWeaponRecoilHorizontal()) + "\n";
 				outputfile << "Ergonomics=" + std::to_string(this->GetWeaponErgonomics()) + "\n";
@@ -771,7 +771,7 @@ namespace FPS_n2 {
 							outputfile << "ChildParts=[\n";
 							std::vector<std::string> Names;
 							for (const auto& d : m.GetData()) {
-								auto NmBuf = d.GetName();
+								std::string NmBuf = d.GetName();
 								if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
 									outputfile << "\t" + NmBuf + ((&d != &m.GetData().back()) ? DIV_STR : "") + "\n";
 									Names.emplace_back(NmBuf);
@@ -785,7 +785,7 @@ namespace FPS_n2 {
 					bool isHit = false;
 					std::vector<std::string> Names;
 					for (auto& m : this->m_ConflictPartsID) {
-						auto NmBuf = m.GetName();
+						std::string NmBuf = m.GetName();
 						if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
 							if (!isHit) {
 								isHit = true;
@@ -981,7 +981,7 @@ namespace FPS_n2 {
 		ItemsData												m_ItemsData;
 
 
-		std::array<WindowSystem::ScrollBoxClass, 2>				m_Scroll;
+		std::array<WindowMySystem::ScrollBoxClass, 2>				m_Scroll;
 	private:
 		//í«â¡ê›íË
 		void		SetSub(const std::string& LEFT, const std::vector<std::string>& Args) noexcept override;
@@ -1062,7 +1062,7 @@ namespace FPS_n2 {
 		void		SetItemsDataByOtherData(const ItemsData& Data) noexcept { this->m_ItemsData.SetOtherData(Data); }
 	public:
 		const int	Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive, bool IsFir, bool IsDrawBuy, bool IsIconOnly) noexcept;
-		void		DrawWindow(WindowSystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int *xs = nullptr, int* ys = nullptr) noexcept;
+		void		DrawWindow(WindowMySystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int *xs = nullptr, int* ys = nullptr) noexcept;
 	};
 
 	class ItemJsonData :public JsonDataParent {

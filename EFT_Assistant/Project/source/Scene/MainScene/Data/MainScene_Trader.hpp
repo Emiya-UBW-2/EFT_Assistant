@@ -74,7 +74,7 @@ namespace FPS_n2 {
 		const auto&	GetLvData() const noexcept { return this->m_LvData; }
 
 
-		const int		DrawBarter(WindowSystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int ysize, int Lv, int Select, bool isdrawName, bool isdrawAfter, int count) const noexcept;
+		const int		DrawBarter(WindowMySystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int ysize, int Lv, int Select, bool isdrawName, bool isdrawAfter, int count) const noexcept;
 	};
 	//
 	class TraderJsonData :public JsonDataParent {
