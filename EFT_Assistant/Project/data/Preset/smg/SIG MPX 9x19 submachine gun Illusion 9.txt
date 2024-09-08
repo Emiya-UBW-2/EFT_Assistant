@@ -11,4 +11,4 @@ Parts=MPX flip-up front sight
 Parts=MPX flip-up rear sight
 Parts=MPX double latch charging handle
 Parts=MPX 9x19 30-round magazine
-Parts=MPX/MCX Maxim Defense CQB telescoping stock
+Parts=MPX/MCX Maxim Defense CQB stock

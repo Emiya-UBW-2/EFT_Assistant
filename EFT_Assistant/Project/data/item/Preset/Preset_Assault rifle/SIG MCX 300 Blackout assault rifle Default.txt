@@ -20,7 +20,7 @@ containsItems=[
 	MCX GEN1 KeyMod 8 inch handguardx1/|
 	MCX flip-up front sightx1/|
 	MCX flip-up rear sightx1/|
-	MPX/MCX lightweight stockx1/|
+	MPX/MCX Thin Side-Folding Stockx1/|
 	MCX charging handlex1
 ]
 Name_Jpn=MCX .300 Blackout アサルトライフル デフォルト

@@ -23,7 +23,7 @@ Conflict=[
 	Armasight NVG head strap/|
 	Wilcox Skull Lock head mount/|
 	Rivals 2020 cap/|
-	DevTac Ronin ballistic helmet/|
+	DevTac Ronin Respirator/|
 	Bandana/|
 	BEAR baseball cap (Black)/|
 	Beret (Black)/|
@@ -53,7 +53,11 @@ Conflict=[
 	Vulkan-5 helmet face shield/|
 	Diamond Age NeoSteel High Cut helmet (Black)/|
 	Gus baseball cap/|
-	Basmach leather cap
+	Basmach leather cap/|
+	Rys-T face shield/|
+	Galvion Caiman Fixed Arm Visor/|
+	Galvion Caiman Hybrid Ballistic Mandible Guard/|
+	ShPM Firefighter helmet
 ]
 Name_Jpn=Pestily ペストマスク
 Information_Jpn=ペスト医師のPestilyが着けていたマスクの復元品。珍しい品物で恐ろしい見た目をしており、タルコフではカルト集団が着用している。

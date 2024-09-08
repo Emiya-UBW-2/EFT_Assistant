@@ -1,0 +1,29 @@
+IDstr=kacsr25trihawk0000000001
+Name=Knight's Armament Company SR-25 7.62x51 marksman rifle Trihawk 3x30
+ShortName=SR-25 Trihawk 3x30
+Itemtype=marksman-rifle
+width=6
+height=2
+weight=5.077000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Knight's Armament Company SR-25 7.62x51 marksman riflex1/|
+	AR-15 Stark AR Rifle Grip (Black)x1/|
+	AR-15 Colt Carbine buffer tubex1/|
+	AR-15 B5 Systems Precision stockx1/|
+	SR-25 7.62x51 upper receiverx1/|
+	SR-25 7.62x51 20 inch barrelx1/|
+	AR-10 KAC Low Profile Gas Blockx1/|
+	AR-10 Precision Armanent M11 Severe-Duty 7.62x51 muzzle brakex1/|
+	AR-10 Noveske SWS N6 Split handguardx1/|
+	Magpul RVG foregrip (Black)x1/|
+	KAC Folding front sightx1/|
+	KAC Folding rear sightx1/|
+	SwampFox Trihawk Prism Scope 3x30x1/|
+	AR-10 KAC ambidextrous charging handlex1/|
+	AR-10 7.62x51 KAC 20-round steel magazinex1
+]
+Name_Jpn=Knight's Armament Company SR-25 7.62x51 マークスマンライフル Trihawk 3x30
+Information_Jpn=

@@ -1,0 +1,24 @@
+IDstr=ak12valday00000000000001
+Name=Kalashnikov AK-12 5.45x39 assault rifle PS-320
+ShortName=AK-12 PS-320
+Itemtype=assault-rifle
+width=6
+height=2
+weight=4.406000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Kalashnikov AK-12 5.45x39 assault riflex1/|
+	AK-12 gas tubex1/|
+	AK-12 pistol gripx1/|
+	AK-12 handguardx1/|
+	AK-12 5.45x39 sound suppressorx1/|
+	AK-12 dust coverx1/|
+	Valday PS-320 1/6x scopex1/|
+	AK-12 5.45x39 early model 30-round magazinex1/|
+	AK-12 buffer tubex1/|
+	AK-12 stockx1
+]
+Name_Jpn=Kalashnikov AK-12 5.45x39 アサルトライフル PS320 1/6x
+Information_Jpn=

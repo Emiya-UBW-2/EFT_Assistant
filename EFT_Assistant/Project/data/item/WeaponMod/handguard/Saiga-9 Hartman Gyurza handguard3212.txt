@@ -19,11 +19,11 @@ ChildParts=[
 ]
 Conflict=[
 	SilencerCo Osprey 9 9x19 sound suppressor/|
-	PP-19-01 "Vityaz" 9x19 sound suppressor/|
+	PP-19-01 Vityaz 9x19 sound suppressor/|
 	SIG Sauer SRD9 9x19 sound suppressor/|
 	Rotor 43 9x19 muzzle brake-compensator/|
 	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
-	PP-19-01 "Vityaz" 9x19 submachine gun
+	PP-19-01 Vityaz 9x19 submachine gun
 ]
 Recoil=-2.000000
 Ergonomics=15.000000

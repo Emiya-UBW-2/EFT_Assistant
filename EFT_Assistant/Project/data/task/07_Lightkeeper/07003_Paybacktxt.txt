@@ -3,7 +3,7 @@ Name=Payback
 Trader=Lightkeeper
 
 NeedTask=Return the Favor
-NeedLevel=35
+NeedLevel=33
 
 CanRestart=false
 NeedKappa=false
@@ -30,7 +30,7 @@ Task_Else=脱出地点:Cliff Descent
 
 [
 	TaskType=shoot
-	TaskText=Locate and eliminate Glukhar
+	TaskText=Locate and neutralize Glukhar
 	TaskOptional=false
 ]
 [

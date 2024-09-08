@@ -4,7 +4,7 @@ ShortName=M700 Default
 Itemtype=sniper-rifle
 width=5
 height=1
-weight=4.050000
+weight=4.060000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
@@ -12,7 +12,8 @@ containsItems=[
 	Remington Model 700 7.62x51 bolt-action sniper riflex1/|
 	M700 7.62x51 Wyatt's Outdoor 5-round magazinex1/|
 	M700 Hogue Overmolded Ghillie stockx1/|
-	M700 7.62x51 20 inch threaded barrelx1
+	M700 7.62x51 20 inch threaded barrelx1/|
+	M700 thread protection capx1
 ]
 Name_Jpn=Remington Model 700 7.62x51 ボルトアクション スナイパーライフル デフォルト
 Information_Jpn=

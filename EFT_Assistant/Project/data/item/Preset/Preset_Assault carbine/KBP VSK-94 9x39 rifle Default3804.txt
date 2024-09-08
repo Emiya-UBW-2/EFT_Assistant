@@ -2,9 +2,9 @@ IDstr=657eb1fa2ce80354b8259889
 Name=KBP VSK-94 9x39 rifle Default
 ShortName=VSK-94 Default
 Itemtype=assault-carbine
-width=4
+width=5
 height=2
-weight=2.506000
+weight=2.992000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
@@ -13,7 +13,7 @@ containsItems=[
 	9A-91 9x39 20-round magazinex1/|
 	VSK-94 stockx1/|
 	VSK-94 9x39 barrelx1/|
-	9A-91 handguard retainerx1/|
+	9A-91 9x39 sound suppressorx1/|
 	VSK-94 handguardx1
 ]
 Name_Jpn=KBP VSK-94 9x39 rifle デフォルト

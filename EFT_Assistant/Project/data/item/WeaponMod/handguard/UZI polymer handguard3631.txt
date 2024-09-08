@@ -1,0 +1,15 @@
+IDstr=6698c8c736ba38d29101770b
+Name=UZI polymer handguard
+ShortName=UZI HG
+Information_Eng=A standard-issue polymer handguard for the UZI submachine gun. Manufactured by Israel Weapon Industries.
+Itemtype=handguard
+width=1
+height=1
+weight=0.150000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=0.000000
+Ergonomics=3.000000
+accuracyModifier=0.000000
+Name_Jpn=UZI polymer handguard
+Information_Jpn=A standard-issue polymer handguard for the UZI submachine gun. Manufactured by Israel Weapon Industries.

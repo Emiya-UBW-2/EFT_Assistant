@@ -7,7 +7,7 @@ NeedLevel=20
 
 CanRestart=false
 NeedKappa=true
-NeedLightkeeper=false
+NeedLightkeeper=true
 
 Task_Map=Shoreline
 factionName=Any
@@ -40,7 +40,7 @@ Task_Else=脱出ステータス:[Survived]
 ]
 [
 	TaskType=extract
-	TaskText=Survive and extract from Shoreline with the "Survived" exit status
+	TaskText=Survive and extract from the location with the "Survived" exit status
 	TaskOptional=false
 ]
 

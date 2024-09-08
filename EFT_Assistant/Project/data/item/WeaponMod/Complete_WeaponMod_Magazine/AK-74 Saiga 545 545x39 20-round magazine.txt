@@ -1,7 +1,7 @@
 IDstr=64b9e265c94d0d15c5027e35
-Name=AK-74 "Saiga 545" 5.45x39 20-round magazine
+Name=AK-74 Delta-Tek Saiga 545 5.45x39 20-round magazine
 ShortName=Saiga 545
-Information_Eng=A 20-round 5.45x39 Delta-Tech polymer magazine Saiga 545, for the AK-based civilian carbine of the same name.
+Information_Eng=A 20-round 5.45x39 polymer magazine for the AK-based civilian carbine of the same name.
 Itemtype=magazine
 width=1
 height=2

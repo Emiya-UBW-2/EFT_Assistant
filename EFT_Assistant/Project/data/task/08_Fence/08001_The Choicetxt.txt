@@ -23,6 +23,6 @@ Reward_Rep=Fence+110
 Reward_Item=[
 	Roublesx1000000
 ]
-Reward_SkillLevelUp=Hideout management+2
+Reward_SkillLevelUp=Hideout Management+2
 
 Reward_EXP=433333

@@ -1,6 +1,6 @@
 IDstr=5b8683a486f77467f2423114
 Name=Mosin 7.62x54R bolt-action rifle (Sniper) Default
-ShortName=Mosin (Sniper) Default
+ShortName=Mosin Sniper Default
 Itemtype=sniper-rifle
 width=6
 height=1

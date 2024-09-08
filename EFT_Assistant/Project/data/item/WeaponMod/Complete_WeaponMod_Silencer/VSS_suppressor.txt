@@ -1,6 +1,6 @@
 IDstr=57838c962459774a1651ec63
 Name=VSS 9x39 integral barrel-suppressor
-ShortName=VSS supp.
+ShortName=VSS
 Information_Eng=A TsNIITochMash-manufactured integral barrel-suppressor module for VSS Vintorez.
 Itemtype=silencer
 width=2

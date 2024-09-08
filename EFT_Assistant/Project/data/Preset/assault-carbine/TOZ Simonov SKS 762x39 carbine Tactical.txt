@@ -1,6 +1,6 @@
 Name=TOZ Simonov SKS 7.62x39 carbine Tactical
 Base=TOZ Simonov SKS 7.62x39 carbine
-Parts=SKS ATI Monte Carlo chassis
+Parts=SKS ATI Monte Carlo stock
 Parts=SKS 7.62x39 520mm barrel
 Parts=SKS upper band
 Parts=SKS gas tube

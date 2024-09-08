@@ -1,7 +1,7 @@
 IDstr=5fbcc437d724d907e2077d5c
-Name=MPX/MCX lightweight stock
-ShortName=MPX/MCX light
-Information_Eng=A thin and lightweight stock for MCX/MPX manufactured by SIG Sauer.
+Name=MPX/MCX Thin Side-Folding Stock
+ShortName=SIG TSFS
+Information_Eng=A lightweight stock for MPX/MCX, manufactured by SIG Sauer.
 Itemtype=stock
 width=2
 height=1

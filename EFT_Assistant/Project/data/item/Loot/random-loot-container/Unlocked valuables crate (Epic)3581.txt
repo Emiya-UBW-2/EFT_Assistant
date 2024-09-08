@@ -1,0 +1,12 @@
+IDstr=665829a6efd94e2d665b14a8
+Name=Unlocked valuables crate (Epic)
+ShortName=Valuables (Epic)
+Information_Eng=A trophy for participating in Arena battles. Unlike cash, barter will always be viable, and the contents of this box may be more valuable than a few packs of crunchy paper. The lock has been crudely broken, which means there are no more obstacles between you and the contents of the box.
+Itemtype=random-loot-container
+width=3
+height=2
+weight=4.000000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=Unlocked valuables crate (Epic)
+Information_Jpn=A trophy for participating in Arena battles. Unlike cash, barter will always be viable, and the contents of this box may be more valuable than a few packs of crunchy paper. The lock has been crudely broken, which means there are no more obstacles between you and the contents of the box.

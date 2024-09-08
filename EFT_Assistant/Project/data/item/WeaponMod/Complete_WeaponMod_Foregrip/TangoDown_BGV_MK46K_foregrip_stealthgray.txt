@@ -1,6 +1,6 @@
 IDstr=58c157c886f774032749fb06
 Name=TangoDown Stubby BGV-MK46K foregrip (Stealth Grey)
-ShortName=BGV-MK46K SG
+ShortName=MK46K
 Information_Eng=The TangoDown Stubby BGV-MK46K tactical grip is a short grip for use with weapons in close and extra close quarters combat. It ideally fits assault shotguns and also contains a compartment for batteries or SPTA. Stealth Grey version.
 Itemtype=foregrip
 width=1

@@ -10,34 +10,36 @@ NeedKappa=true
 NeedLightkeeper=false
 
 factionName=Any
-Task_Map=Interchange
-Task_Map=Customs
-Task_Map=Streets of Tarkov
-Task_Map=Woods
 Task_Map=Lighthouse
+Task_Map=Streets of Tarkov
+Task_Map=Customs
+Task_Map=Interchange
 Task_Map=Reserve
+Task_Map=Ground Zero 21+
+Task_Map=Woods
 Task_Map=Shoreline
 Task_Kill=[
-	Interchange-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x30/|
-	Customs-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x30/|
-	Streets of Tarkov-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x30/|
-	Woods-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x30/|
-	Lighthouse-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x30/|
-	Reserve-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x30/|
-	Shoreline-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x30
+	Lighthouse-any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x25/|
+	Streets of Tarkov-any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x25/|
+	Customs-any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x25/|
+	Interchange-any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x25/|
+	Reserve-any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x25/|
+	Ground Zero 21+-any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x25/|
+	Woods-any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x25/|
+	Shoreline-any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x25
 ]
 Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot
-	TaskText=Eliminate PMC operatives in the time period of 22:00-05:00 (Excluding Factory and The Lab)
+	TaskText=Eliminate PMC operatives in the time period of 21:00-06:00 (Excluding Factory and The Lab)
 	TaskOptional=false
 ]
 
 Reward_Rep=Peacekeeper+1
 Reward_Item=[
 	Dollarsx1000/|
-	GPNVG-18 Night Vision gogglesx2/|
+	L3Harris GPNVG-18 night vision gogglesx2/|
 	Ops-Core FAST MT Super High Cut helmet (Black)x1/|
 	Ops-Core FAST multi-hit ballistic face shieldx2
 ]

@@ -1,0 +1,23 @@
+IDstr=707265736574000000000039
+Name=IWI UZI PRO Pistol 9x19 submachine gun T-1
+ShortName=UZI PRO Pistol T-1
+Itemtype=smg
+width=4
+height=2
+weight=2.314000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	IWI UZI PRO Pistol 9x19 submachine gunx1/|
+	UZI PRO 9x19 25-round magazinex1/|
+	UZI PRO 9x19 barrel retaining nutx1/|
+	UZI PRO Stabilizing Bracex1/|
+	UZI PRO dust coverx1/|
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sightsx1/|
+	Aimpoint Micro T-1 reflex sightx1/|
+	TangoDown Stubby BGV-MK46K foregrip (FDE)x1/|
+	UZI PRO 9x19 210mm barrelx1
+]
+Name_Jpn=IWI UZI PRO Pistol 9x19 submachine gun T-1
+Information_Jpn=

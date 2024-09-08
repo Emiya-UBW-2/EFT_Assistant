@@ -1,0 +1,56 @@
+IDstr=665eec4a4dfc83b0ed0a9dca
+Name=Thirsty - Delivery
+Trader=Skier
+
+NeedTask=Thirsty - Breadwinner
+NeedLevel=15
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_Map=Woods
+Task_Else=TaskType:visit
+Task_Else=Locate the specified stash spot on Woods
+Task_Map=Woods
+Task_NotFiR_HandOver=[Propane tank (5L)x1]
+DogTagLv=0
+Task_Map=Customs
+Task_Else=TaskType:visit
+Task_Else=Locate the specified stash spot on Customs
+Task_Map=Customs
+Task_NotFiR_HandOver=[Propane tank (5L)x1]
+DogTagLv=0
+
+[
+	TaskType=visit
+	TaskText=Locate the specified stash spot on Woods
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Stash the first Propane tank (5L)
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate the specified stash spot on Customs
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Stash the second Propane tank (5L)
+	TaskOptional=false
+]
+
+Reward_Item=[
+	Propane tank (5L)x2
+]
+Reward_Rep=Skier+3
+Reward_Item=[
+	Alyonka chocolate barx4/|
+	Roublesx55000
+]
+
+Reward_EXP=14200

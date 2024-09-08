@@ -9,10 +9,10 @@ weight=1.150000
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmorAttachment
 Conflict=[
-	PNV-10T Night Vision Goggles/|
-	Armasight N-15 Night Vision Goggles/|
-	GPNVG-18 Night Vision goggles/|
-	AN/PVS-14 Night Vision Monocular/|
+	PNV-10T night vision goggles/|
+	Armasight N-15 night vision goggles/|
+	L3Harris GPNVG-18 night vision goggles/|
+	AN/PVS-14 night vision monocular/|
 	T-7 Thermal Goggles with a Night Vision mount/|
 	Ops-Core Picatinny Rail Adapter mount/|
 	Ops-Core Single Clamp Rail Adapter mount/|

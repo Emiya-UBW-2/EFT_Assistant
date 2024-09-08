@@ -40,7 +40,11 @@ ChildParts=[
 	RTM Pillau tactical foregrip (Sand)/|
 	RTM Pillau P-2 tactical foregrip (Red)/|
 	Stark SE-5 Express Forward foregrip (FDE)/|
-	Strike Industries Cobra Tactical foregrip (FDE)
+	Strike Industries Cobra Tactical foregrip (FDE)/|
+	TangoDown BGV-QDITI foregrip (FDE)/|
+	TangoDown BGV-QDITI foregrip (Black)/|
+	TangoDown Stubby BGV-QDK foregrip (Black)/|
+	TangoDown Stubby BGV-QDK foregrip (FDE)
 ]
 ChildParts=[
 	Axion Kobra EKP-8-18 reflex sight/|
@@ -76,9 +80,9 @@ ChildParts=[
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
-	AN/PEQ-15 tactical device/|
-	AN/PEQ-2 tactical device/|
-	LA-5B/PEQ tactical device/|
+	L3Harris AN/PEQ-15 tactical device/|
+	Insight AN/PEQ-2 tactical device/|
+	L3Harris LA-5B/PEQ tactical device/|
 	NcSTAR Tactical blue laser LAM-module/|
 	Steiner DBAL-PL tactical device/|
 	Steiner LAS/TAC 2 tactical flashlight/|
@@ -100,8 +104,8 @@ ChildParts=[
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
-	AN/PEQ-15 tactical device/|
-	LA-5B/PEQ tactical device/|
+	L3Harris AN/PEQ-15 tactical device/|
+	L3Harris LA-5B/PEQ tactical device/|
 	NcSTAR Tactical blue laser LAM-module/|
 	Steiner DBAL-PL tactical device/|
 	Steiner LAS/TAC 2 tactical flashlight/|
@@ -123,8 +127,8 @@ ChildParts=[
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
-	AN/PEQ-15 tactical device/|
-	LA-5B/PEQ tactical device/|
+	L3Harris AN/PEQ-15 tactical device/|
+	L3Harris LA-5B/PEQ tactical device/|
 	NcSTAR Tactical blue laser LAM-module/|
 	Steiner DBAL-PL tactical device/|
 	Steiner LAS/TAC 2 tactical flashlight/|
@@ -141,10 +145,11 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight/|
 	MAWL-C1+ tactical device/|
-	Zenit KR-2 old gen mount
+	Zenit KR-2 old gen mount/|
+	BT10 V8 Atlas Bipod
 ]
 Conflict=[
-	GP-25 "Kostyor" 40mm underbarrel grenade launcher/|
+	GP-25 Kostyor 40mm underbarrel grenade launcher/|
 	Kalashnikov AK-102 5.56x45 assault rifle/|
 	Kalashnikov AK-104 7.62x39 assault rifle/|
 	Kalashnikov AK-105 5.45x39 assault rifle/|

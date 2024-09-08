@@ -1,0 +1,15 @@
+IDstr=6642f63667f5cb56a00662eb
+Name=AR-10 Delta-Tek DTK-AR10 7.62x51 muzzle brake
+ShortName=DTK-AR10
+Information_Eng=The DTK-AR10 muzzle brake, designed for AR-10 and compatible systems. Greatly reduces recoil and muzzle rise due to the special compensation chamber. Manufactured by Delta-Tek.
+Itemtype=flashhider
+width=1
+height=1
+weight=0.125000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=-10.000000
+Ergonomics=-2.000000
+accuracyModifier=0.000000
+Name_Jpn=AR-10 Delta-Tek DTK-AR10 7.62x51 muzzle brake
+Information_Jpn=The DTK-AR10 muzzle brake, designed for AR-10 and compatible systems. Greatly reduces recoil and muzzle rise due to the special compensation chamber. Manufactured by Delta-Tek.

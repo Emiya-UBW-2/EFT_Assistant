@@ -16,7 +16,7 @@ containsItems=[
 	Aimpoint Micro Standard Mountx1/|
 	Aimpoint Micro Spacer Highx1/|
 	Aimpoint Micro T-1 reflex sightx1/|
-	AN/PEQ-15 tactical devicex1/|
+	L3Harris AN/PEQ-15 tactical devicex1/|
 	Kiba Arms 25mm accessory ring mountx1/|
 	Ultrafire WF-501B flashlightx1/|
 	HK MP7A1 stockx1

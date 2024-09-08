@@ -1,0 +1,15 @@
+Name=Desert Tech MDR 5.56x45 assault rifle HHS-1 Tan
+Base=Desert Tech MDR 5.56x45 assault rifle
+Parts=MDR pistol grip (FDE)
+Parts=5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine (FDE)
+Parts=MDR handguard (FDE)
+Parts=Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown)
+Parts=L3Harris AN/PEQ-15 tactical device
+Parts=Magpul MBUS Gen2 flip-up front sight (FDE)
+Parts=Magpul M-LOK Offset Light Mount
+Parts=Insight WMX200 tactical flashlight
+Parts=MDR 5.56x45 16 inch barrel
+Parts=AR-15 SureFire SF4P 5.56x45 flash hider
+Parts=SureFire SOCOM556-RC2 5.56x45 sound suppressor
+Parts=EOTech HHS-1 hybrid sight (Tan)
+Parts=Magpul MBUS Gen2 flip-up rear sight (FDE)

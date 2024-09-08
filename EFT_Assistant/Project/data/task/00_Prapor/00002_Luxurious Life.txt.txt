@@ -1,0 +1,47 @@
+IDstr=657315e1dccd301f1301416a
+Name=Luxurious Life
+Trader=Prapor
+
+NeedTask=Debut
+NeedLevel=1
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Map=Ground Zero
+factionName=Any
+Task_Map=Ground Zero
+Task_Map=Ground Zero 21+
+Task_Else=TaskType:visit
+Task_Else=Locate the liquor store on Ground Zero
+Task_Map=Ground Zero
+Task_Map=Ground Zero 21+
+Task_Else=拾って納品:Ground Zero-Bottle of Le Jean winex1
+Task_Else=拾って納品:Ground Zero 21+-Bottle of Le Jean winex1
+
+[
+	TaskType=visit
+	TaskText=Locate the liquor store on Ground Zero
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Locate and obtain the wine bottle in the store
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the wine bottle
+	TaskOptional=false
+]
+
+Reward_Rep=Prapor+1
+Reward_Item=[
+	Roublesx14000/|
+	Molot Arms VPO-136 Vepr-KM 7.62x39 carbine Defaultx1/|
+	7.62x39mm FMJ ammo pack (20 pcs)x5/|
+	AK 7.62x39 30-round magazine (issued '55 or later)x3
+]
+
+Reward_EXP=1750

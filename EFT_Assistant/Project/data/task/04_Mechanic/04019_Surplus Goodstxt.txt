@@ -22,7 +22,7 @@ Task_Else=拾って納品:Reserve-MBT Integrated Navigation Systemx1
 ]
 [
 	TaskType=giveQuestItem
-	TaskText=Hand over the navigation complex
+	TaskText=Hand over the navigation system
 	TaskOptional=false
 ]
 

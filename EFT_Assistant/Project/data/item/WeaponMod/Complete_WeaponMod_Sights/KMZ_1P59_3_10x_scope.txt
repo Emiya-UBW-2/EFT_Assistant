@@ -14,12 +14,15 @@ ChildParts=[
 Conflict=[
 	Axion Kobra EKP-8-18 reflex sight/|
 	OKP-7 reflex sight/|
+	ELCAN Specter HCO holographic sight/|
 	EOTech 553 holographic sight/|
 	EOTech EXPS3 holographic sight (Tan)/|
 	EOTech XPS3-0 holographic sight/|
 	EOTech XPS3-2 holographic sight/|
 	Holosun HS401G5 reflex sight/|
+	Leapers UTG reflex sight/|
 	SIG Sauer ROMEO8T reflex sight/|
+	SIG Sauer ROMEO7 1x30 reflex sight (Prototype)/|
 	Trijicon SRS-02 reflex sight/|
 	Valday PK-120 (1P87) holographic sight/|
 	Valday Krechet reflex sight/|
@@ -27,10 +30,7 @@ Conflict=[
 	Vortex Razor AMG UH-1 holographic sight/|
 	Walther MRS reflex sight/|
 	Aimpoint CompM4 reflex sight/|
-	Aimpoint LRP mount for CompM4 sights/|
-	ELCAN Specter HCO holographic sight/|
-	Leapers UTG reflex sight/|
-	SIG Sauer ROMEO7 1x30 reflex sight (Prototype)
+	Aimpoint LRP mount for CompM4 sights
 ]
 Recoil=0.000000
 Ergonomics=-8.000000

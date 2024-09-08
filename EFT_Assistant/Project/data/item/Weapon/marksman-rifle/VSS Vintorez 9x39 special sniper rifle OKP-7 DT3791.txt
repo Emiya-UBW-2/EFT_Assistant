@@ -1,0 +1,25 @@
+IDstr=vssvintorezokp7dt0000001
+Name=VSS Vintorez 9x39 special sniper rifle OKP-7 DT
+ShortName=VSS Vintorez OKP-7 DT
+Itemtype=marksman-rifle
+width=5
+height=2
+weight=3.375000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	VSS Vintorez 9x39 special sniper riflex1/|
+	VSS 9x39 integral barrel-suppressorx1/|
+	VSS/VAL TOZ 6P29M mountx1/|
+	RTM Osovets P-2 tactical foregripx1/|
+	Zenit KR-2 old gen mountx1/|
+	Zenit 2D flashlightx1/|
+	VSS wooden stockx1/|
+	VSS/VAL 9x39 6L25 20-round magazine (Plum)x1/|
+	VSS dust coverx1/|
+	AK Zenit RP-1 charging handlex1/|
+	OKP-7 reflex sight (Dovetail)x1
+]
+Name_Jpn=VSS Vintorez 9x39 特殊スナイパーライフル OKP-7 DT
+Information_Jpn=

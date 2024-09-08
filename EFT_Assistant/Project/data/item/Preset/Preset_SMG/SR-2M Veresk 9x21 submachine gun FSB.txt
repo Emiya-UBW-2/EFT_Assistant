@@ -1,5 +1,5 @@
 IDstr=63986a9ab483a550805be5ee
-Name=SR-2M "Veresk" 9x21 submachine gun FSB
+Name=SR-2M Veresk 9x21 submachine gun FSB
 ShortName=SR-2M FSB
 Itemtype=smg
 width=4
@@ -9,7 +9,7 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
-	SR-2M "Veresk" 9x21 submachine gunx1/|
+	SR-2M Veresk 9x21 submachine gunx1/|
 	SR-2M 9x21 30-round magazinex1/|
 	SR-2M 9x21 sound suppressor (SV-1381)x1/|
 	SR-2MP top-folding stockx1/|

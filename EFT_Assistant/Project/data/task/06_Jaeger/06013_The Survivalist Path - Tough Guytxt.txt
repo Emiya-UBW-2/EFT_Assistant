@@ -36,7 +36,7 @@ Task_Else=閾値: >= 0
 
 [
 	TaskType=useItem
-	TaskText=You must not use any medical supplies until the quest is completed
+	TaskText=You must not use any medical supplies while the task is active
 	TaskOptional=false
 ]
 

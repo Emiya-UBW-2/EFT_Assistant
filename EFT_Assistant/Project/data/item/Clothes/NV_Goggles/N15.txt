@@ -1,5 +1,5 @@
 IDstr=5c066e3a0db834001b7353f0
-Name=Armasight N-15 Night Vision Goggles
+Name=Armasight N-15 night vision goggles
 ShortName=N-15
 Information_Eng=The Armasight N-15-NVG binocular. Civilian alternative to contract military devices installed in a compact and ergonomic body.
 Itemtype=night-vision

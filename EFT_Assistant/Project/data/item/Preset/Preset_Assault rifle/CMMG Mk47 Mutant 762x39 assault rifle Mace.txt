@@ -21,7 +21,7 @@ containsItems=[
 	Magpul M-LOK 2.5 inch railx1/|
 	Kiba Arms 25mm accessory ring mountx1/|
 	Ultrafire WF-501B flashlightx1/|
-	AN/PEQ-15 tactical devicex1/|
+	L3Harris AN/PEQ-15 tactical devicex1/|
 	Magpul M-LOK 4.1 inch railx1/|
 	Magpul RVG foregrip (FDE)x1/|
 	KAC Folding front sightx1/|

@@ -1,0 +1,15 @@
+IDstr=6565c3ab977bcc2dbb01c2e7
+Name=SR-3M polymer handguard (Plum)
+ShortName=SR-3M
+Information_Eng=A standard-issue polymer handguard for the SR-3M assault rifle. Made out of plum-colored polymer, earning the nickname "Sliva" (Plum).
+Itemtype=handguard
+width=1
+height=1
+weight=0.070000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=-1.000000
+Ergonomics=7.000000
+accuracyModifier=0.000000
+Name_Jpn=SR-3M polymer handguard (Plum)
+Information_Jpn=A standard-issue polymer handguard for the SR-3M assault rifle. Made out of plum-colored polymer, earning the nickname "Sliva" (Plum).

@@ -1,0 +1,13 @@
+IDstr=664d3de85f2355673b09aed5
+Name=Leon's hideout key
+ShortName=Leon
+Information_Eng=A key to the room in the big house next to the bridge that leads to the water treatment plant. Belonged to one of Arena gladiators by the name "Leon".
+Itemtype=mechanical-key
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=ItemPropertiesKey
+uses=5
+Name_Jpn=Leon's hideout key
+Information_Jpn=A key to the room in the big house next to the bridge that leads to the water treatment plant. Belonged to one of Arena gladiators by the name "Leon".

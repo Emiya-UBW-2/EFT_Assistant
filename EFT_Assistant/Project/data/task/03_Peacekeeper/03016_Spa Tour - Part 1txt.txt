@@ -16,7 +16,7 @@ Task_Kill=[
 	Shoreline-Scavs{head}x7
 ]
 NeedItem=[
-	Saiga 12ga ver.10 12/76 semi-automatic shotgunx0/|
+	Saiga-12K ver.10 12ga semi-automatic shotgunx0/|
 	MP-133 12ga pump-action shotgunx0/|
 	MP-153 12ga semi-automatic shotgunx0/|
 	MP-43-1C 12ga double-barrel shotgunx0/|
@@ -24,7 +24,7 @@ NeedItem=[
 	Mossberg 590A1 12ga pump-action shotgunx0/|
 	Remington Model 870 12ga pump-action shotgunx0/|
 	MTs-255-12 12ga shotgunx0/|
-	Benelli M3 Super 90 dual-mode 12ga shotgunx0/|
+	Benelli M3 Super 90 12ga dual-mode shotgunx0/|
 	MP-43 12ga sawed-off double-barrel shotgunx0
 ]
 Task_Else=距離: >= 0m

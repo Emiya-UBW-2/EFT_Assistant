@@ -62,13 +62,13 @@ ChildParts=[
 	MCX GEN1 .300 BLK upper receiver
 ]
 ChildParts=[
-	MPX/MCX retractable stock adapter/|
-	MPX/MCX collapsing/telescoping stock/|
-	MPX/MCX telescoping stock/|
-	MPX/MCX lightweight stock/|
-	MPX/MCX Maxim Defense CQB telescoping stock/|
+	MPX/MCX Folding Knuckle Stock Adapter/|
+	MPX/MCX Collapsing/Telescoping Stock/|
+	MPX/MCX Telescoping/Folding Stock/|
+	MPX/MCX Thin Side-Folding Stock/|
+	MPX/MCX Maxim Defense CQB stock/|
 	MPX/MCX PMM ULSS foldable stock/|
-	MCX/MPX Stock Locking Hinge Assembly
+	MPX/MCX Stock Locking Hinge Assembly
 ]
 ChildParts=[
 	MCX charging handle

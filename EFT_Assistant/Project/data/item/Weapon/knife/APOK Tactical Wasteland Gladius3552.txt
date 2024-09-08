@@ -1,0 +1,15 @@
+IDstr=664a5428d5e33a713b622379
+Name=APOK Tactical Wasteland Gladius
+ShortName=TWG
+Information_Eng=The Tactical Wasteland Gladius sword, manufactured by APOK. Arena champion's prime melee weapon. Rumors are that this is the exact blade that the gladiator Voron used to fight with. Or at least it looks like one.
+Itemtype=knife
+width=1
+height=4
+weight=1.247000
+fleaMarketFee=0
+propertiestype=ItemPropertiesMelee
+slashDamage=38
+stabDamage=57
+hitRadius=0.800000
+Name_Jpn=APOK Tactical Wasteland Gladius
+Information_Jpn=The Tactical Wasteland Gladius sword, manufactured by APOK. Arena champion's prime melee weapon. Rumors are that this is the exact blade that the gladiator Voron used to fight with. Or at least it looks like one.

@@ -1,0 +1,12 @@
+IDstr=66572cbdad599021091c611a
+Name=Tagilla figurine
+ShortName=Tagilla
+Information_Eng=A limited edition Tarko figurine. As a child, Tagilla fell into a tub of protein. His welding mask protects him not only from bullets, but also from blood spatter. Many parts of the Polikhim factory are rumored to be forged with his hammer.
+Itemtype=jewelry
+width=1
+height=2
+weight=0.200000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=Tagilla figurine
+Information_Jpn=A limited edition Tarko figurine. As a child, Tagilla fell into a tub of protein. His welding mask protects him not only from bullets, but also from blood spatter. Many parts of the Polikhim factory are rumored to be forged with his hammer.

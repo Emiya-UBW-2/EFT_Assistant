@@ -23,7 +23,7 @@ Conflict=[
 	AK TWS Dog Leg Rail dust cover/|
 	AK Zenit B-33 dust cover/|
 	AKS-74UB dust cover/|
-	PP-19-01 "Vityaz-SN" dust cover
+	PP-19-01 Vityaz-SN dust cover
 ]
 Recoil=0.000000
 Ergonomics=-1.000000

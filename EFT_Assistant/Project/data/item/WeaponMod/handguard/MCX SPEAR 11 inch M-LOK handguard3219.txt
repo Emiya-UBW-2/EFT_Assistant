@@ -11,12 +11,14 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount/|
-	Magpul M-LOK Offset Light Mount
+	Magpul M-LOK Offset Light Mount/|
+	Magpul M-LOK 0.93 inch rail
 ]
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount/|
-	Magpul M-LOK Offset Light Mount
+	Magpul M-LOK Offset Light Mount/|
+	Magpul M-LOK 0.93 inch rail
 ]
 ChildParts=[
 	HK MP7 flip-up front sight/|
@@ -36,7 +38,9 @@ ChildParts=[
 	Magpul M-LOK AFG tactical foregrip (Olive Drab)/|
 	Magpul M-LOK AFG tactical foregrip (Stealth Grey)/|
 	Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown)/|
-	Daniel Defense Enhanced M-LOK Vertical Foregrip (Black)
+	Daniel Defense Enhanced M-LOK Vertical Foregrip (Black)/|
+	BCM GUNFIGHTER MOD 3 M-LOK foregrip (Black)/|
+	BCM GUNFIGHTER MOD 3 M-LOK foregrip (FDE)
 ]
 Recoil=-1.000000
 Ergonomics=6.000000

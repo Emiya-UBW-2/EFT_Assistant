@@ -3,7 +3,7 @@ Name=Overseas Trust - Part 2
 Trader=Ragman
 
 NeedTask=Overseas Trust - Part 1
-NeedLevel=35
+NeedLevel=33
 
 CanRestart=false
 NeedKappa=false

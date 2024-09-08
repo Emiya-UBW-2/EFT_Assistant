@@ -6,7 +6,7 @@ NeedTask=Ice Cream Cones
 NeedLevel=10
 
 CanRestart=false
-NeedKappa=false
+NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Factory
@@ -41,7 +41,7 @@ Reward_Rep=Prapor+2
 Reward_Item=[
 	Roublesx40000/|
 	ANA Tactical Beta 2 Battle backpack (Olive Drab)x1/|
-	6B23-1 body armor (Digital Flora)x1
+	6B23-1 body armor (Digital Flora) Defaultx1
 ]
 
 Reward_EXP=5900

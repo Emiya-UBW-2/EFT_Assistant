@@ -1,0 +1,28 @@
+IDstr=707265736574000000000045
+Name=Remington Model 700 7.62x51 bolt-action sniper rifle Vudu 1-6x24
+ShortName=M700 Vudu 1-6x24
+Itemtype=sniper-rifle
+width=5
+height=2
+weight=4.944000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Remington Model 700 7.62x51 bolt-action sniper riflex1/|
+	M700 AB Arms MOD*X GEN 3 chassisx1/|
+	AR-15 Magpul MIAD pistol grip (FDE)x1/|
+	M700 AB Arms MOD*X GEN 3 KeyMod handguardx1/|
+	Vltor CASV KeyMod 6 inch railx1/|
+	Strike Industries Cobra Tactical foregrip (FDE)x1/|
+	M700 7.62x51 20 inch stainless steel threaded barrelx1/|
+	AR-10 KAC QDC 7.62x51 Muzzle Brake Kitx1/|
+	KAC PRS/QDC 7.62x51 sound suppressorx1/|
+	M700 AB Arms MOD*X rail mountx1/|
+	Geissele Super Precision 30mm ring scope mount (DDC)x1/|
+	Geissele Super Precision top ring cap (DDC)x1/|
+	EOTech Vudu 1-6x24 30mm riflescopex1/|
+	M700 7.62x51 Magpul PMAG AC 5-round magazinex1
+]
+Name_Jpn=Remington Model 700 7.62x51 ボルトアクション スナイパーライフル 1-6x24
+Information_Jpn=

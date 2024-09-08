@@ -1,0 +1,30 @@
+IDstr=669fa395c4c5c04798002497
+Name=Exit Here
+Trader=Skier
+
+NeedTask=Scout
+NeedLevel=12
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Factory
+factionName=Any
+Task_Map=Factory
+Task_Else=脱出ステータス:[Survived]
+Task_Else=脱出地点:Courtyard Gate
+
+[
+	TaskType=extract
+	TaskText=Survive and extract from Factory through the main exit
+	TaskOptional=false
+]
+
+Reward_Rep=Skier+1
+Reward_Item=[
+	Eurosx260/|
+	TP-200 TNT brickx3
+]
+
+Reward_EXP=5500

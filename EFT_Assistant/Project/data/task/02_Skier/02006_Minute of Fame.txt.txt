@@ -1,0 +1,36 @@
+IDstr=666314bc1d3ec95634095e77
+Name=Minute of Fame
+Trader=Skier
+
+NeedTask=The Good Times - Part 2
+NeedLevel=27
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Interchange
+factionName=Any
+Task_Map=Interchange
+Task_Else=拾って納品:Interchange-Gaming magazinex1
+
+[
+	TaskType=findQuestItem
+	TaskText=Locate and obtain the special edition of the gaming magazine on Interchange
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the found item
+	TaskOptional=false
+]
+
+Reward_Rep=Skier+2
+Reward_Item=[
+	Eurosx1600/|
+	AWC Thor PSR XL multi-caliber sound suppressorx2/|
+	AWC PSR 7.62x51 muzzle brakex2/|
+	SIG Sauer SRD762Ti 7.62x51 sound suppressorx2
+]
+
+Reward_EXP=40000

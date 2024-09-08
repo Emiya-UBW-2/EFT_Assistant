@@ -1,6 +1,6 @@
 IDstr=5bfd297f0db834001a669119
 Name=Mosin 7.62x54R bolt-action rifle (Infantry)
-ShortName=Mosin (Infantry)
+ShortName=Mosin Infantry
 Information_Eng=Mosin–Nagant is one of the most famous russian rifles, which was commonly used by Russian soldiers during WW2. Developed from 1882 to 1891, it was used by the armed forces of the Russian Empire, the Soviet Union and various other nations. It is one of the most mass-produced military bolt-action rifles in history with over 37 million units having been made since 1891. In spite of its age, it has been used in various conflicts around the world up to the present day.
 Itemtype=sniper-rifle
 width=1
@@ -13,7 +13,7 @@ ChildParts=[
 	Mosin Rifle 7.62x54R ProMag Archangel OPFOR 10-round magazine
 ]
 ChildParts=[
-	Mosin Rifle ATI Monte Carlo chassis/|
+	Mosin Rifle ATI Monte Carlo stock/|
 	Mosin Rifle sawed-off stock/|
 	Mosin Rifle sniper carbine stock/|
 	Mosin Rifle carbine stock/|

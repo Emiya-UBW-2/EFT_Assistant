@@ -11,8 +11,8 @@ propertiestype=ItemPropertiesWeaponMod
 Conflict=[
 	Zenit RK-1 tactical foregrip on B-25U mount
 ]
-Recoil=-1.000000
-Ergonomics=2.000000
+Recoil=0.000000
+Ergonomics=-2.000000
 accuracyModifier=0.000000
 Name_Jpn=PK bipod
 Information_Jpn=A standard-issue bipod for Kalashnikov Machine gun. Manufactured by V.A. Degtyarev Plant.

@@ -1,0 +1,15 @@
+IDstr=661e52e29c8b4dadef008577
+Name=TangoDown BGV-QDITI foregrip (Black)
+ShortName=BGV-QDITI
+Information_Eng=The BGV-QDITI vertical grip with a compartment for batteries or small items. Manufactured by TangoDown. Black version.
+Itemtype=foregrip
+width=1
+height=1
+weight=0.136000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=-1.500000
+Ergonomics=3.500000
+accuracyModifier=0.000000
+Name_Jpn=TangoDown BGV-QDITI foregrip (Black)
+Information_Jpn=The BGV-QDITI vertical grip with a compartment for batteries or small items. Manufactured by TangoDown. Black version.

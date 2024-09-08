@@ -16,7 +16,12 @@ Conflict=[
 	EMERCOM cap/|
 	Police cap/|
 	Basmach leather cap/|
-	Gus baseball cap
+	Gus baseball cap/|
+	Ballistic Armor Co. Bastion helmet (OD Green)/|
+	Ballistic Armor Co. Bastion helmet (Armor Black)/|
+	Ballistic Armor Co. Bastion helmet (MultiCam)/|
+	Team Wendy EXFIL Ballistic Helmet (Black)/|
+	Team Wendy EXFIL Ballistic Helmet (Coyote Brown)
 ]
 Name_Jpn=Hockey player mask (Brawler)
 Information_Jpn=Frightening mask from a children's cartoon about hockey.

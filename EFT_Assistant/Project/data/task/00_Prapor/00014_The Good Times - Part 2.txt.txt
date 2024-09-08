@@ -1,0 +1,36 @@
+IDstr=666314bafd5ca9577902e03a
+Name=The Good Times - Part 2
+Trader=Prapor
+
+NeedTask=Airmail
+NeedLevel=27
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_Kill=[
+	any targetx10
+]
+NeedItem=[
+	TT-33 7.62x25 TT pistol (Golden)x0
+]
+Task_Else=距離: >= 0m
+
+[
+	TaskType=shoot
+	TaskText=Eliminate any target while using the golden TT-33 pistol
+	TaskOptional=false
+]
+
+Reward_Item=[
+	TT-33 7.62x25 TT pistol (Golden) Defaultx1
+]
+Reward_Rep=Prapor+3
+Reward_Item=[
+	Roublesx226000/|
+	Ammunition casex2
+]
+
+Reward_EXP=62400

@@ -20,7 +20,7 @@ Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot
-	TaskText=Locate and eliminate Killa
+	TaskText=Locate and neutralize Killa
 	TaskOptional=false
 ]
 

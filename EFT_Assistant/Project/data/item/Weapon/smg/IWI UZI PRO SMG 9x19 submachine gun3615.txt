@@ -1,0 +1,51 @@
+IDstr=668e71a8dadf42204c032ce1
+Name=IWI UZI PRO SMG 9x19 submachine gun
+ShortName=UZI PRO SMG
+Information_Eng=The UZI PRO SMG is a submachine gun for law enforcement and military use. This ultra-compact submachine gun is an evolution of the full-size UZI submachine gun, ideal for concealed carry and featuring a high rate of fire. Manufactured by Israel Weapon Industries.
+Itemtype=smg
+width=2
+height=1
+weight=1.128000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeapon
+ChildParts=[
+	UZI PRO 9x19 20-round magazine/|
+	UZI PRO 9x19 25-round magazine/|
+	UZI PRO 9x19 32-round magazine
+]
+ChildParts=[
+	UZI PRO 9x19 barrel retaining nut
+]
+ChildParts=[
+	UZI PRO Stabilizing Brace/|
+	UZI PRO A3 Tactical Rear Stock Adapter/|
+	UZI PRO SBR buttstock/|
+	UZI PRO backplate/|
+	UZI PRO CSM stock adapter
+]
+ChildParts=[
+	UZI PRO dust cover
+]
+ChildParts=[
+	UZI PRO 9x19 170mm barrel/|
+	UZI PRO 9x19 210mm barrel/|
+	UZI PRO 9x19 240mm barrel
+]
+ChildParts=[
+	UZI PRO SMG rail adapter
+]
+Recoil=56.000000
+RecoilHorizontal=198.000000
+Ergonomics=78.000000
+SightRange=-100
+FireRate=1075
+centerOfImpact=0.210000
+deviationCurve=2.250000
+recoilDispersion=10
+recoilAngle=95
+cameraRecoil=0.000000
+cameraSnap=3.500000
+deviationMax=11
+convergence=0.000000
+Name_Jpn=IWI UZI PRO SMG 9x19 submachine gun
+Information_Jpn=The UZI PRO SMG is a submachine gun for law enforcement and military use. This ultra-compact submachine gun is an evolution of the full-size UZI submachine gun, ideal for concealed carry and featuring a high rate of fire. Manufactured by Israel Weapon Industries.

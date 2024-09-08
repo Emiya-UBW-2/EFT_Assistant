@@ -1,0 +1,43 @@
+IDstr=665eeca45d86b6c8aa03c79d
+Name=Thirsty - Echo
+Trader=Therapist
+
+NeedTask=Thirsty - Delivery
+NeedLevel=15
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Shoreline
+factionName=Any
+Task_Map=Shoreline
+Task_Else=TaskType:visit
+Task_Else=Locate any information about Thirsty on Shoreline
+Task_Map=Shoreline
+Task_Else=拾って納品:Shoreline-Battered diaryx1
+
+[
+	TaskType=visit
+	TaskText=Locate any information about Thirsty on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Obtain the information in Thirsty's hideout
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the found information
+	TaskOptional=false
+]
+
+Reward_Rep=Therapist+3
+Reward_Item=[
+	Aquamari water bottle with filterx4/|
+	M.U.L.E. stimulant injectorx2/|
+	Roublesx185000
+]
+
+Reward_EXP=11200

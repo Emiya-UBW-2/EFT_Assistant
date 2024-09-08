@@ -17,8 +17,8 @@ ChildParts=[
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
-	AN/PEQ-15 tactical device/|
-	LA-5B/PEQ tactical device/|
+	L3Harris AN/PEQ-15 tactical device/|
+	L3Harris LA-5B/PEQ tactical device/|
 	NcSTAR Tactical blue laser LAM-module/|
 	Steiner LAS/TAC 2 tactical flashlight/|
 	SureFire X400 Ultra tactical flashlight with laser/|
@@ -31,7 +31,8 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight/|
-	MAWL-C1+ tactical device
+	MAWL-C1+ tactical device/|
+	BT10 V8 Atlas Bipod
 ]
 Conflict=[
 	M14 7.62x51 X Products X-14 50-round drum magazine

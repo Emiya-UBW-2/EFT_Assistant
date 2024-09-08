@@ -1,0 +1,23 @@
+IDstr=66992f4db9f31ddda10dd1c8
+Name=UZI StormWerkz stock adapter
+ShortName=UZI SW
+Information_Eng=A Picatinny adapter designed for installation of various buttstocks on the UZI submachine gun. Manufactured by StormWerkz.
+Itemtype=stock
+width=1
+height=1
+weight=0.062000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	MPX/MCX Folding Knuckle Stock Adapter/|
+	MPX/MCX Collapsing/Telescoping Stock/|
+	MPX/MCX Stock Locking Hinge Assembly/|
+	MPX/MCX Telescoping/Folding Stock/|
+	MPX/MCX Thin Side-Folding Stock/|
+	UZI PRO A3 Tactical Modular Folding Brace
+]
+Recoil=0.000000
+Ergonomics=-1.000000
+accuracyModifier=0.000000
+Name_Jpn=UZI StormWerkz stock adapter
+Information_Jpn=A Picatinny adapter designed for installation of various buttstocks on the UZI submachine gun. Manufactured by StormWerkz.

@@ -1,0 +1,17 @@
+IDstr=70726573657400000000002e
+Name=Crye Precision AirFrame helmet (Tan) Face shield
+ShortName=AirFrame Face shield
+Itemtype=headwear
+width=2
+height=2
+weight=3.530000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Crye Precision AirFrame helmet (Tan)x1/|
+	Ops-Core FAST multi-hit ballistic face shieldx1/|
+	Crye Precision AirFrame Chopsx1
+]
+Name_Jpn=Crye Precision AirFrame helmet (Tan) Face shield
+Information_Jpn=

@@ -49,7 +49,7 @@ Conflict=[
 	Axion Kobra dovetail mount/|
 	VOMZ Pilad 043-02 dovetail mount/|
 	AK Zenit B-33 dust cover/|
-	PP-19-01 "Vityaz-SN" dust cover
+	PP-19-01 Vityaz-SN dust cover
 ]
 Recoil=-5.000000
 Ergonomics=-20.000000

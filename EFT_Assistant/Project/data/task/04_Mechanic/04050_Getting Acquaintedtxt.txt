@@ -3,7 +3,7 @@ Name=Getting Acquainted
 Trader=Mechanic
 
 NeedTask=Knock-Knock
-NeedLevel=35
+NeedLevel=33
 
 CanRestart=false
 NeedKappa=false

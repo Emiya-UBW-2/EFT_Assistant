@@ -1,0 +1,11 @@
+IDstr=66aa3a31efb1b8119f0196c7
+Name=Twitch Drops Summer 2024 case (Rare)
+ShortName=Twitch
+Itemtype=random-loot-container
+width=2
+height=2
+weight=4.000000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=Twitch Drops Summer 2024 case (Rare)
+Information_Jpn=

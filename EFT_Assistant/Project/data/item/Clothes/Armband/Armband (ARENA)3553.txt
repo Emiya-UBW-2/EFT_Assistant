@@ -1,0 +1,12 @@
+IDstr=664a5480bfcc521bad3192ca
+Name=Armband (ARENA)
+ShortName=ARENA
+Information_Eng=Armband given by Ref. The mark of the Tarkov Arena champion.
+Itemtype=arm-band
+width=1
+height=1
+weight=0.050000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=Armband (ARENA)
+Information_Jpn=Armband given by Ref. The mark of the Tarkov Arena champion.

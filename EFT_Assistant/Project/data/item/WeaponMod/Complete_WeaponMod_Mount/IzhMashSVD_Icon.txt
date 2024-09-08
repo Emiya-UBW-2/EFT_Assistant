@@ -80,12 +80,12 @@ Conflict=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
 	BelOMO PK-AA dovetail reflex sight/|
 	OKP-7 reflex sight (Dovetail)/|
-	NPZ PK1 "Obzor" dovetail reflex sight/|
+	NPZ PK1 Obzor dovetail reflex sight/|
 	AK Taktika Tula TT01 rear sight rail/|
 	BelOMO PSO-1 4x24 scope/|
 	BelOMO PSO-1M2-1 4x24 scope/|
 	BelOMO PSO-1M2 4x24 scope/|
-	NPZ USP-1 "Tyulpan" 4x scope/|
+	NPZ USP-1 Tyulpan 4x scope/|
 	NSPU-M 3.5x dovetail night vision scope/|
 	Axion Kobra dovetail mount/|
 	SVD CAA XD RGL receiver mount/|

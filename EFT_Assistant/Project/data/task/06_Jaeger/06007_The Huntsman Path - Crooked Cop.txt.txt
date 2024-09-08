@@ -1,0 +1,51 @@
+IDstr=6578eb36e5020875d64645cd
+Name=The Huntsman Path - Crooked Cop
+Trader=Jaeger
+
+NeedTask=The Huntsman Path - Administrator
+NeedLevel=23
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+factionName=Any
+Task_Map=Streets of Tarkov
+Task_Kill=[
+	Streets of Tarkov-Kollontayx1
+]
+Task_Else=距離: >= 0m
+Task_Map=Streets of Tarkov
+Task_Kill=[
+	Streets of Tarkov-Kollontay Guard (Assault)x4
+]
+Task_Else=距離: >= 0m
+Task_FiR_HandOver=[PR-Taran police batonx1]
+DogTagLv=0
+
+[
+	TaskType=shoot
+	TaskText=Locate and neutralize Kollontay
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate Kollontay's guards
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid Kollontay's police baton
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+2
+Reward_Item=[
+	Roublesx150000/|
+	Intelligence folderx1/|
+	GP coinx5/|
+	Accuracy International AXMC .338 LM bolt-action sniper rifle Defaultx1
+]
+
+Reward_EXP=36000

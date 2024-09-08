@@ -1,0 +1,16 @@
+IDstr=668fe5e1800f0244f9036e46
+Name=Desert Eagle rear sight
+ShortName=DE RS
+Information_Eng=A standard-issue rear sight for the Desert Eagle pistol, manufactured by Magnum Research.
+Itemtype=ironsight
+width=1
+height=1
+weight=0.006000
+fleaMarketFee=0
+propertiestype=ItemPropertiesScope
+Recoil=0.000000
+Ergonomics=0.000000
+SightRange=200
+sightZooms=1.000000
+Name_Jpn=Desert Eagle rear sight
+Information_Jpn=A standard-issue rear sight for the Desert Eagle pistol, manufactured by Magnum Research.

@@ -1,0 +1,22 @@
+IDstr=668031bde3e7eb26e8004cd7
+Name=UZI PRO A3 Tactical M-LOK handguard
+ShortName=A3 MLOK
+Information_Eng=A handguard for the IWI UZI PRO Pistol, which functions as a foregrip and trigger guard. Equipped with M-LOK interface for attaching additional equipment. Manufactured by A3 Tactical.
+Itemtype=handguard
+width=1
+height=1
+weight=0.080000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Magpul M-LOK 0.93 inch rail
+]
+Conflict=[
+	SilencerCo Osprey 9 9x19 sound suppressor/|
+	Gemtech ONE multi-caliber sound suppressor
+]
+Recoil=-1.000000
+Ergonomics=9.000000
+accuracyModifier=0.000000
+Name_Jpn=UZI PRO A3 Tactical M-LOK handguard
+Information_Jpn=A handguard for the IWI UZI PRO Pistol, which functions as a foregrip and trigger guard. Equipped with M-LOK interface for attaching additional equipment. Manufactured by A3 Tactical.

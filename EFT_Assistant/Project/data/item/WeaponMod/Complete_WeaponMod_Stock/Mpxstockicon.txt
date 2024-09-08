@@ -1,6 +1,6 @@
 IDstr=5894a13e86f7742405482982
-Name=MPX/MCX collapsing/telescoping stock
-ShortName=MPX/MCX
+Name=MPX/MCX Collapsing/Telescoping Stock
+ShortName=SIG CTS
 Information_Eng=A telescopic retractable stock for early issues of MCX/MPX manufactured by SIG Sauer.
 Itemtype=stock
 width=2

@@ -13,45 +13,45 @@ Task_Map=Reserve
 factionName=Any
 Task_Map=Reserve
 Task_Else=TaskType:visit
-Task_Else=Locate the hermetic door leading to the hospital (White Bishop)
+Task_Else=Locate the hermetic door leading to the hospital (White Bishop) on Reserve
 Task_Map=Reserve
 Task_Else=TaskType:visit
-Task_Else=Locate one of the two hermetic doors leading to the academy building (Black Bishop)
+Task_Else=Locate one of the two hermetic doors leading to the academy building (Black Bishop) on Reserve
 Task_Map=Reserve
 Task_Else=TaskType:visit
-Task_Else=Locate one of the two hermetic doors leading to barracks #1 (Black Pawn)
+Task_Else=Locate one of the two hermetic doors leading to barracks #1 (Black Pawn) on Reserve
 Task_Map=Reserve
 Task_Else=TaskType:visit
-Task_Else=Locate one of the two hermetic doors leading to barracks #2 (White Pawn)
+Task_Else=Locate one of the two hermetic doors leading to barracks #2 (White Pawn) on Reserve
 Task_Map=Reserve
 Task_Else=TaskType:visit
-Task_Else=Locate the hermetic door leading to the building of the air control center (King)
+Task_Else=Locate the hermetic door leading to the building of the air control center (King) on Reserve
 Task_Map=Reserve
 Task_Else=脱出ステータス:[Survived,Run Through]
 
 [
 	TaskType=visit
-	TaskText=Locate the hermetic door leading to the hospital (White Bishop)
+	TaskText=Locate the hermetic door leading to the hospital (White Bishop) on Reserve
 	TaskOptional=false
 ]
 [
 	TaskType=visit
-	TaskText=Locate one of the two hermetic doors leading to the academy building (Black Bishop)
+	TaskText=Locate one of the two hermetic doors leading to the academy building (Black Bishop) on Reserve
 	TaskOptional=false
 ]
 [
 	TaskType=visit
-	TaskText=Locate one of the two hermetic doors leading to barracks #1 (Black Pawn)
+	TaskText=Locate one of the two hermetic doors leading to barracks #1 (Black Pawn) on Reserve
 	TaskOptional=false
 ]
 [
 	TaskType=visit
-	TaskText=Locate one of the two hermetic doors leading to barracks #2 (White Pawn)
+	TaskText=Locate one of the two hermetic doors leading to barracks #2 (White Pawn) on Reserve
 	TaskOptional=false
 ]
 [
 	TaskType=visit
-	TaskText=Locate the hermetic door leading to the building of the air control center (King)
+	TaskText=Locate the hermetic door leading to the building of the air control center (King) on Reserve
 	TaskOptional=false
 ]
 [

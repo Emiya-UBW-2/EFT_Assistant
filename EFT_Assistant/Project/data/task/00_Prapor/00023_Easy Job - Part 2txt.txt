@@ -13,7 +13,7 @@ Task_Map=Lighthouse
 factionName=Any
 Task_Map=Lighthouse
 Task_Kill=[
-	Lighthouse-Scavsx20
+	Lighthouse-any targetx20
 ]
 Task_Else=ゾーン:[Helicopter at Water Treatment Plant]
 Task_Else=距離: >= 0m

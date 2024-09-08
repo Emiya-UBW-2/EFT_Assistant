@@ -10,30 +10,10 @@ NeedKappa=true
 NeedLightkeeper=true
 
 factionName=Any
-Task_Map=Interchange
-Task_Map=Lighthouse
-Task_Map=Reserve
-Task_Map=Ground Zero
-Task_Map=Shoreline
-Task_Map=Streets of Tarkov
-Task_Map=Woods
-Task_Map=Customs
-Task_Map=Factory
-Task_Map=Night Factory
 Task_Kill=[
-	Interchange-Scavsx7/|
-	Lighthouse-Scavsx7/|
-	Reserve-Scavsx7/|
-	Ground Zero-Scavsx7/|
-	Shoreline-Scavsx7/|
-	Streets of Tarkov-Scavsx7/|
-	Woods-Scavsx7/|
-	Customs-Scavsx7/|
-	Factory-Scavsx7/|
-	Night Factory-Scavsx7
+	USEC operativesx7
 ]
 Task_Else=距離: >= 0m
-NeedItem=Dogtag USECx7
 Task_NotFiR_HandOver=[Dogtag USECx7]
 DogTagLv=0
 
@@ -43,13 +23,8 @@ DogTagLv=0
 	TaskOptional=false
 ]
 [
-	TaskType=findItem
-	TaskText=Obtain USEC PMC dogtags
-	TaskOptional=false
-]
-[
 	TaskType=giveItem
-	TaskText=Hand over the dogtags
+	TaskText=Hand over the USEC PMC dogtags
 	TaskOptional=false
 ]
 

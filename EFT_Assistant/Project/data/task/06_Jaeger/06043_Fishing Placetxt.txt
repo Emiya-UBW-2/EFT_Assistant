@@ -29,7 +29,7 @@ Reward_Rep=Jaeger+2
 Reward_Item=[
 	Roublesx40000/|
 	Remington Model 700 7.62x51 bolt-action sniper rifle AAC SDx1/|
-	FORT Redut-M body armorx1
+	FORT Redut-M body armor Defaultx1
 ]
 
 Reward_EXP=18000

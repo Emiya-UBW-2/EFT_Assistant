@@ -18,6 +18,6 @@ Parts=Fortis Shift tactical foregrip
 Parts=Vltor CASV KeyMod 2 inch rail
 Parts=SureFire X400 Ultra tactical flashlight with laser
 Parts=Vltor CASV KeyMod 4 inch rail
-Parts=AN/PEQ-15 tactical device
+Parts=L3Harris AN/PEQ-15 tactical device
 Parts=AR-15 Magpul UBR GEN2 stock (Black)
 Parts=AR-15 Badger Ordnance Tactical Charging Handle Latch

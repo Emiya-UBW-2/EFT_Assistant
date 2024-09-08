@@ -15,7 +15,7 @@ ChildParts=[
 	BelOMO PSO-1 4x24 scope/|
 	BelOMO PSO-1M2-1 4x24 scope/|
 	BelOMO PSO-1M2 4x24 scope/|
-	NPZ USP-1 "Tyulpan" 4x scope/|
+	NPZ USP-1 Tyulpan 4x scope/|
 	NSPU-M 3.5x dovetail night vision scope/|
 	Axion Kobra dovetail mount/|
 	NPZ 1P78-1 dovetail mount/|

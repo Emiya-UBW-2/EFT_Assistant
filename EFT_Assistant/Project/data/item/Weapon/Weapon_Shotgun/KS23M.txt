@@ -22,6 +22,9 @@ ChildParts=[
 	KS-23 wooden stock/|
 	KS-23M pistol grip
 ]
+ChildParts=[
+	KOMZ Rusak reflex sight
+]
 Recoil=467.000000
 RecoilHorizontal=601.000000
 Ergonomics=38.000000

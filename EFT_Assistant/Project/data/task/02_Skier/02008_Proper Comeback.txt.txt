@@ -1,0 +1,45 @@
+IDstr=666314c3acf8442f8b0531a3
+Name=Proper Comeback
+Trader=Skier
+
+NeedTask=Camera, Action!
+NeedLevel=27
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_Map=Woods
+Task_NotFiR_HandOver=[Golden rooster figurinex1]
+DogTagLv=0
+Task_Map=Shoreline
+Task_NotFiR_HandOver=[Golden rooster figurinex1]
+DogTagLv=0
+Task_NotFiR_HandOver=[Golden rooster figurinex1]
+DogTagLv=0
+
+[
+	TaskType=plantItem
+	TaskText=Stash a Golden rooster figurine at Prapor's WI-FI Camera on Woods
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Stash a Golden rooster figurine at Prapor's WI-FI Camera on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Stash a Golden rooster figurine at Prapor's WI-FI Camera on Factory
+	TaskOptional=false
+]
+
+Reward_Rep=Skier+2
+Reward_Item=[
+	Eurosx1900/|
+	Golden eggx2/|
+	Tetriz portable game consolex2
+]
+
+Reward_EXP=78000

@@ -8,5 +8,17 @@ height=2
 weight=0.100000
 fleaMarketFee=0
 propertiestype=
+Conflict=[
+	Ops-Core FAST multi-hit ballistic face shield/|
+	Altyn helmet face shield/|
+	Vulkan-5 helmet face shield/|
+	Maska-1SCh face shield (Killa Edition)/|
+	Maska-1SCh face shield (Olive Drab)/|
+	Rys-T face shield/|
+	Team Wendy EXFIL Ballistic face shield (Coyote Brown)/|
+	Team Wendy EXFIL Ballistic face shield (Black)/|
+	ZSh-1-2M face shield/|
+	LShZ-2DTM face shield
+]
 Name_Jpn=防毒マスク
 Information_Jpn=レスピレーターマスク、または 防毒 / 防塵 マスクは、フィルターを通して空気中の有毒ガスや有害物質を除去する一般的な保護マスクだ。

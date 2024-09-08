@@ -1,5 +1,5 @@
 IDstr=59e61eb386f77440d64f5daf
-Name=VPO-136 "Vepr-KM" 7.62x39 muzzle brake-compensator
+Name=VPO-136 Vepr-KM 7.62x39 muzzle brake-compensator
 ShortName=VPO136
 Information_Eng=A standard muzzle brake/compensator manufactured by Molot Arms for VPO-136 Vepr KM 7.62x39 carbines. Also fits the AK family automatic rifles of the same caliber.
 Itemtype=flashhider

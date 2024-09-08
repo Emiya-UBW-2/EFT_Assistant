@@ -1,0 +1,105 @@
+IDstr=666314c10aa5c7436c00908c
+Name=Camera, Action!
+Trader=Mechanic
+
+NeedTask=Serious Allegations
+NeedLevel=27
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_FiR_HandOver=[SSD drivex1]
+DogTagLv=0
+Task_FiR_HandOver=[USB Adapterx1]
+DogTagLv=0
+Task_FiR_HandOver=[Portable Powerbankx1]
+DogTagLv=0
+Task_FiR_HandOver=[Rechargeable batteryx1]
+DogTagLv=0
+Task_FiR_HandOver=[PC CPUx1]
+DogTagLv=0
+Task_FiR_HandOver=[Electronic componentsx1]
+DogTagLv=0
+Task_FiR_HandOver=[Bundle of wiresx1]
+DogTagLv=0
+Task_FiR_HandOver=[Capacitorsx1]
+DogTagLv=0
+Task_FiR_HandOver=[NIXXOR lensx1]
+DogTagLv=0
+Task_FiR_HandOver=[RAM stickx1]
+DogTagLv=0
+Task_FiR_HandOver=[Working LCDx1]
+DogTagLv=0
+Task_FiR_HandOver=[Light bulbx1]
+DogTagLv=0
+
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid item: SSD drive
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid item: USB Adapter
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid item: Portable Powerbank
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid item: Rechargeable battery
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid item: PC CPU
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid item: Electronic components
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid item: Bundle of wires
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid item: Capacitors
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid item: NIXXOR lens
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid item: RAM stick
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid item: Working LCD
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid item: Light bulb
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+2
+Reward_Item=[
+	Roublesx205000/|
+	TerraGroup Labs access keycardx3
+]
+
+Reward_EXP=32000

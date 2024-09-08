@@ -8,5 +8,8 @@ height=2
 weight=0.500000
 fleaMarketFee=0
 propertiestype=
+Conflict=[
+	SSh-68 steel helmet (Olive Drab)
+]
 Name_Jpn=GSSh-01 アクティブヘッドセット
 Information_Jpn=The GSSh-01 headset is used in the Russian Ratnik military gear set.

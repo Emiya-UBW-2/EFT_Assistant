@@ -19,7 +19,7 @@ ChildParts=[
 	AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo (White)
 ]
 ChildParts=[
-	GP-25 "Kostyor" 40mm underbarrel grenade launcher
+	GP-25 Kostyor 40mm underbarrel grenade launcher
 ]
 ChildParts=[
 	VPO-209 thread protector/|
@@ -45,7 +45,7 @@ ChildParts=[
 	AK TAPCO SAW-Style pistol grip (FDE)/|
 	AK US Palm pistol grip/|
 	AK Zenit RK-3 pistol grip/|
-	PP-19-01 "Vityaz" pistol grip/|
+	PP-19-01 Vityaz pistol grip/|
 	AK FAB Defense AGR-47 pistol grip/|
 	AK TangoDown Battle Grip pistol grip/|
 	AK TangoDown Battle Grip pistol grip (FDE)/|
@@ -68,14 +68,14 @@ ChildParts=[
 ]
 ChildParts=[
 	AK-74 polymer stock (6P20 Sb.7)/|
-	AK-74 "Plum" polymer stock (6P20 Sb.7)/|
+	AK-74 6P20 Sb.7 polymer stock (Plum)/|
 	AK-74 wooden stock (6P20 Sb.5)/|
 	AKM/AK-74 CAA AKTS buffer tube/|
 	AKM/AK-74 FAB Defense UAS stock/|
 	AKM/AK-74 Hexagon "Kocherga" stock (Anodized Red)/|
 	AKM wooden stock (6P1 Sb.5)/|
 	AKM/AK-74 Magpul Zhukov-S stock/|
-	VPO-136 "Vepr-KM" wooden stock/|
+	VPO-136 Vepr-KM wooden stock/|
 	VPO-209 wooden stock/|
 	AKM/AK-74 ProMag Archangel OPFOR AA47 buttstock/|
 	AKM/AK-74 ME4 buffer tube adapter/|
@@ -108,8 +108,8 @@ ChildParts=[
 ChildParts=[
 	AKMP system front sight device
 ]
-Recoil=170.000000
-RecoilHorizontal=423.000000
+Recoil=154.000000
+RecoilHorizontal=386.000000
 Ergonomics=30.000000
 SightRange=-100
 FireRate=600

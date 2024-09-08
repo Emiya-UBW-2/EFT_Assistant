@@ -12,7 +12,12 @@ Conflict=[
 	Door Kicker boonie hat/|
 	SSh-68 steel helmet (Olive Drab)/|
 	Ushanka ear flap hat/|
-	Ops-Core FAST RAC Headset
+	Ops-Core FAST RAC Headset/|
+	TW EXFIL Peltor ComTac VI headset (Coyote Brown)/|
+	TW EXFIL Peltor ComTac V headset (OD Green)/|
+	MIL-TEC boonie hat/|
+	Jack Pyke Hunting LLCS boonie hat/|
+	Stich Profi Chimera boonie hat
 ]
 Name_Jpn=Opsmen Earmor M32 ヘッドセット
 Information_Jpn=EARMOR M32は戦闘用として理想的なイヤープロテクション機能を持った無線機用ヘッドセットだ。

@@ -1,0 +1,12 @@
+IDstr=66b5f247af44ca0014063c02
+Name=Vertx Ready Pack backpack (Red)
+ShortName=ReadyPack
+Information_Eng=A tactical (but not overly tactical) everyday carry 20L backpack made by Vertx. Red color version.
+Itemtype=backpack
+width=4
+height=4
+weight=0.453000
+fleaMarketFee=0
+propertiestype=ItemPropertiesBackpack
+Name_Jpn=Vertx Ready Pack backpack (Red)
+Information_Jpn=A tactical (but not overly tactical) everyday carry 20L backpack made by Vertx. Red color version.

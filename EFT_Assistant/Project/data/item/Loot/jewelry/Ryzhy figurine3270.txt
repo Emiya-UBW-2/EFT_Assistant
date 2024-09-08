@@ -1,7 +1,7 @@
 IDstr=655c67782a1356436041c9c5
 Name=Ryzhy figurine
 ShortName=Ryzhy
-Information_Eng=The Tarko collectible figure of a Scav called Ryzhy. Having heard of the adventures of the well-known in certain circles Ryzhy, an unknown craftsman created this figurine.
+Information_Eng=The Tarko collectible figure of a Scav called Ryzhy. Having heard of the adventures of the well-known in certain circles Ryzhy, the unknown craftsman created this figurine.
 Itemtype=jewelry
 width=1
 height=2

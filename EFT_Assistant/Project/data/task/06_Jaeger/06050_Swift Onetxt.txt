@@ -13,7 +13,7 @@ Task_Map=Woods
 factionName=Any
 Task_Map=Woods
 Task_Kill=[
-	Woods-Scavsx15
+	Woods-any PMC operativesx15
 ]
 Task_Else=装備してはいけない:{
 Task_Else=  6B43 Zabralo-Sh body armor (Digital Flora)
@@ -70,7 +70,7 @@ Task_Else=  SSSh-94 SFERA-S helmet
 Task_Else=  UNTAR helmet
 Task_Else=  ZSh-1-2M helmet (Olive Drab)
 Task_Else=  ZSh-1-2M helmet (Black cover)
-Task_Else=  DevTac Ronin ballistic helmet
+Task_Else=  DevTac Ronin Respirator
 Task_Else=  HighCom Striker ACHHC IIIA helmet (Black)
 Task_Else=  HighCom Striker ACHHC IIIA helmet (Olive Drab)
 Task_Else=  LShZ lightweight helmet (Olive Drab)
@@ -97,7 +97,7 @@ Task_Else=  DRD body armor
 Task_Else=  S&S Precision PlateFrame plate carrier (Goons Edition)
 Task_Else=  Crye Precision CPC plate carrier (Goons Edition)
 Task_Else=  Tasmanian Tiger SK plate carrier (MultiCam Black)
-Task_Else=  NPP KlASS Bagariy armored rig (Digital Flora)
+Task_Else=  NPP KlASS Bagariy plate carrier (Digital Flora)
 Task_Else=  ECLiPSE RBAV-AF plate carrier (Ranger Green)
 Task_Else=  Glorious E lightweight armored mask
 Task_Else=  Death Knight mask
@@ -114,6 +114,13 @@ Task_Else=  NPP KlASS Tor-2 helmet (Olive Drab)
 Task_Else=  Diamond Age NeoSteel High Cut helmet (Black)
 Task_Else=  Atomic Defense CQCM ballistic mask (Black)
 Task_Else=  Death Shadow lightweight armored mask
+Task_Else=  Stich Profi Plate Carrier V2 (Black)
+Task_Else=  Tasmanian Tiger Plate Carrier MKIII (Coyote Brown)
+Task_Else=  Stich Profi Stich Defense mod.2 plate carrier (MultiCam)
+Task_Else=  Ballistic Armor Co. Bastion helmet (MultiCam)
+Task_Else=  Ballistic Armor Co. Bastion helmet (OD Green)
+Task_Else=  Ballistic Armor Co. Bastion helmet (Armor Black)
+Task_Else=  DevTac Ronin ballistic helmet
 Task_Else=}
 Task_Else=距離: >= 0m
 

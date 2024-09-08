@@ -1,6 +1,6 @@
 IDstr=5c501a4d2e221602b412b540
-Name=Molot Arms VPO-101 "Vepr-Hunter" 7.62x51 carbine
-ShortName=VPO-101 "Vepr-Hunter"
+Name=Molot Arms VPO-101 Vepr-Hunter 7.62x51 carbine
+ShortName=VPO-101 Vepr-Hunter
 Information_Eng=A semi-automatic 7.62x51mm caliber hunting carbine. It was created on the platform of Kalashnikov machine gun (RPK) and has a similar appearance, weight and dimensions. Designed for professional and amateur hunting of medium and big game, as well as sporting use.
 Itemtype=assault-carbine
 width=4
@@ -9,32 +9,32 @@ weight=2.092000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 ChildParts=[
-	VPO-101 "Vepr-Hunter" gas tube
+	VPO-101 Vepr-Hunter gas tube
 ]
 ChildParts=[
-	VPO-101 "Vepr-Hunter" dust cover
+	VPO-101 Vepr-Hunter dust cover
 ]
 ChildParts=[
 	AK Taktika Tula TT01 rear sight rail/|
-	VPO-101 "Vepr-Hunter" rear sight
+	VPO-101 Vepr-Hunter rear sight
 ]
 ChildParts=[
-	VPO-101 "Vepr-Hunter" stock/|
-	VPO-101 "Vepr-Hunter" SVD-style stock
+	VPO-101 Vepr-Hunter stock/|
+	VPO-101 Vepr-Hunter SVD-style stock
 ]
 ChildParts=[
-	VPO-101 "Vepr-Hunter" 7.62x51 10-round magazine/|
-	VPO-101 "Vepr-Hunter" 7.62x51 5-round magazine
+	VPO-101 Vepr-Hunter 7.62x51 10-round magazine/|
+	VPO-101 Vepr-Hunter 7.62x51 5-round magazine
 ]
 ChildParts=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
 	BelOMO PK-AA dovetail reflex sight/|
 	OKP-7 reflex sight (Dovetail)/|
-	NPZ PK1 "Obzor" dovetail reflex sight/|
+	NPZ PK1 Obzor dovetail reflex sight/|
 	BelOMO PSO-1 4x24 scope/|
 	BelOMO PSO-1M2-1 4x24 scope/|
 	BelOMO PSO-1M2 4x24 scope/|
-	NPZ USP-1 "Tyulpan" 4x scope/|
+	NPZ USP-1 Tyulpan 4x scope/|
 	NSPU-M 3.5x dovetail night vision scope/|
 	Axion Kobra dovetail mount/|
 	VPO-102 Arbalet mount/|
@@ -46,10 +46,11 @@ ChildParts=[
 	Zenit B-13V "Klassika" dovetail rail platform/|
 	SAG Bit low profile dovetail sidemount/|
 	SAG AK dovetail sidemount/|
-	Axion Kobra EKP-1S-03 reflex sight (Dovetail)
+	Axion Kobra EKP-1S-03 reflex sight (Dovetail)/|
+	RS Regulate AK-303M Full Length Lower dovetail mount
 ]
 ChildParts=[
-	VPO-101 "Vepr-Hunter" Rotor 43 7.62x51 muzzle brake-compensator
+	VPO-101 Vepr-Hunter Rotor 43 7.62x51 muzzle brake-compensator
 ]
 Recoil=150.000000
 RecoilHorizontal=585.000000

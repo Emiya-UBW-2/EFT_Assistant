@@ -1,0 +1,15 @@
+IDstr=665d5d9e338229cfd6078da1
+Name=BCM GUNFIGHTER MOD 3 M-LOK foregrip (Black)
+ShortName=GF MLOK
+Information_Eng=A lightweight polymer tactical foregrip. Mounted on handguards with M-LOK interface. Manufactured by Bravo Company Manufacturing. Black color version.
+Itemtype=foregrip
+width=1
+height=1
+weight=0.054000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=-1.000000
+Ergonomics=6.000000
+accuracyModifier=0.000000
+Name_Jpn=BCM GUNFIGHTER MOD 3 M-LOK foregrip (Black)
+Information_Jpn=A lightweight polymer tactical foregrip. Mounted on handguards with M-LOK interface. Manufactured by Bravo Company Manufacturing. Black color version.

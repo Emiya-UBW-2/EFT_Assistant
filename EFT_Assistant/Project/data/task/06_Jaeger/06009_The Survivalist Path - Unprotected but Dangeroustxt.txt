@@ -62,7 +62,7 @@ Task_Else=  DRD body armor
 Task_Else=  S&S Precision PlateFrame plate carrier (Goons Edition)
 Task_Else=  Crye Precision CPC plate carrier (Goons Edition)
 Task_Else=  Tasmanian Tiger SK plate carrier (MultiCam Black)
-Task_Else=  NPP KlASS Bagariy armored rig (Digital Flora)
+Task_Else=  NPP KlASS Bagariy plate carrier (Digital Flora)
 Task_Else=  ECLiPSE RBAV-AF plate carrier (Ranger Green)
 Task_Else=  Ars Arma A18 Skanda plate carrier (MultiCam)
 Task_Else=  Shellback Tactical Banshee plate carrier (A-TACS AU)
@@ -72,6 +72,9 @@ Task_Else=  NPP KlASS Kora-Kulon body armor (Digital Flora)
 Task_Else=  Interceptor OTV body armor (UCP)
 Task_Else=  Eagle Allied Industries MBSS plate carrier (Coyote Brown)
 Task_Else=  WARTECH TV-115 plate carrier (Olive Drab)
+Task_Else=  Stich Profi Plate Carrier V2 (Black)
+Task_Else=  Tasmanian Tiger Plate Carrier MKIII (Coyote Brown)
+Task_Else=  Stich Profi Stich Defense mod.2 plate carrier (MultiCam)
 Task_Else=}
 Task_Else=距離: >= 0m
 

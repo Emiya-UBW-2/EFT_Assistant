@@ -17,7 +17,7 @@ Task_Else=拾って納品:Shoreline-Toughbook reinforced laptopx1
 
 [
 	TaskType=findQuestItem
-	TaskText=Obtain the data in the computer room in the east wing of the Health Resort
+	TaskText=Obtain the data in the computer room in the east wing of the Health Resort on Shoreline
 	TaskOptional=false
 ]
 [

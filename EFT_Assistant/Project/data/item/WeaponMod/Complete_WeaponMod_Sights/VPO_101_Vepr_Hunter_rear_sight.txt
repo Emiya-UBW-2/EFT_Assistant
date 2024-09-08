@@ -1,5 +1,5 @@
 IDstr=5c503b1c2e221602b21d6e9d
-Name=VPO-101 "Vepr-Hunter" rear sight
+Name=VPO-101 Vepr-Hunter rear sight
 ShortName=101 RS
 Information_Eng=A standard ramp-type rear sight for the VPO-101 Vepr-Hunter carbine.
 Itemtype=ironsight

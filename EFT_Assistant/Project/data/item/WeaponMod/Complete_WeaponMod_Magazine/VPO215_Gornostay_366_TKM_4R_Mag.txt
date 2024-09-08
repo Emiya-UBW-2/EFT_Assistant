@@ -1,5 +1,5 @@
 IDstr=5de653abf76fdc1ce94a5a2a
-Name=VPO-215 "Gornostay" .366 TKM 4-round magazine
+Name=VPO-215 Gornostay .366 TKM 4-round magazine
 ShortName=VPO215
 Information_Eng=A 4-round magazine for VPO-215 rifles and compatible .366 TKM systems, manufactured by Molot Arms.
 Itemtype=magazine

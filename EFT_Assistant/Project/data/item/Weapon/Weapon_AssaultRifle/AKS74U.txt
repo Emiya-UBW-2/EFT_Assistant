@@ -27,7 +27,7 @@ ChildParts=[
 	AK TAPCO SAW-Style pistol grip (FDE)/|
 	AK US Palm pistol grip/|
 	AK Zenit RK-3 pistol grip/|
-	PP-19-01 "Vityaz" pistol grip/|
+	PP-19-01 Vityaz pistol grip/|
 	AK FAB Defense AGR-47 pistol grip/|
 	AK TangoDown Battle Grip pistol grip (FDE)/|
 	AK TangoDown Battle Grip pistol grip/|
@@ -38,7 +38,8 @@ ChildParts=[
 ChildParts=[
 	AKS-74/AKS-74U Zenit PT Lock/|
 	AKS-74 metal skeletonized stock (6P21 Sb.5)/|
-	AKS-74U metal skeleton stock (6P26 Sb.5)
+	AKS-74U metal skeleton stock (6P26 Sb.5)/|
+	AK skeletonized stock (Customized)
 ]
 ChildParts=[
 	AK CSS knurled charging handle/|
@@ -48,7 +49,7 @@ ChildParts=[
 	AK-74 5.45x39 6L18 45-round magazine/|
 	AK-74 5.45x39 6L20 30-round magazine/|
 	AK-74 5.45x39 6L23 30-round magazine/|
-	AK-74 5.45x39 6L23 "Plum" 30-round magazine/|
+	AK-74 5.45x39 6L23 30-round magazine (Plum)/|
 	AK-74 5.45x39 6L26 45-round magazine/|
 	AK-74 5.45x39 6L31 60-round magazine/|
 	AK-74 "Saiga 545" 5.45x39 10-round magazine/|
@@ -56,7 +57,7 @@ ChildParts=[
 	AK-12 5.45x39 30-round magazine/|
 	RPK-16 5.45x39 95-round drum magazine/|
 	AK-12 5.45x39 early model 30-round magazine/|
-	AK-74 "Saiga 545" 5.45x39 20-round magazine
+	AK-74 Delta-Tek Saiga 545 5.45x39 20-round magazine
 ]
 ChildParts=[
 	AK-105 5.45x39 muzzle brake-compensator (6P44 0-20)/|
@@ -71,7 +72,8 @@ ChildParts=[
 	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
 	AK-74 Hexagon 5.45x39 sound suppressor/|
 	AK-74 TGP-A 5.45x39 sound suppressor/|
-	AKS-74U PBS-4 5.45x39 sound suppressor
+	AKS-74U PBS-4 5.45x39 sound suppressor/|
+	AK CNC Warrior 5.56x45 muzzle device adapter
 ]
 ChildParts=[
 	AKS-74U dust cover (6P26 Sb.7)/|
@@ -81,8 +83,8 @@ ChildParts=[
 ChildParts=[
 	AKS-74U gas tube (6P26 Sb.1-2)
 ]
-Recoil=102.000000
-RecoilHorizontal=373.000000
+Recoil=129.000000
+RecoilHorizontal=365.000000
 Ergonomics=44.000000
 SightRange=-100
 FireRate=650

@@ -25,7 +25,7 @@ Task_Else=脱出ゾーン:[D-2 Extract]
 ]
 [
 	TaskType=extract
-	TaskText=Extract through that exit
+	TaskText=Survive and extract from the location through the secret exit
 	TaskOptional=false
 ]
 

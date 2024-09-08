@@ -1,0 +1,29 @@
+IDstr=6672d9def1c88688a707d042
+Name=Establish Contact
+Trader=Fence
+
+NeedLevel=0
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+traderRequirementsName=Fence
+traderRequirementsType=reputation
+traderRequirements=>=
+traderRequirementsValue=4
+Task_Else=TraderStandingの閾値: >= 5
+
+[
+	TaskType=traderStanding
+	TaskText=Reach 5.0 standing with Fence
+	TaskOptional=false
+]
+
+Reward_Rep=Fence+2
+Reward_Item=[
+	Eurosx600
+]
+
+Reward_EXP=8800

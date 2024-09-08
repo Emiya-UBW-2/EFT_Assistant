@@ -1,0 +1,27 @@
+IDstr=aks74plum000000000000001
+Name=Kalashnikov AKS-74 5.45x39 assault rifle Plum
+ShortName=AKS-74 Plum
+Itemtype=assault-rifle
+width=5
+height=2
+weight=3.897000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Kalashnikov AKS-74 5.45x39 assault riflex1/|
+	AK-74 gas tube (6P20 Sb.1-2)x1/|
+	AK Magpul Zhukov-U handguard (Plum)x1/|
+	Magpul M-LOK AFG tactical foregrip (Black)x1/|
+	Magpul M-LOK Cantilever Mountx1/|
+	NcSTAR Tactical blue laser LAM-modulex1/|
+	AK bakelite pistol grip (6P1 Sb.8V)x1/|
+	AK AKademia Bastion dust coverx1/|
+	Valday PK-120 (1P87) holographic sightx1/|
+	AKS-74 metal skeletonized stock (6P21 Sb.5)x1/|
+	AK GP-25 accessory kit recoil padx1/|
+	AK-74 5.45x39 6L23 30-round magazine (Plum)x1/|
+	AK Hexagon Reactor 5.45x39 muzzle brakex1
+]
+Name_Jpn=Kalashnikov AKS-74 5.45x39 アサルトライフル Plum
+Information_Jpn=

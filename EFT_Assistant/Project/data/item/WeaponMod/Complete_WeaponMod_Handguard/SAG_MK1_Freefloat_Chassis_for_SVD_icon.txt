@@ -28,9 +28,9 @@ ChildParts=[
 ]
 ChildParts=[
 	Holosun LS321 Tactical device/|
-	AN/PEQ-15 tactical device/|
-	AN/PEQ-2 tactical device/|
-	LA-5B/PEQ tactical device/|
+	L3Harris AN/PEQ-15 tactical device/|
+	Insight AN/PEQ-2 tactical device/|
+	L3Harris LA-5B/PEQ tactical device/|
 	SureFire XC1 tactical flashlight/|
 	Wilcox RAPTAR ES Tactical Rangefinder/|
 	Zenit Perst-3 tactical device/|
@@ -116,7 +116,7 @@ Conflict=[
 	BelOMO PSO-1 4x24 scope/|
 	BelOMO PSO-1M2-1 4x24 scope/|
 	BelOMO PSO-1M2 4x24 scope/|
-	NPZ USP-1 "Tyulpan" 4x scope/|
+	NPZ USP-1 Tyulpan 4x scope/|
 	NSPU-M 3.5x dovetail night vision scope/|
 	Axion Kobra dovetail mount/|
 	SVD CAA XD RGL receiver mount/|

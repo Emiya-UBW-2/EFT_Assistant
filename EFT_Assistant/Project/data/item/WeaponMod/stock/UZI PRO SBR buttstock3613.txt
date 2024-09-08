@@ -1,0 +1,15 @@
+IDstr=66867310f3734a938b077f79
+Name=UZI PRO SBR buttstock
+ShortName=PRO SBR
+Information_Eng=A foldable buttstock for the UZI PRO submachine gun. Manufactured by Israel Weapon Industries.
+Itemtype=stock
+width=2
+height=1
+weight=0.454000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=-15.000001
+Ergonomics=8.000000
+accuracyModifier=0.000000
+Name_Jpn=UZI PRO SBR buttstock
+Information_Jpn=A foldable buttstock for the UZI PRO submachine gun. Manufactured by Israel Weapon Industries.

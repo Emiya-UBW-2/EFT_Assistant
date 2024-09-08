@@ -1,5 +1,5 @@
 IDstr=59e6227d86f77440d64f5dc2
-Name=VPO-136 "Vepr-KM" wooden stock
+Name=VPO-136 Vepr-KM wooden stock
 ShortName=VPO136
 Information_Eng=A standard-issue wooden stock for VPO-136 Vepr KM carbines, manufactured by Molot Arms.
 Itemtype=stock

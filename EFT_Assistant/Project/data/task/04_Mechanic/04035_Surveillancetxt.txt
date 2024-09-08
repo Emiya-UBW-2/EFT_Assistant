@@ -5,6 +5,7 @@ Trader=Mechanic
 NeedTask=Broadcast - Part 2
 NeedTask=Corporate Secrets
 NeedLevel=25
+NeedItem=[Concordia security room keyx1]
 
 CanRestart=false
 NeedKappa=false

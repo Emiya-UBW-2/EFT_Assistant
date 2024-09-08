@@ -8,5 +8,12 @@ height=2
 weight=0.200000
 fleaMarketFee=0
 propertiestype=
+Conflict=[
+	Team Wendy EXFIL Ballistic Helmet (Black)/|
+	Team Wendy EXFIL Ballistic Helmet (Coyote Brown)/|
+	Ballistic Armor Co. Bastion helmet (Armor Black)/|
+	Ballistic Armor Co. Bastion helmet (MultiCam)/|
+	Ballistic Armor Co. Bastion helmet (OD Green)
+]
 Name_Jpn=Deadly Skull mask
 Information_Jpn=A lightweight mask that does not provide any protection, but at least makes you look scarier.

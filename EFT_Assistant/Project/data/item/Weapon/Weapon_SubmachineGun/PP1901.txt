@@ -1,5 +1,5 @@
 IDstr=59984ab886f7743e98271174
-Name=PP-19-01 "Vityaz" 9x19 submachine gun
+Name=PP-19-01 Vityaz 9x19 submachine gun
 ShortName=PP-19-01
 Information_Eng=The PP-19-01, also known as "Vityaz", is a Russian submachine gun chambered in 9x19 developed in 2004 by Izhmash based on the AK platform. A standard-issue submachine gun in many law enforcement agencies and military units of the Russian Federation.
 Itemtype=smg
@@ -27,7 +27,7 @@ ChildParts=[
 	AK TAPCO SAW-Style pistol grip (FDE)/|
 	AK US Palm pistol grip/|
 	AK Zenit RK-3 pistol grip/|
-	PP-19-01 "Vityaz" pistol grip/|
+	PP-19-01 Vityaz pistol grip/|
 	AK FAB Defense AGR-47 pistol grip/|
 	AK TangoDown Battle Grip pistol grip (FDE)/|
 	AK TangoDown Battle Grip pistol grip/|
@@ -38,7 +38,7 @@ ChildParts=[
 ChildParts=[
 	AK-74M CAA AKTS AK74 buffer tube/|
 	AK-74M/AK-100 Zenit PT Lock/|
-	PP-19-01 "Vityaz" metal skeleton stock
+	PP-19-01 Vityaz metal skeleton stock
 ]
 ChildParts=[
 	AK CSS knurled charging handle/|
@@ -46,35 +46,35 @@ ChildParts=[
 ]
 ChildParts=[
 	Saiga-9 9x19 sb.7 10-round magazine/|
-	PP-19-01 "Vityaz" 9x19 30-round magazine/|
-	PP-19-01 "Vityaz" 9x19 PUFGUN SG-919 20 20-round magazine/|
-	PP-19-01 "Vityaz" 9x19 PUFGUN SG-919 30 30-round magazine
+	PP-19-01 Vityaz 9x19 30-round magazine/|
+	PP-19-01 Vityaz 9x19 PUFGUN SG-919 20 20-round magazine/|
+	PP-19-01 Vityaz 9x19 PUFGUN SG-919 30 30-round magazine
 ]
 ChildParts=[
-	PP-19-01 "Vityaz" 9x19 muzzle brake-compensator/|
+	PP-19-01 Vityaz 9x19 muzzle brake-compensator/|
 	Saiga-9 9x19 muzzle brake-compensator/|
 	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
 	Rotor 43 9x19 muzzle brake-compensator/|
 	SIG Sauer SRD9 9x19 sound suppressor/|
 	SilencerCo Osprey 9 9x19 sound suppressor/|
-	PP-19-01 "Vityaz" 9x19 sound suppressor
+	PP-19-01 Vityaz 9x19 sound suppressor
 ]
 ChildParts=[
-	PP-19-01 "Vityaz-SN" dust cover/|
-	PP-19-01 "Vityaz" dust cover
+	PP-19-01 Vityaz-SN dust cover/|
+	PP-19-01 Vityaz dust cover
 ]
 ChildParts=[
-	PP-19-01 "Vityaz" rear sight
+	PP-19-01 Vityaz rear sight
 ]
 ChildParts=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
 	BelOMO PK-AA dovetail reflex sight/|
 	OKP-7 reflex sight (Dovetail)/|
-	NPZ PK1 "Obzor" dovetail reflex sight/|
+	NPZ PK1 Obzor dovetail reflex sight/|
 	BelOMO PSO-1 4x24 scope/|
 	BelOMO PSO-1M2-1 4x24 scope/|
 	BelOMO PSO-1M2 4x24 scope/|
-	NPZ USP-1 "Tyulpan" 4x scope/|
+	NPZ USP-1 Tyulpan 4x scope/|
 	NSPU-M 3.5x dovetail night vision scope/|
 	Axion Kobra dovetail mount/|
 	KMZ 1P59 dovetail mount/|
@@ -82,10 +82,11 @@ ChildParts=[
 	VOMZ Pilad 043-02 dovetail mount/|
 	Zenit B-13V "Klassika" dovetail rail platform/|
 	SAG Bit low profile dovetail sidemount/|
-	Axion Kobra EKP-1S-03 reflex sight (Dovetail)
+	Axion Kobra EKP-1S-03 reflex sight (Dovetail)/|
+	RS Regulate AK-303M Full Length Lower dovetail mount
 ]
 ChildParts=[
-	PP-19-01 "Vityaz" gas tube
+	PP-19-01 Vityaz gas tube
 ]
 Recoil=58.000000
 RecoilHorizontal=270.000000

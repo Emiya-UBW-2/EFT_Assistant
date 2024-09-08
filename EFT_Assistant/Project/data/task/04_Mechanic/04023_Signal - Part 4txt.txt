@@ -10,18 +10,18 @@ NeedKappa=true
 NeedLightkeeper=false
 
 factionName=Any
-Task_Else=Skillを上げる:Memory+4.000000
+Task_Else=Skillを上げる:Attention+8.000000
 
 [
 	TaskType=skill
-	TaskText=Reach the required Memory skill level
+	TaskText=Reach the required Attention skill level
 	TaskOptional=false
 ]
 
-Reward_Rep=Mechanic+2
+Reward_Rep=Mechanic+1
 Reward_Item=[
-	Roublesx20000/|
-	Nightforce ATACR 7-35x56 34mm riflescopex1
+	Roublesx150000/|
+	Vortex Razor HD Gen.2 1-6x24 30mm riflescopex1
 ]
 
 Reward_EXP=8600

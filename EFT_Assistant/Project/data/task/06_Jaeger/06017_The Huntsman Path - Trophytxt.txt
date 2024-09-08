@@ -22,7 +22,7 @@ DogTagLv=0
 
 [
 	TaskType=shoot
-	TaskText=Locate and eliminate Reshala
+	TaskText=Locate and neutralize Reshala
 	TaskOptional=false
 ]
 [

@@ -18,7 +18,7 @@ containsItems=[
 	NcSTAR MPR45 Backup mountx1/|
 	Burris FastFire Weaver Basex1/|
 	Burris FastFire 3 reflex sightx1/|
-	AN/PEQ-15 tactical devicex1/|
+	L3Harris AN/PEQ-15 tactical devicex1/|
 	AR-15 Damage Industries ECS pistol grip (FDE)x1/|
 	AR-15 Colt Carbine buffer tubex1/|
 	AR-15 Magpul MOE Carbine stock (FDE)x1/|

@@ -1,0 +1,12 @@
+IDstr=5c06c6a80db834001b735491
+Name=SSh-68 steel helmet (Olive Drab)
+ShortName=SSh-68
+Information_Eng=SSh-68 replaced the general-army SSh-60 helmet. It differs from its predecessor in greater durability, a large inclination of the front part, and short side boards.
+Itemtype=headwear
+width=2
+height=2
+weight=1.500000
+fleaMarketFee=0
+propertiestype=ItemPropertiesHelmet
+Name_Jpn=SSh-68 steel helmet (Olive Drab)
+Information_Jpn=SSh-68はロシア軍のSSh-60ヘルメットの後継装備として採用された。耐久性が高く、前方部分が大きく傾斜しており、側面のカバーが短いという違いがある。

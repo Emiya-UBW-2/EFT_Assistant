@@ -4,6 +4,7 @@ Trader=Therapist
 
 NeedTask=Population Census
 NeedLevel=12
+NeedItem=[X-ray room keyx1]
 
 CanRestart=false
 NeedKappa=false

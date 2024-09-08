@@ -1,0 +1,21 @@
+IDstr=66b09282ae030a24a5663815
+Name=SR-3M 9x39 compact assault rifle Default
+ShortName=SR-3M Default
+Itemtype=assault-carbine
+width=3
+height=2
+weight=2.593000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	SR-3M 9x39 compact assault riflex1/|
+	AS VAL dust coverx1/|
+	VSS/VAL 9x39 SR3M.130 30-round magazinex1/|
+	AS VAL pistol grip (Plum)x1/|
+	AS VAL skeleton stockx1/|
+	SR-3M polymer handguard (Plum)x1/|
+	SR-3M polymer foregrip (Plum)x1
+]
+Name_Jpn=SR-3M 9x39 compact assault rifle デフォルト
+Information_Jpn=

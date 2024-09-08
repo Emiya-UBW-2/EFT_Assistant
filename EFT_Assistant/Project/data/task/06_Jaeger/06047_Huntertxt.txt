@@ -23,7 +23,7 @@ Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot
-	TaskText=Locate and eliminate Shturman
+	TaskText=Locate and neutralize Shturman
 	TaskOptional=false
 ]
 

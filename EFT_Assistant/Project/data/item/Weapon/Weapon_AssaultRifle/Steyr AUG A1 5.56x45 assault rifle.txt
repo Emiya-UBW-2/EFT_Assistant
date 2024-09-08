@@ -21,8 +21,8 @@ ChildParts=[
 	Steyr AUG A3 5.56x45 receiver/|
 	Steyr AUG A1 STG77 1.5x optic sight
 ]
-Recoil=52.000000
-RecoilHorizontal=200.000000
+Recoil=87.000000
+RecoilHorizontal=258.000000
 Ergonomics=83.000000
 SightRange=-100
 FireRate=715

@@ -1,6 +1,6 @@
 Name=Molot Arms Simonov OP-SKS 7.62x39 carbine Tactical
 Base=Molot Arms Simonov OP-SKS 7.62x39 carbine
-Parts=SKS ATI Monte Carlo chassis
+Parts=SKS ATI Monte Carlo stock
 Parts=OP-SKS 7.62x39 520mm barrel
 Parts=OP-SKS upper band
 Parts=OP-SKS gas tube

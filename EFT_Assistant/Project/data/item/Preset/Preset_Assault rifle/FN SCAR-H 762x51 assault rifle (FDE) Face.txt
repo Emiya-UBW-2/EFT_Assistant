@@ -18,7 +18,7 @@ containsItems=[
 	AAC SCAR-SD 51T 7.62x51 flash hiderx1/|
 	FN SCAR flip-up front sightx1/|
 	FN SCAR flip-up rear sightx1/|
-	AN/PEQ-15 tactical devicex1/|
+	L3Harris AN/PEQ-15 tactical devicex1/|
 	FN SCAR bottom railx1/|
 	Magpul RVG foregrip (FDE)x1/|
 	FN SCAR folding polymer stock (FDE)x1/|

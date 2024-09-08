@@ -1,0 +1,8 @@
+Name=IWI UZI 9x19 submachine gun Default
+Base=IWI UZI 9x19 submachine gun
+Parts=UZI 9x19 32-round magazine
+Parts=UZI 9x19 259mm barrel
+Parts=UZI 9x19 barrel retaining nut
+Parts=UZI polymer handguard
+Parts=UZI pistol grip cover
+Parts=UZI Type 5 buttstock

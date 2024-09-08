@@ -1,0 +1,20 @@
+IDstr=707265736574000000000042
+Name=KBP VSK-94 9x39 rifle CQB
+ShortName=VSK-94 CQB
+Itemtype=assault-carbine
+width=4
+height=2
+weight=2.506000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	KBP VSK-94 9x39 riflex1/|
+	9A-91 9x39 20-round magazinex1/|
+	VSK-94 stockx1/|
+	VSK-94 9x39 barrelx1/|
+	9A-91 handguard retainerx1/|
+	VSK-94 handguardx1
+]
+Name_Jpn=KBP VSK-94 9x39 rifle CQB
+Information_Jpn=

@@ -1,6 +1,6 @@
 IDstr=56def37dd2720bec348b456a
 Name=SureFire X400 Ultra tactical flashlight with laser
-ShortName=X400
+ShortName=X400U
 Information_Eng=The X400U flashlight by SureFire is engineered to fit virtually any rail-equipped pistol or rifle. Combines a laser designator and a flashlight.
 Itemtype=comb-tact-device
 width=1

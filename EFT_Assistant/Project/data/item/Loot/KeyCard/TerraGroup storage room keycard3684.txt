@@ -1,0 +1,13 @@
+IDstr=66acd6702b17692df20144c0
+Name=TerraGroup storage room keycard
+ShortName=Polikhim
+Information_Eng=An access keycard for the TerraGroup storage room, located inside Chemical Plant No. 16.
+Itemtype=keycard
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=ItemPropertiesKey
+uses=10
+Name_Jpn=TerraGroup storage room keycard
+Information_Jpn=An access keycard for the TerraGroup storage room, located inside Chemical Plant No. 16.

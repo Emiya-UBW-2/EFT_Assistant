@@ -23,7 +23,7 @@ DogTagLv=0
 
 [
 	TaskType=shoot
-	TaskText=Locate and eliminate Tagilla
+	TaskText=Locate and neutralize Tagilla
 	TaskOptional=false
 ]
 [

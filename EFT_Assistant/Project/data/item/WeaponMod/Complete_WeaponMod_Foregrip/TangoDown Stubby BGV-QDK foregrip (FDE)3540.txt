@@ -1,0 +1,15 @@
+IDstr=661e52b5b099f32c28003586
+Name=TangoDown Stubby BGV-QDK foregrip (FDE)
+ShortName=BGV-QDK
+Information_Eng=The Stubby BGV-QDK is a short grip for use with weapons in close and extra close quarters combat. Сontains a compartment for batteries or small items. Manufactured by TangoDown. Flat Dark Earth version.
+Itemtype=foregrip
+width=1
+height=1
+weight=0.104000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=-1.000000
+Ergonomics=4.500000
+accuracyModifier=0.000000
+Name_Jpn=TangoDown Stubby BGV-QDK foregrip (FDE)
+Information_Jpn=The Stubby BGV-QDK is a short grip for use with weapons in close and extra close quarters combat. Сontains a compartment for batteries or small items. Manufactured by TangoDown. Flat Dark Earth version.

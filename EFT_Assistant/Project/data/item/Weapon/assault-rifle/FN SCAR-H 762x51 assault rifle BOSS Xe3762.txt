@@ -1,0 +1,32 @@
+IDstr=fnscarhbossxe00000000001
+Name=FN SCAR-H 7.62x51 assault rifle BOSS Xe
+ShortName=Mk 17 BOSS Xe
+Itemtype=assault-rifle
+width=6
+height=2
+weight=4.605000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	FN SCAR-H 7.62x51 assault riflex1/|
+	AR-15 Naroh Arms GRAL-S pistol gripx1/|
+	FN SCAR-H 7.62x51 upper receiverx1/|
+	FN SCAR-H 7.62x51 20 inch barrelx1/|
+	Lantac BMD Blast Mitigation Device A3 direct thread adapterx1/|
+	AR-10 Lantac Dragon 7.62x51 muzzle brake-compensatorx1/|
+	Lantac BMD 7.62x51 Blast Mitigation Devicex1/|
+	FN SCAR flip-up front sightx1/|
+	FN SCAR bottom railx1/|
+	Hera Arms CQR tactical foregripx1/|
+	FN SCAR PWS SRX rail extensionx1/|
+	Wilcox BOSS Xe reflex sightx1/|
+	FN SCAR folding polymer stockx1/|
+	FN SCAR retractable polymer stockx1/|
+	FN SCAR rubber buttpadx1/|
+	FN SCAR cheek restx1/|
+	FN SCAR charging handlex1/|
+	FN SCAR-H 7.62x51 20-round magazinex1
+]
+Name_Jpn=FN SCAR-H 7.62x51 assault rifle BOSS Xe
+Information_Jpn=

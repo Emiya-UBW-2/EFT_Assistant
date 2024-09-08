@@ -1,0 +1,36 @@
+IDstr=669fa39ee749756c920d02c8
+Name=All Is Revealed
+Trader=Therapist
+
+NeedTask=Capacity Check
+NeedLevel=12
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Factory
+factionName=Any
+Task_Map=Factory
+Task_Map=Night Factory
+Task_Else=拾って納品:Factory-Chemical samplex1
+Task_Else=拾って納品:Night Factory-Chemical samplex1
+
+[
+	TaskType=findQuestItem
+	TaskText=Take a sample of the chemicals from the damaged tank container on Factory
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the collected sample
+	TaskOptional=false
+]
+
+Reward_Rep=Therapist+2
+Reward_Item=[
+	Roublesx63000/|
+	Documents casex1
+]
+
+Reward_EXP=17200

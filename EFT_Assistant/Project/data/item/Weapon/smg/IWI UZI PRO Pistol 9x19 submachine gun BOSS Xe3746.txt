@@ -1,0 +1,21 @@
+IDstr=707265736574000000000048
+Name=IWI UZI PRO Pistol 9x19 submachine gun BOSS Xe
+ShortName=UZI PRO Pistol BOSS Xe
+Itemtype=smg
+width=5
+height=2
+weight=2.532000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	IWI UZI PRO Pistol 9x19 submachine gunx1/|
+	UZI PRO 9x19 barrel retaining nutx1/|
+	UZI PRO dust coverx1/|
+	Wilcox BOSS Xe reflex sightx1/|
+	UZI PRO 9x19 240mm barrelx1/|
+	UZI PRO 9x19 32-round magazinex1/|
+	UZI PRO SBR buttstockx1
+]
+Name_Jpn=IWI UZI PRO Pistol 9x19 submachine gun BOSS Xe
+Information_Jpn=

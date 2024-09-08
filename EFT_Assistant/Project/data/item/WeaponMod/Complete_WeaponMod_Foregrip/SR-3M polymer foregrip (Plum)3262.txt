@@ -1,0 +1,15 @@
+IDstr=6565c0c2ff7eb7070409084c
+Name=SR-3M polymer foregrip (Plum)
+ShortName=SR-3M
+Information_Eng=A standard-issue polymer foregrip for the SR-3M assault rifle. Made out of plum-colored polymer, earning the nickname "Sliva" (Plum).
+Itemtype=foregrip
+width=1
+height=1
+weight=0.080000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=-1.000000
+Ergonomics=5.000000
+accuracyModifier=0.000000
+Name_Jpn=SR-3M polymer foregrip (Plum)
+Information_Jpn=A standard-issue polymer foregrip for the SR-3M assault rifle. Made out of plum-colored polymer, earning the nickname "Sliva" (Plum).

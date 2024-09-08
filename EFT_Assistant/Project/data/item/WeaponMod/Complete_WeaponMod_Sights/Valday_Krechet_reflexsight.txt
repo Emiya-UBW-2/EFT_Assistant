@@ -13,4 +13,4 @@ Ergonomics=-4.500000
 SightRange=200
 sightZooms=1.000000
 Name_Jpn=Valday Krechet reflex sight
-Information_Jpn=The Krechet reflex sight, designed for precision shooting at day and at night when used in combination with a night vision device. Manufactured by Valday.
+Information_Jpn=The Krechet reflex sight, designed for precision shooting at day and at night when used in combination with a night vision device.

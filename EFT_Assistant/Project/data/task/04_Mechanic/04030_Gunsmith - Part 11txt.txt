@@ -7,7 +7,7 @@ NeedLevel=22
 
 CanRestart=false
 NeedKappa=true
-NeedLightkeeper=true
+NeedLightkeeper=false
 
 factionName=Any
 NeedItem=TDI KRISS Vector Gen.2 9x19 submachine gunx1

@@ -1,5 +1,5 @@
 IDstr=576a5ed62459771e9c2096cb
-Name=MP-443 "Grach" 9x19 18-round magazine
+Name=MP-443 Grach 9x19 18-round magazine
 ShortName=MP-443
 Information_Eng=A standard 18-round 9x19 magazine for the MP-443 pistol.
 Itemtype=magazine

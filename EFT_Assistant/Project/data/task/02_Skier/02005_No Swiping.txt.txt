@@ -1,0 +1,45 @@
+IDstr=658027799634223183395339
+Name=No Swiping
+Trader=Skier
+
+NeedTask=Chumming
+NeedLevel=24
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Shoreline
+factionName=Any
+Task_Map=Shoreline
+Task_Else=TaskType:visit
+Task_Else=Locate the smugglers' base on Shoreline
+Task_Map=Shoreline
+Task_Kill=[
+	Shoreline-any targetx25
+]
+Task_Else=ゾーン:[Smuggler's Base]
+Task_Else=距離: >= 0m
+
+[
+	TaskType=visit
+	TaskText=Locate the smugglers' base on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate any target in the base area
+	TaskOptional=false
+]
+
+Reward_Rep=Skier+4
+Reward_Item=[
+	Roublesx280000/|
+	Propane tank (5L)x1/|
+	Car batteryx1/|
+	Silicone tubex1/|
+	Alkaline cleaner for heat exchangersx1/|
+	Can of Majaica coffee beansx1
+]
+
+Reward_EXP=26000

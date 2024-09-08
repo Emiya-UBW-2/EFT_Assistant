@@ -31,7 +31,8 @@ ChildParts=[
 	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
 	Lantac BMD Blast Mitigation Device A3 direct thread adapter/|
 	AR-10 Dead Air Keymount 7.62x51 muzzle brake/|
-	AAC SCAR-SD 51T 7.62x51 flash hider
+	AAC SCAR-SD 51T 7.62x51 flash hider/|
+	AR-10 Delta-Tek DTK-AR10 7.62x51 muzzle brake
 ]
 Recoil=-1.000000
 Ergonomics=0.000000

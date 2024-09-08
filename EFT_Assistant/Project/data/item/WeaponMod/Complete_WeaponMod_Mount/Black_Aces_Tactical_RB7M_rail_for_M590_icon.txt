@@ -76,9 +76,9 @@ ChildParts=[
 ]
 ChildParts=[
 	Holosun LS321 Tactical device/|
-	AN/PEQ-15 tactical device/|
-	AN/PEQ-2 tactical device/|
-	LA-5B/PEQ tactical device/|
+	L3Harris AN/PEQ-15 tactical device/|
+	Insight AN/PEQ-2 tactical device/|
+	L3Harris LA-5B/PEQ tactical device/|
 	Wilcox RAPTAR ES Tactical Rangefinder/|
 	Zenit Perst-3 tactical device/|
 	Kiba Arms 25mm accessory ring mount/|
@@ -88,9 +88,9 @@ ChildParts=[
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
-	AN/PEQ-15 tactical device/|
-	AN/PEQ-2 tactical device/|
-	LA-5B/PEQ tactical device/|
+	L3Harris AN/PEQ-15 tactical device/|
+	Insight AN/PEQ-2 tactical device/|
+	L3Harris LA-5B/PEQ tactical device/|
 	NcSTAR Tactical blue laser LAM-module/|
 	Steiner DBAL-PL tactical device/|
 	Steiner LAS/TAC 2 tactical flashlight/|
@@ -112,9 +112,9 @@ ChildParts=[
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
-	AN/PEQ-15 tactical device/|
-	AN/PEQ-2 tactical device/|
-	LA-5B/PEQ tactical device/|
+	L3Harris AN/PEQ-15 tactical device/|
+	Insight AN/PEQ-2 tactical device/|
+	L3Harris LA-5B/PEQ tactical device/|
 	NcSTAR Tactical blue laser LAM-module/|
 	Steiner DBAL-PL tactical device/|
 	Steiner LAS/TAC 2 tactical flashlight/|
@@ -136,9 +136,9 @@ ChildParts=[
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
-	AN/PEQ-15 tactical device/|
-	AN/PEQ-2 tactical device/|
-	LA-5B/PEQ tactical device/|
+	L3Harris AN/PEQ-15 tactical device/|
+	Insight AN/PEQ-2 tactical device/|
+	L3Harris LA-5B/PEQ tactical device/|
 	NcSTAR Tactical blue laser LAM-module/|
 	Steiner DBAL-PL tactical device/|
 	Steiner LAS/TAC 2 tactical flashlight/|

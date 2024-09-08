@@ -30,7 +30,8 @@ ChildParts=[
 	AR-10 Thunder Beast Arms 30CB 7.62x51 muzzle brake/|
 	Gemtech ONE Direct Thread Mount adapter/|
 	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
-	Lantac BMD Blast Mitigation Device A3 direct thread adapter
+	Lantac BMD Blast Mitigation Device A3 direct thread adapter/|
+	AR-10 Delta-Tek DTK-AR10 7.62x51 muzzle brake
 ]
 Recoil=-10.000000
 Ergonomics=-6.000000

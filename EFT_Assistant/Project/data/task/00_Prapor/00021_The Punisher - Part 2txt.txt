@@ -27,7 +27,7 @@ NeedItem=[
 	MPX-SD 9x19 integrated sound suppressorx0/|
 	SKS Hexagon 7.62x39 sound suppressorx0/|
 	SureFire SOCOM556-MINI MONSTER 5.56x45 sound suppressorx0/|
-	PP-19-01 "Vityaz" 9x19 sound suppressorx0/|
+	PP-19-01 Vityaz 9x19 sound suppressorx0/|
 	AS VAL 9x39 integral barrel-suppressorx0/|
 	AKM PBS-1 7.62x39 sound suppressorx0/|
 	AAC 762-SDN-6 multi-caliber sound suppressorx0/|
@@ -53,7 +53,7 @@ NeedItem=[
 	KAC QDSS NT-4 5.56x45 sound suppressor (FDE)x0/|
 	HK MP7 B&T Rotex 2 4.6x30 sound suppressorx0/|
 	PB 9x18PM sound suppressorx0/|
-	PP-91-01 "Kedr-B" 9x18PM sound suppressorx0/|
+	PP-91-01 Kedr-B 9x18PM sound suppressorx0/|
 	SureFire SOCOM556-MONSTER 5.56x45 sound suppressorx0/|
 	TT 7.62x25 makeshift sound suppressorx0/|
 	Hexagon 12K 12ga sound suppressorx0/|
@@ -73,7 +73,7 @@ NeedItem=[
 	SIG Sauer SRD762Ti 7.62x51 sound suppressorx0/|
 	SIG Sauer SRD762-QD 7.62x51 sound suppressorx0/|
 	SilencerCo Omega 45k .45 ACP sound suppressorx0/|
-	VPO-101 "Vepr-Hunter" Rotor 43 7.62x51 muzzle brake-compensatorx0/|
+	VPO-101 Vepr-Hunter Rotor 43 7.62x51 muzzle brake-compensatorx0/|
 	SureFire SOCOM556-RC2 5.56x45 sound suppressorx0/|
 	SilencerCo Saker ASR 556 5.56x45 sound suppressorx0/|
 	HK G28 B&T QD 7.62x51 sound suppressorx0/|
@@ -92,7 +92,9 @@ NeedItem=[
 	SR-2M 9x21 sound suppressor (SV-1381)x0/|
 	AK-12 5.45x39 sound suppressorx0/|
 	MCX SPEAR SLX68-MG-QD 6.8x51 sound suppressorx0/|
-	9A-91 9x39 sound suppressorx0
+	9A-91 9x39 sound suppressorx0/|
+	UZI 9x19 sound suppressorx0/|
+	SR-3M 9x39 sound suppressorx0
 ]
 Task_Else=距離: >= 0m
 NeedItem=Lower half-maskx7

@@ -21,7 +21,7 @@ Conflict=[
 	Altyn bulletproof helmet (Olive Drab)/|
 	Kolpak-1S riot helmet/|
 	Wilcox Skull Lock head mount/|
-	DevTac Ronin ballistic helmet/|
+	DevTac Ronin Respirator/|
 	Bandana/|
 	BEAR baseball cap (Black)/|
 	Kotton beanie/|
@@ -35,7 +35,11 @@ Conflict=[
 	Beanie/|
 	Diamond Age NeoSteel High Cut helmet (Black)/|
 	Basmach leather cap/|
-	Gus baseball cap
+	Gus baseball cap/|
+	Ops-Core FAST multi-hit ballistic face shield/|
+	Team Wendy EXFIL Ballistic face shield (Black)/|
+	Team Wendy EXFIL Ballistic face shield (Coyote Brown)/|
+	DevTac Ronin ballistic helmet
 ]
 Name_Jpn=GP-5 gas mask
 Information_Jpn=民間用ガスマスクモデル5（GP-5）は着用者の呼吸器や目、顔などを守るガスマスクだ。

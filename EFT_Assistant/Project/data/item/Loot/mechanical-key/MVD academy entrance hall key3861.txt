@@ -9,5 +9,5 @@ weight=0.010000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
 uses=40
-Name_Jpn=MVD academy entrance hall key
-Information_Jpn=A key to the entrance hall inside the city MVD (Ministry of the Interior) academy.
+Name_Jpn=MVD academy entrance hall guard room key
+Information_Jpn=A key to the guard room at the entrance hall inside the city MVD (Ministry of the Interior) academy.

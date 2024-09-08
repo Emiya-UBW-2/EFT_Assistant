@@ -1,0 +1,61 @@
+IDstr=66992b349950f5f4cd06029f
+Name=IWI UZI 9x19 submachine gun
+ShortName=UZI
+Information_Eng=An Israeli 9x19mm submachine gun with an open bolt system. A very innovative product of its time which gained great popularity due to its reliability and simplicity of design. Despite being rather outdated, it is still quite popular all over the world.
+Itemtype=smg
+width=2
+height=1
+weight=2.260000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeapon
+ChildParts=[
+	UZI 9x19 20-round magazine/|
+	UZI 9x19 25-round magazine/|
+	UZI 9x19 32-round magazine/|
+	UZI 9x19 40-round magazine/|
+	UZI 9x19 50-round magazine/|
+	UZI PRO 9x19 20-round magazine/|
+	UZI PRO 9x19 25-round magazine/|
+	UZI PRO 9x19 32-round magazine
+]
+ChildParts=[
+	UZI 238mm threaded 3-lug barrel/|
+	UZI 9x19 259mm barrel/|
+	UZI 9x19 409mm barrel
+]
+ChildParts=[
+	UZI Type 3 buttstock/|
+	UZI Type 5 buttstock/|
+	UZI Type 6 buttstock/|
+	UZI Type 7 buttstock/|
+	UZI StormWerkz stock adapter
+]
+ChildParts=[
+	UZI StormWerkz Scope Mount
+]
+ChildParts=[
+	UZI StormWerkz lower handguard rail
+]
+ChildParts=[
+	UZI polymer handguard/|
+	UZI handguard with foregrip/|
+	UZI K-Grip handguard
+]
+ChildParts=[
+	UZI pistol grip cover
+]
+Recoil=54.000000
+RecoilHorizontal=254.000000
+Ergonomics=65.000000
+SightRange=-100
+FireRate=600
+centerOfImpact=0.210000
+deviationCurve=2.250000
+recoilDispersion=10
+recoilAngle=95
+cameraRecoil=0.000000
+cameraSnap=3.500000
+deviationMax=11
+convergence=0.000000
+Name_Jpn=IWI UZI 9x19 submachine gun
+Information_Jpn=An Israeli 9x19mm submachine gun with an open bolt system. A very innovative product of its time which gained great popularity due to its reliability and simplicity of design. Despite being rather outdated, it is still quite popular all over the world.

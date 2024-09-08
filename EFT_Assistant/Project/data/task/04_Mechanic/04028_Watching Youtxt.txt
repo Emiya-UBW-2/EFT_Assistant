@@ -4,6 +4,7 @@ Trader=Mechanic
 
 NeedTask=Broadcast - Part 2
 NeedLevel=20
+NeedItem=[Pinewood hotel room 215 keyx1]
 
 CanRestart=false
 NeedKappa=false

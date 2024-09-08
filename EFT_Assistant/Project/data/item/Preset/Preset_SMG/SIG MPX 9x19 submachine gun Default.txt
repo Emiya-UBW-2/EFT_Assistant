@@ -20,7 +20,7 @@ containsItems=[
 	MPX GEN1 handguard 2 inch railx2/|
 	MPX GEN1 handguard 4 inch railx1/|
 	MPX flip-up rear sightx1/|
-	MPX/MCX collapsing/telescoping stockx1/|
+	MPX/MCX Collapsing/Telescoping Stockx1/|
 	MPX double latch charging handlex1
 ]
 Name_Jpn=MPX 9x19 サブマシンガン デフォルト

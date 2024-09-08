@@ -1,7 +1,7 @@
 IDstr=5cf6935bd7f00c06585fb791
-Name=TACCOM Carbine Brake multi-caliber muzzle brake
+Name=TACCOM Carbine Brake 9x19 muzzle brake
 ShortName=TACCOM
-Information_Eng=The "Carbine Brake" muzzle brake manufactured by TACCOM for SIG MPX. It can also be used with compatible .308 rifles.
+Information_Eng=The "Carbine Brake" muzzle brake manufactured by TACCOM for SIG MPX.
 Itemtype=flashhider
 width=1
 height=1
@@ -11,5 +11,5 @@ propertiestype=ItemPropertiesWeaponMod
 Recoil=-8.000000
 Ergonomics=-1.000000
 accuracyModifier=0.020000
-Name_Jpn=TACCOM Carbine Brake multi-caliber muzzle brake
-Information_Jpn=TACCOM製のSIG MPX用の"Carbine brake" マズルブレーキ。.308弾を使用するライフルにも装着できる。
+Name_Jpn=TACCOM Carbine Brake 9x19 muzzle brake
+Information_Jpn=TACCOM製のSIG MPX用の"Carbine brake" マズルブレーキ。

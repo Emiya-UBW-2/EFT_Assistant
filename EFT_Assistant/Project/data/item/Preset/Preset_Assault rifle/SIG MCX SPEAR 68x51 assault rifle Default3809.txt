@@ -20,8 +20,8 @@ containsItems=[
 	MCX SPEAR SLX68-MG-QD 6.8x51 sound suppressorx1/|
 	MCX SPEAR Adjustable Gas Pistonx1/|
 	MCX SPEAR 11 inch M-LOK handguardx1/|
-	MCX/MPX Stock Locking Hinge Assemblyx1/|
-	MCX/MPX folding stock adapter buffer tube (Coyote Tan)x1/|
+	MPX/MCX Stock Locking Hinge Assemblyx1/|
+	MPX/MCX Stock Adapter Low Profile Tube (Coyote Tan)x1/|
 	AR-15 Magpul MOE SL-K buttstock (Coyote Tan)x1/|
 	MCX SPEAR charging handlex1
 ]

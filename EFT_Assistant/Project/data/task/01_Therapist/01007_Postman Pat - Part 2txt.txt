@@ -6,7 +6,7 @@ NeedTask=Postman Pat - Part 1
 NeedLevel=10
 
 CanRestart=false
-NeedKappa=false
+NeedKappa=true
 NeedLightkeeper=false
 
 factionName=Any

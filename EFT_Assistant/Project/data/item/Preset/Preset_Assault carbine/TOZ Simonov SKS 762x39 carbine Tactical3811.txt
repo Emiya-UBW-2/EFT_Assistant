@@ -10,7 +10,7 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	TOZ Simonov SKS 7.62x39 carbinex1/|
-	SKS ATI Monte Carlo chassisx1/|
+	SKS ATI Monte Carlo stockx1/|
 	SKS 7.62x39 520mm barrelx1/|
 	SKS upper bandx1/|
 	SKS gas tubex1/|

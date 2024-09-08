@@ -1,0 +1,43 @@
+IDstr=5bc4776586f774512d07cf05
+Name=The Tarkov Shooter - Part 1
+Trader=Jaeger
+
+NeedTask=Acquaintance
+NeedLevel=2
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+factionName=Any
+Task_Kill=[
+	Scavsx5
+]
+NeedItem=[
+	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
+	Mosin 7.62x54R bolt-action rifle (Sniper)x0/|
+	SV-98 7.62x54R bolt-action sniper riflex0/|
+	Lobaev Arms DVL-10 7.62x51 bolt-action sniper riflex0/|
+	Remington Model 700 7.62x51 bolt-action sniper riflex0/|
+	Molot Arms VPO-215 Gornostay .366 TKM bolt-action riflex0/|
+	ORSIS T-5000M 7.62x51 bolt-action sniper riflex0/|
+	MP-18 7.62x54R single-shot riflex0/|
+	Accuracy International AXMC .338 LM bolt-action sniper riflex0
+]
+Task_Else=距離: >= 40m
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs from over 40 meters away while using a bolt-action rifle with iron sights
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+2
+Reward_Item=[
+	Roublesx50000/|
+	PU 3.5x riflescopex2/|
+	PU 3.5x ring scope mountx2/|
+	Mosin Rifle Kochetov mountx2
+]
+
+Reward_EXP=12300

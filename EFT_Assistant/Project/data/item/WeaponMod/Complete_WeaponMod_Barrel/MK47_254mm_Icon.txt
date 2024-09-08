@@ -32,7 +32,8 @@ ChildParts=[
 	AAC SCAR-SD 51T 7.62x51 flash hider/|
 	AR-10 Dead Air Keymount 7.62x51 muzzle brake/|
 	AR-10 KAC QDC 7.62x51 Muzzle Brake Kit/|
-	AR-10 TAA ZK-38 7.62x51 muzzle brake
+	AR-10 TAA ZK-38 7.62x51 muzzle brake/|
+	AR-10 Delta-Tek DTK-AR10 7.62x51 muzzle brake
 ]
 ChildParts=[
 	AR-10 CMMG low profile gas block/|

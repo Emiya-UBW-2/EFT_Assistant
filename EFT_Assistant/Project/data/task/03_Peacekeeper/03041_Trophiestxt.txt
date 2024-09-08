@@ -18,12 +18,12 @@ DogTagLv=50
 
 [
 	TaskType=giveItem
-	TaskText=Find in raid and hand over BEAR PMC dogtags of level 50+
+	TaskText=Hand over the found in raid item: BEAR PMC dogtag (Level 50+)
 	TaskOptional=false
 ]
 [
 	TaskType=giveItem
-	TaskText=Find in raid and hand over USEC PMC dogtags of level 50+
+	TaskText=Hand over the found in raid item: USEC PMC dogtag (Level 50+)
 	TaskOptional=false
 ]
 

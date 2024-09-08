@@ -20,7 +20,7 @@ containsItems=[
 	MPX GEN1 handguard 2 inch railx2/|
 	MPX GEN1 handguard 4 inch railx1/|
 	MPX flip-up rear sightx1/|
-	MPX/MCX retractable stock adapterx1/|
+	MPX/MCX Folding Knuckle Stock Adapterx1/|
 	Armacon Baskak stockx1/|
 	MPX single latch charging handlex1
 ]

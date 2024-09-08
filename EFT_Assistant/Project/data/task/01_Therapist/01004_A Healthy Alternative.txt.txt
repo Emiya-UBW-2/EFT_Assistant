@@ -1,0 +1,35 @@
+IDstr=669fa3910c828825de06d69f
+Name=A Healthy Alternative
+Trader=Therapist
+
+NeedTask=One Less Loose End
+NeedLevel=15
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+factionName=Any
+
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the lab journal
+	TaskOptional=false
+]
+
+Reward_Rep=Therapist+2
+Reward_Item=[
+	Roublesx86000/|
+	eTG-change regenerative stimulant injectorx2
+]
+
+Task_Else=該当タスクOne Less Loose End
+Task_Else=該当タスク状態:complete
+
+[
+	TaskType=taskStatus
+	TaskText=
+	TaskOptional=false
+]
+
+Reward_EXP=13500

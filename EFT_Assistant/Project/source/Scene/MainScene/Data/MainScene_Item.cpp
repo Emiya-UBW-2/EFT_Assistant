@@ -363,6 +363,13 @@ namespace FPS_n2 {
 		m_ItemsData.m_properties.SetData(LEFT, Args);
 	}
 	void			ItemList::Load_Sub() noexcept {
+		if (this->m_ItemsData.m_TypeID.GetName() == "") {
+			std::string ErrMes = "Error : Invalid ID by CheckID";
+			ErrMes += "[";
+			ErrMes += this->GetFilePath();
+			ErrMes += "]";
+			DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+		}
 		this->m_ItemsData.m_TypeID.CheckID(DataBase::Instance()->GetItemTypeData().get());
 		for (auto& m : this->m_ItemsData.m_MapID) {
 			m.CheckID(DataBase::Instance()->GetMapData().get());

@@ -4,6 +4,7 @@ Trader=Skier
 
 NeedTask=Beyond the Red Meat - Part 1
 NeedLevel=22
+NeedItem=[TerraGroup meeting room keyx1]
 
 CanRestart=false
 NeedKappa=false

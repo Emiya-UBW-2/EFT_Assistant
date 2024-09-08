@@ -13,13 +13,13 @@ Task_Map=Shoreline
 factionName=Any
 Task_Map=Shoreline
 Task_Else=TaskType:visit
-Task_Else=Find Artyom’s car on Shoreline
+Task_Else=Locate Artyom’s car on Shoreline
 Task_Map=Shoreline
 Task_Else=脱出ステータス:[Survived,Run Through]
 
 [
 	TaskType=visit
-	TaskText=Find Artyom’s car on Shoreline
+	TaskText=Locate Artyom’s car on Shoreline
 	TaskOptional=false
 ]
 [

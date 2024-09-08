@@ -3,7 +3,7 @@ Name=Overseas Trust - Part 1
 Trader=Lightkeeper
 
 NeedTask=Trouble in the Big City
-NeedLevel=35
+NeedLevel=33
 
 CanRestart=false
 NeedKappa=false
@@ -14,57 +14,63 @@ Task_Map=Customs
 Task_Kill=[
 	Customs-Reshalax15
 ]
+Task_Else=距離: >= 0m
 Task_Map=Reserve
 Task_Kill=[
 	Reserve-Glukharx15
 ]
+Task_Else=距離: >= 0m
 Task_Map=Interchange
 Task_Kill=[
 	Interchange-Killax15
 ]
+Task_Else=距離: >= 0m
 Task_Map=Woods
 Task_Kill=[
 	Woods-Shturmanx15
 ]
+Task_Else=距離: >= 0m
 Task_Map=Shoreline
 Task_Kill=[
 	Shoreline-Sanitarx15
 ]
+Task_Else=距離: >= 0m
 Task_Map=Factory
 Task_Map=Night Factory
 Task_Kill=[
 	Factory-Tagillax15/|
 	Night Factory-Tagillax15
 ]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot
-	TaskText=Locate and eliminate Reshala
+	TaskText=Locate and neutralize Reshala
 	TaskOptional=false
 ]
 [
 	TaskType=shoot
-	TaskText=Locate and eliminate Glukhar
+	TaskText=Locate and neutralize Glukhar
 	TaskOptional=false
 ]
 [
 	TaskType=shoot
-	TaskText=Locate and eliminate Killa
+	TaskText=Locate and neutralize Killa
 	TaskOptional=false
 ]
 [
 	TaskType=shoot
-	TaskText=Locate and eliminate Shturman
+	TaskText=Locate and neutralize Shturman
 	TaskOptional=false
 ]
 [
 	TaskType=shoot
-	TaskText=Locate and eliminate Sanitar
+	TaskText=Locate and neutralize Sanitar
 	TaskOptional=false
 ]
 [
 	TaskType=shoot
-	TaskText=Locate and eliminate Tagilla
+	TaskText=Locate and neutralize Tagilla
 	TaskOptional=false
 ]
 

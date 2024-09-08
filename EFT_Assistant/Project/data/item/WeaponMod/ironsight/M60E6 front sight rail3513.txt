@@ -1,0 +1,16 @@
+IDstr=660126a98f2b23af220b27e7
+Name=M60E6 front sight rail
+ShortName=E6 FS
+Information_Eng=A small front sight rail for the M60E6 light machine gun. Manufactured by U.S Ordnance.
+Itemtype=ironsight
+width=1
+height=1
+weight=0.078000
+fleaMarketFee=0
+propertiestype=ItemPropertiesScope
+Recoil=0.000000
+Ergonomics=2.000000
+SightRange=300
+sightZooms=1.000000
+Name_Jpn=M60E6 front sight rail
+Information_Jpn=A small front sight rail for the M60E6 light machine gun. Manufactured by U.S Ordnance.

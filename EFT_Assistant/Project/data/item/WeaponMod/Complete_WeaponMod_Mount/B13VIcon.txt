@@ -79,7 +79,7 @@ Conflict=[
 	BelOMO PSO-1 4x24 scope/|
 	BelOMO PSO-1M2-1 4x24 scope/|
 	BelOMO PSO-1M2 4x24 scope/|
-	PP-19-01 "Vityaz-SN" dust cover
+	PP-19-01 Vityaz-SN dust cover
 ]
 Recoil=0.000000
 Ergonomics=-2.000000

@@ -3,7 +3,7 @@ Name=Network Provider - Part 2
 Trader=Mechanic
 
 NeedTask=Network Provider - Part 1
-NeedLevel=35
+NeedLevel=33
 
 CanRestart=false
 NeedKappa=false
@@ -22,22 +22,22 @@ NeedItem=Radio repeaterx1
 
 [
 	TaskType=mark
-	TaskText=Set up the retransmitter inside the MI-8 helicopter at the water treatment plant
+	TaskText=Set up the radio repeater inside the MI-8 helicopter at the water treatment plant on Lighthouse
 	TaskOptional=false
 ]
 [
 	TaskType=mark
-	TaskText=Set up the retransmitter inside the abandoned USEC cottage
+	TaskText=Set up the radio repeater inside the abandoned USEC cottage on Lighthouse
 	TaskOptional=false
 ]
 [
 	TaskType=mark
-	TaskText=Set up the retransmitter at a high elevation overlooking the lighthouse
+	TaskText=Set up the radio repeater at a high elevation overlooking the peninsula on Lighthouse
 	TaskOptional=false
 ]
 [
 	TaskType=mark
-	TaskText=Set up the retransmitter on the roof of the sunken building at the shore
+	TaskText=Set up the radio repeater on the roof of the sunken building at the shore on Lighthouse
 	TaskOptional=false
 ]
 

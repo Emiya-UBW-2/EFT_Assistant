@@ -19,7 +19,7 @@ ChildParts=[
 	AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo (White)
 ]
 ChildParts=[
-	GP-25 "Kostyor" 40mm underbarrel grenade launcher
+	GP-25 Kostyor 40mm underbarrel grenade launcher
 ]
 ChildParts=[
 	AK-103 7.62x39 muzzle brake-compensator/|
@@ -53,7 +53,7 @@ ChildParts=[
 	AK TAPCO SAW-Style pistol grip (FDE)/|
 	AK US Palm pistol grip/|
 	AK Zenit RK-3 pistol grip/|
-	PP-19-01 "Vityaz" pistol grip/|
+	PP-19-01 Vityaz pistol grip/|
 	AK FAB Defense AGR-47 pistol grip/|
 	AK TangoDown Battle Grip pistol grip/|
 	AK TangoDown Battle Grip pistol grip (FDE)/|
@@ -110,11 +110,11 @@ ChildParts=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
 	BelOMO PK-AA dovetail reflex sight/|
 	OKP-7 reflex sight (Dovetail)/|
-	NPZ PK1 "Obzor" dovetail reflex sight/|
+	NPZ PK1 Obzor dovetail reflex sight/|
 	BelOMO PSO-1 4x24 scope/|
 	BelOMO PSO-1M2-1 4x24 scope/|
 	BelOMO PSO-1M2 4x24 scope/|
-	NPZ USP-1 "Tyulpan" 4x scope/|
+	NPZ USP-1 Tyulpan 4x scope/|
 	NSPU-M 3.5x dovetail night vision scope/|
 	Axion Kobra dovetail mount/|
 	KMZ 1P59 dovetail mount/|
@@ -124,14 +124,15 @@ ChildParts=[
 	Zenit B-13V "Klassika" dovetail rail platform/|
 	SAG Bit low profile dovetail sidemount/|
 	SAG AK dovetail sidemount/|
-	Axion Kobra EKP-1S-03 reflex sight (Dovetail)
+	Axion Kobra EKP-1S-03 reflex sight (Dovetail)/|
+	RS Regulate AK-303M Full Length Lower dovetail mount
 ]
 ChildParts=[
 	AK CSS knurled charging handle/|
 	AK Zenit RP-1 charging handle
 ]
-Recoil=151.000000
-RecoilHorizontal=397.000000
+Recoil=135.000000
+RecoilHorizontal=372.000000
 Ergonomics=35.000000
 SightRange=-100
 FireRate=600

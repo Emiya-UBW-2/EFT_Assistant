@@ -20,9 +20,9 @@ ChildParts=[
 ]
 ChildParts=[
 	Holosun LS321 Tactical device/|
-	AN/PEQ-15 tactical device/|
-	AN/PEQ-2 tactical device/|
-	LA-5B/PEQ tactical device/|
+	L3Harris AN/PEQ-15 tactical device/|
+	Insight AN/PEQ-2 tactical device/|
+	L3Harris LA-5B/PEQ tactical device/|
 	Wilcox RAPTAR ES Tactical Rangefinder/|
 	Zenit Perst-3 tactical device/|
 	MAWL-C1+ tactical device
@@ -31,7 +31,7 @@ Conflict=[
 	Kalashnikov AK-102 5.56x45 assault rifle/|
 	Kalashnikov AK-104 7.62x39 assault rifle/|
 	Kalashnikov AK-105 5.45x39 assault rifle/|
-	PP-19-01 "Vityaz" 9x19 submachine gun/|
+	PP-19-01 Vityaz 9x19 submachine gun/|
 	Saiga-9 9x19 carbine
 ]
 Recoil=-1.000000

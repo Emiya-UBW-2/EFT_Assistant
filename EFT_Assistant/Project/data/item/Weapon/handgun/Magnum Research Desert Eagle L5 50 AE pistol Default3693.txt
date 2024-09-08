@@ -1,0 +1,21 @@
+IDstr=66b09315c5987b623d6e0ea1
+Name=Magnum Research Desert Eagle L5 .50 AE pistol Default
+ShortName=Desert Eagle L5 Default
+Itemtype=handgun
+width=2
+height=1
+weight=1.507000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Magnum Research Desert Eagle L5 .50 AE pistolx1/|
+	Desert Eagle L5 .50 AE 127mm barrelx1/|
+	Desert Eagle front sightx1/|
+	Desert Eagle Hogue Rubber Grip with finger groovesx1/|
+	Desert Eagle L5 .50 AE pistol slidex1/|
+	Desert Eagle rear sightx1/|
+	Desert Eagle .50 AE 7-round magazinex1
+]
+Name_Jpn=Magnum Research Desert Eagle L5 .50 AE pistol デフォルト
+Information_Jpn=

@@ -1,0 +1,14 @@
+Name=SIG MCX SPEAR 6.8x51 assault rifle EXPS3
+Base=SIG MCX SPEAR 6.8x51 assault rifle
+Parts=AR-15 Magpul MOE pistol grip (FDE)
+Parts=MCX SPEAR 6.8x51 upper receiver
+Parts=MCX SPEAR 6.8x51 330mm barrel
+Parts=MCX SPEAR Adjustable Gas Piston
+Parts=MCX SPEAR Clutch-Lok QD 6.8x51 Shouldered Flash Hider
+Parts=MCX SPEAR SLX68-MG-QD 6.8x51 sound suppressor
+Parts=MCX SPEAR 11 inch M-LOK handguard
+Parts=Magpul M-LOK AFG tactical foregrip (Black)
+Parts=EOTech EXPS3 holographic sight (Tan)
+Parts=MCX SPEAR charging handle
+Parts=MPX/MCX Telescoping/Folding Stock
+Parts=AR-10 7.62x51 Lancer L7AWM 20-round magazine

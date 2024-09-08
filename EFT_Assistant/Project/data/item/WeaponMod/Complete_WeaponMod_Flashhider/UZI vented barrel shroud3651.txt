@@ -1,0 +1,15 @@
+IDstr=6699370c57df3e2b4e0a0dab
+Name=UZI vented barrel shroud
+ShortName=UZI shroud
+Information_Eng=A vented barrel shroud for the UZI submachine gun, which allows to reduce barrel heat when firing in bursts. Manufactured by Israel Weapon Industries.
+Itemtype=flashhider
+width=1
+height=1
+weight=0.120000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=-2.000000
+Ergonomics=-2.000000
+accuracyModifier=0.000000
+Name_Jpn=UZI vented barrel shroud
+Information_Jpn=A vented barrel shroud for the UZI submachine gun, which allows to reduce barrel heat when firing in bursts. Manufactured by Israel Weapon Industries.

@@ -1,5 +1,5 @@
 IDstr=5c503af12e221602b177ca02
-Name=VPO-101 "Vepr-Hunter" stock
+Name=VPO-101 Vepr-Hunter stock
 ShortName=VPO101
 Information_Eng=A standard-issue stock for VPO-101 Vepr-Hunter carbines.
 Itemtype=stock

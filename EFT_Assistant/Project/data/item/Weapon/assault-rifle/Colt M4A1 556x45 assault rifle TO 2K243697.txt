@@ -1,0 +1,34 @@
+IDstr=66b0e484c84cc7141324fd6c
+Name=Colt M4A1 5.56x45 assault rifle T.O 2K24
+ShortName=M4A1 T.O 2K24
+Itemtype=assault-rifle
+width=6
+height=2
+weight=4.276000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Colt M4A1 5.56x45 assault riflex1/|
+	AR-15 Magpul MOE pistol grip (FDE)x1/|
+	AR-15 Vltor MUR-1S 5.56x45 upper receiverx1/|
+	AR-15 Hanson Carbine 5.56x45 16 inch barrelx1/|
+	AR-15 Ballistic Advantage Lo-Pro Gas Blockx1/|
+	AR-15 SureFire WarComp 5.56x45 flash hiderx1/|
+	SureFire SOCOM556-RC2 5.56x45 sound suppressorx1/|
+	AR-15 Geissele SMR MK16 13.5 inch M-LOK handguard (DDC)x1/|
+	Magpul MBUS Gen2 flip-up front sight (FDE)x1/|
+	Magpul M-LOK 4.1 inch railx1/|
+	Stark SE-5 Express Forward foregrip (FDE)x1/|
+	Magpul M-LOK Offset Light Mountx1/|
+	Insight WMX200 tactical flashlightx1/|
+	Magpul MBUS Gen2 flip-up rear sight (FDE)x1/|
+	SIG ALPHA4 30mm ring scope mountx1/|
+	Vortex Razor HD Gen.2 1-6x24 30mm riflescopex1/|
+	AR-15 Strike Industries Advanced Receiver Extension buffer tube (Anodized Red)x1/|
+	AR-15 Magpul CTR Carbine stock (FDE)x1/|
+	AR-15 Geissele ACH charging handle (DDC)x1/|
+	5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazine (FDE)x1
+]
+Name_Jpn=M4A1 5.56x45 アサルトライフル T.O 2K24
+Information_Jpn=

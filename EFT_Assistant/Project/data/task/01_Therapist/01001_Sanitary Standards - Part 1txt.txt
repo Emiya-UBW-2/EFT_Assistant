@@ -11,19 +11,10 @@ NeedLightkeeper=true
 
 Task_Map=Factory
 factionName=Any
-Task_Map=Factory
-Task_Map=Night Factory
-Task_Else=TaskType:visit
-Task_Else=Gain access to the locked pumping station on Factory
 NeedItem=Gas analyzerx1
 Task_FiR_HandOver=[Gas analyzerx1]
 DogTagLv=0
 
-[
-	TaskType=visit
-	TaskText=Gain access to the locked pumping station on Factory
-	TaskOptional=true
-]
 [
 	TaskType=findItem
 	TaskText=Find Gas analyzer in raid

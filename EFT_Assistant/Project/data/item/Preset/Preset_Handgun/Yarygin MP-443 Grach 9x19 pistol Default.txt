@@ -1,6 +1,6 @@
 IDstr=584148a524597759eb357a44
-Name=Yarygin MP-443 "Grach" 9x19 pistol Default
-ShortName=MP-443 "Grach" Default
+Name=Yarygin MP-443 Grach 9x19 pistol Default
+ShortName=MP-443 Grach Default
 Itemtype=handgun
 width=2
 height=1
@@ -9,9 +9,9 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
-	Yarygin MP-443 "Grach" 9x19 pistolx1/|
-	MP-443 "Grach" 9x19 18-round magazinex1/|
-	MP-443 "Grach" polymer pistol gripx1
+	Yarygin MP-443 Grach 9x19 pistolx1/|
+	MP-443 Grach 9x19 18-round magazinex1/|
+	MP-443 Grach polymer pistol gripx1
 ]
 Name_Jpn=Yarygin MP-443 Grach 9x19 ピストル デフォルト
 Information_Jpn=

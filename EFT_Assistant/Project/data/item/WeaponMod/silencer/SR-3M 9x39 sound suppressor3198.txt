@@ -1,0 +1,18 @@
+IDstr=65144ff50e00edc79406836f
+Name=SR-3M 9x39 sound suppressor
+ShortName=SR-3M
+Information_Eng=A standard-issue sound suppressor for the SR-3M assault rifle.
+Itemtype=silencer
+width=2
+height=1
+weight=0.575000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	VSS/VAL Zenit B-3 ring mount
+]
+Recoil=-14.000000
+Ergonomics=-5.000000
+accuracyModifier=0.010000
+Name_Jpn=SR-3M 9x39 sound suppressor
+Information_Jpn=A standard-issue sound suppressor for the SR-3M assault rifle.

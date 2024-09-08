@@ -1,0 +1,16 @@
+Name=Saiga-12K ver.10 12ga semi-automatic shotgun Type-340
+Base=Saiga-12K ver.10 12ga semi-automatic shotgun
+Parts=SOK-12 Custom Guns Type-340 handguard
+Parts=Custom Guns handguard rail
+Parts=Kiba Arms 25mm accessory ring mount
+Parts=Armytek Predator Pro v3 XHP35 HI flashlight
+Parts=AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip
+Parts=Tromix Monster Claw 12ga muzzle brake
+Parts=SOK-12 dust cover (Sb.0-2)
+Parts=SOK-12 CSS rear sight rail mount
+Parts=Wilcox BOSS Xe reflex sight
+Parts=AK-74M/AK-100 Zenit PT Lock
+Parts=AK Zenit PT-1 "Klassika" stock
+Parts=AK GP-25 accessory kit recoil pad
+Parts=SOK-12 12/76 MaxRounds Powermag 20-round magazine
+Parts=AK CSS knurled charging handle

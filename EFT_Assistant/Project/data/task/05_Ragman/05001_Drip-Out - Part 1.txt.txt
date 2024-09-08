@@ -1,0 +1,35 @@
+IDstr=6613f3007f6666d56807c929
+Name=Drip-Out - Part 1
+Trader=Ragman
+
+NeedTask=Minibus
+NeedLevel=24
+
+CanRestart=true
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_Map=Reserve
+Task_Map=The Lab
+Task_Kill=[
+	Reserve-Raiderx100/|
+	The Lab-Raiderx100
+]
+Task_Else=距離: >= 0m
+Task_FiR_HandOver=[WARTECH TV-115 plate carrier (Olive Drab)x50]
+DogTagLv=0
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Raiders
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid WARTECH brand equipment
+	TaskOptional=false
+]
+
+
+Reward_EXP=0

@@ -8,6 +8,6 @@ height=1
 weight=0.010000
 fleaMarketFee=0
 propertiestype=ItemPropertiesKey
-uses=0
+uses=10
 Name_Jpn=TerraGroup Labs キーカード (ブラック)
 Information_Jpn=United Securityが発行したTerraGroup Labsのキーカード。トップレベルの権限を持つ管理者に渡される。

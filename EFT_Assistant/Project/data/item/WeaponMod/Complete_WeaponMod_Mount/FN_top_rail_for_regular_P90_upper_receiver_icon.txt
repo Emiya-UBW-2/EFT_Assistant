@@ -37,8 +37,8 @@ ChildParts=[
 	FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescope/|
 	Torrey Pines Logic T12W 30Hz thermal reflex sight/|
 	Holosun LS321 Tactical device/|
-	AN/PEQ-15 tactical device/|
-	LA-5B/PEQ tactical device/|
+	L3Harris AN/PEQ-15 tactical device/|
+	L3Harris LA-5B/PEQ tactical device/|
 	Zenit Perst-3 tactical device/|
 	Aimpoint Micro Standard Mount/|
 	Aimpoint Micro H-2 Standard Mount/|

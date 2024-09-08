@@ -1,0 +1,18 @@
+IDstr=668fe60b56984d93550462c6
+Name=Desert Eagle Mk XIX pistol slide
+ShortName=XIX slide
+Information_Eng=A Mark XIX slide for the Desert Eagle pistol, manufactured by Magnum Research.
+Itemtype=receiver
+width=2
+height=1
+weight=0.430000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Desert Eagle rear sight
+]
+Recoil=0.000000
+Ergonomics=4.000000
+accuracyModifier=0.000000
+Name_Jpn=Desert Eagle Mk XIX pistol slide
+Information_Jpn=A Mark XIX slide for the Desert Eagle pistol, manufactured by Magnum Research.

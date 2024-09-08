@@ -25,7 +25,7 @@ Conflict=[
 	TSh-4M-L soft tank crew helmet/|
 	Wilcox Skull Lock head mount/|
 	Rivals 2020 cap/|
-	DevTac Ronin ballistic helmet/|
+	DevTac Ronin Respirator/|
 	Bandana/|
 	BEAR baseball cap (Black)/|
 	Beret (Black)/|
@@ -53,7 +53,13 @@ Conflict=[
 	Beanie/|
 	Ushanka ear flap hat/|
 	Gus baseball cap/|
-	Basmach leather cap
+	Basmach leather cap/|
+	DevTac Ronin ballistic helmet/|
+	Ballistic Armor Co. Bastion helmet (Armor Black)/|
+	Ballistic Armor Co. Bastion helmet (MultiCam)/|
+	Ballistic Armor Co. Bastion helmet (OD Green)/|
+	Team Wendy EXFIL Ballistic Helmet (Black)/|
+	Team Wendy EXFIL Ballistic Helmet (Coyote Brown)
 ]
 Name_Jpn=Ghoul mask
 Information_Jpn=A rubber mask of a Ghoul. If you want to terrify Scavs and make them look for new pants, this mask is for you.

@@ -7,20 +7,27 @@ NeedTask=The Survivalist Path - Junkie
 NeedTask=The Huntsman Path - Justice
 NeedTask=The Huntsman Path - Controller
 NeedTask=The Huntsman Path - Evil Watchman
+NeedTask=Every Hunter Knows This
+NeedTask=Claustrophobia
+NeedTask=Shootout Picnic
 NeedTask=Search Mission
 NeedTask=Stirrup
 NeedTask=Car Repair
+NeedTask=Possessor
+NeedTask=Postman Pat - Part 2
 NeedTask=Bad Habit
 NeedTask=Insider
 NeedTask=The Huntsman Path - Factory Chief
 NeedTask=Broadcast - Part 1
+NeedTask=The Walls Have Eyes
+NeedTask=All Is Revealed
 NeedTask=A Shooter Born in Heaven
 NeedTask=Classified Technologies
 NeedTask=Surplus Goods
 NeedTask=Revision - Lighthouse
 NeedTask=Signal - Part 4
-NeedTask=Overpopulation
 NeedTask=Safe Corridor
+NeedTask=Dragnet
 NeedTask=Inventory Check
 NeedTask=Corporate Secrets
 NeedTask=Seaside Vacation
@@ -29,6 +36,7 @@ NeedTask=Easy Job - Part 2
 NeedTask=Reconnaissance
 NeedTask=Documents
 NeedTask=The Hermit
+NeedTask=Health Care Privacy - Part 6
 NeedTask=Vitamins - Part 2
 NeedTask=The Huntsman Path - Outcasts
 NeedTask=TerraGroup Employee
@@ -44,11 +52,9 @@ NeedTask=Fishing Place
 NeedTask=Scavenger
 NeedTask=Living High is Not a Crime - Part 2
 NeedTask=Fertilizers
-NeedTask=Test Drive - Part 1
 NeedTask=The Huntsman Path - Eraser - Part 2
 NeedTask=Missing Cargo
 NeedTask=Peacekeeping Mission
-NeedTask=Silent Caliber
 NeedTask=Hunting Trip
 NeedTask=Decontamination Service
 NeedTask=Flint
@@ -59,6 +65,7 @@ NeedTask=Stray Dogs
 NeedTask=Gunsmith - Part 22
 NeedTask=Supervisor
 NeedTask=The Guide
+NeedTask=Test Drive - Part 5
 NeedTask=Intimidator
 NeedTask=Crisis
 NeedLevel=48
@@ -68,76 +75,52 @@ NeedKappa=true
 NeedLightkeeper=false
 
 factionName=Any
-NeedItem=Old firesteelx1
 Task_FiR_HandOver=[Old firesteelx1]
 DogTagLv=0
-NeedItem=Antique axex1
 Task_FiR_HandOver=[Antique axex1]
 DogTagLv=0
-NeedItem=Battered antique bookx1
 Task_FiR_HandOver=[Battered antique bookx1]
 DogTagLv=0
-NeedItem=#FireKlean gun lubex1
 Task_FiR_HandOver=[#FireKlean gun lubex1]
 DogTagLv=0
-NeedItem=Golden rooster figurinex1
 Task_FiR_HandOver=[Golden rooster figurinex1]
 DogTagLv=0
-NeedItem=Silver Badgex1
 Task_FiR_HandOver=[Silver Badgex1]
 DogTagLv=0
-NeedItem=Deadlyslob's beard oilx1
 Task_FiR_HandOver=[Deadlyslob's beard oilx1]
 DogTagLv=0
-NeedItem=Golden 1GPhone smartphonex1
 Task_FiR_HandOver=[Golden 1GPhone smartphonex1]
 DogTagLv=0
-NeedItem=Jar of DevilDog mayox1
 Task_FiR_HandOver=[Jar of DevilDog mayox1]
 DogTagLv=0
-NeedItem=Can of spratsx1
 Task_FiR_HandOver=[Can of spratsx1]
 DogTagLv=0
-NeedItem=Fake mustachex1
 Task_FiR_HandOver=[Fake mustachex1]
 DogTagLv=0
-NeedItem=Kotton beaniex1
 Task_FiR_HandOver=[Kotton beaniex1]
 DogTagLv=0
-NeedItem=Raven figurinex1
 Task_FiR_HandOver=[Raven figurinex1]
 DogTagLv=0
-NeedItem=Pestily plague maskx1
 Task_FiR_HandOver=[Pestily plague maskx1]
 DogTagLv=0
-NeedItem=Shroud half-maskx1
 Task_FiR_HandOver=[Shroud half-maskx1]
 DogTagLv=0
-NeedItem=Can of Dr. Lupo's coffee beansx1
 Task_FiR_HandOver=[Can of Dr. Lupo's coffee beansx1]
 DogTagLv=0
-NeedItem=42 Signature Blend English Teax1
 Task_FiR_HandOver=[42 Signature Blend English Teax1]
 DogTagLv=0
-NeedItem=Veritas guitar pickx1
 Task_FiR_HandOver=[Veritas guitar pickx1]
 DogTagLv=0
-NeedItem=Armband (Evasion)x1
 Task_FiR_HandOver=[Armband (Evasion)x1]
 DogTagLv=0
-NeedItem=Can of RatCola sodax1
 Task_FiR_HandOver=[Can of RatCola sodax1]
 DogTagLv=0
-NeedItem=Loot Lord plushiex1
 Task_FiR_HandOver=[Loot Lord plushiex1]
 DogTagLv=0
 Task_FiR_HandOver=[Smoke balaclavax1]
 DogTagLv=0
-NeedItem=Smoke balaclavax1
-NeedItem=WZ Walletx1
 Task_FiR_HandOver=[WZ Walletx1]
 DogTagLv=0
-NeedItem=LVNDMARK's rat poisonx1
 Task_FiR_HandOver=[LVNDMARK's rat poisonx1]
 DogTagLv=0
 Task_FiR_HandOver=[Missam forklift keyx1]
@@ -162,245 +145,131 @@ Task_FiR_HandOver=[Axel parrot figurinex1]
 DogTagLv=0
 Task_FiR_HandOver=[BEAR Buddy plush toyx1]
 DogTagLv=0
+Task_FiR_HandOver=[Glorious E lightweight armored maskx1]
+DogTagLv=0
+Task_FiR_HandOver=[Viibiin sneakerx1]
+DogTagLv=0
+Task_FiR_HandOver=[Tamatthi kunai knife replicax1]
+DogTagLv=0
 
 [
-	TaskType=findItem
-	TaskText=Find Old firesteel in raid
+	TaskType=giveItem
+	TaskText=Hand over the found in raid item: Old firesteel
 	TaskOptional=false
 ]
 [
 	TaskType=giveItem
-	TaskText=Hand over the Old firesteel
-	TaskOptional=false
-]
-[
-	TaskType=findItem
-	TaskText=Find Antique axe in raid
+	TaskText=Hand over the found in raid item: Antique axe
 	TaskOptional=false
 ]
 [
 	TaskType=giveItem
-	TaskText=Hand over the Antique axe
-	TaskOptional=false
-]
-[
-	TaskType=findItem
-	TaskText=Find Battered antique book in raid
+	TaskText=Hand over the found in raid item: Battered antique book
 	TaskOptional=false
 ]
 [
 	TaskType=giveItem
-	TaskText=Hand over the Battered antique book
-	TaskOptional=false
-]
-[
-	TaskType=findItem
-	TaskText=Find #FireKlean gun lube in raid
+	TaskText=Hand over the found in raid item: #FireKlean gun lube
 	TaskOptional=false
 ]
 [
 	TaskType=giveItem
-	TaskText=Hand over the #FireKlean gun lube
-	TaskOptional=false
-]
-[
-	TaskType=findItem
-	TaskText=Find Golden rooster in raid
+	TaskText=Hand over the found in raid item: Golden rooster figurine
 	TaskOptional=false
 ]
 [
 	TaskType=giveItem
-	TaskText=Hand over the Golden rooster
-	TaskOptional=false
-]
-[
-	TaskType=findItem
-	TaskText=Find Silver Badge in raid
+	TaskText=Hand over the found in raid item: Silver Badge
 	TaskOptional=false
 ]
 [
 	TaskType=giveItem
-	TaskText=Hand over the Silver Badge
-	TaskOptional=false
-]
-[
-	TaskType=findItem
-	TaskText=Find Deadlyslob's beard oil in raid
+	TaskText=Hand over the found in raid item: Deadlyslob's beard oil
 	TaskOptional=false
 ]
 [
 	TaskType=giveItem
-	TaskText=Hand over the Deadlyslob's beard oil
-	TaskOptional=false
-]
-[
-	TaskType=findItem
-	TaskText=Find Golden 1GPhone smartphone in raid
+	TaskText=Hand over the found in raid item: Golden 1GPhone smartphone
 	TaskOptional=false
 ]
 [
 	TaskType=giveItem
-	TaskText=Hand over the Golden 1GPhone smartphone
-	TaskOptional=false
-]
-[
-	TaskType=findItem
-	TaskText=Find Jar of DevilDog mayo in raid
+	TaskText=Hand over the found in raid item: Jar of DevilDog mayo
 	TaskOptional=false
 ]
 [
 	TaskType=giveItem
-	TaskText=Hand over the Jar of DevilDog mayo
-	TaskOptional=false
-]
-[
-	TaskType=findItem
-	TaskText=Find Can of sprats in raid
+	TaskText=Hand over the found in raid item: Can of sprats
 	TaskOptional=false
 ]
 [
 	TaskType=giveItem
-	TaskText=Hand over the Can of sprats
-	TaskOptional=false
-]
-[
-	TaskType=findItem
-	TaskText=Find Fake mustache in raid
+	TaskText=Hand over the found in raid item: Fake mustache
 	TaskOptional=false
 ]
 [
 	TaskType=giveItem
-	TaskText=Hand over the Fake mustache
-	TaskOptional=false
-]
-[
-	TaskType=findItem
-	TaskText=Find Kotton beanie in raid
+	TaskText=Hand over the found in raid item: Kotton beanie
 	TaskOptional=false
 ]
 [
 	TaskType=giveItem
-	TaskText=Hand over the Kotton beanie
-	TaskOptional=false
-]
-[
-	TaskType=findItem
-	TaskText=Find Raven figurine in raid
+	TaskText=Hand over the found in raid item: Raven figurine
 	TaskOptional=false
 ]
 [
 	TaskType=giveItem
-	TaskText=Hand over the Raven figurine
-	TaskOptional=false
-]
-[
-	TaskType=findItem
-	TaskText=Find Pestily plague mask in raid
+	TaskText=Hand over the found in raid item: Pestily plague mask
 	TaskOptional=false
 ]
 [
 	TaskType=giveItem
-	TaskText=Hand over the Pestily plague mask
-	TaskOptional=false
-]
-[
-	TaskType=findItem
-	TaskText=Find Shroud half-mask in raid
+	TaskText=Hand over the found in raid item: Shroud half-mask
 	TaskOptional=false
 ]
 [
 	TaskType=giveItem
-	TaskText=Hand over the Shroud half-mask
-	TaskOptional=false
-]
-[
-	TaskType=findItem
-	TaskText=Find Can of Dr. Lupo's coffee beans in raid
+	TaskText=Hand over the found in raid item: Can of Dr. Lupo's coffee beans
 	TaskOptional=false
 ]
 [
 	TaskType=giveItem
-	TaskText=Hand over the Can of Dr. Lupo's coffee beans
-	TaskOptional=false
-]
-[
-	TaskType=findItem
-	TaskText=Find 42 Signature Blend English Tea in raid
+	TaskText=Hand over the found in raid item: 42 Signature Blend English Tea
 	TaskOptional=false
 ]
 [
 	TaskType=giveItem
-	TaskText=Hand over the 42 Signature Blend English Tea
-	TaskOptional=false
-]
-[
-	TaskType=findItem
-	TaskText=Find Veritas guitar pick in raid
+	TaskText=Hand over the found in raid item: Veritas guitar pick
 	TaskOptional=false
 ]
 [
 	TaskType=giveItem
-	TaskText=Hand over the Veritas guitar pick
-	TaskOptional=false
-]
-[
-	TaskType=findItem
-	TaskText=Find Evasion armband in raid
+	TaskText=Hand over the found in raid item: Evasion armband
 	TaskOptional=false
 ]
 [
 	TaskType=giveItem
-	TaskText=Hand over the Evasion armband
-	TaskOptional=false
-]
-[
-	TaskType=findItem
-	TaskText=Find Can of RatCola soda in raid
+	TaskText=Hand over the found in raid item: Can of RatCola soda
 	TaskOptional=false
 ]
 [
 	TaskType=giveItem
-	TaskText=Hand over the Can of RatCola soda
-	TaskOptional=false
-]
-[
-	TaskType=findItem
-	TaskText=Find Loot Lord plushie in raid
+	TaskText=Hand over the found in raid item: Loot Lord plushie
 	TaskOptional=false
 ]
 [
 	TaskType=giveItem
-	TaskText=Hand over the Loot Lord plushie
+	TaskText=Hand over the found in raid item: Smoke balaclava
 	TaskOptional=false
 ]
 [
 	TaskType=giveItem
-	TaskText=Hand over the Smoke balaclava
-	TaskOptional=false
-]
-[
-	TaskType=findItem
-	TaskText=Find Smoke balaclava in raid
-	TaskOptional=false
-]
-[
-	TaskType=findItem
-	TaskText=Find WZ Wallet in raid
+	TaskText=Hand over the found in raid item: WZ Wallet
 	TaskOptional=false
 ]
 [
 	TaskType=giveItem
-	TaskText=Hand over the WZ Wallet
-	TaskOptional=false
-]
-[
-	TaskType=findItem
-	TaskText=Find LVNDMARK's rat poison in raid
-	TaskOptional=false
-]
-[
-	TaskType=giveItem
-	TaskText=Hand over the LVNDMARK's rat poison
+	TaskText=Hand over the found in raid item: LVNDMARK's rat poison
 	TaskOptional=false
 ]
 [
@@ -456,6 +325,26 @@ DogTagLv=0
 [
 	TaskType=giveItem
 	TaskText=Hand over the found in raid item: BEAR Buddy plush toy
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid item: Glorious E lightweight armored mask
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid item: Inseq gas pipe wrench
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid item: Viibiin sneaker
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid item: Tamatthi kunai knife replica
 	TaskOptional=false
 ]
 

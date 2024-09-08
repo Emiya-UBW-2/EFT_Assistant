@@ -1,0 +1,17 @@
+Name=Kalashnikov AK-12 5.45x39 assault rifle 6L26
+Base=Kalashnikov AK-12 5.45x39 assault rifle
+Parts=AK-12 gas tube
+Parts=AK-12 pistol grip
+Parts=AK-12 handguard
+Parts=KAC vertical foregrip
+Parts=RPK-16 handguard rail
+Parts=MAWL-C1+ tactical device
+Parts=AK-12 dust cover
+Parts=EOTech XPS3-0 holographic sight
+Parts=AK-12 rear sight base
+Parts=AK-12 rear sight
+Parts=AK-12 buffer tube
+Parts=AR-15 KRISS Defiance DS150 stock (Black)
+Parts=AK CSS knurled charging handle
+Parts=AK-74 5.45x39 6L26 45-round magazine
+Parts=AK-12 5.45x39 sound suppressor

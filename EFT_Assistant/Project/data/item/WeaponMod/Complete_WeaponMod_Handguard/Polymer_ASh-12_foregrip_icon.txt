@@ -41,7 +41,11 @@ ChildParts=[
 	RTM Pillau tactical foregrip (Sand)/|
 	RTM Pillau P-2 tactical foregrip (Red)/|
 	Strike Industries Cobra Tactical foregrip (FDE)/|
-	Stark SE-5 Express Forward foregrip (FDE)
+	Stark SE-5 Express Forward foregrip (FDE)/|
+	TangoDown BGV-QDITI foregrip (Black)/|
+	TangoDown BGV-QDITI foregrip (FDE)/|
+	TangoDown Stubby BGV-QDK foregrip (Black)/|
+	TangoDown Stubby BGV-QDK foregrip (FDE)
 ]
 Recoil=0.000000
 Ergonomics=5.000000

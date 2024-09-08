@@ -1,5 +1,5 @@
 IDstr=599860e986f7743bb57573a6
-Name=PP-19-01 "Vityaz" rear sight
+Name=PP-19-01 Vityaz rear sight
 ShortName=PP-19-01
 Information_Eng=A standard rear sight for PP-19-01 Vityaz SMG produced by Izhmash.
 Itemtype=ironsight

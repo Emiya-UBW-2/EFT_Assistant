@@ -1,0 +1,38 @@
+IDstr=66b38c7bf85b8bf7250f9cb6
+Name=Rough Tarkov
+Trader=Jaeger
+
+NeedTask=Acquaintance
+NeedLevel=2
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+factionName=Any
+Task_Map=Woods
+Task_Else=TaskType:visit
+Task_Else=Locate the heavily mined area on Woods
+Task_Map=Ground Zero
+Task_Map=Ground Zero 21+
+Task_Else=TaskType:visit
+Task_Else=Locate the Claymore mine on Ground Zero
+
+[
+	TaskType=visit
+	TaskText=Locate the heavily mined area on Woods
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate the Claymore mine on Ground Zero
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+1
+Reward_Item=[
+	Roublesx60000/|
+	Tripwire installation kitx2
+]
+
+Reward_EXP=4440

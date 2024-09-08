@@ -1,0 +1,37 @@
+IDstr=66b38e144f2ab7cc530c3fe7
+Name=Every Hunter Knows This
+Trader=Jaeger
+
+NeedTask=Rough Tarkov
+NeedLevel=2
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+factionName=Any
+Task_Map=Factory
+Task_Map=Night Factory
+Task_Else=TaskType:visit
+Task_Else=Locate a good tripwire installation spot on Factory
+Task_Map=Customs
+Task_Else=TaskType:visit
+Task_Else=Locate a good tripwire installation spot on Customs
+
+[
+	TaskType=visit
+	TaskText=Locate a good tripwire installation spot on Factory
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate a good tripwire installation spot on Customs
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+1
+Reward_Item=[
+	Roublesx32000
+]
+
+Reward_EXP=5800

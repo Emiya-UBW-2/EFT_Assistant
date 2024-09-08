@@ -14,21 +14,21 @@ Task_Map=Shoreline
 factionName=Any
 Task_Map=Shoreline
 Task_Else=TaskType:visit
-Task_Else=Locate the generators in the east wing of the Health Resort
+Task_Else=Locate the generators in the east wing of the Health Resort on Shoreline
 Task_Map=Shoreline
 Task_Else=TaskType:visit
-Task_Else=Locate the generators in the west wing of the Health Resort
+Task_Else=Locate the generators in the west wing of the Health Resort on Shoreline
 Task_Map=Shoreline
 Task_Else=脱出ステータス:[Survived,Run Through]
 
 [
 	TaskType=visit
-	TaskText=Locate the generators in the east wing of the Health Resort
+	TaskText=Locate the generators in the east wing of the Health Resort on Shoreline
 	TaskOptional=false
 ]
 [
 	TaskType=visit
-	TaskText=Locate the generators in the west wing of the Health Resort
+	TaskText=Locate the generators in the west wing of the Health Resort on Shoreline
 	TaskOptional=false
 ]
 [

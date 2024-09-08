@@ -633,7 +633,7 @@ namespace FPS_n2 {
 								}
 							}
 							if (IsCommentPoint != -1) {
-								auto line_buf = line;
+								std::string line_buf = line;
 								bool isInsCommentPoint = true;
 								if (!startCommentPoint) {
 									//次から終わりまでをW.secondに加える
@@ -690,7 +690,7 @@ namespace FPS_n2 {
 								hService = InternetOpenUrl(hSession, Url.c_str(), NULL, 0, 0, 0);
 								if (hService) {
 									while (true) {
-										char lpBuffer[1024 + 1]; //一度に読み込むバイト数
+										char lpBuffer[1024 + 1]{}; //一度に読み込むバイト数
 										DWORD dwBytesRead;     //読み込んだbyte数
 										InternetReadFile(hService, lpBuffer, 1024, &dwBytesRead);
 										if (dwBytesRead == 0) break; //読み込んだbyte数が0になったらループを抜ける

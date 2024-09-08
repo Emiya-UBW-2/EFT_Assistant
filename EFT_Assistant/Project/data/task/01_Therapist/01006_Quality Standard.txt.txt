@@ -1,0 +1,38 @@
+IDstr=666314b696a9349baa021bac
+Name=Quality Standard
+Trader=Therapist
+
+NeedTask=The Good Times - Part 1
+NeedLevel=27
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=The Lab
+factionName=Any
+Task_Map=The Lab
+Task_Else=拾って納品:The Lab-LEDX Skin Transilluminator (US Version)x1
+
+[
+	TaskType=findQuestItem
+	TaskText=Locate and obtain the special version of the LEDX Skin Transilluminator in The Lab
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the found item
+	TaskOptional=false
+]
+
+Reward_Item=[
+	TerraGroup Labs access keycardx1
+]
+Reward_Rep=Therapist+2
+Reward_Item=[
+	Roublesx164000/|
+	Propital regenerative stimulant injectorx5/|
+	eTG-change regenerative stimulant injectorx5
+]
+
+Reward_EXP=42000

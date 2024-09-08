@@ -1,0 +1,15 @@
+IDstr=66152060a031cbb5570e3466
+Name=M60E6 pistol grip
+ShortName=E6 PG
+Information_Eng=A standard-issue lightweight pistol grip for the M60E6 light machine gun. Manufactured by U.S Ordnance.
+Itemtype=pistol-grip
+width=1
+height=1
+weight=0.042000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=0.000000
+Ergonomics=5.000000
+accuracyModifier=0.000000
+Name_Jpn=M60E6 pistol grip
+Information_Jpn=A standard-issue lightweight pistol grip for the M60E6 light machine gun. Manufactured by U.S Ordnance.

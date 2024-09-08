@@ -1,0 +1,15 @@
+IDstr=6615202b96461aa8360271eb
+Name=M60E6 buttstock
+ShortName=E6 BS
+Information_Eng=A lightweight buttstock for the M60E6 light machine gun with articulated shoulder rest and improved buffer mounting mechanism. Manufactured by U.S. Ordnance.
+Itemtype=stock
+width=1
+height=1
+weight=0.239000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=0.000000
+Ergonomics=6.000000
+accuracyModifier=0.000000
+Name_Jpn=M60E6 buttstock
+Information_Jpn=A lightweight buttstock for the M60E6 light machine gun with articulated shoulder rest and improved buffer mounting mechanism. Manufactured by U.S. Ordnance.

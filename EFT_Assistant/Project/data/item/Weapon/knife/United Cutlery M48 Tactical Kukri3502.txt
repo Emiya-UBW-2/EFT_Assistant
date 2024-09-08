@@ -1,0 +1,15 @@
+IDstr=65ca457b4aafb5d7fc0dcb5d
+Name=United Cutlery M48 Tactical Kukri
+ShortName=M48 Kukri
+Information_Eng=A 48 series tactical kukri manufactured by United Cutlery. Features a stainless steel blade and rubberized handle. A great addition to every survivalist's arsenal!
+Itemtype=knife
+width=2
+height=1
+weight=0.450000
+fleaMarketFee=0
+propertiestype=ItemPropertiesMelee
+slashDamage=27
+stabDamage=32
+hitRadius=0.400000
+Name_Jpn=United Cutlery M48 Tactical Kukri
+Information_Jpn=A 48 series tactical kukri manufactured by United Cutlery. Features a stainless steel blade and rubberized handle. A great addition to every survivalist's arsenal!

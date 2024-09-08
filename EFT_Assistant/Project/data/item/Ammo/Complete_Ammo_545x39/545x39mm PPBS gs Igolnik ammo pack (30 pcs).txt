@@ -1,5 +1,5 @@
 IDstr=5c1262a286f7743f8a69aab2
-Name=5.45x39mm PPBS gs "Igolnik" ammo pack (30 pcs)
+Name=5.45x39mm PPBS gs Igolnik ammo pack (30 pcs)
 ShortName=PPBS
 Information_Eng=A paper package of 5.45x39 PPBS gs "Igolnik" cartridges, 30 pieces.
 Itemtype=ammo-container

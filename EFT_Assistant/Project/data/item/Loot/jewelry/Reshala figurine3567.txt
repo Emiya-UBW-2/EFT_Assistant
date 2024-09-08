@@ -1,0 +1,12 @@
+IDstr=66572be36a723f7f005a066e
+Name=Reshala figurine
+ShortName=Reshala
+Information_Eng=A limited edition Tarko figurine. A lover of expensive watches and golden handguns. Knows how to roundhouse kick. All bark and no bite.
+Itemtype=jewelry
+width=1
+height=2
+weight=0.200000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=Reshala figurine
+Information_Jpn=A limited edition Tarko figurine. A lover of expensive watches and golden handguns. Knows how to roundhouse kick. All bark and no bite.

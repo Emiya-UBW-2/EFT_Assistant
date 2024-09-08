@@ -13,7 +13,7 @@ Task_Map=Lighthouse
 factionName=BEAR
 Task_Map=Lighthouse
 Task_Kill=[
-	Lighthouse-Scavsx20
+	Lighthouse-USEC operativesx20
 ]
 Task_Else=距離: >= 0m
 Task_NotFiR_HandOver=[Dogtag USECx20]

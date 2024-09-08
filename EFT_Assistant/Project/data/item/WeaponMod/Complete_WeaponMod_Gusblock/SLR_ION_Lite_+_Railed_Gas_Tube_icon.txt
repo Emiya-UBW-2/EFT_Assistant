@@ -26,9 +26,9 @@ ChildParts=[
 	Walther MRS reflex sight/|
 	BelOMO PK-06 reflex sight/|
 	Holosun LS321 Tactical device/|
-	AN/PEQ-15 tactical device/|
-	AN/PEQ-2 tactical device/|
-	LA-5B/PEQ tactical device/|
+	L3Harris AN/PEQ-15 tactical device/|
+	Insight AN/PEQ-2 tactical device/|
+	L3Harris LA-5B/PEQ tactical device/|
 	Wilcox RAPTAR ES Tactical Rangefinder/|
 	Zenit Perst-3 tactical device/|
 	Aimpoint Micro Standard Mount/|
@@ -51,7 +51,8 @@ ChildParts=[
 	Magpul M-LOK 2.5 inch rail
 ]
 ChildParts=[
-	Magpul M-LOK 2.5 inch rail
+	Magpul M-LOK 2.5 inch rail/|
+	Magpul M-LOK 0.93 inch rail
 ]
 ChildParts=[
 	Magpul M-LOK AFG tactical foregrip (Black)/|
@@ -60,7 +61,9 @@ ChildParts=[
 	Magpul M-LOK AFG tactical foregrip (Stealth Grey)/|
 	Magpul M-LOK 4.1 inch rail/|
 	Daniel Defense Enhanced M-LOK Vertical Foregrip (Black)/|
-	Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown)
+	Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown)/|
+	BCM GUNFIGHTER MOD 3 M-LOK foregrip (FDE)/|
+	BCM GUNFIGHTER MOD 3 M-LOK foregrip (Black)
 ]
 Recoil=-5.000000
 Ergonomics=9.000000

@@ -31,7 +31,8 @@ ChildParts=[
 	SIG Sauer Taper-LOK 7.62x51/.300 BLK muzzle adapter/|
 	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
 	Lantac BMD Blast Mitigation Device A3 direct thread adapter/|
-	AAC 762-SDN-6 multi-caliber sound suppressor
+	AAC 762-SDN-6 multi-caliber sound suppressor/|
+	AR-10 Delta-Tek DTK-AR10 7.62x51 muzzle brake
 ]
 Recoil=-1.000000
 Ergonomics=-1.000000

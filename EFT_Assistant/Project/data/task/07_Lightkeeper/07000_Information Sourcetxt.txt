@@ -3,7 +3,7 @@ Name=Information Source
 Trader=Lightkeeper
 
 NeedTask=Knock-Knock
-NeedLevel=35
+NeedLevel=33
 
 CanRestart=false
 NeedKappa=false
@@ -22,6 +22,9 @@ Task_Else=脱出地点:Power Station V-Ex
 Task_Map=Streets of Tarkov
 Task_Else=脱出ステータス:[Survived]
 Task_Else=脱出地点:Primorsky Ave Taxi V-Ex
+Task_Map=Ground Zero
+Task_Else=脱出ステータス:[Survived]
+Task_Else=脱出地点:Police Cordon V-Ex
 Task_Map=Streets of Tarkov
 NeedItem=MS2000 Markerx1
 Task_Map=Streets of Tarkov
@@ -45,6 +48,11 @@ NeedItem=MS2000 Markerx1
 [
 	TaskType=extract
 	TaskText=Survive and extract from Streets of Tarkov through Primorsky Ave Taxi V-Ex
+	TaskOptional=false
+]
+[
+	TaskType=extract
+	TaskText=Survive and extract from Ground Zero through Police Cordon V-Ex
 	TaskOptional=false
 ]
 [

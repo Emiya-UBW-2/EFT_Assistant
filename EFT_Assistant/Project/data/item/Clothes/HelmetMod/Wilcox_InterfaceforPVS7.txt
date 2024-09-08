@@ -1,5 +1,5 @@
 IDstr=5c11046cd174af02a012e42b
-Name=Wilcox Interface for PVS-7
+Name=PVS-7 Wilcox Adapter
 ShortName=W-PVS7
 Information_Eng=The Wilcox NVG Interface Shoe for the AN/PVS-7B/7D is designed to replace the plastic shoes provided with a variety of Night Vision Devices.
 Itemtype=mount

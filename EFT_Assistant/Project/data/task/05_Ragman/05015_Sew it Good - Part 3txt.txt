@@ -7,41 +7,29 @@ NeedLevel=25
 
 CanRestart=false
 NeedKappa=true
-NeedLightkeeper=true
+NeedLightkeeper=false
 
 factionName=Any
-NeedItem=6B43 Zabralo-Sh body armor (Digital Flora)x1
-Task_NotFiR_HandOver=[6B43 Zabralo-Sh body armor (Digital Flora)x1]
+Task_FiR_HandOver=[6B13 assault armor (Digital Flora)x1]
 DogTagLv=0
-NeedItem=6B43 Zabralo-Sh body armor (Digital Flora)x1
-Task_NotFiR_HandOver=[6B43 Zabralo-Sh body armor (Digital Flora)x1]
+Task_FiR_HandOver=[6B13 assault armor (Digital Flora)x1]
 DogTagLv=0
 
 [
-	TaskType=findItem
-	TaskText=Obtain 6B43 6A Zabralo-Sh body armor in 0-50% durability
+	TaskType=giveItem
+	TaskText=Hand over the found in raid 6B13 assault armor in 0-50% durability
 	TaskOptional=false
 ]
 [
 	TaskType=giveItem
-	TaskText=Hand over the armor
-	TaskOptional=false
-]
-[
-	TaskType=findItem
-	TaskText=Obtain 6B43 6A Zabralo-Sh body armor in 50-100% durability
-	TaskOptional=false
-]
-[
-	TaskType=giveItem
-	TaskText=Hand over the armor
+	TaskText=Hand over the found in raid 6B13 assault armor in 50-100% durability
 	TaskOptional=false
 ]
 
 Reward_Rep=Ragman+3
 Reward_Item=[
 	Roublesx65000/|
-	FORT Redut-T5 body armor (Smog)x1
+	FORT Redut-T5 body armor (Smog) Defaultx1
 ]
 
 Reward_EXP=18200

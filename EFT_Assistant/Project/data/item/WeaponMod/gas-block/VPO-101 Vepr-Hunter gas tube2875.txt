@@ -1,2 +1,0 @@
-Name_Jpn=VPO-101 "Vepr-Hunter" gas tube
-Information_Jpn=A standard gas tube for VPO-101 Vepr Hunter carbines. Gas tubes channel the travel direction of gas piston.

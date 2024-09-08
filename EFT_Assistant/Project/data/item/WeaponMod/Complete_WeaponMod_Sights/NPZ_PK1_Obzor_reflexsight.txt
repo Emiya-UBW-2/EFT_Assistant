@@ -1,6 +1,6 @@
 IDstr=618a5d5852ecee1505530b2a
-Name=NPZ PK1 "Obzor" dovetail reflex sight
-ShortName="Obzor"
+Name=NPZ PK1 Obzor dovetail reflex sight
+ShortName=Obzor
 Information_Eng=A reflex sight designed for hunters for fast acquisition of the target while operating in highly cold temperatures, installed on dovetail rails. Manufactured by NPZ.
 Itemtype=reflex-sight
 width=1

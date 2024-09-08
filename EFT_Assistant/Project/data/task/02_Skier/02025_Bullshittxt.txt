@@ -6,8 +6,8 @@ NeedTask=Chumming
 NeedLevel=25
 
 CanRestart=true
-NeedKappa=true
-NeedLightkeeper=true
+NeedKappa=false
+NeedLightkeeper=false
 
 Task_Map=Customs
 factionName=Any
@@ -29,17 +29,17 @@ Task_Else=拾って納品:Customs-Flash drive with fake infox1
 ]
 [
 	TaskType=plantItem
-	TaskText=Stash SV-98 sniper rifle in the trash opposite of stairs on the 3rd floor of the dorm
+	TaskText=Stash SV-98 sniper rifle in the trash opposite of stairs on the 3rd floor of the dorm on Customs
 	TaskOptional=false
 ]
 [
 	TaskType=plantItem
-	TaskText=Stash Roler Submariner gold wrist watch in the trash opposite of stairs on the 3rd floor of the dorm
+	TaskText=Stash Roler Submariner gold wrist watch in the trash opposite of stairs on the 3rd floor of the dorm on Customs
 	TaskOptional=false
 ]
 [
 	TaskType=plantQuestItem
-	TaskText=Stash the False flash drive in the trash opposite of stairs on the 3rd floor of the dorm
+	TaskText=Stash the False flash drive in the trash opposite of stairs on the 3rd floor of the dorm on Customs
 	TaskOptional=false
 ]
 
@@ -58,7 +58,7 @@ Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot
-	TaskText=You must not kill any Scavs on Customs until the quest is completed
+	TaskText=You must not kill any Scavs on Customs while the task is active
 	TaskOptional=false
 ]
 

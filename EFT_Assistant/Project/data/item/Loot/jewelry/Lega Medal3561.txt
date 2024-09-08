@@ -1,0 +1,12 @@
+IDstr=6656560053eaaa7a23349c86
+Name=Lega Medal
+ShortName=Lega
+Information_Eng=A medal with the Legendary Kill mark. An extremely rare reward for Arena gladiators, which can be earned by completing Ref's hardest challenges.
+Itemtype=jewelry
+width=1
+height=1
+weight=0.100000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=Lega Medal
+Information_Jpn=A medal with the Legendary Kill mark. An extremely rare reward for Arena gladiators, which can be earned by completing Ref's hardest challenges.

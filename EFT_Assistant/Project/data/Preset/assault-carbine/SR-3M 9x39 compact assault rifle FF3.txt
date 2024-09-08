@@ -1,0 +1,11 @@
+Name=SR-3M 9x39 compact assault rifle FF3
+Base=SR-3M 9x39 compact assault rifle
+Parts=AS VAL dust cover
+Parts=VSS/VAL 9x39 6L25 20-round magazine (Plum)
+Parts=AS VAL Rotor 43 pistol grip & buffer tube
+Parts=AK-12 stock
+Parts=SR-3M railed polymer handguard (Black)
+Parts=Kiba Arms 25mm accessory ring mount
+Parts=Armytek Predator Pro v3 XHP35 HI flashlight
+Parts=Burris FastFire Weaver Base
+Parts=Burris FastFire 3 reflex sight

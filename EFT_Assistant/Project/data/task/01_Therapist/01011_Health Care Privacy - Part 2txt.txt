@@ -19,7 +19,7 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 
 [
 	TaskType=findQuestItem
-	TaskText=Search the room in the Health Resort for any documents about TerraGroup's research
+	TaskText=Search the room in the Health Resort for any documents about TerraGroup's research on Shoreline
 	TaskOptional=false
 ]
 [

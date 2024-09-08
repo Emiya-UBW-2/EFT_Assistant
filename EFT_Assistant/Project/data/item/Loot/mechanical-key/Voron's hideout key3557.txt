@@ -1,0 +1,13 @@
+IDstr=664d3ddfdda2e85aca370d75
+Name=Voron's hideout key
+ShortName=Voron
+Information_Eng=A key that opens the room located somewhere near the Health Resort. Belonged to one of the Arena gladiators by the name "Voron".
+Itemtype=mechanical-key
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=ItemPropertiesKey
+uses=5
+Name_Jpn=Voron's hideout key
+Information_Jpn=A key that opens the room located somewhere near the Health Resort. Belonged to one of the Arena gladiators by the name "Voron".

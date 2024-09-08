@@ -1,0 +1,36 @@
+IDstr=669fa399033a3ce9870338a8
+Name=Possessor
+Trader=Prapor
+
+NeedTask=Postman Pat - Part 1
+NeedLevel=10
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Factory
+factionName=Any
+Task_Map=Factory
+Task_Map=Night Factory
+Task_Else=拾って納品:Factory-Pilot logbookx1
+Task_Else=拾って納品:Night Factory-Pilot logbookx1
+
+[
+	TaskType=findQuestItem
+	TaskText=Locate and obtain the helicopter logbook on Factory
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the found information
+	TaskOptional=false
+]
+
+Reward_Rep=Prapor+2
+Reward_Item=[
+	Roublesx47000/|
+	Metal fuel tankx1
+]
+
+Reward_EXP=7300

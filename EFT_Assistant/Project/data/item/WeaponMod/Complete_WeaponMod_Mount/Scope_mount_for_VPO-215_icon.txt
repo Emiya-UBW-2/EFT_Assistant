@@ -1,5 +1,5 @@
 IDstr=5de6558e9f98ac2bc65950fc
-Name=VPO-215 "Gornostay" scope rail mount
+Name=VPO-215 Gornostay scope rail mount
 ShortName=215 rail
 Information_Eng=A universal rail mount for the VPO-215 "Gornostay" rifle, allows installation of various optics.
 Itemtype=mount

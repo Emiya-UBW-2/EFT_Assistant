@@ -14,7 +14,7 @@ Conflict=[
 	AK Taktika Tula TT01 rear sight rail/|
 	BelOMO PSO-1M2-1 4x24 scope/|
 	BelOMO PSO-1M2 4x24 scope/|
-	NPZ USP-1 "Tyulpan" 4x scope/|
+	NPZ USP-1 Tyulpan 4x scope/|
 	NSPU-M 3.5x dovetail night vision scope/|
 	Axion Kobra dovetail mount/|
 	SVD CAA XD RGL receiver mount/|
@@ -35,7 +35,7 @@ Conflict=[
 	AK Zenit B-33 dust cover/|
 	AKS-74U dust cover (6P26 Sb.7)/|
 	AKS-74UB dust cover/|
-	PP-19-01 "Vityaz-SN" dust cover
+	PP-19-01 Vityaz-SN dust cover
 ]
 Recoil=0.000000
 Ergonomics=-4.000000

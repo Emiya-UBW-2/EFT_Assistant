@@ -11,6 +11,7 @@ NeedLightkeeper=true
 Task_Map=Ground Zero
 factionName=Any
 Task_Map=Ground Zero
+Task_Map=Ground Zero 21+
 Task_Else=脱出ステータス:[Run Through,Survived]
 Task_Else=脱出地点:Police Cordon V-Ex
 
@@ -27,14 +28,6 @@ Reward_Rep=Skier+1
 Reward_Item=[
 	Roublesx12000/|
 	OPSMEN Earmor M32 headsetx1
-]
-
-Task_Else=レベル:0
-
-[
-	TaskType=playerLevel
-	TaskText=
-	TaskOptional=false
 ]
 
 Reward_EXP=1900

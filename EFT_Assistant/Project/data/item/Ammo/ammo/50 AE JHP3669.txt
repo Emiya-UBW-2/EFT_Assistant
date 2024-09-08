@@ -1,0 +1,12 @@
+IDstr=66a0d1c87d0d369e270bb9de
+Name=.50 AE JHP
+ShortName=JHP
+Information_Eng=A .50 Action Express JHP cartridge (12.7x33mm) with a 300 grain jacketed hollow-point bullet, which provides an enormous stopping power. One of the most powerful unitary pistol cartridges in the world and has a significant lethality.
+Itemtype=ammo
+width=1
+height=1
+weight=0.029000
+fleaMarketFee=0
+propertiestype=ItemPropertiesAmmo
+Name_Jpn=.50 AE JHP
+Information_Jpn=A .50 Action Express JHP cartridge (12.7x33mm) with a 300 grain jacketed hollow-point bullet, which provides an enormous stopping power. One of the most powerful unitary pistol cartridges in the world and has a significant lethality.

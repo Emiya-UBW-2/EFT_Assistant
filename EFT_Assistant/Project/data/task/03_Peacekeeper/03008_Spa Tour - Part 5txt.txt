@@ -16,7 +16,7 @@ Task_Else=拾って納品:Shoreline-Key to the closed premises of the Health Res
 
 [
 	TaskType=findQuestItem
-	TaskText=Obtain the key to the closed premises of the Sanatorium
+	TaskText=Obtain the key to the closed premises of the Sanatorium on Shoreline
 	TaskOptional=false
 ]
 [

@@ -8,7 +8,7 @@ NeedLevel=27
 
 CanRestart=false
 NeedKappa=true
-NeedLightkeeper=true
+NeedLightkeeper=false
 
 factionName=Any
 NeedItem=Bronze lion figurinex2
@@ -29,12 +29,12 @@ DogTagLv=0
 
 [
 	TaskType=findItem
-	TaskText=Find Bronze lions in raid
+	TaskText=Find Bronze lion figurines in raid
 	TaskOptional=false
 ]
 [
 	TaskType=giveItem
-	TaskText=Hand over the Bronze lions
+	TaskText=Hand over the figurines
 	TaskOptional=false
 ]
 [
@@ -44,22 +44,22 @@ DogTagLv=0
 ]
 [
 	TaskType=giveItem
-	TaskText=Hand over the Horse figurines
+	TaskText=Hand over the figurines
 	TaskOptional=false
 ]
 [
 	TaskType=findItem
-	TaskText=Find Cat figurine in raid
+	TaskText=Find a Cat figurine in raid
 	TaskOptional=false
 ]
 [
 	TaskType=giveItem
-	TaskText=Hand over the Cat figurine
+	TaskText=Hand over the figurine
 	TaskOptional=false
 ]
 [
 	TaskType=findItem
-	TaskText=Find Roler Submariner gold wrist watch in raid
+	TaskText=Find a Roler Submariner gold wrist watch in raid
 	TaskOptional=false
 ]
 [
@@ -74,7 +74,7 @@ DogTagLv=0
 ]
 [
 	TaskType=giveItem
-	TaskText=Hand over the Golden egg
+	TaskText=Hand over the figurine
 	TaskOptional=false
 ]
 

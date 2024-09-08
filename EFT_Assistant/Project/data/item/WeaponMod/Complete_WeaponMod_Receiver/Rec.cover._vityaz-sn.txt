@@ -1,5 +1,5 @@
 IDstr=59985a6c86f77414ec448d17
-Name=PP-19-01 "Vityaz-SN" dust cover
+Name=PP-19-01 Vityaz-SN dust cover
 ShortName=Vityaz-SN
 Information_Eng=A standard-issue receiver dust cover for PP-19-01 Vityaz-SN (mod. 20) with a top rail for installation of various scopes, manufactured by Izhmash.
 Itemtype=receiver
@@ -70,7 +70,7 @@ Conflict=[
 	NSPU-M 3.5x dovetail night vision scope/|
 	Axion Kobra dovetail mount/|
 	VOMZ Pilad 043-02 dovetail mount/|
-	NPZ PK1 "Obzor" dovetail reflex sight/|
+	NPZ PK1 Obzor dovetail reflex sight/|
 	Axion Kobra EKP-1S-03 reflex sight (Dovetail)
 ]
 Recoil=0.000000

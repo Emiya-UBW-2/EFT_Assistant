@@ -572,6 +572,7 @@ namespace FPS_n2 {
 		virtual void InitDatabyJson() noexcept {}
 		void GetDataJson(nlohmann::json& data) {
 			for (const auto& d : data) {
+				if (d.is_null()) { continue; }
 				m_JsonData.emplace_back(std::make_unique<JsonDataParentT>());
 				m_JsonData.back()->GetJson(d);
 			}
@@ -602,6 +603,7 @@ namespace FPS_n2 {
 					std::string ChildPath = ParentPath + "/";
 
 					std::string Name = jd->m_CanUseFileName + ".txt";
+					ReplaceStrs(&Name, ".txt.txt", ".txt");
 
 					jd->OutputData(ChildPath + Name);
 					//RemoveDirectory(Path.c_str());
@@ -609,16 +611,22 @@ namespace FPS_n2 {
 			}
 		}
 		void WaitToAllClear() noexcept {
-			while (true) {
+			for(int i=0;i<10000;i++) {
 				bool isHit = false;
 				for (auto& jd : this->m_JsonData) {
 					if (!jd->GetIsSetFinish()) {
 						isHit = true;
 						break;
 					}
+					else if (i == 10000 - 1) {
+						std::string ErrMes = "Error : Job Not End : ";
+						ErrMes += jd->m_Path;
+						DataErrorLog::Instance()->AddLog(ErrMes.c_str());
+					}
 				}
 				if (!isHit) { break; }
 			}
+			DataErrorLog::Instance()->Save();
 			for (auto& jd : this->m_JsonData) {
 				jd->ResetDataJob();
 			}

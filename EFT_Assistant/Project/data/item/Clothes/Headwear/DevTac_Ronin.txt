@@ -1,0 +1,19 @@
+IDstr=5b4329f05acfc47a86086aa1
+Name=DevTac Ronin Respirator
+ShortName=Ronin Respirator
+Information_Eng=A Japan-styled tactical helmet, manufactured by DevTac. Not used by any military or special forces. Just somehow happened to be in Tarkov for some frivolous price. Features a full NIJ level IIIA protection of the whole head, though you really don't want to get shot in the face with this thing.
+Itemtype=headwear
+width=2
+height=2
+weight=2.400000
+fleaMarketFee=0
+propertiestype=ItemPropertiesHelmet
+Conflict=[
+	Ballistic Armor Co. Bastion helmet (Armor Black)/|
+	Ballistic Armor Co. Bastion helmet (MultiCam)/|
+	Ballistic Armor Co. Bastion helmet (OD Green)/|
+	Team Wendy EXFIL Ballistic Helmet (Black)/|
+	Team Wendy EXFIL Ballistic Helmet (Coyote Brown)
+]
+Name_Jpn=DevTac Ronin Respirator
+Information_Jpn=A Japan-styled tactical helmet, manufactured by DevTac. Not used by any military or special forces. Just somehow happened to be in Tarkov for some frivolous price. Features a full NIJ level IIIA protection of the whole head, though you really don't want to get shot in the face with this thing.

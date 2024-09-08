@@ -1,0 +1,34 @@
+IDstr=coltm4a1reapir0000000001
+Name=Colt M4A1 5.56x45 assault rifle REAP-IR
+ShortName=M4A1 REAP-IR
+Itemtype=assault-rifle
+width=4
+height=2
+weight=3.521000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Colt M4A1 5.56x45 assault riflex1/|
+	AR-15 Naroh Arms GRAL-S pistol gripx1/|
+	AR-15 Vltor MUR-1S 5.56x45 upper receiverx1/|
+	AR-15 5.56x45 260mm barrelx1/|
+	AR-15 Daniel Defense MK12 Low Profile Gas Blockx1/|
+	AR-15 WDR NERO 556 5.56x45 muzzle brakex1/|
+	AR-15 Daniel Defense RIS II 9.5 handguard (Black)x1/|
+	AR-15 Daniel Defense RIS II 9.5 lower handguard (Black)x1/|
+	Fortis Shift tactical foregripx1/|
+	MAWL-C1+ tactical devicex1/|
+	KAC Folding front sightx1/|
+	KAC Folding rear sightx1/|
+	UNV DLOC-IRD sight mountx1/|
+	Trijicon REAP-IR thermal scopex1/|
+	Trijicon REAP-IR scope eyecupx1/|
+	AR-15 Strike Industries Advanced Receiver Extension buffer tubex1/|
+	AR-15 Daniel Defense Enhanced Collapsible Buttstock (Black)x1/|
+	Daniel Defense TCS 20mm Buttpad x1/|
+	AR-15 Geissele ACH charging handle (DDC)x1/|
+	5.56x45 SureFire MAG5-60 STANAG 60-round magazinex1
+]
+Name_Jpn=M4A1 5.56x45 アサルトライフル REAP-IR
+Information_Jpn=

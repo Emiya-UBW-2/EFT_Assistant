@@ -64,7 +64,7 @@ Reward_Item=[
 	Roublesx150000/|
 	L1 (Norepinephrine) injectorx3/|
 	Meldonin injectorx3/|
-	"Obdolbos 2" cocktail injectorx5/|
+	Obdolbos 2 cocktail injectorx5/|
 	Grizzly medical kitx4/|
 	TerraGroup Labs keycard (Black)x1/|
 	Medicine casex1

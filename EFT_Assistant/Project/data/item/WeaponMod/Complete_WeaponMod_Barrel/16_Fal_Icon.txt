@@ -33,7 +33,8 @@ ChildParts=[
 	AR-10 SureFire ProComp 7.62x51 muzzle brake/|
 	AR-10 Dead Air Keymount 7.62x51 muzzle brake/|
 	AR-10 CMMG SV Brake 7.62x51 muzzle brake/|
-	AAC SCAR-SD 51T 7.62x51 flash hider
+	AAC SCAR-SD 51T 7.62x51 flash hider/|
+	AR-10 Delta-Tek DTK-AR10 7.62x51 muzzle brake
 ]
 Conflict=[
 	SA-58/FAL AIM Sports Universal KeyMod handguard/|

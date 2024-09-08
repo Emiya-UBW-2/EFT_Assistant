@@ -1,0 +1,12 @@
+IDstr=6658876e146af22739040fad
+Name=Unlocked equipment crate (Common)
+ShortName=Equipment (Common)
+Information_Eng=A trophy for participating in Arena battles. It contains various equipment to help you survive and kill in the harsh world of Tarkov. The lock has been crudely broken, which means there are no more obstacles between you and the contents of the box.
+Itemtype=random-loot-container
+width=4
+height=4
+weight=10.000000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=Unlocked equipment crate (Common)
+Information_Jpn=A trophy for participating in Arena battles. It contains various equipment to help you survive and kill in the harsh world of Tarkov. The lock has been crudely broken, which means there are no more obstacles between you and the contents of the box.

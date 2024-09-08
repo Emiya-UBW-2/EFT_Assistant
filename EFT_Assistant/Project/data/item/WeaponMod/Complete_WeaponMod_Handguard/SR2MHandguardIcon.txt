@@ -1,7 +1,7 @@
 IDstr=62e15547db1a5c41971c1b5e
-Name=SR-2M polymer handguard
+Name=SR-2M polymer handguard (Plum)
 ShortName=SR-2M
-Information_Eng=A standard-issue SR-2M "Veresk" polymer handguard for burn protection. Manufactured by TsNIItochmash.
+Information_Eng=A standard-issue SR-2M "Veresk" polymer handguard for burn protection. Manufactured by TsNIItochmash. Made out of plum-colored polymer, earning the nickname "Sliva" (Plum).
 Itemtype=handguard
 width=2
 height=1

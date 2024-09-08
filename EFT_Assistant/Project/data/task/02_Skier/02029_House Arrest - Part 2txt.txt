@@ -4,6 +4,7 @@ Trader=Skier
 
 NeedTask=House Arrest - Part 1
 NeedLevel=33
+NeedItem=[Chekannaya 15 apartment keyx1]
 
 CanRestart=false
 NeedKappa=false

@@ -7,7 +7,7 @@ NeedLevel=20
 
 CanRestart=false
 NeedKappa=true
-NeedLightkeeper=true
+NeedLightkeeper=false
 
 factionName=Any
 NeedItem=Kalashnikov AK-74N 5.45x39 assault riflex1
@@ -19,27 +19,8 @@ DogTagLv=0
 NeedItem=Makarov PM 9x18PM pistolx2
 Task_FiR_HandOver=[Makarov PM 9x18PM pistolx2]
 DogTagLv=0
-Task_Map=Interchange
-Task_Map=Lighthouse
-Task_Map=Reserve
-Task_Map=Ground Zero
-Task_Map=Shoreline
-Task_Map=Streets of Tarkov
-Task_Map=Woods
-Task_Map=Customs
-Task_Map=Factory
-Task_Map=Night Factory
 Task_Kill=[
-	Interchange-Scavsx10/|
-	Lighthouse-Scavsx10/|
-	Reserve-Scavsx10/|
-	Ground Zero-Scavsx10/|
-	Shoreline-Scavsx10/|
-	Streets of Tarkov-Scavsx10/|
-	Woods-Scavsx10/|
-	Customs-Scavsx10/|
-	Factory-Scavsx10/|
-	Night Factory-Scavsx10
+	any PMC operativesx10
 ]
 Task_Else=装備が必要:{
 Task_Else=  PACA Soft Armor

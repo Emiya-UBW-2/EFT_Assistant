@@ -29,7 +29,7 @@ Reward_Item=[
 	Roublesx50000/|
 	F-1 hand grenadex3/|
 	RGD-5 hand grenadex3/|
-	"Zarya" stun grenadex1
+	Zarya stun grenadex1
 ]
 
 Reward_EXP=5900

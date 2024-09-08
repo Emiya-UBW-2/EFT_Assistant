@@ -1,0 +1,33 @@
+IDstr=70726573657400000000002f
+Name=SIG MCX SPEAR 6.8x51 assault rifle HHS-1 Tan
+ShortName=SPEAR 6.8 HHS-1 Tan
+Itemtype=assault-rifle
+width=6
+height=2
+weight=4.467000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	SIG MCX SPEAR 6.8x51 assault riflex1/|
+	AR-15 SIG M400 Reduced Angle Pistol Grip (Coyote Tan)x1/|
+	MCX SPEAR 6.8x51 upper receiverx1/|
+	MCX SPEAR 6.8x51 330mm barrelx1/|
+	MCX SPEAR Adjustable Gas Pistonx1/|
+	MCX SPEAR Clutch-Lok QD 6.8x51 Shouldered Flash Hiderx1/|
+	MCX SPEAR SLX68-MG-QD 6.8x51 sound suppressorx1/|
+	MCX SPEAR 11 inch M-LOK handguardx1/|
+	Magpul M-LOK AFG tactical foregrip (FDE)x1/|
+	KAC Folding Micro front sightx1/|
+	Magpul M-LOK Offset Light Mountx1/|
+	Insight WMX200 tactical flashlightx1/|
+	EOTech HHS-1 hybrid sight (Tan)x1/|
+	KAC Folding Micro rear sightx1/|
+	MCX SPEAR charging handlex1/|
+	AR-10 7.62x51 Lancer L7AWM 20-round magazinex1/|
+	MPX/MCX Stock Locking Hinge Assemblyx1/|
+	MPX/MCX Stock Adapter Low Profile Tube (Coyote Tan)x1/|
+	AR-15 Magpul MOE SL-K buttstock (Coyote Tan)x1
+]
+Name_Jpn=SIG MCX SPEAR 6.8x51 assault rifle HHS-1 Tan
+Information_Jpn=

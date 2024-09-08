@@ -35,7 +35,8 @@ ChildParts=[
 	M700 thread protection cap/|
 	SIG Sauer SRD762Ti 7.62x51 sound suppressor/|
 	AAC SCAR-SD 51T 7.62x51 flash hider/|
-	AR-10 Dead Air Keymount 7.62x51 muzzle brake
+	AR-10 Dead Air Keymount 7.62x51 muzzle brake/|
+	AR-10 Delta-Tek DTK-AR10 7.62x51 muzzle brake
 ]
 Recoil=-4.000000
 Ergonomics=-10.000000

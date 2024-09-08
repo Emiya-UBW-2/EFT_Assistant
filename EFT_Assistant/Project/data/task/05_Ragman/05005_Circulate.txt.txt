@@ -1,0 +1,28 @@
+IDstr=6663149f1d3ec95634095e75
+Name=Circulate
+Trader=Ragman
+
+NeedTask=The Invisible Hand
+NeedLevel=35
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_NotFiR_HandOver=[6Sh118 raid backpack (Digital Flora)x250]
+DogTagLv=0
+
+[
+	TaskType=sellItem
+	TaskText=Sell Ragman any backpacks or tactical rigs
+	TaskOptional=false
+]
+
+Reward_Rep=Ragman+1
+Reward_Item=[
+	Roublesx264000/|
+	Bottle of Fierce Hatchling moonshinex2
+]
+
+Reward_EXP=32000

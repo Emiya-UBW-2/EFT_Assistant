@@ -19,7 +19,7 @@ Task_Else=拾って納品:Shoreline-Marked Ophthalmoscopex1
 
 [
 	TaskType=findQuestItem
-	TaskText=Obtain Sanitar's surgery kit marked with a blue symbol
+	TaskText=Locate and obtain Sanitar's surgery kit marked with a blue symbol on Shoreline
 	TaskOptional=false
 ]
 [
@@ -29,7 +29,7 @@ Task_Else=拾って納品:Shoreline-Marked Ophthalmoscopex1
 ]
 [
 	TaskType=findQuestItem
-	TaskText=Obtain Sanitar's ophthalmoscope
+	TaskText=Locate and obtain Sanitar's ophthalmoscope on Shoreline
 	TaskOptional=false
 ]
 [

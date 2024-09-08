@@ -1,0 +1,12 @@
+IDstr=665732f4464c4b4ba4670fa9
+Name=Unlocked supply crate (Rare)
+ShortName=Supplies (Rare)
+Information_Eng=A trophy for participating in Arena battles. Outside the border, the contents of this box can hardly be considered valuable. However, Tarkov has its own notions of value. The lock has been crudely broken, which means there are no more obstacles between you and the contents of the box.
+Itemtype=random-loot-container
+width=4
+height=4
+weight=10.000000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=Unlocked supply crate (Rare)
+Information_Jpn=A trophy for participating in Arena battles. Outside the border, the contents of this box can hardly be considered valuable. However, Tarkov has its own notions of value. The lock has been crudely broken, which means there are no more obstacles between you and the contents of the box.

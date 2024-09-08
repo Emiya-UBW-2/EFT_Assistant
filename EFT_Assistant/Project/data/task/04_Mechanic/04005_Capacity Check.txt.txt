@@ -1,0 +1,52 @@
+IDstr=669fa3a1c26f13bd04030f37
+Name=Capacity Check
+Trader=Mechanic
+
+NeedTask=Forklift Certified
+NeedTask=Farming - Part 1
+NeedLevel=12
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Factory
+factionName=Any
+Task_Map=Factory
+Task_Map=Night Factory
+Task_NotFiR_HandOver=[Toolsetx1]
+DogTagLv=0
+Task_Map=Factory
+Task_Map=Night Factory
+Task_NotFiR_HandOver=[Toolsetx1]
+DogTagLv=0
+Task_Map=Factory
+Task_Map=Night Factory
+Task_NotFiR_HandOver=[Toolsetx1]
+DogTagLv=0
+
+[
+	TaskType=plantItem
+	TaskText=Fix the first reactor mixer with a Toolset on Factory
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Fix the second reactor mixer with a Toolset on Factory
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Fix the third reactor mixer with a Toolset on Factory
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+2
+Reward_Item=[
+	Roublesx58000/|
+	FN SCAR-L 5.56x45 assault rifle (FDE) Defaultx1/|
+	FN SCAR-L 5.56x45 30-round magazine (FDE)x3/|
+	5.56x45mm M855 ammo pack (50 pcs)x3
+]
+
+Reward_EXP=16500

@@ -16,7 +16,14 @@ Conflict=[
 	EMERCOM cap/|
 	Police cap/|
 	Gus baseball cap/|
-	Basmach leather cap
+	Basmach leather cap/|
+	BOSS cap/|
+	Beret (Black)/|
+	Beret (Olive Drab)/|
+	Beret (Blue)/|
+	Army cap (Black)/|
+	USEC baseball cap (Black)/|
+	BEAR baseball cap (Black)
 ]
 Name_Jpn=Shemagh (Green)
 Information_Jpn=世界中のPMCに人気のかぶり物。

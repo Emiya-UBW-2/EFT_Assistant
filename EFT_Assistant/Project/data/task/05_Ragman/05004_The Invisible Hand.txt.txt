@@ -1,0 +1,30 @@
+IDstr=6663149cfd5ca9577902e037
+Name=The Invisible Hand
+Trader=Ragman
+
+NeedTask=Only Business
+NeedLevel=35
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_Kill=[
+	any targetx15
+]
+Task_Else=距離: >= 0m
+
+[
+	TaskType=shoot
+	TaskText=Eliminate any target that is using a 20+ container size backpack
+	TaskOptional=false
+]
+
+Reward_Rep=Ragman+2
+Reward_Item=[
+	Roublesx86000/|
+	Gold skull ringx1
+]
+
+Reward_EXP=12800

@@ -13,29 +13,29 @@ Task_Map=Shoreline
 factionName=Any
 Task_Map=Shoreline
 Task_Else=TaskType:visit
-Task_Else=Locate the group that was sent to the Health Resort
+Task_Else=Locate the group that was sent to the Health Resort on Shoreline
 Task_Map=Shoreline
 Task_Else=TaskType:visit
-Task_Else=Locate the group that was sent to the pier
+Task_Else=Locate the group that was sent to the pier on Shoreline
 Task_Map=Shoreline
 Task_Else=TaskType:visit
-Task_Else=Locate the group that was sent to the cottages
+Task_Else=Locate the group that was sent to the cottages on Shoreline
 Task_Map=Shoreline
 Task_Else=脱出ステータス:[Survived,Run Through]
 
 [
 	TaskType=visit
-	TaskText=Locate the group that was sent to the Health Resort
+	TaskText=Locate the group that was sent to the Health Resort on Shoreline
 	TaskOptional=false
 ]
 [
 	TaskType=visit
-	TaskText=Locate the group that was sent to the pier
+	TaskText=Locate the group that was sent to the pier on Shoreline
 	TaskOptional=false
 ]
 [
 	TaskType=visit
-	TaskText=Locate the group that was sent to the cottages
+	TaskText=Locate the group that was sent to the cottages on Shoreline
 	TaskOptional=false
 ]
 [

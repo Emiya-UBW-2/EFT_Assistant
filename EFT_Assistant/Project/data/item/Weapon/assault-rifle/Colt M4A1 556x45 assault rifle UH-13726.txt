@@ -1,0 +1,33 @@
+IDstr=707265736574000000000034
+Name=Colt M4A1 5.56x45 assault rifle UH-1
+ShortName=M4A1 UH-1
+Itemtype=assault-rifle
+width=6
+height=2
+weight=3.757000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Colt M4A1 5.56x45 assault riflex1/|
+	AR-15 Hera Arms HG-15 pistol gripx1/|
+	AR-15 Vltor MUR-1S 5.56x45 upper receiverx1/|
+	AR-15 Hanson Carbine 5.56x45 16 inch barrelx1/|
+	AR-15 Ballistic Advantage Lo-Pro Gas Blockx1/|
+	AR-15 Griffin Armament Gate-LOK Hammer 5.56x45 flash hiderx1/|
+	AR-15 Griffin Armament M4SD-K 5.56x45 sound suppressorx1/|
+	AR-15 Geissele SMR MK16 13.5 inch M-LOK handguard (DDC)x1/|
+	Magpul M-LOK 2.5 inch railx1/|
+	Kiba Arms 25mm accessory ring mountx1/|
+	Ultrafire WF-501B flashlightx1/|
+	Magpul MBUS Gen2 flip-up front sightx1/|
+	LaRue LT101 QD Tactical Picatinny Riser mountx1/|
+	Vortex Razor AMG UH-1 holographic sightx1/|
+	Magpul MBUS Gen2 flip-up rear sightx1/|
+	AR-15 Strike Industries Advanced Receiver Extension buffer tubex1/|
+	AR-15 Magpul CTR Carbine stock (Black)x1/|
+	AR-15 Geissele ACH charging handle (DDC)x1/|
+	5.56x45 TROY BattleMag STANAG 30-round magazinex1
+]
+Name_Jpn=M4A1 5.56x45 アサルトライフル UH-1
+Information_Jpn=

@@ -13,7 +13,7 @@ ChildParts=[
 	OP-SKS wooden stock/|
 	SKS TAPCO Intrafuse chassis/|
 	SKS TOZ wooden stock (56-A-231 Sb.5)/|
-	SKS ATI Monte Carlo chassis
+	SKS ATI Monte Carlo stock
 ]
 ChildParts=[
 	OP-SKS 7.62x39 520mm barrel/|

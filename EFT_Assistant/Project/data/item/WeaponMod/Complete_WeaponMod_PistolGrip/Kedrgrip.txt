@@ -1,5 +1,5 @@
 IDstr=57d152ec245977144076ccdf
-Name=PP-91 "Kedr" polymer pistol grip
+Name=PP-91 Kedr polymer pistol grip
 ShortName=PP91
 Information_Eng=A ZMZ-produced polymer pistol grip for PP-91 Kedr family weapons.
 Itemtype=pistol-grip

@@ -14,30 +14,49 @@ Task_Map=Factory
 Task_Kill=[
 	Factory-any PMC operativesx4
 ]
+Task_Else=距離: >= 0m
 Task_Map=Customs
 Task_Kill=[
 	Customs-any PMC operativesx4
 ]
+Task_Else=距離: >= 0m
 Task_Map=Shoreline
 Task_Kill=[
 	Shoreline-any PMC operativesx4
 ]
+Task_Else=距離: >= 0m
 Task_Map=Reserve
 Task_Kill=[
 	Reserve-any PMC operativesx4
 ]
+Task_Else=距離: >= 0m
 Task_Map=Woods
 Task_Kill=[
 	Woods-any PMC operativesx4
 ]
+Task_Else=距離: >= 0m
 Task_Map=Interchange
 Task_Kill=[
 	Interchange-any PMC operativesx4
 ]
+Task_Else=距離: >= 0m
 Task_Map=The Lab
 Task_Kill=[
 	The Lab-any PMC operativesx4
 ]
+Task_Else=距離: >= 0m
+Task_Map=Ground Zero
+Task_Map=Ground Zero 21+
+Task_Kill=[
+	Ground Zero-any PMC operativesx4/|
+	Ground Zero 21+-any PMC operativesx4
+]
+Task_Else=距離: >= 0m
+Task_Map=Ground Zero 21+
+Task_Kill=[
+	Ground Zero 21+-any PMC operativesx4
+]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot
@@ -74,13 +93,25 @@ Task_Kill=[
 	TaskText=Eliminate PMC operatives in The Lab
 	TaskOptional=false
 ]
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives on Ground Zero
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives in Ground Zero
+	TaskOptional=false
+]
 
 Reward_Item=[
-	6B43 Zabralo-Sh body armor (Digital Flora)x1
+	6B43 Zabralo-Sh body armor (Digital Flora) Defaultx1/|
+	Rys-T bulletproof helmet (Black)x1/|
+	Rys-T face shieldx1
 ]
-Reward_SkillLevelUp=Melee+2
-Reward_SkillLevelUp=Pistols+1
-Reward_SkillLevelUp=Strength+1
+Reward_SkillLevelUp=Melee+5
+Reward_SkillLevelUp=Pistols+5
+Reward_SkillLevelUp=Strength+5
 
 Task_Else=脱出ステータス:[Killed in Action (KIA),Left the Action,Missing in Action (MIA)]
 

@@ -1,0 +1,23 @@
+IDstr=707265736574000000000037
+Name=Desert Tech MDR 5.56x45 assault rifle ONE
+ShortName=MDR ONE
+Itemtype=assault-rifle
+width=5
+height=2
+weight=4.821000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Desert Tech MDR 5.56x45 assault riflex1/|
+	MDR pistol grip (Black)x1/|
+	MDR handguard (FDE)x1/|
+	MDR 5.56x45 16 inch barrelx1/|
+	Gemtech ONE Direct Thread Mount adapterx1/|
+	Gemtech ONE multi-caliber sound suppressorx1/|
+	5.56x45 Magpul PMAG 20 GEN M3 STANAG 20-round magazinex1/|
+	Aimpoint QRP2 mount for CompM4/PRO sightsx1/|
+	Aimpoint CompM4 reflex sightx1
+]
+Name_Jpn=MDR 5.56x45 アサルトライフル ONE
+Information_Jpn=

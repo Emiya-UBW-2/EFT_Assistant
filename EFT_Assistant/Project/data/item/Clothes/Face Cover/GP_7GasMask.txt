@@ -22,7 +22,7 @@ Conflict=[
 	FORT Kiver-M bulletproof helmet/|
 	Armasight NVG head strap/|
 	SSSh-94 SFERA-S helmet/|
-	DevTac Ronin ballistic helmet/|
+	DevTac Ronin Respirator/|
 	Bandana/|
 	BEAR baseball cap (Black)/|
 	Beret (Black)/|
@@ -55,7 +55,8 @@ Conflict=[
 	GSSh-01 active headset/|
 	Diamond Age NeoSteel High Cut helmet (Black)/|
 	Basmach leather cap/|
-	Gus baseball cap
+	Gus baseball cap/|
+	Vulkan-5 helmet face shield
 ]
 Name_Jpn=GP-7 gas mask
 Information_Jpn=GP-7民生用ガスマスクは呼吸器や目、顔といった器官を保護する個人防護具だ。

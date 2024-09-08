@@ -8,5 +8,47 @@ height=2
 weight=0.100000
 fleaMarketFee=0
 propertiestype=
+Conflict=[
+	Vulkan-5 LShZ-5 bulletproof helmet (Black)/|
+	NPP KlASS Tor-2 helmet (Olive Drab)/|
+	Team Wendy EXFIL Ballistic Helmet (Coyote Brown)/|
+	Team Wendy EXFIL Ballistic Helmet (Black)/|
+	MSA Gallet TC 800 High Cut combat helmet (Black)/|
+	SSh-68 steel helmet (Olive Drab)/|
+	ShPM Firefighter helmet/|
+	Rys-T bulletproof helmet (Black)/|
+	PSh-97 DJETA riot helmet/|
+	NFM HJELM helmet (Hellhound Grey)/|
+	Diamond Age NeoSteel High Cut helmet (Black)/|
+	Maska-1SCh bulletproof helmet (Killa Edition)/|
+	Maska-1SCh bulletproof helmet (Olive Drab)/|
+	BNTI LShZ-2DTM helmet (Black)/|
+	Tac-Kek FAST MT helmet (Replica)/|
+	Galvion Caiman Hybrid helmet (Grey)/|
+	Diamond Age Bastion helmet (Black)/|
+	Crye Precision AirFrame helmet (Tan)/|
+	HighCom Striker ULACH IIIA helmet (Desert Tan)/|
+	HighCom Striker ULACH IIIA helmet (Black)/|
+	LShZ lightweight helmet (Olive Drab)/|
+	HighCom Striker ACHHC IIIA helmet (Olive Drab)/|
+	HighCom Striker ACHHC IIIA helmet (Black)/|
+	DevTac Ronin Respirator/|
+	ZSh-1-2M helmet (Black cover)/|
+	ZSh-1-2M helmet (Olive Drab)/|
+	Wilcox Skull Lock head mount/|
+	UNTAR helmet/|
+	SSSh-94 SFERA-S helmet/|
+	6B47 Ratnik-BSh helmet (Olive Drab)/|
+	Ops-Core FAST MT Super High Cut helmet (Urban Tan)/|
+	Ops-Core FAST MT Super High Cut helmet (Black)/|
+	MSA ACH TC-2002 MICH Series helmet (Olive Drab)/|
+	MSA ACH TC-2001 MICH Series helmet (Olive Drab)/|
+	Kolpak-1S riot helmet/|
+	TSh-4M-L soft tank crew helmet/|
+	Armasight NVG head strap/|
+	Altyn bulletproof helmet (Olive Drab)/|
+	6B47 Ratnik-BSh helmet (Digital Flora cover)/|
+	FORT Kiver-M bulletproof helmet
+]
 Name_Jpn=付け白髭
 Information_Jpn=An artificial white beard. Christmas spirit? Maybe...

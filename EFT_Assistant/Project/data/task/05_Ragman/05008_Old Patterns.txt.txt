@@ -1,0 +1,24 @@
+IDstr=666314a50aa5c7436c00908a
+Name=Old Patterns
+Trader=Ragman
+
+NeedTask=Combat Proven
+NeedLevel=35
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_NotFiR_HandOver=[Physical Bitcoinx15]
+DogTagLv=0
+
+[
+	TaskType=giveItem
+	TaskText=Hand over Physical Bitcoin
+	TaskOptional=false
+]
+
+Reward_Rep=Ragman+1
+
+Reward_EXP=0

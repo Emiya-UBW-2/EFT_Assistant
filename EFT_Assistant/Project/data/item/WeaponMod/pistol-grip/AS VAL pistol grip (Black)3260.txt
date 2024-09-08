@@ -1,0 +1,15 @@
+IDstr=6565b91666492762f5029c0b
+Name=AS VAL pistol grip (Black)
+ShortName=VAL
+Information_Eng=A standard-issue polymer pistol grip for AS VAL, manufactured by TSNIITochMash.
+Itemtype=pistol-grip
+width=1
+height=1
+weight=0.146000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=0.000000
+Ergonomics=5.000000
+accuracyModifier=0.000000
+Name_Jpn=AS VAL pistol grip (Black)
+Information_Jpn=A standard-issue polymer pistol grip for AS VAL, manufactured by TSNIITochMash.

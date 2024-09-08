@@ -20,7 +20,7 @@ Task_Else=拾って納品:Interchange-Chemical container #3x1
 
 [
 	TaskType=findQuestItem
-	TaskText=Obtain the first Chemical container on Shoreline
+	TaskText=Obtain the first chemical container on Shoreline
 	TaskOptional=false
 ]
 [
@@ -30,7 +30,7 @@ Task_Else=拾って納品:Interchange-Chemical container #3x1
 ]
 [
 	TaskType=findQuestItem
-	TaskText=Obtain the second Chemical container on Interchange
+	TaskText=Obtain the second chemical container on Interchange
 	TaskOptional=false
 ]
 [
@@ -40,7 +40,7 @@ Task_Else=拾って納品:Interchange-Chemical container #3x1
 ]
 [
 	TaskType=findQuestItem
-	TaskText=Obtain the third Chemical container on Interchange
+	TaskText=Obtain the third chemical container on Interchange
 	TaskOptional=false
 ]
 [

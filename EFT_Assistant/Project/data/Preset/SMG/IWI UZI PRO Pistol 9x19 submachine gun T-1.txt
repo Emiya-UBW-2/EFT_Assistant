@@ -1,0 +1,10 @@
+Name=IWI UZI PRO Pistol 9x19 submachine gun T-1
+Base=IWI UZI PRO Pistol 9x19 submachine gun
+Parts=UZI PRO 9x19 25-round magazine
+Parts=UZI PRO 9x19 barrel retaining nut
+Parts=UZI PRO Stabilizing Brace
+Parts=UZI PRO dust cover
+Parts=Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights
+Parts=Aimpoint Micro T-1 reflex sight
+Parts=TangoDown Stubby BGV-MK46K foregrip (FDE)
+Parts=UZI PRO 9x19 210mm barrel

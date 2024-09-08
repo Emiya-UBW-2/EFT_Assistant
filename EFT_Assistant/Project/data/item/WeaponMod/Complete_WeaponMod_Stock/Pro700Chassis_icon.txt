@@ -18,13 +18,16 @@ ChildParts=[
 	M700 Magpul Pro 700 chassis inline mount
 ]
 ChildParts=[
-	Magpul M-LOK 2.5 inch rail
+	Magpul M-LOK 2.5 inch rail/|
+	Magpul M-LOK 0.93 inch rail
 ]
 ChildParts=[
-	Magpul M-LOK 2.5 inch rail
+	Magpul M-LOK 2.5 inch rail/|
+	Magpul M-LOK 0.93 inch rail
 ]
 ChildParts=[
-	Magpul M-LOK 2.5 inch rail
+	Magpul M-LOK 2.5 inch rail/|
+	Magpul M-LOK 0.93 inch rail
 ]
 ChildParts=[
 	Magpul M-LOK AFG tactical foregrip (Black)/|
@@ -33,7 +36,9 @@ ChildParts=[
 	Magpul M-LOK AFG tactical foregrip (Stealth Grey)/|
 	Magpul M-LOK 4.1 inch rail/|
 	Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown)/|
-	Daniel Defense Enhanced M-LOK Vertical Foregrip (Black)
+	Daniel Defense Enhanced M-LOK Vertical Foregrip (Black)/|
+	BCM GUNFIGHTER MOD 3 M-LOK foregrip (Black)/|
+	BCM GUNFIGHTER MOD 3 M-LOK foregrip (FDE)
 ]
 Conflict=[
 	M700 7.62x51 ProMag AA-70 10-round magazine/|

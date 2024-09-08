@@ -1,0 +1,28 @@
+IDstr=707265736574000000000033
+Name=DS Arms SA-58 7.62x51 assault rifle XPS3-0
+ShortName=SA-58 XPS3-0
+Itemtype=assault-rifle
+width=6
+height=2
+weight=5.101000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	DS Arms SA-58 7.62x51 assault riflex1/|
+	SA-58 FAB Defense AG-FAL pistol gripx1/|
+	SA-58/FAL Vltor CASV-FAL handguardx1/|
+	Vltor CASV 5 inch railx1/|
+	Magpul RVG foregrip (Black)x1/|
+	Vltor CASV 2 inch railx1/|
+	Kiba Arms 25mm accessory ring mountx1/|
+	Ultrafire WF-501B flashlightx1/|
+	SA-58 7.62x51 21 inch barrelx1/|
+	AR-10 Fortis RED Brake 7.62x51 muzzle brakex1/|
+	SA-58/FAL 7.62x51 X Products X-FAL 50-round drum magazinex1/|
+	SA-58 Extreme Duty dust coverx1/|
+	EOTech XPS3-0 holographic sightx1/|
+	SA-58/FAL Magpul PRS 2 polymer stockx1
+]
+Name_Jpn=SA-58 7.62x51 アサルトライフル XPS3-0
+Information_Jpn=

@@ -9,7 +9,7 @@ weight=0.350000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
-	TACCOM Carbine Brake multi-caliber muzzle brake/|
+	TACCOM Carbine Brake 9x19 muzzle brake/|
 	Yankee Hill Annihilator multi-caliber flash hider/|
 	MPX A2 9x19 flash hider/|
 	SilencerCo Hybrid 46 Direct Thread Mount adapter/|

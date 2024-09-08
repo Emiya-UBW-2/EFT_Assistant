@@ -1,5 +1,5 @@
 IDstr=5a16b93dfcdbcbcae6687261
-Name=AN/PVS-14 Dual Dovetail Mount
+Name=AN/PVS-14 Norotos Dual Dovetail Mount
 ShortName=DDT
 Information_Eng=The Dual Dovetail Interface Arm mount for the AN/PVS-14 night vision monocular device.
 Itemtype=mount
@@ -9,10 +9,10 @@ weight=0.070000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
-	AN/PVS-14 Night Vision Monocular
+	AN/PVS-14 night vision monocular
 ]
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000
-Name_Jpn=AN/PVS-14 Dual Dovetail Mount
+Name_Jpn=AN/PVS-14 Norotos Dual Dovetail Mount
 Information_Jpn=The Dual Dovetail Interface Arm mount for the AN/PVS-14 night vision monocular device.

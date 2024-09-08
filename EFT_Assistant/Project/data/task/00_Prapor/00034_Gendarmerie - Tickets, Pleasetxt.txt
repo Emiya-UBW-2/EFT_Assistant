@@ -25,18 +25,22 @@ NeedItem=[
 	HK MP7A1 4.6x30 submachine gunx0/|
 	HK MP7A2 4.6x30 submachine gunx0/|
 	HK UMP .45 ACP submachine gunx0/|
-	PP-19-01 "Vityaz" 9x19 submachine gunx0/|
+	PP-19-01 Vityaz 9x19 submachine gunx0/|
 	Saiga-9 9x19 carbinex0/|
 	SIG MPX 9x19 submachine gunx0/|
 	Soyuz-TM STM-9 Gen.2 9x19 carbinex0/|
 	TDI KRISS Vector Gen.2 .45 ACP submachine gunx0/|
 	TDI KRISS Vector Gen.2 9x19 submachine gunx0/|
-	SR-2M "Veresk" 9x21 submachine gunx0/|
+	SR-2M Veresk 9x21 submachine gunx0/|
 	PPSh-41 7.62x25 submachine gunx0/|
-	PP-91-01 "Kedr-B" 9x18PM submachine gunx0/|
-	PP-91 "Kedr" 9x18PM submachine gunx0/|
-	PP-9 "Klin" 9x18PMM submachine gunx0
+	PP-91-01 Kedr-B 9x18PM submachine gunx0/|
+	PP-91 Kedr 9x18PM submachine gunx0/|
+	PP-9 Klin 9x18PMM submachine gunx0/|
+	IWI UZI 9x19 submachine gunx0/|
+	IWI UZI PRO Pistol 9x19 submachine gunx0/|
+	IWI UZI PRO SMG 9x19 submachine gunx0
 ]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot

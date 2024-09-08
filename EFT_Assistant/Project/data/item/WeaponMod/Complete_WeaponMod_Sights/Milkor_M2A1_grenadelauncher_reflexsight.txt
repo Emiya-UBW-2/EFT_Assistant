@@ -13,16 +13,16 @@ ChildParts=[
 ]
 ChildParts=[
 	Holosun LS321 Tactical device/|
-	AN/PEQ-15 tactical device/|
-	LA-5B/PEQ tactical device/|
+	L3Harris AN/PEQ-15 tactical device/|
+	L3Harris LA-5B/PEQ tactical device/|
 	Wilcox RAPTAR ES Tactical Rangefinder/|
 	Zenit Perst-3 tactical device/|
 	NcSTAR Tactical blue laser LAM-module
 ]
 ChildParts=[
 	Holosun LS321 Tactical device/|
-	AN/PEQ-15 tactical device/|
-	LA-5B/PEQ tactical device/|
+	L3Harris AN/PEQ-15 tactical device/|
+	L3Harris LA-5B/PEQ tactical device/|
 	Wilcox RAPTAR ES Tactical Rangefinder/|
 	Zenit Perst-3 tactical device/|
 	NcSTAR Tactical blue laser LAM-module

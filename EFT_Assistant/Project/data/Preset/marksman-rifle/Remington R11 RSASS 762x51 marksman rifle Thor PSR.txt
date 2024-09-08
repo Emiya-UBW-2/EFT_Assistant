@@ -1,0 +1,16 @@
+Name=Remington R11 RSASS 7.62x51 marksman rifle Thor PSR
+Base=Remington R11 RSASS 7.62x51 marksman rifle
+Parts=AR-15 Magpul MIAD pistol grip (FDE)
+Parts=AR-15 Strike Industries Advanced Receiver Extension buffer tube
+Parts=AR-15 Magpul CTR Carbine stock (FDE)
+Parts=R11 RSASS handguard
+Parts=Magpul M-LOK AFG tactical foregrip (FDE)
+Parts=AR-10 7.62x51 18 inch barrel
+Parts=AR-10 JP Enterprises Gas System-6
+Parts=Magpul MBUS Gen2 flip-up front sight
+Parts=AWC PSR 7.62x51 muzzle brake
+Parts=AWC Thor PSR XL multi-caliber sound suppressor
+Parts=AR-10 7.62x51 Magpul PMAG 20 SR-LR GEN M3 20-round magazine
+Parts=Magpul MBUS Gen2 flip-up rear sight
+Parts=JP Enterprises Flat-Top 30mm ring scope mount
+Parts=Schmidt & Bender PM II 1-8x24 30mm riflescope

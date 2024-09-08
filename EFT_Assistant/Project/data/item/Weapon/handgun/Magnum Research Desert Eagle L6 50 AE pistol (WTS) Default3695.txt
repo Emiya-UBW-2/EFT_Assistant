@@ -1,0 +1,21 @@
+IDstr=66b09380ed57696ce626c08b
+Name=Magnum Research Desert Eagle L6 .50 AE pistol (WTS) Default
+ShortName=Desert Eagle L6 Default
+Itemtype=handgun
+width=2
+height=1
+weight=1.755000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Magnum Research Desert Eagle L6 .50 AE pistol (WTS)x1/|
+	Desert Eagle L6 .50 AE 152mm barrel (WTS)x1/|
+	Desert Eagle front sightx1/|
+	Desert Eagle Hogue Rubber Grip with finger groovesx1/|
+	Desert Eagle L6 pistol slide (WTS)x1/|
+	Desert Eagle rear sightx1/|
+	Desert Eagle .50 AE 7-round magazinex1
+]
+Name_Jpn=Magnum Research Desert Eagle L6 .50 AE pistol (WTS) デフォルト
+Information_Jpn=

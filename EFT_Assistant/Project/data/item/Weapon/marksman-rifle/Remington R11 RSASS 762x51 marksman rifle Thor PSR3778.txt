@@ -1,0 +1,29 @@
+IDstr=rsassthorpsr000000000001
+Name=Remington R11 RSASS 7.62x51 marksman rifle Thor PSR
+ShortName=RSASS Thor PSR
+Itemtype=marksman-rifle
+width=6
+height=3
+weight=6.212000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Remington R11 RSASS 7.62x51 marksman riflex1/|
+	AR-15 Magpul MIAD pistol grip (FDE)x1/|
+	AR-15 Strike Industries Advanced Receiver Extension buffer tubex1/|
+	AR-15 Magpul CTR Carbine stock (FDE)x1/|
+	R11 RSASS handguardx1/|
+	Magpul M-LOK AFG tactical foregrip (FDE)x1/|
+	AR-10 7.62x51 18 inch barrelx1/|
+	AR-10 JP Enterprises Gas System-6x1/|
+	Magpul MBUS Gen2 flip-up front sightx1/|
+	AWC PSR 7.62x51 muzzle brakex1/|
+	AWC Thor PSR XL multi-caliber sound suppressorx1/|
+	AR-10 7.62x51 Magpul PMAG 20 SR-LR GEN M3 20-round magazinex1/|
+	Magpul MBUS Gen2 flip-up rear sightx1/|
+	JP Enterprises Flat-Top 30mm ring scope mountx1/|
+	Schmidt & Bender PM II 1-8x24 30mm riflescopex1
+]
+Name_Jpn=Remington R11 RSASS 7.62x51 マークスマンライフル Thor PSR
+Information_Jpn=

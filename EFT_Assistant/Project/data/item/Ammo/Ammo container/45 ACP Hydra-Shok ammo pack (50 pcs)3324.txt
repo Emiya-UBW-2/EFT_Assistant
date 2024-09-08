@@ -1,6 +1,6 @@
 IDstr=65702406bfc87b3a34093216
 Name=.45 ACP Hydra-Shok ammo pack (50 pcs)
-ShortName=H-Shock
+ShortName=HydraShok
 Information_Eng=A box of .45 ACP Hydra-Shok cartridges, 50 pieces.
 Itemtype=ammo-container
 width=1

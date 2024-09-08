@@ -1,5 +1,5 @@
 IDstr=5de6556a205ddc616a6bc4f7
-Name=VPO-215 "Gornostay" thread protection cap
+Name=VPO-215 Gornostay thread protector
 ShortName=215 cap
 Information_Eng=A threading protection cap for the VPO-215 .366TKM rifle barrel.
 Itemtype=comb-muzzle-device

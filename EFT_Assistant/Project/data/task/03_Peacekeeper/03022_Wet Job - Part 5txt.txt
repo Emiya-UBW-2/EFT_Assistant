@@ -29,7 +29,7 @@ Task_Else=拾って納品:Shoreline-Working hard drivex1
 Reward_Rep=Peacekeeper+3
 Reward_Item=[
 	Dollarsx1700/|
-	HighCom Trooper TFO body armor (MultiCam)x1
+	HighCom Trooper TFO body armor (MultiCam) Defaultx1
 ]
 
 Reward_EXP=8400

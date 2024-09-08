@@ -8,5 +8,13 @@ height=1
 weight=0.100000
 fleaMarketFee=0
 propertiestype=
+Conflict=[
+	Maska-1SCh face shield (Killa Edition)/|
+	Maska-1SCh face shield (Olive Drab)/|
+	Tac-Kek Heavy Trooper mask for Ops-Core-type helmets/|
+	Galvion Caiman Hybrid Ballistic Mandible Guard/|
+	Ops-Core FAST Gunsight Mandible/|
+	Diamond Age NeoSteel helmet ballistic mandible
+]
 Name_Jpn=Big Pipe's smoking pipe
 Information_Jpn=A smoking pipe owned by one of the commanders of the Rogues - Big Pipe.

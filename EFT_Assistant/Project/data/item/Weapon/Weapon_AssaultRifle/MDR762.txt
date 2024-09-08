@@ -105,8 +105,8 @@ ChildParts=[
 	AR-15 Colt A2 rear sight/|
 	AR-15 rear sight carry handle
 ]
-Recoil=101.000000
-RecoilHorizontal=315.000000
+Recoil=133.000000
+RecoilHorizontal=348.000000
 Ergonomics=72.000000
 SightRange=-100
 FireRate=650

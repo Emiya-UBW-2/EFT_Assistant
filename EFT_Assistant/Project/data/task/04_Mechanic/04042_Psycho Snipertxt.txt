@@ -10,28 +10,9 @@ NeedKappa=true
 NeedLightkeeper=false
 
 factionName=Any
-Task_Else=Skillを上げる:Sniper Rifles+10.000000
-Task_Map=Interchange
-Task_Map=Lighthouse
-Task_Map=Reserve
-Task_Map=Ground Zero
-Task_Map=Shoreline
-Task_Map=Streets of Tarkov
-Task_Map=Woods
-Task_Map=Customs
-Task_Map=Factory
-Task_Map=Night Factory
+Task_Else=Skillを上げる:Bolt-action Rifles+10.000000
 Task_Kill=[
-	Interchange-Scavsx5/|
-	Lighthouse-Scavsx5/|
-	Reserve-Scavsx5/|
-	Ground Zero-Scavsx5/|
-	Shoreline-Scavsx5/|
-	Streets of Tarkov-Scavsx5/|
-	Woods-Scavsx5/|
-	Customs-Scavsx5/|
-	Factory-Scavsx5/|
-	Night Factory-Scavsx5
+	any PMC operativesx5
 ]
 NeedItem=[
 	Accuracy International AXMC .338 LM bolt-action sniper riflex0/|
@@ -39,7 +20,7 @@ NeedItem=[
 	Mosin 7.62x54R bolt-action rifle (Sniper)x0/|
 	SV-98 7.62x54R bolt-action sniper riflex0/|
 	Lobaev Arms DVL-10 7.62x51 bolt-action sniper riflex0/|
-	Molot Arms VPO-215 "Gornostay" .366 TKM bolt-action riflex0/|
+	Molot Arms VPO-215 Gornostay .366 TKM bolt-action riflex0/|
 	ORSIS T-5000M 7.62x51 bolt-action sniper riflex0/|
 	Remington Model 700 7.62x51 bolt-action sniper riflex0/|
 	MP-18 7.62x54R single-shot riflex0
@@ -48,7 +29,7 @@ Task_Else=距離: >= 0m
 
 [
 	TaskType=skill
-	TaskText=Reach the required Sniper Rifles skill level
+	TaskText=Reach the required Bolt-action Rifles skill level
 	TaskOptional=false
 ]
 [
@@ -61,7 +42,7 @@ Reward_Rep=Mechanic+3
 Reward_Item=[
 	Roublesx150000
 ]
-Reward_SkillLevelUp=Sniper Rifles+3
+Reward_SkillLevelUp=Bolt-action Rifles+3
 Reward_SkillLevelUp=Intellect+2
 Reward_SkillLevelUp=Stress Resistance+1
 Reward_SkillLevelUp=Perception+2

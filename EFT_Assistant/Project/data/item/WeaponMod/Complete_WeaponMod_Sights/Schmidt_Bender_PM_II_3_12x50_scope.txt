@@ -1,7 +1,7 @@
 IDstr=61714eec290d254f5e6b2ffc
-Name=Schmidt & Bender PM II 3-12x50 34mm riflescope
-ShortName=PM II 3-12x50
-Information_Eng=The Schmidt & Bender PM II 3-12x50 riflescope was originally created for elite military forces for high-quality target acquisition and pinpoint accuracy.
+Name=Schmidt & Bender PM II 3-20x50 34mm riflescope
+ShortName=PM II 3-20x50
+Information_Eng=The Schmidt & Bender PM II 3-20x50 riflescope was originally created for elite military forces for high-quality target acquisition and pinpoint accuracy.
 Itemtype=scope
 width=2
 height=1
@@ -23,14 +23,14 @@ Conflict=[
 	Trijicon SRS-02 reflex sight/|
 	Valday PK-120 (1P87) holographic sight/|
 	Valday Krechet reflex sight/|
-	Walther MRS reflex sight/|
+	VOMZ Pilad P1x42 Weaver reflex sight/|
 	Vortex Razor AMG UH-1 holographic sight/|
-	VOMZ Pilad P1x42 Weaver reflex sight
+	Walther MRS reflex sight
 ]
 Recoil=0.000000
 Ergonomics=-6.000000
 SightRange=1500
-sightZooms=12.000000
 sightZooms=3.000000
-Name_Jpn=Schmidt & Bender PM II 3-12x50 34mm riflescope
-Information_Jpn=The Schmidt & Bender PM II 3-12x50 riflescope was originally created for elite military forces for high-quality target acquisition and pinpoint accuracy.
+sightZooms=20.000000
+Name_Jpn=Schmidt & Bender PM II 3-20x50 34mm riflescope
+Information_Jpn=The Schmidt & Bender PM II 3-20x50 riflescope was originally created for elite military forces for high-quality target acquisition and pinpoint accuracy.

@@ -1,0 +1,15 @@
+IDstr=66012d9a3dff5074ed002e33
+Name=M60 bipod
+ShortName=M60 bipod
+Information_Eng=A standard-issue bipod for the M60 machine gun. Manufactured by U.S Ordnance.
+Itemtype=bipod
+width=2
+height=1
+weight=0.537000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=0.000000
+Ergonomics=-2.000000
+accuracyModifier=0.000000
+Name_Jpn=M60 bipod
+Information_Jpn=A standard-issue bipod for the M60 machine gun. Manufactured by U.S Ordnance.

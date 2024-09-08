@@ -1,0 +1,16 @@
+IDstr=6601265f98a610c1aa0ea637
+Name=M60 rear sight
+ShortName=M60 RS
+Information_Eng=A standard-issue foldable rear sight for the M60 machine gun. Manufactured by U.S Ordnance.
+Itemtype=ironsight
+width=1
+height=1
+weight=0.092000
+fleaMarketFee=0
+propertiestype=ItemPropertiesScope
+Recoil=0.000000
+Ergonomics=0.000000
+SightRange=1100
+sightZooms=1.000000
+Name_Jpn=M60 rear sight
+Information_Jpn=A standard-issue foldable rear sight for the M60 machine gun. Manufactured by U.S Ordnance.

@@ -13,8 +13,8 @@ factionName=Any
 NeedItem=6-STEN-140-M military batteryx1
 Task_FiR_HandOver=[6-STEN-140-M military batteryx1]
 DogTagLv=0
-NeedItem=OFZ 30x160mm shellx5
-Task_FiR_HandOver=[OFZ 30x160mm shellx5]
+NeedItem=OFZ 30x165mm shellx5
+Task_FiR_HandOver=[OFZ 30x165mm shellx5]
 DogTagLv=0
 
 [
@@ -29,7 +29,7 @@ DogTagLv=0
 ]
 [
 	TaskType=findItem
-	TaskText=Find OFZ 30x160mm shells in raid
+	TaskText=Find OFZ 30x165mm shells in raid
 	TaskOptional=false
 ]
 [

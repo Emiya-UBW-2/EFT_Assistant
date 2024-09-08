@@ -1,0 +1,16 @@
+IDstr=66867023c3d473265104f384
+Name=UZI PRO 9x19 210mm barrel
+ShortName=PRO 210mm
+Information_Eng=A 210mm barrel for the UZI PRO submachine gun. Manufactured by Israel Weapon Industries.
+Itemtype=barrel
+width=3
+height=1
+weight=0.241000
+fleaMarketFee=0
+propertiestype=ItemPropertiesBarrel
+Recoil=-4.000000
+Ergonomics=-2.500000
+centerOfImpact=0.146000
+deviationMax=10
+Name_Jpn=UZI PRO 9x19 210mm barrel
+Information_Jpn=A 210mm barrel for the UZI PRO submachine gun. Manufactured by Israel Weapon Industries.

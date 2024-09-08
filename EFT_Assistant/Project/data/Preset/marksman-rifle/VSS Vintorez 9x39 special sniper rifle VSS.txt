@@ -1,0 +1,7 @@
+Name=VSS Vintorez 9x39 special sniper rifle VSS
+Base=VSS Vintorez 9x39 special sniper rifle
+Parts=VSS/VAL 9x39 6L24 10-round magazine
+Parts=VSS 9x39 integral barrel-suppressor
+Parts=VSS rear sight
+Parts=VSS dust cover
+Parts=VSS wooden stock

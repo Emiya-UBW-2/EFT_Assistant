@@ -1,5 +1,5 @@
 IDstr=657024a4bfc87b3a3409322c
-Name=20/70 "Poleva-3" slug ammo pack (25 pcs)
+Name=20/70 Poleva-3 slug ammo pack (25 pcs)
 ShortName=Poleva-3
 Information_Eng=A box of 20/70 "Poleva-3" slug cartridges, 25 pieces.
 Itemtype=ammo-container

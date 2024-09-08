@@ -1,0 +1,48 @@
+IDstr=669fa3a40c828825de06d6a1
+Name=Test Drive - Part 5
+Trader=Prapor
+
+NeedTask=Test Drive - Part 4
+NeedLevel=40
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Factory
+factionName=Any
+Task_Map=Night Factory
+Task_Map=Factory
+Task_Kill=[
+	Night Factory-any targetx50/|
+	Factory-any targetx50
+]
+NeedItem=[
+	IWI UZI PRO Pistol 9x19 submachine gunx0/|
+	IWI UZI PRO SMG 9x19 submachine gunx0
+]
+NeedItem=[
+	UZI PRO 9x19 240mm barrelx0/|
+	UZI PRO SBR buttstockx0/|
+	Wilcox BOSS Xe reflex sightx0
+]
+Task_Else=距離: >= 0m
+
+[
+	TaskType=shoot
+	TaskText=Eliminate any target while using an UZI PRO with 240mm barrel, SBR stock, and BOSS Xe reflex sight on Factory
+	TaskOptional=false
+]
+
+Reward_Item=[
+	IWI UZI PRO Pistol 9x19 submachine gun BOSS Xex1
+]
+Reward_Rep=Prapor+2
+Reward_Item=[
+	Roublesx520000/|
+	AS VAL 9x39 special assault rifle Defaultx1/|
+	VSS/VAL 9x39 30-round magazinex3/|
+	9x39mm BP gs ammo pack (8 pcs)x15
+]
+
+Reward_EXP=50000

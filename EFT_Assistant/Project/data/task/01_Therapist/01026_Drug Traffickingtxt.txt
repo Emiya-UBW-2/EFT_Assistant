@@ -7,7 +7,7 @@ NeedLevel=26
 
 CanRestart=false
 NeedKappa=true
-NeedLightkeeper=true
+NeedLightkeeper=false
 
 Task_Map=Lighthouse
 factionName=Any

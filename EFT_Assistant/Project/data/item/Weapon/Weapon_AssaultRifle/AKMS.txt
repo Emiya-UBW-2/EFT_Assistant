@@ -19,14 +19,14 @@ ChildParts=[
 	AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo (White)
 ]
 ChildParts=[
-	GP-25 "Kostyor" 40mm underbarrel grenade launcher
+	GP-25 Kostyor 40mm underbarrel grenade launcher
 ]
 ChildParts=[
 	AKM 7.62x39 muzzle brake-compensator (6P1 0-14)/|
 	AKML system 7.62x39 flash hider/|
 	AKM thread type JMac Customs RRD-4C 7.62x39 muzzle brake/|
 	AK Lantac Drakon 7.62x39 muzzle brake/|
-	VPO-136 "Vepr-KM" 7.62x39 muzzle brake-compensator/|
+	VPO-136 Vepr-KM 7.62x39 muzzle brake-compensator/|
 	VPO-209 thread protector/|
 	AK Spikes Tactical Dynacomp 7.62x39 muzzle brake-compensator/|
 	AK SRVV 7.62x39 muzzle brake-compensator/|
@@ -58,7 +58,7 @@ ChildParts=[
 	AK TAPCO SAW-Style pistol grip (FDE)/|
 	AK US Palm pistol grip/|
 	AK Zenit RK-3 pistol grip/|
-	PP-19-01 "Vityaz" pistol grip/|
+	PP-19-01 Vityaz pistol grip/|
 	AK FAB Defense AGR-47 pistol grip/|
 	AK TangoDown Battle Grip pistol grip/|
 	AK TangoDown Battle Grip pistol grip (FDE)/|
@@ -111,8 +111,8 @@ ChildParts=[
 ChildParts=[
 	AKMP system front sight device
 ]
-Recoil=162.000000
-RecoilHorizontal=403.000000
+Recoil=149.000000
+RecoilHorizontal=378.000000
 Ergonomics=24.000000
 SightRange=-100
 FireRate=600

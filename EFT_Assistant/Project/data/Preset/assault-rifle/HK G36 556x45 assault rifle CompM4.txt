@@ -1,0 +1,15 @@
+Name=HK G36 5.56x45 assault rifle CompM4
+Base=HK G36 5.56x45 assault rifle
+Parts=HK G36 5.56x45 480mm barrel
+Parts=HK G36 gas block
+Parts=AR-15 AWC PSR 5.56x45 muzzle brake
+Parts=AWC PSR muzzle brake protector
+Parts=HK G36 6-vent handguard
+Parts=HK G36 bipod
+Parts=HK G36 magwell
+Parts=HK G36 KV adjustable stock
+Parts=HK G36 5.56x45 30-round magazine
+Parts=HK G36 sight mount
+Parts=HK G36 rear sight
+Parts=Aimpoint LRP mount for CompM4 sights
+Parts=Aimpoint CompM4 reflex sight

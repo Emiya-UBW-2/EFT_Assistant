@@ -1,5 +1,5 @@
 IDstr=5e8f3423fd7471236e6e3b64
-Name=Bottle of "Norvinskiy Yadreniy" premium kvass (0.6L)
+Name=Bottle of Norvinsky Yadreniy premium kvass (0.6L)
 ShortName=Kvass
 Information_Eng=Norvinsky Premium, a truly refreshing kvass. Kvass is made by the natural fermentation of bread, such as wheat, rye, or barley, and sometimes flavoured using fruit, berries, raisins, or birch sap. One of the traditional Slavic drinks, it is not just a tasty, but also a healthy product. It is for a reason that in Russian tales it is constantly drunk by Bogatyrs to regain their power.
 Itemtype=drink

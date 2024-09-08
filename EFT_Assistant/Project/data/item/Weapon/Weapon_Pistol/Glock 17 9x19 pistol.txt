@@ -27,8 +27,7 @@ ChildParts=[
 	Glock Lone Wolf AlphaWolf Custom pistol slide/|
 	Glock Polymer80 PS9 pistol slide/|
 	Glock ZEV Tech HEX Gen3 RMR pistol slide/|
-	Glock ZEV Tech HEX Spartan RMR pistol slide/|
-	Glock 19X pistol slide
+	Glock ZEV Tech HEX Spartan RMR pistol slide
 ]
 ChildParts=[
 	Glock 9x19 "Big Stick" 33-round magazine/|

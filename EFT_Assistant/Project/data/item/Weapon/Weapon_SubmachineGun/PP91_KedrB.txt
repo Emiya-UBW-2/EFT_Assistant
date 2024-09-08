@@ -1,6 +1,6 @@
 IDstr=57f3c6bd24597738e730fa2f
-Name=PP-91-01 "Kedr-B" 9x18PM submachine gun
-ShortName=PP-91-01 "Kedr-B"
+Name=PP-91-01 Kedr-B 9x18PM submachine gun
+ShortName=PP-91-01 Kedr-B
 Information_Eng=A rare silenced version of the PP-91 Kedr submachine gun, denominated as PP-91-01 Kedr-B.
 Itemtype=smg
 width=3
@@ -9,10 +9,10 @@ weight=1.330000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 ChildParts=[
-	PP-91 "Kedr" polymer pistol grip
+	PP-91 Kedr polymer pistol grip
 ]
 ChildParts=[
-	PP-91-01 "Kedr-B" threaded suppressor adapter
+	PP-91-01 Kedr-B threaded suppressor adapter
 ]
 ChildParts=[
 	PP-91 "Kedr" 9x18PM 20-round magazine/|

@@ -1,0 +1,31 @@
+IDstr=665eeacf5d86b6c8aa03c79b
+Name=Thirsty - Hounds
+Trader=Jaeger
+
+NeedTask=The Delicious Sausage
+NeedLevel=15
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Shoreline
+factionName=Any
+Task_Map=Shoreline
+Task_Kill=[
+	Shoreline-Scavsx12
+]
+Task_Else=距離: >= 0m
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs in the time period of 22:00-07:00 on Shoreline
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+1
+Reward_Item=[
+	12/70 RIP ammo pack (5 pcs)x3
+]
+
+Reward_EXP=8500

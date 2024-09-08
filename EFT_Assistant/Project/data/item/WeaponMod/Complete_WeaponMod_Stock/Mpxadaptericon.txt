@@ -1,7 +1,7 @@
 IDstr=58ac1bf086f77420ed183f9f
-Name=MPX/MCX retractable stock adapter
-ShortName=MPX/MCX
-Information_Eng=An adapter for attaching telescopic tube stocks to the rail mount, manufactured by SIG Sauer.
+Name=MPX/MCX Folding Knuckle Stock Adapter
+ShortName=SIG FKSA
+Information_Eng=An adapter for attaching buffer tubes to the rail mount, manufactured by SIG Sauer.
 Itemtype=stock
 width=1
 height=1

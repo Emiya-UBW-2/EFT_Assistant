@@ -1,0 +1,13 @@
+IDstr=664d3dd590294949fe2d81b7
+Name=Grumpy's hideout key
+ShortName=Grumpy
+Information_Eng=A key that unlocks the room located at the power station next to the ULTRA mall. Belonged to one of the Arena gladiators by the name "Grumpy".
+Itemtype=mechanical-key
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=ItemPropertiesKey
+uses=5
+Name_Jpn=Grumpy's hideout key
+Information_Jpn=A key that unlocks the room located at the power station next to the ULTRA mall. Belonged to one of the Arena gladiators by the name "Grumpy".

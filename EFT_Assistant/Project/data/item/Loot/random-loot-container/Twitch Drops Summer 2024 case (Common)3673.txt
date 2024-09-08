@@ -1,0 +1,11 @@
+IDstr=66a3896972c8e72507028806
+Name=Twitch Drops Summer 2024 case (Common)
+ShortName=Twitch
+Itemtype=random-loot-container
+width=2
+height=2
+weight=4.000000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=Twitch Drops Summer 2024 case (Common)
+Information_Jpn=

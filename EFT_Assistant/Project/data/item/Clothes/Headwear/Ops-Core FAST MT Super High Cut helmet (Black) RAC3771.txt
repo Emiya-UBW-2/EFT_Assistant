@@ -1,0 +1,17 @@
+IDstr=opscorefastmtfsrac000001
+Name=Ops-Core FAST MT Super High Cut helmet (Black) RAC
+ShortName=FAST MT RAC
+Itemtype=headwear
+width=2
+height=2
+weight=2.700000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Ops-Core FAST MT Super High Cut helmet (Black)x1/|
+	Ops-Core FAST multi-hit ballistic face shieldx1/|
+	Ops-Core FAST RAC Headsetx1
+]
+Name_Jpn=Ops-Core FAST MT Super High Cut helmet (Black) RAC
+Information_Jpn=

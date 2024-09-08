@@ -1,4 +1,4 @@
-Name=PP-9 "Klin" 9x18PMM submachine gun Default
-Base=PP-9 "Klin" 9x18PMM submachine gun
-Parts=PP-91 "Kedr" polymer pistol grip
+Name=PP-9 Klin 9x18PMM submachine gun Default
+Base=PP-9 Klin 9x18PMM submachine gun
+Parts=PP-91 Kedr polymer pistol grip
 Parts=PP-91 "Kedr" 9x18PM 30-round magazine

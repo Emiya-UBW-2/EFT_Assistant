@@ -28,7 +28,8 @@ ChildParts=[
 	ORSIS T-5000M 7.62x51 muzzle brake-compensator/|
 	Gemtech ONE Direct Thread Mount adapter/|
 	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
-	SIG Sauer Taper-LOK 7.62x51/.300 BLK muzzle adapter
+	SIG Sauer Taper-LOK 7.62x51/.300 BLK muzzle adapter/|
+	AR-10 Delta-Tek DTK-AR10 7.62x51 muzzle brake
 ]
 Recoil=-5.000000
 Ergonomics=-10.000000

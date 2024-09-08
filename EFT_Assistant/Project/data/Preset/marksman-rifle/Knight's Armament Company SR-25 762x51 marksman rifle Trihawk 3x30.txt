@@ -1,0 +1,16 @@
+Name=Knight's Armament Company SR-25 7.62x51 marksman rifle Trihawk 3x30
+Base=Knight's Armament Company SR-25 7.62x51 marksman rifle
+Parts=AR-15 Stark AR Rifle Grip (Black)
+Parts=AR-15 Colt Carbine buffer tube
+Parts=AR-15 B5 Systems Precision stock
+Parts=SR-25 7.62x51 upper receiver
+Parts=SR-25 7.62x51 20 inch barrel
+Parts=AR-10 KAC Low Profile Gas Block
+Parts=AR-10 Precision Armanent M11 Severe-Duty 7.62x51 muzzle brake
+Parts=AR-10 Noveske SWS N6 Split handguard
+Parts=Magpul RVG foregrip (Black)
+Parts=KAC Folding front sight
+Parts=KAC Folding rear sight
+Parts=SwampFox Trihawk Prism Scope 3x30
+Parts=AR-10 KAC ambidextrous charging handle
+Parts=AR-10 7.62x51 KAC 20-round steel magazine

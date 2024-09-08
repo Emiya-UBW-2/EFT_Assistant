@@ -1,0 +1,48 @@
+IDstr=666314b4d7f171c4c20226c3
+Name=The Good Times - Part 1
+Trader=Prapor
+
+NeedTask=Shooting Cans
+NeedLevel=27
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Factory
+factionName=Any
+Task_Map=Night Factory
+Task_Map=Factory
+Task_Kill=[
+	Night Factory-any PMC operativesx10/|
+	Factory-any PMC operativesx10
+]
+NeedItem=[
+	Colt M4A1 5.56x45 assault riflex0
+]
+Task_Else=装備が必要:{
+Task_Else=  6B43 Zabralo-Sh body armor (Digital Flora)
+Task_Else=  FORT Kiver-M bulletproof helmet
+Task_Else=}
+Task_Else=距離: >= 0m
+
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives while using Colt M4A1, 6B43 body armor, and Kiver-M helmet on Factory
+	TaskOptional=false
+]
+
+Reward_Item=[
+	Colt M4A1 5.56x45 assault rifle KAC RISx1/|
+	6B43 Zabralo-Sh body armor (Digital Flora) Defaultx1/|
+	FORT Kiver-M bulletproof helmetx1
+]
+Reward_Rep=Prapor+3
+Reward_Item=[
+	Roublesx256000/|
+	Springfield Armory M1A 7.62x51 rifle 2k18 NYx1/|
+	M1A 7.62x51 20-round magazinex2/|
+	7.62x51mm M62 Tracer ammo pack (20 pcs)x3
+]
+
+Reward_EXP=76000

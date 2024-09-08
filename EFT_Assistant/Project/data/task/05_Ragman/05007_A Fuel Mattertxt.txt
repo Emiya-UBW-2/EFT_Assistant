@@ -7,7 +7,7 @@ NeedLevel=17
 
 CanRestart=false
 NeedKappa=true
-NeedLightkeeper=false
+NeedLightkeeper=true
 
 Task_Map=Reserve
 factionName=Any

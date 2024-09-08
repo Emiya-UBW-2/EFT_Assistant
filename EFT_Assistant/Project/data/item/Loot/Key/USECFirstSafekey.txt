@@ -1,5 +1,5 @@
 IDstr=61aa5b7db225ac1ead7957c1
-Name=USEC first safe key
+Name=USEC cottage first safe key
 ShortName=USEC 1
 Information_Eng=A key to the safe that belonged to one of the USEC operatives stationed in the roadside cottage area.
 Itemtype=mechanical-key

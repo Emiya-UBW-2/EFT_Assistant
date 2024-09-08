@@ -1,0 +1,12 @@
+IDstr=66a9f98f3bd5a41b162030f4
+Name=Partisan's bag
+ShortName=Partisan
+Information_Eng=An old used Gorka bag. It seems that Partisan replaced his old Afghan trophies with patches of PMC operatives who were foolish enough to cross him in some way when they came to Tarkov.
+Itemtype=backpack
+width=4
+height=3
+weight=0.700000
+fleaMarketFee=0
+propertiestype=ItemPropertiesBackpack
+Name_Jpn=Sanitar's bag
+Information_Jpn=メディカルバッグは新人から中堅の医療従事者、時には医師が使用するもので、医療道具や薬を持ち運ぶのによく使われる。

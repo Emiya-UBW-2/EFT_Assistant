@@ -1,5 +1,5 @@
 IDstr=5c0558060db834001b735271
-Name=GPNVG-18 Night Vision goggles
+Name=L3Harris GPNVG-18 night vision goggles
 ShortName=GPNVG-18
 Information_Eng=The GPNVG-18 (Ground Panoramic Night Vision Goggle) panoramic night vision goggles. The cardinal difference of this NVG from the others is the presence of four separate image intensifier tubes, two for each eye. Two Central IITs are directed forward, while two more are directed outward from the center. This innovative solution allowed to expand the field of view to 97 degrees.
 Itemtype=night-vision

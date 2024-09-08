@@ -3,7 +3,7 @@ Name=Make Amends
 Trader=Mechanic
 
 NeedTask=Make Amends - Equipment
-NeedLevel=35
+NeedLevel=33
 
 CanRestart=false
 NeedKappa=false

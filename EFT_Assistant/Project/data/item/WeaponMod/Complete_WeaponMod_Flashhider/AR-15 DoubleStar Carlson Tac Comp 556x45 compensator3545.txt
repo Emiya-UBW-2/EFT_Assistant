@@ -1,0 +1,15 @@
+IDstr=6621455e3aceea9e2b0b01e7
+Name=AR-15 DoubleStar Carlson Tac Comp 5.56x45 compensator
+ShortName=CC450 556
+Information_Eng=The Carlson Tac Comp compensator designed for AR-15 and compatible systems. Reduces recoil impulse and muzzle rise. Ideal for short barrel weapons. Manufactured by DoubleStar.
+Itemtype=flashhider
+width=1
+height=1
+weight=0.208000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=-6.500000
+Ergonomics=-1.000000
+accuracyModifier=0.000000
+Name_Jpn=AR-15 DoubleStar Carlson Tac Comp 5.56x45 compensator
+Information_Jpn=The Carlson Tac Comp compensator designed for AR-15 and compatible systems. Reduces recoil impulse and muzzle rise. Ideal for short barrel weapons. Manufactured by DoubleStar.

@@ -1,5 +1,5 @@
 IDstr=5c503d0a2e221602b542b7ef
-Name=VPO-101 "Vepr-Hunter" dust cover
+Name=VPO-101 Vepr-Hunter dust cover
 ShortName=VPO101
 Information_Eng=A standard-issue metal dust cover for VPO-101 Vepr-Hunter carbines, manufactured by Molot Arms.
 Itemtype=receiver

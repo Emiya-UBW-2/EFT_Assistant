@@ -1,5 +1,5 @@
 IDstr=657662c8234b9f6e050a42b2
-Name=NPP KlASS Bagariy armored rig (Digital Flora) Default
+Name=NPP KlASS Bagariy plate carrier (Digital Flora) Default
 ShortName=Bagariy Default
 Itemtype=chest-rig
 width=4
@@ -9,9 +9,9 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
-	NPP KlASS Bagariy armored rig (Digital Flora)x1/|
+	NPP KlASS Bagariy plate carrier (Digital Flora)x1/|
 	Korund-VM ballistic plates (Front)x1/|
 	Korund-VM ballistic plate (Back)x1
 ]
-Name_Jpn=NPP KlASS Bagariy armored rig (Digital Flora) デフォルト
+Name_Jpn=NPP KlASS Bagariy plate carrier (Digital Flora) デフォルト
 Information_Jpn=

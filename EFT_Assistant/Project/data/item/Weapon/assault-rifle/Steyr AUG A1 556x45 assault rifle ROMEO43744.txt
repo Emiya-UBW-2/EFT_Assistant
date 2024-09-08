@@ -1,0 +1,24 @@
+IDstr=707265736574000000000046
+Name=Steyr AUG A1 5.56x45 assault rifle ROMEO4
+ShortName=AUG A1 ROMEO4
+Itemtype=assault-rifle
+width=5
+height=2
+weight=3.618000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Steyr AUG A1 5.56x45 assault riflex1/|
+	Steyr AUG A1 charging handlex1/|
+	Steyr AUG A3 5.56x45 receiverx1/|
+	Steyr AUG A1 5.56x45 20 inch barrelx1/|
+	Steyr AUG A1 5.56x45 closed flash hiderx1/|
+	Steyr AUG vertical foregripx1/|
+	Steyr AUG A3 M1 low sight mountx1/|
+	SIG Sauer ROMEO sight mountx1/|
+	SIG Sauer ROMEO4 reflex sightx1/|
+	Steyr AUG 5.56x45 30-round magazinex1
+]
+Name_Jpn=AUG A1 5.56x45 アサルトライフル ROMEO4
+Information_Jpn=

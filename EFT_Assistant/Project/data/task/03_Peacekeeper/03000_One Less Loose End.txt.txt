@@ -1,0 +1,48 @@
+IDstr=669fa38fad7f1eac2607ed46
+Name=One Less Loose End
+Trader=Peacekeeper
+
+NeedTask=Overpopulation
+NeedLevel=15
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+factionName=Any
+Task_Map=Factory
+Task_Map=Night Factory
+Task_Else=拾って納品:Factory-Lab journalx1
+Task_Else=拾って納品:Night Factory-Lab journalx1
+Task_Map=Woods
+Task_Else=拾って納品:Woods-Lab journalx1
+
+[
+	TaskType=findQuestItem
+	TaskText=Locate and obtain the lab journal on Factory
+	TaskOptional=false
+]
+[
+	TaskType=plantQuestItem
+	TaskText=Stash the journal at the old sawmill on Woods
+	TaskOptional=false
+]
+
+Reward_Rep=Peacekeeper+3
+Reward_Item=[
+	Dollarsx1200/|
+	Magnum Research Desert Eagle Mk XIX .50 AE pistol Defaultx1/|
+	Desert Eagle .50 AE 7-round magazinex3/|
+	.50 AE Copper Solidx28
+]
+
+Task_Else=該当タスクA Healthy Alternative
+Task_Else=該当タスク状態:complete
+
+[
+	TaskType=taskStatus
+	TaskText=
+	TaskOptional=false
+]
+
+Reward_EXP=15000

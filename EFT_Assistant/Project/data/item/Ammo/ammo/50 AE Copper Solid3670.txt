@@ -1,0 +1,12 @@
+IDstr=66a0d1e0ed648d72fe064d06
+Name=.50 AE Copper Solid
+ShortName=Copper
+Information_Eng=A .50 Action Express Hawk Copper Solid cartridge (12.7x33mm) with a 400 grain precision bullet, designed to direct a tremendous amount of energy into the target. One of the most powerful unitary pistol cartridges in the world and has a significant lethality.
+Itemtype=ammo
+width=1
+height=1
+weight=0.035000
+fleaMarketFee=0
+propertiestype=ItemPropertiesAmmo
+Name_Jpn=.50 AE Copper Solid
+Information_Jpn=A .50 Action Express Hawk Copper Solid cartridge (12.7x33mm) with a 400 grain precision bullet, designed to direct a tremendous amount of energy into the target. One of the most powerful unitary pistol cartridges in the world and has a significant lethality.

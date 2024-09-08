@@ -10,32 +10,32 @@ NeedKappa=true
 NeedLightkeeper=false
 
 factionName=Any
-Task_Map=Interchange
-Task_Map=Shoreline
 Task_Map=Streets of Tarkov
-Task_Map=Lighthouse
-Task_Map=Woods
 Task_Map=Customs
+Task_Map=Ground Zero 21+
+Task_Map=Interchange
 Task_Map=Reserve
+Task_Map=Shoreline
 Task_Map=The Lab
+Task_Map=Woods
+Task_Map=Lighthouse
 Task_Kill=[
-	Interchange-Scavsx15/|
-	Shoreline-Scavsx15/|
-	Streets of Tarkov-Scavsx15/|
-	Lighthouse-Scavsx15/|
-	Woods-Scavsx15/|
-	Customs-Scavsx15/|
-	Reserve-Scavsx15/|
-	The Lab-Scavsx15
+	Streets of Tarkov-any PMC operativesx15/|
+	Customs-any PMC operativesx15/|
+	Ground Zero 21+-any PMC operativesx15/|
+	Interchange-any PMC operativesx15/|
+	Reserve-any PMC operativesx15/|
+	Shoreline-any PMC operativesx15/|
+	The Lab-any PMC operativesx15/|
+	Woods-any PMC operativesx15/|
+	Lighthouse-any PMC operativesx15
 ]
 NeedItem=[
 	SVDS 7.62x54R sniper riflex0
 ]
 Task_Else=距離: >= 0m
-NeedItem=Dogtag BEARx7
 Task_NotFiR_HandOver=[Dogtag BEARx7]
 DogTagLv=0
-NeedItem=Dogtag USECx7
 Task_NotFiR_HandOver=[Dogtag USECx7]
 DogTagLv=0
 
@@ -45,18 +45,8 @@ DogTagLv=0
 	TaskOptional=false
 ]
 [
-	TaskType=findItem
-	TaskText=Find BEAR PMC dogtags in raid
-	TaskOptional=false
-]
-[
 	TaskType=giveItem
 	TaskText=Hand over the BEAR dogtags
-	TaskOptional=false
-]
-[
-	TaskType=findItem
-	TaskText=Find USEC PMC dogtags in raid
 	TaskOptional=false
 ]
 [

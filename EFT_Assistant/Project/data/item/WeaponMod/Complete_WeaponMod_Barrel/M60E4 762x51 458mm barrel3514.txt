@@ -1,0 +1,43 @@
+IDstr=660126f7c752a02bbe05e688
+Name=M60E4 7.62x51 458mm barrel
+ShortName=E4 458mm
+Information_Eng=A 458mm short barrel for the M60E4 light machine gun. Manufactured by U.S Ordnance.
+Itemtype=barrel
+width=4
+height=1
+weight=2.100000
+fleaMarketFee=0
+propertiestype=ItemPropertiesBarrel
+ChildParts=[
+	AR-10 2A Armanent X3 7.62x51 compensator/|
+	AR-10 CMMG SV Brake 7.62x51 muzzle brake/|
+	Desert Tech 7.62x51 flash hider/|
+	AR-10 Fortis RED Brake 7.62x51 muzzle brake/|
+	AR-10 KAC QDC 7.62x51 Flash Suppressor Kit/|
+	AR-10 KAC QDC 7.62x51 Muzzle Brake Kit/|
+	AR-10 Keeno Arms SHREWD 7.62x51 muzzle brake/|
+	AR-10 Lantac Dragon 7.62x51 muzzle brake-compensator/|
+	AR-10 Nordic Components Corvette 7.62x51 compensator/|
+	AR-10 Odin Works ATLAS-7 7.62x51 muzzle brake/|
+	AR-10 SureFire ProComp 7.62x51 muzzle brake/|
+	AR-10 TAA ZK-38 7.62x51 muzzle brake/|
+	AR-10 Thunder Beast Arms 30CB 7.62x51 muzzle brake/|
+	AR-10 Dead Air Keymount 7.62x51 muzzle brake/|
+	M60E3 7.62x51 flash hider/|
+	AR-10 Delta-Tek DTK-AR10 7.62x51 muzzle brake
+]
+ChildParts=[
+	M60E4 front sight/|
+	M60E6 front sight rail
+]
+Conflict=[
+	KAC PRS/QDC 7.62x51 sound suppressor/|
+	SIG Sauer SRD762-QD 7.62x51 sound suppressor/|
+	Thunder Beast Arms Ultra 5 sound suppressor
+]
+Recoil=-7.000000
+Ergonomics=-10.000000
+centerOfImpact=0.036000
+deviationMax=23
+Name_Jpn=M60E4 7.62x51 458mm barrel
+Information_Jpn=A 458mm short barrel for the M60E4 light machine gun. Manufactured by U.S Ordnance.

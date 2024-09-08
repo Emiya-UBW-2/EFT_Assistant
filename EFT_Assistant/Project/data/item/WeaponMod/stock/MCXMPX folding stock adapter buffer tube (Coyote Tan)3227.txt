@@ -1,6 +1,6 @@
 IDstr=6529366450dc782999054ba0
-Name=MCX/MPX folding stock adapter buffer tube (Coyote Tan)
-ShortName=MCX/MPX
+Name=MPX/MCX Stock Adapter Low Profile Tube (Coyote Tan)
+ShortName=SIG LPT
 Information_Eng=A buffer tube for the folding stock adapter for SIG AR platform rifles and SMGs. Manufactured by SIG Sauer. Coyote Tan version.
 Itemtype=stock
 width=2

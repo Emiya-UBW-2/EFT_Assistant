@@ -16,7 +16,7 @@ ChildParts=[
 	Mosin Rifle AIM Sports Tri-Rail mount
 ]
 Conflict=[
-	Mosin Rifle ATI Monte Carlo chassis/|
+	Mosin Rifle ATI Monte Carlo stock/|
 	Mosin Rifle sniper carbine stock/|
 	Mosin Rifle carbine stock/|
 	Mosin Rifle Infantry stock/|

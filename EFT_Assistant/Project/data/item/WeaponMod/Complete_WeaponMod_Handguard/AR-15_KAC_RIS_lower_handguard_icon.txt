@@ -26,7 +26,6 @@ ChildParts=[
 	Strike Industries Cobra Tactical foregrip/|
 	TangoDown Stubby BGV-MK46K foregrip (Black)/|
 	TangoDown Stubby BGV-MK46K foregrip (FDE)/|
-	TangoDown Stubby BGV-MK46K foregrip (Stealth Grey)/|
 	Tactical Dynamics Skeletonized Foregrip/|
 	Viking Tactics UVG tactical foregrip/|
 	Zenit RK-1 tactical foregrip on B-25U mount/|
@@ -41,7 +40,12 @@ ChildParts=[
 	RTM Pillau tactical foregrip (Sand)/|
 	RTM Pillau P-2 tactical foregrip (Red)/|
 	Strike Industries Cobra Tactical foregrip (FDE)/|
-	Stark SE-5 Express Forward foregrip (FDE)
+	Stark SE-5 Express Forward foregrip (FDE)/|
+	TangoDown BGV-QDITI foregrip (Black)/|
+	TangoDown BGV-QDITI foregrip (FDE)/|
+	TangoDown Stubby BGV-MK46K foregrip (Stealth Grey)/|
+	TangoDown Stubby BGV-QDK foregrip (Black)/|
+	TangoDown Stubby BGV-QDK foregrip (FDE)
 ]
 Recoil=0.000000
 Ergonomics=4.000000

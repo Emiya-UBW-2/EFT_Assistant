@@ -13,29 +13,29 @@ Task_Map=Lighthouse
 factionName=Any
 Task_Map=Lighthouse
 Task_Else=TaskType:visit
-Task_Else=Recon the roof of the first office building on Lighthouse
+Task_Else=Recon the roof of the first water treatment plant facility on Lighthouse
 Task_Map=Lighthouse
 Task_Else=TaskType:visit
-Task_Else=Recon the roof of the second office building on Lighthouse
+Task_Else=Recon the roof of the second water treatment plant facility on Lighthouse
 Task_Map=Lighthouse
 Task_Else=TaskType:visit
-Task_Else=Recon the roof of the third office building on Lighthouse
+Task_Else=Recon the roof of the third water treatment plant facility on Lighthouse
 Task_Map=Lighthouse
 Task_Else=脱出ステータス:[Survived]
 
 [
 	TaskType=visit
-	TaskText=Recon the roof of the first office building on Lighthouse
+	TaskText=Recon the roof of the first water treatment plant facility on Lighthouse
 	TaskOptional=false
 ]
 [
 	TaskType=visit
-	TaskText=Recon the roof of the second office building on Lighthouse
+	TaskText=Recon the roof of the second water treatment plant facility on Lighthouse
 	TaskOptional=false
 ]
 [
 	TaskType=visit
-	TaskText=Recon the roof of the third office building on Lighthouse
+	TaskText=Recon the roof of the third water treatment plant facility on Lighthouse
 	TaskOptional=false
 ]
 [
@@ -47,7 +47,7 @@ Task_Else=脱出ステータス:[Survived]
 Reward_Rep=Prapor+3
 Reward_Item=[
 	Roublesx155000/|
-	NPP KlASS Korund-VM body armor (Black)x1/|
+	NPP KlASS Korund-VM body armor (Black) Defaultx1/|
 	NPP KlASS Condor glassesx1
 ]
 

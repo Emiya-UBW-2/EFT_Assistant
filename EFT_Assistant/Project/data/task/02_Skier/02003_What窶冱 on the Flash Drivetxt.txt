@@ -7,7 +7,7 @@ NeedLevel=8
 
 CanRestart=false
 NeedKappa=true
-NeedLightkeeper=false
+NeedLightkeeper=true
 
 factionName=Any
 NeedItem=Secure Flash drivex2
@@ -28,7 +28,7 @@ DogTagLv=0
 Reward_Rep=Skier+4
 Reward_Item=[
 	Roublesx30000/|
-	Molot Arms Simonov OP-SKS 7.62x39 carbine UASx1/|
+	Molot Arms Simonov OP-SKS 7.62x39 carbine UAS SKSx1/|
 	SKS 7.62x39 TAPCO 6610 20-round magazinex2/|
 	SKS Hexagon 7.62x39 sound suppressorx1
 ]

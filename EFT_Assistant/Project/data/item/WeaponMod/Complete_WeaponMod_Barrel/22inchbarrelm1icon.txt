@@ -34,7 +34,8 @@ ChildParts=[
 	M1A National Match 7.62x51 flash suppressor/|
 	Gemtech ONE Direct Thread Mount adapter/|
 	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
-	Lantac BMD Blast Mitigation Device A3 direct thread adapter
+	Lantac BMD Blast Mitigation Device A3 direct thread adapter/|
+	AR-10 Delta-Tek DTK-AR10 7.62x51 muzzle brake
 ]
 Recoil=-9.000000
 Ergonomics=-17.000000

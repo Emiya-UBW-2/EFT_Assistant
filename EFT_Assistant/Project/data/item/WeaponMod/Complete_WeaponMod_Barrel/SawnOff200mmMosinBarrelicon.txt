@@ -9,7 +9,7 @@ weight=0.700000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 Conflict=[
-	Mosin Rifle ATI Monte Carlo chassis/|
+	Mosin Rifle ATI Monte Carlo stock/|
 	Mosin Rifle sniper carbine stock/|
 	Mosin Rifle carbine stock/|
 	Mosin Rifle Infantry stock/|

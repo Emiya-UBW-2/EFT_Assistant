@@ -1,0 +1,49 @@
+IDstr=669fa3979b0ce3feae01a130
+Name=Claustrophobia
+Trader=Jaeger
+
+NeedTask=The Huntsman Path - Forest Cleaning
+NeedLevel=2
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Factory
+factionName=Any
+Task_Map=Factory
+Task_Map=Night Factory
+Task_Kill=[
+	Factory-any targetx5/|
+	Night Factory-any targetx5
+]
+NeedItem=[
+	Benelli M3 Super 90 12ga dual-mode shotgunx0/|
+	MP-18 7.62x54R single-shot riflex0/|
+	Saiga-12K ver.10 12ga semi-automatic shotgunx0/|
+	MP-133 12ga pump-action shotgunx0/|
+	MP-153 12ga semi-automatic shotgunx0/|
+	MP-43 12ga sawed-off double-barrel shotgunx0/|
+	MP-43-1C 12ga double-barrel shotgunx0/|
+	MP-155 12ga semi-automatic shotgunx0/|
+	Mossberg 590A1 12ga pump-action shotgunx0/|
+	Remington Model 870 12ga pump-action shotgunx0/|
+	TOZ KS-23M 23x75mm pump-action shotgunx0/|
+	TOZ-106 20ga bolt-action shotgunx0/|
+	MTs-255-12 12ga shotgunx0
+]
+Task_Else=距離: >= 0m
+
+[
+	TaskType=shoot
+	TaskText=Eliminate any target in the old cellars while using a shotgun on Factory
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+3
+Reward_Item=[
+	Roublesx89000/|
+	Burris FullField TAC30 1-4x24 30mm riflescopex2
+]
+
+Reward_EXP=25400

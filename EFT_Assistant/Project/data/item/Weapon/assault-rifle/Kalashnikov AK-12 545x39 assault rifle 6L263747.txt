@@ -1,0 +1,30 @@
+IDstr=ak126l260000000000000001
+Name=Kalashnikov AK-12 5.45x39 assault rifle 6L26
+ShortName=AK-12 6L26
+Itemtype=assault-rifle
+width=6
+height=3
+weight=4.951000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Kalashnikov AK-12 5.45x39 assault riflex1/|
+	AK-12 gas tubex1/|
+	AK-12 pistol gripx1/|
+	AK-12 handguardx1/|
+	KAC vertical foregripx1/|
+	RPK-16 handguard railx1/|
+	MAWL-C1+ tactical devicex1/|
+	AK-12 dust coverx1/|
+	EOTech XPS3-0 holographic sightx1/|
+	AK-12 rear sight basex1/|
+	AK-12 rear sightx1/|
+	AK-12 buffer tubex1/|
+	AR-15 KRISS Defiance DS150 stock (Black)x1/|
+	AK CSS knurled charging handlex1/|
+	AK-74 5.45x39 6L26 45-round magazinex1/|
+	AK-12 5.45x39 sound suppressorx1
+]
+Name_Jpn=Kalashnikov AK-12 5.45x39 アサルトライフル 6L26
+Information_Jpn=

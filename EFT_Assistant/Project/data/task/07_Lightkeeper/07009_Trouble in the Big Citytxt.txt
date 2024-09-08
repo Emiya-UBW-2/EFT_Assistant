@@ -3,7 +3,7 @@ Name=Trouble in the Big City
 Trader=Lightkeeper
 
 NeedTask=Make an Impression
-NeedLevel=35
+NeedLevel=33
 
 CanRestart=false
 NeedKappa=false
@@ -18,6 +18,7 @@ Task_Map=Streets of Tarkov
 Task_Kill=[
 	Streets of Tarkov-any PMC operativesx50
 ]
+Task_Else=距離: >= 0m
 Task_Map=Streets of Tarkov
 NeedItem=MS2000 Markerx1
 Task_Map=Streets of Tarkov
@@ -52,7 +53,7 @@ Task_Else=脱出ステータス:[Survived]
 	TaskOptional=false
 ]
 
-Reward_Rep=Lightkeeper+1
+Reward_Rep=Lightkeeper+5
 Reward_Item=[
 	Advanced current converterx1
 ]

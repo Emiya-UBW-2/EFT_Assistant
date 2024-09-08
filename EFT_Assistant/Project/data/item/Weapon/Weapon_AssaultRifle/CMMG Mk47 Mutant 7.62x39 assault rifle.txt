@@ -79,8 +79,8 @@ ChildParts=[
 ChildParts=[
 	Mk47 ambidextrous charging handle
 ]
-Recoil=160.000000
-RecoilHorizontal=419.000000
+Recoil=152.000000
+RecoilHorizontal=377.000000
 Ergonomics=42.000000
 SightRange=-100
 FireRate=650

@@ -1,0 +1,15 @@
+Name=Desert Tech MDR 7.62x51 assault rifle PRS QDC
+Base=Desert Tech MDR 7.62x51 assault rifle
+Parts=MDR pistol grip (FDE)
+Parts=MDR handguard (FDE)
+Parts=L3Harris AN/PEQ-15 tactical device
+Parts=Magpul M-LOK AFG tactical foregrip (Black)
+Parts=Magpul M-LOK 2.5 inch rail
+Parts=Kiba Arms 25mm accessory ring mount
+Parts=Ultrafire WF-501B flashlight
+Parts=MDR 7.62x51 16 inch barrel
+Parts=AR-10 KAC QDC 7.62x51 Muzzle Brake Kit
+Parts=KAC PRS/QDC 7.62x51 sound suppressor
+Parts=AR-10 7.62x51 Magpul PMAG 20 SR-LR GEN M3 20-round magazine
+Parts=LaRue LT101 QD Tactical Picatinny Riser mount
+Parts=SIG Sauer ROMEO8T reflex sight

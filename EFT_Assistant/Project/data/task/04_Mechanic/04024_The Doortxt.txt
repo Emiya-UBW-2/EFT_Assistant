@@ -4,6 +4,7 @@ Trader=Mechanic
 
 NeedTask=Signal - Part 3
 NeedLevel=15
+NeedItem=[Rusted bloody keyx1]
 
 CanRestart=false
 NeedKappa=false

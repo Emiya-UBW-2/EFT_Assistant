@@ -1,4 +1,0 @@
-Name_Jpn=SVDS upper band
-Information_Jpn=A standard upper band for SVDS sniper rifles and compatibles, allows installation of rear sights.
-Name_Jpn=SVDS upper band
-Information_Jpn=A standard upper band for SVDS sniper rifles and compatibles, allows installation of rear sights.

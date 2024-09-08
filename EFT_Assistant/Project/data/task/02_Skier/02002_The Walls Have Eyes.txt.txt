@@ -1,0 +1,54 @@
+IDstr=669fa39c64ea11e84c0642a6
+Name=The Walls Have Eyes
+Trader=Skier
+
+NeedTask=Exit Here
+NeedLevel=12
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Factory
+factionName=Any
+Task_Map=Factory
+Task_Map=Night Factory
+Task_NotFiR_HandOver=[WI-FI Camerax1]
+DogTagLv=0
+Task_Map=Factory
+Task_Map=Night Factory
+Task_NotFiR_HandOver=[WI-FI Camerax1]
+DogTagLv=0
+Task_Map=Factory
+Task_Map=Night Factory
+Task_NotFiR_HandOver=[WI-FI Camerax1]
+DogTagLv=0
+
+[
+	TaskType=plantItem
+	TaskText=Install a WI-FI Camera in the first crane's cockpit on Factory
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Install a WI-FI Camera in the second crane's cockpit on Factory
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Install a WI-FI Camera in the third crane's cockpit on Factory
+	TaskOptional=false
+]
+
+Reward_Item=[
+	WI-FI Camerax3
+]
+Reward_Rep=Skier+2
+Reward_Item=[
+	Eurosx550/|
+	TDI KRISS Vector Gen.2 .45 ACP submachine gun Defaultx1/|
+	Glock .45 ACP KRISS G30 MagEx 30-round magazinex3/|
+	.45 ACP Lasermatch FMJ ammo pack (50 pcs)x3
+]
+
+Reward_EXP=7200

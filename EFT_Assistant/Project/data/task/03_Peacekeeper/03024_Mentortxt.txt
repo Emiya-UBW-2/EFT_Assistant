@@ -19,6 +19,6 @@ DogTagLv=0
 	TaskOptional=false
 ]
 
-Reward_SkillLevelUp=Sniper Rifles+3
+Reward_SkillLevelUp=Bolt-action Rifles+3
 
 Reward_EXP=0

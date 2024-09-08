@@ -69,8 +69,8 @@ ChildParts=[
 ChildParts=[
 	FN SCAR charging handle
 ]
-Recoil=122.000000
-RecoilHorizontal=414.000000
+Recoil=100.000000
+RecoilHorizontal=312.000000
 Ergonomics=45.000000
 SightRange=-100
 FireRate=650
@@ -83,4 +83,4 @@ cameraSnap=3.500000
 deviationMax=23
 convergence=0.000000
 Name_Jpn=SCAR-L 5.56x45 アサルトライフル
-Information_Jpn=FN SCAR-H（特殊部隊用戦闘アサルトライフル - ヘビー）は、5.56x45 NATO 弾を使用するアサルトライフルで、アメリカ特殊作戦軍（US SOCOM）で Mk 16 として採用された。折り畳み可能なストックと、フリーフローティングの硬クロムメッキ製 Mil-Spec バレルを特徴としている。両方の利き手操作に対応しており、SCARはあらゆる使用者や射撃姿勢に適応しやすい。レシーバーに統合された光学照準器用レールと、3つのアクセサリーレールにより、さまざまな光学照準器、ライト、およびレーザーを取り付けることができる。製造はファブリーク・ナシオナール・ハースタル（Fabrique Nationale Herstal）によって行われていて、フラットダークアース（Flat Dark Earth）バージョンもある。
+Information_Jpn=FN SCAR-L（特殊部隊用戦闘アサルトライフル - ヘビー）は、5.56x45 NATO 弾を使用するアサルトライフルで、アメリカ特殊作戦軍（US SOCOM）で Mk 16 として採用された。折り畳み可能なストックと、フリーフローティングの硬クロムメッキ製 Mil-Spec バレルを特徴としている。両方の利き手操作に対応しており、SCARはあらゆる使用者や射撃姿勢に適応しやすい。レシーバーに統合された光学照準器用レールと、3つのアクセサリーレールにより、さまざまな光学照準器、ライト、およびレーザーを取り付けることができる。製造はファブリーク・ナシオナール・ハースタル（Fabrique Nationale Herstal）によって行われていて、フラットダークアース（Flat Dark Earth）バージョンもある。

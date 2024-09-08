@@ -1,5 +1,5 @@
 IDstr=5ed5166ad380ab312177c100
-Name="Obdolbos" cocktail injector
+Name=Obdolbos cocktail injector
 ShortName=Obdolbos
 Information_Eng=A syringe with a homemade drug, authored by a former employee of TerraGroup Labs. The negative effects are different each time. You could take the risk, got nothing to lose anyway.
 Itemtype=stimulant

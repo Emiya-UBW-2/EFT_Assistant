@@ -1,0 +1,33 @@
+IDstr=707265736574000000000030
+Name=Remington R11 RSASS 7.62x51 marksman rifle RAPTAR
+ShortName=RSASS RAPTAR
+Itemtype=marksman-rifle
+width=7
+height=3
+weight=6.893000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Remington R11 RSASS 7.62x51 marksman riflex1/|
+	AR-15 Magpul MOE pistol grip (FDE)x1/|
+	AR-15 Strike Industries Advanced Receiver Extension buffer tube (Anodized Red)x1/|
+	AR-15 Magpul CTR Carbine stock (FDE)x1/|
+	R11 RSASS handguardx1/|
+	Remington RAHG 4 inch railx1/|
+	Magpul RVG foregrip (FDE)x1/|
+	Remington RAHG 2 inch railx1/|
+	L3Harris AN/PEQ-15 tactical devicex1/|
+	AR-10 7.62x51 22 inch barrelx1/|
+	AR-10 JP Enterprises Gas System-6x1/|
+	KAC Folding Micro front sightx1/|
+	AR-10 AAC Blackout 51T 7.62x51 flash hiderx1/|
+	AAC 762-SDN-6 multi-caliber sound suppressorx1/|
+	AR-10 7.62x51 Magpul PMAG 20 SR-LR GEN M3 20-round magazinex1/|
+	Recknagel Era-Tac 34mm ring scope mountx1/|
+	Schmidt & Bender PM II 3-20x50 34mm riflescopex1/|
+	Wilcox RAPTAR ES Tactical Rangefinderx1/|
+	KAC Folding Micro rear sightx1
+]
+Name_Jpn=Remington R11 RSASS 7.62x51 マークスマンライフル RAPTAR
+Information_Jpn=

@@ -5,7 +5,7 @@ Information_Eng=A semi-mythical Makarov pistol with an extended threaded barrel 
 Itemtype=handgun
 width=2
 height=1
-weight=0.690000
+weight=0.340000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 ChildParts=[
@@ -25,12 +25,13 @@ ChildParts=[
 ChildParts=[
 	PM FAB Defense PM-G pistol grip/|
 	PM Tactic Kit pistol grip/|
-	PM bakelite side grips/|
-	PM FAB Defense PM-G pistol grip (Olive Drab)
+	PM bakelite grip/|
+	PM FAB Defense PM-G pistol grip (Olive Drab)/|
+	PM PM-Laser grip with laser sight
 ]
 Recoil=380.000000
 RecoilHorizontal=265.000000
-Ergonomics=80.000000
+Ergonomics=84.000000
 SightRange=-100
 FireRate=30
 centerOfImpact=0.380000

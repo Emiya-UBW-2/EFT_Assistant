@@ -8,5 +8,12 @@ height=2
 weight=0.280000
 fleaMarketFee=0
 propertiestype=ItemPropertiesHelmet
+Conflict=[
+	Ballistic Armor Co. Bastion helmet (Armor Black)/|
+	Ballistic Armor Co. Bastion helmet (MultiCam)/|
+	Ballistic Armor Co. Bastion helmet (OD Green)/|
+	Team Wendy EXFIL Ballistic Helmet (Black)/|
+	Team Wendy EXFIL Ballistic Helmet (Coyote Brown)
+]
 Name_Jpn=Glorious E lightweight armored mask
 Information_Jpn=The "Glorious E" face protection mask, reinforced with aramid fibers.

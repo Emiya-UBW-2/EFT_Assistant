@@ -8,7 +8,7 @@ NeedLevel=30
 
 CanRestart=false
 NeedKappa=true
-NeedLightkeeper=true
+NeedLightkeeper=false
 
 factionName=Any
 NeedItem=Antique teapotx3
@@ -70,7 +70,7 @@ Reward_Item=[
 	Roublesx110000/|
 	Altyn bulletproof helmet (Olive Drab)x1/|
 	Altyn helmet face shieldx1/|
-	Ars Arma CPC MOD.1 plate carrier (A-TACS FG)x1
+	Ars Arma CPC MOD.1 plate carrier (A-TACS FG) Defaultx1
 ]
 
 Reward_EXP=25900

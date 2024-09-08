@@ -22,15 +22,35 @@ Task_Kill=[
 	Streets of Tarkov-Kaban Guardx5
 ]
 Task_Else=距離: >= 0m
+Task_Map=Streets of Tarkov
+Task_Kill=[
+	Streets of Tarkov-Gusx1
+]
+Task_Else=距離: >= 0m
+Task_Map=Streets of Tarkov
+Task_Kill=[
+	Streets of Tarkov-Basmachx1
+]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot
-	TaskText=Locate and eliminate Kaban
+	TaskText=Locate and neutralize Kaban
 	TaskOptional=false
 ]
 [
 	TaskType=shoot
 	TaskText=Eliminate Kaban's guards at the car dealership on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate Basmach
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate Gus
 	TaskOptional=false
 ]
 

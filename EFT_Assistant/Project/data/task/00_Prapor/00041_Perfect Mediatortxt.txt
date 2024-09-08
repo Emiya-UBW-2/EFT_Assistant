@@ -16,6 +16,7 @@ Task_Else=traderLL:MechanicLL4
 Task_Else=traderLL:PeacekeeperLL4
 Task_Else=traderLL:PraporLL4
 Task_Else=traderLL:TherapistLL4
+Task_Else=traderLL:JaegerLL4
 
 [
 	TaskType=traderLevel
@@ -45,6 +46,11 @@ Task_Else=traderLL:TherapistLL4
 [
 	TaskType=traderLevel
 	TaskText=Reach level 4 loyalty with Therapist
+	TaskOptional=false
+]
+[
+	TaskType=traderLevel
+	TaskText=Reach level 4 loyalty with Jaeger
 	TaskOptional=false
 ]
 

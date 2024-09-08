@@ -1,0 +1,22 @@
+IDstr=6698c8ab29e062525d0ad8ab
+Name=UZI 9x19 259mm barrel
+ShortName=UZI 259mm
+Information_Eng=A 259mm barrel for the UZI submachine gun. Manufactured by Israel Weapon Industries.
+Itemtype=barrel
+width=2
+height=1
+weight=0.288000
+fleaMarketFee=0
+propertiestype=ItemPropertiesBarrel
+ChildParts=[
+	UZI 9x19 3-lug barrel retaining nut/|
+	UZI 9x19 barrel retaining nut/|
+	UZI 9x19 sound suppressor/|
+	UZI vented barrel shroud
+]
+Recoil=-3.000000
+Ergonomics=-3.000000
+centerOfImpact=0.128000
+deviationMax=14
+Name_Jpn=UZI 9x19 259mm barrel
+Information_Jpn=A 259mm barrel for the UZI submachine gun. Manufactured by Israel Weapon Industries.

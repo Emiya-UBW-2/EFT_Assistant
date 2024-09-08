@@ -1,0 +1,36 @@
+IDstr=666314bf1cd52e3d040a2e78
+Name=Serious Allegations
+Trader=Skier
+
+NeedTask=Viewer
+NeedLevel=27
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Shoreline
+factionName=Any
+Task_Map=Shoreline
+Task_Else=拾って納品:Shoreline-Hard drivex1
+
+[
+	TaskType=findQuestItem
+	TaskText=Locate and obtain the hard drive at the old house on Shoreline
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the found item
+	TaskOptional=false
+]
+
+Reward_Rep=Skier+2
+Reward_Item=[
+	Eurosx1500/|
+	AN/PVS-14 night vision monocularx1/|
+	AN/PVS-14 Norotos Dual Dovetail Mountx1/|
+	Norotos Titanium Advanced Tactical Mountx1
+]
+
+Reward_EXP=36000

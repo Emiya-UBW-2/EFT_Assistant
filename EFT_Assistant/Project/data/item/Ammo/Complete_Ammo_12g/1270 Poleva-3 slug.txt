@@ -1,5 +1,5 @@
 IDstr=5d6e6891a4b9361bd473feea
-Name=12/70 "Poleva-3" slug
+Name=12/70 Poleva-3 slug
 ShortName=Poleva-3
 Information_Eng=A "Poleva-3" 12/70 expanding slug shell for 12 gauge shotguns.
 Itemtype=ammo

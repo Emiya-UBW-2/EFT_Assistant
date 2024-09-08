@@ -1,0 +1,13 @@
+IDstr=66265d7be65f224b2e17c6aa
+Name=USEC cottage room key
+ShortName=USEC cott.
+Information_Eng=A key to one of the rooms in the cottages of former USEC operatives.
+Itemtype=mechanical-key
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=ItemPropertiesKey
+uses=40
+Name_Jpn=USEC cottage room key
+Information_Jpn=A key to one of the rooms in the cottages of former USEC operatives.

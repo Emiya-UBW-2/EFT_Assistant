@@ -1,0 +1,21 @@
+IDstr=ash12tac0000000000000001
+Name=ASh-12 12.7x55 assault rifle TAC
+ShortName=ASh-12 TAC
+Itemtype=assault-rifle
+width=5
+height=2
+weight=7.387000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	ASh-12 12.7x55 assault riflex1/|
+	ASh-12 12.7x55 sound suppressorx1/|
+	Valday Krechet reflex sightx1/|
+	ASh-12 12.7x55 20-round magazinex1/|
+	ASh-12 polymer handguardx1/|
+	Hera Arms CQR tactical foregripx1/|
+	Zenit Perst-3 tactical devicex1
+]
+Name_Jpn=ASh-12 12.7x55 アサルトライフル TAC
+Information_Jpn=

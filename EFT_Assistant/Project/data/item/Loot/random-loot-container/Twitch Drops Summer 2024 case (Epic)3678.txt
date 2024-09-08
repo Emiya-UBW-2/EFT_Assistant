@@ -1,0 +1,11 @@
+IDstr=66a389c60982fc7e4c091c51
+Name=Twitch Drops Summer 2024 case (Epic)
+ShortName=Twitch
+Itemtype=random-loot-container
+width=2
+height=2
+weight=4.000000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=Twitch Drops Summer 2024 case (Epic)
+Information_Jpn=

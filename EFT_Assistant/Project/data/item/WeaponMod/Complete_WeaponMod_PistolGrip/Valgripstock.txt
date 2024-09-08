@@ -30,13 +30,15 @@ ChildParts=[
 	AR-15 Vltor EMOD stock/|
 	AR-15 SB Tactical SBA3 brace/|
 	AR-15 Daniel Defense Enhanced Collapsible Buttstock (Black)/|
-	AR-15 Daniel Defense Enhanced Collapsible Buttstock (FDE)
+	AR-15 Daniel Defense Enhanced Collapsible Buttstock (FDE)/|
+	AR-15 Magpul MOE SL-K buttstock (Coyote Tan)/|
+	AR-15 FAB Defense GL-CORE buttstock
 ]
 Conflict=[
 	AS VAL skeleton stock
 ]
 Recoil=0.000000
-Ergonomics=5.000000
+Ergonomics=3.000000
 accuracyModifier=0.000000
 Name_Jpn=AS VAL Rotor 43 pistol grip & buffer tube
 Information_Jpn=A pistol grip with an integrated Mil-Spec buffer tube for AS VAL, manufactured by Rotor 43.

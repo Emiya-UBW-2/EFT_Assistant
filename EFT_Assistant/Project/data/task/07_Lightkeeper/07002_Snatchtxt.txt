@@ -3,7 +3,7 @@ Name=Snatch
 Trader=Lightkeeper
 
 NeedTask=Missing Informant
-NeedLevel=35
+NeedLevel=33
 
 CanRestart=false
 NeedKappa=false
@@ -49,7 +49,9 @@ Task_Else=拾って納品:Lighthouse-Lightkeeper intelligencex1
 
 Reward_Rep=Lightkeeper+1
 Reward_Item=[
-	VPX Flash Storage Modulex3
+	VPX Flash Storage Modulex1/|
+	VPX Flash Storage Modulex1/|
+	VPX Flash Storage Modulex1
 ]
 
 Reward_EXP=0

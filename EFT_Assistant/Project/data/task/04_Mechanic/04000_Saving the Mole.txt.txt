@@ -1,0 +1,63 @@
+IDstr=657315e4a6af4ab4b50f3459
+Name=Saving the Mole
+Trader=Mechanic
+
+NeedLevel=1
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=true
+
+Task_Map=Ground Zero
+factionName=Any
+Task_Map=Ground Zero
+Task_Map=Ground Zero 21+
+Task_Else=TaskType:visit
+Task_Else=Locate the USEC PMC group at the parking lot of the TerraGroup complex on Ground Zero
+Task_Map=Ground Zero
+Task_Map=Ground Zero 21+
+Task_Else=TaskType:visit
+Task_Else=Locate the lab scientist on Ground Zero
+Task_Map=Ground Zero
+Task_Map=Ground Zero 21+
+Task_Else=TaskType:visit
+Task_Else=Access the scientist's office
+Task_Map=Ground Zero
+Task_Map=Ground Zero 21+
+Task_Else=拾って納品:Ground Zero-TerraGroup scientist's hard drivex1
+Task_Else=拾って納品:Ground Zero 21+-TerraGroup scientist's hard drivex1
+
+[
+	TaskType=visit
+	TaskText=Locate the USEC PMC group at the parking lot of the TerraGroup complex on Ground Zero
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate the lab scientist on Ground Zero
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Access the scientist's office
+	TaskOptional=false
+]
+[
+	TaskType=findQuestItem
+	TaskText=Locate and obtain the scientist's hard drive
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the hard drive
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+1
+Reward_Item=[
+	Roublesx15000/|
+	Tube of Poxeram cold weldingx2/|
+	Metal spare partsx2
+]
+
+Reward_EXP=3800

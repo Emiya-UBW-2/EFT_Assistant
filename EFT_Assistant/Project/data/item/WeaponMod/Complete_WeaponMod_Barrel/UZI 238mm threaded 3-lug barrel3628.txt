@@ -1,0 +1,32 @@
+IDstr=6698c89bfbc8142e60024b0e
+Name=UZI 238mm threaded 3-lug barrel
+ShortName=UZI 238mm
+Information_Eng=A threaded 238mm barrel for the UZI submachine gun, equipped with a 3-lug type adapter for installing muzzle devices.
+Itemtype=barrel
+width=2
+height=1
+weight=0.128000
+fleaMarketFee=0
+propertiestype=ItemPropertiesBarrel
+ChildParts=[
+	TACCOM Carbine Brake 9x19 muzzle brake/|
+	KRISS Vector 9x19 flash hider/|
+	Gemtech ONE Direct Thread Mount adapter/|
+	KRISS Vector 9x19 thread protection cap/|
+	Rotor 43 9x19 muzzle brake-compensator/|
+	SIG Sauer SRD9 9x19 sound suppressor/|
+	SilencerCo Osprey 9 9x19 sound suppressor/|
+	UZI PRO 9x19 Masada thread protector/|
+	HK MP5 Noveske-style 9x19 muzzle brake-compensator/|
+	HK MP5 B&T QD 9x19 muzzle brake/|
+	UZI 9x19 3-lug barrel thread protector
+]
+ChildParts=[
+	UZI 9x19 3-lug barrel retaining nut
+]
+Recoil=-1.000000
+Ergonomics=-3.000000
+centerOfImpact=0.138000
+deviationMax=14
+Name_Jpn=UZI 238mm threaded 3-lug barrel
+Information_Jpn=A threaded 238mm barrel for the UZI submachine gun, equipped with a 3-lug type adapter for installing muzzle devices.

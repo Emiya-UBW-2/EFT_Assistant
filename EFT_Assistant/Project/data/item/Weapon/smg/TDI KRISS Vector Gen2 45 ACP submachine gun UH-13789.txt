@@ -1,0 +1,26 @@
+IDstr=tdikrissvector45vortex01
+Name=TDI KRISS Vector Gen.2 .45 ACP submachine gun UH-1
+ShortName=Vector .45ACP UH-1
+Itemtype=smg
+width=3
+height=3
+weight=3.146000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	TDI KRISS Vector Gen.2 .45 ACP submachine gunx1/|
+	KRISS Vector .45 ACP 5 inch barrelx1/|
+	KRISS Vector .45 ACP thread protection capx1/|
+	Glock .45 ACP KRISS G30 MagEx 30-round magazinex1/|
+	KRISS Defiance low profile flip-up front sightx1/|
+	KRISS Defiance low profile flip-up rear sightx1/|
+	KRISS Vector Gen.2 folding stockx1/|
+	KRISS Vector bottom railx1/|
+	Magpul RVG foregrip (Black)x1/|
+	KRISS Vector side railx1/|
+	NcSTAR Tactical blue laser LAM-modulex1/|
+	Vortex Razor AMG UH-1 holographic sightx1
+]
+Name_Jpn=TDI KRISS ヴェクター Gen.2 .45 ACP サブマシンガン UH-1
+Information_Jpn=

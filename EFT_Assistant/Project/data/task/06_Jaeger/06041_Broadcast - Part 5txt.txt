@@ -10,11 +10,13 @@ NeedKappa=false
 NeedLightkeeper=false
 
 factionName=Any
+Task_Map=Ground Zero 21+
 Task_Map=Shoreline
 Task_Map=Woods
 Task_Map=Customs
 Task_Map=Night Factory
 Task_Kill=[
+	Ground Zero 21+-Cultist Priestx1/|
 	Shoreline-Cultist Priestx1/|
 	Woods-Cultist Priestx1/|
 	Customs-Cultist Priestx1/|
@@ -31,7 +33,7 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 
 [
 	TaskType=shoot
-	TaskText=Locate and eliminate Priest
+	TaskText=Locate and neutralize Priest
 	TaskOptional=false
 ]
 [
@@ -53,7 +55,7 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 Reward_Rep=Jaeger+3
 Reward_Item=[
 	Roublesx75000/|
-	Molot Arms VPO-101 "Vepr-Hunter" 7.62x51 carbine SVDx2/|
+	Molot Arms VPO-101 Vepr-Hunter 7.62x51 carbine SVDx2/|
 	7.62x51mm M61x40
 ]
 

@@ -1,5 +1,5 @@
 IDstr=57347baf24597738002c6178
-Name=RAM
+Name=RAM stick
 ShortName=RAM
 Information_Eng=Old RAM is a primary source of IC chips for various microcontroller purposes of the local population.
 Itemtype=electronics

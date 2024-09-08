@@ -8,5 +8,12 @@ height=2
 weight=0.200000
 fleaMarketFee=0
 propertiestype=
+Conflict=[
+	Ballistic Armor Co. Bastion helmet (OD Green)/|
+	Ballistic Armor Co. Bastion helmet (MultiCam)/|
+	Ballistic Armor Co. Bastion helmet (Armor Black)/|
+	Team Wendy EXFIL Ballistic Helmet (Black)/|
+	Team Wendy EXFIL Ballistic Helmet (Coyote Brown)
+]
 Name_Jpn=Spooky skull mask
 Information_Jpn=A really scary skull mask, worn only by the spookiest operators.

@@ -1,0 +1,13 @@
+IDstr=664d4b0103ef2c61246afb56
+Name=Dorm overseer key
+ShortName=Overseer
+Information_Eng=A key to the three-story dormitory with a tag reading "Overseer" on it. Appears to be extremely fragile, one-two uses and the key will break apart.
+Itemtype=mechanical-key
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=ItemPropertiesKey
+uses=2
+Name_Jpn=Dorm overseer key
+Information_Jpn=A key to the three-story dormitory with a tag reading "Overseer" on it. Appears to be extremely fragile, one-two uses and the key will break apart.

@@ -1,5 +1,5 @@
 Name=Saiga 12ga ver.10 12/76 semi-automatic shotgun Default
-Base=Saiga 12ga ver.10 12/76 semi-automatic shotgun
+Base=Saiga-12K ver.10 12ga semi-automatic shotgun
 Parts=SOK-12 polymer handguard (Sb.7-1)
 Parts=SOK-12 thread protection tube
 Parts=AK polymer pistol grip (6P1 Sb.8)

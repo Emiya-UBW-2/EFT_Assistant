@@ -1,0 +1,28 @@
+IDstr=707265736574000000000031
+Name=Desert Tech MDR 7.62x51 assault rifle PRS QDC
+ShortName=MDR PRS QDC
+Itemtype=assault-rifle
+width=5
+height=2
+weight=6.009000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Desert Tech MDR 7.62x51 assault riflex1/|
+	MDR pistol grip (FDE)x1/|
+	MDR handguard (FDE)x1/|
+	L3Harris AN/PEQ-15 tactical devicex1/|
+	Magpul M-LOK AFG tactical foregrip (Black)x1/|
+	Magpul M-LOK 2.5 inch railx1/|
+	Kiba Arms 25mm accessory ring mountx1/|
+	Ultrafire WF-501B flashlightx1/|
+	MDR 7.62x51 16 inch barrelx1/|
+	AR-10 KAC QDC 7.62x51 Muzzle Brake Kitx1/|
+	KAC PRS/QDC 7.62x51 sound suppressorx1/|
+	AR-10 7.62x51 Magpul PMAG 20 SR-LR GEN M3 20-round magazinex1/|
+	LaRue LT101 QD Tactical Picatinny Riser mountx1/|
+	SIG Sauer ROMEO8T reflex sightx1
+]
+Name_Jpn=MDR 7.62x51 アサルトライフル PRS QDC
+Information_Jpn=

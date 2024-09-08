@@ -1,0 +1,15 @@
+IDstr=6698c9ed36ba38d291017713
+Name=UZI Type 3 buttstock
+ShortName=Type 3
+Information_Eng=A wooden buttstock for the UZI submachine gun. A relic from the 60's, still smells like preservation grease. Manufactured by Israel Weapon Industries.
+Itemtype=stock
+width=2
+height=1
+weight=0.450000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=-23.000000
+Ergonomics=1.000000
+accuracyModifier=0.000000
+Name_Jpn=UZI Type 3 buttstock
+Information_Jpn=A wooden buttstock for the UZI submachine gun. A relic from the 60's, still smells like preservation grease. Manufactured by Israel Weapon Industries.

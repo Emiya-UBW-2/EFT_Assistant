@@ -4,6 +4,7 @@ Trader=Peacekeeper
 
 NeedTask=Cargo X - Part 4
 NeedLevel=35
+NeedItem=[Car dealership director's office room keyx1/|Car dealership closed section keyx1]
 
 CanRestart=false
 NeedKappa=false

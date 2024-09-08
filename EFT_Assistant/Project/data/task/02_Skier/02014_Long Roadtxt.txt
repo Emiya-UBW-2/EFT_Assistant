@@ -13,14 +13,14 @@ Task_Map=Lighthouse
 factionName=Any
 Task_Map=Lighthouse
 Task_Kill=[
-	Lighthouse-Scavsx15
+	Lighthouse-Scavsx8
 ]
 Task_Else=ゾーン:[Highway]
 Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot
-	TaskText=Eliminate Scavs along the main road on Lighthouse
+	TaskText=Eliminate Scavs along the shore and the main road on Lighthouse
 	TaskOptional=false
 ]
 

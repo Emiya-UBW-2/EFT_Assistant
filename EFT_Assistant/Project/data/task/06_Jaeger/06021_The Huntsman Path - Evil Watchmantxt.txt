@@ -13,7 +13,7 @@ Task_Map=Customs
 factionName=Any
 Task_Map=Customs
 Task_Kill=[
-	Customs-Scavsx5
+	Customs-any PMC operativesx5
 ]
 Task_Else=ゾーン:[Dorms]
 Task_Else=距離: >= 0m

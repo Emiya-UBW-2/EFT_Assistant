@@ -82,11 +82,11 @@ namespace FPS_n2 {
 			LockGraph.WhenAfterLoad();
 
 			std::vector<WIN32_FIND_DATA> data_t;
-			GetFileNamesInDirectory("data/UI/icon/", &data_t);
+			GetFileNamesInDirectory("data/UI/icon/*", &data_t);
 			for (auto& d : data_t) {
 				std::string Name = d.cFileName;
 				GuideIcon.resize(GuideIcon.size() + 1);
-				GuideIcon.back().SetPath(("data/UI/icon/" + Name).c_str());
+				GuideIcon.back().SetPath(("data/UI/icon/" + Name + ".png").c_str());
 				GuideIcon.back().SetIsTrans(true);
 				GuideIcon.back().LoadByPath(false);
 			}

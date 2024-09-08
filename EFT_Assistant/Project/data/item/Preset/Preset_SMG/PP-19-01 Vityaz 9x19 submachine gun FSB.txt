@@ -1,5 +1,5 @@
 IDstr=618ab0c66bbeff39ad4acf2e
-Name=PP-19-01 "Vityaz" 9x19 submachine gun FSB
+Name=PP-19-01 Vityaz 9x19 submachine gun FSB
 ShortName=PP-19-01 FSB
 Itemtype=smg
 width=4
@@ -9,15 +9,15 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
-	PP-19-01 "Vityaz" 9x19 submachine gunx1/|
+	PP-19-01 Vityaz 9x19 submachine gunx1/|
 	AK polymer pistol grip (6P1 Sb.8)x1/|
 	AK-74M/AK-100 Zenit PT Lockx1/|
 	AK Zenit PT-1 "Klassika" stockx1/|
-	PP-19-01 "Vityaz" 9x19 30-round magazinex1/|
+	PP-19-01 Vityaz 9x19 30-round magazinex1/|
 	9x19mm Pst gzhx30/|
-	PP-19-01 "Vityaz" 9x19 sound suppressorx1/|
-	PP-19-01 "Vityaz-SN" dust coverx1/|
-	PP-19-01 "Vityaz" gas tubex1/|
+	PP-19-01 Vityaz 9x19 sound suppressorx1/|
+	PP-19-01 Vityaz-SN dust coverx1/|
+	PP-19-01 Vityaz gas tubex1/|
 	AK Zenit B-10 Handguardx1/|
 	Zenit RK-0 tactical foregripx1/|
 	AK Zenit B-12 Mountx1/|

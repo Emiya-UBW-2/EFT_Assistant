@@ -1,0 +1,38 @@
+IDstr=669fa409933e898cce0c2166
+Name=Magnum Research Desert Eagle L5 .357 pistol
+ShortName=Desert Eagle L5
+Information_Eng=Desert Eagle L5 is the lightweight modification of the .357 Magnum caliber sport-hunting pistol. This pistol is huge, heavy and not the most practical in operation, but at the same time it is an absolutely unique short-barreled weapon, which undoubtedly became a frequent visitor in video games for its brutal appearance and impressive size. The Desert Eagle did not win any military approval, but deservedly became one of the most famous pistols in the world. Manufactured by Magnum Research.
+Itemtype=handgun
+width=2
+height=1
+weight=0.550000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeapon
+ChildParts=[
+	Desert Eagle L5 .357 127mm barrel
+]
+ChildParts=[
+	Desert Eagle Hogue Rubber Grip/|
+	Desert Eagle Hogue Rubber Grip with finger grooves
+]
+ChildParts=[
+	Desert Eagle L5 .357 pistol slide
+]
+ChildParts=[
+	Desert Eagle .357 9-round magazine
+]
+Recoil=455.000000
+RecoilHorizontal=320.000000
+Ergonomics=68.000000
+SightRange=-100
+FireRate=30
+centerOfImpact=0.000000
+deviationCurve=2.250000
+recoilDispersion=10
+recoilAngle=80
+cameraRecoil=0.000000
+cameraSnap=1.000000
+deviationMax=11
+convergence=0.000000
+Name_Jpn=Magnum Research Desert Eagle L5 .357 pistol
+Information_Jpn=Desert Eagle L5 is the lightweight modification of the .357 Magnum caliber sport-hunting pistol. This pistol is huge, heavy and not the most practical in operation, but at the same time it is an absolutely unique short-barreled weapon, which undoubtedly became a frequent visitor in video games for its brutal appearance and impressive size. The Desert Eagle did not win any military approval, but deservedly became one of the most famous pistols in the world. Manufactured by Magnum Research.

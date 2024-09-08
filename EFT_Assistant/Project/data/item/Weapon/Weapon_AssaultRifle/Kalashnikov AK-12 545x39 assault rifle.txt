@@ -12,7 +12,7 @@ ChildParts=[
 	AK-12 gas tube
 ]
 ChildParts=[
-	GP-25 "Kostyor" 40mm underbarrel grenade launcher
+	GP-25 Kostyor 40mm underbarrel grenade launcher
 ]
 ChildParts=[
 	AK-12 5.45x39 muzzle brake/|
@@ -40,7 +40,7 @@ ChildParts=[
 	AK TAPCO SAW-Style pistol grip (FDE)/|
 	AK US Palm pistol grip/|
 	AK Zenit RK-3 pistol grip/|
-	PP-19-01 "Vityaz" pistol grip/|
+	PP-19-01 Vityaz pistol grip/|
 	AK Mission First Tactical ENGAGE AK47 pistol grip/|
 	AK CG101 AR-type pistol grip adapter/|
 	AK PUFGUN SG-M2 pistol grip
@@ -59,7 +59,7 @@ ChildParts=[
 	AK-74 5.45x39 6L18 45-round magazine/|
 	AK-74 5.45x39 6L20 30-round magazine/|
 	AK-74 5.45x39 6L23 30-round magazine/|
-	AK-74 5.45x39 6L23 "Plum" 30-round magazine/|
+	AK-74 5.45x39 6L23 30-round magazine (Plum)/|
 	AK-74 5.45x39 6L26 45-round magazine/|
 	AK-74 5.45x39 6L31 60-round magazine/|
 	AK-74 "Saiga 545" 5.45x39 10-round magazine/|
@@ -67,7 +67,7 @@ ChildParts=[
 	AK-12 5.45x39 30-round magazine/|
 	RPK-16 5.45x39 95-round drum magazine/|
 	AK-12 5.45x39 early model 30-round magazine/|
-	AK-74 "Saiga 545" 5.45x39 20-round magazine
+	AK-74 Delta-Tek Saiga 545 5.45x39 20-round magazine
 ]
 ChildParts=[
 	AK CSS knurled charging handle/|

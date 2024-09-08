@@ -4,6 +4,7 @@ Trader=Skier
 
 NeedTask=Vitamins - Part 2
 NeedLevel=22
+NeedItem=[Beluga restaurant director keyx1]
 
 CanRestart=false
 NeedKappa=false

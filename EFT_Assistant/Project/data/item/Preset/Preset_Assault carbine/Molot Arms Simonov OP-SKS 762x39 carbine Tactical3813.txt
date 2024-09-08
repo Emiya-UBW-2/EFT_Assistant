@@ -10,7 +10,7 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	Molot Arms Simonov OP-SKS 7.62x39 carbinex1/|
-	SKS ATI Monte Carlo chassisx1/|
+	SKS ATI Monte Carlo stockx1/|
 	OP-SKS 7.62x39 520mm barrelx1/|
 	OP-SKS upper bandx1/|
 	OP-SKS gas tubex1/|

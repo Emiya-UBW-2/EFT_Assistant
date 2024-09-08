@@ -15,8 +15,8 @@ factionName=Any
 Task_Map=Factory
 Task_Map=Night Factory
 Task_Kill=[
-	Factory-Scavsx6/|
-	Night Factory-Scavsx6
+	Factory-any PMC operativesx6/|
+	Night Factory-any PMC operativesx6
 ]
 Task_Else=ゾーン:[Office]
 Task_Else=距離: >= 0m

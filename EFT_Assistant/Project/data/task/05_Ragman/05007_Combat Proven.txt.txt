@@ -1,0 +1,57 @@
+IDstr=666314a31cd52e3d040a2e76
+Name=Combat Proven
+Trader=Ragman
+
+NeedTask=Special Offer
+NeedLevel=35
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_Map=Streets of Tarkov
+Task_Map=Customs
+Task_Map=Reserve
+Task_Map=Interchange
+Task_Map=Woods
+Task_Map=Ground Zero 21+
+Task_Map=Shoreline
+Task_Map=Factory
+Task_Map=Night Factory
+Task_Map=Lighthouse
+Task_Kill=[
+	Streets of Tarkov-Kabanx5/|
+	Customs-Kabanx5/|
+	Reserve-Kabanx5/|
+	Interchange-Kabanx5/|
+	Woods-Kabanx5/|
+	Ground Zero 21+-Kabanx5/|
+	Shoreline-Kabanx5/|
+	Factory-Kabanx5/|
+	Night Factory-Kabanx5/|
+	Lighthouse-Kabanx5
+]
+Task_Else=装備が必要:{
+Task_Else=  LBT-1961A Load Bearing Chest Rig (Goons Edition)
+Task_Else=  Crye Precision CPC plate carrier (Goons Edition)
+Task_Else=  S&S Precision PlateFrame plate carrier (Goons Edition)
+Task_Else=}
+Task_Else=距離: >= 0m
+
+[
+	TaskType=shoot
+	TaskText=Locate and neutralize any Scav Boss (Excluding the Goons) while using any Goons Edition tactical rig
+	TaskOptional=false
+]
+
+Reward_Item=[
+	LBT-1961A Load Bearing Chest Rig (Goons Edition)x1
+]
+Reward_Rep=Ragman+3
+Reward_Item=[
+	Roublesx340000/|
+	NPP KlASS Bagariy plate carrier (Digital Flora) Defaultx3
+]
+
+Reward_EXP=92000

@@ -25,7 +25,7 @@ Task_Else=距離: >= 75m
 
 [
 	TaskType=shoot
-	TaskText=Eliminate Shturman with a headshot from over 75 meters away while using an M700 sniper rifle with the specified scope
+	TaskText=Locate and neutralize Shturman with a headshot from over 75 meters away while using an M700 sniper rifle with the specified scope
 	TaskOptional=false
 ]
 

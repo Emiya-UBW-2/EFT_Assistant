@@ -13,13 +13,13 @@ Task_Map=Shoreline
 factionName=Any
 Task_Map=Shoreline
 Task_Else=TaskType:visit
-Task_Else=Locate the hidden TerraGroup cargo on Shoreline
+Task_Else=Locate the TerraGroup cargo hidden inside the Health Resort on Shoreline
 Task_Map=Shoreline
 Task_Else=脱出ステータス:[Survived,Run Through]
 
 [
 	TaskType=visit
-	TaskText=Locate the hidden TerraGroup cargo on Shoreline
+	TaskText=Locate the TerraGroup cargo hidden inside the Health Resort on Shoreline
 	TaskOptional=false
 ]
 [

@@ -1,0 +1,25 @@
+IDstr=5e00cfa786f77469dc6e5685
+Name=Team Wendy EXFIL Ear Covers (Black)
+ShortName=EXFIL Ears
+Information_Eng=Additional armored ear covers for the Team Wendy EXFIL helmet to ensure a bigger protection area. Black version.
+Itemtype=armored-equipment
+width=2
+height=2
+weight=0.172000
+fleaMarketFee=0
+propertiestype=ItemPropertiesArmorAttachment
+Conflict=[
+	Peltor Tactical Sport headset/|
+	Peltor ComTac IV Hybrid headset (Coyote Brown)/|
+	Walker's XCEL 500BT Digital headset/|
+	Walker's Razor Digital headset/|
+	GSSh-01 active headset/|
+	MSA Sordin Supreme PRO-X/L headset/|
+	Peltor ComTac II headset (OD Green)/|
+	Peltor ComTac VI headset (Coyote Brown)/|
+	Peltor ComTac V headset (OD Green)/|
+	Safariland Liberator HP 2.0 Hearing Protection Headset (FDE)/|
+	OPSMEN Earmor M32 headset
+]
+Name_Jpn=Team Wendy EXFIL Ear Covers (Black)
+Information_Jpn=Additional armored ear covers for the Team Wendy EXFIL helmet to ensure a bigger protection area. Black version.

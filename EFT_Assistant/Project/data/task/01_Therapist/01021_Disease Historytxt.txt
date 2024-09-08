@@ -8,7 +8,7 @@ NeedItem=[RB-KSM keyx1/|RB-SMP keyx1]
 
 CanRestart=false
 NeedKappa=true
-NeedLightkeeper=false
+NeedLightkeeper=true
 
 Task_Map=Reserve
 factionName=Any

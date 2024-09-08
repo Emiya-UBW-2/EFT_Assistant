@@ -1,0 +1,33 @@
+IDstr=666314b8312343839d032d24
+Name=Airmail
+Trader=Mechanic
+
+NeedTask=Quality Standard
+NeedLevel=27
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Woods
+factionName=Any
+Task_Map=Woods
+Task_Else=閾値: >= 0
+
+[
+	TaskType=useItem
+	TaskText=Launch a red signal flare at the old sawmill on Woods
+	TaskOptional=false
+]
+
+Reward_Item=[
+	RSP-30 reactive signal cartridge (Red)x1
+]
+Reward_Rep=Mechanic+1
+Reward_Item=[
+	Roublesx42000/|
+	NcSTAR Tactical blue laser LAM-modulex2/|
+	Zenit Klesch-2IKS IR illuminator with laserx2
+]
+
+Reward_EXP=14000

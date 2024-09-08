@@ -6,7 +6,7 @@ NeedTask=Test Drive - Part 2
 NeedLevel=30
 
 CanRestart=false
-NeedKappa=false
+NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Lighthouse
@@ -19,9 +19,10 @@ NeedItem=[
 	Kalashnikov AK-12 5.45x39 assault riflex0
 ]
 NeedItem=[
-	AK-12 5.45x39 sound suppressorx0/|
-	Valday PS-320 1/6x scopex0
+	Valday PS-320 1/6x scopex0/|
+	AK-12 5.45x39 sound suppressorx0
 ]
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot
@@ -29,6 +30,9 @@ NeedItem=[
 	TaskOptional=false
 ]
 
+Reward_Item=[
+	Kalashnikov AK-12 5.45x39 assault rifle PS-320x1
+]
 Reward_Rep=Prapor+2
 Reward_Item=[
 	Roublesx400000/|

@@ -1,0 +1,87 @@
+IDstr=666314a1920800278d0f6746
+Name=Special Offer
+Trader=Ragman
+
+NeedTask=Circulate
+NeedLevel=35
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+NeedItem=Sanitar's bagx1
+Task_FiR_HandOver=[Sanitar's bagx1]
+DogTagLv=0
+NeedItem=Crye Precision AVS plate carrier (Tagilla Edition)x1
+Task_FiR_HandOver=[Crye Precision AVS plate carrier (Tagilla Edition)x1]
+DogTagLv=0
+NeedItem=LBT-1961A Load Bearing Chest Rig (Goons Edition)x1
+Task_FiR_HandOver=[LBT-1961A Load Bearing Chest Rig (Goons Edition)x1]
+DogTagLv=0
+NeedItem=Mystery Ranch NICE COMM 3 BVS frame system (Coyote)x1
+Task_FiR_HandOver=[Mystery Ranch NICE COMM 3 BVS frame system (Coyote)x1]
+DogTagLv=0
+NeedItem=Crye Precision CPC plate carrier (Goons Edition)x1
+Task_FiR_HandOver=[Crye Precision CPC plate carrier (Goons Edition)x1]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Find Sanitar's bag in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the equipment
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find the Crye Precision AVS plate carrier (Tagilla Edition) in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the equipment
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find the LBT-1961A Load Bearing Chest Rig (Goons Edition) in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the equipment
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find the Mystery Ranch NICE COMM 3 BVS frame system (Coyote) in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the equipment
+	TaskOptional=false
+]
+[
+	TaskType=findItem
+	TaskText=Find the Crye Precision CPC plate carrier (Goons Edition) in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the equipment
+	TaskOptional=false
+]
+
+Reward_Rep=Ragman+3
+Reward_Item=[
+	Roublesx328000/|
+	Walker's XCEL 500BT Digital headsetx2/|
+	Diamond Age Bastion helmet (Black)x2
+]
+
+Reward_EXP=85500

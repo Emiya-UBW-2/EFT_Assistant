@@ -1,7 +1,7 @@
 IDstr=637b9c37b7e3bc41b21ce71a
-Name=SR-2M pistol grip
+Name=SR-2M pistol grip (Plum)
 ShortName=SR-2M
-Information_Eng=A standard-issue pistol grip for SR-2M "Veresk". Manufactured by TsNIItochmash.
+Information_Eng=A standard-issue pistol grip for SR-2M "Veresk". Manufactured by TsNIItochmash. Made out of plum-colored polymer, earning the nickname "Sliva" (Plum).
 Itemtype=pistol-grip
 width=1
 height=1

@@ -1,0 +1,18 @@
+IDstr=6644920d49817dc7d505ca71
+Name=BT10 V8 Atlas Bipod
+ShortName=BT10
+Information_Eng=The Atlas V8 series BT10 bipod. Lightweight, foldable, adjustable. Manufactured by B&T Industries L.L.C.
+Itemtype=bipod
+width=2
+height=1
+weight=0.312000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Conflict=[
+	HK G36 hand stop
+]
+Recoil=0.000000
+Ergonomics=-1.000000
+accuracyModifier=0.000000
+Name_Jpn=BT10 V8 Atlas Bipod
+Information_Jpn=The Atlas V8 series BT10 bipod. Lightweight, foldable, adjustable. Manufactured by B&T Industries L.L.C.

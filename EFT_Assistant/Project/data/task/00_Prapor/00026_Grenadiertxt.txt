@@ -9,31 +9,12 @@ NeedKappa=true
 NeedLightkeeper=false
 
 factionName=Any
-Task_Map=Interchange
-Task_Map=Lighthouse
-Task_Map=Reserve
-Task_Map=Ground Zero
-Task_Map=Shoreline
-Task_Map=Streets of Tarkov
-Task_Map=Woods
-Task_Map=Customs
-Task_Map=Factory
-Task_Map=Night Factory
 Task_Kill=[
-	Interchange-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x8/|
-	Lighthouse-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x8/|
-	Reserve-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x8/|
-	Ground Zero-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x8/|
-	Shoreline-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x8/|
-	Streets of Tarkov-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x8/|
-	Woods-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x8/|
-	Customs-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x8/|
-	Factory-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x8/|
-	Night Factory-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x8
+	any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x8
 ]
 NeedItem=[
 	RDG-2B smoke grenadex0/|
-	"Zarya" stun grenadex0/|
+	Zarya stun grenadex0/|
 	M67 hand grenadex0/|
 	VOG-25 Khattabka improvised hand grenadex0/|
 	VOG-17 Khattabka improvised hand grenadex0/|

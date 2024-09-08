@@ -12,7 +12,8 @@ ChildParts=[
 	Burris FullField TAC30 1-4x24 30mm riflescope/|
 	EOTech Vudu 1-6x24 30mm riflescope/|
 	Leupold Mark 4 LR 6.5-20x50 30mm riflescope/|
-	March Tactical 3-24x42 FFP 30mm riflescope
+	March Tactical 3-24x42 FFP 30mm riflescope/|
+	SIG TANGO6T 1-6x24 30mm riflescope
 ]
 ChildParts=[
 	BelOMO PK-06 reflex sight/|

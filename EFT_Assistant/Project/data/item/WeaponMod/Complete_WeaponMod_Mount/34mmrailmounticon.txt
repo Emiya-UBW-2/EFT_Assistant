@@ -11,7 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Hensoldt FF 4-16x56 34mm riflescope/|
 	Nightforce ATACR 7-35x56 34mm riflescope/|
-	Schmidt & Bender PM II 3-12x50 34mm riflescope/|
+	Schmidt & Bender PM II 3-20x50 34mm riflescope/|
 	Schmidt & Bender PM II 5-25x56 34mm riflescope
 ]
 ChildParts=[

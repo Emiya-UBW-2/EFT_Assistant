@@ -1,0 +1,15 @@
+IDstr=66881008f23233ee9a0742e7
+Name=UZI PRO backplate
+ShortName=PRO plate
+Information_Eng=A standard-issue receiver cover plate for the UZI PRO submachine gun. Manufactured by Israel Weapon Industries.
+Itemtype=stock
+width=1
+height=1
+weight=0.041000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=0.000000
+Ergonomics=1.000000
+accuracyModifier=0.000000
+Name_Jpn=UZI PRO backplate
+Information_Jpn=A standard-issue receiver cover plate for the UZI PRO submachine gun. Manufactured by Israel Weapon Industries.

@@ -20,8 +20,8 @@ ChildParts=[
 ChildParts=[
 	MTs-255-12 beechwood forestock
 ]
-Recoil=442.000000
-RecoilHorizontal=650.000000
+Recoil=364.000000
+RecoilHorizontal=486.000000
 Ergonomics=50.000000
 SightRange=-100
 FireRate=30

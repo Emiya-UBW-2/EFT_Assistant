@@ -3,7 +3,7 @@ Name=Key to the Tower
 Trader=Mechanic
 
 NeedTask=Assessment - Part 3
-NeedLevel=35
+NeedLevel=33
 
 CanRestart=false
 NeedKappa=false

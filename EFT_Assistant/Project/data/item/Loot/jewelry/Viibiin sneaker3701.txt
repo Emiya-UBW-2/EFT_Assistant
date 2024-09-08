@@ -1,0 +1,12 @@
+IDstr=66b37eb4acff495a29492407
+Name=Viibiin sneaker
+ShortName=Viibiin
+Information_Eng=A single Viibiin brand sneaker. Wonder where the other one is.
+Itemtype=jewelry
+width=2
+height=1
+weight=0.420000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=Viibiin sneaker
+Information_Jpn=A single Viibiin brand sneaker. Wonder where the other one is.

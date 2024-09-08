@@ -1,0 +1,18 @@
+IDstr=669fa5127a09bc295603b499
+Name=Desert Eagle L5 .357 pistol slide
+ShortName=L5 .357
+Information_Eng=An L5 slide for the Desert Eagle pistol chambered in .357 Magnum, manufactured by Magnum Research.
+Itemtype=receiver
+width=2
+height=1
+weight=0.310000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Desert Eagle rear sight
+]
+Recoil=0.000000
+Ergonomics=3.000000
+accuracyModifier=0.000000
+Name_Jpn=Desert Eagle L5 .357 pistol slide
+Information_Jpn=An L5 slide for the Desert Eagle pistol chambered in .357 Magnum, manufactured by Magnum Research.

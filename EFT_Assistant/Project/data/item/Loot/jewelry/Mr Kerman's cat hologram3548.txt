@@ -1,0 +1,12 @@
+IDstr=6638a5474e92f038531e210e
+Name=Mr Kerman's cat hologram
+ShortName=Mr Kerman
+Information_Eng=Greetings from Mr. Kerman.
+Itemtype=jewelry
+width=1
+height=2
+weight=0.300000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=Mr Kerman's cat hologram
+Information_Jpn=Greetings from Mr. Kerman.

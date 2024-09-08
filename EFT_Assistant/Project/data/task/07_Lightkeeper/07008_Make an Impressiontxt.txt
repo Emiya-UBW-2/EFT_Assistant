@@ -3,33 +3,23 @@ Name=Make an Impression
 Trader=Lightkeeper
 
 NeedTask=Spotter
-NeedLevel=35
+NeedLevel=33
 
 CanRestart=false
 NeedKappa=false
 NeedLightkeeper=false
 
 factionName=Any
-Task_Else=Skillを上げる:Sniper Rifles+10.000000
-Task_Map=Lighthouse
-Task_Map=Ground Zero
-Task_Map=Shoreline
+Task_Else=Skillを上げる:Bolt-action Rifles+10.000000
 Task_Map=Streets of Tarkov
-Task_Map=Woods
-Task_Map=Customs
 Task_Kill=[
-	Lighthouse-Sniperx10/|
-	Ground Zero-Sniperx10/|
-	Shoreline-Sniperx10/|
-	Streets of Tarkov-Sniperx10/|
-	Woods-Sniperx10/|
-	Customs-Sniperx10
+	Streets of Tarkov-Sniperx10
 ]
 Task_Else=距離: >= 350m
 
 [
 	TaskType=skill
-	TaskText=Reach the required Sniper Rifles skill level
+	TaskText=Reach the required Bolt-action Rifles skill level
 	TaskOptional=false
 ]
 [
@@ -38,7 +28,7 @@ Task_Else=距離: >= 350m
 	TaskOptional=false
 ]
 
-Reward_Rep=Lightkeeper+1
+Reward_Rep=Lightkeeper+4
 Reward_Item=[
 	Phased array elementx2
 ]

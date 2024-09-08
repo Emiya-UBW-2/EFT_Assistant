@@ -1,5 +1,5 @@
 IDstr=5c0696830db834001d23f5da
-Name=PNV-10T Night Vision Goggles
+Name=PNV-10T night vision goggles
 ShortName=PNV-10T
 Information_Eng=PNV-10T are pseudo-binocular night vision googles of the second generation. A widespread and popular device of low-price category among hunters and fans of tactical military games.
 Itemtype=night-vision

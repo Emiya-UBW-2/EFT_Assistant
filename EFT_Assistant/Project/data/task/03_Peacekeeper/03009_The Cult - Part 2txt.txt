@@ -8,7 +8,7 @@ NeedItem=[Dorm room 314 marked keyx1]
 
 CanRestart=false
 NeedKappa=true
-NeedLightkeeper=false
+NeedLightkeeper=true
 
 factionName=Any
 Task_Map=Woods

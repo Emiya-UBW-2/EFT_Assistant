@@ -11,6 +11,10 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AAC 762-SDN-6 multi-caliber sound suppressor
 ]
+Conflict=[
+	M60E4 front sight/|
+	M60E6 front sight rail
+]
 Recoil=-5.000000
 Ergonomics=-1.000000
 accuracyModifier=0.030000

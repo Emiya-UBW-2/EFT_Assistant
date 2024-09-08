@@ -1,20 +1,21 @@
 IDstr=58414a3f2459775a77263531
 Name=VSS Vintorez 9x39 special sniper rifle Default
-ShortName=VSS "Vintorez" Default
+ShortName=VSS Vintorez Default
 Itemtype=marksman-rifle
 width=5
 height=2
-weight=2.591000
+weight=2.600000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	VSS Vintorez 9x39 special sniper riflex1/|
-	VSS 9x39 6L24 10-round magazinex1/|
+	VSS/VAL 9x39 6L24 10-round magazinex1/|
 	VSS 9x39 integral barrel-suppressorx1/|
 	VSS rear sightx1/|
 	VSS dust coverx1/|
-	VSS wooden stockx1
+	VSS wooden stockx1/|
+	VSS/VAL polymer handguard (Black)x1
 ]
 Name_Jpn=VSS Vintorez 9x39 特殊スナイパーライフル デフォルト
 Information_Jpn=

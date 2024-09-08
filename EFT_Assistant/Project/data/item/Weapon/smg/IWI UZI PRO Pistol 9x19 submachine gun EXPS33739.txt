@@ -1,0 +1,25 @@
+IDstr=707265736574000000000041
+Name=IWI UZI PRO Pistol 9x19 submachine gun EXPS3
+ShortName=UZI PRO Pistol EXPS3
+Itemtype=smg
+width=5
+height=2
+weight=2.774000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	IWI UZI PRO Pistol 9x19 submachine gunx1/|
+	UZI PRO 9x19 25-round magazinex1/|
+	UZI PRO 9x19 barrel retaining nutx1/|
+	UZI PRO A3 Tactical Rear Stock Adapterx1/|
+	MPX/MCX Folding Knuckle Stock Adapterx1/|
+	AR-15 Strike Industries Advanced Receiver Extension buffer tubex1/|
+	AR-15 Magpul MOE Carbine stock (FDE)x1/|
+	UZI PRO dust coverx1/|
+	EOTech EXPS3 holographic sight (Tan)x1/|
+	Magpul RVG foregrip (FDE)x1/|
+	UZI PRO 9x19 240mm barrelx1
+]
+Name_Jpn=IWI UZI PRO Pistol 9x19 submachine gun EXPS3
+Information_Jpn=

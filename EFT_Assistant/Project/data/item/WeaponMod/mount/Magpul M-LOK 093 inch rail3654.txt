@@ -1,0 +1,33 @@
+IDstr=669a6a4a525be1d2d004b8eb
+Name=Magpul M-LOK 0.93 inch rail
+ShortName=M-LOK 0.93"
+Information_Eng=The Magpul M-LOK 0.93 inch rail allows installation of additional equipment on the handguards equipped with an M-LOK interface.
+Itemtype=mount
+width=1
+height=1
+weight=0.035000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	NcSTAR Tactical blue laser LAM-module/|
+	Steiner DBAL-PL tactical device/|
+	SureFire X400 Ultra tactical flashlight with laser/|
+	SureFire XC1 tactical flashlight/|
+	Zenit Klesch-2IKS IR illuminator with laser/|
+	Zenit Klesch-2P flashlight with laser/|
+	Kiba Arms 25mm accessory ring mount/|
+	Daniel Defense 25mm accessory ring mount/|
+	Olight Baldr Pro tactical flashlight with laser/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
+	Insight WMX200 tactical flashlight/|
+	Holosun LS321 Tactical device/|
+	Insight AN/PEQ-2 tactical device/|
+	Zenit Klesch-2U tactical flashlight/|
+	MAWL-C1+ tactical device/|
+	Zenit KR-2 old gen mount
+]
+Recoil=0.000000
+Ergonomics=0.000000
+accuracyModifier=0.000000
+Name_Jpn=Magpul M-LOK 0.93 inch rail
+Information_Jpn=The Magpul M-LOK 0.93 inch rail allows installation of additional equipment on the handguards equipped with an M-LOK interface.

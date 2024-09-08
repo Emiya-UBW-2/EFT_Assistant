@@ -23,7 +23,7 @@ DogTagLv=0
 
 [
 	TaskType=shoot
-	TaskText=Locate and eliminate Shturman
+	TaskText=Locate and neutralize Shturman
 	TaskOptional=false
 ]
 [

@@ -4,6 +4,7 @@ Trader=Skier
 
 NeedTask=Debtor
 NeedLevel=33
+NeedItem=[Iron gate keyx1]
 
 CanRestart=false
 NeedKappa=false

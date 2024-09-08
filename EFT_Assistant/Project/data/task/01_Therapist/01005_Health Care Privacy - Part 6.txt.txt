@@ -1,0 +1,36 @@
+IDstr=669fa3a3ad7f1eac2607ed48
+Name=Health Care Privacy - Part 6
+Trader=Therapist
+
+NeedTask=Health Care Privacy - Part 5
+NeedLevel=20
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Factory
+factionName=Any
+Task_Map=Factory
+Task_Map=Night Factory
+Task_Else=拾って納品:Factory-Blood samplex1
+Task_Else=拾って納品:Night Factory-Blood samplex1
+
+[
+	TaskType=findQuestItem
+	TaskText=Locate the dead worker and take their blood sample on Factory
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the blood sample
+	TaskOptional=false
+]
+
+Reward_Rep=Therapist+2
+Reward_Item=[
+	Roublesx32000/|
+	Ibuprofen painkillersx3
+]
+
+Reward_EXP=9300

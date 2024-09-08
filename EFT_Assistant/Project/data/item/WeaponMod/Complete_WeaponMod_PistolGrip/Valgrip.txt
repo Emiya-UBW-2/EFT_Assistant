@@ -1,5 +1,5 @@
 IDstr=57c44fa82459772d2d75e415
-Name=AS VAL pistol grip
+Name=AS VAL pistol grip (Plum)
 ShortName=VAL
 Information_Eng=A standard-issue polymer pistol grip for AS VAL, manufactured by TSNIITochMash.
 Itemtype=pistol-grip

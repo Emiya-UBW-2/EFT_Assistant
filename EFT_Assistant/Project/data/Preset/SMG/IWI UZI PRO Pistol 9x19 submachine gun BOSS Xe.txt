@@ -1,0 +1,8 @@
+Name=IWI UZI PRO Pistol 9x19 submachine gun BOSS Xe
+Base=IWI UZI PRO Pistol 9x19 submachine gun
+Parts=UZI PRO 9x19 barrel retaining nut
+Parts=UZI PRO dust cover
+Parts=Wilcox BOSS Xe reflex sight
+Parts=UZI PRO 9x19 240mm barrel
+Parts=UZI PRO 9x19 32-round magazine
+Parts=UZI PRO SBR buttstock

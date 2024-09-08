@@ -16,7 +16,14 @@ Conflict=[
 	EMERCOM cap/|
 	Police cap/|
 	Gus baseball cap/|
-	Basmach leather cap
+	Basmach leather cap/|
+	BEAR baseball cap (Black)/|
+	USEC baseball cap (Black)/|
+	Army cap (Black)/|
+	Beret (Blue)/|
+	Beret (Olive Drab)/|
+	Beret (Black)/|
+	BOSS cap
 ]
 Name_Jpn=Shemagh (Tan)
 Information_Jpn=A favorite headpiece of PMCs around the globe.

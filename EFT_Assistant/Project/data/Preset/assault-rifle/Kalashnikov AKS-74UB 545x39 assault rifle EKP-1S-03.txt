@@ -1,0 +1,11 @@
+Name=Kalashnikov AKS-74UB 5.45x39 assault rifle EKP-1S-03
+Base=Kalashnikov AKS-74UB 5.45x39 assault rifle
+Parts=AK polymer pistol grip (6P1 Sb.8)
+Parts=AKS-74U gas tube (6P26 Sb.1-2)
+Parts=AKS-74U Zenit B-11 handguard
+Parts=RTM Pillau tactical foregrip
+Parts=AKS-74U metal skeleton stock (6P26 Sb.5)
+Parts=AK-74 Delta-Tek Saiga 545 5.45x39 20-round magazine
+Parts=AKS-74U PBS-4 5.45x39 sound suppressor
+Parts=AKS-74UB dust cover
+Parts=Axion Kobra EKP-1S-03 reflex sight (Dovetail)

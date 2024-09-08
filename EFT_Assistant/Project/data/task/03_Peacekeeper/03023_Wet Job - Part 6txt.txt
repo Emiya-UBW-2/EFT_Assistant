@@ -10,11 +10,11 @@ NeedKappa=true
 NeedLightkeeper=false
 
 factionName=Any
-Task_Else=Skillを上げる:Sniper Rifles+7.000000
+Task_Else=Skillを上げる:Bolt-action Rifles+7.000000
 
 [
 	TaskType=skill
-	TaskText=Reach the required Sniper Rifles skill level
+	TaskText=Reach the required Bolt-action Rifles skill level
 	TaskOptional=false
 ]
 

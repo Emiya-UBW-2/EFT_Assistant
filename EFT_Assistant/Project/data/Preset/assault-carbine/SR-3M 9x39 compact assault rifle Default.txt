@@ -1,0 +1,8 @@
+Name=SR-3M 9x39 compact assault rifle Default
+Base=SR-3M 9x39 compact assault rifle
+Parts=AS VAL dust cover
+Parts=VSS/VAL 9x39 SR3M.130 30-round magazine
+Parts=AS VAL pistol grip (Plum)
+Parts=AS VAL skeleton stock
+Parts=SR-3M polymer handguard (Plum)
+Parts=SR-3M polymer foregrip (Plum)

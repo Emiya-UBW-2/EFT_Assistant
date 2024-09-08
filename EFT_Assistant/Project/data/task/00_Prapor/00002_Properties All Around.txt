@@ -37,7 +37,7 @@ Task_Else=拾って納品:Streets of Tarkov-Cadastral registry recordsx1
 Reward_Rep=Prapor+2
 Reward_Item=[
 	Roublesx84000/|
-	SR-2M "Veresk" 9x21 submachine gun Defaultx1/|
+	SR-2M Veresk 9x21 submachine gun Defaultx1/|
 	9x21mm PS gzh ammo pack (30 pcs)x4/|
 	SR-2M 9x21 30-round magazinex3
 ]

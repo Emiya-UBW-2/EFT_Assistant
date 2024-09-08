@@ -18,7 +18,7 @@ Task_Else=拾って納品:Interchange-Clothes design handbook - Part 2x1
 
 [
 	TaskType=findQuestItem
-	TaskText=Obtain the Clothes design handbook - Part 1 on Interchange
+	TaskText=Obtain the first book of clothes design on Interchange
 	TaskOptional=false
 ]
 [
@@ -28,7 +28,7 @@ Task_Else=拾って納品:Interchange-Clothes design handbook - Part 2x1
 ]
 [
 	TaskType=findQuestItem
-	TaskText=Obtain the Clothes design handbook - Part 2 on Interchange
+	TaskText=Obtain the second book of clothes design on Interchange
 	TaskOptional=false
 ]
 [

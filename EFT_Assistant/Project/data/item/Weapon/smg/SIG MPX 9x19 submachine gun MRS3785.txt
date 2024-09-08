@@ -1,0 +1,26 @@
+IDstr=sigmpxmrs000000000000001
+Name=SIG MPX 9x19 submachine gun MRS
+ShortName=MPX MRS
+Itemtype=smg
+width=4
+height=2
+weight=2.708000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	SIG MPX 9x19 submachine gunx1/|
+	AR-15 HK Battle Grip Beavertail pistol gripx1/|
+	MPX GEN1 9x19 upper receiverx1/|
+	MPX 9x19 203mm barrelx1/|
+	MPX A2 9x19 flash hiderx1/|
+	MPX Midwest Industries 6.5 inch M-LOK handguardx1/|
+	MPX flip-up front sightx1/|
+	MPX flip-up rear sightx1/|
+	Walther MRS reflex sightx1/|
+	MPX single latch charging handlex1/|
+	MPX 9x19 30-round magazinex1/|
+	MPX/MCX PMM ULSS foldable stockx1
+]
+Name_Jpn=MPX 9x19 サブマシンガン MRS
+Information_Jpn=

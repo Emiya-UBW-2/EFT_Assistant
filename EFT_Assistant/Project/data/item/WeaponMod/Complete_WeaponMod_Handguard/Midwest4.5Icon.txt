@@ -11,17 +11,20 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount/|
-	Magpul M-LOK Offset Light Mount
+	Magpul M-LOK Offset Light Mount/|
+	Magpul M-LOK 0.93 inch rail
 ]
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount/|
-	Magpul M-LOK Offset Light Mount
+	Magpul M-LOK Offset Light Mount/|
+	Magpul M-LOK 0.93 inch rail
 ]
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount/|
-	Magpul M-LOK Offset Light Mount
+	Magpul M-LOK Offset Light Mount/|
+	Magpul M-LOK 0.93 inch rail
 ]
 ChildParts=[
 	HK MP7 flip-up front sight/|

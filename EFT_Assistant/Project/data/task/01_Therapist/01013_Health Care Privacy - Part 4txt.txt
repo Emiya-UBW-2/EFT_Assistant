@@ -7,7 +7,7 @@ NeedLevel=20
 
 CanRestart=false
 NeedKappa=true
-NeedLightkeeper=true
+NeedLightkeeper=false
 
 factionName=Any
 Task_Else=Skillを上げる:Health+4.000000

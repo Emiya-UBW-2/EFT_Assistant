@@ -10,27 +10,8 @@ NeedKappa=true
 NeedLightkeeper=false
 
 factionName=Any
-Task_Map=Interchange
-Task_Map=Lighthouse
-Task_Map=Reserve
-Task_Map=Ground Zero
-Task_Map=Shoreline
-Task_Map=Streets of Tarkov
-Task_Map=Woods
-Task_Map=Customs
-Task_Map=Factory
-Task_Map=Night Factory
 Task_Kill=[
-	Interchange-Scavsx5/|
-	Lighthouse-Scavsx5/|
-	Reserve-Scavsx5/|
-	Ground Zero-Scavsx5/|
-	Shoreline-Scavsx5/|
-	Streets of Tarkov-Scavsx5/|
-	Woods-Scavsx5/|
-	Customs-Scavsx5/|
-	Factory-Scavsx5/|
-	Night Factory-Scavsx5
+	any PMC operativesx5
 ]
 NeedItem=[
 	Springfield Armory M1A 7.62x51 riflex0
@@ -53,7 +34,7 @@ Reward_Item=[
 Reward_Rep=Prapor+2
 Reward_Item=[
 	VSS Vintorez 9x39 special sniper rifle Defaultx1/|
-	9x39 SR3M.130 30-round magazinex2/|
+	VSS/VAL 9x39 SR3M.130 30-round magazinex2/|
 	9x39mm PAB-9 gsx120
 ]
 

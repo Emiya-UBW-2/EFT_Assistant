@@ -1,0 +1,31 @@
+IDstr=668672b8c99550c6fd0f0b29
+Name=UZI PRO A3 Tactical Rear Stock Adapter
+ShortName=A3 RSA
+Information_Eng=A Picatinny adapter designed for installation of various buttstocks on the UZI PRO submachine gun. Manufactured by A3 Tactical.
+Itemtype=stock
+width=1
+height=1
+weight=0.030000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	MPX/MCX Folding Knuckle Stock Adapter/|
+	MPX/MCX Collapsing/Telescoping Stock/|
+	MPX/MCX Telescoping/Folding Stock/|
+	MPX/MCX Thin Side-Folding Stock/|
+	MPX/MCX PMM ULSS foldable stock/|
+	MPX/MCX Stock Locking Hinge Assembly/|
+	UZI PRO A3 Tactical Modular Folding Brace
+]
+Conflict=[
+	AR-15 Colt A2 buffer tube/|
+	Armacon Baskak stock/|
+	AR-15 Magpul PRS GEN3 stock (Black)/|
+	AR-15 Magpul PRS GEN3 stock (Grey)/|
+	Mesa Tactical Crosshair Hydraulic buffer tube
+]
+Recoil=0.000000
+Ergonomics=0.000000
+accuracyModifier=0.000000
+Name_Jpn=UZI PRO A3 Tactical Rear Stock Adapter
+Information_Jpn=A Picatinny adapter designed for installation of various buttstocks on the UZI PRO submachine gun. Manufactured by A3 Tactical.

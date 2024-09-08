@@ -27,7 +27,7 @@ Task_Else=width >= 0
 
 [
 	TaskType=buildWeapon
-	TaskText=Modify an P226R to comply with the given specifications
+	TaskText=Modify a P226R to comply with the given specifications
 	TaskOptional=false
 ]
 

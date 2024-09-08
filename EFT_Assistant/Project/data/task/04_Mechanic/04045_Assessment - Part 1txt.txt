@@ -3,7 +3,7 @@ Name=Assessment - Part 1
 Trader=Mechanic
 
 NeedTask=Network Provider - Part 2
-NeedLevel=35
+NeedLevel=33
 
 CanRestart=false
 NeedKappa=false
@@ -13,7 +13,7 @@ Task_Map=Lighthouse
 factionName=Any
 Task_Map=Lighthouse
 Task_Kill=[
-	Lighthouse-Scavsx20
+	Lighthouse-any PMC operativesx15
 ]
 Task_Else=ゾーン:[Lighthouse Island]
 Task_Else=距離: >= 0m

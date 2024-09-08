@@ -21,7 +21,7 @@ Task_NotFiR_HandOver=[Golden neck chainx3]
 DogTagLv=0
 Task_Map=Interchange
 Task_Kill=[
-	Interchange-Scavsx5
+	Interchange-any PMC operativesx5
 ]
 Task_Else=距離: >= 0m
 

@@ -8,7 +8,7 @@ NeedItem=[Dorm room 303 keyx1/|Trailer park portable cabin keyx1]
 
 CanRestart=false
 NeedKappa=true
-NeedLightkeeper=false
+NeedLightkeeper=true
 
 Task_Map=Customs
 factionName=Any

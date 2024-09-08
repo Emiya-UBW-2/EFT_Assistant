@@ -1,0 +1,33 @@
+IDstr=66992f7d9950f5f4cd0602a8
+Name=UZI StormWerkz lower handguard rail
+ShortName=UZI SW
+Information_Eng=A rail designed for installation on the UZI submachine gun handguard. Manufactured by StormWerkz.
+Itemtype=mount
+width=1
+height=1
+weight=0.025000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser/|
+	NcSTAR Tactical blue laser LAM-module/|
+	Steiner DBAL-PL tactical device/|
+	Steiner LAS/TAC 2 tactical flashlight/|
+	SureFire X400 Ultra tactical flashlight with laser/|
+	SureFire XC1 tactical flashlight/|
+	Zenit Klesch-2IKS IR illuminator with laser/|
+	Zenit Klesch-2P flashlight with laser/|
+	Zenit Klesch-2U tactical flashlight/|
+	Olight Baldr Pro tactical flashlight with laser/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
+	Zenit KR-2 old gen mount
+]
+Conflict=[
+	UZI K-Grip handguard/|
+	UZI handguard with foregrip
+]
+Recoil=0.000000
+Ergonomics=0.000000
+accuracyModifier=0.000000
+Name_Jpn=UZI StormWerkz lower handguard rail
+Information_Jpn=A rail designed for installation on the UZI submachine gun handguard. Manufactured by StormWerkz.

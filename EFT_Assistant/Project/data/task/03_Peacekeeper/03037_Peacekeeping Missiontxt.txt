@@ -7,7 +7,7 @@ NeedLevel=30
 
 CanRestart=false
 NeedKappa=true
-NeedLightkeeper=true
+NeedLightkeeper=false
 
 factionName=Any
 Task_Map=Woods
@@ -70,6 +70,20 @@ Task_Else=  UNTAR helmet
 Task_Else=  MF-UNTAR body armor
 Task_Else=}
 Task_Else=距離: >= 0m
+Task_Map=Ground Zero
+Task_Map=Ground Zero 21+
+Task_Kill=[
+	Ground Zero-Scavsx12/|
+	Ground Zero 21+-Scavsx12
+]
+NeedItem=[
+	Colt M4A1 5.56x45 assault riflex0
+]
+Task_Else=装備が必要:{
+Task_Else=  UNTAR helmet
+Task_Else=  MF-UNTAR body armor
+Task_Else=}
+Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot
@@ -96,6 +110,11 @@ Task_Else=距離: >= 0m
 	TaskText=Eliminate Scavs while wearing a UN uniform (UNTAR helmet, MF-UNTAR body armor, M4A1 rifle) on Streets of Tarkov
 	TaskOptional=false
 ]
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs while wearing a UN uniform (UNTAR helmet, MF-UNTAR body armor, M4A1 rifle) on Ground Zero
+	TaskOptional=false
+]
 
 Reward_Item=[
 	UNTAR helmetx1/|
@@ -107,7 +126,7 @@ Reward_Rep=Peacekeeper+4
 Reward_Item=[
 	Remington Model 700 7.62x51 bolt-action sniper rifle AAC SDx1/|
 	7.62x51mm M61x30/|
-	GPNVG-18 Night Vision gogglesx2
+	L3Harris GPNVG-18 night vision gogglesx2
 ]
 
 Reward_EXP=25500

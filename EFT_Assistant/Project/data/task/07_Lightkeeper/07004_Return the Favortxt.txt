@@ -3,7 +3,7 @@ Name=Return the Favor
 Trader=Lightkeeper
 
 NeedTask=Snatch
-NeedLevel=35
+NeedLevel=33
 
 CanRestart=false
 NeedKappa=false
@@ -13,7 +13,7 @@ Task_Map=Woods
 factionName=Any
 Task_Map=Woods
 Task_Kill=[
-	Woods-Scavsx15
+	Woods-any PMC operativesx15
 ]
 Task_Else=ゾーン:[Woods Mountain]
 Task_Else=距離: >= 0m
@@ -31,12 +31,12 @@ DogTagLv=0
 ]
 [
 	TaskType=plantItem
-	TaskText=Hide the TerraGroup "Blue Folders" materials folder inside the black SUV in the USEC camp
+	TaskText=Hide the TerraGroup "Blue Folders" materials inside the black SUV in the USEC camp on Woods
 	TaskOptional=false
 ]
 [
 	TaskType=plantItem
-	TaskText=Hide the TerraGroup "Blue Folders" materials in the crates near the satellite antenna in the USEC camp
+	TaskText=Hide the TerraGroup "Blue Folders" materials in the crates near the satellite antenna in the USEC camp on Woods
 	TaskOptional=false
 ]
 

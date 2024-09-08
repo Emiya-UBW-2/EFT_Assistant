@@ -1,0 +1,12 @@
+IDstr=66b37ea4c5d72b0277488439
+Name=Tamatthi kunai knife replica
+ShortName=Tamatthi
+Information_Eng=A replica of the Tamatthi ninja knife.
+Itemtype=jewelry
+width=1
+height=2
+weight=0.438000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=Tamatthi kunai knife replica
+Information_Jpn=A replica of the Tamatthi ninja knife.

@@ -21,7 +21,7 @@ Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot
-	TaskText=Locate and eliminate Sanitar
+	TaskText=Locate and neutralize Sanitar
 	TaskOptional=false
 ]
 

@@ -7,22 +7,12 @@ NeedLevel=2
 
 CanRestart=false
 NeedKappa=true
-NeedLightkeeper=true
+NeedLightkeeper=false
 
 factionName=Any
-Task_Map=Lighthouse
-Task_Map=Ground Zero
-Task_Map=Shoreline
 Task_Map=Streets of Tarkov
-Task_Map=Woods
-Task_Map=Customs
 Task_Kill=[
-	Lighthouse-Sniperx5/|
-	Ground Zero-Sniperx5/|
-	Shoreline-Sniperx5/|
-	Streets of Tarkov-Sniperx5/|
-	Woods-Sniperx5/|
-	Customs-Sniperx5
+	Streets of Tarkov-Sniperx5
 ]
 NeedItem=[
 	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
@@ -30,7 +20,7 @@ NeedItem=[
 	SV-98 7.62x54R bolt-action sniper riflex0/|
 	Lobaev Arms DVL-10 7.62x51 bolt-action sniper riflex0/|
 	Remington Model 700 7.62x51 bolt-action sniper riflex0/|
-	Molot Arms VPO-215 "Gornostay" .366 TKM bolt-action riflex0/|
+	Molot Arms VPO-215 Gornostay .366 TKM bolt-action riflex0/|
 	ORSIS T-5000M 7.62x51 bolt-action sniper riflex0/|
 	MP-18 7.62x54R single-shot riflex0/|
 	Accuracy International AXMC .338 LM bolt-action sniper riflex0
@@ -46,7 +36,7 @@ Task_Else=距離: >= 0m
 Reward_Rep=Jaeger+2
 Reward_Item=[
 	Roublesx85000/|
-	Mosin Rifle ATI Monte Carlo chassisx1/|
+	Mosin Rifle ATI Monte Carlo stockx1/|
 	Ski hat with holes for eyesx1
 ]
 

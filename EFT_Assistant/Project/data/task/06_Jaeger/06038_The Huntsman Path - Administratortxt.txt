@@ -13,7 +13,7 @@ Task_Map=Streets of Tarkov
 factionName=Any
 Task_Map=Streets of Tarkov
 Task_Kill=[
-	Streets of Tarkov-Scavsx20
+	Streets of Tarkov-any targetx20
 ]
 Task_Else=ゾーン:[Pinewood Hotel]
 Task_Else=距離: >= 0m

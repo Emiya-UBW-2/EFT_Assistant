@@ -8,7 +8,7 @@ NeedLevel=35
 
 CanRestart=false
 NeedKappa=true
-NeedLightkeeper=true
+NeedLightkeeper=false
 
 Task_Map=Interchange
 factionName=Any
@@ -25,7 +25,7 @@ Task_Else=距離: <= 60m
 
 [
 	TaskType=shoot
-	TaskText=Eliminate Scavs from less than 60 meters away while wearing specific gear on Interchange
+	TaskText=Eliminate Scavs from less than 60 meters away while wearing a gas mask or respirator on Interchange
 	TaskOptional=false
 ]
 

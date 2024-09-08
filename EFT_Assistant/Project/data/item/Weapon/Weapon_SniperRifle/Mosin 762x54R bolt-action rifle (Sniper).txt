@@ -1,6 +1,6 @@
 IDstr=5ae08f0a5acfc408fb1398a1
 Name=Mosin 7.62x54R bolt-action rifle (Sniper)
-ShortName=Mosin (Sniper)
+ShortName=Mosin Sniper
 Information_Eng=Mosin–Nagant M91/30 PU is a sniper variant of the famous russian rifle, which was commonly in use by russian snipers during WW2.
 Itemtype=sniper-rifle
 width=1
@@ -13,7 +13,7 @@ ChildParts=[
 	Mosin Rifle 7.62x54R ProMag Archangel OPFOR 10-round magazine
 ]
 ChildParts=[
-	Mosin Rifle ATI Monte Carlo chassis/|
+	Mosin Rifle ATI Monte Carlo stock/|
 	Mosin Rifle sawed-off stock/|
 	Mosin Rifle sniper carbine stock/|
 	Mosin Rifle carbine stock/|

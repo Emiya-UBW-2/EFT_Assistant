@@ -26,8 +26,8 @@ ChildParts=[
 ChildParts=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
 	OKP-7 reflex sight (Dovetail)/|
-	NPZ PK1 "Obzor" dovetail reflex sight/|
-	NPZ USP-1 "Tyulpan" 4x scope/|
+	NPZ PK1 Obzor dovetail reflex sight/|
+	NPZ USP-1 Tyulpan 4x scope/|
 	NSPU-M 3.5x dovetail night vision scope/|
 	Axion Kobra dovetail mount/|
 	SVD CAA XD RGL receiver mount/|
@@ -38,7 +38,8 @@ ChildParts=[
 	Zenit B-13V "Klassika" dovetail rail platform/|
 	SAG Bit low profile dovetail sidemount/|
 	SAG AK dovetail sidemount/|
-	Axion Kobra EKP-1S-03 reflex sight (Dovetail)
+	Axion Kobra EKP-1S-03 reflex sight (Dovetail)/|
+	RS Regulate AK-303M Full Length Lower dovetail mount
 ]
 ChildParts=[
 	SVDS upper band/|

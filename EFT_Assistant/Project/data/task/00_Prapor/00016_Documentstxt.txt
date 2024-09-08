@@ -20,17 +20,17 @@ Task_Else=拾って納品:Reserve-Military documents #3x1
 
 [
 	TaskType=findQuestItem
-	TaskText=Obtain Military documents #1 in the command bunker offices on Reserve
+	TaskText=Obtain the first folder with military documents in the command bunker offices on Reserve
 	TaskOptional=false
 ]
 [
 	TaskType=findQuestItem
-	TaskText=Obtain Military documents #2 in the command bunker offices on Reserve
+	TaskText=Obtain the second folder with military documents in the command bunker offices on Reserve
 	TaskOptional=false
 ]
 [
 	TaskType=findQuestItem
-	TaskText=Obtain Military documents #3 in the command bunker offices on Reserve
+	TaskText=Obtain the third folder with military documents in the command bunker offices on Reserve
 	TaskOptional=false
 ]
 [

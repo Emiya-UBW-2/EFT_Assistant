@@ -1,0 +1,17 @@
+IDstr=6699249f3c4fda6471005cba
+Name=UZI Type 5 buttstock
+ShortName=Type 5
+Information_Eng=A foldable buttstock for the UZI submachine gun. The most famous variant which has been involved in countless operations, from localized skirmishes on the southern continent, to protecting presidents during assassination attempts. Manufactured by Israel Weapon Industries.
+Slap it HARDER, I know you want it!
+Itemtype=stock
+width=2
+height=1
+weight=0.650000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=-21.000000
+Ergonomics=5.000000
+accuracyModifier=0.000000
+Name_Jpn=UZI Type 5 buttstock
+Information_Jpn=A foldable buttstock for the UZI submachine gun. The most famous variant which has been involved in countless operations, from localized skirmishes on the southern continent, to protecting presidents during assassination attempts. Manufactured by Israel Weapon Industries.
+Slap it HARDER, I know you want it!

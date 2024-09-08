@@ -1,0 +1,27 @@
+IDstr=5d96141523f0ea1b7f2aacab
+Name=Door Kicker boonie hat
+ShortName=Door Kicker
+Information_Eng=A well-worn "PriceLess" boonie hat. It is believed that those who wear it can open any door in this world.
+Itemtype=headwear
+width=2
+height=2
+weight=0.100000
+fleaMarketFee=0
+propertiestype=
+Conflict=[
+	Peltor ComTac II headset (OD Green)/|
+	MSA Sordin Supreme PRO-X/L headset/|
+	Ops-Core FAST RAC Headset/|
+	TW EXFIL Peltor ComTac V headset (OD Green)/|
+	TW EXFIL Peltor ComTac VI headset (Coyote Brown)/|
+	Peltor ComTac IV Hybrid headset (Coyote Brown)/|
+	Peltor ComTac V headset (OD Green)/|
+	Peltor ComTac VI headset (Coyote Brown)/|
+	Safariland Liberator HP 2.0 Hearing Protection Headset (FDE)/|
+	OPSMEN Earmor M32 headset/|
+	Peltor Tactical Sport headset/|
+	Walker's Razor Digital headset/|
+	Walker's XCEL 500BT Digital headset
+]
+Name_Jpn="Door Kicker" ブーニーハット
+Information_Jpn=A well-worn "PriceLess" boonie hat. It is believed that those who wear it can open any door in this world.

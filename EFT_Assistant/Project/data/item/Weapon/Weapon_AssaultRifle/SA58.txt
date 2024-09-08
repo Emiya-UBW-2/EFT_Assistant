@@ -51,8 +51,8 @@ ChildParts=[
 	SA-58 folding stock/|
 	SA-58 SPR stock
 ]
-Recoil=147.000000
-RecoilHorizontal=355.000000
+Recoil=194.000000
+RecoilHorizontal=423.000000
 Ergonomics=39.000000
 SightRange=-100
 FireRate=700

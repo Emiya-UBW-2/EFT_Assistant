@@ -47,7 +47,7 @@ Reward_Item=[
 Reward_Rep=Mechanic+2
 Reward_Item=[
 	Roublesx30000/|
-	Benelli M3 Super 90 dual-mode 12ga shotgun Defaultx1/|
+	Benelli M3 Super 90 12ga dual-mode shotgun Defaultx1/|
 	12/70 8.5mm Magnum buckshotx40
 ]
 

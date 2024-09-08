@@ -1,0 +1,50 @@
+IDstr=669fa39b91b0a8c9680fc467
+Name=Black Swan
+Trader=Mechanic
+
+NeedTask=Scout
+NeedLevel=12
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Factory
+factionName=Any
+Task_Map=Factory
+Task_Map=Night Factory
+NeedItem=MS2000 Markerx1
+Task_Map=Factory
+Task_Map=Night Factory
+NeedItem=MS2000 Markerx1
+Task_Map=Factory
+Task_Map=Night Factory
+NeedItem=MS2000 Markerx1
+
+[
+	TaskType=mark
+	TaskText=Locate and mark the first heat exchanger with an MS2000 Marker on Factory
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Locate and mark the second heat exchanger with an MS2000 Marker on Factory
+	TaskOptional=false
+]
+[
+	TaskType=mark
+	TaskText=Locate and mark the third heat exchanger with an MS2000 Marker on Factory
+	TaskOptional=false
+]
+
+Reward_Item=[
+	MS2000 Markerx3
+]
+Reward_Rep=Mechanic+2
+Reward_Item=[
+	Roublesx35000/|
+	Pressure gaugex2/|
+	Radiator helixx2
+]
+
+Reward_EXP=8600

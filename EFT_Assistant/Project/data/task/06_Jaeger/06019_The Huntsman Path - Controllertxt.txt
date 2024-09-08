@@ -10,27 +10,8 @@ NeedKappa=true
 NeedLightkeeper=false
 
 factionName=Any
-Task_Map=Interchange
-Task_Map=Lighthouse
-Task_Map=Reserve
-Task_Map=Ground Zero
-Task_Map=Shoreline
-Task_Map=Streets of Tarkov
-Task_Map=Woods
-Task_Map=Customs
-Task_Map=Factory
-Task_Map=Night Factory
 Task_Kill=[
-	Interchange-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x2/|
-	Lighthouse-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x2/|
-	Reserve-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x2/|
-	Ground Zero-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x2/|
-	Shoreline-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x2/|
-	Streets of Tarkov-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x2/|
-	Woods-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x2/|
-	Customs-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x2/|
-	Factory-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x2/|
-	Night Factory-Scavs{head/thorax/stomach/left arm/right arm/left leg/right leg}x2
+	any PMC operatives{head/thorax/stomach/left arm/right arm/left leg/right leg}x2
 ]
 Task_Else=距離: >= 0m
 Task_Else=敵の該当箇所に異常状態:[head,thorax,stomach,left arm,right arm,left leg,right leg]

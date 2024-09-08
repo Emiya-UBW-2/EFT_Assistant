@@ -1,6 +1,6 @@
 IDstr=5fbcc429900b1d5091531dd7
-Name=MPX/MCX telescoping stock
-ShortName=MPX/MCX tele
+Name=MPX/MCX Telescoping/Folding Stock
+ShortName=SIG TFS
 Information_Eng=A telescopic stock for MPX/MCX manufactured by SIG Sauer.
 Itemtype=stock
 width=2

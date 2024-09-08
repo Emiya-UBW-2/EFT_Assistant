@@ -6,78 +6,40 @@ NeedTask=Bullshit
 NeedLevel=30
 
 CanRestart=false
-NeedKappa=true
+NeedKappa=false
 NeedLightkeeper=false
 
 factionName=Any
-Task_Map=Interchange
-Task_Map=Lighthouse
-Task_Map=Reserve
-Task_Map=Ground Zero
-Task_Map=Shoreline
-Task_Map=Streets of Tarkov
-Task_Map=Woods
-Task_Map=Customs
-Task_Map=Factory
-Task_Map=Night Factory
 Task_Kill=[
-	Interchange-Scavsx20/|
-	Lighthouse-Scavsx20/|
-	Reserve-Scavsx20/|
-	Ground Zero-Scavsx20/|
-	Shoreline-Scavsx20/|
-	Streets of Tarkov-Scavsx20/|
-	Woods-Scavsx20/|
-	Customs-Scavsx20/|
-	Factory-Scavsx20/|
-	Night Factory-Scavsx20
+	Scavsx20
 ]
 NeedItem=[
-	Saiga 12ga ver.10 12/76 semi-automatic shotgunx0/|
+	Saiga-12K ver.10 12ga semi-automatic shotgunx0/|
 	MP-133 12ga pump-action shotgunx0/|
 	Remington Model 870 12ga pump-action shotgunx0/|
 	Mossberg 590A1 12ga pump-action shotgunx0/|
 	MP-153 12ga semi-automatic shotgunx0/|
 	MP-43-1C 12ga double-barrel shotgunx0/|
 	MP-155 12ga semi-automatic shotgunx0/|
-	Benelli M3 Super 90 dual-mode 12ga shotgunx0
+	Benelli M3 Super 90 12ga dual-mode shotgunx0
 ]
 NeedItem=[
 	SilencerCo Salvo 12 12ga sound suppressorx0/|
 	Hexagon 12K 12ga sound suppressorx0
 ]
 Task_Else=距離: >= 0m
-Task_Map=Interchange
-Task_Map=Lighthouse
-Task_Map=Reserve
-Task_Map=Ground Zero
-Task_Map=Shoreline
-Task_Map=Streets of Tarkov
-Task_Map=Woods
-Task_Map=Customs
-Task_Map=Factory
-Task_Map=Night Factory
 Task_Kill=[
-	Interchange-Scavsx10/|
-	Lighthouse-Scavsx10/|
-	Reserve-Scavsx10/|
-	Ground Zero-Scavsx10/|
-	Shoreline-Scavsx10/|
-	Streets of Tarkov-Scavsx10/|
-	Woods-Scavsx10/|
-	Customs-Scavsx10/|
-	Factory-Scavsx10/|
-	Night Factory-Scavsx10
+	any PMC operativesx10
 ]
 NeedItem=[
-	Saiga 12ga ver.10 12/76 semi-automatic shotgunx0/|
+	Saiga-12K ver.10 12ga semi-automatic shotgunx0/|
 	MP-133 12ga pump-action shotgunx0/|
 	Remington Model 870 12ga pump-action shotgunx0/|
 	Mossberg 590A1 12ga pump-action shotgunx0/|
 	MP-153 12ga semi-automatic shotgunx0/|
 	MP-43-1C 12ga double-barrel shotgunx0/|
 	MP-155 12ga semi-automatic shotgunx0/|
-	Benelli M3 Super 90 dual-mode 12ga shotgunx0
+	Benelli M3 Super 90 12ga dual-mode shotgunx0
 ]
 NeedItem=[
 	SilencerCo Salvo 12 12ga sound suppressorx0/|

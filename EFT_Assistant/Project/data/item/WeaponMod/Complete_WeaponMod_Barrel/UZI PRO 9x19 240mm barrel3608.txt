@@ -1,0 +1,16 @@
+IDstr=668670432b934a68630a7fe8
+Name=UZI PRO 9x19 240mm barrel
+ShortName=PRO 240mm
+Information_Eng=A 240mm barrel for the UZI PRO submachine gun. Manufactured by Israel Weapon Industries.
+Itemtype=barrel
+width=3
+height=1
+weight=0.288000
+fleaMarketFee=0
+propertiestype=ItemPropertiesBarrel
+Recoil=-5.000000
+Ergonomics=-3.000000
+centerOfImpact=0.135000
+deviationMax=14
+Name_Jpn=UZI PRO 9x19 240mm barrel
+Information_Jpn=A 240mm barrel for the UZI PRO submachine gun. Manufactured by Israel Weapon Industries.

@@ -1,5 +1,5 @@
 IDstr=57235b6f24597759bf5a30f1
-Name=AN/PVS-14 Night Vision Monocular
+Name=AN/PVS-14 night vision monocular
 ShortName=PVS-14
 Information_Eng=The AN/PVS-14 monocular night vision device for army/navy that allows nighttime detection of targets on distances of up to 350m with 40° FOV and has an adjustable brightness.
 Itemtype=night-vision

@@ -12,19 +12,19 @@ NeedLightkeeper=false
 factionName=Any
 Task_Map=Customs
 Task_Kill=[
-	Customs-Scavsx8
+	Customs-any PMC operativesx8
 ]
 Task_Else=ゾーン:[Stronghold (Customs)]
 Task_Else=距離: >= 0m
 Task_Map=Woods
 Task_Kill=[
-	Woods-Scavsx8
+	Woods-any PMC operativesx8
 ]
 Task_Else=ゾーン:[Medical Camp (Woods)]
 Task_Else=距離: >= 0m
 Task_Map=Shoreline
 Task_Kill=[
-	Shoreline-Scavsx8
+	Shoreline-any PMC operativesx8
 ]
 Task_Else=ゾーン:[Inside Resort]
 Task_Else=距離: >= 0m
@@ -41,7 +41,7 @@ Task_Else=距離: >= 0m
 ]
 [
 	TaskType=shoot
-	TaskText=Eliminate PMC operatives at the River Station on Shoreline
+	TaskText=Eliminate PMC operatives at the Health Resort on Shoreline
 	TaskOptional=false
 ]
 
@@ -50,7 +50,7 @@ Reward_Item=[
 	Armband (USEC)x1/|
 	Rys-T bulletproof helmet (Black)x1/|
 	Rys-T face shieldx2/|
-	6B43 Zabralo-Sh body armor (Digital Flora)x1
+	6B43 Zabralo-Sh body armor (Digital Flora) Defaultx1
 ]
 
 Reward_EXP=69999

@@ -9,7 +9,7 @@ weight=0.160000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
-	TACCOM Carbine Brake multi-caliber muzzle brake/|
+	TACCOM Carbine Brake 9x19 muzzle brake/|
 	KRISS Vector 9x19 flash hider/|
 	Gemtech ONE Direct Thread Mount adapter/|
 	KRISS Vector 9x19 thread protection cap/|

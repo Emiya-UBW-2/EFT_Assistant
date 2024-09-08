@@ -1,0 +1,34 @@
+IDstr=665eec1f5e47a79f8605565a
+Name=Thirsty - Breadwinner
+Trader=Skier
+
+NeedTask=Thirsty - Hounds
+NeedLevel=15
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+NeedItem=Propane tank (5L)x2
+Task_FiR_HandOver=[Propane tank (5L)x2]
+DogTagLv=0
+
+[
+	TaskType=findItem
+	TaskText=Find Propane tanks (5L) in raid
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the items
+	TaskOptional=false
+]
+
+Reward_Rep=Skier+1
+Reward_Item=[
+	Eurosx200/|
+	Expeditionary fuel tankx1
+]
+
+Reward_EXP=9600

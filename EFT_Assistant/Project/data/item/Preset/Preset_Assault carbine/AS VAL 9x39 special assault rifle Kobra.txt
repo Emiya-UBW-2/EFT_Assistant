@@ -4,7 +4,7 @@ ShortName=AS VAL Kobra
 Itemtype=assault-carbine
 width=5
 height=2
-weight=3.085000
+weight=2.998000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
@@ -13,11 +13,12 @@ containsItems=[
 	AS VAL 9x39 integral barrel-suppressorx1/|
 	AS VAL rear sightx1/|
 	AS VAL dust coverx1/|
-	VSS 9x39 6L25 20-round magazinex1/|
-	AS VAL pistol gripx1/|
+	VSS/VAL 9x39 6L25 20-round magazine (Plum)x1/|
+	AS VAL pistol grip (Plum)x1/|
 	AS VAL skeleton stockx1/|
 	SVD CAA XD RGL receiver mountx1/|
-	Axion Kobra EKP-8-18 reflex sightx1
+	Axion Kobra EKP-8-18 reflex sightx1/|
+	VSS/VAL polymer handguard (Plum)x1
 ]
 Name_Jpn=AS VAL 9x39 特殊アサルトライフル Kobra
 Information_Jpn=

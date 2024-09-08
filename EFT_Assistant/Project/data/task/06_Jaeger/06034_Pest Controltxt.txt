@@ -20,7 +20,7 @@ Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot
-	TaskText=Eliminate Scavs in the barracks area on Reserve
+	TaskText=Eliminate Scavs inside the main barracks on Reserve
 	TaskOptional=false
 ]
 

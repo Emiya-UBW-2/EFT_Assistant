@@ -1,0 +1,33 @@
+IDstr=swordmk18thorpsr00000001
+Name=SWORD International Mk-18 .338 LM marksman rifle Thor PSR
+ShortName=Mk-18 Mjölnir Thor PSR
+Itemtype=marksman-rifle
+width=7
+height=2
+weight=9.774000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	SWORD International Mk-18 .338 LM marksman riflex1/|
+	AR-15 Naroh Arms GRAL-S pistol gripx1/|
+	AR-15 Strike Industries Advanced Receiver Extension buffer tubex1/|
+	AR-15 Magpul PRS GEN3 stock (Black)x1/|
+	Mk-18 .338 LM upper receiverx1/|
+	Mk-18 .338 LM 24 inch barrelx1/|
+	Mk-18 gas blockx1/|
+	AWC PSR .338 LM muzzle brakex1/|
+	AWC Thor PSR XL multi-caliber sound suppressorx1/|
+	Mk-18 18 inch handguardx1/|
+	Magpul MBUS Gen2 flip-up front sightx1/|
+	Magpul M-LOK 4.1 inch railx1/|
+	Strike Industries Cobra Tactical foregrip (FDE)x1/|
+	Magpul M-LOK Cantilever Mountx1/|
+	Wilcox RAPTAR ES Tactical Rangefinderx1/|
+	Magpul MBUS Gen2 flip-up rear sightx1/|
+	AI AX-50 34mm scope mountx1/|
+	Schmidt & Bender PM II 5-25x56 34mm riflescopex1/|
+	Mk-18 .338 LM 10-round magazinex1
+]
+Name_Jpn=SWORD International Mk-18 .338 LM マークスマンライフル Thor PSR
+Information_Jpn=

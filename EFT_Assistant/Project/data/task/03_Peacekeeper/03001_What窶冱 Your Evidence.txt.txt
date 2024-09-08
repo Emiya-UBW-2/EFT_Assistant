@@ -1,0 +1,28 @@
+IDstr=668bccf963acb16d63707043
+Name=What’s Your Evidence?
+Trader=Peacekeeper
+
+NeedLevel=0
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_NotFiR_HandOver=[Colt M4A1 5.56x45 assault riflex10]
+DogTagLv=0
+
+[
+	TaskType=giveItem
+	TaskText=Hand over the western Scav weapons with very low durability
+	TaskOptional=false
+]
+
+Reward_Rep=Peacekeeper+3
+Reward_Item=[
+	Dollarsx1500/|
+	Military circuit boardx2/|
+	Military flash drivex2
+]
+
+Reward_EXP=72600

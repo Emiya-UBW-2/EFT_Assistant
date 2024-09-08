@@ -7,7 +7,7 @@ NeedLevel=2
 
 CanRestart=false
 NeedKappa=true
-NeedLightkeeper=true
+NeedLightkeeper=false
 
 Task_Map=Customs
 factionName=Any
@@ -21,7 +21,7 @@ NeedItem=[
 	SV-98 7.62x54R bolt-action sniper riflex0/|
 	Lobaev Arms DVL-10 7.62x51 bolt-action sniper riflex0/|
 	Remington Model 700 7.62x51 bolt-action sniper riflex0/|
-	Molot Arms VPO-215 "Gornostay" .366 TKM bolt-action riflex0/|
+	Molot Arms VPO-215 Gornostay .366 TKM bolt-action riflex0/|
 	ORSIS T-5000M 7.62x51 bolt-action sniper riflex0/|
 	Accuracy International AXMC .338 LM bolt-action sniper riflex0/|
 	MP-18 7.62x54R single-shot riflex0
@@ -38,7 +38,7 @@ Reward_Rep=Jaeger+2
 Reward_Item=[
 	Roublesx80000/|
 	Mosin Rifle Texas Precision Products 7.62x54R muzzle brakex1/|
-	PNV-10T Night Vision Gogglesx1
+	PNV-10T night vision gogglesx1
 ]
 
 Reward_EXP=13000

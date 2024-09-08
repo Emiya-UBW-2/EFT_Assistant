@@ -3,7 +3,7 @@ Name=Assessment - Part 3
 Trader=Mechanic
 
 NeedTask=Assessment - Part 2
-NeedLevel=35
+NeedLevel=33
 
 CanRestart=false
 NeedKappa=false
@@ -13,14 +13,14 @@ Task_Map=The Lab
 factionName=Any
 Task_Map=The Lab
 Task_Kill=[
-	The Lab-Raiderx10
+	The Lab-Raiderx7
 ]
 Task_Else=距離: >= 0m
-Task_FiR_HandOver=[SJ1 TGLabs combat stimulant injectorx20]
+Task_FiR_HandOver=[SJ1 TGLabs combat stimulant injectorx15]
 DogTagLv=0
-Task_FiR_HandOver=[SJ6 TGLabs combat stimulant injectorx8]
+Task_FiR_HandOver=[SJ6 TGLabs combat stimulant injectorx5]
 DogTagLv=0
-Task_FiR_HandOver=[SJ9 TGLabs combat stimulant injectorx2]
+Task_FiR_HandOver=[SJ9 TGLabs combat stimulant injectorx1]
 DogTagLv=0
 
 [

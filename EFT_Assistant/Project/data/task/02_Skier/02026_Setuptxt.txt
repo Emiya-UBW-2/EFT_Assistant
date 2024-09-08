@@ -13,13 +13,15 @@ Task_Map=Customs
 factionName=Any
 Task_Map=Customs
 Task_Kill=[
-	Customs-Scavsx15
+	Customs-any PMC operativesx8
 ]
 NeedItem=[
 	MP-133 12ga pump-action shotgunx0/|
 	MP-153 12ga semi-automatic shotgunx0/|
 	MP-155 12ga semi-automatic shotgunx0/|
-	MP-43-1C 12ga double-barrel shotgunx0
+	MP-43-1C 12ga double-barrel shotgunx0/|
+	MP-43 12ga sawed-off double-barrel shotgunx0/|
+	MP-18 7.62x54R single-shot riflex0
 ]
 Task_Else=装備が必要:{
 Task_Else=  Scav Vest

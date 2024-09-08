@@ -15,7 +15,7 @@ containsItems=[
 	MDR handguard (Black)x1/|
 	Magpul M-LOK 4.1 inch railx1/|
 	TangoDown Stubby BGV-MK46K foregrip (FDE)x1/|
-	LA-5B/PEQ tactical devicex1/|
+	L3Harris LA-5B/PEQ tactical devicex1/|
 	MDR 7.62x51 16 inch barrelx1/|
 	AR-10 AAC Blackout 51T 7.62x51 flash hiderx1/|
 	Trijicon TA51 sight mountx1/|

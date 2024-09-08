@@ -1,0 +1,34 @@
+IDstr=66058cb22cee99303f1ba067
+Name=Easy Money - Part 1
+Trader=Skier
+
+NeedTask=Burning Rubber
+NeedLevel=3
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_Map=Woods
+Task_Else=拾って納品:Woods-Bison VS Undertaker poster packx1
+Task_Map=Customs
+Task_Else=拾って納品:Customs-Bison VS Undertaker poster packx1
+
+[
+	TaskType=findQuestItem
+	TaskText=Locate and obtain the “Bison VS Undertaker” poster at the USEC camp on Woods
+	TaskOptional=false
+]
+[
+	TaskType=plantQuestItem
+	TaskText=Plant the "Bison VS Undertaker" poster in the living quarters at the Scav base on Customs
+	TaskOptional=false
+]
+
+Reward_Item=[
+	Roublesx35000
+]
+Reward_TraderUnlock=Ref
+
+Reward_EXP=4500

@@ -6,17 +6,17 @@ NeedTask=Test Drive - Part 1
 NeedLevel=30
 
 CanRestart=false
-NeedKappa=false
+NeedKappa=true
 NeedLightkeeper=false
 
 Task_Map=Streets of Tarkov
 factionName=Any
 Task_Map=Streets of Tarkov
 Task_Kill=[
-	Streets of Tarkov-Scavsx20
+	Streets of Tarkov-any PMC operativesx20
 ]
 NeedItem=[
-	SR-2M "Veresk" 9x21 submachine gunx0
+	SR-2M Veresk 9x21 submachine gunx0
 ]
 NeedItem=[
 	SR-2M KP-SR2 reflex sightx0/|
@@ -26,12 +26,12 @@ Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot
-	TaskText=Eliminate PMC operatives while using an SR-2M "Veresk" with a suppressor and KP-SR2 reflex sight on Streets of Tarkov
+	TaskText=Eliminate PMC operatives while using an SR-2M with a suppressor and KP-SR2 sight on Streets of Tarkov
 	TaskOptional=false
 ]
 
 Reward_Item=[
-	SR-2M "Veresk" 9x21 submachine gun FSBx1
+	SR-2M Veresk 9x21 submachine gun FSBx1
 ]
 Reward_Rep=Prapor+2
 Reward_Item=[

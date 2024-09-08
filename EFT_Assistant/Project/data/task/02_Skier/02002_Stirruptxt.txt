@@ -10,27 +10,8 @@ NeedKappa=true
 NeedLightkeeper=false
 
 factionName=Any
-Task_Map=Interchange
-Task_Map=Lighthouse
-Task_Map=Reserve
-Task_Map=Ground Zero
-Task_Map=Shoreline
-Task_Map=Streets of Tarkov
-Task_Map=Woods
-Task_Map=Customs
-Task_Map=Factory
-Task_Map=Night Factory
 Task_Kill=[
-	Interchange-Scavsx3/|
-	Lighthouse-Scavsx3/|
-	Reserve-Scavsx3/|
-	Ground Zero-Scavsx3/|
-	Shoreline-Scavsx3/|
-	Streets of Tarkov-Scavsx3/|
-	Woods-Scavsx3/|
-	Customs-Scavsx3/|
-	Factory-Scavsx3/|
-	Night Factory-Scavsx3
+	any PMC operativesx3
 ]
 NeedItem=[
 	Beretta M9A3 9x19 pistolx0/|
@@ -44,7 +25,7 @@ NeedItem=[
 	Glock 17 9x19 pistolx0/|
 	Glock 18C 9x19 machine pistolx0/|
 	Colt M1911A1 .45 ACP pistolx0/|
-	Yarygin MP-443 "Grach" 9x19 pistolx0/|
+	Yarygin MP-443 Grach 9x19 pistolx0/|
 	TT-33 7.62x25 TT pistol (Golden)x0/|
 	SIG P226R 9x19 pistolx0/|
 	TT-33 7.62x25 TT pistolx0/|
@@ -56,7 +37,12 @@ NeedItem=[
 	Chiappa Rhino 50DS .357 revolverx0/|
 	ZiD SP-81 26x75 signal pistolx0/|
 	RSh-12 12.7x55 revolverx0/|
-	Glock 19X 9x19 pistolx0
+	Glock 19X 9x19 pistolx0/|
+	Magnum Research Desert Eagle L5 .357 pistolx0/|
+	Magnum Research Desert Eagle L5 .50 AE pistolx0/|
+	Magnum Research Desert Eagle L6 .50 AE pistol (WTS)x0/|
+	Magnum Research Desert Eagle L6 .50 AE pistolx0/|
+	Magnum Research Desert Eagle Mk XIX .50 AE pistolx0
 ]
 Task_Else=距離: >= 0m
 

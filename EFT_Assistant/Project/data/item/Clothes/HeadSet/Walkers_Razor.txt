@@ -9,7 +9,15 @@ weight=0.430000
 fleaMarketFee=0
 propertiestype=
 Conflict=[
-	Ops-Core FAST RAC Headset
+	Ops-Core FAST RAC Headset/|
+	TW EXFIL Peltor ComTac VI headset (Coyote Brown)/|
+	TW EXFIL Peltor ComTac V headset (OD Green)/|
+	SSh-68 steel helmet (Olive Drab)/|
+	Ushanka ear flap hat/|
+	MIL-TEC boonie hat/|
+	Jack Pyke Hunting LLCS boonie hat/|
+	Stich Profi Chimera boonie hat/|
+	Door Kicker boonie hat
 ]
 Name_Jpn=Walker's Razor Digital headset
 Information_Jpn=The Razor electronic ear muffs feature an ultra low-profile design and a rubberized coating for added durability and comfort, also providing optimal hearing protection. Manufactured by Walker's.

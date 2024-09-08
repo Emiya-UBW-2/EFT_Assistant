@@ -7,7 +7,7 @@ NeedLevel=25
 
 CanRestart=false
 NeedKappa=true
-NeedLightkeeper=true
+NeedLightkeeper=false
 
 factionName=Any
 NeedItem=Remington R11 RSASS 7.62x51 marksman riflex1

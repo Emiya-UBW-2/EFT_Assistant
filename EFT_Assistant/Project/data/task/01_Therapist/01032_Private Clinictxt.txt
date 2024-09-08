@@ -7,7 +7,7 @@ NeedLevel=35
 
 CanRestart=false
 NeedKappa=true
-NeedLightkeeper=true
+NeedLightkeeper=false
 
 factionName=Any
 NeedItem=Ophthalmoscopex1

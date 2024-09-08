@@ -1,0 +1,39 @@
+IDstr=6613f307fca4f2f386029409
+Name=Drip-Out - Part 2
+Trader=Ragman
+
+NeedTask=Dandies
+NeedLevel=33
+
+CanRestart=true
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_Map=Lighthouse
+Task_Map=Shoreline
+Task_Map=Woods
+Task_Map=Customs
+Task_Kill=[
+	Lighthouse-Roguex100/|
+	Shoreline-Roguex100/|
+	Woods-Roguex100/|
+	Customs-Roguex100
+]
+Task_Else=距離: >= 0m
+Task_FiR_HandOver=[LBT-1961A Load Bearing Chest Rig (Goons Edition)x50]
+DogTagLv=0
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Rogues
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid LBT brand equipment
+	TaskOptional=false
+]
+
+
+Reward_EXP=0

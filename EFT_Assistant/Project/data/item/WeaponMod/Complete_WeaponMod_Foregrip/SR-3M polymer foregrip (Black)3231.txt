@@ -1,0 +1,15 @@
+IDstr=65329ebcc0d50d0c9204ace1
+Name=SR-3M polymer foregrip (Black)
+ShortName=SR-3M
+Information_Eng=A standard-issue polymer foregrip for the SR-3M assault rifle.
+Itemtype=foregrip
+width=1
+height=1
+weight=0.080000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=-1.000000
+Ergonomics=5.000000
+accuracyModifier=0.000000
+Name_Jpn=SR-3M polymer foregrip (Black)
+Information_Jpn=A standard-issue polymer foregrip for the SR-3M assault rifle.

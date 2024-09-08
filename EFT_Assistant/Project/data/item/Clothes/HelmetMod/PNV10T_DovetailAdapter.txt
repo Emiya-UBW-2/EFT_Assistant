@@ -9,7 +9,7 @@ weight=0.080000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
-	PNV-10T Night Vision Goggles
+	PNV-10T night vision goggles
 ]
 Recoil=0.000000
 Ergonomics=0.000000

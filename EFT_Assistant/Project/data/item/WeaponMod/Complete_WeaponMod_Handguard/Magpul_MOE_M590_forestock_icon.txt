@@ -15,15 +15,19 @@ ChildParts=[
 	Magpul M-LOK AFG tactical foregrip (Stealth Grey)/|
 	Magpul M-LOK 4.1 inch rail/|
 	Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown)/|
-	Daniel Defense Enhanced M-LOK Vertical Foregrip (Black)
+	Daniel Defense Enhanced M-LOK Vertical Foregrip (Black)/|
+	BCM GUNFIGHTER MOD 3 M-LOK foregrip (Black)/|
+	BCM GUNFIGHTER MOD 3 M-LOK foregrip (FDE)
 ]
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
-	Magpul M-LOK Cantilever Mount
+	Magpul M-LOK Cantilever Mount/|
+	Magpul M-LOK 0.93 inch rail
 ]
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
-	Magpul M-LOK Cantilever Mount
+	Magpul M-LOK Cantilever Mount/|
+	Magpul M-LOK 0.93 inch rail
 ]
 Recoil=0.000000
 Ergonomics=13.000000

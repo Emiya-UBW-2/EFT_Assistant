@@ -35,7 +35,8 @@ ChildParts=[
 ChildParts=[
 	M700 AB Arms MOD*X rail mount/|
 	M700 30mm integral ring scope mount/|
-	M700 extended multi-slot Weaver rail base
+	M700 extended multi-slot Weaver rail base/|
+	M700 Badger Ordnance Scope Rail
 ]
 Recoil=199.000000
 RecoilHorizontal=670.000000

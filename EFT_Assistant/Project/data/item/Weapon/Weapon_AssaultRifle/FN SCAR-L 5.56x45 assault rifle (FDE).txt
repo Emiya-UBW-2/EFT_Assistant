@@ -69,8 +69,8 @@ ChildParts=[
 ChildParts=[
 	FN SCAR charging handle
 ]
-Recoil=122.000000
-RecoilHorizontal=414.000000
+Recoil=100.000000
+RecoilHorizontal=312.000000
 Ergonomics=45.000000
 SightRange=-100
 FireRate=650

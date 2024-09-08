@@ -1,0 +1,8 @@
+Name=ASh-12 12.7x55 assault rifle TAC
+Base=ASh-12 12.7x55 assault rifle
+Parts=ASh-12 12.7x55 sound suppressor
+Parts=Valday Krechet reflex sight
+Parts=ASh-12 12.7x55 20-round magazine
+Parts=ASh-12 polymer handguard
+Parts=Hera Arms CQR tactical foregrip
+Parts=Zenit Perst-3 tactical device

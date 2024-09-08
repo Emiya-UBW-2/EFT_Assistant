@@ -1,0 +1,12 @@
+IDstr=66572b8d80b1cd4b6a67847f
+Name=Den figurine
+ShortName=Den
+Information_Eng=A limited edition Tarko figurine of a BEAR PMC operator and Ryzhy's battle buddy. Despite all the hardships, his beard looks surprisingly neat.
+Itemtype=jewelry
+width=1
+height=2
+weight=0.200000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=Den figurine
+Information_Jpn=A limited edition Tarko figurine of a BEAR PMC operator and Ryzhy's battle buddy. Despite all the hardships, his beard looks surprisingly neat.

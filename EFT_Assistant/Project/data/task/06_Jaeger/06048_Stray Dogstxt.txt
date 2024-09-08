@@ -48,17 +48,17 @@ Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot
-	TaskText=Locate and eliminate Knight
+	TaskText=Locate and neutralize Knight
 	TaskOptional=false
 ]
 [
 	TaskType=shoot
-	TaskText=Locate and eliminate Big Pipe
+	TaskText=Locate and neutralize Big Pipe
 	TaskOptional=false
 ]
 [
 	TaskType=shoot
-	TaskText=Locate and eliminate Birdeye
+	TaskText=Locate and neutralize Birdeye
 	TaskOptional=false
 ]
 

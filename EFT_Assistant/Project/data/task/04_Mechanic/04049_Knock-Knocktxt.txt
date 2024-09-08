@@ -3,7 +3,7 @@ Name=Knock-Knock
 Trader=Mechanic
 
 NeedTask=Key to the Tower
-NeedLevel=35
+NeedLevel=33
 
 CanRestart=false
 NeedKappa=false

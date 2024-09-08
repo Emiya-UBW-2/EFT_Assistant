@@ -1,0 +1,12 @@
+IDstr=66572c82ad599021091c6118
+Name=Killa figurine
+ShortName=Killa
+Information_Eng=A limited edition Tarko figurine. Killa loves hardbass, three stripes and is waiting to meet you at the mall. Tarko's swaggiest figure, and whoever said otherwise, has been missing ever since. The figurine is rumored to be made of the same material as his helmet.
+Itemtype=jewelry
+width=1
+height=2
+weight=0.200000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=Killa figurine
+Information_Jpn=A limited edition Tarko figurine. Killa loves hardbass, three stripes and is waiting to meet you at the mall. Tarko's swaggiest figure, and whoever said otherwise, has been missing ever since. The figurine is rumored to be made of the same material as his helmet.

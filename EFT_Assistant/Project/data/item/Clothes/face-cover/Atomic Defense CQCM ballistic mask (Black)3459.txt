@@ -8,5 +8,12 @@ height=2
 weight=2.100000
 fleaMarketFee=0
 propertiestype=ItemPropertiesHelmet
+Conflict=[
+	Ballistic Armor Co. Bastion helmet (Armor Black)/|
+	Ballistic Armor Co. Bastion helmet (MultiCam)/|
+	Ballistic Armor Co. Bastion helmet (OD Green)/|
+	Team Wendy EXFIL Ballistic Helmet (Coyote Brown)/|
+	Team Wendy EXFIL Ballistic Helmet (Black)
+]
 Name_Jpn=Atomic Defense CQCM ballistic mask (Black)
 Information_Jpn=Atomic Defense's CQCM ballistic mask provides protection against short-range weapons including pistols, shotguns and knives. This heavyweight reinforced mask covers the wearer's face completely. It features an inner lining and wraps slightly around the sides of the head for added protection. The mask also features five-point adjustable straps to ensure a comfortable and precise fit.

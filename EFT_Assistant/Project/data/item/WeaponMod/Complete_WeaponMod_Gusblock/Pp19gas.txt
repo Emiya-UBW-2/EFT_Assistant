@@ -1,5 +1,5 @@
 IDstr=59ccd11386f77428f24a488f
-Name=PP-19-01 "Vityaz" gas tube
+Name=PP-19-01 Vityaz gas tube
 ShortName=19-01 gas
 Information_Eng=A standard gas tube for PP-19-01 Vityaz submachine guns. Gas tubes channel the travel direction of gas piston.
 Itemtype=gas-block
@@ -12,7 +12,7 @@ ChildParts=[
 	AK CAA RS47 handguard/|
 	WASR-10/63 CAF wooden foregrip/|
 	AK 100-series polymer handguard/|
-	AK-74 "Plum" polymer handguard (6P20 Sb.9)/|
+	AK-74 6P20 Sb.9 polymer handguard (Plum)/|
 	AK-74 wooden handguard (6P20 Sb.6)/|
 	AK-74 polymer handguard (6P20 Sb.9)/|
 	AKM wooden handguard (6P1 Sb.6-1)/|
@@ -24,7 +24,7 @@ ChildParts=[
 	AK Magpul Zhukov-U handguard (Black)/|
 	AK Magpul Zhukov-U handguard (FDE)/|
 	AK Magpul Zhukov-U handguard (Plum)/|
-	VPO-136 "Vepr-KM" wooden handguard/|
+	VPO-136 Vepr-KM wooden handguard/|
 	VPO-209 wooden handguard/|
 	AK Strike Industries TRAX 1 handguard/|
 	AK TDI AKM-L handguard/|

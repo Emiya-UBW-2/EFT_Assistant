@@ -1,6 +1,6 @@
 IDstr=5ddbbeac582ed30a6134e577
-Name=Saiga 12ga ver.10 12/76 semi-automatic shotgun NERFGUN
-ShortName=Saiga-12ga v.10 NERFGUN
+Name=Saiga-12K ver.10 12ga semi-automatic shotgun NERFGUN
+ShortName=Saiga-12K NERFGUN
 Itemtype=shotgun
 width=6
 height=2
@@ -9,7 +9,7 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
-	Saiga 12ga ver.10 12/76 semi-automatic shotgunx1/|
+	Saiga-12K ver.10 12ga semi-automatic shotgunx1/|
 	Zenit B-13V "Klassika" dovetail rail platformx1/|
 	FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescopex1/|
 	SOK-12 Leapers UTG PRO MTU002 Short Top aluminum handguardx1/|
@@ -24,7 +24,7 @@ containsItems=[
 	AR-15 Magpul MOE Carbine stock (Foliage Green)x1/|
 	Magpul MOE Carbine rubber buttpadx1/|
 	SOK-12 12/76 MaxRounds Powermag 20-round magazinex1/|
-	12/70 "Poleva-3" slugx10/|
+	12/70 Poleva-3 slugx10/|
 	12/70 makeshift .50 BMG slugx10
 ]
 Name_Jpn=Saiga 12ga ver.10 12/76 セミオートショットガン NERFGUN

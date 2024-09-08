@@ -1,0 +1,38 @@
+IDstr=669fa3a08b4a64b332041ff7
+Name=Dragnet
+Trader=Jaeger
+
+NeedTask=One Less Loose End
+NeedLevel=15
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Factory
+factionName=Any
+Task_Map=Factory
+Task_Map=Night Factory
+Task_Else=拾って納品:Factory-Chemical containerx1
+Task_Else=拾って納品:Night Factory-Chemical containerx1
+
+[
+	TaskType=findQuestItem
+	TaskText=Locate and obtain the chemical container at the TerraGroup warehouse on Factory
+	TaskOptional=false
+]
+[
+	TaskType=giveQuestItem
+	TaskText=Hand over the chemical container
+	TaskOptional=false
+]
+
+Reward_Rep=Jaeger+2
+Reward_Item=[
+	Roublesx92000/|
+	Springfield Armory M1A 7.62x51 rifle Defaultx1/|
+	M14 7.62x51 30-round magazinex3/|
+	7.62x51mm M62 Tracer ammo pack (20 pcs)x6
+]
+
+Reward_EXP=17300

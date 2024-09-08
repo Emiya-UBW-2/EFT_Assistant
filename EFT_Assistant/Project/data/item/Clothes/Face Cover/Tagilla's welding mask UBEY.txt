@@ -36,7 +36,7 @@ Conflict=[
 	ZSh-1-2M helmet (Olive Drab)/|
 	ZSh-1-2M helmet (Black cover)/|
 	Rivals 2020 cap/|
-	DevTac Ronin ballistic helmet/|
+	DevTac Ronin Respirator/|
 	BEAR baseball cap (Black)/|
 	Beret (Black)/|
 	Beret (Blue)/|
@@ -81,7 +81,11 @@ Conflict=[
 	NPP KlASS Tor-2 helmet (Olive Drab)/|
 	Diamond Age NeoSteel High Cut helmet (Black)/|
 	Gus baseball cap/|
-	Basmach leather cap
+	Basmach leather cap/|
+	DevTac Ronin ballistic helmet/|
+	Ballistic Armor Co. Bastion helmet (Armor Black)/|
+	Ballistic Armor Co. Bastion helmet (MultiCam)/|
+	Ballistic Armor Co. Bastion helmet (OD Green)
 ]
 Name_Jpn=Tagilla's welding mask "UBEY"
 Information_Jpn=An armored steel welding mask of Tagilla - the Bossman of Factory. Painted with the special "UBEY" ("KILL") art.

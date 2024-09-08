@@ -12,7 +12,7 @@ NeedLightkeeper=false
 factionName=Any
 Task_Map=Woods
 Task_Kill=[
-	Woods-Scavs{head}x5
+	Woods-any PMC operatives{head}x5
 ]
 NeedItem=[
 	Accuracy International AXMC .338 LM bolt-action sniper riflex0/|
@@ -23,12 +23,12 @@ NeedItem=[
 	Remington Model 700 7.62x51 bolt-action sniper riflex0/|
 	MP-18 7.62x54R single-shot riflex0/|
 	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
-	Molot Arms VPO-215 "Gornostay" .366 TKM bolt-action riflex0
+	Molot Arms VPO-215 Gornostay .366 TKM bolt-action riflex0
 ]
 Task_Else=距離: >= 0m
 Task_Map=Reserve
 Task_Kill=[
-	Reserve-Scavs{head}x5
+	Reserve-any PMC operatives{head}x5
 ]
 NeedItem=[
 	Accuracy International AXMC .338 LM bolt-action sniper riflex0/|
@@ -39,12 +39,12 @@ NeedItem=[
 	Remington Model 700 7.62x51 bolt-action sniper riflex0/|
 	MP-18 7.62x54R single-shot riflex0/|
 	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
-	Molot Arms VPO-215 "Gornostay" .366 TKM bolt-action riflex0
+	Molot Arms VPO-215 Gornostay .366 TKM bolt-action riflex0
 ]
 Task_Else=距離: >= 0m
 Task_Map=Shoreline
 Task_Kill=[
-	Shoreline-Scavs{head}x5
+	Shoreline-any PMC operatives{head}x5
 ]
 NeedItem=[
 	Accuracy International AXMC .338 LM bolt-action sniper riflex0/|
@@ -55,12 +55,12 @@ NeedItem=[
 	Remington Model 700 7.62x51 bolt-action sniper riflex0/|
 	MP-18 7.62x54R single-shot riflex0/|
 	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
-	Molot Arms VPO-215 "Gornostay" .366 TKM bolt-action riflex0
+	Molot Arms VPO-215 Gornostay .366 TKM bolt-action riflex0
 ]
 Task_Else=距離: >= 0m
 Task_Map=Customs
 Task_Kill=[
-	Customs-Scavs{head}x5
+	Customs-any PMC operatives{head}x5
 ]
 NeedItem=[
 	Accuracy International AXMC .338 LM bolt-action sniper riflex0/|
@@ -71,12 +71,12 @@ NeedItem=[
 	Remington Model 700 7.62x51 bolt-action sniper riflex0/|
 	MP-18 7.62x54R single-shot riflex0/|
 	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
-	Molot Arms VPO-215 "Gornostay" .366 TKM bolt-action riflex0
+	Molot Arms VPO-215 Gornostay .366 TKM bolt-action riflex0
 ]
 Task_Else=距離: >= 0m
 Task_Map=Lighthouse
 Task_Kill=[
-	Lighthouse-Scavs{head}x5
+	Lighthouse-any PMC operatives{head}x5
 ]
 NeedItem=[
 	Accuracy International AXMC .338 LM bolt-action sniper riflex0/|
@@ -87,12 +87,12 @@ NeedItem=[
 	Remington Model 700 7.62x51 bolt-action sniper riflex0/|
 	MP-18 7.62x54R single-shot riflex0/|
 	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
-	Molot Arms VPO-215 "Gornostay" .366 TKM bolt-action riflex0
+	Molot Arms VPO-215 Gornostay .366 TKM bolt-action riflex0
 ]
 Task_Else=距離: >= 0m
 Task_Map=Streets of Tarkov
 Task_Kill=[
-	Streets of Tarkov-Scavs{head}x5
+	Streets of Tarkov-any PMC operatives{head}x5
 ]
 NeedItem=[
 	Accuracy International AXMC .338 LM bolt-action sniper riflex0/|
@@ -103,12 +103,12 @@ NeedItem=[
 	Remington Model 700 7.62x51 bolt-action sniper riflex0/|
 	MP-18 7.62x54R single-shot riflex0/|
 	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
-	Molot Arms VPO-215 "Gornostay" .366 TKM bolt-action riflex0
+	Molot Arms VPO-215 Gornostay .366 TKM bolt-action riflex0
 ]
 Task_Else=距離: >= 0m
 Task_Map=Interchange
 Task_Kill=[
-	Interchange-Scavs{head}x5
+	Interchange-any PMC operatives{head}x5
 ]
 NeedItem=[
 	Accuracy International AXMC .338 LM bolt-action sniper riflex0/|
@@ -119,7 +119,25 @@ NeedItem=[
 	Remington Model 700 7.62x51 bolt-action sniper riflex0/|
 	MP-18 7.62x54R single-shot riflex0/|
 	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
-	Molot Arms VPO-215 "Gornostay" .366 TKM bolt-action riflex0
+	Molot Arms VPO-215 Gornostay .366 TKM bolt-action riflex0
+]
+Task_Else=距離: >= 0m
+Task_Map=Ground Zero
+Task_Map=Ground Zero 21+
+Task_Kill=[
+	Ground Zero-any PMC operatives{head}x5/|
+	Ground Zero 21+-any PMC operatives{head}x5
+]
+NeedItem=[
+	Accuracy International AXMC .338 LM bolt-action sniper riflex0/|
+	Mosin 7.62x54R bolt-action rifle (Sniper)x0/|
+	Lobaev Arms DVL-10 7.62x51 bolt-action sniper riflex0/|
+	ORSIS T-5000M 7.62x51 bolt-action sniper riflex0/|
+	Remington Model 700 7.62x51 bolt-action sniper riflex0/|
+	MP-18 7.62x54R single-shot riflex0/|
+	Mosin 7.62x54R bolt-action rifle (Infantry)x0/|
+	Molot Arms VPO-215 Gornostay .366 TKM bolt-action riflex0/|
+	SV-98 7.62x54R bolt-action sniper riflex0
 ]
 Task_Else=距離: >= 0m
 
@@ -158,6 +176,11 @@ Task_Else=距離: >= 0m
 	TaskText=Eliminate PMC operatives with a headshot while using a bolt-action rifle on Interchange
 	TaskOptional=false
 ]
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives with a headshot while using a bolt-action rifle on Ground Zero
+	TaskOptional=false
+]
 
 Reward_Rep=Mechanic+3
 Reward_Item=[
@@ -167,6 +190,6 @@ Reward_Item=[
 	7.62x51mm M993x40/|
 	GP coinx3
 ]
-Reward_SkillLevelUp=Sniper Rifles+5
+Reward_SkillLevelUp=Bolt-action Rifles+5
 
 Reward_EXP=12500

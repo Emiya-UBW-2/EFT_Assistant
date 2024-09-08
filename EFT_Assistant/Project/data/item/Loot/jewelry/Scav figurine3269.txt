@@ -1,7 +1,7 @@
 IDstr=655c673673a43e23e857aebd
 Name=Scav figurine
 ShortName=Scav
-Information_Eng=The Tarko collectible figure of a Scav. An unknown craftsman decided to portray a regular representative of the Scavs on Streets of Tarkov. It is unclear what impressed the author more: the memorable hat or how diligently the Scav tried to aim.
+Information_Eng=The Tarko collectible figure of a Scav. The unknown craftsman decided to portray a regular representative of the Scavs on Streets of Tarkov. It is unclear what impressed the author more: the memorable hat or how diligently the Scav tried to aim.
 Itemtype=jewelry
 width=1
 height=2

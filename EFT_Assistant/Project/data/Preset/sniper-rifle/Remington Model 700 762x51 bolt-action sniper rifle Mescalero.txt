@@ -11,4 +11,4 @@ Parts=AR-10 Daniel Defense WAVE 7.62x51 muzzle brake
 Parts=Daniel Defense WAVE QD sound suppressor
 Parts=M700 AB Arms MOD*X rail mount
 Parts=Nightforce Magmount 34mm ring scope mount
-Parts=Schmidt & Bender PM II 3-12x50 34mm riflescope
+Parts=Schmidt & Bender PM II 3-20x50 34mm riflescope

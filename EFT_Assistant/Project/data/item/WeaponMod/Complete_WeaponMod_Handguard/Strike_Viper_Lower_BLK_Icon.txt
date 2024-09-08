@@ -15,7 +15,9 @@ ChildParts=[
 	Magpul M-LOK AFG tactical foregrip (Stealth Grey)/|
 	Magpul M-LOK 4.1 inch rail/|
 	Daniel Defense Enhanced M-LOK Vertical Foregrip (Black)/|
-	Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown)
+	Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown)/|
+	BCM GUNFIGHTER MOD 3 M-LOK foregrip (Black)/|
+	BCM GUNFIGHTER MOD 3 M-LOK foregrip (FDE)
 ]
 Conflict=[
 	AR-15 5.56x45 Molot Arms 406mm barrel

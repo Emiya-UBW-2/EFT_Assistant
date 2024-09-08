@@ -1,0 +1,49 @@
+IDstr=668bcd1b194be70f18427a00
+Name=Caught Red-Handed
+Trader=Peacekeeper
+
+NeedTask=What’s Your Evidence?
+NeedLevel=0
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Lighthouse
+factionName=Any
+Task_Map=Lighthouse
+Task_NotFiR_HandOver=[WI-FI Camerax1]
+DogTagLv=0
+Task_Map=Lighthouse
+Task_NotFiR_HandOver=[WI-FI Camerax1]
+DogTagLv=0
+Task_Map=Lighthouse
+Task_NotFiR_HandOver=[WI-FI Camerax1]
+DogTagLv=0
+
+[
+	TaskType=plantItem
+	TaskText=Install a WI-FI Camera to watch the first water treatment plant building entrance on Lighthouse
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Install a WI-FI Camera to watch the second water treatment plant building entrance on Lighthouse
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Install a WI-FI Camera to watch the third water treatment plant building entrance on Lighthouse
+	TaskOptional=false
+]
+
+Reward_Rep=Peacekeeper+2
+Reward_Item=[
+	Dollarsx1000/|
+	IOTV Gen4 body armor (Full Protection Kit, MultiCam) Defaultx1/|
+	SIG MCX SPEAR 6.8x51 assault rifle Defaultx1/|
+	AR-10 7.62x51 Lancer L7AWM 20-round magazinex3/|
+	6.8x51mm SIG Hybridx80
+]
+
+Reward_EXP=52400

@@ -101,7 +101,7 @@ namespace FPS_n2 {
 				if (m_IsPull) { m_IsPullRight = true; }
 			}
 
-			int Xwin = (int)(Lerp((float)Xmin, (float)DrawParts->GetScreenX(1920), this->m_PullRight));
+			int Xwin = (int)(Lerp((float)Xmin, (float)DrawParts->GetUIY(1920), this->m_PullRight));
 			int Ywin = (int)(Lerp((float)Ymin, (float)DrawParts->GetScreenY(1080), this->m_PullDown));
 			int DieCol = std::clamp((int)(Lerp(1.f, 128.f, this->m_NoneActiveTimes / 5.f)), 0, 255);
 
@@ -118,13 +118,15 @@ namespace FPS_n2 {
 				//タイトル
 				if (WindowSystem::SetMsgClickBox(Xmin + DXDraw::Instance()->GetUIY(10), 0, Xmin + DXDraw::Instance()->GetUIY(230), LineHeight, LineHeight, Gray25, false, true, "全窓を閉じる")) { WindowMngr->DeleteAll(); }
 				if (WindowSystem::SetMsgClickBox(Xmin + DXDraw::Instance()->GetUIY(240), 0, Xmin + DXDraw::Instance()->GetUIY(460), LineHeight, LineHeight, Gray25, false, true, "ログ表示")) { m_DrawLog ^= 1; }
-				WindowSystem::SetMsg(DrawParts->GetScreenX(1920)/2, Ymin/2, LineHeight, STRX_MID, White, Black, "EFT Assistant");
+				WindowSystem::SetMsg(DrawParts->GetUIY(1920)/2, Ymin/2, LineHeight, STRX_MID, White, Black, "EFT Assistant");
 				WindowSystem::SetMsg(DXDraw::Instance()->GetUIY(1280), LineHeight * 11 / 20, LineHeight * 8 / 10, STRX_LEFT, White, Black, "ver %d.%d.%d", 0, 3, 7);
-				WindowSystem::SetMsg(DrawParts->GetScreenX(1920)/2, Ymin + LineHeight * 11 / 20, LineHeight * 8 / 10, STRX_MID, White, Black, "最終更新:%s", PlayerData::Instance()->GetLastDataReceive().c_str());
-				//if (WindowMySystem::CloseButton(DrawParts->GetScreenX(1920) - Ymin, 0)) { SetisEnd(true); }
+				WindowSystem::SetMsg(DrawParts->GetUIY(1920)/2, Ymin + LineHeight * 11 / 20, LineHeight * 8 / 10, STRX_MID, White, Black, "最終更新:%s", PlayerData::Instance()->GetLastDataReceive().c_str());
+				if (WindowMySystem::CloseButton(DrawParts->GetUIY(1920) - Ymin, 0)) {
+					DataErrorLog::Instance()->Save();
+				}
 				//Front
 				PageMngr->DrawFront();
-				WindowSystem::DrawControl::Instance()->SetDrawCircle(WindowSystem::DrawLayer::Front, DrawParts->GetScreenX(1920), DrawParts->GetScreenY(1080), DXDraw::Instance()->GetUIY(100), TransColor, TRUE);					//中央位置回避のための小円
+				WindowSystem::DrawControl::Instance()->SetDrawCircle(WindowSystem::DrawLayer::Front, DrawParts->GetUIY(1920), DrawParts->GetScreenY(1080), DXDraw::Instance()->GetUIY(100), TransColor, TRUE);					//中央位置回避のための小円
 			}
 			if (m_DrawLog) {
 				DataErrorLog::Instance()->Draw();

@@ -9,6 +9,7 @@ CanRestart=false
 NeedKappa=false
 NeedLightkeeper=false
 
+Task_Map=Customs
 factionName=Any
 Task_Map=Customs
 Task_NotFiR_HandOver=[Trijicon REAP-IR thermal scopex1]

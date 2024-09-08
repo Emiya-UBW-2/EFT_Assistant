@@ -1,6 +1,6 @@
 IDstr=5c0c1f2b86f77455912eaefc
 Name=Mosin 7.62x54R bolt-action rifle (Sniper) Carbine
-ShortName=Mosin (Sniper) Carbine
+ShortName=Mosin Sniper Carbine
 Itemtype=sniper-rifle
 width=5
 height=1

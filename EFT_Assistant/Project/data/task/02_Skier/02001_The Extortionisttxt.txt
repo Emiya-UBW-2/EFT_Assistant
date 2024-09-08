@@ -8,7 +8,7 @@ NeedItem=[Unknown keyx1]
 
 CanRestart=false
 NeedKappa=true
-NeedLightkeeper=false
+NeedLightkeeper=true
 
 Task_Map=Customs
 factionName=Any
@@ -48,7 +48,7 @@ Reward_Item=[
 	Molot Arms VPO-209 .366 TKM carbine Defaultx1/|
 	AK 7.62x39 30-round magazine (issued '55 or later)x3/|
 	.366 TKM EKOx120/|
-	BNTI Zhuk body armor (Press)x1
+	BNTI Zhuk body armor (Press) Defaultx1
 ]
 
 Reward_EXP=3200

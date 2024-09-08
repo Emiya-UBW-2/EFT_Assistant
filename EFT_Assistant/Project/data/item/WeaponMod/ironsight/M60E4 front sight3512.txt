@@ -1,0 +1,16 @@
+IDstr=6601268bc752a02bbe05e686
+Name=M60E4 front sight
+ShortName=E4 FS
+Information_Eng=A standard-issue fixed front sight for the M60E4 light machine gun, installed on the barrel. Manufactured by U.S Ordnance.
+Itemtype=ironsight
+width=1
+height=1
+weight=0.084000
+fleaMarketFee=0
+propertiestype=ItemPropertiesScope
+Recoil=0.000000
+Ergonomics=0.000000
+SightRange=300
+sightZooms=1.000000
+Name_Jpn=M60E4 front sight
+Information_Jpn=A standard-issue fixed front sight for the M60E4 light machine gun, installed on the barrel. Manufactured by U.S Ordnance.

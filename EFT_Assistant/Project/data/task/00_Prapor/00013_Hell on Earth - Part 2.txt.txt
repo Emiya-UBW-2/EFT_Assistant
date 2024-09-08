@@ -1,0 +1,48 @@
+IDstr=666314b2a9290f9e0806cca3
+Name=Hell on Earth - Part 2
+Trader=Prapor
+
+NeedTask=Hell on Earth - Part 1
+NeedLevel=27
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_Map=Ground Zero 21+
+Task_Map=Shoreline
+Task_Map=Woods
+Task_Map=Customs
+Task_Map=Night Factory
+Task_Kill=[
+	Ground Zero 21+-Cultist Priestx3/|
+	Shoreline-Cultist Priestx3/|
+	Woods-Cultist Priestx3/|
+	Customs-Cultist Priestx3/|
+	Night Factory-Cultist Priestx3
+]
+NeedItem=[
+	MP-43-1C 12ga double-barrel shotgunx0/|
+	MP-43 12ga sawed-off double-barrel shotgunx0
+]
+Task_Else=距離: >= 0m
+
+[
+	TaskType=shoot
+	TaskText=Eliminate the hooded men while using the double barrel shotgun
+	TaskOptional=false
+]
+
+Reward_Item=[
+	MP-43-1C 12ga double-barrel shotgun Shortx1
+]
+Reward_Rep=Prapor+3
+Reward_Item=[
+	Roublesx324000/|
+	VOG-25 Khattabka improvised hand grenadex3/|
+	RGN hand grenadex3/|
+	RGO hand grenadex3
+]
+
+Reward_EXP=98000

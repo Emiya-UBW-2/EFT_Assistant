@@ -1,6 +1,6 @@
 IDstr=584149ad2459775a7726350e
-Name=PP-9 "Klin" 9x18PMM submachine gun Default
-ShortName=PP-9 "Klin" Default
+Name=PP-9 Klin 9x18PMM submachine gun Default
+ShortName=PP-9 Klin Default
 Itemtype=smg
 width=3
 height=2
@@ -9,8 +9,8 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
-	PP-9 "Klin" 9x18PMM submachine gunx1/|
-	PP-91 "Kedr" polymer pistol gripx1/|
+	PP-9 Klin 9x18PMM submachine gunx1/|
+	PP-91 Kedr polymer pistol gripx1/|
 	PP-91 "Kedr" 9x18PM 30-round magazinex1
 ]
 Name_Jpn=PP-9 "クリン" 9x18PMM サブマシンガン デフォルト

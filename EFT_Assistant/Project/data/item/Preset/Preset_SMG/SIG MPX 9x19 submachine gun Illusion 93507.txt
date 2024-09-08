@@ -21,7 +21,7 @@ containsItems=[
 	MPX flip-up rear sightx1/|
 	MPX double latch charging handlex1/|
 	MPX 9x19 30-round magazinex1/|
-	MPX/MCX Maxim Defense CQB telescoping stockx1
+	MPX/MCX Maxim Defense CQB stockx1
 ]
 Name_Jpn=MPX 9x19 サブマシンガン Illusion 9
 Information_Jpn=

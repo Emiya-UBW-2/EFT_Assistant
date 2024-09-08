@@ -1,0 +1,28 @@
+IDstr=707265736574000000000035
+Name=HK G36 5.56x45 assault rifle CompM4
+ShortName=G36 CompM4
+Itemtype=assault-rifle
+width=6
+height=2
+weight=4.281000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	HK G36 5.56x45 assault riflex1/|
+	HK G36 5.56x45 480mm barrelx1/|
+	HK G36 gas blockx1/|
+	AR-15 AWC PSR 5.56x45 muzzle brakex1/|
+	AWC PSR muzzle brake protectorx1/|
+	HK G36 6-vent handguardx1/|
+	HK G36 bipodx1/|
+	HK G36 magwellx1/|
+	HK G36 KV adjustable stockx1/|
+	HK G36 5.56x45 30-round magazinex1/|
+	HK G36 sight mountx1/|
+	HK G36 rear sightx1/|
+	Aimpoint LRP mount for CompM4 sightsx1/|
+	Aimpoint CompM4 reflex sightx1
+]
+Name_Jpn=G36 5.56x45 アサルトライフル COMP M4
+Information_Jpn=

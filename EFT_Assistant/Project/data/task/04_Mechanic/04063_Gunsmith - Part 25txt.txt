@@ -14,7 +14,7 @@ NeedItem=Kalashnikov PKP 7.62x54R infantry machine gunx1
 ContainsAll=PK Zenit B-50 handguard
 ContainsAll=PK Zenit PT-2 "Klassika" stock
 ContainsAll=PK Zenit DTK-1P 7.62x54R muzzle brake
-ContainsAll=NPZ USP-1 "Tyulpan" 4x scope
+ContainsAll=NPZ USP-1 Tyulpan 4x scope
 ContainsAll=PK 7.62x54R 100-round box
 ContainsCategory=Comb. tact. device
 Task_Else=accuracy >= 0

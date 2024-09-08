@@ -1,7 +1,7 @@
 IDstr=5d6e68a8a4b9360b6c0d54e2
 Name=12/70 AP-20 armor-piercing slug
 ShortName=AP-20
-Information_Eng=A 12/70 armor-piercing slug shell for 12 gauge shotguns. Designed for law enforcement forces of our overseas ʕ•ᴥ•ʔ friends ʕ•ᴥ•ʔ.
+Information_Eng=A 12/70 armor-piercing slug shell for 12 gauge shotguns. Designed for stopping vehicles and penetrating targets behind cover.
 Itemtype=ammo
 width=1
 height=1

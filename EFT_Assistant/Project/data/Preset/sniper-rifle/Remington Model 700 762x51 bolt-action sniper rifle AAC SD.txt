@@ -6,4 +6,4 @@ Parts=M700 7.62x51 20 inch threaded barrel
 Parts=AR-10 AAC Blackout 51T 7.62x51 flash hider
 Parts=AAC 762-SDN-6 multi-caliber sound suppressor
 Parts=M700 30mm integral ring scope mount
-Parts=Leupold Mark 4 LR 6.5-20x50 30mm riflescope
+Parts=Burris FullField TAC30 1-4x24 30mm riflescope

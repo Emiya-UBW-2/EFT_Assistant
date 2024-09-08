@@ -30,7 +30,7 @@ Reward_Rep=Ragman+3
 Reward_Item=[
 	Roublesx250000/|
 	Interchange plan mapx1/|
-	FORT Defender-2 body armorx1
+	FORT Defender-2 body armor Defaultx1
 ]
 
 Reward_EXP=24100

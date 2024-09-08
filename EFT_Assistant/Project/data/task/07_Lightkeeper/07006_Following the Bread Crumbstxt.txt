@@ -3,7 +3,7 @@ Name=Following the Bread Crumbs
 Trader=Lightkeeper
 
 NeedTask=Provocation
-NeedLevel=35
+NeedLevel=33
 
 CanRestart=false
 NeedKappa=false
@@ -16,6 +16,7 @@ Task_Kill=[
 	Reserve-Raiderx20/|
 	The Lab-Raiderx20
 ]
+Task_Else=距離: >= 0m
 Task_Map=The Lab
 Task_Else=TaskType:visit
 Task_Else=Search the weapon testing area in The Lab
@@ -53,7 +54,7 @@ Task_Else=拾って納品:Lighthouse-Secured tapex1
 	TaskOptional=false
 ]
 
-Reward_Rep=Lightkeeper+1
+Reward_Rep=Lightkeeper+4
 Reward_Item=[
 	Far-forward GPS Signal Amplifier Unitx1
 ]

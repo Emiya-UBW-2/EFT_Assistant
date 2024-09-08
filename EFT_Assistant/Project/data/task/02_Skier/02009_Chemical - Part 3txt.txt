@@ -7,7 +7,7 @@ NeedLevel=11
 
 CanRestart=false
 NeedKappa=true
-NeedLightkeeper=false
+NeedLightkeeper=true
 
 Task_Map=Factory
 factionName=Any
@@ -32,7 +32,7 @@ Reward_Rep=Jaeger-1
 Reward_Item=[
 	Roublesx22000/|
 	BelOMO PSO-1M2-1 4x24 scopex1/|
-	"Zarya" stun grenadex4
+	Zarya stun grenadex4
 ]
 
 Reward_EXP=5400

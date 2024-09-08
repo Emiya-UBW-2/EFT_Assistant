@@ -1,0 +1,16 @@
+IDstr=altynfaceshield000000001
+Name=Altyn bulletproof helmet (Olive Drab) Face shield
+ShortName=Altyn Face shield
+Itemtype=headwear
+width=2
+height=2
+weight=5.400000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Altyn bulletproof helmet (Olive Drab)x1/|
+	Altyn helmet face shieldx1
+]
+Name_Jpn=Altyn bulletproof helmet (Olive Drab) Face shield
+Information_Jpn=

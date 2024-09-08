@@ -1,0 +1,86 @@
+IDstr=64e7b9bffd30422ed03dad38
+Name=Gendarmerie - District Patrol
+Trader=Prapor
+
+NeedTask=Gendarmerie - Tickets, Please
+NeedLevel=21
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+factionName=Any
+Task_Map=Streets of Tarkov
+Task_Kill=[
+	Streets of Tarkov-any targetx30
+]
+Task_Else=ゾーン:[Cardinal apartment complex]
+NeedItem=[
+	ADAR 2-15 5.56x45 carbinex0/|
+	ASh-12 12.7x55 assault riflex0/|
+	CMMG Mk47 Mutant 7.62x39 assault riflex0/|
+	Colt M4A1 5.56x45 assault riflex0/|
+	DS Arms SA-58 7.62x51 assault riflex0/|
+	Desert Tech MDR 5.56x45 assault riflex0/|
+	Desert Tech MDR 7.62x51 assault riflex0/|
+	FN SCAR-L 5.56x45 assault riflex0/|
+	FN SCAR-L 5.56x45 assault rifle (FDE)x0/|
+	FN SCAR-H 7.62x51 assault riflex0/|
+	FN SCAR-H 7.62x51 assault rifle (FDE)x0/|
+	HK 416A5 5.56x45 assault riflex0/|
+	HK G36 5.56x45 assault riflex0/|
+	Kalashnikov AK-101 5.56x45 assault riflex0/|
+	Kalashnikov AK-102 5.56x45 assault riflex0/|
+	Kalashnikov AK-103 7.62x39 assault riflex0/|
+	Kalashnikov AK-104 7.62x39 assault riflex0/|
+	Kalashnikov AK-105 5.45x39 assault riflex0/|
+	Kalashnikov AK-12 5.45x39 assault riflex0/|
+	Kalashnikov AK-74 5.45x39 assault riflex0/|
+	Kalashnikov AK-74M 5.45x39 assault riflex0/|
+	Kalashnikov AK-74N 5.45x39 assault riflex0/|
+	Kalashnikov AKM 7.62x39 assault riflex0/|
+	Kalashnikov AKMN 7.62x39 assault riflex0/|
+	Kalashnikov AKMS 7.62x39 assault riflex0/|
+	Kalashnikov AKMSN 7.62x39 assault riflex0/|
+	Kalashnikov AKS-74 5.45x39 assault riflex0/|
+	Kalashnikov AKS-74N 5.45x39 assault riflex0/|
+	Kalashnikov AKS-74U 5.45x39 assault riflex0/|
+	Kalashnikov AKS-74UB 5.45x39 assault riflex0/|
+	Kalashnikov AKS-74UN 5.45x39 assault riflex0/|
+	Lone Star TX-15 DML 5.56x45 carbinex0/|
+	Molot Arms VPO-209 .366 TKM carbinex0/|
+	Molot Arms VPO-136 Vepr-KM 7.62x39 carbinex0/|
+	Rifle Dynamics RD-704 7.62x39 assault riflex0/|
+	SAG AK-545 5.45x39 carbinex0/|
+	SAG AK-545 Short 5.45x39 carbinex0/|
+	SIG MCX .300 Blackout assault riflex0/|
+	Steyr AUG A1 5.56x45 assault riflex0/|
+	Steyr AUG A3 5.56x45 assault riflex0/|
+	Molot Arms Simonov OP-SKS 7.62x39 carbinex0/|
+	Molot Arms VPO-101 Vepr-Hunter 7.62x51 carbinex0/|
+	AS VAL 9x39 special assault riflex0/|
+	Tokarev AVT-40 7.62x54R automatic riflex0/|
+	TOZ Simonov SKS 7.62x39 carbinex0/|
+	Tokarev SVT-40 7.62x54R riflex0/|
+	SIG MCX SPEAR 6.8x51 assault riflex0/|
+	KBP 9A-91 9x39 compact assault riflex0/|
+	KBP VSK-94 9x39 riflex0/|
+	SR-3M 9x39 compact assault riflex0
+]
+Task_Else=距離: >= 0m
+
+[
+	TaskType=shoot
+	TaskText=Eliminate any target at the Cardinal apartment complex while using Assault rifles or Assault carbines on Streets of Tarkov
+	TaskOptional=false
+]
+
+Reward_Rep=Prapor+4
+Reward_Item=[
+	Roublesx185000/|
+	Bottle of Tarkovskaya vodkax16/|
+	BNTI Zhuk body armor (Digital Flora) Defaultx1
+]
+
+Reward_EXP=25000

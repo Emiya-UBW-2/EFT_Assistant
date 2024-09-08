@@ -1,6 +1,6 @@
 IDstr=vepruntersvd000000000001
-Name=Molot Arms VPO-101 "Vepr-Hunter" 7.62x51 carbine SVD
-ShortName=VPO-101 "Vepr-Hunter" SVD
+Name=Molot Arms VPO-101 Vepr-Hunter 7.62x51 carbine SVD
+ShortName=VPO-101 Vepr-Hunter SVD
 Itemtype=assault-carbine
 width=6
 height=2
@@ -9,15 +9,15 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
-	Molot Arms VPO-101 "Vepr-Hunter" 7.62x51 carbinex1/|
-	VPO-101 "Vepr-Hunter" gas tubex1/|
-	VPO-101 "Vepr-Hunter" SVD-style stockx1/|
-	VPO-101 "Vepr-Hunter" dust coverx1/|
-	VPO-101 "Vepr-Hunter" 7.62x51 10-round magazinex1/|
+	Molot Arms VPO-101 Vepr-Hunter 7.62x51 carbinex1/|
+	VPO-101 Vepr-Hunter gas tubex1/|
+	VPO-101 Vepr-Hunter SVD-style stockx1/|
+	VPO-101 Vepr-Hunter dust coverx1/|
+	VPO-101 Vepr-Hunter 7.62x51 10-round magazinex1/|
 	BelOMO PSO-1 4x24 scopex1/|
 	PSO scope eyecupx1/|
-	VPO-101 "Vepr-Hunter" Rotor 43 7.62x51 muzzle brake-compensatorx1/|
-	VPO-101 "Vepr-Hunter" rear sightx1
+	VPO-101 Vepr-Hunter Rotor 43 7.62x51 muzzle brake-compensatorx1/|
+	VPO-101 Vepr-Hunter rear sightx1
 ]
 Name_Jpn=VPO-101 "ヴェープルハンター" 7.62x51 カービン SVD
 Information_Jpn=

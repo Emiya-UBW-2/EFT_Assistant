@@ -10,29 +10,33 @@ NeedKappa=true
 NeedLightkeeper=false
 
 factionName=Any
-Task_Map=Interchange
-Task_Map=Shoreline
-Task_Map=Streets of Tarkov
 Task_Map=Lighthouse
-Task_Map=Woods
+Task_Map=Ground Zero
 Task_Map=Customs
-Task_Map=Reserve
+Task_Map=Interchange
 Task_Map=The Lab
+Task_Map=Shoreline
+Task_Map=Woods
+Task_Map=Reserve
+Task_Map=Streets of Tarkov
+Task_Map=Ground Zero 21+
 Task_Kill=[
-	Interchange-Scavsx6/|
-	Shoreline-Scavsx6/|
-	Streets of Tarkov-Scavsx6/|
 	Lighthouse-Scavsx6/|
-	Woods-Scavsx6/|
+	Ground Zero-Scavsx6/|
 	Customs-Scavsx6/|
+	Interchange-Scavsx6/|
+	The Lab-Scavsx6/|
+	Shoreline-Scavsx6/|
+	Woods-Scavsx6/|
 	Reserve-Scavsx6/|
-	The Lab-Scavsx6
+	Streets of Tarkov-Scavsx6/|
+	Ground Zero 21+-Scavsx6
 ]
 Task_Else=装備してはいけない:{
-Task_Else=  PNV-10T Night Vision Goggles
-Task_Else=  Armasight N-15 Night Vision Goggles
-Task_Else=  GPNVG-18 Night Vision goggles
-Task_Else=  AN/PVS-14 Night Vision Monocular
+Task_Else=  PNV-10T night vision goggles
+Task_Else=  Armasight N-15 night vision goggles
+Task_Else=  L3Harris GPNVG-18 night vision goggles
+Task_Else=  AN/PVS-14 night vision monocular
 Task_Else=  T-7 Thermal Goggles with a Night Vision mount
 Task_Else=  NSPU-M 3.5x dovetail night vision scope
 Task_Else=  Trijicon REAP-IR thermal scope

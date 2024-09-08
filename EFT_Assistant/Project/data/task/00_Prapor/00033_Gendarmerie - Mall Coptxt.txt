@@ -13,7 +13,7 @@ Task_Map=Streets of Tarkov
 factionName=Any
 Task_Map=Streets of Tarkov
 Task_Kill=[
-	Streets of Tarkov-Scavsx15
+	Streets of Tarkov-any targetx15
 ]
 Task_Else=ゾーン:[Inside the Stylobate building]
 NeedItem=[
@@ -27,7 +27,7 @@ NeedItem=[
 	Glock 19X 9x19 pistolx0/|
 	HK USP .45 ACP pistolx0/|
 	Lebedev PL-15 9x19 pistolx0/|
-	Yarygin MP-443 "Grach" 9x19 pistolx0/|
+	Yarygin MP-443 Grach 9x19 pistolx0/|
 	Makarov PM 9x18PM pistolx0/|
 	Makarov PM (t) 9x18PM pistolx0/|
 	Stechkin APS 9x18PM machine pistolx0/|
@@ -39,7 +39,13 @@ NeedItem=[
 	TT-33 7.62x25 TT pistol (Golden)x0/|
 	Chiappa Rhino 200DS 9x19 revolverx0/|
 	Chiappa Rhino 50DS .357 revolverx0/|
-	RSh-12 12.7x55 revolverx0
+	RSh-12 12.7x55 revolverx0/|
+	Magnum Research Desert Eagle L5 .50 AE pistolx0/|
+	Magnum Research Desert Eagle L5 .357 pistolx0/|
+	Magnum Research Desert Eagle L6 .50 AE pistol (WTS)x0/|
+	Magnum Research Desert Eagle L6 .50 AE pistolx0/|
+	Magnum Research Desert Eagle Mk XIX .50 AE pistolx0/|
+	20x1mm toy gunx0
 ]
 Task_Else=距離: >= 0m
 
@@ -52,7 +58,7 @@ Task_Else=距離: >= 0m
 Reward_Rep=Prapor+2
 Reward_Item=[
 	Roublesx120000/|
-	SR-2M "Veresk" 9x21 submachine gun Defaultx1/|
+	SR-2M Veresk 9x21 submachine gun Defaultx1/|
 	SR-2M 9x21 30-round magazinex4/|
 	9x21mm PS gzhx140
 ]

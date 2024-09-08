@@ -1,0 +1,16 @@
+IDstr=6686700a2b934a68630a7fe6
+Name=UZI PRO 9x19 170mm barrel
+ShortName=PRO 170mm
+Information_Eng=A 170mm barrel for the UZI PRO submachine gun. Manufactured by Israel Weapon Industries.
+Itemtype=barrel
+width=3
+height=1
+weight=0.190000
+fleaMarketFee=0
+propertiestype=ItemPropertiesBarrel
+Recoil=-3.000000
+Ergonomics=-2.000000
+centerOfImpact=0.182000
+deviationMax=11
+Name_Jpn=UZI PRO 9x19 170mm barrel
+Information_Jpn=A 170mm barrel for the UZI PRO submachine gun. Manufactured by Israel Weapon Industries.

@@ -1,0 +1,19 @@
+IDstr=668fe5ec4315934ba10c6f96
+Name=Desert Eagle front sight
+ShortName=DE FS
+Information_Eng=A standard-issue front sight for the Desert Eagle pistol, manufactured by Magnum Research.
+Itemtype=ironsight
+width=1
+height=1
+weight=0.005000
+fleaMarketFee=0
+propertiestype=ItemPropertiesScope
+Conflict=[
+	ELCAN Specter HCO holographic sight
+]
+Recoil=0.000000
+Ergonomics=0.000000
+SightRange=200
+sightZooms=1.000000
+Name_Jpn=Desert Eagle front sight
+Information_Jpn=A standard-issue front sight for the Desert Eagle pistol, manufactured by Magnum Research.

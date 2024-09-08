@@ -1,0 +1,15 @@
+IDstr=65144f546ddb773afa0e35e1
+Name=SR-3M polymer handguard (Black)
+ShortName=SR-3M
+Information_Eng=A standard-issue polymer handguard for the SR-3M assault rifle.
+Itemtype=handguard
+width=1
+height=1
+weight=0.070000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=-1.000000
+Ergonomics=7.000000
+accuracyModifier=0.000000
+Name_Jpn=SR-3M polymer handguard (Black)
+Information_Jpn=A standard-issue polymer handguard for the SR-3M assault rifle.

@@ -21,7 +21,7 @@ Task_Else=脱出ステータス:[Survived]
 
 [
 	TaskType=shoot
-	TaskText=Eliminate the snipers on the rooftops on Streets of Tarkov
+	TaskText=Eliminate rooftop Sniper Scavs on Streets of Tarkov
 	TaskOptional=false
 ]
 [

@@ -1,5 +1,5 @@
 IDstr=599860ac86f77436b225ed1a
-Name=PP-19-01 "Vityaz" 9x19 30-round magazine
+Name=PP-19-01 Vityaz 9x19 30-round magazine
 ShortName=PP-19-01
 Information_Eng=A standard 30-round capacity 9x19 magazine for PP-19-01 Vityaz SMG.
 Itemtype=magazine

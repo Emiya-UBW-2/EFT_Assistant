@@ -1,0 +1,131 @@
+IDstr=669fa394e0c9f9fafa082897
+Name=Forklift Certified
+Trader=Mechanic
+
+NeedTask=Black Swan
+NeedLevel=12
+
+CanRestart=false
+NeedKappa=true
+NeedLightkeeper=false
+
+Task_Map=Factory
+factionName=Any
+Task_Map=Factory
+Task_Map=Night Factory
+Task_Else=TaskType:visit
+Task_Else=Locate the first forklift on Factory
+Task_Map=Factory
+Task_Map=Night Factory
+Task_Else=TaskType:visit
+Task_Else=Locate the second forklift on Factory
+Task_Map=Factory
+Task_Map=Night Factory
+Task_Else=TaskType:visit
+Task_Else=Locate the third forklift on Factory
+Task_Map=Factory
+Task_Map=Night Factory
+Task_Else=TaskType:visit
+Task_Else=Locate the fourth forklift on Factory
+Task_Map=Factory
+Task_Map=Night Factory
+Task_Else=TaskType:visit
+Task_Else=Locate the fifth forklift on Factory
+Task_Map=Factory
+Task_Map=Night Factory
+Task_Else=TaskType:visit
+Task_Else=Locate the sixth forklift on Factory
+Task_Map=Factory
+Task_Map=Night Factory
+Task_Else=TaskType:visit
+Task_Else=Locate the seventh forklift on Factory
+Task_Map=Factory
+Task_Map=Night Factory
+Task_Else=TaskType:visit
+Task_Else=Locate the eighth forklift on Factory
+Task_Map=Factory
+Task_Map=Night Factory
+Task_Else=TaskType:visit
+Task_Else=Locate the ninth forklift on Factory
+Task_Map=Factory
+Task_Map=Night Factory
+Task_Else=TaskType:visit
+Task_Else=Locate the tenth forklift on Factory
+Task_Map=Factory
+Task_Map=Night Factory
+Task_Else=TaskType:visit
+Task_Else=Locate the eleventh forklift on Factory
+Task_Map=Factory
+Task_Map=Night Factory
+Task_Else=TaskType:visit
+Task_Else=Locate the twelfth forklift on Factory
+
+[
+	TaskType=visit
+	TaskText=Locate the first forklift on Factory
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate the second forklift on Factory
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate the third forklift on Factory
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate the fourth forklift on Factory
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate the fifth forklift on Factory
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate the sixth forklift on Factory
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate the seventh forklift on Factory
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate the eighth forklift on Factory
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate the ninth forklift on Factory
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate the tenth forklift on Factory
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate the eleventh forklift on Factory
+	TaskOptional=false
+]
+[
+	TaskType=visit
+	TaskText=Locate the twelfth forklift on Factory
+	TaskOptional=false
+]
+
+Reward_Rep=Mechanic+2
+Reward_Item=[
+	Roublesx46000/|
+	WD-40 (100ml)x3/|
+	Spark plugx3
+]
+
+Reward_EXP=10700

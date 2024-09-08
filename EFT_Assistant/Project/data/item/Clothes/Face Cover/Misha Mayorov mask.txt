@@ -18,7 +18,12 @@ Conflict=[
 	Diamond Age NeoSteel High Cut helmet (Black)/|
 	NPP KlASS Tor-2 helmet (Olive Drab)/|
 	Basmach leather cap/|
-	Gus baseball cap
+	Gus baseball cap/|
+	Ballistic Armor Co. Bastion helmet (Armor Black)/|
+	Ballistic Armor Co. Bastion helmet (MultiCam)/|
+	Ballistic Armor Co. Bastion helmet (OD Green)/|
+	Team Wendy EXFIL Ballistic Helmet (Black)/|
+	Team Wendy EXFIL Ballistic Helmet (Coyote Brown)
 ]
 Name_Jpn=Misha Mayorov mask
 Information_Jpn=A spooky mask of the famous "The Scary Movie" horror movie anti-hero - Misha Mayorov.

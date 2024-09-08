@@ -1,5 +1,5 @@
 IDstr=62975de85c32d414f8797433
-Name=Benelli M3 Super 90 dual-mode 12ga shotgun Default
+Name=Benelli M3 Super 90 12ga dual-mode shotgun Default
 ShortName=M3 Super 90 Default
 Itemtype=shotgun
 width=5
@@ -9,7 +9,7 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
-	Benelli M3 Super 90 dual-mode 12ga shotgunx1/|
+	Benelli M3 Super 90 12ga dual-mode shotgunx1/|
 	Benelli M3 Super 90 12ga 500mm barrelx1/|
 	Benelli M3 forendx1/|
 	Benelli M3 Super 90 12ga 5-shell magazine capx1/|

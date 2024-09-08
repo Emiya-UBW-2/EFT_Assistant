@@ -1,5 +1,5 @@
 IDstr=57f3c8cc2459773ec4480328
-Name=PP-91-01 "Kedr-B" 9x18PM sound suppressor
+Name=PP-91-01 Kedr-B 9x18PM sound suppressor
 ShortName=PP9101
 Information_Eng=A standard-issue detachable PP-91-01 Kedr-B 9x18PM sound suppressor. It can be removed for compact carrying purposes.
 Itemtype=silencer

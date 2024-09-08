@@ -14,6 +14,8 @@ Conflict=[
 	ELCAN Specter HCO holographic sight/|
 	EOTech 553 holographic sight/|
 	EOTech EXPS3 holographic sight (Tan)/|
+	EOTech XPS3-0 holographic sight/|
+	EOTech XPS3-2 holographic sight/|
 	Holosun HS401G5 reflex sight/|
 	Leapers UTG reflex sight/|
 	SIG Sauer ROMEO8T reflex sight/|
@@ -21,16 +23,14 @@ Conflict=[
 	Trijicon SRS-02 reflex sight/|
 	Valday PK-120 (1P87) holographic sight/|
 	Valday Krechet reflex sight/|
-	Walther MRS reflex sight/|
-	EOTech XPS3-0 holographic sight/|
-	EOTech XPS3-2 holographic sight/|
+	VOMZ Pilad P1x42 Weaver reflex sight/|
 	Vortex Razor AMG UH-1 holographic sight/|
-	VOMZ Pilad P1x42 Weaver reflex sight
+	Walther MRS reflex sight
 ]
 Recoil=0.000000
 Ergonomics=-8.000000
 SightRange=2000
-sightZooms=25.000000
 sightZooms=5.000000
+sightZooms=25.000000
 Name_Jpn=Schmidt & Bender PM II 5-25x56 34mm riflescope
 Information_Jpn=The Schmidt & Bender PM II 5-25x56 riflescope was originally created for elite military forces for high-quality target acquisition and pinpoint accuracy.

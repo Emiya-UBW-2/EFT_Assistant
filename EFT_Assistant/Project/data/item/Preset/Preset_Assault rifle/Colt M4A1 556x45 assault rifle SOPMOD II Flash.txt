@@ -25,7 +25,7 @@ containsItems=[
 	Aimpoint Micro T-1 reflex sightx1/|
 	Kiba Arms 25mm accessory ring mountx1/|
 	Ultrafire WF-501B flashlightx1/|
-	AN/PEQ-15 tactical devicex1/|
+	L3Harris AN/PEQ-15 tactical devicex1/|
 	AR-15 Daniel Defense RIS II 9.5 lower handguard (Coyote Brown)x1/|
 	TangoDown Stubby BGV-MK46K foregrip (FDE)x1/|
 	AR-15 Colt Carbine buffer tubex1/|

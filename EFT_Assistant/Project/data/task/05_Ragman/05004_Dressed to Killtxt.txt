@@ -41,7 +41,7 @@ DogTagLv=0
 Reward_Rep=Ragman+3
 Reward_Item=[
 	Roublesx21000/|
-	BNTI Gzhel-K body armorx1/|
+	BNTI Gzhel-K body armor Defaultx1/|
 	Military power filterx1
 ]
 

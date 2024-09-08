@@ -8,5 +8,12 @@ height=2
 weight=0.300000
 fleaMarketFee=0
 propertiestype=ItemPropertiesHelmet
+Conflict=[
+	Maska-1SCh bulletproof helmet (Olive Drab)/|
+	Maska-1SCh bulletproof helmet (Killa Edition)/|
+	Ballistic Armor Co. Bastion helmet (Armor Black)/|
+	Ballistic Armor Co. Bastion helmet (MultiCam)/|
+	Ballistic Armor Co. Bastion helmet (OD Green)
+]
 Name_Jpn=Shattered lightweight armored mask
 Information_Jpn=The "Shattered" face protection mask, reinforced with aramid fibers.

@@ -1,5 +1,5 @@
 IDstr=657024a91419851aef03e70c
-Name=20/70 "Poleva-6u" slug ammo pack (25 pcs)
+Name=20/70 Poleva-6u slug ammo pack (25 pcs)
 ShortName=Poleva-6u
 Information_Eng=A box of 20/70 "Poleva-6u" slug cartridges, 25 pieces.
 Itemtype=ammo-container

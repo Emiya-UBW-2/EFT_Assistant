@@ -1,6 +1,6 @@
 IDstr=5f63405df5750b524b45f114
-Name=VPO-101 "Vepr-Hunter" SVD-style stock
-ShortName=101 SVD-style
+Name=VPO-101 Vepr-Hunter SVD-style stock
+ShortName=101 SVD
 Information_Eng=An SVD-style wooden stock designed for VPO-101 Vepr-Hunter carbines.
 Itemtype=stock
 width=4

@@ -1,5 +1,5 @@
-Name=SR-2M "Veresk" 9x21 submachine gun TAC
-Base=SR-2M "Veresk" 9x21 submachine gun
+Name=SR-2M Veresk 9x21 submachine gun TAC
+Base=SR-2M Veresk 9x21 submachine gun
 Parts=SR-2M 9x21 30-round magazine
 Parts=SR-2M 9x21 sound suppressor (SV-1381)
 Parts=SR-2MP top-folding stock

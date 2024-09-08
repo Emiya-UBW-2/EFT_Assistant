@@ -28,8 +28,8 @@ containsItems=[
 	KAC Folding front sightx1/|
 	SIG Sauer Vertical Foregrip KeyMod (Black)x1/|
 	KAC Folding rear sightx1/|
-	AN/PEQ-15 tactical devicex1/|
-	MPX/MCX telescoping stockx1/|
+	L3Harris AN/PEQ-15 tactical devicex1/|
+	MPX/MCX Telescoping/Folding Stockx1/|
 	MCX charging handlex1
 ]
 Name_Jpn=MCX .300 Blackout アサルトライフル Neptune Spear

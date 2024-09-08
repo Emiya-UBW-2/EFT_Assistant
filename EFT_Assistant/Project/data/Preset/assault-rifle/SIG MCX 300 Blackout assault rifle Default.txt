@@ -10,5 +10,5 @@ Parts=MCX gas block
 Parts=MCX GEN1 KeyMod 8 inch handguard
 Parts=MCX flip-up front sight
 Parts=MCX flip-up rear sight
-Parts=MPX/MCX lightweight stock
+Parts=MPX/MCX Thin Side-Folding Stock
 Parts=MCX charging handle

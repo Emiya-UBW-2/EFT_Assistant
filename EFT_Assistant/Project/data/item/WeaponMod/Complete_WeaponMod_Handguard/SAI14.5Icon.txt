@@ -10,11 +10,13 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
-	Magpul M-LOK Cantilever Mount
+	Magpul M-LOK Cantilever Mount/|
+	Magpul M-LOK 0.93 inch rail
 ]
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
-	Magpul M-LOK Cantilever Mount
+	Magpul M-LOK Cantilever Mount/|
+	Magpul M-LOK 0.93 inch rail
 ]
 ChildParts=[
 	NcSTAR MPR45 Backup mount
@@ -26,7 +28,9 @@ ChildParts=[
 	Magpul M-LOK AFG tactical foregrip (Stealth Grey)/|
 	Magpul M-LOK 4.1 inch rail/|
 	Daniel Defense Enhanced M-LOK Vertical Foregrip (Black)/|
-	Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown)
+	Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown)/|
+	BCM GUNFIGHTER MOD 3 M-LOK foregrip (Black)/|
+	BCM GUNFIGHTER MOD 3 M-LOK foregrip (FDE)
 ]
 ChildParts=[
 	HK MP7 flip-up front sight/|
@@ -43,9 +47,9 @@ ChildParts=[
 ]
 ChildParts=[
 	Holosun LS321 Tactical device/|
-	AN/PEQ-15 tactical device/|
-	AN/PEQ-2 tactical device/|
-	LA-5B/PEQ tactical device/|
+	L3Harris AN/PEQ-15 tactical device/|
+	Insight AN/PEQ-2 tactical device/|
+	L3Harris LA-5B/PEQ tactical device/|
 	SureFire XC1 tactical flashlight/|
 	Zenit Perst-3 tactical device/|
 	MAWL-C1+ tactical device
@@ -53,8 +57,8 @@ ChildParts=[
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
-	AN/PEQ-15 tactical device/|
-	LA-5B/PEQ tactical device/|
+	L3Harris AN/PEQ-15 tactical device/|
+	L3Harris LA-5B/PEQ tactical device/|
 	NcSTAR Tactical blue laser LAM-module/|
 	Steiner DBAL-PL tactical device/|
 	Steiner LAS/TAC 2 tactical flashlight/|
@@ -76,8 +80,8 @@ ChildParts=[
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
-	AN/PEQ-15 tactical device/|
-	LA-5B/PEQ tactical device/|
+	L3Harris AN/PEQ-15 tactical device/|
+	L3Harris LA-5B/PEQ tactical device/|
 	NcSTAR Tactical blue laser LAM-module/|
 	Steiner DBAL-PL tactical device/|
 	Steiner LAS/TAC 2 tactical flashlight/|
@@ -99,8 +103,8 @@ ChildParts=[
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
-	AN/PEQ-15 tactical device/|
-	LA-5B/PEQ tactical device/|
+	L3Harris AN/PEQ-15 tactical device/|
+	L3Harris LA-5B/PEQ tactical device/|
 	NcSTAR Tactical blue laser LAM-module/|
 	Steiner DBAL-PL tactical device/|
 	Steiner LAS/TAC 2 tactical flashlight/|
@@ -117,7 +121,8 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight/|
 	MAWL-C1+ tactical device/|
-	Zenit KR-2 old gen mount
+	Zenit KR-2 old gen mount/|
+	BT10 V8 Atlas Bipod
 ]
 Conflict=[
 	AR-10 JP Enterprises Gas System-6/|

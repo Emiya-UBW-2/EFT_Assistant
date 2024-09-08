@@ -1,0 +1,15 @@
+Name=Desert Tech MDR 7.62x51 assault rifle T.O 2K24
+Base=Desert Tech MDR 7.62x51 assault rifle
+Parts=MDR pistol grip (Black)
+Parts=MDR handguard (FDE)
+Parts=Magpul M-LOK 2.5 inch rail
+Parts=L3Harris AN/PEQ-15 tactical device
+Parts=Magpul MBUS Gen2 flip-up front sight (FDE)
+Parts=Magpul M-LOK 4.1 inch rail
+Parts=Strike Industries Cobra Tactical foregrip (FDE)
+Parts=MDR 7.62x51 16 inch barrel
+Parts=AWC PSR 7.62x51 muzzle brake
+Parts=AWC Thor PSR XL multi-caliber sound suppressor
+Parts=Magpul MBUS Gen2 flip-up rear sight (FDE)
+Parts=EOTech EXPS3 holographic sight (Tan)
+Parts=AR-10 7.62x51 Lancer L7AWM 25-round magazine

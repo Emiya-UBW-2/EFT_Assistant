@@ -1,0 +1,41 @@
+IDstr=66631489acf8442f8b05319f
+Name=Friend Among Strangers
+Trader=Fence
+
+NeedTask=Establish Contact
+NeedLevel=0
+
+CanRestart=true
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_Kill=[
+	any PMC operativesx7
+]
+Task_Else=距離: >= 0m
+
+[
+	TaskType=shoot
+	TaskText=Eliminate PMC operatives without killing Scavs
+	TaskOptional=false
+]
+
+Reward_Rep=Fence+4
+Reward_Item=[
+	Eurosx1200/|
+	Military flash drivex2
+]
+
+Task_Kill=[
+	Scavsx1
+]
+Task_Else=距離: >= 0m
+
+[
+	TaskType=shoot
+	TaskText=
+	TaskOptional=false
+]
+
+Reward_EXP=25600

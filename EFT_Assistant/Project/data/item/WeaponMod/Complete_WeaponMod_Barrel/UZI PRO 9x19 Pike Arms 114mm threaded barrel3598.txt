@@ -1,0 +1,26 @@
+IDstr=668031705014e211b4078046
+Name=UZI PRO 9x19 Pike Arms 114mm threaded barrel
+ShortName=PA 114mm
+Information_Eng=A threaded 114mm barrel for the UZI PRO. Manufactured by Pike Arms.
+Itemtype=barrel
+width=2
+height=1
+weight=0.128000
+fleaMarketFee=0
+propertiestype=ItemPropertiesBarrel
+ChildParts=[
+	TACCOM Carbine Brake 9x19 muzzle brake/|
+	KRISS Vector 9x19 flash hider/|
+	Gemtech ONE Direct Thread Mount adapter/|
+	KRISS Vector 9x19 thread protection cap/|
+	Rotor 43 9x19 muzzle brake-compensator/|
+	SIG Sauer SRD9 9x19 sound suppressor/|
+	SilencerCo Osprey 9 9x19 sound suppressor/|
+	UZI PRO 9x19 Masada thread protector
+]
+Recoil=0.000000
+Ergonomics=-1.000000
+centerOfImpact=0.220000
+deviationMax=11
+Name_Jpn=UZI PRO 9x19 Pike Arms 114mm threaded barrel
+Information_Jpn=A threaded 114mm barrel for the UZI PRO. Manufactured by Pike Arms.

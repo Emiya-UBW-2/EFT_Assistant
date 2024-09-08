@@ -1,10 +1,10 @@
 IDstr=vssvintorezstripped00001
 Name=VSS Vintorez 9x39 special sniper rifle Stripped
-ShortName=VSS "Vintorez" Stripped
+ShortName=VSS Vintorez Stripped
 Itemtype=marksman-rifle
 width=5
 height=2
-weight=2.116000
+weight=2.174000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=FALSE

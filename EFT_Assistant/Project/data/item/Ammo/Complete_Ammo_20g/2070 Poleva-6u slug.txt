@@ -1,5 +1,5 @@
 IDstr=5d6e6a42a4b9364f07165f52
-Name=20/70 "Poleva-6u" slug
+Name=20/70 Poleva-6u slug
 ShortName=Poleva-6u
 Information_Eng=A "Poleva-6u" 20/70 FMJ slug shell for 20 gauge shotguns.
 Itemtype=ammo

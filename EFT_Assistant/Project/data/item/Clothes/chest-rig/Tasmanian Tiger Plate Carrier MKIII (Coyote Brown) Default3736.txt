@@ -1,0 +1,16 @@
+IDstr=70726573657400000000003e
+Name=Tasmanian Tiger Plate Carrier MKIII (Coyote Brown) Default
+ShortName=TT MKIII Default
+Itemtype=chest-rig
+width=3
+height=3
+weight=10.080000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Tasmanian Tiger Plate Carrier MKIII (Coyote Brown)x1/|
+	TallCom Guardian ballistic platex2
+]
+Name_Jpn=Tasmanian Tiger Plate Carrier MKIII (Coyote Brown) デフォルト
+Information_Jpn=

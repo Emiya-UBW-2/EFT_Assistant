@@ -1,0 +1,15 @@
+IDstr=668fe5d42a0f85eea407cc16
+Name=Desert Eagle Hogue Rubber Grip
+ShortName=DE RG
+Information_Eng=A rubberized grip for the Desert Eagle pistol. Manufactured by Hogue.
+Itemtype=pistol-grip
+width=1
+height=1
+weight=0.110000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=0.000000
+Ergonomics=4.000000
+accuracyModifier=0.000000
+Name_Jpn=Desert Eagle Hogue Rubber Grip
+Information_Jpn=A rubberized grip for the Desert Eagle pistol. Manufactured by Hogue.

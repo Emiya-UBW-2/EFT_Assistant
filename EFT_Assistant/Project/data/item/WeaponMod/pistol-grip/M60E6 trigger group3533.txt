@@ -1,0 +1,20 @@
+IDstr=6615208aa031cbb5570e346a
+Name=M60E6 trigger group
+ShortName=E6 TG
+Information_Eng=A trigger group for the M60E6 machine gun with an adapter that allows the installation of pistol grips from the M60. Manufactured by U.S. Ordnance.
+Itemtype=pistol-grip
+width=1
+height=1
+weight=0.098000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+ChildParts=[
+	M60E4 pistol grip/|
+	M60E6 pistol grip/|
+	M60E6 pistol grip (FDE)
+]
+Recoil=0.000000
+Ergonomics=3.000000
+accuracyModifier=0.000000
+Name_Jpn=M60E6 trigger group
+Information_Jpn=A trigger group for the M60E6 machine gun with an adapter that allows the installation of pistol grips from the M60. Manufactured by U.S. Ordnance.

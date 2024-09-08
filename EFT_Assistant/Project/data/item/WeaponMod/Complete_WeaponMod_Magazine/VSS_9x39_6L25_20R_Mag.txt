@@ -1,11 +1,11 @@
 IDstr=57838f9f2459774a150289a0
-Name=VSS 9x39 6L25 20-round magazine
+Name=VSS/VAL 9x39 6L25 20-round magazine (Plum)
 ShortName=6L25
-Information_Eng=A 20-round polymer TsNIITochMash 6L25 9x39 magazine for the AS VAL special assault rifle.
+Information_Eng=A 20-round polymer TsNIITochMash 6L25 9x39 magazine for the AS VAL special assault rifle. Made out of plum-colored polymer, earning the nickname "Sliva" (Plum).
 Itemtype=magazine
 width=1
 height=2
-weight=0.300000
+weight=0.181000
 fleaMarketFee=0
 propertiestype=ItemPropertiesMagazine
 Recoil=0.000000

@@ -27,22 +27,22 @@ DogTagLv=0
 
 [
 	TaskType=plantItem
-	TaskText=Stash Ghost balaclava in the specified place
+	TaskText=Stash a Ghost balaclava at the sawmill docks on Woods
 	TaskOptional=false
 ]
 [
 	TaskType=plantItem
-	TaskText=Stash Shemagh (Green) in the specified place
+	TaskText=Stash a Shemagh (Green) at the sawmill docks on Woods
 	TaskOptional=false
 ]
 [
 	TaskType=plantItem
-	TaskText=Stash RayBench Hipster Reserve sunglasses in the specified place
+	TaskText=Stash RayBench Hipster Reserve sunglasses at the sawmill docks on Woods
 	TaskOptional=false
 ]
 [
 	TaskType=plantItem
-	TaskText=Stash Round frame sunglasses in the specified place
+	TaskText=Stash Round frame sunglasses at the sawmill docks on Woods
 	TaskOptional=false
 ]
 

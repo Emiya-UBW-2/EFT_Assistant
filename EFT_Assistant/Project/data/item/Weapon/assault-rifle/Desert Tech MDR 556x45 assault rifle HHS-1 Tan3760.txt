@@ -1,0 +1,28 @@
+IDstr=dtmdr556hhs1tan000000001
+Name=Desert Tech MDR 5.56x45 assault rifle HHS-1 Tan
+ShortName=MDR HHS-1 Tan
+Itemtype=assault-rifle
+width=5
+height=2
+weight=5.528000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Desert Tech MDR 5.56x45 assault riflex1/|
+	MDR pistol grip (FDE)x1/|
+	5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine (FDE)x1/|
+	MDR handguard (FDE)x1/|
+	Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown)x1/|
+	L3Harris AN/PEQ-15 tactical devicex1/|
+	Magpul MBUS Gen2 flip-up front sight (FDE)x1/|
+	Magpul M-LOK Offset Light Mountx1/|
+	Insight WMX200 tactical flashlightx1/|
+	MDR 5.56x45 16 inch barrelx1/|
+	AR-15 SureFire SF4P 5.56x45 flash hiderx1/|
+	SureFire SOCOM556-RC2 5.56x45 sound suppressorx1/|
+	EOTech HHS-1 hybrid sight (Tan)x1/|
+	Magpul MBUS Gen2 flip-up rear sight (FDE)x1
+]
+Name_Jpn=MDR 5.56x45 アサルトライフル HHS-1 Tan
+Information_Jpn=

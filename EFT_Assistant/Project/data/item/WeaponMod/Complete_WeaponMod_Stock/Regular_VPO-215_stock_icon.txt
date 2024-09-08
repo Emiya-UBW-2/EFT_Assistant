@@ -1,5 +1,5 @@
 IDstr=5de655be4a9f347bc92edb88
-Name=VPO-215 "Gornostay" stock
+Name=VPO-215 Gornostay wooden stock
 ShortName=VPO-215
 Information_Eng=A standard-issue stock for the VPO-215 "Gornostay" rifle.
 Itemtype=stock

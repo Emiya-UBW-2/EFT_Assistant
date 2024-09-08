@@ -20,12 +20,12 @@ Task_Else=脱出ステータス:[Survived,Run Through]
 
 [
 	TaskType=mark
-	TaskText=Mark the helicopter with an MS2000 Marker on Shoreline
+	TaskText=Mark the helicopter at the Health Resort with an MS2000 Marker on Shoreline
 	TaskOptional=false
 ]
 [
 	TaskType=mark
-	TaskText=Mark the safe road with an MS2000 Marker on Shoreline
+	TaskText=Mark the safe road to the helicopter with an MS2000 Marker on Shoreline
 	TaskOptional=false
 ]
 [

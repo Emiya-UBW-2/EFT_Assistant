@@ -1,0 +1,15 @@
+IDstr=651178336cad06c37c049eb4
+Name=VSS/VAL polymer handguard (Plum)
+ShortName=VSS/VAL
+Information_Eng=A polymer handguard for the AS Val and VSS Vintorez. Manufactured by TsNIITochMash. Made out of plum-colored polymer, earning the nickname "Sliva" (Plum).
+Itemtype=handguard
+width=1
+height=1
+weight=0.070000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=0.000000
+Ergonomics=5.000000
+accuracyModifier=0.000000
+Name_Jpn=VSS/VAL polymer handguard (Plum)
+Information_Jpn=A polymer handguard for the AS Val and VSS Vintorez. Manufactured by TsNIITochMash. Made out of plum-colored polymer, earning the nickname "Sliva" (Plum).

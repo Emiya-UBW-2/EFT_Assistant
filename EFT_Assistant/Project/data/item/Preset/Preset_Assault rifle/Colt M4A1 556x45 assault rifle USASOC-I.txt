@@ -21,7 +21,7 @@ containsItems=[
 	SureFire SOCOM556-RC2 5.56x45 sound suppressorx1/|
 	AR-15 JP Enterprises Gas System-5Bx1/|
 	AR-15 Geissele SMR MK16 9.5 inch M-LOK handguard (DDC)x1/|
-	LA-5B/PEQ tactical devicex1/|
+	L3Harris LA-5B/PEQ tactical devicex1/|
 	Magpul MBUS Gen2 flip-up front sight (FDE)x1/|
 	Magpul MBUS Gen2 flip-up rear sight (FDE)x1/|
 	AR-15 Colt Carbine buffer tubex1/|

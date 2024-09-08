@@ -16,7 +16,7 @@ Conflict=[
 	EMERCOM cap/|
 	Police cap/|
 	Rivals 2020 cap/|
-	DevTac Ronin ballistic helmet/|
+	DevTac Ronin Respirator/|
 	Bandana/|
 	BEAR baseball cap (Black)/|
 	Beret (Black)/|
@@ -29,7 +29,13 @@ Conflict=[
 	Rivals 2020 beanie/|
 	USEC baseball cap (Black)/|
 	Gus baseball cap/|
-	Basmach leather cap
+	Basmach leather cap/|
+	DevTac Ronin ballistic helmet/|
+	Team Wendy EXFIL Ballistic Helmet (Black)/|
+	Team Wendy EXFIL Ballistic Helmet (Coyote Brown)/|
+	Ballistic Armor Co. Bastion helmet (OD Green)/|
+	Ballistic Armor Co. Bastion helmet (MultiCam)/|
+	Ballistic Armor Co. Bastion helmet (Armor Black)
 ]
 Name_Jpn=スレンダーマスク
 Information_Jpn=A non-combat facemask for intimidation effect. Would've probably actually intimidated someone back in 2012.

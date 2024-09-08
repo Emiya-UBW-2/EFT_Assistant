@@ -20,7 +20,7 @@ Task_Else=距離: >= 0m
 
 [
 	TaskType=shoot
-	TaskText=Secure the cottage area from Scavs on Lighthouse
+	TaskText=Eliminate Scavs around the chalet area on Lighthouse
 	TaskOptional=false
 ]
 

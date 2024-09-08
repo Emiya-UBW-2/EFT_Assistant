@@ -1,0 +1,15 @@
+IDstr=661520fb6f8e1a96340afaa6
+Name=M60E6 buttstock (FDE)
+ShortName=E6 BS
+Information_Eng=A lightweight buttstock for the M60E6 light machine gun with articulated shoulder rest and improved buffer mounting mechanism. Manufactured by U.S. Ordnance. Flat Dark Earth version.
+Itemtype=stock
+width=1
+height=1
+weight=0.239000
+fleaMarketFee=0
+propertiestype=ItemPropertiesWeaponMod
+Recoil=0.000000
+Ergonomics=6.000000
+accuracyModifier=0.000000
+Name_Jpn=M60E6 buttstock (FDE)
+Information_Jpn=A lightweight buttstock for the M60E6 light machine gun with articulated shoulder rest and improved buffer mounting mechanism. Manufactured by U.S. Ordnance. Flat Dark Earth version.

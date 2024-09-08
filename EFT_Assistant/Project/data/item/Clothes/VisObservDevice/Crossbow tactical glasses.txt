@@ -1,5 +1,5 @@
 IDstr=5d5fca1ea4b93635fd598c07
-Name=Crossbow tactical glasses
+Name=ESS Crossbow tactical glasses
 ShortName=Crossbow
 Information_Eng=Ballistic glasses with impact-resistant polycarbonate lenses.
 Itemtype=vis-observ-device

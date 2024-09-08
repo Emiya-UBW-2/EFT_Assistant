@@ -10,8 +10,12 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	PNV-10T dovetail adapter/|
-	AN/PVS-14 Dual Dovetail Mount/|
-	Wilcox Interface for PVS-7
+	AN/PVS-14 Norotos Dual Dovetail Mount/|
+	PVS-7 Wilcox Adapter
+]
+Conflict=[
+	Team Wendy EXFIL Ballistic face shield (Black)/|
+	Team Wendy EXFIL Ballistic face shield (Coyote Brown)
 ]
 Recoil=0.000000
 Ergonomics=0.000000

@@ -1,5 +1,5 @@
 IDstr=5998517986f7746017232f7e
-Name=PP-19-01 "Vityaz" pistol grip
+Name=PP-19-01 Vityaz pistol grip
 ShortName=PP-19-01
 Information_Eng=An Izhmash-manufactured pistol grip for PP-19-01 Vityaz SMGs and Saiga-9 carbines.
 Itemtype=pistol-grip

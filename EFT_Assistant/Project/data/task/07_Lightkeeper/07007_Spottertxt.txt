@@ -3,7 +3,7 @@ Name=Spotter
 Trader=Lightkeeper
 
 NeedTask=Following the Bread Crumbs
-NeedLevel=35
+NeedLevel=33
 
 CanRestart=false
 NeedKappa=false
@@ -52,7 +52,7 @@ Task_Else=脱出ステータス:[Survived]
 	TaskOptional=false
 ]
 
-Reward_Rep=Lightkeeper+1
+Reward_Rep=Lightkeeper+4
 Reward_Item=[
 	Microcontroller boardx1
 ]
