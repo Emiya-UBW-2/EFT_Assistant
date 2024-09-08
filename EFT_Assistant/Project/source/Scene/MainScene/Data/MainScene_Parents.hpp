@@ -114,7 +114,7 @@ namespace FPS_n2 {
 							SubRIGHTStrs(&line2, "//");				//コメントアウト
 							SubStrs(&line2, "\t");
 							SubStrs(&line2, DIV_STR);
-							SubStrs(&line2, ",");
+							//SubStrs(&line2, ",");
 							Args.emplace_back(line2);
 						}
 						SetCommon(getparams::getleft(line), Args);

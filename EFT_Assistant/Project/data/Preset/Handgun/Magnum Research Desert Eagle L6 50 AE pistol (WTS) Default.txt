@@ -3,4 +3,6 @@ Base=Magnum Research Desert Eagle L6 .50 AE pistol (WTS)
 Parts=Desert Eagle L6 .50 AE 152mm barrel (WTS)
 Parts=Desert Eagle front sight
 Parts=Desert Eagle Hogue Rubber Grip with finger grooves
+Parts=Desert Eagle L6 pistol slide (WTS)
+Parts=Desert Eagle rear sight
 Parts=Desert Eagle .50 AE 7-round magazine

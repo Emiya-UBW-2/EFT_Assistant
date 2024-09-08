@@ -1,9 +1,11 @@
 Name=IWI UZI 9x19 submachine gun SD
 Base=IWI UZI 9x19 submachine gun
+Parts=UZI PRO 9x19 20-round magazine
 Parts=UZI 9x19 259mm barrel
 Parts=UZI 9x19 sound suppressor
 Parts=UZI StormWerkz stock adapter
 Parts=MPX/MCX Collapsing/Telescoping Stock
+Parts=UZI StormWerkz lower handguard rail
 Parts=NcSTAR Tactical blue laser LAM-module
 Parts=UZI polymer handguard
 Parts=UZI pistol grip cover
