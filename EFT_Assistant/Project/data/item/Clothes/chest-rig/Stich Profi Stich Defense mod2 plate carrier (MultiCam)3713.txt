@@ -1,0 +1,12 @@
+IDstr=66b6295178bbc0200425f995
+Name=Stich Profi Stich Defense mod.2 plate carrier (MultiCam)
+ShortName=SD mod.2
+Information_Eng=A plate carrier designed for Granit and SAPI plates, made of heavy-duty materials with IR remission. Equipped with ROC buckles for quick donning and doffing. The inner sides are made of soft fabric and equipped with vent pads for increased comfort. Manufactured by Stich Profi. MultiCam camouflage version.
+Itemtype=chest-rig
+width=4
+height=3
+weight=1.710000
+fleaMarketFee=0
+propertiestype=ItemPropertiesChestRig
+Name_Jpn=Stich Profi Stich Defense mod.2 plate carrier (MultiCam)
+Information_Jpn=A plate carrier designed for Granit and SAPI plates, made of heavy-duty materials with IR remission. Equipped with ROC buckles for quick donning and doffing. The inner sides are made of soft fabric and equipped with vent pads for increased comfort. Manufactured by Stich Profi. MultiCam camouflage version.

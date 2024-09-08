@@ -1,0 +1,12 @@
+IDstr=666b11055a706400b717cfa5
+Name=Tripwire installation kit
+ShortName=Tripwire
+Information_Eng=An improvised booby trap kit made of tent pegs and wire with a carabiner. Allows the user to install tripwires on flat surfaces or to conceal explosives on an object.
+Itemtype=planting-kits
+width=1
+height=1
+weight=0.350000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=Tripwire installation kit
+Information_Jpn=An improvised booby trap kit made of tent pegs and wire with a carabiner. Allows the user to install tripwires on flat surfaces or to conceal explosives on an object.

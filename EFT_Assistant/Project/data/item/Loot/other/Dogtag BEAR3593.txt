@@ -1,0 +1,12 @@
+IDstr=6662e9cda7e0b43baa3d5f76
+Name=Dogtag BEAR
+ShortName=BEAR
+Information_Eng=Army dogtags serve the purpose of quickly identifying the wounded and deceased in combat. This one belonged to a BEAR PMC operator that remained loyal to his ideals.
+Itemtype=other
+width=1
+height=1
+weight=0.010000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=Dogtag BEAR
+Information_Jpn=Army dogtags serve the purpose of quickly identifying the wounded and deceased in combat. This one belonged to a BEAR PMC operator that remained loyal to his ideals.

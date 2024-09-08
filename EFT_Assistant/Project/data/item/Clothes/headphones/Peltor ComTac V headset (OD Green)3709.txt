@@ -1,0 +1,20 @@
+IDstr=66b5f693acff495a294927e3
+Name=Peltor ComTac V headset (OD Green)
+ShortName=ComTac V
+Information_Eng=A communication headset equipped with a microphone and omnidirectional high-fidelity speakers that are optimized for voice communication and capable of picking up sounds with high sensitivity. Manufactured by 3M Peltor. OD Green color version.
+Itemtype=headphones
+width=2
+height=2
+weight=0.335000
+fleaMarketFee=0
+propertiestype=
+Conflict=[
+	SSh-68 steel helmet (Olive Drab)/|
+	Ushanka ear flap hat/|
+	MIL-TEC boonie hat/|
+	Jack Pyke Hunting LLCS boonie hat/|
+	Stich Profi Chimera boonie hat/|
+	Door Kicker boonie hat
+]
+Name_Jpn=Peltor ComTac V headset (OD Green)
+Information_Jpn=A communication headset equipped with a microphone and omnidirectional high-fidelity speakers that are optimized for voice communication and capable of picking up sounds with high sensitivity. Manufactured by 3M Peltor. OD Green color version.

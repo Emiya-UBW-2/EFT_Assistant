@@ -1,0 +1,12 @@
+IDstr=6601546f86889319850bd566
+Name=20x1mm disk
+ShortName=Disk
+Information_Eng=A toy ammunition in the form of a 20x1mm disk for the Soviet plastic toy gun. Manufactured in the USSR.
+Itemtype=ammo
+width=1
+height=1
+weight=0.001000
+fleaMarketFee=0
+propertiestype=ItemPropertiesAmmo
+Name_Jpn=20x1mm disk
+Information_Jpn=A toy ammunition in the form of a 20x1mm disk for the Soviet plastic toy gun. Manufactured in the USSR.

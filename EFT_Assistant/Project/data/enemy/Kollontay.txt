@@ -1,0 +1,2 @@
+Name=Kollontay
+Color=[128/|192/|0]

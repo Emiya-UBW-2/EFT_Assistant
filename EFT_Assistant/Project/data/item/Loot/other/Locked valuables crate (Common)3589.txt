@@ -1,0 +1,12 @@
+IDstr=66588bb047fbd536a674240e
+Name=Locked valuables crate (Common)
+ShortName=Valuables (Common)
+Information_Eng=A trophy for participating in Arena battles. Unlike cash, barter will always be viable, and the contents of this box may be more valuable than a few packs of crunchy paper. But first, you need to find a way to open this box.
+Itemtype=other
+width=3
+height=2
+weight=4.000000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=Locked valuables crate (Common)
+Information_Jpn=A trophy for participating in Arena battles. Unlike cash, barter will always be viable, and the contents of this box may be more valuable than a few packs of crunchy paper. But first, you need to find a way to open this box.

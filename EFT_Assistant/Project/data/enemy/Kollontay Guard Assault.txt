@@ -1,0 +1,2 @@
+Name=Kollontay Guard (Assault)
+Color=[128/|192/|0]

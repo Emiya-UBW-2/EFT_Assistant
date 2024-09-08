@@ -3,6 +3,4 @@ Base=Magnum Research Desert Eagle L5 .357 pistol
 Parts=Desert Eagle L5 .357 127mm barrel
 Parts=Desert Eagle front sight
 Parts=Desert Eagle Hogue Rubber Grip with finger grooves
-Parts=Desert Eagle L5 .357 pistol slide
-Parts=Desert Eagle rear sight
 Parts=Desert Eagle .357 9-round magazine

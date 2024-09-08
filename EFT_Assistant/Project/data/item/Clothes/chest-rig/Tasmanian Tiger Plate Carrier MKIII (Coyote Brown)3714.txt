@@ -1,0 +1,12 @@
+IDstr=66b6295a8ca68c6461709efa
+Name=Tasmanian Tiger Plate Carrier MKIII (Coyote Brown)
+ShortName=TT MKIII
+Information_Eng=A lightweight low-profile plate carrier designed to fit SAPI plates. Manufactured by Tasmanian Tiger. Coyote Brown version.
+Itemtype=chest-rig
+width=3
+height=3
+weight=3.080000
+fleaMarketFee=0
+propertiestype=ItemPropertiesChestRig
+Name_Jpn=Tasmanian Tiger Plate Carrier MKIII (Coyote Brown)
+Information_Jpn=A lightweight low-profile plate carrier designed to fit SAPI plates. Manufactured by Tasmanian Tiger. Coyote Brown version.

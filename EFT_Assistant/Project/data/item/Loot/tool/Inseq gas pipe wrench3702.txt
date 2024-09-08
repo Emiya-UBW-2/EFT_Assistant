@@ -1,0 +1,12 @@
+IDstr=66b37f114410565a8f6789e2
+Name=Inseq gas pipe wrench
+ShortName=Inseq
+Information_Eng=An Inseq brand plumber's wrench, shiny and colorful.
+Itemtype=tool
+width=1
+height=2
+weight=0.533000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=Inseq gas pipe wrench
+Information_Jpn=An Inseq brand plumber's wrench, shiny and colorful.

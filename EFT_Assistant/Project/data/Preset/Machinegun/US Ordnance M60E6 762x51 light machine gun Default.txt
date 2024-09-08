@@ -9,3 +9,4 @@ Parts=M60E6 handguard
 Parts=M60 rear sight
 Parts=M60E6 trigger group
 Parts=M60E6 pistol grip
+Parts=M60 bipod

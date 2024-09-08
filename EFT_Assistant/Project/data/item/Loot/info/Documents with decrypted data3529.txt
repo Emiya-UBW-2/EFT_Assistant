@@ -1,0 +1,12 @@
+IDstr=660bc341c38b837877075e4c
+Name=Documents with decrypted data
+ShortName=Documents
+Information_Eng=A stack of documents containing TerraGroup's classified data. Looks suspicious.
+Itemtype=info
+width=1
+height=1
+weight=0.080000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=Documents with decrypted data
+Information_Jpn=A stack of documents containing TerraGroup's classified data. Looks suspicious.

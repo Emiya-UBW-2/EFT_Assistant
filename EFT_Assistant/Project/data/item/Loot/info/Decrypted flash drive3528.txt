@@ -1,0 +1,12 @@
+IDstr=660bbc98c38b837877075e4a
+Name=Decrypted flash drive
+ShortName=Flash drive
+Information_Eng=A decrypted flash drive. Stores the login kostochkin_g_b and several encrypted documents.
+Itemtype=info
+width=1
+height=1
+weight=0.080000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=Decrypted flash drive
+Information_Jpn=A decrypted flash drive. Stores the login kostochkin_g_b and several encrypted documents.

@@ -1,0 +1,12 @@
+IDstr=66b6296d7994640992013b17
+Name=Stich Profi Plate Carrier V2 (Black)
+ShortName=SP PC V2
+Information_Eng=An improved lightweight version of the standard plate carrier manufactured by Stich Profi. Black color version.
+Itemtype=chest-rig
+width=3
+height=4
+weight=2.200000
+fleaMarketFee=0
+propertiestype=ItemPropertiesChestRig
+Name_Jpn=Stich Profi Plate Carrier V2 (Black)
+Information_Jpn=An improved lightweight version of the standard plate carrier manufactured by Stich Profi. Black color version.

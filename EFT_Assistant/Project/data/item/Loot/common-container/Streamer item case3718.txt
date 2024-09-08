@@ -1,0 +1,12 @@
+IDstr=66bc98a01a47be227a5e956e
+Name=Streamer item case
+ShortName=Streamer items
+Information_Eng=A case for compact storage of those strange souvenirs scattered throughout Tarkov, perfect for collectors.
+Itemtype=common-container
+width=3
+height=3
+weight=7.000000
+fleaMarketFee=0
+propertiestype=ItemPropertiesContainer
+Name_Jpn=Streamer item case
+Information_Jpn=A case for compact storage of those strange souvenirs scattered throughout Tarkov, perfect for collectors.

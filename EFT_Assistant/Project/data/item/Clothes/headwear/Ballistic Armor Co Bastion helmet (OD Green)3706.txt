@@ -1,0 +1,12 @@
+IDstr=66b5f661af44ca0014063c05
+Name=Ballistic Armor Co. Bastion helmet (OD Green)
+ShortName=BAC Bastion
+Information_Eng=The Bastion NIJ level IIIA tactical helmet designed for law enforcement and civilian use. Equipped with M-LOK interface rails for mounting additional equipment. Manufactured by Ballistic Armor Co. OD Green version.
+Itemtype=headwear
+width=2
+height=2
+weight=1.440000
+fleaMarketFee=0
+propertiestype=ItemPropertiesHelmet
+Name_Jpn=Ballistic Armor Co. Bastion helmet (OD Green)
+Information_Jpn=The Bastion NIJ level IIIA tactical helmet designed for law enforcement and civilian use. Equipped with M-LOK interface rails for mounting additional equipment. Manufactured by Ballistic Armor Co. OD Green version.

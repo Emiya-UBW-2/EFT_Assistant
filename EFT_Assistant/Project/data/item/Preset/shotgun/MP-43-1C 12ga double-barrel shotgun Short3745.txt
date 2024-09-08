@@ -1,0 +1,17 @@
+IDstr=707265736574000000000047
+Name=MP-43-1C 12ga double-barrel shotgun Short
+ShortName=MP-43-1C Short
+Itemtype=shotgun
+width=4
+height=1
+weight=3.400000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	MP-43-1C 12ga double-barrel shotgunx1/|
+	MP-43-1C 12ga 510mm barrelx1/|
+	MP-43-1C buttpadx1
+]
+Name_Jpn=MP-43-1C 12ga ダブルバレルショットガン Short
+Information_Jpn=

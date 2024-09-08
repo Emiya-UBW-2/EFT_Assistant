@@ -1,0 +1,12 @@
+IDstr=66572b3f6a723f7f005a066c
+Name=Locked weapon crate (Rare)
+ShortName=Weapons (Rare)
+Information_Eng=A trophy for participating in Arena battles. Contains ammunition, weapon mods, or even weapons if you're lucky. Everything you need to make your enemies respect you. But first, you need to find a way to open this box.
+Itemtype=other
+width=5
+height=2
+weight=10.000000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=Locked weapon crate (Rare)
+Information_Jpn=A trophy for participating in Arena battles. Contains ammunition, weapon mods, or even weapons if you're lucky. Everything you need to make your enemies respect you. But first, you need to find a way to open this box.

@@ -1,0 +1,12 @@
+IDstr=66b5f65ca7f72d197e70bcd6
+Name=Ballistic Armor Co. Bastion helmet (Armor Black)
+ShortName=BAC Bastion
+Information_Eng=The Bastion NIJ level IIIA tactical helmet designed for law enforcement and civilian use. Equipped with M-LOK interface rails for mounting additional equipment. Manufactured by Ballistic Armor Co. Armor Black version.
+Itemtype=headwear
+width=2
+height=2
+weight=1.440000
+fleaMarketFee=0
+propertiestype=ItemPropertiesHelmet
+Name_Jpn=Ballistic Armor Co. Bastion helmet (Armor Black)
+Information_Jpn=The Bastion NIJ level IIIA tactical helmet designed for law enforcement and civilian use. Equipped with M-LOK interface rails for mounting additional equipment. Manufactured by Ballistic Armor Co. Armor Black version.

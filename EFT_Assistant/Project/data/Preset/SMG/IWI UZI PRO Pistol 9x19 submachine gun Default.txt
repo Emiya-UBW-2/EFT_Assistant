@@ -1,6 +1,5 @@
 Name=IWI UZI PRO Pistol 9x19 submachine gun Default
 Base=IWI UZI PRO Pistol 9x19 submachine gun
-Parts=UZI PRO 9x19 20-round magazine
 Parts=UZI PRO 9x19 barrel retaining nut
 Parts=UZI PRO backplate
 Parts=UZI PRO dust cover

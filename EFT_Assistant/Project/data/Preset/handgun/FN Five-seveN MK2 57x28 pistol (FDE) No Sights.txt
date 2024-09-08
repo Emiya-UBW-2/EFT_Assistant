@@ -1,5 +1,0 @@
-Name=FN Five-seveN MK2 5.7x28 pistol (FDE) No Sights
-Base=FN Five-seveN MK2 5.7x28 pistol (FDE)
-Parts=FN Five-seveN 5.7x28 barrel
-Parts=FN Five-seveN MK2 pistol slide
-Parts=FN Five-seveN 5.7x28 20-round magazine

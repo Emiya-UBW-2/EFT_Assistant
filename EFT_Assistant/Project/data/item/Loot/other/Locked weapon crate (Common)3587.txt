@@ -1,0 +1,12 @@
+IDstr=66588b6dcb48a73e674b2649
+Name=Locked weapon crate (Common)
+ShortName=Weapons (Common)
+Information_Eng=A trophy for participating in Arena battles. Contains ammunition, weapon mods, or even weapons if you're lucky. Everything you need to make your enemies respect you. But first, you need to find a way to open this box.
+Itemtype=other
+width=5
+height=2
+weight=10.000000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=Locked weapon crate (Common)
+Information_Jpn=A trophy for participating in Arena battles. Contains ammunition, weapon mods, or even weapons if you're lucky. Everything you need to make your enemies respect you. But first, you need to find a way to open this box.

@@ -1,0 +1,16 @@
+IDstr=66b9c65b96edb969cd4f5d7f
+Name=Stich Profi Stich Defense mod.2 plate carrier (MultiCam) Default
+ShortName=SD mod.2 Default
+Itemtype=chest-rig
+width=4
+height=3
+weight=6.610000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Stich Profi Stich Defense mod.2 plate carrier (MultiCam)x1/|
+	KITECO SC-IV SA ballistic platex2
+]
+Name_Jpn=Stich Profi Stich Defense mod.2 plate carrier (MultiCam) デフォルト
+Information_Jpn=

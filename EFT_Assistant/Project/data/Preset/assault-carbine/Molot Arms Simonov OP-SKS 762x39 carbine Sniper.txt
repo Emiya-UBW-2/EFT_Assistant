@@ -2,7 +2,6 @@ Name=Molot Arms Simonov OP-SKS 7.62x39 carbine Sniper
 Base=Molot Arms Simonov OP-SKS 7.62x39 carbine
 Parts=OP-SKS wooden stock
 Parts=OP-SKS 7.62x39 520mm barrel
-Parts=OP-SKS upper band
 Parts=OP-SKS gas tube
 Parts=OP-SKS gas tube cover
 Parts=SKS rear sight

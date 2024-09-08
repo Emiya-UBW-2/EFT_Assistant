@@ -364,7 +364,7 @@ namespace FPS_n2 {
 	}
 	void			ItemList::Load_Sub() noexcept {
 		if (this->m_ItemsData.m_TypeID.GetName() == "") {
-			std::string ErrMes = "Error : Invalid ID by CheckID";
+			std::string ErrMes = "Error : ItemDataName Cannot Check";
 			ErrMes += "[";
 			ErrMes += this->GetFilePath();
 			ErrMes += "]";

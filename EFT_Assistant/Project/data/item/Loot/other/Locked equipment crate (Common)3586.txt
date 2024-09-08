@@ -1,0 +1,12 @@
+IDstr=66588b514de4820934746dc6
+Name=Locked equipment crate (Common)
+ShortName=Equipment (Common)
+Information_Eng=A trophy for participating in Arena battles. It contains various equipment to help you survive and kill in the harsh world of Tarkov. But first, you need to find a way to open this box.
+Itemtype=other
+width=4
+height=4
+weight=10.000000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=Locked equipment crate (Common)
+Information_Jpn=A trophy for participating in Arena battles. It contains various equipment to help you survive and kill in the harsh world of Tarkov. But first, you need to find a way to open this box.

@@ -1,0 +1,12 @@
+IDstr=660312cc4d6cdfa6f500c703
+Name=Armband of The Unheard
+ShortName=Unheard
+Information_Eng=An armband with a mysterious symbol that can be found in various parts of the city and its outskirts. Does this mean they are already among us?
+Itemtype=arm-band
+width=1
+height=1
+weight=0.050000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=Armband of The Unheard
+Information_Jpn=An armband with a mysterious symbol that can be found in various parts of the city and its outskirts. Does this mean they are already among us?

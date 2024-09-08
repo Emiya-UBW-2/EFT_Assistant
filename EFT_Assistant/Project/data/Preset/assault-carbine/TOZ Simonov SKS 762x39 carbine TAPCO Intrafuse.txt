@@ -4,7 +4,6 @@ Parts=SKS TAPCO Intrafuse chassis
 Parts=SKS TAPCO Intrafuse buffer tube
 Parts=AR-15 High Standard M4SS Stock
 Parts=SKS TAPCO Intrafuse SAW-Style pistol grip
-Parts=SKS TAPCO Intrafuse chassis lower rail
 Parts=SKS 7.62x39 TAPCO 6610 20-round magazine
 Parts=SKS 7.62x39 520mm barrel
 Parts=SKS upper band

@@ -1,0 +1,12 @@
+IDstr=66b5f666cad6f002ab7214c2
+Name=Ballistic Armor Co. Bastion helmet (MultiCam)
+ShortName=BAC Bastion
+Information_Eng=The Bastion NIJ level IIIA tactical helmet designed for law enforcement and civilian use. Equipped with M-LOK interface rails for mounting additional equipment. Manufactured by Ballistic Armor Co. MultiCam camouflage version.
+Itemtype=headwear
+width=2
+height=2
+weight=1.440000
+fleaMarketFee=0
+propertiestype=ItemPropertiesHelmet
+Name_Jpn=Ballistic Armor Co. Bastion helmet (MultiCam)
+Information_Jpn=The Bastion NIJ level IIIA tactical helmet designed for law enforcement and civilian use. Equipped with M-LOK interface rails for mounting additional equipment. Manufactured by Ballistic Armor Co. MultiCam camouflage version.

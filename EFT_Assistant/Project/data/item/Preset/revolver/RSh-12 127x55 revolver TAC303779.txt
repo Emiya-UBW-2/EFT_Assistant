@@ -1,0 +1,19 @@
+IDstr=rsh12tac3000000000000001
+Name=RSh-12 12.7x55 revolver TAC30
+ShortName=RSh-12 TAC30
+Itemtype=revolver
+width=2
+height=1
+weight=2.930000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	RSh-12 12.7x55 revolverx1/|
+	RSh-12 12.7x55 5-round cylinderx1/|
+	RSh-12 pistol gripx1/|
+	Lobaev Arms 30mm scope mountx1/|
+	Burris FullField TAC30 1-4x24 30mm riflescopex1
+]
+Name_Jpn=RSh-12 12.7x55 revolver TAC30
+Information_Jpn=

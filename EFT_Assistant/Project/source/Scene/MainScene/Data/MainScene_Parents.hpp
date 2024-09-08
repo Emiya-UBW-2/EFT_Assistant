@@ -207,9 +207,11 @@ namespace FPS_n2 {
 		}
 	public:
 		const int		FindID(std::string_view name) const noexcept {
-			for (const auto&t : this->m_List) {
-				if (t.GetName() == name) {
-					return t.GetID();
+			if (name != "") {
+				for (const auto& t : this->m_List) {
+					if (t.GetName() == name) {
+						return t.GetID();
+					}
 				}
 			}
 			std::string ErrMes = "Error : Not Find Item : ";
