@@ -1,0 +1,55 @@
+IDstr=66058cbf2f19c31a5a1337ec
+Name=Create a Distraction - Part 2
+Trader=Ref
+
+NeedTask=Create a Distraction - Part 1
+NeedLevel=3
+
+CanRestart=true
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+factionName=Any
+Task_Map=Streets of Tarkov
+Task_Kill=[
+	Streets of Tarkov-Kaban Guard (Sniper)x3
+]
+Task_Else=距離: >= 0m
+Task_Map=Streets of Tarkov
+Task_Kill=[
+	Streets of Tarkov-Kollontay Guard (Assault)x3
+]
+Task_Else=距離: >= 0m
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Kaban's guards on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=shoot
+	TaskText=Eliminate Kollontay's guards on Streets of Tarkov
+	TaskOptional=false
+]
+
+Reward_Rep=Ref+7
+Reward_Item=[
+	GP coinx36/|
+	Degtyarev RPDN 7.62x39 machine gun Defaultx1/|
+	RPD 7.62x39 "Buben" 100-round boxx1/|
+	7.62x39mm FMJx200
+]
+
+Task_Kill=[
+	Kabanx1
+]
+Task_Else=距離: >= 0m
+
+[
+	TaskType=shoot
+	TaskText=
+	TaskOptional=false
+]
+
+Reward_EXP=10000

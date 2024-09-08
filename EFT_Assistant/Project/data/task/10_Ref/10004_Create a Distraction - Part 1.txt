@@ -1,0 +1,40 @@
+IDstr=66058cbd9f59e625462acc8e
+Name=Create a Distraction - Part 1
+Trader=Ref
+
+NeedTask=Surprise
+NeedLevel=3
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+factionName=Any
+Task_Map=Streets of Tarkov
+Task_NotFiR_HandOver=[TP-200 TNT brickx3]
+DogTagLv=0
+Task_Map=Streets of Tarkov
+Task_NotFiR_HandOver=[TP-200 TNT brickx3]
+DogTagLv=0
+
+[
+	TaskType=plantItem
+	TaskText=Plant three TP-200 TNT bricks under Kaban's office on Streets of Tarkov
+	TaskOptional=false
+]
+[
+	TaskType=plantItem
+	TaskText=Plant three TP-200 TNT bricks at the MVD academy entrance on Streets of Tarkov
+	TaskOptional=false
+]
+
+Reward_Rep=Ref+5
+Reward_Item=[
+	GP coinx28/|
+	Desert Tech MDR 5.56x45 assault rifle ONEx1/|
+	5.56x45 Magpul PMAG 20 GEN M3 STANAG 20-round magazinex3/|
+	5.56x45mm M856x80
+]
+
+Reward_EXP=5000

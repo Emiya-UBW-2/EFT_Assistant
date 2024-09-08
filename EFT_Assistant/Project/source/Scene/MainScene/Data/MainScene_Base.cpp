@@ -69,9 +69,9 @@ namespace FPS_n2 {
 		{
 			m_ItemCategoryData->LoadList(false);
 			m_ItemTypeData->LoadList(false);
+			m_ItemData->LoadList(IsPushLog);
 			m_PresetData->LoadList(false);
 			m_EnemyData->LoadList(false);
-			m_ItemData->LoadList(IsPushLog);
 			m_ItemData->AfterLoadList();
 			m_TraderData->LoadList(false);
 			m_MapData->LoadList(false);

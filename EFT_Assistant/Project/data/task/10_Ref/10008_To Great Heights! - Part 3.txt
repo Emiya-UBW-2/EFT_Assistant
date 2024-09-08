@@ -1,0 +1,30 @@
+IDstr=66058cc5bb83da7ba474aba9
+Name=To Great Heights! - Part 3
+Trader=Ref
+
+NeedTask=To Great Heights! - Part 2
+NeedLevel=3
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_Else=TaskType:visit
+Task_Else=Win 3 matches while claiming first place in ranked TeamFight mode in Arena
+
+[
+	TaskType=visit
+	TaskText=Win 3 matches while claiming first place in ranked TeamFight mode in Arena
+	TaskOptional=false
+]
+
+Reward_Rep=Ref+4
+Reward_Item=[
+	GP coinx38/|
+	Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle Saboteurx1/|
+	DVL-10 7.62x51 10-round magazinex2/|
+	7.62x51mm TCW SPx40
+]
+
+Reward_EXP=11000

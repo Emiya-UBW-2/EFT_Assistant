@@ -1,0 +1,45 @@
+IDstr=66058cb9e8e4f17985230805
+Name=Balancing - Part 2
+Trader=Ref
+
+NeedTask=Balancing - Part 1
+NeedLevel=3
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Streets of Tarkov
+factionName=Any
+Task_Map=Streets of Tarkov
+Task_Kill=[
+	Streets of Tarkov-any PMC operativesx5
+]
+NeedItem=[
+	Kalashnikov AKS-74UB 5.45x39 assault riflex0
+]
+Task_Else=装備が必要:{
+Task_Else=  PACA Soft Armor (Rivals Edition)
+Task_Else=  PACA Soft Armor
+Task_Else=}
+Task_Else=距離: >= 0m
+
+[
+	TaskType=shoot
+	TaskText=Eliminate PMCs while using AKS-74UB and PACA body armor on Streets of Tarkov
+	TaskOptional=false
+]
+
+Reward_Item=[
+	Kalashnikov AKS-74UB 5.45x39 assault rifle Defaultx2/|
+	PACA Soft Armorx2
+]
+Reward_Rep=Ref+3
+Reward_Item=[
+	GP coinx28/|
+	Kalashnikov AKS-74UB 5.45x39 assault rifle EKP-1S-03x1/|
+	AK-74 Delta-Tek Saiga 545 5.45x39 20-round magazinex3/|
+	5.45x39mm T gsx80
+]
+
+Reward_EXP=7000

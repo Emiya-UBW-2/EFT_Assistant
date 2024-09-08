@@ -1,0 +1,46 @@
+IDstr=66058cb7c7f3584787181476
+Name=Balancing - Part 1
+Trader=Ref
+
+NeedTask=Easy Money - Part 2
+NeedLevel=3
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+Task_Map=Interchange
+factionName=Any
+Task_Map=Interchange
+Task_Kill=[
+	Interchange-Scavsx10
+]
+NeedItem=[
+	HK G36 5.56x45 assault riflex0
+]
+Task_Else=装備が必要:{
+Task_Else=  NFM THOR Concealable Reinforced Vest body armor
+Task_Else=  NFM THOR Integrated Carrier body armor
+Task_Else=}
+Task_Else=距離: >= 0m
+
+[
+	TaskType=shoot
+	TaskText=Eliminate Scavs while using a G36 assault rifle and any NFM THOR body armor on Interchange
+	TaskOptional=false
+]
+
+Reward_Item=[
+	HK G36 5.56x45 assault rifle Defaultx2/|
+	NFM THOR Concealable Reinforced Vest body armor Defaultx2
+]
+Reward_Rep=Ref+3
+Reward_Item=[
+	GP coinx26/|
+	Death Shadow lightweight armored maskx1/|
+	HK G36 5.56x45 assault rifle CompM4x1/|
+	HK G36 5.56x45 30-round magazinex3/|
+	5.56x45mm M856x120
+]
+
+Reward_EXP=5100

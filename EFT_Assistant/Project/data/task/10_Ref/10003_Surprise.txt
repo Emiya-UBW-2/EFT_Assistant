@@ -1,0 +1,42 @@
+IDstr=66058cbb06ef1d50a60c1f46
+Name=Surprise
+Trader=Ref
+
+NeedTask=Balancing - Part 2
+NeedLevel=3
+
+CanRestart=false
+NeedKappa=false
+NeedLightkeeper=false
+
+factionName=Any
+Task_FiR_HandOver=[Korund-VM ballistic plates (Front)x1]
+DogTagLv=0
+Task_FiR_HandOver=[SPRTN Omega ballistic platex1]
+DogTagLv=0
+Task_FiR_HandOver=[6B33 ballistic plate (Front)x1]
+DogTagLv=0
+
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid item: Korund-VM ballistic plates (Front)
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid item: SPRTN Omega ballistic plate
+	TaskOptional=false
+]
+[
+	TaskType=giveItem
+	TaskText=Hand over the found in raid item: 6B33 ballistic plate (Front)
+	TaskOptional=false
+]
+
+Reward_Rep=Ref+4
+Reward_Item=[
+	GP coinx28/|
+	Maska-1SCh bulletproof helmet (Killa Edition) Defaultx1
+]
+
+Reward_EXP=3600
