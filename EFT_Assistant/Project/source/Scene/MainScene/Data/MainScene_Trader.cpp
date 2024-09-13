@@ -22,7 +22,7 @@ namespace FPS_n2 {
 	}
 	const int		TraderList::DrawBarter(WindowMySystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int ysize, int Lv, int Select, bool isdrawName, bool isdrawAfter, int count) const noexcept {
 		auto* WindowMngr = WindowMySystem::WindowManager::Instance();
-		const auto& cf = this->m_LvData.at(Lv - 1).m_ItemBarters.at(Select);
+		const auto& cf = this->m_LvData.at(static_cast<size_t>(Lv - 1)).m_ItemBarters.at(Select);
 		int xofsbuf = DXDraw::Instance()->GetUIY(10);
 		int xofsbuf2 = DXDraw::Instance()->GetUIY(10);
 		int yofsbuf = 0;
