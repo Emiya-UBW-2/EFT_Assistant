@@ -18,4 +18,4 @@ Parts=Vortex Razor HD Gen.2 1-6x24 30mm riflescope
 Parts=AR-15 Strike Industries Advanced Receiver Extension buffer tube (Anodized Red)
 Parts=AR-15 Magpul CTR Carbine stock (FDE)
 Parts=AR-15 Geissele ACH charging handle (DDC)
-Parts=5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazine (FDE)
+Parts=5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine (FDE)

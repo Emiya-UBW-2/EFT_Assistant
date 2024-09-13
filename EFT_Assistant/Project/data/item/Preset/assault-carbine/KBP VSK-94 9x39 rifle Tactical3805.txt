@@ -10,12 +10,12 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	KBP VSK-94 9x39 riflex1/|
-	9A-91 9x39 20-round magazinex1/|
 	VSK-94 stockx1/|
 	NPZ PK1 Obzor dovetail reflex sightx1/|
 	VSK-94 9x39 barrelx1/|
 	9A-91 handguard retainerx1/|
-	VSK-94 handguardx1
+	VSK-94 handguardx1/|
+	9A-91 9x39 20-round magazinex1
 ]
 Name_Jpn=KBP VSK-94 9x39 rifle Tactical
 Information_Jpn=

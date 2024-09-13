@@ -8,9 +8,5 @@ weight=10.480000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
-containsItems=[
-	NFM THOR Concealable Reinforced Vest body armorx1/|
-	SPRTN Omega ballistic platex2
-]
 Name_Jpn=NFM THOR Concealable Reinforced Vest body armor デフォルト
 Information_Jpn=

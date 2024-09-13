@@ -10,7 +10,6 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	U.S. Ordnance M60E6 7.62x51 light machine gunx1/|
-	M60 7.62x51 Capco 100-round Assault Boxx1/|
 	M60E6 buttstockx1/|
 	M60E6 7.62x51 458mm barrelx1/|
 	M60E6 7.62x51 flash hiderx1/|
@@ -19,7 +18,8 @@ containsItems=[
 	M60 rear sightx1/|
 	M60E6 trigger groupx1/|
 	M60E6 pistol gripx1/|
-	M60 bipodx1
+	M60 bipodx1/|
+	M60 7.62x51 Capco 100-round Assault Boxx1
 ]
 Name_Jpn=U.S. Ordnance M60E6 7.62x51 light machine gun デフォルト
 Information_Jpn=

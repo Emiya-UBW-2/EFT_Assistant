@@ -50,10 +50,10 @@ namespace FPS_n2 {
 	void PageManager::FirstExecute() noexcept {
 		auto* WindowMngr = WindowMySystem::WindowManager::Instance();
 		auto* Pad = PadControl::Instance();
-		auto iSWindowHit = !WindowMngr->PosHitCheck(nullptr);
-		if ((GetMouseWheelRotVolWithCheck() != 0) && !iSWindowHit && GetScaleActive()) {
+		auto iSWindowHit = WindowMngr->PosHitCheck(nullptr);
+		if ((Pad->GetMouseWheelRot() != 0) && !iSWindowHit && GetScaleActive()) {
 			auto PrevScale = this->m_Scale;
-			this->m_Scale = std::clamp(this->m_Scale + (float)GetMouseWheelRotVolWithCheck() / 10.f, 0.1f, 2.f);
+			this->m_Scale = std::clamp(this->m_Scale + (float)Pad->GetMouseWheelRot() / 10.f, 0.1f, 2.f);
 			auto ScaleChange = (this->m_Scale - PrevScale);
 			if (ScaleChange != 0.f) {
 				this->m_posx -= (int)((float)(Pad->GetMS_X() - this->m_posx) * ScaleChange / this->m_Scale);
@@ -61,9 +61,13 @@ namespace FPS_n2 {
 			}
 		}
 		SetScaleActive(true);
+		Pad->SetMouseMoveEnable(false);
 		if (Pad->GetKey(PADS::AIM).press() && !iSWindowHit) {
-			this->m_posx += static_cast<int>(Pad->GetLS_X());
-			this->m_posy += static_cast<int>(Pad->GetLS_Y());
+			Pad->SetMouseMoveEnable(true);
+			if (!Pad->GetKey(PADS::AIM).trigger()) {
+				this->m_posx += static_cast<int>(Pad->GetLS_X());
+				this->m_posy += static_cast<int>(-Pad->GetLS_Y());
+			}
 			HCURSOR hCursor = LoadCursor(NULL, IDC_SIZEALL);
 			SetCursor(hCursor);
 		}

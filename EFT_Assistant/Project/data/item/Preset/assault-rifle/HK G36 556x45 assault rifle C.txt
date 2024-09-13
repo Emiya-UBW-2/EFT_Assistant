@@ -10,18 +10,18 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	HK G36 5.56x45 assault riflex1/|
-	HK G36 5.56x45 30-round magazinex1/|
-	HK G36 polymer stockx1/|
 	HK G36 5.56x45 228mm barrelx1/|
-	HK G36C 5.56x45 4-prong flash hiderx1/|
 	HK G36 gas blockx1/|
+	HK G36C 5.56x45 4-prong flash hiderx1/|
 	HK G36 2-vent handguardx1/|
 	HK G36 bottom handguard railx1/|
 	HK G36 hand stopx1/|
+	HK G36 5.56x45 30-round magazinex1/|
 	HK G36 magwellx1/|
 	HK G36 sight mountx1/|
 	HK G36 front sightx1/|
-	HK G36 rear sightx1
+	HK G36 rear sightx1/|
+	HK G36 polymer stockx1
 ]
 Name_Jpn=G36 5.56x45 アサルトライフル C
 Information_Jpn=

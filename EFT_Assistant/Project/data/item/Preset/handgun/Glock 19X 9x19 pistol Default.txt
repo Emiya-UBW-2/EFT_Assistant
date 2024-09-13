@@ -11,10 +11,10 @@ IsDefault=TRUE
 containsItems=[
 	Glock 19X 9x19 pistolx1/|
 	Glock 19X 9x19 barrelx1/|
+	Glock 9x19 19-round magazine (Coyote)x1/|
 	Glock 19X pistol slidex1/|
-	Glock 19X rear sightx1/|
 	Glock 19X front sightx1/|
-	Glock 9x19 19-round magazine (Coyote)x1
+	Glock 19X rear sightx1
 ]
 Name_Jpn=Glock 19X 9x19 ピストル デフォルト
 Information_Jpn=

@@ -8,10 +8,5 @@ weight=16.200001
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
-containsItems=[
-	IOTV Gen4 body armor (Full Protection Kit, MultiCam)x1/|
-	Cult Locust ballistic platex2/|
-	SSAPI level III+ ballistic plate (Side)x2
-]
 Name_Jpn=IOTV Gen4 body armor (Full Protection Kit, MultiCam) デフォルト
 Information_Jpn=

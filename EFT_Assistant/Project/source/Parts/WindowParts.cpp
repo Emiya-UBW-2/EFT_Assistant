@@ -39,8 +39,8 @@ namespace FPS_n2 {
 
 			if (IsActive) {
 				if (IntoMouse(xp1, yp1, xp2, yp2)) {
-					if (GetMouseWheelRotVolWithCheck() != 0.f) {
-						m_NowScrollYPer = std::clamp(m_NowScrollYPer + (float)(-GetMouseWheelRotVolWithCheck() * 3) / Total, 0.f, 1.f);
+					if (Pad->GetMouseWheelRot() != 0.f) {
+						m_NowScrollYPer = std::clamp(m_NowScrollYPer + (float)(-Pad->GetMouseWheelRot() * 3) / Total, 0.f, 1.f);
 					}
 				}
 				if (IntoMouse(xp2 - DXDraw::Instance()->GetUIY(24), yp1, xp2, yp2)) {

@@ -10,7 +10,7 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	Stich Profi Plate Carrier V2 (Black)x1/|
-	Global Armor’s Steel ballistic platex2
+	Global Armor’s Steel ballistic platex1
 ]
 Name_Jpn=Stich Profi Plate Carrier V2 (Black) デフォルト
 Information_Jpn=

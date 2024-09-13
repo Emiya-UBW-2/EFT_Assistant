@@ -11,7 +11,6 @@ IsDefault=FALSE
 containsItems=[
 	FN SCAR-H 7.62x51 assault rifle (FDE)x1/|
 	AR-15 Damage Industries ECS pistol grip (FDE)x1/|
-	FN SCAR-H 7.62x51 20-round magazine (FDE)x1/|
 	FN SCAR-H 7.62x51 upper receiver (FDE)x1/|
 	ELCAN SpecterDR 1x/4x scope (FDE)x1/|
 	FN SCAR-H 7.62x51 13 inch barrelx1/|
@@ -25,7 +24,8 @@ containsItems=[
 	FN SCAR retractable polymer stock (FDE)x1/|
 	FN SCAR rubber buttpadx1/|
 	FN SCAR cheek rest (FDE)x1/|
-	FN SCAR charging handlex1
+	FN SCAR charging handlex1/|
+	FN SCAR-H 7.62x51 20-round magazine (FDE)x1
 ]
 Name_Jpn=SCAR-H 7.62x51 アサルトライフル Face
 Information_Jpn=

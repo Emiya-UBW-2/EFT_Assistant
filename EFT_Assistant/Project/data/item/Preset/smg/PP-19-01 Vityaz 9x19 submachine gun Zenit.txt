@@ -14,7 +14,6 @@ containsItems=[
 	AK-74M/AK-100 Zenit PT Lockx1/|
 	AK Zenit PT-3 "Klassika" stockx1/|
 	AK Zenit RP-1 charging handlex1/|
-	PP-19-01 Vityaz 9x19 30-round magazinex1/|
 	PP-19-01 Vityaz 9x19 sound suppressorx1/|
 	PP-19-01 Vityaz-SN dust coverx1/|
 	EOTech 553 holographic sightx1/|
@@ -22,7 +21,8 @@ containsItems=[
 	PP-19-01 Vityaz gas tubex1/|
 	AK Zenit B-10M handguard with B-19 upper mountx1/|
 	Viking Tactics UVG tactical foregripx1/|
-	Zenit Klesch-2P flashlight with laserx1
+	Zenit Klesch-2P flashlight with laserx1/|
+	PP-19-01 Vityaz 9x19 30-round magazinex1
 ]
 Name_Jpn=PP-19-01 "ヴィチャズ" 9x19 サブマシンガン Zenit
 Information_Jpn=

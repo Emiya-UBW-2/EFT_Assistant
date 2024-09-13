@@ -17,10 +17,10 @@ Task_Map=Shoreline
 Task_Map=Woods
 Task_Map=Customs
 Task_Kill=[
-	Lighthouse-Death Knightx1/|
-	Shoreline-Death Knightx1/|
-	Woods-Death Knightx1/|
-	Customs-Death Knightx1
+	Lighthouse-Knightx1/|
+	Shoreline-Knightx1/|
+	Woods-Knightx1/|
+	Customs-Knightx1
 ]
 Task_Else=距離: >= 0m
 Task_Map=Lighthouse

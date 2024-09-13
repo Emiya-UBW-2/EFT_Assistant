@@ -1,8 +1,8 @@
 Name=KBP VSK-94 9x39 rifle Tactical
 Base=KBP VSK-94 9x39 rifle
-Parts=9A-91 9x39 20-round magazine
 Parts=VSK-94 stock
 Parts=NPZ PK1 Obzor dovetail reflex sight
 Parts=VSK-94 9x39 barrel
 Parts=9A-91 handguard retainer
 Parts=VSK-94 handguard
+Parts=9A-91 9x39 20-round magazine

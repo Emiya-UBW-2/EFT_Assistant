@@ -132,7 +132,7 @@ namespace FPS_n2 {
 		auto BaseTime = GetNowHiPerformanceCount();
 		LONGLONG UpdateTime = 0;
 		while (true) {
-			std::string	strResult;
+			std::u8string	strResult;
 			if (CommonDataRequest(queryPath, ofsetValue * count, ofsetValue, strResult)) {
 				if (count % 8 == 0) {
 					ProcessMessage();

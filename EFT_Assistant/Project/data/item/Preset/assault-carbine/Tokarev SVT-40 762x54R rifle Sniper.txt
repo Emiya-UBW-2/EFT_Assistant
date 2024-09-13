@@ -10,15 +10,15 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	Tokarev SVT-40 7.62x54R riflex1/|
-	AVT-40 wooden stock x1/|
 	SVT-40 7.62x54R 625mm barrelx1/|
 	SVT-40 7.62x54R muzzle brakex1/|
 	SVT-40 front sightx1/|
 	SVT-40 rear sightx1/|
-	SVT dust cover x1/|
 	SVT-40 7.62x54R 10-round magazinex1/|
+	SVT dust cover x1/|
 	SVT-40 Tokarev PU mountx1/|
-	PU 3.5x riflescopex1
+	PU 3.5x riflescopex1/|
+	AVT-40 wooden stock x1
 ]
 Name_Jpn=SVT-40 7.62x54R ライフル Sniper
 Information_Jpn=

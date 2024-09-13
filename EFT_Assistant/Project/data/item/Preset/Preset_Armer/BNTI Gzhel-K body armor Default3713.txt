@@ -8,10 +8,5 @@ weight=8.900000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
-containsItems=[
-	BNTI Gzhel-K body armorx1/|
-	Granit 4 ballistic plate (Front)x1/|
-	Granit Br4 ballistic platex1
-]
 Name_Jpn=BNTI Gzhel-K ボディアーマー デフォルト
 Information_Jpn=

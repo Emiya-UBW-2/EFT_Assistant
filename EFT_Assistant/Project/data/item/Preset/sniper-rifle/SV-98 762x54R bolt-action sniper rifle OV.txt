@@ -16,7 +16,7 @@ containsItems=[
 	SV-98 CNC Guns OV-SV98 chassisx1/|
 	SV-98 CNC Guns OV-SV98 KeyMod handguardx1/|
 	CNC Guns KeyMod 4 inch railx1/|
-	CNC Guns KeyMod 2 inch railx2/|
+	CNC Guns KeyMod 2 inch railx1/|
 	AK FAB Defense AGR-47 pistol gripx1/|
 	CNC Guns OV-SV98 M12B stockx1
 ]

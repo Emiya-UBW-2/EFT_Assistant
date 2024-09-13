@@ -10,7 +10,7 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	Tasmanian Tiger Plate Carrier MKIII (Coyote Brown)x1/|
-	TallCom Guardian ballistic platex2
+	TallCom Guardian ballistic platex1
 ]
 Name_Jpn=Tasmanian Tiger Plate Carrier MKIII (Coyote Brown) デフォルト
 Information_Jpn=
