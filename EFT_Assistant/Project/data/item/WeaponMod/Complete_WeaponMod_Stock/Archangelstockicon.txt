@@ -14,6 +14,7 @@ ChildParts=[
 	M14 Vltor CASV-14 rail system/|
 	M1A SOCOM 16 upper part
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
@@ -34,6 +35,7 @@ ChildParts=[
 	MAWL-C1+ tactical device/|
 	BT10 V8 Atlas Bipod
 ]
+ChildParts_required=FALSE
 Conflict=[
 	M14 7.62x51 X Products X-14 50-round drum magazine
 ]

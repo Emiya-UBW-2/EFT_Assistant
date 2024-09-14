@@ -11,12 +11,15 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Hartman Lenok 70mm rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Hartman Lenok 70mm rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Hartman Lenok 70mm rail
 ]
+ChildParts_required=FALSE
 Conflict=[
 	SilencerCo Osprey 9 9x19 sound suppressor/|
 	PP-19-01 Vityaz 9x19 sound suppressor/|

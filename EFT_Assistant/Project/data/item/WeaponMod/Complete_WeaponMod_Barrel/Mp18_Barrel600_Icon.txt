@@ -12,10 +12,12 @@ ChildParts=[
 	MP-18 polymer handguard/|
 	MP-18 wooden handguard
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	MP-18 sight mount/|
 	KOMZ Rusak reflex sight
 ]
+ChildParts_required=FALSE
 Recoil=-8.000000
 Ergonomics=-13.000000
 centerOfImpact=0.090000

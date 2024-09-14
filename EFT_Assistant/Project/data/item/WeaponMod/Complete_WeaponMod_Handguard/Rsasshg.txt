@@ -19,9 +19,11 @@ ChildParts=[
 	BCM GUNFIGHTER MOD 3 M-LOK foregrip (Black)/|
 	BCM GUNFIGHTER MOD 3 M-LOK foregrip (FDE)
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	NcSTAR MPR45 Backup mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Holosun LS321 Tactical device/|
 	L3Harris AN/PEQ-15 tactical device/|
@@ -32,21 +34,27 @@ ChildParts=[
 	Zenit Perst-3 tactical device/|
 	MAWL-C1+ tactical device
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Remington RAHG 2 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Remington RAHG 2 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Remington RAHG 2 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Remington RAHG 2 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Remington RAHG 2 inch rail
 ]
+ChildParts_required=FALSE
 Recoil=-2.000000
 Ergonomics=5.000000
 accuracyModifier=0.000000

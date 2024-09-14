@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	FN P90 5.7x28 flash hider
 ]
+ChildParts_required=FALSE
 Conflict=[
 	HK 416A5 MRS KeyMod 14 inch handguard/|
 	HK 416A5 Quad Rail Extended handguard/|

@@ -13,6 +13,7 @@ ChildParts=[
 	KAC URX 3/3.1 stopper panel (FDE)/|
 	KAC URX 3 3 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
@@ -37,6 +38,7 @@ ChildParts=[
 	Zenit KR-2 old gen mount/|
 	BT10 V8 Atlas Bipod
 ]
+ChildParts_required=FALSE
 Conflict=[
 	AR-10 JP Enterprises Gas System-6/|
 	M4A1 front sight with gas block/|

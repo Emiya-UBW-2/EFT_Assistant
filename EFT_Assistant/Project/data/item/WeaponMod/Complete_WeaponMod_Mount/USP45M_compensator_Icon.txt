@@ -20,6 +20,7 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)
 ]
+ChildParts_required=FALSE
 Conflict=[
 	SilencerCo Omega 45k Piston Mount adapter/|
 	HK USP .45 ACP barrel/|

@@ -38,6 +38,7 @@ ChildParts=[
 	AR-15 Aeroknox Orion pistol grip/|
 	AR-15 SIG M400 Reduced Angle Pistol Grip (Coyote Tan)
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	AR-10 7.62x51 Lancer L7AWM 20-round magazine/|
 	AR-10 7.62x51 Lancer L7AWM 25-round magazine/|
@@ -45,9 +46,11 @@ ChildParts=[
 	AR-10 7.62x51 KAC 20-round steel magazine/|
 	AR-10 7.62x51 KAC 10-round steel magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	MCX SPEAR 6.8x51 upper receiver
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	MPX/MCX Folding Knuckle Stock Adapter/|
 	MPX/MCX Collapsing/Telescoping Stock/|
@@ -57,9 +60,11 @@ ChildParts=[
 	MPX/MCX PMM ULSS foldable stock/|
 	MPX/MCX Stock Locking Hinge Assembly
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	MCX SPEAR charging handle
 ]
+ChildParts_required=TRUE
 Recoil=130.000000
 RecoilHorizontal=372.000000
 Ergonomics=46.000000

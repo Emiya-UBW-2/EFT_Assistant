@@ -38,19 +38,24 @@ ChildParts=[
 	AR-15 Aeroknox Orion pistol grip/|
 	AR-15 SIG M400 Reduced Angle Pistol Grip (Coyote Tan)
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	HK417/G28 7.62x51 10-round magazine/|
 	HK417/G28 7.62x51 20-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	HK G28 buffer tube
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	HK G28 7.62x51 upper receiver
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	HK417 E1 extended charging handle
 ]
+ChildParts_required=TRUE
 Recoil=146.000000
 RecoilHorizontal=400.000000
 Ergonomics=48.000000

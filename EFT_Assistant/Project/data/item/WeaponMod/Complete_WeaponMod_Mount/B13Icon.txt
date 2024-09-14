@@ -75,6 +75,7 @@ ChildParts=[
 	Wilcox BOSS Xe reflex sight/|
 	SIG ALPHA4 30mm ring scope mount
 ]
+ChildParts_required=FALSE
 Conflict=[
 	BelOMO PSO-1 4x24 scope/|
 	BelOMO PSO-1M2-1 4x24 scope/|

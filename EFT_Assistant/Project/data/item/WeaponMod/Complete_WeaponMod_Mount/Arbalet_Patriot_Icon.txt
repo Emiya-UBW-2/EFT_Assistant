@@ -75,6 +75,7 @@ ChildParts=[
 	Wilcox BOSS Xe reflex sight/|
 	SIG ALPHA4 30mm ring scope mount
 ]
+ChildParts_required=FALSE
 Conflict=[
 	Mosin Rifle AIM Sports MNG rail mount/|
 	Mosin Rifle AIM Sports Tri-Rail mount

@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	MPX-SD 9x19 integrated sound suppressor
 ]
+ChildParts_required=TRUE
 Conflict=[
 	MPX Lancer OEM 14 inch M-LOK handguard/|
 	MPX Midwest Industries 10.5 inch M-LOK handguard/|

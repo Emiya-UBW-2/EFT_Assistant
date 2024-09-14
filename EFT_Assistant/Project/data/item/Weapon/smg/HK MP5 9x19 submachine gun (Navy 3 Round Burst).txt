@@ -13,13 +13,16 @@ ChildParts=[
 	HK MP5 9x19 30-round magazine/|
 	HK MP5 9x19 X Products X-5 50-round drum magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	HK MP5SD 9x19 upper receiver/|
 	HK MP5 9x19 upper receiver
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	HK MP5 cocking handle
 ]
+ChildParts_required=TRUE
 Recoil=56.000000
 RecoilHorizontal=275.000000
 Ergonomics=50.000000

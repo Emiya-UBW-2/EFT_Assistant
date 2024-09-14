@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	SilencerCo Omega 45k Piston Mount adapter
 ]
+ChildParts_required=FALSE
 Recoil=-3.000000
 Ergonomics=-4.000000
 centerOfImpact=0.290000

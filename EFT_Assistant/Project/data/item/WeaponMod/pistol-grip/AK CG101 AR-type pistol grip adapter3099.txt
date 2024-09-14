@@ -25,6 +25,7 @@ ChildParts=[
 	AR-15 Tactical Dynamics Skeletonized pistol grip/|
 	AR-15 Aeroknox Orion pistol grip
 ]
+ChildParts_required=TRUE
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000

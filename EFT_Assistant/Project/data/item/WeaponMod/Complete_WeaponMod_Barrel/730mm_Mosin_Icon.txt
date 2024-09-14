@@ -11,11 +11,13 @@ propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	Mosin Rifle front sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Mosin Rifle rear sight/|
 	Mosin Rifle AIM Sports MNG rail mount/|
 	Mosin Rifle AIM Sports Tri-Rail mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Mosin Rifle Tacfire Tanker Style 7.62x54R muzzle brake/|
 	Mosin Rifle Texas Precision Products 7.62x54R muzzle brake/|
@@ -25,6 +27,7 @@ ChildParts=[
 	Mosin Rifle Weapon Tuning 7.62x39 thread adapter/|
 	Mosin Rifle Bramit 7.62x54R sound suppressor
 ]
+ChildParts_required=FALSE
 Conflict=[
 	Mosin Rifle sniper carbine stock/|
 	Mosin Rifle carbine stock

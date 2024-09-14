@@ -11,12 +11,15 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	SKS TAPCO Intrafuse buffer tube
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	SKS TAPCO Intrafuse chassis lower rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	SKS TAPCO Intrafuse SAW-Style pistol grip
 ]
+ChildParts_required=TRUE
 Recoil=-4.000000
 Ergonomics=17.000000
 accuracyModifier=0.000000

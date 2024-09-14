@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	SilencerCo Salvo 12 12ga sound suppressor
 ]
+ChildParts_required=FALSE
 Recoil=-1.000000
 Ergonomics=0.000000
 accuracyModifier=0.010000

@@ -16,6 +16,7 @@ ChildParts=[
 	Wilcox RAPTAR ES Tactical Rangefinder/|
 	Zenit Perst-3 tactical device
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
@@ -40,6 +41,7 @@ ChildParts=[
 	MAWL-C1+ tactical device/|
 	Zenit KR-2 old gen mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
@@ -64,6 +66,7 @@ ChildParts=[
 	MAWL-C1+ tactical device/|
 	Zenit KR-2 old gen mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
@@ -88,6 +91,7 @@ ChildParts=[
 	MAWL-C1+ tactical device/|
 	Zenit KR-2 old gen mount
 ]
+ChildParts_required=FALSE
 Conflict=[
 	FN SCAR-L 5.56x45 10 inch barrel/|
 	FN SCAR-H 7.62x51 13 inch barrel

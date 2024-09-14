@@ -13,34 +13,41 @@ ChildParts=[
 	M1911A1 .45 ACP National Match barrel/|
 	M1911A1 .45 ACP threaded barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	M45A1 Mil-Tac GVT G10 side grips
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	M1911A1 pistol slide/|
 	M45A1 pistol slide
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	M1911A1 .45 ACP 7-round magazine/|
 	M1911A1 .45 ACP Wilson Combat 7-round magazine/|
 	M1911A1 .45 ACP Mec-Gar 11-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	M1911A1 Caspian Arms Trik Trigger/|
 	M1911A1 trigger/|
 	M45A1 trigger
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	M45A1 hammer/|
 	M1911A1 STI HEX hammer/|
 	M1911A1 Wilson Retro Commander hammer/|
 	M1911A1 Wilson Ultralight skeletonized hammer
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	M1911A1 slide stop/|
 	M45A1 slide lock/|
 	M1911A1 Wilson Extended slide stop
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	NcSTAR Tactical blue laser LAM-module/|
@@ -54,6 +61,7 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)
 ]
+ChildParts_required=FALSE
 Recoil=438.000000
 RecoilHorizontal=325.000000
 Ergonomics=78.000000

@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesScope
 ChildParts=[
 	Axion Kobra sight shade
 ]
+ChildParts_required=FALSE
 Conflict=[
 	SOK-12 Leapers UTG PRO MTU002 Long Top aluminum handguard
 ]

@@ -14,22 +14,27 @@ ChildParts=[
 	HK MP5 Wide Tropical polymer handguard/|
 	HK MP5 PTR Tri-Rail handguard
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	HK MP5 Drum rear sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	HK MP5 A2 stock/|
 	HK MP5 A3 old model stock/|
 	HK MP5 End Cap stock
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	HK MP5 3-lug thread protector/|
 	HK MP5 Navy Style 3-lug suppressor adapter
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	HK MP5 MFI HK universal low profile scope mount/|
 	HK MP5 B&T tri-rail receiver mount
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=5.000000
 accuracyModifier=0.000000

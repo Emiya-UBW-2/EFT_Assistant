@@ -19,6 +19,7 @@ ChildParts=[
 	9x19mm RIP/|
 	9x19mm FMJ M882
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	9x19mm PBP gzh/|
 	9x19mm Green Tracer/|
@@ -30,6 +31,7 @@ ChildParts=[
 	9x19mm RIP/|
 	9x19mm FMJ M882
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	9x19mm PBP gzh/|
 	9x19mm Green Tracer/|
@@ -41,6 +43,7 @@ ChildParts=[
 	9x19mm RIP/|
 	9x19mm FMJ M882
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	9x19mm PBP gzh/|
 	9x19mm Green Tracer/|
@@ -52,6 +55,7 @@ ChildParts=[
 	9x19mm RIP/|
 	9x19mm FMJ M882
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	9x19mm PBP gzh/|
 	9x19mm Green Tracer/|
@@ -63,6 +67,7 @@ ChildParts=[
 	9x19mm RIP/|
 	9x19mm FMJ M882
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	9x19mm PBP gzh/|
 	9x19mm Green Tracer/|
@@ -74,6 +79,7 @@ ChildParts=[
 	9x19mm RIP/|
 	9x19mm FMJ M882
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=-2.000000
 capacity=6

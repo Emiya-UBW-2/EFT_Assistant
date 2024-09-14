@@ -11,15 +11,19 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	HK G36 bottom handguard rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	HK G36 side handguard rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	HK G36 side handguard rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	HK G36 hand stop
 ]
+ChildParts_required=FALSE
 Conflict=[
 	HK G36 5.56x45 228mm barrel/|
 	HK G36 5.56x45 480mm barrel

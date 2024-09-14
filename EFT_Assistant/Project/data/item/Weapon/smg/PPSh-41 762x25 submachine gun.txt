@@ -11,16 +11,20 @@ propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	PPSh-41 stock
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	PPSh-41 7.62x25 35-round magazine/|
 	PPSh-41 7.62x25 71-round drum magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	PPSh-41 dust cover
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	PPSh-41 7.62x25 10.6 inch barrel
 ]
+ChildParts_required=TRUE
 Recoil=89.000000
 RecoilHorizontal=294.000000
 Ergonomics=16.000000

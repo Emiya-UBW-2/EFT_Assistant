@@ -36,6 +36,7 @@ ChildParts=[
 	AK CG101 AR-type pistol grip adapter/|
 	AK PUFGUN SG-M2 pistol grip
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
@@ -60,6 +61,7 @@ ChildParts=[
 	MAWL-C1+ tactical device/|
 	Zenit KR-2 old gen mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
@@ -83,6 +85,7 @@ ChildParts=[
 	MAWL-C1+ tactical device/|
 	Zenit KR-2 old gen mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
@@ -108,9 +111,11 @@ ChildParts=[
 	Zenit KR-2 old gen mount/|
 	BT10 V8 Atlas Bipod
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	SKS FAB Defense UAS buttstock
 ]
+ChildParts_required=FALSE
 Conflict=[
 	SKS Leapers UTG SOCOM rail mount
 ]

@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	VSS/VAL Zenit B-3 ring mount
 ]
+ChildParts_required=FALSE
 Recoil=-14.000000
 Ergonomics=-5.000000
 accuracyModifier=0.010000

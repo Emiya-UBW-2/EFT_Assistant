@@ -11,9 +11,11 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Mosin Rifle AIM Sports Recoil Pad
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Mosin Rifle Tacfire pistol grip
 ]
+ChildParts_required=FALSE
 Conflict=[
 	Mosin Rifle Kochetov mount/|
 	Mosin Carbine 7.62x54R 514mm barrel/|

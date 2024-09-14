@@ -11,9 +11,11 @@ propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	RSh-12 12.7x55 5-round cylinder
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	RSh-12 pistol grip
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	NcSTAR Tactical blue laser LAM-module/|
@@ -29,6 +31,7 @@ ChildParts=[
 	Kiba Arms 25mm accessory ring mount/|
 	MAWL-C1+ tactical device
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Leapers UTG reflex sight/|
 	Axion Kobra EKP-8-18 reflex sight/|
@@ -61,6 +64,7 @@ ChildParts=[
 	ELCAN Specter HCO holographic sight/|
 	Wilcox BOSS Xe reflex sight
 ]
+ChildParts_required=FALSE
 Conflict=[
 	March Tactical 3-24x42 FFP 30mm riflescope/|
 	Leupold Mark 4 LR 6.5-20x50 30mm riflescope

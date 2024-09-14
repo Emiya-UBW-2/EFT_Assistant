@@ -31,10 +31,12 @@ ChildParts=[
 	MAWL-C1+ tactical device/|
 	Zenit KR-2 old gen mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	PK Zenit B-50 66mm top mount/|
 	PK Zenit B-50 16mm top mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	NcSTAR Tactical blue laser LAM-module/|
@@ -58,9 +60,11 @@ ChildParts=[
 	MAWL-C1+ tactical device/|
 	Zenit KR-2 old gen mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Zenit RK-1 tactical foregrip on B-25U mount
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=5.000000
 accuracyModifier=0.000000

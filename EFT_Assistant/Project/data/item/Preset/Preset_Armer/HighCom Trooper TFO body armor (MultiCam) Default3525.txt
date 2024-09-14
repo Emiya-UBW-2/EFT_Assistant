@@ -8,5 +8,9 @@ weight=6.800000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
+containsItems=[
+	HighCom Trooper TFO body armor (MultiCam)x1/|
+	Monoclete level III PE ballistic platex1
+]
 Name_Jpn=HighCom Trooper TFO body armor (MultiCam) デフォルト
 Information_Jpn=

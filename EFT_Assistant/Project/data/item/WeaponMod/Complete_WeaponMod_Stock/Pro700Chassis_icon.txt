@@ -11,24 +11,30 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	M700 Magpul Pro 700 folding stock
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	M700 Magpul Pro 700 pistol grip
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	M700 Magpul Pro 700 chassis inline mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK 0.93 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK 0.93 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK 0.93 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Magpul M-LOK AFG tactical foregrip (Black)/|
 	Magpul M-LOK AFG tactical foregrip (FDE)/|
@@ -40,6 +46,7 @@ ChildParts=[
 	BCM GUNFIGHTER MOD 3 M-LOK foregrip (Black)/|
 	BCM GUNFIGHTER MOD 3 M-LOK foregrip (FDE)
 ]
+ChildParts_required=FALSE
 Conflict=[
 	M700 7.62x51 ProMag AA-70 10-round magazine/|
 	M700 7.62x51 ProMag AA-70 20-round magazine/|

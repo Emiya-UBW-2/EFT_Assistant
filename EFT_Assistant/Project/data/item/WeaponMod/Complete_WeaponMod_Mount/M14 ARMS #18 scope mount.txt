@@ -61,6 +61,7 @@ ChildParts=[
 	GBRS Aimpoint Hydra Mount Kit (FDE)/|
 	Wilcox BOSS Xe reflex sight
 ]
+ChildParts_required=FALSE
 Conflict=[
 	M14 SAGE International DCSB mount/|
 	M14 Vltor CASV-14 rail system/|

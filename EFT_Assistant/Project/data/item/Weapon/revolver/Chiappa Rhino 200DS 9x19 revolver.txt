@@ -11,14 +11,17 @@ propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	Chiappa Rhino 9x19 6-round cylinder
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Chiappa Rhino Red Fiber Optic front sight/|
 	Chiappa Rhino front sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Chiappa Rhino plastic pistol grip/|
 	Chiappa Rhino wooden pistol grip
 ]
+ChildParts_required=TRUE
 Recoil=306.000000
 RecoilHorizontal=200.000000
 Ergonomics=95.000000

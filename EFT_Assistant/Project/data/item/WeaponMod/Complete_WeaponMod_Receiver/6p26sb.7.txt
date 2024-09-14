@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AKS-74U Zenit B-18 Mount
 ]
+ChildParts_required=FALSE
 Conflict=[
 	OKP-7 reflex sight (Dovetail)/|
 	BelOMO PSO-1 4x24 scope/|

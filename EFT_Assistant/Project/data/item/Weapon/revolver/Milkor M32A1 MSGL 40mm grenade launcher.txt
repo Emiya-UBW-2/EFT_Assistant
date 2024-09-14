@@ -23,6 +23,7 @@ ChildParts=[
 	AR-15 Magpul MIAD pistol grip (FDE)/|
 	AR-15 Aeroknox Orion pistol grip
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	AR-15 B5 Systems Precision stock/|
 	AR-15 CMMG RipStock buttstock/|
@@ -52,9 +53,11 @@ ChildParts=[
 	AR-15 Daniel Defense Enhanced Collapsible Buttstock (Black)/|
 	AR-15 Daniel Defense Enhanced Collapsible Buttstock (FDE)
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	M32A1 40mm cylinder
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	BCM GUNFIGHTER MOD 3 vertical foregrip/|
 	ASh-12 vertical foregrip/|
@@ -93,9 +96,11 @@ ChildParts=[
 	TangoDown Stubby BGV-QDK foregrip (Black)/|
 	TangoDown Stubby BGV-QDK foregrip (FDE)
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Milkor M2A1 grenade launcher reflex sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Holosun LS321 Tactical device/|
 	L3Harris AN/PEQ-15 tactical device/|
@@ -105,25 +110,7 @@ ChildParts=[
 	Zenit Perst-3 tactical device/|
 	MAWL-C1+ tactical device
 ]
-ChildParts=[
-	Glock GTL 21 tactical flashlight with laser/|
-	Holosun LS321 Tactical device/|
-	L3Harris AN/PEQ-15 tactical device/|
-	Insight AN/PEQ-2 tactical device/|
-	L3Harris LA-5B/PEQ tactical device/|
-	NcSTAR Tactical blue laser LAM-module/|
-	Steiner DBAL-PL tactical device/|
-	Steiner LAS/TAC 2 tactical flashlight/|
-	SureFire X400 Ultra tactical flashlight with laser/|
-	SureFire XC1 tactical flashlight/|
-	Wilcox RAPTAR ES Tactical Rangefinder/|
-	Zenit Klesch-2IKS IR illuminator with laser/|
-	Zenit Klesch-2P flashlight with laser/|
-	Zenit Klesch-2U tactical flashlight/|
-	Zenit Perst-3 tactical device/|
-	Kiba Arms 25mm accessory ring mount/|
-	MAWL-C1+ tactical device
-]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
@@ -143,6 +130,27 @@ ChildParts=[
 	Kiba Arms 25mm accessory ring mount/|
 	MAWL-C1+ tactical device
 ]
+ChildParts_required=FALSE
+ChildParts=[
+	Glock GTL 21 tactical flashlight with laser/|
+	Holosun LS321 Tactical device/|
+	L3Harris AN/PEQ-15 tactical device/|
+	Insight AN/PEQ-2 tactical device/|
+	L3Harris LA-5B/PEQ tactical device/|
+	NcSTAR Tactical blue laser LAM-module/|
+	Steiner DBAL-PL tactical device/|
+	Steiner LAS/TAC 2 tactical flashlight/|
+	SureFire X400 Ultra tactical flashlight with laser/|
+	SureFire XC1 tactical flashlight/|
+	Wilcox RAPTAR ES Tactical Rangefinder/|
+	Zenit Klesch-2IKS IR illuminator with laser/|
+	Zenit Klesch-2P flashlight with laser/|
+	Zenit Klesch-2U tactical flashlight/|
+	Zenit Perst-3 tactical device/|
+	Kiba Arms 25mm accessory ring mount/|
+	MAWL-C1+ tactical device
+]
+ChildParts_required=FALSE
 Recoil=238.000000
 RecoilHorizontal=560.000000
 Ergonomics=30.000000

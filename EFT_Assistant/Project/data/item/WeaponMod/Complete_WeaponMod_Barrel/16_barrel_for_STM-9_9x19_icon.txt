@@ -16,6 +16,7 @@ ChildParts=[
 	SIG Sauer SRD9 9x19 sound suppressor/|
 	SilencerCo Osprey 9 9x19 sound suppressor
 ]
+ChildParts_required=FALSE
 Conflict=[
 	AR-15 Lone Star Ion Lite handguard
 ]

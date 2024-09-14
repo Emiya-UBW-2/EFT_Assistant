@@ -37,10 +37,12 @@ ChildParts=[
 	M60E6 7.62x51 flash hider/|
 	AR-10 Delta-Tek DTK-AR10 7.62x51 muzzle brake
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	M60E4 front sight/|
 	M60E6 front sight rail
 ]
+ChildParts_required=FALSE
 Recoil=-10.000000
 Ergonomics=-13.000000
 centerOfImpact=0.034000

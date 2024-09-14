@@ -11,10 +11,12 @@ propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	MP-18 7.62x54R 600mm barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	MP-18 polymer stock/|
 	MP-18 wooden stock
 ]
+ChildParts_required=TRUE
 Recoil=295.000000
 RecoilHorizontal=753.000000
 Ergonomics=44.000000

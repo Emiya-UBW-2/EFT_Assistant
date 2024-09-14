@@ -19,16 +19,19 @@ ChildParts=[
 	BCM GUNFIGHTER MOD 3 M-LOK foregrip (Black)/|
 	BCM GUNFIGHTER MOD 3 M-LOK foregrip (FDE)
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount/|
 	Magpul M-LOK 0.93 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount/|
 	Magpul M-LOK 0.93 inch rail
 ]
+ChildParts_required=FALSE
 Conflict=[
 	PP-19-01 Vityaz 9x19 submachine gun
 ]

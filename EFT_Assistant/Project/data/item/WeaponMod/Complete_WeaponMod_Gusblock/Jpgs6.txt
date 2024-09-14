@@ -18,6 +18,7 @@ ChildParts=[
 	MCX flip-up front sight/|
 	MPX flip-up front sight
 ]
+ChildParts_required=FALSE
 Conflict=[
 	AR-15 Alexander Arms MK10 rifle length handguard/|
 	AR-15 War Sport LVOA-C handguard (Black)/|

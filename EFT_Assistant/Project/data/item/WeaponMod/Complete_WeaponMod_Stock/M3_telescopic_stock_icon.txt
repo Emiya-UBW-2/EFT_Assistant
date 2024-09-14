@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Benelli M3 telescopic stock pistol grip
 ]
+ChildParts_required=TRUE
 Recoil=-21.000000
 Ergonomics=10.000000
 accuracyModifier=0.000000

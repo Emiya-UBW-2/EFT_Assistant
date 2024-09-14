@@ -14,12 +14,14 @@ ChildParts=[
 	Vltor CASV KeyMod 4 inch rail/|
 	CNC Guns KeyMod 2 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Strike Industries KeyMod 4 inch rail/|
 	Vltor CASV KeyMod 2 inch rail/|
 	Vltor CASV KeyMod 4 inch rail/|
 	CNC Guns KeyMod 2 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	HK MP7 flip-up front sight/|
 	KAC Folding Micro front sight/|
@@ -31,6 +33,7 @@ ChildParts=[
 	MPX flip-up front sight/|
 	AR-15 Leapers UTG Low Profile A2 front sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Monstrum Tactical Vertical Fore Grip KeyMod/|
 	A3 Tactical MVF001 KeyMod vertical foregrip (Black)/|
@@ -39,6 +42,7 @@ ChildParts=[
 	Vltor CASV KeyMod 6 inch rail/|
 	CNC Guns KeyMod 4 inch rail
 ]
+ChildParts_required=FALSE
 Conflict=[
 	AR-10 2A Armanent X3 7.62x51 compensator/|
 	AR-10 AAC Blackout 51T 7.62x51 flash hider/|

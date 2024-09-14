@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	Desert Eagle front sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Aimpoint Micro Standard Mount/|
 	Aimpoint Micro H-2 Standard Mount/|
@@ -27,6 +28,7 @@ ChildParts=[
 	Monstrum Tactical Compact Prism Scope 2x32/|
 	ELCAN Specter HCO holographic sight
 ]
+ChildParts_required=FALSE
 Recoil=-2.000000
 Ergonomics=-2.000000
 centerOfImpact=0.260000

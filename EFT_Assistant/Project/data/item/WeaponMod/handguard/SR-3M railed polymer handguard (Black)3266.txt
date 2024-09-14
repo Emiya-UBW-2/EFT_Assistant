@@ -31,6 +31,7 @@ ChildParts=[
 	Zenit Perst-3 tactical device/|
 	MAWL-C1+ tactical device
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	OKP-7 reflex sight/|
 	EOTech EXPS3 holographic sight (Tan)/|
@@ -64,6 +65,7 @@ ChildParts=[
 	MAWL-C1+ tactical device/|
 	ELCAN Specter HCO holographic sight
 ]
+ChildParts_required=FALSE
 Recoil=-1.000000
 Ergonomics=8.000000
 accuracyModifier=0.000000

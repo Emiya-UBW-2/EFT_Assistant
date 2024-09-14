@@ -11,10 +11,12 @@ propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	MTs-255-12 12ga choke
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	VOMZ Pilad TargetRing reflex sight/|
 	ETMI-019 shotgun rail mount
 ]
+ChildParts_required=FALSE
 Recoil=-10.000000
 Ergonomics=-18.000000
 centerOfImpact=0.280000

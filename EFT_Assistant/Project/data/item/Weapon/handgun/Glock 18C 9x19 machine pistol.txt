@@ -11,12 +11,15 @@ propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	Glock 18C 9x19 barrel with a compensator
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Glock Pachmayr Tactical Grip Glove
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock 18C pistol slide
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Glock 9x19 "Big Stick" 33-round magazine/|
 	Glock 9x19 17-round magazine/|
@@ -26,6 +29,7 @@ ChildParts=[
 	Glock 9x19 "Big Stick" 31-round magazine (Coyote)/|
 	Glock 9x19 19-round magazine (Coyote)
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	NcSTAR Tactical blue laser LAM-module/|
@@ -40,12 +44,15 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock Aimtech Tiger Shark sight mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock FAB Defense GLR-17 stock
 ]
+ChildParts_required=FALSE
 Recoil=306.000000
 RecoilHorizontal=286.000000
 Ergonomics=90.000000

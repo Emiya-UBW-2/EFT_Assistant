@@ -40,6 +40,8 @@ namespace FPS_n2 {
 			}
 		}
 	protected:
+		static void SetPositionGuide(int xMin, int yMin, int xMax, int yMax) noexcept;
+	protected:
 		virtual void Init_Sub(int *, int *, float*) noexcept {}
 		virtual void LateExecute_Sub(int *, int *, float*) noexcept {}
 		virtual void Draw_Back_Sub(int, int, float) noexcept {}

@@ -17,12 +17,14 @@ ChildParts=[
 	Schmidt & Bender PM II 1-8x24 30mm riflescope/|
 	SIG TANGO6T 1-6x24 30mm riflescope
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Geissele Super Precision top ring cap/|
 	Geissele Super Precision top ring cap (DDC)/|
 	Reptilia ROF-90 RMR mount for Geissele scope mounts/|
 	Reptilia ROF-90 RMR mount for Geissele scope mounts (DDC)
 ]
+ChildParts_required=TRUE
 Conflict=[
 	AR-15 rear sight carry handle
 ]

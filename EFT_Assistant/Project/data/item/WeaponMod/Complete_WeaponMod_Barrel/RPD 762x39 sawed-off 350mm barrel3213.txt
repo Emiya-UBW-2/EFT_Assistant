@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	RPD barrel thread protector
 ]
+ChildParts_required=FALSE
 Recoil=-2.000000
 Ergonomics=-3.000000
 centerOfImpact=0.062000

@@ -12,6 +12,7 @@ ChildParts=[
 	KMZ 1P59 3-10x riflescope/|
 	KMZ 1P69 3-10x riflescope
 ]
+ChildParts_required=FALSE
 Conflict=[
 	BelOMO PSO-1 4x24 scope/|
 	BelOMO PSO-1M2-1 4x24 scope/|

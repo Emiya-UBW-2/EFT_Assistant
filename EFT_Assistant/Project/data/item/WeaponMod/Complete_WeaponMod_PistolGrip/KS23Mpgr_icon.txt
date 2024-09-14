@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	KS-23M wire stock
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=8.000000
 accuracyModifier=0.000000

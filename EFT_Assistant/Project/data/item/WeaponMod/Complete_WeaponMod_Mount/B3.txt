@@ -31,6 +31,7 @@ ChildParts=[
 	MAWL-C1+ tactical device/|
 	Zenit KR-2 old gen mount
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000

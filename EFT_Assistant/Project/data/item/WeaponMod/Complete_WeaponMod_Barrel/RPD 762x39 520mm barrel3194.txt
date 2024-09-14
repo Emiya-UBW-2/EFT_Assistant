@@ -11,9 +11,11 @@ propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	RPD bipod
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	RPD barrel thread protector
 ]
+ChildParts_required=FALSE
 Recoil=-4.000000
 Ergonomics=-11.000000
 centerOfImpact=0.038000

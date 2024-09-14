@@ -18,6 +18,7 @@ ChildParts=[
 	SIG Sauer SRD9 9x19 sound suppressor/|
 	SilencerCo Osprey 9 9x19 sound suppressor
 ]
+ChildParts_required=FALSE
 Conflict=[
 	MPX Lancer OEM 14 inch M-LOK handguard/|
 	MPX Midwest Industries 10.5 inch M-LOK handguard/|

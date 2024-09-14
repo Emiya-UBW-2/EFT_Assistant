@@ -36,6 +36,7 @@ ChildParts=[
 	AR-10 SureFire ProComp 7.62x51 muzzle brake/|
 	AR-10 Delta-Tek DTK-AR10 7.62x51 muzzle brake
 ]
+ChildParts_required=FALSE
 Conflict=[
 	SA-58/FAL Vltor CASV-FAS handguard/|
 	SA-58 quad rail handguard

@@ -17,6 +17,7 @@ ChildParts=[
 	Zenit Perst-3 tactical device/|
 	MAWL-C1+ tactical device
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Magpul M-LOK AFG tactical foregrip (Black)/|
 	Magpul M-LOK AFG tactical foregrip (FDE)/|
@@ -28,18 +29,22 @@ ChildParts=[
 	BCM GUNFIGHTER MOD 3 M-LOK foregrip (Black)/|
 	BCM GUNFIGHTER MOD 3 M-LOK foregrip (FDE)
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK 0.93 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK 0.93 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK 0.93 inch rail
 ]
+ChildParts_required=FALSE
 Conflict=[
 	FN SCAR side rail/|
 	FN SCAR-L 5.56x45 10 inch barrel/|

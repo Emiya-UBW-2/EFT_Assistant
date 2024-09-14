@@ -17,6 +17,7 @@ ChildParts=[
 	DeltaPoint Cross Slot Mount base/|
 	Trijicon RMR low profile mount
 ]
+ChildParts_required=FALSE
 Conflict=[
 	M1911A1 NcSTAR trigger guard mount
 ]

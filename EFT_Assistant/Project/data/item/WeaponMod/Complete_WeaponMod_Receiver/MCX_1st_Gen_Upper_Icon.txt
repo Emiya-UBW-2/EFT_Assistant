@@ -75,14 +75,17 @@ ChildParts=[
 	Wilcox BOSS Xe reflex sight/|
 	SIG ALPHA4 30mm ring scope mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	MCX .300 BLK 171mm barrel/|
 	MCX .300 BLK 229mm barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	MCX GEN1 KeyMod 12 inch handguard/|
 	MCX GEN1 KeyMod 8 inch handguard
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	HK 416A5 flip-up rear sight/|
 	HK MP7 flip-up rear sight/|
@@ -94,6 +97,7 @@ ChildParts=[
 	MCX flip-up rear sight/|
 	MPX flip-up rear sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Holosun LS321 Tactical device/|
 	L3Harris AN/PEQ-15 tactical device/|
@@ -102,9 +106,11 @@ ChildParts=[
 	Zenit Perst-3 tactical device/|
 	MAWL-C1+ tactical device
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	NcSTAR MPR45 Backup mount
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=5.000000
 accuracyModifier=0.000000

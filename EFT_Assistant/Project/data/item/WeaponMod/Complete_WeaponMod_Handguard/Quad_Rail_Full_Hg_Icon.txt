@@ -46,6 +46,7 @@ ChildParts=[
 	TangoDown Stubby BGV-QDK foregrip (Black)/|
 	TangoDown Stubby BGV-QDK foregrip (FDE)
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Holosun LS321 Tactical device/|
 	L3Harris AN/PEQ-15 tactical device/|
@@ -56,6 +57,7 @@ ChildParts=[
 	Zenit Perst-3 tactical device/|
 	MAWL-C1+ tactical device
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
@@ -79,6 +81,7 @@ ChildParts=[
 	MAWL-C1+ tactical device/|
 	Zenit KR-2 old gen mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
@@ -103,6 +106,7 @@ ChildParts=[
 	MAWL-C1+ tactical device/|
 	Zenit KR-2 old gen mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	BelOMO PK-06 reflex sight/|
 	Aimpoint Micro Standard Mount/|
@@ -113,6 +117,7 @@ ChildParts=[
 	NcSTAR MPR45 Backup mount/|
 	Trijicon RMR low profile mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
@@ -137,6 +142,7 @@ ChildParts=[
 	Zenit KR-2 old gen mount/|
 	BT10 V8 Atlas Bipod
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=6.000000
 accuracyModifier=0.000000

@@ -15,6 +15,7 @@ ChildParts=[
 	AKS-74U Zenit B-11 handguard/|
 	AKS-74U Alfa Arms Goliaf M-LOK handguard
 ]
+ChildParts_required=TRUE
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000

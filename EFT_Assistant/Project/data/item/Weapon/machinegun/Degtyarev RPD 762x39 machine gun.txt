@@ -11,19 +11,24 @@ propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	RPD 7.62x39 "Buben" 100-round box
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	RPD wooden stock
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	RPD 7.62x39 520mm barrel/|
 	RPD 7.62x39 sawed-off 350mm barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	RPD wooden handguard
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	RPD rear sight
 ]
+ChildParts_required=FALSE
 Recoil=107.000000
 RecoilHorizontal=502.000000
 Ergonomics=35.000000

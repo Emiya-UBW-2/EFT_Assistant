@@ -18,6 +18,7 @@ ChildParts=[
 	SilencerCo Osprey 9 9x19 sound suppressor/|
 	UZI PRO 9x19 Masada thread protector
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=-1.000000
 centerOfImpact=0.220000

@@ -12,10 +12,12 @@ ChildParts=[
 	FN SCAR retractable polymer stock/|
 	FN SCAR retractable polymer stock (FDE)
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	FN SCAR cheek rest/|
 	FN SCAR cheek rest (FDE)
 ]
+ChildParts_required=FALSE
 Recoil=-4.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000

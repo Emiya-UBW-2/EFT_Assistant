@@ -11,16 +11,20 @@ propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	Desert Eagle L5 .50 AE 127mm barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Desert Eagle Hogue Rubber Grip/|
 	Desert Eagle Hogue Rubber Grip with finger grooves
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Desert Eagle L5 .50 AE pistol slide
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Desert Eagle .50 AE 7-round magazine
 ]
+ChildParts_required=FALSE
 Recoil=465.000000
 RecoilHorizontal=330.000000
 Ergonomics=68.000000

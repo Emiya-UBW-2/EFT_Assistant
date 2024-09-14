@@ -13,9 +13,11 @@ ChildParts=[
 	SIG Sauer Taper-LOK 7.62x51/.300 BLK muzzle adapter/|
 	SIG Sauer SRD762Ti 7.62x51 sound suppressor
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	MCX gas block
 ]
+ChildParts_required=TRUE
 Recoil=-5.000000
 Ergonomics=-6.000000
 centerOfImpact=0.080000

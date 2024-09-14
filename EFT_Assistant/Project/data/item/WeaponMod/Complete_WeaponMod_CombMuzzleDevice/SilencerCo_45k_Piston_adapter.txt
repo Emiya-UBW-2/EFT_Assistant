@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	SilencerCo Omega 45k .45 ACP sound suppressor
 ]
+ChildParts_required=FALSE
 Conflict=[
 	M1911 Anarchy Outdoors .45 ACP muzzle brake
 ]

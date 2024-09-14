@@ -47,9 +47,11 @@ ChildParts=[
 	TangoDown Stubby BGV-QDK foregrip (Black)/|
 	TangoDown Stubby BGV-QDK foregrip (FDE)
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	NcSTAR MPR45 Backup mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
@@ -72,6 +74,7 @@ ChildParts=[
 	Insight WMX200 tactical flashlight/|
 	MAWL-C1+ tactical device
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
@@ -95,6 +98,7 @@ ChildParts=[
 	Insight WMX200 tactical flashlight/|
 	MAWL-C1+ tactical device
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	HK MP7 flip-up front sight/|
 	KAC Folding Micro front sight/|
@@ -106,6 +110,7 @@ ChildParts=[
 	MPX flip-up front sight/|
 	AR-15 Leapers UTG Low Profile A2 front sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Holosun LS321 Tactical device/|
 	L3Harris AN/PEQ-15 tactical device/|
@@ -116,9 +121,11 @@ ChildParts=[
 	Zenit Perst-3 tactical device/|
 	MAWL-C1+ tactical device
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	BT10 V8 Atlas Bipod
 ]
+ChildParts_required=FALSE
 Conflict=[
 	AR-10 JP Enterprises Gas System-6/|
 	M4A1 front sight with gas block/|

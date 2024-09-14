@@ -13,6 +13,7 @@ ChildParts=[
 	Steyr AUG A3 5.56x45 16 inch barrel/|
 	Steyr AUG A1 5.56x45 16 inch barrel
 ]
+ChildParts_required=TRUE
 Recoil=0.000000
 Ergonomics=-3.000000
 SightRange=600

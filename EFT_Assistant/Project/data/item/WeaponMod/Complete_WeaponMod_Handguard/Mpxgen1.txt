@@ -18,15 +18,19 @@ ChildParts=[
 	MCX flip-up front sight/|
 	MPX flip-up front sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	MPX GEN1 handguard 2 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	MPX GEN1 handguard 4 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	MPX GEN1 handguard 2 inch rail
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=7.000000
 accuracyModifier=0.000000

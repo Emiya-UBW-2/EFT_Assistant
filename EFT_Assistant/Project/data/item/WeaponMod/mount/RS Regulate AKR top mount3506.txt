@@ -60,6 +60,7 @@ ChildParts=[
 	GBRS Aimpoint Hydra Mount Kit (FDE)/|
 	Wilcox BOSS Xe reflex sight
 ]
+ChildParts_required=FALSE
 Conflict=[
 	AK TWS Dog Leg Rail dust cover/|
 	AK Zenit B-33 dust cover/|

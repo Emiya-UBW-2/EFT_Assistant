@@ -28,6 +28,7 @@ ChildParts=[
 	AR-15 Strike Industries Viper PDW stock/|
 	AR-15 RTM ATP buffer tube
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AR-15 Colt A2 pistol grip/|
 	AR-15 Damage Industries ECS pistol grip (FDE)/|
@@ -45,6 +46,7 @@ ChildParts=[
 	AR-15 Tactical Dynamics Skeletonized pistol grip/|
 	AR-15 Aeroknox Orion pistol grip
 ]
+ChildParts_required=TRUE
 Recoil=0.000000
 Ergonomics=10.000000
 accuracyModifier=0.000000

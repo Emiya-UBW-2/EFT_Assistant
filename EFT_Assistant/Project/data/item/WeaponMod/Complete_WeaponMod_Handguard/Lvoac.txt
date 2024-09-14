@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	NcSTAR MPR45 Backup mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Holosun LS321 Tactical device/|
 	L3Harris AN/PEQ-15 tactical device/|
@@ -21,24 +22,29 @@ ChildParts=[
 	Zenit Perst-3 tactical device/|
 	MAWL-C1+ tactical device
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Vltor CASV KeyMod 6 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Vltor CASV KeyMod 2 inch rail/|
 	Vltor CASV KeyMod 4 inch rail/|
 	CNC Guns KeyMod 2 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Vltor CASV KeyMod 2 inch rail/|
 	Vltor CASV KeyMod 4 inch rail/|
 	CNC Guns KeyMod 2 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Vltor CASV KeyMod 2 inch rail/|
 	Vltor CASV KeyMod 4 inch rail/|
 	CNC Guns KeyMod 2 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	HK MP7 flip-up front sight/|
 	KAC Folding Micro front sight/|
@@ -50,6 +56,7 @@ ChildParts=[
 	MPX flip-up front sight/|
 	AR-15 Leapers UTG Low Profile A2 front sight
 ]
+ChildParts_required=FALSE
 Conflict=[
 	Rotor 43 5.56x45 muzzle brake-compensator/|
 	AR-15 5.56x45 260mm barrel

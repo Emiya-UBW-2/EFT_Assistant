@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesScope
 ChildParts=[
 	Burris FastFire 3 reflex sight
 ]
+ChildParts_required=FALSE
 Conflict=[
 	HK USP Elite .45 ACP pistol slide/|
 	HK USP Expert .45 ACP pistol slide

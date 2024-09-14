@@ -11,9 +11,11 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AI AXMC AX buttstock
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AI AXMC .338 LM chassis
 ]
+ChildParts_required=TRUE
 Recoil=0.000000
 Ergonomics=5.000000
 accuracyModifier=0.000000

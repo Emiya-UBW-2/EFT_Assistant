@@ -11,15 +11,19 @@ propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	M9A3 9x19 threaded barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	M9A3 polymer side grips
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	M9A3 pistol slide
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	M9A3 9x19 17-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	NcSTAR Tactical blue laser LAM-module/|
@@ -34,6 +38,7 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)
 ]
+ChildParts_required=FALSE
 Recoil=404.000000
 RecoilHorizontal=280.000000
 Ergonomics=70.000000

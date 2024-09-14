@@ -12,13 +12,16 @@ ChildParts=[
 	OP-SKS upper band/|
 	SKS upper band
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	SKS Leapers UTG SOCOM rail mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	SKS Weapon Tuning 7.62x39 thread adapter/|
 	SKS Hexagon 7.62x39 sound suppressor
 ]
+ChildParts_required=FALSE
 Recoil=-8.000000
 Ergonomics=-8.000000
 centerOfImpact=0.050000

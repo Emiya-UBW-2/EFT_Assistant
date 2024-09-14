@@ -12,6 +12,7 @@ ChildParts=[
 	M1A Smith Enterprise SOCOM 16 7.62x51 threaded muzzle brake & gas block/|
 	M1A SOCOM 16 7.62x51 muzzle brake-compensator
 ]
+ChildParts_required=TRUE
 Recoil=-5.000000
 Ergonomics=-12.000000
 centerOfImpact=0.039000

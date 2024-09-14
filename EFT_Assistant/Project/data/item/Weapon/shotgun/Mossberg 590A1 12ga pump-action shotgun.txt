@@ -11,22 +11,27 @@ propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	Mossberg 590A1 12ga 20 inch barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Mossberg 590A1 Magpul MOE forestock/|
 	Mossberg 590A1 SpeedFeed short handguard
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Mossberg 590A1 12ga 8-shell magazine cap
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Mossberg 590A1 Magpul SGA stock/|
 	Mossberg 590A1 Mesa Tactical LEO gen.1 stock adapter/|
 	Mossberg 590A1 polymer stock
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Mossberg 590 Ghost Ring rear sight/|
 	Mossberg 590A1 Tactical rail
 ]
+ChildParts_required=FALSE
 Recoil=421.000000
 RecoilHorizontal=494.000000
 Ergonomics=48.000000

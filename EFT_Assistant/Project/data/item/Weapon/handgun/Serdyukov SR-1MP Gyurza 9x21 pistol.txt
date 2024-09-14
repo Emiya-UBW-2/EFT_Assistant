@@ -12,9 +12,11 @@ ChildParts=[
 	SR-1MP single rail mount/|
 	SR-1MP quad rail mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	SR-1MP 9x21 18-round magazine
 ]
+ChildParts_required=FALSE
 Recoil=442.000000
 RecoilHorizontal=325.000000
 Ergonomics=82.000000

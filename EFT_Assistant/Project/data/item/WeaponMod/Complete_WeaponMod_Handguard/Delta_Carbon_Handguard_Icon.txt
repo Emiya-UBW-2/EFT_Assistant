@@ -11,15 +11,19 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Precision Reflex handguard long top rail mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Precision Reflex handguard short side rail mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Precision Reflex handguard short side rail mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Precision Reflex handguard bottom rail mount
 ]
+ChildParts_required=FALSE
 Conflict=[
 	AR-10 JP Enterprises Gas System-6/|
 	AR-15 5.56x45 260mm barrel/|

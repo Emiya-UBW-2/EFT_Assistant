@@ -11,12 +11,15 @@ propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	MP-443 Grach Zenit B-8 mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	MP-443 Grach 9x19 18-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	MP-443 Grach polymer pistol grip
 ]
+ChildParts_required=TRUE
 Recoil=425.000000
 RecoilHorizontal=310.000000
 Ergonomics=75.000000

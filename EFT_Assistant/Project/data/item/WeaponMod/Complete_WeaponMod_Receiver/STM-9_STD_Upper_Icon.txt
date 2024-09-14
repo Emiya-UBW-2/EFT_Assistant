@@ -76,12 +76,14 @@ ChildParts=[
 	Wilcox BOSS Xe reflex sight/|
 	SIG ALPHA4 30mm ring scope mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	STM-9 9x19 10.5 inch barrel/|
 	STM-9 9x19 12 inch barrel/|
 	STM-9 9x19 14 inch barrel/|
 	STM-9 9x19 16 inch barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	AR-15 Alexander Arms MK10 rifle length handguard/|
 	AR-15 KAC URX 3.1 10.75 inch handguard/|
@@ -97,6 +99,7 @@ ChildParts=[
 	AR-15 War Sport LVOA-S handguard (Black)/|
 	AR-15 Aeroknox AX-15 4 inch M-LOK handguard
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	HK 416A5 flip-up rear sight/|
 	HK MP7 flip-up rear sight/|
@@ -110,6 +113,7 @@ ChildParts=[
 	AR-15 Colt A2 rear sight/|
 	AR-15 rear sight carry handle
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=4.000000
 accuracyModifier=0.000000

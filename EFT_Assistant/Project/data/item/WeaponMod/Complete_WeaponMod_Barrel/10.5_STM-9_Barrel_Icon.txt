@@ -16,6 +16,7 @@ ChildParts=[
 	SIG Sauer SRD9 9x19 sound suppressor/|
 	SilencerCo Osprey 9 9x19 sound suppressor
 ]
+ChildParts_required=FALSE
 Conflict=[
 	AR-15 Alexander Arms MK10 rifle length handguard/|
 	AR-15 Daniel Defense RIS II 12.25 handguard (Coyote Brown)/|

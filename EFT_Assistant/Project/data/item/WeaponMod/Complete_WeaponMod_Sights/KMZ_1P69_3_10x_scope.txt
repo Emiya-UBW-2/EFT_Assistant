@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesScope
 ChildParts=[
 	KMZ 1P59 scope eyecup
 ]
+ChildParts_required=FALSE
 Conflict=[
 	Axion Kobra EKP-8-18 reflex sight/|
 	OKP-7 reflex sight/|

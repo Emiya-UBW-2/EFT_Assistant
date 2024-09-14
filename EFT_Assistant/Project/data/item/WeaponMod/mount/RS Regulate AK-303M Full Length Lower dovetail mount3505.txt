@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	RS Regulate AKR top mount
 ]
+ChildParts_required=FALSE
 Conflict=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
 	BelOMO PK-AA dovetail reflex sight/|

@@ -14,6 +14,7 @@ ChildParts=[
 	Molot Arms AKM-type gas tube/|
 	AK UltiMAK M1-B gas tube & handguard
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	AK-101 5.56x45 muzzle brake-compensator/|
 	AK-102 5.56x45 muzzle brake-compensator (6P44 0-20)/|
@@ -24,6 +25,7 @@ ChildParts=[
 	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
 	Rotor 43 5.56x45 muzzle brake-compensator
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AK Aeroknox Scorpius pistol grip/|
 	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip/|
@@ -51,6 +53,7 @@ ChildParts=[
 	AK CG101 AR-type pistol grip adapter/|
 	AK PUFGUN SG-M2 pistol grip
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	AK-74 dust cover (6P20 0-1)/|
 	AK-74M dust cover (6P34 0-1)/|
@@ -60,6 +63,7 @@ ChildParts=[
 	AK Zenit B-33 dust cover/|
 	RD-704 dust cover
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AK-105 rear sight (6P44 Sb.1-30)/|
 	AK-74 rear sight (6P20 Sb.2)/|
@@ -69,6 +73,7 @@ ChildParts=[
 	RPK-16 rear sight/|
 	AK-12 rear sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AK-74M polymer stock (6P34 Sb.15)/|
 	AK-74M CAA AKTS AK74 buffer tube/|
@@ -77,10 +82,12 @@ ChildParts=[
 	AK 100-series metal skeletonized stock/|
 	AK-12 buffer tube
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	SLR-106/AK 5.56x45 Circle 10 30-round magazine/|
 	AK-101 5.56x45 6L29 30-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
 	BelOMO PK-AA dovetail reflex sight/|
@@ -102,10 +109,12 @@ ChildParts=[
 	Axion Kobra EKP-1S-03 reflex sight (Dovetail)/|
 	RS Regulate AK-303M Full Length Lower dovetail mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AK CSS knurled charging handle/|
 	AK Zenit RP-1 charging handle
 ]
+ChildParts_required=FALSE
 Recoil=105.000000
 RecoilHorizontal=298.000000
 Ergonomics=38.000000

@@ -15,18 +15,21 @@ ChildParts=[
 	Vltor CASV KeyMod 2 inch rail/|
 	Vltor CASV KeyMod 4 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	CNC Guns KeyMod 2 inch rail/|
 	Strike Industries KeyMod 4 inch rail/|
 	Vltor CASV KeyMod 2 inch rail/|
 	Vltor CASV KeyMod 4 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	CNC Guns KeyMod 2 inch rail/|
 	Strike Industries KeyMod 4 inch rail/|
 	Vltor CASV KeyMod 2 inch rail/|
 	Vltor CASV KeyMod 4 inch rail
 ]
+ChildParts_required=FALSE
 Conflict=[
 	SV-98 anti-heat ribbon
 ]

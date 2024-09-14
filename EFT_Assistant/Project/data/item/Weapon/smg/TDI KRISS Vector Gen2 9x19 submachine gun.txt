@@ -17,6 +17,7 @@ ChildParts=[
 	Glock 9x19 "Big Stick" 31-round magazine (Coyote)/|
 	Glock 9x19 19-round magazine (Coyote)
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	HK MP7 flip-up front sight/|
 	KAC Folding Micro front sight/|
@@ -26,6 +27,7 @@ ChildParts=[
 	Magpul MBUS Gen2 flip-up front sight (FDE)/|
 	MPX flip-up front sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	HK MP7 flip-up rear sight/|
 	KAC Folding Micro rear sight/|
@@ -35,6 +37,7 @@ ChildParts=[
 	Magpul MBUS Gen2 flip-up rear sight (FDE)/|
 	MPX flip-up rear sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
 	ELCAN SpecterDR 1x/4x scope (FDE)/|
@@ -87,6 +90,7 @@ ChildParts=[
 	GBRS Aimpoint Hydra Mount Kit (FDE)/|
 	Wilcox BOSS Xe reflex sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Holosun LS321 Tactical device/|
 	L3Harris AN/PEQ-15 tactical device/|
@@ -96,24 +100,30 @@ ChildParts=[
 	Zenit Perst-3 tactical device/|
 	MAWL-C1+ tactical device
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	KRISS Vector Gen.2 folding stock/|
 	KRISS Vector non-folding stock adapter
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	KRISS Vector 9x19 5 inch barrel/|
 	KRISS Vector 9x19 6 inch barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	KRISS Vector bottom rail/|
 	KRISS Vector Mk.5 modular rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	KRISS Vector side rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	KRISS Vector side rail
 ]
+ChildParts_required=FALSE
 Recoil=48.000000
 RecoilHorizontal=315.000000
 Ergonomics=65.000000

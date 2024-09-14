@@ -11,9 +11,11 @@ propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	DVL-10 M2 7.62x51 muzzle brake
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	DVL-10 M2 handguard
 ]
+ChildParts_required=TRUE
 Recoil=-5.000000
 Ergonomics=-13.000000
 centerOfImpact=0.013000

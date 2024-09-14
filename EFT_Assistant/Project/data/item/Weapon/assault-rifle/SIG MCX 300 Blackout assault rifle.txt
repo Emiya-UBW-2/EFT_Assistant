@@ -38,6 +38,7 @@ ChildParts=[
 	AR-15 Aeroknox Orion pistol grip/|
 	AR-15 SIG M400 Reduced Angle Pistol Grip (Coyote Tan)
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	5.56x45 Colt AR-15 STANAG 30-round magazine/|
 	FN SCAR-L 5.56x45 30-round magazine/|
@@ -58,9 +59,11 @@ ChildParts=[
 	5.56x45 SureFire MAG5-60 STANAG 60-round magazine/|
 	5.56x45 TROY BattleMag STANAG 30-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	MCX GEN1 .300 BLK upper receiver
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	MPX/MCX Folding Knuckle Stock Adapter/|
 	MPX/MCX Collapsing/Telescoping Stock/|
@@ -70,9 +73,11 @@ ChildParts=[
 	MPX/MCX PMM ULSS foldable stock/|
 	MPX/MCX Stock Locking Hinge Assembly
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	MCX charging handle
 ]
+ChildParts_required=TRUE
 Recoil=127.000000
 RecoilHorizontal=351.000000
 Ergonomics=48.000000

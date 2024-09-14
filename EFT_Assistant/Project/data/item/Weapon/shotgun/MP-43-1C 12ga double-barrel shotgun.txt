@@ -13,9 +13,11 @@ ChildParts=[
 	MP-43-1C 12ga 725mm barrel/|
 	MP-43 12ga 750mm barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	MP-43-1C buttpad
 ]
+ChildParts_required=FALSE
 Recoil=279.000000
 RecoilHorizontal=413.000000
 Ergonomics=44.000000

@@ -23,6 +23,7 @@ ChildParts=[
 	AR-15 Strike Industries Viper PDW stock/|
 	AR-15 RTM ATP buffer tube
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AR-15 Colt A2 pistol grip/|
 	AR-15 Damage Industries ECS pistol grip (FDE)/|
@@ -40,9 +41,11 @@ ChildParts=[
 	AR-15 Tactical Dynamics Skeletonized pistol grip/|
 	AR-15 Aeroknox Orion pistol grip
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	M700 AB Arms MOD*X GEN 3 KeyMod handguard
 ]
+ChildParts_required=TRUE
 Conflict=[
 	M700 7.62x51 ProMag AA-70 10-round magazine/|
 	M700 7.62x51 ProMag AA-70 20-round magazine/|

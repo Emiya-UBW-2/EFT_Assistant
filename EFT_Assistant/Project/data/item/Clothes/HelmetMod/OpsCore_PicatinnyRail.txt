@@ -26,6 +26,7 @@ ChildParts=[
 	Zenit Klesch-2U tactical flashlight/|
 	Zenit Perst-3 tactical device
 ]
+ChildParts_required=FALSE
 Conflict=[
 	Ops-Core FAST multi-hit ballistic face shield
 ]

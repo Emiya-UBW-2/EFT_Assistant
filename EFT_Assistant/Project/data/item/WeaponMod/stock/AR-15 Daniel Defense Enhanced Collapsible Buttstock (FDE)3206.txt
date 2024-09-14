@@ -12,6 +12,7 @@ ChildParts=[
 	Daniel Defense TCS 12mm Buttpad /|
 	Daniel Defense TCS 20mm Buttpad 
 ]
+ChildParts_required=FALSE
 Conflict=[
 	AR-15 ADAR 2-15 wooden stock/|
 	AR-15 Hera Arms CQR pistol grip/buttstock

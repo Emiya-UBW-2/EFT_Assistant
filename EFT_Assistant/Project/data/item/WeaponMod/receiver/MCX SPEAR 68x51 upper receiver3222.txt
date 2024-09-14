@@ -76,12 +76,15 @@ ChildParts=[
 	GBRS Aimpoint Hydra Mount Kit (Black)/|
 	GBRS Aimpoint Hydra Mount Kit (FDE)
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	MCX SPEAR 6.8x51 330mm barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	MCX SPEAR 11 inch M-LOK handguard
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	HK 416A5 flip-up rear sight/|
 	HK MP7 flip-up rear sight/|
@@ -95,9 +98,11 @@ ChildParts=[
 	AR-15 Colt A2 rear sight/|
 	AR-15 rear sight carry handle
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	NcSTAR MPR45 Backup mount
 ]
+ChildParts_required=FALSE
 Recoil=-1.000000
 Ergonomics=5.000000
 accuracyModifier=0.000000

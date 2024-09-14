@@ -11,13 +11,16 @@ propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	AI AXMC .338 LM 10-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AI AXMC pistol grip/|
 	AI AXMC GTAC AR-type pistol grip adapter
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	AI AXMC .338 LM bolt assembly
 ]
+ChildParts_required=TRUE
 Recoil=468.000000
 RecoilHorizontal=972.000000
 Ergonomics=21.000000

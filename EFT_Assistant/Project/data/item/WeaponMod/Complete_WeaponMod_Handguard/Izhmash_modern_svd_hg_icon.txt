@@ -12,14 +12,17 @@ ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK 0.93 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK 0.93 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK 0.93 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Holosun LS321 Tactical device/|
 	L3Harris AN/PEQ-15 tactical device/|
@@ -30,6 +33,7 @@ ChildParts=[
 	Zenit Perst-3 tactical device/|
 	MAWL-C1+ tactical device
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	BelOMO PK-06 reflex sight/|
 	Aimpoint Micro Standard Mount/|
@@ -42,6 +46,7 @@ ChildParts=[
 	Trijicon RMR high profile mount/|
 	Trijicon RMR low profile mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Magpul M-LOK AFG tactical foregrip (Black)/|
 	Magpul M-LOK AFG tactical foregrip (FDE)/|
@@ -53,9 +58,11 @@ ChildParts=[
 	BCM GUNFIGHTER MOD 3 M-LOK foregrip (Black)/|
 	BCM GUNFIGHTER MOD 3 M-LOK foregrip (FDE)
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	SVD modernization kit top rail
 ]
+ChildParts_required=FALSE
 Recoil=-4.000000
 Ergonomics=7.000000
 accuracyModifier=0.000000

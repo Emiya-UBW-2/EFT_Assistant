@@ -14,36 +14,42 @@ ChildParts=[
 	.357 Magnum JHP/|
 	.357 Magnum SP
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	.357 Magnum FMJ/|
 	.357 Magnum HP/|
 	.357 Magnum JHP/|
 	.357 Magnum SP
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	.357 Magnum FMJ/|
 	.357 Magnum HP/|
 	.357 Magnum JHP/|
 	.357 Magnum SP
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	.357 Magnum FMJ/|
 	.357 Magnum HP/|
 	.357 Magnum JHP/|
 	.357 Magnum SP
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	.357 Magnum FMJ/|
 	.357 Magnum HP/|
 	.357 Magnum JHP/|
 	.357 Magnum SP
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	.357 Magnum FMJ/|
 	.357 Magnum HP/|
 	.357 Magnum JHP/|
 	.357 Magnum SP
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=-2.000000
 capacity=6

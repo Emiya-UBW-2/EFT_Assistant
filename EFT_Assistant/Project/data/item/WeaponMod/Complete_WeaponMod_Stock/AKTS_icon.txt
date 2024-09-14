@@ -38,6 +38,7 @@ ChildParts=[
 	AR-15 Daniel Defense Enhanced Collapsible Buttstock (FDE)/|
 	AR-15 Magpul MOE SL-K buttstock (Coyote Tan)
 ]
+ChildParts_required=FALSE
 Recoil=-2.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000

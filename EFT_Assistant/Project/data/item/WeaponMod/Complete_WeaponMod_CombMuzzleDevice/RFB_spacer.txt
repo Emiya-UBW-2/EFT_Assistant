@@ -34,6 +34,7 @@ ChildParts=[
 	SIG Sauer SRD762Ti 7.62x51 sound suppressor/|
 	AR-10 Delta-Tek DTK-AR10 7.62x51 muzzle brake
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000

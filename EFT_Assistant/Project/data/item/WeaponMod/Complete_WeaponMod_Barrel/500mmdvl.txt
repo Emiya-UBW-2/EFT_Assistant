@@ -11,9 +11,11 @@ propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	DVL-10 7.62x51 muzzle device
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Harris HBR Bipod
 ]
+ChildParts_required=FALSE
 Recoil=-4.000000
 Ergonomics=-10.000000
 centerOfImpact=0.022000

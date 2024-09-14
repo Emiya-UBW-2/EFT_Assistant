@@ -19,6 +19,7 @@ ChildParts=[
 	M700 7.62x51 Wyatt's Outdoor 10-round magazine/|
 	M700 7.62x51 Wyatt's Outdoor 5-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	M700 AB Arms MOD*X GEN 3 chassis/|
 	M700 AI AT AICS polymer chassis/|
@@ -26,18 +27,21 @@ ChildParts=[
 	M700 Magpul Pro 700 chassis/|
 	M700 ProMag Archangel chassis
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	M700 7.62x51 20 inch stainless steel threaded barrel/|
 	M700 7.62x51 26 inch barrel/|
 	M700 7.62x51 20 inch threaded barrel/|
 	M700 7.62x51 26 inch stainless steel barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	M700 AB Arms MOD*X rail mount/|
 	M700 30mm integral ring scope mount/|
 	M700 extended multi-slot Weaver rail base/|
 	M700 Badger Ordnance Scope Rail
 ]
+ChildParts_required=FALSE
 Recoil=199.000000
 RecoilHorizontal=670.000000
 Ergonomics=33.000000

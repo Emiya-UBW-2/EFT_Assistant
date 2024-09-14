@@ -14,22 +14,28 @@ ChildParts=[
 	MP9 9x19 25-round magazine/|
 	MP9 9x19 30-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	MP9 9x19 sound suppressor mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	MP9 stock
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	MP9-N 9x19 upper receiver/|
 	MP9 9x19 upper receiver
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	MP9 charging handle
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	MP9 bottom rail
 ]
+ChildParts_required=FALSE
 Recoil=54.000000
 RecoilHorizontal=254.000000
 Ergonomics=75.000000

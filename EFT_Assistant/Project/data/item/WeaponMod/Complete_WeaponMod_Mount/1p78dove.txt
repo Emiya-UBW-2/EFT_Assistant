@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	NPZ 1P78-1 2.8x scope
 ]
+ChildParts_required=FALSE
 Conflict=[
 	BelOMO PK-AA dovetail reflex sight/|
 	BelOMO PSO-1 4x24 scope/|

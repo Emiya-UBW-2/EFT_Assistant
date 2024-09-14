@@ -11,16 +11,20 @@ propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	Desert Eagle L5 .357 127mm barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Desert Eagle Hogue Rubber Grip/|
 	Desert Eagle Hogue Rubber Grip with finger grooves
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Desert Eagle L5 .357 pistol slide
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Desert Eagle .357 9-round magazine
 ]
+ChildParts_required=FALSE
 Recoil=455.000000
 RecoilHorizontal=320.000000
 Ergonomics=68.000000

@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	SV-98 CNC Guns OV-SV98 KeyMod handguard
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AK Aeroknox Scorpius pistol grip/|
 	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip/|
@@ -38,9 +39,11 @@ ChildParts=[
 	AK CG101 AR-type pistol grip adapter/|
 	AK PUFGUN SG-M2 pistol grip
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	CNC Guns OV-SV98 M12B stock
 ]
+ChildParts_required=FALSE
 Recoil=-4.000000
 Ergonomics=10.000000
 accuracyModifier=0.000000

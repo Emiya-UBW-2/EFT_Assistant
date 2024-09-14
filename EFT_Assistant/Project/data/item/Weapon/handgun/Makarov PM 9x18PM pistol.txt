@@ -12,9 +12,11 @@ ChildParts=[
 	PM 9x18PM 84-round makeshift drum magazine/|
 	PM 9x18PM 90-93 8-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	PM pistol slide
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	PM bakelite grip/|
 	PM FAB Defense PM-G pistol grip/|
@@ -22,6 +24,7 @@ ChildParts=[
 	PM FAB Defense PM-G pistol grip (Olive Drab)/|
 	PM PM-Laser grip with laser sight
 ]
+ChildParts_required=TRUE
 Recoil=380.000000
 RecoilHorizontal=265.000000
 Ergonomics=85.000000

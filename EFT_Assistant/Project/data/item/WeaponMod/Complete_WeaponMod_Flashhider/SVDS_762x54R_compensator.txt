@@ -11,9 +11,11 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	SVDS front sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	SVDS Rotor 43 thread adapter
 ]
+ChildParts_required=FALSE
 Recoil=-5.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000

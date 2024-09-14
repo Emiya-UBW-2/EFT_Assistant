@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AI AXMC AX buttstock
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AR-15 Colt A2 pistol grip/|
 	AR-15 Damage Industries ECS pistol grip (FDE)/|
@@ -29,9 +30,11 @@ ChildParts=[
 	AR-15 Tactical Dynamics Skeletonized pistol grip/|
 	AR-15 Aeroknox Orion pistol grip
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	AI AXMC .338 LM chassis
 ]
+ChildParts_required=TRUE
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000

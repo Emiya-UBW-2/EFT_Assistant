@@ -12,6 +12,7 @@ ChildParts=[
 	FN P90 Damage Industries buttpad/|
 	FN P90 buttpad
 ]
+ChildParts_required=TRUE
 Recoil=-6.000000
 Ergonomics=26.000000
 accuracyModifier=0.000000

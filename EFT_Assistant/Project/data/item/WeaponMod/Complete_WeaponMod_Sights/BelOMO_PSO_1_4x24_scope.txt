@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesScope
 ChildParts=[
 	PSO scope eyecup
 ]
+ChildParts_required=FALSE
 Conflict=[
 	SOK-12 Leapers UTG PRO MTU002 Long Top aluminum handguard/|
 	SOK-12 Leapers UTG PRO MTU002 Short Top aluminum handguard/|

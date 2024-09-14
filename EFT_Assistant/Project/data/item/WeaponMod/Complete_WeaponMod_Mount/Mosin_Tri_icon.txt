@@ -74,6 +74,7 @@ ChildParts=[
 	Wilcox BOSS Xe reflex sight/|
 	SIG ALPHA4 30mm ring scope mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
@@ -98,6 +99,7 @@ ChildParts=[
 	MAWL-C1+ tactical device/|
 	Zenit KR-2 old gen mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
@@ -122,6 +124,7 @@ ChildParts=[
 	MAWL-C1+ tactical device/|
 	Zenit KR-2 old gen mount
 ]
+ChildParts_required=FALSE
 Conflict=[
 	Mosin Rifle Arbalet Patriot K+W rail mount/|
 	PU 3.5x ring scope mount

@@ -13,9 +13,11 @@ ChildParts=[
 	UZI PRO 9x19 25-round magazine/|
 	UZI PRO 9x19 32-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	UZI PRO 9x19 barrel retaining nut
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	UZI PRO Stabilizing Brace/|
 	UZI PRO A3 Tactical Rear Stock Adapter/|
@@ -23,17 +25,21 @@ ChildParts=[
 	UZI PRO backplate/|
 	UZI PRO CSM stock adapter
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	UZI PRO dust cover
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	UZI PRO 9x19 170mm barrel/|
 	UZI PRO 9x19 210mm barrel/|
 	UZI PRO 9x19 240mm barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	UZI PRO SMG rail adapter
 ]
+ChildParts_required=FALSE
 Recoil=56.000000
 RecoilHorizontal=198.000000
 Ergonomics=78.000000

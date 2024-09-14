@@ -74,6 +74,7 @@ ChildParts=[
 	Wilcox BOSS Xe reflex sight/|
 	SIG ALPHA4 30mm ring scope mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
@@ -98,6 +99,7 @@ ChildParts=[
 	MAWL-C1+ tactical device/|
 	Zenit KR-2 old gen mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
@@ -122,9 +124,11 @@ ChildParts=[
 	MAWL-C1+ tactical device/|
 	Zenit KR-2 old gen mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	MP-155 Ultima underbarrel mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	HK MP7 flip-up front sight/|
 	KAC Folding Micro front sight/|
@@ -135,6 +139,7 @@ ChildParts=[
 	MCX flip-up front sight/|
 	MPX flip-up front sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	FN SCAR flip-up rear sight/|
 	HK 416A5 flip-up rear sight/|
@@ -147,6 +152,7 @@ ChildParts=[
 	MCX flip-up rear sight/|
 	MPX flip-up rear sight
 ]
+ChildParts_required=FALSE
 Recoil=-2.000000
 Ergonomics=-2.000000
 accuracyModifier=0.000000

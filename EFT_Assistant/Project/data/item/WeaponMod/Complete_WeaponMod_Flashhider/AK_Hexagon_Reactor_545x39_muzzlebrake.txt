@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AK-74 Hexagon Wafflemaker 5.45x39 sound suppressor
 ]
+ChildParts_required=FALSE
 Recoil=-12.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000

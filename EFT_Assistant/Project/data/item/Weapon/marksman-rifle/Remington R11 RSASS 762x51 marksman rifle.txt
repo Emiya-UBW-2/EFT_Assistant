@@ -37,6 +37,7 @@ ChildParts=[
 	AR-15 Aeroknox Orion pistol grip/|
 	AR-15 SIG M400 Reduced Angle Pistol Grip (Coyote Tan)
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	AR-10 7.62x51 KAC 10-round steel magazine/|
 	AR-10 7.62x51 KAC 20-round steel magazine/|
@@ -44,6 +45,7 @@ ChildParts=[
 	AR-10 7.62x51 Lancer L7AWM 20-round magazine/|
 	AR-10 7.62x51 Lancer L7AWM 25-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AR-15 Colt A2 buffer tube/|
 	AR-15 ADAR 2-15 buffer tube/|
@@ -57,6 +59,7 @@ ChildParts=[
 	AR-15 Strike Industries Advanced Receiver Extension buffer tube (Anodized Red)/|
 	AR-15 RTM ATP buffer tube
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	AR-10 CMMG MK3 RML15 15 inch M-LOK handguard/|
 	AR-10 CMMG MK3 RML9 9 inch M-LOK handguard/|
@@ -66,10 +69,12 @@ ChildParts=[
 	AR-10 Noveske SWS N6 Split handguard/|
 	R11 RSASS handguard
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	AR-10 7.62x51 18 inch barrel/|
 	AR-10 7.62x51 22 inch barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
 	ELCAN SpecterDR 1x/4x scope (FDE)/|
@@ -138,6 +143,7 @@ ChildParts=[
 	Wilcox BOSS Xe reflex sight/|
 	SIG ALPHA4 30mm ring scope mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	HK MP7 flip-up rear sight/|
 	KAC Folding Micro rear sight/|
@@ -148,6 +154,7 @@ ChildParts=[
 	MCX flip-up rear sight/|
 	MPX flip-up rear sight
 ]
+ChildParts_required=FALSE
 Recoil=153.000000
 RecoilHorizontal=342.000000
 Ergonomics=50.000000

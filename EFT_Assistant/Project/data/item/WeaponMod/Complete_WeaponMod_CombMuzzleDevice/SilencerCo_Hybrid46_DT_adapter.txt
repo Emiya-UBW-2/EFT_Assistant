@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	SilencerCo Hybrid 46 multi-caliber sound suppressor
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000

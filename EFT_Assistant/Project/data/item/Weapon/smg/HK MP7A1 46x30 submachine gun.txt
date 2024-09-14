@@ -13,9 +13,11 @@ ChildParts=[
 	HK MP7 4.6x30 30-round magazine/|
 	HK MP7 4.6x30 40-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	HK MP7A1 4.6x30 flash hider
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	HK MP7 flip-up front sight/|
 	KAC Folding Micro front sight/|
@@ -26,6 +28,7 @@ ChildParts=[
 	MCX flip-up front sight/|
 	MPX flip-up front sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	HK MP7 flip-up rear sight/|
 	KAC Folding Micro rear sight/|
@@ -36,6 +39,7 @@ ChildParts=[
 	MCX flip-up rear sight/|
 	MPX flip-up rear sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
 	ELCAN SpecterDR 1x/4x scope (FDE)/|
@@ -88,6 +92,7 @@ ChildParts=[
 	GBRS Aimpoint Hydra Mount Kit (FDE)/|
 	Wilcox BOSS Xe reflex sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Holosun LS321 Tactical device/|
 	L3Harris AN/PEQ-15 tactical device/|
@@ -96,6 +101,7 @@ ChildParts=[
 	Zenit Perst-3 tactical device/|
 	MAWL-C1+ tactical device
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
@@ -118,6 +124,7 @@ ChildParts=[
 	MAWL-C1+ tactical device/|
 	Zenit KR-2 old gen mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
@@ -141,10 +148,12 @@ ChildParts=[
 	MAWL-C1+ tactical device/|
 	Zenit KR-2 old gen mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	HK MP7A1 stock/|
 	HK MP7A2 stock
 ]
+ChildParts_required=TRUE
 Recoil=50.000000
 RecoilHorizontal=178.000000
 Ergonomics=65.000000

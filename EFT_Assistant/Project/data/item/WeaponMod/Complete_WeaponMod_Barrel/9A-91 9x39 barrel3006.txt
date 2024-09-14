@@ -12,10 +12,12 @@ ChildParts=[
 	9A-91 9x39 sound suppressor/|
 	9A-91 handguard retainer
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	9A-91 handguard/|
 	VSK-94 handguard
 ]
+ChildParts_required=TRUE
 Recoil=-2.000000
 Ergonomics=0.000000
 centerOfImpact=0.127000

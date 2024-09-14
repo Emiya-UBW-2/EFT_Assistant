@@ -12,6 +12,7 @@ ChildParts=[
 	SilencerCo Omega 45k Piston Mount adapter/|
 	HK USP Tactical thread protector
 ]
+ChildParts_required=FALSE
 Recoil=-2.000000
 Ergonomics=-3.000000
 centerOfImpact=0.270000

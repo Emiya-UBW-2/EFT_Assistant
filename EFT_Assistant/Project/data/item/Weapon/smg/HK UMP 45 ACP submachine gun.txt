@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	HK UMP .45 ACP 25-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
 	ELCAN SpecterDR 1x/4x scope (FDE)/|
@@ -63,22 +64,28 @@ ChildParts=[
 	GBRS Aimpoint Hydra Mount Kit (FDE)/|
 	Wilcox BOSS Xe reflex sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	HK UMP polymer stock
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	HK UMP .45 ACP 8 inch barrel/|
 	HK UMP .45 ACP 8 inch threaded barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	HK UMP bottom handguard rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	HK UMP side handguard rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	HK UMP side handguard rail
 ]
+ChildParts_required=FALSE
 Recoil=72.000000
 RecoilHorizontal=240.000000
 Ergonomics=62.000000

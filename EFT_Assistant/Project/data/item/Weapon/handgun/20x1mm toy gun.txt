@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	Toy gun 20x1mm 20-round magazine
 ]
+ChildParts_required=TRUE
 Recoil=380.000000
 RecoilHorizontal=265.000000
 Ergonomics=100.000000

@@ -27,6 +27,7 @@ ChildParts=[
 	12/70 SuperFormance HP slug/|
 	12/70 Piranha
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	12/70 7mm buckshot/|
 	12/70 5.25mm buckshot/|
@@ -46,6 +47,7 @@ ChildParts=[
 	12/70 SuperFormance HP slug/|
 	12/70 Piranha
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	12/70 7mm buckshot/|
 	12/70 5.25mm buckshot/|
@@ -65,6 +67,7 @@ ChildParts=[
 	12/70 SuperFormance HP slug/|
 	12/70 Piranha
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	12/70 7mm buckshot/|
 	12/70 5.25mm buckshot/|
@@ -84,6 +87,7 @@ ChildParts=[
 	12/70 SuperFormance HP slug/|
 	12/70 Piranha
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	12/70 7mm buckshot/|
 	12/70 5.25mm buckshot/|
@@ -103,6 +107,7 @@ ChildParts=[
 	12/70 SuperFormance HP slug/|
 	12/70 Piranha
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=-2.000000
 capacity=5

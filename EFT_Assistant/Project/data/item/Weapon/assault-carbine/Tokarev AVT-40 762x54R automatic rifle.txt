@@ -11,16 +11,20 @@ propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	AVT-40 wooden stock 
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	SVT-40 7.62x54R 625mm barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	AVT-40 7.62x54R 15-round magazine/|
 	SVT-40 7.62x54R 10-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	SVT dust cover 
 ]
+ChildParts_required=TRUE
 Recoil=175.000000
 RecoilHorizontal=675.000000
 Ergonomics=20.000000

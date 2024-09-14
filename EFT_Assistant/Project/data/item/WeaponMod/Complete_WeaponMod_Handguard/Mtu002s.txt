@@ -40,6 +40,7 @@ ChildParts=[
 	ELCAN Specter HCO holographic sight/|
 	Wilcox BOSS Xe reflex sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	BCM GUNFIGHTER MOD 3 vertical foregrip/|
 	ASh-12 vertical foregrip/|
@@ -78,6 +79,7 @@ ChildParts=[
 	TangoDown Stubby BGV-QDK foregrip (Black)/|
 	TangoDown Stubby BGV-QDK foregrip (FDE)
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Holosun LS321 Tactical device/|
 	L3Harris AN/PEQ-15 tactical device/|
@@ -87,6 +89,7 @@ ChildParts=[
 	Zenit Perst-3 tactical device/|
 	MAWL-C1+ tactical device
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
@@ -110,6 +113,7 @@ ChildParts=[
 	MAWL-C1+ tactical device/|
 	Zenit KR-2 old gen mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
@@ -134,6 +138,7 @@ ChildParts=[
 	MAWL-C1+ tactical device/|
 	Zenit KR-2 old gen mount
 ]
+ChildParts_required=FALSE
 Conflict=[
 	Zenit B-13 "Klassika" dovetail rail platform
 ]

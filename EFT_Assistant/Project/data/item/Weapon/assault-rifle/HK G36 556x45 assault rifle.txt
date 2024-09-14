@@ -27,30 +27,36 @@ ChildParts=[
 	5.56x45 SureFire MAG5-60 STANAG 60-round magazine/|
 	5.56x45 TROY BattleMag STANAG 30-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	HK G36 polymer stock/|
 	HK G36 KV adjustable stock
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	HK G36 5.56x45 228mm barrel/|
 	HK G36 5.56x45 318mm barrel/|
 	HK G36 5.56x45 480mm barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	HK G36 2-vent handguard/|
 	HK G36 6-vent handguard/|
 	HK G36 4-vent handguard
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	HK G36 STANAG magwell/|
 	HK G36 magwell
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	HK G36 Hensoldt HKV 3x carry handle/|
 	HK G36 Hensoldt HKV ZF 1.5x carry handle/|
 	HK G36 optic rail with flip-up sights/|
 	HK G36 sight mount
 ]
+ChildParts_required=FALSE
 Recoil=101.000000
 RecoilHorizontal=284.000000
 Ergonomics=60.000000

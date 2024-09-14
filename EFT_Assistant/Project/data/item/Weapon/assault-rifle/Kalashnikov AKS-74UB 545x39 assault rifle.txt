@@ -35,16 +35,19 @@ ChildParts=[
 	AK CG101 AR-type pistol grip adapter/|
 	AK PUFGUN SG-M2 pistol grip
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	AKS-74/AKS-74U Zenit PT Lock/|
 	AKS-74 metal skeletonized stock (6P21 Sb.5)/|
 	AKS-74U metal skeleton stock (6P26 Sb.5)/|
 	AK skeletonized stock (Customized)
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AK CSS knurled charging handle/|
 	AK Zenit RP-1 charging handle
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AK-74 5.45x39 6L18 45-round magazine/|
 	AK-74 5.45x39 6L20 30-round magazine/|
@@ -59,6 +62,7 @@ ChildParts=[
 	AK-12 5.45x39 early model 30-round magazine/|
 	AK-74 Delta-Tek Saiga 545 5.45x39 20-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AK-105 5.45x39 muzzle brake-compensator (6P44 0-20)/|
 	AK-74M 5.45x39 muzzle brake-compensator (6P20 0-20)/|
@@ -74,11 +78,13 @@ ChildParts=[
 	AKS-74U PBS-4 5.45x39 sound suppressor/|
 	AK CNC Warrior 5.56x45 muzzle device adapter
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AKS-74U dust cover (6P26 Sb.7)/|
 	AKS-74UB dust cover/|
 	AKS-74U Legal Arsenal Piligrim railed dust cover
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
 	BelOMO PK-AA dovetail reflex sight/|
@@ -100,9 +106,11 @@ ChildParts=[
 	Axion Kobra EKP-1S-03 reflex sight (Dovetail)/|
 	RS Regulate AK-303M Full Length Lower dovetail mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AKS-74U gas tube (6P26 Sb.1-2)
 ]
+ChildParts_required=TRUE
 Recoil=129.000000
 RecoilHorizontal=365.000000
 Ergonomics=44.000000

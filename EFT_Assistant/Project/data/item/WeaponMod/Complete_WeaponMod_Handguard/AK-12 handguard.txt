@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	RPK-16 handguard rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	EOTech EXPS3 holographic sight (Tan)/|
 	EOTech XPS3-0 holographic sight/|
@@ -48,6 +49,7 @@ ChildParts=[
 	SIG Sauer ROMEO7 1x30 reflex sight (Prototype)/|
 	Wilcox BOSS Xe reflex sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	BCM GUNFIGHTER MOD 3 vertical foregrip/|
 	ASh-12 vertical foregrip/|
@@ -86,6 +88,7 @@ ChildParts=[
 	TangoDown Stubby BGV-QDK foregrip (Black)/|
 	TangoDown Stubby BGV-QDK foregrip (FDE)
 ]
+ChildParts_required=FALSE
 Recoil=-1.000000
 Ergonomics=8.000000
 accuracyModifier=0.000000

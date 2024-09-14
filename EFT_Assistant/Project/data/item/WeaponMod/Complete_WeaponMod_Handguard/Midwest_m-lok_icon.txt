@@ -14,18 +14,21 @@ ChildParts=[
 	Magpul M-LOK Offset Light Mount/|
 	Magpul M-LOK 0.93 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount/|
 	Magpul M-LOK Offset Light Mount/|
 	Magpul M-LOK 0.93 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount/|
 	Magpul M-LOK Offset Light Mount/|
 	Magpul M-LOK 0.93 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Holosun LS321 Tactical device/|
 	L3Harris AN/PEQ-15 tactical device/|
@@ -36,9 +39,11 @@ ChildParts=[
 	Zenit Perst-3 tactical device/|
 	MAWL-C1+ tactical device
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	NcSTAR MPR45 Backup mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Magpul M-LOK AFG tactical foregrip (Black)/|
 	Magpul M-LOK AFG tactical foregrip (FDE)/|
@@ -50,6 +55,7 @@ ChildParts=[
 	BCM GUNFIGHTER MOD 3 M-LOK foregrip (Black)/|
 	BCM GUNFIGHTER MOD 3 M-LOK foregrip (FDE)
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	HK MP7 flip-up front sight/|
 	KAC Folding Micro front sight/|
@@ -61,6 +67,7 @@ ChildParts=[
 	MPX flip-up front sight/|
 	AR-15 Leapers UTG Low Profile A2 front sight
 ]
+ChildParts_required=FALSE
 Conflict=[
 	HK 416A5 5.56x45 10.6 inch barrel/|
 	HK 416A5 5.56x45 11 inch barrel/|

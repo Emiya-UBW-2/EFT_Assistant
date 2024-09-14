@@ -11,14 +11,17 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Vltor CASV 5 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Vltor CASV 2 inch rail/|
 	Vltor CASV 4 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Vltor CASV 2 inch rail/|
 	Vltor CASV 4 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	BelOMO PK-06 reflex sight/|
 	Holosun LS321 Tactical device/|
@@ -40,6 +43,7 @@ ChildParts=[
 	Trijicon RMR low profile mount/|
 	MAWL-C1+ tactical device
 ]
+ChildParts_required=FALSE
 Recoil=-2.000000
 Ergonomics=14.000000
 accuracyModifier=0.000000

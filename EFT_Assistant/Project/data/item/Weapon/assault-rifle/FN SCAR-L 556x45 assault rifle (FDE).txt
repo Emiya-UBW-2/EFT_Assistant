@@ -38,6 +38,7 @@ ChildParts=[
 	AR-15 Aeroknox Orion pistol grip/|
 	AR-15 SIG M400 Reduced Angle Pistol Grip (Coyote Tan)
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	5.56x45 Colt AR-15 STANAG 30-round magazine/|
 	FN SCAR-L 5.56x45 30-round magazine/|
@@ -58,17 +59,21 @@ ChildParts=[
 	5.56x45 SureFire MAG5-60 STANAG 60-round magazine/|
 	5.56x45 TROY BattleMag STANAG 30-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	FN SCAR-L 5.56x45 upper receiver/|
 	FN SCAR-L 5.56x45 upper receiver (FDE)
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	FN SCAR folding polymer stock/|
 	FN SCAR folding polymer stock (FDE)
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	FN SCAR charging handle
 ]
+ChildParts_required=TRUE
 Recoil=100.000000
 RecoilHorizontal=312.000000
 Ergonomics=45.000000

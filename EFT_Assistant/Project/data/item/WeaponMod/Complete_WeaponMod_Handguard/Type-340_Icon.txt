@@ -11,12 +11,15 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Custom Guns handguard rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Custom Guns handguard rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Custom Guns handguard rail
 ]
+ChildParts_required=FALSE
 Recoil=-2.000000
 Ergonomics=10.000000
 accuracyModifier=0.000000

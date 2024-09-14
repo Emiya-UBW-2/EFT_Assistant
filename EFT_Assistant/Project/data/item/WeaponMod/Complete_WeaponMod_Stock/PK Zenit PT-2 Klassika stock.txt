@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AK GP-25 accessory kit recoil pad
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AK bakelite pistol grip (6P1 Sb.8V)/|
 	AKM bakelite pistol grip/|
@@ -18,6 +19,7 @@ ChildParts=[
 	AK polymer pistol grip (6P1 Sb.8)/|
 	AK bakelite pistol grip (6P4 Sb.9)
 ]
+ChildParts_required=FALSE
 Recoil=-21.000000
 Ergonomics=-3.000000
 accuracyModifier=0.000000

@@ -34,6 +34,7 @@ ChildParts=[
 	ELCAN Specter HCO holographic sight/|
 	Wilcox BOSS Xe reflex sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Holosun LS321 Tactical device/|
 	L3Harris AN/PEQ-15 tactical device/|
@@ -42,6 +43,7 @@ ChildParts=[
 	Zenit Perst-3 tactical device/|
 	MAWL-C1+ tactical device
 ]
+ChildParts_required=FALSE
 Recoil=-1.000000
 Ergonomics=6.000000
 accuracyModifier=0.000000

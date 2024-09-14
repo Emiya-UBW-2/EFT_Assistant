@@ -13,6 +13,7 @@ ChildParts=[
 	SA-58 pistol grip/|
 	SA-58 SAW-style pistol grip (Black)
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	SA-58/FAL 7.62x51 10-round magazine/|
 	SA-58/FAL 7.62x51 20-round magazine/|
@@ -21,6 +22,7 @@ ChildParts=[
 	SA-58/FAL/SLR 7.62x51 30-round magazine/|
 	SA-58/FAL 7.62x51 X Products X-FAL 50-round drum magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	SA-58/FAL AIM Sports Universal KeyMod handguard/|
 	SA-58/FAL AIM Sports Universal M-LOK handguard/|
@@ -31,18 +33,22 @@ ChildParts=[
 	SA-58 quad rail full length handguard/|
 	SA-58 quad rail handguard
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	SA-58 7.62x51 11 inch barrel/|
 	SA-58 7.62x51 16 inch barrel/|
 	SA-58 7.62x51 21 inch barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	SA-58 Holland Type rear sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	FAL standard dust cover/|
 	SA-58 Extreme Duty dust cover
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	SA-58/FAL Magpul PRS 2 polymer stock/|
 	SA-58 humpback polymer stock/|
@@ -51,6 +57,7 @@ ChildParts=[
 	SA-58 folding stock/|
 	SA-58 SPR stock
 ]
+ChildParts_required=FALSE
 Recoil=194.000000
 RecoilHorizontal=423.000000
 Ergonomics=39.000000

@@ -35,9 +35,11 @@ ChildParts=[
 	AK CG101 AR-type pistol grip adapter/|
 	AK PUFGUN SG-M2 pistol grip
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	RPK-16 dust cover
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AK-74 5.45x39 6L18 45-round magazine/|
 	AK-74 5.45x39 6L20 30-round magazine/|
@@ -52,21 +54,26 @@ ChildParts=[
 	AK-74 Delta-Tek Saiga 545 5.45x39 20-round magazine/|
 	AK-12 5.45x39 early model 30-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AK CSS knurled charging handle/|
 	AK Zenit RP-1 charging handle
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	RPK-16 buffer tube/|
 	AK-12 buffer tube
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	RPK-16 handguard
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	RPK-16 5.45x39 15 inch barrel/|
 	RPK-16 5.45x39 22 inch barrel
 ]
+ChildParts_required=TRUE
 Recoil=112.000000
 RecoilHorizontal=333.000000
 Ergonomics=45.000000

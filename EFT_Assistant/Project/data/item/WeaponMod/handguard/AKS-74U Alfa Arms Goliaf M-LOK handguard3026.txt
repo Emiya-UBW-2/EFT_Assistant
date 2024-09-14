@@ -19,18 +19,21 @@ ChildParts=[
 	BCM GUNFIGHTER MOD 3 M-LOK foregrip (Black)/|
 	BCM GUNFIGHTER MOD 3 M-LOK foregrip (FDE)
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount/|
 	Magpul M-LOK Offset Light Mount/|
 	Magpul M-LOK 0.93 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount/|
 	Magpul M-LOK Offset Light Mount/|
 	Magpul M-LOK 0.93 inch rail
 ]
+ChildParts_required=FALSE
 Conflict=[
 	AK-105 5.45x39 muzzle brake-compensator (6P44 0-20)/|
 	AK-74M 5.45x39 muzzle brake-compensator (6P20 0-20)/|

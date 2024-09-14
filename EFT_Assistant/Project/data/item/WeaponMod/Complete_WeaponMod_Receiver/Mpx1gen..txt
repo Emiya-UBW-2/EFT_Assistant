@@ -75,6 +75,7 @@ ChildParts=[
 	Wilcox BOSS Xe reflex sight/|
 	SIG ALPHA4 30mm ring scope mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	MPX 9x19 4.5 inch barrel/|
 	MPX 9x19 6.5 inch barrel/|
@@ -83,6 +84,7 @@ ChildParts=[
 	MPX 9x19 10.5 inch barrel/|
 	MPX 9x19 14 inch barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	MPX Lancer OEM 14 inch M-LOK handguard/|
 	MPX Midwest Industries 10.5 inch M-LOK handguard/|
@@ -91,6 +93,7 @@ ChildParts=[
 	MPX Midwest Industries 6.5 inch M-LOK handguard/|
 	MPX GEN1 handguard
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	HK MP7 flip-up rear sight/|
 	KAC Folding Micro rear sight/|
@@ -101,6 +104,7 @@ ChildParts=[
 	MCX flip-up rear sight/|
 	MPX flip-up rear sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Holosun LS321 Tactical device/|
 	L3Harris AN/PEQ-15 tactical device/|
@@ -110,6 +114,7 @@ ChildParts=[
 	Zenit Perst-3 tactical device/|
 	MAWL-C1+ tactical device
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=5.000000
 accuracyModifier=0.000000

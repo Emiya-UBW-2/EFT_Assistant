@@ -11,10 +11,12 @@ propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	SilencerCo Hybrid 46 Direct Thread Mount adapter
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Mosin Rifle carbine rear sight/|
 	Mosin Rifle AIM Sports Tri-Rail mount
 ]
+ChildParts_required=FALSE
 Conflict=[
 	Mosin Rifle ATI Monte Carlo stock/|
 	Mosin Rifle sniper carbine stock/|

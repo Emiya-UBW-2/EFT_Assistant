@@ -16,12 +16,14 @@ ChildParts=[
 	Zenit Perst-3 tactical device/|
 	MAWL-C1+ tactical device
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Aimpoint Micro H-2 reflex sight/|
 	Aimpoint Micro T-1 reflex sight/|
 	SIG Sauer ROMEO4 reflex sight/|
 	Aimpoint Micro Spacer High
 ]
+ChildParts_required=FALSE
 Conflict=[
 	AR-15 rear sight carry handle
 ]

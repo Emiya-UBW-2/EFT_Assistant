@@ -29,6 +29,7 @@ ChildParts=[
 	ELCAN Specter HCO holographic sight/|
 	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope
 ]
+ChildParts_required=FALSE
 Conflict=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
 	OKP-7 reflex sight (Dovetail)/|

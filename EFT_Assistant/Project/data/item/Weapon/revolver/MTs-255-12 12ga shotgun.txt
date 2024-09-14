@@ -11,15 +11,19 @@ propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	MTs-255-12 12ga cylinder
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	MTs-255-12 12ga 755mm barrel with rib
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	MTs-255-12 wooden stock
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	MTs-255-12 beechwood forestock
 ]
+ChildParts_required=TRUE
 Recoil=364.000000
 RecoilHorizontal=486.000000
 Ergonomics=50.000000

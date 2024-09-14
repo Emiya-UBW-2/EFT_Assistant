@@ -12,6 +12,7 @@ ChildParts=[
 	VPO-215 Gornostay thread protector/|
 	Rotor 43 .366 TKM muzzle brake-compensator
 ]
+ChildParts_required=FALSE
 Recoil=-7.000000
 Ergonomics=-8.000000
 centerOfImpact=0.041000

@@ -11,15 +11,19 @@ propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	VPO-215 Gornostay .366 TKM 4-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	VPO-215 Gornostay wooden stock
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	VPO-215 Gornostay .366TKM 600mm barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	VPO-215 Gornostay scope rail mount
 ]
+ChildParts_required=FALSE
 Recoil=200.000000
 RecoilHorizontal=486.000000
 Ergonomics=41.000000

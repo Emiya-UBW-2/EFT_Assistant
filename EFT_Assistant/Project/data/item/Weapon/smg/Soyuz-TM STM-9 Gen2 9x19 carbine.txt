@@ -40,6 +40,7 @@ ChildParts=[
 	AR-15 Aeroknox Orion pistol grip/|
 	AR-15 SIG M400 Reduced Angle Pistol Grip (Coyote Tan)
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Glock 9x19 "Big Stick" 33-round magazine/|
 	Glock 9x19 17-round magazine/|
@@ -49,9 +50,11 @@ ChildParts=[
 	Glock 9x19 "Big Stick" 31-round magazine (Coyote)/|
 	Glock 9x19 19-round magazine (Coyote)
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	STM-9 9x19 upper receiver
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	AR-15 Colt A2 buffer tube/|
 	AR-15 ADAR 2-15 buffer tube/|
@@ -68,6 +71,7 @@ ChildParts=[
 	AR-15 Strike Industries Viper PDW stock/|
 	AR-15 RTM ATP buffer tube
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	AR-15 ADAR 2-15 charging handle/|
 	AR-15 Badger Ordnance Tactical Charging Handle Latch/|
@@ -80,10 +84,12 @@ ChildParts=[
 	AR-15 Rainier Arms Avalanche MOD2 charging handle/|
 	AR-15 Daniel Defense GRIP-N-RIP charging handle
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	STM-9 magwell/|
 	STM-9 magwell (Grey)
 ]
+ChildParts_required=FALSE
 Recoil=45.000000
 RecoilHorizontal=226.000000
 Ergonomics=50.000000

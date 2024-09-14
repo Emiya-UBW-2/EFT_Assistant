@@ -18,9 +18,11 @@ ChildParts=[
 	AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo/|
 	AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo (White)
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	GP-25 Kostyor 40mm underbarrel grenade launcher
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AK-105 5.45x39 muzzle brake-compensator (6P44 0-20)/|
 	AK-74M 5.45x39 muzzle brake-compensator (6P20 0-20)/|
@@ -37,6 +39,7 @@ ChildParts=[
 	AKS-74U PBS-4 5.45x39 sound suppressor/|
 	AK CNC Warrior 5.56x45 muzzle device adapter
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AK Aeroknox Scorpius pistol grip/|
 	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip/|
@@ -64,6 +67,7 @@ ChildParts=[
 	AK CG101 AR-type pistol grip adapter/|
 	AK PUFGUN SG-M2 pistol grip
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	AK-74 dust cover (6P20 0-1)/|
 	AK-74M dust cover (6P34 0-1)/|
@@ -73,6 +77,7 @@ ChildParts=[
 	AK TWS Dog Leg Rail dust cover/|
 	AK Zenit B-33 dust cover
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AK-105 rear sight (6P44 Sb.1-30)/|
 	AK-74 rear sight (6P20 Sb.2)/|
@@ -82,6 +87,7 @@ ChildParts=[
 	RPK-16 rear sight/|
 	AK-12 rear sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AK-74M polymer stock (6P34 Sb.15)/|
 	AK-74M CAA AKTS AK74 buffer tube/|
@@ -90,6 +96,7 @@ ChildParts=[
 	AK 100-series metal skeletonized stock/|
 	AK-12 buffer tube
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AK-74 5.45x39 6L18 45-round magazine/|
 	AK-74 5.45x39 6L20 30-round magazine/|
@@ -104,6 +111,7 @@ ChildParts=[
 	AK-12 5.45x39 early model 30-round magazine/|
 	AK-74 Delta-Tek Saiga 545 5.45x39 20-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
 	BelOMO PK-AA dovetail reflex sight/|
@@ -125,10 +133,12 @@ ChildParts=[
 	Axion Kobra EKP-1S-03 reflex sight (Dovetail)/|
 	RS Regulate AK-303M Full Length Lower dovetail mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AK CSS knurled charging handle/|
 	AK Zenit RP-1 charging handle
 ]
+ChildParts_required=FALSE
 Recoil=118.000000
 RecoilHorizontal=318.000000
 Ergonomics=33.000000

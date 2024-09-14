@@ -14,6 +14,7 @@ ChildParts=[
 	SIG Sauer ROMEO4 reflex sight/|
 	Aimpoint Micro Spacer High
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000

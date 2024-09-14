@@ -16,6 +16,7 @@ ChildParts=[
 	AK-12 rear sight/|
 	AK RD Enhanced V2 Rear Sight
 ]
+ChildParts_required=FALSE
 Conflict=[
 	Nightforce Magmount 30mm ring scope mount
 ]

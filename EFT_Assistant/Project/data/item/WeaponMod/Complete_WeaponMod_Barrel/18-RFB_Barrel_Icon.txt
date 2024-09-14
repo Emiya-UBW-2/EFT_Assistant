@@ -12,6 +12,7 @@ ChildParts=[
 	RFB thread protection cap/|
 	RFB thread spacer
 ]
+ChildParts_required=FALSE
 Recoil=-6.000000
 Ergonomics=-11.000000
 centerOfImpact=0.043000

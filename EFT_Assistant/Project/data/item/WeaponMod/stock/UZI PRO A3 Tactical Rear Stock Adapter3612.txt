@@ -17,6 +17,7 @@ ChildParts=[
 	MPX/MCX Stock Locking Hinge Assembly/|
 	UZI PRO A3 Tactical Modular Folding Brace
 ]
+ChildParts_required=FALSE
 Conflict=[
 	AR-15 Colt A2 buffer tube/|
 	Armacon Baskak stock/|

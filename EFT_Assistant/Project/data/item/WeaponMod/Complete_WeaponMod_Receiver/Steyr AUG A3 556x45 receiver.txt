@@ -13,11 +13,13 @@ ChildParts=[
 	Steyr AUG A3 5.56x45 16 inch barrel/|
 	Steyr AUG A1 5.56x45 16 inch barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Steyr AUG A3 M1 high sight mount/|
 	Steyr AUG A3 M1 low sight mount/|
 	Steyr AUG A3 M1 1.5x optic sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
@@ -34,6 +36,7 @@ ChildParts=[
 	Kiba Arms 25mm accessory ring mount/|
 	MAWL-C1+ tactical device
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000

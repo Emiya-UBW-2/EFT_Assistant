@@ -13,10 +13,12 @@ ChildParts=[
 	Remington Tactical Choke 12ga/|
 	SilencerCo Salvo 12 choke adapter
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	VOMZ Pilad TargetRing reflex sight/|
 	ETMI-019 shotgun rail mount
 ]
+ChildParts_required=FALSE
 Recoil=-10.000000
 Ergonomics=-17.000000
 centerOfImpact=0.300000

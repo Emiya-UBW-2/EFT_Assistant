@@ -46,7 +46,7 @@ namespace FPS_n2 {
 		YPos += Ysize + DXDraw::Instance()->GetUIY(5);
 		//
 		if (WindowSystem::SetMsgClickBox(XPos, YPos, XPos + Xsize, YPos + Ysize, Ysize, CanUpdateData() ? Gray25 : Gray50, false, CanUpdateData(), "ƒQ[ƒ€“àî•ñXV")) {
-			DataBase::Instance()->DataUpdate(EnumDataType::ITEMDATA, "data/query/barter_query.txt", "data/item/Maked/Maked/", "items", 60);
+			DataBase::Instance()->DataUpdate(EnumDataType::ITEMDATA, "data/query/barter_query.txt", "data/item/Maked/Maked/", "items", 50);
 			DataBase::Instance()->DataUpdate(EnumDataType::ITEMDATAJP, "data/query/barter_ja_query.txt", "data/item/Maked/Maked/", "items", 120);
 			DataBase::Instance()->DataUpdate(EnumDataType::TASKDATA, "data/query/task_query.txt", "data/task/Maked/", "tasks", 60);
 			DataBase::Instance()->DataUpdate(EnumDataType::HIDEOUTDATA, "data/query/hideout_query.txt", "data/Hideout/Maked/Maked", "hideoutStations", 40);

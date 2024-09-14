@@ -75,6 +75,7 @@ ChildParts=[
 	GBRS Aimpoint Hydra Mount Kit (FDE)/|
 	Wilcox BOSS Xe reflex sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	FN SCAR flip-up rear sight/|
 	HK 416A5 flip-up rear sight/|
@@ -87,6 +88,7 @@ ChildParts=[
 	MCX flip-up rear sight/|
 	MPX flip-up rear sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	HK MP7 flip-up front sight/|
 	KAC Folding Micro front sight/|
@@ -97,6 +99,7 @@ ChildParts=[
 	MCX flip-up front sight/|
 	MPX flip-up front sight
 ]
+ChildParts_required=FALSE
 Conflict=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
 	OKP-7 reflex sight (Dovetail)/|

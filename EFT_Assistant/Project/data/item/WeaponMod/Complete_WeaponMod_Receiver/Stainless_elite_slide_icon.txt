@@ -14,10 +14,12 @@ ChildParts=[
 	P226 Sight Mount 220-239 rear sight bearing/|
 	P226 Trijicon RMR mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	P226 Meprolight TRU-DOT Night front sight/|
 	P226 front sight
 ]
+ChildParts_required=FALSE
 Recoil=-1.000000
 Ergonomics=3.000000
 accuracyModifier=0.000000

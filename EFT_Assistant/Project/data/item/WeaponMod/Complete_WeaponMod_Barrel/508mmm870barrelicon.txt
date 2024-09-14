@@ -13,9 +13,11 @@ ChildParts=[
 	Remington Tactical Choke 12ga/|
 	SilencerCo Salvo 12 choke adapter
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	M870 Mesa Tactical magazine clamp
 ]
+ChildParts_required=FALSE
 Recoil=-6.000000
 Ergonomics=-8.000000
 centerOfImpact=0.550000

@@ -13,6 +13,7 @@ ChildParts=[
 	SilencerCo Omega 45k Direct Thread Mount adapter/|
 	KRISS Vector .45 ACP thread protection cap
 ]
+ChildParts_required=FALSE
 Recoil=-5.000000
 Ergonomics=-5.000000
 centerOfImpact=0.158000

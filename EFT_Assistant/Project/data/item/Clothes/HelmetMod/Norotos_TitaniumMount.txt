@@ -13,6 +13,7 @@ ChildParts=[
 	AN/PVS-14 Norotos Dual Dovetail Mount/|
 	PVS-7 Wilcox Adapter
 ]
+ChildParts_required=FALSE
 Conflict=[
 	Team Wendy EXFIL Ballistic face shield (Black)/|
 	Team Wendy EXFIL Ballistic face shield (Coyote Brown)

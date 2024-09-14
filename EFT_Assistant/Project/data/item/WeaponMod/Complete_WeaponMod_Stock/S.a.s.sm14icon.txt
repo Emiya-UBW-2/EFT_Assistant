@@ -46,6 +46,7 @@ ChildParts=[
 	TangoDown Stubby BGV-QDK foregrip (Black)/|
 	TangoDown Stubby BGV-QDK foregrip (FDE)
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
 	ELCAN SpecterDR 1x/4x scope (FDE)/|
@@ -114,6 +115,7 @@ ChildParts=[
 	Wilcox BOSS Xe reflex sight/|
 	SIG ALPHA4 30mm ring scope mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	BelOMO PK-06 reflex sight/|
 	Aimpoint Micro Standard Mount/|
@@ -125,6 +127,7 @@ ChildParts=[
 	Trijicon RMR high profile mount/|
 	Trijicon RMR low profile mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Holosun LS321 Tactical device/|
 	L3Harris AN/PEQ-15 tactical device/|
@@ -134,6 +137,7 @@ ChildParts=[
 	Zenit Perst-3 tactical device/|
 	MAWL-C1+ tactical device
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
@@ -157,6 +161,7 @@ ChildParts=[
 	MAWL-C1+ tactical device/|
 	Zenit KR-2 old gen mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
@@ -181,6 +186,7 @@ ChildParts=[
 	MAWL-C1+ tactical device/|
 	Zenit KR-2 old gen mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
@@ -204,6 +210,7 @@ ChildParts=[
 	Zenit KR-2 old gen mount/|
 	BT10 V8 Atlas Bipod
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AR-15 Colt A2 pistol grip/|
 	AR-15 Damage Industries ECS pistol grip (FDE)/|
@@ -223,6 +230,7 @@ ChildParts=[
 	AR-15 Tactical Dynamics Skeletonized pistol grip/|
 	AR-15 Aeroknox Orion pistol grip
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Armacon Baskak stock/|
 	CMMG buffer tube/|
@@ -242,6 +250,7 @@ ChildParts=[
 	AR-15 Strike Industries Viper PDW stock/|
 	AR-15 RTM ATP buffer tube
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	HK MP7 flip-up front sight/|
 	KAC Folding Micro front sight/|
@@ -252,6 +261,7 @@ ChildParts=[
 	MCX flip-up front sight/|
 	MPX flip-up front sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	FN SCAR flip-up rear sight/|
 	HK 416A5 flip-up rear sight/|
@@ -264,6 +274,7 @@ ChildParts=[
 	MCX flip-up rear sight/|
 	MPX flip-up rear sight
 ]
+ChildParts_required=FALSE
 Conflict=[
 	M14 SA Enlarged Military Aperture rear sight
 ]

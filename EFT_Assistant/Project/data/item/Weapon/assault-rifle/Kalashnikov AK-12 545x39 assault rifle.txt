@@ -11,13 +11,16 @@ propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	AK-12 gas tube
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	GP-25 Kostyor 40mm underbarrel grenade launcher
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AK-12 5.45x39 muzzle brake/|
 	AK-12 5.45x39 sound suppressor
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AK Aeroknox Scorpius pistol grip/|
 	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip/|
@@ -45,9 +48,11 @@ ChildParts=[
 	AK CG101 AR-type pistol grip adapter/|
 	AK PUFGUN SG-M2 pistol grip
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	AK-12 dust cover
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AK-74M polymer stock (6P34 Sb.15)/|
 	AK-74M CAA AKTS AK74 buffer tube/|
@@ -55,6 +60,7 @@ ChildParts=[
 	AK 100-series metal skeletonized stock/|
 	AK-12 buffer tube
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AK-74 5.45x39 6L18 45-round magazine/|
 	AK-74 5.45x39 6L20 30-round magazine/|
@@ -69,13 +75,16 @@ ChildParts=[
 	AK-12 5.45x39 early model 30-round magazine/|
 	AK-74 Delta-Tek Saiga 545 5.45x39 20-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AK CSS knurled charging handle/|
 	AK Zenit RP-1 charging handle
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AK-12 handguard
 ]
+ChildParts_required=TRUE
 Recoil=100.000000
 RecoilHorizontal=302.000000
 Ergonomics=36.000000

@@ -25,6 +25,7 @@ ChildParts=[
 	AR-15 Tactical Dynamics Skeletonized pistol grip/|
 	AR-15 Aeroknox Orion pistol grip
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	HK MP7 flip-up front sight/|
 	KAC Folding Micro front sight/|
@@ -33,6 +34,7 @@ ChildParts=[
 	Magpul MBUS Gen2 flip-up front sight (FDE)/|
 	MPX flip-up front sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	HK 416A5 flip-up rear sight/|
 	HK MP7 flip-up rear sight/|
@@ -42,9 +44,11 @@ ChildParts=[
 	Magpul MBUS Gen2 flip-up rear sight (FDE)/|
 	MPX flip-up rear sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Milkor M2A1 grenade launcher reflex sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Holosun LS321 Tactical device/|
 	L3Harris AN/PEQ-15 tactical device/|
@@ -54,6 +58,7 @@ ChildParts=[
 	Zenit Perst-3 tactical device/|
 	MAWL-C1+ tactical device
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
@@ -75,6 +80,7 @@ ChildParts=[
 	Kiba Arms 25mm accessory ring mount/|
 	MAWL-C1+ tactical device
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
@@ -95,6 +101,7 @@ ChildParts=[
 	Daniel Defense 25mm accessory ring mount/|
 	Kiba Arms 25mm accessory ring mount
 ]
+ChildParts_required=FALSE
 Recoil=230.000000
 RecoilHorizontal=460.000000
 Ergonomics=51.000000

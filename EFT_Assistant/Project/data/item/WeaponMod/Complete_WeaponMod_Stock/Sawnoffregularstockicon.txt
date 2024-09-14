@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Mosin Rifle Tacfire pistol grip
 ]
+ChildParts_required=FALSE
 Conflict=[
 	Mosin Rifle Kochetov mount
 ]

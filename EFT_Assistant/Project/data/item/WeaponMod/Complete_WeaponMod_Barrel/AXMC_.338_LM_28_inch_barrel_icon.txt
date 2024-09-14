@@ -13,6 +13,7 @@ ChildParts=[
 	AWC PSR .338 LM muzzle brake/|
 	SilencerCo AC-858 ASR .338 LM muzzle brake
 ]
+ChildParts_required=FALSE
 Conflict=[
 	7.62x51mm M61/|
 	7.62x51mm M62 Tracer/|

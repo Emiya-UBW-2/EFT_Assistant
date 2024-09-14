@@ -14,23 +14,28 @@ ChildParts=[
 	M14 7.62x51 X Products X-14 50-round drum magazine/|
 	M1A 7.62x51 10-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	M14 SAGE International M14ALCS chassis/|
 	M14 TROY S.A.S.S. Chassis stock/|
 	M1A ProMag Archangel chassis/|
 	M1A SOCOM 16 stock
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	M1A 7.62x51 16 inch barrel/|
 	M1A 7.62x51 22 inch barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	M14 SA Enlarged Military Aperture rear sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	M14 A.R.M.S. #18 scope mount/|
 	M14 Leapers UTG 4-Point Locking Deluxe mount
 ]
+ChildParts_required=FALSE
 Recoil=214.000000
 RecoilHorizontal=405.000000
 Ergonomics=28.000000

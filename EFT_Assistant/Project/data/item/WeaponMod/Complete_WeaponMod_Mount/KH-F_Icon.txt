@@ -13,6 +13,7 @@ ChildParts=[
 	Nightforce ATACR 7-35x56 34mm riflescope/|
 	Schmidt & Bender PM II 3-20x50 34mm riflescope
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000

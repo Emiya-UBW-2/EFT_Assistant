@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AK GP-25 accessory kit recoil pad
 ]
+ChildParts_required=FALSE
 Recoil=-21.000000
 Ergonomics=9.000000
 accuracyModifier=0.000000

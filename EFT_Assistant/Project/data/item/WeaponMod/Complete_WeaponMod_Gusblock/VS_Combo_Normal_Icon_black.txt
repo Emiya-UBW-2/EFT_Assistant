@@ -40,17 +40,12 @@ ChildParts=[
 	ELCAN Specter HCO holographic sight/|
 	Wilcox BOSS Xe reflex sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Vltor CASV KeyMod 2 inch rail/|
 	CNC Guns KeyMod 2 inch rail
 ]
-ChildParts=[
-	Strike Industries KeyMod 4 inch rail/|
-	Vltor CASV KeyMod 2 inch rail/|
-	Vltor CASV KeyMod 4 inch rail/|
-	CNC Guns KeyMod 4 inch rail/|
-	CNC Guns KeyMod 2 inch rail
-]
+ChildParts_required=FALSE
 ChildParts=[
 	Strike Industries KeyMod 4 inch rail/|
 	Vltor CASV KeyMod 2 inch rail/|
@@ -58,10 +53,20 @@ ChildParts=[
 	CNC Guns KeyMod 4 inch rail/|
 	CNC Guns KeyMod 2 inch rail
 ]
+ChildParts_required=FALSE
+ChildParts=[
+	Strike Industries KeyMod 4 inch rail/|
+	Vltor CASV KeyMod 2 inch rail/|
+	Vltor CASV KeyMod 4 inch rail/|
+	CNC Guns KeyMod 4 inch rail/|
+	CNC Guns KeyMod 2 inch rail
+]
+ChildParts_required=FALSE
 ChildParts=[
 	Strike Industries KeyMod 6 inch rail/|
 	Vltor CASV KeyMod 6 inch rail
 ]
+ChildParts_required=FALSE
 Recoil=-4.000000
 Ergonomics=14.000000
 accuracyModifier=0.000000

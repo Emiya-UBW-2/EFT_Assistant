@@ -12,10 +12,12 @@ ChildParts=[
 	PL-15 rear sight/|
 	PL-15 extended rear sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	PL-15 front sight/|
 	PL-15 extended front sight
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=4.000000
 accuracyModifier=0.000000

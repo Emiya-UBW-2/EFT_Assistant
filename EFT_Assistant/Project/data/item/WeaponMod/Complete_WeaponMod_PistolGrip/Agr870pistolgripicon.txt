@@ -12,6 +12,7 @@ ChildParts=[
 	FAB Defense protection cap for AGR-870/|
 	FAB Defense buffer tube for AGR-870
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=9.000000
 accuracyModifier=0.000000

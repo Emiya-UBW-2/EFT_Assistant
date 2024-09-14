@@ -12,6 +12,7 @@ ChildParts=[
 	M1A SA National Match .062 Blade front sight/|
 	M1A SA XS Post .125 Blade front sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AR-10 2A Armanent X3 7.62x51 compensator/|
 	AR-10 Lantac Dragon 7.62x51 muzzle brake-compensator/|
@@ -20,6 +21,7 @@ ChildParts=[
 	Gemtech ONE Direct Thread Mount adapter/|
 	SilencerCo Hybrid 46 Direct Thread Mount adapter
 ]
+ChildParts_required=FALSE
 Recoil=-2.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000

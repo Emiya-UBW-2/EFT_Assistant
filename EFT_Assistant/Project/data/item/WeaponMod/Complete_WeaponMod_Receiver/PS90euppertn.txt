@@ -12,12 +12,15 @@ ChildParts=[
 	FN P90 Ring Sight reflex sight/|
 	FN P90 upper receiver top rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	FN P90 upper receiver side rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	FN P90 upper receiver side rail
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=-5.000000
 accuracyModifier=0.000000

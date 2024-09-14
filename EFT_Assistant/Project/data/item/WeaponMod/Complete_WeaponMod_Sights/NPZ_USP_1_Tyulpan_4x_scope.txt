@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesScope
 ChildParts=[
 	NPZ USP-1 scope eyecup
 ]
+ChildParts_required=FALSE
 Conflict=[
 	BelOMO PSO-1 4x24 scope/|
 	BelOMO PSO-1M2-1 4x24 scope/|

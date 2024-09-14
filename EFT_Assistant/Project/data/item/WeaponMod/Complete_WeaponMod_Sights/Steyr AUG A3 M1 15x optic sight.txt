@@ -17,6 +17,7 @@ ChildParts=[
 	Trijicon RMR low profile mount/|
 	Wilcox RAPTAR ES Tactical Rangefinder
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Insight WMX200 tactical flashlight/|
 	NcSTAR Tactical blue laser LAM-module/|
@@ -33,6 +34,7 @@ ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	MAWL-C1+ tactical device
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=-2.000000
 SightRange=600

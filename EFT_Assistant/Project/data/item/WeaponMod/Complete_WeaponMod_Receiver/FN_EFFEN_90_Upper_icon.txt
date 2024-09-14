@@ -11,9 +11,11 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	FN P90 EFFEN 90 receiver rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	FN P90 EFFEN 90 receiver rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
 	ELCAN SpecterDR 1x/4x scope (FDE)/|
@@ -66,6 +68,7 @@ ChildParts=[
 	GBRS Aimpoint Hydra Mount Kit (FDE)/|
 	Wilcox BOSS Xe reflex sight
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000

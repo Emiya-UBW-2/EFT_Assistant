@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	RPD wooden pistol grip
 ]
+ChildParts_required=TRUE
 Recoil=-22.000000
 Ergonomics=16.000000
 accuracyModifier=0.000000

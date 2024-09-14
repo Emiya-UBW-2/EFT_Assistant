@@ -13,6 +13,7 @@ ChildParts=[
 	Aimpoint CompM4 reflex sight/|
 	Aimpoint Standard Spacer
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000

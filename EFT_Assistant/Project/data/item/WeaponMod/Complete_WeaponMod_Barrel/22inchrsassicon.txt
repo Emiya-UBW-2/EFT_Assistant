@@ -35,11 +35,13 @@ ChildParts=[
 	AR-10 Dead Air Keymount 7.62x51 muzzle brake/|
 	AR-10 Delta-Tek DTK-AR10 7.62x51 muzzle brake
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AR-10 CMMG low profile gas block/|
 	AR-10 JP Enterprises Gas System-6/|
 	AR-10 KAC Low Profile Gas Block
 ]
+ChildParts_required=TRUE
 Recoil=-9.000000
 Ergonomics=-22.000000
 centerOfImpact=0.023000

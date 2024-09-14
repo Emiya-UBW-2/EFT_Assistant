@@ -13,18 +13,22 @@ ChildParts=[
 	Desert Eagle Mk XIX .50 AE 152mm barrel/|
 	Desert Eagle L6 .50 AE 152mm barrel (WTS)
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Desert Eagle Hogue Rubber Grip/|
 	Desert Eagle Hogue Rubber Grip with finger grooves
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Desert Eagle Mk XIX pistol slide/|
 	Desert Eagle L6 pistol slide/|
 	Desert Eagle L6 pistol slide (WTS)
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Desert Eagle .50 AE 7-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	NcSTAR Tactical blue laser LAM-module/|
@@ -38,6 +42,7 @@ ChildParts=[
 	Insight WMX200 tactical flashlight/|
 	Kiba Arms 25mm accessory ring mount
 ]
+ChildParts_required=FALSE
 Recoil=465.000000
 RecoilHorizontal=330.000000
 Ergonomics=64.000000

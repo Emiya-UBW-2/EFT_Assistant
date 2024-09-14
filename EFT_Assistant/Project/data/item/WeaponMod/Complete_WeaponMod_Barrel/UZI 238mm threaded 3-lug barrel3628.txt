@@ -21,9 +21,11 @@ ChildParts=[
 	HK MP5 B&T QD 9x19 muzzle brake/|
 	UZI 9x19 3-lug barrel thread protector
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	UZI 9x19 3-lug barrel retaining nut
 ]
+ChildParts_required=TRUE
 Recoil=-1.000000
 Ergonomics=-3.000000
 centerOfImpact=0.138000

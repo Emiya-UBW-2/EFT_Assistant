@@ -13,11 +13,13 @@ ChildParts=[
 	Vltor CASV KeyMod 2 inch rail/|
 	CNC Guns KeyMod 2 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Strike Industries KeyMod 4 inch rail/|
 	Vltor CASV KeyMod 2 inch rail/|
 	CNC Guns KeyMod 2 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Holosun LS321 Tactical device/|
 	L3Harris AN/PEQ-15 tactical device/|
@@ -27,6 +29,7 @@ ChildParts=[
 	Zenit Perst-3 tactical device/|
 	MAWL-C1+ tactical device
 ]
+ChildParts_required=FALSE
 Conflict=[
 	Kalashnikov AK-102 5.56x45 assault rifle/|
 	Kalashnikov AK-104 7.62x39 assault rifle/|

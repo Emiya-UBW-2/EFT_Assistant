@@ -15,6 +15,7 @@ ChildParts=[
 	Glock ZEV Tech rear sight/|
 	Glock 19X rear sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock Dead Ringer Snake Eye front sight/|
 	Glock front sight/|
@@ -22,13 +23,16 @@ ChildParts=[
 	Glock ZEV Tech front sight/|
 	Glock 19X front sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock ZEV Tech sight mount cap/|
 	Trijicon RMR reflex sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock 9x19 Strike Industries G4 SlideComp compensator
 ]
+ChildParts_required=FALSE
 Recoil=-7.000000
 Ergonomics=10.000000
 accuracyModifier=0.000000

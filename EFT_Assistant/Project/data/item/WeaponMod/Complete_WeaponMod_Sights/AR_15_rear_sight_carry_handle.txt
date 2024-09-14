@@ -14,6 +14,7 @@ ChildParts=[
 	Trijicon ACOG TA01NSN 4x32 scope (Tan)/|
 	Trijicon ACOG TA11D 3.5x35 scope
 ]
+ChildParts_required=FALSE
 Conflict=[
 	ELCAN SpecterDR 1x/4x scope/|
 	ELCAN SpecterDR 1x/4x scope (FDE)/|

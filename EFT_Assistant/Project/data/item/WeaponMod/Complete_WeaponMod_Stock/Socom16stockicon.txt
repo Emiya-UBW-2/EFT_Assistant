@@ -14,6 +14,7 @@ ChildParts=[
 	M14 Vltor CASV-14 rail system/|
 	M1A SOCOM 16 upper part
 ]
+ChildParts_required=FALSE
 Recoil=-25.000000
 Ergonomics=20.000000
 accuracyModifier=0.000000

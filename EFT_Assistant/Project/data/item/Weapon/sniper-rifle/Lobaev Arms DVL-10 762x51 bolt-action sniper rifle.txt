@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	DVL-10 7.62x51 10-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
 	ELCAN SpecterDR 1x/4x scope (FDE)/|
@@ -79,10 +80,12 @@ ChildParts=[
 	Kiba Arms Short Mount sight adapter/|
 	LaRue LT101 QD Tactical Picatinny Riser mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	DVL-10 7.62x51 500mm barrel/|
 	DVL-10 M2 7.62x51 660mm barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	AR-15 Colt A2 pistol grip/|
 	AR-15 Damage Industries ECS pistol grip (FDE)/|
@@ -99,9 +102,11 @@ ChildParts=[
 	AR-15 Tactical Dynamics Skeletonized pistol grip/|
 	AR-15 Aeroknox Orion pistol grip
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	DVL-10 Lobaev Arms stock
 ]
+ChildParts_required=FALSE
 Recoil=111.000000
 RecoilHorizontal=585.000000
 Ergonomics=40.000000

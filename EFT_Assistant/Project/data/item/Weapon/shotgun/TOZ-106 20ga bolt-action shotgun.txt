@@ -13,14 +13,17 @@ ChildParts=[
 	TOZ-106 20ga MTs 20-01 Sb.3 4-shot magazine/|
 	TOZ-106 20ga MTs 20-01 Sb.3 5-shot magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	TOZ-106 custom cut Mosin stock/|
 	MTs 20-01 stock/|
 	TOZ-106 stock
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	TOZ-106 dovetail mount
 ]
+ChildParts_required=FALSE
 Recoil=663.000000
 RecoilHorizontal=585.000000
 Ergonomics=60.000000

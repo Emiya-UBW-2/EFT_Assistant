@@ -13,9 +13,11 @@ ChildParts=[
 	SIG Sauer Micro Brake 7.62x51 muzzle brake/|
 	SIG Sauer Two Port Brake 7.62x51 muzzle brake
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	SIG Sauer SRD762-QD 7.62x51 sound suppressor
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000

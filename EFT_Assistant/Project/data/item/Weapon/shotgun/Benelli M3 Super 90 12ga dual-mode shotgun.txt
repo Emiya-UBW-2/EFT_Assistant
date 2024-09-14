@@ -11,9 +11,11 @@ propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	Benelli M3 Super 90 12ga 500mm barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Benelli M3 forend
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Benelli M3 Super 90 12ga 5-shell magazine cap/|
 	Benelli M3 Super 90 12ga Toni System 11-shell magazine/|
@@ -21,19 +23,24 @@ ChildParts=[
 	Benelli M3 Super 90 12ga Toni System 9-shell magazine/|
 	Benelli M3 Super 90 12ga 7-shell magazine
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Benelli M3 telescopic stock/|
 	Benelli M3 Mesa Tactical Urbino stock
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Benelli M3 Super 90 upper receiver top rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Benelli M3 Ghost Ring rear sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Benelli M3 Super 90 charging handle
 ]
+ChildParts_required=TRUE
 Recoil=336.000000
 RecoilHorizontal=595.000000
 Ergonomics=42.000000

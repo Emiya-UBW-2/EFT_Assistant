@@ -43,9 +43,11 @@ ChildParts=[
 	AR-15 DoubleStar Carlson Tac Comp 5.56x45 compensator/|
 	AR-15 Delta-Tek DTK-M16 5.56x45 muzzle brake
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	HK 416A5 low profile gas block
 ]
+ChildParts_required=TRUE
 Recoil=-7.000000
 Ergonomics=-30.000000
 centerOfImpact=0.032000

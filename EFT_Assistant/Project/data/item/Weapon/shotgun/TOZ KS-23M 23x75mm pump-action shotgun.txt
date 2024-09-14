@@ -12,19 +12,24 @@ ChildParts=[
 	KS-23 23x75 510mm barrel/|
 	KS-23 23x75 700mm barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	KS-23M forestock
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	KS-23M 23x75 3-shell magazine cap
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	KS-23 wooden stock/|
 	KS-23M pistol grip
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	KOMZ Rusak reflex sight
 ]
+ChildParts_required=FALSE
 Recoil=467.000000
 RecoilHorizontal=601.000000
 Ergonomics=38.000000

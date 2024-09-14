@@ -12,6 +12,7 @@ ChildParts=[
 	PM 9x18PM 84-round makeshift drum magazine/|
 	PM 9x18PM 90-93 8-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
 	AAC Illusion 9 9x19 sound suppressor/|
@@ -19,9 +20,11 @@ ChildParts=[
 	SIG Sauer SRD9 9x19 sound suppressor/|
 	SilencerCo Osprey 9 9x19 sound suppressor
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	PM pistol slide
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	PM FAB Defense PM-G pistol grip/|
 	PM Tactic Kit pistol grip/|
@@ -29,6 +32,7 @@ ChildParts=[
 	PM FAB Defense PM-G pistol grip (Olive Drab)/|
 	PM PM-Laser grip with laser sight
 ]
+ChildParts_required=TRUE
 Recoil=380.000000
 RecoilHorizontal=265.000000
 Ergonomics=84.000000

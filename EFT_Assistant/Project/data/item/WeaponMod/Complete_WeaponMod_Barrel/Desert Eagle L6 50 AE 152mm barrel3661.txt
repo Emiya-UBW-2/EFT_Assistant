@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	Desert Eagle front sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	EOTech XPS3-0 holographic sight/|
 	EOTech XPS3-2 holographic sight/|
@@ -38,6 +39,7 @@ ChildParts=[
 	VOMZ Pilad P1x42 Weaver reflex sight/|
 	Vortex Razor AMG UH-1 holographic sight
 ]
+ChildParts_required=FALSE
 Recoil=-3.500000
 Ergonomics=-3.000000
 centerOfImpact=0.200000

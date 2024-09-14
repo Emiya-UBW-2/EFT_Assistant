@@ -13,26 +13,31 @@ ChildParts=[
 	12.7x55mm PS12A/|
 	12.7x55mm PS12B
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	12.7x55mm PS12/|
 	12.7x55mm PS12A/|
 	12.7x55mm PS12B
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	12.7x55mm PS12/|
 	12.7x55mm PS12A/|
 	12.7x55mm PS12B
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	12.7x55mm PS12/|
 	12.7x55mm PS12B/|
 	12.7x55mm PS12A
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	12.7x55mm PS12/|
 	12.7x55mm PS12A/|
 	12.7x55mm PS12B
 ]
+ChildParts_required=FALSE
 Recoil=-2.000000
 Ergonomics=-5.000000
 capacity=5

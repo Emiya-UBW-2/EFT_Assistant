@@ -35,21 +35,25 @@ ChildParts=[
 	AK CG101 AR-type pistol grip adapter/|
 	AK PUFGUN SG-M2 pistol grip
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	AK-74M CAA AKTS AK74 buffer tube/|
 	AK-74M/AK-100 Zenit PT Lock/|
 	PP-19-01 Vityaz metal skeleton stock
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AK CSS knurled charging handle/|
 	AK Zenit RP-1 charging handle
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Saiga-9 9x19 sb.7 10-round magazine/|
 	PP-19-01 Vityaz 9x19 30-round magazine/|
 	PP-19-01 Vityaz 9x19 PUFGUN SG-919 20 20-round magazine/|
 	PP-19-01 Vityaz 9x19 PUFGUN SG-919 30 30-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	PP-19-01 Vityaz 9x19 muzzle brake-compensator/|
 	Saiga-9 9x19 muzzle brake-compensator/|
@@ -59,13 +63,16 @@ ChildParts=[
 	SilencerCo Osprey 9 9x19 sound suppressor/|
 	PP-19-01 Vityaz 9x19 sound suppressor
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	PP-19-01 Vityaz-SN dust cover/|
 	PP-19-01 Vityaz dust cover
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	PP-19-01 Vityaz rear sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
 	BelOMO PK-AA dovetail reflex sight/|
@@ -85,9 +92,11 @@ ChildParts=[
 	Axion Kobra EKP-1S-03 reflex sight (Dovetail)/|
 	RS Regulate AK-303M Full Length Lower dovetail mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	PP-19-01 Vityaz gas tube
 ]
+ChildParts_required=TRUE
 Recoil=58.000000
 RecoilHorizontal=270.000000
 Ergonomics=35.000000

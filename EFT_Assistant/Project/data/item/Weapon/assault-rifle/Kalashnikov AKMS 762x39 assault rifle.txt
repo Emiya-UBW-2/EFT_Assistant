@@ -18,9 +18,11 @@ ChildParts=[
 	AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo/|
 	AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo (White)
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	GP-25 Kostyor 40mm underbarrel grenade launcher
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AKM 7.62x39 muzzle brake-compensator (6P1 0-14)/|
 	AKML system 7.62x39 flash hider/|
@@ -39,6 +41,7 @@ ChildParts=[
 	Rotor 43 7.62x39 muzzle brake-compensator/|
 	AK Vector VR-05T 7.62x39 muzzle brake
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AK Aeroknox Scorpius pistol grip/|
 	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip/|
@@ -66,6 +69,7 @@ ChildParts=[
 	AK CG101 AR-type pistol grip adapter/|
 	AK PUFGUN SG-M2 pistol grip
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	AK AKademia Bastion dust cover/|
 	AK FAB Defense PDC dust cover/|
@@ -75,16 +79,19 @@ ChildParts=[
 	AK Zenit B-33 dust cover/|
 	RD-704 dust cover
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AKM rear sight (6P1 Sb.2-1)/|
 	AKMB system rear sight/|
 	AK Taktika Tula TT01 rear sight rail/|
 	AK RD Enhanced V2 Rear Sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AKMS shoulder piece (6P4 Sb.1-19)/|
 	AKMSN shoulder piece (6P4N Sb.1-19)
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AK 7.62x39 ribbed metal 10-round magazine/|
 	AK 7.62x39 6L10 30-round magazine/|
@@ -104,13 +111,16 @@ ChildParts=[
 	AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine/|
 	AK 7.62x39 Magpul PMAG 20 GEN M3 20-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AK CSS knurled charging handle/|
 	AK Zenit RP-1 charging handle
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AKMP system front sight device
 ]
+ChildParts_required=FALSE
 Recoil=149.000000
 RecoilHorizontal=378.000000
 Ergonomics=24.000000

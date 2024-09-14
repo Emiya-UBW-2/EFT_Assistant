@@ -40,6 +40,7 @@ ChildParts=[
 	AR-15 Tactical Dynamics Skeletonized pistol grip/|
 	AR-15 SIG M400 Reduced Angle Pistol Grip (Coyote Tan)/|
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	5.56x45 Colt AR-15 STANAG 30-round magazine/|
 	FN SCAR-L 5.56x45 30-round magazine/|
@@ -60,6 +61,7 @@ ChildParts=[
 	5.56x45 SureFire MAG5-60 STANAG 60-round magazine/|
 	5.56x45 TROY BattleMag STANAG 30-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AR-15 ADAR 2-15 5.56x45 upper receiver/|
 	M4A1 5.56x45 upper receiver/|
@@ -68,6 +70,7 @@ ChildParts=[
 	AR-15 Vltor MUR-1S 5.56x45 upper receiver/|
 	AR-15 Aeroknox AX-15 5.56x45 upper receiver
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	AR-15 Colt A2 buffer tube/|
 	AR-15 ADAR 2-15 buffer tube/|
@@ -84,6 +87,7 @@ ChildParts=[
 	AR-15 Strike Industries Viper PDW stock/|
 	AR-15 RTM ATP buffer tube
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	AR-15 ADAR 2-15 charging handle/|
 	AR-15 Badger Ordnance Tactical Charging Handle Latch/|
@@ -96,6 +100,7 @@ ChildParts=[
 	AR-15 Rainier Arms Avalanche MOD2 charging handle/|
 	AR-15 Daniel Defense GRIP-N-RIP charging handle
 ]
+ChildParts_required=TRUE
 Recoil=113.000000
 RecoilHorizontal=322.000000
 Ergonomics=50.000000

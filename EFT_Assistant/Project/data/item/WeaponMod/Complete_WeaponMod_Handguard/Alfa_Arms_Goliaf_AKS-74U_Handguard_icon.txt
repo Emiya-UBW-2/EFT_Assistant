@@ -46,6 +46,7 @@ ChildParts=[
 	TangoDown Stubby BGV-QDK foregrip (Black)/|
 	TangoDown Stubby BGV-QDK foregrip (FDE)
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Holosun LS321 Tactical device/|
 	L3Harris AN/PEQ-15 tactical device/|
@@ -55,6 +56,7 @@ ChildParts=[
 	Zenit Perst-3 tactical device/|
 	MAWL-C1+ tactical device
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
@@ -78,6 +80,7 @@ ChildParts=[
 	MAWL-C1+ tactical device/|
 	Zenit KR-2 old gen mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
@@ -102,6 +105,7 @@ ChildParts=[
 	MAWL-C1+ tactical device/|
 	Zenit KR-2 old gen mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
@@ -126,6 +130,7 @@ ChildParts=[
 	Zenit KR-2 old gen mount/|
 	BT10 V8 Atlas Bipod
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	EOTech EXPS3 holographic sight (Tan)/|
 	EOTech XPS3-0 holographic sight/|
@@ -151,6 +156,7 @@ ChildParts=[
 	ELCAN Specter HCO holographic sight/|
 	Wilcox BOSS Xe reflex sight
 ]
+ChildParts_required=FALSE
 Conflict=[
 	AK-105 5.45x39 muzzle brake-compensator (6P44 0-20)/|
 	AK-74M 5.45x39 muzzle brake-compensator (6P20 0-20)/|

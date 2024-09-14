@@ -15,9 +15,11 @@ ChildParts=[
 	Glock 17 9x19 barrel/|
 	Glock 9x19 SAI threaded barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Glock Pachmayr Tactical Grip Glove
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock 17 MOS pistol slide/|
 	Glock 17 pistol slide/|
@@ -29,6 +31,7 @@ ChildParts=[
 	Glock ZEV Tech HEX Gen3 RMR pistol slide/|
 	Glock ZEV Tech HEX Spartan RMR pistol slide
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Glock 9x19 "Big Stick" 33-round magazine/|
 	Glock 9x19 17-round magazine/|
@@ -38,6 +41,7 @@ ChildParts=[
 	Glock 9x19 "Big Stick" 31-round magazine (Coyote)/|
 	Glock 9x19 19-round magazine (Coyote)
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock 9x19 Fischer Development FD917 sound suppressor/|
 	Glock GTL 21 tactical flashlight with laser/|
@@ -53,12 +57,15 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock Aimtech Tiger Shark sight mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock FAB Defense GLR-17 stock
 ]
+ChildParts_required=FALSE
 Recoil=311.000000
 RecoilHorizontal=260.000000
 Ergonomics=90.000000

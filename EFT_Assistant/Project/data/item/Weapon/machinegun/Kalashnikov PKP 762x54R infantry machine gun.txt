@@ -35,27 +35,34 @@ ChildParts=[
 	AK CG101 AR-type pistol grip adapter/|
 	AK PUFGUN SG-M2 pistol grip
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	PK 7.62x54R 100-round box
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	PKM wooden stock/|
 	PK Zenit PT-2 "Klassika" stock/|
 	PKP polymer stock
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	PKP 7.62x54R 658mm barrel/|
 	PKM 7.62x54R 658mm barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	PK bipod
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	PK Zenit B-50 handguard
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	PK rear sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
 	BelOMO PK-AA dovetail reflex sight/|
@@ -73,6 +80,7 @@ ChildParts=[
 	SAG Bit low profile dovetail sidemount/|
 	Axion Kobra EKP-1S-03 reflex sight (Dovetail)
 ]
+ChildParts_required=FALSE
 Recoil=138.000000
 RecoilHorizontal=515.000000
 Ergonomics=35.000000

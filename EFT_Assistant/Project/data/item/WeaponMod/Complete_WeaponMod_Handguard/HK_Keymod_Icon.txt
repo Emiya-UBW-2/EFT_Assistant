@@ -14,30 +14,35 @@ ChildParts=[
 	Vltor CASV KeyMod 4 inch rail/|
 	CNC Guns KeyMod 2 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Strike Industries KeyMod 4 inch rail/|
 	Vltor CASV KeyMod 2 inch rail/|
 	Vltor CASV KeyMod 4 inch rail/|
 	CNC Guns KeyMod 2 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Strike Industries KeyMod 4 inch rail/|
 	Vltor CASV KeyMod 2 inch rail/|
 	Vltor CASV KeyMod 4 inch rail/|
 	CNC Guns KeyMod 2 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Strike Industries KeyMod 4 inch rail/|
 	Vltor CASV KeyMod 2 inch rail/|
 	Vltor CASV KeyMod 4 inch rail/|
 	CNC Guns KeyMod 2 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Strike Industries KeyMod 4 inch rail/|
 	Vltor CASV KeyMod 2 inch rail/|
 	Vltor CASV KeyMod 4 inch rail/|
 	CNC Guns KeyMod 2 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Holosun LS321 Tactical device/|
 	L3Harris AN/PEQ-15 tactical device/|
@@ -48,9 +53,11 @@ ChildParts=[
 	Zenit Perst-3 tactical device/|
 	MAWL-C1+ tactical device
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	NcSTAR MPR45 Backup mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	HK MP7 flip-up front sight/|
 	KAC Folding Micro front sight/|
@@ -62,6 +69,7 @@ ChildParts=[
 	MPX flip-up front sight/|
 	AR-15 Leapers UTG Low Profile A2 front sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Monstrum Tactical Vertical Fore Grip KeyMod/|
 	A3 Tactical MVF001 KeyMod vertical foregrip (Black)/|
@@ -69,6 +77,7 @@ ChildParts=[
 	Strike Industries KeyMod 6 inch rail/|
 	Vltor CASV KeyMod 6 inch rail
 ]
+ChildParts_required=FALSE
 Recoil=-3.000000
 Ergonomics=6.000000
 accuracyModifier=0.000000

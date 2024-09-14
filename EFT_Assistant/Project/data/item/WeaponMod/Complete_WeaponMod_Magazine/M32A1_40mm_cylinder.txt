@@ -16,6 +16,7 @@ ChildParts=[
 	40x46mm M441 (HE) grenade/|
 	40x46mm M576 (MP-APERS) grenade
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	40x46mm M381 (HE) grenade/|
 	40x46mm M386 (HE) grenade/|
@@ -24,6 +25,7 @@ ChildParts=[
 	40x46mm M441 (HE) grenade/|
 	40x46mm M576 (MP-APERS) grenade
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	40x46mm M381 (HE) grenade/|
 	40x46mm M386 (HE) grenade/|
@@ -32,6 +34,7 @@ ChildParts=[
 	40x46mm M441 (HE) grenade/|
 	40x46mm M576 (MP-APERS) grenade
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	40x46mm M381 (HE) grenade/|
 	40x46mm M386 (HE) grenade/|
@@ -40,6 +43,7 @@ ChildParts=[
 	40x46mm M441 (HE) grenade/|
 	40x46mm M576 (MP-APERS) grenade
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	40x46mm M381 (HE) grenade/|
 	40x46mm M386 (HE) grenade/|
@@ -48,6 +52,7 @@ ChildParts=[
 	40x46mm M441 (HE) grenade/|
 	40x46mm M576 (MP-APERS) grenade
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	40x46mm M381 (HE) grenade/|
 	40x46mm M386 (HE) grenade/|
@@ -56,6 +61,7 @@ ChildParts=[
 	40x46mm M441 (HE) grenade/|
 	40x46mm M576 (MP-APERS) grenade
 ]
+ChildParts_required=FALSE
 Recoil=-1.000000
 Ergonomics=-10.000000
 capacity=0

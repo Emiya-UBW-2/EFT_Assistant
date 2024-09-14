@@ -15,15 +15,19 @@ ChildParts=[
 	SA-58/FAL 7.62x51 MMW polymer 20-round magazine/|
 	SA-58/FAL/SLR 7.62x51 30-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	RFB 7.62x51 18 inch barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	RFB handguard
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	RFB scope rail mount
 ]
+ChildParts_required=FALSE
 Recoil=148.000000
 RecoilHorizontal=307.000000
 Ergonomics=48.000000

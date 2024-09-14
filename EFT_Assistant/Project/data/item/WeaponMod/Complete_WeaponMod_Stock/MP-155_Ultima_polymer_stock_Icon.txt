@@ -13,9 +13,11 @@ ChildParts=[
 	MP-155 Ultima medium recoil pad/|
 	MP-155 Ultima thin recoil pad
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	MP-155 Ultima thermal camera
 ]
+ChildParts_required=FALSE
 Recoil=-25.000000
 Ergonomics=9.000000
 accuracyModifier=0.000000

@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	Desert Eagle front sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	EOTech XPS3-0 holographic sight/|
 	EOTech XPS3-2 holographic sight/|
@@ -38,6 +39,7 @@ ChildParts=[
 	Holosun HS401G5 reflex sight/|
 	Leapers UTG reflex sight
 ]
+ChildParts_required=FALSE
 Recoil=-3.000000
 Ergonomics=-4.000000
 centerOfImpact=0.190000

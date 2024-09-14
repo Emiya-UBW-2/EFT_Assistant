@@ -12,6 +12,7 @@ ChildParts=[
 	AK GP-25 accessory kit recoil pad/|
 	AK Custom Arms ST-EF 74 skeleton stock extension
 ]
+ChildParts_required=FALSE
 Recoil=-21.000000
 Ergonomics=11.500000
 accuracyModifier=0.000000

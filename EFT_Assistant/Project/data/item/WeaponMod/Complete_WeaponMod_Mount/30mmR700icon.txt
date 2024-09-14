@@ -16,6 +16,7 @@ ChildParts=[
 	Schmidt & Bender PM II 1-8x24 30mm riflescope/|
 	SIG TANGO6T 1-6x24 30mm riflescope
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=-1.500000
 accuracyModifier=0.000000

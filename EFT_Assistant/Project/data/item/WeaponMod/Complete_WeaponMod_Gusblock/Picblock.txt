@@ -19,6 +19,7 @@ ChildParts=[
 	MPX flip-up front sight/|
 	AR-15 Leapers UTG Low Profile A2 front sight
 ]
+ChildParts_required=FALSE
 Conflict=[
 	AR-15 Daniel Defense RIS II 9.5 handguard (Coyote Brown)/|
 	AR-15 Daniel Defense RIS II 9.5 handguard (Black)/|

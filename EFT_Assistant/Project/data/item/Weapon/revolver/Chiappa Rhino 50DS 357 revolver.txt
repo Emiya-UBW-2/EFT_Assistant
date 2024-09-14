@@ -11,18 +11,22 @@ propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	Chiappa Rhino .357 6-round cylinder
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Chiappa Rhino Red Fiber Optic rear sight/|
 	Chiappa Rhino rear sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Chiappa Rhino Red Fiber Optic front sight/|
 	Chiappa Rhino front sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Chiappa Rhino plastic pistol grip/|
 	Chiappa Rhino wooden pistol grip
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	NcSTAR Tactical blue laser LAM-module/|
@@ -36,6 +40,7 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Insight WMX200 tactical flashlight
 ]
+ChildParts_required=FALSE
 Recoil=383.000000
 RecoilHorizontal=280.000000
 Ergonomics=80.000000

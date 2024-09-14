@@ -13,6 +13,7 @@ ChildParts=[
 	PKM 7.62x54R slotted flash hider/|
 	PKM 7.62x54R muzzle brake
 ]
+ChildParts_required=FALSE
 Recoil=-7.000000
 Ergonomics=-11.000000
 centerOfImpact=0.030000

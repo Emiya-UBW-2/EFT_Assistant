@@ -18,6 +18,7 @@ ChildParts=[
 	Zenit Perst-3 tactical device/|
 	MAWL-C1+ tactical device
 ]
+ChildParts_required=FALSE
 Conflict=[
 	AR-15 5.56x45 370mm barrel/|
 	AR-15 5.56x45 18 inch barrel/|

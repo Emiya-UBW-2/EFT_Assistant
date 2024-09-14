@@ -42,6 +42,7 @@ ChildParts=[
 	AK AKdemia Dominator handguard/|
 	AK Alfa Arms ASPID handguard
 ]
+ChildParts_required=TRUE
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000

@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	HK G36 bipod
 ]
+ChildParts_required=FALSE
 Conflict=[
 	HK G36 5.56x45 228mm barrel/|
 	HK G36 5.56x45 318mm barrel

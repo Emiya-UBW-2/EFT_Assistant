@@ -47,6 +47,7 @@ ChildParts=[
 	MAWL-C1+ tactical device/|
 	Wilcox BOSS Xe reflex sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	BCM GUNFIGHTER MOD 3 vertical foregrip/|
 	ASh-12 vertical foregrip/|
@@ -85,6 +86,7 @@ ChildParts=[
 	TangoDown Stubby BGV-QDK foregrip (Black)/|
 	TangoDown Stubby BGV-QDK foregrip (FDE)
 ]
+ChildParts_required=FALSE
 Conflict=[
 	AK Zenit B-33 dust cover
 ]

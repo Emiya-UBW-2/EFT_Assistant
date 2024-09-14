@@ -30,6 +30,7 @@ ChildParts=[
 	SIG Sauer ROMEO8T reflex sight/|
 	Wilcox BOSS Xe reflex sight
 ]
+ChildParts_required=FALSE
 Conflict=[
 	SOK-12 Bravo-18 aluminium handguard/|
 	SOK-12 Leapers UTG PRO MTU002 Long Top aluminum handguard/|

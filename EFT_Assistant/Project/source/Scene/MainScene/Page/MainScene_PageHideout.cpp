@@ -171,7 +171,7 @@ namespace FPS_n2 {
 				int xp = xpBase;
 				int yp = ypBase;
 				int xsize = (DXDraw::Instance()->GetUIY(360));
-				int ysize = (DXDraw::Instance()->GetUIY(32));
+				int ysize = LineHeight;
 				int xsizeAdd = xsize + DXDraw::Instance()->GetUIY(5);
 				int ysizeAdd = ysize + DXDraw::Instance()->GetUIY(5);
 

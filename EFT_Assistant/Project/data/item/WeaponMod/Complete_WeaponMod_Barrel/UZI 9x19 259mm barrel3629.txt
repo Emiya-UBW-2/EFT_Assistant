@@ -14,6 +14,7 @@ ChildParts=[
 	UZI 9x19 sound suppressor/|
 	UZI vented barrel shroud
 ]
+ChildParts_required=TRUE
 Recoil=-3.000000
 Ergonomics=-3.000000
 centerOfImpact=0.128000

@@ -11,12 +11,15 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	ORSIS T-5000M handguard
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	ORSIS T-5000M pistol grip
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	ORSIS T-5000M stock
 ]
+ChildParts_required=TRUE
 Conflict=[
 	M700 7.62x51 ProMag AA-70 10-round magazine/|
 	M700 7.62x51 ProMag AA-70 20-round magazine/|

@@ -8,5 +8,11 @@ weight=11.520000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
+containsItems=[
+	BNTI Zhuk body armor (Digital Flora)x1/|
+	KITECO SC-IV SA ballistic platex1/|
+	Granit 4RS ballistic plate (Front)x1/|
+	Granit ballistic plate (Side)x1
+]
 Name_Jpn=BNTI Zhuk body armor (Digital Flora) デフォルト
 Information_Jpn=

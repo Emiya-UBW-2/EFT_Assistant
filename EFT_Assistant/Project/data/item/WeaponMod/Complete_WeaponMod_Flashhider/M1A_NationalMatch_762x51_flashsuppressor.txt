@@ -12,6 +12,7 @@ ChildParts=[
 	M1A SA National Match .062 Blade front sight/|
 	M1A SA XS Post .125 Blade front sight
 ]
+ChildParts_required=FALSE
 Recoil=-5.000000
 Ergonomics=-2.000000
 accuracyModifier=0.020000

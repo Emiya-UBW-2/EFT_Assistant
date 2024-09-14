@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	MP-43 12ga sawed-off 310mm barrel
 ]
+ChildParts_required=TRUE
 Recoil=279.000000
 RecoilHorizontal=413.000000
 Ergonomics=50.000000

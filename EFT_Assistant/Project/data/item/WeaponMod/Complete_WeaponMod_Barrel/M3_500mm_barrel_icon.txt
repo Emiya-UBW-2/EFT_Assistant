@@ -13,6 +13,7 @@ ChildParts=[
 	Remington Tactical Choke 12ga/|
 	SilencerCo Salvo 12 choke adapter
 ]
+ChildParts_required=FALSE
 Recoil=-7.000000
 Ergonomics=-8.000000
 centerOfImpact=0.530000

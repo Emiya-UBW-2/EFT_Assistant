@@ -17,6 +17,7 @@ ChildParts=[
 	DeltaPoint Cross Slot Mount base/|
 	Trijicon RMR low profile mount
 ]
+ChildParts_required=FALSE
 Conflict=[
 	Glock Aimtech mount base/|
 	UM Tactical UM3 pistol sight mount

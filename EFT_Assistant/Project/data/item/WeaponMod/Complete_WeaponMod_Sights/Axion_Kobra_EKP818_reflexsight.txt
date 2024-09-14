@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesScope
 ChildParts=[
 	Axion Kobra sight shade
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=-2.000000
 SightRange=200

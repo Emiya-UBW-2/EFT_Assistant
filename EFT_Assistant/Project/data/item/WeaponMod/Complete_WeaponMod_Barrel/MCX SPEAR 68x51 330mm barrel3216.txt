@@ -11,9 +11,11 @@ propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	MCX SPEAR Clutch-Lok QD 6.8x51 Shouldered Flash Hider
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	MCX SPEAR Adjustable Gas Piston
 ]
+ChildParts_required=TRUE
 Recoil=-5.000000
 Ergonomics=-6.000000
 centerOfImpact=0.043000

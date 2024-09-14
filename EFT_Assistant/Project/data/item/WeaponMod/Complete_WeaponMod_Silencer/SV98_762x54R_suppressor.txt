@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	SV-98 sound suppressor heat shield
 ]
+ChildParts_required=FALSE
 Recoil=-8.000000
 Ergonomics=-22.000000
 accuracyModifier=0.000000

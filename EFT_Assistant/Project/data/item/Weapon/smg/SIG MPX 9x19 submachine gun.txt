@@ -39,15 +39,18 @@ ChildParts=[
 	AR-15 Aeroknox Orion pistol grip/|
 	AR-15 SIG M400 Reduced Angle Pistol Grip (Coyote Tan)
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	MPX 9x19 F5 MFG 50-round drum magazine/|
 	MPX 9x19 20-round magazine/|
 	MPX 9x19 30-round magazine/|
 	MPX 9x19 TTI "Base Pad +11" 41-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	MPX GEN1 9x19 upper receiver
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	MPX/MCX Folding Knuckle Stock Adapter/|
 	MPX/MCX Collapsing/Telescoping Stock/|
@@ -58,11 +61,13 @@ ChildParts=[
 	MPX/MCX Stock Locking Hinge Assembly/|
 	UZI PRO A3 Tactical Modular Folding Brace
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	MPX Geissele SCH charging handle/|
 	MPX double latch charging handle/|
 	MPX single latch charging handle
 ]
+ChildParts_required=TRUE
 Recoil=51.000000
 RecoilHorizontal=269.000000
 Ergonomics=40.000000

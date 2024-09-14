@@ -13,6 +13,7 @@ ChildParts=[
 	Vltor CASV KeyMod 2 inch rail/|
 	Vltor CASV KeyMod 4 inch rail
 ]
+ChildParts_required=FALSE
 Conflict=[
 	M700 7.62x51 ProMag AA-70 10-round magazine/|
 	M700 7.62x51 ProMag AA-70 20-round magazine/|

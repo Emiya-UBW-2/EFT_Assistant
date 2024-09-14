@@ -11,18 +11,22 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AI AXMC AT X Top Rail 
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AI AXMC Adapter Kit medium length rail/|
 	AI AXMC Adapter Kit short length rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AI AXMC Adapter Kit medium length rail/|
 	AI AXMC Adapter Kit short length rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AI AXMC Adapter Kit medium length rail/|
 	AI AXMC Adapter Kit short length rail
 ]
+ChildParts_required=FALSE
 Recoil=-2.000000
 Ergonomics=8.000000
 accuracyModifier=0.000000

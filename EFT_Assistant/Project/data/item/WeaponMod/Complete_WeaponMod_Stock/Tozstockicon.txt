@@ -11,9 +11,11 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	TOZ-106 002 pistol grip
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	TOZ-106 FAB Defense GPCP cheek rest
 ]
+ChildParts_required=FALSE
 Recoil=-24.000000
 Ergonomics=6.000000
 accuracyModifier=0.000000

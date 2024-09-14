@@ -35,10 +35,12 @@ ChildParts=[
 	AR-10 TAA ZK-38 7.62x51 muzzle brake/|
 	AR-10 Delta-Tek DTK-AR10 7.62x51 muzzle brake
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AR-10 CMMG low profile gas block/|
 	AR-10 KAC Low Profile Gas Block
 ]
+ChildParts_required=TRUE
 Conflict=[
 	AR-10 CMMG MK3 RML15 15 inch M-LOK handguard/|
 	AR-10 KAC URX 4 14.5 inch handguard/|

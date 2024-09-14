@@ -38,9 +38,11 @@ ChildParts=[
 	AR-15 Aeroknox Orion pistol grip/|
 	AR-15 SIG M400 Reduced Angle Pistol Grip (Coyote Tan)
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Mk-18 .338 LM 10-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AR-15 Colt A2 buffer tube/|
 	AR-15 ADAR 2-15 buffer tube/|
@@ -54,9 +56,11 @@ ChildParts=[
 	AR-15 Strike Industries Advanced Receiver Extension buffer tube (Anodized Red)/|
 	AR-15 RTM ATP buffer tube
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Mk-18 .338 LM upper receiver
 ]
+ChildParts_required=TRUE
 Recoil=536.000000
 RecoilHorizontal=1012.000000
 Ergonomics=14.000000

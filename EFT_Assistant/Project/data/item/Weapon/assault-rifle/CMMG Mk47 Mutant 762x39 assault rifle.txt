@@ -38,6 +38,7 @@ ChildParts=[
 	AR-15 Aeroknox Orion pistol grip/|
 	AR-15 SIG M400 Reduced Angle Pistol Grip (Coyote Tan)
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	AK 7.62x39 ribbed metal 10-round magazine/|
 	AK 7.62x39 6L10 30-round magazine/|
@@ -56,9 +57,11 @@ ChildParts=[
 	AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine/|
 	AK 7.62x39 Magpul PMAG 20 GEN M3 20-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Mk47 Resolute 7.62x39 upper receiver
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	CMMG buffer tube/|
 	AR-15 Colt A2 buffer tube/|
@@ -76,9 +79,11 @@ ChildParts=[
 	AR-15 Strike Industries Viper PDW stock/|
 	AR-15 RTM ATP buffer tube
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Mk47 ambidextrous charging handle
 ]
+ChildParts_required=TRUE
 Recoil=152.000000
 RecoilHorizontal=377.000000
 Ergonomics=42.000000

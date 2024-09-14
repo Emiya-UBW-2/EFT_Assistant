@@ -11,19 +11,24 @@ propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	APS 9x18PM 20-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	APB detachable wire stock
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	APS bakelite side-pieces
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	APS front sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	APB rear sight/|
 	APS rear sight
 ]
+ChildParts_required=FALSE
 Recoil=328.000000
 RecoilHorizontal=260.000000
 Ergonomics=70.000000

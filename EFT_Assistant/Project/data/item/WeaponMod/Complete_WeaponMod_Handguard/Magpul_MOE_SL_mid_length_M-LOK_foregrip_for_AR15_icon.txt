@@ -14,12 +14,14 @@ ChildParts=[
 	Magpul M-LOK Cantilever Mount/|
 	Magpul M-LOK 0.93 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Offset Light Mount/|
 	Magpul M-LOK Cantilever Mount/|
 	Magpul M-LOK 0.93 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Magpul M-LOK AFG tactical foregrip (Black)/|
 	Magpul M-LOK AFG tactical foregrip (FDE)/|
@@ -31,6 +33,7 @@ ChildParts=[
 	BCM GUNFIGHTER MOD 3 M-LOK foregrip (Black)/|
 	BCM GUNFIGHTER MOD 3 M-LOK foregrip (FDE)
 ]
+ChildParts_required=FALSE
 Conflict=[
 	AR-10 JP Enterprises Gas System-6/|
 	AR-15 5.56x45 260mm barrel/|

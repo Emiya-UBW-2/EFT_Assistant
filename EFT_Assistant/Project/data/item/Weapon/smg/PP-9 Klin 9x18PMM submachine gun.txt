@@ -11,13 +11,16 @@ propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	PP-91 Kedr polymer pistol grip
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	PP-91 "Kedr" 9x18PM 20-round magazine/|
 	PP-91 "Kedr" 9x18PM 30-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	PP-91 Kedr Rotor 43 RIS mount
 ]
+ChildParts_required=FALSE
 Recoil=50.000000
 RecoilHorizontal=211.000000
 Ergonomics=65.000000

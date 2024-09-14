@@ -16,6 +16,7 @@ ChildParts=[
 	Wilcox RAPTAR ES Tactical Rangefinder/|
 	Zenit Perst-3 tactical device
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000

@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	Mossberg 590 Ghost Ring front sight
 ]
+ChildParts_required=FALSE
 Recoil=-6.000000
 Ergonomics=-8.000000
 centerOfImpact=0.520000

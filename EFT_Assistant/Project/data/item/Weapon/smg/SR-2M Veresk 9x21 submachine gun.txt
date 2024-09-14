@@ -12,25 +12,31 @@ ChildParts=[
 	SR-2M 9x21 30-round magazine/|
 	SR-2M 9x21 20-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	SR-2M 9x21 sound suppressor (SV-1381)/|
 	SR-2M 9x21 hand stopper
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	SR-2M top-folding stock/|
 	SR-2MP top-folding stock
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	SR-2M dust cover
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	SR-2M polymer handguard (Plum)/|
 	SR-2M polymer handguard (Black)
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	SR-2M pistol grip (Plum)/|
 	SR-2M pistol grip (Black)
 ]
+ChildParts_required=TRUE
 Recoil=54.000000
 RecoilHorizontal=234.000000
 Ergonomics=59.000000

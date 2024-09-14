@@ -13,6 +13,7 @@ ChildParts=[
 	TT 7.62x25 121mm homespun threaded barrel/|
 	TT 7.62x25 116mm gilded barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	TT Hogue-like rubber grip/|
 	TT PM-Laser TT-206 side grips with laser sight/|
@@ -20,15 +21,19 @@ ChildParts=[
 	TT ornated side grips/|
 	TT side grips
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	TT 7.62x25 tt-105 8-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	TT PM-Laser DTK-TT muzzle brake-compensator
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	TT DLP Tactical Precision LAM-module
 ]
+ChildParts_required=FALSE
 Recoil=553.000000
 RecoilHorizontal=325.000000
 Ergonomics=70.000000

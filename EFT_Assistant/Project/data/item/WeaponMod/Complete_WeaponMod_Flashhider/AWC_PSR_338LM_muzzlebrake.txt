@@ -12,6 +12,7 @@ ChildParts=[
 	AWC PSR muzzle brake protector/|
 	AWC Thor PSR XL multi-caliber sound suppressor
 ]
+ChildParts_required=FALSE
 Recoil=-10.000000
 Ergonomics=-1.000000
 accuracyModifier=0.010000

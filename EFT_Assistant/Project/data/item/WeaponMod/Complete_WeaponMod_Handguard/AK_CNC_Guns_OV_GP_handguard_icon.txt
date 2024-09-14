@@ -70,17 +70,20 @@ ChildParts=[
 	ELCAN Specter HCO holographic sight/|
 	Wilcox BOSS Xe reflex sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Monstrum Tactical Vertical Fore Grip KeyMod/|
 	A3 Tactical MVF001 KeyMod vertical foregrip (Black)/|
 	SIG Sauer Vertical Foregrip KeyMod (Black)
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Strike Industries KeyMod 4 inch rail/|
 	Vltor CASV KeyMod 2 inch rail/|
 	Vltor CASV KeyMod 4 inch rail/|
 	CNC Guns KeyMod 2 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	L3Harris AN/PEQ-15 tactical device/|
 	Insight AN/PEQ-2 tactical device/|
@@ -90,6 +93,7 @@ ChildParts=[
 	NcSTAR MPR45 Backup mount/|
 	MAWL-C1+ tactical device
 ]
+ChildParts_required=FALSE
 Conflict=[
 	AK AKademia Bastion dust cover/|
 	AK FAB Defense PDC dust cover/|

@@ -12,17 +12,21 @@ ChildParts=[
 	SVDS pistol grip/|
 	SVDS Lynx Arms AK-series pistol grip adapter
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	SVD 7.62x54R 10-round magazine/|
 	SVD 7.62x54R 20-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	SVDS polymer stock/|
 	SVDS Lynx Arms Hinge buffer tube adapter
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	SVDS 7.62x54R 22 inch barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
 	OKP-7 reflex sight (Dovetail)/|
@@ -41,14 +45,17 @@ ChildParts=[
 	Axion Kobra EKP-1S-03 reflex sight (Dovetail)/|
 	RS Regulate AK-303M Full Length Lower dovetail mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	SVDS upper band/|
 	SVD SAG MK1 chassis
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	SVDS custom cut dust cover/|
 	SVDS dust cover
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	BelOMO PK-AA dovetail reflex sight/|
 	BelOMO PSO-1 4x24 scope/|
@@ -56,6 +63,7 @@ ChildParts=[
 	BelOMO PSO-1M2 4x24 scope/|
 	SVD SAG low profile sidemount
 ]
+ChildParts_required=FALSE
 Recoil=216.000000
 RecoilHorizontal=675.000000
 Ergonomics=26.000000

@@ -14,15 +14,18 @@ ChildParts=[
 	Magpul M-LOK Offset Light Mount/|
 	Magpul M-LOK 0.93 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount/|
 	Magpul M-LOK 0.93 inch rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AR-15 Strike Industries Viper carbine length M-LOK lower handguard/|
 	AR-15 Strike Industries Viper carbine length M-LOK lower handguard (FDE)
 ]
+ChildParts_required=FALSE
 Conflict=[
 	AR-15 5.56x45 Molot Arms 406mm barrel
 ]

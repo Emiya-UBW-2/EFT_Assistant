@@ -11,10 +11,12 @@ propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	MP-155 12ga 510mm barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	MP-155 walnut forestock/|
 	MP-155 Ultima polymer forestock
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	MP-155 12ga 6-shell magazine/|
 	MP-133 12ga 6-shell magazine/|
@@ -25,14 +27,17 @@ ChildParts=[
 	MP-153 12ga 7-shell magazine/|
 	MP-153 12ga 8-shell magazine
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	MP-155 walnut stock/|
 	MP-155 Ultima pistol grip
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Kiba Arms SPRM rail mount for pump-action shotguns/|
 	MP-155 Ultima top rail
 ]
+ChildParts_required=FALSE
 Recoil=341.000000
 RecoilHorizontal=457.000000
 Ergonomics=48.000000

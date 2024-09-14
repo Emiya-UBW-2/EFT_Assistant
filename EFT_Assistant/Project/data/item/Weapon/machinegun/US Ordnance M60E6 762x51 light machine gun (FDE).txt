@@ -11,33 +11,40 @@ propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	M60 7.62x51 Capco 100-round Assault Box
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	M60E4 buttstock/|
 	M60E6 buttstock/|
 	M60E6 buttstock (FDE)
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	M60E3 7.62x51 584mm barrel/|
 	M60E4 7.62x51 475mm heavy barrel/|
 	M60E4 7.62x51 458mm barrel/|
 	M60E6 7.62x51 458mm barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	M60E4 Mod 1 handguard/|
 	M60E6 handguard/|
 	M60E4 Mod 1 handguard (FDE)
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	M60 rear sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	M60E4 trigger group/|
 	M60E6 trigger group/|
 	M60E6 trigger group (FDE)
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	M60 bipod
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
 	ELCAN SpecterDR 1x/4x scope (FDE)/|
@@ -104,6 +111,7 @@ ChildParts=[
 	Leapers UTG 25mm ring scope mount/|
 	IEA Mil-Optics KH/F 34mm one-piece magmount
 ]
+ChildParts_required=FALSE
 Recoil=107.000000
 RecoilHorizontal=502.000000
 Ergonomics=31.000000

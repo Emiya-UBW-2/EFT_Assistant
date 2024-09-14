@@ -18,11 +18,13 @@ ChildParts=[
 	UZI PRO 9x19 25-round magazine/|
 	UZI PRO 9x19 32-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	UZI 238mm threaded 3-lug barrel/|
 	UZI 9x19 259mm barrel/|
 	UZI 9x19 409mm barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	UZI Type 3 buttstock/|
 	UZI Type 5 buttstock/|
@@ -30,20 +32,25 @@ ChildParts=[
 	UZI Type 7 buttstock/|
 	UZI StormWerkz stock adapter
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	UZI StormWerkz Scope Mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	UZI StormWerkz lower handguard rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	UZI polymer handguard/|
 	UZI handguard with foregrip/|
 	UZI K-Grip handguard
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	UZI pistol grip cover
 ]
+ChildParts_required=TRUE
 Recoil=54.000000
 RecoilHorizontal=254.000000
 Ergonomics=65.000000

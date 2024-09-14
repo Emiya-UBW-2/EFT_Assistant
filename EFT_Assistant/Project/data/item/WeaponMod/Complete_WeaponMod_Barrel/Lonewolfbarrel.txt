@@ -22,6 +22,7 @@ ChildParts=[
 	SIG Sauer SRD9 9x19 sound suppressor/|
 	SilencerCo Osprey 9 9x19 sound suppressor
 ]
+ChildParts_required=FALSE
 Recoil=-4.000000
 Ergonomics=-4.000000
 centerOfImpact=0.300000

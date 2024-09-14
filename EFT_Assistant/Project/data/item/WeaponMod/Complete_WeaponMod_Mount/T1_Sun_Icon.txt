@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Aimpoint Micro T-1 reflex sight
 ]
+ChildParts_required=FALSE
 Conflict=[
 	AR-15 rear sight carry handle
 ]

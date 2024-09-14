@@ -12,6 +12,7 @@ ChildParts=[
 	KMZ 1P59 3-10x riflescope/|
 	KMZ 1P69 3-10x riflescope
 ]
+ChildParts_required=FALSE
 Conflict=[
 	HK 416A5 flip-up rear sight/|
 	HK MP7 flip-up rear sight/|

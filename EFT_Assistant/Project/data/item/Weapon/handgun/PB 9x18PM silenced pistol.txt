@@ -12,12 +12,15 @@ ChildParts=[
 	PM 9x18PM 84-round makeshift drum magazine/|
 	PM 9x18PM 90-93 8-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	PB 9x18PM sound suppressor
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	PB bakelite side grips
 ]
+ChildParts_required=TRUE
 Recoil=380.000000
 RecoilHorizontal=260.000000
 Ergonomics=80.000000

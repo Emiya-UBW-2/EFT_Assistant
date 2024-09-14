@@ -44,6 +44,7 @@ ChildParts=[
 	AR-15 DoubleStar Carlson Tac Comp 5.56x45 compensator/|
 	AR-15 Delta-Tek DTK-M16 5.56x45 muzzle brake
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	M4A1 front sight with gas block/|
 	AR-15 Daniel Defense MK12 Low Profile Gas Block/|
@@ -51,6 +52,7 @@ ChildParts=[
 	AR-15 Windham Weaponry Rail Gas Block/|
 	AR-15 Ballistic Advantage Lo-Pro Gas Block
 ]
+ChildParts_required=TRUE
 Conflict=[
 	AR-15 ADAR 2-15 wooden handguard/|
 	AR-15 Colt M4 Carbine Length handguard/|

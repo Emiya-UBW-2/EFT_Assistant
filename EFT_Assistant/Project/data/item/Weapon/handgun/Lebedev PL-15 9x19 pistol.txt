@@ -12,12 +12,15 @@ ChildParts=[
 	PL-15 9x19 barrel/|
 	PL-15 9x19 threaded barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	PL-15 pistol slide
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	PL-15 9x19 16-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Steiner DBAL-PL tactical device/|
@@ -28,6 +31,7 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)
 ]
+ChildParts_required=FALSE
 Recoil=289.000000
 RecoilHorizontal=235.000000
 Ergonomics=93.000000

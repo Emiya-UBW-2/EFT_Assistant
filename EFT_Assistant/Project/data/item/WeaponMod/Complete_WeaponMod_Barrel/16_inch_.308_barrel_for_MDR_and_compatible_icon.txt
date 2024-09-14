@@ -33,6 +33,7 @@ ChildParts=[
 	Lantac BMD Blast Mitigation Device A3 direct thread adapter/|
 	AR-10 Delta-Tek DTK-AR10 7.62x51 muzzle brake
 ]
+ChildParts_required=FALSE
 Recoil=-10.000000
 Ergonomics=-6.000000
 centerOfImpact=0.040000

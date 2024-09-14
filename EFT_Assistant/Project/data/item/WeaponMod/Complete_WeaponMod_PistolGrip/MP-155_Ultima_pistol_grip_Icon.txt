@@ -12,6 +12,7 @@ ChildParts=[
 	MP-155 Ultima pistol grip rubber pad/|
 	MP-155 Ultima polymer stock
 ]
+ChildParts_required=TRUE
 Conflict=[
 	Kiba Arms SPRM rail mount for pump-action shotguns/|
 	MP-155 walnut forestock

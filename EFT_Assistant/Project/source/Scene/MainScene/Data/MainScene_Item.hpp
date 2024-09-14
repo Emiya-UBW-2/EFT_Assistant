@@ -12,6 +12,8 @@ namespace FPS_n2 {
 				std::vector<ItemTypeID>						m_TypeID;
 				std::vector<IDParents<ItemID>>				m_Data;
 			public:
+				bool										m_Required{ false };
+			public:
 				void			SetTypeID(ItemTypeID TypeID) noexcept {
 					bool isHit = false;
 					for (const auto& t : this->m_TypeID) {
@@ -564,9 +566,13 @@ namespace FPS_n2 {
 				}
 				//ŒÂ•Ê
 				if (d.contains("slots") && !d["slots"].is_null()) {
+
 					m_ChildPartsID.clear();
 					for (const auto& s : d["slots"]) {
 						m_ChildPartsID.resize(m_ChildPartsID.size() + 1);
+
+						m_ChildPartsID.back().m_Required = s["required"];
+
 						for (const auto& f : s["filters"]) {
 							for (const auto& a : f) {
 								for (const auto& n : a) {
@@ -677,7 +683,7 @@ namespace FPS_n2 {
 					{
 						if (LEFT == "ChildParts") {
 							this->m_ChildPartsID.resize(this->m_ChildPartsID.size() + 1);
-							for (auto&a : Args) {
+							for (auto& a : Args) {
 								bool isHit = false;
 								for (auto& d : this->m_ChildPartsID.back().GetData()) {
 									if (d.GetName() == a) {
@@ -689,6 +695,9 @@ namespace FPS_n2 {
 									this->m_ChildPartsID.back().SetData(a);
 								}
 							}
+						}
+						else if (LEFT == "ChildParts_required") {
+							this->m_ChildPartsID.back().m_Required = (Args[0] == "TRUE");
 						}
 						else if (LEFT == "Conflict") {
 							for (auto&a : Args) {
@@ -778,6 +787,8 @@ namespace FPS_n2 {
 								}
 							}
 							outputfile << "]\n";
+							
+							outputfile << "ChildParts_required=" + (std::string)(m.m_Required ? "TRUE" : "FALSE") + "\n";
 						}
 					}
 				}

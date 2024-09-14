@@ -14,9 +14,11 @@ ChildParts=[
 	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
 	SIG Sauer SRD762Ti 7.62x51 sound suppressor
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	MCX gas block
 ]
+ChildParts_required=TRUE
 Recoil=-3.000000
 Ergonomics=-4.000000
 centerOfImpact=0.095000

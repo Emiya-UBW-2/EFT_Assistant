@@ -11,15 +11,19 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	HK G36 bottom handguard rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	HK G36 side handguard rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	HK G36 side handguard rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	HK G36 hand stop
 ]
+ChildParts_required=FALSE
 Conflict=[
 	Hera Arms CQR tactical foregrip/|
 	HK G36 5.56x45 318mm barrel/|

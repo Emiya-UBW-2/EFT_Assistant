@@ -11,12 +11,15 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AI AXMC AX KeySlot 16 inch handguard
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	AI AXMC padded handguard grip
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	AI AXMC upper receiver
 ]
+ChildParts_required=TRUE
 Recoil=-1.000000
 Ergonomics=4.000000
 accuracyModifier=0.000000

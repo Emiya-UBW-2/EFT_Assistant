@@ -13,25 +13,30 @@ ChildParts=[
 	M1911A1 .45 ACP National Match barrel/|
 	M1911A1 .45 ACP threaded barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	M1911A1 side grips/|
 	M1911 Pachmayr American Legend Grip #423/|
 	M1911 Kiba Arms Geneburn custom side grips
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	M1911A1 pistol slide/|
 	M45A1 pistol slide
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	M1911A1 .45 ACP 7-round magazine/|
 	M1911A1 .45 ACP Wilson Combat 7-round magazine/|
 	M1911A1 .45 ACP Mec-Gar 11-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	M1911A1 Caspian Arms Trik Trigger/|
 	M1911A1 trigger/|
 	M45A1 trigger
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	M1911A1 hammer/|
 	M45A1 hammer/|
@@ -39,17 +44,21 @@ ChildParts=[
 	M1911A1 Wilson Retro Commander hammer/|
 	M1911A1 Wilson Ultralight skeletonized hammer
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	M1911A1 slide stop/|
 	M45A1 slide lock/|
 	M1911A1 Wilson Extended slide stop
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	M1911A1 Weigand Weig-a-tinny rail mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	M1911A1 NcSTAR trigger guard mount
 ]
+ChildParts_required=FALSE
 Recoil=451.000000
 RecoilHorizontal=355.000000
 Ergonomics=75.000000

@@ -11,9 +11,11 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	UZI handguard rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	UZI handguard rail
 ]
+ChildParts_required=FALSE
 Recoil=-2.000000
 Ergonomics=7.000000
 accuracyModifier=0.000000

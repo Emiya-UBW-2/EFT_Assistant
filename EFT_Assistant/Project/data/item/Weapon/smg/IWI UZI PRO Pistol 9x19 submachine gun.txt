@@ -13,9 +13,11 @@ ChildParts=[
 	UZI PRO 9x19 25-round magazine/|
 	UZI PRO 9x19 32-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	UZI PRO 9x19 barrel retaining nut
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	UZI PRO Stabilizing Brace/|
 	UZI PRO A3 Tactical Rear Stock Adapter/|
@@ -23,9 +25,11 @@ ChildParts=[
 	UZI PRO backplate/|
 	UZI PRO CSM stock adapter
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	UZI PRO dust cover
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	UZI PRO A3 Tactical M-LOK handguard/|
 	BCM GUNFIGHTER MOD 3 vertical foregrip/|
@@ -58,6 +62,7 @@ ChildParts=[
 	TangoDown Stubby BGV-QDK foregrip (Black)/|
 	TangoDown Stubby BGV-QDK foregrip (FDE)
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	UZI PRO 9x19 Pike Arms 114mm threaded barrel/|
 	UZI PRO 9x19 114mm barrel/|
@@ -65,6 +70,7 @@ ChildParts=[
 	UZI PRO 9x19 210mm barrel/|
 	UZI PRO 9x19 240mm barrel
 ]
+ChildParts_required=TRUE
 Recoil=59.000000
 RecoilHorizontal=203.000000
 Ergonomics=73.000000

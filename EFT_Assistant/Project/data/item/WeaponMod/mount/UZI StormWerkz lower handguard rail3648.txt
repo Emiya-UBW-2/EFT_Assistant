@@ -22,6 +22,7 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Zenit KR-2 old gen mount
 ]
+ChildParts_required=FALSE
 Conflict=[
 	UZI K-Grip handguard/|
 	UZI handguard with foregrip

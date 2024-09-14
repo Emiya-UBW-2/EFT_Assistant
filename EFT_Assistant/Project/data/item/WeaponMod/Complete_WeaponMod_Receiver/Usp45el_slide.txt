@@ -12,10 +12,12 @@ ChildParts=[
 	HK USP rear sight/|
 	HK USP Tactical rear sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	HK USP front sight/|
 	HK USP Tactical front sight
 ]
+ChildParts_required=FALSE
 Conflict=[
 	HK USP .45 ACP Match compensator/|
 	HK USP .45 ACP barrel/|

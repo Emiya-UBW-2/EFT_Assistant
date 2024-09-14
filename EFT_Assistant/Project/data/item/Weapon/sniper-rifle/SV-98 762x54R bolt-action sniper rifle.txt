@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	SV-98 7.62x54R 10-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
 	ELCAN SpecterDR 1x/4x scope (FDE)/|
@@ -79,21 +80,26 @@ ChildParts=[
 	Wilcox BOSS Xe reflex sight/|
 	SIG ALPHA4 30mm ring scope mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	SV-98 rear sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	SV-98 anti-heat ribbon
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	SV-98 7.62x54R muzzle device/|
 	SV-98 SRVV Mk.2.0 7.62x54R muzzle brake-compensator/|
 	SV-98 7.62x54R thread adapter
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	SV-98 CNC Guns OV-SV98 chassis/|
 	SV-98 wooden stock
 ]
+ChildParts_required=TRUE
 Recoil=250.000000
 RecoilHorizontal=711.000000
 Ergonomics=24.000000

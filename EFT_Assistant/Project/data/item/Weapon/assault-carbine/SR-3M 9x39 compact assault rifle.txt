@@ -11,28 +11,34 @@ propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	SR-3M 9x39 sound suppressor
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AS VAL dust cover/|
 	VSS dust cover
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	VSS/VAL 9x39 6L24 10-round magazine/|
 	VSS/VAL 9x39 6L25 20-round magazine (Plum)/|
 	VSS/VAL 9x39 SR3M.130 30-round magazine/|
 	VSS/VAL 9x39 30-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AS VAL Rotor 43 pistol grip & buffer tube/|
 	AS VAL pistol grip (Plum)/|
 	AS VAL pistol grip (Black)
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	AS VAL skeleton stock
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AK CSS knurled charging handle/|
 	AK Zenit RP-1 charging handle
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
 	BelOMO PK-AA dovetail reflex sight/|
@@ -50,20 +56,24 @@ ChildParts=[
 	SAG Bit low profile dovetail sidemount/|
 	RS Regulate AK-303M Full Length Lower dovetail mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	BelOMO PSO-1 4x24 scope/|
 	BelOMO PSO-1M2-1 4x24 scope/|
 	BelOMO PSO-1M2 4x24 scope
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	SR-3M polymer handguard (Black)/|
 	SR-3M polymer handguard (Plum)/|
 	SR-3M railed polymer handguard (Black)
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	SR-3M polymer foregrip (Black)/|
 	SR-3M polymer foregrip (Plum)
 ]
+ChildParts_required=FALSE
 Recoil=74.000000
 RecoilHorizontal=255.000000
 Ergonomics=45.000000

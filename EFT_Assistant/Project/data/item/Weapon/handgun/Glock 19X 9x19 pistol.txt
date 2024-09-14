@@ -11,12 +11,15 @@ propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	Glock 19X 9x19 barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Glock Pachmayr Tactical Grip Glove
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock 19X pistol slide
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Glock 9x19 "Big Stick" 33-round magazine/|
 	Glock 9x19 17-round magazine/|
@@ -26,6 +29,7 @@ ChildParts=[
 	Glock 9x19 "Big Stick" 31-round magazine (Coyote)/|
 	Glock 9x19 19-round magazine (Coyote)
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Steiner DBAL-PL tactical device/|
@@ -38,9 +42,11 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock Aimtech Tiger Shark sight mount
 ]
+ChildParts_required=FALSE
 Recoil=302.000000
 RecoilHorizontal=250.000000
 Ergonomics=93.000000

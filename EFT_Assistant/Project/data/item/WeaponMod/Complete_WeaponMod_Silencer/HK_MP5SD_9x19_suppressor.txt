@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	HK MP5SD B&T tri-rail ring mount
 ]
+ChildParts_required=FALSE
 Recoil=-15.000001
 Ergonomics=-5.000000
 accuracyModifier=0.000000

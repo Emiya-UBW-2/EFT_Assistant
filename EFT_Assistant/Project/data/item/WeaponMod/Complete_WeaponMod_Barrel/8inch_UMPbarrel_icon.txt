@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	HK UMP B&T OEM .45 ACP sound suppressor
 ]
+ChildParts_required=FALSE
 Recoil=-5.000000
 Ergonomics=-6.000000
 centerOfImpact=0.160000

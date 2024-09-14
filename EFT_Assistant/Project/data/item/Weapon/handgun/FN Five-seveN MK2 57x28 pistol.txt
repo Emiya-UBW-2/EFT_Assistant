@@ -12,12 +12,15 @@ ChildParts=[
 	FN Five-seveN 5.7x28 barrel/|
 	FN Five-seveN 5.7x28 threaded barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	FN Five-seveN MK2 pistol slide
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	FN Five-seveN 5.7x28 20-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	NcSTAR Tactical blue laser LAM-module/|
@@ -31,6 +34,7 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)
 ]
+ChildParts_required=FALSE
 Recoil=281.000000
 RecoilHorizontal=240.000000
 Ergonomics=86.000000

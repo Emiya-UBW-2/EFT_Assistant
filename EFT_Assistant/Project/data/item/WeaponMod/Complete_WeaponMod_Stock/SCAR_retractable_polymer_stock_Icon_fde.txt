@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	FN SCAR rubber buttpad
 ]
+ChildParts_required=FALSE
 Recoil=-17.000000
 Ergonomics=3.000000
 accuracyModifier=0.000000

@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Armasight Zeus-Pro 640 2-8x50 30Hz thermal scope
 ]
+ChildParts_required=FALSE
 Conflict=[
 	AR-15 Colt A2 rear sight/|
 	AR-15 rear sight carry handle

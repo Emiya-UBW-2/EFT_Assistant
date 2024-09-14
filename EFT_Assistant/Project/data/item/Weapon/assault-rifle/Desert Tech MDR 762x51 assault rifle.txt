@@ -12,6 +12,7 @@ ChildParts=[
 	MDR pistol grip (FDE)/|
 	MDR pistol grip (Black)
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	AR-10 7.62x51 KAC 10-round steel magazine/|
 	AR-10 7.62x51 KAC 20-round steel magazine/|
@@ -19,13 +20,16 @@ ChildParts=[
 	AR-10 7.62x51 Lancer L7AWM 20-round magazine/|
 	AR-10 7.62x51 Lancer L7AWM 25-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	MDR handguard (FDE)/|
 	MDR handguard (Black)
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	MDR 7.62x51 16 inch barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	ELCAN SpecterDR 1x/4x scope/|
 	ELCAN SpecterDR 1x/4x scope (FDE)/|
@@ -93,6 +97,7 @@ ChildParts=[
 	GBRS Aimpoint Hydra Mount Kit (FDE)/|
 	Wilcox BOSS Xe reflex sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	HK MP7 flip-up rear sight/|
 	KAC Folding Micro rear sight/|
@@ -105,6 +110,7 @@ ChildParts=[
 	AR-15 Colt A2 rear sight/|
 	AR-15 rear sight carry handle
 ]
+ChildParts_required=FALSE
 Recoil=133.000000
 RecoilHorizontal=348.000000
 Ergonomics=72.000000

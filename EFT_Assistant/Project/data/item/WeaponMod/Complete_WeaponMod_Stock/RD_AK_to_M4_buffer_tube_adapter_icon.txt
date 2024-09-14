@@ -28,6 +28,7 @@ ChildParts=[
 	AR-15 ADAR 2-15 buffer tube/|
 	AR-15 RTM ATP buffer tube
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000

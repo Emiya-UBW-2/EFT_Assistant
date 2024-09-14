@@ -12,20 +12,25 @@ ChildParts=[
 	ORSIS T-5000M long length rail/|
 	ORSIS T-5000M medium length rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	ORSIS T-5000M long length rail/|
 	ORSIS T-5000M medium length rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	ORSIS T-5000M long length rail/|
 	ORSIS T-5000M medium length rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	ORSIS T-5000M medium length rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	ORSIS T-5000M padded handguard grip
 ]
+ChildParts_required=TRUE
 Recoil=-2.000000
 Ergonomics=11.000000
 accuracyModifier=0.000000

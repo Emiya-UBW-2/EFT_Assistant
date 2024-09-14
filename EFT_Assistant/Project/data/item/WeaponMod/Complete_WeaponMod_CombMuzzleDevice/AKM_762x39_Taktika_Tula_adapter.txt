@@ -17,6 +17,7 @@ ChildParts=[
 	AK Hexagon DTKP MK.2 7.62x39 sound suppressor/|
 	AKM Zenit DTK-4M 7.62x39 sound suppressor
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000

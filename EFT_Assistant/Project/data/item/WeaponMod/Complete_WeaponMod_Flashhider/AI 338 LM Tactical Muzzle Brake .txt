@@ -12,6 +12,7 @@ ChildParts=[
 	AI .338 LM Tactical Sound Moderator/|
 	AI AXMC thread protection cap
 ]
+ChildParts_required=FALSE
 Recoil=-8.000000
 Ergonomics=-2.000000
 accuracyModifier=0.010000

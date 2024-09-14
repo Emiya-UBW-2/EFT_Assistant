@@ -76,6 +76,7 @@ ChildParts=[
 	Wilcox BOSS Xe reflex sight/|
 	SIG ALPHA4 30mm ring scope mount
 ]
+ChildParts_required=FALSE
 Conflict=[
 	AK TROY Full Length Rail handguard & gas tube combo/|
 	AK UltiMAK M1-B gas tube & handguard/|

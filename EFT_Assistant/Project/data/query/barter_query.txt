@@ -99,6 +99,7 @@
       recoilModifier
       ergonomics
       slots{
+       required
        filters{
          allowedItems{name}
        }
@@ -203,6 +204,7 @@
       recoilModifier
       ergonomics
       slots{
+       required
        filters{
          allowedItems{name}
        }
@@ -256,6 +258,7 @@
       recoilModifier
       ergonomics
       slots{
+       required
        filters{
          allowedItems{name}
        }
@@ -292,6 +295,7 @@
       recoilHorizontal
       ergonomics
       slots{
+       required
        filters{
          allowedItems{name}
        }
@@ -303,6 +307,7 @@
       recoilModifier
       ergonomics
       slots{
+       required
        filters{
          allowedItems{name}
        }

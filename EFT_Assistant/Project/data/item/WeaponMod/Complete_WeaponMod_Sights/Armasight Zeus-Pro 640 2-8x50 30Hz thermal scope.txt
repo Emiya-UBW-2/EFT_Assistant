@@ -17,9 +17,11 @@ ChildParts=[
 	SureFire X400 Ultra tactical flashlight with laser/|
 	SureFire XC1 tactical flashlight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Armasight Zeus-Pro scope eyecup
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=-18.000000
 SightRange=500

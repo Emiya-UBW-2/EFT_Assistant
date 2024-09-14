@@ -11,9 +11,11 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	RPK-16 handguard rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	RPK-16 handguard rail
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	EOTech EXPS3 holographic sight (Tan)/|
 	EOTech XPS3-0 holographic sight/|
@@ -37,6 +39,7 @@ ChildParts=[
 	ELCAN Specter HCO holographic sight/|
 	Wilcox BOSS Xe reflex sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	BCM GUNFIGHTER MOD 3 vertical foregrip/|
 	ASh-12 vertical foregrip/|
@@ -75,6 +78,7 @@ ChildParts=[
 	TangoDown Stubby BGV-QDK foregrip (Black)/|
 	TangoDown Stubby BGV-QDK foregrip (FDE)
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Holosun LS321 Tactical device/|
 	L3Harris AN/PEQ-15 tactical device/|
@@ -84,6 +88,7 @@ ChildParts=[
 	Zenit Perst-3 tactical device/|
 	MAWL-C1+ tactical device
 ]
+ChildParts_required=FALSE
 Recoil=-1.000000
 Ergonomics=6.000000
 accuracyModifier=0.000000

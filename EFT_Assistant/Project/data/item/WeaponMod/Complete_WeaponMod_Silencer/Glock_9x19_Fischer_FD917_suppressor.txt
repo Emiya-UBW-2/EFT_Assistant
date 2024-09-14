@@ -18,6 +18,7 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)
 ]
+ChildParts_required=FALSE
 Conflict=[
 	Glock 9x19 CARVER Custom 4 Port compensator/|
 	Glock 9x19 CARVER Custom Decelerator 3 Port compensator/|

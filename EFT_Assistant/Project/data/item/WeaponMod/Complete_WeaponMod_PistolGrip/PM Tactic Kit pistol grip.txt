@@ -12,6 +12,7 @@ ChildParts=[
 	SureFire XC1 tactical flashlight/|
 	UM Tactical UM3 pistol sight mount
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=12.000000
 accuracyModifier=0.000000

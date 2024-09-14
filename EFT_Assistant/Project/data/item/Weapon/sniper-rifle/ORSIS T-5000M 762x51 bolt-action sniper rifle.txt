@@ -11,15 +11,19 @@ propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	ORSIS T-5000M 7.62x51 5-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	ORSIS T-5000M 7.62x51 660mm barrel
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	ORSIS T-5000M aluminium body
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	ORSIS T-5000M scope mount
 ]
+ChildParts_required=FALSE
 Recoil=141.000000
 RecoilHorizontal=567.000000
 Ergonomics=35.000000

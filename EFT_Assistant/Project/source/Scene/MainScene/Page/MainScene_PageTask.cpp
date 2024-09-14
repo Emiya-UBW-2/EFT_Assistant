@@ -353,7 +353,6 @@ namespace FPS_n2 {
 		}
 	}
 	void TaskBG::DrawFront_Sub(int posx, int posy, float) noexcept {
-		auto* DrawParts = DXDraw::Instance();
 		auto* Pad = PadControl::Instance();
 		//モードセレクト
 		{
@@ -373,24 +372,7 @@ namespace FPS_n2 {
 		//
 		if (m_Mode == EnumTaskDrawMode::Tree) {
 			//場所ガイド
-			{
-				int xp = DXDraw::Instance()->GetUIY(1440);
-				int yp = DXDraw::Instance()->GetUIY(820);
-
-				int xs = DXDraw::Instance()->GetUIY(320);
-				int ys = DXDraw::Instance()->GetUIY(180);
-
-				int x_p1 = std::max(posx * xs / DrawParts->GetScreenX(1920), -xs / 2);
-				int y_p1 = std::max(posy * ys / DrawParts->GetScreenY(1080), -ys / 2);
-				int x_p2 = std::min(this->m_posxMaxBuffer * xs / DrawParts->GetScreenX(1920), xs + xs / 2);
-				int y_p2 = std::min(this->m_posyMaxBuffer * ys / DrawParts->GetScreenY(1080), ys + ys / 2);
-
-				WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 64);
-				WindowSystem::SetBox(xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Black);
-				WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255);
-				WindowSystem::DrawControl::Instance()->SetDrawBox(WindowSystem::DrawLayer::Normal, xp + x_p1, yp + y_p1, xp + x_p2, yp + y_p2, Green, FALSE);
-				WindowSystem::DrawControl::Instance()->SetDrawBox(WindowSystem::DrawLayer::Normal, xp, yp, xp + xs, yp + ys, Red, FALSE);
-			}
+			SetPositionGuide(posx, posy, this->m_posxMaxBuffer, this->m_posyMaxBuffer);
 		}
 		//
 		if (m_Mode == EnumTaskDrawMode::Tree || this->m_Mode == EnumTaskDrawMode::List) {

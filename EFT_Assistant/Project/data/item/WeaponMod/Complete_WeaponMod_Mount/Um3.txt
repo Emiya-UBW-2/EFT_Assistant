@@ -18,6 +18,7 @@ ChildParts=[
 	Trijicon RMR high profile mount/|
 	Trijicon RMR low profile mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	NcSTAR Tactical blue laser LAM-module/|
@@ -30,6 +31,7 @@ ChildParts=[
 	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)
 ]
+ChildParts_required=FALSE
 Conflict=[
 	SilencerCo Hybrid 46 multi-caliber sound suppressor
 ]

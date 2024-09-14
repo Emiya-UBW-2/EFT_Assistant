@@ -19,6 +19,7 @@ ChildParts=[
 	BCM GUNFIGHTER MOD 3 M-LOK foregrip (FDE)/|
 	BCM GUNFIGHTER MOD 3 M-LOK foregrip (Black)
 ]
+ChildParts_required=FALSE
 Conflict=[
 	AR-15 5.56x45 Molot Arms 406mm barrel
 ]

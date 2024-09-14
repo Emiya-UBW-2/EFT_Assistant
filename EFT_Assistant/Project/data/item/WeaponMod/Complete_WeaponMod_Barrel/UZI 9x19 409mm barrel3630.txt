@@ -13,6 +13,7 @@ ChildParts=[
 	UZI 9x19 barrel retaining nut/|
 	UZI vented barrel shroud
 ]
+ChildParts_required=TRUE
 Recoil=-5.000000
 Ergonomics=-5.000000
 centerOfImpact=0.050000

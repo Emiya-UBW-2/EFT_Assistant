@@ -14,6 +14,7 @@ ChildParts=[
 	Trijicon ACOG TA01NSN 4x32 scope (Tan)/|
 	Trijicon ACOG TA11D 3.5x35 scope
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000

@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AR-15 Griffin Armament M4SD-K 5.56x45 sound suppressor
 ]
+ChildParts_required=FALSE
 Recoil=-5.000000
 Ergonomics=-1.000000
 accuracyModifier=0.000000

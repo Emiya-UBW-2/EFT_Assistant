@@ -11,12 +11,15 @@ propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	SVDS 7.62x54R muzzle brake-compensator
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	SVDS gas tube
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	SVD CAA DRG L-1 barrel mount rail
 ]
+ChildParts_required=FALSE
 Recoil=-7.000000
 Ergonomics=-10.000000
 centerOfImpact=0.033000

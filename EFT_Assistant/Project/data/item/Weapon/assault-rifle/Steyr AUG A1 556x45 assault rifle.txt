@@ -13,14 +13,17 @@ ChildParts=[
 	Steyr AUG 5.56x45 10-round magazine/|
 	Steyr AUG 5.56x45 42-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Steyr AUG A1 charging handle/|
 	Steyr AUG A3 charging handle
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Steyr AUG A3 5.56x45 receiver/|
 	Steyr AUG A1 STG77 1.5x optic sight
 ]
+ChildParts_required=TRUE
 Recoil=87.000000
 RecoilHorizontal=258.000000
 Ergonomics=83.000000

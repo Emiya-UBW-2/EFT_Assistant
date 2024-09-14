@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Daniel Defense WAVE QD sound suppressor
 ]
+ChildParts_required=FALSE
 Recoil=-6.000000
 Ergonomics=-1.000000
 accuracyModifier=0.010000

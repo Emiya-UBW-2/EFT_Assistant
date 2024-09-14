@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Magpul M-LOK 0.93 inch rail
 ]
+ChildParts_required=FALSE
 Conflict=[
 	SilencerCo Osprey 9 9x19 sound suppressor/|
 	Gemtech ONE multi-caliber sound suppressor

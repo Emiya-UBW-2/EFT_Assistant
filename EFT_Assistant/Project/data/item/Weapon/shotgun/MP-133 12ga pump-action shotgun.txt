@@ -22,10 +22,12 @@ ChildParts=[
 	MP-133 12ga 750mm barrel/|
 	MP-133 12ga 750mm barrel with rib
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	MP-133 custom plastic forestock with rails/|
 	MP-133 beechwood forestock
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	MP-133 12ga 6-shell magazine/|
 	MP-133 12ga 8-shell magazine/|
@@ -35,18 +37,22 @@ ChildParts=[
 	MP-153 12ga 7-shell magazine/|
 	MP-153 12ga 8-shell magazine
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	MP-133/153 Taktika Tula 12003 stock adapter/|
 	MP-133/153 plastic pistol grip/|
 	MP-133/153 plastic stock/|
 	MP-133/153 wooden stock
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	Kiba Arms SPRM rail mount for pump-action shotguns
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Delta-Tek Sprut mount for pump-action shotguns
 ]
+ChildParts_required=FALSE
 Recoil=397.000000
 RecoilHorizontal=522.000000
 Ergonomics=40.000000

@@ -35,6 +35,7 @@ ChildParts=[
 	Trijicon RMR low profile mount/|
 	ELCAN Specter HCO holographic sight
 ]
+ChildParts_required=FALSE
 Recoil=0.000000
 Ergonomics=0.000000
 accuracyModifier=0.000000

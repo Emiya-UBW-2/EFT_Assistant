@@ -11,6 +11,7 @@ propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	RD-704 SLR ION Lite + Railed Gas Tube handguard & gas tube combo
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	AR-10 2A Armanent X3 7.62x51 compensator/|
 	AR-10 AAC Blackout 51T 7.62x51 flash hider/|
@@ -36,6 +37,7 @@ ChildParts=[
 	Lantac BMD Blast Mitigation Device A3 direct thread adapter/|
 	SIG Sauer SRD762Ti 7.62x51 sound suppressor
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock/|
 	AK Aeroknox Scorpius pistol grip/|
@@ -64,6 +66,7 @@ ChildParts=[
 	AK CG101 AR-type pistol grip adapter/|
 	AK PUFGUN SG-M2 pistol grip
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	AK-74 dust cover (6P20 0-1)/|
 	AK-74M dust cover (6P34 0-1)/|
@@ -74,6 +77,7 @@ ChildParts=[
 	RD-704 dust cover/|
 	AK TWS Dog Leg Rail dust cover
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AK-105 rear sight (6P44 Sb.1-30)/|
 	AK-74 rear sight (6P20 Sb.2)/|
@@ -83,6 +87,7 @@ ChildParts=[
 	AK-12 rear sight/|
 	RPK-16 rear sight
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AK-74 polymer stock (6P20 Sb.7)/|
 	AK-74 6P20 Sb.7 polymer stock (Plum)/|
@@ -99,6 +104,7 @@ ChildParts=[
 	AKM/AK-74 ME4 buffer tube adapter/|
 	AKM/AK-74 Zenit PT Lock
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AK 7.62x39 ribbed metal 10-round magazine/|
 	AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine/|
@@ -118,6 +124,7 @@ ChildParts=[
 	AK 7.62x39 X Products X-47 50-round drum magazine/|
 	AK 7.62x39 Magpul PMAG 20 GEN M3 20-round magazine
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
 	BelOMO PK-AA dovetail reflex sight/|
@@ -139,10 +146,12 @@ ChildParts=[
 	Axion Kobra EKP-1S-03 reflex sight (Dovetail)/|
 	RS Regulate AK-303M Full Length Lower dovetail mount
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	AK CSS knurled charging handle/|
 	AK Zenit RP-1 charging handle
 ]
+ChildParts_required=FALSE
 Recoil=144.000000
 RecoilHorizontal=335.000000
 Ergonomics=41.000000

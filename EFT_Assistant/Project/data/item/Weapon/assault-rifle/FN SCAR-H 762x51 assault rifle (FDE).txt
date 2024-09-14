@@ -38,21 +38,26 @@ ChildParts=[
 	AR-15 Aeroknox Orion pistol grip/|
 	AR-15 SIG M400 Reduced Angle Pistol Grip (Coyote Tan)
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	FN SCAR-H 7.62x51 20-round magazine/|
 	FN SCAR-H 7.62x51 20-round magazine (FDE)
 ]
+ChildParts_required=FALSE
 ChildParts=[
 	FN SCAR-H 7.62x51 upper receiver/|
 	FN SCAR-H 7.62x51 upper receiver (FDE)
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	FN SCAR folding polymer stock/|
 	FN SCAR folding polymer stock (FDE)
 ]
+ChildParts_required=TRUE
 ChildParts=[
 	FN SCAR charging handle
 ]
+ChildParts_required=TRUE
 Recoil=162.000000
 RecoilHorizontal=404.000000
 Ergonomics=45.000000
