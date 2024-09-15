@@ -8,11 +8,5 @@ weight=9.800000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
-containsItems=[
-	NPP KlASS Korund-VM body armor (Black)x1/|
-	Korund-VM ballistic plates (Front)x1/|
-	Korund-VM ballistic plate (Back)x1/|
-	Korund-VM ballistic plate (Side)x1
-]
 Name_Jpn=BNTI Korund-VM アーマー デフォルト
 Information_Jpn=

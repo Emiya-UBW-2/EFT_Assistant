@@ -1,9 +1,9 @@
 Name=Tokarev AVT-40 7.62x54R automatic rifle Default
 Base=Tokarev AVT-40 7.62x54R automatic rifle
+Parts=AVT-40 wooden stock 
 Parts=SVT-40 7.62x54R 625mm barrel
 Parts=SVT-40 7.62x54R muzzle brake
 Parts=SVT-40 front sight
 Parts=SVT-40 rear sight
-Parts=AVT-40 7.62x54R 15-round magazine
 Parts=SVT dust cover 
-Parts=AVT-40 wooden stock 
+Parts=AVT-40 7.62x54R 15-round magazine

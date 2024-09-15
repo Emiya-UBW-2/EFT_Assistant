@@ -1,7 +1,6 @@
 Name=SIG MPX 9x19 submachine gun Silenced
 Base=SIG MPX 9x19 submachine gun
 Parts=MPX pistol grip
-Parts=MPX 9x19 30-round magazine
 Parts=MPX GEN1 9x19 upper receiver
 Parts=MPX-SD 9x19 165mm barrel
 Parts=MPX-SD 9x19 integrated sound suppressor
@@ -13,3 +12,4 @@ Parts=MPX flip-up rear sight
 Parts=MPX/MCX Folding Knuckle Stock Adapter
 Parts=Armacon Baskak stock
 Parts=MPX single latch charging handle
+Parts=MPX 9x19 30-round magazine

@@ -8,9 +8,5 @@ weight=13.500000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
-containsItems=[
-	FORT Redut-M body armorx1/|
-	Granit Br4 ballistic platex1
-]
 Name_Jpn=FORT Redut-M ボディアーマー デフォルト
 Information_Jpn=
