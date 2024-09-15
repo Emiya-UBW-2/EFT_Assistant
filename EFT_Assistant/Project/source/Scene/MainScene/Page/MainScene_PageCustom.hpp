@@ -7,18 +7,27 @@
 
 namespace FPS_n2 {
 	class PartsBaseData {
+	public:
 		struct PartsID
 		{
-			ItemID MyID{ INVALID_ID };
-			ItemID ParentID{ INVALID_ID };
-			int SlotNum = 0;
-			PartsID(ItemID my, ItemID parent,int slot) {
+			std::vector<ItemID>			m_ConflictPartsID{};
+			ItemID						MyID{ INVALID_ID };
+			std::string					MyName{};
+			ItemID						ParentID{ INVALID_ID };
+			int							SlotNum = 0;
+			PartsID(ItemID my, const std::string& name, ItemID parent,int slot, const std::vector<ItemID>& conflict) {
 				MyID = my;
+				MyName = name;
+				m_ConflictPartsID = conflict;
 				ParentID = parent;
 				SlotNum = slot;
 			}
-			bool operator==(PartsID& o) {
-				return (this->MyID == o.MyID) && (this->ParentID == o.ParentID);
+			bool IsSameItem(const PartsID& o) const noexcept {
+				return (this->ParentID == o.ParentID) && (this->SlotNum == o.SlotNum) && (this->MyID == o.MyID);
+			}
+
+			bool IsSameSlot(const PartsID& o) const noexcept {
+				return (this->ParentID == o.ParentID) && (this->SlotNum == o.SlotNum);
 			}
 		};
 	public:
@@ -50,8 +59,7 @@ namespace FPS_n2 {
 			void				AddSelect() noexcept;
 			void				SubSelect() noexcept;
 			const ItemList* GetChildPtr(int parentslot = -1) const noexcept;
-			static const bool	ItemPtrChecktoBeFiltered(const ItemList* ptr, bool MagFilter, bool MountFilter, bool SightFilter) noexcept;
-			const bool			ChecktoBeFiltered(int parentslot, bool MagFilter, bool MountFilter, bool SightFilter) const noexcept;
+			const bool			ChecktoBeFiltered(int parentslot, bool MagFilter, bool MountFilter, bool SightFilter, bool AxModFilter) const noexcept;
 		public:
 			const auto			IsWatch() const noexcept { return this->watchCounter > 0; }
 			void				ResetWatchCounter() noexcept { this->watchCounter = 0; }
@@ -134,7 +142,10 @@ namespace FPS_n2 {
 		//
 		void CalcChild(bool MagFilter, bool MountFilter, bool SightFilter, const ItemList* Ptr = nullptr) noexcept;
 		//
-		void CalcChildErgRec(std::vector<PartsBaseData>* Data, const ItemList* Ptr = nullptr, ItemID ParentDataID = INVALID_ID, int ParentDataIndex = INVALID_ID, int slot = 0) noexcept;
+		static const bool			ItemPtrChecktoBeFiltered(ItemTypeID TypeID, bool MagFilter, bool MountFilter, bool SightFilter, bool AxModFilter) noexcept;
+		//
+		void CalcChildBranch(std::vector<PartsBaseData>* Data, const ItemList* Ptr = nullptr, ItemID ParentDataID = INVALID_ID, int ParentDataIndex = INVALID_ID, int slot = 0) noexcept;
+		void CalcChildErgRec(std::vector<PartsBaseData>* Data) noexcept;
 		//•`‰æ
 		bool DrawChild(int XLeftPosition, int YMiddlePosition, float Scale, int parentXpos = 0, int parentYpos = 0, int* Lane = nullptr, const ItemList* Ptr = nullptr) noexcept;
 	public:

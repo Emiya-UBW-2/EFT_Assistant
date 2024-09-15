@@ -6,7 +6,7 @@ namespace FPS_n2 {
 	bool ListControl::MakeLists(int Layer, bool AndNext, const std::function<void(std::pair<int, bool>*, bool, int, int, int)>& ListSet) noexcept {
 		auto& NowSel = this->m_ItemIDs.at(Layer);
 		NowSel.second = ((ListsSel(Layer) != InvalidID) && AndNext);
-		if (Layer == 0 || (Layer >= 1 && this->m_ItemIDs.at(Layer - 1).second)) {
+		if (Layer == 0 || (Layer >= 1 && this->m_ItemIDs.at(static_cast<size_t>(Layer - 1)).second)) {
 			int xsize = (m_ListXSize != 0) ? m_ListXSize : DXDraw::Instance()->GetUIY(400);
 			ListSet(&NowSel, (Layer >= 1), m_ListXPos - (int)m_XChild, m_ListYPos, xsize);
 			return (Layer >= 1);

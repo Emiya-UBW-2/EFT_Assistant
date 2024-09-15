@@ -47,40 +47,8 @@ namespace FPS_n2 {
 		}
 		return nullptr;
 	}
-	const bool			CustomParts::ChildData::ItemPtrChecktoBeFiltered(const ItemList* ptr, bool MagFilter, bool MountFilter, bool SightFilter) noexcept {
-		bool IsHit = false;
-		if (ptr) {
-			if (MagFilter) {
-				if (
-					ptr->GetTypeID() == DataBase::Instance()->GetItemTypeData()->FindID("Magazine")
-					) {
-					IsHit = true;
-				}
-			}
-			if (MountFilter) {
-				if (
-					ptr->GetTypeID() == DataBase::Instance()->GetItemTypeData()->FindID("Mount")
-					) {
-					IsHit = true;
-				}
-			}
-			if (SightFilter) {
-				if (
-					ptr->GetTypeID() == DataBase::Instance()->GetItemTypeData()->FindID("Reflex sight")
-					|| ptr->GetTypeID() == DataBase::Instance()->GetItemTypeData()->FindID("Compact reflex sight")
-					|| ptr->GetTypeID() == DataBase::Instance()->GetItemTypeData()->FindID("Assault scope")
-					|| ptr->GetTypeID() == DataBase::Instance()->GetItemTypeData()->FindID("Scope")
-					|| ptr->GetTypeID() == DataBase::Instance()->GetItemTypeData()->FindID("Special scope")
-					|| ptr->GetTypeID() == DataBase::Instance()->GetItemTypeData()->FindID("Iron sight")
-					) {
-					IsHit = true;
-				}
-			}
-		}
-		return IsHit;
-	}
-	const bool			CustomParts::ChildData::ChecktoBeFiltered(int parentslot, bool MagFilter, bool MountFilter, bool SightFilter) const noexcept {
-		return ItemPtrChecktoBeFiltered(GetChildPtr(parentslot), MagFilter, MountFilter, SightFilter);
+	const bool			CustomParts::ChildData::ChecktoBeFiltered(int parentslot, bool MagFilter, bool MountFilter, bool SightFilter, bool AxModFilter) const noexcept {
+		return CustomParts::ItemPtrChecktoBeFiltered(GetChildPtr(parentslot)->GetTypeID(), MagFilter, MountFilter, SightFilter, AxModFilter);
 	}
 	void				CustomParts::ChildData::Set(const ItemList* parentptr, int parentslot, int Select) noexcept {
 		this->m_ParentPtr = parentptr;
@@ -222,7 +190,7 @@ namespace FPS_n2 {
 			//フィルターに引っかかっていたら大丈夫なものにする
 			for (auto& cID : this->m_ChildData) {
 				while (true) {
-					if (cID.GetIsSelected() && cID.ChecktoBeFiltered(-1, MagFilter, MountFilter, SightFilter)) {
+					if (cID.GetIsSelected() && cID.ChecktoBeFiltered(-1, MagFilter, MountFilter, SightFilter, false)) {
 						cID.AddSelect();
 						continue;
 					}
@@ -245,9 +213,74 @@ namespace FPS_n2 {
 			}
 		}
 	}
-	//
-	void CustomParts::CalcChildErgRec(
-		std::vector<PartsBaseData>* Data, const ItemList* Ptr, ItemID ParentDataID, int ParentDataIndex, int slot) noexcept {
+
+
+	const bool CustomParts::ItemPtrChecktoBeFiltered(ItemTypeID TypeID, bool MagFilter, bool MountFilter, bool SightFilter, bool AxModFilter) noexcept {
+		bool IsHit = false;
+		if (MagFilter) {
+			if (
+				TypeID == DataBase::Instance()->GetItemTypeData()->FindID("magazine")
+				) {
+				IsHit = true;
+			}
+		}
+		if (MountFilter) {
+			if (
+				TypeID == DataBase::Instance()->GetItemTypeData()->FindID("mount")
+				) {
+				IsHit = true;
+			}
+		}
+		if (SightFilter) {
+			if (
+				TypeID == DataBase::Instance()->GetItemTypeData()->FindID("reflex-sight")
+				|| TypeID == DataBase::Instance()->GetItemTypeData()->FindID("compact-reflex-sight")
+				|| TypeID == DataBase::Instance()->GetItemTypeData()->FindID("assault-scope")
+				|| TypeID == DataBase::Instance()->GetItemTypeData()->FindID("scope")
+				|| TypeID == DataBase::Instance()->GetItemTypeData()->FindID("special-scope")
+				|| TypeID == DataBase::Instance()->GetItemTypeData()->FindID("ironsight")
+				|| TypeID == DataBase::Instance()->GetItemTypeData()->FindID("night-vision")
+				|| TypeID == DataBase::Instance()->GetItemTypeData()->FindID("flashlight")
+				|| TypeID == DataBase::Instance()->GetItemTypeData()->FindID("comb-tact-device")
+				) {
+				IsHit = true;
+			}
+		}
+		if (AxModFilter) {
+			if (
+				TypeID == DataBase::Instance()->GetItemTypeData()->FindID("auxiliary-mod")
+				|| TypeID == DataBase::Instance()->GetItemTypeData()->FindID("bipod")
+				|| TypeID == DataBase::Instance()->GetItemTypeData()->FindID("foregrip")
+				|| TypeID == DataBase::Instance()->GetItemTypeData()->FindID("charging-handle")
+				) {
+				IsHit = true;
+			}
+		}
+		return IsHit;
+	}
+
+	template<class T>
+	bool CheckSameElements(const std::vector<T>& A, const std::vector<T>& B) {
+		if (A.size() != B.size()) { return false; }
+		bool IsHit2 = true;
+		for (const auto& cc2 : A) {
+			for (const auto& cc3 : B) {
+				IsHit2 = false;
+				if (cc2.GetID() == cc3.GetID()) {
+					IsHit2 = true;
+					break;
+				}
+			}
+			if (!IsHit2) {
+				break;
+			}
+		}
+		return IsHit2;
+	}
+
+	// 枝を網羅(組み合わせ網羅ではない)
+	void CustomParts::CalcChildBranch(std::vector<PartsBaseData>* Data, const ItemList* Ptr, ItemID ParentDataID, int ParentDataIndex, int slot) noexcept
+	{
 		auto* Ptr_Buf = Ptr;
 		bool IsParent = (ParentDataIndex == -1);
 		if (IsParent) {
@@ -261,82 +294,125 @@ namespace FPS_n2 {
 		}
 		//現状のパーツのみ
 		Data->resize(Data->size() + 1);
-
-		// 枝を網羅(組み合わせ網羅ではない)
-		{
-			if (!IsParent) {
-				Data->back() = Data->at(ParentDataIndex);
-			}
-			//何もつけない場合
-			Data->back().m_PartsIDList.emplace_back(Ptr_Buf->GetID(), ParentDataID, slot);
-			ParentDataIndex = (int)Data->size() - 1;
-			//子パーツ
-			bool Required = false;
-			for (int index = 0; const auto & c : Ptr_Buf->GetChildParts()) {
-				Required |= c.m_Required;
-				if (!c.m_Required) { continue; }
-				for (auto& cptr : c.GetData()) {
-					CalcChildErgRec(Data, DataBase::Instance()->GetItemData()->FindPtr(cptr.GetID()), Ptr_Buf->GetID(), ParentDataIndex, index);
-				}
-				index++;
-			}
-			//必要なパーツが付けられていないのでつけない場合を消す
-			if (Required) {
-				std::swap(Data->back(), Data->at(ParentDataIndex));
-				Data->pop_back();
-			}
+		if (!IsParent) {
+			Data->back() = Data->at(ParentDataIndex);
 		}
-
-		// 枝をもとに組み合わせ網羅
-		if (IsParent) {
-			int BaseSize = (int)Data->size();
-			int BaseMin = 0;
-			int BaseMax = 0;
-			for (int loop = 0; loop < 4; loop++) {
-				BaseMin = BaseMax;
-				BaseMax = (int)Data->size();
-				for (int Branch1 = 0; Branch1 < BaseSize; Branch1++) {
-					for (int Branch2 = BaseMin; Branch2 < BaseMax; Branch2++) {
-						bool IsActive = false;
-						for (int loop2 = 0, max2 = (int)Data->at(Branch2).m_PartsIDList.size(); loop2 < max2; loop2++) {
-							//Branch1の方にあるデータに被っていないものだけ追加する
-							auto& Parts2 = Data->at(Branch2).m_PartsIDList.at(loop2);
-							if (loop2 < Data->at(Branch1).m_PartsIDList.size()) {
-								if (Data->at(Branch1).m_PartsIDList.at(loop2) == Parts2) { continue; }
-							}
-							//被ってなくても同じスロットに被っている場合はスルー
-							{
-								bool IsThrough = false;
-								for (int loop1 = 0, max1 = (int)Data->at(Branch1).m_PartsIDList.size(); loop1 < max1; loop1++) {
-									auto& Parts1 = Data->at(Branch1).m_PartsIDList.at(loop1);
-									if (Parts2.SlotNum == Parts1.SlotNum) {
-										IsThrough = true;
-										break;
-									}
-								}
-								if (IsThrough) { continue; }
-							}
-							//適用
-							if (!IsActive) {
-								IsActive = true;
-								Data->resize(Data->size() + 1);
-								Data->back() = Data->at(Branch1);
-							}
-							Data->back().m_PartsIDList.emplace_back(Parts2);
-						}
+		//
+		{
+			std::vector<ItemID> Conflict;
+			Conflict.clear();
+			for (auto& conf : Ptr_Buf->GetConflictParts()) {
+				Conflict.emplace_back(conf.GetID());
+			}
+			Data->back().m_PartsIDList.emplace_back(Ptr_Buf->GetID(), Ptr_Buf->GetName_Jpn(), ParentDataID, slot, Conflict);
+			ParentDataIndex = (int)Data->size() - 1;
+		}
+		//子パーツ
+		std::vector<ItemList*> ItemHitList;
+		bool Required = false;
+		for (int index = 0; const auto & c : Ptr_Buf->GetChildParts()) {
+			Required |= c.m_Required;
+			//if (!c.m_Required) { continue; }
+			ItemHitList.clear();
+			for (auto& cptr : c.GetData()) {
+				auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(cptr.GetID());
+				//任意パーツで特定のアイテム以外
+				if (!c.m_Required) {
+					if (CustomParts::ItemPtrChecktoBeFiltered(ptr->GetTypeID(), true, true, true, true)) {
+						continue;
 					}
 				}
-
-				continue;
-				//パーツ間に干渉があったら省く
-				for (int Branch1 = 0, Max = (int)Data->size(); Branch1 < Max; Branch1++) {
-					auto& data = Data->at(Branch1);
-					bool IsConflict = false;
-					for (auto& parts : data.m_PartsIDList) {
-						auto* pItem1 = DataBase::Instance()->GetItemData()->FindPtr(parts.MyID);
-						for (auto& conf : pItem1->GetConflictParts()) {
-							for (auto& parts2 : data.m_PartsIDList) {
-								if (conf.GetID() == parts2.MyID) {
+				// 既に登録したアイテムの中でエルゴ、反動、スロット、干渉がすべて同じものはスルーする
+				bool IsSameSpec = false;
+				for (auto& l : ItemHitList) {
+					//リコイル、エルゴが同じでない
+					if (l->GetErgonomics() != ptr->GetErgonomics()) { continue; }
+					if (l->GetRecoil() != ptr->GetRecoil()) { continue; }
+					//干渉リストに同じものが入っているかどうか
+					if (!CheckSameElements(ptr->GetConflictParts(), l->GetConflictParts())) { continue; }
+					//こどもリストが同じ
+					{
+						if (ptr->GetChildParts().size() != l->GetChildParts().size()) { continue; }
+						bool IsHit = true;
+						for (const auto& c2 : ptr->GetChildParts()) {
+							for (const auto& c3 : l->GetChildParts()) {
+								IsHit = false;
+								if (CheckSameElements(c2.GetData(), c3.GetData())) {
+									IsHit = true;
+									break;
+								}
+							}
+							if (!IsHit) {
+								break;
+							}
+						}
+						if (!IsHit) {
+							continue;
+						}
+					}
+					IsSameSpec = true;
+					break;
+				}
+				if (IsSameSpec) {
+					continue;
+				}
+				//ブラックリストに入っているなら
+				if (PlayerData::Instance()->GetItemLock(ptr->GetIDstr().c_str())) {
+					continue;
+				}
+				//
+				ItemHitList.emplace_back(ptr);//
+				CalcChildBranch(Data, ptr, Ptr_Buf->GetID(), ParentDataIndex, index);
+			}
+			index++;
+		}
+		//必要なパーツが付けられていないのでつけない場合を消す
+		if (Required) {
+			std::swap(Data->back(), Data->at(ParentDataIndex));
+			Data->pop_back();
+		}
+		if (IsParent) {
+			for (auto& Parts2Base : *Data) {
+				std::sort(Parts2Base.m_PartsIDList.begin() + 1, Parts2Base.m_PartsIDList.end(),
+					[&](const PartsBaseData::PartsID& Parts1, const PartsBaseData::PartsID& Parts2) { return Parts1.MyID > Parts2.MyID; });
+			}
+		}
+	}
+	//
+	void CustomParts::CalcChildErgRec(
+		std::vector<PartsBaseData>* Data) noexcept {
+		std::vector<PartsBaseData>	BranchDataBase;
+		CalcChildBranch(&BranchDataBase);
+		printfDx("BlanchList : %d\n", BranchDataBase.size());
+		if (BranchDataBase.size() > 100) {
+			printfDx("So Many Blanch : Need More Filtering Less Than 200\n");
+			return;
+		}
+		(*Data) = BranchDataBase;
+		// 枝をもとに組み合わせ網羅
+		{
+			int BaseMin = 0;
+			int BaseMax = 0;
+			for (int loop = 0; loop < 10; loop++) {
+				BaseMin = BaseMax;
+				BaseMax = (int)Data->size();
+				if (BaseMin == BaseMax) { break; }
+				for (auto& Parts1Base : BranchDataBase) {
+					auto CheckSameSlot = [&](const PartsBaseData::PartsID& Parts2) {
+						bool IsThrough = false;
+						for (auto& Parts1 : Parts1Base.m_PartsIDList) {
+							if (Parts1.IsSameSlot(Parts2)) {
+								IsThrough = true;
+								break;
+							}
+						}
+						return IsThrough;
+					};
+					auto CheckConflict = [&](const PartsBaseData::PartsID& Parts2) {
+						bool IsConflict = false;
+						for (auto& parts : Parts1Base.m_PartsIDList) {
+							for (auto& conf : parts.m_ConflictPartsID) {
+								if (conf == Parts2.MyID) {
 									IsConflict = true;
 									break;
 								}
@@ -345,76 +421,93 @@ namespace FPS_n2 {
 								break;
 							}
 						}
-						if (IsConflict) {
-							break;
-						}
-					}
-					if (IsConflict) {
-						std::swap(Data->back(), Data->at(Branch1));
-						Data->pop_back();
-						Max--;
-						Branch1--;
-					}
-				}
-
-			}
-		}
-
-		//被っているものを排除する
-		if (IsParent) {
-			for (int index = 0, Max = (int)Data->size(); index < Max; index++) {
-				auto& data = Data->at(index);
-				bool IsSame = false;
-				for (auto& data2 : *Data) {
-					if (&data == &data2) { continue; }
-					if (data.m_PartsIDList.size() != data2.m_PartsIDList.size()) { continue; }
-					int max = (int)data.m_PartsIDList.size();
-					bool isHit = false;
-					for (int loop = 0; loop < max; loop++) {
-						isHit = false;
-						//要素がかぶらない場合は違うよ
-						for (int loop2 = 0; loop2 < max; loop2++) {
-							if (data.m_PartsIDList.at(loop) == data2.m_PartsIDList.at(loop2)) {
-								isHit = true;
+						return IsConflict;
+						};
+					auto CheckParent = [&](const PartsBaseData::PartsID& Parts2) {
+						bool HasParent = false;
+						for (auto& parts : Parts1Base.m_PartsIDList) {
+							if (parts.MyID == Parts2.ParentID) {
+								HasParent = true;
 								break;
 							}
 						}
-						if (!isHit) {
-							break;
+						return HasParent;
+						};
+					for (int Branch2 = BaseMin; Branch2 < BaseMax; Branch2++) {
+						bool IsActive = false;
+						for (int loop2 = 0, max2 = (int)Data->at(Branch2).m_PartsIDList.size(); loop2 < max2; loop2++) {
+							auto& Parts2 = Data->at(Branch2).m_PartsIDList.at(loop2);
+							// Branch1の方にあるデータと同じスロットに被っている場合はスルー
+							if (CheckSameSlot(Parts2)) { continue; }
+							// 干渉チェック
+							if (CheckConflict(Parts2)) { continue; }
+							// 親になるアイテムがないなら
+							if (!CheckParent(Parts2)) { continue; }
+							//適用
+							if (!IsActive) {
+								IsActive = true;
+								Data->resize(Data->size() + 1);
+								Data->back() = Parts1Base;
+							}
+							Data->back().m_PartsIDList.emplace_back(Parts2);
+						}
+						if (IsActive) {
+							std::sort(Data->back().m_PartsIDList.begin() + 1, Data->back().m_PartsIDList.end(),
+								[&](const PartsBaseData::PartsID& Parts1, const PartsBaseData::PartsID& Parts2) { return Parts1.MyID > Parts2.MyID; });
+							//被っているものなら削除
+							{
+								auto& data = Data->back();
+								bool IsSame = false;
+								for (auto& data2 : *Data) {
+									if (&data == &data2) { continue; }
+									if (data.m_PartsIDList.size() != data2.m_PartsIDList.size()) { continue; }
+									int max = (int)data.m_PartsIDList.size();
+									bool isHit = false;
+									for (int loop3 = 0; loop3 < max; loop3++) {
+										isHit = true;
+										//要素がかぶらない場合は違うよ
+										if (!data.m_PartsIDList.at(loop3).IsSameItem(data2.m_PartsIDList.at(loop3))) {
+											isHit = false;
+											break;
+										}
+									}
+									if (isHit) {
+										IsSame = true;
+										break;
+									}
+								}
+								if (IsSame) {
+									Data->pop_back();
+								}
+							}
 						}
 					}
-					if (isHit) {
-						IsSame = true;
-					}
-				}
-				if (IsSame) {
-					std::swap(Data->back(), Data->at(index));
-					Data->pop_back();
-					Max--;
-					index--;
 				}
 			}
 		}
-
-
-
-		//必須パーツが埋まっていない場合省く
-		if (IsParent) {
-			for (int index = 0, Max = (int)Data->size(); index < Max; index++) {
-				auto& data = Data->at(index);
-				bool SlotAllOk = true;
-				for (auto& parts : data.m_PartsIDList) {
-					auto* Ptr_t = DataBase::Instance()->GetItemData()->FindPtr(parts.MyID);
-					if (Ptr_t) {
-						for (const auto& c : Ptr_t->GetChildParts()) {
-							if (c.m_Required) {//埋める必要のあるスロットがあって
-								bool isHit = false;
-								for (auto& parts2 : data.m_PartsIDList) {
-									if (parts2.ParentID == parts.MyID) {
-										//子オブジェの中でスロット対象のオブジェクトがあったら
-										for (auto& cptr : c.GetData()) {
-											if (cptr.GetID() == parts2.MyID) {
-												isHit = true;
+		while (true) {
+			//break;
+			//必須パーツが埋まっていない場合省く
+			{
+				for (int index = 0, Max = (int)Data->size(); index < Max; index++) {
+					auto& data = Data->at(index);
+					bool SlotAllOk = true;
+					for (auto& parts : data.m_PartsIDList) {
+						auto* Ptr_t = DataBase::Instance()->GetItemData()->FindPtr(parts.MyID);
+						if (Ptr_t) {
+							for (const auto& c : Ptr_t->GetChildParts()) {
+								if (c.m_Required) {//埋める必要のあるスロットがあって
+									bool isHit = false;
+									for (auto& parts2 : data.m_PartsIDList) {
+										if (parts2.ParentID == parts.MyID) {
+											//子オブジェの中でスロット対象のオブジェクトがあったら
+											for (auto& cptr : c.GetData()) {
+												if (cptr.GetID() == parts2.MyID) {
+													isHit = true;
+													break;
+												}
+											}
+											if (isHit) {
 												break;
 											}
 										}
@@ -422,50 +515,42 @@ namespace FPS_n2 {
 											break;
 										}
 									}
-									if (isHit) {
-										break;
+									//スロットが空なら
+									if (!isHit) {
+										SlotAllOk = false;
 									}
 								}
-								//スロットが空なら
-								if (!isHit) {
-									SlotAllOk = false;
-								}
+							}
+							if (!SlotAllOk) {
+								break;
 							}
 						}
-						if (!SlotAllOk) {
-							break;
-						}
+					}
+					if (!SlotAllOk) {
+						std::swap(Data->back(), Data->at(index));
+						Data->pop_back();
+						Max--;
+						index--;
 					}
 				}
-				if (!SlotAllOk) {
-					std::swap(Data->back(), Data->at(index));
-					Data->pop_back();
-					Max--;
-					index--;
-				}
 			}
+			break;
 		}
-
 		//保存
-		if (IsParent) {
+		{
 			std::ofstream outputfile("Save/AAAA.txt");
 			for (auto& data : *Data) {
 				for (auto& parts : data.m_PartsIDList) {
-					auto* pItem1 = DataBase::Instance()->GetItemData()->FindPtr(parts.MyID);
-					outputfile << pItem1->GetName() + "\t,";
-					/*
-					if (&parts == &data.m_PartsIDList.back()) {
-						auto* pItem1 = DataBase::Instance()->GetItemData()->FindPtr(parts.MyID);
-						outputfile << pItem1->GetShortName() + "\t,";
+					if (&parts == &data.m_PartsIDList.front()) {
 					}
 					else {
-						outputfile << "\t,";
+						outputfile << parts.MyName + "\t,";
 					}
-					//*/
 				}
 				outputfile << "\n";
 			}
 			outputfile.close();
+			printfDx("OK : %d\n", Data->size());
 		}
 	}
 	//描画
@@ -563,19 +648,30 @@ namespace FPS_n2 {
 			if (cID->GetIsSelected()) {
 				WindowSystem::DrawControl::Instance()->SetDrawBox(WindowSystem::DrawLayer::Normal, XLeftPosition, YUp, XRight, YBottom, RedPop, false);
 				if (Pad->GetAtoZKey('L').trigger()) {
-					//ロックをかける
-					for (const auto& cID2 : cID->GetMySlotData().GetData()) {
-						if (cID->GetChildPtr() != DataBase::Instance()->GetItemData()->FindPtr(cID2.GetID())) {
-							PlayerData::Instance()->SetItemLock(DataBase::Instance()->GetItemData()->FindPtr(cID2.GetID())->GetIDstr().c_str(), false);
-						}
-					}
 					PlayerData::Instance()->OnOffItemLock(cID->GetChildPtr()->GetIDstr().c_str());
 				}
 				WindowSystem::DrawControl::Instance()->SetString(WindowSystem::DrawLayer::Front,
 					FontPool::FontType::MS_Gothic, LineHeight,
 					STRX_RIGHT, STRY_BOTTOM, Pad->GetMS_X(), Pad->GetMS_Y(), RedPop, Black,
-					"Lキーで優先パーツに設定"
+					"Lキーでブラックリストに設定"
 				);
+				if (false) {
+					WindowSystem::DrawControl::Instance()->SetDrawBox(WindowSystem::DrawLayer::Normal, XLeftPosition, YUp, XRight, YBottom, RedPop, false);
+					if (Pad->GetAtoZKey('L').trigger()) {
+						//ロックをかける
+						for (const auto& cID2 : cID->GetMySlotData().GetData()) {
+							if (cID->GetChildPtr() != DataBase::Instance()->GetItemData()->FindPtr(cID2.GetID())) {
+								PlayerData::Instance()->SetItemLock(DataBase::Instance()->GetItemData()->FindPtr(cID2.GetID())->GetIDstr().c_str(), false);
+							}
+						}
+						PlayerData::Instance()->OnOffItemLock(cID->GetChildPtr()->GetIDstr().c_str());
+					}
+					WindowSystem::DrawControl::Instance()->SetString(WindowSystem::DrawLayer::Front,
+						FontPool::FontType::MS_Gothic, LineHeight,
+						STRX_RIGHT, STRY_BOTTOM, Pad->GetMS_X(), Pad->GetMS_Y(), RedPop, Black,
+						"Lキーで優先パーツに設定"
+					);
+				}
 			}
 			m_SpecChange = false;
 			m_RecAddMin = 1000.f;
@@ -672,12 +768,11 @@ namespace FPS_n2 {
 			//設定
 			m_CustomParts->CalcChild(!m_EnableMag, !m_EnableMount, !m_EnableSight);
 			//パターンを検索
-			m_PartsChange = false;//これで無効化
+			//m_PartsChange = false;//これで無効化
 			if (m_PartsChange) {
 				m_PartsChange = false;
 				std::vector<PartsBaseData>	PartsDatas;
 				m_CustomParts->CalcChildErgRec(&PartsDatas);
-				printfDx("%d\n", PartsDatas.size());
 			}
 		}
 		else {

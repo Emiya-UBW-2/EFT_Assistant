@@ -220,10 +220,9 @@ namespace FPS_n2 {
 			return InvalidID;
 		}
 		List*			FindPtr(int id) const noexcept {
-			for (auto&t : this->m_List) {
-				if (t.GetID() == id) {
-					return (List*)&t;
-				}
+			auto result = std::find_if(this->m_List.begin(), this->m_List.end(), [&](const List& t) {return (t.GetID() == id); });
+			if (result != this->m_List.end()) {
+				return (List*)&(*result);
 			}
 			std::string ErrMes = "Error : Not Find ID :";
 			ErrMes += std::to_string(id);
