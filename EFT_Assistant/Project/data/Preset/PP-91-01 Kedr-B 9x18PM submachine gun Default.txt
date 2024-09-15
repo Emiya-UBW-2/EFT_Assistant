@@ -1,0 +1,6 @@
+Name=PP-91-01 Kedr-B 9x18PM submachine gun Default
+Base=PP-91-01 Kedr-B 9x18PM submachine gun
+Parts=PP-91 Kedr polymer pistol grip
+Parts=PP-91-01 Kedr-B threaded suppressor adapter
+Parts=PP-91-01 Kedr-B 9x18PM sound suppressor
+Parts=PP-91 "Kedr" 9x18PM 30-round magazine

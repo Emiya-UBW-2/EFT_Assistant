@@ -1,0 +1,12 @@
+Name=Degtyarev RPDN 7.62x39 machine gun 1P78-1
+Base=Degtyarev RPDN 7.62x39 machine gun
+Parts=RPD 7.62x39 "Buben" 100-round box
+Parts=RPD wooden stock
+Parts=RPD wooden pistol grip
+Parts=RPD 7.62x39 520mm barrel
+Parts=RPD bipod
+Parts=RPD wooden handguard
+Parts=RPD rear sight
+Parts=NPZ 1P78-1 dovetail mount
+Parts=NPZ 1P78-1 2.8x scope
+Parts=NPZ 1P78 scope eyecup

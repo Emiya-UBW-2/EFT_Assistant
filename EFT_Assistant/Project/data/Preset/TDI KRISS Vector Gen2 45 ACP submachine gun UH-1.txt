@@ -1,0 +1,13 @@
+Name=TDI KRISS Vector Gen.2 .45 ACP submachine gun UH-1
+Base=TDI KRISS Vector Gen.2 .45 ACP submachine gun
+Parts=KRISS Vector .45 ACP 5 inch barrel
+Parts=KRISS Vector .45 ACP thread protection cap
+Parts=Glock .45 ACP KRISS G30 MagEx 30-round magazine
+Parts=KRISS Defiance low profile flip-up front sight
+Parts=KRISS Defiance low profile flip-up rear sight
+Parts=KRISS Vector Gen.2 folding stock
+Parts=KRISS Vector bottom rail
+Parts=Magpul RVG foregrip (Black)
+Parts=KRISS Vector side rail
+Parts=NcSTAR Tactical blue laser LAM-module
+Parts=Vortex Razor AMG UH-1 holographic sight

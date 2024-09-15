@@ -1,0 +1,11 @@
+Name=Benelli M3 Super 90 12ga dual-mode shotgun BOSS Xe
+Base=Benelli M3 Super 90 12ga dual-mode shotgun
+Parts=Benelli M3 Super 90 12ga 500mm barrel
+Parts=Remington Tactical Choke 12ga
+Parts=Benelli M3 forend
+Parts=Benelli M3 Super 90 12ga 7-shell magazine
+Parts=Benelli M3 Mesa Tactical Urbino stock
+Parts=Benelli M3 Super 90 charging handle
+Parts=Benelli M3 Super 90 upper receiver top rail
+Parts=Wilcox BOSS Xe reflex sight
+Parts=Benelli M3 Ghost Ring rear sight

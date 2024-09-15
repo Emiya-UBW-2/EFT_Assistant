@@ -1,0 +1,3 @@
+Name=20x1mm toy gun Default
+Base=20x1mm toy gun
+Parts=Toy gun 20x1mm 20-round magazine

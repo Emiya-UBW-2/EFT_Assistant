@@ -1,4 +1,4 @@
-IDstr=6489ca66d0c36c0a4925c4c4
+IDstr=64899f4189de40533661a0c0
 Name=Sealed weapon case
 ShortName=Weapon (sealed)
 Information_Eng=Sealed weapon case

@@ -1,0 +1,13 @@
+Name=Remington Model 700 7.62x51 bolt-action sniper rifle MRS
+Base=Remington Model 700 7.62x51 bolt-action sniper rifle
+Parts=M700 7.62x51 AI AICS 10-round magazine
+Parts=M700 AB Arms MOD*X GEN 3 chassis
+Parts=AR-15 Colt A2 buffer tube
+Parts=AR-15 Magpul PRS GEN2 stock (FDE)
+Parts=AR-15 Magpul MIAD pistol grip (FDE)
+Parts=M700 AB Arms MOD*X GEN 3 KeyMod handguard
+Parts=Strike Industries KeyMod 4 inch rail
+Parts=Strike Industries KeyMod 6 inch rail
+Parts=M700 7.62x51 20 inch threaded barrel
+Parts=M700 thread protection cap
+Parts=M700 AB Arms MOD*X rail mount

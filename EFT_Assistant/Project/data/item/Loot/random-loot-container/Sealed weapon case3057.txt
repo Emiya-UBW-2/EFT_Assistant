@@ -1,5 +1,6 @@
-IDstr=6489c99f7c07471efa3e03c0
+IDstr=64899ec0a236de328b12db52
 Name=Sealed weapon case
+ShortName=Weapon (sealed)
 Information_Eng=Sealed weapon case
 Itemtype=random-loot-container
 width=5

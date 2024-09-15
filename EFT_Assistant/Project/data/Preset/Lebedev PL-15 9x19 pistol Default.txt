@@ -1,0 +1,7 @@
+Name=Lebedev PL-15 9x19 pistol Default
+Base=Lebedev PL-15 9x19 pistol
+Parts=PL-15 9x19 barrel
+Parts=PL-15 pistol slide
+Parts=PL-15 rear sight
+Parts=PL-15 front sight
+Parts=PL-15 9x19 16-round magazine

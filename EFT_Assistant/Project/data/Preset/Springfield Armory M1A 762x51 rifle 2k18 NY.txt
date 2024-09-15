@@ -1,0 +1,17 @@
+Name=Springfield Armory M1A 7.62x51 rifle 2k18 NY
+Base=Springfield Armory M1A 7.62x51 rifle
+Parts=M14 7.62x51 X Products X-14 50-round drum magazine
+Parts=M14 TROY S.A.S.S. Chassis stock
+Parts=Magpul AFG tactical foregrip (FDE)
+Parts=Armasight Vulcan universal base
+Parts=Armasight Vulcan MG 3.5x Bravo night vision scope
+Parts=NcSTAR MPR45 Backup mount
+Parts=Burris FastFire Weaver Base
+Parts=Burris FastFire 3 reflex sight
+Parts=L3Harris AN/PEQ-15 tactical device
+Parts=AR-15 Damage Industries ECS pistol grip (FDE)
+Parts=AR-15 Colt Carbine buffer tube
+Parts=AR-15 Magpul MOE Carbine stock (FDE)
+Parts=Magpul MOE Carbine rubber buttpad
+Parts=M1A 7.62x51 22 inch barrel
+Parts=M14 JP Enterprises 7.62x51 Tactical Compensator

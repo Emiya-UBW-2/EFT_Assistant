@@ -1,0 +1,3 @@
+Name=Serdyukov SR-1MP Gyurza 9x21 pistol Default
+Base=Serdyukov SR-1MP Gyurza 9x21 pistol
+Parts=SR-1MP 9x21 18-round magazine

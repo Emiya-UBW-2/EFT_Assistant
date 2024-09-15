@@ -1,0 +1,13 @@
+Name=RPK-16 5.45x39 light machine gun Drum
+Base=RPK-16 5.45x39 light machine gun
+Parts=AK-12 pistol grip
+Parts=RPK-16 dust cover
+Parts=RPK-16 rear sight base
+Parts=RPK-16 rear sight
+Parts=RPK-16 5.45x39 95-round drum magazine
+Parts=RPK-16 buffer tube
+Parts=AK-12 stock
+Parts=RPK-16 handguard
+Parts=RPK-16 handguard rail
+Parts=RPK-16 5.45x39 15 inch barrel
+Parts=RPK-16 5.45x39 muzzle brake-compensator

@@ -1,0 +1,6 @@
+Name=RSh-12 12.7x55 revolver TAC30
+Base=RSh-12 12.7x55 revolver
+Parts=RSh-12 12.7x55 5-round cylinder
+Parts=RSh-12 pistol grip
+Parts=Lobaev Arms 30mm scope mount
+Parts=Burris FullField TAC30 1-4x24 30mm riflescope

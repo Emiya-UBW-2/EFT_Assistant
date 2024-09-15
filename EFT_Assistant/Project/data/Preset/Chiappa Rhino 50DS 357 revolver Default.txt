@@ -1,0 +1,6 @@
+Name=Chiappa Rhino 50DS .357 revolver Default
+Base=Chiappa Rhino 50DS .357 revolver
+Parts=Chiappa Rhino .357 6-round cylinder
+Parts=Chiappa Rhino rear sight
+Parts=Chiappa Rhino front sight
+Parts=Chiappa Rhino wooden pistol grip

@@ -1,0 +1,17 @@
+IDstr=65766adc234b9f6e050a431a
+Name=6B43 Zabralo-Sh body armor (Digital Flora) Default
+ShortName=6B43 Default
+Itemtype=armor
+width=4
+height=4
+weight=20.000000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	6B43 Zabralo-Sh body armor (Digital Flora)x1/|
+	Granit Br5 ballistic platex1/|
+	Granit ballistic plate (Side)x1
+]
+Name_Jpn=6B43 Zabralo-Sh body armor (Digital Flora) デフォルト
+Information_Jpn=

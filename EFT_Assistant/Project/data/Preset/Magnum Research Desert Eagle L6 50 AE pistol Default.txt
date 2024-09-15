@@ -1,0 +1,8 @@
+Name=Magnum Research Desert Eagle L6 .50 AE pistol Default
+Base=Magnum Research Desert Eagle L6 .50 AE pistol
+Parts=Desert Eagle L6 .50 AE 152mm barrel
+Parts=Desert Eagle front sight
+Parts=Desert Eagle Hogue Rubber Grip with finger grooves
+Parts=Desert Eagle L6 pistol slide
+Parts=Desert Eagle rear sight
+Parts=Desert Eagle .50 AE 7-round magazine

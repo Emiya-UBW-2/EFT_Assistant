@@ -1,0 +1,13 @@
+Name=SR-2M Veresk 9x21 submachine gun DP
+Base=SR-2M Veresk 9x21 submachine gun
+Parts=SR-2M 9x21 sound suppressor (SV-1381)
+Parts=SR-2M dust cover
+Parts=SR-2M Zenit B-17 mount
+Parts=DeltaPoint Cross Slot Mount base
+Parts=Leupold DeltaPoint Reflex Sight
+Parts=SR-2M polymer handguard (Black)
+Parts=SR-2M short side rail
+Parts=NcSTAR Tactical blue laser LAM-module
+Parts=SR-2M pistol grip (Black)
+Parts=SR-2M 9x21 30-round magazine
+Parts=SR-2MP top-folding stock

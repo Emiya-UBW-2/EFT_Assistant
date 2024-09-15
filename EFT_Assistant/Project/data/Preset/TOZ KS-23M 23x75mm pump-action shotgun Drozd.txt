@@ -1,0 +1,7 @@
+Name=TOZ KS-23M 23x75mm pump-action shotgun Drozd
+Base=TOZ KS-23M 23x75mm pump-action shotgun
+Parts=KS-23 23x75 510mm barrel
+Parts=KS-23M forestock
+Parts=KS-23M pistol grip
+Parts=KS-23M wire stock
+Parts=KS-23M 23x75 3-shell magazine cap

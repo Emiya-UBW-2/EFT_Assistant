@@ -1,0 +1,16 @@
+IDstr=657194c0289dc422160e08d1
+Name=CQC Osprey MK4A plate carrier (Assault, MTP) Default
+ShortName=Osprey MK4A (A) Default
+Itemtype=chest-rig
+width=4
+height=3
+weight=10.700000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	CQC Osprey MK4A plate carrier (Assault, MTP)x1/|
+	NewSphereTech level III ballistic platex2
+]
+Name_Jpn=CQC Osprey MK4A プレートキャリア (Assault, MTP) デフォルト
+Information_Jpn=

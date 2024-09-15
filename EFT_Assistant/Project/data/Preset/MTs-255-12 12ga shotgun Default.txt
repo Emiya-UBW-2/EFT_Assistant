@@ -1,0 +1,7 @@
+Name=MTs-255-12 12ga shotgun Default
+Base=MTs-255-12 12ga shotgun
+Parts=MTs-255-12 12ga cylinder
+Parts=MTs-255-12 12ga 755mm barrel with rib
+Parts=MTs-255-12 12ga choke
+Parts=MTs-255-12 wooden stock
+Parts=MTs-255-12 beechwood forestock

@@ -1,0 +1,9 @@
+Name=Glock 17 9x19 pistol Spartan
+Base=Glock 17 9x19 pistol
+Parts=Glock 9x19 SAI threaded barrel
+Parts=Glock SAI 9x19 thread protector
+Parts=Glock ZEV Tech HEX Spartan RMR pistol slide
+Parts=Glock TruGlo TFX rear sight
+Parts=Glock TruGlo TFX front sight
+Parts=Glock ZEV Tech sight mount cap
+Parts=Glock 9x19 17-round magazine

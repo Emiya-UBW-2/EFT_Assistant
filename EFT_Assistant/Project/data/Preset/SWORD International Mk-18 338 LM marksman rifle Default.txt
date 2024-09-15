@@ -1,0 +1,11 @@
+Name=SWORD International Mk-18 .338 LM marksman rifle Default
+Base=SWORD International Mk-18 .338 LM marksman rifle
+Parts=Hogue OverMolded Rubber Grip (Black)
+Parts=Mk-18 .338 LM 10-round magazine
+Parts=AR-15 Colt Carbine buffer tube
+Parts=AR-15 B5 Systems Precision stock
+Parts=Mk-18 .338 LM upper receiver
+Parts=Mk-18 .338 LM 24 inch barrel
+Parts=SilencerCo AC-858 ASR .338 LM muzzle brake
+Parts=Mk-18 gas block
+Parts=Mk-18 18 inch handguard

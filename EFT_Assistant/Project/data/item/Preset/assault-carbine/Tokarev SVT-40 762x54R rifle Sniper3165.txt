@@ -1,0 +1,24 @@
+IDstr=64c390af8427c75665190d1d
+Name=Tokarev SVT-40 7.62x54R rifle Sniper
+ShortName=SVT-40 Sniper
+Itemtype=assault-carbine
+width=6
+height=1
+weight=4.575000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	Tokarev SVT-40 7.62x54R riflex1/|
+	AVT-40 wooden stock x1/|
+	SVT-40 7.62x54R 625mm barrelx1/|
+	SVT-40 7.62x54R muzzle brakex1/|
+	SVT-40 front sightx1/|
+	SVT-40 rear sightx1/|
+	SVT dust cover x1/|
+	SVT-40 Tokarev PU mountx1/|
+	PU 3.5x riflescopex1/|
+	SVT-40 7.62x54R 10-round magazinex1
+]
+Name_Jpn=SVT-40 7.62x54R ライフル Sniper
+Information_Jpn=

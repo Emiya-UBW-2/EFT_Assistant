@@ -1,0 +1,12 @@
+Name=HK USP .45 ACP pistol Tactical
+Base=HK USP .45 ACP pistol
+Parts=HK USP Tactical .45 ACP threaded barrel
+Parts=HK USP Tactical thread protector
+Parts=HK USP Tactical .45 ACP pistol slide
+Parts=HK USP Tactical rear sight
+Parts=HK USP Tactical front sight
+Parts=HK USP Tactical .45 ACP 12-round magazine
+Parts=HK USP trigger
+Parts=HK USP hammer
+Parts=HK USP slide lock
+Parts=HK USP rail adapter

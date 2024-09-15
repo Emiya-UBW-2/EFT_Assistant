@@ -1,0 +1,16 @@
+IDstr=65719339acb85662e7024be2
+Name=Eagle Allied Industries MBSS plate carrier (Coyote Brown) Default
+ShortName=MBSS Default
+Itemtype=chest-rig
+width=3
+height=3
+weight=2.190000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=TRUE
+containsItems=[
+	Eagle Allied Industries MBSS plate carrier (Coyote Brown)x1/|
+	PRTCTR Lightweight ballistic platex2
+]
+Name_Jpn=Eagle Allied Industries MBSS plate carrier (Coyote Brown) デフォルト
+Information_Jpn=

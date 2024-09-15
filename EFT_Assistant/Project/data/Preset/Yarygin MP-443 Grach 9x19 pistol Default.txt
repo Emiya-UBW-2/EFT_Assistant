@@ -1,0 +1,4 @@
+Name=Yarygin MP-443 Grach 9x19 pistol Default
+Base=Yarygin MP-443 Grach 9x19 pistol
+Parts=MP-443 Grach 9x19 18-round magazine
+Parts=MP-443 Grach polymer pistol grip

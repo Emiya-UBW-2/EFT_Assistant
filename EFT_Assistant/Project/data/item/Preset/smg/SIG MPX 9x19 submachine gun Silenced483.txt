@@ -1,0 +1,28 @@
+IDstr=58dffd4586f77408a27629b2
+Name=SIG MPX 9x19 submachine gun Silenced
+ShortName=MPX Silenced
+Itemtype=smg
+width=4
+height=2
+weight=3.412000
+fleaMarketFee=0
+propertiestype=ItemPropertiesPreset
+IsDefault=FALSE
+containsItems=[
+	SIG MPX 9x19 submachine gunx1/|
+	MPX pistol gripx1/|
+	MPX 9x19 30-round magazinex1/|
+	MPX GEN1 9x19 upper receiverx1/|
+	MPX-SD 9x19 165mm barrelx1/|
+	MPX-SD 9x19 integrated sound suppressorx1/|
+	MPX GEN1 handguardx1/|
+	MPX flip-up front sightx1/|
+	MPX GEN1 handguard 2 inch railx2/|
+	MPX GEN1 handguard 4 inch railx1/|
+	MPX flip-up rear sightx1/|
+	MPX/MCX Folding Knuckle Stock Adapterx1/|
+	Armacon Baskak stockx1/|
+	MPX single latch charging handlex1
+]
+Name_Jpn=MPX 9x19 サブマシンガン Silenced
+Information_Jpn=

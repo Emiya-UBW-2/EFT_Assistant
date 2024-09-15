@@ -1,0 +1,5 @@
+Name=PB 9x18PM silenced pistol Default
+Base=PB 9x18PM silenced pistol
+Parts=PM 9x18PM 90-93 8-round magazine
+Parts=PB 9x18PM sound suppressor
+Parts=PB bakelite side grips

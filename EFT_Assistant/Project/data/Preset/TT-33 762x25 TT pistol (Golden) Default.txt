@@ -1,0 +1,5 @@
+Name=TT-33 7.62x25 TT pistol (Golden) Default
+Base=TT-33 7.62x25 TT pistol (Golden)
+Parts=TT 7.62x25 116mm gilded barrel
+Parts=TT ornated side grips
+Parts=TT 7.62x25 tt-105 8-round magazine

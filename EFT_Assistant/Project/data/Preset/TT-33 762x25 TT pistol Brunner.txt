@@ -1,0 +1,7 @@
+Name=TT-33 7.62x25 TT pistol Brunner
+Base=TT-33 7.62x25 TT pistol
+Parts=TT 7.62x25 116mm barrel
+Parts=TT Razor Arms rubber grip
+Parts=TT 7.62x25 tt-105 8-round magazine
+Parts=TT PM-Laser DTK-TT muzzle brake-compensator
+Parts=TT DLP Tactical Precision LAM-module

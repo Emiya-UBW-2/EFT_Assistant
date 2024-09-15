@@ -1,0 +1,7 @@
+Name=Glock 19X 9x19 pistol Default
+Base=Glock 19X 9x19 pistol
+Parts=Glock 19X 9x19 barrel
+Parts=Glock 19X pistol slide
+Parts=Glock 19X rear sight
+Parts=Glock 19X front sight
+Parts=Glock 9x19 19-round magazine (Coyote)

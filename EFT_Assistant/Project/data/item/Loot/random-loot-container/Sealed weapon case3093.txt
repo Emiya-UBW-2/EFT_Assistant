@@ -1,0 +1,11 @@
+IDstr=6489c99f7c07471efa3e03c0
+Name=Sealed weapon case
+Information_Eng=Sealed weapon case
+Itemtype=random-loot-container
+width=5
+height=2
+weight=15.000000
+fleaMarketFee=0
+propertiestype=
+Name_Jpn=Sealed weapon case
+Information_Jpn=Sealed weapon case

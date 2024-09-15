@@ -1,0 +1,4 @@
+Name=RSh-12 12.7x55 revolver Default
+Base=RSh-12 12.7x55 revolver
+Parts=RSh-12 12.7x55 5-round cylinder
+Parts=RSh-12 pistol grip

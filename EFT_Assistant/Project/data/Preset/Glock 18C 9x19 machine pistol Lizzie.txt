@@ -1,0 +1,9 @@
+Name=Glock 18C 9x19 machine pistol Lizzie
+Base=Glock 18C 9x19 machine pistol
+Parts=Glock 18C 9x19 barrel with a compensator
+Parts=Glock Pachmayr Tactical Grip Glove
+Parts=Glock 18C pistol slide
+Parts=Glock TruGlo TFX rear sight
+Parts=Glock TruGlo TFX front sight
+Parts=Glock 9x19 "Big Stick" 33-round magazine
+Parts=SureFire X400 Ultra tactical flashlight with laser

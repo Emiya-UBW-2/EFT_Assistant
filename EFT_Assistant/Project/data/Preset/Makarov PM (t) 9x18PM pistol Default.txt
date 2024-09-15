@@ -1,0 +1,6 @@
+Name=Makarov PM (t) 9x18PM pistol Default
+Base=Makarov PM (t) 9x18PM pistol
+Parts=PM 9x18PM 90-93 8-round magazine
+Parts=PM pistol slide
+Parts=PM rear sight
+Parts=PM bakelite grip

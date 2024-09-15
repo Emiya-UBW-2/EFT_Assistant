@@ -1,0 +1,10 @@
+Name=Saiga-9 9x19 carbine Default
+Base=Saiga-9 9x19 carbine
+Parts=PP-19-01 Vityaz pistol grip
+Parts=PP-19-01 Vityaz metal skeleton stock
+Parts=Saiga-9 9x19 sb.7 10-round magazine
+Parts=Saiga-9 9x19 muzzle brake-compensator
+Parts=PP-19-01 Vityaz dust cover
+Parts=PP-19-01 Vityaz rear sight
+Parts=PP-19-01 Vityaz gas tube
+Parts=AK-74 polymer handguard (6P20 Sb.9)

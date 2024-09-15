@@ -1,0 +1,11 @@
+Name=Colt M1911A1 .45 ACP pistol Default
+Base=Colt M1911A1 .45 ACP pistol
+Parts=M1911A1 .45 ACP 127mm barrel
+Parts=M1911A1 side grips
+Parts=M1911A1 pistol slide
+Parts=M1911A1 rear sight
+Parts=M1911A1 front sight
+Parts=M1911A1 .45 ACP 7-round magazine
+Parts=M1911A1 trigger
+Parts=M1911A1 hammer
+Parts=M1911A1 slide stop

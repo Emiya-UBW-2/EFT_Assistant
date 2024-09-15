@@ -1,6 +1,7 @@
 Name=DS Arms SA-58 7.62x51 assault rifle X-FAL
 Base=DS Arms SA-58 7.62x51 assault rifle
 Parts=SA-58 FAB Defense AG-FAL pistol grip
+Parts=SA-58/FAL 7.62x51 X Products X-FAL 50-round drum magazine
 Parts=SA-58/FAL Vltor CASV-FAS handguard
 Parts=Vltor CASV 5 inch rail
 Parts=Magpul RVG foregrip (Black)
@@ -10,4 +11,3 @@ Parts=AR-10 2A Armanent X3 7.62x51 compensator
 Parts=SA-58 Holland Type rear sight
 Parts=SA-58 Extreme Duty dust cover
 Parts=SA-58 BRS stock
-Parts=SA-58/FAL 7.62x51 X Products X-FAL 50-round drum magazine

@@ -1,0 +1,11 @@
+Name=HK USP .45 ACP pistol Elite
+Base=HK USP .45 ACP pistol
+Parts=HK USP Elite .45 ACP barrel
+Parts=HK USP Elite .45 ACP pistol slide
+Parts=HK USP Tactical rear sight
+Parts=HK USP Tactical front sight
+Parts=HK USP trigger
+Parts=HK USP hammer
+Parts=HK USP slide lock
+Parts=HK USP .45 ACP Elite compensator
+Parts=HK USP Tactical .45 ACP 12-round magazine
