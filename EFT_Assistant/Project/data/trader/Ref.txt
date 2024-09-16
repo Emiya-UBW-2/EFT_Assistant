@@ -1,6 +1,7 @@
 IDstr=6617beeaa9cfa777ca915b7c
 Name=Ref
 Information_Eng=The Arena host who organizes pit fights across Tarkov.
+Color=[1/|1/|1]
 PayItem=Roubles
 Lv1NeedLv=1
 Lv1Reputation=0.000000

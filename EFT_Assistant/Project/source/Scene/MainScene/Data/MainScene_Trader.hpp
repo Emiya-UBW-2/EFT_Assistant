@@ -114,6 +114,6 @@ namespace FPS_n2 {
 		TraderBartersData() noexcept {}
 		~TraderBartersData() noexcept {}
 	public:
-		void SaveAsNewData2(std::string ParentPath) noexcept;
+		void SaveTraderDataBack(std::string ParentPath) noexcept;
 	};
 };

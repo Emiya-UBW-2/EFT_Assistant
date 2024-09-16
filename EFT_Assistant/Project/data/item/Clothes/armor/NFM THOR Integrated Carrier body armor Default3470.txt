@@ -10,8 +10,8 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	NFM THOR Integrated Carrier body armorx1/|
-	NESCO 4400-SA-MC ballistic platex1/|
-	ESBI level IV ballistic plate (Side)x1
+	NESCO 4400-SA-MC ballistic platex2/|
+	ESBI level IV ballistic plate (Side)x2
 ]
 Name_Jpn=NFM THOR Integrated Carrier body armor デフォルト
 Information_Jpn=

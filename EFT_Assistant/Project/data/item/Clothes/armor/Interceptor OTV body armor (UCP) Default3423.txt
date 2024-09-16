@@ -10,7 +10,7 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	Interceptor OTV body armor (UCP)x1/|
-	SPRTN Elaphros ballistic platex2
+	SPRTN Elaphros ballistic platex1
 ]
 Name_Jpn=Interceptor OTV body armor (UCP) デフォルト
 Information_Jpn=

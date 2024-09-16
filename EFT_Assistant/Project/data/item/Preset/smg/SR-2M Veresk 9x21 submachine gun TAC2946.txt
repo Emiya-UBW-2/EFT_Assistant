@@ -10,6 +10,7 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	SR-2M Veresk 9x21 submachine gunx1/|
+	SR-2M 9x21 30-round magazinex1/|
 	SR-2M 9x21 sound suppressor (SV-1381)x1/|
 	SR-2MP top-folding stockx1/|
 	SR-2M dust coverx1/|
@@ -19,8 +20,7 @@ containsItems=[
 	SR-2M polymer handguard (Black)x1/|
 	SR-2M side railx1/|
 	Zenit Klesch-2P flashlight with laserx1/|
-	SR-2M pistol grip (Black)x1/|
-	SR-2M 9x21 30-round magazinex1
+	SR-2M pistol grip (Black)x1
 ]
 Name_Jpn=SR-2M "ヴェレスク" 9x21 サブマシンガン TAC
 Information_Jpn=

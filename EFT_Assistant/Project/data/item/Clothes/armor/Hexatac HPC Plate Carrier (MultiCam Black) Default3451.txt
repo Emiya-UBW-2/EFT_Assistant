@@ -10,7 +10,7 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	Hexatac HPC Plate Carrier (MultiCam Black)x1/|
-	GAC 3s15m ballistic platex1
+	GAC 3s15m ballistic platex2
 ]
 Name_Jpn=Hexatac HPC Plate Carrier (MultiCam Black) デフォルト
 Information_Jpn=

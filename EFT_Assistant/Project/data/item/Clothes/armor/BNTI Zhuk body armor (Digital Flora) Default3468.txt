@@ -12,7 +12,7 @@ containsItems=[
 	BNTI Zhuk body armor (Digital Flora)x1/|
 	Granit 4RS ballistic plate (Front)x1/|
 	KITECO SC-IV SA ballistic platex1/|
-	Granit ballistic plate (Side)x1
+	Granit ballistic plate (Side)x2
 ]
 Name_Jpn=BNTI Zhuk body armor (Digital Flora) デフォルト
 Information_Jpn=

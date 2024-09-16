@@ -1,6 +1,7 @@
 IDstr=656f0f98d80a697f855d34b1
 Name=BTR Driver
 Information_Eng=<Classified>
+Color=[1/|1/|1]
 PayItem=Roubles
 Lv1NeedLv=1
 Lv1Reputation=0.000000

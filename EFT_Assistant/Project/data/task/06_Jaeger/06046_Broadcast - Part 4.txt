@@ -4,6 +4,7 @@ Trader=Jaeger
 
 NeedTask=Broadcast - Part 3
 NeedLevel=27
+NeedItem=[Abandoned factory marked keyx1]
 
 CanRestart=false
 NeedKappa=false

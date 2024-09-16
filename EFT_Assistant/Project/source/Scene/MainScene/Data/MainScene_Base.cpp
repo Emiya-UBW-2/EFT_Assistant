@@ -166,7 +166,6 @@ namespace FPS_n2 {
 					break;
 				case FPS_n2::EnumDataType::TRADERBARTERS:
 					this->m_TraderBartersData->GetDataJson(DataJson);
-					this->m_TraderBartersData->SaveAsNewData2(OutputPath);
 					break;
 				case FPS_n2::EnumDataType::TASKDATA:
 					this->m_TaskData->GetDataJson(DataJson);
@@ -210,6 +209,7 @@ namespace FPS_n2 {
 			this->m_TraderData->UpdateAfterbyJson();
 			break;
 		case FPS_n2::EnumDataType::TRADERBARTERS:
+			this->m_TraderBartersData->SaveTraderDataBack(OutputPath);
 			this->m_TraderBartersData->WaitToAllClear();
 			this->m_TraderBartersData->UpdateAfterbyJson();
 			break;

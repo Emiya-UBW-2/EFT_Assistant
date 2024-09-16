@@ -10,7 +10,7 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	FirstSpear Strandhogg plate carrier (Ranger Green)x1/|
-	NewSphereTech level III ballistic platex2
+	NewSphereTech level III ballistic platex1
 ]
 Name_Jpn=FirstSpear Strandhogg plate carrier (Ranger Green) デフォルト
 Information_Jpn=

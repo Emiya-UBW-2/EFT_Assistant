@@ -254,7 +254,7 @@ namespace FPS_n2 {
 		m_Path = Path;
 		m_SetFinish = true;
 	}
-	void TraderBartersData::SaveAsNewData2(std::string ParentPath) noexcept {
+	void TraderBartersData::SaveTraderDataBack(std::string ParentPath) noexcept {
 		bool maked = false;
 		std::string ChildPath = ParentPath + "/";
 		for (auto& L : DataBase::Instance()->GetTraderData()->SetList()) {
@@ -267,7 +267,7 @@ namespace FPS_n2 {
 			SubStrs(&Path, ">");
 			SubStrs(&Path, "<");
 			SubStrs(&Path, "|");
-			std::ofstream outputfile(Path);
+			std::ofstream outputfile(Path, std::ios_base::app);
 
 			for (auto& jd : GetJsonDataList()) {
 				auto* jd2 = (TraderBartersJsonData*)jd.get();

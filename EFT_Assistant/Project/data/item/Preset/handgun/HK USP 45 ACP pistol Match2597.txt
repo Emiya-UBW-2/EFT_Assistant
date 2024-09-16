@@ -14,11 +14,11 @@ containsItems=[
 	HK USP Match .45 ACP pistol slidex1/|
 	HK USP Tactical rear sightx1/|
 	HK USP Tactical front sightx1/|
+	HK USP Tactical .45 ACP 12-round magazinex1/|
 	HK USP triggerx1/|
 	HK USP hammerx1/|
 	HK USP slide lockx1/|
-	HK USP .45 ACP Match compensatorx1/|
-	HK USP Tactical .45 ACP 12-round magazinex1
+	HK USP .45 ACP Match compensatorx1
 ]
 Name_Jpn=HK USP .45 ACP pistol Match
 Information_Jpn=

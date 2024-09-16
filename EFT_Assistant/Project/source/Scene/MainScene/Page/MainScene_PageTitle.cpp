@@ -50,8 +50,8 @@ namespace FPS_n2 {
 			DataBase::Instance()->DataUpdate(EnumDataType::ITEMDATAJP, "data/query/barter_ja_query.txt", "data/item/Maked/MakedJP/", "items", 120);
 			DataBase::Instance()->DataUpdate(EnumDataType::TASKDATA, "data/query/task_query.txt", "data/task/Maked/", "tasks", 60);
 			DataBase::Instance()->DataUpdate(EnumDataType::HIDEOUTDATA, "data/query/hideout_query.txt", "data/Hideout/Maked/Maked", "hideoutStations", 40);
-			DataBase::Instance()->DataUpdate(EnumDataType::TRADERDATA, "data/query/trader_query.txt", "data/trader/Maked", "traders", 2);
-			DataBase::Instance()->DataUpdate(EnumDataType::TRADERBARTERS, "data/query/barters_query.txt", "data/trader/MakedBarters", "barters", 100);
+			DataBase::Instance()->DataUpdate(EnumDataType::TRADERDATA, "data/query/trader_query.txt", "data/trader", "traders", 2);
+			DataBase::Instance()->DataUpdate(EnumDataType::TRADERBARTERS, "data/query/barters_query.txt", "data/trader", "barters", 100);
 			PlayerData::Instance()->SetLastDataReceive();
 			m_CoolTimeCount = GetNowCount();
 		}

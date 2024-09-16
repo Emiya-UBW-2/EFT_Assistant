@@ -10,7 +10,7 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	Crye Precision AVS plate carrier (Ranger Green)x1/|
-	SPRTN Omega ballistic platex2
+	SPRTN Omega ballistic platex1
 ]
 Name_Jpn=Crye Precision AVS プレートキャリア デフォルト
 Information_Jpn=
