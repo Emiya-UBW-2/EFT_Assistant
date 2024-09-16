@@ -255,7 +255,6 @@ namespace FPS_n2 {
 		m_SetFinish = true;
 	}
 	void TraderBartersData::SaveTraderDataBack(std::string ParentPath) noexcept {
-		bool maked = false;
 		std::string ChildPath = ParentPath + "/";
 		for (auto& L : DataBase::Instance()->GetTraderData()->SetList()) {
 			std::string Name = L.GetName() + ".txt";

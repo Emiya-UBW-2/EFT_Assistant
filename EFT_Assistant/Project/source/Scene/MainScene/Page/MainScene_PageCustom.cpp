@@ -813,7 +813,7 @@ namespace FPS_n2 {
 			//m_PartsChange = false;//‚±‚ê‚Å–³Œø‰»
 			if (m_PartsChange) {
 				m_PartsChange = false;
-				m_CustomParts->CalcBlackList();
+				//m_CustomParts->CalcBlackList();
 				std::vector<PartsBaseData>	PartsDatas;
 				m_CustomParts->CalcChildErgRec(&PartsDatas);
 			}
