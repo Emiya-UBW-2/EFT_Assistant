@@ -490,7 +490,7 @@ namespace FPS_n2 {
 		m_Mes.emplace_back(Mes);
 	}
 	void DataErrorLog::Save() noexcept {
-		std::ofstream outputfile("data/ErrorLog.txt");
+		std::ofstream outputfile("Save/ErrorLog.txt");
 		for (auto& LD : this->m_Mes) {
 			outputfile << LD + "\n";
 		}

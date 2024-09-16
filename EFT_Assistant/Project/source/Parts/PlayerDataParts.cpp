@@ -6,7 +6,7 @@ const FPS_n2::PlayerData* SingletonBase<FPS_n2::PlayerData>::m_Singleton = nullp
 namespace FPS_n2 {
 	void			PlayerData::Load(void) noexcept {
 		SetOutApplicationLogValidFlag(FALSE);
-		int mdata = FileRead_open("data/PlayerData.txt", FALSE);
+		int mdata = FileRead_open("Save/PlayerData.txt", FALSE);
 		while (true) {
 			if (FileRead_eof(mdata) != 0) { break; }
 			auto ALL = getparams::Getstr(mdata);
@@ -38,7 +38,7 @@ namespace FPS_n2 {
 		SetOutApplicationLogValidFlag(TRUE);
 	}
 	void			PlayerData::Save(void) noexcept {
-		std::ofstream outputfile("data/PlayerData.txt");
+		std::ofstream outputfile("Save/PlayerData.txt");
 		outputfile << "LastDataReceive=" + this->m_LastDataReceive + "\n";
 
 		for (auto& LD : this->m_ItemLockData) {
