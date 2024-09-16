@@ -8,10 +8,5 @@ weight=16.500000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
-containsItems=[
-	FORT Redut-T5 body armor (Smog)x1/|
-	Granit Br4 ballistic platex2/|
-	Granit ballistic plate (Side)x2
-]
 Name_Jpn=FORT Redut-T5 ボディアーマー デフォルト
 Information_Jpn=
