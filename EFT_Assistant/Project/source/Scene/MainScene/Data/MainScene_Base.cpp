@@ -11,6 +11,7 @@ namespace FPS_n2 {
 		m_EnemyData = std::make_unique<EnemyData>();
 		m_ItemData = std::make_unique<ItemData>();
 		m_TraderData = std::make_unique<TraderData>();
+		m_TraderBartersData = std::make_unique<TraderBartersData>();
 		m_MapData = std::make_unique<MapData>();
 		m_TaskData = std::make_unique<TaskData>();
 		m_HideoutData = std::make_unique<HideoutData>();
@@ -118,6 +119,10 @@ namespace FPS_n2 {
 			this->m_TraderData->ResetDataJson();
 			this->m_TraderData->InitDatabyJson();
 			break;
+		case FPS_n2::EnumDataType::TRADERBARTERS:
+			this->m_TraderBartersData->ResetDataJson();
+			this->m_TraderBartersData->InitDatabyJson();
+			break;
 		case FPS_n2::EnumDataType::TASKDATA:
 			this->m_TaskData->ResetDataJson();
 			this->m_TaskData->InitDatabyJson();
@@ -159,6 +164,10 @@ namespace FPS_n2 {
 					this->m_TraderData->UpdateData(ofsetValue * count, ofsetValue, this->m_TraderData->SetList());
 					this->m_TraderData->SaveAsNewData(OutputPath);
 					break;
+				case FPS_n2::EnumDataType::TRADERBARTERS:
+					this->m_TraderBartersData->GetDataJson(DataJson);
+					this->m_TraderBartersData->SaveAsNewData2(OutputPath);
+					break;
 				case FPS_n2::EnumDataType::TASKDATA:
 					this->m_TaskData->GetDataJson(DataJson);
 					this->m_TaskData->UpdateData(ofsetValue * count, ofsetValue, this->m_TaskData->SetList());
@@ -199,6 +208,10 @@ namespace FPS_n2 {
 			this->m_TraderData->WaitToAllClear();
 			this->m_TraderData->CheckThroughJson();
 			this->m_TraderData->UpdateAfterbyJson();
+			break;
+		case FPS_n2::EnumDataType::TRADERBARTERS:
+			this->m_TraderBartersData->WaitToAllClear();
+			this->m_TraderBartersData->UpdateAfterbyJson();
 			break;
 		case FPS_n2::EnumDataType::TASKDATA:
 			this->m_TaskData->WaitToAllClear();

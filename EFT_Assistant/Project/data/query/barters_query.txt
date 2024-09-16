@@ -1,0 +1,16 @@
+{"query" : "{
+  barters(offset:OFFSETVAL limit:LIMITVAL){
+    id
+    trader{name}
+    level
+    taskUnlock{name}
+    requiredItems{
+      item{name}
+      count
+    }
+    rewardItems{
+      item{name}
+      count
+    }
+  }
+}"}

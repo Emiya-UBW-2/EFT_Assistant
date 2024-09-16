@@ -145,6 +145,7 @@ namespace FPS_n2 {
 		static const bool			ItemPtrChecktoBeFiltered(ItemTypeID TypeID, bool MagFilter, bool MountFilter, bool SightFilter, bool AxModFilter) noexcept;
 		//
 		void CalcChildBranch(std::vector<PartsBaseData>* Data, const ItemList* Ptr = nullptr, ItemID ParentDataID = INVALID_ID, int ParentDataIndex = INVALID_ID, int slot = 0) noexcept;
+		void CalcBlackList() noexcept;
 		void CalcChildErgRec(std::vector<PartsBaseData>* Data) noexcept;
 		//•`‰æ
 		bool DrawChild(int XLeftPosition, int YMiddlePosition, float Scale, int parentXpos = 0, int parentYpos = 0, int* Lane = nullptr, const ItemList* Ptr = nullptr) noexcept;

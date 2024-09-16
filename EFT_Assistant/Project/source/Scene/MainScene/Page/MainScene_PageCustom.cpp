@@ -378,6 +378,48 @@ namespace FPS_n2 {
 			}
 		}
 	}
+	void CustomParts::CalcBlackList() noexcept {
+		for (auto& item : DataBase::Instance()->GetItemData()->GetList()) {
+			auto* TypePtr = DataBase::Instance()->GetItemTypeData()->FindPtr(item.GetTypeID());
+			auto* catPtr = DataBase::Instance()->GetItemCategoryData()->FindPtr(TypePtr->GetCategoryID());
+			if (
+				//item.GetIsWeapon()
+				catPtr->GetName() == "WeaponMods"
+				) {
+				bool IsHit = false;
+				bool HasParts = false;
+				for (auto& L : DataBase::Instance()->GetTraderData()->SetList()) {
+					for (const auto& Ld : L.GetLvData()) {
+						for (const auto& cf : Ld.m_ItemBarters) {
+							for (const auto& I : cf.m_ItemReward) {
+								if (I.GetID() == item.GetID()) {
+									HasParts = true;
+									IsHit = (cf.m_TaskReq.size() == 0);
+									if (IsHit) {
+										break;
+									}
+								}
+							}
+							if (IsHit) {
+								break;
+							}
+						}
+						if (IsHit) {
+							break;
+						}
+					}
+					if (IsHit) {
+						break;
+					}
+				}
+				if (HasParts && !IsHit) {
+					//トレーダー交換がLLアップのみでできない場合ブラックリスト入り
+					PlayerData::Instance()->SetItemLock(item.GetIDstr().c_str(), true);
+				}
+			}
+		}
+		PlayerData::Instance()->Save();
+	}
 	//
 	void CustomParts::CalcChildErgRec(
 		std::vector<PartsBaseData>* Data) noexcept {
@@ -771,6 +813,7 @@ namespace FPS_n2 {
 			//m_PartsChange = false;//これで無効化
 			if (m_PartsChange) {
 				m_PartsChange = false;
+				m_CustomParts->CalcBlackList();
 				std::vector<PartsBaseData>	PartsDatas;
 				m_CustomParts->CalcChildErgRec(&PartsDatas);
 			}

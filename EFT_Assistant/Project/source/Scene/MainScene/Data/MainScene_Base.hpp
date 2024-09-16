@@ -24,6 +24,7 @@ namespace FPS_n2 {
 		std::unique_ptr<EnemyData>			m_EnemyData;
 		std::unique_ptr<ItemData>			m_ItemData;
 		std::unique_ptr<TraderData>			m_TraderData;
+		std::unique_ptr<TraderBartersData>	m_TraderBartersData;
 		std::unique_ptr<MapData>			m_MapData;
 		std::unique_ptr<TaskData>			m_TaskData;
 		std::unique_ptr<HideoutData>		m_HideoutData;

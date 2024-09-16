@@ -5,12 +5,14 @@
 
 namespace FPS_n2 {
 	//
+	struct BartersData {
+		std::string								m_traderName;
+		int										m_level{};
+		std::vector<IDParents<TaskID>>			m_TaskReq;
+		std::vector<ItemGetData>				m_ItemReq;
+		std::vector<ItemGetData>				m_ItemReward;
+	};
 	struct TraderLvData {
-		struct BartersData {
-			std::vector<IDParents<TaskID>>			m_TaskReq;
-			std::vector<ItemGetData>				m_ItemReq;
-			std::vector<ItemGetData>				m_ItemReward;
-		};
 		//開放データ
 		int											NeedLv{ 1 };
 		float										Reputation{ 1.f };
@@ -94,5 +96,24 @@ namespace FPS_n2 {
 		}
 		~TraderData() noexcept {}
 	public:
+	};
+
+
+	//
+	class TraderBartersJsonData :public JsonDataParent {
+	public:
+		std::vector<BartersData>		m_ItemBarters;
+	public:
+		void GetJsonSub(const nlohmann::json& data) noexcept override;
+	public:
+		void OutputData2(const std::string& Path) noexcept;
+	};
+
+	class TraderBartersData : public JsonListParent<TraderBartersJsonData> {
+	public:
+		TraderBartersData() noexcept {}
+		~TraderBartersData() noexcept {}
+	public:
+		void SaveAsNewData2(std::string ParentPath) noexcept;
 	};
 };

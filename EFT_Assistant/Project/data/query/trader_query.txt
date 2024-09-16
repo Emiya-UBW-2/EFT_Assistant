@@ -13,17 +13,6 @@
       payRate
       insuranceRate
       repairCostMultiplier
-      barters{
-        taskUnlock{name}
-        requiredItems{
-          item{name}
-          count
-        }
-        rewardItems{
-          item{name}
-          count
-        }
-      }
       cashOffers{
         taskUnlock{name}
         price

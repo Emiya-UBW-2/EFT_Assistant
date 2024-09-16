@@ -497,7 +497,12 @@ namespace FPS_n2 {
 		void GetJson(const nlohmann::json& data) noexcept {
 			m_IsFileOpened = false;
 			m_id = data["id"];
-			m_name = data["name"];
+			if (data.contains("name") && !data["name"].is_null()) {
+				m_name = data["name"];
+			}
+			else {
+				m_name = m_id;
+			}
 			m_CanUseFileName = m_name;
 			SubStrs(&m_CanUseFileName, ".");
 			SubStrs(&m_CanUseFileName, "\\");
