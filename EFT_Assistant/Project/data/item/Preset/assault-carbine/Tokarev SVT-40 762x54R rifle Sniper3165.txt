@@ -16,9 +16,9 @@ containsItems=[
 	SVT-40 front sightx1/|
 	SVT-40 rear sightx1/|
 	SVT dust cover x1/|
+	SVT-40 7.62x54R 10-round magazinex1/|
 	SVT-40 Tokarev PU mountx1/|
-	PU 3.5x riflescopex1/|
-	SVT-40 7.62x54R 10-round magazinex1
+	PU 3.5x riflescopex1
 ]
 Name_Jpn=SVT-40 7.62x54R ライフル Sniper
 Information_Jpn=
