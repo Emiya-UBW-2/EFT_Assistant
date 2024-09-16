@@ -273,7 +273,8 @@ namespace FPS_n2 {
 					{
 						float Total = (float)(yofs_t - yofs) / (ypMax - ypMin);
 						if (Total > 1.f) {
-							this->m_Scroll.at(0).ScrollBox(xp + DXDraw::Instance()->GetUIY(30), ypMin, xp + DXDraw::Instance()->GetUIY(30) + DXDraw::Instance()->GetUIY(800) + DXDraw::Instance()->GetUIY(30), ypMax, Total, !WindowMngr->PosHitCheck(window));
+							this->m_Scroll.at(0).SetScrollBoxParam(xp + DXDraw::Instance()->GetUIY(30), ypMin, xp + DXDraw::Instance()->GetUIY(30) + DXDraw::Instance()->GetUIY(800) + DXDraw::Instance()->GetUIY(30), ypMax, Total, !WindowMngr->PosHitCheck(window));
+							this->m_Scroll.at(0).ScrollBox();
 						}
 						xofs += DXDraw::Instance()->GetUIY(30) + DXDraw::Instance()->GetUIY(30);
 					}

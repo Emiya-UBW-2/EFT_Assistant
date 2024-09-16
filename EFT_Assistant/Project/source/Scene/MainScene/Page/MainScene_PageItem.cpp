@@ -170,7 +170,8 @@ namespace FPS_n2 {
 
 
 		int ScrSizY = (DrawParts->GetScreenY(1080) - (DXDraw::Instance()->GetUIY(10) + LineHeight)) - ypos;
-		m_Scroll.ScrollBox(xpos, ypos, ScrPosX, ypos + ScrSizY, (float)std::max(yp0, ScrSizY) / (float)ScrSizY, !WindowMngr->PosHitCheck(nullptr));
+		m_Scroll.SetScrollBoxParam(xpos, ypos, ScrPosX, ypos + ScrSizY, (float)std::max(yp0, ScrSizY) / (float)ScrSizY, !WindowMngr->PosHitCheck(nullptr));
+		m_Scroll.ScrollBox();
 
 		m_YNow = std::max(0.f, this->m_Scroll.GetNowScrollYPer()*(float)(yp0 - ScrSizY));
 		//List

@@ -15,12 +15,17 @@ namespace FPS_n2 {
 			std::string					MyName{};
 			ItemID						ParentID{ INVALID_ID };
 			int							SlotNum = 0;
-			PartsID(ItemID my, const std::string& name, ItemID parent,int slot, const std::vector<ItemID>& conflict) {
+			float						m_RecoilAdd{ 0.0f };
+			float						m_ErgonomicsAdd{ 0.0f };
+		public:
+			PartsID(ItemID my, const std::string& name, ItemID parent,int slot, const std::vector<ItemID>& conflict, float Recoil, float Ergonomics) {
 				MyID = my;
 				MyName = name;
 				m_ConflictPartsID = conflict;
 				ParentID = parent;
 				SlotNum = slot;
+				m_RecoilAdd = Recoil;
+				m_ErgonomicsAdd = Ergonomics;
 			}
 			bool IsSameItem(const PartsID& o) const noexcept {
 				return (this->ParentID == o.ParentID) && (this->SlotNum == o.SlotNum) && (this->MyID == o.MyID);
@@ -32,6 +37,8 @@ namespace FPS_n2 {
 		};
 	public:
 		std::vector<PartsID>					m_PartsIDList;
+		float									m_Recoil{ 0.0f };
+		float									m_Ergonomics{ 0.0f };
 	};
 
 	class CustomParts {
@@ -84,10 +91,18 @@ namespace FPS_n2 {
 		float									m_ErgAddMin{ 0 };
 		float									m_ErgAddMax{ 0 };
 		bool									m_SpecChange{ false };
+
+		std::vector<const ItemList*>			m_BlackList;
+		bool									m_BlackListUpdate{ false };
 	private:
 		void				AddSelectToCanSelect(ChildData* cID) noexcept;
 		void				SubSelectToCanSelect(ChildData* cID) noexcept;
 	public:
+		void		UpdateBlackListFlag() noexcept { m_BlackListUpdate = true; }
+		void		UpdateBlackList() noexcept;
+		const auto& GetBlackList(void) const noexcept { return m_BlackList; }
+
+
 		const auto& IsSpecChange(void) const noexcept { return m_SpecChange; }
 
 		const auto& GetCustomDrawXMinPosition(void) const noexcept { return m_posxMinBuffer; }
@@ -98,22 +113,12 @@ namespace FPS_n2 {
 		void SetBaseWeapon(ItemList* pBaseWeapon) noexcept { m_BaseWeapon = pBaseWeapon; }
 		const auto* GetBaseWeapon(void) const noexcept { return m_BaseWeapon; }
 
-		const auto GetPartsCount(void) const noexcept {
-			return m_ChildData.size();
-		}
+		const auto GetPartsCount(void) const noexcept {			return m_ChildData.size();		}
 
-		const auto GetErgonomics(void) const noexcept {
-			return m_Ergonomics;
-		}
-		const auto GetErgonomicsMax(void) const noexcept {
-			return (m_Ergonomics + this->m_ErgAddMax);
-		}
-		const auto GetErgonomicsMin(void) const noexcept {
-			return (m_Ergonomics + this->m_ErgAddMin);
-		}
-		const auto GetRecoil(void) const noexcept {
-			return m_Recoil;
-		}
+		const auto GetErgonomics(void) const noexcept { return m_Ergonomics; }
+		const auto GetErgonomicsMax(void) const noexcept { return (m_Ergonomics + this->m_ErgAddMax); }
+		const auto GetErgonomicsMin(void) const noexcept { return (m_Ergonomics + this->m_ErgAddMin); }
+		const auto GetRecoil(void) const noexcept { return m_Recoil; }
 		const auto GetRecoilMax(void) const noexcept {
 			int BaseRecoil = m_BaseWeapon->GetRecoilVertical();
 			if (BaseRecoil != 0) {
@@ -146,7 +151,7 @@ namespace FPS_n2 {
 		//
 		void CalcChildBranch(std::vector<PartsBaseData>* Data, const ItemList* Ptr = nullptr, ItemID ParentDataID = INVALID_ID, int ParentDataIndex = INVALID_ID, int slot = 0) noexcept;
 		void CalcBlackList() noexcept;
-		void CalcChildErgRec(std::vector<PartsBaseData>* Data) noexcept;
+		void CalcChildErgRec(std::vector<PartsBaseData>* Data, const std::vector<PartsBaseData>& BranchDataBase) noexcept;
 		//•`‰æ
 		bool DrawChild(int XLeftPosition, int YMiddlePosition, float Scale, int parentXpos = 0, int parentYpos = 0, int* Lane = nullptr, const ItemList* Ptr = nullptr) noexcept;
 	public:
@@ -174,8 +179,11 @@ namespace FPS_n2 {
 		bool									m_EnableMount{ false };
 		bool									m_EnableSight{ false };
 
-		bool									m_PartsChange{ true };
 		std::unique_ptr<CustomParts>			m_CustomParts{ nullptr };
+
+		std::vector<PartsBaseData>				m_PartsDatas;
+
+		WindowMySystem::ScrollBoxClass			m_Scroll;
 	public:
 		void SetWeaponParam(int WeaponID) noexcept;
 		void SetSubparam(int WeaponID, int PresetID) noexcept;
@@ -183,8 +191,6 @@ namespace FPS_n2 {
 	private:
 		void Init_Sub(int* posx, int* posy, float* Scale) noexcept override;
 		void LateExecute_Sub(int*, int*, float*) noexcept override;
-		void Draw_Back_Sub(int xpos, int ypos, float scale) noexcept override;
-		void DrawFront_Sub(int, int, float) noexcept override;
 		void Dispose_Sub(void) noexcept override {
 			m_CustomParts->Dispose();
 			m_CustomParts.reset();

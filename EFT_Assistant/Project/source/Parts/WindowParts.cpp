@@ -26,24 +26,30 @@ namespace FPS_n2 {
 			WindowSystem::SetMsg((xp3 + xp4) / 2, (yp3 + yp4) / 2, LineHeight - EdgeSize * 2 - DXDraw::Instance()->GetUIY(6), STRX_MID, White, Black, "X");
 			return ans;
 		}
-		//
-		void		ScrollBoxClass::ScrollBox(int xp1, int yp1, int xp2, int yp2, float TotalPer, bool IsActive) {
+		void ScrollBoxClass::SetScrollBoxParam(int xp1, int yp1, int xp2, int yp2, float TotalPer, bool IsActive) {
+			{
+				m_xp1 = xp1;
+				m_yp1 = yp1;
+				m_xp2 = xp2;
+				m_yp2 = yp2;
+				m_TotalPer = TotalPer;
+				m_IsActive = IsActive;
+			}
 			auto* Pad = PadControl::Instance();
-			unsigned int color = Gray25;
 
-			int length = (int)((float)(yp2 - yp1) / TotalPer);
-			float Total = (float)(yp2 - yp1 - length);
-			int Yp_t = (int)(Total * this->m_NowScrollYPer);
-			int Yp_s = std::max(yp1, yp1 + Yp_t);
-			int Yp_e = std::min(yp2, Yp_s + length);
+			const int length = (int)((float)(m_yp2 - m_yp1) / m_TotalPer);
+			const float Total = (float)(m_yp2 - m_yp1 - length);
+			const int Yp_t = (int)(Total * this->m_NowScrollYPer);
+			const int Yp_s = std::max(m_yp1, m_yp1 + Yp_t);
+			const int Yp_e = std::min(m_yp2, Yp_s + length);
 
-			if (IsActive) {
-				if (IntoMouse(xp1, yp1, xp2, yp2)) {
+			if (m_IsActive) {
+				if (IntoMouse(m_xp1, m_yp1, m_xp2, m_yp2)) {
 					if (Pad->GetMouseWheelRot() != 0.f) {
 						m_NowScrollYPer = std::clamp(m_NowScrollYPer + (float)(-Pad->GetMouseWheelRot() * 3) / Total, 0.f, 1.f);
 					}
 				}
-				if (IntoMouse(xp2 - DXDraw::Instance()->GetUIY(24), yp1, xp2, yp2)) {
+				if (IntoMouse(m_xp2 - DXDraw::Instance()->GetUIY(24), m_yp1, m_xp2, m_yp2)) {
 					if (Pad->GetMouseClick().trigger()) {
 						m_IsChangeScrollY = true;
 					}
@@ -55,7 +61,6 @@ namespace FPS_n2 {
 				}
 				if (m_IsChangeScrollY) {
 					if (Pad->GetMouseClick().press()) {
-						color = White;
 						m_NowScrollYPer = std::clamp((float)(Pad->GetMS_Y() - this->m_BaseScrollY) / Total, 0.f, 1.f);
 
 						HCURSOR hCursor = LoadCursor(NULL, IDC_SIZENS);
@@ -76,8 +81,26 @@ namespace FPS_n2 {
 					}
 				}
 			}
-			WindowSystem::SetBox(xp2 - DXDraw::Instance()->GetUIY(24), yp1, xp2, yp2, Gray50);
-			WindowSystem::SetBox(xp2 - DXDraw::Instance()->GetUIY(24) + DXDraw::Instance()->GetUIY(1), Yp_s, xp2 - DXDraw::Instance()->GetUIY(1), Yp_e, color);
+		}
+		//
+		void		ScrollBoxClass::ScrollBox() const {
+			auto* Pad = PadControl::Instance();
+			unsigned int color = Gray25;
+			if (m_IsActive) {
+				if (m_IsChangeScrollY) {
+					if (Pad->GetMouseClick().press()) {
+						color = White;
+					}
+				}
+			}
+			const int length = (int)((float)(m_yp2 - m_yp1) / m_TotalPer);
+			const float Total = (float)(m_yp2 - m_yp1 - length);
+			const int Yp_t = (int)(Total * this->m_NowScrollYPer);
+			const int Yp_s = std::max(m_yp1, m_yp1 + Yp_t);
+			const int Yp_e = std::min(m_yp2, Yp_s + length);
+
+			WindowSystem::SetBox(m_xp2 - DXDraw::Instance()->GetUIY(24), m_yp1, m_xp2, m_yp2, Gray50);
+			WindowSystem::SetBox(m_xp2 - DXDraw::Instance()->GetUIY(24) + DXDraw::Instance()->GetUIY(1), Yp_s, m_xp2 - DXDraw::Instance()->GetUIY(1), Yp_e, color);
 		};
 		//
 		const bool	WindowControl::GetIsEditing(void) const noexcept {
@@ -142,7 +165,8 @@ namespace FPS_n2 {
 			{
 				float Total = (float)this->m_TotalSizeY / (m_SizeY - LineHeight);
 				if (Total > 1.f) {
-					m_Scroll.ScrollBox(xp2 - DXDraw::Instance()->GetUIY(24), yp1 + LineHeight, xp2, yp2, Total, this->m_IsActive);
+					m_Scroll.SetScrollBoxParam(xp2 - DXDraw::Instance()->GetUIY(24), yp1 + LineHeight, xp2, yp2, Total, this->m_IsActive);
+					m_Scroll.ScrollBox();
 				}
 			}
 			//ƒ^ƒu

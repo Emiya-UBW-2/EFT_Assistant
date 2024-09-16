@@ -21,9 +21,17 @@ namespace FPS_n2 {
 			bool		m_IsChangeScrollY{ false };
 			int			m_BaseScrollY{ 0 };
 			float		m_NowScrollYPer{ 0.f };
+
+			int m_xp1{ 0 };
+			int m_yp1{ 0 };
+			int m_xp2{ 0 };
+			int m_yp2{ 0 };
+			float m_TotalPer{ 0 };
+			bool m_IsActive{ 0 };
 		public:
 			const auto&		GetNowScrollYPer(void) const noexcept { return this->m_NowScrollYPer; }
-			void			ScrollBox(int xp1, int yp1, int xp2, int yp2, float TotalPer, bool IsActive);
+			void			SetScrollBoxParam(int xp1, int yp1, int xp2, int yp2, float TotalPer, bool IsActive);
+			void			ScrollBox() const;
 		};
 		class WindowControl {
 		public:

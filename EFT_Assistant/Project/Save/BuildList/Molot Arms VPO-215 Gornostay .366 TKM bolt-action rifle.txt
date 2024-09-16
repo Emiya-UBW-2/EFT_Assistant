@@ -1,0 +1,3 @@
+116.000000	,28.000000	,Molot Arms VPO-215 "Gornostay" .366 TKM ボルトアクション ライフル	,VPO-215 "Gornostay" stock	,Rotor 43 .366TKM マズルブレーキ	,VPO-215 "Gornostay" .366TKM 23 inch barrel	,
+130.000000	,50.000000	,Molot Arms VPO-215 "Gornostay" .366 TKM ボルトアクション ライフル	,VPO-215 "Gornostay" stock	,VPO-215 "Gornostay" .366TKM 23 inch barrel	,
+130.000000	,51.000000	,Molot Arms VPO-215 "Gornostay" .366 TKM ボルトアクション ライフル	,VPO-215 "Gornostay" stock	,VPO-215 スレッド保護キャップ	,VPO-215 "Gornostay" .366TKM 23 inch barrel	,

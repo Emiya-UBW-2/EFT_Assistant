@@ -77,6 +77,18 @@ namespace FPS_n2 {
 			break;
 		}
 	}
+	//
+	void CustomParts::UpdateBlackList() noexcept {
+		if (m_BlackListUpdate) {
+			m_BlackListUpdate = false;
+			m_BlackList.clear();
+			for (auto& item : DataBase::Instance()->GetItemData()->GetList()) {
+				if (PlayerData::Instance()->GetItemLock(item.GetIDstr().c_str())) {
+					m_BlackList.emplace_back(&item);
+				}
+			}
+		}
+	}
 	//プリセットを適応
 	void CustomParts::AttachPreset(const PresetList& Preset, const ItemList* Ptr) noexcept {
 		auto* Ptr_Buf = Ptr;
@@ -307,7 +319,12 @@ namespace FPS_n2 {
 			for (auto& conf : Ptr_Buf->GetConflictParts()) {
 				Conflict.emplace_back(conf.GetID());
 			}
-			Data->back().m_PartsIDList.emplace_back(Ptr_Buf->GetID(), Ptr_Buf->GetName_Jpn(), ParentDataID, slot, Conflict);
+			if (!IsParent) {
+				Data->back().m_PartsIDList.emplace_back(Ptr_Buf->GetID(), Ptr_Buf->GetName_Jpn(), ParentDataID, slot, Conflict, Ptr_Buf->GetRecoil(), Ptr_Buf->GetErgonomics());
+			}
+			else {
+				Data->back().m_PartsIDList.emplace_back(Ptr_Buf->GetID(), Ptr_Buf->GetName_Jpn(), ParentDataID, slot, Conflict, 0.f, 0.f);
+			}
 			ParentDataIndex = (int)Data->size() - 1;
 		}
 		//子パーツ
@@ -418,21 +435,14 @@ namespace FPS_n2 {
 				if (HasParts && !IsHit) {
 					//トレーダー交換がLLアップのみでできない場合ブラックリスト入り
 					PlayerData::Instance()->SetItemLock(item.GetIDstr().c_str(), true);
+					UpdateBlackListFlag();
 				}
 			}
 		}
 		PlayerData::Instance()->Save();
 	}
 	//
-	void CustomParts::CalcChildErgRec(
-		std::vector<PartsBaseData>* Data) noexcept {
-		std::vector<PartsBaseData>	BranchDataBase;
-		CalcChildBranch(&BranchDataBase);
-		printfDx("BlanchList : %d\n", BranchDataBase.size());
-		if (BranchDataBase.size() > 100) {
-			printfDx("So Many Blanch : Need More Filtering Less Than 200\n");
-			return;
-		}
+	void CustomParts::CalcChildErgRec(std::vector<PartsBaseData>* Data, const std::vector<PartsBaseData>& BranchDataBase) noexcept {
 		(*Data) = BranchDataBase;
 		// 枝をもとに組み合わせ網羅
 		{
@@ -581,21 +591,16 @@ namespace FPS_n2 {
 			}
 			break;
 		}
-		//保存
-		{
-			std::ofstream outputfile("Save/AAAA.txt");
-			for (auto& data : *Data) {
-				for (auto& parts : data.m_PartsIDList) {
-					if (&parts == &data.m_PartsIDList.front()) {
-					}
-					else {
-						outputfile << parts.MyName + "\t,";
-					}
-				}
-				outputfile << "\n";
+		//リコイル、エルゴのデータを計算
+		for (auto& data2 : *Data) {
+			data2.m_Recoil = 0.0f;
+			data2.m_Ergonomics = 0.0f;
+			for (auto& Parts1 : data2.m_PartsIDList) {
+				data2.m_Recoil += Parts1.m_RecoilAdd;
+				data2.m_Ergonomics += Parts1.m_ErgonomicsAdd;
 			}
-			outputfile.close();
-			printfDx("OK : %d\n", Data->size());
+			data2.m_Recoil = ((float)(m_BaseWeapon->GetRecoilVertical()) * (100.f + data2.m_Recoil) / 100.f);
+			data2.m_Ergonomics = (m_BaseWeapon->GetWeaponErgonomics() + data2.m_Ergonomics);
 		}
 	}
 	//描画
@@ -665,7 +670,7 @@ namespace FPS_n2 {
 		}
 		//アイテムの描画
 		if (cID->GetIsSelected()) {
-			const_cast<ItemList*>(cID->GetChildPtr())->Draw(Xleft, YUp, (Xright - Xleft), (YBottom - YUp), 0, Gray10, false, false, true, false);
+			const_cast<ItemList*>(cID->GetChildPtr())->Draw(Xleft, YUp, (Xright - Xleft), (YBottom - YUp), 0, Gray10, false, false, false, false);
 			if (DrawChild(
 				XRight + (int)((float)(DXDraw::Instance()->GetUIY(150)) * Scale),
 				YMiddlePosition,
@@ -694,6 +699,7 @@ namespace FPS_n2 {
 				WindowSystem::DrawControl::Instance()->SetDrawBox(WindowSystem::DrawLayer::Normal, XLeftPosition, YUp, XRight, YBottom, RedPop, false);
 				if (Pad->GetAtoZKey('L').trigger()) {
 					PlayerData::Instance()->OnOffItemLock(cID->GetChildPtr()->GetIDstr().c_str());
+					UpdateBlackListFlag();
 				}
 				WindowSystem::DrawControl::Instance()->SetString(WindowSystem::DrawLayer::Front,
 					FontPool::FontType::MS_Gothic, LineHeight,
@@ -800,9 +806,12 @@ namespace FPS_n2 {
 				PageMngr->TurnOnGoNextPage();
 			}
 		};
+		m_CustomParts->UpdateBlackListFlag();
 	}
 	//
-	void CustomBG::LateExecute_Sub(int*, int*, float*) noexcept {
+	void CustomBG::LateExecute_Sub(int* xpos, int* ypos, float* scale) noexcept {
+		auto* WindowMngr = WindowMySystem::WindowManager::Instance();
+		//設定
 		if (m_CustomParts->GetBaseWeapon()) {
 			//プリセットを適応
 			if (m_CustomParts->GetPartsCount() == 0) {
@@ -810,54 +819,37 @@ namespace FPS_n2 {
 					m_CustomParts->AttachPreset(*DataBase::Instance()->GetPresetData()->FindPtr(this->m_SelectPreset));
 				}
 			}
-			//設定
 			m_CustomParts->CalcChild(!m_EnableMag, !m_EnableMount, !m_EnableSight);
-			//パターンを検索
-			//m_PartsChange = false;//これで無効化
-			if (m_PartsChange) {
-				m_PartsChange = false;
-				//m_CustomParts->CalcBlackList();
-				std::vector<PartsBaseData>	PartsDatas;
-				m_CustomParts->CalcChildErgRec(&PartsDatas);
-			}
 		}
-		else {
-			m_PartsChange = false;
-		}
-	}
-	//
-	void CustomBG::Draw_Back_Sub(int xpos, int ypos, float scale) noexcept {
+		//背景とブランチ描画
 		if (m_CustomParts->GetBaseWeapon()) {
+			float Scale = ((float)DXDraw::Instance()->GetUIY(1080) / 128) * *scale;
 			if (m_CustomParts->GetBaseWeapon()->GetIcon().GetGraph()) {
-				float Scale = ((float)DXDraw::Instance()->GetUIY(1080) / 128) * scale;
-				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, this->m_CustomParts->GetBaseWeapon()->GetIcon().GetGraph(), xpos + (int)((float)DXDraw::Instance()->GetUIY(960)*scale / 0.2f), ypos + (int)((float)DXDraw::Instance()->GetUIY(540)*scale / 0.2f), Scale, 0.f, false);
-				m_CustomParts->DrawChild(xpos, ypos, Scale);
+				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, this->m_CustomParts->GetBaseWeapon()->GetIcon().GetGraph(), *xpos + (int)((float)DXDraw::Instance()->GetUIY(960) * *scale / 0.2f), *ypos + (int)((float)DXDraw::Instance()->GetUIY(540) * *scale / 0.2f), Scale, 0.f, false);
 			}
+			m_CustomParts->DrawChild(*xpos, *ypos, Scale);
 		}
-		//
+		//List
 		{
 			int xgoal = 0;
 			int xs_add = m_ListXSize + DXDraw::Instance()->GetUIY(50);
 			bool isChild = false;
 			isChild |= MakeLists(0, true, [&](std::pair<int, bool>* IDs, bool IsChild, int XP, int YP, int XS) {
 				if (IsChild) { xgoal -= xs_add; }
-				DataBase::Instance()->GetItemTypeData()->DrawList(XP + xgoal, YP, XS, "ItemType", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (ptr->GetCategoryID() == DataBase::Instance()->GetItemCategoryData()->FindID("Weapons")); });
-			});
+				DataBase::Instance()->GetItemTypeData()->DrawList(XP + xgoal, YP, XS, "ItemType", &IDs->first, !IDs->second, false, false, [&](const auto* ptr) { return (ptr->GetCategoryID() == DataBase::Instance()->GetItemCategoryData()->FindID("Weapons")); });
+				});
 			isChild |= MakeLists(1, true, [&](std::pair<int, bool>* IDs, bool IsChild, int XP, int YP, int XS) {
 				if (IsChild) { xgoal -= xs_add; }
-				DataBase::Instance()->GetItemData()->DrawList(XP + xgoal, YP, XS, "Item", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (!ptr->GetIsPreset()) && (ptr->GetTypeID() == ListsSel(1 - 1)); });
-			});
+				DataBase::Instance()->GetItemData()->DrawList(XP + xgoal, YP, XS, "Item", &IDs->first, !IDs->second, false, false, [&](const auto* ptr) { return (!ptr->GetIsPreset()) && (ptr->GetTypeID() == ListsSel(1 - 1)); });
+				});
 			isChild |= MakeLists(2, false, [&](std::pair<int, bool>* IDs, bool IsChild, int XP, int YP, int XS) {
 				if (IsChild) { xgoal -= xs_add; }
-				DataBase::Instance()->GetPresetData()->DrawList(XP + xgoal, YP, XS, "Preset", &IDs->first, !IDs->second, false, false, [&](const auto *ptr) { return (ptr->GetBase()->GetID() == ListsSel(2 - 1)); });
-			});
+				DataBase::Instance()->GetPresetData()->DrawList(XP + xgoal, YP, XS, "Preset", &IDs->first, !IDs->second, false, false, [&](const auto* ptr) { return (ptr->GetBase()->GetID() == ListsSel(2 - 1)); });
+				});
 			if ((ListsSel(1) != InvalidID) && (ListsSel(2) != InvalidID)) {
 				xgoal -= xs_add * 3;
 			}
 			ExecuteLists(isChild, xgoal);
-		}
-		//List
-		{
 			//
 			SetWeaponParam(ListsSel(1));
 			//
@@ -866,158 +858,106 @@ namespace FPS_n2 {
 			}
 			this->m_SelectPreset = ListsSel(2);
 		}
-	}
-	void CustomBG::DrawFront_Sub(int, int, float) noexcept {
+		//場所ガイド
+		if (m_CustomParts->GetBaseWeapon()) {
+			SetPositionGuide(
+				m_CustomParts->GetCustomDrawXMinPosition(), m_CustomParts->GetCustomDrawYMinPosition(),
+				m_CustomParts->GetCustomDrawXMaxPosition(), m_CustomParts->GetCustomDrawYMaxPosition());
+		}
 		//下から上に
 		if (m_CustomParts->GetBaseWeapon()) {
-			bool PrevSight = this->m_EnableSight;
-			bool PrevMount = this->m_EnableMount;
-			bool PrevMag = this->m_EnableMag;
-
-
 			int xp = LineHeight;
-			int yp = DXDraw::Instance()->GetUIY(720) - LineHeight;
+			int yp = DXDraw::Instance()->GetUIY(1080) - LineHeight / 2;
 			//
 			yp -= DXDraw::Instance()->GetUIY(80);
-			WindowSystem::SetMsg(xp, yp + LineHeight / 2, LineHeight, STRX_LEFT, White, Black, "エルゴノミクス");
-			int Erg = (int)m_CustomParts->GetErgonomics();// , OldE = Erg;
-			//Erg = WindowSystem::UpDownBar(xp, DXDraw::Instance()->GetUIY(640), yp + LineHeight + DXDraw::Instance()->GetUIY(5), Erg, 0, 100);
-			if (m_CustomParts->GetBaseWeapon()) {
+			WindowSystem::SetMsg(xp, yp, LineHeight, STRX_LEFT, White, Black, "エルゴノミクス");
+			{
 				int xmin = xp;
-				int xmax = DXDraw::Instance()->GetUIY(640);
-				int ypos = yp + LineHeight + DXDraw::Instance()->GetUIY(5);
+				int xmax = DXDraw::Instance()->GetUIY(480);
+				int xmid = (xmin + (xmax - xmin) / 2);
+				int ymin = yp + LineHeight / 2 + DXDraw::Instance()->GetUIY(5);
+				int ymax = ymin + LineHeight;
+				int ymid = (ymin + (ymax - ymin) / 2);
+
 				int valueMin = 0;
 				int valueMax = 100;
+				int valueLen = valueMax - valueMin;
+				int Erg = std::clamp((int)m_CustomParts->GetErgonomics() - valueMin, 0, valueLen);
+				int ErgMin = std::clamp((int)m_CustomParts->GetErgonomicsMin() - valueMin, 0, valueLen);
+				int ErgMax = std::clamp((int)m_CustomParts->GetErgonomicsMax() - valueMin, 0, valueLen);
 
-				float ErgMin = m_CustomParts->GetErgonomicsMin();
-				float ErgMax = m_CustomParts->GetErgonomicsMax();
-
-				int xp_t = 0;
 				{
 					int xpmin = xmin + LineHeight + 1;
 					int xpmax = xmax - 1;
-					WindowSystem::SetBox(xpmin, ypos, xpmin + (xpmax - xpmin), ypos + LineHeight, DarkGreen);
-					WindowSystem::SetBox(xpmin, ypos, xpmin + (xpmax - xpmin)*std::clamp(Erg - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Green);
+					int xplen = (xpmax - xpmin);
+					WindowSystem::SetBox(xpmin, ymin, xpmin + xplen, ymax, DarkGreen);
+					WindowSystem::SetBox(xpmin, ymin, xpmin + xplen * Erg / valueLen, ymax, Green);
 					if (m_CustomParts->IsSpecChange()) {
-						WindowSystem::SetBox(
-							xpmin + (xpmax - xpmin)*std::clamp((int)ErgMin - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos,
-							xpmin + (xpmax - xpmin)*std::clamp(Erg - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Red);
-						WindowSystem::SetBox(
-							xpmin + (xpmax - xpmin)*std::clamp(Erg - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos,
-							xpmin + (xpmax - xpmin)*std::clamp((int)ErgMax - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Blue);
+						WindowSystem::SetBox(xpmin + xplen * ErgMin / valueLen, ymin, xpmin + xplen * Erg / valueLen, ymax, Red);
+						WindowSystem::SetBox(xpmin + xplen * Erg / valueLen, ymin, xpmin + xplen * ErgMax / valueLen, ymax, Blue);
 					}
 
 					WindowSystem::DrawControl::Instance()->SetDrawLine(WindowSystem::DrawLayer::Normal,
-						xpmin + (xpmax - xpmin)*std::clamp(Erg - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos,
-						xpmin + (xpmax - xpmin)*std::clamp(Erg - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Black, 3);
+						xpmin + xplen * Erg / valueLen, ymin, xpmin + xplen * Erg / valueLen, ymax, Black, 3);
 					WindowSystem::DrawControl::Instance()->SetDrawLine(WindowSystem::DrawLayer::Normal,
-						xpmin + (xpmax - xpmin)*std::clamp(Erg - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos,
-						xpmin + (xpmax - xpmin)*std::clamp(Erg - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Gray15, 1);
+						xpmin + xplen * Erg / valueLen, ymin, xpmin + xplen * Erg / valueLen, ymax, Gray15, 1);
 				}
-				/*
-				xp_t = xmax;
-				if (WindowSystem::SetMsgClickBox(xp_t, ypos, xp_t + LineHeight, ypos + LineHeight, LineHeight, Gray25, true, true, "△")) {
-					Erg = std::min(Erg + 1, valueMax);
-				}
-				//*/
-				xp_t = (xmin + (xmax - xmin) / 2);
 				if (m_CustomParts->IsSpecChange()) {
-					if ((int)ErgMin == Erg) {
-						WindowSystem::SetMsg(xp_t, ypos + LineHeight / 2, LineHeight * 7 / 10, STRX_MID, White, Black, "               <%5.2f", ErgMax);
-					}
-					else if ((int)ErgMax == Erg) {
-						WindowSystem::SetMsg(xp_t, ypos + LineHeight / 2, LineHeight * 7 / 10, STRX_MID, White, Black, "%5.2f<               ", ErgMin);
-					}
-					else {
-						WindowSystem::SetMsg(xp_t, ypos + LineHeight / 2, LineHeight * 7 / 10, STRX_MID, White, Black, "%5.2f<            <%5.2f", ErgMin, ErgMax);
-					}
+					WindowSystem::SetMsg(xmid, ymid, LineHeight * 7 / 10, STRX_MID, White, Black, "%5.2f<            <%5.2f", m_CustomParts->GetErgonomicsMin(), m_CustomParts->GetErgonomicsMax());
 				}
-				WindowSystem::SetMsg(xp_t, ypos + LineHeight / 2, LineHeight, STRX_MID, White, Black, "%5.2f", this->m_CustomParts->GetErgonomics());
-				/*
-				xp_t = xmin;
-				if (WindowSystem::SetMsgClickBox(xp_t, ypos, xp_t + LineHeight, ypos + LineHeight, LineHeight, Gray25, true, true, "▽")) {
-					Erg = std::max(Erg - 1, valueMin);
-				}
-				//*/
+				WindowSystem::SetMsg(xmid, ymid, LineHeight, STRX_MID, White, Black, "%5.2f", this->m_CustomParts->GetErgonomics());
 			}
-
-			//if (OldE != Erg) { m_Ergonomics = (float)Erg; }
 			//
 			yp -= DXDraw::Instance()->GetUIY(80);
-			WindowSystem::SetMsg(xp, yp + LineHeight / 2, LineHeight, STRX_LEFT, White, Black, "縦リコイル");
-			int Rec = (int)m_CustomParts->GetRecoil();// , OldR = Rec;
-			//Rec = WindowSystem::UpDownBar(xp, DXDraw::Instance()->GetUIY(640), yp + LineHeight + DXDraw::Instance()->GetUIY(5), Rec, 10, 200);
-			if (m_CustomParts->GetBaseWeapon()) {
+			WindowSystem::SetMsg(xp, yp, LineHeight, STRX_LEFT, White, Black, "縦リコイル");
+			{
 				int xmin = xp;
-				int xmax = DXDraw::Instance()->GetUIY(640);
-				int ypos = yp + LineHeight + DXDraw::Instance()->GetUIY(5);
+				int xmax = DXDraw::Instance()->GetUIY(480);
+				int xmid = (xmin + (xmax - xmin) / 2);
+				int ymin = yp + LineHeight / 2 + DXDraw::Instance()->GetUIY(5);
+				int ymax = ymin + LineHeight;
+				int ymid = (ymin + (ymax - ymin) / 2);
+
 				int valueMin = 0;
 				int valueMax = 100;
+				int valueLen = valueMax - valueMin;
+				int Rec = std::clamp((int)m_CustomParts->GetRecoil() - valueMin, 0, valueLen);
+				int RecMin = std::clamp((int)m_CustomParts->GetRecoilMin() - valueMin, 0, valueLen);
+				int RecMax = std::clamp((int)m_CustomParts->GetRecoilMax() - valueMin, 0, valueLen);
 
-				float RecMin = m_CustomParts->GetRecoilMin();
-				float RecMax = m_CustomParts->GetRecoilMax();
-
-				int xp_t = 0;
 				{
 					int xpmin = xmin + LineHeight + 1;
 					int xpmax = xmax - 1;
-					WindowSystem::SetBox(xpmin, ypos, xpmin + (xpmax - xpmin), ypos + LineHeight, DarkGreen);
-					WindowSystem::SetBox(xpmin, ypos, xpmin + (xpmax - xpmin)*std::clamp(Rec - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Green);
+					int xplen = (xpmax - xpmin);
+					WindowSystem::SetBox(xpmin, ymin, xpmin + xplen, ymax, DarkGreen);
+					WindowSystem::SetBox(xpmin, ymin, xpmin + xplen * Rec / valueLen, ymax, Green);
 					if (m_CustomParts->IsSpecChange()) {
-						WindowSystem::SetBox(
-							xpmin + (xpmax - xpmin)*std::clamp((int)RecMin - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos,
-							xpmin + (xpmax - xpmin)*std::clamp(Rec - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Blue);
-						WindowSystem::SetBox(
-							xpmin + (xpmax - xpmin)*std::clamp(Rec - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos,
-							xpmin + (xpmax - xpmin)*std::clamp((int)RecMax - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Red);
+						WindowSystem::SetBox(xpmin + xplen * RecMin / valueLen, ymin, xpmin + xplen * Rec / valueLen, ymax, Blue);
+						WindowSystem::SetBox(xpmin + xplen * Rec / valueLen, ymin, xpmin + xplen * RecMax / valueLen, ymax, Red);
 					}
 
 					WindowSystem::DrawControl::Instance()->SetDrawLine(WindowSystem::DrawLayer::Normal,
-						xpmin + (xpmax - xpmin)*std::clamp(Rec - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos,
-						xpmin + (xpmax - xpmin)*std::clamp(Rec - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Black, 3);
+						xpmin + xplen * Rec / valueLen, ymin, xpmin + xplen * Rec / valueLen, ymax, Black, 3);
 					WindowSystem::DrawControl::Instance()->SetDrawLine(WindowSystem::DrawLayer::Normal,
-						xpmin + (xpmax - xpmin)*std::clamp(Rec - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos,
-						xpmin + (xpmax - xpmin)*std::clamp(Rec - valueMin, 0, valueMax - valueMin) / (valueMax - valueMin), ypos + LineHeight, Gray15, 1);
+						xpmin + xplen * Rec / valueLen, ymin, xpmin + xplen * Rec / valueLen, ymax, Gray15, 1);
 				}
-				/*
-				xp_t = xmax;
-				if (WindowSystem::SetMsgClickBox(xp_t, ypos, xp_t + LineHeight, ypos + LineHeight, LineHeight, Gray25, true, true, "△")) {
-					Rec = std::min(Rec + 1, valueMax);
-				}
-				//*/
-				xp_t = (xmin + (xmax - xmin) / 2);
 				if (m_CustomParts->IsSpecChange()) {
-					if ((int)RecMin == Rec) {
-						WindowSystem::SetMsg(xp_t, ypos + LineHeight / 2, LineHeight * 7 / 10, STRX_MID, White, Black, "               <%5.2f", RecMax);
-					}
-					else if ((int)RecMax == Rec) {
-						WindowSystem::SetMsg(xp_t, ypos + LineHeight / 2, LineHeight * 7 / 10, STRX_MID, White, Black, "%5.2f<               ", RecMin);
-					}
-					else {
-						WindowSystem::SetMsg(xp_t, ypos + LineHeight / 2, LineHeight * 7 / 10, STRX_MID, White, Black, "%5.2f<            <%5.2f", RecMin, RecMax);
-					}
+					WindowSystem::SetMsg(xmid, ymid, LineHeight * 7 / 10, STRX_MID, White, Black, "%5.2f<            <%5.2f", m_CustomParts->GetRecoilMin(), m_CustomParts->GetRecoilMax());
 				}
-				WindowSystem::SetMsg(xp_t, ypos + LineHeight / 2, LineHeight, STRX_MID, White, Black, "%5.2f", this->m_CustomParts->GetRecoil());
-				/*
-				xp_t = xmin;
-				if (WindowSystem::SetMsgClickBox(xp_t, ypos, xp_t + LineHeight, ypos + LineHeight, LineHeight, Gray25, true, true, "▽")) {
-					Rec = std::max(Rec - 1, valueMin);
-				}
-				//*/
+				WindowSystem::SetMsg(xmid, ymid, LineHeight, STRX_MID, White, Black, "%5.2f", this->m_CustomParts->GetRecoil());
 			}
-			//if (OldR != Rec) { this->m_Recoil = (float)Rec; }
 			//
 			yp -= DXDraw::Instance()->GetUIY(50);
-			m_EnableSight = WindowSystem::CheckBox(xp, yp, m_EnableSight);
-			WindowSystem::SetMsg(xp + LineHeight * 3, yp + LineHeight / 2, LineHeight, STRX_LEFT, White, Black, "サイトを含む");
+			m_EnableSight = WindowSystem::CheckBox(xp, (yp - LineHeight / 2), m_EnableSight);
+			WindowSystem::SetMsg(xp + LineHeight * 3, yp, LineHeight, STRX_LEFT, White, Black, "サイトを含む");
 			//
 			yp -= DXDraw::Instance()->GetUIY(50);
-			m_EnableMount = WindowSystem::CheckBox(xp, yp, m_EnableMount);
-			WindowSystem::SetMsg(xp + LineHeight * 3, yp + LineHeight / 2, LineHeight, STRX_LEFT, White, Black, "マウントを含む");
+			m_EnableMount = WindowSystem::CheckBox(xp, (yp - LineHeight / 2), m_EnableMount);
+			WindowSystem::SetMsg(xp + LineHeight * 3, yp, LineHeight, STRX_LEFT, White, Black, "マウントを含む");
 			//
 			yp -= DXDraw::Instance()->GetUIY(50);
-			m_EnableMag = WindowSystem::CheckBox(xp, yp, m_EnableMag);
-			WindowSystem::SetMsg(xp + LineHeight * 3, yp + LineHeight / 2, LineHeight, STRX_LEFT, White, Black, "マガジンを含む");
+			m_EnableMag = WindowSystem::CheckBox(xp, (yp - LineHeight / 2), m_EnableMag);
+			WindowSystem::SetMsg(xp + LineHeight * 3, yp, LineHeight, STRX_LEFT, White, Black, "マガジンを含む");
 			//
 			if (m_EnableSight) {
 				m_EnableMount = true;
@@ -1025,17 +965,143 @@ namespace FPS_n2 {
 			if (!m_EnableMount) {
 				m_EnableSight = false;
 			}
-			if ((PrevSight != this->m_EnableSight) || (PrevMount != this->m_EnableMount) || (PrevMag != this->m_EnableMag)) {
-				m_PartsChange = true;
-			}
+			//パターンを検索
+			yp -= DXDraw::Instance()->GetUIY(50);
+			if (WindowSystem::SetMsgClickBox(
+				xp, yp, xp + DXDraw::Instance()->GetUIY(480), yp + LineHeight, LineHeight,
+				Gray25, false, !WindowMngr->PosHitCheck(nullptr), "パターン検索")) {
+				m_PartsDatas.clear();
 
+				std::vector<PartsBaseData>	BranchDataBase;
+				m_CustomParts->CalcChildBranch(&BranchDataBase);
+				clsDx();
+				printfDx("BlanchList : %d\n", BranchDataBase.size());
+				if (BranchDataBase.size() >= 50) {
+					printfDx("So Many Blanch : Need More Filtering Less Than 50\n");
+				}
+				else {
+					m_CustomParts->CalcChildErgRec(&m_PartsDatas, BranchDataBase);
+
+					std::sort(m_PartsDatas.begin(), m_PartsDatas.end(),
+						[&](const PartsBaseData& Parts1, const PartsBaseData& Parts2) {
+							if (Parts1.m_Recoil == Parts2.m_Recoil) {
+								return Parts1.m_Ergonomics < Parts2.m_Ergonomics;
+							}
+							return Parts1.m_Recoil < Parts2.m_Recoil;
+						});
+
+					//保存
+					{
+						std::string Path = "Save/BuildList/";
+						Path += m_CustomParts->GetBaseWeapon()->GetName();
+						SubStrs(&Path, ":");
+						SubStrs(&Path, "*");
+						SubStrs(&Path, "?");
+						SubStrs(&Path, "\"");
+						SubStrs(&Path, ">");
+						SubStrs(&Path, "<");
+						SubStrs(&Path, "|");
+						Path += ".txt";
+
+						std::ofstream outputfile(Path);
+						for (auto& data : m_PartsDatas) {
+							outputfile << std::to_string(data.m_Recoil) + "\t,";
+							outputfile << std::to_string(data.m_Ergonomics) + "\t,";
+							for (auto& parts : data.m_PartsIDList) {
+								outputfile << parts.MyName + "\t,";
+							}
+							outputfile << "\n";
+						}
+						outputfile.close();
+						printfDx("OK : %d\n", m_PartsDatas.size());
+					}
+				}
+			}
 		}
-		//場所ガイド
-		if (m_CustomParts->GetBaseWeapon()) {
-			if (m_CustomParts->GetBaseWeapon()->GetIcon().GetGraph()) {
-				SetPositionGuide(
-					m_CustomParts->GetCustomDrawXMinPosition(), m_CustomParts->GetCustomDrawYMinPosition(),
-					m_CustomParts->GetCustomDrawXMaxPosition(), m_CustomParts->GetCustomDrawYMaxPosition());
+		//
+		// ブラックリスト
+		{
+			auto* Pad = PadControl::Instance();
+			//
+			m_CustomParts->UpdateBlackList();
+			//表示
+			int xp = LineHeight + DXDraw::Instance()->GetUIY(480);
+			int yp = LineHeight * 3 + LineHeight / 2;
+
+			int Max = (int)m_CustomParts->GetBlackList().size();
+			if (Max > 0) {
+				int xofs = 0;
+				int yofs = 0;
+				WindowSystem::SetMsg(xp, yp + LineHeight / 2 + yofs, LineHeight, STRX_LEFT, White, Black, "ブラックリスト(%d)", Max);
+				xofs = std::max(xofs, WindowSystem::GetMsgLen(LineHeight, "ブラックリスト(%d)", Max) + DXDraw::Instance()->GetUIY(30)); yofs += LineHeight + DXDraw::Instance()->GetUIY(5);
+
+				int ysize = DXDraw::Instance()->GetUIY(36);
+				int ysizeAdd = ysize + DXDraw::Instance()->GetUIY(5);
+
+				int ofset = (int)(this->m_Scroll.GetNowScrollYPer() * (std::max(0, Max - 4 + 1) * ysizeAdd));
+				int yofs_t = yofs;
+				yofs_t += LineHeight + DXDraw::Instance()->GetUIY(5);
+				int ypMin = yp + yofs_t;
+				int ypMax = yp + yofs_t + ysizeAdd * 4;
+				int yp1 = yp + yofs_t - ofset;
+				for (auto* item : m_CustomParts->GetBlackList()) {
+					if (ypMin - ysizeAdd < yp1 && yp1 < ypMax) {
+						if (ypMin < yp1 && yp1 < ypMax - ysizeAdd) {
+							WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255);
+						}
+						else {
+							if (yp1 <= ypMin) {
+								WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255 - std::clamp(255 * (ypMin - yp1) / ysizeAdd, 0, 255));
+							}
+							else {
+								WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255 - std::clamp(255 * (yp1 - (ypMax - ysizeAdd)) / ysizeAdd, 0, 255));
+							}
+						}
+						ItemList* pitem = (ItemList*)item;
+						int x_1 = xp + DXDraw::Instance()->GetUIY(30);
+						int y_1 = yp1;
+						int x_2 = x_1 + DXDraw::Instance()->GetUIY(800);
+						int y_2 = y_1 + ysize;
+						pitem->Draw(x_1, y_1, x_2 - x_1, y_2 - y_1, 0, Gray25, (!WindowMngr->PosHitCheck(nullptr) && !(xp == 0 && yp == 0)), false, false, false);
+						if (IntoMouse(x_1, y_1, x_2, y_2)) {
+							WindowSystem::DrawControl::Instance()->SetDrawBox(WindowSystem::DrawLayer::Normal, x_1, y_1, x_2, y_2, RedPop, false);
+							if (Pad->GetAtoZKey('L').trigger()) {
+								PlayerData::Instance()->OnOffItemLock(item->GetIDstr().c_str());
+								m_CustomParts->UpdateBlackListFlag();
+							}
+							WindowSystem::DrawControl::Instance()->SetString(WindowSystem::DrawLayer::Front,
+								FontPool::FontType::MS_Gothic, LineHeight,
+								STRX_RIGHT, STRY_BOTTOM, Pad->GetMS_X(), Pad->GetMS_Y(), RedPop, Black,
+								"Lキーでブラックリストに設定"
+							);
+						}
+					}
+					yofs_t += ysizeAdd;
+					yp1 += ysizeAdd;
+				}
+				WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255);
+				//スクロールバー
+				{
+					float Total = (float)(yofs_t - yofs) / (ypMax - ypMin);
+					if (Total > 1.f) {
+						this->m_Scroll.SetScrollBoxParam(
+							xp + DXDraw::Instance()->GetUIY(30), ypMin,
+							xp + DXDraw::Instance()->GetUIY(30) + DXDraw::Instance()->GetUIY(800) + DXDraw::Instance()->GetUIY(30), ypMax,
+							Total, !WindowMngr->PosHitCheck(nullptr));
+						this->m_Scroll.ScrollBox();
+					}
+				}
+				yofs = ypMax - yp;
+				//
+				yofs += LineHeight + DXDraw::Instance()->GetUIY(5);
+
+				if (WindowSystem::SetMsgClickBox(
+					xp + DXDraw::Instance()->GetUIY(30) + DXDraw::Instance()->GetUIY(800) + DXDraw::Instance()->GetUIY(30) - DXDraw::Instance()->GetUIY(480) , yp + 0,
+					xp + DXDraw::Instance()->GetUIY(30) + DXDraw::Instance()->GetUIY(800) + DXDraw::Instance()->GetUIY(30), yp + 0 + LineHeight, LineHeight,
+					Gray25, false, !WindowMngr->PosHitCheck(nullptr), "ブラックリストにタスク開放品をセット")) {
+					m_CustomParts->CalcBlackList();
+					m_CustomParts->UpdateBlackListFlag();
+				}
 			}
 		}
 	}
