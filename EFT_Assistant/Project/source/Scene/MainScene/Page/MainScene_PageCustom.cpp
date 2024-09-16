@@ -16,6 +16,7 @@ namespace FPS_n2 {
 		else {
 			bool IsHit = false;
 			int  Now = 0;
+			/*
 			for (const auto& cID2 : GetMySlotData().GetData()) {
 				if (PlayerData::Instance()->GetItemLock(DataBase::Instance()->GetItemData()->FindPtr(cID2.GetID())->GetIDstr().c_str())) {
 					IsHit = true;
@@ -23,6 +24,7 @@ namespace FPS_n2 {
 				}
 				Now++;
 			}
+			//*/
 			this->ChildSel = IsHit ? Now : this->m_PartsOn;
 			this->m_PartsOn = InvalidID;
 		}
@@ -167,15 +169,16 @@ namespace FPS_n2 {
 				//Ý’èvector‚É’Ç‰Á
 				m_ChildData.resize(m_ChildData.size() + 1);
 				m_ChildData.back().Set(Ptr_Buf, index, 0);
-				//
 				auto& cID = this->m_ChildData.back();
+				cID.OnOffSelect();
+				/*
 				for (const auto& cID2 : this->m_ChildData.back().GetMySlotData().GetData()) {
 					if (PlayerData::Instance()->GetItemLock(DataBase::Instance()->GetItemData()->FindPtr(cID2.GetID())->GetIDstr().c_str())) {
 						break;
 					}
 					cID.AddSelect();
 				}
-				//
+				//*/
 				AddSelectToCanSelect(&cID);
 			}
 		}
