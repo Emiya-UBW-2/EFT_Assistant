@@ -77,7 +77,7 @@ namespace FPS_n2 {
 				//”í‚Á‚Ä‚½‚ç‰º‚É‰º‚°‚é
 				while (true) {
 					bool isHit = false;
-					for (auto&r : this->m_TaskRect) {
+					for (auto& r : this->m_TaskRect) {
 						if (r.IsHit(P_Next)) {
 							isHit = true;
 							P_Next.Set(xp + (xs + (int)((float)DXDraw::Instance()->GetUIY(400) * Scale)), P_Next.GetPosY() + ys * 3 / 2, xs, suby);
@@ -119,7 +119,7 @@ namespace FPS_n2 {
 		}
 	}
 
-	void TaskBG::Init_Sub(int *posx, int *posy, float* Scale) noexcept {
+	void TaskBG::Init_Sub(int* posx, int* posy, float* Scale) noexcept {
 		*Scale = 0.3f;
 
 		*posx = DXDraw::Instance()->GetUIY(20);
@@ -132,7 +132,7 @@ namespace FPS_n2 {
 		m_DrawCanClearTask = false;
 	}
 
-	void TaskBG::LateExecute_Sub(int*posx, int*posy, float*Scale) noexcept {
+	void TaskBG::LateExecute_Sub(int* posx, int* posy, float* Scale) noexcept {
 		if (m_Mode == EnumTaskDrawMode::List) {
 			*Scale = 0.3f;
 
@@ -182,10 +182,10 @@ namespace FPS_n2 {
 				int ypBase = posy;
 				int xp = xpBase;
 				int yp = ypBase;
-				int xsize = (int)((float)DXDraw::Instance()->GetUIY(640)*Scale);
-				int ysize = (int)((float)DXDraw::Instance()->GetUIY(96)*Scale);
-				int xsizeAdd = (int)((float)DXDraw::Instance()->GetUIY(640 + 30)*Scale);
-				int ysizeAdd = (int)((float)DXDraw::Instance()->GetUIY(96 + 15)*Scale);
+				int xsize = (int)((float)DXDraw::Instance()->GetUIY(640) * Scale);
+				int ysize = (int)((float)DXDraw::Instance()->GetUIY(96) * Scale);
+				int xsizeAdd = (int)((float)DXDraw::Instance()->GetUIY(640 + 30) * Scale);
+				int ysizeAdd = (int)((float)DXDraw::Instance()->GetUIY(96 + 15) * Scale);
 
 				for (auto& Cat : DataBase::Instance()->GetItemCategoryData()->GetList()) {
 					bool IsHit = false;
@@ -197,7 +197,7 @@ namespace FPS_n2 {
 								if (ptr) {
 									ptr->Draw(xp, yp, xsize, ysize, (c.second >= 2) ? c.second : 0, Gray15, !WindowMngr->PosHitCheck(nullptr), false, false, Scale < 0.6f);
 									yp += ysizeAdd;
-									if ((yp - ypBase) >= (int)((float)DXDraw::Instance()->GetUIY(1920)*Scale)) {
+									if ((yp - ypBase) >= (int)((float)DXDraw::Instance()->GetUIY(1920) * Scale)) {
 										xp += xsizeAdd;
 										yp = ypBase;
 									}
@@ -244,10 +244,10 @@ namespace FPS_n2 {
 				int ypBase = posy;
 				int xp = xpBase;
 				int yp = ypBase;
-				int xsize = (int)((float)DXDraw::Instance()->GetUIY(640)*Scale);
-				int ysize = (int)((float)DXDraw::Instance()->GetUIY(96)*Scale);
-				int xsizeAdd = (int)((float)DXDraw::Instance()->GetUIY(640 + 30)*Scale);
-				int ysizeAdd = (int)((float)DXDraw::Instance()->GetUIY(96 + 15)*Scale);
+				int xsize = (int)((float)DXDraw::Instance()->GetUIY(640) * Scale);
+				int ysize = (int)((float)DXDraw::Instance()->GetUIY(96) * Scale);
+				int xsizeAdd = (int)((float)DXDraw::Instance()->GetUIY(640 + 30) * Scale);
+				int ysizeAdd = (int)((float)DXDraw::Instance()->GetUIY(96 + 15) * Scale);
 
 				for (auto& Cat : DataBase::Instance()->GetItemCategoryData()->GetList()) {
 					bool IsHit = false;
@@ -259,7 +259,7 @@ namespace FPS_n2 {
 								if (ptr) {
 									ptr->Draw(xp, yp, xsize, ysize, (c.second >= 2) ? c.second : 0, Gray15, !WindowMngr->PosHitCheck(nullptr), false, false, Scale < 0.6f);
 									yp += ysizeAdd;
-									if ((yp - ypBase) >= (int)((float)DXDraw::Instance()->GetUIY(1920)*Scale)) {
+									if ((yp - ypBase) >= (int)((float)DXDraw::Instance()->GetUIY(1920) * Scale)) {
 										xp += xsizeAdd;
 										yp = ypBase;
 									}
@@ -344,7 +344,7 @@ namespace FPS_n2 {
 				int ScrSizY = ypMax - ypos;
 				m_Scroll.SetScrollBoxParam(xpos, ypos, ScrPosX, ypos + ScrSizY, (float)std::max(yp - ypBase, ScrSizY) / (float)ScrSizY, !WindowMngr->PosHitCheck(nullptr));
 				m_Scroll.ScrollBox();
-				m_YNow = std::max(0.f, this->m_Scroll.GetNowScrollYPer()*(float)((yp - ypBase) - ScrSizY));
+				m_YNow = std::max(0.f, this->m_Scroll.GetNowScrollYPer() * (float)((yp - ypBase) - ScrSizY));
 			}
 		}
 		break;
@@ -364,8 +364,8 @@ namespace FPS_n2 {
 			int Max = (int)EnumTaskDrawMode::Max;
 			for (int i = 0; i < Max; i++) {
 				WindowSystem::SetBox(
-					xp + DXDraw::Instance()->GetUIY(400)*i / Max + DXDraw::Instance()->GetUIY(5), yp + LineHeight + DXDraw::Instance()->GetUIY(4),
-					xp + DXDraw::Instance()->GetUIY(400)*(i + 1) / Max - DXDraw::Instance()->GetUIY(5), yp + LineHeight + DXDraw::Instance()->GetUIY(4) + DXDraw::Instance()->GetUIY(6),
+					xp + DXDraw::Instance()->GetUIY(400) * i / Max + DXDraw::Instance()->GetUIY(5), yp + LineHeight + DXDraw::Instance()->GetUIY(4),
+					xp + DXDraw::Instance()->GetUIY(400) * (i + 1) / Max - DXDraw::Instance()->GetUIY(5), yp + LineHeight + DXDraw::Instance()->GetUIY(4) + DXDraw::Instance()->GetUIY(6),
 					(m_Mode == (EnumTaskDrawMode)i) ? Green : Gray25);
 			}
 		}

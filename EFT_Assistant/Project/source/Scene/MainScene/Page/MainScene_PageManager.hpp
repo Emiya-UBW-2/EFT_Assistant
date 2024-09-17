@@ -7,7 +7,7 @@ namespace FPS_n2 {
 		friend class SingletonBase<PageManager>;
 	private:
 		std::shared_ptr<PageParent>									m_NowOpenPagePtr;
-		std::array<std::shared_ptr<PageParent>,(int)BGSelect::Max>	m_PagePtr;
+		std::array<std::shared_ptr<PageParent>, (int)BGSelect::Max>	m_PagePtr;
 		int															m_posx{ 0 };
 		int															m_posy{ 0 };
 		float														m_Scale{ 0.6f };
@@ -23,7 +23,7 @@ namespace FPS_n2 {
 		void TurnOnGoNextPage() noexcept { this->m_IsGoNextPage = true; }
 		void ChangePage(BGSelect Select) noexcept;
 
-		const auto&		GetScaleActive(void) const noexcept { return this->m_ScaleActive; }
+		const auto& GetScaleActive(void) const noexcept { return this->m_ScaleActive; }
 		void			SetScaleActive(bool value) noexcept { this->m_ScaleActive = value; }
 	public:
 		void Init() noexcept;

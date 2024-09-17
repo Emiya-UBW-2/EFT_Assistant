@@ -66,17 +66,17 @@ namespace FPS_n2 {
 		WindowSystem::DrawControl::Instance()->SetDrawBox(WindowSystem::DrawLayer::Normal, xp, yp, xp + xs, yp + ys, Red, FALSE);
 	}
 
-	void PageParent::Init(int *posx, int *posy, float* Scale) noexcept {
+	void PageParent::Init(int* posx, int* posy, float* Scale) noexcept {
 		*posx = DXDraw::Instance()->GetUIY(50);
 		*posy = LineHeight + DXDraw::Instance()->GetUIY(50);
 		*Scale = 0.8f;
 		m_ReturnButtonPress = [&]() {
 			auto* PageMngr = PageManager::Instance();
 			PageMngr->TurnOnGoNextPage();
-		};
+			};
 		Init_Sub(posx, posy, Scale);
 	}
-	void PageParent::LateExecute(int *posx, int *posy, float* Scale) noexcept {
+	void PageParent::LateExecute(int* posx, int* posy, float* Scale) noexcept {
 		LateExecute_Sub(posx, posy, Scale);
 	}
 	void PageParent::Draw_Back(int posx, int posy, float Scale) noexcept {

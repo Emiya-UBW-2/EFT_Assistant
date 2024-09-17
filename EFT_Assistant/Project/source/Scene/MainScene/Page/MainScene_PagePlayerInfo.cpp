@@ -74,7 +74,7 @@ namespace FPS_n2 {
 			int col = 1;
 			auto Base = (int)PlayerData::Instance()->GetEdition();
 			int xp = xpos + DXDraw::Instance()->GetUIY(24);
-			if (WindowSystem::SetMsgClickBox(xp, ypos, xp + DXDraw::Instance()->GetUIY(100), ypos + DXDraw::Instance()->GetUIY(48), LineHeight, Red, true, true,  "DOWN")) {
+			if (WindowSystem::SetMsgClickBox(xp, ypos, xp + DXDraw::Instance()->GetUIY(100), ypos + DXDraw::Instance()->GetUIY(48), LineHeight, Red, true, true, "DOWN")) {
 				Base--;
 			}
 			xp += DXDraw::Instance()->GetUIY(105);

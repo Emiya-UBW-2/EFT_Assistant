@@ -231,7 +231,7 @@ namespace FPS_n2 {
 		auto BaseTime = GetNowHiPerformanceCount();
 		std::vector<std::string> InputTex;
 		//開始
-		if(InputFilePath){
+		if (InputFilePath) {
 			//InputFilePathの中身を書き出す
 			std::ifstream File(InputFilePath);
 			std::string line;
@@ -289,7 +289,7 @@ namespace FPS_n2 {
 				auto* ptr = GetItemData()->FindPtr(W.first);
 				//トレーダー交換
 				int BarterCount = 0;
-				for (const auto&L : GetTraderData()->SetList()) {
+				for (const auto& L : GetTraderData()->SetList()) {
 					for (const auto& Ld : L.GetLvData()) {
 						for (const auto& cf : Ld.m_ItemBarters) {
 							for (const auto& I : cf.m_ItemReward) {

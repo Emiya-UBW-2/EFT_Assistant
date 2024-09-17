@@ -20,7 +20,7 @@ namespace FPS_n2 {
 
 		WindowMySystem::SearchBox			m_SearchBox;
 	private:
-		void Init_Sub(int *, int *, float*) noexcept override;
+		void Init_Sub(int*, int*, float*) noexcept override;
 		void LateExecute_Sub(int*, int*, float*) noexcept override {}
 		void Draw_Back_Sub(int, int, float) noexcept override;
 		void DrawFront_Sub(int, int, float) noexcept override;

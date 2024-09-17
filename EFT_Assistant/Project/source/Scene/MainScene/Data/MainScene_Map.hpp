@@ -55,11 +55,11 @@ namespace FPS_n2 {
 			}
 		}
 		const auto	GetMapPicNum() const noexcept { return this->m_MapGraph.size(); }
-		const auto*	GetMapGraph(int ID) const noexcept { return this->m_MapGraph.at(ID).m_Graph.GetGraph(); }
+		const auto* GetMapGraph(int ID) const noexcept { return this->m_MapGraph.at(ID).m_Graph.GetGraph(); }
 		const auto	GetMapXSize(int ID) const noexcept { return this->m_MapGraph.at(ID).m_Graph.GetXSize(); }
 		const auto	GetMapYSize(int ID) const noexcept { return this->m_MapGraph.at(ID).m_Graph.GetYSize(); }
 		const auto	GetMapNorthRad(int ID) const noexcept { return deg2rad(m_MapGraph.at(ID).m_Degree); }
-		const auto&	GeSizetoMeter(int ID) const noexcept { return this->m_MapGraph.at(ID).m_SizetoMeter; }
+		const auto& GeSizetoMeter(int ID) const noexcept { return this->m_MapGraph.at(ID).m_SizetoMeter; }
 	};
 	class MapData : public DataParent<MapList> {
 	public:

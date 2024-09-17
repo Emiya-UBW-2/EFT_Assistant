@@ -3,7 +3,7 @@
 #include "../../../PartsHeader.hpp"
 
 namespace FPS_n2 {
-	void ItemBG::Init_Sub(int *, int *, float*) noexcept {
+	void ItemBG::Init_Sub(int*, int*, float*) noexcept {
 		Items.clear();
 		for (auto& L : DataBase::Instance()->GetItemData()->GetList()) {//todo
 			Items.emplace_back(&L);
@@ -22,7 +22,7 @@ namespace FPS_n2 {
 			if (!(!m_RaidMode && BackLists())) {
 				PageMngr->TurnOnGoNextPage();
 			}
-		};
+			};
 	}
 	void ItemBG::Draw_Back_Sub(int, int, float) noexcept {
 		auto* WindowMngr = WindowMySystem::WindowManager::Instance();
@@ -51,7 +51,7 @@ namespace FPS_n2 {
 					int ValueB = -1;
 					if (b->GetSellValue(&IDB, &ValueB)) {}
 					return this->m_TraderSort ? (IDA > IDB) : (IDA < IDB);
-				});
+					});
 				m_TraderSort ^= 1;
 
 			}
@@ -74,7 +74,7 @@ namespace FPS_n2 {
 					int ValueB = -1;
 					if (b->GetSellValue(&IDB, &ValueB)) {}
 					return this->m_ValueSort ? (ValueA > ValueB) : (ValueA < ValueB);
-				});
+					});
 				m_ValueSort ^= 1;
 			}
 			if (IntoMouse(xpos + PrevSize, yp0, xpos + PerSize, DrawParts->GetScreenY(1080))) {
@@ -92,14 +92,14 @@ namespace FPS_n2 {
 					TraderID IDA = InvalidID;
 					int ValueA = -1;
 					if (a->GetSellValue(&IDA, &ValueA)) {}
-					int ValueAP = ((a->Getwidth()*a->Getheight()) > 0) ? (ValueA / (a->Getwidth()*a->Getheight())) : 0;
+					int ValueAP = ((a->Getwidth() * a->Getheight()) > 0) ? (ValueA / (a->Getwidth() * a->Getheight())) : 0;
 
 					TraderID IDB = InvalidID;
 					int ValueB = -1;
 					if (b->GetSellValue(&IDB, &ValueB)) {}
-					int ValueBP = ((b->Getwidth()*b->Getheight()) > 0) ? (ValueB / (b->Getwidth()*b->Getheight())) : 0;
+					int ValueBP = ((b->Getwidth() * b->Getheight()) > 0) ? (ValueB / (b->Getwidth() * b->Getheight())) : 0;
 					return this->m_ValuePerSort ? (ValueAP > ValueBP) : (ValueAP < ValueBP);
-				});
+					});
 				m_ValuePerSort ^= 1;
 			}
 			if (IntoMouse(xpos + PrevSize, yp0, xpos + PerSize, DrawParts->GetScreenY(1080))) {
@@ -158,7 +158,7 @@ namespace FPS_n2 {
 								PerSize += DXDraw::Instance()->GetUIY(250);
 								WindowSystem::SetMsg(xpos + PerSize, yp0 + ysize / 2, LineHeight * 9 / 10, STRX_RIGHT, Color, Black, "%6d", Value);
 								PerSize += DXDraw::Instance()->GetUIY(250);
-								WindowSystem::SetMsg(xpos + PerSize, yp0 + ysize / 2, LineHeight * 9 / 10, STRX_RIGHT, Color, Black, "%6d", Value / (L->Getwidth()*L->Getheight()));
+								WindowSystem::SetMsg(xpos + PerSize, yp0 + ysize / 2, LineHeight * 9 / 10, STRX_RIGHT, Color, Black, "%6d", Value / (L->Getwidth() * L->Getheight()));
 							}
 						}
 					}
@@ -173,7 +173,7 @@ namespace FPS_n2 {
 		m_Scroll.SetScrollBoxParam(xpos, ypos, ScrPosX, ypos + ScrSizY, (float)std::max(yp0, ScrSizY) / (float)ScrSizY, !WindowMngr->PosHitCheck(nullptr));
 		m_Scroll.ScrollBox();
 
-		m_YNow = std::max(0.f, this->m_Scroll.GetNowScrollYPer()*(float)(yp0 - ScrSizY));
+		m_YNow = std::max(0.f, this->m_Scroll.GetNowScrollYPer() * (float)(yp0 - ScrSizY));
 		//List
 		{
 			int xgoal = 0;
@@ -183,12 +183,12 @@ namespace FPS_n2 {
 			isChild |= MakeLists(0, true, [&](std::pair<int, bool>* IDs, bool IsChild, int XP, int YP, int XS) {
 				if (IsChild) { xgoal -= xs_add; }
 				DataBase::Instance()->GetItemCategoryData()->DrawList(XP + xgoal, YP, XS, "ItemCategory", &IDs->first, !IDs->second, false, true);
-			});
+				});
 			isChild |= MakeLists(1, ((ListsSel(1) != InvalidID)/* && (DataBase::Instance()->GetItemTypeData()->FindPtr(ListsSel(1))->GetName() == "mechanical-key")*/),
 				[&](std::pair<int, bool>* IDs, bool IsChild, int XP, int YP, int XS) {
-				if (IsChild) { xgoal -= xs_add; }
-				DataBase::Instance()->GetItemTypeData()->DrawList(XP + xgoal, YP, XS, "ItemType", &IDs->first, !IDs->second, false, true , [&](const auto *ptr) { return (ptr->GetCategoryID() == ListsSel(1 - 1)); });
-			});
+					if (IsChild) { xgoal -= xs_add; }
+					DataBase::Instance()->GetItemTypeData()->DrawList(XP + xgoal, YP, XS, "ItemType", &IDs->first, !IDs->second, false, true, [&](const auto* ptr) { return (ptr->GetCategoryID() == ListsSel(1 - 1)); });
+				});
 			/*
 			isChild |= MakeLists(2, false, [&](std::pair<int, bool>* IDs, bool IsChild, int XP, int YP, int XS) {
 				if (IsChild) { xgoal -= xs_add; }

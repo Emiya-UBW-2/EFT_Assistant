@@ -22,7 +22,7 @@ namespace FPS_n2 {
 		EnumHideoutDrawMode											m_Mode{ EnumHideoutDrawMode::Normal };
 	private:
 		void Init_Sub(int*, int*, float*) noexcept override;
-		void LateExecute_Sub(int* xpos, int*ypos, float*) noexcept override;
+		void LateExecute_Sub(int* xpos, int* ypos, float*) noexcept override;
 
 		bool DrawHideoutList(HideoutID MyID, int MyLv, int xpos, int* ypos, int xsize, int ysize) noexcept;
 

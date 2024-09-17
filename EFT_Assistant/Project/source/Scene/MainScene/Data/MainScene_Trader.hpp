@@ -47,7 +47,7 @@ namespace FPS_n2 {
 				if (LEFTBuf == "taskUnlock") {
 					data.m_ItemBarters.resize(data.m_ItemBarters.size() + 1);
 					data.m_ItemBarters.back().m_TaskReq.clear();
-					for (auto&a : Args) {
+					for (auto& a : Args) {
 						if (a != "") {
 							data.m_ItemBarters.back().m_TaskReq.resize(data.m_ItemBarters.back().m_TaskReq.size() + 1);
 							data.m_ItemBarters.back().m_TaskReq.back().SetName(a);
@@ -55,12 +55,12 @@ namespace FPS_n2 {
 					}
 				}
 				if (LEFTBuf == "BarteritemReq") {
-					for (auto&a : Args) {
+					for (auto& a : Args) {
 						SetGetData<ItemGetData>(&data.m_ItemBarters.back().m_ItemReq, a, "x", false);
 					}
 				}
 				if (LEFTBuf == "BarteritemReward") {
-					for (auto&a : Args) {
+					for (auto& a : Args) {
 						SetGetData<ItemGetData>(&data.m_ItemBarters.back().m_ItemReward, a, "x", false);
 					}
 				}
@@ -72,8 +72,8 @@ namespace FPS_n2 {
 		void	Load_Sub() noexcept override;
 		void	WhenAfterLoad_Sub() noexcept override {}
 	public:
-		const auto&	GetPayItem() const noexcept { return PayItem; }
-		const auto&	GetLvData() const noexcept { return this->m_LvData; }
+		const auto& GetPayItem() const noexcept { return PayItem; }
+		const auto& GetLvData() const noexcept { return this->m_LvData; }
 
 
 		const int		DrawBarter(WindowMySystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int ysize, int Lv, int Select, bool isdrawName, bool isdrawAfter, int count) const noexcept;

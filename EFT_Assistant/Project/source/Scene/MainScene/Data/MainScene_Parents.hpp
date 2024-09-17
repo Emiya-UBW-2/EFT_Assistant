@@ -75,23 +75,23 @@ namespace FPS_n2 {
 		virtual void	Load_Sub() noexcept {}
 		virtual void	WhenAfterLoad_Sub() noexcept {}
 	public:
-		const auto&		GetIsSetFinish() const noexcept { return this->m_SetFinish; }
-		const auto&		GetID() const noexcept { return this->m_ID; }
-		const auto&		GetIDstr() const noexcept { return this->m_IDstr; }
-		const auto&		GetName() const noexcept { return this->m_Name_Eng; }
-		const auto&		GetCanUseFileName() const noexcept { return this->m_CanUseFileName; }
-		const auto&		GetShortName() const noexcept { return this->m_ShortName; }
-		const auto&		GetFilePath() const noexcept { return this->m_FilePath; }
+		const auto& GetIsSetFinish() const noexcept { return this->m_SetFinish; }
+		const auto& GetID() const noexcept { return this->m_ID; }
+		const auto& GetIDstr() const noexcept { return this->m_IDstr; }
+		const auto& GetName() const noexcept { return this->m_Name_Eng; }
+		const auto& GetCanUseFileName() const noexcept { return this->m_CanUseFileName; }
+		const auto& GetShortName() const noexcept { return this->m_ShortName; }
+		const auto& GetFilePath() const noexcept { return this->m_FilePath; }
 
 		const auto		GetColorRGB(int no) const noexcept { return std::clamp(m_Color[no], 1, 255); }
 		const auto		GetColors(int colorAdd) const noexcept { return DxLib::GetColor(std::clamp(m_Color[0] + colorAdd, 1, 255), std::clamp(m_Color[1] + colorAdd, 1, 255), std::clamp(m_Color[2] + colorAdd, 1, 255)); }
-		const auto&		GetIcon() const noexcept { return this->m_Icon; }
+		const auto& GetIcon() const noexcept { return this->m_Icon; }
 		void			SetShortName(std::string_view value) noexcept { m_ShortName = value; }
 
-		const auto&		GetName_Jpn() const noexcept { return m_Name_Jpn; }
+		const auto& GetName_Jpn() const noexcept { return m_Name_Jpn; }
 
-		const auto&		GetInformation_Eng() const noexcept { return m_Information_Eng; }
-		const auto&		GetInformation_Jpn() const noexcept { return m_Information_Jpn; }
+		const auto& GetInformation_Eng() const noexcept { return m_Information_Eng; }
+		const auto& GetInformation_Jpn() const noexcept { return m_Information_Jpn; }
 	public:
 		void			Set(const char* FilePath, ID id, const char* IconPath = nullptr) noexcept {
 			m_FilePath = FilePath;
@@ -125,7 +125,7 @@ namespace FPS_n2 {
 				}
 				File.close();
 				m_SetFinish = true;
-			});
+				});
 
 			if (IconPath) {
 				m_Icon.SetPath(IconPath);
@@ -163,7 +163,7 @@ namespace FPS_n2 {
 				if (txtpos != std::string::npos) {
 					m_ListPathBuffer.emplace_back(DirPath + Tmp.substr(0, txtpos));
 				}
-			});
+				});
 		}
 	public:
 		void			SetDataList() noexcept {
@@ -178,7 +178,7 @@ namespace FPS_n2 {
 			//‘Ò‚¿
 			while (true) {
 				bool isHit = false;
-				for (auto&t : this->m_List) {
+				for (auto& t : this->m_List) {
 					if (!t.GetIsSetFinish()) {
 						isHit = true;
 						break;
@@ -188,7 +188,7 @@ namespace FPS_n2 {
 			}
 		}
 		void			LoadList(bool IsPushLog) noexcept {
-			for (auto&t : this->m_List) {
+			for (auto& t : this->m_List) {
 				t.Load(IsPushLog);
 			}
 			for (auto& t : this->m_List) {
@@ -196,12 +196,12 @@ namespace FPS_n2 {
 			}
 		}
 		void			WhenAfterLoadListCommon(void) noexcept {
-			for (auto&t : this->m_List) {
+			for (auto& t : this->m_List) {
 				t.WhenAfterLoadCommon();
 			}
 		}
 		void			WhenAfterLoadList(void) noexcept {
-			for (auto&t : this->m_List) {
+			for (auto& t : this->m_List) {
 				t.WhenAfterLoad();
 			}
 		}
@@ -219,7 +219,7 @@ namespace FPS_n2 {
 			DataErrorLog::Instance()->AddLog(ErrMes.c_str());
 			return InvalidID;
 		}
-		List*			FindPtr(int id) const noexcept {
+		List* FindPtr(int id) const noexcept {
 			auto result = std::find_if(this->m_List.begin(), this->m_List.end(), [&](const List& t) {return (t.GetID() == id); });
 			if (result != this->m_List.end()) {
 				return (List*)&(*result);
@@ -229,8 +229,8 @@ namespace FPS_n2 {
 			DataErrorLog::Instance()->AddLog(ErrMes.c_str());
 			return nullptr;
 		}
-		const auto&		GetList(void) const noexcept { return this->m_List; }
-		auto&			SetList(void) noexcept { return this->m_List; }
+		const auto& GetList(void) const noexcept { return this->m_List; }
+		auto& SetList(void) noexcept { return this->m_List; }
 	public:
 		void CheckThroughJson(void) noexcept {
 			for (auto& L : this->m_List) {
@@ -245,7 +245,7 @@ namespace FPS_n2 {
 			}
 		}
 	public:
-		void DrawList(int xp1, int yp1, int xs1, std::string_view Name, int*Select, bool isActive, bool isElseSelect, bool isAllSelect, const std::function<bool(const List*)>& CheckLocal) noexcept {
+		void DrawList(int xp1, int yp1, int xs1, std::string_view Name, int* Select, bool isActive, bool isElseSelect, bool isAllSelect, const std::function<bool(const List*)>& CheckLocal) noexcept {
 			auto* WindowMngr = WindowMySystem::WindowManager::Instance();
 			int xsize = xs1;
 			int ysize = LineHeight + DXDraw::Instance()->GetUIY(6);
@@ -311,8 +311,8 @@ namespace FPS_n2 {
 			}
 		};
 
-		void DrawList(int xp1, int yp1, int xs1, std::string_view Name, int*Select, bool isActive, bool isElseSelect, bool isAllSelect) noexcept {
-			DrawList(xp1, yp1, xs1, Name, Select, isActive, isElseSelect, isAllSelect, [&](const auto *) { return true; });
+		void DrawList(int xp1, int yp1, int xs1, std::string_view Name, int* Select, bool isActive, bool isElseSelect, bool isAllSelect) noexcept {
+			DrawList(xp1, yp1, xs1, Name, Select, isActive, isElseSelect, isAllSelect, [&](const auto*) { return true; });
 		};
 	};
 
@@ -360,10 +360,10 @@ namespace FPS_n2 {
 		int				m_Value{ 0 };
 		std::string		m_OutputStr;
 	public:
-		const auto&		GetOutputStr() const noexcept { return this->m_OutputStr; }
-		const auto&		GetName() const noexcept { return this->m_ID.GetName(); }
-		const auto&		GetID() const noexcept { return this->m_ID.GetID(); }
-		const auto&		GetValue() const noexcept { return this->m_Value; }
+		const auto& GetOutputStr() const noexcept { return this->m_OutputStr; }
+		const auto& GetName() const noexcept { return this->m_ID.GetName(); }
+		const auto& GetID() const noexcept { return this->m_ID.GetID(); }
+		const auto& GetValue() const noexcept { return this->m_Value; }
 		void			Set(std::string_view name, int lv) noexcept {
 			m_ID.SetName(name);
 			m_Value = lv;
@@ -417,8 +417,8 @@ namespace FPS_n2 {
 		std::string									m_Information_Jpn;
 		std::string									m_categorytypes;
 	public:
-		const auto&	Getname_jp() const noexcept { return this->m_name_jp; }
-		const auto&	Getdescription_jp() const noexcept { return this->m_Information_Jpn; }
+		const auto& Getname_jp() const noexcept { return this->m_name_jp; }
+		const auto& Getdescription_jp() const noexcept { return this->m_Information_Jpn; }
 	public:
 		void GetJson(const nlohmann::json& data) noexcept {
 			m_IsFileOpened = false;
@@ -467,7 +467,7 @@ namespace FPS_n2 {
 				outputfile << "Information_Jpn=" + this->m_Information_Jpn + "\n";
 				outputfile.close();
 				m_SetFinish = true;
-			});
+				});
 		}
 		void ResetDataJob() noexcept {
 			if (m_SetJob) {
@@ -475,7 +475,7 @@ namespace FPS_n2 {
 				m_SetJob.release();
 			}
 		}
-		const auto&		GetIsSetFinish() const noexcept { return this->m_SetFinish; }
+		const auto& GetIsSetFinish() const noexcept { return this->m_SetFinish; }
 	};
 	class JsonDataParent {
 	public:
@@ -556,7 +556,7 @@ namespace FPS_n2 {
 				OutputDataSub(outputfile);
 				outputfile.close();
 				m_SetFinish = true;
-			});
+				});
 		}
 		void ResetDataJob() noexcept {
 			if (m_SetJob) {
@@ -564,14 +564,14 @@ namespace FPS_n2 {
 				m_SetJob.release();
 			}
 		}
-		const auto&		GetIsSetFinish() const noexcept { return this->m_SetFinish; }
+		const auto& GetIsSetFinish() const noexcept { return this->m_SetFinish; }
 	};
 	template <class JsonDataParentT>
 	class JsonListParent {
 		std::vector<std::unique_ptr<JsonDataParent>>	m_JsonData;
 		std::vector<std::unique_ptr<JpJsonData>> m_JpJsonData;
 	public:
-		auto&		GetJsonDataList() noexcept { return this->m_JsonData; }
+		auto& GetJsonDataList() noexcept { return this->m_JsonData; }
 		void ResetDataJson() {
 			m_JsonData.clear();
 		}
@@ -617,7 +617,7 @@ namespace FPS_n2 {
 			}
 		}
 		void WaitToAllClear() noexcept {
-			for(int i=0;i<10000;i++) {
+			for (int i = 0; i < 10000; i++) {
 				bool isHit = false;
 				for (auto& jd : this->m_JsonData) {
 					if (!jd->GetIsSetFinish()) {
@@ -639,7 +639,7 @@ namespace FPS_n2 {
 		}
 		virtual void UpdateAfterbyJson(void) noexcept {}
 	public:
-		auto&		GetJpJsonDataList() noexcept { return this->m_JpJsonData; }
+		auto& GetJpJsonDataList() noexcept { return this->m_JpJsonData; }
 		void InitJpDatabyJson() {
 			m_JpJsonData.clear();
 		}

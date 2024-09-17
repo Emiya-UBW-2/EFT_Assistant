@@ -16,7 +16,7 @@ namespace FPS_n2 {
 		void	Load_Sub() noexcept override;
 		void	WhenAfterLoad_Sub() noexcept override {}
 	public:
-		const auto&	GetCategoryID() const noexcept { return this->m_CategoryID; }
+		const auto& GetCategoryID() const noexcept { return this->m_CategoryID; }
 	};
 	class ItemTypeData : public DataParent<ItemTypeList> {
 	public:
@@ -24,7 +24,7 @@ namespace FPS_n2 {
 			std::string Path = "data/itemtype/";
 			GetDirList(Path.c_str(), [&](const char* RetPath2) {
 				SetDirList((Path + RetPath2 + "/").c_str());
-			});
+				});
 		}
 		~ItemTypeData() noexcept {}
 	};

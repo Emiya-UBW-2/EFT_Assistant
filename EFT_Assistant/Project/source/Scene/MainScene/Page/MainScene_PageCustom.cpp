@@ -41,7 +41,7 @@ namespace FPS_n2 {
 		}
 	}
 	//
-	const ItemList*		CustomParts::ChildData::GetChildPtr(int parentslot) const noexcept {
+	const ItemList* CustomParts::ChildData::GetChildPtr(int parentslot) const noexcept {
 		if ((parentslot == -1) || ((parentslot != -1) && GetPtrIsParentSlot(this->m_ParentPtr, parentslot))) {
 			if (GetIsSelected(parentslot)) {
 				return DataBase::Instance()->GetItemData()->FindPtr(this->GetMySlotData().GetData().at(this->ChildSel).GetID());
@@ -59,7 +59,7 @@ namespace FPS_n2 {
 		this->watchCounter = 1;
 	}
 	//
-	void CustomParts::AddSelectToCanSelect(ChildData* cID) noexcept	{
+	void CustomParts::AddSelectToCanSelect(ChildData* cID) noexcept {
 		while (true) {
 			if (cID->GetIsSelected() && CheckConflict(cID->GetChildPtr())) {
 				cID->AddSelect();
@@ -68,7 +68,7 @@ namespace FPS_n2 {
 			break;
 		}
 	}
-	void CustomParts::SubSelectToCanSelect(ChildData* cID) noexcept	{
+	void CustomParts::SubSelectToCanSelect(ChildData* cID) noexcept {
 		while (true) {
 			if (cID->GetIsSelected() && CheckConflict(cID->GetChildPtr())) {
 				cID->SubSelect();
@@ -223,7 +223,7 @@ namespace FPS_n2 {
 						ErgonomicsPer += ChildPtr->GetErgonomics();
 					}
 				}
-				m_Recoil = ((float)(m_BaseWeapon->GetRecoilVertical())*(100.f + RecoilPer) / 100.f);
+				m_Recoil = ((float)(m_BaseWeapon->GetRecoilVertical()) * (100.f + RecoilPer) / 100.f);
 				m_Ergonomics = (m_BaseWeapon->GetWeaponErgonomics() + ErgonomicsPer);
 			}
 		}
@@ -462,7 +462,7 @@ namespace FPS_n2 {
 							}
 						}
 						return IsThrough;
-					};
+						};
 					auto CheckConflict = [&](const PartsBaseData::PartsID& Parts2) {
 						bool IsConflict = false;
 						for (auto& parts : Parts1Base.m_PartsIDList) {
@@ -786,7 +786,7 @@ namespace FPS_n2 {
 		InitLists(3, DXDraw::Instance()->GetUIY(1920 - 10) - DXDraw::Instance()->GetUIY(400), LineHeight + DXDraw::Instance()->GetUIY(5), DXDraw::Instance()->GetUIY(400));
 	}
 	//
-	void CustomBG::Init_Sub(int *posx, int *posy, float* Scale) noexcept {
+	void CustomBG::Init_Sub(int* posx, int* posy, float* Scale) noexcept {
 		//
 		*posx = DXDraw::Instance()->GetUIY(100);
 		*posy = LineHeight + DXDraw::Instance()->GetUIY(100);
@@ -805,7 +805,7 @@ namespace FPS_n2 {
 			if (!BackLists()) {
 				PageMngr->TurnOnGoNextPage();
 			}
-		};
+			};
 		m_CustomParts->UpdateBlackListFlag();
 	}
 	//
@@ -1096,7 +1096,7 @@ namespace FPS_n2 {
 				yofs += LineHeight + DXDraw::Instance()->GetUIY(5);
 
 				if (WindowSystem::SetMsgClickBox(
-					xp + DXDraw::Instance()->GetUIY(30) + DXDraw::Instance()->GetUIY(800) + DXDraw::Instance()->GetUIY(30) - DXDraw::Instance()->GetUIY(480) , yp + 0,
+					xp + DXDraw::Instance()->GetUIY(30) + DXDraw::Instance()->GetUIY(800) + DXDraw::Instance()->GetUIY(30) - DXDraw::Instance()->GetUIY(480), yp + 0,
 					xp + DXDraw::Instance()->GetUIY(30) + DXDraw::Instance()->GetUIY(800) + DXDraw::Instance()->GetUIY(30), yp + 0 + LineHeight, LineHeight,
 					Gray25, false, !WindowMngr->PosHitCheck(nullptr), "ブラックリストにタスク開放品をセット")) {
 					m_CustomParts->CalcBlackList();

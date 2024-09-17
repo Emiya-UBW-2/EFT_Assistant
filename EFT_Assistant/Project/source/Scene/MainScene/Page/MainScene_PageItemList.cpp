@@ -84,7 +84,7 @@ namespace FPS_n2 {
 			}
 		}
 		//ハイドアウト開放
-		for (const auto&L : DataBase::Instance()->GetHideoutData()->GetList()) {
+		for (const auto& L : DataBase::Instance()->GetHideoutData()->GetList()) {
 			for (const auto& Ld : L.GetLvData()) {
 				if (m_Mode == EnumListDrawMode::All || m_Mode == EnumListDrawMode::Hideout) {
 					bool IsChecktask = true;
@@ -133,7 +133,7 @@ namespace FPS_n2 {
 				for (auto& c : Types) {
 					//ハイドアウトクラフト
 					if (m_IsCheckCraft) {
-						for (const auto&L : DataBase::Instance()->GetHideoutData()->GetList()) {
+						for (const auto& L : DataBase::Instance()->GetHideoutData()->GetList()) {
 							for (const auto& Ld : L.GetLvData()) {
 								for (const auto& cf : Ld.m_ItemCraft) {
 									for (const auto& I : cf.m_ItemReward) {
@@ -153,7 +153,7 @@ namespace FPS_n2 {
 					}
 					//交換
 					if (m_IsCheckBarter) {
-						for (auto&L : DataBase::Instance()->GetTraderData()->SetList()) {
+						for (auto& L : DataBase::Instance()->GetTraderData()->SetList()) {
 							for (const auto& Ld : L.GetLvData()) {
 								for (const auto& cf : Ld.m_ItemBarters) {
 									for (const auto& I : cf.m_ItemReward) {
@@ -253,7 +253,7 @@ namespace FPS_n2 {
 											int ysize2 = ysize / 2 - DXDraw::Instance()->GetUIY(3);
 											//ハイドアウトクラフト
 											if (m_IsCheckCraft) {
-												for (const auto&L : DataBase::Instance()->GetHideoutData()->GetList()) {
+												for (const auto& L : DataBase::Instance()->GetHideoutData()->GetList()) {
 													for (const auto& Ld : L.GetLvData()) {
 														int Lv = (int)(&Ld - &L.GetLvData().front()) + 1;
 														/*
@@ -277,7 +277,7 @@ namespace FPS_n2 {
 											}
 											//交換
 											if (m_IsCheckBarter && !c.isFir) {
-												for (auto&L : DataBase::Instance()->GetTraderData()->SetList()) {
+												for (auto& L : DataBase::Instance()->GetTraderData()->SetList()) {
 													for (const auto& Ld : L.GetLvData()) {
 														int Lv = (int)(&Ld - &L.GetLvData().front()) + 1;
 
@@ -286,14 +286,14 @@ namespace FPS_n2 {
 																int craftcount = std::max(1, c.count / I.GetValue());
 																if (I.GetID() == c.m_ID) {
 																	yp2 = yp;
-																	WindowSystem::SetMsg(xp2, yp2 + ysize2/2, ysize2, STRX_LEFT, White, Black, L.GetName() + " Lv" + std::to_string(Lv) + "x" + std::to_string(craftcount));
+																	WindowSystem::SetMsg(xp2, yp2 + ysize2 / 2, ysize2, STRX_LEFT, White, Black, L.GetName() + " Lv" + std::to_string(Lv) + "x" + std::to_string(craftcount));
 																	auto xl = xp2 + WindowSystem::GetMsgLen(ysize2, L.GetName() + " Lv" + std::to_string(Lv) + "x" + std::to_string(craftcount));
 																	yp2 += ysize2 + DXDraw::Instance()->GetUIY(5);
 
 																	for (const auto& r : cf.m_ItemReq) {
 																		auto* ptr2 = DataBase::Instance()->GetItemData()->FindPtr(r.GetID());
 																		if (ptr2) {
-																			int count = r.GetValue()*craftcount;
+																			int count = r.GetValue() * craftcount;
 																			xp2 += ptr2->Draw(xp2, yp2, xsize2, ysize2, (count >= 2) ? count : 0, Gray15, !WindowMngr->PosHitCheck(nullptr), false, false, true) + DXDraw::Instance()->GetUIY(5);
 																		}
 																	}
@@ -335,7 +335,7 @@ namespace FPS_n2 {
 				m_Scroll.SetScrollBoxParam(xpos, ypos, ScrPosX, ypos + ScrSizY, (float)std::max(yp - ypBase, ScrSizY) / (float)ScrSizY, !WindowMngr->PosHitCheck(nullptr));
 				m_Scroll.ScrollBox();
 
-				m_YNow = std::max(0.f, this->m_Scroll.GetNowScrollYPer()*(float)((yp - ypBase) - ScrSizY));
+				m_YNow = std::max(0.f, this->m_Scroll.GetNowScrollYPer() * (float)((yp - ypBase) - ScrSizY));
 			}
 		}
 	}
@@ -351,8 +351,8 @@ namespace FPS_n2 {
 			int Max = (int)EnumListDrawMode::Max;
 			for (int i = 0; i < Max; i++) {
 				WindowSystem::SetBox(
-					xp + DXDraw::Instance()->GetUIY(400)*i / Max + DXDraw::Instance()->GetUIY(5), yp + LineHeight + DXDraw::Instance()->GetUIY(4),
-					xp + DXDraw::Instance()->GetUIY(400)*(i + 1) / Max - DXDraw::Instance()->GetUIY(5), yp + LineHeight + DXDraw::Instance()->GetUIY(4) + DXDraw::Instance()->GetUIY(6),
+					xp + DXDraw::Instance()->GetUIY(400) * i / Max + DXDraw::Instance()->GetUIY(5), yp + LineHeight + DXDraw::Instance()->GetUIY(4),
+					xp + DXDraw::Instance()->GetUIY(400) * (i + 1) / Max - DXDraw::Instance()->GetUIY(5), yp + LineHeight + DXDraw::Instance()->GetUIY(4) + DXDraw::Instance()->GetUIY(6),
 					(m_Mode == (EnumListDrawMode)i) ? Green : Gray25);
 			}
 		}

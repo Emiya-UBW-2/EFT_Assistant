@@ -3,7 +3,7 @@
 #include "../../../PartsHeader.hpp"
 
 namespace FPS_n2 {
-	void MapBG::Init_Sub(int *posx, int *posy, float* Scale) noexcept {
+	void MapBG::Init_Sub(int* posx, int* posy, float* Scale) noexcept {
 		auto* Pad = PadControl::Instance();
 		*posx = DXDraw::Instance()->GetUIY(960);
 		*posy = DXDraw::Instance()->GetUIY(540);
@@ -25,7 +25,7 @@ namespace FPS_n2 {
 		m_EditTraderID = InvalidID;
 		//m_EditTaskID = InvalidID;
 	}
-	void MapBG::LateExecute_Sub(int *, int *, float*) noexcept {
+	void MapBG::LateExecute_Sub(int*, int*, float*) noexcept {
 		auto* Pad = PadControl::Instance();
 		if (m_MapSelect != this->m_SelectBuffer) {
 			if (m_MapSelect != InvalidID) {
@@ -76,8 +76,8 @@ namespace FPS_n2 {
 			TaskList* TaskPtr = (m_EditTaskID != InvalidID) ? DataBase::Instance()->GetTaskData()->FindPtr(m_EditTaskID) : nullptr;
 			if (GraphPtr) {
 				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, GraphPtr, posx, posy, Scale / 2.f, this->m_Rad, false);
-				float XSize = (float)MapPtr->GetMapXSize((int)m_WatchMapSelect)*Scale / 2.f;
-				float YSize = (float)MapPtr->GetMapYSize((int)m_WatchMapSelect)*Scale / 2.f;
+				float XSize = (float)MapPtr->GetMapXSize((int)m_WatchMapSelect) * Scale / 2.f;
+				float YSize = (float)MapPtr->GetMapYSize((int)m_WatchMapSelect) * Scale / 2.f;
 				{
 					float Xper = ((float)Pad->GetMS_X() - (float)posx);
 					float Yper = ((float)Pad->GetMS_Y() - (float)posy);
@@ -106,7 +106,7 @@ namespace FPS_n2 {
 							if (m == this->m_MapSelect) { return true; }
 						}
 						return false;
-					});
+						});
 
 					if (TaskPtr) {
 						auto& Pins = TaskPtr->SetTaskWorkData().SetPin();
@@ -129,8 +129,8 @@ namespace FPS_n2 {
 						if (p.m_MapID == MapPtr->GetID() && p.m_MapSel == this->m_WatchMapSelect) {
 							float Xs = XSize * p.m_Point.x;
 							float Ys = YSize * p.m_Point.y;
-							int xp = posx + (int)(std::cos(m_Rad)*Xs - std::sin(m_Rad)*Ys);
-							int yp = posy + (int)(std::cos(m_Rad)*Ys + std::sin(m_Rad)*Xs);
+							int xp = posx + (int)(std::cos(m_Rad) * Xs - std::sin(m_Rad) * Ys);
+							int yp = posy + (int)(std::cos(m_Rad) * Ys + std::sin(m_Rad) * Xs);
 							WindowSystem::DrawControl::Instance()->SetDrawCircle(WindowSystem::DrawLayer::Front, xp, yp, 6, Black);
 							WindowSystem::DrawControl::Instance()->SetDrawCircle(WindowSystem::DrawLayer::Front, xp, yp, 5, Red);
 							if (Pad->GetKey(PADS::AIM).trigger()) {
@@ -190,8 +190,8 @@ namespace FPS_n2 {
 		float Rad = std::atan2f(Xper, Yper);
 		if (m_MapSelect != InvalidID) {
 			auto* MapPtr = DataBase::Instance()->GetMapData()->FindPtr(m_MapSelect);
-			float XSize = (float)MapPtr->GetMapXSize((int)m_WatchMapSelect)*Scale / 2.f;
-			float YSize = (float)MapPtr->GetMapYSize((int)m_WatchMapSelect)*Scale / 2.f;
+			float XSize = (float)MapPtr->GetMapXSize((int)m_WatchMapSelect) * Scale / 2.f;
+			float YSize = (float)MapPtr->GetMapYSize((int)m_WatchMapSelect) * Scale / 2.f;
 
 			Xper = Len * std::sin(Rad + this->m_Rad);
 			Yper = Len * std::cos(Rad + this->m_Rad);
@@ -206,12 +206,12 @@ namespace FPS_n2 {
 				{
 					float Xs1 = XSize * this->m_BaseLength.x;
 					float Ys1 = YSize * this->m_BaseLength.y;
-					int xp1 = posx + (int)(std::cos(m_Rad)*Xs1 - std::sin(m_Rad)*Ys1);
-					int yp1 = posy + (int)(std::cos(m_Rad)*Ys1 + std::sin(m_Rad)*Xs1);
+					int xp1 = posx + (int)(std::cos(m_Rad) * Xs1 - std::sin(m_Rad) * Ys1);
+					int yp1 = posy + (int)(std::cos(m_Rad) * Ys1 + std::sin(m_Rad) * Xs1);
 					float Xs2 = XSize * Xper;
 					float Ys2 = YSize * Yper;
-					int xp2 = posx + (int)(std::cos(m_Rad)*Xs2 - std::sin(m_Rad)*Ys2);
-					int yp2 = posy + (int)(std::cos(m_Rad)*Ys2 + std::sin(m_Rad)*Xs2);
+					int xp2 = posx + (int)(std::cos(m_Rad) * Xs2 - std::sin(m_Rad) * Ys2);
+					int yp2 = posy + (int)(std::cos(m_Rad) * Ys2 + std::sin(m_Rad) * Xs2);
 
 					float LenF = std::hypotf((float)(xp1 - xp2), (float)(yp1 - yp2));
 					WindowSystem::DrawControl::Instance()->SetDrawCircle(WindowSystem::DrawLayer::Normal, xp1, yp1, (int)LenF, Black, false, 2);

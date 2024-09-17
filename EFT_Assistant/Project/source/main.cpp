@@ -145,7 +145,7 @@ int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 			{
 				DrawBox(0, 0, DXDraw::Instance()->GetUIY(1920) + 1, DXDraw::Instance()->GetUIY(1080) + 1, GetColor(1, 1, 1), TRUE);//”wŒi“§–¾
 
-				yofs = std::clamp(yofs - Pad->GetMouseWheelRot() *ysize, 0, std::max((int)lines.size() - ysize, 0));
+				yofs = std::clamp(yofs - Pad->GetMouseWheelRot() * ysize, 0, std::max((int)lines.size() - ysize, 0));
 				int i = -yofs;
 				for (auto& L : lines) {
 					if (i >= 0) {
@@ -213,7 +213,7 @@ int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 			{
 				DrawBox(0, 0, DXDraw::Instance()->GetUIY(1920) + 1, DXDraw::Instance()->GetUIY(1080) + 1, GetColor(1, 1, 1), TRUE);//”wŒi“§–¾
 
-				yofs = std::clamp(yofs - Pad->GetMouseWheelRot() *ysize, 0, std::max((int)lines.size() - ysize, 0));
+				yofs = std::clamp(yofs - Pad->GetMouseWheelRot() * ysize, 0, std::max((int)lines.size() - ysize, 0));
 				int i = 0;
 				for (auto& L : lines) {
 					if (i >= yofs) {

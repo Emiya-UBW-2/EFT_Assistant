@@ -34,11 +34,11 @@ namespace FPS_n2 {
 		void	Load_Sub() noexcept override;
 		void	WhenAfterLoad_Sub() noexcept override {}
 	public:
-		const auto&	GetLvData() const noexcept { return this->m_LvData; }
+		const auto& GetLvData() const noexcept { return this->m_LvData; }
 	public:
 		const int		Draw(int xp, int yp, int xsize, int ysize, int Lv, unsigned int defaultcolor, bool Clickactive, int count) noexcept;
-		void			DrawUnlockWindow(WindowMySystem::WindowControl* window, unsigned int defaultcolor, int Lv, int xp, int yp, int *xs = nullptr, int* ys = nullptr) const noexcept;
-		void			DrawCraftWindow(WindowMySystem::WindowControl* window, unsigned int defaultcolor, int Lv, int xp, int yp, int *xs = nullptr, int* ys = nullptr, int size = 10) noexcept;
+		void			DrawUnlockWindow(WindowMySystem::WindowControl* window, unsigned int defaultcolor, int Lv, int xp, int yp, int* xs = nullptr, int* ys = nullptr) const noexcept;
+		void			DrawCraftWindow(WindowMySystem::WindowControl* window, unsigned int defaultcolor, int Lv, int xp, int yp, int* xs = nullptr, int* ys = nullptr, int size = 10) noexcept;
 		void			SetOtherPartsID() noexcept;
 
 		const int		DrawCraft(WindowMySystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int ysize, int Lv, int Select, bool isdrawName, bool isdrawAfter, int count) const noexcept;
@@ -60,8 +60,8 @@ namespace FPS_n2 {
 				std::string Path2 = Path + RetPath2 + "/";
 				GetDirList(Path2.c_str(), [&](const char* RetPath3) {
 					SetDirList((Path2 + RetPath3 + "/").c_str());
+					});
 				});
-			});
 		}
 		~HideoutData() noexcept {}
 	public:

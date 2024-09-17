@@ -3,7 +3,7 @@
 #include "../../../PartsHeader.hpp"
 
 namespace FPS_n2 {
-	void TraderBG::Init_Sub(int *, int *, float*) noexcept {
+	void TraderBG::Init_Sub(int*, int*, float*) noexcept {
 		m_EditTraderID = InvalidID;
 		m_ReturnButtonPress = [&]() {
 			auto* PageMngr = PageManager::Instance();
@@ -13,7 +13,7 @@ namespace FPS_n2 {
 			else {
 				PageMngr->TurnOnGoNextPage();
 			}
-		};
+			};
 	}
 	void TraderBG::Draw_Back_Sub(int, int, float) noexcept {
 		auto* WindowMngr = WindowMySystem::WindowManager::Instance();
@@ -24,7 +24,7 @@ namespace FPS_n2 {
 				int index = (int)(&LL - &ptr->GetLvData().front());
 				int xp = DXDraw::Instance()->GetUIY(100) + (DXDraw::Instance()->GetUIY(100) + DXDraw::Instance()->GetUIY(10)) * index;
 				int yp = LineHeight + DXDraw::Instance()->GetUIY(50);
-				if (WindowSystem::SetMsgClickBox(xp, yp, xp + DXDraw::Instance()->GetUIY(100), yp + LineHeight, LineHeight, (m_LLSelect == index) ? Gray15 : Gray50, false, true,  "Lv%d", index + 1)) {
+				if (WindowSystem::SetMsgClickBox(xp, yp, xp + DXDraw::Instance()->GetUIY(100), yp + LineHeight, LineHeight, (m_LLSelect == index) ? Gray15 : Gray50, false, true, "Lv%d", index + 1)) {
 					m_LLSelect = index;
 				}
 			}
@@ -39,7 +39,7 @@ namespace FPS_n2 {
 
 				int Max = (int)(ptr->GetLvData().at(m_LLSelect).m_ItemBarters.size());
 
-				int ofset = (int)(this->m_Scroll.GetNowScrollYPer()*(std::max(0, Max - 10 + 1)*ysizeAdd));
+				int ofset = (int)(this->m_Scroll.GetNowScrollYPer() * (std::max(0, Max - 10 + 1) * ysizeAdd));
 
 				int ypMin = yp;
 				int ypMax = (DXDraw::Instance()->GetUIY(1080) - DXDraw::Instance()->GetUIY(100));

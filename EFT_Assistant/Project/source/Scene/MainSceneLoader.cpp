@@ -36,6 +36,6 @@ namespace FPS_n2 {
 		int XMaxGauge = XMax - commonEdge - commonEdge;
 		DrawBox(XMin + commonEdge, YPosMin + YSize1 + commonEdge, XMax - commonEdge, YPosMax - commonEdge, Gray25, TRUE);
 		DrawBox(XMinGauge, YPosMin + YSize1 + commonEdge + commonEdge, XMaxGauge, YPosMax - commonEdge - commonEdge, Gray50, TRUE);
-		DrawBox(XMinGauge, YPosMin + YSize1 + commonEdge + commonEdge, XMinGauge + (int)((float)(XMaxGauge - XMinGauge)*DataBase::Instance()->GetSetPer()), YPosMax - commonEdge - commonEdge, Green, TRUE);
+		DrawBox(XMinGauge, YPosMin + YSize1 + commonEdge + commonEdge, XMinGauge + (int)((float)(XMaxGauge - XMinGauge) * DataBase::Instance()->GetSetPer()), YPosMax - commonEdge - commonEdge, Green, TRUE);
 	}
 };

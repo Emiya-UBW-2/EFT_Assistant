@@ -14,7 +14,7 @@ namespace FPS_n2 {
 				L.m_ItemReq.clear();
 				if (Ld.contains("itemRequirements")) {
 					if (!Ld["itemRequirements"].is_null()) {
-						for (const auto&m : Ld["itemRequirements"]) {
+						for (const auto& m : Ld["itemRequirements"]) {
 							ItemGetData buf;
 							buf.Set(m["item"]["name"], m["count"]);
 							L.m_ItemReq.emplace_back(buf);
@@ -29,7 +29,7 @@ namespace FPS_n2 {
 				L.m_Parent.clear();
 				if (Ld.contains("stationLevelRequirements")) {
 					if (!Ld["stationLevelRequirements"].is_null()) {
-						for (const auto&m : Ld["stationLevelRequirements"]) {
+						for (const auto& m : Ld["stationLevelRequirements"]) {
 							HideoutGetData buf;
 							buf.Set(m["station"]["name"], m["level"]);
 							L.m_Parent.emplace_back(buf);
@@ -44,7 +44,7 @@ namespace FPS_n2 {
 				L.m_TraderReq.clear();
 				if (Ld.contains("traderRequirements")) {
 					if (!Ld["traderRequirements"].is_null()) {
-						for (const auto&m : Ld["traderRequirements"]) {
+						for (const auto& m : Ld["traderRequirements"]) {
 							TraderGetData buf;
 							buf.Set(m["trader"]["name"], m["level"]);//todo:level‚ª”pŽ~—\’è
 							L.m_TraderReq.emplace_back(buf);
@@ -66,7 +66,7 @@ namespace FPS_n2 {
 					L.m_ItemCraft.back().m_ItemReq.clear();
 					if (Cd.contains("requiredItems")) {
 						if (!Cd["requiredItems"].is_null()) {
-							for (const auto&m : Cd["requiredItems"]) {
+							for (const auto& m : Cd["requiredItems"]) {
 								ItemGetData buf;
 								buf.Set(m["item"]["name"], m["count"]);
 								L.m_ItemCraft.back().m_ItemReq.emplace_back(buf);
@@ -82,7 +82,7 @@ namespace FPS_n2 {
 					L.m_ItemCraft.back().m_ItemReward.clear();
 					if (Cd.contains("rewardItems")) {
 						if (!Cd["rewardItems"].is_null()) {
-							for (const auto&m : Cd["rewardItems"]) {
+							for (const auto& m : Cd["rewardItems"]) {
 								ItemGetData buf;
 								buf.Set(m["item"]["name"], m["count"]);
 								L.m_ItemCraft.back().m_ItemReward.emplace_back(buf);
@@ -98,13 +98,13 @@ namespace FPS_n2 {
 		}
 	}
 	void HideoutJsonData::OutputDataSub(std::ofstream& outputfile) noexcept {
-		for (const auto&H : DataBase::Instance()->GetHideoutData()->GetList()) {
+		for (const auto& H : DataBase::Instance()->GetHideoutData()->GetList()) {
 			if (H.GetName() != m_name) { continue; }
 			for (const auto& L : H.GetLvData()) {
 				int Lv = (int)(&L - &H.GetLvData().front());
 				auto& L2 = this->m_LvData.at(Lv);
 				for (auto& C : L.m_ItemCraft) {
-					for (auto&C2 : L2.m_ItemCraft) {
+					for (auto& C2 : L2.m_ItemCraft) {
 						C2.sortbuffer = -1;
 						bool IsHit = true;
 						for (auto& T : C.m_ItemReward) {
@@ -203,17 +203,17 @@ namespace FPS_n2 {
 			if (LEFTBuf == "Information_Eng") { data.m_Information_Eng = Args[0]; }
 			if (LEFTBuf == "Information_Jpn") { data.m_Information_Jpn = Args[0]; }
 			if (LEFTBuf == "itemReq") {
-				for (auto&a : Args) {
+				for (auto& a : Args) {
 					SetGetData<ItemGetData>(&data.m_ItemReq, a, "x", false);
 				}
 			}
 			if (LEFTBuf == "stationLevelReq") {
-				for (auto&a : Args) {
+				for (auto& a : Args) {
 					SetGetData<HideoutGetData>(&data.m_Parent, a, "x", false);
 				}
 			}
 			if (LEFTBuf == "traderRequirements") {
-				for (auto&a : Args) {
+				for (auto& a : Args) {
 					SetGetData<TraderGetData>(&data.m_TraderReq, a, "x", false);
 				}
 			}
@@ -223,12 +223,12 @@ namespace FPS_n2 {
 				data.m_ItemCraft.back().durationTime = std::stoi(Args[0]);
 			}
 			if (LEFTBuf == "craftitemReq") {
-				for (auto&a : Args) {
+				for (auto& a : Args) {
 					SetGetData<ItemGetData>(&data.m_ItemCraft.back().m_ItemReq, a, "x", false);
 				}
 			}
 			if (LEFTBuf == "craftitemReward") {
-				for (auto&a : Args) {
+				for (auto& a : Args) {
 					SetGetData<ItemGetData>(&data.m_ItemCraft.back().m_ItemReward, a, "x", false);
 				}
 			}
@@ -340,14 +340,14 @@ namespace FPS_n2 {
 					NameTmp += " Unlock";
 					WindowMngr->Add()->Set(DXDraw::Instance()->GetUIY(960) - sizeXBuf / 2, LineHeight + DXDraw::Instance()->GetUIY(10), sizeXBuf, sizeYBuf, 0, NameTmp.c_str(), false, true, FreeID, [&](WindowMySystem::WindowControl* win) {
 						DataBase::Instance()->GetHideoutData()->FindPtr((HideoutID)(win->m_FreeID - 0xFFFF))->DrawUnlockWindow(win, Gray10, this->m_DrawWindowLv, win->GetPosX(), win->GetPosY());
-					});
+						});
 				}
 				else {
 					NameTmp += " Craft";
-					auto Total = (DXDraw::Instance()->GetUIY(64) + DXDraw::Instance()->GetUIY(5))*(int)(LvData.m_ItemCraft.size());
+					auto Total = (DXDraw::Instance()->GetUIY(64) + DXDraw::Instance()->GetUIY(5)) * (int)(LvData.m_ItemCraft.size());
 					WindowMngr->Add()->Set(DXDraw::Instance()->GetUIY(960) - sizeXBuf / 2, LineHeight + DXDraw::Instance()->GetUIY(10), sizeXBuf, sizeYBuf, Total, NameTmp.c_str(), false, true, FreeID, [&](WindowMySystem::WindowControl* win) {
 						DataBase::Instance()->GetHideoutData()->FindPtr((HideoutID)(win->m_FreeID - 0xFFFF))->DrawCraftWindow(win, Gray10, this->m_DrawWindowLv, win->GetPosX(), win->GetPosY());
-					});
+						});
 				}
 			}
 		}
@@ -374,7 +374,7 @@ namespace FPS_n2 {
 		}
 		return Xsize;
 	}
-	void			HideoutList::DrawUnlockWindow(WindowMySystem::WindowControl* window, unsigned int defaultcolor, int Lv, int xp, int yp, int *xs, int* ys) const noexcept {
+	void			HideoutList::DrawUnlockWindow(WindowMySystem::WindowControl* window, unsigned int defaultcolor, int Lv, int xp, int yp, int* xs, int* ys) const noexcept {
 		auto* WindowMngr = WindowMySystem::WindowManager::Instance();
 		//auto* InterParts = InterruptParts::Instance();
 		int xofs = 0;
@@ -481,7 +481,7 @@ namespace FPS_n2 {
 			*ys = std::max(*ys, yofs - LineHeight);
 		}
 	}
-	void			HideoutList::DrawCraftWindow(WindowMySystem::WindowControl* window, unsigned int defaultcolor, int Lv, int xp, int yp, int *xs, int* ys, int size) noexcept {
+	void			HideoutList::DrawCraftWindow(WindowMySystem::WindowControl* window, unsigned int defaultcolor, int Lv, int xp, int yp, int* xs, int* ys, int size) noexcept {
 		int xofs = 0;
 		if (xs) {
 			*xs = xofs;
@@ -494,7 +494,7 @@ namespace FPS_n2 {
 			if (LvData.m_ItemCraft.size() > 0) {
 				int ysize = DXDraw::Instance()->GetUIY(64);
 				int Max = (int)(LvData.m_ItemCraft.size());
-				int ofset = (window) ? (int)(window->GetNowScrollPer()*std::max(0, Max - 10 + 1)) : 0;
+				int ofset = (window) ? (int)(window->GetNowScrollPer() * std::max(0, Max - 10 + 1)) : 0;
 				for (int loop = 0; loop < std::min(size, Max - ofset); loop++) {
 					xofs = std::max(xofs, DrawCraft(window, defaultcolor, xp, yp + yofs + (ysize + DXDraw::Instance()->GetUIY(5)) * loop, ysize, Lv, loop + ofset, false, true, 0) + DXDraw::Instance()->GetUIY(10));
 				}
@@ -515,7 +515,7 @@ namespace FPS_n2 {
 		for (auto& D : this->m_LvData) {
 			int DLv = (int)(&D - &m_LvData.front()) + 1;
 			D.m_Child.clear();
-			for (const auto&L : DataBase::Instance()->GetHideoutData()->GetList()) {
+			for (const auto& L : DataBase::Instance()->GetHideoutData()->GetList()) {
 				for (const auto& C : L.GetLvData()) {
 					int Lv = (int)(&C - &L.GetLvData().front()) + 1;
 					for (const auto& P : C.m_Parent) {
@@ -556,12 +556,12 @@ namespace FPS_n2 {
 		for (const auto& w : cf.m_ItemReq) {
 			auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(w.GetID());
 			if (ptr) {
-				xofsbuf += ptr->Draw(xp + xofsbuf, yp + yofsbuf, xsize2, ysize2, w.GetValue()*std::max(1, count), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true) + DXDraw::Instance()->GetUIY(5);
+				xofsbuf += ptr->Draw(xp + xofsbuf, yp + yofsbuf, xsize2, ysize2, w.GetValue() * std::max(1, count), defaultcolor, !WindowMngr->PosHitCheck(window), false, false, true) + DXDraw::Instance()->GetUIY(5);
 			}
 		}
 		if (isdrawAfter) {
 			xofsbuf = std::max(xofsbuf, xsize2 * 10);
-			WindowSystem::SetMsg(xp + xofsbuf, yp + ysize/2, (ysize / 2 - DXDraw::Instance()->GetUIY(3)), STRX_LEFT, White, Black, ">%01d:%02d:%02d>", (cf.durationTime / 60 / 60), (cf.durationTime / 60) % 60, cf.durationTime % 60);
+			WindowSystem::SetMsg(xp + xofsbuf, yp + ysize / 2, (ysize / 2 - DXDraw::Instance()->GetUIY(3)), STRX_LEFT, White, Black, ">%01d:%02d:%02d>", (cf.durationTime / 60 / 60), (cf.durationTime / 60) % 60, cf.durationTime % 60);
 			xofsbuf += WindowSystem::GetMsgLen((ysize / 2 - DXDraw::Instance()->GetUIY(3)), ">%01d:%02d:%02d>", (cf.durationTime / 60 / 60), (cf.durationTime / 60) % 60, cf.durationTime % 60) + DXDraw::Instance()->GetUIY(30);
 			for (const auto& w : cf.m_ItemReward) {
 				auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(w.GetID());

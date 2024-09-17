@@ -52,9 +52,9 @@ namespace FPS_n2 {
 		void DrawTab(int xp, int yp, std::string_view Info) noexcept;
 		void DrawCheckBox(int xp, int yp, std::string_view Info, bool* Check) noexcept;
 	private:
-		void Init_Sub(int *posx, int *posy, float* Scale) noexcept override;
+		void Init_Sub(int* posx, int* posy, float* Scale) noexcept override;
 
-		void LateExecute_Sub(int*posx, int*posy, float*Scale) noexcept override;
+		void LateExecute_Sub(int* posx, int* posy, float* Scale) noexcept override;
 		void Draw_Back_Sub(int posx, int posy, float Scale) noexcept override;
 		void DrawFront_Sub(int posx, int posy, float) noexcept override;
 		void Dispose_Sub(void) noexcept override {}

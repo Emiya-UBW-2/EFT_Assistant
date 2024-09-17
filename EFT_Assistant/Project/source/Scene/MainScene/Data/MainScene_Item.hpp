@@ -26,12 +26,12 @@ namespace FPS_n2 {
 						this->m_TypeID.emplace_back(TypeID);
 					}
 				}
-				const auto&		GetTypeID() const noexcept { return this->m_TypeID; }
+				const auto& GetTypeID() const noexcept { return this->m_TypeID; }
 				void			SetData(std::string_view Data) noexcept {
 					this->m_Data.resize(this->m_Data.size() + 1);
 					this->m_Data.back().SetName(Data);
 				}
-				const auto&		GetData() const noexcept { return this->m_Data; }
+				const auto& GetData() const noexcept { return this->m_Data; }
 				void			CheckData() noexcept;
 			public:
 				void		operator=(const ChildItemSettings& tgt) noexcept {
@@ -55,13 +55,13 @@ namespace FPS_n2 {
 				bool			m_percent{ false };
 				std::string		m_skillName{};
 			public:
-				const auto&		Gettype() const noexcept { return this->m_type; }
-				const auto&		Getchance() const noexcept { return this->m_chance; }
-				const auto&		Getdelay() const noexcept { return this->m_delay; }
-				const auto&		Getduration() const noexcept { return this->m_duration; }
-				const auto&		Getvalue() const noexcept { return this->m_value; }
-				const auto&		Getpercent() const noexcept { return this->m_percent; }
-				const auto&		GetskillName() const noexcept { return this->m_skillName; }
+				const auto& Gettype() const noexcept { return this->m_type; }
+				const auto& Getchance() const noexcept { return this->m_chance; }
+				const auto& Getdelay() const noexcept { return this->m_delay; }
+				const auto& Getduration() const noexcept { return this->m_duration; }
+				const auto& Getvalue() const noexcept { return this->m_value; }
+				const auto& Getpercent() const noexcept { return this->m_percent; }
+				const auto& GetskillName() const noexcept { return this->m_skillName; }
 			};
 		private:
 			EnumItemProperties						m_Type{ EnumItemProperties::Max };
@@ -76,8 +76,8 @@ namespace FPS_n2 {
 		public:
 			void			SetParent() noexcept;
 		public:
-			const auto*		GetTypeName() const noexcept { return (m_Type != EnumItemProperties::Max) ? ItemPropertiesStr[(int)m_Type] : ""; }
-			const auto&		GetType() const noexcept { return this->m_Type; }
+			const auto* GetTypeName() const noexcept { return (m_Type != EnumItemProperties::Max) ? ItemPropertiesStr[(int)m_Type] : ""; }
+			const auto& GetType() const noexcept { return this->m_Type; }
 		public:
 			const auto		GetStackMaxSize() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesAmmo) ? this->m_IntParams[0] : 0; }
 			const int		GetArmerClass() const noexcept;
@@ -150,8 +150,8 @@ namespace FPS_n2 {
 
 		public://Preset
 			const auto		GetDefault() const noexcept { return ((m_Type == EnumItemProperties::ItemPropertiesPreset) ? this->m_IntParams[0] : 0) == 1; }
-			auto&			SetContainsItem() noexcept { return this->m_ContainsItemID; }
-			const auto&		GetContainsItem() const noexcept { return this->m_ContainsItemID; }
+			auto& SetContainsItem() noexcept { return this->m_ContainsItemID; }
+			const auto& GetContainsItem() const noexcept { return this->m_ContainsItemID; }
 		private:
 			void			GetJsonDataPreset(const nlohmann::json& data) {
 				m_IntParams[0] = data["properties"]["default"];
@@ -169,7 +169,7 @@ namespace FPS_n2 {
 			void			SetDataPreset(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
 				if (LEFT == "IsDefault") { m_IntParams[0] = (Args[0] == "TRUE") ? 1 : 0; }
 				else if (LEFT == "containsItems") {
-					for (auto&a : Args) {
+					for (auto& a : Args) {
 						SetGetData<ItemGetData>(&m_ContainsItemID, a, "x", false);
 					}
 				}
@@ -198,10 +198,10 @@ namespace FPS_n2 {
 			void			DrawInfoPreset(int xp, int yp, int* xofs, int* yofs) const noexcept;
 
 		public://WeaponMod/Weapon Slots
-			auto&			SetModSlots() noexcept { return this->m_ChildPartsID; }
-			const auto&		GetModSlots() const noexcept { return this->m_ChildPartsID; }
-			auto&			SetConflictPartsID() noexcept { return this->m_ConflictPartsID; }
-			const auto&		GetConflictPartsID() const noexcept { return this->m_ConflictPartsID; }
+			auto& SetModSlots() noexcept { return this->m_ChildPartsID; }
+			const auto& GetModSlots() const noexcept { return this->m_ChildPartsID; }
+			auto& SetConflictPartsID() noexcept { return this->m_ConflictPartsID; }
+			const auto& GetConflictPartsID() const noexcept { return this->m_ConflictPartsID; }
 
 		public://WeaponMod
 			const auto		GetModRecoil() const noexcept {
@@ -233,7 +233,7 @@ namespace FPS_n2 {
 			const auto		GetammoCheckModifier() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMagazine) ? this->m_floatParams[3] : 0; }
 			const auto		GetmalfunctionChance() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesMagazine) ? this->m_floatParams[4] : 0; }
 			const auto		GetSightingRange() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesScope) ? this->m_IntParams[1] : -100; }
-			const auto&		GetsightModesID() const noexcept { return this->m_sightModesID; }
+			const auto& GetsightModesID() const noexcept { return this->m_sightModesID; }
 			const auto		GetaccuracyModifier() const noexcept { return (m_Type == EnumItemProperties::ItemPropertiesWeaponMod) ? this->m_floatParams[2] : 0; }
 		private:
 			void			GetJsonDataWeaponMod(const nlohmann::json& data) {
@@ -287,7 +287,7 @@ namespace FPS_n2 {
 
 			}
 			void			OutputDataWeaponMod(std::ofstream& outputfile) noexcept {
-				outputfile << "Recoil=" + std::to_string((float)this->GetModRecoil()*100.f) + "\n";
+				outputfile << "Recoil=" + std::to_string((float)this->GetModRecoil() * 100.f) + "\n";
 				outputfile << "Ergonomics=" + std::to_string(this->GetModErgonomics()) + "\n";
 				switch (this->GetType()) {
 				case EnumItemProperties::ItemPropertiesBarrel:
@@ -390,7 +390,7 @@ namespace FPS_n2 {
 					return 0;
 				}
 			}
-			const auto&		GetMedCures() const noexcept { return m_cures; }
+			const auto& GetMedCures() const noexcept { return m_cures; }
 			const auto		GetMedUses() const noexcept {
 				switch (m_Type) {
 				case EnumItemProperties::ItemPropertiesMedicalItem:
@@ -700,7 +700,7 @@ namespace FPS_n2 {
 							this->m_ChildPartsID.back().m_Required = (Args[0] == "TRUE");
 						}
 						else if (LEFT == "Conflict") {
-							for (auto&a : Args) {
+							for (auto& a : Args) {
 								bool isHit = false;
 								for (auto& d : this->m_ConflictPartsID) {
 									if (d.GetName() == a) {
@@ -787,7 +787,7 @@ namespace FPS_n2 {
 								}
 							}
 							outputfile << "]\n";
-							
+
 							outputfile << "ChildParts_required=" + (std::string)(m.m_Required ? "TRUE" : "FALSE") + "\n";
 						}
 					}
@@ -999,20 +999,20 @@ namespace FPS_n2 {
 		void		Load_Sub() noexcept override;
 		void		WhenAfterLoad_Sub() noexcept override;
 	public:
-		const auto&	GetTypeID() const noexcept { return this->m_ItemsData.m_TypeID.GetID(); }
-		const auto&	GetMapID() const noexcept { return this->m_ItemsData.m_MapID; }
-		const auto&	Getwidth() const noexcept { return this->m_ItemsData.m_width; }
-		const auto&	Getheight() const noexcept { return this->m_ItemsData.m_height; }
-		const auto&	GetsellFor() const noexcept { return this->m_ItemsData.m_sellFor; }
-		auto&	SetsellFor() noexcept { return this->m_ItemsData.m_sellFor; }
-		const auto&	Getweight() const noexcept { return this->m_ItemsData.m_weight; }
-		const auto&	GetfleaMarketFee() const noexcept { return this->m_ItemsData.m_fleaMarketFee; }
-		const auto&	GetUseTaskID() const noexcept { return this->m_ItemsData.m_UseTaskID; }
+		const auto& GetTypeID() const noexcept { return this->m_ItemsData.m_TypeID.GetID(); }
+		const auto& GetMapID() const noexcept { return this->m_ItemsData.m_MapID; }
+		const auto& Getwidth() const noexcept { return this->m_ItemsData.m_width; }
+		const auto& Getheight() const noexcept { return this->m_ItemsData.m_height; }
+		const auto& GetsellFor() const noexcept { return this->m_ItemsData.m_sellFor; }
+		auto& SetsellFor() noexcept { return this->m_ItemsData.m_sellFor; }
+		const auto& Getweight() const noexcept { return this->m_ItemsData.m_weight; }
+		const auto& GetfleaMarketFee() const noexcept { return this->m_ItemsData.m_fleaMarketFee; }
+		const auto& GetUseTaskID() const noexcept { return this->m_ItemsData.m_UseTaskID; }
 	public://Key
 		const int	GetKeyUses() const noexcept { return this->m_ItemsData.m_properties.GetUses(); }
 	public://WeaponMod/Weapon Slots
-		const auto&	GetChildParts() const noexcept { return this->m_ItemsData.m_properties.GetModSlots(); }
-		const auto&	GetConflictParts() const noexcept { return this->m_ItemsData.m_properties.GetConflictPartsID(); }
+		const auto& GetChildParts() const noexcept { return this->m_ItemsData.m_properties.GetModSlots(); }
+		const auto& GetConflictParts() const noexcept { return this->m_ItemsData.m_properties.GetConflictPartsID(); }
 	public://WeaponMod
 		const auto	GetRecoil() const noexcept {
 			switch (this->m_ItemsData.m_properties.GetType()) {
@@ -1020,7 +1020,7 @@ namespace FPS_n2 {
 			case EnumItemProperties::ItemPropertiesMagazine:
 			case EnumItemProperties::ItemPropertiesScope:
 			case EnumItemProperties::ItemPropertiesWeaponMod:
-				return ((float)m_ItemsData.m_properties.GetModRecoil()*100.f);
+				return ((float)m_ItemsData.m_properties.GetModRecoil() * 100.f);
 			default:
 				return 0.f;
 			}
@@ -1073,7 +1073,7 @@ namespace FPS_n2 {
 		void		SetItemsDataByOtherData(const ItemsData& Data) noexcept { this->m_ItemsData.SetOtherData(Data); }
 	public:
 		const int	Draw(int xp, int yp, int xsize, int ysize, int count, unsigned int defaultcolor, bool Clickactive, bool IsFir, bool IsDrawBuy, bool IsIconOnly) noexcept;
-		void		DrawWindow(WindowMySystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int *xs = nullptr, int* ys = nullptr) noexcept;
+		void		DrawWindow(WindowMySystem::WindowControl* window, unsigned int defaultcolor, int xp, int yp, int* xs = nullptr, int* ys = nullptr) noexcept;
 	};
 
 	class ItemJsonData :public JsonDataParent {
@@ -1081,7 +1081,7 @@ namespace FPS_n2 {
 		ItemList::ItemsData							m_ItemsData;
 		std::string									m_categorytypes;
 	public:
-		const auto&	GetItemsData() const noexcept { return this->m_ItemsData; }
+		const auto& GetItemsData() const noexcept { return this->m_ItemsData; }
 	public:
 		void GetJsonSub(const nlohmann::json& data) noexcept override;
 		void OutputDataSub(std::ofstream& outputfile) noexcept override;
@@ -1095,8 +1095,8 @@ namespace FPS_n2 {
 				std::string Path2 = Path + RetPath2 + "/";
 				GetDirList(Path2.c_str(), [&](const char* RetPath3) {
 					SetDirList((Path2 + RetPath3 + "/").c_str());
+					});
 				});
-			});
 		}
 		~ItemData() noexcept {}
 	public:

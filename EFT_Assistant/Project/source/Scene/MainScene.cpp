@@ -118,9 +118,9 @@ namespace FPS_n2 {
 				//タイトル
 				if (WindowSystem::SetMsgClickBox(Xmin + DXDraw::Instance()->GetUIY(10), 0, Xmin + DXDraw::Instance()->GetUIY(230), LineHeight, LineHeight, Gray25, false, true, "全窓を閉じる")) { WindowMngr->DeleteAll(); }
 				if (WindowSystem::SetMsgClickBox(Xmin + DXDraw::Instance()->GetUIY(240), 0, Xmin + DXDraw::Instance()->GetUIY(460), LineHeight, LineHeight, Gray25, false, true, "ログ表示")) { m_DrawLog ^= 1; }
-				WindowSystem::SetMsg(DrawParts->GetUIY(1920)/2, Ymin/2, LineHeight, STRX_MID, White, Black, "EFT Assistant");
+				WindowSystem::SetMsg(DrawParts->GetUIY(1920) / 2, Ymin / 2, LineHeight, STRX_MID, White, Black, "EFT Assistant");
 				WindowSystem::SetMsg(DXDraw::Instance()->GetUIY(1280), LineHeight * 11 / 20, LineHeight * 8 / 10, STRX_LEFT, White, Black, "ver %d.%d.%d", 0, 3, 7);
-				WindowSystem::SetMsg(DrawParts->GetUIY(1920)/2, Ymin + LineHeight * 11 / 20, LineHeight * 8 / 10, STRX_MID, White, Black, "最終更新:%s", PlayerData::Instance()->GetLastDataReceive().c_str());
+				WindowSystem::SetMsg(DrawParts->GetUIY(1920) / 2, Ymin + LineHeight * 11 / 20, LineHeight * 8 / 10, STRX_MID, White, Black, "最終更新:%s", PlayerData::Instance()->GetLastDataReceive().c_str());
 				if (WindowMySystem::CloseButton(DrawParts->GetUIY(1920) - Ymin, 0)) {
 					PlayerData::Instance()->Save();
 					DataErrorLog::Instance()->Save();

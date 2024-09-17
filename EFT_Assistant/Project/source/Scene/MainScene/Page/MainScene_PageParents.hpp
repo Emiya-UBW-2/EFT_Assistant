@@ -17,7 +17,7 @@ namespace FPS_n2 {
 		const auto& ListsSel(int Sel) const noexcept { return this->m_ItemIDs.at(Sel).first; }
 		bool BackLists() noexcept;
 
-		void SetList(int listSel , int sel) noexcept {
+		void SetList(int listSel, int sel) noexcept {
 			m_ItemIDs.at(listSel).first = sel;
 			m_ItemIDs.at(listSel).second = true;
 		}
@@ -42,14 +42,14 @@ namespace FPS_n2 {
 	protected:
 		static void SetPositionGuide(int xMin, int yMin, int xMax, int yMax) noexcept;
 	protected:
-		virtual void Init_Sub(int *, int *, float*) noexcept {}
-		virtual void LateExecute_Sub(int *, int *, float*) noexcept {}
+		virtual void Init_Sub(int*, int*, float*) noexcept {}
+		virtual void LateExecute_Sub(int*, int*, float*) noexcept {}
 		virtual void Draw_Back_Sub(int, int, float) noexcept {}
 		virtual void DrawFront_Sub(int, int, float) noexcept {}
 		virtual void Dispose_Sub(void) noexcept {}
 	public:
-		void Init(int *posx, int *posy, float* Scale) noexcept;
-		void LateExecute(int *posx, int *posy, float* Scale) noexcept;
+		void Init(int* posx, int* posy, float* Scale) noexcept;
+		void LateExecute(int* posx, int* posy, float* Scale) noexcept;
 		void Draw_Back(int posx, int posy, float Scale) noexcept;
 		void DrawFront(int posx, int posy, float Scale) noexcept;
 		void Dispose(void) noexcept;

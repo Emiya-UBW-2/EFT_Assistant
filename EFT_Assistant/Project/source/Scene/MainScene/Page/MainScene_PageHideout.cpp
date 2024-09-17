@@ -4,7 +4,7 @@
 namespace FPS_n2 {
 	void HideOutBG::Init_Sub(int*, int*, float*) noexcept {
 		isDrew.clear();
-		for (const auto&L : DataBase::Instance()->GetHideoutData()->GetList()) {
+		for (const auto& L : DataBase::Instance()->GetHideoutData()->GetList()) {
 			isDrew.resize(isDrew.size() + 1);
 			isDrew.back().first = L.GetID();
 			for (int loop = 0; loop < L.GetLvData().size(); loop++) {
@@ -21,9 +21,9 @@ namespace FPS_n2 {
 			else {
 				PageMngr->TurnOnGoNextPage();
 			}
-		};
+			};
 	}
-	void HideOutBG::LateExecute_Sub(int* xpos, int*ypos, float*) noexcept {
+	void HideOutBG::LateExecute_Sub(int* xpos, int* ypos, float*) noexcept {
 		switch (m_Mode) {
 		case EnumHideoutDrawMode::Normal:
 			break;
@@ -92,7 +92,7 @@ namespace FPS_n2 {
 		if (PlayerData::Instance()->GetHideoutClear(L.GetName().c_str(), MyLv)) {
 			color = Gray50;
 		}
-		if (WindowSystem::SetMsgClickBox(xpos, *ypos, xpos + xsize, *ypos + ysize, ysize, color, false, !WindowMngr->PosHitCheck(nullptr),  "")) {
+		if (WindowSystem::SetMsgClickBox(xpos, *ypos, xpos + xsize, *ypos + ysize, ysize, color, false, !WindowMngr->PosHitCheck(nullptr), "")) {
 			if (Pad->GetKey(PADS::JUMP).press()) {
 				PlayerData::Instance()->OnOffHideoutClear(L.GetName().c_str(), MyLv);
 			}
@@ -127,7 +127,7 @@ namespace FPS_n2 {
 
 			int xp = xpos, yp = ypos;
 			int xs = DXDraw::Instance()->GetUIY(300), ys = LineHeight;
-			for (const auto&L : DataBase::Instance()->GetHideoutData()->GetList()) {
+			for (const auto& L : DataBase::Instance()->GetHideoutData()->GetList()) {
 				for (const auto& C : L.GetLvData()) {
 					int Lv = (int)(&C - &L.GetLvData().front()) + 1;
 					if (C.m_Parent.size() == 0) {
@@ -142,7 +142,7 @@ namespace FPS_n2 {
 		{
 			std::vector<std::vector<std::pair<ItemID, int>>> Counter;
 			Counter.resize(DataBase::Instance()->GetItemTypeData()->GetList().size());
-			for (const auto&L : DataBase::Instance()->GetHideoutData()->GetList()) {
+			for (const auto& L : DataBase::Instance()->GetHideoutData()->GetList()) {
 				for (const auto& Ld : L.GetLvData()) {
 					bool IsChecktask = true;
 					if (PlayerData::Instance()->GetHideoutClear(L.GetName().c_str(), (int)(&Ld - &L.GetLvData().front()) + 1)) {

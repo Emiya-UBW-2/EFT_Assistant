@@ -18,7 +18,7 @@ namespace FPS_n2 {
 			float						m_RecoilAdd{ 0.0f };
 			float						m_ErgonomicsAdd{ 0.0f };
 		public:
-			PartsID(ItemID my, const std::string& name, ItemID parent,int slot, const std::vector<ItemID>& conflict, float Recoil, float Ergonomics) {
+			PartsID(ItemID my, const std::string& name, ItemID parent, int slot, const std::vector<ItemID>& conflict, float Recoil, float Ergonomics) {
 				MyID = my;
 				MyName = name;
 				m_ConflictPartsID = conflict;
@@ -113,7 +113,7 @@ namespace FPS_n2 {
 		void SetBaseWeapon(ItemList* pBaseWeapon) noexcept { m_BaseWeapon = pBaseWeapon; }
 		const auto* GetBaseWeapon(void) const noexcept { return m_BaseWeapon; }
 
-		const auto GetPartsCount(void) const noexcept {			return m_ChildData.size();		}
+		const auto GetPartsCount(void) const noexcept { return m_ChildData.size(); }
 
 		const auto GetErgonomics(void) const noexcept { return m_Ergonomics; }
 		const auto GetErgonomicsMax(void) const noexcept { return (m_Ergonomics + this->m_ErgAddMax); }

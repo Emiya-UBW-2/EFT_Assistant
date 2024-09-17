@@ -40,8 +40,8 @@ namespace FPS_n2 {
 		TraderID	m_EditTraderID{ InvalidID };
 		TaskID		m_EditTaskID{ InvalidID };
 	private:
-		void Init_Sub(int *posx, int *posy, float* Scale) noexcept override;
-		void LateExecute_Sub(int *, int *, float*) noexcept override;
+		void Init_Sub(int* posx, int* posy, float* Scale) noexcept override;
+		void LateExecute_Sub(int*, int*, float*) noexcept override;
 		void Draw_Back_Sub(int posx, int posy, float Scale) noexcept override;
 		void DrawFront_Sub(int posx, int posy, float Scale) noexcept override;
 		void Dispose_Sub(void) noexcept override;

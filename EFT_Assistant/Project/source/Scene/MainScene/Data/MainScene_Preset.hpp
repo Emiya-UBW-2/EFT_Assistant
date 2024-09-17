@@ -6,7 +6,7 @@
 
 namespace FPS_n2 {
 	class PresetList : public ListParent<PresetID> {
-		const ItemList*											m_Base{ nullptr };
+		const ItemList* m_Base{ nullptr };
 		std::vector<const ItemList*>							m_Parts;
 	private:
 		std::string												m_BaseIDBuffer;
@@ -24,8 +24,8 @@ namespace FPS_n2 {
 		void	Load_Sub() noexcept override;
 		void	WhenAfterLoad_Sub() noexcept override {}
 	public:
-		const auto&	GetBase() const noexcept { return this->m_Base; }
-		const auto&	GetParts() const noexcept { return this->m_Parts; }
+		const auto& GetBase() const noexcept { return this->m_Base; }
+		const auto& GetParts() const noexcept { return this->m_Parts; }
 	};
 	class PresetData : public DataParent<PresetList> {
 	public:
@@ -33,7 +33,7 @@ namespace FPS_n2 {
 			std::string Path = "data/Preset/";
 			GetDirList(Path.c_str(), [&](const char* RetPath2) {
 				SetDirList((Path + RetPath2 + "/").c_str());
-			});
+				});
 		}
 		~PresetData() noexcept {}
 	};

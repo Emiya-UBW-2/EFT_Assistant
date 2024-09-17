@@ -16,7 +16,7 @@ namespace FPS_n2 {
 	}
 	void		TaskList::TaskWorkData::Set(const std::string& LEFT, const std::vector<std::string>& Args) noexcept {
 		if (LEFT == "Task_Map") {//ロケーション追加
-			for (auto&a : Args) {
+			for (auto& a : Args) {
 				m_MapArgs.emplace_back(a);
 			}
 		}
@@ -24,22 +24,22 @@ namespace FPS_n2 {
 
 		}
 		else if (LEFT == "Task_Kill") {
-			for (auto&a : Args) {
+			for (auto& a : Args) {
 				m_EnemyKillArgs.emplace_back(a);
 			}
 		}
 		else if (LEFT == "Task_FiR_HandOver") {
-			for (auto&a : Args) {
+			for (auto& a : Args) {
 				SetGetData<ItemGetData>(&this->m_FiR_Item, a, "x", false);
 			}
 		}
 		else if (LEFT == "Task_NotFiR_HandOver") {
-			for (auto&a : Args) {
+			for (auto& a : Args) {
 				SetGetData<ItemGetData>(&this->m_NotFiR_Item, a, "x", false);
 			}
 		}
 		else if (LEFT == "Task_WeaponPreset_HandOver") {
-			for (auto&a : Args) {
+			for (auto& a : Args) {
 				m_PresetArgs.emplace_back(a);
 			}
 		}
@@ -90,7 +90,7 @@ namespace FPS_n2 {
 			else {
 				//int a = 0;
 			}
-		};
+			};
 		for (auto& a : this->m_EnemyKillArgs) {
 			SetKill(a);
 		}
@@ -156,7 +156,7 @@ namespace FPS_n2 {
 				signed long long FreeID = this->GetID();
 				WindowMngr->Add()->Set(xp + xsize / 2 - sizeXBuf / 2, yp, sizeXBuf, sizeYBuf, 0, this->GetName().c_str(), false, true, FreeID, [&](WindowMySystem::WindowControl* win) {
 					DataBase::Instance()->GetTaskData()->FindPtr((TaskID)win->m_FreeID)->DrawWindow(win, win->GetPosX(), win->GetPosY());
-				});
+					});
 			}
 		}
 		{
@@ -170,7 +170,7 @@ namespace FPS_n2 {
 				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_Kill").GetGraph(), xp + xsize / 2 + Xofs - ysize / 2 + 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
 				WindowSystem::DrawControl::Instance()->SetBright(WindowSystem::DrawLayer::Normal, 255, 0, 0);
 				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_Kill").GetGraph(), xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
-				Xofs -= (int)(64.f*(float)(ysize) / (float)(64.f));
+				Xofs -= (int)(64.f * (float)(ysize) / (float)(64.f));
 			}
 			if (this->GetTaskWorkData().GetFiR_Item().size() > 0) {
 				WindowSystem::DrawControl::Instance()->SetBright(WindowSystem::DrawLayer::Normal, 32, 32, 32);
@@ -180,7 +180,7 @@ namespace FPS_n2 {
 				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_FiR").GetGraph(), xp + xsize / 2 + Xofs - ysize / 2 + 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
 				WindowSystem::DrawControl::Instance()->SetBright(WindowSystem::DrawLayer::Normal, 255, 255, 0);
 				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_FiR").GetGraph(), xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
-				Xofs -= (int)(64.f*(float)(ysize) / (float)(64.f));
+				Xofs -= (int)(64.f * (float)(ysize) / (float)(64.f));
 			}
 			if (this->GetTaskWorkData().GetNotFiR_Item().size() > 0) {
 				WindowSystem::DrawControl::Instance()->SetBright(WindowSystem::DrawLayer::Normal, 192, 192, 192);
@@ -190,7 +190,7 @@ namespace FPS_n2 {
 				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_FiR").GetGraph(), xp + xsize / 2 + Xofs - ysize / 2 + 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
 				WindowSystem::DrawControl::Instance()->SetBright(WindowSystem::DrawLayer::Normal, 0, 0, 255);
 				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Task_FiR").GetGraph(), xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
-				Xofs -= (int)(64.f*(float)(ysize) / (float)(64.f));
+				Xofs -= (int)(64.f * (float)(ysize) / (float)(64.f));
 			}
 			if (this->GetTaskWorkData().GetMap().size() > 0) {
 				WindowSystem::DrawControl::Instance()->SetBright(WindowSystem::DrawLayer::Normal, 255, 255, 255);
@@ -200,7 +200,7 @@ namespace FPS_n2 {
 				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Map").GetGraph(), xp + xsize / 2 + Xofs - ysize / 2 + 1, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
 				WindowSystem::DrawControl::Instance()->SetBright(WindowSystem::DrawLayer::Normal, 0, 128, 0);
 				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Normal, DrawGraphs::Instance()->GetGuide("Map").GetGraph(), xp + xsize / 2 + Xofs - ysize / 2, yp + ysize / 2, (float)(ysizeI) / (float)(64.f), 0.f, true);
-				Xofs -= (int)(64.f*(float)(ysize) / (float)(64.f));
+				Xofs -= (int)(64.f * (float)(ysize) / (float)(64.f));
 			}
 			WindowSystem::DrawControl::Instance()->SetBright(WindowSystem::DrawLayer::Normal, 255, 255, 255);
 		}
@@ -213,7 +213,7 @@ namespace FPS_n2 {
 
 		return xsize;
 	}
-	void		TaskList::DrawWindow(WindowMySystem::WindowControl* window, int xp, int yp, int *xs, int* ys) noexcept {
+	void		TaskList::DrawWindow(WindowMySystem::WindowControl* window, int xp, int yp, int* xs, int* ys) noexcept {
 		auto* WindowMngr = WindowMySystem::WindowManager::Instance();
 		auto* InterParts = InterruptParts::Instance();
 		int xofs = 0;
@@ -222,26 +222,26 @@ namespace FPS_n2 {
 		//必要
 		{
 			auto* ptr = DataBase::Instance()->GetTraderData()->FindPtr(GetTrader());
-			WindowSystem::SetMsg(xp, yp + sizy/2 + yofs, sizy, STRX_LEFT, White, Black, "トレーダー:%s Lv %d", ptr->GetName().c_str(), std::max(m_TaskNeedData.GetLL(), 1));
+			WindowSystem::SetMsg(xp, yp + sizy / 2 + yofs, sizy, STRX_LEFT, White, Black, "トレーダー:%s Lv %d", ptr->GetName().c_str(), std::max(m_TaskNeedData.GetLL(), 1));
 			xofs = std::max(xofs, WindowSystem::GetMsgLen(sizy, "トレーダー:%s Lv %d", ptr->GetName().c_str(), std::max(m_TaskNeedData.GetLL(), 1))); yofs += sizy;
 		}
 		if (m_TaskNeedData.GetLevel() >= 1) {
-			WindowSystem::SetMsg(xp, yp + sizy/2 + yofs, sizy, STRX_LEFT, White, Black, "必要レベル:%d", this->m_TaskNeedData.GetLevel());
+			WindowSystem::SetMsg(xp, yp + sizy / 2 + yofs, sizy, STRX_LEFT, White, Black, "必要レベル:%d", this->m_TaskNeedData.GetLevel());
 			xofs = std::max(xofs, WindowSystem::GetMsgLen(sizy, "必要レベル:%d", this->m_TaskNeedData.GetLevel())); yofs += sizy;
 		}
 		if (m_TaskNeedData.GetItem().size() > 0) {
-			WindowSystem::SetMsg(xp, yp + sizy/2 + yofs, sizy, STRX_LEFT, White, Black, "必要アイテム:");
+			WindowSystem::SetMsg(xp, yp + sizy / 2 + yofs, sizy, STRX_LEFT, White, Black, "必要アイテム:");
 			xofs = std::max(xofs, WindowSystem::GetMsgLen(sizy, "必要アイテム:")); yofs += sizy;
 			{
 				int Max = (int)this->m_TaskNeedData.GetItem().size();
 				if (Max > 0) {
-					WindowSystem::SetMsg(xp, yp + LineHeight/2 + yofs, LineHeight, STRX_LEFT, White, Black, "ChildrenMods:");
+					WindowSystem::SetMsg(xp, yp + LineHeight / 2 + yofs, LineHeight, STRX_LEFT, White, Black, "ChildrenMods:");
 					xofs = std::max(xofs, WindowSystem::GetMsgLen(LineHeight, "ChildrenMods:") + DXDraw::Instance()->GetUIY(30)); yofs += LineHeight + DXDraw::Instance()->GetUIY(5);
 
 					int ysize = DXDraw::Instance()->GetUIY(36);
 					int ysizeAdd = ysize + DXDraw::Instance()->GetUIY(5);
 
-					int ofset = (int)(this->m_Scroll.at(0).GetNowScrollYPer()*(std::max(0, Max - 4 + 1)*ysizeAdd));
+					int ofset = (int)(this->m_Scroll.at(0).GetNowScrollYPer() * (std::max(0, Max - 4 + 1) * ysizeAdd));
 					int yofs_t = yofs;
 					yofs_t += LineHeight + DXDraw::Instance()->GetUIY(5);
 					int ypMin = yp + yofs_t;
@@ -284,24 +284,24 @@ namespace FPS_n2 {
 		}
 		//タスク内容
 		if (m_TaskWorkData.GetMap().size() > 0) {
-			WindowSystem::SetMsg(xp, yp + sizy/2 + yofs, sizy, STRX_LEFT, White, Black, "マップ指定:");
+			WindowSystem::SetMsg(xp, yp + sizy / 2 + yofs, sizy, STRX_LEFT, White, Black, "マップ指定:");
 			xofs = std::max(xofs, WindowSystem::GetMsgLen(sizy, "マップ指定:")); yofs += sizy;
 			for (auto& LL : this->m_TaskWorkData.GetMap()) {
 				auto* ptr = DataBase::Instance()->GetMapData()->FindPtr(LL);
-				WindowSystem::SetMsg(xp + DXDraw::Instance()->GetUIY(30), yp + sizy/2 + yofs, sizy, STRX_LEFT, ptr->GetColors(0), Black, "%s", ptr->GetName().c_str());
+				WindowSystem::SetMsg(xp + DXDraw::Instance()->GetUIY(30), yp + sizy / 2 + yofs, sizy, STRX_LEFT, ptr->GetColors(0), Black, "%s", ptr->GetName().c_str());
 				xofs = std::max(xofs, WindowSystem::GetMsgLen(sizy, "%s", ptr->GetName().c_str()) + DXDraw::Instance()->GetUIY(30)); yofs += sizy;
 			}
 		}
 		if (m_TaskWorkData.GetKill().size() > 0) {
-			WindowSystem::SetMsg(xp, yp + sizy/2 + yofs, sizy, STRX_LEFT, White, Black, "敵をキル:");
+			WindowSystem::SetMsg(xp, yp + sizy / 2 + yofs, sizy, STRX_LEFT, White, Black, "敵をキル:");
 			xofs = std::max(xofs, WindowSystem::GetMsgLen(sizy, "敵をキル:")); yofs += sizy;
 			for (auto& LL : this->m_TaskWorkData.GetKill()) {
 				auto* eny = DataBase::Instance()->GetEnemyData()->FindPtr(LL.GetEnemyID());
-				WindowSystem::SetMsg(xp + DXDraw::Instance()->GetUIY(30), yp + sizy/2 + yofs, sizy, STRX_LEFT, eny->GetColors(0), Black, "%s x%2d", eny->GetName().c_str(), LL.GetKillCount());
+				WindowSystem::SetMsg(xp + DXDraw::Instance()->GetUIY(30), yp + sizy / 2 + yofs, sizy, STRX_LEFT, eny->GetColors(0), Black, "%s x%2d", eny->GetName().c_str(), LL.GetKillCount());
 				xofs = std::max(xofs, WindowSystem::GetMsgLen(sizy, "%s x%2d", eny->GetName().c_str(), LL.GetKillCount()) + DXDraw::Instance()->GetUIY(30));
 				if (LL.GetMapID() != InvalidID) {
 					auto* ptr = DataBase::Instance()->GetMapData()->FindPtr(LL.GetMapID());
-					WindowSystem::SetMsg(xp + DXDraw::Instance()->GetUIY(250), yp + sizy/2 + yofs, LineHeight * 8 / 10, STRX_LEFT, ptr->GetColors(0), Black, " in %s", ptr->GetName().c_str());
+					WindowSystem::SetMsg(xp + DXDraw::Instance()->GetUIY(250), yp + sizy / 2 + yofs, LineHeight * 8 / 10, STRX_LEFT, ptr->GetColors(0), Black, " in %s", ptr->GetName().c_str());
 					xofs = std::max(xofs, WindowSystem::GetMsgLen(sizy, " in %s", ptr->GetName().c_str()));
 				}
 				yofs += sizy;
@@ -320,7 +320,7 @@ namespace FPS_n2 {
 			}
 		}
 		if (m_TaskWorkData.GetNotFiR_Item().size() > 0) {
-			WindowSystem::SetMsg(xp, yp + sizy/2 + yofs, sizy, STRX_LEFT, White, Black, "Firでなくてよいアイテムの納品:");
+			WindowSystem::SetMsg(xp, yp + sizy / 2 + yofs, sizy, STRX_LEFT, White, Black, "Firでなくてよいアイテムの納品:");
 			xofs = std::max(xofs, WindowSystem::GetMsgLen(sizy, "Firでなくてよいアイテムの納品:")); yofs += sizy;
 			yofs += LineHeight;
 			for (const auto& LL : this->m_TaskWorkData.GetNotFiR_Item()) {
@@ -333,7 +333,7 @@ namespace FPS_n2 {
 		}
 
 		if (m_TaskWorkData.GetWeaponPreset().size() > 0) {
-			WindowSystem::SetMsg(xp, yp + sizy/2 + yofs, sizy, STRX_LEFT, White, Black, "カスタム品の納品:");
+			WindowSystem::SetMsg(xp, yp + sizy / 2 + yofs, sizy, STRX_LEFT, White, Black, "カスタム品の納品:");
 			xofs = std::max(xofs, WindowSystem::GetMsgLen(sizy, "カスタム品の納品:")); yofs += sizy;
 			yofs += LineHeight;
 			//
@@ -352,23 +352,23 @@ namespace FPS_n2 {
 			}
 		}
 		if (m_TaskWorkData.GetElseMsg().size() > 0) {
-			WindowSystem::SetMsg(xp, yp + sizy/2 + yofs, sizy, STRX_LEFT, White, Black, "メモ:");
+			WindowSystem::SetMsg(xp, yp + sizy / 2 + yofs, sizy, STRX_LEFT, White, Black, "メモ:");
 			xofs = std::max(xofs, WindowSystem::GetMsgLen(sizy, "メモ:")); yofs += sizy;
 			for (auto& m : this->m_TaskWorkData.GetElseMsg()) {
-				WindowSystem::SetMsg(xp, yp + sizy/2 + yofs, sizy, STRX_LEFT, White, Black, m.c_str());
+				WindowSystem::SetMsg(xp, yp + sizy / 2 + yofs, sizy, STRX_LEFT, White, Black, m.c_str());
 				xofs = std::max(xofs, WindowSystem::GetMsgLen(sizy, m.c_str())); yofs += sizy;
 			}
 		}
 		//
 		if ((m_TaskRewardData.GetLLAdd().size() > 0) || (m_TaskRewardData.GetItem().size() > 0)) {
-			WindowSystem::SetMsg(xp, yp + sizy/2 + yofs, sizy, STRX_LEFT, White, Black, "報酬アイテム:");
+			WindowSystem::SetMsg(xp, yp + sizy / 2 + yofs, sizy, STRX_LEFT, White, Black, "報酬アイテム:");
 			xofs = std::max(xofs, WindowSystem::GetMsgLen(sizy, "報酬アイテム:")); yofs += sizy;
 			yofs += LineHeight;
 		}
 		if (m_TaskRewardData.GetLLAdd().size() > 0) {
 			for (auto& LL : this->m_TaskRewardData.GetLLAdd()) {
 				auto* trader2 = DataBase::Instance()->GetTraderData()->FindPtr(LL.GetID());
-				WindowSystem::SetMsg(xp + DXDraw::Instance()->GetUIY(30), yp + sizy/2 + yofs, sizy, STRX_LEFT, trader2->GetColors(0), Black, "%s %s%4.2f",
+				WindowSystem::SetMsg(xp + DXDraw::Instance()->GetUIY(30), yp + sizy / 2 + yofs, sizy, STRX_LEFT, trader2->GetColors(0), Black, "%s %s%4.2f",
 					trader2->GetName().c_str(),
 					(LL.GetValue() >= 0.f) ? "+" : "-",
 					(float)(LL.GetValue()) / 100.f);
@@ -408,7 +408,7 @@ namespace FPS_n2 {
 			m_description = data["description"];
 		}
 		if (data.contains("maps") && !data["maps"].is_null()) {
-			for (const auto&m : data["maps"]) {
+			for (const auto& m : data["maps"]) {
 				std::string buf = m["name"];
 				m_Maps.emplace_back(DataBase::Instance()->GetMapData()->FindID(buf.c_str()));
 			}
@@ -421,19 +421,19 @@ namespace FPS_n2 {
 			m_Items.CheckID(DataBase::Instance()->GetItemData().get());
 		}
 		if (data.contains("containsAll") && !data["containsAll"].is_null()) {
-			for (const auto&m : data["containsAll"]) {
+			for (const auto& m : data["containsAll"]) {
 				std::string buf1 = m["name"];
 				m_containsAll.emplace_back(buf1);
 			}
 		}
 		if (data.contains("containsCategory") && !data["containsCategory"].is_null()) {
-			for (const auto&m : data["containsCategory"]) {
+			for (const auto& m : data["containsCategory"]) {
 				std::string buf1 = m["name"];
 				m_containsCategory.emplace_back(buf1);
 			}
 		}
 		if (data.contains("attributes") && !data["attributes"].is_null()) {
-			for (const auto&m : data["attributes"]) {
+			for (const auto& m : data["attributes"]) {
 				std::string buf1 = m["name"];
 				Compare buf2; buf2.GetJsonData(m["requirement"]);
 				m_attributes.emplace_back(std::make_pair(buf1, buf2));
@@ -441,7 +441,7 @@ namespace FPS_n2 {
 		}
 		if (data.contains("healthEffect")) {
 			if (!data["healthEffect"].is_null()) {
-				for (const auto&m : data["healthEffect"]) {
+				for (const auto& m : data["healthEffect"]) {
 					HealthEffect buf1; buf1.GetJsonData(m);
 					m_healthEffect.emplace_back(buf1);
 				}
@@ -449,7 +449,7 @@ namespace FPS_n2 {
 		}
 		if (data.contains("exitStatus")) {
 			if (!data["exitStatus"].is_null()) {
-				for (const auto&m : data["exitStatus"]) {
+				for (const auto& m : data["exitStatus"]) {
 					m_exitStatus.emplace_back(m);
 				}
 			}
@@ -461,7 +461,7 @@ namespace FPS_n2 {
 		}
 		if (data.contains("zoneNames")) {
 			if (!data["zoneNames"].is_null()) {
-				for (const auto&m : data["zoneNames"]) {
+				for (const auto& m : data["zoneNames"]) {
 					std::string buf1 = m;
 					m_zoneNames.emplace_back(buf1);
 				}
@@ -516,14 +516,14 @@ namespace FPS_n2 {
 		}
 		if (data.contains("bodyParts")) {
 			if (!data["bodyParts"].is_null()) {
-				for (const auto&m : data["bodyParts"]) {
+				for (const auto& m : data["bodyParts"]) {
 					bodyParts.emplace_back(m);
 				}
 			}
 		}
 		if (data.contains("usingWeapon")) {
 			if (!data["usingWeapon"].is_null()) {
-				for (const auto&m : data["usingWeapon"]) {
+				for (const auto& m : data["usingWeapon"]) {
 					std::string buf1 = m["name"];
 					usingWeapon.emplace_back(buf1);
 				}
@@ -531,8 +531,8 @@ namespace FPS_n2 {
 		}
 		if (data.contains("usingWeaponMods")) {
 			if (!data["usingWeaponMods"].is_null()) {
-				for (const auto&m : data["usingWeaponMods"]) {
-					for (const auto&m2 : m) {
+				for (const auto& m : data["usingWeaponMods"]) {
+					for (const auto& m2 : m) {
 						std::string buf1 = m2["name"];
 						usingWeaponMods.emplace_back(buf1);
 					}
@@ -541,8 +541,8 @@ namespace FPS_n2 {
 		}
 		if (data.contains("wearing")) {
 			if (!data["wearing"].is_null()) {
-				for (const auto&m : data["wearing"]) {
-					for (const auto&m2 : m) {
+				for (const auto& m : data["wearing"]) {
+					for (const auto& m2 : m) {
 						std::string buf1 = m2["name"];
 						wearing.emplace_back(buf1);
 					}
@@ -551,7 +551,7 @@ namespace FPS_n2 {
 		}
 		if (data.contains("notWearing")) {
 			if (!data["notWearing"].is_null()) {
-				for (const auto&m : data["notWearing"]) {
+				for (const auto& m : data["notWearing"]) {
 					std::string buf1 = m["name"];
 					notWearing.emplace_back(buf1);
 				}
@@ -591,7 +591,7 @@ namespace FPS_n2 {
 		}
 		if (data.contains("status")) {
 			if (!data["status"].is_null()) {
-				for (const auto&m : data["status"]) {
+				for (const auto& m : data["status"]) {
 					std::string buf1 = m;
 					status.emplace_back(buf1);
 				}
@@ -613,7 +613,7 @@ namespace FPS_n2 {
 	void		TaskJsonData::TaskRewards::GetJsonData(const nlohmann::json& data) {
 		if (data.contains("traderStanding")) {
 			if (!data["traderStanding"].is_null()) {
-				for (const auto&m : data["traderStanding"]) {
+				for (const auto& m : data["traderStanding"]) {
 					TraderGetData buf;
 					buf.Set(m["trader"]["name"], (int)((float)m["standing"] * 100.f));
 					m_traderStanding.emplace_back(buf);
@@ -624,7 +624,7 @@ namespace FPS_n2 {
 		}
 		if (data.contains("items")) {
 			if (!data["items"].is_null()) {
-				for (const auto&m : data["items"]) {
+				for (const auto& m : data["items"]) {
 					ItemGetData buf;
 					buf.Set(m["item"]["name"], m["count"]);
 					m_Items.emplace_back(buf);
@@ -635,14 +635,14 @@ namespace FPS_n2 {
 		}
 		if (data.contains("skillLevelReward")) {
 			if (!data["skillLevelReward"].is_null()) {
-				for (const auto&m : data["skillLevelReward"]) {
+				for (const auto& m : data["skillLevelReward"]) {
 					skillLevelReward buf1; buf1.GetJsonData(m);
 					m_skillLevelReward.emplace_back(buf1);
 				}
 			}
 		}
 		if (data.contains("traderUnlock") && !data["traderUnlock"].is_null()) {
-			for (const auto&m : data["traderUnlock"]) {
+			for (const auto& m : data["traderUnlock"]) {
 				std::string buf1 = m["name"];
 				m_traderUnlock.emplace_back(buf1);
 			}
@@ -669,14 +669,14 @@ namespace FPS_n2 {
 			}
 		}
 		if (data.contains("taskRequirements")) {
-			for (const auto&m : data["taskRequirements"]) {
+			for (const auto& m : data["taskRequirements"]) {
 				std::string buf1 = m["task"]["name"];
 				std::string buf2 = m["status"][0];
 				taskRequirements.emplace_back(std::make_pair(buf1, buf2));
 			}
 		}
 		if (data.contains("traderRequirements")) {
-			for (const auto&m : data["traderRequirements"]) {
+			for (const auto& m : data["traderRequirements"]) {
 				TraderRequirements TMP;
 				TMP.m_name = m["trader"]["name"];
 				TMP.m_requirementType = m["requirementType"];
@@ -687,7 +687,7 @@ namespace FPS_n2 {
 		}
 		if (data.contains("objectives")) {
 			if (!data["objectives"].is_null()) {
-				for (const auto&m : data["objectives"]) {
+				for (const auto& m : data["objectives"]) {
 					TaskObjective buf1; buf1.GetJsonData(m);
 					objectives.emplace_back(buf1);
 				}
@@ -697,7 +697,7 @@ namespace FPS_n2 {
 		finishRewards.GetJsonData(data["finishRewards"]);
 		if (data.contains("failConditions")) {
 			if (!data["failConditions"].is_null()) {
-				for (const auto&m : data["failConditions"]) {
+				for (const auto& m : data["failConditions"]) {
 					TaskObjective buf1; buf1.GetJsonData(m);
 					failConditions.emplace_back(buf1);
 				}
@@ -707,8 +707,8 @@ namespace FPS_n2 {
 		restartable = data["restartable"];
 		if (data.contains("neededKeys")) {
 			if (!data["neededKeys"].is_null()) {
-				for (const auto&m : data["neededKeys"]) {
-					for (const auto&k : m["keys"]) {
+				for (const auto& m : data["neededKeys"]) {
+					for (const auto& k : m["keys"]) {
 						neededKeys.emplace_back(k["name"]);
 					}
 				}
@@ -724,7 +724,7 @@ namespace FPS_n2 {
 			outputfile << "\tTaskText=" + obj.m_description + "\n";
 			outputfile << "\tTaskOptional=" + (std::string)(obj.m_optional ? "true" : "false") + "\n";
 			outputfile << "]\n";
-		};
+			};
 		auto SetTaskObjective = [&](std::ofstream& outputfile, const TaskJsonData::TaskObjective& obj, EnumTaskObjective /*prev*/) {
 			for (auto& m : obj.m_Maps) {
 				auto* ptr = DataBase::Instance()->GetMapData()->FindPtr(m);
@@ -1044,7 +1044,7 @@ namespace FPS_n2 {
 			default:
 				break;
 			}
-		};
+			};
 		auto SetTaskRewards = [&](std::ofstream& outputfile, const TaskJsonData::TaskRewards& obj) {
 			for (auto& m : obj.m_traderStanding) {
 				outputfile << "Reward_Rep=" + m.GetName() + ((m.GetValue() >= 0) ? "+" : "") + std::to_string(m.GetValue()) + "\n";
@@ -1066,7 +1066,7 @@ namespace FPS_n2 {
 			for (auto& m : obj.m_traderUnlock) {
 				outputfile << "Reward_TraderUnlock=" + m + "\n";
 			}
-		};
+			};
 		auto WriteText = [&](std::ofstream& outputfile) {
 			outputfile << "Trader=" + DataBase::Instance()->GetTraderData()->FindPtr(this->traderID)->GetName() + "\n";
 			outputfile << "\n";
@@ -1135,7 +1135,7 @@ namespace FPS_n2 {
 			outputfile << "\n";
 			SetTaskRewards(outputfile, this->failureOutcome);
 			outputfile << "Reward_EXP=" + std::to_string(this->experience) + "\n";
-		};
+			};
 
 		WriteText(outputfile);
 	}
@@ -1165,13 +1165,13 @@ namespace FPS_n2 {
 	//
 	void		TaskData::InitDatabyJson() noexcept {
 		TraderIDs.resize(DataBase::Instance()->GetTraderData()->GetList().size());
-		for (auto&i : TraderIDs) { i = 0; }
+		for (auto& i : TraderIDs) { i = 0; }
 	}
 	void		TaskData::SaveAsNewData2(std::string Path) noexcept {
 		bool maked = false;
 		std::vector<bool> maked_t;
 		maked_t.resize(DataBase::Instance()->GetTraderData()->GetList().size());
-		for (auto&&i : maked_t) { i = false; }
+		for (auto&& i : maked_t) { i = false; }
 
 		for (auto& jd : GetJsonDataList()) {
 			TraderID trID = (dynamic_cast<TaskJsonData*>(jd.get()))->traderID;
