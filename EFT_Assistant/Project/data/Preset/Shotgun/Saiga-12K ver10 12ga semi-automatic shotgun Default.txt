@@ -1,9 +1,9 @@
 Name=Saiga-12K ver.10 12ga semi-automatic shotgun Default
 Base=Saiga-12K ver.10 12ga semi-automatic shotgun
-Parts=SOK-12 polymer handguard (Sb.7-1)
 Parts=SOK-12 thread protection tube
+Parts=SOK-12 polymer handguard (Sb.7-1)
+Parts=SOK-12 rear sight
+Parts=SOK-12 12/76 sb.5 5-round magazine
 Parts=AK polymer pistol grip (6P1 Sb.8)
 Parts=SOK-12 dust cover (Sb.0-2)
-Parts=SOK-12 rear sight
 Parts=SOK-12 AK-style stock
-Parts=SOK-12 12/76 sb.5 5-round magazine

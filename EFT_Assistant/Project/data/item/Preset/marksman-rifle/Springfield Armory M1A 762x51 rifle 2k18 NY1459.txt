@@ -10,21 +10,21 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	Springfield Armory M1A 7.62x51 riflex1/|
-	M14 7.62x51 X Products X-14 50-round drum magazinex1/|
-	M14 TROY S.A.S.S. Chassis stockx1/|
-	Magpul AFG tactical foregrip (FDE)x1/|
-	Armasight Vulcan universal basex1/|
-	Armasight Vulcan MG 3.5x Bravo night vision scopex1/|
-	NcSTAR MPR45 Backup mountx1/|
-	Burris FastFire Weaver Basex1/|
-	Burris FastFire 3 reflex sightx1/|
+	M1A 7.62x51 22 inch barrelx1/|
 	L3Harris AN/PEQ-15 tactical devicex1/|
+	Burris FastFire 3 reflex sightx1/|
+	M14 JP Enterprises 7.62x51 Tactical Compensatorx1/|
+	Magpul AFG tactical foregrip (FDE)x1/|
+	M14 7.62x51 X Products X-14 50-round drum magazinex1/|
+	Armasight Vulcan universal basex1/|
+	Burris FastFire Weaver Basex1/|
+	NcSTAR MPR45 Backup mountx1/|
 	AR-15 Damage Industries ECS pistol grip (FDE)x1/|
+	Armasight Vulcan MG 3.5x Bravo night vision scopex1/|
 	AR-15 Colt Carbine buffer tubex1/|
 	AR-15 Magpul MOE Carbine stock (FDE)x1/|
-	Magpul MOE Carbine rubber buttpadx1/|
-	M1A 7.62x51 22 inch barrelx1/|
-	M14 JP Enterprises 7.62x51 Tactical Compensatorx1
+	M14 TROY S.A.S.S. Chassis stockx1/|
+	Magpul MOE Carbine rubber buttpadx1
 ]
 Name_Jpn=Springfield Armory M1A 7.62x51 ライフル 2k18 NY
 Information_Jpn=

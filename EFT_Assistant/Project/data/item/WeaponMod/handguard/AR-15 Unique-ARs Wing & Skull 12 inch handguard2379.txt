@@ -9,11 +9,11 @@ weight=0.250000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 Conflict=[
+	AR-15 5.56x45 260mm barrel/|
 	AR-10 JP Enterprises Gas System-6/|
-	M4A1 front sight with gas block/|
 	AR-15 JP Enterprises Gas System-5B/|
 	AR-15 Windham Weaponry Rail Gas Block/|
-	AR-15 5.56x45 260mm barrel
+	M4A1 front sight with gas block
 ]
 Recoil=0.000000
 Ergonomics=15.000000

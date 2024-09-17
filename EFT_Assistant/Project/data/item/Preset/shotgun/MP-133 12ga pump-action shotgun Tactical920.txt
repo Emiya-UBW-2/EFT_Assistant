@@ -12,15 +12,15 @@ containsItems=[
 	MP-133 12ga pump-action shotgunx1/|
 	MP-133 12ga 510mm barrelx1/|
 	Remington Tactical Choke 12gax1/|
-	MP-133 custom plastic forestock with railsx1/|
-	Magpul AFG tactical foregrip (Black)x1/|
-	Kiba Arms 25mm accessory ring mountx1/|
+	Trijicon RMR reflex sightx1/|
 	Armytek Predator Pro v3 XHP35 HI flashlightx1/|
+	Magpul AFG tactical foregrip (Black)x1/|
+	MP-133 custom plastic forestock with railsx1/|
 	MP-133 12ga 6-shell magazinex1/|
-	MP-133/153 plastic stockx1/|
+	Kiba Arms 25mm accessory ring mountx1/|
 	Kiba Arms SPRM rail mount for pump-action shotgunsx1/|
 	Trijicon RMR low profile mountx1/|
-	Trijicon RMR reflex sightx1
+	MP-133/153 plastic stockx1
 ]
 Name_Jpn=MP-133 12ga ポンプアクション ショットガン Tactical
 Information_Jpn=

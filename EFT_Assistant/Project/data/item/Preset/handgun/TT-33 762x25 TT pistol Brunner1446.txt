@@ -11,10 +11,10 @@ IsDefault=FALSE
 containsItems=[
 	TT-33 7.62x25 TT pistolx1/|
 	TT 7.62x25 116mm barrelx1/|
-	TT Razor Arms rubber gripx1/|
-	TT 7.62x25 tt-105 8-round magazinex1/|
+	TT DLP Tactical Precision LAM-modulex1/|
 	TT PM-Laser DTK-TT muzzle brake-compensatorx1/|
-	TT DLP Tactical Precision LAM-modulex1
+	TT 7.62x25 tt-105 8-round magazinex1/|
+	TT Razor Arms rubber gripx1
 ]
 Name_Jpn=TT-33 7.62x25 TT pistol Brunner
 Information_Jpn=

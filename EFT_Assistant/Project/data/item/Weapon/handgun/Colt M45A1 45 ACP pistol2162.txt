@@ -25,8 +25,8 @@ ChildParts=[
 ChildParts_required=TRUE
 ChildParts=[
 	M1911A1 .45 ACP 7-round magazine/|
-	M1911A1 .45 ACP Wilson Combat 7-round magazine/|
-	M1911A1 .45 ACP Mec-Gar 11-round magazine
+	M1911A1 .45 ACP Mec-Gar 11-round magazine/|
+	M1911A1 .45 ACP Wilson Combat 7-round magazine
 ]
 ChildParts_required=FALSE
 ChildParts=[
@@ -36,30 +36,30 @@ ChildParts=[
 ]
 ChildParts_required=TRUE
 ChildParts=[
-	M45A1 hammer/|
 	M1911A1 STI HEX hammer/|
 	M1911A1 Wilson Retro Commander hammer/|
-	M1911A1 Wilson Ultralight skeletonized hammer
+	M1911A1 Wilson Ultralight skeletonized hammer/|
+	M45A1 hammer
 ]
 ChildParts_required=TRUE
 ChildParts=[
 	M1911A1 slide stop/|
-	M45A1 slide lock/|
-	M1911A1 Wilson Extended slide stop
+	M1911A1 Wilson Extended slide stop/|
+	M45A1 slide lock
 ]
 ChildParts_required=TRUE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	NcSTAR Tactical blue laser LAM-module/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
+	Olight Baldr Pro tactical flashlight with laser/|
 	Steiner DBAL-PL tactical device/|
 	Steiner LAS/TAC 2 tactical flashlight/|
 	SureFire X400 Ultra tactical flashlight with laser/|
 	SureFire XC1 tactical flashlight/|
 	Zenit Klesch-2IKS IR illuminator with laser/|
 	Zenit Klesch-2P flashlight with laser/|
-	Zenit Klesch-2U tactical flashlight/|
-	Olight Baldr Pro tactical flashlight with laser/|
-	Olight Baldr Pro tactical flashlight with laser (Tan)
+	Zenit Klesch-2U tactical flashlight
 ]
 ChildParts_required=FALSE
 Recoil=438.000000

@@ -9,20 +9,20 @@ weight=0.103000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
-	NcSTAR MPR45 Backup mount/|
 	Holosun LS321 Tactical device/|
 	L3Harris AN/PEQ-15 tactical device/|
 	L3Harris LA-5B/PEQ tactical device/|
+	MAWL-C1+ tactical device/|
 	SureFire XC1 tactical flashlight/|
 	Wilcox RAPTAR ES Tactical Rangefinder/|
 	Zenit Perst-3 tactical device/|
-	MAWL-C1+ tactical device
+	NcSTAR MPR45 Backup mount
 ]
 ChildParts_required=FALSE
 Conflict=[
-	AR-15 5.56x45 370mm barrel/|
 	AR-15 5.56x45 18 inch barrel/|
 	AR-15 5.56x45 20 inch barrel/|
+	AR-15 5.56x45 370mm barrel/|
 	AR-15 5.56x45 Molot Arms 406mm barrel/|
 	AR-15 Hanson Carbine 5.56x45 13.7 inch barrel/|
 	AR-15 Hanson Carbine 5.56x45 16 inch barrel

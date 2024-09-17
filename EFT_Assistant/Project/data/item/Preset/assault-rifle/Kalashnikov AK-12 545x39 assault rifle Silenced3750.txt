@@ -10,19 +10,19 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	Kalashnikov AK-12 5.45x39 assault riflex1/|
-	AK-12 gas tubex1/|
-	AK Zenit RK-3 pistol gripx1/|
-	AK-12 handguardx1/|
-	RPK-16 handguard railx1/|
+	AK Zenit RP-1 charging handlex1/|
 	Zenit Perst-3 tactical devicex1/|
 	Zenit RK-0 tactical foregripx1/|
-	AK-12 5.45x39 sound suppressorx1/|
+	AK-12 gas tubex1/|
+	AK-12 handguardx1/|
+	AK-12 5.45x39 early model 30-round magazinex1/|
+	RPK-16 handguard railx1/|
+	AK Zenit RK-3 pistol gripx1/|
 	AK-12 dust coverx1/|
 	Valday Krechet reflex sightx1/|
+	AK-12 5.45x39 sound suppressorx1/|
 	AK-12 buffer tubex1/|
-	AK-12 stockx1/|
-	AK-12 5.45x39 early model 30-round magazinex1/|
-	AK Zenit RP-1 charging handlex1
+	AK-12 stockx1
 ]
 Name_Jpn=Kalashnikov AK-12 5.45x39 アサルトライフル Silenced
 Information_Jpn=

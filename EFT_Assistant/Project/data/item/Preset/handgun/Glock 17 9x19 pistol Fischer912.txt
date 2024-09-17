@@ -11,13 +11,13 @@ IsDefault=FALSE
 containsItems=[
 	Glock 17 9x19 pistolx1/|
 	Glock 17 9x19 barrelx1/|
+	SureFire XC1 tactical flashlightx1/|
+	Glock Dead Ringer Snake Eye front sightx1/|
+	Glock Dead Ringer Snake Eye rear sightx1/|
+	Glock 9x19 17-round magazinex1/|
 	Glock Pachmayr Tactical Grip Glovex1/|
 	Glock 17 pistol slidex1/|
-	Glock Dead Ringer Snake Eye rear sightx1/|
-	Glock Dead Ringer Snake Eye front sightx1/|
-	Glock 9x19 17-round magazinex1/|
-	Glock 9x19 Fischer Development FD917 sound suppressorx1/|
-	SureFire XC1 tactical flashlightx1
+	Glock 9x19 Fischer Development FD917 sound suppressorx1
 ]
 Name_Jpn=Glock 17 9x19 ピストル Fischer
 Information_Jpn=

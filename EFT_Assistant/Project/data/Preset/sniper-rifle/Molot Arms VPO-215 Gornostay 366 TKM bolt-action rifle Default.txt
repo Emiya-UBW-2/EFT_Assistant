@@ -1,7 +1,7 @@
 Name=Molot Arms VPO-215 Gornostay .366 TKM bolt-action rifle Default
 Base=Molot Arms VPO-215 Gornostay .366 TKM bolt-action rifle
-Parts=VPO-215 Gornostay .366 TKM 4-round magazine
-Parts=VPO-215 Gornostay wooden stock
 Parts=VPO-215 Gornostay .366TKM 600mm barrel
 Parts=VPO-215 Gornostay thread protector
+Parts=VPO-215 Gornostay .366 TKM 4-round magazine
 Parts=VPO-215 Gornostay scope rail mount
+Parts=VPO-215 Gornostay wooden stock

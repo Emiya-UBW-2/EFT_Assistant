@@ -10,19 +10,19 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	Desert Tech MDR 7.62x51 assault riflex1/|
-	MDR pistol grip (FDE)x1/|
-	AR-10 7.62x51 Magpul PMAG 20 SR-LR GEN M3 20-round magazinex1/|
-	MDR handguard (Black)x1/|
-	Magpul M-LOK 4.1 inch railx1/|
-	TangoDown Stubby BGV-MK46K foregrip (FDE)x1/|
-	L3Harris LA-5B/PEQ tactical devicex1/|
-	MDR 7.62x51 16 inch barrelx1/|
-	AR-10 AAC Blackout 51T 7.62x51 flash hiderx1/|
-	Trijicon TA51 sight mountx1/|
 	Trijicon ACOG TA01NSN 4x32 scope (Tan)x1/|
-	Trijicon RMR mount for ACOG scopesx1/|
+	MDR 7.62x51 16 inch barrelx1/|
+	L3Harris LA-5B/PEQ tactical devicex1/|
 	Trijicon RMR reflex sightx1/|
-	KAC Folding Micro rear sightx1
+	AR-10 AAC Blackout 51T 7.62x51 flash hiderx1/|
+	TangoDown Stubby BGV-MK46K foregrip (FDE)x1/|
+	MDR handguard (Black)x1/|
+	KAC Folding Micro rear sightx1/|
+	AR-10 7.62x51 Magpul PMAG 20 SR-LR GEN M3 20-round magazinex1/|
+	Magpul M-LOK 4.1 inch railx1/|
+	Trijicon RMR mount for ACOG scopesx1/|
+	Trijicon TA51 sight mountx1/|
+	MDR pistol grip (FDE)x1
 ]
 Name_Jpn=MDR 7.62x51 アサルトライフル Killtube
 Information_Jpn=

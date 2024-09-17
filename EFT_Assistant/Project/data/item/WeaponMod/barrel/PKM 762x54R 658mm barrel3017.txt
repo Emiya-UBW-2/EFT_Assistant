@@ -10,8 +10,8 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	PK Zenit DTK-1P 7.62x54R muzzle brake/|
-	PKM 7.62x54R slotted flash hider/|
-	PKM 7.62x54R muzzle brake
+	PKM 7.62x54R muzzle brake/|
+	PKM 7.62x54R slotted flash hider
 ]
 ChildParts_required=FALSE
 Recoil=-7.000000

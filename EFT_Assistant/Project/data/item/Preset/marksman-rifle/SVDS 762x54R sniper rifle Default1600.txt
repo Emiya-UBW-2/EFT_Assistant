@@ -10,17 +10,17 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	SVDS 7.62x54R sniper riflex1/|
-	SVDS pistol gripx1/|
-	SVD 7.62x54R 10-round magazinex1/|
-	SVDS polymer stockx1/|
 	SVDS 7.62x54R 22 inch barrelx1/|
 	SVDS 7.62x54R muzzle brake-compensatorx1/|
-	SVDS front sightx1/|
 	SVDS gas tubex1/|
-	SVDS upper bandx1/|
 	SVDS polymer handguardx1/|
+	SVDS front sightx1/|
 	SVDS rear sightx1/|
-	SVDS dust coverx1
+	SVD 7.62x54R 10-round magazinex1/|
+	SVDS upper bandx1/|
+	SVDS pistol gripx1/|
+	SVDS dust coverx1/|
+	SVDS polymer stockx1
 ]
 Name_Jpn=SVDS 7.62x54R スナイパーライフル デフォルト
 Information_Jpn=

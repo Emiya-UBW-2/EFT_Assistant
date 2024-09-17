@@ -11,14 +11,14 @@ IsDefault=FALSE
 containsItems=[
 	Benelli M3 Super 90 12ga dual-mode shotgunx1/|
 	Benelli M3 Super 90 12ga 500mm barrelx1/|
+	Benelli M3 Super 90 charging handlex1/|
 	Remington Tactical Choke 12gax1/|
 	Benelli M3 forendx1/|
+	Benelli M3 Ghost Ring rear sightx1/|
 	Benelli M3 Super 90 12ga 7-shell magazinex1/|
-	Benelli M3 Mesa Tactical Urbino stockx1/|
-	Benelli M3 Super 90 charging handlex1/|
 	Benelli M3 Super 90 upper receiver top railx1/|
 	Wilcox BOSS Xe reflex sightx1/|
-	Benelli M3 Ghost Ring rear sightx1
+	Benelli M3 Mesa Tactical Urbino stockx1
 ]
 Name_Jpn=Benelli M3 Super 90 デュアルモード 12ゲージ ショットガン BOSS Xe
 Information_Jpn=

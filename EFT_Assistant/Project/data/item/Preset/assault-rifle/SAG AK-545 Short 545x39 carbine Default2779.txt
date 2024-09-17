@@ -10,15 +10,15 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	SAG AK-545 Short 5.45x39 carbinex1/|
+	AK-74 PWS CQB 74 5.45x39 muzzle brakex1/|
 	AK-545 SAG Mk. 2.1 gas tubex1/|
 	AK-545 SAG Mk.3 handguardx1/|
-	AK-545 SAG railed dust coverx1/|
 	AK-545 SAG rear sightx1/|
-	AK-74 PWS CQB 74 5.45x39 muzzle brakex1/|
+	AK-74 5.45x39 6L23 30-round magazinex1/|
 	AK Strike Industries Enhanced Pistol Grip (Black)x1/|
+	AK-545 SAG railed dust coverx1/|
 	AK-545 SAG buffer tubex1/|
-	AR-15 High Standard M4SS Stockx1/|
-	AK-74 5.45x39 6L23 30-round magazinex1
+	AR-15 High Standard M4SS Stockx1
 ]
 Name_Jpn=AK-545 Short 5.45x39 カービン デフォルト
 Information_Jpn=

@@ -10,13 +10,13 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	Saiga-12K ver.10 12ga semi-automatic shotgunx1/|
-	SOK-12 polymer handguard (Sb.7-1)x1/|
 	SOK-12 thread protection tubex1/|
+	SOK-12 polymer handguard (Sb.7-1)x1/|
+	SOK-12 rear sightx1/|
+	SOK-12 12/76 sb.5 5-round magazinex1/|
 	AK polymer pistol grip (6P1 Sb.8)x1/|
 	SOK-12 dust cover (Sb.0-2)x1/|
-	SOK-12 rear sightx1/|
-	SOK-12 AK-style stockx1/|
-	SOK-12 12/76 sb.5 5-round magazinex1
+	SOK-12 AK-style stockx1
 ]
 Name_Jpn=Saiga 12ga ver.10 12/76 セミオートショットガン デフォルト
 Information_Jpn=

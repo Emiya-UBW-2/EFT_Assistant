@@ -10,16 +10,16 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	Degtyarev RPDN 7.62x39 machine gunx1/|
-	RPD 7.62x39 "Buben" 100-round boxx1/|
-	RPD wooden stockx1/|
-	RPD wooden pistol gripx1/|
+	NPZ 1P78 scope eyecupx1/|
 	RPD 7.62x39 520mm barrelx1/|
 	RPD bipodx1/|
 	RPD wooden handguardx1/|
 	RPD rear sightx1/|
+	RPD 7.62x39 "Buben" 100-round boxx1/|
 	NPZ 1P78-1 dovetail mountx1/|
+	RPD wooden pistol gripx1/|
 	NPZ 1P78-1 2.8x scopex1/|
-	NPZ 1P78 scope eyecupx1
+	RPD wooden stockx1
 ]
 Name_Jpn=Degtyarev RPDN 7.62x39 machine gun 1P78-1
 Information_Jpn=

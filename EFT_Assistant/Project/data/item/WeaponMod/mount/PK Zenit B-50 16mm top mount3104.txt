@@ -10,19 +10,19 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Holosun LS321 Tactical device/|
-	L3Harris AN/PEQ-15 tactical device/|
 	Insight AN/PEQ-2 tactical device/|
+	L3Harris AN/PEQ-15 tactical device/|
 	L3Harris LA-5B/PEQ tactical device/|
+	MAWL-C1+ tactical device/|
 	Wilcox RAPTAR ES Tactical Rangefinder/|
 	Zenit Perst-3 tactical device/|
+	Aimpoint LRP mount for CompM4 sights/|
+	Aimpoint Micro H-2 Standard Mount/|
+	Aimpoint Micro Standard Mount/|
+	Aimpoint QRP2 mount for CompM4/PRO sights/|
 	B&T QD NAR mount for Aimpoint ACRO/|
 	SIG Sauer ROMEO sight mount/|
 	Trijicon RMR high profile mount/|
-	MAWL-C1+ tactical device/|
-	Aimpoint Micro Standard Mount/|
-	Aimpoint Micro H-2 Standard Mount/|
-	Aimpoint LRP mount for CompM4 sights/|
-	Aimpoint QRP2 mount for CompM4/PRO sights/|
 	Axion Kobra EKP-8-18 reflex sight/|
 	ELCAN Specter HCO holographic sight/|
 	EOTech 553 holographic sight/|
@@ -30,11 +30,11 @@ ChildParts=[
 	EOTech XPS3-0 holographic sight/|
 	EOTech XPS3-2 holographic sight/|
 	Holosun HS401G5 reflex sight/|
-	SIG Sauer ROMEO8T reflex sight/|
 	SIG Sauer ROMEO7 1x30 reflex sight (Prototype)/|
+	SIG Sauer ROMEO8T reflex sight/|
 	Trijicon SRS-02 reflex sight/|
-	Valday PK-120 (1P87) holographic sight/|
 	Valday Krechet reflex sight/|
+	Valday PK-120 (1P87) holographic sight/|
 	Vortex Razor AMG UH-1 holographic sight/|
 	Walther MRS reflex sight/|
 	Wilcox BOSS Xe reflex sight

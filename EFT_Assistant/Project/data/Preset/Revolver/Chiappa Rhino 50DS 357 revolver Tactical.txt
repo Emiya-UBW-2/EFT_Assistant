@@ -1,7 +1,7 @@
 Name=Chiappa Rhino 50DS .357 revolver Tactical
 Base=Chiappa Rhino 50DS .357 revolver
-Parts=Chiappa Rhino .357 6-round cylinder
-Parts=Chiappa Rhino Red Fiber Optic rear sight
-Parts=Chiappa Rhino Red Fiber Optic front sight
-Parts=Chiappa Rhino plastic pistol grip
 Parts=SureFire XC1 tactical flashlight
+Parts=Chiappa Rhino .357 6-round cylinder
+Parts=Chiappa Rhino Red Fiber Optic front sight
+Parts=Chiappa Rhino Red Fiber Optic rear sight
+Parts=Chiappa Rhino plastic pistol grip

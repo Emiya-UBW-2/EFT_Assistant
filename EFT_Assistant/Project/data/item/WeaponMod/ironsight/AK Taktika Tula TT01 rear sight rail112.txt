@@ -9,16 +9,10 @@ weight=0.085000
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
 ChildParts=[
-	EOTech EXPS3 holographic sight (Tan)/|
-	EOTech XPS3-0 holographic sight/|
-	EOTech XPS3-2 holographic sight/|
-	Trijicon SRS-02 reflex sight/|
-	VOMZ Pilad P1x42 Weaver reflex sight/|
-	Walther MRS reflex sight/|
 	BelOMO PK-06 reflex sight/|
-	Aimpoint Micro Standard Mount/|
-	Aimpoint Micro H-2 Standard Mount/|
 	Aimpoint LRP mount for CompM4 sights/|
+	Aimpoint Micro H-2 Standard Mount/|
+	Aimpoint Micro Standard Mount/|
 	Aimpoint QRP2 mount for CompM4/PRO sights/|
 	B&T QD NAR mount for Aimpoint ACRO/|
 	Burris FastFire Weaver Base/|
@@ -27,17 +21,23 @@ ChildParts=[
 	Trijicon RMR high profile mount/|
 	Trijicon RMR low profile mount/|
 	ELCAN Specter HCO holographic sight/|
+	EOTech EXPS3 holographic sight (Tan)/|
+	EOTech XPS3-0 holographic sight/|
+	EOTech XPS3-2 holographic sight/|
+	Trijicon SRS-02 reflex sight/|
+	VOMZ Pilad P1x42 Weaver reflex sight/|
+	Walther MRS reflex sight/|
 	SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope
 ]
 ChildParts_required=FALSE
 Conflict=[
+	Zenit B-13 "Klassika" dovetail rail platform/|
+	Zenit B-13V "Klassika" dovetail rail platform/|
+	AK Zenit B-33 dust cover/|
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
 	OKP-7 reflex sight (Dovetail)/|
 	BelOMO PSO-1M2-1 4x24 scope/|
-	NSPU-M 3.5x dovetail night vision scope/|
-	Zenit B-13 "Klassika" dovetail rail platform/|
-	Zenit B-13V "Klassika" dovetail rail platform/|
-	AK Zenit B-33 dust cover
+	NSPU-M 3.5x dovetail night vision scope
 ]
 Recoil=0.000000
 Ergonomics=-1.000000

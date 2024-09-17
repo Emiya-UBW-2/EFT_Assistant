@@ -146,14 +146,18 @@ namespace FPS_n2 {
 				}
 			}
 			for (auto& B : L.m_ItemBarters) {
+				B.m_Sortvalue = 0;
 				for (auto& T : B.m_TaskReq) {
 					T.CheckID(DataBase::Instance()->GetTaskData().get());
+					B.m_Sortvalue += T.GetID();
 				}
 				for (auto& T : B.m_ItemReq) {
 					T.CheckID(DataBase::Instance()->GetItemData().get());
+					B.m_Sortvalue += T.GetID();
 				}
 				for (auto& T : B.m_ItemReward) {
 					T.CheckID(DataBase::Instance()->GetItemData().get());
+					B.m_Sortvalue += T.GetID();
 				}
 			}
 
@@ -180,6 +184,7 @@ namespace FPS_n2 {
 			if (L2.repairCostMultiplier >= 0.f) {
 				outputfile << LV + "repairCostMultiplier=" + std::to_string(L2.repairCostMultiplier) + "\n";
 			}
+			std::sort(L2.m_ItemBarters.begin(), L2.m_ItemBarters.end(), [&](const BartersData& a, const BartersData& b) { return a.m_Sortvalue < b.m_Sortvalue; });
 			for (auto& c : L2.m_ItemBarters) {
 				//m_TaskReq
 				outputfile << LV + "taskUnlock=[";
@@ -240,14 +245,18 @@ namespace FPS_n2 {
 			B.m_ItemReward.emplace_back(buf);
 		}
 
+		B.m_Sortvalue = 0;
 		for (auto& T : B.m_TaskReq) {
 			T.CheckID(DataBase::Instance()->GetTaskData().get());
+			B.m_Sortvalue += T.GetID();
 		}
 		for (auto& T : B.m_ItemReq) {
 			T.CheckID(DataBase::Instance()->GetItemData().get());
+			B.m_Sortvalue += T.GetID();
 		}
 		for (auto& T : B.m_ItemReward) {
 			T.CheckID(DataBase::Instance()->GetItemData().get());
+			B.m_Sortvalue += T.GetID();
 		}
 	}
 	void TraderBartersJsonData::OutputData2(const std::string& Path) noexcept {
@@ -270,6 +279,7 @@ namespace FPS_n2 {
 
 			for (auto& jd : GetJsonDataList()) {
 				auto* jd2 = (TraderBartersJsonData*)jd.get();
+				std::sort(jd2->m_ItemBarters.begin(), jd2->m_ItemBarters.end(), [&](const BartersData& a, const BartersData& b) { return a.m_Sortvalue < b.m_Sortvalue; });
 				for (auto& c : jd2->m_ItemBarters) {
 					if (L.GetName() != c.m_traderName) { continue; }
 					auto LV = "Lv" + std::to_string(c.m_level);

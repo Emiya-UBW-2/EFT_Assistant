@@ -9,46 +9,47 @@ weight=0.270000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
-	BCM GUNFIGHTER MOD 3 vertical foregrip/|
 	ASh-12 vertical foregrip/|
+	BCM GUNFIGHTER MOD 3 vertical foregrip/|
 	Fortis Shift tactical foregrip/|
 	HK Sturmgriff foregrip/|
 	KAC vertical foregrip/|
 	Magpul RVG foregrip (Black)/|
 	Magpul RVG foregrip (FDE)/|
+	RTM Osovets P-2 tactical foregrip (Khaki)/|
+	RTM Osovets P-2 tactical foregrip/|
+	RTM Pillau P-2 tactical foregrip (Red)/|
+	RTM Pillau tactical foregrip (Sand)/|
 	RTM Pillau tactical foregrip/|
+	Stark SE-5 Express Forward foregrip (FDE)/|
 	Stark SE-5 Express Forward foregrip/|
+	Strike Industries Cobra Tactical foregrip (FDE)/|
 	Strike Industries Cobra Tactical foregrip/|
+	Tactical Dynamics Skeletonized Foregrip/|
+	TangoDown BGV-QDITI foregrip (Black)/|
+	TangoDown BGV-QDITI foregrip (FDE)/|
 	TangoDown Stubby BGV-MK46K foregrip (Black)/|
 	TangoDown Stubby BGV-MK46K foregrip (FDE)/|
 	TangoDown Stubby BGV-MK46K foregrip (Stealth Grey)/|
-	Tactical Dynamics Skeletonized Foregrip/|
+	TangoDown Stubby BGV-QDK foregrip (Black)/|
+	TangoDown Stubby BGV-QDK foregrip (FDE)/|
 	Viking Tactics UVG tactical foregrip/|
-	Zenit RK-1 tactical foregrip on B-25U mount/|
 	Zenit RK-0 tactical foregrip/|
+	Zenit RK-1 tactical foregrip on B-25U mount/|
 	Zenit RK-1 tactical foregrip/|
 	Zenit RK-2 tactical foregrip/|
 	Zenit RK-4 tactical foregrip/|
 	Zenit RK-5 tactical foregrip/|
-	Zenit RK-6 tactical foregrip/|
-	RTM Osovets P-2 tactical foregrip/|
-	RTM Osovets P-2 tactical foregrip (Khaki)/|
-	RTM Pillau tactical foregrip (Sand)/|
-	RTM Pillau P-2 tactical foregrip (Red)/|
-	Stark SE-5 Express Forward foregrip (FDE)/|
-	Strike Industries Cobra Tactical foregrip (FDE)/|
-	TangoDown BGV-QDITI foregrip (Black)/|
-	TangoDown BGV-QDITI foregrip (FDE)/|
-	TangoDown Stubby BGV-QDK foregrip (Black)/|
-	TangoDown Stubby BGV-QDK foregrip (FDE)
+	Zenit RK-6 tactical foregrip
 ]
 ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
-	L3Harris AN/PEQ-15 tactical device/|
 	Insight AN/PEQ-2 tactical device/|
+	L3Harris AN/PEQ-15 tactical device/|
 	L3Harris LA-5B/PEQ tactical device/|
+	MAWL-C1+ tactical device/|
 	NcSTAR Tactical blue laser LAM-module/|
 	Steiner DBAL-PL tactical device/|
 	Steiner LAS/TAC 2 tactical flashlight/|
@@ -59,9 +60,8 @@ ChildParts=[
 	Zenit Klesch-2P flashlight with laser/|
 	Zenit Klesch-2U tactical flashlight/|
 	Zenit Perst-3 tactical device/|
-	Kiba Arms 25mm accessory ring mount/|
 	Daniel Defense 25mm accessory ring mount/|
-	MAWL-C1+ tactical device/|
+	Kiba Arms 25mm accessory ring mount/|
 	Zenit KR-2 old gen mount
 ]
 ChildParts_required=FALSE

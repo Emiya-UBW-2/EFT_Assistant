@@ -1,8 +1,8 @@
 Name=AS VAL 9x39 special assault rifle VAL suppressor
 Base=AS VAL 9x39 special assault rifle
-Parts=AS VAL 9x39 integral barrel-suppressor
 Parts=AS VAL rear sight
-Parts=AS VAL dust cover
 Parts=VSS/VAL 9x39 6L25 20-round magazine (Plum)
 Parts=AS VAL pistol grip (Plum)
+Parts=AS VAL dust cover
+Parts=AS VAL 9x39 integral barrel-suppressor
 Parts=AS VAL skeleton stock

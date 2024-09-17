@@ -10,14 +10,14 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	TOZ Simonov SKS 7.62x39 carbinex1/|
-	SKS TOZ wooden stock (56-A-231 Sb.5)x1/|
 	SKS 7.62x39 520mm barrelx1/|
-	SKS upper bandx1/|
 	SKS gas tubex1/|
 	SKS gas tube coverx1/|
 	SKS rear sightx1/|
 	SKS 7.62x39 10-round internal box magazinex1/|
-	SKS dust coverx1
+	SKS upper bandx1/|
+	SKS dust coverx1/|
+	SKS TOZ wooden stock (56-A-231 Sb.5)x1
 ]
 Name_Jpn=SKS 7.62x39 カービン デフォルト
 Information_Jpn=

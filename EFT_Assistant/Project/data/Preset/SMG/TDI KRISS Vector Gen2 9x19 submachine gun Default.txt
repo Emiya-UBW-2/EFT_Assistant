@@ -1,10 +1,10 @@
 Name=TDI KRISS Vector Gen.2 9x19 submachine gun Default
 Base=TDI KRISS Vector Gen.2 9x19 submachine gun
-Parts=Glock 9x19 17-round magazine
-Parts=KRISS Defiance low profile flip-up front sight
-Parts=KRISS Defiance low profile flip-up rear sight
-Parts=KRISS Vector Gen.2 folding stock
 Parts=KRISS Vector 9x19 5 inch barrel
 Parts=KRISS Vector 9x19 thread protection cap
+Parts=KRISS Defiance low profile flip-up front sight
+Parts=KRISS Defiance low profile flip-up rear sight
+Parts=Glock 9x19 17-round magazine
 Parts=KRISS Vector bottom rail
 Parts=KRISS Vector side rail
+Parts=KRISS Vector Gen.2 folding stock

@@ -9,9 +9,9 @@ weight=0.340000
 fleaMarketFee=0
 propertiestype=ItemPropertiesMagazine
 Conflict=[
+	GK-02 12ga muzzle brake/|
 	SilencerCo Salvo 12 choke adapter/|
-	Hexagon 12K 12ga sound suppressor/|
-	GK-02 12ga muzzle brake
+	Hexagon 12K 12ga sound suppressor
 ]
 Recoil=0.000000
 Ergonomics=-4.000000

@@ -10,11 +10,11 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	MTs-255-12 12ga shotgunx1/|
-	MTs-255-12 12ga cylinderx1/|
 	MTs-255-12 12ga 755mm barrel with ribx1/|
 	MTs-255-12 12ga chokex1/|
-	MTs-255-12 wooden stockx1/|
-	MTs-255-12 beechwood forestockx1
+	MTs-255-12 12ga cylinderx1/|
+	MTs-255-12 beechwood forestockx1/|
+	MTs-255-12 wooden stockx1
 ]
 Name_Jpn=MTs-255-12 12ゲージ ショットガン デフォルト
 Information_Jpn=

@@ -9,8 +9,8 @@ weight=0.290000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 Conflict=[
-	AK Hexagon tubular handguard/|
 	AK Hexagon tubular handguard (Anodized Red)/|
+	AK Hexagon tubular handguard/|
 	AKS-74U Alfa Arms Goliaf handguard
 ]
 Recoil=-5.000000

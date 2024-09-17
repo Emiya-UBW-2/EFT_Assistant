@@ -9,8 +9,8 @@ weight=0.310000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
-	FN P90 Ring Sight reflex sight/|
-	FN P90 upper receiver top rail
+	FN P90 upper receiver top rail/|
+	FN P90 Ring Sight reflex sight
 ]
 ChildParts_required=FALSE
 ChildParts=[

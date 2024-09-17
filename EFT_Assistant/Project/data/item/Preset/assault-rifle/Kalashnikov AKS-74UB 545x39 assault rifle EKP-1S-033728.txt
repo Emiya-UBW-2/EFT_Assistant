@@ -10,15 +10,15 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	Kalashnikov AKS-74UB 5.45x39 assault riflex1/|
-	AK polymer pistol grip (6P1 Sb.8)x1/|
+	RTM Pillau tactical foregripx1/|
 	AKS-74U gas tube (6P26 Sb.1-2)x1/|
 	AKS-74U Zenit B-11 handguardx1/|
-	RTM Pillau tactical foregripx1/|
-	AKS-74U metal skeleton stock (6P26 Sb.5)x1/|
 	AK-74 Delta-Tek Saiga 545 5.45x39 20-round magazinex1/|
-	AKS-74U PBS-4 5.45x39 sound suppressorx1/|
+	AK polymer pistol grip (6P1 Sb.8)x1/|
 	AKS-74UB dust coverx1/|
-	Axion Kobra EKP-1S-03 reflex sight (Dovetail)x1
+	Axion Kobra EKP-1S-03 reflex sight (Dovetail)x1/|
+	AKS-74U PBS-4 5.45x39 sound suppressorx1/|
+	AKS-74U metal skeleton stock (6P26 Sb.5)x1
 ]
 Name_Jpn=Kalashnikov AKS-74UB 5.45x39 アサルトライフル EKP-1S-03
 Information_Jpn=

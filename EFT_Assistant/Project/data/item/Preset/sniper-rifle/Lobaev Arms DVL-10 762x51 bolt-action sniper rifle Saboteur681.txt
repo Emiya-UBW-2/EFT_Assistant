@@ -10,10 +10,10 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	Lobaev Arms DVL-10 7.62x51 bolt-action sniper riflex1/|
-	DVL-10 7.62x51 10-round magazinex1/|
 	DVL-10 7.62x51 500mm barrelx1/|
-	DVL-10 7.62x51 muzzle devicex1/|
 	Harris HBR Bipodx1/|
+	DVL-10 7.62x51 muzzle devicex1/|
+	DVL-10 7.62x51 10-round magazinex1/|
 	Hogue OverMolded Rubber Grip (Olive Drab)x1/|
 	DVL-10 Lobaev Arms stockx1
 ]

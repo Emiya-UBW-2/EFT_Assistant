@@ -9,8 +9,8 @@ weight=1.100000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 ChildParts=[
-	M870 12ga 508mm barrel with a fixed sight/|
 	M870 12ga 355mm barrel/|
+	M870 12ga 508mm barrel with a fixed sight/|
 	M870 12ga 508mm barrel/|
 	M870 12ga 660mm vent rib barrel/|
 	M870 12ga sawed-off 325mm barrel
@@ -23,17 +23,17 @@ ChildParts=[
 ]
 ChildParts_required=TRUE
 ChildParts=[
-	M870 12ga 4-shell magazine cap/|
 	M870 12ga 10-shell magazine/|
+	M870 12ga 4-shell magazine cap/|
 	M870 12ga 7-shell magazine
 ]
 ChildParts_required=TRUE
 ChildParts=[
+	M870 FAB Defense AGR-870 pistol grip/|
 	M870 Magpul SGA polymer stock/|
 	M870 Mesa Tactical LEO stock adapter/|
-	M870 SPS polymer stock/|
 	M870 Shockwave Raptor grip/|
-	M870 FAB Defense AGR-870 pistol grip
+	M870 SPS polymer stock
 ]
 ChildParts_required=TRUE
 ChildParts=[

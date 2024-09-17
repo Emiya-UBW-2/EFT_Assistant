@@ -9,33 +9,33 @@ weight=0.080000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
+	Magpul M-LOK 0.93 inch rail/|
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount/|
-	Magpul M-LOK Offset Light Mount/|
-	Magpul M-LOK 0.93 inch rail
+	Magpul M-LOK Offset Light Mount
 ]
 ChildParts_required=FALSE
 ChildParts=[
+	Magpul M-LOK 0.93 inch rail/|
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount/|
-	Magpul M-LOK Offset Light Mount/|
-	Magpul M-LOK 0.93 inch rail
+	Magpul M-LOK Offset Light Mount
 ]
 ChildParts_required=FALSE
 ChildParts=[
+	Magpul M-LOK 0.93 inch rail/|
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount/|
-	Magpul M-LOK Offset Light Mount/|
-	Magpul M-LOK 0.93 inch rail
+	Magpul M-LOK Offset Light Mount
 ]
 ChildParts_required=FALSE
 ChildParts=[
 	HK MP7 flip-up front sight/|
-	KAC Folding Micro front sight/|
 	KAC Folding front sight/|
+	KAC Folding Micro front sight/|
 	KRISS Defiance low profile flip-up front sight/|
-	Magpul MBUS Gen2 flip-up front sight/|
 	Magpul MBUS Gen2 flip-up front sight (FDE)/|
+	Magpul MBUS Gen2 flip-up front sight/|
 	MCX flip-up front sight/|
 	MPX flip-up front sight
 ]

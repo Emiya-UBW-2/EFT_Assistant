@@ -9,9 +9,9 @@ weight=1.880000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 ChildParts=[
+	MP-43 12ga 750mm barrel/|
 	MP-43-1C 12ga 510mm barrel/|
-	MP-43-1C 12ga 725mm barrel/|
-	MP-43 12ga 750mm barrel
+	MP-43-1C 12ga 725mm barrel
 ]
 ChildParts_required=TRUE
 ChildParts=[

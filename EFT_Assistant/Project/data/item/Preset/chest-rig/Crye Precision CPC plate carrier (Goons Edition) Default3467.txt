@@ -9,9 +9,9 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
-	Crye Precision CPC plate carrier (Goons Edition)x1/|
-	TallCom Guardian ballistic platex1/|
-	SSAPI level III+ ballistic plate (Side)x1
+	SSAPI level III+ ballistic plate (Side)x2/|
+	TallCom Guardian ballistic platex2/|
+	Crye Precision CPC plate carrier (Goons Edition)x1
 ]
 Name_Jpn=Crye Precision CPC plate carrier (Goons Edition) デフォルト
 Information_Jpn=

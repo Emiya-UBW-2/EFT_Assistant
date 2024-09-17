@@ -9,18 +9,18 @@ weight=1.150000
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmorAttachment
 Conflict=[
-	PNV-10T night vision goggles/|
-	Armasight N-15 night vision goggles/|
-	L3Harris GPNVG-18 night vision goggles/|
-	AN/PVS-14 night vision monocular/|
-	T-7 Thermal Goggles with a Night Vision mount/|
-	Ops-Core Picatinny Rail Adapter mount/|
-	Ops-Core Single Clamp Rail Adapter mount/|
+	Faceless mask/|
 	GP-5 gas mask/|
 	GP-7 gas mask/|
 	Pestily plague mask/|
 	Respirator/|
-	Faceless mask
+	AN/PVS-14 night vision monocular/|
+	Armasight N-15 night vision goggles/|
+	L3Harris GPNVG-18 night vision goggles/|
+	PNV-10T night vision goggles/|
+	T-7 Thermal Goggles with a Night Vision mount/|
+	Ops-Core Picatinny Rail Adapter mount/|
+	Ops-Core Single Clamp Rail Adapter mount
 ]
 Name_Jpn=NPP KlASS Tor-2 helmet face shield
 Information_Jpn=A special visor for the NPP KlASS Tor-2 helmet, made of heavy-duty glass.

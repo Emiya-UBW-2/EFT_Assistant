@@ -10,13 +10,13 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	Glock 17 9x19 pistolx1/|
+	Glock ZEV Tech sight mount capx1/|
 	Glock 9x19 SAI threaded barrelx1/|
 	Glock SAI 9x19 thread protectorx1/|
-	Glock ZEV Tech HEX Spartan RMR pistol slidex1/|
-	Glock TruGlo TFX rear sightx1/|
 	Glock TruGlo TFX front sightx1/|
-	Glock ZEV Tech sight mount capx1/|
-	Glock 9x19 17-round magazinex1
+	Glock TruGlo TFX rear sightx1/|
+	Glock 9x19 17-round magazinex1/|
+	Glock ZEV Tech HEX Spartan RMR pistol slidex1
 ]
 Name_Jpn=Glock 17 9x19 ピストル Spartan
 Information_Jpn=

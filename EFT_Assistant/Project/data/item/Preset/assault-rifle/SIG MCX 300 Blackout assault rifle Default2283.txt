@@ -10,18 +10,18 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	SIG MCX .300 Blackout assault riflex1/|
-	MCX pistol gripx1/|
-	5.56x45 Colt AR-15 STANAG 30-round magazinex1/|
-	MCX GEN1 .300 BLK upper receiverx1/|
 	MCX .300 BLK 229mm barrelx1/|
+	MCX charging handlex1/|
 	SIG Sauer Taper-LOK 7.62x51/.300 BLK muzzle adapterx1/|
 	SIG Sauer Two Port Brake 7.62x51 muzzle brakex1/|
 	MCX gas blockx1/|
 	MCX GEN1 KeyMod 8 inch handguardx1/|
 	MCX flip-up front sightx1/|
 	MCX flip-up rear sightx1/|
-	MPX/MCX Thin Side-Folding Stockx1/|
-	MCX charging handlex1
+	5.56x45 Colt AR-15 STANAG 30-round magazinex1/|
+	MCX pistol gripx1/|
+	MCX GEN1 .300 BLK upper receiverx1/|
+	MPX/MCX Thin Side-Folding Stockx1
 ]
 Name_Jpn=MCX .300 Blackout アサルトライフル デフォルト
 Information_Jpn=

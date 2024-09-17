@@ -9,42 +9,42 @@ weight=0.350000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
-	Armacon Baskak stock/|
-	CMMG buffer tube/|
-	AR-15 Colt A2 buffer tube/|
 	AR-15 ADAR 2-15 buffer tube/|
+	AR-15 Colt A2 buffer tube/|
 	AR-15 Colt Carbine buffer tube/|
 	AR-15 DoubleStar ACE SOCOM Gen.4 stock/|
 	AR-15 ERGO F93 PRO stock/|
-	HK Enhanced Tube buffer tube/|
 	AR-15 Magpul UBR GEN2 stock (Black)/|
 	AR-15 Magpul UBR GEN2 stock (FDE)/|
-	Mesa Tactical Crosshair Hydraulic buffer tube/|
+	AR-15 RTM ATP buffer tube/|
 	AR-15 Soyuz-TM buffer tube/|
-	AR-15 Strike Industries Advanced Receiver Extension buffer tube/|
 	AR-15 Strike Industries Advanced Receiver Extension buffer tube (Anodized Red)/|
+	AR-15 Strike Industries Advanced Receiver Extension buffer tube/|
+	AR-15 Strike Industries Viper PDW stock/|
 	AR-15 TROY M7A1 PDW stock (Black)/|
 	AR-15 TROY M7A1 PDW stock (FDE)/|
-	AR-15 Strike Industries Viper PDW stock/|
-	AR-15 RTM ATP buffer tube
+	Armacon Baskak stock/|
+	CMMG buffer tube/|
+	HK Enhanced Tube buffer tube/|
+	Mesa Tactical Crosshair Hydraulic buffer tube
 ]
 ChildParts_required=FALSE
 ChildParts=[
+	AR-15 Aeroknox Orion pistol grip/|
 	AR-15 Colt A2 pistol grip/|
 	AR-15 Damage Industries ECS pistol grip (FDE)/|
 	AR-15 F1 Firearms Skeletonized Style 1 pistol grip/|
 	AR-15 F1 Firearms Skeletonized Style 2 PC pistol grip/|
 	AR-15 F1 Firearms Skeletonized Style 2 pistol grip/|
 	AR-15 HK Battle Grip pistol grip/|
+	AR-15 Magpul MIAD pistol grip (FDE)/|
+	AR-15 Tactical Dynamics Hexgrip pistol grip/|
+	AR-15 Tactical Dynamics Skeletonized pistol grip/|
 	Hogue OverMolded Rubber Grip (Black)/|
 	Hogue OverMolded Rubber Grip (FDE)/|
 	Hogue OverMolded Rubber Grip (Ghillie Earth)/|
 	Hogue OverMolded Rubber Grip (Ghillie Green)/|
-	Hogue OverMolded Rubber Grip (Olive Drab)/|
-	AR-15 Magpul MIAD pistol grip (FDE)/|
-	AR-15 Tactical Dynamics Hexgrip pistol grip/|
-	AR-15 Tactical Dynamics Skeletonized pistol grip/|
-	AR-15 Aeroknox Orion pistol grip
+	Hogue OverMolded Rubber Grip (Olive Drab)
 ]
 ChildParts_required=TRUE
 Recoil=0.000000

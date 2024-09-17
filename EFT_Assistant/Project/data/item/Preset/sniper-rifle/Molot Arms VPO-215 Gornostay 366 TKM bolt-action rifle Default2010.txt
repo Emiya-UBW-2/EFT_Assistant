@@ -10,11 +10,11 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	Molot Arms VPO-215 Gornostay .366 TKM bolt-action riflex1/|
-	VPO-215 Gornostay .366 TKM 4-round magazinex1/|
-	VPO-215 Gornostay wooden stockx1/|
 	VPO-215 Gornostay .366TKM 600mm barrelx1/|
 	VPO-215 Gornostay thread protectorx1/|
-	VPO-215 Gornostay scope rail mountx1
+	VPO-215 Gornostay .366 TKM 4-round magazinex1/|
+	VPO-215 Gornostay scope rail mountx1/|
+	VPO-215 Gornostay wooden stockx1
 ]
 Name_Jpn=Molot Arms VPO-215 "Gornostay" .366 TKM ボルトアクション ライフル デフォルト
 Information_Jpn=

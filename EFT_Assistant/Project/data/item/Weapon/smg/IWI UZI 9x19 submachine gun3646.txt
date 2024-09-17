@@ -26,11 +26,11 @@ ChildParts=[
 ]
 ChildParts_required=TRUE
 ChildParts=[
+	UZI StormWerkz stock adapter/|
 	UZI Type 3 buttstock/|
 	UZI Type 5 buttstock/|
 	UZI Type 6 buttstock/|
-	UZI Type 7 buttstock/|
-	UZI StormWerkz stock adapter
+	UZI Type 7 buttstock
 ]
 ChildParts_required=FALSE
 ChildParts=[
@@ -42,9 +42,9 @@ ChildParts=[
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	UZI polymer handguard/|
 	UZI handguard with foregrip/|
-	UZI K-Grip handguard
+	UZI K-Grip handguard/|
+	UZI polymer handguard
 ]
 ChildParts_required=TRUE
 ChildParts=[

@@ -15,9 +15,9 @@ ChildParts=[
 ]
 ChildParts_required=TRUE
 ChildParts=[
-	M1911A1 side grips/|
+	M1911 Kiba Arms Geneburn custom side grips/|
 	M1911 Pachmayr American Legend Grip #423/|
-	M1911 Kiba Arms Geneburn custom side grips
+	M1911A1 side grips
 ]
 ChildParts_required=TRUE
 ChildParts=[
@@ -27,8 +27,8 @@ ChildParts=[
 ChildParts_required=TRUE
 ChildParts=[
 	M1911A1 .45 ACP 7-round magazine/|
-	M1911A1 .45 ACP Wilson Combat 7-round magazine/|
-	M1911A1 .45 ACP Mec-Gar 11-round magazine
+	M1911A1 .45 ACP Mec-Gar 11-round magazine/|
+	M1911A1 .45 ACP Wilson Combat 7-round magazine
 ]
 ChildParts_required=FALSE
 ChildParts=[
@@ -39,16 +39,16 @@ ChildParts=[
 ChildParts_required=TRUE
 ChildParts=[
 	M1911A1 hammer/|
-	M45A1 hammer/|
 	M1911A1 STI HEX hammer/|
 	M1911A1 Wilson Retro Commander hammer/|
-	M1911A1 Wilson Ultralight skeletonized hammer
+	M1911A1 Wilson Ultralight skeletonized hammer/|
+	M45A1 hammer
 ]
 ChildParts_required=TRUE
 ChildParts=[
 	M1911A1 slide stop/|
-	M45A1 slide lock/|
-	M1911A1 Wilson Extended slide stop
+	M1911A1 Wilson Extended slide stop/|
+	M45A1 slide lock
 ]
 ChildParts_required=TRUE
 ChildParts=[

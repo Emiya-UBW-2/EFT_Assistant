@@ -1,7 +1,7 @@
 Name=Desert Tech MDR 7.62x51 assault rifle Default
 Base=Desert Tech MDR 7.62x51 assault rifle
-Parts=MDR pistol grip (Black)
-Parts=AR-10 7.62x51 Magpul PMAG 20 SR-LR GEN M3 20-round magazine
-Parts=MDR handguard (Black)
 Parts=MDR 7.62x51 16 inch barrel
 Parts=Desert Tech 7.62x51 flash hider
+Parts=MDR handguard (Black)
+Parts=AR-10 7.62x51 Magpul PMAG 20 SR-LR GEN M3 20-round magazine
+Parts=MDR pistol grip (Black)

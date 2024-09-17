@@ -9,23 +9,23 @@ weight=1.100000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 ChildParts=[
-	MP-133 12ga 510mm barrel/|
 	MP-133 12ga 510mm barrel with rib/|
-	MP-133 12ga 540mm barrel/|
+	MP-133 12ga 510mm barrel/|
 	MP-133 12ga 540mm barrel with rib/|
-	MP-133 12ga 610mm barrel/|
+	MP-133 12ga 540mm barrel/|
 	MP-133 12ga 610mm barrel with rib/|
-	MP-133 12ga 660mm barrel/|
+	MP-133 12ga 610mm barrel/|
 	MP-133 12ga 660mm barrel with rib/|
-	MP-133 12ga 710mm barrel/|
+	MP-133 12ga 660mm barrel/|
 	MP-133 12ga 710mm barrel with rib/|
-	MP-133 12ga 750mm barrel/|
-	MP-133 12ga 750mm barrel with rib
+	MP-133 12ga 710mm barrel/|
+	MP-133 12ga 750mm barrel with rib/|
+	MP-133 12ga 750mm barrel
 ]
 ChildParts_required=TRUE
 ChildParts=[
-	MP-133 custom plastic forestock with rails/|
-	MP-133 beechwood forestock
+	MP-133 beechwood forestock/|
+	MP-133 custom plastic forestock with rails
 ]
 ChildParts_required=TRUE
 ChildParts=[

@@ -10,17 +10,17 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	DS Arms SA-58 7.62x51 assault riflex1/|
-	SA-58 SAW-style pistol grip (Black)x1/|
-	SA-58/FAL/SLR 7.62x51 30-round magazinex1/|
-	SA-58 quad rail handguardx1/|
-	TangoDown Stubby BGV-MK46K foregrip (Black)x1/|
 	SA-58 7.62x51 11 inch barrelx1/|
 	AR-10 KAC QDC 7.62x51 Flash Suppressor Kitx1/|
+	TangoDown Stubby BGV-MK46K foregrip (Black)x1/|
+	SA-58 quad rail handguardx1/|
+	SA-58/FAL/SLR 7.62x51 30-round magazinex1/|
+	SA-58 SAW-style pistol grip (Black)x1/|
 	SA-58 Extreme Duty dust coverx1/|
 	Holosun HS401G5 reflex sightx1/|
-	SA-58 buffer tube adapterx1/|
 	AR-15 DoubleStar ACE SOCOM Gen.4 stockx1/|
-	DoubleStar ACE recoil padx1
+	DoubleStar ACE recoil padx1/|
+	SA-58 buffer tube adapterx1
 ]
 Name_Jpn=SA-58 7.62x51 アサルトライフル OSW
 Information_Jpn=

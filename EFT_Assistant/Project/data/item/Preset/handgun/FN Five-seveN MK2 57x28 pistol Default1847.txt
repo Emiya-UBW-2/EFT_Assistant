@@ -11,10 +11,10 @@ IsDefault=TRUE
 containsItems=[
 	FN Five-seveN MK2 5.7x28 pistolx1/|
 	FN Five-seveN 5.7x28 barrelx1/|
-	FN Five-seveN MK2 pistol slidex1/|
-	FN Five-seveN MK2 rear sightx1/|
 	FN Five-seveN MK2 front sightx1/|
-	FN Five-seveN 5.7x28 20-round magazinex1
+	FN Five-seveN MK2 rear sightx1/|
+	FN Five-seveN 5.7x28 20-round magazinex1/|
+	FN Five-seveN MK2 pistol slidex1
 ]
 Name_Jpn=FN Five-seveN MK2 5.7x28 ピストル デフォルト
 Information_Jpn=

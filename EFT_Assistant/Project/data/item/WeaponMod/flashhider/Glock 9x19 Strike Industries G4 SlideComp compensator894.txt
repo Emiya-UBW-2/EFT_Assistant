@@ -9,19 +9,19 @@ weight=0.105000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 Conflict=[
+	Glock 9x19 Double Diamond thread protector/|
+	Glock 9x19 Lone Wolf AlphaWolf thread protector/|
+	Glock SAI 9x19 thread protector/|
 	Glock 9x19 CARVER Custom 4 Port compensator/|
 	Glock 9x19 CARVER Custom Decelerator 3 Port compensator/|
 	Glock 9x19 Double Diamond flash hider/|
 	Glock 9x19 Lone Wolf AlphaWolf Bullnose compensator/|
 	Glock 9x19 Lone Wolf LWD-COMP9 compensator/|
-	Glock 9x19 Lone Wolf AlphaWolf thread protector/|
-	Glock 9x19 Double Diamond thread protector/|
-	Glock SAI 9x19 thread protector/|
 	AAC Illusion 9 9x19 sound suppressor/|
 	Alpha Dog Alpha 9 9x19 sound suppressor/|
+	Glock 9x19 Fischer Development FD917 sound suppressor/|
 	SIG Sauer SRD9 9x19 sound suppressor/|
-	SilencerCo Osprey 9 9x19 sound suppressor/|
-	Glock 9x19 Fischer Development FD917 sound suppressor
+	SilencerCo Osprey 9 9x19 sound suppressor
 ]
 Recoil=-10.000000
 Ergonomics=-1.000000

@@ -9,12 +9,12 @@ weight=0.600000
 fleaMarketFee=0
 propertiestype=
 Conflict=[
-	SSh-68 steel helmet (Olive Drab)/|
-	Ushanka ear flap hat/|
-	Stich Profi Chimera boonie hat/|
+	Door Kicker boonie hat/|
 	Jack Pyke Hunting LLCS boonie hat/|
 	MIL-TEC boonie hat/|
-	Door Kicker boonie hat
+	SSh-68 steel helmet (Olive Drab)/|
+	Stich Profi Chimera boonie hat/|
+	Ushanka ear flap hat
 ]
 Name_Jpn=Peltor ComTac 4 Hybrid headset (Coyote Brown)
 Information_Jpn=The ComTac IV Hybrid Communication Headset is designed to help reduce exposure to hazardous levels of noise, improve situational awareness and at the same time enable two-way radio communication in noisy environments. The headset's electronics are contained completely inside the headset housing, eliminating the need for a large, heavy external radio control box. The headband mechanically stabilizes the headset to help relieve issues of earplugs dislodging from cable snags and body movement. Designed for comfortable use with a ballistic helmet.

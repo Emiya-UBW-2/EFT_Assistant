@@ -21,26 +21,26 @@ ChildParts=[
 ]
 ChildParts_required=TRUE
 ChildParts=[
-	Glock 9x19 "Big Stick" 33-round magazine/|
 	Glock 9x19 17-round magazine/|
-	Glock 9x19 Magpul PMAG GL9 21-round magazine/|
-	Glock 9x19 SGM Tactical 50-round drum magazine/|
+	Glock 9x19 19-round magazine (Coyote)/|
 	Glock 9x19 "Big Stick" 24-round magazine (Coyote)/|
 	Glock 9x19 "Big Stick" 31-round magazine (Coyote)/|
-	Glock 9x19 19-round magazine (Coyote)
+	Glock 9x19 "Big Stick" 33-round magazine/|
+	Glock 9x19 Magpul PMAG GL9 21-round magazine/|
+	Glock 9x19 SGM Tactical 50-round drum magazine
 ]
 ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
+	Olight Baldr Pro tactical flashlight with laser/|
 	Steiner DBAL-PL tactical device/|
 	Steiner LAS/TAC 2 tactical flashlight/|
 	SureFire X400 Ultra tactical flashlight with laser/|
 	SureFire XC1 tactical flashlight/|
 	Zenit Klesch-2IKS IR illuminator with laser/|
 	Zenit Klesch-2P flashlight with laser/|
-	UM Tactical UM3 pistol sight mount/|
-	Olight Baldr Pro tactical flashlight with laser/|
-	Olight Baldr Pro tactical flashlight with laser (Tan)
+	UM Tactical UM3 pistol sight mount
 ]
 ChildParts_required=FALSE
 ChildParts=[

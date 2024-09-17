@@ -9,8 +9,8 @@ weight=0.070000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
-	PNV-10T dovetail adapter/|
 	AN/PVS-14 Norotos Dual Dovetail Mount/|
+	PNV-10T dovetail adapter/|
 	PVS-7 Wilcox Adapter
 ]
 ChildParts_required=FALSE

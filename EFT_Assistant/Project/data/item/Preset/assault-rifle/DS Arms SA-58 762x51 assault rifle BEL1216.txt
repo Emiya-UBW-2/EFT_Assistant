@@ -10,12 +10,12 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	DS Arms SA-58 7.62x51 assault riflex1/|
-	SA-58 pistol gripx1/|
-	SA-58/FAL 7.62x51 30-round magazinex1/|
-	SA-58/FAL Belgian Style handguardx1/|
 	SA-58 7.62x51 21 inch barrelx1/|
 	SA-58 Austrian Style 7.62x51 muzzle brakex1/|
+	SA-58/FAL Belgian Style handguardx1/|
 	SA-58 Holland Type rear sightx1/|
+	SA-58/FAL 7.62x51 30-round magazinex1/|
+	SA-58 pistol gripx1/|
 	FAL standard dust coverx1/|
 	SA-58 folding stockx1
 ]

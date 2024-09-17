@@ -15,10 +15,10 @@ ChildParts=[
 ]
 ChildParts_required=FALSE
 Conflict=[
+	7.62x51mm BCP FMJ/|
 	7.62x51mm M61/|
 	7.62x51mm M62 Tracer/|
 	7.62x51mm M80/|
-	7.62x51mm BCP FMJ/|
 	7.62x51mm M993/|
 	7.62x51mm TCW SP/|
 	7.62x51mm Ultra Nosler

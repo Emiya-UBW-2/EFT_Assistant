@@ -19,11 +19,11 @@ ChildParts=[
 ChildParts_required=FALSE
 Conflict=[
 	Mosin Rifle ATI Monte Carlo stock/|
-	Mosin Rifle sniper carbine stock/|
 	Mosin Rifle carbine stock/|
 	Mosin Rifle Infantry stock/|
-	Mosin Rifle standard stock/|
-	Mosin Rifle ProMag Archangel OPFOR PRS chassis
+	Mosin Rifle ProMag Archangel OPFOR PRS chassis/|
+	Mosin Rifle sniper carbine stock/|
+	Mosin Rifle standard stock
 ]
 Recoil=-1.000000
 Ergonomics=-1.000000

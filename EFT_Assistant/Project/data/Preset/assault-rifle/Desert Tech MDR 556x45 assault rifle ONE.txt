@@ -1,10 +1,10 @@
 Name=Desert Tech MDR 5.56x45 assault rifle ONE
 Base=Desert Tech MDR 5.56x45 assault rifle
-Parts=MDR pistol grip (Black)
-Parts=MDR handguard (FDE)
 Parts=MDR 5.56x45 16 inch barrel
 Parts=Gemtech ONE Direct Thread Mount adapter
-Parts=Gemtech ONE multi-caliber sound suppressor
+Parts=MDR handguard (FDE)
 Parts=5.56x45 Magpul PMAG 20 GEN M3 STANAG 20-round magazine
 Parts=Aimpoint QRP2 mount for CompM4/PRO sights
+Parts=MDR pistol grip (Black)
 Parts=Aimpoint CompM4 reflex sight
+Parts=Gemtech ONE multi-caliber sound suppressor

@@ -14,10 +14,10 @@ ChildParts=[
 ChildParts_required=FALSE
 ChildParts=[
 	AK bakelite pistol grip (6P1 Sb.8V)/|
-	AKM bakelite pistol grip/|
+	AK bakelite pistol grip (6P4 Sb.9)/|
 	AK bakelite pistol grip/|
 	AK polymer pistol grip (6P1 Sb.8)/|
-	AK bakelite pistol grip (6P4 Sb.9)
+	AKM bakelite pistol grip
 ]
 ChildParts_required=FALSE
 Recoil=-21.000000

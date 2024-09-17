@@ -9,12 +9,12 @@ weight=0.050000
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
 ChildParts=[
+	AK RD Enhanced V2 Rear Sight/|
 	AK-105 rear sight (6P44 Sb.1-30)/|
+	AK-12 rear sight/|
 	AK-74 rear sight (6P20 Sb.2)/|
 	AK-74M rear sight (6P20 Sb.2)/|
-	RPK-16 rear sight/|
-	AK-12 rear sight/|
-	AK RD Enhanced V2 Rear Sight
+	RPK-16 rear sight
 ]
 ChildParts_required=FALSE
 Conflict=[

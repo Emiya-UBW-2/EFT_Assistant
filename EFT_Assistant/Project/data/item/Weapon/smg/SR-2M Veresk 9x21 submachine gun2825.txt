@@ -9,13 +9,13 @@ weight=0.938000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 ChildParts=[
-	SR-2M 9x21 30-round magazine/|
-	SR-2M 9x21 20-round magazine
+	SR-2M 9x21 20-round magazine/|
+	SR-2M 9x21 30-round magazine
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	SR-2M 9x21 sound suppressor (SV-1381)/|
-	SR-2M 9x21 hand stopper
+	SR-2M 9x21 hand stopper/|
+	SR-2M 9x21 sound suppressor (SV-1381)
 ]
 ChildParts_required=TRUE
 ChildParts=[
@@ -28,13 +28,13 @@ ChildParts=[
 ]
 ChildParts_required=TRUE
 ChildParts=[
-	SR-2M polymer handguard (Plum)/|
-	SR-2M polymer handguard (Black)
+	SR-2M polymer handguard (Black)/|
+	SR-2M polymer handguard (Plum)
 ]
 ChildParts_required=TRUE
 ChildParts=[
-	SR-2M pistol grip (Plum)/|
-	SR-2M pistol grip (Black)
+	SR-2M pistol grip (Black)/|
+	SR-2M pistol grip (Plum)
 ]
 ChildParts_required=TRUE
 Recoil=54.000000

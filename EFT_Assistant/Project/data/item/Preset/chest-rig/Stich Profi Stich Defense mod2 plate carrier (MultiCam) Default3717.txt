@@ -9,8 +9,8 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
-	Stich Profi Stich Defense mod.2 plate carrier (MultiCam)x1/|
-	KITECO SC-IV SA ballistic platex1
+	KITECO SC-IV SA ballistic platex1/|
+	Stich Profi Stich Defense mod.2 plate carrier (MultiCam)x1
 ]
 Name_Jpn=Stich Profi Stich Defense mod.2 plate carrier (MultiCam) デフォルト
 Information_Jpn=

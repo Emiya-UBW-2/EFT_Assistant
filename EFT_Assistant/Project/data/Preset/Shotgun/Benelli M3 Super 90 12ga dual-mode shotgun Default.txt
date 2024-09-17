@@ -1,10 +1,10 @@
 Name=Benelli M3 Super 90 12ga dual-mode shotgun Default
 Base=Benelli M3 Super 90 12ga dual-mode shotgun
 Parts=Benelli M3 Super 90 12ga 500mm barrel
-Parts=Benelli M3 forend
-Parts=Benelli M3 Super 90 12ga 5-shell magazine cap
-Parts=Benelli M3 telescopic stock
-Parts=Benelli M3 telescopic stock pistol grip
-Parts=Benelli M3 Super 90 upper receiver top rail
-Parts=Benelli M3 Ghost Ring rear sight
 Parts=Benelli M3 Super 90 charging handle
+Parts=Benelli M3 forend
+Parts=Benelli M3 Ghost Ring rear sight
+Parts=Benelli M3 Super 90 12ga 5-shell magazine cap
+Parts=Benelli M3 Super 90 upper receiver top rail
+Parts=Benelli M3 telescopic stock pistol grip
+Parts=Benelli M3 telescopic stock

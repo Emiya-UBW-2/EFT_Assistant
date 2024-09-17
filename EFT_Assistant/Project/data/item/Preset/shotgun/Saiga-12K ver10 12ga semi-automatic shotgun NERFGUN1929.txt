@@ -9,23 +9,23 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
+	12/70 makeshift .50 BMG slugx10/|
+	12/70 Poleva-3 slugx10/|
 	Saiga-12K ver.10 12ga semi-automatic shotgunx1/|
-	Zenit B-13V "Klassika" dovetail rail platformx1/|
-	FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescopex1/|
-	SOK-12 Leapers UTG PRO MTU002 Short Top aluminum handguardx1/|
-	Zenit RK-1 tactical foregrip on B-25U mountx1/|
-	Zenit Perst-3 tactical devicex1/|
 	Zenit Klesch-2U tactical flashlightx2/|
-	Hexagon 12K 12ga sound suppressorx1/|
+	Zenit Perst-3 tactical devicex1/|
+	Zenit RK-1 tactical foregrip on B-25U mountx1/|
+	SOK-12 Leapers UTG PRO MTU002 Short Top aluminum handguardx1/|
+	SOK-12 rear sightx1/|
+	SOK-12 12/76 MaxRounds Powermag 20-round magazinex1/|
+	Zenit B-13V "Klassika" dovetail rail platformx1/|
 	AK TAPCO SAW-Style pistol grip (Black)x1/|
 	SOK-12 dust cover (Sb.0-2)x1/|
-	SOK-12 rear sightx1/|
+	Hexagon 12K 12ga sound suppressorx1/|
+	FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescopex1/|
 	AK-74M CAA AKTS AK74 buffer tubex1/|
 	AR-15 Magpul MOE Carbine stock (Foliage Green)x1/|
-	Magpul MOE Carbine rubber buttpadx1/|
-	SOK-12 12/76 MaxRounds Powermag 20-round magazinex1/|
-	12/70 Poleva-3 slugx10/|
-	12/70 makeshift .50 BMG slugx10
+	Magpul MOE Carbine rubber buttpadx1
 ]
 Name_Jpn=Saiga 12ga ver.10 12/76 セミオートショットガン NERFGUN
 Information_Jpn=

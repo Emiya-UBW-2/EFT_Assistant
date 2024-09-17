@@ -9,12 +9,16 @@ weight=2.530000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
-	AWC PSR 7.62x51 muzzle brake/|
+	Gemtech ONE Direct Thread Mount adapter/|
+	Lantac BMD Blast Mitigation Device A3 direct thread adapter/|
+	SIG Sauer Taper-LOK 7.62x51/.300 BLK muzzle adapter/|
+	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
 	AR-10 2A Armanent X3 7.62x51 compensator/|
 	AR-10 AAC Blackout 51T 7.62x51 flash hider/|
 	AR-10 CMMG SV Brake 7.62x51 muzzle brake/|
 	AR-10 Daniel Defense WAVE 7.62x51 muzzle brake/|
-	Desert Tech 7.62x51 flash hider/|
+	AR-10 Dead Air Keymount 7.62x51 muzzle brake/|
+	AR-10 Delta-Tek DTK-AR10 7.62x51 muzzle brake/|
 	AR-10 Fortis RED Brake 7.62x51 muzzle brake/|
 	AR-10 KAC QDC 7.62x51 Flash Suppressor Kit/|
 	AR-10 KAC QDC 7.62x51 Muzzle Brake Kit/|
@@ -27,15 +31,11 @@ ChildParts=[
 	AR-10 SureFire Warden 7.62x51 blast regulator/|
 	AR-10 TAA ZK-38 7.62x51 muzzle brake/|
 	AR-10 Thunder Beast Arms 30CB 7.62x51 muzzle brake/|
-	Gemtech ONE Direct Thread Mount adapter/|
-	SIG Sauer Taper-LOK 7.62x51/.300 BLK muzzle adapter/|
-	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
-	Lantac BMD Blast Mitigation Device A3 direct thread adapter/|
-	SIG Sauer SRD762Ti 7.62x51 sound suppressor/|
-	AR-10 Dead Air Keymount 7.62x51 muzzle brake/|
+	AWC PSR 7.62x51 muzzle brake/|
+	Desert Tech 7.62x51 flash hider/|
 	M60E3 7.62x51 flash hider/|
 	M60E6 7.62x51 flash hider/|
-	AR-10 Delta-Tek DTK-AR10 7.62x51 muzzle brake
+	SIG Sauer SRD762Ti 7.62x51 sound suppressor
 ]
 ChildParts_required=FALSE
 ChildParts=[

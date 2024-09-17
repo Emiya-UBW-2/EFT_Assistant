@@ -1,8 +1,8 @@
 Name=APB 9x18PM silenced machine pistol Default
 Base=APB 9x18PM silenced machine pistol
-Parts=APS 9x18PM 20-round magazine
-Parts=APB detachable wire stock
-Parts=APS bakelite side-pieces
-Parts=APS front sight
 Parts=APB rear sight
+Parts=APS front sight
+Parts=APS 9x18PM 20-round magazine
+Parts=APS bakelite side-pieces
 Parts=APB 9x18PM sound suppressor
+Parts=APB detachable wire stock

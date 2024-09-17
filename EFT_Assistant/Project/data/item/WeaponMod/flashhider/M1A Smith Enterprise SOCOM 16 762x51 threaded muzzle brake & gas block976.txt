@@ -14,12 +14,12 @@ ChildParts=[
 ]
 ChildParts_required=FALSE
 ChildParts=[
+	Gemtech ONE Direct Thread Mount adapter/|
+	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
 	AR-10 2A Armanent X3 7.62x51 compensator/|
 	AR-10 Lantac Dragon 7.62x51 muzzle brake-compensator/|
 	AR-10 Odin Works ATLAS-7 7.62x51 muzzle brake/|
-	M14 Smith Enterprise Vortex 7.62x51 muzzle brake/|
-	Gemtech ONE Direct Thread Mount adapter/|
-	SilencerCo Hybrid 46 Direct Thread Mount adapter
+	M14 Smith Enterprise Vortex 7.62x51 muzzle brake
 ]
 ChildParts_required=FALSE
 Recoil=-2.000000

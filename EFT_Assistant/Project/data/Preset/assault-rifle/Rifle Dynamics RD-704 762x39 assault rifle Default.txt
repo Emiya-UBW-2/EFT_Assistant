@@ -1,11 +1,11 @@
 Name=Rifle Dynamics RD-704 7.62x39 assault rifle Default
 Base=Rifle Dynamics RD-704 7.62x39 assault rifle
-Parts=RD-704 SLR ION Lite + Railed Gas Tube handguard & gas tube combo
 Parts=AR-10 Dead Air Keymount 7.62x51 muzzle brake
+Parts=RD-704 SLR ION Lite + Railed Gas Tube handguard & gas tube combo
+Parts=AK RD Enhanced V2 Rear Sight
+Parts=AK 7.62x39 30-round magazine (issued '55 or later)
 Parts=AK TangoDown Battle Grip pistol grip
 Parts=RD-704 dust cover
-Parts=AK RD Enhanced V2 Rear Sight
 Parts=AKM/AK-74 RD AK to M4 buffer tube adapter
 Parts=AR-15 Colt Carbine buffer tube
 Parts=AR-15 SB Tactical SBA3 brace
-Parts=AK 7.62x39 30-round magazine (issued '55 or later)

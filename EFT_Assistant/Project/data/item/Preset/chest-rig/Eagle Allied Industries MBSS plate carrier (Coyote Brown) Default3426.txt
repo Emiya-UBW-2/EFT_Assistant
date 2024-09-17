@@ -9,8 +9,8 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
-	Eagle Allied Industries MBSS plate carrier (Coyote Brown)x1/|
-	PRTCTR Lightweight ballistic platex1
+	PRTCTR Lightweight ballistic platex1/|
+	Eagle Allied Industries MBSS plate carrier (Coyote Brown)x1
 ]
 Name_Jpn=Eagle Allied Industries MBSS plate carrier (Coyote Brown) デフォルト
 Information_Jpn=

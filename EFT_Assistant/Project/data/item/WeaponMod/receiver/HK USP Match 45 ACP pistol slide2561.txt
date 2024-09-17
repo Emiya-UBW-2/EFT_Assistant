@@ -9,8 +9,8 @@ weight=0.450000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
-	HK USP Red Dot sight mount/|
 	HK USP rear sight/|
+	HK USP Red Dot sight mount/|
 	HK USP Tactical rear sight
 ]
 ChildParts_required=FALSE

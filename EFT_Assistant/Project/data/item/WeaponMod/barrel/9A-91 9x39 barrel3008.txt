@@ -9,8 +9,8 @@ weight=0.409000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
-	9A-91 9x39 sound suppressor/|
-	9A-91 handguard retainer
+	9A-91 handguard retainer/|
+	9A-91 9x39 sound suppressor
 ]
 ChildParts_required=TRUE
 ChildParts=[

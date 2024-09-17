@@ -14,18 +14,18 @@ ChildParts=[
 ]
 ChildParts_required=FALSE
 Conflict=[
+	AR-15 Colt A2 rear sight/|
+	AR-15 rear sight carry handle/|
 	HK 416A5 flip-up rear sight/|
 	HK MP7 flip-up rear sight/|
-	RPK-16 rear sight base/|
 	KAC Folding Micro rear sight/|
 	KAC Folding rear sight/|
 	KRISS Defiance low profile flip-up rear sight/|
-	Magpul MBUS Gen2 flip-up rear sight/|
 	Magpul MBUS Gen2 flip-up rear sight (FDE)/|
+	Magpul MBUS Gen2 flip-up rear sight/|
 	MCX flip-up rear sight/|
 	MPX flip-up rear sight/|
-	AR-15 Colt A2 rear sight/|
-	AR-15 rear sight carry handle/|
+	RPK-16 rear sight base/|
 	SA-58 Holland Type rear sight/|
 	SV-98 rear sight
 ]

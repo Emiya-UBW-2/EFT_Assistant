@@ -9,20 +9,20 @@ weight=0.120000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
-	Armacon Baskak stock/|
-	AR-15 Colt A2 buffer tube/|
 	AR-15 ADAR 2-15 buffer tube/|
+	AR-15 Colt A2 buffer tube/|
 	AR-15 Colt Carbine buffer tube/|
 	AR-15 DoubleStar ACE SOCOM Gen.4 stock/|
 	AR-15 ERGO F93 PRO stock/|
 	AR-15 Magpul UBR GEN2 stock (Black)/|
 	AR-15 Magpul UBR GEN2 stock (FDE)/|
-	Mesa Tactical Crosshair Hydraulic buffer tube/|
-	AR-15 Strike Industries Advanced Receiver Extension buffer tube/|
 	AR-15 Strike Industries Advanced Receiver Extension buffer tube (Anodized Red)/|
+	AR-15 Strike Industries Advanced Receiver Extension buffer tube/|
+	AR-15 Strike Industries Viper PDW stock/|
 	AR-15 TROY M7A1 PDW stock (Black)/|
 	AR-15 TROY M7A1 PDW stock (FDE)/|
-	AR-15 Strike Industries Viper PDW stock
+	Armacon Baskak stock/|
+	Mesa Tactical Crosshair Hydraulic buffer tube
 ]
 ChildParts_required=FALSE
 Recoil=0.000000

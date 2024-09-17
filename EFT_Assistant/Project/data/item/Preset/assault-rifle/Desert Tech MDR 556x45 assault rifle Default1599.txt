@@ -10,11 +10,11 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	Desert Tech MDR 5.56x45 assault riflex1/|
-	MDR pistol grip (FDE)x1/|
-	5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazinex1/|
-	MDR handguard (FDE)x1/|
 	MDR 5.56x45 16 inch barrelx1/|
-	Desert Tech 5.56x45 flash hiderx1
+	Desert Tech 5.56x45 flash hiderx1/|
+	MDR handguard (FDE)x1/|
+	5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazinex1/|
+	MDR pistol grip (FDE)x1
 ]
 Name_Jpn=MDR 5.56x45 アサルトライフル デフォルト
 Information_Jpn=

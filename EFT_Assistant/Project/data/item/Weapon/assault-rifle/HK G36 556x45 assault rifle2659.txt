@@ -9,28 +9,28 @@ weight=0.800000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 ChildParts=[
-	HK G36 5.56x45 30-round magazine/|
 	5.56x45 Colt AR-15 STANAG 30-round magazine/|
-	5.56x45 HK Steel Maritime STANAG 30-round magazine/|
-	5.56x45 HK PM Gen.2 STANAG 30-round magazine/|
 	5.56x45 HK 30 STANAG polymer 30-round magazine/|
-	5.56x45 Magpul PMAG D-60 STANAG 60-round magazine/|
+	5.56x45 HK PM Gen.2 STANAG 30-round magazine/|
+	5.56x45 HK Steel Maritime STANAG 30-round magazine/|
 	5.56x45 Magpul PMAG 10 GEN M3 STANAG 10-round magazine/|
 	5.56x45 Magpul PMAG 20 GEN M3 STANAG 20-round magazine/|
-	5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazine/|
 	5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazine (FDE)/|
-	5.56x45 Magpul PMAG 40 GEN M3 STANAG 40-round magazine/|
-	5.56x45 Magpul PMAG 40 GEN M3 STANAG 40-round magazine (FDE)/|
-	5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine/|
+	5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazine/|
 	5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine (FDE)/|
+	5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine/|
+	5.56x45 Magpul PMAG 40 GEN M3 STANAG 40-round magazine (FDE)/|
+	5.56x45 Magpul PMAG 40 GEN M3 STANAG 40-round magazine/|
+	5.56x45 Magpul PMAG D-60 STANAG 60-round magazine/|
 	5.56x45 SureFire MAG5-100 STANAG 100-round magazine/|
 	5.56x45 SureFire MAG5-60 STANAG 60-round magazine/|
-	5.56x45 TROY BattleMag STANAG 30-round magazine
+	5.56x45 TROY BattleMag STANAG 30-round magazine/|
+	HK G36 5.56x45 30-round magazine
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	HK G36 polymer stock/|
-	HK G36 KV adjustable stock
+	HK G36 KV adjustable stock/|
+	HK G36 polymer stock
 ]
 ChildParts_required=FALSE
 ChildParts=[
@@ -41,13 +41,13 @@ ChildParts=[
 ChildParts_required=TRUE
 ChildParts=[
 	HK G36 2-vent handguard/|
-	HK G36 6-vent handguard/|
-	HK G36 4-vent handguard
+	HK G36 4-vent handguard/|
+	HK G36 6-vent handguard
 ]
 ChildParts_required=TRUE
 ChildParts=[
-	HK G36 STANAG magwell/|
-	HK G36 magwell
+	HK G36 magwell/|
+	HK G36 STANAG magwell
 ]
 ChildParts_required=TRUE
 ChildParts=[

@@ -1,10 +1,10 @@
 Name=SR-2M Veresk 9x21 submachine gun FSB
 Base=SR-2M Veresk 9x21 submachine gun
-Parts=SR-2M 9x21 30-round magazine
-Parts=SR-2M 9x21 sound suppressor (SV-1381)
-Parts=SR-2MP top-folding stock
-Parts=SR-2M dust cover
-Parts=SR-2M KP-SR2 reflex sight
 Parts=SR-2M polymer handguard (Black)
+Parts=SR-2M 9x21 30-round magazine
 Parts=SR-2M side rail
 Parts=SR-2M pistol grip (Black)
+Parts=SR-2M dust cover
+Parts=SR-2M KP-SR2 reflex sight
+Parts=SR-2M 9x21 sound suppressor (SV-1381)
+Parts=SR-2MP top-folding stock

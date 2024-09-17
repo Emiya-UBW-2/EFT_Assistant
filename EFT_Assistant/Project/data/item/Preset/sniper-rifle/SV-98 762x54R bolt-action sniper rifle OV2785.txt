@@ -10,15 +10,15 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	SV-98 7.62x54R bolt-action sniper riflex1/|
-	SV-98 7.62x54R 10-round magazinex1/|
-	SV-98 rear sightx1/|
 	SV-98 7.62x54R muzzle devicex1/|
-	SV-98 CNC Guns OV-SV98 chassisx1/|
 	SV-98 CNC Guns OV-SV98 KeyMod handguardx1/|
-	CNC Guns KeyMod 4 inch railx1/|
+	SV-98 rear sightx1/|
+	SV-98 7.62x54R 10-round magazinex1/|
 	CNC Guns KeyMod 2 inch railx1/|
+	CNC Guns KeyMod 4 inch railx1/|
 	AK FAB Defense AGR-47 pistol gripx1/|
-	CNC Guns OV-SV98 M12B stockx1
+	CNC Guns OV-SV98 M12B stockx1/|
+	SV-98 CNC Guns OV-SV98 chassisx1
 ]
 Name_Jpn=SV-98 7.62x54R ボルトアクション スナイパーライフル OV
 Information_Jpn=

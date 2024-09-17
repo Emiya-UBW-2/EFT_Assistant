@@ -10,10 +10,10 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	OP-SKS gas tube cover/|
-	SKS gas tube cover/|
-	SKS TAPCO railed gas tube cover/|
+	SKS ATI Monte Carlo gas tube cover/|
 	SKS FAB Defense UAS gas tube cover/|
-	SKS ATI Monte Carlo gas tube cover
+	SKS gas tube cover/|
+	SKS TAPCO railed gas tube cover
 ]
 ChildParts_required=FALSE
 Recoil=0.000000

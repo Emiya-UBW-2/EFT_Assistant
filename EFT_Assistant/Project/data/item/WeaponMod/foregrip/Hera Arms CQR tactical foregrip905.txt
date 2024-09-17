@@ -9,11 +9,9 @@ weight=0.167000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 Conflict=[
-	AK Krebs Custom UFM KeyMod handguard/|
-	AK Strike Industries TRAX 1 handguard/|
 	Molot Arms VPO-101 Vepr-Hunter 7.62x51 carbine/|
-	DS Arms SA-58 7.62x51 assault rifle/|
 	Desert Tech MDR 5.56x45 assault rifle/|
+	DS Arms SA-58 7.62x51 assault rifle/|
 	Kalashnikov AK-101 5.56x45 assault rifle/|
 	Kalashnikov AK-102 5.56x45 assault rifle/|
 	Kalashnikov AK-103 7.62x39 assault rifle/|
@@ -31,14 +29,16 @@ Conflict=[
 	Kalashnikov AKS-74U 5.45x39 assault rifle/|
 	Kalashnikov AKS-74UB 5.45x39 assault rifle/|
 	Kalashnikov AKS-74UN 5.45x39 assault rifle/|
-	Molot Arms VPO-209 .366 TKM carbine/|
 	Molot Arms VPO-136 Vepr-KM 7.62x39 carbine/|
+	Molot Arms VPO-209 .366 TKM carbine/|
 	RPK-16 5.45x39 light machine gun/|
 	SVDS 7.62x54R sniper rifle/|
 	Saiga-12K ver.10 12ga semi-automatic shotgun/|
 	PP-19-01 Vityaz 9x19 submachine gun/|
 	Saiga-9 9x19 carbine/|
-	Remington Model 700 7.62x51 bolt-action sniper rifle
+	Remington Model 700 7.62x51 bolt-action sniper rifle/|
+	AK Krebs Custom UFM KeyMod handguard/|
+	AK Strike Industries TRAX 1 handguard
 ]
 Recoil=-3.000000
 Ergonomics=4.000000

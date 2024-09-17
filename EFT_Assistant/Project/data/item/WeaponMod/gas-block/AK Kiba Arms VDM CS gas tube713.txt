@@ -9,14 +9,14 @@ weight=0.120000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
+	AK AKdemia Dominator handguard/|
+	AK Alfa Arms ASPID handguard/|
 	AK Krebs Custom UFM KeyMod handguard/|
 	AK Strike Industries TRAX 1 handguard/|
 	AK TDI X47 tactical handguard rail system/|
 	AK Vltor CMRD KeyMod handguard/|
 	AK Zenit B-10M handguard with B-19 upper mount/|
-	AK Zenit B-30 handguard with B-31S upper handguard rail/|
-	AK AKdemia Dominator handguard/|
-	AK Alfa Arms ASPID handguard
+	AK Zenit B-30 handguard with B-31S upper handguard rail
 ]
 ChildParts_required=TRUE
 Recoil=0.000000

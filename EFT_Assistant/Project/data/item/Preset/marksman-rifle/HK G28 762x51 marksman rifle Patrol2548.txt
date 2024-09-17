@@ -10,19 +10,19 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	HK G28 7.62x51 marksman riflex1/|
-	AR-15 HK Battle Grip Beavertail pistol grip (RAL 8000)x1/|
-	HK G28 buffer tubex1/|
-	HK417 E2 buttstockx1/|
-	HK G28 7.62x51 upper receiverx1/|
-	Recknagel Era-Tac 30mm ring scope mountx1/|
-	Schmidt & Bender PM II 1-8x24 30mm riflescopex1/|
 	HK417 7.62x51 16.5 inch barrelx1/|
+	HK417 E1 extended charging handlex1/|
 	HK Prolonged 7.62x51 flash hiderx1/|
 	HK417 low profile gas blockx1/|
 	HK417 Patrol handguard with flip-up front sightx1/|
 	HK 416A5 flip-up rear sightx1/|
-	HK417 E1 extended charging handlex1/|
-	HK417/G28 7.62x51 20-round magazinex1
+	HK417/G28 7.62x51 20-round magazinex1/|
+	Recknagel Era-Tac 30mm ring scope mountx1/|
+	AR-15 HK Battle Grip Beavertail pistol grip (RAL 8000)x1/|
+	HK G28 7.62x51 upper receiverx1/|
+	Schmidt & Bender PM II 1-8x24 30mm riflescopex1/|
+	HK G28 buffer tubex1/|
+	HK417 E2 buttstockx1
 ]
 Name_Jpn=HK G28 7.62x51 マークスマンライフル Patrol
 Information_Jpn=

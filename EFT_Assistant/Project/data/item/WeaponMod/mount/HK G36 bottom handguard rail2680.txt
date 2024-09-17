@@ -9,43 +9,43 @@ weight=0.070000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
-	Zenit RK-1 tactical foregrip/|
 	ASh-12 vertical foregrip/|
-	Zenit RK-6 tactical foregrip/|
-	Magpul AFG tactical foregrip (Black)/|
 	BCM GUNFIGHTER MOD 3 vertical foregrip/|
+	Fortis Shift tactical foregrip/|
+	Hera Arms CQR tactical foregrip/|
+	HK Sturmgriff foregrip/|
 	KAC vertical foregrip/|
+	Magpul AFG tactical foregrip (Black)/|
 	Magpul AFG tactical foregrip (FDE)/|
 	Magpul AFG tactical foregrip (Forest Green)/|
-	Magpul RVG foregrip (FDE)/|
 	Magpul AFG tactical foregrip (Olive Drab)/|
 	Magpul RVG foregrip (Black)/|
-	RTM Pillau tactical foregrip/|
-	TangoDown Stubby BGV-MK46K foregrip (Stealth Grey)/|
-	Stark SE-5 Express Forward foregrip/|
-	TangoDown Stubby BGV-MK46K foregrip (Black)/|
-	Strike Industries Cobra Tactical foregrip/|
-	TangoDown Stubby BGV-MK46K foregrip (FDE)/|
-	Tactical Dynamics Skeletonized Foregrip/|
-	Zenit RK-1 tactical foregrip on B-25U mount/|
-	Zenit RK-0 tactical foregrip/|
-	Zenit RK-4 tactical foregrip/|
-	Viking Tactics UVG tactical foregrip/|
-	Zenit RK-5 tactical foregrip/|
-	Zenit RK-2 tactical foregrip/|
-	Fortis Shift tactical foregrip/|
-	HK Sturmgriff foregrip/|
-	Hera Arms CQR tactical foregrip/|
-	RTM Osovets P-2 tactical foregrip/|
+	Magpul RVG foregrip (FDE)/|
 	RTM Osovets P-2 tactical foregrip (Khaki)/|
-	RTM Pillau tactical foregrip (Sand)/|
+	RTM Osovets P-2 tactical foregrip/|
 	RTM Pillau P-2 tactical foregrip (Red)/|
+	RTM Pillau tactical foregrip (Sand)/|
+	RTM Pillau tactical foregrip/|
 	Stark SE-5 Express Forward foregrip (FDE)/|
+	Stark SE-5 Express Forward foregrip/|
 	Strike Industries Cobra Tactical foregrip (FDE)/|
+	Strike Industries Cobra Tactical foregrip/|
+	Tactical Dynamics Skeletonized Foregrip/|
 	TangoDown BGV-QDITI foregrip (Black)/|
 	TangoDown BGV-QDITI foregrip (FDE)/|
+	TangoDown Stubby BGV-MK46K foregrip (Black)/|
+	TangoDown Stubby BGV-MK46K foregrip (FDE)/|
+	TangoDown Stubby BGV-MK46K foregrip (Stealth Grey)/|
 	TangoDown Stubby BGV-QDK foregrip (Black)/|
-	TangoDown Stubby BGV-QDK foregrip (FDE)
+	TangoDown Stubby BGV-QDK foregrip (FDE)/|
+	Viking Tactics UVG tactical foregrip/|
+	Zenit RK-0 tactical foregrip/|
+	Zenit RK-1 tactical foregrip on B-25U mount/|
+	Zenit RK-1 tactical foregrip/|
+	Zenit RK-2 tactical foregrip/|
+	Zenit RK-4 tactical foregrip/|
+	Zenit RK-5 tactical foregrip/|
+	Zenit RK-6 tactical foregrip
 ]
 ChildParts_required=FALSE
 ChildParts=[

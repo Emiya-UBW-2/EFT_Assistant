@@ -1,10 +1,10 @@
 Name=Molot Arms VPO-136 Vepr-KM 7.62x39 carbine Default
 Base=Molot Arms VPO-136 Vepr-KM 7.62x39 carbine
+Parts=VPO-136 Vepr-KM 7.62x39 muzzle brake-compensator
 Parts=Molot Arms AKM-type gas tube
 Parts=VPO-136 Vepr-KM wooden handguard
-Parts=VPO-136 Vepr-KM 7.62x39 muzzle brake-compensator
+Parts=AKM rear sight (6P1 Sb.2-1)
+Parts=AK 7.62x39 aluminium 10-round magazine
 Parts=AK bakelite pistol grip
 Parts=Molot Arms AKM-type dust cover
-Parts=AKM rear sight (6P1 Sb.2-1)
 Parts=VPO-136 Vepr-KM wooden stock
-Parts=AK 7.62x39 aluminium 10-round magazine

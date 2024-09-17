@@ -9,8 +9,8 @@ weight=0.230000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
-	AI .338 LM Tactical Sound Moderator/|
-	AI AXMC thread protection cap
+	AI AXMC thread protection cap/|
+	AI .338 LM Tactical Sound Moderator
 ]
 ChildParts_required=FALSE
 Recoil=-8.000000

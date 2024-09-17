@@ -10,14 +10,14 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	Kalashnikov AK-103 7.62x39 assault riflex1/|
+	AK-103 7.62x39 muzzle brake-compensatorx1/|
 	AK-74 gas tube (6P20 Sb.1-2)x1/|
 	AK-74 polymer handguard (6P20 Sb.9)x1/|
-	AK-103 7.62x39 muzzle brake-compensatorx1/|
+	AK-74M rear sight (6P20 Sb.2)x1/|
+	AK-103 7.62x39 30-round magazinex1/|
 	AK polymer pistol grip (6P1 Sb.8)x1/|
 	AK-74M dust cover (6P34 0-1)x1/|
-	AK-74M rear sight (6P20 Sb.2)x1/|
-	AK-74M polymer stock (6P34 Sb.15)x1/|
-	AK-103 7.62x39 30-round magazinex1
+	AK-74M polymer stock (6P34 Sb.15)x1
 ]
 Name_Jpn=Kalashnikov AK-103 7.62x39 アサルトライフル デフォルト
 Information_Jpn=

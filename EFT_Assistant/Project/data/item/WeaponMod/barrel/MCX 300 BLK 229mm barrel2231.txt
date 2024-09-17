@@ -9,8 +9,8 @@ weight=0.479000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
-	AR-10 KAC QDC 7.62x51 Flash Suppressor Kit/|
 	SIG Sauer Taper-LOK 7.62x51/.300 BLK muzzle adapter/|
+	AR-10 KAC QDC 7.62x51 Flash Suppressor Kit/|
 	SIG Sauer SRD762Ti 7.62x51 sound suppressor
 ]
 ChildParts_required=FALSE

@@ -10,11 +10,11 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	Mosin 7.62x54R bolt-action rifle (Infantry)x1/|
-	Mosin Rifle 7.62x54R 5-round magazinex1/|
-	Mosin Rifle carbine stockx1/|
 	Mosin Carbine 7.62x54R 514mm barrelx1/|
+	Mosin Rifle carbine rear sightx1/|
 	Mosin Rifle front sightx1/|
-	Mosin Rifle carbine rear sightx1
+	Mosin Rifle 7.62x54R 5-round magazinex1/|
+	Mosin Rifle carbine stockx1
 ]
 Name_Jpn=Mosin 7.62x54R ボルトアクション ライフル (歩兵用) Carbine
 Information_Jpn=

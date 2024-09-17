@@ -11,11 +11,11 @@ IsDefault=TRUE
 containsItems=[
 	ASh-12 12.7x55 assault riflex1/|
 	ASh-12 12.7x55 muzzle brake-compensatorx1/|
-	ASh-12 12.7x55 10-round magazinex1/|
-	ASh-12 folding front sightx1/|
-	ASh-12 polymer handguardx1/|
 	ASh-12 vertical foregripx1/|
-	ASh-12 rear sight carry handlex1
+	ASh-12 polymer handguardx1/|
+	ASh-12 folding front sightx1/|
+	ASh-12 rear sight carry handlex1/|
+	ASh-12 12.7x55 10-round magazinex1
 ]
 Name_Jpn=ASh-12 12.7x55 アサルトライフル デフォルト
 Information_Jpn=

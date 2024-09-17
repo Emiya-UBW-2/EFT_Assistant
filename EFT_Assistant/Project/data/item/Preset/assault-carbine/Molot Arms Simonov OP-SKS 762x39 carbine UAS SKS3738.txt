@@ -10,17 +10,17 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	Molot Arms Simonov OP-SKS 7.62x39 carbinex1/|
-	SKS FAB Defense UAS chassisx1/|
-	SKS/VZ-58 FAB Defense AG-58 pistol gripx1/|
-	SKS FAB Defense UAS buttstockx1/|
-	SKS 7.62x39 10-round internal box magazinex1/|
-	OP-SKS dovetail mountx1/|
 	OP-SKS 7.62x39 520mm barrelx1/|
-	OP-SKS upper bandx1/|
 	OP-SKS gas tubex1/|
 	SKS FAB Defense UAS gas tube coverx1/|
 	SKS rear sightx1/|
-	OP-SKS dust coverx1
+	SKS 7.62x39 10-round internal box magazinex1/|
+	OP-SKS dovetail mountx1/|
+	OP-SKS upper bandx1/|
+	SKS/VZ-58 FAB Defense AG-58 pistol gripx1/|
+	OP-SKS dust coverx1/|
+	SKS FAB Defense UAS buttstockx1/|
+	SKS FAB Defense UAS chassisx1
 ]
 Name_Jpn=OP-SKS 7.62x39 カービン (狩猟ライフルバージョン) UAS SKS
 Information_Jpn=

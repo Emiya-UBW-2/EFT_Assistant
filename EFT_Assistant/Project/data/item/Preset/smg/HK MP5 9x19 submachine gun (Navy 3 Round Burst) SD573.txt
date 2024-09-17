@@ -10,13 +10,13 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	HK MP5 9x19 submachine gun (Navy 3 Round Burst)x1/|
-	HK MP5 9x19 30-round magazinex1/|
-	HK MP5SD 9x19 upper receiverx1/|
+	HK MP5 cocking handlex1/|
 	HK MP5SD polymer handguardx1/|
 	HK MP5 Drum rear sightx1/|
-	HK MP5 A3 old model stockx1/|
+	HK MP5 9x19 30-round magazinex1/|
+	HK MP5SD 9x19 upper receiverx1/|
 	HK MP5SD 9x19 sound suppressorx1/|
-	HK MP5 cocking handlex1
+	HK MP5 A3 old model stockx1
 ]
 Name_Jpn=MP5 9x19 サブマシンガン SD
 Information_Jpn=

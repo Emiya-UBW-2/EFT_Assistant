@@ -1,10 +1,10 @@
 Name=VSS Vintorez 9x39 special sniper rifle PSO-1M2-1
 Base=VSS Vintorez 9x39 special sniper rifle
-Parts=VSS/VAL 9x39 6L24 10-round magazine
-Parts=VSS 9x39 integral barrel-suppressor
-Parts=VSS rear sight
-Parts=VSS dust cover
-Parts=VSS wooden stock
-Parts=BelOMO PSO-1M2-1 4x24 scope
 Parts=PSO scope eyecup
 Parts=VSS/VAL polymer handguard (Black)
+Parts=VSS rear sight
+Parts=VSS/VAL 9x39 6L24 10-round magazine
+Parts=VSS dust cover
+Parts=BelOMO PSO-1M2-1 4x24 scope
+Parts=VSS 9x39 integral barrel-suppressor
+Parts=VSS wooden stock

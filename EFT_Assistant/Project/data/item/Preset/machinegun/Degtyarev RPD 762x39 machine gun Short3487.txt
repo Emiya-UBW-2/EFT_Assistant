@@ -10,12 +10,12 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	Degtyarev RPD 7.62x39 machine gunx1/|
-	RPD 7.62x39 "Buben" 100-round boxx1/|
-	RPD wooden stockx1/|
-	RPD wooden pistol gripx1/|
 	RPD 7.62x39 sawed-off 350mm barrelx1/|
 	RPD wooden handguardx1/|
-	RPD rear sightx1
+	RPD rear sightx1/|
+	RPD 7.62x39 "Buben" 100-round boxx1/|
+	RPD wooden pistol gripx1/|
+	RPD wooden stockx1
 ]
 Name_Jpn=Degtyarev RPD 7.62x39 machine gun Short
 Information_Jpn=

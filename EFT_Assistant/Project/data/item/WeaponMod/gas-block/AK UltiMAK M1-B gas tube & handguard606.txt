@@ -9,19 +9,10 @@ weight=0.120000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
-	EOTech EXPS3 holographic sight (Tan)/|
-	EOTech XPS3-0 holographic sight/|
-	EOTech XPS3-2 holographic sight/|
-	Leapers UTG reflex sight/|
-	SIG Sauer ROMEO8T reflex sight/|
-	Trijicon SRS-02 reflex sight/|
-	VOMZ Pilad P1x42 Weaver reflex sight/|
-	Vortex Razor AMG UH-1 holographic sight/|
-	Walther MRS reflex sight/|
 	BelOMO PK-06 reflex sight/|
-	Aimpoint Micro Standard Mount/|
-	Aimpoint Micro H-2 Standard Mount/|
 	Aimpoint LRP mount for CompM4 sights/|
+	Aimpoint Micro H-2 Standard Mount/|
+	Aimpoint Micro Standard Mount/|
 	Aimpoint QRP2 mount for CompM4/PRO sights/|
 	B&T QD NAR mount for Aimpoint ACRO/|
 	Burris FastFire Weaver Base/|
@@ -32,6 +23,15 @@ ChildParts=[
 	Trijicon RMR high profile mount/|
 	Trijicon RMR low profile mount/|
 	ELCAN Specter HCO holographic sight/|
+	EOTech EXPS3 holographic sight (Tan)/|
+	EOTech XPS3-0 holographic sight/|
+	EOTech XPS3-2 holographic sight/|
+	Leapers UTG reflex sight/|
+	SIG Sauer ROMEO8T reflex sight/|
+	Trijicon SRS-02 reflex sight/|
+	VOMZ Pilad P1x42 Weaver reflex sight/|
+	Vortex Razor AMG UH-1 holographic sight/|
+	Walther MRS reflex sight/|
 	Wilcox BOSS Xe reflex sight
 ]
 ChildParts_required=FALSE
@@ -39,9 +39,9 @@ ChildParts=[
 	Holosun LS321 Tactical device/|
 	L3Harris AN/PEQ-15 tactical device/|
 	L3Harris LA-5B/PEQ tactical device/|
+	MAWL-C1+ tactical device/|
 	SureFire XC1 tactical flashlight/|
-	Zenit Perst-3 tactical device/|
-	MAWL-C1+ tactical device
+	Zenit Perst-3 tactical device
 ]
 ChildParts_required=FALSE
 Recoil=-1.000000

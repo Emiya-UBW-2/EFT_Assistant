@@ -1,9 +1,9 @@
 Name=HK MP5 9x19 submachine gun (Navy 3 Round Burst) SD
 Base=HK MP5 9x19 submachine gun (Navy 3 Round Burst)
-Parts=HK MP5 9x19 30-round magazine
-Parts=HK MP5SD 9x19 upper receiver
+Parts=HK MP5 cocking handle
 Parts=HK MP5SD polymer handguard
 Parts=HK MP5 Drum rear sight
-Parts=HK MP5 A3 old model stock
+Parts=HK MP5 9x19 30-round magazine
+Parts=HK MP5SD 9x19 upper receiver
 Parts=HK MP5SD 9x19 sound suppressor
-Parts=HK MP5 cocking handle
+Parts=HK MP5 A3 old model stock

@@ -10,17 +10,17 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	DS Arms SA-58 7.62x51 assault riflex1/|
-	SA-58 FAB Defense AG-FAL pistol gripx1/|
-	SA-58/FAL 7.62x51 10-round magazinex1/|
-	SA-58/FAL AIM Sports Universal M-LOK handguardx1/|
-	Magpul M-LOK 4.1 inch railx1/|
-	Magpul AFG tactical foregrip (Black)x1/|
-	Magpul M-LOK 2.5 inch railx1/|
 	SA-58 7.62x51 21 inch barrelx1/|
 	SilencerCo Hybrid 46 Direct Thread Mount adapterx1/|
-	SilencerCo Hybrid 46 multi-caliber sound suppressorx1/|
+	Magpul AFG tactical foregrip (Black)x1/|
+	SA-58/FAL AIM Sports Universal M-LOK handguardx1/|
 	SA-58 Holland Type rear sightx1/|
+	SA-58/FAL 7.62x51 10-round magazinex1/|
+	Magpul M-LOK 2.5 inch railx1/|
+	Magpul M-LOK 4.1 inch railx1/|
+	SA-58 FAB Defense AG-FAL pistol gripx1/|
 	SA-58 Extreme Duty dust coverx1/|
+	SilencerCo Hybrid 46 multi-caliber sound suppressorx1/|
 	SA-58/FAL Magpul PRS 2 polymer stockx1
 ]
 Name_Jpn=SA-58 7.62x51 アサルトライフル PBR

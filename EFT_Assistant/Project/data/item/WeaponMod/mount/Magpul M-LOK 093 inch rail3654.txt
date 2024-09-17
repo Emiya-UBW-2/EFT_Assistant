@@ -9,21 +9,21 @@ weight=0.035000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
+	Holosun LS321 Tactical device/|
+	Insight AN/PEQ-2 tactical device/|
+	Insight WMX200 tactical flashlight/|
+	MAWL-C1+ tactical device/|
 	NcSTAR Tactical blue laser LAM-module/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
+	Olight Baldr Pro tactical flashlight with laser/|
 	Steiner DBAL-PL tactical device/|
 	SureFire X400 Ultra tactical flashlight with laser/|
 	SureFire XC1 tactical flashlight/|
 	Zenit Klesch-2IKS IR illuminator with laser/|
 	Zenit Klesch-2P flashlight with laser/|
-	Kiba Arms 25mm accessory ring mount/|
-	Daniel Defense 25mm accessory ring mount/|
-	Olight Baldr Pro tactical flashlight with laser/|
-	Olight Baldr Pro tactical flashlight with laser (Tan)/|
-	Insight WMX200 tactical flashlight/|
-	Holosun LS321 Tactical device/|
-	Insight AN/PEQ-2 tactical device/|
 	Zenit Klesch-2U tactical flashlight/|
-	MAWL-C1+ tactical device/|
+	Daniel Defense 25mm accessory ring mount/|
+	Kiba Arms 25mm accessory ring mount/|
 	Zenit KR-2 old gen mount
 ]
 ChildParts_required=FALSE

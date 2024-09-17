@@ -9,17 +9,17 @@ weight=0.128000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
-	TACCOM Carbine Brake 9x19 muzzle brake/|
-	KRISS Vector 9x19 flash hider/|
 	Gemtech ONE Direct Thread Mount adapter/|
 	KRISS Vector 9x19 thread protection cap/|
+	UZI 9x19 3-lug barrel thread protector/|
+	UZI PRO 9x19 Masada thread protector/|
+	HK MP5 B&T QD 9x19 muzzle brake/|
+	HK MP5 Noveske-style 9x19 muzzle brake-compensator/|
+	KRISS Vector 9x19 flash hider/|
+	TACCOM Carbine Brake 9x19 muzzle brake/|
 	Rotor 43 9x19 muzzle brake-compensator/|
 	SIG Sauer SRD9 9x19 sound suppressor/|
-	SilencerCo Osprey 9 9x19 sound suppressor/|
-	UZI PRO 9x19 Masada thread protector/|
-	HK MP5 Noveske-style 9x19 muzzle brake-compensator/|
-	HK MP5 B&T QD 9x19 muzzle brake/|
-	UZI 9x19 3-lug barrel thread protector
+	SilencerCo Osprey 9 9x19 sound suppressor
 ]
 ChildParts_required=FALSE
 ChildParts=[

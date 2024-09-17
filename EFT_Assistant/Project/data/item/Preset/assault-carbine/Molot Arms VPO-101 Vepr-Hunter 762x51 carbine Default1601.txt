@@ -11,10 +11,10 @@ IsDefault=TRUE
 containsItems=[
 	Molot Arms VPO-101 Vepr-Hunter 7.62x51 carbinex1/|
 	VPO-101 Vepr-Hunter gas tubex1/|
-	VPO-101 Vepr-Hunter dust coverx1/|
 	VPO-101 Vepr-Hunter rear sightx1/|
-	VPO-101 Vepr-Hunter stockx1/|
-	VPO-101 Vepr-Hunter 7.62x51 5-round magazinex1
+	VPO-101 Vepr-Hunter 7.62x51 5-round magazinex1/|
+	VPO-101 Vepr-Hunter dust coverx1/|
+	VPO-101 Vepr-Hunter stockx1
 ]
 Name_Jpn=VPO-101 "ヴェープルハンター" 7.62x51 カービン デフォルト
 Information_Jpn=

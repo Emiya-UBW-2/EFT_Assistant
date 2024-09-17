@@ -3,6 +3,6 @@ Name=Cultist Circle
 Lv1constructionTime=21600
 Lv1Information_Eng=A circle drawn in chalk and cluttered with mysterious symbols. Such circles are used by the cultists for their rituals. One wonders what would happen if you put something in the middle of it...?
 Lv1Information_Jpn=
-Lv1itemReq=[WI-FI Camerax1/|Construction measuring tapex1/|SurvL Survivor Lighterx1/|Can of white saltx3/|Light bulbx5/|PAID AntiRoach sprayx1]
+Lv1itemReq=[Light bulbx5/|Can of white saltx3/|PAID AntiRoach sprayx1/|SurvL Survivor Lighterx1/|WI-FI Camerax1/|Construction measuring tapex1]
 Lv1stationLevelReq=[Securityx2]
 Lv1traderRequirements=[]

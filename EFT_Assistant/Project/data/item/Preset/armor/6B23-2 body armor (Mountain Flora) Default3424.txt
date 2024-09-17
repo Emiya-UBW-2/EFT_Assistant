@@ -10,8 +10,8 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	6B23-2 body armor (Mountain Flora)x1/|
-	6B33 ballistic plate (Front)x1/|
-	6B23-2 ballistic plate (Back)x1
+	6B23-2 ballistic plate (Back)x1/|
+	6B33 ballistic plate (Front)x1
 ]
 Name_Jpn=6B23-2 body armor (Mountain Flora) デフォルト
 Information_Jpn=

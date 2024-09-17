@@ -9,8 +9,13 @@ weight=1.400000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 Conflict=[
-	BCM GUNFIGHTER MOD 3 vertical foregrip/|
+	A3 Tactical MVF001 KeyMod vertical foregrip (Black)/|
 	ASh-12 vertical foregrip/|
+	BCM GUNFIGHTER MOD 3 M-LOK foregrip (Black)/|
+	BCM GUNFIGHTER MOD 3 M-LOK foregrip (FDE)/|
+	BCM GUNFIGHTER MOD 3 vertical foregrip/|
+	Daniel Defense Enhanced M-LOK Vertical Foregrip (Black)/|
+	Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown)/|
 	Fortis Shift tactical foregrip/|
 	Hera Arms CQR tactical foregrip/|
 	HK Sturmgriff foregrip/|
@@ -19,42 +24,46 @@ Conflict=[
 	Magpul AFG tactical foregrip (FDE)/|
 	Magpul AFG tactical foregrip (Forest Green)/|
 	Magpul AFG tactical foregrip (Olive Drab)/|
+	Magpul M-LOK AFG tactical foregrip (Black)/|
+	Magpul M-LOK AFG tactical foregrip (FDE)/|
+	Magpul M-LOK AFG tactical foregrip (Olive Drab)/|
+	Magpul M-LOK AFG tactical foregrip (Stealth Grey)/|
 	Magpul RVG foregrip (Black)/|
 	Magpul RVG foregrip (FDE)/|
+	Monstrum Tactical Vertical Fore Grip KeyMod/|
+	RTM Osovets P-2 tactical foregrip (Khaki)/|
+	RTM Osovets P-2 tactical foregrip/|
+	RTM Pillau P-2 tactical foregrip (Red)/|
+	RTM Pillau tactical foregrip (Sand)/|
 	RTM Pillau tactical foregrip/|
+	SIG Sauer Vertical Foregrip KeyMod (Black)/|
+	Stark SE-5 Express Forward foregrip (FDE)/|
 	Stark SE-5 Express Forward foregrip/|
+	Strike Industries Cobra Tactical foregrip (FDE)/|
 	Strike Industries Cobra Tactical foregrip/|
+	Tactical Dynamics Skeletonized Foregrip/|
+	TangoDown BGV-QDITI foregrip (Black)/|
+	TangoDown BGV-QDITI foregrip (FDE)/|
 	TangoDown Stubby BGV-MK46K foregrip (Black)/|
 	TangoDown Stubby BGV-MK46K foregrip (FDE)/|
 	TangoDown Stubby BGV-MK46K foregrip (Stealth Grey)/|
-	Tactical Dynamics Skeletonized Foregrip/|
+	TangoDown Stubby BGV-QDK foregrip (Black)/|
+	TangoDown Stubby BGV-QDK foregrip (FDE)/|
 	Viking Tactics UVG tactical foregrip/|
-	Zenit RK-1 tactical foregrip on B-25U mount/|
 	Zenit RK-0 tactical foregrip/|
+	Zenit RK-1 tactical foregrip on B-25U mount/|
 	Zenit RK-1 tactical foregrip/|
 	Zenit RK-2 tactical foregrip/|
 	Zenit RK-4 tactical foregrip/|
 	Zenit RK-5 tactical foregrip/|
 	Zenit RK-6 tactical foregrip/|
-	Monstrum Tactical Vertical Fore Grip KeyMod/|
-	A3 Tactical MVF001 KeyMod vertical foregrip (Black)/|
-	SIG Sauer Vertical Foregrip KeyMod (Black)/|
-	Magpul M-LOK AFG tactical foregrip (Black)/|
-	Magpul M-LOK AFG tactical foregrip (FDE)/|
-	Magpul M-LOK AFG tactical foregrip (Olive Drab)/|
-	Magpul M-LOK AFG tactical foregrip (Stealth Grey)/|
 	AK TROY Full Length Rail handguard & gas tube combo/|
-	AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo/|
 	AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo (White)/|
-	Strike Industries KeyMod 6 inch rail/|
-	Strike Industries TRAX bridge rail/|
-	Vltor CASV KeyMod 6 inch rail/|
-	Magpul M-LOK 4.1 inch rail/|
+	AK Vezhlivyy Strelok VS-24 + VS-33c handguard & gas tube combo/|
 	AK 5.45 Design Aggressor handguard/|
 	AK CAA RS47 handguard/|
-	WASR-10/63 CAF wooden foregrip/|
-	AK Hexagon tubular handguard/|
 	AK Hexagon tubular handguard (Anodized Red)/|
+	AK Hexagon tubular handguard/|
 	AK Krebs Custom UFM KeyMod handguard/|
 	AK Magpul MOE AKM handguard (Black)/|
 	AK Magpul MOE AKM handguard (FDE)/|
@@ -67,20 +76,11 @@ Conflict=[
 	AK TDI X47 tactical handguard rail system/|
 	AK Vltor CMRD KeyMod handguard/|
 	AK Zenit B-30 handguard with B-31S upper handguard rail/|
-	RTM Osovets P-2 tactical foregrip/|
-	RTM Osovets P-2 tactical foregrip (Khaki)/|
-	RTM Pillau P-2 tactical foregrip (Red)/|
-	RTM Pillau tactical foregrip (Sand)/|
-	Stark SE-5 Express Forward foregrip (FDE)/|
-	Strike Industries Cobra Tactical foregrip (FDE)/|
-	Daniel Defense Enhanced M-LOK Vertical Foregrip (Black)/|
-	Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown)/|
-	TangoDown Stubby BGV-QDK foregrip (Black)/|
-	TangoDown Stubby BGV-QDK foregrip (FDE)/|
-	TangoDown BGV-QDITI foregrip (Black)/|
-	TangoDown BGV-QDITI foregrip (FDE)/|
-	BCM GUNFIGHTER MOD 3 M-LOK foregrip (Black)/|
-	BCM GUNFIGHTER MOD 3 M-LOK foregrip (FDE)
+	WASR-10/63 CAF wooden foregrip/|
+	Magpul M-LOK 4.1 inch rail/|
+	Strike Industries KeyMod 6 inch rail/|
+	Strike Industries TRAX bridge rail/|
+	Vltor CASV KeyMod 6 inch rail
 ]
 Recoil=-8.000000
 Ergonomics=-35.000000

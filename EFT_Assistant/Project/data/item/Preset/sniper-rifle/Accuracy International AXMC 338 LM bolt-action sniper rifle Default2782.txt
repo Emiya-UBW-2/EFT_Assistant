@@ -10,20 +10,20 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	Accuracy International AXMC .338 LM bolt-action sniper riflex1/|
-	AI AXMC .338 LM 10-round magazinex1/|
-	AI AXMC pistol gripx1/|
-	AI AXMC AX buttstockx1/|
-	AI AXMC .338 LM chassisx1/|
-	AI AXMC AX KeySlot 16 inch handguardx1/|
-	AI AXMC AT X Top Rail x1/|
-	AI AXMC Adapter Kit short length railx2/|
-	AI AXMC Adapter Kit medium length railx1/|
-	AI AXMC padded handguard gripx1/|
-	AI AXMC upper receiverx1/|
 	AI AXMC .338 LM 28 inch barrelx1/|
-	AI .338 LM Tactical Muzzle Brake x1/|
+	AI AXMC .338 LM bolt assemblyx1/|
 	AI AXMC thread protection capx1/|
-	AI AXMC .338 LM bolt assemblyx1
+	AI .338 LM Tactical Muzzle Brake x1/|
+	AI AXMC padded handguard gripx1/|
+	AI AXMC AX KeySlot 16 inch handguardx1/|
+	AI AXMC .338 LM 10-round magazinex1/|
+	AI AXMC Adapter Kit medium length railx1/|
+	AI AXMC Adapter Kit short length railx2/|
+	AI AXMC AT X Top Rail x1/|
+	AI AXMC .338 LM chassisx1/|
+	AI AXMC upper receiverx1/|
+	AI AXMC AX buttstockx1/|
+	AI AXMC pistol gripx1
 ]
 Name_Jpn=Accuracy International AXMC .338 LM ボルトアクション スナイパーライフル デフォルト
 Information_Jpn=

@@ -10,24 +10,24 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	Colt M4A1 5.56x45 assault riflex1/|
-	AR-15 Hera Arms CQR pistol grip/buttstockx1/|
-	5.56x45 Magpul PMAG D-60 STANAG 60-round magazinex1/|
-	M4A1 5.56x45 upper receiverx1/|
-	UNV DLOC-IRD sight mountx1/|
-	Trijicon REAP-IR thermal scopex1/|
 	AR-15 5.56x45 260mm barrelx1/|
+	AR-15 Badger Ordnance Tactical Charging Handle Latchx1/|
+	SureFire XC1 tactical flashlightx1/|
+	Trijicon RMR reflex sightx1/|
 	AR-15 PWS CQB 5.56x45 muzzle brakex1/|
+	Hera Arms CQR tactical foregripx1/|
 	AR-15 Daniel Defense MK12 Low Profile Gas Blockx1/|
 	AR-15 War Sport LVOA-S handguard (Black)x1/|
+	5.56x45 Magpul PMAG D-60 STANAG 60-round magazinex1/|
 	NcSTAR MPR45 Backup mountx1/|
 	Trijicon RMR low profile mountx1/|
-	Trijicon RMR reflex sightx1/|
-	Vltor CASV KeyMod 6 inch railx1/|
-	Hera Arms CQR tactical foregripx1/|
+	UNV DLOC-IRD sight mountx1/|
 	Vltor CASV KeyMod 4 inch railx1/|
-	SureFire XC1 tactical flashlightx1/|
+	Vltor CASV KeyMod 6 inch railx1/|
+	M4A1 5.56x45 upper receiverx1/|
+	Trijicon REAP-IR thermal scopex1/|
 	AR-15 Colt Carbine buffer tubex1/|
-	AR-15 Badger Ordnance Tactical Charging Handle Latchx1
+	AR-15 Hera Arms CQR pistol grip/buttstockx1
 ]
 Name_Jpn=M4A1 5.56x45 アサルトライフル Space Trooper
 Information_Jpn=

@@ -10,15 +10,15 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	IWI UZI 9x19 submachine gunx1/|
-	UZI PRO 9x19 20-round magazinex1/|
 	UZI 9x19 259mm barrelx1/|
-	UZI 9x19 sound suppressorx1/|
-	UZI StormWerkz stock adapterx1/|
-	MPX/MCX Collapsing/Telescoping Stockx1/|
-	UZI StormWerkz lower handguard railx1/|
 	NcSTAR Tactical blue laser LAM-modulex1/|
 	UZI polymer handguardx1/|
-	UZI pistol grip coverx1
+	UZI PRO 9x19 20-round magazinex1/|
+	UZI StormWerkz lower handguard railx1/|
+	UZI pistol grip coverx1/|
+	UZI 9x19 sound suppressorx1/|
+	MPX/MCX Collapsing/Telescoping Stockx1/|
+	UZI StormWerkz stock adapterx1
 ]
 Name_Jpn=IWI UZI 9x19 submachine gun SD
 Information_Jpn=

@@ -1,10 +1,10 @@
 Name=Springfield Armory M1A 7.62x51 rifle EBR
 Base=Springfield Armory M1A 7.62x51 rifle
-Parts=M1A 7.62x51 20-round magazine
-Parts=M14 SAGE International M14ALCS chassis
-Parts=M14 SAGE International M14ALCS (MOD-0) stock
-Parts=M14 SAGE International M14ALCS (MOD-0) pistol grip
 Parts=M1A 7.62x51 16 inch barrel
 Parts=M1A SOCOM 16 7.62x51 muzzle brake-compensator
-Parts=M1A SA XS Post .125 Blade front sight
 Parts=M14 SA Enlarged Military Aperture rear sight
+Parts=M1A SA XS Post .125 Blade front sight
+Parts=M1A 7.62x51 20-round magazine
+Parts=M14 SAGE International M14ALCS (MOD-0) pistol grip
+Parts=M14 SAGE International M14ALCS (MOD-0) stock
+Parts=M14 SAGE International M14ALCS chassis

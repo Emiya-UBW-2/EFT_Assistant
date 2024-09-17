@@ -10,40 +10,44 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AK Aeroknox Scorpius pistol grip/|
-	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip/|
-	AK-12 pistol grip/|
 	AK bakelite pistol grip (6P1 Sb.8V)/|
-	AK polymer pistol grip (6P1 Sb.8)/|
-	AKM bakelite pistol grip/|
-	AKM wooden pistol grip/|
 	AK bakelite pistol grip (6P4 Sb.9)/|
-	AK KGB MG-47 pistol grip/|
-	AK KGB MG-47 pistol grip (Anodized Red)/|
-	AK Magpul MOE pistol grip (Black)/|
 	AK bakelite pistol grip/|
+	AK CG101 AR-type pistol grip adapter/|
+	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip/|
+	AK FAB Defense AGR-47 pistol grip/|
+	AK KGB MG-47 pistol grip (Anodized Red)/|
+	AK KGB MG-47 pistol grip/|
+	AK Magpul MOE pistol grip (Black)/|
+	AK Mission First Tactical ENGAGE AK47 pistol grip/|
+	AK polymer pistol grip (6P1 Sb.8)/|
+	AK PUFGUN SG-M2 pistol grip/|
 	AK Strike Industries Enhanced Pistol Grip (Black)/|
 	AK Strike Industries Enhanced Pistol Grip (FDE)/|
+	AK TangoDown Battle Grip pistol grip (FDE)/|
+	AK TangoDown Battle Grip pistol grip/|
 	AK TAPCO SAW-Style pistol grip (Black)/|
 	AK TAPCO SAW-Style pistol grip (FDE)/|
 	AK US Palm pistol grip/|
 	AK Zenit RK-3 pistol grip/|
+	AK-12 pistol grip/|
+	AKM bakelite pistol grip/|
+	AKM wooden pistol grip/|
 	PP-19-01 Vityaz pistol grip/|
-	SKS/VZ-58 FAB Defense AG-58 pistol grip/|
-	AK FAB Defense AGR-47 pistol grip/|
-	AK TangoDown Battle Grip pistol grip/|
-	AK TangoDown Battle Grip pistol grip (FDE)/|
-	AK Mission First Tactical ENGAGE AK47 pistol grip/|
-	AK CG101 AR-type pistol grip adapter/|
-	AK PUFGUN SG-M2 pistol grip
+	SKS/VZ-58 FAB Defense AG-58 pistol grip
 ]
 ChildParts_required=TRUE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
-	L3Harris AN/PEQ-15 tactical device/|
 	Insight AN/PEQ-2 tactical device/|
+	Insight WMX200 tactical flashlight/|
+	L3Harris AN/PEQ-15 tactical device/|
 	L3Harris LA-5B/PEQ tactical device/|
+	MAWL-C1+ tactical device/|
 	NcSTAR Tactical blue laser LAM-module/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
+	Olight Baldr Pro tactical flashlight with laser/|
 	Steiner DBAL-PL tactical device/|
 	Steiner LAS/TAC 2 tactical flashlight/|
 	SureFire X400 Ultra tactical flashlight with laser/|
@@ -53,21 +57,21 @@ ChildParts=[
 	Zenit Klesch-2P flashlight with laser/|
 	Zenit Klesch-2U tactical flashlight/|
 	Zenit Perst-3 tactical device/|
-	Kiba Arms 25mm accessory ring mount/|
 	Daniel Defense 25mm accessory ring mount/|
-	Olight Baldr Pro tactical flashlight with laser/|
-	Olight Baldr Pro tactical flashlight with laser (Tan)/|
-	Insight WMX200 tactical flashlight/|
-	MAWL-C1+ tactical device/|
+	Kiba Arms 25mm accessory ring mount/|
 	Zenit KR-2 old gen mount
 ]
 ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
+	Insight WMX200 tactical flashlight/|
 	L3Harris AN/PEQ-15 tactical device/|
 	L3Harris LA-5B/PEQ tactical device/|
+	MAWL-C1+ tactical device/|
 	NcSTAR Tactical blue laser LAM-module/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
+	Olight Baldr Pro tactical flashlight with laser/|
 	Steiner DBAL-PL tactical device/|
 	Steiner LAS/TAC 2 tactical flashlight/|
 	SureFire X400 Ultra tactical flashlight with laser/|
@@ -77,22 +81,23 @@ ChildParts=[
 	Zenit Klesch-2P flashlight with laser/|
 	Zenit Klesch-2U tactical flashlight/|
 	Zenit Perst-3 tactical device/|
-	Kiba Arms 25mm accessory ring mount/|
 	Daniel Defense 25mm accessory ring mount/|
-	Olight Baldr Pro tactical flashlight with laser/|
-	Olight Baldr Pro tactical flashlight with laser (Tan)/|
-	Insight WMX200 tactical flashlight/|
-	MAWL-C1+ tactical device/|
+	Kiba Arms 25mm accessory ring mount/|
 	Zenit KR-2 old gen mount
 ]
 ChildParts_required=FALSE
 ChildParts=[
+	BT10 V8 Atlas Bipod/|
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
-	L3Harris AN/PEQ-15 tactical device/|
 	Insight AN/PEQ-2 tactical device/|
+	Insight WMX200 tactical flashlight/|
+	L3Harris AN/PEQ-15 tactical device/|
 	L3Harris LA-5B/PEQ tactical device/|
+	MAWL-C1+ tactical device/|
 	NcSTAR Tactical blue laser LAM-module/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
+	Olight Baldr Pro tactical flashlight with laser/|
 	Steiner DBAL-PL tactical device/|
 	Steiner LAS/TAC 2 tactical flashlight/|
 	SureFire X400 Ultra tactical flashlight with laser/|
@@ -102,14 +107,9 @@ ChildParts=[
 	Zenit Klesch-2P flashlight with laser/|
 	Zenit Klesch-2U tactical flashlight/|
 	Zenit Perst-3 tactical device/|
-	Kiba Arms 25mm accessory ring mount/|
 	Daniel Defense 25mm accessory ring mount/|
-	Olight Baldr Pro tactical flashlight with laser/|
-	Olight Baldr Pro tactical flashlight with laser (Tan)/|
-	Insight WMX200 tactical flashlight/|
-	MAWL-C1+ tactical device/|
-	Zenit KR-2 old gen mount/|
-	BT10 V8 Atlas Bipod
+	Kiba Arms 25mm accessory ring mount/|
+	Zenit KR-2 old gen mount
 ]
 ChildParts_required=FALSE
 ChildParts=[

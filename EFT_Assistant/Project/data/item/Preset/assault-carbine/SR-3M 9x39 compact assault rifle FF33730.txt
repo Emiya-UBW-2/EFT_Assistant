@@ -10,15 +10,15 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	SR-3M 9x39 compact assault riflex1/|
-	AS VAL dust coverx1/|
-	VSS/VAL 9x39 6L25 20-round magazine (Plum)x1/|
-	AS VAL Rotor 43 pistol grip & buffer tubex1/|
-	AK-12 stockx1/|
-	SR-3M railed polymer handguard (Black)x1/|
-	Kiba Arms 25mm accessory ring mountx1/|
+	Burris FastFire 3 reflex sightx1/|
 	Armytek Predator Pro v3 XHP35 HI flashlightx1/|
+	SR-3M railed polymer handguard (Black)x1/|
+	VSS/VAL 9x39 6L25 20-round magazine (Plum)x1/|
 	Burris FastFire Weaver Basex1/|
-	Burris FastFire 3 reflex sightx1
+	Kiba Arms 25mm accessory ring mountx1/|
+	AS VAL Rotor 43 pistol grip & buffer tubex1/|
+	AS VAL dust coverx1/|
+	AK-12 stockx1
 ]
 Name_Jpn=SR-3M 9x39 compact assault rifle FF3
 Information_Jpn=

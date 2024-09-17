@@ -16,18 +16,18 @@ ChildParts=[
 	Holosun LS321 Tactical device/|
 	L3Harris AN/PEQ-15 tactical device/|
 	L3Harris LA-5B/PEQ tactical device/|
+	NcSTAR Tactical blue laser LAM-module/|
 	Wilcox RAPTAR ES Tactical Rangefinder/|
-	Zenit Perst-3 tactical device/|
-	NcSTAR Tactical blue laser LAM-module
+	Zenit Perst-3 tactical device
 ]
 ChildParts_required=FALSE
 ChildParts=[
 	Holosun LS321 Tactical device/|
 	L3Harris AN/PEQ-15 tactical device/|
 	L3Harris LA-5B/PEQ tactical device/|
+	NcSTAR Tactical blue laser LAM-module/|
 	Wilcox RAPTAR ES Tactical Rangefinder/|
-	Zenit Perst-3 tactical device/|
-	NcSTAR Tactical blue laser LAM-module
+	Zenit Perst-3 tactical device
 ]
 ChildParts_required=FALSE
 Recoil=0.000000

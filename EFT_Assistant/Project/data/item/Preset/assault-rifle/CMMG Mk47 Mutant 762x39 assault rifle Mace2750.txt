@@ -10,25 +10,25 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	CMMG Mk47 Mutant 7.62x39 assault riflex1/|
-	Hogue OverMolded Rubber Grip (FDE)x1/|
-	AK 7.62x39 30-round magazine (issued '55 or later)x1/|
-	Mk47 Resolute 7.62x39 upper receiverx1/|
-	EOTech HHS-1 hybrid sight (Tan)x1/|
 	Mk47 254mm barrelx1/|
+	Mk47 ambidextrous charging handlex1/|
+	L3Harris AN/PEQ-15 tactical devicex1/|
 	AR-10 KAC QDC 7.62x51 Flash Suppressor Kitx1/|
+	Ultrafire WF-501B flashlightx1/|
+	Magpul RVG foregrip (FDE)x1/|
 	AR-10 CMMG low profile gas blockx1/|
 	AR-10 CMMG MK3 RML9 9 inch M-LOK handguardx1/|
-	Magpul M-LOK 2.5 inch railx1/|
-	Kiba Arms 25mm accessory ring mountx1/|
-	Ultrafire WF-501B flashlightx1/|
-	L3Harris AN/PEQ-15 tactical devicex1/|
-	Magpul M-LOK 4.1 inch railx1/|
-	Magpul RVG foregrip (FDE)x1/|
 	KAC Folding front sightx1/|
 	KAC Folding rear sightx1/|
+	AK 7.62x39 30-round magazine (issued '55 or later)x1/|
+	Kiba Arms 25mm accessory ring mountx1/|
+	Magpul M-LOK 2.5 inch railx1/|
+	Magpul M-LOK 4.1 inch railx1/|
+	Hogue OverMolded Rubber Grip (FDE)x1/|
+	Mk47 Resolute 7.62x39 upper receiverx1/|
+	EOTech HHS-1 hybrid sight (Tan)x1/|
 	AR-15 DoubleStar ACE SOCOM Gen.4 stockx1/|
-	DoubleStar ACE recoil padx1/|
-	Mk47 ambidextrous charging handlex1
+	DoubleStar ACE recoil padx1
 ]
 Name_Jpn=Mk47 Mutant 7.62x39 アサルトライフル Mace
 Information_Jpn=

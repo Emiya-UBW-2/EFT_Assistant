@@ -9,31 +9,31 @@ weight=3.852000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 ChildParts=[
-	PK pistol grip/|
-	PK pistol grip (Black)/|
 	AK Aeroknox Scorpius pistol grip/|
+	AK bakelite pistol grip (6P1 Sb.8V)/|
+	AK bakelite pistol grip (6P4 Sb.9)/|
+	AK bakelite pistol grip/|
+	AK CG101 AR-type pistol grip adapter/|
 	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip/|
 	AK FAB Defense AGR-47 pistol grip/|
-	AK bakelite pistol grip (6P1 Sb.8V)/|
-	AK polymer pistol grip (6P1 Sb.8)/|
-	AKM bakelite pistol grip/|
-	AKM wooden pistol grip/|
-	AK bakelite pistol grip (6P4 Sb.9)/|
-	AK KGB MG-47 pistol grip/|
 	AK KGB MG-47 pistol grip (Anodized Red)/|
+	AK KGB MG-47 pistol grip/|
 	AK Magpul MOE pistol grip (Black)/|
 	AK Mission First Tactical ENGAGE AK47 pistol grip/|
+	AK polymer pistol grip (6P1 Sb.8)/|
+	AK PUFGUN SG-M2 pistol grip/|
 	AK Strike Industries Enhanced Pistol Grip (Black)/|
-	AK bakelite pistol grip/|
 	AK Strike Industries Enhanced Pistol Grip (FDE)/|
-	AK TangoDown Battle Grip pistol grip/|
 	AK TangoDown Battle Grip pistol grip (FDE)/|
+	AK TangoDown Battle Grip pistol grip/|
 	AK TAPCO SAW-Style pistol grip (Black)/|
 	AK TAPCO SAW-Style pistol grip (FDE)/|
 	AK US Palm pistol grip/|
 	AK Zenit RK-3 pistol grip/|
-	AK CG101 AR-type pistol grip adapter/|
-	AK PUFGUN SG-M2 pistol grip
+	AKM bakelite pistol grip/|
+	AKM wooden pistol grip/|
+	PK pistol grip (Black)/|
+	PK pistol grip
 ]
 ChildParts_required=TRUE
 ChildParts=[
@@ -41,14 +41,14 @@ ChildParts=[
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	PKM wooden stock/|
 	PK Zenit PT-2 "Klassika" stock/|
+	PKM wooden stock/|
 	PKP polymer stock
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	PKP 7.62x54R 658mm barrel/|
-	PKM 7.62x54R 658mm barrel
+	PKM 7.62x54R 658mm barrel/|
+	PKP 7.62x54R 658mm barrel
 ]
 ChildParts_required=TRUE
 ChildParts=[

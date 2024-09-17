@@ -1,8 +1,8 @@
 Name=Glock 17 9x19 pistol Jackie
 Base=Glock 17 9x19 pistol
 Parts=Glock 9x19 Lone Wolf AlphaWolf threaded barrel
-Parts=Glock ZEV Tech HEX Spartan RMR pistol slide
-Parts=Glock ZEV Tech rear sight
-Parts=Glock ZEV Tech front sight
 Parts=Trijicon RMR reflex sight
+Parts=Glock ZEV Tech front sight
+Parts=Glock ZEV Tech rear sight
 Parts=Glock 9x19 "Big Stick" 33-round magazine
+Parts=Glock ZEV Tech HEX Spartan RMR pistol slide

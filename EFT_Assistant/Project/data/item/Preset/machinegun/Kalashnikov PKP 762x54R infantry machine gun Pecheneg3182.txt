@@ -10,12 +10,12 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	Kalashnikov PKP 7.62x54R infantry machine gunx1/|
-	PK pistol grip (Black)x1/|
 	PKP 7.62x54R 658mm barrelx1/|
-	PK 7.62x54R 100-round boxx1/|
-	PKP polymer stockx1/|
 	PK bipodx1/|
-	PK rear sightx1
+	PK rear sightx1/|
+	PK 7.62x54R 100-round boxx1/|
+	PK pistol grip (Black)x1/|
+	PKP polymer stockx1
 ]
 Name_Jpn=Kalashnikov PKP 7.62x54R ライトマシンガン Pecheneg
 Information_Jpn=

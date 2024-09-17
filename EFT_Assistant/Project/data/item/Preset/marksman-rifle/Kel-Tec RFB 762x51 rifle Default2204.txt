@@ -10,10 +10,10 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	Kel-Tec RFB 7.62x51 riflex1/|
-	SA-58/FAL 7.62x51 20-round magazinex1/|
 	RFB 7.62x51 18 inch barrelx1/|
 	RFB thread protection capx1/|
 	RFB handguardx1/|
+	SA-58/FAL 7.62x51 20-round magazinex1/|
 	RFB handguard rail mountx1/|
 	RFB scope rail mountx1
 ]

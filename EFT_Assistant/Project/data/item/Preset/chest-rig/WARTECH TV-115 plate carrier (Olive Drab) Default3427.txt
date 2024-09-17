@@ -9,8 +9,8 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
-	WARTECH TV-115 plate carrier (Olive Drab)x1/|
-	PRTCTR Lightweight ballistic platex1
+	PRTCTR Lightweight ballistic platex1/|
+	WARTECH TV-115 plate carrier (Olive Drab)x1
 ]
 Name_Jpn=WARTECH TV-115 plate carrier (Olive Drab) デフォルト
 Information_Jpn=

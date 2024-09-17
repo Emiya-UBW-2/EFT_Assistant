@@ -19,11 +19,11 @@ ChildParts=[
 ]
 ChildParts_required=TRUE
 ChildParts=[
-	UZI PRO Stabilizing Brace/|
 	UZI PRO A3 Tactical Rear Stock Adapter/|
-	UZI PRO SBR buttstock/|
 	UZI PRO backplate/|
-	UZI PRO CSM stock adapter
+	UZI PRO CSM stock adapter/|
+	UZI PRO SBR buttstock/|
+	UZI PRO Stabilizing Brace
 ]
 ChildParts_required=FALSE
 ChildParts=[

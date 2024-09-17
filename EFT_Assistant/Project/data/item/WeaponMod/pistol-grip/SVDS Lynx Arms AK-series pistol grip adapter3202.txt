@@ -10,28 +10,28 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	AK Aeroknox Scorpius pistol grip/|
-	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip/|
 	AK bakelite pistol grip (6P1 Sb.8V)/|
-	AK polymer pistol grip (6P1 Sb.8)/|
-	AKM bakelite pistol grip/|
-	AKM wooden pistol grip/|
 	AK bakelite pistol grip (6P4 Sb.9)/|
-	AK KGB MG-47 pistol grip/|
-	AK KGB MG-47 pistol grip (Anodized Red)/|
-	AK Magpul MOE pistol grip (Black)/|
 	AK bakelite pistol grip/|
+	AK CG101 AR-type pistol grip adapter/|
+	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip/|
+	AK FAB Defense AGR-47 pistol grip/|
+	AK KGB MG-47 pistol grip (Anodized Red)/|
+	AK KGB MG-47 pistol grip/|
+	AK Magpul MOE pistol grip (Black)/|
+	AK Mission First Tactical ENGAGE AK47 pistol grip/|
+	AK polymer pistol grip (6P1 Sb.8)/|
+	AK PUFGUN SG-M2 pistol grip/|
 	AK Strike Industries Enhanced Pistol Grip (Black)/|
 	AK Strike Industries Enhanced Pistol Grip (FDE)/|
+	AK TangoDown Battle Grip pistol grip (FDE)/|
+	AK TangoDown Battle Grip pistol grip/|
 	AK TAPCO SAW-Style pistol grip (Black)/|
 	AK TAPCO SAW-Style pistol grip (FDE)/|
 	AK US Palm pistol grip/|
 	AK Zenit RK-3 pistol grip/|
-	AK TangoDown Battle Grip pistol grip/|
-	AK TangoDown Battle Grip pistol grip (FDE)/|
-	AK Mission First Tactical ENGAGE AK47 pistol grip/|
-	AK CG101 AR-type pistol grip adapter/|
-	AK PUFGUN SG-M2 pistol grip/|
-	AK FAB Defense AGR-47 pistol grip
+	AKM bakelite pistol grip/|
+	AKM wooden pistol grip
 ]
 ChildParts_required=TRUE
 Recoil=0.000000

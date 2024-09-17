@@ -9,46 +9,46 @@ weight=0.211000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
-	Monstrum Tactical Vertical Fore Grip KeyMod/|
 	A3 Tactical MVF001 KeyMod vertical foregrip (Black)/|
+	Monstrum Tactical Vertical Fore Grip KeyMod/|
 	SIG Sauer Vertical Foregrip KeyMod (Black)/|
 	Strike Industries KeyMod 6 inch rail/|
 	Vltor CASV KeyMod 6 inch rail
 ]
 ChildParts_required=FALSE
 ChildParts=[
+	CNC Guns KeyMod 2 inch rail/|
 	Strike Industries KeyMod 4 inch rail/|
 	Vltor CASV KeyMod 2 inch rail/|
-	Vltor CASV KeyMod 4 inch rail/|
-	CNC Guns KeyMod 2 inch rail
+	Vltor CASV KeyMod 4 inch rail
 ]
 ChildParts_required=FALSE
 ChildParts=[
+	CNC Guns KeyMod 2 inch rail/|
 	Strike Industries KeyMod 4 inch rail/|
 	Vltor CASV KeyMod 2 inch rail/|
-	Vltor CASV KeyMod 4 inch rail/|
-	CNC Guns KeyMod 2 inch rail
+	Vltor CASV KeyMod 4 inch rail
 ]
 ChildParts_required=FALSE
 ChildParts=[
+	CNC Guns KeyMod 2 inch rail/|
 	Strike Industries KeyMod 4 inch rail/|
 	Vltor CASV KeyMod 2 inch rail/|
-	Vltor CASV KeyMod 4 inch rail/|
-	CNC Guns KeyMod 2 inch rail
+	Vltor CASV KeyMod 4 inch rail
 ]
 ChildParts_required=FALSE
 ChildParts=[
+	CNC Guns KeyMod 2 inch rail/|
 	Strike Industries KeyMod 4 inch rail/|
 	Vltor CASV KeyMod 2 inch rail/|
-	Vltor CASV KeyMod 4 inch rail/|
-	CNC Guns KeyMod 2 inch rail
+	Vltor CASV KeyMod 4 inch rail
 ]
 ChildParts_required=FALSE
 ChildParts=[
+	CNC Guns KeyMod 2 inch rail/|
 	Strike Industries KeyMod 4 inch rail/|
 	Vltor CASV KeyMod 2 inch rail/|
-	Vltor CASV KeyMod 4 inch rail/|
-	CNC Guns KeyMod 2 inch rail
+	Vltor CASV KeyMod 4 inch rail
 ]
 ChildParts_required=FALSE
 Recoil=0.000000

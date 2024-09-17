@@ -10,10 +10,10 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	Remington Model 700 7.62x51 bolt-action sniper riflex1/|
-	M700 7.62x51 ProMag AA-70 10-round magazinex1/|
-	M700 ProMag Archangel chassisx1/|
 	M700 7.62x51 20 inch threaded barrelx1/|
-	M700 thread protection capx1
+	M700 thread protection capx1/|
+	M700 7.62x51 ProMag AA-70 10-round magazinex1/|
+	M700 ProMag Archangel chassisx1
 ]
 Name_Jpn=Remington Model 700 7.62x51 ボルトアクション スナイパーライフル ARCH
 Information_Jpn=

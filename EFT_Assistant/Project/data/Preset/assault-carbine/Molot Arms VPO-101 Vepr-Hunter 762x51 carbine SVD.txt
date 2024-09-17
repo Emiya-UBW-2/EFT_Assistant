@@ -1,10 +1,10 @@
 Name=Molot Arms VPO-101 Vepr-Hunter 7.62x51 carbine SVD
 Base=Molot Arms VPO-101 Vepr-Hunter 7.62x51 carbine
-Parts=VPO-101 Vepr-Hunter gas tube
-Parts=VPO-101 Vepr-Hunter SVD-style stock
-Parts=VPO-101 Vepr-Hunter dust cover
-Parts=VPO-101 Vepr-Hunter 7.62x51 10-round magazine
-Parts=BelOMO PSO-1 4x24 scope
 Parts=PSO scope eyecup
-Parts=VPO-101 Vepr-Hunter Rotor 43 7.62x51 muzzle brake-compensator
+Parts=VPO-101 Vepr-Hunter gas tube
 Parts=VPO-101 Vepr-Hunter rear sight
+Parts=VPO-101 Vepr-Hunter 7.62x51 10-round magazine
+Parts=VPO-101 Vepr-Hunter dust cover
+Parts=BelOMO PSO-1 4x24 scope
+Parts=VPO-101 Vepr-Hunter Rotor 43 7.62x51 muzzle brake-compensator
+Parts=VPO-101 Vepr-Hunter SVD-style stock

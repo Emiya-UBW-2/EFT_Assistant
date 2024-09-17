@@ -15,15 +15,15 @@ ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	NcSTAR Tactical blue laser LAM-module/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
+	Olight Baldr Pro tactical flashlight with laser/|
 	Steiner DBAL-PL tactical device/|
 	Steiner LAS/TAC 2 tactical flashlight/|
 	SureFire X400 Ultra tactical flashlight with laser/|
 	SureFire XC1 tactical flashlight/|
 	Zenit Klesch-2IKS IR illuminator with laser/|
 	Zenit Klesch-2P flashlight with laser/|
-	Zenit Klesch-2U tactical flashlight/|
-	Olight Baldr Pro tactical flashlight with laser/|
-	Olight Baldr Pro tactical flashlight with laser (Tan)
+	Zenit Klesch-2U tactical flashlight
 ]
 ChildParts_required=FALSE
 Recoil=0.000000

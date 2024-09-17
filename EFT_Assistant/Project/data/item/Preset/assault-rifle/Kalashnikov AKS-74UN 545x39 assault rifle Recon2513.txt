@@ -10,14 +10,14 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	Kalashnikov AKS-74UN 5.45x39 assault riflex1/|
-	AK bakelite pistol grip (6P4 Sb.9)x1/|
-	AKS-74U metal skeleton stock (6P26 Sb.5)x1/|
+	AKS-74U gas tube (6P26 Sb.1-2)x1/|
+	AKS-74U wooden handguard (6P26 Sb.6)x1/|
 	AK-74 5.45x39 6L20 30-round magazinex1/|
-	AKS-74U PBS-4 5.45x39 sound suppressorx1/|
+	AK bakelite pistol grip (6P4 Sb.9)x1/|
 	AKS-74U dust cover (6P26 Sb.7)x1/|
 	Axion Kobra EKP-8-02 reflex sight (Dovetail)x1/|
-	AKS-74U gas tube (6P26 Sb.1-2)x1/|
-	AKS-74U wooden handguard (6P26 Sb.6)x1
+	AKS-74U PBS-4 5.45x39 sound suppressorx1/|
+	AKS-74U metal skeleton stock (6P26 Sb.5)x1
 ]
 Name_Jpn=Kalashnikov AKS-74UN 5.45x39 アサルトライフル Recon
 Information_Jpn=

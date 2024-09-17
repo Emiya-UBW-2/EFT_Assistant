@@ -10,13 +10,13 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	Remington Model 700 7.62x51 bolt-action sniper riflex1/|
-	M700 7.62x51 Wyatt's Outdoor 5-round magazinex1/|
-	M700 Hogue Overmolded Ghillie stockx1/|
 	M700 7.62x51 20 inch threaded barrelx1/|
 	AR-10 AAC Blackout 51T 7.62x51 flash hiderx1/|
-	AAC 762-SDN-6 multi-caliber sound suppressorx1/|
+	M700 7.62x51 Wyatt's Outdoor 5-round magazinex1/|
 	M700 30mm integral ring scope mountx1/|
-	Leupold Mark 4 LR 6.5-20x50 30mm riflescopex1
+	Leupold Mark 4 LR 6.5-20x50 30mm riflescopex1/|
+	AAC 762-SDN-6 multi-caliber sound suppressorx1/|
+	M700 Hogue Overmolded Ghillie stockx1
 ]
 Name_Jpn=Remington Model 700 7.62x51 ボルトアクション スナイパーライフル 6.5-20x50
 Information_Jpn=

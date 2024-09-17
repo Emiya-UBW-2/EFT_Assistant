@@ -9,31 +9,33 @@ weight=3.300000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 ChildParts=[
+	AR-15 Aeroknox Orion pistol grip/|
 	AR-15 Colt A2 pistol grip/|
 	AR-15 Damage Industries ECS pistol grip (FDE)/|
 	AR-15 F1 Firearms Skeletonized Style 1 pistol grip/|
 	AR-15 F1 Firearms Skeletonized Style 2 PC pistol grip/|
 	AR-15 F1 Firearms Skeletonized Style 2 pistol grip/|
 	AR-15 HK Battle Grip pistol grip/|
+	AR-15 Magpul MIAD pistol grip (FDE)/|
 	Hogue OverMolded Rubber Grip (Black)/|
 	Hogue OverMolded Rubber Grip (FDE)/|
 	Hogue OverMolded Rubber Grip (Ghillie Earth)/|
 	Hogue OverMolded Rubber Grip (Ghillie Green)/|
-	Hogue OverMolded Rubber Grip (Olive Drab)/|
-	AR-15 Magpul MIAD pistol grip (FDE)/|
-	AR-15 Aeroknox Orion pistol grip
+	Hogue OverMolded Rubber Grip (Olive Drab)
 ]
 ChildParts_required=TRUE
 ChildParts=[
+	AK-12 stock/|
 	AR-15 B5 Systems Precision stock/|
 	AR-15 CMMG RipStock buttstock/|
+	AR-15 Daniel Defense Enhanced Collapsible Buttstock (Black)/|
+	AR-15 Daniel Defense Enhanced Collapsible Buttstock (FDE)/|
 	AR-15 FAB Defense GL-CORE buttstock/|
 	AR-15 FAB Defense GL-SHOCK buttstock/|
 	AR-15 FAB Defense GLR-16-S stock/|
 	AR-15 High Standard M4SS Stock/|
 	AR-15 HK E1 buttstock/|
 	AR-15 HK Slim Line buttstock/|
-	AK-12 stock/|
 	AR-15 KRISS Defiance DS150 stock (Black)/|
 	AR-15 KRISS Defiance DS150 stock (FDE)/|
 	AR-15 LMT SOPMOD stock/|
@@ -49,9 +51,7 @@ ChildParts=[
 	AR-15 MFT BUS stock/|
 	AR-15 SB Tactical SBA3 brace/|
 	AR-15 Strike Industries Viper Mod 1 stock/|
-	AR-15 Vltor EMOD stock/|
-	AR-15 Daniel Defense Enhanced Collapsible Buttstock (Black)/|
-	AR-15 Daniel Defense Enhanced Collapsible Buttstock (FDE)
+	AR-15 Vltor EMOD stock
 ]
 ChildParts_required=TRUE
 ChildParts=[
@@ -59,8 +59,8 @@ ChildParts=[
 ]
 ChildParts_required=TRUE
 ChildParts=[
-	BCM GUNFIGHTER MOD 3 vertical foregrip/|
 	ASh-12 vertical foregrip/|
+	BCM GUNFIGHTER MOD 3 vertical foregrip/|
 	Fortis Shift tactical foregrip/|
 	HK Sturmgriff foregrip/|
 	KAC vertical foregrip/|
@@ -70,31 +70,31 @@ ChildParts=[
 	Magpul AFG tactical foregrip (Olive Drab)/|
 	Magpul RVG foregrip (Black)/|
 	Magpul RVG foregrip (FDE)/|
+	RTM Osovets P-2 tactical foregrip (Khaki)/|
+	RTM Osovets P-2 tactical foregrip/|
+	RTM Pillau P-2 tactical foregrip (Red)/|
+	RTM Pillau tactical foregrip (Sand)/|
 	RTM Pillau tactical foregrip/|
+	Stark SE-5 Express Forward foregrip (FDE)/|
 	Stark SE-5 Express Forward foregrip/|
+	Strike Industries Cobra Tactical foregrip (FDE)/|
 	Strike Industries Cobra Tactical foregrip/|
+	Tactical Dynamics Skeletonized Foregrip/|
+	TangoDown BGV-QDITI foregrip (Black)/|
+	TangoDown BGV-QDITI foregrip (FDE)/|
 	TangoDown Stubby BGV-MK46K foregrip (Black)/|
 	TangoDown Stubby BGV-MK46K foregrip (FDE)/|
 	TangoDown Stubby BGV-MK46K foregrip (Stealth Grey)/|
-	Tactical Dynamics Skeletonized Foregrip/|
+	TangoDown Stubby BGV-QDK foregrip (Black)/|
+	TangoDown Stubby BGV-QDK foregrip (FDE)/|
 	Viking Tactics UVG tactical foregrip/|
-	Zenit RK-1 tactical foregrip on B-25U mount/|
 	Zenit RK-0 tactical foregrip/|
+	Zenit RK-1 tactical foregrip on B-25U mount/|
 	Zenit RK-1 tactical foregrip/|
 	Zenit RK-2 tactical foregrip/|
 	Zenit RK-4 tactical foregrip/|
 	Zenit RK-5 tactical foregrip/|
-	Zenit RK-6 tactical foregrip/|
-	RTM Pillau tactical foregrip (Sand)/|
-	RTM Osovets P-2 tactical foregrip (Khaki)/|
-	RTM Osovets P-2 tactical foregrip/|
-	RTM Pillau P-2 tactical foregrip (Red)/|
-	Stark SE-5 Express Forward foregrip (FDE)/|
-	Strike Industries Cobra Tactical foregrip (FDE)/|
-	TangoDown BGV-QDITI foregrip (Black)/|
-	TangoDown BGV-QDITI foregrip (FDE)/|
-	TangoDown Stubby BGV-QDK foregrip (Black)/|
-	TangoDown Stubby BGV-QDK foregrip (FDE)
+	Zenit RK-6 tactical foregrip
 ]
 ChildParts_required=FALSE
 ChildParts=[
@@ -105,18 +105,19 @@ ChildParts=[
 	Holosun LS321 Tactical device/|
 	L3Harris AN/PEQ-15 tactical device/|
 	L3Harris LA-5B/PEQ tactical device/|
+	MAWL-C1+ tactical device/|
 	SureFire XC1 tactical flashlight/|
 	Wilcox RAPTAR ES Tactical Rangefinder/|
-	Zenit Perst-3 tactical device/|
-	MAWL-C1+ tactical device
+	Zenit Perst-3 tactical device
 ]
 ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
-	L3Harris AN/PEQ-15 tactical device/|
 	Insight AN/PEQ-2 tactical device/|
+	L3Harris AN/PEQ-15 tactical device/|
 	L3Harris LA-5B/PEQ tactical device/|
+	MAWL-C1+ tactical device/|
 	NcSTAR Tactical blue laser LAM-module/|
 	Steiner DBAL-PL tactical device/|
 	Steiner LAS/TAC 2 tactical flashlight/|
@@ -127,16 +128,16 @@ ChildParts=[
 	Zenit Klesch-2P flashlight with laser/|
 	Zenit Klesch-2U tactical flashlight/|
 	Zenit Perst-3 tactical device/|
-	Kiba Arms 25mm accessory ring mount/|
-	MAWL-C1+ tactical device
+	Kiba Arms 25mm accessory ring mount
 ]
 ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
-	L3Harris AN/PEQ-15 tactical device/|
 	Insight AN/PEQ-2 tactical device/|
+	L3Harris AN/PEQ-15 tactical device/|
 	L3Harris LA-5B/PEQ tactical device/|
+	MAWL-C1+ tactical device/|
 	NcSTAR Tactical blue laser LAM-module/|
 	Steiner DBAL-PL tactical device/|
 	Steiner LAS/TAC 2 tactical flashlight/|
@@ -147,8 +148,7 @@ ChildParts=[
 	Zenit Klesch-2P flashlight with laser/|
 	Zenit Klesch-2U tactical flashlight/|
 	Zenit Perst-3 tactical device/|
-	Kiba Arms 25mm accessory ring mount/|
-	MAWL-C1+ tactical device
+	Kiba Arms 25mm accessory ring mount
 ]
 ChildParts_required=FALSE
 Recoil=238.000000

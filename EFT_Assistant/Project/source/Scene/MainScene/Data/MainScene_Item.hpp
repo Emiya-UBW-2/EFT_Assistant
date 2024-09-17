@@ -32,6 +32,7 @@ namespace FPS_n2 {
 					this->m_Data.back().SetName(Data);
 				}
 				const auto& GetData() const noexcept { return this->m_Data; }
+				auto& SetData() noexcept { return this->m_Data; }
 				void			CheckData() noexcept;
 			public:
 				void		operator=(const ChildItemSettings& tgt) noexcept {
@@ -179,6 +180,7 @@ namespace FPS_n2 {
 				if (this->m_ContainsItemID.size() > 0) {
 					bool isHit = false;
 					std::vector<std::string> Names;
+					std::sort(m_ContainsItemID.begin(), m_ContainsItemID.end(), [&](const ItemGetData& a, const ItemGetData& b) { return a.GetID() < b.GetID(); });
 					for (auto& m : this->m_ContainsItemID) {
 						std::string NmBuf = m.GetName();
 						if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
@@ -775,10 +777,11 @@ namespace FPS_n2 {
 				outputfile << "propertiestype=" + (std::string)(this->GetTypeName()) + "\n";
 
 				if (this->m_ChildPartsID.size() > 0) {
-					for (const auto& m : this->m_ChildPartsID) {
+					for (auto& m : this->m_ChildPartsID) {
 						if (m.GetData().size() > 0) {
 							outputfile << "ChildParts=[\n";
 							std::vector<std::string> Names;
+							std::sort(m.SetData().begin(), m.SetData().end(), [&](const IDParents<ItemID>& a, const IDParents<ItemID>& b) { return a.GetID() < b.GetID(); });
 							for (const auto& d : m.GetData()) {
 								std::string NmBuf = d.GetName();
 								if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
@@ -795,6 +798,7 @@ namespace FPS_n2 {
 				if (this->m_ConflictPartsID.size() > 0) {
 					bool isHit = false;
 					std::vector<std::string> Names;
+					std::sort(m_ConflictPartsID.begin(), m_ConflictPartsID.end(), [&](const IDParents<ItemID>& a, const IDParents<ItemID>& b) { return a.GetID() < b.GetID(); });
 					for (auto& m : this->m_ConflictPartsID) {
 						std::string NmBuf = m.GetName();
 						if (std::find_if(Names.begin(), Names.end(), [&](std::string& tgt) { return tgt == NmBuf; }) == Names.end()) {
@@ -1171,7 +1175,7 @@ namespace FPS_n2 {
 					}
 				}
 			}
-
+			std::sort(this->m_List.begin(), this->m_List.end(), [&](const ItemList& a, const ItemList& b) { return a.GetID() < b.GetID(); });
 			std::ofstream outputfile("data/item/TraderSell.txt");
 			for (auto& L : this->m_List) {
 				for (const auto& jd : GetJsonDataList()) {

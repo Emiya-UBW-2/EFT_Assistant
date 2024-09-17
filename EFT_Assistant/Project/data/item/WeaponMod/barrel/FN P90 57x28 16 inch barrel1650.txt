@@ -9,9 +9,9 @@ weight=0.800000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 Conflict=[
+	HK 416A5 Midwest Industries 13.5 inch M-LOK handguard/|
 	HK 416A5 MRS KeyMod 14 inch handguard/|
 	HK 416A5 Quad Rail Extended handguard/|
-	HK 416A5 Midwest Industries 13.5 inch M-LOK handguard/|
 	HK 416A5 Strike Industries CRUX 15 inch M-LOK handguard/|
 	HK 416A5 TROY M-LOK 13 inch handguard
 ]

@@ -1,10 +1,10 @@
 Name=Kalashnikov AK-74M 5.45x39 assault rifle Default
 Base=Kalashnikov AK-74M 5.45x39 assault rifle
+Parts=AK-74M 5.45x39 muzzle brake-compensator (6P20 0-20)
 Parts=AK-74 gas tube (6P20 Sb.1-2)
 Parts=AK-74 polymer handguard (6P20 Sb.9)
-Parts=AK-74M 5.45x39 muzzle brake-compensator (6P20 0-20)
+Parts=AK-74M rear sight (6P20 Sb.2)
+Parts=AK-74 5.45x39 6L23 30-round magazine
 Parts=AK polymer pistol grip (6P1 Sb.8)
 Parts=AK-74M dust cover (6P34 0-1)
-Parts=AK-74M rear sight (6P20 Sb.2)
 Parts=AK-74M polymer stock (6P34 Sb.15)
-Parts=AK-74 5.45x39 6L23 30-round magazine

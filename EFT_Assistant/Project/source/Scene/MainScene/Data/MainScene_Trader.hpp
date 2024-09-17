@@ -11,6 +11,7 @@ namespace FPS_n2 {
 		std::vector<IDParents<TaskID>>			m_TaskReq;
 		std::vector<ItemGetData>				m_ItemReq;
 		std::vector<ItemGetData>				m_ItemReward;
+		int										m_Sortvalue{ 0 };
 	};
 	struct TraderLvData {
 		//開放データ

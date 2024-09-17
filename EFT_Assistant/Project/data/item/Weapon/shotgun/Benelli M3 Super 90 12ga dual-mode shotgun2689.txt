@@ -18,15 +18,15 @@ ChildParts=[
 ChildParts_required=TRUE
 ChildParts=[
 	Benelli M3 Super 90 12ga 5-shell magazine cap/|
+	Benelli M3 Super 90 12ga 7-shell magazine/|
 	Benelli M3 Super 90 12ga Toni System 11-shell magazine/|
 	Benelli M3 Super 90 12ga Toni System 13-shell magazine/|
-	Benelli M3 Super 90 12ga Toni System 9-shell magazine/|
-	Benelli M3 Super 90 12ga 7-shell magazine
+	Benelli M3 Super 90 12ga Toni System 9-shell magazine
 ]
 ChildParts_required=TRUE
 ChildParts=[
-	Benelli M3 telescopic stock/|
-	Benelli M3 Mesa Tactical Urbino stock
+	Benelli M3 Mesa Tactical Urbino stock/|
+	Benelli M3 telescopic stock
 ]
 ChildParts_required=TRUE
 ChildParts=[

@@ -14,13 +14,13 @@ ChildParts=[
 ChildParts_required=FALSE
 ChildParts=[
 	Holosun LS321 Tactical device/|
-	L3Harris AN/PEQ-15 tactical device/|
 	Insight AN/PEQ-2 tactical device/|
+	L3Harris AN/PEQ-15 tactical device/|
 	L3Harris LA-5B/PEQ tactical device/|
+	MAWL-C1+ tactical device/|
 	SureFire XC1 tactical flashlight/|
 	Wilcox RAPTAR ES Tactical Rangefinder/|
-	Zenit Perst-3 tactical device/|
-	MAWL-C1+ tactical device
+	Zenit Perst-3 tactical device
 ]
 ChildParts_required=FALSE
 ChildParts=[
@@ -28,33 +28,33 @@ ChildParts=[
 ]
 ChildParts_required=FALSE
 ChildParts=[
+	CNC Guns KeyMod 2 inch rail/|
 	Vltor CASV KeyMod 2 inch rail/|
-	Vltor CASV KeyMod 4 inch rail/|
-	CNC Guns KeyMod 2 inch rail
+	Vltor CASV KeyMod 4 inch rail
 ]
 ChildParts_required=FALSE
 ChildParts=[
+	CNC Guns KeyMod 2 inch rail/|
 	Vltor CASV KeyMod 2 inch rail/|
-	Vltor CASV KeyMod 4 inch rail/|
-	CNC Guns KeyMod 2 inch rail
+	Vltor CASV KeyMod 4 inch rail
 ]
 ChildParts_required=FALSE
 ChildParts=[
+	CNC Guns KeyMod 2 inch rail/|
 	Vltor CASV KeyMod 2 inch rail/|
-	Vltor CASV KeyMod 4 inch rail/|
-	CNC Guns KeyMod 2 inch rail
+	Vltor CASV KeyMod 4 inch rail
 ]
 ChildParts_required=FALSE
 ChildParts=[
+	AR-15 Leapers UTG Low Profile A2 front sight/|
 	HK MP7 flip-up front sight/|
-	KAC Folding Micro front sight/|
 	KAC Folding front sight/|
+	KAC Folding Micro front sight/|
 	KRISS Defiance low profile flip-up front sight/|
-	Magpul MBUS Gen2 flip-up front sight/|
 	Magpul MBUS Gen2 flip-up front sight (FDE)/|
+	Magpul MBUS Gen2 flip-up front sight/|
 	MCX flip-up front sight/|
-	MPX flip-up front sight/|
-	AR-15 Leapers UTG Low Profile A2 front sight
+	MPX flip-up front sight
 ]
 ChildParts_required=FALSE
 Recoil=-1.000000

@@ -10,30 +10,30 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	AK Aeroknox Scorpius pistol grip/|
-	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip/|
-	AK-12 pistol grip/|
 	AK bakelite pistol grip (6P1 Sb.8V)/|
-	AK polymer pistol grip (6P1 Sb.8)/|
-	AKM bakelite pistol grip/|
-	AKM wooden pistol grip/|
 	AK bakelite pistol grip (6P4 Sb.9)/|
-	AK KGB MG-47 pistol grip/|
-	AK KGB MG-47 pistol grip (Anodized Red)/|
-	AK Magpul MOE pistol grip (Black)/|
 	AK bakelite pistol grip/|
+	AK CG101 AR-type pistol grip adapter/|
+	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip/|
+	AK FAB Defense AGR-47 pistol grip/|
+	AK KGB MG-47 pistol grip (Anodized Red)/|
+	AK KGB MG-47 pistol grip/|
+	AK Magpul MOE pistol grip (Black)/|
+	AK Mission First Tactical ENGAGE AK47 pistol grip/|
+	AK polymer pistol grip (6P1 Sb.8)/|
+	AK PUFGUN SG-M2 pistol grip/|
 	AK Strike Industries Enhanced Pistol Grip (Black)/|
 	AK Strike Industries Enhanced Pistol Grip (FDE)/|
+	AK TangoDown Battle Grip pistol grip (FDE)/|
+	AK TangoDown Battle Grip pistol grip/|
 	AK TAPCO SAW-Style pistol grip (Black)/|
 	AK TAPCO SAW-Style pistol grip (FDE)/|
 	AK US Palm pistol grip/|
 	AK Zenit RK-3 pistol grip/|
-	PP-19-01 Vityaz pistol grip/|
-	AK FAB Defense AGR-47 pistol grip/|
-	AK TangoDown Battle Grip pistol grip (FDE)/|
-	AK TangoDown Battle Grip pistol grip/|
-	AK Mission First Tactical ENGAGE AK47 pistol grip/|
-	AK CG101 AR-type pistol grip adapter/|
-	AK PUFGUN SG-M2 pistol grip
+	AK-12 pistol grip/|
+	AKM bakelite pistol grip/|
+	AKM wooden pistol grip/|
+	PP-19-01 Vityaz pistol grip
 ]
 ChildParts_required=TRUE
 ChildParts=[
@@ -48,25 +48,25 @@ ChildParts=[
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	Saiga-9 9x19 sb.7 10-round magazine/|
 	PP-19-01 Vityaz 9x19 30-round magazine/|
 	PP-19-01 Vityaz 9x19 PUFGUN SG-919 20 20-round magazine/|
-	PP-19-01 Vityaz 9x19 PUFGUN SG-919 30 30-round magazine
+	PP-19-01 Vityaz 9x19 PUFGUN SG-919 30 30-round magazine/|
+	Saiga-9 9x19 sb.7 10-round magazine
 ]
 ChildParts_required=FALSE
 ChildParts=[
+	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
 	PP-19-01 Vityaz 9x19 muzzle brake-compensator/|
 	Saiga-9 9x19 muzzle brake-compensator/|
-	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
+	PP-19-01 Vityaz 9x19 sound suppressor/|
 	Rotor 43 9x19 muzzle brake-compensator/|
 	SIG Sauer SRD9 9x19 sound suppressor/|
-	SilencerCo Osprey 9 9x19 sound suppressor/|
-	PP-19-01 Vityaz 9x19 sound suppressor
+	SilencerCo Osprey 9 9x19 sound suppressor
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	PP-19-01 Vityaz-SN dust cover/|
-	PP-19-01 Vityaz dust cover
+	PP-19-01 Vityaz dust cover/|
+	PP-19-01 Vityaz-SN dust cover
 ]
 ChildParts_required=FALSE
 ChildParts=[
@@ -74,23 +74,23 @@ ChildParts=[
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
-	BelOMO PK-AA dovetail reflex sight/|
-	OKP-7 reflex sight (Dovetail)/|
-	NPZ PK1 Obzor dovetail reflex sight/|
-	BelOMO PSO-1 4x24 scope/|
-	BelOMO PSO-1M2-1 4x24 scope/|
-	BelOMO PSO-1M2 4x24 scope/|
-	NPZ USP-1 Tyulpan 4x scope/|
-	NSPU-M 3.5x dovetail night vision scope/|
 	Axion Kobra dovetail mount/|
 	KMZ 1P59 dovetail mount/|
 	NPZ 1P78-1 dovetail mount/|
+	RS Regulate AK-303M Full Length Lower dovetail mount/|
+	SAG Bit low profile dovetail sidemount/|
 	VOMZ Pilad 043-02 dovetail mount/|
 	Zenit B-13V "Klassika" dovetail rail platform/|
-	SAG Bit low profile dovetail sidemount/|
 	Axion Kobra EKP-1S-03 reflex sight (Dovetail)/|
-	RS Regulate AK-303M Full Length Lower dovetail mount
+	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
+	BelOMO PK-AA dovetail reflex sight/|
+	NPZ PK1 Obzor dovetail reflex sight/|
+	OKP-7 reflex sight (Dovetail)/|
+	BelOMO PSO-1 4x24 scope/|
+	BelOMO PSO-1M2 4x24 scope/|
+	BelOMO PSO-1M2-1 4x24 scope/|
+	NPZ USP-1 Tyulpan 4x scope/|
+	NSPU-M 3.5x dovetail night vision scope
 ]
 ChildParts_required=FALSE
 ChildParts=[

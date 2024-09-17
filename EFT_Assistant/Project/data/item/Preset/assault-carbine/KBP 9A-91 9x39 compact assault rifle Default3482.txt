@@ -10,12 +10,12 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	KBP 9A-91 9x39 compact assault riflex1/|
-	9A-91 9x39 20-round magazinex1/|
-	9A-91 pistol gripx1/|
-	9A-91 top-folding stockx1/|
 	9A-91 9x39 barrelx1/|
 	9A-91 handguard retainerx1/|
-	9A-91 handguardx1
+	9A-91 handguardx1/|
+	9A-91 9x39 20-round magazinex1/|
+	9A-91 pistol gripx1/|
+	9A-91 top-folding stockx1
 ]
 Name_Jpn=KBP 9A-91 9x39 compact assault rifle デフォルト
 Information_Jpn=

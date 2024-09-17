@@ -1,8 +1,8 @@
 Name=SV-98 7.62x54R bolt-action sniper rifle Default
 Base=SV-98 7.62x54R bolt-action sniper rifle
-Parts=SV-98 7.62x54R 10-round magazine
-Parts=SV-98 rear sight
 Parts=SV-98 anti-heat ribbon
-Parts=SV-98 7.62x54R muzzle device
-Parts=SV-98 wooden stock
 Parts=SV-98 bipod
+Parts=SV-98 7.62x54R muzzle device
+Parts=SV-98 rear sight
+Parts=SV-98 7.62x54R 10-round magazine
+Parts=SV-98 wooden stock

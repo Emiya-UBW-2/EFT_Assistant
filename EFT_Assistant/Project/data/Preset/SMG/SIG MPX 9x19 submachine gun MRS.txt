@@ -1,13 +1,13 @@
 Name=SIG MPX 9x19 submachine gun MRS
 Base=SIG MPX 9x19 submachine gun
-Parts=AR-15 HK Battle Grip Beavertail pistol grip
-Parts=MPX GEN1 9x19 upper receiver
 Parts=MPX 9x19 203mm barrel
+Parts=MPX single latch charging handle
 Parts=MPX A2 9x19 flash hider
 Parts=MPX Midwest Industries 6.5 inch M-LOK handguard
 Parts=MPX flip-up front sight
 Parts=MPX flip-up rear sight
-Parts=Walther MRS reflex sight
-Parts=MPX single latch charging handle
 Parts=MPX 9x19 30-round magazine
+Parts=AR-15 HK Battle Grip Beavertail pistol grip
+Parts=MPX GEN1 9x19 upper receiver
+Parts=Walther MRS reflex sight
 Parts=MPX/MCX PMM ULSS foldable stock

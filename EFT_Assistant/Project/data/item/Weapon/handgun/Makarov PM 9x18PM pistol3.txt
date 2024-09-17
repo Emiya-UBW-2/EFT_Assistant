@@ -19,10 +19,10 @@ ChildParts=[
 ChildParts_required=TRUE
 ChildParts=[
 	PM bakelite grip/|
-	PM FAB Defense PM-G pistol grip/|
-	PM Tactic Kit pistol grip/|
 	PM FAB Defense PM-G pistol grip (Olive Drab)/|
-	PM PM-Laser grip with laser sight
+	PM FAB Defense PM-G pistol grip/|
+	PM PM-Laser grip with laser sight/|
+	PM Tactic Kit pistol grip
 ]
 ChildParts_required=TRUE
 Recoil=380.000000

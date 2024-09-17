@@ -11,8 +11,8 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	HK MP5 B&T TL-99 aluminum handguard/|
 	HK MP5 CAA HX-5 handguard/|
-	HK MP5 Wide Tropical polymer handguard/|
-	HK MP5 PTR Tri-Rail handguard
+	HK MP5 PTR Tri-Rail handguard/|
+	HK MP5 Wide Tropical polymer handguard
 ]
 ChildParts_required=TRUE
 ChildParts=[
@@ -31,8 +31,8 @@ ChildParts=[
 ]
 ChildParts_required=TRUE
 ChildParts=[
-	HK MP5 MFI HK universal low profile scope mount/|
-	HK MP5 B&T tri-rail receiver mount
+	HK MP5 B&T tri-rail receiver mount/|
+	HK MP5 MFI HK universal low profile scope mount
 ]
 ChildParts_required=FALSE
 Recoil=0.000000

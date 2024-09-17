@@ -9,9 +9,9 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
-	S&S Precision PlateFrame plate carrier (Goons Edition)x1/|
-	GAC 3s15m ballistic platex1/|
-	SSAPI level III+ ballistic plate (Side)x1
+	GAC 3s15m ballistic platex2/|
+	SSAPI level III+ ballistic plate (Side)x2/|
+	S&S Precision PlateFrame plate carrier (Goons Edition)x1
 ]
 Name_Jpn=S&S Precision PlateFrame plate carrier (Goons Edition) デフォルト
 Information_Jpn=

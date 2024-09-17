@@ -10,10 +10,10 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	Serdyukov SR-1MP Gyurza 9x21 pistolx1/|
+	SR-1MP 9x21 18-round magazinex1/|
 	SR-1MP quad rail mountx1/|
 	SR-1MP sound suppressor mountx1/|
-	SR-1MP 9x21 sound suppressorx1/|
-	SR-1MP 9x21 18-round magazinex1
+	SR-1MP 9x21 sound suppressorx1
 ]
 Name_Jpn=Serdyukov SR-1MP Gyurza 9x21 pistol Tactical 2
 Information_Jpn=

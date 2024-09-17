@@ -9,8 +9,8 @@ weight=0.062000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
-	MPX/MCX Folding Knuckle Stock Adapter/|
 	MPX/MCX Collapsing/Telescoping Stock/|
+	MPX/MCX Folding Knuckle Stock Adapter/|
 	MPX/MCX Stock Locking Hinge Assembly/|
 	MPX/MCX Telescoping/Folding Stock/|
 	MPX/MCX Thin Side-Folding Stock/|

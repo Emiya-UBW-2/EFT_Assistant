@@ -10,10 +10,10 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 Conflict=[
 	Glock 17 pistol slide/|
-	Glock Moto Cut pistol slide/|
-	Glock Viper Cut pistol slide/|
 	Glock Lone Wolf AlphaWolf pistol slide/|
+	Glock Moto Cut pistol slide/|
 	Glock Polymer80 PS9 pistol slide/|
+	Glock Viper Cut pistol slide/|
 	Glock ZEV Tech HEX Gen3 RMR pistol slide/|
 	Glock ZEV Tech HEX Spartan RMR pistol slide
 ]

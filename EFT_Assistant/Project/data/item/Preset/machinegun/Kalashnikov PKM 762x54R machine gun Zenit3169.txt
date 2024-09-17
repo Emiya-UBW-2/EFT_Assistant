@@ -10,16 +10,16 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	Kalashnikov PKM 7.62x54R machine gunx1/|
-	PK pistol gripx1/|
 	PKM 7.62x54R 658mm barrelx1/|
 	PK Zenit DTK-1P 7.62x54R muzzle brakex1/|
-	PK 7.62x54R 100-round boxx1/|
-	PK Zenit PT-2 "Klassika" stockx1/|
-	AK polymer pistol grip (6P1 Sb.8)x1/|
-	PK rear sightx1/|
-	PK Zenit B-50 handguardx1/|
 	Zenit RK-1 tactical foregrip on B-25U mountx1/|
-	PK Zenit B-50 16mm top mountx1
+	PK Zenit B-50 handguardx1/|
+	PK rear sightx1/|
+	PK 7.62x54R 100-round boxx1/|
+	PK Zenit B-50 16mm top mountx1/|
+	AK polymer pistol grip (6P1 Sb.8)x1/|
+	PK pistol gripx1/|
+	PK Zenit PT-2 "Klassika" stockx1
 ]
 Name_Jpn=Kalashnikov PKM 7.62x54R マシンガン Zenit
 Information_Jpn=

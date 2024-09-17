@@ -39,15 +39,15 @@ ChildParts=[
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	Magpul M-LOK 4.1 inch rail/|
-	Magpul M-LOK AFG tactical foregrip (Black)/|
-	Magpul M-LOK AFG tactical foregrip (FDE)/|
-	Magpul M-LOK AFG tactical foregrip (Stealth Grey)/|
-	Magpul M-LOK AFG tactical foregrip (Olive Drab)/|
+	BCM GUNFIGHTER MOD 3 M-LOK foregrip (Black)/|
+	BCM GUNFIGHTER MOD 3 M-LOK foregrip (FDE)/|
 	Daniel Defense Enhanced M-LOK Vertical Foregrip (Black)/|
 	Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown)/|
-	BCM GUNFIGHTER MOD 3 M-LOK foregrip (Black)/|
-	BCM GUNFIGHTER MOD 3 M-LOK foregrip (FDE)
+	Magpul M-LOK AFG tactical foregrip (Black)/|
+	Magpul M-LOK AFG tactical foregrip (FDE)/|
+	Magpul M-LOK AFG tactical foregrip (Olive Drab)/|
+	Magpul M-LOK AFG tactical foregrip (Stealth Grey)/|
+	Magpul M-LOK 4.1 inch rail
 ]
 ChildParts_required=FALSE
 ChildParts=[
@@ -60,11 +60,11 @@ ChildParts=[
 ChildParts_required=FALSE
 ChildParts=[
 	HK MP7 flip-up front sight/|
-	KAC Folding Micro front sight/|
 	KAC Folding front sight/|
+	KAC Folding Micro front sight/|
 	KRISS Defiance low profile flip-up front sight/|
-	Magpul MBUS Gen2 flip-up front sight/|
 	Magpul MBUS Gen2 flip-up front sight (FDE)/|
+	Magpul MBUS Gen2 flip-up front sight/|
 	MCX flip-up front sight/|
 	MPX flip-up front sight
 ]

@@ -10,8 +10,8 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	M60E4 pistol grip/|
-	M60E6 pistol grip/|
-	M60E6 pistol grip (FDE)
+	M60E6 pistol grip (FDE)/|
+	M60E6 pistol grip
 ]
 ChildParts_required=TRUE
 Recoil=0.000000

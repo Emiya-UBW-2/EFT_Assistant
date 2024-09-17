@@ -9,11 +9,11 @@ weight=0.820000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 ChildParts=[
-	SKS FAB Defense UAS chassis/|
 	OP-SKS wooden stock/|
+	SKS ATI Monte Carlo stock/|
+	SKS FAB Defense UAS chassis/|
 	SKS TAPCO Intrafuse chassis/|
-	SKS TOZ wooden stock (56-A-231 Sb.5)/|
-	SKS ATI Monte Carlo stock
+	SKS TOZ wooden stock (56-A-231 Sb.5)
 ]
 ChildParts_required=TRUE
 ChildParts=[
@@ -22,10 +22,10 @@ ChildParts=[
 ]
 ChildParts_required=TRUE
 ChildParts=[
+	SKS 7.62x39 10-round internal box magazine/|
 	SKS 7.62x39 KCI 75-round drum magazine/|
 	SKS 7.62x39 ProMag AALVX 35-round magazine/|
-	SKS 7.62x39 TAPCO 6610 20-round magazine/|
-	SKS 7.62x39 10-round internal box magazine
+	SKS 7.62x39 TAPCO 6610 20-round magazine
 ]
 ChildParts_required=FALSE
 ChildParts=[

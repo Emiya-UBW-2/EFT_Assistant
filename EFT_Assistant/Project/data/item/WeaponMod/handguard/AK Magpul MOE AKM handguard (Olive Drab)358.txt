@@ -9,21 +9,21 @@ weight=0.221000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
+	BCM GUNFIGHTER MOD 3 M-LOK foregrip (Black)/|
+	BCM GUNFIGHTER MOD 3 M-LOK foregrip (FDE)/|
+	Daniel Defense Enhanced M-LOK Vertical Foregrip (Black)/|
+	Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown)/|
 	Magpul M-LOK AFG tactical foregrip (Black)/|
 	Magpul M-LOK AFG tactical foregrip (FDE)/|
 	Magpul M-LOK AFG tactical foregrip (Olive Drab)/|
 	Magpul M-LOK AFG tactical foregrip (Stealth Grey)/|
-	Magpul M-LOK 4.1 inch rail/|
-	Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown)/|
-	Daniel Defense Enhanced M-LOK Vertical Foregrip (Black)/|
-	BCM GUNFIGHTER MOD 3 M-LOK foregrip (Black)/|
-	BCM GUNFIGHTER MOD 3 M-LOK foregrip (FDE)
+	Magpul M-LOK 4.1 inch rail
 ]
 ChildParts_required=FALSE
 ChildParts=[
+	Magpul M-LOK 0.93 inch rail/|
 	Magpul M-LOK 2.5 inch rail/|
-	Magpul M-LOK Cantilever Mount/|
-	Magpul M-LOK 0.93 inch rail
+	Magpul M-LOK Cantilever Mount
 ]
 ChildParts_required=FALSE
 Recoil=-2.000000

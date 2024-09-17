@@ -15,8 +15,8 @@ ChildParts=[
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	VOMZ Pilad TargetRing reflex sight/|
-	ETMI-019 shotgun rail mount
+	ETMI-019 shotgun rail mount/|
+	VOMZ Pilad TargetRing reflex sight
 ]
 ChildParts_required=FALSE
 Recoil=-10.000000

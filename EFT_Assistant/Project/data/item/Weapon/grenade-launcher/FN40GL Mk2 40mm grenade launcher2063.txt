@@ -9,29 +9,29 @@ weight=2.920000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 ChildParts=[
+	AR-15 Aeroknox Orion pistol grip/|
 	AR-15 Colt A2 pistol grip/|
 	AR-15 Damage Industries ECS pistol grip (FDE)/|
 	AR-15 F1 Firearms Skeletonized Style 1 pistol grip/|
 	AR-15 F1 Firearms Skeletonized Style 2 PC pistol grip/|
 	AR-15 F1 Firearms Skeletonized Style 2 pistol grip/|
 	AR-15 HK Battle Grip pistol grip/|
+	AR-15 Magpul MIAD pistol grip (FDE)/|
+	AR-15 Tactical Dynamics Hexgrip pistol grip/|
+	AR-15 Tactical Dynamics Skeletonized pistol grip/|
 	Hogue OverMolded Rubber Grip (Black)/|
 	Hogue OverMolded Rubber Grip (FDE)/|
 	Hogue OverMolded Rubber Grip (Ghillie Earth)/|
 	Hogue OverMolded Rubber Grip (Ghillie Green)/|
-	Hogue OverMolded Rubber Grip (Olive Drab)/|
-	AR-15 Magpul MIAD pistol grip (FDE)/|
-	AR-15 Tactical Dynamics Hexgrip pistol grip/|
-	AR-15 Tactical Dynamics Skeletonized pistol grip/|
-	AR-15 Aeroknox Orion pistol grip
+	Hogue OverMolded Rubber Grip (Olive Drab)
 ]
 ChildParts_required=TRUE
 ChildParts=[
 	HK MP7 flip-up front sight/|
-	KAC Folding Micro front sight/|
 	KAC Folding front sight/|
-	Magpul MBUS Gen2 flip-up front sight/|
+	KAC Folding Micro front sight/|
 	Magpul MBUS Gen2 flip-up front sight (FDE)/|
+	Magpul MBUS Gen2 flip-up front sight/|
 	MPX flip-up front sight
 ]
 ChildParts_required=FALSE
@@ -40,8 +40,8 @@ ChildParts=[
 	HK MP7 flip-up rear sight/|
 	KAC Folding Micro rear sight/|
 	KAC Folding rear sight/|
-	Magpul MBUS Gen2 flip-up rear sight/|
 	Magpul MBUS Gen2 flip-up rear sight (FDE)/|
+	Magpul MBUS Gen2 flip-up rear sight/|
 	MPX flip-up rear sight
 ]
 ChildParts_required=FALSE
@@ -51,23 +51,24 @@ ChildParts=[
 ChildParts_required=FALSE
 ChildParts=[
 	Holosun LS321 Tactical device/|
-	L3Harris AN/PEQ-15 tactical device/|
 	Insight AN/PEQ-2 tactical device/|
+	L3Harris AN/PEQ-15 tactical device/|
 	L3Harris LA-5B/PEQ tactical device/|
+	MAWL-C1+ tactical device/|
 	Wilcox RAPTAR ES Tactical Rangefinder/|
-	Zenit Perst-3 tactical device/|
-	MAWL-C1+ tactical device
+	Zenit Perst-3 tactical device
 ]
 ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
+	Insight WMX200 tactical flashlight/|
 	L3Harris AN/PEQ-15 tactical device/|
 	L3Harris LA-5B/PEQ tactical device/|
-	Insight WMX200 tactical flashlight/|
+	MAWL-C1+ tactical device/|
 	NcSTAR Tactical blue laser LAM-module/|
-	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
+	Olight Baldr Pro tactical flashlight with laser/|
 	Steiner DBAL-PL tactical device/|
 	Steiner LAS/TAC 2 tactical flashlight/|
 	SureFire X400 Ultra tactical flashlight with laser/|
@@ -77,19 +78,18 @@ ChildParts=[
 	Zenit Klesch-2U tactical flashlight/|
 	Zenit Perst-3 tactical device/|
 	Daniel Defense 25mm accessory ring mount/|
-	Kiba Arms 25mm accessory ring mount/|
-	MAWL-C1+ tactical device
+	Kiba Arms 25mm accessory ring mount
 ]
 ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
+	Insight WMX200 tactical flashlight/|
 	L3Harris AN/PEQ-15 tactical device/|
 	L3Harris LA-5B/PEQ tactical device/|
-	Insight WMX200 tactical flashlight/|
 	NcSTAR Tactical blue laser LAM-module/|
-	Olight Baldr Pro tactical flashlight with laser/|
 	Olight Baldr Pro tactical flashlight with laser (Tan)/|
+	Olight Baldr Pro tactical flashlight with laser/|
 	Steiner DBAL-PL tactical device/|
 	Steiner LAS/TAC 2 tactical flashlight/|
 	SureFire X400 Ultra tactical flashlight with laser/|

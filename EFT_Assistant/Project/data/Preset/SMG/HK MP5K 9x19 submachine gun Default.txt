@@ -1,8 +1,8 @@
 Name=HK MP5K 9x19 submachine gun Default
 Base=HK MP5K 9x19 submachine gun
-Parts=HK MP5 9x19 20-round magazine
-Parts=HK MP5K 9x19 upper receiver
+Parts=HK MP5K cocking handle
 Parts=HK MP5K polymer handguard
 Parts=HK MP5 Drum rear sight
+Parts=HK MP5 9x19 20-round magazine
+Parts=HK MP5K 9x19 upper receiver
 Parts=HK MP5K End Cap stock
-Parts=HK MP5K cocking handle

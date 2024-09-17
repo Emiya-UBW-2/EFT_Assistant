@@ -9,20 +9,20 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
-	PP-19-01 Vityaz 9x19 submachine gunx1/|
-	AK polymer pistol grip (6P1 Sb.8)x1/|
-	AK-74M/AK-100 Zenit PT Lockx1/|
-	AK Zenit PT-1 "Klassika" stockx1/|
-	PP-19-01 Vityaz 9x19 30-round magazinex1/|
 	9x19mm Pst gzhx30/|
-	PP-19-01 Vityaz 9x19 sound suppressorx1/|
-	PP-19-01 Vityaz-SN dust coverx1/|
+	PP-19-01 Vityaz 9x19 submachine gunx1/|
+	Aimpoint Micro T-1 reflex sightx1/|
+	Zenit RK-0 tactical foregripx1/|
 	PP-19-01 Vityaz gas tubex1/|
 	AK Zenit B-10 Handguardx1/|
-	Zenit RK-0 tactical foregripx1/|
-	AK Zenit B-12 Mountx1/|
+	PP-19-01 Vityaz 9x19 30-round magazinex1/|
 	Aimpoint Micro Standard Mountx1/|
-	Aimpoint Micro T-1 reflex sightx1
+	AK Zenit B-12 Mountx1/|
+	AK polymer pistol grip (6P1 Sb.8)x1/|
+	PP-19-01 Vityaz-SN dust coverx1/|
+	PP-19-01 Vityaz 9x19 sound suppressorx1/|
+	AK Zenit PT-1 "Klassika" stockx1/|
+	AK-74M/AK-100 Zenit PT Lockx1
 ]
 Name_Jpn=PP-19-01 "ヴィチャズ" 9x19 サブマシンガン FSB
 Information_Jpn=

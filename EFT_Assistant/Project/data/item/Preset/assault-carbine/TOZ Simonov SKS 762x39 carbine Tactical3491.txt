@@ -10,19 +10,19 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	TOZ Simonov SKS 7.62x39 carbinex1/|
-	SKS ATI Monte Carlo stockx1/|
 	SKS 7.62x39 520mm barrelx1/|
-	SKS upper bandx1/|
+	SKS Weapon Tuning 7.62x39 thread adapterx1/|
+	Zenit Perst-3 tactical devicex1/|
 	SKS gas tubex1/|
 	SKS ATI Monte Carlo gas tube coverx1/|
 	SKS rear sightx1/|
-	SKS Leapers UTG SOCOM rail mountx1/|
-	Zenit Perst-3 tactical devicex1/|
-	SKS Weapon Tuning 7.62x39 thread adapterx1/|
-	AKM Zenit DTK-4M 7.62x39 sound suppressorx1/|
 	SKS 7.62x39 TAPCO 6610 20-round magazinex1/|
+	SKS Leapers UTG SOCOM rail mountx1/|
+	SKS upper bandx1/|
 	SKS Leapers UTG PRO MTU017 receiver cover mountx1/|
-	Valday Krechet reflex sightx1
+	Valday Krechet reflex sightx1/|
+	AKM Zenit DTK-4M 7.62x39 sound suppressorx1/|
+	SKS ATI Monte Carlo stockx1
 ]
 Name_Jpn=SKS 7.62x39 カービン Tactical
 Information_Jpn=

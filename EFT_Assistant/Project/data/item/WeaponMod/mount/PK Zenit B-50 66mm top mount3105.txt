@@ -9,16 +9,17 @@ weight=0.135000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
-	BelOMO PK-06 reflex sight/|
 	Holosun LS321 Tactical device/|
-	L3Harris AN/PEQ-15 tactical device/|
 	Insight AN/PEQ-2 tactical device/|
+	L3Harris AN/PEQ-15 tactical device/|
 	L3Harris LA-5B/PEQ tactical device/|
+	MAWL-C1+ tactical device/|
 	Wilcox RAPTAR ES Tactical Rangefinder/|
 	Zenit Perst-3 tactical device/|
-	Aimpoint Micro Standard Mount/|
-	Aimpoint Micro H-2 Standard Mount/|
+	BelOMO PK-06 reflex sight/|
 	Aimpoint LRP mount for CompM4 sights/|
+	Aimpoint Micro H-2 Standard Mount/|
+	Aimpoint Micro Standard Mount/|
 	Aimpoint QRP2 mount for CompM4/PRO sights/|
 	B&T QD NAR mount for Aimpoint ACRO/|
 	Burris FastFire Weaver Base/|
@@ -33,12 +34,11 @@ ChildParts=[
 	Leapers UTG reflex sight/|
 	SIG Sauer ROMEO8T reflex sight/|
 	Trijicon SRS-02 reflex sight/|
-	Valday PK-120 (1P87) holographic sight/|
 	Valday Krechet reflex sight/|
+	Valday PK-120 (1P87) holographic sight/|
 	VOMZ Pilad P1x42 Weaver reflex sight/|
 	Vortex Razor AMG UH-1 holographic sight/|
 	Walther MRS reflex sight/|
-	MAWL-C1+ tactical device/|
 	Wilcox BOSS Xe reflex sight
 ]
 ChildParts_required=FALSE

@@ -9,8 +9,8 @@ weight=0.790000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 ChildParts=[
-	SR-1MP single rail mount/|
-	SR-1MP quad rail mount
+	SR-1MP quad rail mount/|
+	SR-1MP single rail mount
 ]
 ChildParts_required=FALSE
 ChildParts=[

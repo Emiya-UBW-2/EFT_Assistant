@@ -9,13 +9,13 @@ weight=0.350000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
-	FN SCAR retractable polymer stock/|
-	FN SCAR retractable polymer stock (FDE)
+	FN SCAR retractable polymer stock (FDE)/|
+	FN SCAR retractable polymer stock
 ]
 ChildParts_required=TRUE
 ChildParts=[
-	FN SCAR cheek rest/|
-	FN SCAR cheek rest (FDE)
+	FN SCAR cheek rest (FDE)/|
+	FN SCAR cheek rest
 ]
 ChildParts_required=FALSE
 Recoil=-4.000000

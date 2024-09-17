@@ -12,12 +12,12 @@ Conflict=[
 	Ops-Core FAST RAC Headset/|
 	TW EXFIL Peltor ComTac V headset (OD Green)/|
 	TW EXFIL Peltor ComTac VI headset (Coyote Brown)/|
-	SSh-68 steel helmet (Olive Drab)/|
-	Ushanka ear flap hat/|
-	MIL-TEC boonie hat/|
+	Door Kicker boonie hat/|
 	Jack Pyke Hunting LLCS boonie hat/|
+	MIL-TEC boonie hat/|
+	SSh-68 steel helmet (Olive Drab)/|
 	Stich Profi Chimera boonie hat/|
-	Door Kicker boonie hat
+	Ushanka ear flap hat
 ]
 Name_Jpn=Walker's XCEL 500BT Digital headset
 Information_Jpn=周辺環境音をひずみを生じさせることなく電子的に最適化するアクティブ式聴覚保護デバイス

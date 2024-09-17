@@ -1,7 +1,7 @@
 Name=FN Five-seveN MK2 5.7x28 pistol Default
 Base=FN Five-seveN MK2 5.7x28 pistol
 Parts=FN Five-seveN 5.7x28 barrel
-Parts=FN Five-seveN MK2 pistol slide
-Parts=FN Five-seveN MK2 rear sight
 Parts=FN Five-seveN MK2 front sight
+Parts=FN Five-seveN MK2 rear sight
 Parts=FN Five-seveN 5.7x28 20-round magazine
+Parts=FN Five-seveN MK2 pistol slide

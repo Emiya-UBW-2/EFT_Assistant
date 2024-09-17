@@ -25,9 +25,9 @@ ChildParts=[
 ]
 ChildParts_required=FALSE
 Conflict=[
-	Hera Arms CQR tactical foregrip/|
 	HK G36 5.56x45 318mm barrel/|
-	HK G36 5.56x45 480mm barrel
+	HK G36 5.56x45 480mm barrel/|
+	Hera Arms CQR tactical foregrip
 ]
 Recoil=0.000000
 Ergonomics=12.000000

@@ -9,30 +9,30 @@ weight=0.624000
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
 ChildParts=[
+	Wilcox RAPTAR ES Tactical Rangefinder/|
 	BelOMO PK-06 reflex sight/|
-	Aimpoint Micro Standard Mount/|
 	Aimpoint Micro H-2 Standard Mount/|
+	Aimpoint Micro Standard Mount/|
 	Burris FastFire Weaver Base/|
 	DeltaPoint Cross Slot Mount base/|
-	Trijicon RMR low profile mount/|
-	Wilcox RAPTAR ES Tactical Rangefinder
+	Trijicon RMR low profile mount
 ]
 ChildParts_required=FALSE
 ChildParts=[
+	Glock GTL 21 tactical flashlight with laser/|
 	Insight WMX200 tactical flashlight/|
+	MAWL-C1+ tactical device/|
 	NcSTAR Tactical blue laser LAM-module/|
-	Kiba Arms 25mm accessory ring mount/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Olight Baldr Pro tactical flashlight with laser/|
 	Steiner DBAL-PL tactical device/|
-	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Steiner LAS/TAC 2 tactical flashlight/|
-	SureFire XC1 tactical flashlight/|
 	SureFire X400 Ultra tactical flashlight with laser/|
+	SureFire XC1 tactical flashlight/|
 	Zenit Klesch-2IKS IR illuminator with laser/|
 	Zenit Klesch-2P flashlight with laser/|
 	Zenit Klesch-2U tactical flashlight/|
-	Glock GTL 21 tactical flashlight with laser/|
-	MAWL-C1+ tactical device
+	Kiba Arms 25mm accessory ring mount
 ]
 ChildParts_required=FALSE
 Recoil=0.000000

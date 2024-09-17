@@ -9,31 +9,31 @@ weight=0.064000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 Conflict=[
-	AR-15 Noveske KX3 5.56x45 flash hider/|
-	AR-15 PWS CQB 5.56x45 muzzle brake/|
-	Ferfrans CRD 5.56x45 Concussion Reduction Device/|
+	Soyuz-TM STM-9 Gen.2 9x19 carbine/|
+	AR-15 5.56x45 18 inch barrel/|
+	AR-15 5.56x45 20 inch barrel/|
+	AR-15 Hanson Carbine 5.56x45 13.7 inch barrel/|
+	AR-15 Hanson Carbine 5.56x45 16 inch barrel/|
 	Gemtech ONE Direct Thread Mount adapter/|
 	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
-	Rotor 43 5.56x45 muzzle brake-compensator/|
+	AR-15 Noveske KX3 5.56x45 flash hider/|
+	AR-15 PWS CQB 5.56x45 muzzle brake/|
+	AR-15 SureFire Warden 5.56x45 blast regulator/|
+	Ferfrans CRD 5.56x45 Concussion Reduction Device/|
 	AAC 762-SDN-6 multi-caliber sound suppressor/|
-	SilencerCo Saker ASR 556 5.56x45 sound suppressor/|
+	AR-15 Griffin Armament M4SD-K 5.56x45 sound suppressor/|
+	AWC Thor PSR XL multi-caliber sound suppressor/|
+	Daniel Defense WAVE QD sound suppressor/|
+	KAC PRS/QDC 7.62x51 sound suppressor/|
+	KAC QDC 5.56x45 sound suppressor/|
 	KAC QDSS NT-4 5.56x45 sound suppressor (Black)/|
 	KAC QDSS NT-4 5.56x45 sound suppressor (FDE)/|
-	KAC PRS/QDC 7.62x51 sound suppressor/|
+	Rotor 43 5.56x45 muzzle brake-compensator/|
+	SilencerCo Saker ASR 556 5.56x45 sound suppressor/|
 	SureFire SOCOM556-MINI MONSTER 5.56x45 sound suppressor/|
 	SureFire SOCOM556-MONSTER 5.56x45 sound suppressor/|
 	SureFire SOCOM556-RC2 5.56x45 sound suppressor/|
-	Thunder Beast Arms Ultra 5 sound suppressor/|
-	Daniel Defense WAVE QD sound suppressor/|
-	AR-15 5.56x45 18 inch barrel/|
-	AR-15 5.56x45 20 inch barrel/|
-	Soyuz-TM STM-9 Gen.2 9x19 carbine/|
-	KAC QDC 5.56x45 sound suppressor/|
-	AR-15 SureFire Warden 5.56x45 blast regulator/|
-	AR-15 Griffin Armament M4SD-K 5.56x45 sound suppressor/|
-	AWC Thor PSR XL multi-caliber sound suppressor/|
-	AR-15 Hanson Carbine 5.56x45 13.7 inch barrel/|
-	AR-15 Hanson Carbine 5.56x45 16 inch barrel
+	Thunder Beast Arms Ultra 5 sound suppressor
 ]
 Recoil=-6.000000
 Ergonomics=-2.000000

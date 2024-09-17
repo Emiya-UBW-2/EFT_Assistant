@@ -1,8 +1,8 @@
 Name=Glock 17 9x19 pistol Hex
 Base=Glock 17 9x19 pistol
 Parts=Glock 9x19 Lone Wolf AlphaWolf threaded barrel
-Parts=Glock 9x19 CARVER Custom 4 Port compensator
-Parts=Glock ZEV Tech HEX Gen3 RMR pistol slide
-Parts=Trijicon RMR reflex sight
-Parts=Glock 9x19 17-round magazine
 Parts=SureFire X400 Ultra tactical flashlight with laser
+Parts=Trijicon RMR reflex sight
+Parts=Glock 9x19 CARVER Custom 4 Port compensator
+Parts=Glock 9x19 17-round magazine
+Parts=Glock ZEV Tech HEX Gen3 RMR pistol slide

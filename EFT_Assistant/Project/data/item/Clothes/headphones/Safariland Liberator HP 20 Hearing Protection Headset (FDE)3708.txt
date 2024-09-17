@@ -9,12 +9,12 @@ weight=0.340000
 fleaMarketFee=0
 propertiestype=
 Conflict=[
-	SSh-68 steel helmet (Olive Drab)/|
-	Ushanka ear flap hat/|
-	MIL-TEC boonie hat/|
+	Door Kicker boonie hat/|
 	Jack Pyke Hunting LLCS boonie hat/|
+	MIL-TEC boonie hat/|
+	SSh-68 steel helmet (Olive Drab)/|
 	Stich Profi Chimera boonie hat/|
-	Door Kicker boonie hat
+	Ushanka ear flap hat
 ]
 Name_Jpn=Safariland Liberator HP 2.0 Hearing Protection Headset (FDE)
 Information_Jpn=A next generation low-profile active headset, designed to protect the user's hearing from external factors. Manufactured by Safariland. Flat Dark Earth version.

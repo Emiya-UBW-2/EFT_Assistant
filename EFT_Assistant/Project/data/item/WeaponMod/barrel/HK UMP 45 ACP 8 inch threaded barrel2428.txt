@@ -9,9 +9,9 @@ weight=0.415000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
-	KRISS Vector .45 ACP flash hider/|
+	KRISS Vector .45 ACP thread protection cap/|
 	SilencerCo Omega 45k Direct Thread Mount adapter/|
-	KRISS Vector .45 ACP thread protection cap
+	KRISS Vector .45 ACP flash hider
 ]
 ChildParts_required=FALSE
 Recoil=-5.000000

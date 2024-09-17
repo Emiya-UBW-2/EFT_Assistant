@@ -9,15 +9,15 @@ weight=0.355000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
+	Magpul M-LOK 0.93 inch rail/|
 	Magpul M-LOK 2.5 inch rail/|
-	Magpul M-LOK Cantilever Mount/|
-	Magpul M-LOK 0.93 inch rail
+	Magpul M-LOK Cantilever Mount
 ]
 ChildParts_required=FALSE
 ChildParts=[
+	Magpul M-LOK 0.93 inch rail/|
 	Magpul M-LOK 2.5 inch rail/|
-	Magpul M-LOK Cantilever Mount/|
-	Magpul M-LOK 0.93 inch rail
+	Magpul M-LOK Cantilever Mount
 ]
 ChildParts_required=FALSE
 ChildParts=[
@@ -25,24 +25,24 @@ ChildParts=[
 ]
 ChildParts_required=FALSE
 ChildParts=[
+	BCM GUNFIGHTER MOD 3 M-LOK foregrip (Black)/|
+	BCM GUNFIGHTER MOD 3 M-LOK foregrip (FDE)/|
+	Daniel Defense Enhanced M-LOK Vertical Foregrip (Black)/|
+	Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown)/|
 	Magpul M-LOK AFG tactical foregrip (Black)/|
 	Magpul M-LOK AFG tactical foregrip (FDE)/|
 	Magpul M-LOK AFG tactical foregrip (Olive Drab)/|
 	Magpul M-LOK AFG tactical foregrip (Stealth Grey)/|
-	Magpul M-LOK 4.1 inch rail/|
-	Daniel Defense Enhanced M-LOK Vertical Foregrip (Black)/|
-	Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown)/|
-	BCM GUNFIGHTER MOD 3 M-LOK foregrip (Black)/|
-	BCM GUNFIGHTER MOD 3 M-LOK foregrip (FDE)
+	Magpul M-LOK 4.1 inch rail
 ]
 ChildParts_required=FALSE
 ChildParts=[
 	HK MP7 flip-up front sight/|
-	KAC Folding Micro front sight/|
 	KAC Folding front sight/|
+	KAC Folding Micro front sight/|
 	KRISS Defiance low profile flip-up front sight/|
-	Magpul MBUS Gen2 flip-up front sight/|
 	Magpul MBUS Gen2 flip-up front sight (FDE)/|
+	Magpul MBUS Gen2 flip-up front sight/|
 	MCX flip-up front sight/|
 	MPX flip-up front sight
 ]
@@ -53,20 +53,24 @@ ChildParts=[
 ChildParts_required=FALSE
 ChildParts=[
 	Holosun LS321 Tactical device/|
-	L3Harris AN/PEQ-15 tactical device/|
 	Insight AN/PEQ-2 tactical device/|
+	L3Harris AN/PEQ-15 tactical device/|
 	L3Harris LA-5B/PEQ tactical device/|
+	MAWL-C1+ tactical device/|
 	SureFire XC1 tactical flashlight/|
-	Zenit Perst-3 tactical device/|
-	MAWL-C1+ tactical device
+	Zenit Perst-3 tactical device
 ]
 ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
+	Insight WMX200 tactical flashlight/|
 	L3Harris AN/PEQ-15 tactical device/|
 	L3Harris LA-5B/PEQ tactical device/|
+	MAWL-C1+ tactical device/|
 	NcSTAR Tactical blue laser LAM-module/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
+	Olight Baldr Pro tactical flashlight with laser/|
 	Steiner DBAL-PL tactical device/|
 	Steiner LAS/TAC 2 tactical flashlight/|
 	SureFire X400 Ultra tactical flashlight with laser/|
@@ -76,21 +80,21 @@ ChildParts=[
 	Zenit Klesch-2P flashlight with laser/|
 	Zenit Klesch-2U tactical flashlight/|
 	Zenit Perst-3 tactical device/|
-	Kiba Arms 25mm accessory ring mount/|
 	Daniel Defense 25mm accessory ring mount/|
-	Olight Baldr Pro tactical flashlight with laser/|
-	Olight Baldr Pro tactical flashlight with laser (Tan)/|
-	Insight WMX200 tactical flashlight/|
-	MAWL-C1+ tactical device/|
+	Kiba Arms 25mm accessory ring mount/|
 	Zenit KR-2 old gen mount
 ]
 ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
+	Insight WMX200 tactical flashlight/|
 	L3Harris AN/PEQ-15 tactical device/|
 	L3Harris LA-5B/PEQ tactical device/|
+	MAWL-C1+ tactical device/|
 	NcSTAR Tactical blue laser LAM-module/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
+	Olight Baldr Pro tactical flashlight with laser/|
 	Steiner DBAL-PL tactical device/|
 	Steiner LAS/TAC 2 tactical flashlight/|
 	SureFire X400 Ultra tactical flashlight with laser/|
@@ -100,21 +104,22 @@ ChildParts=[
 	Zenit Klesch-2P flashlight with laser/|
 	Zenit Klesch-2U tactical flashlight/|
 	Zenit Perst-3 tactical device/|
-	Kiba Arms 25mm accessory ring mount/|
 	Daniel Defense 25mm accessory ring mount/|
-	Olight Baldr Pro tactical flashlight with laser/|
-	Olight Baldr Pro tactical flashlight with laser (Tan)/|
-	Insight WMX200 tactical flashlight/|
-	MAWL-C1+ tactical device/|
+	Kiba Arms 25mm accessory ring mount/|
 	Zenit KR-2 old gen mount
 ]
 ChildParts_required=FALSE
 ChildParts=[
+	BT10 V8 Atlas Bipod/|
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
+	Insight WMX200 tactical flashlight/|
 	L3Harris AN/PEQ-15 tactical device/|
 	L3Harris LA-5B/PEQ tactical device/|
+	MAWL-C1+ tactical device/|
 	NcSTAR Tactical blue laser LAM-module/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
+	Olight Baldr Pro tactical flashlight with laser/|
 	Steiner DBAL-PL tactical device/|
 	Steiner LAS/TAC 2 tactical flashlight/|
 	SureFire X400 Ultra tactical flashlight with laser/|
@@ -124,21 +129,16 @@ ChildParts=[
 	Zenit Klesch-2P flashlight with laser/|
 	Zenit Klesch-2U tactical flashlight/|
 	Zenit Perst-3 tactical device/|
-	Kiba Arms 25mm accessory ring mount/|
 	Daniel Defense 25mm accessory ring mount/|
-	Olight Baldr Pro tactical flashlight with laser/|
-	Olight Baldr Pro tactical flashlight with laser (Tan)/|
-	Insight WMX200 tactical flashlight/|
-	MAWL-C1+ tactical device/|
-	Zenit KR-2 old gen mount/|
-	BT10 V8 Atlas Bipod
+	Kiba Arms 25mm accessory ring mount/|
+	Zenit KR-2 old gen mount
 ]
 ChildParts_required=FALSE
 Conflict=[
+	AR-15 5.56x45 260mm barrel/|
 	AR-10 JP Enterprises Gas System-6/|
-	M4A1 front sight with gas block/|
 	AR-15 Windham Weaponry Rail Gas Block/|
-	AR-15 5.56x45 260mm barrel
+	M4A1 front sight with gas block
 ]
 Recoil=-3.000000
 Ergonomics=12.000000

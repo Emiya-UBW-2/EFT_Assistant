@@ -10,14 +10,14 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	Remington Model 700 7.62x51 bolt-action sniper riflex1/|
+	M700 7.62x51 20 inch threaded barrelx1/|
+	M700 thread protection capx1/|
 	M700 7.62x51 Magpul PMAG AC 5-round magazinex1/|
-	M700 Magpul Pro 700 chassisx1/|
-	M700 Magpul Pro 700 folding stockx1/|
-	M700 Magpul Pro 700 pistol gripx1/|
 	M700 Magpul Pro 700 chassis inline mountx1/|
 	Magpul M-LOK 2.5 inch railx3/|
-	M700 7.62x51 20 inch threaded barrelx1/|
-	M700 thread protection capx1
+	M700 Magpul Pro 700 pistol gripx1/|
+	M700 Magpul Pro 700 chassisx1/|
+	M700 Magpul Pro 700 folding stockx1
 ]
 Name_Jpn=Remington Model 700 7.62x51 ボルトアクション スナイパーライフル PRO
 Information_Jpn=

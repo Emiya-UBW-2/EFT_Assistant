@@ -15,8 +15,8 @@ ChildParts=[
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	HK MP5SD 9x19 upper receiver/|
-	HK MP5 9x19 upper receiver
+	HK MP5 9x19 upper receiver/|
+	HK MP5SD 9x19 upper receiver
 ]
 ChildParts_required=TRUE
 ChildParts=[

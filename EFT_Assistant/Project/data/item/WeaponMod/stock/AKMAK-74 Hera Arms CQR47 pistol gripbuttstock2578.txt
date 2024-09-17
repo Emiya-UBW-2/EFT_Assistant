@@ -9,29 +9,29 @@ weight=0.525000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 Conflict=[
-	AK-74 polymer stock (6P20 Sb.7)/|
+	AK Zenit PT-1 "Klassika" stock/|
 	AK-74 6P20 Sb.7 polymer stock (Plum)/|
+	AK-74 polymer stock (6P20 Sb.7)/|
 	AK-74 wooden stock (6P20 Sb.5)/|
-	AK-74M polymer stock (6P34 Sb.15)/|
-	AKM/AK-74 CAA AKTS buffer tube/|
 	AK-74M CAA AKTS AK74 buffer tube/|
+	AK-74M polymer stock (6P34 Sb.15)/|
+	AK-74M/AK-100 Zenit PT Lock/|
+	AKM wooden stock (6P1 Sb.5)/|
+	AKM/AK-74 CAA AKTS buffer tube/|
 	AKM/AK-74 FAB Defense UAS stock/|
 	AKM/AK-74 Hexagon "Kocherga" stock (Anodized Red)/|
-	AKM wooden stock (6P1 Sb.5)/|
 	AKM/AK-74 Magpul Zhukov-S stock/|
-	VPO-136 Vepr-KM wooden stock/|
-	VPO-209 wooden stock/|
-	AKM/AK-74 ProMag Archangel OPFOR AA47 buttstock/|
 	AKM/AK-74 ME4 buffer tube adapter/|
-	AKS-74/AKS-74U Zenit PT Lock/|
-	AK-74M/AK-100 Zenit PT Lock/|
-	AK Zenit PT-1 "Klassika" stock/|
+	AKM/AK-74 ProMag Archangel OPFOR AA47 buttstock/|
+	AKM/AK-74 RD AK to M4 buffer tube adapter/|
 	AKM/AK-74 Zenit PT Lock/|
 	AKMS shoulder piece (6P4 Sb.1-19)/|
 	AKMSN shoulder piece (6P4N Sb.1-19)/|
 	AKS-74 metal skeletonized stock (6P21 Sb.5)/|
+	AKS-74/AKS-74U Zenit PT Lock/|
 	AKS-74U metal skeleton stock (6P26 Sb.5)/|
-	AKM/AK-74 RD AK to M4 buffer tube adapter
+	VPO-136 Vepr-KM wooden stock/|
+	VPO-209 wooden stock
 ]
 Recoil=-25.000000
 Ergonomics=16.000000

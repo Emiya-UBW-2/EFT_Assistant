@@ -9,32 +9,32 @@ weight=0.310000
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
 Conflict=[
-	Axion Kobra EKP-8-18 reflex sight/|
-	OKP-7 reflex sight/|
-	EOTech 553 holographic sight/|
-	EOTech EXPS3 holographic sight (Tan)/|
-	EOTech XPS3-0 holographic sight/|
-	EOTech XPS3-2 holographic sight/|
-	Holosun HS401G5 reflex sight/|
-	SIG Sauer ROMEO8T reflex sight/|
-	Trijicon SRS-02 reflex sight/|
-	Valday PK-120 (1P87) holographic sight/|
-	Valday Krechet reflex sight/|
-	VOMZ Pilad P1x42 Weaver reflex sight/|
-	Vortex Razor AMG UH-1 holographic sight/|
-	Walther MRS reflex sight/|
 	HK 416A5 flip-up rear sight/|
 	HK MP7 flip-up rear sight/|
 	KAC Folding Micro rear sight/|
 	KAC Folding rear sight/|
 	KRISS Defiance low profile flip-up rear sight/|
-	Magpul MBUS Gen2 flip-up rear sight/|
 	Magpul MBUS Gen2 flip-up rear sight (FDE)/|
+	Magpul MBUS Gen2 flip-up rear sight/|
 	MCX flip-up rear sight/|
 	MPX flip-up rear sight/|
+	Axion Kobra EKP-8-18 reflex sight/|
 	ELCAN Specter HCO holographic sight/|
+	EOTech 553 holographic sight/|
+	EOTech EXPS3 holographic sight (Tan)/|
+	EOTech XPS3-0 holographic sight/|
+	EOTech XPS3-2 holographic sight/|
+	Holosun HS401G5 reflex sight/|
 	Leapers UTG reflex sight/|
-	SIG Sauer ROMEO7 1x30 reflex sight (Prototype)
+	OKP-7 reflex sight/|
+	SIG Sauer ROMEO7 1x30 reflex sight (Prototype)/|
+	SIG Sauer ROMEO8T reflex sight/|
+	Trijicon SRS-02 reflex sight/|
+	Valday Krechet reflex sight/|
+	Valday PK-120 (1P87) holographic sight/|
+	VOMZ Pilad P1x42 Weaver reflex sight/|
+	Vortex Razor AMG UH-1 holographic sight/|
+	Walther MRS reflex sight
 ]
 Recoil=0.000000
 Ergonomics=-4.000000

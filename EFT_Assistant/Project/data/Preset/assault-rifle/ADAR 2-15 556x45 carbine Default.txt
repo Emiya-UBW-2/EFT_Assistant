@@ -1,11 +1,11 @@
 Name=ADAR 2-15 5.56x45 carbine Default
 Base=ADAR 2-15 5.56x45 carbine
-Parts=AR-15 ADAR 2-15 wooden stock
-Parts=5.56x45 Magpul PMAG 10 GEN M3 STANAG 10-round magazine
-Parts=AR-15 ADAR 2-15 5.56x45 upper receiver
 Parts=AR-15 5.56x45 Molot Arms 406mm barrel
+Parts=AR-15 ADAR 2-15 charging handle
 Parts=AR-15 ADAR 2-15 5.56x45 flash hider
 Parts=M4A1 front sight with gas block
 Parts=AR-15 ADAR 2-15 wooden handguard
+Parts=5.56x45 Magpul PMAG 10 GEN M3 STANAG 10-round magazine
+Parts=AR-15 ADAR 2-15 5.56x45 upper receiver
 Parts=AR-15 ADAR 2-15 buffer tube
-Parts=AR-15 ADAR 2-15 charging handle
+Parts=AR-15 ADAR 2-15 wooden stock

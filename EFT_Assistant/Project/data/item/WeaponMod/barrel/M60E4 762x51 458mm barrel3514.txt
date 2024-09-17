@@ -11,7 +11,8 @@ propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	AR-10 2A Armanent X3 7.62x51 compensator/|
 	AR-10 CMMG SV Brake 7.62x51 muzzle brake/|
-	Desert Tech 7.62x51 flash hider/|
+	AR-10 Dead Air Keymount 7.62x51 muzzle brake/|
+	AR-10 Delta-Tek DTK-AR10 7.62x51 muzzle brake/|
 	AR-10 Fortis RED Brake 7.62x51 muzzle brake/|
 	AR-10 KAC QDC 7.62x51 Flash Suppressor Kit/|
 	AR-10 KAC QDC 7.62x51 Muzzle Brake Kit/|
@@ -22,9 +23,8 @@ ChildParts=[
 	AR-10 SureFire ProComp 7.62x51 muzzle brake/|
 	AR-10 TAA ZK-38 7.62x51 muzzle brake/|
 	AR-10 Thunder Beast Arms 30CB 7.62x51 muzzle brake/|
-	AR-10 Dead Air Keymount 7.62x51 muzzle brake/|
-	M60E3 7.62x51 flash hider/|
-	AR-10 Delta-Tek DTK-AR10 7.62x51 muzzle brake
+	Desert Tech 7.62x51 flash hider/|
+	M60E3 7.62x51 flash hider
 ]
 ChildParts_required=FALSE
 ChildParts=[

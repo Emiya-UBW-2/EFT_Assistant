@@ -13,20 +13,20 @@ ChildParts=[
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	Aimpoint Micro Standard Mount/|
-	Aimpoint Micro H-2 Standard Mount/|
+	Monstrum Tactical Compact Prism Scope 2x32/|
+	BelOMO PK-06 reflex sight/|
 	Aimpoint LRP mount for CompM4 sights/|
+	Aimpoint Micro H-2 Standard Mount/|
+	Aimpoint Micro Standard Mount/|
 	Aimpoint QRP2 mount for CompM4/PRO sights/|
 	B&T QD NAR mount for Aimpoint ACRO/|
 	Burris FastFire Weaver Base/|
 	DeltaPoint Cross Slot Mount base/|
 	SIG Sauer ROMEO sight mount/|
-	Trijicon RMR low profile mount/|
 	Trijicon RMR high profile mount/|
-	BelOMO PK-06 reflex sight/|
+	Trijicon RMR low profile mount/|
 	UNV DLOC-IRD sight mount/|
-	ELCAN Specter HCO holographic sight/|
-	Monstrum Tactical Compact Prism Scope 2x32
+	ELCAN Specter HCO holographic sight
 ]
 ChildParts_required=FALSE
 Recoil=-1.000000

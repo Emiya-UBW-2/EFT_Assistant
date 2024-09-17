@@ -19,19 +19,19 @@ ChildParts=[
 	SA-58/FAL 7.62x51 20-round magazine/|
 	SA-58/FAL 7.62x51 30-round magazine/|
 	SA-58/FAL 7.62x51 MMW polymer 20-round magazine/|
-	SA-58/FAL/SLR 7.62x51 30-round magazine/|
-	SA-58/FAL 7.62x51 X Products X-FAL 50-round drum magazine
+	SA-58/FAL 7.62x51 X Products X-FAL 50-round drum magazine/|
+	SA-58/FAL/SLR 7.62x51 30-round magazine
 ]
 ChildParts_required=FALSE
 ChildParts=[
+	FAL original handguard/|
+	SA-58 quad rail full length handguard/|
+	SA-58 quad rail handguard/|
 	SA-58/FAL AIM Sports Universal KeyMod handguard/|
 	SA-58/FAL AIM Sports Universal M-LOK handguard/|
 	SA-58/FAL Belgian Style handguard/|
-	FAL original handguard/|
 	SA-58/FAL Vltor CASV-FAL handguard/|
-	SA-58/FAL Vltor CASV-FAS handguard/|
-	SA-58 quad rail full length handguard/|
-	SA-58 quad rail handguard
+	SA-58/FAL Vltor CASV-FAS handguard
 ]
 ChildParts_required=TRUE
 ChildParts=[
@@ -50,12 +50,12 @@ ChildParts=[
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	SA-58/FAL Magpul PRS 2 polymer stock/|
-	SA-58 humpback polymer stock/|
 	SA-58 BRS stock/|
 	SA-58 buffer tube adapter/|
 	SA-58 folding stock/|
-	SA-58 SPR stock
+	SA-58 humpback polymer stock/|
+	SA-58 SPR stock/|
+	SA-58/FAL Magpul PRS 2 polymer stock
 ]
 ChildParts_required=FALSE
 Recoil=194.000000

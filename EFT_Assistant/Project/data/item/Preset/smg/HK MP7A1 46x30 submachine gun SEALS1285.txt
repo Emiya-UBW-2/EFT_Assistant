@@ -10,15 +10,15 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	HK MP7A1 4.6x30 submachine gunx1/|
-	HK MP7 4.6x30 40-round magazinex1/|
-	HK MP7A1 4.6x30 flash hiderx1/|
-	HK MP7 B&T Rotex 2 4.6x30 sound suppressorx1/|
-	Aimpoint Micro Standard Mountx1/|
-	Aimpoint Micro Spacer Highx1/|
-	Aimpoint Micro T-1 reflex sightx1/|
 	L3Harris AN/PEQ-15 tactical devicex1/|
-	Kiba Arms 25mm accessory ring mountx1/|
+	Aimpoint Micro T-1 reflex sightx1/|
+	HK MP7A1 4.6x30 flash hiderx1/|
 	Ultrafire WF-501B flashlightx1/|
+	HK MP7 4.6x30 40-round magazinex1/|
+	Aimpoint Micro Spacer Highx1/|
+	Aimpoint Micro Standard Mountx1/|
+	Kiba Arms 25mm accessory ring mountx1/|
+	HK MP7 B&T Rotex 2 4.6x30 sound suppressorx1/|
 	HK MP7A1 stockx1
 ]
 Name_Jpn=MP7A1 4.6x30 サブマシンガン SEALS

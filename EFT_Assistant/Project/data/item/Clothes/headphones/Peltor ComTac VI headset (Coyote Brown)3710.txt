@@ -9,12 +9,12 @@ weight=0.379000
 fleaMarketFee=0
 propertiestype=
 Conflict=[
-	SSh-68 steel helmet (Olive Drab)/|
-	Ushanka ear flap hat/|
-	MIL-TEC boonie hat/|
+	Door Kicker boonie hat/|
 	Jack Pyke Hunting LLCS boonie hat/|
+	MIL-TEC boonie hat/|
+	SSh-68 steel helmet (Olive Drab)/|
 	Stich Profi Chimera boonie hat/|
-	Door Kicker boonie hat
+	Ushanka ear flap hat
 ]
 Name_Jpn=Peltor ComTac VI headset (Coyote Brown)
 Information_Jpn=An improved version of the ComTac V communication headset, equipped with advanced environmental listening settings and an NIB (Natural Interaction Behavior) feature, allowing to communicate with other ComTac VI users in a certain proximity without having to use radios. Manufactured by 3M Peltor. Coyote Brown version.

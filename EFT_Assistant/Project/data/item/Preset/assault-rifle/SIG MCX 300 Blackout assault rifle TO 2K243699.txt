@@ -10,28 +10,28 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	SIG MCX .300 Blackout assault riflex1/|
-	AR-15 F1 Firearms Skeletonized Style 2 PC pistol gripx1/|
-	MCX GEN1 .300 BLK upper receiverx1/|
 	MCX .300 BLK 171mm barrelx1/|
-	MCX gas blockx1/|
+	MCX charging handlex1/|
 	SIG Sauer Taper-LOK 7.62x51/.300 BLK muzzle adapterx1/|
 	SIG Sauer Two Port Brake 7.62x51 muzzle brakex1/|
-	SIG Sauer SRD762-QD 7.62x51 sound suppressorx1/|
-	MCX GEN1 KeyMod 8 inch handguardx1/|
-	Vltor CASV KeyMod 6 inch railx1/|
-	Strike Industries Cobra Tactical foregripx1/|
-	MCX flip-up front sightx1/|
-	Strike Industries KeyMod 4 inch railx1/|
-	Kiba Arms 25mm accessory ring mountx1/|
 	Ultrafire WF-501B flashlightx1/|
+	Strike Industries Cobra Tactical foregripx1/|
+	MCX gas blockx1/|
+	MCX GEN1 KeyMod 8 inch handguardx1/|
+	MCX flip-up front sightx1/|
 	MCX flip-up rear sightx1/|
-	Wilcox BOSS Xe reflex sightx1/|
-	MCX charging handlex1/|
 	5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine (FDE)x1/|
-	MPX/MCX Folding Knuckle Stock Adapterx1/|
-	AR-15 Strike Industries Advanced Receiver Extension buffer tubex1/|
+	Kiba Arms 25mm accessory ring mountx1/|
+	Strike Industries KeyMod 4 inch railx1/|
+	Vltor CASV KeyMod 6 inch railx1/|
+	AR-15 F1 Firearms Skeletonized Style 2 PC pistol gripx1/|
+	MCX GEN1 .300 BLK upper receiverx1/|
+	Wilcox BOSS Xe reflex sightx1/|
+	SIG Sauer SRD762-QD 7.62x51 sound suppressorx1/|
 	AR-15 Daniel Defense Enhanced Collapsible Buttstock (FDE)x1/|
-	Daniel Defense TCS 20mm Buttpad x1
+	AR-15 Strike Industries Advanced Receiver Extension buffer tubex1/|
+	Daniel Defense TCS 20mm Buttpad x1/|
+	MPX/MCX Folding Knuckle Stock Adapterx1
 ]
 Name_Jpn=MCX .300 Blackout アサルトライフル T.O 2K24
 Information_Jpn=

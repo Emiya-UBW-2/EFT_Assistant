@@ -9,16 +9,14 @@ weight=0.120000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
-	AK 5.45 Design Aggressor handguard/|
-	AK CAA RS47 handguard/|
-	WASR-10/63 CAF wooden foregrip/|
-	AK Hexagon tubular handguard/|
-	AK Hexagon tubular handguard (Anodized Red)/|
 	AK 100-series polymer handguard/|
-	AK-74 6P20 Sb.9 polymer handguard (Plum)/|
-	AK-74 wooden handguard (6P20 Sb.6)/|
-	AK-74 polymer handguard (6P20 Sb.9)/|
-	AKM wooden handguard (6P1 Sb.6-1)/|
+	AK 5.45 Design Aggressor handguard/|
+	AK AKdemia Dominator handguard/|
+	AK Alfa Arms ASPID handguard/|
+	AK CAA RS47 handguard/|
+	AK CNC Guns OV GP handguard/|
+	AK Hexagon tubular handguard (Anodized Red)/|
+	AK Hexagon tubular handguard/|
 	AK Magpul MOE AKM handguard (Black)/|
 	AK Magpul MOE AKM handguard (FDE)/|
 	AK Magpul MOE AKM handguard (Olive Drab)/|
@@ -27,20 +25,22 @@ ChildParts=[
 	AK Magpul Zhukov-U handguard (Black)/|
 	AK Magpul Zhukov-U handguard (FDE)/|
 	AK Magpul Zhukov-U handguard (Plum)/|
-	VPO-136 Vepr-KM wooden handguard/|
-	VPO-209 wooden handguard/|
 	AK Strike Industries TRAX 1 handguard/|
-	AK TDI AKM-L handguard/|
 	AK TDI AKM-L handguard (Anodized Bronze)/|
 	AK TDI AKM-L handguard (Anodized Red)/|
+	AK TDI AKM-L handguard/|
 	AK TDI X47 tactical handguard rail system/|
 	AK Vltor CMRD KeyMod handguard/|
 	AK Zenit B-10 Handguard/|
 	AK Zenit B-10M handguard with B-19 upper mount/|
 	AK Zenit B-30 handguard with B-31S upper handguard rail/|
-	AK CNC Guns OV GP handguard/|
-	AK AKdemia Dominator handguard/|
-	AK Alfa Arms ASPID handguard
+	AK-74 6P20 Sb.9 polymer handguard (Plum)/|
+	AK-74 polymer handguard (6P20 Sb.9)/|
+	AK-74 wooden handguard (6P20 Sb.6)/|
+	AKM wooden handguard (6P1 Sb.6-1)/|
+	VPO-136 Vepr-KM wooden handguard/|
+	VPO-209 wooden handguard/|
+	WASR-10/63 CAF wooden foregrip
 ]
 ChildParts_required=TRUE
 Recoil=0.000000

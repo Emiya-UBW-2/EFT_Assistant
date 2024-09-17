@@ -9,11 +9,11 @@ weight=0.780000
 fleaMarketFee=0
 propertiestype=ItemPropertiesHelmet
 Conflict=[
-	Team Wendy EXFIL Ballistic Helmet (Coyote Brown)/|
-	Team Wendy EXFIL Ballistic Helmet (Black)/|
-	Ballistic Armor Co. Bastion helmet (OD Green)/|
+	Ballistic Armor Co. Bastion helmet (Armor Black)/|
 	Ballistic Armor Co. Bastion helmet (MultiCam)/|
-	Ballistic Armor Co. Bastion helmet (Armor Black)
+	Ballistic Armor Co. Bastion helmet (OD Green)/|
+	Team Wendy EXFIL Ballistic Helmet (Black)/|
+	Team Wendy EXFIL Ballistic Helmet (Coyote Brown)
 ]
 Name_Jpn=Death Knight mask
 Information_Jpn=A unique mask of the commander of the Goons squad, former USEC operators who decided not to flee Tarkov, but to create their own order.

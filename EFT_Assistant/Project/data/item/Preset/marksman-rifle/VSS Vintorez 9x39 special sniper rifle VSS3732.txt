@@ -10,10 +10,10 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	VSS Vintorez 9x39 special sniper riflex1/|
-	VSS/VAL 9x39 6L24 10-round magazinex1/|
-	VSS 9x39 integral barrel-suppressorx1/|
 	VSS rear sightx1/|
+	VSS/VAL 9x39 6L24 10-round magazinex1/|
 	VSS dust coverx1/|
+	VSS 9x39 integral barrel-suppressorx1/|
 	VSS wooden stockx1
 ]
 Name_Jpn=VSS Vintorez 9x39 特殊スナイパーライフル VSS suppressor

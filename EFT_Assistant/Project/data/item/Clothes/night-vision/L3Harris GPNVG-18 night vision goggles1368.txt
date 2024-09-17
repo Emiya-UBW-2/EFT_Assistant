@@ -9,8 +9,8 @@ weight=0.880000
 fleaMarketFee=0
 propertiestype=ItemPropertiesNightVision
 Conflict=[
-	Ops-Core FAST Visor/|
 	Ops-Core FAST multi-hit ballistic face shield/|
+	Ops-Core FAST Visor/|
 	Team Wendy EXFIL Ballistic face shield (Black)/|
 	Team Wendy EXFIL Ballistic face shield (Coyote Brown)
 ]

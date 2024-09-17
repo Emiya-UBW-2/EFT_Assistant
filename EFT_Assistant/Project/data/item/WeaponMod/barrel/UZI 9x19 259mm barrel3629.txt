@@ -11,8 +11,8 @@ propertiestype=ItemPropertiesBarrel
 ChildParts=[
 	UZI 9x19 3-lug barrel retaining nut/|
 	UZI 9x19 barrel retaining nut/|
-	UZI 9x19 sound suppressor/|
-	UZI vented barrel shroud
+	UZI vented barrel shroud/|
+	UZI 9x19 sound suppressor
 ]
 ChildParts_required=TRUE
 Recoil=-3.000000

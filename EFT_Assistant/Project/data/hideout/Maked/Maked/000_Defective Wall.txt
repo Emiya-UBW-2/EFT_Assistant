@@ -33,6 +33,6 @@ Lv5traderRequirements=[]
 Lv6constructionTime=43200
 Lv6Information_Eng=A tidied up entrance to the new room.
 Lv6Information_Jpn=
-Lv6itemReq=[Corrugated hosex2/|Duct tapex1/|Toolsetx1/|Pliers Elitex1/|Metal spare partsx5/|Xenomorph sealing foamx1/|Bundle of wiresx2/|Light bulbx2]
+Lv6itemReq=[Corrugated hosex2/|Duct tapex1/|Metal spare partsx5/|Xenomorph sealing foamx1/|Bundle of wiresx2/|Light bulbx2/|Pliers Elitex1/|Toolsetx1]
 Lv6stationLevelReq=[Defective Wallx5]
 Lv6traderRequirements=[]

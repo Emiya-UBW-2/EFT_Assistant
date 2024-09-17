@@ -9,20 +9,20 @@ weight=1.992000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 ChildParts=[
+	AK UltiMAK M1-B gas tube & handguard/|
 	AK-74 gas tube (6P20 Sb.1-2)/|
 	AKM gas tube (6P1 Sb.1-2)/|
-	Molot Arms AKM-type gas tube/|
-	AK UltiMAK M1-B gas tube & handguard
+	Molot Arms AKM-type gas tube
 ]
 ChildParts_required=TRUE
 ChildParts=[
-	AK-103 7.62x39 muzzle brake-compensator/|
-	AK-104 7.62x39 muzzle brake-compensator (6P46 0-20)/|
-	AK-74 thread type JMac Customs RRD-4C multi-caliber muzzle brake/|
+	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
 	AK Spikes Tactical Dynacomp 7.62x39 muzzle brake-compensator/|
 	AK SRVV 7.62x39 muzzle brake-compensator/|
 	AK Zenit DTK-1 7.62x39/5.45x39 muzzle brake-compensator/|
-	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
+	AK-103 7.62x39 muzzle brake-compensator/|
+	AK-104 7.62x39 muzzle brake-compensator (6P46 0-20)/|
+	AK-74 thread type JMac Customs RRD-4C multi-caliber muzzle brake/|
 	AK Hexagon DTKP MK.2 7.62x39 sound suppressor/|
 	AKM PBS-1 7.62x39 sound suppressor/|
 	AKM Zenit DTK-4M 7.62x39 sound suppressor/|
@@ -31,101 +31,101 @@ ChildParts=[
 ChildParts_required=FALSE
 ChildParts=[
 	AK Aeroknox Scorpius pistol grip/|
-	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip/|
-	AK-12 pistol grip/|
 	AK bakelite pistol grip (6P1 Sb.8V)/|
-	AK polymer pistol grip (6P1 Sb.8)/|
-	AKM bakelite pistol grip/|
-	AKM wooden pistol grip/|
 	AK bakelite pistol grip (6P4 Sb.9)/|
-	AK KGB MG-47 pistol grip/|
-	AK KGB MG-47 pistol grip (Anodized Red)/|
-	AK Magpul MOE pistol grip (Black)/|
 	AK bakelite pistol grip/|
+	AK CG101 AR-type pistol grip adapter/|
+	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip/|
+	AK FAB Defense AGR-47 pistol grip/|
+	AK KGB MG-47 pistol grip (Anodized Red)/|
+	AK KGB MG-47 pistol grip/|
+	AK Magpul MOE pistol grip (Black)/|
+	AK Mission First Tactical ENGAGE AK47 pistol grip/|
+	AK polymer pistol grip (6P1 Sb.8)/|
+	AK PUFGUN SG-M2 pistol grip/|
 	AK Strike Industries Enhanced Pistol Grip (Black)/|
 	AK Strike Industries Enhanced Pistol Grip (FDE)/|
+	AK TangoDown Battle Grip pistol grip (FDE)/|
+	AK TangoDown Battle Grip pistol grip/|
 	AK TAPCO SAW-Style pistol grip (Black)/|
 	AK TAPCO SAW-Style pistol grip (FDE)/|
 	AK US Palm pistol grip/|
 	AK Zenit RK-3 pistol grip/|
-	PP-19-01 Vityaz pistol grip/|
-	AK FAB Defense AGR-47 pistol grip/|
-	AK TangoDown Battle Grip pistol grip/|
-	AK TangoDown Battle Grip pistol grip (FDE)/|
-	AK Mission First Tactical ENGAGE AK47 pistol grip/|
-	AK CG101 AR-type pistol grip adapter/|
-	AK PUFGUN SG-M2 pistol grip
+	AK-12 pistol grip/|
+	AKM bakelite pistol grip/|
+	AKM wooden pistol grip/|
+	PP-19-01 Vityaz pistol grip
 ]
 ChildParts_required=TRUE
 ChildParts=[
-	AK-74 dust cover (6P20 0-1)/|
-	AK-74M dust cover (6P34 0-1)/|
 	AK AKademia Bastion dust cover/|
 	AK FAB Defense PDC dust cover/|
 	AK TWS Dog Leg Rail dust cover/|
 	AK Zenit B-33 dust cover/|
+	AK-74 dust cover (6P20 0-1)/|
+	AK-74M dust cover (6P34 0-1)/|
 	RD-704 dust cover
 ]
 ChildParts_required=FALSE
 ChildParts=[
+	AK RD Enhanced V2 Rear Sight/|
+	AK Taktika Tula TT01 rear sight rail/|
 	AK-105 rear sight (6P44 Sb.1-30)/|
+	AK-12 rear sight/|
 	AK-74 rear sight (6P20 Sb.2)/|
 	AK-74M rear sight (6P20 Sb.2)/|
-	AK Taktika Tula TT01 rear sight rail/|
-	AK RD Enhanced V2 Rear Sight/|
-	AK-12 rear sight/|
 	RPK-16 rear sight
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	AK-74M polymer stock (6P34 Sb.15)/|
-	AK-74M CAA AKTS AK74 buffer tube/|
-	AK-74M/AK-100 Zenit PT Lock/|
-	RPK-16 buffer tube/|
 	AK 100-series metal skeletonized stock/|
-	AK-12 buffer tube
+	AK-12 buffer tube/|
+	AK-74M CAA AKTS AK74 buffer tube/|
+	AK-74M polymer stock (6P34 Sb.15)/|
+	AK-74M/AK-100 Zenit PT Lock/|
+	RPK-16 buffer tube
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	AK 7.62x39 ribbed metal 10-round magazine/|
-	AK 7.62x39 6L10 30-round magazine/|
-	AK-103 7.62x39 30-round magazine/|
 	AK 7.62x39 30-round magazine (issued '55 or later)/|
+	AK 7.62x39 6L10 30-round magazine/|
 	AK 7.62x39 aluminium 10-round magazine/|
-	AKMS 7.62x39 aluminium 30-round magazine/|
-	AK 7.62x39 Molot Arms 40-round magazine (6P2.Sb-11)/|
 	AK 7.62x39 bakelite 40-round magazine/|
-	AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine/|
+	AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine/|
+	AK 7.62x39 Magpul PMAG 20 GEN M3 20-round magazine/|
 	AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine (Banana)/|
+	AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine/|
+	AK 7.62x39 Molot Arms 40-round magazine (6P2.Sb-11)/|
 	AK 7.62x39 Molot Arms 75-round drum magazine/|
 	AK 7.62x39 ProMag AK-A-16 73-round drum magazine/|
+	AK 7.62x39 ribbed metal 10-round magazine/|
 	AK 7.62x39 US Palm "AK30" 30-round magazine (Black)/|
 	AK 7.62x39 US Palm "AK30" 30-round magazine (FDE)/|
 	AK 7.62x39 X Products X-47 50-round drum magazine/|
-	AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine/|
-	AK 7.62x39 Magpul PMAG 20 GEN M3 20-round magazine
+	AK-103 7.62x39 30-round magazine/|
+	AKMS 7.62x39 aluminium 30-round magazine
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
-	BelOMO PK-AA dovetail reflex sight/|
-	OKP-7 reflex sight (Dovetail)/|
-	NPZ PK1 Obzor dovetail reflex sight/|
-	BelOMO PSO-1 4x24 scope/|
-	BelOMO PSO-1M2-1 4x24 scope/|
-	BelOMO PSO-1M2 4x24 scope/|
-	NPZ USP-1 Tyulpan 4x scope/|
-	NSPU-M 3.5x dovetail night vision scope/|
 	Axion Kobra dovetail mount/|
 	KMZ 1P59 dovetail mount/|
 	NPZ 1P78-1 dovetail mount/|
+	RS Regulate AK-303M Full Length Lower dovetail mount/|
+	SAG AK dovetail sidemount/|
+	SAG Bit low profile dovetail sidemount/|
 	VOMZ Pilad 043-02 dovetail mount/|
 	Zenit B-13 "Klassika" dovetail rail platform/|
 	Zenit B-13V "Klassika" dovetail rail platform/|
-	SAG Bit low profile dovetail sidemount/|
-	SAG AK dovetail sidemount/|
 	Axion Kobra EKP-1S-03 reflex sight (Dovetail)/|
-	RS Regulate AK-303M Full Length Lower dovetail mount
+	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
+	BelOMO PK-AA dovetail reflex sight/|
+	NPZ PK1 Obzor dovetail reflex sight/|
+	OKP-7 reflex sight (Dovetail)/|
+	BelOMO PSO-1 4x24 scope/|
+	BelOMO PSO-1M2 4x24 scope/|
+	BelOMO PSO-1M2-1 4x24 scope/|
+	NPZ USP-1 Tyulpan 4x scope/|
+	NSPU-M 3.5x dovetail night vision scope
 ]
 ChildParts_required=FALSE
 ChildParts=[

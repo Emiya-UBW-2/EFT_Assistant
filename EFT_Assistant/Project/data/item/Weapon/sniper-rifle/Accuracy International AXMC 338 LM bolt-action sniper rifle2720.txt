@@ -13,8 +13,8 @@ ChildParts=[
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	AI AXMC pistol grip/|
-	AI AXMC GTAC AR-type pistol grip adapter
+	AI AXMC GTAC AR-type pistol grip adapter/|
+	AI AXMC pistol grip
 ]
 ChildParts_required=TRUE
 ChildParts=[

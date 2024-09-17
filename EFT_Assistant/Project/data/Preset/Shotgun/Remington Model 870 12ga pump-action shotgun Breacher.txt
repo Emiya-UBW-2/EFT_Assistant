@@ -1,12 +1,12 @@
 Name=Remington Model 870 12ga pump-action shotgun Breacher
 Base=Remington Model 870 12ga pump-action shotgun
 Parts=M870 12ga sawed-off 325mm barrel
-Parts=M870 FAB Defense PR-870 forestock
 Parts=Magpul RVG foregrip (Black)
+Parts=M870 FAB Defense PR-870 forestock
 Parts=M870 12ga 4-shell magazine cap
-Parts=M870 Mesa Tactical LEO stock adapter
-Parts=AR-15 Magpul MOE Carbine stock (Black)
-Parts=Magpul MOE Carbine rubber buttpad
-Parts=AR-15 Colt A2 pistol grip
 Parts=M870 XS SHOTRAIL rail with Ghost Ring rear sight
+Parts=AR-15 Colt A2 pistol grip
 Parts=EOTech XPS3-2 holographic sight
+Parts=AR-15 Magpul MOE Carbine stock (Black)
+Parts=M870 Mesa Tactical LEO stock adapter
+Parts=Magpul MOE Carbine rubber buttpad

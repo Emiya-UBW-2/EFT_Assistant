@@ -9,9 +9,9 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
-	Crye Precision AirFrame helmet (Tan)x1/|
+	Crye Precision AirFrame Chopsx1/|
 	Ops-Core FAST multi-hit ballistic face shieldx1/|
-	Crye Precision AirFrame Chopsx1
+	Crye Precision AirFrame helmet (Tan)x1
 ]
 Name_Jpn=Crye Precision AirFrame helmet (Tan) Face shield
 Information_Jpn=

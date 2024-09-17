@@ -9,75 +9,75 @@ weight=0.110000
 fleaMarketFee=0
 propertiestype=ItemPropertiesMagazine
 ChildParts=[
-	9x19mm PBP gzh/|
+	9x19mm AP 6.3/|
+	9x19mm FMJ M882/|
 	9x19mm Green Tracer/|
+	9x19mm Luger CCI/|
+	9x19mm PBP gzh/|
 	9x19mm PSO gzh/|
 	9x19mm Pst gzh/|
-	9x19mm AP 6.3/|
-	9x19mm Luger CCI/|
 	9x19mm QuakeMaker/|
-	9x19mm RIP/|
-	9x19mm FMJ M882
+	9x19mm RIP
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	9x19mm PBP gzh/|
+	9x19mm AP 6.3/|
+	9x19mm FMJ M882/|
 	9x19mm Green Tracer/|
+	9x19mm Luger CCI/|
+	9x19mm PBP gzh/|
 	9x19mm PSO gzh/|
 	9x19mm Pst gzh/|
-	9x19mm AP 6.3/|
-	9x19mm Luger CCI/|
 	9x19mm QuakeMaker/|
-	9x19mm RIP/|
-	9x19mm FMJ M882
+	9x19mm RIP
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	9x19mm PBP gzh/|
+	9x19mm AP 6.3/|
+	9x19mm FMJ M882/|
 	9x19mm Green Tracer/|
+	9x19mm Luger CCI/|
+	9x19mm PBP gzh/|
 	9x19mm PSO gzh/|
 	9x19mm Pst gzh/|
-	9x19mm AP 6.3/|
-	9x19mm Luger CCI/|
 	9x19mm QuakeMaker/|
-	9x19mm RIP/|
-	9x19mm FMJ M882
+	9x19mm RIP
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	9x19mm PBP gzh/|
+	9x19mm AP 6.3/|
+	9x19mm FMJ M882/|
 	9x19mm Green Tracer/|
+	9x19mm Luger CCI/|
+	9x19mm PBP gzh/|
 	9x19mm PSO gzh/|
 	9x19mm Pst gzh/|
-	9x19mm AP 6.3/|
-	9x19mm Luger CCI/|
 	9x19mm QuakeMaker/|
-	9x19mm RIP/|
-	9x19mm FMJ M882
+	9x19mm RIP
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	9x19mm PBP gzh/|
+	9x19mm AP 6.3/|
+	9x19mm FMJ M882/|
 	9x19mm Green Tracer/|
+	9x19mm Luger CCI/|
+	9x19mm PBP gzh/|
 	9x19mm PSO gzh/|
 	9x19mm Pst gzh/|
-	9x19mm AP 6.3/|
-	9x19mm Luger CCI/|
 	9x19mm QuakeMaker/|
-	9x19mm RIP/|
-	9x19mm FMJ M882
+	9x19mm RIP
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	9x19mm PBP gzh/|
+	9x19mm AP 6.3/|
+	9x19mm FMJ M882/|
 	9x19mm Green Tracer/|
+	9x19mm Luger CCI/|
+	9x19mm PBP gzh/|
 	9x19mm PSO gzh/|
 	9x19mm Pst gzh/|
-	9x19mm AP 6.3/|
-	9x19mm Luger CCI/|
 	9x19mm QuakeMaker/|
-	9x19mm RIP/|
-	9x19mm FMJ M882
+	9x19mm RIP
 ]
 ChildParts_required=FALSE
 Recoil=0.000000

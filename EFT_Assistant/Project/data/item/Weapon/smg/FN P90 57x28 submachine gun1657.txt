@@ -18,8 +18,8 @@ ChildParts=[
 ]
 ChildParts_required=TRUE
 ChildParts=[
-	FN P90 EFFEN 90 5.7x28 upper receiver/|
 	FN P90 5.7x28 upper receiver/|
+	FN P90 EFFEN 90 5.7x28 upper receiver/|
 	FN PS90 5.7x28 upper receiver
 ]
 ChildParts_required=TRUE

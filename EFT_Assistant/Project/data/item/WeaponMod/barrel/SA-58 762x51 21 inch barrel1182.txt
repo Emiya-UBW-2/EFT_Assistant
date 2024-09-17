@@ -9,11 +9,16 @@ weight=0.784000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
-	AWC PSR 7.62x51 muzzle brake/|
+	Gemtech ONE Direct Thread Mount adapter/|
+	Lantac BMD Blast Mitigation Device A3 direct thread adapter/|
+	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
+	AAC SCAR-SD 51T 7.62x51 flash hider/|
 	AR-10 2A Armanent X3 7.62x51 compensator/|
 	AR-10 AAC Blackout 51T 7.62x51 flash hider/|
+	AR-10 CMMG SV Brake 7.62x51 muzzle brake/|
 	AR-10 Daniel Defense WAVE 7.62x51 muzzle brake/|
-	Desert Tech 7.62x51 flash hider/|
+	AR-10 Dead Air Keymount 7.62x51 muzzle brake/|
+	AR-10 Delta-Tek DTK-AR10 7.62x51 muzzle brake/|
 	AR-10 Fortis RED Brake 7.62x51 muzzle brake/|
 	AR-10 KAC QDC 7.62x51 Flash Suppressor Kit/|
 	AR-10 KAC QDC 7.62x51 Muzzle Brake Kit/|
@@ -22,24 +27,19 @@ ChildParts=[
 	AR-10 Nordic Components Corvette 7.62x51 compensator/|
 	AR-10 Odin Works ATLAS-7 7.62x51 muzzle brake/|
 	AR-10 Precision Armanent M11 Severe-Duty 7.62x51 muzzle brake/|
+	AR-10 SureFire ProComp 7.62x51 muzzle brake/|
 	AR-10 SureFire Warden 7.62x51 blast regulator/|
 	AR-10 TAA ZK-38 7.62x51 muzzle brake/|
 	AR-10 Thunder Beast Arms 30CB 7.62x51 muzzle brake/|
-	SA-58 Austrian Style 7.62x51 muzzle brake/|
+	AWC PSR 7.62x51 muzzle brake/|
+	Desert Tech 7.62x51 flash hider/|
 	SA-58 3-Prong Trident 7.62x51 flash hider/|
-	Gemtech ONE Direct Thread Mount adapter/|
-	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
-	Lantac BMD Blast Mitigation Device A3 direct thread adapter/|
-	AAC SCAR-SD 51T 7.62x51 flash hider/|
-	AR-10 CMMG SV Brake 7.62x51 muzzle brake/|
-	AR-10 Dead Air Keymount 7.62x51 muzzle brake/|
-	AR-10 SureFire ProComp 7.62x51 muzzle brake/|
-	AR-10 Delta-Tek DTK-AR10 7.62x51 muzzle brake
+	SA-58 Austrian Style 7.62x51 muzzle brake
 ]
 ChildParts_required=FALSE
 Conflict=[
-	SA-58/FAL Vltor CASV-FAS handguard/|
-	SA-58 quad rail handguard
+	SA-58 quad rail handguard/|
+	SA-58/FAL Vltor CASV-FAS handguard
 ]
 Recoil=-8.000000
 Ergonomics=-28.000000

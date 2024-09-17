@@ -1,8 +1,8 @@
 Name=ASh-12 12.7x55 assault rifle Default
 Base=ASh-12 12.7x55 assault rifle
 Parts=ASh-12 12.7x55 muzzle brake-compensator
-Parts=ASh-12 12.7x55 10-round magazine
-Parts=ASh-12 folding front sight
-Parts=ASh-12 polymer handguard
 Parts=ASh-12 vertical foregrip
+Parts=ASh-12 polymer handguard
+Parts=ASh-12 folding front sight
 Parts=ASh-12 rear sight carry handle
+Parts=ASh-12 12.7x55 10-round magazine

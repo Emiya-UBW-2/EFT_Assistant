@@ -12,10 +12,10 @@ containsItems=[
 	Glock 17 9x19 pistolx1/|
 	Glock 9x19 Lone Wolf AlphaWolf threaded barrelx1/|
 	Glock 9x19 Lone Wolf LWD-COMP9 compensatorx1/|
-	Glock Lone Wolf AlphaWolf pistol slidex1/|
 	Glock TruGlo TFX front sightx1/|
 	Glock TruGlo TFX rear sightx1/|
-	Glock 9x19 17-round magazinex1
+	Glock 9x19 17-round magazinex1/|
+	Glock Lone Wolf AlphaWolf pistol slidex1
 ]
 Name_Jpn=Glock 17 9x19 ピストル Alpha Wolf
 Information_Jpn=

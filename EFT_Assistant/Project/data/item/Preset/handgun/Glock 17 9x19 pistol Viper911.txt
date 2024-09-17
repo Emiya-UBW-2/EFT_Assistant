@@ -11,12 +11,12 @@ IsDefault=FALSE
 containsItems=[
 	Glock 17 9x19 pistolx1/|
 	Glock 9x19 Lone Wolf AlphaWolf threaded barrelx1/|
+	Leupold DeltaPoint Reflex Sightx1/|
 	Glock 9x19 CARVER Custom 4 Port compensatorx1/|
-	Glock Viper Cut pistol slidex1/|
 	Glock 9x19 "Big Stick" 33-round magazinex1/|
-	UM Tactical UM3 pistol sight mountx1/|
 	DeltaPoint Cross Slot Mount basex1/|
-	Leupold DeltaPoint Reflex Sightx1
+	UM Tactical UM3 pistol sight mountx1/|
+	Glock Viper Cut pistol slidex1
 ]
 Name_Jpn=Glock 17 9x19 ピストル Viper
 Information_Jpn=

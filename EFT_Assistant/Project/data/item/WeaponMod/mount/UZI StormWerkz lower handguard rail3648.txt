@@ -11,6 +11,8 @@ propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	NcSTAR Tactical blue laser LAM-module/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
+	Olight Baldr Pro tactical flashlight with laser/|
 	Steiner DBAL-PL tactical device/|
 	Steiner LAS/TAC 2 tactical flashlight/|
 	SureFire X400 Ultra tactical flashlight with laser/|
@@ -18,14 +20,12 @@ ChildParts=[
 	Zenit Klesch-2IKS IR illuminator with laser/|
 	Zenit Klesch-2P flashlight with laser/|
 	Zenit Klesch-2U tactical flashlight/|
-	Olight Baldr Pro tactical flashlight with laser/|
-	Olight Baldr Pro tactical flashlight with laser (Tan)/|
 	Zenit KR-2 old gen mount
 ]
 ChildParts_required=FALSE
 Conflict=[
-	UZI K-Grip handguard/|
-	UZI handguard with foregrip
+	UZI handguard with foregrip/|
+	UZI K-Grip handguard
 ]
 Recoil=0.000000
 Ergonomics=0.000000

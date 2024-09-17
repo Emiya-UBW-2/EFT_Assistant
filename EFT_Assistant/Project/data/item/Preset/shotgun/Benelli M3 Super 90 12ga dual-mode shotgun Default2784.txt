@@ -11,13 +11,13 @@ IsDefault=TRUE
 containsItems=[
 	Benelli M3 Super 90 12ga dual-mode shotgunx1/|
 	Benelli M3 Super 90 12ga 500mm barrelx1/|
+	Benelli M3 Super 90 charging handlex1/|
 	Benelli M3 forendx1/|
-	Benelli M3 Super 90 12ga 5-shell magazine capx1/|
-	Benelli M3 telescopic stockx1/|
-	Benelli M3 telescopic stock pistol gripx1/|
-	Benelli M3 Super 90 upper receiver top railx1/|
 	Benelli M3 Ghost Ring rear sightx1/|
-	Benelli M3 Super 90 charging handlex1
+	Benelli M3 Super 90 12ga 5-shell magazine capx1/|
+	Benelli M3 Super 90 upper receiver top railx1/|
+	Benelli M3 telescopic stock pistol gripx1/|
+	Benelli M3 telescopic stockx1
 ]
 Name_Jpn=Benelli M3 Super 90 デュアルモード 12ゲージ ショットガン デフォルト
 Information_Jpn=

@@ -10,15 +10,15 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	ADAR 2-15 5.56x45 carbinex1/|
-	AR-15 ADAR 2-15 wooden stockx1/|
-	5.56x45 Magpul PMAG 10 GEN M3 STANAG 10-round magazinex1/|
-	AR-15 ADAR 2-15 5.56x45 upper receiverx1/|
 	AR-15 5.56x45 Molot Arms 406mm barrelx1/|
+	AR-15 ADAR 2-15 charging handlex1/|
 	AR-15 ADAR 2-15 5.56x45 flash hiderx1/|
 	M4A1 front sight with gas blockx1/|
 	AR-15 ADAR 2-15 wooden handguardx1/|
+	5.56x45 Magpul PMAG 10 GEN M3 STANAG 10-round magazinex1/|
+	AR-15 ADAR 2-15 5.56x45 upper receiverx1/|
 	AR-15 ADAR 2-15 buffer tubex1/|
-	AR-15 ADAR 2-15 charging handlex1
+	AR-15 ADAR 2-15 wooden stockx1
 ]
 Name_Jpn=ADAR 2-15 5.56x45 カービン デフォルト
 Information_Jpn=

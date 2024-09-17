@@ -10,14 +10,14 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesScope
 Conflict=[
 	Burris AR-P.E.P.R. 30mm ring scope mount/|
-	Geissele Super Precision 30mm ring scope mount/|
 	Geissele Super Precision 30mm ring scope mount (DDC)/|
+	Geissele Super Precision 30mm ring scope mount/|
 	JP Enterprises Flat-Top 30mm ring scope mount/|
 	LaRue LT101 QD Tactical Picatinny Riser mount/|
+	Leapers UTG 25mm ring scope mount/|
 	Nightforce Magmount 30mm ring scope mount/|
-	Nightforce Magmount 34mm ring scope mount/|
 	Nightforce Magmount 34mm ring scope mount with Ruggedized Accessory Platform/|
-	Leapers UTG 25mm ring scope mount
+	Nightforce Magmount 34mm ring scope mount
 ]
 Recoil=0.000000
 Ergonomics=0.000000

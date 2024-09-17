@@ -10,18 +10,18 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	HK USP .45 ACP barrel/|
-	HK USP Tactical .45 ACP threaded barrel/|
-	HK USP Expert .45 ACP barrel/|
 	HK USP Elite .45 ACP barrel/|
-	HK USP Match .45 ACP barrel
+	HK USP Expert .45 ACP barrel/|
+	HK USP Match .45 ACP barrel/|
+	HK USP Tactical .45 ACP threaded barrel
 ]
 ChildParts_required=TRUE
 ChildParts=[
+	HK USP .45 ACP pistol slide/|
 	HK USP Elite .45 ACP pistol slide/|
 	HK USP Expert .45 ACP pistol slide/|
 	HK USP Match .45 ACP pistol slide/|
-	HK USP Tactical .45 ACP pistol slide/|
-	HK USP .45 ACP pistol slide
+	HK USP Tactical .45 ACP pistol slide
 ]
 ChildParts_required=TRUE
 ChildParts=[

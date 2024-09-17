@@ -10,16 +10,16 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	KBP 9A-91 9x39 compact assault riflex1/|
-	9A-91 pistol gripx1/|
-	9A-91 top-folding stockx1/|
-	Axion Kobra EKP-1S-03 reflex sight (Dovetail)x1/|
 	9A-91 9x39 barrelx1/|
-	9A-91 9x39 sound suppressorx1/|
-	VSS/VAL Zenit B-3 ring mountx1/|
-	Zenit KR-2 old gen mountx1/|
 	Zenit 2D flashlightx1/|
 	9A-91 handguardx1/|
-	9A-91 9x39 20-round magazinex1
+	9A-91 9x39 20-round magazinex1/|
+	VSS/VAL Zenit B-3 ring mountx1/|
+	Zenit KR-2 old gen mountx1/|
+	9A-91 pistol gripx1/|
+	Axion Kobra EKP-1S-03 reflex sight (Dovetail)x1/|
+	9A-91 9x39 sound suppressorx1/|
+	9A-91 top-folding stockx1
 ]
 Name_Jpn=KBP 9A-91 9x39 compact assault rifle Tactical
 Information_Jpn=

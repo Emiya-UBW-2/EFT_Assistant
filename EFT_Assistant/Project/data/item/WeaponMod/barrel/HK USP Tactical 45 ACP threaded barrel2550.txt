@@ -9,8 +9,8 @@ weight=0.122000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
-	SilencerCo Omega 45k Piston Mount adapter/|
-	HK USP Tactical thread protector
+	HK USP Tactical thread protector/|
+	SilencerCo Omega 45k Piston Mount adapter
 ]
 ChildParts_required=FALSE
 Recoil=-2.000000

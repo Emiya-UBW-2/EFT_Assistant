@@ -10,16 +10,16 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	HK G36 5.56x45 assault riflex1/|
-	HK G36 5.56x45 30-round magazinex1/|
-	HK G36 KV adjustable stockx1/|
+	HK G36 Hensoldt HKV 3x carry handlex1/|
+	HK G36 hand stopx1/|
 	HK G36 5.56x45 318mm barrelx1/|
 	HK G36 5.56x45 4-prong flash hiderx1/|
 	HK G36 gas blockx1/|
 	HK G36 4-vent handguardx1/|
-	HK G36 hand stopx1/|
+	HK G36 5.56x45 30-round magazinex1/|
+	Hensoldt RIS top railx1/|
 	HK G36 magwellx1/|
-	HK G36 Hensoldt HKV 3x carry handlex1/|
-	Hensoldt RIS top railx1
+	HK G36 KV adjustable stockx1
 ]
 Name_Jpn=G36 5.56x45 アサルトライフル KV1
 Information_Jpn=

@@ -10,12 +10,12 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	ASh-12 12.7x55 assault riflex1/|
-	ASh-12 12.7x55 sound suppressorx1/|
-	Valday Krechet reflex sightx1/|
-	ASh-12 12.7x55 20-round magazinex1/|
-	ASh-12 polymer handguardx1/|
+	Zenit Perst-3 tactical devicex1/|
 	Hera Arms CQR tactical foregripx1/|
-	Zenit Perst-3 tactical devicex1
+	ASh-12 polymer handguardx1/|
+	ASh-12 12.7x55 20-round magazinex1/|
+	Valday Krechet reflex sightx1/|
+	ASh-12 12.7x55 sound suppressorx1
 ]
 Name_Jpn=ASh-12 12.7x55 アサルトライフル TAC
 Information_Jpn=

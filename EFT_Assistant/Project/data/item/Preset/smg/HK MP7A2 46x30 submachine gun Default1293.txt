@@ -10,10 +10,10 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	HK MP7A2 4.6x30 submachine gunx1/|
-	HK MP7 4.6x30 20-round magazinex1/|
 	HK MP7A1 4.6x30 flash hiderx1/|
 	HK MP7 flip-up front sightx1/|
 	HK MP7 flip-up rear sightx1/|
+	HK MP7 4.6x30 20-round magazinex1/|
 	HK MP7A2 stockx1
 ]
 Name_Jpn=MP7A2 4.6x30 サブマシンガン デフォルト

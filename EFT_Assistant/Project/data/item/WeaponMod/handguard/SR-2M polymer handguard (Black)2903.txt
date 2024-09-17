@@ -9,13 +9,13 @@ weight=0.120000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
-	SR-2M side rail/|
-	SR-2M short side rail
+	SR-2M short side rail/|
+	SR-2M side rail
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	SR-2M side rail/|
-	SR-2M short side rail
+	SR-2M short side rail/|
+	SR-2M side rail
 ]
 ChildParts_required=FALSE
 Recoil=0.000000

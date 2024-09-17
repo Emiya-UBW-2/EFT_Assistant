@@ -10,10 +10,10 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	Mosin 7.62x54R bolt-action rifle (Sniper)x1/|
-	Mosin Rifle 7.62x54R 5-round magazinex1/|
-	Mosin Rifle sawed-off sniper stockx1/|
 	Mosin Rifle 7.62x54R sawed-off 220mm threaded barrelx1/|
-	Mosin Rifle carbine rear sightx1
+	Mosin Rifle carbine rear sightx1/|
+	Mosin Rifle 7.62x54R 5-round magazinex1/|
+	Mosin Rifle sawed-off sniper stockx1
 ]
 Name_Jpn=Mosin 7.62x54R ボルトアクション ライフル (スナイパー) Obrez
 Information_Jpn=

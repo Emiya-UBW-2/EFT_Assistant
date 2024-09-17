@@ -10,12 +10,12 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	SR-3M 9x39 compact assault riflex1/|
-	AS VAL dust coverx1/|
+	SR-3M polymer foregrip (Plum)x1/|
+	SR-3M polymer handguard (Plum)x1/|
 	VSS/VAL 9x39 SR3M.130 30-round magazinex1/|
 	AS VAL pistol grip (Plum)x1/|
-	AS VAL skeleton stockx1/|
-	SR-3M polymer handguard (Plum)x1/|
-	SR-3M polymer foregrip (Plum)x1
+	AS VAL dust coverx1/|
+	AS VAL skeleton stockx1
 ]
 Name_Jpn=SR-3M 9x39 compact assault rifle デフォルト
 Information_Jpn=

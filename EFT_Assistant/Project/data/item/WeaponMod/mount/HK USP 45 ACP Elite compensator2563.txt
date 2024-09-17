@@ -9,10 +9,10 @@ weight=0.310000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 Conflict=[
-	SilencerCo Omega 45k Piston Mount adapter/|
 	HK USP .45 ACP barrel/|
+	HK USP Expert .45 ACP barrel/|
 	HK USP Tactical .45 ACP threaded barrel/|
-	HK USP Expert .45 ACP barrel
+	SilencerCo Omega 45k Piston Mount adapter
 ]
 Recoil=-10.000000
 Ergonomics=-8.000000

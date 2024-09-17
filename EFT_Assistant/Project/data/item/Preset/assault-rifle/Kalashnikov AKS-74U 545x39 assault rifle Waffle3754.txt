@@ -10,22 +10,22 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	Kalashnikov AKS-74U 5.45x39 assault riflex1/|
-	AK Zenit RK-3 pistol gripx1/|
+	Zenit Perst-3 tactical devicex1/|
+	AK Hexagon Reactor 5.45x39 muzzle brakex1/|
+	Ultrafire WF-501B flashlightx1/|
+	Magpul RVG foregrip (Black)x1/|
 	AKS-74U gas tube (6P26 Sb.1-2)x1/|
 	AKS-74U Zenit B-11 handguardx1/|
+	AK-74 5.45x39 Magpul PMAG 30 GEN M3 30-round magazinex1/|
 	AK Zenit B-12 Mountx1/|
 	Kiba Arms 25mm accessory ring mountx1/|
-	Ultrafire WF-501B flashlightx1/|
-	Zenit Perst-3 tactical devicex1/|
-	Magpul RVG foregrip (Black)x1/|
-	AKS-74/AKS-74U Zenit PT Lockx1/|
-	AK Zenit PT-3 "Klassika" stockx1/|
-	AK Hexagon Reactor 5.45x39 muzzle brakex1/|
-	AK-74 Hexagon Wafflemaker 5.45x39 sound suppressorx1/|
-	AK-74 5.45x39 Magpul PMAG 30 GEN M3 30-round magazinex1/|
-	AKS-74U Legal Arsenal Piligrim railed dust coverx1/|
 	LaRue LT101 QD Tactical Picatinny Riser mountx1/|
-	ELCAN Specter HCO holographic sightx1
+	AK Zenit RK-3 pistol gripx1/|
+	AKS-74U Legal Arsenal Piligrim railed dust coverx1/|
+	ELCAN Specter HCO holographic sightx1/|
+	AK-74 Hexagon Wafflemaker 5.45x39 sound suppressorx1/|
+	AK Zenit PT-3 "Klassika" stockx1/|
+	AKS-74/AKS-74U Zenit PT Lockx1
 ]
 Name_Jpn=Kalashnikov AKS-74U 5.45x39 アサルトライフル Waffle
 Information_Jpn=

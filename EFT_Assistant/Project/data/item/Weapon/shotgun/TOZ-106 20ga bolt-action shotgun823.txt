@@ -15,8 +15,8 @@ ChildParts=[
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	TOZ-106 custom cut Mosin stock/|
 	MTs 20-01 stock/|
+	TOZ-106 custom cut Mosin stock/|
 	TOZ-106 stock
 ]
 ChildParts_required=TRUE

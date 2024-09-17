@@ -10,11 +10,11 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	Remington Model 700 7.62x51 bolt-action sniper riflex1/|
-	M700 7.62x51 AI AICS 5-round magazinex1/|
-	M700 AI AT AICS polymer chassisx1/|
-	Strike Industries KeyMod 4 inch railx1/|
 	M700 7.62x51 20 inch threaded barrelx1/|
-	M700 thread protection capx1
+	M700 thread protection capx1/|
+	M700 7.62x51 AI AICS 5-round magazinex1/|
+	Strike Industries KeyMod 4 inch railx1/|
+	M700 AI AT AICS polymer chassisx1
 ]
 Name_Jpn=Remington Model 700 7.62x51 ボルトアクション スナイパーライフル AICS
 Information_Jpn=

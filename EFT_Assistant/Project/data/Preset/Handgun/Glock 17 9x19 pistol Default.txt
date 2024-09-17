@@ -1,7 +1,7 @@
 Name=Glock 17 9x19 pistol Default
 Base=Glock 17 9x19 pistol
 Parts=Glock 17 9x19 barrel
-Parts=Glock 17 pistol slide
-Parts=Glock rear sight
 Parts=Glock front sight
+Parts=Glock rear sight
 Parts=Glock 9x19 17-round magazine
+Parts=Glock 17 pistol slide

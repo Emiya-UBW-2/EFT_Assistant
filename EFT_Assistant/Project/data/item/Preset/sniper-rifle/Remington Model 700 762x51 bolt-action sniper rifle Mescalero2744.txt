@@ -10,18 +10,18 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	Remington Model 700 7.62x51 bolt-action sniper riflex1/|
-	M700 7.62x51 MDT AICS 12-round magazinex1/|
-	M700 AB Arms MOD*X GEN 3 chassisx1/|
-	AR-15 Colt Carbine buffer tubex1/|
-	AR-15 Magpul PRS GEN3 stock (Grey)x1/|
-	AR-15 Magpul MIAD pistol grip (FDE)x1/|
-	M700 AB Arms MOD*X GEN 3 KeyMod handguardx1/|
 	M700 7.62x51 20 inch threaded barrelx1/|
 	AR-10 Daniel Defense WAVE 7.62x51 muzzle brakex1/|
-	Daniel Defense WAVE QD sound suppressorx1/|
+	M700 AB Arms MOD*X GEN 3 KeyMod handguardx1/|
+	M700 7.62x51 MDT AICS 12-round magazinex1/|
 	M700 AB Arms MOD*X rail mountx1/|
 	Nightforce Magmount 34mm ring scope mountx1/|
-	Schmidt & Bender PM II 3-20x50 34mm riflescopex1
+	AR-15 Magpul MIAD pistol grip (FDE)x1/|
+	Schmidt & Bender PM II 3-20x50 34mm riflescopex1/|
+	Daniel Defense WAVE QD sound suppressorx1/|
+	AR-15 Colt Carbine buffer tubex1/|
+	AR-15 Magpul PRS GEN3 stock (Grey)x1/|
+	M700 AB Arms MOD*X GEN 3 chassisx1
 ]
 Name_Jpn=Remington Model 700 7.62x51 ボルトアクション スナイパーライフル Mescalero
 Information_Jpn=

@@ -10,14 +10,14 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	Kalashnikov AKMSN 7.62x39 assault riflex1/|
+	VPO-136 Vepr-KM 7.62x39 muzzle brake-compensatorx1/|
 	AKM gas tube (6P1 Sb.1-2)x1/|
 	AKM wooden handguard (6P1 Sb.6-1)x1/|
-	VPO-136 Vepr-KM 7.62x39 muzzle brake-compensatorx1/|
+	AKM rear sight (6P1 Sb.2-1)x1/|
+	AKMS 7.62x39 aluminium 30-round magazinex1/|
 	AKM wooden pistol gripx1/|
 	AKM dust cover (6P1 0-1)x1/|
-	AKM rear sight (6P1 Sb.2-1)x1/|
-	AKMSN shoulder piece (6P4N Sb.1-19)x1/|
-	AKMS 7.62x39 aluminium 30-round magazinex1
+	AKMSN shoulder piece (6P4N Sb.1-19)x1
 ]
 Name_Jpn=Kalashnikov AKMSN 7.62x39 アサルトライフル デフォルト
 Information_Jpn=

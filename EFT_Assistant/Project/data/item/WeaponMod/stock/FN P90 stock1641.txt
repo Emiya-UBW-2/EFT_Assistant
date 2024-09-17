@@ -9,8 +9,8 @@ weight=0.400000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
-	FN P90 Damage Industries buttpad/|
-	FN P90 buttpad
+	FN P90 buttpad/|
+	FN P90 Damage Industries buttpad
 ]
 ChildParts_required=TRUE
 Recoil=-6.000000

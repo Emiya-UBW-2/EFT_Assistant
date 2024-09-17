@@ -10,24 +10,24 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	FN SCAR-L 5.56x45 assault rifle (FDE)x1/|
-	AR-15 Magpul MOE pistol grip (Black)x1/|
-	5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazinex1/|
-	FN SCAR-L 5.56x45 upper receiverx1/|
 	Leupold Mark 4 HAMR 4x24 DeltaPoint hybrid assault scopex1/|
-	Leupold DeltaPoint Reflex Sightx1/|
 	FN SCAR-L 5.56x45 14 inch barrelx1/|
+	FN SCAR charging handlex1/|
+	Leupold DeltaPoint Reflex Sightx1/|
 	AR-15 Noveske KX3 5.56x45 flash hiderx1/|
+	Zenit RK-1 tactical foregripx1/|
 	FN SCAR flip-up front sightx1/|
 	FN SCAR flip-up rear sightx1/|
+	5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazinex1/|
 	FN SCAR bottom railx1/|
-	Zenit RK-1 tactical foregripx1/|
 	FN SCAR PWS SRX rail extensionx1/|
 	FN SCAR side railx1/|
+	AR-15 Magpul MOE pistol grip (Black)x1/|
+	FN SCAR-L 5.56x45 upper receiverx1/|
+	FN SCAR cheek restx1/|
 	FN SCAR folding polymer stock (FDE)x1/|
 	FN SCAR retractable polymer stock (FDE)x1/|
-	FN SCAR rubber buttpadx1/|
-	FN SCAR cheek restx1/|
-	FN SCAR charging handlex1
+	FN SCAR rubber buttpadx1
 ]
 Name_Jpn=FN SCAR-L 5.56x45 assault rifle (FDE) Contract Wars
 Information_Jpn=

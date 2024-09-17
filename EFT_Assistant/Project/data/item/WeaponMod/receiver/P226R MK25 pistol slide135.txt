@@ -16,8 +16,8 @@ ChildParts=[
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	P226 Meprolight TRU-DOT Night front sight/|
-	P226 front sight
+	P226 front sight/|
+	P226 Meprolight TRU-DOT Night front sight
 ]
 ChildParts_required=FALSE
 Recoil=0.000000

@@ -11,12 +11,12 @@ IsDefault=FALSE
 containsItems=[
 	Glock 17 9x19 pistolx1/|
 	Glock 9x19 Double Diamond threaded barrelx1/|
-	SilencerCo Osprey 9 9x19 sound suppressorx1/|
-	Glock 17 pistol slidex1/|
+	Burris FastFire 3 reflex sightx1/|
 	Glock 9x19 Magpul PMAG GL9 21-round magazinex1/|
-	Glock Aimtech mount basex1/|
 	Burris FastFire Weaver Basex1/|
-	Burris FastFire 3 reflex sightx1
+	Glock Aimtech mount basex1/|
+	Glock 17 pistol slidex1/|
+	SilencerCo Osprey 9 9x19 sound suppressorx1
 ]
 Name_Jpn=Glock 17 9x19 ピストル Tac 2
 Information_Jpn=

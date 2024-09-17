@@ -9,8 +9,8 @@ weight=0.180000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
-	P226 TJ's Custom 9x19 compensator/|
 	P226 thread protection cap/|
+	P226 TJ's Custom 9x19 compensator/|
 	AAC Illusion 9 9x19 sound suppressor/|
 	Alpha Dog Alpha 9 9x19 sound suppressor/|
 	SIG Sauer SRD9 9x19 sound suppressor/|

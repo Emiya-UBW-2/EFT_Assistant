@@ -11,8 +11,8 @@ IsDefault=TRUE
 containsItems=[
 	TOZ-106 20ga bolt-action shotgunx1/|
 	TOZ-106 20ga MTs 20-01 Sb.3 2-shot magazinex1/|
-	TOZ-106 stockx1/|
-	TOZ-106 002 pistol gripx1
+	TOZ-106 002 pistol gripx1/|
+	TOZ-106 stockx1
 ]
 Name_Jpn=TOZ-106 20ga ボルトアクション ショットガン デフォルト
 Information_Jpn=

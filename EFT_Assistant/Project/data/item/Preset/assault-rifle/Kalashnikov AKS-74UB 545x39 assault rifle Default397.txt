@@ -10,13 +10,13 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	Kalashnikov AKS-74UB 5.45x39 assault riflex1/|
-	AK bakelite pistol grip (6P1 Sb.8V)x1/|
-	AKS-74U metal skeleton stock (6P26 Sb.5)x1/|
-	AK-74 5.45x39 6L20 30-round magazinex1/|
-	AKS-74U PBS-4 5.45x39 sound suppressorx1/|
-	AKS-74UB dust coverx1/|
 	AKS-74U gas tube (6P26 Sb.1-2)x1/|
-	AKS-74U wooden handguard (6P26 Sb.6)x1
+	AKS-74U wooden handguard (6P26 Sb.6)x1/|
+	AK-74 5.45x39 6L20 30-round magazinex1/|
+	AK bakelite pistol grip (6P1 Sb.8V)x1/|
+	AKS-74UB dust coverx1/|
+	AKS-74U PBS-4 5.45x39 sound suppressorx1/|
+	AKS-74U metal skeleton stock (6P26 Sb.5)x1
 ]
 Name_Jpn=Kalashnikov AKS-74UB 5.45x39 アサルトライフル デフォルト
 Information_Jpn=

@@ -137,6 +137,7 @@ namespace FPS_n2 {
 			outputfile << LV + "Information_Jpn=" + L2.m_Information_Jpn + "\n";
 			{
 				outputfile << LV + "itemReq=[";
+				std::sort(L2.m_ItemReq.begin(), L2.m_ItemReq.end(), [&](const ItemGetData& a, const ItemGetData& b) { return a.GetID() < b.GetID(); });
 				for (auto& m : L2.m_ItemReq) {
 					outputfile << m.GetOutputStr();
 					if (&m != &L2.m_ItemReq.back()) {
@@ -147,6 +148,7 @@ namespace FPS_n2 {
 			}
 			{
 				outputfile << LV + "stationLevelReq=[";
+				std::sort(L2.m_Parent.begin(), L2.m_Parent.end(), [&](const HideoutGetData& a, const HideoutGetData& b) { return a.GetID() < b.GetID(); });
 				for (auto& m : L2.m_Parent) {
 					outputfile << m.GetOutputStr();
 					if (&m != &L2.m_Parent.back()) {
@@ -157,6 +159,7 @@ namespace FPS_n2 {
 			}
 			{
 				outputfile << LV + "traderRequirements=[";
+				std::sort(L2.m_TraderReq.begin(), L2.m_TraderReq.end(), [&](const TraderGetData& a, const TraderGetData& b) { return a.GetID() < b.GetID(); });
 				for (auto& m : L2.m_TraderReq) {
 					outputfile << m.GetOutputStr();
 					if (&m != &L2.m_TraderReq.back()) {
@@ -169,6 +172,7 @@ namespace FPS_n2 {
 				outputfile << LV + "craftduration=" + std::to_string(c.durationTime) + "\n";
 				{
 					outputfile << LV + "craftitemReq=[";
+					std::sort(c.m_ItemReq.begin(), c.m_ItemReq.end(), [&](const ItemGetData& a, const ItemGetData& b) { return a.GetID() < b.GetID(); });
 					for (auto& m : c.m_ItemReq) {
 						outputfile << m.GetOutputStr();
 						if (&m != &c.m_ItemReq.back()) {
@@ -179,6 +183,7 @@ namespace FPS_n2 {
 				}
 				{
 					outputfile << LV + "craftitemReward=[";
+					std::sort(c.m_ItemReward.begin(), c.m_ItemReward.end(), [&](const ItemGetData& a, const ItemGetData& b) { return a.GetID() < b.GetID(); });
 					for (auto& m : c.m_ItemReward) {
 						outputfile << m.GetOutputStr();
 						if (&m != &c.m_ItemReward.back()) {

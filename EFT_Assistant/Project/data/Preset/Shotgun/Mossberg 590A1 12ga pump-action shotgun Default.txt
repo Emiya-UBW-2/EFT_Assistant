@@ -1,8 +1,8 @@
 Name=Mossberg 590A1 12ga pump-action shotgun Default
 Base=Mossberg 590A1 12ga pump-action shotgun
 Parts=Mossberg 590A1 12ga 20 inch barrel
-Parts=Mossberg 590 Ghost Ring front sight
 Parts=Mossberg 590A1 SpeedFeed short handguard
+Parts=Mossberg 590 Ghost Ring front sight
+Parts=Mossberg 590 Ghost Ring rear sight
 Parts=Mossberg 590A1 12ga 8-shell magazine cap
 Parts=Mossberg 590A1 polymer stock
-Parts=Mossberg 590 Ghost Ring rear sight

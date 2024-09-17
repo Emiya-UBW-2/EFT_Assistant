@@ -11,8 +11,8 @@ IsDefault=TRUE
 containsItems=[
 	Chiappa Rhino 50DS .357 revolverx1/|
 	Chiappa Rhino .357 6-round cylinderx1/|
-	Chiappa Rhino rear sightx1/|
 	Chiappa Rhino front sightx1/|
+	Chiappa Rhino rear sightx1/|
 	Chiappa Rhino wooden pistol gripx1
 ]
 Name_Jpn=Chiappa Rhino 50DS .357 revolver デフォルト

@@ -1,10 +1,10 @@
 Name=Glock 17 9x19 pistol Fischer
 Base=Glock 17 9x19 pistol
 Parts=Glock 17 9x19 barrel
+Parts=SureFire XC1 tactical flashlight
+Parts=Glock Dead Ringer Snake Eye front sight
+Parts=Glock Dead Ringer Snake Eye rear sight
+Parts=Glock 9x19 17-round magazine
 Parts=Glock Pachmayr Tactical Grip Glove
 Parts=Glock 17 pistol slide
-Parts=Glock Dead Ringer Snake Eye rear sight
-Parts=Glock Dead Ringer Snake Eye front sight
-Parts=Glock 9x19 17-round magazine
 Parts=Glock 9x19 Fischer Development FD917 sound suppressor
-Parts=SureFire XC1 tactical flashlight

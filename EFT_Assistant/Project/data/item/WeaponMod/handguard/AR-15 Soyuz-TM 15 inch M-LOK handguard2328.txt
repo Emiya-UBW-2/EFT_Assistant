@@ -9,24 +9,24 @@ weight=0.220000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
+	Magpul M-LOK 0.93 inch rail/|
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount/|
-	Magpul M-LOK Offset Light Mount/|
-	Magpul M-LOK 0.93 inch rail
+	Magpul M-LOK Offset Light Mount
 ]
 ChildParts_required=FALSE
 ChildParts=[
+	Magpul M-LOK 0.93 inch rail/|
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount/|
-	Magpul M-LOK Offset Light Mount/|
-	Magpul M-LOK 0.93 inch rail
+	Magpul M-LOK Offset Light Mount
 ]
 ChildParts_required=FALSE
 ChildParts=[
+	Magpul M-LOK 0.93 inch rail/|
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount/|
-	Magpul M-LOK Offset Light Mount/|
-	Magpul M-LOK 0.93 inch rail
+	Magpul M-LOK Offset Light Mount
 ]
 ChildParts_required=FALSE
 ChildParts=[
@@ -34,37 +34,37 @@ ChildParts=[
 ]
 ChildParts_required=FALSE
 ChildParts=[
+	BCM GUNFIGHTER MOD 3 M-LOK foregrip (Black)/|
+	BCM GUNFIGHTER MOD 3 M-LOK foregrip (FDE)/|
+	Daniel Defense Enhanced M-LOK Vertical Foregrip (Black)/|
+	Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown)/|
 	Magpul M-LOK AFG tactical foregrip (Black)/|
 	Magpul M-LOK AFG tactical foregrip (FDE)/|
 	Magpul M-LOK AFG tactical foregrip (Olive Drab)/|
 	Magpul M-LOK AFG tactical foregrip (Stealth Grey)/|
-	Magpul M-LOK 4.1 inch rail/|
-	Daniel Defense Enhanced M-LOK Vertical Foregrip (Black)/|
-	Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown)/|
-	BCM GUNFIGHTER MOD 3 M-LOK foregrip (Black)/|
-	BCM GUNFIGHTER MOD 3 M-LOK foregrip (FDE)
+	Magpul M-LOK 4.1 inch rail
 ]
 ChildParts_required=FALSE
 ChildParts=[
+	AR-15 Leapers UTG Low Profile A2 front sight/|
 	HK MP7 flip-up front sight/|
-	KAC Folding Micro front sight/|
 	KAC Folding front sight/|
+	KAC Folding Micro front sight/|
 	KRISS Defiance low profile flip-up front sight/|
-	Magpul MBUS Gen2 flip-up front sight/|
 	Magpul MBUS Gen2 flip-up front sight (FDE)/|
+	Magpul MBUS Gen2 flip-up front sight/|
 	MCX flip-up front sight/|
-	MPX flip-up front sight/|
-	AR-15 Leapers UTG Low Profile A2 front sight
+	MPX flip-up front sight
 ]
 ChildParts_required=FALSE
 Conflict=[
-	AR-10 JP Enterprises Gas System-6/|
-	M4A1 front sight with gas block/|
-	AR-15 Windham Weaponry Rail Gas Block/|
 	AR-15 5.56x45 260mm barrel/|
 	AR-15 5.56x45 370mm barrel/|
 	STM-9 9x19 10.5 inch barrel/|
-	STM-9 9x19 12 inch barrel
+	STM-9 9x19 12 inch barrel/|
+	AR-10 JP Enterprises Gas System-6/|
+	AR-15 Windham Weaponry Rail Gas Block/|
+	M4A1 front sight with gas block
 ]
 Recoil=-1.000000
 Ergonomics=5.500000

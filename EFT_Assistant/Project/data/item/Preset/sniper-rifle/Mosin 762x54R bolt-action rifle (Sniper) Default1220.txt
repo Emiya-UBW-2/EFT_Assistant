@@ -10,11 +10,11 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	Mosin 7.62x54R bolt-action rifle (Sniper)x1/|
-	Mosin Rifle 7.62x54R 5-round magazinex1/|
-	Mosin Rifle standard stockx1/|
 	Mosin Rifle 7.62x54R 730mm regular barrelx1/|
 	Mosin Rifle front sightx1/|
-	Mosin Rifle rear sightx1
+	Mosin Rifle rear sightx1/|
+	Mosin Rifle 7.62x54R 5-round magazinex1/|
+	Mosin Rifle standard stockx1
 ]
 Name_Jpn=Mosin 7.62x54R ボルトアクション ライフル (スナイパー) デフォルト
 Information_Jpn=

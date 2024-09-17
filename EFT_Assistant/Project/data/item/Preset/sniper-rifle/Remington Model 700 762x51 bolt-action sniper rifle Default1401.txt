@@ -10,10 +10,10 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	Remington Model 700 7.62x51 bolt-action sniper riflex1/|
-	M700 7.62x51 Wyatt's Outdoor 5-round magazinex1/|
-	M700 Hogue Overmolded Ghillie stockx1/|
 	M700 7.62x51 20 inch threaded barrelx1/|
-	M700 thread protection capx1
+	M700 thread protection capx1/|
+	M700 7.62x51 Wyatt's Outdoor 5-round magazinex1/|
+	M700 Hogue Overmolded Ghillie stockx1
 ]
 Name_Jpn=Remington Model 700 7.62x51 ボルトアクション スナイパーライフル デフォルト
 Information_Jpn=

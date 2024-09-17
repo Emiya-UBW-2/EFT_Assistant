@@ -10,11 +10,11 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	IWI UZI PRO Pistol 9x19 submachine gunx1/|
+	UZI PRO 9x19 240mm barrelx1/|
 	UZI PRO 9x19 barrel retaining nutx1/|
+	UZI PRO 9x19 32-round magazinex1/|
 	UZI PRO dust coverx1/|
 	Wilcox BOSS Xe reflex sightx1/|
-	UZI PRO 9x19 240mm barrelx1/|
-	UZI PRO 9x19 32-round magazinex1/|
 	UZI PRO SBR buttstockx1
 ]
 Name_Jpn=IWI UZI PRO Pistol 9x19 submachine gun BOSS Xe

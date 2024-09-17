@@ -9,8 +9,8 @@ weight=0.100000
 fleaMarketFee=0
 propertiestype=
 Conflict=[
-	Shemagh (Tan)/|
-	Shemagh (Green)
+	Shemagh (Green)/|
+	Shemagh (Tan)
 ]
 Name_Jpn=Beret (Black)
 Information_Jpn=ただの黒いベレー帽

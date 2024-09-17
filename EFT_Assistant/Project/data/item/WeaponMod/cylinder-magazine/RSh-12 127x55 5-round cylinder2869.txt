@@ -28,8 +28,8 @@ ChildParts=[
 ChildParts_required=FALSE
 ChildParts=[
 	12.7x55mm PS12/|
-	12.7x55mm PS12B/|
-	12.7x55mm PS12A
+	12.7x55mm PS12A/|
+	12.7x55mm PS12B
 ]
 ChildParts_required=FALSE
 ChildParts=[

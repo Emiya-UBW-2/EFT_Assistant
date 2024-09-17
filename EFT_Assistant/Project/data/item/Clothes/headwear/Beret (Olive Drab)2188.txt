@@ -9,8 +9,8 @@ weight=0.100000
 fleaMarketFee=0
 propertiestype=
 Conflict=[
-	Shemagh (Tan)/|
-	Shemagh (Green)
+	Shemagh (Green)/|
+	Shemagh (Tan)
 ]
 Name_Jpn=Beret (Olive Drab)
 Information_Jpn=You can call it a green beret, but it's definitely an Olive Drab beret.

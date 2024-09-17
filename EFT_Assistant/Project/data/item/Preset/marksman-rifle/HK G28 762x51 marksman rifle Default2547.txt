@@ -10,24 +10,24 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	HK G28 7.62x51 marksman riflex1/|
-	AR-15 HK Battle Grip Beavertail pistol grip (RAL 8000)x1/|
-	HK417/G28 7.62x51 20-round magazinex1/|
-	HK G28 buffer tubex1/|
-	HK417 Adjustable Buttstockx1/|
-	HK Adjustable Buttstock cheek restx1/|
-	HK G28 7.62x51 upper receiverx1/|
-	Recknagel Era-Tac 34mm ring scope mountx1/|
-	Schmidt & Bender PM II 3-20x50 34mm riflescopex1/|
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sightsx1/|
-	Aimpoint Micro T-1 reflex sightx1/|
 	HK417 7.62x51 16.5 inch barrelx1/|
+	HK417 E1 extended charging handlex1/|
+	Aimpoint Micro T-1 reflex sightx1/|
 	HK Prolonged 7.62x51 flash hiderx1/|
-	HK G28 B&T QD 7.62x51 sound suppressorx1/|
+	HK Sturmgriff foregripx1/|
 	HK417 low profile gas blockx1/|
 	HK417 Extended Free Float handguard with flip-up front sightx1/|
-	HK Sturmgriff foregripx1/|
 	HK 416A5 flip-up rear sightx1/|
-	HK417 E1 extended charging handlex1
+	HK417/G28 7.62x51 20-round magazinex1/|
+	Recknagel Era-Tac 34mm ring scope mountx1/|
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sightsx1/|
+	AR-15 HK Battle Grip Beavertail pistol grip (RAL 8000)x1/|
+	HK G28 7.62x51 upper receiverx1/|
+	Schmidt & Bender PM II 3-20x50 34mm riflescopex1/|
+	HK G28 B&T QD 7.62x51 sound suppressorx1/|
+	HK Adjustable Buttstock cheek restx1/|
+	HK G28 buffer tubex1/|
+	HK417 Adjustable Buttstockx1
 ]
 Name_Jpn=HK G28 7.62x51 マークスマンライフル デフォルト
 Information_Jpn=

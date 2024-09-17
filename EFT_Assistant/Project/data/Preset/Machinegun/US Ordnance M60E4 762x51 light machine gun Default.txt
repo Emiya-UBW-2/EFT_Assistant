@@ -1,12 +1,12 @@
 Name=U.S. Ordnance M60E4 7.62x51 light machine gun Default
 Base=U.S. Ordnance M60E4 7.62x51 light machine gun
-Parts=M60E4 buttstock
 Parts=M60E4 7.62x51 458mm barrel
+Parts=M60 bipod
 Parts=M60E3 7.62x51 flash hider
-Parts=M60E4 front sight
 Parts=M60E4 Mod 1 handguard
 Parts=M60 rear sight
-Parts=M60E4 trigger group
-Parts=M60E4 pistol grip
-Parts=M60 bipod
+Parts=M60E4 front sight
 Parts=M60 7.62x51 Capco 100-round Assault Box
+Parts=M60E4 pistol grip
+Parts=M60E4 trigger group
+Parts=M60E4 buttstock

@@ -11,8 +11,8 @@ IsDefault=TRUE
 containsItems=[
 	TT-33 7.62x25 TT pistol (Golden)x1/|
 	TT 7.62x25 116mm gilded barrelx1/|
-	TT ornated side gripsx1/|
-	TT 7.62x25 tt-105 8-round magazinex1
+	TT 7.62x25 tt-105 8-round magazinex1/|
+	TT ornated side gripsx1
 ]
 Name_Jpn=TT-33 7.62x25 TT pistol (Golden) デフォルト
 Information_Jpn=

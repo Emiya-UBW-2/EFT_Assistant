@@ -10,14 +10,14 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	IWI UZI PRO Pistol 9x19 submachine gunx1/|
-	UZI PRO 9x19 25-round magazinex1/|
+	UZI PRO 9x19 210mm barrelx1/|
 	UZI PRO 9x19 barrel retaining nutx1/|
-	UZI PRO Stabilizing Bracex1/|
-	UZI PRO dust coverx1/|
-	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sightsx1/|
 	Aimpoint Micro T-1 reflex sightx1/|
 	TangoDown Stubby BGV-MK46K foregrip (FDE)x1/|
-	UZI PRO 9x19 210mm barrelx1
+	UZI PRO 9x19 25-round magazinex1/|
+	Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sightsx1/|
+	UZI PRO dust coverx1/|
+	UZI PRO Stabilizing Bracex1
 ]
 Name_Jpn=IWI UZI PRO Pistol 9x19 submachine gun T-1
 Information_Jpn=

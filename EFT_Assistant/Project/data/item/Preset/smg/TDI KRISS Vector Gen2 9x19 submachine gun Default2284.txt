@@ -10,14 +10,14 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	TDI KRISS Vector Gen.2 9x19 submachine gunx1/|
-	Glock 9x19 17-round magazinex1/|
-	KRISS Defiance low profile flip-up front sightx1/|
-	KRISS Defiance low profile flip-up rear sightx1/|
-	KRISS Vector Gen.2 folding stockx1/|
 	KRISS Vector 9x19 5 inch barrelx1/|
 	KRISS Vector 9x19 thread protection capx1/|
+	KRISS Defiance low profile flip-up front sightx1/|
+	KRISS Defiance low profile flip-up rear sightx1/|
+	Glock 9x19 17-round magazinex1/|
 	KRISS Vector bottom railx1/|
-	KRISS Vector side railx2
+	KRISS Vector side railx2/|
+	KRISS Vector Gen.2 folding stockx1
 ]
 Name_Jpn=TDI KRISS ヴェクター Gen.2 9x19 サブマシンガン デフォルト
 Information_Jpn=

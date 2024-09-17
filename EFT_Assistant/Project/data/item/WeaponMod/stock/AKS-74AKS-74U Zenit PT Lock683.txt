@@ -9,8 +9,8 @@ weight=0.030000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
-	AK Zenit PT-3 "Klassika" stock/|
-	AK Zenit PT-1 "Klassika" stock
+	AK Zenit PT-1 "Klassika" stock/|
+	AK Zenit PT-3 "Klassika" stock
 ]
 ChildParts_required=FALSE
 Recoil=0.000000

@@ -30,16 +30,16 @@ ChildParts=[
 ChildParts_required=TRUE
 ChildParts=[
 	M700 7.62x51 20 inch stainless steel threaded barrel/|
-	M700 7.62x51 26 inch barrel/|
 	M700 7.62x51 20 inch threaded barrel/|
+	M700 7.62x51 26 inch barrel/|
 	M700 7.62x51 26 inch stainless steel barrel
 ]
 ChildParts_required=TRUE
 ChildParts=[
-	M700 AB Arms MOD*X rail mount/|
 	M700 30mm integral ring scope mount/|
-	M700 extended multi-slot Weaver rail base/|
-	M700 Badger Ordnance Scope Rail
+	M700 AB Arms MOD*X rail mount/|
+	M700 Badger Ordnance Scope Rail/|
+	M700 extended multi-slot Weaver rail base
 ]
 ChildParts_required=FALSE
 Recoil=199.000000

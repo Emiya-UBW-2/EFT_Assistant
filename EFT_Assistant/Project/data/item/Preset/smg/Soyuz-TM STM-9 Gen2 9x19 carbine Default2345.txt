@@ -10,16 +10,16 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	Soyuz-TM STM-9 Gen.2 9x19 carbinex1/|
-	AR-15 DLG Tactical DLG-123 pistol gripx1/|
-	Glock 9x19 "Big Stick" 33-round magazinex1/|
-	STM-9 9x19 upper receiverx1/|
+	STM-9 magwellx1/|
 	STM-9 9x19 10.5 inch barrelx1/|
+	AR-15 MASP Industries Ambidextrous Battle Charging Handlex1/|
 	STM-9 9x19 muzzle brakex1/|
 	AR-15 Soyuz-TM 9 inch M-LOK handguardx1/|
-	AR-15 Soyuz-TM buffer tubex1/|
+	Glock 9x19 "Big Stick" 33-round magazinex1/|
+	AR-15 DLG Tactical DLG-123 pistol gripx1/|
+	STM-9 9x19 upper receiverx1/|
 	AR-15 FAB Defense GL-CORE buttstockx1/|
-	AR-15 MASP Industries Ambidextrous Battle Charging Handlex1/|
-	STM-9 magwellx1
+	AR-15 Soyuz-TM buffer tubex1
 ]
 Name_Jpn=Soyuz-TM STM-9 Gen.2 9x19 カービン デフォルト
 Information_Jpn=

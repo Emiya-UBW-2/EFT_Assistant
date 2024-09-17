@@ -13,8 +13,8 @@ ChildParts=[
 ]
 ChildParts_required=TRUE
 ChildParts=[
-	Chiappa Rhino Red Fiber Optic front sight/|
-	Chiappa Rhino front sight
+	Chiappa Rhino front sight/|
+	Chiappa Rhino Red Fiber Optic front sight
 ]
 ChildParts_required=FALSE
 ChildParts=[

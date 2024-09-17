@@ -10,10 +10,10 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	Makarov PM (t) 9x18PM pistolx1/|
-	PM 9x18PM 90-93 8-round magazinex1/|
-	PM pistol slidex1/|
 	PM rear sightx1/|
-	PM bakelite gripx1
+	PM 9x18PM 90-93 8-round magazinex1/|
+	PM bakelite gripx1/|
+	PM pistol slidex1
 ]
 Name_Jpn=Makarov PM (t) 9x18PM pistol デフォルト
 Information_Jpn=

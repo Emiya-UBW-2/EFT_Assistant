@@ -10,11 +10,11 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesArmorAttachment
 Conflict=[
 	Ops-Core FAST Gunsight Mandible/|
-	Ops-Core FAST Visor/|
 	Ops-Core FAST multi-hit ballistic face shield/|
-	ZSh-1-2M face shield/|
+	Ops-Core FAST Visor/|
 	Ops-Core SLAAP armor helmet plate (Tan)/|
-	Team Wendy EXFIL Ballistic face shield (Black)
+	Team Wendy EXFIL Ballistic face shield (Black)/|
+	ZSh-1-2M face shield
 ]
 Name_Jpn=Diamond Age Bastion helmet armor plate
 Information_Jpn=Diamond Age製Bastionヘルメット用の追加防弾モジュール。

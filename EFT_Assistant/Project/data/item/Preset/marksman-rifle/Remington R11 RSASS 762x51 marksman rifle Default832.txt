@@ -10,14 +10,14 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	Remington R11 RSASS 7.62x51 marksman riflex1/|
-	AR-15 Magpul MIAD pistol grip (FDE)x1/|
-	AR-10 7.62x51 Magpul PMAG 20 SR-LR GEN M3 20-round magazinex1/|
-	AR-15 Colt A2 buffer tubex1/|
-	AR-15 Magpul PRS GEN2 stock (FDE)x1/|
-	R11 RSASS handguardx1/|
 	AR-10 7.62x51 22 inch barrelx1/|
 	AR-10 AAC Blackout 51T 7.62x51 flash hiderx1/|
-	AR-10 JP Enterprises Gas System-6x1
+	AR-10 JP Enterprises Gas System-6x1/|
+	R11 RSASS handguardx1/|
+	AR-10 7.62x51 Magpul PMAG 20 SR-LR GEN M3 20-round magazinex1/|
+	AR-15 Magpul MIAD pistol grip (FDE)x1/|
+	AR-15 Colt A2 buffer tubex1/|
+	AR-15 Magpul PRS GEN2 stock (FDE)x1
 ]
 Name_Jpn=Remington R11 RSASS 7.62x51 マークスマンライフル デフォルト
 Information_Jpn=

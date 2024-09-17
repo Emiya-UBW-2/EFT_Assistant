@@ -1,6 +1,6 @@
 Name=Mosin 7.62x54R bolt-action rifle (Sniper) Obrez
 Base=Mosin 7.62x54R bolt-action rifle (Sniper)
-Parts=Mosin Rifle 7.62x54R 5-round magazine
-Parts=Mosin Rifle sawed-off sniper stock
 Parts=Mosin Rifle 7.62x54R sawed-off 220mm threaded barrel
 Parts=Mosin Rifle carbine rear sight
+Parts=Mosin Rifle 7.62x54R 5-round magazine
+Parts=Mosin Rifle sawed-off sniper stock

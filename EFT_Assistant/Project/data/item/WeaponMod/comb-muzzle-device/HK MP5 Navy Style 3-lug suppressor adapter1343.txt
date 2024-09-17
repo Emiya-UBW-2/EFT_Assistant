@@ -9,9 +9,9 @@ weight=0.091000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
+	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
 	HK MP5 B&T QD 9x19 muzzle brake/|
 	HK MP5 Noveske-style 9x19 muzzle brake-compensator/|
-	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
 	AAC Illusion 9 9x19 sound suppressor/|
 	Rotor 43 9x19 muzzle brake-compensator/|
 	SIG Sauer SRD9 9x19 sound suppressor/|

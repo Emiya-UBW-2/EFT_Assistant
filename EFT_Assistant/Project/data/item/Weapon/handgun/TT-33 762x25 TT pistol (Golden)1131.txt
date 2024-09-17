@@ -10,15 +10,15 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 ChildParts=[
 	TT 7.62x25 116mm barrel/|
-	TT 7.62x25 121mm homespun threaded barrel/|
-	TT 7.62x25 116mm gilded barrel
+	TT 7.62x25 116mm gilded barrel/|
+	TT 7.62x25 121mm homespun threaded barrel
 ]
 ChildParts_required=TRUE
 ChildParts=[
 	TT Hogue-like rubber grip/|
+	TT ornated side grips/|
 	TT PM-Laser TT-206 side grips with laser sight/|
 	TT Razor Arms rubber grip/|
-	TT ornated side grips/|
 	TT side grips
 ]
 ChildParts_required=TRUE

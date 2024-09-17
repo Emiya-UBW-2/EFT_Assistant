@@ -9,20 +9,20 @@ weight=0.829000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 ChildParts=[
-	Desert Eagle Mk XIX .50 AE 152mm barrel/|
+	Desert Eagle L6 .50 AE 152mm barrel (WTS)/|
 	Desert Eagle L6 .50 AE 152mm barrel/|
-	Desert Eagle L6 .50 AE 152mm barrel (WTS)
+	Desert Eagle Mk XIX .50 AE 152mm barrel
 ]
 ChildParts_required=TRUE
 ChildParts=[
-	Desert Eagle Hogue Rubber Grip/|
-	Desert Eagle Hogue Rubber Grip with finger grooves
+	Desert Eagle Hogue Rubber Grip with finger grooves/|
+	Desert Eagle Hogue Rubber Grip
 ]
 ChildParts_required=TRUE
 ChildParts=[
-	Desert Eagle Mk XIX pistol slide/|
+	Desert Eagle L6 pistol slide (WTS)/|
 	Desert Eagle L6 pistol slide/|
-	Desert Eagle L6 pistol slide (WTS)
+	Desert Eagle Mk XIX pistol slide
 ]
 ChildParts_required=TRUE
 ChildParts=[

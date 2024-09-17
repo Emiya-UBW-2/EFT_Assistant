@@ -10,28 +10,28 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	FN SCAR-H 7.62x51 assault riflex1/|
-	AR-15 Magpul MOE pistol grip (FDE)x1/|
-	FN SCAR-H 7.62x51 20-round magazine (FDE)x1/|
-	FN SCAR-H 7.62x51 upper receiver (FDE)x1/|
-	FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescopex1/|
 	FN SCAR-H 7.62x51 16 inch barrelx1/|
+	FN SCAR charging handlex1/|
+	L3Harris AN/PEQ-15 tactical devicex1/|
+	Aimpoint ACRO P-1 reflex sightx1/|
 	AR-10 TAA ZK-38 7.62x51 muzzle brakex1/|
+	Ultrafire WF-501B flashlightx1/|
+	Magpul M-LOK AFG tactical foregrip (FDE)x1/|
 	FN SCAR flip-up front sightx1/|
 	FN SCAR flip-up rear sightx1/|
-	FN SCAR Kinetic MREX 6.5 M-LOK railx1/|
-	Magpul M-LOK AFG tactical foregrip (FDE)x1/|
-	Magpul M-LOK 2.5 inch railx3/|
-	Daniel Defense 25mm accessory ring mountx1/|
-	Ultrafire WF-501B flashlightx1/|
-	L3Harris AN/PEQ-15 tactical devicex1/|
-	NcSTAR MPR45 Backup mountx1/|
+	FN SCAR-H 7.62x51 20-round magazine (FDE)x1/|
 	B&T QD NAR mount for Aimpoint ACROx1/|
-	Aimpoint ACRO P-1 reflex sightx1/|
+	Daniel Defense 25mm accessory ring mountx1/|
+	FN SCAR Kinetic MREX 6.5 M-LOK railx1/|
+	Magpul M-LOK 2.5 inch railx3/|
+	NcSTAR MPR45 Backup mountx1/|
+	AR-15 Magpul MOE pistol grip (FDE)x1/|
+	FN SCAR-H 7.62x51 upper receiver (FDE)x1/|
+	FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescopex1/|
+	FN SCAR cheek rest (FDE)x1/|
 	FN SCAR folding polymer stockx1/|
 	FN SCAR retractable polymer stock (FDE)x1/|
-	FN SCAR rubber buttpadx1/|
-	FN SCAR cheek rest (FDE)x1/|
-	FN SCAR charging handlex1
+	FN SCAR rubber buttpadx1
 ]
 Name_Jpn=FN SCAR-H 7.62x51 assault rifle FLIR RS-32
 Information_Jpn=

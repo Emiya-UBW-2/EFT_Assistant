@@ -13,24 +13,24 @@ ChildParts=[
 ]
 ChildParts_required=TRUE
 ChildParts=[
-	MP-155 walnut forestock/|
-	MP-155 Ultima polymer forestock
+	MP-155 Ultima polymer forestock/|
+	MP-155 walnut forestock
 ]
 ChildParts_required=TRUE
 ChildParts=[
-	MP-155 12ga 6-shell magazine/|
 	MP-133 12ga 6-shell magazine/|
 	MP-133 12ga 8-shell magazine/|
 	MP-153 12ga 4-shell magazine cap/|
 	MP-153 12ga 5-shell magazine/|
 	MP-153 12ga 6-shell magazine/|
 	MP-153 12ga 7-shell magazine/|
-	MP-153 12ga 8-shell magazine
+	MP-153 12ga 8-shell magazine/|
+	MP-155 12ga 6-shell magazine
 ]
 ChildParts_required=TRUE
 ChildParts=[
-	MP-155 walnut stock/|
-	MP-155 Ultima pistol grip
+	MP-155 Ultima pistol grip/|
+	MP-155 walnut stock
 ]
 ChildParts_required=TRUE
 ChildParts=[

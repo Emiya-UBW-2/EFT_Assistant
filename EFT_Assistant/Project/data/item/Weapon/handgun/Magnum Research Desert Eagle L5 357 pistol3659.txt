@@ -13,8 +13,8 @@ ChildParts=[
 ]
 ChildParts_required=TRUE
 ChildParts=[
-	Desert Eagle Hogue Rubber Grip/|
-	Desert Eagle Hogue Rubber Grip with finger grooves
+	Desert Eagle Hogue Rubber Grip with finger grooves/|
+	Desert Eagle Hogue Rubber Grip
 ]
 ChildParts_required=TRUE
 ChildParts=[

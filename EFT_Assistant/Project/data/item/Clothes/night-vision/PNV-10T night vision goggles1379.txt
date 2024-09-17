@@ -9,8 +9,8 @@ weight=0.800000
 fleaMarketFee=0
 propertiestype=ItemPropertiesNightVision
 Conflict=[
-	Ops-Core FAST Visor/|
-	Ops-Core FAST multi-hit ballistic face shield
+	Ops-Core FAST multi-hit ballistic face shield/|
+	Ops-Core FAST Visor
 ]
 noiseIntensity=0.050000
 noiseScale=1.000000

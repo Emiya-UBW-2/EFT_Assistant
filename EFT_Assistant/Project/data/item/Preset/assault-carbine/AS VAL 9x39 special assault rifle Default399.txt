@@ -10,13 +10,13 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	AS VAL 9x39 special assault riflex1/|
-	AS VAL 9x39 integral barrel-suppressorx1/|
+	VSS/VAL polymer handguard (Plum)x1/|
 	AS VAL rear sightx1/|
-	AS VAL dust coverx1/|
 	VSS/VAL 9x39 6L25 20-round magazine (Plum)x1/|
 	AS VAL pistol grip (Plum)x1/|
-	AS VAL skeleton stockx1/|
-	VSS/VAL polymer handguard (Plum)x1
+	AS VAL dust coverx1/|
+	AS VAL 9x39 integral barrel-suppressorx1/|
+	AS VAL skeleton stockx1
 ]
 Name_Jpn=AS VAL 9x39 特殊アサルトライフル デフォルト
 Information_Jpn=

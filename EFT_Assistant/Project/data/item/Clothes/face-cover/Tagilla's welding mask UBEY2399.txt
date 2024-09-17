@@ -9,83 +9,83 @@ weight=1.500000
 fleaMarketFee=0
 propertiestype=ItemPropertiesHelmet
 Conflict=[
-	Army cap/|
-	Baseball cap/|
-	BEAR baseball cap (Olive Drab)/|
-	USEC baseball cap (Coyote)/|
-	Ded Moroz hat/|
-	EMERCOM cap/|
-	Police cap/|
-	Santa hat/|
-	Kinda cowboy hat/|
-	Ski hat with holes for eyes/|
-	FORT Kiver-M bulletproof helmet/|
 	6B47 Ratnik-BSh helmet (Digital Flora cover)/|
+	6B47 Ratnik-BSh helmet (Olive Drab)/|
 	Altyn bulletproof helmet (Olive Drab)/|
 	Armasight NVG head strap/|
-	TSh-4M-L soft tank crew helmet/|
-	Kolpak-1S riot helmet/|
-	MSA ACH TC-2001 MICH Series helmet (Olive Drab)/|
-	MSA ACH TC-2002 MICH Series helmet (Olive Drab)/|
-	Ops-Core FAST MT Super High Cut helmet (Black)/|
-	Ops-Core FAST MT Super High Cut helmet (Urban Tan)/|
-	6B47 Ratnik-BSh helmet (Olive Drab)/|
-	SSSh-94 SFERA-S helmet/|
-	UNTAR helmet/|
-	Wilcox Skull Lock head mount/|
-	ZSh-1-2M helmet (Olive Drab)/|
-	ZSh-1-2M helmet (Black cover)/|
-	Rivals 2020 cap/|
-	DevTac Ronin Respirator/|
+	Army cap (Black)/|
+	Army cap (CADPAT)/|
+	Army cap (Coyote Tan)/|
+	Army cap (Desert)/|
+	Army cap (Flora)/|
+	Army cap (UCP)/|
+	Army cap/|
+	Ballistic Armor Co. Bastion helmet (Armor Black)/|
+	Ballistic Armor Co. Bastion helmet (MultiCam)/|
+	Ballistic Armor Co. Bastion helmet (OD Green)/|
+	Baseball cap/|
+	Basmach leather cap/|
 	BEAR baseball cap (Black)/|
+	BEAR baseball cap (Olive Drab)/|
 	Beret (Black)/|
 	Beret (Blue)/|
 	Beret (Olive Drab)/|
+	BNTI LShZ-2DTM helmet (Black)/|
 	Bomber beanie/|
+	Crye Precision AirFrame helmet (Tan)/|
+	Ded Moroz hat/|
+	DevTac Ronin ballistic helmet/|
+	DevTac Ronin Respirator/|
+	Diamond Age Bastion helmet (Black)/|
+	Diamond Age NeoSteel High Cut helmet (Black)/|
 	Door Kicker boonie hat/|
-	Army cap (Black)/|
-	Army cap (Coyote Tan)/|
-	Army cap (CADPAT)/|
-	Army cap (Flora)/|
-	Army cap (Desert)/|
-	Army cap (UCP)/|
-	MIL-TEC boonie hat/|
-	Jack Pyke Hunting LLCS boonie hat/|
-	Stich Profi Chimera boonie hat/|
-	Pompon hat/|
-	Rivals 2020 beanie/|
-	USEC baseball cap (Black)/|
+	EMERCOM cap/|
+	FORT Kiver-M bulletproof helmet/|
+	Galvion Caiman Hybrid helmet (Grey)/|
+	Gus baseball cap/|
 	HighCom Striker ACHHC IIIA helmet (Black)/|
 	HighCom Striker ACHHC IIIA helmet (Olive Drab)/|
-	LShZ lightweight helmet (Olive Drab)/|
 	HighCom Striker ULACH IIIA helmet (Black)/|
 	HighCom Striker ULACH IIIA helmet (Desert Tan)/|
-	Crye Precision AirFrame helmet (Tan)/|
-	Diamond Age Bastion helmet (Black)/|
-	Galvion Caiman Hybrid helmet (Grey)/|
-	Tac-Kek FAST MT helmet (Replica)/|
-	BNTI LShZ-2DTM helmet (Black)/|
-	Maska-1SCh bulletproof helmet (Olive Drab)/|
+	Jack Pyke Hunting LLCS boonie hat/|
+	Jack-o'-lantern tactical pumpkin helmet/|
+	Kinda cowboy hat/|
+	Kolpak-1S riot helmet/|
+	LShZ lightweight helmet (Olive Drab)/|
 	Maska-1SCh bulletproof helmet (Killa Edition)/|
-	NFM HJELM helmet (Hellhound Grey)/|
-	PSh-97 DJETA riot helmet/|
-	Rys-T bulletproof helmet (Black)/|
-	ShPM Firefighter helmet/|
-	SSh-68 steel helmet (Olive Drab)/|
+	Maska-1SCh bulletproof helmet (Olive Drab)/|
+	MIL-TEC boonie hat/|
+	MSA ACH TC-2001 MICH Series helmet (Olive Drab)/|
+	MSA ACH TC-2002 MICH Series helmet (Olive Drab)/|
 	MSA Gallet TC 800 High Cut combat helmet (Black)/|
+	NFM HJELM helmet (Hellhound Grey)/|
+	NPP KlASS Tor-2 helmet (Olive Drab)/|
+	Ops-Core FAST MT Super High Cut helmet (Black)/|
+	Ops-Core FAST MT Super High Cut helmet (Urban Tan)/|
+	Police cap/|
+	Pompon hat/|
+	PSh-97 DJETA riot helmet/|
+	Rivals 2020 beanie/|
+	Rivals 2020 cap/|
+	Rys-T bulletproof helmet (Black)/|
+	Santa hat/|
+	ShPM Firefighter helmet/|
+	Ski hat with holes for eyes/|
+	SSh-68 steel helmet (Olive Drab)/|
+	SSSh-94 SFERA-S helmet/|
+	Stich Profi Chimera boonie hat/|
+	Tac-Kek FAST MT helmet (Replica)/|
 	Team Wendy EXFIL Ballistic Helmet (Black)/|
 	Team Wendy EXFIL Ballistic Helmet (Coyote Brown)/|
-	Vulkan-5 LShZ-5 bulletproof helmet (Black)/|
-	Jack-o'-lantern tactical pumpkin helmet/|
+	TSh-4M-L soft tank crew helmet/|
+	UNTAR helmet/|
+	USEC baseball cap (Black)/|
+	USEC baseball cap (Coyote)/|
 	Ushanka ear flap hat/|
-	NPP KlASS Tor-2 helmet (Olive Drab)/|
-	Diamond Age NeoSteel High Cut helmet (Black)/|
-	Gus baseball cap/|
-	Basmach leather cap/|
-	DevTac Ronin ballistic helmet/|
-	Ballistic Armor Co. Bastion helmet (Armor Black)/|
-	Ballistic Armor Co. Bastion helmet (MultiCam)/|
-	Ballistic Armor Co. Bastion helmet (OD Green)
+	Vulkan-5 LShZ-5 bulletproof helmet (Black)/|
+	Wilcox Skull Lock head mount/|
+	ZSh-1-2M helmet (Black cover)/|
+	ZSh-1-2M helmet (Olive Drab)
 ]
 Name_Jpn=Tagilla's welding mask "UBEY"
 Information_Jpn=An armored steel welding mask of Tagilla - the Bossman of Factory. Painted with the special "UBEY" ("KILL") art.

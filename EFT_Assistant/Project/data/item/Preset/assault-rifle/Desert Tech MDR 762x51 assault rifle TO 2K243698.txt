@@ -10,19 +10,19 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	Desert Tech MDR 7.62x51 assault riflex1/|
-	MDR pistol grip (Black)x1/|
-	MDR handguard (FDE)x1/|
-	Magpul M-LOK 2.5 inch railx1/|
-	L3Harris AN/PEQ-15 tactical devicex1/|
-	Magpul MBUS Gen2 flip-up front sight (FDE)x1/|
-	Magpul M-LOK 4.1 inch railx1/|
-	Strike Industries Cobra Tactical foregrip (FDE)x1/|
 	MDR 7.62x51 16 inch barrelx1/|
+	L3Harris AN/PEQ-15 tactical devicex1/|
 	AWC PSR 7.62x51 muzzle brakex1/|
-	AWC Thor PSR XL multi-caliber sound suppressorx1/|
+	Strike Industries Cobra Tactical foregrip (FDE)x1/|
+	MDR handguard (FDE)x1/|
+	Magpul MBUS Gen2 flip-up front sight (FDE)x1/|
 	Magpul MBUS Gen2 flip-up rear sight (FDE)x1/|
+	AR-10 7.62x51 Lancer L7AWM 25-round magazinex1/|
+	Magpul M-LOK 2.5 inch railx1/|
+	Magpul M-LOK 4.1 inch railx1/|
+	MDR pistol grip (Black)x1/|
 	EOTech EXPS3 holographic sight (Tan)x1/|
-	AR-10 7.62x51 Lancer L7AWM 25-round magazinex1
+	AWC Thor PSR XL multi-caliber sound suppressorx1
 ]
 Name_Jpn=MDR 7.62x51 アサルトライフル T.O 2K24
 Information_Jpn=

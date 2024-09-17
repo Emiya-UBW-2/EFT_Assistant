@@ -9,9 +9,9 @@ weight=0.436000
 fleaMarketFee=0
 propertiestype=ItemPropertiesScope
 Conflict=[
+	AR-15 Colt A2 rear sight/|
 	AR-15 rear sight carry handle/|
-	RPK-16 rear sight base/|
-	AR-15 Colt A2 rear sight
+	RPK-16 rear sight base
 ]
 Recoil=0.000000
 Ergonomics=-3.000000

@@ -9,12 +9,12 @@ weight=0.700000
 fleaMarketFee=0
 propertiestype=
 Conflict=[
-	SSh-68 steel helmet (Olive Drab)/|
-	Ushanka ear flap hat/|
-	MIL-TEC boonie hat/|
+	Door Kicker boonie hat/|
 	Jack Pyke Hunting LLCS boonie hat/|
+	MIL-TEC boonie hat/|
+	SSh-68 steel helmet (Olive Drab)/|
 	Stich Profi Chimera boonie hat/|
-	Door Kicker boonie hat
+	Ushanka ear flap hat
 ]
 Name_Jpn=Peltor ComTac 2 ヘッドセット
 Information_Jpn=The ComTac 2 amplifies low-level sounds while suppressing impulse noises. Water resistant for outdoor usage. Manufactured by Peltor.

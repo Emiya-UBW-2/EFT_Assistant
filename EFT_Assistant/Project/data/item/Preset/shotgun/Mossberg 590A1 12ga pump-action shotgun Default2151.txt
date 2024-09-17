@@ -11,11 +11,11 @@ IsDefault=TRUE
 containsItems=[
 	Mossberg 590A1 12ga pump-action shotgunx1/|
 	Mossberg 590A1 12ga 20 inch barrelx1/|
-	Mossberg 590 Ghost Ring front sightx1/|
 	Mossberg 590A1 SpeedFeed short handguardx1/|
+	Mossberg 590 Ghost Ring front sightx1/|
+	Mossberg 590 Ghost Ring rear sightx1/|
 	Mossberg 590A1 12ga 8-shell magazine capx1/|
-	Mossberg 590A1 polymer stockx1/|
-	Mossberg 590 Ghost Ring rear sightx1
+	Mossberg 590A1 polymer stockx1
 ]
 Name_Jpn=Mossberg 590A1 12ゲージ ポンプアクションショットガン デフォルト
 Information_Jpn=

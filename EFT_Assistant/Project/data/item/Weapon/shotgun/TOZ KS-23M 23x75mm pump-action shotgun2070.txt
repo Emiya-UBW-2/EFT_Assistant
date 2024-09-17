@@ -22,8 +22,8 @@ ChildParts=[
 ]
 ChildParts_required=TRUE
 ChildParts=[
-	KS-23 wooden stock/|
-	KS-23M pistol grip
+	KS-23M pistol grip/|
+	KS-23 wooden stock
 ]
 ChildParts_required=TRUE
 ChildParts=[

@@ -10,14 +10,14 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	HK USP .45 ACP pistolx1/|
-	HK USP .45 ACP barrelx1/|
-	HK USP .45 ACP pistol slidex1/|
-	HK USP rear sightx1/|
-	HK USP front sightx1/|
-	HK USP .45 ACP 12-round magazinex1/|
-	HK USP triggerx1/|
 	HK USP hammerx1/|
-	HK USP slide lockx1
+	HK USP slide lockx1/|
+	HK USP triggerx1/|
+	HK USP .45 ACP barrelx1/|
+	HK USP front sightx1/|
+	HK USP rear sightx1/|
+	HK USP .45 ACP 12-round magazinex1/|
+	HK USP .45 ACP pistol slidex1
 ]
 Name_Jpn=HK USP .45 ACP pistol デフォルト
 Information_Jpn=

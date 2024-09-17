@@ -9,14 +9,14 @@ weight=0.090000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
-	AKM 7.62x39 muzzle brake-compensator (6P1 0-14)/|
-	AKML system 7.62x39 flash hider/|
-	AKM thread type JMac Customs RRD-4C 7.62x39 muzzle brake/|
+	AK 7.62x39 Taktika Tula muzzle adapter/|
 	AK Lantac Drakon 7.62x39 muzzle brake/|
 	AK Spikes Tactical Dynacomp 7.62x39 muzzle brake-compensator/|
 	AK SRVV 7.62x39 muzzle brake-compensator/|
 	AK Venom Tactical Antidote 7.62x39 muzzle brake-compensator/|
-	AK 7.62x39 Taktika Tula muzzle adapter/|
+	AKM 7.62x39 muzzle brake-compensator (6P1 0-14)/|
+	AKM thread type JMac Customs RRD-4C 7.62x39 muzzle brake/|
+	AKML system 7.62x39 flash hider/|
 	AKM Hexagon 7.62x39 sound suppressor/|
 	AKM PBS-1 7.62x39 sound suppressor/|
 	Rotor 43 7.62x39 muzzle brake-compensator

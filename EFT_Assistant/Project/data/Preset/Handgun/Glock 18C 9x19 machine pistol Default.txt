@@ -1,7 +1,7 @@
 Name=Glock 18C 9x19 machine pistol Default
 Base=Glock 18C 9x19 machine pistol
 Parts=Glock 18C 9x19 barrel with a compensator
-Parts=Glock 18C pistol slide
-Parts=Glock rear sight
 Parts=Glock front sight
+Parts=Glock rear sight
 Parts=Glock 9x19 17-round magazine
+Parts=Glock 18C pistol slide

@@ -10,11 +10,11 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	HK UMP .45 ACP submachine gunx1/|
-	HK UMP .45 ACP 25-round magazinex1/|
-	HK UMP polymer stockx1/|
 	HK UMP .45 ACP 8 inch barrelx1/|
+	HK UMP .45 ACP 25-round magazinex1/|
 	HK UMP bottom handguard railx1/|
-	HK UMP side handguard railx2
+	HK UMP side handguard railx2/|
+	HK UMP polymer stockx1
 ]
 Name_Jpn=HK UMP .45 ACP サブマシンガン デフォルト
 Information_Jpn=

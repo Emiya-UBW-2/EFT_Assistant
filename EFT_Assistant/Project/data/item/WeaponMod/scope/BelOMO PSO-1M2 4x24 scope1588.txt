@@ -13,13 +13,13 @@ ChildParts=[
 ]
 ChildParts_required=FALSE
 Conflict=[
-	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
-	BelOMO PK-AA dovetail reflex sight/|
-	OKP-7 reflex sight (Dovetail)/|
+	SOK-12 Leapers UTG PRO MTU002 Long Top aluminum handguard/|
+	SOK-12 Leapers UTG PRO MTU002 Short Top aluminum handguard/|
 	Axion Kobra dovetail mount/|
 	VOMZ Pilad 043-02 dovetail mount/|
-	SOK-12 Leapers UTG PRO MTU002 Long Top aluminum handguard/|
-	SOK-12 Leapers UTG PRO MTU002 Short Top aluminum handguard
+	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
+	BelOMO PK-AA dovetail reflex sight/|
+	OKP-7 reflex sight (Dovetail)
 ]
 Recoil=0.000000
 Ergonomics=-7.000000

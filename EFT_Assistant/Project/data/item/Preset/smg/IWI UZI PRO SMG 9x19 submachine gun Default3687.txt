@@ -10,11 +10,11 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	IWI UZI PRO SMG 9x19 submachine gunx1/|
-	UZI PRO 9x19 20-round magazinex1/|
+	UZI PRO 9x19 170mm barrelx1/|
 	UZI PRO 9x19 barrel retaining nutx1/|
-	UZI PRO backplatex1/|
+	UZI PRO 9x19 20-round magazinex1/|
 	UZI PRO dust coverx1/|
-	UZI PRO 9x19 170mm barrelx1
+	UZI PRO backplatex1
 ]
 Name_Jpn=IWI UZI PRO SMG 9x19 submachine gun デフォルト
 Information_Jpn=

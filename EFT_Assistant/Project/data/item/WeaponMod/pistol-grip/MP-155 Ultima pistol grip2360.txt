@@ -14,8 +14,8 @@ ChildParts=[
 ]
 ChildParts_required=TRUE
 Conflict=[
-	Kiba Arms SPRM rail mount for pump-action shotguns/|
-	MP-155 walnut forestock
+	MP-155 walnut forestock/|
+	Kiba Arms SPRM rail mount for pump-action shotguns
 ]
 Recoil=0.000000
 Ergonomics=9.000000

@@ -9,30 +9,30 @@ weight=0.167000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
-	Hexagon medium length rail/|
-	Hexagon medium length rail (Anodized Red)
+	Hexagon medium length rail (Anodized Red)/|
+	Hexagon medium length rail
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	Hexagon short length rail/|
-	Hexagon short length rail (Anodized Red)
+	Hexagon short length rail (Anodized Red)/|
+	Hexagon short length rail
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	Hexagon short length rail/|
-	Hexagon short length rail (Anodized Red)
+	Hexagon short length rail (Anodized Red)/|
+	Hexagon short length rail
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	Hexagon short length rail/|
-	Hexagon short length rail (Anodized Red)
+	Hexagon short length rail (Anodized Red)/|
+	Hexagon short length rail
 ]
 ChildParts_required=FALSE
 Conflict=[
-	AK-74 Hexagon Wafflemaker 5.45x39 sound suppressor/|
 	Kalashnikov AK-102 5.56x45 assault rifle/|
 	Kalashnikov AK-104 7.62x39 assault rifle/|
-	Kalashnikov AK-105 5.45x39 assault rifle
+	Kalashnikov AK-105 5.45x39 assault rifle/|
+	AK-74 Hexagon Wafflemaker 5.45x39 sound suppressor
 ]
 Recoil=-3.000000
 Ergonomics=14.000000

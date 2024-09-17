@@ -10,14 +10,14 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesScope
 Conflict=[
 	Burris AR-P.E.P.R. 30mm ring scope mount/|
-	Geissele Super Precision 30mm ring scope mount/|
 	Geissele Super Precision 30mm ring scope mount (DDC)/|
+	Geissele Super Precision 30mm ring scope mount/|
 	IEA Mil-Optics KH/F 34mm one-piece magmount/|
 	JP Enterprises Flat-Top 30mm ring scope mount/|
 	Lobaev Arms 30mm scope mount/|
 	Nightforce Magmount 30mm ring scope mount/|
-	Nightforce Magmount 34mm ring scope mount/|
 	Nightforce Magmount 34mm ring scope mount with Ruggedized Accessory Platform/|
+	Nightforce Magmount 34mm ring scope mount/|
 	Recknagel Era-Tac 30mm ring scope mount/|
 	Recknagel Era-Tac 34mm ring scope mount
 ]

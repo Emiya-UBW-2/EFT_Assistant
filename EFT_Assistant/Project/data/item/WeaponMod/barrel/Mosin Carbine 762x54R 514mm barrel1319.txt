@@ -17,12 +17,12 @@ ChildParts=[
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	Mosin Rifle Tacfire Tanker Style 7.62x54R muzzle brake/|
-	Mosin Rifle Texas Precision Products 7.62x54R muzzle brake/|
-	Mosin Rifle Witt Machine 7.62x54R muzzle brake/|
 	Mosin Rifle Kiba Arms 7.62x54R custom thread adapter/|
 	Mosin Rifle Tiger Rock 7.62x51 thread adapter/|
 	Mosin Rifle Weapon Tuning 7.62x39 thread adapter/|
+	Mosin Rifle Tacfire Tanker Style 7.62x54R muzzle brake/|
+	Mosin Rifle Texas Precision Products 7.62x54R muzzle brake/|
+	Mosin Rifle Witt Machine 7.62x54R muzzle brake/|
 	Mosin Rifle Bramit 7.62x54R sound suppressor
 ]
 ChildParts_required=FALSE

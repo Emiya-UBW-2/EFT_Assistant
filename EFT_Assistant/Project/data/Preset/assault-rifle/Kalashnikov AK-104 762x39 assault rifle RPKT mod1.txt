@@ -1,12 +1,12 @@
 Name=Kalashnikov AK-104 7.62x39 assault rifle RPKT mod.1
 Base=Kalashnikov AK-104 7.62x39 assault rifle
+Parts=AK-74 thread type JMac Customs RRD-4C multi-caliber muzzle brake
+Parts=Zenit RK-1 tactical foregrip on B-25U mount
 Parts=Molot Arms AKM-type gas tube
 Parts=AK Zenit B-30 handguard with B-31S upper handguard rail
-Parts=Zenit RK-1 tactical foregrip on B-25U mount
-Parts=EOTech XPS3-0 holographic sight
-Parts=AK-74 thread type JMac Customs RRD-4C multi-caliber muzzle brake
+Parts=AK 7.62x39 Molot Arms 75-round drum magazine
 Parts=AK TAPCO SAW-Style pistol grip (FDE)
 Parts=AK TWS Dog Leg Rail dust cover
+Parts=EOTech XPS3-0 holographic sight
 Parts=AK-74M CAA AKTS AK74 buffer tube
 Parts=AR-15 Vltor EMOD stock
-Parts=AK 7.62x39 Molot Arms 75-round drum magazine

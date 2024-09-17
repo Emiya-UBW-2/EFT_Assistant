@@ -9,10 +9,10 @@ weight=0.190000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
+	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
+	MPX A2 9x19 flash hider/|
 	TACCOM Carbine Brake 9x19 muzzle brake/|
 	Yankee Hill Annihilator multi-caliber flash hider/|
-	MPX A2 9x19 flash hider/|
-	SilencerCo Hybrid 46 Direct Thread Mount adapter/|
 	AAC Illusion 9 9x19 sound suppressor/|
 	Rotor 43 9x19 muzzle brake-compensator/|
 	SIG Sauer SRD9 9x19 sound suppressor/|

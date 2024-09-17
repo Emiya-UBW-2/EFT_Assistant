@@ -11,11 +11,11 @@ IsDefault=FALSE
 containsItems=[
 	Glock 17 9x19 pistolx1/|
 	Glock 9x19 Lone Wolf AlphaWolf threaded barrelx1/|
-	Glock 9x19 CARVER Custom 4 Port compensatorx1/|
-	Glock ZEV Tech HEX Gen3 RMR pistol slidex1/|
+	SureFire X400 Ultra tactical flashlight with laserx1/|
 	Trijicon RMR reflex sightx1/|
+	Glock 9x19 CARVER Custom 4 Port compensatorx1/|
 	Glock 9x19 17-round magazinex1/|
-	SureFire X400 Ultra tactical flashlight with laserx1
+	Glock ZEV Tech HEX Gen3 RMR pistol slidex1
 ]
 Name_Jpn=Glock 17 9x19 ピストル Hex
 Information_Jpn=

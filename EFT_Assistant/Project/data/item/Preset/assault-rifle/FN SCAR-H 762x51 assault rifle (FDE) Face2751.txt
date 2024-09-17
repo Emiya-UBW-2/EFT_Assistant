@@ -10,22 +10,22 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	FN SCAR-H 7.62x51 assault rifle (FDE)x1/|
-	AR-15 Damage Industries ECS pistol grip (FDE)x1/|
-	FN SCAR-H 7.62x51 upper receiver (FDE)x1/|
 	ELCAN SpecterDR 1x/4x scope (FDE)x1/|
 	FN SCAR-H 7.62x51 13 inch barrelx1/|
+	FN SCAR charging handlex1/|
+	L3Harris AN/PEQ-15 tactical devicex1/|
 	AAC SCAR-SD 51T 7.62x51 flash hiderx1/|
+	Magpul RVG foregrip (FDE)x1/|
 	FN SCAR flip-up front sightx1/|
 	FN SCAR flip-up rear sightx1/|
-	L3Harris AN/PEQ-15 tactical devicex1/|
+	FN SCAR-H 7.62x51 20-round magazine (FDE)x1/|
 	FN SCAR bottom railx1/|
-	Magpul RVG foregrip (FDE)x1/|
+	AR-15 Damage Industries ECS pistol grip (FDE)x1/|
+	FN SCAR-H 7.62x51 upper receiver (FDE)x1/|
+	FN SCAR cheek rest (FDE)x1/|
 	FN SCAR folding polymer stock (FDE)x1/|
 	FN SCAR retractable polymer stock (FDE)x1/|
-	FN SCAR rubber buttpadx1/|
-	FN SCAR cheek rest (FDE)x1/|
-	FN SCAR charging handlex1/|
-	FN SCAR-H 7.62x51 20-round magazine (FDE)x1
+	FN SCAR rubber buttpadx1
 ]
 Name_Jpn=SCAR-H 7.62x51 アサルトライフル Face
 Information_Jpn=

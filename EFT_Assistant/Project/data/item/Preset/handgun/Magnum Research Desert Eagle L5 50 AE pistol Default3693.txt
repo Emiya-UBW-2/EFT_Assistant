@@ -12,10 +12,10 @@ containsItems=[
 	Magnum Research Desert Eagle L5 .50 AE pistolx1/|
 	Desert Eagle L5 .50 AE 127mm barrelx1/|
 	Desert Eagle front sightx1/|
-	Desert Eagle Hogue Rubber Grip with finger groovesx1/|
-	Desert Eagle L5 .50 AE pistol slidex1/|
 	Desert Eagle rear sightx1/|
-	Desert Eagle .50 AE 7-round magazinex1
+	Desert Eagle .50 AE 7-round magazinex1/|
+	Desert Eagle Hogue Rubber Grip with finger groovesx1/|
+	Desert Eagle L5 .50 AE pistol slidex1
 ]
 Name_Jpn=Magnum Research Desert Eagle L5 .50 AE pistol デフォルト
 Information_Jpn=

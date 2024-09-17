@@ -10,11 +10,11 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesMagazine
 Conflict=[
 	Mosin Rifle ATI Monte Carlo stock/|
-	Mosin Rifle sawed-off stock/|
-	Mosin Rifle sniper carbine stock/|
 	Mosin Rifle carbine stock/|
 	Mosin Rifle Infantry stock/|
 	Mosin Rifle sawed-off sniper stock/|
+	Mosin Rifle sawed-off stock/|
+	Mosin Rifle sniper carbine stock/|
 	Mosin Rifle standard stock
 ]
 Recoil=0.000000

@@ -9,9 +9,9 @@ weight=0.600000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
-	STM-9 9x19 muzzle brake/|
-	KRISS Vector 9x19 flash hider/|
 	Gemtech ONE Direct Thread Mount adapter/|
+	KRISS Vector 9x19 flash hider/|
+	STM-9 9x19 muzzle brake/|
 	Rotor 43 9x19 muzzle brake-compensator/|
 	SIG Sauer SRD9 9x19 sound suppressor/|
 	SilencerCo Osprey 9 9x19 sound suppressor

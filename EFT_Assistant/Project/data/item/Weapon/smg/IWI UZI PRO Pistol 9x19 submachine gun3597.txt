@@ -19,11 +19,11 @@ ChildParts=[
 ]
 ChildParts_required=TRUE
 ChildParts=[
-	UZI PRO Stabilizing Brace/|
 	UZI PRO A3 Tactical Rear Stock Adapter/|
-	UZI PRO SBR buttstock/|
 	UZI PRO backplate/|
-	UZI PRO CSM stock adapter
+	UZI PRO CSM stock adapter/|
+	UZI PRO SBR buttstock/|
+	UZI PRO Stabilizing Brace
 ]
 ChildParts_required=FALSE
 ChildParts=[
@@ -31,44 +31,44 @@ ChildParts=[
 ]
 ChildParts_required=TRUE
 ChildParts=[
-	UZI PRO A3 Tactical M-LOK handguard/|
-	BCM GUNFIGHTER MOD 3 vertical foregrip/|
 	ASh-12 vertical foregrip/|
+	BCM GUNFIGHTER MOD 3 vertical foregrip/|
 	Fortis Shift tactical foregrip/|
 	HK Sturmgriff foregrip/|
 	KAC vertical foregrip/|
 	Magpul RVG foregrip (Black)/|
 	Magpul RVG foregrip (FDE)/|
-	RTM Osovets P-2 tactical foregrip/|
 	RTM Osovets P-2 tactical foregrip (Khaki)/|
-	RTM Pillau tactical foregrip/|
+	RTM Osovets P-2 tactical foregrip/|
 	RTM Pillau P-2 tactical foregrip (Red)/|
 	RTM Pillau tactical foregrip (Sand)/|
+	RTM Pillau tactical foregrip/|
+	TangoDown BGV-QDITI foregrip (Black)/|
+	TangoDown BGV-QDITI foregrip (FDE)/|
 	TangoDown Stubby BGV-MK46K foregrip (Black)/|
 	TangoDown Stubby BGV-MK46K foregrip (FDE)/|
 	TangoDown Stubby BGV-MK46K foregrip (Stealth Grey)/|
+	TangoDown Stubby BGV-QDK foregrip (Black)/|
+	TangoDown Stubby BGV-QDK foregrip (FDE)/|
 	Viking Tactics UVG tactical foregrip/|
-	Zenit RK-1 tactical foregrip on B-25U mount/|
 	Zenit RK-0 tactical foregrip/|
+	Zenit RK-1 tactical foregrip on B-25U mount/|
 	Zenit RK-1 tactical foregrip/|
 	Zenit RK-2 tactical foregrip/|
 	Zenit RK-4 tactical foregrip/|
 	Zenit RK-5 tactical foregrip/|
 	Zenit RK-6 tactical foregrip/|
+	UZI PRO A3 Tactical M-LOK handguard/|
 	Daniel Defense 25mm accessory ring mount/|
-	Zenit KR-2 old gen mount/|
-	TangoDown BGV-QDITI foregrip (Black)/|
-	TangoDown BGV-QDITI foregrip (FDE)/|
-	TangoDown Stubby BGV-QDK foregrip (Black)/|
-	TangoDown Stubby BGV-QDK foregrip (FDE)
+	Zenit KR-2 old gen mount
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	UZI PRO 9x19 Pike Arms 114mm threaded barrel/|
 	UZI PRO 9x19 114mm barrel/|
 	UZI PRO 9x19 170mm barrel/|
 	UZI PRO 9x19 210mm barrel/|
-	UZI PRO 9x19 240mm barrel
+	UZI PRO 9x19 240mm barrel/|
+	UZI PRO 9x19 Pike Arms 114mm threaded barrel
 ]
 ChildParts_required=TRUE
 Recoil=59.000000

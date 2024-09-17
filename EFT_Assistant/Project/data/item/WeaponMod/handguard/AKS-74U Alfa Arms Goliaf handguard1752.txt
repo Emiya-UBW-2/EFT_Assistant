@@ -9,8 +9,8 @@ weight=0.150000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
-	BCM GUNFIGHTER MOD 3 vertical foregrip/|
 	ASh-12 vertical foregrip/|
+	BCM GUNFIGHTER MOD 3 vertical foregrip/|
 	Fortis Shift tactical foregrip/|
 	HK Sturmgriff foregrip/|
 	KAC vertical foregrip/|
@@ -20,49 +20,53 @@ ChildParts=[
 	Magpul AFG tactical foregrip (Olive Drab)/|
 	Magpul RVG foregrip (Black)/|
 	Magpul RVG foregrip (FDE)/|
+	RTM Osovets P-2 tactical foregrip (Khaki)/|
+	RTM Osovets P-2 tactical foregrip/|
+	RTM Pillau P-2 tactical foregrip (Red)/|
+	RTM Pillau tactical foregrip (Sand)/|
 	RTM Pillau tactical foregrip/|
+	Stark SE-5 Express Forward foregrip (FDE)/|
 	Stark SE-5 Express Forward foregrip/|
+	Strike Industries Cobra Tactical foregrip (FDE)/|
 	Strike Industries Cobra Tactical foregrip/|
+	Tactical Dynamics Skeletonized Foregrip/|
+	TangoDown BGV-QDITI foregrip (Black)/|
+	TangoDown BGV-QDITI foregrip (FDE)/|
 	TangoDown Stubby BGV-MK46K foregrip (Black)/|
 	TangoDown Stubby BGV-MK46K foregrip (FDE)/|
 	TangoDown Stubby BGV-MK46K foregrip (Stealth Grey)/|
-	Tactical Dynamics Skeletonized Foregrip/|
+	TangoDown Stubby BGV-QDK foregrip (Black)/|
+	TangoDown Stubby BGV-QDK foregrip (FDE)/|
 	Viking Tactics UVG tactical foregrip/|
-	Zenit RK-1 tactical foregrip on B-25U mount/|
 	Zenit RK-0 tactical foregrip/|
+	Zenit RK-1 tactical foregrip on B-25U mount/|
 	Zenit RK-1 tactical foregrip/|
 	Zenit RK-2 tactical foregrip/|
 	Zenit RK-4 tactical foregrip/|
 	Zenit RK-5 tactical foregrip/|
-	Zenit RK-6 tactical foregrip/|
-	RTM Osovets P-2 tactical foregrip/|
-	RTM Osovets P-2 tactical foregrip (Khaki)/|
-	RTM Pillau tactical foregrip (Sand)/|
-	RTM Pillau P-2 tactical foregrip (Red)/|
-	Stark SE-5 Express Forward foregrip (FDE)/|
-	Strike Industries Cobra Tactical foregrip (FDE)/|
-	TangoDown BGV-QDITI foregrip (Black)/|
-	TangoDown BGV-QDITI foregrip (FDE)/|
-	TangoDown Stubby BGV-QDK foregrip (Black)/|
-	TangoDown Stubby BGV-QDK foregrip (FDE)
+	Zenit RK-6 tactical foregrip
 ]
 ChildParts_required=FALSE
 ChildParts=[
 	Holosun LS321 Tactical device/|
 	L3Harris AN/PEQ-15 tactical device/|
 	L3Harris LA-5B/PEQ tactical device/|
+	MAWL-C1+ tactical device/|
 	SureFire XC1 tactical flashlight/|
 	Wilcox RAPTAR ES Tactical Rangefinder/|
-	Zenit Perst-3 tactical device/|
-	MAWL-C1+ tactical device
+	Zenit Perst-3 tactical device
 ]
 ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
+	Insight WMX200 tactical flashlight/|
 	L3Harris AN/PEQ-15 tactical device/|
 	L3Harris LA-5B/PEQ tactical device/|
+	MAWL-C1+ tactical device/|
 	NcSTAR Tactical blue laser LAM-module/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
+	Olight Baldr Pro tactical flashlight with laser/|
 	Steiner DBAL-PL tactical device/|
 	Steiner LAS/TAC 2 tactical flashlight/|
 	SureFire X400 Ultra tactical flashlight with laser/|
@@ -72,22 +76,22 @@ ChildParts=[
 	Zenit Klesch-2P flashlight with laser/|
 	Zenit Klesch-2U tactical flashlight/|
 	Zenit Perst-3 tactical device/|
-	Kiba Arms 25mm accessory ring mount/|
 	Daniel Defense 25mm accessory ring mount/|
-	Olight Baldr Pro tactical flashlight with laser/|
-	Olight Baldr Pro tactical flashlight with laser (Tan)/|
-	Insight WMX200 tactical flashlight/|
-	MAWL-C1+ tactical device/|
+	Kiba Arms 25mm accessory ring mount/|
 	Zenit KR-2 old gen mount
 ]
 ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
-	L3Harris AN/PEQ-15 tactical device/|
 	Insight AN/PEQ-2 tactical device/|
+	Insight WMX200 tactical flashlight/|
+	L3Harris AN/PEQ-15 tactical device/|
 	L3Harris LA-5B/PEQ tactical device/|
+	MAWL-C1+ tactical device/|
 	NcSTAR Tactical blue laser LAM-module/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
+	Olight Baldr Pro tactical flashlight with laser/|
 	Steiner DBAL-PL tactical device/|
 	Steiner LAS/TAC 2 tactical flashlight/|
 	SureFire X400 Ultra tactical flashlight with laser/|
@@ -97,21 +101,22 @@ ChildParts=[
 	Zenit Klesch-2P flashlight with laser/|
 	Zenit Klesch-2U tactical flashlight/|
 	Zenit Perst-3 tactical device/|
-	Kiba Arms 25mm accessory ring mount/|
 	Daniel Defense 25mm accessory ring mount/|
-	Olight Baldr Pro tactical flashlight with laser/|
-	Olight Baldr Pro tactical flashlight with laser (Tan)/|
-	Insight WMX200 tactical flashlight/|
-	MAWL-C1+ tactical device/|
+	Kiba Arms 25mm accessory ring mount/|
 	Zenit KR-2 old gen mount
 ]
 ChildParts_required=FALSE
 ChildParts=[
+	BT10 V8 Atlas Bipod/|
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
+	Insight WMX200 tactical flashlight/|
 	L3Harris AN/PEQ-15 tactical device/|
 	L3Harris LA-5B/PEQ tactical device/|
+	MAWL-C1+ tactical device/|
 	NcSTAR Tactical blue laser LAM-module/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
+	Olight Baldr Pro tactical flashlight with laser/|
 	Steiner DBAL-PL tactical device/|
 	Steiner LAS/TAC 2 tactical flashlight/|
 	SureFire X400 Ultra tactical flashlight with laser/|
@@ -121,29 +126,16 @@ ChildParts=[
 	Zenit Klesch-2P flashlight with laser/|
 	Zenit Klesch-2U tactical flashlight/|
 	Zenit Perst-3 tactical device/|
-	Kiba Arms 25mm accessory ring mount/|
 	Daniel Defense 25mm accessory ring mount/|
-	Olight Baldr Pro tactical flashlight with laser/|
-	Olight Baldr Pro tactical flashlight with laser (Tan)/|
-	Insight WMX200 tactical flashlight/|
-	MAWL-C1+ tactical device/|
-	Zenit KR-2 old gen mount/|
-	BT10 V8 Atlas Bipod
+	Kiba Arms 25mm accessory ring mount/|
+	Zenit KR-2 old gen mount
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	EOTech EXPS3 holographic sight (Tan)/|
-	EOTech XPS3-0 holographic sight/|
-	EOTech XPS3-2 holographic sight/|
-	Holosun HS401G5 reflex sight/|
-	Leapers UTG reflex sight/|
-	Trijicon SRS-02 reflex sight/|
-	VOMZ Pilad P1x42 Weaver reflex sight/|
-	Walther MRS reflex sight/|
 	BelOMO PK-06 reflex sight/|
-	Aimpoint Micro Standard Mount/|
-	Aimpoint Micro H-2 Standard Mount/|
 	Aimpoint LRP mount for CompM4 sights/|
+	Aimpoint Micro H-2 Standard Mount/|
+	Aimpoint Micro Standard Mount/|
 	Aimpoint QRP2 mount for CompM4/PRO sights/|
 	B&T QD NAR mount for Aimpoint ACRO/|
 	Burris FastFire Weaver Base/|
@@ -154,21 +146,29 @@ ChildParts=[
 	Trijicon RMR high profile mount/|
 	Trijicon RMR low profile mount/|
 	ELCAN Specter HCO holographic sight/|
+	EOTech EXPS3 holographic sight (Tan)/|
+	EOTech XPS3-0 holographic sight/|
+	EOTech XPS3-2 holographic sight/|
+	Holosun HS401G5 reflex sight/|
+	Leapers UTG reflex sight/|
+	Trijicon SRS-02 reflex sight/|
+	VOMZ Pilad P1x42 Weaver reflex sight/|
+	Walther MRS reflex sight/|
 	Wilcox BOSS Xe reflex sight
 ]
 ChildParts_required=FALSE
 Conflict=[
-	AK-105 5.45x39 muzzle brake-compensator (6P44 0-20)/|
-	AK-74M 5.45x39 muzzle brake-compensator (6P20 0-20)/|
-	AK-74 5.45x39 muzzle brake-compensator (6P20 0-20)/|
-	AK-74 thread type JMac Customs RRD-4C multi-caliber muzzle brake/|
-	AK-74 PWS CQB 74 5.45x39 muzzle brake/|
-	AK-74 SRVV MBR Jet 5.45x39 muzzle brake/|
 	AK Hexagon Reactor 5.45x39 muzzle brake/|
 	AK Zenit DTK-1 7.62x39/5.45x39 muzzle brake-compensator/|
+	AK-105 5.45x39 muzzle brake-compensator (6P44 0-20)/|
+	AK-74 5.45x39 muzzle brake-compensator (6P20 0-20)/|
+	AK-74 PWS CQB 74 5.45x39 muzzle brake/|
+	AK-74 SRVV MBR Jet 5.45x39 muzzle brake/|
+	AK-74 thread type JMac Customs RRD-4C multi-caliber muzzle brake/|
+	AK-74M 5.45x39 muzzle brake-compensator (6P20 0-20)/|
 	AK-74 Hexagon 5.45x39 sound suppressor/|
-	AKS-74U PBS-4 5.45x39 sound suppressor/|
-	AK-74 Hexagon Wafflemaker 5.45x39 sound suppressor
+	AK-74 Hexagon Wafflemaker 5.45x39 sound suppressor/|
+	AKS-74U PBS-4 5.45x39 sound suppressor
 ]
 Recoil=-1.000000
 Ergonomics=3.000000

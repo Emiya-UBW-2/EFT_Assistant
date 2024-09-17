@@ -10,10 +10,10 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	IWI UZI 9x19 submachine gunx1/|
-	UZI 9x19 32-round magazinex1/|
 	UZI 9x19 259mm barrelx1/|
 	UZI 9x19 barrel retaining nutx1/|
 	UZI polymer handguardx1/|
+	UZI 9x19 32-round magazinex1/|
 	UZI pistol grip coverx1/|
 	UZI Type 5 buttstockx1
 ]

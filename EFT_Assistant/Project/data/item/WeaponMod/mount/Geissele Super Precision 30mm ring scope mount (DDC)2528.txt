@@ -13,16 +13,16 @@ ChildParts=[
 	EOTech Vudu 1-6x24 30mm riflescope/|
 	Leupold Mark 4 LR 6.5-20x50 30mm riflescope/|
 	March Tactical 3-24x42 FFP 30mm riflescope/|
-	Vortex Razor HD Gen.2 1-6x24 30mm riflescope/|
 	Schmidt & Bender PM II 1-8x24 30mm riflescope/|
-	SIG TANGO6T 1-6x24 30mm riflescope
+	SIG TANGO6T 1-6x24 30mm riflescope/|
+	Vortex Razor HD Gen.2 1-6x24 30mm riflescope
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	Geissele Super Precision top ring cap/|
 	Geissele Super Precision top ring cap (DDC)/|
-	Reptilia ROF-90 RMR mount for Geissele scope mounts/|
-	Reptilia ROF-90 RMR mount for Geissele scope mounts (DDC)
+	Geissele Super Precision top ring cap/|
+	Reptilia ROF-90 RMR mount for Geissele scope mounts (DDC)/|
+	Reptilia ROF-90 RMR mount for Geissele scope mounts
 ]
 ChildParts_required=TRUE
 Conflict=[

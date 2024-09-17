@@ -10,14 +10,14 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	Molot Arms VPO-136 Vepr-KM 7.62x39 carbinex1/|
+	VPO-136 Vepr-KM 7.62x39 muzzle brake-compensatorx1/|
 	Molot Arms AKM-type gas tubex1/|
 	VPO-136 Vepr-KM wooden handguardx1/|
-	VPO-136 Vepr-KM 7.62x39 muzzle brake-compensatorx1/|
+	AKM rear sight (6P1 Sb.2-1)x1/|
+	AK 7.62x39 aluminium 10-round magazinex1/|
 	AK bakelite pistol gripx1/|
 	Molot Arms AKM-type dust coverx1/|
-	AKM rear sight (6P1 Sb.2-1)x1/|
-	VPO-136 Vepr-KM wooden stockx1/|
-	AK 7.62x39 aluminium 10-round magazinex1
+	VPO-136 Vepr-KM wooden stockx1
 ]
 Name_Jpn=ヴェープル KM 7.62x39 カービン デフォルト
 Information_Jpn=

@@ -9,8 +9,8 @@ weight=0.200000
 fleaMarketFee=0
 propertiestype=ItemPropertiesBarrel
 ChildParts=[
-	KRISS Vector 9x19 flash hider/|
 	KRISS Vector 9x19 thread protection cap/|
+	KRISS Vector 9x19 flash hider/|
 	Rotor 43 9x19 muzzle brake-compensator/|
 	SIG Sauer SRD9 9x19 sound suppressor/|
 	SilencerCo Osprey 9 9x19 sound suppressor

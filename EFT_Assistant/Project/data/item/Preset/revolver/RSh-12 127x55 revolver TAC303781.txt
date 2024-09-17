@@ -11,8 +11,8 @@ IsDefault=FALSE
 containsItems=[
 	RSh-12 12.7x55 revolverx1/|
 	RSh-12 12.7x55 5-round cylinderx1/|
-	RSh-12 pistol gripx1/|
 	Lobaev Arms 30mm scope mountx1/|
+	RSh-12 pistol gripx1/|
 	Burris FullField TAC30 1-4x24 30mm riflescopex1
 ]
 Name_Jpn=RSh-12 12.7x55 revolver TAC30

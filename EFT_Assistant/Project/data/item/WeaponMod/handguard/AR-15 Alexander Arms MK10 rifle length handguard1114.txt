@@ -21,8 +21,8 @@ ChildParts=[
 ]
 ChildParts_required=FALSE
 Conflict=[
-	M4A1 front sight with gas block/|
-	AR-15 Windham Weaponry Rail Gas Block
+	AR-15 Windham Weaponry Rail Gas Block/|
+	M4A1 front sight with gas block
 ]
 Recoil=-3.000000
 Ergonomics=8.000000

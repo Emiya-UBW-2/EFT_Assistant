@@ -9,8 +9,8 @@ weight=0.070000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
-	BCM GUNFIGHTER MOD 3 vertical foregrip/|
 	ASh-12 vertical foregrip/|
+	BCM GUNFIGHTER MOD 3 vertical foregrip/|
 	Fortis Shift tactical foregrip/|
 	HK Sturmgriff foregrip/|
 	KAC vertical foregrip/|
@@ -20,31 +20,31 @@ ChildParts=[
 	Magpul AFG tactical foregrip (Olive Drab)/|
 	Magpul RVG foregrip (Black)/|
 	Magpul RVG foregrip (FDE)/|
+	RTM Osovets P-2 tactical foregrip (Khaki)/|
+	RTM Osovets P-2 tactical foregrip/|
+	RTM Pillau P-2 tactical foregrip (Red)/|
+	RTM Pillau tactical foregrip (Sand)/|
 	RTM Pillau tactical foregrip/|
+	Stark SE-5 Express Forward foregrip (FDE)/|
 	Stark SE-5 Express Forward foregrip/|
+	Strike Industries Cobra Tactical foregrip (FDE)/|
 	Strike Industries Cobra Tactical foregrip/|
+	Tactical Dynamics Skeletonized Foregrip/|
+	TangoDown BGV-QDITI foregrip (Black)/|
+	TangoDown BGV-QDITI foregrip (FDE)/|
 	TangoDown Stubby BGV-MK46K foregrip (Black)/|
 	TangoDown Stubby BGV-MK46K foregrip (FDE)/|
 	TangoDown Stubby BGV-MK46K foregrip (Stealth Grey)/|
-	Tactical Dynamics Skeletonized Foregrip/|
+	TangoDown Stubby BGV-QDK foregrip (Black)/|
+	TangoDown Stubby BGV-QDK foregrip (FDE)/|
 	Viking Tactics UVG tactical foregrip/|
-	Zenit RK-1 tactical foregrip on B-25U mount/|
 	Zenit RK-0 tactical foregrip/|
+	Zenit RK-1 tactical foregrip on B-25U mount/|
 	Zenit RK-1 tactical foregrip/|
 	Zenit RK-2 tactical foregrip/|
 	Zenit RK-4 tactical foregrip/|
 	Zenit RK-5 tactical foregrip/|
-	Zenit RK-6 tactical foregrip/|
-	RTM Osovets P-2 tactical foregrip/|
-	RTM Osovets P-2 tactical foregrip (Khaki)/|
-	RTM Pillau tactical foregrip (Sand)/|
-	RTM Pillau P-2 tactical foregrip (Red)/|
-	Strike Industries Cobra Tactical foregrip (FDE)/|
-	Stark SE-5 Express Forward foregrip (FDE)/|
-	TangoDown BGV-QDITI foregrip (Black)/|
-	TangoDown BGV-QDITI foregrip (FDE)/|
-	TangoDown Stubby BGV-QDK foregrip (Black)/|
-	TangoDown Stubby BGV-QDK foregrip (FDE)
+	Zenit RK-6 tactical foregrip
 ]
 ChildParts_required=FALSE
 Recoil=0.000000

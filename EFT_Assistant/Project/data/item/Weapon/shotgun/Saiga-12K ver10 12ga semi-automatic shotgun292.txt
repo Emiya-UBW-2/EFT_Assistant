@@ -9,69 +9,69 @@ weight=2.622000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeapon
 ChildParts=[
-	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
-	BelOMO PK-AA dovetail reflex sight/|
-	OKP-7 reflex sight (Dovetail)/|
-	NPZ PK1 Obzor dovetail reflex sight/|
-	BelOMO PSO-1 4x24 scope/|
-	BelOMO PSO-1M2-1 4x24 scope/|
-	BelOMO PSO-1M2 4x24 scope/|
-	NPZ USP-1 Tyulpan 4x scope/|
-	NSPU-M 3.5x dovetail night vision scope/|
 	Axion Kobra dovetail mount/|
 	KMZ 1P59 dovetail mount/|
 	NPZ 1P78-1 dovetail mount/|
+	RS Regulate AK-303M Full Length Lower dovetail mount/|
+	SAG AK dovetail sidemount/|
+	SAG Bit low profile dovetail sidemount/|
 	VOMZ Pilad 043-02 dovetail mount/|
 	Zenit B-13 "Klassika" dovetail rail platform/|
 	Zenit B-13V "Klassika" dovetail rail platform/|
-	SAG Bit low profile dovetail sidemount/|
-	SAG AK dovetail sidemount/|
 	Axion Kobra EKP-1S-03 reflex sight (Dovetail)/|
-	RS Regulate AK-303M Full Length Lower dovetail mount
+	Axion Kobra EKP-8-02 reflex sight (Dovetail)/|
+	BelOMO PK-AA dovetail reflex sight/|
+	NPZ PK1 Obzor dovetail reflex sight/|
+	OKP-7 reflex sight (Dovetail)/|
+	BelOMO PSO-1 4x24 scope/|
+	BelOMO PSO-1M2 4x24 scope/|
+	BelOMO PSO-1M2-1 4x24 scope/|
+	NPZ USP-1 Tyulpan 4x scope/|
+	NSPU-M 3.5x dovetail night vision scope
 ]
 ChildParts_required=FALSE
 ChildParts=[
 	SOK-12 Bravo-18 aluminium handguard/|
 	SOK-12 Custom Guns Type-340 handguard/|
-	SOK-12 polymer handguard (Sb.7-1)/|
 	SOK-12 Leapers UTG PRO MTU002 Long Top aluminum handguard/|
-	SOK-12 Leapers UTG PRO MTU002 Short Top aluminum handguard
+	SOK-12 Leapers UTG PRO MTU002 Short Top aluminum handguard/|
+	SOK-12 polymer handguard (Sb.7-1)
 ]
 ChildParts_required=TRUE
 ChildParts=[
 	GK-02 12ga muzzle brake/|
-	Tromix Monster Claw 12ga muzzle brake/|
-	SOK-12 thread protection tube/|
 	SilencerCo Salvo 12 thread adapter/|
+	SOK-12 thread protection tube/|
+	Tromix Monster Claw 12ga muzzle brake/|
 	Hexagon 12K 12ga sound suppressor
 ]
 ChildParts_required=FALSE
 ChildParts=[
 	AK Aeroknox Scorpius pistol grip/|
-	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip/|
-	AK-12 pistol grip/|
 	AK bakelite pistol grip (6P1 Sb.8V)/|
-	AK polymer pistol grip (6P1 Sb.8)/|
-	AKM bakelite pistol grip/|
-	AKM wooden pistol grip/|
 	AK bakelite pistol grip (6P4 Sb.9)/|
-	AK KGB MG-47 pistol grip/|
-	AK KGB MG-47 pistol grip (Anodized Red)/|
-	AK Magpul MOE pistol grip (Black)/|
 	AK bakelite pistol grip/|
+	AK CG101 AR-type pistol grip adapter/|
+	AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip/|
+	AK FAB Defense AGR-47 pistol grip/|
+	AK KGB MG-47 pistol grip (Anodized Red)/|
+	AK KGB MG-47 pistol grip/|
+	AK Magpul MOE pistol grip (Black)/|
+	AK Mission First Tactical ENGAGE AK47 pistol grip/|
+	AK polymer pistol grip (6P1 Sb.8)/|
+	AK PUFGUN SG-M2 pistol grip/|
 	AK Strike Industries Enhanced Pistol Grip (Black)/|
 	AK Strike Industries Enhanced Pistol Grip (FDE)/|
+	AK TangoDown Battle Grip pistol grip (FDE)/|
+	AK TangoDown Battle Grip pistol grip/|
 	AK TAPCO SAW-Style pistol grip (Black)/|
 	AK TAPCO SAW-Style pistol grip (FDE)/|
 	AK US Palm pistol grip/|
 	AK Zenit RK-3 pistol grip/|
-	PP-19-01 Vityaz pistol grip/|
-	AK FAB Defense AGR-47 pistol grip/|
-	AK TangoDown Battle Grip pistol grip (FDE)/|
-	AK TangoDown Battle Grip pistol grip/|
-	AK Mission First Tactical ENGAGE AK47 pistol grip/|
-	AK CG101 AR-type pistol grip adapter/|
-	AK PUFGUN SG-M2 pistol grip
+	AK-12 pistol grip/|
+	AKM bakelite pistol grip/|
+	AKM wooden pistol grip/|
+	PP-19-01 Vityaz pistol grip
 ]
 ChildParts_required=TRUE
 ChildParts=[
@@ -91,9 +91,9 @@ ChildParts=[
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	SOK-12 12/76 sb.5 5-round magazine/|
 	SOK-12 12/76 MaxRounds Powermag 20-round magazine/|
-	SOK-12 12/76 SAI-02 10-round magazine
+	SOK-12 12/76 SAI-02 10-round magazine/|
+	SOK-12 12/76 sb.5 5-round magazine
 ]
 ChildParts_required=FALSE
 ChildParts=[

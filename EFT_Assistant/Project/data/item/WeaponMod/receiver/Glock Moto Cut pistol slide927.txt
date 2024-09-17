@@ -9,19 +9,19 @@ weight=0.250000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
+	Glock 19X rear sight/|
 	Glock Dead Ringer Snake Eye rear sight/|
 	Glock rear sight/|
 	Glock TruGlo TFX rear sight/|
-	Glock ZEV Tech rear sight/|
-	Glock 19X rear sight
+	Glock ZEV Tech rear sight
 ]
 ChildParts_required=FALSE
 ChildParts=[
+	Glock 19X front sight/|
 	Glock Dead Ringer Snake Eye front sight/|
 	Glock front sight/|
 	Glock TruGlo TFX front sight/|
-	Glock ZEV Tech front sight/|
-	Glock 19X front sight
+	Glock ZEV Tech front sight
 ]
 ChildParts_required=FALSE
 ChildParts=[

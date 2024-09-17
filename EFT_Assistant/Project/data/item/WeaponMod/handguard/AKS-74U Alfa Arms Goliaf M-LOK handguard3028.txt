@@ -9,43 +9,43 @@ weight=0.250000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
+	BCM GUNFIGHTER MOD 3 M-LOK foregrip (Black)/|
+	BCM GUNFIGHTER MOD 3 M-LOK foregrip (FDE)/|
+	Daniel Defense Enhanced M-LOK Vertical Foregrip (Black)/|
+	Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown)/|
 	Magpul M-LOK AFG tactical foregrip (Black)/|
 	Magpul M-LOK AFG tactical foregrip (FDE)/|
 	Magpul M-LOK AFG tactical foregrip (Olive Drab)/|
 	Magpul M-LOK AFG tactical foregrip (Stealth Grey)/|
-	Magpul M-LOK 4.1 inch rail/|
-	Daniel Defense Enhanced M-LOK Vertical Foregrip (Black)/|
-	Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown)/|
-	BCM GUNFIGHTER MOD 3 M-LOK foregrip (Black)/|
-	BCM GUNFIGHTER MOD 3 M-LOK foregrip (FDE)
+	Magpul M-LOK 4.1 inch rail
 ]
 ChildParts_required=FALSE
 ChildParts=[
+	Magpul M-LOK 0.93 inch rail/|
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount/|
-	Magpul M-LOK Offset Light Mount/|
-	Magpul M-LOK 0.93 inch rail
+	Magpul M-LOK Offset Light Mount
 ]
 ChildParts_required=FALSE
 ChildParts=[
+	Magpul M-LOK 0.93 inch rail/|
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount/|
-	Magpul M-LOK Offset Light Mount/|
-	Magpul M-LOK 0.93 inch rail
+	Magpul M-LOK Offset Light Mount
 ]
 ChildParts_required=FALSE
 Conflict=[
-	AK-105 5.45x39 muzzle brake-compensator (6P44 0-20)/|
-	AK-74M 5.45x39 muzzle brake-compensator (6P20 0-20)/|
-	AK-74 5.45x39 muzzle brake-compensator (6P20 0-20)/|
-	AK-74 thread type JMac Customs RRD-4C multi-caliber muzzle brake/|
-	AK-74 PWS CQB 74 5.45x39 muzzle brake/|
-	AK-74 SRVV MBR Jet 5.45x39 muzzle brake/|
 	AK Hexagon Reactor 5.45x39 muzzle brake/|
 	AK Zenit DTK-1 7.62x39/5.45x39 muzzle brake-compensator/|
+	AK-105 5.45x39 muzzle brake-compensator (6P44 0-20)/|
+	AK-74 5.45x39 muzzle brake-compensator (6P20 0-20)/|
+	AK-74 PWS CQB 74 5.45x39 muzzle brake/|
+	AK-74 SRVV MBR Jet 5.45x39 muzzle brake/|
+	AK-74 thread type JMac Customs RRD-4C multi-caliber muzzle brake/|
+	AK-74M 5.45x39 muzzle brake-compensator (6P20 0-20)/|
 	AK-74 Hexagon 5.45x39 sound suppressor/|
-	AKS-74U PBS-4 5.45x39 sound suppressor/|
-	AK-74 Hexagon Wafflemaker 5.45x39 sound suppressor
+	AK-74 Hexagon Wafflemaker 5.45x39 sound suppressor/|
+	AKS-74U PBS-4 5.45x39 sound suppressor
 ]
 Recoil=-1.000000
 Ergonomics=6.000000

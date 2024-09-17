@@ -9,22 +9,22 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
-	Springfield Armory M1A 7.62x51 riflex1/|
-	M1A 7.62x51 20-round magazinex1/|
 	7.62x51mm M62 Tracerx20/|
-	M1A ProMag Archangel chassisx1/|
-	M14 UltiMAK M8 Forward Optic mountx1/|
-	NcSTAR MPR45 Backup mountx1/|
-	DeltaPoint Cross Slot Mount basex1/|
-	Leupold DeltaPoint Reflex Sightx1/|
-	Insight WMX200 tactical flashlightx1/|
+	Springfield Armory M1A 7.62x51 riflex1/|
 	M1A 7.62x51 22 inch barrelx1/|
 	SilencerCo Hybrid 46 Direct Thread Mount adapterx1/|
-	SilencerCo Hybrid 46 multi-caliber sound suppressorx1/|
+	Insight WMX200 tactical flashlightx1/|
+	Leupold DeltaPoint Reflex Sightx1/|
 	M14 SA Enlarged Military Aperture rear sightx1/|
-	M14 Leapers UTG 4-Point Locking Deluxe mountx1/|
+	M1A 7.62x51 20-round magazinex1/|
+	DeltaPoint Cross Slot Mount basex1/|
 	Lobaev Arms 30mm scope mountx1/|
-	Schmidt & Bender PM II 1-8x24 30mm riflescopex1
+	M14 Leapers UTG 4-Point Locking Deluxe mountx1/|
+	M14 UltiMAK M8 Forward Optic mountx1/|
+	NcSTAR MPR45 Backup mountx1/|
+	Schmidt & Bender PM II 1-8x24 30mm riflescopex1/|
+	SilencerCo Hybrid 46 multi-caliber sound suppressorx1/|
+	M1A ProMag Archangel chassisx1
 ]
 Name_Jpn=Springfield Armory M1A 7.62x51 ライフル Hybrid 46
 Information_Jpn=

@@ -9,8 +9,8 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
-	CQC Osprey MK4A plate carrier (Assault, MTP)x1/|
-	NewSphereTech level III ballistic platex1
+	NewSphereTech level III ballistic platex1/|
+	CQC Osprey MK4A plate carrier (Assault, MTP)x1
 ]
 Name_Jpn=CQC Osprey MK4A プレートキャリア (Assault, MTP) デフォルト
 Information_Jpn=

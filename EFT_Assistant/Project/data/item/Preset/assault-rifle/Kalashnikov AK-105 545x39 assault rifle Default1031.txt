@@ -10,14 +10,14 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	Kalashnikov AK-105 5.45x39 assault riflex1/|
+	AK-105 5.45x39 muzzle brake-compensator (6P44 0-20)x1/|
 	AK-74 gas tube (6P20 Sb.1-2)x1/|
 	AK-74 polymer handguard (6P20 Sb.9)x1/|
-	AK-105 5.45x39 muzzle brake-compensator (6P44 0-20)x1/|
+	AK-105 rear sight (6P44 Sb.1-30)x1/|
+	AK-74 5.45x39 6L23 30-round magazinex1/|
 	AK polymer pistol grip (6P1 Sb.8)x1/|
 	AK-74M dust cover (6P34 0-1)x1/|
-	AK-105 rear sight (6P44 Sb.1-30)x1/|
-	AK-74M polymer stock (6P34 Sb.15)x1/|
-	AK-74 5.45x39 6L23 30-round magazinex1
+	AK-74M polymer stock (6P34 Sb.15)x1
 ]
 Name_Jpn=Kalashnikov AK-105 5.45x39 アサルトライフル デフォルト
 Information_Jpn=

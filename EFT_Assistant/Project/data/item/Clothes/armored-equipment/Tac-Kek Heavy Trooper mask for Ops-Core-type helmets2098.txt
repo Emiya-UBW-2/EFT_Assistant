@@ -9,28 +9,28 @@ weight=0.400000
 fleaMarketFee=0
 propertiestype=ItemPropertiesArmorAttachment
 Conflict=[
+	Ops-Core FAST Gunsight Mandible/|
+	Ops-Core FAST multi-hit ballistic face shield/|
+	Ops-Core FAST Visor/|
+	Ops-Core SLAAP armor helmet plate (Tan)/|
+	Team Wendy EXFIL Ballistic face shield (Black)/|
+	ZSh-1-2M face shield/|
+	Deadly Skull mask/|
 	Fake white beard/|
-	Jason mask/|
-	Misha Mayorov mask/|
-	Slender mask/|
 	GP-5 gas mask/|
-	Pestily plague mask/|
+	Jason mask/|
+	Lower half-mask/|
+	Misha Mayorov mask/|
 	Neoprene mask/|
-	Twitch Rivals 2020 mask/|
+	Pestily plague mask/|
+	Respirator/|
 	Shattered lightweight armored mask/|
+	Shemagh (Green)/|
 	Shemagh (Tan)/|
 	Shroud half-mask/|
-	Deadly Skull mask/|
+	Slender mask/|
 	Twitch Rivals 2020 half-mask/|
-	Lower half-mask/|
-	Respirator/|
-	Shemagh (Green)/|
-	Ops-Core FAST Gunsight Mandible/|
-	Ops-Core FAST Visor/|
-	Ops-Core FAST multi-hit ballistic face shield/|
-	ZSh-1-2M face shield/|
-	Ops-Core SLAAP armor helmet plate (Tan)/|
-	Team Wendy EXFIL Ballistic face shield (Black)
+	Twitch Rivals 2020 mask
 ]
 Name_Jpn=Tac-Kek Heavy Trooper mask for Ops-Core-type helmets
 Information_Jpn=The Tac-Kek Heavy Trooper mask is an additional ballistic module for Ops-Core-type helmets, based on the famous movie universe. This is the way.

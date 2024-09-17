@@ -9,8 +9,8 @@ weight=0.330000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
-	CNC Guns KeyMod 4 inch rail/|
 	CNC Guns KeyMod 2 inch rail/|
+	CNC Guns KeyMod 4 inch rail/|
 	Strike Industries KeyMod 4 inch rail/|
 	Vltor CASV KeyMod 2 inch rail/|
 	Vltor CASV KeyMod 4 inch rail

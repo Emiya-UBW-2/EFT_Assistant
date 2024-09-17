@@ -10,9 +10,9 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	Wilcox Skull Lock head mountx1/|
-	Norotos Titanium Advanced Tactical Mountx1/|
+	AN/PVS-14 night vision monocularx1/|
 	AN/PVS-14 Norotos Dual Dovetail Mountx1/|
-	AN/PVS-14 night vision monocularx1
+	Norotos Titanium Advanced Tactical Mountx1
 ]
 Name_Jpn=Wilcox Skull Lock ヘッドマウント PVS-14
 Information_Jpn=

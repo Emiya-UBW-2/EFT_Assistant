@@ -10,13 +10,13 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	Kalashnikov PKM 7.62x54R machine gunx1/|
-	PK pistol gripx1/|
 	PKM 7.62x54R 658mm barrelx1/|
-	PKM 7.62x54R slotted flash hiderx1/|
-	PK 7.62x54R 100-round boxx1/|
-	PKM wooden stockx1/|
 	PK bipodx1/|
-	PK rear sightx1
+	PKM 7.62x54R slotted flash hiderx1/|
+	PK rear sightx1/|
+	PK 7.62x54R 100-round boxx1/|
+	PK pistol gripx1/|
+	PKM wooden stockx1
 ]
 Name_Jpn=Kalashnikov PKM 7.62x54R マシンガン デフォルト
 Information_Jpn=

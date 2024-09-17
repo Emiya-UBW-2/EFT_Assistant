@@ -9,17 +9,22 @@ weight=0.096000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
-	KAC URX 3/3.1 stopper panel/|
 	KAC URX 3/3.1 stopper panel (FDE)/|
+	KAC URX 3/3.1 stopper panel/|
 	KAC URX 3 3 inch rail
 ]
 ChildParts_required=FALSE
 ChildParts=[
+	BT10 V8 Atlas Bipod/|
 	Glock GTL 21 tactical flashlight with laser/|
 	Holosun LS321 Tactical device/|
+	Insight WMX200 tactical flashlight/|
 	L3Harris AN/PEQ-15 tactical device/|
 	L3Harris LA-5B/PEQ tactical device/|
+	MAWL-C1+ tactical device/|
 	NcSTAR Tactical blue laser LAM-module/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
+	Olight Baldr Pro tactical flashlight with laser/|
 	Steiner DBAL-PL tactical device/|
 	Steiner LAS/TAC 2 tactical flashlight/|
 	SureFire X400 Ultra tactical flashlight with laser/|
@@ -29,21 +34,16 @@ ChildParts=[
 	Zenit Klesch-2P flashlight with laser/|
 	Zenit Klesch-2U tactical flashlight/|
 	Zenit Perst-3 tactical device/|
-	Kiba Arms 25mm accessory ring mount/|
 	Daniel Defense 25mm accessory ring mount/|
-	Olight Baldr Pro tactical flashlight with laser/|
-	Olight Baldr Pro tactical flashlight with laser (Tan)/|
-	Insight WMX200 tactical flashlight/|
-	MAWL-C1+ tactical device/|
-	Zenit KR-2 old gen mount/|
-	BT10 V8 Atlas Bipod
+	Kiba Arms 25mm accessory ring mount/|
+	Zenit KR-2 old gen mount
 ]
 ChildParts_required=FALSE
 Conflict=[
+	AR-15 5.56x45 260mm barrel/|
 	AR-10 JP Enterprises Gas System-6/|
-	M4A1 front sight with gas block/|
 	AR-15 Windham Weaponry Rail Gas Block/|
-	AR-15 5.56x45 260mm barrel
+	M4A1 front sight with gas block
 ]
 Recoil=-2.000000
 Ergonomics=4.000000

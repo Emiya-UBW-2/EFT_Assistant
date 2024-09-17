@@ -9,17 +9,17 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
+	9x19mm Pst gzhx15/|
 	SIG P226R 9x19 pistolx1/|
 	P226 9x19 threaded barrelx1/|
-	Alpha Dog Alpha 9 9x19 sound suppressorx1/|
-	Trijicon RMR low profile mountx1/|
 	Trijicon RMR reflex sightx1/|
+	P226 front sightx1/|
+	P226 rear sightx1/|
+	P226 9x19 15-round magazinex1/|
+	Trijicon RMR low profile mountx1/|
 	P226 polymer pistol grip (Black)x1/|
 	P226R MK25 pistol slidex1/|
-	P226 rear sightx1/|
-	P226 front sightx1/|
-	P226 9x19 15-round magazinex1/|
-	9x19mm Pst gzhx15
+	Alpha Dog Alpha 9 9x19 sound suppressorx1
 ]
 Name_Jpn=SIG P226R 9x19 pistol Tactical
 Information_Jpn=

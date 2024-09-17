@@ -9,8 +9,8 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
-	Maska-1SCh bulletproof helmet (Killa Edition)x1/|
-	Maska-1SCh face shield (Killa Edition)x1
+	Maska-1SCh face shield (Killa Edition)x1/|
+	Maska-1SCh bulletproof helmet (Killa Edition)x1
 ]
 Name_Jpn=Maska-1SCh bulletproof helmet (Killa Edition) デフォルト
 Information_Jpn=

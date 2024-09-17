@@ -23,13 +23,13 @@ ChildParts=[
 ChildParts_required=FALSE
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
+	Olight Baldr Pro tactical flashlight with laser/|
 	Steiner DBAL-PL tactical device/|
 	Steiner LAS/TAC 2 tactical flashlight/|
 	SureFire X400 Ultra tactical flashlight with laser/|
 	SureFire XC1 tactical flashlight/|
-	UM Tactical UM3 pistol sight mount/|
-	Olight Baldr Pro tactical flashlight with laser/|
-	Olight Baldr Pro tactical flashlight with laser (Tan)
+	UM Tactical UM3 pistol sight mount
 ]
 ChildParts_required=FALSE
 Recoil=289.000000

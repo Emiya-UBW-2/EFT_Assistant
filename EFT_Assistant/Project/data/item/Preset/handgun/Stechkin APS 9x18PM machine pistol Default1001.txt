@@ -10,10 +10,10 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	Stechkin APS 9x18PM machine pistolx1/|
-	APS 9x18PM 20-round magazinex1/|
-	APS bakelite side-piecesx1/|
 	APS front sightx1/|
-	APS rear sightx1
+	APS rear sightx1/|
+	APS 9x18PM 20-round magazinex1/|
+	APS bakelite side-piecesx1
 ]
 Name_Jpn=Stechkin APS 9x18PM 自動拳銃 デフォルト
 Information_Jpn=

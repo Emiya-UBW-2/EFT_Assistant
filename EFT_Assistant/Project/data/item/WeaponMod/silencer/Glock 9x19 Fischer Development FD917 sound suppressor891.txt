@@ -10,24 +10,24 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
 	Glock GTL 21 tactical flashlight with laser/|
+	Olight Baldr Pro tactical flashlight with laser (Tan)/|
+	Olight Baldr Pro tactical flashlight with laser/|
 	Steiner LAS/TAC 2 tactical flashlight/|
 	SureFire X400 Ultra tactical flashlight with laser/|
 	SureFire XC1 tactical flashlight/|
 	Zenit Klesch-2IKS IR illuminator with laser/|
-	Zenit Klesch-2P flashlight with laser/|
-	Olight Baldr Pro tactical flashlight with laser/|
-	Olight Baldr Pro tactical flashlight with laser (Tan)
+	Zenit Klesch-2P flashlight with laser
 ]
 ChildParts_required=FALSE
 Conflict=[
+	Glock 9x19 Double Diamond thread protector/|
+	Glock 9x19 Lone Wolf AlphaWolf thread protector/|
+	Glock SAI 9x19 thread protector/|
 	Glock 9x19 CARVER Custom 4 Port compensator/|
 	Glock 9x19 CARVER Custom Decelerator 3 Port compensator/|
 	Glock 9x19 Double Diamond flash hider/|
 	Glock 9x19 Lone Wolf AlphaWolf Bullnose compensator/|
 	Glock 9x19 Lone Wolf LWD-COMP9 compensator/|
-	Glock 9x19 Lone Wolf AlphaWolf thread protector/|
-	Glock 9x19 Double Diamond thread protector/|
-	Glock SAI 9x19 thread protector/|
 	AAC Illusion 9 9x19 sound suppressor/|
 	Alpha Dog Alpha 9 9x19 sound suppressor/|
 	SIG Sauer SRD9 9x19 sound suppressor/|

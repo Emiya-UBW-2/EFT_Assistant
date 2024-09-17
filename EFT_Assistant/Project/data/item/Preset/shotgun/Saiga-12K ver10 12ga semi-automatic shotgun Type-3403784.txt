@@ -10,20 +10,20 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	Saiga-12K ver.10 12ga semi-automatic shotgunx1/|
+	AK CSS knurled charging handlex1/|
+	Tromix Monster Claw 12ga muzzle brakex1/|
+	Armytek Predator Pro v3 XHP35 HI flashlightx1/|
 	SOK-12 Custom Guns Type-340 handguardx1/|
+	SOK-12 CSS rear sight rail mountx1/|
+	SOK-12 12/76 MaxRounds Powermag 20-round magazinex1/|
 	Custom Guns handguard railx1/|
 	Kiba Arms 25mm accessory ring mountx1/|
-	Armytek Predator Pro v3 XHP35 HI flashlightx1/|
 	AK Custom Arms AGS-74 PRO + Sniper Kit pistol gripx1/|
-	Tromix Monster Claw 12ga muzzle brakex1/|
 	SOK-12 dust cover (Sb.0-2)x1/|
-	SOK-12 CSS rear sight rail mountx1/|
 	Wilcox BOSS Xe reflex sightx1/|
-	AK-74M/AK-100 Zenit PT Lockx1/|
-	AK Zenit PT-1 "Klassika" stockx1/|
 	AK GP-25 accessory kit recoil padx1/|
-	SOK-12 12/76 MaxRounds Powermag 20-round magazinex1/|
-	AK CSS knurled charging handlex1
+	AK Zenit PT-1 "Klassika" stockx1/|
+	AK-74M/AK-100 Zenit PT Lockx1
 ]
 Name_Jpn=Saiga 12ga ver.10 12/76 セミオートショットガン Type-340
 Information_Jpn=

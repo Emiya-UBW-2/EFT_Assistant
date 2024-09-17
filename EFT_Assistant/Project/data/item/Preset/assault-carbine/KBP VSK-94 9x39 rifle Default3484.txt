@@ -10,11 +10,11 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	KBP VSK-94 9x39 riflex1/|
-	9A-91 9x39 20-round magazinex1/|
-	VSK-94 stockx1/|
 	VSK-94 9x39 barrelx1/|
+	VSK-94 handguardx1/|
+	9A-91 9x39 20-round magazinex1/|
 	9A-91 9x39 sound suppressorx1/|
-	VSK-94 handguardx1
+	VSK-94 stockx1
 ]
 Name_Jpn=KBP VSK-94 9x39 rifle デフォルト
 Information_Jpn=

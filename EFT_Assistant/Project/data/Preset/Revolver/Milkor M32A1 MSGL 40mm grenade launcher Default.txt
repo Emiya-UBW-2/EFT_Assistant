@@ -1,6 +1,6 @@
 Name=Milkor M32A1 MSGL 40mm grenade launcher Default
 Base=Milkor M32A1 MSGL 40mm grenade launcher
 Parts=AR-15 Damage Industries ECS pistol grip (FDE)
-Parts=AR-15 High Standard M4SS Stock
-Parts=M32A1 40mm cylinder
 Parts=Milkor M2A1 grenade launcher reflex sight
+Parts=M32A1 40mm cylinder
+Parts=AR-15 High Standard M4SS Stock

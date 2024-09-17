@@ -10,13 +10,13 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	Degtyarev RPDN 7.62x39 machine gunx1/|
-	RPD 7.62x39 "Buben" 100-round boxx1/|
-	RPD wooden stockx1/|
-	RPD wooden pistol gripx1/|
 	RPD 7.62x39 sawed-off 350mm barrelx1/|
 	RPD wooden handguardx1/|
 	RPD rear sightx1/|
-	OKP-7 reflex sight (Dovetail)x1
+	RPD 7.62x39 "Buben" 100-round boxx1/|
+	RPD wooden pistol gripx1/|
+	OKP-7 reflex sight (Dovetail)x1/|
+	RPD wooden stockx1
 ]
 Name_Jpn=Degtyarev RPDN 7.62x39 machine gun OKP-7 DT
 Information_Jpn=

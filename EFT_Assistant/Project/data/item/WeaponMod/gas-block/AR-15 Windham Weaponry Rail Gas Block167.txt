@@ -9,23 +9,23 @@ weight=0.120000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
+	AR-15 Leapers UTG Low Profile A2 front sight/|
 	HK MP7 flip-up front sight/|
-	KAC Folding Micro front sight/|
 	KAC Folding front sight/|
+	KAC Folding Micro front sight/|
 	KRISS Defiance low profile flip-up front sight/|
-	Magpul MBUS Gen2 flip-up front sight/|
 	Magpul MBUS Gen2 flip-up front sight (FDE)/|
+	Magpul MBUS Gen2 flip-up front sight/|
 	MCX flip-up front sight/|
-	MPX flip-up front sight/|
-	AR-15 Leapers UTG Low Profile A2 front sight
+	MPX flip-up front sight
 ]
 ChildParts_required=FALSE
 Conflict=[
-	AR-15 Daniel Defense RIS II 9.5 handguard (Coyote Brown)/|
 	AR-15 Daniel Defense RIS II 9.5 handguard (Black)/|
-	R11 RSASS handguard/|
+	AR-15 Daniel Defense RIS II 9.5 handguard (Coyote Brown)/|
 	AR-15 War Sport LVOA-C handguard (Black)/|
-	AR-15 War Sport LVOA-S handguard (Black)
+	AR-15 War Sport LVOA-S handguard (Black)/|
+	R11 RSASS handguard
 ]
 Recoil=-2.000000
 Ergonomics=0.000000

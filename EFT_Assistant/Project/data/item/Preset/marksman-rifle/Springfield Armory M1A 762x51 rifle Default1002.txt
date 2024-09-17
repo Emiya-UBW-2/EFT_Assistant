@@ -10,13 +10,13 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	Springfield Armory M1A 7.62x51 riflex1/|
-	M1A 7.62x51 10-round magazinex1/|
-	M1A SOCOM 16 stockx1/|
-	M1A SOCOM 16 upper partx1/|
 	M1A 7.62x51 16 inch barrelx1/|
 	M1A SOCOM 16 7.62x51 muzzle brake-compensatorx1/|
+	M14 SA Enlarged Military Aperture rear sightx1/|
 	M1A SA XS Post .125 Blade front sightx1/|
-	M14 SA Enlarged Military Aperture rear sightx1
+	M1A 7.62x51 10-round magazinex1/|
+	M1A SOCOM 16 upper partx1/|
+	M1A SOCOM 16 stockx1
 ]
 Name_Jpn=Springfield Armory M1A 7.62x51 ライフル デフォルト
 Information_Jpn=

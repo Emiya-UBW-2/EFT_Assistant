@@ -9,21 +9,21 @@ weight=0.077000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 ChildParts=[
+	Magpul M-LOK 0.93 inch rail/|
 	Magpul M-LOK 2.5 inch rail/|
 	Magpul M-LOK Cantilever Mount/|
-	Magpul M-LOK Offset Light Mount/|
-	Magpul M-LOK 0.93 inch rail
+	Magpul M-LOK Offset Light Mount
 ]
 ChildParts_required=FALSE
 ChildParts=[
+	Magpul M-LOK 0.93 inch rail/|
 	Magpul M-LOK 2.5 inch rail/|
-	Magpul M-LOK Cantilever Mount/|
-	Magpul M-LOK 0.93 inch rail
+	Magpul M-LOK Cantilever Mount
 ]
 ChildParts_required=FALSE
 ChildParts=[
-	AR-15 Strike Industries Viper carbine length M-LOK lower handguard/|
-	AR-15 Strike Industries Viper carbine length M-LOK lower handguard (FDE)
+	AR-15 Strike Industries Viper carbine length M-LOK lower handguard (FDE)/|
+	AR-15 Strike Industries Viper carbine length M-LOK lower handguard
 ]
 ChildParts_required=FALSE
 Conflict=[

@@ -9,9 +9,12 @@ weight=0.695000
 fleaMarketFee=0
 propertiestype=ItemPropertiesWeaponMod
 Conflict=[
+	AK-12 stock/|
 	AR-15 B5 Systems Precision stock/|
 	AR-15 CMMG RipStock buttstock/|
 	AR-15 Colt A2 buffer tube/|
+	AR-15 Daniel Defense Enhanced Collapsible Buttstock (Black)/|
+	AR-15 Daniel Defense Enhanced Collapsible Buttstock (FDE)/|
 	AR-15 DoubleStar ACE SOCOM Gen.4 stock/|
 	AR-15 ERGO F93 PRO stock/|
 	AR-15 FAB Defense GL-CORE buttstock/|
@@ -20,7 +23,6 @@ Conflict=[
 	AR-15 High Standard M4SS Stock/|
 	AR-15 HK E1 buttstock/|
 	AR-15 HK Slim Line buttstock/|
-	AK-12 stock/|
 	AR-15 KRISS Defiance DS150 stock (Black)/|
 	AR-15 KRISS Defiance DS150 stock (FDE)/|
 	AR-15 LMT SOPMOD stock/|
@@ -31,22 +33,20 @@ Conflict=[
 	AR-15 Magpul MOE Carbine stock (Foliage Green)/|
 	AR-15 Magpul MOE Carbine stock (Olive Drab)/|
 	AR-15 Magpul MOE Carbine stock (Stealth Grey)/|
+	AR-15 Magpul MOE SL-K buttstock (Coyote Tan)/|
 	AR-15 Magpul PRS GEN2 stock (FDE)/|
 	AR-15 Magpul PRS GEN3 stock (Black)/|
 	AR-15 Magpul PRS GEN3 stock (Grey)/|
-	Magpul MOE Carbine rubber buttpad/|
 	AR-15 Magpul UBR GEN2 stock (Black)/|
 	AR-15 Magpul UBR GEN2 stock (FDE)/|
 	AR-15 MFT BUS stock/|
+	AR-15 SB Tactical SBA3 brace/|
 	AR-15 Strike Industries Viper Mod 1 stock/|
+	AR-15 Strike Industries Viper PDW stock/|
 	AR-15 TROY M7A1 PDW stock (Black)/|
 	AR-15 TROY M7A1 PDW stock (FDE)/|
 	AR-15 Vltor EMOD stock/|
-	AR-15 Strike Industries Viper PDW stock/|
-	AR-15 SB Tactical SBA3 brace/|
-	AR-15 Daniel Defense Enhanced Collapsible Buttstock (Black)/|
-	AR-15 Daniel Defense Enhanced Collapsible Buttstock (FDE)/|
-	AR-15 Magpul MOE SL-K buttstock (Coyote Tan)
+	Magpul MOE Carbine rubber buttpad
 ]
 Recoil=-20.000000
 Ergonomics=13.000000

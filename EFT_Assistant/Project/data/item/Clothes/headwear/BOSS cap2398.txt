@@ -9,13 +9,13 @@ weight=0.100000
 fleaMarketFee=0
 propertiestype=
 Conflict=[
-	Misha Mayorov mask/|
-	Slender mask/|
 	GP-5 gas mask/|
 	GP-7 gas mask/|
+	Misha Mayorov mask/|
 	Pestily plague mask/|
+	Shemagh (Green)/|
 	Shemagh (Tan)/|
-	Shemagh (Green)
+	Slender mask
 ]
 Name_Jpn=BOSS キャップ
 Information_Jpn=A fancy red BOSS cap. Yo, fella, you da real BOSS now!

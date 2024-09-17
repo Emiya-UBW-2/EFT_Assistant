@@ -10,10 +10,10 @@ propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
 	PPSh-41 7.62x25 submachine gunx1/|
-	PPSh-41 stockx1/|
+	PPSh-41 7.62x25 10.6 inch barrelx1/|
 	PPSh-41 7.62x25 35-round magazinex1/|
 	PPSh-41 dust coverx1/|
-	PPSh-41 7.62x25 10.6 inch barrelx1
+	PPSh-41 stockx1
 ]
 Name_Jpn=PPSh-41 7.62x25 サブマシンガン デフォルト
 Information_Jpn=

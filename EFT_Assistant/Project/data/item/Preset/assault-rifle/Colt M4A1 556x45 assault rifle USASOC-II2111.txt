@@ -10,21 +10,21 @@ propertiestype=ItemPropertiesPreset
 IsDefault=FALSE
 containsItems=[
 	Colt M4A1 5.56x45 assault riflex1/|
-	AR-15 Damage Industries ECS pistol grip (FDE)x1/|
-	5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazine (FDE)x1/|
-	M4A1 5.56x45 upper receiverx1/|
-	EOTech HHS-1 hybrid sight (Tan)x1/|
 	AR-15 5.56x45 370mm barrelx1/|
+	AR-15 Geissele ACH charging handle (DDC)x1/|
+	L3Harris LA-5B/PEQ tactical devicex1/|
 	AR-15 SureFire SF4P 5.56x45 flash hiderx1/|
-	SureFire SOCOM556-RC2 5.56x45 sound suppressorx1/|
 	AR-15 Daniel Defense MK12 Low Profile Gas Blockx1/|
 	AR-15 Geissele SMR MK16 13.5 inch M-LOK handguard (DDC)x1/|
-	L3Harris LA-5B/PEQ tactical devicex1/|
 	KAC Folding front sightx1/|
 	KAC Folding rear sightx1/|
+	5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazine (FDE)x1/|
+	AR-15 Damage Industries ECS pistol grip (FDE)x1/|
+	M4A1 5.56x45 upper receiverx1/|
+	EOTech HHS-1 hybrid sight (Tan)x1/|
+	SureFire SOCOM556-RC2 5.56x45 sound suppressorx1/|
 	AR-15 Colt Carbine buffer tubex1/|
-	AR-15 LMT SOPMOD stockx1/|
-	AR-15 Geissele ACH charging handle (DDC)x1
+	AR-15 LMT SOPMOD stockx1
 ]
 Name_Jpn=M4A1 5.56x45 アサルトライフル USASOC-II
 Information_Jpn=
