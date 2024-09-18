@@ -9,7 +9,7 @@ fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
 containsItems=[
-	Monoclete level III PE ballistic platex1/|
+	Monoclete level III PE ballistic platex2/|
 	Shellback Tactical Banshee plate carrier (A-TACS AU)x1
 ]
 Name_Jpn=Shellback Tactical Banshee plate carrier (A-TACS AU) デフォルト

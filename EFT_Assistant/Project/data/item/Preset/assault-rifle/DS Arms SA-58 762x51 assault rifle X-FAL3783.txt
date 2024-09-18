@@ -16,7 +16,7 @@ containsItems=[
 	SA-58/FAL Vltor CASV-FAS handguardx1/|
 	SA-58 Holland Type rear sightx1/|
 	SA-58/FAL 7.62x51 X Products X-FAL 50-round drum magazinex1/|
-	Vltor CASV 4 inch railx1/|
+	Vltor CASV 4 inch railx2/|
 	Vltor CASV 5 inch railx1/|
 	SA-58 FAB Defense AG-FAL pistol gripx1/|
 	SA-58 Extreme Duty dust coverx1/|

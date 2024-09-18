@@ -8,5 +8,9 @@ weight=11.500000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
+containsItems=[
+	FORT Defender-2 body armorx1/|
+	Granit Br4 ballistic platex2
+]
 Name_Jpn=FORT Defender-2 ボディーアーマー デフォルト
 Information_Jpn=

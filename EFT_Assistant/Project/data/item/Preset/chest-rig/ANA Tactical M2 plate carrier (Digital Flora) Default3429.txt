@@ -8,5 +8,9 @@ weight=6.750000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
+containsItems=[
+	Kiba Arms Titan ballistic platex2/|
+	ANA Tactical M2 plate carrier (Digital Flora)x1
+]
 Name_Jpn=ANA Tactical M2 アーマーリグ デフォルト
 Information_Jpn=

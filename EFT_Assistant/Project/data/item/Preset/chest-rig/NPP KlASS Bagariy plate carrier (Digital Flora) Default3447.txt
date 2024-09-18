@@ -8,5 +8,10 @@ weight=10.800000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
+containsItems=[
+	Korund-VM ballistic plate (Back)x1/|
+	Korund-VM ballistic plates (Front)x1/|
+	NPP KlASS Bagariy plate carrier (Digital Flora)x1
+]
 Name_Jpn=NPP KlASS Bagariy plate carrier (Digital Flora) デフォルト
 Information_Jpn=

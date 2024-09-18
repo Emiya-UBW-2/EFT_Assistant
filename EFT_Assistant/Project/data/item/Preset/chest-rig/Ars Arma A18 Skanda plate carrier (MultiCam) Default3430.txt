@@ -8,5 +8,9 @@ weight=11.230000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
+containsItems=[
+	SPRTN Omega ballistic platex2/|
+	Ars Arma A18 Skanda plate carrier (MultiCam)x1
+]
 Name_Jpn=Ars Arma A18 Skanda プレートキャリア デフォルト
 Information_Jpn=

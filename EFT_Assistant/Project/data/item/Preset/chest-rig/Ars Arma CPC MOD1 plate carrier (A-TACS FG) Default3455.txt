@@ -8,5 +8,10 @@ weight=6.690000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
+containsItems=[
+	GAC 3s15m ballistic platex2/|
+	SSAPI level III+ ballistic plate (Side)x2/|
+	Ars Arma CPC MOD.1 plate carrier (A-TACS FG)x1
+]
 Name_Jpn=Ars Arma CPC MOD.1 plate carrier (A-TACS FG) デフォルト
 Information_Jpn=

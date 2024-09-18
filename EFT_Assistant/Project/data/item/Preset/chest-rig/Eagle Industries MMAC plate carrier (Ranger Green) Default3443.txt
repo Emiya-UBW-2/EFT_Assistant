@@ -8,5 +8,9 @@ weight=5.530000
 fleaMarketFee=0
 propertiestype=ItemPropertiesPreset
 IsDefault=TRUE
+containsItems=[
+	Monoclete level III PE ballistic platex2/|
+	Eagle Industries MMAC plate carrier (Ranger Green)x1
+]
 Name_Jpn=Eagle Industries MMAC plate carrier (Ranger Green) デフォルト
 Information_Jpn=
