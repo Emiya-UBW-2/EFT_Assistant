@@ -452,7 +452,7 @@ namespace FPS_n2 {
 				BaseMin = BaseMax;
 				BaseMax = (int)Data->size();
 				if (BaseMin == BaseMax) { break; }
-				for (auto& Parts1Base : BranchDataBase) {
+				for (auto & Parts1Base : BranchDataBase) {
 					auto CheckSameSlot = [&](const PartsBaseData::PartsID& Parts2) {
 						bool IsThrough = false;
 						for (auto& Parts1 : Parts1Base.m_PartsIDList) {
@@ -599,7 +599,10 @@ namespace FPS_n2 {
 				data2.m_Recoil += Parts1.m_RecoilAdd;
 				data2.m_Ergonomics += Parts1.m_ErgonomicsAdd;
 			}
-			data2.m_Recoil = ((float)(m_BaseWeapon->GetRecoilVertical()) * (100.f + data2.m_Recoil) / 100.f);
+			data2.m_Recoil = 
+				((float)(m_BaseWeapon->GetRecoilVertical()) * (100.f + data2.m_Recoil) / 100.f) + 
+				((float)(m_BaseWeapon->GetRecoilHorizontal()) * (100.f + data2.m_Recoil) / 100.f)
+				;
 			data2.m_Ergonomics = (m_BaseWeapon->GetWeaponErgonomics() + data2.m_Ergonomics);
 		}
 	}
@@ -975,9 +978,11 @@ namespace FPS_n2 {
 				std::vector<PartsBaseData>	BranchDataBase;
 				m_CustomParts->CalcChildBranch(&BranchDataBase);
 				clsDx();
-				printfDx("BlanchList : %d\n", BranchDataBase.size());
-				if (BranchDataBase.size() >= 50) {
-					printfDx("So Many Blanch : Need More Filtering Less Than 50\n");
+				int totalsize = (int)BranchDataBase.size();
+				printfDx("パーツパターン : %d\n", totalsize);
+				if (totalsize >= 50) {
+					printfDx("パターンが多すぎます、50未満まで抑えてください\n");
+					printfDx("最悪の場合の総数 : [2^%d - 1]\n", totalsize);
 				}
 				else {
 					m_CustomParts->CalcChildErgRec(&m_PartsDatas, BranchDataBase);

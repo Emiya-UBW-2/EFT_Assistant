@@ -16,7 +16,7 @@ containsItems=[
 	MPX flip-up front sightx1/|
 	MPX flip-up rear sightx1/|
 	MPX 9x19 30-round magazinex1/|
-	MPX GEN1 handguard 2 inch railx1/|
+	MPX GEN1 handguard 2 inch railx2/|
 	MPX GEN1 handguard 4 inch railx1/|
 	MPX pistol gripx1/|
 	MPX GEN1 9x19 upper receiverx1/|
