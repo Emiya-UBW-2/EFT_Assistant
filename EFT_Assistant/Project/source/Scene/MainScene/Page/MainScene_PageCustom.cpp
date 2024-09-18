@@ -1034,7 +1034,7 @@ namespace FPS_n2 {
 			int yp = LineHeight * 3 + LineHeight / 2;
 
 			int Max = (int)m_CustomParts->GetBlackList().size();
-			if (Max > 0) {
+			{
 				int xofs = 0;
 				int yofs = 0;
 				WindowSystem::SetMsg(xp, yp + LineHeight / 2 + yofs, LineHeight, STRX_LEFT, White, Black, "ブラックリスト(%d)", Max);
