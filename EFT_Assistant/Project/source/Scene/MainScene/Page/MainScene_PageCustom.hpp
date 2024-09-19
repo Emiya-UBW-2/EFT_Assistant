@@ -151,7 +151,7 @@ namespace FPS_n2 {
 		//
 		static const bool			ItemPtrChecktoBeFiltered(ItemTypeID TypeID, bool MagFilter, bool MountFilter, bool SightFilter, bool AxModFilter) noexcept;
 		//
-		void CalcChildBranch(std::vector<PartsBaseData>* Data, const ItemList* Ptr = nullptr, ItemID ParentDataID = INVALID_ID, int ParentDataIndex = INVALID_ID, int slot = 0) noexcept;
+		void CalcChildBranch(std::vector<PartsBaseData>* Data, bool MagFilter, bool MountFilter, bool SightFilter, bool AxModFilter, const ItemList* Ptr = nullptr, ItemID ParentDataID = INVALID_ID, int ParentDataIndex = INVALID_ID, int slot = 0) noexcept;
 		void CalcBlackList() noexcept;
 		void CalcChildErgRec(std::vector<PartsBaseData>* Data, const std::vector<PartsBaseData>& BranchDataBase) noexcept;
 		//•`‰æ
@@ -180,6 +180,7 @@ namespace FPS_n2 {
 		bool									m_EnableMag{ false };
 		bool									m_EnableMount{ false };
 		bool									m_EnableSight{ false };
+		bool									m_EnableAxParts{ false };
 
 		std::unique_ptr<CustomParts>			m_CustomParts{ nullptr };
 

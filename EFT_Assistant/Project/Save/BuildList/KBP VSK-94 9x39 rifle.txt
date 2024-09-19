@@ -1,0 +1,3 @@
+218.399994	,56.000000	,KBP VSK-94 9x39 rifle	,VSK-94 stock	,9A-91 9x39 sound suppressor	,9A-91 handguard	,9A-91 9x39 barrel	,
+273.000000	,55.000000	,KBP VSK-94 9x39 rifle	,VSK-94 stock	,9A-91 9x39 barrel	,
+273.000000	,63.000000	,KBP VSK-94 9x39 rifle	,VSK-94 stock	,9A-91 handguard	,9A-91 handguard retainer	,9A-91 9x39 barrel	,

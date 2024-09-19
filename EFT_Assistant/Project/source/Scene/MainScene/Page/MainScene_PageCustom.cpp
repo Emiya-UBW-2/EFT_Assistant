@@ -279,7 +279,7 @@ namespace FPS_n2 {
 	}
 
 	// 枝を網羅(組み合わせ網羅ではない)
-	void CustomParts::CalcChildBranch(std::vector<PartsBaseData>* Data, const ItemList* Ptr, ItemID ParentDataID, int ParentDataIndex, int slot) noexcept
+	void CustomParts::CalcChildBranch(std::vector<PartsBaseData>* Data, bool MagFilter, bool MountFilter, bool SightFilter, bool AxModFilter, const ItemList* Ptr, ItemID ParentDataID, int ParentDataIndex, int slot) noexcept
 	{
 		auto* Ptr_Buf = Ptr;
 		bool IsParent = (ParentDataIndex == -1);
@@ -342,7 +342,7 @@ namespace FPS_n2 {
 				auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(cptr.GetID());
 				//任意パーツで特定のアイテム以外
 				if (!c.m_Required) {
-					if (CustomParts::ItemPtrChecktoBeFiltered(ptr->GetTypeID(), true, true, true, true)) {
+					if (CustomParts::ItemPtrChecktoBeFiltered(ptr->GetTypeID(), MagFilter, MountFilter, SightFilter, AxModFilter)) {
 						continue;
 					}
 				}
@@ -397,7 +397,7 @@ namespace FPS_n2 {
 				}
 				//
 				ItemHitList.emplace_back(ptr);//
-				CalcChildBranch(Data, ptr, Ptr_Buf->GetID(), ParentDataIndex, index);
+				CalcChildBranch(Data, MagFilter, MountFilter, SightFilter, AxModFilter, ptr, Ptr_Buf->GetID(), ParentDataIndex, index);
 			}
 			index++;
 		}
@@ -562,33 +562,33 @@ namespace FPS_n2 {
 			{
 				for (int index = 0, Max = (int)Data->size(); index < Max; index++) {
 					auto& data = Data->at(index);
+
+					auto CheckFillItemOnSlot = [&](const std::vector<IDParents<ItemID>>& Datas, ItemID ParentID) {
+						bool IsHit = false;
+						for (auto& parts2 : data.m_PartsIDList) {
+							if (parts2.ParentID == ParentID) {
+								IsHit = true;
+								//子オブジェの中でスロット対象のオブジェクトがあったら
+								for (auto& cptr : Datas) {
+									if (cptr.GetID() == parts2.MyID) {
+										return true;
+									}
+								}
+							}
+						}
+						return !IsHit;
+					};
+
 					bool SlotAllOk = true;
 					for (auto& parts : data.m_PartsIDList) {
 						auto* Ptr_t = DataBase::Instance()->GetItemData()->FindPtr(parts.MyID);
 						if (Ptr_t) {
 							for (const auto& c : Ptr_t->GetChildParts()) {
 								if (c.m_Required) {//埋める必要のあるスロットがあって
-									bool isHit = false;
-									for (auto& parts2 : data.m_PartsIDList) {
-										if (parts2.ParentID == parts.MyID) {
-											//子オブジェの中でスロット対象のオブジェクトがあったら
-											for (auto& cptr : c.GetData()) {
-												if (cptr.GetID() == parts2.MyID) {
-													isHit = true;
-													break;
-												}
-											}
-											if (isHit) {
-												break;
-											}
-										}
-										if (isHit) {
-											break;
-										}
-									}
 									//スロットが空なら
-									if (!isHit) {
+									if (!CheckFillItemOnSlot(c.GetData(), parts.MyID)) {
 										SlotAllOk = false;
+										break;
 									}
 								}
 							}
@@ -815,9 +815,10 @@ namespace FPS_n2 {
 		*posy = LineHeight + DXDraw::Instance()->GetUIY(100);
 		*Scale = 0.2f;
 		//
-		m_EnableMag = true;
-		m_EnableMount = true;
-		m_EnableSight = true;
+		m_EnableMag = false;
+		m_EnableMount = false;
+		m_EnableSight = false;
+		m_EnableAxParts = true;
 		//
 		m_CustomParts = std::make_unique<CustomParts>();
 		m_CustomParts->Init();
@@ -982,6 +983,10 @@ namespace FPS_n2 {
 			m_EnableMag = WindowSystem::CheckBox(xp, (yp - LineHeight / 2), m_EnableMag);
 			WindowSystem::SetMsg(xp + LineHeight * 3, yp, LineHeight, STRX_LEFT, White, Black, "マガジンを含む");
 			//
+			yp -= DXDraw::Instance()->GetUIY(50);
+			m_EnableAxParts = WindowSystem::CheckBox(xp, (yp - LineHeight / 2), m_EnableAxParts);
+			WindowSystem::SetMsg(xp + LineHeight * 3, yp, LineHeight, STRX_LEFT, White, Black, "その他必須ではないパーツを含む");
+			//
 			if (m_EnableSight) {
 				m_EnableMount = true;
 			}
@@ -996,7 +1001,7 @@ namespace FPS_n2 {
 				m_PartsDatas.clear();
 
 				std::vector<PartsBaseData>	BranchDataBase;
-				m_CustomParts->CalcChildBranch(&BranchDataBase);
+				m_CustomParts->CalcChildBranch(&BranchDataBase, !m_EnableSight, !m_EnableMount, !m_EnableMag, !m_EnableAxParts);
 				clsDx();
 				int totalsize = (int)BranchDataBase.size();
 				printfDx("パーツパターン : %d\n", totalsize);

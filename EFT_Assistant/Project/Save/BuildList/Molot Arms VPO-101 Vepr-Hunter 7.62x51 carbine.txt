@@ -1,0 +1,8 @@
+477.750000	,22.000000	,VPO-101 "ヴェープルハンター" 7.62x51 カービン	,VPO-101 "Vepr-Hunter" SVD-style stock	,VPO-101 "Vepr-Hunter" Rotor 43 7.62x51 muzzle brake-compensator	,VPO-101 "Vepr-Hunter" gas tube	,
+477.750000	,24.000000	,VPO-101 "ヴェープルハンター" 7.62x51 カービン	,VPO-101 "Vepr-Hunter" SVD-style stock	,VPO-101 "Vepr-Hunter" Rotor 43 7.62x51 muzzle brake-compensator	,VPO-101 "Vepr-Hunter" dust cover	,VPO-101 "Vepr-Hunter" gas tube	,
+499.799988	,19.000000	,VPO-101 "ヴェープルハンター" 7.62x51 カービン	,VPO-101 "Vepr-Hunter" stock	,VPO-101 "Vepr-Hunter" Rotor 43 7.62x51 muzzle brake-compensator	,VPO-101 "Vepr-Hunter" gas tube	,
+499.799988	,21.000000	,VPO-101 "ヴェープルハンター" 7.62x51 カービン	,VPO-101 "Vepr-Hunter" stock	,VPO-101 "Vepr-Hunter" Rotor 43 7.62x51 muzzle brake-compensator	,VPO-101 "Vepr-Hunter" dust cover	,VPO-101 "Vepr-Hunter" gas tube	,
+551.250000	,50.000000	,VPO-101 "ヴェープルハンター" 7.62x51 カービン	,VPO-101 "Vepr-Hunter" SVD-style stock	,VPO-101 "Vepr-Hunter" gas tube	,
+551.250000	,52.000000	,VPO-101 "ヴェープルハンター" 7.62x51 カービン	,VPO-101 "Vepr-Hunter" SVD-style stock	,VPO-101 "Vepr-Hunter" dust cover	,VPO-101 "Vepr-Hunter" gas tube	,
+573.299988	,47.000000	,VPO-101 "ヴェープルハンター" 7.62x51 カービン	,VPO-101 "Vepr-Hunter" stock	,VPO-101 "Vepr-Hunter" gas tube	,
+573.299988	,49.000000	,VPO-101 "ヴェープルハンター" 7.62x51 カービン	,VPO-101 "Vepr-Hunter" stock	,VPO-101 "Vepr-Hunter" dust cover	,VPO-101 "Vepr-Hunter" gas tube	,

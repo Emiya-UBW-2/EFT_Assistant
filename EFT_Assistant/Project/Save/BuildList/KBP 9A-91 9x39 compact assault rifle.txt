@@ -1,0 +1,6 @@
+249.600006	,72.000000	,KBP 9A-91 9x39 compact assault rifle	,9A-91 top-folding stock	,9A-91 9x39 sound suppressor	,9A-91 pistol grip	,9A-91 handguard	,9A-91 9x39 barrel	,
+304.200012	,71.000000	,KBP 9A-91 9x39 compact assault rifle	,9A-91 top-folding stock	,9A-91 pistol grip	,9A-91 9x39 barrel	,
+304.200012	,79.000000	,KBP 9A-91 9x39 compact assault rifle	,9A-91 top-folding stock	,9A-91 pistol grip	,9A-91 handguard	,9A-91 handguard retainer	,9A-91 9x39 barrel	,
+327.600006	,56.000000	,KBP 9A-91 9x39 compact assault rifle	,9A-91 9x39 sound suppressor	,9A-91 pistol grip	,9A-91 handguard	,9A-91 9x39 barrel	,
+382.200012	,55.000000	,KBP 9A-91 9x39 compact assault rifle	,9A-91 pistol grip	,9A-91 9x39 barrel	,
+382.200012	,63.000000	,KBP 9A-91 9x39 compact assault rifle	,9A-91 pistol grip	,9A-91 handguard	,9A-91 handguard retainer	,9A-91 9x39 barrel	,

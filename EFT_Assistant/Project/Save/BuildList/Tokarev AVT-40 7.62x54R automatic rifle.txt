@@ -1,0 +1,2 @@
+552.500000	,23.000000	,AVT-40 7.62x54R オートマチックライフル	,AVT-40 wooden stock 	,SVT dust cover 	,SVT-40 7.62x54R muzzle brake	,SVT-40 7.62x54R 625mm barrel	,
+612.000000	,24.000000	,AVT-40 7.62x54R オートマチックライフル	,AVT-40 wooden stock 	,SVT dust cover 	,SVT-40 7.62x54R 625mm barrel	,
