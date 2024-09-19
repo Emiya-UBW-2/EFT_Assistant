@@ -14,18 +14,7 @@ namespace FPS_n2 {
 			}
 		}
 		else {
-			bool IsHit = false;
-			int  Now = 0;
-			/*
-			for (const auto& cID2 : GetMySlotData().GetData()) {
-				if (PlayerData::Instance()->GetItemLock(DataBase::Instance()->GetItemData()->FindPtr(cID2.GetID())->GetIDstr().c_str())) {
-					IsHit = true;
-					break;
-				}
-				Now++;
-			}
-			//*/
-			this->ChildSel = IsHit ? Now : this->m_PartsOn;
+			this->ChildSel = this->m_PartsOn;
 			this->m_PartsOn = InvalidID;
 		}
 	}
@@ -78,13 +67,17 @@ namespace FPS_n2 {
 		}
 	}
 	//
-	void CustomParts::UpdateBlackList() noexcept {
-		if (m_BlackListUpdate) {
-			m_BlackListUpdate = false;
+	void CustomParts::UpdateItemList() noexcept {
+		if (m_ItemListUpdate) {
+			m_ItemListUpdate = false;
 			m_BlackList.clear();
+			m_ItemLockList.clear();
 			for (auto& item : DataBase::Instance()->GetItemData()->GetList()) {
-				if (PlayerData::Instance()->GetItemLock(item.GetIDstr().c_str())) {
+				if (PlayerData::Instance()->GetItemBlackList(item.GetIDstr().c_str())) {
 					m_BlackList.emplace_back(&item);
+				}
+				else if (PlayerData::Instance()->GetItemLock(item.GetIDstr().c_str())) {
+					m_ItemLockList.emplace_back(&item);
 				}
 			}
 		}
@@ -183,14 +176,6 @@ namespace FPS_n2 {
 				m_ChildData.back().Set(Ptr_Buf, index, 0);
 				auto& cID = this->m_ChildData.back();
 				cID.OnOffSelect();
-				/*
-				for (const auto& cID2 : this->m_ChildData.back().GetMySlotData().GetData()) {
-					if (PlayerData::Instance()->GetItemLock(DataBase::Instance()->GetItemData()->FindPtr(cID2.GetID())->GetIDstr().c_str())) {
-						break;
-					}
-					cID.AddSelect();
-				}
-				//*/
 				AddSelectToCanSelect(&cID);
 			}
 		}
@@ -333,8 +318,27 @@ namespace FPS_n2 {
 		for (int index = 0; const auto & c : Ptr_Buf->GetChildParts()) {
 			Required |= c.m_Required;
 			//if (!c.m_Required) { continue; }
+
+			//アイテム固定に入っているアイテムがスロット候補にあるなら
+			ItemID CheckSlotLock = INVALID_ID;
+			for (auto& L : m_ItemLockList) {
+				for (auto& cptr : c.GetData()) {
+					if (cptr.GetID() == L->GetID()) {
+						CheckSlotLock = cptr.GetID();
+						break;
+					}
+				}
+				if (CheckSlotLock != INVALID_ID) {
+					break;
+				}
+			}
+
 			ItemHitList.clear();
 			for (auto& cptr : c.GetData()) {
+				//ロックアイテムと同じスロットでロックアイテム出ないなら
+				if (CheckSlotLock != INVALID_ID && CheckSlotLock != cptr.GetID()) {
+					continue;
+				}
 				auto* ptr = DataBase::Instance()->GetItemData()->FindPtr(cptr.GetID());
 				//任意パーツで特定のアイテム以外
 				if (!c.m_Required) {
@@ -343,42 +347,53 @@ namespace FPS_n2 {
 					}
 				}
 				// 既に登録したアイテムの中でエルゴ、反動、スロット、干渉がすべて同じものはスルーする
-				bool IsSameSpec = false;
-				for (auto& l : ItemHitList) {
-					//リコイル、エルゴが同じでない
-					if (l->GetErgonomics() != ptr->GetErgonomics()) { continue; }
-					if (l->GetRecoil() != ptr->GetRecoil()) { continue; }
-					//干渉リストに同じものが入っているかどうか
-					if (!CheckSameElements(ptr->GetConflictParts(), l->GetConflictParts())) { continue; }
-					//こどもリストが同じ
-					{
-						if (ptr->GetChildParts().size() != l->GetChildParts().size()) { continue; }
-						bool IsHit = true;
-						for (const auto& c2 : ptr->GetChildParts()) {
-							for (const auto& c3 : l->GetChildParts()) {
-								IsHit = false;
-								if (CheckSameElements(c2.GetData(), c3.GetData())) {
-									IsHit = true;
+				{
+					bool IsSameSpec = false;
+					for (auto& l : ItemHitList) {
+						//リコイル、エルゴが同じでない
+						if (l->GetErgonomics() != ptr->GetErgonomics()) { continue; }
+						if (l->GetRecoil() != ptr->GetRecoil()) { continue; }
+						//干渉リストに同じものが入っているかどうか
+						if (!CheckSameElements(ptr->GetConflictParts(), l->GetConflictParts())) { continue; }
+						//こどもリストが同じ
+						{
+							if (ptr->GetChildParts().size() != l->GetChildParts().size()) { continue; }
+							bool IsHit = true;
+							for (const auto& c2 : ptr->GetChildParts()) {
+								for (const auto& c3 : l->GetChildParts()) {
+									IsHit = false;
+									if (CheckSameElements(c2.GetData(), c3.GetData())) {
+										IsHit = true;
+										break;
+									}
+								}
+								if (!IsHit) {
 									break;
 								}
 							}
 							if (!IsHit) {
-								break;
+								continue;
 							}
 						}
-						if (!IsHit) {
-							continue;
-						}
+						IsSameSpec = true;
+						break;
 					}
-					IsSameSpec = true;
-					break;
-				}
-				if (IsSameSpec) {
-					continue;
+					if (IsSameSpec) {
+						continue;
+					}
 				}
 				//ブラックリストに入っているなら
-				if (PlayerData::Instance()->GetItemLock(ptr->GetIDstr().c_str())) {
-					continue;
+				{
+					bool OnBlackList = false;
+					for (auto& L : m_BlackList) {
+						if (cptr.GetID() == L->GetID()) {
+							OnBlackList = true;
+							break;
+						}
+					}
+					if (OnBlackList) {
+						continue;
+					}
 				}
 				//
 				ItemHitList.emplace_back(ptr);//
@@ -434,8 +449,9 @@ namespace FPS_n2 {
 				}
 				if (HasParts && !IsHit) {
 					//トレーダー交換がLLアップのみでできない場合ブラックリスト入り
-					PlayerData::Instance()->SetItemLock(item.GetIDstr().c_str(), true);
-					UpdateBlackListFlag();
+					PlayerData::Instance()->SetItemBlackList(item.GetIDstr().c_str(), true);
+					PlayerData::Instance()->SetItemLock(item.GetIDstr().c_str(), false);
+					UpdateItemListFlag();
 				}
 			}
 		}
@@ -700,32 +716,36 @@ namespace FPS_n2 {
 		if (IntoMouse(XLeftPosition, YUp, XRight, YBottom)) {
 			if (cID->GetIsSelected()) {
 				WindowSystem::DrawControl::Instance()->SetDrawBox(WindowSystem::DrawLayer::Normal, XLeftPosition, YUp, XRight, YBottom, RedPop, false);
-				if (Pad->GetAtoZKey('L').trigger()) {
+				if (Pad->GetAtoZKey('B').trigger()) {
+					PlayerData::Instance()->OnOffItemBlackList(cID->GetChildPtr()->GetIDstr().c_str());
+					if (PlayerData::Instance()->GetItemBlackList(cID->GetChildPtr()->GetIDstr().c_str())) {
+						PlayerData::Instance()->SetItemLock(cID->GetChildPtr()->GetIDstr().c_str(), false);
+					}
+					UpdateItemListFlag();
+				}
+				else if (Pad->GetAtoZKey('L').trigger()) {
+					//ロックをかける
+					for (const auto& cID2 : cID->GetMySlotData().GetData()) {
+						if (cID->GetChildPtr() != DataBase::Instance()->GetItemData()->FindPtr(cID2.GetID())) {
+							PlayerData::Instance()->SetItemLock(DataBase::Instance()->GetItemData()->FindPtr(cID2.GetID())->GetIDstr().c_str(), false);
+						}
+					}
 					PlayerData::Instance()->OnOffItemLock(cID->GetChildPtr()->GetIDstr().c_str());
-					UpdateBlackListFlag();
+					if (PlayerData::Instance()->GetItemLock(cID->GetChildPtr()->GetIDstr().c_str())) {
+						PlayerData::Instance()->SetItemBlackList(cID->GetChildPtr()->GetIDstr().c_str(), false);
+					}
+					UpdateItemListFlag();
 				}
 				WindowSystem::DrawControl::Instance()->SetString(WindowSystem::DrawLayer::Front,
 					FontPool::FontType::MS_Gothic, LineHeight,
 					STRX_RIGHT, STRY_BOTTOM, Pad->GetMS_X(), Pad->GetMS_Y(), RedPop, Black,
-					"Lキーでブラックリストに設定"
+					"Bキーでブラックリストに設定"
 				);
-				if (false) {
-					WindowSystem::DrawControl::Instance()->SetDrawBox(WindowSystem::DrawLayer::Normal, XLeftPosition, YUp, XRight, YBottom, RedPop, false);
-					if (Pad->GetAtoZKey('L').trigger()) {
-						//ロックをかける
-						for (const auto& cID2 : cID->GetMySlotData().GetData()) {
-							if (cID->GetChildPtr() != DataBase::Instance()->GetItemData()->FindPtr(cID2.GetID())) {
-								PlayerData::Instance()->SetItemLock(DataBase::Instance()->GetItemData()->FindPtr(cID2.GetID())->GetIDstr().c_str(), false);
-							}
-						}
-						PlayerData::Instance()->OnOffItemLock(cID->GetChildPtr()->GetIDstr().c_str());
-					}
-					WindowSystem::DrawControl::Instance()->SetString(WindowSystem::DrawLayer::Front,
-						FontPool::FontType::MS_Gothic, LineHeight,
-						STRX_RIGHT, STRY_BOTTOM, Pad->GetMS_X(), Pad->GetMS_Y(), RedPop, Black,
-						"Lキーで優先パーツに設定"
-					);
-				}
+				WindowSystem::DrawControl::Instance()->SetString(WindowSystem::DrawLayer::Front,
+					FontPool::FontType::MS_Gothic, LineHeight,
+					STRX_RIGHT, STRY_BOTTOM, Pad->GetMS_X(), Pad->GetMS_Y() + LineHeight, RedPop, Black,
+					"Lキーでアイテム固定に設定"
+				);
 			}
 			m_SpecChange = false;
 			m_RecAddMin = 1000.f;
@@ -809,7 +829,7 @@ namespace FPS_n2 {
 				PageMngr->TurnOnGoNextPage();
 			}
 			};
-		m_CustomParts->UpdateBlackListFlag();
+		m_CustomParts->UpdateItemListFlag();
 	}
 	//
 	void CustomBG::LateExecute_Sub(int* xpos, int* ypos, float* scale) noexcept {
@@ -1023,12 +1043,11 @@ namespace FPS_n2 {
 				}
 			}
 		}
-		//
 		// ブラックリスト
 		{
 			auto* Pad = PadControl::Instance();
 			//
-			m_CustomParts->UpdateBlackList();
+			m_CustomParts->UpdateItemList();
 			//表示
 			int xp = LineHeight + DXDraw::Instance()->GetUIY(480);
 			int yp = LineHeight * 3 + LineHeight / 2;
@@ -1070,14 +1089,29 @@ namespace FPS_n2 {
 						pitem->Draw(x_1, y_1, x_2 - x_1, y_2 - y_1, 0, Gray25, (!WindowMngr->PosHitCheck(nullptr) && !(xp == 0 && yp == 0)), false, false, false);
 						if (IntoMouse(x_1, y_1, x_2, y_2)) {
 							WindowSystem::DrawControl::Instance()->SetDrawBox(WindowSystem::DrawLayer::Normal, x_1, y_1, x_2, y_2, RedPop, false);
-							if (Pad->GetAtoZKey('L').trigger()) {
+							if (Pad->GetAtoZKey('B').trigger()) {
+								PlayerData::Instance()->OnOffItemBlackList(item->GetIDstr().c_str());
+								if (PlayerData::Instance()->GetItemBlackList(item->GetIDstr().c_str())) {
+									PlayerData::Instance()->SetItemLock(item->GetIDstr().c_str(), false);
+								}
+								m_CustomParts->UpdateItemListFlag();
+							}
+							else if (Pad->GetAtoZKey('L').trigger()) {
 								PlayerData::Instance()->OnOffItemLock(item->GetIDstr().c_str());
-								m_CustomParts->UpdateBlackListFlag();
+								if (PlayerData::Instance()->GetItemLock(item->GetIDstr().c_str())) {
+									PlayerData::Instance()->SetItemBlackList(item->GetIDstr().c_str(), false);
+								}
+								m_CustomParts->UpdateItemListFlag();
 							}
 							WindowSystem::DrawControl::Instance()->SetString(WindowSystem::DrawLayer::Front,
 								FontPool::FontType::MS_Gothic, LineHeight,
 								STRX_RIGHT, STRY_BOTTOM, Pad->GetMS_X(), Pad->GetMS_Y(), RedPop, Black,
-								"Lキーでブラックリストに設定"
+								"Bキーでブラックリストに設定"
+							);
+							WindowSystem::DrawControl::Instance()->SetString(WindowSystem::DrawLayer::Front,
+								FontPool::FontType::MS_Gothic, LineHeight,
+								STRX_RIGHT, STRY_BOTTOM, Pad->GetMS_X(), Pad->GetMS_Y() + LineHeight, RedPop, Black,
+								"Lキーでアイテム固定に設定"
 							);
 						}
 					}
@@ -1105,7 +1139,108 @@ namespace FPS_n2 {
 					xp + DXDraw::Instance()->GetUIY(30) + DXDraw::Instance()->GetUIY(800) + DXDraw::Instance()->GetUIY(30), yp + 0 + LineHeight, LineHeight,
 					Gray25, false, !WindowMngr->PosHitCheck(nullptr), "ブラックリストにタスク開放品をセット")) {
 					m_CustomParts->CalcBlackList();
-					m_CustomParts->UpdateBlackListFlag();
+					m_CustomParts->UpdateItemListFlag();
+				}
+			}
+		}
+		// アイテム固定リスト
+		{
+			//GetItemLockList
+			auto* Pad = PadControl::Instance();
+			//
+			m_CustomParts->UpdateItemList();
+			//表示
+			int xp = LineHeight + DXDraw::Instance()->GetUIY(480);
+			int yp = LineHeight * 3 + LineHeight / 2 + DXDraw::Instance()->GetUIY(480);
+
+			int Max = (int)m_CustomParts->GetItemLockList().size();
+			{
+				int xofs = 0;
+				int yofs = 0;
+				WindowSystem::SetMsg(xp, yp + LineHeight / 2 + yofs, LineHeight, STRX_LEFT, White, Black, "アイテム固定(%d)", Max);
+				xofs = std::max(xofs, WindowSystem::GetMsgLen(LineHeight, "アイテム固定(%d)", Max) + DXDraw::Instance()->GetUIY(30)); yofs += LineHeight + DXDraw::Instance()->GetUIY(5);
+
+				int ysize = DXDraw::Instance()->GetUIY(36);
+				int ysizeAdd = ysize + DXDraw::Instance()->GetUIY(5);
+
+				int ofset = (int)(this->m_Scroll.GetNowScrollYPer() * (std::max(0, Max - 4 + 1) * ysizeAdd));
+				int yofs_t = yofs;
+				yofs_t += LineHeight + DXDraw::Instance()->GetUIY(5);
+				int ypMin = yp + yofs_t;
+				int ypMax = yp + yofs_t + ysizeAdd * 4;
+				int yp1 = yp + yofs_t - ofset;
+				for (auto* item : m_CustomParts->GetItemLockList()) {
+					if (ypMin - ysizeAdd < yp1 && yp1 < ypMax) {
+						if (ypMin < yp1 && yp1 < ypMax - ysizeAdd) {
+							WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255);
+						}
+						else {
+							if (yp1 <= ypMin) {
+								WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255 - std::clamp(255 * (ypMin - yp1) / ysizeAdd, 0, 255));
+							}
+							else {
+								WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255 - std::clamp(255 * (yp1 - (ypMax - ysizeAdd)) / ysizeAdd, 0, 255));
+							}
+						}
+						ItemList* pitem = (ItemList*)item;
+						int x_1 = xp + DXDraw::Instance()->GetUIY(30);
+						int y_1 = yp1;
+						int x_2 = x_1 + DXDraw::Instance()->GetUIY(800);
+						int y_2 = y_1 + ysize;
+						pitem->Draw(x_1, y_1, x_2 - x_1, y_2 - y_1, 0, Gray25, (!WindowMngr->PosHitCheck(nullptr) && !(xp == 0 && yp == 0)), false, false, false);
+						if (IntoMouse(x_1, y_1, x_2, y_2)) {
+							WindowSystem::DrawControl::Instance()->SetDrawBox(WindowSystem::DrawLayer::Normal, x_1, y_1, x_2, y_2, RedPop, false);
+							if (Pad->GetAtoZKey('B').trigger()) {
+								PlayerData::Instance()->OnOffItemBlackList(item->GetIDstr().c_str());
+								if (PlayerData::Instance()->GetItemBlackList(item->GetIDstr().c_str())) {
+									PlayerData::Instance()->SetItemLock(item->GetIDstr().c_str(), false);
+								}
+								m_CustomParts->UpdateItemListFlag();
+							}
+							else if (Pad->GetAtoZKey('L').trigger()) {
+								PlayerData::Instance()->OnOffItemLock(item->GetIDstr().c_str());
+								if (PlayerData::Instance()->GetItemLock(item->GetIDstr().c_str())) {
+									PlayerData::Instance()->SetItemBlackList(item->GetIDstr().c_str(), false);
+								}
+								m_CustomParts->UpdateItemListFlag();
+							}
+							WindowSystem::DrawControl::Instance()->SetString(WindowSystem::DrawLayer::Front,
+								FontPool::FontType::MS_Gothic, LineHeight,
+								STRX_RIGHT, STRY_BOTTOM, Pad->GetMS_X(), Pad->GetMS_Y(), RedPop, Black,
+								"Bキーでブラックリストに設定"
+							);
+							WindowSystem::DrawControl::Instance()->SetString(WindowSystem::DrawLayer::Front,
+								FontPool::FontType::MS_Gothic, LineHeight,
+								STRX_RIGHT, STRY_BOTTOM, Pad->GetMS_X(), Pad->GetMS_Y() + LineHeight, RedPop, Black,
+								"Lキーでアイテム固定に設定"
+							);
+						}
+					}
+					yofs_t += ysizeAdd;
+					yp1 += ysizeAdd;
+				}
+				WindowSystem::DrawControl::Instance()->SetAlpha(WindowSystem::DrawLayer::Normal, 255);
+				//スクロールバー
+				{
+					float Total = (float)(yofs_t - yofs) / (ypMax - ypMin);
+					if (Total > 1.f) {
+						this->m_Scroll.SetScrollBoxParam(
+							xp + DXDraw::Instance()->GetUIY(30), ypMin,
+							xp + DXDraw::Instance()->GetUIY(30) + DXDraw::Instance()->GetUIY(800) + DXDraw::Instance()->GetUIY(30), ypMax,
+							Total, !WindowMngr->PosHitCheck(nullptr));
+						this->m_Scroll.ScrollBox();
+					}
+				}
+				yofs = ypMax - yp;
+				//
+				yofs += LineHeight + DXDraw::Instance()->GetUIY(5);
+
+				if (WindowSystem::SetMsgClickBox(
+					xp + DXDraw::Instance()->GetUIY(30) + DXDraw::Instance()->GetUIY(800) + DXDraw::Instance()->GetUIY(30) - DXDraw::Instance()->GetUIY(480), yp + 0,
+					xp + DXDraw::Instance()->GetUIY(30) + DXDraw::Instance()->GetUIY(800) + DXDraw::Instance()->GetUIY(30), yp + 0 + LineHeight, LineHeight,
+					Gray25, false, !WindowMngr->PosHitCheck(nullptr), "アイテム固定にタスク開放品をセット")) {
+					//m_CustomParts->CalcBlackList();
+					m_CustomParts->UpdateItemListFlag();
 				}
 			}
 		}

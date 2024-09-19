@@ -20,6 +20,7 @@ namespace FPS_n2 {
 	private:
 		std::string					m_LastDataReceive;
 		std::vector<ItemLockData>	m_ItemLockData;
+		std::vector<ItemLockData>	m_ItemBlackListData;
 		std::vector<std::string>	m_TaskClearData;
 		std::vector<std::pair<std::string, int>>	m_HideoutClearData;
 	private:
@@ -39,42 +40,90 @@ namespace FPS_n2 {
 	public:
 		void			Load(void) noexcept;
 		void			Save(void) noexcept;
-	public:
-		void OnOffItemLock(const char* ID) noexcept {
+	private:
+		ItemLockData* GetItemLockPtr(const char* ID) const noexcept {
 			auto Point = std::find_if(m_ItemLockData.begin(), this->m_ItemLockData.end(), [&](const ItemLockData& Data) {return (Data.GetID() == ID); });
 			if (Point != this->m_ItemLockData.end()) {
+				return (ItemLockData*)&*Point;
+			}
+			return nullptr;
+		}
+		ItemLockData* GetItemBlackListPtr(const char* ID) const noexcept {
+			auto Point = std::find_if(m_ItemBlackListData.begin(), this->m_ItemBlackListData.end(), [&](const ItemLockData& Data) {return (Data.GetID() == ID); });
+			if (Point != this->m_ItemBlackListData.end()) {
+				return (ItemLockData*)&*Point;
+			}
+			return nullptr;
+		}
+	public:
+		void OnOffItemLock(const char* ID) noexcept {
+			auto* Point = GetItemLockPtr(ID);
+			if (Point) {
 				Point->SetIsLock(!Point->GetIsLock());
 			}
 			else {
 				m_ItemLockData.resize(m_ItemLockData.size() + 1);
 				m_ItemLockData.back().SetID(ID);
-				m_ItemLockData.back().SetIsLock(!m_ItemLockData.back().GetIsLock());
+				m_ItemLockData.back().SetIsLock(true);
 			}
 		}
 		void SetItemLock(const char* ID, bool value) noexcept {
-			auto Point = std::find_if(m_ItemLockData.begin(), this->m_ItemLockData.end(), [&](const ItemLockData& Data) {return (Data.GetID() == ID); });
-			if (Point != this->m_ItemLockData.end()) {
+			auto* Point = GetItemLockPtr(ID);
+			if (Point) {
 				Point->SetIsLock(value);
 			}
-			else {
+			else if (value) {
 				m_ItemLockData.resize(m_ItemLockData.size() + 1);
 				m_ItemLockData.back().SetID(ID);
 				m_ItemLockData.back().SetIsLock(value);
 			}
 		}
 		const auto GetItemLock(const char* ID) noexcept {
-			auto Point = std::find_if(m_ItemLockData.begin(), this->m_ItemLockData.end(), [&](const ItemLockData& Data) {return (Data.GetID() == ID); });
-			if (Point != this->m_ItemLockData.end()) {
+			auto* Point = GetItemLockPtr(ID);
+			if (Point) {
 				return Point->GetIsLock();
 			}
 			else {
-				m_ItemLockData.resize(m_ItemLockData.size() + 1);
-				m_ItemLockData.back().SetID(ID);
-				m_ItemLockData.back().SetIsLock(false);
-				return this->m_ItemLockData.back().GetIsLock();
+				return false;
 			}
 		}
-
+		//
+		void OnOffItemBlackList(const char* ID) noexcept {
+			auto* Point = GetItemBlackListPtr(ID);
+			if (Point) {
+				Point->SetIsLock(!Point->GetIsLock());
+			}
+			else {
+				m_ItemBlackListData.resize(m_ItemBlackListData.size() + 1);
+				m_ItemBlackListData.back().SetID(ID);
+				m_ItemBlackListData.back().SetIsLock(!m_ItemBlackListData.back().GetIsLock());
+			}
+		}
+		void SetItemBlackList(const char* ID, bool value) noexcept {
+			auto* Point = GetItemBlackListPtr(ID);
+			if (Point) {
+				Point->SetIsLock(value);
+			}
+			else if (value) {
+				m_ItemBlackListData.resize(m_ItemBlackListData.size() + 1);
+				m_ItemBlackListData.back().SetID(ID);
+				m_ItemBlackListData.back().SetIsLock(value);
+			}
+		}
+		const auto GetItemBlackList(const char* ID) noexcept {
+			auto* Point = GetItemBlackListPtr(ID);
+			if (Point) {
+				return Point->GetIsLock();
+			}
+			else {
+				return false;
+				//m_ItemBlackListData.resize(m_ItemBlackListData.size() + 1);
+				//m_ItemBlackListData.back().SetID(ID);
+				//m_ItemBlackListData.back().SetIsLock(false);
+				//return this->m_ItemBlackListData.back().GetIsLock();
+			}
+		}
+		//
 		void OnOffTaskClear(const char* ID) noexcept {
 			auto Point = std::find_if(m_TaskClearData.begin(), this->m_TaskClearData.end(), [&](const std::string& Data) {return (Data == ID); });
 			if (Point != this->m_TaskClearData.end()) {

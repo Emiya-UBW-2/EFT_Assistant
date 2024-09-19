@@ -19,7 +19,8 @@ namespace FPS_n2 {
 			auto Args = GetArgs(RIGHT);
 			//アイテムデータ読みとり
 			if (LEFT == "LastDataReceive") { this->m_LastDataReceive = RIGHT; }
-			else if (LEFT == "ItemData") { SetItemLock(Args.at(0).c_str(), Args.at(1) == "true"); }
+			else if (LEFT == "LockData") { SetItemLock(Args.at(0).c_str(), Args.at(1) == "true"); }
+			else if (LEFT == "BlackList") { SetItemBlackList(Args.at(0).c_str(), Args.at(1) == "true"); }
 			else if (LEFT == "ClearTask") { this->m_TaskClearData.emplace_back(RIGHT); }
 			else if (LEFT == "UnlockHideout") {
 				auto L = RIGHT.rfind("x");
@@ -42,7 +43,10 @@ namespace FPS_n2 {
 		outputfile << "LastDataReceive=" + this->m_LastDataReceive + "\n";
 
 		for (auto& LD : this->m_ItemLockData) {
-			outputfile << "ItemData=[" + LD.GetID() + DIV_STR + (LD.GetIsLock() ? "true" : "false") + "]\n";
+			outputfile << "LockData=[" + LD.GetID() + DIV_STR + (LD.GetIsLock() ? "true" : "false") + "]\n";
+		}
+		for (auto& LD : this->m_ItemBlackListData) {
+			outputfile << "BlackList=[" + LD.GetID() + DIV_STR + (LD.GetIsLock() ? "true" : "false") + "]\n";
 		}
 		for (auto& LD : this->m_TaskClearData) {
 			outputfile << "ClearTask=" + LD + "\n";

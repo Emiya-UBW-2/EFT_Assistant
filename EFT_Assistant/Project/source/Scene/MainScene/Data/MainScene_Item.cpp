@@ -428,8 +428,9 @@ namespace FPS_n2 {
 		int  Xsize = 0;
 
 		int GraphXsize = (GetIcon().GetGraph()) ? ((GetIcon().GetXSize() >= GetIcon().GetYSize()) ? (ysize * GetIcon().GetXSize() / GetIcon().GetYSize()) : (ysize * GetIcon().GetYSize() / GetIcon().GetXSize())) : 0;
+		bool IsBlackList = PlayerData::Instance()->GetItemBlackList(this->GetIDstr().c_str());
 		bool IsLocked = PlayerData::Instance()->GetItemLock(this->GetIDstr().c_str());
-		int FirXSize = (IsFir || IsLocked) ? 36 : 0;
+		int FirXSize = (IsFir || IsBlackList || IsLocked) ? 36 : 0;
 		int  StrXSize = 0;
 
 		std::string Name = "";
@@ -524,6 +525,13 @@ namespace FPS_n2 {
 			}
 		}
 
+		if (IsBlackList) {
+			if (DrawGraphs::Instance()->GetLockGraph().GetGraph()) {
+				WindowSystem::DrawControl::Instance()->SetBright(WindowSystem::DrawLayer::Front, 0, 0, 0);
+				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Front, DrawGraphs::Instance()->GetLockGraph().GetGraph(), xp + FirXSize / 2, yp + ysize / 2, 1.f, 0.f, true);
+				WindowSystem::DrawControl::Instance()->SetBright(WindowSystem::DrawLayer::Front, 255, 255, 255);
+			}
+		}
 		if (IsLocked) {
 			if (DrawGraphs::Instance()->GetLockGraph().GetGraph()) {
 				WindowSystem::DrawControl::Instance()->SetDrawRotaGraph(WindowSystem::DrawLayer::Front, DrawGraphs::Instance()->GetLockGraph().GetGraph(), xp + FirXSize / 2, yp + ysize / 2, 1.f, 0.f, true);

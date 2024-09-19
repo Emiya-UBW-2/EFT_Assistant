@@ -93,14 +93,16 @@ namespace FPS_n2 {
 		bool									m_SpecChange{ false };
 
 		std::vector<const ItemList*>			m_BlackList;
-		bool									m_BlackListUpdate{ false };
+		std::vector<const ItemList*>			m_ItemLockList;
+		bool									m_ItemListUpdate{ false };
 	private:
 		void				AddSelectToCanSelect(ChildData* cID) noexcept;
 		void				SubSelectToCanSelect(ChildData* cID) noexcept;
 	public:
-		void		UpdateBlackListFlag() noexcept { m_BlackListUpdate = true; }
-		void		UpdateBlackList() noexcept;
+		void		UpdateItemListFlag() noexcept { m_ItemListUpdate = true; }
+		void		UpdateItemList() noexcept;
 		const auto& GetBlackList(void) const noexcept { return m_BlackList; }
+		const auto& GetItemLockList(void) const noexcept { return m_ItemLockList; }
 
 
 		const auto& IsSpecChange(void) const noexcept { return m_SpecChange; }
